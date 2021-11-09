@@ -1,6 +1,6 @@
 ---
 title: Créer un modèle à partir d’un modèle d’équipe existant dans Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 095596684c52615340efa32e7dcfd78eb3e9e823
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ac461654031507dad1340de7d0e0998aee61b3c1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745590"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831758"
 ---
 # <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>Créer un modèle d’équipe à partir d’un modèle d’équipe existant dans Microsoft Teams
 
@@ -45,7 +45,7 @@ Microsoft Teams fournit des modèles pré-conçus qui peuvent être enregistrés
 
 5. Dans **l’écran Sélectionner le modèle à utiliser comme écran de point** de départ, sélectionnez **Suivant.**
 
-    Le modèle dupliqué s’ouvre et le mot **Copie** est intégré au nom.
+    Le modèle dupliqué s’ouvre et le **mot** Copier est intégré au nom.
 
 6. Remplissez les champs suivants, puis sélectionnez **Suivant**:
     - Nom du modèle

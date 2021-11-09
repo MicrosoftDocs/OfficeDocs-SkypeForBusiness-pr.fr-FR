@@ -2,7 +2,7 @@
 title: Configurer l’échappatoire de messagerie vocale dans Skype Entreprise
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 'Résumé : Découvrez comment configurer la boîte aux lettres d’Skype Entreprise Server à l’aide de Skype Entreprise Server Management Shell.'
-ms.openlocfilehash: 3414b099587b45918b28ac3e11dcf75924f41dd6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7bd18056362fc4ed6ffdede31515b6eb41d8b134
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740100"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865321"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>Configurer l’échappatoire de messagerie vocale dans Skype Entreprise
 
@@ -33,7 +33,7 @@ Cette configuration est effectuée à l’aide de l’Skype Entreprise Server Ma
 
 ### <a name="to-configure-voice-mail-escape"></a>Pour configurer l’échappage de messagerie vocale
 
-1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
 
 2. Spécifiez les paramètres suivants de **Set-CsVoicePolicy** :
 

@@ -2,7 +2,7 @@
 title: Configurer le service de conformité pour le serveur de conversation permanente dans Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Résumé : Découvrez comment configurer le service de conformité du serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: af574e4b449211f1631c332e7f494fba6c75e750
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 23f28c2071063e2729deb54eea9703a7699e3e07
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778314"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858241"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurer le service de conformité pour le serveur de conversation permanente dans Skype Entreprise Server 2015
 
@@ -34,7 +34,7 @@ La conformité de conversation permanente permet aux administrateurs de gérer u
 
 - Affichages de l’historique des conversation
 
-- Télécharge un fichier
+- Charge un fichier
 
 - Télécharge un fichier
 
@@ -45,7 +45,7 @@ Ces informations peuvent être récupérées à partir de la base de données de
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Configurer le service de conformité à l’aide de Windows PowerShell
 
-Une fois que le service de conformité a été activé à l’aide du Générateur de topologie, vous pouvez configurer le service à l’aide de l';; 
+Une fois que le service de conformité a été activé à l’aide du Générateur de topologie, vous pouvez configurer le service à l’aide de l’cmdlet **Set-CsPersistenChatComplianceConfiguration** :
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
@@ -77,7 +77,7 @@ Vous pouvez écrire un adaptateur personnalisé au lieu d’utiliser le XmlAdapt
 
 L’interface est définie dans l’assembly Compliance.dll dans l’espace de  `Microsoft.Rtc.Internal.Chat.Server.Compliance` noms. Elle définit deux méthodes que votre adaptateur personnalisé doit implémenter.
 
-Le serveur de conformité de conversation permanente appelle la méthode suivante lors du premier chargement de l’adaptateur. Contient  `AdapterConfig` la configuration de conformité de conversation permanente qui est pertinente pour l’adaptateur de conformité :
+Le serveur de conformité de conversation permanente appelle la méthode suivante lors du premier chargement de l’adaptateur. Contient la configuration de conformité de conversation permanente  `AdapterConfig` qui est pertinente pour l’adaptateur de conformité :
 
 ```cpp
 void SetConfig(AdapterConfig config)
@@ -138,7 +138,7 @@ Le tableau suivant décrit les attributs de message Type, Content et ID.
 
 |**Attribut**|**Description**|**Facultatif/Obligatoire**|
 |:-----|:-----|:-----|
-|Type  <br/> |Spécifie le type de message. Les types de message sont décrits dans la table Éléments de message Types de message.  <br/> |Requis  <br/> |
+|Type  <br/> |Spécifie le type de message. Les types de message sont décrits dans la table Éléments de message Types de message.  <br/> |Obligatoire  <br/> |
 |Contenu  <br/> |Contient le contenu du message. Les messages de type Join ou Part n’utilisent pas cet attribut.  <br/> |Facultatif  <br/> |
 |ID  <br/> |Spécifie l’ID unique du contenu. Cet attribut est utilisé uniquement avec les messages de type Chat.  <br/> |Facultatif  <br/> |
 
@@ -149,10 +149,10 @@ Chaque élément Sender contient cinq attributs : username, ID, email, internal
 |**Attribut**|**Description**|**Facultatif/Obligatoire**|
 |:-----|:-----|:-----|
 |Nom d’utilisateur  <br/> |Nom de l’expéditeur.  <br/> |Facultatif  <br/> |
-|ID  <br/> |ID unique de l’expéditeur.  <br/> |Requis  <br/> |
+|ID  <br/> |ID unique de l’expéditeur.  <br/> |Obligatoire  <br/> |
 |E-mail  <br/> |Adresse e-mail de l’expéditeur.  <br/> |Facultatif  <br/> |
 |Interne  <br/> |Détermine si l’utilisateur est un utilisateur interne ou fédéré. Si la valeur est Vraie, l’utilisateur est interne.  <br/> |Facultatif  <br/> |
-|Uri  <br/> |URI SIP de l’utilisateur.  <br/> |Requis  <br/> |
+|Uri  <br/> |URI SIP de l’utilisateur.  <br/> |Obligatoire  <br/> |
 
 Les exemples suivants montrent les types de messages que l’élément Messages peut contenir. Elle fournit également des exemples de la manière avec laquelle chaque élément est utilisé.
 

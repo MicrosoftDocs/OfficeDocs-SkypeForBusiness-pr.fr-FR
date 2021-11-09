@@ -2,7 +2,7 @@
 title: Ajouter un magasin SQL Server de conformité de conversation permanente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 description: Vous configurez les magasins de SQL Server qui fourniront des bases de données pour la fonctionnalité de conformité du serveur de conversation permanente ou du serveur de conversation permanente.
-ms.openlocfilehash: e6db005c44606a7d79f25e5999630cc805ed5f54
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: af6915193afc095ae5ce8cef087bbc652555e9b3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747840"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857631"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>Ajouter un magasin SQL Server de conformité de conversation permanente
  
@@ -30,7 +30,7 @@ Vous configurez les magasins de SQL Server qui fourniront des bases de données 
   
 Cliquez **sur Nouveau** pour définir une nouvelle SQL Server et éventuellement une nouvelle instance pour les données de conformité de conversation permanente.
   
-Activez la case **à cocher Activer SQL Server** de mise en miroir pour configurer une base de données SQL Server et une instance facultative qui fournira une base de données en miroir pour les données de conformité de conversation permanente.
+Activez la case à **cocher Activer SQL Server** de mise en miroir pour configurer une base de données SQL Server et une instance facultative qui fournira une base de données en miroir pour les données de conformité de conversation permanente.
   
 Dans la liste Mise en **miroir SQL Server** stockez une instance SQL Server et facultative pour agir en tant que miroir SQL Server pour le SQL Server de conformité de conversation permanente.
   

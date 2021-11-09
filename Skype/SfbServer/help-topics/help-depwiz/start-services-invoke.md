@@ -2,7 +2,7 @@
 title: Démarrer les services (Invoke)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 description: Le volet Résumé du volet Exécution de commandes affiche l’état des tâches émises pour démarrer les services pour le serveur de rôles Skype Entreprise Server 2015 que vous déployez. Le résumé dans le volet des tâches ne représente pas une indication en temps réel du démarrage du service. Certains des services Skype Entreprise Server peuvent prendre un certain temps pour commencer le processus de démarrage initial. Les tâches exécutent la commande de démarrage, mais n’attendent pas de savoir si le service est lancé avec succès. Si vous devez surveiller le démarrage et l’état du service, utilisez la console MMC (Microsoft Management Console) Services Windows.
-ms.openlocfilehash: 109a3e333919162ff244361a101b17616c3bc3d0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 714b92d4658112c699c5c8aa42f397130381eb8d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769072"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833590"
 ---
 # <a name="start-services-invoke"></a>Démarrer les services (appeler)
  

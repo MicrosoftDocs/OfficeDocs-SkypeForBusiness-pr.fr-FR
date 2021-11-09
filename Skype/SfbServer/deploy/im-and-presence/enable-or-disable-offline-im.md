@@ -2,7 +2,7 @@
 title: Activer ou désactiver la messagerie instantanée hors connexion dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: Découvrez comment activer ou désactiver la messagerie instantanée hors connexion dans Skype Entreprise Server.
-ms.openlocfilehash: 36894fb2a1ed11428b21b572a28e9ac177a4237d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: aace1ca45c224ce6ef6c7d6d6f151ecd3ab9b260
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753326"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858631"
 ---
 # <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>Activer ou désactiver la messagerie instantanée hors connexion dans Skype Entreprise Server
  
@@ -63,7 +63,7 @@ Il existe un minuteur de deux minutes entre le moment où un message hors connex
   
   <pre>  %localappdata%\microsoft\office\16.0\lync\SipUserAddress\History Spooler   </pre>
 
-Le journal SKYPE ENTREPRISE principal contient des informations sur le traitement des messages hors connexion et constitue la meilleure source d’investigation/de dépannage. 
+Le principal Skype Entreprise JOURNAL ETL contient des informations sur le traitement des messages hors connexion et constitue la meilleure source d’investigation/de dépannage. 
   
 > [!NOTE]
 > Un problème a été signalé lorsque les messages hors connexion n’ont pas pu être envoyés et que le dossier « Brouillons » était rempli de messages. Cela s’est produit Exchange boîtes aux lettres sur site. Le problème a été résolu dans tous les canaux C2R depuis le 14/06/2016.  

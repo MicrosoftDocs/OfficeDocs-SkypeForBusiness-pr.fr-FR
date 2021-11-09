@@ -1,7 +1,7 @@
 ---
 title: Skype Déploiements hybrides du système de salle
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement hybride.
-ms.openlocfilehash: c47809fcf5277ed34f11955b19306e6a4078d650
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: caebf77f0ef5abb2b56c64446ad04a052d8f98f9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751353"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841946"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype Déploiements hybrides du système de salle
 
@@ -25,7 +25,7 @@ Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un
   
 ## <a name="hybrid-deployments"></a>Déploiements hybrides
 
-Suivez ces étapes si votre topologie dispose de Skype Entreprise Server et Exchange Online et que vous souhaitez héberger la boîte aux lettres de ressources Skype Room System sur Exchange Online. Cette section couvre également un scénario hybride dans lequel vous avez déployé Exchange Online et Exchange Server déploiement.
+Suivez ces étapes si votre topologie Skype Entreprise Server des Exchange Online et que vous souhaitez héberger la boîte aux lettres de ressources Skype Room System sur Exchange Online. Cette section couvre également un scénario hybride dans lequel vous avez déployé Exchange Online et Exchange Server déploiement.
   
 À titre d’illustration, nous utilisons LyncSample.com pour le domaine local et LyncSample.ccstp.net pour le domaine en ligne.
   
@@ -60,6 +60,6 @@ Suivez ces étapes si votre topologie dispose de Skype Entreprise Server et Exch
    ```
 
 > [!NOTE]
-> Si vous avez Skype Entreprise Online au lieu de Skype Entreprise Server dans le scénario ci-dessus, une fois la boîte aux lettres de ressources Exchange mise en service, vous devez mettre en service un compte Skype Entreprise comme décrit dans Skype Entreprise Online Approvisionnement. 
+> Si vous avez Skype Entreprise Online au lieu de Skype Entreprise Server dans le scénario ci-dessus, après la mise en service de la boîte aux lettres de ressources Exchange, mettre en service un compte Skype Entreprise comme décrit dans Skype Entreprise Online Approvisionnement. 
   
 

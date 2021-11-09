@@ -2,7 +2,7 @@
 title: Gérer les paramètres de configuration du service de journalisation centralisée Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Résumé : Découvrez comment récupérer, mettre à jour et créer des paramètres de configuration pour le service de journalisation centralisée dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: a6225af25abc2db0375e7ca93ae22c342a1ec498
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 27202b870ba0115f045eda367619a449b307e708
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778164"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831928"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Gérer les paramètres de configuration du service de journalisation centralisée Skype Entreprise Server 2015
 
@@ -73,7 +73,7 @@ Les étendues de site et globales sont définies dans les cmdlets **New-**, **Se
    Get-CsClsConfiguration
    ```
 
-Utilisez les cmdlets **New-CsClsConfiguration** et **Set-CsClsConfiguration** pour créer une configuration ou mettre à jour une configuration existante. Lorsque vous exécutez **Get-CsClsConfiguration,** il affiche des informations similaires à la capture d’écran suivante, où le déploiement possède actuellement la configuration globale par défaut, mais aucune configuration de site définie :
+Utilisez les cmdlets **New-CsClsConfiguration** et **Set-CsClsConfiguration** pour créer une configuration ou mettre à jour une configuration existante. Lorsque vous exécutez **Get-CsClsConfiguration,** il affiche des informations similaires à la capture d’écran suivante, où le déploiement a actuellement la configuration globale par défaut, mais aucune configuration de site définie :
 
 ![Exemple de sortie de Get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
 
@@ -105,7 +105,7 @@ Lorsque vous utilisez le premier exemple où **Get-CsClsConfiguration** ne spéc
    ```
 
 L’cmdlet **Get-CsClsConfiguration** affiche toujours les scénarios qui font partie de la configuration d’une étendue donnée. Dans la plupart des cas, tous les scénarios ne sont pas affichés, et sont tronqués. La commande utilisée ici répertorie tous les scénarios et des informations partielles sur les fournisseurs, les paramètres et les indicateurs utilisés.
-### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Pour mettre à jour une étendue globale pour le service de journalisation centralisée à l’aide Windows PowerShell
+### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Pour mettre à jour une étendue globale pour le service de journalisation centralisée à l’aide de Windows PowerShell
 
 1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
 

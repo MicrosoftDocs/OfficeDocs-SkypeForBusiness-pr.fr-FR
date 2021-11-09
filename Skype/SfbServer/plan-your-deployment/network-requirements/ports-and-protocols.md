@@ -2,7 +2,7 @@
 title: Exigences en matière de ports et de protocoles pour les serveurs
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Résumé : Examinez les considérations d’utilisation des ports avant d’implémenter Skype Entreprise Server.'
-ms.openlocfilehash: a1523ccb821006737a53094151d4a6694c502fc4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c820070fb73dd1f3325b0141a3fa05b3f19bd683
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777934"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834070"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Exigences en matière de ports et de protocoles pour les serveurs
  
@@ -30,7 +30,7 @@ ms.locfileid: "60777934"
   
 Skype Entreprise Server nécessite que des ports spécifiques sur les pare-feu externes et internes soient ouverts. En outre, si la sécurité du protocole Internet (IPsec) est déployée dans votre organisation, IPsec doit être désactivé sur la plage de ports utilisée pour la distribution de l’audio, de la vidéo et de la vidéo panoramique. 
   
-Bien que cela puisse sembler un peu difficile, le travail de planification peut être effectué à l’aide de l’outil de planification Skype Entreprise Server 2015. Une fois que vous avez répondu aux questions de l’Assistant sur les fonctionnalités que vous prévoyez d’utiliser, pour chaque site que vous définissez, vous pouvez afficher le rapport de pare-feu dans le rapport d’administration Edge et utiliser les informations répertoriées ici pour créer vos règles de pare-feu. Vous pouvez également apporter des ajustements à de nombreux noms et adresses IP utilisés, pour plus d’informations, consultez le rapport de [pare-feu.](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report) Gardez à l’esprit que vous pouvez exporter le rapport d’administration Edge vers une feuille de calcul Excel, et le rapport de pare-feu sera l’une des feuilles de calcul dans le fichier. 
+Bien que cela puisse sembler un peu difficile, le travail de planification peut être effectué à l’aide de l’outil de planification Skype Entreprise Server 2015. Une fois que vous avez répondu aux questions de l’Assistant sur les fonctionnalités que vous prévoyez d’utiliser, pour chaque site que vous définissez, vous pouvez afficher le rapport de pare-feu dans le rapport d’administration Edge et utiliser les informations répertoriées ici pour créer vos règles de pare-feu. Vous pouvez également apporter des ajustements à la plupart des noms et adresses IP utilisés, pour plus d’informations, consultez le rapport de [pare-feu.](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report) Gardez à l’esprit que vous pouvez exporter le rapport d’administration Edge vers une feuille de calcul Excel, et le rapport de pare-feu sera l’une des feuilles de calcul du fichier. 
   
 Vous trouverez les informations dans ces tableaux sous forme de diagramme en reviewant l’affiche Charges de travail de protocole liées à partir des diagrammes techniques de [l’article Skype Entreprise Server 2015.](../../technical-diagrams.md)
 
@@ -56,7 +56,7 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
 |Tous les serveurs  |SQL Browser  |1434  |UDP  |SQL Navigateur de la copie répliquée locale de la base de données du magasin central de gestion.  |
 |Front-End serveurs  |Skype Entreprise Server Front-End service  |5060  |TCP  |Utilisé facultativement par les serveurs Standard Edition Server et les serveurs frontaux pour les itinéraires statiques vers des services approuvés, comme les serveurs de contrôle d’appel distant.  |
 |Serveurs frontaux  |Skype Entreprise Server Front-End service  |5061  | TCP (TLS) |Utilisé par les serveurs Standard Edition Server et les pools frontaux pour toutes les communications SIP internes entre serveurs (MTLS), pour les communications SIP entre serveurs et clients (TLS) et pour les communications SIP entre serveurs frontaux et serveurs de médiation (MTLS). Également utilisé pour les communications avec un serveur de surveillance.  |
-| Serveurs frontaux |Skype Entreprise Server Front-End service  |444  | HTTPS <br/> TCP  |Utilisé pour la communication HTTPS entre le focus (composant Skype Entreprise Server qui gère l’état de conférence) et les serveurs individuels.  <br/> Ce port est également utilisé pour la communication TCP entre les Survivable Branch Appliances et les serveurs frontux.  |
+| Serveurs frontaux |Skype Entreprise Server Front-End service  |444  | HTTPS <br/> TCP  |Utilisé pour la communication HTTPS entre le focus (le Skype Entreprise Server qui gère l’état de conférence) et les serveurs individuels.  <br/> Ce port est également utilisé pour la communication TCP entre les Survivable Branch Appliances et les serveurs frontux.  |
 |Serveurs frontaux  |Skype Entreprise Server Front-End service  |135  |DCOM et appel de procédure distante (RPC)  |Utilisé pour les opérations DCOM, telles que le déplacement des utilisateurs, la synchronisation du réplicateur d’utilisateurs et la synchronisation du carnet d’adresses.  |
 |Serveurs frontaux  |Skype Entreprise Server Service de conférence de messagerie instantanée  |5062  |TCP  |Utilisé pour les demandes SIP entrantes dans le cadre de conférences de messagerie instantanée.  |
 |Serveurs frontaux  |Skype Entreprise Server Service de conférence web  |8057  |TCP (TLS)  |Utilisé pour l’écoute des connexions PSOM (Persistent Shared Object Model) à partir d’un client.  |
@@ -66,7 +66,7 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
 |Serveurs frontaux  |Skype Entreprise Server Service de compatibilité web  |80  |HTTP  |Utilisé pour les communications à partir des serveurs frontaux vers les noms de domaine complets des batteries de serveurs web (URL utilisées par les composants web IIS) lorsque HTTPS n’est pas utilisé.  |
 |Serveurs frontaux  |Skype Entreprise Server Service de compatibilité web  |443  |HTTPS  |Utilisé pour les communications à partir des serveurs frontaux vers les noms de domaine complets des batteries de serveurs web (URL utilisées par les composants web IIS).  |
 |Serveurs frontaux  |Skype Entreprise Server Service de compatibilité web  |8080  |TCP et HTTP  |Utilisé par les composants web pour l’accès externe.  |
-|Serveurs frontaux  |Composant de serveur Web  |4443  |HTTPS  |Communications HTTPS (à partir d’un proxy inverse) et entre les pool frontaux HTTPS pour la connexion de découverte automatique.  |
+|Serveurs frontaux  |Composant serveur Web  |4443  |HTTPS  |Communications HTTPS (à partir d’un proxy inverse) et entre les pool frontaux HTTPS pour la connexion de découverte automatique.  |
 |Serveurs frontaux  |Composant serveur Web  |8060  |TCP (MTLS)  ||
 |Serveurs frontaux  |Composant serveur Web  |8061  |TCP (MTLS)  ||
 |Serveurs frontaux  |Composant Mobility Services  |5086  |TCP (MTLS)  |Port SIP utilisé par les processus internes mobility services  |
@@ -177,7 +177,7 @@ Vos pools frontaux et pools directeurs qui font appel à l’équilibrage de cha
   
 ## <a name="ipsec-exceptions"></a>Exceptions IPsec
 
-Pour les réseaux d’entreprise où la sécurité du protocole Internet (IPsec) (voir RFC 4301-4309 de l’IETF) a été déployée, IPsec doit être désactivée sur la plage de ports utilisée pour la distribution de l’audio, de la vidéo et de la vidéo panoramique. Cette recommandation s’explique par la nécessité d’éviter tout retard dans l’affectation des ports multimédias lors de la négociation IPsec.
+Pour les réseaux d’entreprise où la sécurité du protocole Internet (IPsec) (voir la RFC 4301-4309 de l’IETF) a été déployée, IPsec doit être désactivée sur la plage de ports utilisée pour la distribution de l’audio, de la vidéo et de la vidéo panoramique. Cette recommandation s’explique par la nécessité d’éviter tout retard dans l’affectation des ports multimédias lors de la négociation IPsec.
   
 Le tableau suivant présente les paramètres recommandés pour les exceptions IPsec. 
   

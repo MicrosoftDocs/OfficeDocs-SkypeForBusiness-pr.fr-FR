@@ -1,6 +1,6 @@
 ---
 title: Configurer la fonctionnalité M’appeler pour vos utilisateurs
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: macai, phedry
 manager: serdars
@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c9269de290ff4aec3380dccc7c114c7113256973
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 708b521d52dc3732e89ec1e3c27ab45c74481361
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766153"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842026"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Configurer la fonctionnalité M’appeler pour vos utilisateurs
 
@@ -45,7 +45,7 @@ Cliquez **sur Rejoindre** pour participer à une réunion, sélectionnez Télép
 
 **Laisser la réunion Teams un appel**
 
-Sur **l’écran Utiliser le téléphone pour l’audio,** l’utilisateur entre son numéro de téléphone, puis clique sur **M’appeler.** La réunion appelle l’utilisateur et l’intègre à la réunion.
+Dans **l’écran Utiliser le téléphone pour l’audio,** l’utilisateur entre son numéro de téléphone, puis clique sur **M’appeler.** La réunion appelle l’utilisateur et l’intègre à la réunion.
 
 ![Capture d’écran de l’option M’appeler sur l’écran Utiliser le téléphone pour l’audio.](media/set-up-the-call-me-feature-for-your-users-call-me.png)
 
@@ -63,13 +63,13 @@ Voici un exemple du message  et de l’option Me rappeler qui s’affiche quand 
 
 ![Capture d’écran de l’option Me rappeler.](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
-L’utilisateur clique **sur Me rappeler,** ce qui affiche l’écran **Utiliser le téléphone pour l’audio.** À partir de là, il peut entrer son numéro de téléphone et se faire appeler Teams réunion et rejoindre la réunion, ou composer manuellement le numéro pour accéder à la réunion.
+L’utilisateur clique **sur Me rappeler,** ce qui affiche l’écran Utiliser **le téléphone pour l’audio.** À partir de là, il peut entrer son numéro de téléphone et se faire appeler Teams réunion et rejoindre la réunion ou se composer manuellement de la réunion.
 
 ## <a name="set-up-the-call-me-feature"></a>Configurer la fonctionnalité M’appeler
 
 Pour activer la fonctionnalité M’appeler pour les utilisateurs de votre organisation, les configurations suivantes doivent être configurées :
 
-- L’audioconférence est activé pour les utilisateurs dans votre organisation qui planifier des réunions (organisateurs de réunions). Pour en savoir [](set-up-audio-conferencing-in-teams.md) plus, consultez Configurer l’audioconférence pour Teams et Gérer les paramètres d’audioconférence d’un [utilisateur dans Teams.](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+- L’audioconférence est activé pour les utilisateurs dans votre organisation qui planifier des réunions (organisateurs de réunions). Pour en savoir plus, consultez Configurer l’audioconférence pour [Teams](set-up-audio-conferencing-in-teams.md) et gérer les paramètres d’audioconférence d’un [utilisateur dans Teams.](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 - L’organisateur de la réunion peut appeler à partir de réunions. Pour en savoir plus, consultez La gestion des [paramètres d’audioconférence d’un utilisateur dans Teams.](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 

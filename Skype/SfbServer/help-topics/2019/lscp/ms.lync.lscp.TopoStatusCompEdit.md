@@ -2,7 +2,7 @@
 title: Détails de l’affichage de l’ordinateur de la topologie
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 482d8d7b-d674-46b5-b8b7-19bc0f20e9b2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 7a04ce91356d0ffbf60027af22af27864a19b3f1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ce5bc3073eeb60a7e9b6dc685b7d74f40dc05373
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750973"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833750"
 ---
 # <a name="topology-view-computer-detail"></a>Topologie : afficher le détail de l’ordinateur
 

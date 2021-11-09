@@ -1,6 +1,6 @@
 ---
 title: Paramètres réseau pour les fonctionnalités voix Cloud
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2165ea1e4e9732f0e840b4f0949b230f5243121d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 862d696024baa75feefbbae7e4458caad22b5566
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769942"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833980"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Paramètres réseau pour les fonctionnalités vocales cloud dans Microsoft Teams
 
-En savoir plus sur les régions réseau, les sites réseau, les sous-réseaux et les adresses IP fiables. Ces termes et concepts sont utilisés dans notre documentation vocale sur le cloud pour le routage basé sur l’emplacement pour le [routage direct](location-based-routing-plan.md) et les appels d’urgence [dynamiques.](configure-dynamic-emergency-calling.md) Si vous déployez ces fonctionnalités cloud dans votre organisation, vous devez configurer les paramètres réseau pour les utiliser avec ces fonctionnalités dans Microsoft Teams.
+En savoir plus sur les régions réseau, les sites réseau, les sous-réseaux et les adresses IP fiables. Ces termes et concepts sont utilisés dans notre documentation vocale sur le cloud pour le routage basé sur l’emplacement pour le [routage](location-based-routing-plan.md) direct et les appels d’urgence [dynamiques.](configure-dynamic-emergency-calling.md) Si vous déployez ces fonctionnalités cloud dans votre organisation, vous devez configurer les paramètres réseau pour les utiliser avec ces fonctionnalités dans Microsoft Teams.
 
 Cet article donne une vue d’ensemble des paramètres réseau courants pour les appels Location-Based d’urgence dynamiques et le routage dynamique. En fonction de la fonctionnalité voix cloud et des fonctionnalités que vous déployez, vous configurez tout ou partie de ces paramètres. Pour savoir comment configurer ces paramètres, voir Gérer votre topologie de réseau pour les fonctionnalités [cloud dans Teams.](manage-your-network-topology.md)
 
@@ -52,7 +52,7 @@ Chaque sous-réseau doit être associé à un site réseau spécifique. L’empl
 
 Les informations de sous-réseau sont utilisées pour déterminer le site réseau sur lequel se trouve un point de terminaison lorsqu’une nouvelle session est lancée. Lorsque l’emplacement de chaque partie au cours d’une session est connu, la fonctionnalité voix cloud peut appliquer ces informations pour déterminer comment gérer la configuration ou le routage des appels.
 
-Pour chaque site réseau, travaillez avec votre administrateur réseau pour déterminer les sous-réseaux IP affectés à chaque site réseau. Dans notre exemple, le site New York de la région Amérique du Nord peut se voir affecter les sous-réseaux IP suivants : 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Si Bob, qui travaille généralement à New York, se déplace pour se former, allume son ordinateur et se connecte au réseau, son ordinateur reçoit une adresse IP dans l’une des quatre plages allouées à New York, par exemple, 172.29.80.103.
+Pour chaque site réseau, travaillez avec votre administrateur réseau pour déterminer les sous-réseaux IP affectés à chaque site réseau. Dans notre exemple, le site New York de la région Amérique du Nord peut se voir affecter les sous-réseaux IP suivants : 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Si Bob, qui travaille généralement à Service, se déplace vers le bureau de New York pour se former, allume son ordinateur et se connecte au réseau, son ordinateur reçoit une adresse IP dans l’une des quatre plages allouées à New York, par exemple, 172.29.80.103.
 
 ## <a name="trusted-ip-address"></a>Adresse IP fiable
 

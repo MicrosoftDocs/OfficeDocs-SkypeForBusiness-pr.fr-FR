@@ -1,6 +1,6 @@
 ---
 title: Gérer l’Compliment dans le Centre d’administration Teams’administration
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jozhuan
@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: En savoir plus sur les paramètres d’administration dans l Compliment appappil dans le Centre Microsoft Teams’administration
-ms.openlocfilehash: c67f70150c2b8635bd317f724004471f4b73e800
-ms.sourcegitcommit: 36761f644b9af5bdef30fe1c3817defc278b965e
+ms.openlocfilehash: 1d460a785a318723bf8e0d0852132863ef7513f8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "60793452"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858031"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gérer l’Compliment dans le Centre d’administration Microsoft Teams’administration
 
@@ -25,20 +25,20 @@ L’Compliment dans Microsoft Teams permet aux utilisateurs de montrer aux membr
 
 Les administrateurs peuvent contrôler les badges disponibles pour leur organisation à partir du Microsoft Teams d’administration. Dans le groupe de navigation de gauche, **Teams les applications > Gérer les applications.** Dans la liste des applications, cliquez **sur Compliment,** puis sélectionnez **Paramètres.**  À partir de là, vous pouvez choisir d’activer les badges par défaut et intégrés, et de créer des badges personnalisés.
 
-![Capture d’Paramètres de l’Compliment l’application.](media/manage-praise-app-settings.png)
+![Capture d’Paramètres de l’onglet Compliment l’application.](media/manage-praise-app-settings.png)
 
 > [!NOTE]
 > L’Compliment est disponible pour l Cloud de la communauté du secteur public dans le cloud, mais pas pour les Cloud de la communauté du secteur public haute ou dod.
 
 ## <a name="use-built-in-badge-sets"></a>Utiliser des badges intégrés
 
-Les ensembles intégrés sont des collections de badges conçus par Microsoft pour l’Compliment app. Ces ensembles ne peuvent pas être modifiés par les administrateurs. Le jeu de badges par défaut est déjà activé et disponible dans l’Compliment appe. Pour modifier la disponibilité du jeu par défaut ou des badges, activez ou dés éteindre le bouton bascule correspondant. 
+Les ensembles intégrés sont des collections de badges conçus par Microsoft pour l’Compliment appe. Ces ensembles ne peuvent pas être modifiés par les administrateurs. Le jeu de badges par défaut est déjà activé et disponible dans l’Compliment appe. Pour modifier la disponibilité du jeu par défaut ou des badges, activez ou dés éteindre le bouton bascule correspondant. 
 
 <a name="default-badges"></br></a>
 
 ### <a name="default-badges"></a>Badges par défaut
 
-Le jeu de badges par défaut est conçu pour aider Teams utilisateurs à reconnaître leurs pairs pour être au-dessus et au-delà de leur travail.
+Le jeu de badges par défaut est conçu pour aider les Teams utilisateurs à reconnaître leurs pairs pour être au-dessus et au-delà de leur travail.
 
 ![Aperçu du jeu de badges par défaut.](media/default-set-praise.png)
 
@@ -46,7 +46,7 @@ Le jeu de badges par défaut est conçu pour aider Teams utilisateurs à reconna
 
 ### <a name="social-and-emotional-learning-badges-for-education"></a>Badges d’apprentissage social et émotionnel pour l’éducation
 
-Les enseignants peuvent reconnaître les élèves individuels pour la réussite et le comportement d’un apprentissage social et émotionnel (SEL) à l’aide de badges qui illustrent ces concepts.
+Les enseignants peuvent reconnaître les réussites et comportements d’étudiants individuels pour les réussites et comportements d’apprentissage social et émotionnel (SEL) à l’aide de badges qui illustrent ces concepts.
 
 ![Aperçu des badges d’apprentissage social et émotionnel pour l’éducation.](media/sel-edu-set-praise.png)
 
@@ -68,9 +68,9 @@ Sélectionnez **Créer un badge personnalisé.** À partir de là, vous pouvez c
 3. Télécharger une badge. Le type de fichier accepté est .PNG. Le fichier image doit avoir une taille inférieure à 40 Ko avec des dimensions maximales de 216 x 216 pixels.
 ![Badge avec champs d’arrière-plan, de texte et d’image étiquetés.](media/praise-app-badge-fields.png)
 
-4. Localisez votre badge : sous **noms de badges localisées,** sélectionnez **Ajouter.** Sélectionnez les paramètres régionaux souhaités dans la liste drop-down. Entrez ensuite le nom du badge dans la langue désignée.
+4. Localisez votre badge : sous **Noms de badges localisées,** sélectionnez **Ajouter.** Sélectionnez les paramètres régionaux souhaités dans la liste drop-down. Entrez ensuite le nom du badge dans la langue désignée.
 
-5. Excluez votre badge de paramètres régionaux spécifiques : Sous Exclure le badge de ces **paramètres régionaux,** **sélectionnez Ajouter.** Sélectionnez les paramètres régionaux que vous voulez exclure de la liste de liste
+5. Excluez votre badge de paramètres régionaux spécifiques : Sous Exclure le badge de ces **paramètres régionaux,** **sélectionnez Ajouter.** Sélectionnez les paramètres régionaux que vous voulez exclure de la liste de liste finale.
 
 6. Sélectionnez **Appliquer.** Votre nouveau badge s’affiche désormais dans la table des badges personnalisés.
 
@@ -83,11 +83,11 @@ Sélectionnez **Créer un badge personnalisé.** À partir de là, vous pouvez c
 
 ## <a name="specify-colors-with-hex-values"></a>Spécifier des couleurs avec des valeurs hexadées
 
-Les valeurs de couleur Hex sont des chaînes de six chiffres hexadécimal qui représentent l’intensité du rouge (GG), du vert (GG) et du bleu (BB) dans une couleur spécifique sur une échelle de 00 à FF. Lorsque vous rassemblez les valeurs des trois couleurs, vous obtenez une valeur hexadées : #RRGGBB
+Les valeurs de couleur Hex sont des chaînes de six chiffres hexadécimal qui représentent l’intensité du rouge (TX), du vert (GG) et du bleu (BB) dans une couleur spécifique sur une échelle de 00 à FF. Lorsque vous rassemblez les valeurs des trois couleurs, vous obtenez une valeur hexadées : #RRGGBB
 
 Par exemple, la valeur hexadée de la couleur rouge est #FF0000 car le rouge est réglé sur la valeur la plus élevée possible, FF et vert et bleu sont tous ensemble à la valeur la plus faible possible, 00.
 
-Pour explorer les différentes couleurs et leurs valeurs hexadées, consultez Bing [s’il s’est choisi.](https://www.bing.com/search?q=color+picker)
+Pour explorer les différentes couleurs et leurs valeurs hexadées, consultez Bing [s’sélectionnant.](https://www.bing.com/search?q=color+picker)
 
 Vous trouverez ci-dessous une liste d’exemples de couleurs pour bien commencer :
 
@@ -95,7 +95,7 @@ Vous trouverez ci-dessous une liste d’exemples de couleurs pour bien commencer
 |-------|---------|
 |![hex color #FF6666.](media/hexColor1.png)|  #FF6666   |
 |![hex color #7FFFD4.](media/hexColor2.png)|  #7FFFD4   |
-|![couleur hexadée #FF75F0.](media/hexColor3.png)|  #FF75F0   |
+|![hex color #FF75F0.](media/hexColor3.png)|  #FF75F0   |
 |![hex color #00BFFF.](media/hexColor4.png)|  #00BFFF   |
 |![hex color #800080.](media/hexColor5.png)|  #800080   |
 |![hex color #000000.](media/hexColor6.png)|  #000000   |
@@ -116,7 +116,7 @@ Vous trouverez ci-dessous une liste d’exemples de couleurs pour bien commencer
 
 ## <a name="badge-set-assets"></a>Ressources de l’ensemble de badges
 
-Les badges intégrés ne peuvent pas être modifiés, aussi, lorsqu’un ensemble intégré est activé, tous les badges de l’ensemble sont ajoutés à l’application Compliment données. Si vous souhaitez ajouter des badges spécifiques à partir d’un ensemble pré-intégré et en faire en sorte que d’autres personnes restent en dehors, re-créez les badges que vous voulez utiliser comme badges personnalisés. Vous pouvez télécharger l’image de la badge et trouver le texte et les couleurs d’arrière-plan des badges dans les tableaux ci-dessous.
+Les badges intégrés ne peuvent pas être modifiés, aussi, lorsqu’un ensemble intégré est activé, tous les badges de l’ensemble sont ajoutés à l’application Compliment données. Si vous souhaitez ajouter des badges spécifiques à partir d’un ensemble pré-intégré et en faire en sorte que d’autres personnes restent en dehors, re-créez les badges que vous voulez utiliser comme badges personnalisés. Vous pouvez télécharger l’image de badge et trouver le texte et les couleurs d’arrière-plan des badges dans les tableaux ci-dessous.
 
 ### <a name="default-badges-assets"></a>Badges par défaut
 
@@ -132,7 +132,7 @@ Les badges intégrés ne peuvent pas être modifiés, aussi, lorsqu’un ensembl
 |Inclusive      |[Inclusive PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/inclusive-badge.png)</a>|#3C77BB    |#E2F4FC|
 |Kind Heart     |[Kind Heart PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/kind-heart-badge.png)</a>|#D36D6E    |#F4DEDE|
 |Leadership     |[Leadership PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership-badge.png)|#419098    |#D2EAEC|
-|3dess       |[Insér. PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/optimism-badge.png)</a>|#D8338C    |#F4DDDE|
+|Se 6e       |[Insér. PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/optimism-badge.png)</a>|#D8338C    |#F4DDDE|
 |Solveur de problèmes |[PNG du solveur de problèmes](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/problem-solver-badge.png)|#B8916E    |#CBDADF|
 |Joueur d’équipe    |[Team player PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/team-player-badge.png)|#8B8DC0    |#F4EEC0|
 |Merci      |[Merci PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/thank-you-badge.png)|#469CA4    |#BACCB6|
@@ -154,6 +154,6 @@ Les badges intégrés ne peuvent pas être modifiés, aussi, lorsqu’un ensembl
 |Persistance       |[Persistance PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/persistence-badge.png)|#FFFFFF    |#167D3E|
 |Respectez           |[Respect PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/respect-badge.png)|#FFFFFF    |#8251A0|
 |Responsabilité    |[Responsabilité PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/responsibility-badge.png)|#FFFFFF    |#B05DA3|
-|Conscience de soi    |[PNG de conscience](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
+|Conscience de soi    |[PNG de conscience de soi](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
 |Auto-gestion   |[Gestion autonome PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management-badge.png)|#FFFFFF    |#4C144D|
 |Réfléchissement    |[Réflexion PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness-badge.png)|#FFFFFF    |#EE4086|

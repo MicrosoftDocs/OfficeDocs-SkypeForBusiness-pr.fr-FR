@@ -2,7 +2,7 @@
 title: Personnalisation de l’attente musicale du parc d’appel dansSkype pour les entreprises
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: Personnalisez la musique d’attente musicale du parc Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 925749819a041ed451df816902dae8b932cffbbd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9a17bddf45911974687fb374e9fd5da65b94787c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753615"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865311"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>Personnalisation de l’attente musicale du parc d’appel dansSkype pour les entreprises
  
@@ -36,9 +36,9 @@ Vous pouvez spécifier votre propre fichier de musique à utiliser pour l’atte
 
 1. Connectez-vous à l’ordinateur sur lequel Skype Entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans déléguer les **autorisations** d’installation.
     
-2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
-3. Exécutez :  
+3. Exécuter : 
     
    ```powershell
    Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte >

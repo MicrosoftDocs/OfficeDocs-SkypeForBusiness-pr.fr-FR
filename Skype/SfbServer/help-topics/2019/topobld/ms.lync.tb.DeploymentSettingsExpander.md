@@ -2,7 +2,7 @@
 title: Expanseur des paramètres de déploiement
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Vous pouvez modifier les propriétés d’un déploiement existant en suivant les sections suivantes :'
-ms.openlocfilehash: c49a82a0e21fdda5fa9f81df598fcf9087f9d2c5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Vous pouvez modifier les propriétés d’un déploiement existant avec les sections suivantes :'
+ms.openlocfilehash: fa5e519a43a2fefaab99a9349ca32239702d42d1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757686"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864091"
 ---
 # <a name="deployment-settings-expander"></a>Expandeur des paramètres de déploiement
 
-Vous pouvez modifier les propriétés d’un déploiement existant en suivant les sections suivantes :
+Vous pouvez modifier les propriétés d’un déploiement existant avec les sections suivantes :
 
 - Domaine SIP
 

@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)
 ms:contentKeyID: 48183661
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Découvrez comment activer la QoS pour les appareils utilisés dans votre organisation qui utilisent un système d’exploitation autre que Windows.
-ms.openlocfilehash: 597f2df19ac2379bea3f618280ea1c86b2e1f8eb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 613f7abfa3e88fb831729498baa8f7f698aa9d0e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750173"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831998"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>Activation de la QoS dans Skype Entreprise Server pour les appareils qui ne sont pas basés sur Windows
 

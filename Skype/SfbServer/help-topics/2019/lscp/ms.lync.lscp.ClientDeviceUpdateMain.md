@@ -2,7 +2,7 @@
 title: Mise à jour du périphérique
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft publie régulièrement un nouvel ensemble de mises à jour de microprogramme d’appareil pour Skype Entreprise Téléphone Edition, que vous pouvez importer sur vos serveurs et distribuer aux utilisateurs. Vous pouvez obtenir le dernier ensemble de règles de mise à jour des périphériques en allant sur la page Aide et support sur le site web Microsoft et en recherchantPhone Edition.Téléchargez le dernier package de mise à jour et extrayez les fichiers dans un dossier sur l’ordinateur sur lequel les mises à jour doivent être téléchargées. Une fois les fichiers extraits, vous pouvez utiliser l’applet de commande Import-CsDeviceUpdate pour importer les règles de mise à jour des périphériques présentes dans le fichier .CAB extrait (nommé UCUpdates.cab). Pour plus d’informations, voir Import-CsDeviceUpdate.
-ms.openlocfilehash: fd1dc5613ccab434fab9e196f1595cf7e930790f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 19815f81a3a6fe9a3c35b1528b5eefb066003481
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757996"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858601"
 ---
 # <a name="device-update"></a>Mise à jour de l’appareil
 

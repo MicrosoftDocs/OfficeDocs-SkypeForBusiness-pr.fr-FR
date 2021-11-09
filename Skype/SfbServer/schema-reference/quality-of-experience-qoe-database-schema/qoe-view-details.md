@@ -2,7 +2,7 @@
 title: Vue détaillée de la qualité de l’expérience (QoE)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
 description: Les vues couvrent les scénarios les plus courants pour renvoyer des données à partir de la base de données SQL QoE. Il est recommandé d’utiliser des vues pour créer des rapports personnalisés au lieu d’accéder directement aux tables de base de données . Cela est dû au fait que les affichages sont plus susceptibles de maintenir une compatibilité ascendante avec les futures sorties.
-ms.openlocfilehash: 5e0a4b4c83d6cc2b04eb2075e8f6248a0061cbdb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f3a22ba6b8984334e3b4c4f1e7cea293a7741b01
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741770"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858071"
 ---
 # <a name="qoe-view-details"></a>Vue détaillée de la qualité de l’expérience (QoE)
  

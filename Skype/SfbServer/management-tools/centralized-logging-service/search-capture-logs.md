@@ -2,7 +2,7 @@
 title: Rechercher les journaux de capture créés par le service de journalisation centralisée Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 'Résumé : Découvrez comment rechercher et lire les journaux de capture du service de journalisation centralisée Skype Entreprise Server 2015.'
-ms.openlocfilehash: e5a1935b5c2bfcfccd0001adab53d04f6d8a1307
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a65fac6ffc96088cd1e544ed17914128d040e2b6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766332"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831918"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Rechercher les journaux de capture créés par le service de journalisation centralisée Skype Entreprise Server 2015
  
@@ -112,7 +112,7 @@ Par exemple :
 
 1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
-2. Par défaut, l’heure de début des paramètres spécifiques au temps d’une recherche est de 25 minutes avant cinq minutes après le début de la recherche. En d’autres termes, si nous faisons une recherche à 16:00:00, l’heure de début de la recherche s’affiche de 15:35:00 à 16:05:00. Si vous devez effectuer une recherche 60 minutes ou 3 heures avant l’heure actuelle, utilisez le paramètre -StartTime et définissez la date et l’heure pour indiquer l’heure de début de la recherche. 
+2. Par défaut, l’heure de début des paramètres spécifiques au temps d’une recherche est de 25 minutes avant cinq minutes après le début de la recherche. En d’autres termes, si nous faisons une recherche à 16:00:00, l’heure de début de la recherche s’affiche de 15:35:00 à 16:05:00. Si vous devez effectuer une recherche 60 minutes ou 3 heures avant l’heure actuelle, utilisez le paramètre -StartTime et définissez la chaîne de date et d’heure pour indiquer l’heure de début de la recherche. 
     
     Par exemple, en utilisant -StartTime et -EndTime pour définir une heure et une plage de dates, vous pouvez définir une recherche entre 8 h 00 et 9 h 00 le 20/11/2012 sur votre pool. Vous pouvez configurer le chemin d’accès de sortie de manière à écrire les résultats dans un fichier nommé c:\logfile.txt comme suit :
     
@@ -121,7 +121,7 @@ Par exemple :
    ```
 
 > [!NOTE]
-> La chaîne d’heure et de date que vous spécifiez peut être « date time » ou « time date ». « La commande va parquer la chaîne et utiliser les valeurs appropriées pour la date et l’heure, ainsi que vos paramètres régionaux et de culture sur l’ordinateur à partir de laquelle vous exécutez la cmdlet. 
+> La chaîne d’heure et de date que vous spécifiez peut être « date time » ou « time date ». « La commande va utiliser les valeurs appropriées pour la date et l’heure, ainsi que vos paramètres régionaux et de culture sur l’ordinateur à partir de laquelle vous exécutez la cmdlet. 
   
 3. Si vous souhaitez récupérer les journaux à partir de 11:00:00 le 20/11/2012, définissez -StartTime. La période par défaut de la recherche est de 30 minutes, sauf si vous définissez un paramètre -EndTime spécifique. La recherche obtenue renverra les journaux des ordinateurs ou pools définis entre 11 h 00 00 et 11 h 30 00.
     

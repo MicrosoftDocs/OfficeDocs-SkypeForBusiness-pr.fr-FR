@@ -2,7 +2,7 @@
 title: Configuration des stratégies de démarrage de clients
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: 'Résumé : Comment gérer les stratégies de groupe.'
-ms.openlocfilehash: 0cf5dedc464dfbfb542d41cbf0477011cd1fbfd4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 073bd23219b3fa0a39ed06a94a5ef0586a740e6d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751383"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831648"
 ---
 # <a name="configure-client-bootstrapping-policies"></a>Configuration des stratégies de démarrage de clients
  
 **Résumé :** Comment gérer les stratégies de groupe.
   
-La Console de gestion des stratégies de groupe (GPMC) et l’Éditeur d’objets de stratégie de groupe sont des outils que vous utilisez pour gérer la stratégie de groupe. Le modèle d’administration de stratégie de groupe Office inclut les modèles d’administration lync16.admx (ADMX) et .adml (ADML), qui contiennent les paramètres de stratégie basés sur le Registre pour Skype Entreprise que vous configurez pour les objets de stratégie de groupe dans le domaine. Les fichiers ADML sont des compléments spécifiques à la langue des fichiers ADMX. Chaque fichier ADMX et ADML contient les paramètres de stratégie d’une application Office unique. Vous pouvez télécharger les fichiers Office modèle d’administration [(ADMX/ADML) de Microsoft 2016](https://www.microsoft.com/download/details.aspx?id=49030) gratuitement à partir du Centre de téléchargement Microsoft.
+La Console de gestion des stratégies de groupe (GPMC) et l’Éditeur d’objets de stratégie de groupe sont des outils que vous utilisez pour gérer la stratégie de groupe. Le modèle d’administration de stratégie de groupe Office inclut les modèles d’administration lync16.admx (ADMX) et .adml (ADML), qui contiennent les paramètres de stratégie basés sur le Registre pour les Skype Entreprise que vous configurez pour les objets de stratégie de groupe dans le domaine. Les fichiers ADML sont des compléments spécifiques à la langue des fichiers ADMX. Chaque fichier ADMX et ADML contient les paramètres de stratégie d’une application Office unique. Vous pouvez télécharger les fichiers Office modèle d’administration [(ADMX/ADML) de Microsoft 2016](https://www.microsoft.com/download/details.aspx?id=49030) gratuitement à partir du Centre de téléchargement Microsoft.
   
 Pour Skype Entreprise clients, il existe plusieurs stratégies d’a bootstrapping client que vous devez envisager de configurer avant que les utilisateurs ne se connectent au serveur pour la première fois. Par exemple, les serveurs par défaut et le mode de sécurité que le client doit utiliser jusqu’à ce que la se connecte soit terminée. Vous pouvez utiliser la stratégie de groupe pour établir ces paramètres dans les registres de l’ordinateur des utilisateurs avant qu’ils ne se connectent et commencent à recevoir les paramètres de mise en service de la bande in-band à partir du serveur. Le tableau suivant répertorie les paramètres de stratégie de groupe disponibles pour Skype Entreprise.
   
@@ -54,7 +54,7 @@ Les stratégies configurées sur le serveur prévalent toujours sur les paramèt
 |1  <br/> |Skype Entreprise Server la mise en service dans la bande  <br/> |
 |2  <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |3  <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
-|4   <br/> |Boîte de dialogue Options dans Skype Entreprise  <br/> |
+|4  <br/> |Boîte de dialogue Options dans Skype Entreprise  <br/> |
    
 ### <a name="to-define-group-policy-settings-by-using-the-skype-for-business-administrative-template-files"></a>Pour définir les paramètres de stratégie de groupe à l’aide Skype Entreprise fichiers de modèles d’administration
 
@@ -65,7 +65,7 @@ Les stratégies configurées sur le serveur prévalent toujours sur les paramèt
     > [!NOTE]
     > Cette procédure suppose que vous souhaitez gérer plusieurs ordinateurs dans votre domaine. Dans ce cas, vous stockez les modèles dans un magasin central dans le dossier Sysvol sur le contrôleur de domaine principal. Ceci fournit un emplacement de stockage central répliqué pour les modèles d’administration de domaine. 
   
-2. Créez un sous-foldeur pour chaque langue que vous utiliserez. Ces sous-dossiers contiennent les fichiers de ressources ADML spécifiques à la langue. Par exemple, créez un sous-foldeur pour l’anglais (États-Unis) à cet emplacement :
+2. Créez un sous-foldeur pour chaque langue que vous utiliserez. Ces sous-dossiers contiennent les fichiers de ressources ADML spécifiques à la langue. Par exemple, créez un sous-foldeur pour l’anglais des États-Unis (EN-US) à cet emplacement :
     
      `%systemroot%\sysvol\domain\policies\PolicyDefinitions\EN-US`
     

@@ -1,6 +1,6 @@
 ---
 title: Disponibilité à Antigua-et-Barbuda
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,16 +24,16 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise et Microsoft Teams à Antigua-et-Barbuda.
-ms.openlocfilehash: 66cc66d614ccd579267d7b1fe384b80ca802ed89
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f9a72fed02e9accfc98bb1d453108d6dad3becab
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777674"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858881"
 ---
 # <a name="availability-in-antigua-and-barbuda"></a>Disponibilité à Antigua-et-Barbuda
 
-[Trouvez un autre pays ou une autre](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)région, ou apprenez-en davantage sur la disponibilité du pays et de la région pour les forfaits d’audioconférence et d’appel.
+[Trouvez un autre pays ou une autre région,](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)ou apprenez-en davantage sur la disponibilité du pays et de la région pour les forfaits d’audioconférence et d’appel.
 
 Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise et Microsoft Teams à Antigua-et-Barbuda.
   

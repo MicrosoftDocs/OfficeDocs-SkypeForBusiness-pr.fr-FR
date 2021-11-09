@@ -2,7 +2,7 @@
 title: Affichage MediaLine
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: La vue MediaLine stocke des informations sur chaque ligne de média dans la base de données. Une session audio contient généralement une ligne de média audio. Une session audio et vidéo (A/V) contient généralement une ligne de média audio et une ligne de média vidéo ; toutefois, la session peut contenir deux lignes de média vidéo si un périphérique de conférence ou la Vue Galerie est utilisé. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 2a8f5ad413bb127e20d82927d804379b5e981636
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cf360f06fa293dc75c33caa2a10ac761ae156e91
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771870"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858121"
 ---
 # <a name="medialine-view"></a>Affichage MediaLine
  

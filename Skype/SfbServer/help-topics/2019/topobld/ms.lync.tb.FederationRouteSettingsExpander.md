@@ -2,7 +2,7 @@
 title: Expanseur des paramètres d’itinéraire de fédération
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour configurer l’affectation d’itinéraire de fédération d’un site, vous devez d’abord activer la fédération sur le serveur Edge ou le pool de serveurs Edge. Si la fédération n’est pas activée sur le serveur ou pool de serveurs Edge, il ne sera pas possible de modifier les paramètres d’affectation de l’itinéraire de fédération du site.
-ms.openlocfilehash: 565ec7fc5888f6b2a2dbe0c6c63772cbe0863f91
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2cf088fbb95f6d4d7ed563313c332d5a9dd47dd4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739750"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833640"
 ---
 # <a name="federation-route-settings-expander"></a>Expandeur des paramètres d’itinéraire de fédération
  

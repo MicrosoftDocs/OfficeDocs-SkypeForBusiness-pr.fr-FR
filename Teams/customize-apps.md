@@ -1,6 +1,6 @@
 ---
 title: Personnaliser des applications dans Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: v-tbasra
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment personnaliser des applications dans Microsoft Teams.
-ms.openlocfilehash: 21baefe7a75c869ed8d401d19f948526b31d615c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ca0f7b090669304553159979af3983b7f21de284
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749623"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831738"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personnaliser des applications dans Microsoft Teams
 
@@ -34,12 +34,12 @@ ms.locfileid: "60749623"
 - Description complète
 - URL de la politique de confidentialité
 - URL du site web
-- URL des conditions d’utilisation
+- Url des conditions d’utilisation
 - Icône de couleur
 - Icône Plan
 - Couleur d’accentuage
 
-Consultez le [Teams de manifeste pour](/microsoftteams/platform/resources/schema/manifest-schema) plus d’informations sur les champs que vous pouvez personnaliser.
+Consultez [le Teams de manifeste pour](/microsoftteams/platform/resources/schema/manifest-schema) plus d’informations sur les champs que vous pouvez personnaliser.
 
 > [!NOTE]
 > La personnalisation des applications n’est pas prise en Cloud de la communauté du secteur public du département de la défense (GCCH) ou du département de la défense (DoD).
@@ -53,13 +53,13 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
 
 2. Développez **Teams Applications et** **sélectionnez Gérer les applications.**
 
-3. Consultez **la colonne Personnalisable** de la liste des applications et t triez par applications personnalisables.
+3. Consultez **la colonne Personnalisables** de la liste d’applications et tochez les différentes applications personnalisables.
 
    ![La colonne de personnalisation triée.](media/customize-column.png)
 
    Trois points d’entrée vous sont accessibles pour accéder à la fonctionnalité personnaliser :
 
-   - Sélectionnez en côté de l’application que vous voulez personnaliser, puis **sélectionnez Personnaliser.**
+   - Sélectionnez en côté de l’application que vous voulez personnaliser, puis sélectionnez **Personnaliser.**
 
      ![L’option de personnalisation de la sélection 1.](media/select-app-to-customize1.png)
 
@@ -78,7 +78,7 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
     - Description complète
     - Site web
     - URL de la politique de confidentialité
-    - URL des conditions d’utilisation
+    - Url des conditions d’utilisation
 
    ![Personnalisez les paramètres.](media/customize-settings.png)
 
@@ -127,7 +127,7 @@ Vous souhaitez peut-être consulter les détails de l’application pour examine
 
 3. Sélectionnez le nom de l’application.
 
-4. Afficher les détails de l’application, y compris le nom d’origine de l’application **Short name from publisher.**
+4. Afficher les détails de l’application, y compris le nom d’origine de **l’application Short name from publisher.**
 
    ![Personnalisez le nom de l’application du panneau d’icônes.](media/original-app-version.png)
 
@@ -161,7 +161,7 @@ Bien que l’administrateur puisse immédiatement voir les modifications dans Te
 
 Non, les administrateurs de client devront supprimer manuellement une application personnalisée et publier la version personnalisée de l’application. Si vous avez personnalisé une application et l’avez publiée comme application personnalisée, la nouvelle application personnalisée à l’aide de la fonctionnalité de personnalisation de l’application ne remplacera pas l’application personnalisée actuelle.  
 
-**Le rapport d’utilisation des applications affichera-t-il également les valeurs personnalisées telles que le nom court personnalisé ?**
+**Le rapport d’utilisation des applications affiche-t-il également les valeurs personnalisées telles que le nom court personnalisé ?**
 
  Non, le rapport d’utilisation des applications indique toujours le nom d’origine de l’application envoyée par l’éditeur.
 

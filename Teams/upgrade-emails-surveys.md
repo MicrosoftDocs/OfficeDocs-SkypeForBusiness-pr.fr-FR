@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams E-mails et enquêtes de transition | Mise à niveau de base
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -18,14 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bda42ca439268a4d1e14c8b10d26e0dcea38332
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6b88a8030b2e808f95e8601147acce9cfa31da33
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760362"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841996"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemples de courriers électroniques et d’enquêtes pour les communications De base de mise à niveau
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemples de courriers électroniques et d’enquêtes pour les communications De base
 
 ## <a name="sample-emails"></a>Exemples de courriers électroniques
 
@@ -84,7 +84,7 @@ If you have questions or need help, please reach out to <<insert company support
 
 ### <a name="remind-users-email-for-step-6"></a>Rappeler aux utilisateurs de recevoir un courrier électronique à l’étape 6
 
-Ligne d’objet : RAPPEL : Préparez votre mise à niveau vers Teams
+Ligne d’objet : RAPPEL : Préparez-vous pour la mise à niveau vers Teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
@@ -210,7 +210,7 @@ Indiquez si vous êtes qualifié pour effectuer les activités suivantes dans Te
 | Utiliser des Teams pour la collaboration (équipes et canaux) | | | | | | | | | | |
 | Utiliser Teams sur mon appareil mobile | | | | | | | | | | |
 
-| **Quelles sont les personnes qui vous empêchent d’utiliser Microsoft Teams ?** | **Sélectionner toutes les sélections applicables** |
+| **Quelles sont les choses qui vous empêchent d’utiliser Microsoft Teams ?** | **Sélectionner toutes les sélections applicables** |
 |---|---|
 | Je n’en ai jamais entendu parler | &#9744; |
 | Je ne l’ai pas installée sur mon ordinateur | &#9744; |

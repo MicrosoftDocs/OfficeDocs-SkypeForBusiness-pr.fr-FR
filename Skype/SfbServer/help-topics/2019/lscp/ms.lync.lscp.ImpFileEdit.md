@@ -1,8 +1,8 @@
 ---
-title: 'Filtre de fichiers : création d’un fichier ou modification d’un filtre existant'
+title: 'Filtre de fichiers : en créer une autre ou en modifier une existante'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 473ef007e161ff61e0584d14b844250c69654e8e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 46f12e8454fc171de0e57a2120d31865353c18e1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773154"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865251"
 ---
 # <a name="file-filter-create-new-or-edit-existing"></a>Filtre de fichier : création d’un nouveau ou modification d’un filtre existant
 

@@ -2,7 +2,7 @@
 title: Services de domaine Active Directory pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,17 +12,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
-description: Les services de domaine Active Directory fonctionnent en tant que service d’annuaire pour les réseaux Windows Server 2003, Windows Server 2008, Windows Server 2012 et Windows Server 2012 R2. Les services de domaine Active Directory servent également de base sur laquelle repose l’infrastructure Skype Entreprise Server de sécurité active. L’objectif de cette section est de décrire comment Skype Entreprise Server utilise les services de domaine Active Directory pour créer un environnement digne de confiance pour la messagerie instantanée, les conférences Web, les médias et la voix. Pour plus d’informations sur la préparation de votre environnement pour les services de domaine Active Directory, voir Install Skype Entreprise Server in the Deployment documentation. Pour des détails sur le rôle des services de domaine Active Directory dans les réseaux Windows Server, voir la documentation concernant votre version du système d’exploitation.
-ms.openlocfilehash: 496abf7f0210a1663c1158da56c8fb1cce66f068
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Les services de domaine Active Directory fonctionnent en tant que service d’annuaire pour les réseaux Windows Server 2003, Windows Server 2008, Windows Server 2012 et Windows Server 2012 R2. Les services de domaine Active Directory servent également de base à la Skype Entreprise Server de sécurité de l’utilisateur. L’objectif de cette section est de décrire comment Skype Entreprise Server utilise les services de domaine Active Directory pour créer un environnement digne de confiance pour la messagerie instantanée, les conférences Web, les médias et la voix. Pour plus d’informations sur la préparation de votre environnement pour les services de domaine Active Directory, voir Install Skype Entreprise Server in the Deployment documentation. Pour des détails sur le rôle des services de domaine Active Directory dans les réseaux Windows Server, voir la documentation concernant votre version du système d’exploitation.
+ms.openlocfilehash: a96d2691513ae98195856f717b338a98e589a28e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759466"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859011"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Services de domaine Active Directory pour Skype Entreprise Server
  
-Les services de domaine Active Directory fonctionnent en tant que service d’annuaire pour les réseaux Windows Server 2003, Windows Server 2008, Windows Server 2012 et Windows Server 2012 R2. Les services de domaine Active Directory servent également de base sur laquelle repose l’infrastructure Skype Entreprise Server de sécurité active. L’objectif de cette section est de décrire comment Skype Entreprise Server utilise les services de domaine Active Directory pour créer un environnement digne de confiance pour la messagerie instantanée, les conférences Web, les médias et la voix. Pour plus d’informations sur la préparation de votre environnement pour les services de domaine Active Directory, voir [Install Skype Entreprise Server](../../deploy/install/install.md) in the Deployment documentation. Pour des détails sur le rôle des services de domaine Active Directory dans les réseaux Windows Server, voir la documentation concernant votre version du système d’exploitation.
+Les services de domaine Active Directory fonctionnent en tant que service d’annuaire pour les réseaux Windows Server 2003, Windows Server 2008, Windows Server 2012 et Windows Server 2012 R2. Les services de domaine Active Directory servent également de base à la Skype Entreprise Server de sécurité de l’utilisateur. L’objectif de cette section est de décrire comment Skype Entreprise Server utilise les services de domaine Active Directory pour créer un environnement digne de confiance pour la messagerie instantanée, les conférences Web, les médias et la voix. Pour plus d’informations sur la préparation de votre environnement pour les services de domaine Active Directory, voir [Install Skype Entreprise Server](../../deploy/install/install.md) in the Deployment documentation. Pour des détails sur le rôle des services de domaine Active Directory dans les réseaux Windows Server, voir la documentation concernant votre version du système d’exploitation.
   
 Skype Entreprise Server services de domaine Active Directory pour stocker :
   
@@ -61,7 +61,7 @@ Pour plus d’informations sur les groupes universels spécifiques créés lors 
   
 ## <a name="role-based-access-control"></a>Contrôle d’accès basé sur un rôle
 
-Outre la création de groupes de service et d’administration universels et l’ajout de groupes de service et d’administration aux groupes universels appropriés, la préparation de la forêt crée également des groupes Role-Based contrôle d’accès (RBAC). Pour plus d’informations sur les groupes RBAC spécifiques créés par la préparation de la forêt, voir Modifications apportées par la préparation de la forêt [Skype Entreprise Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) dans la documentation de déploiement. Pour plus d’informations sur les groupes RBAC, voir contrôle d’accès basé sur un rôle [(RBAC) pour Skype Entreprise Server](role-based-access-control-rbac.md).
+Outre la création de groupes de service et d’administration universels et l’ajout de groupes de service et d’administration aux groupes universels appropriés, la préparation de la forêt crée également des groupes Role-Based contrôle d’accès (RBAC). Pour plus d’informations sur les groupes RBAC spécifiques créés par la préparation de la forêt, voir Modifications apportées par la préparation de la forêt [Skype Entreprise Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) dans la documentation de déploiement. Pour plus d’informations sur les groupes RBAC, voir Contrôle d’accès basé sur un rôle [(RBAC) pour Skype Entreprise Server](role-based-access-control-rbac.md).
   
 ## <a name="access-control-entries-aces-and-inheritance"></a>Entrées de contrôle d’accès (ACE) et héritage
 

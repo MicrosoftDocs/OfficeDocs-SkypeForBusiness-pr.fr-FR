@@ -2,7 +2,7 @@
 title: Nouveautés de Skype Entreprise Server 2019 | Fonctionnalités
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: overview
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Résumé : Ces fonctionnalités sont nouvelles Skype Entreprise Server 2019.'
-ms.openlocfilehash: c701b9397e43744f8673dfb8c6f56cac2c6d56c7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2acfaef02b140d8e52fce43e0fef9125378047ea
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748970"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858021"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>Que se passe-t-il Skype Entreprise Server 2019
 
@@ -44,7 +44,7 @@ Pour [plus d’Messagerie vocale infonuagique,](../sfbhybrid/hybrid/plan-cloud-v
 
 Call Data Connector simplifie considérablement la surveillance des appels dans un environnement hybride, car vous n’avez plus besoin d’utiliser différents ensembles d’outils locaux et en ligne pour surveiller la qualité des appels de tous vos utilisateurs.  Que vos utilisateurs soient en local ou en ligne, vous pouvez choisir d’afficher la qualité des appels pour l’ensemble de votre organisation en ligne.
 
-Avec le connecteur de données d’appel, vous pouvez effectuer les tâches suivantes à l’aide d’un ensemble d’outils unique :
+Avec Le connecteur de données d’appel, vous pouvez effectuer les tâches suivantes à l’aide d’un ensemble d’outils unique :
 
 - Surveillez votre expérience utilisateur dans Microsoft Teams, Skype Entreprise Online et Skype Entreprise Server.
 - Afficher et résoudre les problèmes sur votre réseau

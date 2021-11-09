@@ -2,7 +2,7 @@
 title: Expanseur des paramètres du tronçon suivant du serveur de médiation
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous spécifiez le pool de serveurs de médiation ou le tronçon suivant du serveur de médiation en sélectionnant le pool frontal Enterprise Edition défini ou le serveur frontal Standard Edition dans la liste déroulante. Un directeur ou un pool directeur n’est pas une sélection valide pour le pool de serveurs de médiation ou le tronçon suivant du serveur de médiation, et ils n’apparaîtront pas dans la liste. Cliquez sur OK pour accepter et enregistrer vos modifications. Cliquez sur Annuler pour annuler les modifications et quitter la page des propriétés.
-ms.openlocfilehash: 51c0ab15d173a7355aa599adae353e14904d70d0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 688f23bd4b1fecca01458031bd7f93077e74869d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772794"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859201"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>Expandeur des paramètres du tronçon suivant du serveur de médiation
  

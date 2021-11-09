@@ -2,7 +2,7 @@
 title: Modification de la configuration du journal des périphériques
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez ajouter une nouvelle configuration de fichier journal de périphérique dans la page Modifier les paramètres de journalisation qui détermine la taille maximale du cache des journaux, la taille maximale des fichiers journaux ou la durée de conservation d’un fichier journal avant sa suppression. Vous pouvez modifier ces paramètres en fonction des besoins de votre organisation.
-ms.openlocfilehash: 93a5d8202d473623741b9c2f0082718bc5f7be82
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c9e058fc314a2dcc550d4d399fed0b34b8532029
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758016"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857831"
 ---
 # <a name="device-log-configuration-edit"></a>Configuration du fichier journal de l’appareil : Modifier
  
@@ -43,7 +43,7 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
   
 - **Étendue** Identifie l’étendue (globale ou site) de la configuration du journal de l’appareil.
     
-- **Nom** Vous pouvez ajouter ou modifier le nom de la configuration du journal de périphérique.
+- **Nom** Vous pouvez ajouter ou modifier le nom de la configuration du journal de l’appareil.
     
 - **Taille maximale du fichier (octets)** Vous pouvez spécifier la taille maximale qu’un fichier journal peut atteindre avant d’être purgé. La valeur par défaut est 1 024 000 octets (1 Mo).
     

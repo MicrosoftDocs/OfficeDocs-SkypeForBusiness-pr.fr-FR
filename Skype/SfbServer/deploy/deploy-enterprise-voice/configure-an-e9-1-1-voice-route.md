@@ -2,7 +2,7 @@
 title: Configurer un itinéraire de messagerie vocale E9-1-1 dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Configurez les itinéraires de voix E9-1-1 dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: ae44eca22212de41a2c4edc9da31b88a112525b9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 86904c32db6ae43b9fa1b6f184048d3b9f419089
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769702"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833950"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Configurer un itinéraire de messagerie vocale E9-1-1 dans Skype Entreprise Server
  
@@ -36,7 +36,7 @@ Pour déployer E9-1-1, vous devez d’abord configurer un itinéraire des commun
 
 1. Ouvrez une session sur l’ordinateur à l’aide d’un compte membre du groupe RTCUniversalServerAdmins ou du rôle d’administration CsVoiceAdministrator.
     
-2.  Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2.  Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 3. Exécutez l’applet de commande suivante pour créer un nouvel enregistrement d’utilisation PSTN. 
     

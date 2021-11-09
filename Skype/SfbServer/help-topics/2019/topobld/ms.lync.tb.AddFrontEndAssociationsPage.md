@@ -2,7 +2,7 @@
 title: Ajouter des associations au pool frontal
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Vous pouvez activer la prise en charge pour des fonctionnalités spécifiques qui nécessitent le déploiement d’autres serveurs en associant maintenant les rôles serveur et les pools frontaux. Vous pouvez également associer les rôles serveur et le pool frontal ultérieurement. Les rôles serveur pouvant être associés à un pool frontal sont notamment les suivants :'
-ms.openlocfilehash: a4b0a563576a99a08e020e82bab7637e6900fd13
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a4a7806945a29b43a2acf9184c2a8f04e1af77eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761222"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864121"
 ---
 # <a name="add-front-end-associations"></a>Ajouter des associations au pool frontal
 

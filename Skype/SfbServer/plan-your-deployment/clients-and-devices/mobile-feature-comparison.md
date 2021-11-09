@@ -1,7 +1,7 @@
 ---
-title: Comparaison des fonctionnalités des clients mobiles pour Skype Entreprise
+title: Comparaison des fonctionnalités du client mobile pour Skype Entreprise
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,20 +17,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 'Résumé : Examinez la prise en charge des fonctionnalités pour le client mobile lors de la planification de Skype Entreprise Server.'
-ms.openlocfilehash: 9b619219666a89e40870caf4cea80a683011775c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f1bbb046827ef762f5def1d532089e9621c32b28
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759566"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834122"
 ---
-# <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparaison des fonctionnalités des clients mobiles pour Skype Entreprise
+# <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparaison des fonctionnalités du client mobile pour Skype Entreprise
  
 **Résumé :** Examinez la prise en charge des fonctionnalités pour le client mobile lors de la planification de Skype Entreprise Server.
   
 Cet article compare les fonctionnalités entre Skype Entreprise clients mobiles et le client Skype Entreprise bureau dans les catégories suivantes :
   
-- Se connectez, notifications Push et fonctionnalités générales
+- Connectez-vous, notifications Push et fonctionnalités générales
     
 - Présence enrichie
     
@@ -53,7 +53,7 @@ Cet article compare les fonctionnalités entre Skype Entreprise clients mobiles 
 Les tableaux suivants listent les fonctionnalités disponibles Skype Entreprise utilisateurs dans un déploiement local de Skype Entreprise Server. Les mêmes fonctionnalités sont également disponibles pour Skype Entreprise Online et Microsoft 365 ou Office 365 utilisateurs, sauf indication contraire dans les notes de bas de page du tableau.
   
 > [!NOTE]
-> Pour obtenir de l’aide et des ressources en ligne pour les utilisateurs finaux, voir [Découvrir Skype Entreprise](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
+> Pour obtenir de l’aide et des ressources en ligne pour les utilisateurs finaux, [voir Découvrir Skype Entreprise](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
   
 > [!NOTE]
 > Pour comparer les fonctionnalités disponibles dans d’Skype Entreprise clients de bureau, voir comparaison des fonctionnalités du client de bureau [pour Skype Entreprise](desktop-feature-comparison.md). 
@@ -61,7 +61,7 @@ Les tableaux suivants listent les fonctionnalités disponibles Skype Entreprise 
 > [!NOTE]
 > La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuellement utilisent déjà l’API UCWA (Unified Communications Web API) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
   
-## <a name="sign-in-push-notifications-and-general-features"></a>Se connectez, notifications Push et fonctionnalités générales
+## <a name="sign-in-push-notifications-and-general-features"></a>Connectez-vous, notifications Push et fonctionnalités générales
 
  
  | Fonctionnalité/fonctionnalité  | Skype Entreprise client de bureau  | Windows Phone  | iOS  | Android |
@@ -104,7 +104,7 @@ Sur les appareils iOS, Skype Entreprise se connecte automatiquement lorsque le c
 |Publier le statut d’après les informations de disponibilité du calendrier  <br/> |&#x2714; &#x2776; ||||
 |Définir l’état de présence manuel (par exemple, Occupé, Ne pas déranger, et ainsi de suite)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
- &#x2776; Skype Entreprise clients mobiles ne met pas à jour la présence d’un utilisateur en fonction des informations de son calendrier de libre/occupé. Si un utilisateur de client mobile est également inscrit au client de bureau Skype Entreprise, le client de bureau met à jour la présence de l’utilisateur en fonction des informations de calendrier de la période de libre/occupé de l’utilisateur. Si l’utilisateur est uniquement inscrit à un client mobile, la présence de l’utilisateur ne se met pas à jour en fonction des informations de calendrier de libre/occupé.
+ &#x2776; Skype Entreprise clients mobiles ne met pas à jour la présence d’un utilisateur en fonction des informations de son calendrier de libre/occupé. Si un utilisateur client mobile est également inscrit au client de bureau Skype Entreprise, le client de bureau met à jour la présence de l’utilisateur en fonction des informations de calendrier de la période de libre/occupé de l’utilisateur. Si l’utilisateur est uniquement inscrit à un client mobile, la présence de l’utilisateur ne se met pas à jour en fonction des informations de calendrier de libre/occupé.
   
 ## <a name="contacts-and-contact-groups-support"></a>Prise en charge des contacts et des groupes de contacts
 
@@ -241,7 +241,7 @@ Sur les appareils iOS, Skype Entreprise se connecte automatiquement lorsque le c
 |Fournir l’archivage côté client  <br/> |&#x2714;||||
 |Fournir l’enregistrement côté client  <br/> |&#x2714; &#x2776; ||||
    
- &#x2776; n’est pas disponible pour Skype Entreprise en ligne et/ou Microsoft 365 ou Office 365 utilisateurs.
+ &#x2776; n’est pas disponible pour Skype Entreprise Online et/ou Microsoft 365 ou Office 365 utilisateurs.
   
 ## <a name="modern-authentication"></a>Authentification moderne
 

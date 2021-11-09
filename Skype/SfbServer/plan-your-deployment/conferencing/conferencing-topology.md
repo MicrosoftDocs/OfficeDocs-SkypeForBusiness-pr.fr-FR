@@ -2,7 +2,7 @@
 title: Planifier votre topologie de conférence pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la planification de votre topologie de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: a4d458bf7bea512e773a09551e2fa0c72a982592
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0ea242584670c06beaa6462390afc01103c1fd7e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737710"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831908"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planifier votre topologie de conférence pour Skype Entreprise Server
  
@@ -37,7 +37,7 @@ Pour plus d’informations sur la configuration matérielle et logicielle requis
   
 ## <a name="supported-topologies"></a>Topologies prises en charge
 
-Dans Skype Entreprise Server, le serveur exécutant les services de conférence est toujours coqueté avec les serveurs frontaux ou les serveurs Édition Standard serveurs. Lorsque vous déployez Skype Entreprise Server, les fonctionnalités de conférence par messagerie instantanée sont déployées automatiquement. Vous pouvez spécifier s’il faut déployer la conférence web, audio et vidéo (A/V) et les conférences téléphoniques à l’aide du Générateur de topologie. Vous pouvez également utiliser le Générateur de topologie pour ajouter des conférences à un déploiement existant. Pour plus d’informations sur les principes de base de la topologie et les scénarios de cocation, consultez La base de la [topologie pour Skype Entreprise Server](../../plan-your-deployment/topology-basics/topology-basics.md).
+Dans Skype Entreprise Server, le serveur exécutant les services de conférence est toujours coqueté avec les serveurs frontaux ou les Édition Standard serveurs frontaux. Lorsque vous déployez Skype Entreprise Server, les fonctionnalités de conférence par messagerie instantanée sont déployées automatiquement. Vous pouvez spécifier s’il faut déployer la conférence web, audio et vidéo (A/V) et les conférences téléphoniques à l’aide du Générateur de topologie. Vous pouvez également utiliser le Générateur de topologie pour ajouter des conférences à un déploiement existant. Pour plus d’informations sur les principes de base de la topologie et les scénarios de cocation, consultez La base de la [topologie pour Skype Entreprise Server](../../plan-your-deployment/topology-basics/topology-basics.md).
   
 Vous pouvez déployer la conférence dans les topologies et configurations suivantes :
   
@@ -63,7 +63,7 @@ Si vous déployez des conférences téléphoniques, vous devez prendre en compte
     
 - Vous pouvez déployer le service d’application, application Assistant de conférence et application Annonce de conférence sur un site central, mais pas dans un site de succursale.
     
-- Vous devez déployer la conférence d’accès dans chaque pool où vous déployez Skype Entreprise Server conférence. Il n’est pas nécessaire d’affecter des numéros d’accès dans chaque pool, mais vous devez déployer la fonctionnalité de conférences téléphoniques dans chaque pool. Cette exigence prend en charge la fonctionnalité de nom enregistré lorsqu’un utilisateur appelle un numéro d’accès à partir d’un pool pour participer Skype Entreprise Server conférence dans un autre pool. 
+- Vous devez déployer la conférence d’accès dans chaque pool où vous déployez Skype Entreprise Server conférence. Vous n’avez pas besoin d’affecter des numéros d’accès dans chaque pool, mais vous devez déployer la fonctionnalité de conférence d’accès dans chaque pool. Cette exigence prend en charge la fonctionnalité de nom enregistré lorsqu’un utilisateur appelle un numéro d’accès à partir d’un pool pour participer Skype Entreprise Server conférence dans un autre pool. 
     
 Pour plus d’informations, voir [Plan for dial-in conferencing in Skype Entreprise Server](dial-in-conferencing.md).
   
@@ -92,10 +92,10 @@ Skype Entreprise Server propose les méthodes suivantes pour configurer Office W
     
 Pour plus d’informations, voir [Configurer l’intégration Office Web Apps Server dans Skype Entreprise Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
   
-Quelle que soit la topologie que vous sélectionnez, il est essentiel que les ports de pare-feu corrects soient ouverts. Vous devez vous assurer que les noms DNS, les adresses IP et les ports ne sont pas bloqués par des pare-feu sur le serveur/Office Online Server Office Web Apps, l’équilibrage de charge ou le Skype Entreprise Server.
+Quelle que soit la topologie sélectionnée, il est essentiel que les ports de pare-feu corrects soient ouverts. Vous devez vous assurer que les noms DNS, les adresses IP et les ports ne sont pas bloqués par des pare-feu sur le serveur/Office Online Server Office Web Apps, l’équilibrage de charge ou les Skype Entreprise Server.
   
 > [!NOTE]
-> Une autre option permettant de fournir un accès externe à Office Web Apps Server/Office Online Server consiste à déployer le serveur dans le réseau de périmètre. Si vous le souhaitez, n’oubliez pas que le programme d’installation Office Web Apps Server/Office Online Server nécessite que l’ordinateur serveur soit membre de votre domaine Active Directory. À moins que votre stratégie réseau autorise les ordinateurs du réseau de périmètre à être membres du domaine Active Directory, il est recommandé de ne pas installer Office Web Apps Server/Office Online Server dans le réseau de périmètre. Au lieu de cela, vous devez installer Office Web Apps Server/Office Online Server dans le réseau interne et fournir aux utilisateurs externes un accès via votre serveur proxy inverse. 
+> Une autre option permettant de fournir un accès externe à Office Web Apps Server/Office Online Server consiste à déployer le serveur dans le réseau de périmètre. Si vous le souhaitez, n’oubliez pas que le programme d’installation Office Web Apps Server/Office Online Server nécessite que l’ordinateur serveur soit membre de votre domaine Active Directory. À moins que votre stratégie réseau autorise les ordinateurs du réseau de périmètre à être membres du domaine Active Directory, il est recommandé de ne pas installer Office Web Apps Server/Office Online Server dans le réseau de périmètre. Au lieu de cela, vous devez installer Office Web Apps Server/Office Online Server dans le réseau interne et fournir un accès des utilisateurs externes via votre serveur proxy inverse. 
   
 ## <a name="topology-requirements-for-large-meetings"></a>Exigences en matière de topologie pour les grandes réunions
 

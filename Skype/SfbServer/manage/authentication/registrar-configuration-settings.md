@@ -2,7 +2,7 @@
 title: Gérer les paramètres de configuration du bureau d’enregistrement d’inscriptions Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: 'Résumé : Gérez les paramètres de configuration du Skype Entreprise Server.'
-ms.openlocfilehash: 78a9e2b7af9b01fb5094e6d4286742a4c3147cfb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9e5eddde712180820579840587abb18bc9809fe4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773734"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832128"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>Gérer les paramètres de configuration du bureau d’enregistrement d’inscriptions Skype Entreprise Server
  
@@ -49,7 +49,7 @@ Si vous utilisez Lync Windows clients d’application du Store, vous devez activ
     
 5. Dans **Sélectionner un service,** cliquez sur le service auquel le bureau d’inscriptions doit être appliqué, puis cliquez sur **OK.**
     
-6. Dans **Nouveau paramètre du bureau d’enregistrement,** sélectionnez une ou plusieurs des fonctionnalités suivantes en fonction des fonctionnalités des clients et de la prise en charge dans votre environnement :
+6. Dans Nouveau paramètre du bureau **d’enregistrement,** sélectionnez une ou plusieurs des fonctionnalités suivantes en fonction des fonctionnalités des clients et de la prise en charge dans votre environnement :
     
    - **Activer l’authentification Kerberos** pour que les serveurs du pool émettent des demandes à l’aide de l’authentification Kerberos.
     
@@ -68,7 +68,7 @@ Vous pouvez utiliser le serveur d’inscriptions pour configurer les protocoles 
   
 Procédez comme suit pour modifier un serveur d’inscription existant. 
   
-### <a name="to-modify-existing-registrar-configuration-settings"></a>Pour modifier les paramètres de configuration du bureau d’enregistrement existant
+### <a name="to-modify-existing-registrar-configuration-settings"></a>Pour modifier les paramètres de configuration du bureau d’enregistrement d’inscriptions existant
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou qui dispose de droits d’utilisateur équivalents) ou affecté au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à tout ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Skype Entreprise Server.
     
@@ -102,7 +102,7 @@ Procédez comme suit pour modifier un serveur d’inscription existant.
     
 6. Cliquez sur **OK**.
     
-## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression de la configuration du Paramètres de bureau d’enregistrement à l’Windows PowerShell cmdlets
+## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de configuration Paramètres de bureau d’enregistrement à l’Windows PowerShell cmdlets
 
 Vous pouvez supprimer les paramètres de configuration du bureau d’enregistrement d’inscriptions à l’Windows PowerShell’une cmdlet **Remove-CsProxyConfiguration.** Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/).
   

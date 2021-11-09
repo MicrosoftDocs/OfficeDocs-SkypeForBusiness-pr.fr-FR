@@ -2,7 +2,7 @@
 title: Stage AV and OAuth certificates in Skype Entreprise Server using -Roll in Set-CsCertificate
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 'Résumé : Stage AV and OAuth certificates for Skype Entreprise Server.'
-ms.openlocfilehash: 0d5a5a68ac63b514967b33692abfeb15d8459995
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7eeac29ba322d40d8ab8f70712ecfca5ead5c97d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767852"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832108"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Stage AV and OAuth certificates in Skype Entreprise Server using -Roll in Set-CsCertificate
  
@@ -29,7 +29,7 @@ Les communications audio/vidéo (A/V) sont un composant clé de Skype Entreprise
 > [!IMPORTANT]
 > Cette nouvelle fonctionnalité est conçue pour fonctionner pour le service Edge A/V et le certificat OAuthTokenIssuer. D’autres types de certificats peuvent être provisionn s avec le service Edge A/V et le type de certificat OAuth, mais ne bénéficieront pas du comportement de coexistence que le certificat de service Edge A/V aura.
   
-Les cmdlets powerShell Skype Entreprise Server Management Shell utilisées pour gérer les certificats Skype Entreprise Server font référence au certificat de service Edge A/V en tant que type de certificat AudioVideoAuthentication et au certificat OAuthServer en tant que typeOAuthTokenIssuer. Pour le reste de cette rubrique et pour identifier de manière unique les certificats, ils seront référenués par le même type d’identificateur, AudioVideoAuthentication etOAuthTokenIssuer.
+Les cmdlets powerShell Skype Entreprise Server Management Shell utilisées pour gérer les certificats Skype Entreprise Server font référence au certificat de service Edge A/V en tant que type de certificat AudioVideoAuthentication et au certificat OAuthServer en tant que typeOAuthTokenIssuer. Pour le reste de cette rubrique et pour identifier de manière unique les certificats, ils sont référendés par le même type d’identificateur, AudioVideoAuthentication etOAuthTokenIssuer.
   
 Le service d’authentification A/V est responsable de l’émission des jetons utilisés par les clients et autres consommateurs A/V. Les jetons sont générés à partir des attributs du certificat et l’expiration de celui-ci entraîne la perte de la connexion et la nécessité de se reconnecter avec un nouveau jeton généré par le nouveau certificat. Une nouvelle fonctionnalité de Skype Entreprise Server permet de résoudre ce problème : la possibilité de mettre en place un nouveau certificat avant l’expiration de l’ancien certificat et de permettre aux deux certificats de continuer à fonctionner pendant un certain temps. Cette fonctionnalité utilise des fonctionnalités mises à jour dans la cmdlet Set-CsCertificate Skype Entreprise Server Management Shell. Le nouveau paramètre -Roll, avec le paramètre existant -EffectiveDate, place le nouveau certificat AudioVideoAuthentication dans le magasin de certificats. L’ancien certificat AudioVideoAuthentication sera conservé pour permettre la validation des jetons émis. Après la mise en place du nouveau certificat AudioVideoAuthentication, la série d’événements suivante se produira :
   
@@ -46,7 +46,7 @@ Lors de la création de certificats OAuthTokenIssuer transitoires, l’heure d�
   
  **-Thumbprint**: l’empreinte numérique est un attribut du certificat qui est propre à ce certificat. Le paramètre -Thumbprint est utilisé pour identifier le certificat qui sera affecté par les actions de l'Set-CsCertificate cmdlet.
   
- **-Type**: le paramètre -Type peut accepter un type d’utilisation de certificat unique ou une liste séparée par des virgules de types d’utilisation de certificat. Les types de certificats sont ceux qui identifient à la cmdlet et au serveur l’objectif du certificat. Par exemple, le type AudioVideoAuthentication est utilisé par le service Edge A/V et le service d’authentification antivirus. Si vous décidez de mettre en place et de mettre en service des certificats d’un autre type en même temps, vous devez prendre en compte le délai d’avance minimal requis le plus long pour les certificats. Par exemple, vous devez mettre en étape des certificats de type AudioVideoAuthentication et OAuthTokenIssuer. Votre valeur minimale -EffectiveDate doit être la plus élevée des deux certificats, dans ce cas, le certificat OAuthTokenIssuer, dont l’heure d’avance minimale est de 24 heures. Si vous ne souhaitez pas mettre en place le certificat AudioVideoAuthentication avec un délai d’avance de 24 heures, faites-le séparément avec une méthode EffectiveDate qui est plus à vos besoins.
+ **-Type**: le paramètre -Type peut accepter un type d’utilisation de certificat unique ou une liste séparée par des virgules de types d’utilisation de certificat. Les types de certificats sont ceux qui identifient à la cmdlet et au serveur l’objectif du certificat. Par exemple, le type AudioVideoAuthentication est utilisé par le service Edge A/V et le service d’authentification antivirus. Si vous décidez de mettre en place et de mettre en service des certificats d’un autre type en même temps, vous devez prendre en compte le temps d’avance minimal requis le plus long pour les certificats. Par exemple, vous devez mettre en étape des certificats de type AudioVideoAuthentication et OAuthTokenIssuer. Votre valeur minimale -EffectiveDate doit être la plus élevée des deux certificats, dans ce cas, le certificat OAuthTokenIssuer, dont l’heure d’avance minimale est de 24 heures. Si vous ne souhaitez pas mettre en place le certificat AudioVideoAuthentication avec un délai d’avance de 24 heures, vous devez l’étaper séparément avec une méthode EffectiveDate qui est plus à vos besoins.
   
 ### <a name="to-update-or-renew-an-av-edge-service-certificate-with-a--roll-and--effectivedate-parameters"></a>Pour mettre à jour ou renouveler un certificat de service Edge A/V avec les paramètres -Roll et -EffectiveDate
 
@@ -61,7 +61,7 @@ Lors de la création de certificats OAuthTokenIssuer transitoires, l’heure d�
     > [!IMPORTANT]
     > Pour un pool edge, tous les certificats AudioVideoAuthentication doivent être déployés et mis en service selon la date et l’heure définies par le paramètre -EffectiveDate du premier certificat déployé afin d’éviter toute interruption possible des communications A/V en raison de l’expiration de l’ancien certificat avant que tous les jetons clients et consommateurs n’ont été renouvelés à l’aide du nouveau certificat. 
   
-    Commande Set-CsCertificate avec les paramètres -Roll et -EffectiveTime :
+    Commande Set-CsCertificate avec le paramètre -Roll et -EffectiveTime :
     
    ```PowerShell
    Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
@@ -80,7 +80,7 @@ Lors de la création de certificats OAuthTokenIssuer transitoires, l’heure d�
     > [!IMPORTANT]
     > La méthode EffectiveDate doit être mise en forme pour correspondre aux paramètres de région et de langue de votre serveur. Cet exemple utilise le paramètre régional et linguistique Anglais (États-Unis) 
   
-Pour mieux comprendre le processus utilisé par Set-CsCertificate, -Roll et -EffectiveDate pour mettre en place un nouveau certificat afin d’émettre de nouveaux jetons AudioVideoAuthentication tout en utilisant un certificat existant pour valider AudioVideoAuthentication en cours d’utilisation par les consommateurs, une chronologie visuelle est un moyen efficace de comprendre le processus. Dans l’exemple suivant, l’administrateur détermine que le certificat de service Edge A/V doit expirer le 22/07/2015 à 14:00:00. Il demande et reçoit un nouveau certificat et l’importe sur chaque serveur Edge de son pool. Le 22/07/2015 à 02:00, il commence l’exécution de Get-CsCertificate avec -Roll, -Thumbprint égal à la chaîne d’empreinte numérique du nouveau certificat et -EffectiveTime est fixé au 22/07/2015 06:00:00 AM. Il exécute cette commande sur chaque serveur Edge.
+Pour mieux comprendre le processus utilisé par Set-CsCertificate, -Roll et -EffectiveDate pour mettre en place un nouveau certificat afin d’émettre de nouveaux jetons AudioVideoAuthentication tout en utilisant un certificat existant pour valider audioVideoAuthentication en cours d’utilisation par les consommateurs, une chronologie visuelle est un moyen efficace de comprendre le processus. Dans l’exemple suivant, l’administrateur détermine que le certificat de service Edge A/V doit expirer le 22/07/2015 à 14:00:00. Il demande et reçoit un nouveau certificat et l’importe sur chaque serveur Edge de son pool. Le 22/07/2015 à 02:00, il commence l’exécution de Get-CsCertificate avec -Roll, -Thumbprint égal à la chaîne d’empreinte numérique du nouveau certificat et -EffectiveTime est fixé au 22/07/2015 06:00:00 AM. Il exécute cette commande sur chaque serveur Edge.
   
 ![Utilisation des paramètres Roll et EffectiveDate.](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
   
@@ -89,7 +89,7 @@ Pour mieux comprendre le processus utilisé par Set-CsCertificate, -Roll et -Eff
 |1  <br/> |Début : 22/07/2015 00:00:00  <br/> Le certificat AudioVideoAuthentication actuel doit expirer le 22/07/2015 à 14:00:00. Cela est déterminé par l’horodaodaté d’expiration du certificat. Planifiez le remplacement et le remplacement de votre certificat pour tenir compte d’un chevauchement de 8 heures (durée de vie du jeton par défaut) avant que le certificat existant n’atteigne l’heure d’expiration. L’heure d’avance de 02:00:00 est utilisée dans cet exemple pour laisser à l’administrateur suffisamment de temps pour placer et mettre en service les nouveaux certificats avant l’heure effective de 06:00:00.  <br/> |
 |2  <br/> |22/07/2015 02:00:00 - 22/07/2015 05:59:59  <br/> Définir des certificats sur les serveurs Edge avec une heure effective de 06:00:00 (4 heures d’avance pour cet exemple, mais peut être plus longue) à l’aide de Set-CsCertificate \<certificate usage type\> -Type -Thumbprint \<thumbprint of new certificate\> -Roll -EffectiveDate \<datetime string of the effective time for new certificate\>  <br/> |
 |3  <br/> |22/07/2015 06:00 - 22/07/2015 14:00  <br/> Pour valider les jetons, le nouveau certificat est testé en premier, et si le nouveau certificat ne parvient pas à valider le jeton, l’ancien certificat est testé. Ce processus est utilisé pour tous les jetons pendant la période de chevauchement de 8 heures (durée de vie du jeton par défaut).  <br/> |
-|4   <br/> |Fin : 22/07/2015 14:00:01  <br/> L’ancien certificat a expiré et le nouveau certificat a pris le relais. L’ancien certificat peut être supprimé en toute sécurité avec Remove-CsCertificate -Type \<certificate usage type\> -Previous  <br/> |
+|4  <br/> |Fin : 22/07/2015 14:00:01  <br/> L’ancien certificat a expiré et le nouveau certificat a pris le relais. L’ancien certificat peut être supprimé en toute sécurité avec Remove-CsCertificate -Type \<certificate usage type\> -Previous  <br/> |
    
 Lorsque l’heure d’effet est atteinte (22/07/2015 6:00:00 AM), tous les nouveaux jetons sont émis par le nouveau certificat. Lors de la validation des jetons, ces derniers sont d’abord validés par rapport au nouveau certificat. Si la validation échoue, l’ancien certificat est testé. Le processus consistant à tester le nouveau certificat puis à utiliser l’ancien certificat continuera jusqu’à l’expiration de l’ancien certificat. Une fois que l’ancien certificat a expiré (22/7/2015 14:00:00 PM), les jetons ne sont validés que par le nouveau certificat. L’ancien certificat peut être supprimé en toute sécurité à l’aide Remove-CsCertificate cmdlet avec le paramètre -Previous.
 
@@ -107,7 +107,7 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
     
 4. Configurez le certificat importé avec la cmdlet Set-CsCertificate et utilisez le paramètre -Roll avec le paramètre -EffectiveDate. La date d’effet doit être définie comme heure d’expiration du certificat actuel (14:00:00 ou 2:00:00 PM) moins un minimum de 24 heures. 
     
-    Commande Set-CsCertificate avec les paramètres -Roll et -EffectiveTime :
+    Commande Set-CsCertificate avec le paramètre -Roll et -EffectiveTime :
     
    ```PowerShell
    Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb

@@ -1,7 +1,7 @@
 ---
 title: Basculement ou restauration d’un pool
 ms.reviewer: ''
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: .
-ms.openlocfilehash: a9f4296ce122cdb539cae4d1f3cb7ef14262efc7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 55377e77a5b365a4db149ee69b6cd796e373a80b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750323"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849967"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Faire échouer et faire échouer un pool dans Skype Entreprise Server
 
-Utilisez les procédures suivantes si un pool de Front-End unique a échoué et doit être retenté, ou si le pool qui a connu le sinistre est de nouveau en ligne et que vous devez rétablir l’état de travail normal de votre déploiement. Découvrez comment faire échouer et faire échouer le pool edge utilisé pour la fédération Skype Entreprise ou XMPP, ou comment modifier le pool edge associé à un pool Front-End pool.
+Utilisez les procédures suivantes si un pool de Front-End unique a échoué et doit être retenté, ou si le pool qui a connu le sinistre est de nouveau en ligne et que vous devez rétablir l’état de travail normal de votre déploiement. Découvrez comment faire échouer et faire échouer le pool edge utilisé pour la fédération Skype Entreprise ou XMPP, ou comment modifier le pool edge associé à un pool de Front-End.
 
 - [Faire échouer un pool frontal](#fail-over-a-front-end-pool)
 - [Faire échouer un pool](#fail-back-a-pool)
@@ -33,9 +33,9 @@ Utilisez les procédures suivantes si un pool de Front-End unique a échoué et 
 
 Datacenter1 contient Pool1 et Pool1 a échoué. Vous faites le pas vers Pool2 situé dans Datacenter2.
 
-La majeure partie du travail du pool consiste à faire échouer le magasin central de gestion, si nécessaire. Le magasin central de gestion doit être fonctionnel lorsque les utilisateurs du pool sont retentés.
+La majeure partie du travail pour le changement de pool implique le fait de faire échouer le magasin central de gestion, si nécessaire. Le magasin central de gestion doit être fonctionnel lorsque les utilisateurs du pool sont retentés.
 
-Si un pool Front-End échoue, mais que le pool edge de ce site est toujours en cours d’exécution, vous devez savoir si le pool edge utilise le pool défaille comme pool du saut suivant. Si c’est le cas, vous devez modifier le pool edge pour utiliser un pool de Front-End différent avant de faire échouer le pool Front-End échoué. La manière dont vous pouvez modifier le paramètre du tronçon suivant varie selon que le serveur Edge va utiliser un pool sur le même site comme pool de serveurs Edge ou sur un site différent.
+Si un pool Front-End tombe en panne, mais que le pool edge de ce site est toujours en cours d’exécution, vous devez savoir si le pool edge utilise le pool défaille comme pool du saut suivant. Si c’est le cas, vous devez modifier le pool edge pour utiliser un pool de Front-End différent avant de faire échouer le pool Front-End échoué. La manière dont vous pouvez modifier le paramètre du tronçon suivant varie selon que le serveur Edge va utiliser un pool sur le même site comme pool de serveurs Edge ou sur un site différent.
 
 **Pour définir un pool edge pour utiliser un pool de saut suivant sur le même site**
 
@@ -161,7 +161,7 @@ Si un pool Front-End échoue, mais que le pool edge de ce site est toujours en c
     Invoke-CsPoolFailover -PoolFQDN <Pool1 FQDN> -DisasterMode -Verbose
     ```
     
-    Étant donné que les étapes des étapes précédentes de cette procédure pour vérifier l’état du magasin central de gestion ne sont pas universelles, il est toujours possible que cette cmdlet échoue, car le magasin central de gestion n’est pas encore entièrement bas. Dans ce cas, vous devez corriger le magasin central de gestion en fonction des messages d’erreur que vous voyez, puis ré-exécuter cette cmdlet.
+    Étant donné que les étapes prises dans les parties précédentes de cette procédure pour vérifier l’état du magasin central de gestion ne sont pas universelles, il est possible que cette cmdlet échoue car le magasin central de gestion n’est pas encore entièrement bas de la ligne. Dans ce cas, vous devez corriger le magasin central de gestion en fonction des messages d’erreur que vous voyez, puis ré-exécuter cette cmdlet.
     
     Si le message d’erreur suivant apparaît, vous devez modifier le pool de serveurs Edge sur ce site afin d’utiliser un pool différent comme tronçon suivant avant de faire basculer le pool. Pour plus d’informations, voir les procédures indiquées au début de cette rubrique.
     

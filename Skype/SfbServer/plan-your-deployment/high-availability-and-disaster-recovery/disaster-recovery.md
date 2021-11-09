@@ -2,7 +2,7 @@
 title: Récupération d’urgence du pool frontal dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Pour la récupération d’urgence, Skype Entreprise Server offre le jumelage de pool avec leover en cas de panne d’un pool.
-ms.openlocfilehash: 6559b5af285027d9f1cb6ea3682304dedbbb4165
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fa63aa9d549f64508f32c32ede24f34592a88719
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740430"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833320"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Récupération d’urgence du pool frontal dans Skype Entreprise Server
  
@@ -28,11 +28,11 @@ Pour les options de récupération d’urgence les plus robustes Skype Entrepris
   
 ![Affiche les pools frontux sur deux sites différents, associés l’un à l’autre.](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
-Si le pool d’un site échoue, vous pouvez faire échouer les utilisateurs de ce pool vers le pool de l’autre site, qui sert ensuite tous les utilisateurs des deux pools. Pour la planification de la capacité, vous devez concevoir chaque pool pour être en mesure de gérer la charge de travail de tous les utilisateurs des deux pools en cas d’incident.
+Si le pool d’un site échoue, vous pouvez faire échouer les utilisateurs de ce pool vers le pool de l’autre site, qui sert ensuite tous les utilisateurs des deux pools. Pour la planification de la capacité, vous devez concevoir chaque pool pour gérer la charge de travail de tous les utilisateurs des deux pools en cas d’incident.
   
 Deux centres de données qui incluent des pools frontaux associés l’un à l’autre peuvent être séparés à n’importe quelle distance. Nous vous recommandons de coupler deux centres de données dans la même région du monde, avec des liens haut débit entre eux. 
   
-Il est possible d’avoir deux centres de données dans différentes régions du monde, mais cela peut augmenter la perte de données en cas d’urgence, en raison de la latence de la réplication des données.
+Il est possible d’avoir deux centres de données dans différentes régions du monde, mais cela peut augmenter la perte de données en cas d’urgence, en raison de la latence dans la réplication des données.
   
 Lorsque vous planifiez les pools à jumeler, vous devez garder à l’esprit que seuls les jumelages suivants sont pris en charge :
   
@@ -56,7 +56,7 @@ Notez que Skype Entreprise n’étend pas la prise en charge de la récupératio
 
 Pour leover de pool et la restauration de pool, la cible d’ingénierie pour l’objectif de temps de récupération (RTO) est de 15 à 20 minutes. Il s’agit du temps nécessaire pour que le failover se produise, une fois que les administrateurs ont déterminé qu’il y avait un sinistre et démarré les procédures deover. Cette durée ne comprend pas le temps nécessaire aux administrateurs pour évaluer la situation et prendre une décision, ni le temps nécessaire aux utilisateurs pour se connecter une fois le basculement terminé.
   
-Pour le failover et la restauration de pool, la cible d’ingénierie pour l’objectif de point de récupération (RPO) est de 5 minutes. Cela représente une mesure en temps des données qui pourraient être perdues en raison de la panne, en raison de la latence de réplication du service de sauvegarde. Par exemple, si un pool est en panne à 10 h 00 et que le RPO est de 5 minutes, les données écrites dans le pool entre 9 h 55 et 09 h 55. et 10:00 A.M.might not have replicated to the backup pool, and would be lost.
+Pour le failover et la restauration du pool, la cible d’ingénierie pour l’objectif de point de récupération (RPO) est de 5 minutes. Cela représente une mesure en temps des données qui pourraient être perdues en raison de la panne, en raison de la latence de réplication du service de sauvegarde. Par exemple, si un pool est en panne à 10 h 00 et que le RPO est de 5 minutes, les données écrites dans le pool entre 9 h 55 et 09 h 55. et 10:00 A.M.might not have replicated to the backup pool, and would be lost.
   
 Les chiffres de RTO et de RPO de ce document considèrent que les deux centres de données sont situés dans la même région du monde avec un transport haute vitesse à faible latence entre les deux sites. Ces nombres sont mesurés pour un pool avec 40 000 utilisateurs actifs simultanément et 200 000 utilisateurs activés pour Skype Entreprise par rapport à un modèle utilisateur prédéfiny où il n’existe aucun journal des travaux en souffrance dans la réplication des données. Ces chiffres peuvent changer en fonction du test et de la validation des performances.
   
@@ -80,7 +80,7 @@ Le service de sauvegarde transfère en continu les données utilisateur et le co
   
 À partir du pool source, ces données sont exportées à partir du stockage local, compressées, puis transférées vers le pool cible, où elles sont décompressées et importées vers le stockage local. Le service de sauvegarde suppose que le lien de communications entre les deux centres de données se trouve dans le réseau d’entreprise protégé contre Internet. Il ne chiffre pas les données transférées entre les deux centres de données, et les données ne sont pas encapsulées en natif dans un protocole sécurisé, tel que HTTPS. Par conséquent, une attaque de l’intermédiaire de la part du personnel interne au sein du réseau d’entreprise est possible.
   
-Toute entreprise qui déploie des Skype Entreprise Server plusieurs centres de données et utilise la fonctionnalité de récupération d’urgence doit s’assurer que le trafic entre les centres de données est protégé par leur intranet d’entreprise. Les entreprises qui se soucient de la protection contre les attaques internes doivent sécuriser les liens de communication entre les centres de données. Il s’agit d’une exigence standard qui permet également aux protech de nombreux autres types de données sensibles d’entreprise transférées entre des centres de données.
+Toute entreprise qui déploie des Skype Entreprise Server sur plusieurs centres de données et utilise la fonctionnalité de récupération d’urgence doit s’assurer que le trafic entre les centres de données est protégé par leur intranet d’entreprise. Les entreprises qui se soucient de la protection contre les attaques internes doivent sécuriser les liens de communication entre les centres de données. Il s’agit d’une exigence standard qui permet également aux protech de nombreux autres types de données sensibles d’entreprise transférées entre des centres de données.
   
 Bien que le risque d’attaques de l’intermédiaire au sein du réseau d’entreprise existe, il est relativement contenu par rapport à l’exposition du trafic vers Internet. Plus précisément, les données utilisateur exposées par le service de sauvegarde (telles que les UR SIP) sont généralement disponibles pour tous les employés au sein de l’entreprise via d’autres moyens tels que le carnet d’adresses global ou d’autres logiciels d’annuaire. Par conséquent, vous devez vous concentrer sur la sécurisation du WAN entre les deux centres de données lorsque le service de sauvegarde est utilisé pour copier des données entre les deux pools couplés.
   
@@ -88,7 +88,7 @@ Bien que le risque d’attaques de l’intermédiaire au sein du réseau d’ent
 
 Vous avez plusieurs façons d’améliorer la protection de la sécurité pour le trafic du service de sauvegarde. Cela va de la restriction de l’accès aux centres de données à la sécurisation du transport WAN entre les deux centres de données. Dans la plupart des cas, les entreprises qui déploient Skype Entreprise Server ont peut-être déjà l’infrastructure de sécurité requise. Pour les entreprises qui recherchent des conseils, Microsoft fournit une solution qui illustre comment créer une infrastructure informatique sécurisée. Pour plus d’informations, voir [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) . 
   
-Nous ne voulons pas dire qu’il s’agit de la seule solution, ni qu’il s’agit de la solution préférée pour Skype Entreprise Server. Nous recommandons aux clients d’entreprise de choisir la solution qui répond à leurs besoins spécifiques, en fonction de leur infrastructure et de leurs exigences en matière de sécurité informatique. L’exemple de solution Microsoft utilise IPSec et la stratégie de groupe pour l’isolation de serveur et de domaine.
+Nous ne voulons pas dire qu’il s’agit de la seule solution, ni qu’il s’agit de la solution préférée pour Skype Entreprise Server. Nous recommandons aux clients d’entreprise de choisir la solution qui répond à leurs besoins spécifiques, en fonction de leurs besoins et de leur infrastructure de sécurité informatique. L’exemple de solution Microsoft utilise IPSec et la stratégie de groupe pour l’isolation de serveur et de domaine.
   
 Une autre solution possible consiste à utiliser IPSec uniquement pour sécuriser les données envoyées par le service de sauvegarde lui-même. Si vous choisissez cette méthode, vous devez configurer les règles IPSec pour le protocole SMB pour les serveurs suivants, où le pool A et le pool B sont deux pools frontaux couplés.
   

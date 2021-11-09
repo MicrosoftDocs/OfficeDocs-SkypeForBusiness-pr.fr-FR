@@ -1,7 +1,7 @@
 ---
 title: Comparaison des fonctionnalités du client de bureau pour Skype Entreprise Server 2019
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Résumé : Skype Entreprise Server 2019 ou Skype Entreprise Online peuvent utiliser ces tableaux pour comprendre quelles fonctionnalités sont pris en charge sur quels clients.'
-ms.openlocfilehash: 556b88bfe587d1d5a5a1c78461863f0ae8f8fbbf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fa4a516f949f858502c0aece58af8b0c737044b4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777404"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831698"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparaison des fonctionnalités du client de bureau pour Skype Entreprise Server 2019
 
@@ -108,7 +108,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des réunion
 >  Skype Entreprise fonctionnalités de réunion ne sont pas disponibles dans Skype Entreprise Online Plan autonome 1.  Le plan 1 est [retiré.](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md
 )
 
-Dans les sessions Skype-à-Skype, un utilisateur Skype Entreprise Online Plan 1 peut participer au partage de bureau et au partage d’application s’il est invité par un utilisateur ayant accès aux fonctionnalités de partage.
+Dans les sessions Skype-à-Skype, un utilisateur Skype Entreprise Online Plan 1 peut participer au partage de bureau et au partage d’application s’il est invité par un utilisateur qui a accès aux fonctionnalités de partage.
 Pour plus d’informations, [voir Skype Entreprise Online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description). 
 
 |Fonctionnalité/fonctionnalité | Skype Entreprise client 2016 | Skype Entreprise sur Mac | Skype Entreprise Web App | Skype Entreprise client 2015 | Client Lync 2013 | 
@@ -143,9 +143,9 @@ Pour plus d’informations, [voir Skype Entreprise Online Service Description](/
 |Définir la vidéo à la une (verrouiller la vidéo) |&#x2714;||&#x2714;|&#x2714;|&#x2714;| 
 |Donner/prendre le contrôle du partage d’écran  |&#x2714;||&#x2714;|||
 
- &#x2776; participants ne peuvent pas contrôler les bureaux partagés par Skype Entreprise sur Mac, Lync pour Mac 2011 ou Communicator pour Mac 2011. Skype Entreprise sur Mac, les utilisateurs de Lync pour Mac 2011 et Communicator pour Mac 2011 ne peuvent pas contrôler les bureaux partagés par les Windows utilisateurs. Cela ne fonctionne pas non plus pour les Application Web Skype Entreprise sur Max OSX.
+ &#x2776; participants ne peuvent pas contrôler les bureaux partagés par Skype Entreprise sur Mac, Lync pour Mac 2011 ou Communicator pour Mac 2011. Skype Entreprise mac, Lync pour Mac 2011 et Communicator pour Mac 2011 ne peuvent pas contrôler les bureaux partagés par les utilisateurs Windows utilisateurs. Cela ne fonctionne pas non plus pour les Application Web Skype Entreprise sur Max OSX.
 
- &#x2777; for Skype Entreprise Online, this feature requires Microsoft PSTN Conferencing, Exchange Unified Messaging, or a third-party audio conferencing provider.
+ &#x2777; pour Skype Entreprise Online, cette fonctionnalité nécessite la conférence RNC Microsoft, la messagerie unifiée Exchange ou un fournisseur tiers de services d’audioconférence.
 
  &#x2778; le client Lync pour Mac 2011 ne peut pas afficher les présentations Microsoft Office 2013 PowerPoint lorsqu’elles ont été partagées dans une conférence par le Application Web Skype Entreprise.
 
@@ -159,7 +159,7 @@ Pour plus d’informations, [voir Skype Entreprise Online Service Description](/
 Ce tableau couvre les fonctionnalités liées à la prise en charge des services vocaux.
 
 > [!NOTE]
-> Skype Entreprise Les fonctionnalités vocales (téléphonie) sont limitées à certains Skype Entreprise d’abonnement En ligne. Pour plus d’informations, [voir Skype Entreprise Online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description). 
+> Skype Entreprise Les fonctionnalités de voix (téléphonie) sont limitées à certains Skype Entreprise d’abonnement En ligne. Pour plus d’informations, [voir Skype Entreprise Online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description). 
 
  | Fonctionnalité/fonctionnalité | Skype Entreprise client 2015, 2016 ou 2019 | Skype Entreprise sur Mac | Client Lync 2013 |  
 |:-----|:-----|:-----|:-----| 
@@ -180,7 +180,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des services
 |Parcage d'appel |&#x2714;||&#x2714; &#x2776; |
 |Collecte d'appel de groupe |&#x2714;||&#x2714; &#x2776; |
 |Routage basé sur un emplacement |&#x2714;|&#x2714;|&#x2714;| 
-|Gérer le groupe d’appels Response Group/Team |&#x2714;||&#x2714;|
+|Gérer response group/groupe d’appels d’équipe |&#x2714;||&#x2714;|
 
  &#x2776; cette fonctionnalité n’est pas disponible dans Skype Entreprise Online.
 

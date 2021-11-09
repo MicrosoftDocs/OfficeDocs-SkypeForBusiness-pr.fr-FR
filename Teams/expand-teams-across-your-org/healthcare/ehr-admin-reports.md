@@ -1,6 +1,6 @@
 ---
-title: Teams pour les visites virtuelles - Rapports d’administration
-author: cichur
+title: Teams visites virtuelles - Rapports d’administration
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -22,17 +22,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Afficher les rapports d’administration Teams des visites de connecteurs EHR
-ms.openlocfilehash: 3a7514dec687fdd5d82928e4a2a8986b3add4eee
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Afficher les rapports d’administration pour Teams visites de connecteurs EHR
+ms.openlocfilehash: 7ec22bdfd7a73ba39c9e94d0c65f2da6f1f5f973
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769862"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858761"
 ---
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams Rapports d’administration du connecteur EHR
 
-La Microsoft Teams rapports d’administration des dossiers d’état d’santé électroniques (EHR) fournit un affichage rapide et facile à lire des données d’utilisation.
+La Microsoft Teams rapports d’administration du connecteur dossier d’état d’état électronique (EHR) fournit un affichage rapide et facile d’affichage des données d’utilisation.
 
 Vous pouvez afficher le rapport d’Microsoft Teams d’administration du connecteur EHR en vous connectant au tableau de bord Microsoft Teams Centre d’administration et en visualiste dans la boîte de dialogue.
 
@@ -48,6 +48,6 @@ La boîte de dialogue fournit les données suivantes :
 
 Vous pouvez utiliser la boîte de dialogue de rapport pour acheter d’autres visites virtuelles.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Teams pour les visites virtuelles](ehr-admin.md)

@@ -2,7 +2,7 @@
 title: Tester les cas de test du routage des voix
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 4e737d9a7559b8c42cd1e4c39adf792d45a2e17b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 25a9f10fb940fcac440e0d6d41df54ab86454d0f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763952"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833550"
 ---
 # <a name="test-voice-routing-test-cases"></a>Tester le routage des communications vocales : cas de test
 

@@ -2,7 +2,7 @@
 title: Expanseur des paramètres de l’ordinateur Edge
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Pour modifier les propriétés d'un serveur dans un pool de serveurs Edge, procédez comme suit :"
-ms.openlocfilehash: fead19d6ca15228783e2c1f2ad8864dda35907dd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 60c4aaa65f989d7e460539b19a380551e7ac1b74
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769272"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857791"
 ---
 # <a name="edge-machine-settings-expander"></a>Expandeur des paramètres de l’ordinateur Edge
  
