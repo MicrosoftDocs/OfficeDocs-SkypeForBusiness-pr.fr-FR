@@ -2,7 +2,7 @@
 title: Ajouter des colocalisations du serveur frontal 2010
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: Pour un déploiement Enterprise Edition, vous pouvez colocaliser le service de conférence A/V ou le serveur de médiation, voire les deux sur le pool frontal, ou vous pouvez les déployer chacun comme serveur autonome. Pour le déploiement d’un serveur Standard Edition, le service de conférence A/V est toujours colocalisé si la conférence est activée.
-ms.openlocfilehash: 4abf3d4a762ed14d95b7e9f1a4964b50c77a2884
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e4f7186ab036ca0d4f3cdaad02ac47b8dbb4b362
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744245"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860421"
 ---
 # <a name="add-front-end-server-collocations-2010"></a>Ajouter des colocalisations du serveur frontal 2010
 
@@ -37,4 +37,4 @@ Vous pouvez céquequer le rôle serveur de médiation sur Édition Standard serv
 
 Vous pouvez utiliser l’outil de planification Microsoft Lync Server 2013 pour évaluer si le pool frontal sur lequel vous souhaitez céqueriser le serveur de médiation peut gérer la charge. Si votre environnement ne remplit pas les conditions requises, vous devez alors déployer un pool de serveurs de médiation autonome.
 
-En règle générale, la cocisation du serveur de conférence A/V ou du serveur de médiation n’est pas recommandée si votre organisation a des exigences de haute disponibilité et d’évolutivité. Pour plus d’informations sur la cinglisation de ces rôles serveur dans un pool frontal dans un déploiement Êdition Entreprise, voir Définir et configurer un [pool](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) frontal dans la documentation de déploiement. Pour plus d’informations sur la fonction de conférence A/V et ses composants, voir [Planning for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing) dans la documentation de déploiement. Pour plus d’informations sur Voix Entreprise et les composants, y compris le serveur de médiation, voir [Plan for Voix Entreprise in Skype Entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) in the Planning documentation.
+En règle générale, la cocisation du serveur de conférence A/V ou du serveur de médiation n’est pas recommandée si votre organisation a des exigences élevées en matière de disponibilité et d’évolutivité Pour plus d’informations sur la cinglisation de ces rôles serveur dans un pool frontal dans un déploiement Êdition Entreprise, voir Définir et configurer un [pool](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) frontal dans la documentation de déploiement. Pour plus d’informations sur la fonction de conférence A/V et ses composants, voir [Planning for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing) dans la documentation de déploiement. Pour plus d’informations sur Voix Entreprise et les composants, y compris le serveur de médiation, voir [Plan for Voix Entreprise in Skype Entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) in the Planning documentation.
