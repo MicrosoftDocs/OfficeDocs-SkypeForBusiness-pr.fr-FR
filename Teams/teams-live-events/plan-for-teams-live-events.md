@@ -1,6 +1,6 @@
 ---
 title: Planifier des événements en direct dans Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -20,12 +20,12 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84a167e2b53ce61d7d06848b10f63c7419bc9260
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 496c34d36c5e8288a6f29d33a47c1bd6fab2c38a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769812"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865452"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -126,12 +126,12 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 |Client Producteur sur Windows |&#x2714; (Skype Entreprise) |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
 |Client Producteur sur Mac |&#x274C;  | &#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
 |Nombre de participants dans l’interface utilisateur producteur |&#x274C;  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
-|Autorise plusieurs présentateurs |&#x2714; (Skype Entreprise) |&#x2714; (Teams) |S/O  |
+|Autorise plusieurs présentateurs |&#x2714; (Skype Entreprise) |&#x2714; (Teams) |N/A  |
 |Inviter un présentateur pendant la réunion |&#x2714; (Skype Entreprise) |&#x274C; |S/O |
 |Présentateur participe sur le Web et Mobile |&#x2714; (Skype Entreprise)  |&#x274C; |S/O |
 |Accès externe (fédération) et présentateurs/participants invités |&#x2714; (Skype Entreprise)  |  &#x2714; (Teams) |S/O |
-|Présentateur - accès PSTN |&#x274C; |&#x2714; (Teams) |S/O |
-|Présenter un écran |&#x274C; |&#x2714; (Teams) |N/A |
+|Présentateur - accès PSTN |&#x274C; |&#x2714; (Teams) |N/A |
+|Présenter un écran |&#x274C; |&#x2714; (Teams) |S/O |
 |Partage du système audio sous Windows (disponible uniquement lors du partage d’écran)|&#x274C; |&#x2714; (Teams) |&#x2714; |
 |Présenter un PowerPoint (partage PPT) |&#x2714; |&#x274C; (atténué via le partage d’écran) |S/O |
 |Enregistrement de réunion sur le Cloud |&#x2714; |&#x2714; |&#x2714; |
