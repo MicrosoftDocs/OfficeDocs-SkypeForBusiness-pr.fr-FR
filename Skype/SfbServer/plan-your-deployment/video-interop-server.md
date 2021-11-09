@@ -2,7 +2,7 @@
 title: Planifier le serveur d’interconnexion vidéo dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 'Résumé : Examinez cette rubrique lors de la planification de l’intégration Skype Entreprise Server des appareils de téléconférence tiers.'
-ms.openlocfilehash: 34afa051513ea2ebef60213fbc8c1a650bfec199
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b928e432b464e6bf1a5ccb8748ebf75ef8cc596b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749913"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862061"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>Planifier le serveur d’interconnexion vidéo dans Skype Entreprise Server
  
 **Résumé :** Examinez cette rubrique lors de la planification de l Skype Entreprise Server des périphériques de téléconférence tiers.
   
-Skype Entreprise Server vous permet désormais d’intégrer certaines solutions VTC (Video Teleconferencing System) tierces. Le nouveau rôle serveur qui permet cette interopérabilité de conférence vidéo est le serveur d’interopérabilité vidéo (VIS), actuellement implémenté en tant que rôle serveur autonome disponible uniquement pour les installations sur site. Un VIS fait office d’intermédiaire entre un système de téléconférence tiers et un Skype Entreprise Server déploiement. Pour cette version, le VIS se concentre sur l’interopérabilité avec les systèmes vidéo Cisco/Tandberg. Examinez cet article pour déterminer s’il faut utiliser cette fonctionnalité dans votre installation Skype Entreprise Server’installation.
+Skype Entreprise Server vous permet désormais d’intégrer certaines solutions VTC (Video Teleconferencing System) tierces. Le nouveau rôle serveur qui permet cette interopérabilité de visioconférence est le serveur d’interopérabilité vidéo (VIS), actuellement implémenté en tant que rôle serveur autonome disponible uniquement pour les installations sur site. Un VIS fait office d’intermédiaire entre un système de téléconférence tiers et un Skype Entreprise Server déploiement. Pour cette version, le VIS se concentre sur l’interopérabilité avec les systèmes vidéo Cisco/Tandberg. Examinez cet article pour déterminer s’il faut utiliser cette fonctionnalité dans votre installation Skype Entreprise Server’installation.
   
 ## <a name="device-interoperability"></a>Interopérabilité des appareils
 
@@ -64,15 +64,15 @@ Ce rôle serveur fournit :
   
 - Conversion entre les formats H.264 utilisés par les systèmes vidéo tiers et le Skype Entreprise Server déploiement.
     
-- Conversion d’un flux vidéo unique à une résolution donnée à partir d’un VTC en plusieurs flux de diffusion simulcast de différentes résolutions à utiliser dans le Skype Entreprise Server déploiement. Ces flux peuvent être envoyés à l’AVMCU, puis Skype Entreprise Server points de terminaison et autres systèmes vidéo qui ont demandé des résolutions différentes. Cette conversion est également utilisée lorsque le système vidéo tiers est impliqué dans une conférence Skype Entreprise A/V. Une fois la limite de transcodage atteinte sur un serveur VIS particulier, les demandes suivantes pour différentes résolutions reçoivent uniquement un flux avec la résolution la plus faible. 
+- Conversion d’un flux vidéo unique à une résolution donnée à partir d’un VTC en plusieurs flux de diffusion simulcast de différentes résolutions à utiliser dans le Skype Entreprise Server déploiement. Ces flux peuvent être envoyés à l’AVMCU, puis Skype Entreprise Server points de terminaison et autres systèmes vidéo qui ont demandé différentes résolutions. Cette conversion est également utilisée lorsque le système vidéo tiers est impliqué dans une conférence Skype Entreprise A/V. Une fois la limite de transcodage atteinte sur un serveur VIS particulier, les demandes suivantes de résolutions différentes reçoivent uniquement un flux avec la résolution la plus faible. 
     
-- Prise en charge d’une trunk SIP vidéo entre la passerelle CUCM et un serveur Skype Entreprise Server Video Interop Server ; Les VTC continuent à s’inscrire auprès de la passerelle Cisco et lancent des appels au Skype Entreprise déploiement via la passerelle. Les appels sont acheminés de la passerelle vers le Skype Entreprise d’interopation vidéo sur la passerelle SIP vidéo.
+- Prise en charge d’une trunk SIP vidéo entre la passerelle CUCM et un serveur Skype Entreprise Server Video Interop Server ; Les VTC continuent à s’inscrire auprès de la passerelle Cisco et à lancer des appels vers Skype Entreprise déploiement via la passerelle. Les appels sont acheminés de la passerelle vers le Skype Entreprise d’opation vidéo sur la passerelle SIP vidéo.
     
-- Prise en charge d’un utilisateur dans une salle de conférence avec un système vidéo pris en charge pour composer un numéro à partir de ce système pour participer à une conférence ouverte ou fermée. Cet appel traverse la ligne SIP vidéo.
+- Prise en charge d’un utilisateur dans une salle de conférence avec un système vidéo pris en charge pour composer un numéro à partir de ce système pour participer à une conférence ouverte ou fermée. Cet appel traversera la ligne SIP vidéo.
     
 - Prise en charge d’un utilisateur dans une salle de conférence avec un système vidéo pris en charge pour appeler Skype Entreprise client. L’appel traverse la ligne SIP.
     
-- Prise en charge du contrôle d’appel intermédiaire du côté Skype Entreprise Server ou du système VTC pris en charge pour les appels point à point et multipoint, y compris les appels de désin mute/dés son, de pause/reprise de la vidéo, de verrouillage vidéo et d’attente/désinsoutrement.
+- Prise en charge du contrôle d’appel intermédiaire du côté Skype Entreprise Server ou du système VTC pris en charge pour les appels point à point et multipoint, y compris le son de désin mute/désinserrement du son, la pause/reprise de la vidéo, le verrouillage vidéo et l’appel de mise en attente/désinsoutrement.
     
 ## <a name="known-limitations"></a>Limitations connues
 
@@ -92,18 +92,18 @@ Ce rôle serveur présente les limitations suivantes :
     
 - Les appels d’un VTC vers le PSTN via le VIS ne sont pas pris en charge.
     
-- Les appels du RTC vers un VTC via le VIS ne sont pas pris en charge.
+- Les appels du réseau téléphonique (RTC) vers un VTC via le VIS ne sont pas pris en charge.
     
 ## <a name="resiliency-mechanisms"></a>Mécanismes de résilience
 <a name="resiliency"> </a>
 
 Le VIS prend en charge les appels entrants provenant d’un CUCM qui sont effectués sur une trunk SIP vidéo. Il est possible de perdre la connectivité en amont ou en aval. Pour une résilience robuste, envisagez les deux possibilités :
   
-1. **Failover du pool VIS** Si le pool VIS principal vers qui pointe la passerelle vidéo est en panne, la récupération est possible si la passerelle vidéo a défini des trunks vers deux (ou plusieurs) pools VIS. Si la passerelle vidéo détermine qu’elle ne peut pas effectuer d’appels vers le pool VIS principal, elle route simplement les appels vers un pool VIS secondaire.
+1. **Failover du pool VIS** Si le pool VIS principal vers qui pointe la passerelle vidéo est en panne, la récupération est possible si la passerelle vidéo a défini des trunks vers deux (ou plusieurs) pools VIS. Si la passerelle vidéo détermine qu’elle ne peut pas effectuer d’appels vers le pool VIS principal, elle a simplement route les appels vers un pool VIS secondaire.
     
      ![Diagramme du failover du pool VIS.](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
   
-    Un pool VIS particulier peut avoir des trunks vers plusieurs passerelles, mais normalement, une passerelle particulière ne peut pas avoir de trunks vers plusieurs pools VIS. Par conséquent, une astuce doit être effectuée pour prendre en charge ce failover : définir 2 FDQN dans le DNS qui sont résolus en la même adresse IP d’une passerelle vidéo. Représentez chaque nom de groupe (FQDN) en tant que passerelle vidéo distincte dans le document de topologie, où chaque passerelle vidéo dispose d’une passerelle vers un pool VIS différent, et la récupération est désormais possible. (Si TLS est utilisé, les noms multiples doivent être dans le SAN du certificat de passerelle vidéo.)
+    Un pool VIS particulier peut avoir des trunks vers plusieurs passerelles, mais normalement, une passerelle particulière ne peut pas avoir de trunks vers plusieurs pools VIS. Une astuce doit donc être effectuée pour prendre en charge ce failover : Définissez 2 FDQN dans le DNS qui sont résolus en la même adresse IP d’une passerelle vidéo. Représentez chaque nom de groupe (FQDN) en tant que passerelle vidéo distincte dans le document de topologie, où chaque passerelle vidéo dispose d’une passerelle vers un pool VIS différent, et la récupération est désormais possible. (Si TLS est utilisé, les noms multiples doivent être dans le SAN du certificat de passerelle vidéo.)
     
     > [!NOTE]
     > Le VIS autorise uniquement les appels entrants provenant de passerelles configurées dans le document de topologie. 
@@ -143,7 +143,7 @@ Skype Entreprise Server prend en charge le fait que les branches SIP vocales et 
 ## <a name="co-existence-of-vis-in-the-skype-for-business-release-with-previous-releases-of-lync"></a>Coexistence du VIS dans la version Skype Entreprise avec les versions précédentes de Lync
 <a name="resiliency"> </a>
 
-Le vis ne peut être déployé que dans le cadre d Skype Entreprise déploiement. Il peut interopérer avec les conférences et les clients Lync 2013 qui font partie d’un déploiement existant ; Dans ce cas, le pool VIS doit faire partie d’un déploiement Skype Entreprise qui inclut un pool de bureaux d’inscriptions/fe qui est le saut suivant pour le pool VIS.
+Le vis ne peut être déployé que dans le cadre d Skype Entreprise déploiement. Il peut interopérer avec les conférences et clients Lync 2013 qui font partie d’un déploiement existant ; Dans ce cas, le pool VIS doit faire partie d’un déploiement Skype Entreprise qui inclut un pool de bureaux d’inscriptions/fe qui est le saut suivant pour le pool VIS.
   
 Le VIS ne prend pas en charge le transcodage entre RTV et H.264. Il n’existe aucune interopérabilité vidéo entre les clients pré-Lync 2013 et les participants VTC dans une conférence.
   
@@ -163,7 +163,7 @@ La fec peut être désactivée pour faciliter la récupération suite à une per
 ## <a name="vis-sizing-and-transcoding-costs"></a>Coût de resserrisation et de transcodage vis
 <a name="resiliency"> </a>
 
-Le transcodage des flux vidéo à partir du VTC Cisco vers plusieurs flux de diffusion simultanée utilise la capacité du processeur. Environ 16 VTC peuvent avoir leur vidéo transcodée (en supposant qu’un flux vidéo 720p à partir de chaque VTC est transcodé en 3 flux de simulcast distincts à 720p, 360p et 180p) dans un seul VIS s’exécutant sur l’équivalent de la plateforme FE Lync 2013 recommandée. Si le transcodage est désactivé, cela permet d’économiser sur le processeur VIS. Toutefois, l’image vidéo demandée par le VIS à partir du VTC sera la résolution commune la plus faible pour satisfaire tous les récepteurs Skype Entreprise côté vidéo. Notez que même avec le transcodage, le transcodage peut être activé lorsque Skype Entreprise clients demandent certaines résolutions basse que les VTC ne peuvent pas envoyer.
+Le transcodage des flux vidéo à partir du VTC Cisco vers plusieurs flux de diffusion simultanée utilise la capacité du processeur. Environ 16 VTC peuvent avoir leur vidéo transcodée (en supposant qu’un flux vidéo 720p à partir de chaque VTC est transcodé en 3 flux simulcast distincts à 720p, 360p et 180p) dans un seul VIS s’exécutant sur l’équivalent de la plateforme FE recommandée Lync 2013. Si le transcodage est désactivé, cela permet d’économiser sur le processeur VIS. Toutefois, l’image vidéo demandée par le VIS à partir du VTC sera la résolution commune la plus faible pour satisfaire tous les récepteurs Skype Entreprise côté vidéo. Notez que même avec le transcodage, le transcodage peut être activé lorsque Skype Entreprise clients demandent certaines résolutions basse que les VTC ne peuvent pas envoyer.
   
 ## <a name="call-distribution-from-the-video-gateway-to-vis"></a>Distribution des appels de la passerelle vidéo vers le VIS
 <a name="resiliency"> </a>

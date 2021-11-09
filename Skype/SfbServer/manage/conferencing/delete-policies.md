@@ -2,7 +2,7 @@
 title: Supprimer des stratégies de conférence dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: 'Résumé : Découvrez comment supprimer des stratégies de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: d77910cb5fe39dcb47564b1b456a314ae03584a5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 47138386812ddd401b7aa9edb54f5a619914f6fe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773694"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847377"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>Supprimer des stratégies de conférence dans Skype Entreprise Server
  
@@ -31,7 +31,7 @@ Vous pouvez supprimer des stratégies de conférence à l’Skype Entreprise Ser
     
 2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Stratégie **de conférence.**
+3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur Stratégie **de conférence.**
     
 4. Dans la liste des stratégies de conférence, cliquez sur la stratégie de site ou d’utilisateur à supprimer, cliquez sur **Modifier,** puis sur **Supprimer.**
     

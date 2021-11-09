@@ -2,7 +2,7 @@
 title: Utilisation du tableau de bord de surveillance dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,24 +12,24 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Résumé : Découvrez le tableau de bord de surveillance dans Skype Entreprise Server.'
-ms.openlocfilehash: b03c85355d2217763066ddce68e55eab65343249
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ac68ae2174fcd7c4266da77c2d079c2f9a31d8e5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772030"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862301"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Utilisation du tableau de bord de surveillance dans Skype Entreprise Server
  
 **Résumé :** Découvrez le tableau de bord de surveillance dans Skype Entreprise Server.
   
-Le Tableau de bord de surveillance offre aux administrateurs une vue d’ensemble rapide de leur Skype Entreprise Server l’état et de l’utilisation du système. Le tableau de bord est conçu pour afficher une vue agrégée des mesures système clés et pour ce faire, en affichant :
+Le Tableau de bord de surveillance offre aux administrateurs une vue d’ensemble rapide de leur Skype Entreprise Server et de l’utilisation du système. Le tableau de bord est conçu pour afficher une vue agrégée des mesures système clés et pour ce faire, en affichant :
   
 - Totaux du jour en cours. Notez que les valeurs affichées pour le jour actuel représentent des données enregistrées de minuit à l’heure actuelle (en fonction de l’heure locale du serveur de rapports). Cela signifie que vous affichez généralement les données pour un jour partiel et non pour une période de 24 heures. Par exemple, si l’heure locale du serveur est 8:00 AM, vous voyez une valeur de huit heures de données, car il y a huit heures entre minuit et l’heure actuelle de 8:00.
     
 - Totaux de la semaine et totaux de tendance pour les six semaines précédentes.
     
-- Totaux du mois et totaux de tendance pour les six derniers mois (pour l’utilisation du système uniquement).
+- Les totaux du mois et les totaux de tendance des six derniers mois (pour l’utilisation du système uniquement).
     
 Notez que vous pouvez utiliser l’cmdlet [Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) pour renvoyer l’URL utilisée pour accéder Skype Entreprise Server rapports de surveillance :
   
@@ -71,7 +71,7 @@ Par défaut, le Tableau de bord de surveillance affiche les données pour les me
     
 - Conférences de partage d’application
     
-- Conférences Web
+- Conférences web
     
 - Nombre total d’organisateurs
     
@@ -85,7 +85,7 @@ Par défaut, le Tableau de bord de surveillance affiche les données pour les me
     
 - Nombre total de minutes par participant PSTN
     
-Outre les mesures d’utilisation du système, les mesures suivantes affichent le total pour le jour actuel et les six jours précédents (si vous sélectionnez Affichage **hebdomadaire)** ou pour la semaine en cours et les six semaines passées si vous sélectionnez Affichage **mensuel.**
+Outre les mesures Utilisation du système, les mesures suivantes affichent le total pour le jour actuel et les six jours précédents (si vous sélectionnez Affichage **hebdomadaire)** ou pour la semaine en cours et les six semaines passées si vous sélectionnez Affichage **mensuel.**
   
 ## <a name="per-user-call-diagnostics"></a>Per-User diagnostics des appels
 
@@ -152,9 +152,9 @@ Principaux serveurs par pourcentage d’appels de qualité médiocre
 Comme indiqué, les totaux par défaut sont affichés pour la semaine en cours et les valeurs de tendance sont affichées pour les six semaines précédentes. Si vous préférez afficher les totaux du mois en cours (ainsi que  les valeurs de tendance des six derniers mois), cliquez sur le lien Affichage mensuel dans le coin supérieur droit du tableau de bord. Si vous décidez d’afficher les totaux mensuels, le texte du lien sera changé en **Affichage hebdomadaire.** Vous pouvez revenir à l’affichage hebdomadaire en cliquant sur ce lien.
   
 > [!TIP]
-> Le Tableau de bord de surveillance vous limite à l’analyse des totaux de la semaine (ou du mois) en cours et des valeurs de tendance pour les six semaines (ou mois précédents). Vous ne pouvez pas modifier ces dates et heures. Par exemple, vous ne pouvez pas utiliser le tableau de bord pour afficher les totaux des rapports pour la période commençant à neuf mois. 
+> Le Tableau de bord de surveillance vous limite à la recherche des totaux de la semaine (ou du mois) en cours et des valeurs de tendance des six semaines (ou mois précédents). Vous ne pouvez pas modifier ces dates et heures. Par exemple, vous ne pouvez pas utiliser le tableau de bord pour afficher les totaux des rapports pour la période commençant à neuf mois. 
   
-Les valeurs affichées dans les  colonnes **Cette semaine,** **Ce mois** ou Aujourd’hui vous relient à des informations plus détaillées sur l’élément. N’oubliez pas que le nom de colonne et les valeurs affichées dans cette colonne varient souvent en fonction de la mesure choisie et selon que vous avez sélectionné l’affichage hebdomadaire ou mensuel. Par exemple, si vous cliquez sur les totaux affichés  pour la mesure Ouvertures de session utilisateur **uniques,** vous verrez le rapport d’enregistrement de l’utilisateur pour la période spécifiée. Vous pouvez revenir au Tableau de bord de surveillance à tout moment en cliquant sur **Tableau de bord.**
+Les valeurs affichées dans les  colonnes **Cette semaine,** **Ce mois** ou Aujourd’hui vous relient à des informations plus détaillées sur l’élément. N’oubliez pas que le nom de colonne et les valeurs affichées dans cette colonne varient souvent en fonction de la mesure choisie et selon que vous avez sélectionné un affichage hebdomadaire ou mensuel. Par exemple, si vous cliquez sur les totaux affichés  pour la mesure Ouvertures de session utilisateur **uniques,** vous verrez le rapport d’enregistrement de l’utilisateur pour la période spécifiée. Vous pouvez revenir au Tableau de bord de surveillance à tout moment en cliquant sur **Tableau de bord.**
   
 > [!TIP]
 > Vous pouvez également accéder à la page d’accueil Rapports du serveur de surveillance en cliquant sur le lien **Rapports** dans le coin supérieur droit du tableau de bord.
@@ -185,7 +185,7 @@ Il est possible que, lorsque vous essayez  d’exporter des données de tableau 
   
 - Dans Internet Explorer, sélectionnez **Options Internet.**
     
-- Dans la boîte **de dialogue Options Internet,** sous l’onglet  Sécurité, cliquez sur **Sites** de confiance, puis sur **Sites**.
+- Dans la boîte **de dialogue Options Internet,** sous l’onglet **Sécurité,** cliquez sur **Sites** de confiance, puis sur **Sites**.
     
 - Dans la **boîte de**  dialogue Sites de confiance, cliquez sur Ajouter pour ajouter le Skype Entreprise Server qui Skype Entreprise Server rapports aux collections de sites web de confiance.
     

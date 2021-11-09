@@ -2,7 +2,7 @@
 title: Liste de certificats
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour affecter un certificat, sélectionnez un certificat dans le magasin de certificats local. Cliquez sur Suivant pour continuer.
-ms.openlocfilehash: df45e1e3d93dd88614d5f05f98f497e3d01080ea
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cec1b97abb8827894661c1738dd775ca8b6e6251
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738831"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846917"
 ---
 # <a name="certificate-list"></a>Liste de certificats
  

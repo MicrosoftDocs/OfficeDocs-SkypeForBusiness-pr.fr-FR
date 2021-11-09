@@ -2,7 +2,7 @@
 title: What’s deprecated from Skype Entreprise Server 2019
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: overview
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Résumé : Ces fonctionnalités ont été supprimées de Skype Entreprise Server 2019.'
-ms.openlocfilehash: 65229e091d903ca18fee89224e45aedef8c0ca40
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7f956aed60a65d074776756e0c6254e2aa3d9629
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771723"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846977"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>What’s deprecated from Skype Entreprise Server 2019
 
@@ -41,7 +41,7 @@ La même fonctionnalité est disponible dans Teams. Pour plus d’informations, 
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL Mise en miroir pour Skype Entreprise Server
 
-SQL La mise en miroir ne peut pas être déployée Skype Entreprise Server 2019. D’autres options de haute disponibilité et de récupération d’urgence sont toujours pris en charge et vous devez choisir parmi celles-ci. Pour [consulter les options, voir Planifier la](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) haute disponibilité et la récupération d’Skype Entreprise Server d’urgence.
+SQL La mise en miroir ne peut pas être déployée Skype Entreprise Server 2019. D’autres options de haute disponibilité et de récupération d’urgence sont toujours pris en charge et vous devez choisir parmi celles-ci. Pour [consulter les options, voir Planifier la](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) haute disponibilité et la récupération d’urgence Skype Entreprise Server les options.
 
 ### <a name="in-place-upgrades"></a>Mises à niveau sur place 
 
@@ -51,7 +51,7 @@ Les mises à niveau sur place étaient disponibles Skype Entreprise Server 2015,
 
 Tous les clients mobiles Skype Entreprise actuellement utilisent déjà l’API UCWA (Unified Communications Web API) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant Mcx devront mettre à niveau vers un client actuel.
 
-Pour plus d’informations, voir La comparaison [des](../SfbServer/plan-your-deployment/mobility.md) fonctionnalités de client Skype Entreprise Server mobile et de la mobilité [pour Skype Entreprise](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md).
+Pour plus d’informations, voir [la comparaison des](../SfbServer/plan-your-deployment/mobility.md) fonctionnalités de client Skype Entreprise Server mobile et de la mobilité pour [Skype Entreprise](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md).
 
 ## <a name="tools"></a>Outils
 

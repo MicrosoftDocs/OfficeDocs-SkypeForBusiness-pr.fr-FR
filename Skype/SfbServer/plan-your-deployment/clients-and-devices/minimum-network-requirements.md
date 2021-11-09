@@ -1,7 +1,7 @@
 ---
 title: Configuration réseau minimale requise pour l’application Réunions Skype
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 6/4/2018
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: 'Résumé : Informations pour les organisations qui n’utilisent pas Microsoft 365 ou Office 365 et qui ont besoin d’accéder aux réunions hébergées par des organisations qui le font.'
-ms.openlocfilehash: 2d27e578e448c44cd13190d4aedf1e15f611d997
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 28373203bd60182bd6065a6e7169e8f9f4908940
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751573"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862081"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Configuration réseau minimale requise pour l’application Réunions Skype
  
-**Résumé :**  Informations pour les organisations qui n’utilisent pas Microsoft 365 ou Office 365 et qui ont besoin d’accéder aux réunions hébergées par des organisations qui le font. Cet article n’est pas destiné aux utilisateurs de ces applications.
+**Résumé :**  Informations pour les organisations qui n’utilisent pas Microsoft 365 ou Office 365 et qui ont besoin d’accéder aux réunions hébergées par les organisations qui le font. Cet article n’est pas destiné aux utilisateurs de ces applications.
   
 Pour permettre aux utilisateurs d’utiliser l’application Skype Meetings pour participer à des réunions hébergées dans Skype Entreprise Online, les administrateurs réseau des organisations qui n’utilisent pas Microsoft 365 ou Office 365 doivent autoriser ou mettre à disposition les FQDN, les fai et les ports mentionnés ci-dessous.
 

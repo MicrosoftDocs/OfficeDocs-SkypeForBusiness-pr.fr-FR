@@ -1,7 +1,7 @@
 ---
 title: Restrictions de numérotation gratuites en Italie
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -21,13 +21,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous devez vous rendre sur une page spécifique du pays qui contient des détails, des restrictions et des limites spécifiques sur la disponibilité du service gratuit où un service gratuit est disponible. Le format ou les formats de numérotation vous indiquent les codes d’accès requis dans chaque pays ou région pour composer le numéro gratuit.
-ms.openlocfilehash: efb87d7032e8313d5fab979b1adcb17ecddea292
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous devez vous rendre sur une page spécifique du pays qui contient des détails, des restrictions et des limites spécifiques sur la disponibilité du service gratuit où un service gratuit est disponible. Le format ou les formats de numérotation indiquent les codes d’accès requis dans chaque pays ou région pour composer le numéro gratuit.
+ms.openlocfilehash: c472b52175e6c3c90d8be4c759a8b329e5db3ed0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760352"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848067"
 ---
 # <a name="toll-free-dialing-restrictions-in-italy"></a>Restrictions de numérotation gratuites en Italie
 
@@ -39,13 +39,13 @@ ms.locfileid: "60760352"
 |Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> | 800 <br>803 <br>|
 |Code ISO de pays/région  <br/> |IT  <br/> |
-|Île/territoire couvert par  <br/> |Non applicable  <br/> |
+|Île/territoire couvert(s)  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> | Non applicable  <br/>  |
 |Disponibilité des lignes câblés/fixes  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> | Oui (certains numéros peuvent être premium) <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Aucun  <br/> |
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

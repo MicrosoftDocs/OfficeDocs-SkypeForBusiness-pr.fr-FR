@@ -1,7 +1,7 @@
 ---
 title: Skype Entreprise client sur Mac
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Lisez cette rubrique pour en savoir plus sur la configuration matérielle, logicielle et d’infrastructure requise pour l’Skype Entreprise sur un Mac.
-ms.openlocfilehash: 3a4d80bea5bd56f94b5239a537d059c4409d8f33
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b7d3ce484ea3e333e85c2f8473cdcdaaebe44057
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745910"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847217"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype Entreprise client sur Mac
  
@@ -38,7 +38,7 @@ Le Skype Entreprise client Mac nécessite Mac OS X El Capitan et des niveaux sup
   
 ### <a name="legacy-mac-clients"></a>Clients Mac hérités
 
-Skype Entreprise Server 2015 prend également en charge les clients hérités suivants sur les ordinateurs exécutant Mac OS 10.5.8 ou les systèmes d’exploitation ou version de service les plus récents (le système d’exploitation Mac OS 10.9 n’est actuellement pas pris en charge). Pour plus d’informations sur les fonctionnalités pris en charge, voir comparaison des fonctionnalités client de bureau [pour Skype Entreprise](desktop-feature-comparison.md).
+Skype Entreprise Server 2015 prend également en charge les clients hérités suivants sur les ordinateurs exécutant Mac OS 10.5.8 ou les systèmes d’exploitation ou version la plus récente (le système d’exploitation Mac OS 10.9 n’est actuellement pas pris en charge). Pour plus d’informations sur les fonctionnalités pris en charge, voir comparaison des fonctionnalités client de bureau [pour Skype Entreprise](desktop-feature-comparison.md).
   
 - Microsoft Lync pour Mac 2011 (voir le Guide de déploiement [de Lync pour Mac 2011)](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14))
     
@@ -55,7 +55,7 @@ Le client a les mêmes exigences que nos clients de mobilité dans la mesure où
   
 ### <a name="authentication"></a>Authentification
 
-Le Skype Entreprise sur Mac prend en charge l’authentification basée sur les certificats, l’authentification moderne Microsoft et l’authentification multifacteur lorsqu’elles sont déployées et activées.
+Le client Skype Entreprise Mac prend en charge l’authentification basée sur les certificats, l’authentification moderne Microsoft et l’authentification multifacteur lorsqu’elles sont déployées et activées.
   
 > [!NOTE]
 > En raison d’une limitation actuelle, les informations d’identification Exchange utilisateur doivent être identiques à leurs informations d’identification Skype Entreprise données. 

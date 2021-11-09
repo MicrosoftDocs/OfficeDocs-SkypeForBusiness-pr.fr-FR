@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398725(v=OCS.15)
 ms:contentKeyID: 48184825
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Vous configurez une ou plusieurs stratégies d’accès des utilisateurs externes pour contrôler si les utilisateurs distants peuvent collaborer avec des utilisateurs Skype Entreprise Server internes. Pour contrôler l’accès des utilisateurs distants, vous pouvez configurer des stratégies au niveau global, du site et de l’utilisateur.
-ms.openlocfilehash: 4029a2fe21c4d7a013808cd77b28d670d1bf994f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a060622919fb8d948b55178a8e0b1d4da8b6e5cc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772040"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847287"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>Configurer des stratégies pour contrôler l’accès des utilisateurs distants dans Skype Entreprise Server
 
@@ -66,4 +66,4 @@ Utilisez la procédure suivante pour configurer chaque stratégie d’accès ext
 
 Pour activer l’accès des utilisateurs distants, vous devez aussi activer la prise en charge de l’accès des utilisateurs distants dans votre organisation. Pour plus d’informations, [voir Activer ou désactiver la fédération et la connectivité DE messagerie instantanée publique.](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 
-S’il s’agit d’une stratégie utilisateur, vous devez aussi appliquer la stratégie aux utilisateurs que vous souhaitez autoriser à se connecter à distance. Pour plus d’informations, voir [Attribuer une stratégie d’accès des utilisateurs externes.](assign-an-external-user-access-policy.md)
+S’il s’agit d’une stratégie utilisateur, vous devez aussi appliquer la stratégie aux utilisateurs que vous souhaitez autoriser à se connecter à distance. Pour plus d’informations, voir [Affecter une stratégie d’accès des utilisateurs externes.](assign-an-external-user-access-policy.md)

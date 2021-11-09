@@ -2,7 +2,7 @@
 title: Shifts pour Teams
 description: Obtenez les conseils d’administration dont vous avez besoin pour configurer et gérer Shifts, l’outil de gestion des plannings, Teams.
 ms.topic: conceptual
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 audience: admin
 manager: serdars
@@ -21,12 +21,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 5e8de5e2c43751c1578678bff9e1f6e9099c4a6a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 509345043de3e26821043322454ec4f0e4ad05a2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756095"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848207"
 ---
 # <a name="shifts-for-teams"></a>Shifts pour Teams
 
@@ -36,7 +36,7 @@ Teams fournit aux employés de votre organisation les outils dont ils ont besoin
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | ------------- | ------------- | ------------- | ------------- |
-|![task-checklist-planning-teams.](../media/task-checklist-planning-teams-small.svg) | **[Gérer Shifts dans votre organisation](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![conception](../media/Help-small.svg)  | **[Aide shifts pour les employés en avant-plan](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![task-checklist-planning-teams.](../media/task-checklist-planning-teams-small.svg) | **[Gérer shifts dans votre organisation](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![conception](../media/Help-small.svg)  | **[Aide shifts pour les employés en avant-plan](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### <a name="shifts-extensions"></a>Extensions Shifts
 

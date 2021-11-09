@@ -1,7 +1,7 @@
 ---
 title: Planifier les clients Meetings (application Web et application réunions)
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Résumé : Les professionnels de l’informatique doivent examiner les exigences de prise en charge de l’application Application Web Skype Entreprise et Skype Meetings lors de la planification de Skype Entreprise Server. Cet article n’est pas destiné aux utilisateurs de ces applications.'
-ms.openlocfilehash: 615fff0be39afd41745087d4dae4ea40385e034b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dbf9f83599e36189c172daa37cdb7444659aad83
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762262"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862121"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planifier les clients Meetings (application Web et application réunions)
  
@@ -45,7 +45,7 @@ Pour Skype Entreprise Server, Skype Meetings App (sur Windows) et Skype Entrepri
 Skype L’application Meetings offre une expérience de navigateur simplifiée pour télécharger et installer l’application et participer à des réunions, notamment en un clic pour les utilisateurs d’Internet Explorer. Skype L’application Meetings présente également de nombreuses améliorations par rapport à la Application Web Skype Entreprise pour la fiabilité et l’expérience de réunion. 
   
 > [!NOTE]
-> À Skype Entreprise Server CU5 2015 ou version ultérieure, les réunions organisées à l’aide de Skype Entreprise Online n’envoient plus l’Application Web Skype Entreprise à un utilisateur sans client, mais elles sont envoyées Skype Meetings App (sur Windows) ou Skype Entreprise pour Mac (sur Mac). À partir de Skype Entreprise Server CU5 2015 ou ultérieure, si vous activez l’application réunions Skype pour remplacer [Application Web Skype Entreprise (facultatif),](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)les utilisateurs sans client seront envoyés Skype Application réunions ou Skype Entreprise pour Mac au lieu de Application Web Skype Entreprise. 
+> À Skype Entreprise Server CU5 2015 ou version ultérieure, les réunions organisées à l’aide de Skype Entreprise Online n’envoient plus l’Application Web Skype Entreprise à un utilisateur sans client, mais elles sont envoyées Skype Meetings App (sur Windows) ou Skype Entreprise pour Mac (sur Mac). À partir de la Skype Entreprise Server CU5 2015 ou ultérieure, si vous activez l’application réunions Skype pour remplacer [Application Web Skype Entreprise (facultatif),](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)les utilisateurs sans client seront envoyés Skype Application réunions ou Skype Entreprise pour Mac au lieu de Application Web Skype Entreprise. 
   
 ## <a name="software-requirements"></a>Configuration logicielle requise
 <a name="OS-Browser"> </a>
@@ -85,7 +85,7 @@ Skype Entreprise pour Mac s’exécute sur des ordinateurs utilisant macOS versi
 ## <a name="hardware-requirements"></a>Configuration matérielle requise
 <a name="OS-Browser"> </a>
 
-La configuration matérielle requise est déterminée par le système d’exploitation et le navigateur. Les fonctionnalités vocales et téléphoniques nécessitent un microphone et des haut-parleurs, un casque avec microphone ou un périphérique équivalent compatible avec l’ordinateur. Les fonctionnalités vidéo nécessitent un périphérique vidéo compatible avec l’ordinateur. Pour plus d’informations sur la prise en charge du matériel vidéo et la qualité vidéo attendue, [voir Skype Entreprise résolutions vidéo clientes.](video-resolutions.md)
+La configuration matérielle requise est déterminée par le système d’exploitation et le navigateur. Les fonctionnalités vocales et téléphoniques nécessitent un microphone et des haut-parleurs, un casque avec microphone ou un périphérique équivalent compatible avec l’ordinateur. Les fonctionnalités vidéo nécessitent un périphérique vidéo compatible avec l’ordinateur. Pour plus d’informations sur la prise en charge du matériel vidéo et la qualité vidéo attendue, voir [Skype Entreprise résolutions vidéo clientes.](video-resolutions.md)
   
 ## <a name="network-requirements"></a>Configuration requise pour le réseau
 <a name="Network"> </a>
@@ -152,9 +152,9 @@ Pour les utilisateurs finaux, [l’aide en ligne](https://aka.ms/smahelp) pour c
     
 - Certains utilisateurs peuvent avoir des ordinateurs administrés par l’entreprise avec l’autorisation désactivée d’installer des applications. Pour ces utilisateurs, aucune des [](https://products.office.com/skype-for-business/download-app?tab=tabs-1) deux [](https://products.office.com/skype-for-business/download-app?tab=tabs-2) applications n’est une option, mais les utilisateurs de smartphones et de tablettes peuvent être en mesure d’installer des clients mobiles peu coûteux qu’ils peuvent utiliser pour participer à des réunions.
     
-    D’autres problèmes d’installation sont également traités dans les [rubriques d’aide.](https://support.office.com/article/Trouble-installing-the-Skype-for-Business-Web-App-plug-in-958fc5f1-2d6f-42e3-815d-a9516c591274?ui=en-US&amp;rs=en-US&amp;ad=US) 
+    D’autres problèmes d’installation sont également abordés dans les [rubriques d’aide.](https://support.office.com/article/Trouble-installing-the-Skype-for-Business-Web-App-plug-in-958fc5f1-2d6f-42e3-815d-a9516c591274?ui=en-US&amp;rs=en-US&amp;ad=US) 
     
-- Les utilisateurs peuvent voir un avertissement de pare-feu la première fois qu’ils exécutent l’application de réunions. Ils peuvent être invités à ouvrir des ports pour optimiser l’expérience, ce qui peut nécessiter des privilèges d’administrateur sur l’ordinateur qu’ils n’ont peut-être pas. L’application doit toujours fonctionner et l’utilisateur peut refuser en toute sécurité d’ouvrir les ports demandés. 
+- Les utilisateurs peuvent voir un avertissement de pare-feu la première fois qu’ils exécutent l’application de réunions. Ils peuvent être invités à ouvrir des ports pour optimiser l’expérience, ce qui peut nécessiter des privilèges d’administrateur sur l’ordinateur dont ils n’ont peut-être pas. L’application doit toujours fonctionner et l’utilisateur peut refuser en toute sécurité d’ouvrir les ports demandés. 
     
 - Vous devez avoir activé [ActiveX](https://support.office.com/article/Turn-off-ActiveX-filtering-for-Skype-for-Business-Web-App-b6de8ff6-ac7e-4e2f-b18c-2f13db643c41?ui=en-US&amp;rs=en-US&amp;ad=US) sans filtrage dans Internet Explorer, même si Internet Explorer n’est pas votre navigateur par défaut. Dans Application Web Skype Entreprise, un contrôle ActiveX (un petit module qui ajoute des fonctionnalités supplémentaires à une application web ou à un autre programme) est requis pour l’audio, la vidéo et le partage d’écran.
     
@@ -171,4 +171,4 @@ Depuis Skype Entreprise Server CU5 2015, AES n’est pas pris en charge pour ASP
 
 [Déployer des clients web téléchargeables dans Skype Entreprise Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
-[Plateformes prise en charge pour Skype Application Réunions](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
+[Plateformes pris en charge pour Skype Meetings App](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

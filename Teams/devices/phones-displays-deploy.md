@@ -1,7 +1,7 @@
 ---
 title: Déployer Teams téléphones mobiles, Teams s’affiche et Salles Microsoft Teams sur Android à l’aide d’Intune
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Cet article fournit une vue d’ensemble des fonctionnalités qui sont Microsoft Teams aux affichages.
-ms.openlocfilehash: 3d89dce290d241eebd3d71da560bb383a81f6a2a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 96ffaef167fd40b320ff4c1b9b7a6dca0e9c3325
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746470"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861961"
 ---
 # <a name="deploy-teams-phones-teams-displays-and-microsoft-teams-rooms-on-android-using-intune"></a>Déployer Teams téléphones mobiles, Teams s’affiche et Salles Microsoft Teams sur Android à l’aide d’Intune
 
@@ -33,7 +33,7 @@ L’accès conditionnel est une fonctionnalité Azure Active Directory (Azure AD
 
 En règle générale, les stratégies de conformité définies dans Intune sont affectées à des groupes d’utilisateurs.  Cela signifie que si vous attribuez une politique de conformité Android à user@contoso.com, cette stratégie s’appliquera également à leur smartphone Android et à tout appareil Teams Android user@contoso.com connecté.
 
-Si vous utilisez l’accès conditionnel, qui nécessite l’application de l’inscription Intune, vous devez configurer deux éléments pour permettre le succès de votre inscription Intune :
+Si vous utilisez l’accès conditionnel, qui nécessite l’application de l’inscription Intune, vous devez configurer deux éléments pour permettre la réussite de votre inscription Intune :
 
 - **Licence Intune** L’utilisateur qui se Teams l’appareil doit être titulaire d’une licence pour Intune.  Tant que l’appareil Teams est connecté à un compte d’utilisateur dispose d’une licence Intune valide, l’appareil est automatiquement inscrit à Microsoft Intune dans le cadre du processus de inscription.
 - **Configurer Intune** Un client Intune correctement configuré doit être configuré pour l’inscription administrateur d’appareils Android.
@@ -50,7 +50,7 @@ Teams Les appareils Android sont gérés par Intune via la gestion de l’admini
 
 1. Définissez Intune MDM (mobile device management) Authority.  
 
-   Si vous n’avez jamais utilisé Intune auparavant, vous devez définir l’autorité de gestion des périphériques mobiles avant de pouvoir inscrire des appareils. Pour plus d’informations, voir [Définir l’autorité de gestion des appareils mobiles.](/intune/fundamentals/mdm-authority-set)  Cette étape n’est à réaliser qu’une seule fois lors de la création d’un client Intune.
+   Si vous n’avez jamais utilisé Intune auparavant, vous devez définir l’autorité de gestion des périphériques mobiles avant d’inscrire des appareils. Pour plus d’informations, voir [Définir l’autorité de gestion des appareils mobiles.](/intune/fundamentals/mdm-authority-set)  Cette étape n’est à réaliser qu’une seule fois lors de la création d’un client Intune.
 1. Activez l’inscription de l’administrateur d’appareils Android.
   
    Les appareils à base de Teams Android sont gérés en tant qu’appareils d’administrateur d’appareils avec Intune.  L’inscription de l’administrateur de périphérique est par défaut non créditée pour les nouveaux locataires. Consultez [l’inscription de l’administrateur d’appareils Android.](/intune/enrollment/android-enroll-device-administrator)
@@ -61,13 +61,13 @@ Teams Les appareils Android sont gérés par Intune via la gestion de l’admini
 
    1. Créer une stratégie de conformité d’administrateur d’appareil Android.
 
-   1. Affectez-la au groupe Azure Active Directory qui contient les utilisateurs qui doivent se Teams appareils mobiles. Voir [Utiliser les stratégies de conformité pour définir des règles pour les appareils que vous gérez avec Intune.](/mem/intune/protect/device-compliance-get-started)
+   1. Affectez-la au groupe Azure Active Directory qui contient les utilisateurs qui doivent se Teams appareils mobiles. Voir [Utiliser des stratégies de conformité pour définir des règles pour les appareils que vous gérez avec Intune.](/mem/intune/protect/device-compliance-get-started)
 
 ## <a name="see-also"></a>Voir aussi
 
 [Téléphones pour Teams](phones-for-teams.md)
 
-[Téléphones IP certifiés pour les Microsoft Teams](teams-ip-phones.md)
+[Téléphones IP certifiés pour Microsoft Teams](teams-ip-phones.md)
 
 [Teams affiche](teams-displays.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Utiliser l’API Teams App Submission pour soumettre et approuver vos applications personnalisées
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: joglocke, vaibhava
@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment approuver vos applications personnalisées soumises à l’aide de l’API Soumission Teams’application dans Microsoft Teams.
-ms.openlocfilehash: ff115ab34c30bf2acfc7f24407045c1d44c4eade
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d0a49ffa07ec7b3a506d99d32c5fee1b43308af4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745510"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848157"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publier une application personnalisée envoyée via l’API Teams App Submission
 
@@ -34,7 +34,7 @@ ms.locfileid: "60745510"
 > [!IMPORTANT]
 > Cette méthode n’est actuellement pas disponible pour Cloud de la communauté du secteur public environnements. Vous devez utiliser la *méthode de téléchargement d’une application* personnalisée.
 
-Cet article fournit des instructions de bout en bout pour la façon d’orienter votre application Teams du développement au déploiement jusqu’à la découverte. Vous aurez une vue d’ensemble des expériences connectées que Teams fournit dans le cycle de vie des applications pour simplifier le développement, le déploiement et la gestion d’applications personnalisées dans le magasin d’applications de votre organisation.
+Cet article fournit des instructions de bout en bout pour la façon d’orienter votre application Teams du développement au déploiement jusqu’à la découverte. Vous obtenez une vue d’ensemble des expériences connectées que Teams fournit dans le cycle de vie des applications pour simplifier le développement, le déploiement et la gestion d’applications personnalisées dans le magasin d’applications de votre organisation.
 
 Nous allons couvrir chaque étape du cycle de vie, y compris la façon dont les développeurs peuvent utiliser l’API Teams App Submission pour envoyer des applications personnalisées directement au Centre d’administration Microsoft Teams pour vous aider à passer en revue et approuver, comment définir des stratégies pour gérer les applications pour les utilisateurs de votre organisation et comment vos utilisateurs les découvrent dans Teams.
 
@@ -58,15 +58,15 @@ Voici un exemple de l’étape de soumission de l’application dans Visual Stud
 
 ![l’envoi d’une application dans Visual Studio Code.](media/custom-app-lifecycle-submit-app.png)
 
-Gardez à l’esprit que cette application ne publie pas encore l’application sur le magasin d’applications de votre organisation. Cette étape envoie l’application au Microsoft Teams d’administration dans lequel vous pouvez l’approuver pour la publication dans le magasin d’applications de votre organisation.
+N’oubliez pas que l’application n’est pas encore publiée sur le magasin d’applications de votre organisation. Cette étape envoie l’application au Microsoft Teams d’administration dans lequel vous pouvez l’approuver pour la publication dans le magasin d’applications de votre organisation.
 
 Pour plus d’informations sur l’utilisation de Graph API pour envoyer des applications, voir <a href="/graph/api/teamsapp-publish" target="_blank">ici.</a>
 
 ## <a name="validate"></a>Validate
 
-La <a href="/microsoftteams/manage-apps" target="_blank">page</a> Gérer les applications du Centre d’administration Microsoft Teams (dans le panneau de navigation de gauche, allez dans les applications **Teams** Gérer les applications) vous permet d’afficher toutes les applications Teams de votre  >  organisation. Le **widget d’approbation** en attente en haut de la page vous permet de savoir quand une application personnalisée est soumise pour approbation.
+La <a href="/microsoftteams/manage-apps" target="_blank">page</a> Gérer les applications du Centre d’administration Microsoft Teams (dans le navigation gauche, allez dans les applications **Teams** Gérer les applications) vous permet d’afficher toutes les applications Teams pour votre  >  organisation. Le **widget Approbation en** attente en haut de la page vous permet de savoir quand une application personnalisée est soumise pour approbation.
 
-Dans la table, une application nouvellement envoyée affiche automatiquement le statut Publication d’Soumis et Le **statut** **Bloqué.**   Vous pouvez trier la **colonne État de publication** dans l’ordre décroit pour trouver rapidement l’application.
+Dans la table, une application nouvellement envoyée affiche automatiquement le **statut** Publication **d’Soumis** et **État** de **Bloqué.** Vous pouvez trier la **colonne État de publication** dans l’ordre décroit pour trouver rapidement l’application.
 
 ![état de publication.](media/custom-app-lifecycle-validate-app.png)
 
@@ -93,11 +93,11 @@ Par défaut, tous les utilisateurs de votre organisation peuvent accéder à l�
 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>Épingler et installer l’application pour les utilisateurs
 
-Par défaut, pour que les utilisateurs trouvent l’application qu’ils doivent trouver, ils doivent se rendre dans le magasin d’applications de votre organisation et la parcourir ou la rechercher. Pour faciliter l’accès des utilisateurs à l’application, vous pouvez épingler l’application à la barre de l’application dans Teams. Pour ce faire, créez une stratégie de configuration d’application et affectez-la aux utilisateurs. Pour plus d’informations, consultez l’article <a href="/microsoftteams/teams-app-setup-policies" target="_blank">Gérer les stratégies et paramètres d’application personnalisés dans Teams</a>.
+Par défaut, pour que les utilisateurs trouvent l’application qu’ils doivent trouver, ils doivent se rendre dans le magasin d’applications de votre organisation et la parcourir ou la rechercher. Pour faciliter l’accès des utilisateurs à l’application, vous pouvez épingler l’application à la barre de l’application dans Teams. Pour ce faire, créez une stratégie de configuration d’application et attribuez-la aux utilisateurs. Pour plus d’informations, consultez l’article <a href="/microsoftteams/teams-app-setup-policies" target="_blank">Gérer les stratégies et paramètres d’application personnalisés dans Teams</a>.
 
 ### <a name="search-the-audit-log-for-teams-app-events"></a>Rechercher des événements d’application Teams dans le journal d’audit
 
-Vous pouvez effectuer des recherches dans le journal d’audit Teams l’activité des applications dans votre organisation. Pour en savoir plus sur la recherche dans le journal d’audit et la liste des activités de Teams enregistrées dans le journal d’audit, voir Rechercher des événements dans le journal <a href="/microsoftteams/audit-log-events" target="_blank">d’audit dans Teams.</a>
+Vous pouvez effectuer des recherches dans le journal d’audit Teams l’activité des applications dans votre organisation. Pour en savoir plus sur la recherche dans le journal d’audit et la liste des activités Teams enregistrées dans le journal d’audit, voir Rechercher des événements dans le journal <a href="/microsoftteams/audit-log-events" target="_blank">d’audit dans Teams.</a>
 
 Pour effectuer une recherche dans le journal d’audit, vous devez au préalable activer la fonctionnalité d’audit dans le <a href="https://protection.office.com" target="_blank">Centre de sécurité et de conformité</a>. Si vous souhaitez en savoir plus, veuillez consulter <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">Activer ou désactiver la recherche dans le journal d'audit</a>. N’oubliez pas que les données d’audit ne sont disponibles qu’à partir du moment où vous avez activé l’audit.
 
@@ -134,7 +134,7 @@ Gardez à l’esprit les choses suivantes :
 
 Pour plus d’informations sur l’utilisation de l’API Graph mise à jour des applications, voir <a href="/graph/api/teamsapp-update">ici.</a>
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Publier une application personnalisée en chargeant un package d’application](upload-custom-apps.md)
 - [Gérer vos applications dans le Centre Microsoft Teams’administration](manage-apps.md)

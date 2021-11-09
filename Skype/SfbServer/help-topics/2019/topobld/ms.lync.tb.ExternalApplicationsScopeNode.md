@@ -2,7 +2,7 @@
 title: Nœud d’étendue des applications externes
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud Serveurs d’applications approuvées répertorie les pools d’applications approuvées sur ce site. Les pools d’applications fiables contiennent des serveurs qui exécutent des applications Microsoft Unified Communications de confiance, mais n’exécutent pas Skype Entreprise Server rôles. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 04dba3c585e53b9a26c179266a9685e0db70ea31
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 97d6906472b0deac71df8f3458565c508db62f25
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738190"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847867"
 ---
 # <a name="external-applications-scope-node"></a>Nœud d’étendue des applications externes
  

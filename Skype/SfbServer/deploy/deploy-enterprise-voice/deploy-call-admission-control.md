@@ -2,7 +2,7 @@
 title: Déployer le contrôle d’admission des appels dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
 description: Le contrôle d’admission des appels (CAC) est une solution qui détermine si une session en temps réel peut être établie en tenant compte de la bande passante disponible pour éviter toute dégradation de la qualité audio/vidéo sur des réseaux saturés.
-ms.openlocfilehash: b22074df1eac0727334371d92097333a589eb684
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f7d813d85a3c3eadd770c1dc939358506c230d44
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753595"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861901"
 ---
 # <a name="deploy-call-admission-control-in-skype-for-business-server"></a>Déployer le contrôle d’admission des appels dans Skype Entreprise Server
  
@@ -29,7 +29,7 @@ Le contrôle d’admission des appels (CAC) est une solution qui détermine si u
   
 ### <a name="to-deploy-call-admission-control"></a>Pour déployer le contrôle d’admission des appels
 
-1.  Rassemblez toutes les informations requises pour votre topologie de réseau d’entreprise, comme décrit dans l’exemple : Collecte des conditions requises pour le contrôle d’admission des appels [dans Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
+1.  Rassemblez toutes les informations requises pour votre topologie de réseau d’entreprise, comme décrit dans l’exemple : Collecte des conditions requises pour le contrôle d’admission des [appels dans Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
     
 2. Si ce n’est pas déjà fait, vous devez définir des régions et des sites réseau et associer des sous-réseaux à des sites réseau. Pour plus d’informations, voir Déployer des régions réseau, des sites et [des sous-réseaux dans Skype Entreprise](deploy-network.md).
     
@@ -41,7 +41,7 @@ Le contrôle d’admission des appels (CAC) est une solution qui détermine si u
     
 6. Créez des stratégies intersite réseau, comme détaillé dans Créer des [stratégies intersite](create-network-intersite-policies.md)réseau dans Skype Entreprise Server .
     
-7. Activer le contrôle d’admission des appels, comme détaillé dans Activer le contrôle [d’admission](enable-call-admission-control.md)des appels dans Skype Entreprise Server .
+7. Activer le contrôle d’admission des appels, comme détaillé dans Activer le contrôle d’admission des [appels dans Skype Entreprise Server](enable-call-admission-control.md).
     
 8. Vérifiez quelques paramètres finaux pour vous assurer que tout est correctement installé. Pour plus d’informations, [voir Déploiement du contrôle d’admission](final-checklist.md)des appels : liste de contrôle finale pour Skype Entreprise Server .
     

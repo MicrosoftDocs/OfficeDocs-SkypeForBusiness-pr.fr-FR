@@ -2,7 +2,7 @@
 title: Modifier les options de base de données d’archivage dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
-description: 'Résumé : Découvrez comment modifier les options de base de données d’archivage Skype Entreprise Server.'
-ms.openlocfilehash: 240d590b7f22e4756351939be6ecab55ea108b79
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Résumé : Découvrez comment modifier les options de base de données d’archivage pour Skype Entreprise Server.'
+ms.openlocfilehash: e07c94530d71c9d31ef9f11eaef6332dbfa32d0e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767932"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847457"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>Modifier les options de base de données d’archivage dans Skype Entreprise Server
 
@@ -36,7 +36,7 @@ Pour apporter l’une de ces modifications, vous devez exécuter le Générateur
 1. Sur un ordinateur qui exécute Skype Entreprise Server ou sur lequel les outils d’administration Skype Entreprise Server sont installés, connectez-vous à l’aide d’un compte membre du groupe Utilisateurs local (ou d’un compte avec des droits d’utilisateur équivalents).
     
     > [!NOTE]
-    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe Utilisateurs local, mais pour publier une topologie, qui est requise pour ajouter un composant à la topologie, vous devez utiliser un compte membre du groupe **Administrateurs** du domaine et du groupe **RTCUniversalServerAdmins,** qui dispose d’autorisations de contrôle total (c’est-à-dire,  lire, écrire et modifier) sur le partage de fichiers que vous utilisez pour le magasin de fichiers Skype Entreprise Server (c’est-à-dire, pour que le Générateur de topologie puisse configurer les listes de contrôle d’accès discrétionnaire (DAC) requises, ou un compte avec des droits équivalents.
+    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe Utilisateurs local, mais pour publier une topologie, qui est requise pour ajouter un composant à la topologie, vous devez utiliser un compte membre du groupe **Administrateurs** du domaine et du groupe **RTCUniversalServerAdmins,** qui dispose d’autorisations de contrôle total (c’est-à-dire,  lire, écrire et modifier) sur le partage de fichiers que vous utilisez pour le magasin de fichiers Skype Entreprise Server (c’est-à-dire, afin que le Générateur de topologie puisse configurer les listes de contrôle d’accès discrétionnaire (DAC) requises, ou un compte avec des droits équivalents.
   
 2. Démarrez le Générateur de topologie.
     
@@ -58,13 +58,13 @@ Pour apporter l’une de ces modifications, vous devez exécuter le Générateur
     
      - Pour utiliser un magasin SQL Server existant, dans la zone de liste déroulante, cliquez sur le nom du magasin SQL Server que vous voulez utiliser.
     
-     - Pour spécifier une nouvelle SQL Server, cliquez sur **Nouveau,** puis dans la boîte de dialogue Définir un nouveau SQL Server **Store,** faites les choses suivantes :
+     - Pour spécifier une nouvelle SQL Server, cliquez sur **Nouveau,** puis dans la boîte de dialogue Définir SQL Server **Store,** faites les choses suivantes :
     
        - Dans **SQL Server FQDN**, spécifiez le nom de SQL Server serveur sur lequel vous souhaitez créer le nouveau magasin.
     
        - Cliquez sur **Instance par défaut** pour utiliser l’instance par défaut ou, pour définir une instance différente, cliquez sur **Instance nommée** et spécifiez l’instance à utiliser.
     
-       - Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, sélectionnez la case à cocher Cette **instance SQL se** trouve dans la relation de mise en miroir, puis, dans le numéro de **port** Miroir, spécifiez le numéro de port.
+       - Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, sélectionnez la case à cocher Cette **instance SQL est** dans la relation de mise en miroir, puis, dans le numéro de **port** Miroir, spécifiez le numéro de port.
     
    - Pour ajouter le magasin SQL Server ou choisir un autre magasin SQL Server existant pour la mise en miroir, sélectionnez **Activer la mise en miroir du magasin SQL Server**, puis procédez comme suit :
     
@@ -76,17 +76,17 @@ Pour apporter l’une de ces modifications, vous devez exécuter le Générateur
     
        b. Cliquez sur **Instance par défaut** pour utiliser l’instance par défaut ou sur **Instance nommée** pour définir une instance différente, puis spécifiez l’instance à utiliser.
     
-       c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, sélectionnez la case à cocher Cette **instance SQL se** trouve dans la relation de mise en miroir, puis, dans le numéro de **port** Miroir, spécifiez le numéro de port.
+       c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, sélectionnez la case à cocher Cette **instance SQL est** dans la relation de mise en miroir, puis, dans le numéro de **port** Miroir, spécifiez le numéro de port.
     
-   - Si vous activez la mise en miroir SQL Server et que vous souhaitez ajouter ou modifier un témoin de mise en miroir SQL Server (une troisième instance de SQL Server distincte qui peut détecter l’état d’état du serveur SQL Server principal et des instances miroir), sélectionnez le témoin de mise en miroir Utiliser **SQL Server** pour activer la case à cocher deover automatique, puis  faites l’une des choses suivantes :
+   - Si vous activez la mise en miroir SQL Server et que vous souhaitez ajouter ou modifier un témoin de mise en miroir SQL Server (une troisième instance SQL Server distincte qui peut détecter l’état d’état du serveur SQL Server principal et des instances miroir), sélectionnez le témoin de mise en miroir Utiliser **SQL Server** pour activer la case à cocher deover automatique, puis  faites l’une des choses suivantes :
     
       a. Dans **SQL Server FQDN**, spécifiez le nom de groupe du serveur sur lequel vous souhaitez créer le témoin SQL Server miroir.
     
       b. Cliquez sur **Instance par défaut** pour utiliser l’instance par défaut ou sur **Instance nommée** pour définir une instance différente, puis spécifiez l’instance à utiliser comme témoin de mise en miroir.
     
-      c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, sélectionnez la case à cocher Cette **instance SQL se** trouve dans la relation de mise en miroir, puis, dans le numéro de **port** Miroir, spécifiez le numéro de port.
+      c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, sélectionnez la case à cocher Cette **instance SQL est** dans la relation de mise en miroir, puis, dans le numéro de **port** Miroir, spécifiez le numéro de port.
     
-   - Pour basculer vers l’intégration Microsoft Exchange afin de stocker les données d’archivage et les fichiers sur des serveurs Exchange (si tous les utilisateurs de votre déploiement sont stockés sur vos serveurs Exchange), supprimez toutes les informations relatives aux bases de données d’archivage.
+   - Pour basculer vers l’intégration Microsoft Exchange afin de stocker les données et les fichiers d’archivage sur des serveurs Exchange (si tous les utilisateurs de votre déploiement sont stockés sur vos serveurs Exchange), supprimez toutes les informations relatives aux bases de données d’archivage.
     
      > [!IMPORTANT]
      > Si vous avez des utilisateurs Skype Entreprise qui ne sont pas Exchange serveurs, ne supprimez pas les SQL Server stockent des informations. 

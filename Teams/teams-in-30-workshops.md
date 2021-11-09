@@ -20,17 +20,17 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45856ed0e452c6ed1c04e0d724551a17316112a95b1f3cefcda5b481b8868e6b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f9b4175769ea9d6cc57167c086b28ee5ef4e742d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339392"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850527"
 ---
 # <a name="teams-in-30"></a>Teams en 30
 <div id="main" class="v2">
     <div class="container">
-        <p>Microsoft est heureux de vous inviter à Teams dans <strong>30,</strong>une série d’ateliers interactifs en direct conçus pour aider les entreprises de taille moyenne (500 à 5 000 employés) à fonctionner avec Microsoft Teams en seulement 30 jours. Rejoignez-nous pour découvrir des conseils et des pratiques pratiques testés avec le temps et obtenir des réponses à Teams questions. Les participants de l’atelier recevront également une invitation exclusive pour les heures d’ouverture du bureau avec un Teams expert.
+        <p>Microsoft est heureux de vous inviter à Teams dans <strong>30,</strong>une série d’ateliers interactifs en direct conçus pour aider les entreprises de taille moyenne (500 à 5 000 employés) à fonctionner avec Microsoft Teams en seulement 30 jours. Rejoignez-nous pour découvrir des recommandations et des conseils testés pour le temps et obtenir des réponses à Teams questions. Les participants de l’atelier recevront également une invitation exclusive pour les heures d’ouverture du bureau avec un Teams expert.
            <p><font color="#6264A7">Vous êtes prêt à vous lancer ?</font> Nous encourageons tous les membres de votre équipe de projet à commencer avec la réunion <i>Prise en main’Teams en 30</i> sessions. Cliquez sur le titre d’une session ci-dessous pour vous inscrire.
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
@@ -45,7 +45,7 @@ ms.locfileid: "54339392"
                     </div>
                     <div class="cardText">
                         <h3>Commencer à Teams en 30 (commencez ici !)</h3>
-                        <P>Démarrez votre Teams en 30 voyage sur le bon pied. Comprenez le programme, les personnes qui doivent y participer et les ressources que vous pouvez utiliser pour garantir votre réussite.</P>
+                        <P>Démarrez votre Teams en 30 voyage au pied droit. Comprenez le programme, les personnes qui doivent y participer et les ressources que vous pouvez utiliser pour garantir votre réussite.</P>
                         <p><i>Public : sponsors d’entreprise, administrateurs informatiques, adoption et modification des propriétaires</i></p>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ ms.locfileid: "54339392"
         </a>
     </li>
    <li>
-        <a href="https://aka.ms/ReadyendusersT30"target="_blank"">
+        <a href="https://aka.ms/ReadyendusersT30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -65,7 +65,7 @@ ms.locfileid: "54339392"
                     </div>
                     <div class="cardText">
                         <h3>Préparez vos utilisateurs finaux</h3>
-                    <p>Découvrez des stratégies et des ressources pour préparer vos utilisateurs, créer une équipe de champions et garantir l’acceptation des utilisateurs comme élément clé de votre déploiement Teams des ressources.</p><p><i>Public : Adoption et modification des propriétaires</i></p>
+                    <p>Découvrez des stratégies et des ressources pour préparer vos utilisateurs, créer une base de champions et garantir l’acceptation des utilisateurs comme élément clé de votre déploiement Teams de développement.</p><p><i>Public : Adoption et modification des propriétaires</i></p>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@ ms.locfileid: "54339392"
         </a>
     </li>
         <li> 
-        <a href="https://aka.ms/Preparepart1T30"target="_blank"">
+        <a href="https://aka.ms/Preparepart1T30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -84,14 +84,14 @@ ms.locfileid: "54339392"
                     </div>
                     <div class="cardText">
                     <h3>Préparer votre environnement - Partie I</h3>
-                    <p>Définissez les bases de votre Teams déploiement. Identifiez les Teams conditions préalables, les meilleures pratiques en matière de mise en réseau et de sécurité, les stratégies de coexistence, les analyses et rapports, et les recommandations en matière de distribution des clients.</p><p><i>Public : administrateurs informatiques</i></p>
+                    <p>Définissez les bases de votre Teams déploiement. Identifiez les Teams conditions préalables, les meilleures pratiques en matière de mise en réseau et de sécurité, les stratégies de coexistence, les analyses et rapports, et les recommandations en matière de distribution du client.</p><p><i>Public : administrateurs informatiques</i></p>
 </div>
                 </div>
             </div>
         </div>
         </a>
     </li> <li>
-        <a href="https://aka.ms/Preparepart2T30"target="_blank"">
+        <a href="https://aka.ms/Preparepart2T30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -110,7 +110,7 @@ ms.locfileid: "54339392"
         </a>
     </li> 
  <li>
-        <a href="https://aka.ms/OptimizeexpandT30"target="_blank"">
+        <a href="https://aka.ms/OptimizeexpandT30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -130,7 +130,7 @@ ms.locfileid: "54339392"
         </a>
     </li>
    <li>
-        <a href="https://aka.ms/TeamsChalkTalks"target="_blank"">
+        <a href="https://aka.ms/TeamsChalkTalks"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

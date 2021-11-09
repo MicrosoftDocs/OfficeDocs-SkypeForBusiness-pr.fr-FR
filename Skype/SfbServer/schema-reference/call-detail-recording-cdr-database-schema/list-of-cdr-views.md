@@ -2,7 +2,7 @@
 title: Liste des vues CDR
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: Les affichages offrent un moyen simple d’accéder aux informations sur les scénarios les plus courants utilisés pour renvoyer des données à partir de la base de données cdr. Il est recommandé d’utiliser des affichages pour créer des rapports personnalisés au lieu d’utiliser les tables de base de données d’cdr réelles ; Cela est dû au fait que les vues de base de données sont plus susceptibles de maintenir une compatibilité ascendante avec les futures sorties.
-ms.openlocfilehash: 7154319dba584516dcff3c41d23e5af31bee4621
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 713e9bef620f36901031024395cc3b51898e433d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746610"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847057"
 ---
 # <a name="list-of-cdr-views"></a>Liste des vues CDR
  

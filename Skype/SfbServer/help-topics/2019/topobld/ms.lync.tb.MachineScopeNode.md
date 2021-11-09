@@ -2,7 +2,7 @@
 title: Nœud d’étendue d’ordinateur
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ce nœud indique le nom de domaine complet (FQDN) du serveur et la configuration de l’adresse IP de ce serveur. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: c1157bcea1e4d8e4b05ed34f04c551f5d294340b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ec0798c80da271144e7e5839268b395bbae45097
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769262"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850217"
 ---
 # <a name="machine-scope-node"></a>Nœud d’étendue d’ordinateur
  

@@ -2,7 +2,7 @@
 title: Utilisation des rapports de surveillance dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: 'Résumé : Découvrez les rapports de surveillance dans Skype Entreprise Server.'
-ms.openlocfilehash: aee3f8b3b53bf0d1273775ddd05f83ec74861904
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0088bb5a83de7f1f22e14461bb841a6011810444
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774924"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862281"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>Utilisation des rapports de surveillance dans Skype Entreprise Server 
  
@@ -29,11 +29,11 @@ Pour utiliser ces rapports, vous devez installer les rapports de surveillance su
   
 ## <a name="in-this-section"></a>Dans cette section
 
-- [Utilisation du tableau de bord de surveillance dans Skype Entreprise Server](monitoring-dashboard.md) Fournit aux administrateurs une vue d’ensemble rapide de l’état de leur système et de leur utilisation.
+- [Utilisation du tableau de bord de surveillance dans Skype Entreprise Server](monitoring-dashboard.md) Fournit aux administrateurs une vue d’ensemble rapide de l’état du système et de leur utilisation.
     
 - [Rapports d’utilisation du système Skype Entreprise Server](system-usage-reports.md) Fournit des informations d’utilisation système basées sur les données d’Skype Entreprise Server.
     
-- [Rapports de diagnostic des appels (par utilisateur) dans Skype Entreprise Server](call-diagnostic-reports-per-user.md) Fournit des informations par utilisateur sur les sessions d’égal à égal et de conférence qui ont échoué.
+- [Rapports de diagnostic des appels (par utilisateur) Skype Entreprise Server](call-diagnostic-reports-per-user.md) Fournit des informations par utilisateur sur les sessions d’égal à égal et de conférence qui ont échoué.
     
 - [Rapports de diagnostic des appels dans Skype Entreprise Server](call-diagnostic-reports.md) Fournit des informations récapitulatifs et des données de diagnostic pour les sessions d’égal à égal et de conférence qui ont échoué.
     

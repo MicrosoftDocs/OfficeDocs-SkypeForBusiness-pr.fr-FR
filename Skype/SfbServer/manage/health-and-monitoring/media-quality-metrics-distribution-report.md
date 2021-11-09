@@ -2,7 +2,7 @@
 title: Rapport de distribution des mesures de qualité des médias Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: 'Résumé : Découvrez le rapport de distribution des mesures de qualité des médias dans Skype Entreprise Server.'
-ms.openlocfilehash: 773dceacfc7ca955a893d740ef4832ee8d94cb0e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 00899681190e532af971c719c2e81f655facf7ab
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746953"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862311"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Rapport de distribution des mesures de qualité des médias Skype Entreprise Server 
  
@@ -30,7 +30,7 @@ Le rapport de distribution des mesures de qualité des médias vous permet de vo
 |1  <br/> |50  <br/> |
 |2  <br/> |50  <br/> |
 |3  <br/> |50  <br/> |
-|4   <br/> |50  <br/> |
+|4  <br/> |50  <br/> |
 |5  <br/> |50  <br/> |
 |6   <br/> |50  <br/> |
 |7   <br/> |50  <br/> |
@@ -42,7 +42,7 @@ La moyenne de ces allers-retours est de 500 millisecondes (5 000 divisé par 10)
   
 En réalité, 90 % de vos appels ont connu d’excellents allers-retours . vous n’avez eu qu’un seul appel de mauvaise qualité qui a biaisé les résultats globaux. Si vous regardez uniquement la durée moyenne des allers-retours, vous risquez de tirer une conclusion très erronée.
   
-Le rapport de distribution des mesures de qualité des médias vous permet d’éviter de tirer de mauvaises conclusions en vous présentant une distribution graphique d’une mesure spécifiée (par exemple, durée de l’aller-retour). Ces graphiques peuvent vous aider à comprendre que vous avez reçu neuf bons appels et un appel très mauvais. Certes, il se peut que vous vouliez toujours examiner cet appel plus en détail . Toutefois, le fait que 9 des 10 appels ont été très bons suggère qu’il n’y a aucune raison d’apporter des modifications radicales à votre réseau, du moins pas à ce stade.
+Le rapport de distribution des mesures de qualité des médias vous permet d’éviter de tirer de mauvaises conclusions en vous présentant une distribution graphique d’une mesure spécifiée (par exemple, durée de l’aller-retour). Ces graphiques peuvent vous aider à comprendre que vous avez reçu neuf très bons appels et un appel très mauvais. Certes, il se peut que vous vouliez toujours examiner cet appel plus en détail . Toutefois, le fait que 9 des 10 appels ont été très bons suggère qu’il n’y a aucune raison d’apporter des modifications radicales à votre réseau, du moins pas à ce stade.
   
 ## <a name="filters"></a>Filtres
 
@@ -58,6 +58,6 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 |**Maximum dans l’axe x** <br/> |Valeur la plus élevée à afficher sur l’axe X du graphique.  <br/> |
 |**Type d’accès** <br/> | Indique si le client était connecté au réseau interne ou au réseau externe au moment de passer l’appel. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Interne <br/>  Externe <br/> |
 |**VPN** <br/> | Indique si un client externe utilisait une connexion de réseau privé virtuel (VPN) au moment d’effectuer l’appel. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  VPN <br/>  Non VPN <br/> |
-|**Type de réseau** <br/> | Indique le type de réseau auquel le client était connecté au moment où l’appel a été émis. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Câblé <br/>  Sans fil <br/> |
+|**Type de réseau** <br/> | Indique le type de réseau auquel le client était connecté au moment où l’appel a été émis. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Fil de fer <br/>  Sans fil <br/> |
    
 

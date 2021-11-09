@@ -2,7 +2,7 @@
 title: Obtenir les membres de dimension
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: 'Résumé : Découvrez l’opération Obtenir les membres de dimension. L’opération Obtenir les membres de dimension fait partie de l’API de données du tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: aaeadf46a2a281669109f960fe8d2532256e9021
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e8f3cfcfcc11a7c7e7834cf4043f610bb0606931
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774654"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862201"
 ---
 # <a name="get-dimension-members"></a>Obtenir les membres de dimension
  
@@ -39,7 +39,7 @@ L’opération Obtenir les membres de dimension renvoie la liste des membres d�
   
  **En-têtes de requête** : aucun en-tête supplémentaire.
   
- **Corps de** la demande : contient le nom de dimension pour les membres. En outre, nombre maximum de membres renvoyés, vous pouvez spécifier un filtrage pour limiter les membres renvoyés.
+ **Corps de** la demande : contient le nom de la dimension pour qui nous voulons les membres. En outre, le nombre maximum de membres renvoyés, en plus de vous pouvez spécifier un filtrage pour limiter les membres renvoyés.
   
 ```json
 {

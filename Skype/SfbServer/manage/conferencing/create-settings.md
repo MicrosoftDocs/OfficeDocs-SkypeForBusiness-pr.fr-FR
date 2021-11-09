@@ -2,7 +2,7 @@
 title: Créer des paramètres de configuration de réunion dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 'Résumé : Découvrez comment créer des paramètres de configuration de réunion dans Skype Entreprise Server.'
-ms.openlocfilehash: 03a9194a5b4015d9434641e7946b66c57ff4df77
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1b0ba956e467f5b03036d8ef1d1629b4fc4dc517
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747150"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850027"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Créer des paramètres de configuration de réunion dans Skype Entreprise Server
  
@@ -31,7 +31,7 @@ Vous pouvez créer des paramètres de configuration de réunion à l’Skype Ent
     
 2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Configuration de **la réunion.**
+3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur **Configuration de la réunion.**
     
 4. Dans la page **Configuration de la réunion**, cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes :
     

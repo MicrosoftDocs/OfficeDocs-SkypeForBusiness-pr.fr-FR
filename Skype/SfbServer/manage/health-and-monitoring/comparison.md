@@ -2,7 +2,7 @@
 title: Rapport comparatif de la qualité des médias dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
 description: 'Résumé : Découvrez le rapport comparatif de la qualité des médias dans Skype Entreprise Server.'
-ms.openlocfilehash: 7814075c59428da25bcdaf4f0f18b0240d63360a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8c492e75e124b7529e229ddc353bf89b3830fb93
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773604"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847267"
 ---
 # <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Rapport comparatif de la qualité des médias dans Skype Entreprise Server
  
@@ -39,8 +39,8 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines commencent le dimanche et se terminent le samedi.  <br/> |
-|**Appels** <br/> | Type d’appel à utiliser en tant que principal élément de comparaison. Les valeurs autorisées sont les suivantes : <br/>  [Tous] <br/>  Externe <br/>  Interne <br/>  VPN <br/>  Non VPN <br/>  Câblé <br/>  Sans fil <br/>  Externe et câblé <br/>  Externe et sans fil <br/>  Externe et VPN <br/>  Externe et non VPN <br/>  Interne et câblé <br/>  Interne et sans fil <br/> |
-|**Comparer avec les appels** <br/> | Type d’appel à utiliser en tant qu’élément de comparaison secondaire. Les valeurs autorisées sont les suivantes : <br/>  [Tous] <br/>  Externe <br/>  Interne <br/>  VPN <br/>  Non VPN <br/>  Câblé <br/>  Sans fil <br/>  Externe et câblé <br/>  Externe et sans fil <br/>  Externe et VPN <br/>  Externe et non VPN <br/>  Interne et câblé <br/>  Interne et sans fil <br/> |
+|**Appels** <br/> | Type d’appel à utiliser en tant que principal élément de comparaison. Les valeurs autorisées sont les suivantes : <br/>  [Tous] <br/>  Externe <br/>  Interne <br/>  VPN <br/>  Non VPN <br/>  Fil de fer <br/>  Sans fil <br/>  Externe et câblé <br/>  Externe et sans fil <br/>  Externe et VPN <br/>  Externe et non VPN <br/>  Interne et câblé <br/>  Interne et sans fil <br/> |
+|**Comparer avec les appels** <br/> | Type d’appel à utiliser en tant qu’élément de comparaison secondaire. Les valeurs autorisées sont les suivantes : <br/>  [Tous] <br/>  Externe <br/>  Interne <br/>  VPN <br/>  Non VPN <br/>  Fil de fer <br/>  Sans fil <br/>  Externe et câblé <br/>  Externe et sans fil <br/>  Externe et VPN <br/>  Externe et non VPN <br/>  Interne et câblé <br/>  Interne et sans fil <br/> |
 |**Interval** <br/> | Intervalle de temps. Sélectionnez l’une des options suivantes : <br/>  Toutes les heures (il est possible d’afficher un maximum de 25 heures) <br/>  Tous les jours (il est possible d’afficher un maximum de 31 jours) <br/>  Toutes les semaines (il est possible d’afficher un maximum de 12 semaines) <br/>  Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de début du 7/07/2015 et une date de fin le 28/02/2015, les données s’affichent pour les jours 8/7/2015 de 12:00 au 07/09/2015 12:00 (c’est-à-dire, un total de 31 jours de données). <br/> |
    
 ## <a name="metrics"></a>Mesures

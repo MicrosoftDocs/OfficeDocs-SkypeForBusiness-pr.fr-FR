@@ -2,7 +2,7 @@
 title: Installer des rapports de surveillance dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 'Résumé : Découvrez comment installer un service qui générera des rapports de surveillance dans Skype Entreprise Server.'
-ms.openlocfilehash: 5dd24524feecf8792f864d44e0d898166c9717e1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 703bb209c68558ba8f98c8e3a3efcde94e4ce5eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753441"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861821"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>Installer des rapports de surveillance dans Skype Entreprise Server
  
@@ -32,11 +32,11 @@ Les rapports de surveillance ne sont pas installés automatiquement lorsque vous
 > [!NOTE]
 > Il est recommandé d’installer les rapports de surveillance sur le même ordinateur que celui sur lequel la base de données de surveillance est installée. Cela simplifie le processus d’attribution des autorisations d’accès aux rapports : l’installation des rapports de surveillance sur l’ordinateur qui héberge le magasin d’analyse signifie qu’il n’est pas nécessaire de configurer les autorisations qui permettent à une base de données sur un premier ordinateur d’interagir avec le service Reporting Services exécuté sur un autre ordinateur. 
   
-Skype Entreprise Server Les rapports de surveillance incluent plus de 30 rapports conçus pour fournir des informations détaillées sur les conférences, les sessions de messagerie instantanée d’égal à égal, les inscriptions des utilisateurs, l’application Response Group, etc. Pour la version 2013, les rapports Skype Entreprise Server de surveillance incluent un certain nombre d’améliorations :
+Skype Entreprise Server Les rapports de surveillance incluent plus de 30 rapports conçus pour fournir des informations détaillées sur les conférences, les sessions de messagerie instantanée d’égal à égal, les inscriptions des utilisateurs, l’application Response Group, etc. Pour la version 2013, les rapports Skype Entreprise Server surveillance incluent un certain nombre d’améliorations :
   
 - **Nouveaux rapports de qualité de la voix**. Ces nouveaux rapports incluent le rapport comparatif de la qualité des médias dans [Skype Entreprise Server,](../../manage/health-and-monitoring/comparison.md)qui compare la qualité entre les différents types d’appels (par exemple, entre les appels câblés et les appels sans fil) ; et le [rapport de temps](../../manage/health-and-monitoring/join-time-report.md)d’accès aux conférences dans Skype Entreprise Server , qui fournit des informations sur la durée nécessaire pour que les utilisateurs rejoignent une conférence. 
     
-- **Rapports améliorés pour l’analyse et la résolution des problèmes des sessions de partage vidéo et d’application.** Le rapport de synthèse de la qualité des médias dans [Skype Entreprise Server](../../manage/health-and-monitoring/summary.md) permet d’analyser les appels de partage de vidéos et d’applications, tandis que le rapport sur les performances du serveur en [Skype Entreprise Server](../../manage/health-and-monitoring/server-performance.md) détaille les performances des serveurs générant ces appels. Les mesures de partage vidéo et d’application sont désormais également signalées par le rapport détaillé de session P2T dans [Skype Entreprise Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) et le rapport détaillé de conférence [dans Skype Entreprise Server](../../manage/health-and-monitoring/detail-report.md).
+- **Rapports améliorés pour l’analyse et la résolution des problèmes des sessions de partage vidéo et d’application.** Le rapport de synthèse de la qualité des médias dans [Skype Entreprise Server](../../manage/health-and-monitoring/summary.md) permet d’analyser les appels de partage de vidéos et d’applications, tandis que le rapport sur les performances du serveur en [Skype Entreprise Server](../../manage/health-and-monitoring/server-performance.md) détaille les performances des serveurs générant ces appels. Les mesures de partage de vidéo et d’application sont désormais également signalées par le rapport détaillé de session P2T dans [Skype Entreprise Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) et le rapport détaillé de conférence [dans Skype Entreprise Server](../../manage/health-and-monitoring/detail-report.md).
     
 - **Performances améliorées des rapports**. Ces améliorations incluent un temps de réponse et d’extraction des données plus court, ainsi qu’une navigation plus rapide et plus facile dans les rapports.
     
@@ -53,7 +53,7 @@ Il existe deux façons d’installer Skype Entreprise Server Monitoring Reports 
     
 Pour installer les rapports de surveillance à l’aide de l’Assistant Déploiement, procédez comme suit :
   
-1. Cliquez **sur** Démarrer, sur Tous les **programmes,** **sur Skype Entreprise Server,** puis sur Skype Entreprise Server **Déploiement.**
+1. Cliquez **sur Démarrer,** sur Tous les **programmes,** **sur Skype Entreprise Server,** puis sur Skype Entreprise Server **Déploiement.**
     
 2. Dans l’Assistant Déploiement, cliquez sur **Déployer les rapports de surveillance** afin de démarrer l’Assistant Déploiement des rapports de surveillance.
     
@@ -67,7 +67,7 @@ Pour installer les rapports de surveillance à l’aide de l’Assistant Déploi
     
 6. Dans la page de **Exécution de commandes**, cliquez sur **Terminer**.
     
-Les rapports de surveillance peuvent également être installés à partir de Skype Entreprise Server Management Shell en exécutant le script DeployReports.ps1 ; Ce script Windows PowerShell est présent dans le \<install location\> dossier \Skype Entreprise Server 2015\Deployment\Setup. Pour installer les rapports de surveillance à l’aide de DeployReports.ps1, tapez une commande similaire à la suivante à l’invite Management Shell :
+Les rapports de surveillance peuvent également être installés à partir de Skype Entreprise Server Management Shell en exécutant le script DeployReports.ps1 ; Ce script Windows PowerShell est présent dans le dossier \<install location\> \Skype Entreprise Server 2015\Deployment\Setup. Pour installer les rapports de surveillance à l’aide de DeployReports.ps1, tapez une commande similaire à la suivante à l’invite Management Shell :
   
 ```powershell
 C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
@@ -97,6 +97,6 @@ Dans la commande précédente, la propriété ReportingUrl doit avoir la valeur 
     
 3. Dans le Gestionnaire de configuration de Reporting Services, cliquez sur URL du Gestionnaire de rapports. Une ou plusieurs URL doivent apparaître dans le volet URL du Gestionnaire de rapports. Chacune de ces URL peut être utilisée en tant qu’URL de rapports, même si, là encore, il est recommandé d’utiliser le protocole HTTPS pour le paramètre ReportingUrl.
     
-Si vous avez installé une base de données miroir pour votre base de données de surveillance, vous devez également associer les rapports de surveillance à la base de données miroir. Pour plus [d’informations, voir l’article](monitoring-reports-with-a-mirror-database.md) Associer des rapports de surveillance à Skype Entreprise Server base de données miroir.
+Si vous avez installé une base de données miroir pour votre base de données de surveillance, vous devez également associer les rapports de surveillance à la base de données miroir. Consultez l’article [Associer des rapports de surveillance à une](monitoring-reports-with-a-mirror-database.md) base de données miroir Skype Entreprise Server pour plus d’informations.
   
 

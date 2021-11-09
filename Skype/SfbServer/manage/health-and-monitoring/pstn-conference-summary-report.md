@@ -2,7 +2,7 @@
 title: Rapport de synthèse de conférence PSTN en Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
-description: 'Résumé : Découvrez le rapport de synthèse des conférences PSTN Skype Entreprise Server.'
-ms.openlocfilehash: 145207e296fb14462e204bb9c8091612ff89b7da
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Résumé : Découvrez le rapport de synthèse des conférences PSTN dans Skype Entreprise Server.'
+ms.openlocfilehash: 19038b29f46e33026e3ef865226aa4d087b0a0da
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754713"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862291"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Rapport de synthèse de conférence PSTN en Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport de synthèse de conférence PSTN dans Skype Entreprise Server.
   
-Dans Skype Entreprise Server, une conférence PSTN est une conférence dans laquelle au moins un participant se compose de la partie audio à l’aide d’un téléphone PSTN (réseau téléphonique commuté). (Un téléphone PSTN est une « ligne fixe », un téléphone mobile ou tout autre téléphone qui n’utilise pas Voice over IP.) Bien que appelées conférences PSTN dans les rapports de surveillance, ces conférences sont peut-être plus communément appelées conférences d’accès.
+Dans Skype Entreprise Server, une conférence PSTN est une conférence dans laquelle au moins un participant se compose de la partie audio à l’aide d’un téléphone PSTN (réseau téléphonique commuté). (Un téléphone PSTN est une « ligne fixe », un téléphone portable ou tout autre téléphone qui n’utilise pas Voice over IP.) Bien que appelées conférences PSTN dans les rapports de surveillance, ces conférences sont peut-être plus communément appelées conférences d’accès.
   
 Le rapport de synthèse de conférence PSTN fournit des informations sur toutes les conférences PSTN qui ont lieu au sein de votre organisation (c’est-à-dire, toutes les conférences comportant au moins un utilisateur connecté). Ce rapport comprend des informations sur le nombre total de conférences PSTN, le nombre total de personnes ayant participé à ces conférences, et, peut-être plus important, le nombre total d’utilisateurs connectés (la mesure Nombre total de participants PSTN).
   

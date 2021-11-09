@@ -1,6 +1,6 @@
 ---
 title: Transférer des numéros de téléphone vers Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tonysmit
@@ -19,18 +19,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser l’Assistant Transfert pour transférer votre numéro de téléphone de votre fournisseur de services actuel vers Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2b86210d5e8ac7fe70db0e3774ee7483aad9236a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b487249e9a3744c2f83a9bece04a17e7e2948f01
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761742"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861951"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transférer des numéros de téléphone vers Microsoft Teams
 
 Utilisez l’Assistant Transfert du Centre Microsoft Teams d’administration pour transférer vos numéros de téléphone de votre fournisseur de services actuel vers Teams. Une fois vos numéros de téléphone Teams, Microsoft devient votre fournisseur de services et vous facture pour ces numéros de téléphone.
 
-Avant de commencer, nous vous recommandons de passer en revue les informations de la demande [de port.](port-order-overview.md) Si vous avez des numéros de service pour des ponts de conférence rendez-vous, des postes de service automatique ou d’autres numéros de service, des [](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) numéros de téléphone gratuits ou si vous avez plus de 999 numéros de téléphone des abonnés (utilisateurs) que vous devez transférer vers Teams, consultez Gérer les numéros de téléphone pour votre organisation afin de télécharger les formulaires corrects et de nous les envoyer.
+Avant de commencer, nous vous recommandons de passer en revue les informations de la demande [de port.](port-order-overview.md) Si vous avez des numéros de service pour des ponts de conférence rendez-vous, des numéros de service automatique ou d’autres numéros de service, des [](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) numéros de téléphone gratuits ou plus de 999 numéros de téléphone des abonnés (utilisateurs) que vous devez transférer vers Teams, consultez Gérer les numéros de téléphone pour votre organisation afin de télécharger les formulaires corrects et de nous les envoyer.
 
   > [!NOTE]
   > Nous traiterons les transferts de commandes pour le transfert des numéros de téléphone uniquement les jours ou jours ou semaine aux États-Unis et non les jours fériés ou les week-ends.
@@ -40,7 +40,7 @@ Avant de commencer, nous vous recommandons de passer en revue les informations d
 > [!NOTE]
 > Pour l’instant, vous pouvez utiliser cet Assistant pour obtenir des numéros de téléphone pour le **Royaume-Uni, les États-Unis et le Canada.** Pour obtenir des numéros de téléphone pour d’autres pays et régions, vous pouvez [envoyer manuellement une demande de port.](manually-submit-port-order.md) Pour obtenir le formulaire dont vous avez besoin pour envoyer manuellement une demande de port, sélectionnez votre pays ou région dans la liste de listes de listes dans Gérer les numéros de téléphone [pour votre organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez sur **Numéros** Téléphone  >  **voix.** Cliquez **sur Numéros,** puis sur **Port** pour démarrer l’Assistant De portage.
+1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez sur **Numéros** Téléphone  >  **voix.** Cliquez **sur Numéros,** puis sur **Port** pour démarrer l’Assistant Port.
 2. Consultez les informations de **la** page Commencer, puis cliquez sur Suivant lorsque vous **êtes prêt.**
 3. Dans la page **Sélectionner un emplacement et le type de** numéro, spécifiez ce qui suit, puis cliquez sur **Suivant**:
 
@@ -48,7 +48,7 @@ Avant de commencer, nous vous recommandons de passer en revue les informations d
     - **Téléphone type de numéro**: Type de numéro, par exemple des numéros géographiques ou gratuits.
     - **Nombres affectés** à : ce à quoi sont affectés les nombres. Par exemple, les utilisateurs, les fonctionnalités de conférence ou de voix.
 
-4. Dans la page **Ajouter des informations de compte,** complétez les étapes suivantes, puis cliquez sur **Suivant.**
+4. Dans la page **Ajouter des informations de** compte, complétez les étapes suivantes, puis cliquez sur **Suivant.**
 
     > [!IMPORTANT]
     > Les informations affichées sur cette page sont déterminées par le pays ou la région et le type de numéro. Chaque pays et région ont des réglementations différentes sur les informations requises pour les numéros de port. Ce que vous voyez sur cette page peut être différent de ce qui est décrit ici.
@@ -76,22 +76,22 @@ Avant de commencer, nous vous recommandons de passer en revue les informations d
     
     1. Cliquez **sur Télécharger le modèle** pour télécharger le LOA de votre pays ou région. 
     2. Imprimez le LOA.
-    3. Faire signer la lettre d’autorisation par la personne autorisée à apporter des modifications au compte.
+    3. Faire signer le LOA par la personne autorisée à apporter des modifications au compte.
     4. Numérisez la lettre d’autorisation signée, puis cliquez **Télécharger lettres d’autorisation** signée pour la charger.
 
     > [!NOTE]
-    > Après avoir chargé votre LOA, envoyez votre commande. Le chargement de la LOA ne suffit pas. Vous devez également soumettre la commande pour qu’elle soit traitée.
+    > Une fois que vous avez transféré votre LOA, envoyez votre commande. Le chargement de la LOA ne suffit pas. Vous devez également soumettre la commande pour qu’elle soit traitée.
 
 7. Examinez les détails de votre commande, puis cliquez sur **Envoyer.**
 
 
 ## <a name="what-happens-next"></a>Que va-t-il se passer ensuite ?
 
-Lorsque nous recevrons votre demande de port, vous recevrez un courrier électronique qui vérifie votre demande. Votre demande est vérifiée et mise à jour quotidiennement, et vous êtes informé de son état et de son avancement par courrier électronique. Si votre demande de port est refusée par l’opérateur d’appel, contactez le service [de support TNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
+Lorsque nous recevrons votre demande de port, vous recevrez un courrier électronique qui vérifie votre demande. Votre demande est vérifiée et mise à jour quotidiennement, et vous êtes informé de son état et de son avancement par courrier électronique. Si votre demande de port est refusée par l’opérateur d’appel, contactez le service [desk TNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 Pour afficher l’état de votre demande de port, dans le navigation gauche du Centre d’administration Microsoft Teams, allez sur > **Commandes** de port voix, puis cliquez sur Historique  >   **des commandes.** Le statut de chaque commande de port est répertorié dans la **colonne** Statut. Pour en savoir plus, [consultez le statut de vos commandes de ports.](port-order-status.md)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

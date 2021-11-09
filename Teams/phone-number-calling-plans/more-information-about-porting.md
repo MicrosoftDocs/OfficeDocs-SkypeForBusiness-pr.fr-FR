@@ -1,6 +1,6 @@
 ---
 title: Informations supplémentaires sur le portage
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tonysmit,jastark
@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: Obtenez les instructions nécessaires pour le port de vos numéros de téléphone vers Microsoft Teams.
-ms.openlocfilehash: 02023cc88fbab5b1063ed2734db500aa3c14aa9c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 362f7865f820e91e911791685293b7ca9c1786cd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761752"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848177"
 ---
 # <a name="more-information-about-porting"></a>Informations supplémentaires sur le portage
 
@@ -32,11 +32,11 @@ Vous trouverez ici des informations supplémentaires sur le portage de vos numé
 
 Pour obtenir des instructions détaillées complètes, voir Transférer des numéros [de téléphone vers Teams.](transfer-phone-numbers-to-teams.md)
 
-Si vous avez besoin d’aide ou si vous avez besoin d’obtenir plus de numéros de téléphone, contactez l’aide du [service DNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
+Si vous avez besoin d’aide ou si vous avez besoin d’obtenir davantage de numéros de téléphone, contactez l’aide du [service DNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="port-order-account-information"></a>Informations sur le compte de demande de transfert
 
-Lorsque vous vous trouverez sur la **page** Ajouter des informations de compte de l’Assistant Demande de portage pour envoyer une demande de port, vous entrez presque toutes les informations que vous fourniriez dans la LOA, notamment :
+Lorsque vous vous trouverez sur la **page** Ajouter des informations de compte de l’Assistant Demande de portage pour envoyer une demande de port, vous entrez presque toutes les informations que vous fourniriez dans le LOA, notamment :
   
 - Numéro de compte de l’opérateur ou du fournisseur de services
     
@@ -52,7 +52,7 @@ Lorsque vous vous trouverez sur la **page** Ajouter des informations de compte d
 - Nom de la personne autorisée à apporter des modifications au compte
     
     > [!NOTE]
-    > Ce qui n’accepte que 15 caractères, espaces inclus. Si le nom de la personne autorisant contient plus de 15 caractères, les 15 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout. 
+    > Ce dernier n’accepte que 15 caractères, espaces inclus. Si le nom de la personne autorisant contient plus de 15 caractères, les 15 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout. 
   
 - Adresse du service
   
@@ -74,7 +74,7 @@ Pour faciliter l’envoi de la demande de port et éviter les erreurs, veillez �
 Dans l’Assistant De portage, vous devez entrer le nom de la personne autorisée à modifier le compte auprès du fournisseur de services ou de l’opérateur. Le nom n’est pas utilisé pour traiter la demande de port, mais en cas de litige ou si des données sont incorrectes lorsque des numéros sont portés. Cette personne est responsable de la lettre d’autorisation d’une demande de port.
   
 > [!NOTE]
-> La zone est limitée à 15 caractères (espaces inclus). L’annulation de la commande de port ne retardera ni ne résiliera la commande de port si le nom complet n’est pas dans la zone.
+> La zone est limitée à 15 caractères (espaces inclus). Ne pas avoir le nom complet dans la zone ne retardera ni annulera la commande de port.
   
 ## <a name="whats-my-billing-telephone-number"></a>Quel est mon numéro de téléphone de facturation ?
 
@@ -82,7 +82,7 @@ Le numéro de téléphone de facturation (BTN) est le numéro de téléphone pri
 
 ## <a name="what-should-i-put-in-for-the-account-number"></a>Que dois-je inclure comme numéro de compte ?
 
-En règle générale, vous pouvez trouver le numéro de compte sur une facture de votre opérateur ou fournisseur de services, ou vous pouvez vous connecter au site web de votre opérateur. Si vous ne connaissez toujours pas le numéro de compte, vous pouvez contacter votre opérateur ou fournisseur de services pour l’obtenir.
+En règle générale, vous trouverez le numéro de compte sur une facture de votre opérateur ou fournisseur de services, ou connectez-vous au site web de votre opérateur. Si vous ne connaissez toujours pas le numéro de compte, vous pouvez contacter votre opérateur ou fournisseur de services pour l’obtenir.
   
 > [!CAUTION]
 >  Il est important de ne pas utiliser d’espaces, de tirets ou de tirets lorsque vous entrez le numéro de compte de votre opérateur ou fournisseur de services.
@@ -101,16 +101,16 @@ L’adresse du service est différente de l’adresse de facturation ou de l’a
 Lorsque vous soumettez une demande de port, vous devez utiliser un fichier CSV correctement formaté pour envoyer vos numéros de téléphone. Voici les conditions requises pour le fichier CSV :
 
  - Vous pouvez donner le nom de votre souhaitez au fichier.
- - Le fichier ne doit avoir qu’une colonne dont l’en-tête est PhoneNumber.
+ - Le fichier ne doit avoir qu’une colonne dont l’en-tête est Numéro Phone.
  - Chaque numéro de téléphone doit se trouver sur une ligne distincte.
  - Téléphone nombres peuvent être uniquement des chiffres ou au format E.164.
- - Le format de numéro de téléphone doit correspondre au pays ou à la région que vous avez sélectionné. Par exemple, si vous choisissez le Royaume-Uni dans l’Assistant De portage, utilisez 44, qui est l’code du pays, suivi du numéro de téléphone avec le nombre de chiffres correct. Par exemple, 4420812341234.
+ - Le format de numéro de téléphone doit correspondre au pays ou à la région que vous avez sélectionné(s). Par exemple, si vous choisissez le Royaume-Uni dans l’Assistant De portage, utilisez 44, qui est l’code du pays, suivi du numéro de téléphone avec le nombre de chiffres correct. Par exemple, 4420812341234.
 
 ## <a name="how-do-i-see-the-status-of-my-port-order"></a>Comment voir le statut de ma demande de port ?
 
 Quel [est le statut de vos demande de port ?](port-order-status.md)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
