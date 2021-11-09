@@ -2,7 +2,7 @@
 title: 'Skype Entreprise Server : supprimer une collection existante de paramètres de configuration de la trunk SIP'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Résumé : Découvrez comment supprimer une collection de paramètres de configuration de Skype Entreprise Server panneau de configuration.'
-ms.openlocfilehash: 19de05f2b31bc7a083aca7a04d71c32f17d0ea85
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d438db687c8af918a1ac0da67542048ac2fa0bae
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771539"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860881"
 ---
 # <a name="skype-for-business-server-delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype Entreprise Server : supprimer une collection existante de paramètres de configuration de la trunk SIP 
  
@@ -45,7 +45,7 @@ Les administrateurs peuvent aussi créer des paramètres de configuration de jon
     
 ### <a name="to-remove-trunk-configuration-settings-with-skype-for-business-server-control-panel"></a>Pour supprimer les paramètres de configuration de la Skype Entreprise Server panneau de configuration
 
-1. Dans Skype Entreprise Server panneau de configuration, cliquez sur **Routage** des voix, puis sur **Configuration de la trunk .**
+1. Dans Skype Entreprise Server panneau de configuration, cliquez **sur Routage** des voix, puis sur **Configuration de la trunk .**
     
 2. Sous **l’onglet Configuration** de la trunk, sélectionnez la collection de paramètres de configuration de la trunk SIP à supprimer, cliquez sur **Modifier,** puis cliquez sur **Supprimer**. Pour supprimer plusieurs collections dans la même opération, cliquez sur la première collection à supprimer, maintenez la touche Ctrl plus bas, puis cliquez sur les autres collections à supprimer.
     
@@ -77,7 +77,7 @@ Vous pouvez supprimer les paramètres de configuration de la Skype Entreprise Se
   Get-CsTrunkConfiguration -Filter "service:*" | Remove-CsTrunkConfiguration
   ```
 
-### <a name="to-remove-all-the-collections-where-media-bypass-is-enabled"></a>Pour supprimer toutes les collections où le contournement de média est activé
+### <a name="to-remove-all-the-collections-where-media-bypass-is-enabled"></a>Pour supprimer toutes les collections pour laquelle le contournement de média est activé
 
 - La commande suivante supprime tous les paramètres de configuration de jonction dès lors que le contournement de média est activé :
     

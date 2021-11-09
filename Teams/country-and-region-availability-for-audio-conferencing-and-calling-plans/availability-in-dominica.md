@@ -1,7 +1,7 @@
 ---
-title: Disponibilité dans le Servicea
+title: Disponibilité dans le Télédesponsibilité
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
@@ -25,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Microsoft Teams services disponibles pourDessaisais.
-ms.openlocfilehash: d5e0e46cc82ceb6747fd0248ff3cbbe97dbaa462
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f890a0f5ff6971cafb5a4e158fa860567369682b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760522"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853938"
 ---
-# <a name="availability-in-dominica"></a>Disponibilité dans Servicea
+# <a name="availability-in-dominica"></a>Disponibilité dans Ile-de-France
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 

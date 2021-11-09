@@ -2,7 +2,7 @@
 title: Sélectionner un enregistrement d’utilisation PSTN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Sélectionner un enregistrement d’utilisation PSTN pour trouver un enregistrement d’utilisation du réseau téléphonique commuté (PSTN) existant que vous pouvez utiliser.
-ms.openlocfilehash: f643129e794bb2b08af528828830f3cff9f99f23
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ac0c30fb724a004d0b177e4230e08d46c4687d64
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761332"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860661"
 ---
 # <a name="select-pstn-usage-record"></a>Sélectionner un enregistrement d’utilisation PSTN
  

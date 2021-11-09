@@ -2,7 +2,7 @@
 title: 'Skype Entreprise Server : préparer Active Directory'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -16,19 +16,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
-description: "Résumé : Découvrez comment préparer votre domaine Active Directory pour une installation de Skype Entreprise Server. Téléchargez une version d’Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
-ms.openlocfilehash: 882a57aa5ee857b0a4c633b6365c7a89c6266669
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: "Résumé : Découvrez comment préparer votre domaine Active Directory pour une installation de Skype Entreprise Server. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
+ms.openlocfilehash: fbc5769c38436cdc7199aadf4338fa59a47edf3d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775754"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845857"
 ---
 # <a name="skype-for-business-server-prepare-active-directory"></a>Skype Entreprise Server : préparer Active Directory
  
 **Résumé :** Découvrez comment préparer votre domaine Active Directory pour une installation de Skype Entreprise Server. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du [Centre d’évaluation Microsoft.](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
   
-Skype Entreprise Server fonctionne en étroite collaboration avec Active Directory. Vous devez préparer le domaine Active Directory à l’Skype Entreprise Server. Ce processus est réalisé dans l’Assistant Déploiement et n’est effectué qu’une seule fois pour le domaine. En effet, le processus crée des groupes et modifie le domaine, et vous ne devez le faire qu’une seule fois. Vous pouvez suivre les étapes 1 à 5 dans n’importe quel ordre. Toutefois, vous devez suivre les étapes 6, 7 et 8 dans l’ordre et après les étapes 1 à 5, comme indiqué dans le diagramme. La préparation d’Active Directory est l’étape 4 sur 8. Pour plus d’informations sur la planification d’Active Directory, voir [Environmental requirements for Skype Entreprise Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype Entreprise Server [2019](../../../SfBServer2019/plan/system-requirements.md).
+Skype Entreprise Server fonctionne étroitement avec Active Directory. Vous devez préparer le domaine Active Directory à l’Skype Entreprise Server. Ce processus est réalisé dans l’Assistant Déploiement et n’est effectué qu’une seule fois pour le domaine. En effet, le processus crée des groupes et modifie le domaine, et vous ne devez le faire qu’une seule fois. Vous pouvez suivre les étapes 1 à 5 dans n’importe quel ordre. Toutefois, vous devez suivre les étapes 6, 7 et 8 dans l’ordre et après les étapes 1 à 5, comme indiqué dans le diagramme. La préparation d’Active Directory est l’étape 4 sur 8. Pour plus d’informations sur la planification d’Active Directory, voir [Environmental requirements for Skype Entreprise Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype Entreprise Server [2019](../../../SfBServer2019/plan/system-requirements.md).
   
 ![diagramme de vue d’ensemble.](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
@@ -95,7 +95,7 @@ Regardez les étapes de la vidéo **pour préparer Active Directory**:
     
     f. Cliquez **sur Terminer** pour fermer l’Assistant Préparer la forêt actuelle et revenir aux étapes Préparer Active Directory.
     
-    g. Cliquez **Skype Entreprise Server Management Shell à** partir de la page **Applications** pour lancer PowerShell.
+    g. Cliquez **Skype Entreprise Server Management Shell à partir de** la page **Applications** pour lancer PowerShell.
     
     h. Tapez la commande Get-CsAdForest, puis appuyez sur **Entrée**.
     

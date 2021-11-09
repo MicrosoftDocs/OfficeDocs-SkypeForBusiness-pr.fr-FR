@@ -2,7 +2,7 @@
 title: Étendue de la passerelle vidéo
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2071b375-4978-4ff5-ae38-5e4a621bf6a3
 description: Les étapes nécessaires à la définition d’un nouveau vis ou d’une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool vis dans Skype Entreprise Server 2015.
-ms.openlocfilehash: fbf37f63763e94d7ef23db2d53446974ac0d85e5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0b59e0f651a8163c64b4a9608ade410f9ae51c4f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773754"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839966"
 ---
 # <a name="video-gateway-scope"></a>Étendue de la passerelle vidéo
  
 Les étapes nécessaires pour définir un nouveau vis ou une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool vis dans [Skype Entreprise Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
   
-Les étapes nécessaires pour attribuer un rôle serveur d’interconnexion vidéo sur un serveur à l’aide de Windows PowerShell sont décrites en ligne dans Déployer le rôle serveur VIS dans [Skype Entreprise Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+Les étapes nécessaires à l’attribution d’un rôle serveur d’interconnexion vidéo sur un serveur à l’aide de Windows PowerShell sont décrites en ligne dans Déployer le rôle serveur VIS dans [Skype Entreprise Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
 Les étapes de configuration d’un nouveau serveur d’interopation vidéo utilisant Windows PowerShell sont décrites en ligne à l’emplacement [Configure the Video Interop Server in Skype Entreprise Server 2015](../../deploy/deploy-video-interop-server/configure-the-vis.md).
   

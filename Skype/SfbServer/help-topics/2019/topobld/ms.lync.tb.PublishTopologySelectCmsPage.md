@@ -2,7 +2,7 @@
 title: 'Publier la topologie : page Sélectionner un CMS'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous publiez la topologie que vous avez configurée à l’aide du Générateur de topologies. Vous êtes invité à choisir dans une liste le serveur frontal ou le pool frontal qui assumera le rôle de gestion du magasin central de gestion. Un seul serveur frontal ou pool frontal peut contenir ce rôle à un moment donné.
-ms.openlocfilehash: 435b13109e573116734ae3a688abd07044199509
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4f4658b13a634d5f1d231d4e8fe7683b3fc38b8f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771022"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860561"
 ---
 # <a name="publish-topology-select-cms-page"></a>Publier la topologie : page Sélectionner un CMS
  

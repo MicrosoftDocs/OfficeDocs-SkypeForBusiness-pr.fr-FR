@@ -2,7 +2,7 @@
 title: Modifier la stratégie de mobilité client
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
 description: Dans la boîte de dialogue Modifier la stratégie de mobilité, vous pouvez modifier les détails d’une stratégie de mobilité.
-ms.openlocfilehash: 87b66e820983732dee15403cad6d12347add2cfe
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a7c3944684f3894cce599e87edb0f4750683e8fa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757986"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861681"
 ---
 # <a name="edit-client-mobility-policy"></a>Modifier la stratégie de mobilité client
 

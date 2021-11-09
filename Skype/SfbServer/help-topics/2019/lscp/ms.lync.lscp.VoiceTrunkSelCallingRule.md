@@ -2,7 +2,7 @@
 title: Sélectionner les règles de traduction des numéros d’appel
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La boîte de dialogue Sélectionner les règles de traduction du numéro d’appel affiche les règles de traduction configurées pour votre déploiement. Pour plus d’informations sur les règles de traduction, voir les rubriques suivantes :'
-ms.openlocfilehash: 21a22cfe066ced83ec9583f35d77fd91114b646c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4b48ad38bf4607a87c86ec68eadeeee2d42a1888
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750923"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854888"
 ---
 # <a name="select-calling-number-rules-translation"></a>Sélectionner les règles de traduction des numéros d’appel
 

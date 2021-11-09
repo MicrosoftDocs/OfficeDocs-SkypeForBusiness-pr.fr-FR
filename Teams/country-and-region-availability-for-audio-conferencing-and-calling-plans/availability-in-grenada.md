@@ -1,6 +1,6 @@
 ---
-title: Disponibilité dans Quada
-author: cichur
+title: Disponibilité dans Quaïada
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,14 +24,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise et Microsoft Teams pour Quada.
-ms.openlocfilehash: ae51b5565bb30c597c23dbae6ea2c0a047eb0b57
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1b3e9a5251e51a4070d4193216e04964a6e15302
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769932"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853918"
 ---
-# <a name="availability-in-grenada"></a>Disponibilité dans Quada
+# <a name="availability-in-grenada"></a>Disponibilité dans Quaïada
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 

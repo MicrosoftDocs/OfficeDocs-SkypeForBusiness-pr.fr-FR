@@ -2,7 +2,7 @@
 title: Skype Entreprise Server - Supprimer une collection existante de paramètres de configuration de la trunk SIP
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 'Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services. '
-ms.openlocfilehash: 09e51dd54401b761c448872545111e8bebf01599
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Les paramètres de configuration de la liaison SIP définissent la relation et les fonctionnalités entre un serveur de médiation et la passerelle du réseau téléphonique commuté, un échange IP-succursale public ou un contrôleur de frontière de session chez le fournisseur de services.
+ms.openlocfilehash: 390e70040994dbd8474bda51b0d33bfc13c36697
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760612"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845417"
 ---
 # <a name="skype-for-business-server---delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype Entreprise Server - Supprimer une collection existante de paramètres de configuration de la trunk SIP
 

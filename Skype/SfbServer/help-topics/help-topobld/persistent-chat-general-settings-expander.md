@@ -2,7 +2,7 @@
 title: Expanseur des paramètres généraux de conversation permanente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 'Vous modifiez les paramètres généraux du serveur de conversation permanente ou du pool de serveurs de conversation permanente en configurant ou en définissant ces propriétés :'
-ms.openlocfilehash: 4de31f3fd6af4dfea023d490ea849f5b58963085
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8047b6a3d8e4f81056af20feb2d5a36416bac2b8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762542"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854418"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Expandeur des paramètres généraux de conversation permanente
  
@@ -30,7 +30,7 @@ Vous modifiez les **paramètres généraux** du serveur de conversation permanen
   
 - **Nom de domaine** complet : modifiez ce paramètre pour définir le nom de domaine complet de votre serveur de conversation permanente ou pool de serveurs de conversation permanente
     
-- **Nom complet du pool de conversations permanentes** : définissez ce paramètre pour fournir un paramètre convivial et lisible pour le serveur ou le pool. Ce paramètre permettra aux utilisateurs d’associer plus facilement un serveur de conversation permanente ou un pool de serveurs de conversation permanente donné en fonction du nom complet plutôt qu’un nom de domaine complet plus difficile à comprendre.
+- **Nom complet du pool de conversations permanentes** : définissez ce paramètre pour fournir un paramètre convivial et lisible pour le serveur ou le pool. Ce paramètre permettra aux utilisateurs d’associer plus facilement un serveur de conversation permanente ou un pool de serveurs de conversation permanente donné en fonction du nom d’affichage plutôt qu’un nom de domaine complet plus difficile à comprendre.
     
 - **Port de conversations permanentes** : spécifiez le port à utiliser pour la conversation permanente.
     
@@ -60,13 +60,13 @@ Vous modifiez les **paramètres d’associations** pour le serveur de conversati
     
     Cliquez sur **Nouveau** pour définir un nouveau magasin SQL Server et une instance facultative.
     
-- Activez **la case à cocher SQL Server la** mise en miroir si vous souhaitez activer la mise en miroir pour le magasin de SQL Server de sauvegarde.
+- Activez **la case à cocher SQL Server la** mise en miroir si vous souhaitez activer la mise en miroir pour la SQL Server de mise en miroir.
     
     Si vous avez choisi d’activer la SQL Server de sauvegarde, sélectionnez le magasin et l’instance dans la liste **Backup SQL Server store mirror**.
     
     Cliquez sur **Nouveau** pour définir un nouveau magasin SQL Server et une instance facultative.
     
-- Activez **la case à cocher Utiliser SQL Server** de mise en miroir pour activer la case à cocher de recourir au SQL Server de sauvegarde.
+- Activez **la case à cocher Utiliser SQL Server** de mise en miroir automatique pour activer la case à cocher de recourir au SQL Server de sauvegarde.
     
     Si vous avez choisi d’activer SQL Server de mise en miroir pour activer le failover automatique, sélectionnez le magasin et l’instance dans la liste.
     

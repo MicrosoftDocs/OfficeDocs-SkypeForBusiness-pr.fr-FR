@@ -2,7 +2,7 @@
 title: Planifier le contrôle d’appel distant dans Skype Entreprise
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: Le contrôle d’appel distant était une fonctionnalité des versions précédentes de Lync Server qui permettait aux utilisateurs de contrôler leurs téléphones PBX avec Lync Server. Dans Skype Entreprise Server, cette fonctionnalité a été remplacée par Appel via le travail. Dans les versions du client pour Skype Entreprise Server 2015 et à l’avenir, le contrôle d’appel distant n’est plus disponible pour la configuration dans le client et a été supprimé pour utilisation.
-ms.openlocfilehash: 23d8f25f4a416c10bf4fd186db68a729703891ca
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1007c4d6d94cc18248adc465061374bace32dc4f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746740"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860981"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>Planifier le contrôle d’appel distant dans Skype Entreprise
  

@@ -2,7 +2,7 @@
 title: Configurer la réunion sans code confidentiel dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 'Résumé : Découvrez comment configurer l’option de rejoindre une réunion sans code confidentiel dans Skype Entreprise Server.'
-ms.openlocfilehash: 1f579a3f88553130bec68a1e6e6070c742f8824d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 13af671edaa9ab8853e0390d43c62b6576bed4e2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770262"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861361"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Configurer la réunion sans code confidentiel dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment configurer l’option de rejoindre une réunion sans code confidentiel dans Skype Entreprise Server.
   
-Lorsqu’un appelant tente de participer à une réunion, le service d’Standard automatique de conférence (CAA) place l’appelant dans un stylet qui est différent du &#x2014; de salle d’accueil si un présentateur n’est pas déjà en cours d’appel et que l’appelant n’a pas entré de code confidentiel d’leader. L’option de rejoindre une réunion sans code confidentiel permet aux appelants de participer à une réunion sans entrer de code confidentiel d’leader, même s’ils sont la première personne à participer à un appel. 
+Lorsqu’un appelant d’accès tente de participer à une réunion, le service d’Standard automatique de conférence (CAA) place l’appelant dans un stylet différent du &#x2014; de salle d’accueil si un présentateur n’est pas déjà en cours d’appel et que l’appelant n’a pas entré de code confidentiel d’leader. L’option de rejoindre une réunion sans code confidentiel permet aux appelants de participer à une réunion sans entrer de code confidentiel d’leader, même s’ils sont la première personne à participer à un appel. 
   
 Gardez les choses à l’esprit lors de la configuration de cette fonctionnalité :
   
@@ -57,7 +57,7 @@ Par exemple, la commande suivante active la réunion sans code confidentiel pour
 Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstnActivation $True
 ```
 
-Pour des raisons de sécurité, lorsque la réunion sans code confidentiel est désactivée, vous pouvez restreindre la numérotation des utilisateurs anonymes en vous assurant que conferencingPolicy est définie comme suit :
+Pour des raisons de sécurité, lorsque la réunion sans code confidentiel est désactivée, vous pouvez limiter la numérotation des utilisateurs anonymes en vous assurant que conferencingPolicy est définie comme suit :
   
 ```PowerShell
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False

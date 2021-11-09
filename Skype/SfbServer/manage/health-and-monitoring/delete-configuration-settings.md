@@ -2,7 +2,7 @@
 title: Supprimer une collection existante de paramètres de configuration d’Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 description: 'Résumé : Découvrez comment supprimer les paramètres de configuration de l’Skype Entreprise Server.'
-ms.openlocfilehash: b72891493a88a733dfd18761023ba875a3b6bc07
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8218d0b51045d3962825555bd5b248cb58262a37
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763683"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854318"
 ---
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Supprimer une collection existante de paramètres de configuration d’Skype Entreprise Server
  
@@ -33,7 +33,7 @@ Vous pouvez supprimer les paramètres de configuration de l’Skype Entreprise S
   
 ### <a name="to-remove-cdr-configuration-settings-with-skype-for-business-server-control-panel"></a>Pour supprimer les paramètres de configuration d’Skype Entreprise Server cdr avec le Panneau de configuration
 
-1. Dans Skype Entreprise Server de contrôle, cliquez sur **Surveillance et archivage.** 
+1. Dans Skype Entreprise Server de contrôle, cliquez **sur Surveillance et archivage.** 
     
 2. Sous l’onglet **Enregistrement des détails des appels**, sélectionnez la collection (ou les collections) de paramètres CDR à supprimer. Pour sélectionner plusieurs collections, cliquez sur la première collection, maintenez la touche Ctrl enfoncée, puis cliquez sur les autres.
     
@@ -43,7 +43,7 @@ Vous pouvez supprimer les paramètres de configuration de l’Skype Entreprise S
     
 ## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de configuration cdR à l’Windows PowerShell cmdlets
 
-Vous pouvez supprimer les paramètres de configuration de l’enregistrement des détails des appels à l’aide Windows PowerShell’une cmdlet **Remove-CsCdrConfiguration.** Vous pouvez exécuter cette cmdlet à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Le processus est le même dans Skype Entreprise Server.
+Vous pouvez supprimer les paramètres de configuration de l’enregistrement des détails des appels à l’aide Windows PowerShell’une cmdlet **Remove-CsCdrConfiguration.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Le processus est le même dans Skype Entreprise Server.
   
 ### <a name="to-remove-a-specified-collection-of-cdr-configuration-settings"></a>Pour supprimer une collection spécifique de paramètres de configuration CDR
 

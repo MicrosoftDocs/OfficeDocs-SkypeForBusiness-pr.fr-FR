@@ -1,6 +1,6 @@
 ---
 title: Teams’intégration avec Microsoft Power Platform
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: kvivek
@@ -16,13 +16,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment Teams’intégration à des outils de la plateforme Microsoft Power Platform, notamment Power BI, applications Power, Power automatiser et Power Virtual Agents.
-ms.openlocfilehash: afba854409d36cc7f16a1a753f79d06b2ad880b6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Découvrez comment Teams’intégration à des outils de la plateforme Microsoft Power Platform, notamment Power BI, les applications Power, Power automatiser et Power Virtual Agents.
+ms.openlocfilehash: f7a0f600b0110d367c88fc856044e867c56e08cb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742950"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860911"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams’intégration avec Microsoft Power Platform
 
@@ -32,20 +32,20 @@ Microsoft Power Platform permet aux utilisateurs d’accélérer leur développe
 
 Microsoft Power Platform offre de nombreuses fonctionnalités d’intégration avec Teams qui vous permettent d’incorporer des rapports **Power BI** dans l’espace de travail Teams, d’incorporer des applications créées à l’aide **d’Power Apps** sous la forme d’un onglet ou d’une application personnelle, de déclencher un flux **Power Automate** à partir de n’importe quel message ou d’utiliser des cartes adaptatives, et d’ajouter votre robot **créé à l’aide de Power Virtual Agents** d Teams d’autres membres de votre organisation.
 
-À partir de septembre 2020, l’intégration à Microsoft Power Platform a été améliorée pour que les utilisateurs utilisent les services suivants sans jamais quitter l Teams *interface utilisateur*:
+Depuis septembre 2020, l’intégration à Microsoft Power Platform a été améliorée pour que les utilisateurs disposent des interfaces suivantes sans jamais quitter *Teams interface utilisateur*:
 
-- Créez et partagez des tableaux de bord, des rapports et des applications **Power BI** pour prendre des décisions axées sur les données.
-- Créez et partagez des applications conçues à usage spécifique à l’aide d’un studio **Power Apps** intégré en vous connectant à vos données métiers stockées soit dans la nouvelle plateforme de données sous-jacente (Microsoft Dataverse pour Teams), dans Microsoft 365, soit dans d’autres sources de données via des connecteurs.
+- Créez et partagez des tableaux de bord, des rapports et **des** applications Power BI pour prendre des décisions éclairées par les données.
+- Créez et partagez des applications conçues à usage général à l’aide d’un studio **Power Apps** intégré en vous connectant à vos données métiers stockées soit dans la nouvelle plateforme de données sous-jacente (Microsoft Dataverse pour Teams), dans Microsoft 365, soit dans d’autres sources de données via des connecteurs.
 - Créez des flux de travail automatisés entre vos applications et services pour synchroniser des fichiers, recevoir des notifications, collecter des données, etc. à l’aide **de Power Automate.**
 - Créez des robots à l’aide d’une interface graphique guidée sans code à l’aide de **Power Virtual Agents** pour créer facilement des assistants numériques au sein d’Teams et les mettre à la disposition de vos collègues pour qu’ils discutent.
 
-Les nouvelles fonctionnalités de création d’applications, de bots et de flux de travail sont backed par la nouvelle plateforme de données intégrée à faible code pour Teams, [Dataverse pour Teams,](/powerapps/teams/overview-data-platform)qui fournit un stockage des données relationnelles, des types de données enrichis, une gouvernance de qualité d’entreprise et un déploiement de solution en un seul clic. Dataverse Teams est intégré à [Microsoft Dataverse.](/powerapps/maker/common-data-service/data-platform-intro) Grâce à Dataverse pour Teams, les utilisateurs Teams peuvent trouver et installer des solutions personnalisées prêtes à l’emploi à partir du magasin d’applications Teams qui présente des scénarios courants dans différents secteurs. Vous pouvez personnaliser et étendre ces solutions personnalisées afin de les adapter à la personnalisation et aux exigences de votre organisation.
+Les nouvelles fonctionnalités de création d’applications, de robots et de flux de travail sont backed par la nouvelle plateforme de données intégrée à faible code pour Teams, [Dataverse pour Teams](/powerapps/teams/overview-data-platform)qui fournit un stockage relationnel des données, des types de données enrichis, une gouvernance de niveau entreprise et un déploiement de solution en un seul clic. Dataverse Teams est intégré à [Microsoft Dataverse.](/powerapps/maker/common-data-service/data-platform-intro) Grâce à Dataverse pour Teams, les utilisateurs Teams peuvent trouver et installer des solutions personnalisées prêtes à l’emploi à partir du magasin d’applications Teams qui présente des scénarios courants dans différents secteurs. Vous pouvez personnaliser et étendre ces solutions personnalisées afin de les adapter à la personnalisation et aux exigences de votre organisation.
 
 ## <a name="licensing"></a>Gestion des licences
 
-Les nouvelles fonctionnalités sont disponibles pour les abonnements Microsoft 365 abonnements sélectionnés.
+Les nouvelles fonctionnalités sont disponibles pour la sélection Microsoft 365 abonnements.
 
-- Pour plus d’informations sur les conditions de licence requises pour Power Apps, Power Automate, Power Virtual Agents etVers de données pour Teams, voir [Gestion des licences.](/power-platform/admin/about-teams-environment)
+- Pour plus d’informations sur les conditions de licence pour Power Apps, Power Automate, Power Virtual Agents etVers de données pour Teams, voir [Gestion des licences.](/power-platform/admin/about-teams-environment)
 - Pour plus d’informations sur les conditions de licence Power BI, consultez [la politique requise.](/power-bi/collaborate-share/service-collaborate-microsoft-teams)
  
 ## <a name="how-do-i-get-started"></a>Comment puis-je commencer ?

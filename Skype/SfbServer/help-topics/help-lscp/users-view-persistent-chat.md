@@ -2,7 +2,7 @@
 title: Les utilisateurs visualisent la conversation permanente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: Les membres du rôle CsPersistentChatAdministrator (administrateurs de conversation permanente) peuvent accorder des droits et des autorisations de gestionnaire de salle de conversation à d’autres utilisateurs et à eux-mêmes.
-ms.openlocfilehash: 7e18137e0d1151abed0433b899d8c5524554b21b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 53c18ac8a9c04720b5eb2d9c53fb41f955cc263d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774204"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854548"
 ---
 # <a name="users-view-persistent-chat"></a>Utilisateurs : afficher la conversation permanente
 

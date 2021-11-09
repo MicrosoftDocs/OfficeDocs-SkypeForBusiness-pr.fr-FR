@@ -2,7 +2,7 @@
 title: Expanseur des paramètres du service de médiation
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 description: 'Pour le serveur de médiation, vous pouvez spécifier les données suivantes :'
-ms.openlocfilehash: bc6f695993c33b13874048115700feef8603bfa2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 115d836b4549661b51aa68e2f09ebea4f94e29aa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777354"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855541"
 ---
 # <a name="mediation-service-settings-expander"></a>Expandeur des paramètres du service de médiation
 
 Pour **Serveur de médiation**, vous pouvez spécifier les éléments suivants :
 
-Si vous coloquez le serveur de médiation sur le pool frontal ou le serveur Édition Standard, activez la case à cocher Serveur de médiation **cochez la case.** Si vous choisissez de ne pas colocaliser le serveur de médiation, cette section ne comporte aucun paramètre définissable.
+Si vous coloquez le serveur de médiation sur le pool frontal ou le serveur Édition Standard, activez la case à cocher Serveur de médiation **cochez la case**. Si vous choisissez de ne pas colocaliser le serveur de médiation, cette section ne comporte aucun paramètre définissable.
 
 Si vous avez activé la colocalisation du serveur de médiation, vous devez définir la plage de ports d’écoute du serveur pour le protocole TLS (Transport Layer Security). Par défaut, ce port est 5067. Si vous sélectionnez **Activer le port TCP**, vous devez définir un protocole TCP (Transmission Control Protocol) pour le serveur de médiation colocalisé. Il s’agit d’un paramètre facultatif et vous devez vous reporter aux conditions requises de votre passerelle ou de votre réseau public commuté pour déterminer si vous en avez besoin. Par défaut, la valeur du port TCP est 5068.
 

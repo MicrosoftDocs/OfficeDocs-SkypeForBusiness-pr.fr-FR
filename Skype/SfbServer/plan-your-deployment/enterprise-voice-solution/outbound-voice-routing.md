@@ -2,7 +2,7 @@
 title: Planifier le routage des voix sortantes dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Découvrez le routage des appels sortants dans Skype Entreprise Server Voix Entreprise, notamment les paramètres de routage des appels, les plans de numérotation, les règles de normalisation, les stratégies de voix, les enregistrements d’utilisation PSTN et les itinéraires des messages vocaux.
-ms.openlocfilehash: 47b0b196579d69612c3c9d62c8ca9aade008535e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1c8331f1959b03166ecd02b65e6fa1080bb43993
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759506"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861071"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planifier le routage des voix sortantes dans Skype Entreprise Server
  
 Découvrez le routage des appels sortants dans Skype Entreprise Server Voix Entreprise, notamment les paramètres de routage des appels, les plans de numérotation, les règles de normalisation, les stratégies de voix, les enregistrements d’utilisation PSTN et les itinéraires des messages vocaux.
   
-Le routage des appels sortants s’applique aux appels Voix Entreprise qui sont destinés à une passerelle, une passerelle PSTN (réseau téléphonique commuté), une trunke ou un PBX (Private Branch Exchange). Lorsqu’un Skype Entreprise passe un appel, le serveur normalise le numéro de téléphone au format E.164, si nécessaire, et tente de le faire correspondre à un URI SIP. Si le serveur ne parvient pas à établir de correspondance, il applique la logique de routage des appels sortants en fonction de la chaîne de numérotation fournie. Les paramètres de serveur du tableau ci-dessous permettent de configurer la logique de routage des appels sortants.
+Le routage des appels sortants s’applique Voix Entreprise appels destinés à une passerelle, une ligne ou un pbX (réseau téléphonique commuté) public. Lorsqu’un Skype Entreprise passe un appel, le serveur normalise le numéro de téléphone au format E.164, si nécessaire, et tente de le faire correspondre à un URI SIP. Si le serveur ne parvient pas à établir de correspondance, il applique la logique de routage des appels sortants en fonction de la chaîne de numérotation fournie. Les paramètres de serveur du tableau ci-dessous permettent de configurer la logique de routage des appels sortants.
   
 **Skype Entreprise Server Routage des appels sortants Paramètres**
 
@@ -74,7 +74,7 @@ Pour planifier un plan de numérotation, suivez les étapes suivantes :
     
 - Identifiez les modèles de numéro valides pour chaque site.
     
-    La partie la plus longue de la planification de vos plans de numérotation consiste à identifier les modèles de numéros valides pour chaque site. Dans certains cas, vous pouvez copier les règles de normalisation que vous avez écrites pour un plan de numérotation vers d’autres plans de numérotation, en particulier si les sites correspondants se trouve dans le même pays/la même région ou même le même continent. Dans d’autres cas, de petites modifications apportées aux numéros d’un plan de numérotation peuvent suffire à les utiliser dans d’autres plans de numérotation.
+    La partie la plus longue de la planification de vos plans de numérotation consiste à identifier les modèles de numéros valides pour chaque site. Dans certains cas, vous pouvez copier les règles de normalisation que vous avez écrites pour un plan de numérotation vers d’autres plans de numérotation, en particulier si les sites correspondants se trouve dans le même pays/la même région ou même le même continent. Dans d’autres cas, de petites modifications apportées aux numéros dans un plan de numérotation peuvent suffire à les utiliser dans d’autres plans de numérotation.
     
 - Développer un schéma à l’échelle de l’organisation pour nommer des plans de numérotation.
     
@@ -102,7 +102,7 @@ Nous vous recommandons de taper le nom commun et reconnaissable de l’emplaceme
   
 #### <a name="dial-in-conferencing-region"></a>Région de conférences téléphoniques
 
-Si vous déployez des conférences téléphoniques, vous devez spécifier une région de conférence d’accès pour associer des numéros d’accès aux conférences à un plan de numérotation. 
+Si vous déployez des conférences téléphoniques, vous devez spécifier une région de conférence d’accès pour associer des numéros d’accès aux conférences téléphoniques à un plan de numérotation. 
   
 #### <a name="external-access-prefix"></a>Préfixe d’accès externe
 
@@ -156,7 +156,7 @@ Le tableau suivant présente des exemples de règles de normalisation écrites s
 |LDCallingUS  <br/> |Traduit les nombres avec des préfixes longue distance aux États-Unis  <br/> |^1(\d {10} )$  <br/> |+$1  <br/> |12145550100 est converti en +2145550100  <br/> |
 |IntlCallingUS  <br/> |Traduit des nombres avec des préfixes internationaux aux États-Unis  <br/> |^011(\d \* )$  <br/> |+$1  <br/> |01191445550100 est converti en +91445550100  <br/> |
 |RedmondOperator  <br/> |Traduit 0 en Opérateur Redmond  <br/> |^0$  <br/> |+14255550100  <br/> |0 est converti en +14255550100  <br/> |
-|RedmondSitePrefix  <br/> |Traduit les numéros avec le préfixe sur net (6) et le code de site redmond (222)  <br/> |^6222(\d {4} )$  <br/> |+1425555$1  <br/> |62220100 est converti en +14255550100  <br/> |
+|RedmondSitePrefix  <br/> |Traduit les numéros avec le préfixe sur net (6) et le code de site Redmond (222)  <br/> |^6222(\d {4} )$  <br/> |+1425555$1  <br/> |62220100 est converti en +14255550100  <br/> |
 |NYSitePrefix  <br/> |Traduit les numéros avec le préfixe sur net (6) et le code de site NY (333)  <br/> |^6333(\d {4} )$  <br/> |+1202555$1  <br/> |63330100 est converti en +12025550100  <br/> |
 |DallasSitePrefix  <br/> |Traduit les numéros avec le préfixe sur net (6) et le code de site Dallas (444)  <br/> |^6444(\d {4} )$  <br/> |+1972555$1  <br/> |64440100 est converti en +19725550100  <br/> |
    
@@ -205,7 +205,7 @@ L’étendue de stratégie de voix détermine le niveau hiérarchique auquel la 
 - Une **stratégie de voix d’utilisateur** peut être affectée à des utilisateurs individuels, à des groupes ou à des objets contact. Il s’agit de la stratégie de plus bas niveau. Les stratégies de voix d’utilisateur peuvent être déployées afin d’activer des fonctionnalités pour certains utilisateurs ou groupes au niveau d’un site, mais pas pour les autres du même site. Par exemple, il peut être utile de désactiver la numérotation longue distance pour certains employés. Dans le cadre de l’affectation d’une stratégie de voix, un objet contact est traité comme un utilisateur individuel.
     
     > [!NOTE]
-    > Nous vous recommandons de déployer une stratégie de voix utilisateur pour les Voix Entreprise utilisateurs inscrits auprès du déploiement du site central ou les utilisateurs inscrits sur un Survivable Branch Appliance. 
+    > Nous vous recommandons de déployer une stratégie de voix utilisateur pour les utilisateurs du site de succursale Voix Entreprise les utilisateurs inscrits au déploiement du site central ou les utilisateurs inscrits sur un Survivable Branch Appliance. 
   
 - Une **stratégie de voix de site** s’applique à un site entier, à l’exception des utilisateurs, groupes ou objets contact affectés à une stratégie de voix d’utilisateur. Pour définir une stratégie de voix de site, vous devez spécifier le site auquel la stratégie s’applique. Si aucune stratégie de voix d’utilisateur n’est affectée, la stratégie de voix de site est utilisée.
     
@@ -233,7 +233,7 @@ Vous pouvez activer ou désactiver les fonctionnalités d’appel suivantes pour
     
 - **Le suivi des** appels malveillants permet aux utilisateurs de signaler des appels malveillants à l’aide du client Skype Entreprise, puis de les signaler dans les enregistrements des détails des appels. Désactivé par défaut.
     
--  La fonction d’évitement de la messagerie vocale empêche l’itinéraire immédiat des appels vers le système de messagerie vocale du téléphone mobile de l’utilisateur lorsque la sonnerie simultanée est configurée et que le téléphone est éteint, hors batterie ou hors de portée, et est basé sur une valeur de timer. Ce paramètre active et désactive le timer et définit la valeur du timer. Il ne peut être configuré qu’à l’aide Skype Entreprise Server Management Shell. Désactivé par défaut.
+-  La fonction d’évitement de messagerie vocale empêche l’itinéraire immédiat des appels vers le système de messagerie vocale du téléphone mobile de l’utilisateur lorsque la sonnerie simultanée est configurée et que le téléphone est éteint, hors batterie ou hors de portée, et est basé sur une valeur de timer. Ce paramètre active et désactive le timer et définit la valeur du timer. Il ne peut être configuré qu’à l’aide Skype Entreprise Server Management Shell. Désactivé par défaut.
     
 - Le forwarding d’appel et les **utilisations PSTN** de sonnerie simultanée permettent aux administrateurs de spécifier la même utilisation PSTN que la stratégie de voix pour le forwarding d’appel et la sonnerie simultanée, de limiter le forwarding d’appel et la sonnerie simultanée aux utilisateurs de Skype Entreprise internes uniquement, ou de spécifier une utilisation PSTN personnalisée différente de l’utilisation PSTN de la stratégie de voix. L’utilisation de la même utilisation PSTN que la stratégie de voix pour le transfert d’appel et la sonnerie simultanée est la valeur par défaut.
     
@@ -294,7 +294,7 @@ Pour chaque itinéraire, vous devez indiquer :
     
 - les enregistrements d’utilisation PSTN dont doivent disposer les utilisateurs afin d’appeler des numéros qui correspondent à l’expression régulière du numéro de téléphone de destination.
     
-Vous pouvez spécifier des itinéraires d’appels dans Skype Entreprise Server panneau de contrôle. Ces itinéraires d’appels remplit la table de routage du serveur, Skype Entreprise Server utilisé pour router les appels destinés au réseau téléphonique public (RST).
+Vous pouvez spécifier des itinéraires d’appels dans Skype Entreprise Server panneau de contrôle. Ces itinéraires d’appels remplit la table de routage du serveur, que Skype Entreprise Server utilise pour router les appels destinés au RSTN.
   
 ### <a name="mn-trunk-support"></a>M:N Prise en charge des jonctions
 
@@ -304,7 +304,7 @@ Skype Entreprise Server offre une flexibilité dans la façon dont les appels so
 
 La possibilité de spécifier les jonctions vers lesquelles différents numéros sont routés permet de déterminer les itinéraires qui offrent les coûts les plus bas et de les mettre en œuvre en conséquence. La règle générale concernant la sélection des jonctions consiste à choisir celle possédant la passerelle la plus proche du numéro de destination, afin de réduire les coûts des appels longue distance. Par exemple, si vous vous trouvez à New York et que vous appelez un numéro à Rome, vous transférerez l’appel via le réseau IP vers la jonction avec la passerelle de votre bureau romain, ne subissant ainsi que le coût d’un appel local.
   
-Voici un exemple d’utilisation du routage à moindre coût : Fabrikam décide d’autoriser les utilisateurs allemands à composer des numéros américains à l’aide de la jonction correspondante. Fabrikam souhaite également configurer le système de sorte que tous les appels des utilisateurs Skype Entreprise Server américains vers l’Allemagne et les pays/régions adjacents se terminent sur la ligne de la passerelle en Allemagne. Ce routage est économique car un appel passé de l’Allemagne vers l’Australie, par exemple, est moins onéreux qu’un appel émis des États-Unis en direction de l’Australie.
+Voici un exemple d’utilisation du routage à moindre coût : Fabrikam décide d’autoriser les utilisateurs allemands à composer des numéros américains à l’aide de la jonction correspondante. Fabrikam souhaite également configurer le système de sorte que tous les appels des utilisateurs Skype Entreprise Server états-unis vers l’Allemagne et les pays/régions adjacents se terminent sur la ligne de la passerelle en Allemagne. Ce routage est économique car un appel passé de l’Allemagne vers l’Australie, par exemple, est moins onéreux qu’un appel émis des États-Unis en direction de l’Australie.
   
 ### <a name="translating-outbound-dial-strings"></a>Traduction des chaînes de numérotation sortantes
 

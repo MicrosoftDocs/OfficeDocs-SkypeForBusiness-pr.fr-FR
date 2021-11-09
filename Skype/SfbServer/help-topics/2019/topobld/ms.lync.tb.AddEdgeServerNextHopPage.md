@@ -2,7 +2,7 @@
 title: Ajouter le tronçon suivant du pool de serveurs Edge
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le tronçon suivant du pool de serveurs Edge est un pool frontal (qui peut être au choix un pool d’entreprise ou un serveur Standard Edition Server) ou, si votre déploiement inclut un directeur, le tronçon suivant est le directeur.
-ms.openlocfilehash: 95f368eb75319d4e44fd396015ad6c22f79e15f6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ba13d6979a851d8df4bd39171d1d5ee057353f06
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771133"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854788"
 ---
 # <a name="add-edge-server-next-hop"></a>Ajouter le tronçon suivant du pool de serveurs Edge
 

@@ -2,7 +2,7 @@
 title: Expanseur des paramètres généraux du Branch Office Appliance
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 'Les sections suivantes vous permettent de modifier les paramètres d’un Survivable Branch Appliance existant ou d’un serveur Survivable Branch Server, les sections suivantes se succèdent :'
-ms.openlocfilehash: 97bd7ad5c0df11d26507824a28aee54ed3841038
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e5e75965698f8dbbb97098ccadb0a76c5a3babe9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768842"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840096"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expandeur des paramètres généraux du Branch Office Appliance
 

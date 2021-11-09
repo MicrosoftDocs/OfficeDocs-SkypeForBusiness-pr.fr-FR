@@ -2,7 +2,7 @@
 title: Configuration de la réunion
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 description: Les paramètres de configuration de réunion définissent le type de conférences (également appelées « événements de réunion » ) que les utilisateurs peuvent créer, et contrôlent comment (ou si) les utilisateurs anonymes et les utilisateurs de conférence rendez-vous peuvent participer à ces conférences. Ces paramètres s’appliquent uniquement aux réunions planifiées. Elles ne s’appliquent pas aux réunions ad hoc créées en cliquant sur l’option Conférence maintenant dans le client.
-ms.openlocfilehash: a54d6d11e2df3554331c407518f93290ae8cc8fb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 009985af02283752f29be14379d55da59cf066d2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766752"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855651"
 ---
 # <a name="meeting-configuration"></a>Configuration de la réunion
 

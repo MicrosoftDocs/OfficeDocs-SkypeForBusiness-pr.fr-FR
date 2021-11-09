@@ -2,7 +2,7 @@
 title: Installer ou mettre à jour le système Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour commencer l’installation ou mettre à jour un déploiement existant de Skype Entreprise Server, cliquez sur Installer ou mettre à jour Skype Entreprise Server. Les étapes de cette section installent des composants spécifiques à un rôle serveur donné, en fonction du document du Générateur de topologie. Avant de commencer cette série d’étapes, vous devez définir le déploiement dans le Générateur de topologies. Vous devez être connecté à l’ordinateur que vous déployez en tant qu’administrateur local et membre du groupe Administrateurs du domaine dans le domaine où le serveur se situe. L’ordinateur doit être ajouté au domaine avant d’effectuer cette étape.
-ms.openlocfilehash: edf8a0b210d1cc8a7d806bfcf7b04f6f5198535b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5332fd5e02daacc715453db33c1127acb07787fc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738700"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845837"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>Installer ou mettre à jour le système Skype Entreprise Server
 

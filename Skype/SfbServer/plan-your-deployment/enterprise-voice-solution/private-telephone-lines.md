@@ -2,7 +2,7 @@
 title: Planifier des lignes téléphoniques privées avec Skype Entreprise
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 description: Planification des lignes téléphoniques privées (secondaires) dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 4c4a03d539835a1b776b729c83bdd1bf19e0ff82
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a9054266cc5092f77e0fecd66b71b7180c89018c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763472"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861081"
 ---
 # <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>Planifier des lignes téléphoniques privées avec Skype Entreprise
  
@@ -29,7 +29,7 @@ Planification des lignes téléphoniques privées (secondaires) dans Skype Entre
   
 Skype Entreprise Server vous permet d’accorder aux utilisateurs une deuxième ligne téléphonique privée en plus de leur ligne téléphonique principale. Les lignes téléphoniques privées sont souvent attribuées à des cadres et à d’autres personnes qui souhaitent obtenir un numéro de téléphone non listé auquel ils peuvent être joints directement.
   
-Les lignes téléphoniques privées peuvent uniquement être configurées avec Skype Entreprise Server Management Shell. Vous ne pouvez pas configurer de lignes téléphoniques privées avec Skype Entreprise Server panneau de configuration. Les lignes téléphoniques privées doivent être configurées uniquement dans les déploiements de Skype Entreprise Server et non dans les déploiements mixtes.
+Les lignes téléphoniques privées ne peuvent être configurées qu’avec Skype Entreprise Server Management Shell. Vous ne pouvez pas configurer de lignes téléphoniques privées avec Skype Entreprise Server panneau de configuration. Les lignes téléphoniques privées doivent être configurées uniquement dans les déploiements de Skype Entreprise Server et non dans les déploiements mixtes.
   
 ## <a name="characteristics-of-private-telephone-lines"></a>Caractéristiques des lignes téléphoniques privées
 

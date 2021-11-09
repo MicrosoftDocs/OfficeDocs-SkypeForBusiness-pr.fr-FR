@@ -2,7 +2,7 @@
 title: Affichage FocusJoinsAndLeaves
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: La vue FocusJoinsAndLeaves stocke des informations sur la participation à une conférence ainsi qu’à son abandon. Chaque conférence est représentée dans cette vue par un enregistrement renseigné chaque fois qu’un utilisateur rejoint et quitte la conférence. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 6195558ec7a59e9e7605db4b56f761aec374f831
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8dcc82fe641b451190236f813f432c237e7fa2e2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740300"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845057"
 ---
 # <a name="focusjoinsandleaves-view"></a>Affichage FocusJoinsAndLeaves
  
@@ -26,11 +26,11 @@ La vue FocusJoinsAndLeaves stocke des informations sur la participation à une c
   
 |**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |DateHeure  <br/> |Heure de l’instance de conférence. Utilisé conjointement avec SessionIdSeq pour identifier de manière unique une instance de conférence. Pour plus d’informations, voir le tableau [Conférences Skype Entreprise Server 2015.](conferences.md) <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Numéro d’identification de l’instance de conférence. Utilisé conjointement avec SessionIdTime pour identifier de manière unique une instance de conférence. Pour plus d’informations, voir le tableau [Conférences Skype Entreprise Server 2015.](conferences.md) <br/> |
+|**SessionIdTime** <br/> |DateHeure  <br/> |Heure de l’instance de conférence. Utilisé conjointement avec SessionIdSeq pour identifier de manière unique une instance de conférence. Pour plus d’informations, voir le tableau [Conferences Skype Entreprise Server 2015.](conferences.md) <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Numéro d’identification de l’instance de conférence. Utilisé conjointement avec SessionIdTime pour identifier de manière unique une instance de conférence. Pour plus d’informations, voir le tableau [Conferences Skype Entreprise Server 2015.](conferences.md) <br/> |
 |**UserUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur dont les informations de participation/d’abandon de conférence ont été capturées.  <br/> |
 |**UserUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de l’utilisateur dont les informations de participation/d’abandon de conférence ont été capturées. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Locataire de l’utilisateur dont les informations de participation/d’abandon de conférence ont été capturées. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Locataire de l’utilisateur dont les informations de participation/d’abandon de conférence ont été capturées. Pour plus [d’informations, voir le tableau Tenants.](tenants.md) <br/> |
 |**UserEndpointId** <br/> |uniqueidentifier  <br/> |Identificateur unique de l’utilisateur dont les informations de participation/d’abandon de conférence ont été capturées.  <br/> |
 |**UserClientVersion** <br/> |nvarchar(256)  <br/> |Version de client de l’utilisateur dont les informations de participation/abandon de conférence ont été capturées.  <br/> |
 |**UserClientType** <br/> |int  <br/> |Client de l’utilisateur dont les informations de participation/abandon de conférence ont été capturées. Pour plus d’informations, voir la [table UserAgentDef.](useragentdef.md) <br/> |

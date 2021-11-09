@@ -2,7 +2,7 @@
 title: Déployer des pools frontux couplés pour la récupération d’urgence dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Vous pouvez décider d’utiliser des pools frontux couplés pour fournir une protection contre la récupération d’urgence, mais cela n’est pas obligatoire.
-ms.openlocfilehash: 9aec106905b2d8628e30461dce130f301aef1b25
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 27909f44f0d86cac3100437f7df094b5f72ba1be
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741330"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855098"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Déployer des pools frontux couplés pour la récupération d’urgence dans Skype Entreprise Server
  

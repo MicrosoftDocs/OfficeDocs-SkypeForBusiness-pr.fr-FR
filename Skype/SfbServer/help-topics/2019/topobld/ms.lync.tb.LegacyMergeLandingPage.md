@@ -2,7 +2,7 @@
 title: 'Fusion héritée : accueil'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6dd2227a-1fbd-4133-b27f-227b0fe47805
 ROBOTS: NOINDEX, NOFOLLOW
 description: La page Spécifier le programme d’installation Edge vous permet de configurer vos informations de serveur Edge héritées. Cliquez sur Ajouter pour spécifier la version de serveur Edge héritée de votre déploiement Office Communications Server. Si vous n’avez pas de serveurs Edge dans votre environnement hérité, cliquez sur Suivant pour continuer.
-ms.openlocfilehash: 09948a8be2ce08840c275bce05069623e41379e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6bd14adfd525462b7da7214a34b2fa61f45d303a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772804"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845627"
 ---
 # <a name="legacy-merge-landing"></a>Fusion héritée : accueil
  

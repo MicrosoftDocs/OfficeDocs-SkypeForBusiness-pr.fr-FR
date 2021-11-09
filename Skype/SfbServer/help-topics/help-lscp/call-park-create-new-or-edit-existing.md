@@ -2,7 +2,7 @@
 title: Création d’un parcage d’appel ou modification d’un parcage existant
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 description: Les plages de numéros de parcier d’appel définissent les numéros temporaires où les appels par parcés sont maintenus jusqu’à ce que quelqu’un les récupère ou qu’ils délai d’arrêt.
-ms.openlocfilehash: c8d489c75516357193ca1bc4f3ae6f4d613bd80d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6a4ea7673995d4c3b59b69964d383ab774f55cb5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760962"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855691"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>Parcage d’appel : créer un nouveau ou modifier un parcage existant
 

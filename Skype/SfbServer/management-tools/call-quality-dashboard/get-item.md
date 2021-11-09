@@ -2,7 +2,7 @@
 title: Obtenir l’élément
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 'Résumé : Découvrez l’opération Obtenir un élément, qui fait partie du service d’élément. Le service d’élément fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 3ee8d4f4e64276f7b824bfbdaa06247b27c78988
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1818bb0538fdc02d77c731cad7404643dc84fe28
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762312"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861231"
 ---
 # <a name="get-item"></a>Obtenir l’élément
  
@@ -62,7 +62,7 @@ Obtenir l’élément renvoie un élément spécifique dans le référentiel.
   
  *userId*  : ID de l’utilisateur propriétaire de cet élément.
   
- *contenu*  - Contenu propre à l’application.
+ *content*  - Contenu propre à l’application.
   
  *type*  : type du contenu. Ce champ est définie par les applications.
   

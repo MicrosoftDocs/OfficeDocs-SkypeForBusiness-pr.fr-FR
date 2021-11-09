@@ -2,7 +2,7 @@
 title: Planifier les options Busy pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: Découvrez la fonctionnalité Busy Options dans Skype Entreprise Server.
-ms.openlocfilehash: d47b31c53b5357a520f6aa0b3a6c0a02c18df8f2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b233260327688830a338989c14ef0eb24ade781e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756541"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854228"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Planifier les options Busy pour Skype Entreprise Server
  
@@ -36,11 +36,11 @@ Cette rubrique décrit les fonctionnalités de Busy Options. Pour plus d’infor
 
 Si Busy Options est activée pour l’organisation, tous les utilisateurs de votre organisation, les utilisateurs Voix Entreprise et non Voix Entreprise, peuvent utiliser les fonctionnalités suivantes :
   
-- Occupé(s) : dans lequel les nouveaux appels entrants sont rejetés avec une signal occupé si l’utilisateur est occupé.
+- Occupé (occupé) : les nouveaux appels entrants sont rejetés avec une signal occupé si l’utilisateur est occupé.
     
 - Messagerie vocale sur Busy : dans laquelle les nouveaux appels entrants sont transmis à la messagerie vocale si l’utilisateur est occupé.
     
-La fonctionnalité Busy Options offre une fonctionnalité deover. Si un problème se produit et que les utilisateurs reviennent à un autre serveur frontal ou à un autre pool dans Skype Entreprise Server, leurs paramètres Busy Options sont conservés.
+La fonctionnalité Busy Options offre une fonctionnalité deover. Si un problème se produit et que les utilisateurs échouent vers un autre serveur frontal ou un autre pool dans Skype Entreprise Server, leurs paramètres Busy Options sont conservés.
   
 Quelle que soit la manière dont les options de occupé(s) sont configurées, les utilisateurs d’un appel ou d’une conférence, ou ceux qui ont un appel en attente, ne sont pas empêchés de lancer de nouveaux appels ou conférences. 
   
@@ -84,7 +84,7 @@ Busy Options offre une interopérabilité avec les applications Voice suivantes 
     
 - Délégation de chef/administrateur 
     
-  - Les appels entrants aux utilisateurs qui sont configurer pour une délégation de responsable/d’administration en tant que responsable ou administrateur seront hiérarchisés pour ignorer les paramètres Busy on Busy et Voicemail on Busy.
+  - Les appels entrants aux utilisateurs qui sont configurer pour une délégation de chef/administrateur en tant que chef ou administrateur seront hiérarchisés pour ignorer les paramètres Busy on Busy et Voicemail on Busy.
     
   - L’expérience actuelle de délégation de responsable/administrateur reste inchangée avec busy options définies pour les administrateurs ou les responsables.
     
@@ -96,7 +96,7 @@ Busy Options offre une interopérabilité avec les applications Voice suivantes 
     
   - Les options Busy on Busy et Voicemail on Busy natives de l’apparence de ligne partagée seront honorées à la place.
     
-- Service de parc d’appel 
+- Service de parc public d’appel 
     
   - Les appels par parcés qui n’ont pas été récupérés et qui sonnent en raison du délai d’arrêt seront autorisés à sonner pour l’utilisateur qui a par parcé l’appel par busy options. 
     

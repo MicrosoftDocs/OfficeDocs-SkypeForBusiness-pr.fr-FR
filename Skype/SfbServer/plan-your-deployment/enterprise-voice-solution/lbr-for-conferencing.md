@@ -2,7 +2,7 @@
 title: Location-Based routage des conférences dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planification du routage géolocal pour les conférences dans Skype Entreprise Server Voix Entreprise, y compris les transferts d’appels consultatifs.
-ms.openlocfilehash: 118ccd13fb85f9566c7b62736514936d4f41f9bd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d9fee0304310f551d750be85a9b6e2b0d9a47ad3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768512"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855401"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based routage des conférences dans Skype Entreprise Server
 
 Planification du routage géolocal pour les conférences dans Skype Entreprise Server Voix Entreprise, y compris les transferts d’appels consultatifs.
 
-Location-Based routage permet de restreindre le routage des appels entre les points de terminaison VoIP et les points de terminaison PSTN en fonction de l’emplacement des parties dans l’appel. Location-Based routage pour les conférences vous permet d’appliquer des règles de routage Location-Based aux réunions (c’est-à-dire, les conférences) pour empêcher le contournement de frais RSTN. L’application surveille une conférence active et applique Location-Based restrictions de routage en fonction de l’emplacement des utilisateurs participant. Le Location-Based routage pour l’application de conférence permet également l’application de restrictions de routage Location-Based aux transferts consultatifs impliquant des points de terminaison PSTN.
+Location-Based routage permet de restreindre le routage des appels entre les points de terminaison VoIP et les points de terminaison PSTN en fonction de l’emplacement des parties dans l’appel. Location-Based routage des conférences vous permet d’appliquer des règles de routage Location-Based aux réunions (c’est-à-dire, les conférences) afin d’empêcher le contournement de frais RSTN. L’application surveille une conférence active et applique Location-Based restrictions de routage en fonction de l’emplacement des utilisateurs participant. Le Location-Based routage pour l’application de conférence permet également l’application de restrictions de routage Location-Based aux transferts consultatifs impliquant des points de terminaison PSTN.
 
 LLocation-Based'application de conférence de routage fournit aux conférences Skype Entreprise un mécanisme de prévention du contournement de frais PSTN. L’application surveille les conférences actives et applique Location-Based restrictions de routage en fonction de l’emplacement des utilisateurs Skype Entreprise participants.
 
@@ -51,10 +51,10 @@ Ces restrictions de Location-Based de routage sont résumées dans le tableau su
 
 |Utilisateur(s) d’une conférence à un moment donné|Utilisateurs autorisés à participer à la conférence|Utilisateurs non autorisés à participer à la conférence|
 |:-----|:-----|:-----|
-|Skype Entreprise Utilisateurs clients VoIP d’un site réseau unique  <br/> |Skype Entreprise Utilisateur client VoIP du même site réseau  <br/> Skype Entreprise Utilisateur client VoIP d’un autre site réseau  <br/> Skype Entreprise Utilisateur client VoIP à partir d’un site réseau inconnu  <br/> Utilisateur Skype Entreprise client VoIP fédéré  <br/> Utilisateur rejoignant à partir d’un point de terminaison PSTN  <br/> |Aucun  <br/> |
+|Skype Entreprise Utilisateurs clients VoIP d’un site réseau unique  <br/> |Skype Entreprise Utilisateur client VoIP du même site réseau  <br/> Skype Entreprise Utilisateur client VoIP d’un autre site réseau  <br/> Skype Entreprise Utilisateur client VoIP d’un site réseau inconnu  <br/> Utilisateur Skype Entreprise client VoIP fédéré  <br/> Utilisateur rejoignant à partir d’un point de terminaison PSTN  <br/> |Aucun  <br/> |
 |Skype Entreprise Utilisateurs clients VoIP d’un site réseau inconnu  <br/> |Skype Entreprise Utilisateur client VoIP de n’importe quel site  <br/> Skype Entreprise Utilisateur client VoIP d’un site inconnu  <br/> Utilisateur Skype Entreprise client VoIP fédéré  <br/> |Utilisateur rejoignant via un point de terminaison PSTN  <br/> |
-|Skype Entreprise Utilisateurs clients VoIP de différents sites réseau  <br/> |Skype Entreprise Utilisateur client VoIP de n’importe quel site réseau  <br/> Skype Entreprise Utilisateur client VoIP à partir d’un site réseau inconnu  <br/> Utilisateur Skype Entreprise client VoIP fédéré  <br/> |Utilisateur rejoignant via un point de terminaison PSTN  <br/> |
-|Skype Entreprise Utilisateurs clients VoIP d’un site réseau unique et utilisateurs rejoignant un point de terminaison PSTN  <br/> |Skype Entreprise Utilisateur client VoIP du même site réseau  <br/> |Skype Entreprise Utilisateur client VoIP d’un autre site réseau  <br/> Skype Entreprise Utilisateur client VoIP à partir d’un site réseau inconnu  <br/> Utilisateur Skype Entreprise client VoIP fédéré  <br/> |
+|Skype Entreprise Utilisateurs clients VoIP de différents sites réseau  <br/> |Skype Entreprise Utilisateur client VoIP de n’importe quel site réseau  <br/> Skype Entreprise Utilisateur client VoIP d’un site réseau inconnu  <br/> Utilisateur Skype Entreprise client VoIP fédéré  <br/> |Utilisateur rejoignant via un point de terminaison PSTN  <br/> |
+|Skype Entreprise Utilisateurs clients VoIP d’un site réseau unique et utilisateurs rejoignant un point de terminaison PSTN  <br/> |Skype Entreprise Utilisateur client VoIP du même site réseau  <br/> |Skype Entreprise Utilisateur client VoIP d’un autre site réseau  <br/> Skype Entreprise Utilisateur client VoIP d’un site réseau inconnu  <br/> Utilisateur Skype Entreprise client VoIP fédéré  <br/> |
 
 Voici des caractéristiques supplémentaires de l’application Location-Based routage des conférences :
 
@@ -74,7 +74,7 @@ Voici des caractéristiques supplémentaires de l’application Location-Based r
 
 ## <a name="consultative-call-transfers"></a>Transferts d’appels consultatifs
 
-Outre l’application du routage Location-Based aux réunions Skype Entreprise, l’application de routage Location-Based pour conférence applique des restrictions de routage Location-Based aux transferts d’appels consultatifs qui sortent vers les points de terminaison PSTN. Un transfert d’appel consultatif est un appel établi entre deux parties où l’une des parties transfère l’appel à un nouvel utilisateur. Par exemple, un point de terminaison PSTN appelle l’utilisateur A (Skype Entreprise appelé). L’utilisateur A détermine que l’utilisateur PSTN doit être transmis à l’utilisateur B (Skype Entreprise utilisateur). L’utilisateur A place l’appel avec l’utilisateur PSTN en attente, puis appelle l’utilisateur B. L’utilisateur B accepte de parler à l’utilisateur PSTN. L’utilisateur A transfère l’appel en attente à l’utilisateur B.
+Outre l’application du routage Location-Based aux réunions Skype Entreprise, l’application de routage Location-Based pour conférence applique des restrictions de routage Location-Based aux transferts d’appels consultatifs qui sortent vers les points de terminaison PSTN. Un transfert d’appel consultatif est un appel établi entre deux parties où l’une des parties transfère l’appel à un nouvel utilisateur. Par exemple, un point de terminaison PSTN appelle l’utilisateur A (Skype Entreprise’appelé). L’utilisateur A détermine que l’utilisateur PSTN doit être transmis à l’utilisateur B (Skype Entreprise utilisateur). L’utilisateur A place l’appel avec l’utilisateur PSTN en attente, puis appelle l’utilisateur B. L’utilisateur B accepte de parler à l’utilisateur PSTN. L’utilisateur A transfère l’appel en attente à l’utilisateur B.
 
 **Flux d’appels de transfert d’appel consultatif**
 
@@ -82,7 +82,7 @@ Outre l’application du routage Location-Based aux réunions Skype Entreprise, 
 
 Lorsqu’un utilisateur activé pour le routage Location-Based lance un transfert d’appel consultatif d’un point de terminaison PSTN (comme illustré dans la figure précédente), cela crée deux appels actifs, l’un entre l’utilisateur PSTN et l’utilisateur Skype Entreprise A, et l’autre entre l’utilisateur Skype Entreprise A et l’utilisateur Skype Entreprise B. Le comportement suivant est appliqué par le routi Location-Based ng pour l’application de conférence :
 
-- Si la liaison sip routage de l’appel PSTN est autorisée à ré-router l’appel PSTN vers le site réseau où se trouve l’utilisateur Skype Entreprise B (c’est-à-dire, cible de transfert), le transfert d’appel est autorisé . Dans le cas contraire, le transfert d’appel consultatif sera bloqué. Cette autorisation est effectuée en fonction de l’emplacement de la partie transférée qui se trouve sur le même site réseau que la ligne SIP qui a routage l’appel actif vers le point de terminaison PSTN.
+- Si la liaison sip routage de l’appel PSTN est autorisée à ré-router l’appel PSTN vers le site réseau où se trouve l’utilisateur Skype Entreprise B (c’est-à-dire, cible de transfert), le transfert d’appel est autorisé . Dans le cas contraire, le transfert d’appel consultatif sera bloqué. Cette autorisation est effectuée en fonction de l’emplacement de la partie transférée qui se trouve sur le même site réseau que la ligne SIP qui route l’appel actif vers le point de terminaison PSTN.
 
 - Si la liaison SIP routant l’appel PSTN entrant n’est pas autorisée à router les appels vers le site réseau où se trouve la partie transférée (utilisateur B de Skype Entreprise) ou si la partie transférée se trouve dans un site réseau inconnu, le transfert d’appel consultatif vers le point de terminaison PSTN (c’est-à-dire, cible de transfert d’appel) sera bloqué.
 
@@ -104,9 +104,9 @@ Le tableau suivant décrit comment les restrictions de routage Location-Based so
 |Point de terminaison PBX dans n’importe quel site  <br/> |Skype Entreprise utilisateur dans un site réseau inconnu  <br/> |Le transfert consultatif sera autorisé  <br/> |
 |Point de terminaison PBX dans n’importe quel site  <br/> |Utilisateur Skype Entreprise fédéré  <br/> |Le transfert consultatif sera autorisé  <br/> |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
-Le routage Location-Based pour l’application de conférence nécessite que la mise à jour cumulative 2 de Skype Entreprise Server ou Lync Server 2013 soit déployée sur tous les pools Front-End et serveurs Édition Standard de votre topologie. Si ces versions de serveur ne sont pas installées sur certains serveurs de votre topologie, les restrictions de routage Location-Based ne peuvent pas être entièrement appliquées aux réunions et aux transferts d’appels consultatifs.
+L’application de routage Location-Based pour la conférence nécessite que la mise à jour cumulative 2 de Skype Entreprise Server ou Lync Server 2013 soit déployée sur tous les pools Front-End et serveurs Édition Standard de votre topologie. Si ces versions de serveur ne sont pas installées sur certains serveurs de votre topologie, les restrictions de routage Location-Based ne peuvent pas être entièrement appliquées aux réunions et aux transferts d’appels consultatifs.
 
 Le tableau suivant identifie la combinaison des rôles serveur et des versions qui Location-Based routage.
 
@@ -157,11 +157,11 @@ Par exemple :
 New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
 ```
 
-Après avoir utilisé cette cmdlet, redémarrez tous les serveurs frontux du pool ou les serveurs Édition Standard sur lequel le routage Location-Based pour l’application de conférence a été activé.
+Après avoir utilisé cette applet de bord, redémarrez tous les serveurs frontux du pool ou les serveurs Édition Standard sur lequel le routage Location-Based pour l’application de conférence a été activé.
 
 > [!IMPORTANT]
 > Location-Based'application du routage vers des conférences ou des transferts consultatifs ne sera pas appliquée tant que tous les serveurs frontaux des pools applicables ou les serveurs Édition Standard ne seront pas redémarrés. Si vous **définissez -Critical** to **$true** dans les cmdlets précédentes, vos services Skype Entreprise Server seront immédiatement redémarrés. Si vous ne souhaitez pas que ces services redémarrent immédiatement, définissez **-Critical** sur **$false** pour le moment, puis utilisez **Set-CsServerApplication** pour modifier **-Critical** pour **$true** ultérieurement, après le redémarrage des services.
 
-Une fois que le routage Location-Based pour l’application de conférence a été correctement activé et que tous les serveurs applicables ont été redémarrés, toutes les conférences organisées par les utilisateurs Skype Entreprise activés pour le routage Location-Based sont surveillées pour empêcher le contournement des frais de réseau téléphonique privé (PSTN).
+Une fois que le routage Location-Based pour l’application de conférence a été activé avec succès et que tous les serveurs applicables ont été redémarrés, toutes les conférences organisées par les utilisateurs Skype Entreprise activés pour le routage Location-Based sont surveillées pour empêcher le contournement de frais PSTN
 
 

@@ -2,7 +2,7 @@
 title: Gérer les conférences dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: 'Résumé : Découvrez comment gérer les conférences dans Skype Entreprise Server.'
-ms.openlocfilehash: ef1afdecaec5ae237020b1681d95b556a37e2ab8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 122b7d797983df9bb3ef6252234099869650a66e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751773"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845457"
 ---
 # <a name="manage-conferencing-in-skype-for-business-server"></a>Gérer les conférences dans Skype Entreprise Server
  
@@ -25,9 +25,9 @@ ms.locfileid: "60751773"
   
 Cette rubrique décrit comment gérer les conférences. Pour plus d’informations sur la façon de planifier et de déployer des conférences, voir [Plan for conferencing in Skype Entreprise Server](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in Skype Entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
-Dans Skype Entreprise Server, vous gérez les détails des conférences en spécifiant les paramètres de configuration et de stratégie comme suit. Notez que les termes conférence et réunion sont parfois utilisés indifféremment. Toutefois, en règle générale, vous pouvez penser à une réunion comme une instance spécifique de conférence.
+Dans Skype Entreprise Server, vous gérez les détails de la conférence en spécifiant les paramètres de configuration et de stratégie comme suit. Notez que les termes conférence et réunion sont parfois utilisés indifféremment. Toutefois, en règle générale, vous pouvez penser à une réunion comme une instance spécifique de conférence.
   
-- Les **paramètres** de stratégie de conférence englobent un large éventail d’options de planification et de participation, allant du fait qu’une réunion peut inclure du son et de la vidéo IP ou le nombre maximal de personnes pouvant y participer. Vous pouvez utiliser des stratégies de conférence pour gérer la sécurité, la bande passante et les aspects juridiques des réunions.
+- Les **paramètres** de stratégie de conférence englobent un large éventail d’options de planification et de participation, allant du fait qu’une réunion peut inclure de l’audio et de la vidéo IP ou le nombre maximal de personnes pouvant y participer. Vous pouvez utiliser des stratégies de conférence pour gérer la sécurité, la bande passante et les aspects juridiques des réunions.
     
     Notez que les stratégies de conférence sont appliquées à l’utilisateur ou au site et ne peuvent pas être appliquées à une réunion spécifique. Par conséquent, l’invitation à la réunion peut être créée quelques semaines à l’avance, mais la stratégie de conférence restrictive doit être appliquée au compte Skype Entreprise de l’organisateur de la réunion juste avant le début de la conférence. 
     
@@ -35,11 +35,11 @@ Dans Skype Entreprise Server, vous gérez les détails des conférences en spéc
     
 - Les **paramètres** de configuration de réunion déterminent le type de réunion que les utilisateurs peuvent créer, en plus de contrôler comment (ou même si) les utilisateurs anonymes et les utilisateurs de conférence rendez-vous peuvent participer à ces réunions. Notez que ces paramètres affectent uniquement les réunions prévues. Les configurations de réunion sont appliquées par pool, par site ou globalement.
     
-- **Les paramètres de configuration** de conférence déterminent des éléments tels que la taille maximale autorisée pour le contenu et les handouts de réunion . quantité maximale de bande passante pour le service de conférence de partage d’application ; limites de stockage et périodes d’expiration ; URL pour les téléchargements internes et externes du client pris en charge ; pointeurs vers des URL internes et externes où les utilisateurs peuvent obtenir de l’aide et des ressources de conférence ; et les ports utilisés pour le partage d’application, l’audio client, les transferts de fichiers et le trafic multimédia.
+- **Les paramètres de configuration de** conférence déterminent des éléments tels que la taille maximale autorisée pour le contenu et les handouts de réunion. quantité maximale de bande passante pour le service de conférence de partage d’application ; limites de stockage et périodes d’expiration ; URL pour les téléchargements internes et externes du client pris en charge ; pointeurs vers des URL internes et externes où les utilisateurs peuvent obtenir de l’aide et des ressources de conférence ; et les ports utilisés pour le partage d’application, l’audio client, les transferts de fichiers et le trafic multimédia.
     
     Ces paramètres vous permettent de gérer les serveurs eux-mêmes. Ces paramètres ne peuvent être définies qu’à l’aide Skype Entreprise Server Management Shell. 
     
-- **Les paramètres d’accès à la** connexion vous permettent de définir des informations sur la façon dont les utilisateurs appellent un numéro à partir d’un téléphone. Vous spécifiez certaines des informations d’accès à la conférence, telles que le numéro d’accès, à partir de l’onglet Conférence du Panneau de contrôle et certaines informations de numérotation,telles que le plan de numérotation, la stratégie de voix, l’itinéraire et l’utilisation PSTN, à partir de l’onglet Routage des voix du Panneau de contrôle.
+- **Les paramètres d’accès à la** connexion vous permettent de définir des informations sur la façon dont les utilisateurs appellent à partir d’un téléphone. Vous spécifiez certaines des informations d’accès à la conférence, telles que le numéro d’accès, à partir de l’onglet Conférence du Panneau de contrôle et certaines informations de numérotation ,telles que le plan de numérotation, la stratégie de voix, l’itinéraire et l’utilisation PSTN, à partir de l’onglet Routage des voix du Panneau de contrôle.
     
 - **Les paramètres de stratégie de code** confidentiel vous permettent de nommer et de définir le code confidentiel que les participants utilisent pour l’accès à la connexion.
     

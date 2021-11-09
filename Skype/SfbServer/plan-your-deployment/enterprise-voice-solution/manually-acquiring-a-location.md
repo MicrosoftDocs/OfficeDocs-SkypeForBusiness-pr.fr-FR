@@ -2,7 +2,7 @@
 title: Définir l’expérience utilisateur pour l’acquisition manuelle d’un emplacement dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
 description: Planification des utilisateurs itinérants dans un déploiement E9-1-1 à l’aide de fournisseurs de trunking SIP, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 263c2e79e340492b27d196f73373505f7c1e4f66
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d412c3368dc6f3e302ab8f589aaed1585ea0b233
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770112"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855281"
 ---
 # <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>Définir l’expérience utilisateur pour l’acquisition manuelle d’un emplacement dans Skype Entreprise Server
  

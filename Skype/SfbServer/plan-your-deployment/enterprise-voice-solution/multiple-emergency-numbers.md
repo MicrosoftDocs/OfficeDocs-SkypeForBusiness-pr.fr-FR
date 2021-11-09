@@ -2,7 +2,7 @@
 title: Planifier plusieurs numéros d’urgence dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: Lisez cette rubrique pour découvrir comment planifier plusieurs numéros d’urgence dans Skype Entreprise Server.
-ms.openlocfilehash: 8e4761b22295d71c33af414e2a92dac7bf1210d6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fbff70b3772b9d941d615f3d1aaf2ad668177e30
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741961"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861131"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planifier plusieurs numéros d’urgence dans Skype Entreprise Server
  
@@ -46,9 +46,9 @@ Lorsque vous planifiez plusieurs numéros d’urgence, gardez les points suivant
   
 - Pour chaque numéro d’urgence, vous pouvez spécifier zéro ou plusieurs masques de numérotation d’urgence, qui sont propres à une stratégie d’emplacement donnée.
     
-    Un masque de numérotation est un numéro que vous souhaitez traduire en valeur de numéro d’urgence lorsqu’il est composé. Par exemple, supposons que vous entrez la valeur 212 dans ce champ et que le champ numéro de numéro d’urgence a la valeur 911. Lorsqu’un utilisateur compose le 212, le numéro est converti en 911. Cela permet de composer d’autres numéros d’urgence tout en permettant à l’appel d’accéder aux services d’urgence (par exemple, si une personne d’un pays ou d’une région dont le numéro d’urgence est différent tente de composer le numéro de ce pays ou de cette région plutôt que le numéro du pays ou de la région où elle se trouve actuellement). Vous pouvez définir plusieurs masques d’appel d’urgence en séparant les valeurs par des points-virgules. Par exemple, 212;414. La limite de chaîne pour un masque de numérotation est de 100 caractères. Chaque caractère doit être un chiffre compris entre 0 et 9.
+    Un masque de numérotation est un numéro que vous souhaitez traduire en valeur de numéro de numéro d’urgence lorsqu’il est composé. Par exemple, supposons que vous entrez la valeur 212 dans ce champ et que le champ numéro de numéro d’urgence a la valeur 911. Lorsqu’un utilisateur compose le 212, le numéro est converti en 911. Cela permet de composer d’autres numéros d’urgence tout en permettant à l’appel d’accéder aux services d’urgence (par exemple, si une personne d’un pays ou d’une région dont le numéro d’urgence est différent tente de composer le numéro de ce pays ou de cette région plutôt que le numéro du pays ou de la région où elle se trouve actuellement). Vous pouvez définir plusieurs masques d’appel d’urgence en séparant les valeurs par des points-virgules. Par exemple, 212;414. La limite de chaîne pour un masque de numérotation est de 100 caractères. Chaque caractère doit être un chiffre compris entre 0 et 9.
     
-- Chaque stratégie d’emplacement a une utilisation PSTN (réseau téléphonique commuté) unique qui permet de déterminer l’itinéraire des communications vocales utilisé pour router les appels d’urgence des clients à l’aide de cette stratégie. L’utilisation peut avoir un itinéraire unique par numéro d’urgence.
+- Chaque stratégie d’emplacement a une utilisation PSTN (réseau téléphonique commuté) unique qui est utilisée pour déterminer l’itinéraire des communications vocales utilisé pour router les appels d’urgence des clients à l’aide de cette stratégie. L’utilisation peut avoir un itinéraire unique par numéro d’urgence.
     
 - Si les paramètres EmergencyNumbers et DialString sont définis dans une stratégie d’emplacement et que le client prend en charge plusieurs numéros d’urgence, le numéro d’urgence est prioritaire. Si le client ne prend pas en charge plusieurs numéros d’urgence, la chaîne de numérotation d’urgence est utilisée.
     
@@ -92,11 +92,11 @@ Le tableau suivant présente des exemples de stratégies d’emplacement (pour l
 ## <a name="client-support"></a>Prise en charge des clients
 <a name="BKMK_Clients"> </a>
 
-Le tableau suivant indique la prise en charge de plusieurs numéros d’urgence par le client. Microsoft continuera à tester et publier la prise en charge pour d’autres clients. N’hésitez pas à la consulter souvent.
+Le tableau suivant indique la prise en charge de plusieurs numéros d’urgence par le client. Microsoft continuera à tester et à publier la prise en charge pour d’autres clients. N’hésitez pas à la consulter souvent.
 
 |**Fenêtres**|**Version**|
 |:-----|:-----|
-|**Démarrer en un clic** <br/> |Cc (canal actuel) publié le 10 mai 2016 - Version 1604 (build 6868.2062)  <br/> |
+|**Démarrer en un clic** <br/> |CC (Canal actuel) publié le 10 mai 2016 - Version 1604 (build 6868.2062)  <br/> |
 ||FRDC (First Release Current Channel) publiée le 14 juin 2016 - Version 1605 (build 6965.2058)  <br/> |
 ||DC (Canal différé) publié le 11 octobre 2016 - Version 1605 (build 6965.2092)  <br/> |
 |**MSI** <br/> |Mise à jour du 7 juin - [https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |

@@ -2,7 +2,7 @@
 title: Téléchargements et mises à jour de Skype Entreprise
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 07/23/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Recherchez et gérez les mises à jour Skype Entreprise Server ou Lync 2013. Utilisez les liens pour obtenir plus d’informations, puis téléchargez les mises à jour.
-ms.openlocfilehash: 60fa56020a9a0a59f7890e71009cd65acd6636b4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ce7676064bc6e2ca67c65a8a4f34c543a0fa75f1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741730"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855198"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Téléchargements et mises à jour de Skype Entreprise
 

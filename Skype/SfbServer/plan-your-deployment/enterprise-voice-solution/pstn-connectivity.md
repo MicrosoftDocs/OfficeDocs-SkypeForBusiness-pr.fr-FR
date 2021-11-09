@@ -2,7 +2,7 @@
 title: Composants de connectivité PSTN dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: Découvrez les passerelles PSTN et les passerelles SIP pour les Voix Entreprise dans Skype Entreprise Server.
-ms.openlocfilehash: d0650f4948837fdb169c1c4a3672e25dccb8012f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5b5bfd467c0269c6eea77db8f787ad5f4b769278
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746730"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861031"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Composants de connectivité PSTN dans Skype Entreprise Server
  
@@ -58,7 +58,7 @@ Les scénarios d’intégration Voix Entreprise-PBX pris en charge sont les sui
 - PBX TDM (multiplexage temporel), avec une passerelle PSTN autonome.
     
 > [!NOTE]
-> Le contournement de média n’interagit pas avec chaque passerelle PSTN, système IP-PBX et contrôleur de session en périphérie (SBC). Microsoft a testé un ensemble de passerelles PSTN et de SCS avec des partenaires certifiés et a effectué des tests avec cisco IP-PBX. Le contournement de média est pris en charge uniquement avec les produits et versions répertoriés dans le programme d’interopérabilité d’ouverture des communications unifiées [- Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). 
+> Le contournement de média n’interagit pas avec chaque passerelle PSTN, système IP-PBX et contrôleur de session en périphérie (SBC). Microsoft a testé un ensemble de passerelles PSTN et de SCS avec des partenaires certifiés et a effectué des tests avec cisco IP-PBX. La déviation du média est prise en charge uniquement avec les produits et versions répertoriés dans le programme d’interopérabilité d’ouverture des [communications unifiées - Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). 
   
 Pour plus d’informations sur les partenaires qui proposent des solutions Voix Entreprise, consultez le site [Web Microsoft Unified Communications Partners](https://go.microsoft.com/fwlink/p/?linkId=202836).
   

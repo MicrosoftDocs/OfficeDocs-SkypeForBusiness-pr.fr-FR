@@ -2,7 +2,7 @@
 title: Configurer des fournisseurs pour le service de journalisation centralisée dans Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 'Résumé : Découvrez comment configurer des fournisseurs de scénarios pour le service de journalisation centralisée Skype Entreprise Server 2015.'
-ms.openlocfilehash: a0c15061f209da9389018412322ea705f93b614f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 526c42e1a6fd741b228cd99450b9d11bc3152670
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751663"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855451"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurer des fournisseurs pour le service de journalisation centralisée dans Skype Entreprise Server 2015
  
 **Résumé :** Découvrez comment configurer des fournisseurs de scénarios pour le service de journalisation centralisée Skype Entreprise Server 2015.
   
-Les concepts et la configuration des fournisseurs dans le service de journalisation centralisée sont l’un des concepts les plus importants à comprendre. Lesprovideurs mappent directement aux Skype Entreprise Server de rôle serveur dans le modèle Skype Entreprise Server suivi. Le fournisseur définit les composants d’un Skype Entreprise Server 2015 qui seront suivis, le type de messages (par exemple, fatal, erreur ou avertissement) à collecter et les indicateurs (par exemple, TF_Connection ou TF_Diag). Les fournisseurs sont les composants de suivi dans chaque rôle Skype Entreprise Server serveur. À l’aide de fournisseurs, vous définissez le niveau et le type de suivi sur les composants (par exemple, S4, SIPStack, Messagerie instantanée et Présence). Le fournisseur défini est utilisé dans un scénario pour regrouper tous les fournisseurs d’une collection logique donnée qui répondent à une condition de problème spécifique.
+Les concepts et la configuration des fournisseurs dans le service de journalisation centralisée sont l’un des concepts les plus importants à comprendre. Lesprovideurs mappent directement à Skype Entreprise Server de rôle serveur dans le modèle Skype Entreprise Server suivi. Le fournisseur définit les composants d’un Skype Entreprise Server 2015 qui seront suivis, le type de messages (par exemple, fatal, erreur ou avertissement) à collecter et les indicateurs (par exemple, TF_Connection ou TF_Diag). Les fournisseurs sont les composants de suivi dans chaque rôle Skype Entreprise Server serveur. À l’aide de fournisseurs, vous définissez le niveau et le type de suivi sur les composants (par exemple, S4, SIPStack, Messagerie instantanée et Présence). Le fournisseur défini est utilisé dans un scénario pour regrouper tous les fournisseurs d’une collection logique donnée qui répondent à une condition de problème spécifique.
   
 Pour exécuter les fonctions du service de journalisation centralisée à l’aide de l’environnement de ligne de commande Skype Entreprise Server Management Shell, vous devez être membre des groupes de sécurité RBAC CsAdministrator ou CsServerAdministrator, ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes. Pour retourner la liste de tous les rôles RBAC (Contrôle d’accès basé sur un rôle) attribués à cette cmdlet (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Skype Entreprise Server Management Shell ou Windows PowerShell :
   
@@ -64,7 +64,7 @@ Introduits dans le service de journalisation centralisée dans [Skype Entreprise
     
   - **Verbose** Collecte tous les messages de suivi de type Fatal, Error, Warning et Verbose pour le fournisseur défini.
     
-  - **Le débogage** est essentiellement l’équivalent de « All » : collecte des traces de type Fatal, Error, Warning, Info, Verbose et Debug pour le fournisseur défini.
+  - **Déboguer** ceci est essentiellement l’équivalent de « All » : collecte des traces de type Fatal, Error, Warning, Info, Verbose et Debug pour le fournisseur défini.
     
 - **Indicateurs** OCSLogger fournissait la possibilité de choisir des indicateurs pour chaque fournisseur qui définissaient le type d’informations que vous pouviez récupérer à partir des fichiers de suivi. Vous pouvez choisir les indicateurs suivants selon le fournisseur :
     

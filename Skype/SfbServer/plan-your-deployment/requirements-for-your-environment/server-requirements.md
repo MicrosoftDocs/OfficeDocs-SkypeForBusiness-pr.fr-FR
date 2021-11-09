@@ -2,7 +2,7 @@
 title: Server requirements for Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Résumé : Préparez vos serveurs Skype Entreprise Server 2015 avec cette rubrique. Le matériel, le système d’exploitation, les bases de données, les logiciels, la configuration système requise et les recommandations sont là pour garantir une installation et un déploiement réussis de votre batterie de serveurs.'
-ms.openlocfilehash: ece492adcf126870990ed810455d144c9b90aa5b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f12dcd955f044e626deda5e8e21fec00e53b876c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743350"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860951"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Server requirements for Skype Entreprise Server 2015
  
@@ -49,7 +49,7 @@ Matériel recommandé pour les serveurs frontux, les serveurs frontux, les serve
   
 |Composant matériel|Recommandé|
 |:-----|:-----|
-|UC   |Bi-processeur 64 bits, hex-core, 2,26 gigahertz (GHz) ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour Skype Entreprise Server 2015.   |
+|UC   |Bi-processeur 64 bits, hex-core, 2,26 gigahertz (GHz) ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge Skype Entreprise Server rôles 2015.   |
 |Mémoire   |32 gigaoctets (Go).   |
 |Disque   |SOIT :  <br/> • 8 disques durs ou plus de 1 0000 TPM avec au moins 72 Go d’espace disque libre (deux disques utilisant RAID 1 et 6 utilisant RAID 10).  <br/> OR  <br/> • Des disques SSD (Solid State Drives) capables de fournir le même espace libre et des performances similaires à 8 disques mécaniques 10000 RPM.   |
 |Réseau   |1 carte réseau double port, 1 Gbits/s ou plus (2 cartes réseau peuvent être utilisées, mais elles doivent être liées à une seule adresse MAC et une seule adresse IP).  <br/> Les configurations à double  ou multi-accueil ne sont pas pris en charge pour les serveurs frontaux, les serveurs frontaux, les serveurs Édition Standard serveurs et les serveurs de conversation permanente. <br/> Tant qu’ils ne sont pas exposés au système d’exploitation et qu’ils sont utilisés pour surveiller et gérer le matériel serveur, vous pouvez avoir des systèmes de gestion hors bande, tels que DRAC ou ILO. Ce scénario ne constitue pas un serveur multi-accueil et il est pris en charge.   |
@@ -58,9 +58,9 @@ Matériel recommandé pour les serveurs Edge, les serveurs de médiation autonom
   
 |Composant matériel|Recommandé|
 |:-----|:-----|
-|UC   |Double processeur 64 bits, quadruple cœur, 2,26 gigahertz (GHz) ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour Skype Entreprise Server 2015.   |
+|UC   |Double processeur 64 bits, quadruple cœur, 2,26 gigahertz (GHz) ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge Skype Entreprise Server rôles 2015.   |
 |Mémoire   |16 gigaoctets.   |
-|Disque   |SOIT :  <br/> • 4 disques durs ou plus de 1 0000 TPM avec au moins 72 Go d’espace disque libre (les disques doivent être dans une configuration RAID 1 2x).  <br/> OR  <br/> • Disques SSD (Solid State Drive) capables de fournir le même espace libre et des performances similaires à 4 disques mécaniques 10000 RPM.   |
+|Disque   |SOIT :  <br/> • 4 disques durs ou plus de 1 0000 TPM avec au moins 72 Go d’espace disque libre (les disques doivent être dans une configuration RAID 1 2x).  <br/> OR  <br/> • Des disques SSD (Solid State Drives) capables de fournir le même espace libre et des performances similaires à 4 disques mécaniques 10000 RPM.   |
 |Réseau   |1 carte réseau double port, 1 Gbits/s ou plus (2 cartes réseau peuvent être utilisées, mais elles doivent être liées à une seule adresse MAC et une seule adresse IP).  <br/> Les configurations à double ou multi-accueil ne **sont** pas pris en charge pour les serveurs d’interopation vidéo et les directeurs. <br/> Les serveurs Edge nécessitent deux interfaces réseau qui sont des cartes réseau double port, 1 Gbits/s ou plus (ou deux cartes réseau couplées, pour un total de quatre, chaque paire étant associé à une seule adresse MAC et une seule adresse IP, pour un total de deux paires).  <br/> Sur les serveurs de médiation autonomes, l’installation de cartes d’interface réseau supplémentaires pour permettre la configuration d’une adresse IP PSTN spécifique est prise en charge.   |
    
 ## <a name="operating-systems-for-skype-for-business-server-2015"></a>Systèmes d’exploitation Skype Entreprise Server 2015
@@ -74,7 +74,7 @@ Une fois le matériel en place, vous devez installer les systèmes d’exploitat
 |Windows Server 2012 Système d’exploitation du centre de données R2 avec toutes les mises à jour requises installées.   |Windows Server 2012 Système d’exploitation R2 Standard avec toutes les mises à jour requises installées.   |
 |Windows Server 2012 Datacenter Système d’exploitation avec toutes les mises à jour requises installées.   |Windows Server 2012 Standard Système d’exploitation avec toutes les mises à jour requises installées.   |
    
-S’il ne figure pas dans cette liste, il ne fonctionne pas correctement, veuillez ne pas l’essayer pour les nouvelles installations de Skype Entreprise Server 2015.
+S’il ne figure pas dans cette liste, il ne fonctionne pas correctement. N’essayez pas pour les nouvelles installations de Skype Entreprise Server 2015.
 
 > [!NOTE]
 > La mise à niveau sur place du système d’exploitation n’est pas prise en charge avec Lync Server 2013. Vous devez déployer un pool distinct et migrer les utilisateurs vers le nouveau pool avec un système d’exploitation différent. Tous les serveurs d’un pool doivent avoir la même version du système d’exploitation.
@@ -116,7 +116,7 @@ Si vous choisissez d’utiliser le stockage Exchange, vous n’avez pas besoin d
   
 ## <a name="hardware-and-software-requirements-for-archiving-in-skype-for-business-server-2015"></a>Configuration matérielle et logicielle requise pour l’archivage Skype Entreprise Server 2015
   
-L’archivage n’est pas un rôle serveur défini, vous n’avez pas besoin d’installer un serveur distinct pour l’archivage. Les agents de collecte de données unifiées sont installés et activés automatiquement sur Êdition Entreprise pool frontal et chaque Édition Standard serveur. Vous devez activer et publier votre topologie d’archivage à l’aide du Générateur de topologies.
+L’archivage n’est pas un rôle serveur défini, vous n’avez pas besoin d’installer un serveur distinct pour l’archivage. Les agents de collecte de données unifiées sont installés et activés automatiquement sur Êdition Entreprise pool frontal et chaque Édition Standard serveur. Vous devrez activer et publier votre topologie d’archivage à l’aide du Générateur de topologies.
     
 L’archivage utilise le Skype Entreprise Server de fichiers pour le stockage temporaire des fichiers de contenu de réunion, vous ne devez donc pas configurer de magasin de fichiers distinct pour l’archivage.
     
@@ -145,19 +145,19 @@ Deux nœuds :
 
 - Microsoft SQL Server 2017 Standard (édition 64 bits) et nous vous recommandons de l’exécution avec le dernier Service Pack.
 
-- Microsoft SQL Server 2016 Standard (édition 64 bits) avec Service Pack 1 ou version ultérieure. Nous vous recommandons d’être en cours d’exécution avec le dernier Service Pack.
+- Microsoft SQL Server 2016 Standard (édition 64 bits) avec Service Pack 1 ou version ultérieure. Nous vous recommandons d’être en cours d’exécution avec le service pack le plus récent.
 
 - Microsoft SQL Server 2014 Standard (édition 64 bits) et nous vous recommandons de l’exécution avec le dernier Service Pack.
     
 -  Microsoft SQL Server 2012 Standard (édition 64 bits) et nous vous recommandons de l’exécution avec le dernier Service Pack.
 
-Seize nœuds :
+Seizième :
 
 - Microsoft SQL Server 2019 Enterprise (édition 64 bits) et nous vous recommandons de l’exécution avec le dernier Service Pack.
 
 - Microsoft SQL Server 2017 Enterprise (édition 64 bits) et nous vous recommandons de l’exécution avec le dernier Service Pack.
 
-- Microsoft SQL Server 2016 Enterprise (édition 64 bits) avec Service Pack 1 ou version ultérieure. Nous vous recommandons d’être en cours d’exécution avec le dernier Service Pack.
+- Microsoft SQL Server 2016 Enterprise (édition 64 bits) avec Service Pack 1 ou version ultérieure. Nous vous recommandons d’être en cours d’exécution avec le service pack le plus récent.
   
 - Microsoft SQL Server 2014 Enterprise (édition 64 bits) et nous vous recommandons de l’exécution avec le dernier Service Pack.
     
@@ -185,7 +185,7 @@ Vous devrez installer ou configurer certains éléments pour n’importe quel se
 |Logiciel/Rôle|Détails|
 |:-----|:-----|
 |Windows PowerShell 3.0   |Tous Skype Entreprise Server serveurs doivent Windows PowerShell 3.0.  <br/> • Si vous faites l’installation sur Windows Server 2012 ou Windows Server 2012 R2, vous êtes prêt, car il est déjà là.  <br/> • Si vous faites une mise à niveau sur Windows Server 2008 R2, vous pouvez télécharger Windows Management Framework [3.0](https://www.microsoft.com/download/details.aspx?id=34595) pour l’obtenir. <br/> **Conseil :** Une fois que vous avez le powerShell correct sur celui-ci, confirmez qu’il s’agit de BuildVersion 6.2.9200.0 ou version ultérieure en allant à l’invite PowerShell et en tapant `$PSVersionTable` . Les informations dont vous avez besoin doivent alors s’en trouver.   |
-|Microsoft .NET Framework   |Les services WCF sont une fonctionnalité installée en tant que fonctionnalité Windows, sous Le Gestionnaire de **serveur,** aucun téléchargement n’est nécessaire.  <br/> • Vous devez vous assurer, lorsque vous installez cette fonctionnalité, ou si elle est déjà installée et que vous la vérifiez, que l’option **d’activation HTTP** est également cochée et installée, comme suit : <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Ne vous inquiétez pas si vous obtenez une fenêtre vidéo supplémentaire vous disant que d’autres éléments doivent être installés pour que l’activation HTTP soit installée. C’est normal, cliquez sur OK et allez de l’avant. Si vous n’obtenez pas cette fenêtre pop-up, supposez que ces éléments sont déjà installés et continuer.  <br/> Microsoft .NET Framework est généralement installé lorsque Windows Server 2012 R2 ou Windows Server 2016 sont installés. Skype Entreprise Server fonctionne avec les versions microsoft .NET Framework suivantes :  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1 (pour les Skype Entreprise Server cu 5 ou ultérieures)  <br/> • .NET 4.7.2 (pour les Skype Entreprise Server cu 6 ou ultérieures)  <br/>  • .NET 4.8 (pour les Skype Entreprise Server cu 9 ou ultérieures) <br/>  .NET Framework 3.5 sera probablement installé par défaut sur votre ordinateur Windows Server 2008 R2 (assurez-vous de vous en assurer avant la mise à niveau), mais il ne se trouvera pas sur vos serveurs Windows Server 2012/Windows Server 2012 R2 (pour les nouvelles installations). Pour l’ajouter, vous devez accéder à votre lecteur d’installation ou support (l’emplacement d’installation de votre serveur Windows ou l’emplacement d’installation des fichiers). Ensuite, installez-le en tant que fonctionnalité à partir du Gestionnaire de serveur, pointez sur le support d’installation (en particulier le dossier **\sources\sxs)** lorsque vous l’avez demandé, puis continuez à l’installer.  |
+|Microsoft .NET Framework   |Les services WCF sont une fonctionnalité installée en tant que fonctionnalité Windows, sous Le Gestionnaire de **serveur,** aucun téléchargement n’est nécessaire.  <br/> • Vous devez vous assurer, lorsque vous installez cette fonctionnalité, ou si elle est déjà installée et que vous la vérifiez, que l’option **d’activation HTTP** est également cochée et installée, comme suit : <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Ne vous inquiétez pas si vous obtenez une fenêtre vidéo supplémentaire vous disant que d’autres éléments doivent être installés pour que l’activation HTTP soit installée. C’est normal, cliquez sur OK et allez de l’avant. Si vous n’obtenez pas cette fenêtre pop-up, supposez que ces éléments sont déjà installés et continuer.  <br/> Microsoft .NET Framework est généralement installé lorsque Windows Server 2012 R2 ou Windows Server 2016 sont installés. Skype Entreprise Server fonctionne avec les versions microsoft .NET Framework suivantes :  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1 (pour les Skype Entreprise Server cu 5 ou ultérieures)  <br/> • .NET 4.7.2 (pour les Skype Entreprise Server cu 6 ou ultérieures)  <br/>  • .NET 4.8 (pour les Skype Entreprise Server cu 9 ou ultérieures) <br/>  .NET Framework 3.5 sera probablement installé par défaut sur votre ordinateur Windows Server 2008 R2 (assurez-vous de vous en assurer avant la mise à niveau), mais il ne sera en réalité pas sur vos serveurs Windows Server 2012/Windows Server 2012 R2 (pour les nouvelles installations). Pour l’ajouter, vous devez accéder à votre lecteur d’installation ou support (l’emplacement d’installation de votre serveur Windows ou l’emplacement d’installation des fichiers). Ensuite, installez-le en tant que fonctionnalité à partir du Gestionnaire de serveur, pointez sur le support d’installation (en particulier le dossier **\sources\sxs)** lorsque vous l’avez demandé, puis continuez à l’installer.  |
 |Media Foundation   |Pour Windows Server 2016, Windows Server 2012 et Windows Server 2012 R2, le runtime Windows format multimédia est installé avec Microsoft Media Foundation.  <br/> Tous les serveurs frontaux et serveurs Édition Standard utilisés pour les conférences nécessitent le runtime du format multimédia Windows pour exécuter les fichiers Windows Media Audio (.wma) lés par les applications Parcage d’appel, Annonce et Response Group pour les annonces et la musique.   |
 |Windows Identity Foundation  <br/> |Nous devons Windows Identity Foundation 3.5 pour prendre en charge les scénarios d’authentification de serveur à serveur pour Skype Entreprise Server 2015.  <br/> • Pour Windows Server 2012 et Windows Server 2012 R2, il n’est pas nécessaire de télécharger quoi que ce soit. Ouvrez **le Gestionnaire de** serveur et allez à l’Assistant Ajout de **rôles et de fonctionnalités.** **Windows Identity Foundation 3.5** est répertorié dans la section **Fonctionnalités.** Si elle est vérifiée, vous êtes bon. Sinon, sélectionnez-le et cliquez sur Suivant pour accéder au **bouton** Installer.  |
 |Outils d'administration de serveur distant   |Outils d’administration des rôles : outils AD DS et AD LDS   |
@@ -194,8 +194,8 @@ Vous devrez installer ou configurer certains éléments pour n’importe quel se
   
 |Logiciel/Rôle|Détails|
 |:-----|:-----|
-|Internet Information Services (IIS)   |IIS est nécessaire sur tous les serveurs frontaux, ainsi que tous les serveurs Édition Standard, avec les modules suivants sélectionnés :  <br/> • Fonctionnalités HTTP courantes : document par défaut, erreurs HTTP, contenu statique  <br/> • Santé et diagnostics : journalisation HTTP, outils de journalisation, suivi  <br/> • Performances : compression de contenu statique, compression de contenu dynamique  <br/> • Sécurité : filtrage des demandes, authentification par mappage de certificat client, authentification Windows client  <br/> • Développement d’applications : extensibilité .NET 3.5, extensibilité .NET 4.5, ASP.NET 3.5, ASP.NET 4.5, extensions ISAPI, filtres ISAPI  <br/> • Outils de gestion : console de gestion IIS, scripts et outils de gestion IIS  <br/> Nous devons également noter que l’accès anonyme est également nécessaire, mais vous l’obtenez lorsque vous installez IIS, de sorte que vous n’avez pas d’endroit pour sélectionner cet accès dans la liste.   |
-|Module d’exécution du format Windows Media   | Pour Windows Server 2016, Windows Server 2012 et Windows Server 2012 R2, vous devez installer la fonctionnalité **Media Foundation** dans le **Gestionnaire de serveur.** Maintenant, vous pouvez démarrer votre installation Skype Entreprise Server 2015 sans celle-ci, mais vous serez invité à l’installer, puis redémarrez le serveur, avant de poursuivre l’installation de Skype Entreprise Server 2015. Il est préférable de le faire à l’avance.  |
+|Internet Information Services (IIS)   |IIS est nécessaire sur tous les serveurs frontaux, ainsi que tous les serveurs Édition Standard, avec les modules suivants sélectionnés :  <br/> • Fonctionnalités HTTP courantes : document par défaut, erreurs HTTP, contenu statique  <br/> • Santé et diagnostics : journalisation HTTP, outils de journalisation, suivi  <br/> • Performances : compression de contenu statique, compression de contenu dynamique  <br/> • Sécurité : filtrage des demandes, authentification par mappage de certificat client, authentification Windows client  <br/> • Développement d’applications : extensibilité .NET 3.5, extensibilité .NET 4.5, ASP.NET 3.5, ASP.NET 4.5, extensions ISAPI, filtres ISAPI  <br/> • Outils de gestion : Console de gestion IIS, scripts et outils de gestion IIS  <br/> Nous devons également noter que l’accès anonyme est également nécessaire, mais vous l’obtenez lorsque vous installez IIS, de sorte que vous n’avez pas d’endroit pour sélectionner cet accès dans la liste.   |
+|Module d’exécution du format Windows Media   | Pour Windows Server 2016, Windows Server 2012 et Windows Server 2012 R2, vous devez installer la fonctionnalité **Media Foundation** dans le **Gestionnaire de serveur.** Maintenant, vous pouvez démarrer votre installation Skype Entreprise Server 2015 sans cette installation, mais vous serez invité à l’installer, puis redémarrez le serveur, avant de poursuivre l’installation de Skype Entreprise Server 2015. Il est préférable de le faire à l’avance.  |
 |Silverlight   |Vous pouvez installer la dernière version de Silverlight sur [ce lien.](https://www.microsoft.com/silverlight/)   |
    
 > [!NOTE] 
@@ -208,9 +208,9 @@ Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, W
 ```
 
 > [!NOTE] 
-> La commande recherche les fichiers sources dans un ordre spécifique. Si vous êtes en ligne, la commande accède à Windows Update. Toutefois, si vous êtes hors connexion, vous devez vous assurer que les fichiers sources sont disponibles pour la commande. Pour plus d’informations sur l’utilisation de PowerShell pour installer des rôles et des fonctionnalités, voir Installer ou [désinstaller](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831809(v=ws.11)) des rôles, des services de rôles ou des fonctionnalités N’oubliez pas d’exécuter Windows Update à nouveau après avoir installé les éléments prérequis, même si vous utilisez la commande PowerShell.
+> La commande recherche les fichiers sources dans un ordre spécifique. Si vous êtes en ligne, la commande accède à Windows Update. Toutefois, si vous êtes hors connexion, vous devez vous assurer que les fichiers sources sont disponibles pour la commande. Pour plus d’informations sur l’utilisation de PowerShell pour installer des rôles et des fonctionnalités, voir Installer ou [désinstaller](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831809(v=ws.11)) des rôles, des services de rôles ou des fonctionnalités N’oubliez pas d’exécuter à nouveau Windows Update après avoir installé les éléments prérequis, même si vous utilisez la commande PowerShell.
 
- **Les directeurs doivent également :**
+ **Les directeurs ont également besoin des :**
   
 IIS, avec les modules suivants sélectionnés :
   
@@ -270,4 +270,4 @@ Message Queuing, également appelé MSMQ. Il s’agit d’Windows Server et vous
   
  **Dernières idées :**
   
-N’installez aucun logiciel client Microsoft Internet Security and Acceleration (ISA) Server, ni aucun autre logiciel Winsock Layered Service Providers (LSP) (n’importe quel pare-feu tiers ou logiciel d’inspection du réseau antivirus serait inclus ici) sur vos serveurs frontaux ou serveurs de médiation autonomes. Des performances médiocres du trafic multimédia ont été vues lors de l’installation de ce logiciel.
+N’installez aucun logiciel client Microsoft Internet Security and Acceleration (ISA) Server, ni aucun autre logiciel winsock layered service providers (LSP) (tout pare-feu tiers ou logiciel d’inspection du réseau antivirus serait inclus ici) sur vos serveurs frontaux ou serveurs de médiation autonomes. Des performances médiocres du trafic multimédia ont été vues lors de l’installation de ce logiciel.

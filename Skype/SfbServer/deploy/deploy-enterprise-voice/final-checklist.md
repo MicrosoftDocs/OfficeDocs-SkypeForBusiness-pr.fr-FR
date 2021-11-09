@@ -2,7 +2,7 @@
 title: Liste de vérification finale du déploiement du contrôle d’admission des appels Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: Liste de vérification finale pour le déploiement du contrôle d’admission des appels dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 11bf5a69b273f1311399090cc893bee1f4732443
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ca9162604d1a25ecbde0df800e891931cd756d99
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759076"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855108"
 ---
 # <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Déploiement du contrôle d’admission des appels : liste de contrôle finale pour Skype Entreprise Server
  

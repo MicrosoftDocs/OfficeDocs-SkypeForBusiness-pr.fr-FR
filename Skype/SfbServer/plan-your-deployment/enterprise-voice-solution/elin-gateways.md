@@ -2,7 +2,7 @@
 title: Gérer les emplacements des passerelles ELIN dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Décisions nécessaires à la planification d’une base de données d’informations d’emplacement ou d’une base de données externe similaire pour un déploiement E9-1-1 à l’aide de passerelles ELIN, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: f8440e4e125773e91850b890bb2a02c7d1312fde
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d958b9d533245e7071cb8c1f030e91a13a44925f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756521"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845167"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Gérer les emplacements des passerelles ELIN dans Skype Entreprise Server
 
@@ -52,7 +52,7 @@ Le champ Emplacement **du** service Informations sur l’emplacement, qui contie
 
 - Nom facile à comprendre qui identifie l’emplacement de l’appelant 911 pour s’assurer que les agents des services d’urgence trouvent l’emplacement spécifique rapidement lorsqu’ils arrivent à l’adresse géographique. Ce nom d’emplacement peut inclure un numéro d’immeuble, un numéro d’étage, un indicateur d’aile, un numéro de chambre, etc. Évitez les surnoms connus des seuls employés, qui peuvent induire les agents des services d’urgence en erreur.
 
-- Identificateur d’emplacement qui permet aux utilisateurs de voir facilement que leur client a choisi l’emplacement correct. Le Skype Entreprise client concatène et affiche automatiquement les  champs  Emplacement et Ville découverts dans son en-tête. Une bonne pratique consiste à ajouter l’adresse de rue du bâtiment à chaque identificateur d’emplacement (par exemple, « 1er étage <street number> »). Sans l’adresse postale, un identificateur d’emplacement générique tel que « 1er étage » peut s’appliquer à n’importe quel immeuble de la ville.
+- Identificateur d’emplacement qui permet aux utilisateurs de voir facilement que leur client a choisi l’emplacement correct. Le Skype Entreprise client concatène et affiche automatiquement les  champs  Emplacement et Ville découverts dans son en-tête. Une bonne pratique consiste à ajouter l’adresse de rue du bâtiment à chaque identificateur d’emplacement (par exemple, « 1er étage \<street number> »). Sans l’adresse postale, un identificateur d’emplacement générique tel que « 1er étage » peut s’appliquer à n’importe quel immeuble de la ville.
 
 - Si l’emplacement est approximatif car il est déterminé par un point d’accès sans fil, vous pouvez ajouter le mot **[Proche]** (par exemple, « À proximité du 1er étage 1234 »).
 

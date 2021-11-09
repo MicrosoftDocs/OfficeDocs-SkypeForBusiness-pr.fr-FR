@@ -2,7 +2,7 @@
 title: Modifier la topologie dans Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Après avoir répondu aux questions initiales, vous pouvez modifier le nom de domaine complet (FQDN) et les adresses IP du site. Pour cela, sur la page Topologie globale, double-cliquez sur le site que vous souhaitez modifier.
-ms.openlocfilehash: 2276f2959329c77744054976e3a49f5ad72778ae
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 698f7e5e94666a67dd01c55a877a037452fd58e2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776164"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861191"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Modifier la topologie dans Skype Entreprise Server 2015
 
 Après avoir répondu aux questions initiales, vous pouvez modifier le nom de domaine complet (FQDN) et les adresses IP du site. Pour cela, sur la page **Topologie globale**, double-cliquez sur le site que vous souhaitez modifier.
 
-L’outil de planification affiche la topologie de site pour le site sélectionné. Le bas de la page du site comporte quatre onglets :
+L’outil de planification affiche la topologie du site sélectionné. Le bas de la page du site comporte quatre onglets :
 
 ![Topologie du site de l’outil de planification.](../../media/Planning_Tool_Site_Topology.png)
 
@@ -73,7 +73,7 @@ Une fonction utile de l’outil de planification est la possibilité d’affecte
 
 2. Par exemple, la valeur de départ du premier serveur est fe0101.contoso.com et l’adresse IP 192.168.21.122.
 
-3. Tapez fe0.contoso.com **FQDN** du serveur frontal, tapez 192.168.21.131 dans l’adresse IP du serveur **frontal,** puis cliquez sur **OK.**
+3. Tapez fe0.contoso.com dans le **FQDN** du serveur frontal, tapez 192.168.21.131 dans l’adresse IP du serveur **frontal,** puis cliquez sur **OK.**
 
 4. La fonctionnalité d’incrémentation automatique met à jour tous les serveurs du pool vers fe01 à fe06, et toutes les adresses IP de 192.168.21.131 à 136.
 

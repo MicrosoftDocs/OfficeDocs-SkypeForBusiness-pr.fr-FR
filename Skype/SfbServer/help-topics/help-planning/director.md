@@ -2,7 +2,7 @@
 title: Skype Entreprise Server Outil de planification de directeur
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 description: Un directeur est un serveur exécutant Skype Entreprise Server 2015 qui peut authentifier les demandes des utilisateurs, mais n’a pas de compte d’utilisateur.
-ms.openlocfilehash: d14e635123b67c743301ac32fb8a230f62ff3b4c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d96ba36f98bb6ef2fb3d70dec2b700e916008a9a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746140"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840176"
 ---
 # <a name="skype-for-business-server-director-planning-tool"></a>Skype Entreprise Server Outil de planification de directeur
  
@@ -29,7 +29,7 @@ Un directeur est un serveur exécutant Skype Entreprise Server 2015 qui peut aut
   
 Ce rôle est facultatif, vous pouvez choisir de déployer un directeur dans les deux scénarios suivants :
   
-- Si vous activez l’accès par des utilisateurs invités en déployant des serveurs Edge, vous devez également déployer un directeur. Dans ce scénario, le directeur authentifier les invités, puis transmet leur trafic aux serveurs internes. Lorsqu’un directeur est utilisé pour authentifier les invités, il décharge les serveurs du pool frontal de la surcharge de l’authentification de ces utilisateurs. Elle permet également d’isoler les pools frontux internes du trafic malveillant tel que les attaques par déni de service. Si le réseau est saturé par du trafic externe non valide dans le cadre d’une telle attaque, tout ce trafic s’arrête au niveau du directeur.
+- Si vous activez l’accès par des utilisateurs invités en déployant des serveurs Edge, vous devez également déployer un directeur. Dans ce scénario, le directeur authentifier les invités, puis transmet leur trafic aux serveurs internes. Lorsqu’un directeur est utilisé pour authentifier les invités, il décharge les serveurs du pool frontal de la surcharge de l’authentification de ces utilisateurs. Il permet également d’isoler les pools frontux internes du trafic malveillant tel que les attaques par déni de service. Si le réseau est saturé par du trafic externe non valide dans le cadre d’une telle attaque, tout ce trafic s’arrête au niveau du directeur.
     
 - Si vous déployez plusieurs pools frontux sur un site central, en ajoutant un directeur à ce site, vous pouvez rationaliser les demandes d’authentification et améliorer les performances. Dans ce scénario, toutes les demandes sont d’abord reçues par le directeur, qui les a ensuite route vers le pool frontal correct.
     
