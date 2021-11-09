@@ -2,7 +2,7 @@
 title: Configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise Server.'
-ms.openlocfilehash: 16f5d44258474657e901933cdbf9bb66c178b5e0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4cb6192475b56d78d1cf03b69eea86b67c05519f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754471"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859891"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise Server
 
 **Résumé :** Lisez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise Server.
 
-Cette section décrit la configuration matérielle et logicielle requise pour les conférences web, les conférences audio et vidéo (A/V), les conférences téléphoniques et les conférences par messagerie instantanée. Toutes les fonctionnalités de conférence s’exécutent sur les serveurs frontux ; il existe des exigences supplémentaires pour différents types de conférences, comme illustré dans le diagramme suivant.
+Cette section décrit la configuration matérielle et logicielle requise pour les conférences web, les conférences audio et vidéo (A/V), les conférences d’appels et les conférences par messagerie instantanée. Toutes les fonctionnalités de conférence s’exécutent sur les serveurs frontux ; il existe des exigences supplémentaires pour différents types de conférences, comme illustré dans le diagramme suivant.
 
 Par exemple, si vous souhaitez autoriser les conférences téléphoniques, vous devez déployer un serveur de médiation et une passerelle pour la connexion au réseau téléphonique commuté (PSTN). Si vous souhaitez autoriser la conférence web, vous devez vous assurer que les Skype Entreprise Server peuvent se connecter à Office Web Apps Server. Si vous souhaitez autoriser les utilisateurs externes à participer à des conférences, vous devez déployer un serveur Edge.
 
@@ -69,7 +69,7 @@ Le service de conférence web stocke ensuite du contenu tel que des diapositives
 
 Pour utiliser les fonctionnalités de conférence web, vous devez installer Office Web Apps Server et configurer Skype Entreprise Server pour communiquer avec Office Web Apps Server.
 
-Office Web Apps Server doit être installé sur un ordinateur autonome qui n’exécute pas Skype Entreprise Server, SQL Server ou toute autre application serveur. (Vous ne devez avoir aucune version de Office installée sur cet ordinateur.) Tout ordinateur utilisé pour exécuter Office Web Apps Server doit également avoir un ensemble spécifique de logiciels installés (notamment .NET Framework 4.5 et Windows PowerShell 3.0). Ces exigences, ainsi que les informations sur la configuration des certificats et des Internet Information Services (IIS), sont détaillées dans le site web [Microsoft Office Web Apps Deployment](/webappsserver/deploy-the-infrastructure-office-web-apps-server).
+Office Web Apps Server doit être installé sur un ordinateur autonome qui n’exécute pas Skype Entreprise Server, SQL Server ou toute autre application serveur. (Vous ne devez avoir aucune version de Office installée sur cet ordinateur.) Tout ordinateur utilisé pour exécuter Office Web Apps Server doit également avoir un ensemble spécifique de logiciels installés (y compris .NET Framework 4.5 et Windows PowerShell 3.0). Ces exigences, ainsi que les informations sur la configuration des certificats et des Internet Information Services (IIS), sont détaillées dans le site web Microsoft Office [Web Apps Deployment](/webappsserver/deploy-the-infrastructure-office-web-apps-server).
 
 Pour plus d’informations sur la configuration de Skype Entreprise Server pour qu’il fonctionne avec Office Web Apps Server, voir Configurer l’intégration avec [Office Web Apps Server dans Skype Entreprise Server](../../deploy/deploy-conferencing/office-web-app-server.md).
 
@@ -107,7 +107,7 @@ application Assistant de conférence et application Annonce de conférence que l
 
 ### <a name="audio-file-requirements-for-dial-in-conferencing"></a>Conditions requises pour les fichiers audio pour les conférences téléphoniques
 
-Skype Entreprise Server ne prend pas en charge la personnalisation des invites vocales et de la musique pour les conférences téléphoniques. Toutefois, si vous avez un besoin métier fort qui nécessite de modifier les fichiers audio par défaut, consultez l’article de la Base de connaissances Microsoft 961177, comment personnaliser les [invites vocales](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177)ou les fichiers de musique pour l’audioconférence rendez-vous.
+Skype Entreprise Server ne prend pas en charge la personnalisation des invites vocales et de la musique pour les conférences téléphoniques. Toutefois, si vous avez un besoin métier fort qui nécessite de modifier les fichiers audio par défaut, consultez l’article de la Base de connaissances Microsoft 961177, Comment personnaliser les invites vocales ou les fichiers de musique pour les conférences [audio rendez-vous](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177).
 
 application Assistant de conférence et application Annonce de conférence les conditions suivantes pour les fichiers d’attente musicale, de nom enregistré et d’invite audio :
 

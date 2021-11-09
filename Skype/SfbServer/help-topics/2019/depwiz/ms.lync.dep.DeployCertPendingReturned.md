@@ -2,7 +2,7 @@
 title: Certificat en attente (retourné)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: La page État de la demande de certificat en ligne renvoie le statut actuel du certificat. Si le certificat est toujours en attente d’approbation par l’administrateur de l’autorité de certification, autrement dit, s’il n’a pas encore été approuvé, le statut indiquera que le certificat est encore en cours de traitement.
-ms.openlocfilehash: 74d121dfa0884a4898229790b66f48f658bee6eb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 99dede5fb903795a36245158065f14040433b94a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753171"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834672"
 ---
 # <a name="pending-certificate-returned"></a>Certificat en attente (retourné)
  

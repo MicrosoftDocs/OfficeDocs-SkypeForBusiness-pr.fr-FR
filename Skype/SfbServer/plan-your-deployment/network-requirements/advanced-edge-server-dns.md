@@ -2,7 +2,7 @@
 title: Planification DNS avancée du serveur Edge pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 manager: serdars
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: Afficher les scénarios pour Skype Entreprise Server options de déploiement. Que vous vouliez un serveur unique ou préférez un pool de serveurs avec DNS ou HLB, cette rubrique doit vous aider.
-ms.openlocfilehash: 8aada20b1ffe712a5b4cf0f9df42b139f25248dc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2c9ea99ae8f5ae7c6151dc337bd5571d739ff549
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737670"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844107"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Planification DNS avancée du serveur Edge pour Skype Entreprise Server
  
@@ -83,7 +83,7 @@ Si vous avez envie de le faire, vous pouvez configurer votre appareil mobile pou
     
 - Pour l’accès interne : https:// \<IntPoolFQDN\> /AutoDiscover/AutoDiscover.svc/Root
     
-Nous vous recommandons d’utiliser la découverte automatique plutôt que la découverte manuelle. Toutefois, si vous faites des tests ou des dépannages, les paramètres manuels peuvent être utiles.
+Nous vous recommandons d’utiliser la découverte automatique par opposition à la découverte manuelle. Toutefois, si vous faites des tests ou des dépannages, les paramètres manuels peuvent être utiles.
   
 ## <a name="split-brain-dns"></a>Split-brain DNS
 <a name="SplitBrainDNS"> </a>
@@ -104,9 +104,9 @@ Nous allons énumérer les enregistrements DNS pour les zones internes et extern
     
   - Enregistrements DNS A et AAAA (si vous utilisez l’adressare IPv6) pour votre pool frontal, pool directeur ou nom de pool directeur, et tous les serveurs internes exécutant Skype Entreprise Server dans le réseau de votre organisation.
     
-  - Enregistrements DNS A et AAAA (si vous utilisez l’adressare IPv6) pour votre interface interne Edge pour chaque serveur Edge Skype Entreprise Server de votre réseau de périmètre.
+  - Enregistrements DNS A et AAAA (si vous utilisez l’adressag IPv6) pour votre interface interne Edge pour chaque serveur Edge Skype Entreprise Server dans votre réseau de périmètre.
     
-  - Enregistrements DNS A et AAAA (si vous utilisez l’adressag IPv6) pour l’interface  interne de chaque serveur proxy inverse dans votre réseau de périmètre (facultatif pour la gestion d’un proxy inverse).
+  - Enregistrements DNS A et AAAA (si vous utilisez l’adressag IPv6) pour l’interface  interne de chaque serveur proxy inverse de votre réseau de périmètre (facultatif pour la gestion d’un proxy inverse).
     
   - Enregistrements DNS A et AAAA (si vous utilisez l’adressag IPv6) et SRV pour  la configuration automatique du client Skype Entreprise Server interne (facultatif).
     
@@ -168,7 +168,7 @@ Maintenant que nous savons tout cela, si vous avez besoin d’une exigence autom
     
 - **Repérer la zone interne**
     
-    Si la création d’une zone entière dans votre DNS interne n’est pas une option pour vous, vous pouvez créer des zones de point d’pin (dédié) qui correspondent aux enregistrements SRV requis pour la configuration automatique et remplir ces zones à l’aide de dnscmd.exe. Dnscmd.exe est nécessaire, car l’interface utilisateur DNS ne permet pas de créer des zones de point d’épingle.
+    Si la création d’une zone entière dans votre DNS interne n’est pas une option pour vous, vous pouvez créer des zones de point d’épingle (dédiées) qui correspondent aux enregistrements SRV requis pour la configuration automatique et remplir ces zones à l’aide de dnscmd.exe. Dnscmd.exe est nécessaire, car l’interface utilisateur DNS ne permet pas de créer des zones de point d’épingle.
     
     Par exemple, si votre domaine SIP est contoso.com et que vous avez un pool frontal appelé pool01 qui contient deux serveurs frontaux, vous aurez besoin des zones de point d’épingle et des enregistrements A suivants dans votre DNS interne :
     
@@ -212,8 +212,8 @@ Tous les enregistrements DNS de ce tableau sont des exemples.
 |**Enregistrement GeoDNS**|**Enregistrements de pool**|**Enregistrements CNAME**|**Paramètres DNS (sélectionnez une option)**|
 |:-----|:-----|:-----|:-----|
 |Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com alias à Pool1InternalWebFQDN.contoso.com  <br/> Meet.contoso.com alias à Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
-|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com alias pour Pool1ExternalWebFQDN.contoso.com  <br/> Meet.contoso.com alias à Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
-|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Dialin.contoso.com alias à Pool1InternalWebFQDN.contoso.com  <br/> Dialin.contoso.com alias à Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com alias à Pool1ExternalWebFQDN.contoso.com  <br/> Meet.contoso.com alias à Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Dialin.contoso.com alias pour Pool1InternalWebFQDN.contoso.com  <br/> Dialin.contoso.com alias à Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
 |Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Dialin.contoso.com alias à Pool1ExternalWebFQDN.contoso.com  <br/> Dialin.contoso.com alias à Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
 |Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Lyncdiscoverinternal.contoso.com alias à Pool1InternalWebFQDN.contoso.com  <br/> Lyncdiscoverinternal.contoso.com alias à Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
 |Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Lyncdiscover.contoso.com alias à Pool1ExternalWebFQDN.contoso.com  <br/> Lyncdiscover.contoso.com alias à Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |

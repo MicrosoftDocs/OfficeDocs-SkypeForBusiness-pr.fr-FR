@@ -2,7 +2,7 @@
 title: 'Stratégie de conférence : création d’une stratégie ou modification d’une stratégie existante'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 description: Une stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs pendant une conférence (également appelée réunion).
-ms.openlocfilehash: be0e6ee522d3bff98ab87cc8bbab7057499b0ede
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 58cfce747ef476c626efa04e74bf5140bf6f33fc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775204"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844637"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Stratégie de conférence : création d’une stratégie ou modification d’une stratégie existante
 
@@ -68,7 +68,7 @@ La liste suivante décrit les champs de la page.
 - **Autoriser plusieurs flux vidéo** Si vous avez activé la vidéo en **audio/vidéo,** activez cette case à cocher pour permettre aux utilisateurs d’organiser des conférences avec la vidéo de la vue Galerie. Lorsque cette case à cocher est sélectionnée, ce paramètre permet aux utilisateurs d’organiser des conférences qui envoient plusieurs flux vidéo. Lorsque cette case à cocher n’est pas sélectionnée, les utilisateurs peuvent uniquement organiser des conférences qui envoient un flux vidéo unique.
 
     > [!NOTE]
-    > Cette option détermine le type de flux vidéo pris en charge par la conférence. Il ne détermine pas si les participants peuvent recevoir plusieurs flux vidéo. L’option Activer **la participation des participants à** plusieurs flux vidéo détermine si les participants peuvent recevoir plusieurs flux vidéo.
+    > Cette option détermine le type de flux vidéo pris en charge par la conférence. Il ne détermine pas si les participants peuvent recevoir plusieurs flux vidéo. L’option Activer **la participation des participants à plusieurs** flux vidéo détermine si les participants peuvent recevoir plusieurs flux vidéo.
 
 - **Collaboration de données** Spécifiez si la conférence autorise ou non la collaboration de données. Les options sont **Aucune ou** Activer la collaboration **de données.**
 
@@ -76,7 +76,7 @@ La liste suivante décrit les champs de la page.
 
   - **Autoriser les participants fédérés et anonymes à télécharger du contenu** Si vous autorisez la collaboration de données, cochez cette case pour autoriser les utilisateurs externes et non authentifiés à télécharger du contenu, tel que des diapositives ou des présentations, à partir d’une conférence.
 
-  - **Autoriser les participants à transférer des fichiers** Si vous autorisez la collaboration de données, cochez cette case pour autoriser les transferts de fichiers à tous les participants pendant une conférence.
+  - **Autoriser les participants à transférer des fichiers** Si vous autorisez la collaboration de données, cochez cette case pour autoriser les transferts de fichiers vers tous les participants pendant une conférence.
 
   - **Activer les annotations** Si vous autorisez la collaboration de données, cochez cette case pour permettre aux participants d’effectuer des annotations à l’écran sur le contenu partagé pendant la conférence.
 
@@ -96,7 +96,7 @@ La liste suivante décrit les champs de la page.
 
     Cliquez sur la flèche vers le haut ou vers le bas à côté de l’étiquette pour fermer ou ouvrir la section.
 
-- Sélectionnez **Activer le partage d’application** et de bureau pour permettre aux utilisateurs de partager des applications ou leur bureau tout en participant à une conférence ou à une session à deux participants. Sélectionnez **Désactiver le partage d’application** et de bureau pour empêcher les utilisateurs de partager des applications ou leur bureau lors de la participation à une conférence ou à une session à deux participants.
+- Sélectionnez **Activer le partage d’application** et de bureau pour permettre aux utilisateurs de partager des applications ou leur bureau tout en participant à une conférence ou à une session à deux participants. Sélectionnez **Désactiver le partage d’application** et de bureau pour empêcher les utilisateurs de partager des applications ou leur bureau lors d’une conférence ou d’une session à deux participants.
 
 - **Activer le transfert de fichiers d’égal à égal** Cochez cette case pour autoriser les transferts de fichiers de personne à personne (c’est-à-dire, les transferts de fichiers qui n’impliquent pas tous les participants) au cours d’une conférence ou d’une session à deux personnes.
 

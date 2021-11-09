@@ -2,7 +2,7 @@
 title: Déployer l’appel via le Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 'Résumé : Découvrez comment déployer l’appel via le Skype Entreprise Server pour tout ou partie de vos utilisateurs.'
-ms.openlocfilehash: 98d7cc08b2cb4101f1d9d062e62ef32a3998691b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 932d94c13d4ba9ead63504cfba66175db52084d7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761608"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851618"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Déployer l’appel via le Skype Entreprise Server
  
 **Résumé :** Découvrez comment déployer l’appel via le Skype Entreprise Server pour tout ou partie de vos utilisateurs.
   
-Utilisez ces étapes pour déployer Appel via le travail pour vos utilisateurs. Les considérations de planification sont abordées dans La planification de [l’appel via le Skype Entreprise Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). Dans les versions précédentes de Lync Server, le contrôle d’appel distant était une fonctionnalité qui permettait aux utilisateurs de contrôler leurs téléphones PBX avec Lync Server. Dans Skype Entreprise Server, cette fonctionnalité a été remplacée par Appel via le travail. 
+Utilisez ces étapes pour déployer Appel via le travail pour vos utilisateurs. Les considérations de planification sont abordées dans [La planification de l’appel via le Skype Entreprise Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). Dans les versions précédentes de Lync Server, le contrôle d’appel distant était une fonctionnalité qui permettait aux utilisateurs de contrôler leurs téléphones PBX avec Lync Server. Dans Skype Entreprise Server, cette fonctionnalité a été remplacée par Appel via le travail. 
   
 ## <a name="prerequisites-for-call-via-work"></a>Conditions préalables pour l’appel via le travail
 
@@ -78,7 +78,7 @@ Une fois les conditions préalables en place, faites les étapes suivantes :
   New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
-    Par exemple, l’cmdlet suivante crée une stratégie Appel via le bureau appelée ContosoUser1CvWP, demande à l’utilisateur d’utiliser un numéro de rappel d’administrateur et définit ce numéro de rappel sur 1-555-789-1234.
+    Par exemple, l’cmdlet suivante crée une stratégie Appel via le bureau appelée ContosoUser1CvWP, oblige l’utilisateur à utiliser un numéro de rappel d’administrateur et définit ce numéro de rappel sur 1-555-789-1234.
     
   ```powershell
   New-CsCallViaWorkPolicy -Identity Tag:ContosoUser1CvWP -Enabled $true -UseAdminCallbackNumber $true -AdminCallbackNumber +15557891234

@@ -2,7 +2,7 @@
 title: Topologies de référence pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Topologies de référence pour Skype Entreprise Server, y compris les diagrammes et les décisions à prendre pour les grandes, moyennes et petites organisations.
-ms.openlocfilehash: 270814a8a4dacccdec8919a0e31c9c6098603493
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 89d04755d31750bb43ab78080e6260e51a5bde60
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762102"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851798"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Topologies de référence pour Skype Entreprise Server
 
@@ -115,7 +115,7 @@ Cette topologie est présentée dans plusieurs diagrammes, avec une vue d’ense
 
 ![Topologie 3-4.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
 
-- **Les pools frontux sont associés pour activer la récupération d’urgence.** Les pools frontux du site A et du site B sont associés les uns aux autres, pour assurer la prise en charge de la récupération d’urgence. Si le pool d’un site tombe en panne, l’administrateur peut faire échouer les utilisateurs de ce site vers le pool frontal couplé sur l’autre site, avec un minimum d’interruption de service pour les utilisateurs. Chacun de ces deux pools frontaux dispose de six serveurs, ce qui est suffisant pour les 40 000 utilisateurs des deux pools en cas de failover. Pour plus d’informations, voir [Planifier la haute disponibilité et la récupération d’urgence dans Skype Entreprise Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+- **Les pools frontux sont associés pour activer la récupération d’urgence.** Les pools frontux du site A et du site B sont associés les uns aux autres, pour assurer la prise en charge de la récupération d’urgence. Si le pool d’un site échoue, l’administrateur peut faire échouer les utilisateurs de ce site vers le pool frontal couplé sur l’autre site, avec un minimum d’interruption de service pour les utilisateurs. Chacun de ces deux pools frontaux dispose de six serveurs, ce qui est suffisant pour les 40 000 utilisateurs des deux pools en cas de failover. Pour plus d’informations, voir [Planifier la haute disponibilité et la récupération d’urgence dans Skype Entreprise Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
 
 - **Les serveurs back end sont en miroir** Pour fournir une plus grande disponibilité pour les fonctionnalités utilisateur de base, l’organisation a déployé une paire de serveurs frontux en miroir pour chaque pool frontal. Il s’agit d’une topologie facultative et vous pouvez choisir de déployer un serveur principal unique à la place. SQL clustering et les groupes de disponibilité AlwaysOn sont également pris en charge. Pour plus d’informations, [voir la haute disponibilité du](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)serveur principal dans Skype Entreprise Server .
 
@@ -127,7 +127,7 @@ Cette topologie est présentée dans plusieurs diagrammes, avec une vue d’ense
 
 - **Surveillance et archivage** Cette organisation a déployé la surveillance et l’archivage. Lorsque vous déployez la surveillance ou l’archivage, il s’exécute sur chaque serveur frontal. Les bases de données de ces fonctionnalités peuvent être coclaquées avec la base de données principale ou situées sur un serveur distinct. Cette organisation a localisé ces bases de données sur un serveur distinct des serveurs centraux, dans le site central B. Les bases de données reçoivent ici des données de surveillance et d’archivage des serveurs frontaux de tous les sites.
 
-- **Options de déploiement de site de succursale.** Cette organisation possède en fait plus de 50 sites de succursale, dont deux seulement sont affichés dans les diagrammes détaillés. Le site de succursale 1 n’a pas de liaison de réseau wan résilient vers le site central, de sorte que les Survivable Branch Appliances sont déployés pour fournir un service téléphonique en cas de panne de la liaison wan vers le site central. Toutefois, le site de succursale 2 dispose d’une liaison réseau wan résiliente, de sorte qu’il n’a besoin que d’une passerelle de réseau téléphonique commuté (PSTN). La passerelle PSTN déployée ici prend en charge le contournement de média, de sorte qu’aucun serveur de médiation n’est nécessaire sur le site de succursale 2. Pour plus d’informations sur les choix d’installation sur un site de succursale, voir [Plan for Voix Entreprise resiliency in Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
+- **Options de déploiement de site de succursale.** En fait, cette organisation possède plus de 50 sites de succursale, dont deux seulement sont affichés dans les diagrammes détaillés. Le site de succursale 1 n’a pas de liaison de réseau wan résilient vers le site central, de sorte que les Survivable Branch Appliances sont déployés pour fournir un service téléphonique en cas de panne de la liaison wan vers le site central. Toutefois, le site de succursale 2 dispose d’une liaison réseau wan résiliente, de sorte qu’il n’a besoin que d’une passerelle PSTN (réseau téléphonique commuté). La passerelle PSTN déployée ici prend en charge le contournement de média, de sorte qu’aucun serveur de médiation n’est nécessaire sur le site de succursale 2. Pour plus d’informations sur les choix d’installation sur un site de succursale, voir [Plan for Voix Entreprise resiliency in Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
 
 - **Une trunking SIP et un serveur de médiation.** Notez que sur le site central B, le serveur de médiation n’est pas coqueté avec les serveurs frontux. Cela est dû au fait que le serveur de médiation autonome est recommandé pour les sites qui utilisent une trunking SIP. Dans la plupart des autres cas, nous vous recommandons de cocérer le serveur de médiation avec le serveur frontal. Pour plus d’informations sur les topologies de serveur de médiation, voir [Components and Topologies for Mediation Server](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-mediation-server) dans la documentation de planification.
 
@@ -136,7 +136,7 @@ Cette topologie est présentée dans plusieurs diagrammes, avec une vue d’ense
     > [!NOTE]
     > La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015.
 
-- **Équilibrage de la charge DNS.** Le pool frontal et le pool de serveurs Edge utilisent l’équilibrage de charge DNS. Cela élimine le besoin d’équilibreurs de la charge matérielle pour l’interface interne des serveurs Edge et réduit considérablement le temps que vous devez consacrer à la configuration et à la maintenance des équilibreurs de la charge matérielle pour les autres pools, car les équilibreurs de la charge matérielle sont nécessaires uniquement pour le trafic HTTP. Pour plus d’informations, voir (.. /.. /plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
+- **Équilibrage de la charge DNS.** Le pool frontal et le pool de serveurs Edge utilisent l’équilibrage de charge DNS. Cela élimine la nécessité d’équilibrages de la charge matérielle pour l’interface interne des serveurs Edge et réduit considérablement le temps que vous devez consacrer à la configuration et à la maintenance des équilibreurs de la charge matérielle pour les autres pools, car les équilibreurs de charge matérielle sont nécessaires uniquement pour le trafic HTTP. Pour plus d’informations, voir (.. /.. /plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
 
 - **Déploiement de la messagerie unifiée Exchange** Skype Entreprise Server fonctionne avec les déploiements locaux de la messagerie unifiée Exchange et de la messagerie unifiée hébergée Exchange messagerie unifiée. Le site central A inclut un Exchange de messagerie unifiée, qui s’exécute Microsoft Exchange Server, et non Skype Entreprise Server. La Exchange de la Skype Entreprise Server de la Skype Entreprise Server s’exécute sur le pool frontal.
 

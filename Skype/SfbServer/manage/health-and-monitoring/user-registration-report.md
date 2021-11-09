@@ -2,7 +2,7 @@
 title: Rapport d’enregistrement de l’utilisateur Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 'Résumé : Découvrez le rapport d’enregistrement de l’utilisateur Skype Entreprise Server.'
-ms.openlocfilehash: e137fae97f9b39f45dd619d2ed90a4180897c713
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 52927330e00ae1400aceb7db0e935ce1cb5ecff0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778324"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834192"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>Rapport d’enregistrement de l’utilisateur Skype Entreprise Server
  
@@ -62,7 +62,7 @@ Si la commande précédente renvoie une valeur de 1 236 et que la mesure Utilisa
 > [!CAUTION]
 > Gardez à l’esprit que les mesures d’ouverture de session enregistrent les utilisateurs qui ont ouvert une session pendant la période spécifiée. Elles ne gardent pas trace des utilisateurs qui avaient déjà ouvert une session sur le système. Par exemple, si votre mesure Utilisateurs uniques par ouverture de session indique 667 ouvertures de session et que vous avez 1 236 utilisateurs, cela suggère qu’environ la moitié de vos utilisateurs ouvrent une session sur le système. Cependant, supposons que 300 utilisateurs avaient déjà ouvert une session sur le système au moment où vous avez commencé à regarder les données d’ouverture de session. Cela signifie que près de 1 000 utilisateurs se sont connectés à Skype Entreprise Server, ce qui signifie que près de 80 % de vos utilisateurs ont ouvert une session. 
   
-Vous devez également comparer la valeur Utilisateurs uniques par ouverture de session avec la valeur de la mesure Utilisateurs actifs uniques. La mesure Utilisateurs actifs uniques vous indique le nombre d’utilisateurs uniques qui ont réellement utilisé des Skype Entreprise Server : ils ont effectué un appel téléphonique, rejoint une réunion Skype Entreprise Server ou ont participé à une session de messagerie instantanée. Il s’agit d’informations utiles, Skype Entreprise Server peuvent être configurées pour démarrer automatiquement chaque fois qu’un utilisateur démarre Windows. Pour cette raison, vous pouvez avoir un grand nombre d’utilisateurs qui se connectent automatiquement à Skype Entreprise lorsqu’ils se connectent à Windows chaque jour, mais n’utilisent jamais réellement Skype Entreprise Server pendant cette période.
+Vous devez également comparer la valeur Utilisateurs uniques par ouverture de session avec la valeur de la mesure Utilisateurs actifs uniques. La mesure Utilisateurs actifs uniques vous indique le nombre d’utilisateurs uniques qui ont réellement utilisé des Skype Entreprise Server : ils ont effectué un appel téléphonique, rejoint une réunion Skype Entreprise Server ou ont participé à une session de messagerie instantanée. Il s’agit d’informations utiles, Skype Entreprise Server peuvent être configurées pour démarrer automatiquement chaque fois qu’un utilisateur démarre Windows. Pour cette raison, vous pouvez avoir un grand nombre d’utilisateurs qui se connectent automatiquement à Skype Entreprise lorsqu’ils se connectent à Windows chaque jour, mais qui n’utilisent jamais réellement Skype Entreprise Server pendant cette période.
   
 La mesure Utilisateurs actifs uniques fournit également des données plus significatives dans une organisation où les utilisateurs ne se déconnectent généralement Windows à la fin de la journée. Au lieu de cela, ils verrouillent simplement leurs ordinateurs et laissent Windows et Skype Entreprise en cours d’exécution. Dans ce cas, vous pouvez vous retrouver avec un nombre d’ouvertures de session par jour très restreint, car vos utilisateurs ont ouvert leur session plusieurs jours auparavant et ne l’ont jamais fermée. Toutefois, les utilisateurs actifs uniques vous indiquent si les utilisateurs utilisent activement Skype Entreprise ou un autre Skype Entreprise Server client.
   

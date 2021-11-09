@@ -2,7 +2,7 @@
 title: Menaces de sécurité courantes dans l’informatique moderne
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/22/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Comme Skype Entreprise Server est un système de communication de classe entreprise, vous devez être conscient des attaques de sécurité courantes qui peuvent affecter son infrastructure et ses communications.
-ms.openlocfilehash: dcc889ea43c06c2f8166d588b8d7e5eb7075b52c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8f546ff95bec714f9ddd922b4b786d4a6bd5549c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741920"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851808"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Menaces de sécurité courantes dans l’informatique moderne
  
@@ -49,7 +49,7 @@ Une attaque par déni de service se produit lorsqu’une personne malveillante e
     
 - empêcher les utilisateurs d’accéder aux ressources réseau.
     
-## <a name="eavesdropping-sniffing-snooping"></a>Écoute (renifleur, snooping)
+## <a name="eavesdropping-sniffing-snooping"></a>Écoute clandestine (renifleur, snooping)
 
 Une attaque par écoute peut se produire lorsqu’une personne malveillante parvient à accéder au chemin d’accès des données d’un réseau et qu’elle peut ainsi surveiller et lire le trafic. Cette attaque est également appelée reniflage (« sniffing ») ou surveillance (« snooping »). Si le trafic consiste en du texte simple, l’intrus peut lire le trafic lorsqu’il accède au chemin d’accès des données. Par exemple, une attaque peut être lancée en contrôlant un routeur sur le chemin de données. 
   
@@ -89,7 +89,7 @@ Un virus est une unité de code dont le seul rôle consiste à reproduire d’au
   
 ## <a name="personally-identifiable-information"></a>Informations d’identification personnelle
 
-Skype Entreprise Server peut divulguer des informations sur un réseau public qui peuvent être liées à un individu. Les types d’informations peuvent être décomposés en deux catégories spécifiques :
+Skype Entreprise Server risque de divulguer des informations sur un réseau public qui peuvent être liées à un individu. Les types d’informations peuvent être décomposés en deux catégories spécifiques :
   
 - **Données de présence améliorées** Les données de présence améliorées sont des informations qu’un utilisateur peut choisir de partager ou non sur un lien vers un partenaire fédéré ou avec des contacts au sein d’une organisation. Ces données ne sont pas partagées avec les utilisateurs sur un réseau de messagerie instantanée public. Les stratégies de client et d’autres configurations client peuvent placer un certain contrôle auprès de l’administrateur système. Dans Skype Entreprise Server, le mode de confidentialité améliorée de la présence peut être configuré pour un utilisateur individuel afin d’empêcher les utilisateurs Skype Entreprise qui ne sont pas sur la liste contacts de l’utilisateur de voir les informations de présence de l’utilisateur. Le mode de confidentialité améliorée de la présence n’empêche pas les utilisateurs de Microsoft Office Communicator 2007 et Microsoft Office Communicator 2007 R2 de voir les informations de présence d’un utilisateur. Pour plus d’informations sur le déploiement du client et de la présence, voir [Deploy clients for Skype Entreprise Server](../../deploy/deploy-clients/deploy-clients.md) and Plan for instant [messaging and presence in Skype Entreprise Server](../../plan-your-deployment/instant-messaging-and-presence.md).
     
@@ -101,7 +101,7 @@ Les tableaux suivants indiquent les données exposées sur un réseau public.
 
 |**Données divulguées**|**Possibilités Paramètres**|
 |:-----|:-----|
-|Données personnelles  <br/> |Nom, Titre, Société, Adresse de messagerie, Fuseau horaire  <br/> |
+|Données personnelles  <br/> |Nom, Titre, Société, Adresse e-mail, fuseau horaire  <br/> |
 |Numéros de téléphone  <br/> |Travail, Mobile, Domicile  <br/> |
 |Informations de calendrier  <br/> |Informations de libre-service, d’informations sur l’out-of-town, de réunion (pour les personnes ayant accès à votre calendrier)  <br/> |
 |Statut de présence  <br/> |Absent,Disponible, Occupé, Ne pas déranger, Hors connexion  <br/> |

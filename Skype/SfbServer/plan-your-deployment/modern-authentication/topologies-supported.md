@@ -2,7 +2,7 @@
 title: Topologies Skype Entreprise prises en charge avec l’authentification moderne
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: Cet article répertorie les topologies en ligne et sur site qui sont pris en charge avec l’authentification moderne dans Skype Entreprise, ainsi que les fonctionnalités de sécurité qui s’appliquent à chaque topologie.
-ms.openlocfilehash: 1d2dd2c691962f0703866a4ece0812467c1f236e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ed6710e0f25e946e8cb9e7034300bd450dd07baa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777964"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835072"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Topologies Skype Entreprise prises en charge avec l’authentification moderne
 
@@ -55,7 +55,7 @@ Il ressemble donc un peu à ceci, avec EXO et SFBO dans le cloud avec Azure AD, 
 
 ![Exemple de toutes les applications (Exchange et Skype Entreprise) et charges de travail (EXO et SFBO), ainsi que des deux serveurs d’autorisation (ADFS et evoSTS) qui peuvent être impliqués lors de l’utilisation de MA.](../../media/18a3b451-1e64-40fc-b47f-7ce9587814bb.PNG)
 
-Voici les topologies pris en charge. Veuillez noter la clé pour les graphiques :
+Voici les topologies pris en charge. Notez la clé des graphiques :
 
 - Si l’icône est estommée ou grisée, elle n’est pas utilisée dans le scénario.
 

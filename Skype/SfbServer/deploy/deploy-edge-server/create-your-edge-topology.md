@@ -2,7 +2,7 @@
 title: Créer votre topologie Edge pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Résumé : Découvrez comment créer, publier et exporter votre topologie de serveur Edge dans Skype Entreprise Server.'
-ms.openlocfilehash: ff7c2e69c3ee18da5c798fbdf96719bd14146d45
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b016475f32e38b1353f7ef14f91e203843cd748b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775804"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844857"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Créer votre topologie Edge pour Skype Entreprise Server
  
@@ -197,7 +197,7 @@ Si vous n’êtes pas sûr de ce dont vous avez besoin, avant de commencer à su
     
 5. Vous allez cliquer sur **Suivant** dans l’écran **Définir un nouveau pool edge.**
     
-6. Dans l’écran Définir le nom de domaine complet du **pool** de périphérie, tapez le nom de domaine complet interne  que le pool de périphérie va utiliser, puis sélectionnez Pool de plusieurs ordinateurs, en cliquant sur Suivant une fois terminé.
+6. Dans l’écran Définir le nom de domaine complet du pool de périphérie, tapez le nom de domaine complet (FQDN) interne que le pool edge va utiliser, puis sélectionnez Pool de plusieurs ordinateurs, en cliquant sur Suivant une fois terminé.   
     
 7. Dans **l’écran Sélectionner des** fonctionnalités, vous avez le choix entre :
     
@@ -218,7 +218,7 @@ Si vous n’êtes pas sûr de ce dont vous avez besoin, avant de commencer à su
      Ces éléments sont assez explicites, que vous utilisiez des adresses IPv4 ou IPv6 et que vous appliquiez ces adresses sur votre serveur Edge en interne ou en externe (vous devez garder cela à l’esprit pour l’étape 11).
     
      > [!NOTE]
-     > Contrairement aux deux autres options de topologie, lorsque  vous utilisez un équilibreur de charge matérielle, vous ne devez PAS sélectionner l’option L’adresse IP externe du **pool de** périphérie est traduite par NAT . Cela **n’est pas pris en charge.**
+     > Contrairement aux deux autres options de topologie, lorsque  vous utilisez un équilibreur de charge matérielle, vous NE DEVEZ PAS sélectionner l’option L’adresse IP externe du **pool edge** est traduite par NAT . Cela **n’est pas pris en charge.**
   
 9. Dans l’écran Des FQDN externes, vos choix dépendent de la sélection que vous avez faite à l’étape 7 ci-dessus.
     
@@ -274,7 +274,7 @@ Une fois que vous avez terminé les étapes ci-dessus, il est temps de publier c
     
 ## <a name="export-your-edge-server-topology"></a>Exporter votre topologie de serveur Edge
 
-Pour un déploiement réussi, l’Assistant Skype Entreprise Server déploiement a besoin d’accéder aux données du magasin central de gestion. Pour les serveurs internes de votre domaine ou forêt, cette procédure est généralement simple. Les serveurs Edge sont en dehors du domaine et il est donc nécessaire d’exporter manuellement le fichier de topologie vers l’emplacement du serveur Edge, généralement sur un support physique. Cette exportation est effectuée via PowerShell :
+Pour un déploiement réussi, l’Assistant Skype Entreprise Server déploiement doit accéder aux données du magasin central de gestion. Pour les serveurs internes de votre domaine ou forêt, cette procédure est généralement simple. Les serveurs Edge sont en dehors du domaine et il est donc nécessaire d’exporter manuellement le fichier de topologie vers l’emplacement du serveur Edge, généralement sur un support physique. Cette exportation est effectuée via PowerShell :
   
 1. Démarrez le **Skype Entreprise Server Management Shell.**
     

@@ -2,7 +2,7 @@
 title: Service utilisateur pour le CQD
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: 'Résumé : Découvrez le service utilisateur, qui fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: ac709949e9d69dbf92f9c0c185406c7d3d8d5462
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e8be18304cad02e1ed39cf84327a58f84d134c6d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766382"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851007"
 ---
 # <a name="user-service-for-cqd"></a>Service utilisateur pour le CQD
  
@@ -30,7 +30,7 @@ Le service utilisateur fait partie de l’API référentiel pour le tableau de b
 
 L’API de référentiel fournit un modèle de gestion des utilisateurs simplifié dans lequel la mise en service des utilisateurs (création de comptes d’utilisateurs) est automatique et implicite. Lorsqu’un utilisateur fait une demande par rapport à l’API du référentiel pour la première fois, le référentiel crée un nouvel enregistrement d’utilisateur. 
   
-Le Tableau de bord de qualité des appels crée également automatiquement des éléments dédiés par l’utilisateur pour le nouvel utilisateur. Les nouveaux éléments dédiés aux utilisateurs sont des clones complets des éléments de l’utilisateur système. Ainsi, les utilisateurs commencent par leurs propres copies des rapports et des requêtes qu’ils peuvent immédiatement personnaliser. 
+Le Tableau de bord de qualité des appels crée également automatiquement des éléments dédiés par l’utilisateur pour le nouvel utilisateur. Les nouveaux éléments dédiés aux utilisateurs sont des clones complets des éléments de l’utilisateur système. Ainsi, les utilisateurs commencent par leurs propres copies de rapports et de requêtes qu’ils peuvent immédiatement personnaliser. 
   
 > [!NOTE]
 > À l’aide du Tableau de bord de qualité des appels, les utilisateurs peuvent réinitialiser leurs éléments dédiés à tout moment. 

@@ -2,7 +2,7 @@
 title: Expanseur des paramètres généraux du serveur frontal
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour modifier les paramètres d’un pool frontal existant ou d’un serveur Survivable Branch Server, consultez les sections suivantes :'
-ms.openlocfilehash: 655ee2e4bd49e63aaeade7b0c0bfab5f244adae9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fa055befc34d0c67f85cfba2125b2189746af9df
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748520"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834412"
 ---
 # <a name="front-end-general-settings-expander"></a>Expandeur des paramètres généraux du serveur frontal
 
@@ -103,7 +103,7 @@ Pour modifier ou spécifier un paramètre supplémentaire pour les services Web 
 Dans **Services Web internes**, spécifiez les éléments suivants :
 
 > [!CAUTION]
-> Si vous avez plusieurs serveurs frontaux ou serveurs frontaux, le FQDN des services Web externes doit être unique. Par exemple, si vous définissez le nom de groupe des services Web externes d’un serveur frontal en tant que **pool01.contoso.com,** vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le FQDN des services Web externes défini pour n’importe quel directeur ou pool directeur doit être unique à partir de n’importe quel autre directeur ou pool directeur, ainsi que de tout pool frontal ou serveur frontal. Si vous décidez de remplacer les services web internes par un FQDN auto-défini, chaque FQDN doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur.
+> Si vous avez plusieurs serveurs frontaux ou serveurs frontaux, le nom de groupe des services Web externes doit être unique. Par exemple, si vous définissez le nom de groupe des services Web externes d’un serveur frontal en tant que **pool01.contoso.com,** vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le FQDN des services Web externes défini pour n’importe quel directeur ou pool directeur doit être unique à partir de n’importe quel autre directeur ou pool directeur, ainsi que de tout pool frontal ou serveur frontal. Si vous décidez de remplacer les services web internes par un FQDN auto-défini, chaque FQDN doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur.
 
 - Si vous sélectionnez **Remplacer le nom de domaine complet**, vous pouvez indiquer un nom de domaine complet différent pour l’identité des **Services web internes** sur le pool. Par défaut, le paramètre est le nom du pool actuel tel que défini pour le pool frontal.
 

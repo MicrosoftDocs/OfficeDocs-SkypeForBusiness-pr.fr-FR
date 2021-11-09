@@ -2,7 +2,7 @@
 title: 'Skype Entreprise Server : créer une collection de paramètres de configuration de la trunk'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: Les paramètres de configuration de la liaison de session SIP définissent la relation entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un PBX IP ou un contrôleur SBC (Session Border Controller) chez le fournisseur de services.
-ms.openlocfilehash: 863123c21db831146a03de946992a1eb7ed06840
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Les paramètres de configuration de la configuration de la liaison de session SIP définissent la relation entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un PBX IP ou un contrôleur SBC (Session Border Controller) chez le fournisseur de services.
+ms.openlocfilehash: 501785bacd13053eb3479605220d60e1a2f4d852
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763552"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843847"
 ---
 # <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype Entreprise Server : créer une collection de paramètres de configuration de la trunk
 
@@ -27,7 +27,7 @@ Les paramètres de configuration de jonction SIP définissent la relation et les
 
 Lorsque vous installez Skype Entreprise Server, une collection globale de paramètres de configuration de la trunk SIP est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement).
 
-Lorsque vous créez des paramètres de configuration de trunk SIP à l’aide du Panneau de configurationSkype for Business Server, les options suivantes sont disponibles :
+Lorsque vous créez des paramètres de configuration de la trunk SIP à l’aide du Panneau de configurationSkype for Business Server, les options suivantes sont disponibles :
 
 |Paramètre de l’interface utilisateur | Paramètre PowerShell | Description |
 |--|--|--|
@@ -43,12 +43,12 @@ Lorsque vous créez des paramètres de configuration de trunk SIP à l’aide du
 |Activer les données de transfert P-Asserted-Identity|ForwardPAI|Indique si l’en-tête P-Asserted-Identity (PAI) sera transféré avec l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant.|
 |Activer le minuteur de basculement de routage de trafic sortant|EnableFastFailoverTimer|Indique si les appels sortants auxquels la passerelle ne répond pas dans les 10 secondes seront acheminés vers la jonction suivante disponible ; s’il n’existe aucune jonction supplémentaire, l’appel est automatiquement abandonné. Dans une organisation avec des réponses de passerelle ou réseau lentes, cela peut entraîner l’abandon de nombreux appels.|
 |Utilisations PSTN associées|PSTNUsages|Collection d’utilisations PSTN assignées à la jonction.|
-|Numéro traduit à tester|N/A|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.|
+|Numéro traduit à tester|S/O|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.|
 |Règles de traduction associées|OutboundTranslationRulesList|Collection de règles de traduction de numéros de téléphone qui s’appliquent aux appels gérés par le routage sortant (appels acheminés vers les destinations PBX ou PSTN).|
 |Règles de traduction du numéro appelé|OutboundCallingNumberTranslationRulesList|Collection de règles de traduction de numéro d’appel sortant assignées à la jonction.|
-|Numéro de téléphone à tester|N/A|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de traduction.|
-|Numéro appelant|N/A|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de traduction.|
-|Numéro appelé|N/A|Indique que le numéro de téléphone à tester est celui de la personne appelée.|
+|Numéro de téléphone à tester|S/O|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de traduction.|
+|Numéro appelant|S/O|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de traduction.|
+|Numéro appelé|S/O|Indique que le numéro de téléphone à tester est celui de la personne appelée.|
 ||||
 
 > [!Note]
@@ -58,7 +58,7 @@ Lorsque vous créez des paramètres de configuration de trunk SIP à l’aide du
 
 1. Dans le Skype Entreprise Server de configuration, cliquez sur **Routage** des voix, puis sur **Configuration de la trunk .**
 2. Sous l’onglet **Configuration de la jonction**, cliquez sur **Nouveau**, puis cliquez sur **Jonction de site** pour créer les paramètres au niveau de l’étendue Site, ou cliquez sur **Jonction de pool** pour créer les paramètres au niveau de l’étendue Service.
-3. Dans la boîte de dialogue Sélectionner un **site** ou Sélectionner un **service** (la boîte de dialogue qui s’affiche varie selon que vous créez des paramètres d’étendue site ou de service), sélectionnez l’emplacement des nouveaux paramètres de configuration, puis cliquez sur **OK.** Si la boîte de dialogue est vide, cela signifie qu’il n’y a aucun endroit pour créer les nouveaux paramètres ; Par exemple,  si la boîte de dialogue Sélectionner un site est vide, cela signifie que tous vos sites ont déjà été affectés à une collection de sites de configuration de trunk, et que chaque site (et chaque service) ne peut héberger qu’une seule collection de ce type. Dans ce cas, vous pouvez supprimer la collection existante et créer une nouvelle collection, ou simplement modifier la collection existante.
+3. Dans la boîte de dialogue Sélectionner un **site** ou Un **service** (la boîte de dialogue qui s’affiche varie selon que vous créez des paramètres d’étendue site ou de service), sélectionnez l’emplacement des nouveaux paramètres de configuration, puis cliquez sur **OK.** Si la boîte de dialogue est vide, cela signifie qu’il n’y a aucun endroit pour créer les nouveaux paramètres ; Par exemple,  si la boîte de dialogue Sélectionner un site est vide, cela signifie que tous vos sites ont déjà été affectés à une collection de sites de configuration de trunk, et que chaque site (et chaque service) ne peut héberger qu’une seule collection de ce type. Dans ce cas, vous pouvez supprimer la collection existante et créer une nouvelle collection, ou simplement modifier la collection existante.
 4. Dans la boîte de dialogue **Nouvelle configuration de jonction**, effectuez les sélections appropriées, puis cliquez sur **OK**.
 5. La propriété **État** de la collection aura la valeur **Non validé**. Pour valider les modifications et pour supprimer la collection, cliquez sur **Valider**, puis sur **Valider tout**.
 6. Dans la boîte de dialogue **Paramètres de configuration de la voix non validés**, cliquez sur **OK**.

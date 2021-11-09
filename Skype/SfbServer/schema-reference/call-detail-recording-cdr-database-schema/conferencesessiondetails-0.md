@@ -2,7 +2,7 @@
 title: Table ConferenceSessionDetails dans Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 description: Chaque enregistrement représente une session de conférence. Il peut s’agir de la session avec le service Focus ou de celle avec un serveur de conférence spécifique.
-ms.openlocfilehash: 087dd056dae0041ab63934b25038672a74410343
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fc69150cf95ca0f00a4c1731aeda44f1e674a6cd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759446"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843667"
 ---
 # <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>Table ConferenceSessionDetails dans Skype Entreprise Server 2015
  
@@ -35,8 +35,8 @@ Chaque enregistrement représente une session de conférence. Il peut s’agir d
 |**UserEndpointId** <br/> |uniqueidentifier  <br/> ||GUID permettant d’identifier l’instance de point de terminaison. Par exemple, si un utilisateur ouvre une session sur différents ordinateurs avec le même compte, chaque ordinateur aura un ID de point de terminaison différent.  <br/> |
 |**OnBehalfOfId** <br/> |int  <br/> |Étranger  <br/> |Indique l’ID de l’utilisateur pour le compte duquel l’appelant appelle. Pour plus [d’informations, voir](users.md) la table Utilisateurs. <br/> |
 |**ReferredById** <br/> |int  <br/> |Étranger  <br/> |ID de l’utilisateur faisant référence à l’appel. Pour plus [d’informations, voir](users.md) la table Utilisateurs. <br/> |
-|**UserClientVersionId** <br/> |int  <br/> |Étranger  <br/> |Version de client utilisée par l’utilisateur de conférence. Pour plus [d’informations, voir la table ClientVersions Skype Entreprise Server 2015.](clientversions.md) <br/> |
-|**ConfClientVersionId** <br/> |int  <br/> |Étranger  <br/> |Version de client utilisée par le serveur de conférence. Pour plus [d’informations, voir la table ClientVersions Skype Entreprise Server 2015.](clientversions.md) <br/> |
+|**UserClientVersionId** <br/> |int  <br/> |Étranger  <br/> |Version de client utilisée par l’utilisateur de conférence. Pour plus [d’informations, voir le tableau ClientVersions Skype Entreprise Server 2015.](clientversions.md) <br/> |
+|**ConfClientVersionId** <br/> |int  <br/> |Étranger  <br/> |Version de client utilisée par le serveur de conférence. Pour plus [d’informations, voir le tableau ClientVersions Skype Entreprise Server 2015.](clientversions.md) <br/> |
 |**ReplaceDialogIdTime** <br/> |DateHeure  <br/> |Étranger  <br/> |Numéro d’ID permettant d’identifier le dialogue remplacé par la session actuelle. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
 |**ReplaceDialogIdSeq** <br/> |int  <br/> |Étranger  <br/> |Numéro d’ID pour identifier la session. Utilisé conjointement avec **ReplacesDialogIdTime** pour identifier de manière unique une session remplacée par cette session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
 |**IsStartedByConfServer** <br/> |bit  <br/> ||Indique si la session est démarrée par le serveur de conférence ?  <br/> |

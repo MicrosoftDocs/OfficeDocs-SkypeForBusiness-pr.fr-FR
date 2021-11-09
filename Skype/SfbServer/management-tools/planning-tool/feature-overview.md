@@ -2,7 +2,7 @@
 title: Outil de planification de vue d’ensemble des fonctionnalités
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Déscripbe l’Skype Entreprise Server de planification 2015.
-ms.openlocfilehash: 87250dba5df1b7f338f4cb9159a7583f1fd5f4fa
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7351ef19480f4153ee98db58ab2ba70b34e3df06
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756935"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850937"
 ---
 # <a name="feature-overview-planning-tool"></a>Outil de planification de vue d’ensemble des fonctionnalités
  
@@ -56,7 +56,7 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
     
 - **Conférence rendez-vous**
     
-    La conférence rendez-vous permet aux utilisateurs de joindre un audioconférence à partir d’un téléphone sur le réseau téléphonique téléphonique téléphonique (PSTN). La conférence dial-in nécessite que vous déployiez les applications Assistant de conférence et Annonce de conférence Service.
+    La conférence rendez-vous permet aux utilisateurs de joindre un service A/V à partir d’un téléphone sur le réseau téléphonique téléphonique PSTN. La conférence dial-in nécessite que vous déployiez les applications Assistant de conférence et Annonce de conférence Service.
     
 - **Conférence web**
     

@@ -2,7 +2,7 @@
 title: Planification de la désactiver des méthodes d’authentification héritées en interne et en externe sur votre réseau
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Cet article décrit les cmdlets qui donnent aux administrateurs davantage de contrôle sur les méthodes d’authentification utilisées à l’intérieur et à l’extérieur d’une entreprise. Les administrateurs peuvent activer ou désactiver les méthodes d’authentification en interne ou en externe sur leur réseau.
-ms.openlocfilehash: 65ec31dcd4a320b42da746eece41009f70e886af
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 845af6891d7da419ffd6fc5a4f663cfc2b61a01a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777954"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835062"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planification de la désactiver des méthodes d’authentification héritées en interne et en externe sur votre réseau.
 
@@ -68,9 +68,9 @@ __Type 4 Description :__ Cette topologie bloque NTLM *en externe et* ma en inter
 
 __Type 5 Description :__ *en externe,* vos clients ADAL modernes utiliseront MA et tous les clients qui ne la prisent pas en charge utiliseront les méthodes d’authentification héritées. Toutefois, *en interne,* *tous les clients* utiliseront l’authentification héritée (y compris tous les clients ADAL).
 
-Il est assez facile de perdre le suivi de l’objectif de protection de vos mots de passe dans les options disponibles. Gardez à l’esprit que la situation idéale est d’utiliser ma en externe (par exemple, en configurant l’th basée sur les certificats), pour éviter les attaques DOS. Si vous l’exploitez en interne pour vos clients modernes, vous prouverez également à l’avenir que votre réseau Skype Entreprise Server attaques DOS.
+Il est assez facile de perdre le suivi de l’objectif de protection de vos mots de passe dans les options disponibles. Gardez à l’esprit que la situation idéale est d’utiliser ma en externe (par exemple, en configurant l’th basée sur les certificats), pour éviter les attaques DOS. Si vous l’exploitez en interne pour vos clients modernes, vous prouverez également à l’avenir votre réseau concernant Skype Entreprise Server attaques DOS.
 
-## <a name="why-to-use-set-csauthconfig-at-the-global-level"></a>Pourquoi utiliser les Set-CsAuthConfig au niveau global ?
+## <a name="why-to-use-set-csauthconfig-at-the-global-level"></a>Pourquoi utiliser Set-CsAuthConfig au niveau global ?
 
 `Set-CsAuthConfig`L’cmdlet a une incidence sur la configuration des rôles Serveur d’inscriptions et Services Web.
 
@@ -79,12 +79,12 @@ Cette cmdlet est destinée à être exécuté au niveau global de votre Skype En
 Si un client utilise les paramètres du serveur d’inscriptions d’un pool et les paramètres des services web d’un autre pool et que les paramètres d’authentification sont dans un état incohérent, les clients yous risquent de ne pas pouvoir se connecter.
 
 En outre, s’il n’existe qu’un seul rôle pour un pool : 
-* Set- ne définira que les paramètres correspondant au rôle qui existe. Aucun avertissement spécial ne sera donné, car certains paramètres n’ont *pas été définies.* 
+* Set- ne définira que les paramètres correspondant au rôle qui existe. Aucun avertissement spécial n’est donné, car certains paramètres n’ont *pas été définies.* 
 * Get- retourne le paramètre qui correspond au rôle qui existe, ainsi que les paramètres globaux du rôle qui n’existe pas.
 * Si aucun rôle n’est présent pour un pool, Set- et Get- retournent un message d’erreur.
 * Si les deux rôles sont présents pour un pool mais que les stratégies ne sont pas définies au niveau du pool, Get- retourne un message d’erreur.
 
-Il peut être plus judicieux d’effectuer une get- pour ces valeurs et d’effectuer une capture d’écran ou d’enregistrer leur état de départ avant d’apporter des modifications. Vous pouvez également envisager de conserver un journal des modifications dans un OneNote.
+Il peut être plus judicieux d’effectuer une get- pour ces valeurs et d’effectuer une capture d’écran ou d’enregistrer leur état de départ avant d’apporter des modifications. Vous pouvez également envisager de conserver un journal des modifications dans une OneNote.
 
 > [!NOTE]
 > 
@@ -98,7 +98,7 @@ Il peut être plus judicieux d’effectuer une get- pour ces valeurs et d’effe
 > Si vous utilisez le paramètre BlockWindowsAuthExternally pour bloquer NTLM en externe, sachez que cela bloque également NTLM en interne pour le canal SIP. Toutefois, les clients Skype Entreprise et Lync plus nouveaux que 2010 pourront toujours se connecter, car ils utiliseront NTLM sur HTTP pour se connecter, en interne, puis extraire un certificat pour se connecter sur SIP. Toutefois, les clients plus anciens que 2010 ne pourront pas se connecter en interne dans ce cas, et vous pouvez envisager de mettre à niveau ces applications afin que vos utilisateurs puissent reprendre les fonctionnalités sécurisées.
 
 > [!IMPORTANT] 
-> Certaines applications web Skype Entreprise ne sont pas en charge par ma. Ainsi, en utilisant le scénario BlockWindowsAuthExternallyAndInternally, vous ne pourrez pas accéder à ces applications. Les applications sans prise en charge de l’Skype Entreprise web sont les suivantes : Web Scheduler, Dial-In Page, Skype Entreprise Control Panel (CSCP) et Response Group Paramètres Page. 
+> Certaines applications web Skype Entreprise ne la prise en charge de MA. Ainsi, en utilisant le scénario BlockWindowsAuthExternallyAndInternally, vous ne pourrez pas accéder à ces applications. Les applications sans prise en charge de l’Skype Entreprise web sont les suivantes : Web Scheduler, Dial-In Page, Skype Entreprise Control Panel (CSCP) et Response Group Paramètres Page. 
 
 ## <a name="links"></a>Liens 
 - Pour plus d’informations sur PowerShell :

@@ -2,7 +2,7 @@
 title: Configurer les ordinateurs Skype Entreprise Server qui seront surveillés
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
-description: 'Résumé : Installez les fichiers de l’agent Operations Manager sur l’ordinateur Skype Entreprise Server 2019 à surveiller et configurez l’ordinateur pour qu’il agisse en tant que proxy System Center web.'
-ms.openlocfilehash: c0ceac289fa9185c38b68a3824faa29a3db7433d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Résumé : Installez les fichiers de l’agent Operations Manager sur l’ordinateur Skype Entreprise Server 2019 à surveiller et configurez l’ordinateur pour qu’il agisse en tant que proxy System Center serveur proxy.'
+ms.openlocfilehash: 975c9eaa7d70720fefa52b8adc84b4f17200f972
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777114"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859641"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>Configurer les ordinateurs Skype Entreprise Server à surveiller
 
 **Résumé :** Installez les fichiers de l’agent Operations Manager sur l’ordinateur Skype Entreprise Server 2019 à surveiller et configurez l’ordinateur pour qu’il agisse en tant que proxy System Center serveur.
 
-Chaque Skype Entreprise Server 2019 que vous souhaitez surveiller doit être en mesure de signaler lui-même son existence au serveur de gestion. Pour activer ce processus, vous devez installer les fichiers de l’agent Operations Manager sur chacun des ordinateurs à surveiller. Après avoir installé les fichiers de l’agent, vous devez configurer l’ordinateur pour qu’il agisse en tant que proxy System Center’agent. Assurez-vous que vous avez d’abord installé et configuré Skype Entreprise Server sur ces ordinateurs avant d’effectuer ces procédures.
+Chaque Skype Entreprise Server 2019 que vous souhaitez surveiller doit être en mesure de signaler lui-même son existence au serveur de gestion. Pour activer ce processus, vous devez installer les fichiers de l’agent Operations Manager sur chacun des ordinateurs à surveiller. Après avoir installé les fichiers de l’agent, vous devez configurer l’ordinateur pour qu’il agisse en tant que proxy System Center serveur proxy. Assurez-vous que vous avez d’abord installé et configuré Skype Entreprise Server sur ces ordinateurs avant d’effectuer ces procédures.
 
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>Installation d’un certificat sur un nœud d’observation situé en dehors du réseau de périmètre
 <a name="watcher_node_outside"> </a>
@@ -45,7 +45,7 @@ Si vous déployez un agent dans l’un de ces emplacements, vous devrez égaleme
 
 5. Dans la page Configuration du groupe de gestion, **sélectionnez Spécifier les informations du groupe de gestion,** puis cliquez sur **Suivant.**
 
-6. Dans la page Configuration du groupe de gestion, tapez le nom de votre groupe de gestion Operations Manager dans la zone Nom du groupe de gestion, puis tapez le nom d’hôte de votre serveur Operations Manager (par exemple, atl-scom-001) dans la zone **Serveur** d’administration.  Si vous avez modifié le numéro de port utilisé par Operations Manager, entrez le nouveau numéro de port dans la zone Port du serveur **d’administration.** Dans le cas contraire, laissez le port sur la valeur par défaut de 5723, puis cliquez sur **Suivant**.
+6. Dans la page Configuration du groupe de gestion, tapez le nom de votre groupe de gestion Operations Manager dans la zone Nom du groupe de gestion, puis tapez le nom d’hôte de votre serveur Operations Manager (par exemple, atl-scom-001) dans la zone **Serveur** de gestion.  Si vous avez modifié le numéro de port utilisé par Operations Manager, entrez le nouveau numéro de port dans la zone Port du serveur **d’administration.** Dans le cas contraire, laissez le port sur la valeur par défaut de 5723, puis cliquez sur **Suivant**.
 
 7. Dans la page Compte d’action de l’agent, sélectionnez **Système local** et cliquez sur **Suivant**.
 

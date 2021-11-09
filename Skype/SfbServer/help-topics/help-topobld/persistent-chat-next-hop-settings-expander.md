@@ -2,7 +2,7 @@
 title: Expanseur des paramètres du tronçon suivant de la conversation permanente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 description: Vous configurez le pool du saut suivant de conversation permanente en sélectionnant un serveur frontal ou un pool frontal dans la liste.
-ms.openlocfilehash: b7a67c893b7f87798ef87f9d70c93f7c21458774
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 886261e815fc4b8f9a9befbe530823803e4436d5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768072"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834232"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>Expandeur des paramètres du tronçon suivant de la conversation permanente
  

@@ -2,7 +2,7 @@
 title: Table UriTypes
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
 description: La table UriTypes contient les différents types d’URI (Uniform resource identifier) surveillés Skype Entreprise Server 2015.
-ms.openlocfilehash: ee7a2d79458640eff2695ce253792e154d36dee4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ed0cc7e62aba47af6622f821af785d8daf571649
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767442"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859761"
 ---
 # <a name="uritypes-table"></a>Table UriTypes
  
 La table UriTypes contient les différents types d’URI (Uniform resource identifier) surveillés Skype Entreprise Server 2015.
 
-Lors de la création de la base de données d’enregistrement des appels, deux enregistrements représentant PhoneUri et UserUri sont créés, et les enregistrements créés par la suite sont affectés dynamiquement à UriTypeId. 
+Lorsque la base de données d’enregistrement des appels est créée, deux enregistrements représentant PhoneUri et UserUri sont créés, et les enregistrements créés ensuite sont affectés dynamiquement à UriTypeId. 
   
 |**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|

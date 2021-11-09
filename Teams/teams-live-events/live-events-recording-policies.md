@@ -1,6 +1,6 @@
 ---
 title: Stratégies d’enregistrement des événements en direct
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ description: En savoir plus sur les stratégies d’enregistrement d’événeme
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 01fe1b00a4c8367dfd9c1274e3591a03b3c09634
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9dbed75a7f9c9655cc52bb798eefb0038cc5fe4a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769802"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844927"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Stratégies d’enregistrement d’événements en direct Microsoft Teams
 
@@ -42,11 +42,11 @@ Deux options d’organisateur sont disponibles lors de la planification de l’e
 
   - DVR : un enregistreur vidéo numérique (DVR) permet aux participants de rembobiner et de suspendre pendant l’événement
 
-  - VOD : une vidéo à la demande permet aux participants de regarder l’événement une fois l’événement terminé
+  - VOD : une vidéo à la demande permet aux participants de les regarder une fois l’événement terminé
 
 ## <a name="broadcast-recording-policy-setting"></a>Paramètre de stratégie d’enregistrement de diffusion
 
-Dans le cadre de la stratégie de diffusion, vous pouvez activer ou désactiver l’enregistrement pour un événement en direct.
+Dans le cadre de la stratégie de diffusion, vous pouvez activer ou désactiver l’enregistrement d’un événement en direct à partir d’un paramètre.
 
 | &nbsp;| Enregistrement disponible pour les producteurs et les présentateurs | Enregistrement disponible pour les participants |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
@@ -64,7 +64,7 @@ Dans le cadre de la stratégie de diffusion, vous pouvez activer ou désactiver 
 | Enregistrement disponible pour les producteurs et les présentateurs | Sélectionné     |                                                           |                                                             | Un mp4 est créé et stocké |
 |                                                  | Non sélectionné |                                                           |                                                             | Aucun fichier n’est créé           |
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Voir aussi
 
 - [Comprendre un événement en direct Teams](what-are-teams-live-events.md)
 - [Offre pour les événements en direct Teams](plan-for-teams-live-events.md)

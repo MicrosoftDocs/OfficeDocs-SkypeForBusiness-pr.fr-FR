@@ -2,7 +2,7 @@
 title: Instructions de déploiement pour le serveur de médiation dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: Cette rubrique décrit les instructions de planification pour le déploiement du serveur de médiation.
-ms.openlocfilehash: b65ff1335c32c17e61da97d90d290cf81b38ca33
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 99f975d3dddb8837569c8e8aa1128f7515b2d562
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773554"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844167"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Instructions de déploiement pour le serveur de médiation dans Skype Entreprise Server
  
@@ -26,7 +26,7 @@ Cette rubrique décrit les instructions de planification pour le déploiement du
   
 ## <a name="collocated-or-stand-alone-mediation-server"></a>Serveur de médiation c colloté ou autonome ?
 
-Le serveur de médiation est, par défaut, coqueté sur le serveur Édition Standard ou le serveur frontal dans un pool frontal sur les sites centraux. Le nombre d’appels PSTN (réseau téléphonique commuté) qui peuvent être gérés et le nombre d’ordinateurs requis dans le pool dépendent des facteurs ci-après :
+Par défaut, le serveur de médiation est coqueté sur le serveur Édition Standard serveur frontal dans un pool frontal sur les sites centraux. Le nombre d’appels PSTN (réseau téléphonique commuté) qui peuvent être gérés et le nombre d’ordinateurs requis dans le pool dépendent des facteurs ci-après :
   
 - Nombre d’homologues de passerelle que contrôle le pool de serveurs de médiation.
     
@@ -34,7 +34,7 @@ Le serveur de médiation est, par défaut, coqueté sur le serveur Édition Stan
     
 - Pourcentage d’appels dont le média contourne le serveur de médiation.
     
-Lors de la planification, prenez en compte les exigences de traitement multimédia pour les appels PSTN et les conférences A/V qui ne prennent pas en charge le contournement de média, ainsi que le traitement nécessaire pour gérer les interactions de signalisation pour le nombre d’appels aux heures de pointe qui doivent être pris en charge. Si vous n’avez pas assez de processeur, vous devez déployer un pool autonome de serveurs de médiation. En outre, les passerelles PSTN, les SYSTÈMES IP-PBX et les SCS doivent être divisés en sous-ensembles contrôlés par les serveurs de médiation cococérés dans un pool et les serveurs de médiation autonomes dans un ou plusieurs pools autonomes.
+Lors de la planification, n’oubliez pas de prendre en compte les exigences de traitement multimédia pour les appels PSTN et les conférences A/V qui ne prennent pas en charge le contournement de média, ainsi que le traitement nécessaire pour gérer les interactions de signalisation pour le nombre d’appels aux heures de pointe qui doivent être pris en charge. Si vous n’avez pas assez d’UC, vous devez déployer un pool autonome de serveurs de médiation. En outre, les passerelles PSTN, les SYSTÈMES IP-PBX et les SCS doivent être divisés en sous-ensembles contrôlés par les serveurs de médiation cococérés dans un pool et les serveurs de médiation autonomes dans un ou plusieurs pools autonomes.
   
 Si vous avez déployé des passerelles PSTN, des PBX IP ou des contrôleurs de frontière de session (SDC) qui n’ont pas la possibilité d’interagir avec un pool de serveurs de médiation, ils doivent être associés à un pool autonome constitué d’un serveur de médiation unique. Voici quelques-unes des choses que vos passerelles PSTN, IP-PBXs ou SCS doivent faire :
   
@@ -58,4 +58,4 @@ Pour les interactions avec un IP-PBX, si le PBX IP ne prend pas correctement en 
 Pour finir, si votre site central comporte un TDM PBX ou que votre IP-PBX ne supprime pas le besoin d’une passerelle PSTN, vous devez alors déployer une passerelle sur l’itinéraire d’appel qui se connecte au serveur de médiation et au PBX.
   
 > [!NOTE]
-> Pour améliorer les performances multimédias du serveur de médiation autonome, vous devez activer rss (receive-side scaling) sur les cartes réseau sur ces serveurs. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, voir « Améliorations de la mise à l’échelle côté réception[dans Windows Server](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))». Pour plus d’informations sur l’activer, consultez la documentation de votre carte réseau. 
+> Pour améliorer les performances multimédias du serveur de médiation autonome, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau sur ces serveurs. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, voir « Améliorations de la mise à l’échelle côté réception[dans Windows Server](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))». Pour plus d’informations sur l’activer, consultez la documentation de votre carte réseau. 

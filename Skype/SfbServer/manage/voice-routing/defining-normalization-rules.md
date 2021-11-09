@@ -2,7 +2,7 @@
 title: Définition de règles de normalisation dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype Entreprise Server de normalisation utilisent .NET Framework expressions régulières pour traduire les numéros de téléphone composés au format E.164 ; en d’autres termes, les règles de normalisation prennent le numéro de téléphone composé par un utilisateur et convertissent ce numéro au format utilisé en interne par Skype Entreprise Server. Une ou plusieurs règles de normalisation doivent être affectées à chaque plan de numérotation.
-ms.openlocfilehash: e2cf2deaefa18323dcd69e9f09703d6994f101c4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0319a27dd7a6f0d42fffb4e65fcf71fe152cec18
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778284"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859911"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Définition de règles de normalisation dans Skype Entreprise Server
 
@@ -47,7 +47,7 @@ Si vous souhaitez créer ou modifier une règle de normalisation dans le Panneau
     - **Chiffres à supprimer**: (Facultatif) Spécifiez le nombre de chiffres de début à supprimer des numéros composés que vous souhaitez que le modèle corresponde.
     - **Chiffres à ajouter**: (Facultatif) Spécifiez les chiffres à ajouter aux numéros composés que vous souhaitez que le modèle corresponde.
     
-    Les valeurs que vous entrez dans ces champs apparaissent dans **Modèle à suivre** et **Règle de traduction**. Par exemple, si vous  laissez les **chiffres**  de début vides, tapez **7** dans le champ Longueur sélectionnez Exactement **et** spécifiez **0** dans **Chiffres** à supprimer , l’expression régulière résultante dans le modèle à mettre en correspondance est :
+    Les valeurs que vous entrez dans ces champs apparaissent dans **Modèle à suivre** et **Règle de traduction**. Par exemple, si vous  laissez les **chiffres**  de début vides, tapez **7** dans le champ Longueur sélectionnez Exactement **et** spécifiez **0** dans **chiffres** à supprimer , l’expression régulière résultante dans le modèle à mettre en correspondance est :
 
     **^(\d {7} )$**
 
@@ -60,7 +60,7 @@ Si vous souhaitez créer ou modifier une règle de normalisation dans le Panneau
 8. (Optionnel) Si la règle de normalisation se traduit par un numéro de téléphone interne à votre entreprise, sélectionnez **Poste interne**.
 9. (Optionnel) Entrez un numéro pour tester la règle de normalisation, puis cliquez sur **OK**. Les résultats du test apparaissent sous **Numéro composé à tester**.
     > [!Note] 
-    > Vous pouvez enregistrer une règle de normalisation n’ayant pas encore passé le test afin de la reconfigurer ultérieurement. Pour plus d’informations, voir [Test voice routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing). 
+    > Vous pouvez enregistrer une règle de normalisation n’ayant pas encore passé le test afin de la reconfigurer ultérieurement. Pour plus d’informations, voir [Tester le routage des voix.](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing) 
 
 10. Cliquez sur **OK** pour enregistrer la règle de normalisation.
 11. Cliquez sur **OK** pour enregistrer le plan de numérotation.
@@ -90,7 +90,7 @@ Suivez cette procédure si vous souhaitez créer ou modifier manuellement une r�
 9. (Optionnel) Entrez un numéro pour tester la règle de normalisation, puis cliquez sur **OK**. Les résultats du test apparaissent sous **Numéro composé à tester**.
 
     > [!Note]
-    > Vous pouvez enregistrer une règle de normalisation n’ayant pas encore passé le test afin de la reconfigurer ultérieurement. Pour plus d’informations, voir [Test voice routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing). 
+    > Vous pouvez enregistrer une règle de normalisation n’ayant pas encore passé le test afin de la reconfigurer ultérieurement. Pour plus d’informations, voir [Tester le routage des voix.](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing) 
 
 10. Cliquez sur **OK** pour enregistrer la règle de normalisation.
 11. Cliquez sur **OK** pour enregistrer le plan de numérotation.

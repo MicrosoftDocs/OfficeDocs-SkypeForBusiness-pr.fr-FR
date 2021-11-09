@@ -2,7 +2,7 @@
 title: Déployer le portail Web d’administration de SRS v1 dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Le portail Web d’administration Skype Entreprise Server Skype Room Systems v1 (SRS v1, anciennement appelé Lync Room System) est un portail web que les organisations peuvent utiliser pour gérer leurs salles de conférence Skype Room Systems. Les administrateurs peuvent utiliser le portail Web d’administration de SRS v1 pour surveiller l’état de l’appareil, par exemple en surveillant les périphériques audio/vidéo. Grâce à ce portail, les administrateurs peuvent collecter à distance des informations de diagnostic pour surveiller l’état de la salle de conférence.
-ms.openlocfilehash: aa59b142ee7147772af3c13a7e9bf4dffbbc520c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c25671717db51af880bd4b7e2700bb9e795f2790
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751343"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843967"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Déployer le portail Web d’administration de SRS v1 dans Skype Entreprise Server
 
@@ -49,7 +49,7 @@ Pour utiliser le portail Web d’administration de SRS v1, vous devez installer 
 
 1. Installez Skype Entreprise Server mises à jour cumulatives cumulatives dans la topologie Skype Entreprise Server’installation.
 
-    Pour obtenir la mise à jour ou voir ce qui y est inclus, voir Mises à jour Skype Entreprise Server [2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
+    Pour obtenir la mise à jour ou voir ce qui y est inclus, voir Mises à jour [Skype Entreprise Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
 
 2. Créez un utilisateur Active Directory activé pour SIP.
 
@@ -201,7 +201,7 @@ La section Santé fournit une indication visuelle de l’état de la connexion S
 
 ### <a name="bulk-management"></a>Gestion en bloc
 
-La gestion en bloc des salles SRS est une fonctionnalité conçue pour les administrateurs informatiques avancés, pour simplifier leur flux de travail et leur permettre de gagner du temps et de gérer à distance plusieurs salles en bloc.
+La gestion en bloc des salles SRS est une fonctionnalité conçue pour les administrateurs informatiques avancés, qui simplifie leur flux de travail et leur permet de gagner du temps et de gérer à distance plusieurs salles en bloc.
 
 Pour voir cette fonctionnalité, l’utilisateur doit être provisioné en tant que membre du groupe de sécurité **spécial, LRSPowerUserAdminsGroup**.
 

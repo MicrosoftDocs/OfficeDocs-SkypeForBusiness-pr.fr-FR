@@ -2,7 +2,7 @@
 title: Configurer l’authentification à deux facteurs dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Résumé : Configurez l’authentification à deux facteurs dans Skype Entreprise Server.'
-ms.openlocfilehash: c1749c6fcd97e10f7e09ddc243059cedc695fb65
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1e28c88f28d765737415b01d82e2e8a7621c3744
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751793"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844247"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Configurer l’authentification à deux facteurs dans Skype Entreprise Server
 
@@ -298,7 +298,7 @@ Les étapes suivantes décrivent comment créer une configuration de service web
   ```
 
    > [!CAUTION]
-   > La valeur du nom de domaine complet WsFedPassiveMetadataUri est le nom de service de fédération de votre serveur AD FS 2.0. La valeur Nom du service de fédération se trouve dans la console de gestion AD FS 2.0 en cliquant avec le bouton droit sur **Service** dans le volet de navigation, puis en sélectionnant Modifier les propriétés du **service** de fédération.
+   > La valeur du nom de domaine complet WsFedPassiveMetadataUri est le nom du service de fédération de votre serveur AD FS 2.0. La valeur Nom du service de fédération se trouve dans la console de gestion AD FS 2.0 en cliquant avec le bouton droit sur **Service** dans le volet de navigation, puis en sélectionnant Modifier les propriétés du **service** de fédération.
 
 4. Vérifiez que les valeurs UseWsFedPassiveAuth et WsFedPassiveMetadataUri ont été définies correctement en exécutant la commande suivante :
 

@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
 ms:contentKeyID: 48183694
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Cet article explique comment configurer des plages de ports pour vos clients et configurer des stratégies de qualité de service dans Skype Entreprise Server pour les clients qui s’exécutent sur Windows 10.
-ms.openlocfilehash: b2382a5060d0723f76312a089ab50b0b41314c8e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5fa7a425bbb734307b487f63aa7fdf809f627661
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742110"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860071"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Configuration des plages de ports et d’une stratégie de qualité de service pour vos clients dans Skype Entreprise Server
 
@@ -54,11 +54,11 @@ Si vous regardez attentivement le résultat précédent, vous verrez deux choses
 
 **ClientMediaPortRangeEnabled : False**
 
-Ceci est important car, lorsque cette propriété est définie sur False, les clients Skype Entreprise utilisent n’importe quel port disponible entre les ports 1024 et 65535 lorsqu’ils sont impliqués dans une session de communication ; cela s’applique quels que soient les autres paramètres de port (par exemple, ClientMediaPort ou ClientVideoPort). Si vous souhaitez limiter l’utilisation à un ensemble spécifique de ports (et c’est ce que vous souhaitez faire si vous envisagez d’implémenter la qualité de service), vous devez d’abord activer les plages de ports de média client. Pour ce faire, utilisez la commande Windows PowerShell suivante :
+Ceci est important car, lorsque cette propriété est définie sur False, les clients Skype Entreprise utilisent n’importe quel port disponible entre les ports 1024 et 65535 lorsqu’ils sont impliqués dans une session de communication ; cela s’applique quels que soient les autres paramètres de port (par exemple, ClientMediaPort ou ClientVideoPort). Si vous souhaitez limiter l’utilisation à un ensemble spécifique de ports (et c’est une chose que vous souhaitez faire si vous envisagez d’implémenter la qualité de service), vous devez d’abord activer les plages de ports de média client. Pour ce faire, utilisez la commande Windows PowerShell suivante :
 
 **Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True**
 
-La commande précédente active les plages de ports de média client pour la collection globale de paramètres de configuration de conférence ; toutefois, ces paramètres peuvent également être appliqués à l’étendue Site et/ou Service (pour le service Serveur de conférence uniquement). Pour activer les plages de ports de média client pour un site ou un serveur spécifique, spécifiez l’identité de ce site ou serveur lors de l’appel de Set-CsConferencingConfiguration :
+La commande précédente active les plages de ports de média client pour la collection globale de paramètres de configuration de conférence ; toutefois, ces paramètres peuvent également être appliqués à l’étendue Site et/ou Service (pour le service Serveur de conférence uniquement). Pour activer les plages de ports multimédias client pour un site ou un serveur spécifique, spécifiez l’identité de ce site ou serveur lors de l’appel de Set-CsConferencingConfiguration :
 
 **Set-CsConferencingConfiguration -Identity « site:Redmond » -ClientMediaPortRangeEnabled $True**
 
@@ -179,7 +179,7 @@ Pour créer une stratégie audio de qualité de service pour Windows 10, connect
 
 4.  Cliquez avec le bouton droit sur la stratégie nouvellement créée, puis cliquez sur **Modifier.**
 
-5.  Dans l’Éditeur de gestion des stratégies de groupe, développez **Configuration** ordinateur, développez **Windows Paramètres,** cliquez avec le bouton droit sur **QoS** basé sur la stratégie, puis cliquez sur Créer **une stratégie.**
+5.  Dans l’Éditeur de gestion des stratégies de groupe, développez **Configuration** ordinateur, développez **Windows Paramètres**, cliquez avec le bouton droit sur **QoS** basé sur la stratégie, puis cliquez sur Créer **une stratégie.**
 
 6.  Dans la **boîte de dialogue QoS** basée sur la stratégie, dans la page d’ouverture, tapez un nom pour la nouvelle stratégie dans la **zone** Nom. Sélectionnez **Spécifier la valeur DSCP** et indiquez la valeur **46**. Laissez la case à cocher **Spécifier le taux d’accélération en sortie** désactivée, puis cliquez sur **Suivant**.
 
@@ -205,11 +205,11 @@ Si vous décidez de créer une stratégie pour la gestion du trafic de partage d
 
   - Attribuez à la valeur DSCP la valeur **24** au lieu de 46. (Là encore, cette valeur ne doit pas être 24 ; elle doit simplement être différente des valeurs DSCP utilisées pour l’audio et la vidéo.)
 
-  - Utilisez la plage de ports précédemment configurée pour le trafic vidéo. Par exemple, si vous avez réservé les ports 42000 à 42019 pour le partage d’application, définissez la plage de ports comme ceci : **42000:42019**.
+  - Utilisez la plage de ports précédemment configurée pour le trafic vidéo. Par exemple, si vous avez réservé les ports 42000 à 42019 pour le partage d’application, définissez la plage de ports sur celle-ci : **42000:42019**.
 
 Pour une stratégie de transfert de fichiers :
 
-  - Utilisez un nom de stratégie différent (et unique) (par **exemple, Skype Entreprise Server transferts de fichiers).**
+  - Utilisez un nom de stratégie différent (et unique) (par exemple, **Skype Entreprise Server transferts de fichiers).**
 
   - Définissez la valeur DSCP sur **14**. (Là encore, cette valeur ne doit pas être 14 ; il doit simplement s’agit d’un code DSCP unique.)
 

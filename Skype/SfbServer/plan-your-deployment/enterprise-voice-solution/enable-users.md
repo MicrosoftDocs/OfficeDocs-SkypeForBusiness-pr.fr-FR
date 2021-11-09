@@ -2,7 +2,7 @@
 title: Activer les utilisateurs pour E9-1-1 dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
 description: Décisions nécessaires à la stratégie d’emplacement pour un déploiement E9-1-1 dans Skype Entreprise Server Voix Entreprise, y compris les utilisateurs à activer et la prise en charge des utilisateurs itinérants.
-ms.openlocfilehash: 61f545018def3268c92729bb52edbbf6e2a5ed29
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 631c74f8ee4d91f1a70f1d2edbfa129602913a6f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765282"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844137"
 ---
 # <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>Activer les utilisateurs pour E9-1-1 dans Skype Entreprise Server
  
@@ -33,7 +33,7 @@ Skype Entreprise Server pouvez affecter une stratégie d’emplacement à des cl
   
  **Envisagez-vous d’activer tous les utilisateurs ou de limiter la prise en charge à des zones géographiques spécifiques de l’entreprise ?**
   
-> Vous pouvez assigner un emplacement à tous les utilisateurs de votre entreprise à l’aide d’une stratégie d’emplacement globale. Toutefois, en attribuant une stratégie d’emplacement à un site réseau Skype Entreprise Server, puis en ajoutant des sous-réseaux au site, vous pouvez limiter la prise en charge E9-1-1 à des emplacements sélectionnés au sein de l’entreprise et spécifier le comportement de routage E9-1-1 par site. 
+> Vous pouvez assigner un emplacement à tous les utilisateurs de votre entreprise à l’aide d’une stratégie d’emplacement globale. Toutefois, en attribuant une stratégie d’emplacement à un site réseau Skype Entreprise Server, puis en ajoutant des sous-réseaux au site, vous pouvez limiter la prise en charge E9-1-1 à des emplacements sélectionnés au sein de l’entreprise et spécifier un comportement de routage E9-1-1 par site. 
     
  **Envisagez-vous d’activer des utilisateurs individuels au moyen d’une stratégie utilisateur ?**
   
@@ -41,6 +41,6 @@ Skype Entreprise Server pouvez affecter une stratégie d’emplacement à des cl
     
  **Quand des clients se trouvent en dehors du réseau ou se connectent à partir d’un sous-réseau non défini, ces clients doivent-ils bénéficier du service E9-1-1 ?**
   
-> Si une stratégie d’emplacement globale, de site ou par utilisateur est attribuée aux utilisateurs, ils peuvent être tenus d’entrer manuellement un emplacement dans le client si le client ne se trouve pas dans un sous-réseau défini ou si aucun emplacement n’a été trouvé par le service Informations d’emplacement. Pour plus d’informations, voir [Définir l’expérience utilisateur pour](manually-acquiring-a-location.md)l’acquisition manuelle d’un emplacement dans Skype Entreprise Server .
+> Si une stratégie d’emplacement globale, de site ou par utilisateur est attribuée aux utilisateurs, ils peuvent être tenus d’entrer manuellement un emplacement dans le client si le client n’est pas situé dans un sous-réseau défini ou si aucun emplacement n’a été trouvé par le service Informations d’emplacement. Pour plus d’informations, voir [Définir l’expérience utilisateur pour](manually-acquiring-a-location.md)l’acquisition manuelle d’un emplacement dans Skype Entreprise Server .
     
 

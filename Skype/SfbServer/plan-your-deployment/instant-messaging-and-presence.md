@@ -2,7 +2,7 @@
 title: Planifier la messagerie instantanée et la présence dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 'Résumé : Découvrez comment planifier la messagerie instantanée et la présence dans Skype Entreprise Server.'
-ms.openlocfilehash: 20de382c034e2049bdb7bb2b36f2da9bc847b876
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b81da143bf7b8d917d88939d8b28261910bb8f5a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737660"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835082"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planifier la messagerie instantanée et la présence dans Skype Entreprise Server
  
@@ -41,7 +41,7 @@ La messagerie instantanée et la présence s’exécutent toujours sur Êdition 
 
 Vous pouvez clairement accroître les avantages de votre investissement dans Skype Entreprise Server en permettant à vos utilisateurs de communiquer avec des utilisateurs externes. Les utilisateurs externes peuvent inclure les catégories suivantes :
   
-- Utilisateurs distants : les utilisateurs de votre organisation, lorsqu’ils travaillent en dehors de vos pare-feu et utilisent leurs ordinateurs portables ou d’Skype Entreprise Server périphériques.
+- Utilisateurs distants : les utilisateurs de votre organisation, lorsqu’ils travaillent en dehors de vos pare-feu et utilisent leurs ordinateurs portables ou d’autres Skype Entreprise Server réseau.
     
 - Utilisateurs fédérés : utilisateurs des entreprises avec qui vous travaillez et qui exécutent également Skype Entreprise Server. Pour autoriser vos utilisateurs à contacter facilement ces utilisateurs, créez des relations fédérées avec ces entreprises. 
     

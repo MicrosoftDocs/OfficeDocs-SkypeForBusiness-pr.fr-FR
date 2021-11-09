@@ -2,7 +2,7 @@
 title: Rapports d’utilisation du système Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: 'Résumé : Découvrez les rapports d’utilisation du système Skype Entreprise Server.'
-ms.openlocfilehash: 2e0572b35cf29cf69e9c0515b5f94384b226d8ed
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cb1fd3fd05d553fa81f7c0646659f7593dad5869
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774774"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843877"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>Rapports d’utilisation du système Skype Entreprise Server
  
@@ -49,7 +49,7 @@ Les rapports d’utilisation du système fournissent des informations d’utilis
     
 - [Rapport d’inventaire Téléphone IP dans Skype Entreprise Server](ip-phone-inventory-report.md)
     
-    Fournit des informations sur les téléphones IP actuellement en cours d’utilisation dans l’organisation. Le rapport est basé sur les inscriptions et les connexions des téléphones. Il ne doit pas être considéré comme un inventaire complet. Par exemple, vous ne possédez peut-être plus certains téléphones qui sont encore répertoriés dans le rapport (car ils se sont connectés au moins une fois). De même, vous pouvez également avoir de nouveaux téléphones qui ne s’afficheront pas dans le rapport simplement parce que les utilisateurs ne se sont pas encore connectés à Skype Entreprise Server avec leurs nouveaux téléphones.
+    Fournit des informations sur les téléphones IP actuellement en cours d’utilisation dans l’organisation. Le rapport est basé sur les inscriptions et les connexions des téléphones. Il ne doit pas être considéré comme un inventaire complet. Par exemple, vous ne possédez peut-être plus certains téléphones qui sont encore répertoriés dans le rapport (car ils se sont connectés au moins une fois). De même, vous pouvez également avoir de nouveaux téléphones qui n’entrent pas dans le rapport simplement parce que les utilisateurs ne se sont pas encore connectés à Skype Entreprise Server avec leurs nouveaux téléphones.
     
 - [Rapport de contrôle d’admission des appels Skype Entreprise Server](call-admission-control-report.md)
     

@@ -2,7 +2,7 @@
 title: Obtenir des sous-éléments
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
 description: 'Résumé : Découvrez l’opération Get Sub-Items, qui fait partie du service d’élément. Le service d’élément fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 3d17ab46ece202ea36dce45b6266a1cd3de74928
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a1e439b9bfdfddf7009babbeb39a8175adc2a569
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774644"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851908"
 ---
 # <a name="get-sub-items"></a>Obtenir des sous-éléments
  
@@ -33,7 +33,7 @@ Obtenir Sub-Items renvoie les sous-éléments d’un élément spécifique.
 
 |**Méthode**|**URI de demande**|**HTTP Version**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}/eusem  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}/fairem  <br/> |HTTP/1.1  <br/> |
    
  **Paramètres d’URI** - Aucun.
   
@@ -67,7 +67,7 @@ Obtenir Sub-Items renvoie les sous-éléments d’un élément spécifique.
 
 L’objet Item renvoyé par Sub-Items opération contient uniquement les trois champs suivants. 
   
- *itemId*  - ID de l’élément.
+ *itemId*  : ID de l’élément.
   
  *userId*  - ID de l’utilisateur propriétaire de cet élément.
   

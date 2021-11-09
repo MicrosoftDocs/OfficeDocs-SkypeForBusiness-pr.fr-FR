@@ -1,6 +1,6 @@
 ---
 title: Téléphone gestion des nombres pour l’Autriche
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Autriche Microsoft Teams.
-ms.openlocfilehash: 6abf2814f37708e8ec13e071c34ab4f1c901f7c3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 535c49f22fcc09b70ac3e72414dc1e28cc3f89e6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761762"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859721"
 ---
 # <a name="phone-number-management-for-austria"></a>Téléphone gestion des nombres pour l’Autriche
 
@@ -38,9 +38,9 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 |Obtenez les numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation pour l’Autriche (tous les nombres) (v.5.0) (de-at)](https://download.microsoft.com/download/3/e/2/3e27f3ee-0f38-4d73-b8e8-b43b9e1d1381/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf) <br/> <br/>Remplissez-le et [contactez le service desk TNS pour obtenir des instructions.](contact-tns-service-desk.md)  <br/> <br/>Vous devez également inclure une facture de service à partir de l’adresse professionnelle pour laquelle vous souhaitez transférer des numéros.<br/> |
 |Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service TNS pour](contact-tns-service-desk.md) obtenir des instructions sur l’envoi de la liste des numéros de téléphone que vous voulez publier/désabolier.      <br/> |
 |Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |Pour obtenir des instructions sur l’envoi de la liste des numéros d’utilisateur à convertir en numéros de service, contactez le service [TNS.](contact-tns-service-desk.md) <br/> |
-|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier les numéros de file d’attente ou de numéro du personnel de service automatique, contactez le service de service [TNS pour obtenir des instructions.](contact-tns-service-desk.md) |
+|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier les numéros de file d’attente ou de numéro du personnel de la file d’attente automatique, contactez le service [de service TNS pour obtenir des instructions.](contact-tns-service-desk.md) |
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

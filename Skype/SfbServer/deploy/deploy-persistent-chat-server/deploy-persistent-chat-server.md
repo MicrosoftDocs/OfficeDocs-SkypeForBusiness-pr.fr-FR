@@ -2,7 +2,7 @@
 title: Déployer un serveur de conversation permanente dans Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8373c93b-92a7-4932-bc1f-00fc08955426
 description: 'Résumé : Lisez cette rubrique pour découvrir comment déployer Skype Entreprise Server de conversation permanente 2015.'
-ms.openlocfilehash: 2fa97848809a05f87a700d71decd2c61be26bb70
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2ce73d6592760f5744445eacfecd894069ea9ab2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759006"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844847"
 ---
 # <a name="deploy-persistent-chat-server-in-skype-for-business-server-2015"></a>Déployer un serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -26,7 +26,7 @@ ms.locfileid: "60759006"
   
 Pour déployer un serveur de conversation permanente, vous devez : 
   
-- Utiliser le Générateur de topologie pour définir ou importer, puis publier votre topologie et les composants que vous souhaitez déployer
+- Utiliser le Générateur de topologies pour définir ou importer, puis publier votre topologie et les composants que vous souhaitez déployer
     
 - Préparer votre environnement pour le déploiement des composants du serveur de conversation permanente
     

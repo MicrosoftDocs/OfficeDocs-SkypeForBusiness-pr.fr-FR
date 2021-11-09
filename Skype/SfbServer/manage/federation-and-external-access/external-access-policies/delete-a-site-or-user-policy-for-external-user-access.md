@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521013(v=OCS.15)
 ms:contentKeyID: 48184455
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: Vous pouvez supprimer n’importe quelle stratégie de site ou d’utilisateur répertoriée dans Skype Entreprise Server Panneau de Skype Entreprise Server dans la page Stratégie d’accès externe.
-ms.openlocfilehash: 53be2748328211c901a2daeeb0ca84e70cfd6511
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Vous pouvez supprimer n’importe quelle stratégie de site ou d’utilisateur répertoriée dans le Panneau de Skype Entreprise Server sur la page Stratégie d’accès externe.
+ms.openlocfilehash: 136b7f612dc2dcc0625e7f844ecf6ad38aba0c37
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765452"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834222"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>Suppression d’une stratégie utilisateur ou d’un site pour l’accès des utilisateurs externes
 

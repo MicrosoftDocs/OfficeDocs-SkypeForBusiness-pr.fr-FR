@@ -2,7 +2,7 @@
 title: Planifier l’intégration de Skype Entreprise et d’Exchange
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Résumé : Examinez cette rubrique pour plus d’informations sur l’intégration de Skype Entreprise Server avec Exchange Server 2016 ou Exchange Server 2013.'
-ms.openlocfilehash: 323add0bdc06617f80fba852b8179b3f6b7e315d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8613f080aa878c5111a4c69c38b77f9c16606b26
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773464"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844127"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Planifier l’intégration de Skype Entreprise et d’Exchange
  
@@ -81,7 +81,7 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 > [!NOTE]
 > Si vous ne connaissez pas la technologie, OAuth est un protocole d’autorisation standard utilisé par de nombreux sites web principaux. Avec OAuth, les informations d’identification et les mots de passe de l’utilisateur ne sont pas transmis d’un ordinateur à un autre. Au lieu de cela, l’authentification et l’autorisation sont basées sur l’échange de jetons de sécurité ; ces jetons accordent l’accès à un ensemble spécifique de ressources pendant une durée spécifique. 
   
-Outre la configuration du service de découverte automatique, vous devez également créer un enregistrement DNS pour le service qui pointe vers votre Exchange Server. Par exemple, si votre service de découverte automatique se trouve sur autodiscover.litwareinc.com vous devez créer un enregistrement DNS pour autodiscover.litwareinc.com qui est résolu en nom de domaine complet de votre Exchange Server (par exemple, atl-exchange-001.litwareinc.com).
+En plus de configurer le service de découverte automatique, vous devez également créer un enregistrement DNS pour le service qui pointe vers votre Exchange Server. Par exemple, si votre service de découverte automatique se trouve sur autodiscover.litwareinc.com vous devez créer un enregistrement DNS pour autodiscover.litwareinc.com qui est résolu en nom de domaine complet de votre Exchange Server (par exemple, atl-exchange-001.litwareinc.com).
   
 Si vous intégrez Skype Entreprise Server à Exchange Online, les [étapes suivantes](../../deploy/integrate-with-exchange-server/outlook-web-app.md)sont la configuration de l’intégration entre Skype Entreprise Server local et Outlook Web App , sinon, voir Intégrer Skype Entreprise Server [avec Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
@@ -89,7 +89,7 @@ Si vous intégrez Skype Entreprise Server à Exchange Online, les [étapes suiva
 <a name="feature_support"> </a>
 
 >[!Important]
-> Skype Entreprise Online sera retiré le 31 juillet 2021, une fois que les intégrations Exchange répertoriées ci-dessous qui incluent le service ne seront plus pris en charge.
+> Skype Entreprise Online sera retiré le 31 juillet 2021 après la Exchange les intégrations répertoriées ci-dessous qui incluent le service ne seront plus pris en charge.
 
 Le tableau suivant détaille les fonctionnalités prise en charge sous différentes combinaisons de fonctionnalités en ligne ou en local pour Exchange et Skype Entreprise.
   

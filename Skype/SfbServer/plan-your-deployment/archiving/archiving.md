@@ -2,7 +2,7 @@
 title: Planifier l’archivage dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 'Résumé : Lisez cette rubrique pour découvrir comment planifier l’archivage dans Skype Entreprise Server.'
-ms.openlocfilehash: d7ed504558274da06d8f49b38a297626ff22f86c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6d67caa4b196c65282ecb404af747e0a60f435a7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740452"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843697"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Planifier l’archivage dans Skype Entreprise Server
  
@@ -68,7 +68,7 @@ Pour implémenter l’archivage, vous devez déterminer comment répondre aux ex
     
   - Partage de bureau et d’application pour les conférences et les messages instantanés d’égal à égal
     
-    Skype Entreprise Server n’archive pas non plus les conversations de conversation permanente. Pour archiver les conversations de conversation permanente, vous devez activer et configurer le service de conformité, qui est un composant qui peut être déployé avec le serveur de conversation permanente. Pour plus d’informations, voir [Plan for Persistent Chat Server in Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
+    Skype Entreprise Server n’archive pas non plus les conversations de conversation permanente. Pour archiver des conversations de conversation permanente, vous devez activer et configurer le service de conformité, qui est un composant qui peut être déployé avec le serveur de conversation permanente. Pour plus d’informations, voir [Plan for Persistent Chat Server in Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
 
     > [!NOTE] 
     > La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
@@ -101,7 +101,7 @@ L’archivage est automatiquement installé sur chaque serveur frontal lorsque v
 > [!NOTE]
 > Si vous implémentez les deux bases de données d’archivage Skype Entreprise Server et activez l’intégration de Microsoft Exchange, les stratégies Exchange remplacent les stratégies d’archivage Skype Entreprise Server, mais uniquement pour les utilisateurs qui sont Exchange et dont les boîtes aux lettres ont été activées In-Place en attente. Skype Entreprise’archivage dépend de la stratégie de Exchange In-Place Microsoft. 
   
-Si vous déployez l’archivage pour un pool frontal ou un serveur Édition Standard, vous devez l’activer pour tous les autres pools frontux et serveurs Édition Standard de votre déploiement. Si l’archivage n’est pas activé sur le pool où une conversation ou une réunion est hébergée, il se peut que toutes les données de conférence ne soient pas archivées. L’archivage fonctionne toujours pour les messages instantanés, mais il est possible que le contenu et les événements de conférence ne soient pas archivés.
+Si vous déployez l’archivage pour un pool frontal ou un serveur Édition Standard, vous devez l’activer pour tous les autres pools frontux et serveurs Édition Standard de votre déploiement. Si l’archivage n’est pas activé sur le pool où une conversation ou une réunion est hébergée, il se peut que toutes les données de conférence ne soient pas archivées. L’archivage fonctionne toujours pour les messages instantanés, mais il se peut que le contenu et les événements de conférence ne soient pas archivés.
   
 > [!NOTE]
 > Pour activer la délégation des tâches administratives tout en maintenant les normes de sécurité de votre organisation, Skype Entreprise Server utilise le contrôle d’accès basé sur un rôle (RBAC). Avec le contrôle d’accès en fonction du rôle, les privilèges d’administration sont accordés en attribuant des rôles d’administration prédéfincés aux utilisateurs. Pour configurer les stratégies et configurations d’archivage Skype Entreprise, l’utilisateur doit être affecté au rôle CsArchivingAdministrator (sauf si la configuration est effectuée directement sur le serveur sur lequel l’archivage est déployé, et non à distance à partir d’un autre ordinateur). Pour obtenir la liste des droits d’utilisateur, des autorisations et des rôles requis pour le déploiement de l’archivage, voir Déployer l’archivage [pour Skype Entreprise Server](../../deploy/deploy-archiving/deploy-archiving.md). 
@@ -117,7 +117,7 @@ Si vous déployez l’archivage pour un pool frontal ou un serveur Édition Stan
     
 - S’il faut implémenter le mode critique, qui bloque les sessions de messagerie instantanée et de conférence en cas de Skype Entreprise Server défaut 
     
-- Sélection de l’option d’Exchange Microsoft pour utiliser Exchange stockage des données archivées
+- Sélection de l’option d’intégration microsoft Exchange à utiliser pour Exchange stockage des données archivées
     
 Pour plus d’informations sur la configuration des stratégies et des paramètres de Exchange In-Place en attente pour prendre en charge l’archivage, voir la documentation Exchange produit.
   
@@ -168,7 +168,7 @@ Skype Entreprise Server Les options d’archivage peuvent être spécifiées aux
     
     Par exemple, supposons que vous désactiviez l’archivage pour les communications internes et externes dans votre configuration globale, créez une stratégie au niveau du site dans laquelle vous activez l’archivage pour les communications internes et externes, puis créez une stratégie au niveau de l’utilisateur dans laquelle vous désactivez l’archivage pour les communications externes. Les communications sont archivées à la fois pour les communications externes et internes pour tous les utilisateurs du site à l’exception des utilisateurs auxquels vous appliquez la stratégie de niveau utilisateur; pour ces utilisateurs, seules les communications internes sont archivées.
     
-Pour plus d’informations sur la configuration des configurations d’archivage initiales lorsque vous déployez l’archivage, voir [Deploy archiving for Skype Entreprise Server](../../deploy/deploy-archiving/deploy-archiving.md). Pour plus d’informations sur la gestion de l’archivage après le déploiement, voir [Gérer l’archivage dans Skype Entreprise Server](../../manage/archiving/archiving.md). 
+Pour plus d’informations sur la configuration des configurations d’archivage initiales lorsque vous déployez l’archivage, voir [Deploy archiving for Skype Entreprise Server](../../deploy/deploy-archiving/deploy-archiving.md). Pour plus d’informations sur la gestion de l’archivage après le [déploiement,](../../manage/archiving/archiving.md)voir Gérer l’archivage dans Skype Entreprise Server . 
   
 ## <a name="archiving-configuration-tools"></a>Outils de configuration de l’archivage
 

@@ -2,7 +2,7 @@
 title: Définir le nom complet de la passerelle PSTN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: Vous spécifiez le nom de domaine complet (FQDN) de la passerelle du réseau téléphonique commuté (PSTN) qui connectera vos composants Voix Entreprise à un réseau téléphonique commuté (PBX).
-ms.openlocfilehash: 0e3aef837547916050554822b22233fe9185f9cb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3898e6321c57fcefdcf0e6e44c0410f7f858be04
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768832"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851248"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Définir le nom complet de la passerelle PSTN
 

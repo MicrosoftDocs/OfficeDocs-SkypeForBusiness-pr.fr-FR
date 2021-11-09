@@ -2,7 +2,7 @@
 title: Gérer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Résumé : Découvrez comment gérer la haute disponibilité et la récupération d’urgence du serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 3b45f38f1a530e91b75693196c5e64e206b10121
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bf24bbb7f8672f0bc3a75b83f4f57320dc975092
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774764"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860011"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Gérer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015
  
@@ -41,7 +41,7 @@ La procédure de failover repose sur l’hypothèse que le centre de données se
     
 La procédure consiste en deux étapes de base :
   
-- Récupérer la base de données de conversation permanente principale (mgc).
+- Récupérez la base de données de conversation permanente principale (mgc).
     
 - Établir la mise en miroir pour la nouvelle base de données principale.
     
@@ -163,7 +163,7 @@ Ces étapes visent à récupérer la configuration telle qu’elle existait avan
     
    - Cliquez sur **OK** pour lancer le processus de restauration.
     
-5. Configurez la SQL Server des journaux de livraison pour la base de données principale. Suivez les procédures de [configure high availability and disaster recovery for Persistent Chat Server in Skype Entreprise Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) to establish log shipping for the primary mgc database.
+5. Configurez la SQL Server des journaux de livraison pour la base de données principale. Suivez les procédures de la procédure de configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente dans [Skype Entreprise Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) pour établir la livraison des journaux pour la base de données mgc principale.
     
 6. Définissez les serveurs actifs du serveur de conversation permanente. À partir Skype Entreprise Server Management Shell, utilisez l’applet de commandes **Set-CsPersistentChatActiveServer** pour définir la liste des serveurs actifs.
     

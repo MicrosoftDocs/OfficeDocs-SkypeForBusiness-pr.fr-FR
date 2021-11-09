@@ -1,6 +1,6 @@
 ---
-title: Modèles d’e-mail de notification de l’utilisateur pour le déploiement du système téléphonique en ligne
-author: cichur
+title: Modèles de courrier électronique de notification de l’utilisateur pour le déploiement du système téléphonique en ligne
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/31/2018
@@ -16,16 +16,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 28cd5ad822863876527877ca0bf633577e21914d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 975097e9772fbb804f47ac984207d92ec39d46ed
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737490"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834782"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Faciliter l’adoption par les utilisateurs de votre nouveau système téléphonique en ligne
 
-Un téléphone peut être la ligne de vie d’un utilisateur. Le basculement d’un système téléphonique traditionnel vers un système de téléphonie en ligne représente un changement significatif dans le mode de travail des utilisateurs et peut affecter négativement la productivité. Prendre le temps d’informer, de guider et de prendre en charge les utilisateurs tout au long de cette modification peut contribuer à garantir une expérience utilisateur positive et optimiser votre retour sur investissement.
+Un téléphone peut être la ligne de vie d’un utilisateur. Le basculement d’un système téléphonique traditionnel vers un système de téléphonie en ligne modifie sensiblement le mode de travail des utilisateurs et peut affecter négativement la productivité. Prendre le temps d’informer, de guider et de prendre en charge les utilisateurs tout au long de cette modification peut contribuer à garantir une expérience utilisateur positive et optimiser votre retour sur investissement.
 
 Cet article contient des modèles de courrier électronique personnalisables pour aider les utilisateurs à se tenir informés de leur nouveau système téléphonique. Personnalisez et envoyez les e-mails appropriés pour les adapter à votre déploiement vocal spécifique. Nous avons utilisé des crochets pour indiquer des sections afin de faciliter la personnalisation, mais nous vous recommandons d’ajouter une messagerie spécifique à l’organisation pour rendre l’annonce plus pertinente pour vos utilisateurs. Le cas échéant pour votre déploiement, remplacez toutes les références à « Teams » par « Skype Entreprise ».
 

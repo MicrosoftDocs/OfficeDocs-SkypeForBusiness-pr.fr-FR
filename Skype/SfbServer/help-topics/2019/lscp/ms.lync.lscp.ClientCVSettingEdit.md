@@ -2,7 +2,7 @@
 title: 'Configuration de version du client : création d’une version ou modification d’une version existante'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 ROBOTS: NOINDEX, NOFOLLOW
-description: Les paramètres de configuration de version du client sont utilisés pour activer ou désactiver le contrôle de version du client. La configuration de la version globale du client s’installe Skype Entreprise Server et est utilisée pour activer ou désactiver le contrôle de version du client pour l’ensemble du déploiement du serveur. Lorsque la configuration globale est activée, toutes les stratégies de version du client qui sont en place prendront effet lorsque les utilisateurs tenteront de se connecter. Vous pouvez désactiver la configuration globale de version du client si vous voulez qu’aucun contrôle de la version du client ne se produise.
-ms.openlocfilehash: 8f55d270a3c5bb2d884f2191d821de70e3fea273
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Les paramètres de configuration de version du client sont utilisés pour activer ou désactiver le contrôle de version du client. La configuration de la version globale du client s’installe avec Skype Entreprise Server et est utilisée pour activer ou désactiver le contrôle de version du client pour l’ensemble du déploiement du serveur. Lorsque la configuration globale est activée, toutes les stratégies de version du client qui sont en place prendront effet lorsque les utilisateurs tenteront de se connecter. Vous pouvez désactiver la configuration globale de version du client si vous voulez qu’aucun contrôle de la version du client ne se produise.
+ms.openlocfilehash: c66306de18434cbec72e57af0e062841eb2a663c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773164"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859551"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>Configuration de version du client : création d’une nouvelle ou modification d’une configuration existante
 
-Les paramètres de configuration de version du client sont utilisés pour activer ou désactiver le contrôle de version du client. La configuration de la version globale du client s’installe Skype Entreprise Server et est utilisée pour activer ou désactiver le contrôle de version du client pour l’ensemble du déploiement du serveur. Lorsque la configuration globale est activée, toutes les stratégies de version du client qui sont en place prendront effet lorsque les utilisateurs tenteront de se connecter. Vous pouvez désactiver la configuration globale de version du client si vous voulez qu’aucun contrôle de la version du client ne se produise.
+Les paramètres de configuration de version du client sont utilisés pour activer ou désactiver le contrôle de version du client. La configuration de la version globale du client s’installe avec Skype Entreprise Server et est utilisée pour activer ou désactiver le contrôle de version du client pour l’ensemble du déploiement du serveur. Lorsque la configuration globale est activée, toutes les stratégies de version du client qui sont en place prendront effet lorsque les utilisateurs tenteront de se connecter. Vous pouvez désactiver la configuration globale de version du client si vous voulez qu’aucun contrôle de la version du client ne se produise.
 
 Vous pouvez également créer des configurations de version du client spécifiques au site, ce qui vous permet d’activer ou de désactiver le contrôle de la version du client site par site. Les configurations spécifiques au site auront priorité sur la configuration globale.
 
@@ -48,7 +48,7 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
 
 - **Activer le contrôle de version** Vous pouvez activer ou désactiver le contrôle de version du client globalement ou pour le site, en fonction de l’étendue de la configuration.
 
-- **Action par défaut** Vous pouvez sélectionner l’action par défaut qui sera appliquée lorsqu’un utilisateur tente de se connecter à l’aide d’une application cliente pour laquelle il n’existe aucune stratégie de version du client spécifique. Vous avez le choix parmi les options suivantes :
+- **Action par défaut** Vous pouvez sélectionner l’action par défaut qui sera appliquée lorsqu’un utilisateur tente de se connecter à l’aide d’une application cliente pour laquelle il n’existe aucune stratégie de version du client spécifique. Vous avez le choix parmi les options suivantes :
 
   - **Autoriser** Permet au client de se connecter si la version du client ne correspond à aucun filtre dans la liste des stratégies de version du client.
 
@@ -56,7 +56,7 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
 
   - **Bloquer avec une URL** Empêche le client de se connecter si la version du client ne correspond à aucun filtre dans la liste des stratégies de version du client et inclut un message d’erreur contenant une URL dans laquelle un client plus récente peut être téléchargé.
 
-  - **Autoriser avec une URL** Permet au client de se connecter si la version du client ne correspond à aucun filtre dans la liste des stratégies de version du client et inclut un message d’erreur contenant une URL dans laquelle un client plus récente peut être téléchargé.
+  - **Autoriser avec l’URL** Permet au client de se connecter si la version du client ne correspond à aucun filtre dans la liste des stratégies de version du client et inclut un message d’erreur contenant une URL dans laquelle un client plus récente peut être téléchargé.
 
   - **URL** Si vous avez sélectionné **Bloquer avec une URL** ou Autoriser avec une **URL,** vous pouvez spécifier l’URL de téléchargement du client à inclure dans le message d’erreur.
 

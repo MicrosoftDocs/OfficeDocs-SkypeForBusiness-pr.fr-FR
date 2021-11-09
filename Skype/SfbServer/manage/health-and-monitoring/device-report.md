@@ -2,7 +2,7 @@
 title: Rapport de périphérique dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 'Résumé : Découvrez le rapport de périphérique dans Skype Entreprise Server.'
-ms.openlocfilehash: 6fd03c402209f5ab33db91038406ac0a5b930ba9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 29ea62f7578b491a940a47663668d0bc83ec5402
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767722"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835262"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>Rapport de périphérique dans Skype Entreprise Server
  
@@ -133,7 +133,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**Cause du basculement vocal** <br/> |Raison pour laquelle un appel a dû être émis en mode semi-duplex afin d’empêcher l’écho. En mode semi-duplex, la communication peut voyager dans un seul sens à la fois, de la même façon que les utilisateurs attendent leur tour pour communiquer à l’aide d’un talkie-walkie. Sélectionnez l’une des options suivantes :  <br/> [Tous] Aucun signal d’écho d’écho d’timestamp mauvais (processeur nonligne dynamique) Faible complexité État de l’appareil Mauvais état Post-AEC écho (annulation de l’écho sonore) |
-|**Cause de l’écho** <br/> |Raison pour laquelle un écho au-dessus du niveau acceptable a été détecté dans un appel. (Dans le domaine des télécommunications, un écho est la réflexion d’un son, il s’agit du même phénomène que vous entendez lorsque vous hélez en direction du fond d’un puits.) Sélectionnez l’une des options suivantes :  <br/> [Tous] Aucun mauvais timestamp écho post-AEC (annulation d’échos sonores) Découpage du microphone ANLP (processeur nonligne adaptatif) DNLP (processeur dynamique nonligne) |
+|**Cause de l’écho** <br/> |Raison pour laquelle un écho au-dessus du niveau acceptable a été détecté dans un appel. (Dans le domaine des télécommunications, un écho est la réflexion d’un son, il s’agit du même phénomène que vous entendez lorsque vous hélez en direction du fond d’un puits.) Sélectionnez l’une des options suivantes :  <br/> [Tous] Aucun mauvais timestamp écho post-AEC (annulation de l’écho sonore) Découpage du microphone ANLP (processeur nonligne adaptatif) DNLP (processeur dynamique nonligne) |
 |**Type d’appel** <br/> |Indique le type d’appel émis. Sélectionnez l’une des options suivantes :  <br/> [Tous] Appel client PSTN call Conference call |
 |**Type d’accès** <br/> |Indique si le client était connecté au réseau interne ou au réseau externe au moment de passer l’appel. Sélectionnez l’une des options suivantes :  <br/> [Tous] Interne externe |
 |**Type de réseau** <br/> |Indique le type de réseau auquel le client était connecté au moment où l’appel a été émis. Sélectionnez l’une des options suivantes :  <br/> [Tous] Fil câblé sans fil |

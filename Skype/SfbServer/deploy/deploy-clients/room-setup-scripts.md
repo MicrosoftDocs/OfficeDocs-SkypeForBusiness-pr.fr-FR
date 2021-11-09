@@ -1,7 +1,7 @@
 ---
 title: Skype Scripts de configuration de salle système de salle
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: Consultez cette rubrique pour trouver des exemples de scripts d’approvisionnement Skype comptes Room System.
-ms.openlocfilehash: 02c356896608987fc52aae8aa613b1b5bff6eb6d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Consultez cette rubrique pour trouver des exemples de scripts de mise en service Skype comptes Room System.
+ms.openlocfilehash: ef70cc0c36cf4a1434b0ca1e120a8d81799d7640
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771686"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859631"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype Scripts de configuration de salle système de salle
  
-Consultez cette rubrique pour trouver des exemples de scripts d’approvisionnement Skype comptes Room System.
+Consultez cette rubrique pour trouver des exemples de scripts de mise en service Skype comptes Room System.
   
 Cette section illustre des exemples de scripts qui peuvent être utilisés pour mettre en service Skype comptes Room System. Ces scripts sont uniquement à titre d’illustration. Elles ne doivent être utilisées qu’après avoir consulté votre expert informatique ou votre administrateur de domaine.
   
@@ -41,7 +41,7 @@ Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=166
 
 ## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>Exemple de script d’installation : Skype Entreprise et Exchange Server Online
 
-Assurez-vous que vous avez passé en revue les conditions préalables suivantes avant d’exécutez le script :
+Assurez-vous que vous avez vérifié les conditions préalables suivantes avant d’exécutez le script :
   
 - Assistant Microsoft Online Services Sign-In pour les professionnels de l’informatique BETA
     

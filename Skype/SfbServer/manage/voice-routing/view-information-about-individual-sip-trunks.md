@@ -2,7 +2,7 @@
 title: 'Skype Entreprise Server : afficher des informations sur les différentes trunks SIP'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Dans Skype Entreprise Server, plusieurs branches peuvent être affectées à une seule passerelle PSTN. Les passerelles et les trunks ne sont pas identiques, et les administrateurs doivent utiliser la cmdlet Get-CsTrunk pour afficher des informations sur une trunk SIP individuelle.
-ms.openlocfilehash: dc5ccfdb5e248d843fb3a8a4e926a7e462097789
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 98e189def7be1a5f2f913083ba4a38d21da86856
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774714"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835242"
 ---
 # <a name="skype-for-business-server---view-information-about-individual-sip-trunks"></a>Skype Entreprise Server : afficher des informations sur les différentes trunks SIP
 

@@ -2,7 +2,7 @@
 title: Planifier la surveillance dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 'Résumé : Examinez cette rubrique lors de la planification du service de surveillance dans Skype Entreprise Server.'
-ms.openlocfilehash: 0a0b1c80498819a6fffc78d02f603950a9169779
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f1bd1dbab35247b17067adaa3b2d06557b8f0292
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744120"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835012"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Planifier la surveillance dans Skype Entreprise Server
 
@@ -39,7 +39,7 @@ Une session est un terme générique pour la connexion d’un utilisateur à un 
 - Un autre utilisateur via une conversation d’égal à égal telle que la messagerie instantanée ou un appel audio
 
 > [!NOTE]
-> Skype Entreprise Server suit les informations sur chaque session : qui a appelé qui ; les points de terminaison utilisés dans la session ; durée de la session ; la qualité perçue de la session ; et ainsi de suite. Skype Entreprise Server’enregistre pas et ne stocke pas l’appel proprement dit. Cela inclut les sessions de messagerie instantanée : bien que Skype Entreprise Server enregistre les informations sur les sessions de messagerie instantanée, il ne conserve pas d’enregistrement de chaque message instantané envoyé au cours de la session.
+> Skype Entreprise Server suivi des informations sur chaque session : qui a appelé qui ; les points de terminaison utilisés dans la session ; durée de la session ; la qualité perçue de la session ; et ainsi de suite. Skype Entreprise Server’enregistre pas et ne stocke pas l’appel proprement dit. Cela inclut les sessions de messagerie instantanée : bien que Skype Entreprise Server enregistre les informations sur les sessions de messagerie instantanée, il ne conserve pas d’enregistrement de chaque message instantané envoyé au cours de la session.
 
 Les informations de base sur les détails des appels collectées par Skype Entreprise Server pour chaque session peuvent être utilisées pour :
 
@@ -55,26 +55,26 @@ La surveillance fournit également un mécanisme qui permet aux points de termin
 
 - **Mesures multimédias qui ont un impact sur la qualité**. Ces mesures traitent de la transmission réelle de l’appel lui-même ; Ils fournissent une sorte de voyage à mesure que l’appel se déplace sur le réseau. Ces mesures (notamment la perte de paquets, la gigue et les durées d’aller-retour) fournissent des informations sur ce qui est arrivé à l’appel depuis le moment où il a quitté le point de terminaison d’une personne jusqu’à son arrivée au point de terminaison de l’autre personne.
 
-- **Problèmes signalés à l’utilisateur final.** Ces mesures incluent des notifications de qualité médiocre que Skype Entreprise présente aux utilisateurs finaux dans les cas où ils sont trop loin d’un microphone, parlent trop faiblement, ont une connexion réseau médiocre ou rencontrent une mauvaise qualité parce qu’un autre programme sur l’ordinateur consomme les ressources disponibles.
+- **Problèmes signalés à l’utilisateur final.** Ces mesures incluent des notifications de qualité médiocre que Skype Entreprise présente aux utilisateurs finaux dans les cas où ils sont trop loin d’un microphone, parlent trop faiblement, ont une connexion réseau médiocre ou rencontrent une mauvaise qualité car un autre programme sur l’ordinateur consomme les ressources disponibles.
 
 - **Informations sur l’environnement.** Ces mesures détaillent les facteurs de qualité des appels, tels que le type de microphone et les haut-parleurs utilisés, si l’utilisateur est connecté via une connexion VPN et s’il est connecté sans fil.
 
-À la fin de chaque appel, les points de terminaison conformes SIP transmettent ces informations au serveur frontal qui a facilité l’appel. Vous n’avez rien à faire pour obtenir des points de terminaison pour transmettre ces informations . ce comportement est intégré au protocole SIP. Toutefois, si vous souhaitez collecter et stocker ces informations, vous devez installer et activer la surveillance. Si vous installez et activez la surveillance, les informations d’appel sont recueillies par les agents en cours d’exécution sur le serveur frontal et relayées vers deux bases de données SQL Server données. Le service de surveillance (sous la forme d'« agents de collecte de données unifiés ») est coqueté sur tous les serveurs frontaux.
+À la fin de chaque appel, les points de terminaison conformes SIP transmettent ces informations au serveur frontal qui a facilité l’appel. Vous n’avez rien à faire pour obtenir des points de terminaison pour transmettre ces informations ; ce comportement est intégré au protocole SIP. Toutefois, si vous souhaitez collecter et stocker ces informations, vous devez installer et activer la surveillance. Si vous installez et activez la surveillance, les informations d’appel sont recueillies par les agents en cours d’exécution sur le serveur frontal et relayées vers deux bases de données SQL Server données. Le service de surveillance (sous la forme d'« agents de collecte de données unifiés ») est coqueté sur tous les serveurs frontaux.
 
 ## <a name="define-your-requirements-for-monitoring"></a>Définir les conditions requises pour la surveillance
 <a name="requirements"> </a>
 
 Plusieurs problèmes clés doivent encore être résolus avant de commencer à installer et configurer la surveillance avec Skype Entreprise Server :
 
- **Quand souhaitez-vous installer la surveillance ?** La surveillance peut être installée et configurée en même temps que vous installez et configurez Skype Entreprise Server ; L Skype Entreprise Server de déploiement de base de données vous permet d’associer vos pools frontux à une base de données de surveillance pendant l’installation. Vous pouvez également installer la surveillance une fois Skype Entreprise Server lui-même installé ; Pour ce faire, utilisez le Générateur de topologie pour associer vos pools et serveurs frontux à une base de données de surveillance, puis publiez la topologie révisée.
+ **Quand souhaitez-vous installer la surveillance ?** La surveillance peut être installée et configurée en même temps que vous installez et configurez Skype Entreprise Server ; L’Assistant Skype Entreprise Server déploiement vous permet d’associer vos pools frontux à une base de données de surveillance pendant l’installation. Vous pouvez également installer la surveillance une fois que Skype Entreprise Server lui-même a été installé ; Pour ce faire, utilisez le Générateur de topologie pour associer vos pools et serveurs frontux à une base de données de surveillance, puis publiez la topologie révisée.
 
 N’oubliez pas SQL Server devez être installé et configuré avant de déployer et de configurer la surveillance. Toutefois, il vous suffit de déployer SQL Server lui-même ; les bases de données de surveillance sont créées pour vous lorsque vous publiez votre topologie Skype Entreprise Server de surveillance.
 
  **Quel type de données voulez-vous surveiller ?** Skype Entreprise Server vous permet de surveiller deux types généraux de données : les données d’enregistrement des détails des appels et les données de qualité de l’expérience (QoE). L’enregistrement des détails des appels vous permet de suivre l’utilisation de fonctionnalités Skype Entreprise Server telles que les appels téléphoniques VoIP ( Voice over IP). messagerie instantanée ; transferts de fichiers ; conférence audio/vidéo (A/V) ; et sessions de partage d’application. Ces informations vous aident à savoir quelles fonctionnalités Skype Entreprise Server sont utilisées (et celles qui ne le sont pas) et fournissent également des informations sur le moment où ces fonctionnalités sont utilisées. Les données QoE vous permettent de conserver un enregistrement de la qualité des appels audio et vidéo passés dans votre organisation, tout en vous informant sur le nombre de paquets réseau perdus, le bruit de fond et le montant de « gigue » (différences de retard des paquets).
 
-Si vous choisissez d’activer la surveillance dans Skype Entreprise Server vous pouvez activer la surveillance cdr et la surveillance QoE, ou vous pouvez activer un type de surveillance tout en laissant l’autre type désactivé. Par exemple, supposons que vos utilisateurs se servent uniquement de la messagerie instantanée et du transfert de fichier, et ne passent pas d’appels audio ou vidéo. Dans ce cas, l’activation de la surveillance QoE s’avère superflue. De même, Skype Entreprise Server permet d’activer et de désactiver facilement la surveillance après le déploiement de la surveillance. Par exemple, il est possible que vous choisissiez de déployer la surveillance tout en laissant la surveillance QoE désactivée dans un premier temps. Si vos utilisateurs commencent à rencontrer des problèmes avec les appels audio et vidéo, vous pouvez alors activer la surveillance QoE et utiliser ces données pour vous aider à dépanner et résoudre ces problèmes.
+Si vous choisissez d’activer la surveillance dans Skype Entreprise Server vous pouvez activer la surveillance cdr et la surveillance QoE, ou vous pouvez activer un type de surveillance tout en laissant l’autre type désactivé. Par exemple, supposons que vos utilisateurs se servent uniquement de la messagerie instantanée et du transfert de fichier, et ne passent pas d’appels audio ou vidéo. Dans ce cas, l’activation de la surveillance QoE s’avère superflue. De même, Skype Entreprise Server permet d’activer et de désactiver facilement la surveillance une fois la surveillance déployée. Par exemple, il est possible que vous choisissiez de déployer la surveillance tout en laissant la surveillance QoE désactivée dans un premier temps. Si vos utilisateurs commencent à rencontrer des problèmes avec les appels audio et vidéo, vous pouvez alors activer la surveillance QoE et utiliser ces données pour vous aider à dépanner et résoudre ces problèmes.
 
-Il n’existe aucun avantage (ou inconvénient) particulier à installer la surveillance en même temps que vous installez la Skype Entreprise Server et l’installation de la surveillance une fois Skype Entreprise Server installé. Le point à garder à l’esprit est que, avant d’installer la surveillance, vous devez sélectionner un ordinateur pour héberger le magasin d’analyse back-end, et une version prise en charge de SQL Server doit être installée et configurée sur cet ordinateur pour que cet ordinateur puisse être utilisé pour la surveillance. Si vous avez déjà installé SQL Server sur un ordinateur et que cet ordinateur est prêt à être utilisé, vous pouvez installer la surveillance en même temps que vous installez Skype Entreprise Server. Si vous n’avez pas d’ordinateur back-end prêt, vous pouvez installer Skype Entreprise Server seul, puis installer la surveillance chaque fois que l’ordinateur back-end est prêt à être utilisé.
+Il n’y a aucun avantage (ou inconvénient) particulier à installer la surveillance en même temps que vous installez Skype Entreprise Server et l’installation de la surveillance une fois Skype Entreprise Server installé. Le point à garder à l’esprit est que, avant d’installer la surveillance, vous devez sélectionner un ordinateur pour héberger le magasin d’analyse back-end, et une version prise en charge de SQL Server doit être installée et configurée sur cet ordinateur pour que cet ordinateur puisse être utilisé pour la surveillance. Si vous avez déjà installé SQL Server sur un ordinateur et que cet ordinateur est prêt à être utilisé, vous pouvez installer la surveillance en même temps que vous installez Skype Entreprise Server. Si vous n’avez pas d’ordinateur back-end prêt, vous pouvez installer Skype Entreprise Server seul, puis installer la surveillance chaque fois que l’ordinateur back-end est prêt à être utilisé.
 
  **De combien de bases de données de surveillance principale avez-vous besoin ?** Il a été estimé qu’une base de données cocquée pour la surveillance et l’archivage peut prendre en charge 240 000 Skype Entreprise Server utilisateurs). En outre, une base de données de surveillance unique peut être utilisée par plusieurs pools frontux ; Si vous avez trois pools frontux dans votre organisation, vous pouvez associer ces trois pools au même magasin principal.
 
@@ -99,7 +99,7 @@ Remarquez que vous pouvez prendre cette décision avant de déployer la surveill
 
 Les agents de collecte de données unifiés sont automatiquement installés et activés sur chaque serveur frontal lorsque vous activez la surveillance. Pour les versions de SQL Server et d’autres détails pris en charge, voir [Server requirements for Skype Entreprise Server 2015](requirements-for-your-environment/server-requirements.md)
 
-Les données de surveillance peuvent partager une instance SQL Server avec d’autres types de données. En règle générale, la base de données d’enregistrement des détails des appels (LcsCdr) et la base de données de qualité de l’expérience (QoEMetrics) partagent la même instance SQL’appel ; Il est également courant que les deux bases de données de surveillance se trouve dans la même instance SQL que la base de données d’archivage (LcsLog). La seule condition réelle avec les instances SQL Server est qu’une instance de SQL Server est limitée à ce qui suit :
+Les données de surveillance peuvent partager une instance SQL Server avec d’autres types de données. En règle générale, la base de données d’enregistrement des détails des appels (LcsCdr) et la base de données de qualité de l’expérience (QoEMetrics) partagent la même instance SQL’appel ; Il est également courant que les deux bases de données de surveillance se trouve dans la même instance SQL que la base de données d’archivage (LcsLog). À propos de la seule condition réelle avec SQL Server instances de données est qu’une instance de SQL Server est limitée aux suivantes :
 
 - Une instance de la base Skype Entreprise Server base de données principale 2015. (En règle générale, il n’est pas recommandé que votre base de données de surveillance soit coquetée dans la même instance SQL, ou même sur le même ordinateur, que la base de données principale. Bien que techniquement possible, vous risquez que la base de données de surveillance utilise l’espace disque requis par la base de données principale.)
 

@@ -2,7 +2,7 @@
 title: Expanseur des paramètres généraux du directeur
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 'Les sections suivantes vous permettent de modifier les paramètres d’un directeur existant :'
-ms.openlocfilehash: 610145333ade88f6f190905cf1c263cea0025a44
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4913b70a585b18c1ce4dbe12a435ca5d39bcc216
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773894"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851168"
 ---
 # <a name="director-general-settings-expander"></a>Expandeur des paramètres généraux du directeur
  

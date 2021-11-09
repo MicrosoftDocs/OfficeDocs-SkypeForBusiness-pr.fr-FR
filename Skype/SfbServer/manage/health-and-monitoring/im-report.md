@@ -2,7 +2,7 @@
 title: Rapport de messagerie instantanée D’égal à égal dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 'Résumé : Découvrez le rapport de messagerie instantanée D’égal à égal dans Skype Entreprise Server.'
-ms.openlocfilehash: 999750f039b2ca57cc31198bcf1599f042763ed3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f72200547ca8af3fa2ebde0e44c4707c82a1596b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767662"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834202"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Rapport de messagerie instantanée D’égal à égal dans Skype Entreprise Server
  
@@ -62,11 +62,11 @@ Le tableau suivant répertorie les informations fournies dans le rapport de mess
 |**Date/Heure** <br/> |Non  <br/> |Date et heure des sessions.  <br/> |
 |**Total** <br/> |Non  <br/> |Nombre total de sessions ou de messages.  <br/> |
    
-## <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a>Mesures de la session de messagerie instantanée D’égal à égal par type d’authentification
+## <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a>Mesures de la session de messagerie instantanée P2D par type d’authentification
 
 Le tableau suivant répertorie les informations fournies dans le rapport de messagerie instantanée D’égal à égal pour chaque type d’authentification utilisé par les participants dans une session d’égal à égal.
   
-**Mesures de la session de messagerie instantanée D’égal à égal par type d’authentification**
+**Mesures de la session de messagerie instantanée P2D par type d’authentification**
 
 |**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|

@@ -2,7 +2,7 @@
 title: Configurer des clauses d’exclusion de responsabilité d’archivage pour les utilisateurs externes dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer une clause d’exclusion de responsabilité d’archivage pour Skype Entreprise Server.'
-ms.openlocfilehash: a5777a416d634f6d767efbec97f2c72bc7899c47
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 05eaec40556b383525331405463ee6d0a10e0a13
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773394"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834712"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Configurer des clauses d’exclusion de responsabilité d’archivage pour les utilisateurs externes dans Skype Entreprise Server
  
@@ -27,7 +27,7 @@ Si votre organisation communique avec des partenaires externes, vous devez leur 
   
 Si vous devez modifier cette configuration, vous pouvez utiliser le Panneau de configuration Skype Entreprise Server ou l’Windows PowerShell cmdlet **Set-CsAccessEdgeConfiguration.** Les cmdlets peuvent être exécutés à partir de l’Skype Entreprise Server de gestion ou d’une session distante de Windows PowerShell.
   
-Pour permettre aux utilisateurs externes de collaborer avec des utilisateurs dans votre déploiement Skype Entreprise Server, vous devez également configurer au moins une stratégie d’accès externe pour prendre en charge l’accès des utilisateurs externes. Pour plus d’informations, voir Manage XMPP Federated Partners for Your Organization. Pour plus d’informations sur le contrôle de l’accès pour des domaines fédérés spécifiques, voir Control Access by Individual Federated Domains.
+Pour permettre aux utilisateurs externes de collaborer avec des utilisateurs dans votre déploiement Skype Entreprise Server, vous devez également configurer au moins une stratégie d’accès externe pour prendre en charge l’accès des utilisateurs externes. Pour plus d’informations, voir Manage XMPP Federated Partners for Your Organization. Pour plus d’informations sur le contrôle d’accès pour des domaines fédérés spécifiques, voir Control Access by Individual Federated Domains.
   
 ## <a name="enable-or-disable-archiving-disclaimer-using-the-control-panel"></a>Activer ou désactiver la clause d’exclusion de responsabilité d’archivage à l’aide du Panneau de contrôle
 

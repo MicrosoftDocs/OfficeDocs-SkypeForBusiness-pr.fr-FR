@@ -1,6 +1,6 @@
 ---
 title: Utiliser PowerShell pour définir des stratégies d’événements en direct
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 07/10/2019
@@ -18,12 +18,12 @@ description: Exemples d’utilisation de PowerShell pour définir des stratégie
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0c167d29811008718b7de080e79b62da1117d118
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cda9da872d8464064c137713e8eb16ceede7941e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769792"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851728"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams
 
@@ -56,13 +56,13 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
 ### <a name="user-scenarios"></a>Scénarios utilisateur
-**Vous souhaitez que tous les utilisateurs de votre organisation puissent planifier des événements en direct**
+**Vous voulez que tous les utilisateurs de votre organisation puissent planifier des événements en direct**
 
 Si la stratégie globale est affectée aux utilisateurs, exécutez et vérifiez que *AllowBroadcastScheduling* *est définie sur *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-Si des utilisateurs ont une stratégie autre que la stratégie globale, exécutez et vérifiez que la planification *-AllowBroadcast est* définie sur *True*:
+Si des utilisateurs ont une stratégie autre que la stratégie globale, exécutez et vérifiez que la planification *-AllowBroadcast* est définie sur *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
@@ -79,7 +79,7 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 **Vous souhaitez qu’un grand nombre d’utilisateurs puissent planifier des événements en direct et empêcher un ensemble d’utilisateurs de les planifier**
 
-Exécutez et vérifiez que *la planification AllowBroadcast* est définie sur *True*:
+Exécutez et vérifiez que *La planification AllowBroadcast* est définie sur *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
@@ -145,6 +145,6 @@ Définissez la stratégie globale pour activer les légendes et sous-titres en d
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Voir aussi
 - [Configurer les événements en direct Teams](set-up-for-teams-live-events.md)
 - [Présentation de Teams PowerShell](../teams-powershell-overview.md)

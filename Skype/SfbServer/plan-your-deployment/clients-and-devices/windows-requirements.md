@@ -1,7 +1,7 @@
 ---
 title: Windows client et prise en charge des logiciels
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Résumé : Examinez les exigences Windows prise en charge du client lors de la planification Skype Entreprise Server.'
-ms.openlocfilehash: 143fdf0e03f6ea125e7b1cbfb3aa0e7a6a93788b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b38c1d7a3565fbc2250766dbed3a0413b914388f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770212"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859901"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows client et prise en charge des logiciels
  
@@ -33,13 +33,13 @@ Cette section récapitule les logiciels requis pour prendre en charge Skype Entr
 > [!NOTE]
 > Le add-in de réunion en ligne pour Skype Entreprise, qui prend en charge la gestion des réunions à partir du client de messagerie et de collaboration Outlook, s’installe automatiquement avec Skype Entreprise. 
   
-**Logiciel requis pour Skype Entreprise client et le module de réunion en ligne**
+**Logiciel requis pour Skype Entreprise client et le add-in de réunion en ligne**
 
 |**Composant système**|**Versions prises en charge**|
 |:-----|:-----|
 |Windows Système d'exploitation  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> Windows Server 2008 R2 ou version ultérieure avec le dernier Service Pack  <br/> **Remarque :** Skype Entreprise et le Skype Entreprise de réunion en ligne ne sont pas pris en charge sur Windows Vista ou Windows XP (n’importe quelle version). <br/> |
 |Installation et mises à jour  <br/> |Droits et autorisations d’administrateur  <br/> |
-|Navigateur  <br/> |Microsoft Edge  <br/> Navigateur Internet Explorer 11  <br/>  Internet Explorer 10 navigateur Internet <br/> Navigateur Internet Explorer 9  <br/> Navigateur Internet Explorer 8  <br/> Navigateur Internet Explorer 7  <br/> Navigateur web Mozilla Firefox  <br/>  Navigateur web Google Chrome  <br/>**Remarque :** Si vous utilisez Skype Entreprise avec Microsoft Exchange Online et que votre organisation a déployé un proxy HTTP d’authentification, Internet Explorer 8 ou une ultérieure est requis.           |
+|Navigateur  <br/> |Microsoft Edge  <br/> Navigateur Internet Explorer 11  <br/>  Internet Explorer 10 navigateur Internet <br/> Navigateur Internet Internet d’Internet Explorer 9  <br/> Navigateur Internet Explorer 8  <br/> Navigateur Internet Explorer 7  <br/> Navigateur web Mozilla Firefox  <br/>  Navigateur web Google Chrome  <br/>**Remarque :** Si vous utilisez Skype Entreprise avec Microsoft Exchange Online et que votre organisation a déployé un proxy HTTP d’authentification, Internet Explorer 8 ou une ultérieure est requis.           |
 |Intégration à Microsoft Office  <br/> | Outlook 2010 ou version ultérieure |
 |Intégration à Microsoft Exchange  <br/> | Microsoft Exchange Server 2010 ou ultérieure  | 
    

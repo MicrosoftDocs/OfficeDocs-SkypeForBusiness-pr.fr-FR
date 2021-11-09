@@ -2,7 +2,7 @@
 title: Installer le magasin de configurations local
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour commencer l’installation d’un nouveau serveur de rôles Skype Entreprise Server, vous devez d’abord installer le SQL Server local qui hébergera le magasin de configurations local. Le magasin de configurations local agit comme un réplica en lecture seule du magasin central de gestion Skype Entreprise Server (CMS).
-ms.openlocfilehash: 993eaa4e07a1b14e1ddeef11c80a15b4869b7719
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 82e82bc87a20f1bd4c86c4aa7c3e8c6bc8858c1b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738660"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859571"
 ---
 # <a name="install-local-configuration-store"></a>Installer le magasin de configurations local
 
@@ -28,11 +28,11 @@ Pour commencer l’installation d’un nouveau serveur de rôles Skype Entrepris
 
 Pour commencer l’installation :
 
-1. Dans la page Skype Entreprise Server, à côté de l’étape 1 : Installer **le magasin de configurations local,** cliquez sur **Exécuter**.
+1. Dans la page Skype Entreprise Server, à côté de **l’étape 1 : Installer le magasin de configurations local,** cliquez sur **Exécuter**.
 
 2. Dans la page **Configuration du serveur local**, assurez-vous que l’option **Récupérer automatiquement la configuration à partir du magasin central de gestion** est sélectionnée, puis cliquez sur **Suivant**.
 
 3. Une fois l’installation terminée, cliquez sur **Terminer**.
 
 > [!NOTE]
-> L’installation du SQL Server local peut prendre un certain temps. Les mises à jour de la progression ne s’afficheront pas dans l’écran récapitulatif de l’installation pendant SQL Server’installation. Si vous souhaitez surveiller la progression de l’installation, utilisez le Gestionnaire des tâches pour surveiller SQL Server configuration.
+> L’installation du SQL Server local peut prendre un certain temps. Vous ne verrez pas les mises à jour sur la progression dans l’écran récapitulatif de l’installation pendant SQL Server est en cours d’installation. Si vous souhaitez surveiller la progression de l’installation, utilisez le Gestionnaire des tâches pour surveiller SQL Server configuration.

@@ -2,7 +2,7 @@
 title: Conditions préalables et configuration de la Skype de l’outil Stress and Performance de Busines
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Conditions requises ou conditions préalables pour l Skype Entreprise Server 2015 Stress and Performance Tool. Comment installer ou configurer l’outil Stress and Performance.
-ms.openlocfilehash: 87c42d63e394c6beea68c23b8e1d7cff7b07266c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 60ff4476a92949b2f5ba0d7a027b5cadf3eab533
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771920"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835162"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Conditions préalables et configuration de la Skype de l’outil Stress and Performance de Busines
  
