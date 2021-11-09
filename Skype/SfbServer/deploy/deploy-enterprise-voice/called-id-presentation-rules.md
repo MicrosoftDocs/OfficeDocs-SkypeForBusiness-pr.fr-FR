@@ -2,7 +2,7 @@
 title: Créer ou modifier une règle de traduction pour la présentation de l’ID appelé dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Résumé : Découvrez comment définir une règle de traduction à l’aide de l’outil Créer une règle de traduction dans Skype Entreprise Server.'
-ms.openlocfilehash: 780fc46c93d1f183263192edb33999d758b95c8c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 82e737ddcd7ed7c17de3cdd968d31996e50074be
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738940"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864431"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Créer ou modifier une règle de traduction pour la présentation de l’ID appelé dans Skype Entreprise Server
 
@@ -80,7 +80,7 @@ Si vous souhaitez définir une règle de traduction, suivez  ces étapes en entr
 
 3. Dans le champ **Nom** dans la page **Nouvelle règle de traduction** ou **Modifier la règle de traduction**, tapez un nom décrivant le modèle de numéro en cours de traduction.
 
-4. (Facultatif) Dans **Description,** tapez une description de la règle de traduction, par exemple la numérotation longue distance US International.
+4. (Facultatif) Dans **Description,** tapez une description de la règle de traduction, par exemple la numérotation longue distance us-international.
 
 5. Cliquez sur **Modifier** au bas de la section **Créer une règle de traduction**.
 

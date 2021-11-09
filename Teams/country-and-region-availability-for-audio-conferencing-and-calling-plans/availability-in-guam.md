@@ -1,6 +1,6 @@
 ---
 title: Disponibilité dans Guam
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 disponibles Skype Entreprise et Microsoft Teams disponibles pour Guam.
-ms.openlocfilehash: 78f3b64cd7311ceee0f680c5edc6703f9c2d9b29
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Voici les services Microsoft 365 et Office 365 disponibles Skype Entreprise et Microsoft Teams pour Guam.
+ms.openlocfilehash: 8aa149c1f6f8da23db0f55f8c39c0ac740689f3e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759316"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827427"
 ---
 # <a name="availability-in-guam"></a>Disponibilité dans Guam
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 disponibles Skype Entreprise et Microsoft Teams disponibles pour Guam.
+Voici les services Microsoft 365 et Office 365 disponibles Skype Entreprise et Microsoft Teams pour Guam.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

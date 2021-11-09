@@ -1,7 +1,7 @@
 ---
 title: Gérer les comptes de système de salle Skype
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
 description: Lisez cette rubrique pour découvrir comment gérer Skype comptes Room System.
-ms.openlocfilehash: aa25b61f8f42043d9bcabe99ff20c1fcf6d1950e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2ae91a977a837e2b1b54db8d127551b5f53bb1a8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741480"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864451"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Gérer les comptes de système de salle Skype
  
@@ -45,4 +45,4 @@ Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com
 
 ## <a name="optional-create-a-skype-room-system-administrator-group-in-active-directory"></a>Facultatif : créer un groupe d Skype de salle de réunion dans Active Directory
 
-Chaque client Skype Room System qui joint le domaine peut être entièrement géré par un utilisateur de domaine ayant des droits d’administrateur local sur le PC appliance Skype Room System. Par conséquent, vous pouvez créer un groupe d’administrateurs dédié dans Active Directory et accorder à ce groupe des droits d’administration lors de la mise en place de la nouvelle machine Skype Room System.
+Chaque client Skype Room System qui joint le domaine peut être entièrement géré par un utilisateur de domaine ayant des droits d’administrateur local sur le PC Skype Room System Appliance. Par conséquent, vous pouvez créer un groupe d’administrateurs dédié dans Active Directory et accorder à ce groupe des droits d’administration lors de la mise en place de la nouvelle machine Skype Room System.

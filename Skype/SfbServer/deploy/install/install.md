@@ -2,7 +2,7 @@
 title: Installer Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/14/2018
 audience: ITPro
@@ -14,23 +14,23 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
-description: "Résumé : Découvrez comment préparer votre environnement pour une installation de Skype Entreprise Server. Téléchargez une version d’Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
-ms.openlocfilehash: acbe9f23c2158966200600caa92d33d0aafc6b1a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: "Résumé : Découvrez comment préparer votre environnement pour une installation de Skype Entreprise Server. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
+ms.openlocfilehash: 6b99befcafea7467d0a7211b4e18add7395ebb75
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773204"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850347"
 ---
 # <a name="install-skype-for-business-server"></a>Installer Skype Entreprise Server
  
-**Résumé :** Découvrez comment préparer votre environnement pour une installation de Skype Entreprise Server. Téléchargez une version d’Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) l':.
+**Résumé :** Découvrez comment préparer votre environnement pour une installation de Skype Entreprise Server. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) l':.
   
-Cet article vous présente un exemple d’installation de Skype Entreprise Server. Cet article ne tente pas de couvrir toutes les procédures dont vous avez besoin pour effectuer une installation Skype Entreprise Server complète. L’objectif est de fournir des exemples de procédures dans une topologie à définition étroite qui inclut des fonctionnalités de base de meet-and-share.
+Cet article vous présente un exemple d’installation de Skype Entreprise Server. Cet article ne tente pas de couvrir toutes les procédures dont vous avez besoin pour effectuer une installation Skype Entreprise Server complète. L’objectif est de fournir des exemples de procédures dans une topologie définie de manière étroite qui inclut des fonctionnalités de base de meet-and-share.
   
 ## <a name="overview-of-the-install-process-for-skype-for-business-server"></a>Vue d’ensemble du processus d’installation Skype Entreprise Server
 
-Une installation de Skype Entreprise Server comprend de nombreuses procédures différentes. Les procédures dont vous avez besoin pour Skype Entreprise Server en cours d’exécution dans votre environnement dépendent des spécificités de votre environnement. Par exemple, si vous utilisez Windows Server pour DNS, vous bénéficierez de l’exemple de procédure d’ajout d’une entrée DNS. Si vous utilisez un autre système pour DNS, vous devez suivre les procédures pour votre système DNS particulier. Cela est vrai pour la plupart des procédures de cette section.
+Une installation de Skype Entreprise Server comprend de nombreuses procédures différentes. Les procédures dont vous avez besoin pour Skype Entreprise Server en cours d’exécution dans votre environnement dépendent des spécificités de votre environnement. Par exemple, si vous utilisez Windows Server pour DNS, vous bénéficierez de l’exemple de procédure d’ajout d’une entrée DNS. Si vous utilisez un autre système pour DNS, vous devez suivre les procédures pour votre système DNS particulier. Cela est vrai pour de nombreuses procédures de cette section.
   
 Skype Entreprise Server est disponible dans Édition Standard et Êdition Entreprise. La principale différence est que Édition Standard ne prend pas en charge les fonctionnalités de haute disponibilité incluses dans Êdition Entreprise. 
   

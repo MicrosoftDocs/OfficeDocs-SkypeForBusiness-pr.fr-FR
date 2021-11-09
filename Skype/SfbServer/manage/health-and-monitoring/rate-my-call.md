@@ -2,7 +2,7 @@
 title: Évaluer mon appel dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 'Résumé : Découvrez la fonctionnalité Évaluer mon appel dans Skype Entreprise Server.'
-ms.openlocfilehash: 7786a5e3cb41918c34e5413259b27a01e3f94aaf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f19424edfb4169a27e10a8b5ac1624065e6288dd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768752"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864831"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Évaluer mon appel dans Skype Entreprise Server
 
@@ -35,7 +35,7 @@ Pour que les utilisateurs de votre déploiement Skype Entreprise Server peuvent 
 
 -  Vous devez avoir Skype Entreprise Server installé (version 9160 ou supérieure).
 
-- Demandez à vos utilisateurs d’installer et de mettre à jour la dernière version de Skype Entreprise et de leur demander d’utiliser l Skype Entreprise’interface utilisateur.
+- Demandez à vos utilisateurs d’installer et de mettre à jour la dernière version de Skype Entreprise et de leur demander d’utiliser l’interface Skype Entreprise utilisateur.
 
 - Les utilisateurs doivent être homed on the Skype Entreprise Server front end pool.
 
@@ -63,7 +63,7 @@ Les données des utilisateurs sont collectées dans deux tables de la base de do
 
  **[QoeMetrics]. [dbo]. [CallQualityFeedbackToken]** - Ce tableau contient les résultats de l’interrogation des jetons par les utilisateurs finaux.
 
- **[QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef]** - Ce tableau contient les définitions de jeton.
+ **[QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef]** - Ce tableau contient des définitions de jeton.
 
 Les définitions de jeton sont codées comme suit :
 
@@ -72,7 +72,7 @@ Les définitions de jeton sont codées comme suit :
 |1  <br/> |DistortedSpeech  <br/> |
 |2  <br/> | ElectronicFeedback <br/> |
 |3  <br/> | BackgroundNoise <br/> |
-|4   <br/> |MuffledSpeech  <br/> |
+|4  <br/> |MuffledSpeech  <br/> |
 |5  <br/> |Écho  <br/> |
 | 21  <br/> | FrozenVideo <br/> |
 |22  <br/> | PixelatedVideo <br/> |
@@ -108,9 +108,9 @@ Les définitions de jeton sont codées comme suit :
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
 
- **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Ce tableau contient les résultats des sondages provenant du vote « Étoile » et des commentaires des clients si activés.
+ **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Ce tableau contient les résultats des sondages provenant du vote « Star » et des commentaires des clients si activés.
 
-Les données des tables peuvent être appelées à l’aide d’une requête select à partir de **\* [Table.Name]** ou à l’aide de Microsoft SQL Server Management Studio.
+Les données des tables peuvent être appelées à l’aide d’une requête **\* [Table.Name]** ou à l’aide de Microsoft SQL Server Management Studio.
 
 Les requêtes SQL suivantes peuvent être utilisées :
 
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>Mise à jour des définitions de jeton
 
-Les derniers Skype Entreprise clients signalent de nouveaux ID de jeton de problème ( 100) qui ne sont peut-être pas présents dans \> votre [QoeMetrics].[ dbo]. Table [CallQualityFeedbackTokenDef]. Pour mettre à jour la table de base de données avec les définitions de jeton les plus récentes, la commande SQL suivante peut être exécuté sur la base de données de surveillance à l’aide Microsoft SQL Server Management Studio. Cette commande remplace toutes les entrées de [QoeMetrics]. [dbo]. Table [CallQualityFeedbackTokenDef].
+Les derniers Skype Entreprise clients signalent de nouveaux ID de jeton de problème ( 100) qui peuvent ne pas être présents dans \> votre [QoeMetrics].[ dbo]. Table [CallQualityFeedbackTokenDef]. Pour mettre à jour la table de base de données avec les définitions de jeton les plus récentes, la commande SQL suivante peut être exécuté sur la base de données de surveillance à l’aide Microsoft SQL Server Management Studio. Cette commande remplace toutes les entrées de [QoeMetrics]. [dbo]. Table [CallQualityFeedbackTokenDef].
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

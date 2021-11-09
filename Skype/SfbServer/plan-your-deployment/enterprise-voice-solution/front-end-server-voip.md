@@ -2,7 +2,7 @@
 title: Composants VoIP du serveur frontal pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: Découvrez les composants Voix Entreprise qui se trouvent sur les serveurs frontaux dans Skype Entreprise Server, y compris le service de traduction et divers composants de routage.
-ms.openlocfilehash: cb57e3c4d06ff77661453321a7b4f3254c780822
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d649185ccc83da925cc7341087d373d67523b5b6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751563"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850727"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Composants VoIP du serveur frontal pour Skype Entreprise Server
 
@@ -51,7 +51,7 @@ Le composant de routage entrant gère essentiellement les appels entrants selon 
 
 ## <a name="outbound-routing-component"></a>Composant de routage sortant
 
-Le composant de routage sortant achemine les appels vers des destinations PBX ou PSTN. Il applique des règles d’autorisation d’appel, telles que définies par la stratégie de voix de l’utilisateur, aux appelants et détermine la passerelle PSTN optimale pour le routage de chaque appel. Le composant de routage sortant est installé par défaut sur tous les serveurs Édition Standard serveur frontal et frontal.
+Le composant de routage sortant achemine les appels vers des destinations PBX ou PSTN. Il applique des règles d’autorisation d’appel, telles que définies par la stratégie de voix de l’utilisateur, aux appelants et détermine la passerelle PSTN optimale pour le routage de chaque appel. Le composant de routage sortant est installé par défaut sur tous les serveurs Édition Standard serveurs frontux.
 
 La logique de routage qu’il utilise est en grande partie configurée par les administrateurs réseau ou de téléphonie en fonction des exigences de leur organisation.
 
@@ -59,7 +59,7 @@ La logique de routage qu’il utilise est en grande partie configurée par les a
 
 Le Exchange de routage de messagerie unifiée gère le routage entre Skype Entreprise Server et les serveurs exécutant la messagerie unifiée Exchange afin d’intégrer les Skype Entreprise Server aux fonctionnalités de messagerie unifiée.
 
-Le Exchange de routage de messagerie un peu plus importante gère également le réroutage de la messagerie vocale sur le réseau R EXCHANGE si les serveurs de messagerie un Exchange sont indisponibles. Si vous avez des utilisateurs Voix Entreprise sur les sites de succursale qui ne disposent pas d’une liaison de réseau wan résiliente vers un site central, le Survivable Branch Appliance que vous déployez sur le site de succursale offre une survivabilité de messagerie vocale pour les utilisateurs de succursale lors d’une panne de réseau wan. Lorsque la liaison WAN est indisponible, l'appareil Survivable Branch Appliance procède comme suit :
+Le Exchange de routage de messagerie unie gère également le réroutage de la messagerie vocale sur le réseau R EXCHANGE si les serveurs de messagerie un Exchange sont indisponibles. Si vous avez des utilisateurs Voix Entreprise sur les sites de succursale qui ne disposent pas d’une liaison de réseau wan résiliente vers un site central, le Survivable Branch Appliance que vous déployez sur le site de succursale offre une survivabilité de messagerie vocale pour les utilisateurs de succursale lors d’une panne de réseau wan. Lorsque la liaison WAN est indisponible, l'appareil Survivable Branch Appliance procède comme suit :
 
 - réachemine les appels sans réponse via la passerelle PSTN vers le serveur de messagerie unifiée Exchange localisé sur le site central ;
 
@@ -79,8 +79,8 @@ Le composant de routage Intercluster est responsable du routage des appels vers 
 
 Les autres composants résidant sur le serveur frontal ou le directeur qui fournissent une prise en charge essentielle pour VoIP, mais qui ne sont pas eux-mêmes des composants VoIP, sont les suivants :
 
-- **Services d’utilisateurs** : effectuent une recherche inversée de numéros sur le numéro de téléphone de destination de chaque appel entrant et associent ce numéro à l’URI SIP de l’utilisateur de destination. À l’aide de ces informations, le composant de routage entrant distribue l’appel aux points de terminaison SIP inscrits de cet utilisateur. Les services d’utilisateurs sont un composant essentiel de tous les serveurs frontaux et directeurs.
+- **Services d’utilisateurs** : effectuent une recherche inversée de numéros sur le numéro de téléphone de destination de chaque appel entrant et associent ce numéro à l’URI SIP de l’utilisateur de destination. À l’aide de ces informations, le composant de routage entrant distribue l’appel aux points de terminaison SIP enregistrés de cet utilisateur. Les services d’utilisateurs sont un composant essentiel sur tous les serveurs frontaux et directeurs.
 
 - **Réplicateur d’utilisateurs** Extrait les numéros de téléphone des services de domaine Active Directory et les écrit dans des tables de la base de données RTC, où ils sont disponibles pour les services d’utilisateurs et le serveur de carnet d’adresses. Le réplicateur d’utilisateurs est un composant principal sur tous les serveurs frontux.
 
-- **Serveur de carnet d’adresses** Fournit des informations de liste d’adresses globales des services de domaine Active Directory Skype Entreprise Server clients. Il récupère également les informations d’utilisateur et de contact de la base de données RTC, écrit les informations dans les fichiers de carnet d’adresses, puis stocke les fichiers dans un dossier partagé où ils sont téléchargés par les clients Skype Entreprise. Le serveur de carnet d’adresses écrit les informations dans la base de données RTCAb, qui est utilisée par le service de requête Web du carnet d’adresses pour répondre aux requêtes de recherche des utilisateurs à partir Skype Entreprise mobile. Elle normalise éventuellement les numéros de téléphone des utilisateurs d’entreprise qui sont écrits dans la base de données RTC dans le but de mettre en service les contacts des utilisateurs dans Skype Entreprise. Le service de carnet d’adresses est installé par défaut sur tous les serveurs frontux. Le service de requête Web du carnet d’adresses est installé par défaut avec les services Web sur chaque serveur frontal.
+- **Serveur de carnet d’adresses** Fournit des informations de liste d’adresses globale des services de domaine Active Directory Skype Entreprise Server clients. Il récupère également les informations d’utilisateur et de contact de la base de données RTC, écrit les informations dans les fichiers de carnet d’adresses, puis stocke les fichiers dans un dossier partagé où ils sont téléchargés par les clients Skype Entreprise. Le serveur de carnet d’adresses écrit les informations dans la base de données RTCAb, qui est utilisée par le service de requête Web du carnet d’adresses pour répondre aux requêtes de recherche des utilisateurs à partir Skype Entreprise mobile. Elle normalise éventuellement les numéros de téléphone des utilisateurs d’entreprise écrits dans la base de données RTC dans le but de mettre en service les contacts des utilisateurs dans Skype Entreprise. Le service de carnet d’adresses est installé par défaut sur tous les serveurs frontux. Le service de requête Web du carnet d’adresses est installé par défaut avec les services Web sur chaque serveur frontal.

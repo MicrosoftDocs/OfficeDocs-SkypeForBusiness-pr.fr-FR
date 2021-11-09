@@ -2,7 +2,7 @@
 title: Branch site SIP trunking in Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: Découvrez la trunking SIP sur les sites de succursale dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 9fd9bb742b61516ca450082c187fb460bacdf11d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b8c1c930bb2500ca9330b14cce7fd5b341db60a9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765292"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829898"
 ---
 # <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Branch site SIP trunking in Skype Entreprise Server
  

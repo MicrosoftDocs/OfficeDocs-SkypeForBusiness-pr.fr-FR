@@ -2,7 +2,7 @@
 title: Expanseur des paramètres généraux d’un Branch Office Appliance pour Lync Server 2010
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
-description: 'Pour modifier les propriétés du Survivable Branch Appliance ou du Survivable Branch Server, sous Général, vous configurez :'
-ms.openlocfilehash: f43d0e2cc5a68d8e25143c043aab8ac8faf8bba3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Pour modifier les propriétés du Survivable Branch Appliance ou du Survivable Branch Server, sous Général, configurez :'
+ms.openlocfilehash: 872ad2158b5fa21ebaebd418755a9c1e5feb116d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751943"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842807"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Expandeur des paramètres généraux d’un Branch Office Appliance pour Lync Server 2010
  
@@ -36,7 +36,7 @@ Pour modifier les propriétés du Survivable Branch Appliance ou du Survivable B
     
     **Adresse IP PSTN** : l’adresse IP associée aux fonctions du réseau téléphonique commuté.
     
-- Vous configurez **les associations** pour vous assurer que d’autres rôles serveur sont configurés et associés au Survivable Branch Appliance ou au serveur Survivable Branch Server.
+- Vous configurez les **associations** pour vous assurer que d’autres rôles serveur sont configurés et associés au Survivable Branch Appliance ou au serveur Survivable Branch Server.
     
     **Associer un serveur d’archivage** Dans la liste, sélectionnez le serveur d’archivage que vous souhaitez associer au Survivable Branch Appliance ou au serveur Survivable Branch Server
     

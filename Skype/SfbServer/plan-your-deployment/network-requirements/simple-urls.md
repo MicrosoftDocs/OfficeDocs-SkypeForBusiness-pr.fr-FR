@@ -2,7 +2,7 @@
 title: DNS requirements for simple URLs in Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Résumé : Examinez les considérations sur les URL simples de cette rubrique avant d’implémenter des enregistrements DNS pour Skype Entreprise Server.'
-ms.openlocfilehash: d638ff2d3d1b89deaad90c054698692e70ffaae7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1dd3b4b06b704e7d840dd6f430a9ba9782913a3b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777914"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864671"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>DNS requirements for simple URLs in Skype Entreprise Server
 
@@ -123,7 +123,7 @@ Lorsque vous utilisez cette méthode, vous pouvez configurer chaque adresse GeoD
 
 Vous pouvez définir la même configuration pour l’URL simple Dial-In. Pour ce faire, créez des enregistrements supplémentaires comme ceux de l’exemple précédent, en les remplaçant dans les enregistrements  `dialin` `meet` DNS. Pour l’URL simple Admin, utilisez l’une des trois options mentionnées plus haut dans cette section.
 
-Après avoir défini cette configuration, vous devez utiliser une application de surveillance pour configurer la recherche de défaillance via la surveillance HTTP. Pour l’accès externe, surveillez pour vous assurer que HTTPS GET lyncdiscover.<sipdomain> les demandes au FQDN web externe ou à l’adresse IP de l’équilibreur de charge pour les deux pools sont réussies. Par exemple, les demandes suivantes ne doivent pas contenir d’en-tête **ACCEPT** et doivent retourner **200 OK**.
+Après avoir défini cette configuration, vous devez utiliser une application de surveillance pour configurer la recherche de défaillance via la surveillance HTTP. Pour l’accès externe, surveillez pour vous assurer que HTTPS GET lyncdiscover.\<sipdomain> les demandes au FQDN web externe ou à l’adresse IP de l’équilibreur de charge pour les deux pools sont réussies. Par exemple, les demandes suivantes ne doivent pas contenir d’en-tête **ACCEPT** et doivent retourner **200 OK**.
 
 ```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root

@@ -2,7 +2,7 @@
 title: Nouveautés de Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2017
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les nouvelles fonctionnalités Skype Entreprise Server 2015. Pour plus d’informations sur la nouvelle expérience client, consultez la Skype Entreprise Lync : découvrez les nouveautés.'
-ms.openlocfilehash: aac68c369983b85ecb95b5000dc41d95e2080d6d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d0ef9ff1790eba546dd54a9fa78c9f63f2b532f4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760562"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829748"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Nouveautés de Skype Entreprise Server 2015
 
@@ -101,7 +101,7 @@ Skype Entreprise Server 2015 propose plusieurs nouvelles fonctionnalités pour a
   
 ### <a name="in-place-upgrade-for-on-premises-servers"></a>Mise à niveau sur place pour les serveurs locaux
 
-Vous pouvez désormais mettre à niveau les systèmes Lync Server 2013 vers Skype Entreprise Server 2015 à l’aide de la nouvelle fonctionnalité de mise à niveau sur place, qui utilise des investissements matériels et serveur Lync Server 2013 existants, réduisant ainsi le coût global du déploiement de Skype Entreprise Server 2015.
+Vous pouvez désormais mettre à niveau les systèmes Lync Server 2013 vers Skype Entreprise Server 2015 à l’aide de la nouvelle fonctionnalité de mise à niveau sur place, qui utilise les investissements matériels et serveur Lync Server 2013 existants, réduisant ainsi le coût global du déploiement de Skype Entreprise Server 2015.
   
 Il existe deux scénarios de mise à niveau sur place : la méthode Move User, qui ne nécessite aucun temps d’arrêt, et la méthode Hors connexion, qui nécessite un temps d’arrêt. Pour plus d’informations sur la procédure de mise à niveau qui est la plus pertinente pour votre entreprise, voir [Plan to upgrade to Skype Entreprise Server 2015](plan-your-deployment/upgrade.md). 
   
@@ -120,7 +120,7 @@ Lorsque vous devez appliquer un correctif ou effectuer toute autre maintenance �
   
 ### <a name="improved-front-end-pool-cold-start-capability"></a>Amélioration de la fonctionnalité de démarrage à froid du pool frontal
 
-Skype Entreprise Server introduit une nouvelle cmdlet qui simplifie et améliore le processus de démarrage à froid d’un pool frontal entier. Lorsque vous utilisez la nouvelle cmdlet **Start-CsPool,** elle vérifie les conditions préalables pour tous les serveurs frontaux du pool, puis tente de démarrer chaque serveur. S’il rencontre des problèmes, il les diagnostice et vous avertit avec des détails et des solutions de contournement. Dans certains cas, il vous permet de démarrer le pool même si certains serveurs individuels ne peuvent pas démarrer.
+Skype Entreprise Server introduit une nouvelle cmdlet qui simplifie et améliore le processus de démarrage à froid d’un pool frontal entier. Lorsque vous utilisez la nouvelle cmdlet **Start-CsPool,** elle vérifie les conditions préalables pour tous les serveurs frontaux du pool, puis tente de démarrer chaque serveur. S’il rencontre des problèmes, il les diagnostiquera et vous avertit avec des détails et des solutions de contournement. Dans certains cas, il vous permet de démarrer le pool même si certains serveurs individuels ne peuvent pas démarrer.
   
 ### <a name="sql-server-alwayson-support-for-on-premises-servers"></a>SQL Server Prise en charge AlwaysOn pour les serveurs locaux
 
@@ -140,7 +140,7 @@ Skype Entreprise Server 2015 utilise Windows PowerShell cmdlets pour gérer les 
   
 Le service de journalisation centralisée peut s’exécuter sur Skype Entreprise Server 2015. Les scénarios intégrés (suivis prédéfinits) restent les mêmes, tout comme la possibilité de créer des scénarios personnalisés. Il existe un scénario spécial appelé AlwaysOn qui est toujours en cours d’exécution et qui permet aux administrateurs de localiser les problèmes courants en temps quasi réel.
   
-L’outil de débogage Snooper a également été mis à jour pour permettre le débogage des journaux de mobilité et fonctionne avec les appareils qui se connectent à Lync 2013 ou Skype Entreprise Server 2015. L’outil est disponible en téléchargement Web à partir [des outils de débogage.](https://go.microsoft.com/fwlink/?LinkId=285257)
+L’outil de débogage Snooper a également été mis à jour pour permettre le débogage des journaux de mobilité et fonctionne avec les appareils se connectant à Lync 2013 ou Skype Entreprise Server 2015. L’outil est disponible en téléchargement Web à partir [des outils de débogage.](https://go.microsoft.com/fwlink/?LinkId=285257)
   
 ## <a name="hybrid-deployment-and-management"></a>Déploiement et gestion hybrides
 
@@ -149,9 +149,9 @@ Skype Entreprise Server 2015 active les fonctionnalités d’administration et d
 - Recommandations pour les déploiements hybrides en fonction de l’état des biens locaux du client, tel que déterminé par l’outil d’assistance automatisée OnRamp pour Office 365 client.
 - Améliorations apportées au Panneau de Skype Entreprise Server et au Centre d’administration Skype Entreprise Server afin que les administrateurs peuvent utiliser ces outils pour gérer un déploiement hybride.
 - Améliorations du Panneau de configuration qui permet aux administrateurs de se connectent à un client Microsoft 365 ou Office 365 et de configurer une configuration hybride avec Skype Entreprise Online à l’aide de l’Assistant configuration hybride.
-- Prise en charge du Panneau de contrôle pour le déplacement d’utilisateurs locaux vers Skype Entreprise Online ou le déplacement Skype Entreprise les utilisateurs en ligne vers l’local.
+- Prise en charge du Panneau de contrôle pour le déplacement d’utilisateurs locaux vers Skype Entreprise Online ou le déplacement Skype Entreprise les utilisateurs en ligne vers l’ordinateur local.
 - Fonctionnalités du Panneau de contrôle permettant d’identifier et de filtrer les objets utilisateur locaux qui ont été déplacés vers Skype Entreprise Online (c’est-à-dire, les utilisateurs hybrides) des utilisateurs locaux.
-- Fonctionnalités du Centre d’administration permettant d’identifier et de filtrer les utilisateurs cloud initialement créés dans Skype Entreprise Online à partir d’utilisateurs hybrides migrés de l’local vers l’online.
+- Fonctionnalités du Centre d’administration permettant d’identifier et de filtrer les utilisateurs cloud initialement créés dans Skype Entreprise Online à partir d’utilisateurs hybrides migrés en local vers Online.
 - La possibilité d’administrer les utilisateurs hybrides à l’aide du Panneau de Skype Entreprise Online pour les propriétés gérables à partir de l’local et du Centre d’administration pour les propriétés gérables à partir de Skype Entreprise Online.
 - À l’aide de la synchronisation de mot de passe avec DirSync, la possibilité de synchroniser les mots de passe Active Directory locaux avec le client en ligne. Si elle est configurée, cette fonctionnalité supprime la nécessité de déployer AD FS pour l’authentification fédérée, mais AD FS est toujours requis pour l’authentification multifacteur. 
 - Prise en charge continue de la coexistence entre Skype Entreprise Online et Exchange en local.

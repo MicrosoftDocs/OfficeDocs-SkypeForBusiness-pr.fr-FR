@@ -2,7 +2,7 @@
 title: Compteurs de performances de mobilité dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 'Résumé : Découvrez les compteurs de performances que vous pouvez utiliser pour surveiller les serveurs exécutant l’API UCWA (Unified Communications Web API) et le service Skype Entreprise Server Mcx Mobility Service.'
-ms.openlocfilehash: 983caf353b5fb18a438a9ad2128ec24feec97742
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Résumé : Découvrez les compteurs de performances que vous pouvez utiliser pour surveiller les serveurs exécutant l’API web de communications unifiées (UCWA) et le service Skype Entreprise Server Mcx Mobility Service.'
+ms.openlocfilehash: e89ffdb590a7028bd1fa9a9594b6ba0bcce9be11
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754733"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827577"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Compteurs de performances de mobilité dans Skype Entreprise Server
  
 **Résumé :** Découvrez les compteurs de performances que vous pouvez utiliser pour surveiller les serveurs exécutant l’API UCWA (Unified Communications Web API) et le service Skype Entreprise Server Mcx Mobility Service.
   
-Les tableaux suivants répliquent les noms et les descriptions des compteurs de performance que vous pouvez utiliser pour surveiller les serveurs exécutant l’API web de communications unifiées (UCWA) et le service Skype Entreprise Server Mcx Mobility Service. 
+Les tableaux suivants réexistent les noms et les descriptions des compteurs de performance que vous pouvez utiliser pour surveiller les serveurs exécutant l’API web de communications unifiées (UCWA) et le service Skype Entreprise Server Mcx Mobility Service. 
   
 Le nom de catégorie pour les compteurs dans la table UCWA est **LS:WEB - UCWA**.
   
@@ -32,7 +32,7 @@ Le nom de catégorie des compteurs dans la table Service de mobilité Mcx est **
 > [!NOTE]
 > La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuellement utilisent déjà l’API UCWA (Unified Communications Web API) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
   
-## <a name="performance-counters-for-ucwa"></a>Compteurs de performances pour UCWA
+## <a name="performance-counters-for-ucwa"></a>Compteurs de performance pour UCWA
 
 |Compteur|Description|
 |:-----|:-----|
@@ -49,13 +49,13 @@ Le nom de catégorie des compteurs dans la table Service de mobilité Mcx est **
 |Instances utilisateur actives sans application  <br/> |Nombre actuel d’instances utilisateur sans application  <br/> |
 |Active Video Modality Count  <br/> |Nombre actuel de modalités vidéo  <br/> |
 |Demandes de création d’applications reçues/seconde  <br/> |Taux de demandes de création d’applications reçues par seconde  <br/> |
-|AS MCU Join Failures  <br/> |Nombre d’échecs de joint du MCU AS  <br/> |
+|AS MCU Join Failures  <br/> |Nombre d’échecs de jointeurs du MCU AS  <br/> |
 |Échecs de joints du MCU av  <br/> |Nombre d’échecs de joint du MCU antivirus  <br/> |
 |Durée moyenne de démarrage de l’application (ms)  <br/> |Durée moyenne de démarrage de l’application en millisecondes  <br/> |
 |Durée de vie moyenne de la session (ms)  <br/> |Durée de vie moyenne d’une session en millisecondes  <br/> |
 |Data MCU Join Failures  <br/> |Nombre d’échecs de joint du MCU de données  <br/> |
 |Exchange Latence de recherche de contact (ms)  <br/> |Ce compteur indique la durée moyenne (en millisecondes) de la recherche de contact dans Exchange  <br/> |
-|Exchange HD Photo Get Latency (ms)  <br/> |Ce compteur indique le temps moyen (en millisecondes) pour récupérer une photo à partir d Exchange  <br/> |
+|Exchange HD Photo Get Latency (ms)  <br/> |Ce compteur indique le temps moyen (en millisecondes) pour récupérer une photo à partir de Exchange  <br/> |
 |HTTP 4xx Responses/Second  <br/> |Taux de réponses par seconde avec code HTTP 4xx  <br/> |
 |HTTP 5xx Responses/Second  <br/> |Taux de réponses par seconde avec code HTTP 5xx  <br/> |
 |Échecs de joints au MCU de messagerie instantanée  <br/> |Nombre d’échecs de joint du MCU de messagerie instantanée  <br/> |
@@ -85,7 +85,7 @@ Le nom de catégorie des compteurs dans la table Service de mobilité Mcx est **
 |**Compteur**|**Description**|
 |:-----|:-----|
 |Durée de vie moyenne d’une session en millisecondes  <br/> |Durée de vie moyenne d’une session en millisecondes  <br/> |
-|Abonnements actuels aux notifications push  <br/> |Quantité actuelle d’abonnements aux notifications push. Ce nombre, en association avec le nombre de sessions actuellement actives, représente le sous-ensemble des sessions actuellement actives inscrites pour Windows mobile ou iPhone appareils mobiles.  <br/> |
+|Abonnements actuels aux notifications push  <br/> |Quantité actuelle d’abonnements aux notifications push. Ce nombre, conjointement avec le nombre de sessions actuellement actives, représente le sous-ensemble des sessions actuellement actives inscrites pour Windows mobile ou iPhone appareils mobiles.  <br/> |
 |Nombre d’interrogations réseau expirées actuellement actives  <br/> |Nombre d’interrogations réseau sont le délai d’attente a expiré  <br/> |
 |Nombre d’interrogations actuellement actives  <br/> |Nombre d’interrogations actuellement actives (longues connexions au serveur)  <br/> |
 |Nombre de sessions actuellement actives  <br/> |Quantité actuelle de points de terminaison enregistrés dans le service de mobilité  <br/> |

@@ -1,6 +1,6 @@
 ---
 title: Disponibilité aux Îles Turques-et-Caïques
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 aux îles Skype Entreprise et Microsoft Teams disponibles pour les îles Turques-et-Caïques.
-ms.openlocfilehash: 965d77110919d382033fc1c7a32b9545ef1666d3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1f79533266e91255332c475560883faefb008364
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741700"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827347"
 ---
 # <a name="availability-in-turks-and-caicos-islands"></a>Disponibilité aux Îles Turques-et-Caïques
 

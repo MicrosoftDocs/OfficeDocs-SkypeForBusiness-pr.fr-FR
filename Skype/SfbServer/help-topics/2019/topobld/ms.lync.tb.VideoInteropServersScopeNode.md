@@ -2,7 +2,7 @@
 title: Serveurs d’interopérabilité vidéo - Étendue du nœud
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,18 +15,18 @@ ms.localizationpriority: medium
 ms.assetid: 963e6693-26bc-439f-b76d-04389e6ebbf9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les étapes nécessaires à la définition d’un nouveau vis ou d’une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool vis dans Skype Entreprise Server.
-ms.openlocfilehash: 242358555ef9d0f3d92001f61babd1fbccb6acb3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5f045cfada3c5362b910f1b9036c52b8d977da6b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744910"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843157"
 ---
 # <a name="video-interop-servers---scope-the-node"></a>Serveurs d’interopérabilité vidéo - Étendue du nœud
  
 Les étapes nécessaires pour définir un nouveau vis ou une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool de vis [dans Skype Entreprise Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
   
-Les étapes nécessaires à l’attribution d’un rôle serveur d’interconnexion vidéo sur un serveur à l’aide de Windows PowerShell sont décrites en ligne dans Déployer le rôle serveur [VIS dans Skype Entreprise Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+Les étapes nécessaires à l’attribution d’un rôle serveur d’opation vidéo sur un serveur à l’aide de Windows PowerShell sont décrites en ligne dans Déployer le rôle serveur [VIS dans Skype Entreprise Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
 Les étapes de configuration d’un nouveau serveur d’interopation vidéo utilisant Windows PowerShell sont décrites en ligne à l’emplacement [Configure the Video Interop Server in Skype Entreprise Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).
   

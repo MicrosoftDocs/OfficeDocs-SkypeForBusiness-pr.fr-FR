@@ -2,7 +2,7 @@
 title: Créer des enregistrements DNS pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: "Résumé : Découvrez comment configurer DNS et créer des enregistrements DNS pour une installation de Skype Entreprise Server. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
-ms.openlocfilehash: 5e84c4c0991f042c0d734f8e62aceceb632b3b11
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 177568623148b64b3dccd885e2e7ff3740149c62
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771472"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850367"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Créer des enregistrements DNS pour Skype Entreprise Server
  
@@ -39,7 +39,7 @@ Pour Skype Entreprise Server fonctionne correctement, un certain nombre de param
 
 Les enregistrements DNS sont requis pour Skype Entreprise Server fonctionnent correctement et soient accessibles par les utilisateurs.
   
-Cet exemple utilise un FQDN DNS à charge équilibrée nommé pool.contoso.local. Ce pool se compose de trois serveurs exécutant Skype Entreprise Server Êdition Entreprise. Un Édition Standard frontal ne peut contenir qu’un seul serveur. À l’aide de Édition Standard, vous utilisez uniquement le nom de domaine complet (FQDN) du serveur Édition Standard unique lors du référencement du rôle frontal au lieu de créer un pool de serveurs d’équilibrage de charge DNS, comme le montre cet exemple. Cet exemple simple qui utilise uniquement le rôle frontal inclut les entrées DNS du tableau suivant. Pour planifier vos besoins DNS spécifiques, consultez les exigences [DNS pour Skype Entreprise Server](../../plan-your-deployment/network-requirements/dns.md). 
+Cet exemple utilise un FQDN avec charge DNS équilibrée nommé pool.contoso.local. Ce pool se compose de trois serveurs exécutant Skype Entreprise Server Êdition Entreprise. Un Édition Standard frontal ne peut contenir qu’un seul serveur. À l’aide de Édition Standard, vous utilisez uniquement le nom de domaine complet (FQDN) du serveur Édition Standard unique lors du référencement du rôle frontal au lieu de créer un pool de serveurs d’équilibrage de charge DNS, comme le montre cet exemple. Cet exemple simple qui utilise uniquement le rôle frontal inclut les entrées DNS du tableau suivant. Pour planifier vos besoins DNS spécifiques, consultez les exigences [DNS pour Skype Entreprise Server](../../plan-your-deployment/network-requirements/dns.md). 
   
  
 |**Description**|**Type d’enregistrement**|**Name**|**Résolu en**|**Type d’équilibrage de charge**|
@@ -56,7 +56,7 @@ Cet exemple utilise un FQDN DNS à charge équilibrée nommé pool.contoso.local
 |URL simple de numérotation  <br/> |A  <br/> |dialin.contoso.local  <br/> |ADRESSE VIP pour les services web internes  <br/> |Logiciels et matériels pris en charge  <br/> |
 |URL simple du Programmeur Web  <br/> |A  <br/> |scheduler.contoso.local  <br/> |ADRESSE VIP pour les services web internes  <br/> |Logiciels et matériels pris en charge  <br/> |
 |URL simple d’administration  <br/> |A  <br/> |admin.contoso.local  <br/> |ADRESSE VIP pour les services web internes  <br/> |Logiciels et matériels pris en charge  <br/> |
-|Découverte héritée  <br/> |SRV  <br/> |_sipinternaltls._tcp.contoso.local  <br/> |FQDN du pool (port 5061)  <br/> |N/A  <br/> |
+|Découverte héritée  <br/> |SRV  <br/> |_sipinternaltls._tcp.contoso.local  <br/> |FQDN du pool (port 5061)  <br/> |S/O  <br/> |
    
 ### <a name="create-dns-records"></a>Créer des enregistrements DNS
 
@@ -72,7 +72,7 @@ Cet exemple utilise un FQDN DNS à charge équilibrée nommé pool.contoso.local
   
 5. Dans la **zone** Nom, tapez le nom de l’enregistrement hôte (le nom de domaine sera automatiquement ajouté).
     
-6. Dans la zone Adresse **IP,** tapez l’adresse IP du serveur frontal individuel, puis sélectionnez Créer un enregistrement de **pointeur associé (PTR)** ou Autoriser tout utilisateur authentifié à mettre à jour les enregistrements **DNS** avec le même nom de propriétaire, le cas échéant. Notez que cela suppose que le DNS est utilisé pour équilibrer la charge de tout le trafic à l’exception des services web. Dans cet exemple, nous avons trois serveurs frontux, comme indiqué dans le tableau.
+6. Dans la zone Adresse **IP,** tapez l’adresse IP du serveur frontal individuel, puis sélectionnez Créer un enregistrement de **pointeur associé (PTR)** ou autoriser tout utilisateur authentifié à mettre à jour les enregistrements **DNS** avec le même nom de propriétaire, le cas échéant. Notez que cela suppose que le DNS est utilisé pour équilibrer la charge de tout le trafic à l’exception des services web. Dans cet exemple, nous avons trois serveurs frontux, comme indiqué dans le tableau.
     
    |**Nom du serveur**|**Type**|**Données**|
    |:-----|:-----|:-----|

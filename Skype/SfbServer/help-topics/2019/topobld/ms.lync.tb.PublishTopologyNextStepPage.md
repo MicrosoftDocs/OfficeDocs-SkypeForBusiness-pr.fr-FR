@@ -2,7 +2,7 @@
 title: Étape ultérieure à la publication de la topologie
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Une fois la topologie publiée, la page Assistant Publication achevé s’affiche.
-ms.openlocfilehash: f9e09567c0af5a8a2e537123465ad42b9ce2fe15
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 561ae48101a4106ab22e39956d8dfc2ebff0a020
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772724"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829288"
 ---
 # <a name="publish-topology-next-step"></a>Étape ultérieure à la publication de la topologie
 

@@ -2,7 +2,7 @@
 title: Configurer les options du serveur de conversation permanente dans Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 'Résumé : Découvrez comment configurer les options du serveur de conversation permanente au niveau global, du site ou du pool dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 76ad47a45f8883064b712107ec54b20939437dcb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 99dab0b4a5e7bb542dee00803e5c401c63544ada
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751313"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835842"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Configurer les options du serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -26,9 +26,9 @@ ms.locfileid: "60751313"
   
 Vous pouvez spécifier plusieurs options pour le serveur de conversation permanente qui peuvent être appliquées globalement, à tous les pools au sein d’un site ou à un pool spécifique au sein d’un site. Les options de serveur de conversation permanente sont les suivantes : 
   
-- Historique de conversation par défaut. Nombre de messages de conversation disponibles pour chaque salle de conversation lors de la première demande. La valeur globale par défaut est de 30 messages de conversation. 
+- Historique de conversation par défaut. Nombre de messages de conversation disponibles pour chaque salle de conversation lors de la première demande. La valeur par défaut globale est de 30 messages de conversation. 
     
-- Taille maximale du fichier. Taille maximale d’un fichier qui peut être téléchargé à partir d’une salle. La valeur globale par défaut est 20 Mo.
+- Taille maximale du fichier. Taille maximale d’un fichier qui peut être téléchargé à partir d’une salle. La valeur par défaut globale est 20 Mo.
     
 - Limite de mise à jour des participants. Nombre maximal de participants dans une salle de conversation donnée pour lequel la conversation permanente enverra des mises à jour de listes. La valeur par défaut globale est 75.
     
@@ -65,7 +65,7 @@ Pour configurer les options globales du serveur de conversation permanente :
   
    - Dans **Taille de fichier maximale (Ko)**, sélectionnez la taille de fichier maximale de chaque historique de conversation. Par défaut, la taille maximale est de 20 Mo (20 000 Ko). Il s’agit de la taille maximale pour un fichier qui peut être téléchargée vers une salle de conversation dans le système (pour lequel les téléchargements de fichiers sont activés par le biais du paramètre **Catégorie** correspondant).
     
-   - Dans **Limite de mise à jour du participant :**, sélectionnez la limite pour les mises à jour de participants. Le serveur de conversation permanente envoie des informations de liste (qui est connecté à une salle de conversation) à tous les participants jusqu’à ce que le nombre d’utilisateurs connectés atteigne ce nombre. Par défaut, cette limite est de 75. Cette limite indique le nombre maximal de participants dans une salle donnée au-delà duquel le serveur de conversation permanente cesse d’envoyer des mises à jour de liste aux clients connectés sur les personnes présentes dans la salle.
+   - Dans **Limite de mise à jour du participant :**, sélectionnez la limite pour les mises à jour de participants. Le serveur de conversation permanente envoie des informations de liste de participation (qui est connecté à une salle de conversation) à tous les participants jusqu’à ce que le nombre d’utilisateurs connectés atteigne ce nombre. Par défaut, cette limite est de 75. Cette limite indique le nombre maximal de participants dans une salle donnée au-delà duquel le serveur de conversation permanente cesse d’envoyer des mises à jour de liste aux clients connectés sur les personnes présentes dans la salle.
     
    - (Facultatif.) Dans **l’URL de gestion de** salle, sélectionnez l’URL de gestion de salle. Il s’agit de l’URL d’une gestion de salle personnalisée basée sur le web. Si vous n’avez pas besoin de personnaliser la gestion de salle et que vous utilisez simplement le paramètre par défaut, laissez cette option vide. Une fois l’URL définie, elle est appliquée comme URL de gestion de salle interne et externe.
     
@@ -98,7 +98,7 @@ Pour configurer les options d’un pool de serveurs de conversation permanente s
   
    - Dans **Taille de fichier maximale (Ko)**, sélectionnez la taille de fichier maximale de chaque historique de conversation. Par défaut, la taille maximale est de 20 Mo (20 000 Ko). Il s’agit de la taille maximale pour un fichier qui peut être téléchargée vers une salle de conversation dans le système (pour lequel les téléchargements de fichiers sont activés par le biais du paramètre **Catégorie** correspondant).
     
-   - Dans **Limite de mise à jour du participant :**, sélectionnez la limite pour les mises à jour de participants. Le serveur de conversation permanente envoie des informations de liste (qui est connecté à une salle de conversation) à tous les participants jusqu’à ce que le nombre d’utilisateurs connectés atteigne ce nombre. Par défaut, cette limite est de 75. Cette limite indique le nombre maximal de participants dans une salle donnée au-delà duquel le serveur de conversation permanente cesse d’envoyer des mises à jour de liste aux clients connectés sur les personnes présentes dans la salle.
+   - Dans **Limite de mise à jour du participant :**, sélectionnez la limite pour les mises à jour de participants. Le serveur de conversation permanente envoie des informations de liste de participation (qui est connecté à une salle de conversation) à tous les participants jusqu’à ce que le nombre d’utilisateurs connectés atteigne ce nombre. Par défaut, cette limite est de 75. Cette limite indique le nombre maximal de participants dans une salle donnée au-delà duquel le serveur de conversation permanente cesse d’envoyer des mises à jour de liste aux clients connectés sur les personnes présentes dans la salle.
     
    - Dans **URL de gestion de salle**, sélectionnez l’URL de gestion de salle. Il s’agit de l’URL d’un déploiement de salle personnalisé basé sur le web. Si vous n’avez pas besoin de personnaliser la gestion de salle et que vous utilisez simplement le paramètre par défaut, laissez cette option vide.
     

@@ -2,7 +2,7 @@
 title: Configurer les options d’archivage pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer les options d’archivage initiales pour Skype Entreprise Server. Vous définissez initialement les configurations d’archivage lorsque vous déployez l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations après le déploiement.'
-ms.openlocfilehash: b27a6bdd85b935b0751abf3da2bac94488234cdb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 413347a76c23f680215e4f9d80e4327b3e8fed22
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749513"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864461"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>Configurer les options d’archivage pour Skype Entreprise Server
  
@@ -41,7 +41,7 @@ Vous devez configurer les options suivantes :
     
 - S’il faut bloquer l’activité lorsque l’archivage n’est pas disponible
     
-- Utiliser ou non l’intégration Exchange de données
+- S’il faut utiliser Exchange’intégration
     
 - Comment configurer la purge et l’exportation des données
     

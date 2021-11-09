@@ -1,7 +1,7 @@
 ---
 title: Skype Considérations sur la migration du système de salle
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
-description: Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement qui possède plusieurs versions de Skype Entreprise Server et Lync Server.
-ms.openlocfilehash: f3a26b630873bad0d3c8585486c91c7250f452e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement qui dispose de plusieurs versions de Skype Entreprise Server et de Lync Server.
+ms.openlocfilehash: 1b57115a332a647143fc0a3a7ca2c1ee178ad5fe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769732"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850507"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Skype Considérations sur la migration du système de salle
  
-Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement qui possède plusieurs versions de Skype Entreprise Server et Lync Server.
+Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement qui dispose de plusieurs versions de Skype Entreprise Server et de Lync Server.
   
 ## <a name="migration-considerations"></a>Considérations relatives à la migration
 
-Cette section fournit des conseils si vous déployez Skype Room System dans un environnement à plusieurs pool qui inclut différentes versions de Skype Entreprise Server, ou Lync Server. 
+Cette section fournit des conseils si vous déployez Skype Room System dans un environnement multi-pool qui inclut différentes versions de Skype Entreprise Server, ou Lync Server. 
   
-Le composant réplicateur d’utilisateurs (UR) dans Lync Server obtient les objets utilisateur d’Active Directory et les place dans la base de données principale Lync Server SQL Server données. Seule l’URL dans Lync Server 2013 est sensible aux objets Skype Room System. L’UR dans les versions précédentes de Lync Server et Office Communications Server ne détecte pas les attributs Active Directory qui désignent les objets LRS et n’en était donc pas informé. 
+Le composant réplicateur d’utilisateurs (UR) dans Lync Server obtient les objets utilisateur d’Active Directory et les place dans la base de données principale Lync Server SQL Server données. Seule l’URL dans Lync Server 2013 est sensible aux objets Skype Room System. Dans les versions précédentes de Lync Server et de Office Communications Server, l’UR ne détecte pas les attributs Active Directory qui désignent les objets LRS et n’en a donc pas connaissance. 
   
 Si un compte Skype Room System tente de se connecter à Lync et effectue une découverte automatique en fonction de l’enregistrement SRV ou de la recherche d’enregistrement DNS A, et si ces comptes pointent vers une version antérieure de Lync Server ou Office Communications Server, LRS reçoit une réponse 404 In trouvée du pool hérité. Le pool hérité ne pourra pas rediriger Skype Room System vers son pool d’accueil Lync Server 2013. 
   

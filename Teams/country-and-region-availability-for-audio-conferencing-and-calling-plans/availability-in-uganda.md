@@ -1,6 +1,6 @@
 ---
 title: Disponibilité en Ouganda
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 disponibles pour les Skype Entreprise et Microsoft Teams pour l’Ouganda.
-ms.openlocfilehash: 746d4d368964e19c74a94b8ff623b4bbc639eff8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise et Microsoft Teams pour l’Ouganda.
+ms.openlocfilehash: 7143b72ec26782fbc1be9b14e55916f152ed7fc2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760492"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827337"
 ---
 # <a name="availability-in-uganda"></a>Disponibilité en Ouganda
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 disponibles pour les Skype Entreprise et Microsoft Teams pour l’Ouganda.
+Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise et Microsoft Teams pour l’Ouganda.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

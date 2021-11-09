@@ -2,7 +2,7 @@
 title: Rapport de synthèse de diagnostic des appels dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 'Résumé : Découvrez le rapport de synthèse de diagnostic des appels utilisé dans Skype Entreprise Server.'
-ms.openlocfilehash: 88537a3f52679883fb5cf051a28d2c0c42294d16
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ef50ecde07fdd7354bd97c40bddfe4fb5e762d08
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757296"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827567"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Rapport de synthèse de diagnostic des appels dans Skype Entreprise Server
  
@@ -37,7 +37,7 @@ Le rapport de synthèse de diagnostic des appels fournit une vue d’ensemble de
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Accès au rapport de synthèse de diagnostic des appels
 
-Le rapport de synthèse de diagnostic des appels est accessible à partir de la page d’accueil Rapports de surveillance. À partir du rapport de synthèse de diagnostic des appels, vous pouvez accéder au rapport de diagnostic des activités D’égal à égal dans [Skype Entreprise Server](peer-to-peer-activity-diagnostic-report.md) en cliquant sur la mesure Taux d’échec sous la section Synthèse de session P2E du rapport. Vous pouvez également accéder au rapport de diagnostic de conférence [dans Skype Entreprise Server](conference-diagnostic-report.md) en cliquant sur l’une des mesures de conférence suivantes :
+Le rapport de synthèse de diagnostic des appels est accessible à partir de la page d’accueil Rapports de surveillance. À partir du rapport de synthèse de diagnostic des appels, vous pouvez accéder au rapport de diagnostic des activités P2E dans [Skype Entreprise Server](peer-to-peer-activity-diagnostic-report.md) en cliquant sur la mesure Taux d’échec sous la section Synthèse de session P2E du rapport. Vous pouvez également accéder au rapport de diagnostic de conférence [dans Skype Entreprise Server](conference-diagnostic-report.md) en cliquant sur l’une des mesures de conférence suivantes :
   
 - Taux d’échec de session global
     

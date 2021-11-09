@@ -1,6 +1,6 @@
 ---
 title: Créer un modèle d’équipe personnalisé dans Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f3574121bb056208748be522af0b9a5f744846
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a7bb0805705797587f9475fe7a6ee759165e884b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749693"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864481"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Créer un modèle d’équipe personnalisé dans Microsoft Teams
 
 **Les modèles personnalisés ne sont pas encore pris en charge pour les clients EDU.**
 
-Un modèle d’équipe personnalisé est une structure d’équipe prédéfinise avec un ensemble de canaux, d’onglets et d’applications. Vous pouvez développer un modèle qui vous permet de créer rapidement l’espace de collaboration qui vous permet de créer le bon espace de collaboration. Votre modèle d’équipe personnalisé utilise vos paramètres préférés.  
+Un modèle d’équipe personnalisé est une structure d’équipe prédéfinise avec un ensemble de canaux, d’onglets et d’applications. Vous pouvez développer un modèle qui vous permet de créer rapidement le bon espace de collaboration. Votre modèle d’équipe personnalisé utilise vos paramètres préférés.  
 
 <br>
 
@@ -51,9 +51,9 @@ Pour commencer :
     - Descriptions brèves et longues du modèle
     - Visibilité des paramètres régionaux  
 
-    ![Image de la boîte de dialogue Paramètres des modèles d’équipe.](media/template-add-a-name.png)
+    ![Image de la boîte de dialogue de noms des paramètres des modèles d’équipe.](media/template-add-a-name.png)
 
-6. Dans la section **Canaux, onglets et** applications, ajoutez les canaux et applications dont votre équipe a besoin.
+6. Dans la section **Canaux, onglets** et applications, ajoutez les canaux et applications dont votre équipe a besoin.
 
     1. Dans la section **Canaux,** sélectionnez **Ajouter.**
     2. Dans la boîte **de** dialogue Ajouter, nommez le canal.
@@ -69,7 +69,7 @@ Pour commencer :
 Votre nouveau modèle est affiché dans la liste **des modèles d’équipe.** Le modèle peut être utilisé pour créer une équipe dans Teams.
 
 > [!Note]
-> 24 heures peuvent être nécessaire aux utilisateurs de Teams pour voir un changement de modèle personnalisé dans la galerie.
+> 24 heures peuvent être nécessaire pour que les utilisateurs de Teams voient un changement de modèle personnalisé dans la galerie.
 
 ## <a name="customizing-website-tab-apps"></a>Personnalisation des applications de l’onglet Site web
 
@@ -88,7 +88,7 @@ Pour commencer :
 
     ![ajouter une application pour cette option de modèle.](media/add-an-app-template.png)
 
-4. Sélectionnez l’icône modifier et entrer l’URL de votre choix.
+4. Sélectionnez l’icône Modifier et entrer l’URL de votre choix.
 
     ![ajouter une URL d’application.](media/add-url-app-template.png)
 
@@ -108,7 +108,7 @@ Nous travaillons actuellement sur un correctif pour les équipes futures créée
 
 **Solution**: si vous avez des difficultés à afficher le contenu de l’onglet du site web, vous serez redirigé pour ouvrir l’onglet dans une page web distincte ou ouvrir Teams dans l’application de bureau pour afficher l’application de l’onglet de votre site web.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Utiliser des modèles d’équipe dans le Centre d’administration](get-started-with-teams-templates-in-the-admin-console.md)
 - [Créer un modèle à partir d’une équipe existante](create-template-from-existing-team.md)

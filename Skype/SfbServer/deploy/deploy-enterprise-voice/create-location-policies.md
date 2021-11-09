@@ -2,7 +2,7 @@
 title: Créer des stratégies d’emplacement dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: Lisez cette rubrique pour découvrir comment configurer des stratégies d’emplacement de service d’urgence amélioré (E9-1-1) dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 889a20e0b48955be1ce0ba8c891d6c4825b79dab
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5d8ead66a66a0cf92c39acfe9cb1d547422362d0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741440"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850447"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>Créer des stratégies d’emplacement dans Skype Entreprise Server
 
@@ -29,7 +29,7 @@ Lisez cette rubrique pour découvrir comment configurer des stratégies d’empl
 
 Skype Entreprise Server utilise une stratégie d’emplacement pour activer Skype Entreprise clients pour E9-1-1 lors de l’inscription du client. Une stratégie d’emplacement contient les paramètres qui définissent la façon dont E9-1-1 sera implémenté. Pour plus d’informations, voir [Planifier les stratégies d’emplacement Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
 
-Vous définissez des stratégies d’emplacement à l’Skype Entreprise panneau de Skype Entreprise ou à l’aide de l';cmdlet [New-CsLocationPolicy.](/powershell/module/skype/new-cslocationpolicy?view=skype-ps)
+Vous définissez des stratégies d’emplacement à l’Skype Entreprise panneau de Skype Entreprise ou à l’aide de l’cmdlet [New-CsLocationPolicy.](/powershell/module/skype/new-cslocationpolicy?view=skype-ps)
 
 > [!NOTE]
 > Skype Entreprise Server prend désormais en charge la configuration de plusieurs numéros d’urgence pour un client. Si vous souhaitez configurer plusieurs numéros d’urgence, vous devez suivre les informations de la zone Planifier plusieurs numéros d’urgence dans [Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) et configurer plusieurs numéros d’urgence dans [Skype Entreprise](configure-multiple-emergency-numbers.md). 
@@ -57,7 +57,7 @@ Pour plus d’informations, voir [Planifier les stratégies d’emplacement Skyp
 
 ### <a name="to-create-location-policies"></a>Pour créer des stratégies d’emplacement
 
-1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
 
     > [!NOTE]
     > CsLocationPolicy échoue si le paramètre **PstnUsage** ne figure pas déjà dans la liste globale des PstnUsages.

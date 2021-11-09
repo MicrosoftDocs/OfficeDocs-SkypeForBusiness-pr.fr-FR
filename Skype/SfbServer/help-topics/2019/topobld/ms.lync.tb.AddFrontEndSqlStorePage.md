@@ -2,7 +2,7 @@
 title: Ajouter un magasin SQL Server frontal
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 ROBOTS: NOINDEX, NOFOLLOW
-description: Un déploiement Édition Standard serveur de gestion installe automatiquement les logiciels Microsoft SQL Server Express base de données SQL Server base de données. Par conséquent, toutes les options sont pré-préruplées et vous ne pouvez pas apporter de modifications à la configuration par défaut.
-ms.openlocfilehash: 211e3213489d26682e12b8b39955ad4e1577abf6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Un déploiement Édition Standard serveur de gestion installe automatiquement les logiciels Microsoft SQL Server Express base de données SQL Server base de données. Par conséquent, toutes les options sont prérupuplées et vous ne pouvez pas apporter de modifications à la configuration par défaut.
+ms.openlocfilehash: eaa6b6f313632fe3b0acfc5d89a0117978cced42
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776774"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835712"
 ---
 # <a name="add-front-end-sql-server-store"></a>Ajouter un magasin SQL Server frontal
 
-Un déploiement Édition Standard serveur de gestion installe automatiquement les logiciels Microsoft SQL Server Express base de données SQL Server base de données. Par conséquent, toutes les options sont pré-préruplées et vous ne pouvez pas apporter de modifications à la configuration par défaut.
+Un déploiement Édition Standard serveur de gestion installe automatiquement les logiciels Microsoft SQL Server Express base de données SQL Server base de données. Par conséquent, toutes les options sont prérupuplées et vous ne pouvez pas apporter de modifications à la configuration par défaut.
 
 Le pool frontal d’un déploiement de serveur Êdition Entreprise nécessite une édition 64 bits prise en charge du logiciel de base de données SQL Server pour la base de données principale. Vous pouvez sélectionner une base de données SQL Server précédemment définie à utiliser pour la base de données principale ou définir une nouvelle base de données SQL Server en spécifiant un nom de domaine complet (FQDN) du serveur sur lequel la base de données SQL Server doit résider et l’instance de SQL Server que vous souhaitez utiliser pour la nouvelle base de données SQL Server (qui peut être l’instance par défaut ou une instance nommée que vous spécifiez). Vous pouvez également choisir d’activer la mise en miroir sur le magasin SQL Server, puis spécifier un témoin de mise en miroir pour le basculement automatique.
 

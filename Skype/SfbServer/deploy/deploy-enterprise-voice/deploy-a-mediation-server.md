@@ -2,7 +2,7 @@
 title: Déployer un serveur de médiation dans le Générateur de topologies dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Résumé : Découvrez comment définir et déployer un serveur de médiation dans le Générateur de topologies dans Skype Entreprise Server.'
-ms.openlocfilehash: 9eb3f00d8530739b3a4e9986da14038ff7d6ed26
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7dd3704b47b384d3fab62a7cc051adcf5b380c0e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764892"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857031"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Déployer un serveur de médiation dans le Générateur de topologies dans Skype Entreprise Server
  
@@ -32,7 +32,7 @@ La charge de travail Voix Entreprise, les conférences téléphoniques et les ap
   
 La seule exception est si vous configurez une jonction SIP pour la connexion à un contrôleur SBC (Session Border Controller) pour un fournisseur de services de téléphonie Internet. Pour connecter votre infrastructure Voix Entreprise réseau à votre fournisseur de trunks SIP, un serveur de médiation distinct doit être déployé.
   
-La connexion entre Skype Entreprise Server (un serveur de médiation cocté sur un pool frontal ou un serveur de médiation autonome) et une passerelle est définie en tant qu’association logique appelée « trunk ». Les rubriques de cette section décrivent comment définir une jonction et déployer un serveur de médiation autonome, si vous vous connectez à une jonction SIP.
+La connexion entre Skype Entreprise Server (soit un serveur de médiation cocté sur un pool frontal, soit un serveur de médiation autonome) et une passerelle est définie comme une association logique appelée une connexion. Les rubriques de cette section décrivent comment définir une jonction et déployer un serveur de médiation autonome, si vous vous connectez à une jonction SIP.
   
 ## <a name="define-a-mediation-server-in-topology-builder"></a>Définition d’un serveur de médiation dans le générateur de topologie
 
@@ -57,7 +57,7 @@ Vous pouvez ajouter un serveur de médiation en tant que rôle c colloc sur un p
     > Le **pool du saut suivant** utilisé par le serveur de médiation sera le pool frontal sur lequel le serveur de médiation est coqueté.
   
     > [!NOTE]
-    > Le **pool de serveurs Edge** utilisé par le serveur de médiation sera le même pool de serveurs Edge associé au pool frontal sur lequel le serveur de médiation est coqueté.
+    > Le **pool de serveurs** Edge utilisé par le serveur de médiation sera le même pool de serveurs Edge associé au pool frontal sur lequel le serveur de médiation est coqueté.
   
 6. Cliquez **sur Utiliser par** défaut pour utiliser ce pool frontal pour router les appels vers le PSTN.
     

@@ -2,7 +2,7 @@
 title: Planifier les conférences dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les fonctionnalités de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: cfaf1544d158af6d04ca6b4709b85d168aa74ebd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f5eb0d549b5d0b120017d36e4f904b931e0ea278
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759556"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864711"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planifier les conférences dans Skype Entreprise Server
  
@@ -41,7 +41,7 @@ Cette rubrique comprend les sections suivantes :
 
 Quatre types de conférences sont disponibles dans Skype Entreprise Server : conférence web, conférence audio et vidéo (A/V), conférences de conférences d’appels et conférences par messagerie instantanée. 
   
-Vous pouvez choisir d’activer tous les types de conférence ou d’utiliser un seul type, en fonction de vos besoins. Par exemple, vous pouvez activer tous les types, y compris les conférences rendez-vous, pour permettre aux utilisateurs qui ne peuvent pas participer à une conférence avec un client Skype Entreprise d’appeler et de participer à la réunion audio à partir d’un téléphone. Lorsque vous déployez Skype Entreprise Server, les fonctionnalités de conférence par messagerie instantanée sont déployées automatiquement . vous spécifiez si vous souhaitez déployer des conférences web, A/V et des conférences téléphoniques à l’aide du Générateur de topologie. Pour plus d’informations, [voir Déployer la conférence dans Skype Entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md). 
+Vous pouvez choisir d’activer tous les types de conférence ou d’utiliser un seul type, en fonction de vos besoins. Par exemple, vous pouvez activer tous les types, y compris les conférences rendez-vous, pour permettre aux utilisateurs qui ne peuvent pas participer à une conférence avec un client Skype Entreprise d’appeler et de participer à la réunion audio à partir d’un téléphone. Lorsque vous déployez Skype Entreprise Server, les fonctionnalités de conférence par messagerie instantanée sont déployées automatiquement . vous spécifiez s’il faut déployer les conférences web, A/V et d’accès à l’aide du Générateur de topologie. Pour plus d’informations, [voir Déployer la conférence dans Skype Entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md). 
   
 Les sous-sections suivantes décrivent les fonctionnalités de chaque type de conférence.
   
@@ -55,7 +55,7 @@ La conférence web permet aux participants à la réunion de collaborer sur des 
     
 - **Partage d’application et partage de bureau.** Au cours d’une conférence, le présentateur de la réunion peut partager l’intégralité de son bureau, une application individuelle ou des moniteurs individuels dans un environnement multi-moniteur. Outre l’affichage du contenu, les autres participants à la conférence peuvent demander le contrôle de l’écran du présentateur et, avec autorisation, interagir avec le contenu (y compris le défilement et la modification). Les participants à la réunion peuvent également prendre le relais en tant que présentateur et commencer à partager du contenu pendant la réunion.
     
-- **PowerPoint Partage.** Permet aux utilisateurs de partager PowerPoint présentations dans la réunion via un serveur Office Web Apps, ce qui permet :
+- **PowerPoint Partage.** Permet aux utilisateurs de partager PowerPoint présentations au cours de la réunion via un serveur Office Web Apps, ce qui permet :
     
   - Affichages haute résolution et prise en charge des fonctionnalités PowerPoint, telles que les animations, les transitions de diapositives et la vidéo incorporée.
     
@@ -67,7 +67,7 @@ La conférence web permet aux participants à la réunion de collaborer sur des 
 
 La conférence audio et vidéo permet l’audio et la vidéo dans la réunion. L’audio permet aux participants de se parler comme s’ils étaient dans la même salle. La vidéo active l’affichage vidéo dans le client Skype Entreprise de tous les participants ou présentateurs qui rejoignent la réunion à l’aide d’une caméra web ou d’un appareil de conférence qui prend en charge la vidéo.
   
- Skype Entreprise Server offre plusieurs fonctionnalités que les utilisateurs peuvent utiliser pour configurer l’expérience d’audioconférence pour l’utilisateur, notamment :
+ Skype Entreprise Server fournit plusieurs fonctionnalités que les utilisateurs peuvent utiliser pour configurer l’expérience d’audioconférence pour l’utilisateur, notamment :
   
 - **Désactiver le son de l’audience.** Le présentateur peut utiliser ce paramètre pour désactiver le micro de tous les participants audio de la conférence et placer celle-ci dans un état où les personnes qui ne sont pas des présentateurs ne peuvent pas réactiver leur micro.
     
@@ -103,7 +103,7 @@ Les composants qui la prise en charge des fonctionnalités de conférence sont l
     
 - **application Annonce de conférence.** Le application Annonce de conférence est une application de communications unifiées qui lit des tonalités et des invites aux participants PSTN lors de certaines actions, par exemple lorsque les participants rejoignent ou quittent une conférence, que les participants sont mis en sourdine ou non, qu’une personne entre dans la salle d’accueil de la conférence ou que la conférence est verrouillée ou déverrouillée. application Annonce de conférence prend également en charge les commandes DTMF (dual-tone multi-frequency) à partir du clavier du téléphone. Le application Annonce de conférence est automatiquement installé et activé par défaut lorsque vous activez la conférence téléphonique.
     
-- **Page de conférences Paramètres conférence.** La page Paramètres de conférence rendez-vous affiche les numéros d’accès aux conférences avec leurs langues disponibles, les informations de conférence affectées (c’est-à-dire, pour les réunions qui ne doivent pas être programmées) et les contrôles DTMF en conférence, et prend en charge la gestion du code confidentiel et des informations de conférence attribuées. La page de conférence Paramètres est automatiquement installée dans le cadre des services Web.
+- **Page de conférences Paramètres conférence.** La page Paramètres de conférence rendez-vous affiche les numéros d’accès aux conférences avec leurs langues disponibles, les informations de conférence affectées (c’est-à-dire, pour les réunions qui ne doivent pas être programmées) et les contrôles DTMF en conférence, et prend en charge la gestion du code confidentiel et des informations de conférence attribuées. La page de conférence Paramètres est installée automatiquement dans le cadre des services Web.
     
 - **Serveur de médiation et passerelle PSTN.** La conférence téléphonique nécessite un serveur de médiation pour traduire la signalisation (et les médias dans certaines configurations) entre Skype Entreprise Server et la passerelle PSTN, et une passerelle PSTN pour traduire la signalisation et le média entre le serveur de médiation et la passerelle PSTN. Pour les conférences téléphoniques, vous devez déployer au moins un serveur de médiation et au moins l’un des services suivants :
     
@@ -149,9 +149,9 @@ Lorsque vous déterminez les fonctionnalités de conférence à déployer, vous 
     
     Si c’est le cas, vous devez activer la conférence pour votre pool frontal à l’aide de l’outil de planification ou du Générateur de topologies. Pour plus d’informations, [voir Déployer la conférence dans Skype Entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
     
-    Le partage d’application requiert et utilise plus de bande passante réseau que la collaboration sur des documents. Skype Entreprise Server un mécanisme de limitation permettant de contrôler chaque session de partage d’application. Par défaut, il est défini à 1,5 Ko/seconde pour chaque session. Si vous ne souhaitez pas activer le partage d’application, mais que vous souhaitez la collaboration sur des documents, vous pouvez activer la conférence et utiliser des stratégies de conférence pour désactiver le partage d’application. Pour plus d’informations sur la configuration des stratégies de conférence, voir Gérer les stratégies de conférence dans [Skype Entreprise Server](../../manage/conferencing/conferencing-policies.md).
+    Le partage d’application requiert et utilise plus de bande passante réseau que la collaboration sur des documents. Skype Entreprise Server fournit un mécanisme de limitation pour contrôler chaque session de partage d’application. Par défaut, il est défini à 1,5 Ko/seconde pour chaque session. Si vous ne souhaitez pas activer le partage d’application, mais que vous souhaitez la collaboration sur des documents, vous pouvez activer la conférence et utiliser des stratégies de conférence pour désactiver le partage d’application. Pour plus d’informations sur la configuration des stratégies de conférence, voir Gérer les stratégies de conférence dans [Skype Entreprise Server](../../manage/conferencing/conferencing-policies.md).
     
-    Pour permettre aux utilisateurs de partager PowerPoint présentations, vous devez configurer Office Web Apps Server. Pour plus d’informations sur la configuration Office Web Apps Server, voir Configurer l’intégration [avec Office Web Apps Server dans Skype Entreprise Server](../../deploy/deploy-conferencing/office-web-app-server.md).
+    Pour permettre aux utilisateurs de partager PowerPoint présentations, vous devez configurer Office Web Apps Server. Pour plus d’informations sur la configuration Office Web Apps Server, voir Configurer l’intégration avec [Office Web Apps Server dans Skype Entreprise Server](../../deploy/deploy-conferencing/office-web-app-server.md).
     
 - **Voulez-vous activer la conférence audio et vidéo ?**
     
@@ -170,7 +170,7 @@ Lorsque vous déterminez les fonctionnalités de conférence à déployer, vous 
     
     Dans l’affirmative, déployez et activez la conférence rendez-vous. Les utilisateurs invités, à l’intérieur et à l’extérieur de votre organisation, peuvent alors prendre part à la partie audio des conférences par l’intermédiaire d’un téléphone PSTN.
     
-    La conférence rendez-vous est une fonctionnalité facultative que vous pouvez configurer lorsque vous déployez Skype Entreprise Server conférence. Bien que la conférence dial-in utilise certains des mêmes composants que Voix Entreprise, vous pouvez déployer la conférence dial-in même si vous ne déployez pas Voix Entreprise. La conférence téléphonique prend en charge à la fois les utilisateurs d’entreprise et les utilisateurs anonymes. Pour plus d’informations sur la configuration de la conférence rendez-vous pour les utilisateurs d’entreprise et anonymes, voir Déployer la conférence dans [Skype Entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md) et Configurer la conférence [rendez-vous](../../deploy/deploy-conferencing/dial-in-conferencing.md)dans Skype Entreprise Server .
+    La conférence rendez-vous est une fonctionnalité facultative que vous pouvez configurer lorsque vous déployez Skype Entreprise Server conférence rendez-vous. Bien que la conférence dial-in utilise certains des mêmes composants que Voix Entreprise, vous pouvez déployer la conférence dial-in même si vous ne déployez pas Voix Entreprise. La conférence téléphonique prend en charge à la fois les utilisateurs d’entreprise et les utilisateurs anonymes. Pour plus d’informations sur la configuration de la conférence rendez-vous pour les utilisateurs d’entreprise et anonymes, voir Déployer la conférence dans [Skype Entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md) et Configurer la conférence [rendez-vous](../../deploy/deploy-conferencing/dial-in-conferencing.md)dans Skype Entreprise Server .
     
 - **Souhaitez-vous permettre aux utilisateurs externes Skype Entreprise clients de participer à des conférences ?**
     
@@ -182,7 +182,7 @@ Lorsque vous déterminez les fonctionnalités de conférence à déployer, vous 
     
   - **Utilisateurs anonymes.** Tous les autres utilisateurs externes qui sont invités par vos utilisateurs à participer à des conférences spécifiques. Un organisateur de réunion qui appartient à votre entreprise peut envoyer à un utilisateur externe, par courrier électronique, une invitation à participer à une conférence. Le courrier électronique inclut un lien sur lequel l’utilisateur externe peut cliquer pour prendre part à la conférence.
     
-    Si vous souhaitez autoriser les utilisateurs externes, vous devez déployer des serveurs Edge. En outre, avec les serveurs Edge déployés, vous pouvez créer des relations fédérées avec d’autres organisations ,telles que vos clients ou fournisseurs, et les utilisateurs de ces organisations peuvent plus facilement collaborer avec vos utilisateurs.
+    Si vous souhaitez autoriser les utilisateurs externes, vous devez déployer des serveurs Edge. En outre, avec les serveurs Edge déployés, vous pouvez créer des relations fédérées avec d’autres organisations(par exemple, vos clients ou fournisseurs) et les utilisateurs de ces organisations peuvent collaborer plus facilement avec vos utilisateurs.
     
     Pour plus d’informations sur le déploiement des serveurs Edge, voir Plan for Edge Servers and Deploy Edge Servers. Pour plus d’informations sur l’activation de l’accès externe pour Office Web Apps Server, voir Configurer l’intégration avec [Office Web Apps Server dans Skype Entreprise Server](../../deploy/deploy-conferencing/office-web-app-server.md).
     

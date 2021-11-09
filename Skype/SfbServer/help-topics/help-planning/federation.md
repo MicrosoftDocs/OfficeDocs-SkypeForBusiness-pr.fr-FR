@@ -2,7 +2,7 @@
 title: Outil de planification de la fédération Lync Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: Les serveurs Edge peuvent être configurés pour permettre à vos utilisateurs internes et externes d’accéder aux contacts au niveau des organisations ou services partenaires.
-ms.openlocfilehash: 8516b1cbe19592448f7b61324eaf1db0ecb09e99
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1f04264ffe3991d499490560b938116c8f7db4b5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744376"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829128"
 ---
 # <a name="lync-server-federation-planning-tool"></a>Outil de planification de la fédération Lync Server
  
@@ -29,7 +29,7 @@ Les serveurs Edge peuvent être configurés pour permettre à vos utilisateurs i
   
  La fédération fonctionne comme pour Microsoft Lync 2013. Pour plus d’informations sur la préparation de votre environnement pour la fédération, consultez les rubriques suivantes :
   
-- [Planification de la fédération Lync Server 2013 Office Communications Server](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-lync-server-and-office-communications-server-federation)
+- [Planification de la fédération Lync Server 2013 et Office Communications Server](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-lync-server-and-office-communications-server-federation)
     
 - [Planification de la connectivité de messagerie instantanée publique dans Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-public-instant-messaging-connectivity)
     

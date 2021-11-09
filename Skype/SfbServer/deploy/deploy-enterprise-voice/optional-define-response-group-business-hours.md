@@ -2,7 +2,7 @@
 title: (Facultatif) Définir les heures d’ouverture de Response Group dans Skype Entreprise
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: Créez ou modifiez les heures d’ouverture de Response Group, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 0afdd3c5f21b947d2c20ba79e9ae8296c582060e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0a7e22d02a4540973f2f3e3f2ea39fabe848f17c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753575"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850407"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Facultatif) Définir les heures d’ouverture de Response Group dans Skype Entreprise 
  
@@ -41,7 +41,7 @@ Les paramètres des heures d’ouverture définissent si le flux de travail est 
 
 1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
-2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 3. Pour chaque plage horaire unique que vous souhaitez définir, exécutez :
     

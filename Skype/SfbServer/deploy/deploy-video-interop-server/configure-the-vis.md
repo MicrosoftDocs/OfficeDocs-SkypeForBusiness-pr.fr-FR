@@ -2,7 +2,7 @@
 title: Configurer le serveur d’interconnexion vidéo dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,22 +13,22 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Résumé : Configurez le rôle VIS (Video Interop Server) dans Skype Entreprise Server.'
-ms.openlocfilehash: 61ab8f8b5c6538491de63696d9445672ce9211cf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4148cf404fba4718f56c3c8db7ffe180881b3ae7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741300"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835812"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurer le serveur d’interconnexion vidéo dans Skype Entreprise Server
  
-**Résumé :** Configurez le rôle VIS (Video Interop Server) dans Skype Entreprise Server.
+**Résumé :** Configurez le rôle vis (Video Interop Server) dans Skype Entreprise Server.
   
  Configurez les paramètres que le VIS associera aux trunks vidéo à l’aide de Windows PowerShell. Une configuration de trunk vidéo avec une étendue globale est créée une fois le service VIS installé. Cette configuration de trunk vidéo est appliquée par le VIS à toutes les trunks qui n’ont pas de configuration de trunk vidéo avec une portée plus spécifique. Notez que la configuration de la vidéoconférente est une collection de paramètres applicables aux trunks vidéo.
   
 ## <a name="configure-video-trunk-and-dial-plan"></a>Configurer le plan de numérotation et le système de numérotation de la vidéo
 
-Utilisez les commandes de Windows PowerShell suivantes pour spécifier la configuration de la vidéo et le plan de numérotation à associer aux nouvelles connexions définies dans le document de topologie entre le VIS et toutes les passerelles vidéo. Tous ces paramètres peuvent être définies aux niveaux global, site ou service (passerelle vidéo). 
+Utilisez les commandes Windows PowerShell suivantes pour spécifier la configuration de la vidéo et le plan de numérotation à associer aux nouvelles connexions définies dans le document de topologie entre le VIS et toutes les passerelles vidéo. Tous ces paramètres peuvent être définies aux niveaux global, site ou service (passerelle vidéo). 
   
 Un plan de numérotation avec une étendue globale est créé par déploiement Skype Entreprise Server déploiement. Ce plan de numérotation est appliqué par le VIS à toutes les connexions qui n’ont pas de plan de numérotation avec une étendue plus spécifique. 
   
@@ -52,7 +52,7 @@ Un plan de numérotation avec une étendue globale est créé par déploiement S
    Get-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
-    Pour supprimer une configuration de trunk vidéo particulière, utilisez l'; cmdlet Windows PowerShell suivante (notez que la configuration de la trunk vidéo de portée globale sera appliquée s’il n’existe pas de configuration de trunk vidéo plus spécifique pour une trunke particulière) :
+    Pour supprimer une configuration de vidéoconférente particulière, utilisez l’cmdlet Windows PowerShell suivante (notez que la configuration de la trunk vidéo de portée globale sera appliquée s’il n’existe pas de configuration de trunk vidéo d’étendue plus spécifique pour une troncation particulière) :
     
    ```powershell
    Remove-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"

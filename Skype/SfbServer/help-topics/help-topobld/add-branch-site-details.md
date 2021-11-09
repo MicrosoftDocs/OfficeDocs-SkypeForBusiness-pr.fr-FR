@@ -2,7 +2,7 @@
 title: Ajouter les détails du site de succursale
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 description: 'Pour spécifier les détails d’un site, vous pouvez :'
-ms.openlocfilehash: afe0ccbddf73383d348ba5415ccb3d6828899eb8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f9c5c6e77082523672d788faa7d8c248a4322132
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762922"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842927"
 ---
 # <a name="add-branch-site-details"></a>Ajouter les détails du site de succursale
 

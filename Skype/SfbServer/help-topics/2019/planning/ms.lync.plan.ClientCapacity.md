@@ -2,7 +2,7 @@
 title: Client Paramètres (Planning Tool)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 ROBOTS: NOINDEX, NOFOLLOW
 description: La fonctionnalité de mobilité dans Skype Entreprise Server 25 prend en charge Skype Entreprise sur les appareils mobiles. Pour plus d’informations, voir Planning for Mobility.
-ms.openlocfilehash: e54ba72d2b605c791738d43a3948e4b9b68d2549
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2c570cafca18436013c090691d6e533292312699
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752573"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856891"
 ---
 # <a name="client-settings-planning-tool"></a>Client Paramètres (Planning Tool)
 

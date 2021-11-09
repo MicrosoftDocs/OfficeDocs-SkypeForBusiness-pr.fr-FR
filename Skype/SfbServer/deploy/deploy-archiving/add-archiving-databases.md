@@ -2,7 +2,7 @@
 title: Ajouter des bases de données d’archivage à un déploiement existant dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 'Résumé : Lisez cette rubrique pour découvrir comment ajouter des bases de données d’archivage à Skype Entreprise Server déploiement.'
-ms.openlocfilehash: d7174919ef34cd77bf7da316d23808ea1cfaff7f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d9434ffaf2141ea176b99825571ad2a17d0d5601
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778934"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864471"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Ajouter des bases de données d’archivage à un déploiement existant dans Skype Entreprise Server
  
@@ -50,19 +50,19 @@ Vous devez incorporer l’archivage dans votre topologie avant de configurer vot
     
 8. Sous **Archiver SQL Server store,** faites l’une des opérations suivantes :
     
-   - Pour utiliser un magasin SQL Server existant, dans la zone de liste déroulante, cliquez sur le nom du magasin SQL Server que vous voulez utiliser. Si tous vos utilisateurs sont Microsoft Exchange Server 2013 ou supérieur, vous pouvez archiver les communications Skype Entreprise de tous vos utilisateurs dans Exchange. Dans ce cas, vous n’avez pas besoin de configurer SQL Server d’archivage.
+   - Pour utiliser un magasin SQL Server existant, dans la zone de liste déroulante, cliquez sur le nom du magasin SQL Server que vous voulez utiliser. Si tous vos utilisateurs sont Microsoft Exchange Server 2013 ou plus, vous pouvez archiver les communications Skype Entreprise de tous vos utilisateurs dans Exchange. Dans ce cas, vous n’avez pas besoin de configurer SQL Server d’archivage.
     
-   - Pour spécifier une nouvelle SQL Server, cliquez sur **Nouveau,** puis dans la boîte de dialogue Définir un nouveau SQL Server **Store,** faites les choses suivantes :
+   - Pour spécifier une nouvelle SQL Server, cliquez sur **Nouveau,** puis dans la boîte de dialogue Définir SQL Server **Store,** faites les choses suivantes :
     
    - Dans **SQL Server FQDN**, spécifiez le nom de SQL Server serveur sur lequel vous souhaitez créer le nouveau magasin.
     
    - Cliquez sur **Instance par défaut** pour utiliser l’instance par défaut ou, pour définir une instance différente, cliquez sur **Instance nommée** et spécifiez l’instance à utiliser.
     
-   - Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, sélectionnez la case à cocher Cette **instance SQL se** trouve dans la relation de mise en miroir, puis, dans le numéro de **port** Miroir, spécifiez le numéro de port.
+   - Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, sélectionnez la case à cocher Cette **instance SQL est** dans la relation de mise en miroir, puis, dans le numéro de **port** Miroir, spécifiez le numéro de port.
     
 9. Si vous souhaitez utiliser la mise SQL Server la mise en miroir du Store, sélectionnez Activer SQL Server la mise en miroir du **Store,** puis faites les choses suivantes :
     
-   - Pour utiliser un magasin SQL Server existant pour la  mise en miroir, dans la zone de liste de listes SQL Server miroir du magasin d’archivage, cliquez sur le nom du magasin SQL Server que vous souhaitez utiliser pour la mise en miroir.
+   - Pour utiliser un magasin de SQL Server existant pour  la mise en miroir, dans la zone de liste de listes SQL Server miroir du magasin d’archivage, cliquez sur le nom du magasin SQL Server que vous souhaitez utiliser pour la mise en miroir.
     
    - Pour spécifier un nouveau magasin SQL Server pour la mise en  miroir, cliquez sur **Nouveau,** puis dans la boîte de dialogue Définir un nouveau magasin SQL Server, faites l’une des choses suivantes :
     
@@ -70,7 +70,7 @@ Vous devez incorporer l’archivage dans votre topologie avant de configurer vot
     
      b. Cliquez sur **Instance par défaut** pour utiliser l’instance par défaut ou sur **Instance nommée** pour définir une instance différente, puis spécifiez l’instance à utiliser.
     
-     c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, sélectionnez la case à cocher Cette **instance SQL se** trouve dans la relation de mise en miroir, puis, dans le numéro de **port** Miroir, spécifiez le numéro de port.
+     c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, sélectionnez la case à cocher Cette **instance SQL est** dans la relation de mise en miroir, puis, dans le numéro de **port** Miroir, spécifiez le numéro de port.
     
    - Si vous activez la mise en miroir SQL Server et que vous souhaitez inclure un témoin de mise en miroir SQL Server (une troisième instance de SQL Server distincte qui peut détecter l’état de l’SQL Server principale et des instances miroir), sélectionnez le témoin de mise en miroir Utiliser **SQL Server** pour activer la case à cocher deover automatique, puis faites l’une des èmes e suivant :
     
@@ -78,7 +78,7 @@ Vous devez incorporer l’archivage dans votre topologie avant de configurer vot
     
      b. Cliquez sur **Instance par défaut** pour utiliser l’instance par défaut ou sur **Instance nommée** pour définir une instance différente, puis spécifiez l’instance à utiliser comme témoin de mise en miroir.
     
-     c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, sélectionnez la case à cocher Cette **instance SQL se** trouve dans la relation de mise en miroir, puis, dans le numéro de **port** Miroir, spécifiez le numéro de port.
+     c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, sélectionnez la case à cocher Cette **instance SQL est** dans la relation de mise en miroir, puis, dans le numéro de **port** Miroir, spécifiez le numéro de port.
     
 10. Pour enregistrer la configuration, cliquez sur **OK**.
     

@@ -2,7 +2,7 @@
 title: Activer les utilisateurs pour Voix Entreprise dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 'Résumé : Découvrez comment permettre aux utilisateurs de prendre et de recevoir des appels à l’aide de Voix Entreprise dans Skype Entreprise Server.'
-ms.openlocfilehash: 27c60b7532411c50d6613635a28a638a5cfbc97d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3dab9488b1d184f5d3dd215f4012933de1ca0245
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749365"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864341"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Activer les utilisateurs pour Voix Entreprise dans Skype Entreprise Server
  

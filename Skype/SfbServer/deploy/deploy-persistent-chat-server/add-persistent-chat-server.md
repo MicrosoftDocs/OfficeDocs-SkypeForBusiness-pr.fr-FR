@@ -2,7 +2,7 @@
 title: Ajouter un serveur de conversation permanente à votre topologie Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Résumé : Lisez cette rubrique pour découvrir comment ajouter un serveur de conversation permanente à votre topologie Skype Entreprise Server 2015.'
-ms.openlocfilehash: b3fe63921ca666844776c420a27cd2717d6f84be
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4b4148989430987c2a1435ce08315908e27e7e13
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753411"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857011"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Ajouter un serveur de conversation permanente à votre topologie Skype Entreprise Server 2015
  
 **Résumé :** Lisez cette rubrique pour découvrir comment ajouter un serveur de conversation permanente à votre topologie Skype Entreprise Server 2015.
   
-Après avoir installé le logiciel prérequis sur chaque serveur sur lequel vous prévoyez de déployer le serveur de conversation permanente, vous utilisez le Générateur de topologie pour : 
+Après avoir installé le logiciel prérequis sur chaque serveur sur lequel vous prévoyez de déployer le serveur de conversation permanente, utilisez le Générateur de topologie pour : 
   
 - Mettre à jour votre topologie pour inclure le serveur de conversation permanente
     
@@ -46,7 +46,7 @@ Pour déployer plusieurs pools de serveurs de conversation permanente, répétez
   
 2. Démarrez le Générateur de topologie.
     
-3. Dans l’arborescence de la console, accédez au nœud **Pools** de conversation permanente et développez-le pour sélectionner un pool Skype Entreprise Server ou cliquez avec le bouton droit sur le nœud et sélectionnez Nouveau pool de **conversation permanente.** Vous devez définir le nom de domaine complet (FQDN) du pool et indiquer si le pool sera un déploiement de pool à serveur unique ou à plusieurs serveurs.
+3. Dans l’arborescence de la console, accédez au nœud **Pools** de conversation permanente et développez-le pour sélectionner un pool Skype Entreprise Server ou cliquez avec le bouton droit sur le nœud et sélectionnez Nouveau pool de conversation **permanente.** Vous devez définir le nom de domaine complet (FQDN) du pool et indiquer s’il s’agit d’un pool à serveur unique ou d’un pool à plusieurs serveurs.
     
     Vous pouvez choisir un **Pool de plusieurs ordinateurs** ou un **Pool d’un seul ordinateur**. Choisissez le premier si vous envisagez d’avoir plusieurs serveurs frontux dans votre pool de serveurs de conversation permanente. Effectuez ce choix maintenant, ou ultérieurement, car une fois créé un pool d’un seul ordinateur, vous ne pourrez pas ajouter d’autres serveurs. Si vous choisissez un pool de plusieurs ordinateurs, entrez les noms des serveurs frontux individuels qui composent le pool.
     
@@ -100,12 +100,12 @@ Pour déployer plusieurs pools de serveurs de conversation permanente, répétez
     Pour publier votre topologie mise à jour à laquelle vous avez ajouté le serveur de conversation permanente, voir Publier la topologie mise à jour.
     
     > [!NOTE]
-    > Avec le Générateur de topologie déjà ouvert, vous pouvez passer à l’étape 3 de publication de la topologie mise à jour pour commencer la publication de votre topologie mise à jour. 
+    > Avec le Générateur de topologie déjà ouvert, vous pouvez passer à l’étape 3 de la publication de la topologie mise à jour pour commencer la publication de votre topologie mise à jour. 
   
 ## <a name="publish-the-updated-topology"></a>Publier la topologie mise à jour
 <a name="BKMK_PublishTopology"> </a>
 
-Après avoir mis à jour votre topologie dans le Générateur de topologie, vous devez la publier dans le magasin central de gestion avant de pouvoir configurer et utiliser Skype Entreprise Server. Les copies en lecture seule des données sont répliquées sur tous les serveurs de la topologie afin de maintenir la synchronisation de tous les serveurs avec la topologie et d’autres modifications intervenues dans la configuration.
+Après avoir mis à jour votre topologie dans le Générateur de topologies, vous devez la publier dans le magasin central de gestion avant de pouvoir configurer et utiliser Skype Entreprise Server. Les copies en lecture seule des données sont répliquées sur tous les serveurs de la topologie afin de maintenir la synchronisation de tous les serveurs avec la topologie et d’autres modifications intervenues dans la configuration.
   
 Avant de publier votre topologie, installez les bases de données pour le serveur de conversation permanente. Utilisez le Générateur de topologie pour installer des bases de données en sélectionnant **Action** et **Installer la base de données.**
   

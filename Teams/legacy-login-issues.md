@@ -1,7 +1,7 @@
 ---
 title: Problèmes de réception de messages et d’appels sur des systèmes hérités dans Teams
 ms.reviewer: ''
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 05/29/2020
@@ -17,12 +17,12 @@ description: Résoudre les problèmes liés à la réception de messages et d’
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fb36f4be70b174a324f017b1e52529f457e83f36
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 69a3f070b247507e0d22535179353860434e94ad
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768302"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857141"
 ---
 # <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problèmes de réception de messages et d’appels sur des systèmes hérités
 
@@ -43,7 +43,7 @@ Pour [plus d’informations, voir Se Microsoft Teams à l’aide](sign-in-teams.
 
 ## <a name="skype-token-revocation"></a>Skype révocation de jeton
 
-Lors de la modification ou de la réinitialisation d’un mot de passe, les clients plus anciens ne recevront pas de messages et d’appels pendant une heure. Pour résoudre ce problème, redémarrez l’application ou déplacez-vous vers des clients plus nouveaux.
+Lors de la modification/réinitialisation d’un mot de passe, les clients plus anciens ne recevront pas de messages et d’appels pendant une heure. Pour résoudre ce problème, redémarrez l’application ou déplacez-vous vers des clients plus nouveaux.
 
 
 ## <a name="related-topics"></a>Voir aussi

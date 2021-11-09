@@ -1,7 +1,7 @@
 ---
 title: Teams pour le secteur public
-description: Découvrez comment planifier et déployer des Teams dans Microsoft 365 environnements gouvernementaux.
-author: cichur
+description: Découvrez comment planifier et déployer des déploiements Teams dans Microsoft 365 environnements gouvernementaux.
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.topic: article
 manager: serdars
@@ -14,16 +14,16 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 822d450b63dc96f050532eb539bb5880b104194d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4f41dbffa5d2e0b9cd979d280e1cf865f41d217a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777544"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857151"
 ---
 # <a name="teams-for-government"></a>Teams pour le secteur public
 
-Utilisez ces ressources pour en savoir plus sur des considérations spécifiques pour le déploiement d Teams dans Microsoft 365 environnements gouvernementaux. Lorsque vous êtes prêt, suivez la même trajectoire de déploiement recommandée pour les déploiements Teams décrite dans la manière de déployer [Microsoft Teams.](../deploy-overview.md)
+Utilisez ces ressources pour en savoir plus sur des considérations spécifiques pour le déploiement d Teams dans Microsoft 365 environnements gouvernementaux. Lorsque vous êtes prêt, suivez le même chemin de déploiement recommandé pour les déploiements Teams comme indiqué dans la mise en [Microsoft Teams.](../deploy-overview.md)
 
 | &nbsp; |&nbsp; |
 | ------------- | ------------- |

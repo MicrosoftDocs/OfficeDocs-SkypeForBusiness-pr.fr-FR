@@ -2,7 +2,7 @@
 title: 'Skype Entreprise Server : Tester les paramètres de configuration d’une trunk SIP'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: 'Résumé : Découvrez comment tester les paramètres de configuration des trunks SIP à l’aide de Skype Entreprise Server Management Shell.'
-ms.openlocfilehash: e6acdc50aaabffabf5b54dd0566143ea0d27d155
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 59f246abfc4ef27ad75ab45cccaedc6f5236c98e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764862"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829508"
 ---
 # <a name="skype-for-business-server-test-sip-trunk-configuration-settings"></a>Skype Entreprise Server : Tester les paramètres de configuration d’une trunk SIP
  

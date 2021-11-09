@@ -2,7 +2,7 @@
 title: Gérer les services dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Découvrez comment afficher l’état du service, démarrer et arrêter des services et empêcher les sessions pour les services.
-ms.openlocfilehash: c48a6a07605096dfdccc96539d01e5607e171b9b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cc5218f5347eb2124f42b8881bce730c74889bda
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756981"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864731"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Gérer les services dans Skype Entreprise Server
 
-Vous pouvez utiliser le Panneau de Skype Entreprise Server pour afficher la liste de tous les ordinateurs qui exécutent des Skype Entreprise Server dans votre topologie, afficher l’état des services, démarrer ou arrêter des services et empêcher les sessions pour les services.
+Vous pouvez utiliser le Panneau de Skype Entreprise Server pour afficher la liste de tous les ordinateurs exécutant des Skype Entreprise Server dans votre topologie, afficher l’état des services, démarrer ou arrêter des services et empêcher les sessions pour les services.
 
 - [Afficher la liste des ordinateurs exécutant Skype Entreprise Server](#view-a-list-of-computers-running-skype-for-business-server)
 - [Afficher l’état des services en cours d’exécution sur un ordinateur Skype Entreprise](#view-the-status-of-services-running-on-a-computer-in-skype-for-business)
@@ -47,7 +47,7 @@ Utilisez le Panneau de Skype Entreprise Server pour afficher tous les services q
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le Panneau de Skype Entreprise Server, voir Installer et ouvrir les [outils d’administration.](../../management-tools/install-and-open-administrative-tools.md)
 3. Dans la barre de navigation de gauche, cliquez sur **Topologie.**
 4. Dans la page État, tiez ou recherchez la liste, si nécessaire, pour trouver l’ordinateur qui vous intéresse, puis cliquez sur le nom de l’ordinateur.
-5. Faites l’une des choses suivantes :
+5. Effectuez l’une des opérations suivantes :
     - Pour consulter le dernier état des services en cours d’exécution sur l’ordinateur, cliquez **sur Obtenir l’état du service.**
     - Pour voir la liste des services spécifiques en cours d’exécution sur l’ordinateur et l’état de chaque service, cliquez sur Propriétés, puis cliquez sur **Fermer** pour revenir à la liste.
 

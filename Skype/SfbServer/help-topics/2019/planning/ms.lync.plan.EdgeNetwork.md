@@ -2,7 +2,7 @@
 title: Réseau Edge (outil de planification)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La plupart des composants Edge sont déployés dans un réseau de périmètre. Les composants suivants font la topologie Edge du réseau de périmètre. Sauf remarque, les composants font partie des scénarios de serveur Edge dans Skype Entreprise Server et se trouve dans le réseau de périmètre. Ces composants de périphérie sont les suivants :'
-ms.openlocfilehash: d216b76e88eb4e7e7499315a0ec33db1f1761767
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 950fccf2b8b3687b86c18fd90c68d8038f9c5e10
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752553"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835762"
 ---
 # <a name="edge-network-planning-tool-in-skype-for-business"></a>Edge Network (Planning Tool) in Skype Entreprise 
  

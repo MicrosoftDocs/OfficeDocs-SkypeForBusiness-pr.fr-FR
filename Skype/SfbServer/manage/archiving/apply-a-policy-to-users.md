@@ -2,7 +2,7 @@
 title: Appliquer une stratégie d’archivage aux utilisateurs dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: 'Résumé : Découvrez comment affecter une stratégie d’archivage aux utilisateurs dans Skype Entreprise Server.'
-ms.openlocfilehash: 343afcca74947f4a9e40830775c2149adcbc58af
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9be6f37f6c84e089a387eec4e3ad982ec2ae9e14
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765562"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856801"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Appliquer une stratégie d’archivage aux utilisateurs dans Skype Entreprise Server
 
@@ -63,7 +63,7 @@ Cette commande affecte la stratégie d’archivage par utilisateur RedmondArchiv
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 ```
 
-La commande suivante supprime toute stratégie d’archivage par utilisateur précédemment attribuée à Ken Myer. Une fois la stratégie par utilisateur supprimée, Ken Myer est automatiquement géré à l’aide de la stratégie globale ou, le cas présent, de sa stratégie de site local. La stratégie de site est prioritaire sur la stratégie globale.
+La commande suivante supprime toute stratégie d’archivage par utilisateur précédemment affectée à Ken Myer. Une fois la stratégie par utilisateur supprimée, Ken Myer est automatiquement géré à l’aide de la stratégie globale ou, le cas présent, de sa stratégie de site local. La stratégie de site est prioritaire sur la stratégie globale.
   
 ```PowerShell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null

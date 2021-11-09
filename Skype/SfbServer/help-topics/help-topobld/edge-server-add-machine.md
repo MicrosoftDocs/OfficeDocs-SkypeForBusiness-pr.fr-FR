@@ -2,7 +2,7 @@
 title: Ajouter un ordinateur en tant que serveur Edge
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bdae4545-942e-4f76-9d3f-6ac5d1ebe213
 description: Spécifiez le nom de domaine complet de chaque ordinateur à ajouter à ce pool en tant que serveur Edge. Après avoir ajouté un ordinateur à la liste, vous pouvez mettre à jour le nom de domaine complet de l’ordinateur, ou le supprimer du pool, à tout moment avant de publier la topologie. Une fois la topologie publiée, la modification du nom de domaine complet nécessite la suppression du serveur dans le Générateur de topologie, puis l’ajout d’un nouveau serveur au pool avec son nouveau nom de domaine complet. Pour plus d’informations sur la conception de la topologie d’un pool de serveurs Edge, voir Define Your Edge Topology dans la documentation de déploiement Edge.
-ms.openlocfilehash: 1c35bf65cebec6c099ce5766b023ca8095a355cc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b49b354adcceda8055f3c59316ce1fc95674650d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747604"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828958"
 ---
 # <a name="edge-server-add-machine"></a>Ajouter un ordinateur en tant que serveur Edge
 

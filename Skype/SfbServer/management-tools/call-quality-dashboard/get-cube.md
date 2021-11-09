@@ -2,7 +2,7 @@
 title: Obtenir un cube
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
 description: 'Résumé : Découvrez l’opération Obtenir un cube, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: bb5edc6bba4c374600845d18c371332a62a6085e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 961453404d4abe4f026f240cd03e59a3b4c82993
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739150"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827497"
 ---
 # <a name="get-cube"></a>Obtenir un cube
  
-**Résumé :** Découvrez l’opération Obtenir un cube, qui fait partie de l’API de données du tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
+**Résumé :** Découvrez l’opération Obtenir un cube, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
 L’opération Obtenir un cube fait partie de l’API de données du tableau de bord de qualité des appels.
   

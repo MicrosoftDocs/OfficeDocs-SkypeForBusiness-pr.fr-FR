@@ -2,7 +2,7 @@
 title: Rapport de liste d’appels dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 'Résumé : Découvrez le rapport de liste d’appels utilisé dans Skype Entreprise Server.'
-ms.openlocfilehash: 7fe1a638bda3c830a7593f4a9048f7c4fc178229
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d56374fa317f6c7b132a9d33dcf9fef966c55625
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762412"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864841"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>Rapport de liste d’appels dans Skype Entreprise Server
  
@@ -51,7 +51,7 @@ Il s’adresse aux mesures signalées dans le rapport d’emplacement. Toutefois
 
 Le rapport de liste d’appels est accessible à partir de l’un des rapports suivants :
   
-- Rapport [d’emplacement dans Skype Entreprise Server](location-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
+- Rapport [d’emplacement en Skype Entreprise Server](location-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
 - Rapport [de périphérique en Skype Entreprise Server](device-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
@@ -59,7 +59,7 @@ Le rapport de liste d’appels est accessible à partir de l’un des rapports s
     
 - Rapport [sur les performances du serveur Skype Entreprise Server](server-performance.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
-À partir du rapport de liste d’appels, vous pouvez accéder au rapport détaillé des appels [Skype Entreprise Server](call-detail-report.md) en cliquant sur la mesure Détails.
+À partir du rapport de liste d’appels, vous pouvez accéder au rapport détaillé des appels [Skype Entreprise Server](call-detail-report.md) en cliquant sur la mesure Détail.
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>Utilisation du rapport des listes d’appels au mieux
 
@@ -67,7 +67,7 @@ Si vous ne vous souvenez pas de ce que mesurent réellement certaines mesures du
   
 ## <a name="filters"></a>Filtres
 
-Aucun. Vous ne pouvez pas filtrer le rapport de liste d’appels.
+Aucune. Vous ne pouvez pas filtrer le rapport de liste d’appels.
   
 ## <a name="metrics"></a>Mesures
 

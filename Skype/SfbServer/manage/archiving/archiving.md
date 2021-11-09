@@ -2,7 +2,7 @@
 title: Gérer l’archivage dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
 description: 'Résumé : Découvrez comment gérer l’archivage des Skype Entreprise Server.'
-ms.openlocfilehash: 4ab66b0abae48884935a3041c2fabed9124a9271
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bdb373bf723e586cbc7222cd2559b87f4c72381e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768012"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856791"
 ---
 # <a name="manage-archiving-in-skype-for-business-server"></a>Gérer l’archivage dans Skype Entreprise Server
 
@@ -60,7 +60,7 @@ Ces stratégies peuvent être définies au niveau global, du site ou de l’util
   
 ## <a name="manage-archiving-by-using-the-control-panel-or-by-using-windows-powershell"></a>Gérer l’archivage à l’aide du Panneau de Windows PowerShell
 
-Vous pouvez gérer l’archivage à l’aide du Panneau de Windows PowerShell. Le tableau suivant récapitule les cmdlets disponibles pour vous aider à gérer l’archivage. Pour plus d’informations sur la syntaxe, y compris tous les paramètres disponibles, [voir Skype Entreprise Server Management Shell](../management-shell.md). 
+Vous pouvez gérer l’archivage à l’aide du Panneau de Windows PowerShell. Le tableau suivant récapitule les cmdlets disponibles pour vous aider à gérer l’archivage. Pour plus d’informations sur la syntaxe, y compris tous les paramètres disponibles, [voir Skype Entreprise Server Management Shell.](../management-shell.md) 
 
 
 |**Applet de commande**|**Description**|

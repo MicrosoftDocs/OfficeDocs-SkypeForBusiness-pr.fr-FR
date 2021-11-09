@@ -2,7 +2,7 @@
 title: Déployer un groupe de disponibilité Always On sur un serveur principal dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Déployez (installez) un groupe de disponibilité Always On dans votre Skype Entreprise Server déploiement.
-ms.openlocfilehash: 69a7627850da06a2a120c0c37fbf83f87c17c277
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c30a17ee0852cab3e8e61ee7751a6e8f5f5a6bd1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755643"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829468"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Déployer un groupe de disponibilité Always On sur un serveur principal dans Skype Entreprise Server
  
@@ -44,19 +44,19 @@ La façon dont vous déployez une ag ag varie selon que vous la déployez dans u
     
    - Cliquez **sur Suivant** jusqu’à atteindre la zone Sélectionner les **fonctionnalités.** Ici, cochez la case **Clustering deover.**
     
-   - Dans la zone Ajouter des fonctionnalités requises pour le **clustering de failover,** cliquez **sur Ajouter des fonctionnalités.**
+   - Dans la **zone Ajouter des fonctionnalités requises** pour le clustering de failover, cliquez sur Ajouter des **fonctionnalités.**
     
    - Cliquez sur **Installer**.
     
 2. Validez la configuration du cluster.
     
-   - Dans le Gestionnaire de serveur, cliquez sur le menu **Outils,** puis cliquez sur Gestionnaire **du cluster deover.**
+   - Dans le Gestionnaire de serveur, cliquez sur le menu **Outils,** puis cliquez sur Gestionnaire **du cluster de failover.**
     
    - Sous **Actions** sur le côté droit de l’écran, cliquez **sur Valider la configuration.**
     
    - Sur la page **Avant de commencer**, cliquez sur **Suivant**.
     
-   - Sélectionnez les serveurs à ajouter au cluster, puis cliquez sur **Exécuter tous les tests.**
+   - Sélectionnez les serveurs à ajouter au cluster, puis cliquez **sur Exécuter tous les tests.**
     
    - Dans la **zone Résumé,** vérifiez les erreurs que l’Assistant signale. Cliquez ensuite **sur Terminer** pour terminer la validation.
     
@@ -82,7 +82,7 @@ La façon dont vous déployez une ag ag varie selon que vous la déployez dans u
     
    - Dans la page **Sélectionner un témoin de quorum,** cliquez sur Configurer un témoin de partage de **fichiers.**
     
-   - Dans la page **Configurer le témoin de partage de** fichiers, tapez le chemin d’accès du partage de fichiers que vous souhaitez utiliser, puis cliquez sur **Suivant**.
+   - Dans la page **Configurer le témoin de partage** de fichiers, tapez le chemin d’accès du partage de fichiers que vous souhaitez utiliser, puis cliquez sur **Suivant**.
     
    - Sur la page **Confirmation**, cliquez sur **Suivant**.
     
@@ -90,13 +90,13 @@ La façon dont vous déployez une ag ag varie selon que vous la déployez dans u
     
    - Ouvrez le Gestionnaire de configuration SQL Server. Dans l’arborescence sur le côté gauche de l’écran, cliquez sur **SQL Server Services,** puis double-cliquez sur SQL Server service. 
     
-   - Dans la **zone Propriétés,** sélectionnez **l’onglet Haute disponibilité AlwaysOn.** Activez **la case à cocher Activer les groupes de disponibilité AlwaysOn.** Redémarrez le service SQL Server lorsque vous y être invité.
+   - Dans la **zone Propriétés,** sélectionnez **l’onglet Haute disponibilité AlwaysOn.** Activez **la case à cocher Activer les groupes de disponibilité AlwaysOn.** Redémarrez le service SQL Server lorsque vous y invitez.
    
-6. Utilisez le Générateur de topologie pour créer le pool frontal, comme expliqué dans Créer et publier une nouvelle [topologie dans Skype Entreprise Server](../../deploy/install/create-and-publish-new-topology.md). Lorsque vous le faites, spécifiez l’ag comme SQL magasin pour le pool.
+6. Utilisez le Générateur de topologie pour créer le pool frontal, comme expliqué dans Créer et publier une nouvelle [topologie dans Skype Entreprise Server](../../deploy/install/create-and-publish-new-topology.md). Lorsque vous le faites, spécifiez la ag ag comme SQL magasin pour le pool.
     
 7. Créez le groupe de disponibilité.
     
-   - Ouvrez SQL Server Management Studio et connectez-vous à l’SQL Server instance.
+   - Ouvrez SQL Server Management Studio et connectez-vous à SQL Server instance.
     
    - Dans l’Explorateur d’objets, développez **le dossier Haute disponibilité Always On.** Cliquez avec le bouton droit **sur le dossier Groupes de** disponibilité, puis cliquez sur Assistant Nouveau groupe de **disponibilité.**
     
@@ -168,7 +168,7 @@ La façon dont vous déployez une ag ag varie selon que vous la déployez dans u
     
    - Ouvrez le Générateur de topologie. Dans votre topologie, développez **Êdition Entreprise pools** frontux, cliquez avec le bouton droit sur le nom du pool, puis cliquez sur **Modifier les propriétés.**
     
-   - Pour chaque type de SQL dans le pool, activez la case à **cocher Activer SQL mise** en miroir du Store.
+   - Pour chaque type de SQL dans le pool, activez la case à **cocher Activer SQL la** mise en miroir du Store.
     
 3. Publiez la topologie modifiée. Dans le menu **Action,** cliquez **sur Topologie,** puis **publiez.** Ensuite, dans la page de confirmation, cliquez sur **Suivant**
     
@@ -190,19 +190,19 @@ La façon dont vous déployez une ag ag varie selon que vous la déployez dans u
     
 6. Validez la configuration du cluster.
     
-   - Dans le Gestionnaire de serveur, cliquez sur le menu **Outils,** puis cliquez sur Gestionnaire **du cluster deover.**
+   - Dans le Gestionnaire de serveur, cliquez sur le menu **Outils,** puis cliquez sur Gestionnaire **du cluster de failover.**
     
    - Sous **Actions** sur le côté droit de l’écran, cliquez **sur Valider la configuration.**
     
    - Sur la page **Avant de commencer**, cliquez sur **Suivant**.
     
-   - Sélectionnez les serveurs à ajouter au cluster, puis cliquez sur **Exécuter tous les tests.**
+   - Sélectionnez les serveurs à ajouter au cluster, puis cliquez **sur Exécuter tous les tests.**
     
    - Dans la **zone Résumé,** vérifiez les erreurs que l’Assistant signale. Cliquez ensuite **sur Terminer** pour terminer la validation.
     
-     L’Assistant signalera probablement plusieurs avertissements, en particulier si vous n’utilisez pas le stockage partagé. Vous n’êtes pas obligé d’utiliser le stockage partagé. Toutefois, si  vous voyez des messages d’erreur, vous devez résoudre ces problèmes avant de continuer.
+     L’Assistant signalera probablement plusieurs avertissements, en particulier si vous n’utilisez pas de stockage partagé. Vous n’êtes pas obligé d’utiliser le stockage partagé. Toutefois, si  vous voyez des messages d’erreur, vous devez résoudre ces problèmes avant de continuer.
     
-7. Créez le cluster de Windows serveur.
+7. Créez le cluster Windows de serveur de serveurs.
     
    - Dans **l’Assistant Gestion du cluster de failover,** cliquez avec le bouton droit sur Gestion du cluster de **failover,** puis cliquez **sur Créer un cluster.**
     
@@ -250,7 +250,7 @@ La façon dont vous déployez une ag ag varie selon que vous la déployez dans u
     
     - Pour chaque instance, sélectionnez les options **Deover automatique et** **Validation synchrone.** Ne sélectionnez pas **l’option Secondaire lisible.**
     
-    - Cliquez sur **l’onglet Points de terminaison** et vérifiez que le numéro de **port** est 5022.
+    - Cliquez sur **l’onglet Points de terminaison** et vérifiez que le **numéro de port** est 5022.
     
       - Cliquez sur **l’onglet d’écoute,** puis sélectionnez l’option Créer **un listener de** groupe de disponibilité. Sous cette option, tapez un nom pour l’port d’écoute et définissez le **port** sur 1433 (les autres ports ne sont pas pris en charge pour cette option).
     
@@ -280,7 +280,7 @@ La façon dont vous déployez une ag ag varie selon que vous la déployez dans u
     
     - Sous **Associations,** dans la **SQL Server Store,** sélectionnez l’AG. Sélectionnez le même groupe pour toutes les autres bases de données du pool que vous souhaitez déplacer vers le ag.
     
-    - Lorsque vous êtes sûr que toutes les bases de données nécessaires sont définies sur le AG, cliquez sur **OK**.
+    - Lorsque vous êtes sûr que toutes les bases de données nécessaires sont définies sur la ag ag, cliquez sur **OK**.
     
 13. Publiez la topologie. Dans le menu **Action,** cliquez **sur Topologie,** puis **publiez.** Ensuite, dans la page de confirmation, cliquez sur **Suivant**.
     
@@ -358,11 +358,11 @@ La façon dont vous déployez une ag ag varie selon que vous la déployez dans u
     
    - Sur la page **Confirmation**, cliquez sur **Suivant**.
     
-5. Sur chaque serveur du cluster, activez ag ag dans Gestionnaire de configuration SQL Server.
+5. Sur chaque serveur du cluster, activez AG dans Gestionnaire de configuration SQL Server.
     
    - Ouvrez le Gestionnaire de configuration SQL Server. Dans l’arborescence sur le côté gauche de l’écran, cliquez sur **SQL Server Services,** puis double-cliquez sur SQL Server service. 
     
-   - Dans la **zone Propriétés,** sélectionnez **l’onglet Haute disponibilité AlwaysOn.** Activez la case à cocher Activer les groupes de disponibilité **AlwaysOn.** Redémarrez le service SQL Server lorsque vous y invitez.
+   - Dans la **zone Propriétés,** sélectionnez **l’onglet Haute disponibilité AlwaysOn.** Activez **la case à cocher Activer les groupes de disponibilité AlwaysOn.** Redémarrez le service SQL Server lorsque vous y invitez.
     
 6. Créez le groupe de disponibilité.
     
@@ -378,7 +378,7 @@ La façon dont vous déployez une ag ag varie selon que vous la déployez dans u
     
      N’incluez pas les bases de données **ReportServer,** **ReportServerTempDB** ou De conversation permanente dans la ag, car celles-ci ne sont pas pris en charge dans ce scénario. Vous pouvez inclure toutes les autres bases de données Skype Entreprise Server données dans le ag.
     
-   - Dans la page **Spécifier les réplicas,** cliquez sur **l’onglet Réplicas.** Cliquez ensuite sur le bouton Ajouter des réplicas et connectez-vous aux autres **instances** SQL que vous avez jointes en tant que nodes de WSFC.
+   - Dans la page **Spécifier les réplicas,** cliquez sur **l’onglet Réplicas.** Cliquez ensuite sur le bouton Ajouter des **réplicas,** puis connectez-vous aux autres instances SQL que vous avez jointes en tant que nodes de WSFC.
     
    - Pour chaque instance, sélectionnez les options **Deover automatique et** **Validation synchrone.** Ne sélectionnez pas **l’option Secondaire lisible.**
     
@@ -412,17 +412,17 @@ La façon dont vous déployez une ag ag varie selon que vous la déployez dans u
     
    - Sous **Associations,** dans la **SQL Server Store,** sélectionnez l’AG. Sélectionnez le même groupe pour toutes les autres bases de données du pool que vous souhaitez déplacer vers le ag.
     
-   - Lorsque vous êtes sûr que toutes les bases de données nécessaires sont définies sur le AG, cliquez sur **OK**.
+   - Lorsque vous êtes sûr que toutes les bases de données nécessaires sont définies sur la ag ag, cliquez sur **OK**.
     
 9. Publiez la topologie. Dans le menu **Action,** cliquez **sur Topologie,** puis **publiez.** Ensuite, dans la page de confirmation, cliquez sur **Suivant**.
     
-10. Effectuez quelques étapes finales pour vous assurer que les SQL connexions sont sur chacun des réplicas du groupe de l’ag.
+10. Effectuez quelques étapes finales pour vous assurer que les connexions SQL sont sur chacun des réplicas du groupe de l’ag.
     
     - Ouvrez le Générateur de topologie, **sélectionnez Télécharger la topologie** à partir d’un déploiement existant, puis cliquez sur **OK.**
     
     - Développez Skype Entreprise Server, développez votre topologie et développez **SQL Server Stores.** Cliquez avec le bouton droit SQL magasin de la nouvelle ag, puis cliquez **sur Modifier les propriétés.**
     
-    - En bas de la page, dans la zone **SQL Server FQDN,** modifiez la valeur en nom de nom de groupe du listener du ag.
+    - En bas de la page, dans la zone **SQL Server FQDN,** modifiez la valeur en nom de nom de groupe du listener de l’AG.
     
     - Publiez la topologie. Dans le menu **Action,** cliquez **sur Topologie,** puis **publiez.** Ensuite, dans la page de confirmation, cliquez sur **Suivant**. Patientez ensuite quelques minutes pour que la nouvelle topologie soit répliquée.
     

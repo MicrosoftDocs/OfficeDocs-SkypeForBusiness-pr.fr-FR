@@ -2,7 +2,7 @@
 title: Configurer l’intégration avec Office Web Apps Server dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer l’intégration entre Office Web Apps Server et Skype Entreprise Server pour activer les présentations PowerPoint pour les conférences web.'
-ms.openlocfilehash: 27f5010b0e95ce7a84847ca52747f581697bde9c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 291e246651a5c4f909f2e739e76de65d8c983c5b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740120"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835952"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Configurer l’intégration avec Office Web Apps Server dans Skype Entreprise Server
  
-**Résumé :** Lisez cette rubrique pour découvrir comment configurer l’intégration entre Office Web Apps Server et Skype Entreprise Server pour activer PowerPoint présentations pour les conférences web.
+**Résumé :** Lisez cette rubrique pour découvrir comment configurer l’intégration entre Office Web Apps Server et Skype Entreprise Server pour activer les présentations PowerPoint conférence web.
   
 Skype Entreprise Server utilise Office Web Apps Server pour gérer PowerPoint présentations pour les conférences web. Pour plus d’informations sur les avantages de cette approche, voir [Plan for conferencing in Skype Entreprise Server](../../plan-your-deployment/conferencing/conferencing.md).
   
@@ -72,7 +72,7 @@ Si vous souhaitez que les utilisateurs externes (c’est-à-dire, les utilisateu
   
 ## <a name="validate-the-configuration"></a>Valider la configuration
 
-Une fois Office Web Apps Server a été ajouté à la topologie et une fois cette topologie publiée, vous devez voir deux nouveaux événements de journal des événements dans le journal des événements Skype Entreprise Server. Tout d’abord, un événement LS Data MCU (ID d’événement 41034) doit être ajouté . Cet événement signale que l’Office Web Apps Server a été découvert :
+Une fois Office Web Apps Server a été ajouté à la topologie et une fois cette topologie publiée, vous devez voir deux nouveaux événements de journal des événements dans le journal des événements Skype Entreprise Server. Tout d’abord, un événement LS Data MCU (ID d’événement 41034) doit être ajouté ; Cet événement signale que l’Office Web Apps Server a été découvert :
   
  **Le serveur de conférence web Office Web Apps Server est découvert, PowerPoint contenu est activé.**
   

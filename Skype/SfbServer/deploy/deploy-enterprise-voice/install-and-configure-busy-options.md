@@ -2,7 +2,7 @@
 title: Installer et configurer Busy Options pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Découvrez comment installer et configurer Busy Options dans Skype Entreprise Server.
-ms.openlocfilehash: 60ff279d1d763cda8ed5c03809c7244a05aec1e9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5e0dde157fc39ab7c24ddd297e858ce5a06e888f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759066"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835912"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Installer et configurer Busy Options pour Skype Entreprise Server
 
@@ -34,7 +34,7 @@ Si Busy Options est activée pour l’organisation, tous les utilisateurs du Ent
 
 - Messagerie vocale sur Busy : dans laquelle les nouveaux appels entrants sont transmis à la messagerie vocale si l’utilisateur est occupé.
 
-Quelle que soit la manière dont les options de occupé(s) sont configurées, les utilisateurs d’un appel ou d’une conférence, ou ceux qui ont un appel en attente, ne sont pas empêchés de lancer de nouveaux appels ou conférences.
+Quelle que soit la configuration de leurs options d’occupé, les utilisateurs d’un appel ou d’une conférence, ou ceux qui ont un appel en attente, ne sont pas empêchés de lancer de nouveaux appels ou conférences.
 
 Pour plus d’informations sur la fonctionnalité Busy Options, voir [Plan for Busy Options for Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md).
 
@@ -113,7 +113,7 @@ Dans l’exemple suivant, la commande configure les options busy pour l’utilis
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-Vous pouvez récupérer des informations de configuration sur Busy Options à l’aide de l';cmdlet [Get-CsBusyOptions.](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) L’exemple suivant renvoie le paramètre Busy Options pour « KenMyer@Contoso.com » :
+Vous pouvez récupérer des informations de configuration sur Busy Options à l’aide de l’cmdlet [Get-CsBusyOptions.](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) L’exemple suivant renvoie le paramètre Busy Options pour « KenMyer@Contoso.com » :
 
 ```powershell
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
@@ -154,4 +154,4 @@ ScriptName :
 Script     :
 </pre>
 
-Vous pouvez également utiliser Windows’observateur d’événements pour vérifier que l’installation de Busy Options a réussi et Skype Entreprise Server options Busy correctement chargées. Pour vérifier Busy Options, ouvrez l’Observateur d’événements - Journaux des applications et des **\> services Skype \> (ou Lync) Server** et recherchez l’ID d’événement = 30253.
+Vous pouvez également utiliser Windows’observateur d’événements pour vérifier que l’installation de Busy Options a réussi et Skype Entreprise Server options Busy correctement chargées. Pour vérifier Busy Options, ouvrez l’Observateur d’événements - Journaux des applications et des **\> services - Skype \> (ou Lync) Server** et recherchez l’ID d’événement = 30253.

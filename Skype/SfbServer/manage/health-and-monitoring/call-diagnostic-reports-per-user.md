@@ -2,7 +2,7 @@
 title: Rapports de diagnostic des appels (par utilisateur) dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: 'Résumé : Découvrez les rapports de diagnostic des appels par utilisateur utilisés dans Skype Entreprise Server.'
-ms.openlocfilehash: 4bb9adb37b37ea06627ba5f678d32b5bdcb50b00
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 03b3afba9a9177bc1628c100ca5083f1be96b48e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766492"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864851"
 ---
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Rapports de diagnostic des appels (par utilisateur) dans Skype Entreprise Server
   
@@ -27,7 +27,7 @@ Le rapport d’activité de l’utilisateur fournit une liste détaillée des se
 
 Le rapport d’activité de l’utilisateur est parfois appelé « rapport de support technique ». En effet, ce rapport est souvent utilisé par les équipes de support technique pour récupérer les informations de session d’un utilisateur spécifique. Vous pouvez filtrer les appels à destination ou en provenance d’un utilisateur individuel en tapant simplement son URI SIP dans la zone Préfixe d’URI d’utilisateur.
 
-Dans ce cas, le rapport d’activité de l’utilisateur retourne des informations pour tout utilisateur dont l’URI SIP commence par la chaîne spécifiée. Par exemple, si vous tapez **ken** dans la zone URI, le rapport d’activité de l’utilisateur localisera **Ken**. Myer@litwareinc.com. Toutefois, il localisera également ces utilisateurs :
+Dans ce cas, le rapport d’activité de l’utilisateur retourne des informations pour tout utilisateur dont l’URI SIP commence par la chaîne spécifiée. Par exemple, si vous tapez **ken** dans la zone URI, le rapport d’activité de l’utilisateur localise **Ken**. Myer@litwareinc.com. Toutefois, il localisera également ces utilisateurs :
 
 - **ken** azi@litwareinc.com
 
@@ -122,7 +122,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 | **From** <br/>             | Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 17/07/12015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/17/12015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/13/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/>                                                      |
 | **To** <br/>               | Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 17/07/12015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/17/12015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/13/2015  <br/> Les semaines commencent le dimanche et se terminent le samedi.  <br/>                                                             |
 | **Type d’activité** <br/>    | Type d’activité. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Pair à pair <br/>  Programme <br/>      |
-| **Modalité** <br/>         | La modalité disponible varie en fonction du type d’activité sélectionné. Si le type d’activité est pair à pair, vous pouvez sélectionner la messagerie instantanée . Transfert de fichiers ; Partage d’application ; Voix ; ou vidéo comme modalité.  <br/> Si le type d’activité est Conférence, vous pouvez sélectionner la messagerie instantanée Téléphone conférence ; conférence web ; Partage d’application ; Conférence vocale/vidéo ; ou téléconférence.  <br/>         |
+| **Modalité** <br/>         | La modalité à votre disposition varie en fonction du type d’activité sélectionné. Si le type d’activité est pair à pair, vous pouvez sélectionner la messagerie instantanée . Transfert de fichiers ; Partage d’application ; Voix ; ou vidéo comme modalité.  <br/> Si le type d’activité est Conférence, vous pouvez sélectionner la messagerie instantanée Téléphone conférence ; conférence web ; Partage d’application ; Conférence vocale/vidéo ; ou téléconférence.  <br/>         |
 | **Catégorie de session** <br/> | Indique si l’activité en question a réussi ou échoué. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Opération réussie <br/>  Échec attendu <br/>  Échec inattendu <br/>  Un « échec attendu » est un échec prévisible. Par exemple, si un utilisateur a défini son statut sur Ne pas déranger, les appels passés à cet utilisateur échouent. Un « échec inattendu » est un échec qui se produit dans un système sain. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu. <br/> |
 | **Préfixe d’URI de l’utilisateur** <br/>  | Adresse SIP pour l’utilisateur. Pour afficher exclusivement les enregistrements de l’utilisateur Ken Myer, vous devez entrer l’adresse SIP de Ken Myer. Par exemple :  <br/> sip:kenmyer@litwareinc.com  <br/>
 

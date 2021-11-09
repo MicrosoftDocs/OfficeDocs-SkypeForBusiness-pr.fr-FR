@@ -2,7 +2,7 @@
 title: Stratégie de conversation permanente – Page principale
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: Vous pouvez utiliser la page Stratégie de conversation permanente du groupe conversation permanente pour gérer les stratégies au niveau global, pool, site ou utilisateur, y compris la configuration de la stratégie globale par défaut et la création d’une ou de plusieurs stratégies utilisateur et de site supplémentaires pour votre déploiement. Si un utilisateur est activé pour le serveur de conversation permanente par une stratégie, l’environnement de serveur de conversation permanente apparaît dans son client.
-ms.openlocfilehash: cb42c24e10905af12308ea42775c5f993dbc4c5c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f53e4763b45efac320bb31921e7d971b038720fb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738040"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827837"
 ---
 # <a name="persistent-chat-policy-main-page"></a>Stratégie de conversation permanente – Page principale
  
@@ -54,7 +54,7 @@ Vous pouvez effectuer les tâches suivantes dans la page Stratégie de **convers
     
    - Dans **Nom**, spécifiez un nouveau nom pour la stratégie globale si vous ne souhaitez pas utiliser le nom par défaut Globale.
     
-   - Dans **Description,** fournissez des détails sur la stratégie utilisateur (par exemple, stratégie globale  _pour centralSiteName_).
+   - Dans **Description,** fournissez des détails sur la stratégie utilisateur (par exemple, stratégie globale pour  _centralSiteName_).
     
    - Pour contrôler la conversation permanente pour tous les sites et utilisateurs qui ne sont pas spécifiquement contrôlés par le biais d’une stratégie de site ou d’une stratégie utilisateur, activez ou activez la case à cocher Activer la **conversation** permanente.
     
@@ -88,7 +88,7 @@ La configuration de la stratégie du site supplante la stratégie globale, uniqu
     
 ## <a name="to-create-a-user-policy-for-persistent-chat"></a>Pour créer une stratégie utilisateur pour la conversation permanente
 
-Dans le Skype Entreprise Server de contrôle d’accès, vous définissez des stratégies utilisateur qui peuvent être affectées à des utilisateurs dans **Utilisateurs.**
+Dans le Panneau de Skype Entreprise Server, vous définissez des stratégies utilisateur qui peuvent être affectées à des utilisateurs dans **Utilisateurs.**
   
 La stratégie utilisateur supplante les stratégies globale et de site, mais uniquement pour les utilisateurs pour lesquels la stratégie utilisateur est appliquée.
   
