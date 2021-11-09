@@ -2,7 +2,7 @@
 title: Gérer les Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: 'Résumé : Explorez ces liens pour découvrir comment gérer et gérer les Skype Entreprise Server.'
-ms.openlocfilehash: 23312383a68b05de6d93e52b68f3b5c4c36192dd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 899d0b3b36c3ce7950f2a87bf7e3bc8027a35a08
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763598"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841186"
 ---
 # <a name="manage-skype-for-business-server"></a>Gérer les Skype Entreprise Server 
 
@@ -44,7 +44,7 @@ Les articles suivants sur la configuration, la surveillance et la maintenance de
 |&nbsp;|Contenu|Description|
 |:-----|:-----|:-----|
 |![Icône Numérique How To.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Gérer votre topologie dans Skype Entreprise Server](topology/topology.md)  |Les rubriques de cette section fournissent des procédures pas à pas pour la mise à niveau, la mise à jour, l’ajout et la suppression de serveurs à l’aide du Panneau de Skype Entreprise Server et de Skype Entreprise Server Management Shell.   |
-|![Icône Numérique How To.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Gérer l’état d’Skype Entreprise Server](health-and-monitoring/health-and-monitoring.md)  |Les rubriques de cette section fournissent des procédures pas à pas pour les tâches de configuration d’analyse et d’état que vous pouvez effectuer à l’aide du Panneau de configuration Skype Entreprise Server et de Skype Entreprise Server Management Shell.   |
+|![Icône Numérique How To.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Gérer l’état d’Skype Entreprise Server](health-and-monitoring/health-and-monitoring.md)  |Les rubriques de cette section fournissent des procédures pas à pas pour les tâches de configuration de la surveillance et de l’état que vous pouvez effectuer à l’aide du Panneau de configuration Skype Entreprise Server et de Skype Entreprise Server Management Shell.   |
 |![Icône Numérique How To.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Gérer l’archivage dans Skype Entreprise Server](archiving/archiving.md)  |Les rubriques de cette section fournissent des procédures pas à pas pour configurer les options d’archivage et les stratégies utilisateur pour Skype Entreprise Server à l’aide du Panneau de configuration Skype Entreprise Server et de Skype Entreprise Server Management Shell.   |
 |![Icône Numérique How To.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Gérer le serveur de conversation permanente dans Skype Entreprise Server 2015](persistent-chat/persistent-chat.md)  |Les rubriques de cette section fournissent des procédures pas à pas pour gérer le serveur de conversation permanente à l’aide du Panneau de Skype Entreprise Server et de Skype Entreprise Server Management Shell.  <br/> **Remarque :** Cette offre est disponible Skype Entreprise 2015 uniquement.|
 |![Icône Numérique How To.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype Entreprise Server Management Shell](management-shell.md) <br/> |Les rubriques de cette section décrivent comment gérer les Skype Entreprise Server à l’aide Skype Entreprise Server Management Shell.  <br/> |
@@ -55,7 +55,7 @@ Les ressources suivantes sur la façon de planifier les Skype Entreprise Server 
   
 |&nbsp;|**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Icône pour les documents.](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype Entreprise Server pour les professionnels de l’informatique](../../Hub/index.yml)  |Visitez le centre de ressources pour accéder à des vidéos, des sites communautaires, de la documentation, des téléchargements, etc. |
+|![Icône de Docs.](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype Entreprise Server pour les professionnels de l’informatique](../../Hub/index.yml)  |Visitez le centre de ressources pour accéder à des vidéos, des sites communautaires, de la documentation, des téléchargements et bien plus encore. |
 |![Icône du contenu du développeur.](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|Skype Entreprise Server pour les développeurs   |Trouvez des ressources pour les développeurs Skype Entreprise Server, notamment des exemples de code, des formations et des SDK. |
 |![Icône d’actualités, de blogs, etc.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Gestion et adoption des changements](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [blog Skype’équipe](https://go.microsoft.com/fwlink/p/?LinkId=532818)  |Tenez-vous au fait des actualités des équipes qui créent et documentent des Skype Entreprise Server.  |
 

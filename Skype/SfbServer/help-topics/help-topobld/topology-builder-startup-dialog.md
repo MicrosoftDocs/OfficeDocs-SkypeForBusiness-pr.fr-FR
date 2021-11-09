@@ -2,7 +2,7 @@
 title: Boîte de dialogue de démarrage du Générateur de topologie
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Vous démarrez le Générateur de topologie pour configurer les propriétés et la configuration de votre déploiement Microsoft Lync Server 2013. Au démarrage, le Générateur de topologie affiche une boîte de dialogue qui demande la source du document de topologie. Vous sélectionnez l’une des trois options :'
-ms.openlocfilehash: 0d7f0dbba4ec46a94c231fd38605d8f739fd1aef
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 991e6bcdfc62e046c7d46fb3d249ccee27bb9187
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765612"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863591"
 ---
 # <a name="topology-builder-startup-dialog"></a>Boîte de dialogue de démarrage du Générateur de topologie
 

@@ -1,6 +1,6 @@
 ---
 title: Mettre à Skype Entreprise niveau vers un déploiement hybride Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24dc9deedc23456efcd1dc646ba05bff6ef818d8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ef173755673cf22ece6c3f8325b2d0392092c1eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777144"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840656"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Mettre à niveau à partir d Skype Entreprise déploiement hybride vers un déploiement Teams
 
-![Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation.](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation")
+![Étapes du parcours de mise à niveau, en mettant en avant l’étape déploiement et implémentation.](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accentuation sur l’étape déploiement et implémentation")
 
 Cet article fait partie de la phase déploiement et implémentation de votre voyage de mise à niveau. Avant de poursuivre, confirmez que vous avez effectué les activités suivantes :
 
@@ -59,6 +59,6 @@ Une fois que vous avez déplacé vos utilisateurs vers Skype Entreprise Online, 
 
 ## <a name="phone-system-and-teams-upgrade"></a>Système téléphonique mise à Teams niveau
 
-Si vous effectuez la transition de votre déploiement hybride Skype Entreprise vers Système téléphonique avec les forfaits d’appels, Microsoft sera votre fournisseur de réseau téléphonique commuté (PSTN) et, en supposant que vous avez effectué le transfert de numéro de téléphone, la mise à niveau de vos utilisateurs vers Teams fera automatiquement passer les appels PSTN entrants vers Teams.
+Si vous effectuez la transition de votre déploiement hybride Skype Entreprise vers Système téléphonique avec les forfaits d’appels, Microsoft sera votre fournisseur de réseau téléphonique commuté (PSTN) (et, en supposant que vous avez effectué le transfert de numéro de téléphone), la mise à niveau de vos utilisateurs vers Teams fera automatiquement passer les appels PSTN entrants vers Teams.
 
-Si les forfaits d’appels ne sont pas disponibles ou si vous avez l’intention d’utiliser votre fournisseur de connectivité PSTN existant, vous devez transition votre déploiement voix d’entreprise, ou déploiement vocal hybride qui utilise votre déploiement local existant ou la version Cloud Connector, vers le routage direct du système Téléphone Microsoft. Pour mettre à niveau vos utilisateurs vers Teams, consultez les autres éléments à prendre en [compte pour Système téléphonique routage direct.](./direct-routing-landing-page.md)
+Si les forfaits d’appels ne sont pas disponibles ou si vous avez l’intention d’utiliser votre fournisseur de connectivité RST existant, vous devez transition votre déploiement voix d’entreprise, ou déploiement vocal hybride qui utilise votre déploiement local ou édition Cloud Connector, vers le routage direct du système Téléphone Microsoft. Pour mettre à niveau vos utilisateurs vers Teams, consultez les autres éléments à prendre en [compte pour Système téléphonique routage direct.](./direct-routing-landing-page.md)

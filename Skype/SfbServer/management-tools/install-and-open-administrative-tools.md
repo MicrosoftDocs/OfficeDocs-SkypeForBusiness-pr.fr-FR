@@ -2,7 +2,7 @@
 title: Installer et ouvrir les outils d’administration
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Cette rubrique décrit comment installer et ouvrir les outils d’administration dont vous avez besoin pour déployer et gérer Skype Entreprise.
-ms.openlocfilehash: a40a1617490f22c37ec2a8173118dcb289ec8ff8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 21fc33f5e095100f9634695925e1000172742695
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743430"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848417"
 ---
 # <a name="install-and-open-administrative-tools"></a>Installer et ouvrir les outils d’administration
 
@@ -73,11 +73,11 @@ Utilisez la procédure suivante pour ouvrir le Générateur de topologie afin de
 Utilisez l’une des procédures suivantes pour ouvrir le Panneau de configuration Skype Entreprise Server pour gérer la configuration des serveurs, des utilisateurs, des clients et des appareils dans votre environnement.
 
 > [!NOTE]
-> Vous pouvez utiliser un compte d’utilisateur affecté au rôle CsAdministrator pour effectuer n’importe quelle tâche dans le Panneau de Skype Entreprise Server de contrôle. Vous pouvez utiliser d’autres rôles pour vous connecter au Panneau de Skype Entreprise Server pour effectuer des tâches d’administration spécifiques, en fonction de la tâche que vous devez effectuer. Par exemple, vous pouvez utiliser CSArchivingAdministrator pour administrer l’archivage dans Skype Entreprise Server panneau de Skype Entreprise Server. Pour plus d’informations sur les rôles, voir [Planning for role-based access control](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control). Pour plus d’informations sur les rôles que vous pouvez utiliser pour effectuer une tâche spécifique, voir la documentation de la tâche. 
+> Vous pouvez utiliser un compte d’utilisateur affecté au rôle CsAdministrator pour effectuer n’importe quelle tâche dans Skype Entreprise Server panneau de Skype Entreprise Server. Vous pouvez utiliser d’autres rôles pour vous connecter au Panneau de Skype Entreprise Server pour effectuer des tâches d’administration spécifiques, en fonction de la tâche que vous devez effectuer. Par exemple, vous pouvez utiliser CSArchivingAdministrator pour administrer l’archivage dans Skype Entreprise Server panneau de Skype Entreprise Server. Pour plus d’informations sur les rôles, voir [Planning for role-based access control](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control). Pour plus d’informations sur les rôles que vous pouvez utiliser pour effectuer une tâche spécifique, voir la documentation de la tâche. 
 
 **Pour ouvrir le Panneau de Skype Entreprise Server à partir de n’importe quel ordinateur à l’intérieur du pare-feu de votre organisation**
 
-1. À partir d’un compte d’utilisateur affecté au rôle CsAdministrator ou à un autre rôle qui dispose des droits et autorisations d’utilisateur appropriés pour la tâche à effectuer, connectez-vous à n’importe quel ordinateur de votre déploiement interne avec une résolution d’écran minimale de 1 024 x 768.
+1. À partir d’un compte d’utilisateur affecté au rôle CsAdministrator ou à un autre rôle ayant les droits et autorisations d’utilisateur appropriés pour la tâche à effectuer, connectez-vous à n’importe quel ordinateur de votre déploiement interne avec une résolution d’écran minimale de 1 024 x 768.
 
     > [!IMPORTANT]
     > Si vous avez configuré une URL (Uniform Resource Locator) d’administration simple, vous pouvez accéder au Panneau de configuration Skype Entreprise Server à partir d’un navigateur Internet qui s’exécute sur n’importe quel ordinateur du pare-feu de votre organisation. Pour plus d’informations sur la configuration de l’URL simple d’administration, voir [Planning for simple URLs](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-simple-urls) and [Edit or configure simple URLs](/previous-versions/office/lync-server-2013/lync-server-2013-edit-or-configure-simple-urls). 
@@ -102,4 +102,4 @@ Si vous ouvrez une fenêtre Windows PowerShell plutôt que l’Skype Entreprise 
 
 `Import-Module Lync`
 
-Démarrez l’Skype Entreprise Server Management Shell : cliquez sur Démarrer, sur Tous les **programmes,** sur **Skype Entreprise Server,** puis sur Skype Entreprise Server **Management Shell.**
+Démarrez l Skype Entreprise Server Management Shell : cliquez sur Démarrer, sur Tous les **programmes,** sur **Skype Entreprise Server,** puis sur Skype Entreprise Server **Management Shell.**

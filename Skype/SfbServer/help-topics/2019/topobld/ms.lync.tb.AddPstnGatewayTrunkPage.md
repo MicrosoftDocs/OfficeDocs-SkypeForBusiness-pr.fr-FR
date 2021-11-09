@@ -2,7 +2,7 @@
 title: Définir la jonction racine d’une nouvelle passerelle IP ou PSTN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Vous définissez la jonction racine pour la passerelle IP ou PSTN en configurant les options suivantes :'
-ms.openlocfilehash: ab57011eec73fcbee21dafc52cf85ddeebb01b7d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1a255c6b4dbe9b2e880c564abae90b2557a965cb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761182"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832588"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Définir la jonction racine d’une nouvelle passerelle IP ou PSTN
 
@@ -40,6 +40,6 @@ Vous définissez la jonction racine pour la passerelle IP ou PSTN en configurant
 
 [Configurer une trunk avec déviation du média dans Skype Entreprise Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-[Configurer une trunk sans contournement de média dans Skype Entreprise Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+[Configurer une trunk sans déviation du média dans Skype Entreprise Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
 [Prise en charge de l’acheminement SIP](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunking-support)

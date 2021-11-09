@@ -1,6 +1,6 @@
 ---
 title: Disponibilité au Bangladesh
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Bangladesh.
-ms.openlocfilehash: 0c932677099389d06aaa19145a56873d96059901
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams au Bangladesh.
+ms.openlocfilehash: b603350c33b754bbad29b01e5602408cae63397e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761772"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848217"
 ---
 # <a name="availability-in-bangladesh"></a>Disponibilité au Bangladesh
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Bangladesh.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams au Bangladesh.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

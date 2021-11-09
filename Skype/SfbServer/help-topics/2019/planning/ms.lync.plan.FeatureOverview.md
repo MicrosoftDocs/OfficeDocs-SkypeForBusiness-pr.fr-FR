@@ -2,7 +2,7 @@
 title: Vue d’ensemble des fonctionnalités (outil de planification)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,18 +16,18 @@ ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype Entreprise Server Outil de planification
-ms.openlocfilehash: 0b47d1dad12d4933f042217b4762d7bb4f766c6c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ee6578aeb51aa0cf9f6a4066c78d6038a057763b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758776"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832688"
 ---
 # <a name="feature-overview-planning-tool"></a>Vue d’ensemble des fonctionnalités (outil de planification)
  
 Skype Entreprise Server Outil de planification
   
-Vous pouvez utiliser la page **Sites centraux** de l’outil de planification pour concevoir Skype Entreprise Server déploiement. Vous pouvez créer deux déploiements centralisés ou distribués. Un déploiement centralisé ne possède qu’un seul site central, qui Skype Entreprise tous les utilisateurs de votre organisation. Un déploiement distribué possède plusieurs sites centraux. Si vous déployez Skype Entreprise Server sur plusieurs sites centraux, vous entrez le nombre d’utilisateurs sur chaque site central dans l’outil de planification.
+Vous pouvez utiliser la page **Sites centraux** de l’outil de planification pour concevoir le Skype Entreprise Server déploiement. Vous pouvez créer deux déploiements centralisés ou distribués. Un déploiement centralisé ne possède qu’un seul site central, qui Skype Entreprise tous les utilisateurs de votre organisation. Un déploiement distribué possède plusieurs sites centraux. Si vous déployez Skype Entreprise Server sur plusieurs sites centraux, vous entrez le nombre d’utilisateurs sur chaque site central dans l’outil de planification.
   
 Pour terminer la définition du site central, vous devez d’abord fournir les informations suivantes :
   
@@ -47,7 +47,7 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
   
 - **Messagerie instantanée et présence**
     
-    La messagerie instantanée permet aux utilisateurs de communiquer les uns avec les autres en temps réel sur leurs ordinateurs à l’aide de messages texte. Les sessions de messagerie unifiée à deux ou à plusieurs personnes sont prises en charge. La présence fournit des informations aux utilisateurs sur l’état d’autres personnes sur le réseau. Le statut de présence d’un utilisateur fournit des informations pour aider d’autres personnes à déterminer si l’utilisateur est en ligne et comment le contacter au mieux. Par exemple, il est préférable de contacter un utilisateur qui se trouve dans une réunion par courrier électronique.
+    La messagerie instantanée permet aux utilisateurs de communiquer les uns avec les autres en temps réel sur leurs ordinateurs à l’aide de messages texte. Les sessions de messagerie unifiée à deux ou à plusieurs personnes sont prises en charge. La présence fournit des informations aux utilisateurs sur l’état d’autres personnes sur le réseau. Le statut de présence d’un utilisateur fournit des informations pour aider d’autres personnes à déterminer si l’utilisateur est en ligne et comment contacter au mieux l’utilisateur. Par exemple, il est préférable de contacter un utilisateur qui se trouve dans une réunion par courrier électronique.
     
 - **Conférence audio et vidéo**
     
@@ -55,7 +55,7 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
     
 - **Conférence rendez-vous**
     
-    La conférence rendez-vous permet aux utilisateurs de joindre un audioconférence à partir d’un téléphone sur le réseau téléphonique téléphonique téléphonique (PSTN). La conférence dial-in nécessite que vous déployiez les applications Assistant de conférence et Annonce de conférence Service.
+    La conférence rendez-vous permet aux utilisateurs de joindre un service A/V à partir d’un téléphone sur le réseau téléphonique téléphonique PSTN. La conférence dial-in nécessite que vous déployiez les applications Assistant de conférence et Annonce de conférence Service.
     
 - **Conférence web**
     
@@ -101,7 +101,7 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
   
 - **Voix Entreprise**
     
-    Enterprise voix est la solution VoIP de Microsft. Enterprise voix permet aux utilisateurs d’utiliser Skype Entreprise pour appeler leur ordinateur.
+    Enterprise voix est la solution VoIP de Microsft. Enterprise vocale permet aux utilisateurs d’utiliser Skype Entreprise pour appeler un téléphone à partir de leur ordinateur.
     
 - **Messagerie unifiée Exchange**
     
@@ -132,7 +132,7 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
     
 - **Exchange Intégration de l’archivage**
     
-    Si vous avez des utilisateurs qui sont Exchange et que leurs boîtes aux lettres ont été mises en conservation In-Place, vous pouvez sélectionner l’option d’intégration du stockage Skype Entreprise Server au stockage Exchange stockage.
+    Si vous avez des utilisateurs qui sont Exchange et que leurs boîtes aux lettres ont été mises en conservation In-Place, vous pouvez sélectionner l’option pour intégrer le stockage Skype Entreprise Server au stockage Exchange stockage.
     
 - **IPv4**
     
@@ -140,11 +140,11 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
     
 - **IPv6**
     
-    Les adresses IPv6 exécutent la même fonction que les adresses IPv4 (avec certaines fonctionnalités supplémentaires), mais au lieu d’utiliser uniquement 32 bits, les adresses IPv6 utilisent des adresses 128 bits. Cela fournit non seulement un nouvel ensemble d’adresses, mais également un plus grand nombre d’adresses.
+    Les adresses IPv6 exécutent la même fonction que les adresses IPv4 (avec certaines fonctionnalités supplémentaires), mais au lieu d’utiliser uniquement des adresses 32 bits, les adresses IPv6 utilisent des adresses 128 bits. Cela fournit non seulement un nouvel ensemble d’adresses, mais également un plus grand nombre d’adresses.
     
 - **service Web de mise à jour des périphériques**
     
-    Le service Web de mise à jour des périphériques fournit un moyen automatisé de mettre à jour tous les appareils, tels que les Skype Entreprise pour Windows Phone, qui sont déployés en dehors de votre organisation.
+    Le service Web de mise à jour des périphériques offre un moyen automatisé de mettre à jour tous les appareils, tels que Skype Entreprise pour Windows Phone, qui sont déployés en dehors de votre organisation.
     
 ### <a name="server-applications"></a>Applications serveur
 
@@ -156,7 +156,7 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
     
 - **Annonce**
     
-    Si vous envisagez de déployer Voix Entreprise, vous pouvez configurer la façon dont les appels téléphoniques sont gérés si le numéro composé est valide mais n’est pas affecté à une zone commune d’utilisateur. Les administrateurs peuvent configurer le service d’annonce afin que ces appels transfèrent vers une destination prédéterminée (numéro de téléphone ou URI SIP) ou lire une annonce audio ou les deux. L’utilisation du service d’annonce évite la situation dans laquelle un appelant maldialisation et entend une tonalité d’occupé ou le client SIP reçoit un message d’erreur. La fonctionnalité service d’annonce est une fonctionnalité PBX classique. 
+    Si vous envisagez de déployer Voix Entreprise, vous pouvez configurer la façon dont les appels téléphoniques sont gérés si le numéro composé est valide mais n’est pas affecté à une zone commune d’utilisateur. Les administrateurs peuvent configurer le service d’annonce afin que ces appels sont transférés vers une destination prédéterminée (numéro de téléphone ou URI SIP) ou lire une annonce audio ou les deux. L’utilisation du service d’annonce évite la situation dans laquelle un appelant maldialisation et entend une tonalité d’occupé ou le client SIP reçoit un message d’erreur. La fonctionnalité service d’annonce est une fonctionnalité PBX classique. 
     
 - **Parcage d’appel**
     

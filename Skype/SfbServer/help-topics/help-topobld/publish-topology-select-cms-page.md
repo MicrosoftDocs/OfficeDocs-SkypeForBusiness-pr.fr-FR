@@ -2,7 +2,7 @@
 title: 'Publier la topologie : page Sélectionner un CMS'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 description: Vous publiez la topologie que vous avez configurée à l’aide du Générateur de topologies. Vous êtes invité à choisir dans une liste le serveur frontal ou le pool frontal qui assumera le rôle de gestion du magasin central de gestion. Un seul serveur frontal ou pool frontal peut contenir ce rôle à un moment donné.
-ms.openlocfilehash: 547d62f1dec4b8c88840b4b457f252e16f74a9c6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d69593d4e54c6dc7a1c2a1de73e0f1089c74e499
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743620"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863611"
 ---
 # <a name="publish-topology-select-cms-page"></a>Publier la topologie : page Sélectionner un CMS
 

@@ -1,6 +1,6 @@
 ---
 title: Créer vos premières équipes dans Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a72fba1a2bfd8d0546d2f757df9a73b0aa55287e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 332c106ca8f3ea881bbef95805c1228a6687cc65
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749583"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832978"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Créer vos premières équipes dans Microsoft Teams
 
@@ -42,28 +42,28 @@ Dans Microsoft Teams, la [](/microsoftteams/platform/concepts/tabs/tabs-overview
 
 ![Capture d’écran montrant les onglets par défaut et personnalisés.](media/teams-adoption-tab-example.png)
 
-Dans vos équipes initiales, nous vous suggérons d’épingler les éléments suivants à des fin de référence facile dans vos canaux d’équipe. Ces ressources sont en plus de vos sections OneNote bloc-notes. Si vous travaillez avec notre équipe de FastTrack, elle vous aidera dans la configuration de ces premières équipes. 
+Dans vos équipes initiales, nous vous suggérons d’épingler les éléments suivants afin de les référencer facilement dans vos canaux d’équipe. Ces ressources sont en plus de vos sections OneNote bloc-notes. Si vous travaillez avec notre équipe FastTrack de l’équipe, elle vous aidera à configurer ces premières équipes. 
 
 |Nom de l’équipe/du canal | Onglet épinglé |
 |----------------- | ---------- |
 | **Microsoft Teams Déploiement** ||
 | Général | Onglet Web : [Teams documents](./index.yml) |
 | Sensibilisation et adoption | [Teams Hub d’adoption](https://aka.ms/DriveTeamsAdoption)<br/>[Kit de réussite des clients de Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)|
-| Engagement commercial | Wiki - Conseils d’engagement<br/>Formulaire – Demande de consultation Teams réunion<br/>Liste – Demandes d’engagement |
+| Engagement commercial | Wiki - Conseils d’engagement<br/>Formulaire : demande de consultation Teams réunion<br/>Liste – Demandes d’engagement |
 |Premiers utilisateurs | Communauté de commentaires épinglés <br/> OneNote faq et thèmes courants |
-| Commentaires et rapports | Rapport d’Microsoft 365 utilisation Office 365 données épinglée (pour les administrateurs Microsoft 365 administrateurs Office 365 utilisateurs uniquement) |
+| Commentaires et rapports | Rapport d’Microsoft 365 utilisation Office 365 données épinglée (Microsoft 365 administrateurs Office 365 utilisateurs uniquement) |
 | Sécurité et conformité | Portail d’aide à la trust Microsoft <br/> [Documentation relative à la sécurité et à la conformité](/office365/securitycompliance/index)<br/> [Roadmap](/office365/securitycompliance/security-roadmap) |
-| Stratégie et planification | Collaboration north star PowerPoint <br/> Plan d’adoption Project service |
+| Stratégie et planification | Collaboration north star PowerPoint <br/> Plan d’utilisation du Project Adoption Project service |
 | Formation | Apprentissage personnalisé de formation <br/> [Formation en ligne Teams](https://aka.ms/TeamsTraining) |
 | **Champions du travail d’équipe**|  |
 | Général | À utiliser pour les annonces du programme <br/> Présentation du programme Épingler champion |
 | Meilleures pratiques | Meilleures pratiques pour les équipes, les canaux et les conversations PowerPoint <br/> Cycle de vie d’équipe |
 | Champion Corner | Notes et présentations de réunion |
-| Social Hub | Connecteur RSS : blog Teams’adoption de l’entreprise |
+| Social Hub | Connecteur RSS : blog Teams sur la conduite du blog d’adoption |
 | Formation et comment | Lien de votre portail de formation |
 
 ## <a name="making-the-switch-to-microsoft-teams"></a>Passage à l’Microsoft Teams
 
-Lorsque vous commencez à utiliser Teams, il est important pour vous et le reste de l’équipe de projet de vous engager à utiliser Teams conversation instantanée, des canaux et des ressources pour exécuter votre projet. Votre propre utilisation d’Teams est essentielle pour la qualité de votre projet d’adoption. Nous vous recommandons de résistance au fragmentation de votre projet en continuant à discuter par courrier électronique avec l’équipe de projet de base. En passant à Teams vous modélisez le comportement que vous souhaitez finalement que vos employés adoptent. Définissez le ton, commencez par vous lancer et commencez à profiter des informations de votre projet dans un seul endroit !  
+Lorsque vous commencez à utiliser Teams, il est important pour vous et le reste de l’équipe de projet de vous engager à utiliser Teams conversation instantanée, des canaux et des ressources pour exécuter votre projet. Votre propre utilisation d’Teams est essentielle pour la qualité de votre projet d’adoption. Nous vous recommandons de résistance à la résistance à la fragmentation de votre projet en continuant à discuter par courrier électronique avec l’équipe de projet de base. En passant à Teams vous modélisez le comportement que vous souhaitez finalement que vos employés adoptent. Définissez le ton, commencez par vous lancer et commencez à profiter des informations de votre projet dans un seul endroit !  
 
-![Icône montrant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : [Votre organisation est-elle prête à l’Microsoft Teams ?](teams-adoption-assess-readiness.md)
+![Icône montrant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : [Comment votre organisation est-elle prête à l’Microsoft Teams ?](teams-adoption-assess-readiness.md)

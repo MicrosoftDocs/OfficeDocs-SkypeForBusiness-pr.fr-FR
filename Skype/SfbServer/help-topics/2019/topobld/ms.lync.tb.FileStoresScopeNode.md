@@ -2,7 +2,7 @@
 title: Nœud d’étendue des magasins de fichiers
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud Magasins de fichiers répertorie les magasins de fichiers de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 9514fe6ea1d6f268a8c0082459e5739274cbd082
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fd227ca4aa8afa2c977e46058aef89f4dba849fe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742321"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841686"
 ---
 # <a name="file-stores-scope-node"></a>Nœud d’étendue des magasins de fichiers
  

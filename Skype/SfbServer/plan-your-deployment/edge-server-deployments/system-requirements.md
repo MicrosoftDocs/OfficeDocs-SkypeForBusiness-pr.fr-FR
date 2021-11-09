@@ -2,7 +2,7 @@
 title: Conditions requises pour le système du serveur Edge dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Résumé : Découvrez la requise pour le serveur Edge dans Skype Entreprise Server.'
-ms.openlocfilehash: 573c9c71493c4bed59ce6fbde4dafa95848b469f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f61412ab8246945e50af0276e46ac53ca080605c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763492"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863461"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Conditions requises pour le système du serveur Edge dans Skype Entreprise Server
  
@@ -75,7 +75,7 @@ Un serveur proxy inverse (RP) n’a Skype Entreprise Server rôle principal, mai
   
 - se connecter à des réunions ou des conférences rendez-vous à l’aide d’URL simples.
     
-- téléchargez le contenu de la réunion.
+- télécharger le contenu de la réunion.
     
 - développer des groupes de distribution.
     
@@ -103,17 +103,17 @@ Nos recommandations actuelles en matière de proxy inverse sont présentes dans 
     
 - doit être en mesure de publier un site web hébergé en interne en externe à l’aide d’un nom de domaine complet (FQDN).
     
-- doit être en mesure de publier tout le contenu de votre site web hébergé. Par défaut, vous pouvez utiliser la directive _ qui est reconnue par la plupart des serveurs web pour signifier « Publier tout le contenu **/\\** sur le serveur web ». Vous pouvez également modifier la directive( par exemple, _*/Uwca/ ***), ce qui signifie « Publier tout le contenu sous le répertoire virtuel \\ Ucwa ».
+- doit pouvoir publier tout le contenu de votre site web hébergé. Par défaut, vous pouvez utiliser la directive _ qui est reconnue par la plupart des serveurs web pour signifier « Publier tout le contenu **/\\** sur le serveur web ». Vous pouvez également modifier la directive( par exemple, _*/Uwca/ ***), ce qui signifie « Publier tout le contenu sous le répertoire virtuel \\ Ucwa ».
     
 - doit exiger des connexions TLS avec les clients qui demandent du contenu à partir de votre site web publié.
     
-- doit accepter les certificats avec des entrées SAN (autre nom de sujet).
+- doit accepter les certificats avec des entrées SAN (autre nom de l’objet).
     
 - doit être en mesure d’autoriser la liaison d’un certificat à un listener ou une interface par le biais de laquelle le FQDN des services web externes sera résolu. Les configurations d’écoute sont préférables aux interfaces. De nombreux écouteurs peuvent être configurés sur une seule interface.
     
 - doit autoriser la configuration de la gestion des en-têtes d’hôte. Souvent, l’en-tête d’hôte d’origine envoyé par le client demandeur doit être transmis de manière transparente, au lieu d’être modifié par le proxy inverse.
     
-- autoriser le pontage du trafic TLS d’un port défini en externe (par exemple, TCP 443) vers un autre port défini (par exemple, TCP 4443). Votre proxy inverse peut déchiffrer le paquet lors de la réception, puis le recrypter lors de l’envoi.
+- autoriser le pontage du trafic TLS d’un port défini en externe (par exemple, TCP 443) vers un autre port défini (par exemple, TCP 4443). Votre proxy inverse peut déchiffrer le paquet à la réception, puis le recrypter lors de l’envoi.
     
 - autoriser le pontage du trafic TCP non chiffré d’un port (par exemple, TCP 80) vers un autre (par exemple, TCP 8080).
     
@@ -131,7 +131,7 @@ Vous devez placer votre déploiement Edge derrière un pare-feu externe, mais no
 
 Il s’agit d’un rôle facultatif. Il peut s’agit d’un serveur unique ou d’un pool de serveurs exécutant le rôle directeur. Il s’agit d’un rôle trouvé dans l’environnement Skype Entreprise Server interne.
   
-Le directeur est un serveur du saut suivant interne qui reçoit le trafic SIP entrant provenant des serveurs Edge destinés à Skype Entreprise Server serveurs internes. Il authentifier préalablement les demandes entrantes et les redirige vers le pool ou le serveur d’accueil d’un utilisateur. Cette pré-authentication vous permet d’abandonner les demandes de comptes d’utilisateur non identifiés.
+Le directeur est un serveur du saut suivant interne qui reçoit le trafic SIP entrant provenant des serveurs Edge destinés à Skype Entreprise Server serveurs internes. Il authentifier préalablement les demandes entrantes et les redirige vers le pool ou le serveur d’accueil d’un utilisateur. Cette pré-authentication vous permet de déposer des demandes de comptes d’utilisateur non identifiés.
   
 Pourquoi cela importe-t-il ? Une fonction importante pour un directeur consiste à protéger les serveurs Édition Standard et les serveurs frontaux ou les pools frontaux contre le trafic malveillant, tel que les attaques par déni de service. Si votre réseau est submergé par du trafic externe non valide, le trafic s’arrête au niveau du directeur.
   
@@ -164,14 +164,14 @@ Pour n’importe quel serveur Edge exécutant le service Edge A/V, voici les con
     
 #### <a name="hlb-requirements"></a>Conditions requises pour l’programme d’programme d
 
-Skype Entreprise Server n’a pas beaucoup de conditions requises en matière d’affinité basée sur les cookies. Par conséquent, vous n’avez pas besoin d’utiliser une persistance basée sur les cookies, sauf **si** (et c’est spécifique à Skype Entreprise Server 2015) vous allez avoir des serveurs frontux ou des pools frontux Lync Server 2010 dans votre environnement Skype Entreprise Server. Ils doivent avoir une affinité basée sur les cookies dans la méthode de configuration recommandée pour Lync Server 2010.
+Skype Entreprise Server n’a pas beaucoup d’exigences d’affinité basée sur les cookies. Par conséquent, vous n’avez pas besoin d’utiliser une persistance basée sur les cookies, sauf **si** (et c’est spécifique à Skype Entreprise Server 2015) vous allez avoir des serveurs frontux ou des pools frontux Lync Server 2010 dans votre environnement Skype Entreprise Server. Ils ont besoin d’une affinité basée sur les cookies dans la méthode de configuration recommandée pour Lync Server 2010.
   
 > [!NOTE]
 > Si vous décidez d’activer l’affinité basée sur les cookies pour votre programme d’hlb, cela ne pose aucun problème, même si votre environnement n’en a pas besoin. 
   
 Si votre environnement **n’a pas besoin d’affinité** basée sur les cookies :
   
-- Sur la règle de publication du proxy inverse pour le port 443, définissez l’en-tête d’hôte **Forward** sur **True**. Cela permet de s’assurer que l’URL d’origine est bien transmis.
+- Sur la règle de publication du proxy inverse pour le port 443, définissez l’en-tête d’hôte **Forward** sur **True**. Cela garantit le forwarded de l’URL d’origine.
     
 Pour les déploiements **qui ont besoin d’affinité** basée sur les cookies :
   
@@ -186,12 +186,12 @@ Pour les déploiements **qui ont besoin d’affinité** basée sur les cookies :
 - Le **cookie** du programme d’équilibrage de la charge matérielle doit être définie dans chaque réponse HTTP pour laquelle la demande HTTP entrante n’a pas de cookie, qu’une réponse HTTP précédente sur cette même connexion TCP a obtenu ou non un cookie. Si votre programme d’équilibrage de la charge matérielle optimise l’insertion des cookies pour qu’elle ne se produise qu’une seule fois par connexion TCP, cette optimisation ne **doit pas** être utilisée.
     
 > [!NOTE]
-> Il est courant que les configurations hLB utilisent l’affinité source et la durée de vie des sessions TCP de 20 minutes, ce qui est bien pour Skype Entreprise Server et ses clients, car l’état de session est maintenu par le biais de l’utilisation du client et/ou de l’interaction avec l’application. 
+> Il est courant que les configurations hLB utilisent l’affinité source et la durée de vie des sessions TCP de 20 minutes, ce qui est bien pour Skype Entreprise Server et ses clients, car l’état de session est maintenu par le biais de l’utilisation du client et/ou de l’interaction de l’application. 
   
 Si vous déployez des appareils mobiles, votre programme d’équilibrage de la charge réseau doit pouvoir équilibrer la charge des demandes individuelles au sein d’une session TCP (en fait, vous devez être en mesure d’équilibrer la charge d’une demande individuelle en fonction de l’adresse IP cible).
   
 > [!IMPORTANT]
-> Les HLB F5 ont une fonctionnalité appelée OneConnect. Il garantit que chaque demande au sein d’une connexion TCP est individuellement équilibrée. Si vous déployez des appareils mobiles, assurez-vous que votre fournisseur DLB prend en charge les mêmes fonctionnalités. Les dernières applications mobiles iOS nécessitent TLS version 1.2. Si vous avez besoin d’en savoir plus, F5 fournit des paramètres spécifiques pour ce faire. 
+> Les HLB F5 ont une fonctionnalité appelée OneConnect. Il garantit que chaque demande au sein d’une connexion TCP est individuellement équilibrée. Si vous déployez des appareils mobiles, assurez-vous que votre fournisseur d’programmes d’autonomie prend en charge les mêmes fonctionnalités. Les dernières applications mobiles iOS nécessitent TLS version 1.2. Si vous avez besoin d’en savoir plus, F5 fournit des paramètres spécifiques pour ce faire. 
   
 Voici les exigences en matière d’programme d’programme d’hlb pour les services Web du directeur (facultatif) et du pool frontal (obligatoire) :
   
@@ -211,7 +211,7 @@ Voici les exigences en matière d’programme d’programme d’hlb pour les ser
    
 #### <a name="port-monitoring-for-hlbs"></a>Surveillance des ports pour les programmes d’HLB
 
-Vous définissez la surveillance des ports sur vos programmes d’équilibrage de la charge matérielle pour déterminer à quel moment des services spécifiques ne sont plus disponibles en raison d’une défaillance matérielle ou de communication. Par exemple, si le service de serveur frontal (RTCSRV) s’arrête en raison de l’échec du serveur frontal ou du pool frontal, la surveillance de l’programme d’programmes d’émission de programmes d’émission de programmes d’urgence doit également cesser de recevoir du trafic sur les services Web. Vous devez implémenter la surveillance des ports sur le programme d’programmes d’ergonomie pour surveiller les opérations suivantes pour votre interface externe HLB :
+Vous définissez la surveillance des ports sur vos programmes d’équilibrage de la charge matérielle pour déterminer à quel moment des services spécifiques ne sont plus disponibles en raison d’une défaillance matérielle ou de communication. Par exemple, si le service de serveur frontal (RTCSRV) s’arrête en raison de l’échec du serveur frontal ou du pool frontal, la surveillance de l’programme d’programmes d’émission de programmes d’émission de programmes d’urgence doit également cesser de recevoir du trafic sur les services Web. Vous devez implémenter la surveillance des ports sur l’programme d’programmes d’ergonomie pour surveiller les opérations suivantes pour votre interface externe HLB :
   
 |**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -220,7 +220,7 @@ Vous définissez la surveillance des ports sur vos programmes d’équilibrage d
    
 ## <a name="hardware-and-software-requirements"></a>Configuration matérielle et logicielle requise
 
-Nous avons couvert la configuration matérielle et logicielle requise pour le serveur Edge dans notre configuration requise globale pour Skype Entreprise Server [2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) et la configuration système requise pour [Skype Entreprise Server 2019.](../../../SfBServer2019/plan/system-requirements.md)
+Nous avons couvert la configuration matérielle et logicielle requise pour les serveurs Edge dans notre configuration requise globale pour Skype Entreprise Server [2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) et la configuration système requise pour [Skype Entreprise Server 2019.](../../../SfBServer2019/plan/system-requirements.md)
   
 ## <a name="collocation"></a>C collocation
 

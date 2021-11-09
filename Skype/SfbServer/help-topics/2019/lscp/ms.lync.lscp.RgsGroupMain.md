@@ -2,7 +2,7 @@
 title: Groupe Response Group
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les groupes Response Group sont constitués de groupes d’agents, de files d’attente et de flux de travail. Un groupe d’agents est un groupe de personnes désignées pour répondre aux appels Response Group.
-ms.openlocfilehash: 83e87a68c484cf57de05bbce6824ad043fade933
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 276bdd91edc34e20b47429ae9364c5068ddb8ce5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767052"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840436"
 ---
 # <a name="response-groups-group"></a>Services Response Group : groupe
 

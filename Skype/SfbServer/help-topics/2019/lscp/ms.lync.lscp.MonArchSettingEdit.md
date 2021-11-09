@@ -2,7 +2,7 @@
 title: 'Configuration de l’archivage : création d’une configuration ou modification d’une configuration existante'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Vous utilisez les configurations d’archivage pour contrôler les options d’archivage de votre déploiement. Les configurations d’archivage incluent la configuration globale et éventuellement une ou plusieurs configurations de site ou de pool :'
-ms.openlocfilehash: 2a9e3a64560e347c959b464fe8da57e994f2e5c9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 145d86cce250204a219bd9e983a07765259b9144
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757906"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831518"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuration de l’archivage : création d’une nouvelle ou modification d’une configuration existante
  
@@ -62,7 +62,7 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
     
     La récupération des sessions de messagerie instantanée et de conférence s’effectue automatiquement après la correction des défaillances.
     
-- **Intégration Exchange Microsoft** Sélectionnez cette option si vous avez des utilisateurs qui sont Exchange. Avec cette option, Exchange est utilisé pour stocker les données de ces utilisateurs, si leurs boîtes aux lettres ont été placées en In-Place. Si tous vos utilisateurs sont Exchange, vous n’avez pas besoin de configurer des bases de données SQL Server pour le stockage des données d’archivage.
+- **Intégration Exchange Microsoft** Sélectionnez cette option si vous avez des utilisateurs qui sont Exchange. Avec cette option, Exchange permet de stocker des données pour ces utilisateurs, si leurs boîtes aux lettres ont été placées en In-Place de données. Si tous vos utilisateurs sont Exchange, vous n’avez pas besoin de configurer des bases de données SQL Server pour le stockage des données d’archivage.
     
 - **Activer le purge des données d’archivage** Sélectionnez cette option pour activer le purgement et spécifier les options de purge, qui incluent les options suivantes :
     

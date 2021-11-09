@@ -2,7 +2,7 @@
 title: Service d’élément pour le tableau de bord de qualité des appels (CQD)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: 'Résumé : Découvrez le service d’élément, qui fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: a0a6ddc923ebf55e5b11ea794398286ca1d19728
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 58d141930d98704eac101feb5d0fe8994284b587
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760602"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848437"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>Service d’élément pour le tableau de bord de qualité des appels (CQD)
  
-**Résumé :** Découvrez le service d’élément, qui fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
+**Résumé :** Découvrez le service d’élément, qui fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
 Le service d’élément fait partie de l’API de référentiel pour le tableau de bord de qualité des appels.
   

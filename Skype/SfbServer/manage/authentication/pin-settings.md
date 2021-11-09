@@ -2,7 +2,7 @@
 title: Gérer les paramètres de code confidentiel dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
 description: 'Résumé : Gérez les paramètres de code confidentiel dans Skype Entreprise Server.'
-ms.openlocfilehash: 711da221deca483098ceda3288a424522531d6f8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 840da2accd7a84caa8c5e4b409873d721d679732
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762502"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848567"
 ---
 # <a name="manage-pin-settings-in-skype-for-business-server"></a>Gérer les paramètres de code confidentiel dans Skype Entreprise Server
  
@@ -44,6 +44,6 @@ Utilisez les procédures suivantes pour gérer les pin pin des conférences tél
     
 - [Afficher les informations de code confidentiel de l’utilisateur dans Skype Entreprise Server](view-user-pin-information.md)
     
-- [Verrouiller ou déverrouiller le code confidentiel d’un utilisateur dans Skype Entreprise Server](lock-or-unlock-a-user-pin.md)
+- [Verrouiller ou déverrouiller le code confidentiel d’un utilisateur Skype Entreprise Server](lock-or-unlock-a-user-pin.md)
     
 

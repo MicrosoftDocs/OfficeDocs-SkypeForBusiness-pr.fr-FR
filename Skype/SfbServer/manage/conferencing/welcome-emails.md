@@ -2,7 +2,7 @@
 title: Envoyer un e-mail de bienvenue aux utilisateurs d’appels Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Résumé : Découvrez comment accueillir les utilisateurs à la conférence Skype Entreprise Server.'
-ms.openlocfilehash: 64dd7086b1a40de0c0cc2e0b33a66257153541cd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 672e386c223e2b5b9f872334634ac315c9e900e1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772070"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848537"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Envoyer un e-mail de bienvenue aux utilisateurs d’appels Skype Entreprise Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "60772070"
   
 Après avoir configuré les conférences téléphoniques et vérifié qu’elles fonctionnent correctement, vous devez définir des numéros d’identification personnelle initiaux pour les utilisateurs et informer les utilisateurs de la disponibilité de la fonctionnalité. Vous pouvez inclure des instructions d’introduction telles que le code confidentiel initial et le lien vers la page web conférence Paramètres conférence. 
   
-En règle générale, vous utilisez l’cmdlet **Set-CsClientPin** pour réinitialiser les code confidentiels, mais vous pouvez utiliser la procédure de cette rubrique si vous souhaitez envoyer un message électronique d’introduction avec les informations de code confidentiel. Si vous ne souhaitez pas envoyer ce message, utilisez plutôt **Set-CsClientPin**.
+En règle générale, vous utilisez l’cmdlet **Set-CsClientPin** pour réinitialiser les code confidentiels, mais vous pouvez utiliser la procédure de cette rubrique si vous souhaitez envoyer un message électronique de bienvenue d’introduction avec les informations de code confidentiel. Si vous ne souhaitez pas envoyer ce message, utilisez plutôt **Set-CsClientPin**.
   
 Vous pouvez utiliser le script **Set-CsPinSendCAWelcomeMail** pour définir le code confidentiel et envoyer un message électronique de bienvenue à un utilisateur. Par défaut, le script ne réinitialise pas les codes confidentiels déjà définis, mais vous pouvez utiliser le paramètre Force pour forcer la réinitialisation d’un code confidentiel. Le message électronique est envoyé à l’aide du protocole SMTP (Simple Mail Transfer Protocol).
   
@@ -54,7 +54,7 @@ Vous pouvez créer un script qui exécute le script **Set-CsPinSendCAWelcomeMail
    [-Credential <SMTP server credentials used to send email with the specified From address>]
    ```
 
-**SmtpServer** Par défaut, le script utilise la valeur de la variable d’environnement **réservée $PSEmailServer** pour ce paramètre. Si la variable **$PSEmailServer** n’est pas définie, vous devez spécifier ce paramètre.
+**SmtpServer** Par défaut, le script utilise la valeur de la variable **d’environnement réservée $PSEmailServer** pour ce paramètre. Si la variable **$PSEmailServer** n’est pas définie, vous devez spécifier ce paramètre.
     
 **Informations d’identification** Par défaut, le script utilise les informations d’identification de l’utilisateur actuel. Si l’utilisateur actuel n’a pas le droit d’envoyer un message électronique au nom de l’expéditeur spécifié dans le champ De, vous devez entrer ce paramètre. En règle générale, spécifiez ce paramètre si vous n’indiquez pas votre adresse de messagerie dans le champ De.
     

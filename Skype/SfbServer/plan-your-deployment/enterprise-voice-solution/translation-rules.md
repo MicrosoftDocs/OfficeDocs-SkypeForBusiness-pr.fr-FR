@@ -2,7 +2,7 @@
 title: Règles de traduction dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: Découvrez les règles de traduction et la normalisation des chaînes de numérotation dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 535b98c53367689d3b3002fdda14fb8a706a7f3a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1ad2434a0f57e57f6d86b8bda0c9c2e7af6c3de9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746720"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841006"
 ---
 # <a name="translation-rules-in-skype-for-business-server"></a>Règles de traduction dans Skype Entreprise Server
 
 Découvrez les règles de traduction et la normalisation des chaînes de numérotation dans Skype Entreprise Server Voix Entreprise.
 
- Voix Entreprise exige que toutes les chaînes de numérotation adoptent le format standard E.164 pour des besoins de recherche de numéros inverse. Les règles de traduction sont pris en charge pour les numéros appelés et les numéros d’appel. L’homologue de connexion (c’est-à-dire, la passerelle associée, le PBX (private branch exchange) ou la connexion SIP) peut exiger que les numéros soient au format de numérotation local. Pour traduire des numéros du format E.164 vers un format de numérotation local, vous pouvez définir une ou plusieurs règles de traduction pour manipuler l’URI de demande avant de l’router vers l’homologue de la connexion. Par exemple, vous pouvez rédiger une règle de traduction pour remplacer « +44 » au début de la chaîne de numérotation par « 0144 ».
+ Voix Entreprise exige que toutes les chaînes de numérotation adoptent le format standard E.164 pour des besoins de recherche de numéros inverse. Les règles de traduction sont pris en charge à la fois pour les numéros appelés et les numéros d’appel. L’homologue de connexion (c’est-à-dire, la passerelle associée, le PBX (private branch exchange) ou la connexion SIP) peut exiger que les numéros soient au format de numérotation local. Pour traduire des numéros du format E.164 vers un format de numérotation local, vous pouvez définir une ou plusieurs règles de traduction pour manipuler l’URI de demande avant de l’router vers l’homologue de la liaison. Par exemple, vous pouvez rédiger une règle de traduction pour remplacer « +44 » au début de la chaîne de numérotation par « 0144 ».
 
 En faisant une traduction de l’itinéraire sortant sur le serveur, vous pouvez réduire les exigences de configuration sur chaque homologue de ligne afin de traduire les numéros de téléphone dans un format de numérotation local. Lorsque vous planifiez les passerelles et le nombre de passerelles à associer à un cluster de serveurs de médiation spécifique, il peut s’avérer utile de regrouper des homologues de trunk avec des exigences de numérotation locale similaires. Cela peut réduire le nombre de règles de traduction requises et le temps nécessaire pour les écrire.
 

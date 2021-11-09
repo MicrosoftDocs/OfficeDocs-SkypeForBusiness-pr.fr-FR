@@ -2,7 +2,7 @@
 title: Comment installer et configurer des nodes d’observation
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/20/2015
 audience: ITPro
@@ -13,15 +13,15 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
-description: Découvrez comment installer et configurer des nodes d’Skype Entreprise Server transactions synthétiques.
-ms.openlocfilehash: aca051b005c3ec9a901c5366a7788af5e95d06f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Décrit le processus d’installation et de configuration des nodes d’Skype Entreprise Server transactions synthétiques.
+ms.openlocfilehash: 9b0faf7f449bf75083d3b83e40c7807207ad51a1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766212"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833088"
 ---
-# <a name="how-to-install-and-configure-watcher-nodes"></a>Comment installer et configurer des nodes d’observation
+# <a name="learn-to-install-configure-watcher-nodes"></a>Découvrez comment installer, configurer des nodes d’observation
  
 **Résumé :** Installez et configurez des nodes d’Skype Entreprise Server pour les transactions synthétiques.
   
@@ -62,7 +62,7 @@ Parmi les transactions synthétiques accessibles aux nœuds observateur, citons 
 |Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |Confirme que les contacts d’un utilisateur sont accessibles via le magasin de contacts unifié. Le magasin de contacts unifié permet aux utilisateurs de gérer un ensemble unique de contacts accessibles à l’aide de Skype Entreprise Server 2015, du client de messagerie et de collaboration Outlook et/ou de Outlook Web Access.  <br/> |
 |Test-CsXmppIM (XmppIM)  <br/> |Confirme qu’un message instantané peut être envoyé sur la passerelle XMPP (Extensible Messaging and Presence Protocol).  <br/> Les passerelles et les proxies XMPP sont disponibles dans Skype Entreprise Server 2015, mais ne sont plus pris en charge dans Skype Entreprise Server 2019.  |
 
-Vous n’avez pas besoin d’installer des nodes d’observation pour utiliser System Center Operations Manager. Si vous n’installez pas ces derniers, vous pouvez toujours obtenir des alertes en temps réel à partir de Skype Entreprise Server 2015 chaque fois qu’un problème se produit. (Le pack d’administration des composants et des utilisateurs n’utilise pas de nodes d’observation.) Toutefois, les nodes observateurs sont requis si vous souhaitez surveiller les scénarios de bout en bout à l’aide du pack d’administration Active Monitoring.
+Vous n’avez pas besoin d’installer des nodes d’observation pour utiliser System Center Operations Manager. Si vous n’installez pas ces derniers, vous pouvez toujours obtenir des alertes en temps réel à partir de Skype Entreprise Server 2015 chaque fois qu’un problème se produit. (Le pack d’administration des composants et des utilisateurs n’utilise pas de nodes d’observation.) Toutefois, les nodes observateurs sont requis si vous souhaitez surveiller des scénarios de bout en bout à l’aide du pack d’administration Active Monitoring.
   
 > [!NOTE]
 > Les administrateurs peuvent également exécuter des transactions synthétiques manuellement, sans utiliser ou installer Operations Manager. Selon la taille de votre déploiement Skype Entreprise Server, les transactions synthétiques peuvent utiliser une grande quantité de mémoire ordinateur et de temps processeur. Pour cette raison, nous vous recommandons d’utiliser un ordinateur dédié comme nœud d’observation. Par exemple, vous ne devez pas configurer un serveur Skype Entreprise Server frontal pour qu’il agisse en tant que nœud d’observation. Les nodes de l’observeur doivent respecter la même configuration matérielle de base que tout autre ordinateur de votre topologie Skype Entreprise Server de base. 
@@ -164,7 +164,7 @@ Lorsque vous configurez un nœud observateur, vous devez également choisir le t
 
 Si votre ordinateur de nœud observe se trouve à l’intérieur du réseau de périmètre, l’utilisation de l’authentification de serveur approuvé peut considérablement réduire les tâches d’administration en conservant un certificat unique, plutôt que d’utiliser de nombreux mots de passe de compte d’utilisateur.
   
-Pour configurer l’authentification de serveur approuvé, vous devez d’abord créer un pool d’applications de confiance pour héberger l’ordinateur du nœud de l’observeur. Une fois que vous avez créé le pool d’applications fiables, vous devez configurer les transactions synthétiques sur ce nœud observeur pour qu’ils s’exécutent en tant qu’applications fiables.
+Pour configurer l’authentification de serveur approuvé, vous devez d’abord créer un pool d’applications de confiance pour héberger l’ordinateur du nœud de l’observeur. Une fois que vous avez créé le pool d’applications fiables, vous devez configurer les transactions synthétiques sur ce nœud pour qu’ils s’exécutent en tant qu’applications fiables.
   
 > [!NOTE]
 > Une application fiable est une application qui a un statut approuvé pour s’exécuter dans le cadre de Skype Entreprise Server 2015, mais qui n’est pas une partie intégrée du produit. Le statut d’application approuvée signifie que l’application n’a pas à s’authentifier chaque fois qu’elle s’exécute.
@@ -202,7 +202,7 @@ Pour vérifier que la nouvelle application de confiance a été créée, tapez c
 Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:application:STWatcherNode"
 ```
 
-## <a name="configure-a-default-certificate-on-the-watcher-node"></a>Configurer un certificat par défaut sur le nœud de l’observation
+## <a name="configure-a-default-certificate-on-the-watcher-node"></a>Configurer un certificat par défaut sur le nœud de l’watcher
 <a name="enable_synthetic_trans"> </a>
 
 Chaque nœud observateur qui utilise l’authentification TrustedServer doit avoir un certificat par défaut affecté à l’aide de l Skype Entreprise Server De déploiement. 
@@ -211,7 +211,7 @@ Pour affecter un certificat par défaut :
   
 1. Cliquez sur Démarrer, sur Tous les programmes, Skype Entreprise Server 2015, puis sur Skype Entreprise Server Déploiement. 
     
-2. Dans l’Assistant Skype Entreprise Server Déploiement, cliquez sur Installer ou mettre à jour Skype Entreprise Server système, puis cliquez sur Exécuter sous le titre Demander, installer ou attribuer un certificat. 
+2. Dans l’Assistant Skype Entreprise Server Déploiement, cliquez sur Installer ou mettre à jour Skype Entreprise Server System, puis cliquez sur Exécuter sous le titre Demander, installer ou attribuer un certificat. 
     
 > [!NOTE]
 > Si le bouton Exécuter est désactivé, vous devrez peut-être d’abord cliquer sur Exécuter sous Installer le magasin de configurations local. 
@@ -238,7 +238,7 @@ C:\Tools\Watchernode.msi Authentication=TrustedServer
 ```
 
 > [!NOTE]
-> Vous pouvez également exécuter Watchernode.msi n à partir d’une fenêtre de commande. Pour ouvrir une fenêtre de commande, cliquez sur Démarrer, cliquez avec le bouton droit sur Invite de commandes, puis cliquez sur Exécuter en tant qu’administrateur. Lorsque la fenêtre de commande s’ouvre, tapez la commande indiquée à l’étape 2 ci-dessus. 
+> Vous pouvez également exécuter Watchernode.msi n à partir d’une fenêtre de commande. Pour ouvrir une fenêtre de commande, cliquez sur Démarrer, cliquez avec le bouton droit sur Invite de commandes, puis cliquez sur Exécuter en tant qu’administrateur. Lorsque la fenêtre de commande s’ouvre, tapez la commande indiquée à l’étape 2, ci-dessus. 
   
 > [!IMPORTANT]
 > Dans la commande précédente, la paire nom/valeur Authentication=TrustedServer est sensible à la cas. Il doit être tapé exactement comme indiqué. Par exemple, cette commande échoue, car elle n’utilise pas la boîte aux lettres correcte : 

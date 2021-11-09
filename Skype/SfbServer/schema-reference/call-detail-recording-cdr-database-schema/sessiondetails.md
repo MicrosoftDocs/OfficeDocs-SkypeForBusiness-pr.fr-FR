@@ -2,7 +2,7 @@
 title: Table SessionDetails
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: Chaque enregistrement représente une session d’égal à égal ; il peut s’agir d’un appel téléphonique VoIP-VoIP, d’une session de messagerie instantanée à deux participants ou de tout autre type de session. Vous pouvez effectuer une jointage de table avec la table Media pour rechercher les détails de chaque média impliqué dans cette session.
-ms.openlocfilehash: 2dee827e93da94378e529964b2911ff1f79793ef
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e7b89dc242fb3e4adec215948915218b579631ef
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762022"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863431"
 ---
 # <a name="sessiondetails-table"></a>Table SessionDetails
  

@@ -1,7 +1,7 @@
 ---
 title: Déployer le plug-in Lync VDI avec Skype Entreprise Server
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: krishra
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: Cette rubrique décrit les procédures de déploiement pour l’utilisation Skype Entreprise lors de la connexion à un bureau virtuel distant.
-ms.openlocfilehash: 64bbe73f1a0a4a1d2bde59cd86f1cf3a0f5d911e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 853bcfcc41d058983c0aabb2868351f1f59de08e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775834"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840566"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Déployer le plug-in Lync VDI avec Skype Entreprise Server
  
@@ -59,7 +59,7 @@ Pour préparer la connexion Bureau à distance pour le plug-in Lync VDI, suivez 
     
    - Cliquez sur **OK**.
     
-5. Cliquez sur **l’onglet** Expérience. Sous **Performances,** cochez la case De **mise en cache de bitmap** persistante.
+5. Cliquez sur **l’onglet** Expérience. Sous **Performances,** videz la case de mise en cache des **bitmaps** persistantes.
     
 6. Cliquez sur **l’onglet** Général. Dans **Ordinateur,** tapez le nom du bureau virtuel, puis cliquez **sur Connecter**. 
     
@@ -72,7 +72,7 @@ Une fois le plug-in Lync VDI activé, l’utilisateur suit ces étapes lors de l
     
 2. Une fois Skype Entreprise le plug-in Lync VDI, Skype Entreprise invite l’utilisateur à entrer à nouveau les informations d’identification. Dans cette boîte de dialogue, nous recommandons à l’utilisateur d’activer la case à cocher **Enregistrer mon mot de passe** afin qu’il n’ait pas à les entrer de nouveau lors de connexions ultérieures.
     
-3. Skype Entreprise commence le jumelage avec le plug-in Lync VDI. Alors que cela se produit, le client affiche deux icônes dans la barre Skype Entreprise statut. L’icône en bas à gauche indique qu’aucun périphérique audio n’est disponible et que l’icône clignotante en bas à droite indique que le jumelage VDI est en cours : a. Une fois le jumelage VDI réussi, les icônes changent pour indiquer le périphérique audio qui sera utilisé pour les appels et le jumelage VDI réussi : b. L’utilisateur peut désormais voir sa présence sur Skype Entreprise compatibles avec les appareils connectés à l’ordinateur local, et passe et répond aux appels comme d’habitude.
+3. Skype Entreprise commence le jumelage avec le plug-in Lync VDI. Pendant ce temps, le client affiche deux icônes dans la Skype Entreprise d’état. L’icône en bas à gauche indique qu’aucun périphérique audio n’est disponible et que l’icône clignotante en bas à droite indique que le jumelage VDI est en cours : a. Une fois le jumelage VDI réussi, les icônes changent pour indiquer le périphérique audio qui sera utilisé pour les appels et le jumelage VDI réussi : b. L’utilisateur peut désormais voir sa présence sur Skype Entreprise appareils compatibles qui sont connectés à l’ordinateur local, et passe et répond aux appels comme d’habitude.
     
 ## <a name="troubleshoot-the-lync-vdi-plug-in"></a>Résoudre les problèmes du plug-in Lync VDI
 <a name="tshoot_VDI"> </a>

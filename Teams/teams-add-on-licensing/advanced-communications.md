@@ -1,6 +1,6 @@
 ---
 title: Modules add-on advanced Communications for Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: reference
@@ -9,7 +9,7 @@ ms.reviewer: nogaro
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: medium
-description: En savoir plus sur la référence SKU du module add-on Communications avancé pour Microsoft Teams.
+description: En savoir plus sur la référence SKU du module SKU advanced Communications Microsoft Teams.
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea12429b0ae8e63e0e1ee43ae66af4aea1a81672
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7eb4708e032f713f85cf6532fe1726d9d8e7a3b2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759206"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832998"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Modules add-on advanced Communications for Microsoft Teams
 
@@ -32,12 +32,12 @@ Si votre organisation cherche à améliorer davantage votre expérience de commu
 
 Advanced Communications inclut une personnalisation avancée des réunions, des outils pour gérer les stratégies de communication de votre organisation et une gestion premium avec des packages de stratégies personnalisées. D’autres fonctionnalités incluent une salle d’accueil personnalisée pour personnaliser vos réunions, ainsi que des outils pour surveiller, suivre et analyser les données sur les utilisateurs et appareils.
 
-- Personnalisez votre expérience de pré-participer à la réunion avec le logo de votre entreprise dans la salle d’accueil et avant-première. 
+- Personnalisez votre expérience de pré-adhésion à la réunion avec le logo de votre entreprise dans la salle d’accueil et avant la réunion. 
 - Créez des expériences de réunion uniques grâce aux scènes de mode Ensemble personnalisées conçues pour répondre aux besoins de votre entreprise et de la réunion.
 - Surveillez, suivez et analysez les données sur les utilisateurs et appareils pour garantir une expérience fluide avec la télémétrie en temps réel.
-- Expériences personnalisées avec packages de stratégies personnalisées en regroupant votre propre ensemble de stratégies pour les utilisateurs ayant des rôles similaires au sein de votre organisation à l’aide du Centre d’administration Teams ou PowerShell. Chaque utilisateur aura besoin d’une licence pour recevoir une affectation de package de stratégie personnalisé. 
+- Expériences personnalisées avec packages de stratégies personnalisées en regroupant votre propre ensemble de stratégies pour les utilisateurs ayant des rôles similaires au sein de votre organisation à l’aide du Centre d’administration Teams ou PowerShell. Chaque utilisateur aura besoin d’une licence pour recevoir une attribution de package de stratégie personnalisé. 
 
-Advanced Communications est disponible sur tous les Microsoft 365 et en tant que module add-on à n’importe quel abonnement Microsoft 365 abonnement Office 365 payant. Les fonctionnalités incluses dans les communications avancées ne sont pas ajoutées à d’autres plans Microsoft 365 ou Office 365 et ne peuvent pas être achetées séparément. Pour obtenir les fonctionnalités, vous devez acheter celui-ci.
+Advanced Communications est disponible sur tous les Microsoft 365 et en tant que modules add-on à n’importe quel Microsoft 365 payant ou Office 365 abonnement. Les fonctionnalités incluses dans advanced Communications ne sont pas ajoutées à d’autres plans Microsoft 365 ou Office 365 et ne peuvent pas être achetées séparément. Pour obtenir les fonctionnalités, vous devez acheter celui-ci.
 
 > [!NOTE]
 > Les fonctionnalités seront publiées dès qu’elles seront disponibles. Consultez la [feuille Microsoft 365 feuille de route publique pour](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams) consulter le minutage des fonctionnalités le plus récent.

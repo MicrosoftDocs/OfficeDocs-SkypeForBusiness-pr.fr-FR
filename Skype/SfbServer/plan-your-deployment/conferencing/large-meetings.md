@@ -2,7 +2,7 @@
 title: Planifier des réunions de grande taille dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les meilleures pratiques en matière d’implémentation et de gestion des grandes réunions Skype Entreprise Server.'
-ms.openlocfilehash: 1196c1d5b2ff4fe6456d03f698b80589ef428b24
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a9ab532914a69f70cea6d54fb7935a7d8a44c98d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762222"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856541"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planifier des réunions de grande taille dans Skype Entreprise Server
  
-**Résumé :** Lisez cette rubrique pour en savoir plus sur les meilleures pratiques en matière d’implémentation et de gestion des grandes réunions Skype Entreprise Server.
+**Résumé :** Lisez cette rubrique pour en savoir plus sur les meilleures pratiques en matière d’implémentation et de gestion de grandes réunions Skype Entreprise Server.
   
 La taille des réunions que Skype Entreprise Server peut prendre en charge varie selon que la conférence est hébergée sur un pool partagé ou dédié : entre 250 participants sur un pool partagé et 1 000 participants sur un pool dédié. 
   
@@ -29,7 +29,7 @@ La taille des réunions que Skype Entreprise Server peut prendre en charge varie
 > Cette rubrique se concentre sur les meilleures pratiques pour les grandes réunions pris en charge par les Skype Entreprise Server. Si votre organisation nécessite des fonctionnalités de réunion plus importantes, vous devez envisager d’implémenter un environnement hybride qui tire parti de Réunion Skype Broadcast, un nouveau service en ligne qui fait partie de Microsoft 365 et Office 365. 
 
 > [!NOTE]
-> Réunion Skype La diffusion permet aux utilisateurs d’héberger et de diffuser des réunions à un large public en ligne de 10 000 participants au plus. L’utilisation Réunion Skype diffusion nécessite que Skype Entreprise Server soit déjà configuré dans une configuration hybride avec une organisation Microsoft 365 ou Office 365 production. Un client en ligne doit être établi en tant que prérequis pour tous les utilisateurs. Si vous souhaitez déployer une solution hybride qui peut tirer parti de la diffusion Réunion Skype, consultez Qu’est-ce qu’une diffusion [Réunion Skype ?](https://go.microsoft.com/fwlink/?LinkId=617071) et configurez votre déploiement local pour la diffusion [Réunion Skype](../../deploy/configure-skype-meeting-broadcast.md). 
+> Réunion Skype La diffusion permet aux utilisateurs d’héberger et de diffuser des réunions à un large public en ligne de 10 000 participants au plus. L’utilisation de Réunion Skype diffusion nécessite que Skype Entreprise Server soit déjà configuré dans une configuration hybride avec une organisation Microsoft 365 ou Office 365 production. Tous les utilisateurs doivent avoir un client en ligne établi en tant que prérequis. Si vous souhaitez déployer une solution hybride qui peut tirer parti de la diffusion Réunion Skype, consultez Qu’est-ce qu’une diffusion [Réunion Skype ?](https://go.microsoft.com/fwlink/?LinkId=617071) et configurez votre déploiement local pour la diffusion [Réunion Skype](../../deploy/configure-skype-meeting-broadcast.md). 
   
 Les grandes réunions ont généralement les caractéristiques suivantes :
   
@@ -91,7 +91,7 @@ Avec plusieurs centaines à un millier d’utilisateurs dans une réunion, il es
   
 Le modérateur de réunion peut utiliser toutes les fonctionnalités de présentateur Skype Entreprise clients pour gérer la grande réunion. Ces fonctionnalités sont les suivantes :
   
-- Surveillance de la salle d’accueil et admission ou rejet des utilisateurs dans la salle d’entrée
+- Surveillance de la salle d’accueil et admission ou rejet des utilisateurs dans la salle d’accueil
     
 - Suppression de tous les utilisateurs de la réunion qui ne doivent pas y être
     
@@ -130,7 +130,7 @@ La planification d’une grande réunion implique d’effectuer les étapes suiv
 
 Après s’être assurée qu’aucune autre réunion n’est prévue à l’heure demandée, l’équipe de support des grandes réunions qui traite la demande planifie la réunion dans le pool de grandes réunions. 
   
-Pour garantir la meilleure expérience utilisateur possible, il est important de planifier une grande réunion avec les niveaux d’accès et les paramètres de réunion appropriés qui sont adaptés aux besoins de l’organisateur de la réunion. Prenez en compte les paramètres de planification suivants configurés dans Skype Entreprise options de réunion :
+Pour garantir la meilleure expérience utilisateur possible, il est important de planifier une grande réunion avec les niveaux d’accès appropriés et les paramètres de réunion adaptés aux besoins de l’organisateur de la réunion. Prenez en compte les paramètres de planification suivants configurés dans Skype Entreprise options de réunion :
   
 - Utilisez un nouvel espace de réunion pour chaque grande réunion au lieu de réutiliser l’espace de réunion dédié. 
     

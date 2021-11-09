@@ -1,6 +1,6 @@
 ---
 title: Disponibilité au Cameroun
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services de Microsoft 365 et de Office 365 d Skype Entreprise et Microsoft Teams disponibles pour le Cameroun.
-ms.openlocfilehash: 59b959e50f9d80e5ff502cf632f68f6910b0be18
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Voici les services d Microsoft 365 et de Office 365 pour le gouvernement Skype Entreprise et Microsoft Teams le Cameroun.
+ms.openlocfilehash: 448573f103d2772e5de81373937104802d829212
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754007"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833048"
 ---
 # <a name="availability-in-cameroon"></a>Disponibilité au Cameroun
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services de Microsoft 365 et de Office 365 d Skype Entreprise et Microsoft Teams disponibles pour le Cameroun.
+Voici les services d Microsoft 365 et de Office 365 pour le gouvernement Skype Entreprise et Microsoft Teams le Cameroun.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

@@ -1,8 +1,8 @@
 ---
-title: Configuration des stratégies pour Skype Entreprise Server 2015 Stress and Performance Tool
+title: Configuration des stratégies pour l Skype Entreprise Server 2015 Stress and Performance Tool
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 11/11/2015
 manager: serdars
 audience: ITPro
@@ -14,14 +14,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
 description: Configuration de stratégie pour Skype Entreprise Server 2015 Stress and Performance Tool.
-ms.openlocfilehash: ba08b12b94847ac130a5f95770ad9cf4c71e0e8c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3bf593402340386e21a2cc339b6eb971c7bbd39f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771990"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857321"
 ---
-# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Configuration des stratégies pour Skype Entreprise Server 2015 Stress and Performance Tool
+# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Configuration des stratégies pour l Skype Entreprise Server 2015 Stress and Performance Tool
  
 Configuration de stratégie pour Skype Entreprise Server 2015 Stress and Performance Tool.
   
@@ -41,7 +41,7 @@ Vous pouvez configurer plusieurs stratégies et autres domaines dans Skype Entre
     
 - [Application Conference Attendant](configuring-policies.md#ConfAttendantApp)
     
-- [Service de parcier d’appel serveur](configuring-policies.md#ServerCallParkServ)
+- [Service de parc d’appel serveur](configuring-policies.md#ServerCallParkServ)
     
 - [Appels d’urgence](configuring-policies.md#EmergencyCalls)
     
@@ -92,7 +92,7 @@ Tout d’abord, examinez ConferenceAutoAttendantConfiguration.ps1 script. Notez 
   
 Vous trouverez plus d’informations dans les cmdlets conférence et conférences téléphoniques.
   
-## <a name="server-call-park-service"></a>Service de parcier d’appel serveur
+## <a name="server-call-park-service"></a>Service de parc d’appel serveur
 <a name="ServerCallParkServ"> </a>
 
 Cette option est en fait désactivée par défaut. Vous pouvez consulter l'CallParkConfiguration.ps1 exemple de script si vous devez le tester. En outre, consultez les cmdlets d’application de parcage d’appel si nécessaire.
@@ -105,11 +105,11 @@ Vous devez effectuer les étapes suivantes pour configurer le test de contrainte
 1. Configurer un itinéraire de voix pour les appels d’urgence. Vous pouvez utiliser le script RoutingRules.ps1 et vérifier sous le commentaire « **Router E911 vers PSTN** » pour obtenir un exemple de la façon de configurer cet itinéraire de voix.
     
     > [!CAUTION]
-    > L’exemple de commande RoutingRules.ps1 a un modèle de numéro qui inclut le numéro 119 au lieu de 911. Vous devez éviter d’utiliser le 911 (ou votre numéro d’urgence local réel) pour éviter les appels accidentels à vos opérateurs d’urgence locaux pendant vos tests de charge. N’oubliez pas que cette configuration est uniquement à des fins de simulation ! 
+    > L’exemple de commande RoutingRules.ps1 a un modèle de numéro qui inclut le numéro 119 au lieu de 911. Évitez d’utiliser le 911 (ou votre numéro d’urgence local réel) pour éviter les appels accidentels vers vos opérateurs d’urgence locaux pendant les tests de charge. N’oubliez pas que cette configuration est uniquement à des fins de simulation ! 
   
 2. Configurez les adresses en remplissant les valeurs sous l’onglet Configuration du **service** d’informations d’emplacement dans UserProvisioningTool, comme illustré dans la figure suivante :
     
-     ![Outil d’approvisionnement utilisateur indiquant le nombre d’adresses, de sous-réseaux, de commutateurs et de ports.](../../media/ebe85a0c-750f-4301-97d4-d158a40ea98a.png)
+     ![Outil d’approvisionnement utilisateur affichant le nombre d’adresses, de sous-réseaux, de commutateurs et de ports.](../../media/ebe85a0c-750f-4301-97d4-d158a40ea98a.png)
   
 3. Une fois que vous avez entré tous les fichiers dans UserProvisioningTool, cliquez sur le bouton Générer des fichiers de **config LIS.**
     
@@ -118,7 +118,7 @@ Vous devez effectuer les étapes suivantes pour configurer le test de contrainte
 ## <a name="configuring-response-group-application"></a>Configuration de l’application Response Group
 <a name="ConfigResponseGroupApp"> </a>
 
-L’exemple de script est ResponseGroupConfiguration.ps1. Il existe également des cmdlets d’application Response Group à examiner pour plus d’informations sur la configuration. Le diagramme suivant présente certains détails de configuration :
+L’exemple de script est ResponseGroupConfiguration.ps1. Il existe également des cmdlets d’application Response Group à examiner pour obtenir des détails supplémentaires sur la configuration. Le diagramme suivant présente certains détails de configuration :
   
 ![Outil de config Response Group montrant les flux de travail existants à tester.](../../media/e218a345-4813-4332-8cff-b48de05017ef.jpg)
   

@@ -1,6 +1,6 @@
 ---
 title: Disponibilité à Saint-Kitts-et-Nevis
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour Saint-Kitts-et-Nevis.
-ms.openlocfilehash: acb4b5f60248f1a881a8ecb2f392c20b4a389f08
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour Saint-Kitts-et-Nevis.
+ms.openlocfilehash: 0fd87457c253964d91d91af9d5d4cbb22c9a6d88
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745630"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840876"
 ---
 # <a name="availability-in-saint-kitts-and-nevis"></a>Disponibilité à Saint-Kitts-et-Nevis
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour Saint-Kitts-et-Nevis.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour Saint-Kitts-et-Nevis.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

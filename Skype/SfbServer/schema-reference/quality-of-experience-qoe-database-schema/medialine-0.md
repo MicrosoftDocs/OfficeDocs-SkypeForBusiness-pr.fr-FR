@@ -2,7 +2,7 @@
 title: Table MediaLine
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: Chaque enregistrement représente une ligne de média. (Une session audio contient généralement une ligne de média audio. Une session audio et vidéo (A/V) contient généralement une ligne de média audio et une ligne de média vidéo, bien que la session puisse contenir deux lignes de média vidéo si un périphérique de conférence est utilisé ou si la vue Galerie est utilisée.
-ms.openlocfilehash: ae2d776b47f7fe0ef172c9904ea77ae6188535fc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4d832990b92bd0f398c613f2daeec91fc89f5f52
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754283"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857161"
 ---
 # <a name="medialine-table"></a>Table MediaLine
  
@@ -45,8 +45,8 @@ Chaque enregistrement représente une ligne de média. (Une session audio contie
 |**CallerRenderDev** <br/> |int  <br/> |Étranger  <br/> |Périphérique de rendu utilisé par l’appelant. Référencé à partir de la [table Device](device.md).  <br/> |
 |**CallerCaptureDevDriver** <br/> |int  <br/> |Étranger  <br/> |Pilote de l’appareil de capture de l’appelant, référencé à partir de la [table DeviceDriver](devicedriver.md).  <br/> |
 |**CallerRenderDevDriver** <br/> |int  <br/> |Étranger  <br/> |Pilote du périphérique de rendu de l’appelant, référencé à partir de la [table DeviceDriver](devicedriver.md).  <br/> |
-|**CallerNetworkConnectionType** <br/> |tinyint  <br/> |Étranger  <br/> |Indique comment l’appelant s’est connecté au réseau. Les valeurs sont obtenues à partir de [la table NetworkConnectionDetail.](networkconnectiondetail.md) Les valeurs classiques sont 0 pour une connexion câblé' 1 pour une connexion WiFi ; et 3 pour une connexion Ethernet.  <br/> |
-|**CallerBssid** <br/> |int  <br/> |Étranger  <br/> |BSSID de l’appelant si la technologie sans fil est utilisée. Référencé à partir [de la table MacAddress](macaddress.md).  <br/> |
+|**CallerNetworkConnectionType** <br/> |tinyint  <br/> |Étranger  <br/> |Indique comment l’appelant s’est connecté au réseau. Les valeurs sont obtenues à partir de [la table NetworkConnectionDetail.](networkconnectiondetail.md) Les valeurs types sont 0 pour une connexion câblé' 1 pour une connexion WiFi ; et 3 pour une connexion Ethernet.  <br/> |
+|**CallerBssid** <br/> |int  <br/> |Étranger  <br/> |BSSID de l’appelant si la connexion sans fil est utilisée. Référencé à partir [de la table MacAddress](macaddress.md).  <br/> |
 |**CallerVPN** <br/> |bit  <br/> ||Lien de l’appelant. 1 est un réseau privé virtuel (VPN), 0 est un réseau non VPN.  <br/> |
 |**CallerLinkSpeed** <br/> |decimal(18,0)  <br/> ||Vitesse de liaison réseau, en bps, du point de terminaison de l’appelant.  <br/> |
 |**CalleeIPAddr** <br/> |int  <br/> |Étranger  <br/> |Adresse IP du récepteur d’appel. Pour plus [d’informations, voir la table IPAddress.](ipaddress.md) <br/> |
@@ -76,7 +76,7 @@ Chaque enregistrement représente une ligne de média. (Une session audio contie
 |**CallerReflexiveLocalIPAddr** <br/> |int  <br/> |Étranger  <br/> |Adresse IP discrète de l’utilisateur qui a passé l’appel. Dans les organisations qui utilisent nat (traduction d’adresses réseau), l’adresse IP d’erreur est l’adresse IP du serveur proxy.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**CallerWiFiDriverDevicesDesc** <br/> |int  <br/> |Étranger  <br/> |Description de l’appareil pour le pilote WiFi employé par l’utilisateur qui a passé l’appel.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**CallerWiFiDriverVersion** <br/> |int  <br/> |Étranger  <br/> |Numéro de version du pilote WiFi employé par l’utilisateur qui a passé l’appel.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**CalleReflexiveLocalIPAddr** <br/> |int  <br/> |Étranger  <br/> |Adresse IP discrète de l’utilisateur qui a reçu l’appel. Dans les organisations qui utilisent nat (traduction d’adresses réseau), l’adresse IP d’erreur est l’adresse IP du serveur proxy.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**CalleReflexiveLocalIPAddr** <br/> |int  <br/> |Étranger  <br/> |Adresse IP de l’utilisateur qui a reçu l’appel. Dans les organisations qui utilisent nat (traduction d’adresses réseau), l’adresse IP d’erreur est l’adresse IP du serveur proxy.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**CalleeWiFiDriverDevicesDesc** <br/> |int  <br/> |Étranger  <br/> |Description de l’appareil pour le pilote WiFi employé par l’utilisateur qui a reçu l’appel.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**CalleeWiFiDriverVersion** <br/> |int  <br/> |Étranger  <br/> |Numéro de version du pilote WiFi employé par l’utilisateur qui a reçu l’appel.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
    

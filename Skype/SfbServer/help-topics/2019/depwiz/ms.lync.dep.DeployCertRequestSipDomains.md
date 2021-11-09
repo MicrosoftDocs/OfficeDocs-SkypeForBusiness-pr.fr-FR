@@ -2,7 +2,7 @@
 title: Demande de certificat (domaines SIP)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sur la page Paramètre du domaine SIP sur les autres noms du sujet, vous devez activer la case à cocher pour votre domaine SIP principal, ainsi que tout autre domaine SIP si votre infrastructure et votre déploiement sont conformes aux conditions répertoriées.
-ms.openlocfilehash: 3e3b40dd24f91543f17da67508c10feb535e7d2a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b2f1ccdc9fe9e3ee0aa417621aaeaba1682958c5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773184"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832798"
 ---
 # <a name="certificate-request-sip-domains"></a>Demande de certificat (domaines SIP)
  

@@ -2,7 +2,7 @@
 title: Gérer enhanced 9-1-1 et le service d’emplacement
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: Skype Entreprise Server prend en charge les appels Enhanced 9-1-1 (E9-1-1) Skype Entreprise clients. Lorsque vous configurez Skype Entreprise Server pour E9-1-1, les appels d’urgence émis à partir de Skype Entreprise incluent des informations d’emplacement d’intervention d’urgence (ERL) à partir de la base de données du service Informations sur l’emplacement.
-ms.openlocfilehash: cff19de879066163f53de6b8d51ef8384d451438
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Skype Entreprise Server prend en charge les appels Enhanced 9-1-1 (E9-1-1) Skype Entreprise clients. Lorsque vous configurez Skype Entreprise Server pour E9-1-1, les appels d’urgence émis depuis Skype Entreprise incluent des informations d’emplacement d’intervention d’urgence (ERL) à partir de la base de données du service Informations sur l’emplacement.
+ms.openlocfilehash: 5eb5fe86449147c38c5719976f202591f13a67fb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763772"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848527"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Gérer enhanced 9-1-1 et le service d’emplacement dans Skype busines Server
 
-Skype Entreprise Server prend en charge les appels Enhanced 9-1-1 (E9-1-1) Skype Entreprise clients. Lorsque vous configurez Skype Entreprise Server pour E9-1-1, les appels d’urgence émis à partir de Skype Entreprise incluent des informations d’emplacement d’intervention d’urgence (ERL) à partir de la base de données du service Informations sur l’emplacement. Utilisez les procédures de cet article pour gérer la stratégie d’emplacement.
+Skype Entreprise Server prend en charge les appels Enhanced 9-1-1 (E9-1-1) Skype Entreprise clients. Lorsque vous configurez Skype Entreprise Server pour E9-1-1, les appels d’urgence émis depuis Skype Entreprise incluent des informations d’emplacement d’intervention d’urgence (ERL) à partir de la base de données du service Informations sur l’emplacement. Utilisez les procédures de cet article pour gérer la stratégie d’emplacement.
 
 > [!Note]
 > Pour plus d’informations sur le déploiement de fonctionnalités Voix Entreprise avancées, telles que E9-1-1 et le service Informations d’emplacement, voir Déployer les fonctionnalités Voix Entreprise [avancées.](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md)
@@ -77,7 +77,7 @@ Dans Skype Entreprise Server, vous pouvez remplacer la durée par défaut entre 
         
           - **Non requis**   L’utilisateur n’est pas invité à saisir un emplacement. Lorsqu’un appel est effectué sans informations d’emplacement, le fournisseur de services d’urgence y répond et demande qu’un emplacement lui soit indiqué.
         
-          - **Clause d’exclusion de responsabilité**   Cette option est identique à **Obligatoire,** sauf que l’utilisateur ne peut pas ignorer l’invite sans entrer d’informations d’emplacement. L’utilisateur peut toujours appeler les services d’urgence, mais aucun autre appel ne peut être passé sans fournir les informations. De plus, un texte d’exclusion s’affiche pour informer l’utilisateur des conséquences du refus de fournir des informations sur l’emplacement. Pour définir le texte de la clause d’exclusion de responsabilité, vous devez utiliser l’environnement de Skype Entreprise Server Management Shell pour exécuter l'; cmdlet **Set-CsLocationPolicy** ou **New-CsLocationPolicy** avec le paramètre EnhancedEmergencyServiceDisclaimer. Pour plus d’informations, [voir Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) ou [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy).
+          - **Clause d’exclusion de responsabilité**   Cette option est identique à **Obligatoire,** sauf que l’utilisateur ne peut pas ignorer l’invite sans entrer les informations d’emplacement. L’utilisateur peut toujours appeler les services d’urgence, mais aucun autre appel ne peut être passé sans fournir les informations. De plus, un texte d’exclusion s’affiche pour informer l’utilisateur des conséquences du refus de fournir des informations sur l’emplacement. Pour définir le texte de la clause d’exclusion de responsabilité, vous devez utiliser le Skype Entreprise Server Management Shell pour exécuter l';cmdlet **Set-CsLocationPolicy** ou l';cmdlet **New-CsLocationPolicy** avec le paramètre EnhancedEmergencyServiceDisclaimer. Pour plus d’informations, [voir Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) ou [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy).
           
     
       - **Utilisez l’emplacement pour les services** d’urgence Skype Entreprise pouvez utiliser les informations d’emplacement pour diverses raisons (par exemple, pour informer vos collègues de votre emplacement actuel). Activez cette case à cocher pour que les informations sur l’emplacement soient uniquement disponibles lors d’un appel d’urgence.

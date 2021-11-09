@@ -2,7 +2,7 @@
 title: Déployer le Gestionnaire de Statistiques pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Résumé : Lisez cette rubrique pour découvrir comment déployer le Gestionnaire de statistiques pour Skype Entreprise Server.'
-ms.openlocfilehash: 6444f89f43ea4951e186af589f5986e5a3e7bc9e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4cfedb385078cd12413cb9f27059f7b5ed8023a1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778154"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857431"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Déployer le Gestionnaire de Statistiques pour Skype Entreprise Server
  
@@ -92,13 +92,13 @@ Installez le service d’écoute sur l’ordinateur hôte en exécutant le Stats
     
    - **Mot de passe du service :** Il s’agit du mot de passe que les agents distants utiliseront pour s’authentifier au service d’écoute.
     
-   - **Port de service :** Il s’agit du numéro de port HTTPS que l’port d’écoute utilisera pour communiquer avec les agents. Au cours de l’installation, ce port est autorisé par le pare-feu local, une liste decl d’URL est créée et un cert SSL est lié à ce port. La valeur par défaut est 8443.
+   - **Port de service :** Il s’agit du numéro de port HTTPS que l’port d’écoute utilisera pour communiquer avec les agents. Lors de l’installation, ce port est autorisé à passer par le pare-feu local, une liste decl d’URL est créée et un cert SSL est lié à ce port. La valeur par défaut est 8443.
     
    - **Empreinte numérique de certificat :** Il s’agit de l’empreinte numérique du certificat que l’écoute utilisera pour chiffrer le protocole HTTPS. Le service réseau doit avoir un accès en lecture à la clé privée.
     
      Cliquez sur **le bouton Sélectionner...** pour choisir l’empreinte numérique.
     
-     Vous pouvez trouver l’empreinte du certificat à l’aide du Gestionnaire de certificats ou à l’aide de la commande PowerShell suivante :
+     Vous pouvez trouver l’empreinte de certificat à l’aide du Gestionnaire de certificats ou à l’aide de la commande PowerShell suivante :
     
        ```PowerShell
        Get-ChildItem -path cert:\LocalMachine\My
@@ -160,7 +160,7 @@ Installez un agent sur chaque Skype Entreprise Server que vous souhaitez surveil
     
    - **URI de service :** Il s’agit de l’URI où réside l’écoute. Il doit utiliser le https://name:port format.
     
-     Vous pouvez utiliser un nom NETBIOS ou un nom de domaine complet. Vous pouvez utiliser le nom qui  est également spécifié en tant qu’objet ou **autre** nom du sujet du certificat sur le service d’écoute, mais ce n’est pas obligatoire.
+     Vous pouvez utiliser un nom NETBIOS ou un nom de domaine complet. Vous pouvez utiliser le nom qui  est  également spécifié en tant que sujet ou autre nom du sujet du certificat sur le service d’écoute, mais ce n’est pas obligatoire.
     
    - **Empreinte de service :** Il s’agit de l’empreinte numérique du certificat SSL utilisé par l’écoute. L’agent utilisera cette empreinte numérique pour s’authentifier sur l’écoute. (Il n’aura pas la validation complète du certificat, car il est possible d’utiliser des certificats auto-signés.)
     
@@ -214,7 +214,7 @@ La commande suivante vous permet d’afficher toutes les options :
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-Pour consulter les informations de votre serveur actuellement importé, exécutez le script suivant : 
+Pour voir les informations de votre serveur actuellement importé, exécutez le script suivant : 
   
 ```powershell
 .\Get-StatsManServerInfo.ps1
@@ -243,7 +243,7 @@ Si un agent ne parvient pas à démarrer, recherchez ce qui suit :
     
     1. Assurez-vous que vous avez suivi les instructions d’importation de la topologie. Voir [Importer la topologie.](deploy.md#BKMK_ImportTopology)
         
-    2. Si l’agent se trouve sur un serveur qui n’est pas répertorié dans la topologie (par exemple, les nodes dans un cluster SQL AlwaysOn), vous devez ajouter l’agent manuellement en suivant les instructions de l’instruction [Import the topology](deploy.md#BKMK_ImportTopology).
+    2. Si l’agent se trouve sur un serveur qui n’est pas répertorié dans la topologie (par exemple, les nodes dans un [](deploy.md#BKMK_ImportTopology)cluster SQL AlwaysOn), vous devez ajouter l’agent manuellement en suivant les instructions de l’importation de la topologie.
     
 - L’agent peut-il contacter l’écoute ?
     
@@ -267,7 +267,7 @@ Si un agent ne parvient pas à démarrer, recherchez ce qui suit :
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-Pour plus d’informations sur tous les événements que vous pouvez voir dans le journal des événements d’application, voir [Troubleshoot Statistics Manager for Skype Entreprise Server](troubleshoot.md).
+Pour plus d’informations sur tous les événements que vous pouvez voir dans le journal des événements de l’application, voir [Troubleshoot Statistics Manager for Skype Entreprise Server](troubleshoot.md).
   
 ## <a name="create-a-self-signed-certificate"></a>Créer un certificat auto-signé
 <a name="BKMK_SelfCert"> </a>
@@ -284,7 +284,7 @@ Microsoft recommande vivement d’utiliser un certificat signé par une autorit�
     
 3. Accédez **à Personnel,** puis ouvrez **Certificats.**
     
-4. Cliquez avec le bouton **droit sur StatsManListener - \> Toutes les tâches - Gérer les clés \> privées...**
+4. Cliquez avec le bouton droit **sur StatsManListener - \> Toutes les tâches - Gérer les clés \> privées...**
     
 5. Cliquez sur **Ajouter**.
     

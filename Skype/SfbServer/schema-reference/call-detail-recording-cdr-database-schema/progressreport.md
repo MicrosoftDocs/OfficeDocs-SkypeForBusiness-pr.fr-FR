@@ -2,7 +2,7 @@
 title: Table ProgressReport
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: Les rapports d’avancement sont basés sur les données téléchargées par le client dans la base de données à l’issue d’un appel ou d’une session. Les rapports d’avancement sont écrits uniquement pour les appels et les sessions qui, selon Skype Entreprise Server 2015, peuvent être utiles à des fins de diagnostic.
-ms.openlocfilehash: 666320d64e319816666404dff3afd4f27b7413f4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7004361a1f66232df3827c3276a624d2699ac50b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740280"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856461"
 ---
 # <a name="progressreport-table"></a>Table ProgressReport
  
@@ -28,9 +28,9 @@ Les champs ErrorTime, ErrorReportSeq et ProgressReportSeq ne font pas nécessair
   
 |**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**ErrorTime** <br/> |DateHeure  <br/> |Primaire, étrangère  <br/> |Date et heure du rapport d’erreurs d’avancement qui contient ce rapport d’avancement. Pour plus d’informations, voir le [tableau ErrorReport Skype Entreprise Server 2015.](errorreport.md) <br/> |
-|**ErrorId** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’identification utilisé conjointement avec ErrorTime et ProgressReportSeq pour identifier de manière unique un rapport d’avancement. Pour plus d’informations, voir le [tableau ErrorReport Skype Entreprise Server 2015.](errorreport.md) <br/> |
-|**ErrorReportSeq** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’identification qui identifie le rapport d’erreurs. ErrorReportSeq est utilisé conjointement avec ErrorTime pour identifier de manière unique un rapport d’erreurs. Pour plus [d’informations, voir le tableau ErrorReport Skype Entreprise Server 2015](errorreport.md) <br/> Ce champ a été introduit dans Microsoft Lync Server 2013.  <br/> |
+|**ErrorTime** <br/> |DateHeure  <br/> |Primaire, étrangère  <br/> |Date et heure du rapport d’erreurs d’avancement qui contient ce rapport d’avancement. Pour plus [d’informations, voir le tableau ErrorReport Skype Entreprise Server 2015.](errorreport.md) <br/> |
+|**ErrorId** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’identification utilisé conjointement avec ErrorTime et ProgressReportSeq pour identifier de manière unique un rapport d’avancement. Pour plus [d’informations, voir le tableau ErrorReport Skype Entreprise Server 2015.](errorreport.md) <br/> |
+|**ErrorReportSeq** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’identification qui identifie le rapport d’erreurs. ErrorReportSeq est utilisé conjointement avec ErrorTime pour identifier de manière unique un rapport d’erreurs. Voir le [tableau ErrorReport dans Skype Entreprise Server 2015](errorreport.md) pour plus d’informations <br/> Ce champ a été introduit dans Microsoft Lync Server 2013.  <br/> |
 |**ProgressReportSeq** <br/> |int  <br/> |Primaire  <br/> |Numéro d’identification utilisé pour identifier le rapport d’avancement. Utilisé conjointement avec ErrorTime et ErrorReportSeq pour identifier de manière unique un rapport d’avancement.  <br/> |
 |**MsDiagId** <br/> |int  <br/> ||ID de diagnostic du rapport d’avancement.  <br/> Ce champ a été introduit dans Microsoft Lync Server 2013.  <br/> |
 |**SourceId** <br/> |int  <br/> |Étranger  <br/> |Serveur qui a envoyé le rapport d’erreurs (si le rapport a été envoyé à partir d’un composant serveur). Pour plus [d’informations, voir](servers.md) la table Servers. Ce champ a été introduit dans Microsoft Lync Server 2013. <br/> |

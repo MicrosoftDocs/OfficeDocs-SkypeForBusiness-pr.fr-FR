@@ -2,7 +2,7 @@
 title: Nœud d’étendue de la conversation permanente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
-description: Pour commencer la création d’un serveur de conversation permanente ou d’un pool de serveurs de conversation permanente, dans le Générateur de topologie, cliquez avec le bouton droit sur les pools de conversation permanente, puis sélectionnez Nouveau pool de conversation permanente
-ms.openlocfilehash: 44c245e6d913b7569bd2a6f7f3f8ea4306e27cbb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Pour commencer la création d’un nouveau serveur de conversation permanente ou d’un pool de serveurs de conversation permanente, dans le Générateur de topologie, cliquez avec le bouton droit sur les pools de conversation permanente, puis sélectionnez Nouveau pool de conversation permanente
+ms.openlocfilehash: af8bdc498b098a9a716d7920e0f5ea83f2b686e9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747564"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857581"
 ---
 # <a name="persistent-chat-scope-node"></a>Nœud d’étendue de la conversation permanente
  

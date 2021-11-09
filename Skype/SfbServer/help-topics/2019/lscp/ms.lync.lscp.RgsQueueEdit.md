@@ -2,7 +2,7 @@
 title: 'File d’attente Response Groups : création d’une file d’attente ou modification d’une file d’attente existante'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les files d’attente Response Group tiennent les appels à un groupe Response Group jusqu’à ce qu’un agent réponde à l’appel.
-ms.openlocfilehash: 995a2ec25184f451fe28a7f32ac9335b1b7248e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1595439c8d85bf5525ef5cecdc250856d9d2596f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745220"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832698"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>File d’attente des services Response Groups : création d’une nouvelle ou modification d’une file existante
 
@@ -42,15 +42,15 @@ La liste suivante décrit les champs de la page.
 
   - **Délai d’attente (secondes)** Sélectionnez ou tapez le nombre maximal de secondes qu’un appelant peut attendre avant qu’un agent réponde à l’appel.
 
-  - **Action d’appel** Sélectionnez l’action qui se produit à l’attente d’un appel. Vous avez le choix entre :
+  - **Action d’appel** Sélectionnez l’action qui se produit lorsqu’un appel arrive à son moment d’attente. Vous avez le choix entre :
 
   - **Disconnect**
 
-  - **Forward to voice mail** Si vous sélectionnez cette option, dans l’adresse **SIP,** tapez une adresse de messagerie vocale au format sip ( par <username> @ <domainname> exemple, sip:bob@contoso.com).
+  - **Forward to voice mail** Si vous sélectionnez cette option, dans l’adresse **SIP,** tapez une adresse de messagerie vocale au format sip \<username> @ \<domainname> : (par exemple, sip:bob \@ contoso.com).
 
-  - **Forward to telephone number** Si vous sélectionnez cette option, dans l’adresse **SIP,** tapez le numéro de téléphone au format sip ( par <number> @ <domainname> exemple, sip:+14255550121@contoso.com).
+  - **Forward to telephone number** Si vous sélectionnez cette option, dans l’adresse **SIP,** tapez le numéro de téléphone au format sip \<number> @ \<domainname> (par exemple, sip:+14255550121 \@ contoso.com).
 
-  - **Passer à l’adresse SIP** Sélectionnez cette option pour que l’appel soit transmis à un autre utilisateur. Dans **l’adresse SIP,** tapez l’URI de l’utilisateur au format sip: <username> @ <domainname> .
+  - **Passer à l’adresse SIP** Sélectionnez cette option pour que l’appel soit transmis à un autre utilisateur. Dans **l’adresse SIP,** tapez l’URI de l’utilisateur au format sip: \<username> @ \<domainname> .
 
   - **Forward to another queue** Si vous sélectionnez cette option, accédez à la file d’attente qui doit recevoir les appels au moment où les appels ont été mis à l’heure d’attente.
 
@@ -64,11 +64,11 @@ La liste suivante décrit les champs de la page.
 
   - **Disconnect**
 
-  - **Forward to voice mail** Si vous sélectionnez cette option, dans l’adresse **SIP,** tapez une adresse de messagerie vocale au format sip ( par <username> @ <domainname> exemple, sip:bob@contoso.com).
+  - **Forward to voice mail** Si vous sélectionnez cette option, dans l’adresse **SIP,** tapez une adresse de messagerie vocale au format sip ( par \<username> @ \<domainname> exemple, sip:bob@contoso.com).
 
-  - **Forward to telephone number** Si vous sélectionnez cette option, dans l’adresse **SIP,** tapez le numéro de téléphone au format sip ( par <number> @ <domainname> exemple, sip:+14255550121@contoso.com).
+  - **Forward to telephone number** Si vous sélectionnez cette option, dans l’adresse **SIP,** tapez le numéro de téléphone au format sip ( par \<number> @ \<domainname> exemple, sip:+14255550121@contoso.com).
 
-  - **Passer à l’adresse SIP** Sélectionnez cette option pour que l’appel soit transmis à un autre utilisateur. Dans **l’adresse SIP,** tapez l’URI de l’utilisateur au format sip: <username> @ <domainname> .
+  - **Passer à l’adresse SIP** Sélectionnez cette option pour que l’appel soit transmis à un autre utilisateur. Dans **l’adresse SIP,** tapez l’URI de l’utilisateur au format sip: \<username> @ \<domainname> .
 
   - **Forward to another queue** Si vous sélectionnez cette option, accédez à la file d’attente qui doit recevoir des appels lorsque le seuil de dépassement de la file d’attente est atteint.
 

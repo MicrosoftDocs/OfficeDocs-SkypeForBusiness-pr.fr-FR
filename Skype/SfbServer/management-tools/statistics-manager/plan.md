@@ -2,7 +2,7 @@
 title: Planifier le Gestionnaire de statistiques pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,13 +12,13 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: 'Résumé : Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques pour Skype Entreprise Server.'
-ms.openlocfilehash: 79f8bc38169d6cba52160772cd9ba0869e761b30
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Résumé : Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques Skype Entreprise Server.'
+ms.openlocfilehash: 166390fe0f034c907e21a3d3147b516d9f502954
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778144"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857401"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planifier le Gestionnaire de statistiques pour Skype Entreprise Server
 
@@ -61,7 +61,7 @@ Le Gestionnaire de statistiques vous permet de :
 
 - Utilisez des plages de dates ou des points dans l’heure pour filtrer les données.
 
-- Afficher les performances du serveur en fonction des indicateurs d’état de santé clés établis. Les khis représentent une collection de compteurs de performance avec une plage saine définie.
+- Afficher les performances du serveur en fonction des indicateurs d’état de santé clés établis. Les khis représentent une collection de compteurs de performance avec une plage d’état d’santé définie.
 
 - Afficher des mesures détaillées pour chaque compteur.
 
@@ -86,9 +86,9 @@ Ce qui suit décrit les nouveautés de la version 2.0. Si vous avez un déploiem
 
 - Des affichages de scénario ont été ajoutés pour les scénarios edge media, Fabric Health, Pool Failover et Registration.
 
-- De nombreux nouveaux compteurs ont été ajoutés pour SQL serveurs, d’autres compteurs Skype Entreprise’utilisation, etc.
+- De nombreux nouveaux compteurs ont été ajoutés pour SQL serveurs, d’autres compteurs Skype Entreprise d’utilisation, etc.
 
-- Intégration du nœud de l’observeur pour l’agent du gestionnaire de statistiques : si l’agent est installé sur un nœud observeur, il signale les statistiques de transaction synthétique sous forme de compteurs au Gestionnaire de statistiques.
+- Intégration du nœud de l’observeur pour l’agent du gestionnaire de statistiques : si l’agent est installé sur un nœud observeur, il signale les statistiques de transaction synthétique sous forme de compteurs au gestionnaire de statistiques.
 
 - De nombreuses améliorations en matière de fiabilité et de performances.
 
@@ -122,9 +122,9 @@ Dans un déploiement local, un seul serveur héberge tous les composants du Gest
 
 Le diagramme suivant illustre un déploiement local, dans lequel le site web du gestionnaire de statistiques, le système de mise en cache Hub, Listener et Redis sont hébergés sur un seul ordinateur. Le Gestionnaire de statistiques surveille trois serveurs Skype Entreprise, chacun d’eux avec un seul agent transmettant des données à l’écoute. Les utilisateurs se connectent à un site web unique pour afficher toutes les données agrégées par le Gestionnaire de statistiques :
 
-![Déploiement local du gestionnaire des statistiques.](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
+![Déploiement local du gestionnaire de statistiques.](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 <a name="BKMK_Requirements"> </a>
 
 Vous devez prendre en compte les configurations logicielle, réseau et matérielle suivantes avant de déployer le Gestionnaire de statistiques.

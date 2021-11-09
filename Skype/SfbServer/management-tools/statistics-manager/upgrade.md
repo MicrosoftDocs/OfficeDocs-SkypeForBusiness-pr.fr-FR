@@ -2,7 +2,7 @@
 title: Mise à niveau du Gestionnaire de statistiques pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Résumé : Lisez cette rubrique pour découvrir comment mettre à niveau le Gestionnaire de statistiques pour Skype Entreprise Server.'
-ms.openlocfilehash: 2196f07d25fb761055df4432f0c2fd930368474d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 297da8efc1259c1128fd0d60584e1db761465217
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772000"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857331"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Mise à niveau du Gestionnaire de statistiques pour Skype Entreprise Server
  
@@ -46,7 +46,7 @@ Avant de mettre à niveau, assurez-vous que vous avez les informations suivantes
     
 ## <a name="automated-upgrade"></a>Mise à niveau automatisée
 
-Le script collecte les informations de certificat et le mot de passe de l’écoute actuels, désinstalle l’ancienne version du produit, puis installe la nouvelle version du produit. L’instance Redis installée sur le serveur ne sera pas touché, de sorte que les données stockées dans le cache seront conservées pendant le processus de mise à niveau.
+Le script collecte les informations de certificat et le mot de passe d’écoute actuels, désinstalle l’ancienne version du produit, puis installe la nouvelle version du produit. L’instance Redis installée sur le serveur ne sera pas touché, de sorte que les données stockées dans le cache seront conservées pendant le processus de mise à niveau.
   
 1. Placez les fichiers MSI de la nouvelle version de l’agent, de l’écoute et du site web avec le script Update-StatsMan.ps1 dans un dossier unique sur l’ordinateur d’écoute.
     
@@ -57,11 +57,11 @@ Le script collecte les informations de certificat et le mot de passe de l’éco
    ```
 
 > [!NOTE]
-> Le mot de passe du service Gestionnaire de statistiques s’affiche en texte clair sur la ligne de commande lors de sa passage au programme d’installation. Assurez-vous de protéger votre moniteur selon vos besoins. 
+> Le mot de passe du service Gestionnaire de statistiques s’affiche en texte clair sur la ligne de commande lors de son passage au programme d’installation. Assurez-vous de protéger votre moniteur selon vos besoins. 
   
 1. Lors de l’exécution du script, vous devez être invité à désinstaller l’ancienne version du produit. Réponse Oui.
     
-2. Si le service d’écoute est en cours d’exécution, vous êtes invité à fermer l’application avant de continuer. Autorisez la fermeture de l’application (le service d’écoute du Gestionnaire de statistiques sera arrêté).
+2. Si le service d’écoute est en cours d’exécution, vous serez invité à fermer l’application avant de continuer. Autorisez la fermeture de l’application (le service d’écoute du Gestionnaire de statistiques sera arrêté).
     
 3. Poursuivez le processus d’installation. Notez que le mot de passe du service et l’empreinte numérique du certificat sont pré-rempli. Si ce n’est pas le cas, ajoutez les valeurs que vous avez enregistrées avant de continuer.
     

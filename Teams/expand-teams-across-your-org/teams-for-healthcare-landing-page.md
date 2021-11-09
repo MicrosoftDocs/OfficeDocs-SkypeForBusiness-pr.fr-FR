@@ -1,7 +1,7 @@
 ---
 title: Teams pour la santé publique
 description: Découvrez les ressources d’administration disponibles pour gérer les Teams pour les équipes de santé de votre organisation.
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -17,16 +17,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cf556f8041f4b94d49813f24702ceff7ecde4afb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 53f3d72bee414eec06ba1fe847de1d58e9015a95
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764992"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840756"
 ---
 # <a name="teams-for-healthcare"></a>Teams pour la santé publique
 
-Teams équipes de santé et professionnels de santé un moyen sécurisé de communiquer, coordonner les soins des patients et améliorer l’efficacité opérationnelle. Vous y trouverez les ressources d’administration dont vous avez besoin pour Teams pour les équipes de santé de votre organisation.
+Teams d’équipes médicales et de professionnels de santé un moyen sécurisé de communiquer, coordonner les soins des patients et améliorer l’efficacité opérationnelle. Vous y trouverez les ressources d’administration dont vous avez besoin pour gérer Teams pour les équipes de santé de votre organisation.
 
 |    &nbsp;           |         &nbsp;      |
 | ------------- | ------------- |

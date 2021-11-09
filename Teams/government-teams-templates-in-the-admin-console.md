@@ -1,6 +1,6 @@
 ---
 title: Utiliser des modèles d’équipe gouvernementale dans le Centre d’administration
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 466eeb8c412bb09bf6eedcccb8becf49ff0c08a0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 819eb3297ae3b486e7c9d93053911c5090cfae29
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777194"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840746"
 ---
 # <a name="use-government-team-templates-in-the-admin-center"></a>Utiliser des modèles d’équipe gouvernementale dans le Centre d’administration
 
@@ -40,7 +40,7 @@ Pour en savoir plus sur les modèles d’équipe en général, voir [Commencer �
 
 ## <a name="coordinate-incident-response"></a>Coordonner la réponse à un incident
 
-Centralisez la communication et les ressources critiques pour votre équipe de gestion de la crise ou de réponse aux incidents. Au sein de cette équipe, vous pouvez inclure de nombreux types de fichiers pour vous aider à créer un espace central pour tous vos documents. Utilisez les réunions en ligne pour améliorer la connaissance de la flux d’informations et de la situation.
+Centralisez la communication et les ressources critiques pour votre équipe de gestion de la crise ou de réponse aux incidents. Au sein de cette équipe, vous pouvez inclure différents types de fichiers pour vous aider à créer un espace central pour tous vos documents. Utilisez les réunions en ligne pour améliorer la connaissance de la flux d’informations et de la situation.
 
 | Type de modèle de base |baseTemplateId | Propriétés fournies avec ce modèle de base |
 |-------------------|-------|---------------------------------------------------------------------------|

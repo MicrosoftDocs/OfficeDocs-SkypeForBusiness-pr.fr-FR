@@ -2,7 +2,7 @@
 title: Créer ou modifier un itinéraire de voix dans Skype Entreprise
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Résumé : Découvrez comment créer ou modifier un itinéraire de voix dans Skype Entreprise Server à l’aide du Panneau de Skype Entreprise Server de conférence.'
-ms.openlocfilehash: ee7f4a0f5d09a36fd1d8e5bcd88a15cd01cc6657
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 28acf24352f2eb517f75a6afa5ce35a7d5166ab2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755767"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831628"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Créer ou modifier un itinéraire de voix dans Skype Entreprise
  
@@ -104,7 +104,7 @@ ms.locfileid: "60755767"
     
 8. Pour associer une ou plusieurs liaisons PSTN (réseau téléphonique commuté) à l’itinéraire des communications vocales, cliquez sur **Ajouter,** puis sélectionnez une trunk dans la liste.
     
-9. Pour associer une ou plusieurs utilisations PSTN  à l’itinéraire des services vocaux, cliquez sur Sélectionner et choisissez un enregistrement dans la liste des enregistrements d’utilisation PSTN qui ont été définis pour votre déploiement Voix Entreprise réseau.
+9. Pour associer une ou plusieurs utilisations PSTN  à l’itinéraire des messages vocaux, cliquez sur Sélectionner et choisir un enregistrement dans la liste des enregistrements d’utilisation PSTN qui ont été définis pour votre déploiement Voix Entreprise réseau.
     
     > [!NOTE]
     > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir Afficher les enregistrements d’utilisation [PSTN dans Skype Entreprise](view-pstn-usage-records.md). > pour créer ou modifier des enregistrements d’utilisation PSTN, voir Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation [PSTN dans Skype Entreprise](voice-policy-and-pstn-usage-records.md). 
@@ -121,7 +121,7 @@ ms.locfileid: "60755767"
 13. Dans la page **Itinéraire**, cliquez sur **Valider**, puis sur **Valider tout**. 
     
     > [!NOTE]
-    > Chaque fois que vous créez ou  modifiez un itinéraire de voix, vous devez exécuter la commande Valider tout pour publier la modification de configuration. Pour plus d’informations, voir [Publish pending changes to the voice routing configuration in Skype Entreprise](voice-route-config-changes.md) in the Operations documentation.
+    > Chaque fois que vous créez ou modifiez un itinéraire de voix, vous devez exécuter la commande **Valider** tout pour publier la modification de configuration. Pour plus d’informations, voir [Publish pending changes to the voice routing configuration in Skype Entreprise](voice-route-config-changes.md) in the Operations documentation.
   
 ## <a name="see-also"></a>Voir aussi
 

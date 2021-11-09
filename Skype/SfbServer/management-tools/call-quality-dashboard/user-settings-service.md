@@ -2,7 +2,7 @@
 title: User Paramètres Service for Call Quality Dashboard (CQD)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
 description: 'Résumé : Découvrez le service d’Paramètres utilisateur, qui fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 010ac5ee79ee03c8ff1137be80f2e2e520d27e77
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 81abbc31a82fc696a5bcb45faf4120b71fc26f74
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762282"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856581"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>User Paramètres Service for Call Quality Dashboard (CQD)
  
 **Résumé :** Découvrez le service d’Paramètres utilisateur, qui fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
-Le service Paramètres utilisateur fait partie de l’API de référentiel pour le tableau de bord de qualité des appels.
+Le service Paramètres utilisateur fait partie de l’API référentiel pour le tableau de bord de qualité des appels.
   
 ## <a name="user-settings-service"></a>Service de paramètres utilisateur
 
@@ -32,7 +32,7 @@ Les paramètres utilisateur sont des paires clé-valeur que les applications peu
   
  **Paramètres globaux**
   
-Les paramètres globaux sont les paramètres utilisateur que possède l’utilisateur système et tous les utilisateurs y ont accès en lecture seule. Les paramètres globaux sont des constantes : ils sont créés lors de la création du référentiel et ne changent jamais.
+Les paramètres globaux sont les paramètres utilisateur de l’utilisateur système, et tous les utilisateurs y ont accès en lecture seule. Les paramètres globaux sont des constantes : ils sont créés lors de la création du référentiel et ne changent jamais.
   
 Chaque utilisateur peut remplacer les paramètres globaux en créant des paramètres utilisateur avec les mêmes clés. Lorsque l’application demande les paramètres utilisateur effectifs, l’API renvoie un ensemble de paramètres globaux fusionnés avec les paramètres utilisateur, chaque paramètre utilisateur ayant pour effet de se supercaler au paramètre global respectif si les clés sont identiques. L’API peut également renvoyer uniquement les paramètres utilisateur afin que les applications trouvent les paramètres qui sont à la place. 
   

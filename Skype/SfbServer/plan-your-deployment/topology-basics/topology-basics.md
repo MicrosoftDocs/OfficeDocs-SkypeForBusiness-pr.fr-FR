@@ -2,7 +2,7 @@
 title: Informations de base sur la topologie Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
-description: 'Résumé : Choisissez votre topologie pour Skype Entreprise Server. Découvrez la cocation de serveur pour Skype Entreprise Server.'
-ms.openlocfilehash: 3b6e1ce1038b9b5dbc39955f774660cfbdce1291
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Résumé : Choisissez votre topologie pour Skype Entreprise Server. En savoir plus sur la cocation de serveur pour Skype Entreprise Server.'
+ms.openlocfilehash: 9f28857d6fa8ddbbd77713e113f73314e8f9d3c8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770052"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856531"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Informations de base sur la topologie Skype Entreprise Server
 
-**Résumé :** Choisissez votre topologie pour Skype Entreprise Server. Découvrez la cocation de serveur pour Skype Entreprise Server.
+**Résumé :** Choisissez votre topologie pour Skype Entreprise Server. En savoir plus sur la cocation de serveur pour Skype Entreprise Server.
 
-Avant de préparer quoi que ce soit d’autre, vous devez savoir que vous planifiez la topologie de votre déploiement de Skype Entreprise Server. La première chose que vous devez décider est si vous allez avoir un déploiement local de Skype Entreprise Server, ou si vous allez le combiner avec un déploiement Skype Entreprise Server Online dans un déploiement hybride. Dans les deux cas, vous souhaiterez en savoir plus, car nous allons détailler les topologies sur site ici, mais les détails hybrides sont documentés dans leur propre section.
+Avant de préparer quoi que ce soit d’autre, vous devez savoir que vous planifiez la topologie de votre déploiement de Skype Entreprise Server. La première chose que vous devez décider est si vous allez avoir un déploiement local de Skype Entreprise Server, ou si vous allez le combiner avec un déploiement Skype Entreprise Server Online dans un déploiement hybride. Dans les deux cas, vous voudrez en savoir plus, car nous allons détailler les topologies sur site ici, mais les détails hybrides sont documentés dans leur propre section.
 
 Vous pouvez également voir des exemples de topologies dans les [topologies](reference-topologies.md)de référence pour Skype Entreprise Server .
 
@@ -49,7 +49,7 @@ Votre déploiement aura au moins un site central (également appelé centre de d
 
 Vous pourrez en savoir plus sur les différents rôles serveur un peu plus loin dans cette section.
 
-Outre vos sites centraux, vous pouvez également avoir un ou plusieurs sites de succursale associés à votre site central. Ils dépendent du site central pour presque toutes leurs fonctionnalités, donc de quoi sont-ils composés exactement ?
+Outre vos sites centraux, vous pouvez également avoir un ou plusieurs sites de succursale associés à votre site central. Ils dépendent du site central pour presque toutes leurs fonctionnalités. De quoi sont-ils composés exactement ?
 
 - Survivable Branch Appliance, qui combine une passerelle de réseau téléphonique commuté (PSTN), avec certaines fonctionnalités Skype Entreprise Server réseau téléphonique commuté.
 
@@ -57,7 +57,7 @@ Outre vos sites centraux, vous pouvez également avoir un ou plusieurs sites de 
 
 - Passerelle PSTN autonome (qui ne fait pas partie du Survivable Branch Appliance).
 
-- Serveur de médiation autonome ou pool de serveurs de médiation autonomes (si vous ne souhaitez pas cérer ce rôle avec le Survivable Branch Appliance).
+- Serveur de médiation autonome ou pool de serveurs de médiation autonomes (si vous ne souhaitez pas ciser ce rôle avec le Survivable Branch Appliance).
 
 ## <a name="whats-in-a-skype-for-business-server-site"></a>Qu’y a-t-il dans Skype Entreprise Server site web ?
 
@@ -73,7 +73,7 @@ Pour en savoir plus, un site central peut également avoir :
 
 - Serveur de conversation permanente. Utile si vous souhaitez que les utilisateurs puissent participer à des conversations à plusieurs, basées sur des sujets, qui persistent au fil du temps. Pour plus d’informations, ez dans la rubrique Planification du serveur de conversation permanente.
 
-- Surveillance. Utilisé pour prendre en charge la collecte de données pour la qualité de l’expérience (QoE) audio/vidéo (A/V) et l’enregistrement des détails des appels (CDR) pour les conférences Voix Entreprise et A/V dans votre déploiement. Nous en parlerons en détail dans la rubrique Planification de la surveillance.
+- Surveillance. Permet de prendre en charge la collecte de données pour la qualité de l’expérience (QoE) audio/vidéo (A/V) et l’enregistrement des détails des appels (CDR) pour les conférences Voix Entreprise et A/V dans votre déploiement. Nous en parlerons en détail dans la rubrique Planification de la surveillance.
 
 - Directeur ou pool directeur. Non obligatoire, mais utile si vous souhaitez améliorer la résilience et activer la redirection des demandes Skype Entreprise utilisateur vers le pool d’accueil de l’utilisateur. Si vous souhaitez déployer des directeurs, un maximum de 10 par pool est pris en charge. Si vous en avez besoin, poursuivez la lecture de la rubrique Planification des directeurs.
 
@@ -97,7 +97,7 @@ Vous prévoyez peut-être d’avoir plusieurs sites centraux, et si c’est le c
 |Serveur de médiation autonome ou pool de serveurs de médiation   |Serveur ou pool de serveurs Edge   |
 |Serveur de conversation permanente ou pool de serveurs de conversation permanente   |Analyse   |
 
-Tout comme pour la dernière liste, nous n’inséons pas le serveur de messagerie un Exchange ici, car il ne fait pas partie du déploiement Skype Entreprise Server, mais il se situe également dans la même catégorie ici.
+Comme dans la dernière liste, nous n’inséons pas le serveur de messagerie un Exchange ici, car il ne fait pas partie du déploiement Skype Entreprise Server, mais il se situe également dans la même catégorie ici.
 
 D’autres composants et options sont évidemment disponibles dans les déploiements.
 
@@ -130,7 +130,7 @@ Le serveur frontal inclut les fonctionnalités suivantes :
 
 - Conférence web, conférence RSTN et conférence A/V (si déployée).
 
-- Hébergement d’applications, pour les applications incluses avec Skype Entreprise Server (par exemple, Assistant de conférence et application Response Group) et les applications tierces.
+- Hébergement d’applications, pour les applications incluses avec Skype Entreprise Server (par exemple, les applications Assistant de conférence et Response Group) et les applications tierces.
 
 - Surveillance éventuelle permettant de collecter des informations d’utilisation sous forme d’enregistrements des détails des appels et d’enregistrements des erreurs des appels (CER). Ces informations fournissent des mesures sur la qualité des médias (audio et vidéo) qui traversent votre réseau pour les appels Voix Entreprise et les conférences A/V.
 
@@ -138,7 +138,7 @@ Le serveur frontal inclut les fonctionnalités suivantes :
 
 - Archivage éventuel permettant d’archiver les communications de messagerie instantanée et le contenu des réunions pour des raisons de conformité. Pour plus d’informations, voir [Planning for Archiving](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-archiving) dans la documentation de planification.
 
-    Dans Lync Server 2010 et les versions précédentes, la surveillance et l’archivage étaient des rôles serveur distincts, non cocifiés sur le serveur frontal.
+    Dans Lync Server 2010 et les versions précédentes, la surveillance et l’archivage étaient des rôles serveur distincts, qui n’étaient pas cocifiés sur le serveur frontal.
 
 - Services web de conversation permanente, si cette dernière est activée, pour la gestion des salles de conversation et le téléchargement de fichiers.
 
@@ -218,7 +218,7 @@ Nous avons déjà utilisé le terme cocate, mais qu’est-ce que cela signifie ?
 
 ### <a name="collocation-of-server-roles"></a>Cocation des rôles serveur
 
-Le serveur Édition Standard a le rôle suivant céloqueté (une configuration supplémentaire est toutefois requise), alors que dans le pool frontal Êdition Entreprise, ce rôle peut être céoqueté ou déployé sur un serveur distinct :
+Le serveur Édition Standard a le rôle suivant céloqueté (une configuration supplémentaire est toutefois requise), alors que dans le pool frontal Êdition Entreprise, ce rôle peut être cocisé ou déployé sur un serveur distinct :
 
 - Médiation
 
@@ -291,11 +291,11 @@ Le partage de fichiers peut se trouver sur un serveur distinct, ou vous pouvez l
 - Base de données de conformité de conversation permanente
 
 > [!CAUTION]
-> Notez que bien que vous pouvez céquequer le partage de fichiers sur ces serveurs, il est essentiel de noter que nous ne le recommandons pas. Si vous coloquez le partage de fichiers avec un autre rôle serveur, assurez-vous que vous surveillez régulièrement les problèmes d’espace disque et de performances.
+> Notez que bien que vous pouvez céquequer le partage de fichiers sur ces serveurs, il est essentiel de noter que nous ne le recommandons pas. Si vous coloquez le partage de fichiers avec un autre rôle serveur, assurez-vous de surveiller régulièrement les problèmes d’espace disque et de performances.
 
 ### <a name="keep-in-mind"></a>Gardez à l’esprit
 
-- Vous ne pouvez pas cocérer un serveur proxy inverse, qui n’est pas un composant Skype Entreprise Server et peut même ne pas se trouver dans votre topologie. Vous aurez besoin d’un proxy inverse si vous souhaitez prendre en charge le partage de contenu web pour les utilisateurs fédérés, entre autres choses. Si nécessaire, allez de l’avant et implémentez la prise en charge du proxy inverse pour Skype Entreprise Server en configurant un serveur proxy inverse existant déjà utilisé par d’autres applications dans votre organisation.
+- Vous ne pouvez pas c céquener un serveur proxy inverse, qui n’est pas un composant Skype Entreprise Server, et peut même ne pas se trouver dans votre topologie. Vous aurez besoin d’un proxy inverse si vous souhaitez prendre en charge le partage de contenu web pour les utilisateurs fédérés, entre autres choses. Si nécessaire, allez de l’avant et implémentez la prise en charge du proxy inverse pour Skype Entreprise Server en configurant un serveur proxy inverse existant déjà utilisé par d’autres applications dans votre organisation.
 
 - Vous ne pouvez céquerer aucun Exchange de messagerie un SharePoint serveur avec Skype Entreprise Server rôle.
 

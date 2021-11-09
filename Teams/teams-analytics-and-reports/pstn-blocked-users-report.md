@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams Rapport sur le blocage d’utilisateurs PSTN
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -17,12 +17,12 @@ description: Utilisez le rapport sur le blocage d’utilisateurs PSTN dans le Ce
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ef39298142b2cf3fcf16f1acaeba9c3a62e606e0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a89e7ead560e3782d7120884a047110118d2ecd0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742980"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840686"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft Teams Rapport sur le blocage d’utilisateurs PSTN
 
@@ -30,7 +30,7 @@ Le rapport sur le blocage d’utilisateurs PSTN dans le Centre d’administratio
 
 ## <a name="view-the-pstn-blocked-users-report"></a>Afficher le rapport sur le blocage d’utilisateurs PSTN
 
-Dans la barre de navigation gauche du Centre Microsoft Teams’administration, cliquez sur **Analyse & rapports**  >  **d’utilisation.** Sous **l’onglet Afficher les rapports,** sous **Rapport,** sélectionnez **Utilisateurs PSTN** bloqués, puis cliquez sur **Exécuter le rapport.**
+Dans le panneau de navigation gauche du Centre Microsoft Teams’administration, cliquez sur **Analyse & rapports**  >  **d’utilisation.** Sous **l’onglet Afficher les rapports,** sous **Rapport,** sélectionnez **Utilisateurs PSTN** bloqués, puis cliquez sur **Exécuter le rapport.**
 
 ![Rapport sur le blocage d’utilisateurs PSTN dans le Centre d’administration](../media/teams-reports-pstn-blocked-users-with-callouts.png "Capture d’écran du rapport sur le blocage d’utilisateurs PSTN dans le Centre d Microsoft Teams d’administration Microsoft Teams des appels numéroés")
 

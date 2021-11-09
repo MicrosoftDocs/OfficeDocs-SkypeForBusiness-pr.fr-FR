@@ -2,7 +2,7 @@
 title: Concevoir la trunk SIP pour E9-1-1 dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: Planification de vos topologies de trunking SIP pour un déploiement E9-1-1 qui utilise des fournisseurs de trunking SIP, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 8454b50d5d2f55a8df05e70cb2737eccce81a793
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 36362b9ff516f3f15a990d5d70c42c0bea6119b3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759546"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841026"
 ---
 # <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>Concevoir la trunk SIP pour E9-1-1 dans Skype Entreprise Server
  
@@ -51,7 +51,7 @@ Pour plus d’informations sur le déploiement d’une Skype Entreprise Server [
     
  **Devez-vous déployer une jonction SIP distincte pour chaque succursale ?**
   
-> Skype Entreprise Server fournit plusieurs stratégies de gestion de la résistance vocale dans les succursales, notamment : avoir des réseaux de données résilients, déployer une branche SIP dans chaque succursale ou faire passer des appels vers la passerelle locale en cas de panne. Pour plus d’informations, [voir la trunking SIP dans Skype Entreprise Server](sip-trunking.md).
+> Skype Entreprise Server propose plusieurs stratégies de gestion de la résistance vocale dans les succursales, notamment : avoir des réseaux de données résilients, déployer une branche SIP dans chaque succursale ou faire passer des appels vers la passerelle locale en cas de panne. Pour plus d’informations, [voir la trunking SIP dans Skype Entreprise Server](sip-trunking.md).
     
  **Le contrôle d’admission des appels (CAC) est-il activé ?**
   

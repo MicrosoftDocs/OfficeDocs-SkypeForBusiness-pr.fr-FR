@@ -2,7 +2,7 @@
 title: Test de récupération d’urgence dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Effectuer une récupération système pour un serveur Skype Entreprise Server pool de serveurs pour tester votre processus de récupération d’urgence documenté
-ms.openlocfilehash: 94d4d4d1a832db3bb72a844818675dba04c214b9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2d6fa097061b470814887f1e13eaf4748de6e4f3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743450"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863501"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Test de récupération d’urgence dans Skype Entreprise Server
 
@@ -53,7 +53,7 @@ Le pool de Skype Entreprise production sera référencé par les clients à l’
 
 Pour faciliter le perf, cet enregistrement CNAME doit être mis à jour pour référencer le FQDN DROCSPool :
 
-- CNAME : SIP.<domain> /DROCSPool.\<domain>
+- CNAME : SIP.\<domain> /DROCSPool.\<domain>
 - Sip.\<domain>
 - Av.\<domain>
 - webconf.\<domain>
