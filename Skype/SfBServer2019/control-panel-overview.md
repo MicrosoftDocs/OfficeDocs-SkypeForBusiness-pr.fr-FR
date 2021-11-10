@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Cet article fournit une vue d’ensemble du nouveau Panneau de contrôle.
-ms.openlocfilehash: 77e26b810bfd61effa5d94ec3648c440476a7cbe
-ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.openlocfilehash: 355a8b93e428b860a775ad01cf31df726c644654
+ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60824642"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60887302"
 ---
 # <a name="control-panel"></a>Panneau de configuration
 
@@ -58,3 +58,10 @@ Le nouveau Panneau de contrôle inclut des éléments de menu couramment utilis�
 |Registrar         |    [Registrar](use-powershell-security-menu.md#registrar)     |
 |Service Web      |  [Service Web](use-powershell-security-menu.md#web-service)       |
 |Stratégie de code confidentiel    | [Stratégie de code confidentiel](use-powershell-security-menu.md#pin-policy)        |
+
+## <a name="im-and-presence"></a>Messagerie instantanée et présence
+
+|Sous-menu  |Source d’informations pour la cmdlet  |
+|---------|---------|
+|Filtre de fichier         |    [Filtre de fichier](use-powershell-im-and-presence-menu.md#file-filter)     |
+|Filtre d’URL      |  [Filtre d’URL](use-powershell-im-and-presence-menu.md#url-filter)       |
