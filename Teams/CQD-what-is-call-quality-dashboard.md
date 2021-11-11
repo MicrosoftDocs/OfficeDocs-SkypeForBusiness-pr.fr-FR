@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Découvrez le tableau de bord de qualité des appels et comment l’utiliser pour consulter des rapports sur la qualité des réunions et des appels Microsoft Teams.
-ms.openlocfilehash: 92b7bdcd5acaa86c530f5d0380666b2ebce3eed8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f87f8184b0417d04206d31780392f21dca387d10
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593268"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909555"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>Qu’est-ce que le tableau de bord de qualité des appels ?
 
@@ -51,22 +51,16 @@ Dans le CQD, nous vous encourageons à télécharger les informations de bâtime
 
 Ne manquez pas [notre](quality-of-experience-review-guide.md) article Gérer la qualité des appels et des réunions, qui propose des conseils détaillés pour l’administrateur Teams ou l’ingénieur support responsable de la gestion de la qualité du service dans Teams.
 
-## <a name="legacy-version-of-cqd-cqdlynccom"></a>Version héritée du CQD (CQD.lync.com)
-
-La version actuelle de CQD ( https://CQD.Teams.microsoft.com) a remplacé l’ancienne version du CQD ( https://CQD.lync.com) . Vous pouvez toujours utiliser CQD.lync.com (disponible dans le Centre d’administration Skype Entreprise), mais depuis le 1er juillet 2020, il utilise les données du CQD. Teams.microsoft.com et vous ne pouvez plus afficher ni modifier vos données de bâtiment ou de requête à partir de l’ancien CQD (CQD.lync.com). Si vous n’avez pas encore migré ces données depuis votre CQD.lync.com en avez encore besoin, enregistrez un ticket de support.
-
-> [!IMPORTANT]
-> À compter du 31 juillet 2021, nous retirons l’ancienne version du CQD (CQD.lync.com). Après cette date, vous serez automatiquement redirigé vers le CQD. Teams.microsoft.com tentez d’accéder à CQD.lync.com données de requête ou de création non mégérées seront perdues.
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Utiliser Power BI pour analyser les données du CQD
 
 Nouveautés de janvier 2020 : télécharger Power BI modèles de [requête pour le CQD.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true) Modèles Power BI personnalisables que vous pouvez utiliser pour analyser et signaler vos données de CQD.
 
-Lisez Utiliser Power BI pour analyser les données [du CQD](CQD-Power-BI-query-templates.md) et en savoir plus.
+Lisez Utiliser Power BI pour analyser les données du [CQD](CQD-Power-BI-query-templates.md) et en savoir plus.
 
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Améliorer et surveiller la qualité des appels pour les Teams](monitor-call-quality-qos.md)
 
@@ -80,7 +74,7 @@ Lisez Utiliser Power BI pour analyser les données [du CQD](CQD-Power-BI-query-t
 
 [Dimensions et mesures disponibles dans le DQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Classification des flux dans le DQD](stream-classification-in-call-quality-dashboard.md)
+[Classification des flux dans le CQD](stream-classification-in-call-quality-dashboard.md)
 
 [Utiliser Power BI pour analyser les données du CQD](CQD-Power-BI-query-templates.md)
 

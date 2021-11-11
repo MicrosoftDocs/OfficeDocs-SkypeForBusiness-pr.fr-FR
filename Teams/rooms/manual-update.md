@@ -15,21 +15,21 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Découvrez comment mettre à jour manuellement Salles Microsoft Teams appareil vers une version spécifique.
-ms.openlocfilehash: 36d5477ef84eb97971727314aa39ab19e4139488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c823cd9ffc98c0eea53ecc48f6ea7fc47519dfd1
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578248"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909545"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>Mettre à jour manuellement un Salles Microsoft Teams appareil
 
 L Salles Microsoft Teams appeil est distribué via le Microsoft Store. Les mises à jour de l’application sont installées à partir du Microsoft Store automatiquement pendant la maintenance nocturne. il s’agit de la méthode recommandée pour obtenir des mises à jour. Toutefois, dans certaines situations, un appareil salles Teams ne peut pas recevoir de mises à jour du Microsoft Store. Par exemple, les stratégies de sécurité peuvent ne pas autoriser les appareils à se connecter à Internet ou autoriser le téléchargement d’applications à partir du Microsoft Store. Vous pouvez également mettre à jour un appareil avant de le configurer, au cours duquel le Microsoft Store n’est pas disponible.
 
-Si vous ne pouvez pas obtenir les mises à jour du Microsoft Store, vous pouvez utiliser un script de mise à jour de l’application hors connexion PowerShell pour mettre à jour manuellement vos appareils salles Teams vers une version plus récente de l’application salles Teams. Suivez les étapes de cet article pour mettre à jour manuellement vos salles Teams appareils mobiles.
+Si vous ne pouvez pas obtenir de mises à jour du Microsoft Store, vous pouvez utiliser un script de mise à jour de l’application hors connexion PowerShell pour mettre à jour manuellement vos appareils salles Teams vers une version plus récente de l’application salles Teams. Suivez les étapes de cet article pour mettre à jour manuellement vos salles Teams appareils mobiles.
 
 > [!NOTE]
-> Ce processus peut uniquement mettre à jour salles Teams appareil avec l’salles Teams l’application déjà installée. Il ne peut pas être utilisé pour effectuer une nouvelle installation. Elle ne permet pas non plus de rétrograder l’application vers une version plus ancienne. Pour effectuer une nouvelle installation de l’application salles Teams, contactez le fabricant de votre appareil pour obtenir des médias qui lui sont spécifiques, ou consultez Préparer le support [d’installation.](console.md#prepare-the-installation-media)
+> Ce processus peut uniquement mettre à jour salles Teams appareil avec l’salles Teams l’application déjà installée. Il ne peut pas être utilisé pour effectuer une nouvelle installation. Elle ne permet pas non plus de rétrograder l’application vers une version antérieure. Pour effectuer une nouvelle installation de l’application salles Teams, contactez le fabricant de votre appareil pour obtenir des médias qui lui sont spécifiques, ou consultez Préparer le support [d’installation.](console.md#prepare-the-installation-media)
 
 ## <a name="step-1-download-the-offline-app-update-script"></a>Étape 1 : télécharger le script de mise à jour de l’application hors connexion
 
@@ -48,7 +48,7 @@ Une fois le script de mise à jour de l’application hors connexion télécharg
 
 ## <a name="step-2-run-the-script-to-update-the-teams-rooms-app"></a>Étape 2 : exécuter le script pour mettre à jour l salles Teams appappe
 
-Le script de mise à jour de l’application hors connexion doit être exécuté à partir d’une invite de commandes avec élévation de Skype (l’utilisateur sous lequel l’application s’exécute) est toujours connecté. Pour plus d’informations sur la connexion à un compte d’administrateur afin d’utiliser l’invite de commandes avec élévation de privilèges lorsque l’utilisateur de Skype est toujours connecté, voir Passer en mode d’administration et revenir en arrière lorsque l’application [Salles Microsoft Teams](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)est en cours d’exécution.
+Le script de mise à jour de l’application hors connexion doit être exécuté à partir d’une invite de commandes avec élévation de Skype (l’utilisateur sous lequel l’application s’exécute) est toujours connecté. Pour plus d’informations sur la connexion à un compte d’administrateur afin d’utiliser l’invite de commandes avec élévation de privilèges lorsque l’utilisateur de Skype est toujours connecté, voir Passer en mode d’administration et revenir en arrière en cas de panne de l’application [Salles Microsoft Teams.](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes)
 
 Pour exécuter le script à partir d’une invite de commandes avec élévation de élévation de niveaux, exécutez l’une des commandes suivantes :
 
