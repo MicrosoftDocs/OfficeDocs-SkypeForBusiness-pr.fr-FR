@@ -21,25 +21,22 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment router des appels vers des numéros non insignés dans votre organisation.
-ms.openlocfilehash: 2574a0ac734ed6caee1eadf5a5ee006111713055
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 93d9ce289820bdcf9bb4a1e13e78bb8794b77dbd
+ms.sourcegitcommit: bdca3b5eb35a17b27c5a052d83ab229b7c911dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536995"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60947501"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Routage des appels vers des numéros non instanés
 
-> [!NOTE]
-> Cette fonctionnalité est disponible en version d’aperçu public.
-
-En tant qu’administrateur, vous pouvez router les appels vers des numéros non inscrits dans votre organisation. Par exemple, vous souhaitez peut-être router les appels vers des numéros non instéraux comme suit : 
+En tant qu’administrateur, vous pouvez router les appels vers des numéros non insignés dans votre organisation. Par exemple, vous souhaitez peut-être router les appels vers des numéros non instéraux comme suit : 
 
 - Routez tous les appels vers un numéro non attribué donné vers une annonce personnalisée.
 
 - Routez tous les appels vers un numéro non attribué donné vers le tableau de bord principal.
 
-Vous pouvez router des appels vers des numéros non affectationés vers un utilisateur, un compte de ressource associé à un Standard automatique ou à une file d’attente d’appels, ou vers un service d’annonces qui liera un fichier audio personnalisé à l’appelant.
+Vous pouvez router des appels vers des numéros non affectationés vers un utilisateur, un compte de ressource associé à une Standard automatique ou à une file d’attente d’appels, ou vers un service d’annonces qui liera un fichier audio personnalisé à l’appelant.
 
 ## <a name="configuration"></a>Configuration
 
