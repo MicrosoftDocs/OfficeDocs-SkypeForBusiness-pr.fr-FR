@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, multimédias et de bureau produits par Microsoft Teams, où ils sont trouvés et comment ils peuvent vous aider dans la surveillance et la résolution des problèmes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04fe77022a6a74084fce2396a3cba53fb1487dea
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: 07eca1235cb695d32da0fdab96490572af6ccecb
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482378"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959963"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Utilisez les fichiers journaux pour surveiller les données et résoudre les Microsoft Teams
 
@@ -36,36 +36,36 @@ Il existe trois types de fichiers journaux produits automatiquement par le clien
 Cet article décrit ces journaux et leur utilisation. Pour plus d’informations sur la résolution de problèmes spécifiques, voir : [Teams résolution des problèmes.](/MicrosoftTeams/troubleshoot/teams) Pour plus d’informations sur la façon de contacter le support technique, voir [Obtenir de l’aide.](/microsoft-365/business-video/get-help-support) Lorsque vous créez une demande de support auprès du Support Microsoft, l’ingénieur support a besoin des journaux de débogage. Disposer des journaux de débogage avant de créer la demande de support permet à Microsoft de rapidement commencer à résoudre le problème. **Les journaux** **multimédias ou** de bureau ne sont requis que si Microsoft les demande.
 
 > [!NOTE]
-> Dans cet article, les journaux **de débogage** font référence aux journaux utilisés pour le dépannage. Toutefois, les fichiers générés pour ces journaux contiennent les journaux **de diagnostic de terme** dans leurs noms.  
+> Dans cet article, les journaux **de débogage** font référence aux journaux utilisés pour la résolution des problèmes. Toutefois, les fichiers générés pour ces journaux contiennent les journaux **de diagnostic de terme** dans leurs noms.  
 
 ## <a name="collect-and-enable-logging"></a>Collecter et activer la journalisation
 
 Il est important de collecter les journaux dès qu’un problème se produit. Les journaux peuvent être collectés en quelques clics seulement.
 
-Windows : Cliquez avec le bouton droit sur l’icône Teams dans la tray système, puis **sélectionnez Recueillir les fichiers de support.** 
+- Windows : Cliquez avec le bouton droit sur l Teams dans la tray système, puis **sélectionnez Recueillir les fichiers de support.** 
 
-Mac : sélectionnez le menu Aide, puis **sélectionnez Recueillir les fichiers de support.**
+- Mac : sélectionnez le menu Aide, puis **sélectionnez Recueillir les fichiers de support.**
 
 Les journaux de débogage, de bureau et multimédia sont collectés dans un dossier avec le nom Journal de _diagnostic MSTeams. \<local data and time\>_ Ce dossier peut être compressé et partagé lorsque vous ouvrez une demande de support auprès du Support Microsoft. Le dossier contiendra des dossiers pour bureau, réunion (média) et débogage (web). Vous pouvez collecter les fichiers à l’aide des raccourcis clavier suivants :
 
-Windows : Ctrl + Alt + Shift + 1
+- Windows : <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
-Mac : Option + Commande + Shift + 1
+- Mac : <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
 
 La journalisation multimédia est désactivée par défaut. Pour activer la journalisation des médias, les utilisateurs doivent activer l’option dans Teams client. Allez à **Paramètres,** puis sélectionnez Activer la journalisation pour les diagnostics de réunion  >   **(nécessite un redémarrage Teams).** Le Teams client doit être redémarré pour que la journalisation commence.
 
-Si un problème se produit avec une réunion ou un événement en direct spécifique, il est utile que l’URL soit associée à la réunion. Cela fournit des informations supplémentaires pour identifier précisément la réunion ou l’événement en direct dans les journaux. Ces informations peuvent être collectées auprès de n’importe quel participant à une réunion ou du présentateur ou du producteur d’un événement en direct. Cette URL peut être capturée en pointant sur l’URL de jointage et en choisissant **Copier le lien hypertexte.**
+Si un problème se produit avec une réunion ou un événement en direct spécifique, il est utile que l’URL soit associée à la réunion. Cela fournit des informations supplémentaires pour identifier précisément la réunion ou l’événement en direct dans les journaux. Ces informations peuvent être collectées à partir de n’importe quel participant à une réunion ou du présentateur ou du producteur pour un événement en direct. Cette URL peut être capturée en pointant sur l’URL de jointage et en choisissant **Copier le lien hypertexte.**
 
 > [!NOTE]
 > Si la journalisation multimédia est activée, des fichiers supplémentaires seront inclus dans le dossier Réunion, lesquels seront nécessaires pour examiner les problèmes audio et vidéo. Si la journalisation multimédia n’est pas activée, le nombre de journaux sera limité.
   
 > [!NOTE]
-> Les journaux de débogage étaient précédemment collectés à l’aide des raccourcis clavier ci-dessous. Ceux-ci continuent de fonctionner et complètent la même capture de journal que l’option **Recueillir les fichiers de support.**
-
-> Windows : Crtl + Alt + Shift + 1
-
-> Mac : Option + Commande + Shift + 1
+> Les journaux de débogage étaient précédemment collectés à l’aide des raccourcis clavier ci-dessous. Ceux-ci fonctionnent toujours et terminent la même capture de journal que l’option **Recueillir les fichiers de support.**
+>
+> - Windows : <kbd>Crtl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
+>
+> - Mac : <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
 
 Le tableau suivant présente les différents clients et les journaux associés. Les fichiers journaux sont stockés à des emplacements spécifiques au client et au système d’exploitation.
@@ -94,11 +94,13 @@ Les journaux de débogage contiennent les flux de données suivants :
 
 -   Appel/conversation
 
-Pour collecter les journaux pour Linux : raccourci clavier : Ctrl + Alt + Shift + 1  
-      Les fichiers seront disponibles dans ~/Downloads
+Pour collecter des journaux pour Linux :
+- Raccourci clavier : <kbd>Ctrl</kbd>  +  <kbd>Alt</kbd>  +  <kbd>Shift</kbd>  +  <kbd>1</kbd>  
+- Les fichiers seront disponibles dans `~/Downloads`
 
-Pour collecter des journaux pour le navigateur et Windows : Raccourci clavier : Ctrl + Alt + Shift + 1  
-      Les fichiers seront disponibles dans %userprofile%\Downloads
+Pour collecter des journaux pour les navigateurs et les Windows :
+- Raccourci clavier : <kbd>Ctrl</kbd>  +  <kbd>Alt</kbd>  +  <kbd>Shift</kbd>  +  <kbd>1</kbd>  
+- Les fichiers seront disponibles dans `%userprofile%\Downloads`
 
 ## <a name="media-logs"></a>Journaux des médias
 
@@ -109,30 +111,40 @@ La journalisation multimédia est désactivée par défaut. Pour enregistrer des
 Lorsque vous envoyez les fichiers journaux au support Microsoft, vérifiez l’heure et l’heure des fichiers journaux pour vous assurer que les journaux couvrent la période lors de la reproduction du problème.
 
 Pour collecter des journaux pour Linux :  
-Les fichiers seront disponibles dans ~/.config/Microsoft/Microsoft Teams/media-stack/blog \* \. et ~/.config/Microsoft/Microsoft Teams/skylib/blog. \* \.
+- Les fichiers seront disponibles aux emplacements suivants :
+  - `~/.config/Microsoft/Microsoft Teams/media-stack/\*\.blog`
+  - `~/.config/Microsoft/Microsoft Teams/skylib/\*\.blog`
 
 Pour collecter les journaux des Windows :  
-Les fichiers seront disponibles dans %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack \\ \* \. blog et %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib \\ \* \. blog.  
+- Les fichiers seront disponibles aux emplacements suivants :
+  - `%userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack\\\*\.blog`
+  - `%userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib\\\*\.blog` 
 
 Voici une liste des fichiers journaux générés et des informations qu’ils contiennent.
 
+<br/>
+
 |Nom du fichier journal  |Description  |
 |---------|---------|
-|Teams,msrtc-0-s1039525249.blog     | Contient des informations relatives à la pile de médias. Cela inclut l’état des canaux tels que la résolution, les décodeurs et les encodeurs utilisés, le nombre de trames envoyées et reçues, ainsi que l’état de la session de partage d’écran vidéo et de caméra (VBSS).         |
-|rtmcontrol.msrtc-0-2415069487.blog      |Enregistre les informations relatives aux actions de contrôle à distance, telles que l’heure à l’donnée du contrôle et les informations du pointeur de la souris.          |
-|Teams_MediaStackETW-2-U-xr-U.etl      |Événements de suivi de pile de fichiers multimédias d’enregistrements.         |
-|Debug-0-s2790420889.blog    | Contient des informations relatives à l’agent multimédia, notamment la qualité de rendu.          |
-|tscalling-0-2061129496.blog   |Enregistre les événements dans l’API ts-calling.       |
+|`Teams.msrtc-0-s1039525249.blog`     | Contient des informations relatives à la pile de médias. Cela inclut l’état des canaux tels que la résolution, les décodeurs et les encodeurs utilisés, le nombre de trames envoyées et reçues, ainsi que l’état de la session de partage d’écran vidéo et de caméra (VBSS).         |
+|`rtmcontrol.msrtc-0-2415069487.blog`      |Enregistre les informations relatives aux actions de contrôle à distance, telles que l’heure à l’donnée du contrôle et les informations du pointeur de la souris.          |
+|`Teams_MediaStackETW-2-U-xr-U.etl`      |Événements de suivi de pile de fichiers multimédias d’enregistrements.         |
+|`Debug-0-s2790420889.blog`    | Contient des informations relatives à l’agent multimédia, notamment la qualité de rendu.          |
+|`tscalling-0-2061129496.blog`   |Enregistre les événements dans l’API ts-calling.       |
 
 ## <a name="desktop-logs"></a>Journaux du bureau
 
 Consultez la section _Recueillir et activer la journalisation_ pour consulter Windows instructions pour Mac. Les journaux de bureau, également appelés journaux de la pipette, contiennent des données de journal qui se produisent entre le client de bureau et le navigateur. Comme les journaux multimédias, ces journaux ne sont nécessaires que si Microsoft les demande. Les journaux sont textuels et peuvent être lus à l’aide de n’importe quel éditeur textuel dans un format de haut en bas.
 
-Pour collecter des journaux pour Linux : Cliquez sur l’icône Microsoft Teams dans votre bac système, puis **sélectionnez Obtenir les journaux.**
-Les fichiers seront disponibles dans ~/.config/Microsoft/Microsoft Teams/logs.txt.
+Pour collecter des journaux pour Linux :
+- Cliquez sur l’Microsoft Teams de connexion dans votre bac système, puis **sélectionnez Obtenir les journaux.**
+- Les fichiers seront disponibles dans `~/.config/Microsoft/Microsoft Teams/logs.txt` .
   
-Pour collecter les journaux des Windows : Cliquez sur l’icône Microsoft Teams dans votre bac système, puis sélectionnez **Obtenir les journaux.**
-Le logs.txt fichier sera ouvert automatiquement dans Bloc-notes automatique.    
+Pour collecter les journaux des Windows :
+- Cliquez sur l’Microsoft Teams dans votre bac système, puis sélectionnez **Recueillir les fichiers de support.**
+- Le `logs.txt` fichier est ouvert automatiquement dans Bloc-notes’application.
+
+Lors de l’étude de problèmes Teams connexion, vous devrez peut-être recueillir manuellement les journaux du bureau. Ces fichiers journaux sont situés à l’emplacement %appdata%\Microsoft\Teams dans Windows.
 
 ## <a name="browser-trace"></a>Suivi du navigateur
 
@@ -157,17 +169,17 @@ Une fois que vous êtes inscrit, sélectionnez l’un des liens suivants, le cas
 Les journaux WebRTC peuvent aider le Support Microsoft en fournissant des détails de connexion pour les appels audio et vidéo. Suivez les étapes pour accéder aux journaux WebRTC dans Edge (Chromium) ou Chrome : 
   
 1.  Ouvrez un nouvel onglet et allez à l’une des URL suivantes :
-    -   Edge (Chromium) : « edge://webrtc-internals/ »
-    -   Chrome : « chrome://webrtc-internals/ »
+    -   Edge (Chromium) :`edge://webrtc-internals/`
+    -   Chrome : `chrome://webrtc-internals/`
   
 2.  Ouvrez l Teams application web et reproduisez le problème.
   
 3.  Revenir à l’onglet accessible à l’étape 1 et vous verrez au moins deux onglets :
     -   Demandes GetUserMedia
-    -   https://teams.microsoft.com/url
+    -   `https://teams.microsoft.com/url`
 
 4.  Sélectionnez l’onglet avec le nom de l’Teams et enregistrez le contenu de la page.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Résolution des problèmes de Teams](/MicrosoftTeams/troubleshoot/teams)

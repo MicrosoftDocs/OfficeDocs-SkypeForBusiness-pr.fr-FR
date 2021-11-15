@@ -1,8 +1,8 @@
 ---
-title: Teams pour les visites virtuelles
-author: HowlinWolf-92
-ms.author: v-mahoffman
-manager: serdars
+title: Visites virtuelles avec Teams - Intégration à EhRExique
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -22,18 +22,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Utiliser Microsoft Teams pour configurer votre système de visites virtuelles
-ms.openlocfilehash: 3ba0ff974f9a8381eab054bb92468762dc1d8cc8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Découvrez comment intégrer le connecteur Teams EHR pour permettre aux prestataires de soins de votre organisation de réaliser des visites virtuelles avec des patients ou d’autres fournisseurs dans Teams directement à partir du système EHRh.
+ms.openlocfilehash: 48d2cfd69dd9d5cd8be2fcd5a0c29fca7162d246
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859731"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960043"
 ---
-# <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visites virtuelles avec Teams – Intégration dans le dossier médical informatisé (DMI)
+# <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Visites virtuelles avec Teams - Intégration à EhRExique
 
-Microsoft Teams Le connecteur de dossier d’état d’santé électronique (EHR) permet aux responsables de lancer facilement une visite de patient virtuel ou une consultation avec un autre fournisseur dans Teams directement à partir du système EHR. Conçus sur le cloud Microsoft 365, Microsoft Teams permet une collaboration et une communication simples et sécurisées grâce à des outils de conversation, vidéo, vocal et de santé au même endroit qui prend en charge la conformité avec les lois HIPAA, la certification HITECH, etc.
-La plateforme de communication et de collaboration de Teams permet aux membres de l’équipe de réduire l’encombrement des systèmes fragmentés, de sorte qu’ils peuvent consacrer du temps à fournir les meilleurs soins possibles. Microsoft Teams Le connecteur ehr (Electronic Health Record) peut :
+Microsoft Teams connecteur EHR (Electronic Health Record) permet aux cartésiens de lancer facilement une visite de patient virtuel ou une consultation avec un autre fournisseur dans Teams directement à partir du système EHR. Conçus sur le cloud Microsoft 365, Microsoft Teams permet une collaboration et une communication simples et sécurisées grâce à des outils de conversation, vidéo, vocal et de santé au même endroit qui prend en charge la conformité avec les lois HIPAA, la certification HITECH, etc.
+La plateforme de communication et de collaboration de Teams permet aux membres de l’équipe de réduire l’encombrement des systèmes fragmentés, de sorte qu’ils peuvent consacrer du temps à fournir les meilleurs soins possibles. Microsoft Teams connecteur EHR (Electronic Health Record) peut :
 
 - Lancez Teams visites virtuelles à partir du système EHR du fournisseur avec un flux de travail clinique intégré.
 - Permet aux patients de participer Teams visites virtuelles à partir du portail dédié aux patients.
@@ -79,7 +79,7 @@ La configuration du connecteur nécessite que vous :
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>[Lancer le portail de configuration du connecteur EHR](#launch-the-ehr-connector-configuration-portal)
 
-La configuration de votre organisation médicale pour lancer des visites virtuelles à l’Microsoft Teams démarre en lançant le portail de configuration du connecteur EHR. Vous configurez une ou plusieurs organisations pour tester l’intégration. Configurez l’URL de test et de production dans le portail de configuration. Testez l'intégration à partir de l'environnement de test d'Epic avant de passer en production.
+La configuration de votre organisation de santé pour lancer des visites virtuelles à l’Microsoft Teams démarre en lançant le portail de configuration du connecteur EHR. Vous configurez une ou plusieurs organisations pour tester l’intégration. Configurez l’URL de test et de production dans le portail de configuration. Testez l'intégration à partir de l'environnement de test d'Epic avant de passer en production.
   
 - URL de configuration du connecteur DMI : [https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
 
@@ -156,7 +156,7 @@ Le connecteur prend en charge les patients qui rejoignent des visites virtuelles
 
 Principales fonctionnalités de l’expérience du patient :
 
-- Les patients peuvent rejoindre des visites virtuelles à partir de navigateurs web modernes sur un ordinateur de bureau ou [un appareil mobile sans installation d’application.](../mobile-browser-join.md)
+- Les patients peuvent rejoindre des visites virtuelles à partir de navigateurs web modernes sur un ordinateur de bureau ou [un appareil mobile sans installation de l’application.](../mobile-browser-join.md)
 
 - Les patients peuvent rejoindre les visites virtuelles d'un simple clic et aucun autre compte ou connexion n'est nécessaire.
 
@@ -177,6 +177,6 @@ L'intégration Teams dans les systèmes de DMI optimise la quantité de données
 
 Le connecteur DMI de Microsoft Teams ne stocke ni ne transfère les données personnelles identifiables ou les dossiers médicaux des patients ou fournisseurs de santé à partir du système de gestion des dossiers médicaux. Les seules données stockées par le connecteur DMI sont l’ID unique de l’utilisateur DMI (utilisé lors de l’installation d’une réunion Teams). L’ID unique de l’utilisateur DMI est stocké dans l’une des trois zones géographiques décrites dans [Emplacement de stockage des données client Microsoft 365](/microsoft-365/enterprise/o365-data-locations). Toutes les discussions, enregistrements et autres données entrés dans Teams par les participants à la réunion sont stockés conformément aux stratégies de stockage existantes. Pour plus d’informations sur l’emplacement des données dans Microsoft Teams, consultez [Emplacements des données dans Teams](../../location-of-data-in-teams.md).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-[Teams visites virtuelles](ehr-admin-reports.md)
+[Teams rapports d’administrateur du connecteur EHR](ehr-admin-reports.md)

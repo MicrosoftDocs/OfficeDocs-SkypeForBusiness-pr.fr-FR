@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: Découvrez l’expérience de jointisation pour les Teams virtuelles sur les navigateurs mobiles.
-ms.openlocfilehash: a0c7bc626414280a8cba5ea55aaa9062ef190ca3
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: f8307902d7689cf56f10f3705ca3d5611a0f3d11
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249756"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960113"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>Gérer l’expérience de jointisation pour Teams visites virtuelles sur les navigateurs mobiles
 
@@ -35,13 +35,16 @@ Lorsqu’un participant rejoint un navigateur mobile, lorsqu’un participant re
 Pour l’instant, la jointë de navigateur mobile est disponible pour les rendez-vous programmés via les services suivants :
 
 - [Application Bookings](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-us&rs=en-us&ad=us#PickTab=Bookings)
-- [Microsoft Teams Connecteur EHR (Electronic Health Records)](healthcare/ehr-admin.md)
+- Microsoft Teams de dossiers médicaux électroniques (EHR)
+
+  - Intégration avec [Cerner EHR](healthcare/ehr-admin-cerner.md)
+  - Intégration à [Ehr DesHéz](healthcare/ehr-admin.md)
 
 ## <a name="set-up-mobile-browser-join"></a>Configurer une jointe de navigateur mobile
 
 ### <a name="appointments-scheduled-through-the-bookings-app"></a>Rendez-vous programmés via l’application Bookings
 
-Les plannings de votre organisation peuvent activer cette fonctionnalité pour des types de rendez-vous spécifiques et pour des rendez-vous individuels dans l’application Bookings.
+Les responsables de la planification de votre organisation peuvent activer cette fonctionnalité pour des types de rendez-vous spécifiques et pour des rendez-vous individuels dans l’application Bookings.
 
 Une fois cette fonctionnalité désactivée, l’e-mail de confirmation ou le SMS envoyé aux participants contiendra un lien de participation à la réunion qui ouvre Teams dans un navigateur mobile. Sur les appareils mobiles Android, Teams s’ouvre dans Chrome. Sur les appareils mobiles iOS, Teams s’ouvre dans Safari.
 
@@ -61,7 +64,9 @@ Dans Bookings, **sélectionnez Nouvelle réservation,** puis sélectionnez Autor
 
 Aucune mise en service n’est requise pour vous ou votre personnel.
 
-Le connecteur Teams EHR prend en charge les patients rejoignant des visites virtuelles via MyChart web et mobile. Au moment du rendez-vous, les patients peuvent commencer une visite virtuelle à partir de MyChart à l’aide du **bouton Commencer la visite** virtuelle. Le patient choisit le navigateur de son choix, puis Teams s’ouvre dans ce navigateur.
+**Intégration à Cerner EHR**: le connecteur Teams EHR prend en charge les patients rejoignant des visites virtuelles via un mobile. Au moment du rendez-vous, les patients peuvent rejoindre une visite virtuelle en appuyant sur le lien dans le SMS. Le patient choisit le navigateur de son choix, puis Teams s’ouvre dans ce navigateur.
+
+**Intégration à Ehrhienne**: le connecteur Teams EHR prend en charge les patients rejoignant des visites virtuelles via MyChart web et mobile. Au moment du rendez-vous, les patients peuvent commencer une visite virtuelle à partir de MyChart à l’aide du **bouton Commencer la visite** virtuelle. Le patient choisit le navigateur de son choix, puis Teams s’ouvre dans ce navigateur.
 
 ## <a name="supported-mobile-browsers"></a>Navigateurs mobiles pris en charge
 
@@ -73,7 +78,7 @@ Voici les navigateurs mobiles actuellement pris en charge. Sauf indication contr
 |iOS    |         |  &#x2714; &sup1;       |         |
 |macOS     |         |  &#x2714; &sup2;    |         |
 
-&sup1; Les applications iOS sur Safari ne peuvent pas sélectionner de périphériques de micro et de haut-parleur. Par exemple, Bluetooth appareils mobiles. Il s’agit d’une limitation du système d’exploitation, qui contrôle la sélection de l’appareil par défaut.
+&sup1; Les applications iOS sur Safari ne peuvent pas sélectionner de micros et de haut-parleurs. Par exemple, Bluetooth appareils mobiles. Il s’agit d’une limitation du système d’exploitation, qui contrôle la sélection de l’appareil par défaut.
 
 &sup2; Safari 14+ et macOS 11+ sont requis pour la prise en charge vidéo sortante.
 
@@ -82,11 +87,12 @@ Voici les navigateurs mobiles actuellement pris en charge. Sauf indication contr
 Le membre du personnel qui dirige la visite virtuelle peut partager son écran à partir de son client Teams de bureau, mobile ou Web avec un participant qui rejoint la réunion à partir d’un navigateur mobile. Toutefois, les participants ne peuvent pas partager leur écran à partir d’un navigateur mobile.
 
 > [!NOTE]
-> Nous ajoutons d’autres fonctionnalités à l’expérience de réunion dans les prochaines version de Teams. Consultez à nouveau les informations les plus à jour. Pour rester à jour sur les fonctionnalités de Teams à venir, consultez la feuille [de route Microsoft 365'utilisation.](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)
+> Nous ajoutons d’autres fonctionnalités à l’expérience de réunion dans les prochaines version de Teams. Revenir pour obtenir les informations les plus à jour. Pour rester à jour sur les fonctionnalités Teams à venir, consultez la feuille [de route Microsoft 365'utilisation.](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)
 
 ## <a name="related-articles"></a>Articles connexes
 
 - [Visites virtuelles avec Teams et l’application Bookings](bookings-virtual-visits.md)
 - [Créer un type de rendez-vous Bookings](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [Rejoindre un rendez-vous Bookings en tant que participant](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
-- [Visites virtuelles avec Teams – Intégration dans le dossier médical informatisé (DMI)](healthcare/ehr-admin.md)
+- [Visites virtuelles avec des Teams - Intégration dans l’intégration à l’environnement de gestion des biens et des données](healthcare/ehr-admin-cerner.md)
+- [Visites virtuelles avec Teams - Intégration à EhRExique](healthcare/ehr-admin.md)

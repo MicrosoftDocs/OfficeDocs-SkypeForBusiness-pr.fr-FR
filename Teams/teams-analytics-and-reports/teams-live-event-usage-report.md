@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Découvrez comment utiliser le rapport Teams’utilisation des événements en direct dans le Centre d’administration Microsoft Teams pour obtenir une vue d’ensemble de Teams activité d’événements en direct dans votre organisation.
+description: Découvrez comment utiliser le rapport d’utilisation Teams d’événements en direct dans le Centre d’administration Microsoft Teams pour obtenir une vue d’ensemble de Teams activité d’événements en direct dans votre organisation.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e46c0e55eb4808f3c0b112dae72049649fc7f4a8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 504c8822146efa7101ca1435cab961a86068ccaf
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865543"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959893"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams d’utilisation d’événements en direct
 
@@ -35,7 +35,7 @@ Le Teams d’utilisation des événements en direct dans le centre Microsoft Tea
 3. (Facultatif) Sous **Organisateur,** vous pouvez choisir d’afficher uniquement les événements en direct organisés par un utilisateur spécifique.
 4. Cliquez sur **Exécuter le rapport.**  
 
-    ![Capture d’écran Teams rapport d’utilisation des événements en direct dans Teams centre d’administration avec des appels.](../media/teams-live-event-usage-report-with-callouts.png "Capture d’écran du Teams d’utilisation des événements en direct dans le centre Teams d’administration avec des appels")
+   :::image type="content" alt-text="Capture d’écran Teams rapport d’utilisation des événements en direct dans Teams centre d’administration avec des appels." source="../media/teams-live-event-usage-report-with-callouts.png" lightbox="../media/teams-live-event-usage-report-with-callouts.png":::
 
 ## <a name="interpret-the-report"></a>Interpréter le rapport
 
@@ -48,17 +48,19 @@ Le Teams d’utilisation des événements en direct dans le centre Microsoft Tea
 |**5**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau.|
 
 ## <a name="notes"></a>Remarques
-Affichage d’un jusqu’à 100 événements en direct qui correspondent aux critères du rapport actuel. Pour voir davantage d’événements en direct, appliquez des filtres de date afin de réduire la taille de la liste.
+Nous montrons jusqu’à 100 événements en direct qui correspondent aux critères du rapport actuel. Pour voir davantage d’événements en direct, appliquez des filtres de date afin de réduire la taille de la liste. 
+
+Toute personne qui regarde l’enregistrement de l’événement ou de l’événement à la demande ne figure pas dans le nombre d’affichages. 
 
 ## <a name="view-event-details"></a>Afficher les détails de l’événement
 
 La page des détails de l’événement en direct offre un résumé des détails d’un événement en direct et répertorie tous les fichiers, y compris les transcriptions et enregistrements, associés à l’événement. Cliquez sur un nom de fichier pour afficher ou télécharger le fichier.
 
-![Capture d’écran montrant les détails d’un événement en direct.](../media/teams-live-event-usage-report-event-detail.png)
+:::image type="content" alt-text="Capture d’écran montrant les détails d’un événement en direct." source="../media/teams-live-event-usage-report-event-detail.png" lightbox="../media/teams-live-event-usage-report-event-detail.png":::
 
 Si votre organisation est [](https://www.hivestreaming.com/partners/integration-partners/microsoft/) activée pour la ruche eCDN ou l’eCDN [Kollective,](https://kollective.com) vous pouvez obtenir des données d’analyse des participants supplémentaires en cliquant sur le lien du rapport partenaire.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Analyses et rapports Teams](teams-reporting-reference.md)
 - [Que sont les événements en direct Teams ?](../teams-live-events/what-are-teams-live-events.md)
