@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e3a74b5e156817ec9b28608d725800858c3b350
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: caabea3e1310ad704953171836dcdfb35506609a
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432536"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960063"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Démarrage rapide : réunions, webinaires et événements en direct 
 
@@ -51,9 +51,9 @@ Le tableau suivant récapitule brièvement les trois types de réunions, le nomb
 | Événements en direct | Jusqu’à 20 000** |- Diffuser au grand public. <br>- Questions et réponses modérées pour l’interaction de l’audience. <br> - Peut spécifier des producteurs et des présentateurs, y compris des présentateurs externes.<br>- Prend en charge des fonctionnalités de production plus avancées. | Non |
 ||||
 
-*Les 10 000 habituels sont passés à 20 000 jusqu’au 31 décembre 2021.<br>
+*Les 10 000 habituels sont augmentés à 20 000 jusqu’au 30 juin 2022.<br>
 
-**Les 10 000 habituels sont passés à 20 000 jusqu’au 31 décembre 2021. Vous pouvez planifier des nombres encore plus importants avec des événements en direct dans Yammer et/ou Microsoft Stream. Pour plus d’informations, consultez [Événements en direct sur Microsoft 365](/stream/live-event-m365). Notez que les événements de plus de 20 000 participants nécessitent le [Programme d’assistance aux événements en direct](/stream/live-events-assistance). 
+**Les 10 000 habituels sont augmentés à 20 000 jusqu’au 30 juin 2022. Vous pouvez planifier des nombres encore plus importants avec des événements en direct dans Yammer et/ou Microsoft Stream. Pour plus d’informations, consultez [Événements en direct sur Microsoft 365](/stream/live-event-m365). Notez que les événements de plus de 20 000 participants nécessitent le [Programme d’assistance aux événements en direct](/stream/live-events-assistance). 
 
 **Considérations relatives aux grandes réunions, aux webinaires et aux événements en direct** : lors de l’hébergement de réunions de grande taille, tenez compte des points suivants :
 

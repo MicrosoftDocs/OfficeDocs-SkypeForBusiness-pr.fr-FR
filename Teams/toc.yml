@@ -1464,7 +1464,9 @@ items:
             href: expand-teams-across-your-org/healthcare/teams-in-hc.md
           - name: Visites virtuelles
             items:
-              - name: Visites virtuelles avec Teams – Intégration dans le dossier médical informatisé (DMI)
+              - name: Visites virtuelles avec Teams-Intégration dans Cerner EHR
+                href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
+              - name: Visites virtuelles avec Teams-Intégration dans Epic DMI
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
               - name: Rapports d’administration de dossier médical informatisé
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
