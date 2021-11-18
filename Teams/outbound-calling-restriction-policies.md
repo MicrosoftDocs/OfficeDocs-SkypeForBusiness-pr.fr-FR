@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Les administrateurs peuvent contrôler le type d’audioconférence et d’appels PSTN d’utilisateur final qui peuvent être effectués par les utilisateurs.
-ms.openlocfilehash: 93f219feea677afe83c1c1dc031d6b878b219a45
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 43fda0e088cc0b7c29bd270d20f0701f0391f8ce
+ms.sourcegitcommit: 47f537a81659ec5ecb7dfdb57589fa133199ec57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536875"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61066545"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction des appels sortants pour l’audioconférence et les appels RTC des utilisateurs
 
@@ -39,10 +39,10 @@ Les contrôles d’appel sortant peuvent être appliqués pour chaque utilisateu
 |Appels RTC de conférence audio|Limite le type de sortie </br>les appels autorisés de l'intérieur </br>réunions organisées par un utilisateur.|N’importe quelle destination (par défaut)</br>Dans le même pays ou la même région que l’organisateur </br> [Zone A pays ou régions](audio-conferencing-zones.md) uniquement </br>Ne pas autoriser|
 |Appels PSTN d’utilisateur final|Limite le type d'appels </br>qui peuvent être effectués par un utilisateur.|International et national (par défaut)</br>Nationaux</br>Aucun|
 
-Pour savoir quels pays et quelles régions sont considérés comme zone A, consultez les zones pays et région pour [l’audioconférence.](audio-conferencing-zones.md)
+Pour savoir quels pays et quelles régions sont considérés comme zone A, consultez les zones pays et [région pour audioconférence.](audio-conferencing-zones.md)
 
    > [!NOTE]
-   > Un appel est considéré comme national si le numéro composé se trouve dans le pays dans lequel Microsoft 365 ou Office 365 a été définie pour l’organisateur de la réunion (en cas d’audioconférence) ou l’utilisateur final (en cas d’appels PSTN de l’utilisateur final).
+   > Un appel est considéré comme national si le numéro composé se trouve dans le pays dans lequel Microsoft 365 ou Office 365 a été créé pour l’organisateur de la réunion (en cas d’audioconférence) ou l’utilisateur final (en cas d’appels PSTN de l’utilisateur final).
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -75,10 +75,10 @@ Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>
 **Définissez la stratégie au niveau du client avec l’cmdlet suivante.**
 
 ```powershell
-Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 
+Grant-CsDialoutPolicy -PolicyName <policy name>  -Global 
 ```
 
-Tous les utilisateurs du client qui n’ont pas de stratégie de numérotation seront affectés à cette stratégie. Les autres utilisateurs demeurent avec leur stratégie actuelle.
+Cette stratégie est attribuée à tous les utilisateurs du client qui n’ont pas de stratégie de numérotation. Les autres utilisateurs demeurent avec leur stratégie actuelle.
 
 Le tableau suivant fournit une vue d’ensemble de chaque stratégie.
 
@@ -86,7 +86,7 @@ Le tableau suivant fournit une vue d’ensemble de chaque stratégie.
 |:-----|:-----|
 |Identity='tag:DialoutCPCandPSTNInternational'    |    L'utilisateur de la conférence peut composer des numéros internationaux et nationaux et cet utilisateur peut également passer des appels vers des numéros internationaux et nationaux.    |
 |Identity='tag:DialoutCPCDomesticPSTNInternational'  |    L'utilisateur de la conférence peut uniquement composer des numéros nationaux et cet utilisateur peut passer des appels vers des numéros internationaux et nationaux.    |
-|    Identité = 'tag : DialoutCPCDisabledPSTNInternational'    |    Les utilisateurs de la conférence ne peuvent pas composer l’appel sortant. Cet utilisateur peut effectuer des appels sortants vers des numéros nationaux et internationaux.    |
+|    Identité = 'tag : DialoutCPCDisabledPSTNInternational'    |    Les utilisateurs de la conférence ne peuvent pas composer le numéro. Cet utilisateur peut effectuer des appels sortants vers des numéros nationaux et internationaux.    |
 |    Identity='tag:DialoutCPCInternationalPSTNDomestic'    |    L'utilisateur de la conférence peut composer des numéros internationaux et nationaux, et cet utilisateur ne peut passer que des appels sortants vers un numéro RTC national.    |
 |    Identity='tag:DialoutCPCInternationalPSTNDisabled'    |    L'utilisateur de la conférence peut composer des numéros internationaux et nationaux et cet utilisateur ne peut pas effectuer d'appels sortants vers le numéro RTC en dehors des numéros d'urgence.    |
 |    Identity='tag:DialoutCPCandPSTNDomestic'    |    L'utilisateur de la conférence ne peut appeler que des numéros nationaux, et cet utilisateur ne peut émettre que des appels vers des numéros RTC nationaux.    |
