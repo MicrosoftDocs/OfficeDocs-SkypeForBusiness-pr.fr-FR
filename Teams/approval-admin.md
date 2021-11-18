@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33af895358695227d9f7e76ec5b80fb733749342
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d607a2ea0469ce3b88411bfe17ca8d54b76c7cc0
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850607"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055435"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
@@ -68,7 +68,7 @@ En savoir plus sur le [flux d’approbation](/power-automate/modern-approvals).
 Les approbations créées à partir d’un modèle stockent toujours les données dans des CDS, comme leur titre, les détails, l’ID de modèle, etc. Les réponses envoyées sur la demande d’approbation sont stockées dans Forms. En savoir plus sur  [le stockage de données pour Microsoft Forms.](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)
 
 >[!Note]
->Si vous supprimez le modèle de formulaire sur le site Microsoft Forms, votre modèle Approbation sera supprimé et les utilisateurs ne pourront pas démarrer la demande. Les utilisateurs obtiennent une erreur « CDB TableNotFound » lors de la tentative d’ouverture d’un modèle d’approbation qui a été supprimé dans Microsoft Forms.
+>Si vous supprimez le modèle de formulaire sur le site Microsoft Forms, votre modèle Approbation sera supprimé et les utilisateurs ne pourront pas démarrer la demande. Les utilisateurs obtiennent une erreur « CDB TableNotFound » lorsqu’ils essaient d’ouvrir un modèle d’approbation qui a été supprimé dans Microsoft Forms.
 
 Les modèles d’approbation sont stockés dans le centre de données Stockage (SDS), plateforme de stockage compatible utilisée en interne uniquement à l’intérieur de Microsoft. Les modèles dans l’étendue de l’organisation sont stockés dans « shard client » de SDS, et les modèles d’étendue de l’équipe dans des « shard de groupe » de SDS. Cela signifie que les modèles à l’échelle de l’organisation partagent la même durée de vie du client et les modèles d’équipe partagent la même durée de vie de l’équipe. Par conséquent, la suppression définitive de l’équipe supprime les modèles associés.
 
@@ -95,14 +95,14 @@ L’application Approbations Teams vous permet d’accéder aux fonctionnalités
 
 - Utilisez les informations de l'équipe pour les contacter.
 
-Autorisations des modèles d’approbation
+Autorisations du modèle d’approbation
 
 - Tous les propriétaires d’équipe peuvent créer un modèle d’approbation pour les équipes dont ils sont propriétaires.
 
-- Lorsqu’un administrateur crée un modèle pour l’ensemble de son organisation pour la première fois, il crée automatiquement une équipe Teams pour tous les administrateurs du client, y compris les administrateurs de services globaux et d’équipe. Ces administrateurs sont ajoutés en tant que propriétaires de l’équipe, afin qu’ils peuvent co-gérer les modèles d’organisation. Les administrateurs qui débutent dans l’organisation une fois l’équipe créée doivent être ajoutés manuellement en tant que propriétaires d’équipe afin qu’ils disposent des mêmes autorisations pour gérer les modèles à l’échelle de l’organisation.
+- Lorsqu’un administrateur crée un modèle pour l’ensemble de son organisation pour la première fois, il crée automatiquement un nouveau groupe Azure Active Directory(AAD) pour tous les administrateurs du client, y compris les administrateurs de services de l’équipe et de l’ensemble. Ces administrateurs seront ajoutés en tant que propriétaires du groupe, de sorte qu’ils pourront co-gérer les modèles d’organisation. Les administrateurs qui débutent dans l’organisation une fois l’équipe créée doivent être ajoutés manuellement en tant que propriétaires de groupe afin qu’ils disposent des mêmes autorisations pour gérer les modèles à l’échelle de l’organisation.
 
 > [!Note]
-> Si un administrateur supprime l’équipe, vous avez un mois pour la restaurer dans le portail Azure Active Directory (AAD) afin de restaurer toutes les données associées. Après un mois, ou si l’administrateur supprime cette équipe dans la Corbeille, vous perdrez toutes les données associées.
+> Si un administrateur supprime le groupe, vous avez un mois pour le restaurer dans le portail Azure Active Directory (AAD) afin de restaurer toutes les données associées. Après un mois, ou si l’administrateur supprime ce groupe dans la Corbeille, vous perdrez toutes les données associées.
 
 ## <a name="disable-the-approvals-app"></a>Gérer l'application Approbations
 
@@ -114,7 +114,7 @@ L’application Approbations est disponible par défaut. Vous pouvez désactiver
 
   3. Recherchez l’application Approbations.
 
-     ![Affiche la navigation dans le Centre d’administration avec Teams Applications > Gérer les applications mis en évidence.](media/manage-approval-apps.png)
+     ![Affiche la navigation dans le Centre d’administration avec Teams Applications et > Gérer les applications mis en évidence.](media/manage-approval-apps.png)
 
   4. Sélectionnez Approbations.
 
@@ -205,7 +205,7 @@ Pour utiliser la fonctionnalité de signature électronique de l’application A
 
 Pour la fonctionnalité de signature électronique Approbations, les partenaires de signature tiers apparaissent par défaut dans l’Teams Approbations. Vous pouvez désactiver des fournisseurs de signature électronique spécifiques en accédant aux paramètres de l’application dans Teams d’administration.
 
-1. Dans la Teams d’administration, sous **Gérer** les applications, sélectionnez l’application **Approbations,** puis **Paramètres.**
+1. Dans le Teams d’administration, sous **Gérer** les applications, sélectionnez l’application **Approbations,** puis **Paramètres.**
 
 2. Par défaut, un bascule est placé à côté de chaque fournisseur de signature électronique (à droite). Faites glisser le curseur vers la gauche pour désactiver un fournisseur de signature électronique spécifique. Si un administrateur Teams désactive un fournisseur, les utilisateurs finaux ne le voient pas lors de la création d’une approbation. Les utilisateurs finaux ne pourront pas non plus afficher les demandes de signature électronique qui ont été faites avec ce fournisseur.
 

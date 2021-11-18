@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour les participants et les invités.
-ms.openlocfilehash: 5a277aeb5ccdef5bc3ec98d849cd9f9ec5271e2b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 2c87434aa198169854e59b6a2a93ed9ceed9cd2f
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605410"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055355"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion : participants et invités
 
@@ -43,7 +43,7 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Autoriser les personnes anonymes à démarrer une réunion
 
-Ce paramètre est une stratégie par organisateur qui autorise les réunions de conférence rendez-vous sans classement. Ce paramètre détermine si les utilisateurs des appels entrants peuvent rejoindre la réunion sans utilisateur authentifié de l’organisation. Par défaut, ce paramètre est désactivé, ce qui signifie que les utilisateurs rendez-vous patientent dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion.
+Ce paramètre est une stratégie par organisateur qui autorise les réunions de conférence rendez-vous sans leader. Ce paramètre détermine si les utilisateurs des appels entrants peuvent rejoindre la réunion sans utilisateur authentifié de l’organisation. Par défaut, ce paramètre est désactivé, ce qui signifie que les utilisateurs rendez-vous patientent dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion.
 
 > [!NOTE]
 > Si ce paramètre est désactivé et qu’un utilisateur de participation a rejoint la réunion pour la première fois et est placé dans la salle d’attente, l’utilisateur d’une organisation doit participer à la réunion avec un client Teams pour admettre l’utilisateur de la salle d’attente. Il n’y a pas de contrôle de salle d’attente disponible pour les utilisateurs entrants.
@@ -62,11 +62,11 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle la join
 |Valeur du paramètre  |Comportement de jointure |
 |---------|---------|
 |**Tout le monde**   |Tous les participants à la réunion joignent directement la réunion sans attendre dans la salle d’attente. Cela inclut les utilisateurs authentifiés, les utilisateurs externes d’organisations approuvées (fédérées), les invités et les utilisateurs anonymes.     |
-|**Membres de mon organisation et invités**     |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, rejoignent la réunion directement sans attendre dans la salle d’attente. Les utilisateurs des organisations de confiance et les utilisateurs anonymes patientent dans la salle d’attente. Il s’agit du paramètre par défaut.    |
+|**Membres de mon organisation et invités**     |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, rejoignent directement la réunion sans attendre dans la salle d’attente. Les utilisateurs des organisations de confiance et les utilisateurs anonymes patientent dans la salle d’attente. Il s’agit du paramètre par défaut.    |
 |**Membres de mon organisation, organisations de confiance et invités**     |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités et les utilisateurs des organisations approuvées, peuvent participer directement à la réunion sans attendre dans la salle d’attente.  Les utilisateurs anonymes attendent dans la salle d’attente.   |
 |**Membres de mon organisation**    |Les utilisateurs authentifiés au sein de l’organisation rejoignent directement la réunion sans attendre dans la salle d’attente.  Des utilisateurs d’organisations de confiance, des utilisateurs invités et des utilisateurs anonymes patientent dans la salle d’attente.          |
 |**Organisateur uniquement**    |Seuls les organisateurs de réunion peuvent rejoindre directement la réunion sans attendre dans la salle d’attente. Tous les autres utilisateurs, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs d’organisations de confiance et les utilisateurs anonymes, doivent patienter dans la salle d’attente. Sur la page Teams d’options de la réunion client, la liste s’affiche en tant que « Moi seul ».          |
-|**Utilisateurs invités uniquement**    |Seuls les utilisateurs invités et les organisateurs de la réunion peuvent participer directement à la réunion sans attendre dans la salle d’attente. Tous les autres utilisateurs, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs d’organisations de confiance et les utilisateurs anonymes, doivent patienter dans la salle d’attente. Dans la page Teams options de réunion client, il s’affiche en tant que « Personnes que j’invite ».          |
+|**Utilisateurs invités uniquement**    |Seuls les utilisateurs invités et les organisateurs de la réunion peuvent participer directement à la réunion sans attendre dans la salle d’attente. Tous les autres utilisateurs, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs d’organisations de confiance et les utilisateurs anonymes, doivent patienter dans la salle d’attente. Sur la page Teams d’options de la réunion client, « Personnes que j’invite » s’affiche. Les utilisateurs ajoutés dans le cadre d’un groupe de distribution devront passer par la salle d’salle d’salle d’accueil.      |
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Autoriser les utilisateurs entrants à éviter la salle d’attente
 
@@ -96,7 +96,7 @@ Ce paramètre est un paramètre par participant. Ce paramètre détermine si la 
 
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)
 - [Attribuer des stratégies à vos utilisateurs](policy-assignment-overview.md)
