@@ -1,9 +1,8 @@
 ---
 title: Mise en service à distance et se connectez pour Teams appareils Android
-author: serdarsoysal
-ms.author: serdars
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: prgholve
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,21 +16,21 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment mettre en service à distance et vous connectez pour Teams appareils Android
-ms.openlocfilehash: 818a6a4fc7941c82a52d63016bbdc338f977be29
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+description: Découvrez comment utiliser la provision à distance et vous connectez pour Teams appareils Android
+ms.openlocfilehash: e7e5acd491f15d4cc52ce1b898112da868f80594
+ms.sourcegitcommit: a3b3eb85354d62b2a5325ba7c8dda88352c6711a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046150"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61070148"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Mise en service à distance et se connectez pour Teams appareils Android
 
-Les administrateurs informatiques peuvent mettre en service à distance un appareil Android et Teams se connectent. Pour mettre en service un appareil à distance, l’administrateur doit télécharger les ID MAC des appareils en cours de mise en service et créer un code de vérification. L’ensemble du processus peut être accompli à distance à partir du centre Teams’administration.
+Les administrateurs informatiques peuvent mettre en service et se connectent à distance sur Teams appareil Android. Pour mettre en service un appareil à distance, l’administrateur doit télécharger les ID MAC des appareils en cours de mise en service et créer un code de vérification. L’ensemble du processus peut être accompli à distance à partir du centre Teams’administration.
 
 ## <a name="review-the-supported-devices"></a>Passer en revue les appareils pris en charge
 
-La liste suivante présente les conditions requises pour le microprogramme de l’appareil Android.
+La liste suivante présente les conditions requises pour le microprogramme d’un appareil Android.
 
 |Catégorie d’appareil|Modèle d’appareil|Version du microprogramme|
 |-|-|-|
@@ -48,7 +47,7 @@ La liste suivante présente les conditions requises pour le microprogramme de l�
 |salles Teams sur Android|Logitech Cat Bar|1.2.982|
 |salles Teams sur Android|AudioCodes RXV80|1.13.361|
 |salles Teams sur Android|CESSEURS DÉVELOPPENT VISION 3T|1.2.2.21182.10|
-|salles Teams sur Android|Barre de réunions Yealink A30|133.15.0.60|
+|salles Teams sur Android|Yealink MeetingBar A30|133.15.0.60|
 |salles Teams sur Android|Barre de réunions Yealink A20|133.15.0.60|
 |salles Teams sur Android|Console tactile CTP18 Yealink|137.15.0.37|
 |salles Teams sur Android|Poly Studio X30|3.5.0.344025|
@@ -61,10 +60,10 @@ La liste suivante présente les conditions requises pour le microprogramme de l�
 Pour mettre en service un nouvel appareil, vous suivrez les étapes suivantes.
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
-2. Développez **Teams Appareils mobiles.**
-3. Sélectionnez **Provision new device** from the **Actions** tab.
+2. Développez **Teams appareils mobiles.**
+3. Sélectionnez **Provision new device from** the **Actions** tab.
 
-Dans la **fenêtre Provision de nouveaux appareils,** vous pouvez ajouter l’adresse mac manuellement ou télécharger un fichier.
+Dans la **fenêtre Provision de nouveaux appareils,** vous pouvez ajouter l’adresse mac manuellement ou charger un fichier.
 
 ### <a name="manually-add-a-device-mac-address"></a>Ajouter manuellement une adresse MAC de périphérique
 
@@ -94,23 +93,23 @@ Vous avez besoin d’un code de vérification pour les appareils. Le code de vé
 
 ## <a name="provision-the-device"></a>Approvisionnement de l’appareil
 
-Lorsque l’appareil est sous tension et connecté au réseau, le technicien le connecte. Ces étapes sont effectuées sur l’appareil Teams’appareil mobile.
+Lorsque l’appareil est sous tension et connecté au réseau, le technicien le connecte. Ces étapes sont effectuées sur l’Teams appareil.
 
 1. Le technicien sélectionne Périphérique **d’approvisionnement** dans le **Paramètres.**  
 
-   ![Option Provision new device from the Actions tab.](../media/provision-device1.png)
+   ![Option Nouvel appareil disponible à partir de l’onglet Actions.](../media/provision-device1.png)
   
 2. Le technicien entre le code de vérification spécifique de l’appareil dans le champ de saisie fourni.
 
    ![Approvisionnement de la vérification de l’appareil.](../media/provision-device-verification1.png)
 
-   Une fois l’appareil correctement mis en service, le nom du client s’affiche dans la page de inscription.
+   Une fois l’appareil correctement mis en service, le nom du client s’affiche sur la page de inscription.
 
    ![Nom du client sur la page de inscription.](../media/provision-code.png)
 
-## <a name="sign-in-remotely"></a>Se connectez à distance
+## <a name="first-time-remote-sign-in"></a>Première fois que vous vous connectez à distance
 
-Le périphérique est sous l’onglet En **attente de la** signature. Démarrez le processus de inscription à distance en sélectionnant le périphérique individuel.
+Le périphérique est sous **l’onglet En attente de la** signature. Démarrez le processus de inscription à distance en sélectionnant le périphérique individuel.
 
 1. Sélectionnez un appareil dans **l’onglet En attente de la connectez-vous.**
 
@@ -120,7 +119,8 @@ Le périphérique est sous l’onglet En **attente de la** signature. Démarrez 
 
    ![fenêtre Se connectez à un utilisateur pour un appareil individuel.](../media/sign-in-user.png)
 
-## <a name="related-article"></a>Article connexe
+## <a name="related-articles"></a>Articles connexes
 
 - [Gérer vos périphériques dans Teams](device-management.md)
+- [Se connectez à distance et se connectez-vous](remote-sign-in-and-sign-out.md)
 - [Mettre à jour Teams appareils à distance](remote-update.md)
