@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a76559ea1ec140b18acbcc49f92b724a0e1bdc3a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b87aaae3feeef9552cd64d76bb777cb081a6102e
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604453"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055425"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gérer les paramètres de Microsoft Teams pour votre organisation
 
@@ -36,9 +36,9 @@ Vous gérez les applications pour votre organisation dans les **applications Tea
 
 Pour en savoir plus, voir [Paramètres d’administration des applications dans Teams](admin-settings.md).  
 
-## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Paramètres Teams à l’échelle de l’organisation dans le centre d’administration de Microsoft Teams
+## <a name="teams-external-access-and-guest-access-settings-in-the-microsoft-teams-admin-center"></a>Paramètres d’accès externe et d’accès invité Teams dans le Centre d'administration Microsoft Teams
 
-Vous pouvez contrôler les paramètres utilisateur à l’échelle de l’organisation dans le centre d’administration de Microsoft Teams. Pour modifier les paramètres à l’échelle de l’organisation, accédez au centre d’administration de Microsoft Teams, puis sélectionnez **Paramètres à l’échelle de l’organisation**. Vous pouvez configurer les paramètres suivants.
+Vous pouvez contrôler les paramètres d’accès externe et d’accès invité dans le Centre d'administration Microsoft Teams. Pour modifier ces paramètres, accédez au Centre d'administration Microsoft Teams, puis sélectionnez **Utilisateurs**. Vous pouvez configurer les paramètres suivants.
 
 ### <a name="external-access"></a>Accès externe
 
@@ -54,6 +54,10 @@ Pour ajouter ou bloquer un domaine :
 ### <a name="guest-access"></a>Accès invité
 
 L’**accès invité** dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes à l’extérieur de votre organisation en leur accordant l'accès aux équipes et aux canaux.Toutes les personnes ayant un compte de messagerie professionnel ou de particulier tel que Outlook, Gmail, etc. peuvent participer en tant qu’invitées dans Teams, avec un accès complet aux conversations, réunions et fichiers des équipes. Pour plus d’informations, reportez-vous à la rubrique [Accès invité dans Microsoft Teams](guest-access.md).
+
+## <a name="teams-settings-and-teams-upgrade-settings-in-the-microsoft-teams-admin-center"></a>Paramètres Teams et paramètres de mise à niveau dans le Centre d'administration Microsoft Teams
+
+Vous pouvez contrôler les paramètres Teams et les paramètres de mise à niveau Teams dans le Centre d'administration Microsoft Teams. Pour modifier ces paramètres, accédez au Centre d'administration Microsoft Teams, puis sélectionnez **Teams**. Vous pouvez configurer les paramètres suivants.
 
 ### <a name="teams-settings"></a>Paramètres de Teams
 
@@ -102,11 +106,7 @@ Basculez ce paramètre sur **Activé** pour activer les recherches d’annuaire 
 
 La surveillance de conversation permet aux organisations et aux établissements scolaires de limiter les fonctionnalités de conversation à l’aide d’autorisations basées sur les rôles. Ces autorisations contrôlent la quantité de surveillance dont un utilisateur a besoin tout en discutant avec d’autres personnes. En savoir plus sur [surveillance de conversation](supervise-chats-edu.md).
 
-### <a name="skype-for-business"></a>Skype Entreprise
-
-Utilisez cette page pour gérer les fonctionnalités de Skype Entreprise pour les utilisateurs de Skype Entreprise au sein de votre organisation. Pour plus d’informations, consultez [Gérer les paramètres de Skype Entreprise dans le centre d’administration Microsoft Teams](skype-for-business-settings.md).
-
-### <a name="teams-upgrade"></a>Mise à niveau de Teams
+### <a name="teams-upgrade-settings"></a>Paramètres de mise à niveau de Teams
 
 Vous pouvez utiliser ces paramètres pour configurer la manière dont vos utilisateurs feront la transition de Skype Entreprise vers Microsoft Teams. 
 
@@ -125,6 +125,7 @@ Le mode de coexistence que vous choisissez détermine le routage des appels et c
 
 Cette option vous permet de sélectionnez l’application que les utilisateurs utiliseront pour participer à des réunions Skype Entreprise (Skype Entreprise ou [l’application Réunions Skype](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Ce paramètre ne dépend pas du paramètre de mode de coexistence.
 
+### <a name="planning-settings-in-the-microsoft-teams-admin-center"></a>Paramètres de planification dans le Centre d’administration Microsoft Teams
 
 #### <a name="network-planner"></a>Planificateur de réseau
 
@@ -132,6 +133,11 @@ Le Planificateur de réseau vous aide à déterminer et organiser les exigences 
 
 Vous pouvez également sélectionner l’option « Télécharger l’application Teams en arrière-plan pour les utilisateurs Skype Entreprise ».  Par défaut, le paramètre est défini sur Activé. Lorsque ce paramètre est activé, l’application Teams est téléchargée en arrière-plan pour les utilisateurs de l’application Skype Entreprise sur PC Windows. Cela se produit si le mode de coexistence pour l’utilisateur est Teams uniquement, ou si une notification de mise à niveau en attente est activée dans l’application Skype Entreprise.
 
+## <a name="other-settings-in-the-microsoft-teams-admin-center"></a>Autres paramètres du Centre d'administration Microsoft Teams
+
+### <a name="skype-for-business"></a>Skype Entreprise
+
+Utilisez cette page pour gérer les fonctionnalités de Skype Entreprise pour les utilisateurs de Skype Entreprise au sein de votre organisation. Pour plus d’informations, consultez [Gérer les paramètres de Skype Entreprise dans le centre d’administration Microsoft Teams](skype-for-business-settings.md).
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Comment puis-je savoir quelles fonctionnalités sont disponibles ?
 
