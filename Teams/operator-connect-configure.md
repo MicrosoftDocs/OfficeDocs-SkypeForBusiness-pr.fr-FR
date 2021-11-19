@@ -21,16 +21,16 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c19981f4cc7edb556b245da2aac0b320705cc64
-ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
+ms.openlocfilehash: 2fa7a7c314fe2d31e5306ec96902f8ca87e44355
+ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "60275568"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61111964"
 ---
 # <a name="configure-operator-connect"></a>Configurer l’Connecter
 
-Cet article décrit comment configurer l’Connecter. Avant de configurer l’Connecter, n’oubliez pas de lire [l’information plan](operator-connect-plan.md) pour les Connecter opérateur pour plus d’informations sur les conditions préalables et les licences.
+Cet article décrit comment configurer l’opérateur Connecter. Avant de configurer l’Connecter, n’oubliez pas de lire [l’information plan](operator-connect-plan.md) pour les Connecter opérateur pour plus d’informations sur les conditions préalables et les licences.
 
 ## <a name="enable-an-operator"></a>Activer un opérateur
 
@@ -38,11 +38,11 @@ Vous pouvez activer, modifier et supprimer des opérateurs dans le Centre Teams�
 
 Pour activer un opérateur :
 
-1. **Choisissez un opérateur.** Dans **l’onglet Tous** les opérateurs, filtrez les opérateurs disponibles par région ou service pour trouver l’opérateur qui vous permet de répondre à vos besoins vocables. Sélectionnez ensuite l’opérateur que vous voulez activer.  
+1. **Choisissez un opérateur.** Dans **l’onglet Tous les** opérateurs, filtrez les opérateurs disponibles par région ou service pour trouver l’opérateur qui vous permet de répondre à vos besoins vocables. Sélectionnez ensuite l’opérateur que vous voulez activer.  
 
 2. **Sélectionnez les pays.** Sous **Paramètres de l’opérateur,** sélectionnez les pays que vous voulez activer avec l’opérateur sélectionné.
 
-3. **Fournir des informations de contact** Vos informations de contact, y compris votre nom complet et votre adresse de messagerie, seront automatiquement partagées avec votre opérateur. Vous pourrez modifier ces informations ultérieurement. De plus, vous devez fournir la taille de l’entreprise et vous avez la possibilité de fournir votre numéro de téléphone. Les opérateurs utilisent ces informations pour vous contacter avec plus de détails sur la Connecter.
+3. **Fournir des informations de contact** Vos informations de contact, y compris votre nom complet et votre adresse de messagerie, seront automatiquement partagées avec votre opérateur. Vous pourrez modifier ces informations ultérieurement. De plus, vous devez fournir la taille de l’entreprise et vous avez la possibilité de fournir votre numéro de téléphone. Les opérateurs utilisent ces informations pour vous contacter avec plus de détails sur les opérateurs Connecter.
 
 4. Acceptez l’avis de transfert de données.
 
@@ -50,34 +50,34 @@ Pour activer un opérateur :
 
 ## <a name="set-up-phone-numbers"></a>Configurer des numéros de téléphone
 
-La configuration des numéros de téléphone varie selon que vous définissez des numéros pour de nouveaux utilisateurs ou que vous souhaitez déplacer des numéros existants à partir de plans d’appel Microsoft ou d’un routage direct.
+La configuration des numéros de téléphone varie selon que vous définissez des numéros pour de nouveaux utilisateurs ou que vous déplacez des numéros existants à partir de plans d’appel Microsoft ou d’un routage direct.
 
-- Si vous devez acquérir des numéros de téléphone pour de nouveaux utilisateurs, voir Acquérir des numéros pour [les nouveaux Teams utilisateurs.](#acquire-numbers-for-new-teams-users)
+- Si vous devez acquérir des numéros de téléphone pour de nouveaux utilisateurs, consultez Acquérir les numéros pour [les nouveaux Teams utilisateurs.](#acquire-numbers-for-new-teams-users)
 
-- Si vous voulez déplacer des numéros existants des forfaits d’appels vers des Connecter, consultez Déplacer les numéros des plans d’appels vers les plans [d’Connecter.](#move-numbers-from-calling-plans-to-operator-connect)
+- Si vous voulez déplacer des numéros existants des plans d’appels vers des plans d’Connecter, consultez Déplacer les numéros des plans d’appels vers les plans [d’Connecter.](#move-numbers-from-calling-plans-to-operator-connect)
 
 - Si vous voulez déplacer des numéros existants du routage direct vers l’opérateur Connecter, voir Déplacer les numéros du routage direct vers l’opérateur [Connecter.](#move-numbers-from-direct-routing-to-operator-connect)
 
 ### <a name="acquire-numbers-for-new-teams-users"></a>Acquérir des numéros pour les nouveaux Teams utilisateurs
 
-Pour acquérir des numéros pour les nouveaux Teams utilisateurs, suivez les étapes suivantes :
+Pour acquérir des nombres pour les nouveaux Teams utilisateurs, suivez les étapes suivantes :
 
 1. **Attribuez une Système téléphonique licence de licence.** Vous pouvez attribuer une licence Système téléphonique utilisateur à vos utilisateurs à partir du Centre d'administration Microsoft 365 ou à l’aide de PowerShell. Pour plus d’informations, [voir Attribuer Teams de module complémentaire aux utilisateurs.](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 
-2. Les utilisateurs qui seront affectés à des numéros de téléphone acquis avec l Connecter doivent être en mode TeamsOnly. Si votre organisation est en mode TeamsOnly, tous vos utilisateurs sont en mode TeamsOnly. Pour le vérifier, dans le centre Teams d’administration, allez dans les paramètres à l’échelle de **l’organisation > Teams mise à niveau.** Si votre organisation est en mode Îles, vérifiez si des utilisateurs spécifiques sont en mode TeamsOnly. Sélectionnez **un compte** d’utilisateur dans Utilisateurs. Dans **l’onglet** Compte, **Teams mise à niveau,** le mode coexistence doit être réglé sur « TeamsOnly ».
+2. Les utilisateurs qui seront affectés à des numéros de téléphone acquis avec l Connecter doivent être en mode TeamsOnly. Si votre organisation est en mode TeamsOnly, tous vos utilisateurs sont en mode TeamsOnly. Pour le vérifier, dans le Teams d’administration, consultez les **Teams > Teams de mise à niveau.** Si votre organisation est en mode Îles, vérifiez si des utilisateurs spécifiques sont en mode TeamsOnly. Sélectionnez **un compte** d’utilisateur dans Utilisateurs. Dans **l’onglet** Compte, **Teams mise à niveau,** le mode coexistence doit être réglé sur « TeamsOnly ».
 
-3. **Acquérir des nombres.** Allez sur le site web de votre opérateur pour commander et acquérir des numéros de téléphone. Pour obtenir la liste des sites web d’opérateurs, voir l Microsoft 365 [de Connecter de recherche.](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) Vous devez fournir votre ID de locataire. Si vous ne connaissez pas votre ID de locataire, voir Rechercher votre [ID Microsoft 365 client pour](/onedrive/find-your-office-365-tenant-id) plus d’informations.
+3. **Acquérir des nombres.** Allez sur le site web de votre opérateur pour commander et acquérir des numéros de téléphone. Pour obtenir la liste des sites web d’opérateurs, voir l Microsoft 365 [de Connecter de recherche.](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) Vous devez fournir votre ID de locataire. Si vous ne connaissez pas votre ID de locataire, voir Rechercher votre [ID](/onedrive/find-your-office-365-tenant-id) Microsoft 365 client pour plus d’informations.
 
-4. **Attribuer des nombres.** Une fois la commande terminée par votre opérateur, celui-là charge les numéros vers votre client. Vous pouvez afficher les numéros et le fournisseur dans le Centre d Teams’administration en vous > Téléphone **les numéros.** Attribuez des numéros à des utilisateurs à partir Teams centre d’administration ou à l’aide de PowerShell. Pour plus d’informations, voir [Attribuer des numéros.](#assign-numbers)
+4. **Attribuer des nombres.** Une fois la commande terminée par votre opérateur, celui-là charge les numéros vers votre client. Vous pouvez afficher les numéros et le fournisseur dans le centre d Teams’administration en cantant sur les numéros > Téléphone **voix.** Attribuez des numéros à des utilisateurs à partir Teams centre d’administration ou à l’aide de PowerShell. Pour plus d’informations, voir [Attribuer des numéros.](#assign-numbers)
 
 > [!NOTE]
 > Outre l’obtention de numéros de téléphone pour vos [utilisateurs,](getting-phone-numbers-for-your-users.md)vous pouvez obtenir des numéros de téléphone gratuits ou gratuits pour des services tels que l’audioconférence (pour les ponts de conférence), le attendant automatique et les files d’attente (également appelées numéros de service). Les numéros de téléphone de service disposent d'une capacité d'appels simultanés plus élevée que les numéros de téléphone d'utilisateur ou d'abonné. Par exemple, un numéro de service peut gérer des centaines d’appels simultanément, alors qu’un numéro de téléphone d’utilisateur ne peut gérer que quelques appels à la fois. Pour obtenir des numéros de service, contactez votre opérateur.
 
 ### <a name="emergency-addresses"></a>Adresses d’urgence
 
-L’adresse de secours est un emplacement statique associé à un nombre. Une fois que vous avez créé des adresses d’urgence dans le Teams d’administration, la manière dont vous les affectez ou les modifiez ultérieurement dépend de votre opérateur.
+L’adresse de secours est un emplacement statique associé à un nombre. Une fois les adresses de secours Teams créés dans le Centre d’administration, la manière dont vous les affectez ou les modifiez ultérieurement dépend de votre opérateur.
 
-Pour affecter des numéros à des adresses de secours, votre opérateur implémente l’un des trois scénarios suivants :
+Pour affecter des numéros à des adresses d’urgence, votre opérateur implémente l’un des trois scénarios suivants :
 
 - L’opérateur attribue des adresses d’urgence aux numéros de téléphone et vous permet de les modifier ultérieurement dans le Teams d’administration.
 
@@ -111,11 +111,11 @@ Pour plus d’informations sur les appels d’urgence, voir [Gérer](what-are-em
    Set-CsUser -Identity <user> -OnPremLineURI $null 
    ```
 
-2. Supprimez les problèmes d’utilisation PSTNUsage associés à vos utilisateurs, sans quoi les appels seront acheminés vers la passerelle spécifiée dans l’utilisation PSTN. Pour savoir comment supprimer l’utilisation PSTN, voir [Set-CsOnlinePstnUsage.](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps)
+2. Supprimez l’utilisation PSTNUsage associée à vos utilisateurs, sans quoi les appels seront acheminés vers la passerelle spécifiée dans l’utilisation PSTN. Pour savoir comment supprimer l’utilisation PSTN, voir [Set-CsOnlinePstnUsage.](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps)
 
-3. Allez sur le site web de votre opérateur pour commander et acquérir des numéros de téléphone. Pour trouver le site web de vos opérateurs, consultez le [Microsoft 365 de Connecter’annuaire.](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) Vous devez fournir votre ID de locataire. Si vous ne connaissez pas votre ID de locataire, voir Rechercher votre [ID Microsoft 365 client pour](/onedrive/find-your-office-365-tenant-id) plus d’informations.
+3. Allez sur le site web de votre opérateur pour commander et acquérir des numéros de téléphone. Pour trouver le site web de vos opérateurs, consultez le [Microsoft 365 de Connecter’annuaire.](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) Vous devez fournir votre ID de locataire. Si vous ne connaissez pas votre ID de locataire, voir Rechercher votre [ID](/onedrive/find-your-office-365-tenant-id) Microsoft 365 client pour plus d’informations.
 
-4. Une fois la commande terminée par votre opérateur, celui-là charge les numéros vers votre client. Vous pouvez afficher les numéros et le fournisseur dans le Centre d Teams’administration en vous > Téléphone **les numéros.** Affectez des numéros Connecter aux utilisateurs à l’aide du Centre Teams’administration de l’utilisateur ou de PowerShell. Pour plus d’informations, voir [Attribuer des numéros.](#assign-numbers)
+4. Une fois la commande terminée par votre opérateur, celui-là charge les numéros vers votre client. Vous pouvez afficher les numéros et le fournisseur dans le centre d Teams’administration en cantant sur les numéros > Téléphone **voix.** Affectez des numéros Connecter aux utilisateurs à l’aide du Centre Teams’administration de l’utilisateur ou de PowerShell. Pour plus d’informations, voir [Attribuer des numéros.](#assign-numbers)
 
 ### <a name="assign-numbers"></a>Attribuer des numéros
 
@@ -130,7 +130,7 @@ Dans **l’onglet Mes opérateurs,** vous pouvez afficher vos opérateurs et leu
 - Supprimer un opérateur
 
 > [!NOTE]
-> Avant de supprimer un opérateur de votre organisation ou d’un pays, vous devez supprimer tous les numéros de téléphone affectés à des utilisateurs de l’organisation ou du pays et contacter l’opérateur pour qu’il les publie.
+> Avant de supprimer un opérateur de votre organisation ou d’un pays, vous devez supprimer tous les numéros de téléphone affectés aux utilisateurs au niveau de l’organisation ou du pays et contacter l’opérateur pour qu’il relâche ces numéros.
 
 ## <a name="release-numbers"></a>Numéros de publication
 
@@ -138,8 +138,8 @@ Pour libérer des numéros de téléphone à partir Teams centre d’administrat
 
 - Si le numéro de téléphone n’est pas attribué à un utilisateur, sélectionnez **Publication.**
 
-- Si le numéro de téléphone est affecté à un utilisateur, vous devez désaffecter ce numéro. Sélectionnez **Modifier,** puis **Supprimer l’utilisateur.** Après avoir enregistrer vos modifications, sélectionnez **Publication.**
+- Si le numéro de téléphone est affecté à un utilisateur, vous devez désaffecter ce numéro. Sélectionnez **Modifier,** puis **supprimer l’utilisateur.** Après avoir enregistrer vos modifications, sélectionnez **Publication.**
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
-- [Planifier la mise Teams automatiques et des files d’attente d’appels](plan-auto-attendant-call-queue.md)
+- [Planifier les appels Teams automatiques et les files d’attente d’appels](plan-auto-attendant-call-queue.md)
