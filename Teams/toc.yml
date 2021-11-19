@@ -1641,6 +1641,8 @@ items:
             href: devices/device-management.md
           - name: Approvisionnement et connexion à distance
             href: devices/remote-provision-remote-login.md
+          - name: Connexion à distance et déconnexion
+            href: devices/remote-sign-in-and-sign-out.md
           - name: Mettre à niveau vos appareils à distance
             href: devices/remote-update.md
           - name: Gérer les balises d’appareils Teams
