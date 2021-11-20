@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Découvrez comment utiliser les paramètres de stratégie de réunion pour contrôler l’expiration d’une réunion Microsoft Teams.
-ms.openlocfilehash: b9399e9beaf364af7d2bdfa2e1c2b68ad5b6a018
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: 7912c57e12de83f112bb1c80b1c44d81d9d6b857
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887182"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124261"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Stratégies de réunion et expiration des réunions dans Microsoft Teams
 
@@ -149,7 +149,9 @@ Non, les tmrs migrés ne sont pas fournis avec un délai d’expiration défini 
 
 Lorsqu’un enregistrement ne parvient pas à être téléchargé sur OneDrive ou SharePoint, l’application Teams affiche un message dans la conversation que les utilisateurs ont jusqu’à 21 jours pour télécharger la tmR avant sa suppression définitive du serveur Teams. Cette expérience d’expiration existante en raison de l’échec des téléchargements de TMR n’est pas liée à la fonctionnalité d’expiration automatique OneDrive et SharePoint abordée dans le document d’aide.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
+
+[Modifier la date d’expiration des réunions - Contrôles de l’utilisateur final](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
 
 [Gérer les stratégies de réunion dans Teams](meeting-policies-overview.md)
 
@@ -157,4 +159,4 @@ Lorsqu’un enregistrement ne parvient pas à être téléchargé sur OneDrive o
 
 [Présentation de Teams PowerShell](teams-powershell-overview.md)
 
-[Modifier la date d’expiration d’une réunion - Support Microsoft](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
+

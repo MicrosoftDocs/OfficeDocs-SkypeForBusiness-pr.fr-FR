@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2e598a44fade1805824354606229668fb3494d3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d9c75d531cc2371c8ce5c6baf2eb22924129bbb6
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850577"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124241"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager
 
@@ -44,8 +44,6 @@ Voici les liens vers les fichiers MSI :
 **Pour garantir un déploiement réussi, prenez en compte les éléments suivants :**
 
 - Installez la version 64 bits de Teams sur les systèmes d’exploitation 64 bits. Si vous essayez d’installer la version 64 bits de Teams sur un système d’exploitation 32 bits, l’installation échouera et vous ne recevrez pas de message d’erreur.
-
-- Si le client se trouve sur les clouds GCCH ou DoD, le client doit définir le point de terminaison initial dans le registre en ajoutant la valeur **CloudType** à la clé **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** dans le registre. Le type de **CloudType** est **DWORD** et les valeurs sont (0 = non défini, 1 = commercial, 2 = GCC, 3 = GCCH, 4 = DOD). La définition du point de terminaison avec la clé de registre limite Teams à se connecter au point de terminaison cloud approprié pour la connectivité de pré-connexion avec Teams.
 
 - Teams peut également être inclus avec un déploiement de Microsoft 365 Apps for enterprise. Si vous souhaitez en savoir plus, consultez l’article [Déployer Microsoft Teams avec Microsoft 365 Apps for enterprise](/deployoffice/teams-install).
 

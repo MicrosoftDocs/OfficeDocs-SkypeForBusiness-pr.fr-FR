@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenez une vue d’ensemble des commandes de transfert et de la manière de transférer des numéros de téléphone de votre fournisseur de services vers Teams.
-ms.openlocfilehash: a6ff4bffe4602eca7150a9f6c8c1b69782646e7c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bb2c81a1c2263e59aee8477679440c7e26748c3a
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833028"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124271"
 ---
 # <a name="whats-a-port-order"></a>Qu’est-ce qu’une demande de transfert ?
 
@@ -31,7 +31,7 @@ Si vous êtes opérateur ou fournisseur de services téléphoniques et que vous 
   
 Une fois vos numéros de téléphone Teams, Microsoft devient votre fournisseur de services et vous pouvez déconnecter votre service auprès de votre ancien opérateur ou fournisseur de services.
 
-Examinez les informations de cet article pour vous familiariser avec le portage de numéro. Après cela, vous devriez être prêt à créer une demande de transfert et à transférer vos numéros de téléphone. Pour obtenir des instructions [détaillées, voir](transfer-phone-numbers-to-teams.md) Transférer des numéros de Teams des numéros de téléphone.
+Examinez les informations de cet article pour vous familiariser avec le portage de numéro. Après cela, vous devriez être prêt à créer une demande de transfert et à transférer vos numéros de téléphone. Pour obtenir des instructions [détaillées, consultez](transfer-phone-numbers-to-teams.md) la Teams transfert de numéros de téléphone.
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>Quels pays ou régions le portage de numéro est prise en charge ?
 
@@ -67,10 +67,10 @@ En règle générale, vous pouvez transférer n’importe quel numéro de télé
 
 - Skype Entreprise numéros de téléphone hybrides. Si vous souhaitez transférer ces numéros, envoyez-nous un e-mail à <ptn@microsoft.com> l’adresse .
 
-  **Vous ne pouvez pas transférer :**
+**Vous ne pouvez pas transférer :**
   
-    > [!NOTE]
-    > Pour le moment, vous ne pouvez pas transférer de numéros de téléphone qui ne sont pas en provenance d’un pays ou d’une région pris en charge, y compris les numéros de téléphone d’un fournisseur de téléphone VoIP. Pour obtenir la liste des régions et pays pris en charge, consultez la disponibilité des pays et régions pour les plans [d’audioconférence et d’appel.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> [!NOTE]
+> Pour le moment, vous ne pouvez pas transférer de numéros de téléphone qui ne sont pas en provenance d’un pays ou d’une région pris en charge, y compris les numéros de téléphone d’un fournisseur de téléphone VoIP. Pour obtenir la liste des régions et pays pris en charge, consultez la disponibilité des pays et régions pour les plans [d’audioconférence et d’appel.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - des numéros de téléphone utilisés pour les connexions de données, comme les lignes DSL ou les connexions Internet haut débit ;
 
@@ -80,8 +80,8 @@ En règle générale, vous pouvez transférer n’importe quel numéro de télé
 
     Si vous portez le numéro de téléphone vers Teams, vous pouvez affecter ce numéro de téléphone à un utilisateur de votre organisation au lieu de l’utiliser pour la télécopie.
 
-    > [!NOTE]
-    > Pour le moment, au Royaume-Uni, le transfert de numéros non géographiques au Royaume-Uni n’est pas prise en charge, y compris les numéros partagés pour les indicatifs régionaux 0843, 0844, 0845, 0870, 0871, 0872.
+> [!NOTE]
+> Pour le moment, au Royaume-Uni, le transfert de numéros non géographiques au Royaume-Uni n’est pas prise en charge, y compris les numéros partagés pour les indicatifs régionaux 0843, 0844, 0845, 0870, 0871, 0872.
   
 ## <a name="what-information-do-i-need-to-provide"></a>Quelles informations dois-je fournir ?
 
@@ -112,7 +112,7 @@ Vous devez par exemple envoyer une demande de transfert de numéro unique pour c
 
 - les numéros de téléphone mobile et
 
-- Des numéros de service qui peuvent être utilisés pour l’audioconférence dans Microsoft 365 ou Office 365.
+- Les numéros de service qui peuvent être utilisés pour l’audioconférence dans Microsoft 365 ou Office 365.
 
 Voici plus d’informations sur l’soumission des demandes de portage de numéros pour chacun de ces types de numéros :
   
@@ -140,9 +140,7 @@ Oui. Il vous suffit d'envoyer une demande de service incluant le GUID de client 
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>Puis-je faire appel à un Teams ou à un autre opérateur ou fournisseur de services téléphoniques ?
 
-Pour faire appel à un Teams un autre opérateur, vous devez envoyer une demande au nouvel opérateur. Vous devez également définir un code confidentiel de portage dans le Microsoft Teams d’administration.
-
-Pour définir votre code confidentiel de portage, dans le navigation gauche du Centre d’administration Microsoft Teams, sélectionnez Numéros de la Téléphone vocale. Dans le coin supérieur droit de la page, sélectionnez Gérer le code confidentiel de portage, puis entrez un code confidentiel à  >  10 chiffres. 
+Pour faire appel à un Teams un autre opérateur, vous devez envoyer une demande au nouvel opérateur. Vous devrez également définir un code confidentiel de portage en ouvrant un cas de support. Pour plus d’informations sur l’accès au support, voir [Obtenir de l’aide.](/microsoft-365/business-video/get-help-support) 
 
 Lorsque votre nouvel opérateur nous contactera avec la demande de portage, nous lui demanderons de fournir le code confidentiel que vous avez défini.
 
