@@ -22,26 +22,31 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: 7b12dfacc5b9bd6ebe5bb0e3de17a40bb0148ef0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8e8ecc32d35aac6fb6bc504df1a8d00520b4578c
+ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839736"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "61129864"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
 En tant qu'administrateur, vous utilisez les paramètres de réunions Teams pour contrôler si les utilisateurs anonymes peuvent participer à des réunions Teams, personnaliser des invitations aux réunions et, si vous voulez activer la fonctionnalité Qualité de Service (QoS), configurer les plages de ports pour le trafic en temps réel. Ces paramètres s'appliquent à toutes les réunions Teams que les utilisateurs planifient dans votre organisation. Vous pouvez gérer ces paramètres à partir de **Réunions** > **Paramètres de réunions** dans le Centre d’administration Microsoft Teams.
 
+Depuis novembre 2021, les administrateurs peuvent également contrôler si des utilisateurs ou des groupes d’utilisateurs spécifiques peuvent autoriser les utilisateurs anonymes à rejoindre les réunions qu’ils organisent. Cette stratégie par organisateur est plus restrictive et remplace les paramètres utilisateur anonymes à l’échelle de l’organisation ci-dessous que les administrateurs gèrent dans le Centre d’administration Teams.
+
+> [!Important]
+ > **DesableAnonymousJoin** est le paramètre de stratégie à l’échelle de l’organisation. Elle sera déconseillée à l’avenir, puis la stratégie par organisateur sera la seule façon de contrôler la participation anonyme.
+
 ## <a name="allow-anonymous-users-to-join-meetings"></a>Autoriser des utilisateurs anonymes à participer aux réunions
 
-Avec l'association de façon anonyme, tout le monde peut participer à la réunion en tant qu’utilisateur anonyme en cliquant sur le lien dans l’invitation à la réunion. Pour en savoir plus, voir [Rejoindre une réunion sans disposer de compte Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
+Avec l'association de façon anonyme, tout le monde peut participer à la réunion en tant qu’utilisateur anonyme en cliquant sur le lien dans l’invitation à la réunion. Pour en savoir plus, voir [Rejoindre une réunion sans disposer de compte Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508). Vous pouvez contrôler la capacité des utilisateurs anonymes à participer à des réunions au niveau de votre organisation, ou par organisateur de réunion à l’aide de deux paramètres de stratégie différents.
 
- **Utiliser le centre d’administration Microsoft Teams**
+ ### <a name="using-the-microsoft-teams-admin-center-to-configure-organization-wide-policy"></a>Utilisation du Centre d’administration Microsoft Teams pour configurer la stratégie à l’échelle de l’organisation
 
-Vous devez être un administrateur du service Teams pour apporter ces modifications. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](./using-admin-roles.md) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
+Vous devez être un administrateur Teams pour apporter ces modifications. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](./using-admin-roles.md) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
 
-1. Accédez au centre d’administration.
+1. Accédez au [Centre d’administration Teams](https://admin.teams.microsoft.net).
 
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
 
@@ -51,6 +56,22 @@ Vous devez être un administrateur du service Teams pour apporter ces modificati
 
 > [!CAUTION]
 > Si vous ne voulez pas que les utilisateurs anonymes joignent des réunions planifiées par les utilisateurs de votre organisation, désactivez ce paramètre.
+
+### <a name="using-powershell-to-configure-per-organizer-policy"></a>Utilisation de PowerShell pour configurer la stratégie par organisateur
+
+Les administrateurs peuvent désormais contrôler si des utilisateurs ou des groupes d’utilisateurs spécifiques peuvent autoriser des utilisateurs anonymes à rejoindre les réunions qu’ils organisent. Cette nouvelle stratégie par organisateur est contrôlée à l’aide du paramètre **AllowAnonymousUsersToJoinMeeting** dans [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps). Cette version est disponible avec Teams PowerShell version 2.6.0 et ultérieure.
+
+Vous pouvez utiliser une stratégie, à l’échelle de l’organisation ou par organisateur, pour gérer la participation anonyme. Nous vous recommandons d’implémenter la stratégie par organisateur. Le paramètre de stratégie à l’échelle de l’organisation sera déconseillé à l’avenir et la stratégie par organisateur sera la seule façon de contrôler la participation anonyme.
+
+Dans la mesure où les stratégies à l’échelle de l’organisation et par organisateur contrôlent la jointure anonyme, le paramètre le plus restrictif sera effectif. Par exemple, si vous n’autorisez pas la participation anonyme au niveau de l’organisation, il s’agira de votre stratégie effective, indépendamment de ce que vous configurez pour la stratégie par organisateur. Par conséquent, pour permettre aux utilisateurs anonymes de participer à des réunions, vous devez configurer les deux stratégies pour autoriser la participation anonyme en définissant les valeurs suivantes :
+
+- **DisableAnonymousJoin** défini sur **$false**
+- **AlowAnonymousUsersToJoinMeeting** défini sur **$true**
+
+Toute autre combinaison de valeurs empêche les utilisateurs anonymes de rejoindre des réunions.
+> [!NOTE]
+> Pour utiliser la stratégie par organisateur pour les organisations dont la participation anonyme est désactivée par organisation, les administrateurs doivent créer une stratégie, puis l’affecter aux utilisateurs. Pour savoir comment procéder, consultez [Gérer les stratégies de réunion dans Microsoft Teams](/microsoftteams/meeting-policies-overview).
+
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>Autoriser les utilisateurs anonymes à interagir avec les applications dans les réunions
 
