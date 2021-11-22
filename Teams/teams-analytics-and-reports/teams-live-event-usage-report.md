@@ -17,12 +17,12 @@ description: Découvrez comment utiliser le rapport d’utilisation Teams d’é
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 504c8822146efa7101ca1435cab961a86068ccaf
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 2e2b9d4a9f60b905e03ee27397e24feb74ac3c17
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959893"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135227"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams d’utilisation d’événements en direct
 
@@ -48,7 +48,9 @@ Le Teams d’utilisation des événements en direct dans le centre Microsoft Tea
 |**5**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau.|
 
 ## <a name="notes"></a>Remarques
-Nous montrons jusqu’à 100 événements en direct qui correspondent aux critères du rapport actuel. Pour voir davantage d’événements en direct, appliquez des filtres de date afin de réduire la taille de la liste. 
+Nous montrons jusqu’à 100 événements en direct qui correspondent aux critères du rapport actuel. Pour voir davantage d’événements en direct, appliquez des filtres de date afin de réduire la taille de la liste.
+
+Les présentateurs anonymes ne seront pas inclus dans le rapport.
 
 Toute personne qui regarde l’enregistrement de l’événement ou de l’événement à la demande ne figure pas dans le nombre d’affichages. 
 
@@ -60,7 +62,7 @@ La page des détails de l’événement en direct offre un résumé des détails
 
 Si votre organisation est [](https://www.hivestreaming.com/partners/integration-partners/microsoft/) activée pour la ruche eCDN ou l’eCDN [Kollective,](https://kollective.com) vous pouvez obtenir des données d’analyse des participants supplémentaires en cliquant sur le lien du rapport partenaire.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Analyses et rapports Teams](teams-reporting-reference.md)
 - [Que sont les événements en direct Teams ?](../teams-live-events/what-are-teams-live-events.md)
