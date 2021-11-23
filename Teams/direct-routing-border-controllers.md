@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez quels contrôleurs de frontière de session (SBC) ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5dd419bab9fbe885d3d361d2fdb19758bd392e3
-ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
+ms.openlocfilehash: 97f8ffbf6613ca4106a68284c8e889375a7b0feb
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "60275578"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135197"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -37,7 +37,7 @@ Microsoft collabore avec chaque fournisseur pour :
 - Établissez un processus de support commun avec les fournisseurs SBC.
 
   > [!NOTE]
-  > Microsoft prend uniquement en charge le système téléphonique si un ou plusieurs appareils certifiés sont connectés via le routage direct. Microsoft se réserve le droit de rejeter les cas de support où un appareil non certifié est connecté au système téléphonique via le routage direct. Si Microsoft détermine que le problème de routage direct d’un client concerne l’appareil SBC d’un fournisseur, le client devra contacter le fournisseur SBC pour obtenir de l’aide.
+  > Microsoft prend uniquement en charge le système téléphonique si un ou plusieurs appareils certifiés sont connectés via le routage direct. En cas de problème, le client doit d’abord contacter le support technique des fournisseurs SBC. Si nécessaire, le fournisseur SBC fait remonter le problème à Microsoft via des canaux internes. Microsoft se réserve le droit de rejeter les cas de support où un appareil non certifié est connecté au système téléphonique via le routage direct. Si Microsoft détermine que le problème de routage direct d’un client concerne l’appareil SBC d’un fournisseur, le client devra contacter de nouveau le fournisseur SBC pour obtenir de l’aide.
   >
   > La certification est accordée à des versions de microprogramme SBC spécifiques. Les versions de microprogramme SBC ci-dessous sont certifiées et prises en charge. Les versions de microprogramme supérieures à celles qui sont documentées sont prises en charge tant que la version principale.mineure est identique.
   >
