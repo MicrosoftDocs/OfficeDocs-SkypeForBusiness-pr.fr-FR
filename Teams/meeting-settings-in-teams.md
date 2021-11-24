@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: 8e8ecc32d35aac6fb6bc504df1a8d00520b4578c
-ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
+ms.openlocfilehash: a4a2eea55336639925d8c07c00ded4057456e1ff
+ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "61129864"
+ms.lasthandoff: 11/24/2021
+ms.locfileid: "61153307"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
 En tant qu'administrateur, vous utilisez les paramètres de réunions Teams pour contrôler si les utilisateurs anonymes peuvent participer à des réunions Teams, personnaliser des invitations aux réunions et, si vous voulez activer la fonctionnalité Qualité de Service (QoS), configurer les plages de ports pour le trafic en temps réel. Ces paramètres s'appliquent à toutes les réunions Teams que les utilisateurs planifient dans votre organisation. Vous pouvez gérer ces paramètres à partir de **Réunions** > **Paramètres de réunions** dans le Centre d’administration Microsoft Teams.
 
-Depuis novembre 2021, les administrateurs peuvent également contrôler si des utilisateurs ou des groupes d’utilisateurs spécifiques peuvent autoriser les utilisateurs anonymes à rejoindre les réunions qu’ils organisent. Cette stratégie par organisateur est plus restrictive et remplace les paramètres utilisateur anonymes à l’échelle de l’organisation ci-dessous que les administrateurs gèrent dans le Centre d’administration Teams.
+Grâce à un paramètre de stratégie par organisateur, les administrateurs peuvent désormais contrôler si des utilisateurs spécifiques ou des groupes d’utilisateurs peuvent laisser des utilisateurs anonymes rejoindre les réunions qu’ils organisent. Les paramètres de stratégie par organisateur et à l’échelle de l’organisation contrôlent tous les deux l’adhésion anonyme et l’application la plus restrictive prend effet.
 
 > [!Important]
  > **DesableAnonymousJoin** est le paramètre de stratégie à l’échelle de l’organisation. Elle sera déconseillée à l’avenir, puis la stratégie par organisateur sera la seule façon de contrôler la participation anonyme.
