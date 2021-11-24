@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lisez cette rubrique pour plus d’informations sur le déploiement d’Salles Microsoft Teams avec Microsoft 365 ou Office 365, où Teams, Skype Entreprise et Exchange sont tous les deux en ligne.
-ms.openlocfilehash: cf323332b6c9b7742a2a10a12017553f462b8619
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 948287d8a5711e1643605d147d1b25b28d764a42
+ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846077"
+ms.lasthandoff: 11/24/2021
+ms.locfileid: "61153297"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Déployer des Salles Microsoft Teams avec Microsoft 365 ou Office 365
 
@@ -34,7 +34,7 @@ Avant de déployer des Salles Microsoft Teams avec Microsoft 365 ou Office 365, 
 
 Pour activer Skype Entreprise, vous devez avoir les contrôles suivants :
 
-- Skype Entreprise En ligne (plan 2 ou Enterprise plan basé sur un plan supérieur) ou version Microsoft 365 ou Office 365 plan. Le plan doit autoriser les fonctionnalités de conférences téléphoniques.
+- Skype Entreprise Online (plan 2 ou Enterprise)) ou une offre Microsoft 365 ou une offre Office 365 plan. Le plan doit autoriser les fonctionnalités de conférences téléphoniques.
 
 - Si vous avez besoin de fonctionnalités de connexion à partir d’une réunion, vous avez besoin d’une licence d’audioconférence et Système téléphonique conférence.  Si vous avez besoin de fonctionnalités d’appel sortant pour une réunion, vous avez besoin d’une licence d’audioconférence.
 
@@ -98,17 +98,17 @@ Pour plus d’informations sur Skype Entreprise de services en ligne, voir la [d
 
    - AddAdditionalResponse: $true (Le texte spécifié par le paramètre AdditionalResponse est ajouté aux demandes de réunion.)
 
-   - Réponse supplémentaire : « Il s’agit d’Réunion Skype salle de réunion ! » (Texte supplémentaire à ajouter à la demande de réunion.
+   - Réponse supplémentaire : « Il s’agit d’Microsoft Teams salle de réunion ! » (Texte supplémentaire à ajouter à la demande de réunion.
 
    Cet exemple configure ces paramètres sur la boîte aux lettres de salle rigel-01.
 
    ``` PowerShell
-   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
    ```
 
    Pour plus d’informations sur la syntaxe et les paramètres, [voir Set-CalendarProcessing.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
 
-4. Connecter sur MS Online PowerShell pour définir les paramètres Active Directory en exécutant `Connect-MsolService -Credential $cred` l’cmdlet PowerShell. Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+4. Connecter sur MS Online PowerShell pour définir les paramètres Active Directory en exécutant `Connect-MsolService -Credential $cred` le Cmdlet PowerShell. Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0 n’est](/powershell/azure/active-directory/overview?view=azureadps-2.0) pas pris en charge.
@@ -232,4 +232,4 @@ Pour validation, vous devez être en mesure d’utiliser n’importe quel client
 
 [Gérer les Salles Microsoft Teams](rooms-manage.md)
 
-[Salles Microsoft Teams Gestion des licences](rooms-licensing.md)
+[Salles Microsoft Teams licences Salles Microsoft Teams licences](rooms-licensing.md)
