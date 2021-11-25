@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour l’audio et la vidéo.
-ms.openlocfilehash: 27153896065d3358927755d3cd1b303c2b1141a0
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 9cd2a82c87106e8060d168766915e4249b9193a5
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984619"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61177995"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Paramètres de stratégie de réunion pour l’audio & vidéo
 
@@ -35,7 +35,7 @@ Cet article décrit les paramètres de stratégie de réunion spécifiques à l�
 
 - [Mode pour l’audio sur IP](#mode-for-ip-audio)
 - [Mode pour la vidéo sur IP](#mode-for-ip-video)
-- [Autoriser la vidéo sur IP](#allow-ip-video)
+- [Ip Video](#ip-video)
 - [Vitesse de transmission du média (Ko)](#media-bit-rate-kbs)
 - [Mode filtres vidéo](#video-filters-mode)
 - [Autoriser les paramètres d’arrière-plan personnalisés](#allow-custom-background-settings)
@@ -73,11 +73,11 @@ Ce paramètre ne s’applique pas non plus aux appareils de salle de conférence
 Ce paramètre n’est pas encore disponible pour les environnements Microsoft 365 Cloud de la communauté du secteur public(GCC), GCC High ou Department of Defense (DoD).
 
 > [!NOTE]
-> Gardez à l’esprit que ce paramètre contrôle à la fois la vidéo sortante et la vidéo entrante, tandis que la **Autoriser la vidéo sur IP** contrôle la vidéo sortante. Pour plus d’informations, consultez [Quelle stratégie de vidéo sur IP est prioritaire ?](#which-ip-video-policy-setting-takes-precedence) et [Gérer l'audio/vidéo pour les participants à la réunion](#manage-audiovideo-for-meeting-participants).
+> Gardez à l’esprit que ce paramètre contrôle la vidéo sortante et entrante, tandis que le paramètre de vidéo **IP** contrôle la vidéo sortante. Pour plus d’informations, consultez [Quelle stratégie de vidéo sur IP est prioritaire ?](#which-ip-video-policy-setting-takes-precedence) et [Gérer l'audio/vidéo pour les participants à la réunion](#manage-audiovideo-for-meeting-participants).
 
 Pour plus d’informations, consultez [Gérer l’audio/vidéo pour les participants à la réunion](#manage-audiovideo-for-meeting-participants).
 
-### <a name="allow-ip-video"></a>Autoriser la vidéo sur IP
+### <a name="ip-video"></a>Ip Video
 
 Il s’agit d’une combinaison d’une stratégie par organisateur et par utilisateur. La vidéo est un composant essentiel pour les réunions. Dans certaines organisations, il est possible que les administrateurs souhaitent plus de contrôle sur les réunions des utilisateurs qui ont une vidéo. Ce paramètre contrôle si la vidéo peut être activée dans les réunions organisées par un utilisateur et dans les appels en tête en tête et de groupe lancés par un utilisateur. Sur Teams clients mobiles, ce paramètre contrôle si les utilisateurs peuvent partager des photos et des vidéos dans une réunion.
 
@@ -92,7 +92,7 @@ Les réunions organisées par un utilisateur pour lequel ce paramètre de strat�
 
 Examinons l’exemple suivant.
 
-|Utilisateur |Stratégie de réunion  |Autoriser la vidéo sur IP |
+|Utilisateur |Stratégie de réunion  |Ip Video |
 |---------|---------|---------|
 |Daniela   | Global   | Activé       |
 |Geneviève    | Location1MeetingPolicy        | Désactivé      |
@@ -109,22 +109,22 @@ Pour plus d’informations, consultez [Gérer l’audio/vidéo pour les particip
 
 Pour un utilisateur, le paramètre de stratégie le plus restrictif pour la vidéo est prioritaire. Voici quelques exemples.
 
-|Autoriser la vidéo sur IP|Mode pour la vidéo sur IP|Expérience de réunion|
+|Ip Video|Mode pour la vidéo sur IP|Expérience de réunion|
 |---------|---------|---------|
 |Organisateur : **Activé**<br><br>Participant : **Activé** |Participant : **Désactivé**        |Le paramètre **Mode pour vidéo sur IP** est prioritaire. Le participant auquel cette stratégie est attribuée ne peut pas activer ou afficher les vidéos partagées par d’autres personnes.|
 |Organisateur : **Activé**<br><br>Participant : **Activé** |Participant : **Vidéo sortante et entrante activée**          |Le participant auquel cette stratégie est attribuée peut activer ou afficher les vidéos partagées par d’autres personnes.         |
-|Organisateur : **Activé**<br><br>Participant : **Désactivé** |Participant : **Vidéo sortante et entrante activée**         |Le paramètre **Autoriser la vidéo sur IP** est prioritaire. Les participants peuvent uniquement afficher la vidéo entrante et ne peuvent pas envoyer de vidéo sortante.         |
+|Organisateur : **Activé**<br><br>Participant : **Désactivé** |Participant : **Vidéo sortante et entrante activée**         |Le **paramètre de vidéo IP** est prioritaire. Les participants peuvent uniquement afficher la vidéo entrante et ne peuvent pas envoyer de vidéo sortante.         |
 |Organisateur : **Activé**<br><br>Participant : **Désactivé** |Participant : **Désactivé**         |Le paramètre **Mode pour vidéo sur IP** est prioritaire. Le participant ne peut pas afficher la vidéo entrante ou sortante.|
-|Organisateur : **Désactivé**    |       |Le paramètre **Autoriser la vidéo sur IP** est prioritaire, car il est désactivé pour l’organisateur. Personne ne peut activer la vidéo pendant les réunions organisées par l’utilisateur auquel cette stratégie est attribuée.         |
+|Organisateur : **Désactivé**    |       |Le **paramètre de vidéo IP** est prioritaire, car il est désactivé par l’organisateur. Personne ne peut activer la vidéo pendant les réunions organisées par l’utilisateur auquel cette stratégie est attribuée.         |
 
 ### <a name="manage-audiovideo-for-meeting-participants"></a>Gérer l’audio/vidéo pour les participants à la réunion
 
 |Si vous souhaitez...  |Configurer les paramètres de stratégie suivants  |
 |---------|---------|
-|Désactiver l’audio et la vidéo pour les participants aux réunions  |Mode pour l’audio sur IP : **Désactivé**<br> Mode pour la vidéo sur IP : **Désactivé**<br>Autoriser la vidéo sur IP : N/A       |
-|Activer uniquement les éléments audio et vidéo entrants pour les participants aux réunions  |Mode pour l’audio sur IP : **Audio sortant et entrant activé**<br> Mode pour la vidéo sur IP : **Vidéo sortante et entrante activée**<br>Autoriser la vidéo sur IP : **Désactivé**       |
-|Désactiver la vidéo pour les participants aux réunions (les participants ont un son uniquement)|  Mode pour l’audio sur IP : **Activer l’audio sortant et entrant**<br> Mode pour la vidéo sur IP : **Désactivé**<br>Autoriser la vidéo sur IP : N/A
-|Activer l’audio et la vidéo pour les participants aux réunions    |Mode pour l’audio sur IP : **Audio sortant et entrant activé** (par défaut)<br> Mode pour la vidéo sur IP : **Vidéo sortante et entrante activée** (par défaut)<br>Autoriser la vidéo sur IP : **Activé** (par défaut)    |
+|Désactiver l’audio et la vidéo pour les participants aux réunions  |Mode pour l’audio sur IP : **Désactivé**<br> Mode pour la vidéo sur IP : **Désactivé**<br>Vidéo IP : N/A       |
+|Activer uniquement les éléments audio et vidéo entrants pour les participants aux réunions  |Mode pour l’audio sur IP : **Audio sortant et entrant activé**<br> Mode pour la vidéo sur IP : **Vidéo sortante et entrante activée**<br>Vidéo IP : **non enregistrée**       |
+|Désactiver la vidéo pour les participants aux réunions (les participants ont un son uniquement)|  Mode pour l’audio sur IP : **Activer l’audio sortant et entrant**<br> Mode pour la vidéo sur IP : **Désactivé**<br>Vidéo IP : N/A
+|Activer l’audio et la vidéo pour les participants aux réunions    |Mode pour l’audio sur IP : **Audio sortant et entrant activé** (par défaut)<br> Mode pour la vidéo sur IP : **Vidéo sortante et entrante activée** (par défaut)<br>Vidéo IP : **Sous (par** défaut)    |
 
 La stratégie la plus restrictive entre la stratégie de l’organisateur de la réunion et la stratégie de l’utilisateur s’applique. Par exemple, si un organisateur a une stratégie qui restreint la vidéo et que la stratégie d’un utilisateur ne limite pas la vidéo, les participants à la réunion héritent de la stratégie de l’organisateur de la réunion et n’ont pas accès à la vidéo dans les réunions. Cela signifie qu’ils peuvent participer à la réunion avec le son uniquement.
 
@@ -133,7 +133,7 @@ La stratégie la plus restrictive entre la stratégie de l’organisateur de la 
 
 #### <a name="teams-mobile-clients"></a>Clients mobiles Teams
 
-Pour les utilisateurs sur les clients mobiles Teams, la possibilité de partager des photos et des vidéos pendant une réunion est également déterminée par le paramètre **Autoriser la vidéo sur IP** ou **Mode vidéo sur IP**. Selon le paramètre de stratégie prioritaire, la possibilité de partager des vidéos et des photos ne sera pas disponible. Cela n’affecte pas le partage d’écran, que vous configurez à l’aide d’un paramètre [Mode de partage d’écran](meeting-policies-content-sharing.md#screen-sharing-mode) séparé. De plus, vous pouvez définir une [Stratégie de mobilité Teams](/powershell/module/skype/new-csteamsmobilitypolicy) pour empêcher les utilisateurs mobiles d’utiliser une vidéo sur IP via une connexion cellulaire, ce qui signifie qu’ils doivent utiliser une connexion WiFi.
+Pour les utilisateurs Teams clients mobiles, la possibilité de partager des photos et des vidéos pendant une réunion est également déterminée par le paramètre du mode **ip** vidéo ou **IP** vidéo. Selon le paramètre de stratégie prioritaire, la possibilité de partager des vidéos et des photos ne sera pas disponible. Cela n’affecte pas le partage d’écran, que vous configurez à l’aide d’un paramètre [Mode de partage d’écran](meeting-policies-content-sharing.md#screen-sharing-mode) séparé. De plus, vous pouvez définir une [Stratégie de mobilité Teams](/powershell/module/skype/new-csteamsmobilitypolicy) pour empêcher les utilisateurs mobiles d’utiliser une vidéo sur IP via une connexion cellulaire, ce qui signifie qu’ils doivent utiliser une connexion WiFi.
 
 ### <a name="media-bit-rate-kbs"></a>Vitesse de transmission du média (Ko)
 
@@ -153,7 +153,7 @@ Vous pouvez utiliser le Centre Teams’administration et PowerShell pour défini
 
 Pour spécifier si les utilisateurs peuvent personnaliser leur arrière-plan vidéo dans une réunion, définissez le paramètre **VideoFiltersMode** (sélectionnez le paramètre de filtres vidéo dans le Centre d’administration Teams) comme suit :
 
-|Définition de la valeur dans PowerShell|Définition de la valeur dans Teams d’administration |Comportement  |
+|Définition de la valeur dans PowerShell|Définition d’une valeur dans Teams d’administration |Comportement  |
 |---------|---------|---------|
 |**NoFilters** |**Aucun filtre**    |L'utilisateur ne peut pas personnaliser l'arrière-plan vidéo.|
 |**BlurOnly**     |**Flou d’arrière-plan uniquement**|L'utilisateur a la possibilité de flouter l'arrière-plan de la vidéo. |
@@ -169,7 +169,7 @@ Vous pouvez ajouter des images d’arrière-plan personnalisées à utiliser par
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Sélectionnez **Stratégies de**  >  **réunion , Personnaliser** les images de  >  **réunion.**
+2. Sélectionnez **Stratégies de**  >  **réunion Personnaliser** les images de  >  **réunion.**
 
    ![Sélection des stratégies de réunion avec le bouton Personnaliser les images de réunion mis en évidence.](media/custom-background-image-button.png)
 
@@ -184,7 +184,7 @@ Vous pouvez ajouter des images d’arrière-plan personnalisées à utiliser par
    - Taille minimale 360 px
    - Taille maximale 2 048 px
    - Type de fichier PNG, JPG ou BMP
-   - Vous pouvez charger jusqu’à 50 images
+   - Vous pouvez charger au maximum 50 images
 
 7. Affichez un aperçu des images que vous avez sélectionnées, puis sélectionnez **Fermer.**
 

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams partage de contenu.
-ms.openlocfilehash: 2bd3a4274a147cad8548d0abf84a312ee7f6f259
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 6c713800aa0f95c7adfd6655455e6ff332f91595
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605620"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205314"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Paramètres de stratégie de réunion : partage de contenu
 
@@ -35,9 +35,9 @@ Cet article décrit les paramètres de stratégie de réunion suivants concernan
 - [Mode de partage d’écran](#screen-sharing-mode)
 - [Autoriser un participant à donner ou demander le contrôle](#allow-a-participant-to-give-or-request-control).
 - [Autoriser un participant externe à donner ou demander le contrôle](#allow-an-external-participant-to-give-or-request-control)
-- [Autoriser le partage de PowerPoint](#allow-powerpoint-sharing)
-- [Autoriser le tableau blanc](#allow-whiteboard)
-- [Autoriser les notes partagées](#allow-shared-notes)
+- [PowerPoint partage](#powerpoint-sharing)
+- [Tableau blanc](#whiteboard)
+- [Notes partagées](#shared-notes)
 
 ## <a name="screen-sharing-mode"></a>Mode de partage d’écran
 
@@ -99,39 +99,39 @@ La possibilité pour les utilisateurs fédérés de donner le contrôle à des u
 
 Pour utiliser PowerShell afin de contrôler si les participants externes peuvent transmettre des demandes de contrôle ou d’acceptation, utilisez l’applet de commande AllowExternalParticipantGiveRequestControl.
 
-### <a name="allow-powerpoint-sharing"></a>Autoriser le partage de PowerPoint
+### <a name="powerpoint-sharing"></a>PowerPoint partage
 
 Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si l’utilisateur peut partager des diapositives PowerPoint dans une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, invités et fédérés, héritent de la stratégie de l’organisateur de la réunion.
 
 Examinons l’exemple suivant.
 
-|Utilisateur |Stratégie de réunion  |Autoriser le partage de PowerPoint |
+|Utilisateur |Stratégie de réunion  |PowerPoint partage |
 |---------|---------|---------|
 |Daniela   | Global   | Activé       |
 |Geneviève   | Location1MeetingPolicy        | Désactivé   |
 
 Amanda ne peut pas partager les diapositives PowerPoint dans les réunions, même si elle est l’organisatrice de la réunion. Daniela peut partager des diapositives PowerPoint, même si la réunion est organisée par Amanda. Amanda peut afficher les diapositives PowerPoint partagées par d’autres personnes pendant la réunion, même si elles ne peuvent pas partager les diapositives PowerPoint.
 
-## <a name="allow-whiteboard"></a>Autoriser le tableau blanc
+## <a name="whiteboard"></a>Tableau blanc
 
 Ce paramètre est une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut partager le tableau blanc pendant une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, B2B et fédérés, héritent de la stratégie de l’organisateur de la réunion.
 
 Examinons l’exemple suivant.
 
-|Utilisateur |Stratégie de réunion  |Autoriser le tableau blanc|
+|Utilisateur |Stratégie de réunion  |Tableau blanc|
 |---------|---------|---------|
 |Daniela   | Global   | Activé       |
 |Geneviève   | Location1MeetingPolicy        | Désactivé   |
 
 Amanda ne peut pas partager le tableau blanc pendant une réunion, même si elle est l’organisatrice de la réunion. Daniela peut partager le tableau blanc même si une réunion est organisée par Amanda.  
 
-## <a name="allow-shared-notes"></a>Autoriser les notes partagées
+## <a name="shared-notes"></a>Notes partagées
 
 Ce paramètre est une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut créer et partager des notes pendant une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, B2B et fédérés, héritent de la stratégie de l’organisateur de la réunion. L’onglet **Notes de réunion** n’est pas pris en charge pour l’instant pour les réunions ayant moins de 20 participants.
 
 Examinons l’exemple suivant.
 
-|Utilisateur |Stratégie de réunion  |Autoriser les notes partagées |
+|Utilisateur |Stratégie de réunion  |Notes partagées |
 |---------|---------|---------|
 |Daniela   | Global   | Activé       |
 |Geneviève   | Location1MeetingPolicy | Désactivé |

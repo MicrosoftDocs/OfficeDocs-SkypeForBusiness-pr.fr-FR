@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01335cce21a4550158f3c87da12c8a23166a39de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1fbcadfefffe40bbd7c2919f269185b8116b7237
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624806"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205274"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams
 
@@ -68,7 +68,7 @@ Le tableau suivant fournit un aide-mémoire utile sur la disponibilité de la fo
 
 <sup>8</sup> Vous devez remplir les conditions énumérées dans la section [Configuration requise pour créer et afficher des réunions pour les boîtes aux lettres hébergées localement](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises).
 
-<sup>9</sup> Au minimum, une licence Exchange Online plan 1 est également requise. Pour plus d’informations, voir Rechercher des Teams conversation instantanée pour [les utilisateurs locaux.](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
+<sup>9</sup> Au minimum, une licence Exchange Online plan 1 est également requise. Pour plus d’informations, [voir Rechercher des Teams de conversation instantanée pour les utilisateurs locaux.](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
 
 <sup>10</sup> utilisateurs locaux peuvent utiliser des Teams pour mettre à jour leur image de profil, même si la Outlook de la stratégie de boîte aux lettres `SetPhotoEnabled` web est définie sur `false` .
 
@@ -110,7 +110,7 @@ Si les boîtes aux lettres sont hébergées localement, pour créer et afficher 
 
 Pour activer la délégation de calendrier pour ces utilisateurs :
 
-- Vous devez également effectuer les étapes décrites dans la procédure Configurer l’intégration et [oAuth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)entre Skype Entreprise Online et Exchange Server ; ces étapes donnent à l’application Teams de planification les autorisations requises pour confirmer les autorisations accordées aux délégués.
+- Vous devez également effectuer les étapes décrites dans configurer l’intégration et [l’auth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)entre Skype Entreprise Online et Exchange Server ; ces étapes fournissent à l’application de planification Teams les autorisations requises pour confirmer les autorisations de délégué.
  
   > [!NOTE]
   > L’étape 2 inclut l’attribution de rôles pour ArchiveApplication, laquelle n’est pas requise pour la délégation.
@@ -125,7 +125,7 @@ Voice quelques éléments supplémentaires à considérer lorsque vous implémen
 
 - Elles contrôlent et protègent la configuration des stratégies de conformité dans Teams et Exchange en utilisant l’accès conditionnel. Pour plus d’informations, voir [Comment fonctionnent les stratégies d’accès conditionnel pour Teams ?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- Si votre organisation a des exigences en matière de conformité pour s’assurer que toutes les discussions en réunion puissent être découvertes, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres Exchange locale. Pour plus d’informations, voir [Autoriser la planification des réunions privées](./meeting-policies-in-teams-general.md#allow-scheduling-private-meetings).
+- Si votre organisation a des exigences en matière de conformité pour s’assurer que toutes les discussions en réunion puissent être découvertes, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres Exchange locale. Pour plus d’informations, [voir Private meeting scheduling (Planification de réunion privée).](./meeting-policies-in-teams-general.md#private-meeting-scheduling)
 
 - Dans un déploiement hybride Exchange, le contenu des messages de conversation est interrogeable, que les participants à la conversation aient une boîte aux lettres basée dans le cloud ou une boîte aux lettres locale. Pour en savoir plus, lire [Recherche de boîtes aux lettres sur le cloud des utilisateurs locaux](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Pour découvrir le recherche de contenu dans Teams, lire [Recherche de contenu dans le Centre de conformité Microsoft 365](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 

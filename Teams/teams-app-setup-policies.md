@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 4942ae39b8ca5d067bd5b98ad2780cd0db78422d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: aebf812b7362f5f7572e9b8fabb9e88754118438
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844947"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205294"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -60,10 +60,10 @@ Pour créer une stratégie de configuration d’application afin d’épingler d
 
 3. Entrez un nom pour votre stratégie, ainsi qu’une description.
 
-4. Activer ou désactiver l’épinglage d’utilisateurs, selon que vous voulez ou non permettre aux utilisateurs de personnaliser leur barre d’application en épinglage d’applications.
+4. Activer ou désactiver l’épinglage d’utilisateurs, selon que vous souhaitez ou non que les utilisateurs personnalisent leur barre d’application en épinglage d’applications.
 
    > [!NOTE]
-   > Le  paramètre Autoriser l’épinglage d’utilisateur est disponible dans le Centre d’administration Teams dans les environnements Microsoft 365 Cloud de la communauté du secteur public (Cloud de la communauté du secteur public) (Cloud de la communauté du secteur public, Cloud de la communauté du secteur public Haute et DoD), mais actuellement, il n’a aucun effet.
+   > Le **paramètre d’épinglage** utilisateur est disponible dans le Centre Teams’administration dans Microsoft 365 Cloud de la communauté du secteur public (Cloud de la communauté du secteur public) environnements ( Cloud de la communauté du secteur public, Cloud de la communauté du secteur public Haut et DoD), mais actuellement, il n’a aucun effet.
 
 5. Sous **Applications épinglées,** **sélectionnez Ajouter des applications.**
 
@@ -205,11 +205,11 @@ Avec les clients mobiles Teams, les utilisateurs peuvent voir les principales ap
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>Les utilisateurs peuvent-ils modifier l’ordre des applications épinglées via une stratégie ?
 
-Les utilisateurs peuvent modifier l’ordre de leurs applications épinglées sur Teams clients de bureau et mobiles si l’option Autoriser **l’épinglage** utilisateur est désactivée. Les utilisateurs ne peuvent pas modifier l’ordre de leurs applications épinglées sur Teams clients web.
+Les utilisateurs peuvent modifier l’ordre de leurs applications épinglées sur Teams clients de bureau et mobiles si **l’option** Épinglage utilisateur est désactivée. Les utilisateurs ne peuvent pas modifier l’ordre de leurs applications épinglées sur Teams clients web.
 
 #### <a name="does-user-pinning-take-precedence"></a>L’épinglage des utilisateurs a-t-il la priorité ?
 
-Les épingles administrateur sont toujours prioritaire. Si **l’option Autoriser l’épinglage** d’utilisateur est désactivée, les utilisateurs conservent leurs applications épinglées sous les applications épinglées par l’administrateur. Si **l’option** Autoriser l’épinglage d’utilisateur est désactivée, les utilisateurs perdent leurs épingles existantes et seules les applications épinglées par l’administrateur sont présentes dans la barre d’application.
+Les épingles administrateur sont toujours prioritaire. Si **l’option Épinglage d’utilisateur** est désactivée, les utilisateurs conservent leurs applications épinglées sous les applications épinglées par l’administrateur. Si **l’option Épinglage** utilisateur est désactivée, les utilisateurs perdent leurs épingles existantes et seules les applications épinglées par l’administrateur sont présentes dans la barre d’application.
 
 ### <a name="custom-teams-apps"></a>Applications Teams personnalisées
 
@@ -217,7 +217,7 @@ Les épingles administrateur sont toujours prioritaire. Si **l’option Autorise
 
 Veillez à respecter les instructions relatives au logo avant de soumettre l’application. Pour en savoir plus, consultez [la liste de contrôle de l’envoi du tableau de bord du vendeur.](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-articles"></a>Articles connexes
 
 [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)
 

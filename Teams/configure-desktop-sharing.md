@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 973ed6056ae8e73b79d7596b2f325cda8cdc48b1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c5db10ce87dc98cfb793eefb1daa953385c95f6d
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732313"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205285"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurer le partage du bureau dans Microsoft Teams
 
@@ -70,7 +70,7 @@ Pour configurer le partage d’écran, vous créez une stratégie de réunion, p
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>Utiliser PowerShell pour configurer le bureau partagé
 
-Vous pouvez également utiliser l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) pour contrôler le partage de Bureau. Définissez les paramètres suivants :
+Vous pouvez également utiliser l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) pour contrôler le partage de Bureau. Définissez les paramètres suivants :
 
 - Description
 - ScreenSharingMode
@@ -81,4 +81,4 @@ Vous pouvez également utiliser l’applet de commande [CsTeamsMeetingPolicy](/p
 - AllowWhiteboard
 - AllowSharedNotes
 
-[En savoir plus sur l’utilisation de l'applet de commande csTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
+[En savoir plus sur l’utilisation de l'applet de commande csTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).

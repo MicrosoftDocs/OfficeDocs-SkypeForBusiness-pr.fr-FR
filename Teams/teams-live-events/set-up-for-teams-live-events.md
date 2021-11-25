@@ -20,12 +20,12 @@ description: Configurer des événements en direct dans Teams, notamment configu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4d9e21872adb0fb0e34280d29fe928ea3ac056da
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 5911ee829284917e5d16a6e254004ad7c49f8660
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046190"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205444"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
@@ -50,7 +50,7 @@ Les stratégies d’événements en direct sont utilisées pour contrôler qui d
 
 <a name="bkcreatepolicy"> </a>
 
-1. Dans le navigation gauche du centre Microsoft Teams d’administration, allez à l’onglet Gérer les stratégies pour les **événements** en direct  >    >  **de Réunions.**
+1. Dans le navigation gauche du centre Microsoft Teams d’administration, allez dans l’onglet Gérer les **stratégies** des stratégies dans les  >    >   stratégies.
 2. Faites l’une des options suivantes :
 
     - Si vous voulez modifier la stratégie par défaut existante, sélectionnez **Globale (par défaut à l’échelle de l’organisation)**.
@@ -65,8 +65,8 @@ Les stratégies d’événements en direct sont utilisées pour contrôler qui d
 |---------|---------|
 |**Titre**     |Il s’agit du titre de la stratégie qui apparaît sur la page stratégies d’événements en direct. Le nom ne doit pas dépasser 64 caractères et ne peut pas contenir de caractères spéciaux.          |
 |**Description**    |Utilisez ce paramètre pour ajouter une description informelle de la stratégie.         |
-|**Autoriser la planification**     |L’activation de cette option permet aux utilisateurs de votre organisation de créer et de planifier des événements en direct dans Teams. Il est important de savoir que, si vous voulez que les utilisateurs puissent planifier un événement en direct produit avec une application ou un appareil externes, vous devez effectuer des réglages supplémentaires. Pour plus d’informations, voir [Permettre aux utilisateurs de planifier des événements générés avec une application ou un appareil externes](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
-|**Autoriser la transcription pour les participants** |Ce paramètre ne peut être appliqué qu’aux événements créés dans Teams. Le fait d’activer cette fonction permet aux participants à l’événement en direct de voir les légendes et sous-titres en temps réel pendant l’événement.         |
+|**Planification d’événements en direct**     |L’activation de cette option permet aux utilisateurs de votre organisation de créer et de planifier des événements en direct dans Teams. Il est important de savoir que, si vous voulez que les utilisateurs puissent planifier un événement en direct produit avec une application ou un appareil externes, vous devez effectuer des réglages supplémentaires. Pour plus d’informations, voir [Permettre aux utilisateurs de planifier des événements générés avec une application ou un appareil externes](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
+|**Transcription pour les participants** |Ce paramètre ne peut être appliqué qu’aux événements créés dans Teams. Le fait d’activer cette fonction permet aux participants à l’événement en direct de voir les légendes et sous-titres en temps réel pendant l’événement.         |
 |**Qui peut participer aux événements en direct planifiés**    |Choisissez l’une des options suivantes.<br><br>**Tout le monde** Les utilisateurs peuvent créer des événements en direct auxquels tout le monde, y compris des personnes extérieures à votre organisation, peut participer. Ce paramètre active le type d’autorisation **Publique** dans Teams lorsqu’un utilisateur planifie un événement en direct.<br> **Tous les membres de l’organisation** Les utilisateurs peuvent créer des événements en direct auxquels les membres de votre organisation, y compris les [utilisateurs invités](../add-guests.md) extérieurs à l’organisation, peuvent participer. Les utilisateurs ne peuvent pas créer des événements en direct suivis par des utilisateurs anonymes. Ce paramètre active le type d’autorisation **Org-wide** dans Teams lorsqu’un utilisateur planifie un événement en direct.<br> **Utilisateurs ou groupes spécifiques** Les utilisateurs peuvent créer des événements en direct auxquels seuls des utilisateurs ou des groupes spécifiques de votre organisation peuvent participer. Les utilisateurs ne peuvent pas créer des événements en direct suivis par tout le monde au sein de votre organisation ou par des utilisateurs anonymes. Ce paramètre active le type d’autorisation **Individus et groupes** dans Teams lorsqu’un utilisateur planifie un événement en direct.       |
 |**Paramètre d’enregistrement**  <br>     | Ce paramètre ne peut être appliqué qu’aux événements créés dans Teams. Choisissez l’une des options suivantes. <br><br> **Toujours enregistrer** Les événements en direct créés par les utilisateurs sont toujours enregistrés. Une fois l’événement terminé, les membres de l’équipe peuvent télécharger l’enregistrement et les participants peuvent l’examiner. <br> **Ne jamais enregistrer** Les événements en direct créés par les utilisateurs ne sont jamais enregistrés. <br>**L’organisateur peut enregistrer ou non** Les utilisateurs peuvent choisir d’enregistrer ou non l’événement en direct. Si l’enregistrement a eu lieu, une fois l’événement terminé, les membres de l’équipe peuvent télécharger l’enregistrement et les participants peuvent le regarder.
 
@@ -83,7 +83,7 @@ Pour que les utilisateurs planifier des événements produits avec une applicati
 1. Activer Microsoft Stream pour les utilisateurs de votre organisation. Stream est disponible dans le cadre d’abonnements Microsoft 365 ou Office 365 éligibles ou en tant que service autonome. Stream n’est pas inclus dans les offres Business Essentials ou Business Premium. Pour plus d’informations, consultez [Vue d’ensemble des licences Stream](/stream/license-overview).
 
    >[!Note]
-   > Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](../tmr-meeting-recording-change.md) auront une approche progressive. Au démarrage, vous serez en mesure d’opter pour cette expérience, en novembre vous devrez annuler votre abonnement si vous souhaitez continuer à utiliser Stream, et début 2021, tous les clients devront utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunion. Découvrez comment attribuer des licences aux [**utilisateurs**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) pour leur donner accès à Stream. Assurez-vous que stream n’est pas bloqué pour les utilisateurs comme défini [**dans cet article.**](/stream/disable-user-organization)
+   > Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](../tmr-meeting-recording-change.md) auront une approche progressive. Au démarrage, vous serez en mesure d’opter pour cette expérience, en novembre vous devrez annuler votre abonnement si vous souhaitez continuer à utiliser Stream, et début 2021, tous les clients devront utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunion. Découvrez comment attribuer des licences aux [**utilisateurs**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) pour leur donner accès à Stream. Assurez-vous que stream n’est pas bloqué pour les utilisateurs comme défini [**dans cet article.**](/stream/disable-user-organization)
 
 2. Assurez-vous que les utilisateurs disposent de l’autorisation de créer des événements en direct sur Stream. Par défaut, les administrateurs peuvent créer des événements à l’aide d’une application ou d’un appareil externes. L’administrateur Stream peut [permettre à d’autres utilisateurs de créer des événements en direct](/stream/live-event-administration#restrict-who-can-create-events) dans Stream.
 
@@ -103,7 +103,7 @@ Les solutions SDN/eCDN suivantes sont pré-intégrées et peuvent être configur
 
 - **Ramp OmniCache** assure la distribution de réseau nouvelle génération et permet de distribuer de façon transparente du contenu vidéo sur les WAN globaux, afin d’aider les producteurs d’événements à optimiser la bande passante réseau et à prendre en charge la diffusion d’événements en direct et la diffusion à la demande. L’assistance pour Ramp OmniCache pour les événements en direct créés dans Teams sera disponible prochainement. [En savoir plus](https://rampecdn.com).
 
-- **Riverbed,** norme en optimisation des réseaux, étend ses solutions d’accélération à Microsoft Teams stream.  Désormais, Microsoft 365 clients peuvent accélérer en toute confiance le trafic de 365, dont Teams et Stream, ainsi qu’une foule d’autres services SaaS d’entreprise pour accroître la productivité du personnel en tout lieu. Teams et l’accélération stream peuvent être activés via une configuration facile, qui offre toute la garantie de la prise en charge de niveau mondial de Riverbed et de l’investissement continu.
+- **Riverbed,** norme en optimisation des réseaux, étend ses solutions d’accélération à Microsoft Teams stream.  Désormais, Microsoft 365 clients peuvent accélérer en toute confiance le trafic de 365, dont Teams et Stream, ainsi qu’une foule d’autres services SaaS d’entreprise pour accroître la productivité du personnel en tout lieu. Teams et l’accélération stream peuvent être activés par le biais d’une configuration facile, qui offre toute la garantie de la prise en charge de niveau mondial de Riverbed et de l’investissement continu.
 
 > [!NOTE]
 > La solution SDN ou eCDN que vous avez choisie est soumise aux **conditions d’utilisation du service et à la politique de confidentialité du prestataire tiers**, lesquelles gouvernent votre utilisation de la solution. L’utilisation de la solution de votre prestataire ne sera pas soumise aux termes du programme de licences en volume Microsoft ou des services en ligne. Si vous n’acceptez pas les **conditions de votre prestataire tiers**, n’activez pas la solution dans Teams.
@@ -114,7 +114,7 @@ Une fois que vous avez configuré la solution SDN ou eCDN, vous pouvez configure
 
 Accédez à [Configurer les paramètres d’événements en direct dans Teams](configure-teams-live-events.md).
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Sujets associés
 
 - [Comprendre un événement en direct Teams](what-are-teams-live-events.md)
 - [Offre pour les événements en direct Teams](plan-for-teams-live-events.md)
