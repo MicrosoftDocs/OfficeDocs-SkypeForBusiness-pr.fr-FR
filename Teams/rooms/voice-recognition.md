@@ -16,21 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e78ab7b7a2448ebb996a1c04e95bc22049954b4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 36a501220a986e3873c8ce6a75f1f4f704aa2533
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759226"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61177785"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Gérer les contrôles de technologie de reconnaissance vocale pour un haut-parleur intelligent
 
-Un haut-parleur intelligent utilise les informations de profil vocal pour reconnaître qui a dit quoi dans la transcription en direct. Lorsqu’un Salles Microsoft Teams pour Windows de réunion est équipé d’un haut-parleur intelligent, la transcription en direct peut être utilisée pendant la réunion. Cet article explique comment vous, en tant qu’administrateur de client, contrôlez le profilage vocal utilisé pour la reconnaissance vocale afin de générer une transcription en direct. Vous pouvez contrôler le degré d’utilisation de la reconnaissance vocale par l’organisation et les fonctionnalités suivantes :
+Un haut-parleur intelligent utilise les informations de profil vocal pour reconnaître qui a dit quoi dans la transcription en direct. Lorsqu’un Salles Microsoft Teams pour Windows de réunion est équipé d’un haut-parleur intelligent, la transcription en direct peut être utilisée pendant la réunion. Cet article explique comment vous, en tant qu’administrateur de client, contrôlez le profilage vocal utilisé pour la reconnaissance vocale afin de générer une transcription en direct. Vous pouvez contrôler le degré d’utilisation de la reconnaissance vocale par l’organisation ainsi que les fonctionnalités suivantes :
 
 - Modifiez le nom du haut-parleur dans les transcriptions.
-- Modifiez le haut-parleur d’une seule énoncé de la transcription ou modifiez celui-ci dans toutes les énoncés de la transcription (mais pas sur les transcriptions à venir).
+- Modifiez le haut-parleur d’une seule déclaration dans la transcription ou modifiez celui-ci dans toutes les déclarations de la transcription (mais pas sur les transcriptions à venir).
 - Modifiez l’identification du haut-parleur pour les personnes qui sont répertoriées dans la réunion.
-- Supprimez l’identification d’un ou plusieurs énoncés identifiés en tant que haut-parleur sur chaque transcription.
+- Supprimez l’identification d’une ou plusieurs paroles identifiées en tant que haut-parleur sur chaque transcription.
 
 ## <a name="review-intelligent-speaker-requirements"></a>Revoir les exigences de Haut-parleur intelligent
 
@@ -42,22 +42,22 @@ Les éléments suivants sont requis pour le haut-parleur intelligent :
 - La salle de réunion doit avoir un maximum de 10 personnes présentes en personne.
 - La salle de réunion dispose d’un lien de chargement d’au moins 7 Mbits/s.
 
- <sup>1 Un</sup> haut-parleur intelligent, un profil vocal associé et l’utilisation ne seront disponibles que dans la langue américaine et pour les locataires américains (région NA-US). Les deux conditions doivent être vraies pour qu’un utilisateur client s’inscrive et utilise un haut-parleur intelligent pour une transcription par attributs.
+ <sup>1 Un</sup> haut-parleur intelligent, un profil vocal associé et l’utilisation ne seront disponibles que dans la langue américaine et pour les locataires américains (région NA-US). Les deux conditions doivent être vraies pour qu’un utilisateur client s’inscrive et utilise un haut-parleur intelligent pour une transcription à attribut.
 
 ## <a name="set-up-an-intelligent-speaker"></a>Configurer un haut-parleur intelligent
 
-Un haut-parleur intelligent se connecte directement à la console d’salles Teams USB. Pour obtenir de meilleurs résultats, vous devez utiliser un haut-parleur intelligent de la marque Yealink avec une console de marque Yealink.
+Un haut-parleur intelligent se connecte directement à la console d’salles Teams usb. Pour obtenir de meilleurs résultats, vous devez utiliser un haut-parleur intelligent de la marque Yealink avec une console de marque Yealink.
 
 > [!NOTE]
 > Un haut-parleur intelligent Yealink **doit** être utilisé avec une console Yealink.
 
 > [!NOTE]
-> Un haut-parleur intelligent connecté à Logitech Surface Pro Salles Microsoft Teams n’est pas Surface Pro Salles Microsoft Teams. Il existe un problème connu qui salles Teams peut pas reconnaître le haut-parleur intelligent par le biais du Dock.
+> Un haut-parleur intelligent connecté à Logitech Surface Pro Salles Microsoft Teams n’est pas Surface Pro Salles Microsoft Teams. Il existe un problème connu qui salles Teams peut pas reconnaître le haut-parleur intelligent par le biais du dock.
 
-Un haut-parleur intelligent doit être placé à au moins 20 cm des murs et des objets de grande taille, tels que les ordinateurs portables. Si le câble USB Du haut-parleur intelligent n’est pas assez long pour la configuration, utilisez des extensions de câble.
+Un haut-parleur intelligent doit être placé à au moins 20 cm des murs et des objets de grande taille, tels que les ordinateurs portables. Si le câble USB Du haut-parleur intelligent n’est pas assez long pour la configuration, utilisez des câble-extensions.
 
 1. Connectez-vous à la console en tant qu’administrateur.
-2. Définissez les paramètres Teams de l’appareil pour qu’ils correspondent au micro et au haut-parleur intelligent.
+2. Définissez les Teams du périphérique de façon à ce qu’ils correspondent au micro et au haut-parleur intelligent.
    Vous pouvez également le faire via le portail PRINCIPAL plutôt que via la console de salle.
 
    Le diagramme montre comment le haut-parleur intelligent est connecté à l’appareil si l’appareil inclut une zone de données.
@@ -69,24 +69,24 @@ Un haut-parleur intelligent doit être placé à au moins 20 cm des murs et des 
    ![Configuration du haut-parleur intelligent avec le haut-parleur qui se connecte directement à la console.](../media/intelligent-speakers2.png)
 
 > [!Note]
-> Les appareils ANSE et Yealink doivent contenir le préfixe « UAC2_TEAMS » ou « Yealink » et contenir « UAC2_RENDER » dans le nom du haut-parleur et « UAC2_TEAMS » dans le nom du microphone. Si vous ne trouvez pas ces noms de micro et de haut-parleur dans le menu déroulant, redémarrez l’appareil Intelligent Speaker.
+> Les appareils ANSE et Yealink doivent avoir le préfixe « INFORMATIONS » ou « Yealink » et doivent contenir « UAC2_RENDER » dans le nom du haut-parleur et « UAC2_TEAMS » dans le nom du microphone. Si vous ne trouvez pas ces noms de micro et de haut-parleur dans le menu déroulant, redémarrez l’appareil Intelligent Speaker.
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>Activer la reconnaissance d’un utilisateur Haut-parleur intelligent
 
-Les données de profil vocal peuvent être utilisées dans n’importe quelle réunion avec un haut-parleur intelligent. Pour [plus d’Teams des paramètres de](../meetings-policies-recording-and-transcription.md#allow-transcription) réunion, voir les stratégies de réunion powershell et les cmdlets de réunion [PowerShell.](/powershell/module/skype/set-csteamsmeetingpolicy)
+Les données de profil vocal peuvent être utilisées dans n’importe quelle réunion avec un haut-parleur intelligent. Pour [plus d Teams les stratégies de réunion](../meetings-policies-recording-and-transcription.md#allow-transcription) PowerShell et les cmdlets de réunion [PowerShell,](/powershell/module/skype/set-csteamsmeetingpolicy) consultez les paramètres de réunion.
 
-Les données de profil vocal de l’utilisateur sont créées lorsque la stratégie est définie pour faire la distinction ou qu’un invité qui n’est pas en réunion se trouve dans la réunion. Les données de profil vocal sont rejetées à la fin de la réunion.
+Les données de profil vocal de l’utilisateur sont créées lorsque la stratégie est définie pour faire la distinction entre les invités ou non-réunion en cours de réunion. Les données de profil vocal sont rejetées à la fin de la réunion.
 
 Voici les stratégies requises pour définir un haut-parleur intelligent et la reconnaissance des utilisateurs.
 
 |Stratégie|Description|Valeurs et comportement|
 |-|-|-|
 |inscrireUserOverride|Permet de définir la capture de profil vocal, ou l’inscription, Teams paramètres de messagerie pour un client. |**Désactivé**<br><ul><li> Les utilisateurs qui n’ont jamais été inscrits ne peuvent pas afficher, inscrire ou ré-inscrire.<li>Le point d’entrée vers le flux d’inscription est masqué.<li>Si les utilisateurs sélectionnent un lien vers la page d’inscription, un message leur indique que cette fonctionnalité n’est pas activée pour leur organisation.  <li>Les utilisateurs inscrits peuvent afficher et supprimer leur profil vocal dans les Teams messagerie. Une fois qu’il a supprimé son profil vocal, il ne peut plus afficher, consulter ou terminer le flux d’inscription.</li></ul><br>**Activé**<br><ul><li> Les utilisateurs peuvent afficher, consulter et terminer le flux d’inscription.<li>Le point d’entrée s’affiche dans Teams de paramètres de l’onglet **Reconnaissance.**</li></ul>|
-|roomAttributeUserOverride|Contrôlez l’identification de l’utilisateur vocal dans les salles de réunion. Ce paramètre est requis pour les salles Teams comptes.| **Désactivé**<br><ul><li>Le salles Teams n’envoie pas de bande passante audio l’enregistrement de flux de la pièce. <li>Les utilisateurs de salle de réunion ne seront pas attribués ou distinctionés, et leurs signatures vocales ne seront pas récupérées ni utilisées.<li>Les utilisateurs de salle de réunion sont inconnus.</li></ul> <br>**Attribut**<br><ul><li>Les utilisateurs des salles seront attribuées en fonction de leur état d’inscription.<li>Le nom des utilisateurs inscrits s’affiche avec leur nom dans la transcription.  <li>Utilisateurs non inscrits à l’affiche en tant que \<n> haut-parleur.<li>Le salles Teams envoie sept flux audio depuis la salle.</ul> <br>**Distinguer**<br> <ul><li>Les utilisateurs des salles seront séparés par haut-parleur 1, haut-parleur 2, .... dans \<n> la transcription.</li><li>Quel que soit le statut d’inscription de l’utilisateur, son nom n’est pas s’afficher dans la transcription.</li><li>Le salles Teams envoie sept flux audio depuis la salle.</li></ul>
+|roomAttributeUserOverride|Contrôlez l’identification de l’utilisateur vocal dans les salles de réunion. Ce paramètre est requis pour les salles Teams comptes.| **Désactivé**<br><ul><li>Le salles Teams n’envoie pas de bande passante audio l’enregistrement de flux de la pièce. <li>Les utilisateurs de salle de réunion ne seront pas attribués ou distinguer, et leurs signatures vocales ne seront pas récupérées ni utilisées.<li>Les utilisateurs de salle de réunion sont inconnus.</li></ul> <br>**Attribut**<br><ul><li>Les utilisateurs des salles seront attribuées en fonction de leur état d’inscription.<li>Le nom des utilisateurs inscrits s’affiche avec leur nom dans la transcription.  <li>Utilisateurs qui n’ont pas été inscrits au mode \<n> Haut-parleur.<li>Le salles Teams envoie sept flux audio à partir de la salle.</ul> <br>**Distinguer**<br> <ul><li>Les utilisateurs des salles seront séparés par haut-parleur 1, haut-parleur 2, .... dans \<n> la transcription.</li><li>Quel que soit le statut d’inscription de l’utilisateur, son nom n’est pas afficher dans la transcription.</li><li>Le salles Teams envoie sept flux audio à partir de la salle.</li></ul>
 |AllowTranscription|Requis pour les comptes d’Teams utilisateur et de salles.|**Vrai** et **Faux**|
 ||||
 
-Dans le Teams d’administration, définissez la **stratégie Autoriser la transcription.** Paramètres sont **éteints** par défaut.
+Dans le Teams d’administration, définissez la stratégie **de** transcription. Paramètres d’autres paramètres **sont** éteints par défaut.
 
 ![Le Centre d’administration avec les stratégies de réunion mises en évidence et Autoriser la transcription sélectionnées.](../media/allow-transcription1.png)
 
@@ -94,7 +94,7 @@ Dans le Teams d’administration, définissez la **stratégie Autoriser la trans
 
 **Où sont stockées les données de profil vocal ?**
 
-Les données de profil vocal sont stockées dans Office 365 cloud avec le contenu des utilisateurs.
+Les données de profil vocal sont stockées dans Office 365 cloud avec le contenu de l’utilisateur.
 
 **Quelles sont la chronologie et la stratégie de rétention ?**
 
@@ -102,7 +102,7 @@ La stratégie de rétention générale est indiqué dans la vue [d’ensemble de
 
 **Les données de profil vocal sont-elles utilisées dans services Microsoft ?**
 
-Non, les données de profil vocal sont utilisées uniquement aux fins dans lesquelles l’utilisateur a fourni son consentement. Microsoft n’utilisera les données de profil vocal qu’Teams de reconnaissance vocale.
+Non, les données de profil vocal sont utilisées uniquement aux fins dans lesquelles l’utilisateur a fourni son consentement. Microsoft n’utilisera les données de profil vocal qu’Teams des scénarios de reconnaissance vocale.
 
 Par exemple, Microsoft n’utilise pas les données dans les situations suivantes :
 
