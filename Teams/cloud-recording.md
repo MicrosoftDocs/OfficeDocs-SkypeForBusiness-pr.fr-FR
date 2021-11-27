@@ -19,12 +19,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a4008aa9f69f525e3fbbeb6fd7596822d7ac9be8
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 37d7c3999986373e7ad72176cfc0182f09144e3a
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536895"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205414"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -79,7 +79,7 @@ Cette section explique comment configurer et planifier l’enregistrement des r�
 
 Vous pouvez utiliser le Centre d’administration Microsoft Teams ou PowerShell pour définir une stratégie de réunion Teams afin de contrôler si les réunions des utilisateurs peuvent être enregistrées.
 
-Dans le Centre d’administration Microsoft Teams, activez ou désactivez le paramètre **Autoriser l’enregistrement dans le cloud** dans la stratégie de réunion. Si vous souhaitez en savoir plus, consultez l’article [Paramètres de stratégie de réunion pour l’audio et la vidéo](meetings-policies-recording-and-transcription.md#allow-cloud-recording).
+Dans le Centre d’administration Microsoft Teams, activer ou désactiver le paramètre d’enregistrement **sur le nuage** dans la stratégie de réunion. Si vous souhaitez en savoir plus, consultez l’article [Paramètres de stratégie de réunion pour l’audio et la vidéo](meetings-policies-recording-and-transcription.md#allow-cloud-recording).
 
 À l’aide de PowerShell, vous configurez le paramètre AllowCloudRecording dans TeamsMeetingPolicy. Pour en savoir plus, consultez[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -431,7 +431,7 @@ Pour en savoir plus sur eDiscovery, consultez l’article [solutions eDiscovery 
 
 ### <a name="retention-policies"></a>Stratégies de rétention
 
-Vous pouvez appliquer des étiquettes de rétention automatiques pour cibler uniquement les fichiers vidéo d’enregistrement de réunion Teams via la propriété ProgID. Pour plus d’informations, consultez [Comment appliquer automatiquement une étiquette de rétention pour les enregistrements de réunion Teams](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+Vous pouvez appliquer des étiquettes de rétention automatiques pour cibler uniquement les fichiers vidéo d’enregistrement de réunion Teams via la propriété ProgID. Pour plus d’informations, consultez [Comment appliquer automatiquement une étiquette de rétention pour les enregistrements de réunion Teams](/microsoft-365/compliance/apply-retention-labels-automatically#microsoft-teams-meeting-recordings).
 
 ### <a name="data-loss-prevention-dlp-policies"></a>Stratégie de prévention des pertes de données (DLP)
 

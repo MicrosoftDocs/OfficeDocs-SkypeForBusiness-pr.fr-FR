@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: a4a2eea55336639925d8c07c00ded4057456e1ff
-ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
+ms.openlocfilehash: 4ff1118818ac22040e9bf9f8c44288991e24d8b0
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/24/2021
-ms.locfileid: "61153307"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205304"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -59,7 +59,7 @@ Vous devez être un administrateur Teams pour apporter ces modifications. Voir [
 
 ### <a name="using-powershell-to-configure-per-organizer-policy"></a>Utilisation de PowerShell pour configurer la stratégie par organisateur
 
-Les administrateurs peuvent désormais contrôler si des utilisateurs ou des groupes d’utilisateurs spécifiques peuvent autoriser des utilisateurs anonymes à rejoindre les réunions qu’ils organisent. Cette nouvelle stratégie par organisateur est contrôlée à l’aide du paramètre **AllowAnonymousUsersToJoinMeeting** dans [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps). Cette version est disponible avec Teams PowerShell version 2.6.0 et ultérieure.
+Les administrateurs peuvent désormais contrôler si des utilisateurs ou des groupes d’utilisateurs spécifiques peuvent autoriser des utilisateurs anonymes à rejoindre les réunions qu’ils organisent. Cette nouvelle stratégie par organisateur est contrôlée à l’aide du paramètre **AllowAnonymousUsersToJoinMeeting** dans [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). Cette version est disponible avec Teams PowerShell version 2.6.0 et ultérieure.
 
 Vous pouvez utiliser une stratégie, à l’échelle de l’organisation ou par organisateur, pour gérer la participation anonyme. Nous vous recommandons d’implémenter la stratégie par organisateur. Le paramètre de stratégie à l’échelle de l’organisation sera déconseillé à l’avenir et la stratégie par organisateur sera la seule façon de contrôler la participation anonyme.
 
@@ -147,7 +147,7 @@ Si vous utilisez la qualité de service (QoS) pour hiérarchiser le trafic rése
 
     ![Capture d'écran des paramètres de réseau pour les réunions dans le centre d'administration](media/meeting-settings-network.png "Capture d'écran des paramètres de réseau pour les réunions Teams dans le centre d'administration Microsoft Teams")
 
-    - Pour autoriser l’utilisation de la fonctionnalité de marquage DSCP pour la qualité de service (QoS), activez **Insérer des marqueurs de Qualité de service (QoS) pour le trafic média en temps réel**. Vous avez seulement la possibilité d’utiliser ou de ne pas utiliser des marqueurs. Vous ne pouvez pas créer des marqueurs personnalisés par type de trafic. Pour plus d’informations sur les marqueurs DSCP, voir [Sélectionner une méthode d’implémentation QoS](QoS-in-Teams.md#select-a-qos-implementation-method).
+    - Pour autoriser l’utilisation des marquages DSCP pour la qualité de service, activer les **marqueurs de qualité de service (QoS)** pour le trafic multimédia en temps réel. Vous avez seulement la possibilité d’utiliser ou de ne pas utiliser des marqueurs. Vous ne pouvez pas créer des marqueurs personnalisés par type de trafic. Pour plus d’informations sur les marqueurs DSCP, voir [Sélectionner une méthode d’implémentation QoS](QoS-in-Teams.md#select-a-qos-implementation-method).
 
         > [!IMPORTANT]
         > Notez que l’activation de QoS est effectuée uniquement sur les points de terminaison pour le marquage des paquets qui sortant du client. Nous vous recommandons toujours d’appliquer des règles de QoS correspondantes sur tous les périphériques réseau internes pour le trafic entrant.
