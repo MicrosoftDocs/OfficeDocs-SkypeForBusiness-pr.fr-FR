@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f40ddcfdd9e9491fd5d4fc7f82c77d5e5dca66f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d4816f3f05c37fe1a690ffea7f48789c41fd2603
+ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636988"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61216670"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Mettre à niveau des utilisateurs à partir de l’essai exploratoire Teams
 
@@ -50,7 +50,7 @@ En fonction des abonnements dont votre organisation dispose actuellement, il exi
 
 - **Mettez à niveau un abonnement Microsoft 365 existant.** Utilisez cette option si votre organisation dispose d’abonnements à d’autres produits Office qui n’incluent pas Teams. Pour plus d’informations, consultez <a href="/microsoft-365/commerce/subscriptions/upgrade-to-different-plan?view=o365-worldwide" target="_blank">Mettre à niveau vers un autre plan d’entreprise</a>. Pour afficher les utilisateurs actifs d’un abonnement existant, accédez à **Utilisateurs >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Utilisateurs actifs</b></a> dans le centre d’administration Microsoft 365.
 
-- **Ajoutez des utilisateurs à un abonnement Microsoft 365 existant.** Utilisez cette option si votre organisation n’a pas suffisamment payé. Licences Teams pour couvrir les utilisateurs exploratoires Teams. Pour plus d’informations, consultez <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">Acheter ou supprimer des licences</a>. Pour ajouter des utilisateurs à un abonnement existant qui dispose déjà de suffisamment de licences disponibles, consultez <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">Déplacer les utilisateurs vers un autre abonnement</a>. Pour afficher les utilisateurs actifs d’un abonnement existant, accédez à **Utilisateurs >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Utilisateurs actifs</b></a> dans le centre d’administration Microsoft 365.
+- **Ajoutez des utilisateurs à un abonnement Microsoft 365 existant.** Utilisez cette option si votre organisation n’a pas suffisamment de licences Teams payantes pour couvrir les utilisateurs exploratoires Teams en ligne. Pour plus d’informations, consultez <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">Acheter ou supprimer des licences</a>. Pour ajouter des utilisateurs à un abonnement existant qui dispose déjà de suffisamment de licences disponibles, consultez <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">Déplacer les utilisateurs vers un autre abonnement</a>. Pour afficher les utilisateurs actifs d’un abonnement existant, accédez à **Utilisateurs >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Utilisateurs actifs</b></a> dans le centre d’administration Microsoft 365.
 
 - **Acheter un nouvel abonnement Microsoft 365.** Utilisez cette option si votre organisation n’a pas d’abonnements existants aux produits Office ou si votre organisation souhaite acheter un abonnement différent de son abonnement existant pour couvrir les utilisateurs exploratoires Teams.  Pour plus d’informations, consultez <a href="/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide%22%20\#buy-a-different-subscription" target="_blank">Acheter un autre Microsoft 365 pour les abonnements d’entreprises</a>.
 
