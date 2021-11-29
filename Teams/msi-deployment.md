@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9c75d531cc2371c8ce5c6baf2eb22924129bbb6
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: c7ff835715bd91e66160817410312734c6949f5c
+ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124241"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61216630"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager
 
@@ -64,7 +64,7 @@ Le fichier MSI Teams placera un programme d’installation dans les fichiers pro
 N’utilisez pas le MSI pour déployer les mises à jour, car le client sera mis à jour automatiquement lorsqu’il détecte qu’une nouvelle version est disponible à partir du service. Pour redéployer le dernier programme d’installation, suivez le processus de redéploiement de MSI décrit ci-dessous. Si vous déployez une version antérieure du package MSI, le client effectue une mise à jour automatique (sauf dans les environnements VDI) lorsque l’utilisateur le permet. Si une version antérieure est déployée, le MSI déclenche une mise à jour de l’application avant que l’utilisateur ne puisse utiliser Teams.
 
 > [!IMPORTANT]
-> L’emplacement par défaut est C:\Program Files (x86)\Teams Installer sur les systèmes d’exploitation 64 bits et C:\Program Files\Teams Installer sur les systèmes d’exploitation 32 bits.
+> L’emplacement par défaut est C:\Program Files (x86)\Teams Installer sur les systèmes d’exploitation 32 bits et C:\Program Files\Teams Installer sur les systèmes d’exploitation 64 bits.
 > Nous vous déconseillons de modifier les emplacements d’installation par défaut, car cela pourrait rompre le flux de mise à jour. La présence d’une version plus ancienne peut empêcher les utilisateurs d’accéder au service.
 
 #### <a name="target-computer-requirements"></a>Configuration requise pour les ordinateurs cibles
