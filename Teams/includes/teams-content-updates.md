@@ -3,6 +3,42 @@
 
 
 
+## <a name="week-of-november-22-2021"></a>Semaine du 22 novembre 2021
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 11/22/2021 | [Appareils pour Teams](/MicrosoftTeams/devices/teams-ip-phones) | modifié |
+| 11/22/2021 | [Contrôleurs de frontière de session certifiés pour le routage direct](/MicrosoftTeams/direct-routing-border-controllers) | modifié |
+| 11/22/2021 | [Microsoft Teams d’utilisation d’événements en direct](/MicrosoftTeams/teams-analytics-and-reports/teams-live-event-usage-report) | modifié |
+| 11/22/2021 | [Planifier des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modifié |
+| 11/23/2021 | [Gérer les paramètres de réunion](/MicrosoftTeams/meeting-settings-in-teams) | modifié |
+| 11/23/2021 | [Déployer des Salles Microsoft Teams avec Exchange Online](/MicrosoftTeams/rooms/with-exchange-online) | modifié |
+| 11/23/2021 | [Déployer des Salles Microsoft Teams avec Microsoft 365 ou Office 365](/MicrosoftTeams/rooms/with-office-365) | modifié |
+| 11/24/2021 | [Utiliser le complément Réunion Microsoft Teams dans Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modifié |
+| 11/24/2021 | [Interaction entre Exchange et Microsoft Teams](/MicrosoftTeams/exchange-teams-interact) | modifié |
+| 11/24/2021 | [Microsoft Teams prise en charge des applications/métier sur les panneaux Teams métier](/MicrosoftTeams/app-support-on-teams-panels) | modifié |
+| 11/24/2021 | [Enregistrement de réunion cloud Teams](/MicrosoftTeams/cloud-recording) | modifié |
+| 11/24/2021 | [Configurer le partage du bureau dans Microsoft Teams](/MicrosoftTeams/configure-desktop-sharing) | modifié |
+| 11/24/2021 | [Cortana’assistance vocale dans Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | modifié |
+| 11/24/2021 | [Teams pour l'éducation l’Assistant Stratégie pour appliquer facilement des stratégies pour un apprentissage sécurisé](/MicrosoftTeams/easy-policy-setup-edu) | modifié |
+| 11/24/2021 | [Stratégies de réunion et expiration des réunions dans Microsoft Teams](/MicrosoftTeams/meeting-expiration) | modifié |
+| 11/24/2021 | [Gérer les stratégies de réunion pour l’audio et la vidéo](/MicrosoftTeams/meeting-policies-audio-and-video) | modifié |
+| 11/24/2021 | [Gérer les stratégies de réunion pour le partage de contenu](/MicrosoftTeams/meeting-policies-content-sharing) | modifié |
+| 11/24/2021 | [Gérer les stratégies générales de réunion](/MicrosoftTeams/meeting-policies-in-teams-general) | modifié |
+| 11/24/2021 | [Gérer les stratégies de réunion dans Microsoft Teams](/MicrosoftTeams/meeting-policies-overview) | modifié |
+| 11/24/2021 | [Gérer les stratégies de réunion pour les participants et les invités](/MicrosoftTeams/meeting-policies-participants-and-guests) | modifié |
+| 11/24/2021 | [Gérer les paramètres de réunion](/MicrosoftTeams/meeting-settings-in-teams) | modifié |
+| 11/24/2021 | [Gérer les stratégies de messagerie dans Teams](/MicrosoftTeams/messaging-policies-in-teams) | modifié |
+| 11/24/2021 | [Contrôle Administration du client pour la reconnaissance vocale (profil vocal) dans salles Teams](/MicrosoftTeams/rooms/voice-recognition) | modifié |
+| 11/24/2021 | [Configurer des webinaires dans Microsoft Teams](/MicrosoftTeams/set-up-webinars) | modifié |
+| 11/24/2021 | [Modules add-on advanced Communications for Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | modifié |
+| 11/24/2021 | [Rapport de participation aux réunions Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | modifié |
+| 11/24/2021 | [Gérer les stratégies de mise en application dans Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modifié |
+| 11/24/2021 | [Configurer les paramètres d’événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modifié |
+| 11/24/2021 | [Configurer des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modifié |
+
+
 ## <a name="week-of-november-15-2021"></a>Semaine du 15 novembre 2021
 
 
@@ -102,81 +138,3 @@
 | 10/27/2021 | [Gérer les modèles d’équipe dans le Centre d’administration](/MicrosoftTeams/templates-policies) | modifié |
 | 10/27/2021 | [Utiliser OneDrive Entreprise et SharePoint pour les enregistrements de réunion](/MicrosoftTeams/tmr-meeting-recording-change) | modifié |
 | 10/28/2021 | [Barrières de l’information au Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modifié |
-
-
-## <a name="week-of-october-18-2021"></a>Semaine du 18 octobre 2021
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 10/18/2021 | [Enregistrement de réunion cloud Teams](/MicrosoftTeams/cloud-recording) | modifié |
-| 10/18/2021 | [Cortana’assistance vocale dans Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | modifié |
-| 10/18/2021 | [Configurer un attendant automatique pour les Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modifié |
-| 10/18/2021 | [Créer une file d’attente des appels dans Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
-| 10/18/2021 | [Contrôler et dépanner le routage direct](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | modifié |
-| 10/18/2021 | [Accès invité dans Microsoft Teams](/MicrosoftTeams/guest-access) | modifié |
-| 10/18/2021 | [Gérez l’accès externe (fédération)](/MicrosoftTeams/manage-external-access) | modifié |
-| 10/18/2021 | [Gérer les Salles Microsoft Teams](/MicrosoftTeams/rooms/rooms-manage) | modifié |
-| 10/18/2021 | [Configurer la Messagerie vocale cloud](/MicrosoftTeams/set-up-phone-system-voicemail) | modifié |
-| 10/18/2021 | [Mode partage de lignes dans Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | modifié |
-| 10/18/2021 | [Routage des appels vers des numéros non instanés](/MicrosoftTeams/routing-calls-to-unassigned-numbers) | ajouté |
-| 10/18/2021 | [Ajout, modification, suppression d’emplacements d’urgence](/MicrosoftTeams/add-change-remove-emergency-place-organization) | modifié |
-| 10/18/2021 | [Affecter ou modifier un emplacement d’urgence pour un utilisateur](/MicrosoftTeams/assign-change-emergency-location-user) | modifié |
-| 10/18/2021 | [Affectation, modification des emplacements d’urgence pour les utilisateurs](/MicrosoftTeams/assign-change-emergency-place-user) | modifié |
-| 10/18/2021 | [Configurer un appel d’urgence dynamique](/MicrosoftTeams/configure-dynamic-emergency-calling) | modifié |
-| 10/18/2021 | [Les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | modifié |
-| 10/18/2021 | [Barrières de l’information au Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modifié |
-| 10/18/2021 | [Limites et spécifications de Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modifié |
-| 10/18/2021 | [Gérer les stratégies de routage vocal d’urgence pour le routage direct](/MicrosoftTeams/manage-emergency-call-routing-policies) | modifié |
-| 10/18/2021 | [Gérer les stratégies d’appel d’urgence Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | modifié |
-| 10/18/2021 | [Gérer votre topologie de réseau pour les fonctionnalités vocales cloud dans Microsoft Teams](/MicrosoftTeams/manage-your-network-topology) | modifié |
-| 10/18/2021 | [Planifier et gérer les appels d’urgence](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | modifié |
-| 10/19/2021 | [Chat, équipes, canaux et applications dans Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | modifié |
-| 10/19/2021 | [Configurer l’administrateur pour l’application Microsoft Parents pour l’éducation](/MicrosoftTeams/edu-parents-app) | modifié |
-| 10/19/2021 | [Canaux privés dans Microsoft Teams](/MicrosoftTeams/private-channels) | modifié |
-| 10/20/2021 | [Rechercher dans le journal d’audit des événements dans Microsoft Teams](/MicrosoftTeams/audit-log-events) | modifié |
-| 10/20/2021 | [Configurer l’administrateur pour l’application Microsoft Parents pour l’éducation](/MicrosoftTeams/edu-parents-app) | modifié |
-| 10/20/2021 | [Routage des appels vers des numéros non instanés](/MicrosoftTeams/routing-calls-to-unassigned-numbers) | modifié |
-| 10/20/2021 | [Ajout, modification, suppression d’emplacements d’urgence](/MicrosoftTeams/add-change-remove-emergency-location-organization) | modifié |
-| 10/20/2021 | [Ajout, modification, suppression d’emplacements d’urgence](/MicrosoftTeams/add-change-remove-emergency-place-organization) | modifié |
-| 10/20/2021 | [Outils et téléchargements pour l’adoption](/MicrosoftTeams/adopt-tools-and-downloads) | modifié |
-| 10/20/2021 | [Affecter ou modifier un emplacement d’urgence pour un utilisateur](/MicrosoftTeams/assign-change-emergency-location-user) | modifié |
-| 10/20/2021 | [Affectation, modification des emplacements d’urgence pour les utilisateurs](/MicrosoftTeams/assign-change-emergency-place-user) | modifié |
-| 10/20/2021 | [Affectation, modification ou suppression du numéro de téléphone d’un utilisateur](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | modifié |
-| 10/20/2021 | [Modification des numéros de téléphone dans le pont d’audioconférence](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | modifié |
-| 10/20/2021 | [Modifier les paramètres d’un pont d’audioconférence.](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) | modifié |
-| 10/20/2021 | [Messages électroniques envoyés aux utilisateurs lorsque leurs paramètres sont modifiés](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams) | modifié |
-| 10/20/2021 | [Options de messagerie électronique en cas de modification des paramètres d’audioconférence](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams) | modifié |
-| 10/20/2021 | [Permettre aux utilisateurs d’enregistrer leur nom pour une réunion](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) | modifié |
-| 10/20/2021 | [Obtention de numéros de téléphone pour vos utilisateurs](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modifié |
-| 10/20/2021 | [Gérer les stratégies d’appel d’urgence Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | modifié |
-| 10/20/2021 | [Gérez l’accès externe (fédération)](/MicrosoftTeams/manage-external-access) | modifié |
-| 10/20/2021 | [Gérer les paramètres d’audioconférence pour les utilisateurs](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams) | modifié |
-| 10/20/2021 | [Gérer les paramètres d’audioconférence](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | modifié |
-| 10/20/2021 | [Gérer les paramètres de réunion](/MicrosoftTeams/meeting-settings-in-teams) | modifié |
-| 10/20/2021 | [Restrictions relatives aux appels sortants - Audioconférence et & appels PSTN](/MicrosoftTeams/outbound-calling-restriction-policies) | modifié |
-| 10/20/2021 | [Réinitialiser l'ID de conférence d'un utilisateur dans Microsoft Teams](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams) | modifié |
-| 10/20/2021 | [Réinitialiser le code confidentiel d’audioconférence dans Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | modifié |
-| 10/20/2021 | [Afficher la liste des numéros d’audioconférence](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) | modifié |
-| 10/20/2021 | [Consulter, modifier et réinitialiser l’ID de conférence d’un utilisateur](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams) | modifié |
-| 10/20/2021 | [Envoyer à un utilisateur ses informations d’audioconférence](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams) | modifié |
-| 10/20/2021 | [Définir les langues du attendant automatique de l’audioconférence](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams) | modifié |
-| 10/20/2021 | [Définir les numéros de téléphone inclus dans les invitations](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | modifié |
-| 10/20/2021 | [Définir la longueur du code confidentiel pour les réunions d’audioconférence](/MicrosoftTeams/set-the-pin-length-for-audio-conferencing-meetings-in-teams) | modifié |
-| 10/20/2021 | [Configurer Audioconférence pour Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | modifié |
-| 10/20/2021 | [Configuration de vos paramètres de coexistence et de mise à niveau](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings) | modifié |
-| 10/20/2021 | [Démarrer une audioconférence par téléphone sans code confidentiel dans Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams) | modifié |
-| 10/20/2021 | [Configurer les paramètres d’événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modifié |
-| 10/20/2021 | [Microsoft Teams notes de publication de PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modifié |
-| 10/20/2021 | [Activer ou désactiver les annonces d’entrée et de sortie des réunions Teams](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams) | modifié |
-| 10/21/2021 | [Enregistrement de réunion cloud Teams](/MicrosoftTeams/cloud-recording) | modifié |
-| 10/21/2021 | [Microsoft Teams surveillance et alertes sur les appareils](/MicrosoftTeams/alerts/device-health-status) | modifié |
-| 10/21/2021 | [Restrictions relatives aux appels sortants - Audioconférence et & appels PSTN](/MicrosoftTeams/outbound-calling-restriction-policies) | modifié |
-| 10/21/2021 | [Configurer Audioconférence pour Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | modifié |
-| 10/21/2021 | [Se connecter à Microsoft Teams](/MicrosoftTeams/sign-in-teams) | modifié |
-| 10/22/2021 | [Configurer un attendant automatique pour les Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modifié |
-| 10/22/2021 | [Direct Routing SBA](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | modifié |
-| 10/22/2021 | [Accès invité dans Microsoft Teams](/MicrosoftTeams/guest-access) | modifié |
-| 10/22/2021 | [Présentation des équipes et des canaux dans Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modifié |
-| 10/22/2021 | [Microsoft Teams notes de publication de PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modifié |
-| 10/22/2021 | [Configurer Audioconférence pour Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | modifié |
