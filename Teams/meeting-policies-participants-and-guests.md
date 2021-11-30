@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour les participants et les invités.
-ms.openlocfilehash: 21a5737c51f33d288277f6a6ff5b1ecb27d8c86f
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: ebbb13d4d0430aee6fadba10b825a6c0cb8ec3b0
+ms.sourcegitcommit: 3e724a57e946550f2f61002c8e2de1ec20c9755a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205244"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "61234302"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion : participants et invités
 
@@ -68,6 +68,9 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle la join
 |**Membres de mon organisation**    |Les utilisateurs authentifiés au sein de l’organisation rejoignent directement la réunion sans attendre dans la salle d’attente.  Des utilisateurs d’organisations de confiance, des utilisateurs invités et des utilisateurs anonymes patientent dans la salle d’attente.          |
 |**Organisateur uniquement**    |Seuls les organisateurs de réunion peuvent rejoindre directement la réunion sans attendre dans la salle d’attente. Tous les autres utilisateurs, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs d’organisations de confiance et les utilisateurs anonymes, doivent patienter dans la salle d’attente. Sur la page Teams d’options de la réunion client, la liste s’affiche en tant que « Moi seul ».          |
 |**Utilisateurs invités uniquement**    |Seuls les utilisateurs invités et les organisateurs de la réunion peuvent participer directement à la réunion sans attendre dans la salle d’attente. Tous les autres utilisateurs, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs d’organisations de confiance et les utilisateurs anonymes, doivent patienter dans la salle d’attente. Sur la page Teams d’options de la réunion client, « Personnes que j’invite » s’affiche. Les utilisateurs ajoutés dans le cadre d’un groupe de distribution devront passer par la salle d’salle d’salle d’accueil.      |
+
+ > [!NOTE]
+> Les organisations de confiance sont des domaines avec qui vous autorisez les communications fédérées dans Teams. Si vous activez l’accès externe à tous les domaines **externes** dans le Centre d’administration Teams, tout utilisateur authentifié au sein d’Teams organisation est approuvé. Si vous choisissez de spécifier les domaines externes autorisés et bloquer tous les autres domaines, ceux-ci deviennent des organisations de confiance. Tout domaine bloqué n’est considéré comme pas une organisation digne de confiance.
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Autoriser les utilisateurs entrants à éviter la salle d’attente
 
