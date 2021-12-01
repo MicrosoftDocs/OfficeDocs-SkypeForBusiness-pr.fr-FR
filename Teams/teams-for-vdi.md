@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e684f9d64c3a10611b3cd71c9ea711f052050f48
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: ce78cfa86dfe562b33a892fbcc85a3946097eca6
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055445"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257355"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -486,7 +486,6 @@ Les fonctionnalités d’appel et de réunion suivantes ne sont pas pris en char
 - Sonnerie d’appel PSTN
 - Son système/ordinateur partagé
 - Contournement de média pour le routage Direct
-- Parcage d'appel
 - Commande Zoom
 
 > [!NOTE]
@@ -519,7 +518,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 Redémarrez ensuite VDA. Pour en savoir plus, consultez cet article de support citrix, qui explique comment résoudre les problèmes [d’optimisation HDX pour Teams.](https://support.citrix.com/article/CTX253754)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Installer et Microsoft Teams À l’aide de MSI](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

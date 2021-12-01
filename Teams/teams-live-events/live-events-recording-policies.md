@@ -17,12 +17,12 @@ description: En savoir plus sur les stratégies d’enregistrement d’événeme
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9dbed75a7f9c9655cc52bb798eefb0038cc5fe4a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 80489f699004ed7dbcb8d7493c32a7bc26e3e25e
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844927"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257342"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Stratégies d’enregistrement d’événements en direct Microsoft Teams
 
@@ -61,10 +61,10 @@ Dans le cadre de la stratégie de diffusion, vous pouvez activer ou désactiver 
 | Enregistrement disponible pour les participants | Sélectionné     | DVR est disponible et le Azure Media Services (AMS) est stocké pendant 180 jours | Les participants peuvent accéder à l’événement et le regarder                     |                              |
 |                                                  | Non sélectionné | DVR est disponible et le bien AMS est stocké pendant 180 jours | Le participant ne sera pas autorisé à accéder à l’événement une fois celui-ci terminé |                              |
 ||Désactivé (non sélectionné)|DVR est disponible et l’actif AMS est supprimé après l’événement|Le participant ne sera pas autorisé à accéder à l’événement une fois celui-ci terminé||
-| Enregistrement disponible pour les producteurs et les présentateurs | Sélectionné     |                                                           |                                                             | Un mp4 est créé et stocké |
+| Enregistrement disponible pour les producteurs et les présentateurs | Sélectionné     |                                                           |                                                             | Un mp4 est créé et stocké pendant 180 jours |
 |                                                  | Non sélectionné |                                                           |                                                             | Aucun fichier n’est créé           |
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Sujets associés
 
 - [Comprendre un événement en direct Teams](what-are-teams-live-events.md)
 - [Offre pour les événements en direct Teams](plan-for-teams-live-events.md)

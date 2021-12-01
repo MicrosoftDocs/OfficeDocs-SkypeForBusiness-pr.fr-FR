@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, multimédias et de bureau produits par Microsoft Teams, où ils sont trouvés et comment ils peuvent vous aider dans la surveillance et la résolution des problèmes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07eca1235cb695d32da0fdab96490572af6ccecb
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 28fa78eb20b88fe0a159fab12636ce546453835e
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959963"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257315"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Utilisez les fichiers journaux pour surveiller les données et résoudre les Microsoft Teams
 
@@ -46,7 +46,7 @@ Il est important de collecter les journaux dès qu’un problème se produit. Le
 
 - Mac : sélectionnez le menu Aide, puis **sélectionnez Recueillir les fichiers de support.**
 
-Les journaux de débogage, de bureau et multimédia sont collectés dans un dossier avec le nom Journal de _diagnostic MSTeams. \<local data and time\>_ Ce dossier peut être compressé et partagé lorsque vous ouvrez une demande de support auprès du Support Microsoft. Le dossier contiendra des dossiers pour bureau, réunion (média) et débogage (web). Vous pouvez collecter les fichiers à l’aide des raccourcis clavier suivants :
+Les journaux de débogage, de bureau et multimédia sont collectés dans un dossier avec le nom Journal de _diagnostic MSTeams. \<local date and time\>_ Ce dossier peut être compressé et partagé lorsque vous ouvrez une demande de support auprès du Support Microsoft. Le dossier contiendra des dossiers pour bureau, réunion (média) et débogage (web). Vous pouvez collecter les fichiers à l’aide des raccourcis clavier suivants :
 
 - Windows : <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
@@ -180,6 +180,6 @@ Les journaux WebRTC peuvent aider le Support Microsoft en fournissant des détai
 
 4.  Sélectionnez l’onglet avec le nom de l’Teams et enregistrez le contenu de la page.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Résolution des problèmes de Teams](/MicrosoftTeams/troubleshoot/teams)
