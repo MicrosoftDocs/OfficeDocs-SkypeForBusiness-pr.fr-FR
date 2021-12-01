@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9243dfedb11c9102673e821bd2fac9d06cf3c834
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: a991075ada39f5433e20230d6fabdfaebcb52aa9
+ms.sourcegitcommit: df26b435b2a7bb7561ddea74477f1ba988de9d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887292"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61245556"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>Déploiement de l’application Parents dans Microsoft Teams
 
@@ -39,7 +39,7 @@ L’application Parents permet aux enseignants de communiquer et de s’implique
   - Finalisation du processus d’fafa à [FastTrack.](https://www.microsoft.com/fasttrack?rtc=1)
   - Ouverture d’un ticket au [support.](https://aka.ms/sdssupport)
 
-### <a name="teams-admin-center---policies"></a>Teams Centre d’administration - Stratégies
+### <a name="teams-admin-center---policies"></a>Teams d’administration - Stratégies
 
 - Les propriétaires d’équipe de classe Teams conversation instantanée activée.
 - Les propriétaires d’équipe de classe doivent avoir un accès externe **avec Teams comptes non gérés par une organisation.** 
@@ -61,7 +61,7 @@ L’application Parents permet aux enseignants de communiquer et de s’implique
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-Le paramètre de stratégie qui active l’accès externe avec des comptes Teams non gérés par une organisation au niveau de l’utilisateur () est activé par défaut pour toutes les stratégies d’accès externe au niveau `EnableTeamsConsumerAccess` utilisateur. Le paramètre au niveau du client et le paramètre de stratégie au niveau utilisateur doivent être activés pour qu’un utilisateur accède à des comptes Teams non gérés par une organisation. Si vous ne souhaitez pas que tous les utilisateurs de votre client activent cet accès, vous devez vous assurer que votre paramètre au niveau du client est désactivé, mettre à jour les stratégies d’accès externe au niveau utilisateur attribuées à vos utilisateurs, puis activer le paramètre au niveau du client.
+Le paramètre de stratégie qui active l’accès externe avec des comptes Teams non gérés par une organisation au niveau de l’utilisateur () est activé par défaut pour toutes les stratégies d’accès externe au niveau `EnableTeamsConsumerAccess` utilisateur. Le paramètre au niveau du client et le paramètre de stratégie au niveau utilisateur doivent être activés pour qu’un utilisateur accède à l’extérieur avec des comptes Teams non gérés par une organisation. Si vous ne souhaitez pas que tous les utilisateurs de votre client activent cet accès, vous devez vous assurer que votre paramètre au niveau du client est désactivé, mettre à jour les stratégies d’accès externe au niveau utilisateur attribuées à vos utilisateurs, puis activer le paramètre au niveau du client.
 
 Pour vérifier les stratégies d’accès externe au niveau utilisateur et à qui elles sont affectées, vous pouvez utiliser la procédure suivante :
     
@@ -94,11 +94,11 @@ Une fois que les stratégies d’accès externe au niveau utilisateur sont corre
 
 - Définir les paramètres de configuration de la fédération pour votre client [: Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
-## <a name="disabling-the-parents-app"></a>Désactivation de l’application Parents
+## <a name="enabling-the-parents-app"></a>Activation de l’application Parents
 
-L’application Parents est activée par défaut, afin que tous les propriétaires d’équipe de classe voient l’application dans leurs équipes de classe. 
+L’application Parents est désactivée par défaut, de sorte que les propriétaires d’équipe de classe ne peuvent pas voir l’application dans leurs équipes de classe tant que l’application n’est pas autorisée via le Teams d’administration. L’application peut être autorisée via le Centre d Teams’administration à l’aide de l’application Autoriser [les applications bloquées par les éditeurs.](manage-apps.md#apps-blocked-by-publishers)
 
-L’application peut être désactivée [](manage-apps.md#allow-and-block-apps) au niveau du client à l’aide de l’application Autoriser et bloquer des applications dans le Microsoft Teams d’administration. Si l’application est désactivée au niveau du client, elle est bloquée pour tous les utilisateurs, même si les autorisations au niveau utilisateur sont activées.
+À tout moment, l’application peut être [](manage-apps.md#allow-and-block-apps) désactivée au niveau du client à l’aide de l’application Autoriser et bloquer des applications dans le Teams d’administration. Si l’application est désactivée au niveau du client, elle est bloquée pour tous les utilisateurs, même si les autorisations au niveau utilisateur sont activées.
 
 L’application peut également être désactivée au niveau de l’utilisateur à l’aide des stratégies [d’autorisation d’application Microsoft Teams.](teams-app-permission-policies.md)
 
