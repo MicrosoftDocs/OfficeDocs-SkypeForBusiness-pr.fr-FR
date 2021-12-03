@@ -1543,6 +1543,8 @@ items:
             href: teams-edu-licensing.md
           - name: Référence SKU pour l’éducation
             href: sku-reference-edu.md
+          - name: Appareils Teams pour l’éducation
+            href: devices-for-education.md
       - name: Teams pour les travailleurs de première ligne
         items:
           - name: Guide de démarrage rapide pour les travailleur de première ligne
@@ -1641,8 +1643,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams
             href: sharepoint-onedrive-interact.md
-      - name: Appareils Teams pour l’éducation
-        href: devices-for-education.md
       - name: Appareils pris en charge
         items:
           - name: Gérer vos périphériques dans Teams

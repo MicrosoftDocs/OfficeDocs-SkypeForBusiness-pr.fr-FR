@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d607a2ea0469ce3b88411bfe17ca8d54b76c7cc0
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: 97f45330404f6a42c4293e4205e82dc7188d4b9e
+ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055435"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "61284732"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
@@ -70,7 +70,7 @@ Les approbations créées à partir d’un modèle stockent toujours les donnée
 >[!Note]
 >Si vous supprimez le modèle de formulaire sur le site Microsoft Forms, votre modèle Approbation sera supprimé et les utilisateurs ne pourront pas démarrer la demande. Les utilisateurs obtiennent une erreur « CDB TableNotFound » lorsqu’ils essaient d’ouvrir un modèle d’approbation qui a été supprimé dans Microsoft Forms.
 
-Les modèles d’approbation sont stockés dans le centre de données Stockage (SDS), plateforme de stockage compatible utilisée en interne uniquement à l’intérieur de Microsoft. Les modèles dans l’étendue de l’organisation sont stockés dans « shard client » de SDS, et les modèles d’étendue de l’équipe dans des « shard de groupe » de SDS. Cela signifie que les modèles à l’échelle de l’organisation partagent la même durée de vie du client et les modèles d’équipe partagent la même durée de vie de l’équipe. Par conséquent, la suppression définitive de l’équipe supprime les modèles associés.
+Les modèles à l’échelle de l’organisation partagent la même durée de vie du client et les modèles d’équipe partagent la même durée de vie de l’équipe. Par conséquent, la suppression définitive de l’équipe supprime les modèles associés.
 
 ## <a name="approvals-teams-app-permissions"></a>Autorisations de l’application Autorisations Teams
 
@@ -120,7 +120,7 @@ L’application Approbations est disponible par défaut. Vous pouvez désactiver
 
   5. Sélectionnez le bouton bascule pour désactiver l’application pour votre organisation.
 
-     ![affiche les détails de l’application Approbations.](media/approvals-details-new.png)
+     :::image type="content" alt-text="affiche les détails de l’application Approbations." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
 ## <a name="retention-policy"></a>Stratégie de rétention
 

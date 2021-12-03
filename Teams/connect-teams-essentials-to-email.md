@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d113446971375ace51335a6654c8599f8d2c35b
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: 682f7bcd4e90e96534e954cd0e22c6f5952db08b
+ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257508"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "61284792"
 ---
 # <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>Connecter Microsoft Teams Essentials (AAD identité) vers un système de courrier existant avec le calendrier
 
@@ -285,7 +285,7 @@ Pour ajouter plusieurs utilisateurs en même temps, suivez les étapes recommand
 
 *Désactiver le Outlook sur le web pour les boîtes aux lettres*
 
-1. Suivez les instructions de [la zone Désactiver Outlook sur le web](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app&preserve-view=true) boîte aux lettres dans Exchange Online pour désactiver Outlook sur le web boîtes aux lettres.
+1. Suivez les instructions de la boîte aux lettres Activez ou désactivez Outlook sur le web boîte aux lettres dans [Exchange Online](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app) pour désactiver Outlook sur le web pour les boîtes aux lettres.
 
 2. Vous pouvez désactiver les Outlook sur le web à l’aide **du Centre Exchange’administration de** l’Exchange ou de **PowerShell.** Vous pouvez utiliser l’exemple PowerShell suivant pour désactiver Outlook sur le web pour toutes les boîtes aux lettres :
 
