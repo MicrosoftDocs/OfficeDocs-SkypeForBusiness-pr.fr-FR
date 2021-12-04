@@ -1,5 +1,5 @@
 ---
-title: Salles Microsoft Teams Sécurité
+title: Salles Microsoft Teams sécurité des données
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -15,32 +15,32 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Découvrez comment sécuriser vos Salles Microsoft Teams appareils mobiles.
-ms.openlocfilehash: ff5d79b02669f8b3da71396c2bd1eb2348575cf3
-ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.openlocfilehash: 7043b49406b0865ef38108519040374d792ac1dd
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60824582"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306109"
 ---
-# <a name="microsoft-teams-rooms-security"></a>Salles Microsoft Teams Sécurité
+# <a name="microsoft-teams-rooms-security"></a>Salles Microsoft Teams sécurité des données
 
 Microsoft collabore avec nos partenaires pour fournir une solution sécurisée qui ne nécessite aucune action supplémentaire pour sécuriser les Salles Microsoft Teams. Cet article traite de nombreuses fonctionnalités de sécurité qui se trouvent dans salles Teams.
 
 > [!NOTE]
-> Salles Microsoft Teams ne doivent pas être traités comme une station de travail classique d’utilisateur final. Non seulement les cas d’utilisation sont très différents, mais les profils de sécurité par défaut sont également très différents.
+> Salles Microsoft Teams ne doivent pas être traités comme des stations de travail classiques d’utilisateurs. Non seulement les cas d’utilisation sont très différents, mais les profils de sécurité par défaut sont également très différents.
 > Cet article s’applique Salles Microsoft Teams appareils en cours d’Windows.
 
-Des données d’utilisateur final limitées sont stockées sur salles Teams. Les données des utilisateurs finaux peuvent être stockées dans les fichiers journaux à des finaux de résolution des problèmes et d’assistance uniquement. À aucun moment un participant à une réunion ne peut utiliser salles Teams copier des fichiers sur le disque dur ou se connecter en tant que lui-même. Aucune donnée de l’utilisateur final n’est transférée ou accessible par l’Salles Microsoft Teams’appareil.
+Des données d’utilisateur final limitées sont stockées sur salles Teams. Les données des utilisateurs finaux peuvent être stockées dans les fichiers journaux à des finaux de résolution des problèmes et d’assistance uniquement. À aucun moment un participant à une réunion ne peut utiliser salles Teams copier des fichiers sur le disque dur ou se connecter en tant que lui-même. Aucune donnée de l’utilisateur final n’est transférée ou accessible par le Salles Microsoft Teams appareil.
 
 Même si les utilisateurs finaux ne peuvent pas placer de fichiers sur salles Teams disque dur, Microsoft Defender est toujours activé. salles Teams performances de l’entreprise sont testées avec Microsoft Defender. La désactivation de ce logiciel ou l’ajout d’un logiciel de sécurité de point de terminaison peut entraîner des résultats imprévisibles et une dégradation potentielle du système.
 
 ## <a name="hardware-security"></a>Sécurité matérielle
 
-Dans un salles Teams de calcul, un module de calcul central est Windows 10 IoT Entreprise édition. Chaque module de calcul certifié doit avoir une solution de montage sécurisée, un logement de verrouillage de sécurité (par exemple, le verrouillage ) et des mesures de sécurité d’accès par port I/O pour empêcher la connexion d’appareils non autorisés. Vous pouvez également désactiver des ports spécifiques via une configuration UEFI (Unified Extensible Firmware Interface).
+Dans un salles Teams de calcul, un module de calcul central est Windows 10 IoT Entreprise édition. Chaque module de calcul certifié doit avoir une solution d’attache sécurisée, un logement de verrouillage de sécurité (par exemple, le verrouillage ) et des mesures de sécurité d’accès par port I/O pour empêcher la connexion d’appareils non autorisés. Vous pouvez également désactiver des ports spécifiques via une configuration UEFI (Unified Extensible Firmware Interface).
 
 Chaque module de calcul certifié doit être fourni avec la technologie compatible TPM (Trusted Platform Module) 2.0 activée par défaut. La gestion des données TPM sert à chiffrer les informations de connexion du salles Teams ressource.
 
-Le démarrage sécurisé est activé par défaut. Le démarrage sécurisé est une norme de sécurité développée par les membres du secteur des PC pour s’assurer qu’un démarrage d’appareil n’utilise que des logiciels de confiance par le fabricant d’ordinateurs (OEM). Lorsque le PC démarre, le microprogramme vérifie la signature de chaque élément du logiciel de démarrage, y compris les pilotes de microprogramme UEFI (également appelés roms d’options), les applications EFI et le système d’exploitation. Si les signatures sont valides, le pc démarre et le microprogramme donne le contrôle au système d’exploitation. Pour plus d’informations, voir [Démarrage sécurisé.](/windows-hardware/design/device-experiences/oem-secure-boot)
+Le démarrage sécurisé est activé par défaut. Le démarrage sécurisé est une norme de sécurité développée par les membres du secteur des PC pour s’assurer qu’un démarrage d’appareil n’utilise que des logiciels de confiance par le fabricant d’ordinateurs (OEM). Lorsque le PC démarre, le microprogramme vérifie la signature de chaque logiciel de démarrage, y compris les pilotes de microprogramme UEFI (également appelés roms d’options), les applications EFI et le système d’exploitation. Si les signatures sont valides, le pc démarre et le microprogramme donne le contrôle au système d’exploitation. Pour plus d’informations, voir [Démarrage sécurisé.](/windows-hardware/design/device-experiences/oem-secure-boot)
 
 L’accès aux paramètres UEFI n’est possible qu’en attachant un clavier physique et une souris. Cela empêche d’accéder à UEFI via la console tactile salles Teams ainsi que tout autre écran tactile connecté à salles Teams.
 
@@ -50,13 +50,13 @@ La protection DMA (Kernel Direct Memory Access) est un paramètre Windows 10 act
 
 - Contre la DMA malveillante par les appareils connectés à des ports internes/externes facilement accessibles, tels que les emplacements du PCIe M.2 et Thunderbolt 3, pendant l’runtime du système d’exploitation.
 
-salles Teams’intégrité du code protégé par l’hyperviseur (HVCI). L’une des fonctionnalités fournies par HVCI est Credential Guard. Credential Guard offre les avantages suivants :
+salles Teams’intégrité du code protégé par l’hyperviseur (HVCI). Credential Guard est une des fonctionnalités fournies par HVCI. Credential Guard offre les avantages suivants :
 
 - **Sécurité matérielle** NTLM, Kerberos et le Gestionnaire d’informations d’identification tirez parti des fonctionnalités de sécurité de la plateforme, notamment le démarrage sécurisé et la virtualisation, pour protéger les informations d’identification.
 
 - **Les informations d’identification** dérivées et d’autres secrets Windows NTLM et Kerberos sont exécutés dans un environnement protégé isolé du système d’exploitation en cours d’exécution.
 
-- **Meilleure protection contre les menaces persistantes avancées** Lorsque les informations d’identification de domaine du Gestionnaire d’informations d’identification, NTLM et Kerberos dérivées sont protégées à l’aide de la sécurité basée sur la virtualisation, les techniques d’attaque par vol d’informations d’identification et les outils utilisés dans de nombreuses attaques ciblées sont bloqués. Les programmes malveillants en cours d’exécution dans le système d’exploitation avec des privilèges d’administration ne peuvent pas extraire des secrets protégés par une sécurité basée sur la virtualisation.
+- **Meilleure protection contre les menaces persistantes avancées** Lorsque les informations d’identification de domaine du Gestionnaire d’informations d’identification, NTLM et Kerberos dérivées sont protégées à l’aide de la sécurité basée sur la virtualisation, les techniques et outils d’attaque par vol d’informations d’identification utilisés dans de nombreuses attaques ciblées sont bloqués. Les programmes malveillants en cours d’exécution dans le système d’exploitation avec des privilèges d’administration ne peuvent pas extraire des secrets protégés par une sécurité basée sur la virtualisation.
 
 ## <a name="software-security"></a>Sécurité logicielle
 
@@ -65,11 +65,11 @@ Une fois que Microsoft Windows, salles Teams automatiquement à un compte d’Wi
 > [!IMPORTANT]
 > Ne modifiez pas le mot de passe ou ne modifiez pas le compte d’Skype’utilisateur local. Cela permet d’salles Teams la salles Teams automatiquement.
 
-L’Salles Microsoft Teams s’exécute à l’aide de la fonctionnalité Accès affecté Windows 10 1903 et ultérieure. L’accès affecté est une fonctionnalité Windows 10 qui limite les points d’entrée d’application exposés à l’utilisateur. C’est ce qui active le mode d’une seule application kiosk. Grâce à Shell Lanceur, salles Teams est configuré comme un appareil borne qui exécute une application de bureau Windows l’interface utilisateur. L Salles Microsoft Teams appil remplace l’shell par défaut (explorer.exe) qui s’exécute généralement lorsqu’un utilisateur se connecte. En d’autres termes, le shell traditionnel de l’Explorateur n’est pas lancé. Cela réduit considérablement la surface de Salles Microsoft Teams à l’intérieur Windows. Pour plus d’informations, voir Configurer des bornes et des panneaux [numériques Windows éditions de bureau.](/windows/configuration/kiosk-methods)
+L Salles Microsoft Teams’application s’exécute à l’aide de la fonctionnalité Accès affecté Windows 10 1903 et ultérieure. L’accès affecté est une fonctionnalité Windows 10 qui limite les points d’entrée d’application exposés à l’utilisateur. C’est ce qui active le mode d’une seule application kiosk. Grâce à Shell Lanceur, salles Teams est configuré comme un appareil borne qui exécute une application de bureau Windows l’interface utilisateur. L Salles Microsoft Teams appil remplace l’shell par défaut (explorer.exe) qui s’exécute généralement lorsqu’un utilisateur se connecte. En d’autres termes, le shell traditionnel de l’Explorateur n’est pas lancé. Cela réduit considérablement la surface de Salles Microsoft Teams à l’intérieur Windows. Pour plus d’informations, voir Configurer des bornes et des panneaux [numériques Windows éditions de bureau.](/windows/configuration/kiosk-methods)
 
 Si vous décidez d’exécuter une analyse de sécurité ou un centre de sécurité Internet sur salles Teams, l’analyse peut uniquement s’exécuter dans le contexte d’un compte d’administrateur local, car le compte d’utilisateur Skype ne prend pas en charge l’exécution d’applications autres que l’application salles Teams. Bon nombre des fonctionnalités de sécurité appliquées au contexte d’utilisateur Skype ne s’appliquent pas aux autres utilisateurs locaux et, par conséquent, ces analyses de sécurité n’entraînent pas le verrouillage complet de la sécurité appliqué au compte Skype. Par conséquent, il n’est pas recommandé d’exécuter une analyse locale sur salles Teams. Toutefois, si vous le souhaitez, vous pouvez exécuter des tests de déficit externe. Pour cette raison, nous vous recommandons d’exécuter des tests de déficit extérieur sur salles Teams appareils au lieu d’exécuter des analyses locales.
 
-En outre, des stratégies de verrouillage sont appliquées afin de limiter l’utilisation des fonctionnalités non administratives. Un filtre clavier est activé pour intercepter et bloquer les combinaisons de claviers potentiellement incursées par les stratégies Accès affecté. Seuls les utilisateurs ayant des droits d’administration locaux ou de domaine sont autorisés à se Windows pour gérer salles Teams. Ces stratégies ainsi que d’autres Windows sur Salles Microsoft Teams appareils sont évaluées et testées en permanence pendant le cycle de vie du produit.
+En outre, des stratégies de verrouillage sont appliquées afin de limiter l’utilisation des fonctionnalités non administratives. Un filtre clavier est activé pour intercepter et bloquer les combinaisons de claviers éventuellement en cours qui ne sont pas couvertes par les stratégies Accès affecté. Seuls les utilisateurs ayant des droits d’administration locaux ou de domaine sont autorisés à se Windows pour gérer salles Teams. Ces stratégies ainsi que d’autres appliquées Windows sur Salles Microsoft Teams appareils sont évaluées et testées en permanence pendant le cycle de vie du produit.
 
 ## <a name="account-security"></a>Sécurité du compte
 
@@ -82,12 +82,15 @@ Le compte d’administrateur n’est pas requis pour une opération appropriée 
 
 Vous pouvez également importer des comptes de domaine dans le groupe administrateur Windows local. Vous pouvez le faire pour Azure AD comptes à l’aide d’Intune. Pour plus d’informations, [voir Stratégie CSP – Groupes restreints.](/windows/client-management/mdm/policy-csp-restrictedgroups)
 
+> [!NOTE]
+> Si vous utilisez des consoles Crestron, assurez-vous également de mettre à jour le mot de passe administrateur sur la console et sur le module de calcul. Pour plus d’informations, contactez Crestron.
+
 > [!CAUTION]
 > Si vous supprimez ou désactivez le compte administrateur avant d’octroyer des autorisations d’administrateur local à un autre compte local ou de domaine, vous risquez de perdre la possibilité d’administrer le salles Teams appareil. Dans ce cas, vous devrez réinitialiser l’appareil à ses paramètres d’origine et terminer le processus de configuration à nouveau.
->
-> N’accordez pas d’autorisations d’administrateur local au Skype utilisateur.
 
-Windows Configuration Designer peut être utilisé pour créer Windows 10 packages d’approvisionnement. Outre la modification du mot de passe administrateur local, vous pouvez également modifier le nom de l’ordinateur et vous inscrire à Azure Active Directory. Pour plus d’informations sur la création d’un package Windows Configuration Designer, voir Packages d’approvisionnement [pour Windows 10.](/windows/configuration/provisioning-packages/provisioning-packages)
+N’accordez pas d’autorisations d’administrateur local au Skype utilisateur.
+
+Windows Configuration Designer peut être utilisé pour créer des packages Windows 10 approvisionnement. Outre la modification du mot de passe administrateur local, vous pouvez également modifier le nom de l’ordinateur et vous inscrire à Azure Active Directory. Pour plus d’informations sur la création d’un package Windows Configuration Designer, voir [Packages d’approvisionnement pour Windows 10.](/windows/configuration/provisioning-packages/provisioning-packages)
 
 Vous devez créer un compte de ressource pour chaque salles Teams appareil afin qu’il puisse se Teams. Vous ne pouvez pas utiliser l’authentification à deux facteurs ou multifacteur avec ce compte. La nécessité d’utiliser un deuxième facteur empêcherait le compte de se connecter automatiquement à l’salles Teams’application après un redémarrage. Toutefois, vous pouvez activer l’authentification moderne pour plus de sécurité pour ce compte. En outre, des stratégies d’accès conditionnel basées sur l’emplacement peuvent être déployées pour le compte de ressource afin d’empêcher que vous ne vous y soyez pas ouvert. Pour plus d’informations, voir [Utiliser la condition d’emplacement dans une stratégie d’accès conditionnel](/azure/active-directory/conditional-access/location-condition)
 
@@ -95,7 +98,7 @@ Nous vous recommandons de créer le compte de ressource Azure AD, si possible. B
 
 ## <a name="network-security"></a>Sécurité réseau
 
-En règle générale, salles Teams a la même exigences réseau que n’importe quel Microsoft Teams client. L’accès via les pare-feu et autres appareils de sécurité est le même pour les salles Teams que pour tout autre client Microsoft Teams sécurité. Spécifiques aux salles Teams, les catégories répertoriées comme « requises » pour Teams doivent être ouvertes sur votre pare-feu. salles Teams a également besoin d’accéder à Windows Jour, Microsoft Store et Microsoft Intune (si vous utilisez Microsoft Intune pour gérer vos appareils). Pour obtenir la liste complète des ADRESSES ET URL requises pour Salles Microsoft Teams, voir :
+En règle générale, salles Teams a la même exigences réseau que n’importe quel Microsoft Teams client. L’accès via les pare-feu et autres appareils de sécurité est le même pour les salles Teams que pour tout autre client Microsoft Teams sécurité. Spécifiques aux salles Teams, les catégories répertoriées comme « requises » pour Teams doivent être ouvertes sur votre pare-feu. salles Teams a également besoin d’accéder à Windows jour, Microsoft Store et Microsoft Intune (si vous utilisez Microsoft Intune pour gérer vos appareils). Pour obtenir la liste complète des ADRESSES ET URL requises pour Salles Microsoft Teams, voir :
 
 - **Microsoft Teams** [Office 365 URL et plages d’adresses IP](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
 - **Windows à jour** [Configurez WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
@@ -127,8 +130,8 @@ Pour optimiser les performances optimales des médias en temps réel, nous vous 
 > [!IMPORTANT]
 > salles Teams ne prend pas en charge les serveurs proxy authentifiés.
 
-salles Teams’appareils n’ont pas besoin de se connecter à un réseau laN interne. Envisagez de placer des salles Teams dans un segment réseau sécurisé avec un accès Internet direct. Si votre réseau lan interne est compromis, les opportunités d’attaque du salles Teams sont réduites.
+salles Teams’appareils n’ont pas besoin de se connecter à un réseau laN interne. Envisagez de placer des salles Teams dans un segment réseau sécurisé avec un accès Internet direct. Si votre laN interne devient compromise, les opportunités d’attaque du vecteur d’salles Teams sont réduites.
 
 Nous vous recommandons vivement de connecter vos salles Teams à un réseau câblé. L’utilisation de réseaux sans fil sur salles Teams appareils mobiles n’est ni recommandée ni certifiée. Certaines fonctionnalités de connectivité, telles que Wi-Fi Sense, sont désactivées par défaut.
 
-Les fonctionnalités de jointité de proximité salles Teams reposent sur Bluetooth. Toutefois, l Bluetooth implémentation en cours sur salles Teams appareils externes n’autorise pas une connexion d’appareil externe à salles Teams appareil. Bluetooth l’utilisation de la technologie salles Teams appareils mobiles est actuellement limitée à la publicité des balises et aux connexions proximales invités. Le `ADV_NONCONN_INT` type d’unité de données du protocole (PDU) est utilisé dans la balise publicitaire. Ce type de PDU s’agit d’appareils non connectables qui annoncent des informations sur le périphérique d’écoute. Il n’est pas Bluetooth le coupage d’appareil dans le cadre de ces fonctionnalités. Des informations supplémentaires sur Bluetooth protocoles d’entreprise sont Bluetooth site web [de sig.](https://www.bluetooth.com/blog/bluetooth-low-energy-it-starts-with-advertising/)
+Les fonctionnalités de jointité de proximité salles Teams reposent sur Bluetooth. Toutefois, l Bluetooth implémentation en cours sur salles Teams appareils externes n’autorise pas une connexion d’appareil externe à salles Teams appareil. Bluetooth’utilisation de la technologie salles Teams appareils mobiles est actuellement limitée à la publicité des balises et aux connexions proximales invités. Le `ADV_NONCONN_INT` type d’unité de données du protocole (PDU) est utilisé dans la balise publicitaire. Ce type de PDU s’agit d’appareils non connectables qui annoncent des informations sur le périphérique d’écoute. Il n’est pas Bluetooth le coupage d’appareil dans le cadre de ces fonctionnalités. Des informations supplémentaires sur Bluetooth protocoles d’entreprise sont Bluetooth site web du [groupe SIG.](https://www.bluetooth.com/blog/bluetooth-low-energy-it-starts-with-advertising/)

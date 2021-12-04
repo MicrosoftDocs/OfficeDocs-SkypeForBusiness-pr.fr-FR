@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 34662a04f24c8699f451d561aecc86f8315cffca
-ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
+ms.openlocfilehash: 4126e8fde512089a2036e25c59f9510d46546738
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61216620"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306319"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certifiés
 
@@ -186,9 +186,12 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.8.0`          | Mise à jour 2021 n°2    |
+| Poly Studio X50 | `3.8.0`          | Mise à jour 2021 n°2    |
+| Poly TC8        | `3.8.0`          | Mise à jour 2021 n°2    |
 | Poly Studio X30 | `3.7.0`          | Mise à jour pour 2021 #2A    |
 | Poly Studio X50 | `3.7.0`          | Mise à jour pour 2021 #2A    |
-| Poly TC8 | `3.7.0`                 | Mise à jour pour 2021 #2A    |
+| Poly TC8        | `3.7.0`          | Mise à jour pour 2021 #2A    |
 | Poly Studio X30 | `3.6.0.350035`          | Mise à jour pour 2021 #2A    |
 | Poly Studio X50 | `3.6.0.350035`        | Mise à jour pour 2021 #2A    |
 | Poly TC8 | `3.6.0.210534`              | Mise à jour pour 2021 #2A    |

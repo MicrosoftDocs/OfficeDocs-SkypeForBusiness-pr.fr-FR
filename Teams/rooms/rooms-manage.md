@@ -15,31 +15,32 @@ ms.collection:
 - M365-collaboration
 description: Découvrez comment développer et exécuter la maintenance et les opérations continues pour vous assurer que vos systèmes Salles Microsoft Teams sont disponibles pour vos utilisateurs.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 406f083f41b0d07f6cafff273de071f11d0f2e94
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 4f326f58bea724dbf1d728955ee1d63b018ba628
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462308"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306289"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gérer les Salles Microsoft Teams
 
-Si vous avez des Salles Microsoft Teams certifiés dans votre organisation, vous avez des options de gestion flexibles.  Vous pouvez gérer les appareils vous-même dans le même emplacement central que celui où vous gérez toutes vos solutions Teams, le Centre d’administration Microsoft Teams ou transférer vos responsabilités de gestion à des experts dédiés utilisant les services gérés [Salles Microsoft Teams.](https://portal.rooms.microsoft.com)  Vous pouvez également déléguer l’accès de gestion à un partenaire de votre choix pour l’une ou l’autre des options.
+Si vous avez des Salles Microsoft Teams certifiés dans votre organisation, vous avez des options de gestion flexibles.  Vous pouvez gérer les appareils vous-même dans le même emplacement central que celui où vous gérez toutes Teams solutions, Microsoft Teams Centre d’administration. Vous pouvez également transférer la responsabilité de la gestion à des experts dédiés à l’aide [Salles Microsoft Teams services gérés.](https://portal.rooms.microsoft.com)  Vous pouvez également déléguer l’accès de gestion à un partenaire de votre choix pour l’une ou l’autre des options.
 
-Avec Microsoft Teams Centre d’administration, vous pouvez :
+Avec Microsoft Teams d’administration, vous pouvez :
 
 - Effectuer une gestion des appareils telle que le redémarrage des appareils et le téléchargement des journaux des appareils
 - Appliquer Teams paramètres spécifiques
 - Vérifier l’état d’Microsoft Teams périphériques de la salle et de ses périphériques, notamment les caméras, les écrans, les microphones, et ainsi de suite.
-- Passer en revue l’activité des réunions passées et présentes (par exemple, détails sur la qualité des appels, l’état du réseau et la connectivité, et nombre de participants)
+- Passer en revue l’activité en cours et passée des réunions (par exemple, détails sur la qualité des appels, l’état du réseau et la connectivité, et nombre de participants)
 - Voir les périphériques (tels que les caméras et les projecteurs) connectés à un Microsoft Teams de salle
 
-Pour gérer salles Teams appareils mobiles, ouvrez le Centre [Microsoft Teams’administration](https://admin.teams.microsoft.com) des appareils mobiles et Teams **la**  >  salles Teams.
+Pour gérer salles Teams appareils mobiles, ouvrez le Centre [Microsoft Teams’administration](https://admin.teams.microsoft.com) et Teams la gestion des salles Teams   >  **sur Windows.**
 
-:::image type="content" source="../media/teams-rooms-summary.png" alt-text="salles Teams pages de synthèse dans Teams centre d’administration.":::
+:::image type="content" source="../media/teams-rooms-summary2.png" alt-text="salles Teams de synthèse dans Teams centre d’administration.":::
+
 
 > [!IMPORTANT]
-> Pour gérer les appareils à l’Teams d’administration, vous devez avoir accès aux rôles Administrateur général, Administrateur Teams administrateur de périphériques ou Administrateur Teams périphériques.
+> Pour gérer les appareils à l’Teams d’administration de votre appareil, vous devez avoir les rôles Administrateur général, Administrateur Teams périphérique ou Administrateur d Teams périphérique.
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>Apporter des modifications à salles Teams appareils
 
@@ -56,7 +57,7 @@ Si vous sélectionnez plusieurs appareils, les paramètres qui supportent la mod
     > [!CAUTION]
     > Les valeurs existantes des paramètres que vous choisissez de mettre à jour seront remplacées par la valeur que vous fournissez. Si vous voulez ajouter des valeurs à une liste de valeurs existantes, vous devez inclure les valeurs existantes avec la valeur que vous voulez ajouter. Par exemple, si un paramètre possède une liste de domaines existante et que vous voulez ajouter, la valeur que vous `contoso.com, fabrikam.com` `northwindtraders.com` devez fournir serait `contoso.com, fabrikam.com, northwindtraders.com` .
     >
-    > Si vous sélectionnez plusieurs appareils, le paramètre de tous les appareils sélectionnés sera modifié en fonction de la valeur que vous fournissez. Si les appareils ont des valeurs différentes pour un paramètre, ils sont tous mis à jour avec la même valeur.
+    > Si vous sélectionnez plusieurs périphériques, le paramètre de tous les appareils sélectionnés sera modifié en fonction de la valeur que vous fournissez. Si les appareils ont des valeurs différentes pour un paramètre, ils sont tous mis à jour avec la même valeur.
 
 | Paramètres                                                      | Valeurs acceptées                                        | Prend en charge la modification en bloc |
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
@@ -100,13 +101,13 @@ Pour en savoir plus sur la configuration de votre appareil à l’aide du fichie
 
 Au niveau de l’appareil, vous pouvez configurer Cortana à activer pour :
 - _Appuyer pour parler à l’aide_ de PowerShell  
-  - Comment l’activer : Cortana _Push to talk_ est activé par défaut pour tous les appareils qui sont configurer avec des paramètres régionaux, quelle que soit la région géographique
+  - Comment l’activer : Cortana _Push to talk_ est activé par défaut pour tous les appareils qui sont configurer avec des paramètres régionaux, quelle que soit la zone géographique.
   - Comment le désactiver : utiliser PowerShell. 
 - _Activation vocale à l’aide_ d’un fichier de configuration XML ou Teams centre d’administration.
   - Comment l’activer : définir dans le fichier de configuration XML ou utiliser le paramètre correspondant dans Teams `<CortanaWakeWord>true</>` d’administration
   - Comment le désactiver : l’activation Cortana voix est désactivation par défaut 
   
-  Gardez à l’esprit que trois conditions doivent être remplies pour que Cortana _activation vocale_ sur votre appareil :
+  N’oubliez pas que trois conditions doivent être remplies pour que Cortana _activation vocale_ sur votre appareil :
     1. Votre organisation doit avoir Cortana activée
     2. Votre appareil doit être avec l’un des paramètres régionaux suivants : en-au, en-ca, en-gb, en-in, en-us
     3. Vous devez avoir un Cortana certifié connecté à votre salle Teams [En savoir plus](/microsoftteams/cortana-in-teams)   
@@ -115,8 +116,8 @@ Au niveau de l’appareil, vous pouvez configurer Cortana à activer pour :
 
 Les modifications apportées aux paramètres de l’appareil ne prennent effet qu’après le redémarrage des appareils. Lorsque vous a apporter des modifications qui ont besoin d’un redémarrage, vous pouvez choisir de redémarrer immédiatement les appareils ou de planifier un redémarrage. Voici les options de redémarrage disponibles :
 
-- **Redémarrage immédiat** Si vous choisissez cette option, tous les appareils que vous modifiez redémarreront dès que vous sélectionnerez cette option.
-- **Redémarrage prévu** Si vous choisissez cette option, vous pouvez redémarrer les appareils que vous modifiez à un moment moins perturbateur pour votre organisation.
+- **Redémarrage immédiat** Si vous choisissez cette option, tous les appareils que vous modifiez redémarreront dès que vous aurez sélectionné cette option.
+- **Redémarrage prévu** Si vous choisissez cette option, vous pouvez redémarrer les appareils sur qui vous a apporter des modifications à un moment moins perturbateur pour votre organisation.
   - **Sélectionnez la date et l’heure** : choisissez la date et l’heure spécifiques pour redémarrer l’appareil. La date et l’heure choisies sont locales pour l’appareil en cours de redémarrage. 
   - **Laisser la mise à jour pour le redémarrage nocturne** Les appareils sont redémarrés chaque nuit pour effectuer une maintenance. Les modifications que vous a apportées aux appareils seront appliquées pendant ce redémarrage.
 
@@ -131,7 +132,7 @@ Si vous supprimez un appareil alors qu’il est toujours configuré avec un nom 
 
 Pour supprimer un ou plusieurs appareils, vous pouvez :
 
-1. Sélectionnez **Teams la**  >  **salles Teams** et sélectionnez les appareils que vous voulez supprimer.
+1. Sélectionnez **Teams périphériques**  >  **salles Teams** et sélectionnez les appareils que vous voulez supprimer.
 1. Sélectionnez **Supprimer**.
 
 ## <a name="download-device-logs"></a>Télécharger les journaux de l’appareil
@@ -140,7 +141,7 @@ Vous pouvez télécharger une copie des fichiers journaux de diagnostic d’un a
 
 Pour télécharger les journaux d salles Teams appareil sur votre ordinateur, vous pouvez :
 
-1. Allez à **Teams la** salles Teams et sélectionnez le nom de l’appareil à partir de qui vous voulez télécharger les  >   journaux.
+1. Allez sur **Teams la** salles Teams et sélectionnez le nom de l’appareil à partir de qui vous voulez télécharger les  >   journaux.
 1. Sélectionnez **Télécharger les journaux de l’appareil.** L’accès aux journaux de l’appareil peut prendre plusieurs minutes.
 1. Sélectionnez **l’onglet** Historique, puis sélectionnez le lien du fichier journal sous **Fichier diagnostics.** Un fichier zip contenant les fichiers journaux de diagnostic de votre appareil est téléchargé dans le dossier Téléchargements par défaut de votre navigateur.
 
@@ -158,8 +159,8 @@ Pour afficher des informations détaillées sur un appareil, sélectionnez son n
 
 - **État d’état** Présente l’état global de l’appareil Teams salle. L’état de santé peut être **sain** **ou défectueux.**
 - **Hors connexion depuis** Indique la dernière fois que Microsoft 365 pu communiquer avec l’appareil.
-- **État de l’appareil** Indique l’état actuel de l’appareil : **Inactive,** réunion **Teams,** réunion Skype **réunion** ou **Ingest.**
-- **Périphériques** Affiche les périphériques connectés à votre périphérique Teams de salle et leur état d’état. L’état d’état peut **être Connecté** **ou Déconnecté.**
+- **État de l’appareil** Indique l’état actuel de l’appareil : **Inactive,** réunion **Teams,** **réunion Skype** réunion ou **Ingest.**
+- **Périphériques** Affiche les périphériques connectés à votre Teams de salle et leur état d’état. L’état d’état peut **être Connecté** **ou Déconnecté.**
 - **État d’santé** Affiche des informations détaillées sur les périphériques connectés à votre appareil salle Teams, la connectivité réseau, l’état de connexion aux services requis et les informations de version logicielle.
 - **Détails** Affiche les informations du fabricant, l’adresse IP réseau et l’Teams de série/MAC du périphérique de salle de réunion.
 - **Activité** Affiche les détails de la réunion passée, notamment la date et l’heure de la réunion, le nombre de participants, la durée et la qualité audio. Pour plus d’informations sur les détails de la réunion, voir la section [détails](#meeting-activity-details) sur l’activité de la réunion plus loin dans cet article.
@@ -169,18 +170,18 @@ Pour afficher des informations détaillées sur un appareil, sélectionnez son n
 
 **L’onglet** Activité Teams détails de l’appareil de salle affiche des informations détaillées et générales sur toutes les réunions à qui l’appareil a participé au fil du temps. Dans **l’onglet** Activité, vous pouvez voir quand une réunion a été tenue, le nombre de participants à la réunion participé à la réunion et la qualité de l’audio pendant la réunion.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Liste de résumé de l’activité sur les appareils de salle.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams résumé de l’activité sur les appareils de salle.":::
 
-Pour voir les informations détaillées sur une réunion spécifique, sélectionnez la date et l’heure de la réunion pour plus d’informations. Si une réunion ne compte que deux participants, vous verrez la page des détails des participants, sinon vous verrez une page de résumé des participants.
+Pour voir les informations détaillées sur une réunion spécifique, sélectionnez la date et l’heure de la réunion pour plus d’informations. Si une réunion ne compte que deux participants, vous verrez la page des détails des participants, sans quoi vous verrez une page de résumé des participants.
 
 ##### <a name="participant-summary"></a>Résumé des participants
 
 La page de résumé des participants affiche tous les participants qui ont participé à la réunion. Vous pouvez voir quand chaque participant a rejoint la réunion, son nom, sa qualité audio et les fonctionnalités utilisées pendant la session. Pour afficher les détails de la session d’un participant, sélectionnez l’heure de début de la session pour ce participant.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams Détails de la conférence sur les appareils de salle.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams de conférence de l’appareil de salle.":::
 
 ##### <a name="participant-details"></a>Détails du participant
 
-La page des détails du participant affiche des informations de diagnostic de bout en bout pour la session de ce participant. Comme illustré dans le graphique **suivant,** les informations sur l’appareil, le système et la connectivité sont fournies pour le participant et pour salles Teams appareil.  **Les informations** de diagnostic réseau entre le participant et salles Teams appareil sont également fournies. Sélectionnez l’icône du contexte pour lequel vous souhaitez plus d’informations. Pour plus d’informations de diagnostic, sélectionnez **l’onglet** Avancé.
+La page des détails du participant affiche des informations de diagnostic de bout en bout pour la session de ce participant. Comme illustré dans le graphique **suivant,** les informations sur le **périphérique,** le système et la connectivité sont fournies pour le participant et pour salles Teams appareil.  **Les informations** de diagnostic réseau entre le participant et salles Teams appareil sont également fournies. Sélectionnez l’icône du contexte pour lequel vous souhaitez plus d’informations. Pour plus d’informations de diagnostic, sélectionnez **l’onglet** Avancé.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Détails d’appel de l’appareil de salle.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams d’appel de l’appareil de salle.":::

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Découvrez les conditions requises pour la prise en charge Salles Microsoft Teams, notamment le choix du périphérique approprié, des microphones, des haut-parleurs, des caméras et des écrans.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a96fd2ee05b60a8147574678bc2afed89ad5be2d
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 8524f1481c98425e726f902a76ce82ce536ed419
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959923"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306129"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Spécifications des salles Microsoft Teams
 
@@ -28,15 +28,14 @@ Salles Microsoft Teams plusieurs tailles de pièce. salles Teams utiliser un lar
 
 Cet article résume la configuration requise pour le déploiement et la configuration des appareils pour la prise en charge des salles Microsoft Teams.
 
-Votre déploiement nécessite la création d’un compte comme décrit dans [Déployer les salles Microsoft Teams](rooms-deploy.md) et configurer les consoles de réunion, comme décrit dans [Configurer une console des salles Microsoft Teams](console.md).
+Votre déploiement implique la création et la configuration d’un compte de ressource pour les ressources, comme salles Teams décrit dans La mise à [Salles Microsoft Teams.](rooms-deploy.md)
 
 Reportez-vous à :
 
-- [Licences de complément Skype Entreprise](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [Options de licence en fonction de votre offre : Salles Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Options de licence en fonction de votre offre : Salles Microsoft Teams](rooms-licensing.md)
 
 > [!NOTE]
-> Les salles Microsoft Teams se connectent à Microsoft Teams, Skype Entreprise Server 2019, Skype Entreprise Server 2015 ou Skype Entreprise Online, et peuvent participer à des réunions hébergées par l’un de ces services.
+> Salles Microsoft Teams vous connectez à Microsoft Teams, Skype Entreprise Server 2019 ou Skype Entreprise Server 2015 et peuvent participer à des réunions hébergées par l’un de ces services.
 >
 > Les plateformes antérieures telles que Lync Server 2013 ne sont pas prises en charge par les salles Microsoft Teams. Salles Microsoft Teams n’est pas pris en charge dans Microsoft 365 ou Office 365 les environnements 21Vianet ou DoD.
 >
@@ -201,7 +200,7 @@ Ces appareils sont disponibles dans la [Vitrine de produits d'accessoires pour l
 
 #### <a name="usb-extenders"></a>Extensions USB
 
-- Les ports USB sur les stations d’accueil de tablettes sont compatibles USB 3.0. Vous pouvez utiliser une extension USB 2.x, mais cela vous limite aux vitesses USB 2.x à l'extrémité. Les extensions ne sont pas recommandées pour les périphériques USB 3.0.
+- Les ports USB sur les stations d’accueil de tablettes sont compatibles USB 3.0. Vous pouvez utiliser un extension USB 2.x, mais vous serez limité à la vitesse USB 2.x à l’extrémité droite. Les extensions ne sont pas recommandées pour les périphériques USB 3.0.
 - Une extension doit répondre aux spécifications USB 2.0 ou plus récentes.
   - Les stations d’accueil de tablette prennent en charge au moins deux phases d’extension de concentrateur USB externe. Si vous connectez plus de deux concentrateurs USB en série, contactez le fabricant de la station d’accueil pour confirmer qu’il prend en charge la connexion en série.
   - Connexion GbE dans la salle. Câble Ethernet de longueur adéquate
@@ -235,14 +234,6 @@ Les tableaux suivants fournissent des recommandations pour les périphériques b
  > [!NOTE]
  > La résolution de l'écran à l’avant de la salle doit être définie pour ne pas être supérieure à 1920 x 1080 pixels.
 
-## <a name="required-software-downloads"></a>Téléchargement des logiciels requis
-
-Pour créer votre propre image de salles Microsoft Teams, suivez les instructions dans [Configurer une console de salle Microsoft Teams](console.md). Ces instructions vous guident tout au long du processus de téléchargement de tous les logiciels nécessaires à l’installation.
-
-> [!NOTE]
-> Les professionnels de l’informatique ont besoin d’accéder aux fichiers ISO Windows 10 Entreprise à l’aide de leur contrat de licence en volume.
-
-[SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105) est un téléchargement facultatif que vous pouvez utiliser pour configurer les comptes des salles Microsoft Teams.
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -255,5 +246,3 @@ Pour créer votre propre image de salles Microsoft Teams, suivez les instruction
 [Configurer une console des salles Microsoft Teams](console.md)
 
 [Gérer les Salles Microsoft Teams](rooms-manage.md)
-
-[Licences de complément Skype Entreprise](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

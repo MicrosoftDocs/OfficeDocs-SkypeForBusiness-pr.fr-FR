@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Découvrez comment récupérer des Microsoft Teams dans le journal d’audit du Centre de conformité Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5c57cc859c3a30040b4874579157a714600156a
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: d5fc206b9869106be7dd60541d5299ffefb036ae
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959833"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306339"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 
@@ -66,7 +66,7 @@ La durée pendant qu’un enregistrement d’audit est conservé et utilisable d
 
 Voici des conseils pour rechercher des Teams dans le journal d’audit.
 
-![Capture d’écran de la page de recherche dans le journal d’audit dans le Centre de conformité](media/audit-log-search-page.png)
+:::image type="content" alt-text="Capture d’écran de la page de recherche dans le journal d’audit dans le Centre de conformité" source="media/audit-log-search-page.png" lightbox="media/audit-log-search-page.png":::
 
 - Vous pouvez sélectionner des activités spécifiques à rechercher en cliquant sur la case à cocher en regard d’une ou plusieurs activités. Si une activité est sélectionnée, vous pouvez cliquer dessus pour annuler la sélection. Vous pouvez également utiliser la zone de recherche pour afficher les activités qui contiennent le mot clé que vous tapez.
 
@@ -89,8 +89,8 @@ Voici une liste de tous les événements enregistrés pour les activités utilis
 |Robot ajouté à l’équipe   |BotAddedToTeam        |Un utilisateur ajoute un robot à une équipe.        |
 |Ajout d'un canal   |ChannelAdded         |Un utilisateur ajoute un canal à une équipe.         |
 |Connecteur ajouté  |ConnectorAdded          |Un utilisateur ajoute un connecteur à un canal.        |
-|Ajout de détails sur Teams réunion|Détails de la réunion|Teams informations sur une réunion, notamment l’heure de début, l’heure de fin et l’URL de la réunion.|
-|Ajout d’informations sur les participants à la réunion|MeetingParticipantDetail|Teams ajouté des informations sur les participants à une réunion, notamment l’ID d’utilisateur de chaque participant, l’heure à partir de celle-ci et l’heure à partir de celle-ci.|
+|Ajout de détails sur Teams <sup>réunion 2</sup>|Détails de la réunion|Teams informations sur une réunion, notamment l’heure de début, l’heure de fin et l’URL de la réunion.|
+|Ajout d’informations sur les participants à la <sup>réunion 2</sup>|MeetingParticipantDetail|Teams ajouté des informations sur les participants à une réunion, notamment l’ID d’utilisateur de chaque participant, l’heure à partir de celle-ci et l’heure à partir de celle-ci.|
 |Membres ajoutés    |MemberAdded         |Un propriétaire d’équipe ajoute des membres à une équipe, un canal ou une conversation de groupe.         |
 |Onglet ajouté    |TabAdded         |Un utilisateur ajoute un onglet à un canal.        |
 |Paramètre de canal modifié    |ChannelSettingChanged         |L’opération ChannelSettingChanged est consignée lorsque les activités suivantes sont effectuées par un membre de l’équipe. Pour chacune de ces activités, une description du paramètre modifié (entre parenthèses s’affiche dans la colonne Élément des résultats de la recherche dans le journal d’audit).  <ul><li>Change name of a team channel (**Channel name)**</li><li>Description des modifications d’un canal d’équipe **(description du canal)**</li> </ul>      |
@@ -191,13 +191,13 @@ Une fois que vous avez définie une stratégie de détection d’activité, elle
 
 Un scénario que vous voudrez peut-être garder à l’œil, du point de vue de l’entreprise, est l’ajout d’utilisateurs externes à votre Teams personnel. Si les utilisateurs externes sont activés, il est bon de surveiller leur présence.  Vous pouvez utiliser des [Sécurité des applications cloud](/cloud-app-security/what-is-cloud-app-security) pour identifier les menaces potentielles.
 
-![Stratégie de surveillance de l’ajout d’utilisateurs externes.](media/TeamsExternalUserAddPolicy.png)
+:::image type="content" alt-text="Stratégie de surveillance de l’ajout d’utilisateurs externes." source="media/TeamsExternalUserAddPolicy.png" lightbox="media/TeamsExternalUserAddPolicy.png":::
 
 La capture d’écran de cette stratégie pour surveiller l’ajout d’utilisateurs externes vous permet de nommer la stratégie, de définir la gravité en fonction des besoins de votre entreprise, de la définir en tant qu’activité unique (dans ce cas), puis d’établir les paramètres qui surveilleront spécifiquement l’ajout d’utilisateurs non internes et limiteront cette activité à Teams.
 
 Les résultats de cette stratégie peuvent être vus dans le journal d’activité :
 
-![Événements déclenchés par une stratégie d’utilisateurs externes.](media/TeamsExternalUserList.png)
+:::image type="content" alt-text="Événements déclenchés par une stratégie d’utilisateurs externes." source="media/TeamsExternalUserList.png" lightbox="media/TeamsExternalUserList.png":::
 
 Vous pouvez passer en revue les correspondances à la stratégie que vous avez définie et apporter les ajustements nécessaires, ou exporter les résultats pour les utiliser ailleurs.
 
@@ -205,13 +205,13 @@ Vous pouvez passer en revue les correspondances à la stratégie que vous avez d
 
 Comme mentionné précédemment, vous pouvez surveiller les scénarios de suppression. Il est possible de créer une stratégie qui surveille la suppression de masse de Teams sites. Dans cet exemple, une stratégie basée sur les alertes est définie pour détecter la suppression massive d’équipes sur une période de 30 minutes.
 
-![Stratégie montrant la configuration d’une stratégie pour la détection de la suppression de masse des équipes.](media/TeamsMassDeletePolicy.png)
+:::image type="content" alt-text="Stratégie montrant la configuration d’une stratégie pour la détection de la suppression de masse des équipes." source="media/TeamsMassDeletePolicy.png" lightbox="media/TeamsMassDeletePolicy.png":::
 
 Comme le montre la capture d’écran, vous pouvez définir de nombreux paramètres différents pour cette stratégie afin de surveiller les suppressions d’Teams, notamment la gravité, les actions simples ou répétées, et les paramètres limitant cette action à Teams et la suppression de site. Cette fonction peut être effectuée indépendamment d’un modèle, ou vous pouvez créer un modèle pour baser cette stratégie sur les besoins de votre organisation.
 
 Après avoir établi une stratégie qui fonctionne pour votre entreprise, vous pouvez examiner les résultats dans le journal d’activité à mesure que les événements sont déclenchés :
 
-![Capture d’écran des événements déclenchés par des suppressions de masse.](media/TeamsMassDeleteList.png)
+:::image type="content" alt-text="Capture d’écran des événements déclenchés par des suppressions de masse." source="media/TeamsMassDeleteList.png" lightbox="media/TeamsMassDeleteList.png":::
 
 Vous pouvez filtrer vers le bas jusqu’à la stratégie que vous avez définie pour voir ses résultats. Si les résultats que vous avez obtenus dans le journal d’activité ne sont pas satisfaisants (vous voyez peut-être un grand nombre de résultats ou rien du tout), cela peut vous aider à affiner la requête pour la rendre plus pertinente par rapport à ce que vous devez faire.
 
@@ -227,6 +227,6 @@ Vous pouvez définir des alertes et envoyer des courriers électroniques aux adm
 
 Nous travaillons à l’intégration d’Teams à des stratégies de détection anormale. Pour l’instant, vous pouvez définir des stratégies de détection anormales pour d’autres produits Office et prendre des mesures sur les utilisateurs qui correspondent à ces stratégies.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Effectuer des recherches dans le journal d’audit dans la Centre de conformité Microsoft 365](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
