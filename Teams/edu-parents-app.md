@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a991075ada39f5433e20230d6fabdfaebcb52aa9
-ms.sourcegitcommit: df26b435b2a7bb7561ddea74477f1ba988de9d8f
+ms.openlocfilehash: 0d875c6cd753e4c2e97477b3a3a88e0f071b5cbe
+ms.sourcegitcommit: 05e7c8ac9d6d6f712742d08820d43118c8949bbc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61245556"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61322986"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>Déploiement de l’application Parents dans Microsoft Teams
 
@@ -33,7 +33,7 @@ L’application Parents permet aux enseignants de communiquer et de s’implique
 ### <a name="school-data-sync"></a>Synchronisation des données scolaires
 
 - Vous devez Synchronisation des données scolaires SDS pour remplir les informations de contact associées au parent et tuteur de **chaque** étudiant.
-  - [Déployer la SDS](/schooldatasync/how-to-deploy-sds-using-sds-v2.1-csv-files)
+  - [Déployer la SDS](/schooldatasync/parent-contact-sync)
 
 - Si vous avez besoin d’aide pour définir SDS et remplir les **contacts** parents et tuteurs liés aux étudiants de votre client, contactez l’équipe Edu Customer Success en :
   - Finalisation du processus d’fafa à [FastTrack.](https://www.microsoft.com/fasttrack?rtc=1)
@@ -42,7 +42,7 @@ L’application Parents permet aux enseignants de communiquer et de s’implique
 ### <a name="teams-admin-center---policies"></a>Teams d’administration - Stratégies
 
 - Les propriétaires d’équipe de classe Teams conversation instantanée activée.
-- Les propriétaires d’équipe de classe doivent avoir un accès externe **avec Teams comptes non gérés par une organisation.** 
+- Les propriétaires d’équipe de classe doivent avoir un accès externe **avec Teams comptes non gérés par une organisation.**
   - Celle-ci doit être activée au niveau du client et de l’utilisateur. Le paramètre au niveau du client est accessible dans la page **Utilisateurs > accès** externe dans le Teams d’administration. Ce paramètre est également accessible via PowerShell. Les stratégies d’accès externe au niveau utilisateur sont accessibles uniquement via PowerShell. Pour plus d’informations, voir les commandes PowerShell ci-dessous.
 
 ## <a name="enabling-external-access-with-teams-accounts-not-managed-by-an-organization"></a>Activation de l’accès externe Teams comptes non gérés par une organisation
@@ -68,10 +68,13 @@ Pour vérifier les stratégies d’accès externe au niveau utilisateur et à qu
 3. Vérifiez quelles stratégies d’accès externe utilisateur existent.
 
     ```powershell
-    Get-CsExternalAccessPolicy -Include All
+    Get-CsExternalAccessPolicy
     ```
 
-4. Pour chaque stratégie autre que la stratégie « globale » , vérifiez quels utilisateurs ont affecté la stratégie. Remarque : tous les utilisateurs qui n’ont pas de stratégie spécifique sont de nouveau affectés à la stratégie « Globale ». La stratégie « Global » est affectée à tous les nouveaux utilisateurs ajoutés au client.
+4. Pour chaque stratégie autre que la stratégie « globale » , vérifiez quels utilisateurs ont affecté la stratégie.
+
+   > [!NOTE]
+   > Les utilisateurs qui n’ont pas de stratégie spécifique sont de nouveau affectés à la stratégie « Globale ». La stratégie « Global » est affectée à tous les nouveaux utilisateurs ajoutés au client.
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
