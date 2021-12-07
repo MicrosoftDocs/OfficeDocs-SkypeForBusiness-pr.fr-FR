@@ -759,96 +759,6 @@ items:
                 href: audio-conferencing-zones.md
               - name: Vidéos – Audioconférence dans Teams
                 href: ./audio-conferencing-in-office-365.md
-      - name: Salles Microsoft Teams
-        items:
-          - name: Vue d’ensemble
-            href: rooms/index.md
-          - name: Guide des salles de réunion Teams
-            href: teams-meeting-room-guidance.md
-          - name: Service géré de salles Microsoft Teams
-            items:
-              - name: Gestion du plan
-                href: rooms/microsoft-teams-rooms-premium.md
-              - name: Contrôle d'accès basé sur les rôles
-                href: rooms/microsoft-teams-rooms-premium-rbac.md
-              - name: Obtenir et attribuer une licence
-                href: rooms/obtaining-assigning-license.md
-              - name: S'inscrire au service géré par MTRP
-                href: rooms/enrolling-mtrp-managed-service.md
-              - name: Configurer des comptes pour les Salles Microsoft Teams
-                href: rooms/microsoft-teams-rooms-configure-servicenow.md
-          - name: Planification
-            items:
-              - name: Présentation de la planification des Salles Microsoft Teams
-                href: rooms/rooms-plan.md
-              - name: Comparaison des caractéristiques des appareils pour Teams entre Windows et Android
-                href: rooms/teams-devices-feature-comparison.md
-              - name: Prise en charge de la version
-                href: rooms/rooms-lifecycle-support.md
-              - name: Notes de publication
-                href: rooms/rooms-release-note.md
-              - name: Préparer votre environnement
-                href: rooms/rooms-prep.md
-              - name: Conditions requises
-                href: rooms/requirements.md
-              - name: Sécurité
-                href: rooms/security.md
-              - name: Gestion des licences en ligne
-                href: rooms/rooms-licensing.md
-              - name: Planifier la gestion avec Azure Monitor
-                href: rooms/azure-monitor-plan.md
-          - name: Déployer
-            items:
-              - name: Vue d’ensemble du déploiement
-                href: rooms/rooms-deploy.md
-              - name: Configurer les comptes
-                href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: Configurer Optimisation de réunion
-                    href: rooms/coordinated-meetings.md
-                  - name: Gérer les paramètres de Microsoft Teams
-                    href: rooms/surface-hub-manage-config.md
-              - name: Avec Office 365
-                href: rooms/with-office-365.md
-              - name: Avec Skype Entreprise Server
-                href: rooms/with-skype-for-business-server-2015.md
-              - name: Avec Exchange Online (hybride)
-                href: rooms/with-exchange-online.md
-              - name: Avec Exchange local (hybride)
-                href: rooms/with-exchange-on-premises.md
-              - name: Configurer une console
-                href: rooms/console.md
-              - name: Mise à jour manuelle d'un appareil
-                href: rooms/manual-update.md
-              - name: Configuration de l’authentification
-                href: rooms/rooms-authentication.md
-              - name: Participer à des réunions tierces
-                href: rooms/third-party-join.md
-              - name: À l'aide de Microsoft Endpoint Configuration Manager
-                href: rooms/rooms-scale.md
-              - name: Gestion avec Azure Monitor
-                href: rooms/azure-monitor-deploy.md
-              - name: Migrer SRS v1 ou LRS
-                href: rooms/lrs-migration.md
-              - name: Caméras de contenu
-                href: rooms/content-camera.md
-              - name: Contrôles de reconnaissance vocale pour haut-parleurs intelligents
-                href: rooms/voice-recognition.md
-          - name: Gestion
-            items:
-              - name: Vue d’ensemble de la gestion
-                href: rooms/rooms-manage.md
-              - name: Maintenance et opérations
-                href: rooms/rooms-operations.md
-              - name: Problèmes détectés
-                href: rooms/known-issues.md
-              - name: Appareils avec Azure Monitor
-                href: rooms/azure-monitor-manage.md
-              - name: Paramètres avec un fichier XML
-                href: rooms/xml-config-file.md
-              - name: Utiliser l’outil de récupération
-                href: rooms/recovery-tool.md
   - name: "Voix\_: Téléphone\_Teams et connectivité PSTN"
     items:
       - name: Planifier votre solution vocale Teams
@@ -1377,6 +1287,148 @@ items:
             href: business-voice/analytics-dashboard.md
       - name: Ressources pour les partenaires
         href: business-voice/partner-resources.md
+  - name: Gestion des appareils et des salles
+    items:
+      - name: Salles Microsoft Teams
+        items:
+          - name: Vue d’ensemble
+            href: rooms/index.md
+          - name: Guide des salles de réunion Teams
+            href: teams-meeting-room-guidance.md
+          - name: Planification
+            items:
+              - name: Présentation de la planification des Salles Microsoft Teams
+                href: rooms/rooms-plan.md
+              - name: Comparaison des caractéristiques des appareils pour Teams entre Windows et Android
+                href: rooms/teams-devices-feature-comparison.md
+              - name: Prise en charge de la version
+                href: rooms/rooms-lifecycle-support.md
+              - name: Notes de publication
+                href: rooms/rooms-release-note.md
+              - name: Préparer votre environnement
+                href: rooms/rooms-prep.md
+              - name: Conditions requises
+                href: rooms/requirements.md
+              - name: Sécurité
+                href: rooms/security.md
+              - name: Gestion des licences en ligne
+                href: rooms/rooms-licensing.md
+              - name: Planifier la gestion avec Azure Monitor
+                href: rooms/azure-monitor-plan.md
+          - name: Déployer
+            items:
+              - name: Vue d’ensemble du déploiement
+                href: rooms/rooms-deploy.md
+              - name: Configurer les comptes
+                href: rooms/rooms-configure-accounts.md
+              - name: Surface Hub
+                items:
+                  - name: Configurer Optimisation de réunion
+                    href: rooms/coordinated-meetings.md
+                  - name: Gérer les paramètres de Microsoft Teams
+                    href: rooms/surface-hub-manage-config.md
+              - name: Avec Office 365
+                href: rooms/with-office-365.md
+              - name: Avec Skype Entreprise Server
+                href: rooms/with-skype-for-business-server-2015.md
+              - name: Avec Exchange Online (hybride)
+                href: rooms/with-exchange-online.md
+              - name: Avec Exchange local (hybride)
+                href: rooms/with-exchange-on-premises.md
+              - name: Configurer une console
+                href: rooms/console.md
+              - name: Mise à jour manuelle d'un appareil
+                href: rooms/manual-update.md
+              - name: Configuration de l’authentification
+                href: rooms/rooms-authentication.md
+              - name: Participer à des réunions tierces
+                href: rooms/third-party-join.md
+              - name: À l'aide de Microsoft Endpoint Configuration Manager
+                href: rooms/rooms-scale.md
+              - name: Gestion avec Azure Monitor
+                href: rooms/azure-monitor-deploy.md
+              - name: Migrer SRS v1 ou LRS
+                href: rooms/lrs-migration.md
+              - name: Caméras de contenu
+                href: rooms/content-camera.md
+              - name: Contrôles de reconnaissance vocale pour haut-parleurs intelligents
+                href: rooms/voice-recognition.md
+          - name: Gestion
+            items:
+              - name: Vue d’ensemble de la gestion
+                href: rooms/rooms-manage.md
+              - name: Maintenance et opérations
+                href: rooms/rooms-operations.md
+              - name: Problèmes détectés
+                href: rooms/known-issues.md
+              - name: Appareils avec Azure Monitor
+                href: rooms/azure-monitor-manage.md
+              - name: Paramètres avec un fichier XML
+                href: rooms/xml-config-file.md
+              - name: Utiliser l’outil de récupération
+                href: rooms/recovery-tool.md
+      - name: Service géré de salles Microsoft Teams
+        items:
+          - name: Gestion du plan
+            href: rooms/microsoft-teams-rooms-premium.md
+          - name: Contrôle d'accès basé sur les rôles
+            href: rooms/microsoft-teams-rooms-premium-rbac.md
+          - name: Obtenir et attribuer une licence
+            href: rooms/obtaining-assigning-license.md
+          - name: S'inscrire au service géré par MTRP
+            href: rooms/enrolling-mtrp-managed-service.md
+          - name: Configurer des comptes pour les Salles Microsoft Teams
+            href: rooms/microsoft-teams-rooms-configure-servicenow.md
+      - name: Appareils
+        items:
+          - name: Gérer vos périphériques dans Teams
+            href: devices/device-management.md
+          - name: Approvisionnement et connexion à distance
+            href: devices/remote-provision-remote-login.md
+          - name: Connexion à distance et déconnexion
+            href: devices/remote-sign-in-and-sign-out.md
+          - name: Mettre à niveau vos appareils à distance
+            href: devices/remote-update.md
+          - name: Gérer les balises d’appareils Teams
+            href: devices/manage-device-tags.md
+          - name: Téléphones pour Teams
+            href: devices/phones-for-teams.md
+          - name: Affichages Teams
+            href: devices/teams-displays.md
+          - name: Panneaux Teams
+            items:
+              - name: Panneaux Teams
+                href: devices/teams-panels.md
+              - name: Utiliser les panneaux Teams
+                href: devices/use-teams-panels.md
+              - name: 'Prise en charge de l’application sur des panneaux Teams '
+                href: app-support-on-Teams-panels.md
+          - name: Mettre à niveau les téléphones Teams vers Affichages Teams
+            href: devices/upgrade-phones-to-displays.md
+          - name: Déployer les téléphones Teams et Affichages Teams à l’aide de Intune
+            href: devices/phones-displays-deploy.md
+          - name: Périphériques audio et vidéo USB
+            href: devices/usb-devices.md
+          - name: Déployer Salles Microsoft Teams sur Android
+            href: devices/collab-bar-deploy.md
+          - name: Définir l’interface utilisateur sur des appareils Android Microsoft Teams
+            href: devices/Teams-Android-devices-user-interface.md
+          - name: Solutions et appareils de salle de réunion
+            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Appareils certifiés Teams
+            href: devices/teams-ip-phones.md
+          - name: Passerelle SIP
+            items:
+              - name: Planifier la passerelle SIP
+                href: sip-gateway-plan.md
+              - name: Configurer la passerelle SIP
+                href: sip-gateway-configure.md
+          - name: Alerte et surveillance Teams
+            href: alerts/teams-admin-alerts.md
+          - name: Surveillance Teams de l’intégrité de l’appareil
+            href: alerts/device-health-status.md
+          - name: Dispositifs et périphériques de l'équipe
+            href: teams-device-health.md
   - name: 'Applications, robots et connecteurs'
     items:
       - name: Vue d’ensemble
@@ -1643,52 +1695,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams
             href: sharepoint-onedrive-interact.md
-      - name: Appareils pris en charge
-        items:
-          - name: Gérer vos périphériques dans Teams
-            href: devices/device-management.md
-          - name: Approvisionnement et connexion à distance
-            href: devices/remote-provision-remote-login.md
-          - name: Connexion à distance et déconnexion
-            href: devices/remote-sign-in-and-sign-out.md
-          - name: Mettre à niveau vos appareils à distance
-            href: devices/remote-update.md
-          - name: Gérer les balises d’appareils Teams
-            href: devices/manage-device-tags.md
-          - name: Téléphones pour Teams
-            href: devices/phones-for-teams.md
-          - name: Affichages Teams
-            href: devices/teams-displays.md
-          - name: Panneaux Teams
-            items:
-              - name: Panneaux Teams
-                href: devices/teams-panels.md
-              - name: Utiliser les panneaux Teams
-                href: devices/use-teams-panels.md
-              - name: 'Prise en charge de l’application sur des panneaux Teams '
-                href: app-support-on-Teams-panels.md
-          - name: Mettre à niveau les téléphones Teams vers Affichages Teams
-            href: devices/upgrade-phones-to-displays.md
-          - name: Déployer les téléphones Teams et Affichages Teams à l’aide de Intune
-            href: devices/phones-displays-deploy.md
-          - name: Périphériques audio et vidéo USB
-            href: devices/usb-devices.md
-          - name: Déployer Salles Microsoft Teams sur Android
-            href: devices/collab-bar-deploy.md
-          - name: Définir l’interface utilisateur sur des appareils Android Microsoft Teams
-            href: devices/Teams-Android-devices-user-interface.md
-          - name: Solutions et appareils de salle de réunion
-            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Appareils certifiés Teams
-            href: devices/teams-ip-phones.md
-          - name: Téléphones pour Skype Entreprise Online
-            href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Alerte et surveillance Teams
-            href: alerts/teams-admin-alerts.md
-          - name: Surveillance Teams de l’intégrité de l’appareil
-            href: alerts/device-health-status.md
-          - name: Dispositifs et périphériques de l'équipe
-            href: teams-device-health.md
       - name: PowerShell Teams
         items:
           - name: Vue d’ensemble
