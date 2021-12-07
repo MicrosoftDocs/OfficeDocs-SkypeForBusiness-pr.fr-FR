@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db828fba03cfa4c05bef16d9f1b3ec2b50dbc4af
-ms.sourcegitcommit: 2aae13454178dc2e2cbc8cca967cd181c5f9d044
+ms.openlocfilehash: b245a4f4b0c9d8940943ceacc685bcf99e0df64e
+ms.sourcegitcommit: 70bba31b0ca4615a3c6a90f42d3568450ea51b82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "61314247"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61327302"
 ---
 # <a name="configure-sip-gateway"></a>Configurer la passerelle SIP
 
@@ -80,7 +80,7 @@ Cet article décrit également comment :
 
 ## <a name="verify-that-sip-gateway-is-available-for-your-organization"></a>Vérifier que la passerelle SIP est disponible pour votre organisation
 
-1. Connectez-vous au [Teams d’administration.](https://admin-teams.microsoft.net/)
+1. Connectez-vous au [Teams d’administration.](https://admin-teams.microsoft.com/)
 
 2. À gauche, sélectionnez **Teams et** voyez si l’onglet appareils **SIP** est visible. Si c’est le cas, le service passerelle SIP est activé pour votre organisation.
 
@@ -92,7 +92,7 @@ Vous pouvez activer la passerelle SIP pour votre organisation de deux façons : 
 
 Pour activer la passerelle SIP dans le Centre Teams’administration, suivez ces étapes :
 
-1. Go to the [Teams admin center](https://admin.teams.microsoft.net/)
+1. Go to the [Teams admin center](https://admin.teams.microsoft.com/)
 
 2. À gauche, sous **Voix,** sélectionnez **Stratégies d’appel.**
 
@@ -254,7 +254,7 @@ Pour vous sortant d’un appareil du Centre Teams’administration :
 
 Vous pouvez afficher et surveiller l’inventaire de vos appareils SIP dans le Centre Teams’administration lorsque les utilisateurs des appareils se connectent au moins une fois. Voici comment procéder :
 
-1. Connectez-vous au [Teams d’administration.](https://admin.teams.microsoft.net/)
+1. Connectez-vous au [Teams d’administration.](https://admin.teams.microsoft.com/)
 
 2. Sélectionnez **Teams appareils**  >  **SIP sur les appareils mobiles.** Tous les appareils SIP connectés sont répertoriés sur la droite.
 
