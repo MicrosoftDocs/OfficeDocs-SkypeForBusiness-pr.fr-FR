@@ -3,6 +3,54 @@
 
 
 
+## <a name="week-of-november-29-2021"></a>Semaine du 29 novembre 2021
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 11/29/2021 | [Appareils pour Teams](/MicrosoftTeams/devices/teams-ip-phones) | modifié |
+| 11/29/2021 | [Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modifié |
+| 11/29/2021 | [Mettre à niveau à partir de la version d’évaluation exploratoire teams](/MicrosoftTeams/upgrade-from-teams-exploratory) | modifié |
+| 11/30/2021 | [Gérer les stratégies de réunion pour les participants et les invités](/MicrosoftTeams/meeting-policies-participants-and-guests) | modifié |
+| 11/30/2021 | [Configuration de l’administrateur pour l’application Parents de Microsoft EDU dans Teams](/MicrosoftTeams/edu-parents-app) | modifié |
+| 12/1/2021 | [Connecter Microsoft Teams Essentials (AAD identité) vers un système de courrier existant avec le calendrier](/MicrosoftTeams/connect-teams-essentials-to-email) | ajouté |
+| 12/1/2021 | [Teams Guide de démarrage rapide de Essentials pour les petites entreprises](/MicrosoftTeams/get-started-with-teams-essentials) | ajouté |
+| 12/1/2021 | [Configurer l’Connecter conférence](/MicrosoftTeams/operator-connect-conferencing-configure) | ajouté |
+| 12/1/2021 | [Planifier l’Connecter conférence de l’opérateur](/MicrosoftTeams/operator-connect-conferencing-plan) | ajouté |
+| 12/1/2021 | [Teams pour l’Infrastructure de bureau virtualisée (VDI)](/MicrosoftTeams/teams-for-vdi) | modifié |
+| 12/1/2021 | [Stratégies d’enregistrement des événements en direct](/MicrosoftTeams/teams-live-events/live-events-recording-policies) | modifié |
+| 12/1/2021 | [Microsoft Teams notes de publication de PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modifié |
+| 12/1/2021 | [Mise Microsoft Teams niveau gratuit (classique) vers un abonnement](/MicrosoftTeams/upgrade-freemium) | modifié |
+| 12/1/2021 | [Teams Guide de démarrage rapide de Essentials pour les petites entreprises](/MicrosoftTeams/get-started-with-teams-essentials) | modifié |
+| 12/1/2021 | [Voici ce que vous obtenez avec Teams Téléphone](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | modifié |
+| 12/1/2021 | [Configurer des Teams Téléphone dans votre organisation](/MicrosoftTeams/setting-up-your-phone-system) | modifié |
+| 12/1/2021 | [Qu’est-ce Teams Téléphone](/MicrosoftTeams/what-is-phone-system-in-office-365) | modifié |
+| 12/2/2021 | [Planifier votre solution vocale dans Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | modifié |
+| 12/2/2021 | [Téléphones et appareils pour Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modifié |
+| 12/2/2021 | [Dimensions et mesures - Tableau de bord de qualité des appels](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modifié |
+| 12/2/2021 | [Options de connectivité PSTN](/MicrosoftTeams/pstn-connectivity) | modifié |
+| 12/2/2021 | [Éducation Insights’utilisateur final](/MicrosoftTeams/insights-end-user-notice) | ajouté |
+| 12/2/2021 | [Configurer un appel d’urgence dynamique](/MicrosoftTeams/configure-dynamic-emergency-calling) | modifié |
+| 12/2/2021 | [Connecter Microsoft Teams Essentials (AAD identité) vers un système de courrier existant avec le calendrier](/MicrosoftTeams/connect-teams-essentials-to-email) | modifié |
+| 12/3/2021 | Attribuer des stratégies à vos utilisateurs dans Microsoft Teams. | supprimé |
+| 12/3/2021 | [Rechercher dans le journal d’audit des événements dans Microsoft Teams](/MicrosoftTeams/audit-log-events) | modifié |
+| 12/3/2021 | [Appareils pour Teams](/MicrosoftTeams/devices/teams-ip-phones) | modifié |
+| 12/3/2021 | [Planifier le contournement de média avec un routage direct](/MicrosoftTeams/direct-routing-plan-media-bypass) | modifié |
+| 12/3/2021 | [Teams Guide de démarrage rapide de Essentials pour les petites entreprises](/MicrosoftTeams/get-started-with-teams-essentials) | modifié |
+| 12/3/2021 | [Configurer une console des salles Microsoft Teams](/MicrosoftTeams/rooms/console) | modifié |
+| 12/3/2021 | [Découvrir comment configurer des caméras de contenu - Microsoft Teams](/MicrosoftTeams/rooms/content-camera) | modifié |
+| 12/3/2021 | [Configurer des réunions coordonnées avec des Salles Microsoft Teams réunion Surface Hub](/MicrosoftTeams/rooms/coordinated-meetings) | modifié |
+| 12/3/2021 | [Spécifications des salles Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modifié |
+| 12/3/2021 | [Authentification dans Salles Microsoft Teams](/MicrosoftTeams/rooms/rooms-authentication) | modifié |
+| 12/3/2021 | [Configurer des comptes pour Salles Microsoft Teams](/MicrosoftTeams/rooms/rooms-configure-accounts) | modifié |
+| 12/3/2021 | [Déployer les Salles Microsoft Teams](/MicrosoftTeams/rooms/rooms-deploy) | modifié |
+| 12/3/2021 | [Licences Salles Microsoft Teams](/MicrosoftTeams/rooms/rooms-licensing) | modifié |
+| 12/3/2021 | [Salles Microsoft Teams prise en charge de la version de l’application](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modifié |
+| 12/3/2021 | [Gérer les Salles Microsoft Teams](/MicrosoftTeams/rooms/rooms-manage) | modifié |
+| 12/3/2021 | [Salles Microsoft Teams maintenance et opérations](/MicrosoftTeams/rooms/rooms-operations) | modifié |
+| 12/3/2021 | [Salles Microsoft Teams sécurité des données](/MicrosoftTeams/rooms/security) | modifié |
+
+
 ## <a name="week-of-november-22-2021"></a>Semaine du 22 novembre 2021
 
 
@@ -79,62 +127,3 @@
 | 11/19/2021 | [Liste de vérification de mise à niveau\| Mise à niveau de Skype Entreprise vers Teams \| Étapes de base](/MicrosoftTeams/upgrade-basic) | modifié |
 | 11/19/2021 | Déclaration de conformité d’accessibilité - France | supprimé |
 | 11/19/2021 | [Microsoft Teams : Déclaration de conformité d’accessibilité - France](/MicrosoftTeams/accessibility-declaration-of-conformance-in-france-for-teams) | modifié |
-
-
-## <a name="week-of-october-25-2021"></a>Semaine du 25 octobre 2021
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 10/25/2021 | [Chiffrement de bout en bout pour Microsoft Teams](/MicrosoftTeams/teams-end-to-end-encryption) | ajouté |
-| 10/25/2021 | [Stratégies d’appel Microsoft Teams : fonctionnalités d’appel et de forwardage](/MicrosoftTeams/teams-calling-policy) | modifié |
-| 10/25/2021 | [Gestion de l’état d’Teams appareils](/MicrosoftTeams/teams-device-health) | modifié |
-| 10/25/2021 | [Aperçu du guide de sécurité pour Microsoft Teams](/MicrosoftTeams/teams-security-guide) | modifié |
-| 10/26/2021 | [Disponibilité du pays/de la région - Audioconférence, forfaits d’appels](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | modifié |
-| 10/26/2021 | [Appareils pour Teams](/MicrosoftTeams/devices/teams-ip-phones) | modifié |
-| 10/26/2021 | [Microsoft Teams d’utilisation des applications](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | modifié |
-| 10/26/2021 | [Microsoft Teams notes de publication de PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modifié |
-| 10/26/2021 | [Gérer les équipes dans le centre d’administration Microsoft Teams](/MicrosoftTeams/manage-teams-in-modern-portal) | modifié |
-| 10/27/2021 | [Téléphones et appareils pour Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modifié |
-| 10/27/2021 | [Configuration matérielle requise pour Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modifié |
-| 10/27/2021 | [Acheter des applications tierces pour Teams](/MicrosoftTeams/purchase-third-party-apps) | modifié |
-| 10/27/2021 | [Spécifications des salles Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modifié |
-| 10/27/2021 | [Présentation de Teams’enregistrement basé sur une stratégie pour les appels et & réunions](/MicrosoftTeams/teams-recording-policy) | modifié |
-| 10/27/2021 | [Afficher vos affectations de stratégie dans le journal d’activité du Centre Microsoft Teams’administration](/MicrosoftTeams/activity-log) | modifié |
-| 10/27/2021 | [Attribuer des stratégies à un grand nombre d’utilisateurs dans votre établissement scolaire](/MicrosoftTeams/batch-group-policy-assignment-edu) | modifié |
-| 10/27/2021 | [Parcage et récupération d’appel dans Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | modifié |
-| 10/27/2021 | [Gérer les stratégies d’ID d’appelant dans Microsoft Teams](/MicrosoftTeams/caller-id-policies) | modifié |
-| 10/27/2021 | [Configurer Microsoft Teams dans votre entreprise](/MicrosoftTeams/deploy-enterprise-setup) | modifié |
-| 10/27/2021 | [Réunions et conférences dans Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | modifié |
-| 10/27/2021 | [Teams pour l'éducation l’Assistant Stratégie pour appliquer facilement des stratégies pour un apprentissage sécurisé](/MicrosoftTeams/easy-policy-setup-edu) | modifié |
-| 10/27/2021 | [Gérer l’application Plannings pour votre organisation dans Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modifié |
-| 10/27/2021 | [Mise en service de Microsoft Teams à grande échelle pour les employés de bureau](/MicrosoftTeams/flw-scripted-deployment) | modifié |
-| 10/27/2021 | [Gérer les stratégies de routage vocal d’urgence pour le routage direct](/MicrosoftTeams/manage-emergency-call-routing-policies) | modifié |
-| 10/27/2021 | [Gérer les stratégies d’appel d’urgence Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | modifié |
-| 10/27/2021 | [Gérer les stratégies de commentaires dans Microsoft Teams](/MicrosoftTeams/manage-feedback-policies-in-teams) | modifié |
-| 10/27/2021 | [Gérer et surveiller les Teams](/MicrosoftTeams/manage-teams-overview) | modifié |
-| 10/27/2021 | [Gérer les Teams des stratégies](/MicrosoftTeams/manage-teams-with-policies) | modifié |
-| 10/27/2021 | [Gérer les stratégies de routage vocal pour le routage direct](/MicrosoftTeams/manage-voice-routing-policies) | modifié |
-| 10/27/2021 | [Stratégies de réunion et expiration des réunions dans Microsoft Teams](/MicrosoftTeams/meeting-expiration) | modifié |
-| 10/27/2021 | [Gérer les stratégies de réunion pour le partage de contenu](/MicrosoftTeams/meeting-policies-content-sharing) | modifié |
-| 10/27/2021 | [Gérer les stratégies de réunion dans Teams](/MicrosoftTeams/meeting-policies-in-teams) | modifié |
-| 10/27/2021 | [Gérer les stratégies de réunion pour les participants et les invités](/MicrosoftTeams/meeting-policies-participants-and-guests) | modifié |
-| 10/27/2021 | [Supprimer la stratégie de réunion Teams RestrictedAnonymousAccess des utilisateurs](/MicrosoftTeams/meeting-policies-restricted-anonymous-access) | modifié |
-| 10/27/2021 | [Musique en attente](/MicrosoftTeams/music-on-hold) | modifié |
-| 10/27/2021 | [Planifier la gouvernance dans Teams - Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | modifié |
-| 10/27/2021 | [Stratégies et packages de stratégie Microsoft Teams pour les administrateurs dans l’éducation](/MicrosoftTeams/policy-packages-edu) | modifié |
-| 10/27/2021 | [Teams packages de stratégies pour le gouvernement](/MicrosoftTeams/policy-packages-gov) | modifié |
-| 10/27/2021 | [Packages de stratégie Teams pour la santé publique](/MicrosoftTeams/policy-packages-healthcare) | modifié |
-| 10/27/2021 | [Prise en main de Microsoft Teams pour l'apprentissage à distance](/MicrosoftTeams/remote-learning-edu) | modifié |
-| 10/27/2021 | [Contrôle Administration du client pour la reconnaissance vocale (profil vocal) dans salles Teams](/MicrosoftTeams/rooms/voice-recognition) | modifié |
-| 10/27/2021 | [Exemple de script PowerShell - Créer des groupes de sécurité pour les enseignants et les étudiants de votre établissement scolaire](/MicrosoftTeams/scripts/powershell-script-security-groups-edu) | modifié |
-| 10/27/2021 | [Exemple de script PowerShell - Créer & stratégie de messagerie](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | modifié |
-| 10/27/2021 | [Gérer les stratégies d’autorisation d’application dans Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modifié |
-| 10/27/2021 | [Stratégies d’appel Microsoft Teams : fonctionnalités d’appel et de forwardage](/MicrosoftTeams/teams-calling-policy) | modifié |
-| 10/27/2021 | [Teams pour l’Infrastructure de bureau virtualisée (VDI)](/MicrosoftTeams/teams-for-vdi) | modifié |
-| 10/27/2021 | [Utiliser des Teams avec les services Bureau à distance](/MicrosoftTeams/teams-on-rdp) | modifié |
-| 10/27/2021 | [Gérer les stratégies de canal dans Microsoft Teams](/MicrosoftTeams/teams-policies) | modifié |
-| 10/27/2021 | [Microsoft Teams notes de publication de PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modifié |
-| 10/27/2021 | [Gérer les modèles d’équipe dans le Centre d’administration](/MicrosoftTeams/templates-policies) | modifié |
-| 10/27/2021 | [Utiliser OneDrive Entreprise et SharePoint pour les enregistrements de réunion](/MicrosoftTeams/tmr-meeting-recording-change) | modifié |
-| 10/28/2021 | [Barrières de l’information au Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modifié |
