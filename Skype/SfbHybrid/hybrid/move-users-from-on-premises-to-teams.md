@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 ms.custom: ''
 description: 'Résumé : Découvrez comment migrer les paramètres utilisateur et déplacer les utilisateurs vers Teams.'
-ms.openlocfilehash: 370b9ba170362168a421377ab2af56c96016271d
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: 1e31ec999f15072ae46e96232360d85eb12153a9
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887192"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331085"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Déplacer des utilisateurs de l’environnement local vers Teams
 
@@ -49,7 +49,9 @@ Avant de déplacer des utilisateurs, veillez à passer en revue les conditions p
 > Le magasin de contacts unifié doit être désactivé sur le compte SfB local pour que le contact soit déplacé vers Teams.
 
 > [!IMPORTANT]
->Lors du déplacement d’un utilisateur de l’local vers le cloud avec Move-CsUser, le mode TeamsOnly est désormais automatiquement affecté aux utilisateurs et leurs réunions sont automatiquement converties en réunions Teams, que le commutateur soit réellement spécifié `-MoveToTeams` ou non. (Cela inclut les migrations de Lync Server 2013, qui n’ont jamais eu le `-MoveToTeams` commutateur.)  Auparavant, si ce commutateur n’était pas spécifié, les utilisateurs passaient du mode d’accueil Skype Entreprise Server local à Skype Entreprise Online, et leur mode était inchangé. Cette situation a récemment été modifiée en vue du retrait de Skype Entreprise Online.
+>
+> - Lors du déplacement d’un utilisateur de l’local vers le cloud avec Move-CsUser, le mode TeamsOnly est désormais automatiquement affecté aux utilisateurs et leurs réunions sont automatiquement converties en réunions Teams, que le commutateur soit réellement spécifié `-MoveToTeams` ou non. (Cela inclut les migrations de Lync Server 2013, qui n’ont jamais eu le `-MoveToTeams` commutateur.)  Auparavant, si ce commutateur n’était pas spécifié, les utilisateurs passaient du mode d’accueil Skype Entreprise Server local à Skype Entreprise Online, et leur mode était inchangé. Cette situation a récemment été modifiée en vue du retrait de Skype Entreprise Online.
+> - Le déplacement d’utilisateurs entre votre déploiement local et Teams nécessite *désormais* le protocole d’authentification OAuth. Auparavant, OAuth était recommandé, mais pas obligatoire.  Skype Entreprise Server 2019 et Skype Entreprise Server 2015 CU12 (KB 3061064) nécessitent déjà OAuth. Si vous utilisez Skype Entreprise Server 2015 avec CU8 jusqu’à CU11, vous devez transmettre le commutateur, ce qui garantit que le code local s’authentifiera à l’aide d’OAuth, ou de préférence la mise à niveau vers `-UseOAuth` CU12. Si vous utilisez une version de Skype Entreprise Server 2015 antérieure à cu8, vous devez mettre à niveau vers CU12 ou version ultérieure.  Si vous utilisez Lync Server 2013, vous devez d’abord mettre à niveau vers la mise à jour cumulative 10 de Lync Server 2013 (KB 2809243) ou une version ultérieure.
 
 
 ## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>Déplacer un utilisateur directement de Skype Entreprise local vers Teams uniquement
@@ -67,6 +69,7 @@ Move-CsUser est disponible à partir d’une fenêtre PowerShell Skype Entrepris
 - Spécifiez `-Target` le paramètre avec la valeur « sipfed.online.lync. <span> com ».
 - Si vous n’avez pas un compte avec des autorisations suffisantes à la fois sur site et dans le service cloud (Microsoft 365), utilisez le paramètre pour fournir à un compte des `-credential` autorisations suffisantes dans Microsoft 365.
 - Si le compte avec des autorisations dans Microsoft 365 ne se termine pas par « onmicrosoft. <span> com « , vous devez spécifier le paramètre, avec la valeur correcte comme `-HostedMigrationOverrideUrl` décrit dans informations d’identification [administratives requises.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)
+- Assurez-vous que l’ordinateur exécutant les outils d’administration locaux utilise la dernière mise à jour cu pour votre version de Skype Entreprise Server ou Lync Server 2013, afin de vous assurer qu’OAuth est utilisé pour l’authentification. 
 
 La séquence de cmdlet suivante peut être utilisée pour déplacer un utilisateur vers TeamsOnly et suppose que les informations d’identification Microsoft 365 sont un compte distinct et fournies en tant qu’entrée pour l’invite Get-Credential. Le comportement est le même, `-MoveToTeams` que le commutateur soit spécifié ou non.
 
@@ -80,7 +83,7 @@ La séquence de cmdlet suivante peut être utilisée pour déplacer un utilisate
 > Comme il existe différentes circonstances nécessitant différents paramètres, la commande par défaut dans la plupart des cas est :
 
 ```powershell
-Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -UseOAuth -HostedMigrationOverrideUrl $url
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -HostedMigrationOverrideUrl $url
 ```
 
 ### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>Passer à la Teams à l’aide Skype Entreprise Server panneau de commande
@@ -97,7 +100,7 @@ Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -UseOA
     
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Informez Skype Entreprise utilisateurs locaux du déplacement à venir vers Teams
 
-Les outils d’administration locaux dans Skype Entreprise Server 2015 avec CU8, ainsi que dans Skype Entreprise Server 2019, vous permettent d’informer les utilisateurs Skype Entreprise locaux de leur déplacement à venir vers Teams. Lorsque vous activez ces notifications, les utilisateurs voient une notification dans leur client Skype Entreprise (Win32, Mac, web et mobile), comme illustré ci-dessous. Si les utilisateurs **cliquent sur** le bouton Essayer, le client Teams est lancé s’il est installé ; Dans le cas contraire, les utilisateurs seront accédés à la version web de Teams dans leur navigateur. Par défaut, lorsque les notifications sont activées, les clients Win32 Skype Entreprise téléchargent silencieusement le client Teams afin que le client riche soit disponible avant de déplacer l’utilisateur en mode TeamsOnly . Toutefois, vous pouvez également désactiver ce comportement.  Les notifications sont configurées à l’aide de la version sur site de , et le téléchargement en mode silencieux pour les clients Win32 est contrôlé `TeamsUpgradePolicy` via l’cmdlet `TeamsUpgradeConfiguration` sur site.
+Les outils d’administration locaux dans Skype Entreprise Server 2015 avec CU8, ainsi que dans Skype Entreprise Server 2019, vous permettent d’informer les utilisateurs Skype Entreprise locaux de leur déplacement à venir vers Teams. Lorsque vous activez ces notifications, les utilisateurs voient une notification dans leur client Skype Entreprise (Win32, Mac, web et mobile), comme illustré ci-dessous. Si les  utilisateurs cliquent sur le bouton Essayer, le client Teams sera lancé s’il est installé ; sinon, les utilisateurs seront accédés à la version web de Teams dans leur navigateur. Par défaut, lorsque les notifications sont activées, les clients Win32 Skype Entreprise téléchargent silencieusement le client Teams afin que le client riche soit disponible avant de déplacer l’utilisateur vers le mode TeamsOnly ; toutefois, vous pouvez également désactiver ce comportement.  Les notifications sont configurées à l’aide de la version sur site de , et le téléchargement en mode silencieux pour les clients Win32 est contrôlé `TeamsUpgradePolicy` via l’cmdlet `TeamsUpgradeConfiguration` sur site.
 
 > [!TIP]
 > Certains serveurs devront peut-être redémarrer pour que cela fonctionne Skype Entreprise 2015 avec CU8.

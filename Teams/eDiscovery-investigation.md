@@ -17,12 +17,12 @@ description: Découvrez ce que vous devez faire lorsque vous devez effectuer une
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6fd0a7b8108ef0c8d56a814558ae0bd055dc8ef5
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: ca4e85be70ce85d8e35c743275c9f3689061bcda
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356482"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331125"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -34,7 +34,7 @@ Toutes Microsoft Teams conversations en tête-à-tête ou de groupe sont journal
 
 La découverte électronique des messages [](private-channels.md) et des fichiers dans des canaux privés fonctionne différemment que dans les canaux standard. Pour en savoir plus, [voir eDiscovery des canaux privés.](#ediscovery-of-private-channels)
 
-Tous les Teams contenu ne sont pas eDiscoverables. Le tableau suivant indique les types de contenu que vous pouvez rechercher à l’aide des outils de découverte électronique Microsoft :
+Il n’est Teams contenu eDiscoverable. Le tableau suivant indique les types de contenu que vous pouvez rechercher à l’aide des outils de découverte électronique Microsoft :
 
 | Type de contenu | eDiscoverable | Remarques |
 |:--- | :--- |:--- |
@@ -45,26 +45,26 @@ Tous les Teams contenu ne sont pas eDiscoverables. Le tableau suivant indique le
 |Extraits de code | Non | |
 |Messages modifiés | Oui | Si l’utilisateur est en attente, les versions précédentes des messages modifiés sont également conservées. |
 |Emojis, GIF et autocollants | Oui | |
+|Notifications de flux | Non | |
 |Images en ligne | Oui | |
 |Conversations de réunion par messagerie instantanée | Oui | |
 |Métadonnées de<sup>réunion 1</sup> | Oui |  |
-|Nom du canal | Non | |
+|Nom du canal | Oui | |
 |Messages de canal privé | Oui | |
 |Devis | Oui | Le contenu cité peut faire l’l’objectif d’une recherche. Toutefois, les résultats de la recherche n’indiquent pas que le contenu a été cité. |
 |Réactions (par exemple, likes, cœurs et autres réactions) | Non | |
 |Objet | Oui | |
 |Tableaux | Oui | |
-|Notifications de flux | Non | |
 |||
 
 <sup>1 Métadonnées</sup> de réunion (et d’appel) inclut les informations suivantes :
 
 - Heure de début et de fin et durée de la réunion
 - Participer à une réunion et quitter des événements pour chaque participant
-- VoIP join/calls
-- Rejoindre une équipe de façon anonyme
-- Rejoindre un utilisateur fédéré
-- Rejoindre un utilisateur invité
+- VoIP joins/calls
+- Jointeurs anonymes
+- Jointeurs utilisateur fédérés
+- Guest user joins
 
   L’image montre un exemple de métadonnées de réunion.
 
@@ -94,7 +94,7 @@ Les enregistrements pour les messages envoyés dans un canal privé sont distrib
 
 Chaque canal privé possède son propre site SharePoint distinct du site d’équipe parent, les fichiers dans un canal privé sont gérés indépendamment de l’équipe parente.
 
-Teams ne prend pas en charge la recherche eDiscovery pour un seul canal au sein d’une équipe, la recherche doit donc s’effectuer dans toute l’équipe. Pour effectuer une recherche eDiscovery de contenu dans un canal privé, effectuez une recherche dans l’équipe, la collection de sites associée au canal privé (pour inclure les fichiers) et les boîtes aux lettres des membres du canal privé (pour inclure les messages).
+Teams ne prend pas en charge la recherche eDiscovery pour un seul canal au sein d’une équipe, la recherche doit donc s’effectuer dans toute l’équipe. Pour effectuer une recherche eDiscovery de contenu dans un canal privé, recherchez dans l’équipe, la collection de sites associée au canal privé (pour inclure les fichiers) et les boîtes aux lettres des membres du canal privé (pour inclure les messages).
 
 Pour identifier les fichiers et messages d’un canal privé à inclure dans votre recherche eDiscovery, utilisez les étapes suivantes.
 
@@ -115,7 +115,7 @@ Avant d’effectuer ces étapes, installez [SharePoint Online Management Shell e
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
-3. Pour chaque équipe ou ID de groupe, exécutez le script PowerShell suivant pour identifier tous les sites de canaux privés pertinents, à savoir l’ID de groupe `$groupID` de l’équipe.
+3. Pour chaque ID d’équipe ou de groupe, exécutez le script PowerShell suivant pour identifier tous les sites de canaux privés pertinents, à savoir l’ID de groupe `$groupID` de l’équipe.
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -141,7 +141,7 @@ Avant d’effectuer ces étapes, assurez-vous que vous avez installé la [derni�
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 
-3. Incluez les boîtes aux lettres de tous les membres de chaque canal privé dans l’équipe dans votre requête de recherche [eDiscovery.](/microsoft-365/compliance/search-for-content-in-core-ediscovery)
+3. Incluez les boîtes aux lettres de tous les membres de chaque canal privé de l’équipe dans votre requête de recherche [eDiscovery.](/microsoft-365/compliance/search-for-content-in-core-ediscovery)
 
 ## <a name="search-for-content-for-guest-users"></a>Rechercher du contenu pour les utilisateurs invités
 
@@ -158,9 +158,9 @@ Pour rechercher du contenu pour les utilisateurs invités :
    ```
 
    > [!TIP]
-   > Au lieu d’afficher une liste de noms d’utilisateur principaux sur l’écran d’ordinateur, vous pouvez rediriger la sortie de la commande vers un fichier texte. Pour ce faire, vous pouvez l’appending `> filename.txt` à la commande précédente. Le fichier texte avec les noms d’utilisateur principaux est enregistré dans le dossier actuel.
+   > Au lieu d’afficher une liste de noms d’utilisateur principaux sur l’écran d’ordinateur, vous pouvez rediriger la sortie de la commande vers un fichier texte. Pour ce faire, vous pouvez l’appending `> filename.txt` à la commande précédente. Le fichier texte avec les noms d’utilisateur principaux sera enregistré dans le dossier actuel.
 
-3. Dans une autre fenêtre Windows PowerShell, connectez-vous au PowerShell & conformité du Centre de sécurité et conformité. Pour obtenir des instructions à ce [Connecter, voir PowerShell du](/powershell/exchange/connect-to-scc-powershell)Centre de conformité & sécurité. Vous pouvez vous connecter avec ou sans utiliser l’authentification multifacteur.
+3. Dans une autre fenêtre Windows PowerShell, connectez-vous au PowerShell & conformité du Centre de sécurité et conformité. Pour obtenir des instructions à ce [Connecter powerShell du](/powershell/exchange/connect-to-scc-powershell)Centre de conformité & sécurité. Vous pouvez vous connecter avec ou sans utiliser l’authentification multifacteur.
 
 4. Créez une recherche de contenu qui recherche tout le contenu (tels que les messages de conversation et les messages électroniques) dans lequel l’utilisateur invité spécifié était participant en exécutant la commande suivante.
 
@@ -196,11 +196,11 @@ Pour rechercher du contenu pour les utilisateurs invités :
 
 ## <a name="search-for-card-content"></a>Rechercher le contenu d’une carte
 
-Le contenu de la carte généré par les applications Teams, les conversations en face à face et les conversations 1xN sont stockés dans les boîtes aux lettres et peuvent faire l’effet d’une recherche. Une *carte est* un conteneur d’interface utilisateur pour de courts éléments de contenu. Les cartes peuvent avoir plusieurs propriétés et pièces jointes, et peuvent inclure des boutons qui peuvent déclencher des actions de carte. Pour plus d’informations, voir [Cartes](/microsoftteams/platform/task-modules-and-cards/what-are-cards)
+Le contenu de la carte généré par les applications Teams, les conversations en deux temps et les conversations 1xN sont stockés dans des boîtes aux lettres et peuvent faire l’effet d’une recherche. Une *carte est* un conteneur d’interface utilisateur pour de courts éléments de contenu. Les cartes peuvent avoir plusieurs propriétés et pièces jointes, et peuvent inclure des boutons qui peuvent déclencher des actions de carte. Pour plus d’informations, voir [Cartes](/microsoftteams/platform/task-modules-and-cards/what-are-cards)
 
 Comme les autres Teams, où le contenu de la carte est stocké est basé sur l’endroit où la carte a été utilisée. Le contenu des cartes utilisées dans un Teams est stocké dans la boîte aux lettres Teams groupe. Le contenu des cartes pour les conversations 1:1 et 1xN est stocké dans les boîtes aux lettres des participants à la conversation.
 
-Pour rechercher du contenu de carte, vous pouvez utiliser les `kind:microsoftteams` conditions ou les conditions de `itemclass:IPM.SkypeTeams.Message` recherche. Lorsque vous examinez les résultats de la recherche, le contenu de la carte généré par des bots dans un canal Teams a la propriété de courrier **Expéditeur/Auteur,** comme , où se trouve le nom de l’application qui a généré le contenu de la `<appname>@teams.microsoft.com` `appname` carte. Si le contenu de la carte a été généré par un utilisateur, la valeur **Expéditeur/Auteur** identifie l’utilisateur.
+Pour rechercher du contenu de carte, vous pouvez utiliser les `kind:microsoftteams` conditions ou les conditions de `itemclass:IPM.SkypeTeams.Message` recherche. Lors de l’examen des résultats de la recherche, le contenu de la carte généré par des bots dans un canal Teams a la propriété de courrier **Expéditeur/Auteur,** comme , où se trouve le nom de l’application qui a généré le contenu de la `<appname>@teams.microsoft.com` `appname` carte. Si le contenu de la carte a été généré par un utilisateur, la valeur **Expéditeur/Auteur** identifie l’utilisateur.
 
 Lorsque vous affichez le contenu d’une carte dans les résultats de la recherche de contenu, celui-ci s’affiche en tant que pièce jointe du message. La pièce jointe s’appelle , à l’endroit où se trouve le nom de `appname.html` l’application qui a généré le contenu de la `appname` carte. Les captures d’écran suivantes montrent comment le contenu de la carte (pour une application nommée Asana) apparaît dans Teams résultats d’une recherche.
 
@@ -213,9 +213,9 @@ Lorsque vous affichez le contenu d’une carte dans les résultats de la recherc
 ![Même contenu de carte dans les résultats d’une recherche de contenu.](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> Pour afficher des images à partir du contenu de la carte dans les résultats de recherche à ce moment-là (par exemple, les cocher dans la capture d’écran précédente), vous devez être inscrit à Teams (dans un autre onglet au cours de la session de navigateur que vous utilisez pour afficher les résultats de la https://teams.microsoft.com) recherche. Dans le cas contraire, les espaces pour image s’affichent.
+> Pour afficher des images à partir du contenu de la carte dans les résultats de recherche à ce moment-là (par exemple, les cocher dans la capture d’écran précédente), vous devez être inscrit à Teams (dans un autre onglet au cours de la session de navigateur que vous utilisez pour afficher les résultats de la https://teams.microsoft.com) recherche. Dans le cas contraire, les espaces pour images s’affichent.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Microsoft 365 solutions eDiscovery](/microsoft-365/compliance/ediscovery)
 - [Commencer à travailler avec core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)
