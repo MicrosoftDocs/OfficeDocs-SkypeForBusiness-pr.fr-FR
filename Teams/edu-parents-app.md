@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d875c6cd753e4c2e97477b3a3a88e0f071b5cbe
-ms.sourcegitcommit: 05e7c8ac9d6d6f712742d08820d43118c8949bbc
+ms.openlocfilehash: 4865372f442160734fec980428c6f6309cc0ad7f
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61322986"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355743"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>Déploiement de l’application Parents dans Microsoft Teams
 
@@ -33,7 +33,7 @@ L’application Parents permet aux enseignants de communiquer et de s’implique
 ### <a name="school-data-sync"></a>Synchronisation des données scolaires
 
 - Vous devez Synchronisation des données scolaires SDS pour remplir les informations de contact associées au parent et tuteur de **chaque** étudiant.
-  - [Déployer la SDS](/schooldatasync/parent-contact-sync)
+  - [Déployer la SDS](/schooldatasync/parents-and-guardians-in-sds)
 
 - Si vous avez besoin d’aide pour définir SDS et remplir les **contacts** parents et tuteurs liés aux étudiants de votre client, contactez l’équipe Edu Customer Success en :
   - Finalisation du processus d’fafa à [FastTrack.](https://www.microsoft.com/fasttrack?rtc=1)

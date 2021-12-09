@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 887fd7bf955f5caa76a0dde3b42b96b912f23355
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 27050469b03c63b11d36150bc6213b84554d6db7
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829608"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355653"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planifier le routage géodépendant pour le routage direct
 
@@ -105,8 +105,8 @@ En comparaison, le routage des appels sortants pour les utilisateurs activés po
 |Emplacement du point de terminaison Utilisateur1  |Routage des appels sortants pour User1  |
 |---------|---------|
 |Même site sur lequel la dida pas d’utilisateur est attribuée, site activé Location-Based routage des tâches (Site1)      |Appel roué via une passerelle activée pour le routage Location-Based (GW1) sur site1, en fonction de la stratégie de routage voix de l’utilisateur         |
-|Site différent de l’emplacement où est attribué le DID de l’utilisateur, site activé Location-Based routage (Site2)    |Appel roué via une passerelle activée pour Location-Based routage des appels (GW2) en itinérance site2, en fonction de la stratégie de routage voix de l’utilisateur        |
-|Site différent de l’emplacement où est attribué le DID de l’utilisateur, le site n’est pas activé Location-Based routage (Site3)  |Appel acheminé via une passerelle non activée pour le routage Location-Based sur un site non activé pour le routage Location-Based (GW3), en fonction de la stratégie de routage vocale de l’utilisateur       |
+|Site différent de l’endroit où est attribué le didas de l’utilisateur, le site activé Location-Based routage des tâches (Site2)    |Appel roué via une passerelle activée pour Location-Based routage des appels (GW2) en itinérance site2, en fonction de la stratégie de routage voix de l’utilisateur        |
+|Site différent de l’emplacement où le DID de l’utilisateur est attribué, le site n’est pas activé Location-Based routage (Site3)  |Appel acheminé via une passerelle non activée pour le routage Location-Based sur un site non activé pour le routage Location-Based (GW3), en fonction de la stratégie de routage vocale de l’utilisateur       |
 |Réseau interne inconnu (Emplacement4)    |  Appels PSTN non autorisés       |
 |Réseau externe inconnu (Emplacement5)    | Appels PSTN non autorisés        |
 
@@ -239,7 +239,7 @@ Les sous-réseaux IPv4 et IPv6 sont pris en charge, mais IPv6 est prioritaire lo
 Les clients de Teams pris en charge sont les suivants :
 - Teams clients de bureau (Windows et Mac)
 - Teams clients mobiles (iOS et Android)
-- Teams Téléphones IP
+- Teams IP
 
 Le Teams client web et les clients Skype Entreprise web ne sont pas pris en charge.
 
@@ -251,7 +251,9 @@ Location-Based routage ne s’applique pas aux types d’interactions suivants. 
 
 ### <a name="location-based-routing-for-conferencing"></a>Location-Based routage pour les conférences
 
-Un Location-Based activé pour le routage d’un appel PSTN n’est pas autorisé à démarrer une conférence avec un autre utilisateur ou un numéro PSTN. La connexion aux attendants automatiques ou aux files d’attente d’appels est autorisée. Si l’utilisateur dispose d’une licence de conférence, il doit démarrer une conférence avec les utilisateurs concernés et appeler le RSTN via le pont de conférence pour démarrer une téléconférence.  
+Un Location-Based activé pour le routage d’un appel PSTN n’est pas autorisé à démarrer une conférence avec un autre utilisateur ou un numéro PSTN. La connexion aux attendants automatiques ou aux files d’attente d’appels est autorisée. Si l’utilisateur dispose d’une licence de conférence, il doit démarrer une conférence avec les utilisateurs concernés et appeler le RSTN via le pont de conférence pour démarrer une téléconférence.
+
+Dans une téléconférence démarrée par un utilisateur sans licence de conférence, l’ajout de participants PSTN n’est pas autorisé s’il y Location-Based au moins un utilisateur activé pour le routage pendant une téléconférence. Si au moins un participant PSTN participe ou a participé à une conférence de ce type avant que des participants Location-Based Routage activés souhaitent rejoindre l’appel, ces participants ne peuvent pas être ajoutés à l’appel.
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Besoin de dérivation média pour Location-Based routage
 
@@ -265,7 +267,7 @@ Direct Voice over IP (VoIP) ne doit être déployé avec aucun équipement tél�
 
 Allez à [Configurer les paramètres réseau pour Location-Based routage.](location-based-routing-configure-network-settings.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)
 - [Paramètres réseau pour les fonctionnalités vocales cloud dans Teams](cloud-voice-network-settings.md)

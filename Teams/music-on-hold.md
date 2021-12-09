@@ -15,18 +15,20 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Découvrez comment gérer la fonctionnalité Musique en attente dans Système téléphonique.
-ms.openlocfilehash: e2f2347ca4368a8665d77ff2424a5c0082c1b0d8
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 7a7a79bb2d96bcd43e12b27424630acd7a0c90eb
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960123"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355733"
 ---
 # <a name="music-on-hold"></a>Musique en attente
 
 Lorsqu’Microsoft Teams un utilisateur place un appel entrant en provenance du réseau téléphonique commuté (RST) en attente, l’appelant PSTN peut écouter la musique sélectionnée.
 
 La musique lie est soit la musique par défaut fournie par Microsoft, soit la musique personnalisée que vous téléchargez et configurez. En tant qu’administrateur client, vous configurez si une Musique mise en attente est disponible en créant une stratégie d’appel Teams et en attribuant la stratégie à l Teams utilisateur.
+
+La musique par défaut fournie dans les Microsoft Teams d’appel PSTN est gratuite, sans frais de redevance payables par votre organisation.
 
 Notez que les appelants PSTN peuvent également écouter des Musique en attente dans d’autres scénarios (par exemple, lorsqu’ils appellent une file d’attente d’appels dans le cloud ou quand leur appel est mis en attente par un Microsoft Teams utilisateur). Ces scénarios ne sont pas couverts ni contrôlés par les fonctionnalités mentionnées dans cet article.
 
@@ -116,7 +118,7 @@ Le tableau suivant indique les fonctionnalités sur quels clients et appareils q
 
 - Dans certains cas, un appel de dérivation média de routage direct sera converti en contournement multimédia non multimédia pour la lecture de Musique en attente et l’appel restera comme une dérivation non multimédia jusqu’à la fin de l’appel.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Attribuer des stratégies aux utilisateurs](policy-assignment-overview.md)
 

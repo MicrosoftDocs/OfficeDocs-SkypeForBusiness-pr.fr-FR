@@ -1,5 +1,5 @@
 ---
-title: Déployer Salles Microsoft Teams avec Exchange local
+title: Déployer Salles Microsoft Teams déploiement Exchange local (hybride)
 ms.author: czawideh
 author: cazawideh
 manager: serdars
@@ -17,26 +17,24 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Lisez cette rubrique pour plus d’informations sur le déploiement d Salles Microsoft Teams dans un environnement hybride avec des Exchange en local.
-ms.openlocfilehash: 96d8a49cd75e3413739d36a3c86a91daa72b22e6
-ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
+ms.openlocfilehash: 15936a805e45ce17ec35822bb02980b4d47499b8
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60909535"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355613"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Déployer Salles Microsoft Teams avec Exchange local
+# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises-hybrid"></a>Déployer Salles Microsoft Teams avec Exchange local (hybride)
 
-Lisez cette rubrique pour plus d’informations sur la façon de déployer des Salles Microsoft Teams dans un environnement hybride avec des Exchange locaux et Microsoft Teams.
+Lisez cette rubrique pour plus d’informations sur le déploiement d Salles Microsoft Teams dans un environnement hybride avec des Exchange locaux et Microsoft Teams.
   
 Si votre organisation dispose d’un mélange de services, dont certains sont hébergés en local et d’autres hébergés en ligne, votre configuration dépend de l’endroit où chaque service est hébergé. Cette rubrique traite des déploiements hybrides Salles Microsoft Teams avec Exchange sur site. Ce type de déploiement étant très différent, il n’est pas possible de fournir des instructions détaillées pour l’ensemble d’entre eux. Le processus suivant fonctionne pour de nombreuses configurations. Si le processus n’est pas configuré pour votre configuration, nous vous recommandons d’utiliser Windows PowerShell pour obtenir le même résultat final que celui documenté ici, ainsi que pour d’autres options de déploiement.
-
-Microsoft fournit [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script qui vous aide à créer de nouveaux comptes d’utilisateurs, ou à valider les comptes de ressources existants que vous avez pour vous aider à les transformer en comptes d’utilisateurs Salles Microsoft Teams compatibles. Si vous préférez, vous pouvez suivre les étapes ci-dessous pour configurer des comptes que votre Salles Microsoft Teams appareil utilisera.
   
 ## <a name="requirements"></a>Conditions requises
 
 Avant de déployer Salles Microsoft Teams avec Exchange local, assurez-vous que vous avez satisfait aux exigences. Pour plus d’informations, [voir Salles Microsoft Teams requise.](requirements.md)
   
-Si vous déployez Salles Microsoft Teams avec Exchange local, vous utiliserez les outils d’administration Active Directory pour ajouter une adresse de courrier pour votre compte de domaine local. Ce compte sera synchronisé avec les Microsoft 365 ou Office 365. Vous devrez réaliser les opérations suivantes :
+Si vous déployez Salles Microsoft Teams avec Exchange local, vous utiliserez les outils d’administration Active Directory pour ajouter une adresse de messagerie pour votre compte de domaine local. Ce compte sera synchronisé avec les Microsoft 365 ou Office 365. Vous devrez réaliser les opérations suivantes :
   
 - Créez un compte et synchronisez-le avec Azure Active Directory.
 
@@ -53,25 +51,25 @@ Si vous déployez Salles Microsoft Teams avec Exchange local, vous utiliserez le
 3. Saisissez le mot de passe de ce compte. Vous devrez le saisir à nouveau à des fins de vérification. Vérifiez que seule l’option **Le mot de passe n’expire jamais** est sélectionnée.
 
     > [!NOTE]
-    > La sélection **du mot de passe n’expire** jamais est une obligation pour Salles Microsoft Teams. Il est possible que des règles de votre domaine interdisent la non-expiration des mots de passe. Si c’est le cas, vous devez créer une exception pour Salles Microsoft Teams compte d’appareil.
+    > La sélection **du mot de passe n’expire** jamais est une obligation pour Salles Microsoft Teams. Il est possible que des règles de votre domaine interdisent la non-expiration des mots de passe. Si c’est le cas, vous devez créer une exception pour chaque Salles Microsoft Teams compte.
   
-4. Une fois le compte créé, exécutez une synchronisation de répertoire. Une fois l’étape terminée, allez dans la page utilisateurs de votre Centre d'administration Microsoft 365 et vérifiez que le compte créé lors des étapes précédentes a été fusionné sur en ligne.
+4. Une fois le compte créé, exécutez une synchronisation de répertoire. Une fois l’opération terminée, allez à la page utilisateurs de votre Centre d'administration Microsoft 365 et vérifiez que le compte créé lors des étapes précédentes a été synchronisé avec en ligne.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Activation de la boîte aux lettres distante et définition des propriétés
 
-1. [Ouvrez le Exchange Management Shell ou](/powershell/exchange/exchange-server/open-the-exchange-management-shell) connectez-vous à votre serveur Exchange à [l’aide de Remote PowerShell.](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
+1. [Ouvrez Exchange Management Shell ou](/powershell/exchange/exchange-server/open-the-exchange-management-shell) connectez-vous à votre serveur Exchange à [l’aide de Remote PowerShell.](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
 
 2. Dans Exchange PowerShell, créez une boîte aux lettres pour le compte (activez ce compte) en exécutant la commande suivante :
 
    ```PowerShell
-   Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
+   Enable-Mailbox ConferenceRoom01@contoso.com -Room
    ```
 
-   Pour plus d’informations sur la syntaxe et les paramètres, voir [Enable-Mailbox.](/powershell/module/exchange/mailboxes/enable-mailbox)
+   Pour plus d’informations sur la syntaxe et les paramètres, [voir Enable-Mailbox.](/powershell/module/exchange/mailboxes/enable-mailbox)
 
 3. Dans Exchange PowerShell, configurez les paramètres suivants sur la boîte aux lettres de salle pour améliorer l’expérience de réunion :
 
-   - AutomateProcessing :accept automatique (les organisateurs de réunion reçoivent directement la décision de réservation de salle sans intervention humaine : libre = accepter ; occupé = refus.)
+   - AutomateProcessing :accept automatique (les organisateurs de réunion reçoivent les décisions de réservation de salle directement sans intervention humaine).
 
    - AddOrganizerToSubject: $false (L’organisateur de la réunion n’est pas ajouté à l’objet de la demande de réunion.)
 
@@ -79,16 +77,16 @@ Si vous déployez Salles Microsoft Teams avec Exchange local, vous utiliserez le
 
    - SuppressionSubject : $false (conserver l’objet des demandes de réunion entrantes).)
 
-   - RemovePrivateProperty : $false (garantit que l’indicateur privé envoyé par l’organisateur de la réunion dans la demande de réunion d’origine reste tel que spécifié.)
+   - RemovePrivateProperty : $false (garantit que l’indicateur privé envoyé par l’organisateur de la réunion dans la demande de réunion initiale reste tel que spécifié.)
 
    - AddAdditionalResponse: $true (Le texte spécifié par le paramètre AdditionalResponse est ajouté aux demandes de réunion.)
 
    - Réponse supplémentaire : « Il s’agit d’Microsoft Teams salle de réunion ! » (Texte supplémentaire à ajouter à la demande de réunion.
 
-   Cet exemple configure ces paramètres sur la boîte aux lettres de salle Project-Rigel-01.
+   Cet exemple configure ces paramètres dans la boîte aux lettres de salle nommée ConferenceRoom01.
 
    ```PowerShell
-   Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
+   Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
    ```
 
    Pour plus d’informations sur la syntaxe et les paramètres, [voir Set-CalendarProcessing.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
@@ -100,7 +98,7 @@ Si vous déployez Salles Microsoft Teams avec Exchange local, vous utiliserez le
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0 n’est](/powershell/azure/active-directory/overview?view=azureadps-2.0) pas pris en charge. 
 
-2. Le compte de l’appareil doit avoir une licence Microsoft 365 ou Office 365 licence valide, ou Exchange et Microsoft Teams ne fonctionneront pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des S SKUs disponibles.
+2. Le compte de ressource doit avoir une licence Microsoft 365 ou Office 365 valide, ou Exchange et Microsoft Teams ne fonctionneront pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte de ressource. Cela détermine les S SKD de licence disponibles pour votre compte. Vous pouvez utiliser `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des S SKUs disponibles.
 
 <!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
@@ -109,9 +107,9 @@ Si vous déployez Salles Microsoft Teams avec Exchange local, vous utiliserez le
 3. Ensuite, vous pouvez ajouter une licence à l’aide du `Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> cmdlet. Dans ce cas, $strLicense est le code de SKU qui s’affiche (par exemple, contoso:STANDARDPACK).
 
   ``` PowerShell
-  Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+  Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
   Get-MsolAccountSku
-  Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+  Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses $strLicense
   ```
 
 <!--   ``` Powershell
@@ -124,7 +122,7 @@ Si vous déployez Salles Microsoft Teams avec Exchange local, vous utiliserez le
 
 Pour validation, vous pouvez utiliser n’importe quel client pour vous connecter à ce compte.
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer des comptes pour Salles Microsoft Teams](rooms-configure-accounts.md)
 

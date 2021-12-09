@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenez des informations détaillées sur les dimensions et les mesures utilisées par le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online.
-ms.openlocfilehash: bd9df17a832b02ad71591daae0b54df9a1b77f0d
-ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+ms.openlocfilehash: 4df31782e7f78818df5f9a849d0c814e07c52adb
+ms.sourcegitcommit: d976e49943aedd511bd6a80b02afeac4a6453406
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61267797"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "61362551"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensions et mesures disponibles dans le tableau de bord de qualité des appels
 
@@ -58,7 +58,63 @@ Par exemple, ici, chaque ligne représente une paire d’agents utilisateur impl
 
 ## <a name="dimensions"></a>Dimensions
 
-Les informations sur les dimensions sont basées en partie sur les données téléchargées sur le portail du centre de qualité des fichiers. De nombreuses valeurs de dimension peuvent également être utilisées comme filtres. Le tableau suivant répertorie les dimensions actuellement disponibles dans le tableau de commandes, dans l’ordre indiqué dans l’Éditeur de requête utilisé pour créer des rapports ou modifier des rapports définis précédemment.
+Les informations sur les dimensions sont basées en partie sur les données téléchargées sur le portail du centre de qualité des fichiers. De nombreuses valeurs de dimension peuvent également être utilisées comme filtres.
+
+### <a name="dimension-data-types-and-units"></a>Unités et types de données de dimension
+
+#### <a name="boolean"></a>Boolean
+
+Les valeurs booléistes sont toujours Vrai ou Faux. Dans certains cas, Vrai peut également être représenté comme 1 et Faux peut être représenté sous la valeur 0.
+
+#### <a name="range"></a>Plage
+
+Les dimensions fournies comme plage ou groupe de valeurs sont affichées selon le format suivant :
+
+ _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>_
+
+Par exemple, la dimension Durée (Minutes) représente la durée de l'appel en secondes avec la valeur rapportée sous forme de plage de valeurs.
+
+|Duration (Minutes) |Interprétation |
+|:--- |:--- |
+|062: [0 - 0) |Durée du flux = 0 minutes |
+|064: [1 - 2) |1 minute < = durée du flux < 2 minutes |
+|065: [2 - 3) |2 minutes < = durée du flux < 3 minutes |
+|066: [3–4) |3 minutes < = durée du flux < 4 minutes |
+|  | |
+
+Utilisé \<sort order string> pour contrôler l’ordre de tri lors de la présentation des données, il peut être utilisé pour le filtrage. Par exemple, un filtre sur Durée (Minutes) < « 065 » afficherait les flux d’une durée inférieure à 2 minutes (le « 0 » de tête est nécessaire pour que le filtre fonctionne comme prévu). La valeur réelle de la chaîne d'ordre de tri n'est pas significative.
+
+> [!NOTE]
+> Vous remarquerez peut-être des plages qui semblent non valides pour une dimension donnée. La force du signal Wifi, par exemple, affiche les appels dans la plage 082 : [100 - 110) lorsque 100 est la valeur maximale possible pour la puissance du signal Wifi. Cela est dû à la façon dont les nombres sont affectés à des plages dans le modèle de données du CQD. Si une valeur de nombre entier est 99, elle est comptabilisée dans la plage 081: [90 - 100). Si cette valeur est 100, elle est comptabilisée dans la plage 082: [100 - 110). Cela n’indique pas qu’il existe des valeurs de force du signal Wifi supérieures à 100 % signalées.
+
+#### <a name="enumeration-strings"></a>Chaînes d’en-tête
+
+Les chaînes utilisées par le CQD sont souvent dérivées des fichiers de données, et peuvent être pratiquement n’importe quelle combinaison de caractères dans la longueur autorisée. Certaines dimensions ressemblent à des chaînes, mais comme elles ne peuvent faire qu’une partie d’une courte liste de valeurs prédéfinie, il s’agit d’énumérations et non de chaînes vraies. Certaines chaînes d’en-tête sont également utilisées par paires.
+
+#### <a name="enumeration-pair"></a>Paire d'énumération
+
+Les dimensions fournies comme paire d'énumération sont affichées selon le format suivant :
+
+ _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
+
+Le tri des valeurs d'énumération est cohérent, mais ne reflète pas l'ordre du premier ou du deuxième point de terminaison.
+
+Par exemple, la paire de détails de connexion réseau indique les valeurs des détails de connexion réseau pour les deux systèmes de connexion.
+
+|Network Connection Detail Pair |Interprétation |
+|:--- |:--- |
+|Filaire : filaire |Le premier et le deuxième point de terminaison utilisaient des connexions filaires Ethernet. |
+|Filaire : wifi |Le premier point de terminaison utilisait une connexion filaire Ethernet et le deuxième utilisait une connexion WiFi ou le deuxième utilisait une connexion filaire Ethernet et le premier une connexion WiFi. |
+|: wifi |Le premier point de terminaison utilisait une connexion WiFi et la connexion réseau utilisée par le deuxième point de terminaison est inconnue ou le deuxième point de terminaison utilisait une connexion WiFi et la connexion utilisée par le premier point de terminaison est inconnue. |
+| | |
+
+#### <a name="blank-values"></a>Valeurs non renseignées
+
+Le tableau ci-dessous répertorie les raisons possibles pour lesquelles une dimension peut être vide. De nombreuses dimensions et mesures restent vides si la dimension de qualité de l’enregistrement QoE disponible est fausse. Cela se produit généralement lorsque l’appel n’a pas été établi correctement ou lorsque le client n’a pas pu envoyer sa télémétrie au service.
+
+### <a name="available-dimensions"></a>Dimensions disponibles 
+
+Le tableau suivant répertorie les dimensions actuellement disponibles dans le tableau de commandes, dans l’ordre indiqué dans l’Éditeur de requête utilisé pour créer des rapports ou modifier des rapports définis précédemment.
 
 |Nom|Type de données|Description|Raisons possibles pour des valeurs vides|
 |:---|:---|:---|:---|
@@ -159,7 +215,7 @@ Les informations sur les dimensions sont basées en partie sur les données tél
 | Duration (Minutes)  | Portée (minutes)  | Durée du flux en minutes. Valeurs ventilées par portée.<br/> **Exemple de valeur :** 065: [3-4) ||
 | Duration (Seconds)  | Portée (secondes) | Durée du flux en secondes. Valeurs ventilées par portée.<br/> **Exemple de valeur :** 062: [1 -2)||
 |**Date**||| |
-|Heure de fin|  String| Heure de la journée où l’appel a pris fin.|&bull; La configuration de l’appel a échoué ou n’a pas été établie (voir CDR Response Reason) |
+|Heure de fin|  String| Heure de la journée où l’appel a pris fin. Les valeurs sont signalées dans le fuseau horaire UTC. |&bull; La configuration de l’appel a échoué ou n’a pas été établie (voir CDR Response Reason) |
 | Year  | Entier  | Année de la fin du flux. Les valeurs sont signalées dans le fuseau horaire UTC. <br/> **Exemple de valeur :** 2018 | |
 | Month  | Entier  | Mois de la fin du flux. Les valeurs sont signalées dans le fuseau horaire UTC. <br/> **Exemple de valeur :** 2 | |
 | Day  | Entier  | Jour de la fin du flux. Les valeurs sont signalées dans le fuseau horaire UTC. <br/> **Exemple de valeur :** 1 | |
@@ -173,7 +229,7 @@ Les informations sur les dimensions sont basées en partie sur les données tél
 |Semaine|  String  |Date de début de la semaine au cours de laquelle l’appel a eu lieu. <br/> **Exemple de valeur** : 2019-09-01 |&bull; La configuration de l’appel a échoué ou n’a pas été établie (voir CDR Response Reason) |
 | Month Year  | Chaîne  | Mois et année de la fin du flux. Les valeurs sont signalées dans le fuseau horaire UTC. <br/> **Exemple de valeur :** 2017-02 | |
 | Full Month  | Date  | Mois complet de la fin du flux. Les valeurs sont signalées dans le fuseau horaire UTC. <br/> **Exemple de valeur** : 2017-02-01T00:00:00 | |
-|Heure de début|String  |Heure du jour où l’appel a commencé.|&bull; La configuration de l’appel a échoué ou n’a pas été établie (voir CDR Response Reason) |
+|Heure de début|String  |Heure du jour où l’appel a commencé. Les valeurs sont signalées dans le fuseau horaire UTC. |&bull; La configuration de l’appel a échoué ou n’a pas été établie (voir CDR Response Reason) |
 |**UserAgent** | | | |
 | First Domain  | Chaîne  | Domaine de l’utilisateur du premier point de terminaison. Si le premier point de terminaison est un serveur de conférence, il utilise le domaine de l’organisateur de la réunion. Il peut aussi s'agir du domaine des comptes du service utilisés dans le scénario.  <br/> **Exemple de valeur :** contoso <span></span> .com | |
 | Second Domain  | Chaîne  | Domaine du deuxième utilisateur du point de terminaison. Si le deuxième point de terminaison est un serveur de conférence, il utilise le domaine de l’organisateur de la réunion. Il peut aussi s'agir du domaine des comptes du service utilisés dans le scénario. <br/> **Exemple de valeur :** contoso <span></span> .com  | |
@@ -443,9 +499,9 @@ Les informations sur les dimensions sont basées en partie sur les données tél
 | Second Endpoint Product Name|String|Nom du produit du deuxième point de terminaison (Skype Entreprise ou Microsoft Teams).||
 | First UserType|Chaîne d’ensemble|Type d’utilisateur sur le premier point de terminaison. <br/> **Valeurs possibles :** Utilisateur, Serveur, Anonyme, Application, PSTN, Messagerie vocale, Inconnu <br/> <br/>**Inconnu** - valeur par défaut si UserType ne peut pas être déterminé en fonction des informations reçues. <br/>**PSTN** - un utilisateur PSTN. <br/>**Anonyme** - un utilisateur Teams ou un Skype Entreprise visiteur. <br/>**Application** - un robot. <br/>**Un** utilisateur - AAD utilisateur final, peut être un Skype Entreprise utilisateur ou un Teams utilisateur. <br/>**Serveur** : pour les conférences, au moins un côté est un serveur. <br/>**Messagerie vocale** : le point de terminaison a été répondu par le service de messagerie vocale.||
 | Second UserType|Chaîne d’ensemble|Type d’utilisateur sur le deuxième point de terminaison. <br/> **Valeurs possibles :** Utilisateur, Serveur, Anonyme, Application, PSTN, Messagerie vocale, Inconnu <br/> <br/>**Inconnu** - valeur par défaut si UserType ne peut pas être déterminé en fonction des informations reçues. <br/>**PSTN** - un utilisateur PSTN. <br/>**Anonyme** - un utilisateur Teams ou un Skype Entreprise visiteur. <br/>**Application** - un robot. <br/>**Un** utilisateur - AAD utilisateur final, peut être un Skype Entreprise utilisateur ou un Teams utilisateur. <br/>**Serveur :** pour les conférences, au moins un côté est serveur. <br/>**Messagerie vocale** - Le point de terminaison a été répondu par le service de messagerie vocale.||
-| Organizer ObjectId|String|ID d’objet Active Directory de l’utilisateur de l’organisateur de la réunion. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l’accès EUII.  | &bull; L’utilisateur n’a pas l’autorisation d’afficher la euii. &bull; L’enregistrement est de plus de 28 jours. |
-| UPN organisateur|String|Nom d’utilisateur principal (UPN) de l’utilisateur organisateur de la réunion. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l’accès EUII.| &bull; L’utilisateur n’a pas l’autorisation d’afficher la euii. &bull; L’enregistrement est de plus de 28 jours. |
-| Organisateur Sip Uri|String|URI SIP (Session Initiation Protocol) de l’utilisateur de l’organisateur de la réunion. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l’accès EUII.| &bull;Remplie uniquement pour Skype Entreprise points de terminaison. <br/>&bull; L’utilisateur n’a pas l’autorisation d’afficher la euii. &bull; L’enregistrement est de plus de 28 jours.|
+| Organizer ObjectId|String|ID d’objet Active Directory de l’utilisateur de l’organisateur de la réunion. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l’accès EUII.  | &bull; L’utilisateur n’a pas l’autorisation d’afficher la euii. <br/>&bull; L’enregistrement est de plus de 28 jours. |
+| UPN organisateur|String|Nom d’utilisateur principal (UPN) de l’utilisateur organisateur de la réunion. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l’accès EUII.| &bull; L’utilisateur n’a pas l’autorisation d’afficher la euii. <br/>&bull; L’enregistrement est de plus de 28 jours. |
+| Organisateur Sip Uri|String|URI SIP (Session Initiation Protocol) de l’utilisateur de l’organisateur de la réunion. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l’accès EUII.| &bull;Remplie uniquement pour Skype Entreprise points de terminaison. <br/>&bull; L’utilisateur n’a pas l’autorisation d’afficher la euii. <br/>&bull; L’enregistrement est de plus de 28 jours.|
 |**Appareils**||||
 | First Capture Device Form Factor|Chaîne d’ensemble|Facteur de formulaire du périphérique de capture audio (microphone) sur le premier point de terminaison. | &bull; Non communiqué par le point de terminaison. |
 | Second Capture Device Form Factor|Chaîne d’ensemble|Facteur de formulaire du périphérique de capture audio (microphone) sur le premier point de terminaison. | &bull; Non communiqué par le point de terminaison. |
@@ -468,7 +524,7 @@ Les informations sur les dimensions sont basées en partie sur les données tél
 |Emplacement PSTN MP|String|L’emplacement du processeur de média affiche le chemin de médias en mode sans contournement.<br/>**Exemple :** USWE||
 |Raison de fin d’appel PSTN|Int|Le code de réponse d’un nombre de trois chiffres indique le statut final de l’appel. <br/> Pour plus d’informations sur l’explication SIP, consultez [la liste des codes de réponse SIP.](https://www.wikipedia.org/wiki/List_of_SIP_response_codes) <br/>**Exemple :** 404||
 |**Applications vocales (aperçu)**||Pour cette catégorie, voir le Standard automatique & historique de la [file d’attente](aa-cq-cqd-historical-reports.md) d’appels pour plus d’informations.)||
-|Standard automatique identité de l’entreprise|String|Nom du compte de ressource joint à la Standard automatique.||
+|Standard automatique identité de l’entreprise|String|Nom du compte de ressource joint à la Standard automatique.|&bull; L’utilisateur n’a pas l’autorisation d’afficher la euii. <br/>&bull; L’enregistrement est de plus de 28 jours.|
 |Standard automatique Index de la chaîne|Entier| Ordre des Standard automatique dans l’appel.||
 |Standard automatique début de la chaîne|String|L’Standard automatique l’heure et la date de début de l’appel.||
 |Standard automatique durée de la chaîne|Entier| Durée de l’appel dans la Standard automatique, mesurée en secondes.||
@@ -478,7 +534,7 @@ Les informations sur les dimensions sont basées en partie sur les données tél
 |Standard automatique’appel|Énumération| Résultat de l’appel final avec Standard automatique. ||
 |Standard automatique de recherche dans l’annuaire|Énumération|Méthode de recherche du dernier carnet d’adresses utilisée.||
 |Standard automatique Count|Entier| Nombre de attendants automatiques impliqués dans l’appel.||
-|Identité de la file d’attente d’appels|String|Nom du compte de ressource joint à la file d’attente d’appels. ||
+|Identité de la file d’attente d’appels|String|Nom du compte de ressource joint à la file d’attente d’appels. |&bull; L’utilisateur n’a pas l’autorisation d’afficher la euii. <br/>&bull; L’enregistrement est de plus de 28 jours.|
 |La file d’attente d’appels est en mode conférence|Boolean|Si la file d’attente d’appels est configurée pour utiliser le mode de conférence, sinon la file d’attente d’appels est configurée pour utiliser le mode de transfert. ||
 |Nombre d’agents de la file d’attente d’appels|Entier|Nombre d’agents configurés dans la file d’attente. ||
 |Call Queue Agent Opt In Count|Entier|Nombre d’agents configurés qui ont choisi de faire partie de la file d’attente. ||
@@ -486,6 +542,7 @@ Les informations sur les dimensions sont basées en partie sur les données tél
 |Résultat des appels de la file d’attente d’appels|Énumération|État final de l’appel de la file d’attente d’appels. ||
 |Action d’état final de la file d’attente d’appels|Énumération|Action finale de la file d’attente d’appels. ||
 |Délai d’attente d’appels en attente|Entier|Valeur de délai d’attente configurée pour la file d’attente d’appels. ||
+|Transféré à partir de l’identité de la file d’attente d’appels|String|Nom du compte de ressource joint à la file d’attente d’appels qui a transféré l’appel. |&bull; L’utilisateur n’a pas l’autorisation d’afficher la euii. <br/>&bull; L’enregistrement est de plus de 28 jours.|
 |Est Standard automatique concernée|Boolean| Si True, un Standard automatique a été impliqué dans un appel ou un flux donné.||
 |La file d’attente d’appels est-elle concernée ?|Boolean|Si True, une file d’attente d’appels a été impliquée dans un appel ou un flux donné. ||
 |**Réunion**||||
@@ -502,59 +559,6 @@ Les informations sur les dimensions sont basées en partie sur les données tél
 |**Scénario**||||
 | Scenario Pair  | Paire énumérée  | Paire indiquant si les points de terminaison étaient situés à l'intérieur ou à l'extérieur du réseau d'entreprise en fonction du mappage de sous-réseau et des détails de connexion réseau. <br/> **Remarque :** Les paires sont séparées par « - ». <br/> **Exemple de valeur :** Client-Intérieur--Client-Intérieur-wifi  | &bull; Le type de connectivité réseau était inconnu pour l’un ou les deux points de terminaison.  |
 
-
-
-### <a name="notes-on-dimension-data-typeunits"></a>Notes sur les types/unités de données de dimension
-
-#### <a name="boolean"></a>Boolean
-
-Les valeurs booléistes sont toujours Vrai ou Faux. Dans certains cas, Vrai peut également être représenté comme 1 et Faux peut être représenté sous la valeur 0.
-
-#### <a name="range"></a>Plage
-
-Les dimensions fournies comme plage ou groupe de valeurs sont affichées selon le format suivant :
-
- _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>_
-
-Par exemple, la dimension Durée (Minutes) représente la durée de l'appel en secondes avec la valeur rapportée sous forme de plage de valeurs.
-
-|Duration (Minutes) |Interprétation |
-|:--- |:--- |
-|062: [0 - 0) |Durée du flux = 0 minutes |
-|064: [1 - 2) |1 minute < = durée du flux < 2 minutes |
-|065: [2 - 3) |2 minutes < = durée du flux < 3 minutes |
-|066: [3–4) |3 minutes < = durée du flux < 4 minutes |
-|  | |
-
-Utilisé \<sort order string> pour contrôler l’ordre de tri lors de la présentation des données, il peut être utilisé pour le filtrage. Par exemple, un filtre sur Durée (Minutes) < « 065 » afficherait les flux d’une durée inférieure à 2 minutes (le « 0 » de tête est nécessaire pour que le filtre fonctionne comme prévu). La valeur réelle de la chaîne d'ordre de tri n'est pas significative.
-
-> [!NOTE]
-> Vous remarquerez peut-être des plages qui semblent non valides pour une dimension donnée. La force du signal Wifi, par exemple, affiche les appels dans la plage 082 : [100 - 110) lorsque 100 est la valeur maximale possible pour la puissance du signal Wifi. Cela est dû à la façon dont les nombres sont affectés à des plages dans le modèle de données du CQD. Si une valeur de nombre entier est 99, elle est comptabilisée dans la plage 081: [90 - 100). Si cette valeur est 100, elle est comptabilisée dans la plage 082: [100 - 110). Cela n’indique pas qu’il existe des valeurs de force du signal Wifi supérieures à 100 % signalées.
-
-#### <a name="enumeration-strings"></a>Chaînes d’en-tête
-
-Les chaînes utilisées par le CQD sont souvent dérivées des fichiers de données, et peuvent être pratiquement n’importe quelle combinaison de caractères dans la longueur autorisée. Certaines dimensions ressemblent à des chaînes, mais comme elles ne peuvent faire qu’une partie d’une courte liste de valeurs prédéfinie, il s’agit d’énumérations et non de chaînes vraies. Certaines chaînes d’en-tête sont également utilisées par paires.
-
-#### <a name="enumeration-pair"></a>Paire d'énumération
-
-Les dimensions fournies comme paire d'énumération sont affichées selon le format suivant :
-
- _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
-
-Le tri des valeurs d'énumération est cohérent, mais ne reflète pas l'ordre du premier ou du deuxième point de terminaison.
-
-Par exemple, la paire de détails de connexion réseau indique les valeurs des détails de connexion réseau pour les deux systèmes de connexion.
-
-|Network Connection Detail Pair |Interprétation |
-|:--- |:--- |
-|Filaire : filaire |Le premier et le deuxième point de terminaison utilisaient des connexions filaires Ethernet. |
-|Filaire : wifi |Le premier point de terminaison utilisait une connexion filaire Ethernet et le deuxième utilisait une connexion WiFi ou le deuxième utilisait une connexion filaire Ethernet et le premier une connexion WiFi. |
-|: wifi |Le premier point de terminaison utilisait une connexion WiFi et la connexion réseau utilisée par le deuxième point de terminaison est inconnue ou le deuxième point de terminaison utilisait une connexion WiFi et la connexion utilisée par le premier point de terminaison est inconnue. |
-| | |
-
-#### <a name="blank-values"></a>Valeurs non renseignées
-
-Le tableau ci-dessus liste les causes possibles d'une dimension non renseignée. De nombreuses dimensions et mesures restent vides si la dimension de qualité de l’enregistrement QoE disponible est fausse. Cela se produit généralement lorsque l'appel n'a pas pu être établi correctement.
 
 ## <a name="measurements"></a>Mesures
 
