@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, multimédias et de bureau produits par Microsoft Teams, où ils sont trouvés et comment ils peuvent vous aider dans la surveillance et la résolution des problèmes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28fa78eb20b88fe0a159fab12636ce546453835e
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: 100d21338cf77642836793ab9cf69d426d1fd463
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257315"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61410685"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Utilisez les fichiers journaux pour surveiller les données et résoudre les Microsoft Teams
 
@@ -53,7 +53,7 @@ Les journaux de débogage, de bureau et multimédia sont collectés dans un doss
 - Mac : <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
 
-La journalisation multimédia est désactivée par défaut. Pour activer la journalisation des médias, les utilisateurs doivent activer l’option dans Teams client. Allez à **Paramètres,** puis sélectionnez Activer la journalisation pour les diagnostics de réunion  >   **(nécessite un redémarrage Teams).** Le Teams client doit être redémarré pour que la journalisation commence.
+La journalisation multimédia est désactivée par défaut. Pour activer la journalisation des médias, les utilisateurs doivent activer l’option dans Teams client. Allez à **Paramètres,** puis sélectionnez Activer la journalisation pour les diagnostics de réunion  >   **(nécessite un redémarrage Teams).** Le client Teams doit être redémarré pour que la journalisation commence (redémarrez-le en cliquant avec le bouton droit sur l’icône dans votre station d’accueil (Mac) ou barre des tâches (Windows), puis en sélectionnant **Quitter.** Après avoir quitté, cliquez simplement sur l’icône de l’application pour l’ouvrir à nouveau).
 
 Si un problème se produit avec une réunion ou un événement en direct spécifique, il est utile que l’URL soit associée à la réunion. Cela fournit des informations supplémentaires pour identifier précisément la réunion ou l’événement en direct dans les journaux. Ces informations peuvent être collectées à partir de n’importe quel participant à une réunion ou du présentateur ou du producteur pour un événement en direct. Cette URL peut être capturée en pointant sur l’URL de jointage et en choisissant **Copier le lien hypertexte.**
 

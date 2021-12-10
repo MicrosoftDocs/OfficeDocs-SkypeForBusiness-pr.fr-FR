@@ -18,12 +18,12 @@ description: Découvrez comment configurer les plans d’appel Microsoft et Syst
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e7b49fcde0dba2a37eb4b08daeed324a9155dc
-ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
+ms.openlocfilehash: c762ccb2aba8c8ccad531573c37f258fa4605a9d
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 12/10/2021
-ms.locfileid: "61401918"
+ms.locfileid: "61410715"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -248,7 +248,7 @@ Le tableau suivant indique la prise en charge des appels d’urgence dynamiques 
 | :------------|:-------|
 | World Wide Multi Tenant | Disponible sur tous Teams clients |
 | Cloud de la communauté du secteur public | Disponible sur tous Teams clients |
-| GCCH | Disponible sur Teams bureau |
+| GCCH | -Disponible sur Teams bureau <br> -Disponible sur Teams clients mobiles <br> Disponibilité en attente sur Teams téléphones |
 | DoD | Pending |
 
  ## <a name="related-topics"></a>Rubriques connexes
