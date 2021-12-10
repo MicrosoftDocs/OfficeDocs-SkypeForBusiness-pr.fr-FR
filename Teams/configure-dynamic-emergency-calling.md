@@ -18,12 +18,12 @@ description: Découvrez comment configurer les plans d’appel Microsoft et Syst
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9df546e694fa3dcbdabae8454eeb5a6f7cba6a7
-ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
+ms.openlocfilehash: 45e7b49fcde0dba2a37eb4b08daeed324a9155dc
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "61284722"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401918"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -85,17 +85,19 @@ Les clients suivants sont actuellement pris en charge.  Consultez régulièremen
 - salles Teams version 4.4.25.0 ou supérieure
 
 > [!NOTE]
-> Les téléphones 3PIP ne supportent pas les appels d’urgence dynamiques. 
+> Les emplacements de sous-réseau et WiFi sont pris en charge sur tous Teams clients. <br><br>
+> Ethernet/Switch (LLDP) est pris en charge sur :
+> - Windows versions 8.1 et ultérieures pour le moment.<br>
+> - Mac OS, qui nécessite un [logiciel d’enablement LLDP.](https://www.microsoft.com/download/details.aspx?id=103383)<br>
+> - Teams avec Teams l’application 1449/1.0.94.2021110101 et les versions ultérieures.
 
 > [!NOTE]
 > Les appels d’urgence dynamiques, y compris les notifications du service de sécurité, ne sont pas pris en charge Teams client web. Pour empêcher les utilisateurs d’utiliser le client web Teams pour appeler des numéros PSTN, vous pouvez définir une stratégie d’appel Teams et désactiver le paramètre Autoriser les appels **PSTN Web.** Pour en savoir plus, [consultez les](teams-calling-policy.md) politiques d’appel dans Teams [et Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) 
 
 > [!NOTE]
-> Les emplacements de sous-réseau et WiFi sont pris en charge sur tous Teams clients. <br>
-> Ethernet/Switch (LLDP) est pris en charge sur :
-> - Windows versions 8.1 et ultérieures pour le moment.<br>
-> - Mac OS, qui nécessite un [logiciel d’enablement LLDP.](https://www.microsoft.com/download/details.aspx?id=103383)<br>
-> - Teams avec Teams l’application 1449/1.0.94.2021110101 et les versions ultérieures.
+> Les téléphones 3PIP ne supportent pas les appels d’urgence dynamiques. 
+
+
 
 ## <a name="assign-emergency-addresses"></a>Affecter des adresses de secours
 

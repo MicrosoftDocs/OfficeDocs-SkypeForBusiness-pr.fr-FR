@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Lisez les questions fréquemment posées (FAQ) et les réponses sur Microsoft Teams tableau de bord de qualité des appels.
-ms.openlocfilehash: 4d0d0bbbc35ac130755e61075408e9de80f1c09c
-ms.sourcegitcommit: d976e49943aedd511bd6a80b02afeac4a6453406
+ms.openlocfilehash: 81c6478147e0959ca97b67ee0f01632478c0eb38
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "61362541"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401898"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Forum aux questions (FAQ) sur le tableau de bord de qualité des appels
 
@@ -37,6 +37,8 @@ ms.locfileid: "61362541"
 [Pourquoi la différence entre les valeurs des appels et du nombre d’utilisateurs sur les mesures est-elle de 0,2 % et comment obtenir les volumes les plus précis ? ](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
 
 [Pourquoi est-ce que EUII n’est pas dans le CQD ?](#why-cant-i-see-euii-in-cqd)
+
+[J’essaie d’utiliser le CQD pour les rapports de type utilisation et je constate que certaines données sont incomplètes. Pourquoi ?](#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)
 
 [Pourquoi les informations du Skype Entreprise sont-elles disponibles dans le CQD alors que j’ai filtré les Teams uniquement ?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
@@ -58,8 +60,8 @@ Voici un exemple de la façon de résoudre ce problème. Supposons que vous pren
  
 Si les mesures réseau semblent bonnes dans les moyennes et les valeurs max, regardez d’autres données de télémétrie : 
 - Vérifiez le rapport entre les événements de l’UC insuffisant pour voir si les ressources de l’UC disponibles étaient insuffisantes et causaient une mauvaise qualité. 
-- Le périphérique audio était-il en mode semi-recto verso pour empêcher les commentaires en raison de microphones qui se rapprochent des haut-parleurs ? 
-- Vérifiez le ratio événement AEC semi-recto verso de l’appareil. L’appareil a-t-il été en panne ou le micro a-t-il introduit un bruit ou un problème statique suite à des sorties audio USB branchées à un hub ou à une station d’accueil ?  
+- Le périphérique audio était-il en mode semi-recto verso pour éviter les commentaires en raison de microphones trop proches des haut-parleurs ? 
+- Vérifiez le ratio événement AEC semi-recto verso de l’appareil. L’appareil a-t-il été en panne ou le micro a-t-il introduit un bruit ou un problème statique en raison de sorties audio USB branchées à un hub ou à une station d’accueil ?  
 - Vérifiez les proportions des événements des problèmes de périphérique et de micro. L’appareil fonctionnait-il correctement ?  
 - Vérifiez les proportions des événements du périphérique de capture et de rendu, qui ne fonctionnent pas.
 
@@ -74,7 +76,7 @@ La télémétrie n’appelle pas nécessairement le problème, mais vous permet 
 
 ### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>Pourquoi la différence entre les valeurs des appels et du nombre d’utilisateurs sur les mesures est-elle de 0,2 % et comment obtenir les volumes les plus précis ? 
 
-Pour calculer le nombre d’appels et les mesures du nombre d’utilisateurs, une opération de comptage distincte est effectuée par rapport à l’appel ou aux identificateurs d’utilisateur dans la série de données. Sur les jeux de données de grande taille, il existe une erreur de 0,2 % intrinsèque à l’opération de comptage distincte. Pour obtenir le volume le plus précis, vous devez compter sur des mesures de décompte de flux, car elles ne s’appuient pas sur cette opération de comptage distincte. Le filtrage pour réduire le volume des données peut réduire l’erreur, mais n’élimine pas cette source d’erreur dans des appels et des nombres d’utilisateurs distincts. [Reportez-vous aux dimensions et mesures disponibles dans le tableau](dimensions-and-measures-available-in-call-quality-dashboard.md) de bord de qualité des appels pour lesquelles les mesures sont impactées.
+Pour calculer le nombre d’appels et les mesures du nombre d’utilisateurs, une opération de comptage distincte est effectuée par rapport à l’appel ou aux identificateurs d’utilisateur dans la série de données. Sur les jeux de données de grande taille, il existe une erreur de 0,2 % intrinsèque à l’opération de comptage distincte. Pour obtenir le volume le plus précis, vous devez compter sur des mesures de décompte de flux, car elles ne s’appuient pas sur cette opération de comptage distincte. Le filtrage pour réduire le volume des données peut réduire l’erreur, mais n’élimine pas cette source d’erreur dans des appels et des nombres d’utilisateurs distincts. [Reportez-vous aux dimensions et mesures disponibles dans le tableau](dimensions-and-measures-available-in-call-quality-dashboard.md) de bord de qualité des appels pour lesquels les mesures sont affectées.
 
   
 ### <a name="why-cant-i-see-euii-in-cqd"></a>Pourquoi est-ce que EUII n’est pas dans le CQD ?
@@ -86,17 +88,17 @@ Ces rôles d’administrateur peuvent accéder au DQD, mais ils ne peuvent pas a
 
 Pour en savoir plus sur les rôles qui peuvent accéder au CQD, y compris EUII, lisez Attribuer des rôles pour accéder au [CQD.](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
 
+### <a name="im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that"></a>J’essaie d’utiliser le CQD pour les rapports de type utilisation et je constate que certaines données sont incomplètes. Pourquoi ?
+
+Les outils de gestion de la qualité des appels tels que CQD, Analyse des appels, CallRecord Graph API et Analyse en temps réel sont basés sur la télémétrie de diagnostic. Les informations que nous présentons Teams outils de gestion de la qualité des appels sont aussi complètes que les données de télémétrie que nous recevons des clients participant à un appel. Il existe plusieurs raisons pour lesquelles nous ne pouvons pas recevoir de télémétrie complète, telles que des pannes de réseau, des pare-feu ou des configurations de [proxy mal configurées.](/microsoft-365/enterprise/urls-and-ip-address-ranges.md) Nous continuons à travailler pour améliorer la fiabilité et la résilience avec lesquelles les clients Teams fournir des données de télémétrie au service.
+
+En ayant cela à l’esprit, nous vous recommandons de ne pas compter sur les outils de gestion de la qualité des appels pour la rapports d’utilisation. Teams centre d’administration propose [](teams-analytics-and-reports/teams-reporting-reference.md)une série de [](teams-analytics-and-reports/meeting-attendance-report.md) rapports d’utilisation et un rapport de présence aux réunions est disponible directement à partir du client Teams réunion.
+
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Pourquoi les informations du Skype Entreprise sont-elles disponibles dans le CQD alors que j’ai filtré les Teams uniquement ?
 
-Lorsque vous filtrez des Teams uniquement dans les rapports du CQD (isTeams =  1), vous filtrez pour tous les appels pour lequel le premier point de terminaison est Teams. Si le *deuxième point de terminaison* Skype Entreprise point de terminaison, ces informations s’afficheront dans votre rapport du CQD.
+Lorsque vous filtrez des Teams uniquement dans les rapports du CQD (isTeams =  1), vous filtrez pour tous les appels pour lequel le premier point de terminaison est Teams. Si le *deuxième point de terminaison* Skype Entreprise point de terminaison, ces informations s’afficheront dans votre rapport du CQD. Selon les scénarios de clients, le DQD peut inclure des appels Skype Entreprise Server 2019 lorsque [Call Data Connector](/skypeforbusiness/hybrid/plan-call-data-connector.md) est configuré. Il peut également comprendre des appels Skype bots téléphoniques (AA, CVI, VDI), des événements en direct et des appels RSTN.
 
-Le nombre total des valeurs des groupes CQDv2 et CQDv3 sera toujours différent, car celui-ci aura de nouveaux scénarios que le VQDv2 n’aura pas. C’est pourquoi la comparaison de total de synthèse ou de nombres complets agrégés sans filtres aura ces différences attendues.  
-
-Selon le scénario de clients, le CQDv3 inclut les appels locaux SFB 2019 (si SFB 2019 est utilisé avec un connecteur de données), les appels Skype Bot (AA, CVI, VDI), les événements en direct et les appels RXT. Scénarios/fonctionnalités disponibles pour les clients, mais leurs données ne sont pas accessibles dans le CQD V2.
-
-Par exemple, vos clients et vous verrez par exemple 200 000 flux audio, avec 5 000 échecs dans le rapport de synthèse CQD V2, et 300 000 flux audio avec 5 5000 échecs (provenant d’appels locaux 2019, appels CVI, appels RSTN, etc.) dans le tableau de bord de qualité des appels V3.
-
-Pour déterminer s’il existe des différences inattendues, vous devez examiner différentes répartitions des données globales.  Comparer avec l’objectif.  La catégorie de l’agent utilisateur est l’une des premières recommandations.  *First Product* et *Second Product* sont également de bons slicers.  
+Il est possible de supprimer des informations Skype Entreprise de vos requêtes en filtrant sur les dimensions telles que First *User Agent Category* et Second User Agent *Category.* Vous pouvez également utiliser *la paire de* catégories Agent utilisateur qui combine les dimensions Premier et Deuxième en un seul filtre.
 
 ### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>Pourquoi mes rapports personnalisés ne retournent-ils qu’un maximum de 10 000 lignes alors que je sais qu’il devrait y avoir davantage d’entrées ?
 
@@ -108,7 +110,7 @@ Il s'agit d'un comportement normal. Le fournisseur VPN a créé un adaptateur et
 
 ### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>J’ai désactivé l’enregistrement basé sur une Teams et à présent les appels d’égal à égal sont marqués en tant que conférences. Que s’est-il passé ?
 
-Ce comportement est prévu lorsque l’enregistrement basé sur une stratégie est activé dans Microsoft Teams. L’enregistrement basé sur une stratégie utilise un robot Teams enregistreur déployé dans Microsoft Azure pour capturer le contenu des réunions à des fins de conformité. Étant donné qu’un robot enregistreur est lui-même une partie de l’appel, il ne s’agit plus d’un appel d’égal à égal, mais d’un appel à plusieurs. Les appels à plusieurs sont classés comme conférences par Microsoft Teams et sont donc indiqués comme tels lorsque vous affichez ces appels dans le CQD et d’autres outils de qualité des appels.
+Ce comportement est prévu lorsque l’enregistrement basé sur une stratégie est activé dans Microsoft Teams. L’enregistrement basé sur une stratégie utilise un robot Teams enregistreur déployé dans Microsoft Azure pour capturer le contenu des réunions à des fins de conformité. Dans le cadre de la gestion de la qualité des appels, la définition d’une relation d’égal à égal est une description du flux de trafic de médias, et non de l’interaction entre les utilisateurs. Étant donné qu’un robot enregistreur est lui-même une partie de l’appel, il ne s’agit plus d’un appel d’égal à égal, mais d’un appel à plusieurs. Les appels à plusieurs sont classés comme conférences par Microsoft Teams et sont donc indiqués comme tels lorsque vous affichez ces appels dans le CQD et d’autres outils de qualité des appels.
 
 ## <a name="related-articles"></a>Articles connexes
 
