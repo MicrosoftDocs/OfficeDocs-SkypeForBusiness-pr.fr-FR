@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Gestion du client client Mult pour les partenaires.
 f1keywords: ''
-ms.openlocfilehash: edafdf182e0d27ec5c5524e9411b80de866d7f02
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: 5ce4493ef9a5e6c959bf10c600c2b9697129d9df
+ms.sourcegitcommit: 4095a1d5e507ac5cb23ed17611c1fbd4b744b23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331220"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61420204"
 ---
 # <a name="multi-tenant-customer-management-for-partners"></a>Gestion client multi-client pour les partenaires
 
@@ -89,7 +89,7 @@ Pour dé-utiliser un client, vous devez le supprimer de la liste de clients.
 
 Les rôles de partenaire permettent la délégation des responsabilités au personnel supplémentaire. Le concept de ces rôles est identique à celui décrit dans le contrôle d’accès en fonction du [rôle,](microsoft-teams-rooms-premium-rbac.md)mais dans le contexte de chaque client. De plus, il est important de noter que les rôles de partenaire sont différents des rôles du client. Les rôles de partenaire peuvent être supprimés par le client. 
 
-Le  rôle d’administrateur principal est le seul rôle intégré pour chaque client intégré et dispose de presque toutes les autorisations (dans le contexte du client) pour le service TRM (voir le tableau 1). Les autorisations de rôle partenaire** s’étendent uniquement jusqu’aux salles désignées par le client. Par exemple, si cCustomer est une organisation globale et affecte au partenaire la gestion de toutes les salles aux États-Unis, l’administrateur principal ne peut gérer et déléguer les autorisations de ces salles. Le partenaire n’a aucune visibilité sur les autres salles que peut avoir le client dans d’autres pays. 
+Le  rôle d’administrateur principal est le seul rôle intégré pour chaque client intégré et dispose de presque toutes les autorisations (dans le contexte du client) pour le service TRM (voir le tableau 1). Les autorisations de rôle partenaire** s’étendent uniquement jusqu’aux salles désignées par le client. Par exemple, si le client est une organisation mondiale et affecte au partenaire la gestion de toutes les salles américaines, l’administrateur principal ne peut gérer et déléguer les autorisations de ces salles. Le partenaire n’a aucune visibilité sur les autres salles que peut avoir le client dans d’autres pays. 
 
 > [!Important]
 > Le rôle Administrateur **principal** doit toujours être au moins un utilisateur.
@@ -122,25 +122,25 @@ En tant que partenaire, vous pouvez créer des rôles personnalisés pour répon
 
 |Fonctionnalité|Autorisation|**Administrateur MMR**|**Chef de site**|**Site Tech**|**Administrateurs principaux**|
 | :- | :- | :- | :- | :- | :- |
-|Salles|Afficher|||||
-||Modifier|||||
-||Réinitialiser la touche|||||
-||Clé de téléchargement|||||
-||Désinscrire|||||
-|Gestion de groupe|Create |||||
-||Afficher|||||
-||Modifier|||||
-|Mettre à jour la gestion de l’anneau|Create |||||
-||Afficher|||||
-||Modifier|||||
-|Rapports|Afficher|||||
-|Gestion des tickets|Créer un incident client|||||
-||Afficher|||||
-||Mettre à jour|||||
-|MmR Paramètres|Afficher|||||
-||Modifier|||||
-|Gestion de rôle|Afficher |||||
-||Modifier|||||
+|Salles|Afficher| &#10004;|&#10004;|&#10004;|&#10004;|
+||Modifier|&#10004;|&#10004;|&#10004;|&#10004;|
+||Réinitialiser la touche|&#10004;||||
+||Clé de téléchargement|&#10004;|&#10004;|&#10004;||
+||Désinscrire|&#10004;|&#10004;|&#10004;||
+||Create |&#10004;|&#10004;|||
+|Gestion de groupe|Afficher|&#10004;|&#10004;||&#10004;|
+||Modifier|&#10004;|&#10004;|||
+||Create |&#10004;|&#10004;|||
+|Mettre à jour la gestion de l’anneau|Afficher|&#10004;|&#10004;||&#10004;|
+||Modifier|&#10004;|&#10004;||&#10004;|
+|Rapports|Afficher|&#10004;|&#10004;||&#10004;|
+||Créer un incident client|&#10004;|&#10004;|&#10004;|&#10004;|
+|Gestion des tickets|Afficher|&#10004;|&#10004;|&#10004;|&#10004;|
+||Mettre à jour|&#10004;|&#10004;|&#10004;|&#10004;|
+|MmR Paramètres|Afficher|&#10004;||||
+||Modifier|&#10004;||||
+|Gestion de rôle|Afficher |&#10004;|||&#10004;|
+||Modifier|&#10004;|||&#10004;|
 
 > [!Note]
 > Un utilisateur assigné en tant qu’administrateur principal du client A dispose des autorisations complètes dans le service TRM uniquement pour ce client. Les autorisations de l’utilisateur dans le client A n’ont aucune influence sur les autres clients.
@@ -166,7 +166,7 @@ Le client peut retirer les journaux d’audit du service TRM, ce qui inclut l’
 
 Le portail MTM propose deux modèles interactifs pour naviguer entre les données client :
 
-- Les affichages agrégés étaient des données de tous vos clients consolidées dans une seule liste et peuvent être filtrés.
+- Les affichages agrégés dans lequel les données de tous vos clients sont consolidées au cours d’une seule liste et peuvent être filtrés.
 
   > [!Note]
   > Cet affichage est uniquement pris en charge dans la page **Incidents lorsque** l’affichage Activer tous les **tickets** est activé.

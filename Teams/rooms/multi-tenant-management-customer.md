@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: de gestion des partenaires pour les clients.
 f1keywords: ''
-ms.openlocfilehash: 84d15f43ff49565dbba915470ea618a69ff74ee8
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: 1379fff905275e9bed94f019dcb556e171683178
+ms.sourcegitcommit: 4095a1d5e507ac5cb23ed17611c1fbd4b744b23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331219"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61420224"
 ---
 # <a name="partner-management-for-customers"></a>Gestion des partenaires pour les clients
 
@@ -124,25 +124,25 @@ Si vous avez déjà envoyé une invitation à un partenaire et souhaitez ajouter
 
 |Fonctionnalité|Autorisation|**Administrateur MMR**|**Chef de site**|**Site Tech**|**Administrateur de partenaire**|
 | :- | :- | :- | :- | :- | :- |
-|Salles|Afficher|||||
-||Modifier|||||
-||Réinitialiser la touche|||||
-||Clé de téléchargement|||||
-||Désinscrire|||||
-|Gestion de groupe|Create |||||
-||Afficher|||||
-||Modifier|||||
-|Mettre à jour la gestion de l’anneau|Create |||||
-||Afficher|||||
-||Modifier|||||
-|Rapports|Afficher|||||
-|Gestion des tickets|Créer un incident client|||||
-||Afficher|||||
-||Mettre à jour|||||
-|MmR Paramètres|Afficher|||||
-||Modifier|||||
-|Gestion de rôle|Afficher |||||
-||Modifier|||||
+|Salles|Afficher| &#10004;|&#10004;|&#10004;|&#10004;|
+||Modifier|&#10004;|&#10004;|&#10004;|&#10004;|
+||Réinitialiser la touche|&#10004;||||
+||Clé de téléchargement|&#10004;|&#10004;|&#10004;||
+||Désinscrire|&#10004;|&#10004;|&#10004;||
+||Create |&#10004;|&#10004;|||
+|Gestion de groupe|Afficher|&#10004;|&#10004;||&#10004;|
+||Modifier|&#10004;|&#10004;|||
+||Create |&#10004;|&#10004;|||
+|Mettre à jour la gestion de l’anneau|Afficher|&#10004;|&#10004;||&#10004;|
+||Modifier|&#10004;|&#10004;||&#10004;|
+|Rapports|Afficher|&#10004;|&#10004;||&#10004;|
+||Créer un incident client|&#10004;|&#10004;|&#10004;|&#10004;|
+|Gestion des tickets|Afficher|&#10004;|&#10004;|&#10004;|&#10004;|
+||Mettre à jour|&#10004;|&#10004;|&#10004;|&#10004;|
+|MmR Paramètres|Afficher|&#10004;||||
+||Modifier|&#10004;||||
+|Gestion de rôle|Afficher |&#10004;|||&#10004;|
+||Modifier|&#10004;|||&#10004;|
 
 
 

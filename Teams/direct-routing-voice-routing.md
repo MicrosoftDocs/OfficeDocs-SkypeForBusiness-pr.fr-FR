@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment configurer le routage des appels avec le routage direct de Microsoft.
-ms.openlocfilehash: cb8f33d8e5e2ea3e3e14ac47b57d9b5920f2bb2a
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: 919b98d6c8c8ee5a1af08967dc55c30748af37f1
+ms.sourcegitcommit: 4095a1d5e507ac5cb23ed17611c1fbd4b744b23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60635043"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61420154"
 ---
 # <a name="configure-call-routing-for-direct-routing"></a>Configurer le routage des appels pour le routage direct
 
@@ -36,10 +36,10 @@ Pour plus d’informations sur les étapes requises pour configurer le routage d
 
 ## <a name="call-routing-overview"></a>Vue d’ensemble du routage des appels
 
-Téléphone Microsoft Le système possède un mécanisme de routage qui permet d’envoyer un appel vers un contrôleur de session en bordure spécifique (SBC) sur la base des données suivantes : 
+Téléphone Microsoft système de gestion des frontières dispose d’un mécanisme de routage qui permet d’envoyer un appel vers un contrôleur de session en bordure spécifique (SBC) sur la base des données suivantes : 
 
 - Modèle de numéro appelé 
-- Le schéma de numéro appelé ainsi que l’utilisateur spécifique qui effectue l’appel
+- Le modèle de numéro appelé ainsi que l’utilisateur spécifique qui effectue l’appel
  
 Les SCS peuvent être désignés comme actifs et de sauvegarde. Lorsque le SBC configuré comme actif n’est pas disponible pour un itinéraire d’appel spécifique, l’appel est alors acheminé vers un SBC de sauvegarde.
  
@@ -51,29 +51,29 @@ Le routage d’appel est composé des éléments suivants :
 
 - **Itinéraires vocaux** : modèle de numéro et ensemble de passerelles RST en ligne à utiliser pour les appels pour lequel le numéro d’appel correspond à ce modèle.
 
-- Passerelle **RTC** en ligne : pointeur sur un SBC qui stocke également la configuration qui est appliquée lorsqu’un appel est passé via SBC, telle que le forward P-Ed-Identity (XX) ou les codecs préférés ; peuvent être ajoutés aux itinéraires vocux.
+- Passerelle **RTC** en ligne : pointeur sur un SBC qui stocke également la configuration qui est appliquée lorsqu’un appel est passé via SBC, telle que le forward P-Ed-Identity (NT) ou les codecs préférés ; peuvent être ajoutés aux itinéraires vocux.
 
 ## <a name="voice-routing-policy-considerations"></a>Considérations sur la stratégie de routage voix
 
-Si un utilisateur dispose d’une licence Forfait d’appels, les appels sortants de cet utilisateur sont automatiquement acheminés via l’infrastructure PSTN du plan d’appels Microsoft. Si vous configurez et affectez une stratégie de routage vocal en ligne à un utilisateur du plan d’appels, les appels sortants de cet utilisateur sont vérifiés pour déterminer si le numéro à composer correspond à un modèle de numéro défini dans la stratégie de routage vocal en ligne. En cas de correspondance, l’appel est routant via le ligne de routage direct. En l’absence de correspondance, l’appel est acheminé via l’infrastructure PSTN du plan d’appel.
+Si un utilisateur dispose d’une licence Forfait d’appels, les appels sortants de cet utilisateur sont automatiquement acheminés via l’infrastructure PSTN du plan d’appels Microsoft. Si vous configurez et affectez une stratégie de routage vocal en ligne à un utilisateur du plan d’appels, les appels sortants de cet utilisateur sont vérifiés pour déterminer si le numéro composé correspond à un modèle de numéro défini dans la stratégie de routage vocal en ligne. En cas de correspondance, l’appel est routant via le ligne de routage direct. En l’absence de correspondance, l’appel est acheminé via l’infrastructure PSTN du plan d’appel.
 
 > [!CAUTION]
-> Si vous configurez et appliquez la stratégie de routage voix en ligne globale (à l’échelle de l’organisation) et l’appliquez, tous les utilisateurs à commande vocale de votre organisation hériteront de cette stratégie, ce qui peut entraîner le routage par inadvertance d’appels PSTN des utilisateurs du plan d’appel vers une ligne de routage direct. Si vous ne souhaitez pas que tous les utilisateurs utilisent la stratégie globale de routage voix en ligne, configurez une stratégie personnalisée de routage vocal en ligne et affectez-la à des utilisateurs individuels à commande vocale.
+> Si vous configurez et appliquez la stratégie de routage voix en ligne globale (à l’échelle de l’organisation) et l’appliquez, tous les utilisateurs à commande vocale de votre organisation hériteront de cette stratégie, ce qui peut entraîner le routage par inadvertance d’appels PSTN des utilisateurs du plan d’appel vers une ligne de routage direct. Si vous ne souhaitez pas que tous les utilisateurs utilisent la stratégie globale de routage voix en ligne, configurez une stratégie personnalisée de routage vocal en ligne et affectez-la à des utilisateurs à commande vocale individuelle.
 
 ## <a name="example-1-voice-routing-with-one-pstn-usage"></a>Exemple 1 : routage vocal avec une utilisation PSTN
 
 Le diagramme suivant montre deux exemples de stratégies de routage vocal dans un flux d’appels.
 
-**Appeler Flow 1 (sur la gauche) :** Si un utilisateur appelle le +1 425 XXX XX XX ou le +1 206 XXX XX XX, l’appel est acheminé vers le sbc1.contoso.biz SBC ou sbc2.contoso.biz. Si ni votre sbc1.contoso.biz ni sbc2.contoso.biz disponibles, l’appel est supprimé. 
+**Appel Flow 1 (à** gauche) : si un utilisateur appelle le +1 425 XXX XX XX ou le +1 206 XXX XX XX, l’appel est acheminé vers le sbc1.contoso.biz SBC ou sbc2.contoso.biz. Si ni votre sbc1.contoso.biz ni sbc2.contoso.biz disponibles, l’appel est supprimé. 
 
-**Appeler Flow 2 (sur la droite) :** Si un utilisateur appelle le +1 425 XXX XX XX ou le +1 206 XXX XX XX, l’appel est d’abord acheminé vers le sbc1.contoso.biz SBC ou sbc2.contoso.biz. Si aucun SBC n’est disponible, l’itinéraire à priorité inférieure est essayé (sbc3.contoso.biz et sbc4.contoso.biz). Si aucun des SBCs n’est disponible, l’appel est supprimé. 
+**Appel Flow 2 (à** droite) : si un utilisateur appelle le +1 425 XXX XX XX ou le +1 206 XXX XX XX, l’appel est d’abord acheminé vers le sbc1.contoso.biz SBC ou sbc2.contoso.biz. Si aucun SBC n’est disponible, l’itinéraire à priorité inférieure est essayé (sbc3.contoso.biz et sbc4.contoso.biz). Si aucun des SBCs n’est disponible, l’appel est supprimé. 
 
 ![Affiche des exemples de stratégie de routage voix.](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
-Dans les deux exemples, tandis que la route vocale est affectée à des priorités, les SBCS dans les itinéraires sont essayés dans un ordre aléatoire.
+Dans les deux exemples, bien que des priorités soient affectées à la route vocale, les SBCS sur les itinéraires sont essayés dans un ordre aléatoire.
 
   > [!NOTE]
-  > À moins que l’utilisateur ne dispose également d’une licence Plan d’appels Microsoft, les appels vers n’importe quel nombre sauf les nombres correspondant aux modèles +1 425 XXX XX XX ou +1 206 XXX XX dans l’exemple de configuration sont supprimés. Si l’utilisateur dispose d’une licence Forfait d’appels, l’appel est automatiquement acheminé conformément aux stratégies du plan d’appels Microsoft. Le plan d’appels Microsoft s’applique automatiquement comme dernier itinéraire à tous les utilisateurs titulaires de la licence Microsoft Calling Plan et ne nécessite pas de configuration de routage d’appel supplémentaire.
+  > À moins que l’utilisateur ne dispose également d’une licence Plan d’appels Microsoft, tous les numéros sauf les nombres correspondant aux modèles +1 425 XXX XX XX ou +1 206 XXX XX dans l’exemple de configuration sont supprimés. Si l’utilisateur dispose d’une licence Forfait d’appels, l’appel est automatiquement acheminé conformément aux stratégies du plan d’appels Microsoft. Le plan d’appels Microsoft s’applique automatiquement comme dernier itinéraire à tous les utilisateurs titulaires de la licence Microsoft Calling Plan et ne nécessite pas de configuration de routage d’appel supplémentaire.
 
 Dans l’exemple illustré dans le diagramme suivant, une route vocale est ajoutée pour envoyer des appels à tous les autres numéros des États-Unis et du Canada (appels appelés modèle de numéro +1 XXX XXX XX XX).
 
@@ -82,7 +82,7 @@ Dans l’exemple illustré dans le diagramme suivant, une route vocale est ajout
 Pour tous les autres appels, si un utilisateur dispose des deux licences (Téléphone Microsoft Système et Microsoft Calling Plan), l’itinéraire automatique est utilisé. Si rien ne correspond aux modèles de numéro dans les itinéraires vocaux en ligne créés par l’administrateur, l’appel est acheminé via le plan d’appel Microsoft. Si l’utilisateur ne dispose que Téléphone Microsoft système informatique, l’appel est supprimé car aucune règle correspondante n’est disponible.
 
   > [!NOTE]
-  > La valeur Priorité pour l’itinéraire « Autres +1 » n’a pas d’importance dans ce cas, car il n’existe qu’un seul itinéraire qui correspond au modèle +1 XXX XXX XX XX. Si un utilisateur appelle le +1 324 567 89 89 et que sbc5.contoso.biz et sbc6.contoso.biz ne sont pas disponibles, l’appel est supprimé.
+  > Dans ce cas, la valeur Priorité pour l’itinéraire « Autres +1 » n’a pas d’importance, car il n’existe qu’un seul itinéraire qui correspond au modèle +1 XXX XXX XX XX. Si un utilisateur appelle le +1 324 567 89 89 et que sbc5.contoso.biz et sbc6.contoso.biz ne sont pas disponibles, l’appel est supprimé.
 
 Le tableau suivant récapitule la configuration à l’aide de trois itinéraires vocaux. Dans cet exemple, les trois itinéraires font partie de la même utilisation PSTN, « États-Unis et Canada ».  Tous les itinéraires sont associés à l’utilisation PSTN « États-Unis et Canada », et l’utilisation PSTN est associée à la stratégie de routage voix « États-Unis uniquement ».
 
@@ -114,7 +114,7 @@ Vous pouvez utiliser le [Microsoft Teams d’administration](#admincenterexample
 
 #### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>Étape 2 : créer trois itinéraires vocux (Redmond 1, Redmond 2 et Autres +1)
 
-Les étapes suivantes décrivent la création d’un itinéraire vocal. Pour créer les trois itinéraires vocaux nommés Redmond 1, Redmond 2 et Autres +1 pour cet exemple, utilisez les paramètres du tableau précédent.
+Les étapes suivantes décrivent la création d’un itinéraire vocal. Pour créer les trois itinéraires vocaux nommés Redmond 1, Redmond 2 et Autres +1 pour cet exemple, utilisez les paramètres indiqués dans la table précédente.
 
 1. Dans le panneau de navigation de gauche Microsoft Teams d’administration, sélectionnez **l’onglet**  >  **Itinéraires** vocants. 
 2. Cliquez **sur** Ajouter, puis entrez un nom et une description pour l’itinéraire vocal.
@@ -126,7 +126,7 @@ Les étapes suivantes décrivent la création d’un itinéraire vocal. Pour cr�
 #### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>Étape 3 : créer une stratégie de routage vocal nommée « États-Unis uniquement » et ajouter l’utilisation PSTN « États-Unis et Canada » à la stratégie
 
 1. Dans le panneau de navigation de gauche du Microsoft Teams d’administration, allez dans les stratégies de routage de **Voice**  >  **Voice,** puis cliquez sur **Ajouter.**
-2. Tapez **US Only** as the name and add a description.
+2. Tapez **US only** as the name and add a description.
 3. Sous **Enregistrements d’utilisation PSTN,** cliquez sur Ajouter une utilisation **PSTN,** sélectionnez l’enregistrement d’utilisation PSTN « États-Unis et Canada », puis cliquez sur **Appliquer.**
 4. Cliquez sur **Enregistrer**.
 
@@ -135,7 +135,7 @@ Pour plus d’informations, voir [Gérer les stratégies de routage vocal.](mana
 #### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-spencer-low"></a>Étape 4 : affecter la stratégie de routage vocal à un utilisateur nomméSSoin Low
 
 1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, et accédez aux **Utilisateurs**, puis cliquez sur l’utilisateur.
-2. Cliquez **sur Stratégies,** puis, en côté **de Stratégies affectées,** cliquez **sur Modifier.**
+2. Cliquez **sur Stratégies,** puis, en côté de **Stratégies affectées,** cliquez **sur Modifier.**
 3. Sous **La stratégie de routage voix,** sélectionnez la stratégie « États-Unis uniquement », puis cliquez sur **Enregistrer.**
 
 Pour plus d’informations, voir [Gérer les stratégies de routage vocal.](manage-voice-routing-policies.md)
@@ -165,7 +165,7 @@ Identity    : Global
 Usage        : {testusage, US and Canada, International, karlUsage. . .}
 ```
 
-L’exemple suivant illustre le résultat de l’exécution de la commande PowerShell pour afficher des noms `(Get-CSOnlinePSTNUsage).usage` complets (non tronqués) :
+L’exemple suivant montre le résultat de l’exécution de la commande PowerShell pour afficher les noms complets `(Get-CSOnlinePSTNUsage).usage` (non tronqués) :
 
 ```console
  testusage
@@ -306,13 +306,13 @@ Dans l’exemple suivant, vous pouvez créer la stratégie de routage vocal « A
 
 Les exemples affichés attribuent la stratégie États-Unis uniquement à l’utilisateurSSuper Qu’il est bas et la stratégie Aucune restriction à l’utilisateur John Bois afin que le routage se produise comme suit :
 
-- Autant de choses dont le taux d’intérêt est faible pour les États-Unis uniquement.  Les appels sont autorisés uniquement vers les numéros américains et canadien. Lorsque vous appelez une plage de numéro de Redmond, l’ensemble spécifique de SBCs doit être utilisé. Les numéros hors États-Unis ne seront acheminés que si la licence Forfait d’appels est affectée à l’utilisateur.
+- Autant de choses dont la politique est la plus basse aux États-Unis.  Les appels sont autorisés uniquement vers les numéros américains et canadien. Lorsque vous appelez une plage de numéro de Redmond, l’ensemble spécifique de SBCs doit être utilisé. Les numéros hors États-Unis ne seront acheminés que si la licence Forfait d’appels est affectée à l’utilisateur.
 
 - John Bois – Politique internationale.  Les appels sont autorisés sur n’importe quel numéro. Lorsque vous appelez une plage de numéro de Redmond, l’ensemble spécifique de SBCs doit être utilisé. Les numéros hors États-Unis seront acheminés à l’aide sbc2.contoso.biz et sbc5.contoso.biz.
 
 ![Affiche la stratégie de routage voix attribuée à l’utilisateur Nommé Bas.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
-Pour tous les autres appels, si un utilisateur dispose des deux licences (Téléphone Microsoft Système et Microsoft Calling Plan), l’itinéraire automatique est utilisé. Si rien ne correspond aux schémas de numéro dans les itinéraires vocaux en ligne créés par l’administrateur, l’appel est acheminé à l’aide du plan d’appel Microsoft.  Si l’utilisateur dispose uniquement Téléphone Microsoft système informatique, l’appel est supprimé car aucune règle correspondante n’est disponible.
+Pour tous les autres appels, si un utilisateur dispose des deux licences (Téléphone Microsoft Système et Microsoft Calling Plan), l’itinéraire automatique est utilisé. Si rien ne correspond aux modèles de numéro dans les itinéraires vocaux en ligne créés par l’administrateur, l’appel est acheminé à l’aide du plan d’appel Microsoft.  Si l’utilisateur dispose uniquement Téléphone Microsoft système informatique, l’appel est supprimé car aucune règle correspondante n’est disponible.
 
 ![Affiche la stratégie de routage vocal attribuée à l’utilisateur John Bois.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
 
@@ -353,11 +353,11 @@ Vous pouvez utiliser le [Microsoft Teams d’administration](#admincenterexample
 1. Dans le panneau de navigation de gauche Microsoft Teams d’administration, sélectionnez **l’onglet**  >  **Itinéraires** vocants. 
 2. Cliquez **sur** Ajouter, entrez « International » comme nom, puis ajoutez la description.
 3. Définissez la priorité sur 4, puis définissez le modèle de numérotation sur \d+.
-4. Sous **SBCs inscrits (facultatif),** cliquez sur Ajouter des **SBCs,** sélectionnez sbc2.contoso.biz et sbc5.contoso.biz, puis cliquez sur **Appliquer.**
+4. Sous **SBCs inscrits (facultatif),** cliquez sur Ajouter des **SCS,** sélectionnez sbc2.contoso.biz et sbc5.contoso.biz, puis cliquez sur **Appliquer.**
 5. Sous **Enregistrements d’utilisation PSTN (facultatif),** cliquez sur Ajouter une utilisation **PSTN,** sélectionnez l’enregistrement d’utilisation PSTN « International », puis cliquez sur **Appliquer.**
 6. Cliquez sur **Enregistrer**.
 
-#### <a name="step-3-create-a-voice-routing-policy-named-no-restrictions-and-add-the-us-and-canada-and-international-pstn-usages-to-the-policy"></a>Étape 3 : créez une stratégie de routage vocal nommée « Aucune restriction » et ajoutez les utilisations PSTN « États-Unis et Canada » et « International » à la stratégie
+#### <a name="step-3-create-a-voice-routing-policy-named-no-restrictions-and-add-the-us-and-canada-and-international-pstn-usages-to-the-policy"></a>Étape 3 : créer une stratégie de routage vocal nommée « Aucune restriction » et ajouter les utilisations RXP « États-Unis et Canada » et « International » à la stratégie
 
 L’utilisation PSTN « États-Unis et Canada » est réutilisée dans cette stratégie de routage vocal afin de préserver la gestion spéciale pour les appels au numéro « +1 425 XXX XX XX » et « +1 206 XXX XX XX » en tant qu’appels locaux ou locaux.
 
@@ -414,7 +414,7 @@ Name                      : International
 
 #### <a name="step-3-create-a-voice-routing-policy-named-no-restrictions"></a>Étape 3 : créer une stratégie de routage vocal nommée « Aucune restriction »
 
-L’utilisation PSTN « Redmond 1 » et « Redmond » est réutilisée dans cette stratégie de routage vocal afin de préserver la gestion spéciale des appels pour le numéro « +1 425 XXX XX XX » et « +1 206 XXX XX XX » en tant qu’appels locaux ou locaux.
+L’utilisation PSTN « Redmond 1 » et « Redmond » est réutilisée dans cette stratégie de routage vocal afin de préserver la gestion spéciale pour les appels au numéro « +1 425 XXX XX XX » et « +1 206 XXX XX » en tant qu’appels locaux ou locaux.
 
   ```PowerShell
   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
@@ -460,6 +460,19 @@ No Restrictions
 ```
 
 Par conséquent, la stratégie vocale appliquée aux appels de John Bois n’est pas restreinte et suit la logique du routage des appels disponibles pour les appels aux États-Unis, au Canada et à l’international.
+
+## <a name="run-a-self-diagnostics-tool"></a>Exécuter un outil d’auto-diagnostic
+
+Microsoft 365 administrateur ont accès à des diagnostics qui peuvent être exécutés dans le client pour vérifier qu’un utilisateur est correctement configuré pour le routage direct. 
+
+> [!NOTE]
+>Cette fonctionnalité n’est pas disponible Microsoft 365,Microsoft 365 géré par 21Vianet ou Microsoft 365 Germany.
+
+Sélectionnez Exécuter les tests, comme suit. L’outil de diagnostic est rempli dans le Administration Microsoft 365 de diagnostic.
+>> [!div class="nextstepaction"]
+>> [Exécuter des tests : Teams routage direct](https://aka.ms/TeamsDirectRoutingDiag)
+
+L’outil de diagnostic effectue un large éventail de vérifications.
 
 ## <a name="see-also"></a>Voir aussi
 
