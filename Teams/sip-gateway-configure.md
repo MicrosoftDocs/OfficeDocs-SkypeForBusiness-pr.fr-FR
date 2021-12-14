@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b245a4f4b0c9d8940943ceacc685bcf99e0df64e
-ms.sourcegitcommit: 70bba31b0ca4615a3c6a90f42d3568450ea51b82
+ms.openlocfilehash: a4548ab9abfd96b3945c19c07e08baf1ede05983
+ms.sourcegitcommit: 1e83f2c1ed12bcb611eb4eb0a5f1f58496c63147
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61327302"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61426106"
 ---
 # <a name="configure-sip-gateway"></a>Configurer la passerelle SIP
 
@@ -107,6 +107,9 @@ Pour activer la passerelle SIP dans le Centre Teams’administration, suivez ces
 
 Vous pouvez également activer la passerelle SIP à l’aide de l’cmdlet PowerShell [Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) Pour activer les utilisateurs pour les appareils SIP, sélectionnez une stratégie et définissez `-AllowSIPDevicesCalling` l’attribut sur `True` . La valeur par défaut est donc que les utilisateurs ne peuvent pas utiliser leurs appareils SIP, sauf si `False` vous les activez.
 
+
+> [!NOTE]
+> - La propagation des stratégies peut prendre jusqu’à 24 heures.
 
 ## <a name="set-the-sip-gateway-provisioning-server-url"></a>Définir l’URL du serveur de provisionation de passerelle SIP
 
@@ -195,7 +198,7 @@ Pour simplifier vos tâches, vous pouvez inscrire des appareils SIP dans le Team
 
      f. Dans le volet **Périphériques** de mise en service, sous En attente **d’activation,** sélectionnez un périphérique, puis sélectionnez Générer du **code** de vérification pour générer un code de vérification à une seule heure pour chaque périphérique mis en service. Notez le code de vérification pour chaque appareil SIP.
 
-4. Sur l’appareil SIP, composez le code de fonctionnalité d’inscription suivi du code de vérification. Par exemple, si le code de fonctionnalité d’inscription est 55* et que le code de vérification est 123456, composez \* \* le 55 123456 pour inscrire \* l’appareil.
+4. Sur l’appareil SIP, composez le code de fonctionnalité d’inscription suivi du code de vérification. Sur l’appareil SIP, composez le code de fonctionnalité d’inscription 55* (utilisé par la passerelle SIP pour la validation du code d’inscription unique), suivi du code de vérification généré dans le Centre d’administration Teams pour cet appareil \* particulier. Par exemple, si le code de vérification est 123456, composez \* le 55 \* 123456 pour inscrire l’appareil.
 
 5.  Dans le **volet Provision de périphériques,** sous En attente de **la connectez-vous,** **sélectionnez Connecté.**
 
