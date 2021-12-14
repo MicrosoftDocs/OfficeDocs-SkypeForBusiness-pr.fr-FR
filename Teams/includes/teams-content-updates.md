@@ -3,6 +3,49 @@
 
 
 
+## <a name="week-of-december-06-2021"></a>Semaine du 6 décembre 2021
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 12/6/2021 | [Configurer la passerelle SIP](/MicrosoftTeams/sip-gateway-configure) | ajouté |
+| 12/6/2021 | [Planifier la passerelle SIP](/MicrosoftTeams/sip-gateway-plan) | ajouté |
+| 12/6/2021 | [Configurer un attendant automatique pour les Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modifié |
+| 12/6/2021 | [Appareils pour Teams](/MicrosoftTeams/devices/teams-ip-phones) | modifié |
+| 12/6/2021 | [Adresses d’urgence pour les emplacements distants](/MicrosoftTeams/emergency-calling-dispatchable-location) | ajouté |
+| 12/7/2021 | [Appareils pour Teams](/MicrosoftTeams/devices/teams-ip-phones) | modifié |
+| 12/7/2021 | [Configurer la confirmation d’appel sortant de réunion pour vos utilisateurs dans Microsoft Teams](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | modifié |
+| 12/7/2021 | [Configurer la passerelle SIP](/MicrosoftTeams/sip-gateway-configure) | modifié |
+| 12/7/2021 | [Salles Microsoft Teams’entreprise](/MicrosoftTeams/rooms/multi-tenant-auditing) | ajouté |
+| 12/7/2021 | [Gestion des partenaires pour les clients](/MicrosoftTeams/rooms/multi-tenant-management-customer) | ajouté |
+| 12/7/2021 | [Gestion client multi-client pour les partenaires](/MicrosoftTeams/rooms/multi-tenant-management-partner) | ajouté |
+| 12/7/2021 | [Salles Microsoft Teams service géré](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | modifié |
+| 12/7/2021 | [Spécifications des salles Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modifié |
+| 12/8/2021 | [Configuration de l’administrateur pour l’application Parents de Microsoft EDU dans Teams](/MicrosoftTeams/edu-parents-app) | modifié |
+| 12/8/2021 | [Planifier le routage géodépendant pour le routage direct](/MicrosoftTeams/location-based-routing-plan) | modifié |
+| 12/8/2021 | [Musique en attente](/MicrosoftTeams/music-on-hold) | modifié |
+| 12/8/2021 | [Déployer Salles Microsoft Teams déploiement Exchange local (hybride)](/MicrosoftTeams/rooms/with-exchange-on-premises) | modifié |
+| 12/8/2021 | [Déployer des Salles Microsoft Teams avec Exchange Online](/MicrosoftTeams/rooms/with-exchange-online) | modifié |
+| 12/8/2021 | [Déployer des Salles Microsoft Teams avec Microsoft 365 ou Office 365](/MicrosoftTeams/rooms/with-office-365) | modifié |
+| 12/8/2021 | [Déployer des Salles Microsoft Teams en Skype Entreprise Server](/MicrosoftTeams/rooms/with-skype-for-business-server-2015) | modifié |
+| 12/8/2021 | [Forum aux questions (FAQ) sur le tableau de bord de qualité des appels](/MicrosoftTeams/cqd-frequently-asked-questions) | modifié |
+| 12/8/2021 | [Dimensions et mesures - Tableau de bord de qualité des appels](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modifié |
+| 12/9/2021 | [Configurer un appel d’urgence dynamique](/MicrosoftTeams/configure-dynamic-emergency-calling) | modifié |
+| 12/9/2021 | [Appareils pour Teams](/MicrosoftTeams/devices/teams-ip-phones) | modifié |
+| 12/9/2021 | [Direct Routing SBA](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | modifié |
+| 12/9/2021 | [Consulter la liste des utilisateurs activés pour l’audioconférence](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams) | modifié |
+| 12/9/2021 | [Forum aux questions (FAQ) sur le tableau de bord de qualité des appels](/MicrosoftTeams/cqd-frequently-asked-questions) | modifié |
+| 12/9/2021 | [Utiliser la télémétrie en temps réel pour résoudre les problèmes de qualité des réunions](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modifié |
+| 12/10/2021 | [Configurer un appel d’urgence dynamique](/MicrosoftTeams/configure-dynamic-emergency-calling) | modifié |
+| 12/10/2021 | [Référence de la reconnaissance vocale et de la numérotation automatique et de la file d’attente des appels](/MicrosoftTeams/dial-voice-reference) | modifié |
+| 12/10/2021 | [Utiliser les fichiers journaux pour le dépannage de Microsoft Teams](/MicrosoftTeams/log-files) | modifié |
+| 12/10/2021 | [Configurer des forfaits d'appels](/MicrosoftTeams/set-up-calling-plans) | modifié |
+| 12/10/2021 | [Configurer le routage des appels pour le routage direct](/MicrosoftTeams/direct-routing-voice-routing) | modifié |
+| 12/10/2021 | [Teams pour les associations à but non-lucratif](/MicrosoftTeams/expand-teams-across-your-org/teams-for-nonprofit-landing-page) | modifié |
+| 12/10/2021 | [Gestion des partenaires pour les clients](/MicrosoftTeams/rooms/multi-tenant-management-customer) | modifié |
+| 12/10/2021 | [Gestion client multi-client pour les partenaires](/MicrosoftTeams/rooms/multi-tenant-management-partner) | modifié |
+
+
 ## <a name="week-of-november-29-2021"></a>Semaine du 29 novembre 2021
 
 
