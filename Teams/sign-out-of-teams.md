@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b11c58ced2ab089c181b28abe742ef8191452ea
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ba5789dac9d54de153c6d4c712a2d68367ad79c0
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865673"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513595"
 ---
 # <a name="sign-out-of-microsoft-teams"></a>Déconnexion de Microsoft Teams
 
@@ -32,7 +32,7 @@ Nous recommandons aux utilisateurs de rester connectés à l’application Micro
 - Ils veulent utiliser un autre compte
 - Ils sont sur un appareil qu’ils partagent avec une autre personne
 
-Pour ces raisons ou d’autres, Teams vous permet de vous déconnecter de l’application et de mettre fin à votre session.
+Pour ces raisons et d’autres, Teams vous permet de vous déconnecter de l’application et de mettre fin à votre session.
 
 ## <a name="account-sharing-between-apps"></a>Partage de compte entre des applications
 

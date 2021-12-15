@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce78cfa86dfe562b33a892fbcc85a3946097eca6
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: b499a11d057f376f09ad101b043f8ac60f112ade
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257355"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513496"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -66,13 +66,17 @@ Les plateformes suivantes ont des solutions d’infrastructure de bureau virtuel
 
 |Plateforme|Solution|
 |----|---|
-|![Logo représentant Microsoft.](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Bureau virtuel Azure</a> |
+|![Logo représentant Microsoft.](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Bureau virtuel Azure,</a> <a href="/windows-365/enterprise/teams-on-cloud-pc" target="_blank">Windows 365</a> |
 |![Logo représentant Citrix.](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Applications et bureaux virtuels Citrix</a> |
 |![Logo représentant VMware.](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### <a name="azure-virtual-desktop"></a>Bureau virtuel Azure
 
 Azure Virtual Desktop permet d’optimiser AV Teams sur VDI. Pour en savoir plus sur la exigences et l’installation, voir [Utiliser Teams sur Azure Virtual Desktop.](/azure/virtual-desktop/teams-on-wvd)
+
+### <a name="windows-365"></a>Windows 365
+
+Windows 365 utilise l’optimisation AV fournie par Azure Virtual Desktop pour garantir une expérience optimale Teams des PC Cloud. Pour en savoir plus sur la exigences et l’installation, voir [Utiliser Teams cloud PC.](/windows-365/enterprise/teams-on-cloud-pc)
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix Virtual Apps and Desktops requirements
 
