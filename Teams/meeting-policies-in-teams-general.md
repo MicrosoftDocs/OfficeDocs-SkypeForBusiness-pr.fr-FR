@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres généraux de stratégie de réunion dans Teams.
-ms.openlocfilehash: b7c08799ee9e7c2b1e6239b17abaa66b7d1e3d47
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: db1515b016aec47190c26305656b205a56e13b23
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61177935"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562872"
 ---
 # <a name="meeting-policy-settings---general"></a>Paramètres de stratégie de réunion : général
 
@@ -124,13 +124,19 @@ Gardez à l’esprit qu’une fois que vous avez défini la valeur par défaut, 
 
 Il s’agit d’une stratégie par utilisateur. Ce paramètre permet de contrôler si les organisateurs de réunion peuvent télécharger le [Rapport de participation aux réunions](teams-analytics-and-reports/meeting-attendance-report.md).
 
-Cette stratégie est off par défaut et permet à vos organisateurs de voir qui s’est inscrit et a participé aux réunions et webinaires qu’ils ont créés. Pour activer cette fonction dans le centre d Teams réunion, allez dans **Stratégies** de réunion, puis définissez la stratégie  >  sur **Activé.**
+Cette stratégie est off par défaut et permet à vos organisateurs de voir qui s’est inscrit et a participé aux réunions et webinaires qu’ils ont créés. Pour l’activer dans le centre Teams d’administration, allez dans **Stratégies** de réunion, puis définissez le paramètre du rapport  >   **Engagement** **sur Activé.**
 
-Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
+Vous pouvez également modifier une stratégie de réunion Teams à l’aide de l’cmdlet [Set-CsTeamsMeetingPolicy.](/powershell/module/skype/set-csteamsmeetingpolicy) Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
 
 Pour permettre à l’organisateur de la réunion de télécharger le rapport de présence de réunion, définissez le paramètre **AllowEngagementReport** **sur Activé.** Lorsque cette option est activée, l’option permettant de télécharger le rapport est affichée dans le volet **Participants**. Par défaut, ce paramètre n’est pas activé.
 
 Pour empêcher un organisateur de la réunion de télécharger le rapport, définissez le paramètre sur **Désactivé**.
+
+> [!NOTE]
+> En tant qu’administrateur, vous ne pouvez pas afficher le rapport de présence pour les réunions que vous n’organisez pas. Toutefois, vous pouvez afficher les détails des participants pour une réunion donnée dans les 24 heures de cette réunion. Dans le centre Teams d’administration, allez à **Utilisateurs**  >  **Gérer les utilisateurs.** Choisissez le nom d’affichage de l’organisateur de la réunion. Sélectionnez **l’onglet & des** appels, puis choisissez l’ID de réunion ou d’appel approprié. Sélectionnez ensuite **Détails du participant.**
+
+Pour plus d’informations, notamment sur les limites du rapport d’engagement, consultez et téléchargez les rapports de présence aux réunions [dans Teams.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)
+
 
 ## <a name="meeting-registration"></a>Inscription à une réunion
 

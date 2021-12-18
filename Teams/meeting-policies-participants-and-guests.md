@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour les participants et les invités.
-ms.openlocfilehash: ebbb13d4d0430aee6fadba10b825a6c0cb8ec3b0
-ms.sourcegitcommit: 3e724a57e946550f2f61002c8e2de1ec20c9755a
+ms.openlocfilehash: bd8146ce27f76bd03d7ef991f51dbe1dda3c08ab
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "61234302"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563120"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion : participants et invités
 
@@ -98,6 +98,17 @@ Ce paramètre est un paramètre par participant. Ce paramètre détermine si la 
 
 <a name="bkparticipantsandguests"> </a>
 
+## <a name="enable-meeting-policy-settings"></a>Activer les paramètres de stratégie de réunion
+
+Pour activer les paramètres de stratégie de réunion, vous pouvez utiliser le Centre d’administration [Teams](https://admin.teams.microsoft.com/policies/meetings) **(Les** stratégies de réunion modifient une stratégie Participants &  >    >  **invités)** ou l’cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) dans Teams PowerShell. 
+
+Dans cet exemple, nous utilisons PowerShell pour modifier la stratégie de réunion globale afin de permettre à tous les utilisateurs de commencer ou de rejoindre une réunion.
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAnonymousUsersToStartMeeting $True -AllowPSTNUsersToBypassLobby $True
+```
+
+Une fois que vous avez créé une stratégie, vous devez l’appliquer aux utilisateurs. Si vous avez modifié la stratégie globale (à l’échelle de l’organisation par défaut), elle s’applique automatiquement aux utilisateurs. Vous devez patienter au moins 4 heures pour que les modifications de stratégie prennent effet, mais cela peut prendre jusqu’à 24 heures.
 
 
 ## <a name="related-topics"></a>Sujets associés

@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a06c4783e9ee4f42473e6b08f0d9bd51c142ddf
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: a3d7ef1ae0375b7cdec373450135e5eed148f776
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124251"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562796"
 ---
 # <a name="upgrade-basic"></a>Mise à niveau de base
 
@@ -39,7 +39,7 @@ Conçue pour les petites organisations ou celles qui utilisent Skype Entreprise 
 Ces dix étapes simples fournissent tout ce dont vous avez besoin pour réussir la mise à niveau. Ces tâches sont conçues pour être effectuées en 30 à 45 jours, mais vous devez ajuster les dates d’achèvement des tâches en fonction du calendrier de mise à niveau de votre organisation.
 
 > [!IMPORTANT]
-> Skype Entreprise Online ne sera plus disponible le 31 juillet 2021. Passé ce délai, le service Skype Entreprise Online ne sera plus accessible ni pris en charge. Pour optimiser l’utilisation des avantages et vous assurer que votre organisation dispose du temps approprié pour implémenter votre mise à niveau, nous vous encourageons à commencer votre chemin vers Microsoft Teams aujourd’hui.
+> Skype Entreprise Online a été retiré le 31 juillet 2021. Pour optimiser l’utilisation des avantages et vous assurer que votre organisation dispose du temps approprié pour implémenter votre mise à niveau, nous vous encourageons à commencer votre chemin vers Microsoft Teams aujourd’hui.
 
 Qu’advient-Skype Entreprise après la mise à niveau ? Après la mise à niveau de vos utilisateurs vers Teams (mode **Teams uniquement**) :
 

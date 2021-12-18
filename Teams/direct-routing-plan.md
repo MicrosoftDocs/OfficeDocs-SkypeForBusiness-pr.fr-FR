@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment Téléphone Microsoft routage direct du système vous permet de connecter un contrôleur de session en bordure (SBC) fourni par un client pris en charge à Téléphone Microsoft système.
-ms.openlocfilehash: b8c1c4beb17463dcc7921677529646abf624836c
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: 9ce64ef16f7dcfed97c81a7a3fd1e77a21c9acc2
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331095"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562984"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -168,10 +168,13 @@ Le nom de domaine complet (FQDN) du certificat doit être le nom commun (CN) ou 
 Par autrement, le routage direct prend en charge un caractère générique dans cn et/ou SAN, et ce caractère générique doit être conforme au [protocole RFC HTTP sur TLS standard.](https://tools.ietf.org/html/rfc2818#section-3.1) Par exemple, il serait d’utiliser un contoso.com qui correspondrait à la sbc.contoso.com de votre \* FQDN SBC, mais ne correspondrait pas à sbc.test.contoso.com.
 
 L’interface SIP de routage direct n’truste que les certificats signés par les autorités de certification qui font partie du Programme de certificat racine de confiance Microsoft. Assurez-vous que votre certificat SBC est signé par une certification qui fait partie du programme et que l’extension EKU (Extended Key Usage) de votre certificat inclut l’authentification serveur.
-Pour en savoir plus:
-
-[Conditions requises - Programme racine de Microsoft Approuvé](/security/trusted-root/program-requirements) 
- [Liste de certificats d’autorisation d’certification incluse](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT)
+En savoir plus : Conditions [requises du programme - Programme racine de Confiance Microsoft](/security/trusted-root/program-requirements)
+  
+[Liste de certificats d’autorisation d’certification incluse](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT)
+  
+ Pour un routage direct dans Office 365 GCCH et DoD, le certificat doit être généré par l’une des autorités de certification racine suivantes :
+- DigiCert Global Root CA
+- DigiCert High Assurance EV Root CA
 
 > [!NOTE]
 > *Si la prise en charge mutual TLS (MTLS) est activée pour la connexion Teams sur le SBC, vous devez installer le certificat racine CyberTrust de Baltimore dans le magasin racine approuvé SBC du contexte TLS Teams. (En raison du fait que les certificats de service Microsoft utilisent le certificat racine de Baltimore.) Pour télécharger le certificat racine de Baltimore, voir Office 365 [chaînes de chiffrement.](/microsoft-365/compliance/encryption-office-365-certificate-chains)

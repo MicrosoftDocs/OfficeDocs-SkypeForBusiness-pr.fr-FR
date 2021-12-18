@@ -24,12 +24,12 @@ search.appverid: MET150
 description: En savoir plus sur les Microsoft Teams fonctionnalités vocales cloud et les décisions de déploiement que vous prendrez pour votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f24e7934f3f9fe1be463c47e73933a6965d56cc9
-ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+ms.openlocfilehash: 939c31477454828484c88fea0a8f34e19b640a8b
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61267767"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563599"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planifier votre solution Teams voix 
 
@@ -79,7 +79,7 @@ Prenez en compte les configurations supplémentaires dont vous pourriez avoir be
 | [**Migrer votre solution vocale existante**](#migrate-your-existing-voice-solution-to-teams) | Ce à quoi vous devez penser lors de la migration de votre solution vocale vers Teams.  Lisez cette section si vous migrez d’une solution vocale existante vers Teams. 
 
 > [!Important]
-> Cet article se concentre sur les solutions vocales avec Microsoft Teams. Il est important de savoir que Skype Entreprise Online sera retiré le 31 juillet 2021. Après cette date, le service Skype Entreprise Online ne sera plus accessible. Par ailleurs, la connectivité PSTN entre votre environnement local, que ce soit via Skype Entreprise Server ou la version Cloud Connector et Skype Entreprise Online ne sera plus prise en &mdash; &mdash; charge. Cet article présente Teams solutions vocales et vous explique comment connecter votre réseau téléphonique local, le cas échéant, à Teams à l’aide de l’Connecter d’opérateur ou du routage direct.
+> Cet article se concentre sur les solutions vocales avec Microsoft Teams. Suite à l’retrait d’Skype Entreprise Online le 31 juillet 2021, la connectivité PSTN entre votre environnement local (via Skype Entreprise Server ou la version Cloud Connector et Skype Entreprise Online) n’est plus prise en &mdash; &mdash; charge. Cet article présente Teams solutions vocales et vous explique comment connecter votre réseau téléphonique local, le cas échéant, à Teams à l’aide de l’Connecter d’opérateur ou du routage direct.
 
 
 ## <a name="teams-phone"></a>Teams Téléphone

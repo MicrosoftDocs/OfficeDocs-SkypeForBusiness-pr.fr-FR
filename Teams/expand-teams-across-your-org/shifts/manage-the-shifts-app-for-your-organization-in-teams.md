@@ -1,9 +1,9 @@
 ---
 title: Gérer l’application Plannings pour votre organisation dans Teams
-author: serdarsoysal
-ms.author: serdars
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: lisawu,gumariam
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 87389dfaba68de8cfe02f3291e03d593bb9de75b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: d474198bc644563007428ac50a85f8f839a9e1dc
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605830"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562927"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Plannings pour votre organisation dans Microsoft Teams
 
@@ -41,7 +41,7 @@ L’application Shifts dans Microsoft Teams les employés en contact direct et s
 - Les responsables créent, mettent à jour et gèrent les plannings relatifs aux roulements de équipes. Ils peuvent envoyer des messages à un membre en particulier (« du liquide s’est renversé sur le sol ») ou à toute l’équipe (« le directeur régional arrive dans 20 minutes »). Ils peuvent aussi envoyer des documents stratégiques, des bulletins d’informations et des vidéos.
 - Les employés peuvent consulter leurs horaires de travail, voir qui est prévu pour la journée, demander à échanger ou offrir une shift, et demander des congés.
 
-Il est important de savoir que Shifts ne permet pas actuellement de prendre en charge les invités. Cela signifie que les invités d’une équipe ne peuvent pas être ajoutés à des plannings de shift ou utiliser ceux-ci lorsque l’accès invité est désactivé dans Teams. 
+Il est important de savoir que Shifts ne permet pas actuellement de prendre en charge les invités. Cela signifie que les invités d’une équipe ne peuvent pas être ajoutés à des plannings de shift ou utiliser ceux-ci lorsque l’accès invité est désactivé dans Teams.
 
 > [!Note]
 > Pour plus d’informations sur les fonctionnalités Shifts sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -70,19 +70,15 @@ Plannings est activé par défaut pour tous les utilisateurs Teams de votre orga
 
 Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation d’utiliser Shifts, veillez à ce que Shifts soit désactivé pour votre organisation sur la page [Gérer les applications.](../../manage-apps.md) Ensuite, créez une stratégie d’autorisation d’application personnalisée et attribuez-la à ces utilisateurs. Pour plus d’informations, consultez [Gérer les stratégies d’autorisation d’application dans Teams](../../teams-app-permission-policies.md).
 
-### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Utilisez la stratégie de configuration de l’application FirstLineWorker pour épingler Shifts à Teams
+### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Utiliser une stratégie de configuration d’application pour épingler Shifts à Teams
 
 Les stratégies de configuration des applications vous permettent de personnaliser Teams pour mettre en évidence les applications les plus importantes pour les utilisateurs de votre organisation. Les applications que vous définissez dans une stratégie sont épinglées à la barre d’applications&mdash;, la barre se trouvant sur le côté du client Teams pour ordinateur de bureau et en bas des clients mobiles Teams&mdash; là où les utilisateurs peuvent y accéder rapidement et facilement.
- 
-Teams inclut une stratégie de configuration intégrée de l’application FirstLineWorker que vous pouvez affecter aux employés en ligne de votre organisation. Par défaut, la stratégie inclut les applications Activité, Plannings, Conversation et Appel.
 
-Pour afficher la stratégie FirstLineWorker, dans le menu de navigation gauche du Centre d’administration Microsoft Teams, consultez l’Teams **de configuration**  >  **de l’application.**
+Vous pouvez créer une stratégie [de configuration d’application](../../teams-app-setup-policies.md) personnalisée en ajoutant l’application Shifts, puis en [affecter](../../assign-policies-users-and-groups.md) la stratégie à vos utilisateurs. Vous pouvez également utiliser la stratégie de configuration de l’application qui fait partie des packages de stratégies Frontline Worker et Frontline Manager.
 
-:::image type="content" source="../../media/firstline-worker-app-setup-policy-new.png" alt-text="Capture d’écran de la stratégie de configuration de l’application FirstLineWorker dans le Microsoft Teams d’administration" lightbox="../../media/firstline-worker-app-setup-policy-new.png":::
+Un [package de](../../manage-policy-packages.md) stratégie dans Teams est un ensemble de stratégies et paramètres de stratégie prédéfinés que vous pouvez affecter aux utilisateurs ayant des rôles similaires dans votre organisation. L’ensemble des stratégies dans les packages de stratégies Frontline Worker et Frontline Manager incluent une stratégie de configuration d’application qui épingle l’application Shifts et d’autres applications qui supportent les activités de communication et de collaboration pour ce rôle.
 
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>Affecter la stratégie de configuration de l’application FirstLineWorker aux utilisateurs
-
-[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
+Nous vous recommandons d’utiliser les packages de stratégies Frontline Worker et Frontline Manager dans le cadre de la simplification, de la simplification et de l’aide en matière de cohérence dans le cadre de la gestion des stratégies pour votre personnel en première ligne.
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>Rechercher des événements de Plannings dans le journal d’audit 
 
@@ -94,5 +90,5 @@ Pour effectuer une recherche dans le journal d’audit, vous devez au préalable
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-- [Aide shifts pour les employés en avant-plan](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Aide shifts pour les employés en avant-première](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Attribuer des stratégies à vos utilisateurs](../../policy-assignment-overview.md)
