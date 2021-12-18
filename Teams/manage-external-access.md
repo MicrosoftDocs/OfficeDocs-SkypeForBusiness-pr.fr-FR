@@ -21,12 +21,12 @@ description: Vos équipes ou votre administrateur informatique peuvent configure
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: e0036218312d04a409b6699998ec6b84cddae79c
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
+ms.openlocfilehash: 16a30b9e4ce9ed86516cfcf7fb0cbdb22e6c2141
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513485"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563561"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Gérer l’accès externe dans Microsoft Teams
 
@@ -144,7 +144,7 @@ Pour tester votre configuration, vous devez disposer d’un contact Teams qui ne
 
 ## <a name="limit-external-access-to-specific-people"></a>Limiter l’accès externe à des personnes spécifiques
 
-Vous pouvez limiter l’accès externe à des personnes spécifiques à l’aide de PowerShell.
+Si vous avez activé **Les personnes de mon organisation peuvent communiquer avec des Teams utilisateurs dont les comptes ne sont pas gérés par un paramètre d’organisation**, vous pouvez limiter l’accès externe à des membres spécifiques à l’aide de PowerShell.
 
 Vous pouvez utiliser l’exemple de script ci-dessous, en remplaçant *PolicyName* par le nom que vous voulez donner à la stratégie, et *UserName* pour chaque utilisateur que vous voulez pouvoir utiliser l’accès externe.
 
