@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Découvrez les conditions requises pour la prise en charge Salles Microsoft Teams, notamment le choix du périphérique approprié, des microphones, des haut-parleurs, des caméras et des écrans.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f700edf52c5280a7262d5f8dfcdc48b38acd7e1b
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: 48e0decc358cfa8768470370dacb39e15d0fc7da
+ms.sourcegitcommit: 73d12d90fc20e3d943301f57ee434379d0b0e91b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331115"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "61575984"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Spécifications des salles Microsoft Teams
 
@@ -58,15 +58,15 @@ Tous les appareils et offres groupées actuels de salle Microsoft Teams sont dis
   |[Crestron Flex UC-MX150-T avec Intel NUC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8 Go |128 Go |
    [Crestron Flex UC-B160-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 Go |128 Go|
   |[Crestron Flex UC-C160-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 Go|128 Go|
-  |[Crestron Flex UC-MMX30-T avec UC Presentation Presentation (UC-PR) et ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MMX30-T)|Core i5|8 Go |128 Go |
-  |[Crestron Flex UC-BX30-T avec UC Presentation Presentation (UC-PR) et ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-BX30-T)|Core i5|8 Go |128 Go |
-  |[Crestron Flex UC-CX100-T avec UC Presentation Presentation (UC-PR) et ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T)|Core i5|8 Go |128 Go |
-  |[Crestron Flex UC-B30-T avec ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B30-T)|Core i5|8 Go |128 Go |
-   |[Crestron Flex UC-C100-T avec ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)|Core i5|8 Go |128 Go |
-   |[Crestron Flex UC-M50-T avec ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M50-T)|Core i5|8 Go |128 Go |
-   |[Crestron Flex UC-M70-T avec ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M70-T)|Core i5|8 Go |128 Go |
-   |[Crestron Flex UC-MX50-T avec ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX50-T)|Core i5|8 Go |128 Go |
-   |[Crestron Flex UC-MX70-T avec ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T)|Core i5|8 Go |128 Go |
+  |[Crestron Flex UC-MMX30-T avec UC Presentation Presentation (UC-PR) et ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MMX30-T)|Core i5/i7|8 Go |128 Go |
+  |[Crestron Flex UC-BX30-T avec UC Presentation Presentation (UC-PR) et ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-BX30-T)|Core i5/i7|8 Go |128 Go |
+  |[Crestron Flex UC-CX100-T avec UC Presentation Presentation (UC-PR) et ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T)|Core i5/i7|8 Go |128 Go |
+  |[Crestron Flex UC-B30-T avec ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B30-T)|Core i5/i7|8 Go |128 Go |
+   |[Crestron Flex UC-C100-T avec ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)|Core i5/i7|8 Go |128 Go |
+   |[Crestron Flex UC-M50-T avec ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M50-T)|Core i5/i7|8 Go |128 Go |
+   |[Crestron Flex UC-M70-T avec ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M70-T)|Core i5/i7|8 Go |128 Go |
+   |[Crestron Flex UC-MX50-T avec ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX50-T)|Core i5/i7|8 Go |128 Go |
+   |[Crestron Flex UC-MX70-T avec ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T)|Core i5/i7|8 Go |128 Go |
   |[Crestron Mercure Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 Go |128 Go |
   |[Dell OptiPlex 7080 avec Logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16 Go |128 Go|
   |[HP Elite Slice pour salles de réunion G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 Go |128 Go |
@@ -187,7 +187,7 @@ Ces appareils sont disponibles dans la [Vitrine de produits d'accessoires pour l
 |[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/products/mixers/p300) + </br></br> [Shure MXA 910 avec le micro du tableau de plafond Intellimix](https://www.shure.com/products/microphones/mxa910) +</br></br> [Haut-parleur de plafond MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP : 4.1.11 </br> MXA910 Ceiling Array mic: 4.1.41 </br> Haut-parleur MXN5W-C : 1.0.4 |
 |[Microphone de tableau linéaire MXA 710 MXA 2ft](https://www.shure.com/products/microphones/mxa710) + </br></br> [Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/products/mixers/p300) +</br></br> [Haut-parleur de plafond MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP : 4.4.8 </br> Haut-parleur MXN5-C : 1.1.1 |
 |[Shure MXA 710 4ft Wall Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br></br> [Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/products/mixers/p300) +</br></br> [Haut-parleur de plafond MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP : 4.4.8 </br> Haut-parleur MXN5-C : 1.1.1 |
-|[Shure MXA 910 avec microphone de tableau de plafond Intellimix](https://www.shure.com/products/microphones/mxa910) + </br> [Logiciel de salle Shure Intellimix](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Logiciel de salle Shure Intellimix : 3.0.4.14 </br> Shure MXA 910 avec microphone de tableau de plafond Intellimix : 4.4.11 </br> Plusieurs haut-parleurs MXN5-C : 1.2.1 </br> Crestron UC-C100-T : version du système d’exploitation IOT 19h2/20h2 avec la version 4.8.31.0 MTR </br> BIOS : ASUS Tek Computer INC 9934 27/08/2020 </br> UC : i5-9500TCPU </br> Mémoire physique : 8 Go de RAM |
+|[Shure MXA 910 avec microphone de tableau de plafond Intellimix](https://www.shure.com/products/microphones/mxa910) + </br> [Logiciel de salle Shure Intellimix](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Logiciel de salle Shure Intellimix : 3.0.4.14 </br> Shure MXA 910 avec microphone de tableau de plafond Intellimix : 4.4.11 </br> Plusieurs haut-parleurs MXN5-C : 1.2.1 </br> Crestron UC-C100-T : version du système d’exploitation IOT 19h2/20h2 avec la version 4.8.31.0 MTR </br> BIOS : ASUS Tek Computer INC 9934 27/08/2020 </br> UC : i5-9500TCPU/i7-9700T </br> Mémoire physique : 8 Go de RAM |
 |[Biamp Tesira premier plan AVB VT4 DSP audio fixe](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Microphone Sennheiser TeamConnect Ceiling 2](https://sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Micro de plafond Biamp Parlé TCM-XA](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 ceiling mounted loudspeaker](https://www.biamp.com/products/tesira-speakers)| Audio FW version : 3.15|
 |[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(Micro tableau)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UETT]() |Audio FW version : 3.15|

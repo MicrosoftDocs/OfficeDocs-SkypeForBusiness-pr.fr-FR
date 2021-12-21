@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 173986bdad846d27a7bd3ae5890269b88a58b3a2
-ms.sourcegitcommit: cd4eb94d0b1e9316fca2e2b771b2286eaa866ba4
+ms.openlocfilehash: 8ffa30efd7f122b6d95c4545dd2d2517f3669472
+ms.sourcegitcommit: 73d12d90fc20e3d943301f57ee434379d0b0e91b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "61566287"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "61576164"
 ---
 # <a name="authentication-best-practices-for-teams-android-devices"></a>Meilleures pratiques d’authentification pour Teams appareils Android
 
@@ -35,12 +35,12 @@ Cet article fournit des conseils généraux et des recommandations pour le dépl
 >L’accès conditionnel nécessite Azure Active Directory (Azure AD) Premium abonnement.
 
 >[!NOTE]
->Il se peut que les stratégies applicables aux appareils mobiles Android ne Teams’appliquent pas aux appareils Android. 
+>Il se peut que les stratégies applicables aux appareils mobiles Android ne Teams’appliquent pas aux appareils Android.
 
 
-## <a name="user-based-devices-vs-common-area-devices"></a>Appareils basés sur l’utilisateur et appareils en zone commune
+## <a name="personal-and-shared-devices"></a>Appareils personnels et partagés
 
-Les appareils d’équipe partagés, tels que les appareils de salle de réunion ou les téléphones de la zone commune, ne peuvent pas utiliser les mêmes exigences en matière d’inscription et de conformité que les appareils personnels. L’application d’exigences d’authentification des appareils personnels aux appareils partagés entraîne les problèmes de authentification suivants : 
+Les Teams, tels que les appareils de salle de réunion ou les téléphones de la zone commune, ne peuvent pas utiliser les mêmes exigences en matière d’inscription et de conformité que les appareils personnels. L’application d’exigences d’authentification des appareils personnels aux appareils partagés entraîne les problèmes de authentification suivants :
 
 1.  **Les appareils sont connectés en raison de stratégies de mot de passe**
 

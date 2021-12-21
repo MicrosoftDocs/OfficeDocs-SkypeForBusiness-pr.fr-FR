@@ -1393,6 +1393,8 @@ items:
             href: devices/remote-update.md
           - name: Gérer les balises d’appareils Teams
             href: devices/manage-device-tags.md
+          - name: Planifier le déploiement des affichages et des téléphones
+            href: devices/plan-device-deployment.md
           - name: Téléphones pour Teams
             href: devices/phones-for-teams.md
           - name: Affichages Teams
