@@ -2,13 +2,12 @@
 title: Shifts pour Teams
 description: Obtenez les conseils d’administration dont vous avez besoin pour configurer et gérer Shifts, l’outil de gestion des plannings, Teams.
 ms.topic: conceptual
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: LanaChin
+ms.author: v-lanachin
 audience: admin
-manager: serdars
+manager: samanro
 f1.keywords:
 - NOCSH
-ms.date: 03/29/2019
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -21,33 +20,39 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 509345043de3e26821043322454ec4f0e4ad05a2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c559f3df8ed810bab9e1ce7f48ce0486631d7699
+ms.sourcegitcommit: 7aa446f90c3a82f35a24c4eb83158fc2144dc4ed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848207"
+ms.lasthandoff: 12/22/2021
+ms.locfileid: "61583819"
 ---
 # <a name="shifts-for-teams"></a>Shifts pour Teams
 
-Teams fournit aux employés de votre organisation les outils dont ils ont besoin pour communiquer et collaborer efficacement. Consultez les ressources suivantes pour en savoir plus sur la façon de configurer et gérer Shifts, l’outil de gestion des plannings dans Teams.
+Shifts, l’outil de gestion des Teams, maintient en contact et en synchronisation votre personnel en avant-plan. Il est conçu avant tout pour une gestion de calendrier et des communications efficaces et rapides. Avec Shifts, les responsables et employés en contact peuvent gérer facilement les plannings et rester en contact.
 
-### <a name="set-up-and-manage-shifts-for-your-organization"></a>Configurer et gérer Shifts pour votre organisation
+Les responsables peuvent créer, mettre à jour et gérer les plannings des shifts de leurs équipes. Ils peuvent attribuer des shifts, ajouter des shifts ouverts et approuver les demandes de planification des employés. Les employés peuvent afficher les plannings de leur équipe et de leur propre, définir leur disponibilité, demander à échanger ou proposer un shift, demander un congé et pointer vers l’avant et vers l’arrière.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE42FjP]
+
+Utilisez les ressources suivantes pour configurer et gérer Shifts dans votre organisation.
+
+## <a name="set-up-and-manage-shifts"></a>Configurer et gérer Shifts
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | ------------- | ------------- | ------------- | ------------- |
-|![task-checklist-planning-teams.](../media/task-checklist-planning-teams-small.svg) | **[Gérer shifts dans votre organisation](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![conception](../media/Help-small.svg)  | **[Aide shifts pour les employés en avant-plan](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol."> | **[Gérer shifts dans votre organisation](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">  |**[Gérer les propriétaires de planning pour la gestion des shifts](shifts/schedule-owner-for-shift-management.md)**|
 
-### <a name="shifts-extensions"></a>Extensions Shifts
+## <a name="shifts-extensions"></a>Extensions Shifts
 
 |&nbsp;|&nbsp;|
 | ------------- | ------------- |
-| ![api.](../media/api-small.svg) | **[Api Graph Shift](/graph/api/resources/shift?view=graph-rest-1.0)** Shifts Graph API vous permettent d’intégrer des données Shifts aux systèmes externes de gestion du personnel. Vous avez la possibilité de créer des expériences Shifts personnalisées à l’arrière-plan, tout en offrant aux utilisateurs une expérience frontale enrichie dans Teams.             |
-| ![api.](../media/api-small.svg) | **[Intégrations en matière de gestion du personnel](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Si vous utilisez des systèmes tiers de gestion du personnel, tels que Kronos et JDA, pour la planification, l’heure et la participation, vous pouvez l’intégrer directement à Shifts via Shifts Graph API et SDK avec les intégrations open source. |
-| ![api.](../media/process-flow-teams-small.svg) | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts+Power Automate de prendre des informations à partir de Shifts, de créer des flux de travail personnalisés avec d’autres applications et d’effectuer des opérations à l’échelle. Automatisez les processus clés avec peu ou pas de code. Les déclencheurs et modèles permettent de prendre en charge divers scénarios, tels que l’activation des approbations automatiques pour les demandes de shift lorsque l’approbation d’un responsable n’est pas nécessaire. |
+| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph API](/graph/api/resources/shift)** Shifts Graph API vous permettent d’intégrer des données Shifts aux systèmes de gestion du personnel externe. Vous avez la possibilité de créer des expériences Shifts personnalisées à l’arrière-plan, tout en offrant aux utilisateurs une expérience frontale enrichie dans Teams.             |
+| <img src="/office/media/icons/api.png" alt="Three gears - API.">| **[Intégrations en matière de gestion du personnel](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Si vous utilisez des systèmes tiers de gestion du personnel, tels que Kronos et JDA, pour la planification, l’heure et la participation, vous pouvez l’intégrer directement à Shifts via Shifts Graph API et SDK avec les intégrations open source. |
+|<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate vous permet de prendre des informations à partir de Shifts, de créer des flux de travail personnalisés avec d’autres applications et d’effectuer des opérations à l’échelle. Automatisez les processus clés avec peu ou pas de code. Les déclencheurs et modèles supportent différents scénarios tels que l’activation des approbations automatiques pour les demandes de shift lorsque l’approbation d’un responsable n’est pas nécessaire. |
 
 ## <a name="featured-training"></a>Formation proposée
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![arrow-right-2-teams.](../media/arrow-right-2-teams-small.svg)  |  [Vidéo : Qu’est-ce que Shifts ?](https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) |![équipes-horloge](../media/clock-teams-small.svg)  |  [Vidéo : Qu’est-ce que Shifts ?](https://support.office.com/article/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984) |![blocks-teams](../media/blocks-teams-small.svg)  |  [Vidéo : Gérer un planning Shifts](https://support.office.com/article/manage-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |
+| <img src="/office/media/icons/get-started-teams.png" alt="Get started symbol.">  |  [Vidéo : Qu’est-ce que Shifts ?](https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) |<img src="/office/media/icons/clock-teams.png" alt="Clock symbol."> |  [Vidéo : Créer un planning shifts](https://support.microsoft.com/office/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984) |<img src="/office/media/icons/blocks-teams.png." alt="Blocks symbol.">|  [Vidéo : Gérer un planning Shifts](https://support.microsoft.com/office/manage-and-view-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |

@@ -3,6 +3,44 @@
 
 
 
+## <a name="week-of-december-13-2021"></a>Semaine du 13 décembre 2021
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 12/13/2021 | [Notes de publication pour Salles Microsoft Teams](/MicrosoftTeams/rooms/rooms-release-note) | modifié |
+| 12/13/2021 | [Configurer la passerelle SIP](/MicrosoftTeams/sip-gateway-configure) | modifié |
+| 12/13/2021 | [Problèmes connus](/MicrosoftTeams/rooms/known-issues) | modifié |
+| 12/13/2021 | [Microsoft Teams notes de publication de PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modifié |
+| 12/14/2021 | [Gérer l’Compliment dans le Centre d’administration Teams’administration](/MicrosoftTeams/manage-praise-app) | modifié |
+| 12/14/2021 | [Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modifié |
+| 12/14/2021 | [Déconnexion de Microsoft Teams](/MicrosoftTeams/sign-out-of-teams) | modifié |
+| 12/14/2021 | [Teams pour l’Infrastructure de bureau virtualisée (VDI)](/MicrosoftTeams/teams-for-vdi) | modifié |
+| 12/14/2021 | [Mises à niveau assistées Skype Vers une mise à \| Teams Entreprise Online](/MicrosoftTeams/upgrade-assisted) | modifié |
+| 12/14/2021 | [Gérez l’accès externe (fédération)](/MicrosoftTeams/manage-external-access) | modifié |
+| 12/14/2021 | [Transférer des numéros de téléphone vers Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | modifié |
+| 12/15/2021 | [Mise en service de Microsoft Teams à grande échelle pour les employés de bureau](/MicrosoftTeams/flw-scripted-deployment) | modifié |
+| 12/16/2021 | [Gérer les stratégies générales de réunion](/MicrosoftTeams/meeting-policies-in-teams-general) | modifié |
+| 12/16/2021 | [FAQ sur la mise à niveau de Skype Entreprise vers Teams](/MicrosoftTeams/faq-journey) | modifié |
+| 12/16/2021 | [Planifier votre solution vocale dans Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | modifié |
+| 12/16/2021 | [Gérez l’accès externe (fédération)](/MicrosoftTeams/manage-external-access) | modifié |
+| 12/16/2021 | [Gérer les stratégies de réunion pour les participants et les invités](/MicrosoftTeams/meeting-policies-participants-and-guests) | modifié |
+| 12/16/2021 | [Déclassement de Skype Entreprise Online](/MicrosoftTeams/skype-for-business-online-retirement) | modifié |
+| 12/16/2021 | [Choisissez votre voyage de mise à niveau de Skype Entreprise à Microsoft Teams](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | modifié |
+| 12/16/2021 | [Mises à niveau assistées Skype Vers une mise à \| Teams Entreprise Online](/MicrosoftTeams/upgrade-assisted) | modifié |
+| 12/16/2021 | [Liste de vérification de mise à niveau\| Mise à niveau de Skype Entreprise vers Teams \| Étapes de base](/MicrosoftTeams/upgrade-basic) | modifié |
+| 12/16/2021 | [Définir l’étendue du projet pour Skype Entreprise mise Microsoft Teams niveau](/MicrosoftTeams/upgrade-define-project-scope) | modifié |
+| 12/16/2021 | [À propos de l’infrastructure de mise à niveau Skype Entreprise à Teams](/MicrosoftTeams/upgrade-framework) | modifié |
+| 12/16/2021 | [Mettre Skype Entreprise niveau vers une version Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | modifié |
+| 12/16/2021 | [Mettre à niveau Skype Entreprise Online vers Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | modifié |
+| 12/17/2021 | [Planifier le routage direct](/MicrosoftTeams/direct-routing-plan) | modifié |
+| 12/17/2021 | [Gérer l’application Plannings pour votre organisation dans Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modifié |
+| 12/17/2021 | [Utilisez l’Assistant Intégration des employés en avant-première pour rendre votre personnel en avant-première opérationnel](/MicrosoftTeams/flw-onboarding-wizard) | modifié |
+| 12/17/2021 | [Guide de démarrage rapide pour les employés en ligne](/MicrosoftTeams/flw-quickstart) | modifié |
+| 12/17/2021 | [Présentation de Teams’enregistrement basé sur une stratégie pour les appels et & réunions](/MicrosoftTeams/teams-recording-policy) | modifié |
+| 12/17/2021 | [Meilleures pratiques d’authentification pour les appareils Android](/MicrosoftTeams/devices/authentication-best-practices-for-android-devices) | ajouté |
+
+
 ## <a name="week-of-december-06-2021"></a>Semaine du 6 décembre 2021
 
 

@@ -1514,6 +1514,8 @@ items:
             items:
               - name: Gérer l’application Shifts
                 href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+              - name: Gérer les propriétaires de planification pour la gestion de shift
+                href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
           - name: Bookings dans Teams
             items:
               - name: Visites virtuelles avec Bookings et Teams
