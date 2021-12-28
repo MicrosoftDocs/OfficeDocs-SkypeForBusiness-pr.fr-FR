@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Découvrez comment intégrer le connecteur Teams EHR pour permettre aux fournisseurs de soins de votre organisation de réaliser des visites virtuelles avec des patients ou d’autres fournisseurs dans Teams directement à partir du système d’intégration EHR.
-ms.openlocfilehash: 7329bd0afacfe941746374cc836203f17a9b5e57
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 1669cd2b71a1052ff3580c2baa531c80ce69f073
+ms.sourcegitcommit: 01657a2a961712b8383b741b4ae983b9e07bdeb1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960136"
+ms.lasthandoff: 12/27/2021
+ms.locfileid: "61611331"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>Visites virtuelles avec des Teams - Intégration dans l’intégration à l’environnement de gestion des biens et des données
 
@@ -52,7 +52,7 @@ Cet article explique comment configurer et configurer le connecteur Teams EHR po
 Avant d’intégrer le connecteur Teams EHR dans votre organisation de soins de santé, vous devez avoir les connecteurs suivants :
 
 - Abonnement actif à Microsoft Teams offre autonome de connecteur EHR (appliquée uniquement lors du test dans un environnement EHR de production).
-- Une licence Microsoft 365 ou Office 365 appropriée qui inclut Teams réunions.
+- Les utilisateurs ont une licence Microsoft 365 ou Office 365 licence appropriée qui inclut Teams réunions.
 - Teams est adoptée et utilisé dans votre organisation de soins de santé.
 - Vos systèmes répondent à [toutes les exigences de logiciel et](../../hardware-requirements-for-the-teams-app.md) de navigateur pour Teams.
 - Version d’électronique de novembre 2018 ou ultérieure
@@ -147,6 +147,9 @@ Principales fonctionnalités de l’expérience fournisseur :
 - Les fournisseurs peuvent voir les mises à jour en temps réel des patients se connectant à une visite virtuelle pour un rendez-vous donné dans PowerChart.
 - Les informations du fournisseur ne sont pas visibles pour les patients pendant la visite virtuelle.
 
+> [!NOTE]
+> Toute information entrée dans la conversation de réunion nécessaire à des fins de continuité ou de rétention des dossiers médicaux doit être téléchargée, copiée et notée par le fournisseur de soins de santé. La conversation ne constitue pas un dossier médical ni un jeu de dossiers désigné. Les messages de la conversation sont stockés en fonction des paramètres créés par l’Microsoft Teams conversation.
+
 ### <a name="patient-experience"></a>Expérience patient
 
 Le connecteur prend en charge les patients rejoignant des visites virtuelles via un lien dans le SMS. Au moment du rendez-vous, les patients peuvent commencer une visite virtuelle en appuyant sur le lien dans le SMS.
@@ -165,7 +168,7 @@ Teams’intégration aux systèmes EHR optimise la quantité de données utilis�
 
 Le connecteur Teams EHR ne stocke ni ne transfère aucune donnée personnelle identifiable ou les dossiers médicaux des patients ou fournisseurs de soins à partir du système EHR. Les seules données que le connecteur EHR stocke sont l’ID unique de l’utilisateur EHR, qui est utilisé lors Teams configuration de la réunion.
 
-L’ID unique de l’utilisateur DMI est stocké dans l’une des trois zones géographiques décrites dans [Emplacement de stockage des données client Microsoft 365](/microsoft-365/enterprise/o365-data-locations). Toutes les conversations, enregistrements et autres données partagées dans Teams par les participants à la réunion sont stockées conformément aux stratégies de stockage existantes. Pour en savoir plus sur l’emplacement des données dans Teams, voir Emplacements des [données dans Teams.](../../location-of-data-in-teams.md)
+L’ID unique de l’utilisateur DMI est stocké dans l’une des trois zones géographiques décrites dans [Emplacement de stockage des données client Microsoft 365](/microsoft-365/enterprise/o365-data-locations). Toutes les conversations, enregistrements et autres données partagées dans Teams par les participants à la réunion sont stockées conformément aux stratégies de stockage existantes. Pour en savoir plus sur l’emplacement des données dans Teams, voir Emplacement des données [dans Teams.](../../location-of-data-in-teams.md)
 
 ## <a name="related-articles"></a>Articles connexes
 
