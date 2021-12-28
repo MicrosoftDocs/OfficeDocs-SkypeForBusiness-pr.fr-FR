@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97f45330404f6a42c4293e4205e82dc7188d4b9e
-ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
+ms.openlocfilehash: bbc40787eb3708be64ddd368a0f95d44bde5ef06
+ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "61284732"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "61620478"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
@@ -41,7 +41,7 @@ La première approbation créée à partir de l’application Approbations décl
 Cet article décrit la exigences et les rôles de l’application Approbations.
 
 > [!NOTE]
-> Cette fonctionnalité n’a pas encore été publiée pour les utilisateurs des services Cloud de la communauté du secteur public (Cloud de la communauté du secteur public), Cloud de la communauté du secteur public High (GCCH) et Department of Defense (DOD).
+> Cette fonctionnalité n’a pas encore été publiée pour les Cloud de la communauté du secteur public du département de la défense (GCCH) et du département de la défense (DOD).
 
 ## <a name="required-permissions-and-licenses"></a>Autorisations et licences requises
 

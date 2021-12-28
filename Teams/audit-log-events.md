@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Découvrez comment récupérer des Microsoft Teams dans le journal d’audit du Centre de conformité Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5fc206b9869106be7dd60541d5299ffefb036ae
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 7eec47d0ed2d2a299c930edee2e849c8eb20b8db
+ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306339"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "61620488"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 
@@ -181,15 +181,15 @@ Vous pouvez utiliser l’API Office 365 d’activité de gestion des données po
 
 Les modifications d’appartenance Teams (par exemple, utilisateurs ajoutés ou supprimés) apportées via Azure Active Directory (Azure AD), le portail d’administration Microsoft 365 ou l’API Graph Groups Microsoft 365 apparaîtront dans Teams  les messages d’audit et dans le canal Général avec une attribution à un propriétaire existant de l’équipe, et non au véritable initiateur de l’action ; Dans ces scénarios, consultez les Azure AD [d’audit Microsoft 365 de groupe](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) pour consulter les informations pertinentes.
 
-## <a name="use-cloud-app-security-to-set-activity-policies"></a>Utiliser Sécurité des applications cloud pour définir des stratégies d’activité
+## <a name="use-defender-for-cloud-apps-to-set-activity-policies"></a>Utiliser Defender pour les applications cloud pour définir des stratégies d’activité
 
-En [Microsoft Cloud App Security'](/cloud-app-security/what-is-cloud-app-security) intégration, vous [](/cloud-app-security/user-activity-policies) pouvez définir des stratégies d’activité pour appliquer un large éventail de processus automatisés à l’aide des API du fournisseur de l’application. Ces stratégies vous permettent de surveiller des activités spécifiques effectuées par différents utilisateurs ou de suivre des taux élevés inattendus pour un certain type d’activité.
+À l’aide de l’intégration [](/cloud-app-security/user-activity-policies) de Microsoft Defender pour les applications [cloud,](/cloud-app-security/what-is-cloud-app-security) vous pouvez définir des stratégies d’activité pour appliquer un large éventail de processus automatisés à l’aide des API du fournisseur d’application. Ces stratégies vous permettent de surveiller des activités spécifiques effectuées par différents utilisateurs ou de suivre des taux élevés inattendus pour un certain type d’activité.
 
-Une fois que vous avez définie une stratégie de détection d’activité, elle commence à générer des alertes. Les alertes sont uniquement générées sur les activités qui se produisent une fois que vous avez créé la stratégie. Voici quelques exemples d’utilisation des stratégies d’activité dans Sécurité des applications cloud pour surveiller Teams activités.
+Une fois que vous avez définie une stratégie de détection d’activité, elle commence à générer des alertes. Les alertes sont uniquement générées sur les activités qui se produisent une fois que vous avez créé la stratégie. Voici quelques exemples d’utilisation des stratégies d’activité dans Defender pour les applications cloud pour surveiller Teams activités.
 
 ### <a name="external-user-scenario"></a>Scénario d’utilisateur externe
 
-Un scénario que vous voudrez peut-être garder à l’œil, du point de vue de l’entreprise, est l’ajout d’utilisateurs externes à votre Teams personnel. Si les utilisateurs externes sont activés, il est bon de surveiller leur présence.  Vous pouvez utiliser des [Sécurité des applications cloud](/cloud-app-security/what-is-cloud-app-security) pour identifier les menaces potentielles.
+Un scénario que vous voudrez peut-être garder à l’œil, du point de vue de l’entreprise, est l’ajout d’utilisateurs externes à votre Teams personnel. Si les utilisateurs externes sont activés, il est bon de surveiller leur présence.  Vous pouvez utiliser [Defender pour les applications cloud pour](/cloud-app-security/what-is-cloud-app-security) identifier les menaces potentielles.
 
 :::image type="content" alt-text="Stratégie de surveillance de l’ajout d’utilisateurs externes." source="media/TeamsExternalUserAddPolicy.png" lightbox="media/TeamsExternalUserAddPolicy.png":::
 
@@ -221,12 +221,12 @@ Vous pouvez définir des alertes et envoyer des courriers électroniques aux adm
 
 ![Capture d’écran des alertes et des actions de gouvernance pour une stratégie d’activité.](media/audit-log-governance.png)
 
-## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Utiliser Sécurité des applications cloud pour définir les stratégies de détection anormale
+## <a name="use-defender-for-cloud-apps-to-set-anomaly-detection-policies"></a>Utiliser Defender pour les applications cloud pour définir les stratégies de détection des anormales
 
-[](/cloud-app-security/anomaly-detection-policy) Les stratégies de détection anormale dans Sécurité des applications cloud permettent à l’utilisateur et aux entités d’analyse de l’analyse de l’environnement cloud (UEBA) et de l’apprentissage automatique (ML), de sorte que vous pouvez exécuter immédiatement la détection avancée des menaces dans votre environnement cloud. Étant donné qu’elles sont activées automatiquement, les nouvelles stratégies de détection anormale fournissent des résultats immédiats en fournissant des détections immédiates, en ciblant de nombreuses relationurs au sein de vos utilisateurs, ainsi que les ordinateurs et appareils connectés à votre réseau. De plus, les nouvelles stratégies exposent davantage de données provenant du moteur de détection Sécurité des applications cloud, afin de vous aider à accélérer le processus d’examen et à contenir des menaces en cours.
+[](/cloud-app-security/anomaly-detection-policy) Les stratégies de détection anormale dans Defender pour les applications cloud offrent des données d’analyse de l’environnement ueBA (UEBA) et de l’apprentissage automatique (ML) prédictives dès le début pour l’utilisateur et l’entité, afin que vous pouvez exécuter immédiatement la détection avancée des menaces dans votre environnement cloud. Étant donné qu’elles sont activées automatiquement, les nouvelles stratégies de détection anormale fournissent des résultats immédiats en fournissant des détections immédiates, en ciblant de nombreuses relationurs au sein de vos utilisateurs, ainsi que les ordinateurs et appareils connectés à votre réseau. De plus, les nouvelles stratégies exposent davantage de données du moteur de détection Defender pour les applications cloud, afin de vous aider à accélérer le processus d’examen et à contenir des menaces en cours.
 
 Nous travaillons à l’intégration d’Teams à des stratégies de détection anormale. Pour l’instant, vous pouvez définir des stratégies de détection anormales pour d’autres produits Office et prendre des mesures sur les utilisateurs qui correspondent à ces stratégies.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Effectuer des recherches dans le journal d’audit dans la Centre de conformité Microsoft 365](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
