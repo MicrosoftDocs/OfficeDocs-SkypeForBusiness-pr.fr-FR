@@ -13,16 +13,17 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
+ms.custom: intro-get-started
 search.appverid: MET150
 description: Découvrez comment configurer des Microsoft 365 Business Voice entreprise ou organisation de petite à moyenne entreprise.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eceaba6a099a718d6061c7db3888a63d6faf50f5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 58c740a16a1ebb36ad886614b90f02c76167e695
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635808"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625775"
 ---
 # <a name="set-up-microsoft-365-business-voice"></a>Configurer les Microsoft 365 Business Voice
 
@@ -52,7 +53,7 @@ Pour en savoir plus sur Business Voice, consultez [ce qu’Microsoft 365 Busines
 
 ## <a name="before-you-begin"></a>Avant de commencer
 
-Avant de configurer Business Voice, vous devez faire différentes choses. Les tâches suivantes vous assurent que votre organisation est prête pour Voix Entreprise.
+Avant de configurer Business Voice, vous devez faire quelques choses. Les tâches suivantes vous assurent que votre organisation est prête pour Voix Entreprise.
 
 * **Achetez des licences Business Voice** et, si vous souhaitez obtenir un numéro gratuit ou passer des appels téléphoniques longue distance, crédits de communication. Pour plus d’informations, [voir Que dois-je](what-to-buy.md)acheter pour utiliser Microsoft 365 Business Voice ?
 * **Assurez-vous que votre connexion Internet peut prendre en charge Business Voice.** Pour plus d’informations, [voir Vérifier votre connexion Internet pour Business Voice.](get-ready-internet.md)
@@ -61,4 +62,4 @@ Avant de configurer Business Voice, vous devez faire différentes choses. Les t�
 Une fois que vous avez préparé votre organisation pour Voix Entreprise, sélectionnez **L’étape suivante : démarrer la configuration de Voix Entreprise.**
 
 > [!div class="nextstepaction"]
-> [Étape suivante : commencer à définir Voix Entreprise](set-up-emergency-locations.md)
+> [Étape suivante : commencer la configuration de Business Voice](set-up-emergency-locations.md)

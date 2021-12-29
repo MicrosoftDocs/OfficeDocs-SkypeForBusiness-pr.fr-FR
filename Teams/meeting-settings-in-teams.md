@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: 4ff1118818ac22040e9bf9f8c44288991e24d8b0
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: ed042552ea6057c8184b4dad444afa543550b052
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205304"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625915"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -46,7 +46,7 @@ Avec l'association de façon anonyme, tout le monde peut participer à la réuni
 
 Vous devez être un administrateur Teams pour apporter ces modifications. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](./using-admin-roles.md) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
 
-1. Accédez au [Centre d’administration Teams](https://admin.teams.microsoft.net).
+1. Accédez au [Centre d’administration Teams](https://admin.teams.microsoft.com).
 
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
 
@@ -84,7 +84,7 @@ Les utilisateurs anonymes héritent désormais de la stratégie d’autorisation
 
 Vous devez être administrateur du service Teams pour accéder à ce paramètre. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](./using-admin-roles.md) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
 
-1. Accédez au centre d’administration.
+1. Accédez au [Centre d’administration Teams](https://admin.teams.microsoft.com).
 
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
 
@@ -109,7 +109,7 @@ Vous pouvez personnaliser les invitations aux réunions Teams pour répondre aux
 
  **Utiliser le centre d’administration Microsoft Teams**
 
-1. Accédez au centre d’administration.
+1. Accédez au [Centre d’administration Teams](https://admin.teams.microsoft.com).
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
 3. Sous **Invitation par e-mail**, procédez comme suit :
 
@@ -141,7 +141,7 @@ Si vous utilisez la qualité de service (QoS) pour hiérarchiser le trafic rése
 > Si vous activez la Qualité de service (QoS) ou si vous modifiez les paramètres dans le centre d’administration Microsoft Teams pour le service Teams, vous devez également [appliquer les paramètres correspondants à tous les appareils d’utilisateurs](QoS-in-Teams-clients.md) et tous les appareils de réseau interne afin d’implémenter totalement les modifications apportées à QoS dans Teams.
 
   **Utiliser le centre d’administration Microsoft Teams**
-1. Accédez au centre d’administration.
+1. Accédez au [Centre d’administration Teams](https://admin.teams.microsoft.com).
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
 3. Sous **Réseau**, procédez comme suit :
 

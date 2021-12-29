@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Cet article fournit une vue d’ensemble du nouveau Panneau de contrôle.
-ms.openlocfilehash: 355a8b93e428b860a775ad01cf31df726c644654
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: 7def5267b88260b66b6aa345c9585b83659f6ea3
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887302"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625935"
 ---
 # <a name="control-panel"></a>Panneau de configuration
 
@@ -65,3 +65,33 @@ Le nouveau Panneau de contrôle inclut des éléments de menu couramment utilis�
 |---------|---------|
 |Filtre de fichier         |    [Filtre de fichier](use-powershell-im-and-presence-menu.md#file-filter)     |
 |Filtre d’URL      |  [Filtre d’URL](use-powershell-im-and-presence-menu.md#url-filter)       |
+
+## <a name="monitoring-and-archiving"></a>Surveillance et archivage
+
+|Sous-menu  |Source d’informations pour la cmdlet  |
+|---------|---------|
+|Enregistrement des détails des appels       |    [Enregistrement des détails des appels](use-powershell-monitoring-and-archiving-menu.md#call-detail-recording)     |
+|Données de qualité de l’expérience      |  [Données de qualité de l’expérience](use-powershell-monitoring-and-archiving-menu.md#quality-of-experience-data)       |
+|Stratégie d’archivage       |    [Stratégie d’archivage](use-powershell-monitoring-and-archiving-menu.md#archiving-policy)     |
+|Configuration de l’archivage      |  [Configuration de l’archivage](use-powershell-monitoring-and-archiving-menu.md#archiving-configuration)       |
+
+## <a name="network-configuration"></a>Configuration réseau
+
+|Sous-menu  |Source d’informations pour la cmdlet  |
+|---------|---------|
+|Stratégie d’emplacement       |    [Stratégie d’emplacement](use-powershell-network-configuration-menu.md#location-policy)     |
+|Stratégie de bande passante      |  [Stratégie de bande passante](use-powershell-network-configuration-menu.md#bandwidth-policy)       |
+|Région       |    [Région](use-powershell-network-configuration-menu.md#region)     |
+|Site      |  [Site](use-powershell-network-configuration-menu.md#site)       |
+|Sous-réseau      |  [Subnet](use-powershell-network-configuration-menu.md#subnet)       |
+|Lien de région       |    [Lien de région](use-powershell-network-configuration-menu.md#region-link)     |
+|Itinéraire de région      |  [Itinéraire de région](use-powershell-network-configuration-menu.md#region-route)       |
+
+## <a name="topology"></a>Topologie
+
+|Sous-menu  |Source d’informations pour la cmdlet  |
+|---------|---------|
+|Statut       |    [État](use-powershell-topology-menu.md#status)     |
+|Application serveur      |  [Application serveur](use-powershell-topology-menu.md#server-application)       |
+|URL simple       |    [URL simple](use-powershell-topology-menu.md#simple-url)     |
+|Application fiable       |    [Application fiable](use-powershell-topology-menu.md#trusted-application)     |

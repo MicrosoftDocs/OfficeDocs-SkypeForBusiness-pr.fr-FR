@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
+- intro-overview
 description: Dans cet article, vous allez découvrir la technologie Teams Système téléphonique en Microsoft 365.
-ms.openlocfilehash: a0e1679c580ba6b53af7e43e6e8231a90b636e34
-ms.sourcegitcommit: 7cbcfd63161ce88067ce2d2548685c3746cd7f69
+ms.openlocfilehash: 7d873ac9ec3b4d31eea8d5a002ba0b5ba752f7cb
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61262128"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625805"
 ---
 # <a name="what-is-teams-phone"></a>Qu’est-ce Teams Téléphone
 
@@ -72,7 +73,7 @@ Teams Téléphone peut être utilisé pour les services et la messagerie vocale,
 
 Pour plus d’informations sur les fonctionnalités, voir les fonctionnalités que [vous obtenez avec Teams Téléphone.](here-s-what-you-get-with-phone-system.md) Si vous êtes prêt à commencer, consultez Configurer les Teams Téléphone [votre organisation.](setting-up-your-phone-system.md)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Teams Téléphone fonctionnalités](here-s-what-you-get-with-phone-system.md)
 - [Configurer les Teams Téléphone](setting-up-your-phone-system.md)

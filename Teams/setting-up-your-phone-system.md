@@ -22,13 +22,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
+- intro-get-started
 description: Guide détaillé détaillant la façon de configurer des Teams Système téléphonique pour votre organisation dans Microsoft 365.
-ms.openlocfilehash: 2241a58c02b43ea8a8f0eb15fedaaef8e2728f94
-ms.sourcegitcommit: 7cbcfd63161ce88067ce2d2548685c3746cd7f69
+ms.openlocfilehash: 305cb9874ed7d14a647d984dfc36586a16004d71
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61262138"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625795"
 ---
 # <a name="set-up-teams-phone-in-your-organization"></a>Configurer des Teams Téléphone dans votre organisation
 
@@ -144,7 +145,7 @@ Si vous voulez utiliser des numéros gratuits avec Microsoft Teams, vous devez c
 Si vous ne définissez pas la facturation des crédits de communication et si vous n’affectez pas de licences crédits de communication à vos **utilisateurs** et que vous n’avez plus de minutes d’appel (selon votre plan d’appels ou d’audioconférence dans votre pays/région), ces utilisateurs ne pourront plus appeler ou sortir d’un appel sortant d’une réunion d’audioconférence. Pour plus d’informations, notamment sur les montants des fonds [recommandés,](what-are-communications-credits.md) voir Quels sont les crédits de communication ? et Configurer les [crédits de communication pour votre organisation.](set-up-communications-credits-for-your-organization.md)
   
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Voici ce que vous obtenez avec Teams Téléphone](here-s-what-you-get-with-phone-system.md)
 
 [Gérer des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
