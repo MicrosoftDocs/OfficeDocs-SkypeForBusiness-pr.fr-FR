@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6116567a14aa55a5295b995336b49b30c7bb56ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c5b3d873dd327be4cbc28d4d979ad06cb6f9c9ea
+ms.sourcegitcommit: 9ed5aecbf671accae93ac5084ad7875e82e3858b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846107"
+ms.lasthandoff: 12/31/2021
+ms.locfileid: "61648882"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurer le Microsoft Teams de réunion pour Google Workspace
 
@@ -68,7 +68,7 @@ if ($servicePrincipal) {
 } else {
     # Service principal does not yet exist, create it and disable it at the same time
     New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName
-    $servicePrincipal = New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName -AccountEnabled $false
+    Get-AzureADServicePrincipal -Filter "appId eq '$appId'" | Set-AzureADServicePrincipal -AccountEnabled:$false
     Write-Host "Created and disabled the Service Principal \n"
 }
 ```
@@ -78,3 +78,25 @@ Pour plus d’informations, [voir Créer un principal de service Azure avec Azur
 ## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Supprimer le Microsoft Teams de réunion pour Google Workspace
 
 Voir la documentation Google [Supprimer une application Google Workspace Marketplace pour](https://support.google.com/a/answer/6216211?hl=en) obtenir des instructions.
+
+## <a name="create-the-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>Créer le Microsoft Teams de réunion pour Google Workspace à l’aide de PowerShell
+
+Si le module Microsoft Teams à une réunion n’est pas présent dans votre client, vous pouvez le créer à l’aide de PowerShell : 
+
+```powershell
+Connect-AzureAD
+
+$displayName = 'Microsoft Teams meeting add-on for Google Workspace'
+$appId = '7969c887-ba98-48bb-8832-6c9239929d7c'
+
+# Check if a service principal already exists for the app
+$servicePrincipal = Get-AzureADServicePrincipal -Filter "appId eq '$appId'"
+if ($servicePrincipal) {
+    # Service principal exists already
+    Write-Host "The Service principal already exists"
+} else {
+    # Service principal does not yet exist, create it
+    New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName
+    Write-Host "Created the Service Principal"
+}
+```
