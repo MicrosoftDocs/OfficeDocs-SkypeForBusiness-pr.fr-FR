@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenez des informations détaillées sur les dimensions et les mesures utilisées par le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online.
-ms.openlocfilehash: 4df31782e7f78818df5f9a849d0c814e07c52adb
-ms.sourcegitcommit: d976e49943aedd511bd6a80b02afeac4a6453406
+ms.openlocfilehash: c2b43bcd289be9b1ed108a8c24c65f7d01928517
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "61362551"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767030"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensions et mesures disponibles dans le tableau de bord de qualité des appels
 
@@ -684,8 +684,8 @@ De nombreuses valeurs de mesure peuvent également être utilisées comme filtre
 |Second Audio Echo MIC_CLIPPING Count |Nombre de flux |Nombre de flux contenant des écrêtages, détectés par les deuxièmes points de terminaison, dans l'audio capturé, limitant la suppression de l'écho dans l'audio envoyé. |
 |Second Audio Echo BAD_STATE Count |Nombre de flux |Nombre de flux contenant des problèmes liés à l'état interne, détectés par les deuxièmes points de terminaison, qui limitent la suppression de l'écho dans l'audio envoyé. |
 |Avg Audio Degradation |Note moyenne d'opinion (0-5) |Dégradation de la moyenne réseau de la note moyenne d'opinion pour les flux. Représente l’impact de la perte et de la gigue réseau sur la qualité de l’audio reçu. |
-|Avg Jitter |Millisecondes |Gigue réseau moyenne pour les flux, en millisecondes. |
-|Avg Jitter Max |Millisecondes |Gigue réseau maximale pour les flux, en millisecondes. |
+|Avg Jitter |Millisecondes |Gigue réseau moyenne pour les flux, en millisecondes. Il s’agit d’une gigue entre les arrivées signalée dans la charge utile réseau générique et signalée pour tous les types de flux. |
+|Avg Jitter Max |Millisecondes |Gigue réseau maximale pour les flux, en millisecondes. Il s’agit d’une gigue entre les arrivées signalée dans la charge utile réseau générique et signalée pour tous les types de flux. |
 |Avg Packet Loss Rate |Taux |Moyenne du pourcentage moyen de perte de paquets calculé au moyen d'un intervalle de cinq secondes pour les flux. 0,1 indique une perte de paquets de 10 %. |
 |Avg Packet Loss Rate Max |Taux |Moyenne du pourcentage maximal de perte de paquets lors de tout intervalle de cinq secondes pour les flux. 0,1 indique une perte de paquets de 10 %. |
 | Avg Send Listen MOS |Numéro |Moyenne de la prévision de la moyenne d’opinion de qualité de l’écoute large bande (MOS-LQ) du flux audio envoyé par l’utilisateur. <br/>Pour plus d’informations, voir « Moy. envoi de MOS » aucodeur des rapports [de surveillance de Lync](https://gallery.technet.microsoft.com/Lync-Reports-Decoder-001ba287)|
@@ -698,12 +698,13 @@ De nombreuses valeurs de mesure peuvent également être utilisées comme filtre
 |Avg Round Trip |Millisecondes |Moyenne de la durée moyenne de l'aller-retour de propagation sur le réseau calculée, comme spécifié par le document RFC3550, en millisecondes pour les flux. |
 |Avg Round Trip Max |Millisecondes |Moyenne de la durée maximale de l'aller-retour de propagation sur le réseau calculée, comme spécifié par le document RFC3550, en millisecondes pour les flux. |
  Utilisation avg des paquets|Nombre de paquets|Nombre moyen de Real-Time de paquets du protocole RTP envoyés par seconde au cours de la session.|
-|Avg Network Jitter |Millisecondes |   Gigue moyenne du réseau calculée sur une fenêtre de 20 secondes pendant la session. |
-| Avg Network Jitter Max|Millisecondes |Gigue réseau maximale en millisecondes, calculée sur une fenêtre de 20 secondes pendant la session.  |
-| Avg Network Jitter Min|Millisecondes|Moyenne des valeurs minimales de gigue réseau en millisecondes, calculée sur une fenêtre de 20 secondes pendant la session pour les flux.|
-| Avg Jitter Buffer Size Max|Millisecondes|Taille maximale de la mémoire tampon de gigue pendant la session.|
-| Avg Jitter Buffer Size Min|Millisecondes|Taille minimale de la mémoire tampon de gigue pendant la session.|
-| Avg Relative OneWay |Millisecondes|Retard moyen calculé à sens seul relatif de l’homologue.|
+|Avg Network Jitter |Millisecondes |   Gigue moyenne du réseau calculée sur une fenêtre de 20 secondes pendant la session. Cette mesure est contenue dans la charge utile audio de la QoE. Les types de flux autres que l’audio ne signalent pas de valeur pour cette mesure. |
+| Avg Network Jitter Max|Millisecondes |Gigue réseau maximale en millisecondes, calculée sur une fenêtre de 20 secondes pendant la session. Cette mesure est contenue dans la charge utile audio de la QoE. Les types de flux autres que l’audio ne signalent pas de valeur pour cette mesure. |
+| Avg Network Jitter Min|Millisecondes|Moyenne des valeurs minimales de gigue réseau en millisecondes, calculée sur une fenêtre de 20 secondes pendant la session pour les flux. Cette mesure est contenue dans la charge utile audio de la QoE. Les types de flux autres que l’audio ne signalent pas de valeur pour cette mesure.|
+| Avg Jitter Buffer Size|Millisecondes|Taille moyenne de la mémoire tampon de gigue pendant la session. Cette mesure est contenue dans la charge utile audio de la QoE. Les types de flux autres que l’audio ne signalent pas de valeur pour cette mesure.|
+| Avg Jitter Buffer Size Max|Millisecondes|Taille maximale de la mémoire tampon de gigue pendant la session. Cette mesure est contenue dans la charge utile audio de la QoE. Les types de flux autres que l’audio ne signalent pas de valeur pour cette mesure.|
+| Avg Jitter Buffer Size Min|Millisecondes|Taille minimale de la mémoire tampon de gigue pendant la session. Cette mesure est contenue dans la charge utile audio de la QoE. Les types de flux autres que l’audio ne signalent pas de valeur pour cette mesure.|
+| Avg Relative OneWay |Millisecondes|Retard moyen calculé à sens seul relatif de l’homologue. |
 | Avg Relative OneWay Gap Occurrences|Millisecondes|Nombre moyen d’instances d’intervalles dans le retard à sens relatif de l’homologue.|
 | Avg Relative OneWay Gap Density|Millisecondes|Densité moyenne des intervalles dans le retard à sens relatif de l’homologue.|
 | Avg Relative OneWay Gap Duration|Nombre (millisecondes)|Durée moyenne des intervalles dans le retard à sens relatif de l’homologue.|
@@ -762,7 +763,7 @@ Certaines mesures de nombre d’utilisateurs et d’appels dépendent de l’uti
 
 De nombreuses valeurs de dimension et de mesure peuvent également être utilisées comme filtres. Vous pouvez utiliser des filtres dans votre requête pour éliminer les informations de la même façon que vous sélectionnez une dimension ou une mesure pour ajouter ou inclure des informations dans la requête.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Améliorer et surveiller la qualité des appels pour les Teams](monitor-call-quality-qos.md)
 

@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Découvrez comment gérer la fonctionnalité Musique en attente dans Système téléphonique.
-ms.openlocfilehash: 7a7a79bb2d96bcd43e12b27424630acd7a0c90eb
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+ms.openlocfilehash: d3fa7188e3d2320ba4eeb17ca95d28d1f57c18c4
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355733"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767407"
 ---
 # <a name="music-on-hold"></a>Musique en attente
 
@@ -54,7 +54,9 @@ Par exemple, un service ou une organisation peut être désireux de lire une ann
 > [!NOTE]
 > Vous êtes responsable de la suppression et de la sécurisation indépendantes de tous les droits et autorisations nécessaires pour utiliser tout fichier audio ou musical avec votre service Microsoft Teams client. Cela peut inclure la propriété intellectuelle et d’autres droits sur la musique, les effets sonores, l’audio, les marques, les noms et tout autre contenu du fichier audio de tous les titulaires des droits concernés. Les titulaires peuvent inclure des artistes, des acteurs, des acteurs, des dirigeants, des musiques, des étiquettes d’enregistrement, des éditeurs de musique, des musiques, des garde, des droits, des organisations de gestion collectives et toute autre partie qui possède, contrôle ou licence les droits d’auteur, les effets sonores, les droits audio et autres droits de propriété intellectuelle.
 
-Pour configurer les Musique personnalisées en attente, utilisez les cmdlets PowerShell New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy et Import/Get/Remove-CsOnlineAudioFile dans Teams PowerShell module 2.5.0 ou une ultérieure.
+Pour configurer les Musique personnalisées en attente, utilisez les cmdlets PowerShell New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy et Import/Get/Remove/Export-CsOnlineAudioFile dans Teams PowerShell module 3.0.0 ou une ultérieure.
+
+Pour les formats audio pris en charge et la taille de fichier maximale, voir [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
 
 
 1. Assurez-vous que l Teams un utilisateur Musique mise en attente pour les appelants PSTN définie sur Activé dans la stratégie Teams d’appel. 
@@ -65,7 +67,9 @@ Pour configurer les Musique personnalisées en attente, utilisez les cmdlets Pow
 
 ### <a name="upload-the-custom-audio-file"></a>Télécharger fichier audio personnalisé
 
-La configuration d’une Musique mise en attente commence par le téléchargement du fichier audio. À cet effet, vous utilisez l'Import-CsOnlineAudioFile de cmdlet PowerShell. Voici un exemple de chargement d’un fichier audio MP3 à l’aide de l’interface PowerShell :
+La configuration d’une Musique mise en attente commence par le téléchargement du fichier audio. À cette fin, vous utilisez l’cmdlet PowerShell [Import-CsOnlineAudioFile.](/powershell/module/skype/import-csonlineaudiofile)
+
+Voici un exemple de chargement d’un fichier audio MP3 à l’aide de l’interface PowerShell :
 
 ```PowerShell
 C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
@@ -94,6 +98,8 @@ Pour obtenir des informations sur vos fichiers audio téléchargés, utilisez la
 
 Pour supprimer un fichier audio chargé, utilisez la cmdlet Remove-CsOnlineAudioFile fichiers. Avant de supprimer un fichier audio, vérifiez que vous n’utilisez pas ce fichier audio dans TeamsCallHoldPolicy.
 
+Pour exporter un fichier audio chargé, utilisez la cmdlet Export-CsOnlineAudioFile fichiers.
+
 ## <a name="feature-availability"></a>Disponibilité des fonctionnalités
 
 Le tableau suivant indique les fonctionnalités sur quels clients et appareils qui Musique en attente et les Musique personnalisées en attente. Microsoft continue d’ajouter la prise en charge des fonctionnalités. Vérifiez donc régulièrement si d’autres fonctionnalités sont disponibles.
@@ -101,8 +107,8 @@ Le tableau suivant indique les fonctionnalités sur quels clients et appareils q
 
 | Fonctionnalité | Bureau <br> Windows/Mac OS | Navigateur | Mobile <br> iOS | Mobile <br> Android | Teams Téléphone |
 | :------------| :------- | :------- | :------- | :------- | :------- |
-| En attente lors d’un appel PSTN 1:1 | -Musique en attente<br>-Personnalisation Musique attente | -Musique en attente<br>-Personnalisation Musique attente | -Musique en attente<br>-Personnalisation Musique attente | Musique en attente | Musique en attente |
-| Mettre en attente le transfert consultatif le 1:1 appel PSTN |-Musique en attente<br>-Personnalisation Musique attente | | | | |
+| En attente lors d’un appel PSTN 1:1 | -Musique en attente<br>-Personnalisation Musique attente | -Musique en attente<br>-Personnalisation Musique attente | -Musique en attente<br>-Personnalisation Musique attente | -Musique en attente<br>-Personnalisation Musique attente | -Musique en attente<br>-Personnalisation Musique attente |
+| Mettre en attente le transfert consultatif le 1:1 appel PSTN |-Musique en attente<br>-Personnalisation Musique attente | | -Musique en attente<br>-Personnalisation Musique attente | -Musique en attente<br>-Personnalisation Musique attente | |
 
 ## <a name="restrictions"></a>Restrictions
 
@@ -112,13 +118,11 @@ Le tableau suivant indique les fonctionnalités sur quels clients et appareils q
 
 - Si l’Teams d’appels est activé pour lLocation-Based routage des appels, l’Musique est en attente ne peut pas être joué à l’appelant.
 
-- Vous ne pouvez pas exporter le fichier audio une fois qu’il a été téléchargé. vous pouvez uniquement le supprimer.
-
 - Les Musique en attente personnalisée ne sont pas disponibles pour les utilisateurs configurés pour l’apparence de ligne partagée (délégation) et lorsque le parc d’appel est utilisé. L’Musique en attente standard est ledée.
 
 - Dans certains cas, un appel de dérivation média de routage direct sera converti en contournement multimédia non multimédia pour la lecture de Musique en attente et l’appel restera comme une dérivation non multimédia jusqu’à la fin de l’appel.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Attribuer des stratégies aux utilisateurs](policy-assignment-overview.md)
 
@@ -139,3 +143,5 @@ Le tableau suivant indique les fonctionnalités sur quels clients et appareils q
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
 
 - [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
+
+- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)

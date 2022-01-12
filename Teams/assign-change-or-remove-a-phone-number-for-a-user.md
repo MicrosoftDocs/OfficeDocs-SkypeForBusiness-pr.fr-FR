@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment attribuer, modifier ou supprimer un numéro de téléphone privé pour vos utilisateurs Teams entreprise et clients externes.
-ms.openlocfilehash: 5e8041ce0a8cc95549a9dc75c0c8d74cd2438e1c
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 40d8f2d12cb824b57b2c01da4880cc35afb0a663
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579514"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766567"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affectation, modification ou suppression du numéro de téléphone d’un utilisateur
 
@@ -37,7 +37,7 @@ Avant d’affecter un numéro pour un plan d’appels ou un Connecter utilisateu
 
   
 > [!NOTE]
-> Pour savoir si une licence a été attribuée à un utilisateur, vous pouvez vous rendre dans le Centre d’administration Microsoft Teams d'> **utilisateurs.** Si une licence est attribuée, elle sera indiquée dans la page.  Vous pouvez également utiliser l’Centre d'administration Microsoft 365.
+> Pour savoir si une licence a été attribuée à un utilisateur, vous pouvez vous rendre dans le Centre d’administration Microsoft Teams'> **utilisateurs.** Si une licence est attribuée, elle sera indiquée dans la page.  Vous pouvez également utiliser l’Centre d'administration Microsoft 365.
 
 > [!NOTE]
 > Cette remarque s’applique aux clients qui ont un déploiement hybride avec un Active Directory local. Si vous voulez affecter un plan d’appels ou un numéro de téléphone d’opérateur Connecter à un compte d’utilisateur ou de ressource, vous devez vous assurer que le numéro de téléphone dans l’Active Directory local a été supprimé et que la modification a été synchronisée avec Microsoft 365.
@@ -48,9 +48,9 @@ Lors de l’attribution d’un numéro de téléphone à un utilisateur, assurez
 
 Pour attribuer un numéro à l’aide du Teams d’administration :
     
-1. Dans le navigateur de gauche, cliquez **sur Numéros**  >  **Téléphone.**
+1. Dans le groupe de navigation de gauche, cliquez  >  **sur Numéros Téléphone.**
 
-2. Dans la page **Téléphone numéros** de téléphone, sélectionnez un numéro non publié dans la liste, puis cliquez sur **Modifier.**  
+2. Dans la page **Téléphone numéros** de téléphone, sélectionnez un numéro non modifié dans la liste, puis cliquez sur **Modifier.**  
 
 3. Dans le **volet Modifier,** sous **Affecté à,** recherchez l’utilisateur par nom d’affichage ou nom d’utilisateur, puis cliquez sur **Attribuer.**
 
@@ -66,17 +66,18 @@ Pour attribuer un numéro à l’aide du Teams d’administration :
 Pour attribuer des nombres à l’aide de PowerShell, utilisez l’cmdlet [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser) comme suit :
 
 
-''PowerShell Set-CsOnlineVoiceUser -Identity <user>   -TelephoneNumber <phone number> 
+```PowerShell
+Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
 ```
 
-For example:
+Par exemple :
 
 ```PowerShell
 Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 ```
 
 > [!NOTE]
-> En raison de la latence entre Microsoft 365 et Teams, l’activé peut prendre jusqu’à 24 heures pour les utilisateurs. Si le numéro de téléphone n’est pas attribué correctement après 24 heures, consultez Téléphone [Centre de services de numéros.](https://pstnsd.powerappsportals.com/) 
+> En raison de la latence entre Microsoft 365 et Teams, l’activé peut prendre jusqu’à 24 heures pour les utilisateurs. Si le numéro de téléphone n’est pas attribué correctement après 24 heures, consultez Téléphone [Centre de services de numéro.](https://pstnsd.powerappsportals.com/) 
 
   
 ## <a name="change-a-phone-number-for-a-user"></a>Modifier le numéro de téléphone d’un utilisateur
@@ -85,7 +86,7 @@ Pour modifier le numéro de téléphone d’un utilisateur à l’aide du Centre
     
 1. Dans le groupe de navigation de gauche, cliquez sur Utilisateurs, localisez et double-cliquez sur l’utilisateur voulu, cliquez sur **Compte,** puis sous Informations générales, notez le numéro de téléphone attribué à l’utilisateur.
 
-2. Dans le navigateur de gauche, cliquez **sur Numéros**  >  **Téléphone.**
+2. Dans le groupe de navigation de gauche, cliquez  >  **sur Numéros Téléphone.**
 
 3. Dans la page **Téléphone numéros** de téléphone, sélectionnez le numéro identifié à l’étape 1, puis cliquez sur **Modifier.**  
 
@@ -93,7 +94,7 @@ Pour modifier le numéro de téléphone d’un utilisateur à l’aide du Centre
 
 5. Cliquez sur **Enregistrer**.
 
-6. Dans la page **Téléphone numéros** de téléphone, sélectionnez un numéro non publié dans la liste, puis cliquez sur **Modifier.**  
+6. Dans la page **Téléphone numéros** de téléphone, sélectionnez un numéro non modifié dans la liste, puis cliquez sur **Modifier.**  
 
 7. Dans le **volet Modifier,** sous **Affecté à,** recherchez l’utilisateur par nom d’affichage ou nom d’utilisateur, puis cliquez sur **Attribuer.**
 
@@ -112,7 +113,7 @@ Pour supprimer un numéro de téléphone à l’aide du Teams d’administration
 
 1. Dans le groupe de navigation de gauche, cliquez sur Utilisateurs, localisez et double-cliquez sur l’utilisateur voulu, cliquez sur **Compte,** puis sous Informations générales, notez le numéro de téléphone attribué à l’utilisateur.
 
-2. Dans le navigateur de gauche, cliquez **sur Numéros**  >  **Téléphone.**
+2. Dans le groupe de navigation de gauche, cliquez  >  **sur Numéros Téléphone.**
 
 3. Dans la page **Téléphone numéros** de téléphone, sélectionnez le numéro identifié à l’étape 2, puis cliquez sur **Modifier.**  
 

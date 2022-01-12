@@ -24,18 +24,18 @@ search.appverid: MET150
 description: En savoir plus sur les options Teams d’appel (connectivité PSTN) et les décisions que vous prendrez pour votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b588de0041ab6cc1b74734f9a56b1e97f55166
-ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+ms.openlocfilehash: 994115cdf1dda3b5f938b6816623ead2a4196fdb
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61267827"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766847"
 ---
 # <a name="pstn-connectivity-options"></a>Options de connectivité PSTN
 
 Microsoft fournit des fonctionnalités complètes de Exchange de branche privée (PBX) pour votre organisation via Teams Téléphone. Toutefois, pour permettre aux utilisateurs de passer des appels en dehors de votre organisation, vous devez vous Teams Téléphone au réseau téléphonique public commuté (PSTN).
 
-Cet article se concentre sur les options de connectivité PSTN. Pour plus d’informations sur les solutions vocales Microsoft et les détails sur Teams Téléphone fonctionnalités, voir Planifier Teams [solution vocale proposée.](cloud-voice-landing-page.md)
+Cet article se concentre sur les options de connectivité PSTN. Pour plus d’informations sur les solutions vocales Microsoft, notamment sur les fonctionnalités Teams Téléphone, voir Planifier votre solution vocale Teams [messagerie vocale.](cloud-voice-landing-page.md)
 
 Pour vous Teams Téléphone au réseau PSTN, vous avez le choix entre les options suivantes :
 
@@ -105,7 +105,7 @@ Si vous répondez oui aux questions suivantes, l’Teams Téléphone le routage 
 - Vous voulez utiliser Teams avec Teams Téléphone.
 - Vous devez conserver votre opérateur PSTN actuel.
 - Vous voulez mélanger le routage, certains appels passant par le plan d’appels, d’autres par l’intermédiaire de votre opérateur.
-- Vous devez interopérateur avec des SYSTÈMES PBX tiers et/ou des équipements tels que des pageurs généraux, des dispositifs analogiques, etc.
+- Vous devez interopérateur avec des PBX tiers et/ou des équipements tels que des pages de surcharge, des dispositifs analogiques, etc.
 
 Avec cette option :
 

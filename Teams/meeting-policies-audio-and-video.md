@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour l’audio et la vidéo.
-ms.openlocfilehash: 9cd2a82c87106e8060d168766915e4249b9193a5
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 9513650bf9c177154b45d7bd5dcda85354cf390b
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61177995"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766947"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Paramètres de stratégie de réunion pour l’audio & vidéo
 
@@ -196,6 +196,9 @@ Les participants à la réunion voient une sélection d’images d’arrière-pl
 
 > [!NOTE]
 > L’application des modifications peut prendre jusqu’à 24 heures.
+
+> [!NOTE]
+> Cette fonctionnalité est temporairement disponible en prévisualisation publique pour tous Microsoft Teams clients. Pour obtenir cette fonctionnalité après la prévisualisation, chaque utilisateur aura besoin de la licence du module ajouter Communications avancées. Pour plus d’informations, consultez [Module complémentaire Communications avancées pour Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## <a name="related-topics"></a>Sujets associés
 

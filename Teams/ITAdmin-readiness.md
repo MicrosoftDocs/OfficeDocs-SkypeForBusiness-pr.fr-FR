@@ -19,12 +19,12 @@ ms.custom:
 description: Vidéos de formation sur les complexes PowerPoint, les didacticiels et autres ressources pour les administrateurs sur la façon de planifier, déployer et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd6397776b63194dd7f880391decb02e0cb4ed35
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d85d4a3efd158cb9cc972ef7d7f059e8b3c6fbec
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840906"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766647"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Formation pour les administrateurs sur Microsoft Teams
 
@@ -33,7 +33,7 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | :------------ | :------------ | :------------ | :------------ |
 |![une main et une flèche vers le haut.](/office/media/icons/get-started-teams.png) |[Lancez votre déploiement ici](./get-started-with-teams-quick-start.md)     |![Document avec une liste](/office/media/icons/document-teams.png)|[Afficher les Teams fonctionnalités par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
-|![un bouton de lecture de vidéo.](/office/media/icons/video-play.png) |[Afficher les vidéos des meilleures pratiques et des procédures dans le Café dans le Cloud sur YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![personne avec une clé](/office/media/icons/administrator.png) |[Teams Chalk Talks : découvrez les meilleures pratiques et des conseils pratiques sur les scénarios Teams réels](./chalk-talks-landing-page.yml)         |
+|![un bouton de lecture de vidéo.](/office/media/icons/video-play.png) |[Afficher les vidéos des meilleures pratiques et des procédures dans le Café dans le Cloud sur YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![personne avec une clé](/office/media/icons/administrator.png) |[Teams Chalk Talks : découvrir les meilleures pratiques et des conseils pratiques sur les scénarios Teams populaires](./chalk-talks-landing-page.yml)         |
 
 
 <h2>Offres et cours de formation clés</h2>
@@ -41,7 +41,7 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
 |[**Teams essentiels**](https://aka.ms/MicrosoftTeamsforIT) pour l’informatique - Les séries vidéo de Microsoft Mechanics « Teams pour l’informatique » expliquent à l’administrateur comment déployer, configurer et gérer les Teams.     |[**Prise en charge des travailleurs**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) à distance Microsoft Teams obtenez les conseils dont vous avez besoin (notamment des liens vers des formations) pour prendre en charge vos utilisateurs qui travaillent à domicile.         |[**Gérer la collaboration d’équipe pour l’it**](/learn/paths/m365-manage-team-collaboration) - Découvrez comment utiliser les Teams pour faciliter le travail d’équipe et la communication au sein de votre organisation sur les applications et appareils.         |
-|[**Certification du spécialiste de l’adoption**](/learn/paths/m365-service-adoption) des services - Les fonctionnalités du cours sur le spécialiste de l’adoption des services Microsoft Teams. Découvrez comment favoriser l’adoption des services Microsoft dans votre organisation.     |[**Introduction au travail d’équipe Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) - Les fonctionnalités du cours de certification Microsoft Service Adoption Specialist Teams. Découvrez comment favoriser l’adoption des services Microsoft dans votre organisation.        |[**Microsoft 365 Certifié**](/learn/certifications/m365-teamwork-administrator) : Association de l’administrateur de travail d’équipe - administrateurs de travail d’Microsoft 365 Configurez, déployez et gérez les charges de travail Microsoft 365 ou Office 365, telles que SharePoint (en ligne, sur site et hybride), OneDrive et Teams.        |
+|[**Certification du spécialiste de l’adoption**](/learn/paths/m365-service-adoption) des services - Les fonctionnalités du cours sur le spécialiste de l’adoption des services Microsoft Teams. Découvrez comment favoriser l’adoption des services Microsoft dans votre organisation.     |[**Introduction au travail d’équipe Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) - Les fonctionnalités du cours de certification Microsoft Service Adoption Specialist Teams. Découvrez comment favoriser l’adoption des services Microsoft dans votre organisation.        |[**Microsoft 365**](/learn/certifications/m365-teamwork-administrator) certifié : Association de l’administrateur du travail d’équipe - Microsoft 365 Les administrateurs de travail en équipe configurent, déploient et gèrent des charges de travail Microsoft 365 ou Office 365, telles que SharePoint (en ligne, sur site et hybride), OneDrive , puis Teams.        |
 
 <h2>Formation technique</h2>
 
@@ -62,7 +62,7 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 | Routage direct | [Vidéo 1 : Planification du routage direct dans Teams](https://aka.ms/teams-dr-plan)<br>[Vidéo 2 : configuration et gestion du routage direct dans Teams](https://aka.ms/teams-dr-config)<br>[Vidéo 3 : migration vers un routage direct dans Teams](https://aka.ms/teams-dr-migrate)  | [Support de présentation](https://aka.ms/teams-direct-routing-deck) |
 | Mise à niveau de Skype Entreprise vers Teams | [Vidéo 1: Présentation de la mise à niveau](https://aka.ms/teams-upgrade-intro) </br>[Vidéo 2: Planifier votre mise à niveau](https://aka.ms/teams-upgrade-plan)</br>[Vidéo 3: Coexistence et interopérabilité](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vidéo 4: Expérience de l’administrateur](https://aka.ms/teams-upgrade-admin) | [Support de présentation](https://aka.ms/teams-upgrade-deck)|
 
-<h2>salles Teams Bases pour les professionnels de l'& AV</h2>
+<h2>salles Teams bases pour professionnels de l’informatique & AV</h2>
 
 <p>Le tableau suivant contient des liens vers une formation vidéo complète, avec des PowerPoint (au format PDF) sur Salles Microsoft Teams.  
 
@@ -77,8 +77,9 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 | Module 7 : Gestion Salles Microsoft Teams, partie 2 (41:06 min) | [Video](https://www.youtube.com/watch?v=vDCYM5sKylc) | [Support de présentation](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
 | Module 8 : Salles Microsoft Teams--Astuces, astuces et résolution des problèmes (18:14 min)|[Video](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Support de présentation](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | Instructions pour la jointë un seul contact |  | [Support de présentation](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
+| Présentation des Salles Microsoft Teams services gérés |  | [Support de présentation](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
-<h2>Teams Appareils Android</h2>
+<h2>Teams appareils Android</h2>
 
 <p>Le tableau suivant contient des liens vers des formations complètes, avec des supports de présentation PowerPoint (au format PDF) sur les appareils Microsoft Teams Android qui incluent des écrans Teams, des téléphones Teams, des salles Teams pour Android et des panneaux Teams.  
 
@@ -95,9 +96,9 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 | Titre                                                                       | Résumé                                                                                                                                                                                                               |  Lien vers le guide                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Identité, gestion d’access & protection contre les menaces pour les Teams                   | Découvrez comment utiliser les centres d’administration Microsoft et PowerShell pour configurer les stratégies d’accès et d’identité et activer Office 365 Protection avancée contre les menaces pour les Teams                                                            | [Teams de sécurité de l’équipe](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Stratégies de protection contre la perte de données (DLP) pour les Microsoft Teams                     | Découvrez comment ajouter des Microsoft Teams à une stratégie DLP existante et comment créer une stratégie, qu’elle soit basée sur un modèle ou entièrement personnalisée en fonction des besoins de protection des données de votre organisation.                        | [Teams Guide DLP](https://aka.ms/teamsdlpguide)         |
-| Gestion de la conformité dans Teams                                                | Utilisez les centres d’administration Microsoft 365 Sécurité Microsoft 365, Conformité Microsoft 365 et Microsoft Teams, ainsi que Windows PowerShell pour gérer et configurer les stratégies Microsoft Teams d’une organisation Office 365 et Paramètres. | [Gestion de la conformité dans Teams guide](https://aka.ms/complianceinteamsinteractiveguide)      |
-| Teams Conseiller : Déploiement de conversations, d’équipes, de canaux et d’applications Microsoft Teams | Découvrez comment utiliser Teams conseiller pour évaluer votre environnement et créer un plan pour le déploiement de conversations, d’équipes, de canaux et d’applications.                                                                                         |  [Teams Guide de conseiller](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
+| Stratégies de protection contre la perte de données (DLP) pour les Microsoft Teams                     | Découvrez comment ajouter des Microsoft Teams à une stratégie DLP existante et comment créer une stratégie, qu’elle soit basée sur un modèle ou entièrement personnalisée en fonction des besoins de protection des données de votre organisation.                        | [Teams DLP](https://aka.ms/teamsdlpguide)         |
+| Gestion de la conformité dans Teams                                                | Utiliser les centres d Microsoft Teams’administration Microsoft 365 sécurité, conformité Microsoft 365 et Microsoft Teams, ainsi que Windows PowerShell pour gérer et configurer les stratégies de Office 365 de votre organisation et les paramètres. | [Gestion de la conformité dans Teams guide](https://aka.ms/complianceinteamsinteractiveguide)      |
+| Teams conseil : Déploiement de conversations, d’équipes, de canaux et d’applications dans Microsoft Teams | Découvrez comment utiliser Teams conseiller pour évaluer votre environnement et créer un plan pour le déploiement de conversations, d’équipes, de canaux et d’applications.                                                                                         |  [Teams Guide de conseiller](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | Simplification de Teams administration avec PowerShell et les groupes dynamiques        | Convertissez un Office 365 d’appartenance statique en appartenance dynamique et utilisez Windows PowerShell pour affecter une nouvelle stratégie d’autorisation d’application à tous les membres.                                                                         |  [Guide d’administration Teams simplifié](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
 | Gestion des Teams et de l’accès invité dans le Centre Microsoft Teams’administration         | Découvrez comment configurer et gérer les Microsoft Teams et l’accès invité pour votre organisation.                                                                                                                              | [Gestion des Teams et du guide d’accès invité](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
 | Configurer la Teams Système téléphonique : Standard automatique & file d’attente d’appels                   | Étape dans le processus de création et de déploiement d’une file d’attente d’appels et d Standard automatique dans le cadre d’Microsoft Teams à l’aide du Centre Microsoft Teams d’administration.                                                          |  [Guide de configuration Teams du système téléphonique](https://aka.ms/TeamsPhoneInteractiveGuide)             |

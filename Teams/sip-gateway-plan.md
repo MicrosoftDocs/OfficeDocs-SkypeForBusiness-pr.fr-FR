@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e59f219d24f6441615d794f23e73274e817f6a3b
-ms.sourcegitcommit: 2aae13454178dc2e2cbc8cca967cd181c5f9d044
+ms.openlocfilehash: 4c5f178c5b8da9bf2ed62b06b9c499d676c076e2
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "61314246"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767717"
 ---
 # <a name="plan-for-sip-gateway"></a>Planifier la passerelle SIP
 
@@ -52,13 +52,13 @@ La passerelle SIP connecte des appareils SIP compatibles à des Teams pour aider
 
 ## <a name="requirements-to-use-sip-gateway"></a>Conditions requises pour utiliser la passerelle SIP
 
-Teams utilisateurs doivent avoir un numéro de téléphone avec l’appel PTSN activé pour utiliser la passerelle SIP.
+Teams utilisateurs doivent avoir un numéro de téléphone avec la passerelle DNS activée pour utiliser la passerelle SIP.
 
 ### <a name="hardware-software-and-licenses"></a>Matériel, logiciels et licences
 
 Si vous avez un appareil SIP ou 3PIP, vous devez avoir : 
 - Une licence pour Système téléphonique (via un E5 ou une licence autonome)
-- Enablement PTSN (c’est-à-dire, un numéro de téléphone) via un plan d’appels Microsoft Teams, un routage direct ou un opérateur Connecter
+- l’enablement RSTN (c’est-à-dire, un numéro de téléphone) via un plan d’appel Microsoft Teams, un routage direct ou un numéro d’Connecter
 - Licence zone commune Téléphone’appareils en zone commune
 
 ## <a name="compatible-devices"></a>Appareils compatibles

@@ -21,20 +21,20 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment router des appels vers des numéros non insignés dans votre organisation.
-ms.openlocfilehash: 93d9ce289820bdcf9bb4a1e13e78bb8794b77dbd
-ms.sourcegitcommit: bdca3b5eb35a17b27c5a052d83ab229b7c911dd4
+ms.openlocfilehash: 4d9c40a0b4a01f7fae4a755603cb5cf7eb132f5c
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "60947501"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767367"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Routage des appels vers des numéros non instanés
 
-En tant qu’administrateur, vous pouvez router les appels vers des numéros non insignés dans votre organisation. Par exemple, vous souhaitez peut-être router les appels vers des numéros non instéraux comme suit : 
+En tant qu’administrateur, vous pouvez router les appels vers des numéros non insignés dans votre organisation. Par exemple, vous souhaitez peut-être router les appels vers des numéros non insignés comme suit : 
 
 - Routez tous les appels vers un numéro non attribué donné vers une annonce personnalisée.
 
-- Routez tous les appels vers un numéro non attribué donné vers le tableau de bord principal.
+- Routez tous les appels vers un numéro non attribué donné vers le tableau général principal.
 
 Vous pouvez router des appels vers des numéros non affectationés vers un utilisateur, un compte de ressource associé à une Standard automatique ou à une file d’attente d’appels, ou vers un service d’annonces qui liera un fichier audio personnalisé à l’appelant.
 
@@ -70,6 +70,8 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 - Pour router les appels vers des numéros d’abonnés Microsoft Calling Plan non attribues, votre client doit avoir des [crédits de communication disponibles.](what-are-communications-credits.md)
 
 - Pour router les appels vers des numéros de service Microsoft Calling Plan non insignés, votre client doit avoir au moins Système téléphonique licence – Utilisateur virtuel.
+
+- Les formats de fichier audio personnalisés pris en charge sont WAV (non compressé, linéaire PCM avec une profondeur 8/16/32 bits en mono ou stéréo), WMA (mono uniquement) et MP3. Le contenu du fichier audio ne peut pas avoir une taille plus de 5 Mo.
 
 ## <a name="related-topics"></a>Sujets associés
 

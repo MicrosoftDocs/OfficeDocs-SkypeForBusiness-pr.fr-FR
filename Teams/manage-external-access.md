@@ -21,12 +21,12 @@ description: Vos équipes ou votre administrateur informatique peuvent configure
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 16a30b9e4ce9ed86516cfcf7fb0cbdb22e6c2141
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 5a52e479b7dd813af786c33e494675fe7b8e9743
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563561"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766607"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Gérer l’accès externe dans Microsoft Teams
 
@@ -181,7 +181,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 
 Consultez [ New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) pour obtenir des exemples supplémentaires de compilation d’une liste d’utilisateurs.
 
-Vous pouvez voir la nouvelle stratégie en exécutant `Get-CsExternalAccessPolicy -Include All`.
+Vous pouvez voir la nouvelle stratégie en exécutant `Get-CsExternalAccessPolicy`.
 
 
 Voir également [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy) et [Set-CsExternalAccessPolicy.](/powershell/module/skype/set-csexternalaccesspolicy)

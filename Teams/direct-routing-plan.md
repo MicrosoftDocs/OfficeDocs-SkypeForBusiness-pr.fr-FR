@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment Téléphone Microsoft routage direct du système vous permet de connecter un contrôleur de session en bordure (SBC) fourni par un client pris en charge à Téléphone Microsoft système.
-ms.openlocfilehash: 9ce64ef16f7dcfed97c81a7a3fd1e77a21c9acc2
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 3cdce953aa3b4097352f1b98cee0c8557a6e8c9d
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562984"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766397"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -163,7 +163,7 @@ Microsoft vous recommande de demander le certificat pour le SBC en générant un
   > [!NOTE]
   > La plupart des autorités de certification nécessitent que la taille de clé privée soit au moins 2 048. Gardez ceci à l’esprit lors de la génération de la CSR.
 
-Le nom de domaine complet (FQDN) du certificat doit être le nom commun (CN) ou le champ SAN (Subject Alternative Name). Le certificat doit être émis directement auprès d’une autorité de certification, et non d’un fournisseur intermédiaire.
+Le nom de domaine complet (FQDN) du certificat doit être le nom commun (CN) ou le champ SAN (Subject Alternative Name).
 
 Par autrement, le routage direct prend en charge un caractère générique dans cn et/ou SAN, et ce caractère générique doit être conforme au [protocole RFC HTTP sur TLS standard.](https://tools.ietf.org/html/rfc2818#section-3.1) Par exemple, il serait d’utiliser un contoso.com qui correspondrait à la sbc.contoso.com de votre \* FQDN SBC, mais ne correspondrait pas à sbc.test.contoso.com.
 

@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: caabea3e1310ad704953171836dcdfb35506609a
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 0146c77fc5727a1dc57a7062eeb62cebaba46034
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960063"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766217"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Démarrage rapide : réunions, webinaires et événements en direct 
 
@@ -113,7 +113,7 @@ Le tableau suivant répertorie les formations disponibles pour les utilisateurs 
 | Formation | Description | 
 |----------|--------|
 | [Démarrage avec les webinaires Teams](https://support.microsoft.com/office/get-started-with-teams-webinars-42f3f874-22dc-4289-b53f-bbc1a69013e3) | Vidéo de formation rapide destinée aux utilisateurs qui débutent avec les webinaires Teams. |
-| [Guide de démarrage rapide visuel](https://teamworktools.azurewebsites.net/assets/TeamsWebinarsGetStartedGuide.pdf) | Guide visuel téléchargeable qui décrit comment commencer à planifier des webinaires.  |
+| [Guide de démarrage rapide visuel](https://adoption.microsoft.com/files/assets/TeamsWebinarsGetStartedGuide.pdf) | Guide visuel téléchargeable qui décrit comment commencer à planifier des webinaires.  |
 ||
 
 

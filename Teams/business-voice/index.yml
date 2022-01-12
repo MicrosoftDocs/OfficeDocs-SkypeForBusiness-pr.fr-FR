@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: Microsoft 365 Business Voice documentation
-summary: "Découvrez comment planifier, configurer et utiliser Téléphonie Microsoft\_365 pour les PME au sein de votre organisation. Téléphonie pour les PME permet aux petites et moyennes entreprises de configurer facilement un système téléphonique souple et performant en évitant les frais et la complexité liés aux solutions internes."
+title: Microsoft 365 Teams Téléphone la documentation de l’offre groupée Forfait d’appels
+summary: 'Découvrez comment planifier, configurer et utiliser le Microsoft 365 Teams Téléphone avec l’offre groupée Forfait d’appels dans votre organisation. L Teams Téléphone offre groupée Forfait d’appels permet aux petites et moyennes organisations de configurer facilement un système téléphonique puissant et flexible sans que les solutions interne ne vous demandent à la fois les frais et la complexité.'
 metadata:
-  title: Microsoft 365 Business Voice documentation
-  description: "Découvrez comment planifier, déployer et utiliser Téléphonie Microsoft\_365 pour les PME."
+  title: Microsoft 365 Teams Téléphone la documentation de l’offre groupée Forfait d’appels
+  description: 'Découvrez comment planifier, déployer et utiliser le Microsoft 365 Teams Téléphone avec l’offre groupée Forfait d’appels.'
   ms.topic: hub-page
   author: dstrome
   ms.author: dstrome
@@ -14,22 +14,22 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-blue.svg'
       links:
         - url: whats-business-voice.md
-          text: "Qu’est-ce que Téléphonie pour les PME\_?"
+          text: Teams Téléphone’aide sur les forfaits d’appels pour les petites et moyennes entreprises
         - url: 'https://www.microsoft.com/microsoft-365/business-voice'
-          text: "Téléphonie Microsoft\_365 pour les PME"
-        - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
-          text: Description de service
+          text: Microsoft 365 Teams Téléphone’offre groupée Forfait d’appels
+        - url: /office365/servicedescriptions/teams-service-description
+          text: Teams description du service
     - title: Configurer
       imageSrc: 'https://docs.microsoft.com/office/media/icons/deploy-blue.svg'
       links:
-        - url: ./what-to-buy.md
-          text: "Comment obtenir Téléphonie pour les PME\_?"
+        - url: ./whats-business-voice.md#what-do-i-need-to-buy-to-get-voice-capabilities-for-my-small-or-medium-business
+          text: Comment obtenir l’offre Teams Téléphone’offre groupée Forfait d’appels
         - url: get-ready-internet.md
           text: Vérifiez votre connexion Internet
         - url: prepare-users.md
           text: Préparation de vos utilisateurs
         - url: set-up-overview.md
-          text: Configurer Voix Entreprise
+          text: Configurer une Teams Téléphone’aide du forfait d’appels
     - title: Personnalisation de votre configuration
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-blue.svg'
       links:
@@ -57,10 +57,8 @@ productDirectory:
       links:
         - url: /partner-center/
           text: "Accédez à l’Espace partenaires pour obtenir Microsoft\_365\_Business"
-        - url: 'https://www.microsoft.com/microsoft-365/partners/businessvoice'
-          text: "Téléphonie Microsoft\_365 pour les PME pour les partenaires"
-        - url: partner-resources.md
-          text: "Ressources d’aide pour les partenaires Téléphonie Microsoft\_365 pour les PME"
+        - url: 'https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook'
+          text: Microsoft 365 Teams Téléphone avec l’offre d’appels groupée Partner Playbook
     - title: "Vous avez besoin d’aide\_?"
       imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
       links:

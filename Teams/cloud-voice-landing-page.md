@@ -24,14 +24,14 @@ search.appverid: MET150
 description: En savoir plus sur les Microsoft Teams fonctionnalités vocales cloud et les décisions de déploiement que vous prendrez pour votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 939c31477454828484c88fea0a8f34e19b640a8b
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 2d463034109e39920254e3f230546efe7f336af1
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563599"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766447"
 ---
-# <a name="plan-your-teams-voice-solution"></a>Planifier votre solution Teams voix 
+# <a name="plan-your-teams-voice-solution"></a>Planifier votre solution Teams voix
 
 Cet article vous aide à déterminer la solution Microsoft Voice adaptée à votre organisation. Une fois que vous avez décidé, l’article fournit une feuille de route vers le contenu qui vous permettra d’implémenter la solution choisie.
 
@@ -45,17 +45,19 @@ Si vous répondez oui aux questions suivantes, l Teams Téléphone’aide du pla
 - Vous n’avez pas besoin de conserver votre opérateur PSTN actuel.
 - Vous voulez utiliser l’accès géré par Microsoft au réseau PSTN.
 
-Toutefois, votre situation peut être plus complexe. Par exemple, vous pouvez avoir des bureaux dans des emplacements où le plan d’appel n’est pas disponible. Vous pouvez également avoir besoin d’une solution combinée qui prend en charge un déploiement complexe et multi-national, avec des exigences différentes pour différents emplacements géographiques. Microsoft prend en charge une combinaison de solutions : 
+Toutefois, votre situation peut être plus complexe. Par exemple, vous pouvez avoir des bureaux dans des emplacements où le plan d’appel n’est pas disponible. Vous pouvez également avoir besoin d’une solution combinée qui prend en charge un déploiement complexe et multi-national, avec des exigences différentes pour différents emplacements géographiques. Microsoft prend en charge une combinaison de solutions :
 
 - Teams Téléphone’aide du forfait d’appels
 - Teams Téléphone votre propre opérateur PSTN avec l’opérateur Connecter
 - Teams Téléphone votre propre opérateur PSTN avec un routage direct
 - Solution combinée qui utilise Teams Téléphone d’appel, une Teams Téléphone’opérateur Connecter et/ou une Teams Téléphone un routage direct
 
+>[!NOTE]
+>Si vous êtes une petite à moyenne entreprise (300 personnes ou moins), Microsoft offre maintenant des offres Système téléphonique un plan d’appels nationaux. Pour plus d’informations, [Teams Téléphone conseils](/microsoftteams/business-voice/whats-business-voice) pour les petites et moyennes entreprises pour vous aider à planifier, configurer et gérer votre solution vocale.
 
 ## <a name="what-do-you-need-to-read"></a>Que devez-vous lire ?
 
-**Obligatoire pour tous.** Certaines des sections de cet article concernent toutes les organisations. Par exemple, tout le monde doit lire les informations Teams Téléphone comprendre les options de connexion au réseau téléphonique public commuté (PSTN). 
+**Obligatoire pour tous.** Certaines des sections de cet article concernent toutes les organisations. Par exemple, tout le monde doit lire les informations Teams Téléphone comprendre les options de connexion au réseau téléphonique public commuté (PSTN).
 
 
 | Obligatoire pour tous | Description |

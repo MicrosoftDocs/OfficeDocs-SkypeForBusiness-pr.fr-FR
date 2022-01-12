@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Résumé : Dans un déploiement local de Skype Entreprise Server activé pour un environnement hybride, vous pouvez déplacer des utilisateurs entre l’environnement local et le cloud.'
-ms.openlocfilehash: 5d5f14cfdb5de2e11c95a2532900dfa3fcf669a1
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: ae0855388c4f97cd43e250ea5ee7aec1e1bf7938
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410705"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766777"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>Déplacer des utilisateurs entre l’environnement local et le cloud
 
@@ -70,7 +70,7 @@ Pour déplacer des utilisateurs vers Teams, utilisez la cmdlet Move-CsUser ou le
 
 Pour déplacer des utilisateurs entre l’environnement local et le cloud, vous devez utiliser un compte avec des privilèges suffisants à la fois dans l’environnement Skype Entreprise Server local et dans l’organisation Teams. Vous pouvez utiliser un compte qui dispose de tous les privilèges nécessaires ou utiliser deux comptes, auquel cas vous accéderiez aux outils locaux à l’aide d’informations d’identification sur site, puis dans ces outils, vous fourniriez des informations d’identification supplémentaires pour un compte d’administration Teams.  
 
-- Dans l’environnement local, l’utilisateur qui effectue le déplacement doit avoir les rôles CSServerAdministrator et CsUserAdministrator dans Skype Entreprise Server.
+- Dans l’environnement local, l’utilisateur qui effectue le déplacement doit avoir les rôles CSServerAdministrator, CsUserAdministrator et RTCUniversalUserAdmins dans Skype Entreprise Server.
 - Dans Teams, l’utilisateur qui effectue le déplacement doit répondre à l’un des critères suivants :
   - L’utilisateur est membre du rôle Administrateur général.
   - L’utilisateur est membre des rôles Administrateur Teams et Administrateur utilisateur.

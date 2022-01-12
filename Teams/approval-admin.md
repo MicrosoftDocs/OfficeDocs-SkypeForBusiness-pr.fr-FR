@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bbc40787eb3708be64ddd368a0f95d44bde5ef06
-ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
+ms.openlocfilehash: 4c0e4ec40368b8348833b596d55f34adcb0c316d
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "61620478"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766387"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
@@ -61,7 +61,7 @@ Pour utiliser l’application Approbations, vous avez besoin d’une licence pou
 
 ## <a name="storage-with-cds"></a>Stockage avec CDS
 
-Le modèle de données commun (CDM) est le langage de données partagé utilisé par les applications professionnelles et analytiques dans les CDS. Il s'agit d'un ensemble de schémas de données standardisés et extensibles publiés par Microsoft et ses partenaires, qui permettent d'assurer la cohérence des données et de leur signification entre les applications et les processus métier. En savoir plus sur [Modèle de données courant de Microsoft Power Platform](/power-automate/get-started-approvals).
+Le modèle de données commun (CDM) est le langage de données partagé utilisé par les applications professionnelles et analytiques dans les CDS. Il se compose d’un ensemble de schémas de données standardisés et extensibles publiés par Microsoft et nos partenaires qui permettent la cohérence des données et leur signification au sein des applications et des processus d’entreprise. En savoir plus sur [Modèle de données courant de Microsoft Power Platform](/power-automate/get-started-approvals).
 
 En savoir plus sur le [flux d’approbation](/power-automate/modern-approvals).
 
@@ -99,7 +99,7 @@ Autorisations du modèle d’approbation
 
 - Tous les propriétaires d’équipe peuvent créer un modèle d’approbation pour les équipes dont ils sont propriétaires.
 
-- Lorsqu’un administrateur crée un modèle pour l’ensemble de son organisation pour la première fois, il crée automatiquement un nouveau groupe Azure Active Directory(AAD) pour tous les administrateurs du client, y compris les administrateurs de services de l’équipe et de l’ensemble. Ces administrateurs seront ajoutés en tant que propriétaires du groupe, de sorte qu’ils pourront co-gérer les modèles d’organisation. Les administrateurs qui débutent dans l’organisation une fois l’équipe créée doivent être ajoutés manuellement en tant que propriétaires de groupe afin qu’ils disposent des mêmes autorisations pour gérer les modèles à l’échelle de l’organisation.
+- Lorsqu’un administrateur crée un modèle pour l’ensemble de son organisation pour la première fois, il crée automatiquement un nouveau groupe de Azure Active Directory (AAD) pour tous les administrateurs du client, y compris les administrateurs des services Teams. Ces administrateurs seront ajoutés en tant que propriétaires du groupe, de sorte qu’ils pourront co-gérer les modèles d’organisation. Les administrateurs qui débutent dans l’organisation une fois l’équipe créée doivent être ajoutés manuellement en tant que propriétaires de groupe afin qu’ils disposent des mêmes autorisations pour gérer les modèles à l’échelle de l’organisation.
 
 > [!Note]
 > Si un administrateur supprime le groupe, vous avez un mois pour le restaurer dans le portail Azure Active Directory (AAD) afin de restaurer toutes les données associées. Après un mois, ou si l’administrateur supprime ce groupe dans la Corbeille, vous perdrez toutes les données associées.
@@ -110,13 +110,13 @@ L’application Approbations est disponible par défaut. Vous pouvez désactiver
 
   1. Se connecter au Centre d’administration de Microsoft Teams.
 
-  2. Développez **Applications Teams** et sélectionnez **Gérer les applications**.
+  2. Allez à **Teams applications Gérer** les  >  **applications.**
 
   3. Recherchez l’application Approbations.
 
      ![Affiche la navigation dans le Centre d’administration avec Teams Applications et > Gérer les applications mis en évidence.](media/manage-approval-apps.png)
 
-  4. Sélectionnez Approbations.
+  4. Sélectionnez **Approbations.**
 
   5. Sélectionnez le bouton bascule pour désactiver l’application pour votre organisation.
 
@@ -197,16 +197,17 @@ En savoir plus sur [Journalisation des activités de Microsoft Dataverse et des 
 
 ## <a name="approvals-e-signature-integration"></a>Intégration de la signature électronique Approbations
 
-Les approbations de signature électronique créées à partir de l’application Approbations sont stockées dans l’environnement cloud du fournisseur sélectionné. Pour plus d’informations sur le stockage autour du contrat de signature électronique, consultez la documentation de stockage du fournisseur sélectionné.
+Pour utiliser la fonctionnalité de signature électronique de l’application Approbations, vous devez avoir une licence pour le fournisseur de signature électronique que vous voulez utiliser. Pour obtenir une licence pour votre organisation, vous devez vous rendre sur le site du fournisseur.
+### <a name="enable-or-disable-e-signature-providers"></a>Activer ou désactiver les fournisseurs de signature électronique
 
-Pour utiliser la fonctionnalité de signature électronique de l’application Approbations, vous devez avoir les éléments suivants :
+Vous pouvez utiliser le centre Teams d’administration pour contrôler quels fournisseurs de signature électronique tiers sont disponibles pour vos utilisateurs dans l’application Approbations. Par défaut, les fournisseurs de signature électronique sont activés dans l’application Approbations. Lorsque vous désactivez un fournisseur de signature électronique, vos utilisateurs n’y ont pas accès lorsqu’ils créent des approbations. Vos utilisateurs ne pourront pas non plus afficher les demandes de signature électronique créées à l’aide de ce fournisseur.
 
-- Licence du fournisseur de signature électronique que vous choisissez d’utiliser. Pour obtenir une licence pour votre organisation, vous devez vous rendre sur le site du fournisseur.
+1. Dans le panneau de navigation gauche du Teams d’administration, allez dans **Teams applications Gérer** les  >  **applications.**
+2. Recherchez l’application Approbations, puis sélectionnez-la.
+3. Dans **l’Paramètres,** puis faites une ou plusieurs des choses suivantes :
 
-Pour la fonctionnalité de signature électronique Approbations, les partenaires de signature tiers apparaissent par défaut dans l’Teams Approbations. Vous pouvez désactiver des fournisseurs de signature électronique spécifiques en accédant aux paramètres de l’application dans Teams d’administration.
+    - Pour activer ou désactiver Adobe Sign, activez ou désactivez **le** **bouton bascule.**
+    - Pour activer ou désactiver DocuSign, activez ou désactivez **le** **bouton bascule.**
+4. Sélectionnez **Envoyer.**
 
-1. Dans le Teams d’administration, sous **Gérer** les applications, sélectionnez l’application **Approbations,** puis **Paramètres.**
-
-2. Par défaut, un bascule est placé à côté de chaque fournisseur de signature électronique (à droite). Faites glisser le curseur vers la gauche pour désactiver un fournisseur de signature électronique spécifique. Si un administrateur Teams désactive un fournisseur, les utilisateurs finaux ne le voient pas lors de la création d’une approbation. Les utilisateurs finaux ne pourront pas non plus afficher les demandes de signature électronique qui ont été faites avec ce fournisseur.
-
-Les approbations de signature électronique créées à partir de l’application Approbations sont stockées dans le cloud du fournisseur sélectionné. Vous devrez donc vous rendre sur le site du fournisseur pour exporter des données relatives aux signatures électronique. Consultez la documentation du fournisseur sur l’exportation et la rétention de ces contrats.
+Les approbations de signature électronique créées à partir de l’application Approbations sont stockées dans l’environnement cloud du fournisseur sélectionné. Pour exporter des données relatives aux signatures électronique, vous devez vous rendre sur le site du fournisseur. Pour plus d’informations sur le stockage, l’exportation et la rétention des contrats de signature électronique, consultez la documentation du fournisseur.

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment configurer Téléphone Microsoft routage direct du système.
-ms.openlocfilehash: d6b767ace4f00e581e99ec73585b0b596029b17e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2e94da39c23c10a912f4b3f0433467439b5ecf77
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619460"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766367"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>Traduire des numéros de téléphone dans un autre format
 
@@ -36,7 +36,7 @@ Pour plus d’informations sur les étapes requises pour configurer le routage d
 
 Il arrive que les administrateurs des locataires souhaitent modifier le numéro des appels sortants et/ou entrants en fonction des modèles qu’ils ont créés pour garantir l’interopérabilité avec les contrôleurs de session en bordure. Cet article explique comment spécifier une stratégie de règles de traduction de nombres pour traduire les nombres dans un autre format. 
 
-Vous pouvez utiliser la stratégie Règles de traduction de nombres pour traduire des nombres pour les services suivants :
+Vous pouvez utiliser la stratégie Règles de traduction des nombres pour traduire les nombres des suivants :
 
 - Appels entrants : appels d’un point de terminaison PSTN (appelant) à un client Teams (appelé)
 - Appels sortants : appels d’un client Teams (appelant) à un point de terminaison PSTN (appelé)
@@ -56,7 +56,7 @@ Pour attribuer, configurer et lister des règles de manipulation des nombres sur
 Dans ce scénario, ```New-CsOnlinePSTNGateway``` l’cmdlet est exécuté pour créer la configuration SBC suivante :
 
 ```PowerShell
-New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,‘StripPlus1’  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
 ```
 
 Les règles de traduction attribuées au SBC sont résumées dans le tableau suivant :
@@ -68,7 +68,7 @@ Les règles de traduction attribuées au SBC sont résumées dans le tableau sui
 |AddTtleAreaCode    |^(\d {4} )$          | 425555$1         |
 |StripPlus1    |^+1(\d {10} )$          | $1         |
 
-Dans les exemples suivants, il y a deux utilisateurs,Soy et Bob. Il s’agit Teams utilisateur dont le numéro est +1 206 555 0100. Bob est un utilisateur PSTN dont le numéro est +1 425 555 0100.
+Dans les exemples suivants, il y a deux utilisateurs, Tous deux, Qun. et Bob. Il s’agit Teams utilisateur dont le numéro est +1 206 555 0100. Bob est un utilisateur PSTN dont le numéro est +1 425 555 0100.
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>Exemple 1 : appel entrant vers un numéro à dix chiffres
 
@@ -84,7 +84,7 @@ SBC utilise des 2065550100 dans les en-têtes RequestURI et To 4255550100'en-tê
 
 ## <a name="example-2-inbound-call-to-a-four-digit-number"></a>Exemple 2 : appel entrant vers un numéro à quatre chiffres
 
-Bob appelle Tous les membres de l’équipe à l’aide d’un numéro à quatre chiffres. Bob compose le 0100 pour joindre Tous.
+Bob appelle Contrôle à l’aide d’un numéro à quatre chiffres. Bob compose le 0100 pour joindre Tous.
 SBC utilise 0100 dans les en-têtes RequestURI et To 4255550100'en-tête De.
 
 
@@ -110,7 +110,7 @@ Dans ce scénario, un plan de numérotation traduit le numéro avant de l’envo
 
 ## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>Exemple 4 : appel sortant avec un numéro autre qu’E.164 à quatre chiffres
 
-Contrôle appelle Bob à l’aide d’un numéro à quatre chiffres. Base utilise 0100 pour joindre Bob depuis les Appels ou à l’aide d’un contact.
+Contrôle appelle Bob à l’aide d’un numéro à quatre chiffres. Ils utilisent 0100 pour joindre Bob depuis les Appels ou à l’aide d’un contact.
 SBC est configuré pour utiliser des numéros à quatre chiffres autres que E.164 pour les utilisateurs Teams et des numéros à dix chiffres pour les utilisateurs PSTN. Le plan de numérotation n’est pas appliqué dans ce scénario.
 
 

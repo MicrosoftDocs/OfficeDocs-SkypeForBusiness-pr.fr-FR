@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: En savoir plus sur les données et rapports disponibles dans le tableau de bord de qualité des appels de Microsoft.
-ms.openlocfilehash: 04edfbcbdcfc8cc5a51a08bccd7c0dfc6c511e58
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d3030377a286103e6801855e3540239006fded47
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833078"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766207"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Données et rapports dans le tableau de bord de qualité des appels
 
@@ -76,20 +76,21 @@ Pour des raisons de conformité, les données d’identification de l’utilisat
 - Nom du point de terminaison d’ordinateur
 - Commentaires de l’utilisateur Verbatim
 - ID d’objet (ID d’objet Active Directory de l’utilisateur du point de terminaison)
+- Téléphone numéro
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>Rôles d’administrateur avec et sans accès EUII
 
 Ces [rôles de](/azure/role-based-access-control/overview) contrôle **d’accès rapide ont** accès à la fonction EUII :
 - Administrateur global
-- Teams Administrateur de service
-- Teams Administrateur des communications
+- Teams de services
+- Teams des communications
 - Ingénieur du support technique pour les communications Teams
 - Lecteur global
-- Skype Entreprise Administrateur
+- Skype Entreprise’administration
 
 Ces rôles DE CONTRÔLE **D’ACCÈS N’ont pas** accès à la fonction EUII :
 - Lecteur de rapports
-- Teams Spécialiste du support pour les communications
+- Teams du support technique pour les communications
 
 
 ## <a name="date-controls"></a>Contrôles de date
@@ -398,7 +399,7 @@ Lors de l’examen de vos données, vous pouvez constater des différences entre
 
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Améliorer et surveiller la qualité des appels pour les Teams](monitor-call-quality-qos.md)
 

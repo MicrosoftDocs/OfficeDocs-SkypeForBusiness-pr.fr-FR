@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Les administrateurs peuvent contrôler le type d’audioconférence et d’appels PSTN d’utilisateur final qui peuvent être effectués par les utilisateurs.
-ms.openlocfilehash: 43fda0e088cc0b7c29bd270d20f0701f0391f8ce
-ms.sourcegitcommit: 47f537a81659ec5ecb7dfdb57589fa133199ec57
+ms.openlocfilehash: 7f1ec4886c1e1ede22c280091f2ebce9965b6d3b
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61066545"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766237"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction des appels sortants pour l’audioconférence et les appels RTC des utilisateurs
 
@@ -79,6 +79,12 @@ Grant-CsDialoutPolicy -PolicyName <policy name>  -Global
 ```
 
 Cette stratégie est attribuée à tous les utilisateurs du client qui n’ont pas de stratégie de numérotation. Les autres utilisateurs demeurent avec leur stratégie actuelle.
+
+**Vérifiez la stratégie actuelle au niveau du client avec l’cmdlet suivante.**
+
+```powershell
+Get-CSOnlineDialOutPolicy -Identity Global
+```
 
 Le tableau suivant fournit une vue d’ensemble de chaque stratégie.
 

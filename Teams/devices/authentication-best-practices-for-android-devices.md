@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ffa30efd7f122b6d95c4545dd2d2517f3669472
-ms.sourcegitcommit: 73d12d90fc20e3d943301f57ee434379d0b0e91b
+ms.openlocfilehash: 0ff320688d7afc583e1e806803349fb3d07ceb0c
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "61576164"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767207"
 ---
 # <a name="authentication-best-practices-for-teams-android-devices"></a>Meilleures pratiques d’authentification pour Teams appareils Android
 
@@ -62,7 +62,7 @@ Teams appareils partagés doivent utiliser un [Exchange de ressources.](/exchang
 
 Pour éviter les perturbations provoquées par les stratégies d’expiration des mots de passe, définissez la stratégie d’expiration des mots de passe pour les appareils partagés afin qu’elle n’expire jamais.
 
-À partir de Teams les appareils CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams version 1449/1.0.94.2021022403 pour les téléphones Teams) et [CY2021](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) Mise à jour n°2 (Teams version 1449/1.0.96.2021051904 pour Salles Microsoft Teams sur Android), les administrateurs client peuvent se Teams appareils à distance. Ne partagez pas de mots de passe avec les techniciens pour configurer des appareils. Un administrateur utilise la connectez-vous à distance pour émettre des codes de vérification, puis connectez-vous à ces appareils à partir Teams centre d’administration.
+À partir de Teams les appareils CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams version 1449/1.0.94.2021022403 pour les téléphones Teams) et [CY2021](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) Mise à jour n°2 (Teams version 1449/1.0.96.2021051904 pour Salles Microsoft Teams sur Android), les administrateurs client peuvent se Teams appareils à distance. Ne partagez pas de mots de passe avec les techniciens pour configurer des appareils. En tant qu’administrateur, utilisez la validation à distance pour émettre des codes de vérification, puis connectez-vous à ces appareils à partir Teams centre d’administration.
 
 Pour plus d’informations, voir Mise en service à distance et [se Teams appareils Android.](/MicrosoftTeams/devices/remote-provision-remote-login) 
 

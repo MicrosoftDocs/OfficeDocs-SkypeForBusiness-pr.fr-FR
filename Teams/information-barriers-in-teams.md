@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bae5efb39f6d395d96b455df52167ee39ced6da2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9bf452893172091d1c534d4a28215b661fd5fe6c
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828517"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767337"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barrières de l’information au Microsoft Teams
 
@@ -188,10 +188,11 @@ Le mode Barrières de l’information permet d’renforcer les personnes qui peu
 
 - **Ouvrir**: Cette configuration est le mode IB par défaut pour tous les groupes existants qui ont été provisionés avant l’ouverture d’une barrière de l’information. Dans ce mode, aucune stratégie DE l’organisation n’est applicable.
 - **Implicite**: cette configuration est le mode IB par défaut lorsqu’une équipe est mise en service après l’activation des barrières de l’information. Le mode implicite vous permet d’ajouter tous les utilisateurs compatibles du groupe.
+- **Propriétaire modéré**: ce mode est définie pour une équipe lorsque vous voulez autoriser la collaboration entre les utilisateurs de segments incompatibles modérés par le propriétaire. Le propriétaire de l’équipe peut ajouter de nouveaux membres selon sa stratégie DNS.
 
-Microsoft 365 Les groupes créés avant l’activation d’une stratégie de barrière des informations sont automatiquement réglés sur *le* mode Ouvrir par défaut. Une fois les stratégies IB activées sur votre client, vous devez mettre à jour le mode de mise à jour qui revalore les groupes et sites et entraîne la suppression automatique des utilisateurs non conformes de ces groupes et sites. Si vous devez modifier la configuration du *mode* Ouvrir sur les groupes connectés à Teams existants afin de respecter les exigences de conformité de votre organisation, vous devez mettre à jour les modes IB pour les [sites](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) SharePoint connectés à l’équipe Teams.
+Teams création avant l’activation d’une stratégie de barrière des informations dans votre client sont automatiquement définies sur *le* mode Ouvrir par défaut. Une fois les stratégies IB activées sur votre client, vous devez mettre à jour le mode de vos équipes existantes vers *Implicite* pour vous assurer que les équipes existantes respectent la conformité de l’organisation.
 
-Utilisez [l’cmdlet Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) avec le paramètre *InformationBarrierMode* correspondant au mode que vous voulez utiliser pour vos segments. La liste des valeurs autorisées pour le *paramètre InformationBarrierMode* est *Ouverte* et *Implicite.*
+Utilisez [l’cmdlet Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) avec le paramètre *InformationBarrierMode* correspondant au mode que vous voulez utiliser pour vos segments. La liste des valeurs autorisées pour le paramètre *InformationBarrierMode* est *Ouvert,* *Implicite* et *Propriétaire Modéré.*
 
 Par exemple, pour configurer le *mode* implicite pour un groupe Microsoft 365, vous devez utiliser la commande PowerShell suivante :
 
@@ -199,7 +200,9 @@ Par exemple, pour configurer le *mode* implicite pour un groupe Microsoft 365, v
 Set-UnifiedGroup -InformationBarrierMode Implicit
 ```
 
-Pour plus d’informations sur la manière dont les utilisateurs peuvent être automatiquement supprimés des groupes, voir [l’article (prévisualisation)](/sharepoint/information-barriers-compliance-assistant) de l’Assistant Protection des informations.
+Pour mettre à jour le mode d’Ouverture à Implicite pour toutes les équipes existantes, utilisez ce [script PowerShell.](information-barriers-mode-script.md)
+
+Si vous modifiez la configuration du mode Ouvrir sur les groupes connectés à Teams existants afin de respecter les exigences de conformité de votre organisation, vous devez mettre à jour les [modes IB](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) pour les sites SharePoint associés connectés à l’équipe Teams.
 
 ## <a name="required-licenses-and-permissions"></a>Licences et autorisations requises
 

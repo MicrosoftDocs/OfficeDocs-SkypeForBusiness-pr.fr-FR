@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et périphériques USB (casques, téléphones haut-parleurs, webcams et moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 718a4f96e6a54a5f2563cec4e69b7037a8bb470e
-ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+ms.openlocfilehash: 97299120992cf6500822c452386a9f402cb6cf55
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61267777"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766697"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft Teams
 
@@ -74,10 +74,11 @@ Si vous êtes fabricant et que vous souhaitez participer au programme de certifi
 
 ## <a name="certified-devices"></a>Périphériques certifiés
 
-*Table Updated December 2021*
+*Table Updated January 2022*
 
 | Fabricant        | Modèle                                                     | Qualifié      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Lenovo               |Go Wired Speakerphone                                      |1/10/2022       |Certifié pour les Microsoft Teams                           |
 |DONT LE TITRE EST LE PLUS GRAND                 |IMPACT SDW 5066T                                           |12/1/2021       |Certifié pour les Microsoft Teams                           |
 |DONT LE TITRE EST LE PLUS GRAND                 |IMPACT SDW 5063T                                           |12/1/2021       |Certifié pour les Microsoft Teams                           |
 |DONT LE TITRE EST LE PLUS GRAND                 |IMPACT SDW 5036T                                           |12/1/2021       |Certifié pour les Microsoft Teams                           |

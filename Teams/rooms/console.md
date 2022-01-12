@@ -15,19 +15,16 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article décrit comment configurer et configurer la console Salles Microsoft Teams et ses périphériques.
-ms.openlocfilehash: 687c507d94a7397fef0386ef3ddcc65ac7a7735b
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 2df40f136308bb7855d911667bc871e5750f06cd
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306309"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767277"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurer une console des salles Microsoft Teams
 
 Cet article décrit comment configurer la console Salles Microsoft Teams et ses périphériques.
-
-> [!NOTE]
-> Les étapes suivantes s’appliquent uniquement Surface Pro appareils mobiles salles Teams’appareils mobiles. Pour les autres appareils, vérifiez auprès du fabricant d’ordinateurs (OEM) pour obtenir de l’aide.
 
 Vous ne devez effectuer ces étapes que si les comptes Microsoft Teams ou Skype Entreprise et Exchange nécessaires ont déjà été créés et testés comme décrit dans la procédure Déploiement [Salles Microsoft Teams.](rooms-deploy.md) Vous aurez besoin du matériel et du logiciel décrits dans Salles Microsoft Teams [configuration requise.](requirements.md) Cette rubrique contient les sections suivantes :
   
@@ -37,9 +34,6 @@ Vous ne devez effectuer ces étapes que si les comptes Microsoft Teams ou Skype 
 - [Configurer initialement la console](console.md#Initial)
 - [Salles Microsoft Teams liste de contrôle de déploiement](console.md#Checklist)
 
-> [!NOTE]
-> Les étapes suivantes s’appliquent uniquement Surface Pro appareils mobiles salles Teams’appareils mobiles. Pour les autres appareils, consultez l’OEM pour obtenir de l’aide.
-  
 ## <a name="prepare-the-installation-media"></a>Préparer le support d’installation
 <a name="Prep_Media"> </a>
 

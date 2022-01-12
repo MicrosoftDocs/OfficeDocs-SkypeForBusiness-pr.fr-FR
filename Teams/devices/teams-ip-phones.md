@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: d09e8b449d9e4c058ef3fdc1f9a975c06e3cc1f6
-ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
+ms.openlocfilehash: 518ae096716661cf559c38e327c9efb7705af46b
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61401928"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767067"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certifiés
 
@@ -190,6 +190,9 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.9.0`          | Mise à jour pour 2021 #2F   |
+| Poly Studio X50 | `3.9.0`          | Mise à jour pour 2021 #2F   |
+| Poly TC8        | `3.9.0`          | Mise à jour pour 2021 #2F   |
 | Poly Studio X30 | `3.8.0`          | Mise à jour 2021 n°2    |
 | Poly Studio X50 | `3.8.0`          | Mise à jour 2021 n°2    |
 | Poly TC8        | `3.8.0`          | Mise à jour 2021 n°2    |
@@ -227,6 +230,7 @@ Voici les versions les plus récentes Microsoft Teams’application et du microp
 
 |Version de produit| Date de publication | Microsoft Teams version de l’application | Portail d'entreprise version complète | Version de l’agent d’administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|Mise à jour 2021 n°4  |5 janvier 2021 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`
 |Mise à jour 2021 n°3  |8 décembre 2021 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
 |Mise à jour 2021 n°2  |9 juin 2021 |`1449/1.0.95.2021042103`    |`5.0.5088.0`            |  `1.0.0.202103160138.product (256)`|
 |Mise à jour 2021 n°1  |18 mars 2021 |`1449/1.0.95.2021021104`    |`5.0.5045.0`            | `1.0.0.202101280722.product (253)`|

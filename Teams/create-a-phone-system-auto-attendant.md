@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les attendants automatiques pour les grandes organisations dans Microsoft Teams.
-ms.openlocfilehash: dec7051e643565b4fa0714bcba74528401ae99c0
-ms.sourcegitcommit: 693e2b7d79f5a3f7e2ccb14e48dc46d295659c33
+ms.openlocfilehash: 407d548a58240cb66cecabce01129fc3a7c270ca
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61320074"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767137"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un attendant automatique
 
@@ -102,6 +102,9 @@ Si vous sélectionnez **les options du menu** Lecture, vous pouvez choisir de li
 ![Capture d’écran des options de touches de numérotation.](media/auto-attendant-call-flow-menu-options-complete.png)
 
 Pour les options de numérotation, affectez les touches 0-9 du clavier téléphonique à l’une des destinations de routage des appels. (Touches \* (astérisque) et (livre) sont réservés par le système et ne \# peuvent pas être réasignés. Appuyez sur l’une de ces touches pour répéter le menu actuel.)
+
+> [!NOTE]
+> La touche # ne fait que revenir au dernier moyen de service automatique. Une fois la limite franchie vers un nouveau attendant automatique, la touche # ne vous permettra pas d’aller au précédent.
 
 Les mappages de clés ne doivent pas être continus. Il est possible de créer un menu avec les touches 0, 1 et 3 mappées aux options, sans utiliser la touche numéro 2.
 
@@ -271,7 +274,7 @@ Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suiva
 
 3. Les tests identifient les configurations de compte de client, de stratégie ou de ressource qui empêchent le attendant automatique de recevoir des appels et fournissent des étapes pour résoudre les problèmes identifiés.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Voici ce que vous obtenez avec Teams Téléphone](./here-s-what-you-get-with-phone-system.md)
 

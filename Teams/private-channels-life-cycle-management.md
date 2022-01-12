@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment gérer les canaux privés dans votre organisation à l’aide de Graph API.
-ms.openlocfilehash: a2cb9b45afb005c837b260ac3da22c250d16c758
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 25065401216a29e28e0d4aa3f1ad02d071215188
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615320"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766377"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gérer le cycle de vie des canaux privés dans Microsoft Teams
 
-Vous y trouverez les conseils dont vous avez besoin pour gérer l’utilisation de l’API Graph pour gérer Teams [canaux](./private-channels.md) privés dans votre organisation.
+Vous y trouverez les conseils dont vous avez besoin pour utiliser l’API Graph pour gérer Teams [canaux](./private-channels.md) privés dans votre organisation.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Définir si les membres de l’équipe peuvent créer des canaux privés
 
@@ -52,7 +52,7 @@ POST /teams/{id}/channels
   "displayName": "<Channel_Name>",
   "members":[{    
            "@odata.type":"#microsoft.graph.aadUserConversationMember",
-           "user@odata.bind":"https://graph.microsoft.com/beta/users('<user_id>')",
+           "user@odata.bind":"https://graph.microsoft.com/users('<user_id>')",
            "roles":["owner"]
             }]
 ```
@@ -79,7 +79,7 @@ Vous pouvez essayer ces commandes via l’[Afficheur Graph](https://developer.m
     **Demande**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels?$filter=membershipType eq 'private'
+    GET https://graph.microsoft.com/teams/<group_id>/channels?$filter=membershipType eq 'private'
     ```
 
     **Response**
@@ -109,7 +109,7 @@ Vous pouvez essayer ces commandes via l’[Afficheur Graph](https://developer.m
     **Demande**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
+    GET https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/filesFolder
     ```
 
     **Response**
@@ -147,7 +147,7 @@ Vous pouvez essayer ces commandes via l’[Afficheur Graph](https://developer.m
     **Demande**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
+    GET https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/members
     ```
 
     **Response**
@@ -156,7 +156,7 @@ Vous pouvez essayer ces commandes via l’[Afficheur Graph](https://developer.m
     HTTP/1.1 200 OK Content-type: application/json
     Content-length: 
     {
-          "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams({group_id}')/channels('{channel_id}')/members",
+          "@odata.context": "https://graph.microsoft.com/$metadata#teams({group_id}')/channels('{channel_id}')/members",
           "@odata.count": 2,
           "value": [
               {
@@ -185,7 +185,7 @@ Vous pouvez essayer ces commandes via l’[Afficheur Graph](https://developer.m
 
     ```Graph API
     PATCH 
-    https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
+    https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/members/<id>
       
     {
     "@odata.type": "#microsoft.graph.aadUserConversationMember",
@@ -200,7 +200,7 @@ Vous pouvez essayer ces commandes via l’[Afficheur Graph](https://developer.m
     Content-type: application/json
 
     {
-      "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
+      "@odata.context": "https://graph.microsoft.com/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
       "@odata.type": "#microsoft.graph.aadUserConversationMember",
       "id": "id-value",
       "roles": ["owner"],

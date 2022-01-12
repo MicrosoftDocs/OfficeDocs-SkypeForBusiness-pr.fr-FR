@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Lisez cette rubrique pour plus d’informations sur le déploiement d Salles Microsoft Teams dans un environnement hybride avec des Exchange en local.
-ms.openlocfilehash: 15936a805e45ce17ec35822bb02980b4d47499b8
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+ms.openlocfilehash: ea05ef6b6bf6e13ee907d84d1d48200c0cea5a09
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355613"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767227"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises-hybrid"></a>Déployer Salles Microsoft Teams avec Exchange local (hybride)
 
@@ -33,39 +33,46 @@ Si votre organisation dispose d’un mélange de services, dont certains sont h�
 ## <a name="requirements"></a>Conditions requises
 
 Avant de déployer Salles Microsoft Teams avec Exchange local, assurez-vous que vous avez satisfait aux exigences. Pour plus d’informations, [voir Salles Microsoft Teams requise.](requirements.md)
-  
-Si vous déployez Salles Microsoft Teams avec Exchange local, vous utiliserez les outils d’administration Active Directory pour ajouter une adresse de messagerie pour votre compte de domaine local. Ce compte sera synchronisé avec les Microsoft 365 ou Office 365. Vous devrez réaliser les opérations suivantes :
-  
-- Créez un compte et synchronisez-le avec Azure Active Directory.
-
-- Activation de la boîte aux lettres distante et définition des propriétés
-
-- Affectez une Microsoft 365 ou une Office 365 licence.
-
-### <a name="create-an-account-and-synchronize-with-azure-active-directory"></a>Créer un compte et le synchroniser avec Azure Active Directory
-
-1. Dans l’outil Utilisateurs et ordinateurs **Active Directory,** cliquez avec le bouton droit sur le dossier ou l’unité de l’organisation dans qui vos comptes Salles Microsoft Teams seront créés, cliquez sur **Nouveau,** puis sur **Utilisateur.**
-
-2. Tapez le nom complet dans la **zone Nom complet** et l’alias dans la zone Nom de **l’utilisateur.** Cliquez sur **Suivant**.
-
-3. Saisissez le mot de passe de ce compte. Vous devrez le saisir à nouveau à des fins de vérification. Vérifiez que seule l’option **Le mot de passe n’expire jamais** est sélectionnée.
-
-    > [!NOTE]
-    > La sélection **du mot de passe n’expire** jamais est une obligation pour Salles Microsoft Teams. Il est possible que des règles de votre domaine interdisent la non-expiration des mots de passe. Si c’est le cas, vous devez créer une exception pour chaque Salles Microsoft Teams compte.
-  
-4. Une fois le compte créé, exécutez une synchronisation de répertoire. Une fois l’opération terminée, allez à la page utilisateurs de votre Centre d'administration Microsoft 365 et vérifiez que le compte créé lors des étapes précédentes a été synchronisé avec en ligne.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Activation de la boîte aux lettres distante et définition des propriétés
 
 1. [Ouvrez Exchange Management Shell ou](/powershell/exchange/exchange-server/open-the-exchange-management-shell) connectez-vous à votre serveur Exchange à [l’aide de Remote PowerShell.](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
 
-2. Dans Exchange PowerShell, créez une boîte aux lettres pour le compte (activez ce compte) en exécutant la commande suivante :
+2. Dans Exchange PowerShell, créez une boîte aux lettres de salle ou modifiez une boîte aux lettres de salle existante. Par défaut, les boîtes aux lettres de salle n’ayant pas de comptes associés, vous devez ajouter un compte lorsque vous créez ou modifiez une boîte aux lettres de salle qui lui permet de s’authentifier auprès d’Microsoft Teams.
 
-   ```PowerShell
-   Enable-Mailbox ConferenceRoom01@contoso.com -Room
-   ```
+   - Pour créer une boîte aux lettres de salle, utilisez la syntaxe suivante :
 
-   Pour plus d’informations sur la syntaxe et les paramètres, [voir Enable-Mailbox.](/powershell/module/exchange/mailboxes/enable-mailbox)
+     ``` PowerShell
+     New-Mailbox -UserPrincipalName <UPN> -Name <String> -Alias <String> -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+     ```
+     
+     Cet exemple crée une boîte aux lettres de salle avec les paramètres suivants :
+
+     - Compte : ConferenceRoom01@contoso.com
+  
+     - Nom : ConferenceRoom01
+
+     - Alias : ConferenceRoom01
+
+     - Mot de passe de compte : P@$$W 0rd5959
+
+     ``` PowerShell
+     New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
+     ```
+
+   - Pour modifier une boîte aux lettres de salle existante, utilisez la syntaxe suivante :
+
+     ``` PowerShell
+     Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+     ```
+
+     Cet exemple active le compte de la boîte aux lettres de salle existante qui possède la valeur d’alias ConferenceRoom02 et définit le mot de passe sur 9898P@$$W 0rd. Notez que le compte sera ConferenceRoom02@contoso.com en raison de la valeur d’alias existante.
+
+     ``` PowerShell
+     Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
+     ```
+
+   Pour plus d’informations sur la syntaxe et les paramètres, voir [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) et [Set-Mailbox.](/powershell/module/exchange/mailboxes/set-mailbox)
 
 3. Dans Exchange PowerShell, configurez les paramètres suivants sur la boîte aux lettres de salle pour améliorer l’expérience de réunion :
 
@@ -91,6 +98,15 @@ Si vous déployez Salles Microsoft Teams avec Exchange local, vous utiliserez le
 
    Pour plus d’informations sur la syntaxe et les paramètres, [voir Set-CalendarProcessing.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
 
+### <a name="set-password-to-never-expire"></a>Définir un mot de passe pour qu’il n’expire jamais
+
+1. Dans **l’outil Utilisateurs** et ordinateurs Active Directory, recherchez le compte de Salles Microsoft Teams, cliquez dessus avec le bouton droit, puis sélectionnez **Propriétés.**
+
+2. Cochez la **case Mot de passe n’expire** jamais, puis cliquez sur **OK.**
+
+   > [!NOTE]
+   > La sélection **du mot de passe n’expire** jamais est une obligation pour Salles Microsoft Teams. Il est possible que des règles de votre domaine interdisent la non-expiration des mots de passe. Si c’est le cas, vous devez créer une exception pour chaque Salles Microsoft Teams compte.
+
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>Affecter une licence Microsoft 365 licence Office 365 licence
 
 1. Connecter à Azure Active Directory. Pour plus d’Azure Active Directory, voir [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
@@ -100,29 +116,33 @@ Si vous déployez Salles Microsoft Teams avec Exchange local, vous utiliserez le
 
 2. Le compte de ressource doit avoir une licence Microsoft 365 ou Office 365 valide, ou Exchange et Microsoft Teams ne fonctionneront pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte de ressource. Cela détermine les S SKD de licence disponibles pour votre compte. Vous pouvez utiliser `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des S SKUs disponibles.
 
-<!--   ``` Powershell
+   ```Powershell
+   Get-MsolAccountSku
+   ```
+
+   <!--
+   ```Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
-   ``` -->
-
-3. Ensuite, vous pouvez ajouter une licence à l’aide du `Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> cmdlet. Dans ce cas, $strLicense est le code de SKU qui s’affiche (par exemple, contoso:STANDARDPACK).
-
-  ``` PowerShell
-  Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
-  Get-MsolAccountSku
-  Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses $strLicense
-  ```
-
-<!--   ``` Powershell
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
-   Get-AzureADSubscribedSku
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```  -->
+
+3. Ensuite, vous pouvez ajouter une licence à l’aide du `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. Cet exemple ajoute la licence Salle de réunion compte :
+
+   ```PowerShell
+   Set-MsolUser -UserPrincipalName "ConferenceRoom01@contoso.com" -UsageLocation "US"
+   Set-MsolUserLicense -UserPrincipalName "ConferenceRoom01@contoso.com" -AddLicenses "Contoso:MEETING_ROOM"
+   ```
+
+   <!-- 
+   ```Powershell
+   Set-AzureADUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
+   Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
+   ```   -->
 
    Pour obtenir des instructions détaillées, voir Attribuer des licences à des comptes [d’utilisateurs Office 365 PowerShell.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 Pour validation, vous pouvez utiliser n’importe quel client pour vous connecter à ce compte.
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Configurer des comptes pour Salles Microsoft Teams](rooms-configure-accounts.md)
 
