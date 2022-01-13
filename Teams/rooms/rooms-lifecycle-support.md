@@ -14,12 +14,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: Découvrez la prise en charge du cycle de Salles Microsoft Teams, notamment la structure de support dynamique et ses phases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0857f7122c4cc03b1398d52682ba33739ea6c4d5
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: a04a98fa4a3d0b876b6abafff248916cb7e1443f
+ms.sourcegitcommit: 45756a51857ed1d8714175d2b715c388e2f0db81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306189"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62027567"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Salles Microsoft Teams prise en charge de la version de l’application
  
@@ -49,6 +49,7 @@ Le tableau suivant indique les versions recommandées et pris en charge des Wind
 
 |Version  |Date de disponibilité   |Salles Microsoft Teams d’assistance technique   |Salles Microsoft Teams version minimale de l’application | Build du système d’exploitation recommandé  |
 |:---  |:---       |:---                                  |:---     |:---     |
+| 21H1 |2021-05-18 |Non pris en charge                         |&#x2014; |&#x2014; |
 | 20H2 |2020-10-20 |Pris en charge, <br/>Recommandation|4.10.10.0 |19042.631 |
 | 2004 |2020-05-27 |Ignoré, <br/> Non recommandé &#x2780;|&#x2014; |&#x2014; |
 | 1909 |2019-11-12 |Pris en charge |4.5.33.0 |18363.418  |
@@ -65,7 +66,7 @@ Le tableau suivant indique les versions recommandées et pris en charge des Wind
 Lorsque vous utilisez une version prise en charge de Windows 10, vous obtenez toujours les dernières mises à jour des applications pour l Salles Microsoft Teams appeil.  
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Aide Microsoft Teams Rooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

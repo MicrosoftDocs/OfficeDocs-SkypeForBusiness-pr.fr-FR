@@ -15,18 +15,27 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 30a9017417e6c4d50745fe1ec1bf492d65dc6b81
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9142434cc467da1e8ae5154dc8083b648d3247ad
+ms.sourcegitcommit: 45756a51857ed1d8714175d2b715c388e2f0db81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858781"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62027577"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Développer Microsoft Teams au sein de votre organisation
 
 Ces ressources s’appuient sur les conseils Teams déploiement standard et sont conçues pour vous aider à obtenir le meilleur Teams de types d’organisations spécifiques. Si vous n’avez pas encore Teams, consultez le chemin d’accès recommandé à Teams la manière de [déployer](../deploy-overview.md)Microsoft Teams.
 
-|&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;| 
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| ![task-checklist-planning-teams.](../media/clock-teams-small.svg)  |  [Shifts pour Teams](./shifts-for-teams-landing-page.md) |![health-teams](../media/health-teams-small.svg)  | [Teams pour la santé publique](./teams-for-healthcare-landing-page.md) |![education-tutorial-teams](../media/education-tutorial-teams-small.svg) |  [Teams pour l’éducation](./teams-for-education-landing-page.md) 
-|![small-business-teams.](../media/small-business-teams-small.svg)  | [Teams pour les organismes de vente au détail](./teams-for-retail-landing-page.md) |![blocks-teams](../media/blocks-teams-small.svg)  | [Teams pour le secteur public](./teams-for-government-landing-page.md) |               |               |
+Découvrez ce que vous pouvez faire avec Teams pour :
+
+- [Éducation](./teams-for-education-landing-page.md)
+- [Employés en ligne](../flw-landing-page.md)
+- [Administration](./teams-for-government-landing-page.md)
+- [Soins de santé](./teams-for-healthcare-landing-page.md)
+- [Association à but non lucratif](./teams-for-nonprofit-landing-page.md)
+- [Vente au détail](./teams-for-retail-landing-page.md)
+
+Vous pouvez également en savoir plus sur les applications disponibles pour tous les secteurs :
+
+- [Shifts pour Teams](./shifts-for-teams-landing-page.md)
+- [Bookings dans Teams](../bookings-app-admin.md)
