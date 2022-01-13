@@ -17,12 +17,12 @@ description: Découvrez ce que vous devez faire lorsque vous devez effectuer une
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ca4e85be70ce85d8e35c743275c9f3689061bcda
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: c1d45ea392048e0152f6433c6434db641d8530e4
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331125"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61993088"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -129,19 +129,28 @@ Avant d’effectuer ces étapes, installez [SharePoint Online Management Shell e
 
 Avant d’effectuer ces étapes, assurez-vous que vous avez installé la [dernière version Teams module PowerShell.](teams-powershell-overview.md)
 
-1. Exécutez la commande suivante pour obtenir la liste des canaux privés de l’équipe.
+1. Exécutez la commande suivante pour obtenir l’ID de groupe de l’équipe qui contient les canaux privés que vous souhaitez rechercher.
+
+   ```powershell
+   Get-Team -MailNickName <mail alias of the associated Office 365 Group>
+   ```
+
+   > [!TIP]
+   > Exécutez **la cmdlet Get-Team** sans aucun paramètre pour afficher la liste des Teams dans votre organisation. La liste contient l’ID de groupe et MailNickName pour chaque équipe.
+
+2. Exécutez la commande suivante pour obtenir la liste des canaux privés de l’équipe. Utilisez l’ID de groupe pour l’équipe obtenue à l’étape 1.
 
     ```PowerShell
-    Get-TeamChannel -GroupId <GroupID> -MembershipType Private
+    Get-TeamChannel -GroupId <GroupId> -MembershipType Private
     ```
 
-2. Exécutez la commande suivante pour obtenir la liste des membres d’un canal privé.
+3. Exécutez la commande suivante pour obtenir la liste des propriétaires et membres d’un canal privé.
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
+    Get-TeamChannelUser -GroupId <GroupId> -DisplayName "Engineering" 
     ```
 
-3. Incluez les boîtes aux lettres de tous les membres de chaque canal privé de l’équipe dans votre requête de recherche [eDiscovery.](/microsoft-365/compliance/search-for-content-in-core-ediscovery)
+4. Incluez les boîtes aux lettres de tous les propriétaires et membres de chaque canal privé dans l’équipe dans votre requête de recherche [eDiscovery.](/microsoft-365/compliance/search-for-content-in-core-ediscovery)
 
 ## <a name="search-for-content-for-guest-users"></a>Rechercher du contenu pour les utilisateurs invités
 
@@ -215,7 +224,7 @@ Lorsque vous affichez le contenu d’une carte dans les résultats de la recherc
 > [!NOTE]
 > Pour afficher des images à partir du contenu de la carte dans les résultats de recherche à ce moment-là (par exemple, les cocher dans la capture d’écran précédente), vous devez être inscrit à Teams (dans un autre onglet au cours de la session de navigateur que vous utilisez pour afficher les résultats de la https://teams.microsoft.com) recherche. Dans le cas contraire, les espaces pour images s’affichent.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Microsoft 365 solutions eDiscovery](/microsoft-365/compliance/ediscovery)
 - [Commencer à travailler avec core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)

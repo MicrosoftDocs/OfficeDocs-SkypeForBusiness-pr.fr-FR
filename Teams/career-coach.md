@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 114bc83039c42170bcc20d24419f840b3b3d339b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a6ee69306faed71524742fab46c30c9e8523d8ff
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849577"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61992998"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Acheter, configurer et activer des Conseiller d'orientation pour Microsoft Teams
 
@@ -85,9 +85,11 @@ Pour activer Conseiller d'orientation de votre établissement d’enseignement, 
 
 - LinkedIn Learning campus (préféré).
 
-## <a name="purchase-the-career-coach-licenses"></a>Acheter les licences Conseiller d'orientation licences d’utilisation
+## <a name="purchase-the-career-coach-licenses"></a>Acheter les licences Conseiller d'orientation licences de licence
 
-Conseiller d'orientation est disponible dans le monde entier (à l’exception de la Chine et de la Russie) pour les établissements d’enseignement supérieur qualifiés sous la forme d’une licence de module add-on via Enrollment for Education Solutions (EES), les fournisseurs de services Cloud (CSP) et Centre d'administration Microsoft 365 (web direct). En tant qu’Microsoft Teams, les clients doivent avoir Microsoft 365 A3/A5 ou Office 365 A1/A3/A5 pour acheter la licence de Conseiller d'orientation logiciels.
+Conseiller d'orientation est disponible dans le monde entier (à l’exception de la Chine et de la Russie) pour les établissements d’enseignement supérieur qualifiés sous la forme d’une licence de module add-on via Enrollment for Education Solutions (EES), les fournisseurs de services Cloud (CSP) et Centre d'administration Microsoft 365 (web direct). En tant qu’application Microsoft Teams, le client doit avoir Microsoft 365 A3/A5 ou Office 365 A1/A3/A5 pour acheter la licence Conseiller d'orientation client. Des licences distinctes sont proposées aux étudiants, aux enseignants et aux utilisateurs du personnel.
+
+Un essai gratuit standard de 90 jours est disponible pour 25 étudiants et 25 licences enseignant/personnel. Les licences d’essai peuvent être activées à partir Centre d'administration Microsoft 365 par des locataires qualifiés pour acheter des licences Conseiller d'orientation.
 
 ### <a name="assign-app-licenses-to-users"></a>Attribuer des licences d’application aux utilisateurs
 
@@ -206,7 +208,7 @@ La configuration de LinkedIn se connecte Conseiller d'orientation aux données p
 > [!IMPORTANT]
 > La vérification doit être effectuée par l’administrateur de la page LinkedIn de votre établissement d’enseignement.
 
-1. Si elle a été envoyée correctement, la page est mise à jour pour afficher le lien de vérification **et** **l’expiration du lien de vérification.** Le lien de vérification expire après 30 jours.
+1. Si l’soumis est correctement envoyé, la page est mise à jour pour afficher le lien de vérification **et** la **date d’expiration du lien de vérification.** Le lien de vérification expire après 30 jours.
 
    ![linkedin connections pour l’application Career coach.](media/career-coach-linked-in.png)  
 
@@ -229,7 +231,7 @@ Ces cours sont utilisés au sein de l’application dans deux domaines :
 
 - Les données méta des cours et des cours, telles que les descriptions, permettent aux étudiants d’identifier leurs compétences lorsqu’ils téléchargent une transcription.  
 
-Pour créer le catalogue de cours, créez une liste de tous les cours appris dans votre établissement d’enseignement et téléchargez-le dans un fichier CSV. L’application dessine à partir du catalogue de cours pour identifier les compétences d’un étudiant à partir de sa transcription et pour suggérer des cours à prendre.
+Pour créer le catalogue de cours, créez une liste de tous les cours appris dans votre établissement d’enseignement et téléchargez-le dans un fichier CSV. L’application est dessine à partir du catalogue de cours pour identifier les compétences d’un étudiant à partir de sa transcription et pour suggérer des cours à prendre.
 
 #### <a name="add-the-course-catalog"></a>Ajouter le catalogue de cours
 
@@ -237,7 +239,7 @@ Pour créer le catalogue de cours, créez une liste de tous les cours appris dan
 
 1. Sélectionnez **Teams applications Gérer les** applications &gt; **[](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Conseiller d'orientation** &gt; **Paramètres** &gt; **catalogue de cours.**  
 
-2. Télécharger cours au format CSV avec les colonnes requises : courseId, titre et sourceLink. Chaque ligne doit inclure des données pour chacune des colonnes requises. _L’inclure dans les champs recommandés améliore l’expérience pour les étudiants en renvoyant de meilleurs résultats de recherche et une identification de compétence._
+2. Télécharger cours au format CSV avec les colonnes requises : courseId, titre et sourceLink. Chaque ligne doit inclure des données pour chacune des colonnes requises. _L’inclure dans les champs recommandés améliore l’expérience pour les étudiants en renvoyant de meilleurs résultats de recherche et une identification des compétences._
 
 4. Sélectionnez **Envoyer.**
 
@@ -248,7 +250,7 @@ Pour créer le catalogue de cours, créez une liste de tous les cours appris dan
 Le document doit être au format CSV avec une taille maximale de 18 Mo. Le document doit contenir le titre du **cours,** **l’ID** du cours et **l’URL du cours requis.** 
 
 > [!TIP]
-> Commencez avec l’exemple de document [de catalogue de cours]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) pour garantir une mise en forme appropriée. _L’inclure dans les champs recommandés améliore l’expérience pour les étudiants en renvoyant de meilleurs résultats de recherche et une identification de compétence._
+> Commencez avec l’exemple de document [de catalogue de cours]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) pour garantir une mise en forme appropriée. _L’inclure dans les champs recommandés améliore l’expérience pour les étudiants en renvoyant de meilleurs résultats de recherche et une identification des compétences._
 
 Le tableau suivant répertorie les éléments à inclure dans le catalogue des cours :
 
@@ -262,7 +264,7 @@ Le tableau suivant répertorie les éléments à inclure dans le catalogue des c
 | format           | Recommandation | chaîne | Mode d’enseignement (en ligne, vidéo, en personne).                                   |
 | thumbnailLink    | Recommandation | URL    | Lien miniature vers l’image du cours.                                            |
 | thumbnailAltText | Recommandation | chaîne | Texte de alt sur l’accessibilité de l’image                                           |
-| educationLevel   | Recommandation | chaîne | Niveau d’étude, par exemple. Cycle/diplômé.                                       |
+| educationLevel   | Recommandation | chaîne | Niveau étude, par exemple. Cycle/diplômé.                                       |
 | rubriques           | Recommandation | chaîne | Rubriques ou balises associées aux compétences apprises dans les cours.          |
 
 ### <a name="fields-of-study"></a>Champs d’étude
@@ -275,7 +277,7 @@ Les champs d’étude sont synonymes de domaines d’intérêt majeurs, de dipl�
 #### <a name="add-the-fields-of-study"></a>Ajouter les champs d’étude
 
 1. Connectez-vous au **[Teams d’administration.](https://admin.teams.microsoft.com)**
-1. Sélectionnez **Teams applications Gérer** &gt; **[les](https://admin.teams.microsoft.com/policies/manage-apps)** applications &gt; **Conseiller d'orientation** &gt; **Paramètres** &gt; **d’étude.**  
+1. Sélectionnez **Teams applications Gérer** les applications &gt; **[](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Conseiller d'orientation** &gt; **Paramètres** &gt; **d’étude.**  
 
 2. Télécharger d’étude au format CSV.
 
@@ -296,13 +298,13 @@ Le tableau suivant indique les éléments à inclure dans les champs d’étude 
 
 ### <a name="customization"></a>Personnalisation
 
-Conseiller d'orientation pouvez personnaliser pour être unique dans votre établissement d’enseignement. La personnalisation prend en charge l’ajout d’expériences au tableau de bord. Il est recommandé d’ajouter des liens vers des offres d’emploi, des événements, des services de carrière, des événements professionnels, des clubs d’étudiants et d’autres ressources qui permettent aux étudiants d’acquérir une expérience réelle.
+Conseiller d'orientation peuvent être personnalisés pour être uniques à votre établissement d’enseignement. La personnalisation prend en charge l’ajout d’expériences au tableau de bord. Il est recommandé d’ajouter des liens vers des offres d’emploi, des événements, des services de carrière, des événements professionnels, des clubs d’étudiants et d’autres ressources qui permettent aux étudiants d’acquérir une expérience réelle.
 
 #### <a name="add-customized-experiences"></a>Ajouter des expériences personnalisées
 
 1. Connectez-vous au **[Teams d’administration.](https://admin.teams.microsoft.com)**
 
-1. Sélectionnez **Teams applications Gérer** les applications &gt; **[](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Conseiller d'orientation**  >  **Paramètres** &gt; **personnalisation.**
+1. Sélectionnez **Teams applications Gérer les** applications &gt; **[](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Conseiller d'orientation**  >  **Paramètres** &gt; **personnalisation.**
 
 2. Ajoutez un titre, une URL et une courte description.  
   
@@ -340,7 +342,7 @@ Si vous ne savez pas quelle stratégie utiliser, consultez la documentation [](/
 
 3. Sous Applications installées, **sélectionnez Ajouter des applications.**
 
-4. Dans le volet Ajouter des applications installées, recherchez les applications que vous voulez installer automatiquement pour les utilisateurs lorsqu’ils démarrent Teams. Vous pouvez également filtrer les applications par stratégie d’autorisation d’application. Une fois que vous avez choisi votre liste d’applications, sélectionnez **Ajouter.**
+4. Dans le volet Ajouter des applications installées, recherchez les applications que vous voulez installer automatiquement pour les utilisateurs lorsqu’ils démarrent Teams. Vous pouvez également filtrer les applications par stratégie d’autorisation d’application. Lorsque vous avez choisi votre liste d’applications, sélectionnez **Ajouter.**
 
 5. Sélectionnez **Enregistrer**.
 
@@ -367,16 +369,65 @@ Si vous ne savez pas quelle stratégie utiliser, consultez la documentation [](/
 
 Pour plus [d’informations,](/microsoftteams/teams-app-setup-policies) référez-vous à Gérer les stratégies de configuration d’application dans Microsoft.
 
+## <a name="career-coach-settings-status"></a>Conseiller d'orientation d’état des paramètres
+
+La page Conseiller d'orientation paramètres de messagerie dans le Centre d’administration Teams fournit un rapport d’état sur les étapes incomplètes, en attente, terminées et échouées dans le cadre de la configuration de l’application. Ces statuts peuvent vous aider à déterminer si Conseiller d'orientation est correctement configuré et prêt à être publié pour votre client.
+
+### <a name="configuration-status"></a>État de la configuration
+
+La section État de configuration de la page des paramètres de l’application affiche l’état actuel.
+
+![section statut de configuration de l’application Career Coach.](media/career-coach-config-status.png)
+
+| Catégorie              | État                    | Description                                                 |
+| --------------------- | ------------------------- | ----------------------------------------------------------- |
+| Mise en service  | Pending                   | Une application est en cours d’ajout au client. Aucune action supplémentaire n’est requise. |
+| Mise en service  | Terminé                  | Prêt pour que l’administrateur informatique envoie les paramètres.                      |
+| Marque et préférences | Non démarré               | Paramètres à soumettre.                              |
+| Marque et préférences | Champs _obligatoires manquants_ | L’administrateur informatique doit ajouter ou charger les champs manquants.         |
+| Marque et préférences | Terminé                  | Aucune action supplémentaire n’est requise.                                   |
+| Catalogue de cours        | Non démarré               | Le catalogue doit être envoyé.                              |
+| Catalogue de cours        | Incomplet                | Vérifiez le statut d’ingestion pour plus d’informations sur la façon de résoudre le problème.   |
+| Catalogue de cours        | Terminé                  | Aucune action supplémentaire n’est requise.                                   |
+| Connexion LinkedIn   | Non démarré               | L’URL de la page de l’établissement LinkedIn doit être envoyée.             |
+| Connexion LinkedIn   | Pending                   | En attente d’approbation de la page d’administration de l’établissement LinkedIn.               |
+| Connexion LinkedIn   | Terminé                  | Aucune action supplémentaire n’est requise.                                   |
+| Champs d’étude       | Non démarré               | Le document doit être envoyé.                             |
+| Champs d’étude       | Terminé                  | Aucune action supplémentaire n’est requise.                                   |
+
+> [!NOTE]
+> Une fois toutes les étapes marquées comme terminées, l’application peut être publiée avec succès sur votre client et attribuer Conseiller d'orientation licences. Pour obtenir des instructions détaillées, voir [Attribuer des licences aux utilisateurs.](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+
+### <a name="course-catalog-status"></a>État du catalogue de cours
+
+L’état du catalogue de cours est affiché sur la page des paramètres du catalogue de cours une fois qu’un document a été téléchargé, en fournissant des détails sur le chargement et le traitement du document.
+
+
+![Le catalogue de cours télécharge le statut de l’application Coach de carrière.](media/career-coach-course-catalog-status.png)
+
+| Colonne           | Valeur     | Description%                                                                                        |
+| ---------------- | --------- | -------------------------------------------------------------------------------------------------- |
+| Heure de chargement    | Timestamp (Timestamp) | Date et heure à laquelle un administrateur informatique a téléchargé un document.                                                     |
+| Temps de fin   | Timestamp (Timestamp) | Date et heure de traitement complet du document.                                               |
+| Cours téléchargés | Entier   | Nombre de cours trouvés dans le document.                                                           |
+| Statut d’ingestion | Pending   | Document dans la file d’attente pour traitement.                                                                  |
+| Statut d’ingestion | En cours d’exécution   | Le document est en cours de traitement. Ce processus peut prendre jusqu’à 60 minutes.                        |
+| Statut d’ingestion | Opération réussie   | Le processus d’ingestion est terminé et les cours sont proposés dans l’application une fois configurée. |
+| Statut d’ingestion | Échec    | Vérifiez le format du document et rechargez- le.                                                            |
+| Doublons       | Entier   | Nombre de cours en double trouvés dans le document.                                                 |
+
+> [!NOTE]
+> Si une colonne est vide, le document est en cours de traitement et ces valeurs ne sont pas disponibles. Une fois le document traitée, les valeurs sont remplies. Vous pouvez actualiser la page pour vérifier la recherche de mises à jour.
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
 - Si le terme « Conseiller d'orientation est en cours de mise en Conseiller d'orientation est en cours de mise en service » dans l’application Conseiller d'orientation, cela indique que les __sections requises n’ont pas été terminées.__ Les __sections suivantes__ doivent être complètes avant l’Conseiller d'orientation utilisée : Marque et [préférences,](#brand-and-preferences)Connexion [LinkedIn,](#linkedin-connection)Catalogue de cours [et](#course-catalog)Champs [d’étude.](#fields-of-study)
 
-- Les formats CSV pour le catalogue de cours et le champ d’étude ont les formats requis et une taille maximale de 18 Mo. Référencez le Conseiller d'orientation de document du [catalogue](#course-catalog-document-format-and-schema) de cours Conseiller d'orientation champs du schéma [de document](#fields-of-study-document-format-and-schema) d’étude pour garantir une configuration appropriée.
+- Les formats CSV pour le catalogue de cours et le champ d’étude ont les formats requis et une taille maximale de 18 Mo. Référencez le Conseiller d'orientation de document du [catalogue](#course-catalog-document-format-and-schema) de cours Conseiller d'orientation champs du schéma de [document](#fields-of-study-document-format-and-schema) d’étude pour garantir une configuration appropriée.
 
 - Sur les pages de paramètres avec des champs obligatoires, si les champs ne sont pas achevés, la page ne sera pas soumission. Vous ne verrez pas de message d’avertissement. la page ne sera tout simplement pas envoyer.
 
-- Lors de la première configuration Conseiller d'orientation, une bannière d’erreur peut apparaître indiquant « Nous ne pouvons pas mettre à jour les paramètres de l’application. Essayez à nouveau. » Cela est probablement dû à la mise en service par le client de Conseiller d'orientation’application, qui peut prendre jusqu’à 15 minutes. Dans ce cas, attendez 15 minutes avant de soumettre de nouveau.
+- Lors de la première configuration Conseiller d'orientation, une bannière d’erreur peut apparaître indiquant « Nous ne pouvons pas mettre à jour les paramètres de l’application. Essayez à nouveau. » Cela est probablement dû à la mise en service du client par Conseiller d'orientation’application, qui peut prendre jusqu’à 15 minutes. Dans ce cas, attendez 15 minutes avant de soumettre de nouveau.
 
 - Si l’Conseiller d'orientation n’est pas Microsoft Teams, les modifications de stratégie peuvent ne pas être entrées en vigueur. La mise à jour des modifications de stratégie peut prendre quelques heures. L Conseiller d'orientation appappe de messagerie ne sera pas disponible dans Microsoft Teams tant que les modifications ne seront pas terminées.
 
@@ -390,7 +441,7 @@ La procédure suivante explique le processus de suppression :
 
 - Une fois classé, le ticket de support sera traité après une semaine pour répondre à la stratégie de rétention minimale de conformité. Vous pouvez annuler l’opération pendant cette période.
 
-- Après une semaine, l’équipe Conseiller d'orientation s’assure que toutes les données liées au client sont supprimées. Le support microsoft surveille le ticket et vous avertira une fois le processus de suppression terminé, dans un total de **30 jours.**
+- Après une semaine, l’équipe Conseiller d'orientation s’assure que toutes les données liées au client sont supprimées. Le support microsoft surveille le ticket et vous avertira une fois le processus de suppression terminé, dans un **pas plus de 30 jours.**
 
 
 ## <a name="resources"></a>Ressources

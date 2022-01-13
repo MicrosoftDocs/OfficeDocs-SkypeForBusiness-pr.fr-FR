@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25508b3224ab7eab28157cbff268bb6b164686d5
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 97f8994ecc5c7aef610e040f30b43803f03c6844
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563651"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61993190"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Utilisez l’Assistant Intégration des employés en avant-première pour rendre votre personnel en avant-première opérationnel
 
@@ -34,8 +34,12 @@ Actuellement, l’Assistant prend en charge l’ajout de 100 utilisateurs à cha
 
 L’Assistant est disponible pour toutes les organisations qui ont au moins une [licence F.](https://www.microsoft.com/microsoft-365/enterprise/frontline) Vous pouvez exécuter l’Assistant autant de fois que nécessaire pour déployer Teams employés en avant-première dans différents emplacements ou sites de votre organisation.
 
+Regardez cette courte vidéo pour avoir un aperçu de la façon d’exécuter l’Assistant pour intégrer votre personnel en ligne.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN6oh]
+
 > [!NOTE]
-> Cet Assistant vous permet d’intégrer rapidement vos employés en ligne Teams employés de Centre d'administration Microsoft 365. Pour plus d’informations sur la manière Teams de déployer des employés en avant-plan à l’aide de scripts, voir Comment mettre en service des Teams à l’échelle des employés [en](flw-scripted-deployment.md)première ligne.
+> Cet Assistant vous permet d’intégrer rapidement votre personnel en avant-première Teams les employés de Centre d'administration Microsoft 365. Pour plus d’informations sur la manière dont vous Teams employés de première ligne à l’aide de scripts, voir Comment mettre en service des Teams à l’échelle des employés [en](flw-scripted-deployment.md)première ligne.
 
 > [!NOTE]
 > L’Assistant ne prend pas encore en charge [les étiquettes de](sensitivity-labels.md) sensibilité. Si votre organisation a besoin d’étiquettes de sensibilité pour créer une équipe, l’Assistant n’est pas Centre d'administration Microsoft 365.
@@ -72,7 +76,7 @@ L’Assistant est disponible pour toutes les organisations qui ont au moins une 
 
     :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="Capture d’écran de la page De révision de l’équipe de l’Assistant dans laquelle vous examinez les paramètres de votre équipe" lightbox="media/flw-onboarding-wizard-review-team.png":::
 
-    L’Assistant crée votre équipe et attribue des licences et packages de stratégies aux membres de l’équipe. L’envoi de cette liste peut prendre quelques minutes, après quoi les destinataires que vous avez choisis reçoivent un message de statut.
+    L’Assistant crée votre équipe et attribue des licences et packages de stratégies aux membres de l’équipe. L’envoi de cette liste peut prendre quelques minutes, après quoi les destinataires que vous avez choisis reçoivent un message d’état.
 
 8. Vous êtes en route, mais ce n’est pas encore fait ! Consultez ensuite la section Que faire après avoir [exécutez la](#what-to-do-after-running-the-wizard) section Assistant de cet article.
 

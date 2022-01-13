@@ -20,14 +20,14 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft Teams simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs.
-ms.openlocfilehash: 771b4f2e0e62f9721bcd135e1d01dc4be3ce7285
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: de008f2a662280b173acce6b69157e3b8725798f
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60868493"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61992223"
 ---
-# <a name="manage-policy-packages-in-microsoft-teams"></a>Gérer les packages de stratégie dans Microsoft Teams
+# <a name="manage-policy-packages-for-microsoft-teams"></a>Gérer les packages de stratégie pour Microsoft Teams
 
 Un package de stratégie dans Microsoft Teams est un ensemble de stratégies et de paramètres de stratégie prédéfinis que vous pouvez affecter aux utilisateurs ayant des rôles similaires dans votre organisation. Nous avons créé des packages de stratégies pour simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs au sein de votre organisation.  
 
@@ -38,7 +38,7 @@ Vous pouvez utiliser les [packages de stratégie inclus dans Teams](#policy-pack
 Vous pouvez personnaliser les paramètres des stratégies dans un package de stratégies pour répondre aux besoins de vos utilisateurs. Lorsque vous modifiez les paramètres des stratégies dans un package, tous les utilisateurs affectés à ce package obtiennent les paramètres mis à jour. Vous gérez les packages de stratégie à l’aide Microsoft Teams centre d’administration ou PowerShell.
 
 > [!NOTE]
-> Chaque utilisateur aura besoin du module complémentaire Communications avancées pour recevoir une attribution de package de stratégie personnalisée. Pour plus d’informations, consultez [Module complémentaire Communications avancées pour Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
+> Cette fonctionnalité est temporairement disponible en prévisualisation publique pour tous Microsoft Teams clients. Pour obtenir cette fonctionnalité après la prévisualisation, chaque utilisateur aura besoin de la licence du module ajouter Communications avancées. Pour plus d’informations, consultez [Module complémentaire Communications avancées pour Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## <a name="what-is-a-policy-package"></a>Qu’est-ce qu’un package de stratégie ?
 
@@ -69,8 +69,8 @@ Teams inclut actuellement les packages de stratégie suivants.
 |Professionnel de la santé  |Crée un ensemble de stratégies et de paramètres de stratégies qui offrent aux travailleurs cliniques tels que les infirmières autorisées, les infirmières responsables, les médecins et les travailleurs sociaux un accès complet à la conversation, aux appels, à la gestion des équipes et aux réunions. |
 |Travailleurs de l’information sur le secteur de la santé  |Crée un ensemble de stratégies et de paramètres de stratégie qui donnent aux travailleurs de l’information, par exemple, le personnel de l’information, l’informatique, le personnel financier et les responsables de la mise en conformité, un accès total aux discussions, aux appels et aux réunions.|
 |Salle de soins de santé  |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux salles des patients dans votre organisation de santé.|
-|Petite et moyenne entreprise (Business Voice) |Crée une stratégie de configuration d’application qui inclut les applications pour une expérience vocale professionnelle.|
-|Petite et moyenne entreprise (sans Voix Entreprise) |Crée une stratégie de configuration d’application pertinente pour les petites et moyennes Teams d’utilisateurs (expérience vocale non professionnelle).
+|Utilisateur petite et moyenne entreprise (Teams Téléphone forfait d’appels) |Crée une stratégie de configuration d’application qui inclut les applications pour une Teams Téléphone expérience du plan d’appels.|
+|Petite et moyenne entreprise (sans passer Teams Téléphone’aide d’une forfait d’appels) |Crée une stratégie de configuration d’application pertinente pour les utilisateurs de petite et Teams entreprise (non utilisateurs particulièrement Teams Téléphone expérience du plan d’appels).
 |Responsable de la sécurité publique   |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux responsables de la sécurité publique de votre organisation.|
 
 > [!NOTE]
@@ -140,7 +140,7 @@ Vous pouvez modifier les paramètres d’une stratégie via la page **Packages**
 
 Vous pouvez affecter un package de stratégie à un utilisateur, un groupe ou un lot d’utilisateurs. Pour plus d’informations sur l’attribution de packages de stratégie, voir [Attribuer des packages de stratégie à des utilisateurs et groupes.](assign-policy-packages.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Attribuer des packages de stratégie](assign-policy-packages.md)
 - [Teams packages de stratégie pour les administrateurs EDU](policy-packages-edu.md)

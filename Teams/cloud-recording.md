@@ -19,12 +19,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 37d7c3999986373e7ad72176cfc0182f09144e3a
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 1221747b1ad8487c0b5852b6adaf5129b5a5288e
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205414"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766767"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -267,6 +267,10 @@ La taille d’un enregistrement de 1 heure est de 400 Mo. Veillez à bien compre
 >
 >
 
+En savoir plus sur les modifications spécifiques à l’administrateur [ici.](meeting-expiration.md#changes-to-meeting-expiration)
+
+Découvrez comment les utilisateurs finaux peuvent gérer l’expiration des réunions [ici.](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
+  
 Consultez les questions fréquemment posées aux administrateurs et aux utilisateurs finaux pour recueillir des informations sur le fonctionnement de l’expiration automatique des enregistrements de réunion Teams, les actions que vous pouvez effectuer maintenant et les actions que vous pouvez effectuer après le lancement de la fonctionnalité.
   
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
