@@ -14,16 +14,16 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Découvrez comment configurer l’authentification moderne pour Salles Microsoft Teams
-ms.openlocfilehash: 9f173759ed2b615bdfcae6c54c2c5e431c197d04
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: d38bf63e0ed1dc9e5cb52445fab88e617fda6169
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306299"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015194"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Authentification dans Salles Microsoft Teams
 
-La gestion des comptes Salles Microsoft Teams appareils mobiles est gérée au niveau de l’application. L’application se connecte à Microsoft Teams, Skype Entreprise et Exchange pour obtenir des ressources pour le compte de salle afin d’activer les appels et les expériences de réunion. L’appareil utilise un compte de ressources dédié pour permettre des fonctionnalités toujours opérationnelles, des scénarios d’appel (pour les appareils configurés avec un plan d’appels) et des mécanismes de verrouillage personnalisés implémentés sur ces appareils. Cela signifie que l’authentification pour ces appareils se produit d’une autre façon que pour les appareils des utilisateurs finaux.  
+La gestion des comptes Salles Microsoft Teams est gérée au niveau de l’application. L’application se connecte à Microsoft Teams, Skype Entreprise et Exchange ressources du compte de ressource pour activer les appels et les expériences de réunion. salles Teams utilise un compte de ressources dédié pour permettre des fonctionnalités toujours opérationnelles, des scénarios d’appel (pour les appareils configurés avec un plan d’appels) et des mécanismes de verrouillage personnalisés. Cela signifie que l’authentification salles Teams se produit d’une autre façon que pour les appareils des utilisateurs finaux.  
 
 L’authentification moderne est recommandée pour tous les clients qui utilisent des Salles Microsoft Teams’Microsoft 365 ou Office 365. Si vous avez un déploiement local de Exchange Server ou Skype Entreprise Server, configurez l’authentification moderne hybride avec Azure Active Directory (Azure AD) pour l’activer à l’aide de l’authentification moderne. [](/office365/enterprise/hybrid-modern-auth-overview)
 
@@ -31,11 +31,11 @@ L’authentification moderne est prise Salles Microsoft Teams version 4.4.25.0 e
 
 ## <a name="modern-authentication"></a>Authentification moderne
 
-Lorsque vous utilisez l’authentification moderne avec l’application Salles Microsoft Teams, la bibliothèque d’authentification Active Directory (ADAL) est utilisée pour se connecter à Microsoft Teams, Exchange et Skype Entreprise. Salles Microsoft Teams est un appareil partagé et effectue un redémarrage nocturne pour assurer le bon fonctionnement et obtenir des mises à jour critiques du système d’exploitation, du pilote, du microprogramme et des applications. Le mécanisme d’authentification moderne utilise le type d’autorisation d’autorisation de mot de passe de propriétaire de ressource dans OAuth 2.0, qui ne nécessite aucune intervention de l’utilisateur. [](/azure/active-directory/develop/v2-oauth-ropc) C’est l’une des principales différences entre le fonctionnement de l’authentification moderne pour les comptes d’utilisateurs et les comptes de ressources utilisés par Salles Microsoft Teams. C’est pourquoi les comptes de ressources Salles Microsoft Teams ne doivent pas être configurés pour utiliser l’authentification multifacteur (MFA), l’authentification par carte à puce ou l’authentification basée sur un certificat client (disponible pour les utilisateurs finaux).
+Lorsque vous utilisez l’authentification moderne avec l’application Salles Microsoft Teams, la bibliothèque d’authentification Active Directory (ADAL) est utilisée pour se connecter à Microsoft Teams, Exchange et Skype Entreprise. Le mécanisme d’authentification moderne utilise le type d’autorisation d’autorisation de mot de passe de propriétaire de ressource dans OAuth 2.0, qui ne nécessite aucune intervention de l’utilisateur. [](/azure/active-directory/develop/v2-oauth-ropc) C’est l’une des principales différences entre le fonctionnement de l’authentification moderne pour les comptes d’utilisateurs et les comptes de ressources utilisés par Salles Microsoft Teams. C’est pourquoi les comptes de ressources Salles Microsoft Teams ne doivent pas être configurés pour utiliser l’authentification multifacteur (MFA), l’authentification par carte à puce ou l’authentification basée sur un certificat client (disponible pour les utilisateurs finaux).
 
 L’autre différence essentielle entre le fonctionnement de l’authentification moderne sur les appareils Salles Microsoft Teams et les utilisateurs finaux est que vous ne pouvez pas utiliser un compte de ressource pour appliquer des stratégies d’accès conditionnel au niveau de l’appareil dans Azure Active Directory et Endpoint Manager, car les informations sur l’appareil ne sont pas transmises lors de l’utilisation de ce type d’octroi. Au lieu de cela, vous pouvez inscrire un appareil au Microsoft Endpoint Manager et appliquer des stratégies de conformité à l’aide des instructions fournies dans la gestion des salles de réunion Teams avec [Intune.](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)
 
-## <a name="enable-modern-authentication-on-a-microsoft-teams-rooms-device"></a>Activer l’authentification moderne sur un Salles Microsoft Teams appareil
+## <a name="enable-modern-authentication-on-microsoft-teams-rooms"></a>Activer l’authentification moderne sur Salles Microsoft Teams
 
 Pour Salles Microsoft Teams’utiliser l’authentification moderne avec les Skype Entreprise et Exchange, activez le paramètre côté client pour l’authentification moderne sur Salles Microsoft Teams. Vous pouvez le faire dans les paramètres de l’appareil ou dans le fichier de configuration XML.
 

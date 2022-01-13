@@ -24,12 +24,12 @@ search.appverid: MET150
 description: En savoir plus sur les options Teams d’appel (connectivité PSTN) et les décisions que vous prendrez pour votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 994115cdf1dda3b5f938b6816623ead2a4196fdb
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 49c836687d7652c18b5932bd662d8ee935638d8a
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766847"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015274"
 ---
 # <a name="pstn-connectivity-options"></a>Options de connectivité PSTN
 
@@ -41,7 +41,7 @@ Pour vous Teams Téléphone au réseau PSTN, vous avez le choix entre les option
 
 - [**Forfait d’appels.**](#teams-phone-with-calling-plan) Une solution all-in-the-cloud avec Microsoft comme opérateur PSTN.
 
-- [**L’Connecter**](#teams-phone-with-operator-connect),qui est actuellement disponible uniquement en **prévisualisation publique.**  Avec les Connecter opérateurs, si votre opérateur existant participe au programme Microsoft Operator Connecter (Programme d’opérateur Microsoft), il peut gérer les contrôleurs de session et d’appel RTC. 
+- [**Opérateur Connecter.**](#teams-phone-with-operator-connect) Avec les Connecter opérateurs, si votre opérateur existant participe au programme Microsoft Operator Connecter (Programme d’opérateur Microsoft), il peut gérer les contrôleurs de session et d’appel RTC. 
 
 - [**Routage direct,**](#teams-phone-with-direct-routing)qui vous permet d’utiliser votre propre opérateur PSTN en connectant votre ou vos contrôleurs de session (SBC) à Teams Téléphone.
 
@@ -51,7 +51,7 @@ Vous pouvez également choisir une combinaison d’options qui vous permet de co
 N’ignorez pas que les options que vous choisissez affectent la manière dont certaines Teams Téléphone fonctionnalités sont configurées. Pour plus d’informations, voir [les considérations concernant la configuration](#configuration-considerations) plus loin dans cet article.
 
 
-## <a name="teams-phone-with-calling-plan"></a>Teams Téléphone’aide du forfait d’appels 
+## <a name="teams-phone-with-calling-plan"></a>Téléphone Teams avec forfait d'appel 
 
 Teams Téléphone’offre d’appels est la solution vocale tout-en-cloud de Microsoft pour les Teams cloud. Il s’agit de l’option la plus simple qui Teams Téléphone au réseau PSTN. Avec cette option, Microsoft agit en tant qu’opérateur PSTN, comme indiqué dans le diagramme suivant :
 

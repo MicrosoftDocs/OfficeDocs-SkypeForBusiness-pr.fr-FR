@@ -15,19 +15,19 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement d Salles Microsoft Teams, y compris les phases de déploiement.
-ms.openlocfilehash: 6a47ebd523e7b4806b3bc28251435942e9778844
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 1f9edd4ccd2c0de00c91b99cef4f3f27b081b9ab
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306179"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015234"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
 Le déploiement d Salles Microsoft Teams se décompose essentiellement en phases :
 
 - Confirmation que vos emplacements de déploiement (espaces) répondent aux dépendances de déploiement
-- Création Microsoft Teams comptes Skype Entreprise et Exchange et leur attribution sur les appareils de la console (voir Configurer des comptes [Salles Microsoft Teams)](rooms-configure-accounts.md)
+- Création Microsoft Teams ou Skype Entreprise et Exchange et leur attribution à salles Teams (voir Configurer des comptes pour [Salles Microsoft Teams)](rooms-configure-accounts.md)
 - (Facultatif) Configuration d’Azure Monitor pour vos systèmes (voir Déployer la gestion des Salles Microsoft Teams [avec Azure Monitor](azure-monitor-deploy.md)
 - Configuration salles Teams espaces de réunion et connexion des périphériques dont vous avez besoin (voir la documentation OEM de votre ensemble d’appareils)
 
@@ -41,7 +41,7 @@ Pour plus d’informations sur ces dépendances, voir les liens d’aide à la p
 -   [Certificats](rooms-prep.md#certificates)
 -   [Proxy](rooms-prep.md#proxy)
 
-**Pro conseil :** si vous devez utiliser des serveurs proxy pour fournir l’accès à Teams, [examinez cet article.](../proxy-servers-for-skype-for-business-online.md) En ce qui Microsoft Teams trafic de médias en temps réel sur des serveurs proxy, nous vous recommandons de contourner les serveurs proxy. Microsoft Teams trafic est déjà chiffré, les serveurs proxy ne le rendent donc pas plus sécurisé. Dans le cadre de votre déploiement à plus grande échelle, nous vous recommandons de suivre les instructions de la guide Préparer votre réseau pour [Teams](../prepare-network.md) à des fin de planification de la bande passante et d’évaluation de l’adapter à votre réseau en cas de trafic en temps réel.
+**Pro conseil :** si vous devez utiliser des serveurs proxy pour fournir l’accès à Teams, [examinez cet article.](../proxy-servers-for-skype-for-business-online.md) En ce qui Microsoft Teams trafic de médias en temps réel sur des serveurs proxy, nous vous recommandons de contourner les serveurs proxy. Microsoft Teams trafic est déjà chiffré, les serveurs proxy ne le sécurisationnt pas et ajoutent de la latence au trafic en temps réel. Dans le cadre de votre déploiement à plus grande échelle, nous vous recommandons de suivre les instructions de la guide Préparer votre réseau pour [Teams](../prepare-network.md) à des fin de planification de la bande passante et d’évaluation de l’adapter à votre réseau en cas de trafic en temps réel.
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
@@ -53,8 +53,8 @@ Pour plus d’informations sur ces dépendances, voir les liens d’aide à la p
 Pour préparer votre déploiement Salles Microsoft Teams, vous pouvez effectuer les tâches clés suivantes :
 
 -   Définissez Salles Microsoft Teams comptes de ressources.
--   Si vous rejoignez Teams Room to Azure Active Directory, préparez un groupe Azure AD dynamique de manière à conserver tous les salles Teams ressources de l’équipe. Cela simplifiera la gestion future, telle que l’application de stratégies d’accès conditionnel.
--   Si vous rejoignez Teams Room à Active Directory, préparez une unité d’organisation et un groupe Active Directory pour conserver vos comptes de machine et de service Salles Microsoft Teams et éventuellement préparer les objets de stratégie de groupe pour activer la remotation PowerShell.
+-   Si vous rejoignez Teams Room to Azure Active Directory, préparez un groupe Azure AD dynamique de manière à conserver tous les salles Teams ressources de l’équipe. Cela simplifiera la gestion future, telle que l’application de stratégies d’accès conditionnel. Afin de tirer le meilleur parti Azure AD groupes dynamiques, déterminez une convention d’affectation de noms qui identifiera de manière unique salles Teams comptes de ressources.
+-   Si vous rejoignez Teams Room à Active Directory, préparez une unité d’organisation et un groupe Active Directory pour conserver vos comptes de machine et de ressource Salles Microsoft Teams et éventuellement préparer les objets de stratégie de groupe pour activer la remotation PowerShell.
 
 ### <a name="define-microsoft-teams-rooms-resource-account-features"></a>Définir Salles Microsoft Teams fonctionnalités de compte de ressource 
 
@@ -71,11 +71,11 @@ Pour plus d’informations sur Salles Microsoft Teams comptes, voir Configurer [
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
-| ![prise en charge des scénarios.](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Déterminez les scénarios que vous prendrez en charge et identifiez les conditions de licence requises Salles Microsoft Teams comptes de service.</li></ul>| 
-| ![préparez l’ordinateur hôte.](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Préparez-vous à héberger des comptes d’ordinateur et de service.</li></ul>| 
+| ![prise en charge des scénarios.](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Déterminez les scénarios que vous prendrez en charge et identifiez les conditions de licence requises Salles Microsoft Teams comptes de ressources.</li></ul>| 
+| ![préparez l’ordinateur hôte.](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Préparez les comptes d’ordinateurs et de ressources hôtes.</li></ul>| 
 
 
-_Exemple de Salles Microsoft Teams table de planification d’un compte de service_
+_Exemple de Salles Microsoft Teams table de planification des comptes de ressources_
 
 | **Site**  | **Nom de la salle** | **Type de salle** | **Capacités des salles à venir**                                                 | **Salles Microsoft Teams fonctionnalités de compte**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ _Exemple de Salles Microsoft Teams table de planification d’un compte de servi
 
 Pour vous permettre de gérer vos comptes de ressources et de les Salles Microsoft Teams et de les signaler, préparez votre annuaire Active Directory ou votre compte de ressources Azure Active Directory (Azure AD). 
 
-Définir un groupe d’utilisateurs ou Active Directory local à Azure Active Directory ajouter tous les comptes de service Salles Microsoft Teams (utilisateurs). Si vous utilisez Azure Active Directory, envisagez d’utiliser un groupe dynamique pour ajouter et supprimer automatiquement des comptes de ressources du groupe.
+Définissez un groupe de ressources actives Azure Active Directory active directory local à Salles Microsoft Teams comptes de ressources locaux. Si vous utilisez Azure Active Directory, envisagez d’utiliser un groupe dynamique pour ajouter et supprimer automatiquement des comptes de ressources du groupe.
 
 Définissez une unité d’organisation dans votre hiérarchie Active Directory en local pour conserver tous les comptes d’ordinateur Salles Microsoft Teams (s’ils sont joints au domaine) et une unité organisationnelle pour conserver tous les comptes d’Salles Microsoft Teams utilisateurs locaux. Désactivez l’héritage des stratégies de groupe pour vous assurer que vous appliquez uniquement les stratégies que vous souhaitez appliquer aux stratégies Salles Microsoft Teams.
 
@@ -104,14 +104,14 @@ Vous pouvez utiliser PowerShell pour effectuer plusieurs activités de gestion �
 
 La planification de la configuration et du déploiement couvre les aspects clés suivants :
 
--   Provisionnage de compte
+-   Mise en service de compte de ressource
 -   Installation de logiciels d’appareil
 -   Déploiement d’appareils
 -   Salles Microsoft Teams configuration des applications et périphériques
 -    Tests
 -   Gestion des biens
 
-### <a name="account-provisioning"></a>Provisionnage de compte 
+### <a name="resource-account-provisioning"></a>Mise en service de compte de ressource 
 
 Chaque Salles Microsoft Teams nécessite un compte de ressource dédié et unique qui doit être activé pour les appareils Microsoft Teams ou Skype Entreprise, et Exchange. Une boîte aux lettres de salle doit être hébergée sur Exchange. Le traitement du calendrier doit être configuré pour que l’appareil puisse accepter automatiquement les demandes de réunion entrantes. Pour plus d’informations sur la création de ces comptes, voir Configurer [des comptes pour Salles Microsoft Teams.](rooms-configure-accounts.md) 
 
@@ -125,7 +125,7 @@ Chaque Salles Microsoft Teams nécessite un compte de ressource dédié et uniqu
 
 ### <a name="device-software-installation"></a>Installation de logiciels d’appareil 
 
-salles Teams est préinstallé par le OEM.
+salles Teams est préinstallé par le fabricant d’ordinateurs (OEM).
 
 Nous fournissons des instructions sur l’utilisation du moniteur [Microsoft Azure](/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) pour surveiller le déploiement d’Salles Microsoft Teams ainsi que des rapports sur la disponibilité, les erreurs matérielles/logicielles et la version Salles Microsoft Teams’application. Si vous décidez d’utiliser la suite Microsoft Operations Management, vous devez installer l’agent de la suite Operations Management dans le cadre du processus d’installation du logiciel et configurer les informations de connexion à l’espace de travail de votre espace de travail. 
 
@@ -139,7 +139,7 @@ Vous de même déterminer si l’Salles Microsoft Teams sera joint au domaine. V
 
 ### <a name="device-deployment"></a>Déploiement d’appareils
 
-Après avoir décidé comment créer et responsable vos comptes de ressources Salles Microsoft Teams, créez votre plan pour expédier les appareils et les périphériques affectés à vos salles, puis procédez à l’installation et à la configuration. 
+Après avoir décidé comment créer et responsable vos comptes de ressources Salles Microsoft Teams, créez votre plan pour expédier les appareils et les périphériques affectés à vos salles, puis procédez à l’installation et à la configuration.
 
 
 |  &nbsp;  |   &nbsp;  |
@@ -158,7 +158,7 @@ _Exemple de table de déploiement_
 
 Une fois que chaque système Salles Microsoft Teams a été déployé physiquement et que les périphériques pris en charge se sont connectés, vous devez configurer l’application Salles Microsoft Teams pour affecter le compte de ressource et le mot de passe Salles Microsoft Teams pour activer l’salles Teams  pour vous y Microsoft Teams ou Skype Entreprise, puis Exchange.
 
-Vous pouvez configurer manuellement chaque Salles Microsoft Teams système informatique. Vous pouvez également utiliser un fichier de configuration XML stocké de façon centralisée Salles Microsoft Teams XML pour gérer les paramètres de l’application.
+Vous pouvez configurer manuellement chaque Salles Microsoft Teams système informatique. Vous pouvez également utiliser un fichier de configuration XML stocké de façon centralisée salles Teams par-salles Teams pour gérer les paramètres de l’application.
 
 Pour plus d’informations sur l’utilisation du fichier de configuration XML, voir Gérer un fichier de configuration XML pour gérer Salles Microsoft Teams à distance avec un [fichier de configuration XML.](xml-config-file.md) 
 
@@ -177,7 +177,7 @@ Dans le cadre du déploiement général de la Teams ou de la Skype Entreprise, n
 
 ### <a name="asset-management"></a>Gestion des biens
 
-Dans le cadre du déploiement, vous pouvez mettre à jour votre registre de biens avec le nom de la salle, le nom de Salles Microsoft Teams, le compte de ressource connecté Salles Microsoft Teams et les périphériques affectés. 
+Dans le cadre du déploiement, vous pouvez mettre à jour votre registre de biens avec le nom de la salle, le nom de Salles Microsoft Teams, le compte de ressource Salles Microsoft Teams et les périphériques attribués. 
 
 _Exemple de table des biens_
 

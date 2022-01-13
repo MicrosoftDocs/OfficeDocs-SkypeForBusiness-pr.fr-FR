@@ -15,24 +15,24 @@ ms.collection:
 - M365-collaboration
 description: Découvrez comment développer et exécuter la maintenance et les opérations continues pour vous assurer que vos systèmes Salles Microsoft Teams sont disponibles pour vos utilisateurs.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f326f58bea724dbf1d728955ee1d63b018ba628
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: cb964114a05490d750fee5ec7f8c1a59330e2bd6
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306289"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015184"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gérer les Salles Microsoft Teams
 
-Si vous avez des Salles Microsoft Teams certifiés dans votre organisation, vous avez des options de gestion flexibles.  Vous pouvez gérer les appareils vous-même dans le même emplacement central que celui où vous gérez toutes Teams solutions, Microsoft Teams Centre d’administration. Vous pouvez également transférer la responsabilité de la gestion à des experts dédiés à l’aide [Salles Microsoft Teams services gérés.](https://portal.rooms.microsoft.com)  Vous pouvez également déléguer l’accès de gestion à un partenaire de votre choix pour l’une ou l’autre des options.
+Si vous avez des Salles Microsoft Teams dans votre organisation, vous avez des options de gestion flexibles.  Vous pouvez gérer les appareils vous-même dans le même emplacement central que celui où vous gérez toutes vos solutions, Teams et Microsoft Teams d’administration. Vous pouvez également transférer la responsabilité de la gestion à des experts dédiés à l’aide [Salles Microsoft Teams services gérés.](https://portal.rooms.microsoft.com)  Vous pouvez également déléguer l’accès de gestion à un partenaire de votre choix pour l’une ou l’autre des options.
 
-Avec Microsoft Teams d’administration, vous pouvez :
+Avec Microsoft Teams centre d’administration, vous pouvez :
 
 - Effectuer une gestion des appareils telle que le redémarrage des appareils et le téléchargement des journaux des appareils
 - Appliquer Teams paramètres spécifiques
-- Vérifier l’état d’Microsoft Teams périphériques de la salle et de ses périphériques, notamment les caméras, les écrans, les microphones, et ainsi de suite.
+- Vérifier l’état d’Salles Microsoft Teams des périphériques, y compris les caméras, les écrans, les microphones, et ainsi de suite
 - Passer en revue l’activité en cours et passée des réunions (par exemple, détails sur la qualité des appels, l’état du réseau et la connectivité, et nombre de participants)
-- Voir les périphériques (tels que les caméras et les projecteurs) connectés à un Microsoft Teams de salle
+- Voir les périphériques (tels que les caméras et les projecteurs) connectés à Salles Microsoft Teams
 
 Pour gérer salles Teams appareils mobiles, ouvrez le Centre [Microsoft Teams’administration](https://admin.teams.microsoft.com) et Teams la gestion des salles Teams   >  **sur Windows.**
 
@@ -40,44 +40,59 @@ Pour gérer salles Teams appareils mobiles, ouvrez le Centre [Microsoft Teams’
 
 
 > [!IMPORTANT]
-> Pour gérer les appareils à l’Teams d’administration de votre appareil, vous devez avoir les rôles Administrateur général, Administrateur Teams périphérique ou Administrateur d Teams périphérique.
+> Pour gérer les appareils à l’Teams d’administration de votre appareil, vous devez avoir les rôles Administrateur général, Administrateur Teams périphériques ou Administrateur d Teams périphériques.
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>Apporter des modifications à salles Teams appareils
 
-Si vous avez plusieurs appareils salles Teams, vous pouvez faire la plupart des actions sur plusieurs appareils en même temps. Par exemple, vous pouvez définir Teams d’application sur tous vos appareils en même temps.
+Si vous avez plusieurs salles Teams, vous pouvez faire la plupart des actions sur plusieurs appareils en même temps. Par exemple, vous pouvez définir Teams de l’application sur tous vos salles Teams en même temps.
 
 ### <a name="device-settings"></a>Paramètres de l’appareil
 
-Vous pouvez modifier les paramètres sur un ou plusieurs appareils de votre organisation. Pour modifier les paramètres, sélectionnez le ou les appareils que vous voulez gérer, puis **sélectionnez Modifier Paramètres.** Un nouveau volet s’ouvre avec tous les paramètres que vous pouvez modifier sur vos appareils. Le tableau suivant répertorie les paramètres que vous pouvez modifier à l’aide du Teams d’administration. Certains paramètres ne sont disponibles que lorsque vous sélectionnez un seul appareil.
+Vous pouvez modifier les paramètres sur un ou plusieurs salles Teams de votre organisation. Pour modifier les paramètres, sélectionnez le ou les appareils que vous voulez gérer, puis **sélectionnez Modifier Paramètres.** Un nouveau volet s’ouvre avec tous les paramètres que vous pouvez modifier. Le tableau suivant répertorie les paramètres que vous pouvez modifier à l’aide du Teams d’administration. Certains paramètres ne sont disponibles que lorsque vous sélectionnez une seule salles Teams.
 
-Si vous sélectionnez plusieurs appareils, les paramètres qui supportent la modification en bloc s’afficheront avec les deux options suivantes.
+Si vous en sélectionnez plusieurs, les paramètres qui supportent la modification en bloc s’afficheront avec les deux options suivantes.
 
-- **Conserver la valeur existante** Si vous choisissez cette option, aucune modification n’est apportée au paramètre sur les appareils que vous avez sélectionnés.
-- **Remplacer la valeur existante par** Si vous choisissez cette option, vous pouvez mettre à jour le paramètre sur les appareils que vous avez sélectionnés avec la valeur que vous fournissez.
+- **Conserver la valeur existante** Si vous choisissez cette option, aucune modification n’est apportée au paramètre sur la salles Teams que vous avez sélectionnée.
+- **Remplacer la valeur existante par** Si vous choisissez cette option, vous pouvez mettre à jour le paramètre du salles Teams sélectionné avec la valeur que vous fournissez.
     > [!CAUTION]
     > Les valeurs existantes des paramètres que vous choisissez de mettre à jour seront remplacées par la valeur que vous fournissez. Si vous voulez ajouter des valeurs à une liste de valeurs existantes, vous devez inclure les valeurs existantes avec la valeur que vous voulez ajouter. Par exemple, si un paramètre possède une liste de domaines existante et que vous voulez ajouter, la valeur que vous `contoso.com, fabrikam.com` `northwindtraders.com` devez fournir serait `contoso.com, fabrikam.com, northwindtraders.com` .
     >
-    > Si vous sélectionnez plusieurs périphériques, le paramètre de tous les appareils sélectionnés sera modifié en fonction de la valeur que vous fournissez. Si les appareils ont des valeurs différentes pour un paramètre, ils sont tous mis à jour avec la même valeur.
+    > Si vous sélectionnez plusieurs salles Teams, le paramètre de tous les appareils sélectionnés sera modifié en fonction de la valeur que vous fournissez. Si salles Teams ont des valeurs différentes pour un paramètre, elles sont toutes mises à jour avec la même valeur.
 
 | Paramètres                                                      | Valeurs acceptées                                        | Prend en charge la modification en bloc |
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
 | *Compte*                                                    |                                                        |                    |
 | **Email**                                                    | Adresse e-mail                                          | Non                 |
-| **Mode réunion pris en charge**                                   | Skype Entreprise (par défaut) et Microsoft Teams<br>Skype Entreprise et Microsoft Teams défaut<br>Skype Entreprise Uniquement|Oui|
+| **Mode réunion pris en charge**                                   | Microsoft Teams uniquement<br>Skype Entreprise (par défaut) et Microsoft Teams<br>Skype Entreprise et Microsoft Teams défaut<br>Skype Entreprise Uniquement|Oui|
 | **Authentification moderne**                                    | Activé<br>Désactivé                                              | Oui                |
 | **Exchange de l’adresse de l’équipe**                                         | Adresse e-mail                                          | Non                 |
 | **Domaine \nom d’utilisateur (facultatif)**                               | Nom d’utilisateur et domaine du compte                           | Non                 |
 | **Configurer le domaine**                                         | Liste séparée par des virgules                                   | Oui                |
 | *Réunions*                                                   |                                                        |                    |
 | **Partage d’écran automatique**                                 | Activé<br>Désactivé                                              | Oui                |
+| **Partage audio HDMI ingest**                                 | Activé<br>Désactivé                                              | Oui                |
 | **Afficher les noms des réunions**                                       | Activé<br>Désactivé                                              | Oui                |
 | **Quitter automatiquement une réunion si tous les autres personnes ont quitté la réunion**                 | Activé<br>Désactivé                                              | Oui                |
+| **Participer à des réunions tierces**                 | Cisco Webex<br>Zoom                                              | Oui                |
+| **Participer avec les informations de la salle**                 | Sélectionné<br>Non sélectionné                                              | Oui                |
+| **Participer avec des informations personnalisées**                 | Sélectionné<br>Non sélectionné                                              | Oui                |
+| **Nom (obligatoire)**                 | Nom de la salle ou de l’espace                                              | Oui                |
+| **Courrier électronique (obligatoire)**                 | Adresse e-mail                                              | Oui                |
 | *Device*                                                     |                                                        |                    |
 | **Mode à deux moniteurs**                                        | Activé<br>Désactivé                                              | Oui                |
+| **Autoriser la duplication de contenu** | Sélectionné<br>Non sélectionné                                 | Oui                |
 | **Bluetooth balises**                                      | Activé<br>Désactivé                                              | Oui                |
 | **Accepter automatiquement les invitations aux réunions de proximité** | Sélectionné<br>Non sélectionné                                 | Oui                |
 | **Envoyer des journaux avec commentaires**                                  | Activé<br>Désactivé                                              | Oui                |
 | **Adresse e-mail pour les journaux et les commentaires**                      | Adresse e-mail                                          | Oui                |
+| *Coordonner des réunions*                                                     |                                                        |                    |
+| **Réunions coordonnées** | Activé<br>Désactivé                                 | Non                |
+| **Activer le microphone de cet appareil** | Activé<br>Désactivé                                 | Non                |
+| **Permettre aux utilisateurs d’activer lorsque vous rejoignez une réunion** | Sélectionné<br>Non sélectionné                                 | Non                |
+| **Activer l’appareil photo de cet appareil** | Activé<br>Désactivé                                 | Non                |
+| **Permettre aux utilisateurs d’activer lorsque vous rejoignez une réunion** | Sélectionné<br>Non sélectionné                                 | Non                |
+| **Activer le tableau blanc pour cet appareil** | Activé<br>Désactivé                                 | Non                |
+| **Comptes d’appareils de confiance (séparés par des virgules)** | Liste des appareils                              | Non                |
 | *Périphériques*                                                |                                                        |                    |
 | **Microphone de conférence**                                  | Liste des microphones disponibles                          | Non                 |
 | **Haut-parleur conférence**                                     | Liste des haut-parleurs disponibles                             | Non                 |
@@ -91,30 +106,13 @@ Si vous sélectionnez plusieurs appareils, les paramètres qui supportent la mod
 |                                                              | Par défaut<br>Aucun thème<br>Personnalisé<br>Liste des thèmes intégrés   | Oui                |
 
 ## <a name="cortana-settings"></a>Cortana de configuration 
-Vous pouvez activer Cortana _activation_ vocale ou _Push_ pour parler à l’aide de PowerShell pour tous les appareils de votre organisation, ou pour chaque appareil séparément. 
--   Au niveau de l’organisation et du groupe, vous devez utiliser PowerShell.
--   Au niveau de l’appareil, plusieurs options s’offrent à vous. Vous pouvez utiliser PowerShell, modifier le fichier de configuration XML ou modifier les paramètres dans Teams d’administration. 
+Vous pouvez activer Cortana _activation_ vocale ou _Push_ pour parler à l’aide de PowerShell pour tous les appareils de votre organisation, ou pour chaque appareil séparément.
 
-Pour en savoir plus sur l’utilisation de PowerShell pour configurer des Cortana, voir Contrôle de l’administrateur et limitations pour les Cortana [dans Teams.](/microsoftteams/cortana-in-teams#admin-control-and-limitations)
-
-Pour en savoir plus sur la configuration de votre appareil à l’aide du fichier de configuration XML, voir Gérer un Salles Microsoft Teams de console à distance avec un [fichier de configuration XML.](/microsoftteams/rooms/xml-config-file#manage-console-settings-with-an-xml-configuration-file)
-
-Au niveau de l’appareil, vous pouvez configurer Cortana à activer pour :
-- _Appuyer pour parler à l’aide_ de PowerShell  
-  - Comment l’activer : Cortana _Push to talk_ est activé par défaut pour tous les appareils qui sont configurer avec des paramètres régionaux, quelle que soit la zone géographique.
-  - Comment le désactiver : utiliser PowerShell. 
-- _Activation vocale à l’aide_ d’un fichier de configuration XML ou Teams centre d’administration.
-  - Comment l’activer : définir dans le fichier de configuration XML ou utiliser le paramètre correspondant dans Teams `<CortanaWakeWord>true</>` d’administration
-  - Comment le désactiver : l’activation Cortana voix est désactivation par défaut 
-  
-  N’oubliez pas que trois conditions doivent être remplies pour que Cortana _activation vocale_ sur votre appareil :
-    1. Votre organisation doit avoir Cortana activée
-    2. Votre appareil doit être avec l’un des paramètres régionaux suivants : en-au, en-ca, en-gb, en-in, en-us
-    3. Vous devez avoir un Cortana certifié connecté à votre salle Teams [En savoir plus](/microsoftteams/cortana-in-teams)   
+Consultez [Salles Microsoft Teams à ce Windows](../cortana-in-teams.md) dans l’article « Cortana’assistance vocale vocale Teams ».
 
 ### <a name="device-restart-options"></a>Options de redémarrage de l’appareil
 
-Les modifications apportées aux paramètres de l’appareil ne prennent effet qu’après le redémarrage des appareils. Lorsque vous a apporter des modifications qui ont besoin d’un redémarrage, vous pouvez choisir de redémarrer immédiatement les appareils ou de planifier un redémarrage. Voici les options de redémarrage disponibles :
+Les modifications apportées aux paramètres de l’appareil prennent effet uniquement après salles Teams redémarrage. Lorsque vous a apporter des modifications qui ont besoin d’un redémarrage, vous pouvez choisir de redémarrer immédiatement ou de planifier un redémarrage. Voici les options de redémarrage disponibles :
 
 - **Redémarrage immédiat** Si vous choisissez cette option, tous les appareils que vous modifiez redémarreront dès que vous aurez sélectionné cette option.
 - **Redémarrage prévu** Si vous choisissez cette option, vous pouvez redémarrer les appareils sur qui vous a apporter des modifications à un moment moins perturbateur pour votre organisation.
@@ -122,18 +120,18 @@ Les modifications apportées aux paramètres de l’appareil ne prennent effet q
   - **Laisser la mise à jour pour le redémarrage nocturne** Les appareils sont redémarrés chaque nuit pour effectuer une maintenance. Les modifications que vous a apportées aux appareils seront appliquées pendant ce redémarrage.
 
 > [!CAUTION]
-> Les appareils en cours d’utilisation au moment du redémarrage deviennent indisponibles pendant toute la durée du processus de redémarrage. Ils seront déconnectés des réunions en cours et ne pourront pas participer à de nouvelles réunions.
+> salles Teams en cours d’utilisation au moment du redémarrage deviennent indisponibles pendant toute la durée du processus de redémarrage. Ils seront déconnectés des réunions en cours et ne pourront pas participer à de nouvelles réunions.
 
 ### <a name="remove-device"></a>Supprimer l’appareil
 
-Lorsque vous supprimez un appareil, celui-ci est supprimé de votre organisation et n’apparaît plus dans votre liste d’appareils salles Teams dans le Teams d’administration.
+Lorsque vous supprimez un appareil, celui-ci est supprimé de votre organisation et n’apparaît plus dans votre liste de salles Teams sur Windows dans le Teams d’administration.
 
-Si vous supprimez un appareil alors qu’il est toujours configuré avec un nom d’utilisateur et un mot de passe valides, il est automatiquement rajouté à votre liste d’appareils salles Teams s’il se connecte à Microsoft 365 nouveau.
+Si vous supprimez un appareil alors qu’il est toujours configuré avec un nom d’utilisateur et un mot de passe valides, il est automatiquement rajouté à votre liste de salles Teams s’il se connecte à Microsoft 365 nouveau.
 
 Pour supprimer un ou plusieurs appareils, vous pouvez :
 
-1. Sélectionnez **Teams périphériques**  >  **salles Teams** et sélectionnez les appareils que vous voulez supprimer.
-1. Sélectionnez **Supprimer**.
+1. Sélectionnez **Teams périphériques**  >  **salles Teams sur Windows** et sélectionnez les appareils que vous voulez supprimer.
+2. Sélectionnez **Supprimer**.
 
 ## <a name="download-device-logs"></a>Télécharger les journaux de l’appareil
 
@@ -141,7 +139,7 @@ Vous pouvez télécharger une copie des fichiers journaux de diagnostic d’un a
 
 Pour télécharger les journaux d salles Teams appareil sur votre ordinateur, vous pouvez :
 
-1. Allez sur **Teams la** salles Teams et sélectionnez le nom de l’appareil à partir de qui vous voulez télécharger les  >   journaux.
+1. Sélectionnez **Teams périphériques** salles Teams sur Windows et sélectionnez le nom de l’appareil à partir de qui vous voulez  >   télécharger les journaux.
 1. Sélectionnez **Télécharger les journaux de l’appareil.** L’accès aux journaux de l’appareil peut prendre plusieurs minutes.
 1. Sélectionnez **l’onglet** Historique, puis sélectionnez le lien du fichier journal sous **Fichier diagnostics.** Un fichier zip contenant les fichiers journaux de diagnostic de votre appareil est téléchargé dans le dossier Téléchargements par défaut de votre navigateur.
 

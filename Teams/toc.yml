@@ -277,6 +277,8 @@ items:
         items:
           - name: Obstacles aux informations
             href: information-barriers-in-teams.md
+          - name: Modifier les modes d’obstacle à l’information avec un script PowerShell
+            href: information-barriers-mode-script.md
           - name: Stratégies de rétention
             href: retention-policies.md
           - name: Conformité des communications
@@ -1015,6 +1017,62 @@ items:
             href: voice-case-study-audio-conferencing.md
           - name: Standards automatiques et files d’attente d’appels
             href: voice-case-study-call-queues.md
+      - name: Conseils pour les petites et moyennes entreprises
+        items:
+          - name: Conseils par téléphone Teams pour les petites et moyennes entreprises
+            href: business-voice/whats-business-voice.md
+          - name: Disponibilité selon les pays et les régions
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+          - name: Vérifier votre connexion Internet
+            href: business-voice/get-ready-internet.md
+          - name: Obtenir de l’aide auprès d’un revendeur ou d’un partenaire Microsoft
+            href: business-voice/reseller-partner-support.md
+          - name: Configurer le téléphone Teams pour les petites et moyennes entreprises
+            items:
+              - name: Aperçu
+                href: business-voice/set-up-overview.md
+              - name: 'Étape 1 : Établir des lieux d''urgence'
+                href: business-voice/set-up-emergency-locations.md
+              - name: 'Étape 2 : Configurer les numéros de téléphone'
+                href: business-voice/set-up-phone-numbers.md
+              - name: 'Étape 3 : Attribution des licences'
+                href: business-voice/set-up-licenses.md
+              - name: 'Étape 4 : créer un compte de ressources'
+                href: business-voice/set-up-resource-account.md
+              - name: 'Étape 5 : Attribuer des numéros de téléphone aux utilisateurs'
+                href: business-voice/set-up-assign-numbers.md
+              - name: 'Étape 6 : Configurer un standard automatique'
+                href: business-voice/set-up-auto-attendant.md
+              - name: 'Étape 7 : port de numéros de téléphone (facultatif)'
+                href: business-voice/port-phone-numbers.md
+              - name: Ressources post-installation
+                href: business-voice/set-up-finish.md
+          - name: Personnaliser la configuration de votre téléphone Teams pour les petites et moyennes entreprises
+            items:
+              - name: Options de personnalisation
+                href: business-voice/customize-business-voice.md
+              - name: Configurer vos stratégies d’appel
+                href: business-voice/set-up-policies.md
+              - name: Gérer vos packages de stratégie
+                href: business-voice/policy-packages.md
+              - name: Créer d’autres utilisateurs
+                href: business-voice/create-users.md
+              - name: Configurer une file d'attente d'appels
+                href: business-voice/create-a-phone-system-call-queue-smb.md
+              - name: Configurer un standard automatique
+                href: business-voice/create-a-phone-system-auto-attendant-smb.md
+          - name: Gérer la configuration de votre téléphone Teams pour les petites et moyennes entreprises
+            items:
+              - name: Créer un ou plusieurs utilisateurs
+                href: business-voice/create-users.md
+              - name: Gestion des appareils
+                href: business-voice/manage-devices.md
+              - name: Surveiller la qualité des appels
+                href: business-voice/monitor-quality.md
+              - name: Tableau de bord de la qualité des appels
+                href: business-voice/analytics-dashboard.md
+          - name: Ressources pour les partenaires
+            href: 'https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook'
       - name: Référence
         items:
           - name: Gestion des numéros de téléphone nationaux
@@ -1227,68 +1285,6 @@ items:
                 href: add-funds-and-manage-communications-credits.md
           - name: Carrousel Microsoft Teams
             href: microsoft-teams-online-call-flows.md
-  - name: Microsoft 365 Business Voice
-    items:
-      - name: Qu’est-ce que Microsoft 365 Business Voice ?
-        href: business-voice/whats-business-voice.md
-      - name: Disponibilité selon les pays et les régions
-        href: business-voice/country-region-availability.md
-      - name: Ce qu’il faut savoir avant d’acheter
-        items:
-          - name: Comment obtenir Business Voice ?
-            href: business-voice/what-to-buy.md
-          - name: Obtenir de l’aide auprès d’un revendeur ou d’un partenaire Microsoft
-            href: business-voice/reseller-partner-support.md
-          - name: Vérifiez votre connexion Internet
-            href: business-voice/get-ready-internet.md
-          - name: Préparation de vos utilisateurs
-            href: business-voice/prepare-users.md
-      - name: Configurer Business Voice
-        items:
-          - name: Aperçu
-            href: business-voice/set-up-overview.md
-          - name: 'Étape 1 : Établir des lieux d''urgence'
-            href: business-voice/set-up-emergency-locations.md
-          - name: 'Étape 2 : Configurer les numéros de téléphone'
-            href: business-voice/set-up-phone-numbers.md
-          - name: 'Étape 3 : Attribution des licences'
-            href: business-voice/set-up-licenses.md
-          - name: 'Étape 4 : créer un compte de ressources'
-            href: business-voice/set-up-resource-account.md
-          - name: 'Étape 5 : Attribuer des numéros de téléphone aux utilisateurs'
-            href: business-voice/set-up-assign-numbers.md
-          - name: 'Étape 6 : Configurer un standard automatique'
-            href: business-voice/set-up-auto-attendant.md
-          - name: 'Étape 7 : port de numéros de téléphone (facultatif)'
-            href: business-voice/port-phone-numbers.md
-          - name: Ressources post-installation
-            href: business-voice/set-up-finish.md
-      - name: Personnalisation de votre configuration
-        items:
-          - name: Options de personnalisation
-            href: business-voice/customize-business-voice.md
-          - name: Configurer vos stratégies d’appel
-            href: business-voice/set-up-policies.md
-          - name: Gérer vos packages de stratégie
-            href: business-voice/policy-packages.md
-          - name: Créer d’autres utilisateurs
-            href: business-voice/create-users.md
-          - name: Configurer une file d'attente d'appels
-            href: business-voice/create-a-phone-system-call-queue-smb.md
-          - name: Configurer un standard automatique
-            href: business-voice/create-a-phone-system-auto-attendant-smb.md
-      - name: Gérer votre configuration
-        items:
-          - name: Créer un ou plusieurs utilisateurs
-            href: business-voice/create-users.md
-          - name: Gestion des appareils
-            href: business-voice/manage-devices.md
-          - name: Surveiller la qualité des appels
-            href: business-voice/monitor-quality.md
-          - name: Tableau de bord de la qualité des appels
-            href: business-voice/analytics-dashboard.md
-      - name: Ressources pour les partenaires
-        href: business-voice/partner-resources.md
   - name: Gestion des appareils et des salles
     items:
       - name: Salles Microsoft Teams
@@ -1345,8 +1341,6 @@ items:
                 href: rooms/rooms-authentication.md
               - name: Participer à des réunions tierces
                 href: rooms/third-party-join.md
-              - name: À l'aide de Microsoft Endpoint Configuration Manager
-                href: rooms/rooms-scale.md
               - name: Gestion avec Azure Monitor
                 href: rooms/azure-monitor-deploy.md
               - name: Migrer SRS v1 ou LRS
@@ -1381,6 +1375,12 @@ items:
             href: rooms/enrolling-mtrp-managed-service.md
           - name: Configurer des comptes pour les Salles Microsoft Teams
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
+          - name: Gestion multi-locataire pour les partenaires
+            href: rooms/multi-tenant-management-partner.md
+          - name: Gestion multilocataire pour les clients
+            href: rooms/multi-tenant-management-customer.md
+          - name: Journaux d’audit pour les activités de salles
+            href: rooms/multi-tenant-auditing.md
       - name: Appareils
         items:
           - name: Gérer vos périphériques dans Teams

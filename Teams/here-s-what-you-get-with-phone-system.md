@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez les fonctionnalités, la disponibilité et comment planifier et configurer des Microsoft Teams Système téléphonique pour votre entreprise. '
-ms.openlocfilehash: 8097ca497a7da3474681549a4abfe396b41a06cd
-ms.sourcegitcommit: 7cbcfd63161ce88067ce2d2548685c3746cd7f69
+ms.openlocfilehash: f396d8fc3dd1e26a2969b825c360054db91071fa
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61262108"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015254"
 ---
 # <a name="heres-what-you-get-with-teams-phone"></a>Voici ce que vous obtenez avec Teams Téléphone
 
@@ -50,7 +50,7 @@ Teams Téléphone fournit les fonctionnalités suivantes.
 |:-----|:-----|
 |[Attendant automatiques cloud](what-are-phone-system-auto-attendants.md)  |Vous permet de créer un système de menus qui permet aux appelants externes et internes de localiser et de placer ou de transférer des appels à des utilisateurs de l’entreprise ou à des services de votre organisation.  <br/> Notez *qu’il n’est* pas nécessaire que les utilisateurs soient activés pour recevoir des appels du attendant automatique. |
 |[Files d’attente d’appels cloud](create-a-phone-system-call-queue.md) <br> |Vous permet de configurer la façon dont les files d’attente d’appels sont gérées pour votre organisation : par exemple, configurer les salutations et la musique en attente, rechercher le prochain agent d’appel disponible pour gérer l’appel, etc.  <br/> Notez que les *utilisateurs* doivent être activés pour recevoir des appels à partir d’une file d’attente d’appels.|
-|Attente musicale | Lit la musique par défaut définie par le service lorsqu’un appel externe à partir du réseau téléphonique commuté (PSTN) est mis en attente. Cette fonctionnalité fonctionne pour les appels PSTN-to-Teams ainsi que pour les appels effectués dans une file d’attente d’appels. Cette fonctionnalité fournit la parité des notifications en attente avec d’autres plateformes. Cette fonctionnalité est configurable par l’administrateur, mais [pour l’instant uniquement via PowerShell.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) La musique d’attente n’est pas non plus prise en charge dans le transfert consultatif d’un appel PSTN. Pour plus d’informations, [voir Musique en attente.](music-on-hold.md)|
+|[Attente musicale](music-on-hold.md) | Lit la musique par défaut définie par le service ou la musique personnalisée téléchargée par l’administrateur client lorsqu’un appel externe à partir du réseau téléphonique commuté (PSTN) est mis en attente. Cette fonctionnalité fonctionne pour les appels PSTN-to-Teams ainsi que pour les appels effectués dans une file d’attente d’appels. Cette fonctionnalité fournit la parité des notifications en attente avec d’autres plateformes. |
 |Démarrage d'un appel/réponse à un appel (par nom et numéro)   |Permet aux utilisateurs de répondre aux appels entrants d’un simple appel et de placer des appels sortants en composant le numéro de téléphone complet ou en cliquant sur un nom dans le client.   |
 |[Options de forwardage d’appel et sonnerie simultanée](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)  |Permet aux utilisateurs de configurer des règles de forwarding afin que les appels soient suivis où qu’ils soient, ou de les retourner à des collègues ou à des messages vocaux.   |
 |[Regroupement d’appels et transfert vers le groupe](call-sharing-and-group-call-pickup.md)  | Permet aux utilisateurs de partager des appels entrants avec des collègues afin que ces derniers répondent à des appels qui se produisent alors que l’utilisateur n’est pas disponible. Moins perturbateur pour les destinataires que d’autres formes de partage d’appel (comme le transfert d’appel ou la sonnerie simultanée), car les utilisateurs peuvent configurer la façon dont ils souhaitent être informés d’un appel partagé entrant. |
@@ -73,7 +73,7 @@ Teams Téléphone fournit les fonctionnalités suivantes.
 |[Blocage d’appel](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | Permet aux utilisateurs d’ajouter des numéros de téléphone (PSTN) à une liste bloquée de sorte que l’appel suivant de ce numéro soit bloqué.|
 |[Téléphones en zone commune](set-up-common-area-phones.md)  | Un téléphone local commun est généralement placé dans une zone telle qu’une salle d’attente ou une salle de conférence et le rend accessible à plusieurs personnes. Les téléphones en zone commune sont configurer en tant qu’appareils plutôt que comme utilisateurs et peuvent se connecter automatiquement à un réseau.|
 |[Prise en charge de la dérivation](direct-routing-plan-media-bypass.md) média (Teams routage direct uniquement)  | Pour de meilleures performances, le média est conservé entre le contrôleur de bordure de session (SBC) et le client au lieu de l’Teams Téléphone. |
-
+|[Routage de numéro non engagé](routing-calls-to-unassigned-numbers.md) | Autorise le routage de numéros non insignés vers des utilisateurs, des files d’attente automatiques, des files d’attente d’appels ou une annonce personnalisée. |
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>Disponibilité dans Cloud de la communauté du secteur public nuages haut et de DoD
 <a name="bkmk_setup"> </a>
@@ -86,7 +86,7 @@ Les fonctionnalités suivantes ne sont pas encore disponibles dans Cloud de la c
 - Attente musicale
 - Azure AD de recherche de nombre inversé
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Qu’est-ce Teams Téléphone](what-is-phone-system-in-office-365.md)
 - [Appel vocal dans le nuage dans Microsoft Teams](cloud-voice-landing-page.md)

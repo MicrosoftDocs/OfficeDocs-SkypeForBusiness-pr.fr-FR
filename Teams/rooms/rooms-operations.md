@@ -13,14 +13,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Lisez cette rubrique pour en savoir plus sur la gestion des Salles Microsoft Teams.
-ms.openlocfilehash: 3717c140501cbfc7650daafd14a6daa47a4febd3
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 2238712b269475891074016c1099a33c56004595
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306159"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015044"
 ---
-# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Salles Microsoft Teams maintenance et opérations 
+# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Salles Microsoft Teams maintenance et opérations
  
 Lisez cette rubrique pour en savoir plus sur la gestion des Salles Microsoft Teams.
   
@@ -29,9 +29,9 @@ Salles Microsoft Teams solution de conférence de Microsoft est conçue pour tra
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Collecte des journaux sur Salles Microsoft Teams
 <a name="Logs"> </a>
 
-Vous pouvez collecter des journaux via Teams centre d’administration. Dans Teams d’administration, accédez à Appareils\salles Teams sur Windows. Dans cette page, cliquez sur le nom d’affichage pour lequel vous voulez télécharger les journaux. Dans le panneau supérieur, cliquez sur « Télécharger les journaux de l’appareil ». Vous serez invité à le faire à l’invite. Cliquez sur « J’ai reçu ». Après quelques minutes, les journaux seront prêts à être téléchargés dans l’onglet Historique.
+Pour collecter les journaux dans Teams centre d’administration, voir Teams **appareils connectés > salles Teams sur Windows.** Sélectionnez le nom d’affichage de l’appareil pour qui vous voulez ouvrir les journaux. Dans le panneau supérieur, sélectionnez « Télécharger les journaux de l’appareil ». Une fois que vous avez confirmé, les journaux seront prêts à être téléchargés dans l’onglet Historique après quelques minutes.
 
-Vous pouvez également utiliser PowerShell pour recueillir des journaux. Vous devez appeler le script de collection journal qui est intégré à l Salles Microsoft Teams applédit. En mode d’administration, démarrez une invite de commandes avec élévation de privilèges, puis lancez la commande suivante :
+Vous pouvez également utiliser PowerShell pour recueillir des journaux. Vous devez appeler le script de collection journal qui est intégré à l Salles Microsoft Teams applédit. En [mode d’administration,](rooms-operations.md)démarrez une invite de commandes avec élévation de privilèges, puis lancez la commande suivante :
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -44,7 +44,7 @@ Les journaux seront produits sous forme de fichier ZIP dans c:\rigel.
 
 Configurez les paramètres de votre ou vos écrans avant de salle pour prendre en charge le contrôle électronique du consommateur ou activer le mode PC.
   
-Si vous souhaitez qu’un écran avant de la salle bascule automatiquement en mode salles Teams à la fin du mode veille, certaines conditions doivent être remplies. Cette fonctionnalité est facultative mais prise en charge Salles Microsoft Teams logiciel, à condition que le matériel sous-jacent la prend en charge. Un téléviseur grand public utilisé comme avant d’affichage doit prendre en charge la fonctionnalité CEC (Consumer Electronics Control) de HDMI.  En fonction de la station d’accueil ou de la console sélectionnée (qui ne peut pas prendre en charge la cec, consultez la documentation du support technique du fabricant), un contrôleur tel qu’un [contrôleur HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) d’Extron peut être nécessaire pour activer le comportement souhaité. 
+Si vous souhaitez qu’un écran avant de la salle bascule automatiquement en mode salles Teams à la fin du mode veille, certaines conditions doivent être remplies. Cette fonctionnalité est facultative mais prise en charge Salles Microsoft Teams logiciel, à condition que le matériel sous-jacent la prend en charge. Un téléviseur grand public utilisé comme avant d’affichage doit prendre en charge la fonctionnalité CEC (Consumer Electronics Control) de HDMI.  En fonction de la station d’accueil ou de la console sélectionnée (qui ne peut pas prendre en charge la cec, consultez la documentation du support technique du fabricant), un contrôleur tel qu’un [contrôleur HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) d’Extron peut être nécessaire pour activer le comportement souhaité.
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Salles Microsoft Teams (Restauration d’usine)
 <a name="Reset"> </a>
@@ -62,7 +62,7 @@ Le tableau suivant récapitule les opérations distantes possibles et les métho
 
 |Groupe de travail |Aucun domaine joint|Domaine joint|
 |:-----|:-----|:-----|
-|Redémarrer  <br/> |Teams d’administration  <br/> Bureau distant  <br/> Powershell distant  <br/> | <br/>Bureau à distance (nécessite une configuration plus particulière)  <br/> Remote PowerShell (nécessite une configuration plus particulière)  <br/> Configuration Manager  <br/> |
+|Redémarrer  <br/> |Teams d’administration  <br/> Bureau distant  <br/> Remote PowerShell  <br/> | <br/>Bureau à distance (nécessite une configuration plus particulière)  <br/> Remote PowerShell (nécessite une configuration plus particulière)  <br/> Configuration Manager  <br/> |
 |Mise à jour du SE  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |Mise à jour de l';application  <br/> |	Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
 |Account Config  <br/> |Teams d’administration  <br/> |Teams d’administration  <br/> |
@@ -79,7 +79,7 @@ La participation salles Teams à un domaine Active Directory offre les avantages
 
 - Vous pouvez déployer Windows configuration de la qualité de service sur salles Teams.
 
-- Si vous utilisez Skype Entreprise, le fait de rejoindre le salles Teams permet d’importer automatiquement la chaîne de certificats racine privé de votre organisation.
+- Si vous utilisez Skype Entreprise, le fait de rejoindre le salles Teams automatise l’importation de la chaîne de certificats racine privée de votre organisation.
 
 Lorsque vous rejoignez salles Teams à un domaine, vous devez créer une unité organisationnelle distincte, afin de pouvoir fournir des exclusions d’objets de stratégie de groupe à l’unité d’organisation où se trouvent tous les objets salles Teams. Désactivez tout l’héritage des stratégies de groupe de sorte que les paramètres de stratégie de groupe non pris en salles Teams. Créez des objets machine dans l’ou avant de salles Teams au domaine pour vous assurer que les stratégies de groupe appliquées aux ordinateurs par défaut ne sont pas appliquées.
 
@@ -218,7 +218,7 @@ Certaines fonctions de gestion, telles que l’installation manuelle d’un cert
 7. Exécutez les tâches administratives requises.
 8.  Redémarrez l’ordinateur lorsque vous avez terminé.
     
-La console est maintenant en mode d’utilisation normale. La procédure suivante nécessite que vous attachiez un clavier à l’appareil s’il n’en a pas déjà un. 
+La console revient à présent à son mode de fonctionnement normal. La procédure suivante nécessite le raccordement d’un clavier à l’appareil si ce n’est pas déjà fait.  
   
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Basculement en mode d’administration et retour en cas Salles Microsoft Teams’application se crashe
 

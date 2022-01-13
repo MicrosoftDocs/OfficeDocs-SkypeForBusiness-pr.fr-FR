@@ -18,12 +18,12 @@ description: Découvrez comment configurer les plans d’appel Microsoft et Syst
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c762ccb2aba8c8ccad531573c37f258fa4605a9d
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: a56d0887f061292f729b45a6c53707d1e398e332
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410715"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015364"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -53,7 +53,7 @@ La possibilité d’assurer un routage automatique vers le point de réponse de 
 
 Les plans d’appels et opérateurs Microsoft Connecter incluent des services de routage d’urgence dynamiques pour les utilisateurs aux États-Unis et au Canada.
 
-Toutefois, pour le routage direct, une configuration supplémentaire est requise pour router des appels d’urgence et éventuellement pour la connectivité partenaire. L’administrateur doit configurer la connexion à un fournisseur de services d’acheminement d’urgence (ERS)  (États-Unis et Canada) OU configurer le contrôleur de session border Controller (SBC) pour une application ELIN (Emergency Location Identification Number). Pour plus d’informations sur les fournisseurs d’ERS, voir Contrôleurs de [session en bordure certifiés pour le routage direct.](direct-routing-border-controllers.md)
+Toutefois, pour le routage direct, une configuration supplémentaire est requise pour router des appels d’urgence et éventuellement pour la connectivité partenaire. L’administrateur doit s’assurer que le routage de la passerelle PSTN pour l’appel d’urgence a été configuré pour ajouter des informations d’emplacement à l’invitation sortante (en configurant le paramètre Pid téléphoniqueSupporté sur True sur l’objet de passerelle PSTN en ligne. En outre, l’administrateur doit configurer la connexion à un fournisseur de  services d’urgence (ERS) (États-Unis et Canada) OU configurer le contrôleur de session border Controller (SBC) pour une application ELIN (Emergency Location Identification Number). Pour plus d’informations sur les fournisseurs d’ERS, voir Contrôleurs de [session en bordure certifiés pour le routage direct.](direct-routing-border-controllers.md)
 
 Cet article contient les sections suivantes.
 
@@ -251,7 +251,7 @@ Le tableau suivant indique la prise en charge des appels d’urgence dynamiques 
 | GCCH | -Disponible sur Teams bureau <br> -Disponible sur Teams clients mobiles <br> Disponibilité en attente sur Teams téléphones |
 | DoD | Pending |
 
- ## <a name="related-topics"></a>Rubriques connexes
+ ## <a name="related-topics"></a>Sujets associés
 
 - [Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)

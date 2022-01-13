@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Cet article décrit l’utilisation de l’outil de récupération pour Salles Microsoft Teams, que vous utiliseriez pour mettre un système hors limites à l’état pris en charge.
-ms.openlocfilehash: 8b5f61ef3ebfc1ef08a1db6667159ff97c2cdd78
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6f78f78ab17620a3466da713d813f8320b163a84
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597578"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015064"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Utiliser l’outil de récupération de Microsoft Teams Rooms
 
@@ -26,15 +26,15 @@ Cet article décrit l’utilisation de l’outil de récupération pour Salles M
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Téléchargez le package [d Salles Microsoft Teams d’installation](https://go.microsoft.com/fwlink/?linkid=851168) le plus récent et extrayez-le sur une clé USB ou un partage réseau accessible à l Salles Microsoft Teams appareil.
+Téléchargez le package [d Salles Microsoft Teams d’installation](https://go.microsoft.com/fwlink/?linkid=851168) le plus récent et extrayez-le sur une clé USB ou un partage réseau accessible Salles Microsoft Teams.
 
 > [!NOTE]
-> L’extraction des fichiers du fichier MSI peut être réalisée par de nombreux moyens. Tout mécanisme qui extrait tous les fichiers et préserve leur structure d’annuaire est acceptable. Une de ces manières consiste à utiliser la commande qui représente le chemin d’accès complet au package d’installation de Microsoft Teams Room et représente le chemin d’accès complet au dossier dans lequel vous souhaitez extraire les `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` `PathToTarget` fichiers.
+> L’extraction des fichiers du fichier MSI peut être réalisée par plusieurs moyens. Tout mécanisme qui extrait tous les fichiers et préserve leur structure d’annuaire est acceptable. Une de ces manières consiste à utiliser la commande qui représente le chemin d’accès complet au package d’installation de Microsoft Teams Room et représente le chemin d’accès complet au dossier dans lequel vous souhaitez extraire les `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` `PathToTarget` fichiers.
 
 ## <a name="running-the-tool"></a>Exécution de l’outil
 
 1) Connectez-vous au compte d’administrateur sur Salles Microsoft Teams appareil, puis lancez une invite de commandes avec élévation de privilèges.
-2) Vérifiez à partir Salles Microsoft Teams l’appareil que vous pouvez accéder au fichier inclus dans les fichiers extraits du `RecoveryTool.ps1 file` package d’installation Salles Microsoft Teams’installation. Le kit est possible sur le partage réseau ou le lecteur USB utilisé lors de la préparation des conditions préalables.
+2) Vérifiez à partir Salles Microsoft Teams l’appareil que vous pouvez accéder au fichier, lequel est inclus dans les fichiers extraits du `RecoveryTool.ps1` package d’installation Salles Microsoft Teams’installation. Le kit est possible sur le partage réseau ou le lecteur USB utilisé lors de la préparation des conditions préalables.
 3) `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`Exécuter.
 4) Pour effectuer une restauration d’usine :
    1. Lorsque le script vous y invite, sélectionnez l’option 2 : **Réinitialiser.**
@@ -45,7 +45,7 @@ Téléchargez le package [d Salles Microsoft Teams d’installation](https://go.
       3. Sous **Réinitialiser ce PC,** **sélectionnez Commencer**
       4. Sélectionnez **Supprimer tout,** puis **Suivant et** **Réinitialiser**
         > [!WARNING]
-        > L Salles Microsoft Teams de messagerie peut devenir inutilisable si l’option Conserver mes fichiers - Supprime les applications et les **paramètres,** mais conserve votre option de fichiers personnels est sélectionnée pendant le Windows réinitialiser. Ne sélectionnez pas cette option.
+        > L Salles Microsoft Teams de messagerie peut devenir inutilisable si l’option Conserver mes fichiers - Supprime les applications et les **paramètres,** mais conserve vos fichiers personnels est sélectionnée pendant le Windows réinitialiser. Ne sélectionnez pas cette option.
       5. Le système redémarre plusieurs fois. Une fois la réinitialisation terminée, le système s’affiche Windows’écran « Out-of-box Experience » (OOBE).
 
 
