@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams, qui fournit un message de salutation, des attentes musicales, la redirection d’appels et d’autres fonctionnalités.
-ms.openlocfilehash: 40dd229a94a92dde70cf50c0a2a3018dab19a9a0
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: ab5a99802ea9170ece7c1cd8d043b84c2cee452d
+ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462350"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "62039897"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -80,6 +80,14 @@ Cliquez **sur** Ajouter, recherchez les comptes de ressources que vous voulez au
 
 Si vous n’utilisez pas de canal Teams pour contrôler l’appartenance à un agent, vous pouvez définir directement l’ID d’appelant pour les membres de la file d’attente d’appels sur le numéro de service de la file d’attente d’appels ou le personnel automatique approprié. Consultez l’article [Gérer les stratégies d’identification de l’appelant dans Microsoft Teams](caller-id-policies.md) pour en savoir plus.
 
+> [!NOTE]
+> Le compte de ressource utilisé à des fins d’ID d’appel doit avoir une Microsoft 365 Système téléphonique utilisateur virtuel et l’une des autorisations suivantes est attribuée :
+>
+> - Licence forfait d’appels et numéro de téléphone affecté
+> - Un opérateur Connecter numéro de téléphone affecté
+> - Une stratégie de routage vocal en ligne (l’affectation de numéros de téléphone est facultative lors de l’utilisation du routage direct)
+
+
 ## <a name="language"></a>Langue
 
 ![Capture d’écran des paramètres de langue.](media/call-queue-language.png)
@@ -95,7 +103,7 @@ Indiquez si vous souhaitez diffuser un message d’accueil aux appelants lorsqu�
 Teams fournit une musique par défaut aux appelants lorsqu’ils sont en attente dans une file d’attente. La musique par défaut fournie dans les files d’attente des appels Teams est exempte de toute redevance payable par votre organisation. Si vous souhaitez diffuser un fichier audio spécifique, choisissez **Lire un fichier audio** et téléchargez un fichier MP3, WAV ou WMA.
 
 > [!NOTE]
-> Vous êtes responsable de la suppression et de la sécurisation indépendantes de tous les droits et autorisations d’utilisation de la musique ou du fichier audio avec votre service Microsoft Teams, qui peuvent inclure des droits de propriété intellectuelle et d’autres droits sur la musique, les effets sonores, l’audio, les marques de musique, les noms et autres contenus du fichier audio de tous les titulaires des droits concernés, notamment des artistes,  des acteurs, des acteurs, des professionnels, des fêtes, des composers, des étiquettes d’enregistrement, des éditeurs de musique, des éditeurs de musique, des fêtes, des droits d’auteur, des organisations de gestion collectives et toute autre partie qui possède, contrôle ou licence les droits d’auteur, les effets sonores, les droits audio et autres droits de propriété intellectuelle.
+> Vous êtes responsable de la suppression et de la sécurisation indépendantes de tous les droits et autorisations d’utilisation de la musique ou du fichier audio avec votre service Microsoft Teams, qui peuvent inclure la propriété intellectuelle et d’autres droits dans la musique, les effets sonores, l’audio, les marques de musique, les noms et autres contenus du fichier audio de tous les titulaires des droits concernés, notamment des artistes, des acteurs,  des auteurs, des professionnels de l’art, des fêtes, des composers, des étiquettes d’enregistrement, des éditeurs de musique, des bandes sonores, des bandes sonores, des droits de copyright, des organisations de gestion collective et toute autre partie qui possède, contrôle ou licence les droits de copyright de la musique, les effets sonores, l’audio et les autres droits de propriété intellectuelle.
 
 ## <a name="call-agents"></a>Agents d’appel
 
@@ -158,10 +166,10 @@ La **méthode de routage** détermine l’ordre dans lequel les agents reçoiven
 - L’**inactivité la plus longue** achemine chaque appel vers l’agent qui a été inactif le plus longtemps. Un agent est considéré comme inactif si son état de présence est disponible. Les agents dont l’état de présence n’est pas disponible ne peuvent pas recevoir d’appels tant qu’ils n’ont pas changé leur présence en Disponible. 
 
 > [!TIP]
-> Il est recommandé de définir la **méthode de routage** sur **Rond-rond** ou **Inactif** le plus long.
+> Il est recommandé de définir la **méthode de routage** sur **Rond-rer ou** Inactif **le** plus long.
 
 > [!NOTE]
-> Si [l’enregistrement de](teams-recording-policy.md) conformité est activé sur les agents, la combinaison du **mode** conférence et du **routage d’Attendant** n’est pas prise en charge. Si vous avez besoin d’utiliser **le mode** Conférence, sélectionnez **Routage** en **série,** Relecteur arrondi ou Inactif le plus **long** comme méthode **de routage.** Si vous devez utiliser le **routage d’Attendant,** définissez **le mode** Conférence sur **Off**.
+> Si [l’enregistrement de](teams-recording-policy.md) conformité est activé sur les agents, la combinaison du **mode** conférence et du **routage d’Attendant** n’est pas prise en charge. Si vous avez besoin d’utiliser le **mode** Conférence, sélectionnez **Routage** en **série,** Relecteur arrondi ou Inactif le plus **long** comme méthode **de routage.** Si vous devez utiliser le **routage d’Attendant,** définissez **le mode** Conférence sur **Off**.
 > 
 > Lors  de l’utilisation de la durée la plus longue d’inactivité, il peut être possible qu’un agent reçoie un appel de la file d’attente peu de temps après être indisponible ou si la réception d’un appel de la file d’attente prend un peu de temps après être devenue disponible.
 
@@ -181,7 +189,7 @@ Si un agent refuse de recevoir des appels, il ne sera pas inclus dans la liste d
 > Les agents qui utilisent le client Skype Entreprise ne sont pas inclus dans la liste de routage des appels lorsque le routage basé sur la présence est activé. Si certains de vos agents utilisent Skype Entreprise, n’activez pas le routage des appels basé sur la présence.
 
 > [!TIP]
-> Il est recommandé de définir le **routage en fonction** de **la** présence vers Le.
+> Il est recommandé de définir le **routage en fonction** **de** la présence vers Le.
 
 La **durée de l’alerte pour un agent** spécifie la durée pendant laquelle le téléphone d’un agent sonnera avant que la file d’attente ne redirige l’appel vers l’agent suivant.
 
@@ -254,7 +262,7 @@ Vous pouvez également utiliser Windows PowerShell pour créer et configurer des
 
 Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suivant pour vérifier qu’une file d’attente d’appels peut recevoir des appels :
 
-1. Sélectionnez **Exécuter les tests** ci-dessous, qui remplit l’outil de diagnostic dans Administration Microsoft 365 de l’outil de diagnostic. 
+1. Sélectionnez **Exécuter les tests** ci-dessous, qui remplira le diagnostic dans le Centre d'Administration Microsoft 365. 
 
    > [!div class="nextstepaction"]
    > [Exécuter des tests : gérer Teams file d’attente d’appels](https://aka.ms/TeamsCallQueueDiag)
