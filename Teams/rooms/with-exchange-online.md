@@ -1,7 +1,7 @@
 ---
 title: Déployer des Salles Microsoft Teams avec Exchange Online
-ms.author: dstrome
-author: dstrome
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-ms.localizationpriority: medium
+localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: seo-marvel-apr2020
+ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: Lisez cette rubrique pour plus d’informations sur le déploiement d Salles Microsoft Teams déploiement Exchange Online et Skype Entreprise Server sur site.
-ms.openlocfilehash: 8f8511f4dd05b6d2eb073aaab0a14305c9d67831
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+description: Lisez cette rubrique pour plus d’informations sur la façon de déployer des Salles Microsoft Teams avec Exchange Online.
+ms.openlocfilehash: e6eb3253d7edb999ba74d28ef9a6d8ae835ac16d
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355633"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055484"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Déployer des Salles Microsoft Teams avec Exchange Online
 
@@ -32,10 +32,10 @@ Si votre organisation dispose d’un mélange de services, dont certains sont h�
 
 Avant de déployer Salles Microsoft Teams avec Exchange Online, assurez-vous que vous avez répondu à la exigences. Pour plus d’informations, [voir Salles Microsoft Teams requise.](requirements.md)
   
-Pour déployer des Salles Microsoft Teams’Exchange Online, suivez les étapes ci-dessous. Assurez-vous de disposer des autorisations adéquates pour exécuter les applets de commande associées. 
+Pour déployer des Salles Microsoft Teams’Exchange Online, suivez les étapes ci-dessous. Assurez-vous que vous êtes autorisé à exécuter les cmdlets. 
 
    > [!NOTE]
-   >  Le [module Azure Active Directory pour Windows PowerShell applets](/powershell/azure/active-directory/overview) de commande de cette section (par exemple, Set-MsolUser) a été testé dans le cadre de la configuration de comptes Salles Microsoft Teams appareils mobiles. Il est possible que d’autres cmdlets fonctionnent, toutefois, elles n’ont pas été testées dans ce scénario particulier.
+   >  Le [module Azure Active Directory pour Windows PowerShell cmdlets](/powershell/azure/active-directory/overview?view=azureadps-1.0) dans cette section (par exemple, Set-MsolUser) a été testé dans le cadre de la configuration des comptes pour Salles Microsoft Teams. Il est possible que d’autres cmdlets fonctionnent, toutefois, elles n’ont pas été testées dans ce scénario particulier.
 
 Si vous avez déployé les services AD FS (Active Directory Federation Services), vous deront peut-être convertir le compte d’utilisateur en utilisateur géré avant de suivre ces étapes, puis convertir l’utilisateur en utilisateur fédéré une fois ces étapes terminées.
   
@@ -44,7 +44,6 @@ Si vous avez déployé les services AD FS (Active Directory Federation Services)
 1. Démarrez une session de Windows PowerShell distante sur un PC et connectez-vous à Exchange Online comme suit :
 
     ``` Powershell
-   Import-Module ExchangeOnlineManagement
    Connect-ExchangeOnline
     ```
 
@@ -59,14 +58,14 @@ Si vous avez déployé les services AD FS (Active Directory Federation Services)
     Si vous créez une boîte aux lettres de ressources :
 
    ``` Powershell
-   New-Mailbox -MicrosoftOnlineServicesID 'ConferenceRoom01@contoso.com' -Alias ConferenceRoom01 -Name "Conference Room 01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   New-Mailbox -MicrosoftOnlineServicesID 'ConferenceRoom01@contoso.com' -Alias ConferenceRoom01 -Name 'ConferenceRoom01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
 3. Pour améliorer l’expérience de réunion, vous devez définir les propriétés Exchange du compte d’utilisateur comme suit :
 
    ``` Powershell
    Set-CalendarProcessing -Identity 'ConferenceRoom01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
-   Set-CalendarProcessing -Identity 'ConferenceRoom01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
+   Set-CalendarProcessing -Identity 'ConferenceRoom01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Rooms enabled  room!"
    ```
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>Ajout d’une adresse e-mail pour votre compte de domaine sur site
@@ -76,41 +75,39 @@ Si vous avez déployé les services AD FS (Active Directory Federation Services)
 3. Saisissez le mot de passe de ce compte. Vous devrez le saisir à nouveau à des fins de vérification. Vérifiez que seule l’option **Le mot de passe n’expire jamais** est sélectionnée.
 
     > [!NOTE]
-    > La sélection **du mot de passe n’expire** jamais est une obligation pour Skype Entreprise Server sur Salles Microsoft Teams. Il est possible que des règles de votre domaine interdisent la non-expiration des mots de passe. Si c’est le cas, vous devez créer une exception pour Salles Microsoft Teams compte d’utilisateur.
+    > La sélection **du mot de passe n’expire** jamais est une obligation pour Salles Microsoft Teams. Il est possible que des règles de votre domaine interdisent la non-expiration des mots de passe. Si c’est le cas, vous devez créer une exception pour Salles Microsoft Teams compte d’utilisateur.
   
 4. Cliquez sur **Terminer** pour créer le compte.
-5. Après avoir créé le compte, exécutez une synchronisation d’annuaires. Cela peut être réalisé à l’aide de la configuration [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration) dans PowerShell. Une fois cette procédure terminée, allez à la page Utilisateurs et vérifiez que les deux comptes créés lors des étapes précédentes ont été fusionnés.
+5. Après avoir créé le compte, exécutez une synchronisation d’annuaires. Cela peut être réalisé à l’aide de la configuration [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) dans PowerShell. Lorsque cette procédure est terminée, allez sur la page de l’utilisateur et vérifiez que les deux comptes créés lors des étapes précédentes ont été fusionnés.
 
-### <a name="assign-a-microsoft-365-or-office-365-license"></a>Affecter une licence Microsoft 365 licence Office 365 licence
+### <a name="assign-an-office-365-license"></a>Affectation d’une licence Office 365
 
-1. Tout d’abord, connectez-Azure AD pour appliquer certains paramètres de compte. Pour vous connecter, vous pouvez exécuter l’applet de commande suivante. Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview)
+1. Tout d’abord, connectez-Azure AD pour appliquer certains paramètres de compte. Pour vous connecter, vous pouvez exécuter l’applet de commande suivante. Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0 n’est](/powershell/azure/active-directory/overview) pas pris en charge.
+   > [Azure Active Directory PowerShell 2.0 n’est](/powershell/azure/active-directory/overview?view=azureadps-2.0) pas pris en charge.
 
     ``` PowerShell
    Connect-MsolService
     ```
-  <!--   ``` Powershell
-     Connect-AzureAD -Credential $cred
-     ``` -->
 
-2. Le compte d’utilisateur doit avoir une licence Microsoft 365 ou Office 365 valide pour s’assurer Exchange fonctionnent. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’utilisateur ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous devez effectuer le devoir dans une étape suivante.
-3. Utilisez ensuite `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> pour récupérer la liste des S SKUs disponibles pour Microsoft 365 ou Office 365 organisation.
-4. Vous pouvez ajouter une licence à l’aide du `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. Dans ce cas, la licence Salles Microsoft Teams Standard est en cours d’application. 
+2. Le compte d’utilisateur doit avoir une licence Office 365 valide pour se connecter à Microsoft Teams. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’utilisateur ; cela permet de déterminer les SKU de licence disponibles pour votre compte.
+3. Utilisez la référence « Get-MsolAccountSku » pour récupérer la liste des références SKU disponibles pour Office 365 client.
+4. Une fois les S SKUs répertoriées, vous pouvez ajouter une licence à l’aide de la licence « Set-MsolUserLicense » <!-- Set-AzureADUserLicense--> cmdlet. 
 
     ```PowerShell
-    Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
-    Get-MsolAccountSku
-    Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses "contoso:MEETING_ROOM"
+     Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
+     Get-MsolAccountSku
+     Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses 'contoso:MEETING_ROOM
     ```
-  <!--   ``` Powershell
-     Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
-     Get-AzureADSubscribedSku
-     Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
-     ``` -->
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="validate"></a>Validate
+
+Pour validation, vous devez être en mesure d’utiliser n’importe Microsoft Teams client pour vous connectez au compte que vous avez créé.
+  
+## <a name="see-also"></a>Voir aussi
+
+[Mettre à jour les boîtes aux lettres de salle avec des métadonnées supplémentaires pour fournir une meilleure expérience de recherche et de suggestion de salle](/powershell/module/exchange/set-place)
 
 [Configurer des comptes pour Salles Microsoft Teams](rooms-configure-accounts.md)
 

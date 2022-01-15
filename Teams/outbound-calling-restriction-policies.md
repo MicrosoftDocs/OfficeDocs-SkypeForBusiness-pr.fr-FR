@@ -1,8 +1,8 @@
 ---
 title: Restrictions relatives aux appels sortants - Audioconférence et & appels PSTN
 ms.reviewer: ''
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Les administrateurs peuvent contrôler le type d’audioconférence et d’appels PSTN d’utilisateur final qui peuvent être effectués par les utilisateurs.
-ms.openlocfilehash: 7f1ec4886c1e1ede22c280091f2ebce9965b6d3b
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 39a51c1fdf6bbb7597b255fc5879a4d7a77be2db
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766237"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055174"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction des appels sortants pour l’audioconférence et les appels RTC des utilisateurs
 
@@ -49,18 +49,17 @@ Pour savoir quels pays et quelles régions sont considérés comme zone A, consu
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Restreindre les appels sortants de conférence audio
 
-**Utiliser le centre d’administration Microsoft Teams**
+### <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
 1. Dans la barre de navigation de gauche, **sélectionnez** Utilisateurs, puis le nom d’affichage de l’utilisateur dans la liste des utilisateurs disponibles.
 
-3. En plus de **l’audioconférence,** sélectionnez **Modifier.**
+2. Ensuite, à **l’audioconférence,** sélectionnez **Modifier.**
 
-4. Sous **Appel sortant de réunions,** sélectionnez l’option de restriction d’appel sortant de votre choix.
+3. Sous **Appel sortant de réunions,** sélectionnez l’option de restriction d’appel sortant de votre choix.
 
-5. Sélectionnez **Enregistrer**.
+4. Sélectionnez **Enregistrer**.
 
-
-**Utiliser PowerShell**
+### <a name="using-powershell"></a>Utiliser PowerShell
 
 Les restrictions d’appels sortants sont contrôlées par une stratégie unique appelée OnlineDialOutPolicy, qui possède un attribut de restriction pour chacune d’elles. La stratégie ne peut pas être personnalisée, mais il existe des instances de stratégie prédéfinies pour chaque combinaison de paramètres.
 

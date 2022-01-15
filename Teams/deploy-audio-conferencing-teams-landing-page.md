@@ -3,8 +3,8 @@ title: Configurer les paramètres de conférence audio-Microsoft Teams
 ms.reviewer: ''
 description: Utilisez ces ressources de déploiement pour vous aider à mettre en place des conférence audio dans le cadre de la charge de travail de réunions dans Microsoft Teams.
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 audience: admin
 ms.date: 01/28/2019
@@ -21,12 +21,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8467132a365fcfdf105859a3404a4a63f4f1a67d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3ede4a0721bacb9c4feb996d58ab01327c13dfd
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617470"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055854"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Découvrir comment déployer la conférence audio dans Microsoft Teams
 
@@ -38,8 +38,7 @@ Cet article vous permet de décider si vous voulez modifier les paramètres par 
 
 Il vous suffit de configurer la fonctionnalité de conférence audio pour les utilisateurs qui comptent planifier ou organiser des réunions. Les participants à la réunion qui se connectent n’ont pas besoin de licence ni d’aucune configuration particulière. Participer à une réunion par téléphone est particulièrement utile pour les personnes qui sont en déplacement et ne peuvent pas utiliser le client Skype Entreprise ou l’application Teams sur leur ordinateur ou leur appareil mobile. 
 
-
-## <a name="audio-conferencing-prerequisites"></a>Conditions requises pour une audioconférence 
+## <a name="audio-conferencing-prerequisites"></a>Conditions requises pour une audioconférence
 
 Avant de pouvoir mettre en place une conférence audio pour Teams, il faut prendre en compte ce qui suit :
 
@@ -50,15 +49,13 @@ Avant de pouvoir mettre en place une conférence audio pour Teams, il faut prend
 |Est-ce que j’ai besoin d’acheter des crédits de communication pour les utilisateurs à qui sont attribuées les licences de conférence audio ?|Pour en savoir plus, voir [Les crédits de communication, qu’est-ce que c’est ?](what-are-communications-credits.md), puis consulter la section [Crédits de communication](#communications-credits) section ci-dessous.|
 |||
 
-
 ## <a name="core-deployment-decisions"></a>Décisions liées au déploiement Core
 
 Une fois que vous avez confirmé que vous remplissez les Conditions requises pour la conférence audio, effectuez les tâches suivantes pour configurer des conférences audio pour vos utilisateurs.
 
-
 ### <a name="teams-administrators"></a>Administrateurs Teams
 
-Teams fournit un ensemble de rôles d’administrateur personnalisé qui peuvent servir à gérer des équipes pour votre organisation. Ces rôles fournissent plusieurs fonctionnalités aux administrateurs. 
+Teams fournit un ensemble de rôles d’administrateur personnalisé qui peuvent servir à gérer des équipes pour votre organisation. Ces rôles fournissent plusieurs fonctionnalités aux administrateurs.
 
 | Posez-vous la question | Action |
 |--------------|--------|
@@ -80,7 +77,6 @@ Voir [Audioconférence](audio-conferencing-in-office-365.md) pour en apprendre p
 |Est-ce que j’ai besoin de transférer des numéros de téléphone à utiliser avec les audioconférences ?|Pour savoir comment transférer des numéros de téléphone, consultez [Transfert des numéros de téléphone vers Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).|
 |||
 
-
 ### <a name="default-and-alternate-languages"></a>Langues par défaut et autres langues
 
 Vous pouvez configurer la langue par défaut et d’autres langues pour les audioconférences Teams pour le pont d’audioconférence.
@@ -90,9 +86,9 @@ Vous pouvez configurer la langue par défaut et d’autres langues pour les audi
 | Quelles langues dois-je choisir pour les messages d’accueil du standard automatique ? | Pour choisir les langues, reportez-vous à la section [Définir les langues du standard automatique d’audioconférence](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json).|
 |||
 
-### <a name="conferencing-bridge-settings"></a>Paramètres du pont d’audioconférence 
+### <a name="conferencing-bridge-settings"></a>Paramètres du pont d’audioconférence
 
-Après avoir configuré votre pont de conférence, y compris les langues par défaut et autres langues, vérifiez que les paramètres par défaut, tels que les notifications d’entrée/sortie et la longueur du code confidentiel sont ceux que vous souhaitez utiliser. Dans le cas contraire, vous pouvez les modifier. 
+Après avoir configuré votre pont de conférence, y compris les langues par défaut et autres langues, vérifiez que les paramètres par défaut, tels que les notifications d’entrée/sortie et la longueur du code confidentiel sont ceux que vous souhaitez utiliser. Dans le cas contraire, vous pouvez les modifier.
 
 |Posez-vous la question|Action |
 |------------|-------|
@@ -120,13 +116,11 @@ Pour fournir des numéros gratuits de pont de téléconférence et pour prendre 
 |Est-ce que je souhaite configurer un montant de recharge automatique ?|Pour configurer un montant de recharge automatique, voir [Configurer les crédits de communication pour votre organisation](set-up-communications-credits-for-your-organization.md).|
 |||
 
-
-
 ## <a name="additional-deployment-decisions"></a>Options de déploiement supplémentaires
 
 Vous souhaiterez peut-être modifier ces paramètres en fonction des besoins et de la configuration de votre organisation.
 
-### <a name="outbound-calling-restriction-policies"></a>Stratégies de restriction des appels sortants 
+### <a name="outbound-calling-restriction-policies"></a>Stratégies de restriction des appels sortants
 
 En tant qu'administrateur, vous pouvez utiliser les contrôles d'appels sortants pour restreindre le type de conférence audio et d'appels RTC d'utilisateur final pouvant être effectués par les utilisateurs de votre organisation.
 
@@ -134,7 +128,6 @@ En tant qu'administrateur, vous pouvez utiliser les contrôles d'appels sortants
 |------------|-------|
 | Est-ce que je vais limiter le type d’appels sortants qui sont autorisés ? | Pour limiter les appels sortants, voir [Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs](outbound-calling-restriction-policies.md).|
 |||
-
 
 ### <a name="dial-plans"></a>Plan de numérotation
 
@@ -148,17 +141,17 @@ Pour plus d'informations sur les plans d'appel, voir [Quels sont les plans de nu
 |Quels sont les utilisateurs qui ont besoin d’un plan d’appel personnalisé et quel plan de numérotation client doit être attribué à chaque utilisateur ?|Pour ajouter des utilisateurs à un plan de numérotation personnalisé à l’aide de PowerShell, voir [Créer et gérer des plans de numérotation](create-and-manage-dial-plans.md).|
 |||
 
-### <a name="troubleshoot-meeting-and-call-quality"></a>Résoudre les problèmes de réunion et de qualité d’appel 
+### <a name="troubleshoot-meeting-and-call-quality"></a>Résoudre les problèmes de réunion et de qualité d’appel
 
-Teams offre deux façons de surveiller et de résoudre les problèmes de qualité d’appel : [Analytique des appels et Tableau de bord de qualité des appels](monitor-call-quality-qos.md). L’analytique des appels affiche des informations détaillées sur les appareils, les réseaux et la connectivité liés aux appels et réunions spécifiques pour chaque utilisateur. L’analytique des appels est conçue pour aider les administrateurs et agents du support technique à résoudre les problèmes de qualité d’appel concernant des appels spécifiques, alors que le Tableau de bord de qualité des appels est conçu pour aider les administrateurs et les ingénieurs réseau à optimiser un réseau. Le Tableau de bord de qualité des appels se concentre sur des utilisateurs spécifiques et examine plutôt des informations globales pour l'ensemble d'une organisation Teams. 
+Teams offre deux façons de surveiller et de résoudre les problèmes de qualité d’appel : [Analytique des appels et Tableau de bord de qualité des appels](monitor-call-quality-qos.md). L’analytique des appels affiche des informations détaillées sur les appareils, les réseaux et la connectivité liés aux appels et réunions spécifiques pour chaque utilisateur. L’analytique des appels est conçue pour aider les administrateurs et agents du support technique à résoudre les problèmes de qualité d’appel concernant des appels spécifiques, alors que le Tableau de bord de qualité des appels est conçu pour aider les administrateurs et les ingénieurs réseau à optimiser un réseau. Le Tableau de bord de qualité des appels se concentre sur des utilisateurs spécifiques et examine plutôt des informations globales pour l'ensemble d'une organisation Teams.
 
 |Posez-vous la question|Action |
 |------------|-------|
 | Qui doit se charger de la surveillance et de la résolution des problèmes de qualité d’appel ? | Voir [Utiliser l’Analytique des appels pour résoudre les problèmes de qualité des appels médiocre](use-call-analytics-to-troubleshoot-poor-call-quality.md) pour plus d’informations sur les niveaux d’autorisation requis pour résoudre les problèmes de qualité d’appel.|
 |||
 
-
 ## <a name="next-steps"></a>Étapes suivantes
+
 - [Favoriser l’adoption](adopt-microsoft-teams-landing-page.md) des conférences audio dans votre organisation.
 - [Mettre en place les services audio dans le nuage](cloud-voice-landing-page.md)
 - Inclure des applications proposées (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez d’autres [applications, robots et connecteurs](deploy-apps-microsoft-teams-landing-page.md) pour favoriser l’adoption des services Teams.

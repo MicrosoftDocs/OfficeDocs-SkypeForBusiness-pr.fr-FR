@@ -1,7 +1,7 @@
 ---
 title: Langues prises en charge pour l’audioconférence
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: reference
@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: 4ecdcf951fde12af53b64cdafd4028e5638f6f27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 38277b1b4b24c544cd271c9bbdb52f53d407fceb
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633428"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055454"
 ---
 # <a name="audio-conferencing-supported-languages"></a>Langues prises en charge pour l’audioconférence
 
-Lorsque vous configurez et configurez l’audioconférence dans Microsoft 365 ou Office 365, vous pouvez sélectionner la langue principale et les langues secondaires (4 au plus) utilisées lorsque les appelants appellent une réunion Skype Entreprise ou Microsoft Teams. Voici la liste des langues prise en charge pour l’audioconférence : 
+Lorsque vous configurez et configurez l’audioconférence dans Microsoft 365 ou Office 365, vous pouvez sélectionner la langue principale et les langues secondaires (4 au plus) utilisées lorsque les appelants appellent une réunion Skype Entreprise ou Microsoft Teams. Voici la liste des langues prise en charge pour l’audioconférence :
   
 > [!IMPORTANT]
-> La langue principale et les langues secondaires ne peuvent être modifiées que sur des numéros de téléphone d’audioconférence dédiés. 
+> La langue principale et les langues secondaires ne peuvent être modifiées que sur des numéros de téléphone d’audioconférence dédiés.
   
 ## <a name="currently-supported-languages"></a>Langues actuellement prises en charge
 
@@ -84,7 +84,7 @@ Lorsque vous configurez et configurez l’audioconférence dans Microsoft 365 ou
 |Thaï  <br/> |Thaïlande  <br/> |th-TH  <br/> |
 |Turc  <br/> |Turquie  <br/> |tr-TR  <br/> |
 |Ukrainien  <br/> |Ukraine  <br/> |uk-UA  <br/> |
-   
+
 Si vous recherchez des pays ou des régions dans lequel vous pouvez acheter l’audioconférence, consultez la disponibilité des pays et régions pour les plans [d’audioconférence et d’appel.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 Si vous recherchez des pays ou régions spécifiques qui ont des numéros de téléphone pour l’audioconférence, consultez les numéros Téléphone pour l’audioconférence dans [Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) ou les numéros Téléphone pour l’audioconférence [dans Skype Entreprise Online.](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
@@ -92,24 +92,24 @@ Si vous recherchez des pays ou régions spécifiques qui ont des numéros de té
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 
 - Pour gagner du temps ou automatiser ce processus, vous pouvez utiliser les cmdlets [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) ou [Set-CsOnlineDialInConferencingServiceNumber.](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber)
-    
+
 - Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 à l’aide d’un seul point d’administration qui simplifiera votre travail si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
-    
+
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
-- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation de la Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
-    
+
+  - [Meilleures méthodes pour gérer vos Microsoft 365 vos Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation de la Centre d'administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+
   - [Présentation de Windows PowerShell et Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
+
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
+
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
+
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

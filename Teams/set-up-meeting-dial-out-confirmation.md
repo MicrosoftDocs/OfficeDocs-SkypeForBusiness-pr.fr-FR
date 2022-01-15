@@ -1,7 +1,7 @@
 ---
 title: Configurer la confirmation d’appel sortant de réunion pour vos utilisateurs dans Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: MicrosoftHeidi
+ms.author: heidip
 ms.reviewer: oscarr
 manager: serdars
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae670cec7adcca3dada49a3dcda0ae11f3d1b7b7
-ms.sourcegitcommit: 70bba31b0ca4615a3c6a90f42d3568450ea51b82
+ms.openlocfilehash: 9db8d3882ea7d05b1bc3600682c0c803040b4c10
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61327252"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055654"
 ---
 # <a name="set-up-meeting-dial-out-confirmation-for-your-users-in-microsoft-teams"></a>Configurer la confirmation d’appel sortant de réunion pour vos utilisateurs dans Microsoft Teams
 
@@ -34,7 +34,7 @@ Pour activer cette fonctionnalité pour toutes les réunions de votre organisati
 Set-CsOnlineDialInConferencingTenantSettings -EnableDialOutJoinConfirmation $true
 ```
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Configurer la fonctionnalité M’appeler pour vos utilisateurs](set-up-the-call-me-feature-for-your-users.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

@@ -1,7 +1,7 @@
 ---
 title: Disponibilité du pays/de la région - Audioconférence, forfaits d’appels
-ms.author: czawideh
-author: czawideh
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: reference
@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Découvrez si les services d’audioconférence, de Système téléphonique, d’appels, de crédits de communication et de numéros de téléphone gratuits et gratuits sont disponibles dans un pays ou une région.
-ms.openlocfilehash: 8480fcbe512ed53bf7a94753b22214b50b8f3f85
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: ab534a020e91caaa6f9608857d6de76f5505b899
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579524"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056074"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 
@@ -176,7 +176,7 @@ Parfois, des personnes de votre organisation devront utiliser un téléphone pou
 Avec l’audioconférence, certains numéros de téléphone gratuits et gratuits peuvent être utilisés par vos utilisateurs pour se rendre aux réunions. Les numéros de téléphone des pays ou régions suivants sont automatiquement attribués en tant que numéros d’audioconférence partagés aux organisations lorsqu’elles sont activées pour l’audioconférence. Des numéros gratuits et gratuits peuvent être attribués à votre organisation pour des villes supplémentaires.
 
 > [!IMPORTANT]
-> Il n’existe pas de ressource qui contient la liste de tous les numéros de connexion pour l’audioconférence. Pour savoir si des numéros de téléphone pour les appels entrants sont disponibles dans votre pays/région, accédez à **Centre d’administration Skype Entreprise** > **Voix** > **Numéros de téléphone**, cliquez sur **Ajouter**, puis sur **Nouveaux numéros de service**. Utilisez les listes pour **Pays/région**, **État/région** et **Ville** pour filtrer votre recherche. Si vous recherchez des numéros de service gratuits, sélectionnez un numéro **gratuit dans** la liste **État/Région.**
+> Il n’existe pas de ressource qui contient la liste de tous les numéros de connexion pour l’audioconférence. Pour savoir si des numéros de téléphone pour les appels entrants sont disponibles dans votre pays/région, accédez à **Centre d’administration Skype Entreprise** > **Voix** > **Numéros de téléphone**, cliquez sur **Ajouter**, puis sur **Nouveaux numéros de service**. Utilisez les listes pour **Pays/région**, **État/région** et **Ville** pour filtrer votre recherche. Si vous recherchez des numéros de service gratuits, sélectionnez un numéro gratuit **dans** la liste **État/Région.**
 
 Pour en savoir plus sur les audioconférences, consultez [Questions fréquentes à propos de l'audioconférence](../audio-conferencing-common-questions.md)
 
@@ -227,7 +227,7 @@ Utilisez la liste déroulante en haut de la page pour rechercher un pays ou une 
 
 Nous vous recommandons de configurer les crédits de communications pour les utilisateurs de votre audioconférence et de nos forfaits d’appels qui ont besoin de la possibilité d’appeler **n’importe quelle destination**. De nombreux pays/régions sont compris, mais il est possible que certaines destinations ne soient pas comprises dans votre forfait d'appel ou d’audioconférence.
   
-Si vous ne définissez pas les crédits de communication et si vous n’attribuez pas de licence aux utilisateurs et que vous n’avez plus de minutes d’appel pour votre organisation (en fonction de votre plan d’appels ou de votre pays/région), ils ne pourront plus appeler ou sortir d’une réunion. Vous pouvez obtenir plus d’informations, notamment des montants de financement recommandés en lisant [Qu’est-ce que les crédits de communication ?](../what-are-communications-credits.md)
+Si vous ne définissez pas les crédits de communication et n’attribuez pas de licence aux utilisateurs, et que vous n’avez plus de minutes d’appel pour votre organisation (en fonction de votre plan d’appels ou de votre pays/région), ils ne pourront plus appeler ou sortir d’une réunion. Vous pouvez obtenir plus d’informations, notamment des montants de financement recommandés en lisant [Qu’est-ce que les crédits de communication ?](../what-are-communications-credits.md)
 
 ## <a name="related-topics"></a>Sujets associés
 

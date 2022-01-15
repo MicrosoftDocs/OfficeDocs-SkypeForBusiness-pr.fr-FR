@@ -1,7 +1,7 @@
 ---
 title: Essayez ou achetez l’audioconférence dans Microsoft 365 pour Teams
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -24,16 +24,16 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Découvrez comment essayer ou acheter des licences d’audioconférence (PSTN Conferencing) pour Microsoft 365 ou Office 365 afin de configurer des téléconférences à composer. '
-ms.openlocfilehash: af031e26cceb920811c3b4f349fda44fd7e3a387
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 992d6b71b5ad63cfe082a9b12c0a5add98074a0f
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611533"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055304"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Essayez ou achetez l’audioconférence dans Microsoft 365 pour Microsoft Teams
 
-Parfois, des personnes de votre organisation devront utiliser un téléphone pour rejoindre une réunion. Microsoft Teams inclut la fonction d’audioconférence uniquement pour cette situation ! Les personnes peuvent se rendre par téléphone Microsoft Teams réunions à l’aide d’un téléphone, au lieu d’utiliser l’application Microsoft Teams sur un appareil mobile ou un PC.
+Parfois, des personnes de votre organisation devront utiliser un téléphone pour rejoindre une réunion. Microsoft Teams inclut la fonctionnalité d’audioconférence uniquement dans cette situation ! Les personnes peuvent se rendre par téléphone Microsoft Teams réunions à l’aide d’un téléphone, au lieu d’utiliser l’application Microsoft Teams sur un appareil mobile ou un PC.
 
 Il vous suffit de configurer l’audioconférence pour les personnes qui prévoient de planifier ou de mener des réunions. Les participants à la réunion qui se connectent par téléphone n’ont pas besoin de licence ou de configuration particulière.
 
@@ -79,7 +79,7 @@ Si vous êtes un client Volume et Gestion des licences, vous pouvez obtenir des 
 
 Lorsque vous  affectez une licence d’audioconférence à des personnes de votre organisation qui n’ont pas de Skype Entreprise intégrées à un fournisseur de services d’audioconférence tiers, elles sont toutes prêtes à l’être ! (Vous n’avez pas à définir leur fournisseur de services d’audioconférence.)
 
-Si vous avez des utilisateurs activés avec un fournisseur de services d’audioconférence tiers, vous devez le changer en Microsoft. Pour changer le fournisseur d’un utilisateur, consultez Affecter Microsoft comme fournisseur de services [d’audioconférence.](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
+Si vous avez des utilisateurs activés avec un fournisseur de services d’audioconférence tiers, vous devez le modifier en Microsoft. Pour changer le fournisseur d’un utilisateur, consultez Affecter Microsoft comme fournisseur de services [d’audioconférence.](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
 
 ## <a name="step-3-other-admin-tasks"></a>Étape 3 : Autres tâches d’administration
 
@@ -96,7 +96,7 @@ Les étapes suivantes sont **facultatives**, mais un grand nombre d’administra
 > [!NOTE]
 > Cette fonctionnalité n’est pas encore disponible pour les clients utilisant Office 365 géré par 21Vianet en Chine. Pour plus d’informations, consulter la rubrique [En savoir plus à propos d’Office 365 géré par 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Activer Teams dans votre organisation](office-365-set-up.md)
 

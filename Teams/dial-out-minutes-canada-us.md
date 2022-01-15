@@ -1,7 +1,7 @@
 ---
-title: Office 365 Audioconférences - Minutes d’appels sortants étendus vers les États-Unis et le Canada
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: Office 365 des minutes d’appels sortants étendus d’audioconférence aux États-Unis et au Canada
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,14 +17,14 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20775abe5b463daed9d07245275ff9a2e176d685
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5fabb1c24280688bcc5a2962273812affd52c8b5
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838376"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055284"
 ---
-# <a name="office-365-audio-conferencing-extended-dial-out-minutes-to-us-and-canada"></a>Office 365 Audioconférences - Minutes d’appels sortants étendus vers les États-Unis et le Canada
+# <a name="office-365-audio-conferencing-extended-dial-out-minutes-to-us-and-canada"></a>Office 365 des minutes d’appels sortants étendus d’audioconférence aux États-Unis et au Canada
 
 Pour les clients qui adoptent notre service d’audioconférence et qui ont un grand besoin d’appel vers les États-Unis et le Canada, Microsoft propose désormais une offre de composant logiciel qui permet d’être pratiquement illimité avec une politique d’utilisation équitable des minutes d’appel sortant aux États-Unis et au Canada pour n’importe quel utilisateur de services d’audioconférence. Grâce à cette référence SKU, les organisateurs de réunions peuvent effectuer virtuellement des appels sortants illimités avec une politique d’utilisation équitable vers les États-Unis et le Canada sans déduire les crédits d’utilisation de la zone A ou des crédits de communication de leur client. <sup>1</sup>
 

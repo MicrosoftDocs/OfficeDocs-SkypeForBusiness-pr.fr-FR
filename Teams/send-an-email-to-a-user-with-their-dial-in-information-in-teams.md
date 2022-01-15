@@ -1,7 +1,7 @@
 ---
 title: Envoyer à un utilisateur ses informations d’audioconférence
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,24 +22,23 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Découvrez comment envoyer à vos utilisateurs un courrier électronique avec leurs informations d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: c268c475e254bcac9a4eb579bc971705d68698aa
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 6dbd0f0001472e49bd0940cc18440550972a2c5c
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536675"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056034"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Envoyer à un utilisateur par courrier électronique ses informations d’audioconférence dans Microsoft Teams.
 
 Parfois Microsoft Teams utilisateurs peuvent avoir besoin que vous leur envoyiez leurs informations d’audioconférence. Pour ce faire, cliquez sur Envoyer les informations sur la conférence **par courrier électronique** sous les propriétés d’un utilisateur. Lorsque vous envoyez ce message électronique, il contient toutes les informations sur l’audioconférence, notamment :
   
 - Le numéro de téléphone de conférence ou le numéro de téléphone à composer pour l'utilisateur.
-    
+
 - L'ID de conférence de l'utilisateur.
-    
-   
+
 Voici un exemple du message électronique envoyé :
-  
+
 ![Exemple de message électronique de conférences téléphoniques.](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
@@ -47,7 +46,7 @@ Voici un exemple du message électronique envoyé :
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Envoyer un courrier électronique avec des informations d’audioconférence à un utilisateur
 
-###  <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
+### <a name="sending-an-email-using-the-microsoft-teams-admin-center"></a>Envoi d’un e-mail à l’aide Microsoft Teams d’administration
 
 1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
@@ -58,17 +57,17 @@ Voici un exemple du message électronique envoyé :
 ## <a name="what-else-should-you-know-about-this-email"></a>Que devez-vous savoir d'autre sur les courriers électroniques ?
 
 - Après avoir activé l’audioconférence, plusieurs messages électroniques sont envoyés aux utilisateurs de votre organisation :
-    
+
   - **Lorsqu’une licence d’audioconférence** leur est affectée.
-    
+
   - Lorsque vous réinitialisez manuellement le code confidentiel de l’utilisateur pour l’audioconférence.
-    
+
   - Lorsque vous réinitialisez manuellement l'ID de conférence de l'utilisateur.
-    
+
   - **Lorsqu’une licence d’audioconférence** leur est supprimée.
-    
+
   - Lorsque le fournisseur de services d’audioconférence d’un utilisateur passe de Microsoft à un autre fournisseur ou à **Aucun.**
-    
+
   - Lorsque Microsoft est le fournisseur de services d’audioconférence d’un utilisateur.
   
 ## <a name="related-topics"></a>Sujets associés

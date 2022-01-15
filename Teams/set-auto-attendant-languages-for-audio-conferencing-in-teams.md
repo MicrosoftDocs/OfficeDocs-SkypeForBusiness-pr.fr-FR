@@ -1,7 +1,7 @@
 ---
 title: Définir les langues du attendant automatique de l’audioconférence
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,49 +22,48 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Découvrez comment sélectionner les langues du attendant automatique d’audioconférence pour un numéro d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: ce436d7671cf9467371ee6ddda4ab79b9805ddd8
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 433ccd3baa7f0a91ded991e9fc6cec9b069faee8
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537065"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055894"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Définir les langues de standard automatique pour l’audioconférence dans Microsoft Teams
 
-Le attendant automatique de l’audioconférence de Microsoft Teams peut accueillir les appelants audio dans différentes langues lorsqu’ils rejoignent une réunion.
+Le attendant automatique d’audioconférence de Microsoft Teams peut accueillir les appelants audio dans différentes langues lorsqu’ils rejoignent une réunion.
   
-Choisir une langue principale et jusqu’à quatre langues secondaires. La langue principale que vous définissez est utilisée en premier et les langues secondaires sont utilisées par le attendant automatique dans l’ordre dans l’ordre dans celui-ci. 
+Choisir une langue principale et jusqu’à quatre langues secondaires. La langue principale que vous définissez est utilisée en premier et les langues secondaires sont utilisées par le attendant automatique dans l’ordre dans l’ordre dans celui-ci.
   
 > [!NOTE]
->  Vous pouvez uniquement modifier les langues des numéros d’audioconférence de la catégorie Dédié. Les langues du numéro d’audioconférence partagée ne peuvent pas être modifiées.
+> Vous pouvez uniquement modifier les langues des numéros d’audioconférence de la catégorie Dédié. Les langues du numéro d’audioconférence partagée ne peuvent pas être modifiées.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Définir les langues du attendant automatique de conférence
 
- **Utiliser le centre d’administration Microsoft Teams**
+À l’aide Microsoft Teams centre d’administration :
 
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence).
 
 2. Sélectionnez **un numéro** de téléphone de conférence audio dédié dans la liste, puis en haut de la page, cliquez sur **Modifier.** Il est uniquement possible de modifier les langues des numéros d’audioconférence dédiés. **L’option** Modifier n’est affichée que lorsqu’un numéro de conférence audio dédié est sélectionné.
 
-3. Dans le volet à droite, sélectionnez la langue par défaut de votre choix et d’autres langues. 
- 
+3. Dans le volet à droite, sélectionnez la langue par défaut de votre choix et d’autres langues.
+
     > [!NOTE]
-    > Les langues par défaut et les autres langues qui sont pris en charge sont répertoriées. L’ordre dans lequel vous les sélectionnez dans les listes est l’ordre des langues présentées aux appelants. 
+    > Les langues par défaut et les autres langues qui sont pris en charge sont répertoriées. L’ordre dans lequel vous les sélectionnez dans les listes est l’ordre des langues présentées aux appelants.
 
 4. Cliquez sur **Enregistrer**.
 
-    
 ## <a name="want-else-should-i-know"></a>Informations supplémentaires
 
 - Pour voir la liste des langues prises en charge par l’audioconférence, consultez [Langues prises en charge par l’audioconférence](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages).
-    
+
 - Des langues peuvent être définies pour des numéros dédiés, mais pas pour des numéros de téléphone partagés.
-    
+
 - Pour obtenir la liste des pays et régions dans lesquels l’audioconférence dans Microsoft 365 ou Office 365 en utilisant Microsoft comme fournisseur est disponible, consultez les numéros Téléphone pour [l’audioconférence.](phone-numbers-for-audio-conferencing-in-teams.md)
-    
+
 ## <a name="want-to-use-windows-powershell"></a>Vous souhaitez utiliser Windows PowerShell ?
 
 Pour plus [d’informations, Microsoft Teams la référence PowerShell.](/powershell/module/teams/?view=teams-ps)

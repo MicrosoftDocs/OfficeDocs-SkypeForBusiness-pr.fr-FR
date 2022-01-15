@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c94a84d7d331122145ebec1324ec5a88eabbca82
-ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
+ms.openlocfilehash: a82dbf888fcd6fd0b05816e3edb390b79c9a9e3f
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "62040001"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055314"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>Personnaliser vos applications Teams en fonction de leur licence
 
@@ -52,16 +52,16 @@ Applications épinglées pour les utilisateurs titulaires d’une licence F :
 ## <a name="admin-controls"></a>Contrôles d’administration
 
 > [!NOTE]
-> Pour que cette fonctionnalité prenne effet, l’épinglage d’utilisateur doit être désactivé dans la stratégie de configuration de l’application globale (à l’échelle de l’organisation par défaut). Pour plus d’informations, consultez l’article [Gérer les stratégies et paramètres d’application personnalisés dans Teams](teams-app-setup-policies.md).
+> Pour que cette fonctionnalité prenne effet, l’épinglage d’utilisateur doit être désactivé dans la stratégie de configuration de l’application globale (à l’échelle de l’organisation par défaut). [](teams-app-setup-policies.md)
 
 La fonctionnalité d’expérience d’application personnalisée est contrôlée par l’option Afficher les applications **personnalisées** en fonction du paramètre des licences à l’échelle de l’organisation sur la [page](manage-apps.md#manage-org-wide-app-settings) Gérer les applications du Centre d’administration Teams’entreprise. Si la fonctionnalité est en cours, tous les utilisateurs de votre organisation titulaires d’une licence F auront l’expérience d’application personnalisée.
 
 N’oubliez pas que les stratégies de configuration d’application personnalisées attribuées aux utilisateurs sont prioritaire. Cela signifie que si un utilisateur possède déjà une stratégie de configuration d’application personnalisée, il reçoit la configuration définie dans la stratégie de configuration de l’application personnalisée. Pour en savoir plus sur l’utilisation de cette fonctionnalité avec les stratégies de configuration d’application existantes que vous avez appliquées dans votre organisation, voir la section [Scénarios](#scenarios) de cet article.
 
-Cette fonctionnalité est activée par défaut. Toutefois, si vous ne souhaitez pas que l’expérience d’application personnalisée fournie par Microsoft soit fournie, vous pouvez désactiver le paramètre. Pour désactiver ou activer la fonctionnalité :
+Cette fonctionnalité est activée par défaut. Toutefois, si vous ne souhaitez pas que l’expérience d’application personnalisée fournie par Microsoft soit fournie, vous pouvez désactiver la fonctionnalité. Pour désactiver ou activer la fonctionnalité :
 
 1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, sélectionnez Teams **applications** Gérer les applications, puis sélectionnez Paramètres de l’application à  >  l’échelle **de l’organisation.**
-2. Basculez le bouton bascule Afficher les applications personnalisées en fonction des licences **sur « Off** » (Afficher les applications personnalisées) sur « Off » (Afficher les applications personnalisées) sur le bouton bascule « Off » **(Afficher** les applications **personnalisées)** sur « Off » ( 
+2. Sous **Applications personnalisées,** basculez sur Afficher les applications personnalisées en fonction du bouton bascule des licences **sur** « Off » **(Afficher** les applications **personnalisées).**
 
     :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text="Capture d’écran de la page Gérer les applications, affichant le paramètre Afficher les applications personnalisées en fonction du paramètre d’application à l’échelle de l’organisation de licences" lightbox="media/pin-teams-apps-based-on-license.png":::
 

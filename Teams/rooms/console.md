@@ -1,5 +1,5 @@
 ---
-title: Configurer une console des salles Microsoft Teams
+title: Créer une image Salles Microsoft Teams image
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Travis-Snoozy
@@ -15,16 +15,19 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article décrit comment configurer et configurer la console Salles Microsoft Teams et ses périphériques.
-ms.openlocfilehash: 2df40f136308bb7855d911667bc871e5750f06cd
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: d6c675ed6eb6f50cf41b817770caf723f75f556b
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767277"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055644"
 ---
-# <a name="configure-a-microsoft-teams-rooms-console"></a>Configurer une console des salles Microsoft Teams
+# <a name="build-a-microsoft-teams-rooms-image"></a>Créer une image Salles Microsoft Teams image
 
-Cet article décrit comment configurer la console Salles Microsoft Teams et ses périphériques.
+Cet article décrit comment créer une image Salles Microsoft Teams déploiement en masse d’salles Teams.
+
+> [!NOTE]
+> Les étapes suivantes ne doivent être utilisées que lors de la création [d’une image basée](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) sur WIM pour un déploiement en masse. Si vous récupérez des appareils individuels, contactez le fabricant de votre matériel D’origine pour obtenir de l’aide.
 
 Vous ne devez effectuer ces étapes que si les comptes Microsoft Teams ou Skype Entreprise et Exchange nécessaires ont déjà été créés et testés comme décrit dans la procédure Déploiement [Salles Microsoft Teams.](rooms-deploy.md) Vous aurez besoin du matériel et du logiciel décrits dans Salles Microsoft Teams [configuration requise.](requirements.md) Cette rubrique contient les sections suivantes :
   
@@ -63,6 +66,7 @@ Le CreateSrsMedia.ps1 script automatise les tâches suivantes :
 3. Téléchargez les composants de prise en charge nécessaires.
 4. Assemblez les composants nécessaires sur le support d’installation.
 
+> [!NOTE]
 Une version spécifique de Windows 10 est requise, et cette version est uniquement disponible pour les clients de licence en volume.  Vous pouvez en obtenir une copie à partir du Centre [de gestion des licences en volume.](https://www.microsoft.com/Licensing/servicecenter/)
 
 Lorsque vous avez terminé, supprimez le disque USB de votre ordinateur, puis procédez à l’installation de Windows 10 et de [l’application Salles Microsoft Teams console mobile.](console.md#Reimage)
@@ -71,7 +75,7 @@ Lorsque vous avez terminé, supprimez le disque USB de votre ordinateur, puis pr
 ## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>Installer Windows 10 et l’application Salles Microsoft Teams console mobile
 <a name="Reimage"> </a>
 
-Vous devez à présent appliquer le support de configuration que vous avez créé. Le périphérique cible est exécuté en tant qu’appliance et l’utilisateur par défaut est prêt à exécuter uniquement l’application Salles Microsoft Teams console principale.
+Vous devez à présent appliquer le support de configuration que vous avez créé. L’appareil cible est exécuté en tant qu’appliance et l’utilisateur par défaut est prêt à exécuter uniquement l Salles Microsoft Teams appeil de contrôle.
 
 1. Si l’appareil cible est installé dans une station d’accueil (par exemple, une Surface Pro), déconnectez-le de la station d’accueil.
 
@@ -101,7 +105,7 @@ Une fois le système arrêté, vous risquez de supprimer le disque d’installat
 Dans la Mise à jour de l’application de créateur, vous devrez utiliser le script ApplyCurrentRegionAndLanguage.ps1 dans des scénarios où la sélection de langue implicite ne fournit pas à l’utilisateur la langue réelle de l’application qu’il souhaite (par exemple, il souhaite que l’application de console soit fournie en français, mais qu’elle soit en anglais).
   
 > [!NOTE]
-> Les instructions suivantes fonctionnent uniquement pour les consoles créées à l’aide Windows mise à jour de créateur de contenu. Les systèmes hérités/sur le marché qui n’ont pas été configurés à l’aide du média avec le nouveau système de mise en service ne pourront pas utiliser ces instructions, mais ne doivent pas non plus être en raison du problème initial nécessitant cette intervention manuelle (l’édition anniversaire vous permet de sélectionner la langue de votre application explicitement dans le cadre de la configuration).
+> Les instructions suivantes fonctionnent uniquement pour les consoles créées à l’aide Windows mise à jour de créateur de contenu (Windows 10 20H1) ou ultérieure.
   
 ### <a name="to-apply-your-desired-language"></a>Pour appliquer la langue de votre choix
 
@@ -142,29 +146,22 @@ La langue souhaitée est désormais appliquée à la console Salles Microsoft Te
 ## <a name="initial-set-up-of-the-console"></a>Configurer initialement la console
 <a name="Initial"> </a>
 
-Une Windows est installée, l’application pour console Salles Microsoft Teams passe au processus de configuration initial lorsqu’elle est démarrée, ou si l’option /redémarrage a été choisie.
+Une Windows est installée, l’Salles Microsoft Teams passe au processus de configuration initial.
   
-1. L’écran Compte d’utilisateur apparaît. Entrez l Skype de se connectez (au format user@domain) du compte de salle à utiliser avec la console.
+1. L’écran Compte d’utilisateur apparaît. Entrez l’adresse de Exchange de la ressource Microsoft (au format user@domain) du compte de salle à utiliser avec la console.
     
 2. Saisissez le mot de passe du compte de la salle dé réunion, puis saisissez-le à nouveau à des fins de vérification.
-    
-3. Sous « Configurer le domaine », définissez le nom de domaine (FQDN) de la Skype Entreprise Server. Si le Skype Entreprise SIP est différent du domaine Exchange de l’utilisateur, entrez le domaine Exchange dans ce champ.
-    
+   
+3. Sélectionnez le mode de réunion pris en charge Microsoft Teams, Skype Entreprise Uniquement ou l’une des deux options de mode mixte. Si nécessaire, activez l’authentification moderne.
+
 4. Cliquez sur **Suivant**.
     
-5. Sélectionnez les appareils indiqués dans l’écran Fonctionnalités, puis cliquez **sur Suivant.** Le défaut est d’avoir la partage d’écran automatique activé alors que les noms de réunion masqués sont désactivés. Les appareils à sélectionner sont les suivants :
+5. Si vous utilisez Skype Entreprise et si le domaine SIP Skype Entreprise est différent du domaine Exchange de l’utilisateur, définissez le nom de domaine (FQDN) du Skype Entreprise Server dans la section Avancée. Si vous n’utilisez pas Skype Entreprise domaine SIP correspond au domaine Exchange domaine, laissez cette section vide.
+6. Cliquez sur **Suivant**.
     
-   - Microphone pour les conférences : le microphone par défaut  pour cette salle de conférence.
+7. Cliquez sur **Terminer**.
     
-   - Haut-parleur pour les conférences : le haut-parleur par défaut pour les conférences.  
-    
-   - Haut-parleur par défaut : le haut-parleur utilisé pour l’audio à partir de la réception HDMI.
-    
-     Chaque option possède un menu déroulant d’options à sélectionner. Vous devez effectuer une sélection pour chaque appareil.
-    
-6. Cliquez sur **Terminer**.
-    
-L’application console Salles Microsoft Teams doit commencer immédiatement à se Skype Entreprise Server avec les informations d’identification entrées ci-dessus, et doit également commencer à synchroniser son calendrier avec Exchange à l’aide des mêmes informations d’identification. Pour plus d’informations sur l’utilisation de l’application de console, reportez-vous à [la Salles Microsoft Teams’aide.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+L’application Salles Microsoft Teams doit se Microsoft Teams ou Skype Entreprise Server avec les informations d’identification entrées ci-dessus et commencer à synchroniser son calendrier avec Exchange à l’aide des mêmes informations d’identification. Pour plus d’informations sur l’salles Teams, consultez [l’aide Salles Microsoft Teams’aide.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
   
 > [!IMPORTANT]
 > Salles Microsoft Teams s’appuie sur la présence de matériel de console certifié. Même une image correctement créée contenant l’application de console Salles Microsoft Teams démarre pas au-delà de la procédure de configuration initiale, sauf si le matériel de la console est détecté. Pour Surface Pro solutions basées sur les données, la Surface Pro doit être connectée à son matériel d’accueil pour réussir ce contrôle.
@@ -174,8 +171,10 @@ L’application console Salles Microsoft Teams doit commencer immédiatement à 
   
 ### <a name="install-a-private-ca-certificate-on-the-console"></a>Installer un certificat d’autorisation d’certification privé sur la console
 <a name="Certs"> </a>
+> [!NOTE]
+> La règle suivante s’applique uniquement si vous salles Teams à Skype Entreprise.
 
-La Salles Microsoft Teams doit faire confiance aux certificats utilisés par les serveurs à qui elle se connecte. Dans un environnement O365, cette opération est effectuée de manière automatique, car ces serveurs utilisent des autorités de certification publiques automatiquement approuvées par Windows 10. Dans le cas où l’autorité de certification est privée, par exemple un déploiement sur site avec Active Directory et l’autorité de certification Windows, vous pouvez ajouter le certificat à la console Salles Microsoft Teams de deux façons :
+Salles Microsoft Teams doit faire confiance aux certificats utilisés par les serveurs avec qui il se connecte. Dans le cas où l’autorité de certification est privée, par exemple un déploiement sur site avec Active Directory et l’autorité de certification Windows, vous pouvez ajouter le certificat à Salles Microsoft Teams de deux façons :
   
 - Vous pouvez rejoindre la console d’Active Directory et cela ajoutera automatiquement les certificats requis à la publication de l’autorité de certification dans Active Directory (option de déploiement normal).
     
@@ -196,7 +195,7 @@ La Salles Microsoft Teams doit faire confiance aux certificats utilisés par les
 ### <a name="join-an-active-directory-domain-optional"></a>Joindre un domaine Active Directory (facultatif)
 <a name="Certs"> </a>
 
-Vous pouvez rejoindre Salles Microsoft Teams consoles de domaine. Salles Microsoft Teams consoles doivent être placées dans une ou des stations de travail distinctes de vos stations de travail PC, car de nombreuses stratégies de station de travail ne sont pas compatibles avec Salles Microsoft Teams. Par exemple, les stratégies d’application de mot de passe Salles Microsoft Teams le démarrage automatique des utilisateurs. Pour plus d’informations sur la gestion des paramètres d’introduction de groupe, voir [Gérer les Salles Microsoft Teams.](rooms-operations.md)
+Vous pouvez rejoindre Salles Microsoft Teams votre domaine. Salles Microsoft Teams doivent être placées dans une station d’utilisateur distincte de vos stations de travail PC, car de nombreuses stratégies de station de travail ne sont pas compatibles avec les Salles Microsoft Teams. Par exemple, les stratégies d’application de mot de passe Salles Microsoft Teams le démarrage automatique des utilisateurs. Pour plus d’informations sur la gestion des paramètres d’introduction de groupe, voir [Gérer les Salles Microsoft Teams.](rooms-operations.md)
   
 ### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>Pour rejoindre Salles Microsoft Teams à un domaine
 
@@ -227,7 +226,7 @@ Utilisez la liste de vérification suivante lors d’une vérification finale qu
 
 |Terminé |Vérifier |
 |:-----:|:-----|
-|☐   |Le nom de compte et le numéro de téléphone de la salle de réunion (si la fonction PSTN est activée) sont correctement affichés dans la partie supérieure droite de l’écran de la console.   |
+|☐   |Le nom et le numéro de téléphone du compte de salle (si PSTN est activé) s’affichent correctement   |
 |☐   |Le nom de l’ordinateur Windows est correctement défini (utile pour l’administration à distance).   |
 |☐   |Le mot de passe du compte de l’administrateur est défini et vérifié.   |
 |☐   |Toutes les mises à jour du microprogramme ont été appliquées   |
@@ -244,15 +243,15 @@ Utilisez la liste de vérification suivante lors d’une vérification finale qu
 |☐   |Le périphérique d’entrée audio est fonctionnel et positionné de manière optimale.   |
 |☐   |Le périphérique de sortie audio est fonctionnel et positionné de manière optimale.   |
 
-**Dock**
+**Console**
 
 |Terminé |Vérifier |
 |:-----:|:-----|
 |☐   |Les câbles sont sécurisés et ne sont pas pincés.   |
 |☐   |La réception audio via HDMI est fonctionnelle.   |
 |☐   |La réception vidéo via HDMI est fonctionnelle.   |
-|☐   |Le dock peut pivoter librement.   |
-|☐   |La luminosité de l’affichage est acceptable pour l’environnement.   |
+|☐   |La console peut pivoter librement   |
+
 
 
    

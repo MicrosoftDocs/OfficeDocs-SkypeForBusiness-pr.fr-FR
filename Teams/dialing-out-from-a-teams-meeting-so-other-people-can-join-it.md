@@ -1,7 +1,7 @@
 ---
 title: Appel sortant d’une réunion pour que d’autres personnes y participent
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Les organisateurs de la réunion peuvent découvrir comment appeler à l’aide de l Teams de messagerie pour que d’autres personnes participent à la réunion à l’aide de leur téléphone.
-ms.openlocfilehash: 690ae9a1597f2d6f1621deb264d9115780d35622
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 13389099e936ee8b3d6a005ae808f46f48abafea
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725643"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055834"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Appel sortant depuis une réunion Microsoft Teams pour permettre à d'autres personnes d’y participer
 
@@ -44,13 +44,13 @@ Lorsque vous dial out to someone, we recommend you do so using their full phone 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-Pour que l’appel sortant fonctionne, vous pouvez :
+Pour que l’appel sortant fonctionne , vous pouvez :
 
  **Étape 1 :** Dans la réunion, utilisez la capture **d’écran Ajouter des** personnes du bouton Ajouter des ![ personnes.](media/add-people-button.png) option pour appeler un numéro de téléphone.
  **Étape 2 :** Entrez le numéro de téléphone complet, y compris l’code du pays/de la région dans la zone Inviter une **personne ou composez un** numéro.
   
 ![Capture d’écran de la zone Inviter une personne ou composer un numéro.](media/invite-someone-box.png)
-    
+
 ## <a name="supported-countries-and-regions"></a>Pays et régions pris en charge
 
 La mise en conférence n'est disponible que vers certains pays ou certaines régions. Pour obtenir la liste complète, consultez la disponibilité des pays et régions pour les plans [d’audioconférence et d’appel.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -62,5 +62,5 @@ Si vous recherchez des instructions sur la manière de laisser vos utilisateurs 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Vous souhaitez en savoir plus sur l’audioconférence ?
 
 [Essayer ou acheter l’audioconférence](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
-    
+
 [Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

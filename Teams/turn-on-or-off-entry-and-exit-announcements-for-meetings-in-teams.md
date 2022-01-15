@@ -1,7 +1,7 @@
 ---
 title: Activer ou désactiver les annonces d’entrée et de sortie des réunions Teams
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -21,25 +21,23 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: L’administrateur peut découvrir comment activer ou désactiver les annonces d’entrée et de sortie dans Microsoft Teams réunion.
-ms.openlocfilehash: ab69b64352508d15b5f1125629ab90b3ec58f851
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: a9dcaaabcaa31160e162ba2a2685a02d9e2397da
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537275"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056014"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Activer ou désactiver les annonces d'entrée et de sortie des réunions dans Microsoft Teams
 
-Lorsque vous configurationnez l’audioconférence dans Microsoft 365 ou Office 365, vous recevez un pont d’audioconférence. Un pont de conférence peut contenir un ou plusieurs numéros de téléphone que les personnes utiliseront pour appeler une réunion Microsoft Teams.
+Lorsque vous configurationnez l’audioconférence dans Microsoft 365 ou Office 365, vous obtenez un pont d’audioconférence. Un pont de conférence peut contenir un ou plusieurs numéros de téléphone que les personnes utiliseront pour appeler une réunion Microsoft Teams.
   
 Le pont de conférence répond à l’appel d’un utilisateur qui compose un numéro pour accéder à la réunion en utilisant un téléphone. Le pont de conférence répond en utilisant une invite vocale à partir d'un standard automatique, puis, selon vos paramètres, propose des notifications, demande aux appelants d'enregistrer leur nom et fixe la sécurité par code confidentiel. Un code confidentiel est fourni à l’organisateur d’une réunion Microsoft Teams, qui lui permet de démarrer la réunion s’il n’a pas la possibilité de le faire en utilisant l’application Microsoft Teams. Vous pouvez cependant définir les options de telle sorte qu'un code confidentiel ne soit pas nécessaire pour démarrer une réunion.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="setting-meeting-join-options"></a>Définir les options de participation à une réunion
-
- **Utiliser le centre d’administration Microsoft Teams**
+## <a name="setting-meeting-join-options-using-the-microsoft-teams-admin-center"></a>Définition des options de participer à une réunion à l’aide du Microsoft Teams d’administration
 
 Vous devez être un administrateur du service Teams pour apporter ces modifications. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](./using-admin-roles.md) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
 
@@ -66,10 +64,10 @@ Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions q
 
 - [Raisons pour lesquelles vous devez Microsoft 365 ou Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Meilleures méthodes pour gérer vos Microsoft 365 vos Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
 Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](/powershell/module/teams/?view=teams-ps).
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Questions fréquentes à propos de l'audioconférence](audio-conferencing-common-questions.md)
+[Questions fréquentes à propos de l’audioconférence](audio-conferencing-common-questions.md)

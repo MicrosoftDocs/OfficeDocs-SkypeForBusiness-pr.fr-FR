@@ -1,7 +1,7 @@
 ---
 title: Configurer l’audioconférence pour les petites et moyennes entreprises
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: jonorton, tonysmit
 ms.topic: article
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment configurer l’audioconférence dans votre petite ou moyenne entreprise pour les personnes qui ont besoin d’utiliser un téléphone pour appeler des réunions. '
-ms.openlocfilehash: cd11d5c3c348b64717cb092a523ee857639712c6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fc9a87c2e516dc97fae5c71f72b5a7ef82c75c8d
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827407"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055624"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>Configurer l’audioconférence pour les petites et moyennes entreprises
 
@@ -114,7 +114,7 @@ Affectez ensuite le numéro à chaque personne qui sera responsable des réunion
 1. Dans le navigation gauche du centre d Microsoft Teams d’administration, sélectionnez **Utilisateurs,** cliquez sur le nom d’affichage de l’utilisateur, puis sélectionnez **Modifier.**
 2. **Sélectionnez** Modifier en côté de **Audioconférence,** puis dans le volet **Audioconférence,** sélectionnez un numéro dans les listes Numéro gratuit ou Numéro gratuit, puis sélectionnez **Appliquer.**  
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Audioconférence](audio-conferencing-in-office-365.md)
 - [Configurer l’audioconférence pour Teams](set-up-audio-conferencing-in-teams.md)
