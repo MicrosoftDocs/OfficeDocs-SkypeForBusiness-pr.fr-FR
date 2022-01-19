@@ -21,15 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
-- Phone System
-- seo-marvel-apr2020
+- Phone System - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams, qui fournit un message de salutation, des attentes musicales, la redirection d’appels et d’autres fonctionnalités.
-ms.openlocfilehash: ab5a99802ea9170ece7c1cd8d043b84c2cee452d
-ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
+ms.openlocfilehash: c1f1ade144b416668c1512472adfee4a88afb780
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "62039897"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62070972"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -68,7 +67,7 @@ Saisissez un nom pour la file d’attente des appels.
 
 Cliquez sur **Ajouter des comptes**, recherchez le compte de ressource que vous souhaitez utiliser avec cette file d’attente des appels, cliquez sur **Ajouter**, puis de nouveau sur **Ajouter**. (Les agents verront le nom du compte de ressource lorsqu’ils recevront un appel entrant.)
 
-Pour [plus d’Teams, voir Gérer Teams comptes](manage-resource-accounts.md) de ressources.
+Pour plus d’informations, [voir Gérer Teams des ressources.](manage-resource-accounts.md)
 
 ### <a name="assign-calling-id"></a>Affecter un ID d’appel
 
@@ -78,10 +77,10 @@ Si vous envisagez d’utiliser un canal Teams pour vos téléphonés, vous pouve
 
 Cliquez **sur** Ajouter, recherchez les comptes de ressources que vous voulez autoriser les agents à appeler à des fins d’ID lors des appels sortants, cliquez sur **Ajouter,** puis sur **Ajouter.**
 
-Si vous n’utilisez pas de canal Teams pour contrôler l’appartenance à un agent, vous pouvez définir directement l’ID d’appelant pour les membres de la file d’attente d’appels sur le numéro de service de la file d’attente d’appels ou le personnel automatique approprié. Consultez l’article [Gérer les stratégies d’identification de l’appelant dans Microsoft Teams](caller-id-policies.md) pour en savoir plus.
+Si vous n’utilisez pas de canal Teams pour contrôler l’appartenance à un agent, vous pouvez définir directement l’ID d’appelant pour les membres de la file d’attente d’appels sur le numéro de service de la file d’attente d’appels ou le personnel automatique approprié. Pour plus d’informations, voir [Gérer les stratégies d’ID](caller-id-policies.md)d’appelant dans Microsoft Teams.
 
 > [!NOTE]
-> Le compte de ressource utilisé à des fins d’ID d’appel doit avoir une Microsoft 365 Système téléphonique utilisateur virtuel et l’une des autorisations suivantes est attribuée :
+> Le compte de ressource utilisé à des fins d’ID d’appel doit avoir une Microsoft Teams Système téléphonique utilisateur virtuel et l’une des autorisations suivantes est attribuée :
 >
 > - Licence forfait d’appels et numéro de téléphone affecté
 > - Un opérateur Connecter numéro de téléphone affecté
@@ -113,7 +112,7 @@ Examinez les [conditions d’ajout des agents à une file d’attente ](plan-aut
 
 ##### <a name="teams-channel"></a>Canal Teams
 
-Vous pouvez ajouter jusqu’à 200 agents via un canal Teams. Notez que vous devez être membre de l’équipe, créateur ou propriétaire du canal pour ajouter un canal à la file d’attente.
+Vous pouvez ajouter jusqu’à 200 agents via un canal Teams. Vous devez être membre de l’équipe, créateur ou propriétaire du canal pour ajouter un canal à la file d’attente.
 
 Si vous voulez [utiliser un canal Teams pour gérer la file d’attente](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), sélectionnez l’option **Sélectionner une équipe**, puis cliquez sur **Ajouter un canal**. Recherchez l’équipe à utiliser, sélectionnez-la, puis cliquez sur **Ajouter**. Sélectionnez le canal que vous voulez utiliser (seuls les canaux standard sont pris en charge), puis cliquez **sur Appliquer.** 
 
@@ -147,7 +146,7 @@ Le **mode conférence** réduit considérablement le temps nécessaire à la mis
   - la dernière version du client Microsoft Teams pour ordinateur de bureau, de l’application Android ou de l’application iOS
   - Microsoft Teams Téléphone version 1449/1.0.94.2020051601 ou ultérieure
   
-Les comptes Teams des agents doivent être définis sur le mode Teams uniquement. Les agents qui ne répondent pas aux exigences ne sont pas inclus dans la liste de routage des appels. Nous vous recommandons d’activer le mode conférence pour vos files d’attente des appels si tous vos agents utilisent des clients compatibles.
+Les comptes de Teams agents doivent être Teams mode client uniquement. Les agents qui ne répondent pas aux exigences ne sont pas inclus dans la liste de routage des appels. Nous vous recommandons d’activer le mode conférence pour vos files d’attente des appels si tous vos agents utilisent des clients compatibles.
 
 > [!NOTE]
 > Le mode conférence n’est pas pris en charge si les appels téléphoniques sont acheminés vers la file d’attente à partir d’une passerelle de routage direct activée pour le routage en fonction de l’emplacement.
@@ -202,7 +201,7 @@ La **durée de l’alerte pour un agent** spécifie la durée pendant laquelle l
 
 Le **nombre maximal d’appels dans la file d’attente** spécifie le nombre maximal d’appels pouvant attendre dans la file d’attente à tout moment. La valeur par défaut est de 50, mais elle peut être définie sur une valeur comprise entre 0 et 200. Lorsque cette limite est atteinte, l’appel est géré comme cela est indiqué par le paramètre **Lorsque le nombre maximum d’appels est atteint**.
 
-Vous pouvez choisir de mettre fin à l’appel ou de le rediriger vers l’une des destinations de routage des appels. Par exemple, vous pouvez demander à l’appelant de laisser un message vocal pour les agents dans la file d’attente. Pour les transferts externes, veuillez vous reporter aux rubriques [Conditions préalables](plan-auto-attendant-call-queue.md#prerequisites) et [Transferts de numéros de téléphone externes : détails techniques](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) pour le formatage des numéros.
+Vous pouvez choisir de mettre fin à l’appel ou de le rediriger vers l’une des destinations de routage des appels. Par exemple, vous pouvez demander à l’appelant de laisser un message vocal pour les agents dans la file d’attente. Pour les transferts [externes, consultez les conditions préalables](plan-auto-attendant-call-queue.md#prerequisites) et les transferts de numéros de téléphone [externes - Détails techniques](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) de la mise en forme des numéros.
 
 > [!NOTE]
 > Si le nombre maximum d’appels est défini sur 0, le message d’accueil ne sera pas diffusé.
@@ -248,15 +247,58 @@ Les clients suivants sont pris en charge pour les agents d’appel dans une file
 
 ## <a name="call-queue-cmdlets"></a>Cmdlets de files d’attente des appels
 
-Vous pouvez également utiliser Windows PowerShell pour créer et configurer des files d’attente des appels. Voici les cmdlets utilisés pour gérer une file d’attente des appels.
+Windows PowerShell vous permet de créer et de gérer des files d’attente d’appels via la ligne de commande d’une manière par lot ou par programme.
 
-- [New-CsCallQueue](/powershell/module/skype/new-CsCallQueue)
+Les cmdlets suivantes vous permettent de gérer une file d’attente d’appels :
 
-- [Set-CsCallQueue](/powershell/module/skype/set-CsCallQueue)
+- [New-CsCallQueue](/powershell/module/skype/New-CsCallQueue)
+- [Get-CsCallQueue](/powershell/module/skype/Get-CsCallQueue)
+- [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
+- [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-- [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
+Les cmdlets supplémentaires suivantes sont également nécessaires pour gérer les utilisateurs, les comptes de ressources, les licences Microsoft Teams Téléphone, les numéros de téléphone, les fichiers audio et la langue prise en charge qui seront utilisées avec les files d’attente d’appels :
 
-- [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
+Utilisateurs/Teams
+
+- Utilisateurs
+- - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
+
+- Teams : 
+- - [Get-Team](/powershell/module/teams/Get-Team)
+- - [Get-TeamChannel](/powershell/module/teams/Get-TeamChannel)
+
+Comptes de ressources :
+
+- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
+- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
+- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
+- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
+
+- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
+- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
+
+Licences Teams Téléphone virtuels :
+
+- [Set-MsolUserLicense](/powershell/module/skype/Set-MsolUserLicense)
+
+Téléphone affectation de numéro :
+
+- [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/Set-CsOnlineVoiceApplicationInstance)
+
+Fichiers audio
+
+- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
+- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
+- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
+- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
+
+Listes de langues de prise en charge
+
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+
+Pour consulter un guide pas à pas sur la création de files d’attente d’appels avec PowerShell, voir Création de files d’attente d’appels avec des [cmdlets PowerShell](create-a-phone-system-call-queue-via-cmdlets.md)
 
 ## <a name="call-queue-diagnostic-tool"></a>Outil de diagnostic de files d’attente d’appels
 
@@ -278,7 +320,3 @@ Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suiva
 [Obtenir des numéros de téléphone de service](getting-service-phone-numbers.md)
 
 [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[New-CsOnlineApplicationInstance](/powershell/module/skype/new-csonlineapplicationinstance)
-
-[Présentation de Windows PowerShell et Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

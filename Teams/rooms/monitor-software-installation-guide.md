@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Intégration de salles Teams à des services gérés
 f1keywords: ''
-ms.openlocfilehash: 70209bcd60740f1d1e19b45b215b921396a6f0fd
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a02f47970392d5c428eb2cd76387678c1c2a5ed6
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767496"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62071052"
 ---
 # <a name="monitor-device-software-installation"></a>Surveiller l’installation des logiciels de l’appareil
 
@@ -116,7 +116,7 @@ Le processus d’inscription implique quelques étapes :
 1. Installez le programme d’installation de l’agent (téléchargé à l’étape 2) sur des unités MTR, soit en exécutant la MSI localement sur un appareil MTR, soit via votre moyen normal de publication d’applications MSI en masse sur les appareils de votre environnement (stratégie de groupe, etc.).  
 1. La salle s’affiche dans le portail dans les 5 à 10 minutes. Si ce n’est pas le cas, contactez managedroomsupport@microsoft.com.  
 
-![Figure 5](../media/software-installation-005.jpg)
+![Capture d’écran des paramètres et des clés d’inscription automatique.](../media/software-installation-005.jpg)
 
 ## <a name="installation"></a>Installation
 

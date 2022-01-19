@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment planifier la dérivation média avec Système téléphonique routage direct, ce qui vous permet de raccourcir le chemin d’accès au trafic multimédia et d’améliorer les performances.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1fb9eff518232f53868752a297775369af13713a
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 2d9a38772cd9119a7717608726db45bce6055229
+ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306329"
+ms.lasthandoff: 01/18/2022
+ms.locfileid: "62064880"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -148,7 +148,7 @@ Le tableau ci-dessous résume la différence entre les processeurs de média et 
 |Dans le chemin de médias pour les appels contournements pour les utilisateurs finaux | Jamais | Si le client ne peut pas accéder au SBC sur l’adresse IP publique |
 |Dans le chemin multimédia des applications vocales | Toujours | Jamais |
 |Can do transcoding (B2BUA)\* | Oui | Non, seul l’audio est relayé entre les points de terminaison. |
-|Nombre d’instances dans le monde et emplacement | 10 total : 2 dans l’Est et l’Ouest des États-Unis ; 2 à Amsterdam et Dublin ; 2 à Hong Kong et Singapour ; 2 au Japon ; 2 en Australie de l’Est et du Sud-est | Multiple|
+|Nombre d’instances dans le monde et emplacement | 15 total : 3 dans les pays Centre Est, Ouest et Centre Sud des États-Unis ; 4 à Amsterdam, Dublin, Uk South et France Central ; 2 à Hong Kong et Singapour ; 2 au Japon ; 2 en Australie de l’Est et du Sud-est ; 1 au Brésil sud ; 1 en Afrique du Sud (Nord) | Multiple|
 
 Les plages d’adresses IP sont les plus diverses :
 - 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254)

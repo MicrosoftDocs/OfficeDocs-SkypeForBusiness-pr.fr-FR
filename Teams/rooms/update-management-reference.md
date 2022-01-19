@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Matériel de référence
 f1keywords: ''
-ms.openlocfilehash: 3ff2e100dbae602f8b302b134ebd81b53066afb6
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 5f3b23078f29cba82809b5ef22440dd0ddf838fb
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767555"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62071022"
 ---
 # <a name="managing-room-software-stack"></a>Pile de logiciels de gestion des salles  
 Dans chaque salle, les différentes parties du logiciel fonctionnent toutes ensemble pour offrir l’expérience. À un niveau élevé, ils peuvent être résumés comme suit : 
@@ -34,13 +34,13 @@ Pour garantir une expérience de réunion positive quotidiennement  dans chaque 
 Les services gérés pour Salles Microsoft Teams gèrent tout ce qui précède afin que vous n’avez pas à vous soucier de recevoir une mise à jour ou de résoudre les problèmes d’une mise à jour. Dans cette section, nous allons décrire le fonctionnement des mises à jour logicielles gérées.  
 
 ## <a name="managing-to-a-good-state"></a>Gestion en bon état 
-Notre objectif principal est de maintenir le fonctionnement et la disposition des salles pour votre organisation. Des experts des services gérés travaillent en permanence pour vous aider à organiser, valider et déployer les mises à jour de vos salles de production. Dans certains cas, cela peut signifier que nous donnez la priorité à l’état des salles par rapport aux nouvelles fonctionnalités et aux nouvelles publication afin de les valider avant leur publication. 
+Notre objectif principal est de maintenir le fonctionnement et la disposition des salles pour votre organisation. Des experts des services gérés travaillent en permanence pour vous aider à organiser, valider et déployer les mises à jour de vos salles de production. Dans certains cas, cela peut signifier que nous donnez la priorité à l’état des salles par rapport aux nouvelles fonctionnalités et aux nouvelles publication afin de les valider avant leur publication.
 
 Mais surtout, cela signifie que vous n’avez pas à vous soucier de prendre du temps pour découvrir les détails de ces mises à jour et les valider vous-même. En cas de problèmes avec une mise à jour spécifique ou une salle spécifique, nous vous aiderons à les résoudre.  
 
-Par conséquent, le processus de déploiement des mises à jour peut être décomposé en ce qui suit : 
+Par conséquent, le processus de déploiement des mises à jour peut être décomposé en ce qui suit :
 
-- L’équipe des services gérés identifie de manière proactive les mises à jour, les valide, puis les met en avant pour leur publication dans votre environnement. 
-- Les mises à jour des salles seront commandées afin d’éviter les conflits et les interactions, puis prévues pour éviter des heures d’ouverture normales. 
-- Le système de sonneries vous permet de rester informé des mises à jour appliquées à vos salles sans que vous ne soyez en mesure de les faire. 
-- Les services gérés surveillent les mises à jour et avertit automatiquement le centre d’opérations de salle pour suivre les problèmes et travailler avec vous pour les résoudre. 
+- L’équipe des services gérés identifie de manière proactive les mises à jour, les valide, puis les met en avant pour leur publication dans votre environnement.
+- Les mises à jour des salles seront commandées afin d’éviter les conflits et les interactions, puis prévues pour éviter des heures d’ouverture normales.
+- Le système de sonneries vous permet de rester informé des mises à jour appliquées à vos salles sans que vous ne soyez en mesure de les faire.
+- Les services gérés surveillent les mises à jour et avertit automatiquement le centre d’opérations de salle pour suivre les problèmes et travailler avec vous pour les résoudre.

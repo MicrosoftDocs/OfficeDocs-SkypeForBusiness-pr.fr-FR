@@ -19,12 +19,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1221747b1ad8487c0b5852b6adaf5129b5a5288e
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: e9f10a35e3be27b446fa7f55b5c9d97e3418fe36
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766767"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056084"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -255,17 +255,7 @@ La rétention d’enregistrement pour ce stockage temporaire est affectée par l
 La taille d’un enregistrement de 1 heure est de 400 Mo. Veillez à bien comprendre la capacité requise pour les fichiers enregistrés et à disposer d’un espace de stockage suffisant dans OneDrive Entreprise et SharePoint Online.  Lisez [Définissez l’espace de stockage par défaut pour OneDrive Entreprise](/onedrive/set-default-storage-space) et [Gérer les limites de stockage de site SharePoint Online](/sharepoint/manage-site-collection-storage-limits) pour comprendre le stockage de base inclus dans l’abonnement et comment acheter du stockage supplémentaire.
 
  <a name="auto-expiration"></a>
-### <a name="auto-expiration-of-teams-meeting-recordings"></a>Expiration automatique des enregistrements de réunion Teams : 
-
-> [!IMPORTANT]
->
-> La fonctionnalité d’expiration automatique décrite dans cet article n’est pas encore lancée. Veuillez-vous référer à [la feuille de route (ID de fonctionnalité : 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) pour plus d’informations sur sa date de livraison.
-> 
-> Nous fournissons des informations sur le futur fonctionnement de cette fonctionnalité dans l’avenir, afin que vous puissiez planifier cette modification et modifier les paramètres de stratégie Teams à l’avance.
->
-> La commande qui modifie de façon préventive le paramètre d’expiration par défaut dans Teams est en cours de déploiement, mais vous pouvez peut-être voir l’attribut dans PowerShell. Le paramètre n’est actuellement pas disponible dans les Centres d’administration Teams. Ces paramètres seront disponibles et communiqués dans un billet du centre de messages au moins 30 jours avant le lancement de la fonctionnalité.
->
->
+### <a name="auto-expiration-of-teams-meeting-recordings"></a>Expiration automatique des enregistrements de réunion Teams
 
 En savoir plus sur les modifications spécifiques à l’administrateur [ici.](meeting-expiration.md#changes-to-meeting-expiration)
 

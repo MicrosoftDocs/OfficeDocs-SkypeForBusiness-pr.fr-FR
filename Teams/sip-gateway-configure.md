@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4548ab9abfd96b3945c19c07e08baf1ede05983
-ms.sourcegitcommit: 1e83f2c1ed12bcb611eb4eb0a5f1f58496c63147
+ms.openlocfilehash: 1af44c5e3962f89346cae166bf40efa6a8622338
+ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "61426106"
+ms.lasthandoff: 01/18/2022
+ms.locfileid: "62065180"
 ---
 # <a name="configure-sip-gateway"></a>Configurer la passerelle SIP
 
@@ -40,7 +40,7 @@ Avant de pouvoir configurer la passerelle SIP, vous devez :
 
 - **Assurez-vous que les appareils SIP ne se cachent pas derrière un proxy.** Assurez-vous que le trafic http/s contourne tout proxy http/s d’entreprise.
 
-- **Ouvrez le port UDP.** Ouvrez le port UDP dans la plage 49152 à 53247.
+- **Ouvrez le port UDP.** Ouvrez le port UDP entre 49152 et 53247 pour les plages IP 52.112.0.0/14 à 52.120.0.0/14.
 
 - **Ouvrez le port TCP.** Ouvrez le port TCP 5061 pour les plages IP 52.112.0.0/14 à 52.120.0.0/14.
 
