@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams, qui fournit un message de salutation, des attentes musicales, la redirection d’appels et d’autres fonctionnalités.
-ms.openlocfilehash: c1f1ade144b416668c1512472adfee4a88afb780
-ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
+ms.openlocfilehash: e54dbfa678b8bfdaec4dac45e16728a0fcd79de9
+ms.sourcegitcommit: bb302109886a4b853a8e493fb0ffafad4bc4f86b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62070972"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62085243"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -281,7 +281,7 @@ Comptes de ressources :
 
 Licences Teams Téléphone virtuels :
 
-- [Set-MsolUserLicense](/powershell/module/skype/Set-MsolUserLicense)
+- [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
 
 Téléphone affectation de numéro :
 
