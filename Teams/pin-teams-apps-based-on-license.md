@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a82dbf888fcd6fd0b05816e3edb390b79c9a9e3f
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 659cfd90e2fb5f498c00ea4b48039f9493357309
+ms.sourcegitcommit: 0486ca906fc7f66460e54e400541e5d5cbfc6dde
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055314"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62161033"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>Personnaliser vos applications Teams en fonction de leur licence
 
@@ -47,7 +47,6 @@ Applications épinglées pour les utilisateurs titulaires d’une licence F :
 - Équipes
 - Plannings
 - Tâches
-- Talkie-walkie
 
 ## <a name="admin-controls"></a>Contrôles d’administration
 
