@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9bf452893172091d1c534d4a28215b661fd5fe6c
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 247f8e1d735bfe331c914da1ec89863b755cf373
+ms.sourcegitcommit: 11061890a64da88d92db3fa43f1bf320b216c355
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767337"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62163545"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barrières de l’information au Microsoft Teams
 
@@ -188,7 +188,7 @@ Le mode Barrières de l’information permet d’renforcer les personnes qui peu
 
 - **Ouvrir**: Cette configuration est le mode IB par défaut pour tous les groupes existants qui ont été provisionés avant l’ouverture d’une barrière de l’information. Dans ce mode, aucune stratégie DE l’organisation n’est applicable.
 - **Implicite**: cette configuration est le mode IB par défaut lorsqu’une équipe est mise en service après l’activation des barrières de l’information. Le mode implicite vous permet d’ajouter tous les utilisateurs compatibles du groupe.
-- **Propriétaire modéré**: ce mode est définie pour une équipe lorsque vous voulez autoriser la collaboration entre les utilisateurs de segments incompatibles modérés par le propriétaire. Le propriétaire de l’équipe peut ajouter de nouveaux membres selon sa stratégie DNS.
+- **Modérer par le propriétaire (aperçu)**: ce mode est définie pour une équipe lorsque vous voulez autoriser la collaboration entre des utilisateurs de segments incompatibles modérés par le propriétaire. Le propriétaire de l’équipe peut ajouter de nouveaux membres selon sa stratégie DNS.
 
 Teams création avant l’activation d’une stratégie de barrière des informations dans votre client sont automatiquement définies sur *le* mode Ouvrir par défaut. Une fois les stratégies IB activées sur votre client, vous devez mettre à jour le mode de vos équipes existantes vers *Implicite* pour vous assurer que les équipes existantes respectent la conformité de l’organisation.
 
