@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea57cc0f2a0809400376372952dfd7b274f40a02
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: ff8418a44ea8369d4659b6bb5978e3f4a1ce51d7
+ms.sourcegitcommit: 11061890a64da88d92db3fa43f1bf320b216c355
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055415"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62163535"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guide d’administration informatique sur Education Insights dans Microsoft Teams
 
@@ -138,6 +138,9 @@ Pour l’instant, ces données proviennent des domaines suivants dans les équip
 
 > [!NOTE]
 > La plupart des données collectées s’affichent dans Insights en quelques minutes. La présence aux réunions de classe (réunions associées à l’un des canaux de classe) apparaît quelques heures après la fin de la réunion, généralement jusqu’à 24 heures plus tard.
+
+> [!NOTE]
+> Les données collectées dans Éducation Insights sont conservées jusqu’à ce que l’administrateur informatique désactive l’[option Education Analytics](#Tturn-sds-for-insights-on-or-off) ou que l’abonnement Office du client se termine. La suppression de fonctionnalités spécifiques dans Teams ne supprime pas des données d’historiques.
 
 ### <a name="privacy-and-security"></a>Confidentialité et sécurité
 Les informations collectées et présentées via Insights répondent à [plus de 90 normes réglementaires et sectorielles](/compliance/regulatory/offering-home), y compris le [RGPD](/compliance/regulatory/gdpr) et la loi [FERPA (Family Educational Rights and Privacy Act)](/compliance/regulatory/offering-ferpa) pour la sécurité des élèves et des enfants, ainsi que d’autres réglementations axées sur la confidentialité.
