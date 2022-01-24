@@ -15,19 +15,15 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 708ce6158cd799bed506751006d94679eedcd950
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 01ef7d91b0119501a3f7570b85ea902c0ebbb7a4
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842596"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180877"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Gérer l’accès en équipe pour les employés en ligne Teams
-
-> [!IMPORTANT]
-> Microsoft StaffHub n’existe plus depuis le 30 juin 2020. Nous sommes en train de transformer les fonctionnalités de StaffHub en Microsoft Teams. Aujourd’hui, Teams inclut l’application Plannings pour la gestion des plannings et des fonctionnalités supplémentaires seront déployées à l’avenir. StaffHub a cessé de fonctionner pour tous les utilisateurs le 30 juin 2020. Toute personne qui essaie d’ouvrir StaffHub s’afficher un message lui permettant de télécharger Teams. Pour en savoir plus, consultez l’article [Microsoft StaffHub n’existe plus](microsoft-staffhub-to-be-retired.md).  
-
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -92,7 +88,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Default Message" -En
 
 ### <a name="example-2"></a>Exemple 2 
 
-Dans cet exemple, nous créons une stratégie nommée Off Shift Teams Message personnalisé Access. Dans cette stratégie, la présence basée sur les shifts est désactivée et un message personnalisé s’affiche chaque fois qu’un utilisateur affecté à cette stratégie accède à Teams lorsqu’il est en congé. L’utilisateur peut utiliser Teams lorsqu’il est en congé s’il accepte le message, et la période de grâce entre le début du premier shift ou la fin du dernier shift et quand l’accès est restreint est de 15 minutes.  
+Dans cet exemple, nous créons une stratégie nommée Off Shift Teams Message personnalisé Access. Dans cette stratégie, la présence basée sur les shifts est désactivée et un message personnalisé s’affiche chaque fois qu’un utilisateur affecté à cette stratégie accède à Teams congé. L’utilisateur peut utiliser Teams lorsqu’il est en congé s’il accepte le message, et la période de grâce entre le début du premier shift ou la fin du dernier shift et quand l’accès est restreint est de 15 minutes.  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Custom Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType CustomMessage -ShiftNoticeMessageCustom "Your time on Teams when on off shift won't count toward payable hours" -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 15
@@ -124,7 +120,7 @@ Dans cet exemple, nous affectons une stratégie nommée Off Shift Teams Access C
 Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName "Off Shift Teams Access Custom Message"
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Gérer l’application Shifts pour votre organisation dans Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Présentation de Teams PowerShell](../../teams-powershell-overview.md)

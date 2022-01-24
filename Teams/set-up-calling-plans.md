@@ -25,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Découvrez comment configurer des forfaits d’appels, notamment afficher les plans disponibles dans votre région, acheter des & attribuer des licences, obtenir des numéros de téléphone et ajouter des adresses d'& urgence.
-ms.openlocfilehash: 594304fdc9aa95d283d6366a27aff48d5e4a1c91
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: 996211b3347f078b4d92c5a473b3d8057346231d
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410695"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181087"
 ---
 # <a name="set-up-calling-plans"></a>Configurer des forfaits d'appels
 
@@ -100,12 +100,12 @@ Si vous connaissez Windows PowerShell, vous pouvez utiliser les applets de comma
   
 - [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber?view=skype-ps) : extrait les numéros de téléphone de l'annuaire vocal de l'entreprise.
     
-- [Set-CsOnlineVoiceUser](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps): Définit les numéros de téléphone.
+- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment?view=teams-ps): définit les numéros de téléphone.
     
 Pour en savoir plus, voir [Teams vue d’ensemble de PowerShell.](teams-powershell-overview.md)
   
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Questions fréquentes à propos du transfert de numéros de téléphone](./phone-number-calling-plans/port-order-overview.md)
 
 [Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)

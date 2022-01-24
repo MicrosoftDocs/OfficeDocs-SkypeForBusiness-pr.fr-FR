@@ -24,18 +24,18 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrir comment configurer les files d’attente d’appels via des cmdlets
-ms.openlocfilehash: 8ffbef5541a230755bb7439507e3002a5cb92462
-ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
+ms.openlocfilehash: a8f24f11cb19f448fc897043c7cb046a08c32341
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62071109"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181107"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>Créer une file d’attente d’appels via des cmdlets
 
 ## <a name="assumptions"></a>Hypothèses
 1)  PowerShell est installé sur votre ordinateur
-- Configurer votre ordinateur pour [l’Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+- Configurer votre ordinateur pour [l’Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 - Module MSTeams installé ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
 - Module MSOnline installé ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  Vous avez des droits d’administration des locataires
@@ -161,6 +161,8 @@ Remarque : Téléphone numéro non requis ici, car la file d’attente d’appel
 - - Standard automatique : ce933385-9390-45d1-9512-c8d228074e07
 - - File d’attente d’appels : 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
+Remarque : le type de licence indiqué ci-dessous (PHONESYSTEM_VIRTUALUSER) doit être répertorié par l'Get-MsolAccountSku cmdlet ci-dessus.
+
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
@@ -215,6 +217,9 @@ Remarque : Téléphone numéro non requis ici, car la file d’attente d’appel
 - ApplicationID
 - - Standard automatique : ce933385-9390-45d1-9512-c8d228074e07
 - - File d’attente d’appels : 11cd3e2e-fccb-42ad-ad00-878b93575e07
+
+Remarque : le type de licence indiqué ci-dessous (PHONESYSTEM_VIRTUALUSER) doit être répertorié par l'Get-MsolAccountSku cmdlet ci-dessus.
+
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
@@ -271,8 +276,11 @@ Remarque : Téléphone numéro non requis ici, car la file d’attente d’appel
 - ApplicationID
 - - Standard automatique : ce933385-9390-45d1-9512-c8d228074e07
 - - File d’attente d’appels : 11cd3e2e-fccb-42ad-ad00-878b93575e07
+
+Remarque : le type de licence indiqué ci-dessous (PHONESYSTEM_VIRTUALUSER) doit être répertorié par l'Get-MsolAccountSku cmdlet ci-dessus.
+
 ````
-New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
+New-CsOnlineApplicationInstance -UserPrincipalName Facilities-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
 Set-MsolUser -UserPrincipalName "Facilities-RA@contoso.com" -UsageLocation US
 

@@ -2,7 +2,7 @@
 title: Gérer l’application Plannings pour votre organisation dans Teams
 author: LanaChin
 ms.author: v-lanachin
-ms.reviewer: lisawu,gumariam
+ms.reviewer: aaku
 manager: samanro
 ms.topic: article
 audience: admin
@@ -22,17 +22,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c4b1550ca90515714e509017f4fb13b83414fbf0
-ms.sourcegitcommit: 293d1b8a591d2284029632874067471f8d5bb0ff
+ms.openlocfilehash: c6e50d92dfb296bcf67402cdbd14a65fba490125
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/30/2021
-ms.locfileid: "61639688"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180927"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Plannings pour votre organisation dans Microsoft Teams
-
-> [!IMPORTANT]
-> Microsoft StaffHub n’existe plus depuis le 30 juin 2020. Nous développons les fonctionnalités StaffHub dans Microsoft Teams. Aujourd’hui, Teams inclut l’application Plannings pour la gestion des plannings et des fonctionnalités supplémentaires seront déployées à l’avenir. StaffHub a cessé de fonctionner pour tous les utilisateurs le 30 juin 2020. Toute personne qui essaie d’ouvrir StaffHub s’afficher un message lui permettant de télécharger Teams. Pour en savoir plus, consultez l’article [Microsoft StaffHub n’existe plus](microsoft-staffhub-to-be-retired.md).  
 
 ## <a name="overview-of-shifts"></a>Vue d’ensemble de Plannings
 

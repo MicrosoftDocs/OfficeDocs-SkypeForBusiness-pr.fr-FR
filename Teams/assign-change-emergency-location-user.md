@@ -18,16 +18,16 @@ f1.keywords:
 - NOCSH
 description: Dans cet article, vous allez découvrir comment affecter ou modifier un emplacement d’urgence pour les utilisateurs de votre organisation.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efe6b81961a4f7ca4eeb39e3f10b0c117cba7d6e
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: 004635be112bb8d38b88277e89c24d263b21ec37
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634903"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180897"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Affecter ou modifier un emplacement d’urgence pour un utilisateur
 
-Quelle que soit l’option de connectivité [RST que](pstn-connectivity.md) vous choisissez, vous choisissez plans d’appel Microsoft, opérateur Connecter ou routage direct un emplacement d’urgence doit être affecté à chaque numéro de téléphone ou &mdash; &mdash; utilisateur.
+Quelle que soit l’option de connectivité [RST que](pstn-connectivity.md) vous choisissez, choisissez les plans d’appel Microsoft, les Connecter d’opérateur ou le routage direct d’un emplacement d’urgence doivent être affectés à chaque numéro de téléphone &mdash; ou &mdash; utilisateur.
 
 Toutefois, en fonction de l’option de connectivité RSTN, la façon dont vous gérez et attribuez des emplacements d’urgence à un utilisateur peut varier. Pour plus d’informations, voir [Gérer les appels d’urgence.](what-are-emergency-locations-addresses-and-call-routing.md)
 
@@ -55,7 +55,7 @@ Vous pouvez affecter ou modifier un emplacement d’urgence pour un utilisateur 
 
 ## <a name="using-powershell"></a>Utiliser PowerShell
 
-Voir [Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser) 
+Voir [Set-CsPhoneNumberAssignment.](/powershell/module/teams/set-csphonenumberassignment) 
 
     
 ## <a name="related-topics"></a>Sujets associés
