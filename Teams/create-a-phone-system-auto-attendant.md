@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les attendants automatiques pour les grandes organisations dans Microsoft Teams.
-ms.openlocfilehash: 407d548a58240cb66cecabce01129fc3a7c270ca
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 834ca1b68e64047c6405c2aefba361e0ef4f1e81
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767137"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180957"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un attendant automatique
 
@@ -228,7 +228,7 @@ Reportez-vous [aux conditions préalables](plan-auto-attendant-call-queue.md#pre
 
 - Pour un compte [](calling-plans-for-office-365.md) de ressource avec une licence Plan d’appels ou un numéro d’opérateur [Connecter,](operator-connect-plan.md) le numéro de téléphone de transfert externe doit être entré au format E.164 (+[code du pays][code de zone][numéro de téléphone]).
 
-- Pour un compte de ressource ayant une stratégie de routage vocal en ligne de licence Système téléphonique et de routage direct, le format du numéro de téléphone de transfert externe dépend des paramètres du contrôleur de session en bordure [(SBC).](direct-routing-connect-the-sbc.md)
+- Pour un compte de ressource ayant une stratégie de routage voix de licence Microsoft Teams Téléphone et de routage direct, le format du numéro de téléphone de transfert externe dépend des paramètres du contrôleur de session en bordure [(SBC).](direct-routing-connect-the-sbc.md)
 
 Le numéro de téléphone sortant affiché est déterminé comme suit :
 
@@ -239,27 +239,77 @@ Le numéro de téléphone sortant affiché est déterminé comme suit :
 
 Dans un environnement Skype Entreprise hybride, pour transférer un appel de attendant automatique vers le RSTN, créez un utilisateur sur site avec le transfert d’appel sur le numéro PSTN. L’utilisateur doit être activé pour les Voix Entreprise et une stratégie vocale lui est affectée. Pour en savoir plus, [consultez le transfert d’appel du attendant automatique vers PSTN.](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
 
-### <a name="create-an-auto-attendant-with-powershell"></a>Créer un attendant automatique avec PowerShell
+## <a name="auto-attendant-cmdlets"></a>Applets de commande de standard automatique
 
-Vous pouvez également utiliser PowerShell pour créer et configurer des attendants automatiques. Voici les cmdlets dont vous avez besoin pour gérer un attendant automatique :
+Windows PowerShell vous permet de créer et gérer des attendants automatiques via la ligne de commande d’une manière par lot ou par programme.
+
+Les cmdlets suivantes vous permettent de gérer les travailleurs automatiques :
 
 - [New-CsAutoAttendant](/powershell/module/skype/new-csautoattendant)  
-- [Set-CsAutoAttendant](/powershell/module/skype/set-csautoattendant)
 - [Get-CsAutoAttendant](/powershell/module/skype/get-csautoattendant)
-- [Get-CsAutoAttendantHolidays](/powershell/module/skype/get-csautoattendantholidays)
+- [Set-CsAutoAttendant](/powershell/module/skype/set-csautoattendant)
+- [Update-CsAutoAttendant](/powershell/module/skype/update-csautoattendant)
 - [Remove-CsAutoAttendant](/powershell/module/skype/remove-csautoattendant)
-- [New-CsAutoAttendantMenu](/powershell/module/skype/new-csautoattendantmenu)
-- [New-CsOnlineAudioFile](/powershell/module/skype/new-CsOnlineAudioFile)
-- [New-CsAutoAttendantCallFlow](/powershell/module/skype/New-CsAutoAttendantCallFlow)
-- [Export-CsAutoAttendantHolidays](/powershell/module/skype/export-csorganizationalautoattendantholidays)
 - [Nouvelle CsOnlineTimeRange](/powershell/module/skype/new-csonlinetimerange)
 - [Nouvelle CsOnlineDateTimeRange](/powershell/module/skype/new-csonlinedatetimerange)
 - [Nouvelle CsOnlineSchedule](/powershell/module/skype/New-CsOnlineSchedule)
-- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-- [New-CsAutoAttendantCallHandlingAssociation](/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
-- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Get-CsAutoAttendantHolidays](/powershell/module/skype/get-csautoattendantholidays)
 - [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
+- [Export-CsAutoAttendantHolidays](/powershell/module/skype/export-csautoattendantholidays)
+- [New-CsAutoAttendantDialScope](/powershell/module/skype/New-CsAutoAttendantDialScope)
+- [New-CsAutoAttendantPrompt](/powershell/module/skype/New-CsAutoAttendantPrompt)
 - [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
+- [New-CsAutoAttendantMenuOption](/powershell/module/skype/New-CsAutoAttendantMenuOption)
+- [New-CsAutoAttendantMenu](/powershell/module/skype/new-csautoattendantmenu)
+- [New-CsAutoAttendantCallFlow](/powershell/module/skype/New-CsAutoAttendantCallFlow)
+- [New-CsAutoAttendantCallHandlingAssociation](/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
+- [Get-CsAutoAttendantStatus](/powershell/module/skype/Get-CsAutoAttendantStatus)
+- [Get-CsAutoAttendantTenantInformation](/powershell/module/skype/Get-CsAutoAttendantTenantInformation)
+
+Les cmdlets supplémentaires suivantes sont également nécessaires pour gérer les utilisateurs, les comptes de ressources, les licences Microsoft Teams Téléphone, les numéros de téléphone, les fichiers audio et la langue prise en charge qui seront utilisées avec les files d’attente d’appels :
+
+Utilisateurs/Teams
+
+- Utilisateurs
+- - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
+
+- Teams : 
+- - [Get-Team](/powershell/module/teams/Get-Team)
+
+Comptes de ressources :
+
+- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
+- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
+- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
+- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
+- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
+- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
+
+Licences Teams Téléphone virtuels :
+
+- [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
+- [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
+
+Téléphone affectation de numéro :
+
+- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
+- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)
+
+Fichiers audio
+
+- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
+- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
+- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
+- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
+
+Langues de prise en charge et fuseaux horaires
+
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+
+Pour consulter un guide pas à pas sur la création de guides automatiques avec PowerShell, voir Créer des guides automatiques avec [des cmdlets PowerShell](create-a-phone-system-auto-attendant-via-cmdlets.md)
 
 ## <a name="auto-attendant-diagnostic-tool"></a>Standard automatique outil de diagnostic
 

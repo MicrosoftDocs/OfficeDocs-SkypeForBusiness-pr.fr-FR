@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez les fonctionnalités, la disponibilité et comment planifier et configurer des Microsoft Teams Système téléphonique pour votre entreprise. '
-ms.openlocfilehash: f396d8fc3dd1e26a2969b825c360054db91071fa
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 1643e0fe9bd877f627ec186e405bb155635f9f74
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015254"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180937"
 ---
 # <a name="heres-what-you-get-with-teams-phone"></a>Voici ce que vous obtenez avec Teams Téléphone
 
@@ -40,7 +40,7 @@ Les clients sont disponibles pour PC, Mac et appareils mobiles, ce qui fournit d
 
 Pour utiliser Teams Téléphone fonctionnalités, votre organisation doit avoir une licence Système téléphonique licence. Pour plus d’informations sur les licences, voir [Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-Sachez que la plupart des fonctionnalités nécessitent que vous affectiez la licence Système téléphonique et que les utilisateurs soient « activés pour la voix ». Pour attribuer la licence, utilisez [l’cmdlet Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) et définissez le paramètre **enterprisevoiceenabled** sur $true. Certaines fonctionnalités, telles que le attendant automatique cloud, ne nécessitent pas qu’un utilisateur soit activé pour la voix. Les exceptions sont appelées dans le tableau ci-dessous.
+Sachez que la plupart des fonctionnalités nécessitent que vous affectiez la licence Système téléphonique et que les utilisateurs soient « activés pour la voix ». Pour attribuer la licence, utilisez la [cmdlet Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps) et définissez le paramètre **EnterpriseVoiceEnabled** sur $true. Certaines fonctionnalités, telles que le attendant automatique cloud, ne nécessitent pas qu’un utilisateur soit activé pour la voix. Les exceptions sont appelées dans le tableau ci-dessous.
   
 ## <a name="teams-phone-features"></a>Teams Téléphone fonctionnalités
 

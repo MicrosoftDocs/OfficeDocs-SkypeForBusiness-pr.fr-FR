@@ -15,17 +15,17 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Découvrez comment permettre aux utilisateurs d Téléphone Microsoft routage direct du système.
-ms.openlocfilehash: b6eb9bf0930b9b8f78d13deca95349afd78ec5af
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Découvrez comment activer l’accès des utilisateurs Microsoft Teams Téléphone routage direct.
+ms.openlocfilehash: 1fc45484dfe2c0b78674f5a6631fd3f1001196dd
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627586"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180947"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale
 
-Cet article explique comment permettre aux utilisateurs d’obtenir Système téléphonique routage direct.  Voici l’étape 2 de la procédure de configuration du routage direct :
+Cet article explique comment permettre aux utilisateurs d’obtenir un routage direct. Voici l’étape 2 de la procédure de configuration du routage direct :
 
 - Étape 1. [Connecter SBC avec votre système Téléphone Microsoft données et valider la connexion](direct-routing-connect-the-sbc.md) 
 - **Étape 2. Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale**   (cet article)
@@ -47,26 +47,26 @@ Lorsque vous êtes prêt à activer le routage direct pour les utilisateurs, sui
 Deux options s’offrent à vous pour créer un utilisateur dans Microsoft 365 ou Office 365. Toutefois, Microsoft recommande à votre organisation de choisir une option pour éviter les problèmes de routage : 
 
 - Créez l’utilisateur dans Active Directory local et synchronisez l’utilisateur avec le cloud. Consultez [Intégrer vos annuaires locaux à Azure Active Directory.](/azure/active-directory/connect/active-directory-aadconnect)
-- Créez l’utilisateur directement dans le Centre d’administration Microsoft 365. Voir [Ajouter des utilisateurs individuellement ou en bloc Microsoft 365 ou Office 365 - Aide de l’administrateur.](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
+- Créez l’utilisateur directement dans le Centre d'administration Microsoft 365. Voir [Ajouter des utilisateurs individuellement ou en bloc Microsoft 365 ou Office 365 - Aide de l’administrateur.](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
 
 Si votre déploiement Skype Entreprise Online coexiste avec Skype Entreprise 2015 ou Lync 2010 ou 2013 en local, la seule option prise en charge consiste à créer l’utilisateur dans l’Active Directory local et à le synchroniser avec le cloud (option 1). 
 
 Pour plus d’informations sur les conditions de licence, voir licences et [autres conditions requises](direct-routing-plan.md#licensing-and-other-requirements) dans [Planifier le routage direct.](direct-routing-plan.md)
 
-## <a name="ensure-that-the-user-is-homed-online"></a>Vérifier que l’utilisateur est bien familialement en ligne 
+## <a name="ensure-that-the-user-is-homed-online"></a>Vérifier que l’utilisateur est bien homed online 
 
-Cette étape s’applique aux Skype Entreprise Server Voix Entreprise en cours de migration vers Teams routage direct.
+Cette étape s’applique Skype Entreprise Server Voix Entreprise utilisateurs en cours de migration vers Teams routage direct.
 
-Le routage direct nécessite que l’utilisateur soit domicile en ligne. Vous pouvez vérifier le paramètre RegistrarPool, qui doit avoir une valeur dans le domaine infra.lync.com bureau d’enregistrement. Il est également recommandé, mais pas obligatoire, de modifier la gestion de l’uri lineURI de l’offre en local vers le web lors de la migration des utilisateurs vers Teams routage direct. 
+Le routage direct nécessite que l’utilisateur soit domicile en ligne. Vous pouvez vérifier le paramètre RegistrarPool, qui doit avoir une valeur dans le domaine infra.lync.com bureau d’enregistrement. Microsoft recommande, mais n’exige pas, de modifier l’uri lineURI de l’offre en local vers le web lors de la migration des utilisateurs vers Teams routage direct. 
 
-1. Connecter une session Skype Entreprise PowerShell online.
+1. Connecter une Microsoft Teams PowerShell.
 
 2. Émettre la commande : 
 
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    Dans le cas où OnPremLineUriManuallySet est définie sur False et LineUri est remplie avec un> <numéro de téléphone E.164, le numéro de téléphone a été affecté sur site et synchronisé avec O365. Si vous voulez gérer le numéro de téléphone en ligne, nettoyez le paramètre à l’aide de Skype Entreprise Management Shell local et synchronisez-le avec O365, avant de configurer le numéro de téléphone à l’aide de Skype Entreprise Online PowerShell. 
+    Si OnPremLineUriManuallySet est définie sur False et LineUri est rempli avec un <numéro de téléphone E.164>, le numéro de téléphone a été affecté sur site et synchronisé avec Microsoft 365. Si vous voulez gérer le numéro de téléphone en ligne, nettoyez le paramètre à l’aide de Skype Entreprise Management Shell et synchronisez-le avec Microsoft 365 avant de configurer le numéro de téléphone à l’aide de Skype Entreprise Online PowerShell. 
 
 1. À partir Skype Entreprise Management Shell, émettre la commande : 
 
@@ -89,35 +89,35 @@ Le routage direct nécessite que l’utilisateur soit domicile en ligne. Vous po
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online"></a>Configurer le numéro de téléphone et activer la voix entreprise et la messagerie vocale en ligne 
 
-Après avoir créé l’utilisateur et attribué une licence, l’étape suivante consiste à configurer ses paramètres de téléphone en ligne. 
+Après avoir créé l’utilisateur et attribué une licence, vous devez configurer ses paramètres de téléphone en ligne. 
 
  
-1. Connecter une session Skype Entreprise PowerShell online. 
+1. Connecter une Microsoft Teams PowerShell. 
 
 2. Si vous gérez le numéro de téléphone de l’utilisateur sur site, émettre la commande : 
 
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsPhoneNumberAssignment -Identity "<User name>" -EnterpriseVoiceEnabled $true
     ```
 3. Si vous gérez le numéro de téléphone de l’utilisateur en ligne, émettre la commande : 
  
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
+    Set-CsPhoneNumberAssignment -Identity "<User name>" -PhoneNumber <phone number> -PhoneNumberType DirectRouting
     ```
     
     Par exemple, pour ajouter un numéro de téléphone pour l’utilisateur « Contrôle faible », entrez ce qui suit : 
 
     ```PowerShell
-    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388797" -PhoneNumberType DirectRouting
     ```
     Si les utilisateurs « Sont petits » et « Qu’ils partagent le même numéro de base avec des extensions uniques », entrez les informations suivantes :
     
     ```PowerShell
-    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1001" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1002" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388701;ext=1001" -PhoneNumberType DirectRouting
+    Set-CsPhoneNumberAssignment -Identity "stacy.quinn@contoso.com" -PhoneNumber "+14255388701;ext=1002" -PhoneNumberType DirectRouting
     ```
 
-    Il est recommandé, mais pas obligatoire, que le numéro de téléphone utilisé soit configuré comme numéro de téléphone E.164 complet avec l’code du pays. Il est pris en charge pour configurer des numéros de téléphone avec des extensions qui seront utilisés pour rechercher des utilisateurs lorsque la recherche par rapport au numéro de base renvoie plusieurs résultats. Cela permet aux entreprises de configurer des numéros de téléphone avec le même numéro de base et des extensions uniques. Pour que la recherche soit réussie, l’invitation doit inclure le numéro complet avec l’extension suivante :
+    Microsoft recommande, mais ne nécessite pas, que le numéro de téléphone soit configuré comme numéro de téléphone E.164 complet avec un code de pays. Vous pouvez configurer des numéros de téléphone avec des extensions. Ces extensions seront utilisées pour rechercher des utilisateurs lorsque la recherche par rapport au numéro de base renvoie plusieurs résultats. Cette fonctionnalité permet aux entreprises de configurer des numéros de téléphone avec le même numéro de base et des extensions uniques. Pour que la recherche soit réussie, l’invitation doit inclure le numéro complet avec l’extension suivante :
     ```PowerShell
     To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
     ```
@@ -128,7 +128,7 @@ Après avoir créé l’utilisateur et attribué une licence, l’étape suivant
 
 ## <a name="configure-sending-calls-directly-to-voicemail"></a>Configurer l’envoi d’appels directement sur la messagerie vocale
 
-Le routage direct vous permet de mettre fin à l’appel à un utilisateur et de l’envoyer directement à la messagerie vocale de l’utilisateur. Si vous voulez envoyer l’appel directement sur la messagerie vocale, joignez opaque=application:voicemail à l’en-tête URI de demande. Par exemple, « sip:user@yourdomain.com;opaque=app:voicemail ». Dans ce cas, l Teams de l’utilisateur ne reçoit pas la notification d’appel, l’appel est connecté directement à la messagerie vocale de l’utilisateur.
+Le routage direct vous permet de mettre fin à l’appel à un utilisateur et de l’envoyer directement à sa messagerie vocale. Si vous voulez envoyer l’appel directement sur la messagerie vocale, joignez opaque=application:voicemail à l’en-tête URI de demande. Par exemple, « sip:user@yourdomain.com;opaque=app:voicemail ». Le Teams’utilisateur ne reçoit pas la notification d’appel, l’appel est connecté directement à la messagerie vocale de l’utilisateur.
 
 ## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Affecter Teams mode uniquement aux utilisateurs pour s’assurer que les appels sont bien Microsoft Teams
 
