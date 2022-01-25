@@ -24,25 +24,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour les entreprises Skype Entreprise et Microsoft Teams disponibles en Inde.
-ms.openlocfilehash: 9468da224b7f5079f091125cb0d2841c4bd79290
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles en Inde.
+ms.openlocfilehash: 8a6a3878e2dcafafd03be7ea3e75316083d12d42
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733065"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191115"
 ---
 # <a name="availability-in-india"></a>Disponibilité en Inde
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour les entreprises Skype Entreprise et Microsoft Teams disponibles en Inde.
+Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles en Inde.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|L'audioconférence est-elle disponible à l'achat ?  <br/> |Microsoft ne vend pas d’audioconférence en Inde. TATA Communications offre un service d’appels sortants et d’appels sortants compatible avec Microsoft Teams réunions. Pour plus d’informations, visitez le [site web de TATA Communications.](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)   <br/> |
+|L'audioconférence est-elle disponible à l'achat ?  <br/> |Microsoft ne vend pas l’audioconférence en Inde. TATA Communications offre un service d’appels sortants et d’appels sortants compatible avec Microsoft Teams réunions. Pour plus d’informations, visitez le [site web de TATA Communications.](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)   <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour :<br/><ul><li> Bombay</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md).  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponible  <br/> |
 
@@ -63,7 +63,7 @@ Voici les services Microsoft 365 et Office 365 pour les entreprises Skype Entrep
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
 
-Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utiliser [le routage direct du système téléphonique](../direct-routing-landing-page.md). Le routage direct vous permet d’utiliser le système téléphonique avec presque tous les opérateurs.
+Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les options de [connectivité PSTN](../pstn-connectivity.md) pour toutes les options disponibles.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
@@ -73,7 +73,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 
- Notez qu’en Inde, les numéros de service ne peuvent être utilisés que pour l’audioconférence. Par exemple, si vous souhaitez obtenir des numéros de téléphone gratuits et gratuits pour l’Audioconférence, consultez l’obtention de numéros de téléphone de service pour les Skype Entreprise et [Microsoft Teams.](../getting-service-phone-numbers.md)
+ Notez qu’en Inde, les numéros de service ne peuvent être utilisés que pour l’audioconférence. Par exemple, si vous souhaitez obtenir des numéros de téléphone gratuits et gratuits pour l’audioconférence, consultez Obtenir des numéros de téléphone de service pour les Skype Entreprise et [Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Crédits de communication
 

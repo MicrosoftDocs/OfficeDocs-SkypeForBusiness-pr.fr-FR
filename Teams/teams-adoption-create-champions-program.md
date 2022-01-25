@@ -21,12 +21,12 @@ f1.keywords:
 description: Découvrez comment former une équipe de champions pour promouvoir l’adoption Teams’adoption en faisant de la sensibilisation, de l’adoption et de l’éducation dans votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4b79cd1d9e00441681cad77a621f382d4238341
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 989525f627a4d8c6ef18f1e17cab9446d85a0a88
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842546"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190885"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Créer votre programme d’ambassadeurs de Microsoft Teams
 
@@ -43,7 +43,7 @@ La champions doit :
 - Être cohérent et positif sur l’impact de leurs efforts
 - Avoir un plan clair à exécuter
 
-Utilisez notre [Guide du programme Champions pour](https://go.microsoft.com/fwlink/?linkid=854665) créer ce programme dans votre organisation. Nos meilleures pratiques pour cette communauté sont les autres :
+Utilisez notre [Guide du programme Champions pour](https://aka.ms/M365Champions) créer ce programme dans votre organisation. Nos meilleures pratiques pour cette communauté sont les autres :
 
 - Participez au [programme Champions.](https://aka.ms/O365Champions) Assurez-vous qu’au minimum les chefs d’équipe du programme Champions (et éventuellement tous les champions de l’entreprise) sont membres du programme. Cet appel communautaire gratuit et mensuel vous fournira des informations précieuses pour gérer votre propre programme et obtenir le meilleur Teams et d’Microsoft 365 services Office 365'entreprise. Les documents du programme peuvent être réutilisés dans votre propre programme interne.
 

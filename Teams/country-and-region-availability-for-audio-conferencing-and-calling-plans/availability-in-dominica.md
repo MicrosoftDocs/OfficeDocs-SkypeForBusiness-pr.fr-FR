@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Microsoft Teams services disponibles pourDessaisais.
-ms.openlocfilehash: f890a0f5ff6971cafb5a4e158fa860567369682b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams services disponibles pourDessaisais.
+ms.openlocfilehash: fa26187e076544a2d5913b40491a331cc79d72f1
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853938"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191025"
 ---
 # <a name="availability-in-dominica"></a>Disponibilité dans Ile-de-France
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Microsoft Teams services disponibles pourDessaisais.
+Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams services disponibles pourDessaisais.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -64,7 +64,7 @@ Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Mi
 |Minutes disponibles pour les forfaits d'appels  <br/> | Non applicable<br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
 
-Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utiliser [le routage direct du système téléphonique](../direct-routing-landing-page.md). Le routage direct vous permet d’utiliser le système téléphonique avec presque tous les opérateurs.
+Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les options de [connectivité PSTN](../pstn-connectivity.md) pour toutes les options disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 

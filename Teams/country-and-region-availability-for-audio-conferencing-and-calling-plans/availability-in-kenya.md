@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services d Microsoft 365 et de Office 365 pour Skype Entreprise et Microsoft Teams pour le Kenya.
-ms.openlocfilehash: b27487cdc1ff88717ce3860e159d0b8373b6ba60
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: Voici les services Microsoft 365 et Office 365 la sécurité pour Skype Entreprise et Microsoft Teams le Kenya.
+ms.openlocfilehash: 7b8b3f66f54d7d3983c3c849efa9998d5ab0a10a
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733655"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191265"
 ---
 # <a name="availability-in-kenya"></a>Disponiblité au Kenya
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services d Microsoft 365 et de Office 365 pour Skype Entreprise et Microsoft Teams pour le Kenya.
+Voici les services Microsoft 365 et Office 365 la sécurité pour Skype Entreprise et Microsoft Teams le Kenya.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -63,13 +63,13 @@ Voici les services d Microsoft 365 et de Office 365 pour Skype Entreprise et Mic
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
 
-Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utiliser [le routage direct du système téléphonique](../direct-routing-landing-page.md). Le routage direct vous permet d’utiliser le système téléphonique avec presque tous les opérateurs.
+Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les options de [connectivité PSTN](../pstn-connectivity.md) pour toutes les options disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Ns[(sur demande)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |N fn[(sur demande)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    

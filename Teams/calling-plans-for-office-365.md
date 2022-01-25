@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: dfb36cd78923257d76ebe33069e6e4cc642e7e40
-ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
+ms.openlocfilehash: 02283da362baf520ab0c3d28d809dfee39c9b378
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60367526"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190675"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Forfaits d’appels Microsoft 365
 
@@ -67,14 +67,12 @@ Pour plus d’informations sur les limites d’utilisation et les conditions d�
     > Selon votre offre, vous devrez peut-être acheter d’autres modules logiciels pour pouvoir Système téléphonique licences. Pour en savoir plus, voir les [Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. Après avoir acheté Système téléphonique licences, vous pouvez acheter l’offre d’appels en vous inscrivant au **Centre d'administration Microsoft 365,** en choisissant abonnements au module ajout de services d’achat de facturation, puis en cliquant sur  >    >   **Acheter** maintenant. Les forfaits d’appels s’y voient.
-    
-    ![Capture d’écran montrant les options de plan d’appel vocal.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
-  
+      
 Vous pouvez acheter et affecter différents plans d’appels à différents utilisateurs, selon les besoins de votre organisation. Une fois que vous avez sélectionné le plan d’appels dont vous avez besoin, procédez au chèque. Vous affectez un plan à chaque utilisateur du Centre d'administration Microsoft 365. Pour savoir comment faire, [voir Attribuer Microsoft Teams de modules add-on.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>Avez-vous un fournisseur de services qui fournit une connectivité RSTN sur site pour les utilisateurs hybrides ?
 
-Si c’est le cas, vous n’avez pas besoin d’acheter de forfait d’appels. Office 365 Entreprise La E5 inclut **Système téléphonique** le module ajouté, vous pouvez procéder au chèque.
+Si c’est le cas, vous n’avez pas besoin d’acheter de forfait d’appels. Office 365 Entreprise E5 inclut **Système téléphonique** et vous pouvez procéder au chèque.
   
 Affectez ensuite les Enterprise de  module Système téléphonique aux utilisateurs du Centre d'administration Microsoft 365. Pour savoir comment faire, [voir Attribuer Microsoft Teams de modules add-on.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
@@ -95,7 +93,7 @@ Voici d’autres articles expliquant comment configurer vos forfaits d’appels 
 - [Voici ce que vous obtenez avec les Système téléphonique dans Microsoft 365 ou Office 365](./here-s-what-you-get-with-phone-system.md)
     
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     

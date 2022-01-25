@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff8418a44ea8369d4659b6bb5978e3f4a1ce51d7
-ms.sourcegitcommit: 11061890a64da88d92db3fa43f1bf320b216c355
+ms.openlocfilehash: 9468047673f1832fdf9878bda123be181d21067c
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2022
-ms.locfileid: "62163535"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190865"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guide d’administration informatique sur Education Insights dans Microsoft Teams
 
@@ -140,7 +140,7 @@ Pour l’instant, ces données proviennent des domaines suivants dans les équip
 > La plupart des données collectées s’affichent dans Insights en quelques minutes. La présence aux réunions de classe (réunions associées à l’un des canaux de classe) apparaît quelques heures après la fin de la réunion, généralement jusqu’à 24 heures plus tard.
 
 > [!NOTE]
-> Les données collectées dans Éducation Insights sont conservées jusqu’à ce que l’administrateur informatique désactive l’[option Education Analytics](#Tturn-sds-for-insights-on-or-off) ou que l’abonnement Office du client se termine. La suppression de fonctionnalités spécifiques dans Teams ne supprime pas des données d’historiques.
+> Les données collectées dans Éducation Insights sont conservées jusqu’à ce que l’administrateur informatique désactive l’[option Education Analytics](#turn-sds-for-insights-on-or-off) ou que l’abonnement Office du client se termine. La suppression de fonctionnalités spécifiques dans Teams ne supprime pas des données d’historiques.
 
 ### <a name="privacy-and-security"></a>Confidentialité et sécurité
 Les informations collectées et présentées via Insights répondent à [plus de 90 normes réglementaires et sectorielles](/compliance/regulatory/offering-home), y compris le [RGPD](/compliance/regulatory/gdpr) et la loi [FERPA (Family Educational Rights and Privacy Act)](/compliance/regulatory/offering-ferpa) pour la sécurité des élèves et des enfants, ainsi que d’autres réglementations axées sur la confidentialité.

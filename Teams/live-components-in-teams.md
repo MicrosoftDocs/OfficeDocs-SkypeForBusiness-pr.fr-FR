@@ -18,20 +18,20 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c05888191c98e2b7fe11637ad8fe5ba8a8c1132
-ms.sourcegitcommit: 2ce417430b2aac770997daaf5ef5d844aa97fd84
+ms.openlocfilehash: b54ccf83aadcec724d8e54a791770578ef147bbd
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60911858"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191855"
 ---
 # <a name="manage-live-components-in-teams"></a>Gérer les composants en direct dans Teams
 
-Les composants en direct Teams conversation instantanée offrent une nouvelle façon de donner une idée, de créer et de prendre des décisions ensemble. Envoyez un composant (tableau, liste de tâches ou paragraphe) dans lequel tous les éléments de votre conversation peuvent modifier le texte et voir les modifications à mesure qu’ils sont apportés. Cela signifie que vous pouvez recueillir des idées et des commentaires de votre équipe tout en limitant le nombre de réunions et en réduisant le besoin de discussions longues.
+Les composants en direct Teams conversation instantanée offrent une nouvelle façon de donner une idée, de créer et de prendre des décisions ensemble. Envoyez un composant (tableau, liste de tâches ou paragraphe) dans lequel chaque personne de votre conversation peut modifier le texte et voir les modifications à mesure qu’elle est apportée. Cela signifie que vous pouvez recueillir des idées et des commentaires de votre équipe tout en limitant le nombre de réunions et en réduisant le besoin de discussions longues.
 > [!Note]
-> Composants Live est la première fonctionnalité de [l’application Microsoft Loop](https://www.microsoft.com/en-us/microsoft-loop) disponible dans Teams. Notez que « Composants Live » sera renommé « Composants en boucle » début 2022.
+> Les composants Live sont la première fonctionnalité de [l’application Microsoft Loop](https://www.microsoft.com/en-us/microsoft-loop) disponible dans Teams. Notez que « Composants Live » sera renommé « Composants en boucle » début 2022.
 
-**Accomplir des tâches plus rapidement ensemble.** Sourcez un ordre du jour, suivez les éléments d’action d’un groupe ou prenez des notes collectivement. Voici quelques scénarios encore plus simples grâce aux composants en direct.
+**Accomplir des tâches plus rapidement ensemble.** Sourcez un ordre du jour, suivez les éléments d’action d’un groupe ou prenez des notes collectivement. Voici quelques scénarios encore plus faciles à rendre grâce aux composants en direct.
 
 **Partager des composants.** Dans cette version, vous pouvez partager des composants en direct dans différentes Teams conversations. Les destinataires peuvent apporter des modifications où qu’ils soient et voir instantanément les mises à jour, quel que soit l’endroit où ont été apportées les modifications. Dans les prochaines publication, les composants en direct seront pris en charge dans Teams notes et canaux de réunion, Outlook et, finalement, dans toutes Microsoft 365 applications.
 
@@ -98,9 +98,9 @@ PS C:\\WINDOWS\\system32&gt;
 
 - Les composants live sont désactivés dans les conversations fédérées.
 
-- Les invités B2B ne pourront pas collaborer sur un composant en direct partagé avec eux via le lien De partage de la société, sauf si le client définit une option d’accès externe pour autoriser les invités B2B au même niveau d’accès que les membres du client.
+- Les invités B2B ne pourront pas collaborer sur un composant en direct partagé avec eux via le lien De partage de la société, sauf si le client a définit une option d’accès externe pour autoriser les invités B2B à avoir le même niveau d’accès que les membres du client. Pour plus d’informations, voir [Configurer les paramètres de collaboration externe B2B.](/azure/active-directory/external-identities/delegate-invitations#configure-b2b-external-collaboration-settings)
 
-- Teams Le client web prendra bientôt en charge les composants Live.
+- Teams client web, le support complet des composants Live sera bientôt disponible.
 
 - Les composants en direct ne sont pas encore pris en charge Teams dans les canaux, mais leur modification en ligne dans les canaux est prévue pour de nouvelles expériences à l’avenir.
 
@@ -122,7 +122,7 @@ PS C:\\WINDOWS\\system32&gt;
 
 **Comment `.fluid` sont stockés ?**
 
-Les composants live créés dans Teams sont dosés par un fichier stocké dans la base de `.fluid` données du créateur OneDrive Entreprise. Le fait d’être un fichier OneDrive Entreprise signifie que les utilisateurs peuvent créer, découvrir et gérer des composants (fichiers) aussi facilement que n’importe `.fluid` quel Office document.
+Les composants en direct Teams sont dosés par un fichier stocké dans la base de `.fluid` données du créateur OneDrive Entreprise. Le fait d’être un fichier OneDrive Entreprise signifie que les utilisateurs peuvent créer, découvrir et gérer des composants (fichiers) aussi facilement que n’importe `.fluid` quel Office document.
 
 Les utilisateurs peuvent rechercher du contenu dans `.fluid` des fichiers depuis Office.com et OneDrive Entreprise.
 `.fluid` les fichiers fonctionnent avec les fonctionnalités de gouvernance des données telles que la découverte électronique, l’audit, les rapports et les contrôles juridiques.
@@ -130,7 +130,7 @@ Les utilisateurs peuvent rechercher du contenu dans `.fluid` des fichiers depuis
 `.fluid`les fichiers apparaîtront désormais sur Office.com et OneDrive Entreprise, par exemple dans les zones récents et recommandés.
 `.fluid`des fichiers peuvent être restaurés vers des versions antérieures d’OneDrive Entreprise.
 
-Les participants à la conversation doivent avoir OneDrive compte pour créer des composants en direct. Sans compte OneDrive valide, les participants à la conversation peuvent toujours collaborer sur un composant créé par d’autres utilisateurs qui ont un compte OneDrive valide, mais ne peuvent pas créer leur propre compte.
+Les participants à la conversation doivent avoir OneDrive compte pour créer des composants en direct. Sans compte OneDrive valide, les participants à la conversation peuvent toujours collaborer sur un composant créé par d’autres utilisateurs qui possèdent un compte OneDrive valide, mais ne peuvent pas créer leur propre compte.
 
 [Le](https://support.microsoft.com/en-us/office/move-files-and-folders-between-onedrive-and-sharepoint-5916f90d-f58a-4bf9-b135-10853f516d0b) déplacement d’un fichier OneDrive vers un site SharePoint’échec du composant en direct lors du chargement de `.fluid` Teams conversation.
 
@@ -142,7 +142,7 @@ Les participants à la conversation doivent avoir OneDrive compte pour créer de
 
 Les composants en direct peuvent être insérés dans Teams conversation instantanée ou copiés d’une conversation à l’autre. (Les composants en direct ne sont pas encore pris en charge dans les canaux.) Elles utilisent par défaut les autorisations existantes du client, mais les utilisateurs peuvent modifier les autorisations avant l’envoi pour s’assurer que tout le monde y a accès.
 
-L’ouverture de composants à partir Teams conversation dans Office.com propose des fonctionnalités de partage en haut de la fenêtre, à l’identique des options de partage proposées pour les Office documents.
+L’ouverture de composants à partir Teams conversation dans Office.com propose des fonctionnalités de partage en haut de la fenêtre, similaires aux options de partage proposées pour d’Office documents.
 
 **Que se `.fluid` passe-t-il si un fichier est endommagé ?**
 

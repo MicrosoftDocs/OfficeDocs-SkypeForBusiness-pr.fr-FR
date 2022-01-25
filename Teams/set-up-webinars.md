@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Découvrez comment gérer les stratégies de webinaire pour Teams réunions.
-ms.openlocfilehash: 19918d7a32a9a5069dab8dc87011de6112bbe364
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 92970e754f50deffe34993a44fb92a2d5a7b5581
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205554"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192185"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Configurer des webinaires dans Microsoft Teams
 
@@ -59,7 +59,7 @@ Si vous sélectionnez **Tout** le monde, tous les utilisateurs, y compris les ut
 
 ### <a name="engagement-report"></a>Rapport d’engagement
 
-Si vous définissez cette fonction, les organisateurs peuvent voir des rapports sur l’inscription et la participation aux webinaires qu’ils ont créés. Cette stratégie est off par défaut. Pour plus d’informations, [voir Stratégies de réunion dans Teams - Rapport d’engagement.](meeting-policies-in-teams-general.md#engagement-report) Pour plus d’informations sur l’expérience utilisateur final, voir Afficher et télécharger les rapports de présence [aux réunions.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)
+Lorsque c’est le cas, les organisateurs peuvent voir des rapports sur l’inscription et la participation aux webinaires qu’ils ont créés. Cette stratégie est optionnée par défaut. Pour plus d’informations, [voir Stratégies de réunion dans Teams - Rapport d’engagement.](meeting-policies-in-teams-general.md#engagement-report) Pour plus d’informations sur l’expérience utilisateur final, voir Afficher et télécharger les rapports de présence [aux réunions.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>Autoriser les utilisateurs à planifier des webinaires à l’aide de PowerShell
 
@@ -112,10 +112,10 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 
 ### <a name="collect-meeting-attendance"></a>Recueillir la présence à des réunions
 
-Si vous souhaitez que les organisateurs analysent les webinaires inscrits et participé à des événements, vous devez activer la stratégie **EngagementReport.** Pour ce faire, exécutez la commande suivante dans PowerShell.
+Le **paramètre AllowEngagementReport** vous permet de voir les webinaires inscrits et participé à des webinaires. Cette stratégie est désactivée par défaut. Pour le désactiver, exécutez la commande suivante dans PowerShell :
 
 ```powershell
-Set-CsTeamsMeetingPolicy -EngagementReport Enabled
+Set-CsTeamsMeetingPolicy -AllowEngagementReport Disabled
 ```
 
 ## <a name="configure-webinar-settings"></a>Configurer les paramètres de webinaire

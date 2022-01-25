@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres généraux de stratégie de réunion dans Teams.
-ms.openlocfilehash: db1515b016aec47190c26305656b205a56e13b23
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 1bf4958f74a95775d6d34c87ea6d7d65262530e4
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562872"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191475"
 ---
 # <a name="meeting-policy-settings---general"></a>Paramètres de stratégie de réunion : général
 
@@ -59,7 +59,7 @@ Si vous la désactiver, les utilisateurs ne peuvent pas planifier Teams réunion
 
 ## <a name="channel-meeting-scheduling"></a>Planification des réunions de canal
 
-Utilisez la stratégie AllowChannelMeetingScheduling existante pour contrôler les types d’événements qu’il est possible de créer dans les calendriers d’équipe. Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier une réunion dans un canal Teams. Par défaut, ce paramètre est activé. 
+Utilisez la stratégie AllowChannelMeetingScheduling existante pour contrôler les types d’événements qu’il est possible de créer dans les calendriers d’équipe. Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier une réunion dans un canal Teams. Par défaut, ce paramètre est activé.
 
 Si cette stratégie est désactivée, les utilisateurs ne pourront pas créer de réunions de canal. Toutefois, les réunions existantes des canaux existants peuvent être modifiées par l’organisateur de l’événement.
 
@@ -124,19 +124,18 @@ Gardez à l’esprit qu’une fois que vous avez défini la valeur par défaut, 
 
 Il s’agit d’une stratégie par utilisateur. Ce paramètre permet de contrôler si les organisateurs de réunion peuvent télécharger le [Rapport de participation aux réunions](teams-analytics-and-reports/meeting-attendance-report.md).
 
-Cette stratégie est off par défaut et permet à vos organisateurs de voir qui s’est inscrit et a participé aux réunions et webinaires qu’ils ont créés. Pour l’activer dans le centre Teams d’administration, allez dans **Stratégies** de réunion, puis définissez le paramètre du rapport  >   **Engagement** **sur Activé.**
+Cette stratégie est mise en place par défaut et permet aux organisateurs de voir qui a inscrit et participé aux réunions et webinaires qu’ils ont créés. Pour le désactiver dans le centre d Teams réunion, allez dans **Stratégies** de réunion, puis définissez le paramètre du rapport  >   **Engagement** sur **Désactiver.**
 
 Vous pouvez également modifier une stratégie de réunion Teams à l’aide de l’cmdlet [Set-CsTeamsMeetingPolicy.](/powershell/module/skype/set-csteamsmeetingpolicy) Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
 
-Pour permettre à l’organisateur de la réunion de télécharger le rapport de présence de réunion, définissez le paramètre **AllowEngagementReport** **sur Activé.** Lorsque cette option est activée, l’option permettant de télécharger le rapport est affichée dans le volet **Participants**. Par défaut, ce paramètre n’est pas activé.
+Par défaut, **le paramètre AllowEngagementReport** est activé **dans** PowerShell. Pour empêcher l’organisateur de la réunion de télécharger le rapport de présence de réunion, définissez le paramètre **AllowEngagementReport** **sur Désactivé.**
 
-Pour empêcher un organisateur de la réunion de télécharger le rapport, définissez le paramètre sur **Désactivé**.
+Lorsque cette stratégie est activée, l’option de téléchargement du rapport de présence aux réunions s’affiche dans le **volet Participants.**
 
 > [!NOTE]
 > En tant qu’administrateur, vous ne pouvez pas afficher le rapport de présence pour les réunions que vous n’organisez pas. Toutefois, vous pouvez afficher les détails des participants pour une réunion donnée dans les 24 heures de cette réunion. Dans le centre Teams d’administration, allez à **Utilisateurs**  >  **Gérer les utilisateurs.** Choisissez le nom d’affichage de l’organisateur de la réunion. Sélectionnez **l’onglet & des** appels, puis choisissez l’ID de réunion ou d’appel approprié. Sélectionnez ensuite **Détails du participant.**
 
 Pour plus d’informations, notamment sur les limites du rapport d’engagement, consultez et téléchargez les rapports de présence aux réunions [dans Teams.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)
-
 
 ## <a name="meeting-registration"></a>Inscription à une réunion
 

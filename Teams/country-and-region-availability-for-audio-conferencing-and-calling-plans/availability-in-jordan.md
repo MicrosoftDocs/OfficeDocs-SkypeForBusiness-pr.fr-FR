@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams la Jordanie.
-ms.openlocfilehash: 7b76169fb05f3ee1d853eea536302e2827d0c071
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: Voici les services Microsoft 365 et Office 365 pour les services Skype Entreprise et Microsoft Teams en Jordanie.
+ms.openlocfilehash: 2062025923513285c4014c747c3a95fd3f808f0e
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733665"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191425"
 ---
 # <a name="availability-in-jordan"></a>Disponibilité en Jordanie
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams la Jordanie.
+Voici les services Microsoft 365 et Office 365 pour les services Skype Entreprise et Microsoft Teams en Jordanie.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -63,7 +63,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
 
-Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utiliser [le routage direct du système téléphonique](../direct-routing-landing-page.md). Le routage direct vous permet d’utiliser le système téléphonique avec presque tous les opérateurs.
+Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les options de [connectivité PSTN](../pstn-connectivity.md) pour toutes les options disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
