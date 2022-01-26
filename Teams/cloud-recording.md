@@ -19,12 +19,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9f10a35e3be27b446fa7f55b5c9d97e3418fe36
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: a067488736a1392ac34259ba77518c299c46d203
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056084"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62224011"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -143,8 +143,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 >```
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>Activer ou désactiver la transcription de l’enregistrement
-
-Ce paramètre détermine si les fonctionnalités de légende et de transcription sont disponibles lors de la lecture des enregistrements de réunion. Si vous désactivez cette option, les options **Recherche** et **CC** ne sont pas disponibles pendant la lecture d’un enregistrement de réunion. La personne qui a démarré l’enregistrement a besoin de ce paramètre activé de sorte que l’enregistrement inclut également la transcription.
+Ce paramètre détermine si les fonctionnalités de légende et de transcription sont disponibles lors de la lecture des enregistrements de réunion. La personne qui a lancé l'enregistrement doit activer ce paramètre pour que ces fonctionnalités fonctionnent avec son enregistrement.
+  
+L’activation de ce paramètre crée une copie de la transcription stockée avec l’enregistrement de la réunion, ce qui active **Recherche**, **CC** et **Transcriptions** sur l’enregistrement de réunion.
 
 > [!NOTE]
 > Cette transcription pour les réunions enregistrées n'est actuellement prise en charge que pour l'anglais (États-Unis), l'anglais (Canada), l'anglais (Inde), l'anglais (Royaume-Uni), l'anglais (Australie), l'anglais (Nouvelle-Zélande), l'allemand (Allemagne), le portugais (Brésil), néerlandais (Pays-Bas), néerlandais (Belgique), français (France), espagnol (Espagne), japonais (Japon), français (Canada), chinois (cantonais, traditionnel), chinois (mandarin, simplifié), hindi (Inde) , italien (Italie), coréen (Corée), espagnol (Mexique), suédois (Suède), polonais (Pologne), arabe (Émirats arabes unis), arabe (Arabie saoudite), danois (Danemark), finnois (Finlande), norvégien (Norvège) et russe (Russie). Ils sont stockés avec les enregistrements de réunion dans OneDrive Entreprise et le stockage cloud SharePoint Online.
@@ -259,7 +260,7 @@ La taille d’un enregistrement de 1 heure est de 400 Mo. Veillez à bien compre
 
 En savoir plus sur les modifications spécifiques à l’administrateur [ici.](meeting-expiration.md#changes-to-meeting-expiration)
 
-Découvrez comment les utilisateurs finaux peuvent gérer l’expiration des réunions [ici.](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
+Découvrez comment les utilisateurs finaux peuvent gérer l’expiration des réunions [ici](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date).
   
 Consultez les questions fréquemment posées aux administrateurs et aux utilisateurs finaux pour recueillir des informations sur le fonctionnement de l’expiration automatique des enregistrements de réunion Teams, les actions que vous pouvez effectuer maintenant et les actions que vous pouvez effectuer après le lancement de la fonctionnalité.
   
@@ -408,7 +409,7 @@ Les légendes permettent de créer du contenu inclusif pour les visiteurs de tou
 
 Les sous-titres pour le fichier vidéo de l’enregistrement sont aujourd’hui liés à la transcription de la réunion Teams. Ce lien restera pendant la durée de vie du fichier dans la plupart des cas, mais il peut être corrompu si le fichier vidéo est copié dans le même OneDrive Entreprise ou le même site SharePoint Online, ce qui empêcherait aux sous-titres d’être copiés sur le fichier vidéo.
 
-Les modifications futures apportées au lien entre la transcription dans Teams et l’enregistrement seront précisées ici et dans les notifications du centre de messages. Si nous apportons des modifications à l’avenir, nous nous assurerons que les fichiers d’enregistrement datant de moins de 60 jours affichent la transcription de la réunion sous forme de sous-titre.
+Les modifications futures apportées au lien entre la transcription dans Teams et l’enregistrement seront précisées ici et dans les notifications du centre de messages. Si nous apportons des modifications à l'avenir, nous veillerons à ce que les fichiers d'enregistrement datant de moins de 60 jours affichent la transcription de la réunion sous forme de sous-titres.
 
 > [!NOTE]
 > La transcription de réunion n’est pas encore disponible dans le Cloud de la communauté du secteur public.
