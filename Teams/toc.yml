@@ -1539,7 +1539,7 @@ items:
                 href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
               - name: Connecteurs de Plannings
                 items:
-                  - name: Vue d’ensemble des connecteurs de Plannings
+                  - name: Présentation
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
       - name: Microsoft Teams pour l’éducation
         href: expand-teams-across-your-org/teams-for-education-landing-page.md

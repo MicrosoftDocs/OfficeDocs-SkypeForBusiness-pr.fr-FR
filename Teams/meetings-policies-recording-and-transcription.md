@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour l’enregistrement et la transcription.
-ms.openlocfilehash: c89fc88c46ae8b614021417ab2aa02832f64fce1
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ee558ae87d7bea781cae3d2bc267f82bc1fdb18a
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973191"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62224071"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>Paramètres de stratégie de réunion pour l’enregistrement & transcription
 
@@ -35,9 +35,11 @@ Cet article décrit les paramètres de stratégie de réunion spécifiques à l�
 
 ## <a name="allow-transcription"></a>Autoriser la transcription
 
-Il s’agit d’une combinaison d’une stratégie par organisateur et par utilisateur. Ce paramètre détermine si les fonctionnalités de légende et de transcription sont disponibles lors de la lecture des enregistrements de réunion. Si vous la désactiverez, les options **Rechercher** et **Cc** ne seront pas disponibles pendant la lecture de l’enregistrement d’une réunion. La personne qui a démarré l’enregistrement a besoin de ce paramètre activé de sorte que l’enregistrement inclut également la transcription.
+Il s’agit d’une combinaison d’une stratégie par organisateur et par utilisateur. Ce paramètre détermine si les fonctionnalités de légende et de transcription sont disponibles lors de la lecture des enregistrements de réunion. La personne ayant démarré l’enregistrement a besoin que ce paramètre soit désactivé pour que ces fonctionnalités fonctionnent avec l’enregistrement.
 
-Pour l’instant, la transcription des réunions enregistrées n’est prise en charge que pour les utilisateurs qui définissent leur langue ou parlent anglais dans Teams réunions.
+La mise en place de ce paramètre crée une copie de la transcription stockée avec l’enregistrement de la réunion, qui permet la **recherche,** la **cc** et les **transcriptions** sur l’enregistrement de la réunion.
+
+Pour l’instant, la transcription des réunions enregistrées est prise en charge uniquement pour les utilisateurs qui définissent leur langue ou parlent anglais dans le Teams des réunions.
 
 ## <a name="allow-cloud-recording"></a>Autoriser l’enregistrement dans le cloud
 

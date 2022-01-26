@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Découvrez comment gérer les stratégies de webinaire pour Teams réunions.
-ms.openlocfilehash: 92970e754f50deffe34993a44fb92a2d5a7b5581
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 5536a6c03df15be349edea7d980932b5fc0173ab
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192185"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62224001"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Configurer des webinaires dans Microsoft Teams
 
@@ -65,9 +65,9 @@ Lorsque c’est le cas, les organisateurs peuvent voir des rapports sur l’insc
 
 Vous pouvez utiliser les attributs suivants dans la cmdlet Windows PowerShell **Set-CsTeamsMeetingPolicy** pour configurer les webinaires dans Teams.
 
-- MeetingRegistration
+- AllowMeetingRegistration
 - WhoCanRegister
-- PrivateMeetingScheduling
+- AllowPrivateMeetingScheduling
 
 Lisez [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) pour plus d’informations sur l’cmdlet.
 
@@ -76,21 +76,21 @@ Lisez [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpoli
 
 ### <a name="allow-users-to-schedule-webinars"></a>Autoriser les utilisateurs à planifier des webinaires
 
-Vous pouvez limiter l’inscription aux seuls utilisateurs de votre organisation ou l’ouvrir à tous les utilisateurs à l’intérieur et à l’extérieur de votre client. Par défaut, **WhoCanRegister** est activé et activé sur **Tout** le monde pour la stratégie **Globale (à** l’échelle de l’organisation par défaut). Si vous voulez désactiver l’inscription à une réunion, définissez **MeetingRegistration** sur **False.**
+Vous pouvez limiter l’inscription aux seuls utilisateurs de votre organisation ou l’ouvrir à tous les utilisateurs à l’intérieur et à l’extérieur de votre client. Par défaut, **WhoCanRegister** est activé et activé sur **Tout** le monde pour la stratégie **Globale (à** l’échelle de l’organisation par défaut). Si vous voulez désactiver l’inscription à une réunion, définissez **AllowMeetingRegistration** sur **False.**
 
 > [!IMPORTANT]
-> **La planification privateMeeting** doit être définie sur **True** pour **que MeetingRegistration** fonctionne.
+> **AllowPrivateMeetingScheduling** doit être réglé sur **True** pour que **AllowMeetingRegistration** fonctionne.
 
 1. Activer l’inscription aux réunions
 
 ```powershell
-Set-CsTeamsMeetingPolicy -MeetingRegistration $True
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
 ```
 
 2. Activer la planification de réunions privées
 
 ```powershell
-Set-CsTeamsMeetingPolicy -PrivateMeetingScheduling $True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 3. Configurer les utilisateurs qui peuvent s’inscrire aux webinaires
