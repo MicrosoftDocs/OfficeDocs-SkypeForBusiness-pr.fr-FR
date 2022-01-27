@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer des Messagerie vocale infonuagique pour vos utilisateurs.
-ms.openlocfilehash: cf4edb7043c3d9965f2f01710f1ed9e7fa7f96b8
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: cb0a8b6ad8a82ef44ace21dceb9adbbfc7c04139
+ms.sourcegitcommit: cd9fbda4ea85a83cb22e241a94d0825ff8186cca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191075"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62228942"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
-Cet article s’adresse aux administrateurs Microsoft 365 administrateur Office 365, comme décrit dans la page À propos des rôles d’administrateur qui souhaite configurer la fonctionnalité Messagerie vocale infonuagique pour tous les utilisateurs de l’entreprise. [](/microsoft-365/admin/add-users/about-admin-roles) Messagerie vocale infonuagique nécessite Exchange boîtes aux lettres pour les utilisateurs dans lequel ils déposent les messages vocaux. Il ne prend pas en charge les systèmes de courrier tiers. Pour plus Exchange Online conditions de licence requises, voir [Exchange Online description du service](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#features-available-to-all-plans)
+Cet article s’adresse aux administrateurs Microsoft 365 administrateur Office 365, comme décrit dans la page À propos des rôles d’administrateur qui souhaite configurer la fonctionnalité Messagerie vocale infonuagique pour tous les utilisateurs de l’entreprise. [](/microsoft-365/admin/add-users/about-admin-roles) Messagerie vocale infonuagique nécessite Exchange boîtes aux lettres pour les utilisateurs dans lequel ils déposent les messages vocaux. Il ne prend pas en charge les systèmes de courrier tiers. Pour plus Exchange Online de licences requises, consultez [Exchange Online description du service.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#features-available-to-all-plans)
 
 ## <a name="cloud-voicemail-for-teams-users"></a>Messagerie vocale infonuagique pour Teams utilisateurs
 
