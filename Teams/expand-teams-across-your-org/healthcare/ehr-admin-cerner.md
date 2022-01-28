@@ -23,14 +23,16 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Découvrez comment intégrer le connecteur Teams EHR pour permettre aux fournisseurs de soins de votre organisation de réaliser des visites virtuelles avec des patients ou d’autres fournisseurs dans Teams directement à partir du système d’intégration EHR.
-ms.openlocfilehash: 1669cd2b71a1052ff3580c2baa531c80ce69f073
-ms.sourcegitcommit: 01657a2a961712b8383b741b4ae983b9e07bdeb1
+ms.openlocfilehash: 40bfd115d966e812804c76ab77ab4ea2ddc70d7d
+ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/27/2021
-ms.locfileid: "61611331"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62248775"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>Visites virtuelles avec des Teams - Intégration dans l’intégration à l’environnement de gestion des biens et des données
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Le connecteur Microsoft Teams dossier médical électronique (EHR) permet aux responsables de lancer une visite virtuelle avec un patient ou de consulter un autre fournisseur dans Microsoft Teams directement à partir du système d’enregistrement ÉLECTRONIQUE. Conçu sur le cloud Microsoft 365, Teams permet une collaboration et une communication simples et sécurisées grâce aux outils de conversation, vidéo, voix et soins de santé dans un hub unique qui prend en charge la conformité avec hipAA, la certification HITECH et bien plus encore.
 
