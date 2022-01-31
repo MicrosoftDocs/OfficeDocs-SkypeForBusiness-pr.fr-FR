@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3969a675a9729908c8e2d9a536376aadd68ab296
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 5dc3b2d12295d13de0b5626475891100f7879bd7
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563785"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279252"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Présentation de l Teams’enregistrement basé sur une stratégie pour les appels et & réunions
 
@@ -42,7 +42,7 @@ Teams a été amélioré pour prendre en charge l’intégration de solutions d�
 
 L’enregistrement de conformité peut être activé pour les utilisateurs Microsoft 365 A3/A5/E3/E5/Business Premium et Office 365 A3/A5/E3/E5. 
 
-Les fonctionnalités d’intégration de la solution d’enregistrement de la conformité ont également été examinées dans Ignite 2019 dans la [session Compliance Recording and Microsoft Teams session.](https://myignite.microsoft.com/archives/IG19-VCE40)
+Les fonctionnalités d’intégration de la solution d’enregistrement de la conformité ont également été examinées dans Ignite 2019 dans l’enregistrement de conformité [et Microsoft Teams session](https://myignite.microsoft.com/archives/IG19-VCE40).
 
 ## <a name="teams-interaction-recording-overview"></a>Teams vue d’ensemble de l’enregistrement de l’interaction
 
@@ -62,7 +62,7 @@ Chacune de ces catégories implique des exigences différentes en matière de pr
 | Propriétaire d’Access           | Utilisateur               | Conformité      |
 | Stratégie de rétention ?      | Facultatif           | Oui             |
 
-Teams offre différentes fonctionnalités [](./cloud-recording.md) pour l’enregistrement pratique et fonctionnel de réunions et d’événements en direct. L’enregistrement organisationnel signifie permettre aux organisations qui adoptent des Teams d’appels et de réunions d’être en cours, par le moyen d’une stratégie d’administration, lorsque les appels et les réunions en ligne doivent être enregistrés et capturés automatiquement à des fin de traitement et de rétention ultérieurs, comme requis par la stratégie d’entreprise ou réglementaires pertinente. Les utilisateurs dans le cadre de cette stratégie se rendront compte que leurs interactions numériques avec Teams sont enregistrées, mais ne pourront pas désactiver l’enregistrement et n’auront pas accès à l’enregistrement une fois l’interaction terminée. L’enregistrement devient partie intégrante de l’archive organisationnelle mise à la disposition du personnel juridique et de conformité pour la découverte électronique, la conservation légale et d’autres utilisations de la rétention d’entreprise.
+Teams offre différentes fonctionnalités [pour l’enregistrement](./cloud-recording.md) pratique et fonctionnel de réunions et d’événements en direct. L’enregistrement organisationnel signifie permettre aux organisations qui adoptent des Teams d’appels et de réunions d’être en cours, par le moyen d’une stratégie d’administration, lorsque les appels et les réunions en ligne doivent être enregistrés et capturés automatiquement à des fin de traitement et de rétention ultérieurs, comme requis par la stratégie d’entreprise ou réglementaires pertinente. Les utilisateurs dans le cadre de cette stratégie se rendront compte que leurs interactions numériques avec Teams sont enregistrées, mais ne pourront pas désactiver l’enregistrement et n’auront pas accès à l’enregistrement une fois l’interaction terminée. L’enregistrement devient partie intégrante de l’archive organisationnelle mise à la disposition du personnel juridique et de conformité pour la découverte électronique, la conservation légale et d’autres utilisations de la rétention d’entreprise.
 
 ## <a name="example-user-needs"></a>Exemples de besoins des utilisateurs
 
@@ -119,10 +119,10 @@ Les solutions d’enregistrement de conformité sont intégrées Teams, comme il
 ## <a name="recorder"></a>Enregistreur
 
 Le composant principal de la solution d’enregistrement de conformité est l’enregistreur.
-Les enregistreurs sont conçus sous la forme de services Azure évolutifs (bots) qui utilisent la plateforme de communication de Microsoft et s’inscrivent en tant [qu’applications](/graph/cloud-communications-concept-overview) auprès de Microsoft Graph. L’enregistreur fournit une interaction directe avec les Teams et les API de [communication](/graph/api/resources/communications-api-overview) de la plateforme de réunions et fournit le point de terminaison pour l’ingestion de médias.
+Les enregistreurs sont conçus sous la forme de services Azure évolutifs (bots) qui utilisent la plateforme de [communication de Microsoft et s’inscrivent en tant qu’applications](/graph/cloud-communications-concept-overview) auprès de Microsoft Graph. L’enregistreur fournit une interaction directe avec les Teams et les [API de communication](/graph/api/resources/communications-api-overview) de la plateforme de réunions et fournit le point de terminaison pour l’ingestion de médias.
 
-Un [exemple d’application enregistreur](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) de conformité est disponible pour vous aider à configurer le robot, à créer l’instance d’application et à attribuer les stratégies de conformité. L’exemple présente également des exemples d’utilisation d’API pour enregistrer des interactions spécifiques telles que la gestion du [routage](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244) d’appel [entrant,](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)la modification des états d’enregistrement et la suppression de l’utilisateur en [cours d’enregistrement.](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126)
-Graph documentation sur les API spécifiques est ici pour [updateRecordingStatus](/graph/api/call-updaterecordingstatus?tabs=http) et [incomingContext.](/graph/api/resources/incomingcontext)
+Un [exemple d’application enregistreur](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) de conformité est disponible pour vous aider à configurer le robot, à créer l’instance d’application et à attribuer les stratégies de conformité. L’exemple présente également des exemples sur l’utilisation de l’API pour enregistrer des interactions spécifiques telles que la gestion [du routage](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244) d’appel [entrant, la](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138) modification des états d’enregistrement et la suppression de l’utilisateur en [cours d’enregistrement](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126).
+Graph documentation sur les API spécifiques est ici pour [updateRecordingStatus](/graph/api/call-updaterecordingstatus?tabs=http) et [incomingContext](/graph/api/resources/incomingcontext).
 
 L’implémentation exacte du service d’enregistreur variera selon le partenaire, mais doit être conçue pour prendre en charge plusieurs enregistreurs afin d’obtenir une haute disponibilité et une distribution géographique du déploiement afin de réduire la latence entre Teams et l’enregistreur. En outre, les enregistreurs eux-mêmes doivent être conçus avec une résilience et une redondance à l’esprit.
 
@@ -138,7 +138,7 @@ Les exigences relatives à la gestion des VM Azure et Windows s’appliquent uni
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>Affectation et mise en service des stratégies d’enregistrement de conformité
 
-Les administrateurs informatiques peuvent déterminer les utilisateurs à enregistrer et l’enregistreur à utiliser pour chaque utilisateur, en créant et en attribuant des stratégies d’enregistrement de conformité. Les enregistreurs sont invités automatiquement à participer à des conversations en fonction de la configuration de ces stratégies lors d’une interaction de communication. Les stratégies d’enregistrement de conformité sont gérées à l’aide de [Microsoft PowerShell](./teams-powershell-overview.md) et peuvent être appliquées au niveau du client, par utilisateur et du groupe de sécurité pour chaque organisation. Vous trouverez davantage d’informations [](./meeting-policies-overview.md)sur les [](./teams-calling-policy.md) stratégies de réunion, les stratégies d’appel et les stratégies de groupe de Microsoft Docs pour [les réunions.](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)
+Les administrateurs informatiques peuvent déterminer les utilisateurs à enregistrer et l’enregistreur à utiliser pour chaque utilisateur, en créant et en attribuant des stratégies d’enregistrement de conformité. Les enregistreurs sont invités automatiquement à participer à des conversations en fonction de la configuration de ces stratégies lors d’une interaction de communication. Les stratégies d’enregistrement de conformité sont gérées à l’aide de [Microsoft PowerShell](./teams-powershell-overview.md) et peuvent être appliquées au niveau du client, par utilisateur et du groupe de sécurité pour chaque organisation. Vous trouverez davantage d’informations sur les stratégies de [réunion, les](./meeting-policies-overview.md) stratégies d’appel et les [stratégies de groupe](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group) de Microsoft Docs. [](./teams-calling-policy.md)
 
 1. Créez une instance d’application dans votre client.
 
@@ -175,7 +175,7 @@ Les administrateurs informatiques peuvent déterminer les utilisateurs à enregi
    -ComplianceRecordingApplications @(New-CsTeamsComplianceRecordingApplication -Id 5069aae5-c451-4983-9e57-9455ced220b7 -Parent TestComplianceRecordingPolicy)
    ```
 
-   Voir [Set-CsTeamsComplianceRecordingPolicy.](/powershell/module/skype/set-csteamscompliancerecordingpolicy)
+   Voir [Set-CsTeamsComplianceRecordingPolicy](/powershell/module/skype/set-csteamscompliancerecordingpolicy).
 
 3. Attribuez la stratégie d’enregistrement de conformité à un utilisateur.
 
@@ -183,7 +183,7 @@ Les administrateurs informatiques peuvent déterminer les utilisateurs à enregi
    PS C:\> Grant-CsTeamsComplianceRecordingPolicy -Identity testuser@contoso.onmicrosoft.com -PolicyName TestComplianceRecordingPolicy
    ```
 
-   Voir [Grant-CsTeamsComplianceRecordingPolicy.](/powershell/module/skype/grant-csteamscompliancerecordingpolicy)
+   Voir [Grant-CsTeamsComplianceRecordingPolicy](/powershell/module/skype/grant-csteamscompliancerecordingpolicy).
 
    ```powershell
    PS C:\> Get-CsOnlineUser testuser@contoso.onmicrosoft.com | select SipAddress, TenantId, TeamsComplianceRecordingPolicy | fl
@@ -211,6 +211,7 @@ La prise en charge des notifications est activée à l’aide de Teams client. L
 
 > [!NOTE]
 > L’enregistrement de conformité n’est pas pris en charge avec les files d’attente en mode conférence. Utilisez les files d’attente du mode de transfert.
+> L’enregistrement de conformité ne fonctionne pas si les utilisateurs ont été en panne sur Internet et qu’ils font et reçoivent des appels PSTN à l’aide d’un enregistrement SBA.
 
 ## <a name="compliance-recording-for-teams-certification-programs"></a>Enregistrement de conformité pour les Teams certification des produits
 
@@ -244,4 +245,4 @@ Cette liste est mise à jour à mesure que de nouveaux partenaires rejoignent et
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Si vous êtes un fournisseur désireux de rejoindre le programme de certification, envoyez un courrier électronique à [Teamscategorypartner@microsoft.com.](mailto:Teamscategorypartner@microsoft.com)
+Si vous êtes un fournisseur désireux de participer au programme de certification, envoyez un courrier électronique à [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).

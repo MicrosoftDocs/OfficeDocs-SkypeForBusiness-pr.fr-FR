@@ -1405,6 +1405,8 @@ items:
             href: devices/plan-device-deployment.md
           - name: Téléphones pour Teams
             href: devices/phones-for-teams.md
+          - name: Configurer les téléphones de partie commune
+            href: set-up-common-area-phones.md
           - name: Affichages Teams
             href: devices/teams-displays.md
           - name: Panneaux Teams
@@ -1539,7 +1541,7 @@ items:
                 href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
               - name: Connecteurs de Plannings
                 items:
-                  - name: Présentation
+                  - name: Vue d’ensemble
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
       - name: Microsoft Teams pour l’éducation
         href: expand-teams-across-your-org/teams-for-education-landing-page.md

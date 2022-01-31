@@ -20,12 +20,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 6b2dbd5e48793422d8cbbf2252296e6bc17788a3
-ms.sourcegitcommit: 46375d36a879dd318e749df10bee75c6aa416bbc
+ms.openlocfilehash: 905e846537e40178eba55f1a4ccd9a0d1fd1f993
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/22/2021
-ms.locfileid: "61592138"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279181"
 ---
 # <a name="shifts-for-teams"></a>Shifts pour Teams
 
@@ -39,16 +39,26 @@ Utilisez les ressources suivantes pour configurer et gérer Shifts dans votre or
 
 ## <a name="set-up-and-manage-shifts"></a>Configurer et gérer Shifts
 
-|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
-| ------------- | ------------- | ------------- | ------------- |
-|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol."> | **[Gérer shifts dans votre organisation](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">  |**[Gérer les propriétaires de planning pour la gestion des shifts](shifts/schedule-owner-for-shift-management.md)**|
+|&nbsp;  |&nbsp; |
+|---------|---------|
+|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">|**[Gérer shifts dans votre organisation](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** Découvrez comment gérer Shifts pour votre organisation. |
+|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">|**[Gérer les propriétaires de planning pour la gestion des shifts](shifts/schedule-owner-for-shift-management.md)** Cette fonctionnalité vous permet d’améliorer les autorisations d’un membre de l’équipe en tant que propriétaire de planning sans donner à l’employé le niveau de propriétaire de l’équipe. |
+
+## <a name="shifts-connectors"></a>Connecteurs Shifts
+
+Si vous utilisez un système tiers de gestion du personnel (WFM) pour la planification, vous pouvez l’intégrer directement à Shifts via les connecteurs Shifts gérés, et via shifts Graph API et SDK avec des connecteurs Shifts open source. Une fois que vous avez établi une connexion, vos employés en contact direct peuvent consulter et gérer leurs plannings en toute transparence dans votre système WFM à partir de Shifts.
+
+|&nbsp;  |&nbsp;  |
+|---------|---------|
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Vue d’ensemble des connecteurs Shifts](shifts/shifts-connectors.md)** Obtenez une vue d’ensemble des connecteurs Shifts et de leur fonctionnement. En savoir plus sur les connecteurs gérés et open source disponibles et les systèmes WFM pris en charge.   |
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Connecteurs Shifts gérés](shifts/shifts-connectors.md#managed-shifts-connectors)** Les connecteurs Shifts gérés, développés en collaboration avec nos partenaires, sont hébergés et gérés par nous ou par nos partenaires. Si vous utilisez le système Reflexis WFM, consultez le connecteur [Reflexis Shifts](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams) pour Microsoft Teams en savoir plus.    |
+|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[Connecteurs Shifts open source](/microsoftteams/platform/samples/shifts-wfm-connectors)** Découvrez comment utiliser des [connecteurs open source pilotés](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) par la communauté pour intégrer votre système Kronos ou JDA WFM via Shifts Graph API et SDK.    |
 
 ## <a name="shifts-extensions"></a>Extensions Shifts
 
 |&nbsp;|&nbsp;|
 | ------------- | ------------- |
-| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph API](/graph/api/resources/shift)** Shifts Graph API vous permettent d’intégrer des données Shifts aux systèmes de gestion du personnel externe. Vous avez la possibilité de créer des expériences Shifts personnalisées à l’arrière-plan, tout en offrant aux utilisateurs une expérience frontale enrichie dans Teams.             |
-| <img src="/office/media/icons/api.png" alt="Three gears - API.">| **[Intégrations en matière de gestion du personnel](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Si vous utilisez des systèmes tiers de gestion du personnel, tels que Kronos et JDA, pour la planification, l’heure et la participation, vous pouvez l’intégrer directement à Shifts via Shifts Graph API et SDK avec les intégrations open source. |
+| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph API](/graph/api/resources/shift)** Shifts Graph API vous permettent d’intégrer des données Shifts aux systèmes WFM (External Workforce Management). Vous avez la possibilité de créer des expériences Shifts personnalisées à l’arrière-plan, tout en offrant aux utilisateurs une expérience frontale enrichie dans Teams.             |
 |<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate vous permet de prendre des informations à partir de Shifts, de créer des flux de travail personnalisés avec d’autres applications et d’effectuer des opérations à l’échelle. Automatisez les processus clés avec peu ou pas de code. Les déclencheurs et modèles supportent différents scénarios tels que l’activation des approbations automatiques pour les demandes de shift lorsque l’approbation d’un responsable n’est pas nécessaire. |
 
 ## <a name="featured-training"></a>Formation proposée
