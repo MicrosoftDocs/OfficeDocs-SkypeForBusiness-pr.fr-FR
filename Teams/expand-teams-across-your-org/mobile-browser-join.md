@@ -10,27 +10,29 @@ search.appverid: ''
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection:
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: Découvrez l’expérience de jointisation pour les Teams virtuelles sur les navigateurs mobiles.
-ms.openlocfilehash: f8307902d7689cf56f10f3705ca3d5611a0f3d11
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 5c4b0f7ac9011d12d12e3076f900880292e72eb1
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960113"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288562"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>Gérer l’expérience de jointisation pour Teams visites virtuelles sur les navigateurs mobiles
 
 Microsoft Teams permet aux personnes de facilement prendre des rendez-vous sur leurs appareils mobiles sans avoir à les Teams. Pour une expérience plus transparente, les participants peuvent rejoindre des rendez-vous tels que des visites médicales, des consultations financières, des enseignants, etc., à partir d’un navigateur mobile. Les participants n’ont pas besoin d’installer Teams’application mobile sur leurs appareils mobiles Android ou iOS.
 
-Lorsqu’un participant rejoint un navigateur mobile, lorsqu’un participant rejoint un rendez-vous à partir d’un appareil mobile, il n’est pas invité à télécharger Teams. Au lieu de cela, Teams s’ouvre dans un navigateur mobile, où le participant peut sélectionner **Rejoindre maintenant** pour rejoindre la réunion. Cette fonctionnalité vous permet de garder à l’esprit que si Teams est déjà installé sur l’appareil mobile d’un participant, Teams s’ouvre dans un navigateur mobile et non dans l’application.
+Lorsqu’un participant rejoint un navigateur mobile, lorsqu’un participant rejoint un rendez-vous à partir d’un appareil mobile, il n’est pas invité à télécharger Teams. Au lieu de Teams, la fenêtre s’ouvre dans un navigateur mobile, où le participant peut sélectionner **Rejoindre maintenant** pour rejoindre la réunion. Cette fonctionnalité vous permet de garder à l’esprit que si Teams est déjà installé sur l’appareil mobile d’un participant, Teams s’ouvre dans un navigateur mobile et non dans l’application.
 
 Pour l’instant, la jointë de navigateur mobile est disponible pour les rendez-vous programmés via les services suivants :
 
@@ -50,13 +52,13 @@ Une fois cette fonctionnalité désactivée, l’e-mail de confirmation ou le SM
 
 #### <a name="turn-on-mobile-browser-join-for-an-appointment-type"></a>Activer la participation à un navigateur mobile pour un type de rendez-vous
 
-Dans Bookings, sélectionnez les types **Paramètres** rendez-vous, sélectionnez un type de rendez-vous, puis sélectionnez Autoriser les participants à rejoindre la réunion à partir d’un  >  navigateur **mobile.** [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) Ceci permet de rejoindre un navigateur mobile pour tous les rendez-vous de ce type.
+Dans Bookings, sélectionnez **Paramètres** >  **Types** de rendez-vous, sélectionnez un [type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) de rendez-vous, puis sélectionnez Autoriser les participants à rejoindre la réunion à partir **d’un navigateur mobile**. Ceci permet de rejoindre un navigateur mobile pour tous les rendez-vous de ce type.
 
 :::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Capture d’écran du paramètre Autoriser les participants à rejoindre la réunion à partir d’un navigateur mobile pour les types de rendez-vous dans l’application Bookings":::
 
 #### <a name="turn-on-mobile-browser-join-for-an-individual-appointment"></a>Activer la jointité d’un navigateur mobile pour un rendez-vous individuel
 
-Dans Bookings, **sélectionnez Nouvelle réservation,** puis sélectionnez Autoriser les participants à rejoindre la réunion à partir **d’un navigateur mobile.**
+Dans Bookings, **sélectionnez Nouvelle réservation**, puis sélectionnez Autoriser les participants à rejoindre la réunion à partir **d’un navigateur mobile**.
 
 :::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Capture d’écran du paramètre Autoriser les participants à rejoindre la réunion à partir d’un navigateur mobile dans le nouveau formulaire de réservation de l’application Bookings":::
 
@@ -64,9 +66,9 @@ Dans Bookings, **sélectionnez Nouvelle réservation,** puis sélectionnez Autor
 
 Aucune mise en service n’est requise pour vous ou votre personnel.
 
-**Intégration à Cerner EHR**: le connecteur Teams EHR prend en charge les patients rejoignant des visites virtuelles via un mobile. Au moment du rendez-vous, les patients peuvent rejoindre une visite virtuelle en appuyant sur le lien dans le SMS. Le patient choisit le navigateur de son choix, puis Teams s’ouvre dans ce navigateur.
+**Intégration à Cerner EHR** : le connecteur Teams EHR prend en charge les patients rejoignant des visites virtuelles via un mobile. Au moment du rendez-vous, les patients peuvent rejoindre une visite virtuelle en appuyant sur le lien dans le SMS. Le patient choisit le navigateur de son choix, puis Teams s’ouvre dans ce navigateur.
 
-**Intégration à Ehrhienne**: le connecteur Teams EHR prend en charge les patients rejoignant des visites virtuelles via MyChart web et mobile. Au moment du rendez-vous, les patients peuvent commencer une visite virtuelle à partir de MyChart à l’aide du **bouton Commencer la visite** virtuelle. Le patient choisit le navigateur de son choix, puis Teams s’ouvre dans ce navigateur.
+**Intégration à EhrIenne :** le connecteur Teams EHR prend en charge les patients rejoignant des visites virtuelles via MyChart web et mobile. Au moment du rendez-vous, les patients peuvent commencer une visite virtuelle à partir de MyChart à l’aide du **bouton Commencer la visite** virtuelle. Le patient choisit le navigateur de son choix, puis Teams s’ouvre dans ce navigateur.
 
 ## <a name="supported-mobile-browsers"></a>Navigateurs mobiles pris en charge
 
@@ -87,7 +89,7 @@ Voici les navigateurs mobiles actuellement pris en charge. Sauf indication contr
 Le membre du personnel qui dirige la visite virtuelle peut partager son écran à partir de son client Teams de bureau, mobile ou Web avec un participant qui rejoint la réunion à partir d’un navigateur mobile. Toutefois, les participants ne peuvent pas partager leur écran à partir d’un navigateur mobile.
 
 > [!NOTE]
-> Nous ajoutons d’autres fonctionnalités à l’expérience de réunion dans les prochaines version de Teams. Revenir pour obtenir les informations les plus à jour. Pour rester à jour sur les fonctionnalités Teams à venir, consultez la feuille [de route Microsoft 365'utilisation.](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)
+> Nous ajoutons d’autres fonctionnalités à l’expérience de réunion dans les prochaines version de Teams. Revenir pour obtenir les informations les plus à jour. Pour rester au fait des fonctionnalités de Teams à venir, consultez la [feuille de route Microsoft 365 de l’équipe](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
 ## <a name="related-articles"></a>Articles connexes
 

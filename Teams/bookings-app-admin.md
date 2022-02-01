@@ -10,25 +10,27 @@ search.appverid: ''
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection:
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
 description: Découvrez comment gérer l’application Bookings dans Teams pour les utilisateurs de votre organisation.
-ms.openlocfilehash: ae471bfee1901396ee3419380fcd7620e21231fe
-ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
+ms.openlocfilehash: 2bbc671b1054cfa4340abf7656e17939d147dea2
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61111974"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288342"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Gérer l’application Bookings dans Microsoft Teams
 
-L'application Bookings de Microsoft Teams offre un moyen simple de planifier des rendez-vous en personne ou virtuels, tels que des visites médicales, des consultations financières, des entretiens, une assistance à la clientèle, des heures d'ouverture des bureaux de l'éducation, et bien plus encore. Pour en savoir plus, consultez les visites virtuelles [avec Teams et l’application Bookings.](expand-teams-across-your-org/bookings-virtual-visits.md)
+L'application Bookings de Microsoft Teams offre un moyen simple de planifier des rendez-vous en personne ou virtuels, tels que des visites médicales, des consultations financières, des entretiens, une assistance à la clientèle, des heures d'ouverture des bureaux de l'éducation, et bien plus encore. Pour en savoir plus, [consultez les visites virtuelles avec Teams et l’application Bookings](expand-teams-across-your-org/bookings-virtual-visits.md).
 
 Les planificateurs peuvent gérer plusieurs calendriers des services et du personnel, ainsi que les communications avec les participants internes et externes à partir d’une même expérience. Les rendez-vous virtuels eux-mêmes sont Microsoft Teams réunions, ce qui offre des fonctionnalités de visioconférence robustes.
 
@@ -49,25 +51,25 @@ Les planificateurs peuvent gérer plusieurs calendriers des services et du perso
 
 ## <a name="availability-of-bookings-in-teams"></a>Disponibilité de Bookings dans Teams
 
-L’application Microsoft Bookings pour Teams est disponible sur le bureau et sur le web. Il se trouve sous [Applications dans Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) et sous Gérer **les** applications dans le Teams d’administration.
+L’application Microsoft Bookings pour Teams est disponible sur le bureau et sur le web. Il se trouve sous [Applications dans Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) et sous **Gérer les** applications dans le Teams d’administration.
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>Contrôler l’accès à Bookings au sein de votre organisation
 
 Plusieurs méthodes s’offrent à vous pour contrôler qui a accès à l’application Bookings et à des fonctionnalités spécifiques de l’application.
 
-Pour savoir comment activer ou désactiver Microsoft Bookings dans le Centre d'administration Microsoft 365 et comment créer une stratégie d’application Bookings pour permettre à des utilisateurs sélectionnés de créer des calendriers Bookings, voir Obtenir l’accès à [Microsoft Bookings.](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)
+Pour savoir comment activer ou désactiver Microsoft Bookings dans le Centre d'administration Microsoft 365 et comment créer une stratégie d’application Bookings permettant aux utilisateurs sélectionnés de créer des calendriers Bookings, voir Obtenir l’accès à [Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce).
 
-Vous pouvez également créer [une stratégie Teams de configuration d’une application pour épingler l’application Bookings pour certains utilisateurs.](teams-app-setup-policies.md)
+Vous pouvez également créer [une stratégie Teams de configuration d’une application pour épingler l’application Bookings pour certains utilisateurs](teams-app-setup-policies.md).
 
 ## <a name="recommended-meeting-policy-settings"></a>Paramètres de stratégie de réunion recommandés
 
-Pour activer la meilleure expérience pour Bookings, créez une  stratégie de réunion Teams afin d’admettre automatiquement tous les membres de votre organisation et d’affecter la stratégie à votre personnel. Cela permet au personnel de rejoindre automatiquement le rendez-vous et d’activer l’expérience de salle d’accueil pour les participants externes. En savoir plus sur [l’accès automatique aux réunions.](meeting-policies-participants-and-guests.md#automatically-admit-people)
+Pour activer la meilleure expérience pour Bookings, créez une stratégie de réunion Teams permettant d’admettre automatiquement  tous les membres de votre organisation et d’affecter la stratégie à votre personnel. Cela permet au personnel de rejoindre automatiquement le rendez-vous et d’activer l’expérience de salle d’accueil pour les participants externes. En savoir plus sur [l’accès automatique aux](meeting-policies-participants-and-guests.md#automatically-admit-people) réunions.
 
 ## <a name="optional-staff-approvals-setting"></a>Paramètre d’approbation facultative du personnel
 
 Dans le cadre d’un paramètre de confidentialité supplémentaire, vous pouvez choisir d’obliger les membres du personnel à s’y prendre avant que leurs informations de disponibilité ne soient partagées via Bookings et avant qu’ils ne soient pris en rendez-vous.  
 
-Pour activer ce paramètre, sélectionnez **Centre d'administration Microsoft 365** \> **Paramètres** \> **Paramètres,** puis **Bookings.**
+Pour activer ce paramètre, sélectionnez **Centre d'administration Microsoft 365** \> **Paramètres** \> **Paramètres**, puis **Bookings**.
 
 Une fois ce paramètre désactivé, le personnel reçoit un courrier électronique dans lequel il est invité à approuver l’appartenance à un calendrier de réservation.  
 
@@ -98,7 +100,7 @@ Vos commentaires sont les bienvenus :
   - Lacunes dans les fonctionnalités ou fonctionnalités manquantes
   - Bogues ou problèmes
   
-Pour envoyer des  commentaires, sélectionnez le bouton Aide situé en bas Teams barre de navigation gauche, puis sélectionnez Signaler un problème **pour** **TOUS les** problèmes. Indiquez au début de votre rapport de commentaires que vous envoyez des commentaires sur Bookings afin que nous pouvons facilement identifier les problèmes de Bookings.
+Pour envoyer des commentaires, sélectionnez le bouton Aide situé en bas Teams barre de navigation gauche, puis sélectionnez Signaler un **problème pour** **TOUS les** problèmes. Indiquez au début de votre rapport de commentaires que vous envoyez des commentaires sur Bookings afin que nous pouvons facilement identifier les problèmes de Bookings.
 
 ## <a name="related-articles"></a>Articles connexes
 

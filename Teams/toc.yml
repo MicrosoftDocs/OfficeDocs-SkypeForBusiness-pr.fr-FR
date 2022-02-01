@@ -1675,8 +1675,36 @@ items:
       - name: Teams pour la vente au détail
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
+          - name: Collaboration entre équipes commerciales
+            href: expand-teams-across-your-org/retail-team-collaboration.md
+          - name: Simplifier les processus métier dans la vente au détail
+            href: expand-teams-across-your-org/retail-business-processes.md
           - name: Utiliser les modèles d’équipe au détail
             href: get-started-with-retail-teams-templates.md
+          - name: Assistant d’intégration de Worker de première ligne
+            href: flw-onboarding-wizard.md
+          - name: Déploiement par script pour les travailleurs de première ligne
+            href: flw-scripted-deployment.md
+          - name: Shifts pour Teams
+            items:
+              - name: Shifts pour Teams
+                href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
+              - name: Gérer l’application Shifts
+                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+              - name: Gérer l’accès basé les équipes
+                href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
+          - name: Talkie-walkie
+            href: walkie-talkie.md
+          - name: RealWear
+            href: flw-realwear.md
+          - name: Gérer l’application Compliment
+            href: manage-praise-app.md
+          - name: Gérer l’application Tâches
+            href: manage-tasks-app.md
+          - name: Gérer l’application Listes
+            href: manage-lists-app.md
+          - name: Gérer l'application Approbations
+            href: approval-admin.md
   - name: Référence
     items:
       - name: Spécifications et limites de Teams

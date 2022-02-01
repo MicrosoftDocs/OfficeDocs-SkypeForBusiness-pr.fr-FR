@@ -1,11 +1,11 @@
 ---
 title: Stratégies de réunion et expiration des réunions dans Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: nej
+ms.reviewer: nej, brgussin
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -17,28 +17,28 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Découvrez comment utiliser les paramètres de stratégie de réunion pour contrôler l’expiration d’une réunion Microsoft Teams.
-ms.openlocfilehash: 8768410666d003f12cffb80995981b887059f93a
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: d12c0ca4a0b838f66cfac142102b6e4b8efc3e03
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61178015"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288332"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Stratégies de réunion et expiration des réunions dans Microsoft Teams
 
-[](meeting-policies-overview.md) Les stratégies de réunion dans Microsoft Teams sont utilisées pour contrôler si les utilisateurs de votre organisation peuvent démarrer et planifier des réunions, ainsi que les fonctionnalités disponibles pour les participants à la réunion qui sont programmées par les utilisateurs. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées. Vous gérez les stratégies de réunion dans le Microsoft Teams d’administration ou à l’aide des cmdlets PowerShell [Get,](/powershell/module/skype/get-csteamsmeetingpolicy) [New,](/powershell/module/skype/new-csteamsmeetingpolicy) [Set,](/powershell/module/skype/set-csteamsmeetingpolicy) [Remove,](/powershell/module/skype/remove-csteamsmeetingpolicy) [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell.
+[](meeting-policies-overview.md) Les stratégies de réunion dans Microsoft Teams sont utilisées pour contrôler si les utilisateurs de votre organisation peuvent démarrer et planifier des réunions, ainsi que les fonctionnalités disponibles aux participants à la réunion pour les réunions qui sont programmées par les utilisateurs. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées. Vous gérez les stratégies de réunion dans le Microsoft Teams d’administration ou à l’aide des cmdlets PowerShell [Get](/powershell/module/skype/get-csteamsmeetingpolicy), [New](/powershell/module/skype/new-csteamsmeetingpolicy), [Set](/powershell/module/skype/set-csteamsmeetingpolicy), [Remove](/powershell/module/skype/remove-csteamsmeetingpolicy), [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy.
 
 Les paramètres de stratégie de réunion qui contrôlent si les utilisateurs peuvent commencer et planifier des réunions, et contrôler également l’expiration des réunions programmées par les utilisateurs. Lorsqu’un lien de connexion à une réunion et l’ID de conférence d’une réunion expirent, personne ne peut y participer. Les paramètres de stratégie de réunion suivants déterminent si les utilisateurs peuvent commencer et planifier des réunions dans Teams. Nous abordons les paramètres de la réunion dans cet article.
 
-- [Conférence maintenant dans les canaux](meeting-policies-in-teams-general.md#meet-now-in-channels): contrôle si un utilisateur peut démarrer une réunion improvisée dans un canal.
-- [Planification des réunions de canal](meeting-policies-in-teams-general.md#channel-meeting-scheduling): contrôle si un utilisateur peut planifier une réunion dans un canal.
-- [Planification de réunion privée](meeting-policies-in-teams-general.md#private-meeting-scheduling): contrôle si un utilisateur peut planifier une réunion privée dans Teams. Une réunion est privée lorsque celle-ci n’est pas publiée dans un canal d’une équipe.
-- [Outlook :](meeting-policies-in-teams-general.md#outlook-add-in)contrôle si un utilisateur peut planifier une réunion privée à partir d’Outlook. Une réunion est privée lorsque celle-ci n’est pas publiée dans un canal d’une équipe.
-- [Se réunir maintenant dans des réunions privées](meeting-policies-in-teams-general.md#meet-now-in-private-meetings): contrôle si un utilisateur peut démarrer une réunion privée improvisée.
+- [Conférence maintenant dans les canaux](meeting-policies-in-teams-general.md#meet-now-in-channels) : contrôle si un utilisateur peut démarrer une réunion improvisée dans un canal.
+- [Planification des réunions de canal](meeting-policies-in-teams-general.md#channel-meeting-scheduling) : contrôle si un utilisateur peut planifier une réunion dans un canal.
+- [Planification de réunion privée](meeting-policies-in-teams-general.md#private-meeting-scheduling) : contrôle si un utilisateur peut planifier une réunion privée dans Teams. Une réunion est privée lorsque celle-ci n’est pas publiée dans un canal d’une équipe.
+- [Outlook : contrôle si](meeting-policies-in-teams-general.md#outlook-add-in) un utilisateur peut planifier une réunion privée à partir d’Outlook. Une réunion est privée lorsque celle-ci n’est pas publiée dans un canal d’une équipe.
+- [Se réunir maintenant dans des réunions privées](meeting-policies-in-teams-general.md#meet-now-in-private-meetings) : contrôle si un utilisateur peut démarrer une réunion privée improvisée.
 
 Par défaut, ces paramètres sont sous.jour. Lorsque l’un de ces paramètres est désactivé, tout utilisateur affecté à la stratégie ne peut pas démarrer ni planifier de nouvelles réunions de ce type. En même temps, la réunion joint les liens et les ID de conférence de toutes les réunions existantes de ce type que l’utilisateur a précédemment commencées ou dont l’expiration a été programmée.
 
-Par exemple, si un utilisateur se voit attribuer une stratégie de réunion dans laquelle  ces paramètres de stratégie de réunion sont réglés sur **Activer,** puis que vous désactiverez le paramètre Autoriser la réunion maintenant dans les canaux, cet utilisateur ne peut plus démarrer de réunions improvisées dans les canaux et le canal Conférence maintenant joint les liens que l’utilisateur a créés précédemment a expiré. L’utilisateur peut toujours commencer et planifier d’autres types de réunions et participer à des réunions organisées par d’autres personnes.
+Par exemple, si un utilisateur se voit attribuer une stratégie de réunion dans laquelle ces paramètres de stratégie de réunion sont réglés sur **Activer, puis** que vous désactiverez le paramètre Autoriser la réunion maintenant dans les canaux, cet utilisateur ne peut plus démarrer de réunions improvisées dans les canaux et le canal Conférence maintenant joint les liens que l’utilisateur a créés précédemment a expiré. L’utilisateur peut toujours commencer et planifier d’autres types de réunions et participer à des réunions organisées par d’autres personnes.
 
 ## <a name="what-happens-when-the-meeting-join-link-and-conference-id-expire"></a>Que se passe-t-il lorsque le lien d’entrée et l’ID de conférence expirent ?
 
@@ -48,13 +48,13 @@ Lorsque le lien d’adhésion à la réunion et l’ID de conférence d’une r�
 
 ### <a name="switch-a-meeting-policy-setting-from-on-to-off"></a>Passer d’un paramètre de stratégie de réunion à un paramètre de réunion
 
-Lorsqu’un paramètre de stratégie de réunion est réglé sur **On,** les utilisateurs à qui la stratégie est attribuée peuvent démarrer ou planifier des réunions de ce type et tout le monde peut y participer. Lorsque vous basculez le paramètre de stratégie de réunion sur **Non,** les utilisateurs à qui la stratégie est attribuée ne peuvent pas démarrer ou planifier de nouvelles réunions de ce type, et les liens de participer à la réunion et les ID de conférence des réunions existantes précédemment programmées par l’utilisateur ont expiré.
+Lorsqu’un paramètre de stratégie de réunion est réglé sur **On, les** utilisateurs à qui la stratégie est attribuée peuvent démarrer ou planifier des réunions de ce type et tout le monde peut y participer. Lorsque vous basculez le paramètre de stratégie de réunion sur **Non, les** utilisateurs à qui la stratégie est attribuée ne peuvent pas démarrer ou planifier de nouvelles réunions de ce type, et les liens de participer à la réunion et les ID de conférence des réunions existantes précédemment programmées par l’utilisateur ont expiré.
 
 Gardez à l’esprit que l’utilisateur peut toujours participer à des réunions organisées par d’autres personnes.
 
 ### <a name="switch-a-meeting-policy-setting-from-off-to-on"></a>Passer d’un paramètre de stratégie de réunion à un paramètre de réunion
 
-Lorsque vous basculez d’un paramètre de stratégie de réunion de Off à **On,** les utilisateurs à qui la stratégie est attribuée peuvent démarrer ou planifier des réunions de ce type.  Si un paramètre de stratégie de réunion est désactivé, puis réorganisé pour un utilisateur, toutes les réunions précédemment programmées (et expirées) organisées par l’utilisateur deviennent actives et les personnes peuvent les rejoindre à l’aide du lien d’accès à la réunion ou par téléphone.  
+Lorsque vous basculez d’un paramètre  de stratégie de réunion d’Off à **On**, les utilisateurs à qui la stratégie est attribuée peuvent démarrer ou planifier des réunions de ce type. Si un paramètre de stratégie de réunion est désactivé, puis réorganisé pour un utilisateur, toutes les réunions précédemment programmées (et expirées) organisées par l’utilisateur deviennent actives et les personnes peuvent les rejoindre à l’aide du lien d’accès à la réunion ou par téléphone.  
 
 ## <a name="meeting-expiration-scenarios"></a>Scénarios d’expiration de réunion
 
@@ -62,10 +62,10 @@ Voici un résumé du fonctionnement de l’expiration des réunions pour chacun 
 
 |Si vous souhaitez...&nbsp;&nbsp; |Pour ce faire,&nbsp;&nbsp;&nbsp;&nbsp;  |Comportement d’adhésion à une réunion&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
-|Expiration des réunions Conférence maintenant privées démarrées par un utilisateur&nbsp;&nbsp;|Désactiver Conférence **maintenant dans les réunions privées.**&nbsp;&nbsp;|Personne ne peut participer à des réunions **Privées Conférence maintenant** démarrées par l’utilisateur.|
-|Expiration des réunions privées programmées par un utilisateur&nbsp;&nbsp;|Désactiver la **planification de réunion privée** et _désactiver_ **Outlook-in.** &nbsp;&nbsp;|Personne ne peut participer à des réunions privées programmées par l’utilisateur. Cela empêche les personnes de participer aux réunions suivantes :<ul><li>Réunions privées qui se sont déjà produites dans le passé.</li><li>Réunions privées prévues pour l’avenir et qui ne se sont pas encore produites.</li><li>Prochaines instances de réunions privées périodiques.</li></ul><br>La **planification des réunions** privées et Outlook **le** plus doivent être éteints pour expirer les réunions privées prévues par un utilisateur. Si l’un des paramètres est éteint et que l’autre est actif, les liens de participation à des réunions et les ID de conférence des réunions existantes restent actifs et ne sont pas expirés.|
-|Expire channel **Meet now** meetings started by a user&nbsp;&nbsp;|Désactiver Conférence **maintenant dans les canaux** _et_ désactiver la planification des réunions **du canal.**&nbsp;&nbsp;|Personne ne peut rejoindre les réunions **Conférence maintenant** du canal commencées par l’utilisateur.|
-|Expiration des réunions de canal prévues par un utilisateur&nbsp;&nbsp;|Désactiver la **planification des réunions du canal.**&nbsp;&nbsp;|Personne ne peut participer aux réunions de canal programmées par l’utilisateur. Cela empêche les personnes de participer aux réunions suivantes :<ul><li>Réunions de canal qui se sont déjà produites dans le passé.</li><li>Réunions de canal prévues pour l’avenir et qui ne se sont pas encore produites.</li><li>Prochaines instances de réunions de canal périodiques.</li></ul>|
+|Expiration des réunions Conférence maintenant privées démarrées par un utilisateur&nbsp;&nbsp;|Désactiver Conférence **maintenant dans les réunions privées**.&nbsp;&nbsp;|Personne ne peut participer à des réunions **Privées Conférence maintenant** démarrées par l’utilisateur.|
+|Expiration des réunions privées programmées par un utilisateur&nbsp;&nbsp;|Désactiver la **planification de réunion** _privée et désactiver_ **Outlook-in**. &nbsp;&nbsp;|Personne ne peut participer à des réunions privées programmées par l’utilisateur. Cela empêche les personnes de participer aux réunions suivantes :<ul><li>Réunions privées qui se sont déjà produites dans le passé.</li><li>Réunions privées prévues pour l’avenir et qui ne se sont pas encore produites.</li><li>Prochaines instances de réunions privées périodiques.</li></ul><br>La **planification des réunions** privées et **Outlook à** ce qu’ils expirent des réunions privées prévues par un utilisateur. Si l’un des paramètres est éteint et que l’autre est actif, les liens de participation à des réunions et les ID de conférence des réunions existantes restent actifs et ne sont pas expirés.|
+|Expire channel **Meet now** meetings started by a user&nbsp;&nbsp;|Désactiver Conférence **maintenant dans les canaux** _et_ désactiver la planification des réunions **du canal**.&nbsp;&nbsp;|Personne ne peut rejoindre les réunions **Conférence maintenant** du canal commencées par l’utilisateur.|
+|Expiration des réunions de canal prévues par un utilisateur&nbsp;&nbsp;|Désactiver la **planification des réunions du canal**.&nbsp;&nbsp;|Personne ne peut participer aux réunions de canal programmées par l’utilisateur. Cela empêche les personnes de participer aux réunions suivantes :<ul><li>Réunions de canal qui se sont déjà produites dans le passé.</li><li>Réunions de canal prévues pour l’avenir et qui ne se sont pas encore produites.</li><li>Prochaines instances de réunions de canal périodiques.</li></ul>|
 
 Si vous souhaitez que les personnes accèdent à des réunions précédemment programmées ou démarrées par un utilisateur particulier, vous pouvez :
 
@@ -77,9 +77,12 @@ Si vous souhaitez que les personnes accèdent à des réunions précédemment pr
 
 ## <a name="changes-to-meeting-expiration"></a>Modifications apportées à l’expiration d’une réunion
 
-Tous les enregistrements des Teams de réunion nouvellement créés ont une durée d’expiration de 60 jours par défaut. Cette option est optionnée par défaut pour tous les locataires. Cela signifie que, par défaut,  tous les tmrs créés après l’option seront supprimés 60 jours après la date de création. Les administrateurs peuvent également configurer les réunions pour qu’ils **n’expirent jamais automatiquement.** Le OneDrive et SharePoint de contrôle des détails des tmrs surveille la date d’expiration définie sur toutes les tmR et déplace automatiquement les tmR vers la Corbeille à la date d’expiration.
+> [!IMPORTANT]
+> Si vous souhaitez activer l Teams expiration anticipée d’une réunion sur votre client, appliquez-Microsoft Teams [programme d’expiration anticipée de la réunion](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u).
 
-L’expiration automatique des réunions est un mécanisme de tâches de tâches léger qui permet de réduire l’encombrement du stockage créé par les anciennes tmRs. En moyenne, sur l’ensemble des clients, 99 % des tmrs ne sont pas regardés après 60 jours. Nous pensons que presque tous les clients bénéficieront de la charge de stockage réduite sur leur client en supprimant les enregistrements qui ne seront probablement pas regardés à nouveau après 60 jours. Notre objectif est d’offrir par défaut une expérience aussi propre que possible à tous les clients.
+Tous les enregistrements des Teams de réunion nouvellement créés ont une durée d’expiration de 120 jours par défaut. Cette option est optionnée par défaut pour tous les locataires. Cela signifie que, par défaut, tous les tmrs créés après l’option seront supprimés 120 jours après la date de création. Les administrateurs peuvent également configurer les réunions pour **qu’ils n’expirent jamais automatiquement**. Le OneDrive et SharePoint de contrôle des détails des tmrs surveille la date d’expiration définie sur toutes les tmR et déplace automatiquement les tmR vers la Corbeille à la date d’expiration.
+
+L’expiration automatique des réunions est un mécanisme de tâches de tâches léger qui permet de réduire l’encombrement du stockage créé par les anciennes tmRs. En moyenne, sur l’ensemble des clients, 96 % des tmrs ne sont pas regardés après 60 jours et 99 % ne le sont pas après 110 jours. Nous pensons que presque tous les clients bénéficieront de la charge de stockage réduite sur leur client en supprimant les enregistrements qui ne seront probablement pas regardés à nouveau après 60 jours. Notre objectif est d’offrir par défaut une expérience aussi propre que possible à tous les clients.
 
 Utilisez l’expiration d’une réunion pour limiter OneDrive ou SharePoint consommation de stockage cloud, pilotée par Teams enregistrements de réunion. L’enregistrement d’une réunion classique consomme environ 400 Mo par heure d’enregistrement.
 
@@ -88,7 +91,7 @@ Utilisez l’expiration d’une réunion pour limiter OneDrive ou SharePoint con
 
 ### <a name="expiration-date"></a>Date d’expiration
 
-- La date d’expiration est calculée comme le jour de sa création **ainsi** que le nombre de jours par défaut Teams la stratégie de gestion des licences **par l’administrateur.**
+- La date d’expiration est calculée en tant que jour de **création, ainsi** que le nombre de jours par défaut Teams la stratégie par **l’administrateur**.
 - La lecture n’a aucun impact sur la date d’expiration.
 
 ### <a name="change-the-default-expiration-date"></a>Modifier la date d’expiration par défaut

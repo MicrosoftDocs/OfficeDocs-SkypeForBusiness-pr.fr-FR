@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: Découvrez comment configurer et gérer l’application Shifts dans Teams pour les employés en ligne de votre organisation.
 f1.keywords:
 - NOCSH
@@ -19,15 +20,16 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec708d310ea72ac56b5f6ad6bb65a4ab436915f6
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: fa274c8aa068d7b17ce35d17525b58152677de07
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192375"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288372"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Plannings pour votre organisation dans Microsoft Teams
 
@@ -58,11 +60,11 @@ Les données Plannings sont actuellement stockées dans Azure dans des centres d
 Plannings est activé par défaut pour tous les utilisateurs Teams de votre organisation. Vous pouvez désactiver ou activer l’application au niveau de l’organisation sur la page [Gérer les applications](../../manage-apps.md) dans le centre d’administration Microsoft Teams.
 
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **applications Teams** > **Gérer les applications**.
-2. Dans la liste des applications, recherchez l’application Shifts, sélectionnez-la, puis basculez le bouton bascule Statut sur **Bloqué** ou **Autorisé.** 
+2. Dans la liste des applications, recherchez l’application Shifts, sélectionnez-la, puis  basculez le bouton bascule Statut sur **Bloqué** ou **Autorisé**.
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Activer ou désactiver Plannings pour des utilisateurs spécifiques de votre organisation
 
-Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation d’utiliser Shifts, assurez-vous que Shifts est désactivé pour votre organisation sur la page [Gérer les applications.](../../manage-apps.md) Ensuite, créez une stratégie d’autorisation d’application personnalisée et attribuez-la à ces utilisateurs. Pour plus d’informations, consultez [Gérer les stratégies d’autorisation d’application dans Teams](../../teams-app-permission-policies.md).
+Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation d’utiliser Shifts, assurez-vous que Shifts est désactivé pour votre organisation sur la page [Gérer les applications](../../manage-apps.md) . Ensuite, créez une stratégie d’autorisation d’application personnalisée et attribuez-la à ces utilisateurs. Pour plus d’informations, consultez [Gérer les stratégies d’autorisation d’application dans Teams](../../teams-app-permission-policies.md).
 
 ### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Utiliser une stratégie de configuration d’application pour épingler Shifts à Teams
 
