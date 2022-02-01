@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les canaux privés dans Microsoft Teams.
-ms.openlocfilehash: 1f86ceba18a234d7b3a1f41ebdbfe58c777beedf
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 8d041d0fa8a182cb3cebf485c9cef92f880a99e5
+ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536555"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62299009"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canaux privés dans Microsoft Teams
 
@@ -76,12 +76,12 @@ Le tableau suivant décrit les actions que les propriétaires, les membres et le
 |---------|---------|---------|---------|---------|---------|---------|
 |Créer un canal privé|Contrôlée par l’administrateur|Contrôlée par l’administrateur et le propriétaire de l’équipe|Non|N/A|N/A|S/O|
 |Supprimer un canal privé|Oui|Non|Non|Oui|Non|Non|
-|Quitter un canal privé|S/O|N/A|S/O|Oui, à moins qu’il ne soit le dernier propriétaire|Oui|Oui|
+|Quitter un canal privé|S/O|S/O|S/O|Oui, à moins qu’il ne soit le dernier propriétaire|Oui|Oui|
 |Modifier un canal privé|Non|N/A|N/A|Oui|Non|Non|
 |Restaurer un canal privé supprimé|Oui|Non|Non|Oui|Non|Non|
 |Ajouter des membres|Non|N/A|N/A|Oui|Non|Non|
 |Modifier les paramètres|Non|N/A|N/A|Oui|Non|Non|
-|Gérer les onglets et les applications|Non|N/A|S/O|Oui, les applications doivent être installées pour l’équipe|Contrôlé par le propriétaire du canal|Non|
+|Gérer les onglets et les applications|Non|N/A|N/A|Oui, les applications doivent être installées pour l’équipe|Contrôlé par le propriétaire du canal|Non|
 
 ## <a name="manage-the-lifecycle-of-private-channels"></a>Gérer le cycle de vie des canaux privés
 
@@ -97,7 +97,7 @@ Chaque canal privé possède ses propres sites SharePoint. Le site séparé vise
 
 Un site de canaux privés synchronise la classification des données et hérite des autorisations d’accès invité du site de l’équipe parente. L’adhésion au propriétaire du site et aux groupes de membres, est synchronisée avec l’adhésion au canal privé au sein de Teams. Les autorisations de site pour un site de canal privé ne peuvent pas être gérées indépendamment via SharePoint. 
 
-Teams gère le cycle de vie du site SharePoint du canal privé. Si le site est supprimé en dehors de Teams, un travail d’arrière-plan restaure le site dans les quatre heures tant que le canal privé est toujours actif. Si le site est supprimé définitivement, un nouveau site est fourni pour le canal privé.
+Teams gère le cycle de vie du site SharePoint du canal privé. Si le site est supprimé en dehors de Teams, un travail d’arrière-plan restaure le site dans les quatre heures tant que le canal privé est toujours actif.
 
 Si une équipe ou un canal privé contenant un canal privé est restauré, les sites sont également restaurés. Si un site de canal privé est restauré et dépasse le délai de suppression réversible de 30 jours, le site fonctionne alors comme un site autonome.
 

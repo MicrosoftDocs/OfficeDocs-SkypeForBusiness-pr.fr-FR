@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Découvrez les conditions requises pour la prise en charge Salles Microsoft Teams, notamment le choix du périphérique approprié, des microphones, des haut-parleurs, des caméras et des écrans.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d8ac82776c92b057cef963e03fd42f0ef902980
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 9525c4dba78cc26c3d45ee4ee5831eb3deee93a5
+ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279282"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62299039"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Spécifications des salles Microsoft Teams
 
@@ -96,6 +96,7 @@ Tous les appareils et offres groupées actuels de salle Microsoft Teams sont dis
   |Yealink MVC660|Core i5|8 Go | 128 Go|
   |Yealink MVC640|Core i5|8 Go | 128 Go|
   |Yealink MVC320|Core i5|8 Go | 128 Go|
+  |Yealink MVC340|Core i5|8 Go | 128 Go|
   
   
 > [!NOTE]

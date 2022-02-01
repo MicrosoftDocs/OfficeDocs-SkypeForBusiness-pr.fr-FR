@@ -22,21 +22,21 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez les fonctionnalités, la disponibilité et comment planifier et configurer des Microsoft Teams Système téléphonique pour votre entreprise. '
-ms.openlocfilehash: 1643e0fe9bd877f627ec186e405bb155635f9f74
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: 79712a9e3f9221c0aa6d256253d76e266cbbe658
+ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180937"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62299069"
 ---
 # <a name="heres-what-you-get-with-teams-phone"></a>Voici ce que vous obtenez avec Teams Téléphone
 
 Cet article décrit Teams Téléphone fonctionnalités principales. Pour plus d’informations sur l’utilisation de Teams Téléphone en tant que remplacement de votre Exchange de branche privée (PBX) et les options de connexion au réseau téléphonique commuté (PSTN), consultez les informations [Teams Téléphone.](what-is-phone-system-in-office-365.md)
 
-Les clients sont disponibles pour PC, Mac et appareils mobiles, ce qui fournit des fonctionnalités sur les appareils qui vont des tablettes et téléphones mobiles aux PC et téléphones IP de bureau. Pour plus d’informations, [voir Obtenir des clients pour Microsoft Teams.](get-clients.md)
+Les clients sont disponibles pour PC, Mac et appareils mobiles, ce qui fournit des fonctionnalités sur les appareils qui vont des tablettes et téléphones mobiles aux PC et téléphones IP de bureau. Pour plus d’informations, [voir Obtenir des clients pour Microsoft Teams](get-clients.md).
 
  > [!Note]
-> Pour plus d’informations sur Teams de téléphone sur différentes plateformes, voir Teams [fonctionnalités par plateforme.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+> Pour plus d’informations sur Teams de téléphone sur différentes plateformes, voir Teams [fonctionnalités par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 Pour utiliser Teams Téléphone fonctionnalités, votre organisation doit avoir une licence Système téléphonique licence. Pour plus d’informations sur les licences, voir [Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -48,7 +48,7 @@ Teams Téléphone fournit les fonctionnalités suivantes.
   
 |Teams Téléphone fonctionnalité  |Description |
 |:-----|:-----|
-|[Attendant automatiques cloud](what-are-phone-system-auto-attendants.md)  |Vous permet de créer un système de menus qui permet aux appelants externes et internes de localiser et de placer ou de transférer des appels à des utilisateurs de l’entreprise ou à des services de votre organisation.  <br/> Notez *qu’il n’est* pas nécessaire que les utilisateurs soient activés pour recevoir des appels du attendant automatique. |
+|[Attendant automatiques cloud](what-are-phone-system-auto-attendants.md)  |Vous permet de créer un système de menus qui permet aux appelants externes et internes de localiser et de placer ou de transférer des appels à des utilisateurs de l’entreprise ou à des services de votre organisation.  <br/> Notez *qu’il* n’est pas nécessaire que les utilisateurs soient activés pour recevoir des appels du répertoire de numérotation par nom ou numérotation. Les *utilisateurs* doivent être activés pour recevoir des appels à partir des options du menu du attendant automatique. |
 |[Files d’attente d’appels cloud](create-a-phone-system-call-queue.md) <br> |Vous permet de configurer la façon dont les files d’attente d’appels sont gérées pour votre organisation : par exemple, configurer les salutations et la musique en attente, rechercher le prochain agent d’appel disponible pour gérer l’appel, etc.  <br/> Notez que les *utilisateurs* doivent être activés pour recevoir des appels à partir d’une file d’attente d’appels.|
 |[Attente musicale](music-on-hold.md) | Lit la musique par défaut définie par le service ou la musique personnalisée téléchargée par l’administrateur client lorsqu’un appel externe à partir du réseau téléphonique commuté (PSTN) est mis en attente. Cette fonctionnalité fonctionne pour les appels PSTN-to-Teams ainsi que pour les appels effectués dans une file d’attente d’appels. Cette fonctionnalité fournit la parité des notifications en attente avec d’autres plateformes. |
 |Démarrage d'un appel/réponse à un appel (par nom et numéro)   |Permet aux utilisateurs de répondre aux appels entrants d’un simple appel et de placer des appels sortants en composant le numéro de téléphone complet ou en cliquant sur un nom dans le client.   |
@@ -64,8 +64,8 @@ Teams Téléphone fournit les fonctionnalités suivantes.
 |[Pavé de numérotation intégré](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89)  | Permet aux utilisateurs de composer par nom ou par numéro n’importe où dans la barre de recherche et dans le pavé de numérotation, ce qui accélère le processus de appels sortants.  |
 |Appels fédérés   |Permet aux utilisateurs de se connecter, communiquer et collaborer en toute sécurité avec des utilisateurs dans des clients fédérés.   |
 |[Effectuer et recevoir un appel vidéo](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42)  | Si le compte de l’utilisateur est activé pour les appels vidéo, il peut effectuer des appels vidéo afin de faire face à ses contacts. Tout ce dont ils ont besoin, c’est d’une caméra, des haut-parleurs et du microphone de leur ordinateur. Les utilisateurs peuvent également utiliser un casque si leur ordinateur n’est pas connecté à un périphérique audio intégré. |
-|[Messagerie vocale cloud](set-up-phone-system-voicemail.md)  | Lorsqu’un utilisateur reçoit un message vocal, il est remis dans sa boîte aux lettres Exchange sous la mesure d’un e-mail avec le message vocal en pièce jointe. Les utilisateurs peuvent écouter leurs messages sur leur téléphone de bureau certifié et sur toutes Teams ou Skype Entreprise applications. Le support pour la transcription de messages vocaux est ajouté depuis mars 2017 et activé par défaut pour toutes les organisations et tous les utilisateurs. <br> Notez *qu’il n’est* pas  nécessaire que les utilisateurs n’Système téléphonique une licence de messagerie et qu’ils n’ont pas besoin d’être activés pour utiliser Messagerie vocale infonuagique fonctionnalités vocales.    |
-|[Messagerie vocale infonuagique d’utilisateur](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | Permet aux utilisateurs de configurer les paramètres de leur client pour les messages d’accueil de la messagerie vocale, les règles de répondeur téléphonique et la langue du message d’accueil, y compris les messages d’accueil d’arrêt du bureau. <br> Notez *qu’il n’est* pas  nécessaire que les utilisateurs n’Système téléphonique une licence de messagerie et qu’ils n’ont pas besoin d’être activés pour utiliser Messagerie vocale infonuagique fonctionnalités vocales.  |
+|[Messagerie vocale cloud](set-up-phone-system-voicemail.md)  | Lorsqu’un utilisateur reçoit un message vocal, il est remis dans sa boîte aux lettres Exchange sous la mesure d’un e-mail avec le message vocal en pièce jointe. Les utilisateurs peuvent écouter leurs messages sur leur téléphone de bureau certifié et sur toutes Teams ou Skype Entreprise applications. Le support pour la transcription de messages vocaux est ajouté depuis mars 2017 et activé par défaut pour toutes les organisations et tous les utilisateurs. <br> Notez *qu’il n’est* pas nécessaire que les utilisateurs n’Système téléphonique une licence de messagerie et qu’ils n’ont pas besoin d’être activés pour utiliser Messagerie vocale infonuagique fonctionnalités vocales.     |
+|[Messagerie vocale infonuagique d’utilisateur](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | Permet aux utilisateurs de configurer les paramètres de leur client pour les messages d’accueil de la messagerie vocale, les règles de répondeur téléphonique et la langue du message d’accueil, y compris les messages d’accueil d’arrêt du bureau. <br> Notez *qu’il n’est* pas nécessaire que les utilisateurs n’Système téléphonique une licence de messagerie et qu’ils n’ont pas besoin d’être activés pour utiliser Messagerie vocale infonuagique fonctionnalités vocales.   |
 |[Sonnerie secondaire](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)  | Les utilisateurs qui ont plusieurs périphériques de haut-parleur connectés à leur PC peuvent choisir de configurer un appareil secondaire pour qu’il sonne en plus de leur haut-parleur par défaut. Par exemple, un utilisateur avec un casque connecté au PC et aux haut-parleurs de bureau peut choisir de sonner à la fois le casque et les haut-parleurs de bureau lorsqu’un appel arrive afin de ne pas manquer un appel.  |
 |[Alertes de sonnerie distinctes](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (Teams uniquement) |Permet aux utilisateurs de choisir des sonneries distinctes pour les appels normaux, les appels transmis et les appels délégués afin de distinguer le type d’appel.   |
 |[Mode partage de lignes](shared-line-appearance.md)  | Permet aux utilisateurs de partager leur ligne téléphonique afin qu’un autre utilisateur puisse effectuer et recevoir des appels en son nom.|
@@ -86,7 +86,7 @@ Les fonctionnalités suivantes ne sont pas encore disponibles dans Cloud de la c
 - Attente musicale
 - Azure AD de recherche de nombre inversé
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Qu’est-ce Teams Téléphone](what-is-phone-system-in-office-365.md)
 - [Appel vocal dans le nuage dans Microsoft Teams](cloud-voice-landing-page.md)
