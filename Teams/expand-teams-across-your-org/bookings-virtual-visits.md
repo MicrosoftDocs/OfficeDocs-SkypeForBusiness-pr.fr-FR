@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Découvrez comment utiliser l’application Bookings dans Teams pour planifier, gérer et effectuer des visites virtuelles.
-ms.openlocfilehash: 8d4ac6effa95751fa75a77d09b941bc74fa96af2
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: ae74a4195bc8aa0deeca81221e70fe28890938ec
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288552"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312347"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visites virtuelles dans Microsoft Teams et l’application Bookings
 
@@ -36,7 +36,7 @@ ms.locfileid: "62288552"
 
 L’application Bookings facilite la gestion des demandes de planification complexes de toute organisation. Les planificateurs peuvent gérer plusieurs calendriers des services et du personnel, ainsi que les communications avec les participants internes et externes à partir d’une même expérience.
 
-Les visites virtuelles ont lieu au cours Microsoft Teams réunions, qui offrent de solides fonctionnalités de visioconférence. Par exemple, un médecin peut partager son écran et examiner les résultats des tests avec un patient. Un conseiller bancaire peut également demander des signatures électroniques sur des documents, ce qui leur permet de fermer des transactions à distance.
+Les visites virtuelles sont tenues au cours Microsoft Teams réunions, qui offrent des fonctionnalités de visioconférence robustes. Par exemple, un médecin peut partager son écran et examiner les résultats des tests avec un patient. Un conseiller bancaire peut également demander des signatures électroniques sur des documents, ce qui leur permet de fermer des transactions à distance.
 
 Chaque rendez-vous virtuel comprend un lien de réunion Teams envoyé aux participants par courrier électronique, qu’ils peuvent facilement rejoindre à partir d’un navigateur web ou à partir d’Teams sur n’importe quel appareil. Les rappels automatiques par courrier électronique permettent de réduire les absences de montre et d’améliorer l’implication des clients et des clients.
 
@@ -72,7 +72,7 @@ Pour en savoir plus, [voir Créer un calendrier Bookings](https://support.micros
 
 ### <a name="add-staff"></a>Ajouter des enseignants
 
-Dans le calendrier de réservation, sélectionnez Autres **options** (...) > **Paramètres**, puis sélectionnez **Personnel**. Ajoutez des membres du personnel et attribuez un rôle à chaque personne que vous ajoutez.
+Dans le calendrier de réservation, sélectionnez Autres **options** (...) > **Paramètres**, puis sélectionnez **Personnel**. Ajoutez des membres du personnel et attribuez un rôle à chaque personne que vous ajoutez. Vous pouvez ajouter jusqu’à 100 membres du personnel à un calendrier de réservation.
 
 L’application Bookings est intégrée à Outlook. Une fois que vous avez ajouté des membres du personnel, vous pouvez consulter la disponibilité du calendrier de cette personne et planifier des réservations pour elle. Pour en savoir plus, voir [Ajouter du personnel et afficher un calendrier Bookings](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
 
@@ -96,6 +96,19 @@ La confirmation par courrier électronique envoyée au participant inclut le lie
 
 Dans votre Teams calendrier Outlook, sélectionnez la réservation, puis sélectionnez Rejoindre ou Teams lien de la réunion. Vérifiez vos paramètres audio et vidéo, puis sélectionnez **Rejoindre maintenant**. Pour plus d’informations, [voir Conduire un rendez-vous Bookings](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
+## <a name="monitor-virtual-visits-and-get-real-time-status-updates"></a>Surveiller les visites virtuelles et obtenir des mises à jour de l’état en temps réel
+
+[L’affichage de la](https://support.microsoft.com/office/queue-view-in-bookings-3eea2840-a1e0-4bcd-8e09-d3cf51c184d6) file d’attente dans Bookings fournit à votre personnel un tableau de bord qui permet de surveiller tous les rendez-vous virtuels de la journée, avec les mises à jour en temps réel. Pour voir la file d’attente, sous **l’onglet File d’attente** dans Bookings.
+
+:::image type="content" source="../media/bookings-virtual-visits-queue.png" alt-text="Capture d’écran de l’affichage de la file d’attente dans l’application Bookings Teams" lightbox="../media/bookings-virtual-visits-queue.png":::
+
+Dans la file d’attente, les scheduleurs peuvent ajouter une nouvelle réservation, afficher les détails pertinents du rendez-vous et consulter les statuts des rendez-vous tout au long de la journée. Lorsqu’un patient rejoint la salle d’attente, son statut change, et le temps d’attente est affiché et suivi. L’affichage est actualisé automatiquement avec des mises à jour en couleur afin que les modifications soient facilement identifiées.
+
+Le personnel enseignant peut même rejoindre et gérer les rendez-vous directement à partir de la file d’attente.
+
+> [!NOTE]
+> Actuellement, l’application Bookings prend en charge l’ajout d’un jusqu’à 100 membres du personnel par calendrier de réservation. Si vous avez utilisé Graph API pour configurer et ajouter du personnel à un calendrier de réservation, cette limite peut ne pas être appliquée. Dans ce scénario, l’onglet **File** d’attente ne pourra pas restituer le contenu des calendriers qui comptent plus de 100 membres du personnel. Pour une expérience optimale, nous vous recommandons d’ajouter au moins 100 membres du personnel à un calendrier de réservation. Nous travaillons à la résolution de cette limitation dans les prochaines version.
+
 ## <a name="additional-capabilities-with-the-bookings-web-app"></a>Fonctionnalités supplémentaires avec l’application web Bookings
 
 L’application web Bookings vous offre des fonctionnalités supplémentaires. Par exemple, vous pouvez publier une page de réservation en ligne libre-service dans laquelle les personnes peuvent planifier des rendez-vous avec les membres de votre personnel. Pour accéder à l’application web Bookings, accédez à Autres **options** (...) **>'ouvrir l’application web Bookings**.
@@ -104,8 +117,8 @@ Pour en savoir plus, [consultez Microsoft Bookings](/microsoft-365/bookings/book
 
 ## <a name="related-articles"></a>Articles connexes
 
-[Gérer l’expérience de jointisation pour Teams visites virtuelles sur les navigateurs mobiles](mobile-browser-join.md)
+- [Gérer l’expérience de jointisation pour Teams visites virtuelles sur les navigateurs mobiles](mobile-browser-join.md)
 
-[Commencer à travailler avec Teams pour les organisations de soins de santé](healthcare/teams-in-hc.md)
+- [Commencer à travailler avec Teams pour les organisations de soins de santé](healthcare/teams-in-hc.md)
 
-[Application Bookings dans la Teams’aide](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
+- [Application Bookings dans la Teams’aide](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)

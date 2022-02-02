@@ -46,10 +46,10 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
       summary: "Découvrez comment Teams vous permet d’organiser votre journée de travail et de faciliter le contact avec vos collègues. (Public\_: Tous)"
       url: 'https://aka.ms/TeamsProTips'
-    - title: Maîtrisez le travail à domicile avec Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
-      summary: "Découvrez les meilleures pratiques pour rester en contact avec votre équipe et maintenir votre productivité. (Public\_: Tous)"
-      url: 'https://aka.ms/WFHTeams'
+    - title: Microsoft Teams sur YouTube
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
+      summary: "Abonnez-vous et soyez le premier à en savoir plus sur les dernières fonctionnalités, conseils et astuces, et bien plus encore. (Public\_: Tous)"
+      url: 'https://www.youtube.com/MicrosoftTeams'
     - title: 'Teams pour une utilisations dans l’éducation: Webinaires'
       imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
       summary: 'Découvrez comment utiliser Teams dans l’enseignement supérieur. (Public: employés, étudiants, formation universitaire, recherches universitaires, professionnels de l’informatique)'
@@ -66,5 +66,5 @@ additionalContent:
           summary: La collaboration est une compétence essentielle pour la force de travail actuelle. Découvrez comment les fonctionnalités robustes au sein Microsoft Teams vous permettent de rester connecté et de travailler plus efficacement avec votre équipe
           url: /learn/paths/teamwork-specialist
         - title: Certification des spécialistes de l’adoption des services
-          summary: Le cours de certification Microsoft Service Adoption Specialist Teams. Découvrez comment piloter l’adoption d services Microsoft de votre organisation
+          summary: Le cours de certification Microsoft Service Adoption Specialist Teams. Découvrez comment conduire l’adoption d’services Microsoft dans votre organisation
           url: /learn/paths/m365-service-adoption
