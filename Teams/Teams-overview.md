@@ -34,7 +34,7 @@ Si vous débutez avec Teams et que vous voulez en savoir plus, regardez notre co
 
 Ne manquez pas notre vidéo Bienvenue dans Teams pour les administrateurs Teams (un peu plus de 3 minutes) :
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vxWb]
 
 Si vous recherchez de l’aide pour les utilisateurs finaux Teams, cliquez sur **Aide** sur le côté gauche de l’application ou accédez au [Centre d’aide de Microsoft Teams](https://support.office.com/teams). Pour la formation, accédez à [Formation Microsoft Teams](training-microsoft-teams-landing-page.md). 
 
