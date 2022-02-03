@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez quels contrôleurs de frontière de session (SBC) ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 88723107679314d5f30a26e1b3b41675e1454c81
-ms.sourcegitcommit: cd9fbda4ea85a83cb22e241a94d0825ff8186cca
+ms.openlocfilehash: db14472992880b17ee5fd68a0b0e426b3b8f497d
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62228991"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312277"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -58,12 +58,12 @@ Si vous avez des questions sur le programme de certification SBC pour le routage
 |                                                       Fournisseur                                                        |       Product       | Contournement non multimédia | Contournement de média | Version logicielle requise | 911 Fournisseur de services compatible* | Compatible NILU |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  Prise en charge 7.20A.258 (recommandé 7.40A.100)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.258 (recommandé 7.40A.100)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  Prise en charge 7.20A.258 (recommandé 7.40A.100)   |   &#10004;   |  &#10004;  |
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.258 (recommandé 7.40A.100)   |  &#10004;   |  &#10004;  |
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.258 (recommandé 7.40A.250)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  Prise en charge 7.20A.258 (recommandé 7.40A.250)   |   &#10004;   |  &#10004;  |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.258 (recommandé 7.40A.250)   |  &#10004;   |  &#10004;  |
 |                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   &#10004;     |  Pris en charge 7.20A.250 (recommandé 7.20A.258)  |  &#10004;   |  &#10004;  |
-|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.258 (recommandé 7.40A.100)   | &#10004;     |  &#10004;  |
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.258 (recommandé 7.40A.100) |  &#10004;    |  &#10004;  |   
+|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.258 (recommandé 7.40A.250)   | &#10004;     |  &#10004;  |
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.258 (recommandé 7.40A.250) |  &#10004;    |  &#10004;  |   
 |                                                                                                                     | Mediant Cloud Edition SBC  |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.258 (recommandé 7.40A.100) |  &#10004;    |  &#10004;  |
 |  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       Prise en charge 9.2, 8.2 et 7.2 (recommandé 10.1)       | &#10004;   |     |
 |                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       Prise en charge 9.2, 8.2 et 7.2 (recommandé 10.1)       |   &#10004; |    |
@@ -88,7 +88,7 @@ Si vous avez des questions sur le programme de certification SBC pour le routage
 |                                   |     Cisco Unified Border Element (CUBE) pour le routeur de services cloud de la série 1000V       |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (17.3.3 recommandé)         |    &#10004;     |    |  
 |                                 |     Cisco Unified Border Element (CUBE) pour les routeurs des services d’agrégation de la série 1000      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (17.6.1a recommandé)         |    &#10004;     |    |
 |                                 |     Cisco Unified Border Element (CUBE) pour les plateformes Edge Catalyst 8000      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2 pris en charge (17.6.1a recommandé)      |    &#10004;     |    |
-|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Contrôleur de frontière de session Avaya pour Entreprise (ASBCE)    |     &#10004;     |       &#10004;     |       Version 8.1.1 (8.1.2 pour le contournement du média)      |     |    |
+|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Contrôleur de frontière de session (SBC) Avaya pour Enterprise (ASBCE)    |     &#10004;     |       &#10004;     |       Version 8.1.1 (8.1.2 pour le contournement du média)      |     |    |
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Contrôleur de bordure de session Nokia    |     &#10004;     |           |       19.5 (1908)       |     |    |
 |                     |    Contrôleur de bordure de session Nokia    |     &#10004;     |           |       20.8       |      &#10004;        |    |
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |      &#10004;     |       Prise en charge 5.0, 5.1 (recommandé 5.3)     |     |    |
