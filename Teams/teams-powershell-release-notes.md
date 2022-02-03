@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez les dernières modifications dans Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa5198fe982fa1f3fc803abbcc5d5867f21f64c7
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: 05be0743f19501dd3e75bad7c9d6a440802fb328
+ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288362"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62353379"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams notes de publication de PowerShell
 
@@ -31,6 +31,7 @@ Cette page fournit le dernier Teams de modification de PowerShell pour les mises
 
 | Date | Version | Mises à jour |
 |------- | -------------------- | ------------------------------ |
+| Février 2022 | [3.1.1](https://www.powershellgallery.com/packages/MicrosoftTeams/3.1.1) |<li>Améliorations des performances pour l’importation-module.</li><li>Le problème de deserialisation PSListModifier a été résolu.</li>
 | Janvier 2022 | [3.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/3.1.0) |<li>Renamed Cmdlet from Get-CsTeamsShiftsConnectionUser to Get-CsTeamsShiftsConnectionWfmUser.</li><li>Publie de nouveaux paramètres ResultSize, SkipUserPolicies pour Get-CsOnlineUser. </li><li>Publie de nouveaux paramètres ResultSize pour Get-CsOnlineDialInConferencingUser.</li><li>Publie les nouveaux paramètres first, NumberAssigned, NumberNotAssigned, PSTNConnectivity, EnterpriseVoiceStatus, CivicAddressId, LocationId for Get-CsOnlineVoiceUser.</li>
 | Décembre 2021 | [Prévisualisation 3.0.1](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.1-preview) |<li>Versions modernes de Grant-CsTeamsFilesPolicy et Remove-CsTeamsFilesPolicy. Ceux-ci devraient fonctionner de la même manière que leurs équivalents de resserrage. Les versions modernes seront déployées progressivement. Certains locataires voient ainsi l’ancienne version de la resserrage (jusqu’à la fin du déploiement).</li><li> Releases [NewSetRemove\|\|]-CsUserCallingDelegate cmdlets. Ces cmdlets seront éventuellement publiées dans le module GA. Publication de la version d’essai dans le module d’aperçu.</li><li>Releases [GetRemove\|]-CsTeamsShiftsConnectionErrorReport cmdlets. Ces cmdlets seront éventuellement publiées dans le module GA. Publication de la version d’essai dans le module d’aperçu.</li><li>Releases Get-CsTeamsShiftsConnectionOperation cmdlet. Cette cmdlet sera publiée dans le module GA. Publication de la version d’essai dans le module d’aperçu.</li><li>Releases New-CsTeamsShiftsConnectionBatchTeamMap cmdlet. Cette cmdlet sera publiée dans le module GA. Publication de la version d’essai dans le module d’aperçu.</li><li>Releases Remove-CsTeamsShiftsScheduleRecord cmdlet. Cette cmdlet sera publiée dans le module GA. Publication de la version d’essai dans le module d’aperçu.</li>
 | Novembre 2021 | [3.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0) |<li>Les Microsoft Teams versions du Module PowerShell de la série 3.x.x seront bientôt les seules versions prise en charge. Toutes les versions antérieures seront sur le chemin de retrait.</li><li> [BREAKING CHANGE] Get-CsOnlineUser et Get-CsOnlineVoiceUser : les modifications suivantes s’appliquent aux locataires TeamsOnly :<ul><li>Ces cmdlets ont été migrées de l’implémentation antérieure vers les API plus nouvelles.</li><li>(Utilisation du paramètre -Identity) : les attributs qui ne sont plus pertinents pour Teams ont été supprimés pour les locataires TeamsOnly. Certains attributs ont également été renommés/ [remplacés: voir Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser?view=skype-ps) et [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser?view=skype-ps).</li><li>Get-CsOnlineUser (avec paramètre -Filter) : la mise en forme du filtrage en fonction de AssignedPlans et EnterpriseVoice a été modifiée. Les attributs filtrés ont également été temporairement limités (selon l’utilisation) pour les utilisateurs de TeamsOnly : consultez [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser?view=skype-ps).</li><li>Ces cmdlets seront déployées progressivement et certains locataires ne feront l’expérience de ces modifications qu’à la fin de l’année 2021.</ul></li><li>[MODIFICATION EN RUPTURE] Get-CsTenant : les attributs qui ne sont plus pertinents dans le monde Teams ont été supprimés pour les locataires TeamsOnly : consultez [Get-CsTenant](/powershell/module/skype/get-cstenant?view=skype-ps).</li><li> Releases modernd versions of all 75+ Grant-CsPolicy\<Name\> cmdlets (all parameter sets). Ceux-ci devraient fonctionner de la même manière que leurs équivalents de resserrage. Les versions modernes seront déployées progressivement, de sorte que certains locataires pourront voir la version de remoting antérieure (jusqu’à la fin du déploiement).</li><li> Releases modernd versions of all 75+ Remove-CsPolicy\<Name\> cmdlets. Ceux-ci devraient fonctionner de la même manière que leurs équivalents de resserrage. Les versions modernes seront déployées progressivement, de sorte que certains locataires pourront voir la version de remoting antérieure (jusqu’à la fin du déploiement).</li><li> Releases [SetRemove\|]-CsPhoneNumberAssignment cmdlets. Ces cmdlets seront déployées progressivement. Par conséquent, certains clients obtiennent un message d’erreur référant les cmdlets existantes qu’elles peuvent utiliser (jusqu’à la fin du déploiement).</li><li> Publie le nouveau paramètre EnhancedEmergencyServiceDisclaimer pour [SetNew\|]-CsTeamsEmergencyCallingPolicy cmdlet.<li> Releases [GetAddRemove\|\|]-TeamChannelUser cmdlets.</li><li> Releases Export-CsOnlineAudioFile cmdlet.</li><li> Corrige les traitements des erreurs pour [GetImportRemove\|\|]-CsOnlineAudioFile cmdlets.</li><li>Correctifs pour Get-Team gestion des erreurs. Envoie le message d’erreur en cas d’échec de la récupération des données d’équipes.</li><li>Correctifs pour les Connect-MicrosoftTeams - AccessTokens augmente la différence de temps d’expiration.</li>
@@ -60,7 +61,7 @@ Cette page fournit le dernier Teams de modification de PowerShell pour les mises
 | Mars 2020 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Ajout de New-CsBatchPolicyAssignmentOperation</li> |
 | Février 2020 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team optimisations</li>  |
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Aperçu de Teams PowerShell](teams-powershell-overview.md)
 

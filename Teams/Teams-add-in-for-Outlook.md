@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc7a387f7dcd6ef8a3ed728b8aa59db64ccefb31
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 756f9a8092fea24eb6690baa0768f295bd84e2c1
+ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205524"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62353399"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 
@@ -143,7 +143,7 @@ Si vous ne parvenez pas à obtenir le complément de la réunion Teams pour inst
 Vous pouvez également effectuer les étapes suivantes manuellement :
 
 - Les utilisateurs Windows 7 doivent installer la[mise à jour pour Universal Runtime C dans Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) pour le complément de réunion Teams afin de l’utiliser.
-- Vérifiez que l’utilisateur a une stratégie de mise à niveau Teams qui permet de planifier les réunions dans Teams. Pour plus d’informations, consultez [Effectuer la mise à niveau de Skype Entreprise vers Teams](/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
+- Vérifiez que l’utilisateur a une stratégie de mise à niveau Teams qui permet de planifier les réunions dans Teams. Pour plus d’informations, consultez [Effectuer la mise à niveau de Skype Entreprise vers Teams](/microsoftteams/meeting-policies-in-teams-general) .
 - Vérifiez que l’utilisateur a une stratégie de réunion Teams qui autorise le complément Outlook. Voir [Paramètres de la stratégie de réunion – Général](./meeting-policies-in-teams-general.md#outlook-add-in) pour plus de détails.
 - Assurez-vous que le client de bureau Teams est installé sur l’utilisateur. Le complément de réunion ne sera pas installé lorsque vous utiliserez uniquement le client web Teams.
 - Vérifiez que l’utilisateur dispose de l’installation d’Outlook 2013 ou version ultérieure.

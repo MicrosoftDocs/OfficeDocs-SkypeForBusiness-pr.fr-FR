@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a2772fe0f190bf7280dc4bb11625aedb3d0157b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: bbcafdef989d3154ba99e557f0632e1a6bd6e665
+ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605840"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62353409"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
@@ -67,7 +67,7 @@ Teams s’appuie sur les fonctionnalités de Microsoft 365 pour authentifier les
 
 [Les licences doivent être affectées aux utilisateurs](teams-edu-licensing.md) avant de pouvoir utiliser les fonctionnalités Teams. Teams s’appuie sur des fonctionnalités supplémentaires de Microsoft 365 telles que les [Groupes Microsoft 365](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint et OneDrive](SharePoint-OneDrive-interact.md) pour autoriser les scénarios de collaboration. Les utilisateurs bénéficient d’une expérience Teams optimale si tous ces services sont également activés. [Teams est pris en charge pour les utilisateurs disposant d’une adresse de messagerie hébergée chez Google](/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
 
-Microsoft Teams est inclus dans Office 365 A1, qui est gratuit pour les établissements scolaires. Pour des conseils en informatique sur la manière de déployer Office 365 et démarrer la totalité de votre établissement d’enseignement sur Teams, consultez [cette page](/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). Pour obtenir de l’aide, vous pouvez déposer un ticket [ici](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) et pour les formations sur Teams, rendez-vous dans le Microsoft Store près de chez vous, pour parler à un spécialiste.
+Microsoft Teams est inclus dans Office 365 A1, qui est gratuit pour les établissements scolaires. Pour des conseils en informatique sur la manière de déployer Office 365 et démarrer la totalité de votre établissement d’enseignement sur Teams, consultez [cette page](/microsoft-365/education/deploy/create-your-office-365-tenant). Pour obtenir de l’aide, vous pouvez déposer un ticket [ici](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) et pour les formations sur Teams, rendez-vous dans le Microsoft Store près de chez vous, pour parler à un spécialiste.
 
 > [!NOTE]
 > Veuillez consulter les [Conseils mis à jour pour le déploiement de M365 EDU pendant COVID-19](/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19) pour obtenir notre récentes informations sur les déploiements de EDU.
