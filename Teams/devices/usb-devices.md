@@ -15,23 +15,23 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et périphériques USB (casques, téléphones haut-parleurs, webcams et moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 32d4f7002739114bc69c9d6b9cb2818c0c57febb
-ms.sourcegitcommit: 9caa3131e9896b140afe10edea2b1e599eacd02b
+ms.openlocfilehash: d47e4723efae7ba339b54f5aa62064775d882e38
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62082180"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363190"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft Teams
 
 Le programme de certification des périphériques garantit que les périphériques USB (casques, haut-parleurs, webcams et moniteurs) offrent une qualité audio ou vidéo enrichie. Les périphériques certifiés fonctionnent (plug-& lecture) sans configuration supplémentaire et offrent un contrôle d’appel avec les Microsoft Teams et Skype Entreprise. Les produits offrent une grande expérience aux utilisateurs finaux et aux administrateurs.
 
-Pour découvrir les appareils testés et certifiés pour Microsoft Teams, rendez-vous sur [Teams Store.](https://products.office.com/microsoft-teams/across-devices/devices)
+Pour découvrir les appareils testés et certifiés pour Microsoft Teams' appareils, rendez-vous sur [Teams Store](https://products.office.com/microsoft-teams/across-devices/devices).
 
-Pour plus d’informations sur le support du contrôle d’appel Teams, voir les appels de contrôle à l’aide [d’un casque Teams.](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)
+Pour plus d’informations sur le contrôle d’appel avec Teams, voir les appels de contrôle à l’aide [d’un casque Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8).
 
 > [!TIP]
-> Vous recherchez des appareils certifiés pour Skype Entreprise ? Rendez-vous sur [les périphériques audio et vidéo USB certifiés pour Skype Entreprise.](/skypeforbusiness/certification/devices-usb-devices)
+> Vous recherchez des appareils certifiés pour Skype Entreprise ? Rendez-vous sur [les périphériques audio et vidéo USB certifiés pour Skype Entreprise](/skypeforbusiness/certification/devices-usb-devices).
 
 ## <a name="understanding-certification-categories"></a>Comprendre les catégories de certification
 
@@ -42,10 +42,10 @@ Les utilisateurs n’ont pas besoin de remplacer les périphériques précédemm
 
 ### <a name="special-usage-designations"></a>Désignations d’utilisation spéciales
 
-- **Premium microphone** pour Ouvrir Office Tous les casques sont testés pour fournir un son clair, mais un bureau ouvert et tout autre environnement bruyant pose un défi plus important. Les casques avec cette désignation captent la voix de l’utilisateur du casque mais ne transmettent pas le son de leurs voisins.
+- **Premium** microphone pour Ouvrir Office Tous les casques sont testés pour fournir un son clair, mais un bureau ouvert et d’autres environnements bruyants constituent un défi plus important. Les casques avec cette désignation captent la voix de l’utilisateur du casque mais ne transmettent pas le son de leurs voisins.
 - **Taille des salles de réunion** Les appareils partagés tels que les téléphones haut-parleurs et les caméras ont une distance d’utilisation prise en charge. Les distances recommandées peuvent être différentes selon le fabricant. Pour fournir aux clients des conseils clairs, tous les appareils partagés sont testés lors de la certification sur des tailles de salles et des environnements de bruit bien définis.
 
-Parcourez [les périphériques certifiés pour Microsoft Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
+[Parcourez les périphériques certifiés Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
 
 ## <a name="end-user-experience"></a>Expérience de l’utilisateur final
 
@@ -70,15 +70,15 @@ Parcourez [les périphériques certifiés pour Microsoft Teams.](https://product
 - Aucune mise en service requise
 - Tous les appareils supportent les mises à jour du microprogramme pour permettre l’amélioration des nouvelles fonctionnalités et des performances.
 
-Si vous êtes fabricant et que vous souhaitez participer au programme de certification, consultez la procédure d’adhésion pour les exigences et les programmes disponibles. [](/skypeforbusiness/certification/how-to-join)
+Si vous êtes fabricant et que vous souhaitez participer au programme de certification, [](/skypeforbusiness/certification/how-to-join) consultez la procédure d’adhésion pour les exigences et les programmes disponibles.
 
 ## <a name="certified-devices"></a>Périphériques certifiés
 
-*Table Updated January 2022*
+*Tableau mis à jour en février 2022*
 
 | Fabricant        | Modèle                                                     | Qualifié      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Poly                 |Synchroniser 10 haut-parleurs                                       |1/18/2021       |Certifié pour les Microsoft Teams                           |
+|Dell                 |Slim Conferencing Soundbar SB522A                          |1/25/2022       |Certifié pour les Microsoft Teams                           | 
 |Lenovo               |Utiliser le casque ANC câblé                                       |1/12/2022       |Certifié pour les Microsoft Teams                           |
 |Lenovo               |Go Wired Speakerphone                                      |1/10/2022       |Certifié pour les Microsoft Teams                           |
 |DONT LE TITRE EST LE PLUS GRAND                 |IMPACT SDW 5066T                                           |12/1/2021       |Certifié pour les Microsoft Teams                           |

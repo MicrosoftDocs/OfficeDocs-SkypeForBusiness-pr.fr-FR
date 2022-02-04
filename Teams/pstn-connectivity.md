@@ -24,26 +24,26 @@ search.appverid: MET150
 description: En savoir plus sur les options Teams d’appel (connectivité PSTN) et les décisions que vous prendrez pour votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49c836687d7652c18b5932bd662d8ee935638d8a
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: b82404e23a2443efb06582664a206a6a43cad770
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015274"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363240"
 ---
 # <a name="pstn-connectivity-options"></a>Options de connectivité PSTN
 
 Microsoft fournit des fonctionnalités complètes de Exchange de branche privée (PBX) pour votre organisation via Teams Téléphone. Toutefois, pour permettre aux utilisateurs de passer des appels en dehors de votre organisation, vous devez vous Teams Téléphone au réseau téléphonique public commuté (PSTN).
 
-Cet article se concentre sur les options de connectivité PSTN. Pour plus d’informations sur les solutions vocales Microsoft, notamment sur les fonctionnalités Teams Téléphone, voir Planifier votre solution vocale Teams [messagerie vocale.](cloud-voice-landing-page.md)
+Cet article se concentre sur les options de connectivité PSTN. Pour plus d’informations sur les solutions vocales Microsoft, notamment sur les fonctionnalités Teams Téléphone, voir [Planifier votre solution vocale Teams messagerie vocale.](cloud-voice-landing-page.md)
 
 Pour vous Teams Téléphone au réseau PSTN, vous avez le choix entre les options suivantes :
 
-- [**Forfait d’appels.**](#teams-phone-with-calling-plan) Une solution all-in-the-cloud avec Microsoft comme opérateur PSTN.
+- [**Forfait d’appels**](#teams-phone-with-calling-plan). Une solution all-in-the-cloud avec Microsoft comme opérateur PSTN.
 
-- [**Opérateur Connecter.**](#teams-phone-with-operator-connect) Avec les Connecter opérateurs, si votre opérateur existant participe au programme Microsoft Operator Connecter (Programme d’opérateur Microsoft), il peut gérer les contrôleurs de session et d’appel RTC. 
+- [**L’Connecter**](#teams-phone-with-operator-connect). Avec les Connecter opérateurs, si votre opérateur existant participe au programme Microsoft Operator Connecter (Programme d’opérateur Microsoft), il peut gérer les contrôleurs de session et d’appel RTC. 
 
-- [**Routage direct,**](#teams-phone-with-direct-routing)qui vous permet d’utiliser votre propre opérateur PSTN en connectant votre ou vos contrôleurs de session (SBC) à Teams Téléphone.
+- [**Routage direct**](#teams-phone-with-direct-routing), qui vous permet d’utiliser votre propre opérateur PSTN en connectant votre ou vos contrôleurs de session (SBC) à Teams Téléphone.
 
 
 Vous pouvez également choisir une combinaison d’options qui vous permet de concevoir une solution pour un environnement complexe ou de gérer une migration en plusieurs étapes.
@@ -67,7 +67,7 @@ Avec cette option :
 
 - Vous pouvez Teams Téléphone avec des plans d’appels nationaux ou internationaux qui permettent d’appeler vers des téléphones dans le monde entier (selon le niveau de service sous licence).
 
-- Le déploiement ou la maintenance d’un déploiement local n’est pas nécessaire, car le plan d’appel &mdash; fonctionne Microsoft 365.
+- Le déploiement ou la maintenance d’un plan d’appel de&mdash; déploiement local n’est pas nécessaire pour fonctionner Microsoft 365.
 
 - Remarque : si nécessaire, vous pouvez choisir de connecter un contrôleur de session border (SBC) pris en charge via un routage direct pour l’interopérabilité avec des PBX tiers, des appareils analogiques et d’autres équipements téléphoniques tiers pris en charge par le SBC.
 
@@ -83,7 +83,7 @@ Pour plus d’informations sur le forfait d’appels, consultez les articles sui
 
 ## <a name="teams-phone-with-operator-connect"></a>Teams Téléphone’opérateur Connecter
 
-Avec l’Connecter d’opérateur actuellement en prévisualisation publique, si votre opérateur existant participe au programme Connecter de l’opérateur Microsoft, il peut gérer le service pour que les appels RSTN Teams. Votre opérateur gère les services d’appel PSTN et les contrôleurs de session en bordure, ce qui vous permet d’économiser sur l’achat et la gestion du matériel.
+Avec la Connecter opérateur, si votre opérateur existant participe au programme Connecter de l’opérateur Microsoft, il peut gérer le service de mise à niveau des appels R TEAMS. Votre opérateur gère les services d’appel PSTN et les contrôleurs de session en bordure, ce qui vous permet d’économiser sur l’achat et la gestion du matériel.
 
 L’Connecter peut être la solution appropriée pour votre organisation si :
 
@@ -91,7 +91,7 @@ L’Connecter peut être la solution appropriée pour votre organisation si :
 - Votre opérateur préféré est un participant au programme d’Connecter Microsoft.
 - Vous souhaitez rechercher un nouvel opérateur pour activer les appels Teams.
 
-Pour plus d’informations sur les avantages et les conditions requises de la Connecter opérateur, et pour obtenir la liste des opérateurs participant à ce programme, consultez la liste des opérateurs [Connecter.](operator-connect-plan.md) Pour plus d’informations sur la configuration de l’Connecter opérateur, voir [Configurer l’Connecter.](operator-connect-configure.md)
+Pour plus d’informations sur les avantages et les conditions requises de la Connecter opérateur, et pour obtenir la liste des opérateurs participant à ce programme, consultez la liste des opérateurs [Connecter.](operator-connect-plan.md) Pour plus d’informations sur la configuration des opérateurs Connecter, voir [Configurer l’Connecter](operator-connect-configure.md).
 
 
 ## <a name="teams-phone-with-direct-routing"></a>Teams Téléphone le routage direct
@@ -115,7 +115,7 @@ Avec cette option :
 
 - Vous pouvez choisir de configurer et de gérer cette option, ou elle peut être configurée et gérée par votre opérateur ou partenaire (demandez-lui si votre opérateur ou partenaire propose cette option).
 
-- Vous pouvez configurer l’interopérabilité entre vos équipements téléphoniques tels qu’un PBX tiers et des appareils &mdash; &mdash; analogiques, et Teams Téléphone.
+- Vous pouvez configurer l’interopérabilité entre&mdash; vos équipements téléphoniques, par exemple un PBX tiers et des appareils analogiques&mdash;, et Teams Téléphone.
 
 Cette option nécessite les options suivantes :
 
@@ -138,7 +138,7 @@ Pour plus d’informations sur le routage direct, voir les articles suivants :
 
 ## <a name="configuration-considerations"></a>Considérations en cas de configuration
 
-La plupart Teams Téléphone fonctionnalités sont identiques quelle que soit l’option de connectivité PSTN que vous choisissez. Par exemple, les paramètres Sans réponse et transfert d’appel, le transfert d’appel, la musique personnalisée mise en attente, le parcage d’appel, la ligne partagée et les applications vocales sont tous disponibles. Pour obtenir la liste complète des Teams Téléphone fonctionnalités, consultez les fonctionnalités de la liste des [Teams Téléphone.](here-s-what-you-get-with-phone-system.md)
+La plupart Teams Téléphone fonctionnalités sont identiques quelle que soit l’option de connectivité PSTN que vous choisissez. Par exemple, les paramètres Sans réponse et transfert d’appel, le transfert d’appel, la musique personnalisée mise en attente, le parcage d’appel, la ligne partagée et les applications vocales sont tous disponibles. Pour obtenir la liste complète des Teams Téléphone fonctionnalités, consultez les fonctionnalités de la liste des [Teams Téléphone](here-s-what-you-get-with-phone-system.md).
 
 Il existe toutefois certaines différences de fonctionnalités qui affectent la façon dont vous configurez Teams Téléphone fonctionnalités. Par exemple, le routage direct nécessite des étapes supplémentaires pour configurer le routage des appels. Autre exemple : le routage direct fournit un routage basé sur l’emplacement (LBR) pour vous permettre de restreindre la dérivation contre les frais dans certains emplacements géographiques où il n’est pas autorisé. 
 
@@ -164,22 +164,22 @@ Vous devrez décider des choix ci-après :
 
 La façon dont vous acquérir et gérer les numéros de téléphone diffère en fonction de l’option de connectivité PSTN.
 
-- Pour plus d’informations sur la gestion des numéros de téléphone pour le plan d’appels, voir [Gérer les numéros de téléphone pour votre organisation.](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- Pour plus d’informations sur la gestion des numéros de téléphone pour le plan d’appels, voir [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-- Pour plus d’informations sur la gestion des numéros de téléphone avec la Connecter opérateur, voir Configurer des numéros de téléphone avec l’opérateur [Connecter.](operator-connect-configure.md#set-up-phone-numbers)
+- Pour plus d’informations sur la gestion des numéros de téléphone avec l’Connecter opérateur, voir Configurer des numéros de [téléphone avec](operator-connect-configure.md#set-up-phone-numbers) l’opérateur Connecter.
 
-- Pour plus d’informations sur la gestion des numéros de téléphone pour le routage direct, voir Configurer le numéro de téléphone et activer la messagerie vocale et [vocale d’entreprise.](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online)
+- Pour plus d’informations sur la gestion des numéros de téléphone pour le routage direct, voir Configurer le numéro de téléphone et activer la messagerie vocale et [la voix d’entreprise](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
 
 
 ### <a name="call-routing-and-dial-plans"></a>Routage des appels et plans de numérotation
 
 La manière dont vous configurez le routage des appels diffère en fonction de l’option de connectivité RSTN.  
 
-- Pour les forfaits d’appels, la plupart du routage des appels est géré par l’infrastructure du plan d’appels Microsoft. Vous configurez les plans de numérotation utilisateur en vue de la traduction des numéros à des fins d’autorisation et de routage des appels. Pour plus d’informations, voir [Les plans de numérotation.](what-are-dial-plans.md)
+- Pour les forfaits d’appels, la plupart du routage des appels est géré par l’infrastructure du plan d’appels Microsoft. Vous configurez les plans de numérotation utilisateur en vue de la traduction des numéros à des fins d’autorisation et de routage des appels. Pour plus d’informations, voir [Les plans de numérotation](what-are-dial-plans.md).
 
-- Pour l’Connecter, la plupart du routage des appels est géré par l’opérateur.  Vous configurez les plans de numérotation utilisateur en vue de la traduction des numéros à des fins d’autorisation et de routage des appels. Pour plus d’informations, voir [Les plans de numérotation.](what-are-dial-plans.md)
+- Pour l’Connecter, la plupart du routage des appels est géré par l’opérateur.  Vous configurez les plans de numérotation utilisateur en vue de la traduction des numéros à des fins d’autorisation et de routage des appels. Pour plus d’informations, voir [Les plans de numérotation](what-are-dial-plans.md).
 
-- Pour le routage direct, vous devez configurer le routage des appels en spécifiant les itinéraires vocaux et en attribuant des stratégies de routage vocal aux utilisateurs. Vous pouvez configurer des plans de numérotation pour la traduction des numéros sur le niveau de ligne afin de garantir l’interopérabilité avec les contrôleurs de session en bordure (SBCs). Pour plus d’informations, voir Configurer le routage vocal pour le [routage](direct-routing-voice-routing.md)direct, Gérer les stratégies de [routage](manage-voice-routing-policies.md) vocal et [Traduire les numéros de téléphone.](direct-routing-translate-numbers.md) 
+- Pour le routage direct, vous devez configurer le routage des appels en spécifiant les itinéraires vocaux et en attribuant des stratégies de routage vocal aux utilisateurs. Vous pouvez configurer des plans de numérotation pour la traduction des numéros sur le niveau de ligne afin de garantir l’interopérabilité avec les contrôleurs de session en bordure (SBCs). Pour plus d’informations, voir [Configurer le routage](direct-routing-voice-routing.md) vocal pour le routage direct, Gérer les stratégies de [routage vocal](manage-voice-routing-policies.md) et [Traduire les numéros de téléphone](direct-routing-translate-numbers.md). 
 
 
 ### <a name="location-based-routing-for-direct-routing"></a>Location-Based routage pour le routage direct
