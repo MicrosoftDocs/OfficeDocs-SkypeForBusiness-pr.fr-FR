@@ -1,27 +1,22 @@
 ---
 title: Installer et configurer Busy Options pour Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- Strat_SB_Admin
-ms.custom: ''
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Découvrez comment installer et configurer Busy Options dans Skype Entreprise Server.
-ms.openlocfilehash: 5e0dde157fc39ab7c24ddd297e858ce5a06e888f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835912"
 ---
+
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Installer et configurer Busy Options pour Skype Entreprise Server
 
 Découvrez comment installer et configurer Busy Options dans Skype Entreprise Server.
@@ -32,7 +27,7 @@ Si Busy Options est activée pour l’organisation, tous les utilisateurs du Ent
 
 - Occupé(s) : dans lequel les nouveaux appels entrants sont rejetés avec une signal occupé si l’utilisateur est occupé.
 
-- Messagerie vocale sur Busy : dans laquelle les nouveaux appels entrants sont transmis à la messagerie vocale si l’utilisateur est occupé.
+- Messagerie vocale sur busy : dans laquelle les nouveaux appels entrants sont transmis à la messagerie vocale si l’utilisateur est occupé.
 
 Quelle que soit la configuration de leurs options d’occupé, les utilisateurs d’un appel ou d’une conférence, ou ceux qui ont un appel en attente, ne sont pas empêchés de lancer de nouveaux appels ou conférences.
 
@@ -99,7 +94,7 @@ Le programme d’installation déploie la dernière version de l’application B
 
 ## <a name="configure"></a>Configurer
 
-Pour configurer Busy Options, utilisez l’cmdlet [Set-CsBusyOptions.](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx)
+Pour configurer Busy Options, utilisez l’cmdlet [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) .
 
 Par exemple, la commande suivante configure les options busy pour l’utilisateur « Ken Myer ». Dans cette configuration, tout appel à « Ken Myer » retourne une signal occupé lorsqu’il est déjà en appel :
 
@@ -113,19 +108,19 @@ Dans l’exemple suivant, la commande configure les options busy pour l’utilis
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-Vous pouvez récupérer des informations de configuration sur Busy Options à l’aide de l’cmdlet [Get-CsBusyOptions.](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) L’exemple suivant renvoie le paramètre Busy Options pour « KenMyer@Contoso.com » :
+Vous pouvez récupérer des informations de configuration sur Busy Options à l’aide de l’cmdlet [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) . L’exemple suivant renvoie le paramètre Busy Options pour « KenMyer@Contoso.com » :
 
 ```powershell
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
 ```
 
-Vous pouvez supprimer Busy Options à l’aide de l’cmdlet [Remove-CsBusyOptions.](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx) La commande suivante supprime Busy Options pour « Ken Myer » :
+Vous pouvez supprimer Busy Options à l’aide de l’cmdlet [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx) . La commande suivante supprime Busy Options pour « Ken Myer » :
 
 ```powershell
 Remove-CsBusyOptions -Identity "Ken Myer"
 ```
 
-Pour plus d’informations sur les cmdlets que vous utilisez pour configurer Busy Options, voir le contenu de référence technique pour [Set-CsBusyOptions,](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)et [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx).
+Pour plus d’informations sur les cmdlets que vous utilisez pour configurer Busy Options, voir le contenu de référence technique pour [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx), [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) et [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx).
 
 ## <a name="enable-logging"></a>Activer la journalisation
 
@@ -154,4 +149,4 @@ ScriptName :
 Script     :
 </pre>
 
-Vous pouvez également utiliser Windows’observateur d’événements pour vérifier que l’installation de Busy Options a réussi et Skype Entreprise Server options Busy correctement chargées. Pour vérifier Busy Options, ouvrez l’Observateur d’événements - Journaux des applications et des **\> services - Skype \> (ou Lync) Server** et recherchez l’ID d’événement = 30253.
+Vous pouvez également utiliser Windows’observateur d’événements pour vérifier que l’installation de Busy Options a réussi et Skype Entreprise Server options Busy correctement chargées. Pour vérifier Busy Options, ouvrez l’Observateur **d’événements -\> Journaux des applications et des services -\> Skype (ou Lync) Server** et recherchez l’ID d’événement = 30253.

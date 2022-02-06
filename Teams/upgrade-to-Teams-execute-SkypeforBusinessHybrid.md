@@ -1,7 +1,7 @@
 ---
 title: Mettre à Skype Entreprise niveau vers un déploiement hybride Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -11,22 +11,17 @@ description: Découvrez comment mettre à niveau votre organisation vers un dép
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Teams-upgrade-guidance
-- seo-marvel-mar2020
+  - Teams-upgrade-guidance
+  - seo-marvel-mar2020
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
-- M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: ef173755673cf22ece6c3f8325b2d0392092c1eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840656"
+  - Microsoft Teams
 ---
+
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Mettre à niveau à partir d Skype Entreprise déploiement hybride vers un déploiement Teams
 
 ![Étapes du parcours de mise à niveau, en mettant en avant l’étape déploiement et implémentation.](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accentuation sur l’étape déploiement et implémentation")
@@ -48,11 +43,11 @@ Suivez les instructions de cet article si vous avez déployé Skype Entreprise o
 
 ## <a name="step-1-move-users-to-skype-for-business-online"></a>Étape 1 : déplacer des utilisateurs vers Skype Entreprise Online
 
-Cette étape s’applique aux utilisateurs actuellement domiciles sur site. Pour plus d’informations sur le déplacement de ces utilisateurs vers Skype Entreprise Online, voir Déplacer les utilisateurs d’un site [local vers Skype Entreprise Online.](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
+Cette étape s’applique aux utilisateurs actuellement domiciles sur site. Pour plus d’informations sur le déplacement de ces utilisateurs vers Skype Entreprise Online, voir Déplacer les utilisateurs d’un site [local vers Skype Entreprise Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
 
 ## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>Étape 2 : attribuer une coexistence et un mode de mise à niveau
 
-Une fois que vous avez déplacé vos utilisateurs vers Skype Entreprise Online, vous pouvez leur attribuer le mode de coexistence approprié, en fonction du parcours de mise à niveau que votre organisation a choisi. Pour plus d’informations, voir Définir vos paramètres de [coexistence](./setting-your-coexistence-and-upgrade-settings.md) et de mise à niveau et [TeamsUpgradePolicy :](upgrade-to-teams-on-prem-tools.md)gestion de la migration et de la coexistence.
+Une fois que vous avez déplacé vos utilisateurs vers Skype Entreprise Online, vous pouvez leur attribuer le mode de coexistence approprié, en fonction du parcours de mise à niveau que votre organisation a choisi. Pour plus d’informations, voir [Définir vos paramètres de coexistence](./setting-your-coexistence-and-upgrade-settings.md) et de mise à niveau et [TeamsUpgradePolicy : gestion de la migration et de la coexistence](upgrade-to-teams-on-prem-tools.md).
 
 > [!NOTE]
 > Avec Skype Entreprise Server 2019 et une prochaine mise à jour cumulative de Skype Entreprise Server 2015, vous serez en mesure d’effectuer les étapes 1 (déplacement des utilisateurs vers Skype Entreprise Online) et étape 2 (mise à niveau des utilisateurs vers Teams) en une seule étape. Des informations supplémentaires seront fournies après Skype Entreprise Server publication de 2019.
@@ -61,4 +56,4 @@ Une fois que vous avez déplacé vos utilisateurs vers Skype Entreprise Online, 
 
 Si vous effectuez la transition de votre déploiement hybride Skype Entreprise vers Système téléphonique avec les forfaits d’appels, Microsoft sera votre fournisseur de réseau téléphonique commuté (PSTN) (et, en supposant que vous avez effectué le transfert de numéro de téléphone), la mise à niveau de vos utilisateurs vers Teams fera automatiquement passer les appels PSTN entrants vers Teams.
 
-Si les forfaits d’appels ne sont pas disponibles ou si vous avez l’intention d’utiliser votre fournisseur de connectivité RST existant, vous devez transition votre déploiement voix d’entreprise, ou déploiement vocal hybride qui utilise votre déploiement local ou édition Cloud Connector, vers le routage direct du système Téléphone Microsoft. Pour mettre à niveau vos utilisateurs vers Teams, consultez les autres éléments à prendre en [compte pour Système téléphonique routage direct.](./direct-routing-landing-page.md)
+Si les forfaits d’appels ne sont pas disponibles ou si vous avez l’intention d’utiliser votre fournisseur de connectivité RST existant, vous devez transition votre déploiement voix d’entreprise, ou déploiement vocal hybride qui utilise votre déploiement local ou édition Cloud Connector, vers le routage direct du système Téléphone Microsoft. Pour mettre à niveau vos utilisateurs vers Teams, consultez les autres éléments dont vous [tenirs compte pour Système téléphonique routage direct](./direct-routing-landing-page.md).

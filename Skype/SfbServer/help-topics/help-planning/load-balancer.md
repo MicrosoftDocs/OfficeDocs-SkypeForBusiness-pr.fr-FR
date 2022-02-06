@@ -1,29 +1,24 @@
 ---
-title: Skype Entreprise Server Outil de planification de l’équilibrage de charge
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype Entreprise Server’outil de planification de l’équilibrage de charge
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.LoadBalancer
-- ms.lync.plan.LoadBalancer
+  - ms.lync.plan.LoadBalancer
+  - ms.lync.plan.LoadBalancer
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: 'Si vous avez des pools frontux, des pools directeurs ou des pools de serveurs Edge, vous devez déployer l’équilibrage de charge pour ces pools. L’équilibrage de la charge distribue le trafic entre les serveurs dans un pool. Pour obtenir des informations détaillées, voir :'
-ms.openlocfilehash: ce7764d0521b60fc22423ad2735eaa88cc27eff6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832208"
 ---
-# <a name="skype-for-business-server-load-balancer-planning-tool"></a>Skype Entreprise Server Outil de planification de l’équilibrage de charge
+
+# <a name="skype-for-business-server-load-balancer-planning-tool"></a>Skype Entreprise Server’outil de planification de l’équilibrage de charge
  
 Si vous avez des pools frontux, des pools directeurs ou des pools de serveurs Edge, vous devez déployer l’équilibrage de charge pour ces pools. L’équilibrage de la charge distribue le trafic entre les serveurs dans un pool. Pour obtenir des informations détaillées, voir :
   

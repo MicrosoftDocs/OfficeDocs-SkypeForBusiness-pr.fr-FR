@@ -1,29 +1,24 @@
 ---
-title: Skype Entreprise Server Outil de planification de la haute disponibilité
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype Entreprise Server de planification de la haute disponibilité
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.HighAvailability
-- ms.lync.plan.HighAvailability
+  - ms.lync.plan.HighAvailability
+  - ms.lync.plan.HighAvailability
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
-description: Le principal schéma de haute disponibilité pour la plupart des rôles serveur dans Skype Entreprise Server 2015 est basé sur la redondance des serveurs via la mise en pool. Si un serveur qui exécute un rôle serveur donné échoue, les autres serveurs du pool qui exécutent le même rôle prennent la charge de ce serveur.
-ms.openlocfilehash: 47b7eb48b3825cf86e4f24652ad38af2f0cf86d8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862691"
+description: 'Le principal schéma de haute disponibilité pour la plupart des rôles serveur dans Skype Entreprise Server 2015 est basé sur la redondance des serveurs via la mise en pool. Si un serveur qui exécute un rôle serveur donné échoue, les autres serveurs du pool qui exécutent le même rôle prennent la charge de ce serveur.'
 ---
-# <a name="skype-for-business-server-high-availability-planning-tool"></a>Skype Entreprise Server Outil de planification de la haute disponibilité
+
+# <a name="skype-for-business-server-high-availability-planning-tool"></a>Skype Entreprise Server de planification de la haute disponibilité
  
 Le principal schéma de haute disponibilité pour la plupart des rôles serveur dans Skype Entreprise Server 2015 est basé sur la redondance des serveurs via la mise en pool. Si un serveur qui exécute un rôle serveur donné échoue, les autres serveurs du pool qui exécutent le même rôle prennent la charge de ce serveur.
   
@@ -33,7 +28,7 @@ Skype Entreprise Server 2015 nécessite au moins deux serveurs frontux pour acti
     
 - Si le déploiement contient un serveur Edge, un autre serveur est ajouté. 
     
-- Si le déploiement contient une conversation permanente, l’outil de planification ajoute un serveur supplémentaire, mais n’augmente pas le nombre de pool. Par exemple, si le déploiement contient déjà quatre serveurs, l’outil de planification suggère d’ajouter un autre serveur (pour un total de cinq serveurs), mais conserve un pool unique. 
+- Si le déploiement contient une conversation permanente, l’outil de planification ajoute un serveur supplémentaire, mais n’augmente pas le nombre de pool. Par exemple, si le déploiement contient déjà quatre serveurs, l’outil de planification suggère l’ajout d’un autre serveur (pour un total de cinq serveurs), mais maintient un pool unique. 
     
 L’outil de planification ajoute également une base de données SQL miroir pour toutes les bases de données. Par exemple, s’il existe une base de données SQL Server frontale, l’outil de planification ajoute l’autre base de données en tant que base de données miroir pour celle-ci et la nomme « base de données SQL frontale.
   

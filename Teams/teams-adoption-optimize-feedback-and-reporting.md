@@ -1,7 +1,7 @@
 ---
 title: Optimiser les commentaires et les rapports pour Microsoft Teams adoption
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -12,22 +12,17 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment obtenir les commentaires des utilisateurs et utiliser les rapports d’état du service dans Teams adoption.
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Adopt
-- seo-marvel-mar2020
+  - Adopt
+  - seo-marvel-mar2020
 ms.collection:
-- Teams_ITAdmin_Adopt
-- M365-collaboration
+  - Teams_ITAdmin_Adopt
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: a52e0035099ccb764272566c899ee5811c18ac5b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840716"
+  - Microsoft Teams
 ---
+
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimiser les retours d’expérience et les comptes-rendus pour votre adoption de Microsoft Teams
 
 Assurez-vous de recevoir les signaux de votre service et de vos employés en suivant nos meilleures pratiques en matière de commentaires des utilisateurs et de rapports d’état du service.  Dans certains cas, vous aurez peut-être besoin de droits d’administrateur pour accéder à certains rapports d’utilisation et d’état d’état du service. Si vous n’êtes pas l’administrateur Microsoft 365 ou Office 365 de votre organisation, travaillez avec cette personne pour qu’elle se voir accorder le rôle de lecteur de rapport dans le Centre d'administration Microsoft 365 pour accéder à certaines de ces données.
@@ -56,8 +51,8 @@ Meilleure pratique : Avoir des représentants de votre service de support intern
 
 Vous devez examiner trois types de rapports à mesure que vous déployez et adoptez Microsoft Teams :
 
-- [l’état du](https://status.office365.com/) service ( Microsoft 365, Office 365 et votre service de support informatique interne.
-- [Microsoft 365](/microsoft-365/admin/activity-reports/activity-reports) rapports dans le Centre d’administration Microsoft 365 ou Office 365 afficher Microsoft 365 rapports dans le Centre d’administration , Microsoft Teams [l’activité des utilisateurs.](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity) Vous pouvez également utiliser des informations provenant d’autres systèmes au sein de votre organisation.
+- [État du](https://status.office365.com/) service , de Microsoft 365, Office 365 et de votre service de support informatique interne.
+- [Microsoft 365 rapports dans](/microsoft-365/admin/activity-reports/activity-reports) le Centre d’administration ( à partir de Microsoft 365 ou Office 365 dans Microsoft 365 rapports dans le Centre d’administration [– Microsoft Teams l’activité des utilisateurs](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity). Vous pouvez également utiliser des informations provenant d’autres systèmes au sein de votre organisation.
 - Satisfaction du service – Résultats issus de forums de la communauté interne et d’enquêtes sur des expériences spécifiques
 
 ![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : faire connaître [et implémenter une formation](teams-adoption-drive-awareness.md)

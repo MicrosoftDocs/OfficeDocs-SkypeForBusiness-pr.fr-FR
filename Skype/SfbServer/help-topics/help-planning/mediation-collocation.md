@@ -1,29 +1,24 @@
 ---
-title: Skype Entreprise Server Outil de planification de la cocation de médiation
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype Entreprise Server de planification de la cocation de médiation
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.MediationCollocation
-- ms.lync.plan.MediationCollocation
+  - ms.lync.plan.MediationCollocation
+  - ms.lync.plan.MediationCollocation
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
-description: Par défaut, le serveur de médiation est coqueté avec le serveur frontal. Il peut également être déployé dans un pool autonome pour des raisons de performances ou si vous déployez une trunking SIP, auquel cas le pool autonome est recommandé. La cocation Skype Entreprise Server fonctionne comme dans Lync Server 2013.
-ms.openlocfilehash: de327a7abe4278a942058c1e5c3cdced2266d8f6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833510"
+description: 'Par défaut, le serveur de médiation est coqueté avec le serveur frontal. Il peut également être déployé dans un pool autonome pour des raisons de performances ou si vous déployez une trunking SIP, auquel cas le pool autonome est recommandé. La cocation Skype Entreprise Server fonctionne comme dans Lync Server 2013.'
 ---
-# <a name="skype-for-business-server-mediation-collocation-planning-tool"></a>Skype Entreprise Server Outil de planification de la cocation de médiation
+
+# <a name="skype-for-business-server-mediation-collocation-planning-tool"></a>Skype Entreprise Server de planification de la cocation de médiation
  
 Le serveur de médiation est coqueté avec le serveur frontal par défaut. Le serveur de médiation peut également être déployé dans un pool autonome pour des raisons de performances, ou si vous déployez une trunking SIP, auquel cas le pool autonome est recommandé. La cocation Skype Entreprise Server fonctionne comme dans Lync Server 2013. Pour plus de détails, consultez les rubriques suivantes :
   

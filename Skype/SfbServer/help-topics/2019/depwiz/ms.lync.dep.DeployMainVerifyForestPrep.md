@@ -1,36 +1,31 @@
 ---
 title: Vérifier la réplication de la préparation de la forêt
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployMainVerifyForestPrep
+  - ms.lync.dep.DeployMainVerifyForestPrep
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Pour vérifier que la réplication du catalogue global et la création d’objets au cours de la préparation de la forêt ont réussi, faites les opérations suivantes :'
-ms.openlocfilehash: f56b2d81029a5518e01eea62a47690081318ac3c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838996"
 ---
+
 # <a name="verify-replication-of-forest-preparation"></a>Vérifier la réplication de la préparation de la forêt
  
 Pour vérifier que la réplication du catalogue global et la création d’objets au cours de la préparation de la forêt ont réussi, faites les opérations suivantes :
   
-1. Sur un contrôleur de domaine (de préférence dans un site distant à partir des autres contrôleurs de domaine), dans la forêt où la préparation de la forêt a été exécuté, ouvrez Utilisateurs et ordinateurs **Active Directory.**
+1. Sur un contrôleur de domaine (de préférence dans un site distant à partir des autres contrôleurs de domaine), dans la forêt où la préparation de la forêt a été exécuté, ouvrez Utilisateurs et ordinateurs **Active Directory**.
     
 2. Dans **Utilisateurs et ordinateurs Active Directory**, développez le nom de domaine de votre forêt ou un domaine enfant.
     
-3. Cliquez sur le conteneur **Utilisateurs** dans le volet gauche et recherchez le groupe universel CsAdministrator dans le volet de droite. Si CsAdministrator (parmi huit autres nouveaux groupes universels qui commencent par Cs) est présent, la réplication de la préparation de la forêt a réussi.
+3. Cliquez sur **le conteneur Utilisateurs** dans le volet gauche et recherchez le groupe universel CsAdministrator dans le volet de droite. Si CsAdministrator (parmi huit autres nouveaux groupes universels qui commencent par Cs) est présent, la réplication de la préparation de la forêt a réussi.
     
 4. Si les groupes ne sont pas encore présents, vous pouvez forcer la réplication ou attendre 15 minutes, puis actualiser le volet de droite. Lorsque les groupes apparaissent, la réplication est terminée.
     

@@ -1,27 +1,22 @@
 ---
 title: Expanseur des paramètres des services web
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.WebServicesSettingsExpander
+  - ms.lync.tb.WebServicesSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
-ROBOTS: NOINDEX, NOFOLLOW
-description: À partir du Générateur de topologie, vous pouvez modifier les paramètres de port utilisés pour vos services web internes et externes. En outre, si vous déployez l’équilibrage de charge DNS (Domain Name System), vous pouvez utiliser le Générateur de topologie pour configurer le nom de domaine complet (FQDN) du pool qui est résolu en adresses IP physiques de tous les serveurs de ce pool.
-ms.openlocfilehash: 4e9a03d4a41c845a66d4f3ee41ba39c30d2e64eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835682"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'À partir du Générateur de topologie, vous pouvez modifier les paramètres de port utilisés pour vos services web internes et externes. En outre, si vous déployez l’équilibrage de charge DNS (Domain Name System), vous pouvez utiliser le Générateur de topologie pour configurer le nom de domaine complet (FQDN) du pool qui est résolu en adresses IP physiques de tous les serveurs de ce pool.'
 ---
+
 # <a name="web-services-settings-expander"></a>Expandeur des paramètres des services web
  
 À partir du Générateur de topologie, vous pouvez modifier les paramètres de port utilisés pour vos services web internes et externes. En outre, si vous déployez l’équilibrage de charge DNS (Domain Name System), vous pouvez utiliser le Générateur de topologie pour configurer le nom de domaine complet (FQDN) du pool qui est résolu en adresses IP physiques de tous les serveurs de ce pool.
@@ -33,7 +28,7 @@ ms.locfileid: "60835682"
 2. Dans la boîte de dialogue **Modifier les propriétés**, cliquez sur l’onglet **Services web**.
     
     > [!CAUTION]
-    > Si vous avez plusieurs serveurs frontaux ou serveurs frontaux, le nom de groupe des services Web externes doit être unique. Par exemple, si vous définissez le nom de groupe des services Web externes d’un serveur frontal en tant que **pool01.contoso.com,** vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le nom de groupe des services Web externes défini pour un directeur ou un pool directeur doit être unique à partir d’un autre directeur ou pool directeur, ainsi que de tout pool frontal ou serveur frontal. Si vous décidez de remplacer les services web internes par un FQDN auto-défini, chaque FQDN doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur.
+    > Si vous avez plusieurs serveurs frontaux ou serveurs frontaux, le nom de groupe des services Web externes doit être unique. Par exemple, si vous définissez le nom de groupe des services Web externes d’un serveur frontal en tant que **pool01.contoso.com**, vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le FQDN des services Web externes défini pour n’importe quel directeur ou pool directeur doit être unique à partir de tout autre directeur ou pool directeur, ainsi que de tout pool frontal ou serveur frontal. Si vous décidez de remplacer les services web internes par un FQDN auto-défini, chaque FQDN doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur.
   
 3. Si vous modifiez les propriétés d’un pool Enterprise Edition, vous avez la possibilité de choisir **Remplacer le nom de domaine complet**. Ne sélectionnez cette option que si vous utilisez l’équilibrage de la charge DNS. Si vous utilisez l’équilibrage de la charge DNS, sélectionnez **Remplacer le nom de domaine complet**, puis dans la zone de texte, tapez le nom de domaine complet du pool qui est résolu en adresses IP physiques de tous les serveurs de ce pool. Si vous n’utilisez pas l’équilibrage de la charge DNS, et si vous n’avez pas sélectionné **Remplacer le nom de domaine complet**, vous ne pouvez pas modifier le nom de domaine complet des services web internes. Le FQDN des services web internes est l’URL utilisée par les utilisateurs internes pour se connecter à Skype Entreprise Server.
     

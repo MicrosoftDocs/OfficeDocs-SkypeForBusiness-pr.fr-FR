@@ -1,27 +1,22 @@
 ---
 title: Création d’un parcage d’appel ou modification d’un parcage existant
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.VoiceFeaCallParkEdit
+  - ms.lync.lscp.VoiceFeaCallParkEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 description: Les plages de numéros de parcier d’appel définissent les numéros temporaires où les appels par parcés sont maintenus jusqu’à ce que quelqu’un les récupère ou qu’ils délai d’arrêt.
-ms.openlocfilehash: 6a4ea7673995d4c3b59b69964d383ab774f55cb5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855691"
 ---
+
 # <a name="call-park-create-new-or-edit-existing"></a>Parcage d’appel : créer un nouveau ou modifier un parcage existant
 
 Les plages de numéros de parcier d’appel définissent les numéros temporaires où les appels par parcés sont maintenus jusqu’à ce que quelqu’un les récupère ou qu’ils délai d’arrêt.
@@ -40,9 +35,9 @@ La liste suivante décrit les champs de la page.
 
   - La plage de numéros doit être unique. Cette plage ne peut pas chevaucher une autre plage.
 
-  - Si la plage de nombres commence par le caractère ou #, la plage doit être supérieure \* à 100.
+  - Si la plage de nombres commence par le caractère ou \* #, la plage doit être supérieure à 100.
 
-  - Valeurs valides : doit correspondre à la chaîne d’expression régulière ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Cela signifie que la valeur doit être une chaîne commençant par le caractère ou # ou un nombre de 1 à 9 (le premier caractère ne peut \* pas être un zéro). Si le premier caractère est ou #, le caractère suivant doit être un nombre \* de 1 à 9 (il ne peut pas être un zéro). Les caractères suivants peuvent être n’importe quel nombre de 0 à 9, jusqu’à sept caractères supplémentaires (par exemple, « #6000 », « \* 92000 », « 95551212 » et \* « 915551212 »). Si le premier caractère n’est pas ou #, le premier caractère doit être un nombre de 1 à 9 (il ne peut pas être zéro), suivi de huit caractères au plus, chacun un nombre \* 0 à 9 (par exemple : 915551212;41212;300).
+  - Valeurs valides : doit correspondre à la chaîne d’expression régulière ([\\*|#]?[ 1-9]\d{0,7})| ([1-9]\d{0,8}). Cela signifie que la valeur doit \* être une chaîne commençant par le caractère ou # ou un nombre de 1 à 9 (le premier caractère ne peut pas être un zéro). Si le premier caractère est \* ou #, le caractère suivant doit être un nombre de 1 à 9 (il ne peut pas être un zéro). Les caractères suivants peuvent être n’importe quel nombre de 0 à 9, jusqu’à sept caractères supplémentaires (par exemple, « #6000\* », « 92000\* », « 95551212 » et « 915551212 »). \* Si le premier caractère n’est pas ou #, le premier caractère doit être un nombre de 1 à 9 (il ne peut pas être zéro), suivi de huit caractères au plus, chacun un nombre 0 à 9 (par exemple : 915551212;41212;300).
 
   - Il ne doit pas y avoir plus de 50 000 numéros par pool, au total. Chaque plage de numéros comporte en général un maximum de 100 numéros, mais peut être beaucoup plus grande et comporter jusqu’à 10 000 numéros. Par exemple, au lieu de spécifier « 7 000 000 » comme numéro de début et « 8 000 000 » comme numéro de fin, envisagez de spécifier « 7 000 000 » comme numéro de début et « 7 000 100 » comme numéro de fin.
 

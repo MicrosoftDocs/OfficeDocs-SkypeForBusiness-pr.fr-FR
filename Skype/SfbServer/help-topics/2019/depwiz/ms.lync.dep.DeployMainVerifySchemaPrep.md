@@ -1,30 +1,25 @@
 ---
 title: Vérifier la réplication de la partition du schéma
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployMainVerifySchemaPrep
+  - ms.lync.dep.DeployMainVerifySchemaPrep
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
-ROBOTS: NOINDEX, NOFOLLOW
-description: 'Pour vérifier que l’extension de schéma a bien été répliquée dans votre forêt des services de domaine Active Directory, faites les choses suivantes :'
-ms.openlocfilehash: ad48543f6b14e3e65750582caa42d050b0c2cd58
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847997"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Pour vérifier que l’extension de schéma a bien été répliquée dans votre forêt des services de domaine Active Directory, vous devez :'
 ---
+
 # <a name="verify-replication-of-schema-partition"></a>Vérifier la réplication de la partition du schéma
  
-Pour vérifier que l’extension de schéma a bien été répliquée dans votre forêt des services de domaine Active Directory, faites les choses suivantes :
+Pour vérifier que l’extension de schéma a bien été répliquée dans votre forêt des services de domaine Active Directory, vous devez :
   
 1. Log on to a domain controller (other than the domain controller that holds the schema master role) in your Active Directory Domain Services forest, where the schema extensions were applied as a member of the Enterprise Admins group.
     
