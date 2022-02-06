@@ -1,27 +1,22 @@
 ---
 title: Stratégie de code confidentiel
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.SecPinPolicyMain
+  - ms.lync.lscp.SecPinPolicyMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
-description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 18bac1a4f2743b5b30c2291ccd5a0cbf745aec6e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830398"
+description: "Que voulez-vous faire\_? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer."
 ---
+
 # <a name="pin-policy"></a>Stratégie de code confidentiel
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.

@@ -1,24 +1,19 @@
 ---
 title: Rapport détaillé de session D’égal à égal dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: 'Résumé : Découvrez le rapport détaillé de session D’égal à égal dans Skype Entreprise Server.'
-ms.openlocfilehash: fe49c455391583a02f873769a75d86da62fe2a25
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829968"
 ---
+
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Rapport détaillé de session D’égal à égal dans Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport détaillé de session D’égal à égal dans Skype Entreprise Server.
@@ -37,7 +32,7 @@ Vous pouvez accéder au rapport de détails de session d’égal à égal à par
     
 - Rapport de liste des échecs 
     
-À partir du rapport détaillé de session P2E, vous pouvez accéder au rapport de diagnostic dans [Skype Entreprise Server](diagnostic-report.md) en cliquant sur la mesure Rapport de diagnostic (détails). Vous pouvez aussi accéder au rapport des principales défaillances en cliquant sur l’une de ces deux mesures :
+À partir du rapport détaillé de session P2E, vous pouvez accéder au rapport de [diagnostic dans Skype Entreprise Server](diagnostic-report.md) en cliquant sur la mesure Rapport de diagnostic (détails). Vous pouvez aussi accéder au rapport des principales défaillances en cliquant sur l’une de ces deux mesures :
   
 - Réponse
     

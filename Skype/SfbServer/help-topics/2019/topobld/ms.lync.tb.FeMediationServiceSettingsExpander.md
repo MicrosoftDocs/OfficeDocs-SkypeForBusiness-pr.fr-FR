@@ -1,27 +1,22 @@
 ---
 title: Expanseur des paramètres du service de médiation
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.FeMediationServiceSettingsExpander
+  - ms.lync.tb.FeMediationServiceSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Pour le serveur de médiation, vous pouvez spécifier les données suivantes :'
-ms.openlocfilehash: 649f4ac74280564fc53182b9bf627f566781c2eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850227"
 ---
+
 # <a name="mediation-service-settings-expander"></a>Expandeur des paramètres du service de médiation
 
 Pour **Serveur de médiation**, vous pouvez spécifier les éléments suivants :

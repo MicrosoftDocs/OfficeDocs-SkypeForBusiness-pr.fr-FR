@@ -1,39 +1,34 @@
 ---
 title: Rapports de diagnostic des appels (par utilisateur) dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: 'Résumé : Découvrez les rapports de diagnostic des appels par utilisateur utilisés dans Skype Entreprise Server.'
-ms.openlocfilehash: 03b3afba9a9177bc1628c100ca5083f1be96b48e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864851"
 ---
+
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Rapports de diagnostic des appels (par utilisateur) dans Skype Entreprise Server
   
-Les rapports de diagnostic des appels fournissent des informations par utilisateur concernant les sessions de conférence et d’égal à égal ayant échoué. Pour l’instant, il n’existe qu’un seul rapport, le **rapport d’activité de l’utilisateur.**
+Les rapports de diagnostic des appels fournissent des informations par utilisateur concernant les sessions de conférence et d’égal à égal ayant échoué. Pour l’instant, il n’existe qu’un seul rapport, le **rapport d’activité de l’utilisateur**.
 
 Le rapport d’activité de l’utilisateur fournit une liste détaillée des sessions d’égal à égal et des sessions de conférence exécutées par vos utilisateurs au cours d’une période donnée. Contrairement à la plupart des rapports de surveillance, le rapport d’activité de l’utilisateur lie chaque appel à des utilisateurs individuels. Par exemple, les sessions d’égal à égal spécifient l’URI SIP de la personne à l’origine de l’appel (utilisateur d’origine) et celle de la personne qui a été appelée (utilisateur de destination). Si vous développez les informations sur une conférence, vous obtiendrez la liste de tous les participants à la conférence, ainsi que le rôle qu’ils ont eu à cette occasion.
 
 Le rapport d’activité de l’utilisateur est parfois appelé « rapport de support technique ». En effet, ce rapport est souvent utilisé par les équipes de support technique pour récupérer les informations de session d’un utilisateur spécifique. Vous pouvez filtrer les appels à destination ou en provenance d’un utilisateur individuel en tapant simplement son URI SIP dans la zone Préfixe d’URI d’utilisateur.
 
-Dans ce cas, le rapport d’activité de l’utilisateur retourne des informations pour tout utilisateur dont l’URI SIP commence par la chaîne spécifiée. Par exemple, si vous tapez **ken** dans la zone URI, le rapport d’activité de l’utilisateur localise **Ken**. Myer@litwareinc.com. Toutefois, il localisera également ces utilisateurs :
+Dans ce cas, le rapport d’activité de l’utilisateur retourne des informations pour tout utilisateur dont l’URI SIP commence par la chaîne spécifiée. Par exemple, si vous tapez **ken** dans la zone URI, le rapport d’activité de l’utilisateur localise **Ken.Myer@litwareinc.com**. Toutefois, il localisera également ces utilisateurs :
 
 - **ken** azi@litwareinc.com
 
 - **ken** burg@litwareinc.com
 
-- **Ken**. Sanchez@litwareinc.com
+- **Ken.Sanchez@litwareinc.com**
 
 - **Ken** nedy@litwareinc.com
 
@@ -43,7 +38,7 @@ Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>Pour accéder au rapport d’activité de l’utilisateur
 
-Le rapport d’activité de l’utilisateur est accessible via la page d’accueil des rapports de surveillance. Vous pouvez également accéder au rapport d’activité de l’utilisateur en cliquant sur la mesure URI de l’utilisateur dans le rapport [d’inventaire](ip-phone-inventory-report.md)Téléphone IP dans Skype Entreprise Server . Si vous cliquez sur URI de la conférence (pour une conférence) dans le rapport d’activité de l’utilisateur, vous accèderez au rapport détaillé de conférence. De même, en cliquant sur la mesure Détail pour un appel d’égal à égal, vous êtes en mesure d’obtenir le rapport détaillé de [session D’égal](peer-to-peer-session-detail-report.md)à égal dans Skype Entreprise Server .
+Le rapport d’activité de l’utilisateur est accessible via la page d’accueil des rapports de surveillance. Vous pouvez également accéder au rapport d’activité de l’utilisateur en cliquant sur la mesure URI de l’utilisateur dans le rapport [d’inventaire Téléphone IP dans Skype Entreprise Server](ip-phone-inventory-report.md). Si vous cliquez sur URI de la conférence (pour une conférence) dans le rapport d’activité de l’utilisateur, vous accèderez au rapport détaillé de conférence. De même, en cliquant sur la mesure Détail pour un appel d’égal à égal, vous êtes en mesure d’obtenir le rapport détaillé de [session D’égal à égal dans Skype Entreprise Server](peer-to-peer-session-detail-report.md).
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>Utilisation du rapport d’activité de l’utilisateur
 

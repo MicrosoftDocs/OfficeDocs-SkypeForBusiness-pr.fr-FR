@@ -1,25 +1,20 @@
 ---
 title: Obtenir un utilisateur
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
 description: 'Résumé : Découvrez l’opération Obtenir un utilisateur, qui fait partie du service utilisateur. Le service utilisateur fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 7207f395c393bea542796129e21c08d2706ab12f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828717"
 ---
+
 # <a name="get-user"></a>Obtenir un utilisateur
  
 **Résumé :** Découvrez l’opération Obtenir un utilisateur, qui fait partie du service utilisateur. Le service utilisateur fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
@@ -32,7 +27,7 @@ Get User renvoie un enregistrement utilisateur à partir du référentiel.
   
 |**Méthode**|**URI de demande**|**HTTP Version**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/user/{userId}  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoERepositoryService/repository/user/{userId}  <br/> |HTTP/1.1  <br/> |
    
  **Paramètres d’URI** - Aucun.
   
@@ -58,11 +53,11 @@ Get User renvoie un enregistrement utilisateur à partir du référentiel.
 
  *userId*  : ID de l’utilisateur.
   
- *loginName :*  identification des utilisateurs externes pour les utilisateurs réguliers. Si Windows’authentification est utilisée pour authentifier les utilisateurs, il peut s’agit d’un nom de groupe de l’utilisateur.
+ *loginName :*  identification des utilisateurs externes pour les utilisateurs réguliers. Si Windows’authentification est utilisée pour authentifier les utilisateurs, il peut s’agit d’un nom de sujet de l’utilisateur.
   
  *defaultItemId*  - ID de l’élément par défaut pour cet utilisateur. L’élément par défaut est l’élément le plus haut associé à l’utilisateur. Tous les autres éléments dont cet utilisateur est propriétaire peuvent être accédés à partir de l’élément par défaut.
   
 > [!NOTE]
-> Fournissez  `defaultItemId` la valeur de l’opération Obtenir un élément pour récupérer les détails de l’élément par défaut.
+> Fournissez la  `defaultItemId` valeur de l’opération Obtenir un élément pour récupérer les détails de l’élément par défaut.
   
 

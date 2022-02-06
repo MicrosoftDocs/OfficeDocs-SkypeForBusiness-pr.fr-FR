@@ -1,32 +1,27 @@
 ---
 title: tblEnumValue
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: tblEnumValue est une table codée en dur qui contient les valeurs Visibilité et Comportement des attributs utilisés dans la table Node.
-ms.openlocfilehash: 857c9ba916a183708ba2ff13bff2cab1ccfcea11
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863311"
 ---
+
 # <a name="tblenumvalue"></a>tblEnumValue
  
 tblEnumValue est une table codée en dur qui contient les valeurs Visibilité et Comportement des attributs utilisés dans la table Node.
   
 **Colonnes**
 
-|**Colonne**|**Type (Type)**|**Description**|
+|**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |valueID  <br/> |smallint, non null  <br/> |ID de la valeur  <br/> |
 |attributeID  <br/> |smallint, non null  <br/> |ID de l’attribut  <br/> |

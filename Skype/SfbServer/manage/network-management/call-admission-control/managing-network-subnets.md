@@ -1,23 +1,18 @@
 ---
 title: Gestion des sous-réseaux
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Dans la plupart des déploiements de Skype Entreprise Server où le contrôle d’admission des appels (CAC) est implémenté, il y a généralement un grand nombre de sous-réseaux. Pour cette raison, il est souvent préférable de configurer des sous-réseaux à partir de Skype Entreprise Server Management Shell.
-ms.openlocfilehash: 73a0f99fa35cd1b92194ce5b09d85a30d30b72e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843857"
+description: 'Dans la plupart des déploiements de Skype Entreprise Server où le contrôle d’admission des appels (CAC) est implémenté, il y a généralement un grand nombre de sous-réseaux. Pour cette raison, il est souvent préférable de configurer des sous-réseaux à partir de Skype Entreprise Server Management Shell.'
 ---
+
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>Gestion des sous-réseaux réseau dans Skype Entreprise Server
 
 Vous pouvez utiliser le Panneau de Skype Entreprise Server ou l’Skype Entreprise Server Management Shell pour gérer les sous-réseaux. Dans la plupart des déploiements de Skype Entreprise Server où le contrôle d’admission des appels (CAC) est implémenté, il y a généralement un grand nombre de sous-réseaux. Pour cette raison, il est souvent préférable de configurer des sous-réseaux à partir de Skype Entreprise Server Management Shell.
@@ -34,7 +29,7 @@ Vous pouvez utiliser la procédure suivante pour afficher un sous-réseau. À pa
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration** réseau, puis sur **Sous-réseau.**
+3.  Dans la barre de navigation de gauche, cliquez sur **Configuration** réseau, puis sur **Sous-réseau**.
 
 4.  Dans la page **Sous-réseau**, cliquez sur le sous-réseau que vous souhaitez afficher.
  
@@ -49,7 +44,7 @@ Les informations de sous-réseau peuvent être vues à l’aide Windows PowerShe
 
 ### <a name="to-view-network-subnet-information"></a>Pour afficher les informations de sous-réseau
 
-  - Pour afficher des informations sur tous vos sous-réseaux, tapez la commande suivante dans l’Skype Entreprise Server Management Shell, puis appuyez sur Entrée :
+  - Pour afficher des informations sur tous vos sous-réseaux, tapez la commande suivante dans Skype Entreprise Server Management Shell, puis appuyez sur Entrée :
     
     **Get-CsNetworkSubnet**
     
@@ -69,7 +64,7 @@ Pour plus d’informations, voir la rubrique d’aide relative à l’applet de 
 
 Un sous-réseau de réseau doit être associé à un site réseau afin de déterminer l’emplacement géographique de l’hôte appartenant à ce sous-réseau. Vous pouvez utiliser le Panneau de configuration Skype Entreprise Server pour configurer des sous-réseaux. À partir Skype Entreprise Server panneau de bord, vous pouvez créer, modifier ou supprimer un sous-réseau. 
 
-Dans la plupart des déploiements de Skype Entreprise Server où le contrôle d’admission des appels (CAC) est implémenté, il y a généralement un grand nombre de sous-réseaux. Pour cette raison, il est souvent préférable de configurer des sous-réseaux à partir de Skype Entreprise Server Management Shell. À partir de là, vous pouvez appeler **New-CsNetworkSubnet** conjointement avec l’Windows PowerShell cmdlet **Import-CSV**. En utilisant ces cmdlets ensemble, vous pouvez lire les paramètres de sous-réseau à partir d’un fichier de valeurs séparées par des virgules (.csv) et créer plusieurs sous-réseaux en même temps. Pour obtenir des exemples de création de sous-réseaux à partir d’un .csv, voir [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet).
+Dans la plupart des déploiements de Skype Entreprise Server où le contrôle d’admission des appels (CAC) est implémenté, il y a généralement un grand nombre de sous-réseaux. Pour cette raison, il est souvent préférable de configurer des sous-réseaux à partir de Skype Entreprise Server Management Shell. À partir de là, vous pouvez appeler **New-CsNetworkSubnet** conjointement avec l’Windows PowerShell de la cmdlet **Import-CSV**. En utilisant ces cmdlets ensemble, vous pouvez lire les paramètres de sous-réseau à partir d’un fichier de valeurs séparées par des virgules (.csv) et créer plusieurs sous-réseaux en même temps. Pour obtenir des exemples de création de sous-réseaux à partir d.csv fichier, voir [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet).
 
 
 ### <a name="to-create-a-network-subnet"></a>Pour créer un sous-réseau de réseau
@@ -78,7 +73,7 @@ Dans la plupart des déploiements de Skype Entreprise Server où le contrôle d�
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration** réseau, puis sur **Sous-réseau.**
+3.  Dans la barre de navigation de gauche, cliquez sur **Configuration** réseau, puis sur **Sous-réseau**.
 
 4.  Dans la page **Sous-réseau**, cliquez sur **Nouveau**.
 
@@ -102,7 +97,7 @@ Dans la plupart des déploiements de Skype Entreprise Server où le contrôle d�
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration** réseau, puis sur **Sous-réseau.**
+3.  Dans la barre de navigation de gauche, cliquez sur **Configuration** réseau, puis sur **Sous-réseau**.
 
 4.  Dans la page **Sous-réseau**, cliquez sur le sous-réseau que vous souhaitez modifier.
 
@@ -116,7 +111,7 @@ Dans la plupart des déploiements de Skype Entreprise Server où le contrôle d�
 
 La procédure suivante vous permet de supprimer un sous-réseau. À partir Skype Entreprise Server panneau de bord, vous pouvez créer, modifier ou supprimer un sous-réseau. 
 
-Dans la plupart des déploiements de Skype Entreprise Server où le contrôle d’admission des appels (CAC) est implémenté, il y a généralement un grand nombre de sous-réseaux. Pour cette raison, il est souvent préférable de configurer des sous-réseaux à partir de Skype Entreprise Server Management Shell. À partir de là, vous pouvez appeler **New-CsNetworkSubnet** conjointement avec l’Windows PowerShell cmdlet **Import-CSV**. En utilisant ces cmdlets ensemble, vous pouvez lire les paramètres de sous-réseau à partir d’un fichier de valeurs séparées par des virgules (.csv) et créer plusieurs sous-réseaux en même temps. Pour obtenir des exemples de création de sous-réseaux à partir d’un .csv, voir [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet).
+Dans la plupart des déploiements de Skype Entreprise Server où le contrôle d’admission des appels (CAC) est implémenté, il y a généralement un grand nombre de sous-réseaux. Pour cette raison, il est souvent préférable de configurer des sous-réseaux à partir de Skype Entreprise Server Management Shell. À partir de là, vous pouvez appeler **New-CsNetworkSubnet** conjointement avec l’Windows PowerShell de la cmdlet **Import-CSV**. En utilisant ces cmdlets ensemble, vous pouvez lire les paramètres de sous-réseau à partir d’un fichier de valeurs séparées par des virgules (.csv) et créer plusieurs sous-réseaux en même temps. Pour obtenir des exemples de création de sous-réseaux à partir d.csv fichier, voir [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet).
 
 
 ### <a name="to-delete-a-network-subnet"></a>Pour supprimer un sous-réseau
@@ -125,7 +120,7 @@ Dans la plupart des déploiements de Skype Entreprise Server où le contrôle d�
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration** réseau, puis sur **Sous-réseau.**
+3.  Dans la barre de navigation de gauche, cliquez sur **Configuration** réseau, puis sur **Sous-réseau**.
 
 4.  Dans la page **Sous-réseau**, cliquez sur le sous-réseau à supprimer.
  

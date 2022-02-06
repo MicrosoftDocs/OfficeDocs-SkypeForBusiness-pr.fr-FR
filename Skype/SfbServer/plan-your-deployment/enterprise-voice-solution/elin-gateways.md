@@ -1,35 +1,30 @@
 ---
 title: Gérer les emplacements des passerelles ELIN dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
-description: Décisions nécessaires à la planification d’une base de données d’informations d’emplacement ou d’une base de données externe similaire pour un déploiement E9-1-1 à l’aide de passerelles ELIN, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: d958b9d533245e7071cb8c1f030e91a13a44925f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845167"
+description: 'Décisions nécessaires à la planification d’une base de données d’informations d’emplacement ou d’une base de données externe similaire pour un déploiement E9-1-1 à l’aide de passerelles ELIN, Skype Entreprise Server Voix Entreprise.'
 ---
+
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Gérer les emplacements des passerelles ELIN dans Skype Entreprise Server
 
 Décisions nécessaires à la planification d’une base de données d’informations d’emplacement ou d’une base de données externe similaire pour un déploiement E9-1-1 à l’aide de passerelles ELIN, Skype Entreprise Server Voix Entreprise.
 
 Pour que Skype Entreprise Server fournir automatiquement des emplacements pour les clients au sein d’un réseau, vous devez effectuer les tâches suivantes :
 
-- Remplir la base de données du service Informations sur l’emplacement avec une carte fil de câblage réseau et inclure les numéros d’identification d’emplacement d’urgence ( ELIN) dans le champ CompanyName.
+- Remplir la base de données du service Informations sur l’emplacement avec une carte fil de câblage réseau et inclure les numéros d’identification d’emplacement d’urgence (ELIN) dans le champ CompanyName.
 
 - Publiez les emplacements afin qu’ils soient disponibles pour les clients dans votre réseau.
 
@@ -48,11 +43,11 @@ Lorsque vous utilisez des passerelles ELIN, vous devez remplir la base de donné
 
 ### <a name="planning-location-names"></a>Planification des noms d’emplacement
 
-Le champ Emplacement **du** service Informations sur l’emplacement, qui contient l’emplacement spécifique dans un bâtiment, a une longueur maximale de 20 caractères (espaces compris). En respectant cette limite, essayez d’inclure les éléments suivants :
+Le champ **Emplacement du service** Informations sur l’emplacement, qui contient l’emplacement spécifique dans un bâtiment, a une longueur maximale de 20 caractères (espaces compris). En respectant cette limite, essayez d’inclure les éléments suivants :
 
 - Nom facile à comprendre qui identifie l’emplacement de l’appelant 911 pour s’assurer que les agents des services d’urgence trouvent l’emplacement spécifique rapidement lorsqu’ils arrivent à l’adresse géographique. Ce nom d’emplacement peut inclure un numéro d’immeuble, un numéro d’étage, un indicateur d’aile, un numéro de chambre, etc. Évitez les surnoms connus des seuls employés, qui peuvent induire les agents des services d’urgence en erreur.
 
-- Identificateur d’emplacement qui permet aux utilisateurs de voir facilement que leur client a choisi l’emplacement correct. Le Skype Entreprise client concatène et affiche automatiquement les  champs  Emplacement et Ville découverts dans son en-tête. Une bonne pratique consiste à ajouter l’adresse de rue du bâtiment à chaque identificateur d’emplacement (par exemple, « 1er étage \<street number> »). Sans l’adresse postale, un identificateur d’emplacement générique tel que « 1er étage » peut s’appliquer à n’importe quel immeuble de la ville.
+- Identificateur d’emplacement qui permet aux utilisateurs de voir facilement que leur client a choisi l’emplacement correct. Le Skype Entreprise client concatène et affiche automatiquement les champs Emplacement et Ville découverts dans  son en-tête. Une bonne pratique consiste à ajouter l’adresse de rue du bâtiment à chaque identificateur d’emplacement (par exemple, « 1er étage \<street number>»). Sans l’adresse postale, un identificateur d’emplacement générique tel que « 1er étage » peut s’appliquer à n’importe quel immeuble de la ville.
 
 - Si l’emplacement est approximatif car il est déterminé par un point d’accès sans fil, vous pouvez ajouter le mot **[Proche]** (par exemple, « À proximité du 1er étage 1234 »).
 
@@ -86,7 +81,7 @@ Où sont stockées les données et quelles étapes devez-vous suivre pour les co
 
 En utilisant l’option Du service Informations sur l’emplacement secondaire pour vous connecter à une base de données tierce, vous pouvez grouper et gérer des emplacements à l’aide d’une plateforme hors connexion. Outre la possibilité d’associer des emplacements à des identificateurs réseau, cette approche vous offre l’avantage d’associer des emplacements à un utilisateur. Cela signifie que le service Informations d’emplacement peut renvoyer plusieurs adresses, provenant du service Informations d’emplacement secondaire, à un client Skype Entreprise client. L’utilisateur peut alors choisir l’emplacement le plus approprié.
 
-Pour s’intégrer au service Informations d’emplacement, la base de données tierce doit suivre le schéma Skype Entreprise Server demande d’emplacement/réponse. Pour plus d’informations, voir Service Web pour le protocole de prise en [charge E911.](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd) Pour plus d’informations sur le déploiement d’un service Secondary Location Information, voir [Configure a secondary Location Information service in Skype Entreprise Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) in the Deployment documentation.
+Pour s’intégrer au service Informations d’emplacement, la base de données tierce doit suivre le schéma Skype Entreprise Server demande d’emplacement/réponse. Pour plus d’informations, [voir Service Web pour le protocole de prise en charge E911](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd). Pour plus d’informations sur le déploiement d’un service Secondary Location Information, voir [Configure a secondary Location Information service in Skype Entreprise Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) in the Deployment documentation.
 
 Pour plus d’informations sur le renseignement de la base de données d’emplacements, voir [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) dans la documentation de déploiement.
 

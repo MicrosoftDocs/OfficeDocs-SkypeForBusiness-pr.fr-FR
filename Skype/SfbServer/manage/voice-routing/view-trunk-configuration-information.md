@@ -1,23 +1,18 @@
 ---
 title: Afficher les informations de configuration de la Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services.
-ms.openlocfilehash: b7623765f8d1341066fd127e82c89ab1fa14c79c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843827"
+description: 'Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services.'
 ---
+
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>Afficher les informations de configuration de la Skype Entreprise Server
 
 Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services.
@@ -28,14 +23,14 @@ Les paramètres de configuration de jonction SIP définissent la relation et les
 
 Lorsque vous installez Skype Entreprise Server, une collection globale de paramètres de configuration de la trunk SIP est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement).
 
-**Pour afficher les informations de configuration d’une Skype Entreprise Server SIP à l’aide du Panneau de configuration**
+**Pour afficher les informations de configuration d’une Skype Entreprise Server SIP**
 
-1. Dans le Skype Entreprise Server de configuration, cliquez sur **Routage** des voix, puis sur **Configuration de la trunk .**
-2. Sous **l’onglet Configuration** de la trunk, vous verrez une liste de toutes vos collections de paramètres de configuration de la trunk; Pour chaque collection, vous verrez des valeurs  pour les propriétés **Nom,** Étendue,  **État** et Contournement  de média, ainsi que le nombre d’utilisations **PSTN,** les règles de numéro d’appel et les règles de numéro appelé associées à la collection. Pour afficher des détails supplémentaires sur une collection de paramètres de configuration de la trunk, cliquez sur la collection d’intérêts, cliquez sur **Modifier,** puis cliquez sur **Afficher les détails.** Notez que vous ne pouvez afficher des informations détaillées que pour une collection de paramètres de configuration de trunk à la fois.
+1. Dans le Skype Entreprise Server de configuration, cliquez sur **Routage** des voix, puis sur **Configuration de la configuration de la ligne.**
+2. Sous **l’onglet Configuration** de la trunk, vous verrez une liste de toutes vos collections de paramètres de configuration de la trunk; Pour chaque collection, vous verrez des valeurs pour les propriétés **Name**, **Scope**, **State** et **Media bypass**, ainsi que le nombre d’utilisations **PSTN****, les** règles  de numéro d’appel et les règles de numéro appelé associées à la collection. Pour afficher des détails supplémentaires sur une collection de paramètres de configuration de la trunk, cliquez sur la collection d’intérêts, cliquez sur **Modifier, puis** cliquez sur **Afficher les détails**. Notez que vous ne pouvez afficher des informations détaillées que pour une collection de paramètres de configuration de trunk à la fois.
 
 ## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de configuration d’une Windows PowerShell SIP
 
-Vous pouvez afficher les paramètres de configuration de la Skype Entreprise Server SIP à l’aide de PowerShell et Get-CsTrunkConfiguration cmdlet. Cette cmdlet peut être exécuté à partir de l’Skype Entreprise Server Management Shell ou d’une session distante Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour se connecter à Skype Entreprise Server, consultez l’article de blog Lync Server Windows PowerShell « Démarrage rapide : gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell » à l’emplacement https://go.microsoft.com/fwlink/p/?linkId=255876 suivant. REMPLACEZ OU SUPPRIMEZ CE LIEN.
+Vous pouvez afficher les paramètres de configuration de la Skype Entreprise Server SIP à l’aide de PowerShell et Get-CsTrunkConfiguration cmdlet. Cette cmdlet peut être exécuté à partir de l’Skype Entreprise Server Management Shell ou d’une session distante Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour vous connecter à Skype Entreprise Server, consultez l’article de blog Lync Server Windows PowerShell « Démarrage rapide : gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell https://go.microsoft.com/fwlink/p/?linkId=255876» à l’emplacement suivant. REMPLACEZ OU SUPPRIMEZ CE LIEN.
 
 
 **Pour afficher les informations de configuration d’une trunk SIP**
@@ -74,4 +69,4 @@ Enable3pccRefer                           : False
 ForwardPAI                                : False
 EnableFastFailoverTimer                   : True
 ```
-Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [Get-CsTrunkConfiguration.](/powershell/module/skype/Get-CsTrunkConfiguration)
+Pour plus d’informations, voir la rubrique d’aide pour l';cmdlet [Get-CsTrunkConfiguration](/powershell/module/skype/Get-CsTrunkConfiguration) .

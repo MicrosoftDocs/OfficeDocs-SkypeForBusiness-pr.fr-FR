@@ -1,26 +1,21 @@
 ---
 title: Planification de la désactiver des méthodes d’authentification héritées en interne et en externe sur votre réseau
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.custom: tracyp
-ms.assetid: ''
+ms.assetid: null
 description: Cet article décrit les cmdlets qui donnent aux administrateurs davantage de contrôle sur les méthodes d’authentification utilisées à l’intérieur et à l’extérieur d’une entreprise. Les administrateurs peuvent activer ou désactiver les méthodes d’authentification en interne ou en externe sur leur réseau.
-ms.openlocfilehash: 845af6891d7da419ffd6fc5a4f663cfc2b61a01a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835062"
 ---
+
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planification de la désactiver des méthodes d’authentification héritées en interne et en externe sur votre réseau.
 
 > [!NOTE]
@@ -36,7 +31,7 @@ Commençons.
 
 ## <a name="what-would-you-be-changing"></a>Que modifieriez-vous ? 
 
-Ces cmdlets fonctionnent pour les points d’accès SIP et web Services. Bien que ces deux canaux utilisent des méthodes d’accès différentes, en exécutant la gamme de NTLM et Kerberos vers l’accès anonyme, toutes les méthodes standard utilisées par Skype Entreprise ont été prises en compte.
+Ces cmdlets fonctionnent pour les points d’accès SIP et Web Services. Bien que ces deux canaux utilisent des méthodes d’accès différentes, en exécutant la gamme de NTLM et Kerberos en accès anonyme, toutes les méthodes standard utilisées par Skype Entreprise ont été prises en compte.
 
 ## <a name="how-to-get-the-get--and-set-csauthconfig-cmdlets"></a>Comment obtenir les cmdlets Get-and-Set-CsAuthConfig
 
@@ -47,7 +42,7 @@ Ces cmdlets seront installées uniquement après la mise à jour cumulative de j
 Il est important de garder à l’esprit qu’il s’agit des topologies pris en charge impliquées dans ce scénario ! Si vous devez obtenir de l’aide sur le blocage d’une méthode, par exemple, vous devez avoir une configuration parmi les types ci-dessous. 
 
 > [!IMPORTANT]
-> Dans le tableau et  les descriptions ci-dessous, l’authentification moderne est abrégée en __MA__ et *Windows l’authentification* intégrée est abrégée en __Win__. Pour rappel, Windows’authentification intégrée est composé de deux méthodes : l’authentification NTLM et l’authentification Kerberos. Vous devez le savoir pour lire correctement le tableau !
+> Dans le tableau et les descriptions ci-dessous *,* l’authentification moderne est abrégée en __MA__ et *Windows l’authentification* intégrée est abrégée __win__. Pour rappel, Windows’authentification intégrée est composé de deux méthodes : l’authentification NTLM et l’authentification Kerberos. Vous devez le savoir pour lire correctement le tableau !
 
 
 |       |Externe  |En interne  |Paramètre  |
@@ -58,33 +53,33 @@ Il est important de garder à l’esprit qu’il s’agit des topologies pris en
 |__Type 4__   |  MA       | Win        | BlockWindowsAuthExternallyAndModernAuthInternally    |
 |__Type 5__   |  MA + Win       | Win        | BlockModernAuthInternally         |
 
-__Type 1 Description :__ Il s’agit du scénario par défaut lorsque MA est __Skype Entreprise Server.__ En d’autres termes, il s’agit du *point de départ* lorsque MA est configuré.
+__Type 1 Description :__ Il s’agit du scénario par défaut lorsque MA est __Skype Entreprise Server__. En d’autres termes, il s’agit du *point de départ* lorsque MA est configuré.
 
-__Type 2 Description :__ Cette topologie bloque *NTLM* en externe, mais permet à NTLM ou Kerberos (pour les clients qui ne supportent pas ADAL) de fonctionner *en interne.* Si vos clients ne supportent pas ADAL, ils utiliseront MA en interne.
+__Type 2 Description :__ Cette topologie bloque *NTLM en* externe, mais permet à NTLM ou Kerberos (pour les clients qui ne supportent pas ADAL) de fonctionner *en interne*. Si vos clients ne supportent pas ADAL, ils utiliseront MA en interne.
 
 __Type 3 Description :__ Cette topologie nécessite MA pour tous les utilisateurs. Tous vos clients ADAL fonctionneront dans cette topologie et les mots de passe ne seront pas utilisés si, par exemple, vous désactiverez l’utilisation des mots de passe avec l’th basée sur un certificat.
 
 __Type 4 Description :__ Cette topologie bloque NTLM *en externe et* ma en interne. Il permet à tous *les clients* d’utiliser les méthodes d’authentification héritées en *interne* (même les clients ADAL).
 
-__Type 5 Description :__ *en externe,* vos clients ADAL modernes utiliseront MA et tous les clients qui ne la prisent pas en charge utiliseront les méthodes d’authentification héritées. Toutefois, *en interne,* *tous les clients* utiliseront l’authentification héritée (y compris tous les clients ADAL).
+__Type 5 Description :__ *en externe*, vos clients ADAL modernes utiliseront MA et tous les clients qui ne la prisent pas en charge utiliseront les méthodes d’authentification héritées. Toutefois, *en interne,* *tous les clients* utiliseront l’authentification héritée (y compris tous les clients ADAL).
 
-Il est assez facile de perdre le suivi de l’objectif de protection de vos mots de passe dans les options disponibles. Gardez à l’esprit que la situation idéale est d’utiliser ma en externe (par exemple, en configurant l’th basée sur les certificats), pour éviter les attaques DOS. Si vous l’exploitez en interne pour vos clients modernes, vous prouverez également à l’avenir votre réseau concernant Skype Entreprise Server attaques DOS.
+Il est assez facile de perdre le suivi de l’objectif de protection de vos mots de passe dans les options disponibles. Gardez à l’esprit que la situation idéale est d’utiliser ma en externe (par exemple, en configurant l’th basée sur les certificats), pour éviter les attaques DOS. Si vous l’exploitez en interne pour vos clients modernes, vous prouverez également à l’avenir que votre réseau Skype Entreprise Server attaques DOS.
 
 ## <a name="why-to-use-set-csauthconfig-at-the-global-level"></a>Pourquoi utiliser Set-CsAuthConfig au niveau global ?
 
-`Set-CsAuthConfig`L’cmdlet a une incidence sur la configuration des rôles Serveur d’inscriptions et Services Web.
+L’cmdlet `Set-CsAuthConfig` a une incidence sur la configuration des rôles Serveur d’inscriptions et Services Web.
 
-Cette cmdlet est destinée à être exécuté au niveau global de votre Skype Entreprise serveur. Il *peut* être exécuté au niveau  du pool, mais ce n’est pas recommandé, car il ajoute de la complexité à votre installation. En exécutant ces commandes au niveau du pool, si tous les rôles de votre pool ne sont pas inclus (par exemple, il n’a pas de services Web), les paramètres sont uniquement définies pour le rôle Serveur d’inscriptions. Dans ce cas, les services Web s’effectuent avec les paramètres du niveau global, ce qui peut prêter à confusion (en particulier lorsque cela est effectué involontairement).
+Cette cmdlet est destinée à être exécuté au niveau global de votre Skype Entreprise serveur. Il *peut* être exécuté au niveau du pool, mais ce  n’est pas recommandé, car il ajoute de la complexité à votre installation. En exécutant ces commandes au niveau du pool, si tous les rôles de votre pool ne sont pas inclus (par exemple, il n’a pas de services Web), les paramètres sont uniquement définies pour le rôle Serveur d’inscriptions. Dans ce cas, les services Web s’effectuent avec les paramètres du niveau global, ce qui peut prêter à confusion (en particulier lorsque cela est effectué involontairement).
 
 Si un client utilise les paramètres du serveur d’inscriptions d’un pool et les paramètres des services web d’un autre pool et que les paramètres d’authentification sont dans un état incohérent, les clients yous risquent de ne pas pouvoir se connecter.
 
 En outre, s’il n’existe qu’un seul rôle pour un pool : 
-* Set- ne définira que les paramètres correspondant au rôle qui existe. Aucun avertissement spécial n’est donné, car certains paramètres n’ont *pas été définies.* 
-* Get- retourne le paramètre qui correspond au rôle qui existe, ainsi que les paramètres globaux du rôle qui n’existe pas.
+* Set- ne définira que les paramètres correspondant au rôle qui existe. Aucun avertissement spécial ne sera donné, car certains paramètres n’ont *pas été définies* . 
+* Get- retourne le paramètre qui correspond au rôle qui existe et les paramètres globaux pour le rôle qui n’existe pas.
 * Si aucun rôle n’est présent pour un pool, Set- et Get- retournent un message d’erreur.
 * Si les deux rôles sont présents pour un pool mais que les stratégies ne sont pas définies au niveau du pool, Get- retourne un message d’erreur.
 
-Il peut être plus judicieux d’effectuer une get- pour ces valeurs et d’effectuer une capture d’écran ou d’enregistrer leur état de départ avant d’apporter des modifications. Vous pouvez également envisager de conserver un journal des modifications dans une OneNote.
+Il peut être plus judicieux d’effectuer une get- pour ces valeurs et d’effectuer une capture d’écran ou d’enregistrer leur état de départ avant d’apporter des modifications. Vous pouvez également envisager de conserver un journal des modifications dans un OneNote.
 
 > [!NOTE]
 > 
@@ -98,7 +93,7 @@ Il peut être plus judicieux d’effectuer une get- pour ces valeurs et d’effe
 > Si vous utilisez le paramètre BlockWindowsAuthExternally pour bloquer NTLM en externe, sachez que cela bloque également NTLM en interne pour le canal SIP. Toutefois, les clients Skype Entreprise et Lync plus nouveaux que 2010 pourront toujours se connecter, car ils utiliseront NTLM sur HTTP pour se connecter, en interne, puis extraire un certificat pour se connecter sur SIP. Toutefois, les clients plus anciens que 2010 ne pourront pas se connecter en interne dans ce cas, et vous pouvez envisager de mettre à niveau ces applications afin que vos utilisateurs puissent reprendre les fonctionnalités sécurisées.
 
 > [!IMPORTANT] 
-> Certaines applications web Skype Entreprise ne la prise en charge de MA. Ainsi, en utilisant le scénario BlockWindowsAuthExternallyAndInternally, vous ne pourrez pas accéder à ces applications. Les applications sans prise en charge de l’Skype Entreprise web sont les suivantes : Web Scheduler, Dial-In Page, Skype Entreprise Control Panel (CSCP) et Response Group Paramètres Page. 
+> Certaines applications web Skype Entreprise ne sont pas en charge par ma. Ainsi, en utilisant le scénario BlockWindowsAuthExternallyAndInternally, vous ne pourrez pas accéder à ces applications. Les applications sans prise en charge de l’Skype Entreprise web sont les suivantes : Web Scheduler, Dial-In Page, Skype Entreprise Control Panel (CSCP) et Response Group Paramètres Page. 
 
 ## <a name="links"></a>Liens 
 - Pour plus d’informations sur PowerShell :
@@ -108,6 +103,6 @@ Il peut être plus judicieux d’effectuer une get- pour ces valeurs et d’effe
 - Pour plus d’informations sur l’utilisation des commandes ou sur la mise à jour cu nécessaire pour les installer :
     - [Briefing sur les cmdlets](https://support.microsoft.com/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
     - [Mises à jour Skype Entreprise Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015) (général)
-    - La cu des composants principaux [de juillet 2018 Skype Entreprise Server 2015](https://support.microsoft.com/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server) (6.0.9319.534)
+    - La [cu des composants principaux de juillet 2018 Skype Entreprise Server 2015](https://support.microsoft.com/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server) (6.0.9319.534)
 
 

@@ -1,24 +1,19 @@
 ---
 title: Rapport d’enregistrement de l’utilisateur Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 'Résumé : Découvrez le rapport d’enregistrement de l’utilisateur Skype Entreprise Server.'
-ms.openlocfilehash: 52927330e00ae1400aceb7db0e935ce1cb5ecff0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834192"
 ---
+
 # <a name="user-registration-report-in-skype-for-business-server"></a>Rapport d’enregistrement de l’utilisateur Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport d’enregistrement de l’utilisateur dans Skype Entreprise Server.
@@ -37,7 +32,7 @@ Vous ne pouvez accéder au rapport d’enregistrement de l’utilisateur qu’à
 
 Une fois que vous avez déployé Skype Entreprise Server une question fréquemment posée est la suivante : Comment savoir si mes utilisateurs utilisent réellement cette nouvelle technologie ? Bien qu’il soit quelque peu limité à cet égard, le rapport d’enregistrement de l’utilisateur peut vous aider à répondre à cette question. Pour déterminer si les utilisateurs utilisent Skype Entreprise Server, vous devez faire deux choses. Récupérez d’abord la valeur de la mesure Utilisateurs uniques par ouverture de session dans le rapport d’enregistrement de l’utilisateur. Cette valeur indique le nombre de personnes distinctes qui se sont connectées à Skype Entreprise Server.
   
-Par comparaison, la mesure Nombre total d’connexions indique le nombre total de fois où quelqu’un s’est connecté à Skype Entreprise Server. Par exemple, supposons que Ken Myer s’est connecté Skype Entreprise Server cinq fois en une seule journée. Dans ce cas, cinq ouvertures de session distinctes sont comptabilisées pour Ken Myer dans la mesure Nombre total d’ouvertures de session, mais une seule ouverture de session est comptabilisée dans la mesure Utilisateurs uniques par ouverture de session. De même, il n’est pas rare qu’un utilisateur ouvre une session sur plusieurs périphériques ou depuis plusieurs emplacements. Par exemple, un utilisateur peut se connecter à l’aide de son ordinateur de bureau, de son ordinateur portable et d’un téléphone IP qui se connecte automatiquement à Skype Entreprise Server. Dans cet exemple, nous avons un utilisateur unique avec trois ouvertures de session.
+En comparaison, la mesure Nombre total d’connexions indique le nombre total de fois où quelqu’un s’est connecté à Skype Entreprise Server. Par exemple, supposons que Ken Myer s’est connecté Skype Entreprise Server cinq fois en une seule journée. Dans ce cas, cinq ouvertures de session distinctes sont comptabilisées pour Ken Myer dans la mesure Nombre total d’ouvertures de session, mais une seule ouverture de session est comptabilisée dans la mesure Utilisateurs uniques par ouverture de session. De même, il n’est pas rare qu’un utilisateur ouvre une session sur plusieurs périphériques ou depuis plusieurs emplacements. Par exemple, un utilisateur peut se connecter à l’aide de son ordinateur de bureau, de son ordinateur portable et d’un téléphone IP qui se connecte automatiquement à Skype Entreprise Server. Dans cet exemple, nous avons un utilisateur unique avec trois ouvertures de session.
   
 Pour mieux expliquer la différence entre le nombre total d’ouvertures de session et les utilisateurs uniques par ouverture de session, examinez les ouvertures de session pour une période donnée dans le tableau suivant.
   
@@ -57,7 +52,7 @@ En plus de connaître le nombre d’connexions uniques, vous devez connaître le
 (Get-CsUser).Count
 ```
 
-Si la commande précédente renvoie une valeur de 1 236 et que la mesure Utilisateurs uniques par ouverture de session renvoie une valeur moyenne de 667, cela suggère qu’un peu plus de la moitié de vos utilisateurs activent la Skype Entreprise se connectent réellement au système chaque jour (autrement dit, 667 divisés par 1 236, soit environ 54 %).
+Si la commande précédente renvoie une valeur de 1 236 et que la mesure Utilisateurs uniques par ouverture de session renvoie une valeur moyenne de 667, cela suggère qu’un peu plus de la moitié de vos utilisateurs activent la Skype Entreprise se connectent réellement au système chaque jour (autrement dit, 667 divisés par 1 236, ce qui représente environ 54 %).
   
 > [!CAUTION]
 > Gardez à l’esprit que les mesures d’ouverture de session enregistrent les utilisateurs qui ont ouvert une session pendant la période spécifiée. Elles ne gardent pas trace des utilisateurs qui avaient déjà ouvert une session sur le système. Par exemple, si votre mesure Utilisateurs uniques par ouverture de session indique 667 ouvertures de session et que vous avez 1 236 utilisateurs, cela suggère qu’environ la moitié de vos utilisateurs ouvrent une session sur le système. Cependant, supposons que 300 utilisateurs avaient déjà ouvert une session sur le système au moment où vous avez commencé à regarder les données d’ouverture de session. Cela signifie que près de 1 000 utilisateurs se sont connectés à Skype Entreprise Server, ce qui signifie que près de 80 % de vos utilisateurs ont ouvert une session. 

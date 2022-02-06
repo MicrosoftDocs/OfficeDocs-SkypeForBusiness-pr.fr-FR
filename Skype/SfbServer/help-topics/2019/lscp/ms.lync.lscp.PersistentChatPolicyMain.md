@@ -1,28 +1,23 @@
 ---
 title: Stratégie de conversation permanente – Page principale
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.PersistentChatPolicyMain
+  - ms.lync.lscp.PersistentChatPolicyMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
-ROBOTS: NOINDEX, NOFOLLOW
-description: Vous pouvez utiliser la page Stratégie de conversation permanente du groupe conversation permanente pour gérer les stratégies au niveau global, pool, site ou utilisateur, y compris la configuration de la stratégie globale par défaut et la création d’une ou de plusieurs stratégies utilisateur et de site supplémentaires pour votre déploiement. Si un utilisateur est activé pour le serveur de conversation permanente par une stratégie, l’environnement de serveur de conversation permanente apparaît dans son client.
-ms.openlocfilehash: 1a270f7446c16f7df5e7d17887c5fa1be1880c8a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849247"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Vous pouvez utiliser la page Stratégie de conversation permanente du groupe conversation permanente pour gérer les stratégies au niveau global, pool, site ou utilisateur, y compris la configuration de la stratégie globale par défaut et la création d’une ou de plusieurs stratégies utilisateur et de site supplémentaires pour votre déploiement. Si un utilisateur est activé pour le serveur de conversation permanente par une stratégie, l’environnement de serveur de conversation permanente apparaît dans son client.'
 ---
+
 # <a name="persistent-chat-policy-main-page"></a>Stratégie de conversation permanente – Page principale
 
 > [!NOTE] 
-> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, [voir Skype Entreprise à Microsoft Teams mise à niveau.](/MicrosoftTeams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité pour Teams ou continuer à utiliser Skype Entreprise Server 2015.
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, [voir Skype Entreprise à Microsoft Teams mise à niveau](/MicrosoftTeams/upgrade-start-here). Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité pour Teams ou continuer à utiliser Skype Entreprise Server 2015.

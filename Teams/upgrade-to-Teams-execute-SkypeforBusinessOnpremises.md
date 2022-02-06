@@ -1,7 +1,7 @@
 ---
-title: Mise à niveau de Skype Entreprise local vers Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: "Mise à niveau de Skype\_Entreprise local vers Teams"
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -11,22 +11,17 @@ description: Découvrez comment transitionr votre organisation vers Microsoft Te
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Teams-upgrade-guidance
-- seo-marvel-apr2020
+  - Teams-upgrade-guidance
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
-- M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: b6d8c95b34345bd6ea6203abbb099c7071c9db60
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846017"
+  - Microsoft Teams
 ---
+
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Mettre à niveau à partir Skype Entreprise déploiement local vers Teams
 
 ![Étapes du parcours de mise à niveau, en mettant en avant l’étape déploiement et implémentation.](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accentuation sur l’étape déploiement et implémentation")
@@ -58,9 +53,9 @@ Une fois que vous avez terminé votre configuration hybride, vous pouvez planifi
 
 Pour plus d’informations, consultez :
 
-- [TeamsUpgradePolicy : gestion de la migration et de la coexistence.](upgrade-to-teams-on-prem-tools.md)
+- [TeamsUpgradePolicy : gestion de la migration et de la coexistence](upgrade-to-teams-on-prem-tools.md).
 
-- [Déplacer les utilisateurs du site vers Skype Entreprise Online.](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
+- [Déplacer les utilisateurs du site vers Skype Entreprise Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
 
 ## <a name="phone-system-and-teams-upgrade"></a>Système téléphonique mise à Teams niveau
 
@@ -68,4 +63,4 @@ La transition des systèmes téléphoniques locaux vers Teams vous permet de tir
 
 Si vous n’utilisez pas de forfaits d’appels, vous devez transition votre déploiement vocal d’entreprise vers Système téléphonique Routage direct dans le cadre de votre mise à niveau vers Teams.
 
-Pour plus d’informations, voir [d’autres éléments à prendre en compte pour Système téléphonique routage direct.](./direct-routing-landing-page.md) Si vous envisagez d’utiliser des forfaits d’appels, consultez nos recommandations pour le transfert de vos numéros [de téléphone vers Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+Pour plus d’informations, voir [d’autres considérations concernant Système téléphonique routage direct](./direct-routing-landing-page.md). Si vous envisagez d’utiliser des forfaits d’appels, consultez nos recommandations pour le transfert de vos numéros [de téléphone vers Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).

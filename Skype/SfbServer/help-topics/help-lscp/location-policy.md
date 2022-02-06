@@ -1,27 +1,22 @@
 ---
 title: Stratégie d’emplacement
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.NcsLocMain
+  - ms.lync.lscp.NcsLocMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: Les stratégies d’emplacement déterminent si le service E9-1-1 (Enhanced 9-1-1) doit être activé et définissent son mode d’utilisation. Elles indiquent également la façon dont les informations d’emplacement sont traitées pour les utilisateurs et les contacts.
-ms.openlocfilehash: cfdff82c16aa4a9430bf8923cddd28bf26dad85a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840296"
 ---
+
 # <a name="location-policy"></a>Stratégie d’emplacement
 
 Les stratégies d’emplacement déterminent si le service E9-1-1 (Enhanced 9-1-1) doit être activé et définissent son mode d’utilisation. Elles indiquent également la façon dont les informations d’emplacement sont traitées pour les utilisateurs et les contacts.
@@ -35,7 +30,7 @@ Les stratégies d’emplacement incluent la stratégie globale et, éventuelleme
 - **Stratégies utilisateur (facultatives) :** Vous pouvez créer une ou plusieurs stratégies d’emplacement utilisateur, chacune s’applique à un utilisateur ou à un groupe d’utilisateurs spécifique. Les stratégies utilisateur remplacent la stratégie globale et les stratégies de site.
 
 > [!NOTE]
-> Vous pouvez également affecter des stratégies d’emplacement à des sites réseau, qui sont des groupes de sous-réseaux. Les stratégies d’emplacement attribuées aux sites réseau prévalent sur toutes les autres stratégies utilisateur. Pour plus d’informations sur l’attribution de stratégies d’emplacement à des sites réseau à l’aide des cmdlets, voir Ajouter une stratégie d’emplacement à un site réseau [dans Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Pour plus d’informations sur l Skype Entreprise Server du Panneau de configuration pour affecter une stratégie d’emplacement à un site réseau, voir [Configuring Network Sites](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites).
+> Vous pouvez également affecter des stratégies d’emplacement à des sites réseau, qui sont des groupes de sous-réseaux. Les stratégies d’emplacement attribuées aux sites réseau prévalent sur toutes les autres stratégies utilisateur. Pour plus d’informations sur l’attribution de stratégies d’emplacement à des sites réseau à l’aide d’cmdlets, voir [Add a location policy to a network site in Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Pour plus d’informations sur l Skype Entreprise Server du Panneau de configuration pour affecter une stratégie d’emplacement à un site réseau, voir [Configuring Network Sites](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites).
 
 La page **Stratégie d’emplacement** affiche la liste de toutes les stratégies d’emplacement définies pour votre organisation.
 

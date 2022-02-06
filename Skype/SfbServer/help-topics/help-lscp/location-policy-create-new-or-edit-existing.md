@@ -1,27 +1,22 @@
 ---
 title: 'Stratégie d’emplacement : création d’une stratégie d’emplacement ou modification d’une stratégie existante'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.NcsLocEdit
+  - ms.lync.lscp.NcsLocEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
-description: Vous pouvez configurer des stratégies d’emplacement pour déterminer si Enhanced 9-1-1 (E9-1-1) est activé et comment il est utilisé, ainsi que la façon dont les informations d’emplacement sont utilisées pour les utilisateurs et les contacts.
-ms.openlocfilehash: da3f0d75cc5759ed7ccc8458873df942992e2f6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847787"
+description: 'Vous pouvez configurer des stratégies d’emplacement pour déterminer si Enhanced 9-1-1 (E9-1-1) est activé et comment il est utilisé, ainsi que la façon dont les informations d’emplacement sont utilisées pour les utilisateurs et les contacts.'
 ---
+
 # <a name="location-policy-create-new-or-edit-existing"></a>Stratégie d’emplacement : création d’une nouvelle ou modification d’une stratégie existante
 
 Vous pouvez configurer des stratégies d’emplacement pour déterminer si Enhanced 9-1-1 (E9-1-1) est activé et comment il est utilisé, ainsi que la façon dont les informations d’emplacement sont utilisées pour les utilisateurs et les contacts.
@@ -49,16 +44,16 @@ La liste suivante décrit les champs de la page.
 
 - **Utiliser l’emplacement pour E9-1-1 uniquement** Cochez cette case si les informations d’emplacement doivent être utilisées uniquement pour les appels d’urgence.
 
-- **Utilisation PSTN** Sélectionnez l’utilisation du réseau téléphonique commuté (PSTN) qui sera utilisée pour déterminer l’itinéraire de communications vocales qui sera utilisé pour le routage des appels d’urgence des clients qui utilisent ce profil. L’itinéraire associé à cette utilisation doit pointer sur une jonction SIP dédiée aux appels d’urgence ou à une passerelle ELIN (Emergency Location Identification Number) qui route les appels d’urgence vers le centre téléphonique de sécurité publique (Public Safety Answering Point ou PSAP) le plus proche. Les options **sont Interne,** **Local** ou **Longue distance.**
+- **Utilisation PSTN** Sélectionnez l’utilisation du réseau téléphonique commuté (PSTN) qui sera utilisée pour déterminer l’itinéraire de communications vocales qui sera utilisé pour le routage des appels d’urgence des clients qui utilisent ce profil. L’itinéraire associé à cette utilisation doit pointer sur une jonction SIP dédiée aux appels d’urgence ou à une passerelle ELIN (Emergency Location Identification Number) qui route les appels d’urgence vers le centre téléphonique de sécurité publique (Public Safety Answering Point ou PSAP) le plus proche. Les options **sont Interne**, **Local** ou **Longue distance**.
 
 - **Numéro de numéro de numérotation E9-1-1** Spécifiez le numéro composé pour joindre les services d’urgence.
 
-- **Masque de numérotation E9-1-1** Spécifiez un numéro qu’un utilisateur compose, qui est ensuite converti en numéro de numéro d’urgence. Par exemple, entrez la valeur 212 dans ce champ pour qu’un utilisateur puisse composer le 212 pour joindre les services d’urgence. Cela permet de composer d’autres numéros d’urgence tout en permettant à l’appel d’accéder aux services d’urgence (par exemple, si une personne d’un pays ou d’une région dont le numéro d’urgence est différent tente de composer le numéro de ce pays ou de cette région plutôt que le numéro du pays ou de la région où elle se trouve actuellement). Vous pouvez définir plusieurs masques d’appel d’urgence en séparant les valeurs par des points-virgules. Par exemple, 212;414. La longueur maximale de la chaîne est de 100 caractères. Chaque caractère doit être un chiffre compris entre 0 et 9.
+- **Masque de numérotation E9-1-1** Spécifiez un numéro qu’un utilisateur compose, qui est ensuite converti en numéro de numéro d’urgence. Par exemple, entrez la valeur 212 dans ce champ pour qu’un utilisateur puisse composer le 212 pour joindre les services d’urgence. Cela permet de composer d’autres numéros d’urgence tout en permettant à l’appel d’atteindre les services d’urgence (par exemple, si une personne d’un pays ou d’une région avec un numéro d’urgence différent tente de composer le numéro de ce pays ou de cette région plutôt que le numéro du pays ou de la région où elle se trouve actuellement). Vous pouvez définir plusieurs masques d’appel d’urgence en séparant les valeurs par des points-virgules. Par exemple, 212;414. La longueur maximale de la chaîne est de 100 caractères. Chaque caractère doit être un chiffre compris entre 0 et 9.
 
     > [!IMPORTANT]
-    > Assurez-vous que le masque d’appel n’est pas identique à un numéro figurant dans une plage de numéros d’appels parqués, car le routage du parcage d’appels est prioritaire sur la conversion des chaînes d’appel d’urgence. Pour voir les plages de  numéro de parcation d’appel, cliquez sur Fonctionnalités vocales dans la barre de navigation de gauche, puis cliquez sur **Parcer l’appel.**
+    > Assurez-vous que le masque d’appel n’est pas identique à un numéro figurant dans une plage de numéros d’appels parqués, car le routage du parcage d’appels est prioritaire sur la conversion des chaînes d’appel d’urgence. Pour voir les plages de numéro de parcier  d’appel, cliquez sur Fonctionnalités vocales dans la barre de navigation de gauche, puis cliquez sur **Parcer l’appel**.
 
-- **URI de notification** Spécifiez un ou plusieurs URIs SIP à notifiant lorsqu’un appel d’urgence est effectué. Par exemple, tapez l’URI SIP du bureau de sécurité de l’entreprise pour avertir le personnel de sécurité par un message instantané chaque fois qu’un appel d’urgence est effectué. Si l’emplacement de l’appelant est disponible, il est inclus dans la notification. Vous pouvez spécifier plusieurs URS SIP en tant que liste séparée par des virgules. Par exemple, « sip:security@litwareinc.com »,« sip:kmyer@litwareinc.com ». La chaîne doit comporter entre 1 et 256 caractères et commencer par le préfixe « sip: ». Vous pouvez également spécifier des listes de distribution.
+- **URI de notification** Spécifiez un ou plusieurs  URIs SIP à notifiant lorsqu’un appel d’urgence est effectué. Par exemple, tapez l’URI SIP du bureau de sécurité de l’entreprise pour avertir le personnel de sécurité par un message instantané chaque fois qu’un appel d’urgence est effectué. Si l’emplacement de l’appelant est disponible, il est inclus dans la notification. Vous pouvez spécifier plusieurs  URIs SIP en tant que liste séparée par des virgules. Par exemple, « sip:security@litwareinc.com »,« sip:kmyer@litwareinc.com ». La chaîne doit comporter entre 1 et 256 caractères et commencer par le préfixe « sip: ». Vous pouvez également spécifier des listes de distribution.
 
 - **URI de conférence** Spécifiez l’URI SIP (numéro de téléphone, dans ce cas) pour qu’un tiers soit téléconférence aux appels d’urgence. Par exemple, tapez le numéro de téléphone du service de sécurité de la société afin qu’il reçoie un appel lorsqu’un appel d’urgence est effectué. Le paramètre du **mode Conférence** détermine si le tiers peut participer ou simplement écouter l’appel. La chaîne doit comporter entre 1 et 256 caractères et commencer par le préfixe sip:.
 

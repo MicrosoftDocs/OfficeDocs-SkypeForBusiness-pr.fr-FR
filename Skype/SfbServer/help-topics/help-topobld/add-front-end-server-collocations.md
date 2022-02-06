@@ -1,27 +1,22 @@
 ---
 title: Ajouter des colocalisations du serveur frontal
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddFrontEndCollocationsPage
+  - ms.lync.tb.AddFrontEndCollocationsPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
-description: Dans le cas d’un déploiement Enterprise Edition, le service de conférence A/V est colocalisé sur le pool frontal. Vous pouvez également colocaliser le serveur de médiation sur le pool frontal, ou le déployer comme un serveur autonome. Le service de conférence A/V est toujours colocalisé si la conférence est activée.
-ms.openlocfilehash: cdce077dedaba831775364980afed8e52d9751c9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860361"
+description: 'Dans le cas d’un déploiement Enterprise Edition, le service de conférence A/V est colocalisé sur le pool frontal. Vous pouvez également colocaliser le serveur de médiation sur le pool frontal, ou le déployer comme un serveur autonome. Le service de conférence A/V est toujours colocalisé si la conférence est activée.'
 ---
+
 # <a name="add-front-end-server-collocations"></a>Ajouter des colocalisations du serveur frontal
 
 Dans le cas d’un déploiement Enterprise Edition, le service de conférence A/V est colocalisé sur le pool frontal. Vous pouvez également colocaliser le serveur de médiation sur le pool frontal, ou le déployer comme un serveur autonome. Le service de conférence A/V est toujours colocalisé si la conférence est activée.

@@ -1,30 +1,25 @@
 ---
 title: Ajouter un magasin SQL
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddSqlStorePage
+  - ms.lync.tb.AddSqlStorePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
-ROBOTS: NOINDEX, NOFOLLOW
-description: Pour définir une nouvelle SQL Store, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server (instance par défaut ou instance nommée), vous devez spécifier ce qui suit.
-ms.openlocfilehash: d738fb2efa3703686f99ada3ce1ed7a181f7b1a7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836916"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Pour définir une nouvelle SQL Store, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server (une instance par défaut ou une instance nommée), vous devez spécifier ce qui suit.'
 ---
+
 # <a name="add-sql-store"></a>Ajouter un magasin SQL
 
-Pour définir une nouvelle SQL Store, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server (instance par défaut ou instance nommée), vous devez spécifier ce qui suit.
+Pour définir une nouvelle SQL Store, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server (une instance par défaut ou une instance nommée), vous devez spécifier ce qui suit.
 
 Spécifiez le nom de domaine complet (FQDN) du SQL Server qui hébergera l’instance de base de données que vous définissez.
 

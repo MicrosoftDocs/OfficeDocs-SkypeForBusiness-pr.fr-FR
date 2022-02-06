@@ -1,27 +1,22 @@
 ---
 title: Demande de certificat (autorité de certification)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployCertRequestCA
+  - ms.lync.dep.DeployCertRequestCA
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
-ROBOTS: NOINDEX, NOFOLLOW
-description: 'Lorsque vous faites une demande de certificat auprès d’une autorité de certification en ligne (généralement à des serveurs qui se trouvent sur votre réseau interne) dans la page Choisir une autorité de certification, vous avez le choix entre deux options :'
-ms.openlocfilehash: 032e0f91050000c354e77ec853da569befa291c2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832808"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: "Lorsque vous faites une demande de certificat auprès d’une autorité de certification en ligne (généralement à des serveurs qui se trouvent sur votre réseau interne) dans la page Choisir une autorité de certification, vous avez le choix entre deux options\_:"
 ---
+
 # <a name="certificate-request-certificate-authority"></a>Demande de certificat (autorité de certification)
  
 Lorsque vous faites une demande de certificat auprès d’une autorité de certification en ligne (généralement à des serveurs qui se trouvent sur votre réseau interne) dans la page **Choisir une autorité de certification**, vous avez le choix entre deux options :

@@ -1,26 +1,21 @@
 ---
 title: 'Skype Entreprise Server : afficher des informations sur les différentes trunks SIP'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Dans Skype Entreprise Server, plusieurs branches peuvent être affectées à une seule passerelle PSTN. Les passerelles et les trunks ne sont pas identiques, et les administrateurs doivent utiliser la cmdlet Get-CsTrunk pour afficher des informations sur une trunk SIP individuelle.
-ms.openlocfilehash: 98e189def7be1a5f2f913083ba4a38d21da86856
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835242"
+description: 'Dans Skype Entreprise Server, plusieurs branches peuvent être affectées à une seule passerelle PSTN. Les passerelles et les trunks ne sont pas identiques, et les administrateurs doivent utiliser la cmdlet Get-CsTrunk pour afficher des informations sur une trunk SIP individuelle.'
 ---
+
 # <a name="skype-for-business-server---view-information-about-individual-sip-trunks"></a>Skype Entreprise Server : afficher des informations sur les différentes trunks SIP
 
-Dans Skype Entreprise Server, plusieurs trunks peuvent être affectés à une seule passerelle PSTN ; Cela signifie que les passerelles et les trunks ne sont pas identiques et que les administrateurs doivent utiliser l';cmdlet [Get-CsTrunk](/powershell/module/skype/Get-CsTrunk) pour afficher des informations sur une trunk SIP individuelle.
+Dans Skype Entreprise Server, plusieurs trunks peuvent être affectés à une seule passerelle PSTN ; cela signifie que les passerelles et les trunks ne sont pas identiques et que les administrateurs doivent utiliser l';cmdlet [Get-CsTrunk](/powershell/module/skype/Get-CsTrunk) pour afficher des informations sur une seule et même passerelle SIP.
 
 La cmdlet Get-CsTrunk peut être exécuté à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell.
 
@@ -32,7 +27,7 @@ La commande suivante retourne des informations sur toutes les trunks SIP en cour
 
 **Pour afficher les informations d’une trunk SIP spécifique**
 
-Cette commande retourne des informations uniquement pour la trunk SIP dont l’identité est PstnGateway:192.168.0.240 :
+Cette commande retourne des informations uniquement pour la ligne SIP dont l’identité est PstnGateway:192.168.0.240 :
 
 `Get-CsTrunk -Identity "PstnGateway:192.168.0.240"`
 

@@ -1,27 +1,22 @@
 ---
 title: Les utilisateurs visualisent ou configurent la stratégie d’archivage
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.UserViewArch
+  - ms.lync.lscp.UserViewArch
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
-description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 7aef5ab88493de0001f10ea2a227727cdbe38b40
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857711"
+description: "Que voulez-vous faire\_? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer."
 ---
+
 # <a name="users-view-or-configure-archiving-policy"></a>Utilisateurs : afficher ou configurer la stratégie d’archivage
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.

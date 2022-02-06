@@ -1,27 +1,22 @@
 ---
 title: Nœud d’étendue des serveurs de médiation
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.MediationServersScopeNode
+  - ms.lync.tb.MediationServersScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
-ROBOTS: NOINDEX, NOFOLLOW
-description: 'Le nœud Pools de médiation répertorie les pools de médiation de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 13b69e749d12501c12f4babb9f81255af5c1955f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844687"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: "Le nœud Pools de médiation répertorie les pools de médiation de votre topologie. Vous pouvez effectuer l’action suivante\_:"
 ---
+
 # <a name="mediation-servers-scope-node"></a>Nœud d’étendue des serveurs de médiation
  
 Le nœud **Pools de médiation** répertorie les pools de médiation de votre topologie. Vous pouvez effectuer l’action suivante :

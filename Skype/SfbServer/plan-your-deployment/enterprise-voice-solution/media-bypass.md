@@ -1,28 +1,23 @@
 ---
 title: Planifier le contournement de média dans Skype Entreprise
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Décisions nécessaires à la planification du contournement de média dans Skype Entreprise Server Voix Entreprise. Inclut l’interopérabilité avec le contrôle d’admission des appels (CAC).
-ms.openlocfilehash: 37bd24ba10ae506749a305f3fd5dfa55ca067fdc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827477"
 ---
+
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planifier le contournement de média dans Skype Entreprise
 
 Décisions nécessaires à la planification du contournement de média dans Skype Entreprise Server Voix Entreprise. Inclut l’interopérabilité avec le contrôle d’admission des appels (CAC).
@@ -70,7 +65,7 @@ Seuls les clients et périphériques Lync 2010 ou plus nouveaux supportent les i
 > [!IMPORTANT]
 > En plus d’autoriser le contournement de média global, vous devez autoriser le contournement de média individuellement sur chaque jonction RTC. Si le contournement est autorisé globalement mais ne l’est pas pour une jonction RTC donnée, le contournement de média ne sera invoqué pour aucun appel impliquant cette jonction RTC. En outre, lorsque le contournement de média est défini sur **Utiliser les informations de site et de région**, vous devez associer tous les sous-réseaux routables aux sites sur lesquels ils se situent. Si un site compte des sous-réseaux routables pour lesquels le contournement n’est pas souhaité, ces sous-réseaux devront être regroupés dans un nouveau site avant d’autoriser le contournement de média. Vous êtes ainsi assuré que les sous-réseaux non routables recevront un ID de contournement distinct.
 
-## <a name="media-bypass-modes"></a>Modes de déviation du média
+## <a name="media-bypass-modes"></a>Modes de contournement de média
 
 Vous devez configurer le contournement de média à la fois au niveau global et au niveau de chaque jonction PSTN. Lorsque vous activez le contournement de média au niveau global, vous avez le choix entre deux options : **Toujours ignorer** et **Utiliser la configuration des sites et des régions**.
 
@@ -90,9 +85,9 @@ L’option **Utiliser la configuration des sites et des régions** associe l’I
 
 Le contournement de média et le contrôle d’admission des appels (CAC) fonctionnent ensemble pour gérer le contrôle de bande passante pour les médias d’appel. La déviation du trafic multimédia facilite le flux multimédia sur les liaisons bien connectées . Le contrôle d’acc s gère le trafic sur les liaisons avec des contraintes de bande passante. Étant donné que le contournement de média et le service Cac s’excluent mutuellement, vous devez en tenir compte lors de la planification de l’autre. Les combinaisons suivantes sont pris en charge :
 
-- Le cac et le contournement de média sont tous deux activés. La déviation du média doit être définie pour **utiliser les informations de site et de région.** Ces informations de site et de région sont identiques à celles utilisées pour le cac.
+- Le cac et le contournement de média sont tous deux activés. La déviation du média doit être définie pour **utiliser les informations de site et de région**. Ces informations de site et de région sont identiques à celles utilisées pour le cac.
 
-    Si vous activez le service Cac, vous ne pouvez pas sélectionner **Always Bypass** et vice-versa, car les deux configurations s’excluent mutuellement. Autrement dit, une seule des deux s’applique à un appel PSTN donné. Tout d’abord, une vérification est réalisée pour déterminer si la déviation du média s’applique à l’appel. Si c’est le cas, le cac n’est pas utilisé. Cela est logique, car si un appel est éligible pour le contournement, il s’agit par définition d’utiliser une connexion où le cac n’est pas nécessaire. Si le contournement ne peut pas être appliqué à l’appel (c’est-à-dire, si les ID de contournement du client et de la passerelle ne correspondent pas), le service Cac est appliqué à l’appel.
+    Si vous activez le service Cac, vous ne pouvez pas sélectionner **Always Bypass**, et vice versa, car les deux configurations s’excluent mutuellement. Autrement dit, une seule des deux s’applique à un appel PSTN donné. Tout d’abord, une vérification est réalisée pour déterminer si la déviation du média s’applique à l’appel. Si c’est le cas, le cac n’est pas utilisé. Cela est logique, car si un appel est éligible pour le contournement, il s’agit par définition d’utiliser une connexion où le cac n’est pas nécessaire. Si le contournement ne peut pas être appliqué à l’appel (c’est-à-dire, si les ID de contournement du client et de la passerelle ne correspondent pas), le service Cac est appliqué à l’appel.
 
 - Cac not enabled and Media Bypass set to **Always Bypass**.
 

@@ -1,29 +1,24 @@
 ---
 title: Préparer un schéma (introduction)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeploySchemaPrepIntro
+  - ms.lync.dep.DeploySchemaPrepIntro
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
-ROBOTS: NOINDEX, NOFOLLOW
-description: Pour commencer la tâche d’extension du schéma pour Skype Entreprise Server, vous commencez par la page Préparer le schéma. Cliquez ensuite sur Suivant pour continuer la préparation du schéma.
-ms.openlocfilehash: 29822dbaf1ef7eb5cae412db6aaaa711b573af7b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843397"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Pour commencer la tâche d’extension du schéma pour Skype Entreprise Server, vous commencez par la page Préparer le schéma. Cliquez ensuite sur Suivant pour continuer la préparation du schéma.'
 ---
+
 # <a name="prepare-schema-intro"></a>Préparer un schéma (introduction)
  
-Pour commencer la tâche d’extension du schéma pour Skype Entreprise Server, vous commencez par la page Préparer **le schéma.** Cliquez ensuite sur **Suivant** pour continuer la préparation du schéma.
+Pour commencer la tâche d’extension du schéma pour Skype Entreprise Server, vous commencez par la page Préparer **le schéma**. Cliquez ensuite sur **Suivant** pour continuer la préparation du schéma.
   
 

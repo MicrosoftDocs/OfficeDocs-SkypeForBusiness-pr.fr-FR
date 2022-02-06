@@ -1,7 +1,7 @@
 ---
-title: Créer vos premières équipes dans Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: "Créer vos premières équipes dans Microsoft\_Teams"
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,24 +10,19 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment piloter l’adoption Teams en gérant votre déploiement Microsoft 365 ou Office 365 avec Teams, notamment comment épingler des ressources clés en tant qu’onglets dans les canaux appropriés.
+description: 'Découvrez comment piloter l’adoption Teams en gérant votre déploiement Microsoft 365 ou Office 365 avec Teams, notamment comment épingler des ressources clés en tant qu’onglets dans les canaux appropriés.'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Adopt
-- seo-marvel-apr2020
+  - Adopt
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_Adopt
-- M365-collaboration
+  - Teams_ITAdmin_Adopt
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 332c106ca8f3ea881bbef95805c1228a6687cc65
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832978"
+  - Microsoft Teams
 ---
+
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Créer vos premières équipes dans Microsoft Teams
 
 La meilleure façon de conduire l’adoption Teams’utilisation du produit. Nous vous recommandons de gérer votre déploiement Microsoft 365 déploiement Office 365'équipe Teams. Vous devez également créer une communauté d’employés axées sur le travail d’équipe et la productivité. (Ces équipes initiales peuvent changer au fil du temps.) Voici quelques équipes suggérées :
@@ -35,10 +30,10 @@ La meilleure façon de conduire l’adoption Teams’utilisation du produit. Nou
 | Nom de l’équipe | Noms de canal proposés |
 | --------- | ---------------------- |
 | Se faire connaître Teams | Général</br> Présentez-vous</br> Comment puis-je ?</br>Commentaires </br> Idées pour les équipes à venir </br> Support |
-| Microsoft Teams Implémentation | Général <br/> Sensibilisation et adoption <br/> Engagement d’entreprise <br/> Programme des utilisateurs précoces <br/> Commentaires et commentaires Informations <br/> Sécurité et conformité <br/> Stratégie et planification <br/> État du service et incidents <br/> Formation <br/> Watercooler Chat |
+| Microsoft Teams implémentation | Général <br/> Sensibilisation et adoption <br/> Engagement d’entreprise <br/> Programme des utilisateurs précoces <br/> Commentaires et commentaires Informations <br/> Sécurité et conformité <br/> Stratégie et planification <br/> État du service et incidents <br/> Formation <br/> Watercooler Chat |
 | Champions du travail d’équipe | Général <br/> Meilleures pratiques, formation et méthodes <br/> Champion Corner <br/> Commentaires et support <br/> Prospects de programme <br/> Social Hub |
 
-Dans Microsoft Teams, la [](/microsoftteams/platform/concepts/tabs/tabs-overview) galerie d’onglets vous permet d’accéder à toutes les Microsoft 365 ou Office 365 et applications tierces qui ont été désactivées par l’administrateur. Pour obtenir le meilleur de votre produit, nous vous suggérons d’épingler des ressources clés sous forme d’onglets dans chacun des canaux appropriés. Consultez l’exemple ci-dessous.
+Dans Microsoft Teams, la galerie d’onglets vous permet d’accéder à toutes les Microsoft 365 ou Office 365 et applications tierces qui ont été désactivées par l’administrateur.[](/microsoftteams/platform/concepts/tabs/tabs-overview) Pour obtenir le meilleur de votre produit, nous vous suggérons d’épingler des ressources clés sous forme d’onglets dans chacun des canaux appropriés. Consultez l’exemple ci-dessous.
 
 ![Capture d’écran montrant les onglets par défaut et personnalisés.](media/teams-adoption-tab-example.png)
 
@@ -46,7 +41,7 @@ Dans vos équipes initiales, nous vous suggérons d’épingler les éléments s
 
 |Nom de l’équipe/du canal | Onglet épinglé |
 |----------------- | ---------- |
-| **Microsoft Teams Déploiement** ||
+| **Microsoft Teams déploiement** ||
 | Général | Onglet Web : [Teams documents](./index.yml) |
 | Sensibilisation et adoption | [Teams Hub d’adoption](https://aka.ms/DriveTeamsAdoption)<br/>[Kit de réussite des clients de Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)|
 | Engagement commercial | Wiki - Conseils d’engagement<br/>Formulaire : demande de consultation Teams réunion<br/>Liste – Demandes d’engagement |

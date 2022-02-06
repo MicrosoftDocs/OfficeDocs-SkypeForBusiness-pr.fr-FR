@@ -1,28 +1,23 @@
 ---
 title: Affecter l’étendue de la stratégie d’emplacement dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
 description: Planification des stratégies d’emplacement pour un déploiement E9-1-1 dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 7748d6ecf58769a2d9bee71aa61ccf871dc667c1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855311"
 ---
+
 # <a name="assign-location-policy-scope-in-skype-for-business-server"></a>Affecter l’étendue de la stratégie d’emplacement dans Skype Entreprise Server
  
 Planification des stratégies d’emplacement pour un déploiement E9-1-1 dans Skype Entreprise Server Voix Entreprise.

@@ -1,7 +1,7 @@
 ---
-title: Phase 3 de l’adoption de Microsoft Teams - Mettre à l’échelle
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: "Phase\_3 de l’adoption de Microsoft\_Teams - Mettre à l’échelle"
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -12,22 +12,17 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Consultez une vue d’ensemble des étapes nécessaires pour prendre en charge l’enablement à grande Teams pour votre organisation.
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Adopt
-- seo-marvel-apr2020
+  - Adopt
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_Adopt
-- M365-collaboration
+  - Teams_ITAdmin_Adopt
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 51d69c0f96248c74f285fbc99ac4a66182de88cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833970"
+  - Microsoft Teams
 ---
+
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Phase 3 de l’adoption de Microsoft Teams - Mettre à l’échelle
 
 Dans cette phase, vous allez utiliser vos apprentissages, équipe de projet talentueux et les relations avec les parties prenantes, les champions et les premiers utilisateurs pour prendre en charge l’enablement à grande échelle des Teams pour votre organisation. Vous effectuerez les étapes suivantes lorsque vous vous préparerez à l’engagement continu de l’entreprise en matière d’utilisation de l’Microsoft Teams par vos Microsoft Teams :

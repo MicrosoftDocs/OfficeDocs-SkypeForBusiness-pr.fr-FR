@@ -1,32 +1,27 @@
 ---
 title: Nœud d’étendue d’une instance SQL
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SqlInstanceScopeNode
+  - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
-ROBOTS: NOINDEX, NOFOLLOW
-description: 'Ce nœud affiche le nom de domaine complet (FQDN) de cette Microsoft SQL Server et l’instance de SQL Server sur ce serveur, ainsi que les pools ou serveurs qui utilisent cette SQL Server. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 4aa3b1b69cac7d61d1faa706e7a9a1fbe6565087
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858451"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: "Ce nœud affiche le nom de domaine complet (FQDN) de cette Microsoft SQL Server et l’instance de SQL Server sur ce serveur, ainsi que les pools ou serveurs qui utilisent cette SQL Server. Vous pouvez effectuer les actions suivantes\_:"
 ---
+
 # <a name="sql-instance-scope-node"></a>Nœud d’étendue d’une instance SQL
  
 Ce nœud affiche le nom de domaine complet (FQDN) de cette Microsoft SQL Server et l’instance de SQL Server sur ce serveur, ainsi que les pools ou serveurs qui utilisent cette SQL Server. Vous pouvez effectuer les actions suivantes :
   
-- **Modifier les propriétés** Ouvre la **page** Modifier les propriétés de ce serveur, dans laquelle vous pouvez modifier le nom de groupe du serveur (si la topologie n’est pas encore publiée) et l’instance de SQL Server à utiliser.
+- **Modifier les propriétés** Ouvre **la page Modifier** les propriétés de ce serveur, dans laquelle vous pouvez modifier le nom de groupe du serveur (si la topologie n’est pas encore publiée) et l’instance de SQL Server à utiliser.
     
 - **Supprimer**. Supprime le serveur de la topologie.
     

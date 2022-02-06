@@ -1,32 +1,27 @@
 ---
 title: Nœud d’étendue d’Office Communications Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.OfficeCommunicationsServerScopeNode
+  - ms.lync.tb.OfficeCommunicationsServerScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
-ms.openlocfilehash: cc5132878e9e4dc6f73b13aea3fcca6e53b44d47
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865121"
 ---
+
 # <a name="office-communications-server-scope-node"></a>Nœud d’étendue d’Office Communications Server
 
 Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
 
-Cliquez sur **Office Communications Server 2007 R2** pour développer les sections sous le nœud, ou cliquez avec le bouton droit pour accéder aux **options** de topologie ou pour accéder à cette **page** d’aide.
+Cliquez sur **Office Communications Server 2007 R2** pour développer les sections sous le nœud, ou cliquez avec le bouton droit pour accéder **aux options de** topologie ou pour accéder à **cette page** d’aide.
 
 ## <a name="see-also"></a>Voir aussi
 

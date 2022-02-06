@@ -1,31 +1,26 @@
 ---
 title: Gérer le mappage de touches pour les commandes DTMF dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 'Résumé : Découvrez comment gérer le mappage de touches des commandes DTMF (dual-tone multi-frequency) dans Skype Entreprise Server.'
-ms.openlocfilehash: f4b380bddb9a0bc244887c44c85f02157f75b0e6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837636"
 ---
+
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Gérer le mappage de touches pour les commandes DTMF dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment gérer le mappage de touches des commandes DTMF (dual-tone multi-frequency) dans Skype Entreprise Server.
   
 Les utilisateurs de conférences rendez-vous peuvent appuyer sur les touches du clavier téléphonique pour exécuter des commandes de numérotation en fréquences vocales (DTMF). Les commandes DTMF permettent aux utilisateurs qui prennent part à une conférence de contrôler les paramètres de conférence (tels que l’activation et la désactivation de leur microphone ou le verrouillage et le déverrouillage de la conférence) à l’aide du clavier de leur téléphone. 
   
-Pour gérer les clés utilisées pour les commandes DTMF, utilisez l’Skype Entreprise Server Management Shell avec les cmdlets **Get-CsDialinConferencingDtmfConfiguration,** **Set-CsDialinConferencingDtmfConfiguration** et **New-CsDialinConferencingDtmfConfiguration.**
+Pour gérer les clés utilisées pour les commandes DTMF, utilisez l’Skype Entreprise Server Management Shell avec les cmdlets **Get-CsDialinConferencingDtmfConfiguration**, **Set-CsDialinConferencingDtmfConfiguration** et **New-CsDialinConferencingDtmfConfiguration**.
   
 Lorsque vous créez des paramètres DTMF pour des sites, les paramètres de site sont prioritaires sur les paramètres globaux. 
 
@@ -33,7 +28,7 @@ Lorsque vous créez des paramètres DTMF pour des sites, les paramètres de site
 
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou membre du rôle Cs-ServerAdministratorr ou CsAdministrator.
     
-2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
     
 3. Pour afficher les paramètres DTMF utilisés pour les conférences téléphoniques, exécutez la commande suivante à l’invite de commandes :
     
@@ -59,4 +54,4 @@ L’exemple suivant permute la touche qui est activée pour activer ou désactiv
 Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
 ```
 
-Pour plus d’informations, voir [Get-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps), [Set-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)et [New-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps).
+Pour plus d’informations, voir [Get-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps), [Set-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps) et [New-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps).

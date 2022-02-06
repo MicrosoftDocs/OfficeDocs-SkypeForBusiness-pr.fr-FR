@@ -1,24 +1,19 @@
 ---
 title: Rapport de diagnostic des activités D’égal à égal dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: 'Résumé : Découvrez le rapport de diagnostic des activités D’égal à égal dans Skype Entreprise Server.'
-ms.openlocfilehash: c0c568a75cddb8ea9f8165a196ee8cef1e03eaab
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858231"
 ---
+
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Rapport de diagnostic des activités D’égal à égal dans Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport de diagnostic des activités D’égal à égal dans Skype Entreprise Server.

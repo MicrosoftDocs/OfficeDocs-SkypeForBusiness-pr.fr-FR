@@ -1,27 +1,22 @@
 ---
 title: Modifier la stratégie de mobilité client
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientMobilityPolicyEdit
+  - ms.lync.lscp.ClientMobilityPolicyEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
-ROBOTS: NOINDEX, NOFOLLOW
-description: Dans la boîte de dialogue Modifier la stratégie de mobilité, vous pouvez modifier les détails d’une stratégie de mobilité.
-ms.openlocfilehash: a7c3944684f3894cce599e87edb0f4750683e8fa
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861681"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Dans la boîte de dialogue Modifier la stratégie de mobilité, vous pouvez modifier les détails d’une stratégie de mobilité.'
 ---
+
 # <a name="edit-client-mobility-policy"></a>Modifier la stratégie de mobilité client
 
 Dans la boîte de dialogue **Modifier la stratégie de mobilité**, vous pouvez modifier les détails d’une stratégie de mobilité.

@@ -1,27 +1,22 @@
 ---
 title: Test - Nœud d’étendue de site Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SiteScopeNode
+  - ms.lync.tb.SiteScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
-ROBOTS: NOINDEX, NOFOLLOW
-description: 'Ce nœud montre l’un des sites définis sur votre topologie. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 687797e0c994bbdc721d46ef375a70c6d14ee287
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853388"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: "Ce nœud montre l’un des sites définis sur votre topologie. Vous pouvez effectuer les actions suivantes\_:"
 ---
+
 # <a name="test---skype-for-business-server-site-scope-node"></a>Test - Nœud d’étendue de site Skype Entreprise Server
  
 Ce nœud montre l’un des sites définis sur votre topologie. Vous pouvez effectuer les actions suivantes : 

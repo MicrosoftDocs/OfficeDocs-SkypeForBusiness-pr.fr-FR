@@ -1,25 +1,20 @@
 ---
 title: Affichage multimédia
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
-description: La vue Media stocke des informations sur un type de média utilisé au cours d’une session d’égal à égal. Une session est représentée par plusieurs enregistrements dans la table, si plusieurs types de médias sont utilisés. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 2ed8d66bf55594e3524a43b35df3bfa6d859055a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828557"
+description: 'La vue Media stocke des informations sur un type de média utilisé au cours d’une session d’égal à égal. Une session est représentée par plusieurs enregistrements dans la table, si plusieurs types de médias sont utilisés. Cette vue a été introduite dans Microsoft Lync Server 2013.'
 ---
+
 # <a name="media-view"></a>Affichage multimédia
  
 La vue Media stocke des informations sur un type de média utilisé au cours d’une session d’égal à égal. Une session est représentée par plusieurs enregistrements dans la table, si plusieurs types de médias sont utilisés. Cette vue a été introduite dans Microsoft Lync Server 2013.
@@ -31,7 +26,7 @@ L’affichage Multimédia contient toutes les colonnes de l’affichage [Session
   
 |**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
-|**Media** <br/> |nvarchar(256)  <br/> |Type de média. Pour plus [d’informations, voir le tableau MediaList.](medialist.md) <br/> |
+|**Media** <br/> |nvarchar(256)  <br/> |Type de média. Pour plus [d’informations, voir le tableau MediaList](medialist.md) . <br/> |
 |**MediaStartTime** <br/> |DateHeure  <br/> |Heure d’envoi d’une demande multimédia.  <br/> |
 |**MediaEndTime** <br/> |DateHeure  <br/> |Heure de fin de la session.  <br/> |
    

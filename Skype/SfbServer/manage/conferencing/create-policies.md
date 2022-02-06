@@ -1,24 +1,19 @@
 ---
 title: Créer des stratégies de conférence dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Résumé : Découvrez comment créer des stratégies de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: 56404f98389dbe2fca6a6022e7d6f175bcca030c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828827"
 ---
+
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Créer des stratégies de conférence dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment créer des stratégies de conférence dans Skype Entreprise Server.
@@ -31,7 +26,7 @@ Vous pouvez créer des stratégies de conférence à l’Skype Entreprise Server
     
 2. Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Stratégie **de conférence.**
+3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur Stratégie **de conférence**.
     
 4. Cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes :
     
@@ -70,7 +65,7 @@ Vous pouvez créer des stratégies de conférence à l’Skype Entreprise Server
     
     - Si vous autorisez les utilisateurs à accéder aux réunions à distance et que vous souhaitez autoriser les utilisateurs non authentifiés (anonymes) à rejoindre une réunion via un appel téléphonique sortant, activez la case à cocher **Autoriser l’accès sortant des participants anonymes**. Avec l’appel téléphonique sortant, le serveur de conférence appelle l’utilisateur et celui-ci répond au téléphone pour rejoindre la réunion. Par défaut, les utilisateurs anonymes ne peuvent pas rejoindre une réunion via un appel téléphonique sortant.
     
-12. Si vous avez choisi d’autoriser l’utilisation de la vidéo dans **l’audio/vidéo,** cochez **Autoriser plusieurs flux vidéo.**
+12. Si vous avez choisi d’autoriser l’utilisation de la vidéo dans **l’audio/vidéo**, cochez **Autoriser plusieurs flux vidéo**.
     
 13. Dans **Collaboration de données**, effectuez l’une des opérations suivantes :
     
@@ -84,7 +79,7 @@ Vous pouvez créer des stratégies de conférence à l’Skype Entreprise Server
     
     - Pour interdire les transferts de fichiers, désactivez la case à cocher **Autoriser les participants à transférer des fichiers**. Par défaut, les utilisateurs peuvent transférer des fichiers.
     
-    - Pour interdire l’utilisation des annotations, désactivez la case à cocher **Activer les annotations**. Pour utiliser des annotations dans des présentations PowerPoint partagées, clear the **Enable PowerPoint annotations**. Par défaut, les annotations sont autorisées.
+    - Pour interdire l’utilisation des annotations, désactivez la case à cocher **Activer les annotations**. Pour utiliser des annotations dans des présentations PowerPoint partagées, PowerPoint **annotations**. Par défaut, les annotations sont autorisées.
     
     - Pour interdire l’utilisation des sondages, désactivez la case à cocher **Activer les sondages**. Par défaut, les sondages sont autorisés.
     
@@ -118,7 +113,7 @@ Vous pouvez créer des stratégies de conférence à l’Skype Entreprise Server
     
 ## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Créer des stratégies de conférence à l’aide Skype Entreprise Server Management Shell
 
-Pour créer des stratégies de conférence, utilisez l’cmdlet **New-CsConferencingPolicy.**
+Pour créer des stratégies de conférence, utilisez l’cmdlet **New-CsConferencingPolicy** .
   
 L’exemple suivant crée une stratégie de conférence avec l’identité SalesConferencingPolicy. Cette stratégie utilise toutes les valeurs par défaut pour une stratégie de conférence à l’exception d’une seule : MaxMeetingSize. Dans cet exemple, la taille maximale d’une réunion sera définie sur 50 au lieu de la valeur par défaut de 250 :
   
@@ -126,4 +121,4 @@ L’exemple suivant crée une stratégie de conférence avec l’identité Sales
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-Pour plus d’informations, y compris une description complète de la syntaxe et la liste des paramètres, voir [New-CsConferencingPolicy](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
+Pour plus d’informations, notamment une description complète de la syntaxe et la liste des paramètres, voir [New-CsConferencingPolicy](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).

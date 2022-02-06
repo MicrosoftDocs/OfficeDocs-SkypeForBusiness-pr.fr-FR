@@ -1,36 +1,31 @@
 ---
 title: Disponibilité aux Bahamas
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
+ms.reviewer: 'mikedav, jastark, oscarr, v-sukade, rcole, fafan'
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
-- Microsoft Teams
+  - Skype for Business
+  - Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les Bahamas.
-ms.openlocfilehash: d1a5a54b15da9b2adaf6d138c2c168bbde1375d8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827377"
 ---
+
 # <a name="availability-in-the-bahamas"></a>Disponibilité aux Bahamas
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
@@ -62,7 +57,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
 
-Si les forfaits d’appels ne sont pas disponibles à l’achat, envisagez d’utiliser [le routage direct.](../direct-routing-landing-page.md) Le routage direct vous permet d’utiliser le système téléphonique avec presque tous les opérateurs.
+Si les forfaits d’appels ne sont pas disponibles à l’achat, envisagez d’utiliser [le routage direct](../direct-routing-landing-page.md). Le routage direct vous permet d’utiliser le système téléphonique avec presque tous les opérateurs.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 

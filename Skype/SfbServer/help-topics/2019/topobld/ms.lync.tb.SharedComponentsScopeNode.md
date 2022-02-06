@@ -1,30 +1,25 @@
 ---
 title: Nœud d’étendue des composants partagés
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SharedComponentsScopeNode
+  - ms.lync.tb.SharedComponentsScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
-ROBOTS: NOINDEX, NOFOLLOW
-description: Cliquez avec le bouton droit sur Composants partagés dans l’arborescence de la hiérarchie du Générateur de topologie pour créer des composants partagés ou accéder aux options de niveau topologie.
-ms.openlocfilehash: a586191e15ce92c12ca1f6e8d6e1127ca4a0a0b4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829238"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: Cliquez avec le bouton droit sur Composants partagés dans l’arborescence de la hiérarchie du Générateur de topologies pour créer des composants partagés ou accéder aux options de niveau topologie.
 ---
+
 # <a name="shared-components-scope-node"></a>Nœud d’étendue des composants partagés
  
-Cliquez avec le bouton droit sur **Composants partagés** dans l’arborescence de la hiérarchie du Générateur de topologie pour créer des composants partagés ou accéder aux options de niveau topologie.
+Cliquez avec le bouton droit sur **Composants partagés** dans l’arborescence de la hiérarchie du Générateur de topologies pour créer des composants partagés ou accéder aux options de niveau topologie.
   
 ![Nœud d’étendue des composants partagés.](../../../media/Shared_Components_Scope_Node.jpg)
   

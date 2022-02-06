@@ -1,25 +1,20 @@
 ---
 title: Exclusions d’analyse antivirus pour Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Vue d’ensemble de l’interopérabilité du scanneur antivirus Skype Entreprise Server.
-ms.openlocfilehash: 8a4ffae692704755753fbdaa2c84207af796d75d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858991"
 ---
+
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Exclusions d’analyse antivirus pour Skype Entreprise Server
 
 Vue d’ensemble de l’interopérabilité du scanneur antivirus Skype Entreprise Server.
@@ -30,7 +25,7 @@ Pour vous assurer que le scanneur antivirus n’interfère pas avec le fonctionn
 > Les emplacements de dossiers et de fichiers répertoriés ci-dessous sont les emplacements par défaut pour Skype Entreprise Server. Pour tout emplacement pour lequel vous n’avez pas utilisé le paramètre par défaut, excluez les emplacements spécifiés pour votre organisation au lieu des emplacements par défaut mentionnés dans cette rubrique.
 
 > [!IMPORTANT]
-> Notez que certains programmes antivirus peuvent avoir besoin de chemins absolus, et non relatifs, pour leur liste d’exclusions.
+> Notez que certains programmes antivirus peuvent avoir besoin de chemins d’accès absolus, et non relatifs, pour leur liste d’exclusions.
 
 - Skype Entreprise Server processus de gestion :
 
@@ -82,7 +77,7 @@ Pour vous assurer que le scanneur antivirus n’interfère pas avec le fonctionn
 
   - XmppTGW.exe
 
-- Windows Fabric Processus du service hôte :
+- Windows Fabric de service hôte :
 
   - Fabric.exe
 
@@ -113,7 +108,7 @@ Pour vous assurer que le scanneur antivirus n’interfère pas avec le fonctionn
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTCLOCAL\MSSQL\Binn\SQLServr.exe
 
-  - Édition Standard Installation RTC Instance
+  - Édition Standard d’installation RTC d’installation
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTC\MSSQL\Binn\SQLServr.exe
 

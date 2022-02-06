@@ -1,25 +1,20 @@
 ---
 title: Exécuter la requête
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 'Résumé : Découvrez l’opération Exécuter une requête, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 00060baabff5bdcc4e930f56f7885de273060597
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849807"
 ---
+
 # <a name="run-query"></a>Exécuter la requête
 
 **Résumé :** Découvrez l’opération Exécuter une requête, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
@@ -33,7 +28,7 @@ L’opération Exécuter une requête permet d’exécuter une requête sur le c
 
 |**Méthode**|**URI de demande**|**HTTP Version**|
 |:-----|:-----|:-----|
-|POST  <br/> |https:// \<portal\> /QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
+|POST  <br/> |\<portal\>https:///QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
 
  **Paramètres d’URI** - Aucun.
 
@@ -78,7 +73,7 @@ L’opération Exécuter une requête permet d’exécuter une requête sur le c
 
  *Dimensions*  : liste des dimensions qui seront utilisées pour l’agrégation des données. Au moins une dimension est requise, mais plusieurs dimensions peuvent être spécifiées pour obtenir un niveau supplémentaire de sous-agrégations.
 
- Mesures : liste de mesures, également appelées faits, qui sont les mesures *souhaitées* à agréger en fonction des dimensions que vous avez spécifiées.
+ *Mesures :*  liste de mesures, également appelées faits, qui sont les mesures souhaitées à agréger en fonction des dimensions que vous avez spécifiées.
 
  *Tendance*  : instructions de contrôle supplémentaires pour personnaliser les données des résultats.
 

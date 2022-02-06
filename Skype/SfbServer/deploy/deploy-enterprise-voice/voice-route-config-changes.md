@@ -1,31 +1,26 @@
 ---
 title: Publier les modifications en attente de la configuration du routage des Skype Entreprise
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: 'Résumé : Découvrez comment examiner, publier ou annuler les modifications apportées à la configuration du routage des Skype Entreprise Server à l’aide du Skype Entreprise Server de configuration.'
-ms.openlocfilehash: e0ffa60557623eb217f7f43a61cad7b2e0923c77
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856281"
 ---
+
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>Publier les modifications en attente de la configuration du routage des Skype Entreprise
  
-**Résumé :** Découvrez comment examiner, publier ou annuler les modifications apportées à la configuration du routage des Skype Entreprise Server à l’aide du Panneau Skype Entreprise Server de configuration.
+**Résumé :** Découvrez comment examiner, publier ou annuler les modifications de configuration du routage des Skype Entreprise Server à l’aide du Skype Entreprise Server de configuration.
   
 Après avoir modifié les paramètres de configuration dans les pages du groupe **Routage des communications vocales**, effectuez cette procédure pour passer en revue, publier ou annuler les modifications en attente.
   
@@ -36,7 +31,7 @@ Après avoir modifié les paramètres de configuration dans les pages du groupe 
 > Toutes les modifications en attente doivent être publiées en même temps en exécutant la commande **Valider tout**. Vous ne pouvez pas sélectionner les modifications en attente que vous voulez publier. Avant de publier les modifications en attente, exécutez la commande **Vérifier les modifications non validées** et annulez les modifications de configuration que vous ne voulez pas publier.
   
 > [!NOTE]
-> Si vous quittez les pages du groupe **Routage des communications vocales** avant d’avoir validé les modifications en attente, toutes les modifications en attente seront perdues. Toutefois, vous pouvez exporter la configuration en cours (y compris les modifications en attente) vers un fichier de configuration des communications vocales, puis importer et publier la configuration mise à jour. Pour plus d’informations, voir Exporter ou importer un fichier de configuration de [l’itinéraire des](voice-route-configuration-import-export.md)Skype Entreprise . 
+> Si vous quittez les pages du groupe **Routage des communications vocales** avant d’avoir validé les modifications en attente, toutes les modifications en attente seront perdues. Toutefois, vous pouvez exporter la configuration en cours (y compris les modifications en attente) vers un fichier de configuration des communications vocales, puis importer et publier la configuration mise à jour. Pour plus d’informations, [voir Exporter ou importer un fichier de configuration d’itinéraire](voice-route-configuration-import-export.md) des Skype Entreprise. 
   
 ### <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>Pour passer en revue, publier ou annuler les modifications de la configuration du routage des communications vocales
 
@@ -60,6 +55,6 @@ Après avoir modifié les paramètres de configuration dans les pages du groupe 
     
 8. Dans la boîte de dialogue **Paramètres de configuration de la voix non validés** qui affiche la liste de toutes les modifications en attente, cliquez sur **OK**. 
     
-    Lorsque Skype Entreprise Server panneau de configuration a engagé les modifications, le message de configuration du **routage** des messages vocaux publié avec succès s’affiche.
+    Lorsque Skype Entreprise Server panneau de configuration a engagé les modifications, le message de **configuration du routage** des messages vocaux publié avec succès s’affiche.
     
 

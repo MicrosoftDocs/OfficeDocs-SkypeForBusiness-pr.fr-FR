@@ -1,31 +1,26 @@
 ---
 title: Bloquer les appels entrants dans Microsoft Teams
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-voice
+  - M365-voice
 audience: Admin
 ms.reviewer: roykuntz
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
-ms.openlocfilehash: d1b5b19189ea301eab5d2c06dfa85be7d4ddb6eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827387"
 ---
+
 # <a name="block-inbound-calls"></a>Bloquer les appels entrants
 
 Les plans d’appel Microsoft, le routage direct et l’opérateur Connecter prise en charge du blocage des appels entrants à partir du réseau téléphonique commuté (PSTN). Cette fonctionnalité permet à un administrateur de définir une liste de modèles de numéro au niveau global du client de telle sorte que l’ID d’appelant de chaque appel PSTN entrant vers le client puisse être vérifié dans la liste pour une correspondance. En cas de correspondance, un appel entrant est rejeté.
 
-Cette fonctionnalité de blocage des appels entrants fonctionne uniquement sur les appels entrants provenant du réseau PSTN et fonctionne uniquement au niveau global du client. Les utilisateurs Teams ne peuvent pas manipuler cette liste. Le Teams client autorise les utilisateurs individuels à bloquer les appels PSTN. Pour plus d’informations sur la façon dont vos utilisateurs finaux peuvent implémenter le blocage d’appel, voir Gérer les [paramètres d’appel dans Teams.](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+Cette fonctionnalité de blocage des appels entrants fonctionne uniquement sur les appels entrants provenant du réseau PSTN et fonctionne uniquement au niveau global du client. Les utilisateurs Teams ne peuvent pas manipuler cette liste. Le Teams client autorise les utilisateurs individuels à bloquer les appels PSTN. Pour plus d’informations sur la façon dont vos utilisateurs finaux peuvent implémenter le blocage d’appel, voir [Gérer les paramètres d’appel dans Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 
 >[!NOTE]
 > Les appelants bloqués peuvent avoir des comportements légèrement différents lorsqu’ils sont bloqués. Le comportement est basé sur la façon dont l’opérateur de l’appelant bloqué gère la notification de non-réussite de l’appel. Il peut s’agir, par exemple, d’un message de l’opérateur indiquant que l’appel ne peut pas être effectué comme un appel composé, ou un simple abandon de l’appel.
@@ -36,16 +31,16 @@ Les contrôles d’administration pour le blocage des numéros sont fournis à l
 
 ## <a name="call-blocking-powershell-commands"></a>Appel bloquant les commandes PowerShell
 
-Vous gérez les modèles de numéro à l’aide des cmdlets **New-,** **Get-,** **Set-** et **Remove-CsInboundBlockedNumberPattern.** Vous pouvez gérer un modèle donné à l’aide de ces cmdlets, y compris la possibilité d’activer un modèle donné.
+Vous gérez les modèles de numéro à l’aide des cmdlets **New-**, **Get-**, **Set-et** **Remove-CsInboundBlockedNumberPattern** . Vous pouvez gérer un modèle donné à l’aide de ces cmdlets, y compris la possibilité d’activer un modèle donné.
 
 - [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) renvoie la liste de tous les modèles de nombres bloqués ajoutés à la liste des locataires, y compris Nom, Description, Activé (Vrai/Faux) et Modèle pour chacun d’eux.
 - [New-CsInboundBlockedNumberPattern ajoute](/powershell/module/skype/new-csinboundblockednumberpattern) un modèle de numéro bloqué à la liste des locataires.
 - [Remove-CsInboundBlockedNumberPattern supprime](/powershell/module/skype/remove-csinboundblockednumberpattern) un modèle de numéro bloqué de la liste des locataires.
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) modifie un ou plusieurs paramètres d’un modèle de nombre bloqué dans la liste des locataires.
 
-L’affichage et l’activation de l’ensemble de la fonctionnalité de blocage d’appels sont gérés par le biais des cmdlets **Get-and-Set-CsTenantBlockingCallingNumbers.** 
+L’affichage et l’activation de l’ensemble de la fonctionnalité de blocage d’appels sont gérés par le biais des cmdlets **Get-and-Set-CsTenantBlockingCallingNumbers**.
 
-- [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) renvoie les modèles de numéro de bloc entrant et les paramètres de modèles de nombres exemptés entrants pour la liste de nombres bloqués globaux. Cette cmdlet renvoie également si le blocage a été activé (True ou False). Il existe une seule stratégie de client globale qui ne peut pas être modifiée manuellement si ce n’est pour activer ou désactiver la fonctionnalité.
+- [Get-CsTenantBlockedCallingNumbers renvoie les modèles](/powershell/module/skype/get-cstenantblockedcallingnumbers) de numéro de bloc entrant et les paramètres de modèles de nombres exemptés entrants pour la liste de nombres bloqués globaux. Cette cmdlet renvoie également si le blocage a été activé (True ou False). Il existe une seule stratégie de client globale qui ne peut pas être modifiée manuellement si ce n’est pour activer ou désactiver la fonctionnalité.
 - [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) permet d’autoriser ou non la modification des appels bloqués du client global au niveau du client.
 
 ### <a name="examples"></a>Exemples
@@ -68,7 +63,7 @@ La création d’un modèle ajoute le modèle comme étant activé par défaut. 
 
 Nous vous recommandons de fournir un nom significatif pour comprendre facilement pourquoi le modèle a été ajouté. Si vous bloquez simplement les numéros de courrier indésirable, envisagez d’nommer la règle de la même façon que le modèle de nombre qui correspond et d’ajouter des informations supplémentaires dans la description si nécessaire.
 
-Les modèles sont assortis à l’aide d’expressions régulières (Regex). Pour plus d’informations, voir [Utiliser Regex.](#using-regex)
+Les modèles sont assortis à l’aide d’expressions régulières (Regex). Pour plus d’informations, voir [Utiliser Regex](#using-regex).
 
 Autorisez le temps de réplication avant de tester et de valider. 
 
@@ -96,7 +91,7 @@ Utilisez les capacités intégrées de filtrage PowerShell pour filtrer les vale
 
 ## <a name="add-number-exceptions"></a>Ajouter des exceptions de nombre
 
-Vous pouvez ajouter des exceptions aux modèles de nombres bloqués à l’aide des cmdlets **New-,** **Get-,** **Set-** et **Remove-CsInboundExemptNumberPattern.**
+Vous pouvez ajouter des exceptions aux modèles de nombres bloqués à l’aide des cmdlets **New-**, **Get-**, **Set-et** **Remove-CsInboundExemptNumberPattern** .
 
 - [New-CsInboundExemptNumberPattern ajoute](/powershell/module/skype/New-CsInboundExemptNumberPattern) un modèle d’exception de nombre à la liste des locataires. 
 - [Get-CsInboundExemptNumberPattern](/powershell/module/skype/Get-CsInboundExemptNumberPattern) renvoie la liste de tous les modèles d’exceptions de nombres ajoutés à la liste des locataires.

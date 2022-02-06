@@ -1,24 +1,19 @@
 ---
 title: Meilleures pratiques pour votre infrastructure principale dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
-description: Vous avez probablement déjà pris des mesures afin d’intégrer la tolérance de panne dans votre système, en utilisant diverses pratiques courantes telles que la mise en place d’une redondance au niveau du matériel, la protection contre les coupures de courant, l’installation régulière de mises à jour de sécurité, l’utilisation d’antivirus et le contrôle de l’activité du serveur. Ces pratiques bénéficient non seulement à votre infrastructure Skype Entreprise Server, mais également à l’ensemble de votre réseau. Si vous n’avez pas implémenté ces pratiques, nous vous recommandons de le faire avant de déployer Skype Entreprise Server.
-ms.openlocfilehash: 352541cf2dfa91eef24f09c4aebd2788c589a10f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860941"
+description: 'Vous avez probablement déjà pris des mesures afin d’intégrer la tolérance de panne dans votre système, en utilisant diverses pratiques courantes telles que la mise en place d’une redondance au niveau du matériel, la protection contre les coupures de courant, l’installation régulière de mises à jour de sécurité, l’utilisation d’antivirus et le contrôle de l’activité du serveur. Ces pratiques bénéficient non seulement à votre infrastructure Skype Entreprise Server, mais également à l’ensemble de votre réseau. Si vous n’avez pas implémenté ces pratiques, nous vous recommandons de le faire avant de déployer Skype Entreprise Server.'
 ---
+
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Meilleures pratiques pour votre infrastructure principale dans Skype Entreprise Server
  
 Vous avez probablement déjà pris des mesures afin d’intégrer la tolérance de panne dans votre système, en utilisant diverses pratiques courantes telles que la mise en place d’une redondance au niveau du matériel, la protection contre les coupures de courant, l’installation régulière de mises à jour de sécurité, l’utilisation d’antivirus et le contrôle de l’activité du serveur. Ces pratiques bénéficient non seulement à votre infrastructure Skype Entreprise Server, mais également à l’ensemble de votre réseau. Si vous n’avez pas implémenté ces pratiques, nous vous recommandons de le faire avant de déployer Skype Entreprise Server.

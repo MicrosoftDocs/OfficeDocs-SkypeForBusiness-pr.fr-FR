@@ -1,34 +1,29 @@
 ---
 title: Nœud d’étendue d’une application externe
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.ExternalApplicationScopeNode
+  - ms.lync.tb.ExternalApplicationScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
-ROBOTS: NOINDEX, NOFOLLOW
-description: 'Ce nœud affiche le nom de domaine complet (FQDN) du pool, le paramètre de réplication et le pool du saut suivant pour ce pool d’applications fiables. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 6886c835f309487a95e6f757d2ccd16e28a5809c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838146"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: "Ce nœud affiche le nom de domaine complet (FQDN) du pool, le paramètre de réplication et le pool du saut suivant pour ce pool d’applications fiables. Vous pouvez effectuer les actions suivantes\_:"
 ---
+
 # <a name="external-application-scope-node"></a>Nœud d’étendue d’une application externe
  
 Ce nœud affiche le nom de domaine complet (FQDN) du pool, le paramètre de réplication et le pool du saut suivant pour ce pool d’applications fiables. Vous pouvez effectuer les actions suivantes :
   
 - **Nouveau serveur**. Démarre **l’Assistant Définir un** nouveau serveur, que vous pouvez utiliser pour ajouter un autre serveur à ce pool d’applications fiables.
     
-- **Modifier les propriétés** Ouvre la **page** Modifier les propriétés de ce serveur, dans laquelle vous pouvez définir le nom de pool interne et externe et le port, activer et désactiver la fédération et la traduction d’adresses réseau (NAT) et spécifier le pool du saut suivant.
+- **Modifier les propriétés** Ouvre **la page Modifier** les propriétés de ce serveur, dans laquelle vous pouvez définir le nom de pool interne et externe et le port, activer et désactiver la fédération et la traduction d’adresses réseau (NAT) et spécifier le pool du saut suivant.
     
 - **Supprimer**. Supprime le pool de la topologie.
     

@@ -1,25 +1,20 @@
 ---
 title: Obtenir les données de la dernière intégration
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: 'Résumé : Découvrez l’opération Obtenir les dernières données d’intégration, qui fait partie de l’API de données du tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 7bc9323c4a2d3933706be0a39a2ff4b86b11eb42
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851968"
 ---
+
 # <a name="get-last-integration-data"></a>Obtenir les données de la dernière intégration
  
 **Résumé :** Découvrez l’opération Obtenir les dernières données d’intégration, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
@@ -35,7 +30,7 @@ Cette fonctionnalité est désactivée par défaut et doit être activée en con
 
 |**Méthode**|**URI de demande**|**HTTP Version**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
    
  **Paramètres d’URI** - Aucun.
   

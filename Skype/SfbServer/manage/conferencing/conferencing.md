@@ -1,45 +1,40 @@
 ---
 title: Gérer les conférences dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: 'Résumé : Découvrez comment gérer les conférences dans Skype Entreprise Server.'
-ms.openlocfilehash: 122b7d797983df9bb3ef6252234099869650a66e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845457"
 ---
+
 # <a name="manage-conferencing-in-skype-for-business-server"></a>Gérer les conférences dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment gérer les conférences dans Skype Entreprise Server.
   
-Cette rubrique décrit comment gérer les conférences. Pour plus d’informations sur la façon de planifier et de déployer des conférences, voir [Plan for conferencing in Skype Entreprise Server](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in Skype Entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+Cette rubrique décrit comment gérer les conférences. Pour plus d’informations sur la façon de planifier et de déployer la conférence, voir [Plan for conferencing in Skype Entreprise Server](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in Skype Entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
-Dans Skype Entreprise Server, vous gérez les détails de la conférence en spécifiant les paramètres de configuration et de stratégie comme suit. Notez que les termes conférence et réunion sont parfois utilisés indifféremment. Toutefois, en règle générale, vous pouvez penser à une réunion comme une instance spécifique de conférence.
+Dans Skype Entreprise Server, vous gérez les détails des conférences en spécifiant les paramètres de configuration et de stratégie comme suit. Notez que les termes conférence et réunion sont parfois utilisés indifféremment. Toutefois, en règle générale, vous pouvez penser à une réunion comme une instance spécifique de conférence.
   
-- Les **paramètres** de stratégie de conférence englobent un large éventail d’options de planification et de participation, allant du fait qu’une réunion peut inclure de l’audio et de la vidéo IP ou le nombre maximal de personnes pouvant y participer. Vous pouvez utiliser des stratégies de conférence pour gérer la sécurité, la bande passante et les aspects juridiques des réunions.
+- Les **paramètres** de stratégie de conférence englobent un large éventail d’options de planification et de participation, allant du fait qu’une réunion peut inclure du son et de la vidéo IP ou le nombre maximal de personnes pouvant y participer. Vous pouvez utiliser des stratégies de conférence pour gérer la sécurité, la bande passante et les aspects juridiques des réunions.
     
     Notez que les stratégies de conférence sont appliquées à l’utilisateur ou au site et ne peuvent pas être appliquées à une réunion spécifique. Par conséquent, l’invitation à la réunion peut être créée quelques semaines à l’avance, mais la stratégie de conférence restrictive doit être appliquée au compte Skype Entreprise de l’organisateur de la réunion juste avant le début de la conférence. 
     
     Si un compte dédié est utilisé pour le rôle Organisateur de réunion, la stratégie de conférence peut rester affectée à ce compte. Si l’organisateur de la réunion utilise un compte Skype Entreprise général, la stratégie doit être supprimée une fois la conférence terminée.
     
-- Les **paramètres** de configuration de réunion déterminent le type de réunion que les utilisateurs peuvent créer, en plus de contrôler comment (ou même si) les utilisateurs anonymes et les utilisateurs de conférence rendez-vous peuvent participer à ces réunions. Notez que ces paramètres affectent uniquement les réunions prévues. Les configurations de réunion sont appliquées par pool, par site ou globalement.
+- Les **paramètres de configuration** de réunion déterminent le type de réunion que les utilisateurs peuvent créer, en plus de contrôler comment (ou même si) les utilisateurs anonymes et les utilisateurs de conférence rendez-vous peuvent participer à ces réunions. Notez que ces paramètres affectent uniquement les réunions prévues. Les configurations de réunion sont appliquées par pool, par site ou globalement.
     
-- **Les paramètres de configuration de** conférence déterminent des éléments tels que la taille maximale autorisée pour le contenu et les handouts de réunion. quantité maximale de bande passante pour le service de conférence de partage d’application ; limites de stockage et périodes d’expiration ; URL pour les téléchargements internes et externes du client pris en charge ; pointeurs vers des URL internes et externes où les utilisateurs peuvent obtenir de l’aide et des ressources de conférence ; et les ports utilisés pour le partage d’application, l’audio client, les transferts de fichiers et le trafic multimédia.
+- **Les paramètres de configuration de conférence déterminent** des éléments tels que la taille maximale autorisée pour le contenu et les handouts de réunion . quantité maximale de bande passante pour le service de conférence de partage d’application ; limites de stockage et périodes d’expiration ; URL pour les téléchargements internes et externes du client pris en charge ; pointeurs vers des URL internes et externes où les utilisateurs peuvent obtenir de l’aide et des ressources de conférence ; et les ports utilisés pour le partage d’application, l’audio client, les transferts de fichiers et le trafic multimédia.
     
     Ces paramètres vous permettent de gérer les serveurs eux-mêmes. Ces paramètres ne peuvent être définies qu’à l’aide Skype Entreprise Server Management Shell. 
     
-- **Les paramètres d’accès à la** connexion vous permettent de définir des informations sur la façon dont les utilisateurs appellent à partir d’un téléphone. Vous spécifiez certaines des informations d’accès à la conférence, telles que le numéro d’accès, à partir de l’onglet Conférence du Panneau de contrôle et certaines informations de numérotation ,telles que le plan de numérotation, la stratégie de voix, l’itinéraire et l’utilisation PSTN, à partir de l’onglet Routage des voix du Panneau de contrôle.
+- **Les paramètres d’accès à la** connexion vous permettent de définir des informations sur la façon dont les utilisateurs appellent un numéro à partir d’un téléphone. Vous spécifiez certaines des informations d’accès à la conférence, telles que le numéro d’accès, à partir de l’onglet Conférence du Panneau de contrôle et certaines informations de numérotation,telles que le plan de numérotation, la stratégie de voix, l’itinéraire et l’utilisation PSTN, à partir de l’onglet Routage des voix du Panneau de contrôle.
     
 - **Les paramètres de stratégie de code** confidentiel vous permettent de nommer et de définir le code confidentiel que les participants utilisent pour l’accès à la connexion.
     
@@ -49,37 +44,37 @@ Vous pouvez gérer la plupart des stratégies de conférence et des paramètres 
   
 - Pour gérer les paramètres de stratégie de conférence :
     
-  - Dans le Panneau de contrôle, sélectionnez **Conférence | Stratégie de conférence.**
+  - Dans le Panneau de contrôle, sélectionnez **Conférence | Stratégie de conférence**.
     
-  - Dans PowerShell, recherchez les cmdlets **-CsConferencingPolicy.**
+  - Dans PowerShell, recherchez les cmdlets **-CsConferencingPolicy** .
     
 - Pour gérer les paramètres de configuration de réunion :
     
-  - Dans le Panneau de contrôle, sélectionnez **Conférence | Configuration de la réunion.**
+  - Dans le Panneau de contrôle, sélectionnez **Conférence | Configuration de la réunion**.
     
-  - Dans Skype Entreprise Server Management Shell, recherchez les cmdlets **-CsMeetingConfiguration.**
+  - Dans Skype Entreprise Server Management Shell, recherchez les cmdlets **-CsMeetingConfiguration**.
     
 - Pour gérer les paramètres de numéro d’accès à la connexion :
     
-  - Dans le Panneau de contrôle, sélectionnez **Conférence | Numéro d’accès à la connexion.**
+  - Dans le Panneau de contrôle, sélectionnez **Conférence | Numéro d’accès à la connexion**.
     
-  - Dans Skype Entreprise Server Management Shell, recherchez les cmdlets **-CsDialInConferencing.**
+  - Dans Skype Entreprise Server Management Shell, recherchez les cmdlets **-CsDialInConferencing**.
     
 - Pour gérer les informations d’accès aux appels, telles que le plan de numérotation, la stratégie de voix, l’itinéraire et l’utilisation PSTN : 
     
-  - Dans le Panneau de contrôle, sélectionnez **Conférence | Routage des voix.**
+  - Dans le Panneau de contrôle, sélectionnez **Conférence | Routage des voix**.
     
-  - Dans Skype Entreprise Server Management Shell, recherchez les cmdlets **-CsDialPlan** et **-CsVoice.**
+  - Dans Skype Entreprise Server Management Shell, recherchez les cmdlets **-CsDialPlan** et **-CsVoice**.
     
 - Pour gérer les paramètres de stratégie de code confidentiel :
     
   - Dans le Panneau de contrôle, sélectionnez **Conférence | Stratégie de code confidentiel**.
     
-  - Dans Skype Entreprise Server Management Shell, recherchez les cmdlets **-CsPinPolicy.**
+  - Dans Skype Entreprise Server Management Shell, recherchez les cmdlets **-CsPinPolicy**.
     
-- Pour gérer les paramètres de configuration de conférence, vous devez utiliser Skype Entreprise Server Management Shell. Recherchez **les cmdlets -CsConferencingConfiguration.**
+- Pour gérer les paramètres de configuration de conférence, vous devez utiliser Skype Entreprise Server Management Shell. Recherchez **les cmdlets -CsConferencingConfiguration** .
     
-## <a name="skype-for-business-server-management-shell-cmdlets"></a>Skype Entreprise Server Cmdlets Management Shell
+## <a name="skype-for-business-server-management-shell-cmdlets"></a>cmdlets Skype Entreprise Server Management Shell
 
 Vous pouvez utiliser les cmdlets Skype Entreprise Server Management Shell suivantes pour gérer les conférences : 
   
@@ -167,9 +162,9 @@ Vous pouvez utiliser les cmdlets Skype Entreprise Server Management Shell suivan
 |[Test-CsASConference](/powershell/module/skype/test-csasconference?view=skype-ps) <br/> |Teste l’aptitude de deux utilisateurs à prendre part à une conférence de partage d’application.  <br/> |
 |[Test-CsAudioConferencingProvider](/powershell/module/skype/test-csaudioconferencingprovider?view=skype-ps) <br/> |Teste pour voir si un utilisateur peut se connecter à son fournisseur de services d’audioconférence. Un fournisseur de services d’audioconférence est une société tierce qui propose des services de conférence aux entreprises. Entre autres choses, les fournisseurs d’audioconférence permettent aux utilisateurs situés hors site et non connectés au réseau d’entreprise ou à Internet de participer à la partie audio d’une conférence ou d’une réunion.  <br/> |
 |[Test-CsAVConference](/powershell/module/skype/test-csavconference?view=skype-ps) <br/> |Teste l’aptitude de deux utilisateurs à prendre part à une conférence audio/vidéo (A/V).  <br/> |
-|[Test-CsDataConference](/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |Vérifie si deux utilisateurs peuvent ou non participer à une conférence web Skype Entreprise Server qui inclut des activités telles que le partage ou l’affichage de PowerPoint diapositives, tableaux blancs ou sondages. L’cmdlet vérifie également que le service de conférence web Skype Entreprise Server peut découvrir Office Web Apps Server et qu’un client peut télécharger un fichier PowerPoint pour diffusion par Office Web Apps Server.  <br/> |
+|[Test-CsDataConference](/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |Vérifie si deux utilisateurs peuvent ou non participer à une conférence web Skype Entreprise Server qui comprend des activités telles que le partage ou l’affichage de PowerPoint diapositives, tableaux blancs ou sondages. L’cmdlet vérifie également que le service de conférence web Skype Entreprise Server peut découvrir Office Web Apps Server et qu’un client peut télécharger un fichier PowerPoint pour diffusion par Office Web Apps Server.  <br/> |
 |[Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |Vérifie si un utilisateur peut participer à une session de conférence rendez-vous.  <br/> |
 |[Test-CsDialPlan](/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |Teste un numéro de téléphone par rapport à un plan de numérotation (anciennement appelé « profil d’emplacement ») et retourne la règle de normalisation qui sera appliquée au numéro, ainsi que le numéro traduit après application de la règle de normalisation.  <br/> |
-|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Teste la capacité de trois utilisateurs à participer à une conférence Skype Entreprise Server Mobility Service. Le service de mobilité permet aux utilisateurs de téléphones mobiles tels que des iPhone et Windows Phone d’échanger des messages instantanés et des informations de présence. stocker et récupérer la messagerie vocale en interne plutôt qu’avec son fournisseur sans fil ; et tirez parti Skype Entreprise Server fonctionnalités telles que l’appel via le travail et la conférence sortante.  <br/> **Remarque :** Les clients qui utilisent MCX ne sont pas pris en charge Skype Entreprise Server 2019.|
-|[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |Teste la capacité d’une paire d’utilisateurs à planifier, rejoindre et mener une conférence en ligne à l’aide de l’API UCWA (Unified Communications Web API).  <br/> |
+|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Teste la capacité de trois utilisateurs à participer à une conférence Skype Entreprise Server Mobility Service. Le service de mobilité permet aux utilisateurs de téléphones mobiles tels que des iPhone et des téléphones Windows d’échanger des messages instantanés et des informations de présence, de stocker et de récupérer des messages vocaux en interne plutôt qu’avec leur fournisseur sans fil et de tirer parti des fonctionnalités Skype Entreprise Server telles que l’appel via le travail et la conférence sortante.  <br/> **Remarque :** Les clients qui utilisent MCX ne sont pas pris en charge Skype Entreprise Server 2019.|
+|[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |Teste la capacité d’une paire d’utilisateurs à planifier, rejoindre et mener une conférence en ligne à l’aide de l’API web de communications unifiées (UCWA).  <br/> |
 |[Debug-CsDataConference](/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |Renvoie des informations de diagnostic pour les fonctionnalités de conférence de données incluses dans Skype Entreprise Server.  <br/> |

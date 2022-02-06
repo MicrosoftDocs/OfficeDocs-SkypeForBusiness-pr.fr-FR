@@ -1,25 +1,20 @@
 ---
 title: Gérer l’authentification à deux facteurs dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Résumé : Gérez l’authentification à deux facteurs dans Skype Entreprise Server.'
-ms.openlocfilehash: af21fd551c8495a49c8617b25e4669bdd27ec0c0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847417"
 ---
+
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Gérer l’authentification à deux facteurs dans Skype Entreprise Server
  
 **Résumé :** Gérer l’authentification à deux facteurs dans Skype Entreprise Server.
@@ -47,11 +42,11 @@ Les clients sont encouragés à déployer l’authentification à deux facteurs 
    
 À moins que ces types d’authentification ne soient désactivés au niveau du service, toutes les autres versions du client ne pourront pas se connecter correctement une fois l’authentification à deux facteurs activée dans votre déploiement.
   
-## <a name="skype-for-business-service-discovery"></a>Skype Entreprise Découverte de service
+## <a name="skype-for-business-service-discovery"></a>Skype Entreprise service de découverte
 
 Les enregistrements DNS utilisés par les clients internes et/ou externes pour découvrir les services Skype Entreprise doivent être configurés pour être résolus en un serveur Skype Entreprise qui n’est pas activé pour l’authentification à deux facteurs. Avec cette configuration, les utilisateurs des pools Skype Entreprise qui ne sont pas activés pour l’authentification à deux facteurs ne seront pas obligés d’entrer un code confidentiel pour s’authentifier, tandis que les utilisateurs des pools Skype Entreprise qui sont activés pour l’authentification à deux facteurs devront entrer leur code confidentiel pour s’authentifier.
   
-## <a name="exchange-authentication"></a>Exchange Authentification
+## <a name="exchange-authentication"></a>Exchange’authentification
 
 Les clients qui ont déployé l’authentification à deux facteurs pour Microsoft Exchange peuvent découvrir que certaines fonctionnalités du client ne sont pas disponibles. Ce comportement est de par sa conception, car le client Skype Entreprise ne prend pas en charge l’authentification à deux facteurs pour les fonctionnalités qui dépendent de Exchange’intégration.
   
@@ -79,7 +74,7 @@ Avec la méthode d’authentification Kerberos ou NTLM, les informations d’ide
   
 Si les utilisateurs sont involontairement invités à entrer leurs informations d’identification avant d’être invités à entrer leur code confidentiel, la clé de Registre **DisableNTCredentials** peut être involontairement configurée sur les ordinateurs clients, éventuellement par le biais de la stratégie de groupe.
   
-Pour empêcher l’invite supplémentaire d’informations d’identification, créez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Skype Entreprise à appliquer à tous les utilisateurs d’un pool donné à l’aide de la stratégie de groupe :
+Pour empêcher l’invite supplémentaire d’informations d’identification, créez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Skype Entreprise pour l’appliquer à tous les utilisateurs d’un pool donné à l’aide de la stratégie de groupe :
   
 HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
   
@@ -91,7 +86,7 @@ Valeur : 0x0
 
 Lorsqu’un utilisateur se Skype Entreprise pour la première fois, il est invité à enregistrer son mot de passe. Si elle est sélectionnée, cette option permet de stocker le certificat client de l’utilisateur dans le magasin de certificats personnels et les informations d’identification Windows de l’utilisateur dans le Gestionnaire d’informations d’identification de l’ordinateur local.
   
-Le paramètre de Registre **SavePassword** doit être désactivé lorsque Skype Entreprise est configuré pour prendre en charge l’authentification à deux facteurs. Pour empêcher les utilisateurs d’enregistrer leur mot de passe, modifiez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Skype Entreprise pour l’appliquer à tous les utilisateurs d’un pool donné à l’aide de la stratégie de groupe :
+Le **paramètre de Registre SavePassword** doit être désactivé lorsque Skype Entreprise est configuré pour prendre en charge l’authentification à deux facteurs. Pour empêcher les utilisateurs d’enregistrer leur mot de passe, modifiez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Skype Entreprise pour l’appliquer à tous les utilisateurs d’un pool donné à l’aide de la stratégie de groupe :
   
 HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   

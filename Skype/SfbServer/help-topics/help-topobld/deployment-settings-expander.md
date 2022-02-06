@@ -1,30 +1,25 @@
 ---
 title: Expanseur des paramètres de déploiement
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.DeploymentSettingsExpander
+  - ms.lync.tb.DeploymentSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
-description: 'Vous pouvez modifier les propriétés d’un déploiement existant en suivant les sections suivantes :'
-ms.openlocfilehash: fac8d80fffabea4bc939dd0fb517ac384a5776b4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851228"
+description: 'Vous pouvez modifier les propriétés d’un déploiement existant avec les sections suivantes :'
 ---
+
 # <a name="deployment-settings-expander"></a>Expandeur des paramètres de déploiement
 
-Vous pouvez modifier les propriétés d’un déploiement existant en suivant les sections suivantes :
+Vous pouvez modifier les propriétés d’un déploiement existant avec les sections suivantes :
 
 - Domaine SIP
 

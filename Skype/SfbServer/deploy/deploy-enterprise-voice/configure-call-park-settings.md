@@ -1,28 +1,23 @@
 ---
 title: Configurer les paramètres de parcier d’appel dans Skype Entreprise
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Modifiez les paramètres de parc Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 686484fd42982f2b64623b652851482b85d3e1b8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833930"
 ---
+
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Configurer les paramètres de parcier d’appel dans Skype Entreprise
 
 Modifiez les paramètres de parc Skype Entreprise Server Voix Entreprise.
@@ -42,9 +37,9 @@ Les applets de commande **New-CsCpsConfiguration** et **Set-CsCpsConfiguration**
 | **MaxCallPickupAttempts** <br/>      | Nombre de sonnerie de rappel d’un appel parqué avant qu’il ne soit transféré vers l’URI de remplacement spécifié pour le paramètre **OnTimeoutURI**. La valeur par défaut est 1.<br/>                                                                                                                         |
 | **OnTimeoutURI** <br/>               | Adresse SIP de l’utilisateur ou groupe Response Group vers laquelle l’appel parqué sans réponse est routé lorsque la valeur **MaxCallPickupAttempts** est atteinte. <br/> La valeur doit être une URI SIP et commencer par la chaîne « sip: ». Par exemple, sip:bob@contoso.com. La valeur par défaut est aucune adresse de transfert.<br/>                                                   |
 
-### <a name="to-configure-call-park-settings"></a>Pour configurer les paramètres du parcier d’appel
+### <a name="to-configure-call-park-settings"></a>Pour configurer les paramètres de parcment d’appel
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
 
 2. Exécuter : 
 

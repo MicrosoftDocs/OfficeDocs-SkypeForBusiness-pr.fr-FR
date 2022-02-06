@@ -1,27 +1,22 @@
 ---
 title: What’s deprecated from Skype Entreprise Server 2019
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Résumé : Ces fonctionnalités ont été supprimées de Skype Entreprise Server 2019.'
-ms.openlocfilehash: 7f956aed60a65d074776756e0c6254e2aa3d9629
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846977"
 ---
+
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>What’s deprecated from Skype Entreprise Server 2019
 
-Découvrez les fonctionnalités qui sont Skype Entreprise Server 2019. Pour plus d’informations sur les nouvelles fonctionnalités Skype Entreprise Server 2019, voir [Nouveautés Skype Entreprise Server 2019.](whats-new.md)
+Découvrez les fonctionnalités qui sont Skype Entreprise Server 2019. Pour plus d’informations sur les nouvelles fonctionnalités Skype Entreprise Server 2019, voir [Nouveautés Skype Entreprise Server 2019](whats-new.md).
 
 Certaines fonctionnalités de mise en avant sont incluses dans Skype Entreprise Server 2019 pour des raisons de compatibilité avec les versions précédentes du produit.
 
@@ -37,11 +32,11 @@ Skype Entreprise Server 2015 et ses prédécesseurs vous ont permis de configure
 
 Le serveur de conversation permanente est un rôle facultatif qui permet à plusieurs utilisateurs de votre organisation de participer à des conversations de salle de conversation persistantes au fil du temps. La conversation permanente ne peut pas être déployée avec Skype Entreprise Server 2019. Ce rôle serveur est supprimé du Générateur de topologie et du code. 
 
-La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here)
+La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here).
 
-### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL Mise en miroir pour Skype Entreprise Server
+### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL miroir pour Skype Entreprise Server
 
-SQL La mise en miroir ne peut pas être déployée Skype Entreprise Server 2019. D’autres options de haute disponibilité et de récupération d’urgence sont toujours pris en charge et vous devez choisir parmi celles-ci. Pour [consulter les options, voir Planifier la](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) haute disponibilité et la récupération d’urgence Skype Entreprise Server les options.
+SQL la mise en miroir ne peut pas être déployée avec Skype Entreprise Server 2019. D’autres options de haute disponibilité et de récupération d’urgence sont toujours pris en charge et vous devez choisir parmi celles-ci. Pour [consulter les options, voir Planifier la haute disponibilité et la récupération d’urgence dans Skype Entreprise Server](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) les options.
 
 ### <a name="in-place-upgrades"></a>Mises à niveau sur place 
 
@@ -51,15 +46,15 @@ Les mises à niveau sur place étaient disponibles Skype Entreprise Server 2015,
 
 Tous les clients mobiles Skype Entreprise actuellement utilisent déjà l’API UCWA (Unified Communications Web API) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant Mcx devront mettre à niveau vers un client actuel.
 
-Pour plus d’informations, voir [la comparaison des](../SfbServer/plan-your-deployment/mobility.md) fonctionnalités de client Skype Entreprise Server mobile et de la mobilité pour [Skype Entreprise](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md).
+Pour plus d’informations, voir [La comparaison des](../SfbServer/plan-your-deployment/mobility.md) fonctionnalités de client Skype Entreprise Server mobile et de la mobilité [pour les Skype Entreprise](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md).
 
 ## <a name="tools"></a>Outils
 
 Les outils suivants ne seront pas disponibles à la version initiale de Skype Entreprise Server 2019 :
 
 - Calculateur de planification de la capacité Skype Entreprise Server
-- Skype Entreprise Server Outils de débogage
-- Skype Entreprise Server Outils du Kit de ressources (certains outils seront supprimés)
+- Skype Entreprise Server outils de débogage
+- Skype Entreprise Server kit de ressources (certains outils seront supprimés)
     - Call Parkometer
     - Console utilisateur de recherche
     - Migration d’annonces de numéro non signé

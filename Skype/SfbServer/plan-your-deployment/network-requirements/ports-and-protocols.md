@@ -1,41 +1,36 @@
 ---
 title: Exigences en matière de ports et de protocoles pour les serveurs
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Résumé : Examinez les considérations d’utilisation des ports avant d’implémenter Skype Entreprise Server.'
-ms.openlocfilehash: c820070fb73dd1f3325b0141a3fa05b3f19bd683
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834070"
 ---
+
 # <a name="port-and-protocol-requirements-for-servers"></a>Exigences en matière de ports et de protocoles pour les serveurs
  
 **Résumé :** Examinez les considérations d’utilisation des ports avant d’implémenter Skype Entreprise Server.
   
 Skype Entreprise Server nécessite que des ports spécifiques sur les pare-feu externes et internes soient ouverts. En outre, si la sécurité du protocole Internet (IPsec) est déployée dans votre organisation, IPsec doit être désactivé sur la plage de ports utilisée pour la distribution de l’audio, de la vidéo et de la vidéo panoramique. 
   
-Bien que cela puisse sembler un peu difficile, le travail de planification peut être effectué à l’aide de l’outil de planification Skype Entreprise Server 2015. Une fois que vous avez répondu aux questions de l’Assistant sur les fonctionnalités que vous prévoyez d’utiliser, pour chaque site que vous définissez, vous pouvez afficher le rapport de pare-feu dans le rapport d’administration Edge et utiliser les informations répertoriées ici pour créer vos règles de pare-feu. Vous pouvez également apporter des ajustements à la plupart des noms et adresses IP utilisés, pour plus d’informations, consultez le rapport de [pare-feu.](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report) Gardez à l’esprit que vous pouvez exporter le rapport d’administration Edge vers une feuille de calcul Excel, et le rapport de pare-feu sera l’une des feuilles de calcul du fichier. 
+Bien que cela puisse sembler un peu difficile, le travail de planification peut être effectué à l’aide de l’outil de planification Skype Entreprise Server 2015. Une fois que vous avez répondu aux questions de l’Assistant sur les fonctionnalités que vous prévoyez d’utiliser, pour chaque site que vous définissez, vous pouvez afficher le rapport de pare-feu dans le rapport d’administration Edge et utiliser les informations répertoriées ici pour créer vos règles de pare-feu. Vous pouvez également apporter des ajustements à de nombreux noms et adresses IP utilisés, pour plus d’informations, voir [Review the Firewall Report](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Gardez à l’esprit que vous pouvez exporter le rapport d’administration Edge vers une feuille de calcul Excel, et le rapport de pare-feu sera l’une des feuilles de calcul dans le fichier. 
   
-Vous trouverez les informations dans ces tableaux sous forme de diagramme en reviewant l’affiche Charges de travail de protocole liées à partir des diagrammes techniques de [l’article Skype Entreprise Server 2015.](../../technical-diagrams.md)
+Vous trouverez les informations dans ces tableaux sous forme de diagramme en reviewant l’affiche Charges de travail de protocole liées à partir des diagrammes techniques pour Skype Entreprise Server [2015](../../technical-diagrams.md).
 
 > [!NOTE]
-> - Si vous implémentez Skype Entreprise Online (Microsoft 365 ou Office 365), reportez-vous aux URL Microsoft 365 et Office 365 et aux [plages d’adresses IP.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US) Les environnements hybrides devront référencer cette rubrique et planifier [la connectivité hybride.](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2floc.json&toc=%2fSkypeForBusiness%2ftoc.json)
+> - Si vous implémentez Skype Entreprise Online (Microsoft 365 ou Office 365), reportez-vous aux URL Microsoft 365 et Office 365 et aux [plages d’adresses IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Les environnements hybrides doivent faire référence à cette rubrique et planifier [la connectivité hybride](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2floc.json&toc=%2fSkypeForBusiness%2ftoc.json).
 > - Vous pouvez avoir un pare-feu matériel ou logiciel. Nous n’avons pas besoin de modèles ou de versions spécifiques. Ce qui importe, c’est les ports qui sont ajoutés à une liste d’utilisateurs pour que le pare-feu n’affecte pas le fonctionnement Skype Entreprise Server.
   
 ## <a name="port-and-protocol-details"></a>Détails des ports et protocoles
@@ -43,66 +38,66 @@ Vous trouverez les informations dans ces tableaux sous forme de diagramme en rev
 Cette section récapitule les ports et protocoles utilisés par les serveurs, les équilibreurs de charge et les clients dans un déploiement Skype Entreprise Server déploiement.
   
 > [!NOTE]
-> Lorsque Skype Entreprise Server démarre, il ouvre les ports requis dans le pare-feu Windows de sécurité. Windows Le pare-feu doit déjà être en cours d’exécution dans la plupart des applications normales, mais s’il n’est pas utilisé, Skype Entreprise Server fonctionne sans lui. 
+> Lorsque Skype Entreprise Server démarre, il ouvre les ports requis dans le pare-feu Windows de sécurité. Windows pare-feu doit déjà être en cours d’exécution dans la plupart des applications normales, mais s’il n’est pas utilisé, Skype Entreprise Server fonctionne sans lui. 
   
-Pour plus d’informations sur la configuration du pare-feu pour les composants Edge, voir scénarios de serveur [Edge dans Skype Entreprise Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md). 
+Pour plus d’informations sur la configuration du pare-feu pour les composants Edge, voir [scénarios de serveur Edge dans Skype Entreprise Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md). 
   
 Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque rôle serveur interne. 
   
 **Ports de serveurs requis (par rôle serveur)**
 
-|Rôle serveur|Nom du service|Port|Protocole|Notes|
+|Rôle serveur|Nom du service|Port|Protocole|Remarques|
 |:-----|:-----|:-----|:-----|:-----|
-|Tous les serveurs  |SQL Browser  |1434  |UDP  |SQL Navigateur de la copie répliquée locale de la base de données du magasin central de gestion.  |
+|Tous les serveurs  |SQL Browser  |1434  |UDP  |SQL navigateur pour la copie répliquée locale de la base de données du magasin central de gestion.  |
 |Front-End serveurs  |Skype Entreprise Server Front-End service  |5060  |TCP  |Utilisé facultativement par les serveurs Standard Edition Server et les serveurs frontaux pour les itinéraires statiques vers des services approuvés, comme les serveurs de contrôle d’appel distant.  |
 |Serveurs frontaux  |Skype Entreprise Server Front-End service  |5061  | TCP (TLS) |Utilisé par les serveurs Standard Edition Server et les pools frontaux pour toutes les communications SIP internes entre serveurs (MTLS), pour les communications SIP entre serveurs et clients (TLS) et pour les communications SIP entre serveurs frontaux et serveurs de médiation (MTLS). Également utilisé pour les communications avec un serveur de surveillance.  |
-| Serveurs frontaux |Skype Entreprise Server Front-End service  |444  | HTTPS <br/> TCP  |Utilisé pour la communication HTTPS entre le focus (le Skype Entreprise Server qui gère l’état de conférence) et les serveurs individuels.  <br/> Ce port est également utilisé pour la communication TCP entre les Survivable Branch Appliances et les serveurs frontux.  |
+| Serveurs frontaux |Skype Entreprise Server Front-End service  |444  | HTTPS <br/> TCP  |Utilisé pour la communication HTTPS entre le focus (composant Skype Entreprise Server qui gère l’état de conférence) et les serveurs individuels.  <br/> Ce port est également utilisé pour la communication TCP entre les Survivable Branch Appliances et les serveurs frontux.  |
 |Serveurs frontaux  |Skype Entreprise Server Front-End service  |135  |DCOM et appel de procédure distante (RPC)  |Utilisé pour les opérations DCOM, telles que le déplacement des utilisateurs, la synchronisation du réplicateur d’utilisateurs et la synchronisation du carnet d’adresses.  |
-|Serveurs frontaux  |Skype Entreprise Server Service de conférence de messagerie instantanée  |5062  |TCP  |Utilisé pour les demandes SIP entrantes dans le cadre de conférences de messagerie instantanée.  |
-|Serveurs frontaux  |Skype Entreprise Server Service de conférence web  |8057  |TCP (TLS)  |Utilisé pour l’écoute des connexions PSOM (Persistent Shared Object Model) à partir d’un client.  |
-|Serveurs frontaux  |Skype Entreprise Server Service de compatibilité des conférences web  |8058  |TCP (TLS)  |Utilisé pour écouter les connexions PSOM (Persistent Shared Object Model) à partir du client Live Meeting et des versions antérieures de Skype Entreprise Server.  |
-|Serveurs frontaux  |Skype Entreprise Server Service de conférence audio/vidéo  |5063  |TCP  |Utilisé pour les demandes SIP entrantes dans le cadre de conférences audio/vidéo (A/V).  |
-|Serveurs frontaux  |Skype Entreprise Server Service de conférence audio/vidéo  |57501-65535  |TCP/UDP  |Plage de ports multimédias utilisée pour les conférences vidéo.  |
-|Serveurs frontaux  |Skype Entreprise Server Service de compatibilité web  |80  |HTTP  |Utilisé pour les communications à partir des serveurs frontaux vers les noms de domaine complets des batteries de serveurs web (URL utilisées par les composants web IIS) lorsque HTTPS n’est pas utilisé.  |
-|Serveurs frontaux  |Skype Entreprise Server Service de compatibilité web  |443  |HTTPS  |Utilisé pour les communications à partir des serveurs frontaux vers les noms de domaine complets des batteries de serveurs web (URL utilisées par les composants web IIS).  |
-|Serveurs frontaux  |Skype Entreprise Server Service de compatibilité web  |8080  |TCP et HTTP  |Utilisé par les composants web pour l’accès externe.  |
-|Serveurs frontaux  |Composant serveur Web  |4443  |HTTPS  |Communications HTTPS (à partir d’un proxy inverse) et entre les pool frontaux HTTPS pour la connexion de découverte automatique.  |
-|Serveurs frontaux  |Composant serveur Web  |8060  |TCP (MTLS)  ||
-|Serveurs frontaux  |Composant serveur Web  |8061  |TCP (MTLS)  ||
+|Serveurs frontaux  |Skype Entreprise Server service de conférence de messagerie instantanée  |5062  |TCP  |Utilisé pour les demandes SIP entrantes dans le cadre de conférences de messagerie instantanée.  |
+|Serveurs frontaux  |Skype Entreprise Server service de conférence web  |8057  |TCP (TLS)  |Utilisé pour l’écoute des connexions PSOM (Persistent Shared Object Model) à partir d’un client.  |
+|Serveurs frontaux  |Skype Entreprise Server service de compatibilité de conférence web  |8058  |TCP (TLS)  |Utilisé pour écouter les connexions PSOM (Persistent Shared Object Model) à partir du client Live Meeting et des versions antérieures de Skype Entreprise Server.  |
+|Serveurs frontaux  |Skype Entreprise Server service de conférence audio/vidéo  |5063  |TCP  |Utilisé pour les demandes SIP entrantes dans le cadre de conférences audio/vidéo (A/V).  |
+|Serveurs frontaux  |Skype Entreprise Server service de conférence audio/vidéo  |57501-65535  |TCP/UDP  |Plage de ports multimédias utilisée pour les conférences vidéo.  |
+|Serveurs frontaux  |Skype Entreprise Server service de compatibilité web  |80  |HTTP  |Utilisé pour les communications à partir des serveurs frontaux vers les noms de domaine complets des batteries de serveurs web (URL utilisées par les composants web IIS) lorsque HTTPS n’est pas utilisé.  |
+|Serveurs frontaux  |Skype Entreprise Server service de compatibilité web  |443  |HTTPS  |Utilisé pour les communications à partir des serveurs frontaux vers les noms de domaine complets des batteries de serveurs web (URL utilisées par les composants web IIS).  |
+|Serveurs frontaux  |Skype Entreprise Server service de compatibilité web  |8080  |TCP et HTTP  |Utilisé par les composants web pour l’accès externe.  |
+|Serveurs frontaux  |Composant de serveur Web  |4443  |HTTPS  |Communications HTTPS (à partir d’un proxy inverse) et entre les pool frontaux HTTPS pour la connexion de découverte automatique.  |
+|Serveurs frontaux  |Composant de serveur Web  |8060  |TCP (MTLS)  ||
+|Serveurs frontaux  |Composant de serveur Web  |8061  |TCP (MTLS)  ||
 |Serveurs frontaux  |Composant Mobility Services  |5086  |TCP (MTLS)  |Port SIP utilisé par les processus internes mobility services  |
 |Serveurs frontaux  |Composant Mobility Services  |5087  |TCP (MTLS)  |Port SIP utilisé par les processus internes mobility services  |
 |Serveurs frontaux  |Composant Mobility Services  |443  |HTTPS  ||
 |Serveurs frontaux  |Skype Entreprise Server Assistant de conférence service (conférences téléphoniques)  |5064  |TCP  |Utilisé pour les demandes SIP entrantes dans le cadre de conférences rendez-vous.  |
 |Serveurs frontaux  |Skype Entreprise Server Assistant de conférence service (conférences téléphoniques)  |5072  |TCP  |Utilisé pour les demandes SIP entrantes pour attendant (conférences téléphoniques).  |
-|Serveurs frontaux qui exécutent également un serveur de médiation colocalisé.  |Skype Entreprise Server Service de médiation  |5070  |TCP  |Utilisé par le serveur de médiation pour les demandes entrantes du serveur frontal vers le serveur de médiation.  |
-|Serveurs frontaux qui exécutent également un serveur de médiation colocalisé.  |Skype Entreprise Server Service de médiation  |5067  |TCP (TLS)  |Utilisé pour les demandes SIP entrantes de la passerelle PSTN vers le serveur de médiation.  |
-|Serveurs frontaux qui exécutent également un serveur de médiation colocalisé.  |Skype Entreprise Server Service de médiation  |5068  |TCP  |Utilisé pour les demandes SIP entrantes de la passerelle PSTN vers le serveur de médiation.  |
-|Serveurs frontaux qui exécutent également un serveur de médiation colocalisé.  |Skype Entreprise Server Service de médiation  |5081  |TCP  |Utilisé pour les demandes SIP sortantes du serveur de médiation vers la passerelle PSTN.  |
-|Serveurs frontaux qui exécutent également un serveur de médiation colocalisé.  |Skype Entreprise Server Service de médiation  |5082  |TCP (TLS)  |Utilisé pour les demandes SIP sortantes du serveur de médiation vers la passerelle PSTN.  |
-|Serveurs frontaux  |Skype Entreprise Server Service de partage d’application  |5065  |TCP  |Utilisé pour les demandes d’écoute SIP entrantes dans le cadre du partage d’application.  |
-|Serveurs frontaux  |Skype Entreprise Server Service de partage d’application  |49152-65535  |TCP  |Plage de ports multimédias utilisée pour le partage d’application.  |
+|Serveurs frontaux qui exécutent également un serveur de médiation colocalisé.  |Skype Entreprise Server de médiation  |5070  |TCP  |Utilisé par le serveur de médiation pour les demandes entrantes du serveur frontal vers le serveur de médiation.  |
+|Serveurs frontaux qui exécutent également un serveur de médiation colocalisé.  |Skype Entreprise Server de médiation  |5067  |TCP (TLS)  |Utilisé pour les demandes SIP entrantes de la passerelle PSTN vers le serveur de médiation.  |
+|Serveurs frontaux qui exécutent également un serveur de médiation colocalisé.  |Skype Entreprise Server de médiation  |5068  |TCP  |Utilisé pour les demandes SIP entrantes de la passerelle PSTN vers le serveur de médiation.  |
+|Serveurs frontaux qui exécutent également un serveur de médiation colocalisé.  |Skype Entreprise Server de médiation  |5081  |TCP  |Utilisé pour les demandes SIP sortantes du serveur de médiation vers la passerelle PSTN.  |
+|Serveurs frontaux qui exécutent également un serveur de médiation colocalisé.  |Skype Entreprise Server de médiation  |5082  |TCP (TLS)  |Utilisé pour les demandes SIP sortantes du serveur de médiation vers la passerelle PSTN.  |
+|Serveurs frontaux  |Skype Entreprise Server service de partage d’application  |5065  |TCP  |Utilisé pour les demandes d’écoute SIP entrantes dans le cadre du partage d’application.  |
+|Serveurs frontaux  |Skype Entreprise Server service de partage d’application  |49152-65535  |TCP  |Plage de ports multimédias utilisée pour le partage d’application.  |
 |Serveurs frontaux  |Skype Entreprise Server Annonce de conférence service  |5073  |TCP  |Utilisé pour les demandes SIP entrantes pour le service Skype Entreprise Server Annonce de conférence (c’est-à-dire, pour les conférences entrantes).  |
-|Serveurs frontaux  |Skype Entreprise Server Service de parcier d’appel  |5075  |TCP  |Utilisé pour les demandes SIP entrantes de l’application de parcage d’appel.  |
-|Serveurs frontaux  |Skype Entreprise Server Service de test audio  |5076  |TCP  |Utilisé pour les demandes SIP entrantes du service de test audio.  |
+|Serveurs frontaux  |Skype Entreprise Server service de parc d’appel  |5075  |TCP  |Utilisé pour les demandes SIP entrantes de l’application de parcage d’appel.  |
+|Serveurs frontaux  |Skype Entreprise Server service de test audio  |5076  |TCP  |Utilisé pour les demandes SIP entrantes du service de test audio.  |
 |Serveurs frontaux  |Non applicable  |5066  |TCP  |Utilisé pour la passerelle Enhanced 9-1-1 (E9-1-1) sortante.  |
-|Serveurs frontaux  |Skype Entreprise Server Service Response Group  |5071  |TCP  |Utilisé pour les demandes SIP entrantes de l’application Response Group.  |
-|Serveurs frontaux  |Skype Entreprise Server Service Response Group  |8404  |TCP (MTLS)  |Utilisé pour les demandes SIP entrantes de l’application Response Group.  |
-|Serveurs frontaux  |Skype Entreprise Server Service de stratégie de bande passante  |5080  |TCP  |Utilisé pour le contrôle d’admission des appels par le service de stratégie de bande passante, lui-même utilisé pour le trafic TURN Edge A/V.  |
-|Serveurs frontaux  |Skype Entreprise Server Accès au serveur de partage de fichiers  |445   |SMB/TCP  | Utilisé pour récupérer le carnet d’adresses, le contenu des réunions et d’autres éléments stockés sur le serveur de partage de fichiers.  |
-|Serveurs frontaux  |Skype Entreprise Server Service de stratégie de bande passante  |448  |TCP  |Utilisé pour le contrôle d’admission des appels par Skype Entreprise Server service de stratégie de bande passante.  |
-|Serveurs frontaux où réside le magasin central de gestion  | Skype Entreprise Server Service d’agent réplicateur maître |445  |TCP  |Permet de pousser les données de configuration du magasin central de gestion vers les serveurs exécutant Skype Entreprise Server.  |
-|Tous les serveurs  |SQL Browser  |1434  |UDP  |SQL Navigateur pour la copie répliquée locale des données du magasin central de gestion dans l’instance SQL Server locale  |
-|Tous les serveurs internes  |Divers  |49152-57500  |TCP/UDP  |Plage de ports multimédias utilisée pour les conférences audio sur tous les serveurs internes. Utilisé par tous les serveurs qui arrêtent l’audio : les serveurs frontux (pour le service Skype Entreprise Server Assistant de conférence, le service Skype Entreprise Server Annonce de conférence et le service de conférence audio/vidéo Skype Entreprise Server) et le serveur de médiation.  |
-|Office Serveurs Web Apps  ||443  ||Utilisé par Skype Entreprise Server pour se connecter à Office Web Apps Server.  |
+|Serveurs frontaux  |Skype Entreprise Server service Response Group  |5071  |TCP  |Utilisé pour les demandes SIP entrantes de l’application Response Group.  |
+|Serveurs frontaux  |Skype Entreprise Server service Response Group  |8404  |TCP (MTLS)  |Utilisé pour les demandes SIP entrantes de l’application Response Group.  |
+|Serveurs frontaux  |Skype Entreprise Server de stratégie de bande passante  |5080  |TCP  |Utilisé pour le contrôle d’admission des appels par le service de stratégie de bande passante, lui-même utilisé pour le trafic TURN Edge A/V.  |
+|Serveurs frontaux  |Skype Entreprise Server serveur de partage de fichiers  |445   |SMB/TCP  | Utilisé pour récupérer le carnet d’adresses, le contenu des réunions et d’autres éléments stockés sur le serveur de partage de fichiers.  |
+|Serveurs frontaux  |Skype Entreprise Server de stratégie de bande passante  |448  |TCP  |Utilisé pour le contrôle d’admission des appels par Skype Entreprise Server service de stratégie de bande passante.  |
+|Serveurs frontaux où réside le magasin central de gestion  | Skype Entreprise Server service agent réplicateur maître |445  |TCP  |Permet de pousser les données de configuration du magasin central de gestion vers les serveurs exécutant Skype Entreprise Server.  |
+|Tous les serveurs  |SQL Browser  |1434  |UDP  |SQL navigateur pour la copie répliquée locale des données du magasin central de gestion dans l’instance SQL Server locale  |
+|Tous les serveurs internes  |Divers  |49152-57500  |TCP/UDP  |Plage de ports multimédias utilisée pour les conférences audio sur tous les serveurs internes. Utilisé par tous les serveurs qui arrêtent l’audio : serveurs frontux (pour le service Skype Entreprise Server Assistant de conférence, Skype Entreprise Server Annonce de conférence service et Skype Entreprise Server service de conférence audio/vidéo) et serveur de médiation.  |
+|Office Web Apps Servers  ||443  ||Utilisé par Skype Entreprise Server pour se connecter à Office Web Apps Server.  |
 |Directeurs  |Skype Entreprise Server Front-End service  |5060  |TCP  |Utilisé facultativement pour les itinéraires statiques vers des services approuvés, comme les serveurs de contrôle d’appel distant.  |
 |Directeurs  |Skype Entreprise Server Front-End service  |444  |HTTPS  <br/> TCP  |Communication entre serveurs frontaux et directeurs. En outre, le certificat client est publié (sur les serveurs frontux) ou validé s’il a déjà été publié.  |
-|Directeurs  |Skype Entreprise Server Service de compatibilité web  |80  |TCP  |Utilisé pour les communications initiales entre les directeurs et les noms de domaine complets des batteries de serveurs web (URL utilisées par les composants web IIS). En fonctionnement normal, bascule vers le trafic HTTPS en utilisant le port 443 et le type de protocole TCP.  |
-|Directeurs  |Skype Entreprise Server Service de compatibilité web  |443  |HTTPS  |Utilisé pour les communications entre les directeurs et les noms de domaine complets des batteries de serveurs web (URL utilisées par les composants web IIS).  |
+|Directeurs  |Skype Entreprise Server service de compatibilité web  |80  |TCP  |Utilisé pour les communications initiales entre les directeurs et les noms de domaine complets des batteries de serveurs web (URL utilisées par les composants web IIS). En fonctionnement normal, bascule vers le trafic HTTPS en utilisant le port 443 et le type de protocole TCP.  |
+|Directeurs  |Skype Entreprise Server service de compatibilité web  |443  |HTTPS  |Utilisé pour les communications entre les directeurs et les noms de domaine complets des batteries de serveurs web (URL utilisées par les composants web IIS).  |
 |Directeurs  |Skype Entreprise Server Front-End service  |5061  |TCP  |Utilisé pour les communications internes entre serveurs et pour les connexions client.  |
-|Serveurs de médiation  |Skype Entreprise Server Service de médiation  |5070  |TCP  |Utilisé par le serveur de médiation pour les demandes entrantes du serveur frontal.  |
-|Serveurs de médiation  |Skype Entreprise Server Service de médiation  |5067  |TCP (TLS)  |Utilisé pour les demandes SIP entrantes de la passerelle PSTN.  |
-|Serveurs de médiation  |Skype Entreprise Server Service de médiation  |5068  |TCP  |Utilisé pour les demandes SIP entrantes de la passerelle PSTN.  |
-|Serveurs de médiation  |Skype Entreprise Server Service de médiation  |5070  |TCP (MTLS)  |Utilisé pour les demandes SIP des serveurs frontaux.  |
+|Serveurs de médiation  |Skype Entreprise Server de médiation  |5070  |TCP  |Utilisé par le serveur de médiation pour les demandes entrantes du serveur frontal.  |
+|Serveurs de médiation  |Skype Entreprise Server de médiation  |5067  |TCP (TLS)  |Utilisé pour les demandes SIP entrantes de la passerelle PSTN.  |
+|Serveurs de médiation  |Skype Entreprise Server de médiation  |5068  |TCP  |Utilisé pour les demandes SIP entrantes de la passerelle PSTN.  |
+|Serveurs de médiation  |Skype Entreprise Server de médiation  |5070  |TCP (MTLS)  |Utilisé pour les demandes SIP des serveurs frontaux.  |
 |Serveur frontal de conversation permanente  |SiP de conversation permanente  |5041  |TCP (MTLS)  ||
 |Serveur frontal de conversation permanente  |Persistent Chat Windows Communication Foundation (WCF)  |881  |TCP (TLS) et TCP (MTLS)  ||
 |Serveur frontal de conversation permanente  |Service de transfert de fichiers de conversation permanente  |443  |TCP (TLS)  ||
@@ -152,7 +147,7 @@ Vos pools frontaux et pools directeurs qui font appel à l’équilibrage de cha
 
 **Ports client requis**
 
-|Composant|Port|Protocole|Notes|
+|Composant|Port|Protocole|Remarques|
 |:-----|:-----|:-----|:-----|
 |Clients  |67/68  |DHCP  |Utilisé par Skype Entreprise Server pour rechercher le FQDN du bureau d’enregistrement (c’est-à-dire, si DNS SRV échoue et que les paramètres manuels ne sont pas configurés).  |
 |Clients  |443  |TCP (TLS)  |Utilisé pour le trafic SIP client à serveur pour l’accès des utilisateurs externes.  |
@@ -177,7 +172,7 @@ Vos pools frontaux et pools directeurs qui font appel à l’équilibrage de cha
   
 ## <a name="ipsec-exceptions"></a>Exceptions IPsec
 
-Pour les réseaux d’entreprise où la sécurité du protocole Internet (IPsec) (voir la RFC 4301-4309 de l’IETF) a été déployée, IPsec doit être désactivée sur la plage de ports utilisée pour la distribution de l’audio, de la vidéo et de la vidéo panoramique. Cette recommandation s’explique par la nécessité d’éviter tout retard dans l’affectation des ports multimédias lors de la négociation IPsec.
+Pour les réseaux d’entreprise où la sécurité du protocole Internet (IPsec) (voir RFC 4301-4309 de l’IETF) a été déployée, IPsec doit être désactivée sur la plage de ports utilisée pour la distribution de l’audio, de la vidéo et de la vidéo panoramique. Cette recommandation s’explique par la nécessité d’éviter tout retard dans l’affectation des ports multimédias lors de la négociation IPsec.
   
 Le tableau suivant présente les paramètres recommandés pour les exceptions IPsec. 
   

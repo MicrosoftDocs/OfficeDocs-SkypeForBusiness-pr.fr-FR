@@ -1,31 +1,26 @@
 ---
 title: Utiliser des modèles d’équipe gouvernementale dans le Centre d’administration
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment utiliser des modèles d’équipe pour créer des structures d’équipe conçues pour les besoins du gouvernement en fournissant des paramètres, des canaux et des applications préinstallées à l’aide du Centre d’administration.
+description: 'Découvrez comment utiliser des modèles d’équipe pour créer des structures d’équipe conçues pour les besoins du gouvernement en fournissant des paramètres, des canaux et des applications préinstallées à l’aide du Centre d’administration.'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- NewAdminCenter_Update
-- seo-marvel-apr2020
+  - NewAdminCenter_Update
+  - seo-marvel-apr2020
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 819eb3297ae3b486e7c9d93053911c5090cfae29
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840746"
+  - Microsoft Teams
 ---
+
 # <a name="use-government-team-templates-in-the-admin-center"></a>Utiliser des modèles d’équipe gouvernementale dans le Centre d’administration
 
 Les modèles d’équipe vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéféré de paramètres, de canaux et d’applications préinstallées.
@@ -36,7 +31,7 @@ Dans cet article, nous introduisons chacun des modèles d’équipe et vous reco
 
 Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation gouvernementale. Vous avez déjà déployé le service Teams dans votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire l’article [Comment déployer Microsoft Teams](./deploy-overview.md).
 
-Pour en savoir plus sur les modèles d’équipe en général, voir [Commencer à utiliser les modèles d’équipe.](get-started-with-teams-templates-in-the-admin-console.md)
+Pour en savoir plus sur les modèles d’équipe en général, voir [Commencer à utiliser les modèles d’équipe](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="coordinate-incident-response"></a>Coordonner la réponse à un incident
 

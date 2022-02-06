@@ -1,27 +1,22 @@
 ---
 title: Nœud d’étendue du serveur frontal
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.FrontEndServerScopeNode
+  - ms.lync.tb.FrontEndServerScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
-description: 'Ce nœud montre les informations relatives à la configuration de ce pool frontal ou de ce serveur Standard Edition Server. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 3dd4e28583662e367bcb925f50910a524eeec57a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828867"
+description: "Ce nœud montre les informations relatives à la configuration de ce pool frontal ou de ce serveur Standard Edition Server. Vous pouvez effectuer les actions suivantes\_:"
 ---
+
 # <a name="front-end-server-scope-node"></a>Nœud d’étendue du serveur frontal
  
 Ce nœud montre les informations relatives à la configuration de ce pool frontal ou de ce serveur Standard Edition Server. Vous pouvez effectuer les actions suivantes :

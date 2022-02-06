@@ -1,34 +1,30 @@
 ---
 title: 'Lync Server 2013 : Gestion de la fédération et de l’accès externe aux Skype Entreprise Server'
-ms.reviewer: ''
-ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
-ms:contentKeyID: 48183665
+ms.reviewer: null
+'ms:assetid': 26f806c1-f284-4637-b06b-06270336c540
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)'
+'ms:contentKeyID': 48183665
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: Vous activez et configurez l’accès des utilisateurs externes pour contrôler si les utilisateurs externes pris en charge peuvent collaborer avec des utilisateurs Skype Entreprise Server internes.
-ms.openlocfilehash: 42e0644cbad51681f979f83041e4c260788039d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836366"
 ---
+
+
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>Gestion de la fédération et de l’accès externe aux Skype Entreprise Server
 
 La première étape du processus de définition de la prise en charge des utilisateurs externes consiste à déployer un serveur Edge ou un pool Edge. Pour plus d’informations sur le déploiement des serveurs Edge, voir [Deploy Edge Server in Skype Entreprise Server](../../deploy/deploy-edge-server/deploy-edge-server.md).
 
 Après avoir installé et configuré votre déploiement interne de Skype Entreprise Server, les utilisateurs internes de votre organisation peuvent collaborer avec d’autres utilisateurs internes qui ont des comptes SIP dans vos services de domaine Active Directory (AD DS). La collaboration peut prendre la forme d’envoi et réception de messages instantanés et de mise à jour du statut de présence ainsi que la participation à des conférences (ou réunions). Vous activez et configurez l’accès des utilisateurs externes pour contrôler si les utilisateurs externes pris en charge peuvent collaborer avec des utilisateurs Skype Entreprise Server internes. Les utilisateurs externes peuvent inclure les utilisateurs distants de votre déploiement, les utilisateurs fédérés (y compris les utilisateurs pris en charge des fournisseurs de services de messagerie instantanée publics) et les participants anonymes aux conférences.
 
-Si votre déploiement incluait l’installation d’un serveur Edge Skype Entreprise Server ou d’un pool de serveurs Edge, l’étendue des types de communication possibles est largement étendue avec un certain nombre d’options pour l’accès des utilisateurs externes, la communication avec les membres d’autres domaines fédérés SIP et fournisseurs fédérés SIP. Après avoir configuré le serveur Edge ou le pool de serveurs Edge, vous activez les types d’accès des utilisateurs externes que vous souhaitez fournir et configurez les stratégies à contrôler pour l’accès externe. Dans Skype Entreprise Server, vous activez et configurez l’accès des utilisateurs externes et les stratégies à l’aide du Panneau de configuration Skype Entreprise Server, de l’environnement de Skype Entreprise Server [Management Shell](../management-shell.md)ou des deux, en fonction des exigences des tâches. 
+Si votre déploiement incluait l’installation d’un serveur Edge Skype Entreprise Server ou d’un pool de serveurs Edge, l’étendue des types de communication possibles est largement étendue avec un certain nombre d’options pour l’accès des utilisateurs externes, la communication avec les membres d’autres domaines fédérés SIP et fournisseurs fédérés SIP. Après avoir configuré le serveur Edge ou le pool de serveurs Edge, vous activez les types d’accès des utilisateurs externes que vous souhaitez fournir et configurez les stratégies à contrôler pour l’accès externe. Dans Skype Entreprise Server, vous activez et configurez l’accès des utilisateurs externes et les stratégies à l’aide du Panneau de configuration Skype Entreprise Server, de l’environnement de Skype Entreprise Server [Management Shell](../management-shell.md) ou des deux, en fonction des besoins des tâches. 
 
 
 
@@ -52,33 +48,33 @@ Configurez les paramètres comme détaillé dans les rubriques [Configure polici
 
 **Voulez-vous autoriser les utilisateurs anonymes à participer et être invité à des conférences hébergées par des utilisateurs au sein de votre déploiement ?**
 
-Configurez les paramètres comme détaillé [](access-edge/assign-conferencing-policies-to-support-anonymous-users.md) dans la rubrique Affecter des stratégies de conférence pour prendre en charge les utilisateurs anonymes et créer des stratégies [de conférence.](../conferencing/create-policies.md)
+Configurez les paramètres comme détaillé dans la rubrique Affecter [](access-edge/assign-conferencing-policies-to-support-anonymous-users.md) des stratégies de conférence pour prendre en charge les utilisateurs anonymes et créer des [stratégies de conférence](../conferencing/create-policies.md).
 
 **Voulez-vous autoriser les utilisateurs à communiquer avec des contacts de domaines fédérés SIP ?**
 
-Configurez les paramètres comme détaillé dans les [rubriques](external-access-policies/configure-policies-to-control-federated-user-access.md)Configurer des stratégies pour contrôler l’accès des utilisateurs fédérés, Activer ou désactiver la fédération et la connectivité [DE](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)messagerie instantanée publique, et Gérer les domaines fédérés [SIP](sip-domains/manage-sip-federated-domains-for-your-organization.md)pour votre organisation.
+Configurez les paramètres comme détaillé dans les rubriques Configure [policies to control federated user access](external-access-policies/configure-policies-to-control-federated-user-access.md), [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md), and [Manage SIP federated domains for your organization](sip-domains/manage-sip-federated-domains-for-your-organization.md).
 
 
 **Si vous avez activé la communication avec les domaines fédérés SIP, souhaitez-vous activer la découverte automatique de fédération SIP ?**
 
-Configurez les paramètres comme détaillé dans la rubrique Activer ou désactiver la [découverte des partenaires de fédération.](access-edge/enable-or-disable-discovery-of-federation-partners.md)
+Configurez les paramètres comme détaillé dans la rubrique Activer ou désactiver la [découverte des partenaires de fédération](access-edge/enable-or-disable-discovery-of-federation-partners.md).
 
 **Si vous avez activé la communication avec les domaines de fédération SIP, voulez-vous activer l’envoi d’un dédit de responsabilité aux contacts fédérés leur indiquant que vous utilisez l’archivage et que les communications peuvent être archivées ?**
 
-Configurez les paramètres comme détaillé dans la rubrique Activer ou désactiver l’envoi d’une clause d’exclusion de responsabilité d’archivage aux partenaires [fédérés dans](access-edge/enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md).
+Configurez les paramètres comme détaillé dans la rubrique Activer ou désactiver l’envoi d’une clause d’exclusion de responsabilité d’archivage aux [partenaires fédérés](access-edge/enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md).
 
 **Voulez-vous autoriser les utilisateurs à communiquer avec les fournisseurs fédérés SIP qui permettent la communication avec des fournisseurs publics ?**
 
-Configurez les paramètres comme détaillé dans les [rubriques](external-access-policies/configure-policies-to-control-public-user-access.md)Configurer des stratégies pour contrôler l’accès des utilisateurs publics, Activer ou désactiver la fédération et la connectivité [DE](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)messagerie instantanée publique, et créer ou modifier des fournisseurs fédérés [SIP](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-public-sip-federated-providers-in-skype-for-business-server) publics
+Configurez les paramètres comme détaillé dans les rubriques Configure [policies to control public user access](external-access-policies/configure-policies-to-control-public-user-access.md), [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md), and [Create or edit public SIP federated providers](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-public-sip-federated-providers-in-skype-for-business-server)
 
 
 **Voulez-vous autoriser les utilisateurs à communiquer avec des fournisseurs fédérés SIP qui sont des fournisseurs hébergés exécutant Microsoft 365 ou Office 365 et Skype Entreprise Online ?**
 
-Configurez les paramètres comme détaillé dans les rubriques Activer ou désactiver la fédération et la connectivité [DE](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) messagerie instantanée publique et créer ou modifier des fournisseurs fédérés [SIP hébergés.](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server)
+Configurez les paramètres comme détaillé dans les rubriques Activer ou désactiver la fédération et la connectivité [DE](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) messagerie instantanée publique et créer ou modifier des fournisseurs fédérés [SIP hébergés](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server).
 
 **Votre déploiement est-il configuré dans un domaine séparé (ou domaine hybride), dans lequel certains utilisateurs possèdent leur serveur central dans un déploiement local et d’autres dans un environnement en ligne ?**
 
-Configurez les paramètres comme détaillé dans les [rubriques](external-access-policies/configure-policies-to-control-federated-user-access.md)Configurer des stratégies pour contrôler l’accès des utilisateurs fédérés, Activer ou désactiver la fédération et la connectivité [DE](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)messagerie instantanée publique, et créer ou modifier des fournisseurs fédérés [SIP hébergés.](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server)
+Configurez les paramètres comme détaillé dans les rubriques Configure [policies to control federated user access](external-access-policies/configure-policies-to-control-federated-user-access.md), [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md), and [Create or edit hosted SIP federated providers](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server).
 
 
 Vous pouvez configurer les paramètres d’accès des utilisateurs externes, y compris les stratégies de contrôle de l’accès des utilisateurs externes, même si vous n’avez pas activé l’accès des utilisateurs externes pour votre organisation. Toutefois, les stratégies et les autres paramètres que vous configurez ne prennent effet que lorsque vous activez l’accès des utilisateurs externes pour votre organisation. Les utilisateurs externes ne peuvent pas communiquer avec les utilisateurs de votre organisation si l’accès des utilisateurs externes est désactivé ou si aucune stratégie de prise en charge de l’accès des utilisateurs externes n’a été configurée.

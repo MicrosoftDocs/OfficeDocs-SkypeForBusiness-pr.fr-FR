@@ -1,23 +1,19 @@
 ---
 title: Liaison de régions réseau
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 'Vous pouvez configurer les liens entre deux régions réseau dans le cadre du service Contrôle d’admission des appels (CAC). '
-ms.openlocfilehash: 718f9223749c86fdff5ce98d1d652a0a3f1a9fbc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841176"
 ---
+
+
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Liaison des régions réseau dans Skype Entreprise Server
 
 Vous pouvez configurer les liens entre deux régions réseau dans le cadre du service Contrôle d’admission des appels (CAC). Utilisez les sections de cet article pour afficher les informations de lien de région de travail nouveau ou configurer ou supprimer des liens de région netwrok. 
@@ -33,7 +29,7 @@ Vous pouvez afficher les liens entre deux régions réseau dans le cadre du serv
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis cliquez sur **Lien de région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Lien de région**.
 
 4.  Dans la page **Lien de région**, cliquez sur le lien de région que vous souhaitez afficher.
     
@@ -44,7 +40,7 @@ Vous pouvez afficher les liens entre deux régions réseau dans le cadre du serv
 
 ### <a name="view-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Afficher les informations de lien de région réseau à l’aide Windows PowerShell cmdlets
 
-Vous pouvez afficher les liens de région réseau à l’Windows PowerShell et à l’aide de l’cmdlet **Get-CsNetworkRegionLink.** Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+Vous pouvez afficher les liens de région réseau à l’Windows PowerShell et à l’aide de l’cmdlet **Get-CsNetworkRegionLink**. Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 
 ### <a name="to-view-network-region-link-information"></a>Pour afficher les informations d’un lien de région réseau
@@ -71,7 +67,7 @@ Vous pouvez configurer les liens entre deux régions réseau dans le cadre du se
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis cliquez sur **Lien de région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Lien de région**.
 
 4.  Dans la page **Lien de région**, cliquez sur **Nouveau**.
 
@@ -80,9 +76,9 @@ Vous pouvez configurer les liens entre deux régions réseau dans le cadre du se
     > [!NOTE]  
     > Cette valeur doit être unique au sein de votre Skype Entreprise Server déploiement.
 
-6.  Dans la liste de listes de listes listes de la région Réseau **\# 1,** sélectionnez l’une des deux régions à l lié.
+6.  Dans la **liste \#** de listes de listes listes de la région Réseau 1, sélectionnez l’une des deux régions à l lié.
 
-7.  Dans la liste de listes bas Région réseau **\# 2,** sélectionnez l’autre région à l’l lié. Cette région doit être différente de la région sélectionnée pour la région \# réseau 1.
+7.  Dans la **liste \#** de listes bas Région réseau 2, sélectionnez l’autre région à l’l lié. Cette région doit être différente de la région sélectionnée pour la région réseau \#1.
 
 8.  (Facultatif) Si vous souhaitez ajouter des limites de bande passante sur les appels audio ou vidéo entre ces régions, sélectionnez un profil de stratégie de bande passante dans la liste déroulante **Stratégie de bande passante**.
 
@@ -94,7 +90,7 @@ Vous pouvez configurer les liens entre deux régions réseau dans le cadre du se
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis cliquez sur **Lien de région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Lien de région**.
 
 4.  Dans la page **Lien de région**, cliquez sur le lien de région que vous souhaitez modifier.
 
@@ -115,7 +111,7 @@ Vous pouvez configurer les liens entre deux régions réseau dans le cadre du se
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis cliquez sur **Lien de région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Lien de région**.
 
 4.  Dans la page **Lien de région**, cliquez sur le lien de région que vous souhaitez supprimer.
  

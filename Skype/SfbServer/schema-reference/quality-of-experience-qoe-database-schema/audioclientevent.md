@@ -1,25 +1,20 @@
 ---
 title: Table AudioClientEvent
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
-description: Chaque enregistrement contient un événement client pour un point de terminaison dans un appel audio. En règle générale, un appel a deux enregistrements, un pour l’appelant et un pour l’appelé.
-ms.openlocfilehash: e51146211567af3abfe68fdc415814d433e84884
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843647"
+description: 'Chaque enregistrement contient un événement client pour un point de terminaison dans un appel audio. En règle générale, un appel a deux enregistrements, un pour l’appelant et un pour l’appelé.'
 ---
+
 # <a name="audioclientevent-table"></a>Table AudioClientEvent
  
 Chaque enregistrement contient un événement client pour un point de terminaison dans un appel audio. En règle générale, un appel a deux enregistrements, un pour l’appelant et un pour l’appelé.
