@@ -1,29 +1,24 @@
 ---
-title: Déconnexion de Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: "Déconnexion de Microsoft\_Teams"
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: sbhatta
-description: Découvrez comment vous déconnecter de Microsoft Teams.
+description: "Découvrez comment vous déconnecter de Microsoft\_Teams."
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 f1.keywords:
-- NOCSH
+  - NOCSH
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: ba5789dac9d54de153c6d4c712a2d68367ad79c0
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513595"
+  - Microsoft Teams
 ---
+
 # <a name="sign-out-of-microsoft-teams"></a>Déconnexion de Microsoft Teams
 
 Nous recommandons aux utilisateurs de rester connectés à l’application Microsoft Teams pour continuer à recevoir des conversations, des appels entrants et d’autres activités. Nous comprenons que, parfois, les utilisateurs peuvent vouloir se déconnecter de l’application Teams pour plusieurs raisons :

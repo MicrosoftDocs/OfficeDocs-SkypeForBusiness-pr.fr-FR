@@ -1,39 +1,34 @@
 ---
-title: Déployer des régions réseau, des sites et des sous-réseaux dans Skype Entreprise
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 'Déployer des régions réseau, des sites et des sous-réseaux dans Skype Entreprise'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Créez ou modifiez des régions réseau, des sites réseau et associez des sous-réseaux dans Skype Entreprise Server. Toutes ces fonctionnalités sont utilisées pour les fonctionnalités Voix Entreprise avancées : déviation du média, contrôle d’admission des appels et routage géolocal.'
-ms.openlocfilehash: 4d726466153f30b7c5fdd3ac478b1b2444838ae6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856301"
 ---
+
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Déployer des régions réseau, des sites et des sous-réseaux dans Skype Entreprise
 
 Créez ou modifiez des régions réseau, des sites réseau et associez des sous-réseaux dans Skype Entreprise Server. Toutes ces fonctionnalités sont utilisées pour les fonctionnalités Voix Entreprise avancées : déviation du média, contrôle d’admission des appels et routage géolocal.
 
-Les fonctionnalités Voix Entreprise avancées sont le contrôle [d’admission](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)des [appels,](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)le contournement de média, le [routage](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)basé sur l’emplacement et [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Ces fonctionnalités nécessitent toutes la création de régions réseau, de sites réseau et de sous-réseaux. Par exemple, toutes ces fonctionnalités nécessitent que chaque sous-réseau de votre topologie soit associé à un site réseau spécifique, et que chaque site réseau soit associé à une région réseau. Pour plus d’informations sur ces termes, voir Paramètres réseau pour les [fonctionnalités Voix Entreprise avancées dans Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md).
+Les fonctionnalités Voix Entreprise avancées sont le contrôle [d’admission](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md) des [appels, le](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md) contournement de média, le [routage](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) géolocal et [le système E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Ces fonctionnalités nécessitent toutes la création de régions réseau, de sites réseau et de sous-réseaux. Par exemple, toutes ces fonctionnalités nécessitent que chaque sous-réseau de votre topologie soit associé à un site réseau spécifique, et que chaque site réseau soit associé à une région réseau. Pour plus d’informations sur ces termes, voir Paramètres réseau pour les [fonctionnalités Voix Entreprise avancées dans Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md).
 
 Le contrôle d’admission des appels et E9-1-1 ont des exigences de configuration supplémentaires pour les sites réseau :
 
 - Le contrôle d’admission des appels nécessite de spécifier un profil de stratégie de bande passante pour chaque site soumis à des restrictions de bande passante de réseau étendu (WAN). Si vous envisagez de déployer le contrôle d’admission des appels, vous devez créer des profils de stratégie de bande passante [Skype Entreprise Server](create-bandwidth-policy-profiles.md) avant de configurer vos sites réseau.
 
-- E9-1-1 nécessite de spécifier une stratégie d’emplacement pour chaque site. Si vous prévoyez de déployer E9-1-1, vous devez créer des stratégies d’emplacement Skype Entreprise Server avant de configurer vos sites réseau. [](create-location-policies.md)
+- E9-1-1 nécessite de spécifier une stratégie d’emplacement pour chaque site. Si vous prévoyez de déployer E9-1-1, vous devez créer [](create-location-policies.md) des stratégies d’emplacement Skype Entreprise Server avant de configurer vos sites réseau.
 
 ## <a name="create-or-modify-a-network-region"></a>Créer ou modifier une région réseau
 
@@ -43,7 +38,7 @@ Toutefois, il est possible que vous soyez obligé de modifier la définition d�
 
 ### <a name="to-create-a-network-region-using-skype-for-business-server-management-shell"></a>Pour créer une région réseau à l’aide Skype Entreprise Server Management Shell
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
 
 2. Exécutez l’applet de commande New-CsNetworkRegion pour créer des régions réseau :
 
@@ -61,7 +56,7 @@ Toutefois, il est possible que vous soyez obligé de modifier la définition d�
 
 3. Pour finir de créer des régions réseau pour votre topologie, répétez l’étape 2 avec des paramètres pour chaque région réseau.
 
-### <a name="to-create-a-network-region-using-skype-for-business-server-control-panel"></a>Pour créer une région réseau à l’aide du Skype Entreprise Server de contrôle
+### <a name="to-create-a-network-region-using-skype-for-business-server-control-panel"></a>Pour créer une région réseau à l’aide Skype Entreprise Server de contrôle
 
 1. Ouvrez Skype Entreprise Server panneau de contrôle.
 
@@ -83,7 +78,7 @@ Toutefois, il est possible que vous soyez obligé de modifier la définition d�
 
 ### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>Pour modifier une région réseau à l’aide de Skype Entreprise Server Management Shell
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
 
 2. Exécutez l’applet de commande Set-CsNetworkRegion pour modifier une région réseau existante :
 
@@ -113,7 +108,7 @@ Toutefois, il est possible que vous soyez obligé de modifier la définition d�
 
 5. Cliquez sur **Modifier**, puis sur **Afficher les détails…**.
 
-6. Dans la page **Modifier la** région, modifiez les valeurs des paramètres de cette région réseau, le cas échéant.
+6. Dans la page **Modifier la** région, modifiez les valeurs des paramètres de cette région réseau selon le cas.
 
 7. Cliquez sur **Valider**.
 
@@ -125,7 +120,7 @@ Si vous avez déjà créé des sites réseau pour l’une de ces fonctionnalité
 
 ### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>Pour créer un site réseau à l’aide de Skype Entreprise Server Management Shell
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
 
 2. Exécutez l’applet de commande New-CsNetworkSite pour créer des sites réseau :
 
@@ -178,7 +173,7 @@ Si vous avez déjà créé des sites réseau pour l’une de ces fonctionnalité
 
 ### <a name="to-modify-a-network-site-by-using-skype-for-business-server-management-shell"></a>Pour modifier un site réseau à l’aide de Skype Entreprise Server Management Shell
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
 
 2. Exécutez l’applet de commande Set-CsNetworkSite pour modifier des sites réseau :
 
@@ -211,7 +206,7 @@ Si vous avez déjà créé des sites réseau pour l’une de ces fonctionnalité
 
 5. Cliquez sur **Modifier**, puis sur **Afficher les détails…**.
 
-6. Dans la page **Modifier le site,** modifiez les valeurs des paramètres de ce site réseau, le cas échéant.
+6. Dans la page **Modifier le site** , modifiez les valeurs des paramètres de ce site réseau, le cas échéant.
 
 7. Cliquez sur **Valider**.
 
@@ -226,7 +221,7 @@ Toutes les adresses IP publiques configurées des serveurs Edge audio/vidéo de 
 
 ### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>Pour associer un sous-réseau à un site réseau à l’aide de Skype Entreprise Server Management Shell
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
 
 2. Exécutez l’applet de commande **New-CsNetworkSubnet** pour associer un sous-réseau à un site réseau :
 
@@ -258,9 +253,9 @@ Toutes les adresses IP publiques configurées des serveurs Edge audio/vidéo de 
 
      `172.11.15.0, 31, "EMEA:Subnet in Paris", Paris`
 
-2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
 
-3. Exécutez l’cmdlet suivante pour importer **subnet.csv,** puis stockez son contenu dans le magasin de gestion Lync Server :
+3. Exécutez l’cmdlet suivante pour importer **subnet.csv**, puis stockez son contenu dans le magasin de gestion Lync Server :
 
    ```powershell
    import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
@@ -301,7 +296,7 @@ Les informations d’alerte pertinentes et un exemple sont présentés ci-dessou
 
  **Niveau** : 2
 
- **Description**: les sous-réseaux pour les adresses IP suivantes : ne sont pas configurés ou les sous-réseaux ne sont pas \<List of IP Addresses\> associés à un site réseau.
+ **Description** : les sous-réseaux pour les adresses IP suivantes : ne sont pas configurés \<List of IP Addresses\> ou les sous-réseaux ne sont pas associés à un site réseau.
 
  **Cause** : les sous-réseaux pour les adresses IP correspondantes sont absents des paramètres de configuration du réseau ou les sous-réseaux ne sont pas associés à un site réseau.
 

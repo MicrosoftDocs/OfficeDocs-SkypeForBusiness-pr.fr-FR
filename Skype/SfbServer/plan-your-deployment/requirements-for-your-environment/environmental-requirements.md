@@ -1,34 +1,29 @@
 ---
 title: Exigences environnementales pour Skype Entreprise Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
-description: 'Résumé : Configurez la configuration requise non-serveur pour Skype Entreprise Server 2015. Il existe plusieurs éléments que vous souhaitez configurer avant de déployer, notamment Active Directory, DNS, Certs et Fileshares.'
-ms.openlocfilehash: 1d6e43e9ca65af85c37f262900805d9e0d3b8bfe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834982"
+description: 'Résumé : Configurez la configuration requise non-serveur pour Skype Entreprise Server 2015. Vous devez configurer un grand nombre d’éléments avant de déployer, notamment Active Directory, DNS, Certs et Fileshares.'
 ---
+
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Exigences environnementales pour Skype Entreprise Server 2015
  
-**Résumé :** Configurez la configuration requise non-serveur pour Skype Entreprise Server 2015. Il existe plusieurs éléments que vous souhaitez configurer avant de déployer, notamment Active Directory, DNS, Certs et Fileshares.
+**Résumé :** Configurez la configuration requise non-serveur pour Skype Entreprise Server 2015. Vous devez configurer un grand nombre d’éléments avant de déployer, notamment Active Directory, DNS, Certs et Fileshares.
   
-Qu’est-ce qu’une exigence environnementale Skype Entreprise Server 2015 ? Nous avons placé tout ce qui n’est pas directement lié au serveur dans cette rubrique, donc vous n’avez pas besoin de cliquer autant autour de vous. Si vous recherchez les conditions préalables du serveur, vous pouvez consulter les conditions [](../../plan-your-deployment/network-requirements/network-requirements.md) requises pour le serveur pour la [documentation Skype Entreprise Server 2015.](server-requirements.md) La planification de la mise en réseau est également documentée séparément. Dans le cas contraire, voici ce que nous avons obtenu dans cet article :
+Qu’est-ce qu’une exigence environnementale Skype Entreprise Server 2015 ? Nous avons placé tout ce qui n’est pas directement lié au serveur dans cette rubrique, donc vous n’avez pas besoin de cliquer autant autour de vous. Si vous recherchez les conditions préalables du serveur, vous pouvez consulter les conditions requises pour le serveur pour la documentation [Skype Entreprise Server 2015](server-requirements.md)[. La](../../plan-your-deployment/network-requirements/network-requirements.md) planification de la mise en réseau est également documentée séparément. Dans le cas contraire, voici ce que nous avons obtenu dans cet article :
   
 - [Active Directory](environmental-requirements.md#AD)
   
@@ -57,9 +52,9 @@ Bien que de nombreuses données de configuration pour les serveurs et les servic
 
 Quel système d’exploitation du contrôleur de domaine peut-il être utilisé ? Nous avons la liste suivante :
 
-- Windows Server 2019 (vous devez avoir Skype Entreprise Server mise à jour cumulative 5 2015 ou ultérieure)
+- Windows Server 2019 (la mise à jour cumulative 5 ou Skype Entreprise Server 2015 doit être mise à jour)
   
-- Windows Server 2016
+- Windows Server 2016
     
 - Windows Server 2012 R2
     
@@ -71,9 +66,9 @@ Quel système d’exploitation du contrôleur de domaine peut-il être utilisé 
     
 À présent, le niveau fonctionnel de domaine de n’importe quel domaine dans qui vous déployez Skype Entreprise Server 2015 et le niveau fonctionnel de forêt de n’importe quelle forêt dans qui vous déployez Skype Entreprise Server 2015 doivent être l’un des suivants :
 
-- Windows Server 2019 (vous devez avoir Skype Entreprise Server mise à jour cumulative 5 2015 ou ultérieure)
+- Windows Server 2019 (la mise à jour cumulative 5 ou Skype Entreprise Server 2015 doit être mise à jour)
   
-- Windows Server 2016
+- Windows Server 2016
     
 - Windows Server 2012 R2
     
@@ -87,7 +82,7 @@ Quel système d’exploitation du contrôleur de domaine peut-il être utilisé 
     
 Pouvez-vous avoir des contrôleurs de domaine en lecture seule dans ces environnements ? Bien sûr, tant qu’il existe également des contrôleurs de domaine accessibles en Skype Entreprise Server.
   
-À présent, il est important de savoir que Skype Entreprise Server 2015 ne prend pas en charge les domaines en une seule partie. Qu'est-ce que c'est ? Si vous avez un domaine racine étiqueté contoso.local, cela va être correct. Si vous avez un domaine racine qui vient d’être nommé local, cela ne fonctionne pas et n’est donc pas pris en charge. Un peu plus d’informations à ce sujet ont été [écrites dans cet article de la Base de connaissances.](https://support.microsoft.com/kb/300684/en-us)
+À présent, il est important de savoir que Skype Entreprise Server 2015 ne prend pas en charge les domaines en une seule partie. Qu'est-ce que c'est ? Si vous avez un domaine racine étiqueté contoso.local, cela va être correct. Si vous avez un domaine racine qui vient d’être nommé local, cela ne fonctionne pas et n’est donc pas pris en charge. Un peu plus d’informations à ce sujet ont été [écrites dans cet article de la Base de connaissances](https://support.microsoft.com/kb/300684/en-us).
   
 Skype Entreprise Server 2015 ne prend pas en charge le changement de nom des domaines. Si vous devez vraiment le faire, vous devrez désinstaller Skype Entreprise Server 2015, renommer le domaine, puis réinstaller Skype Entreprise Server 2015.
   
@@ -125,7 +120,7 @@ Cela n’est pas plus simple, il s’agit d’une forêt de domaines unique, il 
 
 ![Diagramme de domaines à forêt unique, à arborescence unique et à mutiple.](../../media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
   
-Ce diagramme montre une forêt unique, encore une fois, mais il possède également un ou plusieurs domaines enfants (il en existe trois dans cet exemple spécifique). Le domaine dans qui les utilisateurs sont créés peut donc être différent du domaine Skype Entreprise Server 2015 est déployé. Pourquoi vous vous inquiétez ? Il est important de se souvenir que lorsque vous déployez un pool frontal Skype Entreprise Server, tous les serveurs de ce pool doivent se trouver dans un seul domaine. Vous pouvez avoir une administration entre domaines via Skype Entreprise Server prise en charge de Windows groupes d’administrateurs universels.
+Ce diagramme montre une forêt unique, encore une fois, mais il possède également un ou plusieurs domaines enfants (il en existe trois dans cet exemple spécifique). Le domaine dans Skype Entreprise Server 2015 est déployé. Pourquoi vous vous inquiétez ? Il est important de se souvenir que lorsque vous déployez un pool frontal Skype Entreprise Server, tous les serveurs de ce pool doivent se trouver dans un seul domaine. Vous pouvez avoir une administration entre domaines via Skype Entreprise Server prise en charge de Windows groupes d’administrateurs universels.
   
 Revenir au diagramme ci-dessus, vous pouvez voir que les utilisateurs d’un domaine peuvent accéder aux pools de Skype Entreprise Server à partir du même domaine ou de domaines différents, même si ces utilisateurs sont dans un domaine enfant.
   
@@ -133,7 +128,7 @@ Revenir au diagramme ci-dessus, vous pouvez voir que les utilisateurs d’un dom
 
 ![Diagramme d’une forêt unique, de plusieurs forêts et d’espaces de noms disjoints.](../../media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
   
-Il se peut que vous avez une topologie semblable à ce diagramme, où vous avez une forêt, mais dans cette forêt se trouve plusieurs domaines, avec des espaces de noms AD distincts. Si tel est le cas, ce diagramme est une bonne illustration, car nous avons des utilisateurs dans trois domaines différents qui accèdent à Skype Entreprise Server 2015. Les lignes pleines indiquent qu’ils accèdent à un pool Skype Entreprise Server dans leur propre domaine, tandis qu’une ligne en pointillé indique qu’ils accèdent à un pool dans une arborescence différente.
+Il se peut que vous avez une topologie semblable à ce diagramme, où vous avez une forêt, mais dans cette forêt sont plusieurs domaines, avec des espaces de noms AD distincts. Si tel est le cas, ce diagramme est une bonne illustration, car nous avons des utilisateurs dans trois domaines différents qui accèdent à Skype Entreprise Server 2015. Les lignes pleines indiquent qu’ils accèdent à un pool Skype Entreprise Server dans leur propre domaine, tandis qu’une ligne en pointillé indique qu’ils accèdent à un pool dans une arborescence totalement différente.
   
 Comme vous pouvez le constater, les utilisateurs du même domaine, de la même arborescence ou même d’une autre arborescence peuvent accéder aux pools avec succès.
   
@@ -141,7 +136,7 @@ Comme vous pouvez le constater, les utilisateurs du même domaine, de la même a
 
 ![Plusieurs forêts dans un diagramme de topologie de forêt centrale.](../../media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
   
-Skype Entreprise Server 2015 prend en charge plusieurs forêts configurées dans une topologie de forêt centrale. Si vous n’êtes pas sûr de ce que vous avez, la forêt centrale de la topologie utilise des objets dans celle-ci pour représenter les utilisateurs des autres forêts et héberge des comptes d’utilisateurs pour tous les utilisateurs de la forêt.
+Skype Entreprise Server 2015 prend en charge plusieurs forêts configurées dans une topologie de forêt centrale. Si vous n’êtes pas sûr de ce que vous avez, la forêt centrale de la topologie utilise des objets qui y sont représentés pour représenter les utilisateurs des autres forêts et héberge des comptes d’utilisateurs pour tous les utilisateurs de la forêt.
   
 Comment cela fonctionne-t-il ? Un produit de synchronisation d’annuaires (tel que Forefront Identity Manager ou FIM) gère les comptes d’utilisateurs de votre organisation tout au long de leur existence. Lorsqu’un compte est créé ou supprimé d’une forêt, cette modification est synchronisée avec le contact correspondant dans la forêt centrale.
   
@@ -152,7 +147,7 @@ De toute évidence, si votre infrastructure AD est en place pour le déplacement
 
 ![Plusieurs forêts dans un diagramme de topologie de forêt de ressources.](../../media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
   
-Une topologie de forêt de ressources est également prise en charge ; C’est là qu’une forêt est dédiée à l’exécution de vos applications serveur, comme Microsoft Exchange Server et Skype Entreprise Server 2015. Ces forêts de ressources hébergent également une représentation synchronisée des objets utilisateur actifs, mais pas de comptes d’utilisateurs connectés. La forêt de ressources est donc un environnement de services partagés pour d’autres forêts dans lesquelles résident des objets utilisateur, et ils ont une relation de confiance au niveau de la forêt avec la forêt de ressources.
+Une topologie de forêt de ressources est également prise en charge ; C’est là qu’une forêt est dédiée à l’exécution de vos applications serveur, comme Microsoft Exchange Server et Skype Entreprise Server 2015. Ces forêts de ressources hébergent également une représentation synchronisée des objets utilisateur actifs, mais pas de comptes d’utilisateurs connectés. La forêt de ressources est donc un environnement de services partagés pour d’autres forêts dans lesquelles résident des objets utilisateur, et ils ont une relation d’confiance au niveau de la forêt avec la forêt de ressources.
   
 Notez Exchange Server peuvent être déployés dans la même forêt de ressources que Skype Entreprise Server ou dans une autre forêt.
   
@@ -161,16 +156,16 @@ Pour déployer Skype Entreprise Server 2015 dans ce type de topologie, vous deve
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology-with-exchange-online"></a>Plusieurs forêts dans une topologie de Skype Entreprise ressource avec des Exchange Online
 <a name="BKMK_multipleforestopology"> </a>
 
-Cette topologie est similaire à la topologie décrite dans Plusieurs forêts dans une topologie de forêt Skype Entreprise [ressource.](environmental-requirements.md#BKMK_multipleforestopology)
+Cette topologie est similaire à la topologie décrite dans plusieurs forêts dans une topologie de forêt Skype Entreprise [ressource.](environmental-requirements.md#BKMK_multipleforestopology)
   
-Dans cette topologie, il existe une ou plusieurs forêts d’utilisateurs et Skype Entreprise Server est déployé dans une forêt de ressources dédiée. Exchange Server peuvent être déployés en local dans la même forêt de ressources ou dans une autre forêt et configurés pour un déploiement hybride avec Exchange Online, ou les services de messagerie peuvent être fournis exclusivement par Exchange Online pour les comptes locaux. Il n’existe aucun diagramme disponible pour cette topologie.
+Dans cette topologie, il existe une ou plusieurs forêts d’utilisateurs et les Skype Entreprise Server sont déployées dans une forêt de ressources dédiée. Exchange Server peuvent être déployés en local dans la même forêt de ressources ou dans une autre forêt et configurés pour un déploiement hybride avec Exchange Online, ou les services de messagerie peuvent être fournis exclusivement par Exchange Online pour les comptes locaux. Il n’existe aucun diagramme disponible pour cette topologie.
   
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>Plusieurs forêts dans une topologie de forêt ressource avec Skype Entreprise Online et Azure Active Directory Connecter
 <a name="BKMK_multipleforestopology"> </a>
 
 ![Affiche deux forêts AD, une forêt d’utilisateurs et une forêt de ressources. Les deux forêts ont une relation d’confiance. Ils sont synchronisés avec les Microsoft 365 ou Office 365 l’aide Azure AD Connecter. Tous les utilisateurs sont activés pour Skype Entreprise via Microsoft 365 ou Office 365.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
-Avec ce scénario, il existe plusieurs forêts en local, avec une topologie de forêt ressource. Il existe une relation de confiance totale entre les forêts Active Directory. L Azure Active Directory Connecter est utilisé pour synchroniser les comptes entre les forêts d’utilisateurs locaux et les Microsoft 365 ou Office 365.
+Avec ce scénario, il existe plusieurs forêts sur site, avec une topologie de forêt ressource. Il existe une relation de confiance totale entre les forêts Active Directory. L Azure Active Directory Connecter est utilisé pour synchroniser les comptes entre les forêts d’utilisateurs locaux et les Microsoft 365 ou Office 365.
   
  L’organisation dispose également Microsoft 365 ou Office 365 et utilise [Azure Active Directory Connecter](/previous-versions/azure/azure-services/dn832695(v=azure.100)) pour synchroniser ses comptes locaux avec Microsoft 365 ou Office 365. Les utilisateurs activés pour Skype Entreprise sont activés via Microsoft 365 ou Office 365 et Skype Entreprise Online. Skype Entreprise Server n’est pas déployé en local.
   
@@ -181,7 +176,7 @@ Dans ce scénario, il est possible de déployer Exchange sur site, Exchange Onli
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-hybrid-skype-for-business"></a>Plusieurs forêts dans une topologie de forêt ressource avec des Skype Entreprise
 <a name="BKMK_multipleforestopology"> </a>
 
-Dans ce scénario, il existe une ou plusieurs forêts d’utilisateurs locaux, et Skype Entreprise est déployé dans une forêt de ressources dédiée et est configuré pour le mode hybride avec Skype Entreprise Online. Exchange Server peuvent être déployés en local dans la même forêt de ressources ou dans une autre forêt et peuvent être configurés pour un déploiement hybride avec Exchange Online. Sinon, les services de messagerie peuvent être fournis exclusivement Exchange Online pour les comptes locaux.
+Dans ce scénario, il existe une ou plusieurs forêts d’utilisateurs locaux, et Skype Entreprise est déployé dans une forêt de ressources dédiée et configuré pour le mode hybride avec Skype Entreprise Online. Exchange Server peuvent être déployés en local dans la même forêt de ressources ou dans une autre forêt et peuvent être configurés pour un déploiement hybride avec Exchange Online. Sinon, les services de messagerie peuvent être fournis exclusivement Exchange Online pour les comptes locaux.
   
 Pour plus d’informations, [voir Configure a multi-forest environment for hybrid Skype Entreprise](../../../SfbHybrid/hybrid/configure-a-multi-forest-environment-for-hybrid.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json).
   
@@ -206,11 +201,11 @@ Skype Entreprise Server 2015 nécessite DNS, pour les raisons suivantes :
     
 Il est important de noter que Skype Entreprise Server 2015 ne prend pas en charge les noms de domaine internationaux (IDN).
   
-Il est extrêmement important de ne pas oublier que tout nom dans le DNS doit être identique au nom d’ordinateur configuré sur n’importe quel serveur utilisé par Skype Entreprise Server 2015. Plus précisément, nous ne pouvons pas avoir de noms courts dans l’environnement et nous devons avoir des FQDN pour le Générateur de topologies.
+Il est extrêmement important de ne pas oublier que tout nom dans le DNS doit être identique au nom d’ordinateur configuré sur n’importe quel serveur utilisé par Skype Entreprise Server 2015. Plus précisément, nous ne pouvons pas avoir de noms courts dans l’environnement et nous devons avoir des noms de domaine noms de domaine (FQDN) pour le Générateur de topologie.
   
 Cela semble logique pour tout ordinateur déjà joint à un domaine, mais si vous avez un serveur Edge qui n’est pas joint à votre domaine, il peut avoir par défaut un nom court, sans suffixe de domaine. Assurez-vous que ce n’est pas le cas, que ce soit dans DNS ou sur le serveur Edge, ou n’importe quel serveur ou pool Skype Entreprise Server 2015, d’ailleurs.
   
-Et n’utilisez absolument pas de caractères Unicode ou de traits de soulignement. Les caractères standard (A-Z, a-z, 0-9 et traits d’union) sont ceux qui vont être pris en charge par le DNS externe et les autorités de certification publiques (vous devrez affecter des noms de domaine complets au nom de domaine complet dans le certificat, n’oubliez pas), donc vous éviterez beaucoup de tâches si vous donnez un nom à ce sujet.
+Et n’utilisez absolument pas de caractères Unicode ou de traits de soulignement. Les caractères standard (A-Z, a-z, 0-9 et traits d’union) sont ceux qui vont être pris en charge par le DNS externe et les autorités de certification publiques (vous devrez affecter des noms de domaine complets au nom de domaine complet dans le certificat, n’oubliez pas), donc vous vous éviterez beaucoup de tâches si vous donnez un nom à ce sujet à l’esprit.
   
 Pour en savoir plus sur les exigences DNS pour la mise en réseau, consultez la section [Mise en](../../plan-your-deployment/network-requirements/network-requirements.md) réseau de notre documentation de planification.
   
@@ -260,7 +255,7 @@ La planification des certificats est donc un must. Examinons maintenant une list
     
 - L’algorithme de chiffrement par défaut, ou de signature de hachage, est RSA. Les algorithmes ECDH_P256, ECDH_P384 et ECDH_P521 sont également pris en charge.
     
-Il y a donc beaucoup de choses à penser, et c’est certain qu’il existe divers niveaux de confort lors de la demande de certificats auprès d’une cae. Nous vous fournirons des conseils supplémentaires ci-dessous pour faciliter autant que possible votre planification.
+Il y a donc beaucoup de choses à penser, et c’est certain qu’il existe différents niveaux de confort avec la demande de certificats auprès d’une cae. Nous vous fournirons des conseils supplémentaires ci-dessous pour faciliter autant que possible votre planification.
   
 ### <a name="certificates-for-your-internal-servers"></a>Certificats pour vos serveurs internes
 
@@ -268,9 +263,9 @@ Vous aurez besoin de certificats pour la plupart de vos serveurs internes et, le
   
 Vous aurez également besoin de certificats lorsque Skype Entreprise Server 2015 communiquera avec d’autres applications et serveurs, tels que Microsoft Exchange Server. Il s’agit évidemment d’un certificat que ces autres applications et serveurs peuvent utiliser de manière prise en charge. Skype Entreprise Server 2015 et d’autres produits Microsoft utilisent le protocole Open Authorization (OAuth) pour l’authentification et l’autorisation de serveur à serveur. Si cela vous intéresse, nous avons un article de planification supplémentaire pour OAuth et Skype Entreprise Server 2015.
   
-Skype Entreprise Server 2015 inclut également la prise en charge (sans nécessiter) de certificats signés à l’aide de la fonction de hachage de chiffrement SHA-256. Pour prendre en charge l’accès externe à l’aide de SHA-256, le certificat externe doit être émis par une ca publique utilisant SHA-256.
+Skype Entreprise Server 2015 inclut également la prise en charge (sans nécessité) des certificats signés à l’aide de la fonction de hachage de chiffrement SHA-256. Pour prendre en charge l’accès externe à l’aide de SHA-256, le certificat externe doit être émis par une ca publique utilisant SHA-256.
   
-Pour essayer de garder les choses simples, nous avons placé les exigences de certificat pour les serveurs Édition Standard, les pools frontux et d’autres rôles dans les tableaux suivants, avec le contoso.com fictif utilisé pour des exemples (vous utiliserez probablement autre chose pour votre environnement). Ce sont tous des certificats de serveur web standard, avec des clés privées non exportables. Voici quelques éléments supplémentaires à noter :
+Pour que les choses soient simples, nous avons placé les exigences en matière de certificats pour les serveurs Édition Standard, les pools frontux et d’autres rôles dans les tableaux suivants, avec l’contoso.com fictive utilisée pour des exemples (vous utiliserez probablement autre chose pour votre environnement). Ce sont tous des certificats de serveur web standard, avec des clés privées non exportables. Voici quelques éléments supplémentaires à noter :
   
 - L’utilisation améliorée de la clé (EKU) du serveur est automatiquement configurée lorsque vous utilisez l’Assistant Certificat pour demander des certificats.
     
@@ -283,24 +278,24 @@ Certificats pour Édition Standard serveurs :
 |**Certificat**|**Nom du sujet/Nom commun**|**Autre nom du sujet**|**Exemple**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |Par défaut  <br/> |Nom de domaine complet du pool  <br/> |FQDN du pool et FQDN du serveur  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |Sur le serveur Standard Edition Server, le nom de domaine complet du serveur est le même que celui du pool.  <br/> L’Assistant détecte tous les domaines SIP que vous avez spécifiés lors de l’installation et les ajoute automatiquement en tant qu’autres noms du sujet.  <br/> Vous pouvez également utiliser ce certificat pour l’authentification de serveur à serveur.  <br/> |
-|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN web interne (qui est identique au nom de groupe du serveur)  <br/> AND  <br/> • Rencontrez des URL simples  <br/> • URL simple de numérotation  <br/> • URL simple d’administration  <br/> OR  <br/> • Une entrée générique pour les URL simples  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN= \* .contoso.com  <br/> |Vous ne pouvez pas remplacer le FQDN web interne dans le Générateur de topologies.  <br/> Si vous avez plusieurs URL simples Meet, vous devez les inclure toutes en tant que NOM DE LAS.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
-|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN web externe  <br/> AND  <br/> • URL simple de numérotation  <br/> • Rencontrez des URL simples par domaine SIP  <br/> OR  <br/> • Une entrée générique pour les URL simples  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |Si vous avez plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN web interne (qui est identique au nom de groupe du serveur)  <br/> AND  <br/> • Rencontrez des URL simples  <br/> • URL simple de numérotation  <br/> • URL simple d’administration  <br/> OR  <br/> • Une entrée générique pour les URL simples  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN=\*.contoso.com  <br/> |Vous ne pouvez pas remplacer le FQDN web interne dans le Générateur de topologies.  <br/> Si vous avez plusieurs URL simples Meet, vous devez les inclure toutes en tant que NOM DE LAS.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN web externe  <br/> AND  <br/> • URL simple de numérotation  <br/> • Rencontrez des URL simples par domaine SIP  <br/> OR  <br/> • Une entrée générique pour les URL simples  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com  <br/> |Si vous avez plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
    
 Certificats pour les serveurs frontaux dans un pool Êdition Entreprise frontal :
   
 |**Certificat**|**Nom du sujet/Nom commun**|**Autre nom du sujet**|**Exemple**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |Par défaut  <br/> |Nom de domaine complet du pool  <br/> |FQDN du pool et FQDN du serveur  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |L’Assistant détecte les domaines SIP indiqués lors de l’installation et les ajoute automatiquement à l’autre nom du sujet.  <br/> Vous pouvez également utiliser ce certificat pour l’authentification de serveur à serveur.  <br/> |
-|Web interne  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • FQDN web interne (qui n’est PAS le même que le nom de groupe du serveur)  <br/> • FQDN du serveur  <br/> • Skype Entreprise FQDN du pool  <br/> AND  <br/> • Rencontrez des URL simples  <br/> • URL simple de numérotation  <br/> • URL simple d’administration  <br/> OR  <br/> • Une entrée générique pour les URL simples  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN= \* .contoso.com  <br/> |Si vous avez plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
-|Web externe  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • FQDN web externe  <br/> AND  <br/> • URL simple de numérotation  <br/> • URL simple d’administration  <br/> OR  <br/> • Une entrée générique pour les URL simples  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |Si vous avez plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Web interne  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • FQDN web interne (qui n’est PAS le même que le nom de groupe du serveur)  <br/> • FQDN du serveur  <br/> • Skype Entreprise FQDN du pool  <br/> AND  <br/> • Rencontrez des URL simples  <br/> • URL simple de numérotation  <br/> • URL simple d’administration  <br/> OR  <br/> • Une entrée générique pour les URL simples  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=\*.contoso.com  <br/> |Si vous avez plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Web externe  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • FQDN web externe  <br/> AND  <br/> • URL simple de numérotation  <br/> • URL simple d’administration  <br/> OR  <br/> • Une entrée générique pour les URL simples  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com  <br/> |Si vous avez plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
    
 Certificats pour le directeur :
   
 |**Certificat**|**Nom du sujet/Nom commun**|**Autre nom du sujet**|**Exemple**|
 |:-----|:-----|:-----|:-----|
 |Par défaut  <br/> |pool directeur  <br/> |FQDN du directeur, FQDN du pool directeur.  <br/> Si ce pool est le serveur d’accès automatique pour les clients et que la correspondance DNS stricte est requise dans la stratégie de groupe, vous aurez également besoin d’entrées pour sip.sipdomain (pour chaque domaine SIP dont vous avez).  <br/> |pool.contoso.com; SAN=dir01.contoso.com  <br/> Si ce pool directeur est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |
-|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN web interne (qui est identique au nom de groupe du serveur)  <br/> • FQDN du serveur  <br/> • Skype Entreprise FQDN du pool  <br/> AND  <br/> • Rencontrez des URL simples  <br/> • URL simple de numérotation  <br/> • URL simple d’administration  <br/> OR  <br/> • Une entrée générique pour les URL simples  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN= \* .contoso.com  <br/> |
-|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN web externe  <br/> AND  <br/> • Rencontrez des URL simples par domaine SIP  <br/> • URL simple de numérotation  <br/> OR  <br/> • Une entrée générique pour les URL simples  <br/> |Le FQDN web externe du directeur doit être différent du pool frontal ou du serveur frontal.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN= \* .contoso.com  <br/> |
+|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN web interne (qui est identique au nom de groupe du serveur)  <br/> • FQDN du serveur  <br/> • Skype Entreprise FQDN du pool  <br/> AND  <br/> • Rencontrez des URL simples  <br/> • URL simple de numérotation  <br/> • URL simple d’administration  <br/> OR  <br/> • Une entrée générique pour les URL simples  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=\*.contoso.com  <br/> |
+|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN web externe  <br/> AND  <br/> • Rencontrez des URL simples par domaine SIP  <br/> • URL simple de numérotation  <br/> OR  <br/> • Une entrée générique pour les URL simples  <br/> |Le FQDN web externe du directeur doit être différent du pool frontal ou du serveur frontal.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=\*.contoso.com  <br/> |
    
 Certificats pour le serveur de médiation autonome :
   
@@ -349,7 +344,7 @@ Exigences relatives aux certificats de pool directeur et de pool frontal :
 |URL du service de découverte automatique interne  <br/> |SAN=lyncdiscoverinternal.\<sipdomain\>  <br/> |
 |URL du service de découverte automatique externe  <br/> |SAN=lyncdiscover.\<sipdomain\>  <br/> |
    
-Vous pouvez également utiliser SAN= \* .\<sipdomain\>
+Vous pouvez également utiliser SAN=\*.\<sipdomain\>
   
 Conditions requises pour le certificat de proxy inverse (CA publique) :
   
@@ -367,7 +362,7 @@ Ce SAN doit être affecté au certificat affecté à l’écoute SSL sur votre p
 
 Skype Entreprise Server 2015 peut utiliser le même partage de fichiers pour tout le stockage de fichiers. Vous devez garder les choses suivantes à l’esprit :
   
-- Un partage de fichiers doit se trouver sur un stockage DAS (Direct Attached Storage) ou un réseau san (storage area network), ce qui inclut le système de fichiers distribués (DFS), ainsi qu’un tableau redondant de disques indépendants (RAID) pour les magasins de fichiers. Pour en savoir plus sur DFS pour Windows Server 2012, consultez [cette page DFS.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11))
+- Un partage de fichiers doit se trouver sur un stockage DAS (Direct Attached Storage) ou un réseau san (storage area network), ce qui inclut le système de fichiers distribués (DFS), ainsi qu’un tableau redondant de disques indépendants (RAID) pour les magasins de fichiers. Pour en savoir plus sur DFS Windows Server 2012, consultez [cette page DFS](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)).
     
 - Nous recommandons un cluster partagé pour le partage de fichiers. Si vous en utilisez un, vous devez Windows Server 2012 cluster ou Windows Server 2012 R2. Windows Server 2008 R2 est également acceptable. Pourquoi la dernière Windows ? Il se peut que les versions antérieures ne disposent pas des autorisations permettant d’activer toutes les fonctionnalités. Vous pouvez utiliser l’administrateur de cluster pour créer les partages de fichiers, et cet article sur la création de partages de fichiers sur un [cluster](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) vous aidera avec ces détails.
     

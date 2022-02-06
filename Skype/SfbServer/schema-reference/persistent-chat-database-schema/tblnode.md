@@ -1,32 +1,27 @@
 ---
 title: tblNode
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: tblNode contient l’arborescence d’objets (avec les nodes de catégorie ou de salle de conversation) telle qu’elle est gérée dans le panneau de contrôle et les cmdlets d’administration.
-ms.openlocfilehash: 1e6d3a97f04d614a0993ca06d8a5b2a2f928b39d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846247"
 ---
+
 # <a name="tblnode"></a>tblNode
  
 tblNode contient l’arborescence d’objets (avec les nodes de catégorie ou de salle de conversation) telle qu’elle est gérée dans le panneau de contrôle et les cmdlets d’administration.
   
 **Colonnes**
 
-|**Colonne**|**Type (Type)**|**Description**|
+|**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |nodeID  <br/> |int, non null  <br/> |ID de nœud (numéro unique).  <br/> |
 |nodeGuid  <br/> |GUID, non null  <br/> |GUID de nœud.  <br/> |

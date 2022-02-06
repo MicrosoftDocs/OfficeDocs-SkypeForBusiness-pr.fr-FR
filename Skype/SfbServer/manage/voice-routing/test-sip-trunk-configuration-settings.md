@@ -1,23 +1,18 @@
 ---
 title: Skype Entreprise Server - Tester les paramètres de configuration d’une trunk SIP
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: 'Les paramètres de configuration de la trunk SIP définissent la relation et les fonctionnalités entre un serveur de médiation et la passerelle PST), un PBX ou un SBC chez le fournisseur de services. '
-ms.openlocfilehash: 8b199453335fab694415c8b3851d8e720f830e58
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857441"
+description: 'Les paramètres de configuration de la trunk SIP définissent la relation et les fonctionnalités entre un serveur de médiation et la passerelle PST, un PBX ou un SBC chez le fournisseur de services. '
 ---
+
 # <a name="skype-for-business-server---test-sip-trunk-configuration-settings"></a>Skype Entreprise Server - Tester les paramètres de configuration d’une trunk SIP
 
 Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services. Ces paramètres permettent de spécifier ce qui suit :

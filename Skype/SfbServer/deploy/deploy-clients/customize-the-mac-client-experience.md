@@ -1,24 +1,19 @@
 ---
 title: Personnaliser l’expérience client Mac dans Skype Entreprise
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
-description: Cet article décrit les préférences client et les valeurs par défaut disponibles pour le client Skype Entreprise sur Mac, et comment les modifier à partir de l’extérieur de l’application.
-ms.openlocfilehash: 909756b25f9ad3ee17536f24a4143b5b72180918
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838346"
+description: 'Cet article décrit les préférences client et les valeurs par défaut disponibles pour le client Skype Entreprise sur Mac, et comment les modifier à partir de l’extérieur de l’application.'
 ---
+
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personnaliser l’expérience client Mac dans Skype Entreprise
  
 Cet article décrit les préférences client et les valeurs par défaut disponibles pour le client Skype Entreprise sur Mac, et comment les modifier à partir de l’extérieur de l’application.
@@ -29,7 +24,7 @@ Certains comportements et fonctionnalités disponibles pour les clients Skype En
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
-Pour définir ces préférences, accéder à une invite de terminal sur le Mac du client et, si nécessaire, entrez les commandes de touches d’écriture com.microsoft.SkypeForBusiness par défaut à l’aide des clés de préférence décrites dans le tableau suivant.
+Pour définir ces préférences, obtenez une invite de terminal sur le Mac du client et, si nécessaire, entrez les commandes de touches d’écriture com.microsoft.SkypeForBusiness par défaut à l’aide des clés de préférence décrites dans le tableau suivant.
   
 **Clés de préférence client**
 
@@ -38,20 +33,20 @@ Pour définir ces préférences, accéder à une invite de terminal sur le Mac d
 |:-----|:-----|:-----|:-----|
 |autoDetectAutoDicoveryURLs    |Bool    |0 = configuration manuelle du serveur  <br/> 1 = détection automatique de serveur (par défaut)    |Spécifiez comment Skype Entreprise identifie le transport et le serveur à utiliser lors de la signature. Si vous activez ce paramètre de stratégie, vous devez spécifier **internalAutoDiscoveryURL** et **externalAutoDiscoveryURL**.   |
 |internalAutoDiscoveryURL    |Chaîne    |URL de découverte automatique complète    |URL de découverte automatique interne    |
-|externalAutoDiscoveryURL    |Chaîne    |URL de découverte automatique complète    |URL de découverte automatique externe    |
-|httpProxyDomain    |Chaîne    ||Domaine proxy HTTP    |
-|httpProxyUserName    |Chaîne    ||Nom d’utilisateur proxy HTTP    |
-|httpProxyPassword    |Chaîne    ||Mot de passe de proxy HTTP    |
+|externalAutoDiscoveryURL    |String    |URL de découverte automatique complète    |URL de découverte automatique externe    |
+|httpProxyDomain    |String    ||Domaine proxy HTTP    |
+|httpProxyUserName    |String    ||Nom d’utilisateur proxy HTTP    |
+|httpProxyPassword    |String    ||Mot de passe de proxy HTTP    |
 |trustedDomainList    |Tableau    ||Liste des domaines de confiance pour les redirections HTTP.    |
-|autoAcceptTimeout    |Nombre    |300 (par défaut)    |Accepter automatiquement le délai d’accès pour les utilisateurs sans historique des conversations côté serveur.    |
+|autoAcceptTimeout    |Nombre    |300 (par défaut)    |Délai d’acceptation automatique pour les utilisateurs sans historique des conversations côté serveur.    |
 |warnWhenUnknownLocationForE911    |Bool    |0 = Désactivé  <br/> 1 = Activé    |Avertit l’utilisateur lorsque vous composez un numéro d’urgence à partir d’un emplacement inconnu.    |
-|sipAddress    |Chaîne    ||Adresse SIP (e-mail) utilisée pour se Skype Entreprise.    |
-|userName    |String    ||UpN (UserName) utilisé pour se Skype Entreprise.    |
+|sipAddress    |String    ||Adresse SIP (e-mail) utilisée pour se Skype Entreprise.    |
+|userName    |String    ||Nom d’utilisateur utilisateur utilisé pour se Skype Entreprise.    |
 |userNameInAdvancedOnly    |Bool    |0 = afficher le champ Nom d’utilisateur sur l’écran de signature principal et dans la boîte de dialogue Propriétés avancées  <br/> 1 = afficher le champ Nom d’utilisateur uniquement dans la boîte de dialogue Propriétés avancées (par défaut)    |Spécifiez l’endroit où le champ Nom d’utilisateur s’affiche lors de la signature.    |
    
 ### <a name="usage-examples"></a>Exemples d’utilisation
 
-Pour ajouter un domaine unique (Contoso.com) à la liste des domaines de confiance, utilisez la clé trustedDomainList comme indiqué :
+Pour ajouter un domaine unique (Contoso.com) à la liste des domaines de confiance, vous devez utiliser la clé trustedDomainList comme indiqué :
   
 defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add « Contoso.com »
   

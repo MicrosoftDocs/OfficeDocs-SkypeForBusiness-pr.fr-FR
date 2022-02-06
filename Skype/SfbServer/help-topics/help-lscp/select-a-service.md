@@ -1,27 +1,22 @@
 ---
 title: Sélectionner un service
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.SelectPool
+  - ms.lync.lscp.SelectPool
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
-description: Utilisez la boîte de dialogue Sélectionner un service pour rechercher les services disponibles dans votre environnement. Pour utiliser un service existant, cliquez sur un service dans la liste, puis sur OK.
-ms.openlocfilehash: 62a61c0f370f09815176540128b42961033014cc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840236"
+description: 'Utilisez la boîte de dialogue Sélectionner un service pour rechercher les services disponibles dans votre environnement. Pour utiliser un service existant, cliquez sur un service dans la liste, puis sur OK.'
 ---
+
 # <a name="select-a-service"></a>Sélectionner un service
 
 Utilisez la **boîte de dialogue Sélectionner un service** pour rechercher les services disponibles dans votre environnement. Pour utiliser un service existant, cliquez sur un service dans la liste, puis sur **OK**.
@@ -42,14 +37,14 @@ Pour plus d’informations sur les différentes procédures que vous pouvez effe
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Pour configurer les catégories des salles de conversation
 
-Dans **Sélectionner un service,** sélectionnez le service correspondant au pool de serveurs de conversation permanente sur lequel la catégorie doit être créée. Le service est le pool de serveurs de conversation permanente que la conversation permanente (client) utilise pour identifier le pool auquel appartient la catégorie. Une catégorie ne peut appartenir qu’à un seul pool de serveurs de conversation permanente et ne peut pas être déplacée vers un autre pool ou partagée avec un autre pool.
+Dans **Sélectionner un service**, sélectionnez le service correspondant au pool de serveurs de conversation permanente sur lequel la catégorie doit être créée. Le service est le pool de serveurs de conversation permanente que la conversation permanente (client) utilise pour identifier le pool auquel appartient la catégorie. Une catégorie ne peut appartenir qu’à un seul pool de serveurs de conversation permanente et ne peut pas être déplacée vers un autre pool ou partagée avec un autre pool.
 
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>Pour configurer des compléments pour des salles de conversation
 
-Dans **Sélectionner un service,** sélectionnez le service correspondant au pool de serveurs de conversation permanente où vous devez créer le add-in. Les compléments ne peuvent pas être déplacés d’un pool à un autre ou partagés parmi différents pools.
+Dans **Sélectionner un service**, sélectionnez le service correspondant au pool de serveurs de conversation permanente où vous devez créer le module. Les compléments ne peuvent pas être déplacés d’un pool à un autre ou partagés parmi différents pools.
 
 ## <a name="to-configure-persistent-chat-options-for-a-specific-persistent-chat-server-pool"></a>Pour configurer les options de conversation permanente pour un pool de serveurs de conversation permanente spécifique
 
-Dans **Sélectionner un service,** sélectionnez le service associé au pool de serveurs de conversation permanente à configurer.
+Dans **Sélectionner un service**, sélectionnez le service associé au pool de serveurs de conversation permanente à configurer.
 
 Pour plus d’informations sur les fonctionnalités et les fonctionnalités du serveur de conversation permanente, voir Vue d’ensemble du serveur de [conversation](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) permanente dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de serveur de conversation permanente, voir [Configuring Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) in the Deployment documentation and [Managing Lync Server 2013, Persistent Chat Server](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) in the Operations documentation.

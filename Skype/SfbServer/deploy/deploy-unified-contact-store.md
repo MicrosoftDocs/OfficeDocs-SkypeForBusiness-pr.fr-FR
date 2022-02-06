@@ -1,24 +1,19 @@
 ---
 title: 'Déployer un magasin de contacts unifié dans Skype Entreprise Server '
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 'Résumé : Activez le magasin de contacts unifié dans Skype Entreprise Server.'
-ms.openlocfilehash: 23e5aebcd0ed92cc07a203be5b3112142f692d9a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861811"
 ---
+
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Déployer un magasin de contacts unifié dans Skype Entreprise Server
  
 **Résumé :** Activez le magasin de contacts unifié dans Skype Entreprise Server.
@@ -40,11 +35,11 @@ Lorsque vous déployez Skype Entreprise Server et publiez la topologie, le magas
   
 ### <a name="to-enable-users-for-unified-contact-store"></a>Pour activer les utilisateurs pour le magasin de contact unifié
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur Démarrer, sur Tous les **programmes,** sur **Skype Entreprise,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise**, puis sur Skype Entreprise Server **Management Shell**.
     
 2. Effectuez l’une des opérations suivantes :
     
-   - Pour activer le magasin de contacts unifié globalement pour tous Skype Entreprise Server utilisateurs, inter-cmdlet suivante dans l Windows PowerShell interface de ligne de commande suivante :
+   - Pour activer le magasin de contacts unifié globalement pour tous les Skype Entreprise Server utilisateurs, inter-cmdlet suivante dans l’interface Windows PowerShell ligne de commande suivante :
     
    ```powershell
    Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
@@ -110,7 +105,7 @@ Déterminez si les contacts d’un utilisateur ont été transférés en utilisa
   
 - Vérifiez la clé de Registre suivante sur l’ordinateur client :
     
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync<\\ URL SIP \> \UCS
+    \\ HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync<URL\> SIP\UCS
     
     Si les contacts de l’utilisateur sont stockés dans Exchange 2013, cette clé contient la valeur InUCSMode avec la valeur 2165.
     
@@ -130,7 +125,7 @@ L’cmdlet **Move-CsUser** retourne automatiquement le magasin de contacts de l�
   
 - Lorsque les utilisateurs sont déplacés Skype Entreprise Server vers Microsoft Lync Server 2013 ou Lync Server 2010. 
     
-- Lorsque les utilisateurs sont migrés entre les locaux, par exemple lorsqu’un utilisateur est déplacé de Skype Entreprise Online vers Skype Entreprise Server local, ou inversement.
+- Lorsque les utilisateurs sont migrés entre les sites, par exemple lorsqu’un utilisateur est déplacé de Skype Entreprise Online vers Skype Entreprise Server en local, ou vice versa.
     
 L’importation des données d’un magasin de contacts unifié à partir d’une base de données de sauvegarde peut endommager les données du magasin de contacts unifié et les données utilisateur si le mode de magasin de contacts unifié a été modifié entre l’exportation et l’importation. Par exemple :
   

@@ -1,31 +1,26 @@
 ---
 title: Configuration des stratégies de démarrage de clients
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: 'Résumé : Comment gérer les stratégies de groupe.'
-ms.openlocfilehash: 073bd23219b3fa0a39ed06a94a5ef0586a740e6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831648"
 ---
+
 # <a name="configure-client-bootstrapping-policies"></a>Configuration des stratégies de démarrage de clients
  
 **Résumé :** Comment gérer les stratégies de groupe.
   
-La Console de gestion des stratégies de groupe (GPMC) et l’Éditeur d’objets de stratégie de groupe sont des outils que vous utilisez pour gérer la stratégie de groupe. Le modèle d’administration de stratégie de groupe Office inclut les modèles d’administration lync16.admx (ADMX) et .adml (ADML), qui contiennent les paramètres de stratégie basés sur le Registre pour les Skype Entreprise que vous configurez pour les objets de stratégie de groupe dans le domaine. Les fichiers ADML sont des compléments spécifiques à la langue des fichiers ADMX. Chaque fichier ADMX et ADML contient les paramètres de stratégie d’une application Office unique. Vous pouvez télécharger les fichiers Office modèle d’administration [(ADMX/ADML) de Microsoft 2016](https://www.microsoft.com/download/details.aspx?id=49030) gratuitement à partir du Centre de téléchargement Microsoft.
+La Console de gestion des stratégies de groupe (GPMC) et l’Éditeur d’objets de stratégie de groupe sont des outils que vous utilisez pour gérer la stratégie de groupe. Le modèle d’administration de stratégie de groupe Office inclut les modèles d’administration lync16.admx (ADMX) et .adml (ADML), qui contiennent les paramètres de stratégie basés sur le Registre pour les Skype Entreprise que vous configurez pour les objets de stratégie de groupe dans le domaine. Les fichiers ADML sont des compléments spécifiques à la langue des fichiers ADMX. Chaque fichier ADMX et ADML contient les paramètres de stratégie d’une application Office unique. Vous pouvez télécharger gratuitement Office fichiers de modèles d’administration [(ADMX/ADML) de Microsoft 2016](https://www.microsoft.com/download/details.aspx?id=49030) à partir du Centre de téléchargement Microsoft.
   
-Pour Skype Entreprise clients, il existe plusieurs stratégies d’a bootstrapping client que vous devez envisager de configurer avant que les utilisateurs ne se connectent au serveur pour la première fois. Par exemple, les serveurs par défaut et le mode de sécurité que le client doit utiliser jusqu’à ce que la se connecte soit terminée. Vous pouvez utiliser la stratégie de groupe pour établir ces paramètres dans les registres de l’ordinateur des utilisateurs avant qu’ils ne se connectent et commencent à recevoir les paramètres de mise en service de la bande in-band à partir du serveur. Le tableau suivant répertorie les paramètres de stratégie de groupe disponibles pour Skype Entreprise.
+Pour Skype Entreprise clients, il existe plusieurs stratégies d’a bootstrapping client que vous devez envisager de configurer avant que les utilisateurs ne se connectent au serveur pour la première fois. Par exemple, les serveurs par défaut et le mode de sécurité que le client doit utiliser jusqu’à ce que la sign-in soit terminée. Vous pouvez utiliser la stratégie de groupe pour établir ces paramètres dans les registres de l’ordinateur des utilisateurs avant qu’ils ne se connectent et commencent à recevoir les paramètres de mise en service de la bande in-band à partir du serveur. Le tableau suivant répertorie les paramètres de stratégie de groupe disponibles pour Skype Entreprise.
   
 **Stratégie de groupe Paramètres pour Skype Entreprise**
 
@@ -37,7 +32,7 @@ Pour Skype Entreprise clients, il existe plusieurs stratégies d’a bootstrappi
 |Désactiver le secours HTTP pour la connexion SIP (DisableHttpConnect)  <br/> |Empêche Skype Entreprise Server d’essayer de se connecter au serveur à l’aide du protocole HTTP, si TLS ou TCP ne sont pas disponibles. Par défaut, Skype Entreprise tente d’abord de se connecter au serveur à l’aide de TLS ou TCP et, si aucune de ces méthodes de transport ne réussit, Skype Entreprise tente de se connecter à l’aide du protocole HTTP. Utilisez cette stratégie pour désactiver la tentative de remplacement de la connexion HTTP.  <br/> |
 |Exiger des informations d’identification de connexion (DisableNTCredentials)  <br/> |Oblige l’utilisateur à fournir des informations d’identification d’Skype Entreprise au lieu d’utiliser automatiquement Windows d’identification lors de la connexion à un serveur SIP.  <br/> |
 |Désactiver la vérification de version du serveur (DisableServerCheck)  <br/> |Si vous définissez cette stratégie sur 1, empêche les Skype Entreprise de vérifier le nom et la version du serveur avant la signature. Par défaut, Skype Entreprise effectue ces vérifications avant de se signer.  <br/> |
-|Activer l’utilisation de BITS pour télécharger les fichiers du service de carnet d’adresses (EnableBitsForGalDownload)  <br/> |Permet Skype Entreprise utiliser le service BITS (Background Intelligent Transfer Service) pour télécharger les fichiers des services de carnet d’adresses.  <br/> |
+|Activer l’utilisation de BITS pour télécharger des fichiers de service de carnet d’adresses (EnableBitsForGalDownload)  <br/> |Permet Skype Entreprise utiliser le service BITS (Background Intelligent Transfer Service) pour télécharger les fichiers des services de carnet d’adresses.  <br/> |
 |Configurer le mode de sécurité SIP (EnableSIPHighSecurityMode)  <br/> |Permet aux Skype Entreprise d’envoyer et de recevoir des messages instantanés de manière plus sécurisée. Cette stratégie n’a pas d’incidence sur les services Windows .NET ou Microsoft Exchange Server.  <br/> Si vous ne configurez pas ce paramètre de stratégie, Skype Entreprise pouvez utiliser n’importe quel transport. Toutefois, s’il n’utilise pas TLS et si le serveur authentifier les utilisateurs, Skype Entreprise doit utiliser l’authentification NTLM ou Kerberos.  <br/> |
 |Délai initial de téléchargement du carnet d’adresses global (GalDownloadInitialDelay)  <br/> |Spécifie le délai d’attente avant le téléchargement de la liste d’adresses globale. La valeur par défaut est 60 minutes, ce qui signifie que le serveur retarde le téléchargement du fichier DE LAT pendant une période aléatoire de 0 à 60 minutes.  <br/> |
 |Empêcher les utilisateurs d’Skype Entreprise (PreventRun)  <br/> |Empêche les utilisateurs d’Skype Entreprise. Vous pouvez configurer ce paramètre de stratégie sous Configuration ordinateur et sous Configuration utilisateur, mais le paramètre de stratégie sous Configuration ordinateur est prioritaire.  <br/> |

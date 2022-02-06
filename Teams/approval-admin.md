@@ -1,30 +1,25 @@
 ---
 title: Disponibilité des applications Approbations dans Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
-- Microsoft Teams
+  - Microsoft Teams
 search.appverid: MET150
 description: En savoir plus sur la disponibilité des applications Approbations dans Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 4c0e4ec40368b8348833b596d55f34adcb0c316d
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766387"
+  - Microsoft Teams
 ---
+
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
 L’application Approbations est disponible en tant qu’application personnelle pour tous les utilisateurs de Microsoft Teams.
@@ -53,7 +48,7 @@ Pour déployer l’application Approbations, vous devez obtenir une autorisation
 
 - Rôle d’administrateur dans l’environnement cible.
 
-- Licence pour [Power Automate,](/power-automate/get-started-approvals)Office 365 ou Dynamics 365.
+- Licence pour [Power Automate](/power-automate/get-started-approvals), Office 365 ou Dynamics 365.
 
 - Une licence microsoft Forms est requise pour que les utilisateurs définissent de nouveaux modèles d’approbation.
 
@@ -65,7 +60,7 @@ Le modèle de données commun (CDM) est le langage de données partagé utilisé
 
 En savoir plus sur le [flux d’approbation](/power-automate/modern-approvals).
 
-Les approbations créées à partir d’un modèle stockent toujours les données dans des CDS, comme leur titre, les détails, l’ID de modèle, etc. Les réponses envoyées sur la demande d’approbation sont stockées dans Forms. En savoir plus sur  [le stockage de données pour Microsoft Forms.](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)
+Les approbations créées à partir d’un modèle stockent toujours les données dans des CDS, comme leur titre, les détails, l’ID de modèle, etc. Les réponses envoyées sur la demande d’approbation sont stockées dans Forms. En savoir plus sur  [le stockage de données pour Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
 >Si vous supprimez le modèle de formulaire sur le site Microsoft Forms, votre modèle Approbation sera supprimé et les utilisateurs ne pourront pas démarrer la demande. Les utilisateurs obtiennent une erreur « CDB TableNotFound » lorsqu’ils essaient d’ouvrir un modèle d’approbation qui a été supprimé dans Microsoft Forms.
@@ -110,13 +105,13 @@ L’application Approbations est disponible par défaut. Vous pouvez désactiver
 
   1. Se connecter au Centre d’administration de Microsoft Teams.
 
-  2. Allez à **Teams applications Gérer** les  >  **applications.**
+  2. Allez à **Teams applications** **AppsManage** > .
 
   3. Recherchez l’application Approbations.
 
      ![Affiche la navigation dans le Centre d’administration avec Teams Applications et > Gérer les applications mis en évidence.](media/manage-approval-apps.png)
 
-  4. Sélectionnez **Approbations.**
+  4. **Sélectionnez Approbations**.
 
   5. Sélectionnez le bouton bascule pour désactiver l’application pour votre organisation.
 
@@ -126,7 +121,7 @@ L’application Approbations est disponible par défaut. Vous pouvez désactiver
 
 Les approbations créées à partir de l’application Approbations sont stockées dans l’environnement CDS par défaut, qui ne prend pas en charge les sauvegardes pour le moment. En savoir plus sur la [Sauvegarde et restauration des environnements : Plateforme Power \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
-Les données stockées dans Forms ne sont pas supprimées  tant que les propriétaires d’équipe ne les ont pas effacées à partir de l’onglet Formulaires supprimés dans l’application web Microsoft Forms.
+Les données stockées dans Forms ne sont pas supprimées tant que les propriétaires d’équipe ne  les ont pas effacées à partir de l’onglet Formulaires supprimés dans l’application web Microsoft Forms.
 
 ## <a name="data-limitations"></a>Limites de données
 
@@ -202,12 +197,12 @@ Pour utiliser la fonctionnalité de signature électronique de l’application A
 
 Vous pouvez utiliser le centre Teams d’administration pour contrôler quels fournisseurs de signature électronique tiers sont disponibles pour vos utilisateurs dans l’application Approbations. Par défaut, les fournisseurs de signature électronique sont activés dans l’application Approbations. Lorsque vous désactivez un fournisseur de signature électronique, vos utilisateurs n’y ont pas accès lorsqu’ils créent des approbations. Vos utilisateurs ne pourront pas non plus afficher les demandes de signature électronique créées à l’aide de ce fournisseur.
 
-1. Dans le panneau de navigation gauche du Teams d’administration, allez dans **Teams applications Gérer** les  >  **applications.**
+1. Dans le panneau de navigation gauche du Teams d’administration, voir **Teams applications De** >  **gestion des applications**.
 2. Recherchez l’application Approbations, puis sélectionnez-la.
-3. Dans **l’Paramètres,** puis faites une ou plusieurs des choses suivantes :
+3. Dans **l’Paramètres**, puis faites une ou plusieurs des choses suivantes :
 
-    - Pour activer ou désactiver Adobe Sign, activez ou désactivez **le** **bouton bascule.**
-    - Pour activer ou désactiver DocuSign, activez ou désactivez **le** **bouton bascule.**
-4. Sélectionnez **Envoyer.**
+    - Pour activer ou désactiver Adobe Sign, activez ou désactivez **le** **bouton bascule**.
+    - Pour activer ou désactiver DocuSign, activez ou désactivez **le** **bouton bascule**.
+4. **Sélectionnez Envoyer**.
 
 Les approbations de signature électronique créées à partir de l’application Approbations sont stockées dans l’environnement cloud du fournisseur sélectionné. Pour exporter des données relatives aux signatures électronique, vous devez vous rendre sur le site du fournisseur. Pour plus d’informations sur le stockage, l’exportation et la rétention des contrats de signature électronique, consultez la documentation du fournisseur.

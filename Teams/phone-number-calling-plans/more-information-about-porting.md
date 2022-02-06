@@ -1,42 +1,37 @@
 ---
 title: Informations supplémentaires sur le portage
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: tonysmit,jastark
+ms.reviewer: 'tonysmit,jastark'
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-voice
+  - M365-voice
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: Obtenez les instructions nécessaires pour le port de vos numéros de téléphone vers Microsoft Teams.
-ms.openlocfilehash: 362f7865f820e91e911791685293b7ca9c1786cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848177"
 ---
+
 # <a name="more-information-about-porting"></a>Informations supplémentaires sur le portage
 
 Vous trouverez ici des informations supplémentaires sur le portage de vos numéros de téléphone vers Microsoft Teams.
 
-Pour obtenir des instructions détaillées complètes, voir Transférer des numéros [de téléphone vers Teams.](transfer-phone-numbers-to-teams.md)
+Pour obtenir des instructions détaillées complètes, voir [Transférer des numéros de téléphone vers Teams](transfer-phone-numbers-to-teams.md).
 
-Si vous avez besoin d’aide ou si vous avez besoin d’obtenir davantage de numéros de téléphone, contactez l’aide du [service DNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
+Si vous avez besoin d’aide ou si vous avez besoin d’obtenir davantage de numéros de téléphone, contactez l’aide du [service TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 ## <a name="port-order-account-information"></a>Informations sur le compte de demande de transfert
 
-Lorsque vous vous trouverez sur la **page** Ajouter des informations de compte de l’Assistant Demande de portage pour envoyer une demande de port, vous entrez presque toutes les informations que vous fourniriez dans le LOA, notamment :
+Lorsque vous vous trouverez sur **la page Ajouter** des informations de compte de l’Assistant Demande de portage pour envoyer une demande de port, vous entrez presque toutes les informations que vous fourniriez dans le LOA, notamment :
   
 - Numéro de compte de l’opérateur ou du fournisseur de services
     
@@ -93,7 +88,7 @@ Il s’agit du nom de votre organisation. Le nom de l’organisation est limité
   
 ## <a name="what-should-i-put-in-for-the-service-address"></a>Que dois-je inclure comme adresse de service ?
 
-L’adresse du service est différente de l’adresse de facturation ou de l’adresse d’urgence que vous avez enregistrée auprès de votre opérateur ou fournisseur de services téléphoniques. Si vous ne la connaissez pas, contactez votre opérateur ou fournisseur de services pour connaître l’adresse de service répertoriée sur votre compte.
+L’adresse du service est différente de l’adresse de facturation ou d’urgence que vous avez enregistrée auprès de votre opérateur ou fournisseur de services téléphoniques. Si vous ne la connaissez pas, contactez votre opérateur ou fournisseur de services pour connaître l’adresse de service répertoriée sur votre compte.
 
 ## <a name="how-should-i-enter-the-phone-numbers"></a>Comment dois-je entrer les numéros de téléphone ?
 <a name="bkadding"> </a>

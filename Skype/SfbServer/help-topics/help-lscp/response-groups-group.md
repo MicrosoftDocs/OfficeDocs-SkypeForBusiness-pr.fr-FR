@@ -1,36 +1,31 @@
 ---
-title: Groupe Response Groups
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Groupe Response Group
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.RgsGroupMain
+  - ms.lync.lscp.RgsGroupMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
-description: Les groupes Response Group sont constitués de groupes d’agents, de files d’attente et de flux de travail. Un groupe d’agents est un groupe de personnes qui sont désignées pour répondre aux appels Response Group.
-ms.openlocfilehash: 2a4f0e68db6701b3eb75cfb1b502e4b837756d9f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827817"
+description: 'Les groupes Response Group sont constitués de groupes d’agents, de files d’attente et de flux de travail. Un groupe d’agents est un groupe de personnes qui sont désignées pour répondre aux appels Response Group.'
 ---
+
 # <a name="response-groups-group"></a>Services Response Group : groupe
 
 Les groupes Response Group sont constitués de groupes d’agents, de files d’attente et de flux de travail. Un groupe d’agents est un groupe de personnes qui sont désignées pour répondre aux appels Response Group.
 
-La page **Response Groups** Group affiche la liste de tous les groupes d’agents définis pour votre  -   organisation.
+La page **Response GroupsGroup** -  affiche la liste de tous les groupes d’agents définis pour votre organisation.
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Vous pouvez effectuer les tâches suivantes à partir de la page **Response Group**  -  **:**
+Vous pouvez effectuer les tâches suivantes à partir de la page **Response GroupsGroup** -  :
 
 - Créer un groupe d’agents
 

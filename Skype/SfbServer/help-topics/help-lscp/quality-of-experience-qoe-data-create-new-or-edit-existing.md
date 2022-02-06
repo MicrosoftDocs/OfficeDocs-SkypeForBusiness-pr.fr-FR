@@ -1,27 +1,22 @@
 ---
-title: Création de données de qualité de l’expérience (QoE) ou modification d’une donnée existante
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Les données de qualité de l’expérience (QoE) en créent une autre ou en modifient une existante
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.MonArchQoeEdit
+  - ms.lync.lscp.MonArchQoeEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
-description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: b4ae41f28275ac0f876e65fa6b626fa10aaddcc5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862731"
+description: "Que voulez-vous faire\_? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer."
 ---
+
 # <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>Données de qualité de l’expérience (QoE) : création de nouvelles données ou modification de données existantes
  
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.

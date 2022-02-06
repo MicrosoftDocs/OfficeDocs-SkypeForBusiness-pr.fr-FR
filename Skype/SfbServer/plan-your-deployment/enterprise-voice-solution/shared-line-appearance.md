@@ -1,29 +1,24 @@
 ---
 title: Planifier l’apparence des lignes partagées Skype Entreprise Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/21/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
-description: Lisez cette rubrique pour découvrir comment planifier l’apparence des lignes partagées (SLA) dans Skype Entreprise Server 2015, mise à jour cumulative de novembre 2015.
-ms.openlocfilehash: 9400a4a68c992c822162be3a5f84ea4a9d0ede31
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847207"
+description: 'Lisez cette rubrique pour découvrir comment planifier l’apparence des lignes partagées (SLA) dans Skype Entreprise Server 2015, mise à jour cumulative de novembre 2015.'
 ---
+
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Planifier l’apparence des lignes partagées Skype Entreprise Server 2015
  
 Lisez cette rubrique pour découvrir comment planifier l’apparence des lignes partagées (SLA) dans Skype Entreprise Server 2015, mise à jour cumulative de novembre 2015. 
@@ -58,6 +53,6 @@ La configuration d’un groupe de SLA active les paramètres suivants :
     
 - Vous pouvez configurer un nombre maximal d’appels simultanés pour le numéro partagé. Vous pouvez également définir la façon dont vous souhaitez que les appels supplémentaires soient gérés une fois ce maximum atteint. Les appels superflus peuvent être rejetés avec une signal occupé, transmis à un autre numéro ou transmis à la messagerie vocale.
     
-- Vous pouvez configurer la façon dont vous souhaitez que les appels manqués (appels non pris après un certain temps) soient gérés. Si vous activez la messagerie vocale pour l’identité du groupe, les appels manqués sont automatiquement mis à la messagerie vocale. Si la messagerie vocale n’est pas activée pour l’identité du groupe (numéro partagé), vous pouvez choisir de rejeter les appels manqués avec une signal occupé, de les envoyer à un autre numéro ou de les déconnecter.
+- Vous pouvez configurer la façon dont vous souhaitez que les appels manqués (appels non pris après un certain temps) soient gérés. Si vous activez la messagerie vocale pour l’identité du groupe, les appels manqués sont automatiquement envoyés à la messagerie vocale. Si la messagerie vocale n’est pas activée pour l’identité du groupe (numéro partagé), vous pouvez choisir de rejeter les appels manqués avec une signal d’occupé, de les envoyer à un autre numéro ou de les déconnecter.
     
 
