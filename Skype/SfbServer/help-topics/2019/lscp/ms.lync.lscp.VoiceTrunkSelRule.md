@@ -1,27 +1,22 @@
 ---
 title: Sélectionner les règles de traduction
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.VoiceTrunkSelRule
+  - ms.lync.lscp.VoiceTrunkSelRule
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 55776a94-4888-4436-a3b6-0e6f8252e392
-ROBOTS: NOINDEX, NOFOLLOW
-description: Voix Entreprise exige que toutes les chaînes de numérotation adoptent le format standard E.164 pour des besoins de recherche de numéros inverse. L’homologue de jonction (c’est-à-dire la jonction de passerelle, PBX ou SIP associée) peut exiger que les numéros soient au format de numérotation local. Pour convertir les numéros du format E.164 à un format de numérotation local, vous pouvez définir en option une ou plusieurs règles de conversion pour manipuler l’URI de demande avant de l’acheminer vers l’homologue de jonction. Par exemple, vous pouvez rédiger une règle de traduction pour remplacer « +44 » au début de la chaîne de numérotation par « 0144 ».
-ms.openlocfilehash: 164986f47dbbc7bbe14e9612f0091448ba1f9364
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859471"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: "Voix Entreprise exige que toutes les chaînes de numérotation adoptent le format standard\_E.164 pour des besoins de recherche de numéros inverse. L’homologue de jonction (c’est-à-dire la jonction de passerelle, PBX ou SIP associée) peut exiger que les numéros soient au format de numérotation local. Pour convertir les numéros du format\_E.164 à un format de numérotation local, vous pouvez définir en option une ou plusieurs règles de conversion pour manipuler l’URI de demande avant de l’acheminer vers l’homologue de jonction. Par\_exemple, vous pouvez rédiger une règle de traduction pour remplacer «\_+44\_» au début de la chaîne de numérotation par «\_0144\_»."
 ---
+
 # <a name="select-translation-rules"></a>Sélectionner les règles de traduction
  
  Voix Entreprise exige que toutes les chaînes de numérotation adoptent le format standard E.164 pour des besoins de recherche de numéros inverse. L’homologue de jonction (c’est-à-dire la jonction de passerelle, PBX ou SIP associée) peut exiger que les numéros soient au format de numérotation local. Pour convertir les numéros du format E.164 à un format de numérotation local, vous pouvez définir en option une ou plusieurs règles de conversion pour manipuler l’URI de demande avant de l’acheminer vers l’homologue de jonction. Par exemple, vous pouvez rédiger une règle de traduction pour remplacer « +44 » au début de la chaîne de numérotation par « 0144 ».

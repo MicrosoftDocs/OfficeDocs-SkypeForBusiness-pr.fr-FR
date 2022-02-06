@@ -1,26 +1,21 @@
 ---
-title: Table de dialogue
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Table dialog
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
-description: La table Dialog est une table de prise en charge ; chaque enregistrement représente un dialogue SIP (Session Initiation Protocol).
-ms.openlocfilehash: ab466a158ca059ff3110012a03e5c9c1e39b3d2d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851788"
+description: "La table Dialog est une table de prise en charge\_; chaque enregistrement représente un dialogue SIP (Session Initiation Protocol)."
 ---
-# <a name="dialog-table"></a>Table de dialogue
+
+# <a name="dialog-table"></a>Table dialog
  
 La table Dialog est une table de prise en charge ; chaque enregistrement représente un dialogue SIP (Session Initiation Protocol).
   

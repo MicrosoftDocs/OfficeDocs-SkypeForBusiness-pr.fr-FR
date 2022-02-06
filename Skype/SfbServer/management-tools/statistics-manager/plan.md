@@ -1,25 +1,20 @@
 ---
 title: Planifier le Gestionnaire de statistiques pour Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: 'Résumé : Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques Skype Entreprise Server.'
-ms.openlocfilehash: 166390fe0f034c907e21a3d3147b516d9f502954
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857401"
+description: 'Résumé : Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques pour Skype Entreprise Server.'
 ---
+
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planifier le Gestionnaire de statistiques pour Skype Entreprise Server
 
 **Résumé :** Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques Skype Entreprise Server.
@@ -61,7 +56,7 @@ Le Gestionnaire de statistiques vous permet de :
 
 - Utilisez des plages de dates ou des points dans l’heure pour filtrer les données.
 
-- Afficher les performances du serveur en fonction des indicateurs d’état de santé clés établis. Les khis représentent une collection de compteurs de performance avec une plage d’état d’santé définie.
+- Afficher les performances du serveur en fonction des indicateurs d’état de santé clés établis. Les khis représentent une collection de compteurs de performance avec une plage saine définie.
 
 - Afficher des mesures détaillées pour chaque compteur.
 
@@ -73,7 +68,7 @@ Le Gestionnaire de statistiques vous permet de :
 
 - Afficher les KHIs en temps réel, y compris les mises à jour. Si l’affichage Historique est activé, seuls les nouveaux échecs sont affichés.
 
-  - Afficher toutes les khis en même temps
+  - Afficher tous les KHIs en même temps
 
   - Afficher les KHIs par serveur (mode Paysage)
 
@@ -86,9 +81,9 @@ Ce qui suit décrit les nouveautés de la version 2.0. Si vous avez un déploiem
 
 - Des affichages de scénario ont été ajoutés pour les scénarios edge media, Fabric Health, Pool Failover et Registration.
 
-- De nombreux nouveaux compteurs ont été ajoutés pour SQL serveurs, d’autres compteurs Skype Entreprise d’utilisation, etc.
+- De nombreux nouveaux compteurs ont été ajoutés pour SQL serveurs, d’autres compteurs Skype Entreprise’utilisation, etc.
 
-- Intégration du nœud de l’observeur pour l’agent du gestionnaire de statistiques : si l’agent est installé sur un nœud observeur, il signale les statistiques de transaction synthétique sous forme de compteurs au gestionnaire de statistiques.
+- Intégration du nœud de l’observeur pour l’agent du gestionnaire de statistiques : si l’agent est installé sur un nœud observeur, il signale les statistiques de transaction synthétique sous forme de compteurs au Gestionnaire de statistiques.
 
 - De nombreuses améliorations en matière de fiabilité et de performances.
 
@@ -113,7 +108,7 @@ Le Gestionnaire de statistiques se compose des composants suivants :
 
 - **Site web.** Interface utilisateur qui rassemble toutes les fonctionnalités disponibles dans le système.
 
-En outre, le gestionnaire de statistiques requiert **Redis**, un serveur de structure de données open source pour la mise en cache en mémoire. Pour plus d’informations sur le téléchargement de Redis, voir [Deploy Statistics Manager](deploy.md#BKMK_Deploy) .
+En outre, le Gestionnaire de statistiques requiert **Redis**, un serveur de structure de données open source pour la mise en cache en mémoire. Pour plus d’informations sur le téléchargement de Redis, voir [Deploy Statistics Manager](deploy.md#BKMK_Deploy) .
 
 ## <a name="on-premises-deployment"></a>Déploiement sur site
 <a name="BKMK_DeploymentOptions"> </a>
@@ -122,9 +117,9 @@ Dans un déploiement local, un seul serveur héberge tous les composants du Gest
 
 Le diagramme suivant illustre un déploiement local, dans lequel le site web du gestionnaire de statistiques, le système de mise en cache Hub, Listener et Redis sont hébergés sur un seul ordinateur. Le Gestionnaire de statistiques surveille trois serveurs Skype Entreprise, chacun d’eux avec un seul agent transmettant des données à l’écoute. Les utilisateurs se connectent à un site web unique pour afficher toutes les données agrégées par le Gestionnaire de statistiques :
 
-![Déploiement local du gestionnaire de statistiques.](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
+![Déploiement local du gestionnaire des statistiques.](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 <a name="BKMK_Requirements"> </a>
 
 Vous devez prendre en compte les configurations logicielle, réseau et matérielle suivantes avant de déployer le Gestionnaire de statistiques.
@@ -159,7 +154,7 @@ Pendant l’installation, les ports de pare-feu pour l’port d’écoute et le 
 
 Dans un déploiement local, dans lequel un seul serveur héberge tous les composants du Gestionnaire de statistiques côté serveur, un serveur avec 16 Go de RAM et 4 processeurs doit pouvoir prendre en charge environ 150 échantillons par seconde en moyenne. Pour déterminer le nombre de compteurs/agents que vous pouvez prendre en charge, utilisez le calcul suivant :
 
-100 serveurs 80 compteurs 1 échantillon par minute de chaque \* \* agent / 60 secondes = ~ 133 échantillons par seconde.
+100 serveurs \*80 compteurs \* 1 échantillon par minute de chaque agent / 60 secondes = ~ 133 échantillons par seconde.
 
 ## <a name="security-considerations"></a>Considérations en matière de sécurité
 <a name="BKMK_Security"> </a>

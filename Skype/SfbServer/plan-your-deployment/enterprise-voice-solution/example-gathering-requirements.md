@@ -1,28 +1,23 @@
 ---
 title: Exemple de collecte des conditions requises pour le contrôle d’admission des appels Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
-description: Fournit un exemple détaillé de planification du contrôle d’admission des appels dans Skype Entreprise Server Voix Entreprise, notamment la collecte d’informations sur les sites, les régions et la bande passante de votre réseau.
-ms.openlocfilehash: 0af3072cfd0e248d2811c0aee78f7351b9513249
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850747"
+description: 'Fournit un exemple détaillé de planification du contrôle d’admission des appels dans Skype Entreprise Server Voix Entreprise, notamment la collecte d’informations sur les sites, les régions et la bande passante de votre réseau.'
 ---
+
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Exemple : collecte des conditions requises pour le contrôle d’admission des appels Skype Entreprise Server
 
 Fournit un exemple détaillé de planification du contrôle d’admission des appels dans Skype Entreprise Server Voix Entreprise, notamment la collecte d’informations sur les sites, les régions et la bande passante de votre réseau.
@@ -35,7 +30,7 @@ Cet exemple indique comment planifier et implémenter le contrôle d’admission
 
 3. Identifiez et définissez les sites réseau connectés à chaque région réseau.
 
-4. Pour chaque site réseau dont la connexion au réseau wan est limitée par la bande passante, décrivez la capacité de bande passante de la connexion WAN et les limites de bande passante que l’administrateur réseau Skype Entreprise Server définies pour le trafic multimédia, le cas échéant. Il n’est pas nécessaire d’inclure les sites dont la bande passante de connexion de réseau étendu n’est pas limitée.
+4. Pour chaque site réseau dont la connexion au réseau wan est limitée par la bande passante, décrivez la capacité de bande passante de la connexion WAN et les limites de bande passante définies par l’administrateur réseau pour le trafic multimédia Skype Entreprise Server, le cas échéant. Il n’est pas nécessaire d’inclure les sites dont la bande passante de connexion de réseau étendu n’est pas limitée.
 
 5. Associez chaque sous-réseau de votre réseau à un site réseau.
 
@@ -60,7 +55,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
      ![Exemple de topologie réseau avec 3 régions réseau.](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
-    > Un réseau MPLS (Multiprotocol Label Switching) devrait être représenté en tant que région réseau dans laquelle un emplacement géographique est associé à un site réseau correspondant. Pour plus d’informations, [voir Components and topologies for call admission control in Skype Entreprise](components-and-topologies.md). 
+    > Un réseau MPLS (Multiprotocol Label Switching) devrait être représenté en tant que région réseau dans laquelle un emplacement géographique est associé à un site réseau correspondant. Pour plus d’informations, voir [Components and topologies for call admission control in Skype Entreprise](components-and-topologies.md). 
 
     Dans l’exemple de topologie réseau précédent, il existe trois régions réseau, chacune avec Skype Entreprise Server site central qui gère le contrôle d’accès au contrôle d’accès. Le site central approprié pour une région réseau est choisi par le périmètre géographique. Étant donné que le trafic multimédia sera le plus important au sein des régions réseau, la propriété par secteur géographique le rend autonome et continuera à fonctionner même si d’autres sites centraux deviennent indisponibles. 
 
@@ -150,7 +145,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
     **Niveau** : 2
 
-    **Description**: les sous-réseaux pour les adresses IP suivantes : ne sont pas configurés ou les sous-réseaux ne sont pas \<List of IP Addresses\> associés à un site réseau. 
+    **Description** : les sous-réseaux pour les adresses IP suivantes : ne sont pas configurés \<List of IP Addresses\> ou les sous-réseaux ne sont pas associés à un site réseau. 
 
     **Cause** : les sous-réseaux pour les adresses IP correspondantes sont absents des paramètres de configuration du réseau ou les sous-réseaux ne sont pas associés à un site réseau. 
 
@@ -177,7 +172,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
 7. Dans Skype Entreprise Server contrôle d’admission des appels, les connexions entre les régions réseau sont appelées liens de région. Pour chaque lien de région, déterminez ce qui suit, tout comme vous l’avez fait pour les sites réseau :
 
-   - Limite de bande passante globale à appliquer à toutes les sessions audio simultanées. Si une nouvelle session audio entraîne le dépassement de cette limite, Skype Entreprise Server ne permet pas le démarrage de la session.
+   - Limite de bande passante globale à appliquer à toutes les sessions audio simultanées. Si une nouvelle session audio entraîne le dépassement de cette limite, Skype Entreprise Server n’autorise pas le démarrage de la session.
 
    - Limite de bande passante à appliquer à chaque session audio individuelle. La bande passante CAC par défaut est de 175 Kbits/s, mais elle est modifiable par l’administrateur.
 
@@ -235,7 +230,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
 ### <a name="next-steps"></a>Étapes suivantes
 
-Une fois que vous avez collecté les informations requises, vous pouvez effectuer le déploiement du contrôle d’accès au contrôle d’accès en utilisant le Skype Entreprise Server Management Shell ou Skype Entreprise Server Panneau de Skype Entreprise Server.
+Une fois que vous avez collecté les informations requises, vous pouvez effectuer un déploiement CAC à l’aide de l’Skype Entreprise Server Management Shell ou du Panneau de Skype Entreprise Server de contrôle.
 
 > [!NOTE]
 > Bien que vous pouvez effectuer la plupart des tâches de configuration réseau à l’aide du Panneau de configuration Skype Entreprise Server, pour créer des sous-réseaux et des liens intersite, vous devez utiliser Skype Entreprise Server Management Shell. Pour plus d’informations, voir [New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) et [New-CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).

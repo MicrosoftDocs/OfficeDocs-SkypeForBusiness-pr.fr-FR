@@ -1,32 +1,27 @@
 ---
 title: tblPrincipal
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
-description: tblPrincipal contient tous les principaux, y compris les utilisateurs, les dossiers et les groupes.
-ms.openlocfilehash: 91ac55a7d77c4225788a0fd1cb35b3fbbcf5e046
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846137"
+description: 'tblPrincipal contient tous les principaux, y compris les utilisateurs, les dossiers et les groupes.'
 ---
+
 # <a name="tblprincipal"></a>tblPrincipal
  
 tblPrincipal contient tous les principaux, y compris les utilisateurs, les dossiers et les groupes.
   
 **Colonnes**
 
-|**Colonne**|**Type (Type)**|**Description**|
+|**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, non null  <br/> |ID de principal.  <br/> |
 |prinGuid  <br/> |GUID, non null  <br/> |ID de principal. Il est largement utilisé comme clé primaire de remplacement, car sa signification croise l’espace services de domaine Active Directory. (Le GUID d’un principal mis en cache est égal au GUID d’objet Active Directory correspondant.)  <br/> |

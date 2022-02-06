@@ -1,24 +1,19 @@
 ---
 title: Accéder aux données de surveillance dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
 description: 'Résumé : Découvrez les données de surveillance utilisées dans Skype Entreprise Server.'
-ms.openlocfilehash: 49adf9caca82f97b0483743f65c7dea7b0f72a01
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852068"
 ---
+
 # <a name="access-monitoring-data-in-skype-for-business-server"></a>Accéder aux données de surveillance dans Skype Entreprise Server
  
 **Résumé :** Découvrez les données de surveillance utilisées dans Skype Entreprise Server.
@@ -29,6 +24,6 @@ L’un des outils à prendre en compte pour accéder aux données de surveillanc
   
 Comme cela a été indiqué, les rapports de surveillance nécessitent l’utilisation de SQL Server Reporting Service. SQL Server Reporting Service peut être installé en même temps que SQL Server ou ultérieurement.
   
-Pour plus d’informations, voir la rubrique Installer les rapports de surveillance [dans Skype Entreprise Server](../../deploy/deploy-monitoring/install-monitoring-reports.md).
+Pour plus d’informations, voir la rubrique [Installer les rapports de surveillance dans Skype Entreprise Server](../../deploy/deploy-monitoring/install-monitoring-reports.md).
   
 

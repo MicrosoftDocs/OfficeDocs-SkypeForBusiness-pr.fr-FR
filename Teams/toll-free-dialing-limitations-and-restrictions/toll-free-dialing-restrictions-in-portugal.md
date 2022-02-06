@@ -1,37 +1,32 @@
 ---
 title: Restrictions de numérotation gratuit au Portugal
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
-ms.reviewer: davlick, krkilaru
+ms.reviewer: 'davlick, krkilaru'
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
-- Microsoft Teams
+  - Skype for Business
+  - Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Calling Plans
-description: Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous devez vous rendre sur une page spécifique du pays qui contient des détails, des restrictions et des limites spécifiques sur la disponibilité du service gratuit où un service gratuit est disponible. Le format ou les formats de numérotation vous indiquent les codes d’accès requis dans chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: ad30e48d8524f121f1c389b66f7a37fdac5083a4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840676"
+  - Calling Plans
+description: 'Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous devez vous rendre sur une page spécifique du pays qui contient des détails, des restrictions et des limites spécifiques sur la disponibilité du service gratuit où un service gratuit est disponible. Le format ou les formats de numérotation vous indiquent les codes d’accès requis dans chaque pays/région pour composer le numéro gratuit.'
 ---
+
 # <a name="toll-free-dialing-restrictions-in-portugal"></a>Restrictions de numérotation gratuit au Portugal
 
-[Trouvez un autre pays ou une autre région,](../toll-free-dialing-limitations-and-restrictions.md)ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
+[Trouvez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md) ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
 
 
 |**Détails**|**Description**|

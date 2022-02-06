@@ -1,24 +1,19 @@
 ---
 title: Activer la qualité de l’expérience dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: 'Résumé : Découvrez comment activer la qualité de l’expérience (QoE) dans Skype Entreprise Server.'
-ms.openlocfilehash: 89c6a41a356355ea5ac717a10e2848aa16d94249
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863571"
 ---
+
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Activer la qualité de l’expérience dans Skype Entreprise Server
 
 **Résumé : Découvrez** comment activer la qualité de l’expérience (QoE) dans Skype Entreprise Server.
@@ -42,7 +37,7 @@ Procédez comme suit pour activer la QoE dans toute l’entreprise ou dans chacu
 
 ## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>Activation de la QoE à l’aide Windows PowerShell cmdlets
 
-Vous pouvez activer la QoE à l’Windows PowerShell et à l’aide de l’cmdlet **Set-CsQoEConfiguration.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Le processus est le même dans Skype Entreprise Server.
+Vous pouvez activer la QoE à l’Windows PowerShell et à l’aide de l';cmdlet **Set-CsQoEConfiguration**. Vous pouvez exécuter cette cmdlet à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distants pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Le processus est le même dans Skype Entreprise Server.
 
 ### <a name="to-enable-qoe-for-a-single-location"></a>Pour activer la qualité de l’expérience pour un emplacement
 

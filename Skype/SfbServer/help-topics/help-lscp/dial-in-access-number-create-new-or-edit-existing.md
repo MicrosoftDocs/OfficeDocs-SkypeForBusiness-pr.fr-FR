@@ -1,27 +1,22 @@
 ---
 title: 'Numéro d’accès à la connexion : création d’un numéro ou modification d’un numéro existant'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.ConfCAAEdit
+  - ms.lync.lscp.ConfCAAEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
-description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: a90b27a4f59a5631dc3f63f1ee549411027660a5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845577"
+description: "Que voulez-vous faire\_? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer."
 ---
+
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>Numéro d’accès entrant : création d’un nouveau ou modification d’un numéro existant
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.

@@ -1,32 +1,27 @@
 ---
 title: tblComplianceData
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
 description: tblComplianceData contient les événements de conformité qui n’ont pas encore été traités par l’ensemble des traducteurs inscrits.
-ms.openlocfilehash: 50972cb721fe2e96e8fb5bb87b05b2fe01584e34
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854108"
 ---
+
 # <a name="tblcompliancedata"></a>tblComplianceData
  
 tblComplianceData contient les événements de conformité qui n’ont pas encore été traités par l’ensemble des traducteurs inscrits.
   
 **Colonnes**
 
-|**Colonne**|**Type (Type)**|**Description**|
+|**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |cmplEventID  <br/> |bigint, non null  <br/> |ID d’événement.  <br/> |
 |entryDate  <br/> |smalldatetime, non null  <br/> |Moment de l’insertion (peut être éloigné dans le futur pour cmplType=9, car l’entrée est juste un espace réservé dans ce cas).  <br/> |

@@ -1,27 +1,22 @@
 ---
 title: Utilisateurs Nouvel utilisateur Lync Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.UserNew
+  - ms.lync.lscp.UserNew
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
-ROBOTS: NOINDEX, NOFOLLOW
-description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 3447315332a09a7d568ba052983846e3e6479a53
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834542"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: "Que voulez-vous faire\_? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer."
 ---
+
 # <a name="users-new-user"></a>Utilisateurs : nouvel utilisateur
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.

@@ -1,28 +1,23 @@
 ---
 title: Conditions préalables à la sécurité et à la configuration Voix Entreprise dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: 'Résumé : Découvrez les conditions préalables de sécurité et de configuration requises pour Voix Entreprise dans Skype Entreprise Server.'
-ms.openlocfilehash: 01f7be3bfe3e43d53d574632f228681be5af4ba4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839076"
 ---
+
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Conditions préalables à la sécurité et à la configuration Voix Entreprise dans Skype Entreprise Server
  
 **Résumé :** Découvrez les conditions préalables de sécurité et de configuration pour Voix Entreprise dans Skype Entreprise Server.
@@ -46,7 +41,7 @@ Avant de déployer, vérifiez les choses suivantes :
 - L’infrastructure MKI (Managed Key Infrastructure) est déployée et configurée, à l’aide d’une infrastructure d’autorité de certification Microsoft ou tierce.
     
     > [!NOTE]
-    > Pour plus d’informations sur les certificats requis dans Skype Entreprise Server, voir [Environmental requirements for Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype Entreprise Server [2019](../../../SfBServer2019/plan/system-requirements.md). 
+    > Pour plus d’informations sur les certificats requis dans Skype Entreprise Server, voir [Environmental requirements for Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype Entreprise Server 2019](../../../SfBServer2019/plan/system-requirements.md). 
   
 ## <a name="user-configuration"></a>Configuration utilisateur
 
@@ -55,14 +50,14 @@ Si vous avez coqueté le serveur de médiation avec chaque pool frontal ou serve
 Si vous procédez à un nouveau déploiement de la charge de travail de Voix Entreprise, avant de commencer le processus de déploiement, désignez un numéro de téléphone principal pour chaque utilisateur pour lequel vous envisagez d’activer Voix Entreprise. En tant qu’administrateur, vous devez vous assurer que ce numéro est unique. Avant l’implémentation, tous les numéros de téléphone principaux doivent être normalisés (correctement formatés) et copiés dans la propriété **URI** de ligne de chaque utilisateur à l’aide du Panneau de Skype Entreprise Server.
   
 > [!NOTE]
-> Pour obtenir des exemples de numéros de téléphone principaux requis pour Voix Entreprise déploiement, voir [exemples de règles de normalisation.](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md#BKMK_SampleNormalizationRules) 
+> Pour obtenir des exemples de numéros de téléphone principaux requis pour Voix Entreprise déploiement, voir [exemples de règles de normalisation](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md#BKMK_SampleNormalizationRules). 
   
 ## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>Étapes suivantes : installer des fichiers ou configurer la connectivité PSTN
 
 Après avoir vérifié les conditions préalables logicielles et environnementales pour Voix Entreprise vous pouvez :
   
-- Installez le serveur de médiation, comme décrit dans Déployer un serveur de médiation dans le Générateur de topologies dans [Skype Entreprise Server,](deploy-a-mediation-server.md)mais uniquement si vous souhaitez déployer un serveur de médiation ou un pool autonome, car les serveurs de médiation sont installés dans le cadre du processus de déploiement d’un pool frontal ou d’un serveur Édition Standard lors de la cocation.
+- Installez le serveur de médiation, comme décrit dans Déployer un serveur de médiation dans le Générateur de topologies dans [Skype Entreprise Server](deploy-a-mediation-server.md), mais uniquement si vous souhaitez déployer un serveur de médiation ou un pool autonome, car les serveurs de médiation sont installés dans le cadre du processus de déploiement du pool frontal ou du serveur Édition Standard lors de la c cocation.
     
-- Vous pouvez également commencer à configurer les paramètres pour router les appels pour Voix Entreprise [utilisateurs,](configure-trunks.md)comme décrit dans La configuration des Skype Entreprise Server .
+- Vous pouvez également commencer à configurer les paramètres pour router les appels pour Voix Entreprise [utilisateurs](configure-trunks.md), comme décrit dans La configuration des Skype Entreprise Server.
     
 

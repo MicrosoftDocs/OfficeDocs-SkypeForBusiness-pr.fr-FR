@@ -1,32 +1,27 @@
 ---
 title: Nœud d’étendue des instances SQL
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SqlInstancesScopeNode
+  - ms.lync.tb.SqlInstancesScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
-description: 'Le SQL stocke les listes SQL Server bases de données de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 7bda856e8e4bde303daa5ddee3dca57eb5bfab9a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861401"
+description: "Le SQL magasins répertorie les bases SQL Server données de votre topologie. Vous pouvez effectuer l’action suivante\_:"
 ---
+
 # <a name="sql-instances-scope-node"></a>Nœud d’étendue des instances SQL
  
-Le **SQL stocke** les listes SQL Server bases de données de votre topologie. Vous pouvez effectuer l’action suivante :
+Le **SQL magasins** répertorie les SQL Server de données de votre topologie. Vous pouvez effectuer l’action suivante :
   
-- **Nouveau magasin SQL**. Démarre **l’Assistant Définir SQL Store,** que vous utilisez pour ajouter une nouvelle base de données SQL Server à la topologie.
+- **Nouveau magasin SQL**. Démarre **l’Assistant Définir SQL Store**, que vous utilisez pour ajouter une nouvelle base de données SQL Server à la topologie.
     
 Outre les options de SQL Server de données, vous pouvez effectuer les tâches générales suivantes :
   

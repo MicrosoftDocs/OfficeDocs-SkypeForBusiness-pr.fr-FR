@@ -1,33 +1,28 @@
 ---
 title: Chiffrement pour Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
-description: Skype Entreprise Server utilise TLS et MTLS pour chiffrer les messages instantanés. Tout le trafic de serveur à serveur nécessite MTLS, que le trafic soit limité au réseau interne ou qu’il traverse le périmètre du réseau interne. Lors de la connexion Skype Entreprise Server des systèmes IPPBX tiers ou des trunks SIP TLS est facultatif, mais fortement recommandé entre le serveur de médiation et la passerelle multimédia. Si TLS est configuré sur ce lien, MTLS est requis. Par conséquent, la passerelle doit être configurée avec un certificat d’une ca qui est approuvé par le serveur de médiation.
-ms.openlocfilehash: 3ee649f62e2855f959b2ee9fdc25bdb2d77fa6e9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849717"
+description: 'Skype Entreprise Server utilise TLS et MTLS pour chiffrer les messages instantanés. Tout le trafic de serveur à serveur nécessite MTLS, que le trafic soit limité au réseau interne ou qu’il traverse le périmètre du réseau interne. Lors de la Skype Entreprise Server à des systèmes IPPBX tiers ou des trunks SIP TLS est facultatif, mais fortement recommandé entre le serveur de médiation et la passerelle multimédia. Si TLS est configuré sur ce lien, MTLS est requis. Par conséquent, la passerelle doit être configurée avec un certificat d’une ca qui est approuvé par le serveur de médiation.'
 ---
+
 # <a name="encryption-for-skype-for-business-server"></a>Chiffrement pour Skype Entreprise Server
  
 Skype Entreprise Server utilise TLS et MTLS pour chiffrer les messages instantanés. Tout le trafic de serveur à serveur nécessite MTLS, que le trafic soit limité au réseau interne ou qu’il traverse le périmètre du réseau interne. Lors de la connexion Skype Entreprise Server des systèmes IPPBX tiers ou des trunks SIP TLS est facultatif, mais fortement recommandé entre le serveur de médiation et la passerelle multimédia. Si TLS est configuré sur ce lien, MTLS est requis. Par conséquent, la passerelle doit être configurée avec un certificat d’une ca qui est approuvé par le serveur de médiation.
   
 > [!NOTE]
-> Un avis de sécurité concernant SSL 3.0 a été publié en 2014. La désactivation de SSL 3.0 dans Skype Entreprise Server 2015 est une option prise en charge. Pour en savoir plus sur l’avis de sécurité, voir [Disabling SSL 3.0 in Lync Server 2013 and Skype Entreprise Server 2015](/archive/blogs/uclobby/disabling-ssl-3-0-in-lync-server-2013).<br/>
-**Note de sécurité :** Pour vous assurer que le protocole de chiffrement le plus fort est utilisé, Skype Entreprise Server 2015 proposera aux clients des protocoles de chiffrement TLS dans l’ordre suivant : **TLS 1.2, TLS 1.1, TLS 1.0**. TLS est un aspect essentiel de Skype Entreprise Server 2015 et est donc nécessaire pour maintenir un environnement pris en charge.<br/>
-**Note de sécurité :** Pour vous assurer que le protocole de chiffrement le plus fort est utilisé, Skype Entreprise Server 2019 proposera aux clients des protocoles de chiffrement TLS dans l’ordre suivant : **TLS 1.3, TLS 1.2**. TLS est un aspect essentiel de Skype Entreprise Server 2019 et est donc nécessaire pour maintenir un environnement pris en charge. 
+> Un avis de sécurité concernant SSL 3.0 a été publié en 2014. La désactivation de SSL 3.0 dans Skype Entreprise Server 2015 est une option prise en charge. Pour en savoir plus sur l’avis de sécurité, voir [Disabling SSL 3.0 dans Lync Server 2013 et Skype Entreprise Server 2015](/archive/blogs/uclobby/disabling-ssl-3-0-in-lync-server-2013).<br/>
+**Note de sécurité :** Pour s’assurer que le protocole de chiffrement le plus fort est utilisé, Skype Entreprise Server 2015 propose aux clients des protocoles de chiffrement TLS dans l’ordre suivant : **TLS 1.2, TLS 1.1, TLS 1.0**. TLS est un aspect essentiel de Skype Entreprise Server 2015 et est donc nécessaire pour maintenir un environnement pris en charge.<br/>
+**Note de sécurité :** Pour vous assurer que le protocole de chiffrement le plus fort est utilisé, Skype Entreprise Server 2019 propose aux clients les protocoles de chiffrement TLS dans l’ordre suivant : **TLS 1.3, TLS 1.2**. TLS est un aspect essentiel de Skype Entreprise Server 2019 et est donc nécessaire pour maintenir un environnement pris en charge. 
   
 Le tableau suivant résume les protocoles requis pour chaque type de trafic. 
   
@@ -48,7 +43,7 @@ Le tableau suivant résume les protocoles requis pour chaque type de trafic.
 Le trafic multimédia est chiffré à l’aide du protocole SRTP (Secure RTP), un profil du protocole RTP (Real-Time Transport Protocol). De plus, le flux de contenu entrant dans les deux directions entre le serveur de médiation et son saut interne suivant est également chiffré à l’aide de SRTP. Le trafic multimédia qui circule dans les deux sens entre le serveur de médiation et une passerelle multimédia est éventuellement chiffré et recommandé. Le serveur de médiation peut prendre en charge le chiffrement sur la passerelle multimédia mais, dans ce cas, celle-ci doit prendre en charge MTLS et le stockage d’un certificat.
   
 > [!NOTE]
-> Pour plus d’informations sur la configuration hybride, voir [Planifier la connectivité hybride.](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+> Pour plus d’informations sur la configuration hybride, voir [Planifier la connectivité hybride](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
   
 ## <a name="fips"></a>FIPS
 

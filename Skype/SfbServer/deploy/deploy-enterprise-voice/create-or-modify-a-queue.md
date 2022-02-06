@@ -1,33 +1,28 @@
 ---
 title: Créer ou modifier une file d’attente dans Skype Entreprise
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
-description: Créez ou modifiez une file d’attente Response Group, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 6a4eb09e144bd7381ababdf37a0905c4ea9bac06
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842426"
+description: 'Créez ou modifiez une file d’attente Response Group, Skype Entreprise Server Voix Entreprise.'
 ---
+
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Créer ou modifier une file d’attente dans Skype Entreprise
  
 Créez ou modifiez une file d’attente Response Group, Skype Entreprise Server Voix Entreprise.
   
-Les files d’attente placent les appelants en attente jusqu’à ce qu’un agent réponde à l’appel. Lorsque l’application Response Group recherche un agent disponible, elle recherche les groupes d’agents dans l’ordre où vous les avez répertoriés. Vous pouvez sélectionner les groupes d’agents qui sont affectés à la file d’attente et spécifier le comportement de la file d’attente, par exemple en limitant le nombre d’appels que la file d’attente peut contenir et la période d’attente d’un appel jusqu’à ce qu’un agent réponde à l’appel.
+Les files d’attente placent les appelants en attente jusqu’à ce qu’un agent réponde à l’appel. Lorsque l’application Response Group recherche un agent disponible, elle recherche les groupes d’agents dans l’ordre dans le but de les lister. Vous pouvez sélectionner les groupes d’agents qui sont affectés à la file d’attente et spécifier le comportement de la file d’attente, par exemple en limitant le nombre d’appels que la file d’attente peut contenir et la période d’attente d’un appel jusqu’à ce qu’un agent réponde à l’appel.
   
 Utilisez l’une des procédures suivantes pour créer ou modifier une file d’attente.
   
@@ -71,11 +66,11 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
    - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
     
-   - Pour envoyer l’appel à la messagerie vocale, cliquez sur Forward **to voice mail,** puis dans le champ d’adresse **SIP,** tapez une adresse de messagerie vocale au format sip: *\<username\>* @  *\<domainname\>* (par exemple, sip:bob@contoso.com).
+   - Pour envoyer l’appel à la messagerie vocale, cliquez sur Forward **vers** la messagerie vocale, puis dans le champ d’adresse **SIP** , tapez une adresse de messagerie vocale au format sip: *\<username\>*@ *\<domainname\>* (par exemple, sip:bob@contoso.com).
     
-   - Pour passer l’appel vers un autre numéro de téléphone, cliquez sur Forward **vers** le numéro de téléphone, puis dans le champ Adresse **SIP,** tapez le numéro de téléphone au format sip *\<number\>* @  *\<domainname\>* : (par exemple, sip:+14255550121@contoso.com).
+   - Pour passer l’appel vers un autre numéro de téléphone, cliquez sur Forward **vers** le numéro de téléphone, puis dans le champ Adresse **SIP** , tapez le numéro de téléphone au format sip : *\<number\>*@ *\<domainname\>* (par exemple, sip:+14255550121@contoso.com).
     
-   - Pour passer l’appel à un autre utilisateur, cliquez sur Forward vers l’adresse **SIP,** puis dans le champ d’adresse **SIP,** tapez l’URI de l’utilisateur au format sip: _\<username\>_ @  _\<domainname\>_ .
+   - Pour passer l’appel à un autre utilisateur, cliquez sur Forward vers l’adresse **SIP**, puis dans le champ d’adresse **SIP** , tapez l’URI de l’utilisateur au format sip: _\<username\>_@ _\<domainname\>_.
     
    - Pour transférer l’appel vers une autre file d’attente, cliquez sur **Transférer vers une autre file d’attente**, puis accédez à la file d’attente que vous voulez utiliser.
     
@@ -89,11 +84,11 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
    - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
     
-   - Pour envoyer l’appel à la messagerie vocale, cliquez sur Forward **to voice mail,** puis dans le champ d’adresse **SIP,** tapez une adresse de messagerie vocale au format sip: *\<username\>* @  *\<domainname\>* (par exemple, sip:bob@contoso.com).
+   - Pour envoyer l’appel à la messagerie vocale, cliquez sur Forward **vers** la messagerie vocale, puis dans le champ d’adresse **SIP** , tapez une adresse de messagerie vocale au format sip: *\<username\>*@ *\<domainname\>* (par exemple, sip:bob@contoso.com).
     
-   - Pour passer l’appel vers un autre numéro de téléphone, cliquez sur Forward **vers** le numéro de téléphone, puis dans le champ Adresse **SIP,** tapez le numéro de téléphone au format sip *\<number\>* @  *\<domainname\>* : (par exemple, sip:+14255550121@contoso.com).
+   - Pour passer l’appel vers un autre numéro de téléphone, cliquez sur Forward **vers** le numéro de téléphone, puis dans le champ Adresse **SIP** , tapez le numéro de téléphone au format sip : *\<number\>*@ *\<domainname\>* (par exemple, sip:+14255550121@contoso.com).
     
-   - Pour passer l’appel à un autre utilisateur, cliquez sur Forward vers l’adresse **SIP,** puis dans le champ d’adresse **SIP,** tapez l’URI de l’utilisateur au format sip: _\<username\>_ @  _\<domainname\>_ .
+   - Pour passer l’appel à un autre utilisateur, cliquez sur Forward vers l’adresse **SIP**, puis dans le champ d’adresse **SIP** , tapez l’URI de l’utilisateur au format sip: _\<username\>_@ _\<domainname\>_.
     
    - Pour transférer l’appel vers une autre file d’attente, cliquez sur **Transférer vers une autre file d’attente**, puis accédez à la file d’attente que vous voulez utiliser.
     
@@ -106,7 +101,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     > [!NOTE]
     > Si vous êtes l’un des responsables des groupes Response Group délégués d’un flux de travail géré, vous pouvez créer ou modifier des groupes d’agents et des files d’attente, puis affecter des groupes d’agents à des files d’attente. 
   
-2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
     
 3. Créez le message à lire lorsque le seuil d’expiration de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
     

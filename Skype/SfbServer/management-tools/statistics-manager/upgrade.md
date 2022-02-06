@@ -1,32 +1,27 @@
 ---
 title: Mise à niveau du Gestionnaire de statistiques pour Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Résumé : Lisez cette rubrique pour découvrir comment mettre à niveau le Gestionnaire de statistiques pour Skype Entreprise Server.'
-ms.openlocfilehash: 297da8efc1259c1128fd0d60584e1db761465217
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857331"
 ---
+
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Mise à niveau du Gestionnaire de statistiques pour Skype Entreprise Server
  
 **Résumé :** Lisez cette rubrique pour découvrir comment mettre à niveau le Gestionnaire de statistiques pour Skype Entreprise Server.
   
 Cette rubrique décrit comment mettre à niveau une installation existante du Gestionnaire de statistiques pour Skype Entreprise Server, un outil puissant qui vous permet d’afficher les données d’état et de performances Skype Entreprise Server en temps réel. Vous pouvez sonder les données de performances sur des centaines de serveurs toutes les quelques secondes et afficher les résultats instantanément sur le site web du Gestionnaire de statistiques. 
   
-Pour plus d’informations sur le Gestionnaire de statistiques et les nouvelles fonctionnalités de la version 2.0, voir [Plan for Statistics Manager for Skype Entreprise Server](plan.md) and Deploy Statistics Manager for [Skype Entreprise Server](deploy.md).
+Pour plus d’informations sur le Gestionnaire de statistiques et les nouvelles fonctionnalités de la version 2.0, voir [Plan for Statistics Manager for Skype Entreprise Server](plan.md) and [Deploy Statistics Manager for Skype Entreprise Server](deploy.md).
   
 Il existe deux méthodes pour la mise à niveau :
   
@@ -34,7 +29,7 @@ Il existe deux méthodes pour la mise à niveau :
     
 - **Mise à niveau manuelle.** Cette méthode est fournie en tant que plan de sauvegarde dans les cas inhabituels d’échec de la mise à niveau automatisée.
     
-## <a name="prerequisites"></a>Configuration requise
+## <a name="prerequisites"></a>Conditions préalables
 
 Avant de mettre à niveau, assurez-vous que vous avez les informations suivantes :
   
@@ -57,11 +52,11 @@ Le script collecte les informations de certificat et le mot de passe d’écoute
    ```
 
 > [!NOTE]
-> Le mot de passe du service Gestionnaire de statistiques s’affiche en texte clair sur la ligne de commande lors de son passage au programme d’installation. Assurez-vous de protéger votre moniteur selon vos besoins. 
+> Le mot de passe du service Gestionnaire de statistiques s’affiche en texte clair sur la ligne de commande lors de sa passage au programme d’installation. Assurez-vous de protéger votre moniteur selon vos besoins. 
   
 1. Lors de l’exécution du script, vous devez être invité à désinstaller l’ancienne version du produit. Réponse Oui.
     
-2. Si le service d’écoute est en cours d’exécution, vous serez invité à fermer l’application avant de continuer. Autorisez la fermeture de l’application (le service d’écoute du Gestionnaire de statistiques sera arrêté).
+2. Si le service d’écoute est en cours d’exécution, vous êtes invité à fermer l’application avant de continuer. Autorisez la fermeture de l’application (le service d’écoute du Gestionnaire de statistiques sera arrêté).
     
 3. Poursuivez le processus d’installation. Notez que le mot de passe du service et l’empreinte numérique du certificat sont pré-rempli. Si ce n’est pas le cas, ajoutez les valeurs que vous avez enregistrées avant de continuer.
     

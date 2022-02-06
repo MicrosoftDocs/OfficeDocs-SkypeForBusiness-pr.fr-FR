@@ -1,24 +1,19 @@
 ---
 title: Rapport des listes d’échecs Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 'Résumé : Découvrez le rapport des listes d’échecs Skype Entreprise Server.'
-ms.openlocfilehash: 37442d95c3a79bffbd79ebd74a793f5d3e1f3fb4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858291"
 ---
+
 # <a name="failure-list-report-in-skype-for-business-server"></a>Rapport des listes d’échecs Skype Entreprise Server 
  
 **Résumé :** Découvrez le rapport des listes d’échecs Skype Entreprise Server.
@@ -27,7 +22,7 @@ Le Rapport des listes d’échecs fournit des informations sur les participants 
   
 ## <a name="accessing-the-failure-list-report"></a>Accès au Rapport des listes d’échecs
 
-Le rapport des listes d’échecs est accessible en cliquant sur l’une des mesures suivantes dans le rapport de répartition des [défaillances Skype Entreprise Server](failure-distribution-report.md):
+Le rapport des listes d’échecs est accessible en cliquant sur l’une des mesures suivantes dans le [rapport de répartition des défaillances Skype Entreprise Server](failure-distribution-report.md) :
   
 - Motifs de diagnostic principaux (sessions)
     
@@ -45,7 +40,7 @@ Le rapport des listes d’échecs est accessible en cliquant sur l’une des mes
     
 - Agents utilisateurs émetteurs principaux (sessions)
     
-À partir du rapport des listes d’échecs, vous pouvez accéder au rapport détaillé de session D’égal à égal dans [Skype Entreprise Server](peer-to-peer-session-detail-report.md) en cliquant sur la mesure Détails de session pour une session d’égal à égal. Vous pouvez également accéder au Rapport détaillé de conférence en cliquant sur la mesure Conférence pour une conférence.
+À partir du rapport des listes d’échecs, vous pouvez accéder au rapport détaillé de session P2E dans [Skype Entreprise Server](peer-to-peer-session-detail-report.md) en cliquant sur la mesure Détails de session pour une session d’égal à égal. Vous pouvez également accéder au Rapport détaillé de conférence en cliquant sur la mesure Conférence pour une conférence.
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>Exploitation optimale du Rapport des listes d’échecs
 

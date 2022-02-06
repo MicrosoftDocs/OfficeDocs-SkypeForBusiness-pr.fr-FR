@@ -1,28 +1,23 @@
 ---
 title: Une trunking SIP dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: En savoir plus sur la trunking SIP dans Skype Entreprise Server Voix Entreprise
-ms.openlocfilehash: 6278526a83e5af4b0020c9dbb822eabad7053426
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841016"
 ---
+
 # <a name="sip-trunking-in-skype-for-business-server"></a>Une trunking SIP dans Skype Entreprise Server
 
 En savoir plus sur la trunking SIP dans Skype Entreprise Server Voix Entreprise
@@ -62,9 +57,9 @@ Bénéficier de fonctionnalités vocales est souvent la principale motivation po
 
 ### <a name="sip-trunks-vs-direct-sip-connections"></a>Différences entre les jonctions SIP et les connexions SIP directes
 
-Le terme jonction est dérivé de la technologie de commutation. Il fait référence à une ligne physique dédiée qui connecte les équipements téléphoniques de commutation. Comme leurs prédécesseurs, les liaisons TDM (multiplexage de division du temps), les connexions SIP sont des connexions entre deux réseaux SIP distincts : l’entreprise Skype Entreprise Server et le groupe itsp. Contrairement aux jonctions de commutation, les jonctions SIP sont des connexions virtuelles pouvant être établies sur n’importe quel type de connexion de jonction SIP pris en charge.
+Le terme jonction est dérivé de la technologie de commutation. Il fait référence à une ligne physique dédiée qui connecte les équipements téléphoniques de commutation. Comme leurs prédécesseurs, les branches TDM (multiplexage de division du temps), les connexions SIP sont des connexions entre deux réseaux SIP distincts : l’entreprise Skype Entreprise Server et le itsp. Contrairement aux jonctions de commutation, les jonctions SIP sont des connexions virtuelles pouvant être établies sur n’importe quel type de connexion de jonction SIP pris en charge.
 
-En revanche, les connexions SIP directes sont des connexions SIP qui ne franchissent pas les limites du réseau local (c’est-à-dire qu’elles se connectent à une passerelle PSTN ou à un PBX dans votre réseau interne). Pour plus d’informations sur l’utilisation des connexions SIP directes avec Skype Entreprise Server, voir [connexions SIP directes dans Skype Entreprise Server](direct-sip.md).
+En revanche, les connexions SIP directes sont des connexions SIP qui ne franchissent pas les limites du réseau local (c’est-à-dire qu’elles se connectent à une passerelle PSTN ou à un PBX dans votre réseau interne). Pour plus d’informations sur l’utilisation des connexions SIP directes avec Skype Entreprise Server, voir [Connexions SIP directes dans Skype Entreprise Server](direct-sip.md).
 
 ## <a name="how-do-i-implement-sip-trunking"></a>Comment implémenter une trunking SIP ?
 
@@ -72,7 +67,7 @@ Pour implémenter une liaison SIP, vous devez router la connexion via un serveur
 
 Chaque serveur de médiation dispose d’une interface réseau interne et d’une interface réseau externe. L’interface interne se connecte aux serveurs frontaux. L’interface externe est communément appelée interface de passerelle, car elle est traditionnellement utilisée pour connecter le serveur de médiation à une passerelle PSTN (réseau téléphonique commuté) ou à un SYSTÈME IP-PBX. Pour implémenter une trunk SIP, vous connectez l’interface externe du serveur de médiation au composant Edge externe du itsp. Ce dernier peut être un contrôleur SBC, un routeur ou une passerelle.
 
-Pour plus d’informations sur les serveurs de médiation, voir composant serveur de [médiation dans Skype Entreprise Server](mediation-server.md).
+Pour plus d’informations sur les serveurs de médiation, consultez [la](mediation-server.md) Skype Entreprise Server.
 
 ### <a name="centralized-vs-distributed-sip-trunking"></a>Comparatif entre jonction SIP centralisée et jonction SIP distribuée
 
@@ -138,7 +133,7 @@ Skype Entreprise Server prend en charge uniquement les codecs suivants :
 
 ### <a name="internet-telephony-service-provider"></a>Fournisseur de services de téléphonie Internet
 
-La manière dont vous mettez en œuvre le côté fournisseur de services d’une connexion de jonction SIP varie d’un fournisseur de services de téléphonie Internet à l’autre. Pour plus d’informations sur le déploiement, contactez votre fournisseur de services. Pour obtenir la liste des fournisseurs de services de trunking SIP certifiés, consultez le site web du programme d’interopérabilité d’ouverture des communications unifiées [Microsoft.](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)
+La manière dont vous mettez en œuvre le côté fournisseur de services d’une connexion de jonction SIP varie d’un fournisseur de services de téléphonie Internet à l’autre. Pour plus d’informations sur le déploiement, contactez votre fournisseur de services. Pour obtenir la liste des fournisseurs de services de trunking SIP certifiés, consultez le site web du programme d’interopérabilité d’ouverture des communications unifiées [Microsoft](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
 
 Pour plus d’informations sur les fournisseurs de jonctions SIP approuvés par Microsoft, contactez votre représentant Microsoft.
 
@@ -156,7 +151,7 @@ La figure suivante illustre la topologie de la trunking SIP dans Skype Entrepris
 Comme le montre le diagramme, un réseau privé virtuel (VPN) IP est utilisé pour la connectivité entre le réseau d’entreprise et le fournisseur de services de réseau téléphonique commuté. L’objectif de ce réseau privé est de fournir la connectivité IP, d’améliorer la sécurité et (éventuellement) d’obtenir des garanties de qualité de service. En raison de la nature d’un VPN, vous n’avez pas besoin d’utiliser TLS pour le trafic de signalisation SIP, ni SRTP pour le trafic multimédia. De ce fait, les connexions entre l’entreprise et le fournisseur de services consistent en des connexions TCP ordinaires pour SIP et des connexions RTP ordinaires (avec le protocole UDP) pour les médias traités par tunnel via un réseau VPN IP. Veillez à ce que tous les pare-feu situés entre les routeurs VPN disposent de ports ouverts pour permettre aux routeurs VPN de communiquer. Par ailleurs, les adresses IP des périmètres externes des routeurs VPN doivent être publiquement routables.
 
 > [!IMPORTANT]
-> Contactez votre fournisseur de services pour déterminer s’il fournit la prise en charge pour la disponibilité élevée, notamment le basculement. Si c’est le cas, vous devrez déterminer les procédures pour la configurer. Par exemple, devez-vous configurer une seule adresse IP et une seule ligne SIP sur chaque serveur de médiation, ou devez-vous configurer plusieurs trunks SIP sur chaque serveur de médiation ? > si vous avez plusieurs sites centraux, demandez également si le fournisseur de services a la possibilité d’activer les connexions vers et à partir d’un autre site central.
+> Contactez votre fournisseur de services pour déterminer s’il fournit la prise en charge pour la disponibilité élevée, notamment le basculement. Si c’est le cas, vous devrez déterminer les procédures pour la configurer. Par exemple, ne devez-vous configurer qu’une seule adresse IP et une seule trunk SIP sur chaque serveur de médiation, ou devez-vous configurer plusieurs trunks SIP sur chaque serveur de médiation ? > si vous avez plusieurs sites centraux, demandez également si le fournisseur de services a la possibilité d’activer les connexions vers et à partir d’un autre site central.
 
 > [!NOTE]
 > Pour la trunking SIP, nous vous recommandons vivement de déployer des serveurs de médiation autonomes. Pour plus d’informations, voir [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers) dans la documentation de déploiement.

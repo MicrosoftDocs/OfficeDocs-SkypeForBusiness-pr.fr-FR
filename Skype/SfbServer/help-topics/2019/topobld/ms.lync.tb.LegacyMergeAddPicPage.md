@@ -1,27 +1,22 @@
 ---
 title: Fusion héritée
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.LegacyMergeAddPicPage
+  - ms.lync.tb.LegacyMergeAddPicPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: Le Nom de domaine complet externe de conférence Web permet à des utilisateurs externes de participer à des réunions sur site. Entrez le nom de domaine complet (FQDN) de l'interface de conférence Web externe du serveur Edge hérité.
-ms.openlocfilehash: 9e24e3f89d3ed7e63406b0a7eb3e46201ae7e530
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836736"
 ---
+
 # <a name="legacy-merge"></a>Fusion héritée
 
 Le **Nom de domaine complet externe de conférence Web** permet à des utilisateurs externes de participer à des réunions sur site. Entrez le nom de domaine complet (FQDN) de l'interface de conférence Web externe du serveur Edge hérité.

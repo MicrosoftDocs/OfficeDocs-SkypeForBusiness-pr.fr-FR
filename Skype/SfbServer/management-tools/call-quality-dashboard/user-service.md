@@ -1,25 +1,20 @@
 ---
 title: Service utilisateur pour le CQD
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: 'Résumé : Découvrez le service utilisateur, qui fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: e8be18304cad02e1ed39cf84327a58f84d134c6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851007"
 ---
+
 # <a name="user-service-for-cqd"></a>Service utilisateur pour le CQD
  
 **Résumé :** Découvrez le service utilisateur, qui fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
@@ -37,13 +32,13 @@ Le Tableau de bord de qualité des appels crée également automatiquement des �
   
  **ID d’utilisateur spéciaux**
   
-L’API de référentiel inclut les URIs d’API REST qui s’attendent à ce qu’une valeur d’ensemble spécifie un utilisateur particulier. Exemple :  `https://<portal>/QoERepositoryService/repository/user/{userId}` . Ici, {userId} doit être remplacé par une valeur de type 0, 1, etc.
+L’API de référentiel inclut les  URL d’API REST qui s’attendent à ce qu’une valeur d’un nombre integer spécifie un utilisateur particulier. Exemple :  `https://<portal>/QoERepositoryService/repository/user/{userId}`. Ici, {userId} doit être remplacé par une valeur de type 0, 1, etc.
   
 En outre, l’API de référentiel accepte deux ID d’utilisateur spéciaux sur {userId} dans les UR.
   
 -  *par*  défaut : représente l’utilisateur qui interagit actuellement avec l’API. Cela permet aux applications d’accéder au contenu de l’utilisateur actuel sans suivre la valeur réelle de l’ID utilisateur. Exemple : `https://<portal>/QoERepositoryService/repository/user/default`.
     
--  *system*  - représente l’utilisateur système. Cela permet aux applications d’accéder au contenu de l’utilisateur système sans connaître la valeur réelle de l’ID utilisateur. Exemple : `https://<portal>/QoERepositoryService/repository/user/system`.
+-  *système*  : représente l’utilisateur système. Cela permet aux applications d’accéder au contenu de l’utilisateur système sans connaître la valeur réelle de l’ID utilisateur. Exemple : `https://<portal>/QoERepositoryService/repository/user/system`.
     
 Sauf indication contraire, les ID d’utilisateur spéciaux peuvent être utilisés à l’adresse {userId} dans les UR. 
   
