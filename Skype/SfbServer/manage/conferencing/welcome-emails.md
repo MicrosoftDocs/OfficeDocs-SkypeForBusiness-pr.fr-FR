@@ -1,25 +1,20 @@
 ---
-title: Envoyer un e-mail de bienvenue aux utilisateurs d’appels Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Envoyer un message électronique de bienvenue aux utilisateurs d’appels Skype Entreprise Server
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Résumé : Découvrez comment accueillir les utilisateurs à la conférence Skype Entreprise Server.'
-ms.openlocfilehash: 672e386c223e2b5b9f872334634ac315c9e900e1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848537"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Envoyer un e-mail de bienvenue aux utilisateurs d’appels Skype Entreprise Server
+
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Envoyer un message électronique de bienvenue aux utilisateurs d’appels Skype Entreprise Server
  
 **Résumé :** Découvrez comment accueillir les utilisateurs à des conférences téléphoniques dans Skype Entreprise Server.
   
@@ -37,7 +32,7 @@ Vous pouvez créer un script qui exécute le script **Set-CsPinSendCAWelcomeMail
 
 1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins.
     
-2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
     
 3. Exécutez la commande suivante à l’invite de commandes :
     
@@ -65,7 +60,7 @@ Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com"
 ```
 
-L’exemple suivant force un nouveau code confidentiel avec la valeur « 383042650 » pour Bob, même si Bob en avait déjà un, puis envoie un message électronique de bienvenue de Marco à Bob. Comme le paramètre Credential est spécifié, la personne exécutant la commande est invitée à entrer un mot de passe. Le courrier électronique est envoyé à l’aide du SSL (Secure Sockets Layer) :
+L’exemple suivant force un nouveau code confidentiel avec la valeur « 383042650 » pour Bob, même si Bob avait un code confidentiel existant, puis envoie un message électronique de bienvenue de Marco à Bob. Comme le paramètre Credential est spécifié, la personne exécutant la commande est invitée à entrer un mot de passe. Le courrier électronique est envoyé à l’aide du SSL (Secure Sockets Layer) :
   
 ```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"

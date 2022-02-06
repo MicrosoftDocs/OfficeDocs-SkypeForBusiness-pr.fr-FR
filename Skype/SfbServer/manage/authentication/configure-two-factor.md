@@ -1,30 +1,25 @@
 ---
 title: Configurer l’authentification à deux facteurs dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Résumé : Configurez l’authentification à deux facteurs dans Skype Entreprise Server.'
-ms.openlocfilehash: 1e28c88f28d765737415b01d82e2e8a7621c3744
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844247"
 ---
+
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Configurer l’authentification à deux facteurs dans Skype Entreprise Server
 
 **Résumé :** Configurez l’authentification à deux facteurs dans Skype Entreprise Server.
 
-Les sections suivantes décrivent les étapes nécessaires pour configurer l’authentification à deux facteurs pour votre déploiement. Pour plus d’informations sur l’authentification à deux facteurs, voir Activation Office 365 [authentification multifacteur](https://go.microsoft.com/fwlink/p/?LinkId=313332)pour les administrateurs en ligne - Grid User Post .
+Les sections suivantes décrivent les étapes nécessaires pour configurer l’authentification à deux facteurs pour votre déploiement. Pour plus d’informations sur l’authentification à deux facteurs, voir [Activation Office 365'authentification multifacteur pour les administrateurs en ligne - Grid User Post](https://go.microsoft.com/fwlink/p/?LinkId=313332).
 
 ## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>Configurer une autorité de Enterprise racine pour prendre en charge l’authentification par carte à puce
 
@@ -32,21 +27,21 @@ Les étapes suivantes décrivent comment configurer une Enterprise racine pour p
 
 Pour plus d’informations sur l’installation d’Enterprise’autorité de certification racine, voir [Install an Enterprise Root Certification Authority](/previous-versions/windows/it-pro/windows-server-2003/cc776709(v=ws.10)).
 
-1. Connectez-vous à l’ordinateur Enterprise’accès au client à l’aide d’un compte d’administrateur de domaine.
+1. Connectez-vous à l’Enterprise de l’ac à l’aide d’un compte d’administrateur de domaine.
 
-2. Lancez system Manager et vérifiez que le rôle d’inscription web de l’autorité de certification est installé.
+2. Lancez system manager et vérifiez que le rôle d’inscription web de l’autorité de certification est installé.
 
-3. Dans le menu **Outils d’administration,** ouvrez la console de gestion **de l’autorité** de certification.
+3. Dans le menu **Outils d’administration** , ouvrez la console de gestion **de l’autorité** de certification.
 
-4. Dans le volet de navigation, développez **Autorité de certification.**
+4. Dans le volet de navigation, développez **Autorité de certification**.
 
-5. Cliquez avec le bouton **droit sur Modèles de certificats,** **sélectionnez Nouveau,** puis **sélectionnez Modèle de certificat à émettre.**
+5. Cliquez avec le bouton **droit sur Modèles de certificats**, **sélectionnez Nouveau**, puis **sélectionnez Modèle de certificat à émettre**.
 
-6. Sélectionnez **Agent d’inscription,** **Utilisateur de** carte à puce et Logo par carte **à puce.**
+6. Sélectionnez **Agent d’inscription**, **Utilisateur à puce** et **Logo par carte à puce**.
 
 7. Cliquez sur **OK**.
 
-8. Cliquez avec le bouton droit **sur Modèles de certificats.**
+8. Cliquez avec le bouton droit **sur Modèles de certificats**.
 
 9. Sélectionnez **Gérer**.
 
@@ -64,7 +59,7 @@ Pour plus d’informations sur l’installation d’Enterprise’autorité de ce
 
 ## <a name="configure-windows-8-for-virtual-smart-cards"></a>Configurer les Windows 8 pour les cartes à puce virtuelles
 
-Un facteur à prendre en compte lors du déploiement de l’authentification à deux facteurs et de la technologie de carte à puce est le coût d’implémentation. Windows 8 offre un certain nombre de nouvelles fonctionnalités de sécurité et l’une des nouvelles fonctionnalités les plus intéressantes est la prise en charge des cartes à puce virtuelles.
+Un facteur à prendre en compte lors du déploiement de l’authentification à deux facteurs et de la technologie de carte à puce est le coût d’implémentation. Windows 8 offre un certain nombre de nouvelles fonctionnalités de sécurité, et l’une des nouvelles fonctionnalités les plus intéressantes est la prise en charge des cartes à puce virtuelles.
 
 Pour les ordinateurs équipés d’une puce de module de plateforme de confiance (TPM) qui répond aux spécifications de la version 1.2, les organisations peuvent désormais profiter des avantages de l’accès par carte à puce sans effectuer d’investissements supplémentaires en matériel. Pour plus d’informations, [voir Utilisation de cartes à puce virtuelles Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365).
 
@@ -76,7 +71,7 @@ Pour les ordinateurs équipés d’une puce de module de plateforme de confiance
 
 3. Sélectionnez **l’option** Rechercher, puis recherchezCommand Prompt.
 
-4. Cliquez avec le bouton droit **sur l’invite de** commandes, puis **sélectionnez Exécuter en tant qu’administrateur.**
+4. Cliquez avec le bouton droit **sur l’invite** de commandes, puis **sélectionnez Exécuter en tant qu’administrateur**.
 
 5. Ouvrez la console de gestion du module de plateforme fiable (TPM) en exécutant la commande suivante :
 
@@ -106,9 +101,9 @@ Pour les ordinateurs équipés d’une puce de module de plateforme de confiance
   CompMgmt.msc
   ```
 
-10. Dans la console Gestion de l’ordinateur, sélectionnez **Gestion des périphériques.**
+10. Dans la console Gestion de l’ordinateur, sélectionnez **Gestion des périphériques**.
 
-11. Développez **les lecteurs de carte à puce.**
+11. Développez **les lecteurs de carte à puce**.
 
 12. Vérifiez que le nouveau lecteur de carte à puce virtuel a été créé avec succès.
 
@@ -116,46 +111,46 @@ Pour les ordinateurs équipés d’une puce de module de plateforme de confiance
 
 Il existe généralement deux méthodes pour inscrire des utilisateurs pour l’authentification par carte à puce. La méthode la plus simple consiste à faire en sorte que les utilisateurs s’inscrivent directement pour l’authentification par carte à puce à l’aide de l’inscription web, tandis que la méthode la plus complexe implique l’utilisation d’un agent d’inscription. Cette rubrique se concentre sur l’inscription automatique pour les certificats de carte à puce.
 
-Pour plus d’informations sur l’inscription au nom des utilisateurs en tant qu’agent d’inscription, voir s’inscrire pour les certificats pour le compte [d’autres utilisateurs.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770802(v=ws.11))
+Pour plus d’informations sur l’inscription au nom des utilisateurs en tant qu’agent d’inscription, voir s’inscrire pour les [certificats au nom d’autres utilisateurs](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770802(v=ws.11)).
 
 ### <a name="to-enroll-users-for-smart-card-authentication"></a>Pour inscrire des utilisateurs pour l’authentification par carte à puce
 
-1. Connectez-vous au Windows 8 de travail à l’aide des informations d’identification d Skype Entreprise utilisateur à l’aide de l’outil.
+1. Connectez-vous au Windows 8 de travail à l’aide des informations d’identification d’Skype Entreprise utilisateur activé.
 
 2. Lancez Internet Explorer.
 
-3. Accédez à la page **Inscription web de l’autorité** de certification (par exemple, https://MyCA.contoso.com/certsrv) .
+3. Accédez à **la page Inscription web de l’autorité** de certification (par exemple, https://MyCA.contoso.com/certsrv).
 
     > [!NOTE]
     > Si vous utilisez Internet Explorer 10, vous devrez peut-être afficher ce site web en mode de compatibilité.
 
-4. Dans la page **d’accueil,** **sélectionnez Demander un certificat.**
+4. Dans la page **d’accueil** , **sélectionnez Demander un certificat**.
 
-5. Ensuite, sélectionnez **Demande avancée.**
+5. Ensuite, sélectionnez **Demande avancée**.
 
-6. Sélectionnez **Créer et envoyer une demande à cette ca.**
+6. **Sélectionnez Créer et envoyer une demande à cette ca**.
 
-7. Sélectionnez **Utilisateur de carte à puce** sous la section Modèle **de** certificat et terminez la demande de certificat avancée avec les valeurs suivantes :
+7. **Sélectionnez Utilisateur de carte à puce** sous **la section Modèle de** certificat et terminez la demande de certificat avancée avec les valeurs suivantes :
 
   - **Les options clés** confirment les paramètres suivants :
 
     - Sélectionnez la **bouton d’radio Créer un jeu de** touches
 
-    - Pour **le fournisseur CSP,** sélectionnez **Microsoft Base Smart Card Crypto Provider**
+    - Pour **le fournisseur CSP**, sélectionnez **Microsoft Base Smart Card Crypto Provider**
 
-    - Pour **l’utilisation de** **la clé, sélectionnez Exchange** (il s’agit de la seule option disponible).
+    - Pour **l’utilisation** de **la clé, sélectionnez Exchange** (il s’agit de la seule option disponible).
 
-    - For **Key Size**, enter 2048
+    - Pour **la taille de clé**, entrez 2048
 
-    - Confirmer que **le nom du conteneur de la** clé automatique est sélectionné
+    - Confirmer que **le nom du conteneur de la clé automatique** est sélectionné
 
     - Laissez les autres cases désactivées.
 
   - Sous **Options supplémentaires,** confirmez les valeurs suivantes :
 
-    - For **Request Format** select **CMC**.
+    - Pour **le format de demande,** **sélectionnez CMC**.
 
-    - Pour **l’algorithme de hachage,** **sélectionnez sha1**.
+    - Pour **l’algorithme de hachage** , **sélectionnez sha1**.
 
     - For **Friendly Name** enterSmardcard Certificate.
 
@@ -181,7 +176,7 @@ Pour plus d’informations sur l’inscription au nom des utilisateurs en tant q
 La section suivante décrit comment configurer les services de fédération Active Directory (AD FS 2.0) pour prendre en charge l’authentification multifacteur. Pour plus d’informations sur l’installation d’AD FS 2.0, voir [AD FS 2.0 Step-by-Step and How To Guides](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10)).
 
 > [!NOTE]
-> Lors de l’installation d’AD FS 2.0, n’utilisez pas Windows Server Manager pour ajouter le rôle Services de fédération Active Directory. Au lieu de cela, téléchargez et installez les services de fédération [Active Directory](/troubleshoot/windows-server/identity/availability-description-afds).
+> Lors de l’installation d’AD FS 2.0, n’utilisez pas Windows Server Manager pour ajouter le rôle Services de fédération Active Directory. Téléchargez et installez plutôt les services [de fédération Active Directory](/troubleshoot/windows-server/identity/availability-description-afds).
 
 ### <a name="to-configure-ad-fs-for-two-factor-authentication"></a>Pour configurer AD FS pour l’authentification à deux facteurs
 
@@ -203,7 +198,7 @@ La section suivante décrit comment configurer les services de fédération Acti
 
 5. Dans le menu Outils d’administration, lancez la console de gestion AD FS 2.0.
 
-6. Développez **les relations**  >  **d’confiance des relations de confiance.**
+6. **Développez trust RelationshipsRelying** >  **Party Trusts**.
 
 7. Vérifiez qu’une nouvelle confiance a été créée pour votre Skype Entreprise Server.
 
@@ -228,11 +223,11 @@ La section suivante décrit comment configurer les services de fédération Acti
   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
   ```
 
-10. Dans la console de gestion AD FS 2.0, cliquez avec le bouton droit sur votre confiance de partie de confiance et sélectionnez **Modifier les règles de revendication.**
+10. Dans la console de gestion AD FS 2.0, cliquez avec le bouton droit sur votre confiance de partie de confiance, puis sélectionnez **Modifier les règles de revendication**.
 
 11. Sélectionnez **l’onglet Règles d’autorisation** d’émission et vérifiez que la nouvelle règle d’autorisation a été correctement créée.
 
-12. Sélectionnez **l’onglet Règles de** transformation d’émission et vérifiez que la nouvelle règle de transformation a été correctement créée.
+12. Sélectionnez **l’onglet Règles de transformation d’émission** et vérifiez que la nouvelle règle de transformation a été correctement créée.
 
 ## <a name="configuring-ad-fs-20-to-support-client-authentication"></a>Configuration d’AD FS 2.0 pour prendre en charge l’authentification client
 
@@ -256,7 +251,7 @@ Il existe deux types d’authentification possibles qui peuvent être configuré
 
 5. Ouvrez le fichier web.config existant à l’aide Bloc-notes.
 
-6. Dans la barre de menus, **sélectionnez Modifier,** puis **Rechercher.**
+6. Dans la barre de menus, **sélectionnez Modifier** , puis **Rechercher**.
 
 7. Recherchez \<localAuthenticationTypes\>.
 
@@ -326,7 +321,7 @@ Les étapes suivantes décrivent comment créer une configuration de proxy perso
 
 ### <a name="to-create-a-custom-proxy-configuration"></a>Pour créer une configuration de proxy personnalisée
 
-1. À partir de la ligne de commande Skype Entreprise Server Management Shell, créez une configuration de proxy pour chaque pool edge Skype Entreprise Server, pool Enterprise et serveur Édition Standard qui sera activé pour l’authentification passive en exécutant les commandes suivantes :
+1. À partir de la ligne de commande Skype Entreprise Server Management Shell, créez une configuration de proxy pour chaque pool edge Skype Entreprise Server, pool Enterprise et serveur Édition Standard qui sera activé pour l’authentification passive en exécutant la commande suivante : commandes :
 
   ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False

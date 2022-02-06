@@ -1,24 +1,19 @@
 ---
 title: Associer des rapports de surveillance à une base de données miroir dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Résumé : Découvrez comment associer des rapports de surveillance à une base de données miroir utilisée par Skype Entreprise Server.'
-ms.openlocfilehash: 29992c9b37ea4160c2696bdeb7296ab83e1eb198
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856211"
 ---
+
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Associer des rapports de surveillance à une base de données miroir dans Skype Entreprise Server 
  
 **Résumé :** Découvrez comment associer des rapports de surveillance à une base de données miroir utilisée par Skype Entreprise Server.
@@ -33,21 +28,21 @@ Pour que les rapports de surveillance soient automatiquement mis à jour vers la
     
    - **Préfixe http:**
     
-   - Nom de domaine complet (FQDN) de l’ordinateur sur lequel Reporting Services est installé (par exemple, `atl-sql-001.litwareinc.com` ).
+   - Nom de domaine complet (FQDN) de l’ordinateur sur lequel Reporting Services est installé (par exemple, `atl-sql-001.litwareinc.com`).
     
    - Chaîne de **caractères /Reports_**.
     
    - Nom de l’instance de base de données où les rapports de surveillance sont installés (par exemple, **archinst**).
     
-     Par exemple, si SQL Server Reporting Services été installé sur l’ordinateur et que les rapports de surveillance utilisent l’instance de base de données archinst, l’URL de la page d’accueil se `atl-sql-001.litwareinc.com` ressemblerait à ceci :
+     Par exemple, si SQL Server Reporting Services `atl-sql-001.litwareinc.com` a été installé sur l’ordinateur et que les rapports de surveillance utilisent l’instance de base de données archinst, l’URL de la page d’accueil ressemble à ceci :
     
      `http://atl-sql-001.litwareinc.com/Reports_archinst`
     
-2. Une fois que vous avez accédé à la page d’accueil de Reporting Services, cliquez sur **ServerReports,** puis cliquez sur **Reports_Content**. Cela vous permettra d’Reports_Content **page** de la Skype Entreprise Server de surveillance.
+2. Une fois que vous avez accédé à la page d’accueil de Reporting Services, cliquez sur **ServerReports**, puis cliquez **sur Reports_Content**. Cela vous permettra d’Reports_Content **la page** des rapports Skype Entreprise Server de surveillance.
     
-3. Dans la page **Reports_Content,** cliquez sur la source de données **CDRDB.**
+3. Dans la page **Reports_Content** , cliquez sur la source de données **CDRDB** .
     
-4. Dans la page **CDRDB, sous** l’onglet **Propriétés,** recherchez la zone de texte « **Chaîne de connexion**». La chaîne de connexion actuelle ressemblera à ceci :
+4. Dans la page **CDRDB, sous** l’onglet **Propriétés**, recherchez la zone de texte « **Chaîne de connexion ».** La chaîne de connexion actuelle ressemblera à ceci :
     
     Data source=(local)\archinst;initial catalog=LcsCDR
     
@@ -59,9 +54,9 @@ Pour que les rapports de surveillance soient automatiquement mis à jour vers la
     
     Data source=(local)\archinst; Failover Partner=atl-mirror-001\archinst;initial catalog=LcsCDR
     
-6. Après avoir mis à jour la chaîne de connexion, cliquez sur **Appliquer.**
+6. Après avoir mis à jour la chaîne de connexion, cliquez sur **Appliquer**.
     
-7. Dans la page **CDRDB,** cliquez sur **Reports_Content** lien. Cliquez sur la source de **données QMSDB,** puis modifiez la chaîne de connexion pour la base de données QoE. Par exemple :
+7. Dans la page **CDRDB** , cliquez sur **Reports_Content** lien. Cliquez sur **la source de données QMSDB** , puis modifiez la chaîne de connexion pour la base de données QoE. Par exemple :
     
     `Data source=(local)\archinst;Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics`
     

@@ -1,25 +1,20 @@
 ---
 title: Créer un administrateur de conversation permanente dans Skype Entreprise Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: 'Résumé : Lisez cette rubrique pour découvrir comment créer un rôle d’administrateur de serveur de conversation permanente pour activer la configuration initiale et la gestion des services de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: c8878867d05b285e8275e63ba2e6e16a83b0a82e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846967"
 ---
+
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>Créer un administrateur de conversation permanente dans Skype Entreprise Server 2015
  
 **Résumé :** Lisez cette rubrique pour découvrir comment créer un rôle d’administrateur de serveur de conversation permanente pour activer la configuration initiale et la gestion des services de conversation permanente dans Skype Entreprise Server 2015.
@@ -29,7 +24,7 @@ Dans Skype Entreprise Server, les utilisateurs qui effectuent des tâches spéci
 Avant de configurer et d’administrer le serveur de conversation permanente, assurez-vous que les droits et autorisations utilisateur appropriés sont en place et que tous les utilisateurs qui agiraient en tant qu’administrateurs de conversation permanente sont ajoutés au groupe de sécurité Administrateur de conversation permanente.
   
 > [!NOTE] 
-> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015.
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015.
 
 ## <a name="create-a-persistent-chat-administrator"></a>Créer un administrateur de conversation permanente
 

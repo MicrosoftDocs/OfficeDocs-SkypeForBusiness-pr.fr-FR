@@ -1,27 +1,22 @@
 ---
 title: Nœud d’étendue de la passerelle PSTN
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.PstnGatewayScopeNode
+  - ms.lync.tb.PstnGatewayScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
-description: 'Ce nœud affiche le nom de domaine complet (FQDN), le serveur de médiation associé et d’autres informations basiques sur cette passerelle de réseau téléphonique commuté (PSTN). Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 2d9f0665076731b91d82ce00a86f6feb1bcd1606
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833420"
+description: "Ce nœud affiche le nom de domaine complet (FQDN), le serveur de médiation associé et d’autres informations basiques sur cette passerelle de réseau téléphonique commuté (PSTN). Vous pouvez effectuer les actions suivantes\_:"
 ---
+
 # <a name="pstn-gateway-scope-node"></a>Nœud d’étendue de la passerelle PSTN
  
 Ce nœud affiche le nom de domaine complet (FQDN), le serveur de médiation associé et d’autres informations basiques sur cette passerelle de réseau téléphonique commuté (PSTN). Vous pouvez effectuer les actions suivantes :

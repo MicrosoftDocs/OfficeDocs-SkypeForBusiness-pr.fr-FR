@@ -1,23 +1,18 @@
 ---
 title: Gestion des régions réseau
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: La région réseau* sont les concentrateurs réseau ou les dorsales utilisées dans la configuration du contrôle d’admission des appels, du système E9-1-1 et du contournement de média.
-ms.openlocfilehash: 5d0a40576098ceb641bdc677a551908b6a23044b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843867"
+description: 'La région réseau* sont les concentrateurs réseau ou les dorsales utilisées dans la configuration du contrôle d’admission des appels, du système E9-1-1 et du contournement de média.'
 ---
+
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Gestion des régions réseau dans Skype Entreprise Server
 
 Les *régions réseau* sont les concentrateurs de réseau ou les dorsales principales utilisés dans la configuration du contrôle d’admission d’appels, E9-1-1, et la déviation du trafic multimédia. Utilisez les procédures suivantes pour afficher, créer ou modifier des régions réseau. Par exemple, si vous avez déjà créé des régions réseau pour une fonction vocale, vous n’avez pas besoin de créer de nouvelles régions réseau ; les autres fonctions Enterprise Voice avancées utiliseront ces mêmes régions réseau. Toutefois, il est possible que vous soyez obligé de modifier la définition d’une région réseau existante pour appliquer des paramètres spécifiques à une fonctionnalité. Par exemple, si vous avez créé des régions réseau pour le service E9-1-1 (régions n’exigeant aucun site central associé), puis déployez ensuite le contrôle d’admission des appels, vous devez modifier les définitions des régions réseau afin de spécifier un site central. 
@@ -35,7 +30,7 @@ Une région réseau interconnecte diverses parties d’un réseau sur plusieurs 
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Région**.
 
 4.  Dans la page **Région**, cliquez sur la région que vous souhaitez afficher.
   
@@ -45,9 +40,9 @@ Une région réseau interconnecte diverses parties d’un réseau sur plusieurs 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
 
-### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de région réseau à l’aide Windows PowerShell cmdlets
+### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de région réseau à l’Windows PowerShell cmdlets
 
-Vous pouvez afficher les informations de région réseau à l’Windows PowerShell et à l’aide de l’cmdlet **Get-CsNetworkRegion.** Vous pouvez exécuter cette cmdlet à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+Vous pouvez afficher les informations de région réseau à l’Windows PowerShell et à l’aide de l’cmdlet **Get-CsNetworkRegion**. Vous pouvez exécuter cette cmdlet à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 ### <a name="to-view-network-region-information"></a>Pour afficher les informations de région réseau
 
@@ -57,7 +52,7 @@ Vous pouvez afficher les informations de région réseau à l’Windows PowerShe
     
     Cette action a pour effet de renvoyer des informations similaires à ce qui suit :
     
-    Identité : Pacifique (Nord-Ouest)<br/>
+    Identité : Pacifique nord-ouest<br/>
     Description :<br/>
     BypassID : 3b232b84-2c1d-4da2-8181-e9330bafebe9<br/>
     CentralSite : Site:Redmond1<br/>
@@ -78,7 +73,7 @@ Une région réseau interconnecte diverses parties d’un réseau sur plusieurs 
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Région**.
 
 4.  Dans la page **Région**, cliquez sur **Nouveau**.
 
@@ -94,7 +89,7 @@ Une région réseau interconnecte diverses parties d’un réseau sur plusieurs 
 
 10. Cliquez sur **Valider**.
 
-Le tableau **Sites associés** n’est pas utilisé pour la création d’une région réseau. Vous associez un site à une région lorsque vous créez ou modifiez le site. Pour plus d’informations, voir [Gestion du contrôle d’admission des appels pour les sites.](managing-call-admission-control-for-sites.md)
+Le tableau **Sites associés** n’est pas utilisé pour la création d’une région réseau. Vous associez un site à une région lorsque vous créez ou modifiez le site. Pour plus d’informations, voir [Gestion du contrôle d’admission des appels pour les sites](managing-call-admission-control-for-sites.md).
 
 ### <a name="to-modify-a-network-region"></a>Pour modifier une région réseau
 
@@ -102,7 +97,7 @@ Le tableau **Sites associés** n’est pas utilisé pour la création d’une r�
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Région**.
 
 4.  Dans la page **Région**, cliquez sur la région que vous souhaitez modifier.
 
@@ -125,7 +120,7 @@ Une région réseau interconnecte diverses parties d’un réseau sur plusieurs 
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Région**.
 
 4.  Dans la page **Région**, cliquez sur la région à supprimer.
   

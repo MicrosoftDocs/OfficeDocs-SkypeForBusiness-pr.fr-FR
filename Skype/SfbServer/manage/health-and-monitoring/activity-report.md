@@ -1,24 +1,19 @@
 ---
 title: Rapport d’activité de conférence Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: 'Résumé : Découvrez le rapport d’activité de conférence utilisé dans Skype Entreprise Server.'
-ms.openlocfilehash: c136bfaeb40a9b84c2861332636916353856855f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849927"
 ---
+
 # <a name="conference-activity-report-in-skype-for-business-server"></a>Rapport d’activité de conférence Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport d’activité de conférence utilisé dans Skype Entreprise Server.

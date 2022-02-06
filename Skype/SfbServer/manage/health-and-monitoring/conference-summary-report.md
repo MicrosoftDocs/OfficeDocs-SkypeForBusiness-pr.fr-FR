@@ -1,29 +1,24 @@
 ---
 title: Rapport de synthèse de conférence dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
 description: 'Résumé : Découvrez le rapport de synthèse de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: 029dac40c7bc52602f0403bdfd52559db662b0ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846407"
 ---
+
 # <a name="conference-summary-report-in-skype-for-business-server"></a>Rapport de synthèse de conférence dans Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport de synthèse de conférence dans Skype Entreprise Server.
   
-Le rapport de synthèse de conférence fournit une vue d’ensemble de vos sessions de conférence en ligne. Une conférence implique généralement plus de 2 utilisateurs et nécessite l’utilisation des services de conférence. En comparaison, une session d’égal à égal n’implique généralement que 2 utilisateurs et ne nécessite pas l’utilisation de Skype Entreprise Server services de conférence. Les activités D’égal à égal sont signalées dans le rapport de synthèse des activités P22 dans [Skype Entreprise Server](peer-to-peer-activity-summary-report.md).
+Le rapport de synthèse de conférence fournit une vue d’ensemble de vos sessions de conférence en ligne. Une conférence implique généralement plus de 2 utilisateurs et nécessite l’utilisation des services de conférence. En comparaison, une session d’égal à égal n’implique généralement que 2 utilisateurs et ne nécessite pas l’utilisation Skype Entreprise Server services de conférence. Les activités d’égal à égal sont signalées dans le rapport de synthèse des activités P22 dans [Skype Entreprise Server](peer-to-peer-activity-summary-report.md).
   
 Le rapport de synthèse de conférence vous indique non seulement le nombre de conférences qui ont eu lieu pendant une période donnée (toutes les heures, tous les jours, toutes les semaines, tous les mois), mais également le nombre total de personnes qui ont participé à ces conférences et le nombre total d’organisateurs de conférences uniques.
   
@@ -52,7 +47,7 @@ Le rapport de synthèse de conférence est accessible depuis la page d’accueil
     
 ## <a name="making-the-best-use-of-the-conference-summary-report"></a>Exploiter au mieux le rapport de synthèse de conférence
 
-Les valeurs totales de la plupart des mesures utilisées dans le rapport de synthèse de conférence se trouvent en bas du rapport . faites défiler vers le bas pour voir des valeurs telles que le nombre total de conférences tenues pendant la période spécifiée et le nombre total de personnes qui ont participé à ces conférences. Une mesure qui n’est pas totalée en bas du rapport est le nombre total d’organisateurs de conférence uniques. Pourquoi ? Voici une raison. Supposons que vous regardiez la valeur d’un mois de données. Le jour 1, vous avez 34 organisateurs de conférence uniques ; le jour 2, vous avez eu 27 organisateurs de conférence uniques. Cela signifie-t-il que vous avez 61 organisateurs de conférence uniques pour ces deux jours ? Pas nécessairement. Après tout, les 27 personnes qui ont organisé des conférences le jour 2 peuvent faire partie des 34 personnes qui ont organisé des conférences le jour 1. Par exemple, dans ce rapport simple, notez que Ken Myer et Pilar Ackerman ont programmé des conférences à la fois le 07/07/2015 et le 02/07/2015 :
+Les valeurs totales de la plupart des mesures utilisées dans le rapport de synthèse de conférence se trouvent en bas du rapport . faites défiler vers le bas pour voir des valeurs telles que le nombre total de conférences tenues pendant la période spécifiée et le nombre total de personnes ayant participé à ces conférences. Une mesure qui n’est pas totalée en bas du rapport est le nombre total d’organisateurs de conférence uniques. Pourquoi ? Voici une raison. Supposons que vous regardiez la valeur d’un mois de données. Le jour 1, vous avez 34 organisateurs de conférence uniques ; le jour 2, vous avez eu 27 organisateurs de conférence uniques. Cela signifie-t-il que vous avez 61 organisateurs de conférence uniques pour ces deux jours ? Pas nécessairement. Après tout, les 27 personnes qui ont organisé des conférences le jour 2 peuvent faire partie des 34 personnes qui ont organisé des conférences le jour 1. Par exemple, dans ce rapport simple, notez que Ken Myer et Pilar Ackerman ont programmé des conférences à la fois le 07/07/2015 et le 02/07/2015 :
   
 |**Organisateur de la conférence**|**Date de la conférence**|
 |:-----|:-----|

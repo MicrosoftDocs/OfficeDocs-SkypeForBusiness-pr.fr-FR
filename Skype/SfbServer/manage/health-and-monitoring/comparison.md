@@ -1,24 +1,19 @@
 ---
 title: Rapport comparatif de la qualité des médias dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
 description: 'Résumé : Découvrez le rapport comparatif de la qualité des médias dans Skype Entreprise Server.'
-ms.openlocfilehash: 8c492e75e124b7529e229ddc353bf89b3830fb93
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847267"
 ---
+
 # <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Rapport comparatif de la qualité des médias dans Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport comparatif de la qualité des médias dans Skype Entreprise Server.

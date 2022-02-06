@@ -1,27 +1,22 @@
 ---
 title: Stratégie de la voix
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.VoicePolicyMain
+  - ms.lync.lscp.VoicePolicyMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5c0bfce3-2ba0-4006-b5f2-415e03e54dbe
-description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 9987fbb2cc16ea1e2da96e3656d31254ee828e77
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831058"
+description: "Que voulez-vous faire\_? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer."
 ---
+
 # <a name="voice-policy"></a>Stratégie vocale
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.

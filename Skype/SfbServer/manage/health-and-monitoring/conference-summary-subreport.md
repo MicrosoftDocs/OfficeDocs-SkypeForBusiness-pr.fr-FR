@@ -1,24 +1,19 @@
 ---
 title: Sous-rapport de synthèse de conférence dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
 description: 'Résumé : Découvrez le sous-rapport de synthèse de conférence Skype Entreprise Server.'
-ms.openlocfilehash: 6c2161287b3446d5b7cba28e984ad50cd3a136e9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838626"
 ---
+
 # <a name="conference-summary-subreport-in-skype-for-business-server"></a>Sous-rapport de synthèse de conférence dans Skype Entreprise Server
  
 **Résumé :** Découvrez le sous-rapport de synthèse de conférence dans Skype Entreprise Server.

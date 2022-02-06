@@ -1,28 +1,23 @@
 ---
 title: 'Skype Entreprise Server : outil de planification de surveillance'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.Monitoring
-- ms.lync.plan.Monitoring
+  - ms.lync.plan.Monitoring
+  - ms.lync.plan.Monitoring
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
-description: Dans Skype Entreprise Server 2015, la surveillance est utilisée pour collecter des informations d’utilisation et des données de qualité de l’expérience (QoE) sur les sessions de communication dans qui vos utilisateurs sont impliqués.
-ms.openlocfilehash: 230245729fc8a74713290cf0dce3a388b538a9fa
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829098"
+description: 'Dans Skype Entreprise Server 2015, la surveillance est utilisée pour collecter des informations d’utilisation et des données de qualité de l’expérience (QoE) sur les sessions de communication dans qui vos utilisateurs sont impliqués.'
 ---
+
 # <a name="skype-for-business-server-monitoring-planning-tool"></a>Skype Entreprise Server : outil de planification de surveillance
 
 Dans Skype Entreprise Server 2015, la surveillance est utilisée pour collecter des informations d’utilisation et des données de qualité de l’expérience (QoE) sur les sessions de communication dans qui vos utilisateurs sont impliqués.

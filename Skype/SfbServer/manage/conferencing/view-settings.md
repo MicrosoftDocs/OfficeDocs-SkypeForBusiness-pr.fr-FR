@@ -1,24 +1,19 @@
 ---
 title: Afficher les paramètres de configuration de réunion dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: 'Résumé : Découvrez comment afficher les paramètres de configuration de réunion dans Skype Entreprise Server.'
-ms.openlocfilehash: 4d55d4213b0eb7cbd89045960d87c05340520cbc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837626"
 ---
+
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>Afficher les paramètres de configuration de réunion dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment afficher les paramètres de configuration de réunion dans Skype Entreprise Server.
@@ -32,15 +27,15 @@ Vous pouvez afficher les paramètres de configuration de réunion à l’Skype E
     
 2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur **Configuration de la réunion.**
+3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Configuration de la réunion**.
     
 4. Dans la page **Configuration de la réunion**, cliquez sur la configuration de réunion que vous voulez afficher.
     
-5. Dans **Modifier le filtre de fichier,** cochez la case Afficher les **détails.**
+5. Dans **Modifier le filtre de fichier**, cochez **la case Afficher les détails** .
     
-    **Modifier la \<policy\> configuration de la réunion -** affiche les paramètres de la stratégie sélectionnée.
+    **Modifier la configuration de la réunion - \<policy\>** affiche les paramètres de la stratégie sélectionnée.
     
-    Pour plus d’informations sur la configuration des paramètres, voir [Créer des paramètres](create-settings.md)de configuration de réunion dans Skype Entreprise Server .
+    Pour plus d’informations sur la configuration des paramètres, voir [Créer des paramètres de configuration de réunion dans Skype Entreprise Server](create-settings.md).
     
 ## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Afficher les paramètres de configuration de réunion à l’aide Skype Entreprise Server Management Shell
 <a name="BKMK_ViewJoinSettings"> </a>

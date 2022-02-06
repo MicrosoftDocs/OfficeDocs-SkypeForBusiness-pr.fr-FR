@@ -1,27 +1,22 @@
 ---
 title: Supprimer le déploiement
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.RemoveDeploymentFinalPage
+  - ms.lync.tb.RemoveDeploymentFinalPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 068b518d-a982-4668-862b-b36fb74f04ec
 description: Cliquez sur Terminer pour créer une topologie vide comme première étape de la désaffectation de l’intégralité de votre déploiement.
-ms.openlocfilehash: 8201fb8bf47df2d4dc4f30c45de47f1b784e9a5a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830078"
 ---
+
 # <a name="remove-deployment"></a>Supprimer le déploiement
  
 Cliquez **sur** Terminer pour créer une topologie vide comme première étape de la désaffectation de l’intégralité de votre déploiement.
