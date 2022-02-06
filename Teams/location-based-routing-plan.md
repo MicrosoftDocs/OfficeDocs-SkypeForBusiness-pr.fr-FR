@@ -1,7 +1,7 @@
 ---
 title: Planifier le routage géodépendant pour le routage direct
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -11,18 +11,13 @@ search.appverid: MET150
 description: Découvrez comment planifier Location-Based routage pour le routage direct.
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-voice
+  - M365-voice
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 27050469b03c63b11d36150bc6213b84554d6db7
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355653"
+  - Microsoft Teams
 ---
+
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planifier le routage géodépendant pour le routage direct
 
 ## <a name="overview-of-location-based-routing"></a>Vue d’ensemble du Location-Based routage des lignes
@@ -53,7 +48,7 @@ Lorsqu’Teams utilisateur est activé pour lLocation-Based routage des données
 
 Location-Based routage utilise les mêmes définitions de région réseau, de site et de sous-réseau que Skype Entreprise Server réseau. Lorsque la dérivation toll est limitée à un emplacement, un administrateur associe chaque sous-réseau IP et chaque passerelle PSTN pour cet emplacement à un site réseau. L’emplacement d’un utilisateur est déterminé par le sous-réseau IP à partir Teams points de terminaison de l’utilisateur, qui est connecté au moment d’un appel PSTN. Un utilisateur peut avoir plusieurs clients Teams situés sur différents sites, auquel cas le routage Location-Based applique le routage de chaque client séparément en fonction de l’emplacement de son point de terminaison. 
 
-Pour vous familiariser avec la terminologie réseau utilisée dans cet article, consultez les paramètres réseau des [fonctionnalités vocales cloud dans Teams.](cloud-voice-network-settings.md)
+Pour vous familiariser avec la terminologie réseau utilisée dans cet article, consultez les [paramètres réseau des fonctionnalités vocales cloud dans Teams](cloud-voice-network-settings.md).
 
 ## <a name="apply-location-based-routing"></a>Appliquer Location-Based routage
 
@@ -132,7 +127,7 @@ En comparaison, les utilisateurs activés pour le routage Location-Based peuvent
 
 Lorsqu’un point de terminaison RN est impliqué, le routage Location-Based analyse si un ou les deux utilisateurs sont activés pour le routage Location-Based et détermine si l’appel doit être transféré ou transféré en fonction de l’emplacement des deux points de terminaison. 
  
-Le transfert d’appel nécessite que l’utilisateur à l’origine réponde à l’appel alors que le transfert d’appel ne nécessite pas de réponse à l’appel initial. Cela signifie que les appels peuvent être transférés même si l’utilisateur1 n’est pas à un emplacement pour recevoir des appels entrants (voir le tableau dans la section Teams l’utilisateur reçoit un appel entrant à partir de la section [PSTN)](#teams-user-receives-an-inbound-call-from-the-pstn) et les appels ne peuvent pas être transférés si l’utilisateur1 ne peut pas recevoir l’appel entrant. 
+Le transfert d’appel nécessite que l’utilisateur à l’origine réponde à l’appel alors que le transfert d’appel ne nécessite pas de réponse à l’appel initial. Cela signifie que les appels peuvent être transférés même si l’utilisateur1 n’est pas à un emplacement pour recevoir des appels entrants (voir le tableau dans la section Teams l’utilisateur reçoit un appel entrant à partir de la section [PSTN](#teams-user-receives-an-inbound-call-from-the-pstn)) et les appels ne peuvent pas être transférés si l’utilisateur1 ne peut pas recevoir l’appel entrant. 
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Utilisateur non activé pour l'Location-Based routage
 
@@ -220,8 +215,8 @@ Le forwarding to voicemail is also allowed.
 ### <a name="delegation"></a>Délégation
 
 Un Teams utilisateur peut choisir les délégués qui peuvent effectuer et recevoir des appels en leur nom. Les fonctionnalités de délégation Teams sont affectées par le routage Location-Based comme suit : 
-- Pour les appels sortants d'Location-Based délégué activé pour le routage au nom d’un délégant, les mêmes règles s’appliquent. Le routage des appels est basé sur la stratégie d’autorisation d’appel du délégué, la stratégie de routage vocal et l’emplacement. Pour plus d’informations, Teams utilisateur place un appel [sortant vers le PSTN.](#teams-user-places-an-outbound-call-to-the-pstn) 
-- Pour les appels PSTN entrants à un délégant, les mêmes règles de routage Location-Based qui s’appliquent au routage d’appel ou à la sonnerie simultanée à d’autres utilisateurs s’appliquent également aux délégués. Pour plus d’informations, voir Teams transferts ou transferts d’appel vers un autre utilisateur Teams, transferts ou [](#simultaneous-ringing)transferts d’appel vers le point de terminaison [PSTN](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)et sonnerie simultanée de l’utilisateur [Teams.](#teams-user-transfers-or-forwards-call-to-another-teams-user) Lorsqu’un délégué définit un point de terminaison PSTN comme une cible de sonnerie simultanée, la stratégie de routage vocal du délégué est utilisée pour router l’appel vers le réseau PSTN. 
+- Pour les appels sortants d'Location-Based délégué activé pour le routage au nom d’un délégant, les mêmes règles s’appliquent. Le routage des appels est basé sur la stratégie d’autorisation d’appel du délégué, la stratégie de routage vocal et l’emplacement. Pour plus d’informations, [Teams utilisateur place un appel sortant vers le PSTN](#teams-user-places-an-outbound-call-to-the-pstn). 
+- Pour les appels PSTN entrants à un délégant, les mêmes règles de routage Location-Based qui s’appliquent au routage d’appel ou à la sonnerie simultanée à d’autres utilisateurs s’appliquent également aux délégués. Pour plus d’informations, voir [Teams transferts ou transferts](#teams-user-transfers-or-forwards-call-to-another-teams-user) d’appel vers un autre utilisateur Teams, transferts ou transferts d’appel vers le point de terminaison [Teams PSTN](#teams-user-transfers-or-forwards-call-to-pstn-endpoint), et sonnerie [simultanée.](#simultaneous-ringing) Lorsqu’un délégué définit un point de terminaison PSTN comme une cible de sonnerie simultanée, la stratégie de routage vocal du délégué est utilisée pour router l’appel vers le réseau PSTN. 
 - Pour la délégation, il est recommandé que le délégant et les délégués associés soient situés sur le même site réseau. 
 
 ## <a name="other-planning-considerations"></a>Autres considérations de planification
@@ -257,7 +252,7 @@ Dans une téléconférence démarrée par un utilisateur sans licence de confér
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Besoin de dérivation média pour Location-Based routage
 
-Si vous déployez un Location-Based en Inde, il est impératif de configurer également la dérivation média. Pour plus d’informations, voir Planifier la dérivation média avec [le routage direct](direct-routing-plan-media-bypass.md) et l’optimisation des médias locaux [pour le routage direct.](direct-routing-media-optimization.md)
+Si vous déployez un Location-Based en Inde, il est impératif de configurer également la dérivation média. Pour plus d’informations, voir Planifier la dérivation [média avec le routage direct](direct-routing-plan-media-bypass.md) et l’optimisation des médias locaux [pour le routage direct](direct-routing-media-optimization.md).
 
 ### <a name="direct-voice-over-ip-voip"></a>VoIP (Direct Voice over IP)
 
@@ -265,9 +260,9 @@ Direct Voice over IP (VoIP) ne doit être déployé avec aucun équipement tél�
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Allez à [Configurer les paramètres réseau pour Location-Based routage.](location-based-routing-configure-network-settings.md)
+Allez à [Configurer les paramètres réseau pour Location-Based routage](location-based-routing-configure-network-settings.md).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)
 - [Paramètres réseau pour les fonctionnalités vocales cloud dans Teams](cloud-voice-network-settings.md)

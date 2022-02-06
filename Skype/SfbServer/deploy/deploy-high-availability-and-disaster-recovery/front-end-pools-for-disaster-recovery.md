@@ -1,24 +1,19 @@
 ---
 title: Déployer des pools frontux couplés pour la récupération d’urgence dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
-description: Vous pouvez décider d’utiliser des pools frontux couplés pour fournir une protection contre la récupération d’urgence, mais cela n’est pas obligatoire.
-ms.openlocfilehash: 27909f44f0d86cac3100437f7df094b5f72ba1be
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855098"
+description: 'Vous pouvez décider d’utiliser des pools frontux couplés pour fournir une protection contre la récupération d’urgence, mais cela n’est pas obligatoire.'
 ---
+
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Déployer des pools frontux couplés pour la récupération d’urgence dans Skype Entreprise Server
  
 Vous pouvez décider d’utiliser des pools frontux couplés pour fournir une protection contre la récupération d’urgence, mais cela n’est pas obligatoire.
@@ -29,7 +24,7 @@ Vous pouvez facilement déployer la topologie de récupération d’urgence des 
 
 1. Si les pools sont nouveaux et pas encore définis, utilisez le Générateur de topologie pour créer les pools.
     
-2. Dans le Générateur de topologie, cliquez avec le bouton droit sur l’un des deux pools, puis cliquez **sur Modifier les propriétés.**
+2. Dans le Générateur de topologie, cliquez avec le bouton droit sur l’un des deux pools, puis cliquez **sur Modifier les propriétés**.
     
 3. Cliquez sur **Résistance** dans le volet gauche, puis sélectionnez **Pool de stockage associé** dans le volet droit.
     
@@ -82,7 +77,7 @@ Vous pouvez facilement déployer la topologie de récupération d’urgence des 
     ```
 
 > [!NOTE]
-> L’option De **failover et de failback** automatique pour Voice et les intervalles de temps associés dans le Générateur de topologie s’appliquent uniquement aux fonctionnalités de résistance vocale introduites dans Lync Server. La sélection de cette option ne signifie pas que le basculement du pool mentionné dans ce document est automatique. Le basculement et la restauration du pool requiert l’intervention manuelle d’un administrateur pour appeler respectivement les applets de commande de basculement et de restauration.
+> **L’option De failover et de failback** automatique pour Voice et les intervalles de temps associés dans le Générateur de topologie s’appliquent uniquement aux fonctionnalités de résistance vocale introduites dans Lync Server. La sélection de cette option ne signifie pas que le basculement du pool mentionné dans ce document est automatique. Le basculement et la restauration du pool requiert l’intervention manuelle d’un administrateur pour appeler respectivement les applets de commande de basculement et de restauration.
   
 ## <a name="see-also"></a>Voir aussi
 

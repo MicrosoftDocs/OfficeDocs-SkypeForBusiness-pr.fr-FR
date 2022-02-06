@@ -1,35 +1,30 @@
 ---
 title: Déployer le portail Web d’administration de SRS v1 dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
-description: Le portail Web d’administration Skype Entreprise Server Skype Room Systems v1 (SRS v1, anciennement appelé Lync Room System) est un portail web que les organisations peuvent utiliser pour gérer leurs salles de conférence Skype Room Systems. Les administrateurs peuvent utiliser le portail Web d’administration de SRS v1 pour surveiller l’état de l’appareil, par exemple en surveillant les périphériques audio/vidéo. Grâce à ce portail, les administrateurs peuvent collecter à distance des informations de diagnostic pour surveiller l’état de la salle de conférence.
-ms.openlocfilehash: c25671717db51af880bd4b7e2700bb9e795f2790
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843967"
+description: 'Le portail Web d’administration Skype Entreprise Server Skype Room Systems v1 (SRS v1, anciennement appelé Lync Room System) est un portail web que les organisations peuvent utiliser pour gérer leurs salles de conférence Skype Room Systems. Les administrateurs peuvent utiliser le portail Web d’administration de SRS v1 pour surveiller l’état de l’appareil, par exemple en surveillant les périphériques audio/vidéo. Grâce à ce portail, les administrateurs peuvent collecter à distance des informations de diagnostic pour surveiller l’état de la salle de conférence.'
 ---
+
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Déployer le portail Web d’administration de SRS v1 dans Skype Entreprise Server
 
 Le portail Web d’administration Skype Entreprise Server Skype Room Systems v1 (SRS v1, anciennement appelé Lync Room System) est un portail web que les organisations peuvent utiliser pour gérer leurs salles de conférence Skype Room Systems. Les administrateurs peuvent utiliser le portail Web d’administration de SRS v1 pour surveiller l’état de l’appareil, par exemple en surveillant les périphériques audio/vidéo. Grâce à ce portail, les administrateurs peuvent collecter à distance des informations de diagnostic pour surveiller l’état de la salle de conférence.
 
-Pour utiliser cette fonctionnalité, le portail Web d’administration de SRS v1 doit être déployé sur chaque serveur Skype Entreprise Server frontal. Ce guide fournit des instructions aux administrateurs sur l’installation et la configuration du portail Web d’administration SRS. Il est destiné aux administrateurs qui connaissent l’administration Skype Entreprise Server et qui ont des droits d’utilisateur d’administrateur pour modifier la topologie Skype Entreprise Server de gestion.
+Pour utiliser cette fonctionnalité, le portail Web d’administration de SRS v1 doit être déployé sur chaque Skype Entreprise Server serveur frontal. Ce guide fournit des instructions aux administrateurs sur l’installation et la configuration du portail Web d’administration SRS. Il est destiné aux administrateurs qui connaissent l’administration Skype Entreprise Server et qui ont des droits d’utilisateur d’administrateur pour modifier la topologie Skype Entreprise Server’administration.
 
 Une fois le portail Web d’administration SRS v1 déployé sur le serveur, les administrateurs peuvent vérifier l’état des appareils SRS v1 en se connectant au site à partir de leurs ordinateurs ou ordinateurs portables.
 
 > [!IMPORTANT]
-> Téléchargez [microsoft Skype Room Systems v1 Administrative Web Portal pour Skype Entreprise Server 2015.](https://www.microsoft.com/download/details.aspx?id=46906)
+> Téléchargez [microsoft Skype Room Systems v1 Administrative Web Portal pour Skype Entreprise Server 2015](https://www.microsoft.com/download/details.aspx?id=46906).
 
 Dans cet article :
 
@@ -49,7 +44,7 @@ Pour utiliser le portail Web d’administration de SRS v1, vous devez installer 
 
 1. Installez Skype Entreprise Server mises à jour cumulatives cumulatives dans la topologie Skype Entreprise Server’installation.
 
-    Pour obtenir la mise à jour ou voir ce qui y est inclus, voir Mises à jour [Skype Entreprise Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
+    Pour obtenir la mise à jour ou voir ce qui y est inclus, voir Mises à jour Skype Entreprise Server [2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
 
 2. Créez un utilisateur Active Directory activé pour SIP.
 
@@ -77,12 +72,12 @@ Pour utiliser le portail Web d’administration de SRS v1, vous devez installer 
 
      ![Page Membres des propriétés LRSSupportAdminGroup.](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
-8. Installez [ASP.NET MVC 4 pour Visual Studio 2010 SP1 et Visual Web Developer 2010 SP1.](https://go.microsoft.com/fwlink/p/?LinkId=323967)
+8. Installez [ASP.NET MVC 4 pour Visual Studio 2010 SP1 et Visual Web Developer 2010 SP1](https://go.microsoft.com/fwlink/p/?LinkId=323967).
 
 ## <a name="install-the-srs-v1-administrative-web-portal"></a>Installer le portail Web d’administration de SRS v1
 <a name="Install_SRS"> </a>
 
-Téléchargez [microsoft Skype Room Systems v1 Administrative Web Portal pour Skype Entreprise Server 2015.](https://www.microsoft.com/download/details.aspx?id=46906)
+Téléchargez [microsoft Skype Room Systems v1 Administrative Web Portal pour Skype Entreprise Server 2015](https://www.microsoft.com/download/details.aspx?id=46906).
 
 Pour installer le portail Web d’administration de SRS v1, utilisez les étapes suivantes.
 
@@ -98,7 +93,7 @@ Pour installer le portail Web d’administration de SRS v1, utilisez les étapes
 
     %Program Files%\Skype Entreprise Server 2015\Web Components\Salle de réunion Portal\Int\Handler\
 
-4. Dans le fichier Web.Config, modifiez PortalUserName en nom d’utilisateur créé à l’étape 2 sous la section « Configurer votre environnement pour le portail web d’administration[de SRS v1](room-system-v1-administrative-web-portal.md#Config_Env)» (le nom recommandé à l’étape est LRSApp) :
+4. Dans le fichier Web.Config, modifiez PortalUserName en nom d’utilisateur créé à l’étape 2 sous la section « Configurer votre environnement pour le portail web d’administration [de SRS v1](room-system-v1-administrative-web-portal.md#Config_Env) » (le nom recommandé à l’étape est LRSApp) :
 
     ```xml
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
@@ -122,7 +117,7 @@ Pour vérifier l’installation du portail Web d’administration de SRS v1, vou
 
 1. Sur un serveur frontal, accédez à l’URL suivante :
 
-    https:// \<fe-server\> /lrs
+    \<fe-server\>https:///lrs
 
     Vous ne devriez voir aucune erreur, comme illustré dans l’image suivante :
 
@@ -130,20 +125,20 @@ Pour vérifier l’installation du portail Web d’administration de SRS v1, vou
 
 2. Si vous ne voyez aucune erreur, essayez d’accéder à l’URL suivante à partir d’un autre ordinateur de la topologie :
 
-    https:// \<fe-server\> /lrs
+    \<fe-server\>https:///lrs
 
-    Pour accéder à la page, vous devez ajouter les enregistrements DNS comme décrit dans «[Enregistrements DNS](/previous-versions/office/communications-server/bb663700(v=office.12))requis pour la signature automatique du client ».
+    Pour accéder à la page, vous devez ajouter les enregistrements DNS comme décrit dans « [Enregistrements DNS](/previous-versions/office/communications-server/bb663700(v=office.12)) requis pour la signature automatique du client ».
 
 ## <a name="use-the-srs-administrative-web-portal"></a>Utiliser le portail Web d’administration SRS
 <a name="Use_Portal"> </a>
 
 Après avoir déployé SRS sur le serveur, vous pouvez vérifier l’état de toutes les salles SRS en vous inscrivant dans le portail Web d’administration de SRS v1 à partir d’un navigateur.
 
-### <a name="sign-in"></a>Connexion
+### <a name="sign-in"></a>Se connecter
 
 1. Accédez à l’URL suivante :
 
-    https:// \<fe-server\> /lrs
+    \<fe-server\>https:///lrs
 
 2. Entrez les informations d’identification du compte LRSSupport ou d’un compte qui a été ajouté au groupe de sécurité LRSSupportAdminGroup.
 
@@ -186,7 +181,7 @@ La section Détails fournit un résumé en lecture seule des paramètres de la s
 
 #### <a name="troubleshooting"></a>Résolution des problèmes
 
-La section Dépannage peut être utilisée pour collecter à distance les journaux et les enregistrer à un emplacement spécifié. Vous pouvez également redémarrer la console SRS (interface utilisateur SRS) ou redémarrer l’ensemble du système. Pour collecter des journaux, fournissez un chemin d’accès au dossier au format spécifié et assurez-vous que le dossier dispose des autorisations d’écriture accordées au compte d’ordinateur SRS. Si la taille du journal est trop importante, la collecte des journaux peut prendre jusqu’à 5 minutes. L’actualisation de la page vous donne l’état le plus récent.
+La section Dépannage peut être utilisée pour collecter à distance les journaux et les enregistrer à un emplacement spécifié. Vous pouvez également redémarrer la console SRS (interface utilisateur SRS) ou redémarrer l’ensemble du système. Pour collecter les journaux, fournissez un chemin d’accès au dossier au format spécifié et assurez-vous que le dossier dispose des autorisations d’écriture accordées au compte d’ordinateur SRS. Si la taille du journal est trop importante, la collecte des journaux peut prendre jusqu’à 5 minutes. L’actualisation de la page vous donne l’état le plus récent.
 
 #### <a name="health"></a>Intégrité
 
@@ -201,9 +196,9 @@ La section Santé fournit une indication visuelle de l’état de la connexion S
 
 ### <a name="bulk-management"></a>Gestion en bloc
 
-La gestion en bloc des salles SRS est une fonctionnalité conçue pour les administrateurs informatiques avancés, qui simplifie leur flux de travail et leur permet de gagner du temps et de gérer à distance plusieurs salles en bloc.
+La gestion en bloc des salles SRS est une fonctionnalité conçue pour les administrateurs informatiques avancés, pour simplifier leur flux de travail et leur permettre de gagner du temps et de gérer à distance plusieurs salles en bloc.
 
-Pour voir cette fonctionnalité, l’utilisateur doit être provisioné en tant que membre du groupe de sécurité **spécial, LRSPowerUserAdminsGroup**.
+Pour voir cette fonctionnalité, l’utilisateur doit être provisioné en tant que membre du groupe de sécurité spécial **, LRSPowerUserAdminsGroup**.
 
 Il n’existe aucune limite au nombre de salles SRS que vous pouvez sélectionner pour la gestion en bloc. Toutefois, vous ne pouvez effectuer qu’une seule opération de gestion en bloc à la fois.
 
@@ -213,7 +208,7 @@ Pour effectuer une opération de gestion en bloc, sélectionnez les salles à su
 
 #### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>Pourquoi ne puis-je pas me connecter au portail web d’administration ?
 
-Lorsque vous ouvrez, vous pouvez voir la page de connexion, mais lorsque vous tapez vos informations d’identification, vous ne https://localhost/lrs pouvez pas vous y inscrire. Dans ce cas, vous devez ouvrir pour https://FQDNofFEserver/SRS vous inscrire au portail web d’administration.
+Lorsque vous ouvrez https://localhost/lrs, vous pouvez voir la page de connexion, mais lorsque vous tapez vos informations d’identification, vous ne pouvez pas vous y inscrire. Dans ce cas, vous devez ouvrir pour https://FQDNofFEserver/SRS vous inscrire au portail web d’administration.
 
 #### <a name="why-cant-i-see-srs-v1-in-the-administrative-web-portal"></a>Pourquoi ne puis-je pas voir SRS v1 dans le portail web d’administration ?
 
@@ -240,7 +235,7 @@ Lorsque vous ouvrez, vous pouvez voir la page de connexion, mais lorsque vous ta
 
 - Assurez-vous que le compte d’utilisateur LRSApp est activé pour SIP.
 
-- Si vous avez encore des problèmes, collectez le fichier **Trace.log** dans le système SRS à partir de D:\Tracing\LRSAdminLogs, puis envoyez-le à votre contact de support \, SRS.
+- Si vous avez encore des problèmes, collectez le fichier **Trace.log** dans le système SRS à partir de D:\Tracing\LRSAdminLogs\, , puis envoyez-le à votre contact de support SRS.
 
 #### <a name="why-cant-i-see-the-bulk-management-menus-for-srs-in-the-administrative-web-portal"></a>Pourquoi ne puis-je pas voir les menus de gestion en bloc pour SRS dans le portail web d’administration ?
 

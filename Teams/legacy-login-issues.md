@@ -1,29 +1,24 @@
 ---
 title: Problèmes de réception de messages et d’appels sur des systèmes hérités dans Teams
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 05/29/2020
 ms.topic: troubleshooting
 ms.service: msteams
 audience: admin
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+  - NOCSH
 description: Résoudre les problèmes liés à la réception de messages et d’appels sur des systèmes hérités
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 69a3f070b247507e0d22535179353860434e94ad
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857141"
 ---
+
 # <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problèmes de réception de messages et d’appels sur des systèmes hérités
 
 Les utilisateurs peuvent avoir des problèmes pour recevoir des messages ou des appels s’ils utilisent des versions antérieures d’Teams ou s’ils se sont connectés avec d’autres applications.

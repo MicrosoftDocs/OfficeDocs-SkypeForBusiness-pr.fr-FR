@@ -1,25 +1,20 @@
 ---
 title: (Facultatif) Définir des groupes de congés Response Group dans Skype Entreprise
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: Créez ou modifiez des groupes de congés Response Group, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 307dfefb42f31102755bd4469ed8c24129e41767
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852718"
+description: 'Créez ou modifiez des groupes de congés Response Group, Skype Entreprise Server Voix Entreprise.'
 ---
+
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Facultatif) Définir des groupes de congés Response Group dans Skype Entreprise
  
 Créez ou modifiez des groupes de congés Response Group, Skype Entreprise Server Voix Entreprise.
@@ -33,7 +28,7 @@ Les paramètres relatifs aux congés définissent les jours de fermeture d’un 
 
 1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
-2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
     
 3. Pour chaque congé que vous souhaitez définir, exécutez :
     

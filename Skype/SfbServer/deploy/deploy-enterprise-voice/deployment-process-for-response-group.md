@@ -1,28 +1,23 @@
 ---
 title: Processus de déploiement de Response Group dans Skype Entreprise
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Processus de déploiement et étapes pour Response Group dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 13a83c5fbedc2a7b38118b0e7935c4722e3855ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853698"
 ---
+
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Processus de déploiement de Response Group dans Skype Entreprise
 
 Processus de déploiement et étapes pour Response Group dans Skype Entreprise Server Voix Entreprise.
@@ -43,7 +38,7 @@ Pour configurer les groupes Response Group, vous devez être membre d’au moins
 |**CsViewOnlyAdministrator** <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |
 
 > [!NOTE]
-> **(1)** Un objet utilisateur des services de domaine Active Directory doit être membre du groupe de sécurité Active Directory spécifié répertorié. Un administrateur ou un autre membre du groupe Active Directory délégué ayant les autorisations appropriées pour ajouter des utilisateurs à un groupe de sécurité (par exemple, Administrateur, Opérateurs de compte) doit ajouter un objet utilisateur au groupe ou au groupe de sécurité répertorié pour que l’utilisateur puisse effectuer les fonctions répertoriées. **(2)** Uniquement pour les flux de travail que le CsResponseGroupAdministrator a affectés au CsResponseGroupManager. **(3)** Un gestionnaire Response Group peut affecter un autre membre de CsResponseGroupManager à un flux de travail que le responsable actuel gère déjà. **(4)** CsViewOnlyAdministrator ne peut exécuter que des cmdlets verbe « Get ».
+> **(1)** Un objet utilisateur des services de domaine Active Directory doit être membre du groupe de sécurité Active Directory spécifié répertorié. Un administrateur ou un autre membre du groupe Active Directory délégué  ayant les autorisations appropriées pour ajouter des utilisateurs à un groupe de sécurité (par exemple, Administrateur, Opérateurs de compte) doit ajouter un objet utilisateur au groupe ou au groupe de sécurité répertorié pour que l’utilisateur puisse effectuer les fonctions répertoriées. **(2)** Uniquement pour les flux de travail que le CsResponseGroupAdministrator a affectés au CsResponseGroupManager. **(3) Un gestionnaire** Response Group peut affecter un autre membre de CsResponseGroupManager à un flux de travail que le responsable actuel gère déjà. **(4)** CsViewOnlyAdministrator ne peut exécuter que des cmdlets verbe « Get ».
 
 ## <a name="response-group-configuration-prerequisites"></a>Conditions préalables à la configuration de Response Group
 
@@ -71,7 +66,7 @@ Vous devrez peut-être effectuer les tâches suivantes avant de configurer Respo
 
 ### <a name="enabling-users"></a>Activation des utilisateurs
 
-La première étape de la configuration de Response Group consiste à créer des groupes d’agents. Avant de pouvoir créer un groupe d’agents, vous devez activer les utilisateurs qui seront agents de Response Group pour Skype Entreprise et Voix Entreprise. L’activation des utilisateurs Skype Entreprise est généralement une étape du déploiement Êdition Entreprise serveur ou Édition Standard serveur. Pour plus d’informations sur l’activation des utilisateurs pour Skype Entreprise, voir [Enable or Disable Users for Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server). L’activation des utilisateurs pour Voix Entreprise se déroule généralement lors d’une étape du déploiement de Voix Entreprise. Pour plus d’informations, voir [Enable users for Voix Entreprise in Skype Entreprise Server](enable-users-for-enterprise-voice.md).
+La première étape de la configuration de Response Group consiste à créer des groupes d’agents. Avant de pouvoir créer un groupe d’agents, vous devez activer les utilisateurs qui seront agents de Response Group pour Skype Entreprise et Voix Entreprise. L’activation des utilisateurs Skype Entreprise est généralement une étape du déploiement Êdition Entreprise serveur Édition Standard serveur. Pour plus d’informations sur l’activation des utilisateurs Skype Entreprise, voir [Enable or Disable Users for Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server). L’activation des utilisateurs pour Voix Entreprise se déroule généralement lors d’une étape du déploiement de Voix Entreprise. Pour plus d’informations, voir [Enable users for Voix Entreprise in Skype Entreprise Server](enable-users-for-enterprise-voice.md).
 
 ### <a name="complying-with-fips-requirements"></a>Respect des normes FIPS
 
@@ -85,7 +80,7 @@ Pour modifier le fichier Web.config, procédez comme suit :
 
 2. Dans le Web.config, recherchez la  `<system.web>` section.
 
-3. Ajoutez la  `<machineKey>` section suivante à la section `<system.web>` :
+3. Ajoutez la  `<machineKey>` section suivante à la `<system.web>` section :
 
    ```xml
    <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
@@ -104,7 +99,7 @@ Pour modifier le fichier Web.config, procédez comme suit :
 Cette section vous est applicable seulement si votre organisation doit prendre en charge les caractères Yi, Meng ou Zang.
 
 > [!NOTE]
-> Pour plus d’informations sur les caractères Yi, Meng et Zang et sur la raison pour laquelle ils peuvent être importants pour votre déploiement, voir les informations sur les jeux de caractères GB18030 [https://go.microsoft.com/fwlink/p/?linkId=240223](/previous-versions/sql/sql-server-2008-r2/ms180991(v=sql.105)) .
+> Pour plus d’informations sur les caractères Yi, Meng et Zang et sur la raison pour laquelle ils peuvent être importants pour votre déploiement, voir les informations sur les jeux de caractères GB18030 [https://go.microsoft.com/fwlink/p/?linkId=240223](/previous-versions/sql/sql-server-2008-r2/ms180991(v=sql.105)).
 
 Pour la prise en charge des caractères Yi, Meng ou Zang, vous devez modifier le classement de la base de données Rgsconfig. Modifiez le classement de la colonne **Nom** des tableaux suivants dans chaque base de données Rgsconfig :
 
@@ -120,9 +115,9 @@ Pour la prise en charge des caractères Yi, Meng ou Zang, vous devez modifier le
 
 Pour SQL Server 2008 R2 et SQL Server 2012, utilisez le classement Latin_General_100 (sensible aux accents). Si vous utilisez ce classement, tous les noms d’objets ne tiennent pas compte de la casse.
 
-Vous pouvez modifier le classement à l’aide de Microsoft SQL Server Management Studio. Pour plus d’informations sur l’utilisation de cet outil, voir [« Utilisation SQL Server Management Studio](/sql/ssms/sql-server-management-studio-ssms)». Pour modifier le classement, procédez comme suit :
+Vous pouvez modifier le classement à l’aide de Microsoft SQL Server Management Studio. Pour plus d’informations sur l’utilisation de cet outil, voir [« Utilisation SQL Server Management Studio](/sql/ssms/sql-server-management-studio-ssms) ». Pour modifier le classement, procédez comme suit :
 
-1. Assurez-vous que SQL Server Management Studio est configuré pour autoriser les modifications nécessaires à la recréation des tables. Pour plus d’informations, voir « Boîte de dialogue Enregistrer [(non autorisé)](/sql/ssms/visual-db-tools/save-not-permitted-dialog-box)». Pour plus d’informations sur la définition d’un classement de colonne, voir « [How to: Set Column Collation (Visual Database Tools)](/previous-versions/sql/sql-server-2008-r2/ms187473(v=sql.105))».
+1. Assurez-vous que SQL Server Management Studio est configuré pour autoriser les modifications nécessaires à la recréation des tables. Pour plus d’informations, [voir « Boîte](/sql/ssms/visual-db-tools/save-not-permitted-dialog-box) de dialogue Enregistrer (non autorisé) ». Pour plus d’informations sur la définition d’un classement de colonne, voir [« How to: Set Column Collation (Visual Database Tools)](/previous-versions/sql/sql-server-2008-r2/ms187473(v=sql.105)) ».
 
 2. À l’aide de Microsoft SQL Server Management Studio, connectez-vous à la base de données Rgsconfig.
 

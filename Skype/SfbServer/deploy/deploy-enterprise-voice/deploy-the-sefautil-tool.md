@@ -1,28 +1,23 @@
 ---
 title: Déployer l’outil SEFAUtil dans Skype Entreprise
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Déploiement de l’outil SEFAUtil dans Skype Entreprise Server.
-ms.openlocfilehash: d4d25a69476aa678f600178b9426db89670289d2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837326"
 ---
+
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Déployer l’outil SEFAUtil dans Skype Entreprise
  
 Déploiement de l’outil SEFAUtil dans Skype Entreprise Server.
@@ -35,13 +30,13 @@ Pour déployer et gérer la prise d’appel de groupe, vous devez utiliser la ve
 Vous pouvez exécuter l’outil SEFAUtil dans n’importe quel pool frontal de votre déploiement. Pour exécuter l’outil SEFAUtil, vous devez exécuter les étapes 1, 2 et 3 à partir de l’Assistant déploiement Skype Entreprise sur l’ordinateur d’application approuvé. SEFAUtil nécessite la présence du magasin de configurations local, ainsi que d’un certificat.
   
 > [!NOTE]
-> Pour plus d’informations sur l’exécution de SEFAUtil, consultez l’article de blog « Comment faire pour que[SEFAutil](/archive/blogs/jenstr/how-to-get-sefautil-running)s’exécute ? ». 
+> Pour plus d’informations sur l’exécution de SEFAUtil, consultez l’article de blog « Comment faire pour que [SEFAutil](/archive/blogs/jenstr/how-to-get-sefautil-running) s’exécute ? ». 
   
 ### <a name="to-deploy-sefautil"></a>Pour déployer SEFAUtil
 
 1. Connectez-vous à l’ordinateur sur lequel Skype Entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans déléguer les **autorisations** d’installation.
     
-2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
     
 3. L’outil SEFAUtil peut être exécuté uniquement sur un ordinateur qui fait partie d’un pool d’applications fiables. Si nécessaire, définissez un pool d’applications fiables pour le pool frontal où vous prévoyez d’exécuter SEFAUtil. À partir de la ligne de commande, exécutez la commande suivante :
     
@@ -68,7 +63,7 @@ Vous pouvez exécuter l’outil SEFAUtil dans n’importe quel pool frontal de v
    Enable-CsTopology
    ```
 
-6. Si ce n’est pas déjà fait, téléchargez la version Skype Entreprise Server de l’outil SEFAUtil à partir de cet emplacement [et](https://www.microsoft.com/download/details.aspx?id=52631)installez-la sur le pool d’applications approuvé que vous avez créé à l’étape 3.
+6. Si ce n’est pas déjà fait, téléchargez la version Skype Entreprise Server de l’outil SEFAUtil à partir de cet [emplacement et](https://www.microsoft.com/download/details.aspx?id=52631) installez-la sur le pool d’applications approuvé que vous avez créé à l’étape 3.
     
 7. Vérifiez que l’outil SEFAUtil s’exécute correctement, comme suit : 
     

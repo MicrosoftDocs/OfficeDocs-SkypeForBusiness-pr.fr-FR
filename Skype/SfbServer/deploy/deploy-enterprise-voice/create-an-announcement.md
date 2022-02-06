@@ -1,28 +1,23 @@
 ---
 title: Créer ou supprimer une annonce dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Créez ou supprimez des annonces pour l’application Annonce dans Skype Entreprise Server Voix Entreprise. Cela affecte la façon dont les appels vers des numéros non affectés sont gérés.
-ms.openlocfilehash: 26882070c566eba57925b5eddc43cd11d0e9ea7d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843517"
 ---
+
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Créer ou supprimer une annonce dans Skype Entreprise Server
 
 Créez ou supprimez des annonces pour l’application Annonce dans Skype Entreprise Server Voix Entreprise. Cela affecte la façon dont les appels vers des numéros non affectés sont gérés.
@@ -31,7 +26,7 @@ Lorsque vous configurez des annonces, vous configurez vraiment la manière dont 
 
 Vous devez créer des annonces avant de définir le tableau des numéros non attribués. Vous devez effectuer cette étape pour toutes les annonces utilisant une invite sous forme de fichier audio, de fichier de synthèse vocale (TTS), ou n’utilisant aucune invite.
 
-Cette rubrique décrit comment importer et créer des annonces. Pour plus d’informations sur l’affectation d’annonces dans la table des chiffres non attribués, voir Configurer la [table Desassigned Number](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-unassigned-number-table).
+Cette rubrique décrit comment importer et créer des annonces. Pour plus d’informations sur l’affectation d’annonces dans la table des chiffres non attribués, voir [Configure the Unassigned Number Table](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-unassigned-number-table).
 
 ## <a name="create-a-new-announcement-for-unassigned-numbers"></a>Créer une annonce pour les numéros non signés
 
@@ -54,7 +49,7 @@ Pour créer une annonce, vous devez effectuer les étapes suivantes :
 
 2. Connectez-vous à l’ordinateur sur lequel Skype Entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans déléguer les **autorisations** d’installation.
 
-3. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+3. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
 
 4. Pour les invites audio, exécutez :
 
@@ -84,7 +79,7 @@ Pour créer une annonce, vous devez effectuer les étapes suivantes :
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   Pour plus d’informations sur ces cmdlets et pour obtenir la liste des codes de langue à utiliser dans le paramètre **TextToSpeechPrompt,** voir [New-CsAnnouncement](/powershell/module/skype/new-csannouncement?view=skype-ps).
+   Pour plus d’informations sur ces cmdlets et pour obtenir la liste des codes de langue à utiliser dans le paramètre **TextToSpeechPrompt** , voir [New-CsAnnouncement](/powershell/module/skype/new-csannouncement?view=skype-ps).
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>Supprimer une annonce pour les numéros non supprimés
 
@@ -92,7 +87,7 @@ Pour créer une annonce, vous devez effectuer les étapes suivantes :
 
 1. Connectez-vous à l’ordinateur sur lequel Skype Entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans déléguer les **autorisations** d’installation.
 
-2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
 
 3. Répertoriez toutes les annonces de votre organisation. À partir de la ligne de commande, exécutez la commande suivante :
 
@@ -113,7 +108,7 @@ Pour créer une annonce, vous devez effectuer les étapes suivantes :
    ```
 
     > [!NOTE]
-    > Pour plus d’informations sur d’autres options, voir [Get-CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps) et [Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement?view=skype-ps).
+    > Pour plus d’informations sur d’autres options, [voir Get-CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps) et [Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement?view=skype-ps).
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,7 +1,7 @@
 ---
 title: 'Exemple de script PowerShell : réinitialiser le paramètre de démarrage automatique dans Teams'
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
@@ -9,25 +9,20 @@ ms.service: msteams
 audience: admin
 description: Utilisez ce script PowerShell pour réinitialiser le paramètre de démarrage automatique Teams par utilisateur.
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 95d1e5352111ee868c469ccfe4703cf85e25ad92
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859651"
+  - Microsoft Teams
 ---
+
 # <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>Exemple de script PowerShell : réinitialiser le paramètre de démarrage automatique dans Teams
 
 Utilisez ce script pour réinitialiser Teams paramètre de démarrage automatique par utilisateur. Cela inclut toutes les valeurs définies par l’utilisateur ou l Teams appeil. Par défaut, Teams démarre automatiquement lorsqu’un utilisateur se connecte à son ordinateur après l’installation.
 
-Si vous avez déjà déployé Teams et que vous voulez définir le Microsoft Teams Empêcher le démarrage automatique de la Microsoft Teams après [l’installation](../msi-deployment.md#use-group-policy-recommended) du paramètre stratégie de groupe pour désactiver le démarrage automatique de Teams, vous devez commencer par définir le paramètre de stratégie de groupe sur la valeur de votre souhaitez, puis exécuter ce script.
+Si vous avez déjà déployé Teams et que vous voulez définir l’Microsoft Teams Empêcher le démarrage automatique après [l’installation](../msi-deployment.md#use-group-policy-recommended) du paramètre stratégie de groupe pour désactiver le démarrage automatique d’Teams, vous devez commencer par définir le paramètre de stratégie de groupe sur la valeur de votre souhaitez, puis exécuter ce script.
 
 Une Teams d’un utilisateur, les paramètres de démarrage automatique ne peuvent pas être désactivés à l’aide d’une stratégie de groupe.
 

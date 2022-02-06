@@ -1,32 +1,27 @@
 ---
 title: Définir le nom complet de la passerelle PSTN
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPstnGatewayFqdnPage
+  - ms.lync.tb.AddPstnGatewayFqdnPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: Vous spécifiez le nom de domaine complet (FQDN) de la passerelle du réseau téléphonique commuté (PSTN) qui connectera vos composants Voix Entreprise à un réseau téléphonique commuté (PBX).
-ms.openlocfilehash: 3898e6321c57fcefdcf0e6e44c0410f7f858be04
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851248"
 ---
+
 # <a name="define-the-pstn-gateway-fqdn"></a>Définir le nom complet de la passerelle PSTN
 
 Vous spécifiez le nom de domaine complet (FQDN) de la passerelle du réseau téléphonique commuté (PSTN) qui connectera vos composants Voix Entreprise à un réseau téléphonique commuté (PBX).
 
-Pour plus d’informations, voir composants de connectivité [PSTN Skype Entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
+Pour plus d’informations, [voir composants de connectivité PSTN Skype Entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,29 +1,24 @@
 ---
-title: Skype Entreprise Server Outil de planification de la récupération d’urgence
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype Entreprise Server de planification de la récupération d’urgence
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.DisasterRecovery
-- ms.lync.plan.DisasterRecovery
+  - ms.lync.plan.DisasterRecovery
+  - ms.lync.plan.DisasterRecovery
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: Skype Entreprise Server 2015 inclut des mesures de récupération d’urgence en vous permettant de coupler des pools frontaux situés dans deux centres de données.
-ms.openlocfilehash: 16bc56fe1753541c8a0e179b736e5f136c9ea7e3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859051"
 ---
-# <a name="skype-for-business-server-disaster-recovery-planning-tool"></a>Skype Entreprise Server Outil de planification de la récupération d’urgence
+
+# <a name="skype-for-business-server-disaster-recovery-planning-tool"></a>Skype Entreprise Server de planification de la récupération d’urgence
  
 Skype Entreprise Server 2015 inclut des mesures de récupération d’urgence en vous permettant de coupler des pools frontaux situés dans deux centres de données.
   

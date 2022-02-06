@@ -1,23 +1,19 @@
 ---
-title: Gestion de la récupération d’urgence, de la haute disponibilité et du service de sauvegarde
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: 'Gestion de la récupération d’urgence, de la haute disponibilité et du service de sauvegarde'
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Découvrez les procédures relatives aux opérations de récupération d’urgence, ainsi que la maintenance du service de sauvegarde, qui synchronise les données dans les pools frontaux couplés.
-ms.openlocfilehash: 6d3eb3356c48a99974390f43bc0114d7d6507353
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849937"
+description: 'Découvrez les procédures relatives aux opérations de récupération d’urgence, ainsi que la maintenance du service de sauvegarde, qui synchronise les données dans des pools frontaux couplés.'
 ---
+
+
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Gestion Skype Entreprise Server récupération d’urgence, haute disponibilité et service de sauvegarde
 
 Cette section contient des procédures pour les opérations de récupération d’urgence, ainsi que pour la maintenance du service de sauvegarde, qui synchronise les données dans des pools frontaux couplés.
@@ -26,7 +22,7 @@ Les procédures de récupération d’urgence, qu’il s’agisse du basculement
 
 Les procédures de récupération d’urgence de cette section supposent les opérations suivantes :
 
-  - Vous avez un déploiement avec des pools frontux couplés, situés dans différents sites, comme décrit dans Planifier la haute disponibilité et la récupération [d’urgence.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) Le service de sauvegarde a été exécuté sur ces pools couplés pour maintenir leur synchronisation.
+  - Vous avez un déploiement avec des pools frontux couplés, situés sur différents sites, comme décrit dans Planifier la haute disponibilité et la récupération [d’urgence](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). Le service de sauvegarde a été exécuté sur ces pools couplés pour maintenir leur synchronisation.
 
   - Si le magasin central de gestion est hébergé sur l’un ou l’autre des pools, il est installé et s’exécute sur les deux pools couplés, l’un de ces pools hébergeant le maître actif et l’autre pool hébergeant le pool de veille.
 

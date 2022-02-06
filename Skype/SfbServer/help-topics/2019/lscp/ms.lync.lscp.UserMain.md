@@ -1,34 +1,29 @@
 ---
-title: Panneau de contrôle - Recherche utilisateur mise à jour
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 'Panneau de contrôle : recherche utilisateur mise à jour'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.UserMain
+  - ms.lync.lscp.UserMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
-ROBOTS: NOINDEX, NOFOLLOW
-description: Vous pouvez utiliser les résultats d’une requête de recherche pour configurer les utilisateurs pour Skype Entreprise Server. Vous pouvez rechercher des utilisateurs par nom d’affichage, prénom, nom de famille, nom de compte SAM (Security Accounts Manager, Gestionnaire de comptes de sécurité), adresse SIP ou URI (Uniform Resource Identifier) de ligne. Vous pouvez également rechercher des utilisateurs à l’aide du Panneau de contrôle Lync Server ou du logiciel en ligne Utilisateurs et ordinateurs Active Directory.
-ms.openlocfilehash: 3c5bdc9de490adbc022f00342d291d012da78d4b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854928"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Vous pouvez utiliser les résultats d’une requête de recherche pour configurer les utilisateurs pour Skype Entreprise Server. Vous pouvez rechercher des utilisateurs par nom d’affichage, prénom, nom de famille, nom de compte SAM (Security Accounts Manager, Gestionnaire de comptes de sécurité), adresse SIP ou URI (Uniform Resource Identifier) de ligne. Vous pouvez également rechercher des utilisateurs à l’aide du Panneau de contrôle Lync Server ou du logiciel en ligne Utilisateurs et ordinateurs Active Directory.'
 ---
+
 # <a name="control-panel---updated-user-search"></a>Panneau de configuration - Mise à jour : recherche d’un utilisateur
 
 Vous pouvez utiliser les résultats d’une requête de recherche pour configurer les utilisateurs pour Skype Entreprise Server. Vous pouvez rechercher des utilisateurs par nom d’affichage, prénom, nom de famille, nom de compte SAM (Security Accounts Manager, Gestionnaire de comptes de sécurité), adresse SIP ou URI (Uniform Resource Identifier) de ligne. Vous pouvez également rechercher des utilisateurs à l’aide du Panneau de contrôle Lync Server ou du logiciel en ligne Utilisateurs et ordinateurs Active Directory.
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Vous pouvez effectuer les tâches suivantes dans la page Panneau de contrôle de recherche **de** l’utilisateur :
+Vous pouvez effectuer les tâches suivantes dans la page Panneau de contrôle de **recherche d’utilisateur** :
 
 - [Rechercher des utilisateurs](/previous-versions/office/lync-server-2013/lync-server-2013-search-for-lync-server-users)
 
@@ -60,7 +55,7 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
 
 - **Zone Rechercher des utilisateurs** Tapez les données utilisateur ou l’expression LDAP dont vous souhaitez mettre en cache.
 
-- **Rechercher** Cliquez pour afficher les utilisateurs qui correspondent aux valeurs de recherche que vous avez entrées dans **la** zone Rechercher des utilisateurs.
+- **Rechercher** Cliquez pour afficher les utilisateurs qui correspondent aux valeurs de recherche que vous avez entrées dans la zone Rechercher **des** utilisateurs.
 
 - **Ouvrir une requête** Cliquez pour ouvrir une requête de recherche enregistrée.
 
@@ -76,13 +71,13 @@ Ajoutez un texte descriptif, selon les besoins.
 
 ### <a name="search-results-menus"></a>Menus de la page Résultats de la recherche
 
-- **Activer les utilisateurs** Cliquez pour ouvrir la boîte de dialogue Utilisateurs : Nouvel utilisateur [Lync Server,](ms.lync.lscp.UserNew.md) dans laquelle vous pouvez ajouter un nouvel utilisateur à Skype Entreprise Server.
+- **Activer les utilisateurs** Cliquez pour ouvrir la boîte de dialogue Utilisateurs : Nouvel utilisateur [Lync Server](ms.lync.lscp.UserNew.md), dans laquelle vous pouvez ajouter un nouvel utilisateur à Skype Entreprise Server.
 
     Pour ajouter un nouveau contact, cliquez sur la flèche vers le bas, puis sélectionnez **Activer les contacts** pour ouvrir la boîte de dialogue [Users: New Contact Objects](ms.lync.lscp.UserNewContact.md).
 
-- **Modifier** Cliquez **sur** Modifier, puis sur Afficher les détails pour afficher  les détails de l’utilisateur sélectionné, ou cliquez sur Sélectionner tous les résultats de recherche pour sélectionner tous les **utilisateurs** affichés dans le tableau des résultats.
+- **Modifier** Cliquez **sur** Modifier, puis sur Afficher les détails pour afficher les détails de l’utilisateur sélectionné,  ou cliquez sur Sélectionner tous les résultats de recherche pour sélectionner tous les **utilisateurs** affichés dans le tableau des résultats.
 
-- **Action** Cliquez **sur Action,** puis sélectionnez l’action que vous souhaitez effectuer pour les utilisateurs sélectionnés dans les résultats de la recherche. Les actions suivantes sont disponibles :
+- **Action** Cliquez **sur Action**, puis sélectionnez l’action que vous souhaitez effectuer pour les utilisateurs sélectionnés dans les résultats de la recherche. Les actions suivantes sont disponibles :
 
   - **Ré-activer pour Lync Server** Active le compte d’utilisateur sélectionné après sa désactivation temporaire.
 
@@ -102,6 +97,6 @@ Ajoutez un texte descriptif, selon les besoins.
 
   - **Supprimer un certificat utilisateur** Supprime tous les certificats accordés à l’utilisateur.
 
-  - **Déplacer les utilisateurs sélectionnés vers le pool** Ouvre la boîte de dialogue Déplacer [l’utilisateur,](ms.lync.lscp.UserMove.md) dans laquelle vous pouvez sélectionner un pool vers lequel déplacer l’utilisateur sélectionné.
+  - **Déplacer les utilisateurs sélectionnés vers le pool** Ouvre la boîte [de dialogue Déplacer l’utilisateur](ms.lync.lscp.UserMove.md) , dans laquelle vous pouvez sélectionner un pool vers lequel déplacer l’utilisateur sélectionné.
 
-  - **Déplacer tous les utilisateurs vers le pool** Ouvre la boîte [de dialogue Déplacer l’utilisateur,](ms.lync.lscp.UserMove.md) dans laquelle vous pouvez sélectionner un pool vers lequel déplacer tous les utilisateurs sélectionnés.
+  - **Déplacer tous les utilisateurs vers le pool** Ouvre la boîte [de dialogue Déplacer l’utilisateur](ms.lync.lscp.UserMove.md) , dans laquelle vous pouvez sélectionner un pool vers lequel déplacer tous les utilisateurs sélectionnés.

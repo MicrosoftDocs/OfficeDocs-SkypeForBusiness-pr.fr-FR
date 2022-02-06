@@ -1,25 +1,20 @@
 ---
 title: Back up and restore Persistent Chat databases in Skype Entreprise Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: 'Résumé : Découvrez comment back up and restore Persistent Chat Server databases in Skype Entreprise Server 2015.'
-ms.openlocfilehash: 3c294a33a82a9279e05e1d69e48b531f8b85e3c0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841166"
 ---
+
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>Back up and restore Persistent Chat databases in Skype Entreprise Server 2015
  
 **Résumé :** Découvrez comment back up and restore Persistent Chat Server databases in Skype Entreprise Server 2015.
@@ -27,21 +22,21 @@ ms.locfileid: "60841166"
 Le serveur de conversation permanente SQL Server un logiciel de base de données pour stocker les données de salle de conversation, telles que l’historique et le contenu, la configuration, la mise en service des utilisateurs et d’autres métadonnées pertinentes. En outre, si votre organisation a des réglementations qui exigent l’archivage de l’activité de conversation permanente et que le service de conformité facultatif est activé, le logiciel de base de données SQL Server est utilisé pour stocker les données de conformité, y compris le contenu et les événements de conversation, tels que la jointation et la sortie de salles. Le contenu de la salle de conversation est stocké dans la base de données de conversation permanente (mgc). Les données de conformité sont stockées dans la base de données de conformité (mgccomp). Il s’agit de données critiques qui doivent être régulièrement backed. 
   
 > [!NOTE]
-> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
 
 ## <a name="back-up-the-databases"></a>Back up the databases
 
 Il existe deux façons de la backing up Persistent Chat data. 
   
-- SQL Server Sauvegarde
+- SQL Server sauvegarde
     
-- Cmdlet **Export-CsPersistentChatData,** qui exporte les données de conversation permanente en tant que fichier
+- Cmdlet **Export-CsPersistentChatData** , qui exporte les données de conversation permanente en tant que fichier
     
-Les données créées à l’aide de la sauvegarde SQL Server nécessitent beaucoup plus d’espace disque (20 fois plus éventuellement) que celles créées par **l';export-CsPersistentChatData,** mais la sauvegarde SQL Server est probablement une procédure que vous connaissez déjà.
+Les données créées à l’aide d’une sauvegarde SQL Server nécessitent beaucoup plus d’espace disque (20 fois plus éventuellement) que celles créées par l';**export-CsPersistentChatData**, mais la sauvegarde SQL Server est probablement une procédure que vous connaissez déjà.
   
-Si vous souhaitez utiliser des procédures SQL Server de sauvegarde, consultez la documentation de votre SQL pour plus d’informations. 
+Si vous souhaitez utiliser des procédures SQL Server de sauvegarde, consultez votre documentation SQL pour plus d’informations. 
   
-Si vous souhaitez utiliser l’cmdlet **Export-CsPersistentChatData,** vous pouvez spécifier la commande comme suit :
+Si vous souhaitez utiliser l’cmdlet **Export-CsPersistentChatData** , vous pouvez spécifier la commande comme suit :
   
 ```PowerShell
 Export-CsPersistentChatData [-FileName <String>] <COMMON PARAMETERS>

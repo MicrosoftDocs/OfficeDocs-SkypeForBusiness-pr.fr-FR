@@ -1,27 +1,22 @@
 ---
 title: Configuration des notifications Push du client mobile
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientPushNotificationCfgMain
+  - ms.lync.lscp.ClientPushNotificationCfgMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
-ROBOTS: NOINDEX, NOFOLLOW
-description: Pour configurer les notifications push Microsoft et les notifications push Apple, vous devez créer une stratégie pour définir les types de notification push dont vous avez besoin.
-ms.openlocfilehash: 0f0d5a465abecf9ba0f5fb2b5de594c537801914
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847977"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Pour configurer les notifications push Microsoft et les notifications push Apple, vous devez créer une stratégie pour définir les types de notification push dont vous avez besoin.'
 ---
+
 # <a name="mobile-client-push-notification-configuration"></a>Client mobile : configuration des notifications push
  
 Pour configurer les **notifications push Microsoft** et les **notifications push Apple**, vous devez créer une stratégie pour définir les types de notification push dont vous avez besoin.
