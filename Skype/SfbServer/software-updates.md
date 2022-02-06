@@ -1,28 +1,23 @@
 ---
 title: Téléchargements et mises à jour de Skype Entreprise
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 07/23/2018
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
-description: Recherchez et gérez les mises à jour Skype Entreprise Server ou Lync 2013. Utilisez les liens pour obtenir plus d’informations, puis téléchargez les mises à jour.
-ms.openlocfilehash: ce7676064bc6e2ca67c65a8a4f34c543a0fa75f1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855198"
+description: 'Recherchez et gérez les mises à jour Skype Entreprise Server ou Lync 2013. Utilisez les liens pour obtenir plus d’informations, puis téléchargez les mises à jour.'
 ---
+
 # <a name="skype-for-business-downloads-and-updates"></a>Téléchargements et mises à jour de Skype Entreprise
 
-La Skype Entreprise page web _de téléchargements et_ de mises à jour qui était une fois sur Technet a été retirée. Le contenu a été réorganisé en pages client et serveur. Suivez ces liens vers le contenu dont vous avez besoin :
+Le _Skype Entreprise page web de téléchargements et_ de mises à jour qui était une fois sur Technet a été retiré. Le contenu a été réorganisé en pages client et serveur. Suivez ces liens vers le contenu dont vous avez besoin :
 
 - [Mises à jour pour Skype Entreprise clients qui](sfb-client-updates.md) contient les sections :
     - [Skype Entreprise client 2016](sfb-client-updates.md#skype-for-business-2016-client-updates)

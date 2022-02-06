@@ -1,28 +1,23 @@
 ---
 title: Attributs de schéma par classe dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
-description: Cette section répertorie les attributs de schéma qui peuvent être contenus dans chaque classe Skype Entreprise Server et les classes qui peuvent être contenues dans d’autres classes. Pour obtenir la liste de toutes les classes et leurs descriptions, voir classes de schéma et descriptions dans Skype Entreprise Server. Pour obtenir la liste de tous les attributs et leurs descriptions, voir attributs et descriptions de schéma dans Skype Entreprise Server.
-ms.openlocfilehash: b3e4e584896da8dd6345d3f284c30463094b4b6e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829808"
+description: 'Cette section répertorie les attributs de schéma qui peuvent être contenus dans chaque classe Skype Entreprise Server et les classes qui peuvent être contenues dans d’autres classes. Pour obtenir la liste de toutes les classes et leurs descriptions, voir classes de schéma et descriptions dans Skype Entreprise Server. Pour obtenir la liste de tous les attributs et leurs descriptions, voir attributs et descriptions de schéma dans Skype Entreprise Server.'
 ---
+
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Attributs de schéma par classe dans Skype Entreprise Server
  
-Cette section répertorie les attributs de schéma qui peuvent être contenus dans chaque classe Skype Entreprise Server et les classes qui peuvent être contenues dans d’autres classes. Pour obtenir la liste de toutes les classes et leurs descriptions, voir classes de schéma [et descriptions dans Skype Entreprise Server](schema-classes-and-descriptions.md). Pour obtenir la liste de tous les attributs et leurs descriptions, voir attributs de schéma et [descriptions dans Skype Entreprise Server](schema-attributes-and-descriptions.md).
+Cette section répertorie les attributs de schéma qui peuvent être contenus dans chaque classe Skype Entreprise Server et les classes qui peuvent être contenues dans d’autres classes. Pour obtenir la liste de toutes les classes et leurs descriptions, voir [classes de schéma et descriptions dans Skype Entreprise Server](schema-classes-and-descriptions.md). Pour obtenir la liste de tous les attributs et leurs descriptions, voir [attributs et descriptions de schéma dans Skype Entreprise Server](schema-attributes-and-descriptions.md).
   
 ## <a name="attributes-by-class"></a>Attributs par classe
 

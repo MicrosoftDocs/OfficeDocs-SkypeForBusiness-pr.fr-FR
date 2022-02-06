@@ -1,28 +1,23 @@
 ---
 title: Liste des vues CDR
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
-description: Les affichages offrent un moyen simple d’accéder aux informations sur les scénarios les plus courants utilisés pour renvoyer des données à partir de la base de données cdr. Il est recommandé d’utiliser des affichages pour créer des rapports personnalisés au lieu d’utiliser les tables de base de données d’cdr réelles ; Cela est dû au fait que les vues de base de données sont plus susceptibles de maintenir une compatibilité ascendante avec les futures sorties.
-ms.openlocfilehash: 713e9bef620f36901031024395cc3b51898e433d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847057"
+description: Les vues offrent un moyen simple d’accéder aux informations sur les scénarios les plus courants utilisés pour renvoyer des données à partir de la base de données cdr. Il est recommandé d’utiliser des affichages pour créer des rapports personnalisés au lieu d’utiliser les tables de base de données d’cdr réelles ; Cela est dû au fait que les affichages de base de données sont plus susceptibles de maintenir une compatibilité ascendante avec les futures sorties.
 ---
+
 # <a name="list-of-cdr-views"></a>Liste des vues CDR
  
-Les affichages offrent un moyen simple d’accéder aux informations sur les scénarios les plus courants utilisés pour renvoyer des données à partir de la base de données cdr. Il est recommandé d’utiliser des affichages pour créer des rapports personnalisés au lieu d’utiliser les tables de base de données d’cdr réelles ; Cela est dû au fait que les vues de base de données sont plus susceptibles de maintenir une compatibilité ascendante avec les futures sorties.
+Les vues offrent un moyen simple d’accéder aux informations sur les scénarios les plus courants utilisés pour renvoyer des données à partir de la base de données cdr. Il est recommandé d’utiliser des affichages pour créer des rapports personnalisés au lieu d’utiliser les tables de base de données d’cdr réelles ; Cela est dû au fait que les affichages de base de données sont plus susceptibles de maintenir une compatibilité ascendante avec les futures sorties.
   
 |**Nom de la vue**|**Description**|
 |:-----|:-----|

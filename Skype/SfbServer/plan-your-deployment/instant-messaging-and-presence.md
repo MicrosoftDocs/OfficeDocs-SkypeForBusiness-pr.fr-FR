@@ -1,24 +1,19 @@
 ---
 title: Planifier la messagerie instantanée et la présence dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 'Résumé : Découvrez comment planifier la messagerie instantanée et la présence dans Skype Entreprise Server.'
-ms.openlocfilehash: b81da143bf7b8d917d88939d8b28261910bb8f5a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835082"
 ---
+
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planifier la messagerie instantanée et la présence dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment planifier la messagerie instantanée et la présence dans Skype Entreprise Server.
@@ -27,7 +22,7 @@ Planifiez la messagerie instantanée et la présence dans Skype Entreprise Serve
   
 ## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planifier la messagerie instantanée et la présence dans Skype Entreprise Server
 
-Les serveurs frontux fournissent des fonctionnalités de Skype Entreprise Server essentielles telles que la messagerie instantanée et la présence, et sont inclus dans chaque déploiement Skype Entreprise Server de messagerie instantanée. Deux éditions sont disponibles : Skype Entreprise Server Êdition Entreprise, qui est principalement conçu pour les grandes organisations, et Skype Entreprise Server Édition Standard, qui est principalement conçu pour les petites organisations qui souhaitent une plus petite taille investissement matériel et ne nécessitent pas d’options de haute disponibilité complètes. Les deux éditions sont Skype Entreprise Server charges de travail de messagerie instantanée, de présence, de conférence et de Voix Entreprise.
+Les serveurs frontux fournissent des fonctionnalités de Skype Entreprise Server essentielles telles que la messagerie instantanée et la présence, et sont inclus dans chaque déploiement Skype Entreprise Server de messagerie instantanée. Deux éditions sont disponibles : Skype Entreprise Server Êdition Entreprise, qui est principalement conçu pour les grandes organisations, et Skype Entreprise Server Édition Standard , qui est conçu principalement pour les petites organisations qui souhaitent un plus petit investissement matériel et ne nécessitent pas d’options de haute disponibilité complètes. Les deux éditions sont Skype Entreprise Server charges de travail de messagerie instantanée, de présence, de conférence et de Voix Entreprise.
   
 La messagerie instantanée permet aux utilisateurs de communiquer en temps réel les uns avec les autres sur leurs ordinateurs à l’aide des messages textuels.. Les sessions de messagerie unifiée à deux ou à plusieurs personnes sont prises en charge. Un participant à une conversation de messagerie instantanée peut ajouter un troisième participant à la conversation à tout moment. Lorsque cela arrive, la fenêtre Conversation change pour prendre en charge des fonctionnalités de conférence.
   
@@ -35,7 +30,7 @@ La présence fournit des informations aux utilisateurs sur l’état d’autres 
   
 ### <a name="technical-requirements"></a>Exigences techniques
 
-La messagerie instantanée et la présence s’exécutent toujours sur Êdition Entreprise pools frontux et Édition Standard serveurs. Pour plus d’informations sur le matériel, les systèmes d’exploitation et les logiciels de base de données pris en charge, voir [Passerelles certifiées,](../../SfbPartnerCertification/certification/infra-gateways.md)Configuration requise pour votre environnement [Skype Entreprise 2015](requirements-for-your-environment/requirements-for-your-environment.md)et Configuration requise pour l’infrastructure [pour Skype Entreprise Server 2019.](../../SfBServer2019/plan/system-requirements.md)
+La messagerie instantanée et la présence s’exécutent toujours sur Êdition Entreprise pools frontux et Édition Standard serveurs. Pour plus d’informations sur le matériel, les systèmes d’exploitation et les logiciels de base de données pris en charge, voir [Passerelles certifiées](../../SfbPartnerCertification/certification/infra-gateways.md), Configuration requise pour votre environnement [Skype Entreprise 2015](requirements-for-your-environment/requirements-for-your-environment.md) et Configuration requise pour l’infrastructure [pour Skype Entreprise Server 2019](../../SfBServer2019/plan/system-requirements.md).
   
 ### <a name="enabling-communication-with-external-users"></a>Activation de la communication avec des utilisateurs externes
 
@@ -58,15 +53,15 @@ Vous pouvez clairement accroître les avantages de votre investissement dans Sky
   
 ### <a name="archiving-im-content"></a>Archivage du contenu de messagerie instantanée
 
-Skype Entreprise Server fournit des fonctionnalités que vous pouvez utiliser si votre organisation doit respecter les réglementations de conformité. Vous pouvez utiliser l’archivage pour archiver le contenu des messages instantanés pour tous les utilisateurs de votre organisation ou uniquement pour certains utilisateurs que vous spécifiez. Pour plus d’informations, [voir Planifier l’archivage dans Skype Entreprise Server](archiving/archiving.md). 
+Skype Entreprise Server fournit des fonctionnalités que vous pouvez utiliser si votre organisation doit respecter les réglementations de conformité. Vous pouvez utiliser l’archivage pour archiver le contenu des messages instantanés pour tous les utilisateurs de votre organisation ou uniquement pour certains utilisateurs que vous spécifiez. Pour plus d’informations, [voir Plan for archiving in Skype Entreprise Server](archiving/archiving.md). 
   
-Si Microsoft Exchange Server 2013 est également déployé, vous pouvez intégrer l’archivage des données Exchange à l’archivage des données Skype Entreprise Server et utiliser un seul outil pour rechercher les deux types de données archivées. Pour plus d’informations, [voir Configure Skype Entreprise Server to use Exchange Server archiving](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
+Si vous avez également déployé Microsoft Exchange Server 2013, vous pouvez intégrer l’archivage des données Exchange à l’archivage des données Skype Entreprise Server et utiliser un seul outil pour rechercher les deux types de données archivées. Pour plus d’informations, [voir Configure Skype Entreprise Server to use Exchange Server archiving](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
   
 ### <a name="topologies-and-components"></a>Topologies et composants
 
 Les seuls composants requis pour la messagerie instantanée et la présence sont :
   
-- Les serveurs frontux de votre organisation (appelés pool) ou un Édition Standard serveur. Les fonctionnalités de messagerie instantanée et de présence sont toujours activées sur ces serveurs. Pour plus d’informations sur les topologies et la gestion des pool frontaux, voir la haute disponibilité et la gestion [du pool frontal.](high-availability-and-disaster-recovery/high-availability.md)
+- Serveurs frontux de votre organisation (appelés pool) ou serveur Édition Standard serveur. Les fonctionnalités de messagerie instantanée et de présence sont toujours activées sur ces serveurs. Pour plus d’informations sur les topologies et la gestion des pool frontaux, voir la haute disponibilité et [la gestion du pool frontal](high-availability-and-disaster-recovery/high-availability.md).
     
 - Un équilibreur de charge, si vous avez un pool Êdition Entreprise frontal.
     

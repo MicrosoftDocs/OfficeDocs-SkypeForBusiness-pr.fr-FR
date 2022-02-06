@@ -1,25 +1,20 @@
 ---
 title: Exemples de requêtes de base de données de qualité de l’expérience (QoE)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: Cette section contient des exemples de requêtes pour la base de données QoE (Quality of Experience).
-ms.openlocfilehash: 0e7a654c4f091a1b156ebcc5dcd5e99233c29f00
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834932"
 ---
+
 # <a name="sample-qoe-database-queries"></a>Exemples de requêtes de base de données de qualité de l’expérience (QoE)
  
 Cette section contient des exemples de requêtes pour la base de données QoE (Quality of Experience). 

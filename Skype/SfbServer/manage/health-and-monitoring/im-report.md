@@ -1,24 +1,19 @@
 ---
 title: Rapport de messagerie instantanée D’égal à égal dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 'Résumé : Découvrez le rapport de messagerie instantanée D’égal à égal dans Skype Entreprise Server.'
-ms.openlocfilehash: f72200547ca8af3fa2ebde0e44c4707c82a1596b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834202"
 ---
+
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Rapport de messagerie instantanée D’égal à égal dans Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport de messagerie instantanée D’égal à égal dans Skype Entreprise Server.
@@ -35,7 +30,7 @@ Vous pouvez accéder au rapport de messagerie instantanée D’égal à égal un
     
 ## <a name="making-the-best-use-of-the-peer-to-peer-im-report"></a>Utilisation du rapport de messagerie instantanée D’égal à égal
 
-Par défaut, le rapport de messagerie instantanée D’égal à égal affiche le nombre de messages par heure (ou jour, selon vos paramètres). Toutefois, vous pouvez également choisir d’afficher le jour par session par heure. Pour ce faire, cliquez sur **Masquer/Afficher** les paramètres dans le coin supérieur droit de la fenêtre Rapports, puis cliquez sur Nombre de **sessions** dans la liste Rapport **par.**
+Par défaut, le rapport de messagerie instantanée D’égal à égal affiche le nombre de messages par heure (ou jour, selon vos paramètres). Toutefois, vous pouvez également choisir d’afficher le jour par session par heure. Pour ce faire, cliquez sur **Masquer/Afficher les paramètres** dans le coin supérieur droit de la fenêtre Rapports, puis cliquez sur Nombre de **sessions** dans la liste Rapport **par** .
   
 ## <a name="filters"></a>Filtres
 
@@ -62,11 +57,11 @@ Le tableau suivant répertorie les informations fournies dans le rapport de mess
 |**Date/Heure** <br/> |Non  <br/> |Date et heure des sessions.  <br/> |
 |**Total** <br/> |Non  <br/> |Nombre total de sessions ou de messages.  <br/> |
    
-## <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a>Mesures de la session de messagerie instantanée P2D par type d’authentification
+## <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a>Mesures de la session de messagerie instantanée D’égal à égal par type d’authentification
 
 Le tableau suivant répertorie les informations fournies dans le rapport de messagerie instantanée D’égal à égal pour chaque type d’authentification utilisé par les participants dans une session d’égal à égal.
   
-**Mesures de la session de messagerie instantanée P2D par type d’authentification**
+**Mesures de la session de messagerie instantanée D’égal à égal par type d’authentification**
 
 |**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|

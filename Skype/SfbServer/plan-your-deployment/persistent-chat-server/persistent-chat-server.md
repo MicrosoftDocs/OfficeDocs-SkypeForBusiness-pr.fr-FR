@@ -1,25 +1,20 @@
 ---
 title: Planifier le serveur de conversation permanente dans Skype Entreprise Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 'Résumé : Lisez cette rubrique pour découvrir comment planifier le serveur de conversation permanente Skype Entreprise Server 2015.'
-ms.openlocfilehash: 7adeb623f581d7ce6f3bfad5dadafd143299fad5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842716"
 ---
+
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planifier le serveur de conversation permanente dans Skype Entreprise Server 2015
  
 **Résumé :** Lisez cette rubrique pour découvrir comment planifier le serveur de conversation permanente Skype Entreprise Server 2015.
@@ -39,7 +34,7 @@ Le serveur de conversation permanente peut vous aider à améliorer la communica
 - Suivre les réglementations de conformité en déployant éventuellement le service de conformité de conversation permanente
 
 > [!NOTE] 
-> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
     
 ## <a name="persistent-chat-server-high-level-architecture"></a>Architecture de haut niveau du serveur de conversation permanente
 
@@ -103,7 +98,7 @@ Si vous décidez de déployer un serveur de conversation permanente, vous devez 
     
 - Quel genre de compléments voulez-vous approvisionner ? Les add-ins améliorent l’expérience dans la salle en tirant parti du volet d’extensibilité dans le client Skype Entreprise pour fournir un contexte pertinent pour la salle. Vous pouvez choisir les compléments généraux les plus utiles à vos yeux (par exemple, le site de votre entreprise, des documents de collaboration internes, etc.). Les gestionnaires de salles de conversation peuvent choisir l’un des compléments inscrits et l’associer à leurs salles, le cas échéant. 
     
-- Quels types d’exigences en matière de haute disponibilité et de récupération d’urgence avez-vous ? Le serveur de conversation permanente prend en charge SQL Server mise en miroir et SQL Server clustering pour la haute disponibilité. Pour la récupération d’urgence, le serveur de conversation permanente prend en charge jusqu’à 8 serveurs (4 actifs et 4 de secours) dans un pool étiré avec la SQL Server de journaux de livraison. 
+- Quel type de besoins en matière de haute disponibilité et de récupération d’urgence avez-vous ? Le serveur de conversation permanente prend en charge SQL Server mise en miroir et SQL Server clustering pour la haute disponibilité. Pour la récupération d’urgence, le serveur de conversation permanente prend en charge jusqu’à 8 serveurs (4 actifs et 4 de secours) dans un pool étiré avec SQL Server de journaux de livraison. 
     
 - Existe-t-il des exigences en matière de réglementation ? Si votre entreprise se trouve dans un pays ou une région où les données doivent être conservées dans le pays, vous devrez peut-être déployer plusieurs pools de serveurs de conversation permanente, chacun local dans une zone géographique spécifique. Une salle, une catégorie ou un add-in ne couvre pas les pools ; il n’appartient qu’à un seul pool de serveurs de conversation permanente. 
     

@@ -1,25 +1,20 @@
 ---
 title: Haute disponibilité du serveur principal dans Skype Entreprise Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
-description: Découvrez les options de haute disponibilité du serveur principal pris en charge dans Skype Entreprise Server, notamment les groupes de disponibilité AlwaysOn, les instances de cluster de failover AlwaysOn, la mise en miroir de bases de données et le clustering de SQL de base de données.
-ms.openlocfilehash: 9e7b06fc1894c67d6d4cee1e2ec04bf910181df5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847177"
+description: 'Découvrez les options de haute disponibilité du serveur principal pris en charge dans Skype Entreprise Server, notamment les groupes de disponibilité AlwaysOn, les instances de cluster de failover AlwaysOn, la mise en miroir de bases de données et le clustering de SQL de base de données.'
 ---
+
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Haute disponibilité du serveur principal dans Skype Entreprise Server
  
 Découvrez les options de haute disponibilité du serveur principal pris en charge dans Skype Entreprise Server, notamment les groupes de disponibilité AlwaysOn, les instances de cluster de failover AlwaysOn, la mise en miroir de bases de données et le clustering de SQL de base de données.
@@ -34,7 +29,7 @@ Pour améliorer la haute disponibilité de vos serveurs back-end, vous avez quat
     
 - SQL clustering deover
     
-L’utilisation de l’une de ces solutions est facultative, mais est recommandée pour maintenir la continuité des activités de votre organisation. Dans le cas contraire, la panne d’un seul serveur de base de données peut entraîner la perte de données Skype Entreprise Server données. 
+L’utilisation de l’une de ces solutions est facultative, mais est recommandée pour maintenir la continuité des activités de votre organisation. Dans le cas contraire, la panne d’un seul serveur de base de données peut entraîner la perte d’Skype Entreprise Server données. 
   
 Vous pouvez configurer la mise en miroir de bases de données uniquement à l’aide du Générateur de topologies. Pour les groupes de disponibilité AlwaysOn, les instances de cluster de failover AlwaysOn ou le clustering de SQL failover, vous utilisez SQL Server pour créer la solution de haute disponibilité, puis vous pouvez utiliser le Générateur de topologie pour l’associer à un pool frontal.
   
@@ -56,9 +51,9 @@ Skype Entreprise Server prend en charge la mise en miroir avec les logiciels de 
     
 
 > [!NOTE]
-> SQL La mise en miroir est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de cluster de SQL AlwaysOn et les méthodes de clustering de SQL sont les seules options prise en charge avec Skype Entreprise Server 2019.
+> SQL miroir est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de cluster de SQL AlwaysOn et les méthodes de clustering de SQL sont les seules options prise en charge avec Skype Entreprise Server 2019.
     
-La mise en miroir asynchrone des bases de données n’est pas prise en charge pour la haute disponibilité du serveur principal dans Skype Entreprise Server. Dans le reste de ce document, la mise en miroir de bases de données signifie la mise en miroir synchrone des bases de données, sauf indication contraire explicite. 
+La mise en miroir asynchrone des bases de données n’est pas prise en charge pour la haute disponibilité du serveur principal dans Skype Entreprise Server. Dans le reste de ce document, la mise en miroir de bases de données signifie la mise en miroir synchrone des bases de données, sauf mention explicite. 
   
 Lorsque vous déployez la mise en miroir de bases de données dans un pool frontal, toutes les bases de données Skype Entreprise Server du pool sont en miroir, y compris le magasin central de gestion, si elle se trouve dans ce pool, ainsi que la base de données d’application Response Group et la base de données d’application de parcage d’appel, si ces applications sont en cours d’exécution dans le pool. 
   
@@ -68,7 +63,7 @@ Vous pouvez choisir de déployer la mise en miroir de bases de données avec ou 
   
 Si vous utilisez un témoin, celui-ci peut servir pour plusieurs paires de serveurs principaux. Il n’y a aucune correspondance stricte un-à-un entre les témoins et les paires de serveurs principaux. Les déploiements utilisant un seul témoin pour plusieurs paires de serveurs principaux ne sont simplement pas aussi résilients que les topologies faisant appel à un témoin à part pour chaque paire de serveurs principaux. 
   
-### <a name="guidelines-for-planning-back-end-server-mirroring"></a>Recommandations en matière de planification de la mise en miroir de serveurs principal
+### <a name="guidelines-for-planning-back-end-server-mirroring"></a>Recommandations en matière de planification de la mise en miroir de serveur principal
 
 En général, la configuration de la mise en miroir SQL entre deux serveurs principaux avec un témoin exige ce qui suit :
   
@@ -78,17 +73,17 @@ En général, la configuration de la mise en miroir SQL entre deux serveurs prin
     
 - Le principal et le miroir doivent disposer de la même édition de SQL Server. Le témoin peut en avoir une différente.
     
-Pour SQL meilleures pratiques en ce qui concerne les versions SQL sont [](/sql/database-engine/database-mirroring/database-mirroring-witness) pris en charge pour un rôle témoin, voir « Témoin de mise en miroir de bases de données » dans la bibliothèque MSDN.
+Pour SQL meilleures pratiques en ce qui concerne les versions SQL sont pris en charge pour un rôle témoin, voir « Témoin [](/sql/database-engine/database-mirroring/database-mirroring-witness) de mise en miroir de bases de données » dans la bibliothèque MSDN.
   
-Avant de configurer la mise en miroir de serveur, vous devez d’abord configurer SQL les autorisations de base de données correctement. Pour plus d’informations, voir « Configurer des comptes de connexion pour la mise en miroir de bases de données ou les groupes de disponibilité [AlwaysOn (SQL Server)](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability)».
+Avant de configurer la mise en miroir de serveur, vous devez d’abord configurer SQL les autorisations de base de données correctement. Pour plus d’informations, voir « Configurer des comptes de connexion pour la mise en miroir de bases de données ou les groupes de disponibilité [AlwaysOn (SQL Server)](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability) ».
   
 Avec la mise en miroir SQL, le mode de récupération de la base de données a toujours la valeur **Complète**, ce qui signifie que vous devez surveiller de près la taille du journal des transactions et sauvegarder les journaux des transactions de manière régulière afin d’éviter toute insuffisance d’espace disque sur les serveurs principaux. La fréquence des sauvegardes des journaux des transactions dépend de la vitesse à laquelle leur taille augmente, laquelle dépend à son tour des transactions de base de données induites par les activités des utilisateurs sur le pool frontal. Nous vous recommandons d’estimer l’accroissement des journaux des transactions pour la charge de travail de votre déploiement Lync afin de procéder à une planification en conséquence. Les articles suivants fournissent des informations supplémentaires sur la gestion des journaux et sauvegardes SQL :
   
 > [!IMPORTANT]
-> L’utilisation du Générateur de topologie ou des cmdlets pour configurer et supprimer la mise en miroir SQL est prise en charge uniquement lorsque les serveurs principal, miroir et témoin (si vous le souhaitez) appartiennent tous au même domaine. Si vous voulez configurer la mise en miroir SQL entre des serveurs de différents domaines, voir votre documentation SQL Server. 
+> L’utilisation du Générateur de topologie ou des cmdlets pour configurer et supprimer la mise en miroir SQL n’est prise en charge que lorsque les serveurs principal, miroir et témoin (si vous le souhaitez) appartiennent tous au même domaine. Si vous voulez configurer la mise en miroir SQL entre des serveurs de différents domaines, voir votre documentation SQL Server. 
 
 > [!NOTE]
-> SQL La mise en miroir est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de cluster de SQL AlwaysOn et les méthodes de clustering de SQL sont préférés avec Skype Entreprise Server 2019.
+> SQL miroir est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de cluster de SQL AlwaysOn et les méthodes de clustering de SQL sont préférés avec Skype Entreprise Server 2019.
   
 ### <a name="recovery-time-for-automatic-back-end-server-failover-with-database-mirroring"></a>Temps de récupération du serveur principal automatique avec mise en miroir de bases de données
 
@@ -108,7 +103,7 @@ Si le serveur principal et les serveurs principaux en miroir tombent en panne, o
 
 Skype Entreprise Server prend en charge les groupes de disponibilité AlwaysOn uniquement en tant qu’actifs/passifs, et non actifs/actifs. 
   
-Pour utiliser des groupes de disponibilité AlwaysOn ou des instances de cluster de failover AlwaysOn, vous devez d’abord utiliser SQL Server pour configurer la solution de haute disponibilité. Vous pouvez ensuite utiliser le Générateur de topologie pour l’associer à un pool frontal.
+Pour utiliser des groupes de disponibilité AlwaysOn ou des instances de cluster de failover AlwaysOn, vous devez d’abord utiliser SQL Server pour configurer et configurer la solution de haute disponibilité. Vous pouvez ensuite utiliser le Générateur de topologie pour l’associer à un pool frontal.
 
 Skype Entreprise Server prend en charge AlwaysOn avec les logiciels de base de données suivants :
 
@@ -129,17 +124,17 @@ Skype Entreprise Server prend en charge AlwaysOn avec les logiciels de base de d
 - SQL Server 2012 SP2 et CU2 Êdition Entreprise
 
 > [!NOTE]
-> SQL Server 2019, 2017 et 2016 sont les seules versions Skype Entreprise Server 2019.
+> SQL Server 2019, 2017 et 2016 sont les seules versions prise en charge par Skype Entreprise Server 2019.
 
 > [!NOTE]
-> Les groupes de  disponibilité Always On ne sont pas pris en charge dans SQL 2016, 2017 et 2019 Standard Editions, mais vous pouvez utiliser les instances de cluster de failover Always On. Pour en savoir plus, consultez les éditions et [les fonctionnalités SQL Server 2016.](/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017)
+> Les groupes de disponibilité Always  On ne sont pas pris en charge dans SQL 2016, 2017 et 2019 Standard Editions, mais vous pouvez utiliser les instances de cluster de failover Always On. Pour en [savoir plus, consultez les éditions et les fonctionnalités SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017).
   
 > [!IMPORTANT]
 > Les noms d’instance de plusieurs instances de groupe de disponibilité AlwaysOn doivent être identiques. 
   
-Pour obtenir la procédure de déploiement des groupes de disponibilité AlwaysOn, voir Déployer un groupe de disponibilité [AlwaysOn](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md)sur un serveur principal dans Skype Entreprise Server .
+Pour obtenir la procédure de déploiement des groupes de disponibilité AlwaysOn, voir [Deploy an AlwaysOn Availability Group on a Back End Server in Skype Entreprise Server](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md).
   
-## <a name="sql-server-failover-clustering"></a>SQL Server Clustering deover
+## <a name="sql-server-failover-clustering"></a>SQL Server clustering de resserrement
 
 Skype Entreprise Server prend en charge SQL Server clustering avec le logiciel de base de données suivant :
   
@@ -153,11 +148,11 @@ Skype Entreprise Server prend en charge SQL Server clustering avec le logiciel d
     
 - SQL Server 2012 SP2 et CU2, à la fois Êdition Entreprise et Édition Standard
 
-Pour utiliser SQL clustering deover, vous devez d’abord configurer le cluster SQL Server avant de déployer votre pool frontal. Pour obtenir les meilleures pratiques et les instructions de configuration pour le clustering de SQL Server 2012, voir [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation) .
+Pour utiliser SQL clustering deover, vous devez d’abord configurer le cluster SQL Server avant de déployer votre pool frontal. Pour obtenir les meilleures pratiques et les instructions de configuration pour le clustering de SQL Server 2012, voir [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation).
 
 > [!NOTE]
 > SQL Server 2019, 2017 et SQL Server 2016 sont les seules versions Skype Entreprise Server 2019.
     
-Pour utiliser SQL clustering deover, vous devez d’abord configurer le cluster SQL Server avant de déployer votre pool frontal. Pour obtenir les meilleures pratiques et les instructions de configuration pour le clustering de SQL Server 2014 et 2016, voir [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation) . Pour le clustering de SQL Server 2008, voir [https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](/previous-versions/sql/sql-server-2008-r2/ms189134(v=sql.105)) .
+Pour utiliser SQL clustering deover, vous devez d’abord configurer le cluster SQL Server avant de déployer votre pool frontal. Pour obtenir les meilleures pratiques et les instructions de configuration pour le clustering de SQL Server 2014 et 2016, [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation)voir . Pour le clustering de SQL Server 2008, voir [https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](/previous-versions/sql/sql-server-2008-r2/ms189134(v=sql.105)).
   
 Lorsque vous installez SQL Server, pensez à installer SQL Server Management Studio pour la gestion des emplacements des fichiers de la base de données et des fichiers journaux. SQL Server Management Studio est installé en tant que composant facultatif lors de l’installation de SQL Server.

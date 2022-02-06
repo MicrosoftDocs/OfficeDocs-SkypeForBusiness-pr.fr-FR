@@ -1,25 +1,20 @@
 ---
 title: Schéma de base de données de conversation permanente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: Cela documente le schéma de la base de données de conversation permanente dans Skype Entreprise Server.
-ms.openlocfilehash: 862adace22d04e93b226545247a5d2bd8a89d9cc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858151"
 ---
+
 # <a name="persistent-chat-database-schema"></a>Schéma de base de données de conversation permanente
  
 Cela documente le schéma de la base de données de conversation permanente dans Skype Entreprise Server.
@@ -31,7 +26,7 @@ La base de données de conversation permanente fait référence à la base de do
   
 Respectez les meilleures pratiques suivantes :
   
-- Aucun select \* // n’est pris en charge, car la liste des colonnes peut croître.
+- Aucun select\* // n’est pris en charge, car la liste des colonnes peut croître.
     
 - Aucune modification de schéma générée par l’utilisateur n’est prise en charge.
     

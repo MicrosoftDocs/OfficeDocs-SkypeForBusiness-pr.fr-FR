@@ -1,31 +1,26 @@
 ---
-title: Configurer les stratégies de voix, les enregistrements d’utilisation PSTN et les itinéraires des Skype Entreprise
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 'Configurer les stratégies de voix, les enregistrements d’utilisation PSTN et les itinéraires des Skype Entreprise'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 description: 'Résumé : Découvrez comment configurer des stratégies de voix, des enregistrements d’utilisation PSTN et des itinéraires de voix dans Skype Entreprise Server.'
-ms.openlocfilehash: ac2256436e89a383df551fd7610189df56c8a0b0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833810"
 ---
+
 # <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>Configurer les stratégies de voix, les enregistrements d’utilisation PSTN et les itinéraires des Skype Entreprise
  
-**Résumé :** Découvrez comment configurer les stratégies de voix, les enregistrements d’utilisation PSTN et les itinéraires des Skype Entreprise Server.
+**Résumé :** Découvrez comment configurer des stratégies de voix, des enregistrements d’utilisation PSTN et des itinéraires de voix dans Skype Entreprise Server.
   
 Les stratégies de voix, les enregistrements d’utilisation PSTN et les itinéraires des communications vocales sont étroitement liés. Pour configurer une stratégie de voix vous devez sélectionner des fonctionnalités d’appel, puis affecter des enregistrements d’utilisation PSTN à la stratégie, qui spécifient les droits qui sont accordés aux utilisateurs et aux groupes auxquels la stratégie de voix est affectée. Les itinéraires des communications vocales reçoivent également des enregistrements d’utilisation PSTN, qui permettent d’associer les itinéraires aux utilisateurs autorisés à les utiliser. En d’autres termes, les utilisateurs peuvent uniquement effectuer des appels qui utilisent des itinéraires pour lesquels ils disposent d’enregistrements d’utilisation PSTN correspondants.
   
