@@ -1,7 +1,7 @@
 ---
 title: Gérer les paramètres de réunion
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -9,26 +9,21 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.teamsadmincenter.meetingsettings.invitationurls
-- ms.teamsadmincenter.meetingsettings.network.ports
-- ms.teamsadmincenter.meetingsettings.overview
+  - ms.teamsadmincenter.meetingsettings.invitationurls
+  - ms.teamsadmincenter.meetingsettings.network.ports
+  - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-- M365-collaboration
-- m365initiative-meetings
+  - M365-collaboration
+  - m365initiative-meetings
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: ed042552ea6057c8184b4dad444afa543550b052
-ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "61625915"
 ---
+
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
 En tant qu'administrateur, vous utilisez les paramètres de réunions Teams pour contrôler si les utilisateurs anonymes peuvent participer à des réunions Teams, personnaliser des invitations aux réunions et, si vous voulez activer la fonctionnalité Qualité de Service (QoS), configurer les plages de ports pour le trafic en temps réel. Ces paramètres s'appliquent à toutes les réunions Teams que les utilisateurs planifient dans votre organisation. Vous pouvez gérer ces paramètres à partir de **Réunions** > **Paramètres de réunions** dans le Centre d’administration Microsoft Teams.

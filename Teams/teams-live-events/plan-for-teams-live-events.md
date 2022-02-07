@@ -1,32 +1,27 @@
 ---
 title: Planifier des événements en direct dans Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: sonua
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: high
 ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-- m365initiative-meetings-enabler
-- enabler-strategic
+  - M365-collaboration
+  - m365initiative-meetings
+  - m365initiative-meetings-enabler
+  - enabler-strategic
 search.appverid: MET150
-description: Dans cet article, vous allez découvrir les facteurs à prendre en compte avant de configurer des événements en direct dans Microsoft Teams.
+description: 'Dans cet article, vous allez découvrir les facteurs à prendre en compte avant de configurer des événements en direct dans Microsoft Teams.'
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c8d15111af3815cbf111d7c1d0e2e77298b7d3d5
-ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 11/22/2021
-ms.locfileid: "61135187"
 ---
+
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
 Lorsque vous planifiez des événements en direct Teams pour organiser des réunions de grande envergure au sein de votre organisation, vous devez tenir compte de plusieurs facteurs avant de démarrer la configuration.
