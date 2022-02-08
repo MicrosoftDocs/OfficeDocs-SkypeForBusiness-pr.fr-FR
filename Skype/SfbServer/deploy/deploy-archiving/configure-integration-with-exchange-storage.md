@@ -1,8 +1,8 @@
 ---
-title: Configurer l’intégration avec Exchange stockage de Skype Entreprise Server
+title: Configurer l’intégration avec Exchange stockage pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer l’intégration avec Exchange stockage dans Skype Entreprise Server.'
-ms.openlocfilehash: 12d93a48e88d7086a1c8b1fec83c44a080ebf4af
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f1b6c028622edfe726b32f5fc4788668aaf4e51e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853798"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393436"
 ---
-# <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Configurer l’intégration avec Exchange stockage de Skype Entreprise Server
+# <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Configurer l’intégration avec Exchange stockage pour Skype Entreprise Server
  
 **Résumé :** Lisez cette rubrique pour découvrir comment configurer l’intégration avec Exchange stockage dans Skype Entreprise Server.
   
@@ -37,13 +37,13 @@ Si vous utilisez l’intégration Exchange Microsoft pour tous les utilisateurs 
     
    - Pour activer l’intégration avec Exchange stockage, activez la case **à cocher Exchange’intégration** Microsoft.
     
-   - Pour désactiver l’intégration avec Exchange stockage, désactivez la case **à cocher Exchange’intégration** Microsoft.
+   - Pour désactiver l’intégration avec Exchange stockage, **désactivez la case à cocher Exchange’intégration** microsoft.
     
 5. Cliquez sur **Valider**.
     
 ## <a name="when-skype-for-business-server-and-microsoft-exchange-are-deployed-in-different-forests"></a>Lorsque Skype Entreprise Server et Microsoft Exchange sont déployés dans différentes forêts
 
-Si vous utilisez l’intégration microsoft Exchange et que Microsoft Exchange Server n’est pas déployé dans la même forêt que Skype Entreprise Server, vous devez vous assurer que les attributs Active Directory Exchange suivants sont synchronisés avec la forêt où Skype Entreprise Server est déployé :
+Si vous utilisez l’intégration microsoft Exchange et que Microsoft Exchange Server n’est pas déployé dans la même forêt que Skype Entreprise Server, vous devez vous assurer que les attributs Active Directory Exchange suivants sont synchronisés avec la forêt dans laquelle Skype Entreprise Server est déployé :
   
 - msExchUserHoldPolicies
     

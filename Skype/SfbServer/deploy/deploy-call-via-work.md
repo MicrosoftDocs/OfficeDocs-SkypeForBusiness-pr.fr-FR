@@ -1,8 +1,8 @@
 ---
 title: Déployer l’appel via le Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 'Résumé : Découvrez comment déployer l’appel via le Skype Entreprise Server pour tout ou partie de vos utilisateurs.'
-ms.openlocfilehash: 932d94c13d4ba9ead63504cfba66175db52084d7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7ac3d09d81e602c108e1804ad837dd1c87d17e1b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851618"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393416"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Déployer l’appel via le Skype Entreprise Server
  
@@ -38,7 +38,7 @@ L’appel via le travail utilise l’API web de communications unifiées (UCWA),
     
 - Vous devez activer tous les utilisateurs de l’appel via le Voix Entreprise. Lorsque vous faites cela, vous devez configurer le numéro DID Skype Entreprise pour chaque utilisateur sur le numéro DID correspondant pour le système téléphonique PBX correspondant. 
     
-- La **configuration** automatique doit être sélectionnée dans l’option Connexions avancées de tous les **utilisateurs** qui utiliseront l’appel via le Skype Entreprise client. Cela permet au client de découvrir les URL UCWA. **La sélection automatique** est la sélection par défaut.
+- La **configuration** automatique doit être sélectionnée dans l’option Connexions avancées de tous les **utilisateurs** qui utiliseront l’appel via le Skype Entreprise client. Cela permet au client de découvrir les URL UCWA. **La configuration automatique** est la sélection par défaut.
     
 - Pour chaque utilisateur Appel via le travail, activez le forwarding d’appel et la sonnerie simultanée. 
     
@@ -48,7 +48,7 @@ L’appel via le travail utilise l’API web de communications unifiées (UCWA),
     
 ## <a name="deploy-call-via-work"></a>Déployer l’appel via le bureau
 
-Une fois les conditions préalables en place, faites les étapes suivantes :
+Une fois les conditions préalables en place, faites les choses suivantes :
   
 - Créez un numéro de téléphone global pour votre déploiement qui Skype Entreprise sur l’ID d’appelant PBX des utilisateurs qui effectuent des appels d’appel via le lieu de travail. 
     

@@ -1,8 +1,8 @@
 ---
 title: Obtenir les ancêtres d’élément
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: 'Résumé : Découvrez l’opération Obtenir des ancêtres d’élément, qui fait partie du service d’élément. Le service d’élément fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: ec62275bc3c63d501370d4e27c57d69d1d9f4d5e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0cfc5385af1c0c821d4dc64e9ba0e0bd092fe833
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847247"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393736"
 ---
 # <a name="get-item-ancestors"></a>Obtenir les ancêtres d’élément
  
@@ -33,7 +33,7 @@ Obtenir des ancêtres d’élément renvoie des ancêtres d’éléments spécif
 
 |**Méthode**|**URI de demande**|**HTTP Version**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/itemAncestors/{itemId}  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoERepositoryService/repository/itemAncestors/{itemId}  <br/> |HTTP/1.1  <br/> |
    
  **Paramètres d’URI** - Aucun.
   

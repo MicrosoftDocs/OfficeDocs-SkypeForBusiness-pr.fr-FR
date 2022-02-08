@@ -1,7 +1,7 @@
 ---
 title: Gérer l’accès en équipe pour les employés en ligne Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aaku
 manager: serdars
 ms.topic: article
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01ef7d91b0119501a3f7570b85ea902c0ebbb7a4
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: d177ac362b7b8c0d1f91be5322fb49696a5cc9b7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180877"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393486"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Gérer l’accès en équipe pour les employés en ligne Teams
 ## <a name="overview"></a>Présentation
@@ -29,7 +29,7 @@ ms.locfileid: "62180877"
 
 La présence dans Microsoft Teams indique la disponibilité et le statut actuel d’un utilisateur pour les autres utilisateurs. La présence des employés en ligne est souvent moins prévisible que les autres employés, car leurs heures de travail ne sont généralement pas les mêmes chaque jour. En tant qu’administrateur, vous pouvez configurer les Teams de manière à afficher un ensemble d’états de présence basés sur des shifts pour les employés en ligne de votre organisation qui indiquent quand ils sont en déplacement.
 
-Ces informations de présence basées sur un shift &mdash; ![ sont des coches verts pleins qui indiquent Les shifts.](../../media/flw-presence-on-shift.png) **Sur shift,** ![ cercle gris avec x, indique Shift off.](../../media/flw-presence-off-shift.png) **En dehors** du shift, un cercle rouge plein, indique que Occupé(se) est séparé du jeu par défaut d’états de présence ![ ](../../media/flw-presence-busy.png)  &mdash; dans Teams. [](../../presence-admins.md) Ces deux ensembles d’états de présence vous permet de configurer des expériences différentes pour les membres de votre organisation en fonction de leur rôle.
+Ces états de présence basés sur un&mdash;![ shift sont cocher verts et indiquent Les shifts.](../../media/flw-presence-on-shift.png) **Sur un shift**, le ![cercle gris avec x indique Shift décalé.](../../media/flw-presence-off-shift.png) **En dehors** du shift, ![un cercle rouge plein indique **Busy**](../../media/flw-presence-busy.png) Busyare &mdash;distinct de l’ensemble par défaut des états de [présence dans Teams](../../presence-admins.md). Ces deux ensembles d’états de présence vous permet de configurer des expériences différentes pour les membres de votre organisation en fonction de leur rôle.
 
 L’accès basé sur un shift vous permet de gérer l’accès aux employés Teams en dehors des employés en première ligne. Par exemple, vous pouvez définir Teams pour afficher un message que les employés en ligne doivent prendre en compte avant de pouvoir utiliser Teams lorsqu’ils ne sont pas sur un shift programmé.  
 
@@ -37,7 +37,7 @@ L’accès basé sur un shift vous permet de gérer l’accès aux employés Tea
 
 Voici un exemple de la façon dont votre organisation peut gérer l’accès basé sur des shifts.
 
-Vous avez des employés en première ligne de votre organisation qui ne doivent être payés que pour les heures pendant qui ils travaillent sur un shift que leur responsable a prévu et approuvé. Ils ne doivent pas être payés pour le temps passé à travailler en dehors d’une équipe prévue, ce qui inclut l’Teams travail. Vous avez créé un message personnalisé qui indique « Votre temps sur les Teams lorsque vous êtes en congé ne sera pas comptabilisé dans le nombre d’heures payables », qui s’affiche lorsque vos employés tentent d’accéder à Teams en dehors de leur shift. S’ils choisissent d’Teams,  ils cliquent sur J’accepte, tout en acceptant qu’ils ne seront pas payés pour le moment.
+Vous avez des employés en première ligne de votre organisation qui ne doivent être payés que pour les heures pendant qui ils travaillent sur un shift que leur responsable a prévu et approuvé. Ils ne doivent pas être payés pour le temps passé à travailler en dehors d’une équipe prévue, ce qui inclut l’Teams travail. Vous avez créé un message personnalisé qui indique « Votre temps sur les Teams lorsque vous êtes en congé ne sera pas comptabilisé dans le nombre d’heures payables », qui s’affiche lorsque vos employés tentent d’accéder à Teams en dehors de leur shift. S’ils choisissent d’Teams, ils cliquent sur **J’accepte**, tout en acceptant qu’ils ne seront pas payés pour le moment.
 
 Vous avez également des travailleurs de l’information dans votre organisation qui sont salariés et qui ne travaillent pas en équipe. Vous configurez vos travailleurs de l’information de manière à utiliser les états de présence par défaut dans Teams tout en offrant à vos employés de ligne de garde une présence basée sur shift.
 
@@ -53,7 +53,7 @@ Voici les états de présence en fonction de l’horaire.
 
 ## <a name="off-shift-access-to-teams"></a>Accès par shift à l’Teams
 
-Cette fonctionnalité vous permet de gérer l’accès aux employés Teams employés en première ligne qui sont en déplacement. Vous pouvez configurer des Teams pour afficher un message aux employés en première ligne s’ils accèdent Teams congés. Les employés en ligne doivent cliquer **sur J’accepte** pour accepter le message avant de pouvoir Teams.
+Cette fonctionnalité vous permet de gérer l’accès aux employés Teams employés en première ligne qui sont en déplacement. Vous pouvez configurer des Teams pour afficher un message aux employés en première ligne s’ils accèdent Teams congés. Les employés en ligne doivent cliquer **sur J’accepte** pour accepter le message pour pouvoir utiliser Teams.
 
 Vous pouvez utiliser le message par défaut, faire votre choix parmi un ensemble de messages prédéfin définis ou personnaliser le message pour afficher le texte de votre choix. Voici le message par défaut :
 
@@ -73,7 +73,7 @@ En tant qu’administrateur, vous utilisez des stratégies pour contrôler la pr
 
 Utilisez l'New-CsTeamsShiftsPolicy cmdlet pour créer une stratégie, définissez les paramètres de stratégie de votre souhaitez, puis utilisez l'Grant-CsTeamsShiftsPolicy de cmdlet Grant-CsTeamsShiftsPolicy pour affecter la stratégie aux utilisateurs.
 
-Voici quelques exemples. Pour plus d’informations sur chaque paramètre et paramètre de stratégie, y compris la liste des messages de shift prédéfinie parmi lesquels vous pouvez choisir, voir [New-CsTeamsShiftsPolicy.](/powershell/module/teams/new-csteamsshiftspolicy)
+Voici quelques exemples. Pour plus d’informations sur chaque paramètre et paramètre de stratégie, y compris la liste des messages de shift prédéfinie parmi lesquels vous pouvez choisir, voir [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-1"></a>Exemple 1
 
@@ -84,7 +84,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Default Message" -En
 ```
 
 > [!NOTE]
-> Utilisez le **paramètre ShiftNoticeMessageType** pour définir le message à afficher. Pour consulter la liste des messages prédéfinie parmi ceux que vous pouvez choisir pour ce paramètre, consultez [New-CsTeamsShiftsPolicy.](/powershell/module/teams/new-csteamsshiftspolicy)
+> Utilisez le **paramètre ShiftNoticeMessageType** pour définir le message à afficher. Pour consulter la liste des messages prédéfinie parmi ceux que vous pouvez choisir pour ce paramètre, consultez [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-2"></a>Exemple 2 
 
@@ -95,7 +95,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Custom Message" -Enabl
 ```
 
 > [!NOTE]
-> Utilisez le **paramètre ShiftNoticeMessageType** pour définir le message à afficher. Pour en savoir plus, [voir New-CsTeamsShiftsPolicy.](/powershell/module/teams/new-csteamsshiftspolicy)
+> Utilisez le **paramètre ShiftNoticeMessageType** pour définir le message à afficher. Pour en savoir plus, [voir New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-3"></a>Exemple 3
 
@@ -110,7 +110,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShi
 ```
 
 > [!NOTE]
-> Utilisez le **paramètre ShiftNoticeMessageType** pour définir le message à afficher. Pour consulter la liste des messages prédéfinie parmi ceux que vous pouvez choisir pour ce paramètre, consultez [New-CsTeamsShiftsPolicy.](/powershell/module/teams/new-csteamsshiftspolicy)
+> Utilisez le **paramètre ShiftNoticeMessageType** pour définir le message à afficher. Pour consulter la liste des messages prédéfinie parmi ceux que vous pouvez choisir pour ce paramètre, consultez [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-4"></a>Exemple 4
 
@@ -120,7 +120,7 @@ Dans cet exemple, nous affectons une stratégie nommée Off Shift Teams Access C
 Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName "Off Shift Teams Access Custom Message"
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer l’application Shifts pour votre organisation dans Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Présentation de Teams PowerShell](../../teams-powershell-overview.md)

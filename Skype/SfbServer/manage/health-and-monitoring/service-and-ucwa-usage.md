@@ -1,8 +1,8 @@
 ---
 title: Surveiller l’utilisation du service de mobilité et de l’UCWA dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 description: 'Résumé : Gérez le service de mobilité (Mcx) et l’API web de communications unifiées (UCWA) dans Skype Entreprise Server.'
-ms.openlocfilehash: 6139ab53e964bd7c880a83a7af252fe2da71a152
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d7596bfaf4e90f0eef25dbc625719f8739255858
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835252"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393766"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>Surveiller l’utilisation du service de mobilité et de l’UCWA dans Skype Entreprise Server
  
@@ -38,7 +38,7 @@ Pour la plupart des déploiements, l’utilisation du processeur UCWA doit être
   
 Outre les compteurs d’utilisation du processeur et de la mémoire, vous pouvez utiliser les compteurs de performance suivants pour déterminer quand un serveur est surchargé de demandes :
   
-- **LS:WEB - Limitation** et authentification\WEB - Nombre total de demandes en cours de traitement, ce qui indique le nombre de demandes web en attente sur le serveur. Lorsque ce compteur atteint 10 000, les demandes suivantes échouent, avec le message d’erreur « 503 - Service indisponible ».
+- **LS:WEB - Limitation et authentification\WEB - Nombre total** de demandes en cours de traitement, ce qui indique le nombre de demandes web en attente sur le serveur. Lorsque ce compteur atteint 10 000, les demandes suivantes échouent, avec le message d’erreur « 503 - Service indisponible ».
     
 - **ASP.NET\Requests Queued** (doit toujours être égal à zéro).
     

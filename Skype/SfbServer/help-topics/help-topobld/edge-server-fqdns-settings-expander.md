@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres de noms de domaine complets du serveur Edge
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 description: Pour modifier ou spécifier des Paramètres externes pour les serveurs Edge, vous devez d’abord déterminer si vous allez utiliser des adresses IP distinctes pour l’accès SIP (Session Initiation Protocol), le service Edge de conférence Web et le service Edge audio/vidéo.
-ms.openlocfilehash: 361a543f8a8f9d8e3d08d30156af65b7475ed6ac
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fedca0dada8bc0e53f200968f07da28fb5b3dda4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827657"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393836"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>Expandeur des paramètres de noms de domaine complets du serveur Edge
 
@@ -38,4 +38,4 @@ Si vous déterminez que votre organisation utilisera un nom de domaine complet e
 > [!IMPORTANT]
 > Si vous apportez des modifications à l’un de ces paramètres, y compris l’utilisation d’un nom de domaine complet et d’adresses IP ou de ports distincts, vous devez mettre à jour tous les autres services qui s’appuient sur les valeurs initialement configurées.
 
-Pour plus d’informations sur la définition et la configuration des paramètres des services Edge, voir [Définir votre topologie Edge.](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)
+Pour plus d’informations sur la définition et la configuration des paramètres des services Edge, voir [Définir votre topologie Edge](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology).
