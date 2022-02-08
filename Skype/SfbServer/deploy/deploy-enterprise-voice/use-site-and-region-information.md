@@ -1,8 +1,8 @@
 ---
 title: Configurer les paramètres globaux de contournement de média dans Skype Entreprise Server pour utiliser les informations de site et de région
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: Configurez le contournement de média pour qu’il soit utilisé uniquement pour certains sites et régions dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 7ec292f768633d64959704599269c0fb9cedd4fd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b818d1ba68d17a45c24904a1d313bafde6e6d1d1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829498"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391826"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Configurer les paramètres globaux de contournement de média dans Skype Entreprise Server pour utiliser les informations de site et de région
  
 Configurez le contournement de média pour qu’il soit utilisé uniquement pour certains sites et régions dans Skype Entreprise Server Voix Entreprise. 
   
- Si vous utilisez les étapes de cette rubrique pour configurer les paramètres globaux du contournement de média, nous partons du principe que vous n’avez pas une bonne connectivité entre tous les points de terminaison Skype Entreprise et tous les homologues pour lesquels vous avez configuré le contournement de média sur la connexion de liaison.
+ Si vous utilisez les étapes de cette rubrique pour configurer les paramètres globaux du contournement de média, nous partons du principe que vous n’avez pas une bonne connectivité entre tous les points de terminaison Skype Entreprise et les homologues pour lesquels vous avez configuré le contournement de média sur la connexion de la liaison de liaison.
   
 > [!NOTE]
 > Les informations relatives aux régions du réseau et aux sites réseau sont partagées entre les fonctionnalités Voix Entreprise avancées de contrôle d’admission des appels et de contournement de média lorsque ces deux fonctionnalités sont activées. Par conséquent, si vous avez déjà configuré le contrôle d’admission des appels, vous n’avez pas besoin d’effectuer la procédure suivante pour modifier les informations relatives aux sites et aux régions destinées au contournement de média. Suivez les étapes de cette procédure si vous n’avez pas encore configuré les régions et les sites du réseau pour le contrôle d’admission des appels et si vous souhaitez modifier les paramètres du contournement de média. 
@@ -53,9 +53,9 @@ Pour que le contournement de média fonctionne correctement, il doit y avoir une
   
 7. Cliquez sur **Valider**.
     
-Ensuite, ajoutez des sous-réseaux au site réseau, comme décrit dans Associer un [sous-réseau à un site réseau.](deploy-network.md#BKMK_AssociateSubnets) Une fois que vous avez associé tous les sous-réseaux aux sites réseau, le déploiement du contournement de média est terminé.
+Ensuite, ajoutez des sous-réseaux au site réseau, comme décrit dans [Associer un sous-réseau à un site réseau](deploy-network.md#BKMK_AssociateSubnets). Une fois que vous avez associé tous les sous-réseaux aux sites réseau, le déploiement du contournement de média est terminé.
 > [!IMPORTANT]
-> Si vous n’avez pas encore créé de régions et de sites réseau, vous devez les créer pour pouvoir poursuivre le déploiement du contournement de média. Pour plus d’informations, voir Déployer des régions réseau, des sites et [des sous-réseaux dans Skype Entreprise](deploy-network.md). 
+> Si vous n’avez pas encore créé de régions et de sites réseau, vous devez les créer pour pouvoir poursuivre le déploiement du contournement de média. Pour plus d’informations, [voir Deploy network regions, sites and subnets in Skype Entreprise](deploy-network.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,8 +1,8 @@
 ---
 title: Installer et tester les Skype Entreprise pour Windows Phone
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 'Résumé : Découvrez comment installer et tester des Skype Entreprise sur votre Windows Phone.'
-ms.openlocfilehash: 49ba719f13edfa2d9dc85d00c71c59dc5b19b8d8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: da3f61b5fdc37cd07a793aad561ff51dcc7f185d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843537"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390716"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Installer et tester les Skype Entreprise pour Windows Phone
  
 **Résumé :** Découvrez comment installer et tester des Skype Entreprise sur votre Windows Phone.
   
-L Skype Entreprise pour Windows Phone applance Skype Entreprise la présence, la messagerie instantanée et les appels vocaux et vidéo Windows appareils mobiles. Les utilisateurs lync 2013 obtiennent automatiquement l’application mise à jour ou sont invités à la mettre à jour manuellement, en fonction de leurs paramètres utilisateur. Les nouveaux utilisateurs peuvent le télécharger à partir [Windows Phone Marketplace.](https://go.microsoft.com/fwlink/p/?linkid=231901) L Skype Entreprise pour Windows Phone est disponible uniquement sur Windows Phone 8.1 et ultérieures.
+L Skype Entreprise pour Windows Phone applance Skype Entreprise la présence, la messagerie instantanée et les appels vocaux et vidéo à Windows appareils mobiles. Les utilisateurs lync 2013 obtiennent automatiquement l’application mise à jour ou sont invités à la mettre à jour manuellement, en fonction de leurs paramètres utilisateur. Les nouveaux utilisateurs peuvent le télécharger à partir [Windows Phone Marketplace](https://go.microsoft.com/fwlink/p/?linkid=231901). L Skype Entreprise pour Windows Phone’application est uniquement disponible Windows Phone 8.1 et ultérieures.
   
 Avant d’orienter les utilisateurs de votre organisation vers le téléchargement de l’application, vous devez exécuter les tests suivants pour vous assurer qu’elle est correctement intégrée à votre environnement. 
   
@@ -33,30 +33,30 @@ Avant d’orienter les utilisateurs de votre organisation vers le téléchargeme
     
 2. À partir de votre téléphone, allez dans le **Store** et recherchez **Skype Entreprise**.
     
-3. Appuyez **sur Installer.** 
+3. Appuyez sur **Installer**. 
     
 ## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>Connectez-vous Skype Entreprise pour la première fois
 
-1. Sur **l’écran** d’accueil, balayez vers la gauche pour afficher vos applications installées, recherchez Skype Entreprise pour Windows Phone, puis appuyez sur l’icône pour ouvrir l’application.
+1. Sur **l’écran d’accueil**, balayez vers la gauche pour afficher vos applications installées, recherchez Skype Entreprise pour Windows Phone, puis appuyez sur l’icône pour ouvrir l’application.
     
 2. Entrez votre adresse de signature (par exemple, user@domain.com) et votre mot de passe, puis appuyez sur **Terminé**.
     
      Votre nom d’utilisateur et une adresse de connexion peuvent vous être demandés. Le nom d’utilisateur est ce que vous utilisez pour vous connectez au réseau de votre organisation, qu’il s’user@domain.com ou domaine \nom d’utilisateur.
     
-3. Dans **l’écran** Programme d’amélioration du produit, appuyez sur Rejoindre  pour envoyer des données anonymes sur les problèmes d’application et l’utilisation à Microsoft, ou Non merci si vous préférez ne pas participer. 
+3. Dans   **l’écran** Du Programme d’amélioration du produit, appuyez sur Rejoindre pour envoyer des données anonymes sur les problèmes d’application et l’utilisation à Microsoft, ou Non merci si vous préférez ne pas participer.
     
 4. Dans **l’écran Ne manquez pas vos appels de** travail, entrez votre numéro de téléphone mobile avec des codes de pays et de région. Lorsque Skype Entreprise pour Windows Phone ne peut pas utiliser un réseau de données Wi-Fi ou cellulaire pour effectuer un appel audio ou vidéo, vous êtes automatiquement appelé à ce numéro et connecté à la partie audio de l’appel.
     
-5. Appuyez **sur Suivant** et examinez les paramètres d’accès de notification et de phonébook :
+5. **Appuyez sur Suivant** et examinez les paramètres d’accès de notification et de phonébook :
     
-   - **Notifications Push** Recevez une alerte lorsque vous recevez un nouveau messagerie instantanée ou un nouvel appel. Normalement **on** (recommandé).
+   - **Notifications Push** Recevez une alerte lorsque vous recevez un nouveau messagerie instantanée ou un nouvel appel. Normalement **sur** (recommandé).
     
      > [!IMPORTANT]
-     > Si vous activez ce paramètre, vous n’êtes pas averti des E-S, des appels ou d’autres Skype Entreprise pour Windows Phone de messagerie unifiée, sauf si l’application est active. 
+     > Si vous activez ce paramètre, vous n’êtes pas averti des E-S, des appels ou d’autres Skype Entreprise pour Windows Phone alertes, sauf si l’application est active. 
   
    - **Autoriser l’accès aux phonébooks** Recherchez des contacts sur votre téléphone mobile lorsque vous recherchez des contacts dans Skype Entreprise pour Windows Phone.
     
-6. Appuyez **sur Suivant** pour commencer à utiliser Skype Entreprise pour Windows Phone.
+6. **Appuyez sur Suivant** pour commencer à utiliser Skype Entreprise pour Windows Phone.
     
     [Vous avez besoin d'aide pour vous connecter ?](https://support.office.com/article/6b827683-ad55-471a-bd4b-3d4ec098bf75)
     
@@ -66,7 +66,7 @@ Après avoir configuré le client et vous être connecté, utilisez les tests su
   
 ### <a name="search-for-a-contact-in-the-corporate-directory"></a>Rechercher un contact dans l’annuaire d’entreprise
 
-1. Dans la liste contacts, appuyez sur **Rechercher.**
+1. Dans la liste contacts, appuyez sur **Rechercher**.
     
 2. Recherchez un contact qui n’existe que dans la liste d’adresses globale.
     
@@ -110,7 +110,7 @@ Pour supprimer l’Skype Entreprise pour Windows Phone de votre appareil mobile 
   
 1. À partir de l’écran d’accueil, effectuez un balayage pour voir la liste des applications. 
     
-2. Appuyez et maintenez la Skype Entreprise pour Windows Phone application, puis sélectionnez **Désinstaller.**
+2. Appuyez et maintenez Skype Entreprise pour Windows Phone application, puis sélectionnez **Désinstaller**.
     
 
 

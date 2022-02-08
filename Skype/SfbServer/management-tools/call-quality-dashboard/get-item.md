@@ -1,8 +1,8 @@
 ---
 title: Obtenir l’élément
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 'Résumé : Découvrez l’opération Obtenir un élément, qui fait partie du service d’élément. Le service d’élément fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 1818bb0538fdc02d77c731cad7404643dc84fe28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c99e848860d12b77a13dbf453298dc697cd2a665
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861231"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390986"
 ---
 # <a name="get-item"></a>Obtenir l’élément
  
@@ -32,7 +32,7 @@ Obtenir l’élément renvoie un élément spécifique dans le référentiel.
   
 |**Méthode**|**URI de demande**|**HTTP Version**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
    
  **Paramètres d’URI** - Aucun.
   
@@ -62,7 +62,7 @@ Obtenir l’élément renvoie un élément spécifique dans le référentiel.
   
  *userId*  : ID de l’utilisateur propriétaire de cet élément.
   
- *content*  - Contenu propre à l’application.
+ *contenu*  - Contenu propre à l’application.
   
  *type*  : type du contenu. Ce champ est définie par les applications.
   

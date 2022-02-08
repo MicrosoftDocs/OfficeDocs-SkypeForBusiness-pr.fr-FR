@@ -1,8 +1,8 @@
 ---
 title: Configuration de conversation permanente – Page principale
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,21 +15,21 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 description: Votre déploiement de serveur de conversation permanente peut héberger plusieurs salles de conversation permanente simultanées. Les salles de conversation peuvent être organisées en un ensemble de catégories sur le serveur. Chaque salle de conversation appartient à une catégorie et hérite de certains paramètres de cette catégorie. Cette organisation crée une structure utile pour l’identification des conversations en fonction de leur objectif professionnel et simplifie la délégation de l’administration ainsi que la gestion.
-ms.openlocfilehash: b0a193fd5b8c56e1f6833328b8670c482bd7a5e7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 68021d7c443e85dc8e9c8986076acfa5b9307cc8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835522"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392846"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>Configuration de conversation permanente – Page principale
  
 Votre déploiement de serveur de conversation permanente peut héberger plusieurs salles de conversation permanente simultanées. Les salles de conversation peuvent être organisées en un ensemble de catégories sur le serveur. Chaque salle de conversation appartient à une catégorie et hérite de certains paramètres de cette catégorie. Cette organisation crée une structure utile pour l’identification des conversations en fonction de leur objectif professionnel et simplifie la délégation de l’administration ainsi que la gestion.
   
 > [!NOTE]
-> Bien que de nombreuses fonctionnalités de gestion des salles de conversation soient disponibles sur les ordinateurs exécutant la conversation permanente pour l’utilisateur, les administrateurs de conversation permanente (dans le rôle **cspersistentchatadministrator)** doivent utiliser le panneau de contrôle ou les applets de commande de l’environnement de ligne de commande Pour créer ou gérer des catégories.
+> Bien que de nombreuses fonctionnalités de gestion des salles de conversation soient disponibles sur les ordinateurs exécutant la conversation permanente pour l’utilisateur, les administrateurs de conversation permanente (dans le rôle **cspersistentchatadministrator** ) doivent utiliser le panneau de contrôle ou les applets de commande de l’environnement de ligne de commande Pour créer ou gérer des catégories.
   
-Les administrateurs de conversation permanente utilisent le Panneau de Skype Entreprise Server ou des cmdlets Windows PowerShell pour créer et gérer des catégories et pour concevoir l’accès aux salles de conversation pour les utilisateurs de leur organisation.
+Les administrateurs de conversation permanente utilisent le Panneau de Skype Entreprise Server ou des cmdlets Windows PowerShell pour créer et gérer des catégories, et pour concevoir l’accès aux salles de conversation pour les utilisateurs de leur organisation.
   
 Les responsables de salles de conversation permanente, qui ont la possibilité de gérer une ou plusieurs salles de conversation, peuvent utiliser le client pour lancer une application Web de gestion de salle pour créer et gérer des salles (ou les clients peuvent créer des solutions et des flux de travail personnalisés à appeler). 
   
@@ -61,16 +61,16 @@ Vous pouvez effectuer les tâches suivantes dans la page **Configuration** de la
 
 1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator ou CsAdministrator est assigné, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
     
-2. Dans le menu **Démarrer,** sélectionnez Skype Entreprise Server panneau de Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
+2. Dans le menu **Démarrer**, sélectionnez Skype Entreprise Server panneau de Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conversation permanente**, puis sur **Configuration de la conversation permanente**.
     
-4. Dans la page **Configuration de la conversation permanente,** cliquez sur **Nouveau,** puis sur **Configuration du site.**
+4. Dans la page **Configuration de la conversation permanente** , cliquez **sur Nouveau,** puis sur **Configuration du site**.
     
     > [!IMPORTANT]
     > Choisissez cette option si vous souhaitez que la configuration soit appliquée à tous les pools de serveurs de conversation permanente déployés sur le site. Cliquez **sur Configuration du pool** si vous souhaitez que la configuration soit appliquée à un pool de serveurs de conversation permanente spécifique.
   
-5. Dans **Sélectionner un site,** sélectionnez le site à configurer pour la configuration du site serveur de conversation permanente.
+5. Dans **Sélectionner un site**, sélectionnez le site à configurer pour la configuration du site serveur de conversation permanente.
     
 6. Dans **Nouvelle configuration de conversation permanente**, procédez comme suit :
     
@@ -95,13 +95,13 @@ Vous pouvez effectuer les tâches suivantes dans la page **Configuration** de la
 
 1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator ou CsAdministrator est assigné, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
     
-2. Dans le menu **Démarrer,** sélectionnez Skype Entreprise Server panneau de Skype Entreprise Server, ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
+2. Dans le menu **Démarrer**, sélectionnez Skype Entreprise Server panneau de Skype Entreprise Server, ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conversation permanente**, puis sur **Configuration de la conversation permanente**.
     
 4. Dans la page **Configuration de la conversation permanente**, cliquez sur **Nouveau**, puis sur **Configuration du pool**.
     
-5. Dans **Sélectionner un service,** sélectionnez le service associé au pool de serveurs de conversation permanente à configurer.
+5. Dans **Sélectionner un service**, sélectionnez le service associé au pool de serveurs de conversation permanente à configurer.
     
 6. Dans **Nouvelle configuration de conversation permanente**, procédez comme suit :
     
@@ -124,6 +124,6 @@ Vous pouvez effectuer les tâches suivantes dans la page **Configuration** de la
     
 ## <a name="see-also"></a>Voir aussi
 
-Pour plus d’informations sur les fonctionnalités et les fonctionnalités du serveur de conversation permanente, voir [Plan for Persistent Chat Server in Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), Deploy Persistent Chat Server in Skype Entreprise Server [2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)et [Manage Persistent Chat Server in Skype Entreprise Server 2015](../../manage/persistent-chat/persistent-chat.md).
+Pour plus d’informations sur les fonctionnalités et les fonctionnalités du serveur de conversation permanente, voir [Plan for Persistent Chat Server in Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in Skype Entreprise Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md), and [Manage Persistent Chat Server in Skype Entreprise Server 2015 ](../../manage/persistent-chat/persistent-chat.md).
   
 

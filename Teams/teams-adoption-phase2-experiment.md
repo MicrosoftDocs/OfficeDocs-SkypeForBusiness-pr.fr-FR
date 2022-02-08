@@ -1,7 +1,7 @@
 ---
 title: Phase 2 de l’adoption de Microsoft Teams - Expérimenter
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882b842e0906426e46132c0a1de10cef5762ea72
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ca77fd910e5b9ada76f7e0fa224e7f1813919222
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865563"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390786"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Phase 2 de l’adoption de Microsoft Teams - Expérimenter
 
@@ -34,11 +34,11 @@ Vous êtes maintenant disposé avec une grande équipe de projet et des informat
 
 Vous devez effectuer les étapes suivantes au cours de cette phase :
 
-1. [Créez votre programme Champions.](teams-adoption-create-champions-program.md)
-2. [Terminez votre démarrage rapide de gouvernance.](teams-adoption-governance-quick-start.md)
-3. [Définissez vos cas d’utilisation.](teams-adoption-define-usage-scenarios.md)
-4. [Finaliser les participants au programme des utilisateurs précoces.](teams-adoption-onboard-early-adopters.md)
-5. [Configurer vos canaux de commentaires.](teams-adoption-onboard-early-adopters.md#gather-feedback)
-6. [Faites venir votre équipe de support technique.](teams-adoption-onboard-support.md)
+1. [Créez votre programme Champions](teams-adoption-create-champions-program.md).
+2. [Terminez votre démarrage rapide de gouvernance](teams-adoption-governance-quick-start.md).
+3. [Définissez vos cas d’utilisation](teams-adoption-define-usage-scenarios.md).
+4. [Finaliser les participants au programme des utilisateurs précoces](teams-adoption-onboard-early-adopters.md).
+5. [Configurer vos canaux de commentaires](teams-adoption-onboard-early-adopters.md#gather-feedback).
+6. [Amenez votre équipe de support technique dans le panneau](teams-adoption-onboard-support.md).
 
 ![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Créer votre [programme Champions](teams-adoption-create-champions-program.md)

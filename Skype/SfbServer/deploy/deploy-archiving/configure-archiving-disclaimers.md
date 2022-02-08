@@ -1,8 +1,8 @@
 ---
 title: Configurer des clauses d’exclusion de responsabilité d’archivage pour les utilisateurs externes dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer une clause d’exclusion de responsabilité d’archivage pour Skype Entreprise Server.'
-ms.openlocfilehash: 05eaec40556b383525331405463ee6d0a10e0a13
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d607bf05d1aca413194a793ed08f84ca57c16f96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834712"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392276"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Configurer des clauses d’exclusion de responsabilité d’archivage pour les utilisateurs externes dans Skype Entreprise Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "60834712"
   
 Si votre organisation communique avec des partenaires externes, vous devez leur faire savoir que vous archivez les communications avec eux. Lorsque vous déployez un serveur Edge et activez la fédération pour votre organisation, vous êtes invité à envoyer automatiquement une clause d’exclusion de responsabilité d’archivage à des partenaires externes. 
   
-Si vous devez modifier cette configuration, vous pouvez utiliser le Panneau de configuration Skype Entreprise Server ou l’Windows PowerShell cmdlet **Set-CsAccessEdgeConfiguration.** Les cmdlets peuvent être exécutés à partir de l’Skype Entreprise Server de gestion ou d’une session distante de Windows PowerShell.
+Si vous devez modifier cette configuration, vous pouvez utiliser le Panneau de configuration Skype Entreprise Server ou l’Windows PowerShell Cmdlet **Set-CsAccessEdgeConfiguration**. Les cmdlets peuvent être exécutés à partir de l’Skype Entreprise Server de gestion ou d’une session distante de Windows PowerShell.
   
 Pour permettre aux utilisateurs externes de collaborer avec des utilisateurs dans votre déploiement Skype Entreprise Server, vous devez également configurer au moins une stratégie d’accès externe pour prendre en charge l’accès des utilisateurs externes. Pour plus d’informations, voir Manage XMPP Federated Partners for Your Organization. Pour plus d’informations sur le contrôle d’accès pour des domaines fédérés spécifiques, voir Control Access by Individual Federated Domains.
   
@@ -39,7 +39,7 @@ Pour permettre aux utilisateurs externes de collaborer avec des utilisateurs dan
     
 4. Dans l’onglet **Configuration du serveur Edge d’accès**, cliquez sur **Global**, **Modifier**, puis sur **Afficher les détails**.
     
-5. Dans Modifier la **configuration** du edge d’accès, sous  Activer la fédération et la connectivité **DE** messagerie instantanée publique, activez ou désactivez la case à cocher Envoyer la clause d’exclusion de responsabilité d’archivage aux partenaires fédérés pour activer ou désactiver l’envoi automatique de la clause d’exclusion de responsabilité d’archivage.
+5. Dans Modifier la **configuration** du edge d’accès, sous Activer la fédération et la connectivité **DE** messagerie  instantanée publique, activez ou désactivez la case à cocher Envoyer la clause d’exclusion de responsabilité d’archivage aux partenaires fédérés pour activer ou désactiver l’envoi automatique de la clause d’exclusion de responsabilité d’archivage.
     
 6. Cliquez sur **Valider**.
     

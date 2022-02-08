@@ -5,8 +5,8 @@ ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)
 ms:contentKeyID: 48679566
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Découvrez comment configurer la prise en charge pour les utilisateurs de fournisseurs fédérés SIP.
-ms.openlocfilehash: a5812eafc92e466306d7047d2adb48338bef783d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b6a28714ec3ad81470f362f49605d0be4805dbe2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837576"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392556"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Gérer les fournisseurs fédérés SIP pour votre organisation dans Skype Entreprise Server
 
@@ -36,9 +36,9 @@ Pour configurer la prise en charge pour les utilisateurs des fournisseurs fédé
 
 La connectivité de messagerie instantanée publique permet aux utilisateurs de votre organisation d’utiliser la messagerie instantanée pour communiquer avec les utilisateurs des services de messagerie instantanée fournis par des fournisseurs publics.
 
-Skype Entreprise Server des configurations de fournisseur public pour la messagerie instantanée. Chaque fournisseur public est configuré avec le nom de domaine complet du serveur Edge du fournisseur et le niveau de vérification par défaut permet aux utilisateurs de communiquer uniquement avec les personnes de leur liste de contacts qui utilisent ce **fournisseur.**
+Skype Entreprise Server a des configurations de fournisseur public pour la messagerie instantanée. Chaque fournisseur public est configuré avec le nom de domaine complet du serveur Edge du fournisseur et le niveau de vérification par défaut permet aux utilisateurs de communiquer uniquement avec les personnes de leur liste de contacts qui utilisent ce **fournisseur**.
 
-Par défaut, aucun des fournisseurs publics n’est activé. Terminez le travail relatif au contrat de licence et à l’approvisionnement avant d’activer les fournisseurs publics. Vous pouvez activer le fournisseur avant de terminer le travail relatif au contrat de licence et à l’approvisionnement. Les utilisateurs ne pourront pas communiquer avec leurs contacts situés chez ces fournisseurs tant que le travail préalable ne sera pas terminé. Pour plus d’informations sur la gestion des licences et l’approvisionnement des fournisseurs publics, voir Configurer des stratégies pour contrôler les accès [des utilisateurs publics.](../external-access-policies/configure-policies-to-control-public-user-access.md)
+Par défaut, aucun des fournisseurs publics n’est activé. Terminez le travail relatif au contrat de licence et à l’approvisionnement avant d’activer les fournisseurs publics. Vous pouvez activer le fournisseur avant de terminer le travail relatif au contrat de licence et à l’approvisionnement. Les utilisateurs ne pourront pas communiquer avec leurs contacts situés chez ces fournisseurs tant que le travail préalable ne sera pas terminé. Pour plus d’informations sur la gestion des licences et l’approvisionnement des fournisseurs publics, voir [Configure policies to control public user acces](../external-access-policies/configure-policies-to-control-public-user-access.md).
 
 Utilisez la procédure suivante pour créer ou modifier des fournisseurs publics.
 

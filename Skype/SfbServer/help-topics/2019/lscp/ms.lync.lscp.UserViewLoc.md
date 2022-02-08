@@ -1,8 +1,8 @@
 ---
-title: Affichage ou configuration de la stratégie d’emplacement par les utilisateurs
+title: Les utilisateurs visualisent ou configurent la stratégie d’emplacement
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 5415ce4a2106ac0b27198d62d3c2d643f9da51f4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5d4f871f5b3c481a51b1d33618397f638585fa0b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843327"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391716"
 ---
 # <a name="users-view-or-configure-location-policy"></a>Utilisateurs : afficher ou configurer la stratégie d’emplacement
 

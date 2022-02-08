@@ -1,8 +1,8 @@
 ---
 title: Les utilisateurs visualisent ou configurent la stratégie d’accès externe
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: e31fecf8139b8a44e3d9eab263f03ee384576034
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b08ba074f2ff473a1bade15d5746a8f0a48e9f6c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859481"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391726"
 ---
 # <a name="users-view-or-configure-external-access-policy"></a>Utilisateurs : afficher ou configurer la stratégie d’accès externe
 

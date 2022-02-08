@@ -1,8 +1,8 @@
 ---
 title: Composants et topologies pour le contrôle d’admission des appels dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
-description: Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une ligne SIP ou une passerelle PSTN ou un PBX tiers. S’applique à Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: fe9eb0208787eaef6945ae2ca11935e59e8c7072
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une trunk SIP ou une passerelle PSTN ou un PBX tiers. S’applique à Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: b813e4ae9bf50fd41c048796d9173a74068dd78f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855431"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390916"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Composants et topologies pour le contrôle d’admission des appels dans Skype Entreprise
 
-Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une ligne SIP ou une passerelle PSTN ou un PBX tiers. S’applique à Skype Entreprise Server Voix Entreprise.
+Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une trunk SIP ou une passerelle PSTN ou un PBX tiers. S’applique à Skype Entreprise Server Voix Entreprise.
 
 Les rubriques de cette section donnent des informations sur les considérations spécifiques de déploiement du contrôle d’admission des appels (CAC) avec différents types de topologies réseau.
 
@@ -97,9 +97,9 @@ Cela fonctionne à la fois pour les appels PSTN entrants vers un client dans le 
 
 Cette configuration est similaire au cas 1. Dans les deux cas, le serveur de médiation connaît le périphérique qui arrête le média à l’extrémité opposée de la liaison wan et l’adresse IP de la passerelle PSTN ou du PBX avec point de terminaison multimédia (MTP) est configurée sur le serveur de médiation comme saut suivant.
 
-**Cas 2 : CONTRÔLE D’accès au contrôle d’accès entre le serveur de médiation et un PBX tiers avec MTP**
+**Cas 2 : contrôle d’accès au contrôle d’accès entre le serveur de médiation et un PBX tiers avec MTP**
 
-![Cas 2 : Contrôle d’accès au contrôle d’accès entre pbX du serveur de médiation avec MTP.](../../media/CAC_gateways_2.jpg)
+![Cas 2 : CONTRÔLE D’accès au contrôle d’accès entre le PBX du serveur de médiation avec MTP.](../../media/CAC_gateways_2.jpg)
 
 Dans cet exemple, le service Cac est appliqué entre le serveur de médiation et le PBX/MTP. Si un Skype Entreprise client sur le site réseau 1 passe un appel PSTN via le PBX/MTP situé dans le site réseau 2, le média passe par la liaison wan. Par conséquent, pour chaque session PSTN, deux contrôles d’intégrité du contrôle d’intégrité sont effectués :
 

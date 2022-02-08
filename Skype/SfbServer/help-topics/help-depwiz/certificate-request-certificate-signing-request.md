@@ -1,8 +1,8 @@
 ---
 title: Demande de certificat (demande de signature de certificat)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 description: Pour créer une requête hors connexion, vous devez d'abord créer une demande de signature de certificat (CSR). Tapez le chemin d’accès et le nom du fichier CSR dans la zone de texte Nom de fichier. Vous pouvez cliquer sur Parcourir afin de choisir un emplacement pour créer la demande de signature de certificat. Cliquez sur Suivant pour continuer.
-ms.openlocfilehash: 9a4844b88696a9c9bfcf2896513c7f6b84b5ede3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f8de74c3b672ecc85e08d4fd91853a69d0e0a4a2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838936"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391406"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Demande de certificat (demande de signature de certificat)
  
-Pour créer une requête hors connexion, vous devez d'abord créer une demande de signature de certificat (CSR). Tapez le chemin d’accès et le nom du fichier CSR dans la **zone de** texte Nom de fichier. Vous pouvez cliquer sur **Parcourir** afin de choisir un emplacement pour créer la demande de signature de certificat. Cliquez sur **Suivant** pour continuer.
+Pour créer une requête hors connexion, vous devez d'abord créer une demande de signature de certificat (CSR). Tapez le chemin d’accès et le nom du fichier CSR dans la **zone de texte Nom** de fichier. Vous pouvez cliquer sur **Parcourir** afin de choisir un emplacement pour créer la demande de signature de certificat. Cliquez sur **Suivant** pour continuer.
   
 Cliquez sur **Précédent** pour revenir à l'écran antérieur. Cliquez sur **Annuler** pour quitter sans apporter de modifications au système.
   

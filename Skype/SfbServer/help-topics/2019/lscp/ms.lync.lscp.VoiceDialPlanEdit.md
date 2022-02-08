@@ -1,8 +1,8 @@
 ---
 title: Création d’un plan de numérotation ou modification d’un plan de numérotation existant
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: d18eb086ef07fa287b4584d83da8c49f51d20514
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e8b5f155800fa6b502dd5f1e06d371f0a8a1d3ec
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856901"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391616"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>Plan de numérotation : en créer une autre ou en modifier une existante
 

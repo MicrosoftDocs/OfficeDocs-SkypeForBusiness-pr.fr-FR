@@ -1,7 +1,7 @@
 ---
 title: Intégration des utilisateurs précoces et collecte de commentaires
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a87a6802a538609e9899f2645833a1e9bdab120f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0cbc0f8d77aaa29c7c1d5ba76715840b6a535707
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840726"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390806"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Intégrer des utilisateurs précoces et recueillir des commentaires sur Microsoft Teams
 
@@ -49,4 +49,4 @@ Utilisez les composants des Microsoft 365 ou Office 365 recueillir des commentai
 > Certaines organisations combineront les canaux pour les commentaires des premiers utilisateurs dans l’équipe du programme Champions du travail d’équipe. Il s’agit d’une bonne approche, car de nombreux utilisateurs précoces risquent de devenir des champions à l’avenir et elle permettra de créer une communauté plus forte. 
 
 
-![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : Prise [en charge d’intégration.](teams-adoption-onboard-support.md)
+![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : Prise [en charge de l’intégration](teams-adoption-onboard-support.md).

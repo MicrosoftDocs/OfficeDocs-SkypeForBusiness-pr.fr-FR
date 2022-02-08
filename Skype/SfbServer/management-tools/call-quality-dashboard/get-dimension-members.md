@@ -1,8 +1,8 @@
 ---
 title: Obtenir les membres de dimension
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: 'Résumé : Découvrez l’opération Obtenir les membres de dimension. L’opération Obtenir les membres de dimension fait partie de l’API de données du tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: e8f3cfcfcc11a7c7e7834cf4043f610bb0606931
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a88ae16a3ccf15a60a36805f475894b657641e6e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862201"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391036"
 ---
 # <a name="get-dimension-members"></a>Obtenir les membres de dimension
  
@@ -33,13 +33,13 @@ L’opération Obtenir les membres de dimension renvoie la liste des membres d�
 
 |**Méthode**|**URI de demande**|**HTTP Version**|
 |:-----|:-----|:-----|
-|POST  <br/> |https:// \<portal\> /QoEDataService/DimensionMembers  <br/> |HTTP/1.1  <br/> |
+|POST  <br/> |\<portal\>https:///QoEDataService/DimensionMembers  <br/> |HTTP/1.1  <br/> |
    
  **Paramètres d’URI** - Aucun.
   
  **En-têtes de requête** : aucun en-tête supplémentaire.
   
- **Corps de** la demande : contient le nom de la dimension pour qui nous voulons les membres. En outre, le nombre maximum de membres renvoyés, en plus de vous pouvez spécifier un filtrage pour limiter les membres renvoyés.
+ **Corps de** la demande : contient le nom de dimension pour les membres. En outre, nombre maximum de membres renvoyés, vous pouvez spécifier un filtrage pour limiter les membres renvoyés.
   
 ```json
 {

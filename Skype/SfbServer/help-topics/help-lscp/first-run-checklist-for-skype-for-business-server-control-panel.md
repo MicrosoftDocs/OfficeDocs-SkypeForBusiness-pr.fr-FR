@@ -1,8 +1,8 @@
 ---
 title: Liste de vérification de première exécution pour le panneau de configuration de Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 description: Bienvenue dans le Panneau de Skype Entreprise Server, l’interface utilisateur web pour l’administration et la gestion des Skype Entreprise Server. Vous pouvez utiliser le panneau de contrôle pour effectuer les types de tâches administratives qui ont été effectuées à l’aide de la console de gestion Microsoft dans les versions précédentes.
-ms.openlocfilehash: 987ec6afc4a6e6ed341452857d24354390235250
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 40086a1f38a7b4e8adf8b39bbdfe0e98a9b8e515
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836636"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391896"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Liste de vérification de première exécution pour le panneau de configuration de Skype Entreprise Server
 
@@ -29,7 +29,7 @@ Bienvenue dans le Panneau de Skype Entreprise Server, l’interface utilisateur 
 Il existe un certain nombre de tâches importantes que nous vous recommandons vivement d’effectuer une fois que vous avez déployé Skype Entreprise Server. Certaines de ces tâches sont des étapes de configuration initiales que vous avez peut-être déjà effectuées pendant le déploiement, tandis que d’autres sont des perfectionnements ou des modifications de paramètres que vous avez configurés pendant le déploiement ou de paramètres par défaut. D’autres tâches décrites dans cette rubrique valident les configurations que vous avez effectuées pendant le processus de déploiement.
 
 > [!NOTE]
-> Avant d’effectuer les tâches du tableau suivant, veillez à vous connecter à l’aide des droits d’utilisateur, autorisations et rôles corrects, comme décrit dans la section « Rôles et étendue » de la rubrique Contrôle d’accès basé sur un rôle. [](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control)
+> Avant d’effectuer les tâches du tableau suivant, veillez à vous connecter à l’aide des droits d’utilisateur, autorisations et rôles corrects, comme décrit dans la section [](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) « Rôles et étendue » de la rubrique Contrôle d’accès basé sur un rôle.
 
 ## <a name="first-run-checklist"></a>Liste de vérification de première exécution
 

@@ -1,8 +1,8 @@
 ---
 title: Configurer un VTC pour l’interopération avec Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: 'Résumé : Configurez les périphériques VTC pour qu’ils fonctionnent Skype Entreprise Server.'
-ms.openlocfilehash: f3804c0d7f86710fbefa9477d6cf1790b0f16af9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8044e2038ebb8e9c1b68b5b91473e9e57dd1fb7a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861801"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389656"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>Configurer un VTC pour l’interopération avec Skype Entreprise Server
  
@@ -30,7 +30,7 @@ Les paramètres décrits ici ne sont destinés qu’à des exemples de la façon
   
 ### <a name="configure-a-vtc-registered-with-cucm"></a>Configurer un VTC enregistré avec CUCM
 
-1. Connectez-vous à l’appareil Cisco VTC et accédez à Configuration - Configuration du système \> - \> Approvisionnement.
+1. Connectez-vous à l’appareil Cisco VTC et accédez à Configuration-System\> Configuration-Provisioning\>.
     
 2. Vérifiez les paramètres suivants, en corrigeant selon vos besoins : 
     
@@ -40,7 +40,7 @@ Les paramètres décrits ici ne sont destinés qu’à des exemples de la façon
    |Adresse externalManager  <br/> | FQDN de CUCM <br/> |
    | Domaine ExternalManager <br/> |Domaine CUCM  <br/> |
    
-3. Accédez à Configuration - \> Configuration du système - \> Réseau.
+3. Accédez à Configuration-System\> Configuration-Network\>.
     
 4. Vérifiez les paramètres suivants, en corrigeant selon vos besoins : 
     
@@ -49,9 +49,9 @@ Les paramètres décrits ici ne sont destinés qu’à des exemples de la façon
    |Nom de domaine DNS  <br/> | Nom de domaine CUCM <br/> |
    |Adresse du serveur DNS 1  <br/> | votre adresse de serveur DNS souhaitée <br/> |
    
-5. Accédez à Configuration - \> Configuration du système - Services \> réseau. Assurez-vous que le mode H.323 est désactivé et que le mode SIP est allumé. 
+5. Accédez à Configuration-System\> Configuration-Network\> Services. Assurez-vous que le mode H.323 est désactivé et que le mode SIP est allumé. 
     
-6. Ces options sont définies automatiquement lorsque le point de terminaison est enregistré avec CUCM. Vérifiez les paramètres suivants, en corrigeant selon vos besoins : 
+6. Ces options sont définies automatiquement lorsque le point de terminaison est inscrit auprès de CUCM. Vérifiez les paramètres suivants, en corrigeant selon vos besoins : 
     
    |**Paramètre**|**Valeur recommandée**|
    |:-----|:-----|
@@ -62,7 +62,7 @@ Les paramètres décrits ici ne sont destinés qu’à des exemples de la façon
    |WelcomeText  <br/> | Activé <br/> |
    |XMLAPI Mode  <br/> | Activé <br/> |
    
-7. Accédez à Configuration - \> Configuration système \> - SIP.
+7. Accédez à Configuration-System\> Configuration-SIP\>.
     
 8. Vérifiez les paramètres suivants, en corrigeant selon vos besoins : 
     
@@ -78,9 +78,9 @@ Les paramètres décrits ici ne sont destinés qu’à des exemples de la façon
 Le VTC est maintenant configuré pour l’interopération. Avant que le service puisse commencer, il existe des étapes finales à effectuer côté CUCM.
 ### <a name="configure-vtc-devices-on-cucm"></a>Configurer des périphériques VTC sur CUCM
 
-1. Connectez-vous au CUCM et accédez à Administration CM unifiée Cisco \> - Appareil - \> Téléphone- \> Rechercher. 
+1. Connectez-vous au CUCM et accédez à Administration CM unifiée Cisco-Device-Téléphone-Find\>\>\>. 
     
-2. Sélectionnez l’appareil VTC à configurer. Vérifiez les paramètres suivants sur l’écran Téléphone configuration, en corrigeant selon vos besoins. Une fois ces paramètres modifiés ou vérifiés, cliquez sur **Enregistrer.**
+2. Sélectionnez l’appareil VTC à configurer. Vérifiez les paramètres suivants sur l’écran Téléphone configuration, en corrigeant selon vos besoins. Une fois ces paramètres modifiés ou vérifiés, cliquez sur **Enregistrer**.
     
    |**Paramètre**|**Valeur recommandée**|
    |:-----|:-----|
@@ -89,7 +89,7 @@ Le VTC est maintenant configuré pour l’interopération. Avant que le service 
    |Informations sur l’appareil : espace de recherche d’appel  <br/> | CSS_SfBVideoInterop <br/> |
    |Informations sur l’appareil : espace de recherche d’appel AAR  <br/> | CSS_SfBVideoInterop <br/> |
    |Informations sur l’appareil - Liste des groupes de ressources multimédias  <br/> | MRGL_SfBVideoInterop <br/> |
-   |Informations spécifiques au protocole : profil de sécurité de l’appareil  <br/> | Cisco Telepresence Codec C40 <br/> |
+   |Informations spécifiques au protocole : profil de sécurité des appareils  <br/> | Cisco Telepresence Codec C40 <br/> |
    |Informations spécifiques au protocole : réroutage de l’espace de recherche d’appel  <br/> | CSS_SfBVideoInterop <br/> |
    |Informations spécifiques au protocole : espace de recherche d’appel SUBSCRIBE  <br/> | CSS_SfBVideoInterop <br/> |
    |Informations spécifiques au protocole - Profil SIP  <br/> | Profil SIP standard pour le point de terminaison de téléprésence <br/> |
@@ -103,12 +103,12 @@ Le VTC est maintenant configuré pour l’interopération. Avant que le service 
    |**Paramètre**|**Valeur recommandée**|
    |:-----|:-----|
    | Informations sur le numéro de répertoire - Partition de l’itinéraire <br/> | SfBVideoInterop_RoutePartition <br/> |
-   |Numéro d’annuaire Paramètres - Appel de l’espace de recherche  <br/> | CSS_SfBVideoInterop <br/> |
-   |Alternate Party and Confidential Access Level Paramètres - MLPP Calling Search Space  <br/> | CSS_SfBVideoInterop <br/> |
+   |Numéro d’annuaire Paramètres - Espace de recherche d’appel  <br/> | CSS_SfBVideoInterop <br/> |
+   |Niveau d’accès confidentiel et tiers MLPP Paramètres - Espace de recherche d’appel MLPP  <br/> | CSS_SfBVideoInterop <br/> |
    |Ligne 1 sur l’appareil - Affichage (ID de l’appelant)  <br/> | Comme vous le souhaitez <br/> |
    |Ligne 1 sur l’appareil - Affichage ASCII (ID de l’appelant)  <br/> | Comme vous le souhaitez <br/> |
    
-5. Lorsque vous avez terminé, faites défiler vers le haut de l’écran et appuyez sur **Enregistrer.** 
+5. Lorsque vous avez terminé, faites défiler vers le haut de l’écran et appuyez sur **Enregistrer**. 
     
 La configuration est maintenant terminée pour cet appareil VTC. Vous devrez répéter ce processus pour les autres périphériques VTC de votre entreprise.
 

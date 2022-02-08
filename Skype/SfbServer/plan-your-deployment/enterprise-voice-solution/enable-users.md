@@ -1,8 +1,8 @@
 ---
 title: Activer les utilisateurs pour E9-1-1 dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
 description: Décisions nécessaires à la stratégie d’emplacement pour un déploiement E9-1-1 dans Skype Entreprise Server Voix Entreprise, y compris les utilisateurs à activer et la prise en charge des utilisateurs itinérants.
-ms.openlocfilehash: 631c74f8ee4d91f1a70f1d2edbfa129602913a6f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 877e813df4d1ace9084586702836db96dbb149a5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844137"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392426"
 ---
 # <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>Activer les utilisateurs pour E9-1-1 dans Skype Entreprise Server
  
@@ -41,6 +41,6 @@ Skype Entreprise Server pouvez affecter une stratégie d’emplacement à des cl
     
  **Quand des clients se trouvent en dehors du réseau ou se connectent à partir d’un sous-réseau non défini, ces clients doivent-ils bénéficier du service E9-1-1 ?**
   
-> Si une stratégie d’emplacement globale, de site ou par utilisateur est attribuée aux utilisateurs, ils peuvent être tenus d’entrer manuellement un emplacement dans le client si le client n’est pas situé dans un sous-réseau défini ou si aucun emplacement n’a été trouvé par le service Informations d’emplacement. Pour plus d’informations, voir [Définir l’expérience utilisateur pour](manually-acquiring-a-location.md)l’acquisition manuelle d’un emplacement dans Skype Entreprise Server .
+> Si une stratégie d’emplacement globale, de site ou par utilisateur est attribuée aux utilisateurs, ils peuvent être tenus d’entrer manuellement un emplacement dans le client si le client ne se trouve pas dans un sous-réseau défini ou si aucun emplacement n’a été trouvé par le service Informations d’emplacement. Pour plus d’informations, voir [Définir l’expérience utilisateur pour](manually-acquiring-a-location.md) l’acquisition manuelle d’un emplacement dans Skype Entreprise Server.
     
 

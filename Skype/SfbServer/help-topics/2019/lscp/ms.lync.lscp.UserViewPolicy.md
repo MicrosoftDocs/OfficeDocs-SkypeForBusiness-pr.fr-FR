@@ -1,8 +1,8 @@
 ---
 title: Les utilisateurs visualisent la stratégie de voix
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f259a753-cfdc-4fa7-ba35-6fb812e1552a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 081c82504083e997a5a8b368c38ff55427ebe765
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 19eaa80b768cf36d4ba886083cf9cfeabdca4194
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844757"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391676"
 ---
 # <a name="users-view-voice-policy"></a>Utilisateurs : afficher une stratégie de voix
 

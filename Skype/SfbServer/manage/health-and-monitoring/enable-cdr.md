@@ -1,8 +1,8 @@
 ---
 title: Activer l’enregistrement des détails des appels dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 'Résumé : Découvrez comment activer les enregistrements des détails des appels dans Skype Entreprise Server.'
-ms.openlocfilehash: 7c987eccb9e75d1dc71f98e3cebea4003432523c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bb041b82a32c4e3c03a62faf1129a066db5f9448
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863581"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390186"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Activer l’enregistrement des détails des appels dans Skype Entreprise Server
 
@@ -30,7 +30,7 @@ Procédez comme suit pour activer l’enregistrement des détails des appels dan
 > [!NOTE]
 > Pour activer l’enregistrement des détails des appels, vous devez configurer la surveillance et une base de données de surveillance. Pour plus d’informations, voir [Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring).
 
-### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>Pour activer l’cdr avec Skype Entreprise Server panneau de commande
+### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>Pour activer l’cdr avec Skype Entreprise Server de contrôle
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou qui dispose de droits d’utilisateur équivalents) ou affecté au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à tout ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Skype Entreprise Server.
 
@@ -45,7 +45,7 @@ Procédez comme suit pour activer l’enregistrement des détails des appels dan
 
 ## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Activation de l’cdr à l’Windows PowerShell cmdlets
 
-Vous pouvez activer l’Windows PowerShell à l’aide de **l’Windows PowerShell set-CsCdrConfiguration.** Vous pouvez exécuter cette cmdlet à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Le processus est le même dans Skype Entreprise Server.
+Vous pouvez activer l’Windows PowerShell à l’aide de **l’Windows PowerShell set-CsCdrConfiguration**. Vous pouvez exécuter cette cmdlet à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distants pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Le processus est le même dans Skype Entreprise Server.
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>Pour activer l’enregistrement des détails des appels pour un seul site
 
@@ -71,7 +71,7 @@ Vous pouvez activer l’Windows PowerShell à l’aide de **l’Windows PowerShe
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 
-Pour plus d’informations, voir la rubrique d’aide de [l';set-CsCdrConfiguration.)](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
+Pour plus d’informations, voir la rubrique d’aide de l'; [set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .)
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,8 +1,8 @@
 ---
 title: 'Prise en charge de la virtualisation Skype Entreprise Server 2019 '
 ms.reviewer: corbinm
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 06/04/2020
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Résumé : Découvrez la prise en charge de la virtualisation pour Skype Entreprise Server 2019.'
-ms.openlocfilehash: 73e9121e2b530e44395aefda50082682fb910e7d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 87263c4204cddbcd5e64cfeb6709b88bb94c2a60
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853778"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392256"
 ---
 # <a name="virtualization-support-for-skype-for-business-server-2019"></a>Prise en charge de la virtualisation Skype Entreprise Server 2019
 
@@ -45,10 +45,10 @@ Pour les hyperviseurs tiers, vous avez besoin d’un hyperviseur qui a réussi l
 
 ## <a name="stress-and-performance-tool"></a>Outil Stress and performance
 
-L Skype Entreprise Server 2019 Stress and Performance Tool inclut des outils qui simplifient la planification de la capacité Skype Entreprise Server 2019. L Skype Entreprise Server 2019 Stress and Performance Tool vous aidera à :
+L Skype Entreprise Server 2019 Stress and Performance Tool inclut des outils qui simplifient la planification de la capacité pour Skype Entreprise Server 2019. L Skype Entreprise Server 2019 Stress and Performance Tool vous aidera à :
 
 - Simplifier la planification matérielle pour Skype Entreprise Server 2019
 - Vous fournir des connaissances accrues et des meilleures pratiques pour l’optimisation des performances
 - Mesurer les performances de vos déploiements Skype Entreprise Server 2019
  
-Vous pouvez télécharger l’outil à partir [d’ici.](https://www.microsoft.com/download/details.aspx?id=101447)
+Vous pouvez télécharger l’outil à partir [d’ici](https://www.microsoft.com/download/details.aspx?id=101447).

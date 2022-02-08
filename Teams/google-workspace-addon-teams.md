@@ -1,7 +1,7 @@
 ---
 title: Configurer le Microsoft Teams de réunion pour Google Workspace
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aravin
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5b3d873dd327be4cbc28d4d979ad06cb6f9c9ea
-ms.sourcegitcommit: 9ed5aecbf671accae93ac5084ad7875e82e3858b
+ms.openlocfilehash: b93fecea83a4fb44a19f490af514626a0d17f3ff
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/31/2021
-ms.locfileid: "61648882"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388986"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurer le Microsoft Teams de réunion pour Google Workspace
 
@@ -39,13 +39,13 @@ L’option d’ajout est activée par défaut.
 
 1. Connectez-vous au portail Azure.
 
-2. Sélectionnez **Enterprise toutes les**  >  **applications.**
+2. Sélectionnez **Enterprise applicationsAll** >  **applications**.
 
-3. Recherchez **Microsoft Teams le module ajouté à une réunion pour Google Workspace.**
+3. Recherchez **Microsoft Teams le module-module de réunion pour Google Workspace**.
 
    ![Portail Azure affichant toutes les applications.](media/aad-add-google-workspace.png)
 
-4. Sélectionnez **Oui.**
+4. **Sélectionnez Oui**.
 
    ![Portail Azure affichant les propriétés de l’espace de travail Google.](media/google-workspace-properties.png)
 
@@ -73,7 +73,7 @@ if ($servicePrincipal) {
 }
 ```
 
-Pour plus d’informations, [voir Créer un principal de service Azure avec Azure PowerShell.](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)
+Pour plus d’informations, [voir Créer un principal de service Azure avec Azure PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0).
 
 ## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Supprimer le Microsoft Teams de réunion pour Google Workspace
 

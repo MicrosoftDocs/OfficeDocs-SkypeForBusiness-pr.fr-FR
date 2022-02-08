@@ -1,8 +1,8 @@
 ---
 title: Gérer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,21 +13,21 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Résumé : Découvrez comment gérer la haute disponibilité et la récupération d’urgence du serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: bf24bbb7f8672f0bc3a75b83f4f57320dc975092
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5823d4aa9df744c8a7e0b133f7e4798ddcf712c8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860011"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392476"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Gérer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015
  
 **Résumé :** Découvrez comment gérer la haute disponibilité et la récupération d’urgence du serveur de conversation permanente dans Skype Entreprise Server 2015.
   
-Cette rubrique décrit comment faire échouer et faire échouer le serveur de conversation permanente. Avant de lire cette rubrique, veillez à lire Planifier la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans [Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) et à configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans [Skype Entreprise Server 2015.](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+Cette rubrique décrit comment faire échouer et faire échouer le serveur de conversation permanente. Avant de lire cette rubrique, veillez à lire Planifier la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans [Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) et à configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente [dans Skype Entreprise Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
 
 > [!NOTE]
-> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
   
 ## <a name="fail-over-persistent-chat-server"></a>Faire échouer le serveur de conversation permanente
 
@@ -37,7 +37,7 @@ La procédure de failover repose sur l’hypothèse que le centre de données se
   
 - La base de données principale du serveur de conversation permanente et la base de données miroir du serveur de conversation permanente sont en panne.
     
-- Skype Entreprise Server Le serveur frontal est en panne.
+- Skype Entreprise Server serveur frontal est en panne.
     
 La procédure consiste en deux étapes de base :
   
@@ -63,7 +63,7 @@ Pour faire échouer le serveur de conversation permanente :
 
 2. Copiez tous les fichiers de sauvegarde non copiés se trouvant sur le partage de sauvegarde vers le dossier de destination de la copie du serveur de sauvegarde.
     
-3. Appliquez dans l’ordre toutes les sauvegardes du journal des transactions non appliquées à la base de données secondaire. Pour plus d’informations, [voir How to: Apply a Transaction Log Backup (Transact-SQL).](/previous-versions/sql/sql-server-2008-r2/ms187607(v=sql.105))
+3. Appliquez dans l’ordre toutes les sauvegardes du journal des transactions non appliquées à la base de données secondaire. Pour plus d’informations, [voir How to: Apply a Transaction Log Backup (Transact-SQL).](/previous-versions/sql/sql-server-2008-r2/ms187607(v=sql.105)).
     
 4. Mettez en ligne la base de données mgc de sauvegarde. Dans la fenêtre de requête ouverte à l’étape 1b, procédez comme suit :
     
@@ -75,7 +75,7 @@ Pour faire échouer le serveur de conversation permanente :
     
    - Mettez en ligne la base de données :
     
-   - **restaurer la base de données mgc avec récupération.**
+   - **restaurer la base de données mgc avec récupération**.
     
 5. Dans Skype Entreprise Server Management Shell, utilisez la commande **Set-CsPersistentChatState -Identity « service:atl-cs-001.litwareinc.com » -PoolState FailedOver** pour faire échouer la base de données de sauvegarde mgc. N’oubliez pas de remplacer le nom de domaine complet de votre pool de conversation permanente par atl-cs-001.litwareinc.com.
     
@@ -135,7 +135,7 @@ Ces étapes visent à récupérer la configuration telle qu’elle existait avan
     
    - Acceptez le nom du jeu de sauvegarde par défaut suggéré dans **Nom** ou entrez un autre nom pour le jeu de sauvegarde.
     
-   -  *\<Optional\>*  Dans **Description,** entrez une description du jeu de sauvegarde.
+   -  *\<Optional\>*  Dans **Description**, entrez une description du jeu de sauvegarde.
     
    - Supprimez l’emplacement de sauvegarde par défaut de la liste de destination.
     
@@ -163,7 +163,7 @@ Ces étapes visent à récupérer la configuration telle qu’elle existait avan
     
    - Cliquez sur **OK** pour lancer le processus de restauration.
     
-5. Configurez la SQL Server des journaux de livraison pour la base de données principale. Suivez les procédures de la procédure de configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente dans [Skype Entreprise Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) pour établir la livraison des journaux pour la base de données mgc principale.
+5. Configurez la SQL Server des journaux de livraison pour la base de données principale. Suivez les procédures de [configure high availability and disaster recovery for Persistent Chat Server in Skype Entreprise Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) to establish log shipping for the primary mgc database.
     
 6. Définissez les serveurs actifs du serveur de conversation permanente. À partir Skype Entreprise Server Management Shell, utilisez l’applet de commandes **Set-CsPersistentChatActiveServer** pour définir la liste des serveurs actifs.
     
@@ -176,4 +176,4 @@ Pour restaurer l’état normal du pool, exécutez la commande Windows PowerShel
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 ```
 
-Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Set-CsPersistentChatState.](/powershell/module/skype/set-cspersistentchatstate?view=skype-ps)
+Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Set-CsPersistentChatState](/powershell/module/skype/set-cspersistentchatstate?view=skype-ps) .

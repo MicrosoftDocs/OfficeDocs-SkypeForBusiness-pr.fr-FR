@@ -1,7 +1,7 @@
 ---
 title: Teams comportement des applications pour les utilisateurs non standard
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 957574b112c0fbb8fc7efc4fedf726fa7395f4b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 621614b9fc3d46d4629ce8b62dbbcc7b579698db
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846087"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390826"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams comportement des applications pour les utilisateurs non standard
 
@@ -33,9 +33,9 @@ Cet article décrit le comportement des applications dans Teams lorsque des util
 - Un **utilisateur externe (fédéré)** appartient à un autre domaine et n’a pas accès aux équipes ou ressources d’équipe de votre organisation.
 
   > [!Note]
-  > Pour une comparaison plus détaillée des utilisateurs invités et externes, voir [Communiquer avec des utilisateurs d’autres organisations.](./communicate-with-users-from-other-organizations.md)
+  > Pour une comparaison plus détaillée des utilisateurs invités et externes, voir [Communiquer avec des utilisateurs d’autres organisations](./communicate-with-users-from-other-organizations.md).
 
-- Un **utilisateur anonyme** est un concept qui existe Teams réunions au cours des laquelle l’utilisateur a rejoint la réunion via un lien. L’utilisateur n’est pas connecté avec son compte Microsoft ou le compte de son organisation.
+- Un **utilisateur anonyme** est un concept dans les Teams à partir des réunions où l’utilisateur a rejoint la réunion via un lien. L’utilisateur n’est pas connecté avec son compte Microsoft ou le compte de son organisation.
 
 ## <a name="guest-users"></a>Utilisateurs invités
 
@@ -80,7 +80,7 @@ Les utilisateurs anonymes ne peuvent pas installer, mettre à jour ou supprimer 
 
 ### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportement et stratégie d’utilisation pour les utilisateurs anonymes
 
-Les utilisateurs anonymes ne peuvent pas utiliser directement des applications dans les réunions. Les utilisateurs natifs peuvent continuer à utiliser les applications de réunion si des utilisateurs anonymes sont présents. Si une application envoie une carte adaptative dans la conversation, les utilisateurs anonymes peuvent interagir avec la carte. Pour plus d’informations, [voir Autoriser les utilisateurs anonymes à participer à des réunions.](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
+Les utilisateurs anonymes ne peuvent pas utiliser directement des applications dans les réunions. Les utilisateurs natifs peuvent continuer à utiliser les applications de réunion si des utilisateurs anonymes sont présents. Si une application envoie une carte adaptative dans la conversation, les utilisateurs anonymes peuvent interagir avec la carte. Pour plus d’informations, voir [Autoriser les utilisateurs anonymes à participer à des réunions](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 Les utilisateurs anonymes héritent de la stratégie d’autorisation globale par défaut au niveau utilisateur. Ils peuvent interagir avec les applications dans Teams réunions si la stratégie d’autorisation au niveau utilisateur a activé l’application. Les utilisateurs anonymes peuvent uniquement interagir avec les applications déjà disponibles dans une réunion et qui ne peuvent pas acquérir et/ou gérer ces applications.
 

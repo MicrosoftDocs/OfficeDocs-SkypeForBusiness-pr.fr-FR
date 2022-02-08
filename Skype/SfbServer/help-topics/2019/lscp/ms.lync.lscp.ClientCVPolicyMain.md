@@ -1,8 +1,8 @@
 ---
 title: Stratégie de version du client
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez spécifier la version des clients pris en charge dans votre environnement. Quand deux clients exécutant des versions distinctes interagissent, les fonctionnalités accessibles à l’un des clients peuvent être limitées par les capacités de l’autre client.
-ms.openlocfilehash: 1a32329574b95ed4b918d5b323bc63f86331f617
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 52282e98cbf7f504dcfdc26dd74f8e4e82cb711c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841846"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391796"
 ---
 # <a name="client-version-policy"></a>Stratégie de version du client
 
@@ -30,7 +30,7 @@ Vous pouvez spécifier la version des clients pris en charge dans votre environn
 
 Vous pouvez effectuer les tâches suivantes dans la page **Stratégie de version du client** :
 
-- Modifiez la **stratégie** de version du client par défaut ( globale).
+- Modifiez **la stratégie de** version du client par défaut (globale).
 
 - Créer des stratégies de version du client pour un site ou un pool particulier.
 

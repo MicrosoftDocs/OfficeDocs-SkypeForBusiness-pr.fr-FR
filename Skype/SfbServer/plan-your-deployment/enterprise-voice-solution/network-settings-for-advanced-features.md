@@ -1,8 +1,8 @@
 ---
 title: Paramètres réseau pour les fonctionnalités Voix Entreprise avancées dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Découvrez les régions réseau, les sites réseau et les sous-réseaux IP. Tous ces éléments doivent être configurés pour déployer le plan de contournement de média dans Skype Entreprise, planifier le contrôle d’admission des appels dans Skype Entreprise Server) ou planifier les services d’urgence dans Skype Entreprise Server dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 50e076cd4be0e0c98b6319a7d0b4ce1a848689cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 77472a77f26139f7a15f0a3820e6fb90a798a5b7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861091"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391876"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Paramètres réseau pour les fonctionnalités Voix Entreprise avancées dans Skype Entreprise Server
 
-Découvrez les régions réseau, les sites réseau et les sous-réseaux IP. Tous ces éléments doivent être configurés pour déployer le plan de contournement de média dans [Skype Entreprise,](media-bypass.md)planifier le contrôle d’admission des appels dans [Skype Entreprise Server](call-admission-control.md)ou planifier les services d’urgence dans [Skype Entreprise Server](emergency-services.md) dans Skype Entreprise Server Voix Entreprise.
+Découvrez les régions réseau, les sites réseau et les sous-réseaux IP. Tous ces éléments doivent être configurés pour déployer [le plan](media-bypass.md) de déviation du média dans Skype Entreprise, planifier le contrôle d’admission des appels dans [Skype Entreprise Server](call-admission-control.md) ou planifier les services d’urgence [dans Skype Entreprise Server](emergency-services.md) Skype Entreprise Server Voix Entreprise.
 
-Skype Entreprise Server offre trois fonctionnalités Voix Entreprise avancées : planifier le contrôle d’admission des appels dans [Skype Entreprise Server,](call-admission-control.md)Planifier les services d’urgence dans [Skype Entreprise Server](emergency-services.md)et Planifier le contournement de média [dans Skype Entreprise](media-bypass.md). Ces fonctionnalités partagent certaines configurations requises pour les régions réseau, les sites réseau et l’association de chaque sous-réseau de la topologie Skype Entreprise Server avec un site réseau.
+Skype Entreprise Server offre trois fonctionnalités Voix Entreprise avancées : Planifier le contrôle [d’admission](call-admission-control.md) des appels dans Skype Entreprise Server, [Planifier les services](emergency-services.md) d’urgence dans Skype Entreprise Server et Planifier les [médias contournement dans Skype Entreprise](media-bypass.md). Ces fonctionnalités partagent certaines exigences de configuration pour les régions réseau, les sites réseau et l’association de chaque sous-réseau de la topologie Skype Entreprise Server avec un site réseau.
 
 Cette rubrique fournit une vue d’ensemble des exigences de configuration communes à ces trois fonctionnalités Voix Entreprise avancées.
 
@@ -36,15 +36,15 @@ Cette rubrique fournit une vue d’ensemble des exigences de configuration commu
 Une région réseau est un concentrateur réseau ou un segment réseau principal utilisé uniquement dans la configuration du service Contrôle d’admission des appels, du système E9-1-1 et du contournement de média.
 
 > [!NOTE]
-> Les régions réseau ne sont pas les mêmes que les régions de conférence Skype Entreprise Server, qui sont requises pour associer des numéros d’accès de conférence à un ou plusieurs plans de numérotation Skype Entreprise Server conférence. Pour plus d’informations sur les régions de conférence rendez-vous, voir [Planning for Dial-In Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-dial-in-conferencing-requirements).
+> Les régions réseau ne sont pas les mêmes que les régions de conférence Skype Entreprise Server, qui sont requises pour associer des numéros d’accès de conférence à un ou plusieurs plans de numérotation Skype Entreprise Server conférence. Pour plus d’informations sur les régions de conférence [rendez-vous, voir Planning for Dial-In Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-dial-in-conferencing-requirements).
 
 Le contrôle d’enregistrement des données exige que chaque région réseau soit associée à un site central Skype Entreprise Server, qui gère le trafic multimédia au sein de la région (autrement dit, il prend des décisions en fonction des stratégies que vous avez configurées, en ce qui concerne la création ou non d’une session audio ou vidéo en temps réel). Skype Entreprise Server sites centraux ne représentent pas des emplacements géographiques, mais plutôt des groupes logiques de serveurs configurés en tant que pool ou ensemble de pools.
 
-Pour configurer une région réseau, vous pouvez utiliser l’onglet **Régions** de la section **Configuration** réseau du Panneau de configuration Skype Entreprise Server ou exécuter les cmdlets **New-CsNetworkRegion** ou **Set-CsNetworkRegion** Skype Entreprise Server Management Shell. Pour obtenir des instructions, voir Déployer des régions [réseau,](../../deploy/deploy-enterprise-voice/deploy-network.md) des sites et des sous-réseaux dans Skype Entreprise dans la documentation de déploiement, ou reportez-vous à la documentation Skype Entreprise Server Management Shell.
+Pour configurer une région réseau, vous pouvez utiliser l’onglet **Régions** de la section **Configuration** réseau du Panneau de configuration Skype Entreprise Server ou exécuter les cmdlets **New-CsNetworkRegion** ou **Set-CsNetworkRegion** Skype Entreprise Server Management Shell. Pour obtenir des instructions, voir Déployer des régions [réseau, des sites](../../deploy/deploy-enterprise-voice/deploy-network.md) et des sous-réseaux dans Skype Entreprise dans la documentation de déploiement, ou consultez la documentation Skype Entreprise Server Management Shell.
 
 Les mêmes définitions de région réseau sont partagées par les trois fonctionnalités Voix Entreprise avancées. Si vous avez créé des régions réseau pour une fonctionnalité, vous n’avez pas besoin d’en créer de nouvelles pour les autres fonctionnalités. Toutefois, il est possible que vous soyez obligé de modifier la définition d’une région réseau existante pour appliquer des paramètres spécifiques à une fonctionnalité. Par exemple, si vous avez créé des régions réseau pour le système E9-1-1 (qui ne nécessite pas de site central associé) et que vous déployez ultérieurement le contrôle d’admission des appels, vous devez modifier chacune des définitions de région réseau pour spécifier un site central.
 
-Pour associer un site central Skype Entreprise Server à une région réseau, vous devez spécifier le nom du site central, soit à l’aide de la section **Configuration** du réseau du Panneau de configuration Skype Entreprise Server, soit en exécutant les cmdlets **New-CsNetworkRegion** ou **Set-CsNetworkRegion.** Pour obtenir des instructions, voir Déployer des régions [réseau,](../../deploy/deploy-enterprise-voice/deploy-network.md) des sites et des sous-réseaux dans Skype Entreprise dans la documentation de déploiement, ou reportez-vous à la documentation Skype Entreprise Server Management Shell.
+Pour associer un site central Skype Entreprise Server à une région réseau, vous devez spécifier le nom du site central, soit à l’aide de la section **Configuration** réseau du Panneau de configuration Skype Entreprise Server, soit en exécutant les cmdlets **New-CsNetworkRegion** ou **Set-CsNetworkRegion**. Pour obtenir des instructions, voir Déployer des régions [réseau, des sites](../../deploy/deploy-enterprise-voice/deploy-network.md) et des sous-réseaux dans Skype Entreprise dans la documentation de déploiement, ou consultez la documentation Skype Entreprise Server Management Shell.
 
 ## <a name="network-sites"></a>Sites réseau
 
@@ -53,7 +53,7 @@ Un site réseau représente un emplacement géographique, tel qu’une succursal
 > [!NOTE]
 > Les sites réseau sont utilisés uniquement par les fonctionnalités Voix Entreprise avancées. Ils ne sont pas identiques aux sites de succursale que vous configurez dans Skype Entreprise Server topologie.
 
-Pour configurer un site réseau et l’associer à une région réseau, vous pouvez utiliser la section **Configuration** réseau du Panneau de configuration Skype Entreprise Server ou exécuter les cmdlets Skype Entreprise Server Management Shell **New-CsNetworkSite** ou **Set-CsNetworkSite.** Pour plus d’informations, voir [Create or Modify a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-network-site) in the Deployment documentation, or refer to the Skype Entreprise Server Management Shell documentation.
+Pour configurer un site réseau et l’associer à une région réseau, vous pouvez utiliser la section **Configuration** réseau du Panneau de configuration Skype Entreprise Server ou exécuter les cmdlets Skype Entreprise Server Management Shell **New-CsNetworkSite** ou **Set-CsNetworkSite**. Pour plus d’informations, voir [Create or Modify a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-network-site) in the Deployment documentation, or refer to the Skype Entreprise Server Management Shell documentation.
 
 ## <a name="identify-ip-subnets"></a>Identifier les sous-réseaux IP
 
@@ -68,7 +68,7 @@ Dans notre exemple, le site New York de la région Amérique du Nord peut se vo
 
 Chaque sous-réseau dans le réseau d’entreprise doit être associé à un site réseau (c’est-à-dire que chaque sous-réseau doit être associé à un emplacement géographique). Cette association de sous-réseaux permet aux fonctionnalités Voix Entreprise avancées de localiser géographiquement les points de terminaison. Par exemple, la localisation des points de terminaison permet au contrôle d’admission des appels de réguler le flux de données audio et vidéo en temps réel qui transitent vers et depuis le site réseau.
 
-Pour associer des sous-réseaux à des sites réseau, vous pouvez utiliser la section **Configuration** réseau du Panneau de configuration Skype Entreprise Server ou utiliser Skype Entreprise Server Management Shell. Pour obtenir des instructions, voir Associer un sous-réseau à un [site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site) réseau dans la documentation de déploiement ou consultez la documentation Skype Entreprise Server Management Shell.
+Pour associer des sous-réseaux à des sites réseau, vous pouvez utiliser la section **Configuration** réseau du Panneau de configuration Skype Entreprise Server ou utiliser Skype Entreprise Server Management Shell. Pour obtenir des instructions, voir [Associer un sous-réseau](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site) à un site réseau dans la documentation de déploiement ou consultez la documentation Skype Entreprise Server Management Shell.
 
 ## <a name="see-also"></a>Voir aussi
 
