@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalType
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: La table tblPrincipalType contient les types principaux qui permettent de catégoriser le contenu de la table tblPrincipal.
-ms.openlocfilehash: cf55ba04afe3688d3ecfd397dc4ffcbe50da2c19
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cafc8ef175cd3a24178331ce308cf66942c55324
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844067"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394806"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -26,7 +26,7 @@ La table tblPrincipalType contient les types principaux qui permettent de catég
   
 **Colonnes**
 
-|**Colonne**|**Type (Type)**|**Description**|
+|**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |ptypeID  <br/> |smallint, non null  <br/> |ID de type Principal.  <br/> |
 |ptypeDesc  <br/> |nvarchar (256), non null  <br/> |Description du type.  <br/> |

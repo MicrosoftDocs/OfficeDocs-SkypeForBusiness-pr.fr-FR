@@ -1,8 +1,8 @@
 ---
 title: Configurer un itinéraire de messagerie vocale E9-1-1 dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Configurez les itinéraires de voix E9-1-1 dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 86904c32db6ae43b9fa1b6f184048d3b9f419089
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6543e7c7dac59b026b3b2f7e5738cd1b06c3ffc5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833950"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394336"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Configurer un itinéraire de messagerie vocale E9-1-1 dans Skype Entreprise Server
  
@@ -30,13 +30,13 @@ Configurez les itinéraires de voix E9-1-1 dans Skype Entreprise Server Voix Ent
 Pour déployer E9-1-1, vous devez d’abord configurer un itinéraire des communications vocales pour les appels d’urgence. Pour plus d’informations sur la création d’itinéraires de communication vocale, voir [Create or modify a voice route in Skype Entreprise](create-or-modify-a-voice-route.md). Vous pouvez définir plusieurs itinéraires si, par exemple, votre déploiement comporte une jonction SIP principale et une jonction SIP secondaire. 
   
 > [!NOTE]
-> Pour inclure les informations d’emplacement dans une E9-1-1 INVITE, vous devez configurer la jonction SIP qui établit la connexion avec le fournisseur de services E9-1-1 pour acheminer les appels d’urgence par l’intermédiaire de la passerelle. Pour ce faire, affectez à l’indicateur EnablePIDFLOSupport de l’applet de commande **Set-CsTrunkConfiguration** la valeur True. La valeur par défaut de EnablePIDFLOSupport est False. Par exemple : il n’est pas nécessaire d’activer la réception d’emplacements pour les passerelles de réseau téléphonique commuté (PSTN) de secours et les `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` passerelles ELIN (Emergency Location Identification Number).
+> Pour inclure les informations d’emplacement dans une E9-1-1 INVITE, vous devez configurer la jonction SIP qui établit la connexion avec le fournisseur de services E9-1-1 pour acheminer les appels d’urgence par l’intermédiaire de la passerelle. Pour ce faire, affectez à l’indicateur EnablePIDFLOSupport de l’applet de commande **Set-CsTrunkConfiguration** la valeur True. La valeur par défaut de EnablePIDFLOSupport est False. Par exemple : `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` il n’est pas nécessaire d’activer la réception d’emplacements pour les passerelles de réseau téléphonique commuté (PSTN) de secours et les passerelles ELIN (Emergency Location Identification Number).
   
 ### <a name="to-configure-an-e9-1-1-voice-route"></a>Pour configurer un itinéraire des communications vocales E9-1-1
 
 1. Ouvrez une session sur l’ordinateur à l’aide d’un compte membre du groupe RTCUniversalServerAdmins ou du rôle d’administration CsVoiceAdministrator.
     
-2.  Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2.  Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
     
 3. Exécutez l’applet de commande suivante pour créer un nouvel enregistrement d’utilisation PSTN. 
     

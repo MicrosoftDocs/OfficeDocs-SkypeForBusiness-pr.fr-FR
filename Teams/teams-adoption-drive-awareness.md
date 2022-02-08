@@ -1,7 +1,7 @@
 ---
 title: Faire connaître et implémenter une formation
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1832ca945edab2560a5a604fe85c01c0c9f53f0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: faa91273932f4896f7ac49add0b76f5288f85870
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842526"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394466"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Faire connaître et implémenter une formation à Microsoft Teams
 
@@ -71,4 +71,4 @@ Partagez les idées que vous obtenez de vos canaux de commentaires avec le hasht
 
 [En savoir plus sur les Microsoft Teams d’utilisation dans le Centre d'administration Microsoft 365.](teams-activity-reports.md)
 
-![Icône montrant les étapes suivantes.](media/teams-adoption-next-icon.png) Suivant : Planifier [les avis sur l’état du service](teams-adoption-schedule-service-health-reviews.md)
+![Icône montrant les étapes suivantes](media/teams-adoption-next-icon.png) Suivant : Planifier [les avis sur l’état du service](teams-adoption-schedule-service-health-reviews.md)

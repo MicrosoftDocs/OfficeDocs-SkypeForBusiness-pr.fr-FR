@@ -5,8 +5,8 @@ ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
 ms:contentKeyID: 48185660
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Si vous activez l’accès des utilisateurs distants pour les utilisateurs distants, les utilisateurs distants pris en charge se connectent via Internet et n’ont pas besoin de se connecter à l’aide d’un VPN pour collaborer avec des utilisateurs internes à l’aide de Skype Entreprise Server.
-ms.openlocfilehash: 8ff48e9fd10a9b5bad6cf1e7ccebebb87bc7ed69
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 94ff8263e61e8113a2f1d47104524d073a082665
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853038"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395276"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>Activer ou désactiver l’accès des utilisateurs distants dans Skype Entreprise Server
 
@@ -30,7 +30,7 @@ Pour prendre en charge l’accès des utilisateurs distants, vous devez l’acti
 
 
 > [!NOTE]  
-> L’activation de l’accès des utilisateurs distants spécifie uniquement que vos serveurs exécutant le service Edge d’accès gèrent les communications avec des utilisateurs distants, mais que les utilisateurs distants ne peuvent pas participer à des conférences ou des messages instantanés dans votre organisation tant que vous n’avez pas configuré au moins une stratégie pour gérer l’utilisation de l’accès des utilisateurs distants. Skype Entreprise Server de stratégie appliquées à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. La politique de priorité de Skype Entreprise Server est la suivante : la stratégie utilisateur (la plus influente) remplace une stratégie site, et une stratégie site remplace une stratégie globale (la moins influente). Cela signifie que plus le paramètre de stratégie est proche de l’objet que la stratégie affecte, plus elle a d’influence sur l’objet. Pour plus d’informations sur la configuration des stratégies pour l’utilisation de l’accès des utilisateurs distants, voir Configurer des stratégies pour contrôler l’accès des utilisateurs distants [dans Skype Entreprise Server](../external-access-policies/configure-policies-to-control-remote-user-access.md).
+> L’activation de l’accès des utilisateurs distants spécifie uniquement que vos serveurs exécutant le service Edge d’accès gèrent les communications avec des utilisateurs distants, mais que les utilisateurs distants ne peuvent pas participer à des conférences ou des messages instantanés dans votre organisation tant que vous n’avez pas configuré au moins une stratégie pour gérer l’utilisation de l’accès des utilisateurs distants. Skype Entreprise Server de stratégie appliquées à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. La politique de priorité de Skype Entreprise Server est la suivante : la stratégie utilisateur (la plus influente) remplace une stratégie site, et une stratégie site remplace une stratégie globale (la moins influente). Cela signifie que plus le paramètre de stratégie est proche de l’objet que la stratégie affecte, plus elle a d’influence sur l’objet. Pour plus d’informations sur la configuration des stratégies pour l’utilisation de l’accès des utilisateurs distants, voir [Configure policies to control remote user access in Skype Entreprise Server](../external-access-policies/configure-policies-to-control-remote-user-access.md).
 
 
 ## <a name="to-enable-or-disable-remote-user-access-for-your-organization"></a>Pour activer ou désactiver l’accès des utilisateurs distants pour votre entreprise
@@ -51,7 +51,7 @@ Pour prendre en charge l’accès des utilisateurs distants, vous devez l’acti
 
 6.  Cliquez sur **Valider**.
 
-Pour permettre aux utilisateurs distants de se connectent à vos serveurs exécutant Skype Entreprise Server, vous devez également configurer au moins une stratégie d’accès externe pour prendre en charge l’accès des utilisateurs distants. Pour plus d’informations, voir [Configurer des stratégies pour contrôler l’accès](../external-access-policies/configure-policies-to-control-remote-user-access.md)des utilisateurs distants dans Skype Entreprise Server .
+Pour permettre aux utilisateurs distants de se connectent à vos serveurs exécutant Skype Entreprise Server, vous devez également configurer au moins une stratégie d’accès externe pour prendre en charge l’accès des utilisateurs distants. Pour plus d’informations, voir [Configurer des stratégies pour contrôler l’accès des utilisateurs distants dans Skype Entreprise Server](../external-access-policies/configure-policies-to-control-remote-user-access.md).
 
 
 ## <a name="enabling-or-disabling-remote-user-access-by-using-windows-powershell-cmdlets"></a>Activation ou désactivation de l’accès des utilisateurs distants à l’Windows PowerShell cmdlets

@@ -1,8 +1,8 @@
 ---
 title: Vue VideoStreamDetail
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: La vue VideoStreamDetail stocke des informations sur chaque flux vidéo dans la base de données. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 38f97d5cd97d6a92961a377129cb533fd96ccd6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0e34791bd3081497c4c8501dbd01d2e9d39503f1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863231"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393536"
 ---
 # <a name="videostreamdetail-view"></a>Vue VideoStreamDetail
  
@@ -38,24 +38,24 @@ La vue VideoStreamDetail stocke des informations sur chaque flux vidéo dans la 
 |Appelant  <br/> |nvarchar(450)  <br/> |URI de l’appelant.  <br/> |
 |Appelé  <br/> |nvarchar(450)  <br/> |URI de l’appelé.  <br/> |
 |CallerUserAgent  <br/> |nvarchar(256)  <br/> |Chaîne de l’agent utilisateur de l’appelant.  <br/> |
-|CallerUserAgentType  <br/> |smallint  <br/> |Type de l’agent utilisateur de l’appelant. Pour plus [d’informations, voir le tableau UserAgent.](useragent.md) <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar(64)  <br/> |Catégorie de l’agent utilisateur de l’appelant. Pour plus d’informations, voir la [table UserAgentDef (QoE).](useragentdef-qoe.md) <br/> |
+|CallerUserAgentType  <br/> |smallint  <br/> |Type de l’agent utilisateur de l’appelant. Pour plus [d’informations, voir le tableau UserAgent](useragent.md) . <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar(64)  <br/> |Catégorie de l’agent utilisateur de l’appelant. Pour plus [d’informations, voir la table UserAgentDef (QoE](useragentdef-qoe.md) ). <br/> |
 |CalleeUserAgent  <br/> |nvarchar(256)  <br/> |Chaîne de l’agent utilisateur de l’appelé.  <br/> |
-|CalleeUserAgentType  <br/> |smallint  <br/> |Type de l’agent utilisateur de l’appelé. Pour plus [d’informations, voir la table UserAgent.](useragent.md) <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar(64)  <br/> |Catégorie de l’agent utilisateur de l’appelé. Pour plus d’informations, voir la [table UserAgentDef (QoE).](useragentdef-qoe.md) <br/> |
+|CalleeUserAgentType  <br/> |smallint  <br/> |Type de l’agent utilisateur de l’appelé. Pour plus [d’informations, voir la table UserAgent](useragent.md) . <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar(64)  <br/> |Catégorie de l’agent utilisateur de l’appelé. Pour plus [d’informations, voir la table UserAgentDef (QoE](useragentdef-qoe.md) ). <br/> |
 |CallerEndpoint  <br/> |nvarchar(256)  <br/> |Nom du point de terminaison de l’appelant.  <br/> |
 |CalleeEndpoint  <br/> |nvarchar(256)  <br/> |Nom du point de terminaison de l’appelé.  <br/> |
 |CallerOS  <br/> |nvarchar(128)  <br/> |Système d’exploitation (OS) du point de terminaison de l’appelant.  <br/> |
 |CalleeOS  <br/> |nvarchar(128)  <br/> |Système d’exploitation (OS) du point de terminaison de l’appelé.  <br/> |
 |CallerCPUName  <br/> |nvarchar(128)  <br/> |Nom du processeur du point de terminaison de l’appelant.  <br/> |
 |CalleeCPUName  <br/> |nvarchar(128)  <br/> |Nom du processeur du point de terminaison de l’appelé.  <br/> |
-|CallerCPUNumberOfCores  <br/> |smallint  <br/> |Nombre de cœurs de processeur du point de terminaison de l’appelant.  <br/> |
+|CallerCPUNumberOfCores  <br/> |smallint  <br/> |Nombre de cœurs d’UC du point de terminaison de l’appelant.  <br/> |
 |CalleeCPUNumberOfCores  <br/> |smallint  <br/> |Nombre de cœurs d’UC du point de terminaison de l’appelé.  <br/> |
 |CallerCPUProcessorSpeed  <br/> |int  <br/> |Vitesse du processeur processeur du point de terminaison de l’appelant.  <br/> |
 |CalleeCPUProcessorSpeed  <br/> |int  <br/> |Vitesse du processeur processeur du point de terminaison de l’appelé.  <br/> |
-|CallerVirtualizationFlag  <br/> |tinyint  <br/> |Indique si le système de l’appelant est en cours d’exécution dans un environnement virtualisé. Pour plus [d’informations, voir la table Endpoint.](endpoint.md) <br/> |
-|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |Indique si le système de l’appelé est en cours d’exécution dans un environnement virtualisé. Pour plus [d’informations, voir la table Endpoint.](endpoint.md) <br/> |
-|ConnectivityIce  <br/> |tinyint  <br/> |Informations sur le chemin d’accès du média, telles que direct ou relayé. Pour plus [d’informations, voir le tableau MediaLine.](medialine-0.md) <br/> |
+|CallerVirtualizationFlag  <br/> |tinyint  <br/> |Indique si le système de l’appelant est en cours d’exécution dans un environnement virtualisé. Pour plus [d’informations, voir la table Endpoint](endpoint.md) . <br/> |
+|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |Indique si le système de l’appelé est en cours d’exécution dans un environnement virtualisé. Pour plus [d’informations, voir la table Endpoint](endpoint.md) . <br/> |
+|ConnectivityIce  <br/> |tinyint  <br/> |Informations sur le chemin d’accès au média, telles que direct ou relayé. Pour plus [d’informations, voir le tableau MediaLine](medialine-0.md) . <br/> |
 |CallerIceWarningFlags  <br/> |int  <br/> |Informations sur le processus ICE (Interactive Connectivity Establishment) décrit en indicateurs binaires pour l’appelant. Pour plus d’informations, voir Quality of Experience Monitoring Server Protocol Specification.  <br/> |
 |CalleeIceWarningFlags  <br/> |int  <br/> |Informations sur le processus ICE (Interactive Connectivity Establishment) décrit en indicateurs binaires pour l’appelé. Pour plus d’informations, voir Quality of Experience Monitoring Server Protocol Specification.  <br/> |
 |Transport  <br/> |int  <br/> |Type de transport : 0 correspond à UDP, 1 correspond à TCP.  <br/> |
@@ -69,9 +69,9 @@ La vue VideoStreamDetail stocke des informations sur chaque flux vidéo dans la 
 |CallerRegion  <br/> |nvarchar(128)  <br/> |Nom du pays/de la région du site de l’appelant.  <br/> |
 |CalleeUserSite  <br/> |nvarchar(128)  <br/> |Nom du site de l’appelé.  <br/> |
 |CalleeRegion  <br/> |nvarchar(128)  <br/> |Nom du pays/de la région du site de l’appelé.  <br/> |
-|CallerRelayIPAddr  <br/> |var(50)  <br/> |Adresse IP du service Edge A/V utilisé par l’appelant. Pour plus [d’informations, voir la table IPAddress.](ipaddress.md) <br/> |
+|CallerRelayIPAddr  <br/> |var(50)  <br/> |Adresse IP du service Edge A/V utilisé par l’appelant. Pour plus [d’informations, voir la table IPAddress](ipaddress.md) . <br/> |
 |CallerRelayPort  <br/> |int  <br/> |Port sur le service Edge A/V utilisé par l’appelant.  <br/> |
-|CalleeRelayIPAddr  <br/> |var(50)  <br/> |Adresse IP du service Edge A/V utilisé par l’appelé. Pour plus [d’informations, voir la table IPAddress.](ipaddress.md) <br/> |
+|CalleeRelayIPAddr  <br/> |var(50)  <br/> |Adresse IP du service Edge A/V utilisé par l’appelé. Pour plus [d’informations, voir la table IPAddress](ipaddress.md) . <br/> |
 |CalleeRelayPort  <br/> |int  <br/> |Port sur le service Edge A/V utilisé par l’appelé.  <br/> |
 |CallerCaptureDev  <br/> |varchar(256)  <br/> |Nom de l’appareil de capture de l’appelant.  <br/> |
 |CallerRenderDev  <br/> |varchar(256)  <br/> |Nom du périphérique de rendu de l’appelant.  <br/> |
@@ -86,19 +86,19 @@ La vue VideoStreamDetail stocke des informations sur chaque flux vidéo dans la 
 |CallerLinkSpeed  <br/> |decimal(18,)  <br/> |Vitesse de la liaison réseau pour le système d’extrémité de l’appelant, en bits/s.  <br/> |
 |CalleeNetworkConnectionType  <br/> |tinyint  <br/> |Type de connexion réseau de l’appelé : 0 est câblé, 1 est sans fil.  <br/> |
 |CalleeVPN  <br/> |bit  <br/> |Indique si l’appelé s’est connecté ou non sur un réseau privé virtuel. 1 est un réseau privé virtuel (VPN), 0 est un réseau non VPN.  <br/> |
-|CalleeLinkSpeed  <br/> |décimal(18,0)  <br/> |Vitesse de liaison réseau pour le point de terminaison de l’appelé (en bps).  <br/> |
+|CalleeLinkSpeed  <br/> |decimal(18,0)  <br/> |Vitesse de liaison réseau pour le point de terminaison de l’appelé (en bps).  <br/> |
 |ConversationalMOS  <br/> |décimal(3,2)  <br/> |Note MOS qualité conversation à bande étroite des sessions audio (basés sur les deux flux audio).  <br/> |
 |AppliedBandwidthLimit  <br/> |int  <br/> |Bande passante réellement appliquée au flux côté envoi d’après différents paramètres de stratégie (TURN, API, SDP, serveur de stratégie, etc.). À ne pas confondre avec la bande passante effective car il peut exister une bande passante effective plus basse basée sur l’estimation de la bande passante. Il s’agit en fait de la bande passante maximale pouvant être traitée par le flux d’envoi en ne tenant pas compte des limites imposées par l’estimation de la bande passante.  <br/> |
 |JitterInterArrival  <br/> |int  <br/> |Gigue réseau moyenne d’après les statistiques RTCP (Real Time Control Protocol).  <br/> |
 |JitterInterArrivalMax  <br/> |int  <br/> |Gigue réseau maximum pendant l’appel.  <br/> |
 |RoundTrip  <br/> |int  <br/> |Durée d’aller-retour d’après les statistiques RTCP.  <br/> |
 |RoundTripMax  <br/> |int  <br/> |Durée d’aller-retour maximale pour le flux audio.  <br/> |
-|PacketLossRate  <br/> |decimal(5,4)  <br/> |Taux moyen de perte de paquets pendant l’appel.  <br/> |
-|PacketLossRateMax  <br/> |decimal(5,4)  <br/> |Perte maximale de paquets observée pendant l’appel.  <br/> |
+|PacketLossRate  <br/> |décimal(5,4)  <br/> |Taux moyen de perte de paquets pendant l’appel.  <br/> |
+|PacketLossRateMax  <br/> |décimal(5,4)  <br/> |Perte maximale de paquets observée pendant l’appel.  <br/> |
 |PacketUtilization  <br/> |int  <br/> |Nombre de paquets pour le flux vidéo (protocole de transport en temps réel, RTP).  <br/> |
 |BandwidthEst  <br/> |int  <br/> |Estimations de la bande passante pour le flux audio.  <br/> |
 |PayloadDescription  <br/> |int  <br/> |Codec audio utilisé pour l’appel, référencé à partir de la [table PayloadDescription](payloaddescription.md).  <br/> |
-|VideoResolution  <br/> |char(9)  <br/> |Résolution de la vidéo en pixels de largeur multipliée par la hauteur en pixels. Signalé sous la mesure d’une chaîne.  <br/> |
+|VideoResolution  <br/> |char(9)  <br/> |Résolution de la vidéo en pixels de largeur multipliée par la hauteur des pixels. Signalé sous la mesure d’une chaîne.  <br/> |
 |VideoBitRateAvg  <br/> |int  <br/> |Vitesse de bit moyenne du flux vidéo.  <br/> |
 |InboundVideoFrameRateAvg  <br/> |décimal(9,4)  <br/> |Fréquence d’images de la vidéo reçue.  <br/> |
 |OutboundVideoFrameRateAvg  <br/> |décimal(9,4)  <br/> |Fréquence d’images de la vidéo envoyée.  <br/> |

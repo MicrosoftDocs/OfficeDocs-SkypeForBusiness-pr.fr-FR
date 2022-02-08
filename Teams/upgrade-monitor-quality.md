@@ -1,7 +1,7 @@
 ---
 title: Niveau de qualité de l’expérience utilisateur | Microsoft Teams | QoS | Qualité de l’appel
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edc277a80ed9659281c46729646f3cbdfe95d725
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6ea92ffd8adcdfb319cd1b515419b987fc6bbbc4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865533"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394426"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité
 
@@ -55,6 +55,6 @@ En evaluant et en réstant les aspects décrits dans le guide, vous pouvez rédu
 
 Les conseils fournis dans Améliorer et surveiller la qualité des appels pour [Teams](monitor-call-quality-qos.md) se concentrent sur l’utilisation du tableau de bord de qualité des appels online comme principal outil pour signaler et examiner chaque zone décrite, avec un focus sur l’audio afin d’optimiser l’adoption et l’impact. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
 
-Il est vivement recommandé de désigner le champion de la qualité rapidement. Une fois désignées, elles doivent se familiariser avec le contenu du projet Améliorer et surveiller la qualité des appels des [Teams.](monitor-call-quality-qos.md)
+Il est vivement recommandé de désigner le champion de la qualité rapidement. Une fois désignées, elles doivent se familiariser avec le contenu du projet Améliorer et surveiller la qualité des appels des [Teams](monitor-call-quality-qos.md).
 
 <!--ENDOFSECTION-->

@@ -1,8 +1,8 @@
 ---
 title: Configuration du périphérique
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
 description: Une configuration d’appareil est un ensemble de paramètres utilisés pour gérer les appareils Skype Entreprise Téléphone Edition, globalement ou au sein d’un site. Ces paramètres vous permettent de configurer des choses telles que le mode de sécurité requis, le niveau de journalisation de périphérique, les paramètres de qualité de service des communications vocales et si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
-ms.openlocfilehash: 14a4606ade2ac8287258531c912c11268ce5e546
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 26fd71afc68c696c5f2d7b75b3765fc58d35e517
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856181"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394296"
 ---
 # <a name="device-configuration"></a>Configuration de l’appareil
  

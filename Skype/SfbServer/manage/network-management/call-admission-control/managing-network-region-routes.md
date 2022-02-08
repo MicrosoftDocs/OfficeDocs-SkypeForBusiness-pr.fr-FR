@@ -1,8 +1,8 @@
 ---
 title: Gestion des itinéraires de région réseau
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Un itinéraire de région réseau définit l’itinéraire entre deux régions réseau. Chaque paire de régions réseau dans votre déploiement de contrôle d’admission des appels requiert un itinéraire de région réseau.
-ms.openlocfilehash: 18bee9a28eed10affae1b0dab855c379709b37bb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a5808a7b3ffdfb860723bf0f84dc32239a9b08ae
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864751"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395236"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Gestion d’itinéraires de région réseau dans Skype Entreprise Server
 
@@ -32,7 +32,7 @@ Chaque région au sein d’un contrôle d’admission des appels doit disposer d
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Itinéraire de région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau**, puis sur **Itinéraire de région**.
 
 4.  Dans la page **Itinéraire de région**, cliquez sur l’itinéraire de région que vous souhaitez modifier.
 
@@ -75,7 +75,7 @@ Chaque région au sein d’un contrôle d’admission des appels doit disposer d
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Itinéraire de région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau**, puis sur **Itinéraire de région**.
 
 4.  Dans la page **Itinéraire de région**, cliquez sur **Nouveau**.
 
@@ -84,9 +84,9 @@ Chaque région au sein d’un contrôle d’admission des appels doit disposer d
     > [!NOTE]  
     > Cette valeur doit être unique au sein de votre Skype Entreprise Server déploiement.
 
-6.  Dans la liste de listes bas Région réseau **\# 1,** sélectionnez l’une des deux régions à connecter par cet itinéraire.
+6.  Dans la **liste \#** de listes bas Région réseau 1, sélectionnez l’une des deux régions à connecter par cet itinéraire.
 
-7.  Dans la liste de listes bas Région réseau **\# 2,** sélectionnez l’autre région pour cet itinéraire. Cette région doit être différente de la région sélectionnée pour la région \# réseau 1.
+7.  Dans la **liste \#** de listes bas Région réseau 2, sélectionnez l’autre région pour cet itinéraire. Cette région doit être différente de la région sélectionnée pour la région réseau \#1.
 
 8.  Utilisez la zone de liste **Liens de région réseau** pour ajouter des liens de région à l’itinéraire. Cliquez sur le bouton **Ajouter** pour afficher la page **Lien de région**. Cliquez sur un lien de région pour l’ajouter à cet itinéraire, puis cliquez sur **OK**.
     
@@ -102,7 +102,7 @@ Chaque région au sein d’un contrôle d’admission des appels doit disposer d
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Itinéraire de région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau**, puis sur **Itinéraire de région**.
 
 4.  Dans la page **Itinéraire de région**, cliquez sur l’itinéraire de région que vous souhaitez modifier.
 
@@ -123,7 +123,7 @@ Chaque région au sein d’un contrôle d’admission des appels doit disposer d
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Itinéraire de région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau**, puis sur **Itinéraire de région**.
 
 4.  Dans la page **Itinéraire de région**, cliquez sur l’itinéraire de région à supprimer.
 

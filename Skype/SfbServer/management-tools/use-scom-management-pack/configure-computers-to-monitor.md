@@ -1,8 +1,8 @@
 ---
 title: Configurer les ordinateurs Skype Entreprise Server à surveiller
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,51 +14,51 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: 'Résumé : Installez les fichiers de l’agent Operations Manager sur l’ordinateur Skype Entreprise Server 2015 à surveiller et configurez l’ordinateur pour qu’il agisse en tant que proxy System Center serveur.'
-ms.openlocfilehash: 8393aab53f8c146a300da0c52a98e470f925e667
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 970214c63869362fdc1d69a1146c69c884466129
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843707"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393716"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitor"></a>Configurer les ordinateurs Skype Entreprise Server à surveiller
 
 **Résumé :** Installez les fichiers de l’agent Operations Manager sur l’ordinateur Skype Entreprise Server 2015 à surveiller et configurez l’ordinateur pour qu’il agisse en tant que proxy System Center serveur proxy.
 
-Chaque Skype Entreprise Server 2015 que vous souhaitez surveiller doit être en mesure de signaler lui-même son existence au serveur de gestion. Pour activer ce processus, vous devez installer les fichiers de l’agent Operations Manager sur chacun des ordinateurs à surveiller. Après avoir installé les fichiers de l’agent, vous devez configurer l’ordinateur pour qu’il agisse en tant que proxy System Center serveur proxy. Assurez-vous que vous avez d’abord installé et configuré Skype Entreprise Server sur ces ordinateurs avant d’effectuer ces procédures.
+Chaque Skype Entreprise Server 2015 que vous souhaitez surveiller doit être en mesure de signaler lui-même son existence au serveur de gestion. Pour activer ce processus, vous devez installer les fichiers de l’agent Operations Manager sur chacun des ordinateurs à surveiller. Après avoir installé les fichiers de l’agent, vous devez configurer l’ordinateur pour qu’il agisse en tant que proxy System Center’agent. Assurez-vous que vous avez d’abord installé et configuré Skype Entreprise Server sur ces ordinateurs avant d’effectuer ces procédures.
 
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>Installation d’un certificat sur un nœud d’observation situé en dehors du réseau de périmètre
 <a name="watcher_node_outside"> </a>
 
-System Center Les agents Operations Manager qui s’exécutent dans un réseau de périmètre (tel qu’un serveur Edge Skype Entreprise Server), en dehors de l’entreprise (par exemple, un nœud d’observation des transactions synthétiques externes) ou à travers une limite d’confiance Active Directory, peuvent nécessiter la configuration d’un serveur de passerelle System Center Operations Manager. Ce rôle serveur permet aux agents qui n’ont pas de relation d’confiance avec le serveur d’administration racine de lever des alertes. Pour plus d’informations, voir [Managing Gateway Servers in Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12)).
+les agents System Center Operations Manager en cours d’exécution dans un réseau de périmètre (tel qu’un serveur Edge Skype Entreprise Server), en dehors de l’entreprise (par exemple, un nœud d’watcher de transaction synthétique externe) ou à travers une limite d’confiance Active Directory, peuvent nécessiter la configuration d’un serveur gateway System Center Operations Manager. Ce rôle serveur permet aux agents qui n’ont pas de relation d’confiance avec le serveur d’administration racine de lever des alertes. Pour plus d’informations, voir [Managing Gateway Servers in Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12)).
 
-Si vous déployez un agent dans l’un de ces emplacements, vous devrez également demander et configurer un certificat qui permet au nœud watcher d’envoyer des alertes à System Center Operations Manager. Pour simplifier ce processus, l’équipe Operations Manager a créé un ensemble d’utilitaires qui vous permettent de demander et d’installer le type de certificat correct sur l’ordinateur du nœud observeur. Pour plus d’informations et pour télécharger ces [utilitaires,](https://techcommunity.microsoft.com/t5/system-center-blog/obtaining-certificates-for-non-domain-joined-agents-made-easy/ba-p/340467)voir Obtenir des certificats pour les agents non joints à un domaine facilité avec l’Assistant Génération de certificat.
+Si vous déployez un agent dans l’un de ces emplacements, vous devrez également demander et configurer un certificat qui permet au nœud watcher d’envoyer des alertes à System Center Operations Manager. Pour simplifier ce processus, l’équipe Operations Manager a créé un ensemble d’utilitaires qui vous permettent de demander et d’installer le type de certificat correct sur l’ordinateur du nœud observeur. Pour plus d’informations et pour télécharger ces utilitaires, voir Obtenir des certificats pour les agents non joints au domaine facilité avec l’Assistant [Génération de certificats](https://techcommunity.microsoft.com/t5/system-center-blog/obtaining-certificates-for-non-domain-joined-agents-made-easy/ba-p/340467).
 
 ### <a name="installing-the-operation-manager-agent-files"></a>Installation des fichiers de l’agent Operation Manager
 
 1. Sur votre support System Center configuration, double-cliquez sur **Setup.exe**.
 
-2. Dans l’System Center d’installation d’Operation Manager, cliquez sur **Installer l’agent Operations Manager,** à partir de l’agent d’installation sous Installations facultatives
+2. Dans l’System Center d’installation d’Operation Manager, cliquez sur **Installer l’agent Operations Manager**, à partir de l’agent d’installation sous Installations facultatives
 
-3. Dans l System Center de configuration, dans la page Bienvenue dans l’Assistant Installation System Center Operations Manager, cliquez sur **Suivant.**
+3. Dans l System Center de configuration, dans la page Bienvenue dans l’Assistant Installation System Center Operations Manager, cliquez sur **Suivant**.
 
-4. Dans la page Dossier de destination, sélectionnez le dossier dans lequel les fichiers de l’agent Operations Manager seront installés, puis cliquez sur **Suivant.**
+4. Dans la page Dossier de destination, sélectionnez le dossier dans lequel les fichiers de l’agent Operations Manager seront installés, puis cliquez sur **Suivant**.
 
-5. Dans la page Configuration du groupe de gestion, **sélectionnez Spécifier les informations du groupe de gestion** et cliquez sur **Suivant.**
+5. Dans la page Configuration du groupe de gestion, **sélectionnez Spécifier les informations du groupe de gestion** , puis cliquez sur **Suivant**.
 
-6. Dans la page Configuration du groupe de gestion, tapez le nom de votre groupe de gestion Operations Manager dans la zone Nom du groupe de gestion, puis tapez le nom d’hôte de votre serveur Operations Manager (par exemple, atl-scom-001) dans la zone **Serveur** d’administration.  Si vous avez modifié le numéro de port utilisé par Operations Manager, entrez le nouveau numéro de port dans la zone Port du serveur **d’administration.** Dans le cas contraire, laissez le port sur la valeur par défaut de 5723, puis cliquez sur **Suivant**.
+6. Dans la page Configuration du groupe de gestion, tapez le nom de votre groupe de gestion  Operations Manager dans la zone Nom du groupe de gestion, puis tapez le nom d’hôte de votre serveur Operations Manager (par exemple, atl-scom-001) dans la zone **Serveur** de gestion. Si vous avez modifié le numéro de port utilisé par Operations Manager, entrez le nouveau numéro de port dans la **zone Port du serveur d’administration** . Dans le cas contraire, laissez le port sur la valeur par défaut de 5723, puis cliquez sur **Suivant**.
 
 7. Dans la page Compte d’action de l’agent, sélectionnez **Système local** et cliquez sur **Suivant**.
 
-8. Dans la page Microsoft Update, sélectionnez Je ne souhaite pas utiliser **Microsoft Update** et cliquez sur **Suivant.**
+8. Dans la page Microsoft Update, sélectionnez Je ne souhaite pas utiliser **Microsoft Update** et cliquez sur **Suivant**.
 
 9. Dans la page Prêt pour l'installation, cliquez sur **Installer**.
 
-10. Dans la page Fin de l System Center d’installation d’Operations Manager, cliquez sur **Terminer.**
+10. Dans la page Fin de l System Center d’installation d’Operations Manager, cliquez sur **Terminer**.
 
 11. Cliquez sur **Quitter**.
 
-Pour System Center 2012, vous pouvez vérifier que l’agent a été créé en cliquant sur **Démarrer,** sur Tous les **programmes,** sur **System Center Operations Manager 2012,** puis sur **Operations 2012 Manager Shell.** Dans la interpréteur de commandes d'Operations Manager, tapez la commande Windows PowerShell suivante, puis appuyez sur Entrée :
+Pour System Center 2012, vous pouvez vérifier que l’agent a été créé en cliquant sur **Démarrer, sur** Tous les **programmes, sur** **System Center Operations Manager 2012**, puis sur **Operations 2012 Manager Shell**. Dans la interpréteur de commandes d'Operations Manager, tapez la commande Windows PowerShell suivante, puis appuyez sur Entrée :
 ```PowerShell
 Get-SCOMAgent
 ```

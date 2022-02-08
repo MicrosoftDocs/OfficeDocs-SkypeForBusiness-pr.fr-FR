@@ -1,8 +1,8 @@
 ---
 title: Gérer enhanced 9-1-1 et le service d’emplacement
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,24 +10,24 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: Skype Entreprise Server prend en charge les appels Enhanced 9-1-1 (E9-1-1) Skype Entreprise clients. Lorsque vous configurez Skype Entreprise Server pour E9-1-1, les appels d’urgence émis depuis Skype Entreprise incluent des informations d’emplacement d’intervention d’urgence (ERL) à partir de la base de données du service Informations sur l’emplacement.
-ms.openlocfilehash: 5eb5fe86449147c38c5719976f202591f13a67fb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Skype Entreprise Server prend en charge les appels Enhanced 9-1-1 (E9-1-1) Skype Entreprise clients. Lorsque vous configurez Skype Entreprise Server pour E9-1-1, les appels d’urgence émis à partir de Skype Entreprise incluent des informations d’emplacement d’intervention d’urgence (ERL) à partir de la base de données du service Informations sur l’emplacement.
+ms.openlocfilehash: 6fb6b539e51bc1178df46baf5990f48d85c44318
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848527"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395366"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Gérer enhanced 9-1-1 et le service d’emplacement dans Skype busines Server
 
-Skype Entreprise Server prend en charge les appels Enhanced 9-1-1 (E9-1-1) Skype Entreprise clients. Lorsque vous configurez Skype Entreprise Server pour E9-1-1, les appels d’urgence émis depuis Skype Entreprise incluent des informations d’emplacement d’intervention d’urgence (ERL) à partir de la base de données du service Informations sur l’emplacement. Utilisez les procédures de cet article pour gérer la stratégie d’emplacement.
+Skype Entreprise Server prend en charge les appels Enhanced 9-1-1 (E9-1-1) Skype Entreprise clients. Lorsque vous configurez Skype Entreprise Server pour E9-1-1, les appels d’urgence émis à partir de Skype Entreprise incluent des informations d’emplacement d’intervention d’urgence (ERL) à partir de la base de données du service Informations sur l’emplacement. Utilisez les procédures de cet article pour gérer la stratégie d’emplacement.
 
 > [!Note]
-> Pour plus d’informations sur le déploiement de fonctionnalités Voix Entreprise avancées, telles que E9-1-1 et le service Informations d’emplacement, voir Déployer les fonctionnalités Voix Entreprise [avancées.](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md)
+> Pour plus d’informations sur le déploiement de fonctionnalités Voix Entreprise avancées, telles que E9-1-1 et le service d’informations d’emplacement, voir [Deploy advanced Voix Entreprise features](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md).
 
 Dans Skype Entreprise Server, vous pouvez utiliser la stratégie d’emplacement pour appliquer les paramètres liés à la fonctionnalité Enhanced 9-1-1 (E9-1-1) et aux paramètres d’emplacement des utilisateurs ou des contacts. La stratégie d’emplacement détermine si un utilisateur peut avoir recours au système E9-1-1 et, le cas échéant, le comportement d’un appel d’urgence. Par exemple, la stratégie d’emplacement permet de définir le numéro d’appel d’urgence (par exemple 911 aux États-Unis, 15 en France), de déterminer si le service de sécurité de l’entreprise doit être automatiquement averti et comment l’appel doit être acheminé.
 
-Vous pouvez configurer des stratégies d’emplacement à partir du groupe **Configuration** réseau dans Skype Entreprise Server panneau de configuration. À partir Skype Entreprise Server panneau de bord, vous pouvez afficher, créer, modifier ou supprimer des stratégies d’emplacement. Utilisez les procédures suivantes pour afficher des informations sur les stratégies d’emplacement. 
+Vous pouvez configurer des stratégies d’emplacement à partir du groupe **Configuration** réseau dans Skype Entreprise Server panneau de configuration. À partir du Skype Entreprise Server de contrôle d’accès, vous pouvez afficher, créer, modifier ou supprimer des stratégies d’emplacement. Utilisez les procédures suivantes pour afficher des informations sur les stratégies d’emplacement. 
 
 
 ## <a name="view-location-policy-information"></a>Afficher les informations de stratégie d’emplacement 
@@ -36,7 +36,7 @@ Vous pouvez configurer des stratégies d’emplacement à partir du groupe **Con
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis sur **Stratégie d’emplacement.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Stratégie d’emplacement**.
 
 4.  Dans la page **Stratégie d’emplacement**, sélectionnez la stratégie d’emplacement que vous souhaitez modifier.
 
@@ -59,7 +59,7 @@ Dans Skype Entreprise Server, vous pouvez remplacer la durée par défaut entre 
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis sur **Stratégie d’emplacement.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Stratégie d’emplacement**.
 
 4.  Dans la page **Stratégie d’emplacement**, cliquez sur **Nouveau**, puis sélectionnez le type de stratégie que vous souhaitez créer :
     
@@ -77,10 +77,10 @@ Dans Skype Entreprise Server, vous pouvez remplacer la durée par défaut entre 
         
           - **Non requis**   L’utilisateur n’est pas invité à saisir un emplacement. Lorsqu’un appel est effectué sans informations d’emplacement, le fournisseur de services d’urgence y répond et demande qu’un emplacement lui soit indiqué.
         
-          - **Clause d’exclusion de responsabilité**   Cette option est identique à **Obligatoire,** sauf que l’utilisateur ne peut pas ignorer l’invite sans entrer les informations d’emplacement. L’utilisateur peut toujours appeler les services d’urgence, mais aucun autre appel ne peut être passé sans fournir les informations. De plus, un texte d’exclusion s’affiche pour informer l’utilisateur des conséquences du refus de fournir des informations sur l’emplacement. Pour définir le texte de la clause d’exclusion de responsabilité, vous devez utiliser le Skype Entreprise Server Management Shell pour exécuter l';cmdlet **Set-CsLocationPolicy** ou l';cmdlet **New-CsLocationPolicy** avec le paramètre EnhancedEmergencyServiceDisclaimer. Pour plus d’informations, [voir Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) ou [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy).
+          - **Clause d’exclusion de responsabilité**   Cette option est identique à **Obligatoire** , sauf que l’utilisateur ne peut pas ignorer l’invite sans entrer d’informations d’emplacement. L’utilisateur peut toujours appeler les services d’urgence, mais aucun autre appel ne peut être passé sans fournir les informations. De plus, un texte d’exclusion s’affiche pour informer l’utilisateur des conséquences du refus de fournir des informations sur l’emplacement. Pour définir le texte de la clause d’exclusion de responsabilité, vous devez utiliser l’environnement de travail Skype Entreprise Server Management Shell pour exécuter l’cmdlet **Set-CsLocationPolicy** ou l’cmdlet **New-CsLocationPolicy** avec le paramètre EnhancedEmergencyServiceDisclaimer. Pour plus d’informations, [voir Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) ou [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy).
           
     
-      - **Utilisez l’emplacement pour les services** d’urgence Skype Entreprise pouvez utiliser les informations d’emplacement pour diverses raisons (par exemple, pour informer vos collègues de votre emplacement actuel). Activez cette case à cocher pour que les informations sur l’emplacement soient uniquement disponibles lors d’un appel d’urgence.
+      - **Utilisez l’emplacement pour les services d’urgence** Skype Entreprise pouvez utiliser les informations d’emplacement pour diverses raisons (par exemple, pour informer vos collègues de votre emplacement actuel). Activez cette case à cocher pour que les informations sur l’emplacement soient uniquement disponibles lors d’un appel d’urgence.
     
       - **Utilisation PSTN**   Réseau téléphonique commuté public qui permettra de déterminer l’itinéraire des communications vocales afin de router les appels d’urgence des clients à l’aide de ce profil. L’itinéraire associé à cette utilisation doit pointer sur une jonction SIP dédiée aux appels d’urgence ou à une passerelle ELIN (Emergency Location Identification Number) qui route les appels d’urgence vers le centre téléphonique de sécurité publique (Public Safety Answering Point ou PSAP) le plus proche.
     
@@ -107,7 +107,7 @@ Dans Skype Entreprise Server, vous pouvez remplacer la durée par défaut entre 
 
 
     > [!IMPORTANT]  
-    > Lorsque vous créez une stratégie utilisateur, cette stratégie ne s’applique initialement à aucun utilisateur ou site réseau. Pour appliquer la stratégie à un utilisateur, cliquez sur **Utilisateurs** dans la barre de navigation de gauche. Recherchez l’utilisateur auquel vous souhaitez appliquer la stratégie. Dans le menu **Edition**, cliquez sur **Afficher les détails**. Dans la page **Modifier l’utilisateur du**  serveur, sélectionnez la nouvelle stratégie d’emplacement dans la liste modifiable Stratégie d’emplacement, puis cliquez sur **Valider**.<BR>Pour appliquer la stratégie à un site réseau, cliquez sur **Configuration réseau** dans la barre de navigation de gauche et cliquez sur **Site**. Recherchez le site réseau auquel vous souhaitez appliquer la stratégie. Dans le menu **Edition**, cliquez sur **Afficher les détails**. Dans **Modifier le site**, sélectionnez la nouvelle stratégie d’emplacement dans la liste déroulante **Stratégie d’emplacement**, puis cliquez sur **Valider**.
+    > Lorsque vous créez une stratégie utilisateur, cette stratégie ne s’applique initialement à aucun utilisateur ou site réseau. Pour appliquer la stratégie à un utilisateur, cliquez sur **Utilisateurs** dans la barre de navigation de gauche. Recherchez l’utilisateur auquel vous souhaitez appliquer la stratégie. Dans le menu **Edition**, cliquez sur **Afficher les détails**. Dans la page **Modifier l’utilisateur du** serveur, sélectionnez la nouvelle  stratégie d’emplacement dans la liste modifiable Stratégie d’emplacement, puis cliquez sur **Valider**.<BR>Pour appliquer la stratégie à un site réseau, cliquez sur **Configuration réseau** dans la barre de navigation de gauche et cliquez sur **Site**. Recherchez le site réseau auquel vous souhaitez appliquer la stratégie. Dans le menu **Edition**, cliquez sur **Afficher les détails**. Dans **Modifier le site**, sélectionnez la nouvelle stratégie d’emplacement dans la liste déroulante **Stratégie d’emplacement**, puis cliquez sur **Valider**.
 
 
 ### <a name="to-modify-a-location-policy-in-the-skype-for-business-server-control-panel"></a>Pour modifier une stratégie d’emplacement dans le Skype Entreprise Server de contrôle
@@ -116,7 +116,7 @@ Dans Skype Entreprise Server, vous pouvez remplacer la durée par défaut entre 
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis sur **Stratégie d’emplacement.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Stratégie d’emplacement**.
 
 4.  Dans la page **Stratégie d’emplacement**, sélectionnez la stratégie d’emplacement que vous souhaitez modifier.
 
@@ -134,7 +134,7 @@ Dans Skype Entreprise Server, vous pouvez remplacer la durée par défaut entre 
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis sur **Stratégie d’emplacement.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Stratégie d’emplacement**.
 
 4.  Dans la page **Stratégie d’emplacement**, sélectionnez la stratégie d’emplacement que vous souhaitez supprimer.
    

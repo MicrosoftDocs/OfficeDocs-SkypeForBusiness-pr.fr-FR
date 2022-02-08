@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres généraux d’un Branch Office Appliance pour Lync Server 2010
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
-description: 'Pour modifier les propriétés du Survivable Branch Appliance ou du Survivable Branch Server, sous Général, configurez :'
-ms.openlocfilehash: 872ad2158b5fa21ebaebd418755a9c1e5feb116d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 'Pour modifier les propriétés du Survivable Branch Appliance ou du Survivable Branch Server, sous Général, vous configurez :'
+ms.openlocfilehash: b9c2d4daee3e67580c9c18445ae309c703e686d8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842807"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395486"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Expandeur des paramètres généraux d’un Branch Office Appliance pour Lync Server 2010
  
-Pour modifier les propriétés du Survivable Branch Appliance ou du Survivable Branch Server, sous **Général,** vous configurez :
+Pour modifier les propriétés du Survivable Branch Appliance ou du Survivable Branch Server, sous **Général**, vous configurez :
   
 - **Nom de domaine complet :** vous tapez le nom de domaine complet du Survivable Branch Appliance ou du serveur Survivable Branch Server.
     
-    **Toutes les adresses IP configurées** utilisent les adresses IP configurées sur le Survivable Branch Appliance ou le Serveur Survivable Branch Server à toutes fins.
+    **Toutes les adresses IP** configurées utilisent les adresses IP configurées sur le Survivable Branch Appliance ou le Serveur Survivable Branch Server à toutes fins.
     
     **Limiter l’utilisation des services aux adresses IP sélectionnées** Vous configurez l’adresse distincte qui définit le serveur et l’adresse IP à utiliser pour le réseau téléphonique commuté.
     

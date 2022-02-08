@@ -1,7 +1,7 @@
 ---
 title: Définir les résultats et le succès de l’adoption des Microsoft Teams - Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -18,15 +18,15 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Découvrez comment mesurer les résultats et le succès de votre enablement à grande échelle de Teams.
+description: Découvrez comment mesurer les résultats et le succès de votre  enablement à grande échelle de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f4594f6d47216c1afe0440562013ca9985cab10
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9aaf0282794fd916c6779664d661b2ac0a569de2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849527"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394476"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Définir les résultats et la réussite de votre adoption de Microsoft Teams
 
@@ -76,22 +76,22 @@ En règle générale, vous devez penser à ces mesures agrégeant pour créer un
 
 Teams est une technologie transformative, donc en fonction de la taille de votre organisation et de vos technologies existantes, vous pouvez prendre des approches différentes. Prenons les stratégies ci-après :
 
-| Teams Premier | Teams Core | Teams Passer au big | Skype Côte à côte | Migration |
+| Teams d’abord | Teams Cœur | Teams grand | Skype côte à côte | Migration |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | Lead cloud deployment with Teams | Lead collaboration scenario enablement with Teams | Tous les employés de Teams’équipes à l’échelle de l’organisation | Activer Teams et Skype Entreprise | Migrer des utilisateurs d Skype Entreprise vers Teams |
-| - Applicable à un usage nouveau ou faible Microsoft 365 ou Office 365 clients <br/>- Avance avec des Teams scénario spécifique au client <br/>- Mettre en évidence l’expérience utilisateur intégrée et accélérer le temps d’utilisation pour les utilisateurs Microsoft 365 ou Office 365 <br/>- Planifier ensemble l’enablement de la charge de travail pour éviter l’implémentation en série | - Activer Teams avec OneDrive et SharePoint Online <br/>- Créer un intranet d’entreprise pour partager des ressources d’actualités et des vidéos avec Microsoft Stream<br/>**La collaboration est meilleure**: <br/>Équipes<br/>Microsoft Office SharePoint Online<br/>Yammer<br/>Planificateur<br/>PowerApps |- Pour les clients avec moins de 5 000 sièges (limite actuelle)<br/>- Permettre la collaboration d’organisations croisées avec une équipe pour tous<br/>- Automatiser les tâches courantes (demandes de congés, enquêtes sur les employés, implication des cadres) |- Utiliser Teams tactiques principales pour accélérer la collaboration<br/>- Mettre en évidence les conseils de scénarios de réunion en fonction de la taille et de l’ensemble de fonctionnalités requis</br>- Utiliser des Skype Entreprise pour les appels d’entreprise, l’interopérabilité et les scénarios hybrides<br/>- Utiliser une feuille de route publique pour la planification des fonctionnalités. |- Planifier le passage d’Teams à Skype Entreprise en créant une feuille de route de stratégie de service pour le client<br/>- Joindre à la planification de publication des fonctionnalités<br/>- Recommander d’inclure Côte à côte et Teams cœur pour faciliter la transition
+| - Applicable à un usage nouveau ou faible Microsoft 365 ou Office 365 clients <br/>- Avance avec des Teams scénario spécifique au client <br/>- Mettre en évidence l’expérience utilisateur intégrée et accélérer le temps d’utilisation pour les utilisateurs Microsoft 365 ou Office 365 <br/>- Planifier ensemble l’enablement de la charge de travail pour éviter l’implémentation en série | - Activer Teams avec OneDrive et SharePoint Online <br/>- Créer un intranet d’entreprise pour partager des ressources d’actualités et des vidéos avec Microsoft Stream<br/>**La collaboration est meilleure** : <br/>Équipes<br/>Microsoft Office SharePoint Online<br/>Yammer<br/>Planificateur<br/>PowerApps |- Pour les clients avec moins de 5 000 sièges (limite actuelle)<br/>- Permettre la collaboration d’organisations croisées avec une équipe pour tous<br/>- Automatiser les tâches courantes (demandes de congés, enquêtes sur les employés, implication des cadres) |- Utiliser Teams tactiques principales pour accélérer la collaboration<br/>- Mettre en évidence les conseils de scénarios de réunion en fonction de la taille et de l’ensemble de fonctionnalités requis</br>- Utiliser des Skype Entreprise pour les appels d’entreprise, l’interopérabilité et les scénarios hybrides<br/>- Utiliser une feuille de route publique pour la planification des fonctionnalités. |- Planifier le passage d’Teams à Skype Entreprise en créant une feuille de route de stratégie de service pour le client<br/>- Joindre à la planification de publication des fonctionnalités<br/>- Recommander d’inclure Côte à côte et Teams cœur pour faciliter la transition
 
 Voici nos recommandations pour la plupart des organisations client. Il existe toutefois des exceptions. Pour obtenir des instructions pour tout scénario qui n’est pas abordé ici, posez vos questions dans notre communauté Adoption en ligne ou FastTrack de l’équipe de distribution ou du réseau de partenaires Microsoft.
 
-- **Choisissez Teams ou Cœur Teams**: la plupart des organisations ont déjà un investissement dans la technologie Microsoft. Vous pouvez activer plusieurs charges de travail à la fois, par exemple, Exchange Online, OneDrive Entreprise ou SharePoint. Dans ce cas, il est judicieux de Teams d’Teams d’abord ou de Teams de base. Cela permettra à vos utilisateurs de se servir de l’expérience de collaboration améliorée d Teams. Votre équipe de projet de collaboration peut alors planifier le déploiement de fonctionnalités supplémentaires, ainsi que la formation et le support requis pour leur réussite. 
+- **Choisissez Teams ou Cœur Teams** : la plupart des organisations ont déjà un investissement dans la technologie Microsoft. Vous pouvez activer plusieurs charges de travail à la fois, par exemple, Exchange Online, OneDrive Entreprise ou SharePoint. Dans ce cas, il est judicieux de Teams d’Teams d’abord ou de Teams de base. Cela permettra à vos utilisateurs de se servir de l’expérience de collaboration améliorée d Teams. Votre équipe de projet de collaboration peut alors planifier le déploiement de fonctionnalités supplémentaires, ainsi que la formation et le support requis pour leur réussite. 
 
-- Choisissez **Teams** Passer à la grande : dans les nouvelles organisations clientes Microsoft 365 ou Office 365 il est souvent préférable d’opter pour une approche globale Teams Pour minimiser la fatigue due au changement suite à l’apprentissage de la nouvelle technologie à plusieurs reprises. Vous en tirerez le meilleur parti en activant des Teams pour la collaboration et les réunions de base, des SharePoint, des OneDrive, du Planificateur et d’autres charges de travail, et en permettant à vos employés d’en savoir plus sur eux dans le contexte de votre déploiement Teams. 
+- **Sélectionnez Teams** Faire grand : dans les nouvelles organisations clientes Microsoft 365 ou Office 365 il est souvent préférable d’opter pour une approche Teams Optez pour une approche de grande taille afin de minimiser la fatigue due à l’apprentissage de la nouvelle technologie à plusieurs reprises. Vous en tirerez le meilleur parti en activant des Teams pour la collaboration et les réunions de base, des SharePoint, des OneDrive, du Planificateur et d’autres charges de travail, et en permettant à vos employés d’en savoir plus sur eux dans le contexte de votre déploiement Teams. 
 
-    Teams La stratégie « Rendre big » est également la stratégie d’enablement préférée pour les organisations de moins de 1 000 employés qui souhaitent simplifier la communication et l’engagement de leurs employés. L’équipe à l’échelle de l’organisation peut rassembler les personnes pour passer en revue les tâches et initiatives courantes sur n’importe quel appareil. 
+    Teams La stratégie « Big » est également la stratégie d’enablement préférée pour les organisations de moins de 1 000 employés qui souhaitent simplifier la communication et l’engagement de leurs employés. L’équipe à l’échelle de l’organisation peut rassembler les personnes pour passer en revue les tâches et initiatives courantes sur n’importe quel appareil. 
 
-- Choisir Côte à côte : pour les organisations qui utilisent des Skype Entreprise pour l’audioconférence, la prise en charge des périphériques de salle de conférence ou les fonctionnalités vocales cloud, nous vous recommandons d’utiliser Teams et Skype côte à côte pour familiariser vos employés avec les principales fonctionnalités de collaboration, tout en plantant votre migration hors d’Skype Entreprise à  l’heure qui convient à votre entreprise. Notez que l’exécution des deux clients côte à côte peut créer une confusion au niveau de l’utilisateur concernant l’outil à utiliser. Nous vous recommandons donc de garder cette phase courte dans votre processus d’adoption. 
+- Choisir Côte à côte : Pour les organisations qui utilisent Skype Entreprise pour l’audioconférence, la prise en charge des périphériques de salle de conférence ou les fonctionnalités vocales cloud, nous vous recommandons d’utiliser Teams et Skype côte à côte pour familiariser vos employés avec les principales fonctionnalités de collaboration, tout en planant votre migration hors d’Skype Entreprise  à un moment qui convient à votre entreprise. Notez que l’exécution des deux clients côte à côte peut créer une confusion au niveau de l’utilisateur concernant l’outil à utiliser. Nous vous recommandons donc de garder cette phase courte dans votre processus d’adoption. 
 
-- Choisissez **Migration**: la migration de Skype Entreprise vers Teams présente des composants supplémentaires d’un point de vue technique, mais le processus d’adoption par les utilisateurs présente les mêmes composants qu’une implémentation Teams vers une implémentation globale. De plus, vous allez induisant en avant-première l’expérience et l’interface de la réunion Teams, le comportement de la nouvelle conversation permanente et d’autres éléments de l’expérience qui sont différents d’Skype Entreprise.
+- Choisir **la migration** : la migration d’Skype Entreprise vers Teams présente des composants supplémentaires d’un point de vue technique, mais le processus d’adoption par les utilisateurs présente les mêmes composants qu’une implémentation Teams go Big. De plus, vous allez induisant en avant-première l’expérience et l’interface de la réunion Teams, le comportement de la nouvelle conversation permanente et d’autres éléments de l’expérience qui sont différents d’Skype Entreprise.
 
 Pour chaque stratégie d’enablement, il est essentiel de travailler en étroite collaboration avec votre équipe de préparation technique afin de garantir que votre environnement offre une expérience agréable pour les employés. 
 
@@ -117,7 +117,7 @@ Dans une plus petite organisation, un ou plusieurs de ces rôles peuvent être e
 
 ## <a name="expand-your-governance-and-information-management-policies"></a>Développer vos stratégies de gouvernance et de gestion des informations
 
-Une fois que vous aurez sélectionné votre stratégie d’enablement, vous serez prêt à revoir et à mettre à l’échelle les décisions de gouvernance que vous avez prises au cours de la Phase 1. Revisitez les décisions 1 [](teams-adoption-governance-quick-start.md) à 6 à partir du démarrage rapide gouvernance pour développer ces stratégies en accord avec les utilisateurs professionnels qui utiliseront Teams. 
+Une fois que vous aurez sélectionné votre stratégie d’enablement, vous serez prêt à revoir et à mettre à l’échelle les décisions de gouvernance que vous avez prises au cours de la Phase 1. Revisitez les décisions 1 à 6 à partir [](teams-adoption-governance-quick-start.md) du démarrage rapide gouvernance pour développer ces stratégies en accord avec les utilisateurs professionnels qui utiliseront Teams. 
 
 | Niveau d’équipe | Étendue/objectif | Appartenance standard | Durée |
 |----------- | ------------- | ------------------- | -------- |

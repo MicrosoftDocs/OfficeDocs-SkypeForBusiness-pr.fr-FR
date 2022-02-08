@@ -1,8 +1,8 @@
 ---
 title: Skype Entreprise résolutions vidéo clientes
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Résumé : Examinez la vidéo client requise lors de la planification de Skype Entreprise Server.'
-ms.openlocfilehash: 717813e9ed667bbd0d3d9d63e45ae3b9c45b4dcf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 26a47854ac4223a527635111a0c1b25a66d63706
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856551"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395066"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype Entreprise résolutions vidéo clientes
  
@@ -29,21 +29,21 @@ ms.locfileid: "60856551"
   
 Cet article décrit la prise en charge du matériel vidéo pour les appels vidéo Skype Entreprise et explique comment déterminer la qualité vidéo attendue pour différentes configurations d’ordinateur, de tablette et d’appareil mobile. 
   
-Les professionnels de l’informatique trouveront ces informations utiles pour évaluer l’pertinence des ordinateurs portables déjà utilisés dans leur organisation, ou en cas d’utilisation. Ils peuvent également rechercher des informations [sur des appareils Microsoft Teams sur](https://www.microsoft.com/microsoft-teams/across-devices/device) des appareils spécifiques.
+Les professionnels de l’informatique trouveront ces informations utiles pour évaluer l’aptitude des ordinateurs portables déjà utilisés dans leur organisation, ou à prendre en compte pour une utilisation. Ils peuvent également rechercher des informations [sur des appareils Microsoft Teams sur](https://www.microsoft.com/microsoft-teams/across-devices/device) des appareils spécifiques.
   
-## <a name="windows-desktop-mac-and-tablet-video-requirements-and-capabilities"></a>Windows et fonctionnalités vidéo pour ordinateur de bureau, Mac et tablette
+## <a name="windows-desktop-mac-and-tablet-video-requirements-and-capabilities"></a>Windows de bureau, Mac et tablettes vidéo requises et fonctionnalités
 
 Skype Entreprise utilise l’accélération matérielle pour le codage et le décodage vidéo basés sur la norme H.264/MPEG-4 Part 10 Advanced Video Coding. Cela permet aux ordinateurs dont la vitesse d’horloge du processeur est inférieure d’encoder et décoder des vidéos de résolution supérieure. La configuration requise pour le matériel vidéo dépend de la configuration de l’ordinateur et de la résolution vidéo souhaitée.
   
-Consultez également [Windows configuration matérielle requise pour Mac et les ordinateurs.](https://products.office.com/office-system-requirements)
+Consultez également [Windows configuration matérielle requise pour Mac](https://products.office.com/office-system-requirements).
   
 ### <a name="video-hardware-requirements"></a>Configuration matérielle requise pour la vidéo
 
 |**Fonctionnalité**|**Configuration requise**|
 |:-----|:-----|
-|Décodage matériel accéléré H.264 à l’aide de l’accélération vidéo DirectX (DXVA)  <br/> |• La carte graphique doit prendre en charge DirectX 9.0 et exposer le mode DXVA2_ModeH264_VLD_NoFGT décodage et l’API DirectX 9.  <br/> • Le dernier pilote de carte graphique doit être installé.  <br/> |
+|Décodage matériel accéléré H.264 à l’aide de l’accélération vidéo DirectX (DXVA)  <br/> |• La carte graphique doit prendre en charge DirectX 9.0 et exposer DXVA2_ModeH264_VLD_NoFGT mode décodage et l’API DirectX 9.  <br/> • Le dernier pilote de carte graphique doit être installé.  <br/> |
 |Encodage matériel accéléré H.264 : chipset requis  <br/> |Les solutions d’encodage vidéo matériel accéléré Intel suivantes sont pris en charge :  <br/> • Puces Intel HD Graphics 2000, 2500, 3000 et 4000 de deuxième et troisième générations (ou versions ultérieures) avec des encodeurs vidéo matériels intégrés. L’installation du pilote Intel HD Graphics 15.28.9.2884 ou du pilote le plus récent contenant les éléments suivants est requise :  <br/> • Pilote d’affichage 9.17.10.2884 ou pilote le plus récent  <br/> • HMFT (Hardware Media Foundation Transform) version 3.12.10.31 ou la dernière version HMFT  <br/> Les solutions d’encodage vidéo matériel accéléré AMD suivantes sont pris en charge :  <br/> • Moteur de codec vidéo AMD, disponible dans plusieurs cartes graphiques discrètes et dans les unités de traitement accéléré intégrées des processeurs accélérés AMD A-Series. Le pilote AMD Video Codec Engine 9.12.0.0 ou supérieur doit être installé.  <br/> |
-|Encodage matériel accéléré H.264 : caméra requise  <br/> |Caméras vidéo USB avec encodeur matériel H.264 intégré conforme à la spécification USB Video Class (UVC) version 1.5.  <br/> **Remarque :** Skype Entreprise prend en charge les caméras UVC 1.5 avec Windows 8 ou Windows 8.1, qui inclut la prise en charge d’UVC 1.5. Comme Windows 7 n’inclut pas la prise en charge d’UVC 1.5, Skype Entreprise traite les caméras UVC 1.5 comme des caméras ordinaires sans prise en charge du codage matériel. <br/> |
+|Encodage matériel accéléré H.264 : caméra requise  <br/> |Caméras vidéo USB avec encodeur matériel H.264 intégré conforme à la spécification USB Video Class (UVC) version 1.5.  <br/> **Remarque :** Skype Entreprise prend en charge les caméras UVC 1.5 avec Windows 8 ou Windows 8.1, qui inclut la prise en charge d’UVC 1.5. Comme Windows 7 n’inclut pas la prise en charge d’UVC 1.5, Skype Entreprise traite les caméras UVC 1.5 comme des caméras normales sans prise en charge du codage matériel. <br/> |
    
 ### <a name="determining-h264-video-encoding-and-decoding-capabilities"></a>Détermination des fonctionnalités de codage et de décodage vidéo H.264
 
@@ -72,20 +72,20 @@ Les trois tableaux suivants expliquent les capacités d’encodage et de décoda
 |424 x 240  <br/> |424x240 (640x360 à 15 i/s pour des scénarios de réception uniquement)  <br/> |1 cœur et VideoEncodeScore ≥ 4,0  <br/> |
 |640 x 360  <br/> |640 x 360  <br/> |2 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
 |640 x 360  <br/> |1280 x 720  <br/> |2 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
-|640 x 360  <br/> |1920x1080  <br/> |4 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
+|640 x 360  <br/> |1920 x 1080  <br/> |4 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
 |1280 x 720  <br/> |1280 x 720  <br/> |4 cœurs et VideoEncodeScore ≥ 7,3  <br/> |
-|1280 x 720  <br/> |1920x1080  <br/> |4 cœurs et VideoEncodeScore ≥ 7,3  <br/> |
-|1920x1080  <br/> |1920x1080  <br/> |S/O  <br/> |
+|1280 x 720  <br/> |1920 x 1080  <br/> |4 cœurs et VideoEncodeScore ≥ 7,3  <br/> |
+|1920 x 1080  <br/> |1920 x 1080  <br/> |S/O  <br/> |
    
 **Ordinateur avec DXVA mais sans encodeur matériel accéléré**
 
 |**Résolution d’encodeur compatible**|**Résolution de décodeur compatible**|**Configuration requise**|
 |:-----|:-----|:-----|
-|424 x 240  <br/> |1920x1080  <br/> |1 cœur et VideoEncodeScore ≥ 3,0  <br/> |
-|640 x 360  <br/> |1920x1080  <br/> |2 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
-|960 x 540  <br/> |1920x1080  <br/> |2 cœurs et VideoEncodeScore ≥ 6,0  <br/> |
-|1280 x 720  <br/> |1920x1080  <br/> |4 cœurs et VideoEncodeScore ≥ 6,7  <br/> |
-|1920x1080  <br/> |1920x1080  <br/> |4 cœurs et VideoEncodeScore ≥ 8,2  <br/> |
+|424 x 240  <br/> |1920 x 1080  <br/> |1 cœur et VideoEncodeScore ≥ 3,0  <br/> |
+|640 x 360  <br/> |1920 x 1080  <br/> |2 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
+|960 x 540  <br/> |1920 x 1080  <br/> |2 cœurs et VideoEncodeScore ≥ 6,0  <br/> |
+|1280 x 720  <br/> |1920 x 1080  <br/> |4 cœurs et VideoEncodeScore ≥ 6,7  <br/> |
+|1920 x 1080  <br/> |1920 x 1080  <br/> |4 cœurs et VideoEncodeScore ≥ 8,2  <br/> |
    
 > [!NOTE]
 > Le score WinSAT sur Windows 7 est limité à un maximum de 7,9. Par conséquent, la fonctionnalité de codage d’un ordinateur sans encodeur matériel accéléré ne peut être obtenue que sur Windows 8 ou Windows 8.1, où le score WinSAT maximal est de 9,9. 
@@ -94,12 +94,12 @@ Les trois tableaux suivants expliquent les capacités d’encodage et de décoda
 
 |**Résolution d’encodeur compatible**|**Résolution de décodeur compatible**|**Configuration requise**|
 |:-----|:-----|:-----|
-|1280 x 720  <br/> |1920x1080  <br/> |Intel HD Graphics deuxième et troisième générations  <br/> |
-|1920x1080  <br/> |1920x1080  <br/> |Intel HD Graphics deuxième et troisième générations avec GraphicsScore ≥ 5,0  <br/> |
+|1280 x 720  <br/> |1920 x 1080  <br/> |Intel HD Graphics deuxième et troisième générations  <br/> |
+|1920 x 1080  <br/> |1920 x 1080  <br/> |Intel HD Graphics deuxième et troisième générations avec GraphicsScore ≥ 5,0  <br/> |
    
 ## <a name="mobile-device-video-capabilities"></a>Fonctionnalités vidéo d’appareil mobile
 
-Le tableau suivant décrit les résolutions vidéo maximales disponibles sur les appareils mobiles pris en charge. Pour plus d’informations sur la prise en charge des appareils mobiles, [comparaison des fonctionnalités](mobile-feature-comparison.md)du client mobile pour Skype Entreprise .
+Le tableau suivant décrit les résolutions vidéo maximales disponibles sur les appareils mobiles pris en charge. Pour plus d’informations sur la prise en charge des appareils mobiles, [comparaison des fonctionnalités du client mobile pour Skype Entreprise](mobile-feature-comparison.md).
   
 |**Fonctionnalité**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|

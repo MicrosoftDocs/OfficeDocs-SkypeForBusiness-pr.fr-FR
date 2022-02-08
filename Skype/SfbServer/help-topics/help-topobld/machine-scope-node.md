@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue d’ordinateur
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 description: 'Ce nœud indique le nom de domaine complet (FQDN) du serveur et la configuration de l’adresse IP de ce serveur. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: c49dd50d8e017f869a025ecf449dcbeb2e4ef098
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 872850ce529a3e8c291208681c67bb5e0513c052
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837756"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395416"
 ---
 # <a name="machine-scope-node"></a>Nœud d’étendue d’ordinateur
  

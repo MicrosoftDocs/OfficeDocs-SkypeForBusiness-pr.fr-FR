@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue du service MCU audio/vidéo
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 description: 'Ce nœud montre le nom de domaine complet (FQDN) et les pools frontaux associés pour ce pool de conférence A/V. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: a0ad67fa49978f0c7e07ae1427b31b2280c52d36
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: eed08fd725d05e0832ced7e6303846673a3bfb91
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863701"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395536"
 ---
 # <a name="av-mcu-scope-node"></a>Nœud d’étendue du service MCU audio/vidéo
  

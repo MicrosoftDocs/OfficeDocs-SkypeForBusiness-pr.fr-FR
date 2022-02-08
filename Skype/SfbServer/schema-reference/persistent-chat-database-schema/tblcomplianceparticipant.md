@@ -1,8 +1,8 @@
 ---
 title: tblComplianceParticipant
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
 description: tblComplianceParticipant contient les participants actifs, par canal et par serveur.
-ms.openlocfilehash: d28b81d6ce0169999297dbcde65b1d7fbde38780
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7ef1121c16bb7d99c9b2624e5afaa90fc3a388ba
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854068"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394816"
 ---
 # <a name="tblcomplianceparticipant"></a>tblComplianceParticipant
  
@@ -26,7 +26,7 @@ tblComplianceParticipant contient les participants actifs, par canal et par serv
   
 **Colonnes**
 
-|**Colonne**|**Type (Type)**|**Description**|
+|**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |channelUri  <br/> |nvarchar (255), non null  <br/> |URI (Uniform Resource Identifier) du canal.  <br/> |
 |userId  <br/> |int, non null  <br/> |ID Principal du participant (correspondant à la table tblPrincipal.prinID).  <br/> |

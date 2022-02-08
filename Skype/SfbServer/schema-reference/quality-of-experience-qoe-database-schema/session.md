@@ -1,8 +1,8 @@
 ---
 title: Table Session
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
-description: Chaque enregistrement représente une session qui implique de l’audio ou de l’audio et de la vidéo. Il contient des informations globales sur la session. Une session est définie comme une boîte de dialogue SIP (Session Initiation Protocol) audio ou vidéo entre deux points de terminaison.
-ms.openlocfilehash: 044d7d2626ca0d04bb55b7a060d39e7ec330312d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Chaque enregistrement représente une session qui implique l’audio ou l’audio et la vidéo. Il contient des informations globales sur la session. Une session est définie comme une boîte de dialogue SIP (Session Initiation Protocol) audio ou vidéo entre deux points de terminaison.
+ms.openlocfilehash: 6e69ca38a0338075975919f087c066f683fcfb87
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840926"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394613"
 ---
 # <a name="session-table"></a>Table Session
  
-Chaque enregistrement représente une session qui implique de l’audio ou de l’audio et de la vidéo. Il contient des informations globales sur la session. Une session est définie comme une boîte de dialogue SIP (Session Initiation Protocol) audio ou vidéo entre deux points de terminaison.
+Chaque enregistrement représente une session qui implique l’audio ou l’audio et la vidéo. Il contient des informations globales sur la session. Une session est définie comme une boîte de dialogue SIP (Session Initiation Protocol) audio ou vidéo entre deux points de terminaison.
   
 |**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
@@ -30,7 +30,7 @@ Chaque enregistrement représente une session qui implique de l’audio ou de l�
 |**SessionSeq** <br/> |int  <br/> |Primaire  <br/> |Référencé à partir de [la table Dialog](dialog.md).  <br/> |
 |**ConferenceKey** <br/> |int  <br/> |Étranger  <br/> |Clé de conférence. Référencé à partir de la [table Conference](conference.md).  <br/> |
 |**CorrelationKey** <br/> |int  <br/> |Étranger  <br/> |Clé de corrélation. Référencé à partir [de la table SessionCorrelation](sessioncorrelation.md).  <br/> |
-|**DialogCategory** <br/> |bit  <br/> | <br/> |Catégorie de boîte de dialogue ; 0 est Skype Entreprise Server la partie serveur de médiation ; 1 est la partie serveur de médiation vers passerelle PSTN.  <br/> |
+|**DialogCategory** <br/> |bit  <br/> | <br/> |Catégorie de boîte de dialogue ; 0 est Skype Entreprise Server partie serveur de médiation ; 1 est serveur de médiation à passerelle PSTN.  <br/> |
 |**MediationServerBypassFlag** <br/> |bit  <br/> ||Indicateur signalant si l’appel a été contourné ou non.  <br/> |
 |**MediaBypassWarningFlag** <br/> |int  <br/> ||Ce champ, s’il est présent, indique pourquoi un appel n’a pas été contourné même si les ID de contournement correspondaient. Par Skype Entreprise Server, une seule valeur est définie.  <br/> 0x0001 - ID de contournement inconnu pour la carte réseau par défaut.  <br/> |
 |**StartTime** <br/> |DateHeure  <br/> | <br/> |Heure de début de l’appel.  <br/> |
@@ -40,9 +40,9 @@ Chaque enregistrement représente une session qui implique de l’audio ou de l�
 |**CalleePAI** <br/> |int  <br/> |Étranger  <br/> |URI SIP dans l’identité p-asserted SIP (PAI) du point de terminaison de réception. Référencé à partir de [la table User](user-0.md).  <br/> |
 |**CallerURI** <br/> |int  <br/> |Étranger  <br/> |URI de l’appelant. Référencé à partir de [la table User](user-0.md).  <br/> |
 |**CallerEndpoint** <br/> |int  <br/> |Étranger  <br/> |Point de terminaison de l’appelant. Référencé à partir de [la table Endpoint](endpoint.md).  <br/> |
-|**CallerUserAgent** <br/> |bit  <br/> |Étranger  <br/> |Agent utilisateur de l’appelant. Référencé à partir [de la table UserAgent](useragent.md).  <br/> |
+|**CallerUserAgent** <br/> |bit  <br/> |Étranger  <br/> |Agent utilisateur de l’appelant. Référencé à partir de [la table UserAgent](useragent.md).  <br/> |
 |**CallPriority** <br/> |smallint  <br/> ||Priorité de cet appel.  <br/> |
-|**ClassifiedPoorCall** <br/> |bit  <br/> ||Cette colonne a été dépréciée et n’est pas utilisée dans Skype Entreprise Server. Au lieu de cela, ces informations sont signalées sur une base de lignes par média. Pour plus [d’informations, voir la table MediaLine.](medialine-0.md) <br/> |
+|**ClassifiedPoorCall** <br/> |bit  <br/> ||Cette colonne a été dépréciée et n’est pas utilisée dans Skype Entreprise Server. Au lieu de cela, ces informations sont signalées sur une base de lignes par média. Pour plus [d’informations, voir la table MediaLine](medialine-0.md) . <br/> |
 |**CallerPAI** <br/> |int  <br/> |Étranger  <br/> |P-Asserted-Identity de l’utilisateur qui a passé l’appel. L’identité P-Asserted-Identity (PAI) est utilisée pour transmettre la véritable identité de l’utilisateur qui a passé l’appel.  <br/> |
 |**CalleeEndpoint** <br/> |int  <br/> |Étranger  <br/> |Point de terminaison qui a reçu l’appel.  <br/> |
 |**CalleeUserAgent** <br/> |int  <br/> |Étranger  <br/> |Agent utilisateur employé par l’utilisateur qui a reçu l’appel. Les agents utilisateur représentent l’appareil de point de terminaison client.  <br/> |

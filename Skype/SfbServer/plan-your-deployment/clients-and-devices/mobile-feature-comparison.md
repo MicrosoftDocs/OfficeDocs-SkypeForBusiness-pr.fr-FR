@@ -1,7 +1,7 @@
 ---
-title: Comparaison des fonctionnalités du client mobile pour Skype Entreprise
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Comparaison des fonctionnalités des clients mobiles pour Skype Entreprise
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,20 +17,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 'Résumé : Examinez la prise en charge des fonctionnalités pour le client mobile lors de la planification de Skype Entreprise Server.'
-ms.openlocfilehash: f1bbb046827ef762f5def1d532089e9621c32b28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a4696adda500b3011f52ac113b58f283ab7bfd96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834122"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395096"
 ---
-# <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparaison des fonctionnalités du client mobile pour Skype Entreprise
+# <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparaison des fonctionnalités des clients mobiles pour Skype Entreprise
  
 **Résumé :** Examinez la prise en charge des fonctionnalités pour le client mobile lors de la planification de Skype Entreprise Server.
   
 Cet article compare les fonctionnalités entre Skype Entreprise clients mobiles et le client Skype Entreprise bureau dans les catégories suivantes :
   
-- Connectez-vous, notifications Push et fonctionnalités générales
+- Se connectez, notifications Push et fonctionnalités générales
     
 - Présence enrichie
     
@@ -53,15 +53,15 @@ Cet article compare les fonctionnalités entre Skype Entreprise clients mobiles 
 Les tableaux suivants listent les fonctionnalités disponibles Skype Entreprise utilisateurs dans un déploiement local de Skype Entreprise Server. Les mêmes fonctionnalités sont également disponibles pour Skype Entreprise Online et Microsoft 365 ou Office 365 utilisateurs, sauf indication contraire dans les notes de bas de page du tableau.
   
 > [!NOTE]
-> Pour obtenir de l’aide et des ressources en ligne pour les utilisateurs finaux, [voir Découvrir Skype Entreprise](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
+> Pour obtenir de l’aide et des ressources en ligne pour les utilisateurs finaux, voir [Découvrir Skype Entreprise](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
   
 > [!NOTE]
-> Pour comparer les fonctionnalités disponibles dans d’Skype Entreprise clients de bureau, voir comparaison des fonctionnalités du client de bureau [pour Skype Entreprise](desktop-feature-comparison.md). 
+> Pour comparer les fonctionnalités disponibles dans d’Skype Entreprise clients de bureau, consultez comparaison des fonctionnalités client de bureau [pour Skype Entreprise](desktop-feature-comparison.md). 
 
 > [!NOTE]
 > La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuellement utilisent déjà l’API UCWA (Unified Communications Web API) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
   
-## <a name="sign-in-push-notifications-and-general-features"></a>Connectez-vous, notifications Push et fonctionnalités générales
+## <a name="sign-in-push-notifications-and-general-features"></a>Se connectez, notifications Push et fonctionnalités générales
 
  
  | Fonctionnalité/fonctionnalité  | Skype Entreprise client de bureau  | Windows Phone  | iOS  | Android |
@@ -150,7 +150,7 @@ Sur les appareils iOS, Skype Entreprise se connecte automatiquement lorsque le c
 
  | Fonctionnalité/fonctionnalité  | Skype Entreprise client de bureau  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Skype Entreprise-to-Skype Entreprise voice  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Skype Entreprise voix Skype Entreprise-à-vous  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Skype Entreprise vidéo Skype Entreprise-to-Skype Entreprise  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
 > [!NOTE]
@@ -241,13 +241,13 @@ Sur les appareils iOS, Skype Entreprise se connecte automatiquement lorsque le c
 |Fournir l’archivage côté client  <br/> |&#x2714;||||
 |Fournir l’enregistrement côté client  <br/> |&#x2714; &#x2776; ||||
    
- &#x2776; n’est pas disponible pour Skype Entreprise Online et/ou Microsoft 365 ou Office 365 utilisateurs.
+ &#x2776; n’est pas disponible pour Skype Entreprise en ligne et/ou Microsoft 365 ou Office 365 utilisateurs.
   
 ## <a name="modern-authentication"></a>Authentification moderne
 
 Ce tableau couvre les fonctionnalités nécessitant la prise en charge de l’authentification moderne.
   
-L’authentification moderne nécessite également une topologie décrite [dans Skype Entreprise topologies pris en charge avec l’authentification moderne.](../../plan-your-deployment/modern-authentication/topologies-supported.md)
+L’authentification moderne nécessite également une topologie décrite [dans Skype Entreprise topologies pris en charge avec l’authentification moderne](../../plan-your-deployment/modern-authentication/topologies-supported.md).
   
 
  | Fonctionnalité/fonctionnalité  | Skype Entreprise client de bureau  | Windows Phone  | iOS  | Android |
