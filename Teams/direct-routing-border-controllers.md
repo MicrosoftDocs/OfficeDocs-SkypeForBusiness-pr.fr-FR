@@ -10,21 +10,16 @@ ms.service: msteams
 ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
-- M365-voice
+  - M365-voice
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 hideEdit: true
 f1.keywords:
-- NOCSH
+  - NOCSH
 description: Découvrez quels contrôleurs de frontière de session (SBC) ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: db14472992880b17ee5fd68a0b0e426b3b8f497d
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312277"
 ---
+
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Contrôleurs de frontière de session certifiés pour le routage direct
 
 Microsoft établit des partenariats avec certains fournisseurs de contrôleurs SBC afin de certifier leurs SBC pour une utilisation avec un routage direct.
@@ -57,14 +52,14 @@ Si vous avez des questions sur le programme de certification SBC pour le routage
 
 |                                                       Fournisseur                                                        |       Product       | Contournement non multimédia | Contournement de média | Version logicielle requise | 911 Fournisseur de services compatible* | Compatible NILU |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
-| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  Prise en charge 7.20A.258 (recommandé 7.40A.100)   | &#10004;   |  &#10004;  |  
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  Prise en charge 7.20A.258 (recommandé 7.40A.250)   | &#10004;   |  &#10004;  |  
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.258 (recommandé 7.40A.250)   | &#10004;   |  &#10004;  |  
 |                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  Prise en charge 7.20A.258 (recommandé 7.40A.250)   |   &#10004;   |  &#10004;  |
 |                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.258 (recommandé 7.40A.250)   |  &#10004;   |  &#10004;  |
-|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   &#10004;     |  Pris en charge 7.20A.250 (recommandé 7.20A.258)  |  &#10004;   |  &#10004;  |
+|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.250 (recommandé 7.40A.250)  |  &#10004;   |  &#10004;  |
 |                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.258 (recommandé 7.40A.250)   | &#10004;     |  &#10004;  |
 |                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.258 (recommandé 7.40A.250) |  &#10004;    |  &#10004;  |   
-|                                                                                                                     | Mediant Cloud Edition SBC  |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.258 (recommandé 7.40A.100) |  &#10004;    |  &#10004;  |
+|                                                                                                                     | Mediant Cloud Edition SBC  |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.258 (recommandé 7.40A.250) |  &#10004;    |  &#10004;  |
 |  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       Prise en charge 9.2, 8.2 et 7.2 (recommandé 10.1)       | &#10004;   |     |
 |                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       Prise en charge 9.2, 8.2 et 7.2 (recommandé 10.1)       |   &#10004; |    |
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       Prise en charge 9.2, 8.2 et 7.2 (recommandé 10.1)       |   &#10004;  | |
