@@ -1,8 +1,8 @@
 ---
 title: Planifier le contrôle d’admission des appels dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Découvrez le contrôle d’admission des appels, qui peut empêcher les appels d’avoir lieu s’ils auraient une qualité multimédia médiocre, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 6260321a29ad138fae41eacb9a1bee5d322d1684
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e0843ef922bc928b5615425f96461e5262a6077e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841076"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387812"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planifier le contrôle d’admission des appels dans Skype Entreprise Server
 
@@ -30,14 +30,14 @@ Découvrez le contrôle d’admission des appels, qui peut empêcher les appels 
 
 Pour les applications IP telles que la téléphonie, la vidéo et le partage d’applications, la bande passante disponible des réseaux d’entreprise n’est généralement pas considérée comme un facteur limitant dans les environnements LAN. Toutefois, sur les liaisons WAN qui interconnectent des sites, la bande passante réseau peut être limitée.
 
-Lorsque le trafic réseau surabonne une liaison wan, les mécanismes actuels tels que la mise en file d’accès, la mise en mémoire tampon et la suppression de paquets sont utilisés pour résoudre la congestion. Le trafic supplémentaire est généralement retardé jusqu’à ce que la congestion du réseau soit plus facile ou, si nécessaire, que le trafic soit abandonné. Pour le trafic de données classique dans de telles situations, le client de réception peut récupérer. Toutefois, pour le trafic en temps réel tel que les communications unifiées, la congestion du réseau ne peut pas être résolue de cette manière, car le trafic de communications unifiées est sensible à la latence et à la perte de paquets. La congestion du réseau wan wan peut entraîner une mauvaise qualité de l’expérience (QoE) pour les utilisateurs. Pour le trafic en temps réel dans des conditions saturées, il est préférable de refuser des appels plutôt que de fournir des connexions de qualité médiocre.
+Lorsque le trafic réseau surabonne une liaison de réseau wan, les mécanismes actuels tels que la mise en file d’accès, la mise en mémoire tampon et la suppression de paquets sont utilisés pour résoudre la congestion. Le trafic supplémentaire est généralement retardé jusqu’à ce que la congestion du réseau soit plus facile ou, si nécessaire, que le trafic soit abandonné. Pour le trafic de données classique dans de telles situations, le client de réception peut récupérer. Toutefois, pour le trafic en temps réel tel que les communications unifiées, la congestion du réseau ne peut pas être résolue de cette manière, car le trafic de communications unifiées est sensible à la latence et à la perte de paquets. La congestion du réseau wan wan peut entraîner une mauvaise qualité de l’expérience (QoE) pour les utilisateurs. Pour le trafic en temps réel dans des conditions saturées, il est préférable de refuser des appels plutôt que de fournir des connexions de qualité médiocre.
 
 Le contrôle d’admission des appels (CAC) détermine si la bande passante réseau est suffisante pour établir une session en temps réel de qualité acceptable. Dans Skype Entreprise Server, cac contrôle le trafic en temps réel uniquement pour l’audio et la vidéo, mais il n’affecte pas le trafic de données. Si la bande passante n’est pas suffisante sur le chemin du réseau étendu par défaut, le contrôle d’admission des appels peut essayer d’acheminer l’appel via un chemin Internet ou sur le réseau téléphonique commuté (PSTN).
 
 Cette section décrit le contrôle d’admission des appels et explique comment le planifier.
 
 > [!NOTE]
-> Skype Entreprise Server offre trois fonctionnalités Voix Entreprise avancées : le contrôle d’admission des appels (CAC), les services d’urgence (E9-1-1) et le contournement de média. Pour une vue d’ensemble des informations de planification communes à ces trois [fonctionnalités,](network-settings-for-advanced-features.md)voir Paramètres réseau pour les fonctionnalités Voix Entreprise avancées dans Skype Entreprise Server .
+> Skype Entreprise Server offre trois fonctionnalités Voix Entreprise avancées : le contrôle d’admission des appels (CAC), les services d’urgence (E9-1-1) et le contournement de média. Pour une vue d’ensemble des informations de planification [communes à ces trois fonctionnalités, voir Paramètres réseau pour les fonctionnalités Voix Entreprise avancées dans Skype Entreprise Server](network-settings-for-advanced-features.md).
 
 La conception cac dans Skype Entreprise Server offre quatre attributs principaux :
 
@@ -78,7 +78,7 @@ Le service de stratégie de bande passante fournit une haute disponibilité au s
 
 ### <a name="network-considerations"></a>Considérations relatives au réseau
 
-Bien que la restriction de bande passante pour l’audio et la vidéo soit appliquée par le service de stratégie de bande passante dans Skype Entreprise Server, cette restriction n’est pas appliquée au routeur réseau (couches 2 et 3). Cac cannot prevent a data application, for example, from consuming the entire network bandwidth on a WAN link, including the bandwidth that is reserved for audio and video by your CAC policy. Pour protéger la bande passante nécessaire sur votre réseau, vous pouvez déployer un protocole de qualité de service (QoS), tel que DiffServ (Differentiated Services). Par conséquent, une meilleure pratique consiste à coordonner les stratégies de bande passante CAC que vous définissez avec les paramètres QoS que vous pouvez déployer.
+Bien que la restriction de bande passante pour l’audio et la vidéo soit appliquée par le service de stratégie de bande passante dans Skype Entreprise Server, cette restriction n’est pas appliquée au routeur réseau (couches 2 et 3). Cac cannot prevent a data application, for example, from consuming the entire network bandwidth on a WAN link, including the bandwidth that is reserved for audio and video by your CAC policy. Pour protéger la bande passante nécessaire sur votre réseau, vous pouvez déployer un protocole de qualité de service (QoS), tel que DiffServ (Differentiated Services). Par conséquent, une meilleure pratique consiste à coordonner les stratégies de bande passante CAC que vous définissez avec les paramètres QoS que vous pourriez déployer.
 
 ### <a name="media-and-signaling-paths-over-vpn"></a>Chemins d’accès des médias et de la signalisation sur réseau privé virtuel (VPN)
 
@@ -86,13 +86,13 @@ Si votre entreprise prend en charge les médias via VPN, assurez-vous que les fl
 
 ### <a name="call-admission-control-of-outside-users"></a>Contrôle d’admission des appels des utilisateurs extérieurs
 
-Le contrôle d’admission des appels n’est pas appliqué au-delà des limites de l’Skype Entreprise Server organisation. Le contrôle d’accès au contrôle d’accès ne peut pas être appliqué au trafic multimédia via Internet, qui n’est pas géré par Skype Entreprise Server. Les contrôles d’admission des appels seront effectués sur la partie de l’appel qui passe par le réseau d’entreprise si le point de terminaison appelé appartient à l’organisation et que le serveur Edge a été ajouté à la configuration réseau, comme décrit dans le déploiement du contrôle [d’admission](../../deploy/deploy-enterprise-voice/final-checklist.md)des appels : liste de vérification finale pour Skype Entreprise Server . Si le point de terminaison appelé n’appartient pas à l’organisation, tel qu’un utilisateur fédéré ou PIC, aucune vérification de stratégie de bande passante n’est effectuée et l’appel sortant ignore les restrictions cac.
+Le contrôle d’admission des appels n’est pas appliqué au-delà des limites de l’Skype Entreprise Server organisation. Le contrôle d’accès au contrôle d’accès ne peut pas être appliqué au trafic multimédia via Internet, qui n’est pas géré par Skype Entreprise Server. Les contrôles d’admission des appels seront effectués sur la partie de l’appel qui passe par le réseau d’entreprise si le point de terminaison appelé appartient à l’organisation et que le serveur Edge a été ajouté à la configuration réseau, comme décrit dans déploiement du contrôle [d’admission](../../deploy/deploy-enterprise-voice/final-checklist.md) des appels : liste de vérification finale pour Skype Entreprise Server. Si le point de terminaison appelé n’appartient pas à l’organisation, tel qu’un utilisateur fédéré ou PIC, aucune vérification de stratégie de bande passante n’est effectuée et l’appel sortant ignore les restrictions cac.
 
 ### <a name="call-admission-control-of-pstn-connections"></a>Contrôle d’admission des appels des connexions PSTN
 
-Le contrôle d’admission des appels peut être appliqué sur le serveur de médiation, qu’il soit connecté à un système IP/PBX, à une passerelle PSTN ou à une connexion SIP. Étant donné que le serveur de médiation est un agent utilisateur dos à dos (B2BUA), il met fin au média. Il dispose de deux côtés de connexion : un côté connecté à Skype Entreprise Server et un côté passerelle, qui est connecté à des passerelles PSTN, des systèmes IP/PBX ou des connexions SIP. Pour plus d’informations sur les connexions PSTN, voir Planifier la connectivité [PSTN dans Skype Entreprise Server](pstn-connectivity-0.md).
+Le contrôle d’admission des appels peut être appliqué sur le serveur de médiation, qu’il soit connecté à un système IP/PBX, à une passerelle PSTN ou à une connexion SIP. Étant donné que le serveur de médiation est un agent utilisateur dos à dos (B2BUA), il met fin au média. Il dispose de deux côtés de connexion : un côté connecté à Skype Entreprise Server et un côté passerelle, qui est connecté à des passerelles PSTN, des ip/PBX ou des trunks SIP. Pour plus d’informations sur les connexions PSTN, voir [Plan for PSTN connectivity in Skype Entreprise Server](pstn-connectivity-0.md).
 
-Cac can be enforced on both sides of the Mediation Server unless media bypass is enabled. Si la déviation du trafic multimédia est activée, le trafic multimédia ne traverse pas le serveur de médiation, mais passe directement entre le client Skype Entreprise et la passerelle. Dans ce cas, le contrôle d’admission des appels n’est pas nécessaire. Pour plus d’informations, [voir Plan for media bypass in Skype Entreprise](media-bypass.md).
+Le service Cac peut être appliqué des deux côtés du serveur de médiation, sauf si le contournement de média est activé. Si la déviation du trafic multimédia est activée, le trafic multimédia ne traverse pas le serveur de médiation, mais passe directement entre le client Skype Entreprise et la passerelle. Dans ce cas, le contrôle d’admission des appels n’est pas nécessaire. Pour plus d’informations, voir [Plan for media bypass in Skype Entreprise](media-bypass.md).
 
 La figure suivante illustre la façon dont le contrôle d’admission des appels est appliqué sur les connexions PSTN avec ou sans le contournement de média activé.
 
@@ -126,7 +126,7 @@ Pour expliquer ces concepts, nous allons utiliser l’exemple de topologie rése
 > [!NOTE]
 > Tous les sites réseau sont associés à une région réseau. Par exemple, Portland, Reno et Albuquerque sont inclus dans la région Amérique du Nord. Dans cette figure, seules les liaisons réseau étendu auxquelles des stratégies de service Contrôle d’admission des appels sont appliquées sont présentées, avec des limites de bande passante. Les sites réseau Chicago, New York et Détroit apparaissent dans l’ovale de la région Amérique du Nord, car ils ne sont soumis à aucune limite de bande passante et ne nécessitent donc aucune stratégie de service Contrôle d’admission des appels.
 
-Les composants de cet exemple de topologie sont décrits dans les sections suivantes. Pour plus d’informations sur la façon dont cette topologie a été planifiée, y compris les limites de bande passante, voir Exemple : Collecte des exigences pour le contrôle d’admission des appels [dans Skype Entreprise Server](example-gathering-requirements.md).
+Les composants de cet exemple de topologie sont décrits dans les sections suivantes. Pour plus d’informations sur la façon dont cette topologie a été planifiée, y compris les limites de bande passante, voir Exemple : Collecte des exigences pour le contrôle [d’admission des appels dans Skype Entreprise Server](example-gathering-requirements.md).
 
 ### <a name="identify-network-regions"></a>Identifier les régions réseau
 
@@ -182,10 +182,10 @@ Les stratégies de bande passante CAC peuvent définir un ou plusieurs des él�
 - Bande passante maximale allouée à un appel vidéo unique (session).
 
 > [!NOTE]
-> Toutes les valeurs de bande passante CAC représentent les limites  *maximales de bande*  passante unidirectionnelle.
+> Toutes les valeurs de bande passante CAC représentent les limites  *maximales de bande passante unidirectionnelle*  .
 
 > [!NOTE]
-> Les fonctionnalités Skype Entreprise Server stratégie de voix permettent de remplacer les contrôles de stratégie de bande passante pour les appels entrants à l’utilisateur (et non pour les appels sortants qui sont placés par l’utilisateur). Une fois la session établie, la consommation de bande passante est calculée avec précision. Ce paramètre doit être utilisé avec modération. Pour plus d’informations, voir Create [or modify a voice policy and configure PSTN usage records in Skype Entreprise](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) or Modify a Voice Policy and [Configure PSTN Usage Records](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records) in the Deployment documentation.
+> Les fonctionnalités Skype Entreprise Server stratégie de voix permettent de remplacer les contrôles de stratégie de bande passante pour les appels entrants à l’utilisateur (et non pour les appels sortants qui sont placés par l’utilisateur). Une fois la session établie, la consommation de bande passante est calculée avec précision. Ce paramètre doit être utilisé avec modération. Pour plus d’informations, voir Create [or modify a voice policy and configure PSTN usage records in Skype Entreprise](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) or [Modify a Voice Policy and Configure PSTN Usage Records](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records) in the Deployment documentation.
 
 Pour optimiser l’utilisation de la bande passante par session, tenez compte du type des codecs audio et vidéo qui seront utilisés. Plus particulièrement, allouez suffisamment de bande passante pour un codec que vous pensez utiliser fréquemment. À l’inverse, si vous souhaitez empêcher le média d’utiliser un codec nécessitant davantage de bande passante, définissez une bande passante maximale par session qui soit suffisamment basse pour décourager ce type d’utilisation. Pour l’audio, tous les codecs ne sont pas disponibles pour chaque scénario. Par exemple :
 
@@ -255,7 +255,7 @@ Pour améliorer les performances et faciliter le déploiement, appliquez les mei
 
 - Utilisez des stratégies de bande passante CAC pour compléter les paramètres QoS.
 
-- Si vous souhaitez ré-router les appels bloqués vers le réseau téléphonique (PSTN), vérifiez la capacité et la fonctionnalité PSTN. Pour plus d’informations, voir [Planning Outbound Call Routing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-outbound-voice-routing).
+- Si vous souhaitez ré-router les appels bloqués vers le réseau téléphonique (PSTN), vérifiez la fonctionnalité et la capacité du réseau téléphonique (PSTN). Pour plus d’informations, voir [Planning Outbound Call Routing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-outbound-voice-routing).
 
     > [!NOTE]
     > La capacité fait référence au nombre de ports que vous devez ouvrir pour prendre en charge un éventuel ré-routage PSTN.

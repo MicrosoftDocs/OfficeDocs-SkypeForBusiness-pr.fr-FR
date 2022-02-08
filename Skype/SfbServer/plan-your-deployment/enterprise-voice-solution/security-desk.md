@@ -1,8 +1,8 @@
 ---
 title: Inclure le service de sécurité dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 description: Planification de l’utilisation du service de sécurité de votre organisation dans un déploiement E9-1-1, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 4d69d02c985588726df449e749380db5aa728855
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0b0e6049bb8b25753f62c7a926985fb2fad79b47
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831898"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389096"
 ---
 # <a name="include-the-security-desk-in-skype-for-business-server"></a>Inclure le service de sécurité dans Skype Entreprise Server
  
@@ -31,7 +31,7 @@ Votre entreprise est susceptible de demander au service de sécurité de prendre
   
 **Souhaitez-vous que le service de sécurité soit averti en cas d’appel d’urgence ?**
   
-Vous pouvez configurer la stratégie d’emplacement afin qu’Skype Entreprise Server envoie des alertes de messagerie instantanée aux adresses SIP Skype Entreprise d’un ou plusieurs membres du personnel de sécurité. Ces alertes contiennent le nom, le numéro et l’emplacement de la personne qui passe l’appel d’urgence et facilitent l’assistance du personnel de sécurité en cas d’urgence.
+Vous pouvez configurer la stratégie d’emplacement de sorte qu’Skype Entreprise Server envoie des alertes de messagerie instantanée aux adresses SIP Skype Entreprise d’un ou plusieurs membres du personnel de sécurité. Ces alertes contiennent le nom, le numéro et l’emplacement de la personne qui passe l’appel d’urgence et facilitent l’assistance du personnel de sécurité en cas d’urgence.
     
 **Souhaitez-vous établir une conférence avec le service de sécurité pour chaque appel d’urgence ?**
   

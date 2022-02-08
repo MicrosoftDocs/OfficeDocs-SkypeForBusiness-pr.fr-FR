@@ -1,7 +1,7 @@
 ---
 title: Teams packages de stratégies pour le gouvernement
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -17,12 +17,12 @@ ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer Teams packages de stratégie pour votre organisation gouvernementale.
-ms.openlocfilehash: 02680b18d32e62a8a559ac6d2a30708e5aa05497
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 40804e4536be5f4263623c48ace2450dec92036a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749593"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384102"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams packages de stratégies pour le gouvernement
 
@@ -41,7 +41,7 @@ Les packages de stratégie pré-définissent les stratégies suivantes, selon le
 - Configuration de l’application
 - Événements en direct
 
-Teams inclut actuellement les packages de stratégie suivants pour le gouvernement.
+Teams inclut actuellement les packages de stratégies suivants pour le gouvernement.
 
 |Nom du package dans le Centre d’administration Microsoft Teams|Idéal pour|Description |
 |---------|---------|---------|
@@ -49,7 +49,7 @@ Teams inclut actuellement les packages de stratégie suivants pour le gouverneme
 |Gestionnaire en ligne  |Responsables en ligne au niveau de votre organisation gouvernementale |Crée un ensemble de stratégies et applique ces paramètres aux responsables en ligne de votre organisation.|
 |Employé en ligne  |Employés en ligne de votre organisation gouvernementale |Crée un ensemble de stratégies et applique ces paramètres aux employés en ligne de votre organisation.|
 
-![Capture d’écran des packages de stratégies de santé.](media/policy-packages-gov.png)
+![Capture d’écran des packages de stratégies médicales.](media/policy-packages-gov.png)
 
 Chaque stratégie individuelle reçoit le nom du package de stratégie afin de vous permettre d’identifier facilement les stratégies liées à un package de stratégie. Par exemple, lorsque vous affectez le package de stratégie du responsable de la sécurité publique à des utilisateurs de votre organisation, une stratégie nommée PublicSafety_Officer est créée pour chaque stratégie du package.
 

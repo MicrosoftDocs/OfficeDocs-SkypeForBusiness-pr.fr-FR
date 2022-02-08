@@ -1,8 +1,8 @@
 ---
 title: 'Configuration de l’archivage : création d’une configuration ou modification d’une configuration existante'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 'Vous utilisez les configurations d’archivage pour contrôler les options d’archivage de votre déploiement. Les configurations d’archivage incluent la configuration globale et éventuellement une ou plusieurs configurations de site ou de pool :'
-ms.openlocfilehash: 1de397f6cefb8827e664cfe20bf169151c763049
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3dfeace1bf5f8243e1ee82c76021864ec51182fb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838826"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384792"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuration de l’archivage : création d’une nouvelle ou modification d’une configuration existante
  
@@ -44,7 +44,7 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
     
   - **Configuration du pool** Spécifiez un nom approprié, qui peut être le nom d’un pool frontal ou d’un serveur Édition Standard spécifique dans votre déploiement. Par exemple, Division Marketing.
     
-- **Description** Cette option est facultative. Utilisez-le pour fournir des détails supplémentaires, tels que l’étendue ou l’utilisation de la configuration. Par exemple, coordonner avec les services juridiques d’autres sites.
+- **Description** Cette option est facultative. Utilisez-le pour fournir des détails supplémentaires, tels que l’étendue ou l’utilisation de la configuration. Par exemple, Coordonner avec les services juridiques d’autres sites.
     
 - **Paramètre d’archivage** Les options sont les suivantes :
     
@@ -54,7 +54,7 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
     
   - **Désactiver l’archivage**
     
-- Bloquer les sessions de messagerie instantanée ou de conférence web en cas **d’échec de l’archivage** Les échecs sont les suivants :
+- **Bloquer les sessions de messagerie instantanée ou de conférence web en cas d’échec de l’archivage** Les échecs sont les suivants :
     
   - **La défaillance de** la messagerie instantanée A peut être une base de données complète ou un problème avec le service de stockage. Dans ce cas, la messagerie instantanée est bloquée pour les utilisateurs qui ont été activés pour l’archivage.
     
@@ -64,7 +64,7 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
     
 - **Intégration Exchange Microsoft** Sélectionnez cette option si vous avez des utilisateurs qui sont Exchange 2013. Avec cette option, Exchange 2013 est utilisé pour stocker les données de ces utilisateurs, si leurs boîtes aux lettres ont été placées en In-Place conserver. Si tous vos utilisateurs sont Exchange 2013, vous n’avez pas besoin de configurer des bases de données SQL Server distinctes pour le stockage des données d’archivage.
     
-- **Activer le purge des données d’archivage** Sélectionnez cette option pour activer le purgement et spécifier les options de purge, qui incluent les options suivantes :
+- **Activer le purge des données d’archivage** Sélectionnez cette option pour activer la purge et spécifier les options de  purge, notamment :
     
   - Vidage après un nombre spécifique de jours que vous spécifiez.
     
@@ -73,5 +73,5 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
     > [!NOTE]
     > Si vous activez l’intégration de Microsoft Exchange, la purge pour les utilisateurs Exchange 2013 et dont les boîtes aux lettres sont placées en In-Place est contrôlée par Exchange. La seule exception concerne les fichiers de conférence, qui sont stockés sur le partage de fichiers Lync Server. Ces fichiers sont vidés du partage de fichiers une fois seulement que les fichiers ont été exportés (téléchargés vers Exchange) si vous sélectionnez l’option consistant à vider les données après l’exportation des données d’archivage, ou après le nombre maximal de jours spécifié si vous spécifiez un nombre maximal de jours de rétention. 
   
-Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, notamment l’intégration Exchange, voir Planifier l’archivage dans [Skype Entreprise Server 2015,](../../plan-your-deployment/archiving/archiving.md)Déployer l’archivage pour [Skype Entreprise Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)et Gérer l’archivage dans [Skype Entreprise Server 2015.](../../manage/archiving/archiving.md)
+Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, y compris l’intégration Exchange, voir Planifier l’archivage dans [Skype Entreprise Server 2015](../../plan-your-deployment/archiving/archiving.md), Déployer l’archivage pour [Skype Entreprise Server 2015](../../deploy/deploy-archiving/deploy-archiving.md) et Gérer l’archivage [dans Skype Entreprise Server 2015](../../manage/archiving/archiving.md).
 

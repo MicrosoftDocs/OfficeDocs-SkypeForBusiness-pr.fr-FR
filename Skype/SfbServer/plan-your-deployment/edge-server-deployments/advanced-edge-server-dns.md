@@ -1,8 +1,8 @@
 ---
 title: Planifier le déploiement de serveurs Edge avancés pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: Examinez les scénarios pour Skype Entreprise Server options de déploiement, que vous vouliez un serveur unique ou préférez un pool de serveurs avec DNS ou HLB.
-ms.openlocfilehash: 5fa829bf805529792abb408cd6716e2948dd69ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6d2b0e53e3b0b94f19cdac70399a0bb512822cb8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842767"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387982"
 ---
 # <a name="plan-advanced-edge-server-deployment-for-skype-for-business-server"></a>Planifier le déploiement de serveurs Edge avancés pour Skype Entreprise Server
  
@@ -77,11 +77,11 @@ Le service de découverte automatique est toujours privilégié, car il s’agit
 > [!NOTE]
 > Lorsque vous créez des enregistrements SRV, il est important de ne pas oublier qu’ils doivent pointer vers un DNS A (et AAAA si vous utilisez l’adressare IPv6) dans le même domaine dans lequel l’enregistrement DNS SRV est créé. Par exemple, si l’enregistrement SRV est en contoso.com, l’enregistrement A (et AAAA) vers qui il pointe ne peut pas se trouver dans fabrikam.com. 
   
-Si vous avez envie de le faire, vous pouvez configurer votre appareil mobile pour la découverte manuelle des services. Si c’est ce que vous cherchez à faire, chaque utilisateur doit configurer ses paramètres d’appareil mobile avec les URL complètes du service de découverte automatique interne et externe, y compris le protocole et le chemin d’accès, comme suit :
+Si vous avez envie de le faire, vous pouvez configurer votre appareil mobile pour la découverte manuelle des services. Si c’est ce que vous cherchez à faire, chaque utilisateur doit configurer ses paramètres d’appareil mobile avec les  URL complètes du service de découverte automatique interne et externe, y compris le protocole et le chemin d’accès, comme suit :
   
-- Pour l’accès externe : https:// \<ExtPoolFQDN\> /Autodiscover/autodiscoverservice.svc/Root
+- Pour l’accès externe : https://\<ExtPoolFQDN\>/Autodiscover/autodiscoverservice.svc/Root
     
-- Pour l’accès interne : https:// \<IntPoolFQDN\> /AutoDiscover/AutoDiscover.svc/Root
+- Pour l’accès interne : https://\<IntPoolFQDN\>/AutoDiscover/AutoDiscover.svc/Root
     
 Nous vous recommandons d’utiliser la découverte automatique par opposition à la découverte manuelle. Toutefois, si vous faites des tests ou des dépannages, les paramètres manuels peuvent s’avérer très utiles.
   
@@ -106,11 +106,11 @@ Nous allons énumérer les enregistrements DNS pour les zones internes et extern
     
   - Enregistrements DNS A et AAAA (si vous utilisez l’adressag IPv6) pour votre interface interne Edge pour chaque serveur Edge Skype Entreprise Server dans votre réseau de périmètre.
     
-  - Enregistrements DNS A et AAAA (si vous utilisez l’adressag IPv6) pour l’interface  interne de chaque serveur proxy inverse de votre réseau de périmètre (facultatif pour la gestion d’un proxy inverse).
+  - Enregistrements DNS A et AAAA (si vous utilisez l’adressag IPv6) pour l’interface interne de chaque serveur proxy inverse dans votre réseau de périmètre (facultatif pour la gestion d’un proxy inverse).
     
-  - Enregistrements DNS A et AAAA (si vous utilisez l’adressag IPv6) et SRV pour  la configuration automatique du client Skype Entreprise Server interne (facultatif).
+  - Enregistrements DNS A et AAAA (si vous utilisez l’adressag IPv6) et SRV pour la configuration automatique du client Skype Entreprise Server interne (**facultatif).**
     
-  - Enregistrements DNS A et AAAA (si vous utilisez l’adressamage IPv6) ou CNAME  pour la découverte automatique des services web Skype Entreprise Server (facultatif).
+  - Enregistrements DNS A et AAAA (si vous utilisez l’adressamage IPv6) ou CNAME pour la découverte automatique des services web Skype Entreprise Server (**facultatif).**
     
 - Toutes vos interfaces Edge internes Skype Entreprise Server votre réseau de périmètre utilisent cette zone DNS interne pour résoudre les requêtes en contoso.com.
     
@@ -128,7 +128,7 @@ Nous allons énumérer les enregistrements DNS pour les zones internes et extern
     
   - Enregistrements DNS A et AAAA (si vous utilisez l’adressare IPv6) et SRV pour l’interface externe du serveur proxy inverse ou (ADRESSE IP ip pour un pool de serveurs proxy inverses) dans le réseau de périmètre.
     
-  - Enregistrements DNS A et AAAA (si vous utilisez l’adressag IPv6) et SRV  pour la configuration automatique du client Skype Entreprise Server (facultatif).
+  - Enregistrements DNS A et AAAA (si vous utilisez l’adressag IPv6) et SRV pour la configuration automatique du client **Skype Entreprise Server (facultatif**).
     
 ## <a name="automatic-configuration-without-split-brain-dns"></a>Configuration automatique sans DNS split-brain
 <a name="NoSplitBrainDNS"> </a>
@@ -168,7 +168,7 @@ Maintenant que nous savons tout cela, si vous avez besoin d’une exigence autom
     
 - **Repérer la zone interne**
     
-    Si la création d’une zone entière dans votre DNS interne n’est pas une option pour vous, vous pouvez créer des zones de point d’épingle (dédiées) qui correspondent aux enregistrements SRV requis pour la configuration automatique et remplir ces zones à l’aide de dnscmd.exe. Dnscmd.exe est nécessaire, car l’interface utilisateur DNS ne permet pas de créer des zones de point d’épingle.
+    Si la création d’une zone entière dans votre DNS interne n’est pas une option pour vous, vous pouvez créer des zones de point d’pin (dédié) qui correspondent aux enregistrements SRV requis pour la configuration automatique et remplir ces zones à l’aide de dnscmd.exe. Dnscmd.exe est nécessaire, car l’interface utilisateur DNS ne permet pas la création de zones de point d’épingle.
     
     Par exemple, si votre domaine SIP est contoso.com et que vous avez un pool frontal appelé pool01 qui contient deux serveurs frontaux, vous aurez besoin des zones de point d’épingle et des enregistrements A suivants dans votre DNS interne :
     
@@ -195,7 +195,7 @@ Maintenant que nous savons tout cela, si vous avez besoin d’une exigence autom
   ```
 
 > [!NOTE]
-> Le FQDN du pool frontal apparaît deux fois, mais avec deux adresses IP différentes. Cela est dû au fait que l’équilibrage de charge DNS est utilisé. Si l’lb de hlb est utilisé, il n’y aurait qu’une seule entrée de pool frontal. 
+> Le FQDN du pool frontal apparaît deux fois, mais avec deux adresses IP différentes. Cela est dû au fait que l’équilibrage de charge DNS est utilisé. Si l’lb de hlb est utilisé, il n’y a qu’une seule entrée de pool frontal. 
   
 > [!NOTE]
 > En outre, les valeurs de nom de pool frontal changent entre les exemples contoso.com et fabrikam.com, mais les adresses IP restent identiques. En effet, les utilisateurs qui se sont signés à partir de l’un ou l’autre domaine SIP utiliseront le même pool frontal pour la configuration automatique. 
@@ -205,7 +205,7 @@ Maintenant que nous savons tout cela, si vous avez besoin d’une exigence autom
 
 Pour configurer DNS afin de rediriger le trafic web Skype Entreprise Server vers vos sites de récupération d’urgence et de récupération d’urgence, vous devez utiliser un fournisseur DNS qui prend en charge GeoDNS. Vous pouvez configurer vos enregistrements DNS pour prendre en charge la récupération d’urgence, afin que les fonctionnalités qui utilisent les services web continuent même si un pool frontal entier est en panne. Cette fonctionnalité de dr prend en charge les URL simples de découverte automatique, meet et dial-in.
   
-Vous définissez et configurez des enregistrements A (AAAA) d’hôte DNS supplémentaires si vous utilisez IPv6 pour la résolution interne et externe des services web au niveau de votre fournisseur GeoDNS. Les détails suivants supposent que les pools couplés, géographiquement dispersés, sont pris en charge par votre fournisseur soit avec le DNS round robin, soit configurés pour utiliser Pool1 comme pool principal et échouent vers Pool2 en cas de perte de communication ou de panne d’alimentation.  
+Vous définissez et configurez des enregistrements A (AAAA) d’hôte DNS supplémentaires si vous utilisez IPv6 pour la résolution interne et externe des services web au niveau de votre fournisseur GeoDNS. Les détails suivants supposent que les pools couplés, géographiquement dispersés, et que le geoDNS  pris en charge par votre fournisseur dispose d’un DNS **round** robin ou est configuré pour utiliser Pool1 comme principal et échoue vers Pool2 en cas de perte de communication ou de panne d’alimentation.
   
 Tous les enregistrements DNS de ce tableau sont des exemples.
   
@@ -235,7 +235,7 @@ Par exemple, s’il existe trois serveurs frontux dans un pool nommé pool01.con
    |pool01.contoso.com  <br/> |192.168.10.91  <br/> |
    |pool01.contoso.com  <br/> |192.168.10.92  <br/> |
    
-- Le client tente d’établir une connexion TCP à l’une des adresses IP. En cas d’échec, il essaiera l’adresse IP suivante qu’il est mis en cache à partir de cette liste.
+- Le client tente d’établir une connexion TCP à l’une des adresses IP. En cas d’échec, il essaiera l’adresse IP suivante mise en cache à partir de cette liste.
     
 - Si la connexion TCP réussit, le client négocie TLS pour se connecter au bureau d’enregistrement principal sur pool01.contoso.com.
     
@@ -248,7 +248,7 @@ Vous utilisez l’équilibrage de charge DNS pour :
   
 - Équilibrez la charge sip de serveur à serveur sur les serveurs Edge.
     
-- Équilibrer la charge des applications UCAS (Unified Communication Application Services), telles que Standard automatique conférence, Response Group et parcage d’appel.
+- Équilibrer la charge des applications des services d’application de communication unifiée (UCAS), telles que les Standard automatique conférence, Response Group et le parcage d’appel.
     
 - Empêcher les nouvelles connexions aux applications UCAS (également appelées drainage).
     
@@ -258,7 +258,7 @@ Vous ne pouvez pas utiliser l’équilibrage de charge DNS pour :
   
 - Trafic web client à serveur vers vos serveurs frontux ou un directeur.
     
-Pour approfondir la sélection d’un enregistrement SRV DNS lorsque plusieurs enregistrements DNS sont renvoyés par une requête, le service Edge d’accès sélectionne toujours l’enregistrement ayant la priorité numérique la plus faible et, si un analyseur d’égalité est nécessaire, la pondération numérique la plus élevée. Cela est cohérent avec la [documentation du groupe de travail d’ingénierie Internet.](https://www.ietf.org/rfc/rfc2782.txt)
+Pour approfondir la sélection d’un enregistrement SRV DNS lorsque plusieurs enregistrements DNS sont renvoyés par une requête, le service Edge d’accès sélectionne toujours l’enregistrement ayant la priorité numérique la plus faible et, si un analyseur d’égalité est nécessaire, la pondération numérique la plus élevée. Cela est cohérent avec la [documentation du groupe de travail Ingénierie Internet](https://www.ietf.org/rfc/rfc2782.txt).
   
 Par exemple, si votre premier enregistrement DNS SRV a une pondération de 20 et une priorité de 40, et que votre deuxième enregistrement DNS SRV a une pondération de 10 et une priorité de 50, le premier enregistrement sera choisi car il a la priorité inférieure de 40. La priorité passe toujours en premier, et c’est l’hôte qu’un client va cibler en premier. Que se passe-t-il si deux cibles ont la même priorité ? 
   

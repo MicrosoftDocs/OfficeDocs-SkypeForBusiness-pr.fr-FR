@@ -1,8 +1,8 @@
 ---
 title: Branch site SIP trunking in Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
-description: Découvrez la trunking SIP sur les sites de succursale dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: b8c1c930bb2500ca9330b14cce7fd5b341db60a9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: En savoir plus sur la trunking SIP sur les sites de succursale Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: 24c9dd53e8c8ce7a00b38ee50b617e9394b7e88c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829898"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387842"
 ---
 # <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Branch site SIP trunking in Skype Entreprise Server
  
-Découvrez la trunking SIP sur les sites de succursale dans Skype Entreprise Server Voix Entreprise.
+En savoir plus sur la trunking SIP sur les sites de succursale Skype Entreprise Server Voix Entreprise.
   
-Dans certains cas, vous devrez peut-être implémenter une trunking SIP distribuée sur des sites de succursale sélectionnés. Pour déterminer si une trunk SIP est nécessaire pour un site de succursale et pour plus d’informations sur les options de topologie prise en charge pour le déploiement de trunks SIP dans des sites de succursale, voir la section [sip trunking in Skype Entreprise Server](sip-trunking.md).
+Dans certains cas, vous devrez peut-être implémenter une trunking SIP distribuée sur des sites de succursale sélectionnés. Pour déterminer si une trunk SIP est nécessaire pour un site de succursale et pour plus d’informations sur les options de topologie prise en charge pour le déploiement de trunks SIP dans des sites de succursale, voir [siP trunking in Skype Entreprise Server](sip-trunking.md).
   
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>Conditions requises pour le déploiement d’une jonction SIP sur un site de succursale : exemple d’analyse
 
@@ -37,6 +37,6 @@ Pour savoir si une jonction SIP distribuée à New York est rentable, identifiez
   
 ## <a name="other-branch-site-sip-trunk-requirements"></a>Autres conditions requises pour le déploiement d’une jonction SIP sur un site de succursale
 
-Pour déterminer si vous devez déployer une jonction SIP ou une passerelle, comparez le coût des appels PSTN (Public Switched Telephone Network, réseau téléphonique commuté) longue distance de ces deux options. Si vous déployez une connexion SIP de site de succursale, vous devez également déterminer vos besoins en résilience et en bande passante. Si la liaison entre votre site de succursale et votre site central est résiliente et dispose d’une bande passante suffisante, vous pouvez déployer une passerelle ou une connexion SIP. Vous n’avez pas besoin de déployer un Survivable Branch Appliance sur le site de succursale. Si la liaison entre votre site de succursale et votre site central n’est pas résiliente, déployez un Survivable Branch Appliance ou déployez un serveur Survivable Branch Server avec une passerelle ou une connexion SIP sur le site de succursale. 
+Pour déterminer si vous devez déployer une jonction SIP ou une passerelle, comparez le coût des appels PSTN (Public Switched Telephone Network, réseau téléphonique commuté) longue distance de ces deux options. Si vous déployez une connexion SIP de site de succursale, vous devez également déterminer vos besoins en résilience et en bande passante. Si la liaison entre votre site de succursale et votre site central est résiliente et dispose d’une bande passante suffisante, vous pouvez déployer une connexion SIP ou une passerelle. Vous n’avez pas besoin de déployer un Survivable Branch Appliance sur le site de succursale. Si la liaison entre votre site de succursale et votre site central n’est pas résiliente, déployez un Survivable Branch Appliance ou déployez un serveur Survivable Branch Server avec une passerelle ou une connexion SIP sur le site de succursale. 
   
 

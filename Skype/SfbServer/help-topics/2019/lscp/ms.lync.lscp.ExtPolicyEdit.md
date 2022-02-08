@@ -1,8 +1,8 @@
 ---
 title: 'Stratégie d’accès externe : création d’une stratégie ou modification d’une stratégie existante'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: ebf149cb8d684c62a016e5a82373df415552fb9b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 56c593e933cd2a2cacc4c66a7c62eacc84c8aa90
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859541"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386242"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>Stratégie d’accès externe : création d’une nouvelle ou modification d’une stratégie existante
 

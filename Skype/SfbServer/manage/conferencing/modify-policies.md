@@ -1,8 +1,8 @@
 ---
 title: Modifier les stratégies de conférence dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
 description: 'Résumé : Découvrez comment modifier des stratégies de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: 0c9b2f24fac8303a28f4e7408d23e950f5586785
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f7f32d227ca33a62ed389a2638f3d784839be8d9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852078"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385702"
 ---
 # <a name="modify-conferencing-policies-in-skype-for-business-server"></a>Modifier les stratégies de conférence dans Skype Entreprise Server
  
@@ -31,7 +31,7 @@ Vous pouvez modifier des stratégies de conférence à l’Skype Entreprise Serv
     
 2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur Stratégie **de conférence.**
+3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur Stratégie **de conférence**.
     
 4. Dans la liste des stratégies de conférence, cliquez sur la stratégie de conférence souhaitée, sur **Modifier**, puis sur **Afficher les détails**.
     
@@ -41,7 +41,7 @@ Vous pouvez modifier des stratégies de conférence à l’Skype Entreprise Serv
     
 ## <a name="modify-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Modifier les stratégies de conférence à l’aide Skype Entreprise Server Management Shell
 
-Pour modifier les stratégies de conférence, utilisez l’cmdlet **Set-CsConferencingPolicy.**
+Pour modifier les stratégies de conférence, utilisez l’cmdlet **Set-CsConferencingPolicy** .
   
 L’exemple suivant modifie une valeur de propriété de la stratégie de conférence SalesConferencingPolicy. La commande définit la valeur de la propriété AllowConferenceRecording sur False :
   

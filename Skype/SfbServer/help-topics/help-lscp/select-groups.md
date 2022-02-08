@@ -1,8 +1,8 @@
 ---
 title: Sélectionner des groupes
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
-description: Les files d’attente Response Group tiennent des appels aux groupes Response Group jusqu’à ce qu’un agent réponde à l’appel. Des groupes d’agents sont attribués aux files d’attente. Lorsque vous créez ou modifiez une file d’attente, vous utilisez la boîte de dialogue Sélectionner des groupes pour sélectionner un ou plusieurs groupes d’agents à attribuer à la file d’attente.
-ms.openlocfilehash: 192963d7d8f2d72c330793a4cf63627d8f0b8dc6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Les files d’attente Response Group tiennent les appels aux groupes Response Group jusqu’à ce qu’un agent réponde à l’appel. Des groupes d’agents sont attribués aux files d’attente. Lorsque vous créez ou modifiez une file d’attente, vous utilisez la boîte de dialogue Sélectionner des groupes pour sélectionner un ou plusieurs groupes d’agents à attribuer à la file d’attente.
+ms.openlocfilehash: 1172cef846cc3ad7bbc7d7f592f7e48b111f95f3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842997"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386782"
 ---
 # <a name="select-groups"></a>Sélectionner des groupes
 
-Les files d’attente Response Group tiennent des appels aux groupes Response Group jusqu’à ce qu’un agent réponde à l’appel. Des groupes d’agents sont attribués aux files d’attente. Lorsque vous créez ou modifiez une file d’attente, vous utilisez la boîte de dialogue **Sélectionner des groupes** pour sélectionner un ou plusieurs groupes d’agents à attribuer à la file d’attente.
+Les files d’attente Response Group tiennent les appels aux groupes Response Group jusqu’à ce qu’un agent réponde à l’appel. Des groupes d’agents sont attribués aux files d’attente. Lorsque vous créez ou modifiez une file d’attente, vous utilisez la boîte de dialogue **Sélectionner des groupes** pour sélectionner un ou plusieurs groupes d’agents à attribuer à la file d’attente.
 
 ## <a name="ui-reference"></a>Référence d’interface utilisateur
 

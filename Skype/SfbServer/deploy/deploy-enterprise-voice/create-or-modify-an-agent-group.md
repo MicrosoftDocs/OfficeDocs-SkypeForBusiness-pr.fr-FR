@@ -1,8 +1,8 @@
 ---
 title: Créer ou modifier un groupe d’agents dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Créez ou modifiez un groupe d’agents dans Response Group, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: d4254a3851b434145eb3afa5cec1a721c51fe1f2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6428a5024922ff74e19404c481794e60e3304998
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853758"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388921"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Créer ou modifier un groupe d’agents dans Skype Entreprise
  
@@ -33,14 +33,14 @@ Un agent qui doit se dé connecter au groupe et s’en dése sortie, ce qui est 
   
 Un agent qui ne se connecte pas ou ne se connecte pas au groupe est appelé agent informel. Les agents informels sont automatiquement connectés au groupe lorsqu’ils se connectent à Skype Entreprise et ne peuvent pas se résigner au groupe.
   
-Seuls les utilisateurs locaux peuvent être des agents. Si un agent est déplacé de l’local vers le site en ligne, les appels Response Group ne seront pas acheminés vers cet agent.
+Seuls les utilisateurs locaux peuvent être des agents. Si un agent est déplacé de l’local vers le site en ligne, les appels Response Group ne sont pas acheminés vers cet agent.
   
 Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d’agents.
   
 > [!IMPORTANT]
 > Lorsque vous affectez des utilisateurs en tant qu’agents au groupe de réponses, informez-les que, s’ils ont activé le mode de confidentialité, ils doivent rechercher des contacts « RGS Presence Watcher » et les ajouter à leur liste de contacts. Les agents qui ont activé le mode de confidentialité, mais qui n’ont pas « RGS Presence Watcher » dans leur liste de contacts, ne peuvent pas recevoir d’appels au groupe Response Group. Cela ne concerne pas les agents qui n’ont pas activé le mode de confidentialité. 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>Pour utiliser Skype Entreprise Server panneau de bord pour créer ou modifier un groupe d’agents
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>Pour utiliser Skype Entreprise Server de contrôle d’agent pour créer ou modifier un groupe d’agents
 
 1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
@@ -51,13 +51,13 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
     
 3. Dans la barre de navigation de gauche, cliquez sur **Groupes Response Group**, puis sur **Groupe**.
     
-4. Dans la page **Groupe,** faites l’une des choses suivantes :
+4. Dans la page **Groupe** , faites l’une des choses suivantes :
     
-   - Pour créer un groupe d’agents, cliquez sur **Nouveau.** Dans le **champ Sélectionner un service** de recherche, tapez tout ou partie du nom du service **ApplicationServer** où vous souhaitez ajouter le groupe. Dans la liste des services obtenue, cliquez sur le service de votre choix, puis sur **OK**.
+   - Pour créer un groupe d’agents, cliquez sur **Nouveau**. Dans le **champ Sélectionner un service** de recherche, tapez tout ou partie du nom du service **ApplicationServer** où vous souhaitez ajouter le groupe. Dans la liste des services obtenue, cliquez sur le service de votre choix, puis sur **OK**.
     
-   - Pour modifier un groupe d’agents existant, tapez tout ou partie du nom du groupe d’agents dans le champ de recherche. Dans la liste qui en résulte, cliquez sur le groupe que vous souhaitez, cliquez sur **Modifier,** puis cliquez sur Afficher **les détails.**
+   - Pour modifier un groupe d’agents existant, tapez tout ou partie du nom du groupe d’agents dans le champ de recherche. Dans la liste qui en résulte, cliquez sur le groupe que vous souhaitez, cliquez sur **Modifier, puis** sur **Afficher les détails**.
     
-5. Dans **Nom,** tapez un nom d’identification pour le groupe d’agents.
+5. Dans **Nom**, tapez un nom d’identification pour le groupe d’agents.
     
 6. Dans **Description**, tapez la description du groupe.
     
@@ -74,7 +74,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
   
 9. Dans **Méthode de routage**, sélectionnez la méthode pour transmettre les appels aux agents dans le groupe comme suit :
     
-   - Pour d’abord proposer un nouvel appel à l’agent qui a été inactif le plus longtemps (a été la présence de **Disponible** ou **Inactif** dans Skype Entreprise le plus long), cliquez sur Le plus long **inactif**. 
+   - Pour d’abord proposer un nouvel appel à l’agent qui a été inactif le plus longtemps (a été la présence de **Disponible** ou **Inactif** dans Skype Entreprise le plus long), cliquez sur Inactif le **plus long**. 
     
    - Pour qu’un nouvel appel soit présenté à tous les agents disponibles simultanément, cliquez sur **Parallèle**. L’appel est envoyé au premier agent qui l’accepte.
     
@@ -88,13 +88,13 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
     
     - Pour utiliser une liste personnalisée d’agents, cliquez sur Définir un groupe personnalisé **d’agents** et faites l’une des choses suivantes :
     
-    - Pour ajouter un utilisateur au groupe d’agents,  cliquez sur Sélectionner, puis dans le champ De recherche Sélectionner des agents, tapez tout ou partie du nom de l’utilisateur que vous souhaitez ajouter à ce groupe, puis cliquez sur **Rechercher.** Dans la liste des agents qui en résulte, cliquez sur l’utilisateur, puis sur **OK.**
+    - Pour ajouter un utilisateur au groupe d’agents, cliquez sur **Sélectionner, puis** dans  le champ De recherche Sélectionner des agents, tapez tout ou partie du nom de l’utilisateur que vous souhaitez ajouter à ce groupe, puis cliquez sur **Rechercher.** Dans la liste des agents qui en résulte, cliquez sur l’utilisateur, puis sur **OK**.
     
-    - Pour supprimer un utilisateur du groupe d’agents, dans la liste des agents, cliquez sur l’utilisateur à supprimer, puis cliquez sur **Supprimer.**
+    - Pour supprimer un utilisateur du groupe d’agents, dans la liste des agents, cliquez sur l’utilisateur à supprimer, puis cliquez sur **Supprimer**.
     
     - Pour modifier l’ordre dans lequel les appels sont proposés aux agents dans les groupes qui utilisent le routage round robin ou le routage en série, dans la liste des agents, cliquez sur un utilisateur, puis cliquez sur la flèche vers le haut ou vers le bas. 
     
-    - Pour utiliser une liste de distribution Microsoft Exchange Server en tant que groupe d’agents, cliquez sur Utiliser une liste de **distribution** de courrier électronique existante, puis, dans l’adresse de la liste de **distribution,** tapez l’adresse e-mail de la liste de distribution (par exemple, NetworkSupport@contoso.com).
+    - Pour utiliser une liste de distribution Microsoft Exchange Server comme groupe d’agents, cliquez sur Utiliser une liste de **distribution** de courrier électronique existante, puis, dans l’adresse de la liste de **distribution,** tapez l’adresse e-mail de la liste de distribution (par exemple, NetworkSupport@contoso.com).
     
       Si vous utilisez une liste de distribution de courrier électronique, vous êtes soumis aux contraintes suivantes :
     
@@ -113,7 +113,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
     
      - Si une liste de distribution a été configurée pour que l’appartenance soit masquée et que l’administrateur Response Group affecte la liste de distribution à la liste des agents, les utilisateurs peuvent appeler le groupe pour savoir qui sont les membres. 
     
-     - Si une liste de distribution a été configurée de sorte qu’elle soit masquée dans la liste d’adresses globale de Exchange, l’administrateur Response Group peut être en mesure d’en voir la liste de distribution et de l’affecter à la liste des agents si le processus Response Group dispose des droits et autorisations d’utilisateur appropriés, même si l’administrateur ne dispose pas des droits et autorisations d’utilisateur appropriés.
+     - Si une liste de distribution a été configurée de sorte qu’elle soit masquée dans la liste d’adresses globale de Exchange, l’administrateur Response Group peut être en mesure de voir la liste de distribution et de l’affecter à la liste des agents si le processus Response Group dispose des droits et autorisations d’utilisateur appropriés, même si l’administrateur ne dispose pas des droits et autorisations d’utilisateur appropriés.
     
 11. Cliquez sur **Valider**.
     
@@ -121,7 +121,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
 
 1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
-2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
     
 3. Utilisez **New-CsRgsAgentGroup** pour créer un groupe d’agents. Utilisez **Set-CsRgsAgentGroup pour** modifier un groupe d’agents existant. À partir de la ligne de commande, exécutez la commande suivante :
     

@@ -1,8 +1,8 @@
 ---
 title: Exchange Unified Messaging Paramètres (Planning Tool)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,17 +16,17 @@ ms.localizationpriority: medium
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype Entreprise Server 2015 prend en charge l’intégration à la messagerie unifiée Exchange pour combiner la messagerie vocale et la messagerie électronique dans une infrastructure de messagerie unique.
-ms.openlocfilehash: d366de5e0e7d3c7cac348c3fd5b0caa4902cf4e9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 194fcf675917c8fd47ecc8c7166cd736d1b6f289
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858521"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386132"
 ---
 # <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Exchange Unified Messaging Paramètres (Planning Tool) dans Skype Entreprise 2015
 
 > [!NOTE]
-> Exchange La messagerie unifiée comme précédemment connue n’est plus disponible dans Exchange 2019, mais vous pouvez toujours utiliser Système téléphonique pour enregistrer les messages vocaux, puis laisser l’enregistrement dans la boîte aux lettres Exchange d’un utilisateur. Pour [plus d’informations, voir Messagerie vocale infonuagique service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) de plan.
+> Exchange la messagerie unifiée comme précédemment connue n’est plus disponible dans Exchange 2019, mais vous pouvez toujours utiliser Système téléphonique pour enregistrer des messages vocaux, puis laisser l’enregistrement dans la boîte aux lettres Exchange d’un utilisateur. Pour [plus d’informations, voir Messagerie vocale infonuagique service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) de plan.
 
 Skype Entreprise Server 2015 prend en charge l’intégration à la messagerie unifiée Exchange pour combiner la messagerie vocale et la messagerie électronique dans une infrastructure de messagerie unique.
 
@@ -36,4 +36,4 @@ Pour obtenir des informations détaillées, voir :
 
 - « Messagerie unifiée » sur [https://go.microsoft.com/fwlink/?LinkId=285341](/exchange/unified-messaging-exchange-2013-help)
 
-- « Planification de la messagerie unifiée » sur [https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help) .
+- « Planification de la messagerie unifiée » sur [https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help).

@@ -5,8 +5,8 @@ ms:assetid: ab1051c3-8380-4d72-86df-37a61b1e4a41
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg405409(v=OCS.15)
 ms:contentKeyID: 48185049
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: La Qualité de service (QoS) est une technologie réseau utilisée dans certaines organisations afin de fournir des performances optimales à l’utilisateur final pour les communications audio et vidéo.
-ms.openlocfilehash: aa7012a664c7075c06a6bd104921e1cac680e798
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 043d29eea849ffbd534199a6622b35e2322f7044
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831978"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390116"
 ---
 # <a name="managing-quality-of-service-qos-in-skype-for-business-server"></a>Gestion de la qualité de service (QoS) dans Skype Entreprise Server
 
@@ -37,10 +37,10 @@ Skype Entreprise Server offre une prise en charge complète de la qualité de se
 
   - [Activation de la QoS pour les appareils qui ne sont pas basés sur Windows](enabling-qos-for-devices-that-are-not-based-on-windows.md). Par défaut, QoS est désactivée pour les ordinateurs et autres périphériques (tels que les iPhones) qui exécutent d’autres systèmes d’exploitation. Bien que vous pouvez utiliser Skype Entreprise Server pour activer et désactiver la qualité de service pour les appareils, vous ne pouvez généralement pas utiliser le produit pour modifier les codes DSCP utilisés par ces appareils.
 
-  - [Configuration des plages de ports et d’une](configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)stratégie de qualité de service pour vos serveurs de conférence, d’application et de médiation. Vous devez réserver un ensemble unique de ports pour différents types de paquets, tels que les paquets audio et vidéo. Avec Skype Entreprise Server vous n’activez pas ou ne désactivez pas la qualité de service en activant une valeur de propriété sur True ou False. Au lieu de cela, vous activez la Qualité de service en configurant des plages de ports, puis en créant et en appliquant une stratégie de groupe. Si vous décidez par la suite de ne pas utiliser QoS, vous pouvez simplement « désactiver » ce service en supprimant les objets de stratégie de groupe appropriés.
+  - [Configuration des plages de ports et d’une stratégie de qualité de service pour vos serveurs de conférence, d’application et de médiation](configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md). Vous devez réserver un ensemble unique de ports pour différents types de paquets, tels que les paquets audio et vidéo. Avec Skype Entreprise Server vous n’activez pas ou ne désactivez pas la qualité de service en activant une valeur de propriété sur True ou False. Au lieu de cela, vous activez la Qualité de service en configurant des plages de ports, puis en créant et en appliquant une stratégie de groupe. Si vous décidez par la suite de ne pas utiliser QoS, vous pouvez simplement « désactiver » ce service en supprimant les objets de stratégie de groupe appropriés.
 
-  - [Configuration des plages de ports et d’une stratégie de qualité de service pour vos serveurs Edge.](configuring-port-ranges-for-your-edge-servers.md) Bien que cela ne soit pas requis, vous pouvez configurer vos serveurs Edge de façon à utiliser les mêmes plages de ports que vos autres serveurs. La configuration d’une stratégie de qualité de service ne doit être effectuée que pour le côté interne de vos serveurs Edge. En effet, la Qualité de service est conçue pour être utilisée sur votre réseau interne, et non sur Internet.
+  - [Configuration des plages de ports et d’une stratégie de qualité de service pour vos serveurs Edge](configuring-port-ranges-for-your-edge-servers.md). Bien que cela ne soit pas requis, vous pouvez configurer vos serveurs Edge de façon à utiliser les mêmes plages de ports que vos autres serveurs. La configuration d’une stratégie de qualité de service ne doit être effectuée que pour le côté interne de vos serveurs Edge. En effet, la Qualité de service est conçue pour être utilisée sur votre réseau interne, et non sur Internet.
 
-- [Configuration des plages de ports et d’une stratégie de](configuring-port-ranges-for-your-skype-clients.md) qualité de service pour vos clients dans Skype Entreprise Server  Ces plages de ports s’appliquent uniquement aux ordinateurs clients et sont généralement différentes des plages de ports configurées sur vos serveurs. Notez que Skype Entreprise Server ne prend pas en charge la QoS pour les Windows d’exploitation autres que Windows 10.
+- [Configuration des plages](configuring-port-ranges-for-your-skype-clients.md) de ports et d’une stratégie de qualité de service pour vos clients dans Skype Entreprise Server Ces plages de ports s’appliquent uniquement aux ordinateurs clients et sont généralement différentes des plages de ports configurées sur vos serveurs. Notez que Skype Entreprise Server ne prend pas en charge la QoS pour les Windows d’exploitation autres que Windows 10.
 
 

@@ -1,8 +1,8 @@
 ---
 title: Rapport de tendance générale de la qualité des médias serveur Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 description: 'Résumé : Découvrez le rapport de tendance générale de la qualité des médias serveur Skype Entreprise Server.'
-ms.openlocfilehash: 03091deedf502c4a6d9d65dc5e9f14532a9147ab
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 05458e90e90189de46c26dd51eced8a9175e6afd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851017"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385584"
 ---
 # <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Rapport de tendance générale de la qualité des médias serveur Skype Entreprise Server
  
@@ -31,13 +31,13 @@ Le rapport de tendance générale de la qualité des médias serveur est accessi
   
 - [Rapport de performances du serveur Skype Entreprise Server](server-performance.md) (en cliquant sur la mesure Tendance)
     
-- [Call Detail Report in Skype Entreprise Server](call-detail-report.md) (by clicking the A/V edge server metric. Si l’appelant ou l’appelé est un serveur, vous pouvez également accéder au rapport de tendance des médias de qualité du serveur en cliquant sur le nom du point de terminaison.)
+- [Rapport détaillé des appels Skype Entreprise Server](call-detail-report.md) (en cliquant sur la mesure Serveur Edge A/V. Si l’appelant ou l’appelé est un serveur, vous pouvez également accéder au rapport de tendance des médias de qualité du serveur en cliquant sur le nom du point de terminaison.)
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>Utilisation efficace du rapport de tendance de la qualité des médias serveur
 
-Lorsque vous cliquez sur la mesure Tendance dans le rapport de performances du [serveur Skype Entreprise Server](server-performance.md) pour un serveur spécifique, le rapport de tendance de la qualité des médias serveur s’ouvre. Cependant, vous obtenez une instance vide de ce rapport ; le serveur que vous sélectionnez ne sera pas affiché à l’écran. Vous devez sélectionner ce serveur dans la liste déroulante Serveurs. Notez que la liste déroulante Serveurs propose une option Tout sélectionner. Cette option ne sera pas disponible si vous avez plus de 5 serveurs, en effet le rapport de tendance de la qualité des médias serveur ne peut afficher que 5 serveurs à la fois.
+Lorsque vous cliquez sur la mesure Tendance dans le rapport de performances du [serveur](server-performance.md) Skype Entreprise Server pour un serveur spécifique, le rapport de tendance de la qualité des médias serveur s’ouvre. Cependant, vous obtenez une instance vide de ce rapport ; le serveur que vous sélectionnez ne sera pas affiché à l’écran. Vous devez sélectionner ce serveur dans la liste déroulante Serveurs. Notez que la liste déroulante Serveurs propose une option Tout sélectionner. Cette option ne sera pas disponible si vous avez plus de 5 serveurs, en effet le rapport de tendance de la qualité des médias serveur ne peut afficher que 5 serveurs à la fois.
   
-Sur les graphiques affichés par le rapport de tendance de la qualité des médias serveur, les points appelés Volume d’appels et Pourcentage d’appels médiocres sont des liens d’accès . Si vous cliquez sur un point sur le graphique, une instance du rapport de liste d’appels s’ouvre dans [Skype Entreprise Server](call-list-report-0.md) affichant le nombre total d’appels (ou appels médiocres) pour la période spécifiée.
+Sur les graphiques affichés par le rapport de tendance de la qualité des médias serveur, les points appelés Volume d’appels et Pourcentage d’appels médiocres sont des liens d’accès . Si vous cliquez sur un point sur le graphique, une instance du rapport des listes d’appels s’ouvre dans [Skype Entreprise Server](call-list-report-0.md) affichant le nombre total d’appels (ou appels médiocres) pour la période spécifiée.
   
 ## <a name="filters"></a>Filtres
 
@@ -53,7 +53,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 |**Type de serveur** <br/> | Type de serveur de l’appel. Les valeurs autorisées sont les suivantes : <br/>  Serveur de médiation <br/>  Serveur de conférence A/V <br/>  Serveur Edge A/V <br/>  Passerelle (serveur de médiation) <br/>  Passerelle (contournement du serveur de médiation) <br/>  Serveur de conférence AS <br/> |
 |**Servers** <br/> |Nom du serveur de la session ; cette liste déroulante est automatiquement remplie en fonction de la valeur du filtre Type de serveur. Vous pouvez sélectionner jusqu’à 5 serveurs différents lors de la création d’un rapport.  <br/> |
 |**Type d’accès** <br/> | Indique si le participant était connecté au réseau interne ou à partir d’un réseau externe. Les valeurs autorisées sont les suivantes : <br/>  [Tous] <br/>  Interne <br/>  Externe <br/> |
-|**Type de réseau** <br/> | Indique le type de réseau auquel le participant était connecté. Les valeurs autorisées sont les suivantes : <br/>  [Tous] <br/>  Câblé <br/>  Sans fil <br/> |
+|**Type de réseau** <br/> | Indique le type de réseau auquel le participant était connecté. Les valeurs autorisées sont les suivantes : <br/>  [Tous] <br/>  Fil de fer <br/>  Sans fil <br/> |
 |**VPN** <br/> | Indique si un participant externe utilisait une connexion VPN lors de la session. Les valeurs autorisées sont les suivantes : <br/>  [Tous] <br/>  VPN <br/>  Non VPN <br/> |
    
 ## <a name="metrics"></a>Mesures

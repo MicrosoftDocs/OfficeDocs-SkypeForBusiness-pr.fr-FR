@@ -1,8 +1,8 @@
 ---
 title: Tronçon suivant de la fusion héritée
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 14c19ac6-f91d-41cb-b6a2-e54ed06b9596
 description: Le nom de domaine complet du tronçon suivant identifie le serveur du tronçon suivant vers lequel le serveur Edge hérité achemine le trafic interne. Tapez le nom de domaine complet (FQDN) du serveur du tronçon suivant vers lequel ce serveur Edge achemine le trafic interne, puis déterminez s’il s’agit d’un pool frontal ou d’un directeur.
-ms.openlocfilehash: bc7d1be8f0e01e8e8e3974f9b5f173d3739b3b13
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2ab78d59da2c49af0f9077d9d88ae8eabd9cb8a7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847627"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386742"
 ---
 # <a name="legacy-merge-next-hop"></a>Tronçon suivant de la fusion héritée
  

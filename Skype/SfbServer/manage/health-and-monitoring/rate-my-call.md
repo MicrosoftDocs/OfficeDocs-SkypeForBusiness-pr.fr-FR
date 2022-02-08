@@ -1,8 +1,8 @@
 ---
 title: Évaluer mon appel dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 'Résumé : Découvrez la fonctionnalité Évaluer mon appel dans Skype Entreprise Server.'
-ms.openlocfilehash: f19424edfb4169a27e10a8b5ac1624065e6288dd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 27fbfa68026feeef54d478ba473961601db0ae8d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864831"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390126"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Évaluer mon appel dans Skype Entreprise Server
 
@@ -63,7 +63,7 @@ Les données des utilisateurs sont collectées dans deux tables de la base de do
 
  **[QoeMetrics]. [dbo]. [CallQualityFeedbackToken]** - Ce tableau contient les résultats de l’interrogation des jetons par les utilisateurs finaux.
 
- **[QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef]** - Ce tableau contient des définitions de jeton.
+ **[QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef]** - Ce tableau contient les définitions de jeton.
 
 Les définitions de jeton sont codées comme suit :
 
@@ -110,7 +110,7 @@ Les définitions de jeton sont codées comme suit :
 
  **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Ce tableau contient les résultats des sondages provenant du vote « Star » et des commentaires des clients si activés.
 
-Les données des tables peuvent être appelées à l’aide d’une requête **\* [Table.Name]** ou à l’aide de Microsoft SQL Server Management Studio.
+Les données des tables peuvent être **\*** appelées à l’aide d’une requête select à partir de [Table.Name] ou à l’aide de Microsoft SQL Server Management Studio.
 
 Les requêtes SQL suivantes peuvent être utilisées :
 
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>Mise à jour des définitions de jeton
 
-Les derniers Skype Entreprise clients signalent de nouveaux ID de jeton de problème ( 100) qui peuvent ne pas être présents dans \> votre [QoeMetrics].[ dbo]. Table [CallQualityFeedbackTokenDef]. Pour mettre à jour la table de base de données avec les définitions de jeton les plus récentes, la commande SQL suivante peut être exécuté sur la base de données de surveillance à l’aide Microsoft SQL Server Management Studio. Cette commande remplace toutes les entrées de [QoeMetrics]. [dbo]. Table [CallQualityFeedbackTokenDef].
+Les derniers Skype Entreprise clients signalent de nouveaux ID de jeton de problème (\> 100) qui peuvent ne pas être présents dans votre [QoeMetrics].[ dbo]. Table [CallQualityFeedbackTokenDef]. Pour mettre à jour la table de base de données avec les définitions de jeton les plus récentes, la commande SQL suivante peut être exécuté sur la base de données de surveillance à l’aide Microsoft SQL Server Management Studio. Cette commande remplace toutes les entrées de [QoeMetrics]. [dbo]. Table [CallQualityFeedbackTokenDef].
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

@@ -1,7 +1,7 @@
 ---
 title: Définir des scénarios d’utilisation de Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55b25ab0367909da0136a7761b7e763965c5804d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e932ce57212b2efc88a0b26316b7d9668062045c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842556"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387462"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Définir des scénarios d’utilisation de Microsoft Teams
 
@@ -70,6 +70,6 @@ Après avoir parlé à une ou plusieurs parties prenantes de l’entreprise, vou
 ![Illustration montrant l’impact sur le scénario et la difficulté.](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> Nous sommes toujours impatients de découvrir comment nos clients utilisent Teams de façon innovante. Partagez vos #TeamsStories avec nous dans notre forum de [discussion Adoption en ligne.](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption) Incluez le hashtag **#TeamsStories** dans votre billet. Nous sommes toujours intéressé par la façon dont vous utilisez Teams dans votre organisation.
+> Nous sommes toujours impatients de découvrir comment nos clients utilisent Teams de façon innovante. Partagez vos #TeamsStories avec nous dans notre [forum de discussion Adoption de la conduite](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption). Incluez le hashtag **#TeamsStories** dans votre publication. Nous sommes toujours intéressé par la façon dont vous utilisez Teams dans votre organisation.
 
-![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : Intégrer [les premiers utilisateurs et recueillir des commentaires.](teams-adoption-onboard-early-adopters.md)
+![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : Intégrer [les premiers utilisateurs et recueillir des commentaires](teams-adoption-onboard-early-adopters.md).

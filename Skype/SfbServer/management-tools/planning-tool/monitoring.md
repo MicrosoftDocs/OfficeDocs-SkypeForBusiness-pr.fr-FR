@@ -1,8 +1,8 @@
 ---
 title: Outil de planification de surveillance
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: Dans Skype Entreprise Server 2015, la surveillance collecte des informations d’utilisation et des données de qualité de l’expérience (QoE) sur les sessions de communication des utilisateurs.
-ms.openlocfilehash: 0fd4d4115b8ee800245b41c6645b5a592251e213
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2fdccdd0c74e95a76c1b6460d47dd7d0c11fc689
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850757"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388052"
 ---
 # <a name="monitoring-planning-tool"></a>Outil de planification de surveillance
 

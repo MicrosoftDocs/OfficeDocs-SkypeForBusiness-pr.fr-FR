@@ -1,8 +1,8 @@
 ---
 title: Naviguer dans l’outil de planification Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,22 +14,22 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: Vous naviguez dans Skype Entreprise Server Outil de planification 2015 à l’aide d’une barre d’outils, de boutons et de liens spécifiques à une page, et de volets spécifiques au contexte. Les volets spécifiques au contexte fournissent des informations de conception pour la planification et la capacité qui sont pertinentes pour les options de sélection sur une page spécifique.
-ms.openlocfilehash: 6485d23d8f7aa6bfafd039ab1832be7a06f65449
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ed248fad77615d37abf3eb6b7434d8d20ad1703b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845377"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388042"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Naviguer dans l’outil de planification Skype Entreprise Server 2015
 
 Vous naviguez dans Skype Entreprise Server Outil de planification 2015 à l’aide d’une barre d’outils, de boutons et de liens spécifiques à une page, et de volets spécifiques au contexte. Les volets spécifiques au contexte fournissent des informations de conception pour la planification et la capacité qui sont pertinentes pour les options de sélection sur une page spécifique.
 
-Au démarrage de l’outil de planification, un concepteur voit d’abord la page Bienvenue dans l’outil de planification **Skype Entreprise Server 2015.**
+Au démarrage de l’outil de planification, un concepteur voit d’abord la page Bienvenue dans l’outil de planification **Skype Entreprise Server 2015**.
 
 ![Page d’accueil de l’outil de planification.](../../media/Planning_Tool_Welcome.png)
 
-Sur la page d’accueil, le concepteur choisit **Prise en main**, Concevoir **des sites** ou **Afficher**. Pour plus d’informations, voir [Create the initial topology design for Skype Entreprise Server 2015](create-the-initial-design.md).
+Dans la page d’accueil, le concepteur **choisit Prise en main**, Concevoir des **sites** ou **Afficher**. Pour plus d’informations, voir [Create the initial topology design for Skype Entreprise Server 2015](create-the-initial-design.md).
 
 En haut de l’outil de planification se trouve une barre d’outils qui permet d’accéder facilement aux fonctions fréquemment utilisées. La barre d’outils s’affiche ici pour référence et chaque fonction sera abordée dans des rubriques connexes.
 

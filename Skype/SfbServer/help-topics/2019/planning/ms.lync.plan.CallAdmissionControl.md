@@ -1,8 +1,8 @@
 ---
-title: Contrôle d’admission des appels (outil de planification)
+title: Call Admission Control (Planning Tool)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,14 +16,14 @@ ms.localizationpriority: medium
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le contrôle d’admission des appels détermine, en fonction de la bande passante réseau disponible, si des sessions de communication en temps réel, telles que des appels vocaux ou vidéo, peuvent être établies.
-ms.openlocfilehash: e72b64f595ebca9e83df722b09c14a7f971651cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 93f94824d6f47e41c63de1bf0f8e02cf9886bc92
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831348"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386175"
 ---
-# <a name="call-admission-control-planning-tool"></a>Contrôle d’admission des appels (outil de planification)
+# <a name="call-admission-control-planning-tool"></a>Call Admission Control (Planning Tool)
  
 Le contrôle d’admission des appels détermine, en fonction de la bande passante réseau disponible, si des sessions de communication en temps réel, telles que des appels vocaux ou vidéo, peuvent être établies.
   

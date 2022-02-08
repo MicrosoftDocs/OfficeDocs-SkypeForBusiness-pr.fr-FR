@@ -1,8 +1,8 @@
 ---
 title: Affichage d’inscription
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: L’affichage Inscription stocke les informations relatives à l’inscription de l’utilisateur. Cette vue a été introduite dans Lync Server 2013.
-ms.openlocfilehash: 62cfed96994f11ec7393bacc1e0b77edbe3374e7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ccd868c228b32f69240d6b2c7a10d4c07ac90d56
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842666"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384112"
 ---
 # <a name="registration-view"></a>Affichage d’inscription
  
@@ -26,18 +26,18 @@ L’affichage Inscription stocke les informations relatives à l’inscription d
   
 |**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |DateHeure  <br/> |Heure de la demande de session. Utilisé conjointement avec SessionIdSeq pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Numéro d’identification de la session. Utilisé conjointement avec SessionIdTime pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
+|**SessionIdTime** <br/> |DateHeure  <br/> |Heure de la demande de session. Utilisé conjointement avec SessionIdSeq pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015](dialogs.md). <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Numéro d’identification de la session. Utilisé conjointement avec SessionIdTime pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015](dialogs.md). <br/> |
 |**RegisterTime** <br/> |DateHeure  <br/> |Heure de l’enregistrement.  <br/> |
 |**UserUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur inscrit.  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de l’utilisateur inscrit. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Locataire de l’utilisateur inscrit. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
+|**UserUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de l’utilisateur inscrit. Pour plus [d’informations, voir la table UriTypes](uritypes.md) . <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Locataire de l’utilisateur inscrit. Pour plus [d’informations, voir le tableau Tenants](tenants.md) . <br/> |
 |**EndpointId** <br/> |uniqueidentifier  <br/> |Identificateur unique du point de terminaison auprès duquel l’utilisateur est inscrit.  <br/> |
 |**EndpointEra** <br/> |uniqueidentifier  <br/> |Identificateur unique utilisé pour différencier les inscriptions du même utilisateur auprès du même point de terminaison.  <br/> |
 |**DeRegisterType** <br/> |DateHeure  <br/> |Heure à laquelle la désinscription a eu lieu.  <br/> |
 |**DeRegisterReason** <br/> |nvarchar(256)  <br/> |Raison de la désinscription.  <br/> |
 |**ClientVersion** <br/> |nvarchar(256)  <br/> |Version du client utilisé par l’utilisateur inscrit.  <br/> |
-|**ClientType** <br/> |int  <br/> |Client utilisé par l’utilisateur inscrit. Pour plus d’informations, voir la [table UserAgentDef.](useragentdef.md) <br/> |
+|**ClientType** <br/> |int  <br/> |Client utilisé par l’utilisateur inscrit. Pour plus [d’informations, voir la table UserAgentDef](useragentdef.md) . <br/> |
 |**ClientCategory** <br/> |nvarchar(64)  <br/> |Catégorie du client utilisée par l’utilisateur inscrit.  <br/> |
 |**IpAddress** <br/> |nvarchar(256)  <br/> |Adresse IP avec laquelle l’utilisateur s’est inscrit. Il peut s’agit d’une adresse IPv4 ou IPv6.  <br/> |
 |**DialogId** <br/> |varstring(775)  <br/> |ID de dialogue SIP. Le format est :  <br/> dialog;from-tag;to-tag  <br/> |
@@ -50,7 +50,7 @@ L’affichage Inscription stocke les informations relatives à l’inscription d
 |**IsUserServiceAvailable** <br/> |bit  <br/> |Indique si UserService était disponible au moment de l’inscription.  <br/> |
 |**IsPrimaryRegistrar** <br/> |bit  <br/> |Indique si l’inscription a eu lieu auprès du serveur d’inscriptions principal.  <br/> |
 |**DeviceMacAddress** <br/> |bigint  <br/> |Adresse MAC de l’appareil inscrit.  <br/> |
-|**DeviceManufacturer** <br/> |nvarchar(256)  <br/> |Fabricant de l’appareil inscrit. Pour plus d’informations, voir le tableau [Manufacturers Skype Entreprise Server 2015.](manufacturers.md) <br/> |
-|**DeviceHardwareVersion** <br/> |nvarchar(256)  <br/> |Version matérielle de l’appareil inscrit. Pour plus [d’informations, voir le tableau HardwareVersions Skype Entreprise Server 2015.](hardwareversions.md) <br/> |
+|**DeviceManufacturer** <br/> |nvarchar(256)  <br/> |Fabricant de l’appareil inscrit. Pour plus [d’informations, voir le tableau Manufacturers Skype Entreprise Server 2015](manufacturers.md). <br/> |
+|**DeviceHardwareVersion** <br/> |nvarchar(256)  <br/> |Version matérielle de l’appareil inscrit. Pour plus [d’informations, voir le tableau HardwareVersions Skype Entreprise Server 2015](hardwareversions.md). <br/> |
    
 

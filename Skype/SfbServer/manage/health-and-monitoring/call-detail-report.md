@@ -1,8 +1,8 @@
 ---
 title: Rapport détaillé des appels dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: 'Résumé : Découvrez le rapport détaillé des appels utilisé dans Skype Entreprise Server.'
-ms.openlocfilehash: 8f5d9e99a9141e1954aef2636ed5d671003e6ad3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6d8a79506e215bd46a54c89969fc5991f9962d6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834212"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385616"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>Rapport détaillé des appels dans Skype Entreprise Server
  
-**Résumé :** Découvrez le rapport détaillé des appels utilisé dans Skype Entreprise Server.
+**Résumé :** Découvrez le rapport détaillé de l’appel utilisé dans Skype Entreprise Server.
   
 Le rapport détaillé de l’appel fournit une analyse détaillée d’un appel individuel . Le rapport inclut presque toutes les mesures et statistiques de qualité de l’expérience collectées par Skype Entreprise Server, divisées en sections de rapport telles que :
   
@@ -55,7 +55,7 @@ Le rapport sur le détail de l’appel est accessible à partir des rapports sui
     
 - [Media Quality Summary Report in Skype Entreprise Server (summary.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
-- Le [rapport comparatif de la](comparison.md) qualité des médias Skype Entreprise Server (en cliquant sur le rapport de liste d’appels dans [Skype Entreprise Server](call-list-report-0.md) puis sur la mesure Détail).
+- Le [rapport comparatif de la qualité des médias Skype Entreprise Server](comparison.md) (en cliquant sur le rapport de liste d’appels [dans Skype Entreprise Server](call-list-report-0.md) puis sur la mesure Détail).
     
 - Rapport [sur les performances du serveur Skype Entreprise Server](server-performance.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
@@ -73,7 +73,7 @@ Vous pouvez aussi accéder au Rapport de tendance générale de la qualité des 
 
 En règle générale, le rapport sur le détail de l’appel comprend plus de 250 mesures différentes, avec notamment les éléments Dérive d’horodatage du microphone, Durée du SNR faible et Durée de l’écho au point de terminaison. Si vous ne vous rappelez pas de la fonction de l’une de ces nombreuses mesures, placez le curseur de la souris sur l’étiquette de la mesure ; vous devriez obtenir une info-bulle décrivant cette mesure.
   
-Si vous avez des difficultés à trouver une mesure, tapez une partie de l’étiquette de mesure dans la zone de recherche, puis cliquez sur **Rechercher.** Par exemple, si vous ne trouvez pas la mesure Durée du SNR faible, tapez SNR dans la zone de recherche, puis cliquez sur **Rechercher.**
+Si vous avez des difficultés à trouver une mesure, tapez une partie de l’étiquette de mesure dans la zone de recherche, puis cliquez sur **Rechercher**. Par exemple, si vous ne trouvez pas la mesure Durée du SNR faible, tapez SNR dans la zone de recherche, puis cliquez sur **Rechercher**.
   
 Notez que le rapport suit uniquement les informations sur un appel. L’appel proprement dit n’est pas enregistré.
   

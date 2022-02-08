@@ -1,7 +1,7 @@
 ---
 title: Votre organisation est-elle prête pour Microsoft Teams ?
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 105df2024ad67710b1de1e92208deeab6c7b9226
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dd02e915ad6ced07afdf2f9dc9dbf29e8a68b69d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865623"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387482"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Votre organisation est-elle prête pour Microsoft Teams ?
 
@@ -64,7 +64,7 @@ Les premiers utilisateurs partagent certains traits d’caractère, quelle que s
 - Souhaitant partager ses observations et apprentissages avec le groupe
 - sont des personnes qui prennent des risques ; autrement dit, ils souhaitent essayer quelque chose pour voir si cela fonctionne
 
-Utilisez un formulaire simple dans Microsoft 365 ou Office 365 pour permettre à ces personnes de choisir votre programme d’utilisateurs précoces pour Teams. Selon la taille et la complexité de votre organisation, vous pouvez choisir d’activer une partie ou la plupart de ces individus pour votre phase de expérimentation. Dans ce programme, ils conviennent de participer activement à votre phase de expérimentation et de fournir des commentaires réguliers à l’équipe de projet. Évitez d’avoir des personnes qui souhaitent simplement tester la nouvelle technologie. Faites-leur savoir qu’en leur faisant part de ces commentaires actifs, ils contribuent à élaborer le résultat de votre projet. Vous utiliserez cette liste de personnes dans la [phase 2 (expérimentation).](teams-adoption-phase2-experiment.md)
+Utilisez un formulaire simple dans Microsoft 365 ou Office 365 pour permettre à ces personnes de choisir votre programme d’utilisateurs précoces pour Teams. Selon la taille et la complexité de votre organisation, vous pouvez choisir d’activer une partie ou la plupart de ces individus pour votre phase de expérimentation. Dans ce programme, ils conviennent de participer activement à votre phase de expérimentation et de fournir des commentaires réguliers à l’équipe de projet. Évitez d’avoir des personnes qui souhaitent simplement tester la nouvelle technologie. Faites-leur savoir qu’en leur faisant part de ces commentaires actifs, ils contribuent à élaborer le résultat de votre projet. Vous utiliserez cette liste de personnes dans la [phase 2 (expérimentation](teams-adoption-phase2-experiment.md)).
 
 Notre guide du programme des premiers utilisateurs est une ressource utile pour mettre un coup d’avance à ce programme dans votre environnement.  
  
@@ -74,17 +74,17 @@ Le changement est un processus humain qui n’a rien à voir avec la technologie
 
 ![Graph illustration de la résistance au changement.](media/teams-adoption-resistance.png)
 
-Chaque organisation se rapproche différemment, selon la région, le style de travail, le profil professionnel et d’autres éléments de l’organisation. Pour évaluer la disponibilité de votre organisation, voir Évaluer la disponibilité [en matière de changement d’organisation.](upgrade-org-change-readiness.md) Utilisez les instructions pour répondre aux questions suivantes :
+Chaque organisation se rapproche différemment, selon la région, le style de travail, le profil professionnel et d’autres éléments de l’organisation. Pour évaluer la disponibilité de votre organisation, voir [Évaluer la disponibilité en matière de changement d’organisation](upgrade-org-change-readiness.md). Utilisez les instructions pour répondre aux questions suivantes :
 
-1. Quel pourcentage d’utilisateurs se place dans chaque compartiment ? (Modifier *la résistance)*
-    - **Premiers utilisateurs**: demandez la solution avant qu’elle ne soit disponible.
-    - **Utilisateurs informés**: utilisez la solution une fois sa valeur éprouvée.
-    - **Les dissideurs**: appuyez de nouveau sur toute modification.
+1. Quel pourcentage d’utilisateurs se place dans chaque compartiment ? (*Modifier la résistance*)
+    - **Premiers utilisateurs** : demandez la solution avant qu’elle ne soit disponible.
+    - **Utilisateurs informés** : utilisez la solution une fois sa valeur éprouvée.
+    - **Les dissidences** : appuyez de nouveau sur toute modification.
     
    > [!TIP]
    > Les premiers utilisateurs font de bons testeurs pilotes et pairs champions. Les utilisateurs qui sont lents à adopter de nouveaux outils nécessitent un encouragement supplémentaire et plus de temps pour s’ajuster. 
 
-2. Quelle est la compétence des utilisateurs pour le changement ? *(Formation)*
+2. Quelle est la compétence des utilisateurs pour le changement ? (*Formation*)
     - **Les démarrages autonomes** nécessitent uniquement un lien vers une vidéo.
     - **Les créateurs d’équipe** se sont bien passé des formations de groupe.
     - **Les apprenants un-à-un ont besoin** d’un support personnel.
@@ -92,7 +92,7 @@ Chaque organisation se rapproche différemment, selon la région, le style de tr
     > [!TIP]
     > Personasz le type et la quantité de formation pour la compétence et les personnage. Continuez à mettre à jour les formations lorsque de nouvelles fonctionnalités sont disponibles en ligne.
 
-3. En plus de ce déploiement de service, combien d’autres modifications sont en cours ? *(Insérabilité)* <br/>Les modifications peuvent inclure des mises Office/Windows, des déplacements d’office, des fusions, des reorgs, etc.
+3. En plus de ce déploiement de service, combien d’autres modifications sont en cours ? (*Densité*) <br/>Les modifications peuvent inclure des mises Office/Windows, des déplacements d’office, des fusions, des reorgs, etc.
     - Aucun
     - 1-3 modifications
     - Plus de 3 modifications

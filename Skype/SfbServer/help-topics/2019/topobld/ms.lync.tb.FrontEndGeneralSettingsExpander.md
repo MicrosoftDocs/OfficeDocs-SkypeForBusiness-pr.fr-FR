@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres généraux du serveur frontal
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour modifier les paramètres d’un pool frontal existant ou d’un serveur Survivable Branch Server, consultez les sections suivantes :'
-ms.openlocfilehash: fa055befc34d0c67f85cfba2125b2189746af9df
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0a05779c1c0cbda7a6c2b651178a09eff691703a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834412"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386982"
 ---
 # <a name="front-end-general-settings-expander"></a>Expandeur des paramètres généraux du serveur frontal
 
@@ -103,7 +103,7 @@ Pour modifier ou spécifier un paramètre supplémentaire pour les services Web 
 Dans **Services Web internes**, spécifiez les éléments suivants :
 
 > [!CAUTION]
-> Si vous avez plusieurs serveurs frontaux ou serveurs frontaux, le nom de groupe des services Web externes doit être unique. Par exemple, si vous définissez le nom de groupe des services Web externes d’un serveur frontal en tant que **pool01.contoso.com,** vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le FQDN des services Web externes défini pour n’importe quel directeur ou pool directeur doit être unique à partir de n’importe quel autre directeur ou pool directeur, ainsi que de tout pool frontal ou serveur frontal. Si vous décidez de remplacer les services web internes par un FQDN auto-défini, chaque FQDN doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur.
+> Si vous avez plusieurs serveurs frontaux ou serveurs frontaux, le nom de groupe des services Web externes doit être unique. Par exemple, si vous définissez le nom de groupe des services Web externes d’un serveur frontal en tant que **pool01.contoso.com**, vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le FQDN des services Web externes défini pour n’importe quel directeur ou pool directeur doit être unique à partir de tout autre directeur ou pool directeur, ainsi que de tout pool frontal ou serveur frontal. Si vous décidez de remplacer les services web internes par un FQDN auto-défini, chaque FQDN doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur.
 
 - Si vous sélectionnez **Remplacer le nom de domaine complet**, vous pouvez indiquer un nom de domaine complet différent pour l’identité des **Services web internes** sur le pool. Par défaut, le paramètre est le nom du pool actuel tel que défini pour le pool frontal.
 
@@ -113,7 +113,7 @@ Dans **Services web externes**, spécifiez les éléments suivants :
 
 - Le nom de domaine complet des services Web externes. Le nom de domaine complet spécifié ici sera généralement défini par les exigences de votre connexion externe, comme le proxy inverse.
 
-- Ports d’écoute et publiés pour HTTP et HTTPS nécessaires à votre déploiement. Les paramètres par défaut du port 8080 pour HTTP et du port 4443 pour HTTPS sont définis initialement. Vous pouvez modifier ces paramètres pour les ports d’écoute en fonction des exigences pour votre proxy inverse et de votre réseau externe. Les ports publiés sont définis par défaut sur le port 80 pour HTTP et le port 443 pour HTTPS. Ces valeurs déterminent quels seront les ports d’écoute du pool pour les demandes entrantes. En règle générale, elles n’ont pas besoin d’être modifiées, sauf en cas de conflit entre les exigences de port sur le pool. Les ports publiés internes et externes utilisant les mêmes valeurs de port sont attendus. Il ne s’agit pas d’un conflit.
+- Ports d’écoute et publiés pour HTTP et HTTPS nécessaires à votre déploiement. Les paramètres par défaut du port 8080 pour HTTP et du port 4443 pour HTTPS sont définis initialement. Vous pouvez modifier ces paramètres pour les ports d’écoute en fonction des exigences pour votre proxy inverse et de votre réseau externe. Les ports publiés sont définis par défaut sur le port 80 pour HTTP et le port 443 pour HTTPS. Ces valeurs déterminent quels seront les ports d’écoute du pool pour les demandes entrantes. En règle générale, elles n’ont pas besoin d’être modifiées, sauf en cas de conflit d’exigences de port sur le pool. Les ports publiés internes et externes utilisant les mêmes valeurs de port sont attendus. Il ne s’agit pas d’un conflit.
 
 ### <a name="mediation-server"></a>Serveur de médiation
 

@@ -1,8 +1,8 @@
 ---
 title: Configurer la réunion sans code confidentiel dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 'Résumé : Découvrez comment configurer l’option de rejoindre une réunion sans code confidentiel dans Skype Entreprise Server.'
-ms.openlocfilehash: 13af671edaa9ab8853e0390d43c62b6576bed4e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 82101f391b4b0713495eade53e092fefff8a053e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861361"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385712"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Configurer la réunion sans code confidentiel dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment configurer l’option de rejoindre une réunion sans code confidentiel dans Skype Entreprise Server.
   
-Lorsqu’un appelant d’accès tente de participer à une réunion, le service d’Standard automatique de conférence (CAA) place l’appelant dans un stylet différent du &#x2014; de salle d’accueil si un présentateur n’est pas déjà en cours d’appel et que l’appelant n’a pas entré de code confidentiel d’leader. L’option de rejoindre une réunion sans code confidentiel permet aux appelants de participer à une réunion sans entrer de code confidentiel d’leader, même s’ils sont la première personne à participer à un appel. 
+Lorsqu’un appelant tente de participer à une réunion, le service d’Standard automatique de conférence (CAA) place l’appelant dans un stylet qui est différent du &#x2014; de salle d’accueil si un présentateur n’est pas déjà en cours d’appel et que l’appelant n’a pas entré de code confidentiel d’leader. L’option de rejoindre une réunion sans code confidentiel permet aux appelants de participer à une réunion sans entrer de code confidentiel d’leader, même s’ils sont la première personne à participer à un appel. 
   
 Gardez les choses à l’esprit lors de la configuration de cette fonctionnalité :
   
@@ -33,13 +33,13 @@ Gardez les choses à l’esprit lors de la configuration de cette fonctionnalit�
     
 - Une fois le paramètre modifié, il s’applique à toutes les réunions privées existantes et nouvelles.
     
-- Peut être activé au niveau du site de l’organisateur ou au niveau global.
+- Peut être activé sur le site de l’organisateur ou au niveau global.
     
 - Les options qui peuvent contourner la salle d’entrée peuvent être définies pour l’une des options suivantes : 
     
   - **Tous les membres de mon organisation ayant des appelants entrent directement**
     
-  - **Tout le monde (aucune restriction) avec** les appelants entre directement (il s’agit du paramètre par défaut.)
+  - **Tout le monde (aucune restriction) avec les appelants entre directement** (il s’agit du paramètre par défaut.)
     
 - Lorsqu’il est configuré pour activer la jointeur sans code confidentiel, le service CAA demande toujours un code confidentiel d’leader. Les utilisateurs peuvent participer à la réunion, qu’un code confidentiel soit entré ou non. Toutefois, le fait de conserver la possibilité d’entrer un code confidentiel d’leader permet à un appelant de s’authentifier en tant qu’dirigeant et de gérer la réunion si nécessaire.
     
@@ -57,7 +57,7 @@ Par exemple, la commande suivante active la réunion sans code confidentiel pour
 Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstnActivation $True
 ```
 
-Pour des raisons de sécurité, lorsque la réunion sans code confidentiel est désactivée, vous pouvez limiter la numérotation des utilisateurs anonymes en vous assurant que conferencingPolicy est définie comme suit :
+Pour des raisons de sécurité, lorsque la réunion sans code confidentiel est désactivée, vous pouvez restreindre la numérotation des utilisateurs anonymes en vous assurant que conferencingPolicy est définie comme suit :
   
 ```PowerShell
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False

@@ -1,8 +1,8 @@
 ---
 title: DNS requirements for simple URLs in Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Résumé : Examinez les considérations sur les URL simples de cette rubrique avant d’implémenter des enregistrements DNS pour Skype Entreprise Server.'
-ms.openlocfilehash: 1dd3b4b06b704e7d840dd6f430a9ba9782913a3b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 92cf8c91956eab9648869c5a05ccc57682ecc5fd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864671"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389986"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>DNS requirements for simple URLs in Skype Entreprise Server
 
@@ -42,14 +42,14 @@ La définition d’une URL simple nécessite également la définition d’un en
 
 Le Générateur de topologie et les cmdlets Skype Entreprise Server Management Shell appliquent plusieurs règles de validation pour vos URL simples. Vous devez définir des URL simples pour les réunions et l’accès, et éventuellement une URL pour l’administration. Chaque domaine SIP doit avoir une URL simple de réunion mais une seule URL simple est nécessaire pour l’accès et une seule pour l’administration dans toute l’organisation.
 
-Chaque URL simple de votre organisation doit avoir un nom unique et ne peut pas être un préfixe d’une autre URL simple (par exemple, vous n’avez pas pu définir votre URL simple Meet et votre `SfB2015.contoso.com/Meet` `SfB2015.contoso.com/Meet/Dialin` URL simple Dialin). Les noms d’URL simples ne peuvent pas contenir le nom de domaine complète de l’un de vos pools, ni aucune information de port (par exemple, https://FQDN:88/meet n’est pas autorisée). Toutes les URL simples doivent commencer par https:// préfixe. 
+Chaque URL simple de votre organisation doit avoir un nom unique et ne peut pas être un préfixe d’une autre URL simple (par exemple, `SfB2015.contoso.com/Meet` vous n’avez pas pu définir votre URL `SfB2015.contoso.com/Meet/Dialin` simple Meet et votre URL simple Dialin). Les noms d’URL simples ne peuvent pas contenir le nom de domaine complète de l’un de vos pools, ni aucune information de port (par exemple, https://FQDN:88/meet n’est pas autorisée). Toutes les URL simples doivent commencer par https:// préfixe. 
 
 Les URL simples peuvent uniquement contenir des caractères alphanumériques, c’est-à-dire a-z, A-Z, 0-9 et le point (.). Si vous utilisez d’autres caractères, les URL simples peuvent ne pas fonctionner comme prévu.
 
 ## <a name="changing-simple-urls-after-deployment"></a>Modification des URL simples après le déploiement
 <a name="BK_Valid"> </a>
 
-Si vous modifiez une URL simple après le déploiement initial, vous devez connaître l’impact de la modification sur vos enregistrements et certificats DNS pour les URL simples. Si la base d’une URL simple change, vous devez également modifier les enregistrements et les certificats DNS. Par exemple, si vous changez d’URL de base en , vous devez modifier les enregistrements DNS et les `https://SfB2015.contoso.com/Meet` `https://meet.contoso.com` `SfB2015.contoso.com` `meet.contoso.com` certificats à `meet.contoso.com` référencer. Si vous avez modifié l’URL simple de , l’URL de base de reste identique, de sorte qu’aucune modification de DNS ou de certificat `https://SfB2015.contoso.com/Meet` `https://SfB2015.contoso.com/Meetings` `SfB2015.contoso.com` n’est nécessaire.
+Si vous modifiez une URL simple après le déploiement initial, vous devez connaître l’impact de la modification sur vos enregistrements et certificats DNS pour les URL simples. Si la base d’une URL simple change, vous devez également modifier les enregistrements et les certificats DNS. Par exemple, si `https://SfB2015.contoso.com/Meet` vous changez d’URL `SfB2015.contoso.com` `meet.contoso.com`de base en , vous devez modifier les enregistrements DNS et les certificats à référencer`meet.contoso.com`.`https://meet.contoso.com` Si vous avez modifié l’URL `https://SfB2015.contoso.com/Meet` `https://SfB2015.contoso.com/Meetings`simple de , l’URL `SfB2015.contoso.com` de base de reste identique, de sorte qu’aucune modification de DNS ou de certificat n’est nécessaire.
 
 Toutefois, chaque fois que vous modifiez un nom d’URL simple, vous devez exécuter **Enable-CsComputer** sur chaque directeur et serveur frontal pour enregistrer la modification.
 
@@ -69,18 +69,18 @@ Si vous utilisez cette option, vous devez prévoir un enregistrement DNS A disti
 
 | **URL simple** <br/> | **Exemple** <br/>                                                                                                    |
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | `https://meet.contoso.com`, `https://meet.fabrikam.com` et ainsi de suite (un pour chaque domaine SIP de votre organisation)  <br/> |
+| Meet  <br/>          | `https://meet.contoso.com`, `https://meet.fabrikam.com`et ainsi de suite (un pour chaque domaine SIP de votre organisation)  <br/> |
 | Numérotation  <br/>       | `<https://dialin.contoso.com>`  <br/>                                                                                  |
 | Administrateur  <br/>         | `<https://admin.contoso.com>`  <br/>                                                                                   |
 
-Avec l’option 2, les URL simples sont basées sur le nom de `SfB2015.contoso.com` domaine. Par conséquent, vous n’avez besoin que d’un seul enregistrement DNS A pour les trois types d’URL simple. Cet enregistrement DNS A fait `SfB2015.contoso.com` référence. Mais vous avez quand même besoin d’enregistrements DNS A distincts pour les autres domaines SIP dans votre organisation. 
+Avec l’option 2, les URL simples sont basées sur le nom de domaine `SfB2015.contoso.com`. Par conséquent, vous n’avez besoin que d’un seul enregistrement DNS A pour les trois types d’URL simple. Cet enregistrement DNS A fait référence.`SfB2015.contoso.com` Mais vous avez quand même besoin d’enregistrements DNS A distincts pour les autres domaines SIP dans votre organisation. 
 
 **Option 2 de dénomination d’URL simple**
 
 
 | **URL simple** <br/> | **Exemple** <br/>                                                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | `https://SfB2015.contoso.com/Meet`, `https://SfB2015.fabrikam.com/Meet` et ainsi de suite (un pour chaque domaine SIP de votre organisation)  <br/> |
+| Meet  <br/>          | `https://SfB2015.contoso.com/Meet`, `https://SfB2015.fabrikam.com/Meet`et ainsi de suite (un pour chaque domaine SIP de votre organisation)  <br/> |
 | Numérotation  <br/>       | `<https://SfB2015.contoso.com/Dialin>`  <br/>                                                                                          |
 | Administrateur  <br/>         | `<https://SfB2015.contoso.com/Admin>`  <br/>                                                                                           |
 
@@ -114,14 +114,14 @@ Meet-ext.geolb.contoso.com
      Pool2ExternalWebFQDN.contoso.com
 ```
 
-Créez ensuite des enregistrements CNAME qui résolvent votre URL simple Meet (par exemple) en deux `meet.contoso.com` adresses GeoDNS.
+Créez ensuite des enregistrements CNAME qui résolvent votre URL simple Meet ( `meet.contoso.com`par exemple) en deux adresses GeoDNS.
 
 > [!NOTE]
 > Si votre réseau utilise le hairpinning (routage de l’ensemble du trafic de l’URL simple via le lien externe, y compris le trafic en provenance de votre organisation), vous pouvez simplement configurer l’adresse GeoDNS externe et faire aboutir votre adresse URL simple Meet uniquement à cette adresse externe.
 
 Lorsque vous utilisez cette méthode, vous pouvez configurer chaque adresse GeoDNS de façon à distribuer les demandes aux deux pools selon la méthode du tourniquet (round robin), ou bien vous connecter principalement à un pool (par exemple, le pool le plus proche géographiquement) et utiliser l’autre pool seulement en cas de problème de connectivité. 
 
-Vous pouvez définir la même configuration pour l’URL simple Dial-In. Pour ce faire, créez des enregistrements supplémentaires comme ceux de l’exemple précédent, en les remplaçant dans les enregistrements  `dialin` `meet` DNS. Pour l’URL simple Admin, utilisez l’une des trois options mentionnées plus haut dans cette section.
+Vous pouvez définir la même configuration pour l’URL simple Dial-In. Pour ce faire, créez des enregistrements supplémentaires comme ceux de l’exemple précédent,  `dialin` `meet` en les remplaçant dans les enregistrements DNS. Pour l’URL simple Admin, utilisez l’une des trois options mentionnées plus haut dans cette section.
 
 Après avoir défini cette configuration, vous devez utiliser une application de surveillance pour configurer la recherche de défaillance via la surveillance HTTP. Pour l’accès externe, surveillez pour vous assurer que HTTPS GET lyncdiscover.\<sipdomain> les demandes au FQDN web externe ou à l’adresse IP de l’équilibreur de charge pour les deux pools sont réussies. Par exemple, les demandes suivantes ne doivent pas contenir d’en-tête **ACCEPT** et doivent retourner **200 OK**.
 

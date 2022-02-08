@@ -1,7 +1,7 @@
 ---
 title: Utiliser PowerShell pour définir des stratégies d’événements en direct
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -18,12 +18,12 @@ description: Exemples d’utilisation de PowerShell pour définir des stratégie
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cda9da872d8464064c137713e8eb16ceede7941e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8a834cfd85cdf9f4839b9351b16c1a2e1ca43e9c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851728"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387422"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams
 
@@ -37,16 +37,16 @@ Vous pouvez utiliser les cmdlets de Windows PowerShell suivantes pour définir e
 Voici quelques exemples.
 
 > [!NOTE]
-> Avant d’exécuter ces cmdlets, vous devez être connecté à Skype Entreprise PowerShell en ligne. Pour plus d’informations, voir Gérer Skype Entreprise Online avec [Microsoft 365 ou Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> Avant d’exécuter ces cmdlets, vous devez être connecté à Skype Entreprise PowerShell en ligne. Pour plus d’informations, [voir Gérer Skype Entreprise Online avec Microsoft 365 ou Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 ## <a name="allow-users-to-schedule-live-events"></a>Autoriser les utilisateurs à planifier des événements en direct 
 
 > [!NOTE]
-> Ces exemples s’illustrent des événements produits dans Teams. Pour les événements produits avec une application ou un appareil externe, vous devez suivre des étapes supplémentaires. Pour plus d’informations, voir Permettre aux utilisateurs de planifier des événements produits [avec une application ou un appareil externe.](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)
+> Ces exemples s’illustrent des événements produits dans Teams. Pour les événements produits avec une application ou un appareil externe, vous devez suivre des étapes supplémentaires. Pour plus d’informations, voir [Permettre aux utilisateurs de planifier des événements produits avec une application ou un appareil externe](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).
 
 **Autoriser un utilisateur à planifier des événements en direct**
 
-Si la stratégie globale est affectée à l’utilisateur, exécutez et vérifiez que le paramètre *AllowBroadcastScheduling* est définie sur *True*:
+Si la stratégie globale est affectée à l’utilisateur, exécutez et vérifiez que le paramètre *AllowBroadcastScheduling* est définie sur *True* :
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
@@ -58,11 +58,11 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ### <a name="user-scenarios"></a>Scénarios utilisateur
 **Vous voulez que tous les utilisateurs de votre organisation puissent planifier des événements en direct**
 
-Si la stratégie globale est affectée aux utilisateurs, exécutez et vérifiez que *AllowBroadcastScheduling* *est définie sur *True*:
+Si la stratégie globale est affectée aux utilisateurs, exécutez et vérifiez que *AllowBroadcastScheduling* *est définie sur *True* :
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-Si des utilisateurs ont une stratégie autre que la stratégie globale, exécutez et vérifiez que la planification *-AllowBroadcast* est définie sur *True*:
+Si des utilisateurs ont une stratégie autre que la stratégie globale, exécutez et vérifiez que *la planification -AllowBroadcast est* définie sur *True* :
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
@@ -79,7 +79,7 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 **Vous souhaitez qu’un grand nombre d’utilisateurs puissent planifier des événements en direct et empêcher un ensemble d’utilisateurs de les planifier**
 
-Exécutez et vérifiez que *La planification AllowBroadcast* est définie sur *True*:
+Exécutez et vérifiez que *La planification AllowBroadcast* est définie sur *True* :
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```

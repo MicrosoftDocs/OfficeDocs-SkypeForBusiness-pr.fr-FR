@@ -1,8 +1,8 @@
 ---
 title: Exemples de développement du tableau de bord de qualité des appels (TBQA)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Résumé : Examinez un didacticiel et des exemples de développement pour le Tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 91e6f15f167000904626dc5a90d3766283396d7c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d078c6a2f3d5881dfad2d43742080c0aa83e8e9c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837506"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388082"
 ---
 # <a name="cqd-development-samples"></a>Exemples de développement du tableau de bord de qualité des appels (TBQA)
 
@@ -28,15 +28,15 @@ Cet article fournit un didacticiel et des exemples sur le développement pour le
 
 ## <a name="call-quality-dashboard-cqd-development-samples"></a>Exemples de développement du tableau de bord de qualité des appels
 
-Didacticiel : création d’une présentation de rapport personnalisée à l’aide des API du service de données et du référentiel CQD.
+Didacticiel : création d’une présentation de rapport personnalisée à l’aide du service de données CQD et de l’API du service de référentiel.
 
 ### <a name="introduction-to-cqd"></a>Présentation du CQD
 
-Le CQD offre un accès rapide et facile aux informations de qualité d’appel agrégées pour les déploiements Skype Entreprise Server locaux. Le CQD se compose de trois composants : la base de données d’archivage QoE, le cube et le portail. Le portail est la couche de présentation principale et peut être divisé en trois composants :
+Le CQD offre un accès rapide et facile aux informations agrégées sur la qualité des appels pour les déploiements Skype Entreprise Server locaux. Le CQD se compose de trois composants : la base de données d’archivage QoE, le cube et le portail. Le portail est la couche de présentation principale et peut être divisé en trois composants :
 
-1. Service de données, accessible pour les utilisateurs authentifiés via l’API de données pour le tableau de bord de qualité des appels [(CQD) dans Skype Entreprise Server](data-api.md).
+1. Service de données, accessible pour les utilisateurs authentifiés via l’API de données pour le tableau de bord de qualité des appels [(CQD) Skype Entreprise Server](data-api.md).
 
-2. Service de référentiel, accessible pour les utilisateurs authentifiés via l’API de référentiel pour le tableau de bord de qualité des appels [(CQD) dans Skype Entreprise Server](repository-api.md).
+2. Service de référentiel, accessible pour les utilisateurs authentifiés via l’API de référentiel pour le tableau de bord de qualité des appels [(CQD) Skype Entreprise Server](repository-api.md).
 
 3. Portail Web, qui est l’interface HTML5 que les utilisateurs de CQD voient et utilisent. Ceci est accessible pour les utilisateurs authentifiés.
 
@@ -48,7 +48,7 @@ Le CQD est créé selon la méthodologie de qualité des appels (CQM), de sorte 
 
 ### <a name="how-the-dashboard-consumes-the-data-service"></a>Consommation du service de données par le tableau de bord
 
-Lorsque vous naviguez vers la page d’accueil du CQD (par exemple, l’ensemble de rapports et les rapports correspondants d’un utilisateur authentifié et autorisé sont récupérés à partir du service de http://localhost/cqd) référentiel. Une URL complète sera construite à partir de l’ID de l’ensemble de rapports et de l’ID year-month (l’ID de l’ensemble de rapports est le nombre entier après la section « /#/ » dans l’URL et, par défaut, le mois de l’année en cours est ajouté à la fin de l’ID d’ensemble de rapports après la barre oblique). Les définitions de rapport sont stockées au format JSON et lorsqu’elles sont récupérées à partir du service de référentiel, elles sont ensuite utilisées comme entrées pour le service de données. Le service de données génère des requêtes MDX (Multi-Dimension expressions) en fonction de l’entrée, puis exécute ces requêtes MDX sur le cube pour récupérer des données pour chaque rapport. 
+Lorsque vous naviguez vers la page d’accueil du CQD ( http://localhost/cqd)par exemple, l’ensemble de rapports et les rapports correspondants d’un utilisateur authentifié et autorisé sont récupérés à partir du service de référentiel. Une URL complète sera construite à partir de l’ID de l’ensemble de rapports et de l’ID year-month (l’ID de l’ensemble de rapports est le nombre entier après la section « /#/ » dans l’URL et, par défaut, le mois de l’année en cours est ajouté à la fin de l’ID d’ensemble de rapports après la barre oblique). Les définitions de rapport sont stockées au format JSON et lorsqu’elles sont récupérées à partir du service de référentiel, elles sont ensuite utilisées comme entrées pour le service de données. Le service de données génère des requêtes MDX (Multi-Dimension expressions) en fonction de l’entrée, puis exécute ces requêtes MDX sur le cube pour récupérer des données pour chaque rapport. 
 
 ### <a name="building-customized-reports"></a>Création de rapports personnalisés
 
@@ -114,7 +114,7 @@ Cet exemple peut être déconstruit en trois étapes :
 
      c. Une ou plusieurs mesures.
 
-2. Envoyez la requête au service de données via un appel AJAX. Les paramètres de requête suivants doivent être fournis :
+2. Envoyez la requête au service de données via l’appel AJAX. Les paramètres de requête suivants doivent être fournis :
 
    a. url (qui doit être http://[ServerName]/QoEDataService/RunQuery).
 
@@ -197,13 +197,13 @@ Jusqu’à présent, le rapport est toujours très simple. L’utilisateur peut 
 
 Il peut être difficile pour quelqu’un de déterminer comment écrire la liste complète des mesures/dimensions/filtres et leurs valeurs correspondantes lors de la construction d’une requête. Dans ce cas, vous pouvez aller sur le portail, créer un rapport à l’aide de l’éditeur de rapport, afficher la chaîne JSON de la définition du rapport, puis copier la définition dans un rapport personnalisé. 
 
-Dans cet exemple, nous allons créer une page web comme celle présentée dans la figure dans laquelle un utilisateur peut entrer l’ID de n’importe quel ensemble de rapports (ou rapport) existant et afficher la définition de l’ensemble de rapports ou du rapport sur la page web. L’utilisateur peut ensuite brancher la chaîne JSON de chaque rapport dans du code semblable à celui de l’exemple 1 et construire n’importe quel rapport personnalisé souhaité par l’utilisateur. 
+Dans cet exemple, nous allons créer une page web comme celle présentée dans la figure où un utilisateur peut entrer l’ID de n’importe quel ensemble de rapports (ou rapport) existant et afficher la définition de l’ensemble de rapports ou du rapport sur la page web. L’utilisateur peut ensuite brancher la chaîne JSON de chaque rapport dans du code semblable à celui de l’exemple 1 et construire n’importe quel rapport personnalisé souhaité par l’utilisateur. 
 
 ![Exemple de CQD.](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
 
-Pour créer l’outil visionneuse de définitions de rapports, nous devons envoyer des appels au service de référentiel pour récupérer les représentations de chaîne JSON des définitions de chaque ensemble de rapports de notre recherche. L’API Référentiel retourne la définition de l’ensemble de rapports en fonction d’un ID d’ensemble de rapports donné. 
+Pour créer l’outil visionneuse de définition de rapport, nous devons envoyer des appels au service de référentiel pour récupérer les représentations de chaîne JSON des définitions de chaque ensemble de rapports que nous voulons. L’API Référentiel retourne la définition de l’ensemble de rapports en fonction d’un ID d’ensemble de rapports donné. 
 
-Voici un exemple rapide : le code contient un bloc qui est un exemple simple d’envoi d’une requête au service référentiel pour obtenir le contenu d’un élément de référentiel en fonction de son identificateur. Et la partie suivante du code (méthode processReportSetData) envoie des appels AJAX pour obtenir la définition de chaque rapport au sein de cet ensemble de rapports. Étant donné que l’ID dans le portail web CQD est l’ID d’un ensemble de rapports, l’appel AJAX retourne un élément d’ensemble de rapports. Vous pouvez trouver plus de détails sur l’API du référentiel et plus spécifiquement, GetItems, dans [l’article Obtenir des éléments.](get-items.md) 
+Voici un exemple rapide : le code contient un bloc qui est un exemple simple d’envoi d’une requête au service référentiel pour obtenir le contenu d’un élément de référentiel en fonction de son identificateur. Et la partie suivante du code (méthode processReportSetData) envoie des appels AJAX pour obtenir la définition de chaque rapport au sein de cet ensemble de rapports. Étant donné que l’ID dans le portail web CQD est l’ID d’un ensemble de rapports, l’appel AJAX retourne un élément d’ensemble de rapports. Vous pouvez trouver plus de détails sur l’API du référentiel et plus spécifiquement, GetItems, dans [l’article Obtenir des éléments](get-items.md). 
 
 ```html
 <!DOCTYPE html>
@@ -312,7 +312,7 @@ Voici un exemple rapide : le code contient un bloc qui est un exemple simple d�
 </html>
 ```
 
-La page web ci-dessus se présente comme celle de la figure (sans la définition du rapport lors de la visite initiale). Obtenir l’ID de l’ensemble de rapports à partir du portail CQD (après la signature « /# / » dans l’URL du portail CQD (par exemple, dans la première figure, l’ID de l’ensemble de rapports est 3024, puis placez cet ID de jeu de rapports dans la section d’entrée de cette page web. Appuyez sur le bouton « charger » et voir la définition complète (mesures, dimensions, listes de filtres) de l’ensemble de rapports.
+La page web ci-dessus se présente comme celle de la figure (sans la définition du rapport lors de la visite initiale). Obtenir l’ID du jeu de rapports à partir du portail CQD (après la signature « /# / » dans l’URL du portail CQD (par exemple, dans la première figure, l’ID de l’ensemble de rapports est 3024, puis placez cet ID de jeu de rapports dans la section d’entrée de cette page web. Appuyez sur le bouton « charger » et voir la définition complète (mesures, dimensions, listes de filtres) de l’ensemble de rapports.
 
 En résumé, afin d’obtenir rapidement la définition complète d’un ensemble de rapports/rapports. Voici comment procéder :
 
@@ -324,15 +324,15 @@ En résumé, afin d’obtenir rapidement la définition complète d’un ensembl
 
    **Exemple 3 : Exemple de carte de performance**
 
-Temps pour une tâche plus complexe. Que se passe-t-il si nous voulons créer une page web comme la figure ? Nous devons mettre à jour l’exemple 1 (à l’aide de la page web générée dans l’exemple 2 pour récupérer la définition complète d’un rapport) afin de pouvoir gérer une plus grande quantité de données.
+Temps pour une tâche plus complexe. Que se passe-t-il si nous voulons créer une page web comme la figure ? Nous devons mettre à jour l’exemple 1 (à l’aide de la page web générée dans l’exemple 2 pour récupérer la définition complète de n’importe quel rapport) afin de pouvoir gérer une plus grande quantité de données.
 
 Dans ce cas, nous devons mettre à jour la liste de mesures et de dimensions. Pour déterminer comment ajouter/modifier une mesure et/ou une dimension, suivez les instructions de l’exemple 2 et récupérez la définition complète du rapport, y compris les listes complètes de mesures et de dimensions. Branchez la définition complète du rapport dans l’exemple de code. 
 
 Voici les étapes détaillées pour obtenir la page de carte de performance dans la figure à partir de l’exemple fourni dans l’exemple 1 :
 
-1. Mettre à jour les mesures dans la variable « requête » de  `[Measures].[Audio Good Streams JPDR Count]` et `[Measures].[Audio Poor Streams JPDR Count]` vers `[Measures].[AudioPoorJPDRPercentage]` . 
+1. Mettre à jour les mesures dans la variable « requête » de  `[Measures].[Audio Good Streams JPDR Count]` et `[Measures].[Audio Poor Streams JPDR Count]` vers `[Measures].[AudioPoorJPDRPercentage]`. 
 
-2. Mettez à jour les filtres. Les données JSON pour filtres de l’exemple 1 ont un filtre, qui est définie sur la dimension  `[StartDate].[Month]` . Étant donné que Filtres est un tableau JSON, des dimensions supplémentaires peuvent être ajoutées à la liste des filtres. Par exemple, pour obtenir le client-serveur à l’intérieur d’appels câblés pour le « currentMonth », nous devons avoir les filtres suivants :
+2. Mettez à jour les filtres. Les données JSON pour filtres de l’exemple 1 ont un filtre, qui est définie sur la dimension  `[StartDate].[Month]`. Étant donné que Filtres est un tableau JSON, des dimensions supplémentaires peuvent être ajoutées à la liste des filtres. Par exemple, pour obtenir le client-serveur à l’intérieur d’appels câblés pour le « currentMonth », nous devons avoir les filtres suivants :
 
    ```javascript
    Filters: [
@@ -349,14 +349,14 @@ Voici les étapes détaillées pour obtenir la page de carte de performance dans
    ],
    ```
 
-   Ici, la dimension  `[Scenarios].[ScenarioPair]` est définie sur égal `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` . Il  `[Scenario.][ScenarioPair]` s’agit d’une dimension spéciale créée pour simplifier la création de rapports. Il a six valeurs correspondant à `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]` . Ainsi, au lieu d’utiliser une combinaison de 6 filtres pour définir un scénario, nous n’avons besoin que d’utiliser 1 filtre. Dans notre exemple, la valeur se traduit par le scénario dans lequel : le premier est serveur, le deuxième n’est pas le serveur, le premier est à l’intérieur, le deuxième est à l’intérieur, le premier type de connexion est câblé et le second type de connexion est câblé, qui est la définition exacte de «  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` Serveur-Client-à-l’intérieur câblé ».
+   Ici, la dimension  `[Scenarios].[ScenarioPair]` est définie sur égal `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. Il s’agit  `[Scenario.][ScenarioPair]` d’une dimension spéciale créée pour simplifier la création de rapports. Il a six valeurs correspondant à `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. Ainsi, au lieu d’utiliser une combinaison de 6 filtres pour définir un scénario, nous n’avons besoin que d’utiliser 1 filtre. Dans notre exemple,  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` la valeur se traduit par le scénario dans lequel : le premier est serveur, le deuxième n’est pas le serveur, le premier est à l’intérieur, le deuxième est à l’intérieur, le premier type de connexion est câblé et le second type de connexion est câblé, qui est la définition exacte de « Serveur-Client-à-l’intérieur câblé ».
 
 3. Créez un ensemble de filtres par scénario. Chaque ligne de la carte de performance, dans la figure, représente un scénario différent, qui sera un filtre différent (tandis que les dimensions et les mesures restent identiques). 
 
 4. Parse the results from the AJAX calls and place them in the correct position of the table. Étant donné qu’il s’agit principalement de manipulations HTML et JavaScript, nous n’allons pas entrer dans les détails ici. Au lieu de cela, le code est fourni dans l’Annexe A.
 
     > [!NOTE]
-    >  Si le partage des ressources d’origine croisée (CORS) est activé, les utilisateurs peuvent rencontrer des erreurs telles que « Aucun en-tête Access-Control-Allow-Origin » n’est présent sur la ressource demandée. L’origine « null » n’est donc pas autorisée à accéder ». Pour résoudre le problème, placez le fichier HTML sous le dossier où le portail est installé (par défaut, il doit `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)` l’être). Accédez ensuite au code html via n’importe quel navigateur avec  `http://<servername>/cqd/<html_file_name>` l’URL. (L’URL par défaut du tableau de bord CQD local est  `http://<servername>/cqd.` ) 
+    >  Si le partage des ressources d’origine croisée (CORS) est activé, les utilisateurs peuvent rencontrer des erreurs telles que « Aucun en-tête Access-Control-Allow-Origin » n’est présent sur la ressource demandée. L’origine « null » n’est donc pas autorisée à accéder ». Pour résoudre le problème, placez le fichier HTML sous le dossier où le portail est installé (par défaut, il doit l’être).`%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)` Accédez ensuite au code html via n’importe quel navigateur avec l’URL  `http://<servername>/cqd/<html_file_name>`. (L’URL par défaut du tableau de bord CQD local est  `http://<servername>/cqd.`) 
 
 ### <a name="appendix-a"></a>Annexe A
 

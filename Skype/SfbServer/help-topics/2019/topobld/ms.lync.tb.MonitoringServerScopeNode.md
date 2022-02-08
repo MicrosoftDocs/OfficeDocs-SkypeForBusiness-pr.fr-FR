@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue de surveillance
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,18 +15,18 @@ ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dans le Générateur de topologie, vous pouvez effectuer des tâches relatives à un serveur individuel exécutant la surveillance en cliquant avec le bouton droit sur le serveur exécutant la surveillance dans l’arborescence de la console, en cliquant sur Action dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions, puis en cliquant sur l’une des options suivantes pour le serveur exécutant la surveillance :'
-ms.openlocfilehash: 4adca3702b6200632afae51fb237e6682c560d5c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 49fc3d259bb9eae8a5ec6ab3a6d0d91228566d70
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865131"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386882"
 ---
 # <a name="monitoring-scope-node"></a>Nœud d’étendue de surveillance
  
 Dans le Générateur de topologie, vous pouvez effectuer des tâches relatives à un serveur individuel exécutant la surveillance en cliquant avec le bouton droit sur le serveur exécutant la surveillance dans l’arborescence de la console, en cliquant sur **Action** dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions, puis en cliquant sur l’une des options suivantes pour le serveur exécutant la surveillance :
   
-- **Modifier les propriétés** Ouvre la **page** Modifier les propriétés du serveur exécutant la surveillance, dans laquelle vous pouvez modifier le nom de domaine complet (FQDN) du serveur exécutant la surveillance ou la base de données de SQL Server de surveillance.
+- **Modifier les propriétés** Ouvre **la page Modifier** les propriétés du serveur exécutant la surveillance, dans laquelle vous pouvez modifier le nom de domaine complet (FQDN) du serveur exécutant la surveillance ou la base de données de SQL Server de surveillance.
     
 - **Supprimer** Supprime le serveur exécutant la surveillance de la topologie et de la base de données de SQL Server de surveillance.
     

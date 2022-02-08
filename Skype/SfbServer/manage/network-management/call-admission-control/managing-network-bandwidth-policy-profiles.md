@@ -1,8 +1,8 @@
 ---
 title: Gestion des profils de stratégie de bande passante réseau
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Utilisez les procédures de cet article pour afficher, créer, modifier ou supprimer des profils de stratégie de bande passante réseau.
-ms.openlocfilehash: fee0d4f57847747b0e25c98bc99183daa22a9996
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a360bd05ac3ee9cbd4d5a8d8d6578389dfc3068c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850997"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388122"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Gestion de profils de stratégie de bande passante réseau dans Skype Entreprise Server
 
@@ -60,7 +60,7 @@ Vous pouvez afficher les profils de bande passante réseau à l’Windows PowerS
     BWPolicyProfileID : RedmondBandwidthPolicy<br/>
     Description :
 
-Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Get-CsNetworkBandwidthPolicyProfile.](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
+Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) .
 
 
 ## <a name="create-or-modify-bandwidth-policy-profiles"></a>Créer ou modifier des profils de stratégie de bande passante
@@ -73,7 +73,7 @@ La stratégie de bande passante utilisée dans le cadre du contrôle d’admissi
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis sur Stratégie de bande **passante.**
+3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Stratégie de bande passante**.
 
 4.  Dans la page **Stratégie de bande passante**, cliquez sur **Nouveau**.
 
@@ -101,13 +101,13 @@ La stratégie de bande passante utilisée dans le cadre du contrôle d’admissi
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis sur Stratégie de bande **passante.**
+3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Stratégie de bande passante**.
 
 4.  Dans la page **Stratégie de bande passante**, cliquez sur le profil de stratégie de bande passante que vous souhaitez modifier.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-6.  Dans la page **Modifier le profil de stratégie de** bande passante, modifiez les champs si nécessaire (pour plus d’informations, voir Pour créer un profil de stratégie de bande [passante).](#to-create-a-new-bandwidth-policy-profile)
+6.  Dans la page **Modifier le profil de stratégie de** bande passante, modifiez les champs si nécessaire (pour plus d’informations, voir Pour [créer un profil de stratégie de bande passante](#to-create-a-new-bandwidth-policy-profile)).
 
 7.  Cliquez sur **Valider**.
 
@@ -125,7 +125,7 @@ La stratégie de bande passante utilisée dans le cadre du contrôle d’admissi
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis sur Stratégie de bande **passante.**
+3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Stratégie de bande passante**.
 
 4.  Dans la page **Stratégie de bande passante**, cliquez sur le profil de stratégie de bande passante que vous souhaitez supprimer.
 

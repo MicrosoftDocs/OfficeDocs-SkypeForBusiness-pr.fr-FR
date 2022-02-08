@@ -1,8 +1,8 @@
 ---
 title: Outil de planification de vue d’ensemble des fonctionnalités
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Déscripbe l’Skype Entreprise Server de planification 2015.
-ms.openlocfilehash: 7351ef19480f4153ee98db58ab2ba70b34e3df06
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 064ad9e22c3e4e26187b780b8d099a675bebc426
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850937"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386512"
 ---
 # <a name="feature-overview-planning-tool"></a>Outil de planification de vue d’ensemble des fonctionnalités
  
@@ -56,7 +56,7 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
     
 - **Conférence rendez-vous**
     
-    La conférence rendez-vous permet aux utilisateurs de joindre un service A/V à partir d’un téléphone sur le réseau téléphonique téléphonique PSTN. La conférence dial-in nécessite que vous déployiez les applications Assistant de conférence et Annonce de conférence Service.
+    La conférence rendez-vous permet aux utilisateurs de joindre un audioconférence à partir d’un téléphone sur le réseau téléphonique téléphonique téléphonique (PSTN). La conférence dial-in nécessite que vous déployiez les applications Assistant de conférence et Annonce de conférence Service.
     
 - **Conférence web**
     
@@ -76,7 +76,7 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
     
 - **Fédération avec les versions précédentes**
     
-- **Fédération avec les fournisseurs de services de messagerie instantanée publics** Permet aux utilisateurs de votre organisation d’établir une communication avec des fournisseurs de services de messagerie instantanée publics tels que MSN, Yahoo! et AOL. Une licence distincte est nécessaire pour établir une fédération avec les réseaux de messagerie instantanée publics.
+- **Fédération avec les fournisseurs de services de messagerie instantanée publics** Permet aux utilisateurs de votre organisation d’établir une communication avec des fournisseurs de services de messagerie instantanée publics tels que MSN, Yahoo! et AOL. Une licence distincte est nécessaire pour établir la fédération avec les réseaux de messagerie instantanée publics.
     
 - **Fédération avec un fournisseur de services XMPP**
     
@@ -87,11 +87,11 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
     
 - **Mobilité**
     
-    Lorsque vous déployez le service de mobilité Skype Entreprise Server 2015, les utilisateurs peuvent utiliser les appareils mobiles Apple iOS, Android, Windows Phone ou Nokia pris en charge pour effectuer des activités telles que l’envoi et la réception de messages instantanés, l’affichage de contacts et l’affichage de la présence.
+    Lorsque vous déployez le service de mobilité Skype Entreprise Server 2015, les utilisateurs peuvent utiliser les appareils mobiles Apple iOS, Android, Windows Phone ou Nokia pris en charge pour effectuer des activités telles que l’envoi et la réception de messages instantanés, l’affichage des contacts et l’affichage de la présence.
     
 - **Boîte aux lettres Exchange W15**
     
-    Skype Entreprise Server 2015 vous permet de stocker des messages vocaux dans Exchange messagerie unifiée ; Ces messages vocaux s’affichent ensuite sous la plupart des messages électroniques dans la boîte de réception de vos utilisateurs.
+    Skype Entreprise Server 2015 vous permet de stocker des messages vocaux dans la messagerie unifiée Exchange ; ces messages vocaux s’affichent ensuite sous forme de messages électroniques dans la boîte de réception de vos utilisateurs.
     
 ### <a name="voice"></a>Voix
 
@@ -103,7 +103,7 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
     
 - **Messagerie unifiée Exchange**
     
-    Exchange La messagerie unifiée combine la messagerie vocale et la messagerie électronique dans une infrastructure de messagerie unique. Skype Entreprise Server 2015 utilise la Exchange pour fournir des services de répondeur automatique, d’accès abonné, de notification d’appel et de service de transport automatique. Si vous utilisez ces services, vous devez intégrer la Exchange la Skype Entreprise Server dans une topologie Active Directory partagée.
+    Exchange messagerie unifiée combine la messagerie vocale et la messagerie électronique dans une infrastructure de messagerie unique. Skype Entreprise Server 2015 utilise la Exchange pour fournir des services de répondeur automatique, d’accès abonné, de notification d’appel et de service de transport automatique. Si vous utilisez ces services, vous devez intégrer la Exchange la Skype Entreprise Server dans une topologie Active Directory partagée.
     
 ### <a name="additional-deployment-options"></a>Options de déploiement supplémentaires
 
@@ -115,7 +115,7 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
     
 - **Récupération d’urgence**
     
-    Les mesures de récupération d’urgence vous permettent de jumeler des pools frontaux situés dans deux centres de données.
+    Les mesures de récupération d’urgence vous permettent de coupler des pools frontaux situés dans deux centres de données.
     
 - **Analyse**
     
@@ -125,9 +125,9 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
     
     L’archivage stocke les conversations et les conférences de messagerie instantanée.
     
-- **Exchange Intégration de l’archivage**
+- **Exchange’archivage des données**
     
-    Si des utilisateurs sont homed on Exchange 2013 et que leurs boîtes aux lettres ont été mises en conservation In-Place, vous pouvez sélectionner l’option d’intégration du stockage Skype Entreprise Server 2015 avec le stockage Exchange.
+    Si des utilisateurs sont homed on Exchange 2013 et que leurs boîtes aux lettres ont été mises en conservation In-Place, vous pouvez sélectionner l’option pour intégrer le stockage Skype Entreprise Server 2015 au stockage Exchange.
     
 - **IPv4**
     
@@ -151,7 +151,7 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
     
 - **Annonce**
     
-    Si vous envisagez de déployer Voix Entreprise, vous pouvez configurer la façon dont les appels téléphoniques sont gérés si le numéro composé est valide mais n’est pas affecté à une zone commune d’utilisateur. Les administrateurs peuvent configurer le service d’annonce afin que ces appels transfèrent vers une destination prédéterminée (numéro de téléphone ou URI SIP) ou lire une annonce audio ou les deux. L’utilisation du service d’annonce évite la situation dans laquelle un appelant maldialisation et entend une tonalité d’occupé ou le client SIP reçoit un message d’erreur. La fonctionnalité service d’annonce est une fonctionnalité PBX classique. 
+    Si vous envisagez de déployer Voix Entreprise, vous pouvez configurer la façon dont les appels téléphoniques sont gérés si le numéro composé est valide mais n’est pas affecté à une zone commune d’utilisateur. Les administrateurs peuvent configurer le service d’annonce afin que ces appels sont transférés vers une destination prédéterminée (numéro de téléphone ou URI SIP) ou lire une annonce audio ou les deux. L’utilisation du service d’annonce évite la situation dans laquelle un appelant maldialisation et entend une tonalité d’occupé ou le client SIP reçoit un message d’erreur. La fonctionnalité service d’annonce est une fonctionnalité PBX classique. 
     
 - **Parcage d’appel**
     
@@ -163,7 +163,7 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
     
 - **Annonce de conférence**
     
-    application Annonce de conférence produit des tonalités signalant que les utilisateurs entrent ou quittent une conférence, ainsi que des notifications aux utilisateurs de téléphone lorsqu’ils sont en mode silencieux ou non.
+    application Annonce de conférence produit des tonalités signalant que les utilisateurs entrent ou quittent une conférence, ainsi que des notifications aux utilisateurs de téléphone lorsqu’ils sont mutés ou non.
     
 - **Contrôle d’admission des appels**
     

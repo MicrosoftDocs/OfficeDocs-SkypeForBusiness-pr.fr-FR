@@ -1,8 +1,8 @@
 ---
 title: Modification de la configuration du journal des périphériques
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: Vous pouvez ajouter une nouvelle configuration de fichier journal de périphérique dans la page Modifier les paramètres de journalisation qui détermine la taille maximale du cache des journaux, la taille maximale des fichiers journaux ou la durée de conservation d’un fichier journal avant sa suppression. Vous pouvez modifier ces paramètres en fonction des besoins de votre organisation.
-ms.openlocfilehash: 6e6278fb44344b99f018f297ecdd1494df846730
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a8d1ac8d85fa08461c8f43688e874371e6cb4f60
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835542"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386802"
 ---
 # <a name="device-log-configuration-edit"></a>Configuration du fichier journal de l’appareil : Modifier
  
@@ -41,7 +41,7 @@ Vous pouvez effectuer les tâches suivantes dans la page **Modifier les paramèt
 
 Les listes suivantes décrivent les menus, commandes, champs et propriétés de la page.
   
-- **Étendue** Identifie l’étendue (globale ou site) de la configuration du journal de l’appareil.
+- **Étendue** Identifie l’étendue (globale ou site) de la configuration du journal de périphérique.
     
 - **Nom** Vous pouvez ajouter ou modifier le nom de la configuration du journal de périphérique.
     

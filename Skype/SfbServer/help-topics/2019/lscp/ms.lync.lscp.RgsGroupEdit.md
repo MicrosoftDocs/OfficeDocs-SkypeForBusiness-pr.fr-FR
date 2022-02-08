@@ -1,8 +1,8 @@
 ---
 title: 'Groupes Response Group : création d’un groupe d’agents ou modification d’un groupe d’agents existant'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les groupes d’agents définissent les personnes qui peuvent répondre aux appels adressés à un groupe Response Group (appelées agents), ainsi que les paramètres qui s’appliquent à tous les agents dans le groupe.
-ms.openlocfilehash: 6c386f47e2448e7e508d9c9dd46c737f7de9e18a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b17a8db2541d10abfc46b8d7e1be2990b82f598b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833780"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385092"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>Services Response Group : création d’un nouveau ou modification d’un groupe existant
 
@@ -36,9 +36,9 @@ La liste suivante décrit les champs de la page.
 
 - **Stratégie de participation** Spécifiez la façon dont les agents se connectent au groupe Response Group :
 
-  - Sélectionnez **Informel** pour spécifier que les agents du groupe n’ont pas besoin de se connecter et de se sortir. Les agents informels sont automatiquement connectés lorsqu’ils se connectent. Le paramètre par défaut est **Informel**.
+  - **Sélectionnez Informel** pour spécifier que les agents du groupe n’ont pas besoin de se connecter et de se sortir. Les agents informels sont automatiquement connectés lorsqu’ils se connectent. Le paramètre par défaut est **Informel**.
 
-  - Sélectionnez **Formel** pour spécifier que les agents du groupe doivent se connecter et se sortir. Lorsque vous sélectionnez cette option, les agents cliquent sur un élément de menu dans le client pour ouvrir un navigateur et afficher une console de page web pour la signature et la sortie.
+  - **Sélectionnez Formel** pour spécifier que les agents du groupe doivent se connecter et se sortir. Lorsque vous sélectionnez cette option, les agents cliquent sur un élément de menu dans le client pour ouvrir un navigateur et afficher une console de page web pour la signature et la sortie.
 
 - **Temps d’alerte (secondes)** Spécifiez le nombre de secondes de sonnerie d’un agent avant d’appeler l’agent disponible suivant. La valeur doit être d’au moins 10 secondes et inférieure à 180 secondes. La valeur par défaut est 20 secondes.
 
@@ -52,11 +52,11 @@ La liste suivante décrit les champs de la page.
 
   - Sélectionnez **Série** pour qu’un nouvel appel soit toujours présenté aux agents dans l’ordre dans lequel il apparaît dans la liste **Agent**.
 
-  - Sélectionnez **Attendant** pour qu’il propose un nouvel appel à tous les agents qui sont inscrits et à l’application Response Group en même temps, quelle que soit leur présence actuelle. Les attendants et les utilisateurs clients configurés en tant qu’agents peuvent voir tous les appels en attente et répondre aux appels en attente dans n’importe quel ordre. L’appel est envoyé au premier agent qui l’accepte, et les autres agents et utilisateurs ne voient plus l’appel.
+  - **Sélectionnez Attendant** pour qu’il propose un nouvel appel à tous les agents qui sont inscrits et à l’application Response Group en même temps, quelle que soit leur présence actuelle. Les attendants et les utilisateurs clients configurés en tant qu’agents peuvent voir tous les appels en attente et répondre aux appels en attente dans n’importe quel ordre. L’appel est envoyé au premier agent qui l’accepte, et les autres attendants et utilisateurs ne voient plus l’appel.
 
 - **Agents** Sélectionnez les utilisateurs qui doivent être des agents pour le groupe Response Group de l’une des manières suivantes :
 
-  - Sélectionnez **Utiliser une liste de distribution** de courrier électronique existante pour utiliser une liste Exchange distribution. Tapez l’adresse de messagerie de la liste de distribution dans **Adresse de la liste de distribution**.
+  - **Sélectionnez Utiliser une liste de distribution de courrier** électronique existante pour utiliser une Exchange liste de distribution. Tapez l’adresse de messagerie de la liste de distribution dans **Adresse de la liste de distribution**.
 
     > [!NOTE]
     > Vous pouvez sélectionner une seule liste de distribution pour un groupe d’agents. Si la liste de distribution inclut des listes de distribution imbriquées, ces dernières ne sont pas incluses dans le groupe d’agents.
@@ -65,7 +65,7 @@ La liste suivante décrit les champs de la page.
     > L’ordre dans lequel les agents sont répertoriés dans la liste de distribution affecte l’ordre dans lequel les agents reçoivent des appels pour le routage en série et de tourniquet.
 
     > [!NOTE]
-    > Les appartenances masquées ou les listes masquées peuvent devenir visibles pour les administrateurs ou les utilisateurs Response Group. Pour plus d’informations, [voir Créer ou modifier un groupe d’agents dans Skype Entreprise](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md).
+    > Les appartenances masquées ou les listes masquées peuvent devenir visibles pour les administrateurs ou les utilisateurs Response Group. Pour plus d’informations, voir [Créer ou modifier un groupe d’agents dans Skype Entreprise](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md).
 
   - Sélectionnez **Définir un groupe personnalisé d’agents** pour sélectionner les utilisateurs que vous voulez attribuer en tant qu’agents pour le groupe Response Group. Cliquez sur **Sélectionner** pour ajouter un agent à la liste. Cliquez sur **Supprimer** pour supprimer un agent sélectionné de la liste.
 

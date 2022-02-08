@@ -1,7 +1,7 @@
 ---
 title: Acheter, configurer et activer des Conseiller d'orientation pour Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6ee69306faed71524742fab46c30c9e8523d8ff
-ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
+ms.openlocfilehash: 8f2698f668f33f078988b4c9ff1967a07c6765d9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61992998"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389766"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Acheter, configurer et activer des Conseiller d'orientation pour Microsoft Teams
 
@@ -43,7 +43,7 @@ Conseiller d'orientation langues sont localisées dans les langues suivantes :
 - Espagnol (Espagne)
 - Espagnol (Mexique)
 
-En savoir plus sur [Conseiller d'orientation.](https://aka.ms/career-coach)
+En savoir plus sur [Conseiller d'orientation](https://aka.ms/career-coach).
 
 > [!TIP]
 > Utilisez les meilleures pratiques et les conseils utiles de ce guide pour activer les fonctionnalités de Conseiller d'orientation pour les étudiants, enseignants et membres du personnel. Consultez [l’article du guide de planification](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) rapide.
@@ -77,7 +77,7 @@ Pour activer Conseiller d'orientation de votre établissement d’enseignement, 
 
 - Liste des champs d’étude proposés.
 
-- La page [LinkedIn de l’établissement d’enseignement.](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)
+- La [page LinkedIn de l’établissement d’enseignement](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 
 - URL de la politique de confidentialité de l’établissement d’enseignement.
 
@@ -93,30 +93,30 @@ Un essai gratuit standard de 90 jours est disponible pour 25 étudiants et 25 li
 
 ### <a name="assign-app-licenses-to-users"></a>Attribuer des licences d’application aux utilisateurs
 
-Pour obtenir des instructions détaillées, voir [Attribuer des licences aux utilisateurs.](/microsoft-365/admin/manage/assign-licenses-to-users)
+Pour obtenir des instructions détaillées, voir [Attribuer des licences aux utilisateurs](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ### <a name="turn-on-linkedin-account-connections"></a>Activer les connexions de compte LinkedIn
 
-Conseiller d'orientation **nécessite** que les utilisateurs de votre établissement d’enseignement ont la possibilité de connecter leur compte Microsoft 365 à leur compte LinkedIn, qui est facilité au sein Conseiller d'orientation.
+Conseiller d'orientation **nécessite** que les utilisateurs de votre établissement d’enseignement ont la possibilité de connecter leur compte Microsoft 365 à leur compte LinkedIn, qui est facilité au sein d’Conseiller d'orientation.
 
 1. Connectez-vous [au Azure AD d’administration](https://aad.portal.azure.com/) avec un compte administrateur global pour l’Azure AD organisation.
 
-2. Sélectionnez **Utilisateurs.**
+2. Sélectionnez **Utilisateurs**.
 
-3. Dans la page **Utilisateurs,** sélectionnez **Paramètres utilisateur.**
+3. Dans la page **Utilisateurs** , sélectionnez **Paramètres utilisateur**.
 
-4. **Pour que les connexions**  de  compte LinkedIn soient configurées correctement, elles doivent être définies sur Oui ou sur le groupe sélectionné Conseiller d'orientation groupe sélectionné.
+4. **Pour que les connexions** de compte LinkedIn  soient configurées correctement, elles doivent être définies sur Oui ou sur le groupe sélectionné Conseiller d'orientation groupe sélectionné.
 
    ![Intégrer des connexions de compte LinkedIn dans l’organisation](/azure/active-directory/enterprise-users/media/linkedin-integration/linkedin-integration.png)
 
    > [!NOTE]
    > Aucune donnée n’est partagée tant que les utilisateurs n’ont pas accepté de connecter leur compte.
 
-   - Sélectionnez **Oui** pour activer le service pour tous les utilisateurs de votre établissement d’enseignement.
+   - **Sélectionnez Oui** pour activer le service pour tous les utilisateurs de votre établissement d’enseignement.
 
    - Groupe **sélectionné pour** activer le service uniquement pour un groupe d’utilisateurs sélectionnés dans votre établissement d’enseignement.
 
-Pour plus d’informations, [consultez les connexions de compte LinkedIn dans Azure Active Directory.](/azure/active-directory/enterprise-users/linkedin-integration)
+Pour plus d’informations, [voir Connexions de compte LinkedIn dans Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration).
 
 ## <a name="access-the-career-coach-app-settings"></a>Accéder aux paramètres Conseiller d'orientation’application de messagerie
 
@@ -127,11 +127,11 @@ Utilisez Microsoft Teams centre d’administration pour configurer Conseiller d'
 
 1. Connectez-vous au **[Teams d’administration.](https://admin.teams.microsoft.com)**
 
-2. Dans la barre de navigation gauche, **sélectionnez Teams**  >  **[applications Gérer les applications.](https://admin.teams.microsoft.com/policies/manage-apps)**  
+2. Dans la barre de navigation gauche, **sélectionnez Teams applications** **[AppsManage](https://admin.teams.microsoft.com/policies/manage-apps)** > .  
 
-3. Recherchez des **Conseiller d'orientation.**  
+3. Recherchez **des Conseiller d'orientation.**  
 
-4. Sélectionnez **Conseiller d'orientation,** puis **sélectionnez Paramètres.**  
+4. **Sélectionnez Conseiller d'orientation**, puis **sélectionnez Paramètres**.  
 
     ![affiche le Conseiller d'orientation l’application sélectionnée avec l’option Paramètres’affichage.](media/career-coach-app.png)
 
@@ -150,7 +150,7 @@ Conseiller d'orientation cinq catégories de configuration :
 - [Personnalisation](#customization)
 
 > [!IMPORTANT]
-> La marque et les préférences, la configuration de  LinkedIn, le catalogue de cours et les champs d’étude sont requis pour activer efficacement l’application pour les étudiants, les enseignants et le personnel.
+> La marque et les préférences, la configuration de LinkedIn, le catalogue de cours et  les champs d’étude sont requis pour activer efficacement l’application pour les étudiants, les enseignants et le personnel.
 
 ### <a name="brand-and-preferences"></a>Marque et préférences
 
@@ -163,23 +163,23 @@ Personnalisez Conseiller d'orientation pour correspondre à la marque de votre �
 
 1. Connectez-vous au **[Teams d’administration.](https://admin.teams.microsoft.com)**
 
-2. Sélectionnez **Teams applications Gérer** les applications  >  **[et](https://admin.teams.microsoft.com/policies/manage-apps)**  >  **Conseiller d'orientation** la marque  >  **et les préférences.**
+2. **Sélectionnez Teams appsManage** >  **[apps](https://admin.teams.microsoft.com/policies/manage-apps)** >  **Conseiller d'orientation** >  **Brand et preferences**.
 
-3. Télécharger icône **de l’établissement d’enseignement.** L’icône est utilisée dans tout Conseiller d'orientation pour identifier le contenu propre à votre établissement d’enseignement, les ressources du catalogue de cours dans l’application et dans la section des expériences réelles du tableau de bord. Pour ce faire, il est préférable d’avoir la mise en forme la plus à jour :
+3. Télécharger icône **de l’établissement d’enseignement**. L’icône est utilisée dans tout Conseiller d'orientation pour identifier le contenu propre à votre établissement d’enseignement, les ressources du catalogue de cours dans l’application et dans la section des expériences réelles du tableau de bord. Pour ce faire, il est préférable d’avoir la mise en forme la plus à jour :
 
     - A transparent PNG
     - Proportions de 1:1
     - Taille maximale de 64 px x 64 px
 
-4. Télécharger miniature **de l’établissement d’enseignement.** La miniature sera utilisée pour les ressources du catalogue de cours dans l’application lorsqu’une image spécifique n’est pas disponible pour un cours. La miniature est mieux mise en forme que :
+4. Télécharger **miniature de l’établissement d’enseignement**. La miniature sera utilisée pour les ressources du catalogue de cours dans l’application lorsqu’une image spécifique n’est pas disponible pour un cours. La miniature est mieux mise en forme que :
 
     - A PNG
     - Proportions de 16:9
     - Taille maximale de 360 px x 200 px
 
-5. Ajoutez l’URL de la politique de confidentialité **de l’établissement d’enseignement.** Si elle est ajoutée, la politique de confidentialité de l’établissement sera disponible pour les étudiants dans l’Conseiller d'orientation’application.
+5. Ajoutez **l’URL de la politique de confidentialité de l’établissement d’enseignement**. Si elle est ajoutée, la politique de confidentialité de l’établissement sera disponible pour les étudiants dans l’Conseiller d'orientation’application.
 
-6. Sélectionnez **Envoyer.**
+6. **Sélectionnez Envoyer**.
 
 ### <a name="linkedin-connection"></a>Connexion LinkedIn
 
@@ -192,29 +192,29 @@ La configuration de LinkedIn se connecte Conseiller d'orientation aux données p
   
 1. Connectez-vous au **[Teams d’administration.](https://admin.teams.microsoft.com)**
 
-2. Sélectionnez **Teams applications Gérer** les applications  >  **[](https://admin.teams.microsoft.com/policies/manage-apps)**  >  **Conseiller d'orientation**  >  **connexion LinkedIn.**
+2. **Sélectionnez Teams appsManage** >  **[apps](https://admin.teams.microsoft.com/policies/manage-apps)** >  **Conseiller d'orientation** >  **LinkedIn connection**.
 
-3. Recherchez la page LinkedIn en recherchant sur LinkedIn et en sélectionnant le **filtre** Scolaire. Ou communiquez avec un membre du personnel des services de carrière pour déterminer la page d’établissement LinkedIn correcte à utiliser. Pour plus d’informations, [voir Comment identifier les pages LinkedIn.](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)
+3. Recherchez la page LinkedIn en recherchant sur LinkedIn et en sélectionnant le **filtre** Scolaire. Ou communiquez avec un membre du personnel des services de carrière pour déterminer la page d’établissement LinkedIn correcte à utiliser. Pour plus d’informations, [voir Comment identifier les pages LinkedIn](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 
     ![linkedin search for school.](media/career-coach-school-search.png)
 
-4. Ajoutez l’URL de la page de l’établissement LinkedIn. L’URL doit être une page scolaire et non une page d’entreprise et elle est généralement mise en forme en tant que `https://www.linkedin.com/school/willow-university/` .
+4. Ajoutez l’URL de la page de l’établissement LinkedIn. L’URL doit être une page scolaire et non une page d’entreprise et elle est généralement mise en forme en tant que `https://www.linkedin.com/school/willow-university/`.
 
    ![Exemple de page de l’établissement linkedin.](media/career-coach-linkedin-page-url.png)
 
-5. Sélectionnez **Envoyer.**
+5. **Sélectionnez Envoyer**.
 #### <a name="verify-the-linkedin-page"></a>Vérifier la page LinkedIn 
 
 > [!IMPORTANT]
 > La vérification doit être effectuée par l’administrateur de la page LinkedIn de votre établissement d’enseignement.
 
-1. Si l’soumis est correctement envoyé, la page est mise à jour pour afficher le lien de vérification **et** la **date d’expiration du lien de vérification.** Le lien de vérification expire après 30 jours.
+1. Si elle a été envoyée avec succès, la page est mise à jour pour afficher le lien **de vérification et** **l’expiration du lien de vérification**. Le lien de vérification expire après 30 jours.
 
    ![linkedin connections pour l’application Career coach.](media/career-coach-linked-in.png)  
 
-2. Copiez le lien de vérification et partagez-le avec l’administrateur de la page LinkedIn de votre établissement d’enseignement. En savoir plus sur le rôle d’administrateur de la page LinkedIn dans la [documentation d’administration de la page LinkedIn.](https://www.linkedin.com/help/linkedin/answer/102672)
+2. Copiez le lien de vérification et partagez-le avec l’administrateur de la page LinkedIn de votre établissement d’enseignement. En savoir plus sur le rôle d’administrateur de la page LinkedIn dans la [documentation d’administration de la page LinkedIn](https://www.linkedin.com/help/linkedin/answer/102672).
 
-3. L’administrateur principal de la page LinkedIn utilisera le lien de vérification unique pour associer Conseiller d'orientation la page de votre établissement scolaire. Pour plus [d’informations, voir la documentation supplémentaire sur la vérification de la page LinkedIn.](https://www.linkedin.com/help/linkedin/answer/102672)
+3. L’administrateur principal de la page LinkedIn utilisera le lien de vérification unique pour associer Conseiller d'orientation la page de votre établissement scolaire. Pour plus [d’informations, voir la documentation supplémentaire sur la vérification de la page LinkedIn](https://www.linkedin.com/help/linkedin/answer/102672) .
 
    ![Vérification de la page Linkedin dans le portail de développement Linkedin.](media/career-coach-linkedin-verification.png)
 
@@ -237,20 +237,20 @@ Pour créer le catalogue de cours, créez une liste de tous les cours appris dan
 
 1. Connectez-vous au **[Teams d’administration.](https://admin.teams.microsoft.com)**
 
-1. Sélectionnez **Teams applications Gérer les** applications &gt; **[](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Conseiller d'orientation** &gt; **Paramètres** &gt; **catalogue de cours.**  
+1. Sélectionnez **Teams applications Gérer les** &gt; **applications Conseiller d'orientation** &gt; **[](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Paramètres** &gt;**catalogue de cours**.  
 
 2. Télécharger cours au format CSV avec les colonnes requises : courseId, titre et sourceLink. Chaque ligne doit inclure des données pour chacune des colonnes requises. _L’inclure dans les champs recommandés améliore l’expérience pour les étudiants en renvoyant de meilleurs résultats de recherche et une identification des compétences._
 
-4. Sélectionnez **Envoyer.**
+4. **Sélectionnez Envoyer**.
 
    ![la section catalogue de cours de l’application Carrières.](media/course-catalog.png)
 
 #### <a name="course-catalog-document-format-and-schema"></a>Schéma et format de document du catalogue de cours
 
-Le document doit être au format CSV avec une taille maximale de 18 Mo. Le document doit contenir le titre du **cours,** **l’ID** du cours et **l’URL du cours requis.** 
+Le document doit être au format CSV avec une taille maximale de 18 Mo. Le document doit contenir le titre du **cours,** **l’ID du** cours et **l’URL du cours requis**. 
 
 > [!TIP]
-> Commencez avec l’exemple de document [de catalogue de cours]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) pour garantir une mise en forme appropriée. _L’inclure dans les champs recommandés améliore l’expérience pour les étudiants en renvoyant de meilleurs résultats de recherche et une identification des compétences._
+> Commencez avec [l’exemple de document de catalogue de cours]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) pour garantir une mise en forme appropriée. _L’inclure dans les champs recommandés améliore l’expérience pour les étudiants en renvoyant de meilleurs résultats de recherche et une identification des compétences._
 
 Le tableau suivant répertorie les éléments à inclure dans le catalogue des cours :
 
@@ -277,11 +277,11 @@ Les champs d’étude sont synonymes de domaines d’intérêt majeurs, de dipl�
 #### <a name="add-the-fields-of-study"></a>Ajouter les champs d’étude
 
 1. Connectez-vous au **[Teams d’administration.](https://admin.teams.microsoft.com)**
-1. Sélectionnez **Teams applications Gérer** les applications &gt; **[](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Conseiller d'orientation** &gt; **Paramètres** &gt; **d’étude.**  
+1. **Sélectionnez Teams applications Gérer** &gt; **[les](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **applications Conseiller d'orientation** &gt; **Paramètres** &gt;**d’étude**.  
 
 2. Télécharger d’étude au format CSV.
 
-3. Sélectionnez **Envoyer.**
+3. **Sélectionnez Envoyer**.
 
 #### <a name="fields-of-study-document-format-and-schema"></a>Champs du format et du schéma d’un document d’étude
 
@@ -304,11 +304,11 @@ Conseiller d'orientation peuvent être personnalisés pour être uniques à votr
 
 1. Connectez-vous au **[Teams d’administration.](https://admin.teams.microsoft.com)**
 
-1. Sélectionnez **Teams applications Gérer les** applications &gt; **[](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Conseiller d'orientation**  >  **Paramètres** &gt; **personnalisation.**
+1. **Sélectionnez Teams applications Gérer** &gt; **[les](https://admin.teams.microsoft.com/policies/manage-apps)** **applications Conseiller d'orientation** > &gt; **Paramètres** &gt; **la personnalisation**.
 
 2. Ajoutez un titre, une URL et une courte description.  
   
-3. Sélectionnez **Envoyer.**
+3. **Sélectionnez Envoyer**.
 
 ## <a name="making-career-coach-available-to-your-organization"></a>Rendre Conseiller d'orientation disponibles pour votre organisation
 
@@ -323,9 +323,9 @@ Une fois la configuration terminée, activez l’application pour les étudiants
 
 1. Connectez-vous au **[Teams d’administration.](https://admin.teams.microsoft.com)**
 
-1. Sélectionnez **Teams applications Gérer** les applications &gt; **[](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Conseiller d'orientation.**
+1. Sélectionnez **Teams applications Gérer** &gt; **[les applications Conseiller d'orientation](https://admin.teams.microsoft.com/policies/manage-apps)**&gt;.
 
-2. Déplacez le bascule Statut sur **Autorisé.**  
+2. Déplacez le bascule Statut sur **Autorisé**.  
 
    > [!NOTE]
    > **Autorisé** signifie que l’application est disponible pour les utilisateurs de votre établissement d’enseignement. Bloqué signifie que l’application n’est pas disponible pour les étudiants.
@@ -337,12 +337,12 @@ Une fois la configuration terminée, activez l’application pour les étudiants
 
 1. Connectez-vous au **[Teams d’administration.](https://admin.teams.microsoft.com)**
 
-2. Sélectionnez **Teams de configuration** des &gt; **applications,** puis sélectionnez votre stratégie préférée.
-Si vous ne savez pas quelle stratégie utiliser, consultez la documentation [](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) relative à la gestion des stratégies [Microsoft Teams](/microsoftteams/policy-packages-edu) ou utilisez l’Assistant Stratégie d’éducation pour configurer une stratégie pour Microsoft Teams.
+2. Sélectionnez **Teams de configuration des** &gt; **applications**, puis sélectionnez votre stratégie préférée.
+Si vous ne savez pas quelle stratégie utiliser, consultez la documentation relative à la gestion des stratégies [Microsoft Teams](/microsoftteams/policy-packages-edu) ou utilisez [](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) l’Assistant Stratégie d’éducation pour configurer une stratégie pour Microsoft Teams.
 
-3. Sous Applications installées, **sélectionnez Ajouter des applications.**
+3. Sous Applications installées, **sélectionnez Ajouter des applications**.
 
-4. Dans le volet Ajouter des applications installées, recherchez les applications que vous voulez installer automatiquement pour les utilisateurs lorsqu’ils démarrent Teams. Vous pouvez également filtrer les applications par stratégie d’autorisation d’application. Lorsque vous avez choisi votre liste d’applications, sélectionnez **Ajouter.**
+4. Dans le volet Ajouter des applications installées, recherchez les applications que vous voulez installer automatiquement pour les utilisateurs lorsqu’ils démarrent Teams. Vous pouvez également filtrer les applications par stratégie d’autorisation d’application. Lorsque vous avez choisi votre liste d’applications, sélectionnez **Ajouter**.
 
 5. Sélectionnez **Enregistrer**.
 
@@ -355,19 +355,19 @@ Si vous ne savez pas quelle stratégie utiliser, consultez la documentation [](/
 
 1. Connectez-vous au **[Teams d’administration.](https://admin.teams.microsoft.com)**
 
-2. Sélectionnez **Teams de configuration** des &gt; **applications,** puis sélectionnez votre stratégie préférée.
-Si vous ne savez pas quelle stratégie utiliser, consultez la documentation [](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) relative à la gestion des stratégies [Microsoft Teams](/microsoftteams/policy-packages-edu) ou utilisez l’Assistant Stratégie d’éducation pour configurer une stratégie pour Microsoft Teams.
+2. Sélectionnez **Teams de configuration des** &gt; **applications**, puis sélectionnez votre stratégie préférée.
+Si vous ne savez pas quelle stratégie utiliser, consultez la documentation relative à la gestion des stratégies [Microsoft Teams](/microsoftteams/policy-packages-edu) ou utilisez [](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) l’Assistant Stratégie d’éducation pour configurer une stratégie pour Microsoft Teams.
 
-3. Sous **Applications épinglées,** **sélectionnez Ajouter des applications.**
+3. Sous **Applications épinglées**, **sélectionnez Ajouter des applications**.
 
-4. Recherchez des **Conseiller d'orientation,** puis sélectionnez **Ajouter.**
+4. Recherchez des **Conseiller d'orientation**, puis sélectionnez **Ajouter**.
 
-5. Choisissez l’ordre d’apparition de l’application, puis sélectionnez **Enregistrer.**
+5. Choisissez l’ordre d’apparition de l’application, puis sélectionnez **Enregistrer**.
 
 > [!NOTE]
 > Les étudiants seront avertis dans un Microsoft Teams’Conseiller d'orientation ont été épinglés.
 
-Pour plus [d’informations,](/microsoftteams/teams-app-setup-policies) référez-vous à Gérer les stratégies de configuration d’application dans Microsoft.
+Pour plus [d’informations, référez-vous](/microsoftteams/teams-app-setup-policies) à Gérer les stratégies de configuration d’application dans Microsoft.
 
 ## <a name="career-coach-settings-status"></a>Conseiller d'orientation d’état des paramètres
 
@@ -396,7 +396,7 @@ La section État de configuration de la page des paramètres de l’application 
 | Champs d’étude       | Terminé                  | Aucune action supplémentaire n’est requise.                                   |
 
 > [!NOTE]
-> Une fois toutes les étapes marquées comme terminées, l’application peut être publiée avec succès sur votre client et attribuer Conseiller d'orientation licences. Pour obtenir des instructions détaillées, voir [Attribuer des licences aux utilisateurs.](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+> Une fois toutes les étapes marquées comme terminées, l’application peut être publiée avec succès sur votre client et attribuer Conseiller d'orientation licences. Pour obtenir des instructions détaillées, voir [Attribuer des licences aux utilisateurs](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
 
 ### <a name="course-catalog-status"></a>État du catalogue de cours
 
@@ -421,9 +421,9 @@ L’état du catalogue de cours est affiché sur la page des paramètres du cata
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
-- Si le terme « Conseiller d'orientation est en cours de mise en Conseiller d'orientation est en cours de mise en service » dans l’application Conseiller d'orientation, cela indique que les __sections requises n’ont pas été terminées.__ Les __sections suivantes__ doivent être complètes avant l’Conseiller d'orientation utilisée : Marque et [préférences,](#brand-and-preferences)Connexion [LinkedIn,](#linkedin-connection)Catalogue de cours [et](#course-catalog)Champs [d’étude.](#fields-of-study)
+- Si le terme « Conseiller d'orientation est en cours de Conseiller d'orientation est en cours de mise en service » dans l’application Conseiller d'orientation, cela indique que les __sections requises n’ont pas été terminées__. Les __sections suivantes doivent être complètes__ avant que Conseiller d'orientation puisse être utilisé : Marque et [préférences, Connexion](#brand-and-preferences) [LinkedIn](#linkedin-connection)[, Catalogue](#course-catalog) de cours et Champs [d’étude](#fields-of-study).
 
-- Les formats CSV pour le catalogue de cours et le champ d’étude ont les formats requis et une taille maximale de 18 Mo. Référencez le Conseiller d'orientation de document du [catalogue](#course-catalog-document-format-and-schema) de cours Conseiller d'orientation champs du schéma de [document](#fields-of-study-document-format-and-schema) d’étude pour garantir une configuration appropriée.
+- Les formats CSV pour le catalogue de cours et le champ d’étude ont les formats requis et une taille maximale de 18 Mo. Référencez le Conseiller d'orientation [de document du catalogue](#course-catalog-document-format-and-schema) de cours Conseiller d'orientation champs du schéma [de document](#fields-of-study-document-format-and-schema) d’étude pour garantir une configuration appropriée.
 
 - Sur les pages de paramètres avec des champs obligatoires, si les champs ne sont pas achevés, la page ne sera pas soumission. Vous ne verrez pas de message d’avertissement. la page ne sera tout simplement pas envoyer.
 
@@ -433,15 +433,15 @@ L’état du catalogue de cours est affiché sur la page des paramètres du cata
 
 ## <a name="removing-your-tenant-data"></a>Suppression de vos données client
 
-Vos données client incluent des informations téléchargées ou générées dans le cadre de la configuration de l’application. Pour supprimer toutes les données d’un client Conseiller d'orientation, demandez à l’administrateur général de votre client d’ouvrir un ticket de [support](https://edusupport.microsoft.com/support?product_id=career_coach) demandant la suppression définitive des données du client. N’oubliez pas que ce processus est une opération irréversible. Une fois la suppression des données terminée, l’application Conseiller d'orientation revient à son état pré-configuré et non personnalisé pour tous les utilisateurs et un administrateur Teams devra configurer de nouveau l’application pour continuer à l’utiliser.
+Vos données client incluent des informations téléchargées ou générées dans le cadre de la configuration de l’application. Pour supprimer toutes les données d’un client Conseiller d'orientation, demandez à l’administrateur général de votre client d’ouvrir un [ticket de support](https://edusupport.microsoft.com/support?product_id=career_coach) demandant la suppression définitive des données du client. N’oubliez pas que ce processus est une opération irréversible. Une fois la suppression des données terminée, l’application Conseiller d'orientation revient à son état pré-configuré et non personnalisé pour tous les utilisateurs et un administrateur Teams devra configurer de nouveau l’application pour continuer à l’utiliser.
 
 La procédure suivante explique le processus de suppression :
 
-- Un ticket de support doit être déposé par un administrateur global du client et indiquer clairement la demande de suppression définitive des données de votre client. **Il n’est pas possible de limiter le jeu de** données ou la fenêtre Délai de la suppression.
+- Un ticket de support doit être déposé par un administrateur global du client et indiquer clairement la demande de suppression définitive des données de votre client. **Il n’est pas possible de limiter la fenêtre de jeu de données ou de délai de la suppression**.
 
 - Une fois classé, le ticket de support sera traité après une semaine pour répondre à la stratégie de rétention minimale de conformité. Vous pouvez annuler l’opération pendant cette période.
 
-- Après une semaine, l’équipe Conseiller d'orientation s’assure que toutes les données liées au client sont supprimées. Le support microsoft surveille le ticket et vous avertira une fois le processus de suppression terminé, dans un **pas plus de 30 jours.**
+- Après une semaine, l’équipe Conseiller d'orientation s’assure que toutes les données liées au client sont supprimées. Le support microsoft surveille le ticket et vous avertira une fois le processus de suppression terminé, dans un pas **plus de 30 jours**.
 
 
 ## <a name="resources"></a>Ressources

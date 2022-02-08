@@ -1,8 +1,8 @@
 ---
 title: Gérer les paramètres de configuration du service de journalisation centralisée Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Résumé : Découvrez comment récupérer, mettre à jour et créer des paramètres de configuration pour le service de journalisation centralisée dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 27202b870ba0115f045eda367619a449b307e708
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 655c5a18d64ae17000f975680f0b9b9a6a42323f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831928"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385554"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Gérer les paramètres de configuration du service de journalisation centralisée Skype Entreprise Server 2015
 
@@ -30,9 +30,9 @@ Le service de journalisation centralisée est contrôlé et configuré par des p
 > [!IMPORTANT]
 >  Les cmdlets Windows PowerShell répertoriées pour le service de journalisation centralisée ne sont pas toutes destinées à être Skype Entreprise Server déploiements locaux en 2015. Bien qu’elles semblent fonctionner, les cmdlets suivantes ne sont pas conçues pour fonctionner avec les déploiements locaux Skype Entreprise Server 2015 :
 
--  **Cmdlets CsClsRegion :** [Get-CsClsRegion](/powershell/module/skype/get-csclsregion?view=skype-ps) ,[Set-CsClsRegion](/powershell/module/skype/set-csclsregion?view=skype-ps), [New-CsClsRegion](/powershell/module/skype/new-csclsregion?view=skype-ps)et [Remove-CsClsRegion](/powershell/module/skype/remove-csclsregion?view=skype-ps).
+-  **Cmdlets CsClsRegion** [: Get-CsClsRegion](/powershell/module/skype/get-csclsregion?view=skype-ps) ,[Set-CsClsRegion](/powershell/module/skype/set-csclsregion?view=skype-ps), [New-CsClsRegion](/powershell/module/skype/new-csclsregion?view=skype-ps) et [Remove-CsClsRegion](/powershell/module/skype/remove-csclsregion?view=skype-ps).
 -  **Cmdlets CsClsSearchTerm** : [Get-CsClsSearchTerm](/powershell/module/skype/get-csclssearchterm?view=skype-ps) et [Set-CsClsSearchTerm](/powershell/module/skype/set-csclssearchterm?view=skype-ps).
--  **Cmdlets CsClsSecurityGroup :** [Get-CsClsSecurityGroup](/powershell/module/skype/get-csclssecuritygroup?view=skype-ps), [Set-CsClsSecurityGroup](/powershell/module/skype/set-csclssecuritygroup?view=skype-ps),  [New-CsClsSecurityGroup](/powershell/module/skype/new-csclssecuritygroup?view=skype-ps)et [Remove-CsClsSecurityGroup](/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps).
+-  **Cmdlets CsClsSecurityGroup** : [Get-CsClsSecurityGroup](/powershell/module/skype/get-csclssecuritygroup?view=skype-ps), [Set-CsClsSecurityGroup](/powershell/module/skype/set-csclssecuritygroup?view=skype-ps),  [New-CsClsSecurityGroup](/powershell/module/skype/new-csclssecuritygroup?view=skype-ps) et [Remove-CsClsSecurityGroup](/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps).
 
 Les paramètres définis dans ces cmdlets n’empêchent pas ou ne provoquent aucun comportement indésirable, mais ils sont conçus pour être utilisés avec Microsoft 365 ou Office 365 et ne donnent pas les résultats attendus dans les déploiements locaux. Cela ne veut pas dire qu’il n’est pas nécessaire d’utiliser ces cmdlets dans les déploiements locaux, mais leur utilisation est un sujet plus avancé qui n’est pas abordé dans cette documentation.
 
@@ -58,14 +58,14 @@ Une étendue d’ordinateur unique peut être définie lors de l’exécution d�
 > [!TIP]
 > Vous pouvez également définir -Pools et une liste séparée par des virgules des pools sur qui vous souhaitez exécuter les commandes de journalisation.
 
-Les étendues de site et globales sont définies dans les cmdlets **New-**, **Set-** et **Remove-** Centralized Logging Service. Les exemples suivants montrent comment définir une étendue globale ou de site.
+Les étendues site et globale sont définies dans les cmdlets **New-**, **Set-**, and **Remove-** Centralized Logging Service. Les exemples suivants montrent comment définir une étendue globale ou de site.
 
 > [!IMPORTANT]
 > Les commandes indiquées peuvent contenir des paramètres et des concepts décrits dans d’autres sections. Les exemples de commandes sont destinés à démontrer l’utilisation du paramètre **-Identity** pour définir l’étendue, et les autres paramètres sont inclus pour l’intégralité et pour spécifier l’étendue. Pour plus d’informations sur les applets de commande **Set-CsClsConfiguration**, voir [Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps) dans la documentation des opérations.
 
 ### <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>Pour récupérer la configuration actuelle du service de journalisation centralisée
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
 
 2. Tapez ce qui suit à l’invite de ligne de commande :
 
@@ -73,13 +73,13 @@ Les étendues de site et globales sont définies dans les cmdlets **New-**, **Se
    Get-CsClsConfiguration
    ```
 
-Utilisez les cmdlets **New-CsClsConfiguration** et **Set-CsClsConfiguration** pour créer une configuration ou mettre à jour une configuration existante. Lorsque vous exécutez **Get-CsClsConfiguration,** il affiche des informations similaires à la capture d’écran suivante, où le déploiement a actuellement la configuration globale par défaut, mais aucune configuration de site définie :
+Utilisez les cmdlets **New-CsClsConfiguration** et **Set-CsClsConfiguration** pour créer une configuration ou mettre à jour une configuration existante. Lorsque vous exécutez **Get-CsClsConfiguration**, elle affiche des informations similaires à la capture d’écran suivante, où le déploiement possède actuellement la configuration globale par défaut, mais aucune configuration de site définie :
 
 ![Exemple de sortie de Get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
 
 ### <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a>Pour récupérer la configuration actuelle du service de journalisation centralisée à partir du magasin local de l’ordinateur
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
 
 2. Tapez ce qui suit à l’invite de ligne de commande :
 
@@ -90,7 +90,7 @@ Utilisez les cmdlets **New-CsClsConfiguration** et **Set-CsClsConfiguration** po
 Lorsque vous utilisez le premier exemple où **Get-CsClsConfiguration** ne spécifie aucun paramètre, la commande fait référence au magasin central de gestion pour les données. Si vous spécifiez le paramètre -LocalStore, la commande fait référence à l’ordinateur LocalStore au lieu du magasin central de gestion.
 ### <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>Pour récupérer une liste des scénarios actuellement définis
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
 
 2. Tapez ce qui suit à l’invite de ligne de commande :
 
@@ -105,9 +105,9 @@ Lorsque vous utilisez le premier exemple où **Get-CsClsConfiguration** ne spéc
    ```
 
 L’cmdlet **Get-CsClsConfiguration** affiche toujours les scénarios qui font partie de la configuration d’une étendue donnée. Dans la plupart des cas, tous les scénarios ne sont pas affichés, et sont tronqués. La commande utilisée ici répertorie tous les scénarios et des informations partielles sur les fournisseurs, les paramètres et les indicateurs utilisés.
-### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Pour mettre à jour une étendue globale pour le service de journalisation centralisée à l’aide de Windows PowerShell
+### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Pour mettre à jour une étendue globale pour le service de journalisation centralisée à l’aide Windows PowerShell
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
 
 2. Tapez ce qui suit à l’invite de ligne de commande :
 
@@ -124,7 +124,7 @@ L’cmdlet **Get-CsClsConfiguration** affiche toujours les scénarios qui font p
 La commande indique au CLSAgent de chaque ordinateur et pool du déploiement de définir la valeur de substitution dans le fichier de suivi à 40 mégaoctets. Les ordinateurs et les pools de tous les sites sont affectés par cette commande, et définiront la valeur de substitution du journal de suivi configuré à 40 mégaoctets.
 ### <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Pour mettre à jour une étendue de site pour le service de journalisation centralisée à l’aide de Windows PowerShell
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
 
 2. Tapez ce qui suit à l’invite de ligne de commande :
 
@@ -144,7 +144,7 @@ La commande indique au CLSAgent de chaque ordinateur et pool du déploiement de 
 Cette commande indique au CLSAgent de chaque ordinateur et pool du site Redmond de définir la taille de la valeur de substitution du fichier de suivi à 40 mégaoctets. Les ordinateurs et les pools des autres sites ne sont pas affectés par cette commande, et continueront d’utiliser la valeur de substitution du journal de suivi configurée actuellement et définie par défaut (20 mégaoctets) ou lors du démarrage de la session de journalisation.
 ### <a name="to-create-a-new-centralized-logging-service-configuration"></a>Pour créer une configuration du service de journalisation centralisée
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
 
 2. Tapez ce qui suit à l’invite de ligne de commande :
 
@@ -164,7 +164,7 @@ Par exemple, pour créer une configuration qui définit un dossier réseau pour 
 Vous devez soigneusement planifier la création de nouvelles configurations et la façon dont vous définissez de nouvelles propriétés pour le service de journalisation centralisée. Faites attention lorsque vous apportez des modifications et assurez-vous de bien comprendre l’impact sur la journalisation des scénarios. Apportez des modifications à la configuration pour améliorer la résolution des problèmes en permettant une meilleure gestion des tailles de journaux et de la période de substitution.
 ### <a name="to-remove-an-existing-centralized-logging-service-configuration"></a>Pour supprimer une configuration existante du service de journalisation centralisée
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
 
 2. Tapez ce qui suit à l’invite de ligne de commande :
 

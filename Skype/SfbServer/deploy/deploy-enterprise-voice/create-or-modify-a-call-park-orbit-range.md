@@ -1,8 +1,8 @@
 ---
 title: Créer ou modifier une plage d’orbites de parcur d’appel dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Créez ou modifiez une table de plages d’orbites de parc Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: ffe4a47a099099d31fdd55d23a95065549233f92
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8e6061f77d59eef8029b5afc52ede0d5acc500c8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839696"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387352"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Créer ou modifier une plage d’orbites de parcur d’appel dans Skype Entreprise
 
 Créez ou modifiez une table de plages d’orbites de parc Skype Entreprise Server Voix Entreprise.
 
-Le parc d’appel utilise des orbites pour le parc d’appels. Avant que les utilisateurs ne parent et récupèrent des appels, vous devez configurer la table des orbites de parcer des appels. Vous devez spécifier les plages de numéros de poste (orbites) que votre organisation réserve pour le parcage d’appels et définir le routage de ces plages en spécifiant le pool de parcage d’appel qui gère chaque plage. Lorsque vous définissez des plages d’orbites, l’objectif est de disposer de suffisamment d’orbites pour éviter d’avoir à réutiliser trop rapidement une orbite, mais sans que leur nombre soit trop élevé afin de pouvoir limiter le nombre de postes disponibles pour les utilisateurs ou d’autres services. Vous pouvez créer plusieurs plages d’orbites de parcage d’appel pour chaque pool Skype Entreprise Server où l’application de parcage d’appel est déployée. Chaque plage d’orbites de parcur d’appel doit avoir un nom global unique et un ensemble unique d’extensions.
+Le parc d’appel utilise des orbites pour le parcier d’appels. Avant que les utilisateurs ne parent et récupèrent des appels, vous devez configurer la table des orbites de parcer des appels. Vous devez spécifier les plages de numéros de poste (orbites) que votre organisation réserve pour le parcage d’appels et définir le routage de ces plages en spécifiant le pool de parcage d’appel qui gère chaque plage. Lorsque vous définissez des plages d’orbites, l’objectif est de disposer de suffisamment d’orbites pour éviter d’avoir à réutiliser trop rapidement une orbite, mais sans que leur nombre soit trop élevé afin de pouvoir limiter le nombre de postes disponibles pour les utilisateurs ou d’autres services. Vous pouvez créer plusieurs plages d’orbites de parcage d’appel pour chaque pool Skype Entreprise Server où l’application de parcage d’appel est déployée. Chaque plage d’orbites de parcur d’appel doit avoir un nom global unique et un ensemble unique d’extensions.
 
 > [!IMPORTANT]
 > Une plage d’orbites comprend généralement au moins 100 orbites. Chaque plage peut être plus importante à condition qu’elle contienne moins de 10 000 orbites et que chaque pool comporte moins de 50 000 orbites. Si une plage est trop petite, les orbites sont réutilisées plus rapidement.
@@ -64,13 +64,13 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une plage d�
 
    - La plage d’orbites doit être unique. Cette plage ne peut pas chevaucher une autre plage.
 
-   - Si la plage d’orbites commence par le caractère ou #, la plage doit être supérieure \* à 100.
+   - Si la plage d’orbites commence par le caractère ou \* #, la plage doit être supérieure à 100.
 
-   - Valeurs valides : doit correspondre à la chaîne d’expression régulière ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Cela signifie que la valeur doit être une chaîne commençant par le caractère ou # ou un nombre de 1 à 9 (le premier caractère ne peut \* pas être un zéro). Si le premier caractère est ou #, le caractère suivant doit être un nombre \* de 1 à 9 (il ne peut pas être un zéro). Les caractères suivants peuvent être n’importe quel nombre de 0 à 9, jusqu’à sept caractères supplémentaires (par exemple, « #6000 », « \* 92000 », « 95551212 » et \* « 915551212 »). Si le premier caractère n’est pas ou #, le premier caractère doit être un nombre de 1 à 9 (il ne peut pas être zéro), suivi de huit caractères au plus, chacun un nombre \* 0 à 9 (par exemple, « 915551212 », « 41212 », « 300 »).
+   - Valeurs valides : doit correspondre à la chaîne d’expression régulière ([\\*|#]?[ 1-9]\d{0,7})| ([1-9]\d{0,8}). Cela signifie que la valeur doit \* être une chaîne commençant par le caractère ou # ou un nombre de 1 à 9 (le premier caractère ne peut pas être un zéro). Si le premier caractère est \* ou #, le caractère suivant doit être un nombre de 1 à 9 (il ne peut pas être un zéro). Les caractères suivants peuvent être n’importe quel nombre de 0 à 9, jusqu’à sept caractères supplémentaires (par exemple, « #6000\* », « 92000\* », « 95551212 » et « 915551212 »). \* Si le premier caractère n’est pas ou #, le premier caractère doit être un nombre de 1 à 9 (il ne peut pas être zéro), suivi de huit caractères au plus, chacun un nombre 0 à 9 (par exemple, « 915551212 », « 41212 », « 300 »).
 
    - Il ne doit pas y avoir plus de 50 000 orbites par pool. Chaque plage d’orbites comporte en général un maximum de 100 orbites. Mais les plages peuvent comporter jusqu’à 10 000 orbites. Par exemple, au lieu de spécifier « 7 000 000 » comme numéro de début et « 8 000 000 » comme numéro de fin, spécifiez « 7 000 000 » comme numéro de début et « 7 000 100 » comme numéro de fin.
 
-6. Dans le nom de domaine complet du serveur de **destination,** cliquez sur le nom de domaine complet (FQDN) ou l’ID de service du service d’application qui héberge l’application de parcage d’appel. Tous les appels parqués sous forme de numéros dans la plage d’orbites spécifiée par le numéro de début et le numéro de fin seront routés vers ce serveur ou ce pool.
+6. Dans **le nom de** domaine complet du serveur de destination, cliquez sur le nom de domaine complet (FQDN) ou l’ID de service du service d’application qui héberge l’application de parcage d’appel. Tous les appels parqués sous forme de numéros dans la plage d’orbites spécifiée par le numéro de début et le numéro de fin seront routés vers ce serveur ou ce pool.
 
 7. Cliquez sur **Valider**.
 
@@ -78,7 +78,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une plage d�
 
 1. Connectez-vous à l’ordinateur sur lequel Skype Entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans déléguer les **autorisations** d’installation.
 
-2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
 
 3. Utilisez **New-CsCallParkOrbit** pour créer une plage de numéros d’orbite. Utilisez **Set-CsCallParkOrbit** pour modifier une plage existante de numéros d’orbite.
 

@@ -1,8 +1,8 @@
 ---
 title: Installer l’outil de planification Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,23 +14,23 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Avant de commencer à concevoir et planifier votre infrastructure Skype Entreprise Server 2015 à l’aide de l’outil de planification Skype Entreprise Server 2015, vous devez d’abord installer l’outil de planification. L’outil de planification n’a pas besoin d’être déployé sur une station de travail ou un serveur qui fait partie du domaine ou de l’infrastructure où vous prévoyez d’installer Skype Entreprise Server 2015. Le fichier Lisez-moi qui accompagne l’outil de planification détaille des informations importantes sur l’installation et l’utilisation de l’outil. Certaines informations du fichier Lisez-moi sont dupliquées ici pour plus de clarté.
-ms.openlocfilehash: 5d9dc6204647daf03adfab6fcf3cf091d7ba5415
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c635672ff89bae4da3c76fb973246d8cb332c403
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850887"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388062"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Installer l’outil de planification Skype Entreprise Server 2015
 
 Avant de commencer à concevoir et planifier votre infrastructure Skype Entreprise Server 2015 à l’aide de l’outil de planification Skype Entreprise Server 2015, vous devez d’abord installer l’outil de planification. L’outil de planification n’a pas besoin d’être déployé sur une station de travail ou un serveur qui fait partie du domaine ou de l’infrastructure où vous prévoyez d’installer Skype Entreprise Server 2015. Le fichier Lisez-moi qui accompagne l’outil de planification détaille des informations importantes sur l’installation et l’utilisation de l’outil. Certaines informations du fichier Lisez-moi sont dupliquées ici pour plus de clarté.
 
 > [!IMPORTANT]
-> L’outil de planification nécessite l’installation par un utilisateur ayant des droits et des autorisations d’administrateur sur l’ordinateur sur lequel l’outil doit être installé.
+> L’outil de planification nécessite l’installation par un utilisateur  ayant des droits et des autorisations d’administrateur sur l’ordinateur sur lequel l’outil doit être installé.
 
 Les systèmes d’exploitation pris en charge pour l’installation et le fonctionnement de l’outil de planification sont :
 
-- Windows 10
+- Windows 10
 
 - Windows 8
 
@@ -62,13 +62,13 @@ Une fois que les conditions de préinstallation sont remplies, vous pouvez insta
 
 4. Dans la page d’accueil de **Skype Entreprise Server 2015,** Assistant Configuration de l’outil de planification, cliquez sur **Suivant**.
 
-5. Consultez **le contrat** de licence utilisateur final, sélectionnez J’accepte les termes du contrat de licence si vous choisissez d’accepter les conditions d’utilisation dans le contrat de licence, puis cliquez sur **Suivant**. 
+5. Consultez **le contrat** de licence utilisateur final,  sélectionnez J’accepte les termes du contrat de licence si vous choisissez d’accepter les conditions d’utilisation dans le contrat de licence, puis cliquez sur **Suivant**.
 
-6. Choisissez l’endroit où installer les fichiers de l’outil de planification. L’emplacement par défaut est C:\Program Files (x86)\Skype Entreprise Server 2015\Planning Tool. Si vous souhaitez modifier l’emplacement d’installation, cliquez sur **Modifier.** Sur **Modifier le dossier de destination,** recherchez ou tapez l’emplacement d’installation des fichiers, cliquez sur **OK,** puis sur **Suivant**.
+6. Choisissez l’endroit où installer les fichiers de l’outil de planification. L’emplacement par défaut est C:\Program Files (x86)\Skype Entreprise Server 2015\Planning Tool. Si vous souhaitez modifier l’emplacement d’installation, cliquez sur **Modifier**. Dans **Modifier le dossier de destination**, recherchez ou tapez l’emplacement où installer les fichiers, cliquez sur **OK**, puis sur **Suivant**.
 
 7. Le programme d’installation est maintenant prêt à installer l’outil de planification. Cliquez **sur Installer** pour commencer le processus d’installation.
 
-8. L’installation démarre et la progression s’affiche. Une fois l’installation terminée, cliquez sur **Terminer.**
+8. L’installation démarre et la progression s’affiche. Une fois l’installation terminée, cliquez sur **Terminer**.
 
 9. L’outil de planification est prêt à être utilisé.
 
@@ -100,7 +100,7 @@ L’exportation de votre conception vers Microsoft Excel crée un rapport qui af
 L’exportation de votre conception vers Microsoft Visio crée un diagramme à utiliser dans la documentation de votre topologie et infrastructure configurée. Le diagramme importé peut être modifié et réorganisé pour répondre aux besoins de votre documentation. Un diagramme Visio classique inclut les éléments suivants :
 
 > [!NOTE]
-> Si votre conception est suffisamment grande pour nécessiter plus de trois serveurs frontaux, une page supplémentaire est créée pour le pool frontal, les serveurs frontaux, l’ordinateur exécutant SQL Server, les adresses IP et les noms de groupe.
+> Si votre conception est suffisamment grande pour nécessiter plus de trois serveurs frontaux, une page supplémentaire est créée pour le pool frontal, les serveurs frontaux, l’ordinateur exécutant SQL Server, les adresses IP et les noms de famille.
 
 - Topologie globale : diagramme des sites configurés Skype Entreprise Server 2015.
 

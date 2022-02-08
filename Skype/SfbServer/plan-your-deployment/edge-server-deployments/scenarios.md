@@ -1,8 +1,8 @@
 ---
 title: Scénarios de serveur Edge dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 'Résumé : Examinez ces scénarios pour vous aider à planifier votre topologie de serveur Edge dans Skype Entreprise Server.'
-ms.openlocfilehash: f70dbf858757469d21ebb8b2e6d1ae5192ed0118
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c900d7e6bd8649ffd0e45f1033581ee0523724cb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838526"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387922"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Scénarios de serveur Edge dans Skype Entreprise Server
  
 **Résumé :** Examinez ces scénarios pour vous aider à planifier votre topologie de serveur Edge dans Skype Entreprise Server.
   
-Nous avons des diagrammes de scénarios pour vous aider à visualiser et à choisir la topologie Skype Entreprise Server serveur Edge que vous souhaitez implémenter. Une fois que vous avez choisi un bon candidat, vous pouvez consulter les exigences environnementales que vous devrez répondre. Les exemples suivants s’appliquent à tous les scénarios, c’est pourquoi nous le mentionnons en premier.
+Nous avons des diagrammes de scénarios pour faciliter la visualisation et le choix de la topologie Skype Entreprise Server serveur Edge que vous souhaitez implémenter. Une fois que vous avez choisi un bon candidat, vous pouvez consulter les exigences environnementales que vous devrez répondre. Les exemples suivants s’appliquent à tous les scénarios, c’est pourquoi nous le mentionnons en premier.
   
 Ces chiffres, qui sont affichés à titre d’exemple uniquement (et qui contiennent des exemples de données IPv4 et IPv6), ne représentent pas le flux de communication réel, mais plutôt une vue d’ensemble de votre trafic possible. Les détails des ports sont également visibles dans les diagrammes de port pour chaque scénario ci-dessous.
   
@@ -35,14 +35,14 @@ Les diagrammes montrent .com pour l’interface externe et .net pour l’interfa
   
 Nous n’incluons pas le directeur (qui est un composant facultatif) dans l’un des diagrammes, mais vous pouvez en savoir plus séparément (il est mentionné dans d’autres rubriques de planification).
   
-Comme indiqué ci-dessus, il existe des exemples de données IPv6 dans les diagrammes. La majeure partie de la documentation de plan pour les [déploiements](edge-server-deployments.md) de serveurs Edge dans Skype Entreprise Server fait référence à IPv4, mais vous êtes certainement pris en charge si vous souhaitez utiliser IPv6. Notez que vous aurez besoin d’adresses IPv6 dans votre espace d’adressare affecté et qu’elles devront fonctionner avec l’adressare interne et externe, comme avec les adresses IP IPv4. Grâce à Windows, vous pouvez utiliser la fonctionnalité double pile, qui est une pile réseau distincte et distincte pour IPv4 et IPv6. Cela vous permettra, si nécessaire, d’affecter simultanément des adresses IPv4 et IPv6.
+Comme indiqué ci-dessus, il existe des exemples de données IPv6 dans les diagrammes. La majeure partie de la documentation de [plan pour les déploiements](edge-server-deployments.md) de serveurs Edge dans Skype Entreprise Server fait référence à IPv4, mais vous êtes certainement pris en charge si vous souhaitez utiliser IPv6. Notez que vous aurez besoin d’adresses IPv6 dans votre espace d’adressare affecté et qu’elles devront fonctionner avec l’adressare interne et externe, comme avec les adresses IP IPv4. Grâce à Windows, vous pouvez utiliser la fonctionnalité double pile, qui est une pile réseau distincte et distincte pour IPv4 et IPv6. Cela vous permettra, si nécessaire, d’affecter simultanément des adresses IPv4 et IPv6.
   
-Il existe des périphériques NAT qui autorisent NAT64 (IPv6 vers IPv4) et NAT66 (IPv6 vers IPv6)), et cela est valide pour une utilisation avec Skype Entreprise Server.
+Il existe des périphériques NAT qui autorisent NAT64 (IPv6 vers IPv4) et NAT66 (IPv6 à IPv6)), et cela est valide pour une utilisation avec Skype Entreprise Server.
   
 > [!IMPORTANT]
 > Si vous utilisez le contrôle d’admission des appels (CAC), vous devez utiliser IPv4 sur l’interface interne pour qu’il fonctionne. 
   
-## <a name="single-consolidated-skype-for-business-server-edge-server-with-private-ip-addresses-and-nat"></a>Serveur Edge Skype Entreprise Server consolidé unique avec des adresses IP privées et la nat
+## <a name="single-consolidated-skype-for-business-server-edge-server-with-private-ip-addresses-and-nat"></a>Serveur Edge consolidé unique Skype Entreprise Server avec adresses IP privées et NAT
 
 Avec ce scénario, il n’existe aucune option pour la haute disponibilité. Cela signifie que vous dépensez moins sur le matériel et que vous avez un déploiement plus simple. Si la haute disponibilité est une valeur à prendre en compte, consultez les scénarios consolidés à l’échelle ci-dessous.
   

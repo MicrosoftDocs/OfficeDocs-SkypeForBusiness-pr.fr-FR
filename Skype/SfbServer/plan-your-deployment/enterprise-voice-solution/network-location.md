@@ -1,8 +1,8 @@
 ---
 title: Définir les éléments réseau utilisés pour déterminer l’emplacement dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: Décisions nécessaires à la planification des composants réseau que vous utiliserez pour ma cartographier les appelants à des emplacements pour le déploiement E9-1-1 dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 6de3d960dd68dfc0f34ce0e67fef569c36e44612
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2ec6f249bc1b502d26a98d67842ab8b7a1eaccc3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861111"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386412"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>Définir les éléments réseau utilisés pour déterminer l’emplacement dans Skype Entreprise Server
  
@@ -48,7 +48,7 @@ Les sections suivantes abordent plus en détail l’utilisation de chaque élém
   
 ## <a name="wireless-access-point"></a>Point d’accès sans fil
 
-Lorsqu’un client se connecte au réseau via une liaison sans fil, la demande d’emplacement utilise l’adresse BSSID du point d’accès sans fil pour déterminer son emplacement. Si le client est en itinérance, le point d’accès sans accès indiqué n’est peut-être pas le plus proche et il est même possible de récupérer un point d’accès sans accès qui se trouve à un autre étage du bâtiment. Pour indiquer que l’emplacement est approximatif, vous pouvez faire précéder la valeur de l’emplacement par un descripteur **[Near]** ou **[Closeto].**
+Lorsqu’un client se connecte au réseau via une liaison sans fil, la demande d’emplacement utilise l’adresse BSSID du point d’accès sans fil pour déterminer son emplacement. Si le client est en itinérance, le point d’accès sans accès indiqué n’est peut-être pas le plus proche et il est même possible de sélectionner un point d’accès sans accès qui se trouve à un autre étage du bâtiment. Pour indiquer que l’emplacement est approximatif, vous pouvez faire précéder la valeur de l’emplacement par un descripteur **[Near]** ou **[Closeto** ].
   
 Cette méthode d’emplacement part du principe que le BSSID de chaque point d’accès sans fil est statique. Toutefois, si votre fournisseur de point d’accès sans fil utilise des BSSID affectés dynamiquement, le BSSID obtenu à partir d’un point d’accès sans fil peut changer (cela peut se produire suite à un changement de configuration du point d’accès sans fil) et les clients sans fil peuvent se trouver dans une situation où ils ne reçoivent pas d’emplacement. Pour éviter cette possibilité, vous devez remplir la base de données du service Informations d’emplacement avec des ERL pour toutes les adresses BSSID possibles utilisées par chaque fournisseur d’accès sans accès sans accès. 
   

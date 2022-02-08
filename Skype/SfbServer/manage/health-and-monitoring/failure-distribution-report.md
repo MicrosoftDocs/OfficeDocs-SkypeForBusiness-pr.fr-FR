@@ -1,8 +1,8 @@
 ---
 title: Rapport de répartition des défaillances Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 description: 'Résumé : Découvrez le rapport de répartition des défaillances dans Skype Entreprise Server.'
-ms.openlocfilehash: e8ebf3ccbb14b46c862d03f328fdbb327af51992
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1cea85cb385ef7902dc896d468fea5ddfa71cc9d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847237"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384272"
 ---
 # <a name="failure-distribution-report-in-skype-for-business-server"></a>Rapport de répartition des défaillances Skype Entreprise Server
  
@@ -41,7 +41,7 @@ Le rapport de répartition des défaillances classe les sessions qui ont échou�
     
 - Agents utilisateurs de niveau supérieur
     
-Vous pouvez utiliser ces catégories pour déterminer exactement où un problème se produit et, dans certains cas, pourquoi le problème se produit. Par exemple, supposons que vous avez enregistré 242 sessions audio/vidéo en échec au cours d’une journée donnée. Si vous regardez le rapport de répartition des défaillances, il peut montrer que 237 de ces sessions ont échoué dans votre pool de Dublin. Cela vous permet de commencer à suivre et diagnostiquer les causes de ces échecs. Si vous cliquez sur le pool de Dublin sous la catégorie **Pools** principaux, vous verrez un rapport de répartition des défaillances pour ce pool. Vous pouvez ensuite commencer à analyser la raison pour laquelle le pool de Dublin a connu autant de difficultés.
+Vous pouvez utiliser ces catégories pour déterminer exactement où un problème se produit et, dans certains cas, pourquoi le problème se produit. Par exemple, supposons que vous avez enregistré 242 sessions audio/vidéo en échec au cours d’une journée donnée. Si vous regardez le rapport de répartition des défaillances, il peut montrer que 237 de ces sessions ont échoué dans votre pool de Dublin. Cela vous donne un bon point de départ pour suivre et diagnostiquer les causes de ces échecs. Si vous cliquez sur le pool de Dublin sous la catégorie **Pools** principaux, vous verrez un rapport de répartition des défaillances pour ce pool. Vous pouvez ensuite commencer à analyser la raison pour laquelle le pool de Dublin rencontre autant de difficultés.
   
 ## <a name="viewing-the-failure-distribution-report"></a>Affichage du rapport de répartition des défaillances
 
@@ -53,7 +53,7 @@ Vous pouvez accéder au rapport de répartition des défaillances à partir de l
     
 - [Rapport de diagnostic des activités D’égal à égal dans Skype Entreprise Server](peer-to-peer-activity-diagnostic-report.md)
     
-Dans le rapport de répartition des défaillances, vous pouvez cliquer sur l’une des mesures suivantes pour afficher le rapport des listes [d’échecs dans Skype Entreprise Server](failure-list-report.md):
+Dans le rapport de répartition des défaillances, vous pouvez cliquer sur l’une des mesures suivantes pour afficher le rapport des listes d’échecs [Skype Entreprise Server](failure-list-report.md) :
   
 - Motifs de diagnostic principaux (sessions)
     
@@ -130,7 +130,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
 
 |**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Rank** <br/> |Non  <br/> |Classement relatif des sessions qui ont échoué en fonction du pool de serveurs d’inscriptions ou du serveur Edge sur lequel la session a été menée.  <br/> |
+|**Rank** <br/> |Non  <br/> |Classement relatif des sessions qui ont échoué en fonction du pool de serveurs d’inscriptions ou du serveur Edge où la session a été menée.  <br/> |
 |**Pools principaux** <br/> |Non  <br/> |Nom du pool de serveurs d’inscriptions ou du serveur Edge.  <br/> |
 |**Sessions** <br/> |Non  <br/> |Nombre total de sessions en échec par pool de serveurs d’inscriptions ou serveur Edge.  <br/> |
    

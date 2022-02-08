@@ -1,8 +1,8 @@
 ---
 title: Rechercher les journaux de capture créés par le service de journalisation centralisée Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 'Résumé : Découvrez comment rechercher et lire les journaux de capture du service de journalisation centralisée Skype Entreprise Server 2015.'
-ms.openlocfilehash: a65fac6ffc96088cd1e544ed17914128d040e2b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2168bdc0a72df6efe4bf9d9f178a2ee9c120aa6a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831918"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385558"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Rechercher les journaux de capture créés par le service de journalisation centralisée Skype Entreprise Server 2015
  
@@ -39,7 +39,7 @@ Au terme de chaque recherche, l’applet de commande **Sync-CsClsLogging** est e
   
 Pour tirer le meilleur parti du service de journalisation centralisée, vous devez bien comprendre comment configurer la recherche pour renvoyer uniquement les messages de suivi provenant de l’ordinateur et des journaux du pool qui sont pertinents pour le problème que vous recherchez. problèmes
   
-Pour exécuter les fonctions de recherche du service de journalisation centralisée à l’aide de l’environnement de ligne de commande Skype Entreprise Server Management Shell, vous devez être membre des groupes de sécurité RBAC CsAdministrator ou CsServerAdministrator, ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes. Pour retourner la liste de tous les rôles RBAC qui ont été affectés à cette cmdlet (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Skype Entreprise Server Management Shell ou Windows PowerShell suivante :
+Pour exécuter les fonctions de recherche du service de journalisation centralisée à l’aide de l’environnement de ligne de commande Skype Entreprise Server Management Shell, vous devez être membre des groupes de sécurité RBAC CsAdministrator ou CsServerAdministrator, ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes. Pour retourner la liste de tous les rôles RBAC attribués à cette cmdlet (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Skype Entreprise Server Management Shell ou Windows PowerShell suivante :
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -55,7 +55,7 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
   
 ### <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>Pour exécuter une recherche de base à l’aide du service de journalisation centralisée
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
     
 2. Assurez-vous que le scénario AlwaysOn s’exécute dans votre déploiement au niveau de l’étendue globale, puis tapez ce qui suit dans une invite de commandes :
     
@@ -64,7 +64,7 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
    ```
 
 > [!NOTE]
-> Par défaut, Search-CsClsLogging envoie les résultats de la recherche à la console. Si vous souhaitez enregistrer les résultats de la recherche dans un fichier, utilisez -OutputFilePath  _\<string fully qualified file path\>_ . Pour définir le paramètre -OutputFilePath, fournissez un chemin d’accès et un nom de fichier dans le cadre du paramètre dans un format de chaîne entre guillemets (par exemple, C:\LogFiles\SearchOutput.txt). Dans cet exemple, vous devez vous assurer que le répertoire C:\LogFiles existe et que vous disposez des autorisations en lecture et en écriture (autorisation NTFS Modifier) sur le dossier. Les résultats sont ajoutés et ne sont pas remplacés. Si vous souhaitez des fichiers séparés, définissez un nom de fichier distinct pour chaque recherche. 
+> Par défaut, Search-CsClsLogging envoie les résultats de la recherche à la console. Si vous souhaitez enregistrer les résultats de la recherche dans un fichier, utilisez -OutputFilePath  _\<string fully qualified file path\>_. Pour définir le paramètre -OutputFilePath, fournissez un chemin d’accès et un nom de fichier dans le cadre du paramètre dans un format de chaîne entre guillemets (par exemple, C:\LogFiles\SearchOutput.txt). Dans cet exemple, vous devez vous assurer que le répertoire C:\LogFiles existe et que vous disposez des autorisations en lecture et en écriture (autorisation NTFS Modifier) sur le dossier. Les résultats sont ajoutés et ne sont pas remplacés. Si vous souhaitez des fichiers séparés, définissez un nom de fichier distinct pour chaque recherche. 
   
 Par exemple :
     
@@ -110,7 +110,7 @@ Par exemple :
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>Pour exécuter une recherche à l’aide des paramètres d’heure
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
     
 2. Par défaut, l’heure de début des paramètres spécifiques au temps d’une recherche est de 25 minutes avant cinq minutes après le début de la recherche. En d’autres termes, si nous faisons une recherche à 16:00:00, l’heure de début de la recherche s’affiche de 15:35:00 à 16:05:00. Si vous devez effectuer une recherche 60 minutes ou 3 heures avant l’heure actuelle, utilisez le paramètre -StartTime et définissez la chaîne de date et d’heure pour indiquer l’heure de début de la recherche. 
     
@@ -121,7 +121,7 @@ Par exemple :
    ```
 
 > [!NOTE]
-> La chaîne d’heure et de date que vous spécifiez peut être « date time » ou « time date ». « La commande va utiliser les valeurs appropriées pour la date et l’heure, ainsi que vos paramètres régionaux et de culture sur l’ordinateur à partir de laquelle vous exécutez la cmdlet. 
+> La chaîne d’heure et de date que vous spécifiez peut être « date time » ou « time date ». « La commande va parquer la chaîne et utiliser les valeurs appropriées pour la date et l’heure, ainsi que vos paramètres régionaux et de culture sur l’ordinateur à partir de laquelle vous exécutez la cmdlet. 
   
 3. Si vous souhaitez récupérer les journaux à partir de 11:00:00 le 20/11/2012, définissez -StartTime. La période par défaut de la recherche est de 30 minutes, sauf si vous définissez un paramètre -EndTime spécifique. La recherche obtenue renverra les journaux des ordinateurs ou pools définis entre 11 h 00 00 et 11 h 30 00.
     
@@ -141,7 +141,7 @@ Par exemple :
 
 ### <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>Pour exécuter une recherche avancée à l’aide d’autres critères et options de correspondance
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
     
 2. Pour exécuter une commande visant à collecter les suivis pour des composants en particulier, tapez ce qui suit :
     
@@ -163,7 +163,7 @@ La recherche obtenue renvoie toutes les entrées de journaux qui possèdent des 
    Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
-4. La logique de recherche par défaut pour les commandes comprenant plusieurs paramètres utilise l’opérateur logique OR avec chacun des paramètres définis. Vous pouvez modifier ce comportement en spécifiant le **paramètre -MatchAll.** Pour ce faire, tapez ce qui suit :
+4. La logique de recherche par défaut pour les commandes comprenant plusieurs paramètres utilise l’opérateur logique OR avec chacun des paramètres définis. Vous pouvez modifier ce comportement en spécifiant le **paramètre -MatchAll** . Pour ce faire, tapez ce qui suit :
     
    ```PowerShell
    Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -177,10 +177,10 @@ La recherche obtenue renvoie toutes les entrées de journaux qui possèdent des 
 
 ## <a name="read-capture-logs-from-the-centralized-logging-service"></a>Lire les journaux de capture à partir du service de journalisation centralisée
 
-Vous réalisez les avantages réels du service de journalisation centralisée après avoir exécuté la recherche et vous avez un fichier que vous pouvez utiliser pour suivre un problème signalé. Il existe plusieurs façons de lire le fichier. Le fichier de sortie est au format texte standard et vous pouvez utiliser Notepad.exe ou tout autre programme qui vous permettra d’ouvrir et de lire un fichier texte. Pour les fichiers plus volumineux et les problèmes plus complexes, vous pouvez utiliser un outil tel que Snooper.exe qui est conçu pour lire et consulter la sortie de journalisation à partir du service de journalisation centralisée. Snooper est inclus dans les outils de débogage disponibles en téléchargement séparé. Vous pouvez télécharger les outils de débogage ici [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257) : Lorsque vous installez les outils de débogage, les raccourcis et les éléments de menu ne sont pas créés. Après avoir installé les outils de débogage, ouvrez Windows Explorer, une fenêtre de ligne de commande ou Skype Entreprise Server Management Shell et allez dans le répertoire (emplacement par défaut) C:\Program Files\Skype Entreprise Server 2015\Debugging Tools. Double-cliquez sur Snooper.exe ou tapez Snooper.exe, puis appuyez sur Entrée si vous utilisez la ligne de commande ou Skype Entreprise Server Management Shell.
+Vous réalisez les avantages réels du service de journalisation centralisée après avoir exécuté la recherche et vous avez un fichier que vous pouvez utiliser pour suivre un problème signalé. Il existe plusieurs façons de lire le fichier. Le fichier de sortie est au format texte standard et vous pouvez utiliser Notepad.exe ou tout autre programme qui vous permettra d’ouvrir et de lire un fichier texte. Pour les fichiers plus volumineux et les problèmes plus complexes, vous pouvez utiliser un outil tel que Snooper.exe qui est conçu pour lire et consulter la sortie de journalisation à partir du service de journalisation centralisée. Snooper est inclus dans les outils de débogage disponibles en téléchargement séparé. Vous pouvez télécharger les outils de débogage ici : [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257) Lorsque vous installez les outils de débogage, les raccourcis et les éléments de menu ne sont pas créés. Après avoir installé les outils de débogage, ouvrez Windows Explorer, une fenêtre de ligne de commande ou Skype Entreprise Server Management Shell et allez dans le répertoire (emplacement par défaut) C:\Program Files\Skype Entreprise Server 2015\Debugging Tools. Double-cliquez sur Snooper.exe ou tapez Snooper.exe, puis appuyez sur Entrée si vous utilisez la ligne de commande ou Skype Entreprise Server Management Shell.
   
 > [!IMPORTANT]
-> L’objectif de cette rubrique n’est pas de détailler et de discuter des techniques de dépannage. La résolution des problèmes et les processus qui l’entourent sont un sujet complexe. Pour plus d’informations sur la résolution des problèmes de base et la résolution des problèmes de charges de travail spécifiques, consultez le manuel du Kit de ressources Microsoft Lync Server 2010 à l’emplacement . [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) Les processus et procédures s’appliquent toujours Skype Entreprise Server 2015. 
+> L’objectif de cette rubrique n’est pas de détailler et de discuter des techniques de dépannage. La résolution des problèmes et les processus qui l’entourent sont un sujet complexe. Pour plus d’informations sur la résolution des problèmes de base et la résolution des problèmes de charges de travail spécifiques, consultez le manuel du Kit de ressources Microsoft Lync Server 2010 à l’emplacement .[https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) Les processus et procédures s’appliquent toujours Skype Entreprise Server 2015. 
   
 ### <a name="to-open-a-log-file-in-snooper"></a>Pour ouvrir un fichier journal dans Snooper
 
@@ -188,15 +188,15 @@ Vous réalisez les avantages réels du service de journalisation centralisée ap
     
 2. Après l’installation des outils de débogage (LyncDebugTools.msi), modifiez le répertoire à l’emplacement de Snooper.exe à l’aide de Windows Explorer ou à partir de la ligne de commande. Par défaut, les outils de débogage se trouvent dans C:\Program Files\Skype Entreprise Server 2015\Debugging Tools. Double-cliquez ou exécutez Snooper.exe.
     
-3. Une fois Snooper ouvert, cliquez avec le bouton droit sur **Fichier,** cliquez  sur **OuvrirFichier,** recherchez vos fichiers journaux, sélectionnez un fichier dans la boîte de dialogue Ouvrir, puis cliquez sur **Ouvrir.**
+3. Une fois Snooper ouvert, cliquez avec le bouton droit sur **Fichier**, cliquez sur **OuvrirFichier**, recherchez vos fichiers journaux, sélectionnez un fichier dans la boîte de dialogue Ouvrir, puis cliquez sur **Ouvrir**.
     
-4. Les **messages** de suivi du fichier journal sont affichés sous **l’onglet** Suivi. Cliquez sur **l’onglet** Messages pour afficher le contenu du message des suivis collectés.
+4. Les **messages de** suivi du fichier journal sont affichés sous **l’onglet** Suivi. Cliquez sur **l’onglet** Messages pour afficher le contenu du message des suivis collectés.
     
 ### <a name="to-display-a-call-flow-diagram"></a>Pour afficher un diagramme de flux d’appels
 
 1. Pour utiliser Snooper et ouvrir des fichiers journaux, vous devez accéder en lecture aux fichiers journaux. Pour utiliser Snooper et accéder aux fichiers journaux, vous devez être membre des groupes de sécurité RBAC (Contrôle d’accès basé sur un rôle) CsAdministrator ou CsServerAdministrator, ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes.
     
-2. Ouvrez un fichier journal et cliquez sur **l’onglet Messages,** sélectionnez une conversation dans l’affichage des messages ou sélectionnez un composant de suivi sous **l’onglet** Suivi.
+2. Ouvrez un fichier journal et cliquez sur **l’onglet Messages** , sélectionnez une conversation dans l’affichage des messages ou sélectionnez un composant de suivi sous **l’onglet** Suivi.
     
 3. Cliquez **sur Appeler Flow**.
     

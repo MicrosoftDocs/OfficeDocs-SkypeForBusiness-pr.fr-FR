@@ -1,8 +1,8 @@
 ---
 title: Stratégie de version du client
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 description: Vous pouvez spécifier la version des clients pris en charge dans votre environnement. Quand deux clients exécutant des versions distinctes interagissent, les fonctionnalités accessibles à l’un des clients peuvent être limitées par les capacités de l’autre client. Pour utiliser au mieux les fonctionnalités incluses dans Skype Entreprise Server 2015 et améliorer l’expérience utilisateur globale, vous pouvez utiliser le filtre de version du client pour limiter les versions des clients utilisées dans votre environnement. Le filtre de version du client vous permet également de réduire les coûts associés à la prise en charge de plusieurs versions du client.
-ms.openlocfilehash: 89547442d432f25cc132a296328fe27f734be402
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 54b9ace15dec11618a6d331813c0d81773c4994a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846647"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389226"
 ---
 # <a name="client-version-policy"></a>Stratégie de version du client
 
@@ -30,7 +30,7 @@ Vous pouvez spécifier la version des clients pris en charge dans votre environn
 
 Vous pouvez effectuer les tâches suivantes dans la page **Stratégie de version du client** :
 
-- Modifiez la **stratégie** de version du client par défaut ( globale).
+- Modifiez **la stratégie de** version du client par défaut (globale).
 
 - Créer des stratégies de version du client pour un site ou un pool particulier.
 

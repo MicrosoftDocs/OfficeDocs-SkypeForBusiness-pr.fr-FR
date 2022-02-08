@@ -1,8 +1,8 @@
 ---
 title: Créer des stratégies intersite réseau dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,30 +15,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
-description: Créez des stratégies intersessants réseau, qui sont utilisées par Voix Entreprise contrôle d’admission des appels dans Skype Entreprise Server.
-ms.openlocfilehash: 3510a80935bd19fc6ac36904003f744fd7e65cf5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Créez des stratégies réseau intersessants, qui sont utilisées par Voix Entreprise contrôle d’admission des appels dans Skype Entreprise Server.
+ms.openlocfilehash: 6d3243f2fd3be78228c9bac72219b4906b84ecfb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841886"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387362"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Créer des stratégies intersite réseau dans Skype Entreprise Server
  
-Créez des stratégies intersessants réseau, qui sont utilisées par Voix Entreprise contrôle d’admission des appels dans Skype Entreprise Server. 
+Créez des stratégies réseau intersessants, qui sont utilisées par Voix Entreprise contrôle d’admission des appels dans Skype Entreprise Server. 
   
 Une stratégie intersessant réseau définit des limites de bande passante entre les sites qui ont des liaisons wan directes entre eux.
   
 > [!IMPORTANT]
-> Une stratégie intersessant réseau n’est requise que s’il existe un lien croisé direct entre deux sites réseau. 
+> Une stratégie intersessant réseau  n’est requise que s’il existe un lien direct entre deux sites réseau.
   
 Dans la région Amérique du Nord de l’exemple de topologie, il existe un lien direct entre les sites Reno et Albuquerque. Ces deux sites nécessitent une stratégie intersessant qui applique un profil de stratégie de bande passante approprié. L’exemple suivant applique le profil 20Mb_Link.
   
 ### <a name="to-create-a-network-inter-site-policy"></a>Pour créer une stratégie intersessant réseau
 
-1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
     
-2. Exécutez la cmdlet New-CsNetworkInterSitePolicy pour créer des stratégies intersessants réseau et appliquer un profil de stratégie de bande passante approprié pour deux sites qui ont un lien direct entre les sites. Par exemple, exécutez :
+2. Exécutez la cmdlet New-CsNetworkInterSitePolicy pour créer des stratégies réseau intersessants et appliquer un profil de stratégie de bande passante approprié pour deux sites qui ont un lien direct entre les sites. Par exemple, exécutez :
     
    ```powershell
    New-CsNetworkInterSitePolicy -InterNetworkSitePolicyID Reno_Albuquerque -NetworkSiteID1 Reno -NetworkSiteID2 Albuquerque -BWPolicyProfileID 20Mb_Link

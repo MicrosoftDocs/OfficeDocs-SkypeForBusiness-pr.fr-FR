@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams s’affiche
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -16,43 +16,43 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Cet article fournit une vue d’ensemble des fonctionnalités qui sont Microsoft Teams aux affichages.
-ms.openlocfilehash: a53a6785049087adb81ee1b0af9083e1b93b8bcf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2d6fb3269e8abf33fc75b59fcef924d133a1ccb3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840836"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384138"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams s’affiche
 
 Microsoft Teams’affichage sont une catégorie d’appareils Teams dédiés tout-en-un qui offrent un écran tactile connecté et une expérience mains libres optimisée par Cortana. Cet article donne une vue d’Teams présentation des affichages et peut vous aider à planifier, livrer et gérer Teams présentations dans votre organisation.
 
-Teams permet de réunir vos fonctionnalités Teams fonctionnalités de conversation, de réunions, d’appels, de calendrier et de fichiers &ndash; &ndash; dans un seul appareil. Avec Teams' affichages, les utilisateurs peuvent utiliser un microphone, une caméra et des haut-parleurs (ou un casque Bluetooth) pour appeler et rencontrer des utilisateurs de manière fiable. Teams s’intègre aux pc Windows des utilisateurs pour apporter une expérience compagne qui permet une interaction transparente entre les appareils.
+Teams affiche tous vos fichiers préférés Teams FeaturesChat&ndash;, vos réunions, vos appels,&ndash; votre calendrier et vos fichiers sur un seul appareil. Avec Teams' affichages, les utilisateurs peuvent utiliser un microphone, une caméra et des haut-parleurs (ou un casque Bluetooth) pour appeler et rencontrer des utilisateurs de manière fiable. Teams s’intègre aux pc Windows des utilisateurs pour apporter une expérience compagne qui permet une interaction transparente entre les appareils.
 
-Pour en savoir plus, consultez la [mise en Teams de l’écran.](https://support.microsoft.com/office/get-started-with-teams-displays-ff299825-7f13-4528-96c2-1d3437e6d4e6)
+Pour en savoir plus, consultez la [mise en Teams les affichages](https://support.microsoft.com/office/get-started-with-teams-displays-ff299825-7f13-4528-96c2-1d3437e6d4e6).
 
 ## <a name="features-supported-by-teams-displays"></a>Fonctionnalités prise en charge par Teams’affichage
 
-En plus des [fonctionnalités pris en](phones-for-teams.md#features-supported-by-teams-phones)charge par Teams, les fonctionnalités suivantes sont propres aux Teams’affichage :
+En plus des [fonctionnalités pris en charge par Teams](phones-for-teams.md#features-supported-by-teams-phones), les fonctionnalités suivantes sont propres aux Teams’affichage :
 
-- **Écrans dédiés pour les Teams** Les utilisateurs peuvent accéder à toutes les fonctionnalités principales Teams y compris la conversation, les réunions, les appels, les équipes et les canaux, les fichiers et bien plus encore.
+- **Les écrans dédiés pour Teams** les utilisateurs peuvent accéder à toutes les fonctionnalités essentielles Teams y compris la conversation, les réunions, les appels, les équipes et les canaux, les fichiers et plus encore.
 - **Expérience ambiant** Les utilisateurs peuvent facilement garder le fil de leur travail grâce à des affichages toujours actifs et coup d’œil pour voir les activités et notifications importantes sans basculement vers le contexte sur leur appareil professionnel principal. Les utilisateurs peuvent également personnaliser Teams’affichage en personnalisant l’arrière-plan à l’aide des paramètres.
-- **Mains libres avec Cortana** Les utilisateurs peuvent interagir avec les Teams d’écran à l’aide de leur voix pour participer et se présenter facilement dans les réunions, dicter des réponses à une conversation Teams, consulter le calendrier et bien plus encore.
+- Mains **libres avec Cortana** Les utilisateurs peuvent interagir avec les Teams s’affichent à l’aide de leur voix pour rejoindre et présenter facilement des réunions, dicter des réponses à une conversation Teams, consulter les informations du calendrier, etc.
 - **Laisser une note sur l’écran de verrouillage** Les invités peuvent choisir de laisser des notes audio, vidéo et textuelles, et les utilisateurs peuvent consulter les notes laissés par les invités et voir qui est là.  
 
 ## <a name="required-licenses"></a>Licences requises
 
-Teams licences peuvent être achetées dans le cadre d Microsoft 365 [et Office 365 abonnements.](/office365/servicedescriptions/teams-service-description) Pour en savoir plus sur les licences requises pour utiliser Teams’affichages, consultez les appels vocaux et [vidéo avec Microsoft Teams.](https://products.office.com/microsoft-teams/voice-calling)
+Teams licences peuvent être achetées dans le cadre d Microsoft 365 [et Office 365 abonnements](/office365/servicedescriptions/teams-service-description). Pour en savoir plus sur les licences requises pour utiliser Teams des écrans, consultez les appels vocaux et [vidéo avec Microsoft Teams](https://products.office.com/microsoft-teams/voice-calling).
 
-Pour plus d’informations sur la façon de Teams, consultez comment accéder [à Microsoft Teams ?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Pour plus d’informations sur la façon de Teams, consultez [comment accéder à Microsoft Teams ?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ## <a name="deploy-teams-displays-using-intune"></a>Déploiement et Teams’affichage à l’aide d’Intune
 
-Pour en savoir plus sur le déploiement d Teams’affichages à l’aide d’Intune, voir Déployer Teams téléphones et [Teams’affichages.](phones-displays-deploy.md)
+Pour en savoir plus sur le déploiement d Teams’affichages à l’aide d’Intune, voir Déployer Teams [téléphones et Teams’affichages](phones-displays-deploy.md).
 
 ## <a name="manage-teams-displays-in-your-organization"></a>Gérer Teams les affichages dans votre organisation
 
-Pour gérer vos Teams d’affichage, dans le navigation gauche du Centre Microsoft Teams d’administration, Teams **affiche.** À partir de cet écran, vous pouvez modifier le profil de configuration de l’appareil, gérer les mises à jour, redémarrer des appareils, ajouter et supprimer des balises d’appareil, et bien plus encore. Pour plus d’informations, [voir Gérer vos appareils dans Teams.](device-management.md)
+Pour gérer vos Teams d’affichage, dans le panneau de navigation gauche du Centre Microsoft Teams d’administration, Teams **affiche.** À partir de cet écran, vous pouvez modifier le profil de configuration de l’appareil, gérer les mises à jour, redémarrer des appareils, ajouter et supprimer des balises d’appareil, et bien plus encore. Pour plus d’informations, [voir Gérer vos appareils dans Teams](device-management.md).
 
 ## <a name="upgrade-teams-phones-to-teams-displays"></a>Mettre à niveau Teams téléphones portables vers Teams’affichage
 

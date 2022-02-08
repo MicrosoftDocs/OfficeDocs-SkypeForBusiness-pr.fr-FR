@@ -1,8 +1,8 @@
 ---
 title: Planifier les déploiements de serveurs Edge dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: 'Résumé : Planifiez votre environnement Skype Entreprise Server Edge. Cette rubrique présente les concepts Edge et vous permet de vous organiser avec nos rubriques plus détaillées.'
-ms.openlocfilehash: ae6dd672e3da6568d41898a4bc2ae022b23ad3f3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 97b34ba69be5a7461c1ff1f1847c66898b5dface
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834112"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387932"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Planifier les déploiements de serveurs Edge dans Skype Entreprise Server
  
@@ -45,7 +45,7 @@ L’accès des utilisateurs externes, qui est fourni par les serveurs Edge, perm
     
 - Conférence web : vos utilisateurs externes autorisés peuvent participer à Skype Entreprise conférences. Vous pouvez également activer la participation pour les utilisateurs distants, les utilisateurs fédérés et les utilisateurs anonymes si vous le souhaitez. Les utilisateurs de messagerie instantanée publique ne peuvent pas participer à des conférences. Il existe également des options pour laisser ces utilisateurs participer au partage d’application et de bureau, et même agir en tant qu’organisateurs ou présentateurs de réunion.
     
-L’accès aux appareils mobiles est pris en charge, Voix Entreprise. Vous pouvez inviter des utilisateurs externes à participer à ces réunions, même anonymes, si vous souhaitez leur accorder des autorisations.
+L’accès aux appareils mobiles est pris en charge, Voix Entreprise. Vous pouvez inviter des utilisateurs externes à participer à ces réunions, même des utilisateurs anonymes, si vous souhaitez leur accorder des autorisations.
   
 Si cela ressemble à quelque chose dont votre organisation a besoin, la planification d’un environnement Edge sera très utile pour son déploiement. Pour plus d’informations, les rubriques ci-dessous sont répertoriées.
 
