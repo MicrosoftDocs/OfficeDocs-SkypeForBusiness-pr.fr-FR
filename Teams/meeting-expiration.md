@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Découvrez comment utiliser les paramètres de stratégie de réunion pour contrôler l’expiration d’une réunion Microsoft Teams.
-ms.openlocfilehash: d12c0ca4a0b838f66cfac142102b6e4b8efc3e03
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: 8c8a5603aea6ac65a2cd35b12eca9250debc7c51
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288332"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279171"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Stratégies de réunion et expiration des réunions dans Microsoft Teams
 
@@ -80,7 +80,7 @@ Si vous souhaitez que les personnes accèdent à des réunions précédemment pr
 > [!IMPORTANT]
 > Si vous souhaitez activer l Teams expiration anticipée d’une réunion sur votre client, appliquez-Microsoft Teams [programme d’expiration anticipée de la réunion](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u).
 
-Tous les enregistrements des Teams de réunion nouvellement créés ont une durée d’expiration de 120 jours par défaut. Cette option est optionnée par défaut pour tous les locataires. Cela signifie que, par défaut, tous les tmrs créés après l’option seront supprimés 120 jours après la date de création. Les administrateurs peuvent également configurer les réunions pour **qu’ils n’expirent jamais automatiquement**. Le OneDrive et SharePoint de contrôle des détails des tmrs surveille la date d’expiration définie sur toutes les tmR et déplace automatiquement les tmR vers la Corbeille à la date d’expiration.
+Tous les enregistrements des Teams de réunion nouvellement créés ont une durée d’expiration de 60 jours par défaut. Cette option est optionnée par défaut pour tous les locataires. Cela signifie que, par défaut, tous les tmrs créés après l’option seront supprimés 60 jours après la date de création. Les administrateurs peuvent également configurer les réunions pour **qu’ils n’expirent jamais automatiquement**. Le OneDrive et SharePoint de contrôle des détails des tmrs surveille la date d’expiration définie sur toutes les tmR et déplace automatiquement les tmR vers la Corbeille à la date d’expiration.
 
 L’expiration automatique des réunions est un mécanisme de tâches de tâches léger qui permet de réduire l’encombrement du stockage créé par les anciennes tmRs. En moyenne, sur l’ensemble des clients, 96 % des tmrs ne sont pas regardés après 60 jours et 99 % ne le sont pas après 110 jours. Nous pensons que presque tous les clients bénéficieront de la charge de stockage réduite sur leur client en supprimant les enregistrements qui ne seront probablement pas regardés à nouveau après 60 jours. Notre objectif est d’offrir par défaut une expérience aussi propre que possible à tous les clients.
 
