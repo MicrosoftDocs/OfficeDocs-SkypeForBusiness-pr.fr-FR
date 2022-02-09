@@ -1,8 +1,8 @@
 ---
 title: Création d’Paramètres de sécurité de service Web ou modification d’une application existante
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 8badd865fa4145e401464ace3422cdcc997f92f2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d24eafd436e2cf9fa469dfc237b9e9cf2016de95
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840186"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396694"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>Paramètres de sécurité du service web : création d’un nouveau ou modification d’un paramètre existant
 

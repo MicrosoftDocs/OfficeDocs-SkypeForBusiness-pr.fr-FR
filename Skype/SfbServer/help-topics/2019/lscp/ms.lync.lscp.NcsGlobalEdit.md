@@ -1,8 +1,8 @@
 ---
 title: Paramètre global Modifier la configuration réseau
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: abc2f59c-d21a-4d3f-bf23-6ac86effcd86
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 18faecfc6abf7393a2f926eaf08824e2d74ad473
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 15404e2e0f2ddc0d3d5e097c6b072cf6924aa669
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854978"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402548"
 ---
 # <a name="network-configuration-edit-global-setting"></a>Configuration du réseau : Modifier la configuration globale
 

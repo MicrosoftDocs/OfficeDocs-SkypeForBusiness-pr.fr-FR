@@ -1,7 +1,7 @@
 ---
 title: Utiliser les modèles d’équipe de fabrication dans le Centre d’administration
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8236964530d76818a5510af8b38fcd9bb2a8b8f4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 18fbc93923177c97b4c2d395d10e62311d05d567
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858711"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400098"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>Utiliser des modèles d’équipe de fabrication dans le Centre d’administration
 
@@ -36,7 +36,7 @@ Dans cet article, nous introduisons chacun des modèles d’équipe et vous reco
 
 Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation de fabrication. Vous avez déjà déployé le service Teams dans votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire l’article [Comment déployer Microsoft Teams](./deploy-overview.md).
 
-Pour en savoir plus sur les modèles d’équipe en général, voir [Commencer à utiliser les modèles d’équipe.](get-started-with-teams-templates-in-the-admin-console.md)
+Pour en savoir plus sur les modèles d’équipe en général, voir [Commencer à utiliser les modèles d’équipe](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="quality-and-safety"></a>Qualité et sécurité
 

@@ -1,8 +1,8 @@
 ---
 title: Configurer Exchange Server messagerie unifiée pour Skype Entreprise Server messagerie vocale
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
@@ -14,21 +14,21 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Résumé : Configurez Exchange Server messagerie unifiée pour Skype Entreprise Server messagerie vocale.'
-ms.openlocfilehash: e434309c67469ccaa6994ec90cb3431b9de4f13b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b1e16329a72e17eb32fa9eca686bf0bee7a9c939
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865281"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398274"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configurer Exchange Server messagerie unifiée pour Skype Entreprise Server messagerie vocale
  
 **Résumé :** Configurez Exchange Server messagerie unifiée pour Skype Entreprise Server messagerie vocale.
   
-Skype Entreprise Server vous permet de stocker des messages vocaux dans Exchange Server 2016 ou Exchange Server 2013 ; Ces messages vocaux s’affichent ensuite sous la plupart des messages électroniques dans la boîte de réception de vos utilisateurs. 
+Skype Entreprise Server vous permet d’avoir des messages vocaux stockés dans Exchange Server 2016 ou Exchange Server 2013 ; ces messages vocaux s’affichent ensuite sous la mesure de messages électroniques dans la boîte de réception de vos utilisateurs. 
 
 > [!NOTE]
-> Exchange La messagerie unifiée comme précédemment connue n’est plus disponible dans Exchange 2019, mais vous pouvez toujours utiliser Système téléphonique pour enregistrer les messages vocaux, puis laisser l’enregistrement dans la boîte aux lettres Exchange d’un utilisateur. Pour [plus d’informations, voir Messagerie vocale infonuagique service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) de plan.
+> Exchange la messagerie unifiée comme précédemment connue n’est plus disponible dans Exchange 2019, mais vous pouvez toujours utiliser Système téléphonique pour enregistrer des messages vocaux, puis laisser l’enregistrement dans la boîte aux lettres Exchange d’un utilisateur. Pour [plus d’informations, voir Messagerie vocale infonuagique service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) de plan.
   
 Si vous avez déjà configuré l’authentification de serveur à serveur entre Skype Entreprise Server et Exchange Server 2016 ou Exchange Server 2013, vous êtes prêt à configurer la messagerie unifiée. Pour ce faire, vous devez d’abord créer et affecter un nouveau plan de numérotation de messagerie unifiée sur votre Exchange Server. Par exemple, ces deux commandes (exécutés à partir de Exchange Management Shell) configurent un nouveau plan de numérotation à 3 chiffres pour Exchange :
   
@@ -39,15 +39,15 @@ Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,
 
 Dans la première commande de l’exemple, le paramètre VoIPSecurity et la valeur de paramètre « Secured » indiquent que le canal de signalisation est chiffré à l’aide de TLS (Transport Layer Security). La valeur « SipName » de URIType indique que les messages seront envoyés et reçus à l’aide du protocole SIP et la valeur 1 de CountryOrRegionCode signifie que le plan de numérotation s’applique aux États-Unis.
   
-Dans la seconde commande, la valeur transmise au paramètre ConfiguredInCountryOrRegionGroups indique quels groupes régionaux peuvent être utilisés avec ce plan de numérotation. La valeur de paramètre « Anywhere, \* , », définit les \* \* valeurs suivantes :
+Dans la seconde commande, la valeur transmise au paramètre ConfiguredInCountryOrRegionGroups indique quels groupes régionaux peuvent être utilisés avec ce plan de numérotation. La valeur de paramètre « Anywhere,\* »,\*\* définit les valeurs suivantes :
   
 - Nom du groupe (« Anywhere »)
     
-- AllowedNumberString ( \* , caractère générique indiquant que n’importe quelle chaîne de nombre est autorisée)
+- AllowedNumberString (\*caractère générique indiquant que n’importe quelle chaîne de nombre est autorisée)
     
-- DialNumberString ( , caractère générique indiquant que n’importe quel \* numéro composé est autorisé)
+- DialNumberString (\*caractère générique indiquant que n’importe quel numéro composé est autorisé)
     
-- TextComment ( \* , caractère générique indiquant que n’importe quelle commande de texte est autorisée)
+- TextComment (\*caractère générique indiquant que n’importe quelle commande de texte est autorisée)
     
 > [!NOTE]
 > La création d’un nouveau plan de numérotation crée également une stratégie de boîte aux lettres par défaut. 
@@ -89,7 +89,7 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
 
 Dans la commande précédente, le paramètre Extensions représente le numéro de poste de l’utilisateur. Dans cet exemple, le numéro de poste de l’utilisateur est le 100.
   
-Une fois sa boîte aux lettres activée, l’utilisateur kenmyer@litwareinc.com doit être en mesure d’utiliser la messagerie unifiée Exchange. Vous pouvez vérifier que l’utilisateur peut se connecter à Exchange um en exécutant l’cmdlet [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity) à partir de Skype Entreprise Server Management Shell :
+Une fois sa boîte aux lettres activée, l’utilisateur kenmyer@litwareinc.com doit être en mesure d’utiliser la messagerie unifiée Exchange. Vous pouvez vérifier que l’utilisateur peut se connecter à Exchange um en exécutant l’cmdlet [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity) à partir de l’Skype Entreprise Server Management Shell :
   
 ```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
@@ -107,14 +107,14 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 ## <a name="configuring-unified-messaging-on-microsoft-exchange-server"></a>Configuration de la messagerie unifiée sur Microsoft Exchange Server 
 > [!IMPORTANT]
-> Si vous souhaitez utiliser la messagerie unifiée Exchange pour fournir des services de répondeurs automatiques, d’Outlook Voice Access ou de service de attendant automatique pour les utilisateurs de Voix Entreprise, lisez Planifier l’intégration de la messagerie unifiée Exchange dans [Skype Entreprise,](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)puis suivez les instructions de cette section. 
+> Si vous souhaitez utiliser la messagerie unifiée Exchange pour fournir des services de répondeurs automatiques, d’Outlook Voice Access ou de service de attendant automatique pour les utilisateurs de Voix Entreprise, lisez Planifier l’intégration de la messagerie [unifiée Exchange dans Skype Entreprise](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md), puis suivez les instructions de cette section. 
 
 Pour configurer Exchange messagerie unifiée pour qu’elle fonctionne Voix Entreprise, vous devez effectuer les tâches suivantes :
 
 - Configurer des certificats sur le serveur exécutant Exchange services de messagerie unifiée
   > [!NOTE]
   > Ajoutez tous les serveurs d’accès au client et de boîtes aux lettres à tous les plans de numérotation URI SIP de messagerie ungée. Si ce n’est pas le cas, le routage des appels sortants ne fonctionne pas comme prévu. 
-- Créez un ou plusieurs plans de numérotation URI SIP de la um, ainsi que les numéros de téléphone d’accès d’abonné, selon vos besoins, puis créez les plans de numérotation L correspondants.
+- Créez un ou plusieurs plans de numérotation URI SIP de la um, ainsi que les numéros de téléphone d’accès abonné, selon vos besoins, puis créez les plans de numérotation L correspondants.
 
 - Utilisez le script exchucutil.ps1 pour :
     - créer des passerelles IP de messagerie unifiée ;
@@ -132,14 +132,14 @@ Notez également les points suivants :
 - Si Exchange de l’utilisateur est installée dans plusieurs forêts, les étapes Exchange Server’intégration doivent être effectuées pour chaque forêt de la um. En outre, chaque forêt de messagerie unie doit être configurée pour faire confiance à la forêt dans laquelle Skype Entreprise Server est déployé, et la forêt dans laquelleSkype for Business Server est déployé doit être configurée pour faire confiance à chaque forêt de messagerie unie.
 - Les étapes d’intégration sont effectuées sur les rôles Exchange Server où les services de messagerie unifiée sont en cours d’exécution et sur le serveur exécutant Skype Entreprise Server. Vous devez effectuer les étapes Exchange Server’intégration de la messagerie unifiée avant d’effectuer les étapes d’intégration de Lync Server 2013.
   > [!NOTE]
-  > Pour voir [quelles étapes](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md)d’intégration sont effectuées sur quels serveurs et par quels rôles d’administrateur, voir Vue d’ensemble du processus de déploiement pour l’intégration de la messagerie unifiée et des Skype Entreprise . 
+  > Pour voir les étapes d’intégration effectuées sur les serveurs et les rôles d’administrateur, voir Vue d’ensemble du processus de déploiement pour l’intégration de la messagerie [unifiée](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md) et des Skype Entreprise. 
 
 Les outils suivants doivent être disponibles sur chaque serveur exécutant une messagerie Exchange messagerie un peu plus courante :
 - Environnement de ligne de commande Exchange Management Shell
 - Le script exchucutil.ps1, exécute les tâches suivantes :
     - Crée une passerelle IP de um pour chaque Skype Entreprise Server.
     - Il crée un groupement de postes pour chaque passerelle. L’identificateur pilote de chaque groupement de recherche spécifie le plan de numérotation URI SIP de messagerie ungée utilisé par le pool frontal ou le serveur Édition Standard associé à la passerelle.
-    - Accorde Skype Entreprise Server l’autorisation de Exchange des objets de la Exchange dans les services de domaine Active Directory.
+    - Accorde Skype Entreprise Server autorisation de lecture Exchange objets de la Exchange dans les services de domaine Active Directory.
 
 
 
@@ -155,7 +155,7 @@ Lorsque vous intégrez Microsoft Skype Entreprise Server à Exchange messagerie 
 - Il crée un groupement de postes de messagerie unifiée pour chaque passerelle IP de messagerie unifiée. L’identificateur pilote de chaque groupement de recherche spécifie le plan de numérotation URI SIP de messagerie ungée utilisé par le pool frontal Skype Entreprise Server ou le serveur Édition Standard associé à la passerelle IP de messagerie ungée.
 - Accorde Skype Entreprise Server l’autorisation de lire les objets conteneur de la um Active Directory tels que les plans de numérotation de la um, les attendants automatiques, les passerelles IP de um et les groupements de recherche de um.
   > [!IMPORTANT]
-  > Chaque forêt de la um doit être configurée pour faire confiance à la forêt dans laquelle Skype Entreprise Server est déployé, et la forêt dans laquelle Skype Entreprise Server 2013 est déployé doit être configurée pour faire confiance à chaque forêt de um. Si la Exchange est installée dans plusieurs forêts, les étapes d’intégration Exchange Server doivent être effectuées pour chaque forêt de la Skype Entreprise Server de la Skype Entreprise Server. Par exemple, ExchUcUtil.ps1 –Forest: \<lync-domain-controller-fqdn> . 
+  > Chaque forêt de la um doit être configurée pour faire confiance à la forêt dans laquelle Skype Entreprise Server est déployé, et la forêt dans laquelle Skype Entreprise Server 2013 est déployé doit être configurée pour faire confiance à chaque forêt de um. Si la Exchange est installée dans plusieurs forêts, les étapes d’intégration Exchange Server doivent être effectuées pour chaque forêt de la Skype Entreprise Server de la Skype Entreprise Server. Par exemple, ExchUcUtil.ps1 –Forest:\<lync-domain-controller-fqdn>. 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Utiliser l’environnement Shell pour exécuter le script ExchUcUtil.ps1
 
@@ -165,7 +165,7 @@ Exécutez le script ExchUcUtil.ps1 sur n’importe quel serveur Exchange de votr
 > Vous devez avoir les autorisations du rôle Gestion de l'organisation Exchange ou être membre du groupe de sécurité Administrateurs d'organisation Exchange pour exécuter le script. 
 
 1. Ouvrez l'environnement de ligne de commande Exchange Management Shell.
-2. À l’invite C:\Windows\System32, tapez **cd \<drive letter> :\Program Files\Microsoft\Exchange Server\V15\Scripts>.ExchUcUtil.ps1,** puis appuyez sur Entrée.
+2. À l’invite C:\Windows\System32, tapez **cd \<drive letter>:\Program Files\Microsoft\Exchange Server\V15\Scripts>.ExchUcUtil.ps1**, puis appuyez sur Entrée.
 
 #### <a name="how-do-you-know-this-worked"></a>Comment savoir si cela a fonctionné ?
 
@@ -175,7 +175,7 @@ Pour vérifier que le script ExchUcUtul.ps1 a été exécuté correctement, proc
 
 ### <a name="configure-certificates-on-the-server-running-exchange-server-unified-messaging"></a>Configurer des certificats sur le serveur exécutant Exchange Server messagerie unifiée
  
-Si vous avez déployé la messagerie unifiée Exchange, comme décrit dans la planification de l’intégration de la messagerie unifiée Exchange dans Skype Entreprise Server dans la documentation de planification et que vous souhaitez fournir des fonctionnalités de messagerie unifiée Exchange aux Voix Entreprise utilisateurs de votre organisation, vous pouvez utilisez les procédures suivantes pour configurer le certificat sur le serveur exécutant Exchange messagerie unie.
+Si vous avez déployé la messagerie unifiée Exchange, comme décrit dans la planification de l’intégration de la messagerie unifiée Exchange dans Skype Entreprise Server dans la documentation de planification, et que vous souhaitez fournir des fonctionnalités de messagerie unifiée Exchange aux Voix Entreprise  utilisateurs de votre organisation, vous pouvez utiliser les procédures suivantes pour configurer le certificat sur le serveur exécutant Exchange messagerie unie.
 
 > [!IMPORTANT]
 > Pour les certificats internes, les serveurs exécutant Skype Entreprise Server et les serveurs exécutant Microsoft Exchange doivent avoir des certificats d’autorité racines de confiance mutuellement fiables. L’autorité de certification peut être la même ou une autorité de certification différente, tant que le certificat racine de l’autorité de certification est inscrit dans le magasin de certificats de l’autorité racine de confiance des serveurs. 
@@ -190,20 +190,20 @@ Le Exchange Server doit être configuré avec un certificat de serveur pour se c
 
 **Pour télécharger le certificat de l’ac :**
 
-1. Sur le serveur exécutant Exchange messagerie un Exchange, cliquez sur **Démarrer,** cliquez sur **Exécuter,** tapez **http:// \<name of your Issuing CA Server> /certsrv,** puis cliquez sur **OK**.
-2. Sous Sélectionner une tâche, cliquez **sur Télécharger un certificat d’ac, une chaîne de certificats ou une CRL.**
-3. Sous **Télécharger un certificat d’ac,** une chaîne de certificats ou une CRL, sélectionnez La méthode de codage en **base 64,** puis cliquez sur Télécharger le certificat de l’ac.
+1. Sur le serveur exécutant Exchange messagerie un Exchange, cliquez sur **Démarrer, sur** **Exécuter,** tapez **http://\<name of your Issuing CA Server>/certsrv**, puis cliquez sur **OK**.
+2. Sous Sélectionner une tâche, cliquez **sur Télécharger un certificat d’ac, une chaîne de certificats ou une CRL**.
+3. Sous **Télécharger un certificat d’ac,** une chaîne de certificats ou une CRL, sélectionnez **Encoding Method vers Base 64**, puis cliquez **surDownload CA certificate**.
    > [!NOTE]
    > Vous pouvez également spécifier Distinguished Encoding Rules codage (DER) à cette étape. Si vous sélectionnez cette méthode, le fichier spécifié à l’étape suivante de cette procédure et à l’étape 10 de la procédure **Pour installer le certificat de l’autorité de certification** sera de type .p7b et non .cer. 
 4. Dans la boîte de dialogue **Téléchargement de fichier**, cliquez sur **Enregistrer**, puis enregistrez le fichier sur le disque dur du serveur (le fichier sera doté de l’extension .cer ou .p7b, selon la méthode de codage que vous avez sélectionnée à l’étape précédente).
 
 **Pour installer le certificat d’ac :**
 
-1. Sur le serveur exécutant la messagerie un Exchange, ouvrez la console MMC (Microsoft Management Console) en cliquant sur **Démarrer,** sur **Exécuter,** en tapant **mmc** dans la zone Ouvrir, puis en cliquant sur **OK.**
+1. Sur le serveur exécutant la messagerie un Exchange, ouvrez la console MMC (Microsoft Management Console) en cliquant sur **Démarrer, sur** **Exécuter, en** tapant **mmc** dans la zone Ouvrir, puis en cliquant sur **OK**.
 2. Dans le menu **Fichier**, cliquez sur **Ajouter/Supprimer un composant logiciel enfichable**, puis sur **Ajouter**.
 3. Dans la zone **Ajout d’un composant logiciel enfichable autonome**, cliquez sur **Certificats**, puis sur **Ajouter**.
 4. Dans la boîte de dialogue **Composant logiciel enfichable Certificats**, cliquez sur **Compte d’ordinateur**, puis sur **Suivant**.
-5. Dans la **boîte de** dialogue Sélectionner un ordinateur, vérifiez que la case à cocher Ordinateur local : (l’ordinateur sur qui cette console est en cours d’exécution) est cocher, puis cliquez sur **Terminer**. 
+5. Dans la **boîte de** dialogue Sélectionner un ordinateur, vérifiez que la case à cocher Ordinateur **local : (** l’ordinateur sur qui cette console est en cours d’exécution) est cocher, puis cliquez sur **Terminer**.
 6. Cliquez sur **Fermer**, puis sur **OK**. 
 7. Dans l’arborescence de la console, développez **Certificats (ordinateur local)**, développez **Autorités de certification racines de confiance**, puis cliquez sur **Certificats**.
 8. Cliquez avec le bouton droit sur **Certificats**, cliquez sur **Toutes les tâches**, puis sur **Importer**.

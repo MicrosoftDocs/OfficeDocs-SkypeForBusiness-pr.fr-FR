@@ -5,8 +5,8 @@ ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
 ms:contentKeyID: 48183343
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: La connectivité de messagerie instantanée publique permet aux utilisateurs de votre organisation d’utiliser la messagerie instantanée pour communiquer avec les utilisateurs des services de messagerie instantanée fournis par les fournisseurs de services de messagerie instantanée publics.
-ms.openlocfilehash: b5c7d75a6048a584fcb872ed8eb3cd82dfe2076f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d05827c7af0f7712db6d2436f2ecdb00838ea53f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847307"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398958"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Configurer des stratégies pour contrôler l’accès des utilisateurs publics dans Skype Entreprise Server
 
-La connectivité de messagerie instantanée publique permet aux utilisateurs de votre organisation d’utiliser la messagerie instantanée pour communiquer avec les utilisateurs des services de messagerie instantanée fournis par les fournisseurs de services de messagerie instantanée publics. Vous configurez une ou plusieurs stratégies d’accès des utilisateurs externes pour contrôler si les utilisateurs publics peuvent collaborer avec des utilisateurs Skype Entreprise Server internes. La connectivité de messagerie instantanée publique est une fonctionnalité ajoutée qui s’appuie sur la configuration de votre déploiement et des utilisateurs. Cela dépend également de la mise en service du service au niveau du fournisseur de messagerie instantanée public. 
+La connectivité de messagerie instantanée publique permet aux utilisateurs de votre organisation d’utiliser la messagerie instantanée pour communiquer avec les utilisateurs des services de messagerie instantanée fournis par les fournisseurs de services de messagerie instantanée publics. Vous configurez une ou plusieurs stratégies d’accès des utilisateurs externes pour contrôler si les utilisateurs publics peuvent collaborer avec des utilisateurs Skype Entreprise Server internes. La connectivité de messagerie instantanée publique est une fonctionnalité ajoutée qui s’appuie sur la configuration de votre déploiement et des utilisateurs. Cela dépend également de la mise en service du service chez le fournisseur de messagerie instantanée public. 
 
 Pour contrôler l’accès des utilisateurs publics, vous pouvez configurer des stratégies au niveau global, du site et des utilisateurs. Skype Entreprise Server de stratégie appliquées à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. La politique de priorité de Skype Entreprise Server est la suivante : la stratégie utilisateur (la plus influente) remplace une stratégie site, et une stratégie site remplace une stratégie globale (la moins influente). Cela signifie que plus le paramètre de stratégie est proche de l’objet que la stratégie affecte, plus elle a d’influence sur l’objet.
 
@@ -33,7 +33,7 @@ Dans le cas des invitations de messagerie instantanée, la réponse dépend du l
 
 
 > [!NOTE]  
-> Vous pouvez configurer des stratégies de contrôle d’accès des utilisateurs publics, même si vous n’avez pas activé la fédération pour votre organisation. Toutefois, les stratégies que vous configurez s’appliquent uniquement si la fédération est activée pour votre organisation. Pour plus d’informations sur l’activation de la fédération, voir [Activer ou désactiver l’accès des utilisateurs distants.](../access-edge/enable-or-disable-remote-user-access.md) En outre, si vous spécifiez une stratégie utilisateur pour contrôler l’accès des utilisateurs publics, la stratégie s’applique uniquement aux utilisateurs activés pour Skype Entreprise Server et configurés pour utiliser la stratégie. Pour plus d’informations sur la spécification des utilisateurs publics qui peuvent se Skype Entreprise Server, voir Affecter une stratégie d’accès des utilisateurs [externes.](assign-an-external-user-access-policy.md)
+> Vous pouvez configurer des stratégies de contrôle d’accès des utilisateurs publics, même si vous n’avez pas activé la fédération pour votre organisation. Toutefois, les stratégies que vous configurez s’appliquent uniquement si la fédération est activée pour votre organisation. Pour plus d’informations sur l’activation de la fédération, voir [Activer ou désactiver l’accès des utilisateurs distants](../access-edge/enable-or-disable-remote-user-access.md). En outre, si vous spécifiez une stratégie utilisateur pour contrôler l’accès des utilisateurs publics, la stratégie s’applique uniquement aux utilisateurs activés pour Skype Entreprise Server et configurés pour utiliser la stratégie. Pour plus d’informations sur la spécification des utilisateurs publics qui peuvent se Skype Entreprise Server, voir [Affecter une stratégie](assign-an-external-user-access-policy.md) d’accès des utilisateurs externes.
 
 
 Effectuez la procédure suivante pour configurer une stratégie permettant de prendre en charge l’accès par les utilisateurs d’un ou plusieurs fournisseurs de messagerie instantanée publics.
@@ -66,7 +66,7 @@ Effectuez la procédure suivante pour configurer une stratégie permettant de pr
 
 7.  Cliquez sur **Valider**.
 
-Pour activer l’accès des utilisateurs publics, vous devez aussi activer la prise en charge de la fédération dans votre organisation. Pour plus d’informations, voir [Configurer des stratégies pour contrôler l’accès](configure-policies-to-control-federated-user-access.md)des utilisateurs fédérés dans Skype Entreprise Server .
+Pour activer l’accès des utilisateurs publics, vous devez aussi activer la prise en charge de la fédération dans votre organisation. Pour plus d’informations, voir [Configurer des stratégies pour contrôler l’accès des utilisateurs fédérés dans Skype Entreprise Server](configure-policies-to-control-federated-user-access.md).
 
 S’il s’agit d’une stratégie utilisateur, vous devez aussi appliquer la stratégie aux utilisateurs publics que vous souhaitez autoriser à collaborer avec les utilisateurs publics. 
 

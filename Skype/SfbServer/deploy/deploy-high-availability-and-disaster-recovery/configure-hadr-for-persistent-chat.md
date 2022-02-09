@@ -1,8 +1,8 @@
 ---
 title: 'Business Server 2015 : Configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: Découvrez comment configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015.
-ms.openlocfilehash: 4a214dedacdd38b875db93dc5e2b13f35d640169
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b98f4c49cb3643faa6d6bbe7b899634a4ef6b159
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829448"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397457"
 ---
 # <a name="business-server-2015-configure-high-availability-and-disaster-recovery-for-persistent-chat-server"></a>Business Server 2015 : Configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente
  
@@ -29,7 +29,7 @@ Skype Entreprise Server prend en charge plusieurs modes de haute disponibilité 
 > [!NOTE]
 > Les groupes de disponibilité AlwaysOn ne sont pas pris en charge avec les serveurs de conversation permanente. 
   
-Avant de configurer votre déploiement de conversation permanente pour la haute disponibilité et la récupération d’urgence, assurez-vous que vous êtes familiarisé avec les concepts de plan de haute disponibilité et de récupération d’urgence pour le serveur de conversation permanente dans [Skype Entreprise Server 2015.](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) La solution de récupération d’urgence pour le serveur de conversation permanente décrite dans ces rubriques repose sur un pool de serveurs de conversation permanente étiré. Le contenu de planification décrit les besoins en ressources, ainsi que la topologie de pool étirée qui permet la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente, y compris l’utilisation de la mise en miroir SQL Server pour la haute disponibilité et de l’envoi de journaux SQL Server pour la récupération d’urgence.
+Avant de configurer votre déploiement de conversation permanente pour la haute disponibilité et la récupération d’urgence, assurez-vous que vous êtes familiarisé avec les concepts de plan de haute disponibilité et de récupération d’urgence pour le serveur de conversation permanente dans [Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md). La solution de récupération d’urgence pour le serveur de conversation permanente décrite dans ces rubriques repose sur un pool de serveurs de conversation permanente étiré. Le contenu de planification décrit les besoins en ressources, ainsi que la topologie de pool étirée qui permet la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente, y compris l’utilisation de la mise en miroir SQL Server pour la haute disponibilité et de l’envoi de journaux SQL Server pour la récupération d’urgence.
   
 ## <a name="use-topology-builder-to-configure-high-availability-and-disaster-recovery"></a>Utiliser le Générateur de topologie pour configurer la haute disponibilité et la récupération d’urgence
 
@@ -41,7 +41,7 @@ Dans le Générateur de topologie, effectuez les étapes suivantes pour configur
     
     a. activer la mise en miroir pour la base de données primaire ;
     
-    b. Ajoutez le magasin SQL Server miroir principal.
+    b. Ajoutez le miroir principal SQL Server magasin.
     
     c. Activez la base SQL Server de livraison des journaux de bord.
     
@@ -51,9 +51,9 @@ Dans le Générateur de topologie, effectuez les étapes suivantes pour configur
     
     f. Publiez la topologie.
     
-## <a name="set-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database"></a>Configurer la SQL Server de journaux de serveurs de conversation permanente pour la base de données principale du serveur de conversation permanente
+## <a name="set-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database"></a>Configurer la SQL Server de journal pour la base de données principale du serveur de conversation permanente
 
-À l’SQL Server Management Studio, connectez-vous à l’instance de base de données de livraison de journaux secondaire du serveur de conversation permanente et assurez-vous que SQL Server Agent est en cours d’exécution. Connectez-vous ensuite à l’instance de base de données principale de conversation permanente et effectuez les étapes suivantes :
+À l SQL Server Management Studio, connectez-vous à l’instance de base de données de livraison de journaux secondaire du serveur de conversation permanente et assurez-vous que SQL Server Agent est en cours d’exécution. Connectez-vous ensuite à l’instance de base de données principale de conversation permanente et effectuez les étapes suivantes :
   
 1. Cliquez avec le bouton droit sur la base de données mgc, puis cliquez sur **Propriétés**.
     
@@ -72,7 +72,7 @@ Dans le Générateur de topologie, effectuez les étapes suivantes pour configur
   
 7. Configurez les paramètres **Supprimer les fichiers antérieurs à** et **Envoyer une alerte si aucune sauvegarde ne se produit en l’espace de**.
     
-8. Examinez l’échéancier des sauvegardes dans la zone **Planification** sous **Travail de sauvegarde**. Pour personnaliser la planification de votre installation, cliquez sur **Planifier** et ajustez la planification de SQL Server’agent si nécessaire.
+8. Examinez l’échéancier des sauvegardes dans la zone **Planification** sous **Travail de sauvegarde**. Pour personnaliser la planification de votre installation, cliquez sur **Planification** et ajustez la planification SQL Server’agent de planification selon les besoins.
     
 9. Sous **Compression**, sélectionnez **Utiliser le paramètre du serveur par défaut**, puis cliquez sur **OK**.
     
@@ -86,7 +86,7 @@ Dans le Générateur de topologie, effectuez les étapes suivantes pour configur
     
 14. Sous l’onglet **Copier les fichiers**, dans la zone **Dossier de destination des fichiers copiés**, tapez le chemin d’accès au dossier dans lequel les sauvegardes des journaux de transactions doivent être copiées. Ce dossier se trouve souvent sur le serveur secondaire.
     
-15. Examinez la planification des copies dans la zone **Planification** sous **Copier le travail**. Pour personnaliser la planification de votre installation, cliquez sur **Planifier** et ajustez la planification de SQL Server’agent si nécessaire. Cette planification doit être approximativement la même que celle des sauvegardes.
+15. Examinez la planification des copies dans la zone **Planification** sous **Copier le travail**. Pour personnaliser la planification de votre installation, cliquez sur **Planification** et ajustez la planification SQL Server’agent de planification selon les besoins. Cette planification doit être approximativement la même que celle des sauvegardes.
     
 16. Sous l’onglet **Restaurer**, sous **État de la base de données lors de la restauration des sauvegardes**, choisissez l’option **Mode sans récupération**.
     
@@ -94,15 +94,15 @@ Dans le Générateur de topologie, effectuez les étapes suivantes pour configur
     
 18. Choisissez un seuil d’alerte sous **Envoyer une alerte si aucune restauration ne se produit en l’espace de**.
     
-19. Examinez la planification des restaurations dans la zone **Planification** sous **Restaurer le travail**. Pour personnaliser la planification de votre installation, cliquez sur **Planifier,** ajustez la planification de l’agent SQL Server si nécessaire, puis cliquez sur **OK.** Cette planification doit être approximativement la même que celle des sauvegardes.
+19. Examinez la planification des restaurations dans la zone **Planification** sous **Restaurer le travail**. Pour personnaliser la planification de votre installation, cliquez sur **Planification,** ajustez la planification de l’agent SQL Server si nécessaire, puis cliquez sur **OK**. Cette planification doit être approximativement la même que celle des sauvegardes.
     
 20. Dans la boîte de dialogue **Propriétés de la base de données**, cliquez sur **OK** pour lancer le processus de configuration.
     
 ## <a name="set-up-sql-server-log-shipping-between-the-primary-mirror-and-the-secondary-database"></a>Configurer la SQL Server des journaux de livraison entre le miroir principal et la base de données secondaire
 
-Effectuez les étapes suivantes pour que la livraison des journaux de bord continue si la base de données de conversation permanente principale est retentée vers sa base de données miroir.
+Effectuez les étapes suivantes pour que la livraison des journaux de route continue si la base de données de conversation permanente principale est retentée vers sa base de données miroir.
   
-1. Faire échouer manuellement la base de données de conversation permanente principale vers le miroir. Pour ce faire, utilisez l’Skype Entreprise Server Management Shell et l’cmdlet **Invoke-CsDatabaseFailover.**
+1. Faire échouer manuellement la base de données de conversation permanente principale vers le miroir. Pour ce faire, utilisez l’Skype Entreprise Server Management Shell et l’cmdlet **Invoke-CsDatabaseFailover**.
     
 2. À l’SQL Server Management Studio, connectez-vous à l’instance miroir du serveur de conversation permanente principale.
     
@@ -125,7 +125,7 @@ Effectuez les étapes suivantes pour que la livraison des journaux de bord conti
   
 10. Configurez les paramètres **Supprimer les fichiers antérieurs à** et **Envoyer une alerte si aucune sauvegarde ne se produit en l’espace de**.
     
-11. Examinez l’échéancier des sauvegardes dans la zone **Planification** sous **Travail de sauvegarde**. Pour personnaliser la planification de votre installation, cliquez sur **Planifier** et ajustez la planification de SQL Server’agent, le cas échéant.
+11. Examinez l’échéancier des sauvegardes dans la zone **Planification** sous **Travail de sauvegarde**. Pour personnaliser la planification de votre installation, cliquez sur **Planification** et ajustez la planification de SQL Server’agent, le cas échéant.
     
     > [!IMPORTANT]
     > Utilisez les mêmes paramètres que ceux de la base de données primaire. 
@@ -146,13 +146,13 @@ Effectuez les étapes suivantes pour que la livraison des journaux de bord conti
     
 19. Dans la nouvelle fenêtre de requête, dans **Propriétés de la base de données**, cliquez sur **OK** pour commencer le processus de configuration.
     
-20. Sélectionnez et exécutez la première moitié de la requête (voir l’étape 18) jusqu’à la ligne : -- Fin : script à exécuter au niveau \* \* \* \* \* \* principal : \* \* \* \* \* \* .
+20. Sélectionnez et exécutez la première moitié de la requête (voir l’étape 18) jusqu’à la ligne : -- \*\*\*\*\*\*Fin : script à exécuter au niveau principal : . \*\*\*\*\*\*
     
     > [!IMPORTANT]
     > L’exécution manuelle de ce script est nécessaire, car SQL Server Management Studio ne prend pas en charge plusieurs bases de données principales dans une configuration SQL Server’envoi de journaux de bord. 
   
 21. Sélectionnez **Annuler** pour fermer le panneau de configuration de copie des journaux de transaction et établir une configuration de travail qui implémente correctement la copie des journaux de transaction pour la base de données primaire et la base de données en miroir (en cas de basculement).
     
-22. Retourne manuellement la base de données de conversation permanente principale à la base de données principale. Pour ce faire, utilisez l’Skype Entreprise Server Management Shell et l’cmdlet **Invoke-CsDatabaseFailover.**
+22. Retourne manuellement la base de données de conversation permanente principale à la base de données principale. Pour ce faire, utilisez Skype Entreprise Server Management Shell et l’cmdlet **Invoke-CsDatabaseFailover**.
     
 

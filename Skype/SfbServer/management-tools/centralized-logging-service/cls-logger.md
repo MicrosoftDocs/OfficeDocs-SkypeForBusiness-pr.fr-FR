@@ -1,8 +1,8 @@
 ---
 title: CLS Logger pour Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/25/2017
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Résumé : Découvrez comment utiliser l’enregistreur clS (Centralized Logging Service) dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: dbe8ef417eb702943c76214be492151ee4d1dac7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 24db5a23a29f9ae91ef2c3cab351fe7ca8c93a32
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862181"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398798"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger pour Skype Entreprise Server 2015
  
@@ -27,7 +27,7 @@ ms.locfileid: "60862181"
   
 ClS Logger est un outil qui vous permet de gérer les journaux générés par le service de journalisation centralisée.
   
-## <a name="prerequisites"></a>Configuration requise
+## <a name="prerequisites"></a>Conditions préalables
 
 Pour utiliser correctement CLS Logger, vous devez vous assurer que les valeurs suivantes sont vraies :
   
@@ -39,7 +39,7 @@ Pour utiliser correctement CLS Logger, vous devez vous assurer que les valeurs s
 
 Utilisez les commandes suivantes pour vérifier l’état de la journalisation :
   
-1. Dans l’onglet « Scénarios de démarrage/arrêt », sélectionnez un regroupement de pools et/ou d’ordinateurs dans l’arborescence de la topologie.
+1. Dans l’onglet « Scénarios de démarrage/arrêt », sélectionnez un regroupement de pools et/ou d’ordinateurs dans l’arborescence topologie.
     
 2. Cliquez sur le bouton État de la journalisation.
     
@@ -83,7 +83,7 @@ Pour rechercher des journaux, sélectionnez l’onglet « Rechercher les journau
 > 
 > **Pools** Pools d’ordinateurs pour effectuer la recherche de journal par rapport à, il s’il s’hui les nodes parents de l’arborescence. (Obligatoire)
 > 
-> **Ordinateurs** Ordinateurs individuels pour effectuer la recherche dans le journal : il s’hui de tous les nodes enfants dans l’arborescence. (Obligatoire)
+> **Ordinateurs** Ordinateurs individuels sur qui effectuer la recherche dans les journaux, il s’hui de tous les nodes enfants dans l’arborescence. (Obligatoire)
 > 
 > **Heure de début** Période à partir de laquelle le CLS interrogera les journaux. (Obligatoire)
 > 
@@ -99,7 +99,7 @@ Pour rechercher des journaux, sélectionnez l’onglet « Rechercher les journau
 > 
 > **ID de corrélation** Instructions de suivi liées logiquement par cet ID. (Facultatif)
 > 
-> **Téléphone number** Filtrer par numéro de téléphone. (Facultatif)
+> **Téléphone par** numéro de téléphone. (Facultatif)
 > 
 > **URI SIP** Filtrez par URI SIP. (Facultatif)
 > 
@@ -113,7 +113,7 @@ Pour rechercher des journaux, sélectionnez l’onglet « Rechercher les journau
   
 ## <a name="create-a-scenario"></a>Créer un scénario
 
-1. Dans **l’onglet Modifier les scénarios,** cliquez sur le **bouton Créer un** scénario.
+1. Dans **l’onglet Modifier les scénarios** , cliquez sur le **bouton Créer un** scénario.
     
     > [!NOTE]
     > La création d’un nouveau scénario clonera la configuration du scénario actuellement sélectionné. Si vous cliquez **sur Effacer Paramètres** avant de créer un nouveau scénario, aucun composant et aucun indicateur n’est sélectionné.
@@ -124,19 +124,19 @@ Pour rechercher des journaux, sélectionnez l’onglet « Rechercher les journau
     
 ## <a name="modify-a-scenario"></a>Modifier un scénario
 
-![Capture d’écran CLS Logger, scénarios de modification.](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![Capture d’écran clS Logger, scénarios de modification.](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
-1. Dans **l’onglet Modifier les scénarios,** recherchez le scénario souhaité à modifier.
+1. Dans **l’onglet Modifier les scénarios** , recherchez le scénario souhaité à modifier.
     
 2. A apporté les modifications souhaitées aux composants, niveaux et indicateurs.
     
-3. Cliquez sur **le bouton Enregistrer le scénario.**
+3. Cliquez sur **le bouton Enregistrer le scénario** .
     
-4. Une fois le scénario correctement enregistrer, il actualisera le volet d’informations du scénario avec la configuration mise à jour.
+4. Lors de l’enregistrement réussi du scénario, il actualisera le volet d’informations du scénario avec la configuration mise à jour.
     
 ## <a name="delete-a-scenario"></a>Supprimer un scénario
 
-1. Dans **l’onglet Modifier les scénarios,** sélectionnez un scénario existant dans le menu déroulant Scénarios.
+1. Dans **l’onglet Modifier les scénarios** , sélectionnez un scénario existant dans le menu déroulant Scénarios.
     
 2. Cliquez **sur Supprimer le scénario** pour supprimer le scénario.
     

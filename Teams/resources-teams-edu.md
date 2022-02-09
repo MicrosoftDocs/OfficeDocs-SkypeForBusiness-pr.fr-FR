@@ -1,7 +1,7 @@
 ---
 title: 'Microsoft Teams : Ressources pour les administrateurs Éducation'
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cabaace50bea563ac2803c33f2b302f2f326bfa4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2f0b8f1f070d48c30413f3d89e54b9344c54cafb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865663"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409837"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>Ressources Microsoft Teams pour les administrateurs dans l’éducation
 
@@ -46,7 +46,7 @@ Veuillez lire les [conditions générales avant](https://github.com/MicrosoftDoc
 
 ### <a name="digital-assets"></a>Biens numériques
 
-N’oubliez pas de consulter le [guide Shared Computer Toolkit numérique](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) pour optimiser Teams lancement . 
+N’oubliez pas de consulter le [guide Shared Computer Toolkit numérique](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) pour optimiser Teams vos données. 
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
@@ -56,7 +56,7 @@ N’oubliez pas de consulter le [guide Shared Computer Toolkit numérique](https
 
 ## <a name="call-to-action"></a>Appel à l’action
 
-- Visitez la [page Teams pour l'éducation des formations,](https://www.microsoft.com/en-us/education/products/teams/default.aspx) des vidéos et des démonstrations interactives
+- Visitez la [page Teams pour l'éducation des formations](https://www.microsoft.com/en-us/education/products/teams/default.aspx), des vidéos et des démonstrations interactives
 - Activer les Teams dans la [Centre d'administration Microsoft 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (connectez-vous en tant qu’Office 365 administrateur)
 - Télécharger les clients Teams : [Obtenir Teams sur tous vos périphériques](https://teams.microsoft.com/downloads)
 - En savoir plus sur Office 365 pour l’éducation dans le [centre d’aide pour l’éducation](https://support.office.com/education)

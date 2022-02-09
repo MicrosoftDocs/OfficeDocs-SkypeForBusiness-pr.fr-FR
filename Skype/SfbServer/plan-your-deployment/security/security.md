@@ -1,8 +1,8 @@
 ---
 title: Planifier la sécurité dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cbc800db-35f6-45c0-b9f6-d8cee0c7e922
 description: Skype Entreprise Server sécurité.
-ms.openlocfilehash: 8fb49062d61a8776bd41a0e4b44fb020af4c7745
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 242c2d9f34d9fe59504753119dbb747a15ef9e39
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843687"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400168"
 ---
 # <a name="plan-for-security-in-skype-for-business-server"></a>Planifier la sécurité dans Skype Entreprise Server 
  

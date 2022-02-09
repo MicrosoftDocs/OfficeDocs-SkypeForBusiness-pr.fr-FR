@@ -1,8 +1,8 @@
 ---
 title: Workflow Response Groups
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,22 +15,22 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: Les groupes Response Group sont constitués de groupes d’agents, de files d’attente et de flux de travail. Les flux de travail Response Group définissent les actions qui sont prises lorsque l’application Response Group reçoit un appel téléphonique.
-ms.openlocfilehash: 0683cad93475ff23bca20acd6f90cee6a60139f0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ad5c8c67e01a46888da3b8c412bc2317ba6c6af6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838716"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395837"
 ---
 # <a name="response-groups-workflow"></a>Flux de travail des services Response Groups
 
 Les groupes Response Group sont constitués de groupes d’agents, de files d’attente et de flux de travail. Les flux de travail Response Group définissent les actions qui sont prises lorsque l’application Response Group reçoit un appel téléphonique.
 
-La page **Flux de** travail Response Groups affiche la liste de tous les flux de travail Response Group définis pour votre  -   organisation.
+La page **Response** **GroupsWorkflow** -  affiche la liste de tous les flux de travail Response Group définis pour votre organisation.
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Vous pouvez effectuer les tâches suivantes à partir de la page flux de travail **Response Groups**  -   :
+Vous pouvez effectuer les tâches suivantes à partir de la page **Response** **GroupsWorkflow** -  :
 
 - Créer ou modifier un flux de travail de groupe de recherche
 

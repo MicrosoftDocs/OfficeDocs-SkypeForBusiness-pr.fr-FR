@@ -1,8 +1,8 @@
 ---
 title: Planifier le magasin de contacts unifié dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 6/8/2017
 audience: ITPro
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 description: 'Résumé : Examinez cette rubrique lors de la planification de l’intégration de Skype Entreprise Server avec Exchange 2013.'
-ms.openlocfilehash: 9334d8cdacfcc4ab2bf6cc733ce26faa7ff05280
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 662b3250ff3589042841e9b54d8ade348251621d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855228"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403708"
 ---
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Planifier le magasin de contacts unifié dans Skype Entreprise Server 2015
  
 **Résumé :** Examinez cette rubrique lors de la planification de l Skype Entreprise Server à Exchange 2013 ou 2016.
   
-Le magasin de contacts unifié offre une expérience de contact cohérente entre les produits Microsoft Office et permet aux utilisateurs de stocker toutes les informations de contact dans Exchange 2013, mais permet aux informations d’être disponibles globalement sur Skype Entreprise, Exchange, Outlook et Outlook Web Access.
+Le magasin de contacts unifié offre une expérience de contact cohérente entre les produits Microsoft Office et permet aux utilisateurs de stocker toutes les informations de contact dans Exchange 2013, mais permet aux informations d’être disponibles globalement sur Skype Entreprise, Exchange, Outlook et Outlook  Web Access.
   
 ## <a name="requirements-for-unified-contact-store"></a>Conditions requises pour le magasin de contacts unifié
 

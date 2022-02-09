@@ -1,8 +1,8 @@
 ---
 title: Sélection d’un site
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: Utilisez la boîte de dialogue Sélectionner un site pour rechercher les sites disponibles dans votre environnement. Pour utiliser un site existant, cliquez sur un site dans la liste, puis sur OK.
-ms.openlocfilehash: f0fffc815a8a2cd5237b07c80aee1122006f5186
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1b591db7ef6561e2b6bff905dbaec8429dd7d0b5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837986"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410207"
 ---
 # <a name="select-a-site"></a>Sélection d’un site
 
-Utilisez la **boîte de dialogue Sélectionner** un site pour rechercher les sites disponibles dans votre environnement. Pour utiliser un site existant, cliquez sur un site dans la liste, puis sur **OK**.
+Utilisez la **boîte de dialogue Sélectionner un site** pour rechercher les sites disponibles dans votre environnement. Pour utiliser un site existant, cliquez sur un site dans la liste, puis sur **OK**.
 
 > [!NOTE]
 > Pour récupérer tous les sites disponibles, ne tapez rien dans la zone de recherche, puis cliquez sur l’icône de recherche.
@@ -43,7 +43,7 @@ Pour plus d’informations sur les différentes procédures que vous pouvez effe
 
 ## <a name="to-configure-persistent-chat-options-globally"></a>Pour configurer les options de conversation permanente globalement
 
-Dans **Sélectionner un site,** sélectionnez le site à configurer pour la configuration du site serveur de conversation permanente.
+Dans **Sélectionner un site**, sélectionnez le site à configurer pour la configuration du site serveur de conversation permanente.
 
 ## <a name="to-create-a-persistent-chat-policy-for-a-site"></a>Pour créer une stratégie de conversation permanente pour un site
 

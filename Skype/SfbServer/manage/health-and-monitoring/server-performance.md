@@ -1,8 +1,8 @@
 ---
 title: Rapport sur les performances du serveur Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
-description: 'Résumé : Découvrez le rapport de performances du serveur dans Skype Entreprise Server.'
-ms.openlocfilehash: 6e13a12452fbdbf650a7e307340269803a2301b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 'Résumé : Découvrez le rapport sur les performances du serveur dans Skype Entreprise Server.'
+ms.openlocfilehash: 21bb6dbc462633d3d5620d63389b72a9b4d49a07
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836336"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396536"
 ---
 # <a name="server-performance-report-in-skype-for-business-server"></a>Rapport sur les performances du serveur Skype Entreprise Server
  
@@ -43,7 +43,7 @@ Il est important de noter que le classement indiqué dans ce rapport est relatif
   
 ## <a name="accessing-the-server-performance-report"></a>Accès au rapport de performances du serveur
 
-Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez descendre dans le rapport de liste d’appels [Skype Entreprise Server](call-list-report-0.md) en cliquant sur l’une des mesures suivantes :
+Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez descendre dans le rapport des listes d’Skype Entreprise Server [en](call-list-report-0.md) cliquant sur l’une des mesures suivantes :
   
 - Volume d’appels
     
@@ -83,7 +83,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 
 |**Name**|**Tri possible**|**Description**|
 |:-----|:-----|:-----|
-|**Server** <br/> |Non  <br/> |Nom/adresse IP du serveur  <br/> |
+|**Serveur** <br/> |Non  <br/> |Nom/adresse IP du serveur  <br/> |
 |**Volume d’appels** <br/> |Non  <br/> |Nombre total d’appels effectués.  <br/> |
 |**Pourcentage d’appels médiocres** <br/> |Non  <br/> |Nombre total d’appels jugés et classés comme étant médiocres. Un appel médiocre désigne un appel dont l’une des valeurs mesurées est supérieure à la valeur autorisée (par exemple, un appel soumis à un phénomène de gigue excessive).  <br/> |
 |**Boucle (ms)** <br/> |Oui  <br/> |Temps moyen (en millisecondes) nécessaire à un package RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un autre point de terminaison. Des boucles de 100 millisecondes ou moins sont considérées qualitativement acceptables.  <br/> Des boucles de durée plus élevée peuvent être causées par le routage international des appels, une mauvaise configuration du routage ou un serveur multimédia surchargé. Les durées d’aller-retour élevées créent des difficultés dans le cadre de conversations audio bidirectionnelles réalisées en temps réel.  <br/> |

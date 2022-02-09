@@ -1,7 +1,7 @@
 ---
 title: Disponibilité aux Îles Turques-et-Caïques
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 aux îles Skype Entreprise et Microsoft Teams disponibles pour les îles Turques-et-Caïques.
-ms.openlocfilehash: edff99dceae6be7ca5a00a57bbe101f77717e4a1
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 26d95fd94887cdfb7574c2d18f602d8b087b2d5a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191415"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409857"
 ---
 # <a name="availability-in-turks-and-caicos-islands"></a>Disponibilité aux Îles Turques-et-Caïques
 
@@ -62,7 +62,7 @@ Voici les services Microsoft 365 et Office 365 aux îles Skype Entreprise et Mic
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
 
-Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les options de [connectivité PSTN](../pstn-connectivity.md) pour toutes les options disponibles.
+Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les [options de connectivité PSTN](../pstn-connectivity.md) pour toutes les options disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 

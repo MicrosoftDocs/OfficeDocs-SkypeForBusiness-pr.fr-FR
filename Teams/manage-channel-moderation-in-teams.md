@@ -1,7 +1,7 @@
 ---
 title: Configurer et gérer la modération de canal
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: jotaing
 ms.topic: article
@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment configurer des canaux pour la modération dans Microsoft Teams, y compris comment ajouter des membres de l’équipe comme modérateurs de canaux.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dbfdec9af83bda6c0b14a6371e0694d68e25d1d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9fd15b6d7eeecf0f1b7e6ec25e33236f50fd83b3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829558"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400848"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Configurer et gérer la modération de canal dans Microsoft Teams
 
@@ -60,9 +60,9 @@ Dans ce scénario, l’enseignant autorise ses assistants d’enseignement à mo
 
 ## <a name="manage-channel-moderation"></a>Gérer la modération de canal
 
-Dans Teams, sur le canal, cliquez **sur Autres options...**  >  **Gérer le canal.** À partir de là, vous pouvez activer et désactiver la modération, ajouter des membres de l’équipe comme modérateurs et définir des préférences.
+Dans Teams, sur le canal, cliquez **sur Autres options...** >  **Gérer le canal**. À partir de là, vous pouvez activer et désactiver la modération, ajouter des membres de l’équipe comme modérateurs et définir des préférences.
 
-La modération de canal est un paramètre par canal. Il n’existe aucun paramètre de modération au niveau du client. Si vous souhaitez que nous ajoutons un paramètre de modération de canal au niveau du client, demandez-le [sur Teams UserVoice.](https://microsoftteams.uservoice.com/)
+La modération de canal est un paramètre par canal. Il n’existe aucun paramètre de modération au niveau du client. Si vous souhaitez que nous ajoutons un paramètre de modération de canal au niveau du client, demandez-le [sur Teams UserVoice](https://microsoftteams.uservoice.com/).
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
@@ -72,15 +72,15 @@ La modération de canal est un paramètre par canal. Il n’existe aucun paramè
 
 Par défaut, la modération est off, ce qui signifie que les paramètres habituels du canal s’appliquent aux propriétaires d’équipe et aux membres d’équipe. Par exemple, vous pouvez limiter les nouvelles publications aux seuls membres de l’équipe ou autoriser tout le monde, y compris les invités, à commencer de nouvelles publications.
 
-Pour activer la modération pour un canal, sous **Modération du** canal, cliquez **sur Activer.** Lorsque la modération de canal est en cours, seuls les modérateurs peuvent commencer de nouvelles publications. 
+Pour activer la modération pour un canal, sous **Modération du** canal, cliquez sur **Activer**. Lorsque la modération de canal est en cours, seuls les modérateurs peuvent commencer de nouvelles publications. 
 
 ### <a name="add-or-remove-channel-moderators"></a>Ajouter ou supprimer des modérateurs de canal
 
-Sous **Qui sont les modérateurs ?** Cliquez sur Gérer, puis ajoutez ou supprimez des membres de l’équipe comme modérateurs.  Les propriétaires d’équipe et les modérateurs peuvent ajouter et supprimer d’autres modérateurs.  
+Sous **Qui sont les modérateurs ?**, cliquez sur **Gérer, puis** ajoutez ou supprimez des membres de l’équipe comme modérateurs. Les propriétaires d’équipe et les modérateurs peuvent ajouter et supprimer d’autres modérateurs.  
 
 ### <a name="set-team-member-permissions"></a>Définir les autorisations des membres d’une équipe
 
-Sous **Autorisations des membres de l’équipe,** cochez les cases en regard des activités que vous voulez autoriser.
+Sous **Autorisations des membres de l’équipe**, cochez les cases en regard des activités que vous voulez autoriser.
 
 ## <a name="related-topics"></a>Voir aussi
 

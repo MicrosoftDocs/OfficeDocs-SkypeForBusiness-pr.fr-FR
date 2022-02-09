@@ -1,7 +1,7 @@
 ---
-title: Skype Scripts de configuration de salle système de salle
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype scripts de configuration de salle Room System
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: Consultez cette rubrique pour trouver des exemples de scripts de mise en service Skype comptes Room System.
-ms.openlocfilehash: ef70cc0c36cf4a1434b0ca1e120a8d81799d7640
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Consultez cette rubrique pour trouver des exemples de scripts d’approvisionnement Skype comptes Room System.
+ms.openlocfilehash: 45805c3facf6541fbec88fd9c4d1fbd28a890ed2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859631"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402578"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>Skype Scripts de configuration de salle système de salle
+# <a name="skype-room-system-room-setup-scripts"></a>Skype scripts de configuration de salle Room System
  
-Consultez cette rubrique pour trouver des exemples de scripts de mise en service Skype comptes Room System.
+Consultez cette rubrique pour trouver des exemples de scripts d’approvisionnement Skype comptes Room System.
   
 Cette section illustre des exemples de scripts qui peuvent être utilisés pour mettre en service Skype comptes Room System. Ces scripts sont uniquement à titre d’illustration. Elles ne doivent être utilisées qu’après avoir consulté votre expert informatique ou votre administrateur de domaine.
   
@@ -47,7 +47,7 @@ Assurez-vous que vous avez vérifié les conditions préalables suivantes avant 
     
 - Windows Azure Active Directory module pour Windows PowerShell (version 64 bits) ou (version 32 bits)
     
-- Teams PowerShell Module
+- Teams module PowerShell
     
 - Redémarrer si nécessaire
     

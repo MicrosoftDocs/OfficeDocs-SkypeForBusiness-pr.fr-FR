@@ -1,8 +1,8 @@
 ---
 title: Sélectionner un préfixe de lien hypertexte
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: Utilisez la boîte de dialogue Sélectionner un préfixe de lien hypertexte pour sélectionner les types de liens hypertexte que vous souhaitez bloquer, envoyer un message d’avertissement ou autoriser en sélectionnant (pour bloquer ou envoyer un message d’avertissement) ou en effaquant (pour autoriser) les cases à cocher de leurs extensions à partir des catégories sous préfixes hypertexte. Cliquez sur la flèche pour développer une catégorie et afficher tous les préfixes de lien hypertexte de cette catégorie. Si vous souhaitez sélectionner tous les préfixes de lien hypertexte pour une catégorie, sélectionnez le nom de la catégorie.
-ms.openlocfilehash: 3478be81c80bc8f566b21611fd143bb3c057d468
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c0751758e02fb0a413600a3c520fe7891737c896
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842987"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399198"
 ---
 # <a name="select-hyperlink-prefix"></a>Sélectionner un préfixe de lien hypertexte
  
-Utilisez la boîte de dialogue Sélectionner un **préfixe** de lien hypertexte pour sélectionner les types de liens hypertexte que vous souhaitez bloquer, envoyer un message d’avertissement ou autoriser en sélectionnant (pour bloquer ou envoyer un message d’avertissement) ou en effaquant (pour autoriser) les cases à cocher de leurs extensions à partir des catégories sous préfixes de lien **hypertexte**. Cliquez sur la flèche pour développer une catégorie et afficher tous les préfixes de lien hypertexte de cette catégorie. Si vous souhaitez sélectionner tous les préfixes de lien hypertexte pour une catégorie, sélectionnez le nom de la catégorie. 
+Utilisez la boîte de dialogue Sélectionner un **préfixe** de lien hypertexte pour sélectionner les types de liens hypertexte que vous souhaitez bloquer, envoyer un message d’avertissement ou autoriser en sélectionnant (pour bloquer ou envoyer un message d’avertissement) ou en effaquant (pour autoriser) les cases à cocher de leurs extensions à partir des catégories sous **préfixes hypertexte**. Cliquez sur la flèche pour développer une catégorie et afficher tous les préfixes de lien hypertexte de cette catégorie. Si vous souhaitez sélectionner tous les préfixes de lien hypertexte pour une catégorie, sélectionnez le nom de la catégorie. 
   
-Si vous ne voyez pas de préfixe de lien hypertexte à sélectionner dans les **préfixes** de lien hypertexte, tapez l’extension dans la zone de texte sous Ajouter de nouveaux préfixes de lien **hypertexte** à la liste, puis cliquez sur Ajouter **.** 
+Si vous ne voyez pas de préfixe de lien hypertexte à sélectionner dans les **préfixes** de lien hypertexte, tapez l’extension dans la zone de texte sous Ajouter de nouveaux **préfixes de lien hypertexte** à la liste, puis cliquez sur **Ajouter.** 
   
-Une fois que vous avez ajouté tous les préfixes de lien hypertexte que vous souhaitez à la liste des préfixes de lien **hypertexte** sélectionnés, cliquez sur **OK**.
+Une fois que vous avez ajouté tous les préfixes de lien hypertexte que vous souhaitez à la liste des **préfixes de lien hypertexte** sélectionnés, cliquez sur **OK**.
   
 Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de Skype Entreprise Server, voir [Manage Skype Entreprise Server 2015](../../manage/manage.md).
   

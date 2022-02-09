@@ -1,8 +1,8 @@
 ---
 title: Configuration matérielle et logicielle requise pour le serveur de conversation permanente Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/19/2018
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 'Résumé : Consultez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour le serveur de conversation permanente Skype Entreprise Server 2015.'
-ms.openlocfilehash: d911cdeb3aefddbf37d8857e86207fe84c4dce98
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a9cb5b51bc364334ef5f4a501d9467f7fd767340
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833288"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402748"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configuration matérielle et logicielle requise pour le serveur de conversation permanente Skype Entreprise Server 2015
  
-**Résumé :** Lisez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour le serveur de conversation permanente Skype Entreprise Server 2015.
+**Résumé :** Consultez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour le serveur de conversation permanente Skype Entreprise Server 2015.
   
 Le serveur de conversation permanente peut être installé avec Skype Entreprise Server 2015 Êdition Entreprise ou Édition Standard. Les exigences dépendent de l’édition Skype Entreprise Server 2015 que vous avez installée et des exigences de performances de votre entreprise. Êdition Entreprise pouvez prendre en charge jusqu’à 80 000 utilisateurs simultanés ; Édition Standard pouvez prendre en charge jusqu’à 20 000 utilisateurs simultanés. La conversation permanente se compose d’un composant frontal, ainsi que d’un composant principal SQL base de données.
   
@@ -41,7 +41,7 @@ Avant de déployer le serveur de conversation permanente, vous devez vous assure
 Les sections suivantes décrivent les exigences spécifiques pour le serveur de conversation permanente et la base de données qui stocke les données de conversation permanente.
 
 > [!NOTE] 
-> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
   
 ## <a name="front-end-server-requirements"></a>Conditions requises pour le serveur frontal
 
@@ -77,7 +77,7 @@ Sur le serveur de base de données, assurez-vous que l’une des applications lo
 
 ## <a name="persistent-chat-server-certificate-requirements"></a>Conditions requises pour les certificats du serveur de conversation permanente
 
-Pour plus d’informations sur l’acquisition de certificats, la création de la base de données SQL Server et la création de magasins de fichiers, voir [Deploy Skype Entreprise Server 2015](../../deploy/deploy.md). 
+Pour plus d’informations sur l’acquisition de certificats, la création SQL Server base de données et la création de magasins de fichiers, voir [Deploy Skype Entreprise Server 2015](../../deploy/deploy.md). 
   
 ## <a name="for-more-information"></a>Pour plus d'informations
 

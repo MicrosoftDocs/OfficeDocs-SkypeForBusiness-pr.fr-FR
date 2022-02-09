@@ -1,8 +1,8 @@
 ---
 title: Modifier la topologie dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Après avoir répondu aux questions initiales, vous pouvez modifier le nom de domaine complet (FQDN) et les adresses IP du site. Pour cela, sur la page Topologie globale, double-cliquez sur le site que vous souhaitez modifier.
-ms.openlocfilehash: 698f7e5e94666a67dd01c55a877a037452fd58e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ee6b78bb5ce14c7989104b057570f39f43f0937e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861191"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401808"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Modifier la topologie dans Skype Entreprise Server 2015
 
 Après avoir répondu aux questions initiales, vous pouvez modifier le nom de domaine complet (FQDN) et les adresses IP du site. Pour cela, sur la page **Topologie globale**, double-cliquez sur le site que vous souhaitez modifier.
 
-L’outil de planification affiche la topologie du site sélectionné. Le bas de la page du site comporte quatre onglets :
+L’outil de planification affiche la topologie de site pour le site sélectionné. Le bas de la page du site comporte quatre onglets :
 
 ![Topologie du site de l’outil de planification.](../../media/Planning_Tool_Site_Topology.png)
 
@@ -37,7 +37,7 @@ L’outil de planification affiche la topologie du site sélectionné. Le bas de
 
      ![Page Rapport d’administration Edge.](../../media/Planning_Tool_Summary_Report.png)
 
-  - Rapport de synthèse : rapport général sur les paramètres de configuration du réseau Edge. Si vous modifiez les valeurs de la **page** Réseau de réseau de périphérie en valeurs de topologie TCP/IP et FQDN qui seront utilisées dans le déploiement réel, ces adresses et noms seront représentés ici. Sinon, le texte par défaut s’affiche.
+  - Rapport de synthèse : rapport général sur les paramètres de configuration du réseau Edge. Si vous modifiez les valeurs de **la page Réseau** de réseau de périphérie en valeurs de topologie TCP/IP et FQDN qui seront utilisées dans le déploiement réel, ces adresses et noms seront représentés ici. Sinon, le texte par défaut s’affiche.
 
   - Rapport de certificat : le rapport de certificats indique le nom du sujet et les autres noms du sujet pour les certificats requis pour la topologie.
 
@@ -45,7 +45,7 @@ L’outil de planification affiche la topologie du site sélectionné. Le bas de
 
   - Rapport DNS : le rapport DNS répertorie les informations pertinentes pour les entrées DNS que vous devez créer. Il s’agit du type d’enregistrement, du nom de domaine complet, de l’adresse IP et de commentaires nécessaires pour le bon fonctionnement du déploiement.
 
-- Résumé du site : le résumé du site présente une vue d’ensemble des sélections que vous avez réalisées en répondant aux questions initiales ou en remplissant les valeurs des sites de **conception.** Des informations sur la capacité sont également présentées.
+- Résumé du site : le résumé du site présente une vue d’ensemble des sélections que vous avez réalisées en répondant aux questions initiales ou en remplissant les valeurs des **sites de conception**. Des informations sur la capacité sont également présentées.
 
     > [!NOTE]
     > Les informations sur la page Résumé du site sont propres à chaque conception. Par conséquent, certaines sections et informations détaillées ici peuvent ne pas apparaître pour certaines conceptions.
@@ -73,13 +73,13 @@ Une fonction utile de l’outil de planification est la possibilité d’affecte
 
 2. Par exemple, la valeur de départ du premier serveur est fe0101.contoso.com et l’adresse IP 192.168.21.122.
 
-3. Tapez fe0.contoso.com dans le **FQDN** du serveur frontal, tapez 192.168.21.131 dans l’adresse IP du serveur **frontal,** puis cliquez sur **OK.**
+3. Tapez fe0.contoso.com dans le nom de groupe du serveur **frontal,** tapez 192.168.21.131 dans l’adresse IP du serveur **frontal**, puis cliquez sur **OK**.
 
 4. La fonctionnalité d’incrémentation automatique met à jour tous les serveurs du pool vers fe01 à fe06, et toutes les adresses IP de 192.168.21.131 à 136.
 
 Une fois toutes les modifications terminées, enregistrez la topologie en effectuant les étapes suivantes :
 
-Pour enregistrer la conception de l’outil de planification, cliquez sur **Fichier,** puis sur Enregistrer la **topologie** ou **Enregistrer la topologie sous**. Si une boîte de dialogue **Enregistrer l’outil de planification sous le nom** s’affiche, tapez un nom pour le fichier dans **Nom du fichier**, puis cliquez sur **Enregistrer**.
+Pour enregistrer la conception de l’outil de planification, cliquez sur **Fichier**, puis sur Enregistrer la **topologie ou** **Enregistrer la topologie sous**. Si une boîte de dialogue **Enregistrer l’outil de planification sous le nom** s’affiche, tapez un nom pour le fichier dans **Nom du fichier**, puis cliquez sur **Enregistrer**.
 
 ## <a name="see-also"></a>Voir aussi
 <a name="Edit_Network_diagram"> </a>

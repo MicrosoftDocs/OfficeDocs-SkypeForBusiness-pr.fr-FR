@@ -1,8 +1,8 @@
 ---
 title: Rapport de distribution des mesures de qualité des médias Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: 'Résumé : Découvrez le rapport de distribution des mesures de qualité des médias dans Skype Entreprise Server.'
-ms.openlocfilehash: 00899681190e532af971c719c2e81f655facf7ab
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 745f88a6943d9d369a104bf4bc42ffaa68138811
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862311"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409967"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Rapport de distribution des mesures de qualité des médias Skype Entreprise Server 
  
@@ -42,7 +42,7 @@ La moyenne de ces allers-retours est de 500 millisecondes (5 000 divisé par 10)
   
 En réalité, 90 % de vos appels ont connu d’excellents allers-retours . vous n’avez eu qu’un seul appel de mauvaise qualité qui a biaisé les résultats globaux. Si vous regardez uniquement la durée moyenne des allers-retours, vous risquez de tirer une conclusion très erronée.
   
-Le rapport de distribution des mesures de qualité des médias vous permet d’éviter de tirer de mauvaises conclusions en vous présentant une distribution graphique d’une mesure spécifiée (par exemple, durée de l’aller-retour). Ces graphiques peuvent vous aider à comprendre que vous avez reçu neuf très bons appels et un appel très mauvais. Certes, il se peut que vous vouliez toujours examiner cet appel plus en détail . Toutefois, le fait que 9 des 10 appels ont été très bons suggère qu’il n’y a aucune raison d’apporter des modifications radicales à votre réseau, du moins pas à ce stade.
+Le rapport de distribution des mesures de qualité des médias vous permet d’éviter de tirer de mauvaises conclusions en vous présentant une distribution graphique d’une mesure spécifiée (par exemple, durée d’aller-retour). Ces graphiques peuvent vous aider à comprendre que vous avez reçu neuf bons appels et un appel très mauvais. Certes, il se peut que vous vouliez toujours examiner cet appel plus en détail . Toutefois, le fait que 9 des 10 appels ont été très bons suggère qu’il n’y a aucune raison d’apporter des modifications radicales à votre réseau, du moins pas à ce stade.
   
 ## <a name="filters"></a>Filtres
 

@@ -1,7 +1,7 @@
 ---
 title: Disponibilité au Koweït
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise et Microsoft Teams koweït.
-ms.openlocfilehash: 831893bc5a77525d8e46bae6cd61c1aa3e29c4e7
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 819a163d4c57cbe56a73012045f226531d4718e2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190665"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400108"
 ---
 # <a name="availability-in-kuwait"></a>Disponibilité au Koweït
 
@@ -62,7 +62,7 @@ Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
 
-Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les options de [connectivité PSTN](../pstn-connectivity.md) pour toutes les options disponibles.
+Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les [options de connectivité PSTN](../pstn-connectivity.md) pour toutes les options disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 

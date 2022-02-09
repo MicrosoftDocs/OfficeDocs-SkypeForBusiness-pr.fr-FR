@@ -1,8 +1,8 @@
 ---
 title: Skype Entreprise Server 2015 Stress and Performance Tool
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 4/6/2016
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: L Skype Entreprise Server 2015 Stress and Performance Tool est utilisé lors de la planification de la capacité et de l’optimisation des performances dans les environnements de non-production ou de test.
-ms.openlocfilehash: 140ca0d169c9863fe3104837dae294ee49bc0f48
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b8858d4aa9ca0b31bd53489c505181e34af9cf4f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839856"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396306"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype Entreprise Server 2015 Stress and Performance Tool
  
@@ -33,7 +33,7 @@ L Skype Entreprise Server 2015 Stress and Performance Tool inclut des outils qui
     
 - Mesurer les performances de vos déploiements Skype Entreprise Server déploiements
     
-En règle générale, vous utilisez cet outil après avoir utilisé l’outil de planification [Skype Entreprise Server 2015](../../management-tools/planning-tool/planning-tool.md) pour concevoir la topologie et affiner la topologie avec la calculatrice de planification de capacité [Skype Entreprise Server 2015.](../../management-tools/capacity-planning-calculator.md) 
+En règle générale, vous utilisez cet outil après avoir utilisé l’outil de planification [Skype Entreprise Server 2015](../../management-tools/planning-tool/planning-tool.md) pour concevoir la topologie et affiner la topologie avec la calculatrice de planification de capacité [Skype Entreprise Server 2015](../../management-tools/capacity-planning-calculator.md). 
 
 > [!NOTE]
 > Cet outil ne sera pas mis à jour Skype Entreprise Server 2019.
@@ -74,10 +74,10 @@ Pour en savoir plus, vous devez consulter les articles suivants :
     
   - [Mise en service de la topologie pour exécuter la charge dans les scénarios de contrainte et de performances](provisioning-the-topology-to-run-load.md)
     
-  - [Configuration des stratégies pour l Skype Entreprise Server 2015 Stress and Performance Tool](configuring-policies.md)
+  - [Configuration des stratégies pour Skype Entreprise Server 2015 Stress and Performance Tool](configuring-policies.md)
     
 - [Utilisation de l Skype Entreprise Server 2015 Stress and Performance Tool](using-the-tool.md)
     
-- [FAQ sur l Skype Entreprise Server 2015 Stress and Performance Tool](faq.md)
+- [FAQ sur l’outil Skype Entreprise Server stress and performance 2015](faq.md)
     
 

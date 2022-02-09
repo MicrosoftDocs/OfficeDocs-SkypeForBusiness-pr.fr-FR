@@ -1,8 +1,8 @@
 ---
 title: Rapport d’inventaire Téléphone IP dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: 'Résumé : Découvrez le rapport d’inventaire Téléphone ip dans Skype Entreprise Server.'
-ms.openlocfilehash: 9a09bc76d77c2290ab8e0f0c08fce79c2766e3a0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: be0929918909755865c524e63af47afb014de93e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862461"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410027"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Rapport d’inventaire Téléphone IP dans Skype Entreprise Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "60862461"
   
 Le Rapport d’inventaire de téléphonie IP fournit des informations sur les téléphones IP en cours d’utilisation dans votre organisation. Il offre une liste détaillée des téléphones IP qui ont été utilisées durant la période de rapport spécifiée. Entre autres choses, il permet aux administrateurs de savoir s’il existe des téléphones obsolètes qui doivent être remplacés. Il peut également les alerter quant à la présence de téléphones coûteux rarement utilisés. Ce type d’informations peut être précieux dans le cadre de l’achat de nouveaux téléphones ou de la redistribution des téléphones existants (par exemple, il peut être demandé à un utilisateur qui n’utilise son téléphone coûteux que très rarement de l’échanger avec un autre utilisateur qui utilise le sien beaucoup plus fréquemment).
   
-Notez que ce rapport présente quelques limitations lorsqu’il s’agit d’être utilisé comme véritable rapport d’inventaire. D’une part, le rapport de Téléphone IP répertorie simplement tous les téléphones qui se sont connectés à Skype Entreprise Server pendant la période spécifiée, triés par heure de dernière session. Si un téléphone n’a pas ouvert de session pendant la période spécifiée, il n’est pas répertorié dans le rapport d’inventaire. Cela inclut les téléphones qui se sont connectés avant le début de la période et qui étaient toujours connectés pendant l’intervalle de temps spécifié. Par exemple, supposons que vous vouliez examiner tout l’inventaire téléphonique de juillet 2015. Supposons également que plusieurs téléphones se sont connectés à Skype Entreprise Server le 30 juin 2015 et qu’ils étaient toujours connectés depuis le 1er juillet. Ces téléphones ne s’afficheront pas dans le rapport d’inventaire du 1er juillet.
+Notez que ce rapport présente quelques limitations lorsqu’il s’agit d’être utilisé comme véritable rapport d’inventaire. D’une part, le rapport de Téléphone IP répertorie simplement tous les téléphones qui se sont connectés à Skype Entreprise Server pendant la période spécifiée, triés par heure de dernière session. Si un téléphone n’a pas ouvert de session pendant la période spécifiée, il n’est pas répertorié dans le rapport d’inventaire. Cela inclut les téléphones qui se sont connectés avant le début de la période et qui étaient encore connectés pendant l’intervalle de temps spécifié. Par exemple, supposons que vous vouliez examiner tout l’inventaire téléphonique de juillet 2015. Supposons également que plusieurs téléphones se sont connectés à Skype Entreprise Server le 30 juin 2015 et qu’ils étaient toujours connectés depuis le 1er juillet. Ces téléphones ne s’afficheront pas dans le rapport d’inventaire du 1er juillet.
   
 Il convient également de noter que le rapport d’inventaire pourrait inclure des téléphones que votre organisation n’utilise plus. Par exemple, supposons qu’un certain nombre de téléphones Fabrikam se sont connectés au système le 1er juillet 2015 ; 5 jours plus tard, votre organisation s’est débarrasser de tous ces téléphones Fabrikam et les a remplacés par un modèle Contoso plus nouveau. Les téléphones Fabrikam apparaîtront tout de même dans le rapport d’inventaire simplement du fait qu’ils se sont connectés au système durant le mois de juillet.
   

@@ -1,8 +1,8 @@
 ---
 title: Configurer des stratégies d’archivage pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer des stratégies d’archivage initiales pour Skype Entreprise Server utilisateurs.'
-ms.openlocfilehash: 96d53ae71a8faa72c5dcdc3816c09c1b6d492e67
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6e50f40aa91a26af8833ec7f330b14a9354d6b8b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853788"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399428"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>Configurer des stratégies d’archivage pour Skype Entreprise Server
  
@@ -31,15 +31,15 @@ Dans Skype Entreprise Server, vous utilisez des stratégies pour activer et dés
     
 - Stratégies facultatives au niveau de l’utilisateur qui spécifient la façon dont l’archivage est implémenté pour des utilisateurs spécifiques
     
-Vous définissez initialement les stratégies d’archivage lorsque vous déployez l’archivage, mais vous pouvez modifier, ajouter et supprimer des stratégies après le déploiement. Dans Skype Entreprise Server de contrôle d’archivage, vous pouvez utiliser  la **page** Stratégie d’archivage du groupe Archivage et surveillance pour gérer les stratégies au niveau global, du site et de l’utilisateur.
+Vous définissez initialement les stratégies d’archivage lorsque vous déployez l’archivage, mais vous pouvez modifier, ajouter et supprimer des stratégies après le déploiement. Dans Skype Entreprise Server de contrôle d’archivage, vous pouvez utiliser **la page Stratégie** d’archivage du  groupe Archivage et surveillance pour gérer les stratégies au niveau global, du site et de l’utilisateur.
   
 > [!NOTE]
-> Pour contrôler l’implémentation de l’archivage, vous devez spécifier des options, telles que l’archivage de la messagerie instantanée ou de la conférence, l’utilisation du mode critique et les options de purge. Par défaut, aucune option n’est activée dans la configuration d’archivage globale ou dans toute configuration d’archivage de site ou de pool. Vous devez spécifier toutes les options appropriées avant d’activer l’archivage pour les communications internes ou externes. Pour plus d’informations, [voir Configure archiving options for Skype Entreprise Server](configure-archiving-options.md). 
+> Pour contrôler l’implémentation de l’archivage, vous devez spécifier des options, telles que l’archivage de la messagerie instantanée ou de la conférence, l’utilisation du mode critique et les options de  purge. Par défaut, aucune option n’est activée dans la configuration d’archivage globale ou dans toute configuration d’archivage de site ou de pool. Vous devez spécifier toutes les options appropriées avant d’activer l’archivage pour les communications internes ou externes. Pour plus d’informations, [voir Configure archiving options for Skype Entreprise Server](configure-archiving-options.md). 
   
 > [!NOTE]
 > Si vous activez l’intégration de Microsoft Exchange pour votre déploiement, les stratégies de Exchange In-Place Hold contrôlent si l’archivage est activé pour les utilisateurs qui sont Exchange et dont les boîtes aux lettres sont mises en In-Place. 
   
-Pour plus d’informations sur le fonctionnement des stratégies d’archivage, notamment la hiérarchie des stratégies globales, de site et utilisateur, voir Planifier l’archivage [dans Skype Entreprise Server](../../plan-your-deployment/archiving/archiving.md). Pour plus d’informations sur la gestion des stratégies après le déploiement, voir Gérer les stratégies d’archivage [dans Skype Entreprise Server](../../manage/archiving/policies.md).
+Pour plus d’informations sur le fonctionnement des stratégies d’archivage, notamment la hiérarchie des stratégies globales, de site et utilisateur, voir Planifier l’archivage [dans Skype Entreprise Server](../../plan-your-deployment/archiving/archiving.md). Pour plus d’informations sur la gestion des stratégies après le déploiement, voir Gérer les stratégies [d’archivage dans Skype Entreprise Server](../../manage/archiving/policies.md).
   
 ## <a name="global-policy"></a>Stratégie globale
 
@@ -59,7 +59,7 @@ Lorsque vous déployez vos serveurs frontux, Skype Entreprise Server crée une s
     
    - Dans **Nom**, si vous ne souhaitez pas utiliser le nom par défaut Global, spécifiez un nouveau nom pour la stratégie globale. 
     
-   - Dans **description,** fournissez des informations sur la stratégie (par exemple, stratégie globale pour  *divisionName*  .
+   - Dans **Description**, fournissez des informations sur la stratégie (par exemple, stratégie globale pour  *divisionName*  .
     
    - Afin de contrôler l’archivage des communications internes pour tous les sites et utilisateurs qui ne sont pas spécifiquement contrôlés via une stratégie de site ou une stratégie utilisateur, activez ou désactivez la case à cocher **Archiver les communications internes**.
     
@@ -134,10 +134,10 @@ Une stratégie utilisateur ne s’applique qu’aux utilisateurs auxquels vous a
     
 4. Dans le tableau répertoriant les résultats de la recherche, cliquez sur le compte d’utilisateur, sur **Modifier**, puis sur **Afficher les détails**.
     
-5. Dans **Modifier Skype Entreprise Server’utilisateur sous** stratégie d’archivage, sélectionnez la stratégie utilisateur d’archivage que vous souhaitez appliquer. 
+5. Dans **Modifier Skype Entreprise Server utilisateur sous** stratégie d’archivage **,** sélectionnez la stratégie utilisateur d’archivage à appliquer.
     
     > [!NOTE]
-    > Les **\<Automatic\>** paramètres appliquent les paramètres d’installation du serveur par défaut. Ces paramètres sont appliqués automatiquement par le serveur.
+    > Les paramètres **\<Automatic\>** appliquent les paramètres d’installation du serveur par défaut. Ces paramètres sont appliqués automatiquement par le serveur.
   
 6. Cliquez sur **Valider**.
     

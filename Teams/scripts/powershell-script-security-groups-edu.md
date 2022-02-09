@@ -1,7 +1,7 @@
 ---
 title: Exemple de script PowerShell - Créer des groupes de sécurité pour les enseignants et les étudiants de votre établissement scolaire
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
@@ -17,35 +17,35 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 66255e4a8f26109a331446adb099054b1453c3c6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 79b73ac2001acfbb7424250c8c6c118808250459
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769852"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398388"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Exemple de script PowerShell - Créer des groupes de sécurité pour les enseignants et les étudiants de votre établissement scolaire
 
-Utilisez ce script PowerShell pour créer les groupes de sécurité que vous devez gérer Microsoft Teams de votre établissement scolaire. La [fonctionnalité d’affectation](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) de stratégie à des groupes Teams vous permet d’affecter une stratégie à un groupe d’utilisateurs, tel qu’un groupe de sécurité. L’affectations de stratégie est propagée aux membres du groupe en fonction de règles de priorité. Lorsque les membres sont ajoutés à un groupe ou supprimés de ceux-ci, leurs affectations de stratégie héritées sont mises à jour en conséquence.
+Utilisez ce script PowerShell pour créer les groupes de sécurité dont vous avez besoin pour Microsoft Teams stratégies de votre établissement scolaire. La [fonctionnalité d’affectation](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) de stratégie à des groupes Teams vous permet d’affecter une stratégie à un groupe d’utilisateurs, tel qu’un groupe de sécurité. L’affectations de stratégie est propagée aux membres du groupe en fonction de règles de priorité. Lorsque les membres sont ajoutés à un groupe ou supprimés de ceux-ci, leurs affectations de stratégie héritées sont mises à jour en conséquence.
 
-Ce script PowerShell crée deux groupes de sécurité, un pour le personnel et les enseignants, et l’autre pour les étudiants de votre établissement, sur la base du type de licence. Vous pouvez ensuite affecter des stratégies aux groupes de sécurité que vous avez créés. Pour plus d’informations sur l’utilisation de ce script, voir Attribuer des stratégies à un grand nombre [d’utilisateurs de votre établissement scolaire.](../batch-group-policy-assignment-edu.md)
+Ce script PowerShell crée deux groupes de sécurité, un pour le personnel et les enseignants, et l’autre pour les étudiants de votre établissement, sur la base du type de licence. Vous pouvez ensuite affecter des stratégies aux groupes de sécurité que vous avez créés. Pour plus d’informations sur l’utilisation de ce script, voir Attribuer des stratégies à un [grand nombre d’utilisateurs de votre établissement scolaire](../batch-group-policy-assignment-edu.md).
 
 Ce script suit :
 
 - Identifie le personnel et les enseignants affectés à une référence SKU pour les enseignants, crée un groupe de sécurité, puis ajoute le personnel et les enseignants au groupe.
-- Identifie les étudiants à qui une référence SKU est attribuée, crée un groupe de sécurité, puis ajoute les étudiants au groupe.
-- Met à jour l’appartenance à chaque groupe de sécurité pour ajouter ou supprimer du personnel, des enseignants et des étudiants en fonction de leur licence.
+- Identifie les étudiants affectés à une référence SKU étudiant, crée un groupe de sécurité, puis ajoute les étudiants au groupe.
+- Met à jour l’appartenance à chaque groupe de sécurité pour ajouter ou supprimer du personnel, des enseignants et des étudiants en fonction du fait qu’ils ont ou non une licence.
 
 Vous devrez exécuter ce script régulièrement pour maintenir les groupes de sécurité à jour.
 
 > [!IMPORTANT]
-> Il est important [](../assign-policies-users-and-groups.md#precedence-rules) de comprendre les règles de priorité et le [classement d’affectation](../assign-policies-users-and-groups.md#group-assignment-ranking) de groupe lors de l’attribution de stratégies à des groupes. Veillez à lire et à comprendre les concepts de ce que vous devez savoir sur l’affectation de [stratégies à des groupes.](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)
+> Il est important de comprendre les [](../assign-policies-users-and-groups.md#precedence-rules) règles de priorité et le classement [d’affectation](../assign-policies-users-and-groups.md#group-assignment-ranking) de groupe lors de l’attribution de stratégies à des groupes. Veillez à lire et à comprendre les concepts de ce que vous devez savoir sur l’affectation de stratégie [à des groupes](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups).
 
 ## <a name="before-you-start"></a>Avant de commencer
 
-Téléchargez et installez [le module Skype Entreprise PowerShell](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)online, puis redémarrez votre ordinateur si vous y êtes invité.
+Téléchargez et installez [le module Skype Entreprise PowerShell online](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell), puis redémarrez votre ordinateur si vous y êtes invité.
 
-Pour en savoir plus, voir [Gérer Skype Entreprise Online avec Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) et Teams [PowerShell.](../teams-powershell-overview.md)
+Pour en savoir plus, voir [Gérer Skype Entreprise Online avec Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) et [Teams PowerShell](../teams-powershell-overview.md).
 
 
 ## <a name="sample-script"></a>Exemple de script
@@ -273,6 +273,6 @@ else {
 Stop-Transcript
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Attribuer des stratégies à vos utilisateurs](../policy-assignment-overview.md)

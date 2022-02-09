@@ -1,8 +1,8 @@
 ---
 title: Créer ou modifier un plan de numérotation dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Résumé : Découvrez comment créer ou modifier un plan de numérotation à l’aide du Panneau de Skype Entreprise Server de numérotation.'
-ms.openlocfilehash: c5c4a819c21708f31fbe0bf4801900143d0d4538
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 527c31ea2589f4ee527fbacb2ce90791f844591b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864361"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399358"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Créer ou modifier un plan de numérotation dans Skype Entreprise Server
 
@@ -35,9 +35,9 @@ ms.locfileid: "60864361"
 
 3. Dans la page **Plan de numérotation**, cliquez sur **Nouveau**, puis sélectionnez une étendue pour le plan de numérotation :
 
-   - **Plan de numérotation de site** s’applique à tout un site, à l’exception des utilisateurs ou des groupes qui sont attribués au plan de numérotation d’un utilisateur. Si vous **sélectionnez Site pour** l’étendue d’un plan de numérotation, vous devez choisir le site dans la boîte de dialogue Sélectionner un **site.** Si un plan de numérotation a déjà été créé pour un site, le site n’apparaît pas dans la boîte de dialogue **Sélectionner un site**.
+   - **Plan de numérotation de site** s’applique à tout un site, à l’exception des utilisateurs ou des groupes qui sont attribués au plan de numérotation d’un utilisateur. Si vous **sélectionnez Site pour** l’étendue d’un plan de numérotation, vous devez choisir le site dans la boîte de dialogue Sélectionner **un site** . Si un plan de numérotation a déjà été créé pour un site, le site n’apparaît pas dans la boîte de dialogue **Sélectionner un site**.
 
-   - **Plan de numérotation du pool** peut s’appliquer à une passerelle de réseau téléphonique commuté (PSTN) ou à un serveur d’inscriptions. Si vous sélectionnez **Pool** pour l’étendue d’un plan de numérotation, choisissez la passerelle PSTN ou le bureau d’enregistrement dans la boîte de dialogue **Sélectionner un service.** Si un plan de numérotation a déjà été créé pour un service (passerelle PSTN ou serveur d’inscriptions), le service n’apparaît pas dans la liste.
+   - **Plan de numérotation du pool** peut s’appliquer à une passerelle de réseau téléphonique commuté (PSTN) ou à un serveur d’inscriptions. Si vous sélectionnez **Pool** pour l’étendue d’un plan de numérotation, choisissez la passerelle PSTN ou le bureau d’enregistrement dans la boîte de dialogue **Sélectionner un service** . Si un plan de numérotation a déjà été créé pour un service (passerelle PSTN ou serveur d’inscriptions), le service n’apparaît pas dans la liste.
 
    - **Plan de numérotation de l’utilisateur** peut s’appliquer à des utilisateurs ou des groupes spécifiques.
 
@@ -47,12 +47,12 @@ ms.locfileid: "60864361"
 4. Si vous créez le plan de numérotation d’un utilisateur, entrez un nom descriptif dans le champ **Nom** de la boîte de dialogue **Nouveau plan de numérotation**. Une fois enregistré, ce nom ne peut pas être modifié.
 
     > [!NOTE]
-    > Pour les plans  de numérotation de site, le champ Nom est prérepxé avec  le nom du site et ne peut pas être modifié.> Pour les plans de numérotation de pool, le champ Nom est prérepxé avec la passerelle PSTN ou le nom du bureau d’enregistrement et ne peut pas être modifié.
+    > Pour les plans de numérotation  de site, le champ Nom est prérepxé avec le nom du site et ne peut pas être modifié.>  Pour les plans de numérotation de pool, le champ Nom est prérepxé avec la passerelle PSTN ou le nom du bureau d’enregistrement et ne peut pas être modifié.
 
 5. Le champ **Nom simple** contient déjà le nom qui figure dans le champ **Nom**. Si vous le souhaitez, vous pouvez modifier ce champ pour spécifier un nom qui reflète mieux le site, le service ou l’utilisateur auquel le plan de numérotation s’applique.
 
    > [!IMPORTANT]
-   > Le **nom simple doit** être unique parmi tous les plans de numérotation de votre déploiement. Il ne peut pas comporter plus de 256 caractères Unicode, chacun d’entre eux étant un caractère alphabétique ou  numérique, un tiret (-), un point (.) ou un trait de soulignement (_).> Les caractères non pris en charge incluent des espaces et des caractères réservés tels que définis dans la norme RFC 3966 ( <http://www.ietf.org/rfc/rfc3966.txt> ). Les caractères réservés qui ne **sont pas pris** en charge dans le nom **simple** sont les suivants : > « ; » "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
+   > Le **nom simple doit** être unique parmi tous les plans de numérotation de votre déploiement. Il ne peut pas comporter plus de 256 caractères Unicode, chacun d’eux étant un caractère alphabétique ou numérique, un tiret (-), un point (.) ou un trait de soulignement (_).> Les caractères non pris en charge comprennent des espaces et des caractères réservés tels que définis dans la norme RFC 3966 (<http://www.ietf.org/rfc/rfc3966.txt>). Les caractères réservés qui ne **sont pas pris** en charge dans le nom **simple** sont les suivants : > « ; » "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
 
 6. (Facultatif) Dans le champ **Description**, vous pouvez taper des informations descriptives supplémentaires concernant le plan de numérotation.
 
@@ -68,7 +68,7 @@ ms.locfileid: "60864361"
 
 9. Associez et configurez les règles de normalisation du plan de numérotation comme suit :
 
-    - Pour choisir une ou plusieurs règles dans une liste de toutes les règles de normalisation disponibles dans votre déploiement Voix Entreprise, cliquez sur **Sélectionner.** Dans **Sélectionner des règles de normalisation**, sélectionnez les règles que vous voulez associer au plan de numérotation, puis cliquez sur **OK**.
+    - Pour choisir une ou plusieurs règles dans une liste de toutes les règles de normalisation disponibles dans votre déploiement Voix Entreprise, cliquez sur **Sélectionner**. Dans **Sélectionner des règles de normalisation**, sélectionnez les règles que vous voulez associer au plan de numérotation, puis cliquez sur **OK**.
 
    - Pour définir une nouvelle règle de normalisation et l’associer au plan de numérotation, cliquez sur **Nouveau**. Pour plus d’informations sur la définition d’une nouvelle règle, voir Créer ou modifier une règle de [normalisation dans Skype Entreprise](normalization-rules.md).
 
@@ -84,7 +84,7 @@ ms.locfileid: "60864361"
 10. Vérifiez que les règles de normalisation du plan de numérotation sont organisées dans l’ordre correct. Pour modifier la position d’une règle dans la liste, mettez en surbrillez le nom de la règle, puis cliquez sur la flèche vers le haut ou vers le bas.
 
     > [!IMPORTANT]
-    > Skype Entreprise Server parcourt la liste des règles de normalisation de haut en bas et utilise la première règle qui correspond au numéro composé. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives apparaissent au-dessus des règles moins restrictives. > la règle de normalisation **Conserver** tout le reste^(\d )$ par défaut correspond à n’importe quel nombre à {11} 11 chiffres. Par exemple, si vous ajoutez une règle de normalisation qui correspond à des nombres  à 11 chiffres qui commencent par 1425, assurez-vous que La règle Conserver tout est triée sous la règle la plus restrictive^(1425\d {7} )$.
+    > Skype Entreprise Server parcourt la liste des règles de normalisation de haut en bas et utilise la première règle qui correspond au numéro composé. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives apparaissent au-dessus des règles moins restrictives. > la règle de normalisation « **Conserver** tout » par défaut^(\d{11})$ correspond à n’importe quel nombre à 11 chiffres. Par exemple, si vous ajoutez une règle de normalisation qui correspond à des nombres à 11 chiffres qui commencent par 1425, assurez-vous que La règle Conserver tout est triée sous la règle la plus restrictive^(1425\d{7})$.
 
 11. (Facultatif) Entrez un numéro pour tester le plan de numérotation, puis cliquez sur **OK**. Les résultats du test apparaissent sous **Numéro composé à tester**.
 
@@ -111,7 +111,7 @@ ms.locfileid: "60864361"
 5. (Facultatif) Dans **Modifier un plan de numérotation**, modifiez le champ **Nom simple**, qui contient déjà le nom qui apparaît dans le champ **Nom**, pour spécifier un nom qui reflète mieux le site, le service ou l’utilisateur auquel le plan de numérotation s’applique.
 
     > [!IMPORTANT]
-    > Le **nom simple doit** être unique parmi tous les plans de numérotation dans le déploiement de Lync Server 2013. Il ne peut pas dépasser 256 caractères Unicode, chacun d’entre eux peut être un caractère alphabétique ou numérique, un trait d’union (-), un point (.), un signe plus (+) ou un trait de soulignement (_).> Les espaces ne sont pas autorisés dans le champ Nom **simple.**
+    > Le **nom simple doit** être unique parmi tous les plans de numérotation dans le déploiement de Lync Server 2013. Il ne peut pas dépasser 256 caractères Unicode, chacun d’eux peut être un caractère alphabétique ou numérique, un tiret (-), un point (.), un signe plus (+) ou un trait de soulignement (_).> les espaces ne sont pas autorisés dans le champ Nom **simple** .
 
 6. (Facultatif) Dans le champ **Description**, entrez des informations descriptives concernant le plan de numérotation.
 
@@ -127,7 +127,7 @@ ms.locfileid: "60864361"
 
 9. Associez et configurez les règles de normalisation du plan de numérotation :
 
-   - Pour choisir une ou plusieurs règles dans une liste de toutes les règles de normalisation disponibles dans votre déploiement Voix Entreprise, cliquez sur **Sélectionner.** Dans la boîte de dialogue **Sélectionner des règles de normalisation**, sélectionnez les règles que vous voulez associer au plan de numérotation, puis cliquez sur **OK**.
+   - Pour choisir une ou plusieurs règles dans une liste de toutes les règles de normalisation disponibles dans votre déploiement Voix Entreprise, cliquez sur **Sélectionner**. Dans la boîte de dialogue **Sélectionner des règles de normalisation**, sélectionnez les règles que vous voulez associer au plan de numérotation, puis cliquez sur **OK**.
 
    - Pour définir une nouvelle règle de normalisation et l’associer au plan de numérotation, cliquez sur **Nouveau**. Pour plus d’informations sur la définition d’une nouvelle règle, voir Créer ou modifier une règle de [normalisation dans Skype Entreprise](normalization-rules.md).
 
@@ -143,7 +143,7 @@ ms.locfileid: "60864361"
 10. Vérifiez que les règles de normalisation du plan de numérotation sont organisées dans l’ordre correct. Pour modifier la position d’une règle dans la liste, mettez en surbrillez le nom de la règle, puis cliquez sur la flèche vers le haut ou vers le bas.
 
     > [!IMPORTANT]
-    > Skype Entreprise Server parcourt la liste des règles de normalisation de haut en bas et utilise la première règle qui correspond au numéro composé. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives apparaissent au-dessus des règles moins restrictives. > la règle de normalisation **Conserver** tout le reste^(\d )$ par défaut correspond à n’importe quel nombre à {11} 11 chiffres. Si, par exemple, vous ajoutez une règle de normalisation qui correspond aux numéros à  11 chiffres qui commencent par 1425, assurez-vous que La règle Conserver tout est triée sous la règle la plus restrictive^(1425\d {7} )$ .
+    > Skype Entreprise Server parcourt la liste des règles de normalisation de haut en bas et utilise la première règle qui correspond au numéro composé. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives apparaissent au-dessus des règles moins restrictives. > la règle de normalisation « **Conserver** tout » par défaut^(\d{11})$ correspond à n’importe quel nombre à 11 chiffres. Si, par exemple, vous ajoutez une règle de normalisation qui correspond à des nombres à 11 chiffres qui commencent par 1425, assurez-vous que La règle Conserver tout est triée sous la règle la plus restrictive^(1425\d{7})$.
 
 11. (Facultatif) Entrez un numéro pour tester le plan de numérotation, puis cliquez sur **OK**. Les résultats du test apparaissent sous **Numéro composé à tester**.
 

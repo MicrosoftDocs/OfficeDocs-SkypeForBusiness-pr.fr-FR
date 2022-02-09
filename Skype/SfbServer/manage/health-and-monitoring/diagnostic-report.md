@@ -1,8 +1,8 @@
 ---
 title: Rapport de diagnostic dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 'Résumé : Découvrez le rapport de diagnostic dans Skype Entreprise Server.'
-ms.openlocfilehash: 6b04dfd74e13568e6d22448ad9160a874dd6f79b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9ab417619828f4c48695ce19d68a5d1bc0f91171
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855531"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397778"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Rapport de diagnostic dans Skype Entreprise Server
  
@@ -33,7 +33,7 @@ Le Rapport de diagnostic fournit des informations de diagnostic et de dépannage
     
 ## <a name="accessing-the-diagnostic-report"></a>Accès au Rapport de diagnostic
 
-Le rapport de diagnostic est accessible en cliquant sur la mesure Rapport de diagnostic (détail) dans le rapport détaillé de [session D’égal](peer-to-peer-session-detail-report.md) à égal dans Skype Entreprise Server ou le rapport détaillé de conférence.
+Le rapport de diagnostic est accessible en cliquant sur la mesure Rapport de diagnostic (détail) dans le rapport détaillé de [session P2E dans Skype Entreprise Server](peer-to-peer-session-detail-report.md) ou le rapport détaillé de conférence.
   
 ## <a name="filters"></a>Filtres
 
@@ -60,4 +60,4 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de dia
 |**Temps de connexion à la conférence (ms)** <br/> |Non  <br/> |Temps (en millisecondes) utilisé pour que l’utilisateur rejoigne la conférence.  <br/> |
 |**En-tête de diagnostic** <br/> |Non  <br/> |Description de l’ID de diagnostic.  <br/> |
    
-La liste des erreurs de diagnostic se trouve dans la [page En-tête Ms-Diagnostics.](/openspecs/office_protocols/ms-ocer/f6787b39-0842-43ca-94a2-6afadda5f0a3)
+Vous pouvez trouver la liste des erreurs de diagnostic dans la [page En-tête Ms-Diagnostics](/openspecs/office_protocols/ms-ocer/f6787b39-0842-43ca-94a2-6afadda5f0a3).

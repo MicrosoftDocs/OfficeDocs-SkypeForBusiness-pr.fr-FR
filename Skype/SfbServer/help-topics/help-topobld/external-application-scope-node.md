@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue d’une application externe
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: 'Ce nœud affiche le nom de domaine complet (FQDN) du pool, le paramètre de réplication et le pool du saut suivant pour ce pool d’applications fiables. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: cfa374b21d1e60fc658cd7fa6777d4890d6bbfec
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 69eb1698925a9c3c4738e669c80b46b5db1b977f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860241"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404006"
 ---
 # <a name="external-application-scope-node"></a>Nœud d’étendue d’une application externe
  
@@ -28,7 +28,7 @@ Ce nœud affiche le nom de domaine complet (FQDN) du pool, le paramètre de rép
   
 - **Nouveau serveur**. Démarre **l’Assistant Définir un** nouveau serveur, que vous pouvez utiliser pour ajouter un autre serveur à ce pool d’applications fiables.
     
-- **Modifier les propriétés** Ouvre la **page** Modifier les propriétés de ce serveur, dans laquelle vous pouvez définir le nom de pool interne et externe et le port, activer et désactiver la fédération et la traduction d’adresses réseau (NAT) et spécifier le pool du saut suivant.
+- **Modifier les propriétés** Ouvre **la page Modifier** les propriétés de ce serveur, dans laquelle vous pouvez définir le nom de pool interne et externe et le port, activer et désactiver la fédération et la traduction d’adresses réseau (NAT) et spécifier le pool du saut suivant.
     
 - **Supprimer**. Supprime le pool de la topologie.
     

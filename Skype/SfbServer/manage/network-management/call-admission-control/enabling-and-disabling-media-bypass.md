@@ -1,8 +1,8 @@
 ---
 title: Activation et désactivation du contournement de média
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Utilisez les procédures de cet article pour activer ou désactiver le contournement de média à l’aide du Skype Entreprise Server de contrôle.
-ms.openlocfilehash: e8465d376e32d677d52cb0bdb57e86d9aa9fac44
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d312e74c796b9e68558447c5a56fc199e8920d6a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851998"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396486"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Activation et désactivation du contournement de média dans Skype Entreprise Server
 
@@ -24,7 +24,7 @@ Utilisez les procédures de cet article pour activer ou désactiver le contourne
 
 ## <a name="enable-network-media-bypass"></a>Activer le contournement de média réseau 
 
-Les paramètres de déviation du média s’appliquent globalement à un déploiement Skype Entreprise Server de média. La déviation du média permet aux appels de contourner le serveur de médiation. Pour plus d’informations sur l’utilisation du contournement de média, voir [Plan for media bypass](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
+Les paramètres de déviation du média s’appliquent globalement à un Skype Entreprise Server déploiement. La déviation du média permet aux appels de contourner le serveur de médiation. Pour plus d’informations sur l’utilisation du contournement de média, voir [Plan for media bypass](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
 
 Vous pouvez activer et configurer le contournement de média à partir Skype Entreprise Server panneau de configuration.
 
@@ -35,13 +35,13 @@ Vous pouvez activer et configurer le contournement de média à partir Skype Ent
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Global**.
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Global**.
 
 4.  Dans la page **Globale**, cliquez sur la configuration **Globale**. Il n’existe toujours qu’une seule configuration, qui se nomme toujours Globale.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-6.  Dans la page **Modifier les paramètres globaux,** activez la case à cocher Activer le **contournement de** média.
+6.  Dans la page **Modifier les paramètres globaux** , activez la case à cocher Activer la déviation **du** média.
 
 7.  Sélectionnez l’une des options suivantes :
     
@@ -49,7 +49,7 @@ Vous pouvez activer et configurer le contournement de média à partir Skype Ent
         
           - Il n’est pas nécessaire de contrôler la bande passante.
         
-          - La configuration fine n’est pas nécessaire pour déterminer quand le contournement doit se produire.
+          - La configuration fine n’est pas nécessaire pour déterminer à quel moment le contournement doit se produire.
         
           - Il existe une connectivité complète entre les passerelles et les clients.
     
@@ -60,7 +60,7 @@ Vous pouvez activer et configurer le contournement de média à partir Skype Ent
 
 ## <a name="disable-network-media-bypass"></a>Désactiver le contournement de média réseau
 
-Les paramètres de déviation du média s’appliquent globalement à un déploiement Skype Entreprise Server de média. La déviation du média permet aux appels de contourner le serveur de médiation. Pour plus d’informations sur l’utilisation du contournement de média, voir [Plan for media bypass](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). Vous pouvez désactiver le contournement de média à partir du Panneau Skype Entreprise Server de contrôle. 
+Les paramètres de déviation du média s’appliquent globalement à un Skype Entreprise Server déploiement. La déviation du média permet aux appels de contourner le serveur de médiation. Pour plus d’informations sur l’utilisation du contournement de média, voir [Plan for media bypass](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). Vous pouvez désactiver le contournement de média à partir du Panneau de Skype Entreprise Server de contrôle. 
 
 
 ### <a name="to-disable-media-bypass"></a>Pour désactiver le contournement de média
@@ -69,7 +69,7 @@ Les paramètres de déviation du média s’appliquent globalement à un déploi
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Global**.
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Global**.
 
 4.  Dans la page **Globale**, cliquez sur la configuration **Globale**. Il n’existe toujours qu’une seule configuration, qui se nomme toujours Globale.
 

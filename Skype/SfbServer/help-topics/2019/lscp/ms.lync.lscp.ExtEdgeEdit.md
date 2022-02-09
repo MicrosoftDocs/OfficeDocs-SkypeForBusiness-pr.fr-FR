@@ -1,8 +1,8 @@
 ---
 title: Modification de la configuration du edge d’accès
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 1f864779e2dde3ea1c85d175a5b370f6e4cfe069
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 84128c87928249bf355a0ec51cffd84ee01a711d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841816"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404286"
 ---
 # <a name="access-edge-configuration-edit"></a>Configuration du serveur Microsoft Edge d’accès : modification
 

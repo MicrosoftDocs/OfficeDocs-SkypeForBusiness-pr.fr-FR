@@ -1,8 +1,8 @@
 ---
 title: Gestion du contrôle d’admission des appels pour les sites
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Les sites réseau sont les bureaux ou emplacements au sein de chaque région réseau des déploiements du service Contrôle d’admission des appels, du service E9-1-1 ou du contournement de médias.
-ms.openlocfilehash: 51c026aa9b169b93b6585554613083a480599d60
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a178839fb87e47dda874d22d13e5da799f80cbff
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846397"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402918"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Gestion du contrôle d’admission des appels pour les sites dans Skype Entreprise Server
 
@@ -24,19 +24,19 @@ Les sites réseau sont les bureaux ou emplacements au sein de chaque région ré
 
 ## <a name="configure-network-site-links"></a>Configurer des liens de sites réseau
 
-Dans une configuration de contrôle d’admission des appels, vous pouvez créer des stratégies intersessants réseau qui définissent des limites de bande passante entre les sites qui sont directement liés. Quand des sites de réseau partagent un lien direct, des restrictions de bande passante pour les connexions audio et vidéo peuvent être définies pour lesdits sites. Vous ne pouvez pas utiliser le Panneau de configuration Skype Entreprise Server pour configurer des stratégies de site réseau. Pour ce faire, vous pouvez uniquement utiliser les cmdlets de Skype Entreprise Server Management Shell. Vous pouvez créer, modifier et supprimer un lien de site réseau (également appelé stratégie intersessant réseau) à partir de Skype Entreprise Server Management Shell.
+Dans une configuration de contrôle d’admission des appels (CAC), vous pouvez créer des stratégies réseau intersessant qui définissent des limites de bande passante entre les sites qui sont directement liés. Quand des sites de réseau partagent un lien direct, des restrictions de bande passante pour les connexions audio et vidéo peuvent être définies pour lesdits sites. Vous ne pouvez pas utiliser le Panneau de configuration Skype Entreprise Server pour configurer des stratégies de site réseau. Pour ce faire, vous pouvez uniquement utiliser les cmdlets de Skype Entreprise Server Management Shell. Vous pouvez créer, modifier et supprimer un lien de site réseau (également appelé stratégie intersessant réseau) à partir de Skype Entreprise Server Management Shell.
 
 ### <a name="to-create-a-network-site-link"></a>Pour créer un lien de site réseau
 
 1.  Connectez-vous à l’ordinateur sur lequel Skype Entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires.
 
-2.  Démarrez l Skype Entreprise Server Management Shell : cliquez sur Démarrer, sur Tous les **programmes,** sur **Skype Entreprise Server,** puis sur Skype Entreprise Server **Management Shell.**
+2.  Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise Server**, puis sur Skype Entreprise Server **Management Shell**.
 
 3.  À l’invite de commandes, tapez la commande suivante en spécifiant les valeurs valides pour votre configuration :
     
      **New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits**
     
-    Cet exemple crée un lien de site réseau nommé Reno Portland qui définit des limites de bande passante entre les sites réseau \_ Reno et Portland. Les sites réseau et le profil de stratégie de bande passante doivent être existants avant d’exécuter cette commande.
+    Cet exemple crée un lien de site réseau nommé RenoPortland\_ qui définit des limites de bande passante entre les sites réseau Reno et Portland. Les sites réseau et le profil de stratégie de bande passante doivent être existants avant d’exécuter cette commande.
 
 Pour obtenir des descriptions détaillées des paramètres, voir [New-CsNetworkInterSitePolicy](/powershell/module/skype/New-CsNetworkInterSitePolicy). Pour récupérer une liste des profils de stratégie de bande passante pouvant être appliqués au lien de site réseau, appelez l’applet de commande **Get-CsNetworkBandwidthPolicyProfile**. Pour plus d’informations, [voir Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile).
 
@@ -44,9 +44,9 @@ Pour obtenir des descriptions détaillées des paramètres, voir [New-CsNetworkI
 
 1.  Connectez-vous à l’ordinateur sur lequel Skype Entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires.
 
-2.  Démarrez l Skype Entreprise Server Management Shell : cliquez sur Démarrer, sur Tous les **programmes,** sur **Skype Entreprise Server,** puis sur Skype Entreprise Server **Management Shell.**
+2.  Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise Server**, puis sur Skype Entreprise Server **Management Shell**.
 
-3.  Utilisez l’applet de commande **Set-CsNetworkInterSitePolicy** pour modifier les propriétés d’un lien de site réseau donné. Vous pouvez modifier l’un ou l’autre des sites connectés, ou les deux, ainsi que le profil de stratégie de bande passante associé au lien. Voici un exemple de modification du profil de stratégie de bande passante d’un lien de site nommé Reno \_ Portland :
+3.  Utilisez l’applet de commande **Set-CsNetworkInterSitePolicy** pour modifier les propriétés d’un lien de site réseau donné. Vous pouvez modifier l’un ou l’autre des sites connectés, ou les deux, ainsi que le profil de stratégie de bande passante associé au lien. Voici un exemple de modification du profil de stratégie de bande passante d’un lien de site nommé RenoPortland\_ :
     
     **Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits**
 
@@ -57,9 +57,9 @@ Pour obtenir des descriptions détaillées des paramètres, voir [Set-CsNetworkI
 
 1.  Connectez-vous à l’ordinateur sur lequel Skype Entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires.
 
-2.  Démarrez l Skype Entreprise Server Management Shell : cliquez sur Démarrer, sur Tous les **programmes,** sur **Skype Entreprise Server,** puis sur Skype Entreprise Server **Management Shell.**
+2.  Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise Server**, puis sur Skype Entreprise Server **Management Shell**.
 
-3.  Utilisez l’applet de commande **Remove-CsNetworkInterSitePolicy** pour supprimer un lien de site réseau. L’exemple suivant supprime le lien de site réseau Reno \_ Portland :
+3.  Utilisez l’applet de commande **Remove-CsNetworkInterSitePolicy** pour supprimer un lien de site réseau. L’exemple suivant supprime le lien de site réseau RenoPortland\_ :
     
     **Remove-CsNetworkInterSitePolicy -Identity Reno_Portland**
 
@@ -76,7 +76,7 @@ Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Site.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Site**.
 
 4.  Dans la page **Site**, cliquez sur le site que vous souhaitez afficher.
  
@@ -119,7 +119,7 @@ Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Site.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Site**.
 
 4.  Dans la page **Site**, cliquez sur **Nouveau**.
 
@@ -133,7 +133,7 @@ Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque
 7.  (Facultatif) Si vous voulez imposer sur ce site des limitations de bande passante aux appels audio ou vidéo, sélectionnez le profil de stratégie de bande passante adéquat dans la liste déroulante **Stratégie de bande passante**.
  
     > [!NOTE]  
-    > Vous pouvez afficher les détails des profils de stratégie de bande passante disponibles ou créer un profil de stratégie de bande passante dans la page **Profil** de stratégie du **groupe Configuration** du réseau. Pour plus d’informations, voir [Gestion des profils de stratégie de bande passante réseau.](managing-network-bandwidth-policy-profiles.md)
+    > Vous pouvez afficher les détails des profils de stratégie de bande passante disponibles ou créer un profil de stratégie de bande passante dans la page **Profil** de stratégie du **groupe Configuration** du réseau. Pour plus d’informations, voir [Gestion des profils de stratégie de bande passante réseau](managing-network-bandwidth-policy-profiles.md).
 
 8.  (Facultatif) Si vous voulez spécifier des paramètres d’emplacement pour ce site, sélectionnez une stratégie d’emplacement dans la liste déroulante **Stratégie d’emplacement**.
 
@@ -145,7 +145,7 @@ Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque
 10. Cliquez sur **Valider**.
 
     > [!NOTE]  
-    > Lors de la création d’un site réseau, vous n’utilisez pas la table **Sous-réseaux associés**. Vous associez un sous-réseau à un site lorsque vous créez ou modifiez le sous-réseau. Pour plus d’informations, voir [Gestion des sous-réseaux.](managing-network-subnets.md)
+    > Lors de la création d’un site réseau, vous n’utilisez pas la table **Sous-réseaux associés**. Vous associez un sous-réseau à un site lorsque vous créez ou modifiez le sous-réseau. Pour plus d’informations, voir [Gestion des sous-réseaux réseau](managing-network-subnets.md).
 
 ### <a name="to-modify-a-network-site"></a>Pour modifier un site réseau
 
@@ -153,13 +153,13 @@ Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Site.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Site**.
 
 4.  Dans la page **Site**, cliquez sur le site que vous souhaitez modifier.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-6.  Dans la page **Modifier le site**, vous pouvez modifier la description, la région, le profil de la stratégie de bande passante et la stratégie d’emplacement associés au site. Pour plus d’informations, voir [Pour créer un site réseau ci-dessus.](#to-create-a-network-site)
+6.  Dans la page **Modifier le site**, vous pouvez modifier la description, la région, le profil de la stratégie de bande passante et la stratégie d’emplacement associés au site. Pour plus d’informations, voir [Pour créer un site réseau ci-dessus](#to-create-a-network-site) .
 
 7.  Cliquez sur **Valider**.
 
@@ -168,7 +168,7 @@ Vous ne pouvez pas modifier la table **Sous-réseaux associés** de cette page. 
 
 ## <a name="delete-an-existing-network-site"></a>Supprimer un site réseau existant
 
-Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque région d’un contrôle d’admission des appels (Call Admission Control ou CAC) ou encore d’un déploiement Enhanced 9-1-1. Vous pouvez utiliser le Panneau de configuration Skype Entreprise Server pour configurer des sites et les associer à des régions. Par exemple, vous pouvez associer la région réseau Amérique du Nord à des sites réseau, tels que Chicago, Redmond et Vancouver. Un site réseau CAC doit être créé pour chaque site dans l’organisation, même en l’absence de limitation de bande passante pour ce site. À partir Skype Entreprise Server panneau de bord, vous pouvez créer, modifier et supprimer des sites réseau. Utilisez la procédure suivante pour supprimer un site réseau existant. Pour plus d’informations sur la création ou la modification de sites réseau, voir Gestion du contrôle [d’admission des appels pour les sites.](managing-call-admission-control-for-sites.md)
+Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque région d’un contrôle d’admission des appels (Call Admission Control ou CAC) ou encore d’un déploiement Enhanced 9-1-1. Vous pouvez utiliser le Panneau de configuration Skype Entreprise Server pour configurer des sites et les associer à des régions. Par exemple, vous pouvez associer la région réseau Amérique du Nord à des sites réseau, tels que Chicago, Redmond et Vancouver. Un site réseau CAC doit être créé pour chaque site dans l’organisation, même en l’absence de limitation de bande passante pour ce site. À partir Skype Entreprise Server panneau de bord, vous pouvez créer, modifier et supprimer des sites réseau. Utilisez la procédure suivante pour supprimer un site réseau existant. Pour plus d’informations sur la création ou la modification de sites réseau, voir [Managing call admission control for sites](managing-call-admission-control-for-sites.md).
 
 
 ### <a name="to-delete-a-network-site"></a>Pour supprimer un site réseau
@@ -177,7 +177,7 @@ Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Site.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Site**.
 
 4.  Dans la page **Site**, cliquez sur le site que vous souhaitez supprimer.
 

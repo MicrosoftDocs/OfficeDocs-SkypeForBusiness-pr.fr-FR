@@ -1,8 +1,8 @@
 ---
 title: Service d’élément pour le tableau de bord de qualité des appels (CQD)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: 'Résumé : Découvrez le service d’élément, qui fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 58d141930d98704eac101feb5d0fe8994284b587
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 11ebf78a64c2a506d916bbc4aac0a7d77f432753
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848437"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401868"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>Service d’élément pour le tableau de bord de qualité des appels (CQD)
  
-**Résumé :** Découvrez le service d’élément, qui fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
+**Résumé :** Découvrez le service d’élément, qui fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
 Le service d’élément fait partie de l’API de référentiel pour le tableau de bord de qualité des appels.
   
@@ -43,7 +43,7 @@ Le service d’élément comprend les concepts suivants :
     
 - **Sous-élément :** mécanismes d’organisation de base du référentiel. L’élément peut avoir zéro, un ou plusieurs éléments subordonnés.
     
-- **Ancêtres** d’élément : liste des éléments, en commençant par l’élément le plus haut, qui est l’élément par défaut de l’utilisateur, menant à un élément donné.
+- **Ancêtres** d’élément : liste des éléments, à partir de l’élément le plus haut, qui est l’élément par défaut de l’utilisateur, menant à un élément donné.
     
 - **Contenu d’élément** : contenu propre à l’application stocké dans les éléments. Le Tableau de bord de qualité des appels enregistre les représentations JSON des rapports et des requêtes dans le contenu.
     

@@ -1,8 +1,8 @@
 ---
 title: Définir l’expérience utilisateur pour l’acquisition manuelle d’un emplacement dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
 description: Planification des utilisateurs itinérants dans un déploiement E9-1-1 à l’aide de fournisseurs de trunking SIP, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: d412c3368dc6f3e302ab8f589aaed1585ea0b233
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 576b6ecfd9ec98daede032f81a44c8dd641a2e5a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855281"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409877"
 ---
 # <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>Définir l’expérience utilisateur pour l’acquisition manuelle d’un emplacement dans Skype Entreprise Server
  
@@ -35,7 +35,7 @@ Par exemple, si un client se trouve dans un sous-réseau non définie, à la mai
     
 Vous pouvez configurer le paramètre **Emplacement requis** dans la stratégie d’emplacement pour définir le comportement du client. La définition de cette valeur sur Non signifie que l’utilisateur ne sera pas invité à se rendre sur un emplacement. La définition de cette valeur sur Oui signifie que l’utilisateur est invité à se rendre sur un emplacement, mais peut ignorer l’invite. Définir cette valeur sur Clause d’exclusion de responsabilité signifie que l’utilisateur est invité à se rendre sur un emplacement et qu’une clause d’exclusion de responsabilité s’affiche s’il tente d’ignorer l’invite. Dans tous les cas, l’utilisateur peut continuer à utiliser le client comme d’habitude.
     
-Lorsqu’un utilisateur entre manuellement un emplacement, celui-ci est mappé à l’adresse MAC de la passerelle par défaut du réseau du client et est stocké dans une table par utilisateur située sur le client. Lorsque l’utilisateur retourne à un emplacement précédemment stocké, le client Skype Entreprise se définit automatiquement à cet emplacement. 
+Lorsqu’un utilisateur entre manuellement un emplacement, il est mappé à l’adresse MAC de la passerelle par défaut du réseau du client et stocké dans une table par utilisateur située sur le client. Lorsque l’utilisateur retourne à un emplacement précédemment stocké, le client Skype Entreprise se définit automatiquement à cet emplacement. 
   
 > [!NOTE]
 > Vous pouvez modifier uniquement l’emplacement actuel de votre client, mais vous pouvez également supprimer n’importe quel emplacement stocké dans la table de l’utilisateur local. 

@@ -1,8 +1,8 @@
 ---
 title: Déployer Skype Entreprise Server 2019
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/9/2018
 audience: ITPro
@@ -17,26 +17,26 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Résumé : Explorez ces liens pour découvrir comment installer et configurer Skype Entreprise Server 2019.'
-ms.openlocfilehash: 47005c5b1b236e9f93dec33bf10ddef80c96a3c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 85878b09cf15679cda35ed1735f1f05e2168fb35
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842506"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397534"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>Déployer Skype Entreprise Server 2019
  
-**Résumé :** Explorez ces liens pour découvrir comment installer et configurer Skype Entreprise Server 2019 et migrer à partir de versions antérieures.
+**Résumé :** Explorez ces liens pour découvrir comment installer et configurer Skype Entreprise Server 2019 et Migrer à partir de versions antérieures.
   
 Skype Entreprise Server offre des solutions de messagerie instantanée, de présence, de conférence, de vidéo et de téléphonie qui peuvent prendre en charge les exigences de collaboration au niveau de l’entreprise. Cette rubrique fournit des liens vers des informations sur la façon de déployer et de configurer Skype Entreprise Server. 
   
 Les rédacteurs mettent régulièrement à jour les articles dès que de nouvelles informations sont disponibles et en réponse aux commentaires des utilisateurs. Cette page sera mise à jour fréquemment, donc consultez-la souvent.
    
-##  <a name="articles-about-skype-for-business-server-installation-and-configuration"></a>Articles sur l’installation Skype Entreprise Server configuration
+##  <a name="articles-about-skype-for-business-server-installation-and-configuration"></a>Articles sur l Skype Entreprise Server et la configuration
 
 Les articles suivants sur l’installation et la configuration Skype Entreprise Server sont disponibles en ligne. 
   
-|&nbsp;|Contenu|Description|
+|&nbsp;|Content|Description|
 |:-----|:-----|:-----|
 |![Icône de la documentation.](/office/media/icons/paragraph-writing-blue.svg)|[System requirements for Skype Entreprise Server 2019](../plan/system-requirements.md)   |Découvrez les exigences en matière de serveur et d’environnement Skype Entreprise Server.   |
 |![Icône de la documentation.](/office/media/icons/paragraph-writing-blue.svg)|[Informations de base sur la topologie Skype Entreprise Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md)  |Découvrez les options de topologie et les scénarios de cocation de serveur pour Skype Entreprise Server.   |
@@ -52,9 +52,9 @@ Les articles suivants sur l’installation et la configuration Skype Entreprise 
 
 Les ressources suivantes sur la façon de planifier les Skype Entreprise Server sont disponibles auprès d’autres experts techniques. 
   
-|&nbsp;|Contenu|Description|
+|&nbsp;|Content|Description|
 |:-----|:-----|:-----|
-|![Icône de Docs.](/office/media/icons/paragraph-writing-blue.svg)|[Skype Entreprise Server pour les professionnels de l’informatique](../../Hub/index.yml)  |Visitez le centre de ressources pour accéder à des vidéos, des sites communautaires, de la documentation, des téléchargements et bien plus encore.|
-|![Icône du contenu du développeur.](/office/media/icons/developer-blue.svg)|[Skype Plateforme pour les développeurs](/skype-sdk/skypedeveloperplatform)  |Trouvez des ressources pour les développeurs Skype Entreprise Server, notamment des exemples de code, des formations et des SDK.   |
+|![Icône pour les documents.](/office/media/icons/paragraph-writing-blue.svg)|[Skype Entreprise Server pour les professionnels de l’informatique](../../Hub/index.yml)  |Visitez le centre de ressources pour accéder à des vidéos, des sites communautaires, de la documentation, des téléchargements et bien plus encore.|
+|![Icône du contenu du développeur.](/office/media/icons/developer-blue.svg)|[Skype pour les développeurs](/skype-sdk/skypedeveloperplatform)  |Trouvez des ressources pour les développeurs Skype Entreprise Server, notamment des exemples de code, des formations et des SDK.   |
 |![Icône d’actualités, de blogs, etc.](/office/media/icons/blog-site-blue.svg)|[Gestion et adoption des changements](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [blog Skype’équipe](https://go.microsoft.com/fwlink/p/?LinkId=532818)  |Tenez-vous au fait des actualités des équipes qui créent et documentent des Skype Entreprise Server.   |
 

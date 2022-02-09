@@ -1,8 +1,8 @@
 ---
 title: Authentification des utilisateurs et des clients pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Un utilisateur approuvé est un utilisateur dont les informations d’identification ont été authentifiées par un serveur approuvé dans Skype Entreprise Server. Il s’agit généralement d’un serveur Standard Edition, d’un serveur frontal Enterprise Edition ou d’un directeur. Skype Entreprise Server s’appuie sur les services de domaine Active Directory comme référentiel unique et approuvé des informations d’identification de l’utilisateur.
-ms.openlocfilehash: c0c64bb269a80ca4241ec9f2d338817b05f1ff9d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b18d07a8cb0b427cf7cceb0fd81c8d657c98b7a1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831828"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401708"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Authentification des utilisateurs et des clients pour Skype Entreprise Server
  
@@ -50,7 +50,7 @@ Les certificats clients offrent aux utilisateurs un autre moyen d’être authen
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Exigences de chiffrement en raison ASP.NET 4.5 
 
-Depuis Skype Entreprise Server CU5 2015, AES n’est pas pris en charge pour ASP.NET 4.6, ce qui peut entraîner l’échec du démarrage de Skype Meetings App. Si un client utilise AES comme valeur de validation de clé d’ordinateur, vous devrez réinitialiser la valeur de la clé d’ordinateur sur SHA-1 ou un autre algorithme pris en charge au niveau du site d’application Skype Meetings sur IIS. Si nécessaire, voir [IIS 8.0 ASP.NET Configuration Management](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) pour obtenir des instructions.
+Depuis Skype Entreprise Server CU5 2015, AES n’est pas pris en charge pour ASP.NET 4.6, ce qui peut entraîner l’échec du démarrage de Skype Meetings App. Si un client utilise AES comme valeur de validation de clé d’ordinateur, vous devrez réinitialiser la valeur de la clé d’ordinateur sur SHA-1 ou un autre algorithme pris en charge au niveau du site d’application Skype Meetings sur IIS. Si nécessaire, voir [IIS 8.0 ASP.NET configuration management](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) pour obtenir des instructions.
   
 Les autres valeurs pris en charge sont les autres :
   

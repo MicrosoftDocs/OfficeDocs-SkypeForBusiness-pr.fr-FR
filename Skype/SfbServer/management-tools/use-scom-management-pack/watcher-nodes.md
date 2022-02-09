@@ -1,8 +1,8 @@
 ---
 title: Comment installer et configurer des nodes d’observation
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2015
 audience: ITPro
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: Décrit le processus d’installation et de configuration des nodes d’Skype Entreprise Server transactions synthétiques.
-ms.openlocfilehash: 9b0faf7f449bf75083d3b83e40c7807207ad51a1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 34ab33bb486e3bc9973632c108e6eccf33bec481
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833088"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396677"
 ---
 # <a name="learn-to-install-configure-watcher-nodes"></a>Découvrez comment installer, configurer des nodes d’observation
  
 **Résumé :** Installez et configurez des nodes d’Skype Entreprise Server pour les transactions synthétiques.
   
-Les nodes watcher sont des ordinateurs qui exécutent régulièrement Skype Entreprise Server transactions synthétiques. Les transactions synthétiques sont Windows PowerShell cmdlets qui vérifient que les scénarios utilisateur clés, tels que la possibilité de se connecter ou d’échanger des messages instantanés, fonctionnent comme prévu. Pour Skype Entreprise Server 2015, System Center Operations Manager peut exécuter les transactions synthétiques indiquées dans le tableau suivant, qui inclut trois types de transaction synthétique :
+Les nodes observeur sont des ordinateurs qui exécutent régulièrement Skype Entreprise Server transactions synthétiques. Les transactions synthétiques sont Windows PowerShell cmdlets qui vérifient que les scénarios utilisateur clés, tels que la possibilité de se connecter ou d’échanger des messages instantanés, fonctionnent comme prévu. Pour Skype Entreprise Server 2015, System Center Operations Manager peut exécuter les transactions synthétiques indiquées dans le tableau suivant, qui inclut trois types de transaction synthétique :
   
 - **Valeur par défaut** Transactions synthétiques qu’un nœud d’observation exécute par défaut. Lorsque vous créez un nœud d’observation, vous pouvez spécifier les transactions synthétiques qui s’exécuteront. (C’est l’objectif du paramètre Tests utilisé par l'New-CsWatcherNodeConfiguration cmdlet.) Si vous n’utilisez pas le paramètre Tests lors de la création du nœud observeur, il exécute automatiquement toutes les transactions synthétiques par défaut et n’exécute aucune des transactions synthétiques non par défaut. Cela signifie, par exemple, que le nœud de l'Test-CsAddressBookService sera configuré pour exécuter le test Test-CsAddressBookService, mais pas pour exécuter le test Test-CsExumConnectivity test.
     
@@ -62,7 +62,7 @@ Parmi les transactions synthétiques accessibles aux nœuds observateur, citons 
 |Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |Confirme que les contacts d’un utilisateur sont accessibles via le magasin de contacts unifié. Le magasin de contacts unifié permet aux utilisateurs de gérer un ensemble unique de contacts accessibles à l’aide de Skype Entreprise Server 2015, du client de messagerie et de collaboration Outlook et/ou de Outlook Web Access.  <br/> |
 |Test-CsXmppIM (XmppIM)  <br/> |Confirme qu’un message instantané peut être envoyé sur la passerelle XMPP (Extensible Messaging and Presence Protocol).  <br/> Les passerelles et les proxies XMPP sont disponibles dans Skype Entreprise Server 2015, mais ne sont plus pris en charge dans Skype Entreprise Server 2019.  |
 
-Vous n’avez pas besoin d’installer des nodes d’observation pour utiliser System Center Operations Manager. Si vous n’installez pas ces derniers, vous pouvez toujours obtenir des alertes en temps réel à partir de Skype Entreprise Server 2015 chaque fois qu’un problème se produit. (Le pack d’administration des composants et des utilisateurs n’utilise pas de nodes d’observation.) Toutefois, les nodes observateurs sont requis si vous souhaitez surveiller des scénarios de bout en bout à l’aide du pack d’administration Active Monitoring.
+Vous n’avez pas besoin d’installer des nodes d’observation pour utiliser System Center Operations Manager. Si vous n’installez pas ces derniers, vous pouvez toujours obtenir des alertes en temps réel à partir de Skype Entreprise Server 2015 chaque fois qu’un problème se produit. (Le pack d’administration des composants et des utilisateurs n’utilise pas de nodes d’observation.) Toutefois, les nodes observateurs sont requis si vous souhaitez surveiller les scénarios de bout en bout à l’aide du pack d’administration Active Monitoring.
   
 > [!NOTE]
 > Les administrateurs peuvent également exécuter des transactions synthétiques manuellement, sans utiliser ou installer Operations Manager. Selon la taille de votre déploiement Skype Entreprise Server, les transactions synthétiques peuvent utiliser une grande quantité de mémoire ordinateur et de temps processeur. Pour cette raison, nous vous recommandons d’utiliser un ordinateur dédié comme nœud d’observation. Par exemple, vous ne devez pas configurer un serveur Skype Entreprise Server frontal pour qu’il agisse en tant que nœud d’observation. Les nodes de l’observeur doivent respecter la même configuration matérielle de base que tout autre ordinateur de votre topologie Skype Entreprise Server de base. 
@@ -74,7 +74,7 @@ Les serveurs d’observation Lync Server 2013 peuvent être déployés à l’in
   
 - Connectivité aux pools pour les utilisateurs au sein de l’entreprise
     
-- Connectivité via des réseaux de périmètre pour les utilisateurs distants travaillant en dehors de l’entreprise.
+- Connectivité via les réseaux de périmètre pour les utilisateurs distants travaillant en dehors de l’entreprise.
     
 - Connectivité aux Branch Office Appliances
     
@@ -112,14 +112,14 @@ Pour installer les fichiers Skype Entreprise Server 2015 et la base de données 
   
 1. Sur l’ordinateur nœud observateur, cliquez sur Démarrer, sur Tous les programmes, sur Accessoires, cliquez avec le bouton droit sur Invite de commandes, puis cliquez sur Exécuter en tant qu’administrateur.
     
-2. Dans la fenêtre de console, tapez la commande suivante et appuyez sur Entrée. N’oubliez pas d’entrer le chemin d’accès approprié à vos fichiers d’installation Skype Entreprise Server : D:\Setup.exe /BootstrapLocalMgmtTo vérifier que les composants de Skype Entreprise Server principaux sont correctement installés, cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise Server 2015** et puis cliquez **sur Skype Entreprise Server Management Shell.** Dans l’Skype Entreprise Server Management Shell, tapez la commande Windows PowerShell commande suivante et appuyez sur Entrée :
+2. Dans la fenêtre de console, tapez la commande suivante et appuyez sur Entrée. N’oubliez pas d’entrer le chemin d’accès approprié à vos fichiers d’installation Skype Entreprise Server : D:\Setup.exe /BootstrapLocalMgmtTo verify that the core Skype Entreprise Server components are successfully installed, click **Start**, click **All Programs**, click **Skype Entreprise Server 2015**, puis cliquez sur **Skype Entreprise Server Management Shell**. Dans l’Skype Entreprise Server Management Shell, tapez la commande Windows PowerShell commande suivante et appuyez sur Entrée :
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration
 ```
 
 > [!NOTE]
-> La première fois que vous exécutez cette commande, aucune donnée n’est renvoyée, car vous n’avez pas encore configuré d’ordinateurs de nœuds d’observation. Si la commande s’exécute sans renvoyer d’erreur, vous pouvez supposer que l’installation Skype Entreprise Server été correctement effectuée. 
+> La première fois que vous exécutez cette commande, aucune donnée n’est renvoyée, car vous n’avez pas encore configuré d’ordinateurs de nœuds d’observation. Si la commande s’exécute sans renvoyer d’erreur, vous pouvez supposer que l’Skype Entreprise Server a été correctement effectuée. 
   
 Si votre ordinateur de nœud observeur se trouve à l’intérieur de votre réseau de périmètre, vous pouvez exécuter la commande suivante pour vérifier l’installation de Skype Entreprise Server 2015 :
   
@@ -143,9 +143,9 @@ Si vous voyez des informations sur vos stratégies de code confidentiel, les com
   
 ## <a name="install-the-operation-manager-agent-files-on-a-watcher-node"></a>Installer les fichiers de l’agent Operation Manager sur un nœud de l’observeur
 
-À l’Skype Entreprise Server de rapports d’alertes de composant, un nœud Skype Entreprise Server 2015 requiert l’installation System Center’agent Operations Manager. Cela permet d’exécuter les transactions synthétiques et de faire état d’alertes au serveur d’administration racine System Center Operations Manager.
+À l’Skype Entreprise Server pour la signalement des alertes de composant, un nœud Skype Entreprise Server 2015 requiert l’installation System Center’agent Operations Manager. Cela permet d’exécuter les transactions synthétiques et de faire état d’alertes au serveur d’administration racine System Center Operations Manager.
   
-Pour installer les fichiers de l’agent, suivez les procédures répertoriées dans [Configure the Skype Entreprise Server ordinateurs qui seront surveillés.](configure-computers-to-monitor.md)
+Pour installer les fichiers de l’agent, suivez les procédures répertoriées dans [Configure the Skype Entreprise Server ordinateurs qui seront surveillés](configure-computers-to-monitor.md).
   
 ## <a name="configure-a-watcher-node-to-run-synthetic-transactions"></a>Configurer un nœud watcher pour exécuter des transactions synthétiques
 <a name="enable_synthetic_trans"> </a>
@@ -182,7 +182,7 @@ New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar
 Get-Help New-CsTrustedApplicationPool -Full | more
 ```
 
-Après avoir créé le pool d’applications de confiance, vous pouvez configurer l’ordinateur du nœud observeur pour qu’il exécute des transactions synthétiques en tant qu’application de confiance à l’aide de l’cmdlet **New-CsTrustedApplication** et d’une commande semblable à celle-ci :
+Après avoir créé le pool d’applications fiables, vous pouvez configurer l’ordinateur du nœud observeur pour qu’il exécute des transactions synthétiques en tant qu’application de confiance à l’aide de l';cmdlet **New-CsTrustedApplication** et d’une commande semblable à celle-ci :
   
 ```PowerShell
 New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
@@ -202,7 +202,7 @@ Pour vérifier que la nouvelle application de confiance a été créée, tapez c
 Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:application:STWatcherNode"
 ```
 
-## <a name="configure-a-default-certificate-on-the-watcher-node"></a>Configurer un certificat par défaut sur le nœud de l’watcher
+## <a name="configure-a-default-certificate-on-the-watcher-node"></a>Configurer un certificat par défaut sur le nœud de l’observation
 <a name="enable_synthetic_trans"> </a>
 
 Chaque nœud observateur qui utilise l’authentification TrustedServer doit avoir un certificat par défaut affecté à l’aide de l Skype Entreprise Server De déploiement. 
@@ -211,7 +211,7 @@ Pour affecter un certificat par défaut :
   
 1. Cliquez sur Démarrer, sur Tous les programmes, Skype Entreprise Server 2015, puis sur Skype Entreprise Server Déploiement. 
     
-2. Dans l’Assistant Skype Entreprise Server Déploiement, cliquez sur Installer ou mettre à jour Skype Entreprise Server System, puis cliquez sur Exécuter sous le titre Demander, installer ou attribuer un certificat. 
+2. Dans l’Assistant Skype Entreprise Server Déploiement, cliquez sur Installer ou mettre à jour Skype Entreprise Server système, puis cliquez sur Exécuter sous le titre Demander, installer ou attribuer un certificat. 
     
 > [!NOTE]
 > Si le bouton Exécuter est désactivé, vous devrez peut-être d’abord cliquer sur Exécuter sous Installer le magasin de configurations local. 
@@ -252,11 +252,11 @@ Le mode TrustedServer peut être utilisé uniquement avec les ordinateurs qui se
 ## <a name="configure-a-watcher-node-to-use-negotiate"></a>Configurer un nœud watcher pour utiliser Negotiate
 <a name="enable_synthetic_trans"> </a>
 
-Si votre ordinateur de nœud observeur se trouve en dehors du réseau de périmètre, vous devez suivre une procédure légèrement différente pour configurer ce nœud pour exécuter des transactions synthétiques : en particulier, vous ne devez pas créer de pool d’applications ou d’applications fiables. Cela signifie que vous devrez effectuer les deux tâches suivantes.
+Si votre ordinateur de nœud observeur se trouve en dehors du réseau de périmètre, vous devez suivre une procédure légèrement différente pour configurer ce nœud pour qu’il exécute des transactions synthétiques : en particulier, vous ne devez pas créer de pool d’applications ou d’applications fiables. Cela signifie que vous devrez effectuer les deux tâches suivantes.
   
 ### <a name="update-membership-in-the-rtc-local-read-only-administrators-group"></a>Mettre à jour l’appartenance au groupe Read-Only RTC
 
-Si votre nœud d’observation se trouve en dehors du réseau de périmètre, vous devez ajouter le compte de service réseau au groupe RTC Local Read-only Administrators sur l’ordinateur du nœud de l’observeur en effectuant la procédure suivante sur le nœud de l’observeur :
+Si votre nœud d’observation se trouve en dehors du réseau de périmètre, vous devez ajouter le compte service réseau au groupe RTC Local Read-only Administrators sur l’ordinateur du nœud de l’observation en effectuant la procédure suivante sur le nœud de l’observation :
   
 1. Cliquez sur Démarrer, cliquez avec le bouton droit sur Ordinateur et cliquez sur Gérer.
     
@@ -289,7 +289,7 @@ L’étape suivante consiste à exécuter le fichier Watchernode.msi :
    ```
 
 > [!NOTE]
-> Comme mentionné précédemment, les Watchernode.msi peuvent également être exécutés à partir d’une fenêtre de commande. Pour ouvrir une fenêtre de commande, cliquez sur **Démarrer**, cliquez avec le bouton droit sur **Invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**. Lorsque la fenêtre de commande s’ouvre, tapez la commande indiquée à l’étape 2 ci-dessus. 
+> Comme mentionné précédemment, les Watchernode.msi peuvent également être exécutés à partir d’une fenêtre de commande. Pour ouvrir une fenêtre de commande, cliquez sur **Démarrer**, cliquez avec le bouton droit sur **Invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**. Lorsque la fenêtre de commande s’ouvre, tapez la commande indiquée à l’étape 2, ci-dessus. 
   
 Le mode Négocier est utilisé à chaque fois que le nœud observateur ne peut pas être configuré en tant que pool d’application approuvées. Dans ce mode, les administrateurs devront gérer les mots de passe des utilisateurs de test sur le nœud observateur.
   

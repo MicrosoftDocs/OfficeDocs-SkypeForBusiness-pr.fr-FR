@@ -1,8 +1,8 @@
 ---
 title: Configurer plusieurs numéros d’urgence dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -14,26 +14,26 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
-description: Lisez cette rubrique pour apprendre à configurer plusieurs numéros d’urgence dans Skype Entreprise Server.
-ms.openlocfilehash: d79a57e64d52bfc6b0f1d8ee9a9bd9c3c1509658
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Lisez cette rubrique pour découvrir comment configurer plusieurs numéros d’urgence dans Skype Entreprise Server.
+ms.openlocfilehash: 318cf1f5f2fce443f939a9603f395573209959e0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833910"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401568"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Configurer plusieurs numéros d’urgence dans Skype Entreprise
 
-Lisez cette rubrique pour apprendre à configurer plusieurs numéros d’urgence dans Skype Entreprise Server.
+Lisez cette rubrique pour découvrir comment configurer plusieurs numéros d’urgence dans Skype Entreprise Server.
 
 Skype Entreprise Server prend désormais en charge plusieurs numéros d’urgence pour un client. Plusieurs numéros d’urgence sont une nouvelle fonctionnalité introduite dans la mise à jour cumulative de juin 2016. Avant de configurer votre environnement pour prendre en charge plusieurs numéros d’urgence, veillez à lire Planifier plusieurs numéros d’urgence [dans Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md).
 
 > [!NOTE]
-> Si vous n’avez pas encore mis à niveau vers la mise à jour cumulative de novembre 2016, voir Mises à jour [Skype Entreprise Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). Avec la mise à jour cumulative de novembre 2016, le nombre de numéros d’urgence de support augmente de 5 à 100.
+> Si vous n’avez pas encore mis à niveau la mise à jour cumulative de novembre 2016, voir Mises à jour [Skype Entreprise Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). Avec la mise à jour cumulative de novembre 2016, le nombre de numéros d’urgence de support augmente de 5 à 100.
 
 ## <a name="configure-multiple-emergency-numbers"></a>Configuration de plusieurs numéros d’urgence
 
-Pour configurer plusieurs numéros d’urgence, utilisez l’cmdlet New-CsEmergencyNumber, puis spécifiez le paramètre EmergencyNumbers avec les cmdlets [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) et [Set-CsLocationPolicy.](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) Pour obtenir une description complète de tous les paramètres de stratégie d’emplacement, tels que l’utilisation PSTN et l’emplacement requis, voir [Set-CsLocationPolicy](/powershell/module/skype/set-cslocationpolicy?view=skype-ps).
+Pour configurer plusieurs numéros d’urgence, utilisez l’cmdlet New-CsEmergencyNumber, puis spécifiez le paramètre EmergencyNumbers avec les cmdlets [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) et [Set-CsLocationPolicy](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) . Pour obtenir une description complète de tous les paramètres de stratégie d’emplacement, tels que l’utilisation PSTN et l’emplacement requis, voir [Set-CsLocationPolicy](/powershell/module/skype/set-cslocationpolicy?view=skype-ps).
 
 La commande suivante crée un nouveau numéro d’urgence avec la chaîne de numérotation 911 à l’aide de la cmdlet New-CsEmergency suivante :
 

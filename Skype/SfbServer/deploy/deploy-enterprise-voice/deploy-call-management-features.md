@@ -1,8 +1,8 @@
 ---
 title: Déployer des fonctionnalités de gestion des appels dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: Déploiement des fonctionnalités de gestion des appels dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: f68a1e3030692c3c69ba2183e90f8a5f54be47fd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0cbee721abeece2b1e1aed54a10241294666d57c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859591"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404366"
 ---
 # <a name="deploy-call-management-features-in-skype-for-business"></a>Déployer des fonctionnalités de gestion des appels dans Skype Entreprise
  
@@ -29,11 +29,11 @@ Déploiement des fonctionnalités de gestion des appels dans Skype Entreprise Se
   
 Les fonctionnalités de gestion des appels Voix Entreprise contrôlent la façon dont le système achemine les appels entrants et y répond. Skype Entreprise Server offre les fonctionnalités de gestion des appels suivantes : 
   
-- **Parc d’appel**: permet aux utilisateurs vocaux de parquer temporairement un appel, puis de le reprendre à partir du même téléphone ou d’un autre téléphone.
+- **Parc d’appel** : permet aux utilisateurs vocaux de parquer temporairement un appel, puis de le reprendre à partir du même téléphone ou d’un autre téléphone.
     
 - **Prise d’appel de** groupe : permet aux utilisateurs de répondre aux appels effectués à un autre utilisateur affecté à un groupe de prise d’appel en composant le numéro du groupe de prise d’appel.
     
-- **Response Group :** approvisionnement des appels entrants vers des groupes d’agents à l’aide de groupements de recherche ou de questions et réponses interactives de réponse vocale (IVR).
+- **Response Group :** approvisionnement des appels entrants vers des groupes d’agents à l’aide de groupements de recherche ou de questions et réponses de réponse vocale interactive (IVR).
     
 - **Annonce** : lit un message pour les appels passés à un numéro non attribué et/ou achemine l’appel vers un autre emplacement.
     

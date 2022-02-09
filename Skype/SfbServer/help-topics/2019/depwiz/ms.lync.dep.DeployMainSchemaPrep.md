@@ -1,8 +1,8 @@
 ---
 title: Préparer un schéma
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,22 +14,22 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour préparer le schéma pour les services de domaine Active Directory, exécutez l’étape Préparer le schéma dans l Skype Entreprise Server De déploiement. Cliquez sur Exécuter pour commencer la préparation du schéma.
-ms.openlocfilehash: 88a9ca5f93263b4d8a514db3c987bcd3a63d87a0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Pour préparer le schéma pour les services de domaine Active Directory, exécutez l’étape Préparer le schéma dans l’Skype Entreprise Server Déploiement. Cliquez sur Exécuter pour commencer la préparation du schéma.
+ms.openlocfilehash: 43496aa2b9d3ec40f4c79aed0e20824ee7ef1494
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842346"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404326"
 ---
 # <a name="prepare-schema"></a>Préparer un schéma
  
-Pour préparer le schéma pour les services de domaine Active Directory, exécutez l’étape Préparer le schéma dans l Skype Entreprise Server De déploiement. Cliquez sur **Exécuter** pour commencer la préparation du schéma. L’étape Préparer le schéma lit les fichiers de définition de schéma fournis dans le répertoire \Program Files\Skype Entreprise Server 2019\Deployment\Setup sur le système sur qui l’Assistant Déploiement est en cours d’exécution. Ces fichiers sont également disponibles sur le support d’installation, dans le répertoire \Support\Schema. L’étape Préparer un schéma développera le schéma et rapportera le statut du processus. Elle vous notifiera également l’achèvement du processus. L’écran de résumé vous permettra d’afficher les journaux du processus. Passez en revue les journaux pour vous assurer que la préparation était complète et qu’elle a abouti.
+Pour préparer le schéma pour les services de domaine Active Directory, exécutez l’étape Préparer le schéma dans l’Skype Entreprise Server Déploiement. Cliquez sur **Exécuter** pour commencer la préparation du schéma. L’étape Préparer le schéma lit les fichiers de définition de schéma fournis dans le répertoire \Program Files\Skype Entreprise Server 2019\Deployment\Setup sur le système sur qui l’Assistant Déploiement est en cours d’exécution. Ces fichiers sont également disponibles sur le support d’installation, dans le répertoire \Support\Schema. L’étape Préparer un schéma développera le schéma et rapportera le statut du processus. Elle vous notifiera également l’achèvement du processus. L’écran de résumé vous permettra d’afficher les journaux du processus. Passez en revue les journaux pour vous assurer que la préparation était complète et qu’elle a abouti.
   
 > [!IMPORTANT]
 > Pour étendre le schéma, vous devez être connecté au domaine en tant que membre du groupe Administrateurs du schéma et du groupe Administrateurs d’entreprise. 
   
-Des classes et des attributs sont ajoutés pour étendre le schéma des services de domaine Active Directory afin de prendre en charge Skype Entreprise Server serveur, service et objets utilisateur. Avant d’étendre le schéma, effectuez une sauvegarde de l’état du système du contrôleur de domaine qui contient le rôle de contrôleur de schéma. 
+Des classes et des attributs sont ajoutés pour étendre le schéma des services de domaine Active Directory pour prendre en charge Skype Entreprise Server serveur, service et objets utilisateur. Avant d’étendre le schéma, effectuez une sauvegarde de l’état du système du contrôleur de domaine qui contient le rôle de contrôleur de schéma. 
   
 > [!CAUTION]
 > Cette opération est irréversible. Vous devez faire tout votre possible pour limiter l’impact potentiel d’un échec de l’extension du schéma et pour garantir la réussite de l’extension du schéma. Ceci est particulièrement important en cas de perte de communication ou de toute autre défaillance côté serveur. Vous devez effectuer une sauvegarde du contrôleur de domaine contrôleur de schéma et une sauvegarde complète d’Active Directory. 

@@ -1,8 +1,8 @@
 ---
 title: Sélection des agents
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 description: Les agents sont des utilisateurs désignés pour répondre aux appels Response Group. Les groupes Response Group doivent avoir un groupe d’agents affecté qui identifie les agents qui peuvent recevoir des appels pour le groupe Response Group. Pour créer un groupe d’agents, vous pouvez définir un groupe personnalisé en sélectionnant des utilisateurs éligibles. Les utilisateurs éligibles sont activés pour Skype Entreprise Server et Voix Entreprise.
-ms.openlocfilehash: bd80934a90d6b0241c312f60aab435f134d12187
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 894adb3d9724df8238b31c9e13b8bdb6a92fe9c8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836566"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400408"
 ---
 # <a name="select-agents"></a>Sélection des agents
 
@@ -30,13 +30,13 @@ La boîte de dialogue **Sélectionner des agents** permet de sélectionner les u
 
 ## <a name="ui-reference"></a>Référence d’interface utilisateur
 
-La liste suivante décrit les contrôles de la boîte de dialogue Sélectionner des **agents.**
+La liste suivante décrit les contrôles de la boîte de dialogue **Sélectionner des agents** .
 
 - **Rechercher** Recherche l’adresse SIP ou le nom complet d’un utilisateur. Entrez tout ou partie de l’adresse ou du nom. Laissez la zone de recherche vide pour afficher tous les utilisateurs activés pour Skype Entreprise Server et Voix Entreprise.
 
 - **Nombre maximal d’utilisateurs à afficher** Modifie le nombre de résultats renvoyés qui sont affichés. Utilisez ce compteur pour limiter la recherche si vous attendez de nombreux résultats.
 
-La liste suivante décrit les champs de la boîte de dialogue Sélectionner des **agents.**
+La liste suivante décrit les champs de la boîte de dialogue **Sélectionner des agents** .
 
 - **Agent** Affiche les noms d’utilisateur renvoyés par la recherche.
 

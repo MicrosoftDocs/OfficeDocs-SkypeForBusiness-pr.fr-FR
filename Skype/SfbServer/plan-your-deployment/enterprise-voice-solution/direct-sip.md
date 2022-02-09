@@ -1,8 +1,8 @@
 ---
 title: Connexions SIP directes dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
-description: Les connexions SIP directes sont Skype Entreprise Server entre les passerelles PSTN et les passerelles PSTN et IP-PBX dans Voix Entreprise.
-ms.openlocfilehash: 8a615197a01fafbdf29c838b28a6d12e06f37d00
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Les connexions SIP directes sont Skype Entreprise Server entre les passerelles PSTN et les passerelles PSTN et ip-PBX dans Voix Entreprise.
+ms.openlocfilehash: 696500343f1d4eb4b35e72de4d75b0d599922699
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848397"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403856"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Connexions SIP directes dans Skype Entreprise Server
 
-Les connexions SIP directes sont Skype Entreprise Server entre les passerelles PSTN et les passerelles PSTN et IP-PBX dans Voix Entreprise.
+Les connexions SIP directes sont Skype Entreprise Server entre les passerelles PSTN et les passerelles PSTN et ip-PBX dans Voix Entreprise.
 
-Vous pouvez utiliser des connexions SIP directes pour Skype Entreprise Server à l’une des connexions suivantes :
+Vous pouvez utiliser des connexions SIP directes pour vous connecter Skype Entreprise Server à l’une des connexions suivantes :
 
 - Un PBX IP
 
@@ -44,7 +44,7 @@ Si votre organisation utilise l’un des déploiements décrits dans cette secti
 
 - **Déploiement incrémentielle :** Cette option suppose que vous avez une infrastructure PBX (Private Branch Exchange) existante et que vous avez l’intention d’introduire Voix Entreprise de manière incrémentielle pour les groupes ou les équipes de plus petite taille au sein de votre organisation.
 
-- **Déploiement VoIP uniquement** : cette option suppose que vous envisagez de déployer Voix Entreprise sur un site qui n’a pas d’infrastructure téléphonique traditionnelle.
+- **Déploiement VoIP uniquement** : cette option suppose que vous envisagez de déployer des Voix Entreprise sur un site qui n’a pas d’infrastructure téléphonique traditionnelle.
 
 #### <a name="incremental-deployment"></a>Déploiement incrémentielle
 
@@ -59,22 +59,22 @@ La figure suivante illustre la topologie générique pour le déploiement de Voi
 ![Diagramme de l’option de migration départementale.](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
-> Si vous connectez votre déploiement Skype Entreprise Server à un partenaire SIP direct certifié, une passerelle PSTN (réseau téléphonique commuté) entre le serveur de médiation et le PBX n’est pas nécessaire. Pour obtenir la liste des partenaires SIP directs certifiés, voir le programme d’interopérabilité d’ouverture des [communications unifiées microsoft.](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)
+> Si vous connectez votre déploiement Skype Entreprise Server à un partenaire SIP direct certifié, une passerelle PSTN (réseau téléphonique commuté) entre le serveur de médiation et le PBX n’est pas nécessaire. Pour obtenir la liste des partenaires SIP directs certifiés, voir le programme d’interopérabilité d’ouverture des  [communications unifiées Microsoft](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
 
 > [!NOTE]
 > Le chemin d’accès au média illustré dans cette figure a la déviation du média activée (configuration recommandée). Si vous choisissez de désactiver le contournement de média, le chemin d’accès du média est acheminé via le serveur de médiation.
 
-Dans cette topologie, les services ou groupes de travail sélectionnés sont activés pour les Voix Entreprise. Une passerelle PSTN relie le groupe de travail voIP (Voice over Internet Protocol) au PBX. Les utilisateurs activés pour Voix Entreprise, y compris les travailleurs à distance, communiquent sur le réseau IP. Les appels Voix Entreprise les utilisateurs vers le réseau téléphonique (PSTN) et les collègues qui ne sont pas activés pour Voix Entreprise sont acheminés vers la passerelle PSTN appropriée. Les appels provenant de collègues qui sont encore sur le système PBX ou d’appelants sur le réseau téléphonique public (RSTN) sont acheminés vers la passerelle PSTN, qui les a transmis à Skype Entreprise Server pour le routage.
+Dans cette topologie, les services ou groupes de travail sélectionnés sont activés pour les Voix Entreprise. Une passerelle PSTN relie le groupe de travail voIP (Voice over Internet Protocol) au PBX. Les utilisateurs activés pour Voix Entreprise, y compris les travailleurs à distance, communiquent sur le réseau IP. Les appels Voix Entreprise les utilisateurs vers le réseau téléphonique (PSTN) et les collègues qui ne sont pas activés pour Voix Entreprise sont acheminés vers la passerelle PSTN appropriée. Les appels provenant de collègues qui sont encore sur le système PBX ou d’appelants sur le réseau téléphonique public public (PSTN) sont acheminés vers la passerelle PSTN, qui les a transmis à Skype Entreprise Server pour le routage.
 
 Il existe deux configurations recommandées pour la connexion de Voix Entreprise à une infrastructure PBX existante pour l’interopérabilité : Voix Entreprise derrière le PBX et Voix Entreprise devant le PBX.
 
-#### <a name="enterprise-voice-behind-the-pbx"></a>Voix Entreprise Derrière le PBX
+#### <a name="enterprise-voice-behind-the-pbx"></a>Voix Entreprise derrière le PBX
 
 Lorsque Voix Entreprise est déployé derrière le PBX, tous les appels du PSTN arrivent au PBX, qui route les appels vers les utilisateurs Voix Entreprise vers une passerelle PSTN et les appels aux utilisateurs PBX vers le PBX.
 
 #### <a name="enterprise-voice-in-front-of-the-pbx"></a>Voix Entreprise devant le PBX
 
-Lorsque Voix Entreprise est déployé devant le PBX, tous les appels arrivent à la passerelle PSTN, qui approvisionnement les appels pour les utilisateurs Voix Entreprise vers Skype Entreprise Server et les appels pour les utilisateurs PBX vers le PBX. Les appels vers le réseau téléphonique public (PSTN) des utilisateurs Voix Entreprise et PBX sont acheminés sur le réseau IP vers la passerelle PSTN la plus économique. Le tableau suivant présente les avantages et les inconvénients de cette configuration.
+Lorsque Voix Entreprise est déployé devant le PBX, tous les appels arrivent à la passerelle PSTN, qui route les appels pour les utilisateurs Voix Entreprise vers Skype Entreprise Server et les appels des utilisateurs PBX vers le PBX. Les appels vers le PSTN des utilisateurs Voix Entreprise et PBX sont acheminés sur le réseau IP vers la passerelle PSTN la plus économique. Le tableau suivant présente les avantages et les inconvénients de cette configuration.
 
 **Avantages et inconvénients du déploiement de Voix Entreprise frontal du PBX**
 
@@ -126,7 +126,7 @@ Voici les principales questions à se poser. N’oubliez pas que les réponses �
 
 Les serveurs de médiation peuvent router les appels via plusieurs passerelles, des contrôleurs de frontière de session (SCS) fournis par des fournisseurs de services de téléphonie Internet ou une combinaison des deux. En outre, plusieurs serveurs de médiation du pool peuvent interagir avec plusieurs passerelles. L’itinéraire logique défini entre un serveur de médiation et une passerelle est appelé une liaison. Lorsqu’un utilisateur interne passe un appel PSTN, la logique de routage sortant sur le pool frontal choisit la ligne à router parmi toutes les combinaisons possibles disponibles pour le routage de cet appel particulier. Avec l’équilibrage de charge DNS, si un appel ne parvient pas à atteindre une passerelle en raison d’un problème avec un serveur de médiation particulier dans le pool, l’appel est retenté vers un autre serveur de médiation du pool.
 
-Pour plus d’informations sur la planification de plusieurs passerelles, voir [la](m-n-trunk.md)Skype Entreprise Server .
+Pour plus d’informations sur la planification de plusieurs passerelles, voir [la Skype Entreprise Server M:N](m-n-trunk.md).
 
 Pour plus d’informations sur les autres améliorations apportées au routage du trafic sortant, voir [Call Routes](/previous-versions/office/lync-server-2013/lync-server-2013-voice-routes).
 

@@ -1,8 +1,8 @@
 ---
 title: Gérer les paramètres de configuration du bureau d’enregistrement d’inscriptions Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,24 +13,24 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: 'Résumé : Gérez les paramètres de configuration du Skype Entreprise Server.'
-ms.openlocfilehash: 9e5eddde712180820579840587abb18bc9809fe4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 30a6b13e658fddbcfbef2ca1e1810eecb56fc9dc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832128"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402028"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>Gérer les paramètres de configuration du bureau d’enregistrement d’inscriptions Skype Entreprise Server
  
 **Résumé :** Gérer les paramètres de configuration du bureau d’enregistrement d Skype Entreprise Server.
   
-Vous pouvez utiliser le serveur d’inscriptions pour configurer les méthodes d’authentification du serveur proxy. Le protocole d’authentification que vous spécifiez détermine le type de défis que les serveurs du pool doivent relever aux clients. Les protocoles disponibles sont :
+Vous pouvez utiliser le serveur d’inscriptions pour configurer les méthodes d’authentification du serveur proxy. Le protocole d’authentification que vous spécifiez détermine le type de défis que les serveurs du pool  doivent relever aux clients. Les protocoles disponibles sont :
   
 - **Kerberos** Il s’agit du schéma d’authentification par mot de passe le plus fort disponible pour les clients, mais il est généralement disponible uniquement pour les clients d’entreprise, car il nécessite une connexion client à un centre de distribution de clés (contrôleur de domaine Kerberos). Ce paramètre est approprié si le serveur authentifier uniquement les clients d’entreprise.
     
 - **NTLM** Il s’agit de l’authentification par mot de passe disponible pour les clients qui utilisent un schéma de hachage challenge-response sur le mot de passe. Il s’agit de la seule forme d’authentification disponible pour les clients sans connectivité à un centre de distribution de clés (contrôleur de domaine Kerberos), comme les utilisateurs distants. Si un serveur authentifier uniquement les utilisateurs distants, vous devez choisir NTLM.
     
-- **Authentification de certificat** Il s’agit de la nouvelle méthode d’authentification lorsque le serveur doit obtenir des certificats auprès de clients Lync Téléphone Edition, de téléphones de partie commune, de Skype Entreprise et de l’application Lync Windows Store. Sur les clients Lync Téléphone Edition, une fois qu’un utilisateur s’est inscrit et qu’il est authentifié avec succès en fournissant un code confidentiel, Skype Entreprise Server met ensuite en service l’URI SIP sur le téléphone et met en service un certificat signé Skype Entreprise Server ou un certificat d’utilisateur qui identifie Joe (Ex: SN=joe@contoso.com )  Le téléphone. Ce certificat est utilisé pour l’authentification auprès du serveur d’inscriptions et des services Web.
+- **Authentification de certificat** Il s’agit de la nouvelle méthode d’authentification lorsque le serveur doit obtenir des certificats auprès de clients Lync Téléphone Edition, de téléphones de partie commune, de Skype Entreprise et de l’application Lync Windows Store. Sur les clients Lync Téléphone Edition, une fois qu’un utilisateur s’est correctement authentifié en fournissant un code confidentiel, Skype Entreprise Server fournit ensuite l’URI SIP au téléphone et fournit un Skype Entreprise Server  certificat signé ou un certificat utilisateur qui identifie Joe (Ex: SN=joe@contoso.com ) sur le téléphone. Ce certificat est utilisé pour l’authentification auprès du serveur d’inscriptions et des services Web.
     
 > [!NOTE]
 > Nous vous recommandons d’activer Kerberos et NTLM lorsqu’un serveur prend à la fois en charge l’authentification des clients distants et d’entreprise. Le serveur Edge et les serveurs internes communiquent pour veiller à ce qu’une authentification NTLM seulement soit proposée aux clients distants. Si seul Kerberos est activé sur ces serveurs, ils ne peuvent pas authentifier les utilisateurs distants. Si des utilisateurs d’entreprise s’authentifient également envers le serveur, Kerberos est utilisé. 
@@ -45,11 +45,11 @@ Si vous utilisez Lync Windows clients d’application du Store, vous devez activ
     
 3. Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Serveur d’inscriptions**.
     
-4. Dans la page **Du bureau d’enregistrement,** cliquez sur **Nouveau**
+4. Dans la page **Du bureau d’enregistrement** , cliquez sur **Nouveau**
     
-5. Dans **Sélectionner un service,** cliquez sur le service auquel le bureau d’inscriptions doit être appliqué, puis cliquez sur **OK.**
+5. Dans **Sélectionner un service**, cliquez sur le service auquel le bureau d’inscriptions doit être appliqué, puis cliquez sur **OK**.
     
-6. Dans Nouveau paramètre du bureau **d’enregistrement,** sélectionnez une ou plusieurs des fonctionnalités suivantes en fonction des fonctionnalités des clients et de la prise en charge dans votre environnement :
+6. Dans **Nouveau paramètre du bureau** d’enregistrement, sélectionnez une ou plusieurs des fonctionnalités suivantes en fonction des fonctionnalités des clients et de la prise en charge dans votre environnement :
     
    - **Activer l’authentification Kerberos** pour que les serveurs du pool émettent des demandes à l’aide de l’authentification Kerberos.
     
@@ -102,9 +102,9 @@ Procédez comme suit pour modifier un serveur d’inscription existant.
     
 6. Cliquez sur **OK**.
     
-## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de configuration Paramètres de bureau d’enregistrement à l’Windows PowerShell cmdlets
+## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression de la configuration du Paramètres de bureau d’enregistrement à l’Windows PowerShell cmdlets
 
-Vous pouvez supprimer les paramètres de configuration du bureau d’enregistrement d’inscriptions à l’Windows PowerShell’une cmdlet **Remove-CsProxyConfiguration.** Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/).
+Vous pouvez supprimer les paramètres de configuration du bureau d’enregistrement d’inscriptions à l’Windows PowerShell’une cmdlet **Remove-CsProxyConfiguration**. Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distants pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/).
   
 ### <a name="to-remove-a-specific-set-of-registrar-security-settings"></a>Pour supprimer un ensemble spécifique de paramètres de sécurité du serveur d’inscriptions avancé
 

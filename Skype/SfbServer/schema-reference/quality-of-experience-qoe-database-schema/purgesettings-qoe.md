@@ -1,8 +1,8 @@
 ---
 title: Table PurgeSettings (QoE)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
-description: 'La table PurgeSettings contient des informations indiquant si (et quand) les enregistrements de qualité de l’expérience obsolètes doivent être automatiquement supprimés de la base de données QoE. Notez que les informations relatives au purge peuvent également être obtenues à partir de l’Skype Entreprise Server Management Shell en exécutant la commande suivante :'
-ms.openlocfilehash: ec89cdfbd634c32ab7a51265ed28e9ee89207892
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 'La table PurgeSettings contient des informations indiquant si (et quand) les enregistrements de qualité de l’expérience obsolètes doivent être automatiquement supprimés de la base de données QoE. Notez que les informations relatives au  purge peuvent également être obtenues à partir de l’Skype Entreprise Server Management Shell en exécutant la commande suivante :'
+ms.openlocfilehash: 93d7f7c5bbb1d05daaf11372cbddf9e515bb90ed
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858081"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398518"
 ---
 # <a name="purgesettings-table-qoe"></a>Table PurgeSettings (QoE)
  
-La table PurgeSettings contient des informations indiquant si (et quand) les enregistrements de qualité de l’expérience obsolètes doivent être automatiquement supprimés de la base de données QoE. Notez que les informations relatives au purge peuvent également être obtenues à partir de l’Skype Entreprise Server Management Shell en exécutant la commande suivante :
+La table PurgeSettings contient des informations indiquant si (et quand) les enregistrements de qualité de l’expérience obsolètes doivent être automatiquement supprimés de la base de données QoE. Notez que les informations relatives au  purge peuvent également être obtenues à partir de l’Skype Entreprise Server Management Shell en exécutant la commande suivante :
   
 ```PowerShell
 Get-CsQoEConfiguration

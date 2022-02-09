@@ -1,8 +1,8 @@
 ---
 title: Planifier l’intégration de Skype Entreprise et d’Exchange
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Résumé : Examinez cette rubrique pour plus d’informations sur l’intégration de Skype Entreprise Server avec Exchange Server 2016 ou Exchange Server 2013.'
-ms.openlocfilehash: 5edfdf44b50d2a58c097bed5ee83855f375ff895
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: c9308f1d84165206f745f0231a39e442d51a88bc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562836"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403738"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Planifier l’intégration de Skype Entreprise et d’Exchange
  
@@ -64,7 +64,7 @@ Vous pouvez affecter l’URI de découverte automatique en exécutant une comman
 Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 ```
 
-Pour plus d’informations sur le service de découverte automatique, voir [Service de découverte automatique.](/Exchange/architecture/client-access/autodiscover)
+Pour plus d’informations sur le service de découverte automatique, voir [Service de découverte automatique](/Exchange/architecture/client-access/autodiscover).
   
 Une fois le service de découverte automatique configuré, vous devez modifier les paramètres de configuration OAuth Skype Entreprise Server ; cela garantit que Skype Entreprise Server sait où trouver le service de découverte automatique. Pour modifier les paramètres de configuration OAuth dans Skype Entreprise Server, exécutez la commande suivante à partir de Skype Entreprise Server Management Shell. Lors de l’exécution de cette commande, assurez-vous de spécifier l’URI du service de découverte automatique en cours d’exécution sur votre Exchange Server et d’utiliser **autodiscover.svc** pour pointer vers l’emplacement du service au lieu de **autodiscover.xml** (qui pointe vers le fichier XML utilisé par le service) :
   
@@ -76,14 +76,14 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 > Le paramètre Identity de la commande précédente est facultatif . En effet, Skype Entreprise Server vous permet uniquement d’avoir une seule collection globale de paramètres de configuration OAuth. Entre autres choses, cela signifie que vous pouvez configurer l’URL de découverte automatique à l’aide de cette commande légèrement plus simple : 
 > 
 > [!NOTE]
-> Set-CsOAuthConfiguration-ExchangeAutodiscoverUrl <https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc> " » 
+> Set-CsOAuthConfiguration-ExchangeAutodiscoverUrl « <https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc> » 
 > 
 > [!NOTE]
 > Si vous ne connaissez pas la technologie, OAuth est un protocole d’autorisation standard utilisé par de nombreux sites web principaux. Avec OAuth, les informations d’identification et les mots de passe de l’utilisateur ne sont pas transmis d’un ordinateur à un autre. Au lieu de cela, l’authentification et l’autorisation sont basées sur l’échange de jetons de sécurité ; ces jetons accordent l’accès à un ensemble spécifique de ressources pendant une durée spécifique. 
   
 Outre la configuration du service de découverte automatique, vous devez également créer un enregistrement DNS pour le service qui pointe vers votre Exchange Server. Par exemple, si votre service de découverte automatique se trouve sur autodiscover.litwareinc.com vous devez créer un enregistrement DNS pour autodiscover.litwareinc.com qui est résolu en nom de domaine complet de votre Exchange Server (par exemple, atl-exchange-001.litwareinc.com).
   
-Si vous intégrez Skype Entreprise Server à Exchange Online, vous devez ensuite configurer l’intégration entre Skype Entreprise Server local et [Outlook Web App,](../../deploy/integrate-with-exchange-server/outlook-web-app.md)sinon voir Intégrer [ Skype Entreprise Server avec Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
+Si vous intégrez Skype Entreprise Server à Exchange Online, vous devez ensuite configurer l’intégration entre Skype Entreprise Server local et [Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md). Sinon, consultez Intégrer [ Skype Entreprise Server avec Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 ## <a name="feature-support"></a>Prise en charge des fonctionnalités
 <a name="feature_support"> </a>

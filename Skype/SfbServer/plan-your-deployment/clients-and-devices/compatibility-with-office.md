@@ -1,7 +1,7 @@
 ---
 title: Skype Entreprise compatibilité avec Office applications
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Comprendre les façons dont vous pouvez accéder Skype Entreprise fonctionnalités à partir de Outlook et d’autres applications Microsoft Office applications.
-ms.openlocfilehash: 06a019416ad8d32b0234b08c01b09630dd07a2ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 249b66eb366d9fa2d5911c24fb7dc88d0dcd6633
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862131"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409897"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype Entreprise compatibilité avec Office applications
  
@@ -31,7 +31,7 @@ Cette rubrique décrit la compatibilité des Skype Entreprise avec différentes 
   
 ## <a name="office-and-skype-for-business"></a>Office et Skype Entreprise
 
-Le tableau suivant décrit les fonctionnalités Skype Entreprise qui sont pris en charge par différentes versions de Office une fois que Exchange est déployé et intégré comme décrit dans Intégrer Skype Entreprise Server à [Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
+Le tableau suivant décrit les fonctionnalités de Skype Entreprise qui sont pris en charge par différentes versions de Office une fois que Exchange est déployé et intégré, comme décrit dans Intégrer Skype Entreprise Server [avec Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 **Skype Entreprise et Microsoft Office compatibilité**
 
@@ -48,12 +48,12 @@ Le tableau suivant décrit les fonctionnalités Skype Entreprise qui sont pris e
 |Répondre par messagerie instantanée ou appel à partir de la barre d’outils ou du ruban dans un message électronique reçu    |Oui    |Oui    |Oui    |
 |**Autres applications Office de messagerie**   ||||
 |OneNote notes partagées    |Non    |Oui    |Non    |
-|Installation intégrée au programme d’installation Office’installation    |Non    |Oui    |Non    |
+|Programme d’installation intégré au programme Office’installation    |Non    |Oui    |Non    |
 |PowerPoint présentation    |Oui    |Oui (VBSS également disponible)    |Oui    |
 |Messagerie instantanée et présence dans les fichiers Microsoft Word et Microsoft Excel (balises actives activées)    |Microsoft Word uniquement    |Microsoft Word uniquement    |Non    |
 |Messagerie instantanée et présence sur les sites Microsoft SharePoint (Outlook doit être installé)    |Oui    |Oui    |Non    |
    
-&#x2776; - Suppose que vous avez installé et que vous exécutez actuellement un client Skype Entreprise sur Mac ou le client Lync 2011 pour Mac.
+&#x2776; : suppose que vous avez installé et que vous exécutez actuellement un client Skype Entreprise sur Mac ou le client Lync 2011 pour Mac.
   
 ## <a name="exchange-server-and-skype-for-business"></a>Exchange Server et Skype Entreprise
 

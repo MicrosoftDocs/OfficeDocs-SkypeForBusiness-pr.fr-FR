@@ -1,8 +1,8 @@
 ---
 title: Planifier des lignes téléphoniques privées avec Skype Entreprise
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 description: Planification des lignes téléphoniques privées (secondaires) dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: a9054266cc5092f77e0fecd66b71b7180c89018c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0e438615219dd92300390873278132000edd8112
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861081"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397578"
 ---
 # <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>Planifier des lignes téléphoniques privées avec Skype Entreprise
  
 Planification des lignes téléphoniques privées (secondaires) dans Skype Entreprise Server Voix Entreprise.
   
-Skype Entreprise Server vous permet d’accorder aux utilisateurs une deuxième ligne téléphonique privée en plus de leur ligne téléphonique principale. Les lignes téléphoniques privées sont souvent attribuées à des cadres et à d’autres personnes qui souhaitent obtenir un numéro de téléphone non listé auquel ils peuvent être joints directement.
+Skype Entreprise Server vous permet d’accorder aux utilisateurs une deuxième ligne téléphonique privée en plus de leur ligne téléphonique principale. Les lignes téléphoniques privées sont souvent attribuées à des cadres et à d’autres personnes qui souhaitent un numéro de téléphone non listé auquel ils peuvent être joints directement.
   
 Les lignes téléphoniques privées ne peuvent être configurées qu’avec Skype Entreprise Server Management Shell. Vous ne pouvez pas configurer de lignes téléphoniques privées avec Skype Entreprise Server panneau de configuration. Les lignes téléphoniques privées doivent être configurées uniquement dans les déploiements de Skype Entreprise Server et non dans les déploiements mixtes.
   
@@ -69,15 +69,15 @@ Bien que le concept d’une deuxième ligne téléphonique privée soit fondamen
     
 - Une fois qu’un utilisateur répond à un appel sur une ligne téléphonique privée, l’appel est traité comme un appel sur la ligne téléphonique principale de l’utilisateur. Par exemple, si un utilisateur qui reçoit un appel sur une ligne téléphonique privée le fait suivre ou invite d’autres personnes à une téléconférence, son nom apparaît dans Skype Entreprise et le numéro de téléphone de la ligne téléphonique principale de l’utilisateur apparaît dans l’ID de l’appelant.
     
-- Un utilisateur peut appeler (rediriger l’appel vers une autre destination, par exemple, un téléphone mobile ou domicile, avant de répondre) à partir de la ligne téléphonique privée de la même manière qu’avec une ligne téléphonique principale. 
+- Un utilisateur peut appeler (rediriger l’appel vers une autre destination, comme un téléphone mobile ou domicile, avant de répondre) à partir de la ligne téléphonique privée de la même manière qu’avec une ligne téléphonique principale. 
     
     > [!NOTE]
     > Lorsqu’un appel vers une ligne privée est acheminé vers un autre numéro de téléphone, le numéro de téléphone de la ligne privée est mis à la disposition de l’autre numéro de téléphone et peut être affiché dans les journaux de ce numéro. 
   
     > [!NOTE]
-    > Les appels d’une conférence vers la  ligne téléphonique privée n’auront pas d’indication de ligne privée dans la notification système entrante.
+    > Les appels d’une conférence vers la ligne téléphonique privée n’auront pas  *d’indication de*  ligne privée dans la notification système entrante.
   
-## <a name="administering-private-telephone-lines"></a>Administration des lignes téléphoniques privées
+## <a name="administering-private-telephone-lines"></a>Administration de lignes téléphoniques privées
 
 Outre les aspects techniques de la création et de la gestion des lignes téléphoniques privées, vous devez établir des procédures administratives pour ces lignes. Cela inclut la détermination des stratégies pour les personnes de l’organisation éligibles pour une ligne privée, la création et la maintenance de listes de personnes et de leurs lignes téléphoniques, éventuellement la création d’un annuaire téléphonique privé pour les cadres, l’organisation de la formation des utilisateurs et les tâches connexes.
   
@@ -88,7 +88,7 @@ Outre les aspects techniques de la création et de la gestion des lignes télép
 
  Les comptes des nouveaux utilisateurs qui ont besoin de lignes téléphoniques privées sont créés de la même manière que les comptes sans lignes téléphoniques privées, à l’aide du Panneau de Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
   
-Utilisez l’cmdlet **Set-CsUser** dans l’Skype Entreprise Server Management Shell pour affecter un numéro de téléphone à une ligne téléphonique privée pour un utilisateur, par **exemple, Set-CsUser -Identity « sip:joe@contoso.com » -PrivateLine « Tel:+14255551212 »**.
+Utilisez l’cmdlet **Set-CsUser** dans l’Skype Entreprise Server Management Shell pour affecter un numéro de téléphone à une ligne téléphonique privée pour un utilisateur, par exemple **, Set-CsUser -Identity « sip:joe@contoso.com » -PrivateLine « Tel:+14255551212 »**.
   
 Les numéros de téléphone des lignes téléphoniques privées peuvent avoir entre 3 et 15 numéros et doivent être précédés du préfixe « TEL: ». Ils peuvent avoir n’importe quel code régional et n’importe quel code de pays/région tant que votre organisation dispose d’une numérotation directe à l’intérieur pour ce code régional et de ce code de pays/région. 
   

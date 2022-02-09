@@ -1,8 +1,8 @@
 ---
 title: Planifier le parc d’appel dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
-description: Planification du parcage d’appel Skype Entreprise Server Voix Entreprise, qui permet de mettre les appels en attente et de transférer des appels vers des services. Inclut la planification de la capacité, les appels pris en charge et les clients pris en charge.
-ms.openlocfilehash: 29ca14f85aeccaa8394ede4420c66af77e5c66c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Planification du parcage d’appel Skype Entreprise Server Voix Entreprise, qui permet de mettre les appels en attente et de transférer des appels vers des services. Inclut la planification de capacité, les appels pris en charge et les clients pris en charge.
+ms.openlocfilehash: a0102dea8a9511fae4031e41230c125b55d14844
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839836"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401768"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Planifier le parc d’appel dans Skype Entreprise
  
-Planification du parcage d’appel Skype Entreprise Server Voix Entreprise, qui permet de mettre les appels en attente et de transférer des appels vers des services. Inclut la planification de la capacité, les appels pris en charge et les clients pris en charge.
+Planification du parcage d’appel Skype Entreprise Server Voix Entreprise, qui permet de mettre les appels en attente et de transférer des appels vers des services. Inclut la planification de capacité, les appels pris en charge et les clients pris en charge.
   
-L’application de parcage d Voix Entreprise permet aux utilisateurs d’appliquer les procédures suivantes :
+L’application de parcage d Voix Entreprise permet aux utilisateurs d’appliquer les mesures suivantes :
   
 - Mettez un appel en attente, puis récupérez l’appel à partir du même téléphone ou d’un autre téléphone.
     
@@ -39,9 +39,9 @@ Lorsqu’un utilisateur parlait un appel, Skype Entreprise Server transfère l�
   
 L’utilisateur qui a par parcé un appel peut avertir quelqu’un de récupérer l’appel à l’aide d’un mécanisme externe, tel que la messagerie instantanée ou un système de pagination, pour communiquer le numéro d’orbite à une autre personne. L’utilisateur qui a paré l’appel peut laisser la fenêtre de conversation ouverte pour recevoir une notification lorsque l’appel est récupéré.
   
-Étant donné que les plages d’orbites sont globalement uniques, il est possible de récupérer des appels à partir d’un site Skype Entreprise Server ou d’un téléphone PBX si le routage est configuré de manière appropriée. Si personne ne récupère l’appel dans un laps de temps configurable, l’appel revient à la personne qui l’a par parcé. Si cette personne ne répond pas à la sonnerie, l’appel est transféré vers une destination de récupération, par exemple un opérateur, si tel est le cas. Vous pouvez configurer le nombre de sonneries de l’appel avant d’être transféré d’une à dix fois. Si personne ne répond à un appel transféré, l’appel est déconnecté. L’orbite est libérée lorsque l’appel est récupéré ou déconnecté.
+Étant donné que les plages d’orbites sont globalement uniques, il est possible de récupérer des appels à partir d’un site Skype Entreprise Server ou d’un téléphone PBX si le routage est configuré correctement. Si personne ne récupère l’appel dans un laps de temps configurable, l’appel revient à la personne qui l’a par parcé. Si cette personne ne répond pas à la sonnerie, l’appel est transféré vers une destination de récupération, par exemple un opérateur, si tel est le cas. Vous pouvez configurer le nombre de sonneries de l’appel avant d’être transféré d’une à dix fois. Si personne ne répond à un appel transféré, l’appel est déconnecté. L’orbite est libérée lorsque l’appel est récupéré ou déconnecté.
   
-Lorsque vous déployez le parc d’appel, vous devez réserver des plages de numéros de poste pour le parc d’appels. Ces extensions doivent être des extensions virtuelles : les extensions qui n’ont pas d’utilisateur ou de téléphone qui leur sont affectés. Vous configurez ensuite la table des orbites de parcage d’appel avec les plages de numéros de poste et spécifiez le service d’application qui héberge l’application de parcage d’appel qui gère chaque plage. Chaque pool frontal dispose d’une table de parcage d’appel sur le serveur principal correspondant qui est utilisée pour gérer les appels parés sur le pool. La liste des plages d’orbites est stockée dans le magasin central de gestion et sert à router les orbites vers le pool de destination. Chaque Skype Entreprise Server pool dans lequel l’application de parcage d’appel est déployée et configurée peut avoir une ou plusieurs plages d’orbites. Les plages d’orbites doivent être globalement uniques dans Skype Entreprise Server déploiement. 
+Lorsque vous déployez le parcier d’appel, vous devez réserver des plages de numéros de poste pour le parc d’appels. Ces extensions doivent être des extensions virtuelles : les extensions qui n’ont pas d’utilisateur ou de téléphone qui leur sont affectés. Vous configurez ensuite la table des orbites de parcage d’appel avec les plages de numéros de poste et spécifiez quel service d’application héberge l’application de parcage d’appel qui gère chaque plage. Chaque pool frontal dispose d’une table de parcage d’appel sur le serveur principal correspondant qui est utilisée pour gérer les appels parés sur le pool. La liste des plages d’orbites est stockée dans le magasin central de gestion et sert à router les orbites vers le pool de destination. Chaque Skype Entreprise Server pool dans lequel l’application de parcage d’appel est déployée et configurée peut avoir une ou plusieurs plages d’orbites. Les plages d’orbites doivent être globalement uniques dans Skype Entreprise Server déploiement. 
   
 Vous configurez également d’autres paramètres de parcment d’appel, tels que l’endroit où les appels sont redirigés s’ils sont à l’heure d’inextérable et si la personne qui se trouve sur le téléphone entend de la musique pendant qu’elle est parée. Vous pouvez également spécifier le fichier de musique à lire pendant l’attente de l’appel.
   
@@ -56,7 +56,7 @@ L’application de parcage d’appel est installée automatiquement lorsque vous
   
 ### <a name="software-requirements"></a>Configuration logicielle requise
 
-Le runtime du format multimédia Windows doit être installé sur tous les serveurs frontaux et les serveurs Édition Standard où le parcage d’appel est déployé pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour les serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2 . Pour Windows Server 2008 R2, le Windows du format multimédia est installé dans le cadre Windows Expérience utilisateur. Windows Media Format Runtime ou Microsoft Media Foundation est requis pour les fichiers Windows Media Audio (.wma) que le parcage d’appel lit pendant l’attente musicale.
+Le runtime du format multimédia Windows doit être installé sur tous les serveurs frontaux et serveurs Édition Standard où le parcage d’appel est déployé pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour les serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2. Pour Windows Server 2008 R2, le Windows du format multimédia est installé dans le cadre de Windows Expérience utilisateur. Windows Le runtime du format multimédia ou Microsoft Media Foundation est requis pour Windows fichiers audio multimédias (.wma) que le parcage d’appel lit pour l’attente musicale.
   
 ### <a name="port-requirements"></a>Conditions requises en matière de ports
 
@@ -67,7 +67,7 @@ L’application de parcage d’appel **utilise le port 5075 pour**  les demandes
   
 ### <a name="audio-file-requirements"></a>Conditions requises pour les fichiers audio
 
-L’application de parcage d’appel Windows uniquement les fichiers audio multimédias (.wma) pour l’attente musicale. Pour personnaliser les fichiers d’attente musicale, vous pouvez utiliser Microsoft Expression Encoder 4. Pour télécharger Expression Encoder 4, voir   [« Expression Encoder 4](https://go.microsoft.com/fwlink/p/?linkId=202843)». Utilisez l’outil pour convertir le fichier au format .wma. Le format recommandé des fichiers d’attente musicale pour le parcage d’appel est Windows Media Audio 9,44 kHz, 16 bits, Mono, CBR, 32 Kbits/s.
+L’application de parcage d’appel Windows uniquement les fichiers audio multimédias (.wma) pour l’attente musicale. Pour personnaliser les fichiers d’attente musicale, vous pouvez utiliser Microsoft Expression Encoder 4. Pour télécharger Expression Encoder 4, voir   [« Expression Encoder 4](https://go.microsoft.com/fwlink/p/?linkId=202843) ». Utilisez l’outil pour convertir le fichier au format .wma. Le format recommandé des fichiers d’attente musicale pour le parcage d’appel est Windows Media Audio 9,44 kHz, 16 bits, Mono, CBR, 32 Kbits/s.
   
 > [!NOTE]
 > Le fichier converti est lu à 16 kHz sur le téléphone, même s’il a été enregistré à 44 kHz. 
@@ -104,7 +104,7 @@ Les plages d’orbites sont configurées en tant que blocs de postes virtuels (p
   
 Les utilisateurs fédérés ne peuvent pas récupérer des appels parqués.
   
-Les clients suivants peuvent récupérer les appels par parcés dans le parc d’appel :
+Les clients suivants peuvent récupérer les appels par parcés sur le parc d’appel :
   
 - Skype Entreprise
     
@@ -122,14 +122,14 @@ Les clients suivants peuvent récupérer les appels par parcés dans le parc d�
     
 ## <a name="call-park-capacity-planning"></a>Planification de la capacité du parcier d’appel
 
-Le tableau suivant décrit le modèle utilisateur du parc d’appel que vous pouvez utiliser comme base pour les besoins de planification de la capacité.
+Le tableau suivant décrit le modèle utilisateur du parcier d’appel que vous pouvez utiliser comme base pour les besoins de planification de la capacité.
   
 > [!IMPORTANT]
 > N’oubliez pas que, pour la planification de la capacité de récupération d’urgence, chaque pool d’un pool couplé doit être en mesure de gérer les charges de travail des services de parcage d’appel dans les deux pools. 
   
 **Modèle utilisateur de parcage d’appel**
 
-|**Métrique**|**Par pool frontal  <br/>  (avec 8 serveurs frontux)**|**Par serveur Standard Edition**|
+|**Métrique**|**Par pool  <br/>  frontal (avec 8 serveurs frontux)**|**Par serveur Standard Edition**|
 |:-----|:-----|:-----|
 |Taux de parcage  <br/> |8 par minute  <br/> |1 par minute  <br/> |
 |Taux d’appels parqués récupérés  <br/> |8 par minute  <br/> |1 par minute  <br/> |

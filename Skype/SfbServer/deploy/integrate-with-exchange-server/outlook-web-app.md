@@ -1,8 +1,8 @@
 ---
 title: Configurer l’intégration entre l’application Skype Entreprise Server locale et Outlook Web App
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/7/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Résumé : Intégrez Skype Entreprise Server et Outlook Web App.'
-ms.openlocfilehash: cebb8fed6b87dac6ec2c981730d303994c952741
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0284fee227d9adf5560b5f65e56d71c1d46fac0c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853678"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397285"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Configurer l’intégration entre l’application Skype Entreprise Server locale et Outlook Web App
 
@@ -37,7 +37,7 @@ Les clients qui utilisent des déploiements locaux Skype Entreprise Server peuve
 
 Pour intégrer des Skype Entreprise Server avec Exchange Online, vous devez configurer un espace d’adressaie SIP partagé. Le même espace d’adressan de domaine SIP est pris en charge par Skype Entreprise Server et le service Exchange Online client.
 
-À l’aide de Skype Entreprise Server Management Shell, configurez le serveur Edge pour la fédération en exécutant l’cmdlet **Set-CSAccessEdgeConfiguration,** à l’aide des paramètres affichés dans l’exemple suivant :
+À l’aide de Skype Entreprise Server Management Shell, configurez le serveur Edge pour la fédération en exécutant l’cmdlet **Set-CSAccessEdgeConfiguration**, à l’aide des paramètres affichés dans l’exemple suivant :
 
 ```powershell
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
@@ -45,11 +45,11 @@ Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 - Le paramètre **AllowFederatedUsers** indique si les utilisateurs internes sont autorisés à communiquer avec des utilisateurs de domaines fédérés. Cette propriété détermine également si les utilisateurs internes peuvent communiquer avec des utilisateurs dans un scénario d’espace d’adressas SIP partagé avec Skype Entreprise Server et Exchange Online.
 
-Pour plus d’informations sur l’utilisation Skype Entreprise Server Management Shell, voir [Skype Entreprise Server Management Shell.](../../manage/management-shell.md)
+Pour plus d’informations sur l’utilisation Skype Entreprise Server Management Shell, voir [Skype Entreprise Server Management Shell](../../manage/management-shell.md).
 
 ## <a name="configure-a-hosting-provider-on-the-edge-server"></a>Configurer un fournisseur d’hébergement sur le serveur Edge.
 
-À l’aide de Skype Entreprise Server Management Shell, configurez un fournisseur d’hébergement sur le serveur Edge en exécutant l’cmdlet **New-CsHostingProvider,** en utilisant les paramètres de l’exemple suivant :
+À l’aide de Skype Entreprise Server Management Shell, configurez un fournisseur d’hébergement sur le serveur Edge en exécutant l’cmdlet **New-CsHostingProvider**, en utilisant les paramètres de l’exemple suivant :
 
 ```powershell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
@@ -68,9 +68,9 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 - **ProxyFQDN** spécifie le nom de domaine complet du serveur proxy utilisé par le fournisseur d’hébergement. Pour Exchange Online, le nom de domaine complet est exap.um.outlook.com.
 
-- **IsLocal** indique si le serveur proxy utilisé par le fournisseur d’hébergement est contenu dans Skype Entreprise Server topologie. Ce paramètre doit avoir la valeur False.
+- **IsLocal indique** si le serveur proxy utilisé par le fournisseur d’hébergement est contenu dans Skype Entreprise Server topologie. Ce paramètre doit avoir la valeur False.
 
-- **VerificationLevel** Indique le niveau de vérification autorisé pour les messages envoyés vers et depuis le fournisseur hébergé. Spécifiez **UseSourceVerification**, qui s’appuie sur le niveau de vérification inclus dans les messages envoyés par le fournisseur d’hébergement. Si ce niveau n’est pas spécifié, le message est rejeté comme étant non vérifiable.
+- **VerificationLevel** Indique le niveau de vérification autorisé pour les messages envoyés vers et depuis le fournisseur hébergé. **Spécifiez UseSourceVerification**, qui s’appuie sur le niveau de vérification inclus dans les messages envoyés par le fournisseur d’hébergement. Si ce niveau n’est pas spécifié, le message est rejeté comme étant non vérifiable.
 
 ## <a name="verify-replication-of-the-updated-central-management-store"></a>Vérifier la réplication du magasin central de gestion mis à jour
 

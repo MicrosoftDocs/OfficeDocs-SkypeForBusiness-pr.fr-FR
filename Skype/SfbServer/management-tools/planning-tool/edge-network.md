@@ -1,8 +1,8 @@
 ---
 title: Outil de planification du réseau Edge
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 'La plupart des composants Edge sont déployés dans un réseau de périmètre. Les composants suivants font la topologie Edge du réseau de périmètre. Sauf remarque, les composants font partie des scénarios de serveur Edge dans Skype Entreprise Server 2015 et se trouve dans le réseau de périmètre. Ces composants de périphérie sont les suivants :'
-ms.openlocfilehash: 5df387611886e8907b38161bab783a72924c5788
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0d4e7a0292a32e82793eaf4ef087b7bd4cfa00d8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850967"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409947"
 ---
 # <a name="edge-network-planning-tool"></a>Outil de planification du réseau Edge
  
-La plupart des composants Edge sont déployés dans un réseau de périmètre. Les composants répertoriés ici sont la topologie Edge du réseau de périmètre. Sauf remarque, les composants font partie des scénarios de serveur Edge dans [Skype Entreprise Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) et se trouve dans le réseau de périmètre. Ces composants de périphérie sont les suivants :
+La plupart des composants Edge sont déployés dans un réseau de périmètre. Les composants répertoriés ici sont la topologie Edge du réseau de périmètre. Sauf remarque, les composants font partie des [scénarios de serveur Edge dans Skype Entreprise Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) et se trouve dans le réseau de périmètre. Ces composants de périphérie sont les suivants :
   
 - Serveur(s) Edge
     

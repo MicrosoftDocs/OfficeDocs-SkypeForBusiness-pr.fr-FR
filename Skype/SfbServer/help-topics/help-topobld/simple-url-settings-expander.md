@@ -1,8 +1,8 @@
 ---
 title: Expandeur des paramètres d’une URL simple
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 'Pour spécifier une nouvelle URL simple, supprimer une URL simple existante ou modifier l’URL simple active, procédez comme suit :'
-ms.openlocfilehash: 19d62f560de23276d3689a7a3083d014e25794b0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a2b9a6dbf6e05a6bcc3b7d47adfe63f7d852593f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828857"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402108"
 ---
 # <a name="simple-url-settings-expander"></a>Expandeur des paramètres d’une URL simple
 

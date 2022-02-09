@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres généraux du serveur frontal pour Lync Server 2010
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant ou en configurant les attributs suivants. La page de configuration s’organise autour des sections suivantes :'
-ms.openlocfilehash: b515acd1aa475247f0f87206a0af50eedb21a294
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f7e24becd6ed461d4ce6f43b121bad18162243ce
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855561"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403996"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expandeur des paramètres généraux du serveur frontal pour Lync Server 2010
 
@@ -30,12 +30,12 @@ Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant
 
 - **FQDN :** nom de domaine complet du serveur frontal ou du pool frontal.
 
-- Sélectionnez **Utiliser toutes les adresses IP configurées** pour utiliser toutes les adresses configurées sur le serveur frontal ou le pool frontal.
+- **Sélectionnez Utiliser toutes les adresses IP configurées** pour utiliser toutes les adresses configurées sur le serveur frontal ou le pool frontal.
 
     > [!IMPORTANT]
     > Vous ne devez pas sélectionner cette option si vous coloquez le serveur de médiation sur le serveur frontal ou le pool frontal. Les serveurs de médiation et les serveurs frontaux ont besoin d’adresses IP dédiées sur lesquelles communiquer.
 
-- Sélectionnez Limiter l’utilisation du service aux **adresses IP sélectionnées** et entrez l’adresse IP de l’adresse **IP** principale pour la communication entre le serveur frontal ou le pool frontal avec le reste du déploiement. Tapez dans **l’adresse IP PSTN** l’adresse IP associée au serveur de médiation.
+- **Sélectionnez Limiter l’utilisation du service aux adresses IP sélectionnées** et entrez l’adresse IP de l’adresse **IP** principale pour la communication entre le serveur frontal ou le pool frontal avec le reste du déploiement. Tapez dans **l’adresse IP PSTN** l’adresse IP associée au serveur de médiation.
 
     **Fonctionnalités**
 
@@ -43,23 +43,23 @@ Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant
 
 - Si vous avez sélectionné Conférence, **Conférence rendez-vous (PSTN)** peut l’être également. Activez cette case à cocher pour mettre en œuvre les fonctionnalités de conférence rendez-vous.
 
-- Activez la case à cocher **Voix Entreprise** si vous avez l’intention de déployer des fonctionnalités permettant à Lync Server 2013 d’agir en tant que système vocal téléphonique à l’aide des technologies VoIP (Voice over IP), notamment la possibilité de déployer des téléphones combinés, des trunks SIP ou une connectivité réseau téléphonique commuté public à l’aide du serveur de médiation, des passerelles PSTN et du système IP-PBX, en combinaison ou seul,  en fonction de la conception et des exigences. Pour plus d’Voix Entreprise, voir [Voix Entreprise](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) et Planifier Voix Entreprise dans [Skype Entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Activez la case à cocher **Voix Entreprise** si vous avez l’intention de déployer des fonctionnalités permettant à Lync Server 2013 d’agir en tant que système vocal téléphonique à l’aide des technologies VoIP (Voice over IP), y compris la possibilité de déployer des téléphones combinés, des trunks SIP ou une connectivité réseau téléphonique commuté public à l’aide du serveur de médiation, des passerelles PSTN et du système IP-PBX, en combinaison ou seul, en fonction de la conception et des exigences. Pour plus d’Voix Entreprise, voir [Voix Entreprise](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) et [Planifier Voix Entreprise dans Skype Entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Associations**
 
-- **SQL Server store**: le nom de SQL Server (et éventuellement une instance nommée) associé au serveur frontal ou au pool frontal. Vous sélectionnez le magasin SQL Server dans la liste ou vous créez un magasin SQL Server en cliquant sur **Nouveau**.
+- **SQL Server :** nom de nom de SQL Server (et éventuellement une instance nommée) associé au serveur frontal ou au pool frontal. Vous sélectionnez le magasin SQL Server dans la liste ou vous créez un magasin SQL Server en cliquant sur **Nouveau**.
 
-- Magasin de fichiers : vous sélectionnez le nom deqdn du serveur et le partage (au format ) qui sert d’emplacement de magasin de fichiers pour les fichiers partagés que `\\<FQDN of server>\<share name>` Lync Server 2013 crée et utilise à des fins de réplication, d’annuaires de conférences et d’autres fins. Vous sélectionnez le magasin de fichiers dans la liste ou vous créez un magasin de fichiers en cliquant sur **Nouveau**.
+- Magasin de fichiers : vous sélectionnez le nom deqdn du serveur et le partage (au format `\\<FQDN of server>\<share name>`) qui sert d’emplacement de magasin de fichiers pour les fichiers partagés que Lync Server 2013 crée et utilise à des fins de réplication, d’annuaires de conférences et d’autres fins. Vous sélectionnez le magasin de fichiers dans la liste ou vous créez un magasin de fichiers en cliquant sur **Nouveau**.
 
 - Activez **la case à cocher** Associer un serveur d’archivage pour activer un serveur d’archivage pour ce serveur frontal ou pool frontal. Après avoir cocher la case, vous sélectionnez un serveur d’archivage existant dans la liste ou cliquez sur **Nouveau** pour créer les définitions d’un nouveau serveur d’archivage.
 
 - Activez la **case à cocher Associer** un serveur de surveillance pour activer un serveur de surveillance pour ce serveur frontal ou pool frontal. Après avoir cocher la case, vous sélectionnez un serveur de surveillance existant dans la liste ou cliquez sur **Nouveau** pour créer les définitions d’un nouveau serveur de surveillance.
 
-- Activez la case à cocher Associer un pool de serveurs Edge (pour les **composants multimédias)** pour activer un serveur Edge pour ce serveur frontal ou pool frontal. Après avoir cocher la case, vous sélectionnez un serveur Edge ou un pool de serveurs Edge existants dans la liste ou cliquez sur **Nouveau** pour créer les définitions d’un nouveau serveur Edge ou pool de serveurs Edge.
+- Activez **la case à cocher Associer un pool de serveurs Edge (pour les composants multimédias** ) pour activer un serveur Edge pour ce serveur frontal ou pool frontal. Après avoir cocher la case, vous sélectionnez un serveur Edge ou un pool de serveurs Edge existants dans la liste ou cliquez sur **Nouveau** pour créer les définitions d’un nouveau serveur Edge ou pool de serveurs Edge.
 
   **Résilience**
 
-- Cochez la case Pool de serveurs d’inscriptions de sauvegarde associé pour sélectionner dans la liste un serveur frontal ou pool frontal qui sera le serveur d’inscriptions de sauvegarde (c’est-à-dire, le serveur frontal ou le pool frontal désigné comme serveur d’inscriptions secondaire en cas de panne du serveur principal) 
+- Cochez la case Pool de serveurs d’inscriptions de sauvegarde associé pour sélectionner dans la liste un serveur frontal ou pool frontal qui sera le serveur d’inscriptions de sauvegarde (c’est-à-dire, le serveur frontal ou le pool frontal désigné comme serveur d’inscriptions secondaire en cas de panne du serveur principal)
 
 - Si vous avez sélectionné Pool de serveurs d’inscriptions de sauvegarde associé et si vous avez choisi un serveur d’inscriptions de sauvegarde, vous pouvez activer la case à cocher **Basculement et restauration automatiques pour Voice**. Vous pouvez maintenant définir des propriétés numériques pour **Intervalle de détection d’échec Voice (en secondes)** et **Intervalle de restauration automatique Voice (en secondes)**. Pour plus d’informations, voir [Planning for Enterprise Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice-resiliency)
 
@@ -77,21 +77,21 @@ Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant
 
   **Serveur de médiation**
 
-- Pour configurer  les propriétés du serveur de médiation pour un serveur de médiation c collocisé (c’est-à-dire, un serveur de médiation déployé sur le serveur frontal ou le pool frontal), sélectionnez Serveur de médiation cococéré **activé.**
+- Pour configurer les  propriétés du serveur de médiation pour un serveur de médiation c collocisé (c’est-à-dire, un serveur de médiation déployé sur le serveur frontal ou le pool frontal), sélectionnez Serveur de médiation cococéré **activé**.
 
-- Pour définir les **ports d’écoute** d’un serveur de médiation câpisé, tapez la valeur du port **TLS** et **TCP** sur qui le serveur de médiation câpisé écoute. Par défaut, TLS est défini comme le port TCP 5067.
+- Pour définir les **ports d’écoute** d’un serveur de médiation câpisé, tapez la valeur du port **TLS** et **TCP** que le serveur de médiation câpisé écoute. Par défaut, TLS est défini comme le port TCP 5067.
 
-- Pour définir une valeur de port TCP pour le serveur de médiation, activez la case à cocher Activer le **port TCP.** Par défaut, le serveur de médiation utilise le protocole TLS (Transport Layer Security) sur le protocole TCP. Les ports TCP sont disponibles uniquement lorsqu’est activée la sélection Activer le port TCP.
+- Pour définir une valeur de port TCP pour le serveur de médiation, activez la case à cocher Activer le **port TCP** . Par défaut, le serveur de médiation utilise le protocole TLS (Transport Layer Security) sur le protocole TCP. Les ports TCP sont disponibles uniquement lorsqu’est activée la sélection Activer le port TCP.
 
     > [!NOTE]
     > Il s’agit d’un paramètre facultatif et vous devriez vous reporter aux conditions requises de votre passerelle ou de votre réseau public commuté pour déterminer si vous en avez besoin. Par défaut, la valeur du port TCP est 5068.
 
 - Vous définissez des jonctions associées au serveur de médiation colocalisé. Si vous avez déjà défini des jonctions, elles pourront être associées au serveur de médiation.
 
-    Si plusieurs passerelles sont associées à un serveur de médiation, vous pouvez spécifier la passerelle par défaut en sélectionnant la passerelle que vous souhaitez utiliser par défaut, puis en cliquant sur Utiliser par **défaut.** Si vous choisissez de supprimer la passerelle par défaut actuelle, sélectionnez-la, puis cliquez sur **Annuler Par défaut**.
+    Si plusieurs passerelles sont associées à un serveur de médiation, vous pouvez spécifier la passerelle par défaut en sélectionnant la passerelle que vous souhaitez utiliser par défaut, puis en cliquant sur Utiliser par **défaut**. Si vous choisissez de supprimer la passerelle par défaut actuelle, sélectionnez-la, puis cliquez sur **Annuler Par défaut**.
 
 > [!IMPORTANT]
-> Si vous modifiez les propriétés de cette boîte de dialogue, vous devez publier la topologie et exécuter l’Assistant Déploiement Skype Entreprise Server sur tous les serveurs concernés. Après la publication de la nouvelle topologie, une liste des serveurs affectés sur lequel l’Assistant déploiement Skype Entreprise Server doit être exécuté est fournie sous forme de lien sur l’écran récapitulatif de publication de la topologie. Pour plus d’informations sur la publication de la topologie mise à jour, voir [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology). Pour plus d’informations sur l Skype Entreprise Server de déploiement, voir [Outils d’administration Lync Server.](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)
+> Si vous modifiez les propriétés de cette boîte de dialogue, vous devez publier la topologie et exécuter l’Assistant Déploiement Skype Entreprise Server sur tous les serveurs concernés. Après la publication de la nouvelle topologie, une liste des serveurs affectés sur lequel l’Assistant déploiement Skype Entreprise Server doit être exécuté est fournie sous forme de lien sur l’écran récapitulatif de publication de la topologie. Pour plus d’informations sur la publication de la topologie mise à jour, voir [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology). Pour plus d’informations sur l Skype Entreprise Server de déploiement, voir [Lync Server Administrative Tools](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools).
 
 Cliquez sur **OK** pour enregistrer et valider les modifications que vous avez apportées au document de topologie.
 

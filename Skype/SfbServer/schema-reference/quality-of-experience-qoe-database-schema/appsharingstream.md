@@ -1,8 +1,8 @@
 ---
 title: Table AppSharingStream
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) pour les flux de données réseau utilisés pour le partage d’application. Ce tableau a été introduit dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 6bd74e7e67a5292382a09f6a4cba7fb73fb9c100
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 69313a2885f954245460963f119619fb2b91c8d6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862001"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398528"
 ---
 # <a name="appsharingstream-table"></a>Table AppSharingStream
  
@@ -42,9 +42,9 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 |**RelativeOneWayTotal** <br/> |float  <br/> ||Quantité totale de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.  <br/> |
 |**RelativeOneWayAverage** <br/> |float  <br/> ||Quantité moyenne de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.  <br/> |
 |**RelativeOneWayMax** <br/> |float  <br/> ||Quantité maximale de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.  <br/> |
-|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Nombre total d’occurrences de rafales unidirectionnelles. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux de données régulier. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> |
-|**RelativeOneWayBurstDensity** <br/> |float  <br/> ||Densité totale des rafales unidirectionnelles. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux de données régulier. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> |
-|**RelativeOneWayBurstDuration** <br/> |float  <br/> ||Durée totale des rafales unidirectionnelles. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux de données régulier. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> |
+|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Nombre total d’occurrences de rafales unidirectionnelles. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> |
+|**RelativeOneWayBurstDensity** <br/> |float  <br/> ||Densité totale des rafales unidirectionnelles. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> |
+|**RelativeOneWayBurstDuration** <br/> |float  <br/> ||Durée totale des rafales unidirectionnelles. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> |
 |**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Nombre total d’occurrences d’intervalles unidirectionnels. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier ; les intervalles indiquent des retards entre ces rafales. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> |
 |**RelativeOneWayGapDensity** <br/> |float  <br/> ||Densité totale des intervalles unidirectionnels. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier ; les intervalles indiquent des retards entre ces rafales. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> |
 |**RelativeOneWayGapDuration** <br/> |float  <br/> ||Durée totale des intervalles unidirectionnels. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier ; les intervalles indiquent des retards entre ces rafales. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> |
@@ -52,9 +52,9 @@ La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) p
 |**RDPTileProcessingLatencyTotal** <br/> |float  <br/> ||Temps total de traitement des mosaïques RDP (Remote Desktop Protocol). Un total plus élevé équivaut à une expérience de visionnage plus longue.  <br/> |
 |**RDPTileProcessingLatencyAverage** <br/> |float  <br/> ||Temps moyen de traitement des mosaïques RDP (Remote Desktop Protocol). Un total plus élevé équivaut à une expérience de visionnage plus longue.  <br/> |
 |**RDPTileProcessingLatencyMax** <br/> |float  <br/> ||Temps maximal de traitement des mosaïques RDP (Remote Desktop Protocol). Un total plus élevé équivaut à une expérience de visionnage plus longue.  <br/> |
-|**RDPTileProcessingLatencyBurstOccurrences** <br/> |int  <br/> ||Occurrences de rafales dans le temps de traitement des mosaïques RDP (Remote Desktop Protocol). Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux de données régulier.  <br/> |
-|**RDPTileProcessingLatencyBurstDensity** <br/> |float  <br/> ||Densité des rafales dans le temps de traitement des mosaïques RDP (Remote Desktop Protocol). Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux de données régulier.  <br/> |
-|**RDPTileProcessingLatencyBurstDuration** <br/> |float  <br/> ||Durée des rafales dans le temps de traitement des mosaïques RDP (Remote Desktop Protocol). Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux de données régulier.  <br/> |
+|**RDPTileProcessingLatencyBurstOccurrences** <br/> |int  <br/> ||Occurrences de rafales dans le temps de traitement des mosaïques RDP (Remote Desktop Protocol). Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier.  <br/> |
+|**RDPTileProcessingLatencyBurstDensity** <br/> |float  <br/> ||Densité des rafales dans le temps de traitement des mosaïques RDP (Remote Desktop Protocol). Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier.  <br/> |
+|**RDPTileProcessingLatencyBurstDuration** <br/> |float  <br/> ||Durée des rafales dans le temps de traitement des mosaïques RDP (Remote Desktop Protocol). Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier.  <br/> |
 |**RDPTileProcessingLatencyGapOccurrences** <br/> |int  <br/> ||Occurrences d’intervalles dans le temps de traitement des mosaïques RDP (Remote Desktop Protocol).  <br/> |
 |**RDPTileProcessingLatencyGapDensity** <br/> |float  <br/> ||Densité d’intervalles dans le temps de traitement des mosaïques RDP (Remote Desktop Protocol). Une faible densité d’intervalles équivaut à une meilleure expérience de visionnage.  <br/> |
 |**RDPTileProcessingLatencyGapDuration** <br/> |float  <br/> ||Durée des intervalles dans le temps de traitement des mosaïques RDP (Remote Desktop Protocol). De brèves durées d’intervalle équivalent à une meilleure expérience de visionnage.  <br/> |

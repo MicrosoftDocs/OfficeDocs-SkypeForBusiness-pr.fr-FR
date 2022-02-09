@@ -1,8 +1,8 @@
 ---
 title: Sélectionner des régions
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 1b79b214-cc7b-4686-b7e2-f451910335fd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Sélectionner des régions pour rechercher les régions disponibles dans votre environnement. Pour utiliser une région existante, cliquez sur un site dans la liste, puis sur OK.
-ms.openlocfilehash: 6b4e1e48c76d3a441e68230e652fe53ce21869f5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: aeb70c9d4be67436e358b89d133d93e520edfac8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839526"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403378"
 ---
 # <a name="select-regions"></a>Sélectionner des régions
  

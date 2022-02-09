@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres du pool de serveurs Edge
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Les sections suivantes vous permettent de modifier les paramètres d’un pool Edge de serveur unique ou de serveurs multiples :'
-ms.openlocfilehash: e0ad220836bb1a72ebf762e866ab6d3e4a7cd2fb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ab0a94634ba1bd69d4e67a4b47866103ca7b18be
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852168"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397828"
 ---
 # <a name="edge-settings-expander"></a>Expandeur des paramètres du pool de serveurs Edge
 

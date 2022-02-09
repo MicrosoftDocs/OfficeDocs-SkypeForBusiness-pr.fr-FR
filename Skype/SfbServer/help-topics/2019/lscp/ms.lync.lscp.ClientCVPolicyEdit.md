@@ -1,8 +1,8 @@
 ---
 title: 'Stratégie de version du client : création d’une stratégie ou modification d’une stratégie existante'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez spécifier la version des clients pris en charge dans votre environnement. Quand deux clients exécutant des versions distinctes interagissent, les fonctionnalités accessibles à l’un des clients peuvent être limitées par les capacités de l’autre client.
-ms.openlocfilehash: a3549bc94cc886526610c40ee4cddb75310ebe74
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 825969cc9ed6010a1e9858879d1db17b7b77f508
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840526"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398247"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>Stratégie de version du client : création d’une nouvelle ou modification d’une stratégie existante
 
@@ -55,4 +55,4 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
 
 - **Flèches haut et bas** Cette option déplace la règle de version du client sélectionnée vers le haut ou vers le bas en priorité. Les règles sont traitées dans l’ordre répertorié.
 
-Pour plus d’informations sur l’interopérabilité entre les clients et les versions des clients, voir [Interopérabilité du client.](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) Pour plus d’informations sur l’utilisation des stratégies de version du client, voir [Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013) dans la documentation des opérations.
+Pour plus d’informations sur l’interopérabilité entre les clients et les versions des clients, voir [Interopérabilité du client](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013). Pour plus d’informations sur l’utilisation des stratégies de version du client, voir [Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013) dans la documentation des opérations.

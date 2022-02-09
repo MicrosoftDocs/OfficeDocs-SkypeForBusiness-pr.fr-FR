@@ -1,8 +1,8 @@
 ---
 title: Services de domaine Active Directory pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,23 +12,23 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
-description: Les services de domaine Active Directory fonctionnent en tant que service d’annuaire pour les réseaux Windows Server 2003, Windows Server 2008, Windows Server 2012 et Windows Server 2012 R2. Les services de domaine Active Directory servent également de base à la Skype Entreprise Server de sécurité de l’utilisateur. L’objectif de cette section est de décrire comment Skype Entreprise Server utilise les services de domaine Active Directory pour créer un environnement digne de confiance pour la messagerie instantanée, les conférences Web, les médias et la voix. Pour plus d’informations sur la préparation de votre environnement pour les services de domaine Active Directory, voir Install Skype Entreprise Server in the Deployment documentation. Pour des détails sur le rôle des services de domaine Active Directory dans les réseaux Windows Server, voir la documentation concernant votre version du système d’exploitation.
-ms.openlocfilehash: a96d2691513ae98195856f717b338a98e589a28e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Les services de domaine Active Directory fonctionnent en tant que service d’annuaire pour les réseaux Windows Server 2003, Windows Server 2008, Windows Server 2012 et Windows Server 2012 R2. Les services de domaine Active Directory servent également de base sur laquelle repose l’infrastructure Skype Entreprise Server de sécurité active. L’objectif de cette section est de décrire comment Skype Entreprise Server utilise les services de domaine Active Directory pour créer un environnement digne de confiance pour la messagerie instantanée, les conférences Web, les médias et la voix. Pour plus d’informations sur la préparation de votre environnement pour les services de domaine Active Directory, voir Install Skype Entreprise Server in the Deployment documentation. Pour des détails sur le rôle des services de domaine Active Directory dans les réseaux Windows Server, voir la documentation concernant votre version du système d’exploitation.
+ms.openlocfilehash: d0b537aa862923c6354a80425a8727734b05c039
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859011"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401718"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Services de domaine Active Directory pour Skype Entreprise Server
  
-Les services de domaine Active Directory fonctionnent en tant que service d’annuaire pour les réseaux Windows Server 2003, Windows Server 2008, Windows Server 2012 et Windows Server 2012 R2. Les services de domaine Active Directory servent également de base à la Skype Entreprise Server de sécurité de l’utilisateur. L’objectif de cette section est de décrire comment Skype Entreprise Server utilise les services de domaine Active Directory pour créer un environnement digne de confiance pour la messagerie instantanée, les conférences Web, les médias et la voix. Pour plus d’informations sur la préparation de votre environnement pour les services de domaine Active Directory, voir [Install Skype Entreprise Server](../../deploy/install/install.md) in the Deployment documentation. Pour des détails sur le rôle des services de domaine Active Directory dans les réseaux Windows Server, voir la documentation concernant votre version du système d’exploitation.
+Les services de domaine Active Directory fonctionnent en tant que service d’annuaire pour les réseaux Windows Server 2003, Windows Server 2008, Windows Server 2012 et Windows Server 2012 R2. Les services de domaine Active Directory servent également de base sur laquelle repose l’infrastructure Skype Entreprise Server de sécurité active. L’objectif de cette section est de décrire comment Skype Entreprise Server utilise les services de domaine Active Directory pour créer un environnement digne de confiance pour la messagerie instantanée, les conférences Web, les médias et la voix. Pour plus d’informations sur la préparation de votre environnement pour les services de domaine Active Directory, voir [Install Skype Entreprise Server](../../deploy/install/install.md) in the Deployment documentation. Pour des détails sur le rôle des services de domaine Active Directory dans les réseaux Windows Server, voir la documentation concernant votre version du système d’exploitation.
   
 Skype Entreprise Server services de domaine Active Directory pour stocker :
   
 - Paramètres globaux que tous les serveurs exécutant Skype Entreprise Server dans une forêt requièrent.
     
-- Informations de service qui identifient les rôles de tous les serveurs exécutant des Skype Entreprise Server dans une forêt.
+- Informations de service qui identifient les rôles de tous les serveurs exécutant Skype Entreprise Server dans une forêt.
     
 - Certains paramètres utilisateur.
     
@@ -42,7 +42,7 @@ Les conditions d’infrastructure requises pour Active Directory incluent les su
     
 - Configuration de catalogue global requise
     
-Pour plus d’informations, voir [Environmental requirements for Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype Entreprise Server [2019](../../../SfBServer2019/plan/system-requirements.md).
+Pour plus d’informations, voir [Environmental requirements for Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype Entreprise Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 ## <a name="universal-groups"></a>Groupes universels
 
@@ -52,7 +52,7 @@ Lors de la préparation de la forêt, Skype Entreprise Server crée différents 
     
 - **Groupes de services** Ces groupes sont des comptes de service requis pour accéder aux différents services fournis par Skype Entreprise Server.
     
-- **Groupes d’infrastructure.** Ces groupes permettent d’accéder à des zones spécifiques de l’infrastructure Skype Entreprise Server’infrastructure. Ils fonctionnent comme des composants de groupes d’administration et vous ne devez pas les modifier ou y ajouter directement des utilisateurs. Pendant la préparation de la forêt, des groupes de services et d’administration spécifiques sont ajoutés aux groupes d’infrastructure appropriés.
+- **Groupes d’infrastructure**. Ces groupes permettent d’accéder à des zones spécifiques de l’infrastructure Skype Entreprise Server’infrastructure. Ils fonctionnent comme des composants de groupes d’administration et vous ne devez pas les modifier ou y ajouter directement des utilisateurs. Pendant la préparation de la forêt, des groupes de services et d’administration spécifiques sont ajoutés aux groupes d’infrastructure appropriés.
     
 Pour plus d’informations sur les groupes universels spécifiques créés lors de la préparation d’AD pour Skype Entreprise Server, ainsi que sur les groupes de service et d’administration ajoutés aux groupes d’infrastructure, voir Modifications apportées par la préparation de la forêt dans [Skype Entreprise Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) dans la documentation de déploiement.
   
@@ -65,7 +65,7 @@ Outre la création de groupes de service et d’administration universels et l�
   
 ## <a name="access-control-entries-aces-and-inheritance"></a>Entrées de contrôle d’accès (ACE) et héritage
 
-La préparation de la forêt crée des ace privées et publiques et ajoute des ace pour les groupes universels qu’elle crée. Il crée des ace privées spécifiques sur le conteneur de paramètres globaux utilisé par Skype Entreprise Server. Ce conteneur est utilisé uniquement par Skype Entreprise Server et se trouve soit dans le conteneur configuration, soit dans le conteneur système dans le domaine racine, selon l’emplacement où vous stockez les paramètres globaux.
+La préparation de la forêt crée des ace privées et publiques et ajoute des ACE pour les groupes universels qu’elle crée. Il crée des ace privées spécifiques sur le conteneur de paramètres globaux utilisé par Skype Entreprise Server. Ce conteneur est utilisé uniquement par Skype Entreprise Server et se trouve soit dans le conteneur Configuration, soit dans le conteneur Système dans le domaine racine, selon l’emplacement où vous stockez les paramètres globaux.
   
 L’étape de préparation du domaine ajoute les entrées de contrôle d’accès nécessaires aux groupes universels qui accordent les autorisations d’hébergement et de gestion des utilisateurs dans le domaine. La préparation du domaine créé des entrées de contrôle d’accès sur la racine du domaine et dans trois conteneurs intégrés : Utilisateurs, Ordinateurs et Contrôleurs de domaine.
   
@@ -85,11 +85,11 @@ Pendant l’activation, Skype Entreprise Server des informations sur le serveur 
     
 ## <a name="service-connection-points"></a>Points de connexion de service
 
-Chaque objet Skype Entreprise Server dans les services de domaine Active Directory possède un point de service SCP appelé RTC Services, qui contient à son tour un certain nombre d’attributs qui identifient chaque ordinateur et spécifient les services qu’il fournit. Les attributs SCP les plus importants sont  *serviceDNSName*  , *serviceDNSNameType*  , *serviceClassname*  et *serviceBindingInformation*  . Les applications tierces de gestion des actifs peuvent obtenir des informations sur les serveurs d’un déploiement en recherchant ces attributs, ainsi que d’autres attributs de point de connexion de service.
+Chaque objet Skype Entreprise Server dans les services de domaine Active Directory possède un point de service SCP appelé RTC Services, qui contient à son tour un certain nombre d’attributs qui identifient chaque ordinateur et spécifient les services qu’il fournit. Parmi les attributs SCP les plus importants figurent  *serviceDNSName*  , *serviceDNSNameType*  , *serviceClassname*  et *serviceBindingInformation*  . Les applications tierces de gestion des actifs peuvent obtenir des informations sur les serveurs d’un déploiement en recherchant ces attributs, ainsi que d’autres attributs de point de connexion de service.
   
 ## <a name="active-directory-server-objects"></a>Objets serveur Active Directory
 
-Chaque Skype Entreprise Server de serveur a un objet Active Directory correspondant dont les attributs définissent les services fournis par ce rôle. En outre, lorsqu’un serveur Édition Standard est activé ou lorsqu’un pool Êdition Entreprise est créé, Skype Entreprise Server crée un objet **msRTCSIP-Pool** dans le conteneur **msRTCSIP-Pools.** La classe **msRTCSIP-Pool** définit le nom de domaine complet (FQDN) du pool, de même que l’association entre les composants frontal et principal du pool. (Un serveur Standard Edition Server est considéré comme un pool logique dont les composants frontal et principal sont colocalisés sur un même ordinateur.)
+Chaque Skype Entreprise Server de serveur a un objet Active Directory correspondant dont les attributs définissent les services fournis par ce rôle. En outre, lorsqu’un serveur Édition Standard est activé ou lorsqu’un pool Êdition Entreprise est créé, Skype Entreprise Server crée un objet **msRTCSIP-Pool** dans le conteneur **msRTCSIP-Pools**. La classe **msRTCSIP-Pool** définit le nom de domaine complet (FQDN) du pool, de même que l’association entre les composants frontal et principal du pool. (Un serveur Standard Edition Server est considéré comme un pool logique dont les composants frontal et principal sont colocalisés sur un même ordinateur.)
   
 ## <a name="trusted-servers"></a>Serveurs approuvés
 
@@ -97,11 +97,11 @@ Dans Skype Entreprise Server, les serveurs de confiance sont ceux spécifiés lo
   
 - Le nom de domaine complet (FQDN) du serveur existe dans la topologie stockée dans le magasin central de gestion.
     
-- Le serveur présente un certificat valide émanant d’une autorité de certification approuvée. Pour plus d’informations, voir [Environmental requirements for Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or System requirements for Skype Entreprise Server [2019](../../../SfBServer2019/plan/system-requirements.md).
+- Le serveur présente un certificat valide émanant d’une autorité de certification approuvée. Pour plus d’informations, voir [Environmental requirements for Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [System requirements for Skype Entreprise Server 2019](../../../SfBServer2019/plan/system-requirements.md).
     
 Si un de ces critères n’est pas respecté, le serveur n’est pas approuvé et la connexion au serveur est refusée. Cette double exigence empêche une attaque possible, si peu probable, au cours de laquelle un serveur non malveillant tente de prendre le nom de groupe d’un serveur valide.
   
-En outre, pour permettre aux déploiements Microsoft Office Communications Server 2007 R2 et Microsoft Office Communications Server 2007 de communiquer avec des serveurs Skype Entreprise Server, Skype Entreprise Server crée des conteneurs lors de la préparation de la forêt pour la mise en place de listes de serveurs de confiance pour les versions précédentes. Le tableau ci-dessous décrit les conteneurs créés dans un but de compatibilité avec les déploiements précédents.
+En outre, pour permettre aux déploiements Microsoft Office Communications Server 2007 R2 et Microsoft Office Communications Server 2007 de communiquer avec des serveurs Skype Entreprise Server, Skype Entreprise Server  crée des conteneurs lors de la préparation de la forêt pour la mise en place de listes de serveurs de confiance pour les versions précédentes. Le tableau ci-dessous décrit les conteneurs créés dans un but de compatibilité avec les déploiements précédents.
   
 **Listes de serveurs approuvés et leurs conteneurs Active Directory pour compatibilité avec les éditions précédentes**
 

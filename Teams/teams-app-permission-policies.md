@@ -1,7 +1,7 @@
 ---
 title: Gérer les stratégies d’autorisation d’application dans Microsoft Teams
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b407d0c96e5aa9cbf84277285ab717a1950a9f17
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b5f6941de4973362f8cdbd99235d099973264c7a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761692"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396242"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gérer les stratégies d’autorisation d’application dans Microsoft Teams
 
@@ -45,7 +45,7 @@ Si votre organisation utilise déjà Teams, les paramètres de l’application q
 Par exemple, vous voulez bloquer toutes les applications tierces et autoriser des applications spécifiques de Microsoft pour l’équipe RH de votre organisation. Tout d’abord, vous devez vous rendre sur la page [Gérer les applications](manage-apps.md) et vous assurer que les applications que vous voulez autoriser pour l’équipe RH sont autorisées au niveau de l’organisation. Ensuite, créez une stratégie personnalisée appelée Stratégie d'autorisation des applications RH, définissez-la pour bloquer et autoriser les applications que vous souhaitez, et affectez-la aux utilisateurs de l'équipe RH.
 
 > [!NOTE]
-> Si vous avez déployé Teams dans un environnement MICROSOFT 365 CLOUD DE LA COMMUNAUTÉ DU SECTEUR PUBLIC High (GCCH) et Department of Defense (DoD), voir Gérer les [paramètres](#manage-org-wide-app-settings-for-microsoft-365-government) d’application à l’échelle de l’organisation pour Microsoft 365 Government pour en savoir plus sur les paramètres d’applications tierces propres à GCCH et DoD.
+> Si vous avez déployé Teams dans un environnement MICROSOFT 365 CLOUD DE LA COMMUNAUTÉ DU SECTEUR PUBLIC High (GCCH) et Department of Defense (DoD), consultez Gérer les paramètres des applications à l’échelle de l’organisation pour [Microsoft 365 Government](#manage-org-wide-app-settings-for-microsoft-365-government) pour en savoir plus sur les paramètres d’applications tierces propres à GCCH et DoD.
 
 ## <a name="create-a-custom-app-permission-policy"></a>Créer une stratégie d’autorisation d’application personnalisée
 

@@ -1,7 +1,7 @@
 ---
 title: Liste de vérification de la mise à niveau | Skype la mise à niveau vers Teams entreprise | Étapes de base
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3d7ef1ae0375b7cdec373450135e5eed148f776
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 9ad2dcc08bcbb1136c1b00fccf16b4e1e80a74f2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562796"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400808"
 ---
 # <a name="upgrade-basic"></a>Mise à niveau de base
 
@@ -164,7 +164,7 @@ Les utilisateurs sont occupés par leurs responsabilités quotidiennes. Le rappe
 
 *(Jour de mise à niveau)*
 
-Aujourd’hui, c’est le jour où votre organisation Teams mise à niveau officielle comme solution de communication et de collaboration. Dans le Microsoft Teams d’administration, activez le commutateur de mise à niveau en activant le mode de coexistence **Teams uniquement.** (Dans le Centre d’administration, Teams   >  **Teams paramètres de mise à niveau.)** Les utilisateurs reçoivent une notification dans leur client Skype Entreprise qu’ils ont été mis à niveau vers Teams.
+Aujourd’hui, c’est le jour où votre organisation Teams mise à niveau officielle comme solution de communication et de collaboration. Dans le Microsoft Teams d’administration, activez le commutateur de mise à niveau en activant le mode de coexistence **Teams uniquement**. (Dans le Centre d’administration, Teams  > **Teams paramètres de mise à niveau**.) Les utilisateurs reçoivent une notification dans leur client Skype Entreprise qu’ils ont été mis à niveau vers Teams.
 
 Une fois la mise à niveau mise à niveau, nous vous recommandons d’envoyer un courrier électronique pour le Teams.
 
@@ -203,7 +203,7 @@ La satisfaction des employés peut influencer la productivité, la rétention et
 
 **Ressources :**
 
-- [Exemple de courrier électronique : contactez les utilisateurs,](upgrade-emails-surveys.md#step-9-email)ainsi que les enquêtes [des utilisateurs](upgrade-emails-surveys.md#step-9-surveys)
+- [Exemple de courrier électronique : contactez les utilisateurs](upgrade-emails-surveys.md#step-9-email), ainsi que les enquêtes [des utilisateurs](upgrade-emails-surveys.md#step-9-surveys)
 
 [Retour au début](#about-upgrade-basic)
 

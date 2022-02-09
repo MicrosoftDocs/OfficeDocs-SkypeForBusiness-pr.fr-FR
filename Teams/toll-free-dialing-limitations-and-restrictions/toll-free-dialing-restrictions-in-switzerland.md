@@ -1,7 +1,7 @@
 ---
 title: Restrictions de numérotation gratuites en Suisse
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous devez vous rendre sur une page spécifique du pays qui contient des détails, des restrictions et des limites spécifiques sur la disponibilité du service gratuit où un service gratuit est disponible. Le format ou les formats de numérotation indiquent les codes d’accès requis dans chaque pays ou région pour composer le numéro gratuit.
-ms.openlocfilehash: acde0d4fbee924755792c70243412a878a7b3917
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1de9d614a214727319d11a0540b44977ab9951c7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840666"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400798"
 ---
 # <a name="toll-free-dialing-restrictions-in-switzerland"></a>Restrictions de numérotation gratuites en Suisse
 
-[Trouvez un autre pays ou une autre région,](../toll-free-dialing-limitations-and-restrictions.md)ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
+[Trouvez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md) ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
 
 
 |**Détails**|**Description**|

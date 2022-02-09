@@ -1,7 +1,7 @@
 ---
 title: Téléphone gestion des nombres pour l’Autriche
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Autriche Microsoft Teams.
-ms.openlocfilehash: 535c49f22fcc09b70ac3e72414dc1e28cc3f89e6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 87b31bcf13f61b8ba60b6a19b72cebc97c76f029
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859721"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397568"
 ---
 # <a name="phone-number-management-for-austria"></a>Téléphone gestion des nombres pour l’Autriche
 
@@ -34,11 +34,11 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Téléchargez les formulaires corrects et envoyez-les-nous.**|
 |:-----|:-----|
-|Obtenez de nouveaux numéros de téléphone d’utilisateur et de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.   <br/> |Téléchargez l’un de ces formulaires. <br/>  Nouvelle demande de numéro de téléphone pour [l’Autriche (v.5.0) (de-de).](https://download.microsoft.com/download/6/7/e/67e342b8-babc-4b85-bc0d-a7d9cdfa3d87/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf) <br/>  Nouvelle demande de numéro de téléphone pour [l’Autriche (v.5.0) (en-us)](https://download.microsoft.com/download/c/0/e/c0e39cf0-6fa1-41c6-95fd-6f69ed030d15/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf). <br/>  <br/>Remplissez-le et [contactez le service desk TNS pour obtenir des instructions.](contact-tns-service-desk.md) <br/>  <br/>Vous devez également inclure une facture de service à partir de l’adresse professionnelle pour laquelle vous souhaitez obtenir de nouveaux numéros. <br/> 
-|Obtenez les numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation pour l’Autriche (tous les nombres) (v.5.0) (de-at)](https://download.microsoft.com/download/3/e/2/3e27f3ee-0f38-4d73-b8e8-b43b9e1d1381/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf) <br/> <br/>Remplissez-le et [contactez le service desk TNS pour obtenir des instructions.](contact-tns-service-desk.md)  <br/> <br/>Vous devez également inclure une facture de service à partir de l’adresse professionnelle pour laquelle vous souhaitez transférer des numéros.<br/> |
-|Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service TNS pour](contact-tns-service-desk.md) obtenir des instructions sur l’envoi de la liste des numéros de téléphone que vous voulez publier/désabolier.      <br/> |
-|Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |Pour obtenir des instructions sur l’envoi de la liste des numéros d’utilisateur à convertir en numéros de service, contactez le service [TNS.](contact-tns-service-desk.md) <br/> |
-|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier les numéros de file d’attente ou de numéro du personnel de la file d’attente automatique, contactez le service [de service TNS pour obtenir des instructions.](contact-tns-service-desk.md) |
+|Obtenez de nouveaux numéros de téléphone d’utilisateur et de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.   <br/> |Téléchargez l’un de ces formulaires. <br/>  [Nouvelle demande de numéro de téléphone pour l’Autriche (v.5.0) (de-de)](https://download.microsoft.com/download/6/7/e/67e342b8-babc-4b85-bc0d-a7d9cdfa3d87/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf) <br/>  [Nouvelle demande de numéro de téléphone pour l’Autriche (v.5.0) (en-us)](https://download.microsoft.com/download/c/0/e/c0e39cf0-6fa1-41c6-95fd-6f69ed030d15/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf) <br/>  <br/>Remplissez-le et [contactez le service desk TNS pour obtenir des instructions](contact-tns-service-desk.md). <br/>  <br/>Vous devez également inclure une facture de service à partir de l’adresse professionnelle pour laquelle vous souhaitez obtenir de nouveaux numéros. <br/> 
+|Obtenez les numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation pour l’Autriche (tous les nombres) (v.5.0) (de-at)](https://download.microsoft.com/download/3/e/2/3e27f3ee-0f38-4d73-b8e8-b43b9e1d1381/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf) <br/> <br/>Remplissez-le et [contactez le service desk TNS pour obtenir des instructions](contact-tns-service-desk.md).  <br/> <br/>Vous devez également inclure une facture de service à partir de l’adresse professionnelle pour laquelle vous souhaitez transférer des numéros.<br/> |
+|Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service TNS pour obtenir des instructions](contact-tns-service-desk.md) sur l’envoi de la liste des numéros de téléphone que vous souhaitez publier/publier.      <br/> |
+|Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Pour obtenir des instructions](contact-tns-service-desk.md) sur l’envoi de la liste des numéros d’utilisateur à convertir en numéros de service, contactez le service TNS. <br/> |
+|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier les numéros de file d’attente ou de numéro du personnel de service automatique, contactez le service de service [TNS pour obtenir des instructions](contact-tns-service-desk.md). |
 
 ## <a name="related-topics"></a>Voir aussi
 

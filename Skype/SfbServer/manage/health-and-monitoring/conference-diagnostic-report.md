@@ -1,8 +1,8 @@
 ---
 title: Rapport de diagnostic de conférence en Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
 description: 'Résumé : Découvrez le rapport de diagnostic de conférence utilisé dans Skype Entreprise Server.'
-ms.openlocfilehash: 4e15819e220459664875e6a868c2644262885060
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 54f13793e1e76957bfc81f5d46769c5593c82cf8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837556"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398928"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Rapport de diagnostic de conférence en Skype Entreprise Server
  
@@ -47,7 +47,7 @@ Le rapport de diagnostic de conférence est accessible à partir de la page d’
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>Utilisation du rapport de diagnostic de conférence
 
-Le rapport de diagnostic de conférence inclut une série de graphiques. Chacune des colonnes affichées dans le graphique est en fait un lien hypertexte. Si vous cliquez sur une colonne, vous allez consulter le rapport de répartition des défaillances dans [Skype Entreprise Server](failure-distribution-report.md) pour cette période et ce type de conférence.
+Le rapport de diagnostic de conférence inclut une série de graphiques. Chacune des colonnes affichées dans le graphique est en fait un lien hypertexte. Si vous cliquez sur une colonne, vous allez consulter le rapport de [répartition](failure-distribution-report.md) des défaillances dans Skype Entreprise Server pour cette période et ce type de conférence.
   
 ## <a name="filters"></a>Filtres
 

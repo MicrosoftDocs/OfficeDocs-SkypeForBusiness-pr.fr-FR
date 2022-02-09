@@ -1,8 +1,8 @@
 ---
 title: Paramètres de sécurité du service web
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4ea30583-e5bd-4498-9bd8-38604c61e658
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: d61cfbc569cf6415441b2c53f16a645b4aab4ea2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c8481baf2abfb9a790534bc6c185b9d260a1cc79
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856081"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402478"
 ---
 # <a name="web-service-security-settings"></a>Paramètres de sécurité du service web
 

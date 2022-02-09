@@ -1,7 +1,7 @@
 ---
 title: Comité directeur pour le déploiement de voix dans le cloud
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -16,18 +16,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cd588928f71926981c42f7c909e00c544243279e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fb615c326b5d9cbf0fc293b96541f768e48947d8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858871"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401658"
 ---
 # <a name="steering-committee"></a>Comité exécutif
 
 ## <a name="steering-committee-overview"></a>Présentation générale du comité d’équipe
 
-Un comité directeur est un groupe régissant les principales parties prenantes et les chefs de projet qui ont été rassemblés pour guider un projet ou un programme vers les résultats d’entreprise définis. Le comité directeur n’est  pas directement responsable de la  livraison du projet, mais plutôt de ses résultats.
+Un comité directeur est un groupe régissant les principales parties prenantes et les chefs de projet qui ont été rassemblés pour guider un projet ou un programme vers les résultats d’entreprise définis. Le comité directeur n’est pas directement responsable de  la livraison du projet, mais plutôt de ses  résultats.
 
 Chaque projet nécessite une vision et une charte acceptés. Pour fournir les résultats escomptés pour les projets, la vision doit être clairement définie, elle doit être contrôlée et maintenue. Cela devient la responsabilité du comité directeur : conduire des décisions, conseiller, fournir une surveillance stratégique, servir d’intervenants pour l’organisation pour les initiatives du projet et, si nécessaire, supprimer des bloqueurs.
 
@@ -128,7 +128,7 @@ Les ressources suivantes doivent être complétées et incluses dans l’présen
 
         -   Identifiez les étapes suivantes et l’aide qui pourrait être requise de la part des membres du comité.
 
--   Vue d’ensemble de la qualité : utiliser les conseils [de préparation de votre réseau pour Teams.](prepare-network.md)
+-   Vue d’ensemble de la qualité : utiliser les conseils [de préparation de votre réseau pour Teams](prepare-network.md).
 
     -   Soyez prêt à expliquer en détail les résultats de ces rapports de qualité et incluez des recommandations pour corriger les problèmes signalés.
 

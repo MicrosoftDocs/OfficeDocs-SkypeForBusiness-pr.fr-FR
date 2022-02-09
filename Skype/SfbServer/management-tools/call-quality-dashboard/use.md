@@ -1,8 +1,8 @@
 ---
 title: Utiliser le Tableau de bord de qualité des appels pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Résumé : Découvrez comment utiliser le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: a1a2f0c6d4cf07563f0aceb6379a9142930e1699
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5647622a04cbe449f426ae38b7d207fcbe2858e9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843807"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398828"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Utiliser le Tableau de bord de qualité des appels pour Skype Entreprise Server
 
-**Résumé :** Découvrez comment utiliser le Tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
+**Résumé :** Découvrez comment utiliser le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
 
-Le Tableau de bord de qualité des appels (CQD) permet aux professionnels de l’informatique d’utiliser des données agrégées pour identifier les problèmes de création de problèmes de qualité des médias en comparant des statistiques pour les groupes d’utilisateurs afin d’identifier les tendances et les modèles. Le CQD ne se concentre pas sur la résolution des problèmes d’appels individuels, mais sur l’identification des problèmes et des solutions qui s’appliquent à de nombreux utilisateurs.
+Le Tableau de bord de qualité des appels (CQD) permet aux professionnels de l’informatique d’utiliser des données agrégées pour identifier les problèmes de création de problèmes de qualité des médias en comparant les statistiques pour les groupes d’utilisateurs afin d’identifier les tendances et les modèles. Le CQD ne se concentre pas sur la résolution des problèmes d’appels individuels, mais sur l’identification des problèmes et des solutions qui s’appliquent à de nombreux utilisateurs.
 
 ## <a name="call-quality-dashboard-user-guide"></a>Guide de l’utilisateur du tableau de bord de qualité des appels
 
@@ -32,7 +32,7 @@ Le CQD est un portail web qui permet de créer et d’organiser rapidement des r
 
 - Données de rapport mises en cache pour un accès rapide
 - Liens profonds vers des pages de rapport pour le partage et la publication d’informations
-- Modification et création simplifiées des rapports et métadonnées modifiables pour les descriptions des rapports.
+- Modification et création simplifiées des rapports, et métadonnées modifiables pour les descriptions des rapports.
 
 En outre, le tableau de bord de qualité des applications expose des API web qui donnent aux utilisateurs un accès par programmation aux données de cube à utiliser dans des tableaux de bord personnalisés.
 
@@ -43,7 +43,7 @@ Lorsque vous visitez le Tableau de bord de qualité des appels, l’écran suiva
 ![Utilisez le CQD.](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
 
 1. Le volet « Résumé » est l’endroit où se trouve le contexte de l’ensemble de rapports (à droite).
-2. Cliquez sur « Modifier » dans le volet résumé pour définir les propriétés de niveau (y compris la hauteur de l’axe Y).
+2. Cliquez sur « Modifier » dans le volet Résumé Pour définir les propriétés de niveau (y compris la hauteur de l’axe Y).
 3. La breadcrumb vous permet d’identifier votre emplacement actuel dans la hiérarchie des ensembles de rapports.
 4. Les rapports avec sous-rapports sont affichés avec un lien bleu. Cliquez sur le lien pour descendre dans les rapports enfants.
 
@@ -53,11 +53,11 @@ Déplacez la souris sur les graphiques à barres et les lignes de tendance pour 
 
 Lorsque vous accédez pour la première fois au portail Tableau de bord de qualité des appels, un ensemble de rapports par défaut est créé automatiquement. Ces rapports sont parfois appelés rapports système. Vous pouvez librement modifier ou supprimer ces rapports ou les étendre en créant de nouveaux rapports frères et enfants.
 
-Au niveau supérieur, le rapport « Audio Flux Monthly Trend » affiche la tendance mensuelle de tous les flux audio. Déplacez la souris sur les barres d’un graphique à barres pour afficher une vue plus détaillée des données représentées par le graphique à barres. Cliquez sur le titre du rapport de tendance mensuelle de l’audio Flux pour accéder au rapport « Managed vs Unmanaged Audio Flux », où les rapports sont répartis entre les appels gérés et non gérés. Les appels gérés sont des appels effectués à l’intérieur du pare-feu d’entreprise sur des connexions câblés. Les appels non pris en compte incluent les appels effectués depuis l’extérieur du pare-feu d’entreprise et tous les appels effectués via le Wi-Fi.
+Au niveau supérieur, le rapport « Audio Flux Monthly Trend » affiche la tendance mensuelle pour tous les flux audio. Déplacez la souris sur les barres d’un graphique à barres pour afficher une vue plus détaillée des données représentées par le graphique à barres. Cliquez sur le titre du rapport de tendance mensuelle de l’audio Flux pour accéder au rapport « Managed vs Unmanaged Audio Flux », où les rapports sont répartis entre les appels gérés et non gérés. Les appels gérés sont des appels effectués à l’intérieur du pare-feu d’entreprise sur des connexions câblés. Les appels non pris en compte incluent les appels effectués depuis l’extérieur du pare-feu d’entreprise et tous les appels effectués via le Wi-Fi.
 
 L’autre rapport de niveau supérieur est appelé « Histogramme d’évaluation de la qualité des appels signalé par l’utilisateur ». Les évaluations de la qualité des appels sont les numéros Skype Entreprise utilisateurs à la fin d’un appel pour indiquer la qualité de l’appel. Les numéros d’évaluation vont de 1 à 5, 1 est le pire et 5 est le meilleur. L’histogramme indique le nombre d’appels audio dont l’évaluation a été indiquée dans un mois.
 
-Cliquez sur le titre de l’un des rapports pour accéder aux rapports avec d’autres filtres sur les données. Dans les rapports système, chaque rapport enfant affiche un sous-ensemble des données disponibles dans son rapport parent. Le modèle de résolution des problèmes est simple : examinez la sous-information des données ou de la tendance suggèrent qu’un problème est limité et réduisez progressivement l’espace du problème. La possibilité de créer des sous-états vous permet d’examiner vos propres estimations sur la cause de tendances de données spécifiques.
+Cliquez sur le titre de l’un des rapports pour accéder aux rapports avec d’autres filtres sur les données. Dans les rapports système, chaque rapport enfant affiche un sous-ensemble des données disponibles dans son rapport parent. Le modèle de résolution des problèmes est simple : examinez le sous-système auquel les données ou la tendance suggèrent qu’un problème est limité, puis réduisez progressivement l’espace du problème. La possibilité de créer des sous-états vous permet d’examiner vos propres estimations sur la cause de tendances de données spécifiques.
 
 ### <a name="create-and-edit-reports"></a>Créer et modifier des rapports
 
@@ -84,7 +84,7 @@ Le menu Paramètres contient des liens vers des pages utiles telles que les page
 
 ![Utilisez le CQD.](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
 
-L’affichage des descriptions et des horodaodatés doit être pris en compte par les utilisateurs individuels, et ces paramètres affectent uniquement la version individuelle du tableau de bord et ne modifient pas l’ensemble de rapports ou ce que voient les autres utilisateurs. L’effacement du cache entraîne le rechargement des données de toutes les requêtes à partir du cube, tandis que la restauration par défaut supprime tous les rapports créés ou modifiés par l’utilisateur et recrée l’ensemble de rapports système , ce qu’un utilisateur voit lorsqu’il se connecte pour la première fois.
+L’affichage ou non des descriptions et des horodatés est la responsabilité des utilisateurs individuels, et ces paramètres affectent uniquement la version individuelle du tableau de bord et ne modifient pas l’ensemble de rapports ou ce que voient les autres utilisateurs. L’effacement du cache entraîne le rechargement des données de toutes les requêtes à partir du cube, tandis que la restauration par défaut supprime tous les rapports créés ou modifiés par l’utilisateur et recrée l’ensemble de rapports système , ce qu’un utilisateur voit lorsqu’il se connecte pour la première fois.
 
 Le lien Tableau de bord utilisateurs affiche une page dans laquelle les utilisateurs peuvent afficher d’autres utilisateurs du tableau de bord des utilisateurs et parcourir leurs rapports. Pour partager un ensemble de rapports, copiez le lien dans la barre d’URL et partagez-le avec un autre utilisateur CQD. Ce lien est le même que celui que les autres utilisateurs peuvent voir dans la page Lien du tableau de bord des utilisateurs sous le nom d’utilisateur de l’utilisateur.
 
@@ -97,7 +97,7 @@ Pour créer ces rapports, complétez au minimum les tableaux suivants :
 - CqdBuilding
 - CqdNetwork
 
-Des informations supplémentaires peuvent être fournies dans les tables CqdBuildingType et CqdBuildingOwnershipType pour permettre un filtrage et une recherche plus précis.
+Des informations supplémentaires peuvent être fournies dans les tables CqdBuildingType et CqdBuildingOwnershipType pour permettre un filtrage et une recherche supplémentaires.
 
 Les données utilisées pour ces tables sont définies comme suit :
 
@@ -207,7 +207,7 @@ Le CQD n’utilise pas les champs Appelant/Appelé, mais « Premier » et « Sec
 |4 (Skype Entreprise) |4 (Skype Entreprise) |L’appelant dans MediaLine |Appelé dans MMediaLine |
 
 
-Si les deux points de terminaison sont du même type, le CQD fait de l’entrée de l’appelant la première et la deuxième de l’appelé. Pour plus d’informations sur les noms des points de terminaison, [consultez ce blog.](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks)
+Si les deux points de terminaison sont du même type, le CQD fait de l’entrée de l’appelant la première et la deuxième de l’appelé. Pour plus d’informations sur les noms des points de terminaison, [consultez ce blog](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks).
 
 ## <a name="accounting-for-vpn"></a>Comptabilité du VPN
 

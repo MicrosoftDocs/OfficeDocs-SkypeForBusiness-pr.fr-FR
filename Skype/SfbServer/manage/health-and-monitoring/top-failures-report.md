@@ -1,8 +1,8 @@
 ---
 title: Rapport des principales défaillances dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 description: 'Résumé : Découvrez le rapport des principales défaillances dans Skype Entreprise Server.'
-ms.openlocfilehash: 3e752ad2f15e6739fb6f1a34aa9f30e86767041d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ad04dee69d44bb28246c87d1001fd1cfafdbfea1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853028"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396506"
 ---
 # <a name="top-failures-report-in-skype-for-business-server"></a>Rapport des principales défaillances dans Skype Entreprise Server
  
@@ -33,11 +33,11 @@ Les informations sont signalées pour le nombre total de sessions où une défai
   
 ## <a name="accessing-the-top-failures-report"></a>Accès au rapport des principales défaillances
 
-Le rapport des principales défaillances est accessible à partir de la page d’accueil Rapports de surveillance. Le fait de cliquer sur la mesure Sessions signalées vous permet d’avoir accès au rapport de répartition des [défaillances Skype Entreprise Server](failure-distribution-report.md).
+Le rapport des principales défaillances est accessible à partir de la page d’accueil Rapports de surveillance. Cliquez sur la mesure Sessions signalées pour vous rendre dans le [rapport de répartition des défaillances Skype Entreprise Server](failure-distribution-report.md).
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>Optimisation de l’utilisation du rapport des principales défaillances
 
-Le rapport des principales défaillances est particulier : il vous permet de filtrer jusqu’à 5 ID de diagnostic à la fois. (En règle générale, vous ne pouvez filtrer qu’un seul élément (par exemple, une adresse SIP d’utilisateur) à la fois.) Pour filtrer sur plusieurs ID de diagnostic, entrez simplement chaque ID dans la zone ID de diagnostic, en séparant les ID par des virgules. (Si vous le souhaitez, vous pouvez laisser un espace vide après chaque virgule.) Par exemple :
+Le rapport des principales défaillances est particulier : il vous permet de filtrer jusqu’à 5 ID de diagnostic à la fois. (En règle générale, vous ne pouvez filtrer qu’un seul élément , par exemple une adresse SIP d’utilisateur, à la fois.) Pour filtrer sur plusieurs ID de diagnostic, entrez simplement chaque ID dans la zone ID de diagnostic, en séparant les ID par des virgules. (Si vous le souhaitez, vous pouvez laisser un espace vide après chaque virgule.) Par exemple :
   
 1011, 2412, 1033, 52116, 1008
   

@@ -1,7 +1,7 @@
 ---
-title: Skype Déploiements locaux à forêt unique du système de salle
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype déploiements locaux à forêt unique du système de salle de salle
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement local à forêt unique.
-ms.openlocfilehash: 0f8ab644efc3d832fd5e201bd49517971ba5ba08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8093304ba538d67f64eb9f824033e9b4560fe976
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828417"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404436"
 ---
-# <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype Déploiements locaux à forêt unique du système de salle
+# <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype déploiements locaux à forêt unique du système de salle de salle
  
 Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement local à forêt unique.
   
@@ -27,7 +27,7 @@ Cette section fournit une vue d’ensemble des étapes de mise en service du com
   
 ## <a name="single-forest-on-premises-deployments"></a>Déploiements sur site d’une forêt unique
 
-Si vous avez déjà un compte de boîte aux lettres de ressources pour la salle de conférence, vous pouvez l’utiliser. Dans le cas contraire, vous devrez en créer un. Vous pouvez utiliser Exchange Management Shell (PowerShell) ou console de gestion Exchange pour créer un compte de boîte aux lettres de ressources. Nous vous recommandons d’utiliser une nouvelle boîte aux lettres de ressources (supprimer l’ancienne boîte aux lettres et la re-créer) pour Skype Room System. Avant de supprimer les données de boîte aux lettres, veillez à les réexporter vers la boîte aux lettres re-créée à l’aide du client Outlook (pour plus d’informations, voir Exporter ou back up messages, calendrier, tâches et contacts). Pour restaurer les réunions perdues en supprimant la boîte aux lettres, voir Connecter ou restaurer [une boîte aux lettres supprimée.](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help) 
+Si vous avez déjà un compte de boîte aux lettres de ressources pour la salle de conférence, vous pouvez l’utiliser. Dans le cas contraire, vous devrez en créer un. Vous pouvez utiliser Exchange Management Shell (PowerShell) ou console de gestion Exchange pour créer un compte de boîte aux lettres de ressources. Nous vous recommandons d’utiliser une nouvelle boîte aux lettres de ressources (supprimer l’ancienne boîte aux lettres et la re-créer) pour Skype Room System. Assurez-vous de la back up mailbox data before deleting, puis exportez-les vers la boîte aux lettres re-créée à l’aide du client Outlook (pour plus d’informations, voir Export or back up messages, calendar, tasks, and contacts). Pour restaurer les réunions perdues en supprimant la boîte aux lettres, consultez la [Connecter ou restituer une boîte aux lettres supprimée](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help). 
   
 Pour utiliser un compte de boîte aux lettres de ressources existant (par exemple, LRS-01), suivez les étapes ci-dessous :
   
@@ -45,7 +45,7 @@ Pour utiliser un compte de boîte aux lettres de ressources existant (par exempl
 
    L’exemple ci-dessus crée un compte d’utilisateur activé dans Active Directory et une boîte aux lettres de salle pour une salle de conférence dans une organisation Exchange local. Le paramètre RoomMailboxPassword spécifie le mot de passe du compte d'utilisateur.
     
-3. Configurez le compte pour résoudre automatiquement les conflits en acceptant/rejetant les réunions. Skype Les comptes de salle de conférence équipés du système de salle dans Exchange peuvent être gérés par des personnes, mais notez que tant que la personne n’accepte pas une réunion, elle n’apparaîtra pas sur le calendrier de l’écran d’accueil Skype Room System.
+3. Configurez le compte pour résoudre automatiquement les conflits en acceptant/rejetant les réunions. Skype les comptes de salle de conférence équipés du système de salle de réunion dans Exchange peuvent être gérés par des personnes, mais notez que tant que la personne n’accepte pas une réunion, elle n’apparaîtra pas sur le calendrier de l’écran d’accueil Skype Room System.
     
    ```powershell
    Set-CalendarProcessing -Identity LRS01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteSubject $false -RemovePrivateProperty $false

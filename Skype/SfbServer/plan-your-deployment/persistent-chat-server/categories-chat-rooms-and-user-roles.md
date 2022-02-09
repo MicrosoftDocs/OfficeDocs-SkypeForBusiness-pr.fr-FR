@@ -1,8 +1,8 @@
 ---
 title: Catégories de conversation permanente, salles de conversation et rôles d’utilisateur dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
-description: 'Résumé : Consultez cette rubrique pour en savoir plus sur les catégories, les salles de conversation et les rôles d’utilisateur et d’administrateur pour le serveur de conversation permanente Skype Entreprise Server 2015.'
-ms.openlocfilehash: 212e731da29bc327487e0e6512db413546d20670
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les catégories, les salles de conversation et les rôles d’utilisateur et d’administrateur pour le serveur de conversation permanente Skype Entreprise Server 2015.'
+ms.openlocfilehash: 2273e046bd6217e19a34a0e5e72579f134ba77f9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857251"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402758"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Catégories de conversation permanente, salles de conversation et rôles d’utilisateur dans Skype Entreprise Server 2015
  
@@ -33,7 +33,7 @@ Vous pouvez contrôler l’accès aux salles de conversation en créant des cat�
 - Rôles d'administrateur
 
 > [!NOTE] 
-> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
     
 ## <a name="categories-for-organizing-chat-rooms"></a>Catégories d’organisation des salles de conversation
 
@@ -42,13 +42,13 @@ Les catégories vous permet d’organiser des salles de conversation et de contr
 La logique principale du concept de membres autorisés et refusés est la cloison déontologique. Par exemple, il est courant dans les institutions bancaires et financières d’imposer des limites éthiques qui empêchent les courtiers et les analystes de partager des communications quand ils mettent en œuvre des stratégies et des conventions. Pour répondre à cette exigence, un administrateur peut créer des catégories de sorte qu’une seule catégorie autorise la création et l’utilisation des salles par les courtiers, et une autre catégorie autorise la création et l’utilisation des salles par les analystes. Les utilisateurs ne peuvent pas être ajoutés en tant que membres d’une salle de conversation si la catégorie parente l’empêche.
   
 > [!IMPORTANT]
-> Les membres autorisés et refusés d’une  catégorie ne sont pas identiques à un rôle de membre, ce qui s’applique à une salle de conversation permanente.> Les recherches affichent toutes les salles de conversation ouvertes et fermées pour lesquelles l’utilisateur qui effectue la recherche figure dans la liste des membres autorisés et refusés. Les salles secrètes ne sont pas affichées, sauf si l’utilisateur effectuant la recherche en est membre. L’utilisateur peut rechercher seulement les salles dont il est déjà membre, ou celles pour lesquelles il peut demander son appartenance. 
+> Les membres autorisés et refusés d’une catégorie ne sont pas identiques à un rôle de membre, ce qui s’applique à une salle de conversation permanente.> Les recherches affichent toutes les salles de conversation ouvertes et fermées pour lesquelles l’utilisateur qui effectue la recherche figure dans la liste des membres autorisés et refusés. Les salles secrètes ne sont pas affichées, sauf si l’utilisateur effectuant la recherche en est membre. L’utilisateur peut rechercher seulement les salles dont il est déjà membre, ou celles pour lesquelles il peut demander son appartenance. 
   
 ## <a name="chat-rooms-and-user-roles"></a>Salles de conversation et rôles d’utilisateur
 
 Outre les membres autorisés et refusés pour les catégories, vous pouvez également contrôler l’accès aux salles de conversation en spécifiant les rôles d’utilisateur suivants : Créateur, Responsable, Membre et Présentateur.
   
-- **Créateur**: utilisateurs autorisés à créer des salles de conversation. Ces utilisateurs sont dans la liste créateurs de certaines catégories : ils peuvent créer des salles de conversation dans cette catégorie, et ils peuvent également affecter l’appartenance en fonction de la catégorie et affecter des responsables pour gérer la salle de conversation. L’utilisateur qui crée une salle de conversation est automatiquement ajouté en tant que responsable de la salle.
+- **Créateur :** utilisateurs autorisés à créer des salles de conversation. Ces utilisateurs sont dans la liste créateurs de certaines catégories : ils peuvent créer des salles de conversation dans cette catégorie, et ils peuvent également affecter l’appartenance en fonction de la catégorie et affecter des responsables pour gérer la salle de conversation. L’utilisateur qui crée une salle de conversation est automatiquement ajouté en tant que responsable de la salle.
     
     > [!NOTE]
     > Le rôle de créateur se limite à disposer du droit de création des salles de conversation. C’est en réalité la promotion automatique au poste de responsable qui permet au créateur de redéfinir les appartenances, les responsables, etc. sur les services de conversation créés. 
@@ -60,7 +60,7 @@ Outre les membres autorisés et refusés pour les catégories, vous pouvez égal
     > [!IMPORTANT]
     > Si le responsable est aussi le créateur d’une autre catégorie, il peut modifier la catégorie de sorte à pouvoir créer des salles. 
   
-- **Membre**: utilisateurs membres d’une salle de conversation. Ces utilisateurs peuvent voir les salles de conversation dans l’annuaire (même si la salle de conversation est secrète), ainsi que s’abonner à la salle de conversation (y compris les options de métadonnées telles que les messages non lus, les filtres ego et les filtres de mots clés) et participer à la salle de conversation (peut publier, sauf si la salle est un auditorium où seuls les présentateurs peuvent publier,  obtenir du contenu et effectuer une recherche). Les utilisateurs qui ne sont pas membres de la salle de conversation peuvent rechercher la salle de conversation s’ils sont dans la liste Des membres autorisés de la catégorie, mais doivent demander l’accès pour rejoindre ces salles de conversation pour accéder au contenu. (Aucune demande d’accès ou approbation n’est intégrée au système ; celles-ci sont réalisées en externe par courrier électronique, par téléphone ou par d’autres formes de contact.)
+- **Membre :** utilisateurs membres d’une salle de conversation. Ces utilisateurs peuvent voir les salles de conversation dans l’annuaire (même si la salle de conversation est secrète), ainsi que s’abonner à la salle de conversation (y compris les options de métadonnées telles que les messages non lus, les filtres ego et les filtres de mots clés) et participer à la salle de conversation (peut publier, sauf si la salle est un auditorium où seuls les présentateurs peuvent publier,  obtenir du contenu et effectuer une recherche). Les utilisateurs qui ne sont pas membres de la salle de conversation peuvent rechercher la salle de conversation s’ils sont dans la liste Des membres autorisés de la catégorie, mais doivent demander l’accès pour rejoindre ces salles de conversation pour accéder au contenu. (Aucune demande d’accès ou approbation n’est intégrée au système ; celles-ci sont réalisées en externe par courrier électronique, par téléphone ou par d’autres formes de contact.)
     
 - **Présentateur** : utilisateurs pouvant publier dans un auditorium.
     
@@ -72,7 +72,7 @@ Les rôles d’administrateur pour le serveur de conversation permanente sont le
     
     Les administrateurs de conversation permanente peuvent administrer le serveur de conversation permanente à l’aide de Windows PowerShell cmdlets distantes (c’est-à-dire, à partir d’un ordinateur autre que le serveur de conversation permanente). Le serveur de conversation permanente vérifie que l’administrateur de conversation permanente est membre du groupe local Administrateur local RTC sur le serveur frontal du serveur de conversation permanente.
     
-- **Skype Entreprise Server 2015 : administrateur** général de l’entreprise Skype Entreprise Server 2015 responsable du déploiement.
+- **Skype Entreprise Server 2015 :** administrateur général de l’entreprise Skype Entreprise Server 2015 responsable du déploiement.
     
 - **Responsable des opérations** : utilisateur responsable de la gestion des opérations quotidiennes.
     

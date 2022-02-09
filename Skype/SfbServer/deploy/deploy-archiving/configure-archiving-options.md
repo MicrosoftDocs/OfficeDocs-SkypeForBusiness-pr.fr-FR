@@ -1,8 +1,8 @@
 ---
 title: Configurer les options d’archivage pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer les options d’archivage initiales pour Skype Entreprise Server. Vous définissez initialement les configurations d’archivage lorsque vous déployez l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations après le déploiement.'
-ms.openlocfilehash: 413347a76c23f680215e4f9d80e4327b3e8fed22
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 953bf4a5a353001993e8aee51b5bd21ac8f377b5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864461"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396076"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>Configurer les options d’archivage pour Skype Entreprise Server
  
@@ -27,7 +27,7 @@ Pour configurer les configurations d’archivage initiales, utilisez Skype Entre
   
 - Configuration au niveau global créée par défaut lorsque vous déployez Skype Entreprise Server
     
-- Configurations facultatives au niveau du site qui spécifient la façon dont l’archivage est implémenté pour un site spécifique
+- Configurations facultatives au niveau du site qui spécifient comment l’archivage est implémenté pour un site spécifique
     
 - Configurations facultatives au niveau du pool qui spécifient comment l’archivage est implémenté pour un pool spécifique
     
@@ -48,7 +48,7 @@ Vous devez configurer les options suivantes :
 > [!NOTE]
 > Vous devez spécifier toutes les options appropriées avant d’activer l’archivage. 
   
-Pour plus d’informations sur la façon dont les configurations d’archivage sont implémentées, notamment les options que vous pouvez spécifier et la hiérarchie des configurations d’archivage, voir Planifier l’archivage [dans Skype Entreprise Server](../../plan-your-deployment/archiving/archiving.md). Pour plus d’informations sur la gestion des configurations après le déploiement à l’aide du Panneau de configuration ou de Windows PowerShell, voir Gérer les options d’archivage [dans Skype Entreprise Server](../../manage/archiving/options.md).
+Pour plus d’informations sur l’implémentation des configurations d’archivage, notamment les options que vous pouvez spécifier et la hiérarchie des configurations d’archivage, voir Planifier l’archivage [dans Skype Entreprise Server](../../plan-your-deployment/archiving/archiving.md). Pour plus d’informations sur la gestion des configurations après le déploiement à l’aide du Panneau de configuration ou de Windows PowerShell, voir Gérer les options d’archivage [dans Skype Entreprise Server](../../manage/archiving/options.md).
   
 ## <a name="configure-global-level-archiving-options"></a>Configurer les options d’archivage au niveau global
 
@@ -72,11 +72,11 @@ Pour configurer les options d’archivage au niveau global :
     
    - **Archiver les sessions de messagerie instantanée et de conférence web**
     
-6. Dans la page **Modifier le paramètre d’archivage - Global,** vous pouvez également :
+6. Dans la page **Modifier le paramètre d’archivage - Global** , vous pouvez également :
     
    - Pour bloquer toute activité lorsque l’archivage n’est pas disponible, activez la case à cocher **Bloquer les sessions de messagerie instantanée ou de conférence web en cas d’échec de l’archivage**.
     
-   - Pour utiliser Microsoft Exchange Server stocker les données d’archivage, cochez la case d’intégration Exchange **Microsoft.**
+   - Pour utiliser Microsoft Exchange Server stocker les données d’archivage, cliquez sur la case à **cocher** Intégration Exchange Microsoft.
     
    - Pour activer le vidage des données, activez la case à cocher **Activer le vidage des données d’archivage**, puis effectuez l’une des opérations suivantes :
     
@@ -112,7 +112,7 @@ Vous pouvez spécifier des options d’archivage pour un site spécifique. Une c
     
    - Pour bloquer toute activité quand l’archivage n’est pas disponible, activez la case à cocher **Bloquer les sessions de messagerie instantanée ou de conférence web en cas d’échec de l’archivage**.
     
-   - Pour utiliser Microsoft Exchange Server stocker les données d’archivage, cochez la case d’intégration Exchange **Microsoft.**
+   - Pour utiliser Microsoft Exchange Server stocker les données d’archivage, cliquez sur la case à **cocher** Intégration Exchange Microsoft.
     
    - Pour activer le vidage des données, activez la case à cocher **Activer le vidage des données d’archivage**, puis effectuez l’une des opérations suivantes :
     
@@ -148,7 +148,7 @@ Vous pouvez spécifier des options d’archivage pour un pool spécifique. La co
     
    - Pour bloquer toute activité lorsque l’archivage n’est pas disponible, activez la case à cocher **Bloquer les sessions de messagerie instantanée ou de conférence web en cas d’échec de l’archivage**.
     
-   - Pour utiliser Microsoft Exchange Server stocker les données d’archivage, cochez la case d’intégration Exchange **Microsoft.**
+   - Pour utiliser Microsoft Exchange Server stocker les données d’archivage, cliquez sur la case à **cocher** Intégration Exchange Microsoft.
     
    - Pour activer le vidage des données, activez la case à cocher **Activer le vidage des données d’archivage**, puis effectuez l’une des opérations suivantes :
     

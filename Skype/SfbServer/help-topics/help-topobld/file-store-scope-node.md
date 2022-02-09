@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue du magasin de fichiers
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 description: 'Ce nœud affiche le nom de domaine complet (FQDN) et les pools dépendants pour ce magasin de fichiers. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 7eac54c9cd300ecabbf8b9fb23c2517cf65ebf42
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1da58e6be5a5ec334f7efbb7d46db13f6fcb6ab2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860211"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410107"
 ---
 # <a name="file-store-scope-node"></a>Nœud d’étendue du magasin de fichiers
  

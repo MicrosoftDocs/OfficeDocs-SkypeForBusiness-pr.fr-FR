@@ -1,8 +1,8 @@
 ---
 title: Rapport de temps d’adhésion aux conférences Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
 description: 'Résumé : Découvrez le rapport de synthèse des heures de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: 8ff509f1efffed45fe18e7aa2267bc9a92d4c4d8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 14037d693a9c95041dca22ef55e6395e450c91f6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862411"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397728"
 ---
 # <a name="conference-join-time-report-in-skype-for-business-server"></a>Rapport de temps d’adhésion aux conférences Skype Entreprise Server
  
@@ -60,7 +60,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport des heu
 |**Sessions 2-5 secondes, Pourcentage** <br/> |Non  <br/> |Pourcentage du total des participants à l’appel ayant nécessité entre 2 et 5 secondes pour rejoindre la conférence.  <br/> |
 |**Sessions 5-10 secondes, Volume** <br/> |Non  <br/> |Nombre de participants ayant nécessité entre 5 et 10 secondes pour rejoindre la conférence.  <br/> |
 |**Sessions 5-10 secondes, Pourcentage** <br/> |Non  <br/> |Pourcentage du total des participants à l’appel ayant nécessité entre 5 et 10 secondes pour rejoindre la conférence.  <br/> |
-|**Sessions \> 10 secondes, Volume** <br/> |Non  <br/> |Nombre de participants ayant nécessité plus de 10 secondes pour rejoindre la conférence.  <br/> |
-|**Sessions \> 10 secondes, Pourcentage** <br/> |Non  <br/> |Pourcentage du total des participants à l’appel ayant nécessité plus de 10 secondes pour rejoindre la conférence.  <br/> |
+|**Sessions 10 secondes \> , Volume** <br/> |Non  <br/> |Nombre de participants ayant nécessité plus de 10 secondes pour rejoindre la conférence.  <br/> |
+|**Sessions 10 secondes \> , Pourcentage** <br/> |Non  <br/> |Pourcentage du total des participants à l’appel ayant nécessité plus de 10 secondes pour rejoindre la conférence.  <br/> |
    
 

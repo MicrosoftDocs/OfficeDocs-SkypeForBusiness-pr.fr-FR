@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres généraux du serveur de médiation pour Lync Server 2010
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 'Vous modifiez les propriétés des serveurs de médiation dans cette boîte de dialogue. Sur le côté gauche, un jeu de liens vous permet d’accéder aux paramètres généraux, aux paramètres du tronçon suivant et aux paramètres de la passerelle PSTN. Les paramètres suivants se trouvent dans chaque section :'
-ms.openlocfilehash: 3d30ef41a60f9d837e2d80ae3169c299f46af686
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8277c34a01ac3ba1a487688fe511af174dd6db99
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852108"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396596"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Expandeur des paramètres généraux du serveur de médiation pour Lync Server 2010
 
@@ -30,7 +30,7 @@ Vous modifiez les propriétés des serveurs de médiation dans cette boîte de d
 
 - **Nom de domaine complet :** vous modifiez le nom de domaine complet du serveur de médiation
 
-- **Associations**: cochez la case Associer un pool de serveurs Edge (pour les **composants multimédias)** et sélectionnez un serveur Edge ou un pool de serveurs Edge pour le serveur de médiation à utiliser comme chemin d’accès multimédia pour l’accès externe.
+- **Associations** : cochez la case Associer un **pool de serveurs Edge (pour les composants multimédias)** et sélectionnez un serveur Edge ou un pool de serveurs Edge pour le serveur de médiation à utiliser comme chemin d’accès multimédia pour l’accès externe.
 
   **Tronçon suivant** :
 
@@ -40,7 +40,7 @@ Vous modifiez les propriétés des serveurs de médiation dans cette boîte de d
 
   **Passerelle PSTN du serveur de médiation** :
 
-- **Ports d’écoute**: définissez les ports que le serveur de médiation écoutera. Vous pouvez définir un port pour le protocole **TLS** (Transport Layer Security) ou **TCP** (Transport Control Protocol). Pour que l’entrée du port TCP soit disponible, vous devez activer la case à cocher **Activer le port TCP**.
+- **Ports d’écoute** : définissez les ports que le serveur de médiation écoutera. Vous pouvez définir un port pour le protocole **TLS** (Transport Layer Security) ou **TCP** (Transport Control Protocol). Pour que l’entrée du port TCP soit disponible, vous devez activer la case à cocher **Activer le port TCP**.
 
     > [!IMPORTANT]
     > Consultez la documentation et les paramètres de configuration de votre passerelle de réseau téléphonique commuté (PSTN) pour déterminer si vous devez activer et définir les valeurs du port TLS, TCP ou les deux. TLS est un protocole plus sécurisé, qui utilise des certificats pour chiffrer le trafic entre le serveur de médiation et la passerelle PSTN. Certaines passerelles PSTN ne prennent pas en charge TLS.

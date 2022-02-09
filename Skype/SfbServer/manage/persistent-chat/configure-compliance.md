@@ -1,8 +1,8 @@
 ---
 title: Configurer le service de conformité pour le serveur de conversation permanente dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Résumé : Découvrez comment configurer le service de conformité du serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 23f28c2071063e2729deb54eea9703a7699e3e07
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: de70e131526033b46b69359a231b158d93accfbf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858241"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396456"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurer le service de conformité pour le serveur de conversation permanente dans Skype Entreprise Server 2015
 
@@ -34,18 +34,18 @@ La conformité de conversation permanente permet aux administrateurs de gérer u
 
 - Affichages de l’historique des conversation
 
-- Charge un fichier
+- Télécharge un fichier
 
 - Télécharge un fichier
 
 Ces informations peuvent être récupérées à partir de la base de données de conformité SQL si nécessaire. 
 
 > [!NOTE]
-> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Configurer le service de conformité à l’aide de Windows PowerShell
 
-Une fois que le service de conformité a été activé à l’aide du Générateur de topologie, vous pouvez configurer le service à l’aide de l’cmdlet **Set-CsPersistenChatComplianceConfiguration** :
+Une fois que le service de conformité a été activé à l’aide du Générateur de topologie, vous pouvez configurer le  service à l’aide de l';;
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
@@ -75,21 +75,21 @@ Vous pouvez définir les paramètres suivants :
 
 Vous pouvez écrire un adaptateur personnalisé au lieu d’utiliser le XmlAdapter installé avec le serveur de conversation permanente. Pour ce faire, vous devez fournir un assembly .NET Framework contenant une classe publique qui implémente l’interface **IComplianceAdapter**. Vous devez placer cet assembly dans le dossier d’installation du serveur de conversation permanente de chaque serveur de votre pool de serveurs de conversation permanente. Chacun des serveurs de conformité peut fournir des données de conformité à votre adaptateur, mais ils ne délivrent aucun duplicata des données de conformité à plusieurs instances de votre adaptateur.
 
-L’interface est définie dans l’assembly Compliance.dll dans l’espace de  `Microsoft.Rtc.Internal.Chat.Server.Compliance` noms. Elle définit deux méthodes que votre adaptateur personnalisé doit implémenter.
+L’interface est définie dans l’assembly Compliance.dll dans l’espace de noms  `Microsoft.Rtc.Internal.Chat.Server.Compliance`. Elle définit deux méthodes que votre adaptateur personnalisé doit implémenter.
 
-Le serveur de conformité de conversation permanente appelle la méthode suivante lors du premier chargement de l’adaptateur. Contient la configuration de conformité de conversation permanente  `AdapterConfig` qui est pertinente pour l’adaptateur de conformité :
+Le serveur de conformité de conversation permanente appelle la méthode suivante lors du premier chargement de l’adaptateur. Contient  `AdapterConfig` la configuration de conformité de conversation permanente qui est pertinente pour l’adaptateur de conformité :
 
 ```cpp
 void SetConfig(AdapterConfig config)
 ```
 
-Le serveur de conformité de conversation permanente appelle la méthode suivante à intervalles réguliers tant qu’il existe de nouvelles données à traduire. Cet intervalle de temps est égal à celui de la configuration de conformité de conversation  `RunInterval` permanente :
+Le serveur de conformité de conversation permanente appelle la méthode suivante à intervalles réguliers tant qu’il existe de nouvelles données à traduire. Cet intervalle de temps est égal à celui de  `RunInterval` la configuration de conformité de conversation permanente :
 
 ```cpp
 void Translate(ConversationCollection conversations)
 ```
 
-Contient les informations de conversation collectées à partir du dernier appel de  `ConversationCollection` cette méthode.
+Contient  `ConversationCollection` les informations de conversation collectées à partir du dernier appel de cette méthode.
 
 ## <a name="customize-the-xslt-definition-file"></a>Personnaliser le fichier de définition XSLT
 
@@ -138,8 +138,8 @@ Le tableau suivant décrit les attributs de message Type, Content et ID.
 
 |**Attribut**|**Description**|**Facultatif/Obligatoire**|
 |:-----|:-----|:-----|
-|Type  <br/> |Spécifie le type de message. Les types de message sont décrits dans la table Éléments de message Types de message.  <br/> |Obligatoire  <br/> |
-|Contenu  <br/> |Contient le contenu du message. Les messages de type Join ou Part n’utilisent pas cet attribut.  <br/> |Facultatif  <br/> |
+|Type  <br/> |Spécifie le type de message. Les types de message sont décrits dans la table Éléments de message Types de message.  <br/> |Requis  <br/> |
+|Content  <br/> |Contient le contenu du message. Les messages de type Join ou Part n’utilisent pas cet attribut.  <br/> |Facultatif  <br/> |
 |ID  <br/> |Spécifie l’ID unique du contenu. Cet attribut est utilisé uniquement avec les messages de type Chat.  <br/> |Facultatif  <br/> |
 
 Chaque élément Sender contient cinq attributs : username, ID, email, internal et URI. Ces attributs sont décrits dans la table suivante.
@@ -149,10 +149,10 @@ Chaque élément Sender contient cinq attributs : username, ID, email, internal
 |**Attribut**|**Description**|**Facultatif/Obligatoire**|
 |:-----|:-----|:-----|
 |Nom d’utilisateur  <br/> |Nom de l’expéditeur.  <br/> |Facultatif  <br/> |
-|ID  <br/> |ID unique de l’expéditeur.  <br/> |Obligatoire  <br/> |
+|ID  <br/> |ID unique de l’expéditeur.  <br/> |Requis  <br/> |
 |E-mail  <br/> |Adresse e-mail de l’expéditeur.  <br/> |Facultatif  <br/> |
 |Interne  <br/> |Détermine si l’utilisateur est un utilisateur interne ou fédéré. Si la valeur est Vraie, l’utilisateur est interne.  <br/> |Facultatif  <br/> |
-|Uri  <br/> |URI SIP de l’utilisateur.  <br/> |Obligatoire  <br/> |
+|Uri  <br/> |URI SIP de l’utilisateur.  <br/> |Requis  <br/> |
 
 Les exemples suivants montrent les types de messages que l’élément Messages peut contenir. Elle fournit également des exemples de la manière avec laquelle chaque élément est utilisé.
 

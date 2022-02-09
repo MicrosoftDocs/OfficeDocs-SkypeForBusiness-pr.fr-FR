@@ -1,8 +1,8 @@
 ---
 title: Partage d’écran vidéo pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 2/20/2018
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype Entreprise Server de planification et de configuration pour le partage d’écran vidéo (VbSS)
-ms.openlocfilehash: ff8dc9e21ab4b00741acca5dcc4ac972e5d13e68
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0eb381504e797879d9e4235d7ae9cce69f1a468c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859971"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396426"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Partage d’écran vidéo pour Skype Entreprise Server 
  
 Le partage d’écran vidéo (VbSS) dans Skype For Business Server 2015 est désormais disponible en téléchargement : mise à jour cumulative [Skype Entreprise Server 2015 KB3061064](https://www.microsoft.com/download/details.aspx?id=47690). VbSS est inclus dans Skype Entreprise Server 2019.
   
-Le partage d’écran vidéo, ou VbSS, s’est développé en dehors du partage d’écran Lync. La différence entre VbSS et le partage d’écran traditionnel a une relation avec les protocoles sous-jacents utilisés et ce à quoi ils excellent. Le partage d’écran utilise le protocole RDP (Remote Desktop Protocol), qui permet de créer des milliers de sessions 1 à 1 entre les ordinateurs des utilisateurs. Une technologie plus récente, VbSS, utilisera le protocole UDP (User Datagram Protocol).
+Le partage d’écran vidéo, ou VbSS, s’est développé en dehors du partage d’écran Lync. La différence entre VbSS et le partage d’écran traditionnel a une relation avec les protocoles sous-jacents utilisés et ce qu’ils excelent. Le partage d’écran utilise le protocole RDP (Remote Desktop Protocol), qui permet de créer des milliers de sessions 1 à 1 entre les ordinateurs des utilisateurs. Une technologie plus récente, VbSS, utilisera le protocole UDP (User Datagram Protocol).
   
 Skype Entreprise Server souhaitait améliorer le 1-à-1 des utilisateurs, ainsi que leurs conversations et expériences de réunion entre plusieurs utilisateurs. VbSS utilise la plateforme multimédia (qui repose sur UDP comme protocole sous-jacent), dans le but d’améliorer les heures de début de la vidéo, la qualité d’affichage de ce que vous regardez (en particulier si ce que vous regardez est en cours de déplacement rapide) et la fiabilité globale.
   
@@ -42,33 +42,33 @@ Le passage à VbSS vise à apporter trois améliorations clés :
 
 3. Fonctionne beaucoup mieux que RDP dans des conditions de faible bande passante, même lorsque vous partagez du contenu à mouvement élevé, tel que des graphiques 3D.
     
-N’oubliez pas que ces numéros s’appuient sur l’état d’santé et le réglage des performances appropriés de votre réseau, et peuvent impliquer des réseaux externes au vôtre, si vos clients sont sur des appareils mobiles.
+N’oubliez pas que ces chiffres reposent sur l’état d’santé et l’optimisation des performances de votre réseau, et peuvent impliquer des réseaux externes au vôtre, si vos clients sont sur des appareils mobiles.
   
-Vous devez également être conscient que la fiabilité, la vitesse et l’efficacité ont été les valeurs de fidélité/netteté de votre contenu partagé. Dans la plupart des cas, cela n’est pas facilement visible pour les utilisateurs.
+Vous devez également être conscient que la fiabilité, la vitesse et l’efficacité ont été les valeurs de fidélité/netteté de votre contenu partagé. Dans la plupart des cas, cela ne sera pas facilement visible pour les utilisateurs.
   
 ### <a name="ports-and-protocols"></a>Ports et protocoles
 
-**Ports serveur requis**
+**Ports de serveur requis**
 
-|**Rôle serveur**|**Nom du service**|**Port ou plage de ports**|**Protocole**|**Notes**|
+|**Rôle serveur**|**Nom du service**|**Port ou plage de ports**|**Protocol (Protocole)**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|
-|Serveurs frontaux  <br/> |Skype Entreprise Server Service de partage d’application  <br/> |5065  <br/> |TCP  <br/> |Utilisé pour les demandes d’écoute SIP entrantes dans le cadre du partage d’application.  <br/> |
-|Serveurs frontaux  <br/> |Skype Entreprise Server Service de partage d’application  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Plage de ports multimédias utilisée pour le partage d’application.  <br/> |
+|Serveurs frontaux  <br/> |Skype Entreprise Server service de partage d’application  <br/> |5065  <br/> |TCP  <br/> |Utilisé pour les demandes d’écoute SIP entrantes dans le cadre du partage d’application.  <br/> |
+|Serveurs frontaux  <br/> |Skype Entreprise Server service de partage d’application  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Plage de ports multimédias utilisée pour le partage d’application.  <br/> |
    
 **Ports clients requis**
 
-|**Composant**|**Plage de ports**|**Protocole**|**Notes**|
+|**Composant**|**Plage de ports**|**Protocol (Protocole)**|**Notes**|
 |:-----|:-----|:-----|:-----|
 |Clients  <br/> |1024-65535  <br/> |TCP/UDP  <br/> |Partage d’application.  <br/> |
    
-Si QoS est activé pour les ports multimédias suivants et que VbSS est également activé, lors d’une conférence qui inclut le partage de bureau du MCU AS, les paramètres de port vidéo affichés en gras ci-dessous sont utilisés pour le trafic de partage d’écran. 
+Si QoS est activé pour les ports multimédias suivants et que VbSS est également activé, au cours d’une conférence qui inclut le partage de bureau du MCU AS, les paramètres de port vidéo affichés en gras ci-dessous sont utilisés pour le trafic de partage d’écran. 
   
 > [!IMPORTANT]
-> Ces paramètres sont un cas particulier et ces paramètres exacts doivent être utilisés lors de l’implémentation de ces deux fonctionnalités. Cela remplace les autres paramètres recommandés dans la [documentation pour QoS.](/previous-versions/office/lync-server-2013/lync-server-2013-managing-quality-of-service-qos) Pour le partage d’application, vous devrez également spécifier ASMCUSVC.exe dans l’GPO QoS en plus de définir ces valeurs de port. 
+> Ces paramètres sont un cas particulier et ces paramètres exacts doivent être utilisés lors de l’implémentation de ces deux fonctionnalités. Cela remplace les autres paramètres recommandés dans la [documentation pour QoS](/previous-versions/office/lync-server-2013/lync-server-2013-managing-quality-of-service-qos). Pour le partage d’application, vous devrez également spécifier ASMCUSVC.exe dans l’GPO QoS en plus de définir ces valeurs de port. 
   
 **Paramètres requis de la QoS/VbSS du serveur d’applications**
 
-|**Propriété**|**Valeur du port**|**Protocole**|
+|**Propriété**|**Valeur du port**|**Protocol (Protocole)**|
 |:-----|:-----|:-----|
 |AudioPortStart  <br/> |49152  <br/> |UDP  <br/> |
 |AudioPortCount  <br/> |8348  <br/> |UDP  <br/> |
@@ -91,11 +91,11 @@ En supposant :
     
 À pleine capacité (comme indiqué ci-dessus, 375 participants au partage d’écran par serveur frontal au total, mais seulement 250 par réunion), votre serveur frontal peut utiliser environ 89 % des 1 Gigabit de carte réseau. Cela est dû au fait que la technologie de partage d’écran existante dans Skype Entreprise Server CU2 (RDP) transmet le contenu à l’écran à la résolution native du PC du présentateur. Ainsi, avec des résolutions d’écran plus élevées, vous rencontrez peut-être déjà des goulots d’étranglement réseau pour le partage d’écran avec Skype Entreprise Server CU2 2015.
   
-Pour atténuer ce risque, une ou plusieurs des options suivantes peuvent s’avérer utiles :
+Pour atténuer ce risque, une ou plusieurs des options suivantes peuvent être utiles :
   
 - Mettre à niveau votre serveur frontal d’une carte réseau 1 Gigabit vers une carte Ethernet 10 Gigabits.
 
-- Augmentez le nombre de serveurs frontux pour équilibrer la charge du trafic.
+- Augmenter le nombre de serveurs frontux pour équilibrer la charge du trafic.
 
 - Limitez la bande passante (vitesse de bit) utilisée pour VbSS et RDP en limitant la bande passante maximale utilisée par les deux canaux.
     
@@ -113,11 +113,11 @@ La bande passante VbSS est :
   
 |**Codec vidéo**|**Résolution et proportions**|**Vitesse de bits de charge utile vidéo maximale (Kbits/s)**|**Vitesse de bits de charge utile vidéo minimale (Kbits/s)**|
 |:-----|:-----|:-----|:-----|
-|H.264  <br/> |1920x1080 (16:9)  <br/> (Les proportions dépendent de la résolution du moniteur du partageur et ne seront pas toujours de 16:9)  <br/> |4000  <br/> |1500  <br/> |
+|H.264  <br/> |1920x1080 (16:9)  <br/> (Les proportions dépendent de la résolution du moniteur du partageur et ne sont pas toujours de 16:9)  <br/> |4000  <br/> |1500  <br/> |
    
 ## <a name="clients-and-servers-support"></a>Prise en charge des clients et des serveurs
 
-Le partage d’écran vidéo nécessite Skype Entreprise Server 2015 CU3 ou version ultérieure, et une version actuelle des clients de prise en charge répertoriés dans la comparaison des [fonctionnalités](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing)du [client mobile](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) pour la prise en charge de Skype Entreprise et de réunions. 
+Le partage d’écran vidéo nécessite Skype Entreprise Server CU3 2015 ou version ultérieure, et une version actuelle des clients de prise en charge répertoriés dans la comparaison des [fonctionnalités](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing) client mobiles pour la prise en charge de [Skype Entreprise](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) et de réunions. 
   
 Il existe des situations dans lesquelles le partage d’écran passe à RDP, comme celles-ci :
   
@@ -141,7 +141,7 @@ La meilleure chose est qu’une fois que vous avez installé la mise à jour cum
   
 ### <a name="how-to-disable-users-from-using-vbss"></a>Comment désactiver l’utilisation de VbSS par les utilisateurs
 
-- Vous pouvez affecter une stratégie utilisateur qui n’autorise pas VbSS aux utilisateurs qui ne doivent pas utiliser VbSS en exécutant cette cmdlet dans la console de gestion Skype Entreprise (remplacez [PolicyName] par la stratégie pour qui vous exécutez cette commande) :
+- Vous pouvez affecter une stratégie utilisateur qui n’autorise pas VbSS à tous les utilisateurs qui ne doivent pas utiliser VbSS en exécutant cette cmdlet dans la console de gestion Skype Entreprise (remplacez [PolicyName] par la stratégie pour qui vous exécutez cette commande) :
     
   ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode RDP

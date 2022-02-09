@@ -1,8 +1,8 @@
 ---
 title: Planifier les Voix Entreprise dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Voix Entreprise base de la planification des Skype Entreprise Server, notamment les sites, les régions, les liens réseau entre les sites et l’estimation du trafic d’utilisation vocale.
-ms.openlocfilehash: 51c197979c5faaf587f63320b4a2dc6c5dc6a06f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 30e6bc8ef71b5e4d201724a6d2dd0bf8675a9468
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829838"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397588"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planifier les Voix Entreprise dans Skype Entreprise Server
  
 Voix Entreprise base de la planification des Skype Entreprise Server, notamment les sites, les régions, les liens réseau entre les sites et l’estimation du trafic d’utilisation vocale.
   
-Le processus de déploiement Voix Entreprise dépend de votre topologie, de votre infrastructure et de la fonctionnalité Voix Entreprise que vous souhaitez prendre en charge. Les procédures requises dépendront des fonctionnalités que vous choisirez, mais vous devrez tenir compte d’autres facteurs pour la planification à un niveau supérieur.
+Le processus de déploiement Voix Entreprise dépend de votre topologie, de votre infrastructure et de la Voix Entreprise que vous souhaitez prendre en charge. Les procédures requises dépendront des fonctionnalités que vous choisirez, mais vous devrez tenir compte d’autres facteurs pour la planification à un niveau supérieur.
   
 En règle générale, tenez compte du type et du nombre de sites que vous voulez déployer et de leur emplacement géographique, du volume d’appels sur chaque site, des types de liens réseaux qui relient les sites, si vous souhaitez offrir la redondance et le basculement pour la fonctionnalité voix pour chaque site, et enfin si vous voulez utiliser l’équipement PBX existant. Il existe certaines considérations, telles que la haute disponibilité, que vous devez prendre en compte lorsque vous planifiez l’Skype Entreprise Server dans son ensemble. Ces considérations sont traitées dans les rubriques de cette section, selon les besoins.
   
@@ -35,7 +35,7 @@ En règle générale, tenez compte du type et du nombre de sites que vous voulez
 
 Tout d’abord, identifiez les sites de votre topologie où vous allez déployer Voix Entreprise et les régions réseau à laquelle ces sites appartiennent. En particulier, pensez à la façon dont vous allez assurer la connectivité PSTN (réseau téléphonique commuté) vers chaque site. Pour des raisons pratiques et logistiques, les régions auxquelles ces sites appartiennent peuvent être un facteur déterminant. Décidez où les passerelles seront déployées localement, où les Survivable Branch Appliances (SBA) seront déployés et où vous pouvez configurer des trunks SIP (localement ou sur le site central) vers un fournisseur de services de téléphonie Internet (ITSP).
   
-## <a name="network-links-between-sites"></a>Liaisons réseau entre les sites
+## <a name="network-links-between-sites"></a>Liaisons réseau entre sites
 
 Vous devez également prendre en compte l’utilisation de la bande passante que vous attendez sur les liaisons réseau entre votre site central et ses sites de succursale. Si vous avez ou envisagez de déployer des liaisons réseau wan résistantes entre des sites, nous vous recommandons de déployer une passerelle sur chaque site de succursale pour fournir un arrêt SDN (Direct Inward Dial) local pour les utilisateurs de ces sites. Si vous disposez de liaisons de réseau étendu résistantes, alors que la bande passante de l’une d’elles risque d’être limitée, configurez la fonctionnalité de contrôle d’admission des appels sur celle-ci. Si vous ne disposez pas de liaisons réseau wan résistantes, si vous hébergez moins de 1 000 utilisateurs sur votre site de succursale et que vous ne disposez pas d’administrateurs Skype Entreprise Server formés en local, nous vous recommandons de déployer un Survivable Branch Appliance sur le site de succursale. Si vous hébergez entre 1 000 et 5 000 utilisateurs sur votre site de succursale, si vous ne disposez pas d’une connexion WAN résiliente et que des administrateurs Skype Entreprise Server formés sont disponibles, nous vous recommandons de déployer un serveur Survivable Branch Server avec une petite passerelle sur le site de succursale. Envisagez aussi d’activer le contournement de média sur les liaisons limitées si vous disposez d’un homologue de passerelle qui prend en charge cette fonctionnalité.
   

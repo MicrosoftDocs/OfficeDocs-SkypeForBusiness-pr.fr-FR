@@ -1,8 +1,8 @@
 ---
 title: URL simple d’affichage de la topologie
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c17f13f2-2e45-44d6-b56d-74ec8989eef1
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: a23e0c510209e1e3bbb1be7a0d4f0a149a289978
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0f7e5dce1479efcdf054313dad7d24eda147a714
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830338"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402188"
 ---
 # <a name="topology-view-simple-url"></a>Topologie : afficher une URL simple
 

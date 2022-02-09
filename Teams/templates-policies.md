@@ -1,7 +1,7 @@
 ---
 title: Gérer les modèles d’équipe dans le Centre d’administration
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment gérer les modèles d’équipe dans le Centre d’administration
-ms.openlocfilehash: 0ab167cc66a897c0f89679cd2a403a385b2b1b01
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 470194c8a31236e5bed000fa2837c9b1fa05003e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766062"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401178"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Gérer les modèles d’équipe dans le Centre d’administration
 
@@ -38,46 +38,46 @@ Regardez cette courte vidéo pour découvrir comment gérer les stratégies de m
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Développez **Teams**  >  **stratégies modèles.**
+2. **Développez Teams** >  **stratégies de sécurité**.
 
 3. Sélectionnez **Ajouter**.
 
     ![Les stratégies de modèle sont sélectionnées et l’ajout est mis en évidence.](media/template-policies-1.png)
 
-1. Dans la section **Stratégies de Paramètres,** complétez les champs suivants :
+1. Dans la section **Stratégies de Paramètres**, complétez les champs suivants :
 
     - Nom de la stratégie modèles
 
     - Brève description de la stratégie de modèles
 
-2. Dans la table **Modèles consultables,** sélectionnez les modèles que vous voulez masquer, puis **Masquer.**
+2. Dans la table **Modèles consultables** , sélectionnez les modèles que vous voulez masquer, puis **masquer**.
 
     ![Modèles sélectionnés avec Masquer mis en évidence.](media/template-policies-2.png)
 
-    Vous pouvez voir les modèles que vous avez sélectionnés pour masquer dans la table **Modèles masqués.**
+    Vous pouvez voir les modèles que vous avez sélectionnés pour les masquer dans la table **Modèles masqués** .
 
-1. Pour voir certains modèles, faites défiler jusqu’à la table **Modèles masqués.**
+1. Pour voir certains modèles, faites défiler jusqu’à **la table Modèles masqués** .
 
-2. Sélectionnez les modèles à afficher, puis **sélectionnez Afficher.**
+2. Sélectionnez les modèles à afficher, puis **sélectionnez Afficher**.
 
    ![Modèles sélectionnés qui ne sont pas masqués.](media/template-policies-3.png)
 
-   Les modèles sélectionnés apparaissent dans votre table **de modèles consultables.**
+   Les modèles sélectionnés apparaissent dans votre table **de modèles consultables** .
 3. Sélectionnez **Enregistrer**.
 
-   Votre nouvelle stratégie de modèle est affichée dans la liste **Stratégies de** modèles.
+   Votre nouvelle stratégie de modèle s’affiche dans la liste **Stratégies de** modèles.
 
 ## <a name="assign-users-to-the-template-policies"></a>Attribuer des utilisateurs aux stratégies de modèle
 
 Les utilisateurs affectés à une stratégie pourront uniquement afficher les modèles consultables dans cette stratégie.
 
-1. À partir **de Stratégies de modèles,** sélectionnez une stratégie, puis **sélectionnez Gérer les utilisateurs.**
+1. Dans **Stratégies de modèles**, sélectionnez une stratégie, puis **Gérer les utilisateurs**.
 
 2. Tapez les utilisateurs à affecter à cette stratégie.
 
    ![attribuer des utilisateurs à une stratégie de modèle.](media/template-policies-4.png)
 
-3. Sélectionnez **Appliquer.**
+3. **Sélectionnez Appliquer**.
 
 > [!Note]
 > L’application de votre nouvelle stratégie pour les utilisateurs finaux peut prendre jusqu’à 24 heures.
@@ -90,11 +90,11 @@ Vous pouvez masquer jusqu’à 100 modèles par stratégie. Le **bouton** Masque
 
 **Q : Puis-je affecter par lots des utilisateurs à des stratégies de modèles d’équipe ?**
   
-R : Oui, nous prise en charge l’affectation de lots pour une stratégie de modèle dans PowerShell. Le type de stratégie pour cette action est TeamsTemplatePermissionPolicy. [En savoir plus](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+R : Oui, nous  prise en charge l’affectation de lots pour une stratégie de modèle dans PowerShell. Le type de stratégie pour cette action est TeamsTemplatePermissionPolicy. [En savoir plus](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **Q : Les groupes peuvent-ils être affectés à des stratégies de modèles d’équipe ?**
 
-R : Actuellement non. Cette fonctionnalité sera disponible ultérieurement.
+R : Actuellement non. Cette fonctionnalité sera disponible à l’avenir.
 
 **Q : Si un modèle est créé, le modèle sera-t-il inclus dans mes stratégies ?**
 
@@ -104,24 +104,24 @@ R : Tous les nouveaux modèles sont visibles par défaut. Vous pouvez choisir de
 
 R : Tous les modèles supprimés ne seront plus présents dans les stratégies de modèles.
 
-**Q : Puis-je affecter plusieurs utilisateurs à une stratégie de modèle dans le Teams d’administration ?**
+**Q : Puis-je attribuer plusieurs utilisateurs à une stratégie de modèle dans le Teams d’administration ?**
 
 R : Oui.
 
-1. Dans le Centre d’administration, voir **Utilisateurs.**
+1. Dans le Centre d’administration, voir **Utilisateurs**.
 1. Dans la table Liste d’utilisateurs, sélectionnez les utilisateurs que vous voulez affecter à une certaine stratégie de modèles.
-1. Sélectionnez Modifier les paramètres, puis modifiez le champ De stratégies Templates.
+1. Sélectionnez Modifier les paramètres, puis modifiez le champ Stratégies templates.
 1. Sélectionnez Appliquer. [En savoir plus](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users).
 
 **Q : Comment afficher tous les utilisateurs affectés à une stratégie spécifique ?**
 
 R : Dans le Centre d’administration :
 
-1. Allez à la section **Utilisateurs.**
-2. Sélectionnez le filtre dans la table Liste des utilisateurs et filtrez la stratégie de modèle d’équipe.
-3. Sélectionnez **Appliquer.**
+1. Allez à la section **Utilisateurs** .
+2. Sélectionnez le filtre dans le tableau de la liste Utilisateurs, puis filtrez la stratégie de modèle d’équipe.
+3. **Sélectionnez Appliquer**.
 
-![Stratégie de modèle sélectionnée et afficher les utilisateurs.](media/template-policies-5.png)
+![La stratégie de modèle sélectionnée et afficher les utilisateurs.](media/template-policies-5.png)
 
 **Q : Puis-je gérer les stratégies de modèles via PowerShell ?**
 
@@ -131,7 +131,7 @@ R : Non, la gestion des modèles dans PowerShell n’est pas prise en charge.
 
 R : Non, les stratégies de modèle pour EDU ne sont pas pris en charge.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Utiliser des modèles d’équipe dans le Centre d’administration](./get-started-with-teams-templates-in-the-admin-console.md)
 

@@ -1,8 +1,8 @@
 ---
 title: Créer une stratégie de code confidentiel dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 description: 'Résumé : Créez une stratégie de code confidentiel dans Skype Entreprise Server.'
-ms.openlocfilehash: cf9a35c634c9b53b557601009fa131c3c24e7db2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dd6119498dc39f59bba3877d432f2dc92e94b9a0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844207"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403986"
 ---
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>Créer une stratégie de code confidentiel dans Skype Entreprise Server
  
 **Résumé :** Créez une stratégie de code confidentiel dans Skype Entreprise Server.
   
-Vous pouvez utiliser la **page** Stratégie de code confidentiel pour fournir une authentification par code confidentiel aux utilisateurs qui se connectent à Skype Entreprise avec des téléphones IP. Pour utiliser l’authentification par code confidentiel, assurez-vous que l’option **Activer l’authentification par code confidentiel** est sélectionnée dans les paramètres du service web.
+Vous pouvez utiliser **la page Stratégie** de code confidentiel pour fournir une authentification par code confidentiel aux utilisateurs qui se connectent à Skype Entreprise avec des téléphones IP. Pour utiliser l’authentification par code confidentiel, assurez-vous que l’option **Activer l’authentification par code confidentiel** est sélectionnée dans les paramètres du service web.
   
 Suivez cette procédure pour créer une stratégie de code confidentiel au niveau utilisateur ou site. 
   
@@ -56,7 +56,7 @@ Suivez cette procédure pour créer une stratégie de code confidentiel au nivea
     
 11. Dans **Comptage de l’historique du code confidentiel**, tapez le nombre de codes confidentiels qu’un utilisateur doit créer avant qu’il ne puisse réutiliser un code. Par défaut, les utilisateurs peuvent réutiliser leur code confidentiel.
     
-12. Pour autoriser les modèles courants de chiffres dans les codex pin, tels que « 1234 » et « 8888 », cochez la case Autoriser les **modèles courants.** Si vous ne sélectionnez pas cette option, seuls les modèles complexes de chiffres sont autorisés. Par défaut, seuls les modèles complexes de chiffres sont autorisés.
+12. Pour autoriser les modèles courants de chiffres dans les codex pin, tels que « 1234 » et « 8888 », cochez la case Autoriser les **modèles courants** . Si vous ne sélectionnez pas cette option, seuls les modèles complexes de chiffres sont autorisés. Par défaut, seuls les modèles complexes de chiffres sont autorisés.
     
     > [!IMPORTANT]
     > Nous vous recommandons de ne pas autoriser les modèles courants. 

@@ -1,7 +1,7 @@
 ---
 title: Créer un modèle à partir d’un modèle d’équipe existant dans Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac461654031507dad1340de7d0e0998aee61b3c1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d53bb4562473c78b552ce8f96d1035a6ba2b34eb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831758"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396252"
 ---
 # <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>Créer un modèle d’équipe à partir d’un modèle d’équipe existant dans Microsoft Teams
 
@@ -31,42 +31,42 @@ Microsoft Teams fournit des modèles pré-conçus qui peuvent être enregistrés
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Dans le groupe de navigation de gauche, **développez Teams**  >  **d’équipe.**
+2. Dans le navigateur de gauche, **développez Teams** >  **Team**.
 
-3. Dans la section **Modèles d’équipe,** sélectionnez à côté d’un modèle d’équipe que vous voulez dupliquer pour le mettre en évidence.
+3. Dans la section **Modèles d’équipe** , sélectionnez à côté d’un modèle d’équipe que vous voulez dupliquer pour le mettre en évidence.
 
-4. Sélectionnez **Dupliquer.**
+4. Sélectionnez **Dupliquer**.
 
 ![Image de la boîte de dialogue Modèles d’équipe avec L’ajout mis en évidence.](media/template-duplicate.png)
 
-(Vous pouvez également sélectionner **Ajouter**  >  **Commencez avec un modèle existant pour** ouvrir Sélectionner le modèle à utiliser comme point de **départ.)**
+(Vous pouvez également **sélectionner Ajouter** >  **Commencez avec un modèle existant pour** ouvrir Sélectionner **le modèle à utiliser comme point de départ**.)
 
 ![Image des modèles d’équipe avec l’écran de point de départ Démarrer avec un modèle existant mis en évidence.](media/template-start-existing-template.png)
 
-5. Dans **l’écran Sélectionner le modèle à utiliser comme écran de point** de départ, sélectionnez **Suivant.**
+5. Dans **l’écran Sélectionner le modèle à utiliser comme point de départ** , sélectionnez **Suivant**.
 
-    Le modèle dupliqué s’ouvre et le **mot** Copier est intégré au nom.
+    Le modèle dupliqué s’ouvre et **le mot Copier** est intégré au nom.
 
-6. Remplissez les champs suivants, puis sélectionnez **Suivant**:
+6. Remplissez les champs suivants, puis sélectionnez **Suivant** :
     - Nom du modèle
     - Descriptions brèves et longues du modèle
     - Visibilité des paramètres régionaux  
 
 7. Dans la section **Canaux, onglets** et applications, modifiez les canaux et applications existants dont votre équipe a besoin.
 
-    1. Sélectionnez un canal à modifier, puis **sélectionnez Modifier.**
+    1. Sélectionnez un canal à modifier, puis **sélectionnez Modifier**.
     2. **Appliquez** vos modifications lorsque vous avez terminé.
 
 8. Ajoutez les canaux ou applications dont votre équipe a besoin.
 
-    1. Dans la section **Canaux,** sélectionnez **Ajouter.**
+    1. Dans la section **Canaux** , sélectionnez **Ajouter**.
     2. Dans la boîte **de** dialogue Ajouter, nommez le canal.
     3. Ajoutez une description.
     4. Décidez si le canal doit être affiché par défaut.
     5. Recherchez un nom d’application que vous souhaitez ajouter au canal.
     6. Sélectionnez **Appliquer** lorsque vous avez terminé.
 
-7. Sélectionnez **Envoyer** lorsque vous avez terminé d’ajouter des canaux et des applications.
+7. **Sélectionnez Envoyer** lorsque vous avez terminé d’ajouter des canaux et des applications.
 
     Le nouveau modèle est enregistré dans la bibliothèque de modèles.
 
