@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: L'accès invité dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes extérieures en leur accordant l'accès aux équipes et aux canaux.
-ms.openlocfilehash: 80c1fcb9012efbc1809b1d1d4252c9801d148ba9
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 8ea0ae05823a1f7402d6a41f51794d0a169faf43
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537085"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457254"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 
@@ -33,11 +33,11 @@ L’accès invité vous permet d’accéder à Teams, aux documents dans des can
 > [!NOTE]
 > Si vous voulez simplement rechercher, appeler, discuter et configurer des réunions avec des personnes d’autres organisations, utilisez [Accès externe](manage-external-access.md).
 
-Un invité est une personne qui n'est ni un employé, ni un étudiant ni un membre de votre organisation. Il ne dispose pas d'aucun compte scolaire ni professionnel lié à votre organisation. Il peut par exemple s'agir de partenaires, sous-traitants, fournisseurs ou consultants. Toute personne qui ne fait pas partie de votre organisation peut être ajouté en tant qu’invité dans Teams. Cela signifie que tout le monde avec un compte professionnel (autrement dit, un compte Azure Active Directory) ou un compte de messagerie consommateur (avec Outlook.com, Gmail.com ou d’autres personnes) peut participer en tant qu’invité dans Teams, avec un accès à des équipes et des expériences de canal.
+Un invité est une personne qui n’a pas de compte scolaire ou professionnel avec votre organisation. Il peut par exemple s'agir de partenaires, sous-traitants, fournisseurs ou consultants. Toute personne qui ne fait pas partie de votre organisation peut être ajouté en tant qu’invité dans Teams. Cela signifie que tout le monde avec un compte professionnel (autrement dit, un compte Azure Active Directory) ou un compte de messagerie consommateur (avec Outlook.com, Gmail.com ou d’autres personnes) peut participer en tant qu’invité dans Teams, avec un accès à des équipes et des expériences de canal.
 
 Les invités dans Teams bénéficient de la même protection en matière de conformité et d’audit que les autres utilisateurs de Microsoft 365, et les invités peuvent être gérés dans Azure AD. L’accès invité est soumis à Azure AD et aux limites de service Microsoft 365 ou Office 365.
 
-L'expérience client a des limites de par sa conception. Pour obtenir une liste complète de ce qu'un invité peut et ne peut pas faire dans Teams, consultez [la comparaison des capacités des membres de l'équipe et des invités](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
+L’expérience des invités comporte des limitations de par sa conception. Pour obtenir la liste complète de ce qu’un invité peut et ne peut pas faire dans Teams, consultez [Accès invité dans Microsoft Teams](guest-experience.md).
 
 > [!IMPORTANT]
 > Les invités suivent les paramètres à l’échelle de l’organisation Teams pour le mode de mise à niveau de coexistence. Cela ne peut pas être modifié.
@@ -60,14 +60,14 @@ L’accès invité dans Teams nécessite la configuration d’autres paramètres
 
 ### <a name="turning-guest-access-off"></a>Désactivation de l’accès invité
 
-Si vous désactivez l’accès invité dans Teams, les invités existants perdent l’accès à leur équipe. Toutefois, ils ne sont pas supprimés de l’équipe. Ils sont toujours visibles par les membres de l’équipe et peuvent être @mentioned. Si vous réactivez l’accès invité Teams, celui-ci retrouvera l’accès.
+Si vous désactivez l’accès invité dans Teams, les invités existants perdent l’accès à leur équipe. Toutefois, ils ne sont pas supprimés de l’équipe. Ils sont toujours visibles par les membres de l’équipe et peuvent être @mentionés. Si vous réactivez l’accès invité Teams, celui-ci retrouvera l’accès.
 
-Si vous envisagez de laisser l’accès invité désactivé, vous pouvez conseiller aux propriétaires de votre équipe de supprimer manuellement les comptes invités de leurs équipes. Bien que ces invités n’aient pas accès, le fait d’avoir leurs comptes visibles dans l’équipe peut entraîner une confusion pour d’autres membres de l’équipe.
+Si vous envisagez de laisser l’accès invité désactivé, vous pouvez conseiller aux propriétaires de votre équipe de supprimer manuellement les comptes invités de leurs équipes. Si ces invités n’y ont pas accès, la visibilité de leur compte dans l’équipe peut semer la confusion chez les autres membres.
 
-## <a name="how-a-guest-becomes-a-member-of-a-team"></a>Comment un invité peut devenir membre d'une équipe
+## <a name="how-a-guest-gets-added-to-a-team"></a>Comment un invité est ajouté à une équipe
 
 1. Un propriétaire d'équipe ou un administrateur Microsoft 365 [ajoute un invité à une équipe](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
-2. L'invité reçoit un e-mail de bienvenue de la part du propriétaire de l’équipe, ainsi que des informations sur l’équipe et sur ce à quoi s'attendre en tant que membre.
+2. L'invité reçoit un courriel de bienvenue du propriétaire de l'équipe, avec des informations sur l'équipe et ce à quoi il peut s'attendre maintenant qu'il a été ajouté.
 3. L'invité accepte l'invitation.
   Les invités disposant d’un compte professionnel ou scolaire dans Azure Active Directory peuvent accepter l’invitation et s’authentifier directement. Les autres utilisateurs reçoivent un code d’accès unique pour valider leur identité ([Authentification à code secret unique](/azure/active-directory/external-identities/one-time-passcode) obligatoire).
 4. Après avoir accepté l'invitation, l'invité peut [participer à l'équipe et aux canaux](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499), recevoir et répondre à des messages de canal, [accéder aux fichiers dans les canaux](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participer aux conversations, rejoindre des réunions, collaborer sur des documents, etc. 
@@ -83,11 +83,14 @@ Les invités peuvent quitter l’équipe Teams à tout moment. Pour plus d'infor
 
 L’accès invité peut être utilisé avec tous les abonnements Microsoft 365 Business Standard, Microsoft 365 Entreprise; et Microsoft 365 Éducation. Aucune licence Microsoft 365 supplémentaire n'est requise. Le [modèle de facturation pour Azure AD External Identities](/azure/active-directory/b2b/licensing-guidance) s’applique aux invités dans Microsoft 365. Seules les personnes extérieures à votre organisation peuvent être invitées en tant qu’invités.
 
+> [!NOTE]
+> La conversion d'un compte invité en un compte membre Azure AD ou la conversion d'un compte membre Azure AD en un invité n'est pas prise en charge par Teams.
+
 ## <a name="guest-access-reviews"></a>Révisions de l’accès invité
 
-Vous pouvez utiliser Azure AD pour créer une révision d’accès pour les membres du groupe ou les utilisateurs affectés à une application. La création de critiques d’accès récurrents vous permet de gagner du temps. Si vous devez examiner régulièrement les utilisateurs qui ont accès à une application, à une équipe ou sont membres d’un groupe, vous pouvez définir la fréquence de ces révisions. 
+Vous pouvez utiliser Azure AD pour créer une révision d’accès pour les utilisateurs qui se trouvent dans des groupes ou qui ont été affectés à une application. La création de critiques d’accès récurrents vous permet de gagner du temps. Si vous devez examiner régulièrement les utilisateurs qui ont accès à une application, une équipe ou un groupe, vous pouvez définir la fréquence de ces révisions. 
 
-Vous pouvez effectuer une révision de l’accès invité vous-même, demander aux invités de passer en revue leur propre appartenance, ou demander au propriétaire de l’application ou au décideur d’entreprise d’effectuer la révision d’accès. Utilisez le portail Azure pour effectuer des révisions de l’accès invité. Pour plus d’information, consultez [Gérer l’accès invité avec les révisions d’accès Azure AD](/azure/active-directory/governance/manage-guest-access-with-access-reviews).
+Vous pouvez effectuer une révision d’accès invité vous-même, demander aux invités de vérifier leur propre accès ou demander à un propriétaire d’application ou à un décideur d’entreprise d’effectuer la révision d’accès. Utilisez le portail Azure pour effectuer des révisions de l’accès invité. Pour plus d’information, consultez [Gérer l’accès invité avec les révisions d’accès Azure AD](/azure/active-directory/governance/manage-guest-access-with-access-reviews).
 
 ## <a name="related-topics"></a>Voir aussi
 
