@@ -1,8 +1,8 @@
 ---
 title: Rapport de synthèse de la qualité des médias dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 description: 'Résumé : Découvrez le rapport de synthèse de la qualité des médias dans Skype Entreprise Server.'
-ms.openlocfilehash: 7ee64f9654e2f21a45c173c4a51ed5e40131b874
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3bf2d28cf9bc771ab14c567f3e0cfd1f373800b1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838616"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399658"
 ---
 # <a name="media-quality-summary-report-in-skype-for-business-server"></a>Rapport de synthèse de la qualité des médias dans Skype Entreprise Server
  
@@ -47,7 +47,7 @@ Le rapport de synthèse de la qualité des médias vous permet d’appliquer des
   
 ## <a name="accessing-the-media-quality-summary-report"></a>Accès au rapport de synthèse de la qualité des médias
 
-Le rapport de synthèse de la qualité des médias est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez descendre dans le rapport de liste d’appels [Skype Entreprise Server](call-list-report-0.md) en cliquant sur l’une des mesures suivantes :
+Le rapport de synthèse de la qualité des médias est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez descendre dans le rapport des listes d’Skype Entreprise Server [en](call-list-report-0.md) cliquant sur l’une des mesures suivantes :
   
 - Volume d’appels
     
@@ -100,7 +100,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 |**Volume d’appels (appels VPN)** <br/> |Non  <br/> |Nombre total d’appels qui utilisaient une connexion VPN.  <br/> |
 |**Volume d’appels (appels externes)** <br/> |Non  <br/> |Nombre d’appels qui utilisaient une connexion externe (c’est-à-dire une connexion en dehors du réseau interne).  <br/> |
 |**Boucle (ms)** <br/> |Non  <br/> |Temps moyen (en millisecondes) nécessaire à un package RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un autre point de terminaison. Des boucles de 100 millisecondes ou moins sont considérées qualitativement acceptables.  <br/> Des boucles avec des temps plus élevés peuvent être causées par le routage international des appels, une mauvaise configuration du routage ou un serveur multimédia surchargé. Les temps d’aller-retour élevés créent des difficultés dans le cadre de conversations audio bidirectionnelles réalisées en temps réel.  <br/> |
-|**Dégradation (MOS)** <br/> |Non  <br/> |Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Skype Entreprise Server un ensemble d’algorithmes prédisent comment les utilisateurs auraient évalué un appel.  <br/> Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un système d’extrémité surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
+|**Dégradation (MOS)** <br/> |Non  <br/> |Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Skype Entreprise Server ensemble d’algorithmes prédisent comment les utilisateurs auraient évalué un appel.  <br/> Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un système d’extrémité surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
 |**Perte de paquets** <br/> |Non  <br/> |Taux moyen de pertes de paquets RTP. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
 |**Gigue (ms)** <br/> |Non  <br/> |Gigue moyenne détectée entre les arrivées de paquets RTP. (La gigue permet de mesurer les fluctuations d’un appel.) Les valeurs de gigue élevées peuvent provenir d’une congestion ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
 |**Taux de masquage de la réparation** <br/> |Non  <br/> |Ratio moyen d’échantillons audio masqués par rapport au nombre total d’échantillons. (Un échantillon audio masqué est une technique employée pour adoucir les effets de transition violents généralement causés par des paquets réseau perdus.) Des valeurs élevées indiquent des niveaux importants de masquage des pertes appliqués suite à la perte de paquets ou des phénomènes de gigue. Elles se traduisent par une distorsion ou une perte de l’audio.  <br/> |

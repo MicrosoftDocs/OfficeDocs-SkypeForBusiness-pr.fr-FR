@@ -1,8 +1,8 @@
 ---
 title: Gérer les conférences téléphoniques dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
 description: 'Résumé : Découvrez comment gérer les conférences téléphoniques dans Skype Entreprise Server.'
-ms.openlocfilehash: e2b836cf45bf3e9253ea6161c4bd634864337e5f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d551b25b71575098e4077603aee7a1519af1809e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830858"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410847"
 ---
 # <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>Gérer les conférences téléphoniques dans Skype Entreprise Server
  
@@ -27,7 +27,7 @@ Cette rubrique décrit comment gérer les conférences téléphoniques. Pour plu
   
 Vous pouvez effectuer les tâches suivantes pour gérer les conférences dial-in : activer ou désactiver la conférence d’accès, gérer les numéros d’accès, gérer les stratégies de code confidentiel pour les conférences téléphoniques, gérer les annonces de connexion et de départ de conférence, modifier les mappages de touches pour les commandes DTMF et accueillir les utilisateurs à la conférence téléphonique. 
   
-Pour plus d’informations sur la gestion des plans de numérotation, voir Créer ou modifier un plan de numérotation [dans Skype Entreprise Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
+Pour plus d’informations sur la gestion des plans de numérotation, voir Créer ou modifier un [plan de numérotation dans Skype Entreprise Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
   
 Pour plus d’informations sur l’utilisation PSTN, voir [Configure voice policies, PSTN usage records, and voice routes in Skype Entreprise](../../deploy/deploy-enterprise-voice/voice-and-pstn.md).
   
@@ -47,7 +47,7 @@ Pour gérer les informations sur les plans de numérotation et l’utilisation P
     
 2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, cliquez **sur Routage des voix.**
+3. Dans la barre de navigation de gauche, cliquez **sur Routage des voix**.
     
 ## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>Gérer les conférences téléphoniques à l’aide de Skype Entreprise Server Management Shell
 

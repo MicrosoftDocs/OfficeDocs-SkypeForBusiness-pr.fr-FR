@@ -1,7 +1,7 @@
 ---
 title: Créer un modèle d’équipe personnalisé dans Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7bb0805705797587f9475fe7a6ee759165e884b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1fa114e6bc15ff8aeb6d0e75dcb6c0c45871b436
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864481"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399548"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Créer un modèle d’équipe personnalisé dans Microsoft Teams
 
@@ -38,15 +38,15 @@ Pour commencer :
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Dans le groupe de navigation de gauche, **développez Teams**  >  **d’équipe.**
+2. Dans le navigateur de gauche, **développez Teams** >  **Team**.
 
 3. Sélectionnez **Ajouter**.
 
     ![Image de la boîte de dialogue Modèles d’équipe avec L’ajout mis en évidence.](media/team-templates-new.png)
 
-4. Dans la section **Modèles d’équipe,** **sélectionnez Créer un tout nouveau modèle.**
+4. Dans la section **Modèles d’équipe** , **sélectionnez Créer un tout nouveau modèle**.
 
-5. Dans la section **Paramètres du modèle,** remplissez les champs suivants, puis sélectionnez **Suivant**:
+5. Dans la section **Paramètres du modèle** , remplissez les champs suivants, puis sélectionnez **Suivant** :
     - Nom du modèle
     - Descriptions brèves et longues du modèle
     - Visibilité des paramètres régionaux  
@@ -55,7 +55,7 @@ Pour commencer :
 
 6. Dans la section **Canaux, onglets** et applications, ajoutez les canaux et applications dont votre équipe a besoin.
 
-    1. Dans la section **Canaux,** sélectionnez **Ajouter.**
+    1. Dans la section **Canaux** , sélectionnez **Ajouter**.
     2. Dans la boîte **de** dialogue Ajouter, nommez le canal.
     3. Ajoutez une description.
     4. Décidez si le canal doit être affiché par défaut.
@@ -64,9 +64,9 @@ Pour commencer :
 
     ![Image de l’écran des modèles d’équipe de canaux, d’onglets et d’applications.](media/template-channels-tabs-apps.png)
 
-8. Sélectionnez **Envoyer** lorsque vous avez terminé.
+8. **Sélectionnez Envoyer** lorsque vous avez terminé.
 
-Votre nouveau modèle est affiché dans la liste **des modèles d’équipe.** Le modèle peut être utilisé pour créer une équipe dans Teams.
+Votre nouveau modèle est affiché dans la liste **des modèles d’équipe** . Le modèle peut être utilisé pour créer une équipe dans Teams.
 
 > [!Note]
 > 24 heures peuvent être nécessaire pour que les utilisateurs de Teams voient un changement de modèle personnalisé dans la galerie.
@@ -82,9 +82,9 @@ Pour commencer :
 
 1. Créez un modèle d’équipe ou modifiez un modèle d’équipe existant.
 
-2. Dans la section Canaux, ajoutez un nouveau canal ou sélectionnez un canal existant, puis sélectionnez **Modifier.**
+2. Dans la section Canaux, ajoutez un nouveau canal ou sélectionnez un canal existant, puis sélectionnez **Modifier**.
 
-3. Dans la **section Ajouter une application pour ce modèle,** ajoutez une application Site web.
+3. Dans la **section Ajouter une application pour ce modèle** , ajoutez une application Site web.
 
     ![ajouter une application pour cette option de modèle.](media/add-an-app-template.png)
 
@@ -92,21 +92,21 @@ Pour commencer :
 
     ![ajouter une URL d’application.](media/add-url-app-template.png)
 
-5. Sélectionnez **Enregistrer** pour les modifications apportées à l’application de l’onglet, puis **sélectionnez Appliquer** pour enregistrer vos modifications.
+5. **Sélectionnez Enregistrer** pour les modifications apportées à l’application de l’onglet, puis **sélectionnez Appliquer** pour enregistrer vos modifications.
 
 ## <a name="known-issues"></a>Problèmes connus
 
-**Problème**: si vous avez créé une équipe à partir d’un modèle personnalisé qui contenait d’autres onglets personnalisés, vous pouvez voir des onglets vides à la place de vos applications d’onglets personnalisées. Vos onglets par défaut (tels que **Publications,** **Fichiers** et **Wiki)** s’afficheront comme prévu.
+**Problème** : si vous avez créé une équipe à partir d’un modèle personnalisé qui contenait d’autres onglets personnalisés, vous pouvez voir des onglets vides à la place de vos applications d’onglets personnalisées. Vos onglets par défaut (tels que **Publications****, Fichiers** et **Wiki**) s’afficheront comme prévu.
 
-**Solution**: pour résoudre ce problème, supprimez l’onglet personnalisé et ajoutez un nouvel onglet avec la même application. Si vous n’êtes pas autorisé à supprimer l’onglet personnalisé et à ajouter un nouvel onglet, contactez le propriétaire de l’équipe pour obtenir de l’aide.
+**Solution** : Pour résoudre ce problème, supprimez l’onglet personnalisé et ajoutez un nouvel onglet avec la même application. Si vous n’êtes pas autorisé à supprimer l’onglet personnalisé et à ajouter un nouvel onglet, contactez le propriétaire de l’équipe pour obtenir de l’aide.
 
 Nous travaillons actuellement sur un correctif pour les équipes futures créées à partir de modèles personnalisés.
 
-**Problème**: lors de l’Teams dans le navigateur, certains sites web ne peuvent pas être restituer dans un Teams onglet.
+**Problème** : lors de l’Teams dans le navigateur, certains sites web ne peuvent pas être restituer dans un Teams onglet.
 
 ![message d’erreur du navigateur.](media/browser-error-message.png)
 
-**Solution**: si vous avez des difficultés à afficher le contenu de l’onglet du site web, vous serez redirigé pour ouvrir l’onglet dans une page web distincte ou ouvrir Teams dans l’application de bureau pour afficher l’application de l’onglet de votre site web.
+**Solution** : si vous avez des difficultés à afficher le contenu de l’onglet du site web, vous serez redirigé pour ouvrir l’onglet dans une page web distincte ou ouvrir Teams dans l’application de bureau pour afficher l’application de l’onglet de votre site web.
 
 ## <a name="related-topics"></a>Voir aussi
 

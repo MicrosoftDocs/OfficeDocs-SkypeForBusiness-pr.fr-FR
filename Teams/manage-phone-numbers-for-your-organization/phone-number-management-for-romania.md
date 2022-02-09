@@ -1,7 +1,7 @@
 ---
 title: Téléphone gestion des nombres pour la Roumanie
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Roumanie Microsoft Teams.
-ms.openlocfilehash: 13322fc4283031dbed0783ac24bc8852ecd54a58
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1f1d2fe98cd7dbfb1fd15df20a5e8553efbb5bd8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848187"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399468"
 ---
 # <a name="phone-number-management-for-romania"></a>Téléphone gestion des nombres pour la Roumanie
 
@@ -37,11 +37,11 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams. <br/> |En Roumanie, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et en contactant le service de service [TNS pour obtenir des instructions.](contact-tns-service-desk.md)<br/><br/>Nouvelle demande de numéro de téléphone pour [la Roumanie (v.1.0) (rm-rm)](https://download.microsoft.com/download/1/4/d/14d27bf9-4326-409e-be0c-30f88d1fae83/new-phone-number-request-for-romania-(v1.0)-(ro-RO).pdf). <br/><br/> Pour pouvoir vous attribuer des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le compléter en entier et contacter le service de service TNS pour obtenir [des instructions.](contact-tns-service-desk.md)<br/><br/>Le remplissage des nouvelles commandes sur ce marché peut prendre de deux à trois semaines. |
-|Obtenez les numéros de téléphone qui nous sont transférés.<br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour la Roumanie (tous les nombres) (v.1.0) (rm-rm)](https://download.microsoft.com/download/9/c/1/9c1dcdc3-2161-4e2e-bdce-34397d20782e/letter-of-authorization-(loa)-for-romania-(all-numbers)-(v.1.0)-(rm-rm).pdf) <br/> <br/>Remplissez-le et [contactez le service desk TNS pour obtenir des instructions.](contact-tns-service-desk.md)<br/><br/>Le transfert de numéros peut prendre de quatre à cinq semaines dans ce marché. <br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.  <br/> |
-|Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service TNS pour](contact-tns-service-desk.md) obtenir des instructions sur la liste des numéros de téléphone que vous souhaitez publier/publier. <br/> |
-|Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contactez le service TNS pour](contact-tns-service-desk.md) obtenir des instructions sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
-|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier les numéros de file d’attente ou de numéro du personnel de la file d’attente automatique, contactez le service [de service TNS pour obtenir des instructions.](contact-tns-service-desk.md) |
+|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams. <br/> |En Roumanie, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et en contactant le service de service [TNS pour obtenir des instructions](contact-tns-service-desk.md).<br/><br/>[Nouvelle demande de numéro de téléphone pour la Roumanie (v.1.0) (rm-rm)](https://download.microsoft.com/download/1/4/d/14d27bf9-4326-409e-be0c-30f88d1fae83/new-phone-number-request-for-romania-(v1.0)-(ro-RO).pdf) <br/><br/> Pour pouvoir vous attribuer des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le compléter en entier et contacter le service de service [TNS pour obtenir des instructions](contact-tns-service-desk.md).<br/><br/>Le remplissage des nouvelles commandes sur ce marché peut prendre de deux à trois semaines. |
+|Obtenez les numéros de téléphone qui nous sont transférés.<br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour la Roumanie (tous les nombres) (v.1.0) (rm-rm)](https://download.microsoft.com/download/9/c/1/9c1dcdc3-2161-4e2e-bdce-34397d20782e/letter-of-authorization-(loa)-for-romania-(all-numbers)-(v.1.0)-(rm-rm).pdf) <br/> <br/>Remplissez-le et [contactez le service desk TNS pour obtenir des instructions](contact-tns-service-desk.md).<br/><br/>Le transfert des numéros peut prendre de quatre à cinq semaines dans ce marché. <br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.  <br/> |
+|Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service TNS pour obtenir des instructions](contact-tns-service-desk.md) sur la liste des numéros de téléphone que vous souhaitez publier/publier. <br/> |
+|Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contactez le service TNS pour obtenir des instructions](contact-tns-service-desk.md) sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
+|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier les numéros de file d’attente ou de numéro du personnel de service automatique, contactez le service de service [TNS pour obtenir des instructions](contact-tns-service-desk.md). |
    
 ## <a name="related-topics"></a>Voir aussi
 

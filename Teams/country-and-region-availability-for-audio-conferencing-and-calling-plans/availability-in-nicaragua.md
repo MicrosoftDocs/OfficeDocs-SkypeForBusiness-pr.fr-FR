@@ -1,7 +1,7 @@
 ---
 title: Disponibilité au Nicaragua
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365'aide Skype Entreprise et Microsoft Teams disponibles pour le Nicaragua.
-ms.openlocfilehash: 5b67b46fec221f9fdaa921de81d9e7adbe1bdc6a
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 4528dbb3c6e9ace8a4839568f4717180371896c6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190645"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410627"
 ---
 # <a name="availability-in-nicaragua"></a>Disponibilité au Nicaragua
 
@@ -62,13 +62,13 @@ Voici les services Microsoft 365 et Office 365'aide Skype Entreprise et Microsof
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
 
-Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les options de [connectivité PSTN](../pstn-connectivity.md) pour toutes les options disponibles.
+Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les [options de connectivité PSTN](../pstn-connectivity.md) pour toutes les options disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | Mans[(sur demande)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | Mans ([sur demande](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Non  <br/> |
    

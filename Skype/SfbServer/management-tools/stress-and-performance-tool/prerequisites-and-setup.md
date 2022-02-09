@@ -1,8 +1,8 @@
 ---
 title: Conditions préalables et configuration de la Skype de l’outil Stress and Performance de Busines
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Conditions requises ou conditions préalables pour l Skype Entreprise Server 2015 Stress and Performance Tool. Comment installer ou configurer l’outil Stress and Performance.
-ms.openlocfilehash: 60ff4476a92949b2f5ba0d7a027b5cadf3eab533
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ec7e2b66427d360a9d54c38146289e4d08f9238d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835162"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399618"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Conditions préalables et configuration de la Skype de l’outil Stress and Performance de Busines
  
@@ -81,8 +81,8 @@ Vous aurez besoin de ces configurations supplémentaires pour exécuter correcte
 ## <a name="installing-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Installation de l Skype Entreprise Server 2015 Stress and Performance Tool
 <a name="Installing"> </a>
 
-L’installation ne pouvait pas être plus simple. Vous devez exécuter le fichier Windows Installer, **CapacityPlanningTool.msi,** sur chaque ordinateur client que vous allez utiliser pour simuler le trafic utilisateur, et sur un serveur frontal dans chaque pool où vous allez créer des utilisateurs et des contacts.
+L’installation ne pouvait pas être plus simple. Vous devez exécuter le fichier Windows Installer, **CapacityPlanningTool.msi**, sur chaque ordinateur client que vous allez utiliser pour simuler le trafic utilisateur, et sur un serveur frontal dans chaque pool où vous allez créer des utilisateurs et des contacts.
   
-Pour télécharger le .msi, ainsi que les exemples de scripts mentionnés dans nos autres articles, go to the Download Center link: [Skype Entreprise Server 2015, Stress and Performance Tool](https://www.microsoft.com/download/details.aspx?id=50367).
+Pour télécharger le .msi, ainsi que les exemples de script mentionnés dans nos autres articles, allez sur le lien centre de téléchargement : [Skype Entreprise Server 2015, outil Stress and Performance](https://www.microsoft.com/download/details.aspx?id=50367).
   
 

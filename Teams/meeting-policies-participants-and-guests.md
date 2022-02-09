@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour les participants et les invités.
-ms.openlocfilehash: bd8146ce27f76bd03d7ef991f51dbe1dda3c08ab
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: ac77ab8b032fa792b0b137c84679912768e3b1b6
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563120"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457374"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion : participants et invités
 
@@ -96,11 +96,17 @@ Ce paramètre est une stratégie par utilisateur et s’applique pendant une ré
 
 Ce paramètre est un paramètre par participant. Ce paramètre détermine si la conversation de réunion est autorisée pendant la réunion de l’utilisateur.
 
+|Valeur du paramètre |Comportement  |
+|---------|---------|
+|**L’activer pour tout le monde**     | Tous les participants peuvent écrire et afficher des messages de conversation. |
+|**Désactiver pour tout le monde**     | La conversation de réunion est désactivée pour tous les participants.  |
+|**L’activer pour tout le monde sauf les utilisateurs anonymes**| Les utilisateurs anonymes ne peuvent pas discuter pendant les réunions, mais peuvent lire les messages. |
+
 <a name="bkparticipantsandguests"> </a>
 
 ## <a name="enable-meeting-policy-settings"></a>Activer les paramètres de stratégie de réunion
 
-Pour activer les paramètres de stratégie de réunion, vous pouvez utiliser le Centre d’administration [Teams](https://admin.teams.microsoft.com/policies/meetings) **(Les** stratégies de réunion modifient une stratégie Participants &  >    >  **invités)** ou l’cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) dans Teams PowerShell. 
+Pour activer les paramètres de stratégie de réunion, vous pouvez utiliser le Centre d’administration [Teams](https://admin.teams.microsoft.com/policies/meetings) (**Meeting PoliciesEdit** >  **un** **policyParticipants** >  & guests) ou l’cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) dans Teams PowerShell. 
 
 Dans cet exemple, nous utilisons PowerShell pour modifier la stratégie de réunion globale afin de permettre à tous les utilisateurs de commencer ou de rejoindre une réunion.
 

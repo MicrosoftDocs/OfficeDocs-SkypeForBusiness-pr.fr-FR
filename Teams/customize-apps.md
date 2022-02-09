@@ -1,7 +1,7 @@
 ---
 title: Personnaliser des applications dans Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: v-tbasra
 ms.topic: article
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment personnaliser des applications dans Microsoft Teams.
-ms.openlocfilehash: ca0f7b090669304553159979af3983b7f21de284
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cac5bc4e5d2748b8e4a9143d50e40dbf96ae80a0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831738"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410617"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personnaliser des applications dans Microsoft Teams
 
- Microsoft Teams fournit des personnalisations d’application pour améliorer Teams expérience utilisateur. Certains développeurs d’applications autorisent la personnalisation d’une application par l Teams administrateur. L’administrateur peut personnaliser ou renommer les propriétés de l’application en fonction des besoins de l’organisation à l’aide de la page Teams d’administration **Gérer les applications.** Les détails que vous pouvez personnaliser sont les autres :
+ Microsoft Teams fournit des personnalisations d’application pour améliorer Teams expérience utilisateur. Certains développeurs d’applications autorisent la personnalisation d’une application par l Teams administrateur. L’administrateur peut personnaliser ou renommer les propriétés de l’application en fonction des besoins de l’organisation à l’aide de la page Teams d’administration **Gérer les applications**. Les détails que vous pouvez personnaliser sont les autres :
 
 - Nom court
 - Brève description
@@ -51,7 +51,7 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Développez **Teams Applications et** **sélectionnez Gérer les applications.**
+2. Développez **Teams Applications et** **sélectionnez Gérer les applications**.
 
 3. Consultez **la colonne Personnalisables** de la liste d’applications et tochez les différentes applications personnalisables.
 
@@ -59,19 +59,19 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
 
    Trois points d’entrée vous sont accessibles pour accéder à la fonctionnalité personnaliser :
 
-   - Sélectionnez en côté de l’application que vous voulez personnaliser, puis sélectionnez **Personnaliser.**
+   - Sélectionnez en côté de l’application que vous voulez personnaliser, puis sélectionnez **Personnaliser**.
 
      ![L’option de personnalisation de la sélection 1.](media/select-app-to-customize1.png)
 
-   - Sélectionnez le nom de l’application, **puis Personnalisable.**
+   - Sélectionnez le nom de l’application, **puis Personnalisable**.
 
      ![Option personnaliser la sélection 2.](media/app-details-customizable.png)
 
-   - Sélectionnez le nom de l’application, puis **sélectionnez** Personnaliser dans la dropdown **Actions.**
+   - Sélectionnez le nom de l’application, puis **sélectionnez** Personnaliser dans la dropdown **Actions** .
 
      ![L’option de personnalisation de la sélection 3.](media/customize-action-menu.png)
 
-4. Développez la section **Détails** et personnalisez les champs suivants :
+4. Développez **la section Détails** et personnalisez les champs suivants :
 
     - Nom court
     - Brève description
@@ -85,7 +85,7 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
 > [!Note]
 > Seuls les champs que le développeur de l’application a attribués comme personnalisables seront visibles.
 
-5. Développez la section **Icône.**
+5. Développez la section **Icône** .
 
    1. Télécharger une icône. Utilisez une icône en couleur (192 x 192 pixels) au format PNG.
 
@@ -95,11 +95,11 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
 
     ![Personnalisez les options de couleur du panneau d’icônes.](media/customize-app-colors.png)
 
-6. Une fois votre application personnalisée, sélectionnez **Appliquer.**
+6. Une fois votre application personnalisée, sélectionnez **Appliquer**.
 
 7. **Sélectionnez** Publier pour publier l’application personnalisée.
 
-   L’application personnalisée est désormais répertoriée dans votre page **Gérer les applications.** Vous n’aurez qu’une version de l’application, car la personnalisation des fonctionnalités de l’application ne crée pas de copie de l’application.
+   L’application personnalisée est désormais répertoriée dans votre page **Gérer les applications** . Vous n’aurez qu’une version de l’application, car la personnalisation des fonctionnalités de l’application ne crée pas de copie de l’application.
 
 Vos utilisateurs finaux Teams désormais ouvrir leur client Teams client pour voir l’application personnalisée.
 
@@ -127,7 +127,7 @@ Vous souhaitez peut-être consulter les détails de l’application pour examine
 
 3. Sélectionnez le nom de l’application.
 
-4. Afficher les détails de l’application, y compris le nom d’origine de **l’application Short name from publisher.**
+4. Affichez les détails de l’application, y compris le nom d’origine de l’application **Short name from publisher**.
 
    ![Personnalisez le nom de l’application du panneau d’icônes.](media/original-app-version.png)
 
@@ -139,11 +139,11 @@ Vous souhaitez peut-être consulter les détails de l’application pour examine
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Développez **Teams Applications et** **sélectionnez Gérer les applications.**
+2. Développez **Teams Applications et** **sélectionnez Gérer les applications**.
 
 3. Sélectionnez le nom de l’application.
 
-4. Sélectionnez **Rétablir la valeur par défaut** dans la dropdown **Actions.**
+4. **Sélectionnez Rétablir la valeur par défaut** dans la dropdown **Actions**.
 
    ![Sélectionnez Rétablir la valeur par défaut mise en évidence.](media/select-reset.png)
 

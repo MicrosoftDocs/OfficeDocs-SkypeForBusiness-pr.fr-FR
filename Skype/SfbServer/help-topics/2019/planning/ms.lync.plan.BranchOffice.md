@@ -1,8 +1,8 @@
 ---
 title: Branch Sites (Planning Tool)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour plus d’informations sur la résistance des sites de succursale, voir Planning for Branch-Site Voice Resiliency.
-ms.openlocfilehash: 68be51e5178e3a0d59dc4938e8410c0777b6a694
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 962597841c95091a77b212e378b8a8e6beff2c79
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859371"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410457"
 ---
 # <a name="branch-sites-planning-tool"></a>Branch Sites (Planning Tool)
 

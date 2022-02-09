@@ -1,8 +1,8 @@
 ---
 title: Conditions requises pour votre environnement Skype Entreprise client
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
 description: 'Résumé : Plan des rubriques relatives aux exigences en matière de systèmes et de réseau ou d’infrastructure pour Skype Entreprise Server 2015. Si vous avez besoin d’installer ou de configurer quoi que ce soit comme condition préalable à l’installation et au déploiement Skype Entreprise Server 2015, ce sera ici.'
-ms.openlocfilehash: 0bc44108a256e54a180b14293f37fc15510c97e5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8f5bd1d010ab65483fef071d1881e1b31b1a0105
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836202"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416447"
 ---
 # <a name="requirements-for-your-skype-for-business-2015-environment"></a>Conditions requises pour Skype Entreprise environnement 2015
  

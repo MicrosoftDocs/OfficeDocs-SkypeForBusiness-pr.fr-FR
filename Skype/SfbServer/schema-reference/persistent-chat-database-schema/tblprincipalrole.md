@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalRole
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
 description: La table tblPrincipalRole contient les rôles explicites affectés à des nœuds.
-ms.openlocfilehash: 6c9960c4eafc2d28a4710a8e4dded6bea19c841a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3c4af0f5022afc25212c50b44ff19c28946df97d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828527"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399568"
 ---
 # <a name="tblprincipalrole"></a>tblPrincipalRole
  
@@ -26,7 +26,7 @@ La table tblPrincipalRole contient les rôles explicites affectés à des nœuds
   
 **Colonnes**
 
-|**Colonne**|**Type (Type)**|**Description**|
+|**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |prinRoleNodeID  <br/> |entier, non null  <br/> |ID du nœud auquel le rôle s’applique.  <br/> |
 |prinRolePrinID  <br/> |entier, non null  <br/> |ID du principal.  <br/> |

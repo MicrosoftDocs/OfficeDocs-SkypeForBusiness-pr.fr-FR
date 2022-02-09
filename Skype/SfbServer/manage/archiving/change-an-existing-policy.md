@@ -1,8 +1,8 @@
 ---
 title: Modifier une stratégie d’archivage existante dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: 'Résumé : Découvrez comment modifier les stratégies d’archivage des utilisateurs pour Skype Entreprise Server.'
-ms.openlocfilehash: b6ddc379f2b5652311be051d47d644a8e2923c1c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 494ed5ab3bd9e7bf4b64926533d3866e515fe34a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854388"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416617"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Modifier une stratégie d’archivage existante dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment modifier les stratégies d’archivage des utilisateurs Skype Entreprise Server.
+**Résumé :** Découvrez comment modifier les stratégies d’archivage des utilisateurs pour Skype Entreprise Server.
   
 Lorsque vous déployez Skype Entreprise Server, vous devez configurer des stratégies d’archivage initiales qui déterminent la façon dont l’archivage est implémenté pour les utilisateurs de votre déploiement. Cette rubrique décrit comment gérer et modifier des stratégies. 
   
@@ -50,11 +50,11 @@ Lorsque vous déployez Skype Entreprise Server, vous devez configurer des strat�
 6. Cliquez sur **Valider**.
     
     > [!IMPORTANT]
-    > Les paramètres d’une stratégie utilisateur ne s’appliquent qu’aux utilisateurs et groupes d’utilisateurs spécifiques pour lesquels la stratégie a été définie. Pour plus d’informations, voir [Appliquer une stratégie d’archivage](apply-a-policy-to-users.md)aux utilisateurs dans Skype Entreprise Server . 
+    > Les paramètres d’une stratégie utilisateur ne s’appliquent qu’aux utilisateurs et groupes d’utilisateurs spécifiques pour lesquels la stratégie a été définie. Pour plus d’informations, voir [Appliquer une stratégie d’archivage aux utilisateurs dans Skype Entreprise Server](apply-a-policy-to-users.md). 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>Modifier les stratégies d’archivage à l’aide Windows PowerShell
 
-Vous pouvez également modifier les stratégies d’archivage à l’aide Windows PowerShell cmdlet **Set-CsArchivingPolicy.**
+Vous pouvez également modifier les stratégies d’archivage à l’aide Windows PowerShell cmdlet **Set-CsArchivingPolicy**.
   
 ### <a name="enable-archiving-policies"></a>Activer les stratégies d’archivage
 

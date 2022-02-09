@@ -5,8 +5,8 @@ ms:assetid: 662de022-1111-40f7-bad4-f2b686f30973
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521007(v=OCS.15)
 ms:contentKeyID: 48184333
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,22 +15,22 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Pour déterminer quels sont les utilisateurs qui peuvent inviter des utilisateurs anonymes, vous devez configurer une stratégie de conférence pour la prise en charge des utilisateurs anonymes, et appliquer cette stratégie de conférence à des utilisateurs spécifiques.
-ms.openlocfilehash: 25762861b6086750213553bca9bfd02dab01187d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 31978a997b3344367068c00978de9257585c6d4b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848497"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399708"
 ---
 # <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Affecter des stratégies de conférence pour prendre en charge les utilisateurs anonymes dans Skype Entreprise Server 
 
 
-Par défaut, aucun utilisateur ne peut inviter d’utilisateurs anonymes à participer à une réunion. Pour déterminer quels sont les utilisateurs qui peuvent inviter des utilisateurs anonymes, vous devez configurer une stratégie de conférence pour la prise en charge des utilisateurs anonymes, et appliquer cette stratégie de conférence à des utilisateurs spécifiques. Pour plus d’informations sur la configuration d’une stratégie de conférence pour prendre en charge les utilisateurs anonymes, voir Créer des stratégies de conférence dans [Skype Entreprise Server](../../conferencing/create-policies.md) et Gestion de la fédération et de l’accès externe [à Skype Entreprise Server](../managing-federation-and-external-access.md).
+Par défaut, aucun utilisateur ne peut inviter d’utilisateurs anonymes à participer à une réunion. Pour déterminer quels sont les utilisateurs qui peuvent inviter des utilisateurs anonymes, vous devez configurer une stratégie de conférence pour la prise en charge des utilisateurs anonymes, et appliquer cette stratégie de conférence à des utilisateurs spécifiques. Pour plus d’informations sur la configuration d’une stratégie de conférence pour prendre en charge les utilisateurs anonymes, voir Créer des stratégies de conférence dans [Skype Entreprise Server](../../conferencing/create-policies.md) et Gestion de la fédération et de l’accès externe [aux Skype Entreprise Server](../managing-federation-and-external-access.md).
 
 Suivez la procédure décrite dans cette section pour appliquer une stratégie de conférence, que vous avez déjà créée, à un ou plusieurs utilisateurs ou groupes d’utilisateurs.
 
 > [!NOTE]  
-> Outre la configuration et l’application d’une stratégie pour permettre aux utilisateurs d’inviter des utilisateurs anonymes, vous devez aussi activer la prise en charge des utilisateurs anonymes pour votre organisation. Pour plus d’informations, voir [Configurer des stratégies pour contrôler l’accès des](../external-access-policies/configure-policies-to-control-public-user-access.md)utilisateurs publics dans Skype Entreprise Server .
+> Outre la configuration et l’application d’une stratégie pour permettre aux utilisateurs d’inviter des utilisateurs anonymes, vous devez aussi activer la prise en charge des utilisateurs anonymes pour votre organisation. Pour plus d’informations, voir [Configure policies to control public user access in Skype Entreprise Server](../external-access-policies/configure-policies-to-control-public-user-access.md).
 
 
 ## <a name="to-configure-a-user-policy-for-anonymous-participation-in-meetings"></a>Pour configurer une stratégie utilisateur en vue d’une participation anonyme aux réunions
@@ -53,11 +53,11 @@ Suivez la procédure décrite dans cette section pour appliquer une stratégie d
 
 7.  Dans le tableau répertoriant les résultats de la recherche, cliquez sur le compte d’utilisateur, cliquez sur **Modifier**, puis cliquez sur **Afficher les détails**.
 
-8.  Dans **Modifier Skype Entreprise Server utilisateur** sous Stratégie de conférence, sélectionnez la stratégie utilisateur avec la configuration d’accès utilisateur anonyme que vous souhaitez appliquer à cet utilisateur.   
+8.  Dans **Modifier Skype Entreprise Server utilisateur sous** Stratégie de **conférence,** sélectionnez la stratégie utilisateur avec la configuration d’accès utilisateur anonyme que vous souhaitez appliquer à cet utilisateur.  
 
     > [!NOTE]  
-    > Les <STRONG> &lt; paramètres &gt; </STRONG> automatiques appliquent les paramètres d’installation du serveur par défaut et sont appliqués automatiquement par le serveur.
+    > Les <STRONG>&lt;paramètres&gt;</STRONG> automatiques appliquent les paramètres d’installation du serveur par défaut et sont appliqués automatiquement par le serveur.
 
 
-Pour autoriser les utilisateurs à inviter des utilisateurs anonymes à des conférences, vous devez aussi activer la prise en charge des utilisateurs anonymes dans votre organisation. Pour plus d’informations, voir [Configurer des stratégies pour contrôler l’accès des](../external-access-policies/configure-policies-to-control-public-user-access.md)utilisateurs publics dans Skype Entreprise Server .
+Pour autoriser les utilisateurs à inviter des utilisateurs anonymes à des conférences, vous devez aussi activer la prise en charge des utilisateurs anonymes dans votre organisation. Pour plus d’informations, voir [Configure policies to control public user access in Skype Entreprise Server](../external-access-policies/configure-policies-to-control-public-user-access.md).
 

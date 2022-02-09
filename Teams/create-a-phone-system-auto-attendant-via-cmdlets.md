@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrir comment configurer les attendants automatiques via des cmdlets
-ms.openlocfilehash: 1a8a105da3cfeaad0b6bc4069d877d2d8ad95796
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: 3911010b201e2b19376c24c6c4b84ae8dbcc5db8
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62181166"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457464"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>Créer un moyen de gestion automatique via des cmdlets
 
@@ -38,11 +38,11 @@ ms.locfileid: "62181166"
 - Module MSOnline installé ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  Vous avez des droits d’administration des locataires
 3)  Vous avez acheté des Microsoft Teams Téléphone
-4)  Les files d’attente d’appels mentionnées ci-dessous ont déjà été configurées à la suite du guide Création de files d’attente d’appels avec les [cmdlets PowerShell.](create-a-phone-system-call-queue-via-cmdlets.md)
+4)  Les files d’attente d’appels mentionnées ci-dessous ont déjà été configurées à la suite du guide Création de files d’attente d’appels avec les [cmdlets PowerShell](create-a-phone-system-call-queue-via-cmdlets.md) .
                                                                                                
-Remarque : certaines des cmdlets référencés ci-dessous peuvent faire partie de la version d’aperçu public Teams module PowerShell.  Pour plus d’informations, [voir installer Teams prévisualisation publique de PowerShell,](teams-powershell-install.md) ainsi que les Microsoft Teams de publication [de PowerShell.](teams-powershell-release-notes.md)
+Remarque : certaines des cmdlets référencés ci-dessous peuvent faire partie de la version d’aperçu public Teams module PowerShell.  Pour plus d’informations, [voir installer Teams prévisualisation publique de PowerShell](teams-powershell-install.md), et Microsoft Teams [notes de publication PowerShell](teams-powershell-release-notes.md).
 
-Les utilisateurs qui ont déjà installé le module MicrosoftTeams doivent s’assurer que la version la plus récente ````Update-Module MicrosoftTeams```` est installée.
+Les utilisateurs qui ont déjà installé le module ````Update-Module MicrosoftTeams```` MicrosoftTeams doivent s’assurer que la version la plus récente est installée.
 
 ## <a name="scenario"></a>Scénario
 
@@ -235,7 +235,6 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>Créer et affecter un compte de ressource
-Remarque : Téléphone numéro non requis ici, car la file d’attente d’appels est avant terminée par un Standard automatique
 - ApplicationID
 - - Standard automatique : ce933385-9390-45d1-9512-c8d228074e07
 - - File d’attente d’appels : 11cd3e2e-fccb-42ad-ad00-878b93575e07

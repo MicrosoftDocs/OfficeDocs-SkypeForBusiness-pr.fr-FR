@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Découvrez comment utiliser le tableau de bord de qualité des appels Power BI rapport pour afficher les données historiques Standard automatique de la file d’attente d’appels.
-ms.openlocfilehash: 8b567540ef88eeef30cdf6ff583b8622717d14d8
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: 22c2152401cd9ec08ae1fbad2bbd42eb29fc0726
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055385"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457234"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Standard automatique & historique de la file d’attente d’appels
 
@@ -37,18 +37,18 @@ Le modèle Teams Standard automatique & de rapports historiques de la file d Pow
 - [File d’attente](media/cqd-teams-aa-cq-historical-report-sample-cq.png) d’appels affichant les données d’analyse des appels qui arrivent dans vos files d’attente.
 - [Chronologie de l’agent](media/cqd-teams-aa-cq-historical-report-sample-at.png) : affichage chronologique des agents actifs dans les appels de la file d’attente d’appels.
 
-Ces rapports utilisent des données du magasin de données Du tableau de [bord](CQD-Power-BI-query-templates.md) de qualité des appels. Les rapports permettent aux organisations de rapporter le nombre d’appels en cours de traitement par les travailleurs automatiques et les files d’attente d’appels.  Les rapports fournissent également des informations sur les performances de l’agent dans les files d’attente d’appels.
+Ces rapports utilisent des données du magasin [de données Du](CQD-Power-BI-query-templates.md) tableau de bord de qualité des appels. Les rapports permettent aux organisations de rapporter le nombre d’appels en cours de traitement par les travailleurs automatiques et les files d’attente d’appels.  Les rapports fournissent également des informations sur les performances de l’agent dans les files d’attente d’appels.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-Vous devez avoir installé Power BI Desktop installées. Vous pouvez l’installer à partir du [Microsoft Windows Store.](https://aka.ms/pbidesktopstore)
+Vous devez avoir installé Power BI Desktop installées. Vous pouvez l’installer à partir du [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
 Vous pouvez utiliser la version gratuite de Power BI Desktop. La version minimale compatible est la version 2.85.681.0 (septembre 2020).
 
 ### <a name="permissions-to-access-the-cqd-pipeline"></a>Autorisations d’accès au pipeline du DQD
 
-Le compte que vous utilisez pour afficher le rapport historique doit avoir les autorisations pour accéder au pipeline de données du CQD. Pour plus d’informations, [voir le rôle Accès du CQD.](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
+Le compte que vous utilisez pour afficher le rapport historique doit avoir les autorisations pour accéder au pipeline de données du CQD. Pour plus d’informations, [voir le rôle Accès du CQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 ## <a name="installation"></a>Installation 
 
@@ -66,7 +66,7 @@ Effectuez les étapes suivantes :
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Capture d’écran de la sélection de la région du pipeline de données du CQD.":::
 
-- La région dans laquelle se trouve votre client peut être obtenue à l’aide de l’cmdlet [Get-CsTenant.](/powershell/module/skype/get-cstenant)
+- La région dans laquelle se trouve votre client peut être obtenue à l’aide de l’cmdlet [Get-CsTenant](/powershell/module/skype/get-cstenant) .
 
     ```PowerShell
     (Get-CsTenant).ServiceInstance
@@ -75,7 +75,7 @@ Effectuez les étapes suivantes :
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - La région s’affichera après la zone comme dans l’exemple ci-dessus où se trouve **/** la région : noam
+    - La région s’affichera après la zone **/** comme dans l’exemple ci-dessus où se trouve la région : noam
 
  - Le rapport s’lance avec des exemples de données.
  
@@ -83,7 +83,7 @@ Effectuez les étapes suivantes :
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Capture d’écran de la sélection de l’option d’actualisation.":::
 
-- Vous serez alors invité à vous connectez. Sélectionnez **le compte de** l’organisation, puis **connectez-vous.**
+- Vous serez alors invité à vous connectez. **Sélectionnez le compte de** l’organisation, puis **connectez-vous**.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Capture d’écran montrant la connexion.":::
 
@@ -106,7 +106,7 @@ Vous ne pouvez pas ajouter de champs de données supplémentaires au rapport.
 Les étapes suivantes supposent que vous avez déjà effectué les étapes d’installation.
 
 Effectuez les étapes suivantes :
-- Sélectionnez **l’onglet** Affichage du ruban.
+- **Sélectionnez l’onglet** Affichage du ruban.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Capture d’écran de la sélection de l’onglet Affichage pour modifier le modèle de couleurs.":::
 
@@ -122,7 +122,7 @@ Effectuez les étapes suivantes :
 
 |Section État                          |Description                                                       |
 |:---------------------------------------|:-----------------------------------------------------------------|
-|Source d’appel entrant<sup>1</sup>        |Distribution des appels par source d’appel interne/externe             |
+|Source d’appel <sup>entrant1</sup>        |Distribution des appels par source d’appel interne/externe             |
 |Totaux des méthodes de recherche dans l’annuaire          |Distribution des appels par type de recherche                               |
 |Action de l’appelant                           |Distribution des appels par destinataire d’appel                             |
 |Résultat de l’appel                             |Distribution des appels par état d’appel final                          |
@@ -145,7 +145,7 @@ Effectuez les étapes suivantes :
 |:-----------------------------------------------|:------------------------------------------|:-------------------|
 |Sélecteur de dates                                   |AAStartTime                                |Aucun                |
 |Standard automatique                                  |Nom AA                                    |Aucun                |
-|Source d’appel entrant<sup>1</sup>                |Type d'appel<br>TotalCallCount                |Appels externes : Le type d’appel est externe<br>Appels internes : Le type d’appel est interne |
+|Source d’appel <sup>entrant1</sup>                |Type d'appel<br>TotalCallCount                |Appels externes : Le type d’appel est externe<br>Appels internes : Le type d’appel est interne |
 |Totaux des méthodes de recherche dans l’annuaire                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod est abs_search_dtmf ou abs_search_name    |
 |Actions de l’appelant                                  |AATransferAction<br>TotalCallCount         |Aucun                                                             |
 |Moyenne de secondes dans AA<br>Actions moyennes de l’appelant |AAChainDuration<br>AACallerActionCount     |Aucun                                                             |
@@ -167,8 +167,8 @@ Effectuez les étapes suivantes :
 |AACount                                 |Texte                     |Nombre de attendants automatiques impliqués dans un appel                               |
 |AADirectorySearchMethod                 |Texte                     |Méthode de recherche du dernier carnet d’adresses : valeurs possibles :<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
 |AAStartTime                             |Date/heure                |Standard automatique l’heure de début de l’appel                                           |
-|AATransferAction                        |Texte                     |Type cible de transfert d’appel : valeurs possibles :<br><br>***application § - entité d’application** vocale _<br> § external_pstn <br>_§ hunt_group - Entité *_entity_* _<br>_ * _§ orgaa - Organizational Standard automatique entity_**<br>§ shared_voicemail<br>§ inconnu<br>utilisateur de § |
-|Type<sup>d’appel 1</sup>                   |Texte                     |Type d’appel : valeurs possibles :<br><br>§ Externe<br>§ Interne         |
+|AATransferAction                        |Texte                     |Type cible de transfert d’appel : valeurs possibles :<br><br>***§ application - voice application entity**_<br>§ external_pstn<br>_*_§ hunt_group - Call Queue entity_*_<br>_*_§ orgaa - Organizational Standard automatique entity_**<br>§ shared_voicemail<br>§ inconnu<br>utilisateur de § |
+|Type <sup>d’appel1</sup>                   |Texte                     |Type d’appel : valeurs possibles :<br><br>§ Externe<br>§ Interne         |
 |IsAAInvolved                            |Texte                     |Toujours 1                                                                 |
 |PSTNMinutes                             |Nombre entier             |Résumer : Somme<br>Utilisation totale des minutes                                     |
 |TotalCallCount                          |Nombre entier             |Résumer : Somme<br>Toujours 1 - utilisé pour fournir la somme de tous les appels            |
@@ -180,7 +180,7 @@ Effectuez les étapes suivantes :
 
 |Section État                          |Description                                                        |
 |:---------------------------------------|:------------------------------------------------------------------|
-|Source d’appel entrant<sup>1</sup>        |Distribution de l’appel par source d’appel interne/externe              |
+|Source d’appel <sup>entrant1</sup>        |Distribution de l’appel par source d’appel interne/externe              |
 |Volume d’appels                             |Distribution des appels par files d’attente d’appels                                |
 |Résultat de l’appelant                           |Distribution de l’appel par résultat d’appel                                |
 |Action du total des appels en dépassement de délai/dépassement de capacité      |Distribution de NON-forwardé(abandonné) appel par résultat d’appel       |
@@ -205,7 +205,7 @@ Effectuez les étapes suivantes :
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |Sélecteur de dates                       |Dates -> DateTime                     |Aucun                  |
 |Identité de la file d’attente d’appels                 |dCQ-CQIdentity -> Call Queue Identity |Aucun                  |
-|Source d’appel entrant<sup>1</sup>    |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |Appels externes : Le type d’appel est externe<br>Appels internes : Le type d’appel est interne |
+|Source d’appel <sup>entrant1</sup>    |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |Appels externes : Le type d’appel est externe<br>Appels internes : Le type d’appel est interne |
 |Avg Waiting Time                    |fCallQueueFinalStateAction -> Durée moyenne des appels (secondes) |Avant le transfert : le résultat des appels de la file d’attente agent_joined_conference ou transferred_to_agent<br>Avant de raccrocher : le résultat des appels de la file d’attente n’est agent_joined_conference ou transferred_to_agent |
 |Résultat de l’appel                         |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> d’appel dans la file d’attente | Aucun |
 |Action totale des appels en dépassement de délai/dépassement de capacité |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> File d’attente d’appels - Action finale d’état |L’action d’état final de la file d’attente d’appels n’est pas en avance |
@@ -228,7 +228,7 @@ Effectuez les étapes suivantes :
 |Résultat des appels de la file d’attente d’appels                  |Texte                     |État final de l’appel de la file d’attente d’appels : valeurs possibles :<br><br>§ agent_joined_conference<br>§ refusé<br>§ déconnecté<br>§ erreur<br>§ a échoué<br>§ non valide<br>§ au-dessus<br>§ timed_out<br>§ transferred_to_agent |
 |Identité de la file d’attente d’appels                     |Texte                     |Nom du compte de ressource joint à la file d’attente d’appels<br><br>Si le nom complet du compte de **ressource cq_test@microsoft.com** alors cette valeur est **: cq_test** |
 |Type cible de la file d’attente d’appels                  |Texte                     |***Type cible de redirection d’appel : valeurs possibles :***<br><br>§ ApplicationEndpoint<br>§ Boîte aux lettres<br>§ Autre<br>§ Utilisateur |
-|Type<sup>d’appel 1</sup>                   |Texte                     |Type d’appel : valeurs possibles :<br><br>§ Externe<br>§ Interne           |
+|Type <sup>d’appel1</sup>                   |Texte                     |Type d’appel : valeurs possibles :<br><br>§ Externe<br>§ Interne           |
 |Date                                    |Date/heure                |Date et heure de début des appels en file d’attente (heure) (UTC)                           | 
 |IsAbandoned                             |Vrai/Faux               |Vrai si l’appel n’a pas reçu de réponse d’un agent                                   |
 |Type de connectivité PSTN                  |Texte                     |Type d’appel : valeurs possibles :<br><br>§ ExternalCall<br>§ InternalCall   |
@@ -249,7 +249,7 @@ Effectuez les étapes suivantes :
 |Durée moyenne de l’appel (secondes)         |Nombre décimal           |Résumer : Somme<br>Durée moyenne des appels en secondes |
 |Nombre d’appels                              |Nombre entier             |Résumer : Somme<br>Nombre d'appels                  |
 |Résultat des appels de la file d’attente d’appels                  |Texte                     |État final de l’appel de la file d’attente d’appels : valeurs possibles :<br><br>§ agent_joined_conference<br>§ refusé<br>§ déconnecté<br>§ erreur<br>§ a échoué<br>§ non valide<br>§ au-dessus<br>§ timed_out<br>§ transferred_to_agent |
-|Action d’état final de la file d’attente d’appels           |Texte                     |Action finale de la file d’attente d’appels : valeurs possibles :<br><br>§ déconnecter<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ avancer<br>§ shared_voicemail<br>§ autre<br>§ voicemail |
+|Action d’état final de la file d’attente d’appels           |Texte                     |Action finale de la file d’attente d’appels : valeurs possibles :<br><br>§ déconnecter (timed_out appels)<br>§ disconnect_with_busy (appels en cours)<br>§ failed_to_accept_call<br>§ avancer<br>§ shared_voicemail<br>§ autre<br>§ voicemail |
 |Identité de la file d’attente d’appels                     |Texte                     |Nom du compte de ressource joint à la file d’attente d’appels<br><br>Si le nom complet du compte de **ressource cq_test@microsoft.com** alors cette valeur est **: cq_test** |
 |Date                                    |Date/heure                |Date et heure de début des appels en file d’attente (heure) (UTC)   |
 |IsAbandoned                             |Vrai/Faux               |Vrai si l’appel n’a pas reçu de réponse d’un agent           |
@@ -298,7 +298,7 @@ Effectuez les étapes suivantes :
 
 > [!NOTE]
 > 1) Ce rapport indique le nombre d’appels du point de vue des agents. Par conséquent, le nombre total d’appels dans ce rapport sera généralement supérieur au nombre total d’appels dans le rapport **d’analyse** de la file d’attente d’appels cloud. Chaque appel dans la file d’attente peut être présenté à un ou plusieurs agents au moins une fois avant la réponse. Chaque appel de la file d’attente d’appels présenté à un agent est comptabilisé dans ce rapport, même si l’agent n’a pas répondu à celui-ci. La différence du nombre d’appels entre ces deux rapports est plus prononcé avec l’option de **routage d’Attendant** qui sonne pour chaque agent pour chaque appel. 
-> 2) Lorsqu’un appel arrive pour la première fois dans la première file d’attente d’appels, si le nombre d’appels déjà en attente dans cette file d’attente dépasse la limite de gestion des dépassements d’appel et si l’option de redirection envoie des appels vers une deuxième file d’attente, les agents de la deuxième file d’attente d’appels sont affichés comme étant dans la première file d’attente d’appels de ce rapport.  
+> 2) Lorsqu’un appel arrive pour la première fois dans la première file d’attente d’appels, si le nombre d’appels déjà en attente dans cette file d’attente dépasse la limite de gestion des dépassements d’appel et si l’option de redirection envoie des appels vers une deuxième file d’attente, les agents de la deuxième file d’attente d’appels sont affichés comme étant dans la première file d’attente d’appels de ce rapport. 
 
 ## <a name="known-issues"></a>Problèmes connus
 

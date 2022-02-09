@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment configurer un contrôleur de session en bordure (SBC) pour servir plusieurs clients à des partenaires Microsoft et/ou des opérateurs PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c91532582325d8199d0ca47d5fd2515b4b77c344
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: 97995b2da79f7e3ddd781615ccddfc0dd64ae0b6
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055565"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457224"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -34,16 +34,16 @@ Le routage direct prend en charge la configuration d’un contrôleur de session
 Opérateur :
 - Déploie et gère un SBC dans leur centre de données (les clients n’ont pas besoin d’implémenter un SBC et reçoivent les services de téléphonie de l’opérateur dans le client Teams).
 - Connecte le SBC à plusieurs locataires.
-- Fournit des services PSTN aux clients.
+- Fournit des services de réseau téléphonique commuté (PSTN) aux clients.
 - Gère la qualité des appels de bout en bout.
 - Frais distincts pour les services PSTN.
 
-Microsoft ne gère pas les opérateurs. Microsoft propose un système pbx (Téléphone Microsoft données) et un client Teams client. Microsoft certifie également les téléphones et certifie les SBCs qui peuvent être utilisés avec Téléphone Microsoft Système informatique. Avant de choisir un opérateur, assurez-vous que votre choix dispose d’un SBC certifié et que vous pouvez gérer la qualité vocale de bout en bout.
+Microsoft ne gère pas les opérateurs. Microsoft propose Teams Téléphone (une branche privée Exchange (PBX) et un client Teams client. Microsoft certifie également les téléphones et certifie les SBCs qui peuvent être utilisés avec le Teams Système téléphonique. Avant de choisir un opérateur, assurez-vous que votre choix dispose d’un SBC certifié et pouvez gérer la qualité vocale de bout en bout.
 
 Voici les étapes d’implémentation technique pour configurer le scénario.
 
 **Opérateur uniquement :**
-1. Déployez le SBC et configurez-le pour le scénario d’hébergement conformément aux instructions des fournisseurs [SBC certifiés.](#deploy-and-configure-the-sbc)
+1. Déployez le SBC et configurez-le pour le scénario d’hébergement conformément aux [instructions des fournisseurs SBC certifiés](#deploy-and-configure-the-sbc).
 2. Enregistrez un nom de domaine de base auprès du client de l’opérateur et demandez un certificat générique.
 3. Enregistrez un sous-domaine pour chaque client, qui fait partie du domaine de base.
 
@@ -52,43 +52,44 @@ Voici les étapes d’implémentation technique pour configurer le scénario.
 2. Activez le nom du sous-domaine.
 3. Configurez la ligne entre l’opérateur et le client client et configurez les utilisateurs.
 
-*Veillez à comprendre les principes de base du DNS et la manière dont le nom de domaine est géré dans Microsoft 365 ou Office 365. Voir [Obtenir de l’aide sur Microsoft 365 domaines Office 365 domaines particuliers](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) avant de poursuivre.*
+*Assurez-vous de comprendre les principes de base du DNS et la manière dont le nom de domaine est géré dans Microsoft 365. Voir [Obtenir de l’aide Microsoft 365 domaines particuliers](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) avant de poursuivre.*
 
 ## <a name="deploy-and-configure-the-sbc"></a>Déployer et configurer le SBC
 
 Pour obtenir la procédure détaillée de déploiement et de configuration des SBC pour un scénario d’hébergement SBC, consultez la documentation du fournisseur SBC.
 
-- **AudioCodes** : notes de [configuration](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)du routage direct, configuration du scénario d’hébergement SBC décrit dans « Connexion de AudioCodes SBC à Microsoft Teams Note de configuration du modèle d’hébergement de routage direct ». 
-- **Oracle :** [notes de configuration de routage directe,](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)la configuration du scénario d’hébergement SBC est décrite dans la section « Microsoft ». 
-- **Communications sur le ruban :**  Reportez-vous au guide de configuration du centre de Microsoft Teams [SBC](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) sur les communications du ruban pour obtenir de la documentation sur la configuration des SBC de série principale du ruban et sur les meilleures pratiques du ruban dans le ruban - Configuration des opérateurs pour le Microsoft Teams [SBC de routage](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier) direct
-- **TE-Systems (anynode) :**  Inscrivez-vous sur la page des systèmes [TE Community pour](https://community.te-systems.de/) obtenir de la documentation et des exemples sur la configuration d’un SBC anynode pour plusieurs locataires.
-- **Metaswitch :**  Inscrivez-vous sur la page Community de la [page Métaswitch](https://manuals.metaswitch.com/MAN39555) pour obtenir de la documentation sur l’utilisation de perimeta SBC pour plusieurs locataires.
+- **AudioCodes** : [notes de configuration](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) du routage direct, configuration du scénario d’hébergement SBC décrit dans « Connexion de AudioCodes SBC à Microsoft Teams Note de configuration du modèle d’hébergement de routage direct ». 
+- **Oracle :** [notes de configuration du routage direct](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), la configuration du scénario d’hébergement SBC est décrite dans la section « Microsoft ». 
+- **Communications sur le ruban :**  Reportez-vous au guide de configuration du centre de Microsoft Teams [SBC](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) sur les communications du ruban pour obtenir de la documentation sur la configuration des SBCs core de série de ruban et sur les meilleures pratiques du ruban dans le ruban - Configuration des opérateurs pour le Microsoft Teams [direct SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
+- **TE-Systems (anynode) :**  Inscrivez-vous sur la [page Community te-Systems](https://community.te-systems.de/) pour obtenir de la documentation et des exemples sur la configuration d’un SBC anynode pour plusieurs locataires.
+- **Metaswitch :**  Inscrivez-vous sur [la page de Community pour](https://manuals.metaswitch.com/MAN39555) obtenir de la documentation sur l’utilisation de perimeta SBC pour plusieurs locataires.
 
 > [!NOTE]
-> Attention à la configuration de l’en-tête « Contact ». L’en-tête Contact est utilisé pour rechercher le client dans le message d’invitation entrante. 
+> Assurez-vous de savoir comment configurer l’en-tête « Contact ». L’en-tête Contact est utilisé pour rechercher le client dans le message d’invitation entrante. 
 
 ## <a name="register-a-base-domain-and-subdomains"></a>Enregistrer un domaine de base et des sous-domaines
 
 Pour le scénario d’hébergement, vous devez créer :
+
 - Un nom de domaine de base propriété de l’opérateur.
 - Sous-domaine faisant partie du nom de domaine de base de chaque client.
 
 Dans l’exemple suivant :
+
 - Adatum est un opérateur qui sert plusieurs clients en fournissant des services Internet et téléphoniques.
-- Woodgrove Bank, Contoso et Adventure Works sont trois clients qui ont des domaines Microsoft 365 ou Office 365 mais qui reçoivent les services téléphoniques d’Adatum.
+- Woodgrove Bank, Contoso et Adventure Works sont trois clients qui ont des domaines Microsoft 365, mais qui reçoivent les services de téléphonie d’Adatum.
 
-Les sous-noms doivent correspondre au nom de nom de domaine complet (FQDN) de la ligne qui sera configurée pour le client et au nom de domaine complet (FQDN) dans l’en-tête Contact lors de l’envoi de l’invitation à Microsoft 365 ou Office 365.  
+Les sous-domaine **DOIVENT** correspondre au nom de nom de domaine complet (FQDN) de la ligne qui sera configurée pour le client et au nom de domaine complet dans l’en-tête Contact lors de l’envoi de l’invitation à Microsoft 365. 
 
-Lorsqu’un appel arrive dans l’interface de Microsoft 365 ou Office 365 Routage direct, l’interface utilise l’en-tête Contact pour trouver le client dans lequel l’utilisateur doit être cherché. Le routage direct n’utilise pas la recherche de numéro de téléphone dans l’invitation, car certains clients peuvent avoir des numéros non DID qui peuvent se chevaucher dans plusieurs clients. Par conséquent, le nom de nom de domaine complet dans l’en-tête du contact est nécessaire pour identifier le client exact à rechercher sur le numéro de téléphone de l’utilisateur.
+Lorsqu’un appel arrive dans l’interface Microsoft 365 routage direct, l’interface utilise l’en-tête Contact pour trouver le client dans lequel l’utilisateur doit être cherché. Le routage direct n’utilise pas la recherche de numéro de téléphone dans l’invitation, car certains clients peuvent avoir des numéros non DID qui peuvent se chevaucher dans plusieurs clients. Par conséquent, le nom de nom de domaine complet dans l’en-tête du contact est nécessaire pour identifier le client exact à rechercher sur le numéro de téléphone de l’utilisateur.
 
-*Consultez [l’aide sur Office 365 domaines pour](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) plus d’informations sur la création de noms de domaine Microsoft 365 ou Office 365 organisation.*
+*Pour plus d’informations sur la création de noms de Microsoft 365 dans les organisations, voir Obtenir de l’aide [sur Microsoft 365 domaines.](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)*
 
 Le diagramme suivant récapitule les conditions requises pour baser le domaine, les sous-domaines et l’en-tête des contacts.
 
 ![Diagramme montrant les exigences relatives aux domaines et à l’en-tête des contacts.](media/direct-routing-1-sbc-requirements.png)
 
-Le SBC requiert un certificat pour authentifier les connexions. Dans le cas du scénario d’hébergement SBC, l’opérateur doit demander un certificat auprès de CN et/ou SAN *\* .base_domain (par exemple, \* .customers.adatum.biz).* Ce certificat peut être utilisé pour authentifier les connexions à plusieurs locataires servis à partir d’un même SBC.
-
+Le SBC requiert un certificat pour authentifier les connexions. Dans le cas d’un scénario d’hébergement SBC, l’opérateur doit demander un certificat auprès de CN et/ou SAN *\*.base_domain (par exemple, \*.customers.adatum.biz).* Ce certificat peut être utilisé pour authentifier les connexions à plusieurs locataires servis à partir d’un même SBC.
 
 Le tableau suivant est un exemple de configuration.
 
@@ -101,10 +102,10 @@ Le tableau suivant est un exemple de configuration.
 |sbc3.customers.adatum.biz |   Sous-domaine | Dans un client |   \*.customers.adatum.biz  |  adventureworks.com | sbc3.customers.adatum.biz |
 ||         |         |         |         |         |
 
-Pour configurer la base et les sous-domaine, suivez les étapes décrites ci-dessous. Dans l’exemple, nous allons configurer un nom de domaine de base (customers.adatum.biz) et un sous-domaine pour un client (sbc1.customers.adatum.biz dans le client Woodgrove Bank).
+Pour configurer la base et les sous-domaine, suivez les étapes décrites ci-dessous. Cet exemple configure un nom de domaine de base (customers.adatum.biz) et un sous-domaine pour un client (sbc1.customers.adatum.biz dans le client Woodgrove Bank).
 
 > [!NOTE]
-> Utilisez sbcX.customers.adatum.biz pour activer la voix dans le client de l’opérateur. sbcX peut être n’importe quel nom d’hôte alphanumérique unique et valide.
+> Utilisez sbcX.customers.adatum.biz pour activer la voix dans le client de l’opérateur ; sbcX peut être n’importe quel nom d’hôte alphanumérique unique et valide.
 
 ## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>Enregistrer un nom de domaine de base dans le client de l’opérateur
 
@@ -114,24 +115,27 @@ Pour configurer la base et les sous-domaine, suivez les étapes décrites ci-des
 
 Vous ne pouvez ajouter des domaines que si vous vous êtes inscrit au Centre d'administration Microsoft 365 en tant qu’administrateur général. 
 
-Pour valider votre rôle, connectez-vous au Centre d'administration Microsoft 365 ( , allez à Utilisateurs actifs utilisateurs, puis vérifiez que vous avez un rôle Administrateur https://portal.office.com)   >  général. 
+Pour valider votre rôle, connectez-vous à la Centre d'administration Microsoft 365 (https://portal.office.com),  >  allez dans Utilisateurs utilisateurs **actifs, puis** vérifiez que vous avez un rôle Administrateur général. 
 
-Pour plus d’informations sur les rôles d’administrateur et la manière d’attribuer un rôle dans Microsoft 365 ou Office 365 rôles, voir À propos des [rôles d’administrateur.](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
+Pour plus d’informations sur les rôles d’administrateur et la manière d’attribuer un rôle dans Microsoft 365 rôles, voir À propos [des rôles d’administrateur](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Ajouter un domaine de base au client et le vérifier
 
-1. Dans le Centre d'administration Microsoft 365, allez à **Configurer les**  >  **domaines Ajouter** un  >  **domaine.**
-2. Dans la **zone Entrer un domaine dont vous êtes** propriétaire, tapez le nom de domaine (FQDN) du domaine de base. Dans l’exemple suivant, le domaine de base est *customers.adatum.biz.*
+1. Dans le Centre d'administration Microsoft 365, allez au **domaine** **SetupDomainsAdd** >  > .
+
+2. Dans la **zone Entrer un domaine dont vous êtes** propriétaire, tapez le nom de domaine (FQDN) du domaine de base. Dans l’exemple suivant, le domaine de base est *customers.adatum.biz*.
 
     ![Capture d’écran montrant la page Ajouter un domaine.](media/direct-routing-2-sbc-add-domain.png)
 
 3. Cliquez sur **Suivant**.
-4. Dans l’exemple, le client a déjà adatum.biz nom de domaine vérifié. L’Assistant ne demande pas de vérification supplémentaire, customers.adatum.biz est un sous-domaine du nom déjà enregistré. Toutefois, si vous ajoutez un FQDN qui n’a pas été vérifié auparavant, vous devrez passer par le processus de vérification. Le processus de vérification est [décrit ci-dessous.](#add-a-subdomain-to-the-customer-tenant-and-verify-it)
+
+4. Dans cet exemple, le client dispose déjà d’adatum.biz nom de domaine vérifié. L’Assistant ne demande pas de vérification supplémentaire, customers.adatum.biz est un sous-domaine du nom déjà enregistré. Toutefois, si vous ajoutez un FQDN qui n’a pas été vérifié auparavant, vous devrez passer par le processus de vérification. Le processus de vérification est décrit [ci-dessous](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
     ![Capture d’écran montrant la confirmation d’un nom de domaine vérifié.](media/direct-routing-3-sbc-verify-domain.png)
 
-5. Cliquez **sur Suivant,** puis sur la page Mettre Paramètres **DNS** à jour, je vais ajouter moi-même les enregistrements **DNS,** puis cliquer sur **Suivant.**
-6. Dans la page suivante, effacer toutes les valeurs (sauf si vous voulez utiliser le nom de domaine pour Exchange, SharePoint ou Teams/Skype Entreprise), cliquez sur **Suivant,** puis sur **Terminer.** Assurez-vous que votre nouveau domaine est dans l’état final du programme d’installation.
+5. Cliquez **sur Suivant**, puis sur la page **Mettre Paramètres DNS** à jour, je sélectionne **J’ajoute les enregistrements DNS** moi-même, puis je clique sur **Suivant**.
+
+6. Dans la page suivante, effacer toutes les valeurs (sauf si vous voulez utiliser le nom de domaine pour Exchange, SharePoint, Teams ou Skype Entreprise), cliquez sur **Suivant, puis** sur **Terminer.** Assurez-vous que votre nouveau domaine est dans l’état final du programme d’installation.
 
     ![Capture d’écran montrant les domaines dont l’état d’installation est terminé.](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -142,7 +146,7 @@ Une fois que vous avez enregistré un nom de domaine, vous devez l’activer en 
 > [!NOTE]
 > Le client de l’opérateur doit conserver au moins Système téléphonique licence attribuée au client pour éviter la suppression de la configuration Skype Entreprise client. 
 
-*Pour plus [d’informations](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) sur l’ajout d’utilisateurs Microsoft 365 ou Office 365 organisation, consultez l’aide Microsoft 365 domaines Office 365 domaine.*
+*Pour plus d’informations sur l’ajout d Microsoft 365 utilisateurs dans les organisations, voir Obtenir de l’aide [Microsoft 365 domaines.](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)*
 
 Par exemple : test@customers.adatum.biz
 
@@ -158,22 +162,24 @@ Vous devrez créer un nom de sous-domaine unique pour chaque client. Dans cet ex
 
 Vous ne pouvez ajouter des domaines que si vous vous êtes inscrit au Centre d'administration Microsoft 365 en tant qu’administrateur général. 
 
-Pour valider votre rôle, connectez-vous au Centre d'administration Microsoft 365 ( , allez à Utilisateurs actifs utilisateurs, puis vérifiez que vous avez un rôle Administrateur https://portal.office.com)   >  général. 
+Pour valider votre rôle, connectez-vous à la Centre d'administration Microsoft 365 (https://portal.office.com),  >  allez dans Utilisateurs utilisateurs **actifs, puis** vérifiez que vous avez un rôle Administrateur général. 
 
-Pour plus d’informations sur les rôles d’administrateur et la manière d’attribuer un rôle dans Microsoft 365 ou Office 365 rôles, voir À propos des [rôles d’administrateur.](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
+Pour plus d’informations sur les rôles d’administrateur et la manière d’attribuer un rôle dans Microsoft 365 rôles, voir À propos [des rôles d’administrateur](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>Ajouter un sous-domaine au client et le vérifier
-1. Dans le Centre d'administration Microsoft 365, allez à **Configurer les**  >  **domaines Ajouter** un  >  **domaine.**
+1. Dans le Centre d'administration Microsoft 365, allez au **domaine** **SetupDomainsAdd** >  > .
+
 2. Dans la **zone Entrer un domaine dont vous êtes** propriétaire, tapez le nom de domaine (FQDN) du sous-domaine de ce client. Dans l’exemple ci-dessous, le sous-domaine est sbc1.customers.adatum.biz.
 
     ![Capture d’écran de la page Ajouter un domaine.](media/direct-routing-5-sbc-add-customer-domain.png)
 
 3. Cliquez sur **Suivant**.
-4. Le FQDN n’a jamais été enregistré dans le client. Dans l’étape suivante, vous devrez vérifier le domaine. Sélectionnez **Ajouter un enregistrement TXT à la place.** 
+
+4. Le FQDN n’a jamais été enregistré dans le client. Dans l’étape suivante, vous devrez vérifier le domaine. **Sélectionnez Plutôt Ajouter un enregistrement TXT**. 
 
     ![Capture d’écran de la page Vérifier le domaine.](media/direct-routing-6-sbc-verify-customer-domain.png)
 
-5. Cliquez **sur** Suivant, puis notez la valeur TXT générée pour vérifier le nom de domaine.
+5. Cliquez **sur Suivant**, puis notez la valeur TXT générée pour vérifier le nom de domaine.
 
     ![Capture d’écran d’enregistrements texte dans la page Vérifier le domaine.](media/direct-routing-7-sbc-verify-domain-txt.png)
 
@@ -181,22 +187,23 @@ Pour plus d’informations sur les rôles d’administrateur et la manière d’
 
     ![Capture d’écran montrant la création de l’enregistrement TXT.](media/direct-routing-8-sbc-txt-record.png)
 
-    Pour plus d’informations, voir Créer des enregistrements [DNS chez un fournisseur d’hébergement DNS.](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)
+    Pour plus d’informations, [voir Créer des enregistrements DNS chez un fournisseur d’hébergement DNS](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
 
-7. Revenir à la base de données du Centre d'administration Microsoft 365 et cliquer sur **Vérifier.** 
-8. Dans la page suivante, **sélectionnez J’ajoute** les enregistrements DNS moi-même, puis je clique **sur Suivant.**
+7. Pour ce faire, vous pouvez Centre d'administration Microsoft 365 le client et **cliquer sur Vérifier**. 
+
+8. Dans la page suivante, **sélectionnez J’ajoute les enregistrements DNS** moi-même, puis je clique **sur Suivant**.
 
     ![Capture d’écran des options dans la page Mettre à jour les paramètres DNS.](media/direct-routing-9-sbc-update-dns.png)
 
-9. Dans la page **Choisir vos services en ligne,** effacer toutes les options, puis cliquez sur **Suivant.**
+9. Dans la page **Choisir vos services en ligne** , effacer toutes les options et cliquer sur **Suivant**.
 
     ![Capture d’écran de la page Choisir vos services en ligne.](media/direct-routing-10-sbc-choose-services.png)
 
-10. Cliquez **sur Terminer** dans la page Mettre à jour les **paramètres DNS.**
+10. Cliquez **sur Terminer** dans la page **Mettre à jour les paramètres DNS** .
 
     ![Capture d’écran de la page Mettre à jour les paramètres DNS.](media/direct-routing-11-sbc-update-dns-finish.png)
 
-11. Assurez-vous que l’état **est terminé.** 
+11. Assurez-vous que le programme **d’installation est terminé**. 
     
     ![Capture d’écran de la page montrant l’état du programme d’installation terminé.](media/direct-routing-12-sbc-setup-complete.png)
     
@@ -207,7 +214,7 @@ Pour plus d’informations sur les rôles d’administrateur et la manière d’
 
 Après avoir enregistré un nom de domaine, vous devez l’activer en ajoutant au moins un utilisateur et en attribuant une adresse SIP avec la partie nom de domaine complet de l’adresse SIP correspondant au sous-domaine créé dans le client. 
 
-*Pour plus [d’informations](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) sur l’ajout d’utilisateurs Microsoft 365 ou Office 365 organisation, consultez l’aide Microsoft 365 domaines Office 365 domaine.*
+*Pour plus d’informations sur l’ajout d’utilisateurs Microsoft 365 organisations, voir [Obtenir de l’aide sur Microsoft 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
 
 Par exemple : test@sbc1.customers.adatum.biz
 
@@ -215,36 +222,49 @@ Par exemple : test@sbc1.customers.adatum.biz
 
 ### <a name="create-a-trunk-and-provision-users"></a>Créer une ligne et mettre en service des utilisateurs
 
-Avec la version initiale du routage direct, Microsoft a demandé qu’une ligne soit ajoutée à chaque client servi (client) à l’aide de New-CSOnlinePSTNGateway.
+Avec la version initiale du routage direct, Microsoft a demandé qu’une ligne soit ajoutée à chaque client servi (client client) à l’aide de l'New-CSOnlinePSTNGateway cmdlet.
 
-Cela n’est toutefois pas optimal pour deux raisons :
+Cependant, cette méthode n’est pas optimale pour deux raisons :
  
-- **Gestion des frais.** Par exemple, le fait de décharger ou de décharger un SBC modifie certains paramètres, comme l’activation ou la désactivation de la dérivation média. La modification du port nécessite la modification des paramètres de plusieurs locataires (en exécutant Set-CSOnlinePSTNGateway), mais il s’agit en fait du même SBC. 
+- **Gestion des frais**. Par exemple, le fait de décharger ou de décharger un SBC modifie certains paramètres, comme l’activation ou la désactivation de la dérivation média. La modification du port nécessite la modification des paramètres de plusieurs locataires (en exécutant Set-CSOnlinePSTNGateway), mais il s’agit en fait du même SBC. 
 
--  **Traitement des frais.** Collecte et surveillance des données d’intégrité de ligne - Les options SIP collectées à partir de plusieurs ligne logiques qui sont en réalité le même SBC et la même ligne physique ralentissent le traitement des données de routage.
+-  **Traitement des frais**. Collecte et surveillance des données d’intégrité de ligne - Les options SIP collectées à partir de plusieurs ligne logiques qui sont en réalité le même SBC et la même ligne physique ralentissent le traitement des données de routage.
  
 Sur la base de ces commentaires, Microsoft apporte une nouvelle logique de mise en service des ligne pour les clients clients.
 
 Deux nouvelles entités ont été introduites :
--    Ligne d’opérateur enregistrée dans le client de l’opérateur à l’aide de la commande New-CSOnlinePSTNGateway, par exemple New-CSOnlinePSTNGateway -FQDN customers.adatum.biz -SIPSignalingport 5068 -ForwardPAI $true.
 
--    Ligne dérivée qui ne nécessite pas d’inscription. Il s’agit simplement d’un nom d’hôte souhaité ajouté à partir de la ligne de l’opérateur. Il dérive tous ses paramètres de configuration de la ligne de l’opérateur. Il n’est pas nécessaire de créer la ligne dérivée dans PowerShell, et l’association avec la ligne de l’opérateur est basée sur le nom de nom de domaine complet (voir les détails ci-dessous).
+- Ligne d’opérateur inscrite dans le client de l’opérateur à l’aide de la commande New-CSOnlinePSTNGateway. Par exemple : 
+   
+   ```PowerShell
+   New-CSOnlinePSTNGateway -FQDN customers.adatum.biz -SIPSignalingport 5068 -ForwardPAI $true
+    ```
+
+-  Ligne dérivée qui ne nécessite pas d’inscription. Il s’agit simplement d’un nom d’hôte souhaité ajouté à partir de la ligne de l’opérateur. Il dérive tous ses paramètres de configuration de la ligne de l’opérateur. Il n’est pas nécessaire de créer la ligne dérivée dans PowerShell, et l’association avec la ligne de l’opérateur est basée sur le nom de nom de domaine complet (voir les détails ci-dessous).
 
 **Logique d’approvisionnement et exemple**
 
--    Les opérateurs ont seulement besoin de configurer et de gérer une seule ligne (ligne d’opérateur dans le domaine de l’opérateur), à l’aide de Set-CSOnlinePSTNGateway ligne. Dans l’exemple ci-dessus, il est adatum.biz ;
--    Dans le client client, l’opérateur doit uniquement ajouter le nom de fQDN de ligne dérivée aux stratégies de routage voix des utilisateurs. Il n’est pas nécessaire d’exécuter New-CSOnlinePSTNGateway une ligne.
--    La ligne dérivée, comme son nom le suggère, hérite ou dérive tous les paramètres de configuration de la ligne d’opérateur. Exemples :
--    Customers.adatum.biz ligne d’opérateur qui doit être créée dans le client de l’opérateur.
--    Sbc1.customers.adatum.biz ligne dérivée dans un client client qui n’a pas besoin d’être créée dans PowerShell.  Vous pouvez simplement ajouter le nom de la ligne dérivée dans le client client dans la stratégie de routage voix en ligne sans la créer (utilisez le nom de domaine complet de ligne dérivée lors de la configuration d’une stratégie de routage vocal dans la stratégie PENDANT sous Teams-Voice-Direct Routing-Voice Routes champ SBCs inscrits).
--   Carrier devra configurer l’enregistrement DNS résolvant le nom de fQDN de ligne dérivée à l’adresse ip de l’opérateur SBC.
+- Les opérateurs doivent configurer et gérer une seule ligne (la ligne du transporteur dans le domaine de l’opérateur) à l’aide de Set-CSOnlinePSTNGateway ligne. Dans l’exemple ci-dessus, il adatum.biz.
 
--    Toutes les modifications apportées à une ligne d’opérateur (sur le client de l’opérateur) sont automatiquement appliquées aux ligne dérivées. Par exemple, les opérateurs peuvent modifier un port SIP sur la ligne du transporteur, et ce changement s’applique à toutes les ligne dérivées. Une nouvelle logique de configuration des ligne simplifie la gestion, car vous n’avez pas besoin d’aller à chaque client et de modifier le paramètre sur chaque ligne.
--    Les options sont envoyées uniquement à la ligne d’opérateur FQDN. L’état d’état de la ligne du transporteur est appliqué à toutes les ligne dérivées et est utilisé pour les décisions de routage. En savoir plus sur [les options de routage direct.](./direct-routing-monitor-and-troubleshoot.md)
--    L’opérateur peut utiliser la ligne d’opérateur, et toutes les branches dérivées sont également désoutoutées. 
+- Dans le client client, l’opérateur doit ajouter le nom de fQDN de ligne dérivée aux stratégies de routage voix des utilisateurs. Il n’est pas nécessaire d’exécuter New-CSOnlinePSTNGateway une ligne.
+
+- La ligne dérivée, comme son nom le suggère, hérite ou dérive tous les paramètres de configuration de la ligne d’opérateur. 
+
+Exemples :
+- Customers.adatum.biz ligne d’opérateur qui doit être créée dans le client de l’opérateur.
+
+- Sbc1.customers.adatum.biz ligne dérivée dans un client client qui n’a pas besoin d’être créée dans PowerShell.  Vous pouvez simplement ajouter le nom de la ligne dérivée dans le client client dans la stratégie de routage voix en ligne sans la créer (utilisez le nom de domaine complet de ligne dérivée lors de la configuration d’une stratégie de routage vocal dans la stratégie PENDANT sous Teams-Voice-Direct Routing-Voice Routes champ SBCs inscrits).
+
+- Carrier devra configurer l’enregistrement DNS résolvant le nom de fQDN de ligne dérivée à l’adresse ip de l’opérateur SBC.
+
+- Toutes les modifications apportées à une ligne d’opérateur (sur le client de l’opérateur) sont automatiquement appliquées aux ligne dérivées. Par exemple, les opérateurs peuvent modifier un port SIP sur la ligne du transporteur, et ce changement s’applique à toutes les ligne dérivées. Une nouvelle logique de configuration des ligne simplifie la gestion, car vous n’avez pas besoin d’aller à chaque client et de modifier le paramètre sur chaque ligne.
+
+- Les options sont envoyées uniquement à la ligne d’opérateur FQDN. L’état d’état de la ligne du transporteur est appliqué à toutes les ligne dérivées et est utilisé pour les décisions de routage. En savoir plus sur [les options de routage direct](./direct-routing-monitor-and-troubleshoot.md).
+
+- L’opérateur peut utiliser la ligne d’opérateur, et toutes les branches dérivées sont également désoutoutées. 
  
 > [!NOTE]
-> Les règles de traduction des nombres appliquées sur la ligne du transporteur ne s’appliquent pas aux ligne dérivées. Il s’agit d’un problème connu. Une autre solution consiste à créer une règle de traduction des nombres pour le client de chaque client.
+> Les règles de traduction des nombres appliquées sur la ligne du transporteur ne s’appliquent pas aux ligne dérivées. Il s’agit d’un problème connu. Une autre solution consiste à créer des règles de traduction des nombres pour le client de chaque client.
 
 **Migration du modèle précédent vers la ligne du transporteur**
  
@@ -252,19 +272,18 @@ Pour la migration de l’implémentation actuelle du modèle hébergé par l’o
 
 Nous encourageons vivement la migration vers la nouvelle solution dès que possible, car nous améliorerons la surveillance et l’approvisionnement à l’aide de l’opérateur et du modèle de ligne dérivée.
  
-
-Reportez-vous aux [instructions du](#deploy-and-configure-the-sbc) fournisseur SBC sur la configuration de l’envoi du nom de domaine complet (FQDN) des sous-domaine dans l’en-tête contact.
+Pour plus d’informations sur la configuration de l’envoi du nom de domaine complet (FQDN) des sous-domaine dans l’en-tête de contact, voir les [instructions pour les fournisseurs SBC](#deploy-and-configure-the-sbc).
 
 ## <a name="considerations-for-setting-up-multi-tenant-failover"></a>Considérations pour la configuration duover multi-client 
 
 Pour configurer leover pour un environnement multi-client, vous devez faire les choses suivantes :
 
-- Pour chaque client, ajoutez les FQDN pour deux SBCs différents.  Par exemple :
+- Pour chaque client, ajoutez les FQDN pour deux SBCs différents. Par exemple :
 
    customer1.sbc1.contoso.com <br>
    customer1.sbc2.contoso.com <br>
 
-- Dans les stratégies de routage voix en ligne des utilisateurs, spécifiez les deux SBCS.  En cas d’échec d’un SBC, la stratégie de routage route les appels vers le deuxième SBC.
+- Dans les stratégies de routage voix en ligne des utilisateurs, spécifiez les deux SBCS. En cas d’échec d’un SBC, la stratégie de routage route les appels vers le deuxième SBC.
 
 
 ## <a name="see-also"></a>Voir aussi

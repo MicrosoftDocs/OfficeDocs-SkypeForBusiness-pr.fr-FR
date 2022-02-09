@@ -1,8 +1,8 @@
 ---
 title: 'Configuration de la trunk : création d’une nouvelle configuration ou modification d’une configuration existante'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: fa8d553d3ddd7afdc8fd7fec19a28eff6f25775a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 171fdcd6accce7debce3d960704c03c9f84d44c1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835442"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416767"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>Configuration de la jonction : création d’une nouvelle ou modification d’une configuration existante
 

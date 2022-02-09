@@ -1,8 +1,8 @@
 ---
 title: Définir la jonction racine d’une nouvelle passerelle IP ou PSTN
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 'Vous définissez la jonction racine pour la passerelle IP ou PSTN en configurant les options suivantes :'
-ms.openlocfilehash: 9963c95241677c1d08e081b376a72c552fe0b5ad
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ffaa10c506317eb18c06fcce2737ba5c75bc8756
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851238"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416687"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Définir la jonction racine d’une nouvelle passerelle IP ou PSTN
 
@@ -32,9 +32,9 @@ Vous définissez la jonction racine pour la passerelle IP ou PSTN en configurant
 
 - **Protocole de transport SIP** : sélectionnez soit **TCP**, soit **TLS** dans la liste, selon les exigences de la jonction
 
-- **Serveur de médiation associé**: sélectionnez dans la liste des serveurs de médiation disponibles dans votre déploiement
+- **Serveur de médiation associé :** sélectionnez dans la liste des serveurs de médiation disponibles dans votre déploiement
 
-- **Port du serveur de médiation associé**: définir le port sur le serveur de médiation sélectionné
+- **Port du serveur de médiation associé** : définir le port sur le serveur de médiation sélectionné
 
 ## <a name="see-also"></a>Voir aussi
 

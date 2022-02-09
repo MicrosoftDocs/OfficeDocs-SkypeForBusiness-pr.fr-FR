@@ -1,8 +1,8 @@
 ---
 title: Activation du contrôle d’admission des appels
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: " Après avoir configuré le réseau de contrôle d’admission des appels, vous devez activer le contrôle d’admission des appels pour appliquer les limites de bande passante."
-ms.openlocfilehash: 401580bbc893bff2081aa59b7458e831db2f8775
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4a61fbb9587469c483f95e544bf168fe8dec4ab7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847227"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410767"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Activation du contrôle d’admission des appels dans Skype Entreprise Server
 
@@ -29,12 +29,12 @@ Le contrôle d’admission des appels est un réseau de régions, de sites et de
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Global**.
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration** réseau, puis sur **Global**.
 
 4.  Dans la page **Globale**, cliquez sur la configuration **Globale**.
    
     > [!NOTE]  
-    > Un seul réseau peut être configuré pour un déploiement Skype Entreprise Server, il n’y aura donc jamais plus d’une configuration réseau dans la liste. Il n’est pas possible de renommer la configuration Globale.
+    > Un seul réseau peut être configuré pour n’importe quel déploiement Skype Entreprise Server, il n’y aura donc jamais plus d’une configuration réseau dans la liste. Il n’est pas possible de renommer la configuration Globale.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 

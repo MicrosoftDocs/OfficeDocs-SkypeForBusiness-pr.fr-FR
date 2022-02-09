@@ -1,8 +1,8 @@
 ---
 title: Créer ou modifier une plage de numéro non Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Créez, modifiez ou supprimez des plages de numéro non Skype Entreprise Server Voix Entreprise. Cela affecte la façon dont les appels vers des numéros non affectés sont gérés.
-ms.openlocfilehash: dcdf8fe1bf4d087b27723626ccd9207df14238c4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 10e65d6202babd0c15fe569c71f6e8a84b301eb7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856311"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410547"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Créer ou modifier une plage de numéro non Skype Entreprise Server
  
@@ -39,7 +39,7 @@ Utilisez l’une des procédures suivantes pour configurer des plages de numéro
 > Avant de configurer la table des chiffres non définis, les annonces doivent déjà être définies dans votre système ou une Standard automatique de messagerie unifiée Exchange. 
   
 > [!TIP]
-> Lorsqu’une personne appelle un numéro non Skype Entreprise Server recherche dans la table des chiffres non appariés de haut en bas et utilise la première plage correspondante. Par conséquent, une action que vous souhaitez effectuer en dernier recours doit être spécifiée pour la dernière plage du tableau. 
+> Lorsqu’une personne appelle un numéro non Skype Entreprise Server recherche la table des nombres non appariés de haut en bas et utilise la première plage correspondante. Par conséquent, une action que vous souhaitez effectuer en dernier recours doit être spécifiée pour la dernière plage du tableau. 
   
 ### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>Pour utiliser Skype Entreprise Server de configuration pour configurer des numéros de téléphone non utilisés
 
@@ -64,7 +64,7 @@ Utilisez l’une des procédures suivantes pour configurer des plages de numéro
     
    - Si le numéro de début ou de fin de plage inclut un numéro de poste, les numéros de début et de fin de plage doivent inclure un poste, et le numéro d’extension doit être le même pour les numéros de début et de fin de plage.
     
-   - Le nombre doit correspondre à l’expression régulière `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` . Cela signifie que le numéro peut commencer par la chaîne (si vous ne spécifiez pas cette chaîne, elle sera automatiquement ajoutée pour vous), un signe plus (+) et un chiffre de 1 à `tel:` 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.
+   - Le nombre doit correspondre à l’expression régulière `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?`. `tel:` Cela signifie que le numéro peut commencer par la chaîne (si vous ne spécifiez pas cette chaîne, elle sera automatiquement ajoutée pour vous), un signe plus (+) et un chiffre de 1 à 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.
     
 6. Dans **Service d’annonce**, effectuez l’une des opérations suivantes : 
     
@@ -93,7 +93,7 @@ Utilisez l’une des procédures suivantes pour configurer des plages de numéro
 
 1. Connectez-vous à l’ordinateur sur lequel Skype Entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans déléguer les **autorisations** d’installation.
     
-2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
     
 3. Utilisez **New-CsUnassignedNumber** pour créer une plage de numéros non attribués. Utilisez **Set-CsUnassignedNumber** pour modifier une plage de numéros non attribués existante.
     
@@ -152,7 +152,7 @@ Utilisez l’une des procédures suivantes pour configurer des plages de numéro
 
 1. Connectez-vous à l’ordinateur sur lequel Skype Entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans déléguer les **autorisations** d’installation.
     
-2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
     
 3. Sur la ligne de commande, tapez :
     

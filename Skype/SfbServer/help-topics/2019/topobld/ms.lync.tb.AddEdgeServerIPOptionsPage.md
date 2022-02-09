@@ -1,8 +1,8 @@
 ---
 title: Ajouter des options IP de serveur Edge
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Skype Entreprise Server vous permet de configurer les adresses IPv4 et IPv6 pour chaque interface pour le serveur Edge et le pool edge. Pour ce faire, procédez comme suit :'
-ms.openlocfilehash: cd742999521c4700b969ac001153135b403962df
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 'Skype Entreprise Server vous permet de configurer les adresses IPv4 et IPv6 pour chaque interface pour le serveur Edge et le pool de serveurs Edge. Pour ce faire, procédez comme suit :'
+ms.openlocfilehash: 5f5f2c4692d6614448323e36b8fdaaf108f8f493
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829317"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411217"
 ---
 # <a name="add-edge-server-ip-options"></a>Ajouter des options IP de serveur Edge
  
-Skype Entreprise Server vous permet de configurer les adresses IPv4 et IPv6 pour chaque interface pour le serveur Edge et le pool edge. Pour ce faire, procédez comme suit :
+Skype Entreprise Server vous permet de configurer les adresses IPv4 et IPv6 pour chaque interface pour le serveur Edge et le pool de serveurs Edge. Pour ce faire, procédez comme suit :
   
 - **Activer IPv4 sur l’interface** interne : activez la case à cocher si vous souhaitez appliquer une adresse IPv4 à l’interface interne du serveur Edge ou du pool edge
     

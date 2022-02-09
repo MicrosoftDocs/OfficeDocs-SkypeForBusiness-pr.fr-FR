@@ -8,21 +8,26 @@ ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
-description: Découvrez comment planifier Location-Based routage pour le routage direct.
+description: Découvrez comment planifier Location-Based routage pour un Teams Téléphone direct.
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-voice
+- M365-voice
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: ed661681b8aa5fde89093fcec87e61bdbf5df753
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457204"
 ---
-
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planifier le routage géodépendant pour le routage direct
 
 ## <a name="overview-of-location-based-routing"></a>Vue d’ensemble du Location-Based routage des lignes
 
-Dans certains pays et certaines régions, il n’est pas illégal de contourner le fournisseur de réseau téléphonique commuté (PSTN) afin de diminuer les coûts des appels longue distance. Cet article décrit comment utiliser un routage Location-Based pour restreindre la dérivation contre les Microsoft Teams en fonction de leur emplacement géographique. Cet article s’applique uniquement Système téléphonique routage direct.
+Dans certains pays et certaines régions, il n’est pas illégal de contourner le fournisseur de réseau téléphonique commuté (PSTN) afin de diminuer les coûts des appels longue distance. Cet article décrit comment utiliser un routage Location-Based pour restreindre la dérivation contre les Microsoft Teams en fonction de leur emplacement géographique. Cet article s’applique uniquement au routage direct.
 
 Vous obtenez ici une vue d’ensemble de Location-Based routage et des conseils pour vous aider à le planifier. Lorsque vous êtes prêt à appliquer et à activer Location-Based routage, voir :
 
@@ -37,13 +42,17 @@ Location-Based routage est une fonctionnalité qui vous permet de restreindre le
 Lorsqu’Teams utilisateur est activé pour lLocation-Based routage des données, les informations suivantes s’appliquent :
 
 - Pour effectuer un appel PSTN sortant, l’une des valeurs suivantes doit être vraie :
+
     - Le point de terminaison de l’utilisateur est situé sur un site réseau activé pour le routage Location-Based et la sortie via la passerelle correspondante activée pour le Location-Based routage. 
+
     - Le point de terminaison de l’utilisateur est situé sur un site réseau qui n’est pas activé pour le routage Location-Based et la sortie des appels via une passerelle non activée pour le Location-Based routage.
 
     Les appels sortants ne sont pas autorisés dans tout autre scénario.
 
 - Pour recevoir un appel PSTN entrant, le point de terminaison de réponse de l’utilisateur doit se trouver sur le même site réseau que celui où l’appel s’est produit via la passerelle activée pour le routage Location-Based ligne. Dans tout autre scénario, comme si l’utilisateur est en itinérance, l’appel n’est pas autorisé et est acheminé vers les paramètres de forwardage d’appel de l’utilisateur (généralement la messagerie vocale).
+
 - Pour transférer un appel PSTN vers un autre utilisateur Teams, le point de terminaison de l’utilisateur cible doit se trouver sur le même site réseau que l’utilisateur qui déclenche le transfert. Les transferts ne sont pas autorisés dans tout autre scénario. 
+
 - Pour transférer un autre utilisateur Teams vers le réseau PSTN, l’appel doit être transféré via une passerelle Location-Based routage située sur le même site réseau que l’appelant initial. Les transferts ne sont pas autorisés dans tout autre scénario.
 
 Location-Based routage utilise les mêmes définitions de région réseau, de site et de sous-réseau que Skype Entreprise Server réseau. Lorsque la dérivation toll est limitée à un emplacement, un administrateur associe chaque sous-réseau IP et chaque passerelle PSTN pour cet emplacement à un site réseau. L’emplacement d’un utilisateur est déterminé par le sous-réseau IP à partir Teams points de terminaison de l’utilisateur, qui est connecté au moment d’un appel PSTN. Un utilisateur peut avoir plusieurs clients Teams situés sur différents sites, auquel cas le routage Location-Based applique le routage de chaque client séparément en fonction de l’emplacement de son point de terminaison. 
@@ -59,14 +68,19 @@ Vous devez appliquer Location-Based routage aux utilisateurs, aux sites réseau 
 Comme mentionné précédemment, Location-Based routage s’applique uniquement aux utilisateurs qui sont configurer pour le routage direct. Location-Based routage ne s’applique pas aux utilisateurs qui sont configurer pour une forfait d’appels. Les utilisateurs doivent être activés pour l’acheminement Location-Based s’ils sont dans le cadre d’une restriction de dérivation contre les frais, ce qui contrôle les conditions dans lesquelles ils peuvent passer et recevoir des appels RSTN et la passerelle PSTN qui peut être utilisée. Lorsqu’un utilisateur activé pour l’acheminement Location-Based est situé sur un site pour le routage Location-Based, il doit passer des appels via une passerelle Location-Based routage connectée au site. 
 
 Location-Based routage fonctionne en déterminant l’emplacement actuel de l’utilisateur en fonction de l’adresse IP du point de terminaison Teams de l’utilisateur et applique les règles en conséquence. L’emplacement d’un utilisateur activé pour Location-Based routage peut être classé de la manière suivante : 
+
 - **L’utilisateur se trouve sur le même site Location-Based routage de routage associé à la passerelle PSTN à laquelle la stratégie DID est attribuée.**<br>Dans ce scénario, l’utilisateur est situé sur un site réseau connu pour le routage Location-Based et son numéro de numéro vers l’intérieur des utilisateurs se termine sur une passerelle RSTN qui se trouve sur le même site réseau. Par exemple, l’utilisateur est au bureau. 
+
 - **L’utilisateur se trouve sur un autre site Location-Based routage n’est pas associé à la passerelle RSTN à laquelle la stratégie DID est attribuée.**<br>Dans ce scénario, l’utilisateur se trouve sur un site réseau connu activé pour le routage Location-Based et ce site n’est pas associé à la passerelle RSTN à laquelle est attribué le numéro DID de l’utilisateur. Par exemple, l’utilisateur se déplace vers un autre bureau.  
+
 - **L’utilisateur se trouve sur un site interne qui n’est pas activé pour l'Location-Based routage.** <br>Dans ce scénario, l’utilisateur se trouve sur un site de réseau interne connu qui n’est pas activé Location-Based routage. 
+
 - **L’utilisateur se trouve sur un site inconnu.** 
     - L’utilisateur se trouve au sein du réseau interne qui n’est pas défini en tant que site réseau. 
     - L’utilisateur est situé en dehors du réseau interne. Par exemple, l’utilisateur est sur Internet, chez lui ou dans un café. 
 
 ### <a name="apply-location-based-routing-at-the-network-site"></a>Appliquer Location-Based routage sur le site réseau 
+
 Les sites réseau doivent être activés pour lLocation-Based routage afin d’aider à déterminer les passerelles à router Location-Based les utilisateurs à l’aide du routage en itinérance. Si un utilisateur activé pour l’acheminement Location-Based est en itinérance vers un site pour le routage Location-Based, seule la passerelle RN activée pour le routage Location-Based au niveau de ce site peut être utilisée pour les appels sortants. Si un utilisateur activé pour le routage Location-Based est en itinérance vers un site non activé pour le routage Location-Based, toute passerelle non activée pour le routage Location-Based peut être utilisée pour les appels sortants.  
 
 ### <a name="apply-location-based-routing-at-the-pstn-gateway"></a>Appliquer Location-Based routage à la passerelle PSTN 
@@ -95,6 +109,7 @@ Le diagramme suivant montre les restrictions activées par le Location-Based rou
 Un utilisateur qui n’est pas activé pour le routage Location-Based peut passer des appels sortants à l’aide d’une passerelle sur n’importe quel site qui n’est pas activé pour le routage Location-Based par le biais de la stratégie de routage vocale qui lui est affectée. Toutefois, si une passerelle est activée pour le routage Location-Based, l’utilisateur ne peut pas passer d’appels sortants via la passerelle, même s’il est affecté à sa stratégie de routage vocal. Si l’utilisateur est en itinérance vers un site pour le routage Location-Based, il peut uniquement passer des appels via ses passerelles de routage normales qui ne sont pas activées pour le Location-Based routage.
  
 #### <a name="user-enabled-for-location-based-routing"></a>Utilisateur activé pour l'Location-Based routage
+
 En comparaison, le routage des appels sortants pour les utilisateurs activés pour le routage Location-Based est affecté par l’emplacement réseau du point de terminaison de l’utilisateur. Le tableau suivant indique la manière dont Location-Based routage affecte le routage des appels sortants de l’utilisateur 1, selon l’emplacement de l’utilisateur 1. 
 
 |Emplacement du point de terminaison Utilisateur1  |Routage des appels sortants pour User1  |
@@ -154,15 +169,20 @@ Le tableau suivant indique si le transfert d’appel et les transferts d’appel
 #### <a name="user-not-enabled-for-location-based-routing"></a>Utilisateur non activé pour l'Location-Based routage
 
 - Le transfert et le transfert d’un appel PSTN vers un autre numéro PSTN sont autorisés. 
+
 - Le transfert d’un appel VOIP entrant vers le PSTN doit respecter les restrictions de contournement toll de l’appelant. 
+
     - Si l’appelant n’est pas activé pour le routage Location-Based, il peut être transféré vers n’importe quelle passerelle RST qui n’est pas activée pour le Location-Based routage.
     - Si l’appelant est activé pour le routage Location-Based, il ne peut être transféré qu’vers une passerelle Location-Based routage située sur le même site réseau. 
 
 #### <a name="user-enabled-for-location-based-routing"></a>Utilisateur activé pour l'Location-Based routage
 
-- Le transfert et le transfert d’un appel RSTN vers un autre numéro PSTN doivent être acheminés vers la passerelle Location-Based Routage à partir de celle à partir de celle-ci. 
+- Le transfert et le transfert d’un appel RSTN vers un autre numéro PSTN doivent être acheminés vers la passerelle Location-Based Routage à partir de celle à partir de celle-ci.
+
 - Le transfert et le transfert d’un appel VOIP entrant vers le PSTN doivent respecter à la fois l’appelant et les restrictions de contournement toll de l’utilisateur. 
+
     - Si l’appelant n’est pas activé pour le routage Location-Based, il peut être transféré vers n’importe quelle passerelle RST qui n’est pas activée pour le Location-Based routage.
+
     - Si l’appelant est activé pour le routage Location-Based, il ne peut être transféré qu’vers une passerelle Location-Based routage située sur le même site réseau.
  
 Le tableau suivant montre comment le routage Location-Based affecte le routage d’un appel VOIP à partir de l’utilisateur 1 sur Site1 vers les utilisateurs situés à des emplacements différents qui transfèrent ou transfèrent l’appel vers un point de terminaison PSTN.  
@@ -194,7 +214,7 @@ Le tableau suivant indique si le Location-Based routage permet d’appeler simul
 
 #### <a name="simultaneous-ringing-to-a-pstn-endpoint"></a>Sonnerie simultanée sur un point de terminaison PSTN
 
-Le tableau suivant indique le comportement Location-Based routage pour un appel VOIP entrant à partir de l’utilisateur 1 situé sur Site1 vers des utilisateurs situés à des emplacements différents avec une sonnerie simultanée définie sur un numéro PSTN. 
+Le tableau suivant indique le comportement Location-Based routage pour un appel VoIP entrant d’un utilisateur situé sur Site1 vers des utilisateurs situés à des emplacements différents avec une sonnerie simultanée définie sur un numéro PSTN. 
 
 |Emplacement du point de terminaison utilisateur appelé  |La cible de l’anneau simultané est le point de terminaison PSTN |
 |---------|---------|
@@ -215,9 +235,12 @@ Le forwarding to voicemail is also allowed.
 ### <a name="delegation"></a>Délégation
 
 Un Teams utilisateur peut choisir les délégués qui peuvent effectuer et recevoir des appels en leur nom. Les fonctionnalités de délégation Teams sont affectées par le routage Location-Based comme suit : 
+
 - Pour les appels sortants d'Location-Based délégué activé pour le routage au nom d’un délégant, les mêmes règles s’appliquent. Le routage des appels est basé sur la stratégie d’autorisation d’appel du délégué, la stratégie de routage vocal et l’emplacement. Pour plus d’informations, [Teams utilisateur place un appel sortant vers le PSTN](#teams-user-places-an-outbound-call-to-the-pstn). 
+
 - Pour les appels PSTN entrants à un délégant, les mêmes règles de routage Location-Based qui s’appliquent au routage d’appel ou à la sonnerie simultanée à d’autres utilisateurs s’appliquent également aux délégués. Pour plus d’informations, voir [Teams transferts ou transferts](#teams-user-transfers-or-forwards-call-to-another-teams-user) d’appel vers un autre utilisateur Teams, transferts ou transferts d’appel vers le point de terminaison [Teams PSTN](#teams-user-transfers-or-forwards-call-to-pstn-endpoint), et sonnerie [simultanée.](#simultaneous-ringing) Lorsqu’un délégué définit un point de terminaison PSTN comme une cible de sonnerie simultanée, la stratégie de routage vocal du délégué est utilisée pour router l’appel vers le réseau PSTN. 
-- Pour la délégation, il est recommandé que le délégant et les délégués associés soient situés sur le même site réseau. 
+
+- Pour la délégation, Microsoft recommande que le délégant et les délégués associés soient situés sur le même site réseau. 
 
 ## <a name="other-planning-considerations"></a>Autres considérations de planification
 
@@ -241,7 +264,9 @@ Le Teams client web et les clients Skype Entreprise web ne sont pas pris en char
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>Fonctionnalités non prises en charge par le routage géodépendant
 
 Location-Based routage ne s’applique pas aux types d’interactions suivants. Location-Based routage n’est pas appliqué lorsque Teams points de terminaison interagissent avec des points de terminaison RSTN dans les scénarios suivants : 
+
 - Parcage d’appel ou récupération des appels via le parcage d’appels 
+
 - Un utilisateur sur site Skype Entreprise un utilisateur Skype Entreprise Online appelle un Teams utilisateur  
 
 ### <a name="location-based-routing-for-conferencing"></a>Location-Based routage pour les conférences
@@ -262,7 +287,7 @@ Direct Voice over IP (VoIP) ne doit être déployé avec aucun équipement tél�
 
 Allez à [Configurer les paramètres réseau pour Location-Based routage](location-based-routing-configure-network-settings.md).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)
 - [Paramètres réseau pour les fonctionnalités vocales cloud dans Teams](cloud-voice-network-settings.md)

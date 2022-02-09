@@ -1,8 +1,8 @@
 ---
 title: Ajouter des options de serveur Edge
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool de serveurs Edge. Par défaut, le pool edge prend en charge les utilisateurs distants de votre organisation qui se connectent depuis l’extérieur du pare-feu à l’aide d’un réseau privé virtuel (VPN). Vous disposez également des options suivantes de fonctionnalités des pools de serveurs Edge :'
-ms.openlocfilehash: 9ac07d7a15e138c3fe817aab6754ca098f8ff774
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1af294615f05fd9c544ac06dc9eaa6d6a0a780f8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834482"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411187"
 ---
 # <a name="add-edge-server-options"></a>Ajouter des options de serveur Edge
 

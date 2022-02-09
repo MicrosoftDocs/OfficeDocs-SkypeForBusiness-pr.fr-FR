@@ -1,8 +1,8 @@
 ---
 title: File d’attente de groupes Response Groups
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,22 +15,22 @@ ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les groupes Response Group sont constitués de groupes d’agents, de files d’attente et de flux de travail. Les files d’attente Response Group tiennent les appels à un groupe Response Group jusqu’à ce qu’un agent réponde à l’appel.
-ms.openlocfilehash: f33df7df7a0c129bbe522c39d9612377e85774ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e5b921c55176e7abbfaf6362129172d50f2d416f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831388"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417117"
 ---
 # <a name="response-groups-queue"></a>File d’attente des services Response Groups
 
 Les groupes Response Group sont constitués de groupes d’agents, de files d’attente et de flux de travail. Les files d’attente Response Group tiennent les appels à un groupe Response Group jusqu’à ce qu’un agent réponde à l’appel.
 
-La page **File d’attente Response Groups** affiche la liste de toutes les files d’attente Response Group  -   définies pour votre organisation.
+La page **Response** **GroupsQueue** -  affiche la liste de toutes les files d’attente Response Group définies pour votre organisation.
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Vous pouvez effectuer les tâches suivantes à partir de la page File **d’attente des groupes Response Groups**  -   :
+Vous pouvez effectuer les tâches suivantes à partir de la page **Response** **GroupsQueue** -  :
 
 - Créer une file d’attente
 

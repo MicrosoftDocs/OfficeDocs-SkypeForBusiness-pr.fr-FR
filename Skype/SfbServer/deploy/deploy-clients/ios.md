@@ -1,7 +1,7 @@
 ---
 title: Installer et tester Skype Entreprise pour iOS
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,24 +12,24 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: 'Résumé : Comment installer et tester l’application Skype Entreprise pour iOS.'
-ms.openlocfilehash: b3bcdddbafe5ae0c578f1f5e38f44696ed01dd66
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a485893e1433e3c1f45377acd11526a9396e85cc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843527"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417317"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>Installer et tester Skype Entreprise pour iOS
  
 **Résumé :** Comment installer et tester l’Skype Entreprise pour l’application iOS.
   
-L’Skype Entreprise pour iOS apporte Skype Entreprise présence, messagerie instantanée et appels vocaux et vidéo aux appareils iOS. Les utilisateurs lync 2013 obtiennent automatiquement l’application mise à jour ou sont invités à la mettre à jour manuellement, en fonction de leurs paramètres utilisateur. Les nouveaux utilisateurs peuvent le télécharger à partir de l’App Store d’Apple. Le Skype Entreprise’application pour iOS est disponible uniquement sur les versions iOS 8.0 et ultérieures.
+L Skype Entreprise pour iOS apporte Skype Entreprise présence, messagerie instantanée et appels vocaux et vidéo aux appareils iOS. Les utilisateurs lync 2013 obtiennent automatiquement l’application mise à jour ou sont invités à la mettre à jour manuellement, en fonction de leurs paramètres utilisateur. Les nouveaux utilisateurs peuvent le télécharger à partir de l’App Store d’Apple. Le Skype Entreprise’application pour iOS est disponible uniquement sur les versions iOS 8.0 et ultérieures.
   
 ## <a name="installing-skype-for-business-for-ios"></a>Installation de Skype Entreprise pour iOS
 
-1. À partir de votre appareil iOS, appuyez **sur App Store** et recherchez Skype Entreprise pour **iOS.**
+1. À partir de votre appareil iOS, appuyez **sur App Store** et recherchez **Skype Entreprise pour iOS**.
     
-2. Appuyez **sur**  >  **Télécharger Ouvrir**. 
+2. **Appuyez sur** **DownloadOpen** > . 
     
 3. Connectez-vous à l’application.
     

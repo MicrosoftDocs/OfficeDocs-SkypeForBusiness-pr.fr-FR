@@ -1,7 +1,7 @@
 ---
 title: Téléphone de nombres pour la Nouvelle-Zélande
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Nouvelle-Zélande Microsoft Teams.
-ms.openlocfilehash: 549dc8706c38ee0190fef7f440b194594ea05560
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9b06890b682e873fa6f61a50ba2a50384e26d8ca
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830798"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62420807"
 ---
 # <a name="phone-number-management-for-new-zealand"></a>Téléphone de nombres pour la Nouvelle-Zélande
 
@@ -37,11 +37,11 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.|En Nouvelle-Zélande, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et en contactant le service de service [TNS pour obtenir des instructions.](contact-tns-service-desk.md)<br/><br/>Nouvelle demande de numéro de téléphone pour la [Nouvelle-Zélande (v.1.0) (mi-nz)](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf). <br/><br/> Pour pouvoir vous attribuer des numéros de téléphone, téléchargez le formulaire Connaître votre client, complétez-le et contactez le service de service TNS pour obtenir [des instructions.](contact-tns-service-desk.md)<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines.  |
-|Obtenez les numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation pour la Nouvelle-Zélande (tous les nombres) (v.1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/letter-of-authorization-(loa)-for-new-zealand-(all-numbers)-(v1.0)-(en-nz).pdf) <br/> <br/>Remplissez-le et [contactez le service desk TNS pour obtenir des instructions.](contact-tns-service-desk.md) <br/><br>Le transfert des numéros peut prendre de une à six semaines dans ce marché selon la complexité du port.<br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.  |
-|Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service TNS pour](contact-tns-service-desk.md) obtenir des instructions sur la liste des numéros de téléphone que vous souhaitez publier/publier. <br/> |
-|Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |Pour obtenir des instructions sur la liste des numéros d’utilisateur à convertir en numéros de service, contactez le service [TNS.](contact-tns-service-desk.md) <br/> |
-|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier les numéros de file d’attente ou de numéro du personnel de service automatique, contactez le service de service [TNS pour obtenir des instructions.](contact-tns-service-desk.md)|
+|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.|En Nouvelle-Zélande, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et en contactant le service de service [TNS pour obtenir des instructions](contact-tns-service-desk.md).<br/><br/>[Nouvelle demande de numéro de téléphone pour la Nouvelle-Zélande (v.1.0) (mi-nz)](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf). <br/><br/> Pour pouvoir vous attribuer des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le compléter en entier et contacter le service de service [TNS pour obtenir des instructions](contact-tns-service-desk.md).<br/><br/>Le remplissage des nouvelles commandes sur ce marché peut prendre de deux à trois semaines.  |
+|Obtenez les numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation pour la Nouvelle-Zélande (tous les nombres) (v.1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/letter-of-authorization-(loa)-for-new-zealand-(all-numbers)-(v1.0)-(en-nz).pdf) <br/> <br/>Remplissez-le et [contactez le service desk TNS pour obtenir des instructions](contact-tns-service-desk.md). <br/><br>Le transfert des numéros peut prendre de une à six semaines dans ce marché selon la complexité du port.<br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.  |
+|Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service TNS pour obtenir des instructions](contact-tns-service-desk.md) sur la liste des numéros de téléphone que vous souhaitez publier/publier. <br/> |
+|Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contactez le service TNS pour obtenir des instructions](contact-tns-service-desk.md) sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
+|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier les numéros de file d’attente ou de numéro du personnel de service automatique, contactez le service de service [TNS pour obtenir des instructions](contact-tns-service-desk.md).|
 
 ## <a name="related-topics"></a>Voir aussi
 

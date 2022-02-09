@@ -1,8 +1,8 @@
 ---
 title: Définir une nouvelle jonction
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 description: 'Vous définissez une nouvelle jonction (SIP) en fournissant les informations suivantes :'
-ms.openlocfilehash: b23b27ca49de3344a9d99e531c17b4fb02b7cc51
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 963a622ed2a7f3c39dca0be5199126ffaf201314
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851378"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416697"
 ---
 # <a name="define-a-new-trunk"></a>Définir une nouvelle jonction
 
@@ -34,9 +34,9 @@ Vous définissez une nouvelle jonction (SIP) en fournissant les informations sui
 
 - **Protocole de transport SIP** : sélectionnez dans la liste soit TCP, soit TLS
 
-- **Serveur de médiation associé**: sélectionnez dans la liste un serveur de médiation qui est déployé et configuré dans votre déploiement
+- **Serveur de médiation associé** : sélectionnez dans la liste un serveur de médiation qui est déployé et configuré dans votre déploiement
 
-- **Port du serveur** de médiation associé : définissez la valeur de port sur la valeur du port TCP ou TLS du serveur de médiation que cette trunk SIP utilisera
+- **Port serveur de médiation** associé : définissez la valeur de port sur la valeur du port TCP ou TLS du serveur de médiation que cette trunk SIP utilisera
 
 ## <a name="see-also"></a>Voir aussi
 

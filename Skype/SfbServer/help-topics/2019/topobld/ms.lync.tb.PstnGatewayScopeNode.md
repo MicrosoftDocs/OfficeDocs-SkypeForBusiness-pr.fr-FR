@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue de la passerelle PSTN
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ce nœud affiche le nom de domaine complet (FQDN), le serveur de médiation associé et d’autres informations basiques sur cette passerelle de réseau téléphonique commuté (PSTN). Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: cfa3bf2c2ed4b3986204baa9b685ab8313d1595e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 552576cf4fe377581e12f61b1a88475733183402
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855821"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416997"
 ---
 # <a name="pstn-gateway-scope-node"></a>Nœud d’étendue de la passerelle PSTN
  

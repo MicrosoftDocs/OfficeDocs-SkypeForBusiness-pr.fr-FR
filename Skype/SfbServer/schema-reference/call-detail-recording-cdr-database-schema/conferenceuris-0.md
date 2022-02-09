@@ -1,8 +1,8 @@
 ---
 title: Affichage ConferenceUris
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
 description: L’affichage ConfernceUris stocke des informations sur les URI qui ont participé à des sessions de conférence. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 6bbcc35c19688b320df8a57447aab4dda64bf4ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: eff8b509d65917da8826f47acd6509e4cadedcc8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843657"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417497"
 ---
 # <a name="conferenceuris-view"></a>Affichage ConferenceUris
  
@@ -28,6 +28,6 @@ L’affichage ConfernceUris stocke des informations sur les URI qui ont particip
 |:-----|:-----|:-----|
 |ConferenceUriId  <br/> |int  <br/> |Numéro unique identifiant l’URI de conférence.  <br/> |
 |ConferenceUri  <br/> |nvarchar(450)  <br/> |URI de la conférence.  <br/> |
-|ConferenceUriType  <br/> |nvarchar(256)  <br/> |Type de l’URI de conférence. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
+|ConferenceUriType  <br/> |nvarchar(256)  <br/> |Type de l’URI de conférence. Pour plus [d’informations, voir la table UriTypes](uritypes.md) . <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
 title: Gérer les services pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: Cet article explique comment gérer les services en cours d’exécution dans Skype Entreprise Server topologie.
-ms.openlocfilehash: 3bb4092d2538bc994de3f71467cb03aedf8dc302
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9a26accf8e8c9a4c20b9fea99eac6d9dc2cbadea
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856671"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410787"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Gérer les services pour Skype Entreprise Server
 
@@ -41,21 +41,21 @@ Vous pouvez utiliser Skype Entreprise Server panneau de commande pour afficher l
 ## <a name="view-the-status-of-services-running-on-a-skype-for-business-server"></a>Afficher l’état des services en cours d’exécution sur Skype Entreprise serveur
 <a name="view-status"> </a>
 
-Vous pouvez utiliser Skype Entreprise Server Panneau de Skype Entreprise Server pour afficher tous les services qui s’exécutent sur un ordinateur spécifique dans votre topologie Skype Entreprise Server et afficher l’état de chaque service.
+Vous pouvez utiliser Skype Entreprise Server panneau de commande pour afficher tous les services qui s’exécutent sur un ordinateur spécifique dans votre topologie Skype Entreprise Server et afficher l’état de chaque service.
   
 ### <a name="to-view-the-status-of-services-running-on-a-computer"></a>Pour afficher l’état des services en cours d’exécution sur un ordinateur
 
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
-3. Dans la barre de navigation de gauche, cliquez sur **Topologie.** 
-4. Dans la page **État,** tiez ou recherchez la liste, si nécessaire, pour trouver l’ordinateur qui vous intéresse, puis cliquez sur le nom de l’ordinateur.
+3. Dans la barre de navigation de gauche, cliquez sur **Topologie**. 
+4. Dans la page **État** , tiez ou recherchez la liste, si nécessaire, pour trouver l’ordinateur qui vous intéresse, puis cliquez sur le nom de l’ordinateur.
 5. Effectuez l’une des opérations suivantes :
-   - Pour consulter le dernier état des services en cours d’exécution sur l’ordinateur, cliquez **sur Obtenir l’état du service.**
-   - Pour voir la liste des services spécifiques en cours d’exécution sur l’ordinateur et l’état de chaque service, cliquez sur Propriétés, puis cliquez sur **Fermer** pour revenir à la liste.
+   - Pour consulter le dernier état des services en cours d’exécution sur l’ordinateur, cliquez **sur Obtenir l’état du service**.
+   - Pour voir la liste des services spécifiques en cours d’exécution sur l’ordinateur et l’état de chaque service, cliquez sur Propriétés **, puis** cliquez sur **Fermer** pour revenir à la liste.
     
 ### <a name="viewing-service-status-with-windows-powershell-cmdlets"></a>Affichage de l’état du service Windows cmdlets PowerShell
 
-Vous pouvez également afficher l’état du service à l’Windows PowerShell et l’cmdlet **Get-CsWindowsService.** Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Le processus est le même dans Skype Entreprise Server.
+Vous pouvez également afficher l’état du service à l’Windows PowerShell et à l’aide de l’cmdlet **Get-CsWindowsService**. Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distants pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Le processus est le même dans Skype Entreprise Server.
   
 ### <a name="to-view-service-status"></a>Pour afficher l’état du service
 
@@ -67,7 +67,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
 
 Cette commande renvoie des informations comme celles-ci :
   
-|**RoleName**|**État**|
+|**RoleName**|**Status**|
 |:-----|:-----|
 |{W3SVC}  <br/> |En cours d’exécution  <br/> |
 |{CentralManagement}  <br/> | En cours d’exécution <br/> |
@@ -77,7 +77,7 @@ Cette commande renvoie des informations comme celles-ci :
 |{ConferencingServer}  <br/> |En cours d’exécution  <br/> |
 |{MediationServer}  <br/> |En cours d’exécution  <br/> |
    
-Pour plus d’informations, [voir Get-CsWindowsService.](/powershell/module/skype/get-cswindowsservice.md?view=skype-ps)
+Pour plus d’informations, [voir Get-CsWindowsService](/powershell/module/skype/get-cswindowsservice.md?view=skype-ps).
   
 ## <a name="view-details-about-a-service"></a>Afficher les détails d’un service
 <a name="view_details"> </a>

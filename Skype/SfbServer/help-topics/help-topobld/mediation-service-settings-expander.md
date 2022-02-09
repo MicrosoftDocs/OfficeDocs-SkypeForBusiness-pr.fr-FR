@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres du service de médiation
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 description: 'Pour le serveur de médiation, vous pouvez spécifier les données suivantes :'
-ms.openlocfilehash: 115d836b4549661b51aa68e2f09ebea4f94e29aa
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2e21c1d21b7b951dfc1ac23c7e3414243eedc884
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855541"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416637"
 ---
 # <a name="mediation-service-settings-expander"></a>Expandeur des paramètres du service de médiation
 

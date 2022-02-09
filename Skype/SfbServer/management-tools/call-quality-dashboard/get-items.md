@@ -1,8 +1,8 @@
 ---
 title: Obtenir des éléments
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
 description: 'Résumé : Découvrez l’opération Obtenir des éléments, qui fait partie du service d’élément. Le service d’élément fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 3c4db6558f0cdbc6403c71a8dc1dc46fb5d4d64c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a28f495dbe76750e70633c5d0f07f5c23576485c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851978"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416537"
 ---
 # <a name="get-items"></a>Obtenir des éléments
  
@@ -32,7 +32,7 @@ Get Items renvoie tous les éléments du référentiel.
   
 |**Méthode**|**URI de demande**|**HTTP Version**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/item  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoERepositoryService/repository/item  <br/> |HTTP/1.1  <br/> |
    
  **Paramètres d’URI** - Aucun.
   

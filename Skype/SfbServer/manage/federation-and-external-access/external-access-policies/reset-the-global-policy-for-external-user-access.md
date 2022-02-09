@@ -5,8 +5,8 @@ ms:assetid: 8207e1b1-de9e-461f-975f-fcc5c526849a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182545(v=OCS.15)
 ms:contentKeyID: 48184675
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Vous ne pouvez pas supprimer complètement une stratégie globale. L’utilisation **de l’option** Supprimer sur la stratégie globale réinitialise uniquement la stratégie globale aux paramètres par défaut, qui n’incluent pas la prise en charge des options d’accès des utilisateurs externes.
-ms.openlocfilehash: e55107de4aec5832b8c04dcf679fd9d5f5555c53
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e65eb4f2a87789b22654b8de5e3681b1dda47d1a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849987"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416557"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>Réinitialiser la stratégie globale pour l’accès des utilisateurs externes dans Skype Entreprise Server 
 
@@ -53,4 +53,4 @@ La stratégie d’accès externe globale peut être réinitialisée à l’Windo
 
   - Cette commande redéfinit la stratégie d’accès externe globale :<br/><br/>Remove-CsExternalAccessPolicy -Identity « global »
 
-Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Remove-CsExternalAccessPolicy.](/powershell/module/skype/Remove-CsExternalAccessPolicy)
+Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) .

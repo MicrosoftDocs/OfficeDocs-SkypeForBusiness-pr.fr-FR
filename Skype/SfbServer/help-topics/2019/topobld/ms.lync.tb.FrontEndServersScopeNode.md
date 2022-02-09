@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue des serveurs frontaux
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud des pools frontaux Enterprise Edition répertorie les pools frontaux sur ce site, et les nœuds des serveurs frontaux Standard Edition répertorie les serveurs Standard Edition sur ce site. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 1b2b662ef79f5d9ee12d668d1cf3b81f6e4e0807
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2f7a4c6fb19a44ea1f6ede29af1e30129241ef3c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849117"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417017"
 ---
 # <a name="front-end-servers-scope-node"></a>Nœud d’étendue des serveurs frontaux
  

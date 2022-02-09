@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue de la jonction
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 description: 'Cliquez avec le bouton droit sur une trunk SIP existante dans le Générateur de topologie pour effectuer les choses suivantes :'
-ms.openlocfilehash: 083780d318de69f1fe817e9863dc669220afbee5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 08c925edf14d473dda44a5ab0de7ecd1cf02f96b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846487"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417567"
 ---
 # <a name="trunk-scope-node"></a>Nœud d’étendue de la jonction
  
