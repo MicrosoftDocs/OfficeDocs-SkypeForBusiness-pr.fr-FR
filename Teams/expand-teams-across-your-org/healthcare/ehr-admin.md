@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Découvrez comment intégrer le connecteur Teams EHR pour permettre aux prestataires de soins de votre organisation de réaliser des visites virtuelles avec des patients ou d’autres fournisseurs dans Teams directement à partir du système EHRh.
-ms.openlocfilehash: c1decee2c6be1da4dfbdae72f5117030bd23aeda
-ms.sourcegitcommit: 01657a2a961712b8383b741b4ae983b9e07bdeb1
+ms.openlocfilehash: 90a4b51fa1855fa7d680af80d4a47f9bf407d789
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/27/2021
-ms.locfileid: "61611301"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518606"
 ---
 # <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Visites virtuelles avec Teams - Intégration à EhRExique
 
@@ -60,14 +60,14 @@ Pour mieux comprendre le processus d’intégration global, examinez les informa
 
 ||||||
 |---------|---------|---------|---------|---------|
-|**Action**: vous [demandez l’accès à l Teams appeil de messagerie.](#request-access-to-the-teams-app) <br> **Résultat**: Nous autorisez votre organisation à des tests.|**Action**: Nous créons un certificat de clé public et privé et nous les téléchargeons dans Le Monde. <br> **Résultat**: Sync synce le certificat de clé publique.|**Action**: vous devez effectuer les étapes de configuration dans le portail de configuration du connecteur EHR. <br> **Résultat :** Vous recevez des enregistrements FS pour la configuration d’Quns.| **Action**: Vous travaillez avec votre spécialiste technique Dessé verso pour configurer les enregistrements FX en aoës.<br> **Résultat :** Configuration terminée. Prêt à l’essai.|**Action**: Vous terminez le test dans votre environnement de test.<br> **Résultat**: validation complète des flux et décision de passer à la production.|
+|**Action** : Vous [demandez l’accès à l Teams appeil de messagerie](#request-access-to-the-teams-app). <br> **Résultat :** Nous autorisez votre organisation à des tests.|**Action** : Nous créons un certificat de clé public et privé et nous les téléchargeons dans Le Monde. <br> **Résultat :** Sync synchronise le certificat de clé publique.|**Action** : vous devez effectuer les étapes de configuration dans le portail de configuration du connecteur EHR. <br> **Résultat :** Vous recevez des enregistrements FS pour la configuration d’Quns.| **Action** : Vous travaillez avec votre spécialiste technique Dessé verso pour configurer les enregistrements FX en aoës.<br> **Résultat :** Configuration terminée. Prêt à l’essai.|**Action :** Vous terminez les tests dans votre environnement de test.<br> **Résultat :** validation complète des flux et décision de passer à la production.|
 
 ### <a name="request-access-to-the-teams-app"></a>Demander l’accès à l Teams appeil de messagerie
 
 Vous devez demander l’accès à l’Teams client.
 
-1. Demandez à télécharger l’application Teams dans la place de marché [Android App Marketplace.](https://apporchard.epic.com/Gallery?id=6153) Cela déclenche une demande d’Quns à l’équipe du connecteur EHR Microsoft.
-1. Après avoir fait votre demande, envoyez un courrier électronique à [TeamsForHealthcare@microsoft.com](mailto:TeamsForHealthcare@microsoft.com) nom de votre organisation, ID de client et l’adresse e-mail de votre contact technique.
+1. Demandez à télécharger l’application Teams dans la place de marché [Android App Marketplace](https://apporchard.epic.com/Gallery?id=6153). Cela déclenche une demande d’Quns à l’équipe du connecteur EHR Microsoft.
+1. Après avoir fait votre demande, envoyez un courrier électronique à [TeamsForHealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) nom de votre organisation, ID de client et l’adresse e-mail de votre contact technique).
 1. L’équipe du connecteur EHR Microsoft répondra à votre e-mail avec confirmation de l’enablement.
 
 ### <a name="review-the-epic-microsoft-teams-telehealth-integration-guide"></a>Consulter le guide Epic-Microsoft Teams’intégration de la téléhealthe
@@ -80,15 +80,15 @@ Examinez le [Guide d’intégration de Microsoft Teams télémédecine](https://
 - Version finale de novembre 2018 ou ultérieure.
 - Les utilisateurs ont une licence Microsoft 365 ou Office 365 licence appropriée qui inclut Teams réunions.
 - Teams est adoptée et utilisé dans votre organisation de soins de santé.
-- Vos systèmes répondent à [toutes les exigences de logiciel et](../../hardware-requirements-for-the-teams-app.md) de navigateur pour Teams.
+- Vos systèmes répondent à [toutes les exigences de logiciel et de navigateur pour](../../hardware-requirements-for-the-teams-app.md) Teams.
 
 > [!IMPORTANT]
 > Veillez à effectuer les étapes de pré-intégration et que toutes les conditions préalables sont remplies avant de passer à l’intégration.
 
 Les étapes d’intégration sont effectuées par les membres suivants de votre organisation :
 
-- **Microsoft 365 administrateur global**: responsable principal de l’intégration. L’administrateur configure le connecteur, active les SMS (le cas nécessaire) et ajoute l’analyste client Qui approuvera la configuration.
-- **Analyste de clients finaux**: une personne de votre organisation qui dispose d’informations d’identification pour se connecter à Facebook. Ils approuvent les paramètres de configuration entrés par l’administrateur et fournissent les enregistrements de configuration à Quns.
+- **Microsoft 365 administrateur global :** responsable principal de l’intégration. L’administrateur configure le connecteur, active les SMS (le cas nécessaire) et ajoute l’analyste client Qui approuvera la configuration.
+- **Analyste client de qualité** : une personne de votre organisation qui dispose d’informations d’identification pour s’y connecter. Ils approuvent les paramètres de configuration entrés par l’administrateur et fournissent les enregistrements de configuration à Quns.
 
 L Microsoft 365 administrateur de projet et l’analyste du client d’équipe peuvent être la même personne.
 
@@ -141,50 +141,50 @@ Pour activer les notifications SMS, votre Microsoft 365 de messagerie doit :
     
     :::image type="content" source="media/ehr-connector-epic-sms-notifications.png" alt-text="Capture d’écran de la page des notifications SMS, montrant les cases à cocher de consentement et l’option de générer un numéro de téléphone." lightbox="media/ehr-connector-epic-sms-notifications.png":::
 
-1. Sous **Vos numéros de téléphone,** **sélectionnez** Générer un nouveau numéro de téléphone pour générer un numéro de téléphone pour votre organisation. Cette opération lance le processus de demande et de génération d’un nouveau numéro de téléphone. Ce processus peut prendre jusqu’à 2 minutes.
+1. Sous **Vos numéros de téléphone**, **sélectionnez Générer un nouveau numéro de** téléphone pour générer un numéro de téléphone pour votre organisation. Cette opération lance le processus de demande et de génération d’un nouveau numéro de téléphone. Ce processus peut prendre jusqu’à 2 minutes.
 
     Une fois le numéro de téléphone généré, il s’affiche à l’écran. Ce numéro sera utilisé pour envoyer des confirmations par SMS et des rappels à vos patients. Le numéro a été mis en service, mais n’est pas encore lié à l’URL de base F URL. Vous devez le faire au cours de l’étape suivante.
 
     :::image type="content" source="media/ehr-connector-epic-phone-number.png" alt-text="Capture d’écran montrant un exemple du numéro de téléphone généré." lightbox="media/ehr-connector-epic-phone-number.png":::
 
-    Sélectionnez **Terminé,** puis **Suivant.**
+    **Sélectionnez Terminé**, puis **Suivant**.
 
-1. Pour lier le numéro de téléphone à une URL de base FEMBA, sous **Téléphone numéro** de téléphone dans la section **configuration SMS,** sélectionnez le numéro. Faites cette étape pour chaque URL de base FEMBA pour laquelle vous voulez activer les notifications SMS.
+1. Pour lier le numéro de téléphone à une URL de base FEMBA, sous Téléphone **numéro** dans la section **configuration SMS**, sélectionnez le numéro. Faites cette étape pour chaque URL de base FEMBA pour laquelle vous voulez activer les notifications SMS.
 
     :::image type="content" source="media/ehr-connector-epic-link-phone-number.png" alt-text="Capture d’écran montrant comment lier un numéro de téléphone à une URL de base F URL." lightbox="media/ehr-connector-epic-link-phone-number.png":::
 
     Si c’est la première fois que vous configurez le connecteur, l’URL de base FEMBA qui a été entrée à l’étape précédente s’affichera. Le même numéro de téléphone peut être lié à plusieurs URL de base FEMBA, ce qui signifie que les patients reçoivent des notifications SMS en provenance du même numéro de téléphone pour différentes organisations et/ou services.
 
-1. Sélectionnez **l’installation** de SMS en fonction de chaque URL de base de la fonction FEMBA pour configurer les types de notifications SMS à envoyer à vos patients.
+1. **Sélectionnez l’installation** de SMS en fonction de chaque URL de base de la fonction FEMBA pour configurer les types de notifications SMS à envoyer à vos patients.
 
     :::image type="content" source="media/ehr-connector-epic-sms-setup.png" alt-text="Capture d’écran montrant les paramètres de configuration des SMS." lightbox="media/ehr-connector-epic-sms-setup.png":::
 
-    - **SMS de confirmation**: des notifications sont envoyées aux patients lorsqu’une visite virtuelle est prévue, mise à jour ou annulée dans le système EHR.
-    - **SMS de rappel**: les notifications sont envoyées aux patients en fonction de l’intervalle de temps que vous spécifiez et de l’heure prévue de la visite virtuelle.
+    - **SMS de confirmation** : des notifications sont envoyées aux patients lorsqu’une visite virtuelle est prévue, mise à jour ou annulée dans le système EHR.
+    - **SMS de rappel** : des notifications sont envoyées aux patients en fonction de l’intervalle de temps que vous spécifiez et de l’heure prévue de la visite virtuelle.
 
     Cliquez sur **Enregistrer**.
 
-1. Sélectionnez **Télécharger certificat** pour télécharger un certificat de clé publique. Vous devez télécharger un certificat .cer .base64 codé (clé publique uniquement) pour chaque environnement.
+1. **Sélectionnez Télécharger certificat** pour télécharger un certificat de clé publique. Vous devez télécharger un certificat .cer .base64 codé (clé publique uniquement) pour chaque environnement.
 
     Un certificat de clé publique est requis pour recevoir les informations de rendez-vous pour l’envoi de notifications SMS. Le certificat est nécessaire pour vérifier que les informations entrantes viennent d’une source valide.
 
-    Lorsque le connecteur est utilisé pour envoyer des rappels SMS, le numéro de téléphone du patient est envoyé parHienne dans une charge utile HL7v2 lorsque les rendez-vous sont créés dansHique. Ces numéros sont stockés pour chaque rendez-vous dans la géographie de votre organisation et sont conservés jusqu’à ce que le rendez-vous prenne place. Pour en savoir plus sur la configuration des messages HL7v2, consultez le Guide d’intégration de Microsoft Teams [télésanté.](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)
+    Lorsque le connecteur est utilisé pour envoyer des rappels SMS, le numéro de téléphone du patient est envoyé parHienne dans une charge utile HL7v2 lorsque les rendez-vous sont créés dansHique. Ces numéros sont stockés pour chaque rendez-vous dans la géographie de votre organisation et sont conservés jusqu’à ce que le rendez-vous prenne place. Pour plus d’informations sur la configuration des messages HL7v2, voir le Guide d’intégration de Microsoft Teams [télésanté](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
-    Sélectionnez **Suivant.**
+    **Sélectionnez Suivant**.
 
 > [!NOTE]
-> À tout moment, votre administrateur Microsoft 365 peut mettre à jour les paramètres SMS. N’oubliez pas que la modification des paramètres peut entraîner l’arrêt du service SMS. Pour plus d’informations sur l’affichage des rapports SMS, voir Teams rapports d’administration du connecteur [EHR.](ehr-admin-reports.md)
+> À tout moment, votre administrateur Microsoft 365 peut mettre à jour les paramètres SMS. N’oubliez pas que la modification des paramètres peut entraîner l’arrêt du service SMS. Pour plus d’informations sur l’affichage des rapports SMS, voir Teams d’administration du connecteur [EHR](ehr-admin-reports.md).
 
 ### <a name="approve-or-view-the-configuration"></a>Approuver ou afficher la configuration
 
-L’analyste client yahooux de votre organisation qui a été ajouté comme approveur ouvre le portail de configuration du connecteur [EHR](https://ehrconnector.teams.microsoft.com) et se connecte à l’aide de Microsoft 365 informations d’identification. Une fois la validation réussie, l’approuveur est invité à se connecter à l’aide de ses informations d’identification d’équipe pour valider l’organisation.
+L’analyste client yahooux de votre organisation qui a été ajouté comme approveur ouvre le portail de configuration du connecteur [EHR](https://ehrconnector.teams.microsoft.com) et se connecte à l’aide de Microsoft 365 de connexion. Une fois la validation réussie, l’approuveur est invité à se connecter à l’aide de ses informations d’identification d’équipe pour valider l’organisation.
 
 > [!Note]
 > Si l’Microsoft 365 de l’entreprise et l’analyste du client Andy sont la même personne, vous devrez tout de même vous connectez à Sous-site pour valider votre accès. La validation de la validation de l’URL de base de votre FEMBA est utilisée uniquement. Microsoft ne stocke pas les informations d’identification ou n’accède pas aux données EHR avec cette connexion.
 
 :::image type="content" source="media/ehr-connector-epic-login-approve.png" alt-text="Capture d’écran de la page Approuver ou Afficher la configuration, montrant l’option Se connecter et approuver." lightbox="media/ehr-connector-epic-login-approve.png":::
 
-Une fois la configuration réussie, l’analyste du client Jens Doit **approuver** la configuration. Si la configuration n’est pas correcte, votre Microsoft 365 peut se connecter au portail de configuration et modifier les paramètres.
+Une fois la configuration réussie, l’analyste du client Jens **Doit approuver la** configuration. Si la configuration n’est pas correcte, votre Microsoft 365 peut se connecter au portail de configuration et modifier les paramètres.
 
 :::image type="content" source="media/ehr-connector-epic-approve.png" alt-text="Capture d’écran de la page Approuver ou Afficher la configuration, montrant l’option Approuver." lightbox="media/ehr-connector-epic-approve.png":::
 
@@ -197,7 +197,7 @@ Lorsque les informations de configuration sont approuvées par l'administrateur 
 - Enregistrement de configuration SMS
 - Enregistrement de configuration de test de l’appareil
 
-L’analyste du client Terminée doit fournir ces enregistrements à Ses services pour terminer la configuration de la visite virtuelle en Censo. Pour plus d’informations, voir le [Guide d’intégration Microsoft Teams téléhealthe.](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)
+L’analyste du client Terminée doit fournir ces enregistrements à Ses services pour terminer la configuration de la visite virtuelle en Censo. Pour plus d’informations, voir le [Guide d’intégration Microsoft Teams téléhealthe](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
 > [!Note]  
 > À tout moment, l’analyste Microsoft 365 ou du client Titres d’entreprise peut se connecter au portail de configuration pour afficher les enregistrements d’intégration et modifier la configuration de l’organisation, selon les besoins.
@@ -213,7 +213,7 @@ Une fois que vous avez terminé les étapes du connecteur EHR et que vous avez e
 
 ### <a name="virtual-visit-prerequisites"></a>Conditions préalables pour la visite virtuelle
 
-- Vos systèmes doivent satisfaire toutes [les exigences en matière de logiciels et](../../hardware-requirements-for-the-teams-app.md) de navigateurs pour Teams.
+- Vos systèmes doivent satisfaire toutes [les exigences logicielles et de navigateur pour](../../hardware-requirements-for-the-teams-app.md) Teams.
 
 - Vous avez effectué la configuration de l’intégration entre l’organisation Desas et votre organisation Microsoft 365 groupe.
 
@@ -242,7 +242,7 @@ Le connecteur prend en charge les patients qui rejoignent des visites virtuelles
 
 Principales fonctionnalités de l’expérience du patient :
 
-- Les patients peuvent rejoindre des visites virtuelles à partir de navigateurs web modernes sur un ordinateur de bureau ou un appareil mobile sans avoir [à installer Teams’application.](../mobile-browser-join.md)
+- Les patients peuvent rejoindre des visites virtuelles à partir de navigateurs web modernes sur un ordinateur de bureau ou un appareil mobile sans avoir à [installer Teams’application](../mobile-browser-join.md).
 
 - Les patients peuvent participer à des visites virtuelles en un seul clic et aucune autre compte ou aucune autre inscription n’est nécessaire.
 
@@ -263,7 +263,7 @@ Teams’intégration aux systèmes EHR optimise la quantité de données utilis�
 
 Le connecteur Teams EHR ne stocke ni ne transfère aucune donnée personnelle identifiable ou les dossiers médicaux des patients ou fournisseurs de soins à partir du système EHR. Les seules données stockées par le connecteur DMI sont l’ID unique de l’utilisateur DMI (utilisé lors de l’installation d’une réunion Teams).
 
-L’ID unique de l’utilisateur DMI est stocké dans l’une des trois zones géographiques décrites dans [Emplacement de stockage des données client Microsoft 365](/microsoft-365/enterprise/o365-data-locations). Toutes les discussions, enregistrements et autres données partagées dans Teams par les participants à la réunion sont stockées conformément aux stratégies de stockage existantes. Pour en savoir plus sur l’emplacement des données dans Teams, voir Emplacement des données [dans Teams.](../../location-of-data-in-teams.md)
+L’ID unique de l’utilisateur DMI est stocké dans l’une des trois zones géographiques décrites dans [Emplacement de stockage des données client Microsoft 365](/microsoft-365/enterprise/o365-data-locations). Toutes les discussions, enregistrements et autres données partagées dans Teams par les participants à la réunion sont stockées conformément aux stratégies de stockage existantes. Pour en savoir plus sur l’emplacement des données dans Teams, voir Emplacement des données [dans Teams](../../location-of-data-in-teams.md).
 
 ## <a name="related-articles"></a>Articles connexes
 

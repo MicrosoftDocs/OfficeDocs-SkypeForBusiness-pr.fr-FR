@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a43ea4c217e09ad4473513fd21e159bd15c89716
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
+ms.openlocfilehash: 175b7f4bf8d181ae7e66edb255bd32dd40bb2fa1
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312446"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518976"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Vue d’ensemble des composants Loop dans Teams
 
@@ -81,3 +81,7 @@ Les fichiers .fluid peuvent uniquement être ouverts en tant que liens dans votr
 - Les invités B2B ne pourront pas collaborer sur un composant en direct partagé avec *eux via des* liens vers des personnes de votre organisation, sauf si le client définit une option d’accès externe pour autoriser les invités B2B à avoir le même niveau d’accès que les membres du client. Pour plus d’informations, [voir Configurer les paramètres de collaboration externe B2B](/azure/active-directory/external-identities/delegate-invitations#configure-b2b-external-collaboration-settings).
 - Les composants de boucle ne sont pas pris en charge Teams canaux.
 - Les composants de boucle dans la conversation ne se chargeront pas uniquement si le fichier a été déplacé vers une autre bibliothèque. Si le fichier est déplacé vers un autre dossier, il continuera à être chargé dans la conversation.
+
+## <a name="related-topics"></a>Voir aussi
+
+[Gérer les composants Loop dans SharePoint](/sharepoint/manage-loop-components)

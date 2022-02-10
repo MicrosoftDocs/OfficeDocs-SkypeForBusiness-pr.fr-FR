@@ -1,5 +1,5 @@
 ---
-title: Voici ce que vous obtenez avec Teams Téléphone
+title: Les avantages du système téléphonique
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -21,32 +21,32 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 'Découvrez les fonctionnalités, la disponibilité et comment planifier et configurer des Microsoft Teams Système téléphonique pour votre entreprise. '
-ms.openlocfilehash: 79712a9e3f9221c0aa6d256253d76e266cbbe658
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+description: 'Découvrez les fonctionnalités, la disponibilité et comment planifier et configurer Téléphone Microsoft système pour votre entreprise. '
+ms.openlocfilehash: 3c641da9434745a9f349ad69171d7471090c1baf
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299069"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518916"
 ---
-# <a name="heres-what-you-get-with-teams-phone"></a>Voici ce que vous obtenez avec Teams Téléphone
+# <a name="heres-what-you-get-with-phone-system"></a>Les avantages du système téléphonique
 
-Cet article décrit Teams Téléphone fonctionnalités principales. Pour plus d’informations sur l’utilisation de Teams Téléphone en tant que remplacement de votre Exchange de branche privée (PBX) et les options de connexion au réseau téléphonique commuté (PSTN), consultez les informations [Teams Téléphone.](what-is-phone-system-in-office-365.md)
+Cet article décrit Système téléphonique fonctionnalités principales. Pour plus d’informations sur l’utilisation d’Système téléphonique en tant que remplacement de votre Exchange de branche privée (PBX) et les options de connexion au réseau téléphonique commuté (PSTN), voir les informations [Système téléphonique.](what-is-phone-system-in-office-365.md)
 
 Les clients sont disponibles pour PC, Mac et appareils mobiles, ce qui fournit des fonctionnalités sur les appareils qui vont des tablettes et téléphones mobiles aux PC et téléphones IP de bureau. Pour plus d’informations, [voir Obtenir des clients pour Microsoft Teams](get-clients.md).
 
  > [!Note]
 > Pour plus d’informations sur Teams de téléphone sur différentes plateformes, voir Teams [fonctionnalités par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-Pour utiliser Teams Téléphone fonctionnalités, votre organisation doit avoir une licence Système téléphonique licence. Pour plus d’informations sur les licences, voir [Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Pour utiliser Système téléphonique fonctionnalités, votre organisation doit avoir une licence Système téléphonique licence. Pour plus d’informations sur les licences, voir [Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 Sachez que la plupart des fonctionnalités nécessitent que vous affectiez la licence Système téléphonique et que les utilisateurs soient « activés pour la voix ». Pour attribuer la licence, utilisez la [cmdlet Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps) et définissez le paramètre **EnterpriseVoiceEnabled** sur $true. Certaines fonctionnalités, telles que le attendant automatique cloud, ne nécessitent pas qu’un utilisateur soit activé pour la voix. Les exceptions sont appelées dans le tableau ci-dessous.
   
-## <a name="teams-phone-features"></a>Teams Téléphone fonctionnalités
+## <a name="phone-system-features"></a>Système téléphonique fonctionnalités
 
-Teams Téléphone fournit les fonctionnalités suivantes.
+Système téléphonique fournit les fonctionnalités suivantes.
   
-|Teams Téléphone fonctionnalité  |Description |
+|Système téléphonique fonctionnalité  |Description |
 |:-----|:-----|
 |[Attendant automatiques cloud](what-are-phone-system-auto-attendants.md)  |Vous permet de créer un système de menus qui permet aux appelants externes et internes de localiser et de placer ou de transférer des appels à des utilisateurs de l’entreprise ou à des services de votre organisation.  <br/> Notez *qu’il* n’est pas nécessaire que les utilisateurs soient activés pour recevoir des appels du répertoire de numérotation par nom ou numérotation. Les *utilisateurs* doivent être activés pour recevoir des appels à partir des options du menu du attendant automatique. |
 |[Files d’attente d’appels cloud](create-a-phone-system-call-queue.md) <br> |Vous permet de configurer la façon dont les files d’attente d’appels sont gérées pour votre organisation : par exemple, configurer les salutations et la musique en attente, rechercher le prochain agent d’appel disponible pour gérer l’appel, etc.  <br/> Notez que les *utilisateurs* doivent être activés pour recevoir des appels à partir d’une file d’attente d’appels.|
@@ -72,7 +72,7 @@ Teams Téléphone fournit les fonctionnalités suivantes.
 |[Occupé(e)](teams-calling-policy.md) (Teams uniquement)  | Stratégie d’appel qui vous permet de configurer la façon dont les appels entrants sont gérés lorsqu’un utilisateur est : <ul><li>dans un appel </li><li>dans une conférence</li><li>un appel est mis en attente. </li></ul> L’appelant recevra l’une des réponses suivantes : <ul><li>entendre un signal Occupé lorsque l’appelant est au téléphone</li> <li>seront acheminés en conséquence vers les paramètres sans réponse de l’utilisateur. Une option permet à l’appelant de laisser un message vocal à l’utilisateur qui est déjà en appel.</li></ul> L’appelant reçoit une notification d’appel manqué, mais ne peut pas répondre aux appels entrants. Cette fonctionnalité est désactivée par défaut, mais peut être désactivée par l’administrateur client.|
 |[Blocage d’appel](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | Permet aux utilisateurs d’ajouter des numéros de téléphone (PSTN) à une liste bloquée de sorte que l’appel suivant de ce numéro soit bloqué.|
 |[Téléphones en zone commune](set-up-common-area-phones.md)  | Un téléphone local commun est généralement placé dans une zone telle qu’une salle d’attente ou une salle de conférence et le rend accessible à plusieurs personnes. Les téléphones en zone commune sont configurer en tant qu’appareils plutôt que comme utilisateurs et peuvent se connecter automatiquement à un réseau.|
-|[Prise en charge de la dérivation](direct-routing-plan-media-bypass.md) média (Teams routage direct uniquement)  | Pour de meilleures performances, le média est conservé entre le contrôleur de bordure de session (SBC) et le client au lieu de l’Teams Téléphone. |
+|[Prise en charge de la dérivation](direct-routing-plan-media-bypass.md) média (Teams routage direct uniquement)  | Pour de meilleures performances, le média est conservé entre le contrôleur de bordure de session (SBC) et le client au lieu de l’Système téléphonique. |
 |[Routage de numéro non engagé](routing-calls-to-unassigned-numbers.md) | Autorise le routage de numéros non insignés vers des utilisateurs, des files d’attente automatiques, des files d’attente d’appels ou une annonce personnalisée. |
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>Disponibilité dans Cloud de la communauté du secteur public nuages haut et de DoD
@@ -88,11 +88,11 @@ Les fonctionnalités suivantes ne sont pas encore disponibles dans Cloud de la c
 
 ## <a name="related-topics"></a>Voir aussi
 
-- [Qu’est-ce Teams Téléphone](what-is-phone-system-in-office-365.md)
+- [Qu’est-ce que le système téléphonique ?](what-is-phone-system-in-office-365.md)
 - [Appel vocal dans le nuage dans Microsoft Teams](cloud-voice-landing-page.md)
-- [Configurer les Teams Téléphone](setting-up-your-phone-system.md)
+- [Configurer le système téléphonique](setting-up-your-phone-system.md)
 - [Quelle forfait d’appels vous convient le mieux ?](calling-plan-landing-page.md)
 - [Surveillance et gestion de la qualité des appels](monitor-call-quality-qos.md)
 - [Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-- [Prix de l’Teams Téléphone](https://products.office.com/microsoft-teams/voice-calling#requirements)
+- [Tarification pour Système téléphonique](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Teams l’infrastructure bureau virtualisé avec appels et réunions](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)

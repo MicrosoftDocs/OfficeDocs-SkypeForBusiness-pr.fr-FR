@@ -21,18 +21,20 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 83acdef043e972a23a7166b33bd0772d94d62773
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: 8364ec0440fafb786966541cc73915e40e031a08
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457244"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518856"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certifiés
 
-Les Microsoft Teams de certification s’assurent que les clients qui utilisent des téléphones de bureau et des téléphones de conférence certifiés expérienceront des appels audio de haute qualité et des réunions.
+Le programme de certification Microsoft Teams des périphériques certifiés garantit que les périphériques certifiés répondent à une norme élevée, avec des objectifs de performances et des mesures de qualité plus élevés dans toute l’expérience Teams (audio, vidéo, interface utilisateur). Les partenaires Microsoft et OEM travaillent activement ensemble pour garantir que les appareils répondent à toutes les exigences de certification, notamment la sécurité, la qualité audio et vidéo, l’expérience Teams et l’accessibilité.
 
-Microsoft Teams de certification garantissent une barre de qualité supérieure avec des objectifs de performance plus élevés et des mesures de qualité audio. Les partenaires travaillent activement pour répondre à cette barre supérieure et sont des appareils éligibles pour répondre aux exigences de certification. Certains de nos partenaires travaillent également à la prise en charge du service Skype Entreprise sur le même matériel que les Teams téléphones. 
+Les programmes de certification sont conçus pour garantir que tous les appareils certifiés exécutent une version Android avec l’ensemble de fonctionnalités requis Teams et Teams centre d’administration. La validité de la certification est basée sur la version du système d’exploitation Android fonctionnant sur l’appareil lors de son entrée dans le programme de certification. Nos partenaires OEM travaillent pour prolonger la durée de vie de la certification en mettre à niveau la version du système d’exploitation Android et en re certifiant, ou en publiant de nouveaux modèles à la pointe de la technologie. Les dates de validité de la certification seront mises à jour régulièrement sur la base des plans de partenaire OEM en vue d’une mise à niveau vers une version plus récente du système d’exploitation Android.
+
+Au-delà de la période de certification, Microsoft s’engage à prendre en charge la version la plus récente du client Teams sur ces appareils pendant deux ans à la fin de la période de certification.
 
 
 ## <a name="currently-certified-teams-phones"></a>Téléphones de produit Teams actuellement certifiés
@@ -78,7 +80,7 @@ Les appareils suivants sont certifiés sous le programme Salles Microsoft Teams 
 | Barre de réunions Yealink A20  | `133.15.0.19`      | 5 août 2023 | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) | 9 |
 | Poly Studio X30         | `3.1.1.216109`     | 5 décembre 2022  | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) | 8.1 |
 | Poly Studio X50         | `3.1.1.216109`     | 5 décembre 2022   | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) | 8.1 |
-| Poly TC8                | `3.3.2.210441`     | 5 août 2023 | Compatible avec Poly Studio X30 et Poly Studio X50 | 8.1 |  9  |
+| Poly TC8                | `3.3.2.210441`     | 5 août 2023 | Compatible avec Poly Studio X30 et Poly Studio X50  |  9  |
 | Yealink VC210           | `118.15.0.14`      | 5 août 2023 | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) |  9  |
 
 ## <a name="currently-certified-teams-displays"></a>Affichages Teams certifiés
@@ -128,6 +130,7 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme  | Version de produit incluse  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C455HD | 1.15.271    | Mise à jour 2022 n°1
 |PolySoin C60   | `7.2.1.1712`  | Mise à jour 2022 n°1   |
 |Poly CCX400/CCX500/CCX600   | `7.2.1.1707`  | Mise à jour 2022 n°1  |
 |Audiocodes C448HD  | `1.14.500` | Mise à jour 2022 n°1 |

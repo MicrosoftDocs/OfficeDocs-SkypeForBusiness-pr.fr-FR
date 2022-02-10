@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdc626510a180185cae699106c1420880ea55e73
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: cdce0e30c1aaa3b40f362acda47c1a9ffa35161f
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579698"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518936"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls-public-preview"></a>Utiliser le chiffrement de bout en bout pour les appels individuels Microsoft Teams (préversion publique)
 
@@ -77,7 +77,7 @@ Effectuez ces tâches afin que vos utilisateurs puissent passer des appels chiff
 
 La stratégie par défaut globale à l’échelle de l’organisation spécifie que le chiffrement de bout en bout est désactivé. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée. Pour activer le chiffrement de bout en bout, créez une stratégie de chiffrement ou modifiez la stratégie par défaut globale. Pour activer le chiffrement de bout en bout à l’aide du Centre d'administration Teams, effectuez ces étapes.
 
-1. À l’aide d’un compte professionnel ou scolaire auquel le rôle d’administrateur général ou Teams a été affecté, connectez-vous au [Centre d'administration Teams](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+1. À l’aide d’un compte professionnel ou scolaire auquel le rôle d’administrateur général ou Teams a été affecté, connectez-vous au [Centre d'administration Teams](https://admin.teams.microsoft.com/).
 
 2. Accédez à **Autres paramètres** > **Stratégies de chiffrement améliorées**.
 

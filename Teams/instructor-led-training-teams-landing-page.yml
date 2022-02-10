@@ -62,9 +62,9 @@ additionalContent:
   sections:
     - title: Cours
       items:
-        - title: Certification des spécialistes du travail d’équipe
-          summary: La collaboration est une compétence essentielle pour la force de travail actuelle. Découvrez comment les fonctionnalités robustes au sein Microsoft Teams vous permettent de rester connecté et de travailler plus efficacement avec votre équipe
+        - title: Chemin d’accès des Learning spécialistes du travail
+          summary: La collaboration est une compétence essentielle pour la force de travail actuelle. Découvrez comment les fonctionnalités robustes au sein Microsoft Teams vous permettent de rester connecté et de travailler plus efficacement avec votre équipe.
           url: /learn/paths/teamwork-specialist
-        - title: Certification des spécialistes de l’adoption des services
-          summary: Le cours de certification Microsoft Service Adoption Specialist Teams. Découvrez comment conduire l’adoption d’services Microsoft dans votre organisation
+        - title: Chemin d’accès du spécialiste Learning’adoption des services
+          summary: Le spécialiste de l’adoption des services Microsoft Learning fonctionnalités de chemin d Teams et d’autres services Microsoft 365 service. Découvrez comment conduire l’adoption d’services Microsoft dans votre organisation.
           url: /learn/paths/m365-service-adoption

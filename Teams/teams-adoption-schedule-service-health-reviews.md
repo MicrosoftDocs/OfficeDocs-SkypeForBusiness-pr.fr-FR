@@ -1,5 +1,5 @@
 ---
-title: "Planifier des vérifications de l’état du service pour votre adoption de Microsoft\_Teams"
+title: Planifier des vérifications de l’état du service pour votre adoption de Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -10,18 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 'Découvrez comment utiliser les révisions d’état du service dans votre adoption Teams pour partager des informations sur l’utilisation, l’état d’santé, les fonctionnalités/feuille de route de projet et d’autres mises à jour.'
+description: Découvrez comment utiliser les révisions d’état du service dans votre adoption Teams pour partager des informations sur l’utilisation, l’état d’santé, les fonctionnalités/feuille de route de projet et d’autres mises à jour.
 f1.keywords:
-  - CSH
+- CSH
 ms.custom: Adopt
 ms.collection:
-  - Teams_ITAdmin_Adopt
-  - M365-collaboration
-  - seo-marvel-apr2020
+- Teams_ITAdmin_Adopt
+- M365-collaboration
+- seo-marvel-apr2020
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: cb6153a1f44e7a7201e1085c9277e90bc59be000
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518766"
 ---
-
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Planifier des vérifications de l’état du service pour votre adoption de Microsoft Teams
 
 En collaboration avec votre équipe de mise en œuvre technique, planifiez la tenue d’examens mensuels de l’état des services Teams. Dans ces révisions, vous allez partager des informations sur les mesures suivantes :
@@ -29,6 +34,7 @@ En collaboration avec votre équipe de mise en œuvre technique, planifiez la te
 - **Utilisation du** service – Données d’utilisation actives, et peut inclure des informations sur les services supprimés ou la consommation réduite suite au passage à une Teams. Généralement dirigé par le gestionnaire de services ou le propriétaire du produit pour les services de collaboration.
 - **État du service** : qualité des appels, état des réunions et état global du service. Passer en revue les incidents de support et les niveaux de ticket de support technique. Rubriques sur la sécurité et la gouvernance. Il est généralement dirigé par des équipes de support et de protection des informations. 
 - **Feuille de route des fonctionnalités/projets** : quel est le planning d’intégration des employés restants ou de projets d’amélioration de la collaboration ? Quelles sont les fonctionnalités supplémentaires que votre organisation va activer ? Généralement dirigé par le gestionnaire de services ou le propriétaire du produit pour les services de collaboration en collaboration avec les principales parties prenantes pour l’entreprise.
-- **Mise à jour des mesures de réussite d’une campagne et d’une** formation – Inclut la participation, la participation, les thèmes de commentaires clés et l’ouverture des problèmes. Incluez les principales victoires et les succès. 
+- **Mise à jour des mesures de réussite d’une campagne et d’une** formation – Inclut la participation, la participation, les thèmes de commentaires clés et l’ouverture des problèmes. Inclut les principales victoires et succès.
+- **Teams de** cycle de vie – Inclut le nombre d’équipes actives ou inactives, le nombre d’équipes avec des utilisateurs invités, les groupes sans propriétaire et les équipes avec des noms en double. 
 
 Cette révision mensuelle peut être assez formelle dans de grandes organisations ou virtuelles dans des entreprises de plus petite taille. Il est important de partager et de surveiller ces données pour garantir une implémentation saine et dynamique de Microsoft Teams. 

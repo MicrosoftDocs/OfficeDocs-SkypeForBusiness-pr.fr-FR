@@ -21,43 +21,43 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-may2020
 search.appverid: MET150
-description: En savoir plus sur les options Teams d’appel (connectivité PSTN) et les décisions que vous prendrez pour votre organisation.
+description: En savoir plus sur Teams options de connectivité PSTN et les décisions que vous prendrez pour votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b82404e23a2443efb06582664a206a6a43cad770
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 409f5a1f8872b8e3bd3b1999a0024fa28583024d
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363240"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518826"
 ---
 # <a name="pstn-connectivity-options"></a>Options de connectivité PSTN
 
-Microsoft fournit des fonctionnalités complètes de Exchange de branche privée (PBX) pour votre organisation via Teams Téléphone. Toutefois, pour permettre aux utilisateurs de passer des appels en dehors de votre organisation, vous devez vous Teams Téléphone au réseau téléphonique public commuté (PSTN).
+Microsoft fournit des fonctionnalités complètes de Exchange de branche privée (PBX) pour votre organisation via Système téléphonique. Toutefois, pour permettre aux utilisateurs de passer des appels en dehors de votre organisation, vous devez vous Système téléphonique au réseau téléphonique public commuté (PSTN).
 
-Cet article se concentre sur les options de connectivité PSTN. Pour plus d’informations sur les solutions vocales Microsoft, notamment sur les fonctionnalités Teams Téléphone, voir [Planifier votre solution vocale Teams messagerie vocale.](cloud-voice-landing-page.md)
+Cet article se concentre sur les options de connectivité PSTN. Pour plus d’informations sur les solutions vocales Microsoft, notamment sur les fonctionnalités Système téléphonique, voir [Planifier votre solution vocale Teams messagerie vocale proposée](cloud-voice-landing-page.md).
 
-Pour vous Teams Téléphone au réseau PSTN, vous avez le choix entre les options suivantes :
+Pour vous Système téléphonique au réseau PSTN, vous avez le choix entre les options suivantes :
 
-- [**Forfait d’appels**](#teams-phone-with-calling-plan). Une solution all-in-the-cloud avec Microsoft comme opérateur PSTN.
+- [**Forfait d’appels**](#phone-system-with-calling-plan). Une solution all-in-the-cloud avec Microsoft comme opérateur PSTN.
 
-- [**L’Connecter**](#teams-phone-with-operator-connect). Avec les Connecter opérateurs, si votre opérateur existant participe au programme Microsoft Operator Connecter (Programme d’opérateur Microsoft), il peut gérer les contrôleurs de session et d’appel RTC. 
+- [**L’Connecter**](#phone-system-with-operator-connect). Grâce aux Connecter opérateurs, si votre opérateur existant participe au programme Connecter de l’opérateur Microsoft, il peut gérer les contrôleurs de session et d’appel PSTN border Controllers (SBCS). 
 
-- [**Routage direct**](#teams-phone-with-direct-routing), qui vous permet d’utiliser votre propre opérateur PSTN en connectant votre ou vos contrôleurs de session (SBC) à Teams Téléphone.
+- [**Routage direct**](#phone-system-with-direct-routing), qui vous permet d’utiliser votre propre opérateur PSTN en connectant votre ou vos contrôleurs de session (SBC) à Système téléphonique.
 
 
 Vous pouvez également choisir une combinaison d’options qui vous permet de concevoir une solution pour un environnement complexe ou de gérer une migration en plusieurs étapes.
 
-N’ignorez pas que les options que vous choisissez affectent la manière dont certaines Teams Téléphone fonctionnalités sont configurées. Pour plus d’informations, voir [les considérations concernant la configuration](#configuration-considerations) plus loin dans cet article.
+Les options que vous choisissez affectent la manière dont certaines Système téléphonique fonctionnalités sont configurées. Pour plus d’informations, voir [les considérations concernant la configuration](#configuration-considerations) plus loin dans cet article.
 
 
-## <a name="teams-phone-with-calling-plan"></a>Téléphone Teams avec forfait d'appel 
+## <a name="phone-system-with-calling-plan"></a>Système téléphonique forfait d’appels 
 
-Teams Téléphone’offre d’appels est la solution vocale tout-en-cloud de Microsoft pour les Teams cloud. Il s’agit de l’option la plus simple qui Teams Téléphone au réseau PSTN. Avec cette option, Microsoft agit en tant qu’opérateur PSTN, comme indiqué dans le diagramme suivant :
+Système téléphonique’aide du forfait d’appels est la solution vocale tout-en-cloud de Microsoft pour les Teams utilisateurs. Cette solution est l’option la plus simple qui connecte Système téléphonique au réseau PSTN. Avec cette option, Microsoft agit en tant qu’opérateur PSTN, comme indiqué dans le diagramme suivant :
 
 ![Le diagramme 1 montre les Système téléphonique’aide d’un plan d’appels.](media/voice-solutions-simple.png)
 
-Si vous répondez oui aux questions suivantes, l Teams Téléphone’aide du plan d’appels est la solution adaptée à vos questions :
+Si vous répondez oui aux questions suivantes, c’est Système téléphonique’aide du plan d’appels est la solution adaptée à vos questions :
 
 - Forfait d’appels disponible dans votre région.
 - Vous n’avez pas besoin de conserver votre opérateur PSTN actuel.
@@ -65,11 +65,11 @@ Si vous répondez oui aux questions suivantes, l Teams Téléphone’aide du pla
 
 Avec cette option : 
 
-- Vous pouvez Teams Téléphone avec des plans d’appels nationaux ou internationaux qui permettent d’appeler vers des téléphones dans le monde entier (selon le niveau de service sous licence).
+- Vous pouvez Système téléphonique avec des plans d’appels nationaux ou internationaux qui permettent d’appeler vers des téléphones dans le monde entier (selon le niveau de service sous licence).
 
 - Le déploiement ou la maintenance d’un plan d’appel de&mdash; déploiement local n’est pas nécessaire pour fonctionner Microsoft 365.
 
-- Remarque : si nécessaire, vous pouvez choisir de connecter un contrôleur de session border (SBC) pris en charge via un routage direct pour l’interopérabilité avec des PBX tiers, des appareils analogiques et d’autres équipements téléphoniques tiers pris en charge par le SBC.
+- Remarque : vous pouvez connecter un contrôleur de bordure de session (SBC) pris en charge via un routage direct pour l’interopérabilité avec des PBX tiers, des appareils analogiques et d’autres équipements téléphoniques pris en charge par le SBC.
 
 Cette option nécessite une connexion ininterrompue à Microsoft 365.
 
@@ -81,9 +81,9 @@ Pour plus d’informations sur le forfait d’appels, consultez les articles sui
 - [Configurer le forfait d’appels](set-up-calling-plans.md)
 
 
-## <a name="teams-phone-with-operator-connect"></a>Teams Téléphone’opérateur Connecter
+## <a name="phone-system-with-operator-connect"></a>Système téléphonique’Connecter
 
-Avec la Connecter opérateur, si votre opérateur existant participe au programme Connecter de l’opérateur Microsoft, il peut gérer le service de mise à niveau des appels R TEAMS. Votre opérateur gère les services d’appel PSTN et les contrôleurs de session en bordure, ce qui vous permet d’économiser sur l’achat et la gestion du matériel.
+Grâce aux Connecter opérateurs, si votre opérateur existant participe au programme Connecter de l’opérateur Microsoft, il peut gérer le service afin de mettre les appels PSTN à Teams. Votre opérateur gère les services d’appel PSTN et les contrôleurs de session en bordure, ce qui vous permet d’économiser sur l’achat et la gestion du matériel.
 
 L’Connecter peut être la solution appropriée pour votre organisation si :
 
@@ -94,28 +94,28 @@ L’Connecter peut être la solution appropriée pour votre organisation si :
 Pour plus d’informations sur les avantages et les conditions requises de la Connecter opérateur, et pour obtenir la liste des opérateurs participant à ce programme, consultez la liste des opérateurs [Connecter.](operator-connect-plan.md) Pour plus d’informations sur la configuration des opérateurs Connecter, voir [Configurer l’Connecter](operator-connect-configure.md).
 
 
-## <a name="teams-phone-with-direct-routing"></a>Teams Téléphone le routage direct
+## <a name="phone-system-with-direct-routing"></a>Système téléphonique le routage direct
 
-Cette option connecte Teams Téléphone réseau téléphonique à l’aide du routage direct, comme illustré dans le diagramme suivant : 
+Cette option connecte Système téléphonique réseau téléphonique à l’aide du routage direct, comme illustré dans le diagramme suivant : 
 
 ![Le diagramme 5 illustre Système téléphonique routage direct.](media/voice-solution-with-direct-routing.png)
 
-Si vous répondez oui aux questions suivantes, l’Teams Téléphone le routage direct est la solution adaptée à vos questions :
+Si vous répondez oui aux questions suivantes, Système téléphonique le routage direct est la solution adaptée à vos questions :
 
-- Vous voulez utiliser Teams avec Teams Téléphone.
+- Vous voulez utiliser Teams avec Système téléphonique.
 - Vous devez conserver votre opérateur PSTN actuel.
 - Vous voulez mélanger le routage, certains appels passant par le plan d’appels, d’autres par l’intermédiaire de votre opérateur.
 - Vous devez interopérateur avec des PBX tiers et/ou des équipements tels que des pages de surcharge, des dispositifs analogiques, etc.
 
 Avec cette option :
 
-- Vous connectez votre propre contrôleur de session border controller (SBC) pris en charge à Teams Téléphone sans resserr de logiciel local supplémentaire.
+- Vous connectez votre propre contrôleur de session border controller (SBC) pris en charge à Système téléphonique sans resserr de logiciel local supplémentaire.
 
-- Vous pouvez utiliser pratiquement n’importe quel opérateur téléphonique avec Teams Téléphone.
+- Vous pouvez utiliser pratiquement n’importe quel opérateur téléphonique avec Système téléphonique.
 
-- Vous pouvez choisir de configurer et de gérer cette option, ou elle peut être configurée et gérée par votre opérateur ou partenaire (demandez-lui si votre opérateur ou partenaire propose cette option).
+- Vous pouvez configurer et gérer cette option, ou elle peut être configurée et gérée par votre opérateur ou partenaire (demandez-lui si votre opérateur ou partenaire propose cette option).
 
-- Vous pouvez configurer l’interopérabilité entre&mdash; vos équipements téléphoniques, par exemple un PBX tiers et des appareils analogiques&mdash;, et Teams Téléphone.
+- Vous pouvez configurer l’interopérabilité entre&mdash; vos équipements téléphoniques, par exemple un PBX tiers et des appareils analogiques&mdash;, et Système téléphonique.
 
 Cette option nécessite les options suivantes :
 
@@ -124,7 +124,7 @@ Cette option nécessite les options suivantes :
 - Déploiement et maintenance d’un SBC pris en charge.
 
 - Contrat avec un opérateur tiers.
-  (Sauf dans le cadre du déploiement en tant qu’option de connexion au PBX tiers, aux périphériques analogiques ou à d’autres équipements téléphoniques pour les utilisateurs qui utilisent le Teams Téléphone avec le plan d’appel.)
+  (Sauf dans le cadre du déploiement en tant qu’option de connexion au PBX tiers, aux périphériques analogiques ou à d’autres équipements téléphoniques pour les utilisateurs qui utilisent le Système téléphonique avec le plan d’appel.)
 
 Pour plus d’informations sur le routage direct, voir les articles suivants :
 
@@ -138,17 +138,17 @@ Pour plus d’informations sur le routage direct, voir les articles suivants :
 
 ## <a name="configuration-considerations"></a>Considérations en cas de configuration
 
-La plupart Teams Téléphone fonctionnalités sont identiques quelle que soit l’option de connectivité PSTN que vous choisissez. Par exemple, les paramètres Sans réponse et transfert d’appel, le transfert d’appel, la musique personnalisée mise en attente, le parcage d’appel, la ligne partagée et les applications vocales sont tous disponibles. Pour obtenir la liste complète des Teams Téléphone fonctionnalités, consultez les fonctionnalités de la liste des [Teams Téléphone](here-s-what-you-get-with-phone-system.md).
+La plupart Système téléphonique fonctionnalités sont identiques quelle que soit l’option de connectivité PSTN que vous choisissez. Par exemple, les paramètres Sans réponse et transfert d’appel, le transfert d’appel, la musique personnalisée mise en attente, le parcage d’appel, la ligne partagée et les applications vocales sont tous disponibles. Pour obtenir la liste complète des Système téléphonique fonctionnalités, consultez les fonctionnalités de la liste des [Système téléphonique](here-s-what-you-get-with-phone-system.md).
 
-Il existe toutefois certaines différences de fonctionnalités qui affectent la façon dont vous configurez Teams Téléphone fonctionnalités. Par exemple, le routage direct nécessite des étapes supplémentaires pour configurer le routage des appels. Autre exemple : le routage direct fournit un routage basé sur l’emplacement (LBR) pour vous permettre de restreindre la dérivation contre les frais dans certains emplacements géographiques où il n’est pas autorisé. 
+Il existe toutefois certaines différences de fonctionnalités qui affectent la façon dont vous configurez Système téléphonique fonctionnalités. Par exemple, le routage direct nécessite des étapes supplémentaires pour configurer le routage des appels. Autre exemple : le routage direct fournit un routage basé sur l’emplacement. LBR vous permet de restreindre la dérivation toll dans certains emplacements géographiques où elle n’est pas autorisée. 
 
 Le tableau suivant met en évidence les différences de configuration principale. Les sections qui suivent le tableau fournissent des liens vers des informations et des détails supplémentaires.
 
 | Option | Description | Téléphone gestion des nombres | Routage des appels | Disponibilité des appels d’urgence |
 | :------------| :-------| :-------| :-------| :-------| 
 | Forfaits d’appel | -Microsoft agit en tant qu’opérateur PSTN.<br>-Vous n’avez pas besoin d’acheter ou de gérer des SBCS.| Obtenu auprès de Microsoft.| -Géré par Microsoft. <br> -L’administrateur configure les plans de numérotation utilisateur pour la traduction des numéros. | -Activé par Microsoft. <br> -L’administrateur enregistre les adresses. <br> -Appels dynamiques pris en charge. |
-| Connecter | -Carrier gère la connectivité PSTN et les SBCs. <br> -Vous n’avez pas besoin d’acheter ou de gérer des SBCS. | -Obtenu via un opérateur. <br> - Numéros associés à des adresses de secours gérées par un opérateur.  | -Géré par un opérateur. <br>-L’administrateur configure les plans de numérotation utilisateur pour la traduction des numéros. | -Activé par un opérateur. <br> -L’administrateur enregistre les adresses. <br> -Appels dynamiques pris en charge. |
-| Routage direct | - Nécessite l’achat de SBC certifié auprès d’un fournisseur tiers.<br>-Connecter votre SBC à Teams Téléphone.<br> -Utilisez votre opérateur PSTN existant. | Obtenu auprès d’un opérateur. | - Nécessite une configuration supplémentaire par l’administrateur.<br>-L’administrateur configure les plans de numérotation de ligne pour la traduction des numéros. <br>-LBR est disponible pour restreindre la dérivation toll. | - Nécessite une configuration supplémentaire par l’administrateur. <br>Adresses enregistrées non prise en charge. <br>-Appels dynamiques pris en charge, mais nécessite une configuration supplémentaire. |
+| Connecter | -Carrier gère la connectivité PSTN et les SBCs. <br> -Vous n’avez pas besoin d’acheter ou de gérer des SBCS. | -Obtenu via un opérateur. <br> - Numéros associés à des adresses de secours gérées par un opérateur.   | -Géré par un opérateur. <br>-L’administrateur configure les plans de numérotation utilisateur pour la traduction des numéros. | -Activé par un opérateur. <br> -L’administrateur enregistre les adresses. <br> -Appels dynamiques pris en charge. |
+| Routage direct | - Nécessite l’achat de SBC certifié auprès d’un fournisseur tiers.<br>-Connecter votre SBC à Système téléphonique.<br> -Utilisez votre opérateur PSTN existant. | Obtenu auprès d’un opérateur. | - Nécessite une configuration supplémentaire par l’administrateur.<br>-L’administrateur configure les plans de numérotation de ligne pour la traduction des numéros. <br>-LBR est disponible pour restreindre la dérivation toll. | - Nécessite une configuration supplémentaire par l’administrateur. <br>Adresses enregistrées non prise en charge. <br>-Appels dynamiques pris en charge, mais nécessite une configuration supplémentaire. |
 |||||
 
 
@@ -156,7 +156,7 @@ Le tableau suivant met en évidence les différences de configuration principale
 
 Microsoft propose deux types de numéros de téléphone : les numéros d’abonnés (utilisateurs) qui peuvent être affectés à des utilisateurs de votre organisation et les numéros de service disponibles sous forme de numéros de service gratuits et gratuits. Les numéros de service ont une capacité d’appels simultanés supérieure à celle des numéros d’abonné et peuvent être affectés à des services tels que l’Audioconférence, les attendants automatiques ou les files d’attente d’appels.
 
-Vous devrez décider des choix ci-après :
+Vous devrez décider des choix à prendre :
 
 - Quels emplacements utilisateur ont besoin de nouveaux numéros de téléphone de Microsoft ?
 - De quel type de numéro de téléphone (abonné ou service) ai-je besoin ?
@@ -197,11 +197,11 @@ Dans certains pays et certaines régions, il n’est pas illégal de contourner 
 
 La configuration des appels d’urgence diffère en fonction de l’option de connectivité PSTN.
 
-- Pour le plan d’appels, chaque utilisateur est automatiquement activé pour les appels d’urgence et une adresse d’urgence enregistrée doit être associée à son numéro de téléphone affecté. Les appels d’urgence dynamiques (en fonction de l’emplacement Teams client) sont pris en charge.  
+- Pour le plan d’appels, les appels d’urgence sont automatiquement activés pour chaque utilisateur. L’utilisateur doit avoir une adresse d’urgence enregistrée associée à son numéro de téléphone affecté. Les appels d’urgence dynamiques (en fonction de l’emplacement Teams client) sont pris en charge.  
 
-- Pour l’Connecter opérateur, chaque utilisateur est automatiquement activé pour les appels d’urgence et une adresse d’urgence enregistrée doit être associée à son numéro de téléphone affecté, mais ne peut être définie que par le partenaire de l’opérateur. Les appels d’urgence dynamiques (en fonction de l’emplacement Teams client) sont pris en charge.
+- Pour les appels Connecter d’urgence, chaque utilisateur est automatiquement activé pour appeler les services d’urgence. Une adresse d’urgence enregistrée doit être associée à l’entreprise de téléphonie qui lui est affectée, mais l’adresse ne peut être définie que par le partenaire de l’opérateur. Les appels d’urgence dynamiques (en fonction de l’emplacement Teams client) sont pris en charge.
 
-- Pour le routage direct, vous devez définir des stratégies d’appel d’urgence pour les utilisateurs à l’aide d’une stratégie de routage d’appel d’urgence Teams (TeamsEmergencyCallRoutingPolicy) pour définir les numéros d’urgence et leur destination de routage associée. Les emplacements d’urgence enregistrés ne sont pas pris en charge pour les utilisateurs du routage direct. Pour les appels d’urgence dynamiques, une configuration supplémentaire est requise pour router les appels d’urgence et éventuellement pour la connectivité partenaire.
+- Pour le routage direct, vous devez définir des stratégies d’appel d’urgence pour les utilisateurs à l’aide d’une stratégie Teams routage d’appel d’urgence (TeamsEmergencyCallRoutingPolicy). La stratégie définit les numéros d’urgence et leur destination de routage associée. Les emplacements d’urgence enregistrés ne sont pas pris en charge pour les utilisateurs du routage direct. Pour les appels d’urgence dynamiques, une configuration supplémentaire est requise pour router les appels d’urgence et éventuellement pour la connectivité partenaire.
 
 Pour plus d’informations sur les concepts d’appel d’urgence et la terminologie, ainsi que sur la configuration des appels d’urgence et des appels d’urgence dynamiques, consultez les articles suivants :
 
@@ -215,7 +215,7 @@ Pour plus d’informations sur les concepts d’appel d’urgence et la terminol
 
 ### <a name="network-topology-for-voice-features"></a>Topologie de réseau pour les fonctionnalités vocales
 
-Si vous déployez des appels d’urgence dynamiques ou un Location-Based de routage direct, vous devez configurer les paramètres réseau pour les utiliser avec ces fonctionnalités dans Microsoft Teams. Pour découvrir comment configurer les paramètres réseau pour les régions réseau, les sites réseau, les sous-réseaux et les adresses IP de confiance, consultez les articles suivants :
+Si vous déployez des appels d’urgence dynamiques ou un routage Location-Based pour le routage direct, vous devez configurer les paramètres réseau pour ces fonctionnalités dans Microsoft Teams. Pour découvrir comment configurer les paramètres réseau pour les régions réseau, les sites réseau, les sous-réseaux et les adresses IP de confiance, consultez les articles suivants :
 
 - [Paramètres réseau pour les fonctionnalités vocales cloud dans Microsoft Teams - Concepts et terminologie](cloud-voice-network-settings.md)
 - [Gérer votre topologie de réseau pour les fonctionnalités vocales cloud dans Microsoft Teams](manage-your-network-topology.md)

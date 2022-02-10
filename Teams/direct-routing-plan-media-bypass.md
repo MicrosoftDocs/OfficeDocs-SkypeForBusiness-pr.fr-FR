@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment planifier la dérivation média avec Système téléphonique routage direct, ce qui vous permet de raccourcir le chemin d’accès au trafic multimédia et d’améliorer les performances.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d9a38772cd9119a7717608726db45bce6055229
-ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
+ms.openlocfilehash: 560a3a5802469b0cb17170dfae377d8d6f358c8b
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2022
-ms.locfileid: "62064880"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518616"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -46,7 +46,7 @@ Supposons toutefois qu’un utilisateur se trouve dans le même bâtiment ou le 
 
   Le centre de données en Europe est sélectionné, car le SBC se trouve en Europe et Microsoft utilise le centre de données le plus proche du SBC. Bien que cette approche n’affecte pas la qualité des appels en raison de l’optimisation du flux de trafic au sein des réseaux Microsoft dans la plupart des régions, le trafic présente une boucle inutile.     
 
-- **Avec la dérivation** média, le média est conservé directement entre l Teams un utilisateur et le SBC, comme illustré dans le diagramme suivant :
+- **Avec la dérivation** média, les médias sont conservés directement entre l Teams un utilisateur et le SBC, comme illustré dans le diagramme suivant :
 
   > [!div class="mx-imgBorder"]
   > ![Affiche le trafic de signalisation et le flux multimédia avec contournement des médias.](media/direct-routing-media-bypass-2.png)
@@ -70,7 +70,7 @@ Si l’utilisateur dispose d’un accès direct à l’adresse IP publique du SB
 
 Le diagramme suivant montre le flux d’appels lorsque la dérivation média est activée, que le client est interne et que le client peut accéder à l’adresse IP publique du support SBC : 
 
-- Les flèches et les valeurs numériques des chemins d’accès sont conformes aux [flux Microsoft Teams’appel.](./microsoft-teams-online-call-flows.md)
+- Les flèches et les valeurs numériques des chemins d’accès sont conformes aux [flux Microsoft Teams’appel](./microsoft-teams-online-call-flows.md).
 
 - Le trafic de signalisation SIP prend toujours les chemins 4 et 4' (selon le sens de trafic). Les médias restent locaux et prennent le chemin 5b.
 
@@ -91,7 +91,7 @@ Par exemple, supposons que l’utilisateur soit externe et que l’administrateu
 
 Le diagramme suivant illustre le flux d’appels lorsque la dérivation média est activée, que le client est externe et que le client ne peut pas accéder à l’adresse IP publique du contrôleur de session en bordure (le média est relayé par Teams Relais de transport).
 
-- Les flèches et les valeurs numériques des chemins d’accès sont conformes aux [flux Microsoft Teams’appel.](./microsoft-teams-online-call-flows.md)
+- Les flèches et les valeurs numériques des chemins d’accès sont conformes aux [flux Microsoft Teams’appel](./microsoft-teams-online-call-flows.md).
 
 - Le média est relayé par les chemins d’accès 3, 3', 4 et 4'
 
@@ -106,7 +106,7 @@ Le diagramme suivant illustre le flux d’appels lorsque la dérivation média e
 
 Le diagramme suivant montre le flux d’appels lorsque la dérivation média est activée, que le client est externe et que le client peut atteindre l’adresse IP publique du média SBC.
 
-- Les flèches et les valeurs numériques des chemins d’accès sont conformes à l’article [Microsoft Teams flux d’appels.](./microsoft-teams-online-call-flows.md)
+- Les flèches et les valeurs numériques des chemins d’accès sont conformes à l’article [Microsoft Teams flux d’appels](./microsoft-teams-online-call-flows.md).
 
 - Le trafic de signalisation SIP prend toujours les chemins 3 et 3' (selon le sens du trafic). Flux multimédias en utilisant le chemin d’accès 2.
 
@@ -179,7 +179,7 @@ Un routage direct est proposé dans les environnements Microsoft 365 ou Office 3
 - Microsoft 365 ou Office 365
 - Office 365 Cloud de la communauté du secteur public
 - Office 365 Cloud de la communauté du secteur public Haute
-- Office 365 D Apprenez-en davantage sur les [environnements Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) administration publique des États-Unis, tels que Cloud de la communauté du secteur public, Cloud de la communauté du secteur public Élevé et DoD.
+- Office 365 DoD En savoir plus sur [les environnements Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) administration publique des États-Unis, tels que Cloud de la communauté du secteur public, Cloud de la communauté du secteur public Élevé et DoD.
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 et Office 365 Cloud de la communauté du secteur public de travail
 
@@ -198,7 +198,7 @@ Vous devez placer ces trois FQDN pour :
 - Offrez unover lorsqu’une connexion à partir d’un SBC est établie vers un centre de données qui rencontre un problème temporaire. Pour plus d’informations, voir le mécanisme deover ci-dessous.
 
 
-Les noms de **sip.pstnhub.microsoft.com,** **sip2.pstnhub.microsoft.com** et sip3.pstnhub.microsoft.com sont  résolus pour les adresses IP des sous-réseaux suivants :
+Les noms de **sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com** noms de sip3.pstnhub.microsoft.com sont résolus pour les adresses  IP des sous-réseaux suivants :
 - 52.112.0.0/14
 - 52.120.0.0/14
 
@@ -257,8 +257,8 @@ Le client doit avoir accès aux ports spécifiés (voir tableau) sur l’adresse
 
 | Trafic | De | À | Port source | Port de destination|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Client | SBC | 3478-3481 et les ports configurés par l’administrateur client (par défaut 50000-50020)| Défini sur le SBC |
-| UDP/SRTP | SBC | Client | Défini sur le SBC | 3478-3481 et les ports configurés par l’administrateur client (par défaut 50000-50020)  |
+| UDP/SRTP | Client | SBC | 50000-50019| Défini sur le SBC |
+| UDP/SRTP | SBC | Client | Défini sur le SBC | 50000-50019  |
 
 
 > [!NOTE]
@@ -350,7 +350,7 @@ L’exemple ci-dessous illustre cette logique.
 | Utilisateurs avec ligne de dérivation non multimédia | 980 | sbc1.contoso.com:5061 | false |
 | Utilisateurs avec ligne de dérivation média | 20 | sbc2.contoso.com:5060 | true | 
 
-Les deux ligne peuvent pointer vers le même SBC avec la même adresse IP publique. Les ports de signalisation TLS sur le SBC doivent être différents, comme illustré dans le diagramme suivant. Notez que vous devez vous assurer que votre certificat prend en charge les deux ligne. En san san, vous devez avoir deux noms **(sbc1.contoso.com** et **sbc2.contoso.com**) ou avoir un certificat générique.
+Les deux ligne peuvent pointer vers le même SBC avec la même adresse IP publique. Les ports de signalisation TLS sur le SBC doivent être différents, comme illustré dans le diagramme suivant. Notez que vous devez vous assurer que votre certificat prend en charge les deux ligne. En san san, vous devez avoir deux noms (**sbc1.contoso.com** et **sbc2.contoso.com**) ou un certificat générique.
 
 > [!div class="mx-imgBorder"]
 > ![Affiche les deux ligne peut pointer vers le même SBC avec la même adresse IP publique.](media/direct-routing-media-bypass-7.png)
