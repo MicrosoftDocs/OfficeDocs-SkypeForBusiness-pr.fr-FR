@@ -10,16 +10,21 @@ ms.service: msteams
 ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
-  - M365-voice
+- M365-voice
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 hideEdit: true
 f1.keywords:
-  - NOCSH
+- NOCSH
 description: Découvrez quels contrôleurs de frontière de session (SBC) ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 69add2b195da03dee69b2a33583b5dbed8f614e8
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518926"
 ---
-
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Contrôleurs de frontière de session certifiés pour le routage direct
 
 Microsoft établit des partenariats avec certains fournisseurs de contrôleurs SBC afin de certifier leurs SBC pour une utilisation avec un routage direct.
@@ -32,14 +37,14 @@ Microsoft collabore avec chaque fournisseur pour :
 - Établissez un processus de support commun avec les fournisseurs SBC.
 
   > [!NOTE]
-  > Microsoft prend uniquement en charge le système téléphonique si un ou plusieurs appareils certifiés sont connectés via le routage direct. En cas de problème, le client doit d’abord contacter le support technique des fournisseurs SBC. Si nécessaire, le fournisseur SBC fait remonter le problème à Microsoft via des canaux internes. Microsoft se réserve le droit de rejeter les cas de support où un appareil non certifié est connecté au système téléphonique via le routage direct. Si Microsoft détermine que le problème de routage direct d’un client concerne l’appareil SBC d’un fournisseur, le client devra contacter de nouveau le fournisseur SBC pour obtenir de l’aide.
+  > Microsoft ne prend en charge le système téléphonique avec routage direct que lorsqu'il est utilisé avec des périphériques certifiés. En cas de problème, vous devez d'abord contacter le support client de votre fournisseur de SBC. Si nécessaire, le fournisseur SBC transmettra le problème à Microsoft par les canaux internes. Microsoft se réserve le droit de rejeter les cas de support où un appareil non certifié est connecté au système téléphonique par le biais du Direct Routing. Si Microsoft détermine que le problème de routage direct d’un client concerne l’appareil SBC d’un fournisseur, le client devra contacter de nouveau le fournisseur SBC pour obtenir de l’aide.
   >
   > La certification est accordée à des versions de microprogramme SBC spécifiques. Les versions de microprogramme SBC ci-dessous sont certifiées et prises en charge. Les versions de microprogramme supérieures à celles qui sont documentées sont prises en charge tant que la version principale.mineure est identique.
   >
   > Exemple :
   >
-  > - Pris en charge 6.10.258 – dans ce cas, nous prenons également en charge les versions de firmware 6.10. (258 ou supérieures).
-  > - Recommandé 6.20.100 – dans ce cas, nous recommandons également les versions de firmware 6.20. (100 ou supérieures).
+  > - Prise en charge 6.10.258 - Dans ce cas, Microsoft prend en charge les versions 6.10.(258 ou plus) du micrologiciel.
+  > - Recommandé 6.20.100 - Dans ce cas, Microsoft recommande les versions de firmware 6.20.(100 ou plus).
   > - Pour toute question relative à la prise en charge d'une version spécifique, contactez votre fournisseur SBC.
 
 Les tableaux qui suivent répertorient les appareils certifiés pour le routage direct. (Pour plus d’informations sur les fournisseurs SBC qui prennent en charge l’optimisation des médias locaux, consultez [Configurer l’optimisation des médias locaux pour le routage direct](direct-routing-media-optimization-configure.md).)
@@ -90,7 +95,7 @@ Si vous avez des questions sur le programme de certification SBC pour le routage
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Lien d’attache    |     &#10004;     |           |      3.1        |     |    |
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    |
-|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape Session Border Controller   |     &#10004;     |   &#10004;        |     Pris en charge sans contournement de média V10R1.2 (recommandé pour le contournement du média V10R2.2.0)     |     |    |
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape Session Border Controller   |     &#10004;     |   &#10004;        |     V10R2.2.0     |     |    |
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Réseaux Enghouse](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    SBC BorderNet dialogique   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
@@ -168,7 +173,7 @@ Le tableau suivant répertorie les appareils vérifiés pour l’interopérabili
 | [Ruban](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000. Version logicielle : 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode avec Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
   
-Pour nous faire part de vos commentaires sur Teams, tels que des idées de nouvelles fonctionnalités, consultez [Uservoice](https://microsoftteams.uservoice.com).
+Pour fournir des commentaires sur Teams, comme des idées de nouvelles fonctionnalités, voir [Uservoice](https://microsoftteams.uservoice.com).
 
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
