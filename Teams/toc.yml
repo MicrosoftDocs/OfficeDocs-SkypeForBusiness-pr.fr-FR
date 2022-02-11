@@ -249,6 +249,18 @@ items:
                 href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
           - name: Intégration avec Exchange et Microsoft Office SharePoint Online
             href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
+  - name: Mettre à niveau à partir de Kaizala
+    items:
+      - name: Prise en main
+        href: get-started-kaizala-teams.md
+      - name: Préparer la mise à niveau
+        href: prepare-for-teams-kaizala.md
+      - name: Planifier votre parcours de mise à niveau
+        href: plan-your-move-kaizala.md
+      - name: Naviguer dans Microsoft Teams
+        href: navigate-teams.md
+      - name: Se familiariser avec Microsoft Teams
+        href: drive-adoption-optimize-kaizala.md
   - name: 'Sécurité, conformité et confidentialité'
     items:
       - name: Vue d’ensemble
@@ -763,17 +775,17 @@ items:
                 href: audio-conferencing-zones.md
               - name: Vidéos – Audioconférence dans Teams
                 href: ./audio-conferencing-in-office-365.md
-  - name: "Voix\_: Téléphone\_Teams et connectivité PSTN"
+  - name: 'Voix : système téléphonique et connectivité PSTN'
     items:
       - name: Planifier votre solution vocale Teams
         href: cloud-voice-landing-page.md
-      - name: "Téléphone\_Teams"
+      - name: Système téléphonique
         items:
-          - name: "Qu’est-ce que Téléphone\_Teams"
+          - name: Qu’est-ce que le Système téléphonique ?
             href: what-is-phone-system-in-office-365.md
-          - name: "Voici les avantages de Téléphone\_Teams"
+          - name: Voici les avantages du Système téléphonique
             href: here-s-what-you-get-with-phone-system.md
-          - name: "Configurer Téléphone\_Teams"
+          - name: Configurer le Système téléphonique
             href: setting-up-your-phone-system.md
           - name: Configurer les téléphones de partie commune
             href: set-up-common-area-phones.md
@@ -1009,7 +1021,7 @@ items:
             href: voice-case-study-overview.md
           - name: Plan de mise à niveau de Teams
             href: voice-case-study-migration-plan.md
-          - name: "Téléphone\_Teams"
+          - name: Système téléphonique
             href: voice-case-study-phone-system.md
           - name: Routage basé sur l’emplacement
             href: voice-case-study-location-based-routing.md
@@ -1021,7 +1033,7 @@ items:
             href: voice-case-study-call-queues.md
       - name: Conseils pour les petites et moyennes entreprises
         items:
-          - name: Conseils par téléphone Teams pour les petites et moyennes entreprises
+          - name: Guide du Système téléphonique pour les petites et moyennes entreprises
             href: business-voice/whats-business-voice.md
           - name: Disponibilité selon les pays et les régions
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1029,7 +1041,7 @@ items:
             href: business-voice/get-ready-internet.md
           - name: Obtenir de l’aide auprès d’un revendeur ou d’un partenaire Microsoft
             href: business-voice/reseller-partner-support.md
-          - name: Configurer le téléphone Teams pour les petites et moyennes entreprises
+          - name: Configurer un Système téléphonique pour les petites et moyennes entreprises
             items:
               - name: Aperçu
                 href: business-voice/set-up-overview.md
@@ -1049,7 +1061,7 @@ items:
                 href: business-voice/port-phone-numbers.md
               - name: Ressources post-installation
                 href: business-voice/set-up-finish.md
-          - name: Personnaliser la configuration de votre téléphone Teams pour les petites et moyennes entreprises
+          - name: Personnaliser la configuration de votre Système téléphonique pour les petites et moyennes entreprises
             items:
               - name: Options de personnalisation
                 href: business-voice/customize-business-voice.md
@@ -1063,7 +1075,7 @@ items:
                 href: business-voice/create-a-phone-system-call-queue-smb.md
               - name: Configurer un standard automatique
                 href: business-voice/create-a-phone-system-auto-attendant-smb.md
-          - name: Gérer la configuration de votre téléphone Teams pour les petites et moyennes entreprises
+          - name: Gérer la configuration de votre Système téléphonique pour les petites et moyennes entreprises
             items:
               - name: Créer un ou plusieurs utilisateurs
                 href: business-voice/create-users.md
