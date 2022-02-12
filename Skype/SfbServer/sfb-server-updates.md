@@ -13,32 +13,32 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour Skype Entreprise Server 2015/2019 et Lync 2013 au même endroit. Utilisez les liens répertoriés sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: e90155c15909ca876362990ba2754e4b136d2ac6
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: ea8d88f9287c8795ee3b3f4252c2e0664695a44a
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012378"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763339"
 ---
 # <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
-Recherchez et gérez les mises à [jour pour Skype Entreprise Server 2019,](#skype-for-business-server-2019-update-history) [Skype Entreprise Server 2015,](#skype-for-business-server-2015-update-history) [Lync Server 2013](#lync-server-2013-update-history)et [Lync Server 2010](#lync-server-2010-update-history) au même endroit. Utilisez les liens répertoriés sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
+Recherchez et gérez les mises à [jour pour Skype Entreprise Server 2019](#skype-for-business-server-2019-update-history), [Skype Entreprise Server 2015](#skype-for-business-server-2015-update-history), [Lync Server 2013](#lync-server-2013-update-history) et [Lync Server 2010](#lync-server-2010-update-history) au même endroit. Utilisez les liens répertoriés sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
 
-Pour obtenir les dernières mises à jour Skype Entreprise online et Microsoft 365 jour, consultez la [feuille de route Microsoft 365.](https://go.microsoft.com/fwlink/p/?linkid=529454)
+Pour obtenir les dernières mises Skype Entreprise online et Microsoft 365 mises à jour, consultez la [feuille de route Microsoft 365 de mise à jour.](https://go.microsoft.com/fwlink/p/?linkid=529454)
 
 ## <a name="skype-for-business-server-2019-update-history"></a>Skype Entreprise Server de mise à jour 2019
 
-La base de 4470124 est la base de données principale pour Skype Entreprise Server 2019 qui possède la liste historique de toutes les mises à jour cumulatives et correctifs logiciels qui ont été publiés. 
+La base de 4470124 est la base de données principale pour Skype Entreprise Server 2019, qui possède la liste historique de toutes les mises à jour cumulatives et correctifs logiciels qui ont été publiés. 
 
 |Nom du package|Numéro KB|Date de publication|
 |:--- |:--- |:--- |
 |Skype Entreprise Server cumulative 5 2019 |[KB 4470124 (MACP3)](https://support.microsoft.com/kb/4470124)| mars 2021 |
-|Skype Entreprise Server mise à jour cumulative 4 2019 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Novembre 2020 |
+|Skype Entreprise Server 2019 Mise à jour cumulative 4 Correctif logiciel 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Novembre 2020 |
 |Skype Entreprise Server cumulative 4 de 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Septembre 2020 |
-|Skype Entreprise Server mise à jour cumulative 3 2019 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Juillet 2020 |
-|Skype Entreprise Server cumulative 2019 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Mars 2020 |
-|Skype Entreprise Server cumulative 2019 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Décembre 2019 |
-|Skype Entreprise Server mise à jour cumulative 1 2019 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Septembre 2019 |
+|Skype Entreprise Server mise à jour cumulative 3 2019 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Juillet 2020 |
+|Skype Entreprise Server cumulative 3 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Mars 2020 |
+|Skype Entreprise Server cumulative 2019 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Décembre 2019 |
+|Skype Entreprise Server mise à jour cumulative 1 2019 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Septembre 2019 |
 |Skype Entreprise Server cumulative 2019 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| Juillet 2019 |
 | | | |
 
@@ -58,13 +58,14 @@ La base de 4470124 est la base de données principale pour Skype Entreprise Serv
 
 |Nom du package|Numéro KB|Date de publication|
 |:--- |:--- |:--- |
-|Skype Entreprise Server cumulative 2015 12|[KB 3061064](https://support.microsoft.com/kb/3061064)| Août 2021 |
-|Skype Entreprise Server 2015 Cumulative Update 11 Correctif logiciel 2|[KB 3061064](https://support.microsoft.com/kb/3061064)| Novembre 2020 |
-|Skype Entreprise Server 2015 Mise à jour cumulative 11 Correctif logiciel 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Juillet 2020 |
-|Skype Entreprise Server cumulative 2015 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 mai 2020 |
-|Skype Entreprise Server 2015 Mise à jour cumulative 10 Correctif logiciel 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Août 2019 |
-|Skype Entreprise Server cumulative 2015 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| Juillet 2019 |
-|Mise à jour cumulative 9 pour Skype Entreprise Server 2015, serveur de composants Web|[KB 4487981](https://support.microsoft.com/kb/4487981)| Mai 2019 |
+|Skype Entreprise Server 2015 Mise à jour cumulative 12 Correctif logiciel 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|Février 2022 |
+|Skype Entreprise Server cumulative 2015 12|[KB 3061064](https://support.microsoft.com/kb/3061064)|Août 2021 |
+|Skype Entreprise Server 2015 Mise à jour cumulative 11 Correctif logiciel 2|[KB 3061064](https://support.microsoft.com/kb/3061064)|Novembre 2020 |
+|Skype Entreprise Server 2015 Mise à jour cumulative 11 Correctif logiciel 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|Juillet 2020 |
+|Skype Entreprise Server cumulative 2015 11|[KB 3061064](https://support.microsoft.com/kb/3061064)|13 mai 2020 |
+|Skype Entreprise Server 2015 Mise à jour cumulative 10 Correctif logiciel 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|Août 2019 |
+|Skype Entreprise Server cumulative 2015 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)|Juillet 2019 |
+|Mise à jour cumulative 9 pour Skype Entreprise Server 2015, serveur de composants Web|[KB 4487981](https://support.microsoft.com/kb/4487981)|Mai 2019 |
 |Mise à jour cumulative 8 pour Skype Entreprise Server 2015, serveur frontal et serveur Edge|[KB 4464355](https://support.microsoft.com/kb/4464355)|Janvier 2019|
 |Mise à jour cumulative 7 pour Skype Entreprise Server 2015, serveur frontal et serveur Edge |[KB 4340904](https://support.microsoft.com/kb/4340904) |Juillet 2018 |
 |Mise à jour cumulative 6 correctif 2 pour Skype Entreprise Server 2015, serveur frontal et serveur Edge |[KB 4086059](https://support.microsoft.com/kb/4086059) |Mars 2018 |
@@ -96,15 +97,15 @@ La base de 4470124 est la base de données principale pour Skype Entreprise Serv
 |Nom du package|Numéro KB|Date de publication|
 |:--- |:--- |:--- |
 |Correctif logiciel 5 de la mise à jour cumulative 10 de Lync Server 2013 |[KB 2809243](https://support.microsoft.com/kb/2809243)|Sept 2021|
-|Correctif logiciel 10 de la mise à jour cumulative 10 de Lync Server 2013 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Juillet 2020|
-|Correctif logiciel 10 de la mise à jour cumulative 10 de Lync Server 2013 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Septembre 2019|
+|Correctif logiciel 10 de la mise à jour cumulative 10 de Lync Server 2013 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Juillet 2020|
+|Correctif logiciel 10 de la mise à jour cumulative 10 de Lync Server 2013 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Septembre 2019|
 |Correctif logiciel 2 de la mise à jour cumulative 10 de Lync Server 2013 |[KB 4501392](https://support.microsoft.com/kb/4501392)|Juin 2019|
 |Correctif logiciel 10 de la mise à jour cumulative 10 de Lync Server 2013 |[KB 4458772](https://support.microsoft.com/kb/4458772)|Janvier 2019|
 |Mise à jour cumulative 10 de Lync Server 2013 |[KB 4295703](https://support.microsoft.com/kb/4295703)|Juillet 2018 |
 |Mise à jour cumulative 9 de Lync Server 2013  |[KB 4019183](https://support.microsoft.com/kb/4019183) |Juillet 2017 |
 |Correctif logiciel 8 de la mise à jour cumulative 8 de Lync Server 2013 4 |[KB 4014154](https://support.microsoft.com/kb/4014154) |Mars 2017 |
 |Correctif logiciel 8 de la mise à jour cumulative 8 de Lync Server 2013 3 |[KB 3210166](https://support.microsoft.com/kb/3210166) |Janvier 2017 |
-|Correctif logiciel 8 de la mise à jour cumulative 8 de Lync Server 2013 2 |[KB 3212869](https://support.microsoft.com/kb/3212869) |Décembre 2016 |
+|Correctif logiciel 8 de la mise à jour cumulative 8 de Lync Server 2013 |[KB 3212869](https://support.microsoft.com/kb/3212869) |Décembre 2016 |
 |Correctif logiciel 8 de la mise à jour cumulative 8 de Lync Server 2013 1 |[KB 3200079](https://support.microsoft.com/kb/3200079) |Novembre 2016 |
 |Mise à jour cumulative 8 de Lync Server 2013 |[KB 3175336](https://support.microsoft.com/kb/3175336)|Août 2016 |
 |Mise à jour cumulative 7 de Lync Server 2013  |[KB 3140581](https://support.microsoft.com/kb/3140581)|Avril 2016 |
@@ -141,7 +142,7 @@ La base de 4470124 est la base de données principale pour Skype Entreprise Serv
 
 #### <a name="pre-configured-vhds"></a>Disques durs durs (VHD) pré-configurés
 
-La topologie complète se compose de 7 machines virtuelles qui vous permettent d’évaluer entièrement Microsoft Lync 2013. Api de plateforme de développement Microsoft Exchange 2013, SharePoint 2013 et UC (y compris le SDK Microsoft Lync 2013, Exchange Web Services Managed API 2.0, microsoft Lync Server 2013 et Microsoft Unified Communications Managed API 4.0).
+La topologie complète se compose de 7 machines virtuelles qui vous permettent d’évaluer entièrement Microsoft Lync 2013. Microsoft Exchange 2013, SharePoint 2013 et les API de plateforme de développement UC (notamment le SDK Microsoft Lync 2013, Exchange Web Services Managed API 2.0, microsoft Lync Server 2013 et Microsoft Unified Communications Managed API 4.0).
 
 Nom du package |Date de publication|
 |:--- |:--- |
@@ -153,7 +154,7 @@ Nom du package |Date de publication|
 
 |Nom du package |Date de publication|
 |:--- |:--- |
-| Lync Connectivity Analyzer (32 bits) RETIRED |Juin 2017 |
+| Lync Connectivity Analyzer (32 bits) RETIRÉ |Juin 2017 |
 | Lync Connectivity Analyzer (64 bits) RETIRÉ |Juin 2017 |
 | Lync Server 2013 Best Practices Analyzer |Octobre 2012 |
 |[Calculateur de capacité Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=36828) |Juillet 2013 |
@@ -241,14 +242,14 @@ Nom du package |Date de publication|
 |[Fichier d’aide de la documentation Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|Mars 2012 |
 |[Page d’accueil de Lync Server 2010](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|Octobre 2012 |
 |[Documentation sur la messagerie instantanée experte pour Microsoft Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|Mars 2012 |
-|[Lync 2010 Release Notes](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|Janvier 2011 |
+|[Lync 2010 Release](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3) Notes.aspx)|Janvier 2011 |
 |[Notes de publication de Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|Janvier 2011 |
 |[Lync Server 2010 Planning Tool Readme](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8ba3275-270f-4c0b-90bb-edc1d1216c2d)|Janvier 2011 |
 |[Diagrammes d’architecture de référence du serveur Edge Lync Server 2010](https://www.microsoft.com/download/details.aspx?id=13791)|Mars 2011 |
 
 ### <a name="resource-kit-technical-reference"></a>Kit de ressources (référence technique)
 
-Visitez le site de téléchargement du Kit de ressources [Microsoft Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=22644) pour télécharger les chapitres du livre individuellement OU téléchargez un fichier .zip contenant les [19 chapitres](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip)du kit de ressources.
+Visitez le site de téléchargement du Kit de ressources [Microsoft Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=22644) pour télécharger les chapitres du livre individuellement OU téléchargez un fichier .zip contenant les [19 chapitres du kit de ressources](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip).
 
 ### <a name="group-chat"></a>Group Chat
 
@@ -271,7 +272,7 @@ Nom/lien du package|Date de publication|
 
 Les mises à jour logicielles incluent l’ensemble des mises à jour, mises à jour cumulatives, Service Packs, Feature Packs, mises à jour critiques, mises à jour de sécurité ou correctifs logiciels. Pour obtenir la terminologie standard utilisée pour décrire les mises à jour logicielles de Microsoft, consultez l’[KB 824684](https://support.microsoft.com/kb/824684).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Installer Skype Entreprise Server 2015](./deploy/install/install.md)
 - [Mise à niveau vers Skype Entreprise Server 2015](./deploy/upgrade-to-skype-for-business-server.md)

@@ -21,16 +21,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Découvrez comment gérer l’application Bookings dans Teams pour les utilisateurs de votre organisation.
-ms.openlocfilehash: 2bbc671b1054cfa4340abf7656e17939d147dea2
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: 147089c51ebc6d3e5eb6bf567579c9aa7fc5f2ce
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288342"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763728"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Gérer l’application Bookings dans Microsoft Teams
 
-L'application Bookings de Microsoft Teams offre un moyen simple de planifier des rendez-vous en personne ou virtuels, tels que des visites médicales, des consultations financières, des entretiens, une assistance à la clientèle, des heures d'ouverture des bureaux de l'éducation, et bien plus encore. Pour en savoir plus, [consultez les visites virtuelles avec Teams et l’application Bookings](expand-teams-across-your-org/bookings-virtual-visits.md).
+L'application Bookings de Microsoft Teams offre un moyen simple de planifier des rendez-vous en personne ou virtuels, tels que des visites médicales, des consultations financières, des entretiens, une assistance à la clientèle, des heures d'ouverture des bureaux de l'éducation, et bien plus encore. Pour en savoir plus, [voir Visites virtuelles avec Teams et l’application Bookings](expand-teams-across-your-org/bookings-virtual-visits.md).
 
 Les planificateurs peuvent gérer plusieurs calendriers des services et du personnel, ainsi que les communications avec les participants internes et externes à partir d’une même expérience. Les rendez-vous virtuels eux-mêmes sont Microsoft Teams réunions, ce qui offre des fonctionnalités de visioconférence robustes.
 
@@ -104,7 +104,7 @@ Pour envoyer des commentaires, sélectionnez le bouton Aide situé en bas Teams 
 
 ## <a name="related-articles"></a>Articles connexes
 
-[Gérer l’expérience de jointisation pour Teams visites virtuelles sur les navigateurs mobiles](expand-teams-across-your-org/mobile-browser-join.md)
+[Gérer l’expérience de jointisation pour les Teams virtuelles sur les navigateurs mobiles](expand-teams-across-your-org/mobile-browser-join.md)
 
 
   [Documentation Bookings pour les utilisateurs finaux](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

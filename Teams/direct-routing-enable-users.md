@@ -16,19 +16,19 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment activer l’accès des utilisateurs Microsoft Teams Téléphone routage direct.
-ms.openlocfilehash: f3e5d4a83850c7f934bd5cf299822916656db7d6
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 4acf18799060d6cc89e477109e916b5bf0d8401a
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518626"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763329"
 ---
-# <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale
+# <a name="enable-users-for-direct-routing"></a>Permettre aux utilisateurs d’obtenir un routage direct
 
 Cet article explique comment permettre aux utilisateurs d’obtenir un routage direct. Voici l’étape 2 de la procédure de configuration du routage direct :
 
 - Étape 1. [Connecter le SBC avec Système téléphonique et valider la connexion](direct-routing-connect-the-sbc.md) 
-- **Étape 2. Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale**   (cet article)
+- **Étape 2. Activer le routage direct pour les utilisateurs**   (cet article)
 - Étape 3. [Configurer le routage vocal](direct-routing-voice-routing.md)
 - Étape 4. [Traduire des nombres dans un autre format](direct-routing-translate-numbers.md) 
 
@@ -38,8 +38,9 @@ Pour plus d’informations sur les étapes requises pour configurer le routage d
 Lorsque vous êtes prêt à activer le routage direct pour les utilisateurs, suivez ces étapes : 
 
 1. Créez un utilisateur dans Microsoft 365 et affectez une licence Système téléphonique utilisateur.  
-2. Configurez le numéro de téléphone et activez la voix entreprise et la messagerie vocale. 
-3. Affectez Teams mode uniquement aux utilisateurs.
+2. Assurez-vous que l’utilisateur est bien homed online.
+3. Configurez le numéro de téléphone et activez Voix Entreprise. 
+4. Affectez Teams mode uniquement aux utilisateurs.
 
 ## <a name="create-a-user-and-assign-the-license"></a>Créer un utilisateur et attribuer la licence
 
@@ -86,43 +87,43 @@ Le routage direct nécessite que l’utilisateur soit domicile en ligne. Vous po
  > [!NOTE]
  > Tous les attributs de téléphone des utilisateurs doivent être gérés en ligne avant la mise hors service de votre environnement Skype Entreprise [local](/skypeforbusiness/hybrid/decommission-on-prem-overview). 
 
-## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online"></a>Configurer le numéro de téléphone et activer la voix entreprise et la messagerie vocale en ligne 
+## <a name="configure-the-phone-number-and-enable-enterprise-voice"></a>Configurer le numéro de téléphone et activer Voix Entreprise 
 
-Après avoir créé l’utilisateur et attribué une licence, vous devez configurer ses paramètres de téléphone en ligne. 
+Après avoir créé l’utilisateur et attribué une licence, vous devez configurer ses paramètres de téléphone en ligne. Notez que la configuration des Messagerie vocale infonuagique pour l’utilisateur est automatique. Aucune configuration supplémentaire n’a besoin d’être effectuée.
 
-1. Connecter une Microsoft Teams PowerShell. 
+1. Connecter à une Microsoft Teams PowerShell. 
 
-2. Si vous gérez le numéro de téléphone de l’utilisateur sur site, émettre la commande : 
+2. Les étapes suivantes varient selon que vous gérez le numéro de téléphone de l’utilisateur sur site ou en ligne. Si vous gérez le numéro de téléphone en local, vous devez utiliser l’shell de gestion Skype Entreprise local, le Panneau de contrôle ou l’une des méthodes expliquées dans Décider comment gérer les [attributs après la désisionisation](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes).
 
-    ```PowerShell
-    Set-CsPhoneNumberAssignment -Identity "<User name>" -EnterpriseVoiceEnabled $true
-    ```
-3. Si vous gérez le numéro de téléphone de l’utilisateur en ligne, émettre la commande : 
+   - Si vous gérez le numéro de téléphone de l’utilisateur en local, vous devez vous assurer que l’utilisateur Voix Entreprise activé en ligne à l’aide de la commande suivante :
+
+       ```PowerShell
+       Set-CsPhoneNumberAssignment -Identity "<User name>" -EnterpriseVoiceEnabled $true
+       ```
+       
+   - Si vous gérez le numéro de téléphone de l’utilisateur en ligne, vous devez affecter ce numéro à l’utilisateur à l’aide de la commande suivante Teams PowerShell. L’utilisateur est automatiquement Voix Entreprise activé par la commande : 
  
-    ```PowerShell
-    Set-CsPhoneNumberAssignment -Identity "<User name>" -PhoneNumber <phone number> -PhoneNumberType DirectRouting
-    ```
+       ```PowerShell
+       Set-CsPhoneNumberAssignment -Identity "<User name>" -PhoneNumber <phone number> -PhoneNumberType DirectRouting
+       ```
     
-    Par exemple, pour ajouter un numéro de téléphone pour l’utilisateur « Contrôle faible », entrez ce qui suit : 
+       Par exemple, pour ajouter un numéro de téléphone pour l’utilisateur « Contrôle faible », entrez ce qui suit : 
 
-    ```PowerShell
-    Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388797" -PhoneNumberType DirectRouting
-    ```
-    Si les utilisateurs « Sont petits » et «  Qu’ils partagent le même numéro de base avec des extensions uniques », entrez les informations suivantes :
+       ```PowerShell
+       Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388797" -PhoneNumberType DirectRouting
+       ```
+       Si les utilisateurs « Sont petits » et «  Qu’ils partagent le même numéro de base avec des extensions uniques », entrez les informations suivantes :
     
-    ```PowerShell
-    Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388701;ext=1001" -PhoneNumberType DirectRouting
-    Set-CsPhoneNumberAssignment -Identity "stacy.quinn@contoso.com" -PhoneNumber "+14255388701;ext=1002" -PhoneNumberType DirectRouting
-    ```
+       ```PowerShell
+       Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388701;ext=1001" -PhoneNumberType DirectRouting
+       Set-CsPhoneNumberAssignment -Identity "stacy.quinn@contoso.com" -PhoneNumber "+14255388701;ext=1002" -PhoneNumberType DirectRouting
+       ```
 
     Microsoft recommande, mais ne nécessite pas, que le numéro de téléphone soit configuré comme numéro de téléphone E.164 complet avec un code de pays. Vous pouvez configurer des numéros de téléphone avec des extensions. Ces extensions seront utilisées pour rechercher des utilisateurs lorsque la recherche par rapport au numéro de base renvoie plusieurs résultats. Cette fonctionnalité permet aux entreprises de configurer des numéros de téléphone avec le même numéro de base et des extensions uniques. Pour que la recherche soit réussie, l’invitation doit inclure le numéro complet avec l’extension suivante :
     
     ```PowerShell
     To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
     ```
-    
-    > [!NOTE]
-    > Si le numéro de téléphone de l’utilisateur est géré en local, utilisez l’shell de gestion Skype Entreprise local ou le Panneau de configuration pour configurer le numéro de téléphone de l’utilisateur. 
 
 
 ## <a name="configure-sending-calls-directly-to-voicemail"></a>Configurer l’envoi d’appels directement sur la messagerie vocale

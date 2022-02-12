@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Cet article donne une vue d’ensemble des fonctionnalités qui sont Microsoft Teams panneaux.
-ms.openlocfilehash: a12e8918534a5060dae906d60f0de1aa36567f9b
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: bc55693223dfc6b2972e5efcc0c9fb18ef9a7710
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055114"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763419"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams panneaux
 
@@ -36,16 +36,16 @@ Cet article offre une vue d’ensemble Teams panneaux et peut vous aider à plan
 Teams panneaux de support technique offrent les fonctionnalités suivantes :
 
 - **Affichage dédié de l’espace de réunion et des détails de la réunion.** Vous obtenez des informations rapides sur un espace de réunion, y compris son emplacement et sa disponibilité. Pour un espace de réunion réservé, vous pouvez voir les principaux détails de la réunion, tels que le titre de la réunion, le planning de la réunion et l’organisateur de la réunion.
-- **Réserver des espaces de réunion disponibles pour les réunions ad hoc.** À l’aide du panneau à écran tactile, vous pouvez réserver un  espace de réunion disponible sur place pour une réunion ad hoc, et rejoindre cette réunion de Teams à partir de la Salles Microsoft Teams de la salle ou Surface Hub périphériques.
+- **Réserver des espaces de réunion disponibles pour les réunions ad hoc.** À l’aide du panneau à écran tactile, vous pouvez réserver un espace de réunion disponible sur place pour une réunion ad hoc, et rejoindre cette réunion de Teams à partir de la Salles Microsoft Teams de la salle ou Surface Hub périphériques.
 - **Indicateurs de couleur pour l’état de disponibilité de l’espace.** Vous pouvez voir la disponibilité de l’espace de réunion à distance et de près grâce à des indicateurs LED dynamiques et d’écran d’accueil. Le vert indique que l’espace de réunion est disponible et, si nécessaire, vous pouvez le réserver directement à partir des panneaux proprement dits. Le rouge ou la violet indique que l’espace de réunion est réservé.
 - **Personnalisez le papier peint et l’indicateur d’état réservé.** Les administrateurs peuvent modifier l’apparence par défaut des panneaux via les paramètres. Par exemple, les administrateurs peuvent modifier le papier peint d’arrière-plan ou la couleur de l’indicateur d’état occupé.
 - **Accessibilité.** Teams panneaux disposent de plusieurs fonctionnalités d’accessibilité, telles que le texte à contraste élevé, afin de faciliter leur utilisation par tout le monde.
 
-Pour en savoir plus sur ces fonctionnalités et sur leur utilisation, voir [Utiliser Microsoft Teams panneaux.](use-teams-panels.md)
+Pour en savoir plus sur ces fonctionnalités et sur leur utilisation, voir [Utiliser Microsoft Teams panneaux](use-teams-panels.md).
 
 ## <a name="partners-certified-for-teams-panels"></a>Partenaires certifiés pour les Teams panneaux
 
-Pour en savoir plus sur les partenaires certifiés pour Teams panneaux, voir Panneaux Teams [certifiés.](teams-ip-phones.md#currently-certified-teams-panels)
+Pour en savoir plus sur les partenaires certifiés pour Teams panneaux, voir [panneaux Teams certifiés](teams-ip-phones.md#certified-teams-panels).
 
 ## <a name="teams-panels-requirements"></a>Teams panneaux spécifiques
 
@@ -53,7 +53,7 @@ La configuration matérielle, logicielle et requise pour le réseau pour déploy
 
 ## <a name="license-requirement"></a>Conditions de licence requises
 
-Pour utiliser Teams panneaux, vous devez Salles Microsoft Teams Standard [licence.](../rooms/rooms-licensing.md)
+Pour utiliser Teams panneaux, vous devez utiliser [Salles Microsoft Teams Standard Licence.](../rooms/rooms-licensing.md)
 
 > [!Note]
 > Si vous avez déjà Salles Microsoft Teams déployé dans l’espace de réunion où vous installez des panneaux de Teams, vous n’avez pas besoin d’une licence supplémentaire pour utiliser Teams panneaux.
@@ -64,10 +64,10 @@ Si vous participez à la planification, au déploiement et à la gestion de Team
 
 Le déploiement de Teams panneaux de bord peut être ventilé selon les tâches suivantes :
 
-- [Inventaire de l’espace](#inventory-sites-and-meeting-spaces)de réunion et planification des fonctionnalités : créez un inventaire des sites et des espaces de réunion de votre organisation pour le déploiement de Teams panneaux.
-- [Approvisionnement](#procurement): procurez les appareils auprès de votre partenaire d’appareil sélectionné.  
-- [Préparation du site](#site-readiness): confirmez que vos emplacements de déploiement (espaces de réunion) répondent aux exigences de déploiement.
-- [Configuration et déploiement](#configuration-and-deployment): créez des comptes de ressources et affectez-les aux appareils.
+- [Planification de l’inventaire](#inventory-sites-and-meeting-spaces) et des fonctionnalités de l’espace de réunion : créez un inventaire des sites et des espaces de réunion de votre organisation pour le déploiement de Teams panneaux.
+- [Approvisionnement](#procurement) : procurez les appareils auprès de votre partenaire d’appareil sélectionné.  
+- [Préparation du site](#site-readiness) : confirmez que vos emplacements de déploiement (espaces de réunion) répondent aux exigences de déploiement.
+- [Configuration et déploiement](#configuration-and-deployment) : créez des comptes de ressources et affectez-les aux appareils.
 
 ## <a name="inventory-sites-and-meeting-spaces"></a>Sites d’inventaire et espaces de réunion
 
@@ -75,7 +75,7 @@ Faites l’inventaire des espaces de réunion bookables existants dans votre org
 
 ## <a name="procurement"></a>Approvisionnement
 
-En fonction du nombre d’espaces de réunion dans l’étendue pour le déploiement de panneaux Teams, procurez-vous les appareils auprès de l’un des partenaires certifiés [pour Teams panneaux.](#partners-certified-for-teams-panels) Visitez les sites web des partenaires pour en savoir plus sur les appareils et les options d’approvisionnement.
+En fonction du nombre d’espaces de réunion dans l’étendue pour le déploiement de panneaux Teams, procurez les appareils auprès de l’un des partenaires certifiés [pour les Teams panneaux](#partners-certified-for-teams-panels). Visitez les sites web des partenaires pour en savoir plus sur les appareils et les options d’approvisionnement.
 
 Les espaces de réunion dans votre organisation peuvent avoir des configurations matérielles différentes pour installer ou monter les appareils. Par exemple, le matériel requis pour monter l’appareil sur une plaque de verre, une plaque d’eau, un panneau de sécurité ou un panneau de bois peut ne pas être identique. Consultez la documentation du partenaire de l’appareil pour savoir les options de montage disponibles.
 
@@ -102,7 +102,7 @@ La planification de la configuration et du déploiement couvre les aspects clés
 
 Chaque Teams panneau panneaux nécessite un compte Microsoft 365 ressource de salle. Vous utilisez les informations d’identification du compte de ressource pour vous Microsoft Teams l’application sur l’appareil panneaux.
 
-Pour configurer un compte de Microsoft 365 pour les panneaux Teams, nous vous recommandons d’acheter [une Salles Microsoft Teams Standard licence.](#license-requirement) Pour plus d’informations sur la création d’un compte de ressource et l’attribution d’une licence, voir Créer un compte de ressource à l’aide de [la Centre d'administration Microsoft 365.](resource-account-ui.md)
+Pour configurer un compte de ressource Microsoft 365 pour les panneaux de Teams, nous vous recommandons d’acheter [une Salles Microsoft Teams Standard licence.](#license-requirement) Pour plus d’informations sur la création d’un compte de ressource et l’attribution d’une licence, voir Créer un compte de ressource à l’aide [de la Centre d'administration Microsoft 365](resource-account-ui.md).
 
 > [!NOTE]
 >
@@ -118,11 +118,11 @@ Pour configurer un compte de Microsoft 365 pour les panneaux Teams, nous vous re
 
 ### <a name="testing"></a> Tests
 
-Une fois que vous avez déployé des panneaux, vous devez les tester. Vérifiez que les [fonctionnalités pris en charge Teams panneaux](#features-supported-by-teams-panels) fonctionnent sur l’appareil déployé. Essayez de créer plusieurs réunions pour différents créneaux de temps via Teams ou Outlook 365 sur votre ordinateur. Vérifiez si les panneaux affichent correctement les détails de la réunion et la disponibilité pour les réunions programmées. Essayez d’utiliser **le bouton** Réserver pour vérifier si vous pouvez réserver un espace de réunion disponible directement à partir de l’appareil.
+Une fois que vous avez déployé des panneaux, vous devez les tester. Vérifiez que les [fonctionnalités Teams panneaux](#features-supported-by-teams-panels) fonctionnent sur l’appareil déployé. Essayez de créer plusieurs réunions pour différents créneaux de temps via Teams ou Outlook 365 sur votre ordinateur. Vérifiez si les panneaux affichent correctement les détails de la réunion et la disponibilité pour les réunions programmées. Essayez d’utiliser **le bouton** Réserver pour vérifier si vous pouvez réserver un espace de réunion disponible directement à partir de l’appareil.
 
 ## <a name="manage-teams-panels-in-your-organization"></a>Gérer Teams panneaux dans votre organisation
 
-Pour gérer vos panneaux Teams panneaux, dans le navigation gauche du Centre d’administration Microsoft Teams, allez sur panneaux Teams  >  **appareils.** À partir de cet écran, vous pouvez modifier le profil de configuration de l’appareil, gérer les mises à jour, redémarrer des appareils, ajouter et supprimer des balises d’appareil, et bien plus encore. Pour plus d’informations, [voir Gérer vos appareils dans Teams.](device-management.md)
+Pour gérer vos périphériques Teams panneaux, dans le panneau de navigation gauche du Centre Microsoft Teams d’administration, allez sur **Teams** **DevicesPanels** > . À partir de cet écran, vous pouvez modifier le profil de configuration de l’appareil, gérer les mises à jour, redémarrer des appareils, ajouter et supprimer des balises d’appareil, et bien plus encore. Pour plus d’informations, [voir Gérer vos appareils dans Teams](device-management.md).
 
 ## <a name="next-steps"></a>Étapes suivantes
 
@@ -136,4 +136,4 @@ Pour gérer vos panneaux Teams panneaux, dans le navigation gauche du Centre d�
 
 [Teams marketplace de panneaux](https://office.com/teamsdevices)
 
-[Périphériques certifiés dans le cadre du programme Microsoft Teams certification des panneaux de certification](teams-ip-phones.md#currently-certified-teams-panels)
+[Périphériques certifiés dans le cadre du programme Microsoft Teams certification des panneaux de certification](teams-ip-phones.md#certified-teams-panels)

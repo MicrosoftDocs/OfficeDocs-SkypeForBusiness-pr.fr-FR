@@ -24,12 +24,12 @@ search.appverid: MET150
 description: En savoir plus sur Teams options de connectivité PSTN et les décisions que vous prendrez pour votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 409f5a1f8872b8e3bd3b1999a0024fa28583024d
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 28cb740146fc23f3dfdda35c35f280cba8a950c4
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518826"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763748"
 ---
 # <a name="pstn-connectivity-options"></a>Options de connectivité PSTN
 
@@ -168,7 +168,7 @@ La façon dont vous acquérir et gérer les numéros de téléphone diffère en 
 
 - Pour plus d’informations sur la gestion des numéros de téléphone avec l’Connecter opérateur, voir Configurer des numéros de [téléphone avec](operator-connect-configure.md#set-up-phone-numbers) l’opérateur Connecter.
 
-- Pour plus d’informations sur la gestion des numéros de téléphone pour le routage direct, voir Configurer le numéro de téléphone et activer la messagerie vocale et [la voix d’entreprise](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
+- Pour plus d’informations sur la gestion des numéros de téléphone pour le routage direct, voir Configurer le numéro [de téléphone et activer Voix Entreprise](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 
 
 ### <a name="call-routing-and-dial-plans"></a>Routage des appels et plans de numérotation

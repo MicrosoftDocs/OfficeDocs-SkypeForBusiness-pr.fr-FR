@@ -22,13 +22,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Découvrez comment intégrer le connecteur Teams EHR pour permettre aux prestataires de soins de votre organisation de réaliser des visites virtuelles avec des patients ou d’autres fournisseurs dans Teams directement à partir du système EHRh.
-ms.openlocfilehash: 90a4b51fa1855fa7d680af80d4a47f9bf407d789
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+description: Découvrez comment intégrer le connecteur Teams EHR pour permettre aux fournisseurs de soins de votre organisation d’effectuer des visites virtuelles auprès de patients ou d’autres fournisseurs dans Teams directement à partir du système EHRh.
+ms.openlocfilehash: 3274ed2c566008dd7474accf159540c96c82b865
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518606"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763319"
 ---
 # <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Visites virtuelles avec Teams - Intégration à EhRExique
 
@@ -36,17 +36,17 @@ Le connecteur Microsoft Teams dossier médical électronique (EHR) permet aux re
 
 La plateforme de communication et de collaboration d’Teams facilite la réduction de l’encombrement des systèmes fragmentés, de sorte qu’ils peuvent se concentrer sur la fourniture des meilleurs soins possibles. Avec le Teams EHR, vous pouvez :
 
-- Lancez Teams visites virtuelles à partir de votre système EHRExique avec un flux de travail clinique intégré.
+- Lancez Teams visites virtuelles à partir de votre système EHR d’Quyzh avec un flux de travail clinique intégré.
 - Permet aux patients de participer Teams visites virtuelles à partir du portail du patient ou via SMS.
-- Prise en charge d’autres scénarios de visite virtuelle, notamment les visites à plusieurs participants, les visites de groupe et les services d’interprète.
-- Écrivez des métadonnées au système EHR sur Teams visites virtuelles à enregistrer lorsque les participants se connectent, se déconnectent et activent l’audit automatique et la conservation d’enregistrement.
+- Prise en charge d’autres scénarios, notamment la participation multiple, les visites de groupe et les services d’interprète.
+- Écrivez des métadonnées au système EHR à propos de Teams visites virtuelles pour enregistrer lorsque les participants se connectent, se déconnectent et activent l’audit automatique et la conservation d’enregistrement.
 - Afficher des rapports de consommation et des informations personnalisables sur la qualité des appels pour les visites connectées à ehr.
 
 Regardez cette vidéo pour avoir un aperçu de la gestion des visites virtuelles à partir du portail EHR.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
-Cet article explique comment configurer et configurer le connecteur Teams EHR pour l’intégrer à la plateforme Android dans votre organisation de soins de santé. Elle vous offre également une vue d’ensemble de Teams expérience de visites virtuelles du système EHR d’Quns.
+Cet article explique comment configurer et configurer le connecteur Teams EHR pour l’intégrer à la plateforme Android dans votre organisation de soins de santé. Il vous offre également une vue d’ensemble de Teams expérience de visites virtuelles du système EHR d’Quns.
 
 ## <a name="before-you-begin"></a>Avant de commencer
 
@@ -128,9 +128,9 @@ Pour configurer ensuite l’intégration, votre administrateur Microsoft 365 de 
 ### <a name="enable-sms-notifications-optional"></a>Activer les notifications SMS (facultatif)
 
 > [!NOTE]
-> Les notifications SMS sont actuellement uniquement disponibles aux États-Unis. Nous travaillons à rendre cette fonctionnalité disponible dans d’autres régions dans les prochaines Teams et mettre à jour cet article lorsqu’elle sera disponible. 
+> Les notifications SMS sont actuellement uniquement disponibles aux États-Unis. Nous travaillons à rendre cette fonctionnalité disponible dans d’autres régions dans les prochaines Teams et mettre à jour cet article lorsqu’elle sera disponible.
 
-Terminez cette étape si votre organisation souhaite que Microsoft gère les notifications SMS pour vos patients. Lorsque vous activez les notifications SMS, vos patients reçoivent des messages de confirmation et de rappel pour les visites virtuelles programmées.
+Terminez cette étape si votre organisation souhaite que Microsoft gère les notifications SMS pour vos patients. Lorsque vous activez les notifications SMS, vos patients reçoivent des messages de confirmation et de rappel pour les visites programmées.
 
 Pour activer les notifications SMS, votre Microsoft 365 de messagerie doit :
 
@@ -159,8 +159,8 @@ Pour activer les notifications SMS, votre Microsoft 365 de messagerie doit :
 
     :::image type="content" source="media/ehr-connector-epic-sms-setup.png" alt-text="Capture d’écran montrant les paramètres de configuration des SMS." lightbox="media/ehr-connector-epic-sms-setup.png":::
 
-    - **SMS de confirmation** : des notifications sont envoyées aux patients lorsqu’une visite virtuelle est prévue, mise à jour ou annulée dans le système EHR.
-    - **SMS de rappel** : des notifications sont envoyées aux patients en fonction de l’intervalle de temps que vous spécifiez et de l’heure prévue de la visite virtuelle.
+    - **SMS de confirmation** : des notifications sont envoyées aux patients lorsqu’une visite est programmée, mise à jour ou annulée dans le système EHR.
+    - **SMS de rappel** : des notifications sont envoyées aux patients en fonction de l’intervalle de temps que vous spécifiez et de l’heure prévue de la visite.
 
     Cliquez sur **Enregistrer**.
 
@@ -197,7 +197,7 @@ Lorsque les informations de configuration sont approuvées par l'administrateur 
 - Enregistrement de configuration SMS
 - Enregistrement de configuration de test de l’appareil
 
-L’analyste du client Terminée doit fournir ces enregistrements à Ses services pour terminer la configuration de la visite virtuelle en Censo. Pour plus d’informations, voir le [Guide d’intégration Microsoft Teams téléhealthe](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
+L’analyste client Denienne doit fournir ces enregistrements à Ces enregistrements pour terminer la configuration des visites virtuelles en Censo. Pour plus d’informations, voir le [Guide d’intégration Microsoft Teams téléhealthe](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
 > [!Note]  
 > À tout moment, l’analyste Microsoft 365 ou du client Titres d’entreprise peut se connecter au portail de configuration pour afficher les enregistrements d’intégration et modifier la configuration de l’organisation, selon les besoins.
@@ -207,11 +207,11 @@ L’analyste du client Terminée doit fournir ces enregistrements à Ses service
 > [!Note]
 > L’analyste client Terminée doit effectuer le processus d’approbation pour chaque URL de base F URL configurée par l’Microsoft 365 client.
 
-## <a name="launch-teams-virtual-visits"></a>Lancer les visites virtuelles Teams
+## <a name="launch-teams-virtual-visits"></a>Lancer Teams visites virtuelles
 
 Une fois que vous avez terminé les étapes du connecteur EHR et que vous avez effectué la configuration Densez, votre organisation est prête à prendre en charge les visites vidéo avec Teams.
 
-### <a name="virtual-visit-prerequisites"></a>Conditions préalables pour la visite virtuelle
+### <a name="virtual-visits-prerequisites"></a>Conditions préalables pour les visites virtuelles
 
 - Vos systèmes doivent satisfaire toutes [les exigences logicielles et de navigateur pour](../../hardware-requirements-for-the-teams-app.md) Teams.
 
@@ -219,47 +219,47 @@ Une fois que vous avez terminé les étapes du connecteur EHR et que vous avez e
 
 ### <a name="provider-experience"></a>Expérience fournisseur
 
-Les fournisseurs de soins de votre organisation peuvent participer à des visites virtuelles à l’aide Teams de leurs applications fournisseurs de service (Hyperspace,Pérku, Canto). Le bouton **Commencer la visite virtuelle** est incorporé dans le flux du fournisseur.
+Les fournisseurs de soins de votre organisation peuvent participer à des visites à l’aide Teams’applications de leur fournisseur en ligne (Hyperspace,Pérku, Canto). Le bouton **Commencer la visite virtuelle** est incorporé dans le flux du fournisseur.
 
 Principales fonctionnalités de l’expérience fournisseur :
 
-- Les fournisseurs peuvent rejoindre des visites virtuelles à l’aide de navigateurs pris en charge ou de l Teams app.
+- Les fournisseurs peuvent rejoindre des visites à l’aide de navigateurs pris en charge ou de l Teams appe.
 
-- Les fournisseurs doivent se connectent une fois avec leur compte Microsoft 365 lorsqu’ils rejoignent une visite virtuelle pour la première fois.
+- Les fournisseurs doivent se connecter une seule fois à leur compte Microsoft 365 lorsqu’ils participent à une visite pour la première fois.
 
 - Après la première inscription, le fournisseur est directement placé sur le rendez-vous virtuel dans Teams. (Le fournisseur doit être Teams).
 
-- Les fournisseurs peuvent voir les mises à jour en temps réel des participants se connectant et se déconnectant pour un rendez-vous donné. Les fournisseurs peuvent voir quand le patient est connecté à une visite virtuelle.
+- Les fournisseurs peuvent voir les mises à jour en temps réel des participants se connectant et se déconnectant pour un rendez-vous donné. Les fournisseurs peuvent voir quand le patient est connecté à une visite.
 
-  ![Expérience du fournisseur d’une visite virtuelle avec un patient.](media/ehc-provider-experience-6.png)
+  ![Expérience du fournisseur d’une visite chez un patient.](media/ehc-provider-experience-6.png)
 
 > [!NOTE]
 > Toute information entrée dans la conversation de réunion nécessaire à des fins de continuité ou de rétention des dossiers médicaux doit être téléchargée, copiée et notée par le fournisseur de soins de santé. La conversation ne constitue pas un dossier médical ni un jeu de dossiers désigné. Les messages de la conversation sont stockés en fonction des paramètres créés par l’Microsoft Teams conversation.
 
 ### <a name="patient-experience"></a>Expérience patient
 
-Le connecteur prend en charge les patients qui rejoignent des visites virtuelles via les applications web et mobiles MyChart. Au moment du rendez-vous, les patients peuvent démarrer une visite virtuelle à partir de MyChart à l’aide du bouton **Commencer la visite virtuelle**.
+Le connecteur prend en charge les patients rejoignant des visites via Le web et les appareils mobiles MyChart. Au moment du rendez-vous, les patients peuvent démarrer une visite à partir de MyChart à l’aide du **bouton Commencer la visite** virtuelle.
 
 Principales fonctionnalités de l’expérience du patient :
 
-- Les patients peuvent rejoindre des visites virtuelles à partir de navigateurs web modernes sur un ordinateur de bureau ou un appareil mobile sans avoir à [installer Teams’application](../mobile-browser-join.md).
+- Les patients peuvent rejoindre des visites à partir de navigateurs web modernes sur un ordinateur de bureau ou un appareil mobile sans avoir [à installer Teams’application](../mobile-browser-join.md).
 
-- Les patients peuvent participer à des visites virtuelles en un seul clic et aucune autre compte ou aucune autre inscription n’est nécessaire.
+- Les patients peuvent rejoindre les visites d’un simple clic sans qu’aucune autre compte ou aucune autre inscription ne soit nécessaire.
 
-- Les patients n'ont pas besoin de créer un compte Microsoft ou de se connecter pour lancer une visite virtuelle.
+- Les patients n’ont pas besoin de créer un compte Microsoft ou de se connecter pour lancer une visite.
 
-- Les patients sont placés dans une salle d’accueil jusqu’à ce que le fournisseur rejoigne le rendez-vous et les admette à la visite virtuelle.
+- Les patients sont placés dans une salle d’accueil jusqu’à ce que le fournisseur les rejoigne et les admette.
 
-- Les patients peuvent tester leur vidéo et leur microphone dans la salle d’accueil avant de rejoindre la visite virtuelle.
+- Les patients peuvent tester leur vidéo et leur microphone dans la salle d’accueil avant de rejoindre la visite.
 
-  ![Expérience patient de la visite virtuelle.](media/ehc-virtual-visit-5.png)
+  ![Expérience des patients de la visite.](media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic, MyChart, Haiku et Canto sont des marques déposées d'Epic Systems Corporation.
 
 ### <a name="privacy-and-location-of-data"></a>Confidentialité et emplacement des données
 
-Teams’intégration aux systèmes EHR optimise la quantité de données utilisées et stockées pendant l’intégration et les flux de visites virtuelles. La solution respecte les principes et les directives générales de Teams en matière de confidentialité et de gestion des données, décrits dans Confidentialité Teams.
+Teams’intégration aux systèmes EHR optimise la quantité de données utilisées et stockées pendant les flux d’intégration et de visites virtuelles. La solution respecte les principes et les directives générales de Teams en matière de confidentialité et de gestion des données, décrits dans Confidentialité Teams.
 
 Le connecteur Teams EHR ne stocke ni ne transfère aucune donnée personnelle identifiable ou les dossiers médicaux des patients ou fournisseurs de soins à partir du système EHR. Les seules données stockées par le connecteur DMI sont l’ID unique de l’utilisateur DMI (utilisé lors de l’installation d’une réunion Teams).
 

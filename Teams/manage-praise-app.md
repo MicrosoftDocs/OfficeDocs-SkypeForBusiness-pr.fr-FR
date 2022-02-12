@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Découvrez comment gérer l’application Compliment dans le Centre Microsoft Teams’administration.
-ms.openlocfilehash: 064a1b90db44971e2fd796ea96de2a3523f7f380
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 24ddbc66018056360e226f13669ee3dae1e78db5
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401608"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763309"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gérer l’Compliment dans le Centre d’administration Microsoft Teams’administration
 
@@ -47,7 +47,7 @@ Voici le jeu de badges par défaut dans Compliment. Teams utilisateurs de votre 
 :::image type="content" source="media/default-set-praise.png" alt-text="Image des badges dans le jeu de badges par défaut.":::
 
 > [!NOTE]
-> À compter de février 2022, les personnes peuvent uniquement envoyer et recevoir les badges par défaut. Les badges personnalisés ne sont plus disponibles et les options de badges personnalisés sont bientôt supprimées de **la page Paramètres** de l’application Teams d’administration.
+> À compter de février 2022, les personnes peuvent uniquement envoyer et recevoir les badges par défaut. Les badges personnalisés ne sont plus disponibles et les options de badges personnalisés ont été supprimées du Teams d’administration.
 
 ## <a name="related-articles"></a>Articles connexes
 

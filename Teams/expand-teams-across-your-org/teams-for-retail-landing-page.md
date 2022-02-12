@@ -20,12 +20,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74b3f81456b8d0acdff0c41678c04713b5cf967a
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: cb32190c05dcbe165e203d9e4f097622d60943b8
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288412"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763399"
 ---
 # <a name="get-started-with-teams-for-retail"></a>Commencer à travailler avec Teams vente au détail
 
@@ -47,7 +47,7 @@ Microsoft 365 et Microsoft Teams offrir plusieurs fonctionnalités qui peuvent a
 [![Communication et collaboration en magasin](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![Communication et collaboration entre magasins](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![Ajustements et consultations virtuels](../media/retail-scenarios-virtual-visits.png)](#virtual-fittings-and-consultations) [![Simplifiez les processus d’entreprise.](../media/retail-scenarios-business-processes.png)](#simplify-business-processes) [![Communications d’entreprise](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![Intégration de nouveaux employés](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
 
 > [!NOTE]
-> Ces scénarios font également partie du cloud Microsoft pour le commerce de détail. Ces scénarios vous offrent davantage de possibilités si vous utilisez également d’autres fonctionnalités de Microsoft Cloud for Retail, telles que Microsoft Dynamics 365. En savoir plus sur l’utilisation de cette solution qui regroupe les fonctionnalités Azure, Dynamics 365 et Microsoft 365 dans [Microsoft Cloud for Retail](/industry/retail)
+> Ces scénarios font également partie du cloud Microsoft pour le commerce de détail. Ces scénarios vous offrent davantage de possibilités si vous utilisez également d’autres fonctionnalités de Microsoft Cloud pour la distribution, telles que Microsoft Dynamics 365. En savoir plus sur l’utilisation de cette solution qui regroupe les fonctionnalités Azure, Dynamics 365 et Microsoft 365 dans [Microsoft Cloud for Retail](/industry/retail)
 
 ### <a name="in-store-communication-and-collaboration"></a>Communication et collaboration en magasin
 
@@ -167,7 +167,7 @@ Pour les environnements de vente au détail, les applis et les services suivants
 
 | Autres applications et services de Microsoft | Description | Gestion | Aide |
 | ----- | ----- | ----- | ----- |
-| Bookings | Activez les ajustements et consultations virtuels. | [Visites virtuelles dans Microsoft Teams et l’application Bookings](bookings-virtual-visits.md) | [Utiliser Bookings](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
+| Bookings | Activez les ajustements et consultations virtuels. | [Visites virtuelles avec Microsoft Teams et l’application Bookings](bookings-virtual-visits.md) | [Utiliser Bookings](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
 | Power Apps et Power Platform | Intégrez les processus d’entreprise et activer les mises à jour rapides des données, telles que le stock, les numéros de vente, les rapports d’incident, etc. | [L’intégration Teams avec Microsoft Power Platform](../teams-power-platfom-integration.md) et [la gestion des applications Microsoft Power Platform dans le centre d’administration Microsoft Teams](../manage-power-platform-apps.md) | -  |
 | Microsoft Office SharePoint Online | Lorsque vous créez une équipe, un nouveau site SharePoint est créé et connecté à l’équipe. Bon nombre des scénarios ci-dessus s’appuient sur SharePoint fonctionnalités déjà incorporées dans Teams, telles que le partage de documents pour la collaboration d’équipe. | [L’intégration Teams et le groupe SharePoint](/sharepoint/teams-connected-sites) | [Ajouter une page SharePoint, une liste ou une bibliothèque de documents sous la Teams](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b)|
 | Viva Connections | Soit Connections crée un hub dans Teams où vos associés au vente au détail peuvent consulter un flux d’actualités personnalisé de votre organisation et un tableau de bord personnalisé avec les ressources dont ils ont besoin. | [Présentation de Viva Connections](/sharepoint/viva-connections-overview) | [Viva Connections dans Microsoft Teams](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) |
@@ -194,8 +194,8 @@ Mis à part les modèles d’équipe, vous pouvez également configurer d’autr
 
 | Image | Rôle | Responsibilities | Service |
 | ---- | ---- | ----- | ----- |
-| ![Symbole d’administrateur](https://docs.microsoft.com/office/media/icons/administrator.png) | Administrateur informatique | Travaillez avec les gestionnaires des opérations et de la gestion de la vente au détail pour définir des scénarios et la manière dont ils fonctionneront pour l’organisation. <br><br>Configurez les paramètres du centre d’administration Teams, tels que les stratégies et les modèles, et activez les applis. <br><br>Définissez les paramètres des applis (par exemple, les paramètres Shifts globaux) pour l’organisation. <br><br>Ajoutez et octroyez une licence aux utilisateurs.  | Service informatique |
-| ![Symbole de moniteur utilisateur](https://docs.microsoft.com/office/media/icons/user-monitor.png) | Operations du personnel | Travaillez avec les administrateurs pour définir des scénarios et déterminer les paramètres, stratégies, modèles et applications nécessaires pour Teams. <br><br>Créer des équipes régionales ou divisionnelles à partir de modèles <br><br>Définissez les tâches, les listes et les flux d’approbation pour une coordination entre les magasins situés à l’intérieur d’une région ou entre les magasins et le siège social. <br><br>Configurer une infrastructure d’apprentissage pour le personnel | Opérations centralisées |
-| ![Symbole de présentateur](https://docs.microsoft.com/office/media/icons/presenter-teams.png) | Gestionnaire du Store | Travaillez avec les administrateurs et le personnel des opérations pour définir des scénarios. <br><br>Créez des équipes pour le Store à partir de modèles. <br><br>Selon vos besoins, définissez des canaux et des applis pour les équipes. Par exemple : un canal pour les transferts <br><br>Configurer des plannings de magasin dans Plannings <br><br>Définissez des tâches, des listes et des flux d’approbation spécifiques au magasin. <br><br>Configurer des tâches pédagogiques pour le personnel | Gestion du Store |
+|<img src="/office/media/icons/administrator.png" alt="Administrator symbol."> | Administrateur informatique | Travaillez avec les gestionnaires des opérations et de la gestion de la vente au détail pour définir des scénarios et la manière dont ils fonctionneront pour l’organisation. <br><br>Configurez les paramètres du centre d’administration Teams, tels que les stratégies et les modèles, et activez les applis. <br><br>Définissez les paramètres des applis (par exemple, les paramètres Shifts globaux) pour l’organisation. <br><br>Ajoutez et octroyez une licence aux utilisateurs.  | Service informatique |
+|<img src="/office/media/icons/user-monitor.png" alt="User monitor symbol.">| Operations du personnel | Travaillez avec les administrateurs pour définir des scénarios et déterminer les paramètres, stratégies, modèles et applications nécessaires pour Teams. <br><br>Créer des équipes régionales ou divisionnelles à partir de modèles <br><br>Définissez les tâches, les listes et les flux d’approbation pour une coordination entre les magasins situés à l’intérieur d’une région ou entre les magasins et le siège social. <br><br>Configurer une infrastructure d’apprentissage pour le personnel | Opérations centralisées |
+|<img src="/office/media/icons/presenter-teams.png" alt="Presenter symbol."> | Gestionnaire du Store | Travaillez avec les administrateurs et le personnel des opérations pour définir des scénarios. <br><br>Créez des équipes pour le Store à partir de modèles. <br><br>Selon vos besoins, définissez des canaux et des applis pour les équipes. Par exemple : un canal pour les transferts <br><br>Configurer des plannings de magasin dans Plannings <br><br>Définissez des tâches, des listes et des flux d’approbation spécifiques au magasin. <br><br>Configurer des tâches pédagogiques pour le personnel | Gestion du Store |
 
 Pour plus d’informations sur l’implémentation et l’adoption Teams, voir [Adopter Microsoft Teams](../adopt-microsoft-teams-landing-page.md)
