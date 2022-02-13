@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0146c77fc5727a1dc57a7062eeb62cebaba46034
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 07d050782dfef1ce89f54891302457c2f1616fa5
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766217"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763647"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Démarrage rapide : réunions, webinaires et événements en direct 
 
@@ -86,7 +86,8 @@ Le tableau suivant met en évidence les articles clés que vous souhaitez examin
 | [Stratégies de réunion](meeting-policies-overview.md)  | Décrit comment créer et gérer les stratégies qui déterminent les fonctionnalités disponibles pour les participants à la réunion. | 
 | [Gérer l’enregistrement des réunions cloud Teams](cloud-recording.md) | Décrit comment gérer les enregistrements de réunion. |
 | [Gérer les appareils de votre organisation](device-management.md)| Décrit comment gérer les appareils de votre organisation, tels que les téléphones et les salles Teams. |
-||
+| [Utiliser la télémétrie en temps réel pour résoudre les problèmes de qualité des réunions](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | Décrit comment utiliser RTA (Real-Time Analytics) pour résoudre des problèmes de qualité des réunions Microsoft Teams pour des utilisateurs individuels. 
+|||
 
 #### <a name="key-training-for-end-users"></a>Formation clé pour les utilisateurs finaux
 

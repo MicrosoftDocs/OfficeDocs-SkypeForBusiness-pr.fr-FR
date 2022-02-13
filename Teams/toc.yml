@@ -249,18 +249,6 @@ items:
                 href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
           - name: Intégration avec Exchange et Microsoft Office SharePoint Online
             href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
-  - name: Mettre à niveau à partir de Kaizala
-    items:
-      - name: Prise en main
-        href: get-started-kaizala-teams.md
-      - name: Préparer la mise à niveau
-        href: prepare-for-teams-kaizala.md
-      - name: Planifier votre parcours de mise à niveau
-        href: plan-your-move-kaizala.md
-      - name: Naviguer dans Microsoft Teams
-        href: navigate-teams.md
-      - name: Se familiariser avec Microsoft Teams
-        href: drive-adoption-optimize-kaizala.md
   - name: 'Sécurité, conformité et confidentialité'
     items:
       - name: Vue d’ensemble
@@ -909,10 +897,6 @@ items:
                     href: direct-routing-media-optimization.md
                   - name: Configurer l’optimisation des médias locaux
                     href: direct-routing-media-optimization-configure.md
-              - name: Comptes d’utilisateur dans un environnement hybride avec une connectivité RTC
-                href: direct-routing-user-accounts-in-a-hybrid-environment.md
-              - name: Migrer vers un routage direct
-                href: direct-routing-migrating.md
               - name: Contrôler et dépanner le routage direct
                 items:
                   - name: Vue d’ensemble
@@ -972,7 +956,7 @@ items:
           - name: Gérer les numéros de téléphone utilisés pour Operator Connect
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: Gérer les numéros de téléphone utilisés pour le Routage direct
-            href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online
+            href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
       - name: Routage vocal
         items:
           - name: Que sont les plans de numérotation ?
@@ -1753,6 +1737,18 @@ items:
             href: get-started-with-teams-essentials.md
           - name: "Connecter Teams\_Essentials (Identité AAD) au courrier"
             href: connect-teams-essentials-to-email.md
+      - name: Mettre à niveau à partir de Kaizala
+        items:
+          - name: Prise en main
+            href: get-started-kaizala-teams.md
+          - name: Préparer la mise à niveau
+            href: prepare-for-teams-kaizala.md
+          - name: Planifier votre parcours de mise à niveau
+            href: plan-your-move-kaizala.md
+          - name: Naviguer dans Microsoft Teams
+            href: navigate-teams.md
+          - name: Se familiariser avec Microsoft Teams
+            href: drive-adoption-optimize-kaizala.md
       - name: Interopérabilité avec Microsoft 365 et Office 365
         items:
           - name: Groupes Microsoft 365 et Microsoft Teams
@@ -1762,8 +1758,9 @@ items:
           - name: Améliorer les groupes Microsoft 365 existants avec Teams
             href: enhance-office-365-groups.md
           - name: Interaction entre Exchange et Microsoft Teams
-            href: exchange-teams-interact.md
             items:
+              - name: Interaction entre Exchange et Microsoft Teams
+                href: exchange-teams-interact.md
               - name: Configurer une organisation Exchange hybride à utiliser avec Microsoft Teams
                 href: exchange-hybrid-organization.md
               - name: Utiliser des règles de flux de courrier avec Exchange
