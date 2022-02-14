@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser l’Assistant Stratégie de Teams pour l'éducation pour appliquer facilement des stratégies pour les étudiants et les enseignants afin de préserver la sécurité de votre environnement d’apprentissage.
 f1keywords: ''
-ms.openlocfilehash: d724fcd7c5c62e861991e93cbbb9a0969a6c567e
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 9834aceeffc6c5604c144e801405cea968df5a69
+ms.sourcegitcommit: 2612020cd932117148440b60be818ba31208b1d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387642"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "62805455"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Utiliser l’Assistant Teams pour l'éducation stratégie d’entreprise pour appliquer facilement des stratégies à un environnement d’apprentissage sécurisé
 
@@ -77,15 +77,15 @@ Suivez ces étapes pour exécuter l’Assistant.
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Capture d’écran de la page de l’Assistant pour sélectionner le type d’établissement.":::
 
-3. Recherchez et sélectionnez un groupe contenant vos enseignants et membres du personnel, puis sélectionnez **Suivant**. Si aucun groupe n’est encore créé pour vos enseignants et membres du [personnel,](/microsoft-365/admin/create-groups/create-groups) créez un groupe, puis ré-exécutez l’Assistant. <br/><br/>Pour l’instant, vous ne pouvez sélectionner qu’un seul groupe. Les enseignants et les membres du groupe que vous sélectionnez se voit attribuer un [ensemble de](#policies-applied-by-the-wizard) stratégies personnalisées adaptées à leurs besoins. N’oubliez pas que cet ensemble de stratégies est distinct des stratégies appliquées aux étudiants.
+3. Recherchez et sélectionnez les groupes qui contiennent vos enseignants et membres du personnel, puis sélectionnez **Suivant**. Si aucun groupe n’est encore créé pour vos enseignants et membres du [personnel,](/microsoft-365/admin/create-groups/create-groups) créez un groupe, puis ré-exécutez l’Assistant. <br/><br/>Vous pouvez sélectionner jusqu’à trois groupes. Les enseignants et les membres du personnel des groupes que vous sélectionnez se voit attribuer un [ensemble de](#policies-applied-by-the-wizard) stratégies personnalisées adaptées à leurs besoins. N’oubliez pas que cet ensemble de stratégies est distinct des stratégies appliquées aux étudiants.
 
-    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Capture d’écran de la page de l’Assistant pour sélectionner un enseignant et un groupe de membres du personnel.":::
+    :::image type="content" source="media/edu-policy-wizard-add-3-groups.png" alt-text="Capture d’écran de la page de l’Assistant de sélection de groupes d’enseignants et de membres du personnel.":::
 
 4. Examinez vos sélections.
 
-    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Capture d’écran de la page dans l’Assistant pour passer en revue les sélections.":::
+    :::image type="content" source="media/edu-policy-wizard-3-groups-review.png" alt-text="Capture d’écran de la page dans l’Assistant pour passer en revue les sélections.":::
 
-5. **Sélectionnez Appliquer** pour appliquer vos modifications. L’ensemble de cette liste peut prendre quelques minutes.<br/><br/>Les définitions de stratégie globale (à l’échelle de l’organisation par défaut) sont appliquées immédiatement aux étudiants. Pour vos enseignants et membres du personnel, l’attribuée aux stratégies personnalisées à chaque membre du groupe que vous avez sélectionné peut prendre quelques heures, selon la taille du groupe. Cela se produit en arrière-plan, une fois que vous avez réussi cette étape.
+5. **Sélectionnez Appliquer** pour appliquer vos modifications. L’ensemble de cette liste peut prendre quelques minutes.<br/><br/>Les définitions de stratégie globale (à l’échelle de l’organisation par défaut) sont appliquées immédiatement aux étudiants. Pour vos enseignants et membres du personnel, l’attribuée aux stratégies personnalisées à chaque membre des groupes que vous avez sélectionnés peut prendre quelques heures, selon la taille des groupes. Cela se produit en arrière-plan, une fois que vous avez réussi cette étape.
 6. Vous êtes en route, mais ce n’est pas encore fait ! D’autres éléments sont à prendre en considération. Consultez ensuite les étapes de la section Procédure [à suivre](#what-to-do-after-running-the-wizard) après avoir exécutez la section Assistant de cet article.
 
     :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Capture d’écran de la page de l’Assistant pour les étapes suivantes.":::
@@ -137,9 +137,9 @@ Voir [Maintenir la sécurité des étudiants lors de l’Teams’enseignement à
 
 ### <a name="step-3-check-message-center-for-policy-updates"></a>Étape 3 : vérifier les mises à jour de stratégie dans le Centre de messages
 
-Pour l’instant, l’Assistant applique les stratégies recommandées lorsque vous l’exécutez. Il est important de savoir qu’à mesure que de nouvelles stratégies deviennent disponibles dans Teams, les paramètres globaux (par défaut à l’échelle de l’organisation) pour la sécurité des étudiants sont automatiquement mis à jour par l’Assistant. 
+Pour l’instant, l’Assistant applique les stratégies recommandées lorsque vous l’exécutez. Il est important de savoir qu’à mesure que de nouvelles stratégies deviennent disponibles dans Teams, les paramètres globaux (par défaut à l’échelle de l’organisation) pour la sécurité des étudiants sont automatiquement mis à jour par l’Assistant.
 
-Consultez [le Centre de](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) messages (dans le Centre d'administration Microsoft 365) fréquemment pour vous tenir au courant des nouvelles fonctionnalités, ainsi que de leurs stratégies et paramètres de stratégie dans Teams. 
+Consultez [le Centre de](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) messages (dans le Centre d'administration Microsoft 365) fréquemment pour vous tenir au courant des nouvelles fonctionnalités, ainsi que de leurs stratégies et paramètres de stratégie dans Teams.
 
 ## <a name="make-changes-in-the-wizard"></a>Apporter des modifications dans l’Assistant
 
@@ -148,15 +148,15 @@ Consultez [le Centre de](https://admin.microsoft.com/AdminPortal/Home?#/MessageC
 Si vous devez apporter des modifications après avoir exécuté l’Assistant, vous pouvez le ré-exécuter et modifier vos sélections.
 
 1. Dans le navigation gauche du centre Microsoft Teams d’administration, sélectionnez **Accueil, puis** dans la vignette Configurer les  stratégies d’un environnement d’apprentissage sécurisé, sélectionnez **Modifier**.
-2. À partir de là, continuez à travers chaque page de l’Assistant pour apporter vos modifications. Vous pouvez modifier le type de votre établissement, le groupe d’enseignants et de membres du personnel auquel vous voulez attribuer des stratégies, ou les deux.
+2. À partir de là, continuez à travers chaque page de l’Assistant pour apporter vos modifications. Vous pouvez modifier le type de votre établissement, les groupes d’enseignants et de membres du personnel à lesquels vous voulez attribuer des stratégies, ou les deux.
 
 Le tableau suivant récapitule ce qui se produit lorsque vous a modifiez l’Assistant.
 
 |Type de modification  |Comportement des stratégies  |
 |---------|---------|
-|Modifier à la fois le type d’établissement d’enseignement et le groupe d’enseignants et de membres du personnel    |<ul><li>**Étudiants** : les définitions de stratégie globales (à l’échelle de l’organisation par défaut) basées sur le nouveau type d’établissement d’enseignement sont appliquées aux étudiants.</li><li>**Enseignants et membres du personnel** : un ensemble de définitions de stratégies personnalisées basées sur le nouveau type d’établissement d’enseignement est créé et attribué au nouvel enseignant et au groupe de membres du personnel. Les définitions de stratégie personnalisée précédentes sont supprimées des enseignants et du groupe de membres du personnel précédents.</li></ul>    |
-|Modifier uniquement le type d’établissement d’enseignement    |<ul><li>**Étudiants** : les définitions de stratégie globales (à l’échelle de l’organisation par défaut) basées sur le nouveau type d’établissement d’enseignement sont appliquées aux étudiants.</li><li>**Enseignants et membres du personnel** : un ensemble de définitions de stratégies personnalisées basées sur le nouveau type d’établissement d’enseignement est créé et attribué aux enseignants et au groupe de membres du personnel. Les définitions de stratégie personnalisées créées pour le type d’établissement d’enseignement précédent sont supprimées des enseignants et du groupe de membres du personnel.</li></ul>         |
-|Modifier uniquement les enseignants et le groupe de membres du personnel   |<ul><li>**Étudiants** : Aucune modification des définitions de stratégie globale (à l’échelle de l’organisation par défaut) appliquées aux étudiants.</li><li>**Enseignants et membres du personnel** : les définitions de stratégie personnalisée sont affectées aux nouveaux enseignants et au groupe de membres du personnel, et supprimées des précédents enseignants et groupes de membres du personnel.</li></ul>         |
+|Modifier à la fois le type d’établissement d’enseignement et les enseignants et les groupes de membres du personnel    |<ul><li>**Étudiants** : les définitions de stratégie globales (à l’échelle de l’organisation par défaut) basées sur le nouveau type d’établissement d’enseignement sont appliquées aux étudiants.</li><li>**Enseignants et membres du personnel** : un ensemble de définitions de stratégies personnalisées basées sur le nouveau type d’établissement d’enseignement est créé et attribué aux nouveaux enseignants et groupes de membres du personnel. Les définitions de stratégie personnalisée précédentes sont supprimées des enseignants et des groupes de membres du personnel précédents.</li></ul>    |
+|Modifier uniquement le type d’établissement d’enseignement    |<ul><li>**Étudiants** : les définitions de stratégie globales (à l’échelle de l’organisation par défaut) basées sur le nouveau type d’établissement d’enseignement sont appliquées aux étudiants.</li><li>**Enseignants et membres du personnel** : un ensemble de définitions de stratégies personnalisées basées sur le nouveau type d’établissement d’enseignement est créé et attribué aux enseignants et aux groupes de membres du personnel. Les définitions de stratégie personnalisées créées pour le type d’établissement d’enseignement précédent sont supprimées des enseignants et des groupes de membres du personnel.</li></ul>         |
+|Modifier uniquement les enseignants et les groupes de membres du personnel   |<ul><li>**Étudiants** : Aucune modification des définitions de stratégie globale (à l’échelle de l’organisation par défaut) appliquées aux étudiants.</li><li>**Enseignants et membres du personnel** : les définitions de stratégie personnalisée sont affectées aux nouveaux enseignants et groupes de membres du personnel, et supprimées des précédents groupes d’enseignants et de membres du personnel.</li></ul>         |
 
 ## <a name="policies-applied-by-the-wizard"></a>Stratégies appliquées par l’Assistant
 
@@ -266,7 +266,7 @@ Voici une liste des définitions de stratégie globales (à l’échelle de l’
 
 #### <a name="educators-and-staff"></a>[**Enseignants et personnel**](#tab/educator-settings/)
 
-Voici une liste des définitions de stratégie personnalisées assignées aux enseignants et au groupe de membres du personnel que vous choisissez dans l’Assistant.  
+Voici une liste des définitions de stratégie personnalisées assignées aux enseignants et aux groupes de membres du personnel que vous choisissez dans l’Assistant.  
 
 |Zone de stratégie |Sous-zone  |Paramètre de stratégie  |Principale ou secondaire |Enseignement supérieur |
 |---------|---------|---------|---------|---------|
@@ -329,7 +329,7 @@ Voici une liste des définitions de stratégie personnalisées assignées aux en
 
 * * *
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Stratégies et packages de stratégies Teams pour l’éducation](policy-packages-edu.md)
 - [Attribuer des stratégies à un grand nombre d’utilisateurs dans votre établissement scolaire](batch-group-policy-assignment-edu.md)
