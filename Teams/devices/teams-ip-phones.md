@@ -21,14 +21,14 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 192d56972c0d26484be773cf40fe0d1c59b69136
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 809f69383f73346f7964926e689739016b155705
+ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763667"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62856682"
 ---
-# <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certifiés
+# <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams appareils Android certifiés
 
 Le programme de certification Microsoft Teams des périphériques certifiés garantit que les périphériques certifiés répondent à une norme élevée, avec des objectifs de performances et des mesures de qualité plus élevés dans toute l’expérience Teams (audio, vidéo, interface utilisateur). Les partenaires Microsoft et OEM travaillent activement ensemble pour garantir que les appareils répondent à toutes les exigences de certification, notamment la sécurité, la qualité audio et vidéo, l’expérience Teams et l’accessibilité.
 
@@ -74,10 +74,10 @@ Les appareils suivants sont certifiés sous le programme Salles Microsoft Teams 
 | DONT LE DÉVELOPPEMENT DE 80T EST EN COURS | `1.2.2.21182.10` | 5 août 2023 | Fourni avec l’offre PERSONNELLES Vision 3T | 9 |
 | Logitech Tap Device     | `1.2.982`     |   3 septembre 2024  | Compatible avec la barre d’enfants Logitech Ainsi que la barre d’enfants Mini | 10 |
 | Logitech Cat Bar Mini | `1.2.982`     |   3 septembre 2024  |    Petite Salle de réunion (4,5 m x 4,5 m) | 10 |
-| Logitech Cat Bar      | `1.2.788`     |   3 septembre 2024  |    Taille moyenne (4,5 m x 6 m)       | 10 |
+| Logitech Cat Bar      | `1.2.788`     |   3 septembre 2024  |    Salle de taille moyenne (4,5 m x 6 m)       | 10 |
 | AudioCodes RXV80 | `1.9.155`        |   5 août 2023  | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) | 9 |
 | CESSEURS DÉVELOPPENT VISION 3T       | `1.2.0.21102.03`    | 5 août 2023 | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) | 9 |
-| Yealink MeetingBar A30       | `133.15.0.52`    | 5 août 2023   | Taille moyenne (4,5 m x 6 m) | 9 |
+| Yealink MeetingBar A30       | `133.15.0.52`    | 5 août 2023   | Salle de taille moyenne (4,5 m x 6 m) | 9 |
 | Console tactile CTP18 Yealink  | `137.15.0.28`    | 5 août 2023   | Compatible avec Yealink MeetingBar A20 et Yealink MeetingBar A30 | 9 |
 | Barre de réunions Yealink A20  | `133.15.0.19`      | 5 août 2023 | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) | 9 |
 | Poly Studio X30         | `3.1.1.216109`     | 5 décembre 2022  | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) | 8.1 |
@@ -219,6 +219,10 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 | Poly Studio X30 | `3.8.0`          | Mise à jour 2021 n°2    |
 | Poly Studio X50 | `3.8.0`          | Mise à jour 2021 n°2    |
 | Poly TC8        | `3.8.0`          | Mise à jour 2021 n°2    |
+| LogiBar    | 1.3.538         | Mise à jour pour 2021 #2B    |
+| LogiBar Mini | 1.3.538       | Mise à jour pour 2021 #2B    |
+| LogiBar    | 1.4.228         | Mise à jour pour 2021 #2B    |
+| LogiBar Mini | 1.4.228       | Mise à jour pour 2021 #2B    |
 | Poly Studio X30 | `3.7.0`          | Mise à jour pour 2021 #2A    |
 | Poly Studio X50 | `3.7.0`          | Mise à jour pour 2021 #2A    |
 | Poly TC8        | `3.7.0`          | Mise à jour pour 2021 #2A    |

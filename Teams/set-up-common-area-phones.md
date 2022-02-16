@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Découvrez comment configurer des téléphones communs pour les centres d’accueil, les zones d’accueil et les salles de conférence '
-ms.openlocfilehash: a4e4720fe7baf58d0da6f00800c61b706ec48516
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 144e32e1bf56bc3e2d64d0c6a1a137fd501442b7
+ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279262"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62856662"
 ---
 # <a name="deploy-common-area-phones-for-microsoft-teams"></a>Déployer des téléphones de zone commune pour Microsoft Teams
 
@@ -55,7 +55,7 @@ La licence Domaine commun Téléphone prend en charge :
 &sup2; Non disponible dans des nuages souverains  
 
 >[!NOTE]
-> Les comptes des téléphones de la zone commune à partir Skype Entreprise Server ne peuvent pas être migrés vers Microsoft Teams. Suivez les étapes de cet article pour recréer ces comptes pour Teams et, si nécessaire, migrer votre connectivité PTSN.
+> Les comptes des objets de téléphones en zone commune créés dans Skype Entreprise Server ne peuvent pas être migrés vers Microsoft Teams. Suivez les étapes de cet article pour recréer ces comptes pour Teams et, si nécessaire, migrer votre connectivité PTSN.
 
 ## <a name="step-1---buy-the-licenses"></a>Étape 1 - Acheter les licences
 
