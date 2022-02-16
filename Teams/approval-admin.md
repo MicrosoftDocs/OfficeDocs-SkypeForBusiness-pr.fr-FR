@@ -8,18 +8,23 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
-  - Microsoft Teams
+- Microsoft Teams
 search.appverid: MET150
 description: En savoir plus sur la disponibilité des applications Approbations dans Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: ea3da24dc0fa3a64d90b38a67b13be0fa4d041ce
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "62421547"
 ---
-
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
 L’application Approbations est disponible en tant qu’application personnelle pour tous les utilisateurs de Microsoft Teams.

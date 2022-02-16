@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment télécharger vos applications personnalisées dans le magasin d’applications de votre organisation dans le Microsoft Teams d’administration.
-ms.openlocfilehash: ccb123f776bd7a2b5a5c97685d63eea853c79a58
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 30e63673956c71aee53f1acd685b6107a61f566f
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398311"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "62824713"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publier une application personnalisée en chargeant un package d’application
 
@@ -75,7 +75,7 @@ Pour autoriser les utilisateurs de confiance à télécharger des applications p
 Pour mettre l’application à la disposition des utilisateurs dans le magasin d’applications de votre organisation, téléchargez l’application. Pour ce faire, vous pouvez utiliser la page <a href="/microsoftteams/manage-apps" target="_blank">Gérer les</a> applications du Microsoft Teams d’administration.
 
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **applications Teams** > **Gérer les applications**.
-2. Cliquez **Télécharger**, **sélectionnez un** fichier, puis sélectionnez le package d’application que vous avez reçu du développeur.
+2. **Sélectionnez Télécharger**, cliquez **Télécharger** package d’application, sélectionnez le package d’application que vous avez reçu du développeur, puis sélectionnez **Ouvrir**.
 
    ![Capture d’écran du chargement d’une application dans le Centre d’administration.](media/manage-your-lob-apps-upload-new-app.png) 
 
@@ -127,7 +127,7 @@ Dans la plupart des cas, une fois que vous avez terminé une mise à jour d’ap
 
 ![Capture d’écran de l’option de mise à niveau pour une application.](media/manage-your-custom-apps-update2.png)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Publier une application personnalisée envoyée via l’API Teams App Submission](submit-approve-custom-apps.md)
 - [Gérer vos applications dans le Centre Microsoft Teams’administration](manage-apps.md)

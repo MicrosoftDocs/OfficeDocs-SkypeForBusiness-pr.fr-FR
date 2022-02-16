@@ -16,10 +16,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 659cfd90e2fb5f498c00ea4b48039f9493357309
-ms.sourcegitcommit: 0486ca906fc7f66460e54e400541e5d5cbfc6dde
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "62161033"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>Personnaliser vos applications Teams en fonction de leur licence
@@ -40,7 +40,7 @@ Cette fonctionnalité offre aux utilisateurs les applications les plus pertinent
 
 Les applications sont épinglées à la barre de l’application, qui est la barre sur le côté du client de bureau Teams et en bas des clients mobiles Teams (iOS et Android).
 
-Applications épinglées pour les utilisateurs titulaires d’une licence F :
+Applications épinglées pour les utilisateurs  titulaires d’une licence F :
 
 - Activité
 - Conversation
@@ -51,16 +51,16 @@ Applications épinglées pour les utilisateurs titulaires d’une licence F :
 ## <a name="admin-controls"></a>Contrôles d’administration
 
 > [!NOTE]
-> Pour que cette fonctionnalité prenne effet, l’épinglage d’utilisateur doit être désactivé dans la stratégie de configuration de l’application globale (à l’échelle de l’organisation par défaut). [](teams-app-setup-policies.md)
+> Pour que cette fonctionnalité prenne effet, l’épinglage d’utilisateur doit [](teams-app-setup-policies.md) être désactivé dans la stratégie de configuration de l’application globale (à l’échelle de l’organisation par défaut).
 
-La fonctionnalité d’expérience d’application personnalisée est contrôlée par l’option Afficher les applications **personnalisées** en fonction du paramètre des licences à l’échelle de l’organisation sur la [page](manage-apps.md#manage-org-wide-app-settings) Gérer les applications du Centre d’administration Teams’entreprise. Si la fonctionnalité est en cours, tous les utilisateurs de votre organisation titulaires d’une licence F auront l’expérience d’application personnalisée.
+La fonctionnalité d’expérience d’application personnalisée est contrôlée par l’option Afficher les applications **personnalisées** en fonction du paramètre des licences à l’échelle de l’organisation sur [la page Gérer](manage-apps.md#manage-org-wide-app-settings) les applications du Centre d’administration Teams’entreprise. Si la fonctionnalité est en cours, tous les utilisateurs de votre organisation  titulaires d’une licence F auront l’expérience d’application personnalisée.
 
-N’oubliez pas que les stratégies de configuration d’application personnalisées attribuées aux utilisateurs sont prioritaire. Cela signifie que si un utilisateur possède déjà une stratégie de configuration d’application personnalisée, il reçoit la configuration définie dans la stratégie de configuration de l’application personnalisée. Pour en savoir plus sur l’utilisation de cette fonctionnalité avec les stratégies de configuration d’application existantes que vous avez appliquées dans votre organisation, voir la section [Scénarios](#scenarios) de cet article.
+N’oubliez pas que les stratégies de configuration d’application personnalisées attribuées aux utilisateurs sont prioritaire. Cela signifie que si un utilisateur possède déjà une stratégie de configuration d’application personnalisée, il reçoit la configuration définie dans la stratégie de configuration de l’application personnalisée. Pour en savoir plus sur l’utilisation de cette fonctionnalité avec les stratégies de configuration d’application existantes que vous avez [appliquées](#scenarios) dans votre organisation, voir la section Scénarios de cet article.
 
 Cette fonctionnalité est activée par défaut. Toutefois, si vous ne souhaitez pas que l’expérience d’application personnalisée fournie par Microsoft soit fournie, vous pouvez désactiver la fonctionnalité. Pour désactiver ou activer la fonctionnalité :
 
-1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, sélectionnez Teams **applications** Gérer les applications, puis sélectionnez Paramètres de l’application à  >  l’échelle **de l’organisation.**
-2. Sous **Applications personnalisées,** basculez sur Afficher les applications personnalisées en fonction du bouton bascule des licences **sur** « Off » **(Afficher** les applications **personnalisées).**
+1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, sélectionnez Teams **applications De** >  **gestion des applications**, puis sélectionnez les paramètres de l’application à l’échelle **de l’organisation**.
+2. Sous **Applications personnalisées**, basculez vers l’application Afficher les applications personnalisées en fonction du bouton bascule des **licences** **sur** **Off ou On**.
 
     :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text="Capture d’écran de la page Gérer les applications, affichant le paramètre Afficher les applications personnalisées en fonction du paramètre d’application à l’échelle de l’organisation de licences" lightbox="media/pin-teams-apps-based-on-license.png":::
 
@@ -74,12 +74,12 @@ Utilisez les informations de ce tableau pour découvrir le fonctionnement de la 
 |Un utilisateur a une stratégie de configuration d’application personnalisée et la fonctionnalité est mise en place.    |L’utilisateur obtient la configuration définie dans la stratégie de configuration de l’application personnalisée.          |
 |La fonctionnalité est mise en place et vous mettez à jour la stratégie de configuration globale de l’application.     |L’utilisateur peut obtenir l’expérience d’application personnalisée en fonction de sa licence. Les applications définies dans la stratégie de configuration d’application globale sont toujours épinglées et apparaissent plus bas dans la liste des applications épinglées.          |
 |La fonctionnalité est désactivée.   | L’utilisateur reçoit l’expérience définie dans la stratégie de configuration d’application globale ou la stratégie de configuration personnalisée qui lui est affectée.          |
-|Un utilisateur dispose d’une licence E, A ou G et la fonctionnalité est en cours.   | L’expérience d’application personnalisée ne s’offre pas à l’utilisateur. Pour l’instant, l’expérience d’application personnalisée s’applique uniquement aux utilisateurs titulaires d’une licence F.        |
+|Un utilisateur dispose d’une licence E, A ou G et la fonctionnalité est en cours.   | L’expérience d’application personnalisée ne s’offre pas à l’utilisateur. Pour l’instant, l’expérience d’application personnalisée s’applique uniquement aux utilisateurs  titulaires d’une licence F.        |
 |Une application dans l’expérience d’application personnalisée est bloquée pour un utilisateur ou votre organisation.      |L’expérience d’application personnalisée est adaptée à la stratégie d’autorisation de l’application. Si une application est bloquée, les utilisateurs ne peuvent pas l’être.           |
 |Une application dans l’expérience d’application personnalisée est déjà définie dans une stratégie de configuration d’application et la fonctionnalité est mise en place. |L’application est épinglée selon l’ordre défini par l’expérience d’application personnalisée.        |
 
 > [!NOTE]
-> Vous ne pouvez pas modifier les applications ou l’ordre des applications dans l’expérience d’application personnalisée. Pour l’instant, si vous voulez apporter des modifications, vous pouvez configurer votre propre expérience personnalisée. Pour ce faire, vous pouvez tout d’abord désactiver la fonctionnalité. Ensuite, [créez une stratégie de configuration d’application](teams-app-setup-policies.md)personnalisée et affectez-la [à des utilisateurs ou des groupes.](assign-policies-users-and-groups.md)
+> Vous ne pouvez pas modifier les applications ou l’ordre des applications dans l’expérience d’application personnalisée. Pour l’instant, si vous voulez apporter des modifications, vous pouvez configurer votre propre expérience personnalisée. Pour ce faire, vous pouvez tout d’abord désactiver la fonctionnalité. Ensuite, [créez une stratégie de configuration d’application](teams-app-setup-policies.md) personnalisée et [affectez-la à des utilisateurs ou des groupes](assign-policies-users-and-groups.md).
 
 ## <a name="related-articles"></a>Articles connexes
 

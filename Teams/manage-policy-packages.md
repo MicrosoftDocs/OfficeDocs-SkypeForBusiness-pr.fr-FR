@@ -3,25 +3,30 @@ title: Gérer les packages de stratégie dans Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
-ms.reviewer: 'sekrantz, aaglick'
+ms.reviewer: sekrantz, aaglick
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.policypackages.overview
-  - seo-marvel-apr2020
+- ms.teamsadmincenter.policypackages.overview
+- seo-marvel-apr2020
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 'Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft Teams simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs.'
+description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft Teams simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs.
+ms.openlocfilehash: f90febffb5385a3b91859d63db1b4b320e0a94a7
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "62425293"
 ---
-
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Gérer les packages de stratégie pour Microsoft Teams
 
 Un package de stratégie dans Microsoft Teams est un ensemble de stratégies et de paramètres de stratégie prédéfinis que vous pouvez affecter aux utilisateurs ayant des rôles similaires dans votre organisation. Nous avons créé des packages de stratégies pour simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs au sein de votre organisation.  
@@ -135,7 +140,7 @@ Vous pouvez modifier les paramètres d’une stratégie via la page **Packages**
 
 Vous pouvez affecter un package de stratégie à un utilisateur, un groupe ou un lot d’utilisateurs. Pour plus d’informations sur l’attribution de packages de stratégie, voir [Attribuer des packages de stratégie aux utilisateurs et groupes](assign-policy-packages.md).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Attribuer des packages de stratégie](assign-policy-packages.md)
 - [Teams packages de stratégie pour les administrateurs EDU](policy-packages-edu.md)

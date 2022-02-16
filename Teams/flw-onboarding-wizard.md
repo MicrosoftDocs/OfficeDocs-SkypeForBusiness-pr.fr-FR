@@ -1,5 +1,5 @@
 ---
-title: Utilisez l’Assistant Intégration des employés en avant-première pour rendre votre personnel en avant-première opérationnel
+title: Utilisez l’Assistant Intégration des employés de première ligne pour votre personnel de première ligne soit opérationnel
 author: lanachin
 ms.author: v-lanachin
 ms.reviewer: aaglick
@@ -16,37 +16,37 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 97f8994ecc5c7aef610e040f30b43803f03c6844
-ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "61993190"
 ---
-# <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Utilisez l’Assistant Intégration des employés en avant-première pour rendre votre personnel en avant-première opérationnel
+# <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Utilisez l’Assistant Intégration des employés de première ligne pour votre personnel de première ligne soit opérationnel
 
 ## <a name="overview"></a>Présentation
 
 L’Assistant d’intégration des employés en ligne Centre d'administration Microsoft 365 l’intégration des employés en avant-première à votre organisation. L’Assistant vous permet de déployer rapidement une expérience de Microsoft Teams adaptée à votre personnel en première ligne. L’Assistant vous permet de lancer facilement votre déploiement pilote d’Teams pour les employés en ligne de votre organisation.
 
-L’Assistant met en place une équipe pour vos employés en ligne et attribue des licences et [des packages](manage-policy-packages.md) de stratégie à chaque membre de l’équipe. Vous pouvez créer votre équipe [](get-started-with-teams-templates-in-the-admin-console.md)de toutes pièces ou à partir d’un modèle d’équipe, puis ajouter des utilisateurs et attribuer des rôles. Le rôle détermine le package de stratégie que l’Assistant affecte à chaque utilisateur.
+L’Assistant met en place une équipe pour vos employés en ligne et attribue des licences et [des packages](manage-policy-packages.md) de stratégie à chaque membre de l’équipe. Vous pouvez créer votre équipe de toutes pièces ou à partir d’un modèle d’équipe [, puis](get-started-with-teams-templates-in-the-admin-console.md) ajouter des utilisateurs et attribuer des rôles. Le rôle détermine le package de stratégie que l’Assistant affecte à chaque utilisateur.
 
 Actuellement, l’Assistant prend en charge l’ajout de 100 utilisateurs à chaque fois que vous l’exécutez. Nous travaillons prochainement à l’augmentation du nombre d’utilisateurs par run. Consultez à nouveau cette liste pour obtenir les dernières mises à jour.
 
-L’Assistant est disponible pour toutes les organisations qui ont au moins une [licence F.](https://www.microsoft.com/microsoft-365/enterprise/frontline) Vous pouvez exécuter l’Assistant autant de fois que nécessaire pour déployer Teams employés en avant-première dans différents emplacements ou sites de votre organisation.
+L’Assistant est disponible pour toutes les organisations qui ont au moins une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline). Vous pouvez exécuter l’Assistant autant de fois que nécessaire pour déployer Teams employés en avant-première dans différents emplacements ou sites de votre organisation.
 
 Regardez cette courte vidéo pour avoir un aperçu de la façon d’exécuter l’Assistant pour intégrer votre personnel en ligne.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN6oh]
 
 > [!NOTE]
-> Cet Assistant vous permet d’intégrer rapidement votre personnel en avant-première Teams les employés de Centre d'administration Microsoft 365. Pour plus d’informations sur la manière dont vous Teams employés de première ligne à l’aide de scripts, voir Comment mettre en service des Teams à l’échelle des employés [en](flw-scripted-deployment.md)première ligne.
+> Cet Assistant vous permet d’intégrer rapidement votre personnel en avant-première Teams les employés de Centre d'administration Microsoft 365. Pour plus d’informations sur la manière dont vous Teams employés de première ligne à l’aide de scripts, voir Comment mettre en service des Teams à l’échelle des employés [en](flw-scripted-deployment.md) première ligne.
 
 > [!NOTE]
 > L’Assistant ne prend pas encore en charge [les étiquettes de](sensitivity-labels.md) sensibilité. Si votre organisation a besoin d’étiquettes de sensibilité pour créer une équipe, l’Assistant n’est pas Centre d'administration Microsoft 365.
 
 ## <a name="run-the-wizard"></a>Exécuter l’Assistant
 
-1. Dans le navigation gauche du [Centre d'administration Microsoft 365,](https://admin.microsoft.com/)sélectionnez **Configuration.** Allez à la section **Applications et courrier,** puis, sous Obtenir votre personnel en **avant-première** opérationnel, sélectionnez **Afficher.** Ici, vous pouvez en savoir plus sur les fonctionnalités qui s’offrent Microsoft 365 en avant-première pour les employés en ligne.
+1. Dans le navigation gauche [du Centre d'administration Microsoft 365,](https://admin.microsoft.com/) sélectionnez **Configuration**. Allez à la section **Applications et courrier** , puis, sous Mettre en avant votre personnel de première ligne et **le** rendre opérationnel, **sélectionnez Affichage**. Ici, vous pouvez en savoir plus sur les fonctionnalités qui s’offrent Microsoft 365 en avant-première pour les employés en ligne.
 
     :::image type="content" source="media/flw-onboarding-wizard-get-started.png" alt-text="Capture d’écran de la page de détails sur l’intégration des travailleurs en avant-première dans le Centre d'administration Microsoft 365" lightbox="media/flw-onboarding-wizard-get-started.png":::
 
@@ -68,17 +68,17 @@ Regardez cette courte vidéo pour avoir un aperçu de la façon d’exécuter l�
 
     Ensuite, sélectionnez un emplacement et attribuez une licence Microsoft 365 F à chaque membre de l’équipe. Si vous n’avez pas assez de licences, vous pouvez sélectionner Acheter plus de **licences** pour acheter d’autres licences.  
 
-6. Choisissez qui reçoit l’e-mail de statut une fois l’Assistant terminé. Le message contient des informations sur les actions de réussite et d’échec effectuées par l’Assistant lors de la création de l’équipe, de l’ajout de membres de l’équipe et de l’attribution d’une licence et d’un package de stratégie à chaque membre de &mdash; l’équipe. Utilisez ces informations pour résoudre les erreurs qui peuvent se produire.
+6. Choisissez qui reçoit l’e-mail de statut une fois l’Assistant terminé. Le message contient des informations sur les actions&mdash; de réussite et d’échec effectuées par l’Assistant pour la formation de l’équipe, l’ajout de membres de l’équipe et l’attribution d’une licence et d’un package de stratégie à chaque membre de l’équipe. Utilisez ces informations pour résoudre les erreurs qui peuvent se produire.
 
     :::image type="content" source="media/flw-onboarding-wizard-email-recipients.png" alt-text="Capture d’écran de la page Ajouter des destinataires du message d’état de l’Assistant" lightbox="media/flw-onboarding-wizard-email-recipients.png":::
 
-7. Examinez vos sélections, puis sélectionnez **Confirmer.**
+7. Examinez vos sélections, puis sélectionnez **Confirmer**.
 
     :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="Capture d’écran de la page De révision de l’équipe de l’Assistant dans laquelle vous examinez les paramètres de votre équipe" lightbox="media/flw-onboarding-wizard-review-team.png":::
 
     L’Assistant crée votre équipe et attribue des licences et packages de stratégies aux membres de l’équipe. L’envoi de cette liste peut prendre quelques minutes, après quoi les destinataires que vous avez choisis reçoivent un message d’état.
 
-8. Vous êtes en route, mais ce n’est pas encore fait ! Consultez ensuite la section Que faire après avoir [exécutez la](#what-to-do-after-running-the-wizard) section Assistant de cet article.
+8. Vous êtes en route, mais ce n’est pas encore fait ! Consultez ensuite la section [Que faire après avoir exécutez la section Assistant](#what-to-do-after-running-the-wizard) de cet article.
 
 ## <a name="what-to-do-after-running-the-wizard"></a>Que faire après avoir exécutez l’Assistant
 

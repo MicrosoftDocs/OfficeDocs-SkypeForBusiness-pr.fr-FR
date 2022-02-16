@@ -19,10 +19,10 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "62015014"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Application Talkie-walkie dans Microsoft Teams
@@ -37,15 +37,15 @@ Grâce au Talkie-walkie Teams, les employés en avant-plan peuvent désormais co
 
 Le Talkie-walkie est pris en charge sur les appareils Android avec les Mobile Services Google Mobile Services (GMS) et iOS. 
 
-Actuellement, le Talkie-walkie n’est pas préinstallé. Pour activer cette fonctionnalité pour les utilisateurs de votre organisation, vous devez ajouter le Talkie-walkie à la stratégie de configuration d’application qui est affectée aux utilisateurs à partir du Centre [](teams-app-setup-policies.md)   [Teams’administration.](https://admin.teams.microsoft.com/) Une fois activée, le Talkie-walkie sera disponible dans l’application dans les 48 heures.
+Actuellement, le Talkie-walkie n’est pas préinstallé. Pour activer cette fonctionnalité pour les utilisateurs de votre organisation, vous devez ajouter talkie-walkie [](teams-app-setup-policies.md)  à la stratégie de configuration de l’apps signée pour les utilisateurs à partir du Centre [Teams’administration](https://admin.teams.microsoft.com/). Une fois activée, le Talkie-walkie sera disponible dans l’application dans les 48 heures.
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>Ajout d’un Talkie-walkie à votre liste d’applications
 
-Dans le centre Microsoft Teams d’administration, sous Teams **d’installation** de l’application, vous devez définir l’accès à l’épinglage  >  utilisateur sur **On.**  Sous la section Applications épinglées, cliquez **sur +Ajouter des applications.**
+Dans le Microsoft Teams d’administration, sous Teams **appSetup** > , vous devez définir l’accès à l’épinglage utilisateur sur **On**. Sous la section Applications épinglées, cliquez **sur +Ajouter des applications**.
 
 :::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Section Applications épinglées et bouton Ajouter des applications à sélectionner.":::
 
-Dans le **panneau Ajouter des applications épinglées** qui apparaît à droite, utilisez la zone de texte Rechercher pour rechercher talkie-walkie.  Lorsque vous l’avez comme résultat  de recherche, sélectionnez le bouton Ajouter à droite du nom pour l’ajouter à votre liste.
+Dans le **panneau Ajouter des applications épinglées** qui apparaît à droite,  utilisez la zone de texte Rechercher pour rechercher talkie-walkie. Lorsque vous l’avez comme résultat de recherche, sélectionnez le bouton Ajouter à droite du nom pour l’ajouter à votre liste.
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Affiche la barre latérale Ajouter des applications épinglées avec le walkie entré dans le volet de recherche et l’application Talkie-walkie dans les résultats de recherche, avec le bouton Ajouter à côté.":::
 
@@ -81,10 +81,10 @@ Les employés en ligne doivent souvent parler et recevoir des appels Walkie Talk
   - Casques câblés (Android uniquement)
     - [Tous les autres appareils sont en place.](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 - **Téléphones Android accidentés**
-  - Samsung [Galaxy XCover Pro,](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/) [Galaxy XCover 5,](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy) [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
+  - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
     - Configuration manuelle : une fois Teams, accédez aux fonctionnalités Paramètres > avancées > XCover/Active. Activer « Touche Control XCover avec l’application » et sélectionner « Teams »
     - [Configuration de la gestion des mdm](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
-  - [Tc5x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html) [TC7x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html) [TC2x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html) [EC5x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html) [EC30,](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html) [MC3300,](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html) [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
+  - [Tc5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html), [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html), [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html), [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html), [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html), [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html), [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
     - Configuration manuelle : une fois Teams, le bouton PTT dédié (LEFT_TRIGGER_2) fonctionne avec talkie-walkie par défaut
     
 > [!NOTE]
@@ -92,7 +92,7 @@ Les employés en ligne doivent souvent parler et recevoir des appels Walkie Talk
 
 ### <a name="license-requirements"></a>Conditions de licence requises
 
-L’application Talkie-walkie est incluse dans toutes les licences payantes des Teams dans [Office 365 abonnements.](/office365/servicedescriptions/teams-service-description) Pour plus d’informations sur Teams' accès, consultez comment accéder [à Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
+L’application Talkie-walkie est incluse dans toutes les licences payantes des Teams dans [Office 365 abonnements](/office365/servicedescriptions/teams-service-description). Pour plus d’informations sur la Teams' accès, consultez Comment  [puis-je accéder à Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) ?
 
 ## <a name="further-information"></a>Informations complémentaires
 
