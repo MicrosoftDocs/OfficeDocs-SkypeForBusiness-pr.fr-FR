@@ -11,13 +11,18 @@ search.appverid: MET150
 description: En savoir plus sur le contrôle Administration des locataires pour la reconnaissance vocale (profil vocal) Teams salles de réunion.
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 9c970fb3d8584c9a68512187158c7dad11562c4a
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62863897"
 ---
-
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Gérer les contrôles de technologie de reconnaissance vocale pour un haut-parleur intelligent
 
 Un haut-parleur intelligent utilise les informations de profil vocal pour reconnaître qui a dit quoi dans la transcription en direct. Lorsqu’un Salles Microsoft Teams pour Windows de réunion est équipé d’un haut-parleur intelligent, la transcription en direct peut être utilisée pendant la réunion. Cet article explique comment vous, en tant qu’administrateur de client, contrôlez le profilage vocal utilisé pour la reconnaissance vocale afin de générer une transcription en direct. Vous pouvez contrôler le degré d’utilisation de la reconnaissance vocale par l’organisation ainsi que les fonctionnalités suivantes :
@@ -84,6 +89,9 @@ Voici les stratégies requises pour définir un haut-parleur intelligent et la r
 Dans le Teams d’administration, définissez la stratégie **de** transcription. Paramètres sont **éteints** par défaut.
 
 ![Le Centre d’administration avec les stratégies de réunion mises en évidence et Autoriser la transcription sélectionnées.](../media/allow-transcription1.png)
+  
+> [!NOTE]
+> Une fois qu’une stratégie a été affectée, son application peut prendre jusqu’à 48 heures. Pour que la stratégie prenne effet plus rapidement, les comptes doivent être signés et de nouveau.
 
 ## <a name="frequently-asked-questions-faq"></a>Forum aux questions (FAQ)
 
@@ -93,7 +101,7 @@ Les données de profil vocal sont stockées dans Office 365 cloud avec le conten
 
 **Quelles sont la chronologie et la stratégie de rétention ?**
 
-La stratégie de rétention générale est indiqué dans la vue [d’ensemble de la rétention des données](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). En outre, les données de profil vocal d’un utilisateur sont supprimées au bout de 3 ans si l’utilisateur n’est invité à aucune réunion avec un haut-parleur intelligent au cours de cette période de 3 ans. Les données ne sont utilisées dans aucune réunion pour les employés existants. Si un employé a quitté l’entreprise, les données de profil vocal sont considérées comme du contenu utilisateur et sont traitées comme telles par Office 365 stratégie de rétention des données décrite dans la vue d’ensemble de la rétention des [données](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
+La stratégie de rétention générale est indiqué dans la vue [d’ensemble de la rétention des données](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). En outre, les données de profil vocal d’un utilisateur sont supprimées après 1 an si l’utilisateur n’est invité à aucune réunion avec un haut-parleur intelligent au cours de cette période d’un an. Les données ne sont utilisées dans aucune réunion pour les employés existants. Si un employé a quitté l’entreprise, les données de profil vocal sont considérées comme du contenu utilisateur et sont traitées comme telles par Office 365 stratégie de rétention des données décrite dans la vue d’ensemble de la rétention des [données](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 
 **Les données de profil vocal sont-elles utilisées dans services Microsoft ?**
 
@@ -109,6 +117,6 @@ Non uniquement dans les réunions organisées par un utilisateur de votre organi
 
 Votre administrateur informatique peut exporter vos données audio à tout moment.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Article de support : Utiliser des haut-parleurs intelligents pour identifier les participants présents dans la salle ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)
