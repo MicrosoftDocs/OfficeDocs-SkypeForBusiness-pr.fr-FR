@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment Microsoft Direct Routing vous permet de connecter un contrôleur de session en bordure (SBC) pris en charge par le client à un Système téléphonique.
-ms.openlocfilehash: 9f75646dd90b4c30384e12ae23fdc46be8825fab
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 9070acf8483041115308335abac49796be311453
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518836"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881539"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -182,7 +182,7 @@ En savoir plus : Conditions [requises du programme - Programme racine de Confian
 - DigiCert High Assurance EV Root CA
 
 > [!NOTE]
-> Si la prise en charge mutual TLS (MTLS) est activée pour la connexion Teams sur le SBC, vous devez installer le certificat racine CyberTrust de Baltimore dans le magasin racine approuvé SBC du contexte TLS Teams. (En raison du fait que les certificats de service Microsoft utilisent le certificat racine de Baltimore.) Pour télécharger le certificat racine de Baltimore, voir Office 365 [chaînes de chiffrement](/microsoft-365/compliance/encryption-office-365-certificate-chains).
+> Si la prise en charge mutual TLS (MTLS) est activée pour la connexion Teams sur le SBC, vous devez installer la racine CyberTrust de Baltimore et les certificats DigiCert Global Root G2 dans le magasin racine approuvé SBC du contexte TLS Teams. (Cela est dû au fait que les certificats de service Microsoft utilisent l’un de ces deux certificats racines.) Pour télécharger ces certificats racines, voir Office 365 [chaînes de chiffrement](/microsoft-365/compliance/encryption-office-365-certificate-chains). Pour plus d’informations, voir [Office modifications apportées au certificat TLS](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes).
 
 ## <a name="sip-signaling-fqdns"></a>Signalisation SIP : FQDN 
 
