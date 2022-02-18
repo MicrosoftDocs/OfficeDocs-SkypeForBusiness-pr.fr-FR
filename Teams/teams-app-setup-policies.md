@@ -1,7 +1,7 @@
 ---
 title: Gérer les stratégies de mise en application dans Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -9,18 +9,23 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les stratégies de configuration d’Microsoft Teams pour les utilisateurs de votre organisation.
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.appsetuppolicies.overview
+- ms.teamsadmincenter.appsetuppolicies.overview
+ms.openlocfilehash: 8105e8086571d6eb227395781fd841820b863f0e
+ms.sourcegitcommit: 86a4826472f3f1357ee9bffd512108d8778e0c5b
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62897539"
 ---
-
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
 En tant qu’administrateur, vous pouvez utiliser des stratégies de configuration d’application pour installer et épingler des applications afin de promouvoir les applications les plus utilisées dans votre organisation et de décider si vous souhaitez que les utilisateurs téléchargent des applications personnalisées sur Teams.
@@ -119,7 +124,7 @@ Pour créer une stratégie de configuration d’application afin de permettre au
 4. Activer ou désactiver Télécharger **applications personnalisées**, selon que vous souhaitez ou non que les utilisateurs téléchargent des applications personnalisées sur Teams.
 
 > [!NOTE]
-> Vous ne pouvez pas modifier ce **paramètre si** l’application autoriser des applications tierces est désactivée dans les paramètres de l’application [à l’échelle de l’organisation](manage-apps.md#manage-org-wide-app-settings).
+> Vous ne pouvez pas modifier ce paramètre si **les** applications tierces sont désactivées dans les paramètres d’application [à l’échelle de l’organisation](manage-apps.md#manage-org-wide-app-settings).
 
 ## <a name="manage-app-setup-policies"></a>Gérer les stratégies de configuration des applications
 
@@ -127,7 +132,7 @@ Vous gérez les stratégies de configuration d’application dans Microsoft Team
 
 Vous devez modifier les paramètres de la stratégie globale pour inclure les applications que vous souhaitez. Pour personnaliser Teams différents groupes d’utilisateurs de votre organisation, créez et attribuez une ou plusieurs stratégies personnalisées.
 
-![page Stratégies de configuration des applications.](media/app-setup-policies.png)
+![page Stratégies de configuration des applications.](media/app-setup-policies-update.png)
 
 ### <a name="edit-an-app-setup-policy"></a>Modifier une stratégie de configuration d’application
 
@@ -141,23 +146,19 @@ Vous pouvez utiliser le Centre Microsoft Teams d’administration pour modifier 
 
 4. Sélectionnez **Enregistrer**.
 
-### <a name="assign-a-custom-app-setup-policy-to-users"></a>Affecter une stratégie de configuration d’application personnalisée aux utilisateurs
+### <a name="assign-a-custom-app-setup-policy-to-users-and-groups"></a>Affecter une stratégie de configuration d’application personnalisée aux utilisateurs et groupes
 
-Pour plus d’informations sur l’attribution de stratégies à vos utilisateurs, voir [Affecter des stratégies à des utilisateurs et des groupes](assign-policies-users-and-groups.md).
+Pour plus d’informations sur l’attribution de stratégies à vos utilisateurs et groupes, voir Affecter des stratégies [à des utilisateurs et groupes](assign-policies-users-and-groups.md).
 
 ## <a name="faq"></a>FAQ
 
 ### <a name="working-with-app-setup-policies"></a>Fonctionnement des stratégies de configuration d’application
 
-#### <a name="can-i-assign-an-app-setup-policy-to-a-group"></a>Puis-je affecter une stratégie de configuration d’application à un groupe ?
-
-Les stratégies de configuration d’application peuvent être affectées à des groupes à l’aide de PowerShell. Pour plus d’informations sur l’attribution de stratégies à des groupes à l’aide de PowerShell, voir Affecter des stratégies [à des utilisateurs et groupes](assign-policies-users-and-groups.md#use-the-powershell-option).
-
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Quelles stratégies de configuration d’application intégrées sont incluses dans le Centre Microsoft Teams’administration de l’entreprise
 
 - **Global (par défaut à l’échelle** de l’organisation) : cette stratégie par défaut s’applique à tous les utilisateurs de votre organisation, sauf si vous attribuez une autre stratégie. Modifiez la stratégie globale pour épingler les applications les plus importantes pour vos utilisateurs.
 
-- **FrontlineWorker :** cette stratégie s’agit pour les employés en avant-première. Vous pouvez l’affecter à des employés en ligne de votre organisation. Il est important de savoir que, comme pour les stratégies personnalisées que vous créez, vous devez affecter la stratégie aux utilisateurs pour que les paramètres soient actifs. Pour plus d’informations, voir la section Affecter une stratégie de configuration d’application personnalisée aux [utilisateurs](#assign-a-custom-app-setup-policy-to-users) de cet article.
+- **FrontlineWorker :** cette stratégie s’agit pour les employés en avant-première. Vous pouvez l’affecter à des employés en ligne de votre organisation. Il est important de savoir que, comme pour les stratégies personnalisées que vous créez, vous devez affecter la stratégie aux utilisateurs pour que les paramètres soient actifs. Pour plus d’informations, voir la section Affecter une stratégie de configuration d’application personnalisée aux [utilisateurs](#assign-a-custom-app-setup-policy-to-users-and-groups) de cet article.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>Pourquoi ne puis-je pas trouver une application dans le volet Ajouter des applications épinglées ?
 

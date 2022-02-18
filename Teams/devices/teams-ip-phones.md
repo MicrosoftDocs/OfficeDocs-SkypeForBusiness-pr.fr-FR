@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: e55e2bed641c1cc2042cd02aefbe2a6e13ea8f17
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.openlocfilehash: 5b8e7636c53add6e8ef30fa8903cff8ac3d260a3
+ms.sourcegitcommit: 86a4826472f3f1357ee9bffd512108d8778e0c5b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62863937"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62897549"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams appareils Android certifiés
 
@@ -71,8 +71,9 @@ Les appareils suivants sont certifiés sous le programme Salles Microsoft Teams 
 
 | Modèle d’appareil | Version du microprogramme | Date de fin actuelle de la certification | Taille de la salle                                        |  Version du système d’exploitation Android    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Logitech Roommate | `1.4.71` | 3 septembre 2024  | Grande salle de réunion (4,5 m x 8,5 m)  |   10  |
 | DONT LE DÉVELOPPEMENT DE 80T EST EN COURS | `1.2.2.21182.10` | 5 août 2023 | Fourni avec l’offre PERSONNELLES Vision 3T | 9 |
-| Logitech Tap Device     | `1.2.982`     |   3 septembre 2024  | Compatible avec la barre d’enfants Logitech Ainsi que la barre d’enfants Mini | 10 |
+| Logitech Tap Device     | `1.2.982`  |   3 septembre 2024  | Compatible avec la barre d’enfants Logitech Ainsi que la barre d’enfants Mini | 10 |
 | Logitech Cat Bar Mini | `1.2.982`     |   3 septembre 2024  |    Petite Salle de réunion (4,5 m x 4,5 m) | 10 |
 | Logitech Cat Bar      | `1.2.788`     |   3 septembre 2024  |    Salle de taille moyenne (4,5 m x 6 m)       | 10 |
 | AudioCodes RXV80 | `1.9.155`        |   5 août 2023  | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) | 9 |
