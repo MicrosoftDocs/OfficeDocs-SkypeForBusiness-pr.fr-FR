@@ -89,32 +89,32 @@ items:
                     href: teams-adoption-drive-awareness.md
                   - name: Programmer les évaluations de l’intégrité du service
                     href: teams-adoption-schedule-service-health-reviews.md
-          - name: Déployer les clients Microsoft Teams
+          - name: Déploiements de clients
             items:
-              - name: Obtenir des clients pour Teams
+              - name: Obtenir les clients Teams
                 href: get-clients.md
-              - name: Télécharger Teams pour Android en Chine
-                href: get-teams-android-in-china.md
-              - name: Configuration matérielle requise pour l’application Teams
-                href: hardware-requirements-for-the-teams-app.md
-              - name: Recommandations concernant le pilote matériel encodeur et décodeur
-                href: hardware-decoders-and-encoders.md
-              - name: "Installer Microsoft\_Teams à l’aide de Microsoft Endpoint Configuration Manager"
+              - name: Mises à jour du client pour Teams
+                href: teams-client-update.md
+              - name: Installer Teams en bloc à l’aide de Windows Installer
                 href: msi-deployment.md
-              - name: Activer Teams dans votre organisation
-                href: Office-365-set-up.md
-              - name: Utilisation de la mémoire par Microsoft Teams
-                href: teams-memory-usage-perf.md
-              - name: URL et plages d’adresses IP Microsoft 365 et Office 365
-                href: office-365-urls-ip-address-ranges.md
               - name: Teams pour une infrastructure bureau virtualisée(VDI)
                 href: teams-for-vdi.md
               - name: Teams pour environnement Bureau à distance (EBD)
                 href: teams-on-rdp.md
-              - name: Mises à jour du client pour Teams
-                href: teams-client-update.md
               - name: Résoudre les problèmes d’installation et de mise à jour
                 href: troubleshoot-installation.md
+              - name: Référence
+                items:
+                  - name: "URL et plages d’adresses IP Microsoft\_365"
+                    href: office-365-urls-ip-address-ranges.md
+                  - name: Configuration matérielle requise
+                    href: hardware-requirements-for-the-teams-app.md
+                  - name: Utilisation de la mémoire par Teams
+                    href: teams-memory-usage-perf.md
+                  - name: Recommandations concernant le pilote matériel encodeur et décodeur
+                    href: hardware-decoders-and-encoders.md
+                  - name: Script PowerShell pour le pare-feu Teams
+                    href: client-firewall-script.md
       - name: Formation Teams
         items:
           - name: Formation sur Teams pour les administrateurs
@@ -1767,6 +1767,8 @@ items:
             href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: Gérer les paramètres d'intégration Microsoft Office SharePoint Online et Teams
             href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+      - name: Activer Teams dans votre organisation
+        href: Office-365-set-up.md
       - name: PowerShell Teams
         items:
           - name: Vue d’ensemble
