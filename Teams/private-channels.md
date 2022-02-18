@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les canaux privés dans Microsoft Teams.
-ms.openlocfilehash: 8d041d0fa8a182cb3cebf485c9cef92f880a99e5
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: edf3fc2933bf51f3c5966fa8e021fe0ff50de39b
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299009"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881549"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canaux privés dans Microsoft Teams
 
@@ -83,10 +83,6 @@ Le tableau suivant décrit les actions que les propriétaires, les membres et le
 |Modifier les paramètres|Non|N/A|N/A|Oui|Non|Non|
 |Gérer les onglets et les applications|Non|N/A|N/A|Oui, les applications doivent être installées pour l’équipe|Contrôlé par le propriétaire du canal|Non|
 
-## <a name="manage-the-lifecycle-of-private-channels"></a>Gérer le cycle de vie des canaux privés
-
-Vous pouvez consultez l’article [Gérer le cycle de vie des canaux privés dans Teams](private-channels-life-cycle-management.md) pour obtenir plus d’informations sur la gestion du cycle de vie des canaux privés au sein de votre organisation. Et notamment, comment contrôler si les utilisateurs de votre organisation peuvent créer des canaux privés, comment créer un canal privé au nom d'un propriétaire d'équipe, comment obtenir une liste de tous les messages de canaux privés à des fins d'archivage et d'audit ainsi que d'autres tâches de gestion.  
-
 ## <a name="private-channel-sharepoint-sites"></a>Canal privé des sites SharePoint
 
 Chaque canal privé possède ses propres sites SharePoint. Le site séparé vise à garantir que l’accès aux fichiers de canaux privés est limité aux seuls membres du canal privé. Ces sites sont créées avec une bibliothèque de documents par défaut, et peuvent être facilement améliorés et transformés en site complet via l’[interface de gestion de site](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Chaque site est créé dans la même zone géographique que le site de l’équipe parente. Ces sites légers ont un ID de modèle personnalisé, « TEAMCHANNEL#0 », pour simplifier la gestion via PowerShell et l’API Graph. 
@@ -139,3 +135,5 @@ Les réunions de canal ne peuvent pas être programmées.
 [Présentation de Teams PowerShell](teams-powershell-overview.md)
 
 [Utiliser l’API Microsoft Graph pour travailler avec Teams](/graph/api/resources/teams-api-overview)
+
+[Type de ressource de canal](/graph/api/resources/channel)
