@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175b7f4bf8d181ae7e66edb255bd32dd40bb2fa1
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 7264d7f08342121a862943dd8b063fe904c87072
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518976"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893727"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Vue d’ensemble des composants Loop dans Teams
 
@@ -78,7 +78,7 @@ Les fichiers .fluid peuvent uniquement être ouverts en tant que liens dans votr
 - Avec les autorisations de fichier par défaut du client définies sur Personnes spécifiques *(* seules les personnes spécifiées par l’utilisateur), la création d’un composant en direct dans la conversation de groupe de plus de 20 membres nécessite que l’expéditeur sélectionne manuellement les options d’autorisation pour le composant.
 - La recherche de composants Loop dans Teams recherche a pour effet de renvoyer un lien vers le composant dans office.com et non le message de conversation proprement dit.
 - Les composants de boucle sont désactivés dans les conversations fédérées.
-- Les invités B2B ne pourront pas collaborer sur un composant en direct partagé avec *eux via des* liens vers des personnes de votre organisation, sauf si le client définit une option d’accès externe pour autoriser les invités B2B à avoir le même niveau d’accès que les membres du client. Pour plus d’informations, [voir Configurer les paramètres de collaboration externe B2B](/azure/active-directory/external-identities/delegate-invitations#configure-b2b-external-collaboration-settings).
+- Les invités B2B ne pourront pas collaborer sur un composant en direct partagé avec eux via le lien de partage de la société. Définissez des autorisations **sur Personnes actuellement dans cette conversation** pour partager des composants avec des invités B2B.
 - Les composants de boucle ne sont pas pris en charge Teams canaux.
 - Les composants de boucle dans la conversation ne se chargeront pas uniquement si le fichier a été déplacé vers une autre bibliothèque. Si le fichier est déplacé vers un autre dossier, il continuera à être chargé dans la conversation.
 

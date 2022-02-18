@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de votre organisation lorsqu’ils travaillent à partir de chez eux (WFH) en réponse à l’épidémie COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06be01aad7a8bea73c608cd4709149042daec9e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 631fdd7668e8dd0bc8781509671dc11a1c631816
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610521"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893533"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Forum aux questions : soutenir vos employés en télétravail
 
@@ -83,7 +83,7 @@ Teams est disponible gratuitement via deux programmes différents :
 
 ### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>J'ai déjà Microsoft 365, mais je n’utilise pas Teams. Est-ce que vous fournissez des licences en version d’évaluation?
 
-Si vous avez Microsoft 365, vous avez déjà Teams. [Activez-le](Office-365-set-up.md) pour tous vos utilisateurs. Une fois activée, vos utilisateurs peuvent exécuter Teams, soit en installant [Bureau](get-clients.md#desktop-client) et [clients mobiles](get-clients.md#mobile-clients), soit [à partir du navigateur](get-clients.md#mobile-clients) sur [https://teams.microsoft.com](https://teams.microsoft.com). 
+Si vous avez Microsoft 365, vous avez déjà Teams. [Activez-le](Office-365-set-up.md) pour tous vos utilisateurs. Une fois activée, vos utilisateurs peuvent exécuter Teams, soit en installant [Bureau](get-clients.md#desktop-clients) et [clients mobiles](get-clients.md#mobile-clients), soit [à partir du navigateur](get-clients.md#mobile-clients) sur [https://teams.microsoft.com](https://teams.microsoft.com). 
 
 ### <a name="how-do-i-get-help-to-get-started-with-teams-and-make-sure-the-deployment-is-successful"></a>Comment obtenir de l’aide pour prendre en main Teams et vérifier que le déploiement réussit ?
 

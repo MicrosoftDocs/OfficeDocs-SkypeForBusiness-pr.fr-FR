@@ -1,5 +1,5 @@
 ---
-title: Activer les Teams dans votre Microsoft 365 ou Office 365
+title: Activer les Teams dans votre Microsoft 365
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Découvrez comment activer des Microsoft Teams pour votre organisation Microsoft 365 ou Office 365, attribuer des licences utilisateur pour contrôler l’accès individuel et autoriser ou bloquer des sources de contenu.
+description: Découvrez comment activer les Microsoft Teams pour votre Microsoft 365 organisation.
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -20,28 +20,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9341ad677ba3a8d6d866959f8a3afa7520f1de1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c0cc442c400faf9e1ca045df85cb7266bb7f3ba7
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631548"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893513"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>Activer Teams dans votre organisation
 
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+Microsoft Teams est désactivé pour toutes les organisations. Vous pouvez contrôler l’accès aux Teams de votre organisation avec une licence utilisateur. Pour en savoir plus, reportez-vous à la rubrique [Gestion de l'accès des utilisateurs à Microsoft Teams](user-access.md). Pour en savoir plus sur la gestion des licences individuelles, lisez [Microsoft Teams description du service](/office365/servicedescriptions/teams-service-description).
 
-Par défaut, Teams est activé pour toutes les organisations. Si vous utilisiez Teams lors de la période d’évaluation, sa configuration reste identique à celle que vous aviez définie pendant sa période d’évaluation. 
-
-
-En tant qu’administrateur de l’organisation, vous pouvez attribuer des licences pour contrôler l'accès individuel à Teams. Vous pouvez également choisir les sources de contenu qui peuvent être utilisées dans Teams. Si vous souhaitez en savoir plus, consultez l’article [Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md) ou [Paramètres d'administration pour les applications dans Microsoft Teams](admin-settings.md). 
-
-
- 
-Pour en savoir plus sur la gestion des licences individuelles, lisez [Microsoft Teams description du service.](/office365/servicedescriptions/teams-service-description) 
-
- 
-## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>Activer ou désactiver Teams pour l’ensemble de l’organisation 
- 
-[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
+En tant qu’administrateur de l’organisation, vous pouvez attribuer des licences pour contrôler l'accès individuel à Teams. Vous pouvez également choisir les sources de contenu qui peuvent être utilisées dans Teams. Si vous souhaitez en savoir plus, consultez l’article [Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md) ou [Paramètres d'administration pour les applications dans Microsoft Teams](admin-settings.md).

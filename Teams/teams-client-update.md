@@ -18,12 +18,12 @@ ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2f0bc329910f4e4d89f07684f92ddcc1c340edf3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65421d36c0a8c19d8c7118e348222e3b62175a95
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606943"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893523"
 ---
 # <a name="teams-update-process"></a>Processus de mise à jour de Teams
 
@@ -33,17 +33,15 @@ Les mises à jour du client de bureau Teams sont publiées toutes les deux semai
 
 Le client de bureau se met à jour automatiquement. Teams recherche les mises à jour toutes les quelques heures en arrière-plan, les télécharge, puis attend que l’ordinateur soit inactif avant d’installer la mise à jour en mode silencieux.
 
-Les utilisateurs peuvent également télécharger manuellement les mises à jour en sélectionnant **Rechercher les mises à jour** dans le menu déroulant **Profil** en haut à droite de l’application. Si une mise à jour est disponible, elle est téléchargée et installée en mode silencieux lorsque l’ordinateur est inactif.
+Les utilisateurs peuvent également télécharger manuellement les mises à jour en sélectionnant **Vérifier les mises à jour** dans le menu déroulant **...** en regard de votre icône **Profil** dans le haut à droite de l’application. Si une mise à jour est disponible, elle est téléchargée et installée en mode silencieux lorsque l’ordinateur est inactif.
 
 Les utilisateurs doivent être connectés pour que les mises à jour soient téléchargées.
-
-À compter du 31 juillet 2019, les mises à jour du client Teams utilisent une bande passante réseau inférieure pendant la mise à jour. Cette mise à jour est activée par défaut et ne nécessite aucune action de la part des administrateurs ou des utilisateurs.
 
 ## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>Qu’en est-il des mises à jour des applications Microsoft 365 pour les entreprises ?
 
 Teams est installé par défaut avec de nouvelles installations de Microsoft 365 Apps for enterprise, comme décrit dans [Déployer Microsoft Teams avec Microsoft 365 Apps for enterprise](/DeployOffice/teams-install).
 
-Teams suit son propre processus de mise à jour, comme indiqué ci-dessus. Teams ne suit pas le processus de mise à jour pour les autres applications Office, telles que Word et Excel. Pour en savoir plus, consultez [Vue d’ensemble des canaux de mise à jour pour Microsoft 365 Apps for enterprise](/DeployOffice/overview-of-update-channels-for-office-365-proplus).
+Teams suit son propre processus de mise à jour, comme indiqué ci-dessus. Teams ne suit pas le processus de mise à jour pour les autres applications Office, telles que Word et Excel. Pour en savoir plus, consultez la [Vue d’ensemble des canaux de mise à jour pour les Applications Microsoft 365](/DeployOffice/overview-update-channels).
 
 ## <a name="what-about-updates-to-teams-on-vdi"></a>Qu’en est-il des mises à jour de Teams sur VDI ?
 
