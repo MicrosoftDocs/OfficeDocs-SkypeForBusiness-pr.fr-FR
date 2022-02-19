@@ -1,7 +1,7 @@
 ---
 title: Salles Microsoft Teams maintenance et opérations
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -12,18 +12,17 @@ ms.collection:
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: Lisez cette rubrique pour en savoir plus sur la gestion des Salles Microsoft Teams.
-ms.openlocfilehash: be5f183e593ca1723383b6834c9ff5cad387b42f
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+description: En savoir plus sur la gestion Salles Microsoft Teams.
+ms.openlocfilehash: 864438890bbaef87842f6cb4b77328906036ea56
+ms.sourcegitcommit: 060ba9910b8d74cbf7097cd3b8e2834afdb3db95
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62298989"
+ms.lasthandoff: 02/19/2022
+ms.locfileid: "62909016"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Salles Microsoft Teams maintenance et opérations
  
-Lisez cette rubrique pour en savoir plus sur la gestion des Salles Microsoft Teams.
-  
+ 
 Salles Microsoft Teams solution de conférence de Microsoft est conçue pour transformer votre salle de réunion en une expérience de collaboration enrichie et collaborative. Les utilisateurs apprécieront son interface utilisateur familière Microsoft Teams ou Skype Entreprise et les administrateurs informatiques apprécieront une application de gestion et de déploiement Windows 10 salles Teams facile. Salles Microsoft Teams est conçu pour tirer parti d’équipements existants afin de faciliter l’installation pour Microsoft Teams des Skype Entreprise dans votre salle de réunion.
     
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Collecte des journaux sur Salles Microsoft Teams
@@ -209,18 +208,9 @@ Copy-Item $movefile $targetDevice
 
 Par défaut, Salles Microsoft Teams tente de se connecter au Windows Store pour obtenir la dernière version Salles Microsoft Teams logiciels. Par conséquent, salles Teams nécessite un accès internet normal. Avant de contacter Microsoft pour des problèmes de support, assurez-vous Salles Microsoft Teams charge avec la dernière version de l’application.
   
-Salles Microsoft Teams se connecte à Windows mise à jour pour récupérer les mises à jour du système d’exploitation et du microprogramme de l’appareil périphérique. Teams salle est configurée pour les installer à partir de 02:00 heure locale.
-  
-Si vous devez gérer les mises à jour manuellement en raison de limitations dans l’accès au magasin Windows et ne pouvez donc pas suivre la procédure normale de [Microsoft Store pour Entreprises](https://businessstore.microsoft.com/store) pour distribuer les applications hors [connexion, vous](/microsoft-store/distribute-offline-apps) pouvez acheter le fichier APPX approprié et les dépendances à partir du [kit](https://go.microsoft.com/fwlink/?linkid=851168) de déploiement (dans les instructions de configuration d’une [ Salles Microsoft Teams console de travail](console.md)) qui peuvent être utilisées avec Configuration Manager. La publication du kit de déploiement est en retard par rapport à la version du Store, aussi ne correspond-elle peut-être pas toujours à la dernière build disponible.
-  
-### <a name="to-update-using-powershell"></a>Pour mettre à jour à l’aide de PowerShell
+Salles Microsoft Teams se connecte à Windows mise à jour pour récupérer les mises à jour du système d’exploitation et du microprogramme de l’appareil périphérique. Il se connecte également au Microsoft Store pour récupérer les mises à jour des applications.
 
-1. Extrayez le package de [l’installation MSI](https://go.microsoft.com/fwlink/?linkid=851168) sur un partage accessible à l’appareil.
-2. Exécutez le script suivant ciblant les Salles Microsoft Teams, en \<share\> modifiant le partage d’appareil selon le cas :
-    
-    ```PowerShell
-    Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
-    ```
+Si vous devez gérer les mises à jour des applications manuellement, mais ne pouvez pas suivre la procédure normale pour [Microsoft Store pour Entreprises](https://businessstore.microsoft.com/store) afin de distribuer les applications hors [connexion, vous](/microsoft-store/distribute-offline-apps) pouvez acheter des packages de mise à jour salles Teams pour effectuer des mises à jour d’application sur les systèmes d’exploitation pris en charge. Il se peut que la publication de la mise à jour soit en retard par rapport à la version du Store, et qu’elle ne corresponde pas toujours à la dernière build disponible. Pour [plus d’informations, voir Mettre à Salles Microsoft Teams jour](manual-update.md) manuellement un appareil.
 
 ## <a name="admin-mode-and-device-management"></a>Mode Administrateur et gestion des appareils
 <a name="AdminMode"> </a>
