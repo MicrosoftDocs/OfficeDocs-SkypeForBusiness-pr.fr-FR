@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7264d7f08342121a862943dd8b063fe904c87072
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 660ecd7542eadd56b284642895e5da15a1cdd434
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893727"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918938"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Vue d’ensemble des composants Loop dans Teams
 
@@ -37,6 +37,8 @@ Les composants en boucle Teams conversation instantanée offrent une nouvelle fa
 **Partager des composants.** Dans cette version, vous pouvez partager les composants Loop dans différentes Teams conversations. Les destinataires peuvent apporter des modifications où qu’ils soient et voir instantanément les mises à jour, quel que soit l’endroit où ont été apportées les modifications.
 
 **Démarrez la conversation, créez à partir de là.** Chaque composant que vous créez à partir Teams conversation est automatiquement enregistré dans un fichier dans OneDrive. Par exemple, vous pouvez commencer à collaborer dans une conversation, puis vous déplacer plus tard vers le fichier, où vous avez un espace visuel plus grand pour la modification et pouvez ajouter autant de composants que vous le souhaitez.
+
+Pour plus d’informations sur les paramètres d’administration des composants Loop Teams, voir [Gérer les composants Loop dans SharePoint](/sharepoint/manage-loop-components).
 
 ## <a name="clients-and-platforms"></a>Clients et plateformes
 
@@ -81,7 +83,3 @@ Les fichiers .fluid peuvent uniquement être ouverts en tant que liens dans votr
 - Les invités B2B ne pourront pas collaborer sur un composant en direct partagé avec eux via le lien de partage de la société. Définissez des autorisations **sur Personnes actuellement dans cette conversation** pour partager des composants avec des invités B2B.
 - Les composants de boucle ne sont pas pris en charge Teams canaux.
 - Les composants de boucle dans la conversation ne se chargeront pas uniquement si le fichier a été déplacé vers une autre bibliothèque. Si le fichier est déplacé vers un autre dossier, il continuera à être chargé dans la conversation.
-
-## <a name="related-topics"></a>Voir aussi
-
-[Gérer les composants Loop dans SharePoint](/sharepoint/manage-loop-components)

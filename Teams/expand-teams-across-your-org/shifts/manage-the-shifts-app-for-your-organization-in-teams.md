@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fa274c8aa068d7b17ce35d17525b58152677de07
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: dd40888ec8f1f7c5c05c3f5a2bf5a867ece93a65
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288372"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918877"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Plannings pour votre organisation dans Microsoft Teams
 
@@ -52,6 +52,10 @@ Plannings est disponible dans toutes les références Entreprise où Teams est d
 ## <a name="location-of-shifts-data"></a>Emplacement des données Plannings
 
 Les données Plannings sont actuellement stockées dans Azure dans des centres de données en Amérique du Nord, en Europe de l’ouest et en Asie-Pacifique. Pour plus d’informations sur l’emplacement de stockage des données, voir [Où se trouvent mes données](http://o365datacentermap.azurewebsites.net/) ?
+
+## <a name="shifts-data"></a>Décale les données
+
+Pour en savoir plus sur l’endroit où sont stockées les données Shifts ainsi que sur la rétention, l’extraction et le chiffrement des données Shifts, voir FAQ sur les données [Shifts](shifts-data-faq.md).
 
 ## <a name="set-up-shifts"></a>Configurer des Plannings
 
@@ -86,6 +90,7 @@ Pour effectuer une recherche dans le journal d’audit, vous devez au préalable
 
 ## <a name="related-topics"></a>Rubriques connexes
 
+- [Shifts pour Teams](../shifts-for-teams-landing-page.md)
 - [Aide shifts pour les employés en avant-première](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [Attribuer des stratégies à vos utilisateurs](../../policy-assignment-overview.md)
 - [Connecteurs Shifts](shifts-connectors.md)
+- [Attribuer des stratégies à vos utilisateurs](../../policy-assignment-overview.md)

@@ -22,12 +22,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 4c3ed73b3238be2795c30fa7d162ed201cd77afd
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: b92cca01512d31fe193a718eede74fd04f44ae2e
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288502"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918867"
 ---
 # <a name="shifts-for-teams"></a>Shifts pour Teams
 
@@ -43,8 +43,9 @@ Utilisez les ressources suivantes pour configurer et gérer Shifts dans votre or
 
 |&nbsp;  |&nbsp; |
 |---------|---------|
-|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">|**[Gérer shifts dans votre organisation](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** Découvrez comment gérer Shifts pour votre organisation. |
-|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">|**[Gérer les propriétaires de planning pour la gestion des shifts](shifts/schedule-owner-for-shift-management.md)** Cette fonctionnalité vous permet d’améliorer les autorisations d’un membre de l’équipe en tant que propriétaire de planning sans donner à l’employé le niveau de propriétaire de l’équipe. |
+|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">   |**[Gérer les shifts](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** Découvrez comment gérer Shifts pour votre organisation.         |
+|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">   |**[Gérer les propriétaires de planning pour la gestion des shifts](shifts/schedule-owner-for-shift-management.md)** Cette fonctionnalité vous permet d’améliorer les autorisations d’un membre de l’équipe en tant que propriétaire de planning sans donner à l’employé le niveau de propriétaire de l’équipe.         |
+|<img src="/office/media/icons/help.png" alt="Help symbol.">     | **[FAQ shifts de données](shifts/shifts-data-faq.md)** Découvrez où sont stockées les données Shifts et d’autres rubriques liées aux données Shifts, notamment la rétention, l’extraction et le chiffrement.        |
 
 ## <a name="shifts-connectors"></a>Connecteurs Shifts
 
