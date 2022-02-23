@@ -1539,6 +1539,8 @@ items:
                 items:
                   - name: Vue d’ensemble
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
+              - name: FAQ sur les données Shifts
+                href: expand-teams-across-your-org/shifts/shifts-data-faq.md
       - name: Microsoft Teams pour l’éducation
         href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:

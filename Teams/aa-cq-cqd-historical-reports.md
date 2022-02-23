@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Découvrez comment utiliser le tableau de bord de qualité des appels Power BI rapport pour afficher les données historiques Standard automatique de la file d’attente d’appels.
-ms.openlocfilehash: 22c2152401cd9ec08ae1fbad2bbd42eb29fc0726
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: bb83a31b083387bc945f7f4b4388ee6643c00f10
+ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457234"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62921872"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Standard automatique & historique de la file d’attente d’appels
 
@@ -75,7 +75,7 @@ Effectuez les étapes suivantes :
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - La région s’affichera après la zone **/** comme dans l’exemple ci-dessus où se trouve la région : noam
+    - La région s’affichera après la zone **/** comme dans l’exemple ci-dessus où la région se trouve : noam
 
  - Le rapport s’lance avec des exemples de données.
  
@@ -238,7 +238,7 @@ Effectuez les étapes suivantes :
 
 |Nom                                    |Type de données                |Description                              |
 |:---------------------------------------|:------------------------|:----------------------------------------|
-|***% appels abandonnés***                 |Pourcentage               |Mesure : TotalCallCount / Total Calls<br>Ratio du nombre d’appels réussis à l’abandon    |
+|***% appels abandonnés***                 |Pourcentage               |Mesure : nombre d’appels abandonnés / nombre total d’appels    |
 |Nombre total d’appels                             |Nombre entier             |Mesure : l’agent somme a répondu à des appels        |
 |TotalCallCount                          |Nombre entier             |Mesure : Somme(Nombre d’appels)                 |
 
