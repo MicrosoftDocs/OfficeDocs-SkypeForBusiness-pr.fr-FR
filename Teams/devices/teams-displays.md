@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams s’affiche
-ms.author: serdars
-author: SerdarSoysal
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Cet article fournit une vue d’ensemble des fonctionnalités qui sont Microsoft Teams aux affichages.
-ms.openlocfilehash: 2d6fb3269e8abf33fc75b59fcef924d133a1ccb3
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 8c8004edd12042ca27e77e545f23b8770f8d1899
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62384138"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926327"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams s’affiche
 
@@ -53,6 +53,17 @@ Pour en savoir plus sur le déploiement d Teams’affichages à l’aide d’Int
 ## <a name="manage-teams-displays-in-your-organization"></a>Gérer Teams les affichages dans votre organisation
 
 Pour gérer vos Teams d’affichage, dans le panneau de navigation gauche du Centre Microsoft Teams d’administration, Teams **affiche.** À partir de cet écran, vous pouvez modifier le profil de configuration de l’appareil, gérer les mises à jour, redémarrer des appareils, ajouter et supprimer des balises d’appareil, et bien plus encore. Pour plus d’informations, [voir Gérer vos appareils dans Teams](device-management.md).
+
+## <a name="set-up-hot-desking-on-teams-displays"></a>Configurer la fonction de desking hot sur Teams’écran
+
+Les utilisateurs de votre organisation peuvent réserver des espaces de travail temporaires à l’avance dans les Teams d’Outlook, ou à partir de l’appareil proprement dit. Lorsque la reconnaissance des informations d’identification est activée, les utilisateurs se connectent à Teams s’affichent avec leurs informations d’Microsoft 365 pour accéder à leurs réunions, conversations et fichiers. Lorsqu’il se dé connecte, toutes ses informations personnelles sont supprimées de l’appareil.
+
+Pour commencer, vous devez acquérir des licences Salles Microsoft Teams Standard et créer des comptes de ressources pour chaque Teams affichée. [Consultez Déployer Salles Microsoft Teams avec d Office 365](../rooms/with-office-365.md) pour créer des comptes de ressources.
+
+Après avoir créé des comptes de ressources, vous pouvez créer et affecter une stratégie pour activer l’accès au desserrage. Pour [en savoir plus, consultez New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) .
+
+> [!IMPORTANT]
+> Étant donné que Teams s’affiche avec la procédure de desserrage rapide dans les espaces de travail partagés par plusieurs personnes, les règles d’accès conditionnel et d’autres configurations d’identité, telles que l’authentification multifacteur, peuvent avoir un impact sur ces appareils et entraîner des problèmes de authentification. Pour obtenir des instructions sur la sécurisation des appareils partagés, voir Les meilleures pratiques [d’authentification pour Teams appareils Android partagés](authentication-best-practices-for-android-devices.md).
 
 ## <a name="upgrade-teams-phones-to-teams-displays"></a>Mettre à niveau Teams téléphones portables vers Teams’affichage
 

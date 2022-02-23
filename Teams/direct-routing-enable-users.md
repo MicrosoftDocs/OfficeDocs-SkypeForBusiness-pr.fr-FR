@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment activer l’accès des utilisateurs Microsoft Teams Téléphone routage direct.
-ms.openlocfilehash: 4acf18799060d6cc89e477109e916b5bf0d8401a
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: be2f0e0f33bd236591c8c8a2d9cf415972e018d6
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763329"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926297"
 ---
 # <a name="enable-users-for-direct-routing"></a>Permettre aux utilisateurs d’obtenir un routage direct
 
@@ -90,6 +90,27 @@ Le routage direct nécessite que l’utilisateur soit domicile en ligne. Vous po
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice"></a>Configurer le numéro de téléphone et activer Voix Entreprise 
 
 Après avoir créé l’utilisateur et attribué une licence, vous devez configurer ses paramètres de téléphone en ligne. Notez que la configuration des Messagerie vocale infonuagique pour l’utilisateur est automatique. Aucune configuration supplémentaire n’a besoin d’être effectuée.
+
+Vous pouvez configurer le numéro de téléphone à l’aide du Centre Teams’administration ou de Teams PowerShell.
+
+### <a name="use-teams-admin-center"></a>Utiliser le Teams d’administration de l’équipe
+
+1. Allez à **UtilisateursManage** ->  **utilisateurs**.
+
+2. Sélectionnez un utilisateur.
+
+2. Sous **Informations générales** **sur le compte**, **sélectionnez Modifier**.
+
+3. Sous **Affecter un numéro de téléphone**, dans **Téléphone menu déroulant Type** de numéro, sélectionnez **Routage direct**.
+
+4. Entrez un numéro de téléphone affecté et une extension de numéro de téléphone si appicable.
+
+5. **Sélectionnez Appliquer.**
+
+Les informations générales du compte indiquent désormais le numéro de téléphone affecté et le routage direct comme type de numéro de téléphone.
+
+
+### <a name="use-powershell"></a>Utiliser PowerShell
 
 1. Connecter à une Microsoft Teams PowerShell. 
 

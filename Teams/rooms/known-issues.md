@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: En savoir plus sur les problèmes connus pour Salles Microsoft Teams, y compris la mise à jour, l’interface utilisateur, le matériel et les limitations et les comportements attendus.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0c9d73ddf276fac1474c51156cbc59a3b3bbb47b
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: 5322020d37e3251aa54a20afecba353dd6335f55
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299089"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926317"
 ---
 # <a name="known-issues"></a>Problèmes connus 
  
@@ -31,6 +31,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams Rooms, 
 
 | Titre du problème |  Comportement\/Symptôme | Solution connue | Article Ko |
 |  ---        |      ---             |   ---            | --- |
+| Le Tableau blanc ou la caméra de contenu ne parvient pas à améliorer le contenu lorsque les bords ne sont pas détectés | Après la mise à jour vers la mise à jour vers la mise à jour 4.11.12.0, lorsqu’il n’y a pas de bords de tableau blanc dans la vue de la caméra de contenu, l’appareil photo ne permet pas d’améliorer/superposer tout le contenu dans la vue de la caméra.| Correctif à inclure dans une prochaine version pour améliorer tout le contenu en vue Caméra. Pour contourner ce besoin, vous pouvez utiliser temporairement la bande de peinture appliquée dans une zone au tableau blanc pour fournir temporairement des bords que la caméra de contenu peut utiliser pour concentrer et améliorer du contenu. | Aucun |
 | Lancement automatique du navigateur Edge | Le navigateur Edge avant la build 97.0.1072.62 est lancé automatiquement en même temps que l’application Microsoft Teams Room au démarrage de l’appareil. | Ce problème doit se résoudre automatiquement, sans interaction de l’utilisateur nécessaire, le lundi 17 janvier 2022 ou avant. Si une résolution plus rapide est requise : lorsque Edge est lancé en même temps que la salle Microsoft Teams, consultez la edge://settings/help d’URL. Une mise à jour doit être téléchargée et appliquée automatiquement. Dans le navigateur, sélectionnez « Redémarrer » une fois l’application de la mise à jour terminée. Fermez Azure IoT Edge, redémarrez le système. Le problème devrait être résolu. | Aucun |
 | Vidéo sur les participants à la galerie fractionnement   |  Lorsqu’il n’y a pas de contenu partagé dans les réunions qui avaient plus de 9 participants distants et que la réunion se trouve en mode d’affichage deux avants, 1 vidéo au premier plan avec l’aperçu automatique peut s’afficher en tant qu’audio. Par ailleurs, le nombre de participants audio est inférieur au nombre réel de participants audio affichés sur deux fronts de salle. | Le problème sera résolu dans la prochaine mise à jour. | Aucun |
 | L’application ne se lance pas |  Après la mise à jour vers la version 4.4.41.0 de l’application, le système démarre sur un écran noir ou passe à l’écran de inscription après quelques minutes. | Suivez les étapes de Salles Microsoft Teams application ne démarre pas après la mise à jour vers la [version 4.4.41.0](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) pour résoudre ce problème.  | Aucun |
