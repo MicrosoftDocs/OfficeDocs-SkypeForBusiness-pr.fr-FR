@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Découvrez comment intégrer le connecteur Teams EHR pour permettre aux fournisseurs de soins de votre organisation d’effectuer des visites virtuelles auprès de patients ou d’autres fournisseurs dans Teams directement à partir du système EHRh.
-ms.openlocfilehash: 3274ed2c566008dd7474accf159540c96c82b865
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 47dde0f4314a5506ddede7543f1a294523e84598
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62763319"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929149"
 ---
 # <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Visites virtuelles avec Teams - Intégration à EhRExique
 
@@ -267,5 +267,6 @@ L’ID unique de l’utilisateur DMI est stocké dans l’une des trois zones g�
 
 ## <a name="related-articles"></a>Articles connexes
 
+- [Teams utilisation des visites virtuelles](../../teams-analytics-and-reports/virtual-visits-usage-report.md)
 - [Teams rapports d’administrateur du connecteur EHR](ehr-admin-reports.md)
 - [Commencer à travailler avec Teams pour les organisations de soins de santé](teams-in-hc.md)

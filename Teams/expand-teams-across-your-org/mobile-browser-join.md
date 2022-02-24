@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: Découvrez l’expérience de jointisation pour les Teams virtuelles sur les navigateurs mobiles.
-ms.openlocfilehash: 83bbe6e2db29a1ed43bbe1646f8545072dac7d2d
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 698a87ba633892f5ebef864c60c101084aa296f1
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763708"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929319"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>Gérer l’expérience de jointisation pour les Teams virtuelles sur les navigateurs mobiles
 
@@ -37,7 +37,7 @@ Lorsqu’un participant rejoint un navigateur mobile, lorsqu’un participant re
 Pour l’instant, la jointë de navigateur mobile est disponible pour les rendez-vous programmés via les services suivants :
 
 - [Application Bookings](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-us&rs=en-us&ad=us#PickTab=Bookings)
-- Microsoft Teams de dossiers médicaux électroniques (EHR)
+- Microsoft Teams connecteur EHR (Electronic Health Record)
 
   - Intégration avec [Cerner EHR](healthcare/ehr-admin-cerner.md)
   - Intégration à [Ehr DesHéz](healthcare/ehr-admin.md)

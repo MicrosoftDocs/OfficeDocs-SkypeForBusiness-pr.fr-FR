@@ -21,16 +21,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Découvrez comment planifier, gérer et effectuer des visites virtuelles à l’aide de l’application Bookings dans Teams.
-ms.openlocfilehash: 5734dbde3db60e5595a1c712bdfb7849dc86485e
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 6241c377cc5daa0986081fbfa30eca5fa7146efc
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763798"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929269"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visites virtuelles avec Microsoft Teams et l’application Bookings
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 
 [L’application Bookings dans](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) Microsoft Teams permet aux organisations de planifier et de gérer des rendez-vous virtuels pour le personnel et les participants. Elle permet de planifier des rendez-vous tels que des visites médicales, des consultations financières, des entretiens, du support client, des ajustements et des consultations virtuels, des horaires d’ouverture du bureau, etc.
 
@@ -118,6 +118,8 @@ Pour en savoir plus, [consultez Microsoft Bookings](/microsoft-365/bookings/book
 ## <a name="related-articles"></a>Articles connexes
 
 - [Gérer l’expérience de jointisation pour les Teams virtuelles sur les navigateurs mobiles](mobile-browser-join.md)
+
+- [Teams utilisation des visites virtuelles](../teams-analytics-and-reports/virtual-visits-usage-report.md)
 
 - [Commencer à travailler avec Teams pour les organisations de soins de santé](healthcare/teams-in-hc.md)
 
