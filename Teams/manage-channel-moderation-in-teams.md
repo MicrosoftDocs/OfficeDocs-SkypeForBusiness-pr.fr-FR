@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment configurer des canaux pour la modération dans Microsoft Teams, y compris comment ajouter des membres de l’équipe comme modérateurs de canaux.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9fd15b6d7eeecf0f1b7e6ec25e33236f50fd83b3
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 4441eea880b5dcf1d71ca11f0ad32cf148f90cf4
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400848"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960006"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Configurer et gérer la modération de canal dans Microsoft Teams
 
@@ -62,7 +62,7 @@ Dans ce scénario, l’enseignant autorise ses assistants d’enseignement à mo
 
 Dans Teams, sur le canal, cliquez **sur Autres options...** >  **Gérer le canal**. À partir de là, vous pouvez activer et désactiver la modération, ajouter des membres de l’équipe comme modérateurs et définir des préférences.
 
-La modération de canal est un paramètre par canal. Il n’existe aucun paramètre de modération au niveau du client. Si vous souhaitez que nous ajoutons un paramètre de modération de canal au niveau du client, demandez-le [sur Teams UserVoice](https://microsoftteams.uservoice.com/).
+La modération de canal est un paramètre par canal. Il n’existe aucun paramètre de modération au niveau du client. Si vous souhaitez que nous ajoutons un paramètre de modération de canal au niveau du client, demandez-le sur le Teams [commentaires](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
@@ -82,6 +82,6 @@ Sous **Qui sont les modérateurs ?**, cliquez sur **Gérer, puis** ajoutez ou su
 
 Sous **Autorisations des membres de l’équipe**, cochez les cases en regard des activités que vous voulez autoriser.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Présentation des équipes et des canaux dans Teams](teams-channels-overview.md)

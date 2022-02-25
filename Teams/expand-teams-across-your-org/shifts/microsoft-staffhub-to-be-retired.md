@@ -2,7 +2,7 @@
 title: Microsoft StaffHub a été retiré
 author: SerdarSoysal
 ms.author: serdars
-ms.reviewer: 'lisawu, gumariam'
+ms.reviewer: lisawu, gumariam
 manager: serdars
 audience: admin
 ms.topic: article
@@ -10,16 +10,21 @@ ms.service: msteams
 search.appverid: MET150
 description: Trouvez des réponses aux FAQ sur la retraite de Microsoft StaffHub et la transition vers l’application Shifts dans Microsoft Teams.
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - M365-collaboration
-  - Teams_ITAdmin_FLW
+- M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 08b3b0ddfa3d53bebb9c3e628347e99d1016a133
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960036"
 ---
-
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub a été retiré
 
 Microsoft StaffHub n’existe plus depuis le 30 juin 2020. Nous développons les fonctionnalités StaffHub dans Microsoft Teams. Aujourd’hui, Teams inclut l’application Plannings pour la gestion des plannings et des fonctionnalités supplémentaires seront déployées à l’avenir.
@@ -151,8 +156,7 @@ Pour plus d’informations, [voir Gérer l’application Shifts pour votre organ
 
 Vous gérez Teams via le module Microsoft Teams PowerShell et le module Skype Entreprise PowerShell. Pour plus d’informations, [voir Teams vue d’ensemble de PowerShell](../../teams-powershell-overview.md). Actuellement, aucune cmdlets PowerShell spécifiques n’est disponible pour gérer les shifts.  
 
-Si vous êtes intéressé par ce message, envoyez-nous une demande via le portail [Teams commentaires sur UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
-
+Si vous êtes intéressé par ce message, envoyez-nous une demande via le Teams [commentaires.](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)
 
 [!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
 

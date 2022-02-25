@@ -71,8 +71,8 @@ productDirectory:
       links:
         - url: ../cloud-voice-landing-page.md
           text: "Documents d’administration Microsoft\_Teams"
-        - url: 'https://microsoftteams.uservoice.com/'
-          text: "Votre avis Microsoft\_Teams UserVoice"
+        - url: 'https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472'
+          text: Microsoft Teams commentaires
         - url: 'https://support.office.com/teams'
           text: "Documents pour les clients Microsoft\_Teams"
         - url: /office365/admin/
