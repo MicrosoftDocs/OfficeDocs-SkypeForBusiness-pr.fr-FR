@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenez une vue d’ensemble des commandes de transfert et de la manière de transférer des numéros de téléphone de votre fournisseur de services vers Teams.
-ms.openlocfilehash: b17e0dea6181c111355a865bf1f70c07bfcb9258
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: bb9ebd91b1f5a08fb07eff0f469be4496714ecfc
+ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398418"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62963415"
 ---
 # <a name="whats-a-port-order"></a>Qu’est-ce qu’une demande de transfert ?
 
@@ -136,13 +136,17 @@ Pour vérifier l’état de votre demande de port, dans le navigation gauche du 
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>Les numéros de téléphone des utilisateurs (abonnés) peuvent-ils être convertis en numéros de service ?
 <a name="bkmk_type_1"> </a>
 
-Oui. Il vous suffit d'envoyer une demande de service incluant le GUID de client de votre organisation et les numéros de téléphone que vous souhaitez convertir. Pour ce faire, consultez [Gérer les numéros de téléphone pour votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Oui. Il vous suffit d'envoyer une demande de service incluant le GUID de client de votre organisation et les numéros de téléphone que vous souhaitez convertir. Pour ce faire, consultez [Gérer les numéros de téléphone pour votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>Puis-je faire appel à un Teams ou à un autre opérateur ou fournisseur de services téléphoniques ?
 
-Pour faire appel à un Teams un autre opérateur, vous devez envoyer une demande au nouvel opérateur. Vous devrez également définir un code confidentiel de portage en ouvrant un cas de support. Pour plus d’informations sur l’accès au support, voir [Obtenir de l’aide](/microsoft-365/business-video/get-help-support). 
+Pour faire appel à un Teams un autre opérateur, vous devez envoyer une demande au nouvel opérateur. Vous devez également définir un code confidentiel de portage dans le Microsoft Teams d’administration.
+
+Pour définir votre code confidentiel de portage, dans le navigation gauche du Centre d’administration Microsoft Teams,  >  sélectionnez Numéros vocables **Téléphone** dans le coin supérieur droit de la page, sélectionnez Gérer le code confidentiel de portage **, puis** entrez un code confidentiel à 10 chiffres.
 
 Lorsque votre nouvel opérateur nous contactera avec la demande de portage, nous lui demanderons de fournir le code confidentiel que vous avez défini.
+
+Pour plus d’informations sur la configuration d’un code confidentiel, contactez [l’équipe Des services de numéro de téléphone](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="common-mistakes-to-watch-out-for"></a>Erreurs courantes à surveiller
 <a name="bkmk_type_1"> </a>
@@ -169,7 +173,7 @@ Voici les erreurs le plus fréquentes commises lors des transferts de numéros. 
 
 - Assurez-vous que votre service est actif. Le fait de figer le compte empêche la modification des opérateurs téléphoniques sur le compte. La personne autorisée à modifier le compte doit envoyer une commande à l’opérateur actuel pour supprimer le blocage. Selon l’opérateur, ce processus peut prendre de une à trois semaines.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Quel est le statut de vos demandes de transfert ?](port-order-status.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
