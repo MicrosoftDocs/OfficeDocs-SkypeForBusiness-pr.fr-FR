@@ -457,6 +457,8 @@ items:
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
               - name: Rapport de la licence de protection des Informations de Teams
                 href: teams-analytics-and-reports/information-protection-license-report.md
+              - name: Rapport d’utilisation des visites virtuelles Teams
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
       - name: 'Fichiers journaux, Intégrité des services et support'
         items:
           - name: Utiliser des fichiers journaux pour surveiller et résoudre des problèmes liés à Teams
@@ -1527,6 +1529,10 @@ items:
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Gérer l’application Shifts
                 href: bookings-app-admin.md
+              - name: Gérer l’expérience de jointure sur les navigateurs mobiles
+                href: expand-teams-across-your-org/mobile-browser-join.md
+              - name: Rapport d’utilisation des visites virtuelles
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
           - name: Shifts pour Teams
             items:
               - name: Prise en main de Plannings
@@ -1645,6 +1651,8 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Visites virtuelles avec Bookings et Teams
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
+              - name: Rapport d’utilisation des visites virtuelles
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
               - name: Gérer l’expérience de jointure sur les navigateurs mobiles
                 href: expand-teams-across-your-org/mobile-browser-join.md
           - name: Afficher et attribuer des packages de stratégie
