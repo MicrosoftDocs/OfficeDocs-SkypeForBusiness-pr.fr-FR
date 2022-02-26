@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les canaux privés dans Microsoft Teams.
-ms.openlocfilehash: 2ff886835258d9508e2cbe7c977ab5437d87129e
-ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
+ms.openlocfilehash: 2127ada4a289a04176a2ae743299c3176df4a661
+ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62926307"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62963395"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canaux privés dans Microsoft Teams
 
@@ -88,8 +88,7 @@ Le tableau suivant décrit les actions que les propriétaires, les membres et le
 Chaque canal privé possède ses propres sites SharePoint. Le site séparé vise à garantir que l’accès aux fichiers de canaux privés est limité aux seuls membres du canal privé. Ces sites sont créées avec une bibliothèque de documents par défaut, et peuvent être facilement améliorés et transformés en site complet via l’[interface de gestion de site](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Chaque site est créé dans la même zone géographique que le site de l’équipe parente. Ces sites légers ont un ID de modèle personnalisé, « TEAMCHANNEL#0 », pour simplifier la gestion via PowerShell et l’API Graph. 
 
 > [!NOTE]
-> Seuls les utilisateurs ayant des autorisations de propriétaire ou de membre Microsoft Teams ont accès au contenu du site de canal privé.
-> Les sites SharePoint de canal privé créés après le 28 juin 2021 auront l’ID de modèle personnalisé TEAMCHANNEL#1.
+> Seules les personnes disposant d’autorisations de propriétaire ou de membre dans le canal auront accès au contenu du site de canal partagé. Les membres de l’équipe parente et les administrateurs n’auront pas accès, sauf s’ils sont également membres du canal.
 
 Un site de canaux privés synchronise la classification des données et hérite des autorisations d’accès invité du site de l’équipe parente. L’adhésion au propriétaire du site et aux groupes de membres, est synchronisée avec l’adhésion au canal privé au sein de Teams. Les autorisations de site pour un site de canal privé ne peuvent pas être gérées indépendamment via SharePoint. 
 
