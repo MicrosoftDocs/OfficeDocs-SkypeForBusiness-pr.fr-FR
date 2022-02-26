@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: d379505751a25cf0880538efb1745765d7061044
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.openlocfilehash: f3d82d9e546b2a2ba1b3e741173695898a72eb4d
+ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62960016"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "62974481"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams appareils Android certifiés
 
@@ -133,6 +133,7 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme  | Version de produit incluse  |
 |:----------------|:--------------|:----------------------------|
+|Crestron UC-2     | `1.0.4.75`    | Mise à jour 2022 n°1 |
 |Audiocodes C455HD | `1.15.271`    | Mise à jour 2022 n°1
 |Audiocodes C448HD  | `1.14.500` | Mise à jour 2022 n°1 |
 |Audiocodes C450HD  | `1.14.500` | Mise à jour 2022 n°1  |
@@ -202,6 +203,7 @@ Voici les dernières versions de salles Teams’application Android et des versi
 
 | Version de produit| Date de publication | Microsoft Teams version de l’application | Portail d'entreprise version complète | Version de l’agent d’administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| Mise à jour 2022 n°1  | 24 février 2022 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Mise à jour pour 2021 #2A | 15 juillet 2021  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | Mise à jour 2021 n°2 | 28 juin 2021  |`1449/1.0.96.2021051904`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | Mise à jour pour 2021 #1A  |12 mai 2021  |`1449/1.0.96.2021042903` |`5.0.4927.0`     |`1.0.0.202010121132.product version code: 223` |
@@ -216,6 +218,11 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse |
 |:--------------|:-----------------|:-------------------------|
+| AudioCodes RXV80 | `1.16.164 `   | Mise à jour 2022 n°1 |
+| Yealink VC210 | `118.15.0.65`   | Mise à jour 2022 n°1    |
+| Barre de réunions Yealink A20 | `133.15.0.80 `   | Mise à jour 2022 n°1   |
+| Yealink MeetingBar A30 | `133.15.0.80 `   | Mise à jour 2022 n°1   |
+| Yealink CTP18 | ` 137.15.0.49 `    | Mise à jour 2022 n°1   |
 | Poly Studio X30 | `3.9.0` | Mise à jour pour 2021 #2F   |
 | Poly Studio X50 | `3.9.0` | Mise à jour pour 2021 #2F   |
 | Poly TC8        | `3.9.0`          | Mise à jour pour 2021 #2F   |
@@ -284,6 +291,7 @@ Voici les dernières versions de l’Microsoft Teams Panneaux et du microprogram
 
 |Version de produit| Date de publication | Microsoft Teams version de l’application | Portail d'entreprise version complète | Version de l’agent d’administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|Mise à jour pour 2022 #1A | 25 février 2022 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
 |Mise à jour 2022 n°1  | 22 février 2022 |`1449/1.0.96.2021726501` | `5.0.5304.0 `  | `322` |
 |Mise à jour 2021 n°1  | 12 août 2021 |`1449/1.0.97.2021070601`   | `5.0.5211.0`   |  `268`|
 

@@ -17,12 +17,12 @@ description: Découvrez ce que vous devez faire lorsque vous devez effectuer une
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b78ec3ad6741d2c7f83d7732400d5f1154747d5e
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: 5a35afa53a8f94a5d0106e67d2f9f87eacfaca63
+ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929159"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "62974461"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -47,7 +47,7 @@ Il n’est Teams contenu eDiscoverable. Le tableau suivant indique les types de 
 |Emojis, GIF et autocollants | Oui | |
 |Notifications de flux | Non | |
 |Images en ligne | Oui | |
-|Composants de boucle| Non|Il est possible de rechercher les messages de conversation qui contiennent un composant de boucle. Toutefois, le contenu des composants de boucle n’est pas indexé pour la recherche et ne sera pas renvoyé dans les résultats de la recherche. Si les résultats de la recherche contiennent un message avec un composant de boucle, vous pouvez afficher le contenu du composant de boucle.  |
+|Composants de boucle| Oui|Le contenu d’un composant de boucle est enregistré dans un fichier .fluid stocké dans le compte OneDrive Entreprise de l’utilisateur qui envoie le composant de boucle. Cela signifie que vous devez inclure OneDrive source de données lors de la recherche de contenu dans des composants de boucle. |
 |Conversations de réunion par messagerie instantanée | Oui | |
 |Métadonnées de <sup>réunion1</sup> | Oui |  |
 |Nom du canal | Oui | |
@@ -91,7 +91,7 @@ Les conversations privées dans la boîte aux lettres d’un utilisateur sont st
 
 ## <a name="ediscovery-of-private-channels"></a>Découverte électronique de canaux privés
 
-Les copies de conformité des messages envoyés dans un canal privé sont remis à la boîte aux lettres de tous les membres d’un canal privé, plutôt qu’à une boîte aux lettres de groupe. Les titres des copies de conformité sont formatés pour indiquer le canal privé à partir duquel elles ont été envoyées.
+Les copies de conformité des messages envoyés dans un canal privé sont remises dans la boîte aux lettres de tous les membres du canal privé, plutôt que dans une boîte aux lettres de groupe. Les titres des copies de conformité sont formatés pour indiquer de quel canal privé elles proviennent.
 
 Chaque canal privé possède son propre site SharePoint distinct du site d’équipe parent, les fichiers dans un canal privé sont gérés indépendamment de l’équipe parente.
 
