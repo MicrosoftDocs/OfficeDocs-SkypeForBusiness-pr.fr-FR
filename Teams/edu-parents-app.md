@@ -1,5 +1,5 @@
 ---
-title: Configuration de l’administrateur pour l’application Parents de Microsoft EDU dans Teams
+title: Configuration administrateur de Parents dans Teams pour l'éducation
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Microsoft Teams pour l’éducation article documentant les conditions préalables et la configuration de l’application Parents.
+description: Microsoft Teams article qui décrit les conditions préalables et la configuration de Parents dans Teams pour l'éducation.
 ms.localizationpriority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MET150
@@ -17,16 +17,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f35d4f3037735f2122d26a2b9b24cf3a38f3bc99
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: af6433cb3e5ca0e1849322bdd128915e826e219b
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363230"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63040062"
 ---
-# <a name="deploying-the-parents-app-in-microsoft-teams"></a>Déploiement de l’application Parents dans Microsoft Teams
+# <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurer la connexion parent dans Microsoft Teams pour l'éducation
 
-L’application Parents permet aux enseignants de communiquer et de s’impliquer en toute sécurité avec les parents et tuteurs des étudiants dans leurs équipes de classe à l’aide d’une conversation Teams qui s’échellera au sein de l’organisation de l’enseignant. Toutes les données des parents et tuteurs sont approvisionnementées à l’Synchronisation des données scolaires, ce qui permet au personnel de l’it de configurer les choses en douceur.
+La connexion parent dans Teams pour l'éducation permet aux enseignants de communiquer et de s’impliquer en toute sécurité avec les parents et tuteurs des étudiants dans leurs équipes de classe à l’aide d’une conversation Teams qui s’échellera au sein de l’organisation de l’enseignant. Toutes les données des parents et tuteurs sont approvisionnementées à l’Synchronisation des données scolaires, ce qui permet au personnel du service it de configurer les choses en douceur.
+
+Une fois que les parents et tuteurs légaux sont configurer, ils peuvent discuter avec les enseignants de leurs étudiants à l’aide Teams conversation. Pour obtenir des instructions sur la connexion des parents et tuteurs avec les enseignants, voir [Connecter avec les enseignants du Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+
+Les parents travaillent également avec la conversation encadrée. Les parents et tuteurs ne peuvent pas avoir les autorisations de Teams complètes, ce qui signifie qu’ils ne peuvent pas démarrer de conversations avec des étudiants ou supprimer des utilisateurs à autorisations complètes (comme les enseignants) des conversations. Pour plus d’informations sur la conversation supervise, voir [Utiliser les conversations surveillées dans Microsoft Teams](supervise-chats-edu.md).
 
 ## <a name="requirements"></a>Conditions requises
 
@@ -39,13 +43,33 @@ L’application Parents permet aux enseignants de communiquer et de s’implique
   - Finalisation du processus d’fafa à [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
   - Ouverture d’un ticket au [support](https://aka.ms/sdssupport).
 
+- Actuellement, SDS prend uniquement en charge l’ingestion de données basée sur CSV pour les contacts parents ; Toutefois, vous pouvez utiliser la synchronisation [d’API PowerSchool](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) ou la synchronisation [d’API OneRoster](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) pour toutes les données de liste, et ajouter simplement les contacts parents à l’aide du fichier CSV.
+  - Créez un deuxième profil de synchronisation en utilisant le format de synchronisation [CSV SDS v1](/schooldatasync/school-data-sync-format-csv-files-for-sds).
+  - Tirez les deux fichiers [parents avec](/schooldatasync/parent-contact-sync-file-format) le reste des fichiers v1 vides (uniquement les en-têtes).
+    - User.csv
+    - Guardianrelationship.csv
+  - Pour afficher un exemple de jeu de fichiers CSV v1, consultez les [attributs minimum requis GitHub fichiers](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
+  - Si vous voulez automatiser l’tirant les fichiers CSV après la synchronisation initiale, lisez notre document Automation de synchronisation de fichiers [CSV](/schooldatasync/csv-file-sync-automation).
+  - Pour obtenir de l’aide sur la configuration de la synchronisation de vos données [](https://www.microsoft.com/fasttrack?rtc=1) SDS, recherchez notre équipe de réussite client ou ouvrez [un ticket de support](https://edusupport.microsoft.com/support?product_id=data_sync).
+
 ### <a name="teams-admin-center---policies"></a>Teams d’administration - Stratégies
 
-- Les propriétaires d’équipe de classe Teams conversation instantanée activée.
+- Les propriétaires d’équipe de classe Teams conversation instantanée.
 - Les propriétaires d’équipe de classe doivent avoir un accès externe **avec Teams comptes non gérés par une organisation**.
-  - Celle-ci doit être activée au niveau du client et de l’utilisateur. Le paramètre au niveau du client est accessible dans la page Utilisateurs **> accès** externe dans le Teams d’administration. Ce paramètre est également accessible via PowerShell. Les stratégies d’accès externe au niveau utilisateur sont accessibles uniquement via PowerShell. Pour plus d’informations, voir les commandes PowerShell ci-dessous.
+  - Cette fonction doit être désactivée au niveau du client et de l’utilisateur. Le paramètre au niveau du client est accessible dans la page **Utilisateurs > accès** externe dans le Teams d’administration. Ce paramètre est également accessible via PowerShell. Les stratégies d’accès externe au niveau utilisateur sont accessibles uniquement via PowerShell. Pour plus d’informations, voir les commandes PowerShell ci-dessous.
 
-## <a name="enabling-external-access-with-teams-accounts-not-managed-by-an-organization"></a>Activation de l’accès externe Teams comptes non gérés par une organisation
+> [!NOTE]
+>Les parents et tuteurs légaux sont considérés comme utilisateurs externes dans la fonctionnalité Parents, ce qui signifie qu’ils ne disposent pas de droits de locataire complets. Ils ont uniquement accès aux conversations à qui ils sont ajoutés, ainsi qu’aux fichiers, images et autres contenus partagés dans la conversation.
+>
+>Par ailleurs, les utilisateurs externes peuvent voir la présence (hors connexion, disponible, occupé, etc.) des utilisateurs de votre organisation, mais cette fonctionnalité peut être désactivée à l’aide de PowerShell pour protéger la confidentialité des utilisateurs. Dans PowerShell, utilisez [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration?view=skype-ps) et set ``EnablePrivacyMode=true``.
+>
+>Même si les parents et tuteurs sont des utilisateurs externes, leurs contributions aux conversations sont découvrons. Découvrez comment effectuer une enquête Teams de découverte électronique en lisant Mener une enquête de découverte électronique sur du contenu [dans Microsoft Teams](ediscovery-investigation.md).
+
+## <a name="allow-external-access-with-teams-accounts-not-managed-by-an-organization"></a>Autoriser l’accès externe avec Teams non gérés par une organisation
+
+Pour permettre aux enseignants de communiquer avec des parents et tuteurs dans Teams, l’administrateur informatique du client éducation doit mettre à jour les stratégies du client pour autoriser l’accès externe pour les comptes Teams en dehors du client. Pour plus d’informations sur la gestion de l’accès externe, voir [Gérer l’accès externe dans Microsoft Teams](manage-external-access.md).
+
+Voici les étapes à suivre pour activer l’accès externe pour les parents et tuteurs légaux.
 
 1. Installez la dernière version Microsoft Teams prévisualisation du module PowerShell.
 
@@ -53,7 +77,7 @@ L’application Parents permet aux enseignants de communiquer et de s’implique
     Install-Module -Name PowerShellGet -Force -AllowClobber
     Install-Module -Name MicrosoftTeams -AllowPrerelease -Force –AllowClobber
     ```
-    
+
 2. À l’aide d’informations d’identification qui ont des privilèges d’administrateur, exécutez les commandes suivantes :
 
     ```powershell
@@ -61,11 +85,11 @@ L’application Parents permet aux enseignants de communiquer et de s’implique
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-Le paramètre de stratégie qui active l’accès externe avec des comptes Teams non gérés par une organisation au niveau de l’utilisateur (`EnableTeamsConsumerAccess`) est activé par défaut pour toutes les stratégies d’accès externe au niveau utilisateur. Le paramètre au niveau du client et le paramètre de stratégie au niveau utilisateur doivent être activés pour qu’un utilisateur accède à l’extérieur avec des comptes Teams non gérés par une organisation. Si vous ne souhaitez pas que tous les utilisateurs de votre client activent cet accès, vous devez vous assurer que votre paramètre au niveau du client est désactivé, mettre à jour les stratégies d’accès externe au niveau utilisateur attribuées à vos utilisateurs, puis activer le paramètre au niveau du client.
+    Le paramètre de stratégie qui met en place l’accès externe avec des comptes Teams non gérés par une organisation au niveau de l’utilisateur (`EnableTeamsConsumerAccess`) est désactivé par défaut pour toutes les stratégies d’accès externe au niveau utilisateur. Le paramètre au niveau du client et le paramètre de stratégie au niveau utilisateur doivent être désactivés pour qu’un utilisateur accède à l’extérieur avec des comptes Teams non gérés par une organisation. Si vous ne souhaitez pas que tous les utilisateurs de votre client doivent activer cet accès, vous devez vous assurer que votre paramètre au niveau du client est désactivé, mettre à jour les stratégies d’accès externe au niveau utilisateur attribuées à vos utilisateurs, puis activer le paramètre au niveau du client.
 
-Pour vérifier les stratégies d’accès externe au niveau utilisateur et à qui elles sont affectées, vous pouvez utiliser la procédure suivante :
-    
-3. Vérifiez quelles stratégies d’accès externe utilisateur existent.
+    Pour vérifier les stratégies d’accès externe au niveau utilisateur et les personnes à lesquelles elles sont affectées, vous pouvez utiliser les étapes suivantes :
+
+3. Vérifiez l’existence de stratégies d’accès externe au niveau utilisateur.
 
     ```powershell
     Get-CsExternalAccessPolicy
@@ -91,19 +115,19 @@ Pour vérifier les stratégies d’accès externe au niveau utilisateur et à qu
 
 - Affecter une stratégie d’accès externe à un utilisateur unique : [Grant-CsExternalAccessPolicy](/powershell/module/skype/grant-csexternalaccesspolicy)
 
-- Attribuer une stratégie à un ensemble [d’utilisateurs : New-CsBatchPolicyAssignmentOperation](/powershell/module/skype/new-csbatchpolicyassignmentoperation)
+- Attribuer une stratégie à un ensemble [d’utilisateurs : New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 Une fois que les stratégies d’accès externe au niveau utilisateur sont correctement définies pour les utilisateurs de votre client, vous pouvez activer le paramètre au niveau du client (`AllowTeamsConsumer`) à l’aide de l’cmdlet suivante :
 
 - Définir les paramètres de configuration de la fédération pour votre client [: Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
-## <a name="enabling-the-parents-app"></a>Activation de l’application Parents
+## <a name="turn-on-the-parents-app-in-the-teams-admin-center"></a>Activer l’application Parents dans le Centre d’Teams’administration de famille
 
-L’application Parents est désactivée par défaut, de sorte que les propriétaires d’équipe de classe ne peuvent pas voir l’application dans leurs équipes de classe tant que l’application n’est pas autorisée via le Teams d’administration. L’application peut être autorisée via le Centre Teams’administration à l’aide [des applications autorisées bloquées par les éditeurs](manage-apps.md#apps-blocked-by-publishers).
+L’application Parents est désactivée par défaut, de sorte que les propriétaires d’équipe de classe ne la voient pas dans leurs équipes de classe tant qu’elle n’est pas autorisée via le Teams d’administration. L’application Parents est désactivée dans le Centre Teams’administration à l’aide [des applications autoriser bloquées par les éditeurs](manage-apps.md#apps-blocked-by-publishers).
 
-À tout moment, l’application peut être désactivée au niveau du client [](manage-apps.md#allow-and-block-apps) à l’aide de l’application Autoriser et bloquer des applications dans le Teams d’administration. Si l’application est désactivée au niveau du client, elle est bloquée pour tous les utilisateurs, même si les autorisations au niveau utilisateur sont activées.
+À tout moment, l’application peut être désactivée au niveau du client [](manage-apps.md#allow-and-block-apps) à l’aide de l’application Autoriser et bloquer des applications dans le Teams d’administration. Si elle est désactivée au niveau du client, elle est bloquée pour tous les utilisateurs, même si les autorisations au niveau utilisateur sont désactivées.
 
-L’application peut également être désactivée au niveau de l’utilisateur à l’aide des stratégies [d’autorisation d’application Microsoft Teams](teams-app-permission-policies.md).
+L’application Parents peut également être désactivée au niveau de l’utilisateur à l’aide [des stratégies d’autorisation d’application Gérer dans Microsoft Teams](teams-app-permission-policies.md).
 
 ## <a name="more-information"></a>Plus d’informations
 

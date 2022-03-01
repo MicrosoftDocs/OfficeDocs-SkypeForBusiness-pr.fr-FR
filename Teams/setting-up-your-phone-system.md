@@ -24,135 +24,108 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: Guide détaillé détaillant la façon de configurer des Teams Système téléphonique pour votre organisation dans Microsoft 365.
-ms.openlocfilehash: 12e1b4ff8c63b06c108921d8d28e1c1c6b262fb0
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 1a8f7ed554a360b94e568058be29697c0f2b1767
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518636"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039982"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>La configuration système téléphonique de votre organisation
 
-Le guide étape par étape ci-après vous guide à la configuration d’Système téléphonique dans Microsoft 365. Des liens vers des informations supplémentaires plus détaillées sont disponibles à la fin de chaque étape.
+Cet article fournit une feuille de route vers le contenu pour la configuration de la technologie Système téléphonique-Microsoft permettant d’activer le contrôle d’appel et les fonctionnalités des Exchange de branche privée (PBX) dans le cloud Microsoft 365. Des liens vers des informations plus détaillées sont disponibles à la fin de chaque étape. 
+
+Avant de lire cet article, assurez-vous de lire ce qui est [Système téléphonique](what-is-phone-system-in-office-365.md) et voici ce que vous obtenez [de Système téléphonique](here-s-what-you-get-with-phone-system.md). Les deux derniers articles décrivent Système téléphonique et fonctionnalités requises.    
+
+Cet article décrit les étapes suivantes : 
+
+- [Étape 1 : acheter et attribuer une licence Système téléphonique licence](#step-1-buy-and-assign-a-phone-system-license)  
+- [Étape 2 : choisir une option de connectivité PSTN](#step-2-choose-a-pstn-connectivity-option) 
+- [Étape 3 : obtenir des numéros de téléphone pour vos utilisateurs](#step-3-get-phone-numbers-for-your-users)
+- [Étape 4 : obtenir des numéros de téléphone pour les services](#step-4-get-phone-numbers-for-services-call-queues-auto-attendants)
+- [Étape 5 : si vous voulez configurer une file d’attente d’appels](#step-5-if-you-want-to-set-up-a-call-queue) 
+- [Étape 6 : si vous voulez configurer un attendant automatique](#step-6-if-you-want-to-set-up-an-auto-attendant) 
+- [Étape 7 : configurer les crédits de communication pour les numéros gratuits](#step-7-set-up-communications-credits-for-toll-free-numbers)
  
-## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>Étape 1 : Vérifiez que le système téléphonique est disponible dans votre pays ou région
 
-1.    Tout d’abord accéder à la [disponibilité de pays et de région pour conférence audio et des plans d’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)et sélectionnez votre pays ou région dans la liste en haut de la page. 
-2.    Sous **Système téléphonique**, passez en revue la liste des fonctionnalités et les détails. 
-3.    Si le système téléphonique est disponible, passez à l’étape 2. 
+## <a name="step-1-buy-and-assign-a-phone-system-license"></a>Étape 1 : acheter et attribuer une licence Système téléphonique licence
 
-## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>Étape 2 : Acheter et affecter des licences système téléphonique et plans d’appel
+Pour attribuer une licence Système téléphonique utilisateur à un seul utilisateur, les étapes sont identiques à l’attribution d’Microsoft 365 licence. Vous pouvez également attribuer des licences à plusieurs utilisateurs en bloc. Pour plus d’informations sur les licences Système téléphonique disponibles et la manière d’acquérir et d’attribuer des licences, voir  [Teams licences](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md) de module complémentaire et Attribuer Microsoft Teams des [licences de module complémentaire](/teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
-Pour affecter une licence Système téléphonique et de plan d’appels à un seul utilisateur, les étapes sont identiques à l’attribution d’Microsoft 365 licence.  Vous pouvez également attribuer des licences à plusieurs utilisateurs en bloc. Pour plus d’informations, [voir Attribuer Microsoft Teams des modules complémentaires](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+## <a name="step-2-choose-a-pstn-connectivity-option"></a>Étape 2. Choisir une option de connectivité RSTN 
+ 
+Pour permettre à vos utilisateurs d’effectuer et de recevoir des appels externes, vous devez vous Système téléphonique au réseau téléphonique commuté (PSTN). Microsoft propose plusieurs options pour la connexion au réseau PSTN, notamment : 
 
-Si les forfaits d’appels ne sont pas disponibles pour votre pays ou région, d’autres options s’offrent à vous pour vous connecter au réseau téléphonique public commuté (PSTN).  Pour plus d’informations, [voir les options de connectivité PSTN](pstn-connectivity.md).
+- Forfait d’appels. Une solution all-in-the-cloud avec Microsoft comme opérateur PSTN. 
+
+- Opérateur Connecter. Si votre opérateur existant participe au programme de gestion des Connecter d’opérateur Microsoft, il peut gérer les contrôleurs de session et d’appel PSTN pour vous. 
+
+- Routage direct. Utilisez votre propre opérateur PSTN en connectant vos SBCs à Système téléphonique. 
+
+Pour plus d’informations sur toutes les options de connectivité, voir [les options de connectivité PSTN](pstn-connectivity.md).   
 
 ## <a name="step-3-get-phone-numbers-for-your-users"></a>Étape 3 : obtenir des numéros de téléphone pour vos utilisateurs
 
 Avant de pouvoir configurer les utilisateurs de votre organisation de sorte qu’ils passer et recevoir des appels téléphoniques, vous devez obtenir des numéros de téléphone pour eux.
 
-Vous pouvez obtenir des numéros de trois façons différentes pour vos utilisateurs :
+Pour plus d’informations sur la gestion des numéros de téléphone pour vos utilisateurs, consultez les articles suivants. La façon dont vous gérez les numéros d’un utilisateur dépend de l’option de connectivité PSTN que vous choisissez.   
 
-- Obtenez de nouveaux numéros à l’aide Teams centre d’administration.
-- Obtenez les nouveaux numéros qui ne sont pas disponibles dans le Teams d’administration.
-- Transférez vos numéros existants de votre fournisseur de services ou de votre opérateur de téléphonie actuel vers Microsoft 365.
-
-Vous devez utiliser la page **Ajouter des nombres** pour voir, rechercher et acquérir ces nombres. Vous pouvez effectuer une recherche par pays/région, état et ville, puis entrer le nombre de numéros de téléphone dont vous aurez besoin pour vos utilisateurs.
-
-### <a name="get-new-user-phone-numbers-using-the-teams-admin-center"></a>Obtenir de nouveaux numéros de téléphone utilisateur à l’aide du Centre Teams’administration
-
-1. Connectez-vous Microsoft 365 votre compte scolaire ou scolaire.
-
-2. Accédez au **Centre d’administration Teams**.
-    
-3. Dans le navigation à gauche, cliquez sur **Téléphone** >  **des** messages vocaux, cliquez **sur Ajouter,** puis suivez les invites.
-    
-### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>Obtenir de nouveaux numéros qui ne sont pas disponibles dans le Centre d’Teams’administration
-  
-Parfois ,(en fonction de votre pays/région) vous ne pourrez pas obtenir vos nouveaux numéros à l’aide du Teams d’administration. Dans ce cas, vous devez télécharger un formulaire et nous le renvoyer. Pour savoir comment demander de nouveaux numéros d’utilisateur, voir [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).   
-  
-### <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>Transfert de vos numéros de téléphone du fournisseur de services ou de l'opérateur de téléphonie
-  
-- Si vous avez besoin d’au moins 999 numéros de téléphone pour vos utilisateurs,  vous pouvez utiliser l’Assistant Demande de ports de nouveaux numéros locaux dans le Teams d’administration. Suivez les étapes de la procédure [de transfert de numéros de Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) transfert de vos numéros de téléphone.
-    
-- Si vous devez porter plus de 999 numéros de téléphone, voir [](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) Gérer les numéros de téléphone pour votre organisation afin d’envoyer une demande ou une demande de service de demande de port. 
-
-Pour plus d’informations sur l’obtention de nouveaux numéros de téléphone ou de transfert de numéros existants, voir [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
-
-## <a name="step-4-get-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>Étape 4 : Obtenir les numéros de téléphone des services (services d’audioconférence, files d’attente des appels, standards automatiques)
-
-Outre la obtention de numéros de téléphone pour vos utilisateurs à partir d’Microsoft 365 ou d’Office 365, vous pouvez rechercher et acquérir des numéros de téléphone gratuits ou gratuits pour des services tels que l’audioconférence (pour les ponts de conférence), les files d’attente automatiques et les files d’attente d’appels. Les numéros de téléphone de service disposent d'une capacité d'appels simultanés plus élevée que les numéros de téléphone d'utilisateur ou d'abonné. Par exemple, un numéro de service peut gérer des centaines d’appels simultanément, alors qu’un numéro de téléphone d’utilisateur ne peut gérer que quelques appels à la fois.
-
-### <a name="get-new-service-numbers-using-the-teams-admin-center"></a>Obtenir de nouveaux numéros de service à l’aide du Centre Teams’administration
+- [Gérer les numéros de téléphone](manage-phone-numbers-landing-page.md) pour votre organisation – Fournit une vue d’ensemble des types de numéros de téléphone avec des liens vers des articles spécifiques pour l’acquisition et la gestion des numéros en fonction de votre option de connectivité PSTN. Décrit les deux types de numéros [de téléphone des utilisateurs](manage-phone-numbers-landing-page.md#user-telephone-numbers). 
+ 
+- [Attribution, modification ou suppression du](assign-change-or-remove-a-phone-number-for-a-user.md) numéro de téléphone d’un utilisateur : décrit comment attribuer et gérer les numéros de téléphone que vous avez acquis. 
+ 
+- [Combien de numéros](how-many-phone-numbers-can-you-get.md) de téléphone pouvez-vous obtenir – Décrit le nombre de numéros de téléphone que vous pouvez obtenir en fonction des types de numéros de téléphone et des types de licences que vous avez achetées et attribuées. 
 
 
-1. Connectez-vous avec votre compte scolaire ou scolaire.
+## <a name="step-4-get-phone-numbers-for-services-call-queues-auto-attendants"></a>Étape 4 : obtenir des numéros de téléphone pour les services (files d’attente d’appels, files d’attente automatiques)
 
-2. Accédez au **Centre d’administration Teams**.
+Outre l’obtention de numéros de téléphone pour vos utilisateurs, vous pouvez acquérir des numéros de téléphone gratuits ou gratuits pour des services tels que les postes de transport automatique et les files d’attente d’appels. Un numéro de service peut gérer des centaines d’appels simultanément, tandis que le numéro de téléphone d’un utilisateur ne peut gérer que quelques appels en même temps.   
 
-3. Dans le volet de navigation gauche, cliquez sur **Voix** >  **Téléphone** >  **Nouveau** numéro, puis cliquez sur **Nouveau numéro de service**.
+Vous pouvez obtenir des numéros de service de Microsoft inclus dans votre licence. Si vous avez une connectivité RSTN via l’Connecter ou le routage direct, vous pouvez utiliser les numéros de service fournis par votre propre opérateur ou opérateur. 
 
-    > [!IMPORTANT]
-    > Pour que l’option **Voix** s’offre à vous dans le volet de navigation gauche du Centre d’administration Teams, vous devez d’abord acheter au moins une licence **Enterprise E5**, une licence de module Système téléphonique ou une licence de module de conférence **audio**.
+Pour plus d’informations, consultez :
 
-### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>Obtenir de nouveaux numéros qui ne sont pas disponibles dans le Centre d’Teams’administration
-  
-Parfois ,(en fonction de votre pays/région) vous ne pourrez pas obtenir vos nouveaux numéros à l’aide du Teams d’administration. Dans ce cas, vous devez télécharger un formulaire et nous le renvoyer. Pour savoir comment demander de nouveaux numéros, voir [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
+- [Gérer les numéros de téléphone](manage-phone-numbers-landing-page.md) pour votre organisation – Fournit une vue d’ensemble des types de numéros de téléphone avec des liens vers des articles spécifiques pour l’acquisition et la gestion des numéros en fonction de votre option de connectivité PSTN.  
+Décrit les [numéros de téléphone de service](manage-phone-numbers-landing-page.md#service-telephone-numbers) disponibles auprès de Microsoft inclus dans votre licence. Pour plus d’informations sur les numéros de service fournis par l’Connecter ou le routage direct, contactez votre fournisseur. 
 
-### <a name="port-or-transfer-existing-service-numbers"></a>Transférer des numéros de service existants
+- [Combien de numéros](how-many-phone-numbers-can-you-get.md) de téléphone pouvez-vous obtenir – Décrit le nombre de numéros de téléphone que vous pouvez obtenir en fonction des types de numéros de téléphone et des types de licences que vous avez achetées et attribuées. 
 
-Si vous voulez transférer des numéros de service depuis votre fournisseur ou opérateur de services actuel, vous devez envoyer une demande de transfert manuellement à Microsoft. Vous devez envoyer des demandes de transfert distinctes pour chaque type de numéro de service (gratuit ou gratuit) que vous transférez à l’aide d’une lettre d’autorisation (LOA). Dans la lettre d’autorisation (LOA), vous devez sélectionner le type de numéro de service correct. Lorsque vous contactez le support Microsoft, spécifiez que vous transférez un numéro de *service (et* non un numéro d’utilisateur ou d’abonné), sinon la capacité d’appels simultanés peut ne pas être suffisante pour gérer les volumes d’appels. Si vous souhaitez transférer les numéros de téléphone ou effectuer d’autres opérations avec vos numéros de téléphone, voir [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+## <a name="step-5-if-you-want-to-set-up-a-call-queue"></a>Étape 5 : si vous voulez configurer une file d’attente d’appels
 
-## <a name="step-5-if-you-want-to-set-up-calling-plans"></a>Étape 5 : Si vous souhaitez configurer des Plans d’appel
+Les files d’attente d’appels incluent des salutations qui sont utilisées lorsque quelqu’un appelle un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la possibilité de rechercher le prochain agent d’appel disponible pour gérer l’appel. Vous pouvez créer une ou plusieurs files d’attente pour votre organisation. 
 
-Si vous avez suivi les étapes ci-dessus, vous avez déjà acheté et affecté du système téléphonique, les licences et un Plan d’appel (étape 2) et acquis des numéros de téléphone pour vos utilisateurs (étape 3), donc votre plan d'appel est partiellement configuré. Pour suivre les procédures de configuration d’un forfait d’appels, [consultez Configurer les forfaits d’appels](set-up-calling-plans.md).
+Pour plus d’informations sur les files d’attente d’appels, voir [Créer une file d’attente d’appels](create-a-phone-system-call-queue.md).
 
+## <a name="step-6-if-you-want-to-set-up-an-auto-attendant"></a>Étape 6 : si vous voulez configurer un attendant automatique
 
-## <a name="step-6-if-you-want-to-set-up-audio-conferencing"></a>Étape 6 : Si vous souhaitez configurer la conférence Audio
+Les employés automatiques peuvent parcourir un système de menus pour accéder au service, à la file d’attente d’appels, au personnel ou à l’opérateur qui leur sont proposés.  
 
-Parfois, des personnes de votre organisation devront utiliser un téléphone pour rejoindre une réunion. Microsoft Teams inclut uniquement la fonctionnalité d’audioconférence dans cette situation. Les personnes peuvent se rendre par téléphone Teams réunions à l’aide d’un téléphone, au lieu de l’application Teams sur un appareil mobile ou un PC.
-Pour plus d’informations sur la façon de configurer l’audioconférence, voir [Configurer l’audioconférence Teams](set-up-audio-conferencing-in-teams.md).
+Pour plus d’informations sur la configuration des attendants automatiques, voir  [Définir un attendant automatique](create-a-phone-system-auto-attendant.md).
 
-## <a name="step-7-if-you-want-to-set-up-a-cloud-call-queue"></a>Étape 7 : si vous voulez configurer une file d’attente d’appels dans le cloud
+## <a name="step-7-set-up-communications-credits-for-toll-free-numbers"></a>Étape 7 : configurer les crédits de communication pour les numéros gratuits
 
-Les files d’attente d’appels cloud incluent des salutations qui sont utilisées lorsque quelqu’un appelle un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la possibilité de rechercher le prochain agent d’appel disponible pour gérer l’appel pendant que l’appelant écoute la musique mise en attente. Vous pouvez créer une ou plusieurs files d’attente pour votre organisation.
+Si vous voulez utiliser des numéros gratuits avec Microsoft Teams, vous devez configurer les crédits de communication. Les appels gratuits sont facturés par minute et un solde de crédits de communication positif est nécessaire. 
 
-Pour plus d’informations sur les files d’attente d’appels, voir [Créer une file d’attente d’appels cloud](create-a-phone-system-call-queue.md).
+Les crédits de communication sont un moyen pratique d’ajouter des numéros gratuits à utiliser comme suit : 
 
-## <a name="step-8-if-you-want-to-set-up-a-cloud-auto-attendant"></a>Étape 8 : si vous voulez configurer un attendant automatique dans le cloud
+- Avec des numéros de service pour les applications vocales, telles que les files d’attente automatiques ou les files d’attente d’appels. 
 
-Les employés automatiques peuvent appeler votre organisation et parcourir un système de menus pour accéder au service, à la file d’attente d’appels, au personnel ou à l’opérateur qui leur sont proposés. Vous pouvez créer un attendant automatique pour votre organisation à l’aide du Centre Teams’administration.
+- Pour composer un numéro de téléphone international si vous avez des abonnements à l’offre Appels nationaux ou au-delà de ce qui est inclus dans un abonnement de plan d’appels nationaux et internationaux. 
 
-Pour plus d’informations sur la configuration d’une fonction de attendendant automatique dans le cloud, voir [Configurer un attendant automatique cloud](create-a-phone-system-auto-attendant.md).
+- Pour appeler et payer par minute une fois que vous avez épuisé votre allotment de minutes mensuelles. 
 
-
-## <a name="step-9-assign-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>Étape 9 : Affecter les numéros de téléphone des services (services d’audioconférence, files d’attente des appels, standards automatiques)
-
-Une fois vos numéros de service à **l’étape 4 ci-dessus**, vous devez les affecter à chaque type de service que vous souhaitez. Par exemple, si vous souhaitez un numéro de téléphone de service dédié (gratuit ou gratuit), vous devez affecter le numéro au pont de conférence.
-
-- Pour l’audioconférence,  >  vous pouvez affecter un numéro dédié à un pont de conférence en Teams **ponts de conférence CenterMeetingsConference** >  et en respectant les invites.  Pour plus d’informations, voir Modifier les numéros gratuits ou gratuits  [sur votre pont d’audioconférence](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
-
-- Pour les attendants automatiques,  >  vous pouvez affecter un numéro dédié à un moyen de traitement automatique en vous Teams des **attendantsVoiceAuto** >  du centre d’administration et en vous suivent les invites.  Pour plus d’informations, [voir Configurer un attendant automatique cloud](create-a-phone-system-auto-attendant.md).
-
-- Pour les files d’attente d’appels,  >  vous pouvez affecter un numéro dédié à une file d’attente d’appels en Teams des files d’attenteVoiceCall >  et en suivez les invites. Pour plus d’informations, voir [Créer une file d’attente d’appels cloud](create-a-phone-system-call-queue.md).
-
-Pour plus d’informations voir [Créer une attente système téléphonique appelée = "undefined" class="unusedGlossaryTerm">](getting-service-phone-numbers.md).
-
-## <a name="step-10-set-up-communications-credits-for-your-organization"></a>Étape 10 : configurer les crédits de communication pour votre organisation
-
-Si vous voulez utiliser des numéros gratuits avec Microsoft Teams, vous devez configurer les crédits de communication. Microsoft vous recommande de configurer les crédits de communication pour les utilisateurs de vos forfaits d’appels (nationaux ou internationaux) et de l’audioconférence qui ont besoin de pouvoir appeler vers n’importe quelle destination. De nombreux pays/de nombreuses régions sont inclus, mais il est possible que certaines destinations ne soient pas incluses dans votre offre d’appels ou dans vos abonnements à l’audioconférence. 
-
-Si vous ne définissez pas la facturation des crédits de communication et si vous n’affectez pas de licences crédits de communication à vos **utilisateurs** et que vous n’avez plus de minutes d’appel (selon votre plan d’appels ou d’audioconférence dans votre pays/région), ces utilisateurs ne pourront plus appeler ou sortir d’un appel sortant d’une réunion d’audioconférence. Pour plus d’informations, notamment sur les montants des fonds recommandés, voir Quels sont les [crédits de communication](what-are-communications-credits.md) ? et Configurer les [crédits de communication pour votre organisation](set-up-communications-credits-for-your-organization.md).
+Pour plus d’informations,  [voir Quel est le crédit de communication ?](what-are-communications-credits.md) et [configurer les crédits de communication pour votre organisation](set-up-communications-credits-for-your-organization.md).
   
 
-## <a name="related-topics"></a>Voir aussi
-[Les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
+## <a name="related-topics"></a>Sujets associés
 
-[Gérer des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- [Qu’est-ce que le système téléphonique ?](what-is-phone-system-in-office-365.md)
 
-[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](getting-service-phone-numbers.md)
+- [Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
 
-[Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+- [Gérer des numéros de téléphone pour votre entreprise](manage-phone-numbers-landing-page.md)
+
+
     
   
  

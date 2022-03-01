@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2df5c465c9115dce47ee9e80ea649768606c338f
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: 3f26413aa746b37474e7035e313fc8ffff2fb93c
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918952"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039952"
 ---
 # <a name="shifts-data-faq"></a>FAQ shifts de données
 
@@ -35,7 +35,7 @@ Cet article traite des questions fréquemment posées sur les données Shifts, n
 
 ## <a name="where-is-shifts-data-stored"></a>Où sont stockées les données Shifts ?
 
-Les données shifts sont stockées dans l’une des trois zones géographiques (géographiques) : Asie-Pacifique (APAC), Union européenne (UE) ou États-Unis. Chaque geo stocke des données dans au moins deux régions de centre de données Azure pour les zones Haute disponibilité (HA) et DR (Disaster Recovery). Aujourd’hui, les états-Unis et l’Amérique du Nord utilisent des centres de données dans les centres de données central du Nord et du centre sud des États-Unis. Pour en savoir plus, [consultez l’Microsoft 365 données client stockées](/microsoft-365/enterprise/o365-data-locations).
+Les données shifts sont stockées dans l’une des trois zones géographiques (géographiques) : Asie-Pacifique (APAC), Union européenne (UE) ou États-Unis. Chaque geo stocke des données dans au moins deux régions de centre de données Azure pour les zones Haute disponibilité (HA) et DR (Disaster Recovery). Aujourd’hui, les états-Unis et l’Amérique du Nord utilisent des centres de données dans les centres de données central du Nord et du centre sud des États-Unis. Pour en savoir plus, [consultez où se trouve Microsoft 365 données client stockées](/microsoft-365/enterprise/o365-data-locations).
 
 Actuellement, Shifts offre une résidence de données en Australie, au Canada, en France, au Japon et au Royaume-Uni. Nous travaillons activement au développement de la prise en charge vers d’autres emplacements.
 
@@ -69,19 +69,15 @@ Par défaut, un groupe de Microsoft 365 supprimé est conservé pendant 30 jours
 
 Actuellement, Shifts ne prend pas en charge les stratégies de rétention personnalisées.
 
-Pour en savoir plus sur les stratégies de rétention dans Teams, voir Rétention pour les [Teams et Gérer](/microsoft-365/compliance/retention-policies-teams) les stratégies de rétention [pour les Teams](../../retention-policies.md).
+Pour en savoir plus sur les stratégies de rétention dans Teams, voir Rétention pour les [Teams et Gérer](/microsoft-365/compliance/retention-policies-teams) les stratégies de rétention [pour Teams](../../retention-policies.md).
 
 ## <a name="can-i-retrieve-shifts-data-for-a-user-whose-license-was-revoked"></a>Puis-je récupérer les données Shifts d’un utilisateur dont la licence a été révoquée ?
 
 Aujourd’hui, nous ne proposons pas la possibilité de récupérer les données d’un utilisateur dont la licence a été révoquée. Nous travaillons actuellement sur cette fonctionnalité.
 
-## <a name="is-shifts-supported-in-government-cloud-community-gcc-environments"></a>Shifts est-il pris en charge dans les environnements Cloud Community Administration (Cloud de la communauté du secteur public) ?
-
-Shifts est disponible dans Cloud de la communauté du secteur public de travail, mais pas dans Cloud de la communauté du secteur public environnements Élevé ou DoD.
-
 ## <a name="what-type-of-encryption-does-shifts-use-for-data-at-rest-and-in-transit"></a>Quel type de chiffrement Shifts utilise-t-il pour les données au repos et en transit ?
 
-Les données Shifts sont chiffrées au repos par Azure Cosmos DB et Azure Stockage. Pour en savoir plus, consultez [le chiffrement de données Azure au repos](/azure/security/fundamentals/encryption-atrest) et le chiffrement de [données dans Azure Cosmos DB](/azure/cosmos-db/database-encryption-at-rest).
+Les données Shifts sont chiffrées au repos par Azure Cosmos DB et Azure Stockage. Pour en savoir plus, consultez [le chiffrement de données Azure au repos](/azure/security/fundamentals/encryption-atrest) et le chiffrement de données dans [Azure Cosmos DB](/azure/cosmos-db/database-encryption-at-rest).
 
 Shifts suit les Microsoft 365 en matière de chiffrement des données en transit. Pour plus d’informations, [voir Chiffrement des données en transit](/compliance/assurance/assurance-encryption-in-transit).
 

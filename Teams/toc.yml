@@ -1564,7 +1564,7 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: Assistants de stratégie d'éducation
             href: easy-policy-setup-edu.md
-          - name: Déployer l’application Parents pour Teams
+          - name: Parents dans Teams pour l’éducation
             href: edu-parents-app.md
           - name: Application Career Coach dans Teams pour l'éducation
             href: career-coach.md

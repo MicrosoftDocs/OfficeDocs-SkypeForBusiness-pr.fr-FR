@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd40888ec8f1f7c5c05c3f5a2bf5a867ece93a65
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: d38af9f55f1620a1f38ad5860c71366201bb9444
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918877"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039902"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Plannings pour votre organisation dans Microsoft Teams
 
@@ -49,13 +49,14 @@ Il est important de savoir que Shifts ne permet pas actuellement de prendre en c
 
 Plannings est disponible dans toutes les références Entreprise où Teams est disponible.
 
+> [!NOTE]
+> Shifts est disponible dans des environnements Cloud de la communauté du secteur public (Cloud de la communauté du secteur public), mais pas dans Cloud de la communauté du secteur public des environnements Élevé ou DoD.
+
 ## <a name="location-of-shifts-data"></a>Emplacement des données Plannings
 
-Les données Plannings sont actuellement stockées dans Azure dans des centres de données en Amérique du Nord, en Europe de l’ouest et en Asie-Pacifique. Pour plus d’informations sur l’emplacement de stockage des données, voir [Où se trouvent mes données](http://o365datacentermap.azurewebsites.net/) ?
+Les données shifts sont actuellement stockées dans Azure dans des centres de données en Asie-Pacifique (APAC), dans l’Union européenne (UE) et en Amérique du Nord. Pour plus d’informations sur l’emplacement de stockage des données, voir [Où se trouvent mes données](http://o365datacentermap.azurewebsites.net/) ?
 
-## <a name="shifts-data"></a>Décale les données
-
-Pour en savoir plus sur l’endroit où sont stockées les données Shifts ainsi que sur la rétention, l’extraction et le chiffrement des données Shifts, voir FAQ sur les données [Shifts](shifts-data-faq.md).
+Pour en savoir plus sur les données Shifts, notamment le stockage, la rétention, l’extraction et le chiffrement des données Shifts, voir [FAQ sur les données Shifts](shifts-data-faq.md).
 
 ## <a name="set-up-shifts"></a>Configurer des Plannings
 
@@ -88,9 +89,10 @@ Vous pouvez effectuer une recherche dans le journal d’audit pour afficher l’
 
 Pour effectuer une recherche dans le journal d’audit, vous devez au préalable activer la fonctionnalité d’audit dans le [Centre de sécurité et de conformité](https://protection.office.com). Si vous souhaitez en savoir plus, veuillez consulter [Activer ou désactiver la recherche dans le journal d'audit](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). N’oubliez pas que les données d’audit ne sont disponibles qu’à partir du moment où vous avez activé l’audit.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 - [Shifts pour Teams](../shifts-for-teams-landing-page.md)
-- [Aide shifts pour les employés en avant-première](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [FAQ shifts de données](shifts-data-faq.md)
 - [Connecteurs Shifts](shifts-connectors.md)
+- [Aide shifts pour les employés en avant-première](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Attribuer des stratégies à vos utilisateurs](../../policy-assignment-overview.md)
