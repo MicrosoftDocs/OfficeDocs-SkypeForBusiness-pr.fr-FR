@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 660ecd7542eadd56b284642895e5da15a1cdd434
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: 3f9ca97a0088c703dc482d69406a9e9c2c8b2a22
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918938"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63043372"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Vue d’ensemble des composants Loop dans Teams
 
@@ -44,37 +44,37 @@ Pour plus d’informations sur les paramètres d’administration des composants
 
 Disponible sur Teams applications sur Windows, Mac, Linux, iOS et Android.
 
-## <a name="loop-components-and-fluid-files"></a>Composants de boucle et fichiers .fluid
+## <a name="loop-components-and-loop-files"></a>Composants en boucle et fichiers .loop
 
-Les composants de boucle créés Teams sont dosés par un fichier .fluid stocké dans le fichier OneDrive. Le fait d’être un fichier OneDrive signifie que les utilisateurs peuvent créer, découvrir et gérer des composants Loop (fichiers .fluid) aussi facilement que n’importe quel document Office document. Les fichiers .fluid fonctionnent avec les fonctionnalités de gouvernance des données telles que la découverte électronique, l’audit, les rapports et la gestion des droits.
+Les composants de boucle créés dans Teams sont conservés par un fichier .loop stocké dans le fichier OneDrive. Le fait d’être un fichier OneDrive signifie que les utilisateurs peuvent créer, découvrir et gérer des composants Loop (fichiers .loop) aussi facilement que n’importe quel document Office boucle. Les fichiers .loop fonctionnent avec les fonctionnalités de gouvernance des données telles que la découverte électronique, l’audit, les rapports et la prise en compte juridique.
 
-## <a name="how-are-fluid--files-stored"></a>Comment sont stockés les fichiers .fluid ?
+## <a name="how-are-loop--files-stored"></a>Comment sont stockés les fichiers .loop ?
 
-Les fichiers .fluid apparaissent sur Office.com et OneDrive, par exemple dans les zones récents et recommandés. Les utilisateurs peuvent rechercher du contenu dans des fichiers .fluid depuis Office.com et OneDrive. Les fichiers .fluid peuvent être restaurés vers des versions antérieures à partir de OneDrive. Pour créer des composants loop, les participants à la conversation doivent avoir un OneDrive compte. Sans compte OneDrive valide, les participants à la conversation peuvent toujours collaborer sur un composant créé par d’autres utilisateurs qui possèdent un compte OneDrive valide, mais ne peuvent pas créer leur propre compte. 
+les fichiers .loop apparaissent sur Office.com et OneDrive, par exemple dans les zones récents et recommandés. Les utilisateurs peuvent rechercher du contenu dans des fichiers .loop à partir de Office.com et OneDrive. les fichiers .loop peuvent être restaurés vers des versions antérieures d’OneDrive. Pour créer des composants loop, les participants à la conversation doivent avoir un OneDrive compte. S’il n’existe pas de compte OneDrive valide, les participants à la conversation peuvent toujours collaborer sur un composant créé par d’autres utilisateurs qui possèdent un compte OneDrive valide, mais ne peuvent pas créer leur propre compte. 
 
-Le déplacement d’un fichier .fluid à partir OneDrive vers un site SharePoint entraînera l’échec du chargement du composant dynamique dans Teams conversation.
+Le déplacement d’un fichier .loop OneDrive vers un site SharePoint entraînera l’échec du chargement du composant en direct dans Teams conversation.
 
 ## <a name="what-happens-if-the-owner-of-the-file-leaves-the-company"></a>Que se passe-t-il si le propriétaire du fichier quitte l’entreprise ?
 
-OneDrive stratégies de rétention s’appliquent aux fichiers .fluid comme aux autres contenus créés par l’utilisateur.
+OneDrive stratégies de rétention s’appliquent aux fichiers .loop comme aux autres contenus créés par l’utilisateur.
 
-## <a name="how-are-fluid-files-shared"></a>Comment les fichiers .fluid sont-ils partagés ?
+## <a name="how-are-loop-files-shared"></a>Comment les fichiers .loop sont-ils partagés ?
 
 Les composants de boucle peuvent être insérés dans Teams conversation ou copiés d’une conversation à l’autre. (Les composants de boucle ne sont pas encore pris en charge dans les canaux.) Elles utilisent par défaut les autorisations existantes de l’organisation, mais les utilisateurs peuvent modifier les autorisations avant l’envoi pour s’assurer que tout le monde y a accès.
 
-L’ouverture de composants à partir Teams conversation dans Office.com propose des fonctionnalités de partage en haut de la fenêtre, similaires aux options de partage proposées pour d’Office documents.
+L’ouverture de composants à partir Teams conversation dans Office.com propose des fonctionnalités de partage en haut de la fenêtre, à l’identique des options de partage proposées pour les Office documents.
 
-## <a name="what-if-a-fluid-file-becomes-corrupted-or-damaged"></a>Que se passe-t-il si un fichier .fluid est endommagé ?
+## <a name="what-if-a-loop-file-becomes-corrupted-or-damaged"></a>Que se passe-t-il si un fichier .loop est endommagé ?
 
 L’historique des versions vous permet de passer en revue et de copier des versions précédentes du fichier.
 
-## <a name="what-apps-can-open-and-edit-fluid-files"></a>Quelles applications peuvent ouvrir et modifier des fichiers .fluid ?
+## <a name="what-apps-can-open-and-edit-loop-files"></a>Quelles applications peuvent ouvrir et modifier des fichiers .loop ?
 
-Les fichiers .fluid peuvent uniquement être ouverts en tant que liens dans votre navigateur, comme Office.com, et en tant que composants Loop dans Teams conversation. Si elles sont téléchargées, elles ne peuvent pas être ouvertes à nouveau sans les avoir téléchargées au départ vers OneDrive ou SharePoint.
+Les fichiers .loop ne peuvent être ouverts que sous la mesure de liens dans votre navigateur, comme Office.com, et en tant que composants Loop dans Teams conversation. Si elles sont téléchargées, elles ne peuvent pas être ouvertes à nouveau sans les avoir téléchargées au départ OneDrive ou SharePoint.
 
 ## <a name="known-issues"></a>Problèmes connus
 
-- Les composants de boucle dans la conversation ne peuvent pas être modifiés via application Office’utilisation Teams sur Android.
+- Les composants de boucle dans la conversation ne peuvent pas être modifiés via application Office lors de l’Teams sur Android.
 - Si les autorisations de fichier par défaut du client sont définies sur Personnes spécifiques *(seules* les personnes spécifiées par l’utilisateur) et  que l’expéditeur supprime des utilisateurs de la liste Des personnes spécifiques dans la boîte de dialogue Autorisations lors de la création d’un composant, ces utilisateurs peuvent encore avoir accès au contenu.
 - Avec les autorisations de fichier par défaut du client définies sur Personnes spécifiques *(* seules les personnes spécifiées par l’utilisateur), copier le lien pour le composant live et coller dans une autre conversation nécessite que l’expéditeur utilise la boîte de dialogue Autorisations et ajoute les destinataires dans l’option Personnes spécifiques pour accorder l’accès correctement.
 - Avec les autorisations de fichier par défaut du client définies sur Personnes spécifiques *(* seules les personnes spécifiées par l’utilisateur), la création d’un composant en direct dans la conversation de groupe de plus de 20 membres nécessite que l’expéditeur sélectionne manuellement les options d’autorisation pour le composant.

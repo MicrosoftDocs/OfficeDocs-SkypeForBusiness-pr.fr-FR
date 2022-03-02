@@ -24,12 +24,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: Guide détaillé détaillant la façon de configurer des Teams Système téléphonique pour votre organisation dans Microsoft 365.
-ms.openlocfilehash: 1a8f7ed554a360b94e568058be29697c0f2b1767
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 3a5c275c7d7d881ff770e6e84a3d4fa935d2827f
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/01/2022
-ms.locfileid: "63039982"
+ms.locfileid: "63043342"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>La configuration système téléphonique de votre organisation
 
@@ -50,7 +50,7 @@ Cet article décrit les étapes suivantes :
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>Étape 1 : acheter et attribuer une licence Système téléphonique licence
 
-Pour attribuer une licence Système téléphonique utilisateur à un seul utilisateur, les étapes sont identiques à l’attribution d’Microsoft 365 licence. Vous pouvez également attribuer des licences à plusieurs utilisateurs en bloc. Pour plus d’informations sur les licences Système téléphonique disponibles et la manière d’acquérir et d’attribuer des licences, voir  [Teams licences](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md) de module complémentaire et Attribuer Microsoft Teams des [licences de module complémentaire](/teams-add-on-licensing/assign-teams-add-on-licenses.md).
+Pour attribuer une licence Système téléphonique utilisateur à un seul utilisateur, les étapes sont identiques à l’attribution d’Microsoft 365 licence. Vous pouvez également attribuer des licences à plusieurs utilisateurs en bloc. Pour plus d’informations sur les licences Système téléphonique disponibles et la manière d’acquérir et d’attribuer des licences, voir  [Teams Licences](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) de module complémentaire et Attribuer des Teams de module [complémentaire Microsot](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>Étape 2. Choisir une option de connectivité RSTN 
  
