@@ -8,20 +8,25 @@ ms.service: msteams
 audience: admin
 ms.reviewer: sonua
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
-  - m365initiative-meetings-enabler
-  - enabler-strategic
+- M365-collaboration
+- m365initiative-meetings
+- m365initiative-meetings-enabler
+- enabler-strategic
 search.appverid: MET150
-description: 'Dans cet article, vous allez découvrir les facteurs à prendre en compte avant de configurer des événements en direct dans Microsoft Teams.'
+description: Dans cet article, vous allez découvrir les facteurs à prendre en compte avant de configurer des événements en direct dans Microsoft Teams.
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f7ce782db18c15e3b08367e0956003f7af2dde75
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047144"
 ---
-
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
 Lorsque vous planifiez des événements en direct Teams pour organiser des réunions de grande envergure au sein de votre organisation, vous devez tenir compte de plusieurs facteurs avant de démarrer la configuration.
@@ -181,7 +186,10 @@ Vous pouvez utiliser les événements en direct Teams dans plusieurs régions da
 **Exclusions et points à prendre en compte**
 
 - **Emplacement des données :** les emplacements de données de Teams, en dehors de ceux répertoriés ci-dessus, ne sont pas pris en charge pour le moment.
-- **Chine :** membres de l’équipe et les participants ne pourront pas utiliser les événements en direct Teams parce qu’Azure CDN n’est pas accessible en Chine. Une solution de contournement consiste à utiliser une connexion VPN d’entreprise qui permet au client de se connecter au réseau de distribution de contenu via le réseau d’entreprise du client.
+
+>[!Note]
+> Les événements en direct s’appuient sur Azure CDN services, qui peuvent être indisponibles dans certains pays. En tant qu’administrateur, vous devrez peut-être configurer un VPN conformément à toutes les lois et réglementations applicables pour vous connecter à votre réseau d’entreprise afin que ces applications fonctionnent en toute transparence. Une fois cette opération terminée, les membres de votre organisation peuvent planifier et participer à des événements en direct.
+
 
 ## <a name="next-steps"></a>Étapes suivantes
 
