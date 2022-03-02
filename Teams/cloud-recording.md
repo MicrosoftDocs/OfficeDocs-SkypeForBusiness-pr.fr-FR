@@ -19,12 +19,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a067488736a1392ac34259ba77518c299c46d203
-ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
+ms.openlocfilehash: 7136ea224b23e29e7b4e669fbe3d364b787193fd
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62224011"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63043352"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -181,7 +181,23 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |Je souhaite que la transcription soit désactivée pour la majorité des utilisateurs, mais activer de manière sélective des utilisateurs spécifiques qui sont autorisés à transcrire. |<ol><li>Vérifiez que la stratégie globale CsTeamsMeetingPolicy a AllowCloudRecording = False. <li>La majorité des utilisateurs ont reçu la stratégie globale CsTeamsMeetingPolicy OU l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False. <li>Tous les autres utilisateurs ont reçu une des stratégies de CsTeamsMeetingPolicy avec AllowCloudRecording = True. </ol>|
 
 ### <a name="terms-of-use-acceptance"></a>Acceptation des Conditions d’utilisation
-Si votre organisation dispose d’une stratégie d’enregistrement des réunions que vous souhaitez que vos utilisateurs acceptent avant d’enregistrer une réunion, utiliser la fonctionnalité [Conditions d’utilisation Azure Active Directory](/azure/active-directory/conditional-access/terms-of-use). Cette fonctionnalité permet à vos utilisateurs d’accepter les conditions de la stratégie utilisateur de votre organisation avant d’accéder à Microsoft Teams. Cette fonctionnalité ne s’applique pas spécifiquement au clic sur le bouton Enregistrer. Elle est associée à l’utilisation de Teams ou d’autres applications Microsoft 365 en général. Notre suggestion est d’ajouter votre information d’enregistrement de la réunion aux conditions d'utilisation générales pour l’utilisateur de Teams ou de Microsoft 365. 
+Si votre organisation dispose d’une stratégie d’enregistrement des réunions que vous souhaitez que vos utilisateurs acceptent avant d’enregistrer une réunion, utiliser la fonctionnalité [Conditions d’utilisation Azure Active Directory](/azure/active-directory/conditional-access/terms-of-use). Cette fonctionnalité permet à vos utilisateurs d’accepter les conditions de la stratégie utilisateur de votre organisation avant d’accéder à Microsoft Teams. Cette fonctionnalité ne s’applique pas spécifiquement au clic sur le bouton Enregistrer. Elle est associée à l’utilisation de Teams ou d’autres applications Microsoft 365 en général. Notre suggestion est d’ajouter votre information d’enregistrement de la réunion aux conditions d'utilisation générales pour l’utilisateur de Teams ou de Microsoft 365.
+
+### <a name="set-a-custom-privacy-policy-url"></a>Définir une URL de stratégie de confidentialité personnalisée
+
+En tant qu'administrateur, vous pouvez mettre à jour l'URL de la stratégie de confidentialité de l'enregistrement et de la transcription de Teams avec un lien personnalisé pour votre organisation. Vous pouvez le faire dans le [Centre d’administration Azure AD](https://aad.portal.azure.com) en procédant comme suit :
+
+1. Connectez-vous au centre d’administration Azure AD.
+1. Accédez à **Azure Active Directory** > **Propriétés**.
+1. Mettez à jour le champ de l’**URL de la déclaration de confidentialité** avec le lien vers votre stratégie de confidentialité.
+
+> [!NOTE]
+> Si vous avez déjà mis à jour ce champ pour votre organisation, vous n’avez pas besoin d’effectuer de modifications.
+
+Après avoir ajouté l'URL de votre stratégie de confidentialité, la déclaration de confidentialité par défaut de l'enregistrement et de la transcription des réunions Teams sera remplacée par la nouvelle URL fournie par votre organisation.
+
+> [!NOTE]
+> Les utilisateurs anonymes, invités et fédérés qui participent à des réunions Teams hébergées par votre organisation seront toujours soumis à la stratégie de confidentialité par défaut en matière d'enregistrement et de transcription des réunions Teams.
 
 ## <a name="permissions-and-storage"></a>Autorisations et stockage
 
