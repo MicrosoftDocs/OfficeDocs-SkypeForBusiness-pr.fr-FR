@@ -20,18 +20,18 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft Teams simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs.
-ms.openlocfilehash: f90febffb5385a3b91859d63db1b4b320e0a94a7
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 173d5d1488196ea048a64ce12916f8115362c572
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62425293"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63055304"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Gérer les packages de stratégie pour Microsoft Teams
 
 Un package de stratégie dans Microsoft Teams est un ensemble de stratégies et de paramètres de stratégie prédéfinis que vous pouvez affecter aux utilisateurs ayant des rôles similaires dans votre organisation. Nous avons créé des packages de stratégies pour simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs au sein de votre organisation.  
 
-Vous pouvez utiliser les [packages de stratégie inclus dans Teams](#policy-packages-included-in-teams) créer [vos propres packages de stratégie personnalisés](#custom-policy-packages).
+Vous pouvez utiliser les [packages de stratégie inclus dans Teams](#policy-packages-included-in-teams) [créer vos propres packages de stratégie personnalisés](#custom-policy-packages).
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Capture d’écran de la page Packages de stratégie dans le Centre d’administration.":::
 
@@ -44,7 +44,7 @@ Vous pouvez personnaliser les paramètres des stratégies dans un package de str
 
 Les packages de stratégie vous permettent de Teams fonctionnalités que vous voulez autoriser ou restreindre pour des ensembles spécifiques de personnes au sein de votre organisation. Chaque package de stratégie dans Teams est conçu autour d’un rôle d’utilisateur et inclut des stratégies et paramètres de stratégie prédéfinés qui supportent les activités de collaboration et de communication classiques pour ce rôle.
 
-Les packages de stratégies  prisent en charge Teams types de stratégies suivants :
+Les packages de stratégies  prisent en charge les types Teams suivants :
 
 - Stratégie de messagerie
 - Stratégie de réunion
@@ -69,12 +69,12 @@ Teams inclut actuellement les packages de stratégie suivants.
 |Professionnel de la santé  |Crée un ensemble de stratégies et de paramètres de stratégies qui offrent aux travailleurs cliniques tels que les infirmières autorisées, les infirmières responsables, les médecins et les travailleurs sociaux un accès complet à la conversation, aux appels, à la gestion des équipes et aux réunions. |
 |Travailleurs de l’information sur le secteur de la santé  |Crée un ensemble de stratégies et de paramètres de stratégie qui donnent aux travailleurs de l’information, par exemple, le personnel de l’information, l’informatique, le personnel financier et les responsables de la mise en conformité, un accès total aux discussions, aux appels et aux réunions.|
 |Salle de soins de santé  |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux salles des patients dans votre organisation de santé.|
-|Utilisateur petite et moyenne entreprise (Teams Téléphone forfait d’appels) |Crée une stratégie de configuration d’application qui inclut les applications pour une Teams Téléphone expérience du plan d’appels.|
-|Petite et moyenne entreprise (sans passer Teams Téléphone’aide d’une forfait d’appels) |Crée une stratégie de configuration d’application pertinente pour les utilisateurs de petite et Teams entreprise (non utilisateurs particulièrement Teams Téléphone expérience du plan d’appels).
+|Utilisateur petite et moyenne entreprise (Teams Système téléphonique l’offre groupée Forfait d’appels) |Crée une stratégie de configuration d’application qui inclut les applications pour une Teams Système téléphonique expérience de forfait d’appels.|
+|Petite et moyenne entreprise (sans offre Teams Système téléphonique’offre groupée Forfait d’appels) |Crée une stratégie de configuration d’application Teams pertinente pour les utilisateurs de pme (non Teams Système téléphonique l’expérience de forfait d’appels).
 |Responsable de la sécurité publique   |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux responsables de la sécurité publique de votre organisation.|
 
 > [!NOTE]
-> Nous ajouterons d’autres packages de stratégie dans les prochaines Teams, aussi consultez-nous à nouveau pour obtenir les informations les plus à jour.  
+> Nous ajouterons d’autres packages de stratégie dans les prochaines Teams, aussi, vérifiez à nouveau pour obtenir les informations les plus à jour.  
 
 Chaque stratégie individuelle reçoit le nom du package de stratégie afin de vous permettre d’identifier facilement les stratégies liées à un package de stratégie.
 Par exemple, lorsque vous affectez le package de stratégie Éducation (Enseignant) aux enseignants de votre établissement scolaire, une stratégie nommée Education_Teacher est créée pour chaque stratégie du package.
@@ -83,7 +83,7 @@ Par exemple, lorsque vous affectez le package de stratégie Éducation (Enseigna
 
 ## <a name="custom-policy-packages"></a>Packages de stratégie personnalisée
 
-Les packages de stratégies personnalisées vous offrent votre propre ensemble de stratégies pour les utilisateurs ayant des rôles similaires au sein de votre organisation. Créez vos propres packages de stratégies en ajoutant les types de stratégies et les stratégies dont vous avez besoin.
+Les packages de stratégies personnalisées vous offrent votre propre ensemble de stratégies pour les utilisateurs ayant des rôles similaires dans votre organisation. Créez vos propres packages de stratégies en ajoutant les types de stratégies et les stratégies dont vous avez besoin.
 
 Pour créer un package de stratégie personnalisé :
 
@@ -143,6 +143,6 @@ Vous pouvez affecter un package de stratégie à un utilisateur, un groupe ou un
 ## <a name="related-topics"></a>Sujets associés
 
 - [Attribuer des packages de stratégie](assign-policy-packages.md)
-- [Teams packages de stratégie pour les administrateurs EDU](policy-packages-edu.md)
+- [Teams packages de stratégies pour les administrateurs EDU](policy-packages-edu.md)
 - [Packages de stratégie Teams pour la santé publique](policy-packages-healthcare.md)
 - [Teams packages de stratégies pour le gouvernement](policy-packages-gov.md)
