@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Découvrez comment gérer les appareils pour votre Teams Téléphone’aide d’une forfait d’appels.
+description: Découvrez comment gérer les appareils pour votre Teams Système téléphonique’aide d’une forfait d’appels.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e5e1527a85b3ce6e87390a2d0dc550da652bc9f
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 002e6494465c3e036284c36d505582e6285f34c2
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766537"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63053039"
 ---
 [!INCLUDE [device-management](../devices/device-management.md)]

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Découvrez comment configurer un attendant automatique (également appelé file d’attente d’appels) Microsoft 365 Teams Téléphone.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f30dcdca74306b27c2516de54e0ab25133b77803
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a70c07e4f0d97484ada63a5bb8163884375e13aa
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766227"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63053263"
 ---
 # <a name="step-6-set-up-an-auto-attendant-for-your-companys-main-phone-number"></a>Étape 6 : configurer un attendant automatique pour le numéro de téléphone principal de votre entreprise
 
@@ -33,4 +33,4 @@ Un attendant automatique vous permet de configurer un menu d’appels de sorte q
 Lorsque vous avez entré tous les onglets ci-dessus pour configurer votre service automatique, cliquez sur le bouton suivant pour passer à l’article suivant.
 
 > [!div class="nextstepaction"]
-> [Étape suivante : port des numéros de téléphone vers Teams Téléphone](port-phone-numbers.md)
+> [Étape suivante : port des numéros de téléphone pour les Teams Système téléphonique](port-phone-numbers.md)
