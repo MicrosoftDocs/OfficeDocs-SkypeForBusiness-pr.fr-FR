@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Cet article fournit des conseils sur l’utilisation des panneaux Teams panneaux.
-ms.openlocfilehash: bd1a7a865d6e07cec47838a518d19523afef5134
-ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+ms.openlocfilehash: e39b54d290ac3c8d4809f9da011c2e28451c2ae7
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63050900"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062538"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Utilisation de panneaux Microsoft Teams panneaux
 
@@ -204,7 +204,7 @@ Dans le panneau Teams, connectez-vous à l’aide de vos informations d’identi
 
 Les paramètres d’enregistrement et de publication de salles peuvent aider les utilisateurs à se rendre à une réunion sur des Teams de la salle qu’ils ont réservée au début de la réunion. Si un utilisateur ne vérifie pas dans un délai donné après l’heure de début de la réunion, la salle est libéré et mise à la disposition d’autres personnes.
 
-Lorsqu’un panneau Teams est couplé avec une salle Microsoft Teams sur Android, des notifications d’enregistrement peuvent être activées pour s’afficher sur l’écran avant de la salle lorsque les réunions sont en retard.
+Lorsque Teams panneaux est couplé avec une salle Microsoft Teams sur Android, les notifications d’enregistrement peuvent être activées pour s’afficher sur l’écran avant de la salle lorsque les réunions sont en retard.
 
 Pour activer l’enregistrement et la publication de salles, consultez l’enregistrement et la publication des salles [sur Microsoft Teams panneaux](check-in-and-room-release.md).
 

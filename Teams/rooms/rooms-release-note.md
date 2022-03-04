@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: Les administrateurs peuvent lire les notes de publication de l Salles Microsoft Teams pour savoir quelles améliorations cumulatives ont été apportées à Salles Microsoft Teams.
+description: Les administrateurs peuvent lire les notes de publication de l Salles Microsoft Teams, qui résisent les améliorations cumulatives apportées à Salles Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41b16af59652d3ca7f81dd72a485afec5b1a24db
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 8a8d08bd37fe3d2f32fcdb8f3a4989dba97e8a40
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279272"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062568"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notes de publication pour Salles Microsoft Teams
 
@@ -27,11 +27,11 @@ Cet article décrit les améliorations cumulatives apportées à Salles Microsof
 
 Il existe deux types de mises à jour salles Teams : salles Teams mises à jour d’application et Teams client web. 
 
-salles Teams mises à jour de l’application se produisent via le Microsoft Store ou par le biais [d’une mise à jour manuelle](manual-update.md). Cela met à jour l’application Windows plateforme universelle (UWP) installée localement sur l’appareil.
+salles Teams mises à jour de l’application se produisent via le Microsoft Store ou par le biais [d’une mise à jour manuelle](manual-update.md). Cette mise à jour de l’application Windows plateforme universelle (UWP) installée localement sur l’appareil.
 
-Teams mises à jour client web sont mises à jour via les services Teams de distribution d’application web. Il s’agit d’un service cloud qui ne nécessite pas de mise à jour de l’application UWP locale installée sur l’appareil.
+Teams mises à jour client web se produisent via les services Teams de distribution d’application web. Il s’agit d’un service cloud qui ne nécessite pas de mise à jour de l’application UWP locale installée sur l’appareil.
 
-Pour plus d’informations sur la façon Teams mises à jour, voir [Teams processus de mise à jour](../teams-client-update.md)
+Pour plus d’informations sur la façon d Teams mises à jour, voir [Teams processus de mise à jour](../teams-client-update.md)
 
 salles Teams est régi par la politique de cycle de vie moderne. Pour [plus d Teams, voir le processus de mise à jour](../teams-client-update.md#servicing-agreement).
 
@@ -39,6 +39,7 @@ salles Teams est régi par la politique de cycle de vie moderne. Pour [plus d Te
 
 |Publication |Publié sur <br/> Microsoft Store |
 |--- |--- |
+|4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
 |Teams Web-Client publication | Décembre 2021 |
 |Teams Web-Client publication | Octobre 2021 |
@@ -89,27 +90,32 @@ salles Teams est régi par la politique de cycle de vie moderne. Pour [plus d Te
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salles Microsoft Teams présentation des fonctionnalités et résolution des problèmes
 
+### <a name="411170-332022"></a>4.11.17.0 (3/3/2022)
+
+Introduit dans cette mise à jour :
+- Correctif pour l’encadrement de la caméra qui permet d’améliorer tout le contenu en vue Caméra.
+
 ### <a name="411120-1242022"></a>4.11.12.0 (1/24/2022)
 
 Introduit dans cette mise à jour :
-- Disposition Ligne avant (aperçu) pour MTR Windows <sup>1</sup> 
+- Disposition Ligne avant (aperçu) pour MTR sur Windows <sup>1</sup> 
 - Paramètre Administrateur de définir la disposition ligne avant comme disposition par défaut  
-- Mise à jour de l’application Conférence maintenant et appel Teams,Teams modes client <sup>par défaut1,2</sup>
+- Mise à jour de l’application Conférence maintenant et appel Teams uniquement, Teams modes client <sup>par défaut1,2</sup>
 - Basculer entre plusieurs caméras vidéo dans Teams <sup>réunions1</sup> 
 - Paramètre de caméra vidéo par défaut 
 - Cortana mise à jour de l’icône Appuyer-pour-parler sur la console MTR 
-- Azure AD Premium’inclusion d’une licence dans Room Standard et Premium Référence 
+- Azure AD Premium’inclusion d’une licence dans Room Standard et Premium références S SKUS 
 - AAD d’accès conditionnel3<sup></sup> 
 - Cortana activation vocale activée par défaut dans OOBE
 - Prise en charge des contrôles PTZ <sup>distants4</sup>
 
 > <sup>1 Ces</sup> fonctionnalités sont en cours de déploiement à l’Teams client web et seront déployer au cours des prochaines semaines. Pour plus [d’informations, voir Teams mises à](../teams-client-update.md) jour.
 > 
-> <sup>2</sup> salles Teams sur Windows s’exécutant dans Microsoft Teams uniquement ou Skype Entreprise et Microsoft Teams (par défaut) sont mises à jour avec les nouvelles expériences De réunion et d’appel, mais les autres modes ne sont pas impactés par cette mise à jour.
+> <sup>2</sup> salles Teams sur Windows s’exécutant en Microsoft Teams uniquement ou Skype Entreprise et Microsoft Teams (par défaut) sont mises à jour avec les nouvelles expériences De réunion et d’appel, mais les autres modes ne sont pas impactés par cette mise à jour.
 > 
-> <sup>3</sup> En savoir plus sur la configuration de stratégies d’AAD’accès [conditionnel](../rooms/rooms-authentication.md#azure-ad-conditional-access) pour les salles Teams.
+> <sup>3</sup> En savoir plus sur la configuration de stratégies d’accès AAD [conditionnelle](../rooms/rooms-authentication.md#azure-ad-conditional-access) pour les salles Teams.
 > 
-> <sup>4 Cette</sup> fonctionnalité nécessite que les administrateurs informatiques configurent Teams’application de contrôles PTZ distantes du client de bureau.
+> <sup>4</sup> Cette fonctionnalité nécessite que les administrateurs informatiques configurent Teams de bureau des contrôles PTZ distants du client.
 > 
 
 ### <a name="teams-rooms-web-client-update-december-2021"></a>salles Teams mise à jour du client web (décembre 2021)
@@ -120,7 +126,7 @@ Introduit dans cette mise à jour :
 ### <a name="teams-rooms-web-client-update-october-2021"></a>salles Teams mise à jour du client web (octobre 2021)
 
 Introduit dans cette mise à jour :
-- Contrôle de liste unifiée avec le client de bureau Teams avec le regroupement de réunions structurées, les options et les contrôles de réunion pour les présentateurs/participants, lever l’ordre de tri des main et la possibilité d’inviter des utilisateurs à partir de la conversation ou de l’invitation à une réunion directement à partir de la liste 
+- Contrôle de liste unifiée avec le client de bureau Teams avec regroupement de réunions structurées, options et contrôles de réunion pour les présentateurs/participants, lever l’ordre de tri des main et la possibilité d’inviter des utilisateurs à partir de la conversation ou de l’invitation à une réunion directement à partir de la liste 
 - Alignement des contrôles d’appel à barres universelles avec le client de bureau dans les contrôles d’appel de réunion, le bouton Disposition et les informations de statut de réunion
 - Prise en charge de la galerie dynamique pour les affichages à une et à deux face des salles
 - Unified layout picker for front of room layout option consolidated
@@ -132,7 +138,7 @@ Introduit dans cette mise à jour :
 
 
 > [!NOTE]
-> Les mises à jour du client web sont disponibles pour tous salles Teams avec les versions d’application 4.10 et 4.9. Les administrateurs pourront bientôt s’inscrire à salles Teams programme de prévisualisation publique afin d’obtenir rapidement un aperçu des fonctionnalités du client Web.
+> Les mises à jour du client web sont disponibles pour tous les salles Teams les versions 4.10 et 4.9 de l’application. Les administrateurs pourront bientôt s’inscrire salles Teams programme de prévisualisation publique afin d’obtenir rapidement un aperçu des fonctionnalités du client Web.
 
 ### <a name="410100-1012021"></a>4.10.10.0 (10/1/2021)
 
@@ -156,11 +162,11 @@ Introduit dans cette mise à jour :
 ### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
 
 Introduit dans cette mise à jour :
-- Microsoft Teams n’est désormais disponible que dans les paramètres de l’application. Vous n’avez donc plus besoin de configurer Skype Entreprise compte. Dans ce mode, les appareils connectés au Teams seul mode rejoignent Skype Entreprise réunions en tant qu’utilisateur invité.
+- Microsoft Teams seul mode est désormais disponible dans les paramètres de l’application. Vous n’avez donc plus besoin de configurer Skype Entreprise compte client. Dans ce mode, les appareils connectés au Teams seul mode rejoignent Skype Entreprise réunions en tant qu’utilisateur invité.
 - Correctif pour l’audio HDMI qui réduit le volume des appels. La fonctionnalité audio HDMI est automatiquement activée pour tous les appareils avec l’application build 4.9.12.0.
 
 > [!NOTE]
-> À Skype Entreprise fin de vie, il est recommandé de mettre à Teams en mode seul.
+> Une Skype Entreprise en fin de vie, il est recommandé de mettre à Teams mode uniquement.
 
 ### <a name="48310-05122021"></a>4.8.31.0 (05/12/2021)
 
@@ -181,10 +187,10 @@ Introduit dans cette mise à jour :
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
 Introduit dans cette mise à jour :
-- Cloud de la communauté du secteur public prise en charge du haut du salles Teams (GCCH). Les clients GCCH disposent d’salles Teams existants peuvent télécharger la version 4.8.19.0 à partir de la mise à jour manuelle d Salles Microsoft Teams [appareil](manual-update.md)
+- Cloud de la communauté du secteur public de la prise en charge des hautes valeurs (GCCH) pour salles Teams. Les clients GCCH disposent d’salles Teams existants peuvent télécharger la version 4.8.19.0 à partir de la mise à jour manuelle [d’Salles Microsoft Teams appareil](manual-update.md)
 - Participer à des réunions de zoom avec une meilleure qualité vidéo (prise en charge de 720p) et recevoir la galerie de vidéos des participants
 - Skype Entreprise bannière d’échec de la inscription supprimée pour Teams mode par défaut. Ce changement prend en charge la suppression d’Skype Entreprise infrastructure
-- Teams l’examen des liens permettant de participer à des réunions traite désormais les liens vers la protection avancée contre les menaces Microsoft Defender Coffre permettant de rejoindre des réunions externes en toute transparence Teams'
+- Teams l’examen des liens permettant de participer à des réunions traite désormais les liens vers la protection avancée contre les menaces Microsoft Defender Coffre pour permettre la jointation transparente des Teams externes
 - Correctif pour les problèmes de mise à l’échelle de contenu Skype Entreprise les réunions lorsque le PC de la sharer dispose d’un jeu d’ID DPI personnalisé Windows
 - Correctifs en matière de qualité et de fiabilité
 
@@ -197,7 +203,7 @@ Introduit dans cette mise à jour :
 
 Introduit dans cette mise à jour :
 
-- Partager le système audio HDMI pour les participants d’Teams réunion
+- Partager le système audio HDMI pour les participants à Teams réunion
 - Cortana de voix (aperçu)
 - Empêchez la désmutation en fonction des autorisations audio lorsque Teams salle rejoint en tant que participant. Pour plus d’informations, [voir Gérer les autorisations audio des participants dans Teams réunions](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
 - Mettre en valeur la vidéo d’une personne à partir Teams console de salle et utiliser les vidéos à la une sur les écrans des salles
@@ -220,14 +226,14 @@ Introduit dans cette mise à jour :
 - Participer à des réunions de zoom à partir salles Teams avec une rejoindre directement l’invité (prévisualisation)
 
 > [!NOTE]
-> La galerie de vidéos 3 x 3 et les sous-titres en direct locaux sont remis via le service Microsoft Teams’équipe. Ces fonctionnalités sont disponibles pour tous les salles Teams’application avec l’application 4.5.37.0 et versions supérieures.
+> La galerie de vidéos 3x3 et les sous-titres en direct locaux sont remis par le biais du service Microsoft Teams’équipe. Ces fonctionnalités sont disponibles pour tous les salles Teams’application avec l’application 4.5.37.0 et versions supérieures.
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
 
 Introduit dans cette mise à jour :
 
 - Réunions coordonnées entre Microsoft Teams et Surface Hub 2S
-- Correctif pour l Skype échec de la Windows 10 de la mise à jour [KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) ou de Windows 10 mise à jour [KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709)
+- Correctif pour l Skype échec de la Windows 10 de la mise à jour [KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) ou de la mise à jour Windows 10 [KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) est installé
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 
@@ -242,7 +248,7 @@ Introduit dans cette mise à jour :
 - Rechercher et appeler des utilisateurs fédérés (client) depuis Teams Room
 
 > [!IMPORTANT]
-> La version 4.5 est la dernière à prendre en charge Windows 10 version 1803. Les versions futures ne seront pas proposées aux systèmes Windows 10 version 1803. Pour plus d’informations sur Windows prise en charge des versions, voir [Windows 10 prise en charge de la publication](./rooms-lifecycle-support.md#windows-10-release-support).
+> La version 4.5 est la dernière version prise en charge Windows 10 version 1803. Les versions futures ne seront pas proposées aux systèmes Windows 10 version 1803. Pour plus d’informations sur Windows prise en charge des versions, voir [Windows 10 prise en charge de la publication](./rooms-lifecycle-support.md#windows-10-release-support).
 
 ### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
 
@@ -264,8 +270,8 @@ Introduit dans cette mise à jour :
 
 Introduit dans cette mise à jour :
 
-- Prise en charge de l’authentification moderne Exchange et Skype Entreprise
-- Prise en charge des appels d’urgence dynamiques pour Teams (composants de service requis et publiés à l’aide Teams anneaux clients)
+- Prise en charge de l’authentification moderne pour Exchange et Skype Entreprise
+- Prise en charge des appels d’urgence Teams d’urgence dynamiques (composants de service requis et Teams des anneaux clients)
 - Possibilité de désactiver le contenu en double hors réunion pour les salles à affichage double à l’aide de XML
 - Écran de d’accueil de l’application
 - Notifications sur le logiciel Open Source (OSS) dans les paramètres de l’appareil
@@ -290,7 +296,7 @@ Introduit dans cette mise à jour :
 Introduit dans cette mise à jour :
 
 - Réponse automatique aux appels de proximité et paramètre d’administration pour contrôler ce
-- Actualisation de l’Paramètres de l’interface utilisateur de l’appareil avec l’ajout de la configuration de l’appareil sous l’onglet À propos
+- Actualisation de l Paramètres de l’interface utilisateur de l’appareil avec l’ajout de la configuration de l’appareil sous l’onglet À propos
 - Contrôle de salle de retour à l’écran principal
 - Salle de réunion référence SKU disponible dans Cloud de la communauté du secteur public
 - Prise en charge de la caméra de Surface Pro système basé sur un système (build d’application minimale requise : 4.2.4.0)
@@ -316,12 +322,12 @@ Introduit dans cette mise à jour :
 
 Introduit dans cette mise à jour :
 
-- Skype app store Room System renommé « Salles Microsoft Teams »
+- Skype’application du store Room System a été renommée en « Salles Microsoft Teams »
 - Salles Microsoft Teams’interface utilisateur de la console réaligne sur Microsoft Teams
 - Mise à jour du thème : ne garder une image d’arrière-plan personnalisée que devant les écrans de salle, tout en rendant l’arrière-plan de la console neutre pour garantir que les contrôles de l’interface utilisateur de la console répondent au contraste de couleurs — conditions d’accessibilité
 - Barre universelle pour les contrôles d’appel en réunion pour les Teams/réunions afin d’offrir une expérience cohérente avec les clients Microsoft Teams PC/Web/<sup>Mobile1</sup>
 - Évaluation de la qualité des commentaires après Teams/<sup>réunions1</sup>
-- Recevoir/afficher des Microsoft Whiteboard au Salles Microsoft Teams avant de la salle lorsqu’il est partagé à partir d’un PC/Web/mobile Teams <sup>client1</sup> <sup>2</sup>
+- Recevoir/afficher des Microsoft Whiteboard au Salles Microsoft Teams avant de la salle lorsqu’il est partagé à partir d’un PC/Web/mobile Teams client <sup>12</sup> <sup></sup>
 - Prise en charge supprimée pour Windows 10 mises à niveau vers la version 1809 en raison de problèmes de compatibilité avec Salles Microsoft Teams client. Windows 10 prise en charge de la version 19H1 sera ajoutée dans les prochaines versions
 
 <sup>1 Microsoft Teams</sup> de service à l’aide Teams anneaux. Cette fonctionnalité peut être disponible plus tôt ou plus tard que la mise à jour du client 4.0.105.0
@@ -357,7 +363,7 @@ Introduit dans cette mise à jour :
 
 - Afficher du contenu au premier plan (FoR) sur des systèmes de salle à écran double
 - Améliorations de l’interface utilisateur au premier plan et au niveau des salles
-- Prise en charge côté client TLS 1.2. Pour les clients locaux, l’activation de la communication sur TLS 1.2 pour Salles Microsoft Teams nécessite la mise à jour cumulative Skype Entreprise Server 9 (CU9) ou la mise à jour cumulative Skype Entreprise Server 2019 1 (CU1).
+- Prise en charge côté client TLS 1.2. Pour les clients locaux, l’activation de la communication sur TLS 1.2 pour Salles Microsoft Teams nécessite la mise à jour cumulative Skype Entreprise Server 2015 9 (CU9) ou la mise à jour cumulative Skype Entreprise Server 2019 cumulative 1 (CU1).
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
 
@@ -375,7 +381,7 @@ Introduit dans cette mise à jour :
 
 Introduit dans cette mise à jour :
 
-- Modifications de code nécessaires pour préparer l’application Salles Microsoft Teams’application pour une Windows 10 mise à niveau vers la version 1803
+- Modifications de code nécessaires pour préparer l’Salles Microsoft Teams pour une mise à Windows 10 la version 1803
 - Résoudre le problème de mise en forme des E/SLA localisées (en particulier en norvégien) qui empêche l’avancement au-delà de la fenêtre de configuration OOBE de l’UELA
 - Modifications de code requises pour exécuter Salles Microsoft Teams application sur les systèmes de salle Lync hérités. En savoir plus [ici](./lrs-migration.md).
 
@@ -389,7 +395,7 @@ Introduit dans cette mise à jour :
 
 Introduit dans cette mise à jour :
 
-- Améliorations de la fonctionnalité « Signaler un problème » en mode Teams (équivalent à « Faire un commentaire » Skype Entreprise mode)
+- Améliorations de la fonctionnalité « Signaler un problème » en mode Teams (équivalent à « Faire des commentaires » en mode Skype Entreprise’écran)
 - Activer la possibilité de passer du mode Teams au mode Skype Entreprise pour les appels SIP
 - Améliorations apportées à l’accessibilité (Narrateur, Loupe)
 - Redémarrage automatique de l’application requis après application des modifications de mise en service XML
@@ -418,7 +424,7 @@ Introduit dans cette mise à jour :
 
 Introduit dans cette mise à jour :
 
-- Correction pour corriger les problèmes de réactivité de la console observés sur les appareils Surface Pro 2017 connectés à deux écrans avant et à la vidéo la plus rapide
+- Correction pour corriger les problèmes de réactivité de la console observés sur Surface Pro appareils 2017 connectés à deux écrans avant et à la vidéo la plus rapide
 - Vérification automatique pour vérifier que le système exécute le script de mise en service le plus récent
 
 ### <a name="311040-04162018"></a>3.1.104.0 (04/16/2018)

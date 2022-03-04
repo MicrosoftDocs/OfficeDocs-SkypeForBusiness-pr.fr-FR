@@ -21,16 +21,14 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: Dans cet article, vous allez découvrir comment créer, modifier et gérer des comptes de ressources dans Microsoft Teams.
-ms.openlocfilehash: 11ba1600ca1da807711d4bd977abf1adfa09a612
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: bc49142a5e40b0bb883761cde297d01d89a3f67b
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299029"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062558"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
-
-Un compte de ressource est un objet utilisateur désactivé Azure AD et peut être utilisé pour représenter des ressources en général. Par exemple, un compte de ressource peut être utilisé dans Exchange pour représenter les salles de conférence et leur permettre d’avoir un numéro de téléphone et un calendrier. Un compte de ressource peut être homed in Microsoft 365 ou sur site à l’aide Skype Entreprise Server 2019.
 
 Dans Microsoft Teams, un compte de ressource est requis pour chaque employé de la file d’attente d’appels ou de service automatique. Des numéros de téléphone de service peuvent également être attribués aux comptes de ressources. Il s’agit de la façon dont vous affectez des numéros de téléphone aux serveurs automatiques et aux files d’attente d’appels, ce qui permet aux appelants de l’extérieur Teams d’accéder au attendant automatique ou à la file d’attente d’appels.
 
@@ -42,7 +40,7 @@ Avant de commencer les procédures de cet article, assurez-vous d’avoir effect
 - [Obtenir des numéros de service](#obtain-service-numbers)
 
 > [!NOTE]
-> Les comptes de ressources sont désactivés pour la se connecte et doivent le rester. La conversation et la présence ne sont pas disponibles pour ces comptes.
+> Les comptes de ressources utilisés pour les travailleurs automatiques et les files d’attente d’appels sont désactivés pour la se connect et doivent le rester. La conversation et la présence ne sont pas disponibles pour ces comptes.
 
 ### <a name="obtain-virtual-user-licenses"></a>Obtenir des licences utilisateur virtuel
 
@@ -50,7 +48,7 @@ Chaque compte de ressource nécessite une licence pour l’utilisation des files
 
 Nous vous expliquerons comment attribuer la licence à un compte de ressource plus loin dans cet article.
 
-Pour obtenir la licence Utilisateur virtuel, dans le Centre d'administration Microsoft 365, allez dans **BillingPurchase** >  **servicesAdd-on** >  et faites défiler jusqu’à la fin - vous verrez *Système téléphonique - Licence* utilisateur virtuel. **Sélectionnez Acheter maintenant**. Il n’y a pas de coût nul, mais vous devez tout de même suivre ces étapes pour acquérir la licence.
+Pour obtenir la licence Utilisateur virtuel, dans le Centre d'administration Microsoft 365, allez dans **BillingPurchase** >  **servicesAdd-on** >  et faites défiler jusqu’à la fin - vous verrez Système téléphonique *- Licence* utilisateur virtuel. **Sélectionnez Acheter maintenant**. Il n’y a pas de coût nul, mais vous devez tout de même suivre ces étapes pour acquérir la licence.
 
 ### <a name="obtain-service-numbers"></a>Obtenir des numéros de service
 
@@ -60,7 +58,7 @@ Les comptes de ressources peuvent utiliser des numéros de service gratuits ou g
 
 Pour obtenir de nouveaux numéros de service, [consultez Obtenir des numéros de téléphone de service](getting-service-phone-numbers.md).
 
-Pour transférer un numéro d’un autre opérateur, [consultez transférer les numéros de téléphone vers Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Pour transférer un numéro d’un autre opérateur, consultez [transférer les numéros de téléphone vers Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 ## <a name="create-a-resource-account"></a>Créer un compte de ressource
 
@@ -80,7 +78,7 @@ Vous pouvez créer un compte de ressource dans le Teams d’administration.
 
 ## <a name="assign-a-license"></a>Attribuer une licence
 
-Pour chaque compte de ressource, vous devez attribuer une *Microsoft 365 Système téléphonique utilisateur* virtuel ou *une Système téléphonique* utilisateur virtuel.
+Pour chaque compte de ressource, vous devez affecter une *Microsoft 365 Système téléphonique utilisateur* virtuel ou une *Système téléphonique* utilisateur virtuel.
 
 ![Capture d’écran de l’interface utilisateur d’attribution de licences dans Centre d'administration Microsoft 365.](media/resource-account-assign-virtual-user-license.png)
 
@@ -126,7 +124,7 @@ Vous pouvez modifier le nom d’affichage **du compte** de ressource et le type 
 Si vous décidez de basculer les licences de votre compte de ressource existant d’une licence **Système téléphonique** à une licence utilisateur virtuel, vous devez acquérir la licence utilisateur virtuel gratuite, puis suivre les étapes de la Centre d'administration Microsoft 365 pour déplacer les utilisateurs vers un autre [abonnement.](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
 
 > [!WARNING]
-> Supprimez toujours une licence Système téléphonique licence utilisateur virtuel et attribuez-la dans la même activité de licence. Si vous supprimez l’ancienne licence, enregistrez les modifications apportées au compte, ajoutez la nouvelle licence, puis enregistrez de nouveau les paramètres du compte, le compte de ressource peut ne plus fonctionner comme prévu. Dans ce cas, nous vous recommandons de créer un compte de ressource pour la licence Utilisateur virtuel et de supprimer le compte de ressource rompu.
+> Supprimez toujours une licence utilisateur Système téléphonique et affectez la licence utilisateur virtuel dans la même activité de licence. Si vous supprimez l’ancienne licence, enregistrez les modifications apportées au compte, ajoutez la nouvelle licence, puis enregistrez de nouveau les paramètres du compte, le compte de ressource peut ne plus fonctionner comme prévu. Dans ce cas, nous vous recommandons de créer un compte de ressource pour la licence Utilisateur virtuel et de supprimer le compte de ressource rompu.
 
 ## <a name="skype-for-business-server-2019"></a>Skype Entreprise Server 2019
 
@@ -138,7 +136,7 @@ Les ID d’application que vous devez utiliser lors de la création des instance
 - **File d’attente** d’appels : 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> Si vous souhaitez que les utilisateurs d’Skype Entreprise Server 2019 recherchent la file d’attente ou le attendant automatique, créez vos comptes de ressources sur Skype Entreprise Server 2019, car les comptes de ressources en ligne ne sont pas synchronisés avec Active Directory. Lorsque les enregistrements SRV DNS pour sipfederationtls sont résolus jusqu’à Skype Entreprise Server 2019, les comptes de ressources doivent être **créés sur** Skype Entreprise Server 2019 à l’aide de l’shell de gestion SfB et synchronisés avec Azure AD.
+> Si vous souhaitez que les utilisateurs d’Skype Entreprise Server 2019 peuvent rechercher la file d’attente ou le attendant automatique, créez vos comptes de ressources sur Skype Entreprise Server 2019, car les comptes de ressources en ligne ne sont pas synchronisés avec Active Directory. Lorsque les enregistrements SRV DNS pour sipfederationtls sont résolus jusqu’à Skype Entreprise Server 2019, les comptes de ressources doivent être **créés sur** Skype For Business Server 2019 à l’aide de L’shell de gestion SfB et synchronisés avec Azure AD.
 
 Pour les implémentations hybrides avec Skype Entreprise Server :
 

@@ -17,18 +17,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af6433cb3e5ca0e1849322bdd128915e826e219b
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 8d1b84fc78558fcbb1945cbc56b311b5e06234a5
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63040062"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062528"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurer la connexion parent dans Microsoft Teams pour l'éducation
 
 La connexion parent dans Teams pour l'éducation permet aux enseignants de communiquer et de s’impliquer en toute sécurité avec les parents et tuteurs des étudiants dans leurs équipes de classe à l’aide d’une conversation Teams qui s’échellera au sein de l’organisation de l’enseignant. Toutes les données des parents et tuteurs sont approvisionnementées à l’Synchronisation des données scolaires, ce qui permet au personnel du service it de configurer les choses en douceur.
 
-Une fois que les parents et tuteurs légaux sont configurer, ils peuvent discuter avec les enseignants de leurs étudiants à l’aide Teams conversation. Pour obtenir des instructions sur la connexion des parents et tuteurs avec les enseignants, voir [Connecter avec les enseignants du Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+Une fois que les enseignants et tuteurs légaux sont configurer, ils peuvent discuter entre eux à l’aide Teams conversation instantanée. 
+
+Pour obtenir des instructions sur la connexion des parents et tuteurs avec les enseignants, voir [Connecter avec les enseignants du Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+
+Pour obtenir des instructions sur la manière dont les enseignants sont en train de communiquer avec les parents et tuteurs, voir Communiquer avec les [tuteurs dans Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
 
 Les parents travaillent également avec la conversation encadrée. Les parents et tuteurs ne peuvent pas avoir les autorisations de Teams complètes, ce qui signifie qu’ils ne peuvent pas démarrer de conversations avec des étudiants ou supprimer des utilisateurs à autorisations complètes (comme les enseignants) des conversations. Pour plus d’informations sur la conversation supervise, voir [Utiliser les conversations surveillées dans Microsoft Teams](supervise-chats-edu.md).
 
@@ -61,7 +65,7 @@ Les parents travaillent également avec la conversation encadrée. Les parents e
 > [!NOTE]
 >Les parents et tuteurs légaux sont considérés comme utilisateurs externes dans la fonctionnalité Parents, ce qui signifie qu’ils ne disposent pas de droits de locataire complets. Ils ont uniquement accès aux conversations à qui ils sont ajoutés, ainsi qu’aux fichiers, images et autres contenus partagés dans la conversation.
 >
->Par ailleurs, les utilisateurs externes peuvent voir la présence (hors connexion, disponible, occupé, etc.) des utilisateurs de votre organisation, mais cette fonctionnalité peut être désactivée à l’aide de PowerShell pour protéger la confidentialité des utilisateurs. Dans PowerShell, utilisez [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration?view=skype-ps) et set ``EnablePrivacyMode=true``.
+>Par ailleurs, les utilisateurs externes peuvent voir la présence (hors connexion, disponible, occupé, etc.) des utilisateurs de votre organisation, mais cette fonctionnalité peut être désactivée à l’aide de PowerShell pour protéger la confidentialité des utilisateurs. Dans PowerShell, utilisez [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) et set ``EnablePrivacyMode=true``.
 >
 >Même si les parents et tuteurs sont des utilisateurs externes, leurs contributions aux conversations sont découvrons. Découvrez comment effectuer une enquête Teams de découverte électronique en lisant Mener une enquête de découverte électronique sur du contenu [dans Microsoft Teams](ediscovery-investigation.md).
 
