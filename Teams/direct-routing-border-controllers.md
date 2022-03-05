@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez quels contrôleurs de frontière de session (SBC) ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3805a87171a770298e41337dfdd569c1b7d76985
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 1c005d97a0d0d570cb362d6c82853e3a3f8e3116
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63039992"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062498"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -144,6 +144,7 @@ Le tableau suivant décrit les fournisseurs SBC qui prennent en charge L’[opti
 |        | AP 6300 | 8.4.0.0.0 |
 |        | AP 6350 | 8.4.0.0.0 | 
 |        | VME     | 8.4.0.0.0 |
+| [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Contrôleur de frontière de session (SBC) Avaya pour Enterprise (ASBCE)    |  10.1.2 | 
 
 
 
