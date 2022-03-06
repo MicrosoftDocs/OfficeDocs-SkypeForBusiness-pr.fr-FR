@@ -1389,6 +1389,8 @@ items:
             href: rooms/multi-tenant-management-customer.md
           - name: Journaux d’audit pour les activités de salles
             href: rooms/multi-tenant-auditing.md
+          - name: Planificateur des normes et des salles
+            href: rooms/standards-and-room-planner.md
       - name: Appareils
         items:
           - name: Gérer vos périphériques dans Teams
