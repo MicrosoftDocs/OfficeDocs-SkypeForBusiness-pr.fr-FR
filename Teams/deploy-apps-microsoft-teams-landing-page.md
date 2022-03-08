@@ -3,9 +3,9 @@ title: Applications, robots et connecteurs dans Microsoft Teams
 ms.reviewer: ''
 description: Apprenez-en plus sur les applications, les robots et les connecteurs, ainsi que sur la manière de choisir les éléments à déployer dans Microsoft Teams sur la base du profil de votre organisation et des besoins de votre entreprise.
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 audience: admin
 ms.date: 02/10/2021
 ms.service: msteams
@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a2789e522e666894ca58c8b22e9d571b35a4fb26
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05d683bbefa9b3cc564e4f97e52f0fad441f2763
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618510"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070393"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Applications, robots et connecteurs dans Microsoft Teams
 
@@ -37,7 +37,7 @@ Teams insère un ensemble d’applications intégrées, notamment Listes, Tâche
 
 ## <a name="use-third-party-apps"></a>Utiliser des applications tierces
 
-En plus des applications fournies par Microsoft, vous pouvez utiliser des applications tierces certifiées par Microsoft. Microsoft collabore avec des partenaires développeur Microsoft 365 pour fournir les informations nécessaires à la prise de décisions accélérées concernant l’utilisation des applications et des modules complémentaires Teams. Pour plus d’informations, consultez [Sécurité et conformité de l’application Microsoft Teams](/microsoft-365-app-certification/teams/teams-apps).
+En plus des applications fournies par Microsoft, vous pouvez utiliser des applications tierces certifiées par Microsoft. Microsoft collabore avec  des partenaires développeurs Microsoft 365 pour fournir les informations nécessaires pour la prise de décisions accélérées relatives à l’utilisation des applications et compléments Teams. Pour plus d’informations, consultez [Sécurité et conformité de l’application Microsoft Teams](/microsoft-365-app-certification/teams/teams-apps).
 
 ## <a name="use-teams-templates"></a>Utilisation des modèles Teams
 
@@ -69,7 +69,7 @@ Par défaut, toutes les applications tierces fournies par Microsoft et les appli
 
 ### <a name="app-permissions-and-other-considerations"></a>Autorisations d’applications et autres points à prendre en compte
 
-Les utilisateurs approuvent les applications. Elles sont gérées par l’administrateur ou le spécialiste des TI par l’intermédiaire de stratégies. Toutefois, la plupart du temps, les autorisations et le profil de risque d’une application sont définis dans l’application elle-même. 
+Les utilisateurs approuvent les applications. Elles sont gérées par l’administrateur ou le spécialiste des TI par l’intermédiaire de stratégies. Toutefois, les autorisations d’application et le profil de risque sont définis dans l’application elle-même.
 
 | Posez-vous la question | Action |
 |--------------|--------|
