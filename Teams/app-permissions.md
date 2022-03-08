@@ -1,8 +1,8 @@
 ---
 title: Autorisations d’applications Microsoft Teams et points à prendre en compte
-author: rmw2890
-ms.author: rowille
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.date: 06/27/2019
 ms.topic: conceptual
 audience: admin
@@ -12,19 +12,19 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: Les administrateurs peuvent connaître les données et autorisations que Microsoft Teams applications demandent à leur organisation.
+description: L’administrateur peut savoir quelles données et autorisations Microsoft Teams applications demandent à leur organisation.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15892a4eb3996923f7a0129805e2bb542cdc8d7c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 59d8303943b8912f7ed0578bd911b633b618f113
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731783"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070553"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
 
@@ -35,17 +35,17 @@ Microsoft Teams d’applications vous permettent d’agréger une ou plusieurs f
 - Onglets
 - Connecteurs
 
-Les applications sont y consentées par les utilisateurs et gérées par les professionnels de l’it dans une perspective de stratégie. Toutefois, pour la plupart, les autorisations et le profil de risque d’une application sont définis par les autorisations et les profils de risque des fonctionnalités qu’elle contient. Par conséquent, cet article se concentre sur les autorisations et les considérations au niveau de la fonctionnalité.
+Les applications sont y consentées par les utilisateurs et gérées par les professionnels de l’it dans une perspective de stratégie. Toutefois, pour la plupart, les autorisations et le profil de risque d’une application sont définis par les autorisations et les profils de risque des fonctionnalités que contient l’application. Par conséquent, cet article se concentre sur les autorisations et les considérations au niveau de la fonctionnalité.
 
-Les autorisations ci-dessous en majuscules, par exemple RECEIVE_MESSAGE et REPLYTO_MESSAGE, n’apparaissent pas dans la documentation du développeur [Microsoft Teams](/microsoftteams/platform/overview) ou dans les autorisations de [Microsoft Graph.](/graph/permissions-reference) Il s’agit simplement d’une a bref descriptif des objectifs de cet article.
+Les autorisations ci-dessous en majuscules, par exemple RECEIVE_MESSAGE et REPLYTO_MESSAGE, n’apparaissent pas dans la documentation du développeur [Microsoft Teams](/microsoftteams/platform/overview) ou dans les [autorisations de Microsoft Graph](/graph/permissions-reference). Il s’agit simplement d’une a bref descriptif des objectifs de cet article.
 
 
 | Titre   | Description    |
 |-----------|------------|
-| ![Icône représentant un point de décision.](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Utilisez les tableaux ci-dessous comme guide pour comprendre les autorisations que les applications que vous examinez demandent.</li></ul> |
-| ![Icône représentant l’étape suivante.](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Recherchez l’application ou le service lui-même pour décider si vous voulez autoriser ou non l’accès à l’application au sein de votre organisation. Par exemple, les robots envoient et reçoivent des messages des utilisateurs et, à l’exception des robots personnalisés d’entreprise, ils se trouvent en dehors de la limite de conformité. Par conséquent, toute application qui inclut un bot requiert ces autorisations et possède au minimum ce profil de risque. </li></ul>|
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Utilisez les tableaux ci-dessous comme guide pour comprendre les autorisations que les applications que vous examinez demandent.</li></ul> |
+| ![Icône montrant l’étape suivante.](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Recherchez l’application ou le service lui-même pour décider si vous voulez autoriser ou non l’accès à l’application au sein de votre organisation. Par exemple, les robots envoient et reçoivent des messages des utilisateurs et, à l’exception des robots personnalisés d’entreprise, ils se trouvent en dehors de la limite de conformité. Par conséquent, toute application qui inclut un bot requiert ces autorisations et possède au minimum ce profil de risque. </li></ul>|
 
-Voir aussi [Demander des autorisations d’appareil pour votre Microsoft Teams’onglet .](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)
+Voir aussi [Demander des autorisations d’appareil pour votre Microsoft Teams onglet.](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)
 
 ## <a name="global-app-permissions-and-considerations"></a>Considérations et autorisations pour les applications globales
 
@@ -61,9 +61,9 @@ Aucun
 
 - Une application doit divulguer les données qu’elle utilise et ce à quoi elles sont utilisées dans ses liens d’utilisation et de politique de confidentialité.
 
-- [Le consentement spécifique à une](resource-specific-consent.md) ressource fournit un ensemble d’autorisations que les applications peuvent demander, qui apparaît sur l’écran d’installation de l’application. Pour en savoir plus sur les autorisations de consentement spécifiques aux ressources, voir [Graph référence concernant les autorisations.](/graph/permissions-reference#teams-resource-specific-consent-permissions)
+- [Le consentement spécifique à une](resource-specific-consent.md) ressource fournit un ensemble d’autorisations que les applications peuvent demander, qui apparaît sur l’écran d’installation de l’application. Pour en savoir plus sur les autorisations de consentement spécifiques aux ressources, voir [Graph référence des autorisations](/graph/permissions-reference#teams-resource-specific-consent-permissions).
 
-- Les applications peuvent également avoir besoin d’autorisations autres que des autorisations de consentement spécifiques aux ressources. Une fois qu’une application est installée, elle peut demander Graph autorisations d’autorisation par le biais d’une invite de consentement. Pour en savoir plus, voir Comprendre les expériences de consentement des [applications Azure AD.](/azure/active-directory/develop/application-consent-experience) Vous pouvez configurer les autorisations et le consentement de l’API dans le portail Azure. Pour plus d’informations, voir [Azure Active Directory’infrastructure de consentement.](/azure/active-directory/develop/consent-framework)
+- Les applications peuvent également avoir besoin d’autorisations autres que des autorisations de consentement spécifiques aux ressources. Une fois qu’une application est installée, elle peut demander Graph autorisations d’autorisation par le biais d’une invite de consentement. Pour en savoir plus, voir [Comprendre Azure AD expériences de consentement d’application](/azure/active-directory/develop/application-consent-experience). Vous pouvez configurer les autorisations et le consentement de l’API dans le portail Azure. Pour plus d’informations, voir [Azure Active Directory infrastructure de consentement.](/azure/active-directory/develop/consent-framework)
 
 ## <a name="bots-and-messaging-extensions"></a>Bots et extensions de messagerie
 
@@ -77,11 +77,11 @@ Aucun
 
 ### <a name="optional-permissions"></a>Autorisations facultatives
 
-- IDENTITY. Lorsqu’il est utilisé dans un canal, les robots de l’application peuvent accéder aux informations d’identité de base des membres de l’équipe (prénom, nom, nom d’utilisateur principal [NOM D’UTILISATEUR PRINCIPAL], adresse e-mail) ; lorsqu’il est utilisé dans une conversation personnelle ou de groupe, le bot peut accéder aux mêmes informations pour ces utilisateurs.
+- IDENTITY. Lorsqu’il est utilisé dans un canal, les robots de l’application peuvent accéder aux informations d’identité de base des membres de l’équipe (prénom, nom, nom d’utilisateur principal [UPN], adresse de messagerie) ; lorsqu’il est utilisé dans une conversation personnelle ou de groupe, le robot peut accéder aux mêmes informations pour ces utilisateurs.
 
-- POST_MESSAGE_TEAM. Permet aux robots d’une application d’envoyer des messages directs (proactifs) à tout membre de l’équipe à tout moment, même si l’utilisateur n’a jamais parlé au bot auparavant.
+- POST_MESSAGE_TEAM. Permet aux robots d’une application d’envoyer des messages directs (proactifs) à tout membre de l’équipe à tout moment, même si l’utilisateur n’a jamais parlé au robot auparavant.
 
-- Les autorisations suivantes ne sont pas explicites, mais sont implicites par RECEIVE_MESSAGE et REPLYTO_MESSAGE et les étendues dans lesquelles les robots peuvent être utilisés, déclarés dans le manifeste :
+- Les autorisations suivantes ne sont pas explicites, mais sont implicites par RECEIVE_MESSAGE et REPLYTO_MESSAGE ainsi que les étendues dans lesquelles les robots peuvent être utilisés, déclarés dans le manifeste :
  
     - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
     - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
@@ -107,7 +107,7 @@ Aucun
 
 - Lorsqu’un fichier est envoyé à un bot, il quitte le réseau d’entreprise. L’envoi et la réception de fichiers nécessitent l’approbation de l’utilisateur pour chaque fichier. 
 
-- Par défaut, les robots ne peuvent pas agir pour le compte de l’utilisateur, mais ils peuvent demander aux utilisateurs de se connecter. dès que l’utilisateur se signe, le bot a un jeton d’accès avec lequel il peut faire des choses supplémentaires. Les informations supplémentaires dépendent du robot et de l’endroit où l’utilisateur se trouve : un robot est une application Azure AD inscrite et peut avoir son propre ensemble https://apps.dev.microsoft.com/ d’autorisations.
+- Par défaut, les robots ne peuvent pas agir pour le compte de l’utilisateur, mais ils peuvent demander aux utilisateurs de se connecter. dès que l’utilisateur se signe, le bot a un jeton d’accès avec lequel il peut faire des choses supplémentaires. Les informations supplémentaires dépendent du robot et de l’endroit où l’utilisateur se trouve : un robot est une application Azure AD https://apps.dev.microsoft.com/ inscrite à et qui peut avoir son propre ensemble d’autorisations.
 
 - Les robots sont informés chaque fois que des utilisateurs sont ajoutés ou supprimés d’une équipe.
 
@@ -115,11 +115,11 @@ Aucun
 
 - En revanche, les extensions de messagerie voient les adresses IP des utilisateurs et les informations des références.
 
-- Les directives de l’application (et notre processus de révision AppSource) requièrent votre discrétion dans la publication de messages de conversation personnelle à l’adresse des utilisateurs (via l’autorisation POST_MESSAGE_TEAM) à des fins valides. En cas d’abus, les utilisateurs peuvent bloquer le robot, les administrateurs des clients peuvent bloquer l’application et Microsoft peut bloquer les bots de façon centralisée si nécessaire.
+- Les directives de l’application (et notre processus de révision AppSource) requièrent la discrétion de publier des messages de conversation personnelle à l’adresse des utilisateurs (via l’autorisation POST_MESSAGE_TEAM) à des fins valides. En cas d’abus, les utilisateurs peuvent bloquer le robot, les administrateurs des clients peuvent bloquer l’application et Microsoft peut bloquer les bots de façon centralisée si nécessaire.
 
-<sup>1 Certains</sup> robots envoient uniquement des messages (POST_MESSAGE_USER). Ils sont appelés « bots de notification uniquement », mais ce terme ne fait pas référence à ce qu’un robot est autorisé ou non à faire, cela signifie que le robot ne souhaite pas exposer une expérience de conversation. Teams utilise ce champ pour désactiver la fonctionnalité dans l’interface utilisateur qui serait normalement activée ; le robot n’est pas limité à ce qu’il est autorisé à faire par rapport aux bots qui exposent une expérience de conversation.
+<sup>1 Certains</sup> robots envoient uniquement des messages (POST_MESSAGE_USER). Ces robots sont appelés « notification uniquement », mais ce terme ne fait pas référence à ce qu’un robot est autorisé ou non à faire, cela signifie que le robot ne souhaite pas exposer une expérience de conversation. Teams utilise ce champ pour désactiver la fonctionnalité dans l’interface utilisateur qui serait normalement activée. Le robot n’est pas limité par ce qu’il est autorisé à faire par rapport aux robots qui exposent une expérience de conversation.
 
-<sup>2</sup> Régi par la propriété booléen Prend en charge les valeurs booléens dans l’objet bot dans manifest.jsfichier pour l’application.
+<sup>2</sup> Régi par la propriété booléens Supports dans le fichier manifest.json de l’application.
 
 > [!NOTE]
 > Si un robot dispose de sa propre inscription, il existe une deuxième expérience de consentement différente la première fois que l’utilisateur se connecte.
@@ -142,7 +142,7 @@ Aucun (actuellement)
 
 - Le profil de risque d’un onglet est presque identique à celui du site web en cours d’exécution dans un onglet de navigateur. 
 
-- Un onglet obtient également le contexte dans lequel il est en cours d’exécution, y compris le nom d’utilisateur utilisateur final et le nom d’utilisateur général de l’utilisateur actuel, l’ID d’objet Azure AD de l’utilisateur actuel, l’ID du groupe Microsoft 365 dans lequel il réside (s’il s’agit d’une équipe), l’ID de client et les paramètres régionaux actuels de l’utilisateur. Toutefois, pour ma carte de ces ID et les informations d’un utilisateur, l’onglet doit le faire pour qu’il se connecte à Azure AD.
+- Un onglet obtient également le contexte dans lequel il est en cours d’exécution, y compris le nom d’utilisateur général et le nom d’utilisateur général de l’utilisateur actuel, l’ID d’objet Azure AD de l’utilisateur actuel, l’ID du groupe Microsoft 365 dans lequel il réside (s’il s’agit d’une équipe), l’ID de client et les paramètres régionaux actuels de l’utilisateur. Toutefois, pour ma carte ces ID et les informations d’un utilisateur, l’onglet doit le faire se Azure AD.
 
 ## <a name="connectors"></a>Connecteurs
 
@@ -154,15 +154,15 @@ POST_MESSAGE_CHANNEL
 
 ### <a name="optional-permissions"></a>Autorisations facultatives
 
-REPLYTO_CONNECTOR_MESSAGE. Certains connecteurs supportent des messages actionnables, qui permettent aux utilisateurs de publier des réponses ciblées au message de connecteur, par exemple en ajoutant une réponse à un problème de GitHub ou en ajoutant une date à une carte Trello.
+REPLYTO_CONNECTOR_MESSAGE. Certains connecteurs supportent des messages actionnables, qui permettent aux utilisateurs de publier des réponses ciblées au message de connecteur, par exemple en ajoutant une réponse à un problème GitHub ou en ajoutant une date à une carte Trello.
 
 ### <a name="considerations"></a>Considérations
 
-- Le système qui publie des messages connecteur ne sait pas vers qui ils publient ou qui les reçoit : aucune information sur le destinataire n’est divulguer. (Microsoft est le destinataire réel, pas le client ; Microsoft publie réellement sur le canal.)
+- Le système qui publie des messages connecteur ne sait pas vers qui il publie ou qui les reçoit : aucune information sur le destinataire n’est divulguer. (Microsoft est le destinataire réel, pas le client ; Microsoft publie réellement sur le canal.)
 
 - Aucune donnée ne quitte le réseau d’entreprise lorsque des messages de connecteur sont publiés sur un canal.
 
-- Les connecteurs qui supportent les messages actionnables (REPLYTO_CONNECTOR_MESSAGE autorisation) ne voient pas non plus les informations d’adresse IP et de référence ; ces informations sont envoyées à Microsoft, puis acheminées vers des points de terminaison HTTP préalablement inscrits auprès de Microsoft dans le portail Connecteurs.
+- Les connecteurs qui supportent les messages actionnables (REPLYTO_CONNECTOR_MESSAGE autorisation) ne voient pas non plus les informations d’adresse IP et de référence ; Ces informations sont envoyées à Microsoft, puis acheminées vers des points de terminaison HTTP préalablement inscrits auprès de Microsoft dans le portail Connecteurs.
 
 - Chaque fois qu’un connecteur est configuré pour un canal, une URL unique est créée pour cette instance de connecteur. Si cette instance de connecteur est supprimée, l’URL ne peut plus être utilisée.
 
@@ -175,9 +175,9 @@ REPLYTO_CONNECTOR_MESSAGE. Certains connecteurs supportent des messages actionna
 > [!NOTE]
 > Il n’est actuellement pas possible de savoir quels connecteurs peuvent prendre en charge les messages actionnables (REPLYTO_CONNECTOR_MESSAGE autorisation).
 
-## <a name="outgoing-webhooks"></a>Sites Web sortants
+## <a name="outgoing-webhooks"></a>Sites web sortants
 
-*Les sites web sortants* sont créés à la volée par les propriétaires d’équipe ou les membres de l’équipe. Ce ne sont pas des fonctionnalités d Teams applications ; ces informations sont incluses à des fins.
+*Les sites web sortants sont créés* à la volée par les propriétaires d’équipe ou les membres de l’équipe. Il ne s’agit pas de fonctionnalités Teams d’applications ; ces informations sont incluses pour l’intégralité.
 
 ### <a name="required-permissions"></a>Autorisations requises
 
@@ -191,7 +191,7 @@ Aucun
 
 - Les sites web sortants sont similaires aux bots, mais ont moins de privilèges. Ils doivent être explicitement mentionnés, tout comme les bots.
 
-- Lorsqu’un site web sortant est enregistré, un secret est généré, ce qui permet au site web sortant de vérifier que l’expéditeur est Microsoft Teams par opposition à un pirate malveillant. Ce secret doit rester un secret . Toute personne qui y a accès peut prendre l’identité de Microsoft Teams. Si le secret est compromis, l’accès web sortant peut être supprimé et recréé, et un nouveau secret est généré.
+- Lorsqu’un site web sortant est enregistré, un secret est généré, ce qui permet à l’équipe web sortante de vérifier que l’expéditeur est Microsoft Teams par opposition à un pirate malveillant. Ce secret doit rester un secret . toute personne qui y a accès peut prendre l’identité d’Microsoft Teams. Si le secret est compromis, l’accès web sortant peut être supprimé et recréé, et un nouveau secret est généré.
 
 - Bien qu’il soit possible de créer un site web sortant qui ne valide pas le secret, nous vous recommandons de vous y baser.
 

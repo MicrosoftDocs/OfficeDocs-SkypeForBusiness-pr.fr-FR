@@ -1,8 +1,8 @@
 ---
 title: Utiliser les onglets intégrés et personnalisés dans Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
@@ -16,18 +16,18 @@ search.appverid: MET150
 description: Découvrez comment utiliser les onglets intégrés et personnalisés pour inclure des fonctionnalités telles des conversations, des fichiers, des mappages, et plus encore.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf48eef40ec71d1ca661b98ce6f6c842fe636942
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: fe954d5f6ec08e13db666e94c3dd7cc3d9121e61
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727173"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070243"
 ---
 # <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Utiliser les onglets intégrés et personnalisés dans Microsoft Teams
 
 Les onglets permettent aux membres d’une équipe d’accéder aux services et au contenu dans un espace dédié au sein d’un canal ou d’une conversation. Cela permet à l’équipe de travailler directement avec des outils et des données, et de discuter des outils et des données, dans le contexte du canal ou de la conversation.
 
-Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un canal, une conversation privée ou une conversation de groupe, pour faciliter l'intégration de leurs services cloud. Des onglets peuvent être ajoutés pour permettre aux utilisateurs d’accéder et de gérer facilement les données dont ils ont besoin ou avec qui ils interagissent le plus. Il peut s’agit d’un Power BI, d’un tableau de bord ou même d’un canal [vidéo Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) sur lequel vous publiez des vidéos de formation.
+Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un canal, une conversation privée ou une conversation de groupe, pour faciliter l'intégration de leurs services cloud. Des onglets peuvent être ajoutés pour permettre aux utilisateurs d’accéder et de gérer facilement les données dont ils ont besoin ou avec qui ils interagissent le plus. Il peut s’agit d’un Power BI, d’un tableau de bord ou même d’un canal [vidéo Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) dans lequel vous publiez des vidéos de formation.
 
 ![Trois captures d'écran de différents contenus dans des onglets.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
@@ -43,9 +43,9 @@ Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un c
 
     ![Capture d’écran des onglets d’une conversation.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
-- Les propriétaires et les membres de l’équipe peuvent  ajouter d’autres onglets à un canal ou une conversation en cliquant sur Ajouter une capture d’écran de l’onglet Ajouter un onglet, avec ![ un signe +.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) en haut du canal ou de la conversation.
+- Les propriétaires et les membres de l’équipe peuvent ajouter d’autres onglets  ![à un canal ou une conversation en cliquant sur Ajouter une capture d’écran d’onglet du bouton Ajouter un onglet, avec un signe +.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) en haut du canal ou de la conversation.
 
-- Excel fichiers PowerPoint, Word et PDF doivent être téléchargés  dans l’onglet Fichiers pour pouvoir être convertis en onglets. Les fichiers téléchargés existants peuvent être convertis en onglets d’un simple clic, comme illustré ci-dessous.
+- Excel fichiers PowerPoint, Word et PDF doivent être téléchargés dans l’onglet Fichiers pour pouvoir être convertis  en onglets. Vous pouvez convertir n’importe quel fichier téléchargé existant en onglet en un seul clic, comme illustré ci-dessous.
 
     ![Capture d'écran de l'onglet Fichiers avec un fichier PowerPoint sélectionné.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 

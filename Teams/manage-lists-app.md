@@ -1,31 +1,36 @@
 ---
 title: Gérer l’application Lists pour votre organisation dans Teams
-author: SerdarSoysal
-ms.author: serdars
-ms.reviewer: 'anach,v-jasuk'
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+ms.reviewer: anach,v-jasuk
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Healthcare
-  - Microsoft Cloud for Retail
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: Découvrez comment gérer l’application Lists pour les utilisateurs de votre organisation.
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - M365-collaboration
-  - microsoftcloud-healthcare
-  - microsoftcloud-retail
-  - m365initiative-lists
+- M365-collaboration
+- microsoftcloud-healthcare
+- microsoftcloud-retail
+- m365initiative-lists
 appliesto:
-  - Microsoft Teams
-ms.custom: null
+- Microsoft Teams
+ms.custom: ''
+ms.openlocfilehash: 1028a1e5826a2519de83d8dc73b7d2f55282ca4b
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070610"
 ---
-
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Lists pour votre organisation dans Microsoft Teams
 
 ## <a name="overview-of-lists"></a>Présentation de Lists

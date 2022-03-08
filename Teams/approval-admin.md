@@ -1,9 +1,9 @@
 ---
 title: Disponibilité des applications Approbations dans Teams
-author: SerdarSoysal
-ms.author: serdars
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: farhazk
-manager: serdars
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea3da24dc0fa3a64d90b38a67b13be0fa4d041ce
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 10adab9046a7cbd8cebccf6167075e38b1204dea
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62421547"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070433"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
@@ -57,7 +57,7 @@ Pour déployer l’application Approbations, vous devez obtenir une autorisation
 
 - Une licence microsoft Forms est requise pour que les utilisateurs définissent de nouveaux modèles d’approbation.
 
-Pour utiliser l’application Approbations, vous avez besoin d’une licence pour Power Automate. Votre compte est automatiquement ajouté au rôle Utilisateur Approbations dans l’environnement cible sur votre première affectation d’approbation.
+Pour utiliser l’application Approbations, vous avez besoin d’une licence pour Power Automate et votre compte est automatiquement ajouté au rôle Utilisateur Approbations dans l’environnement cible sur votre première affectation d’approbation.
 
 ## <a name="storage-with-cds"></a>Stockage avec CDS
 
@@ -99,7 +99,7 @@ Autorisations du modèle d’approbation
 
 - Tous les propriétaires d’équipe peuvent créer un modèle d’approbation pour les équipes dont ils sont propriétaires.
 
-- Lorsqu’un administrateur crée un modèle pour l’ensemble de son organisation pour la première fois, il crée automatiquement un nouveau groupe de Azure Active Directory (AAD) pour tous les administrateurs du client, y compris les administrateurs des services Teams. Ces administrateurs seront ajoutés en tant que propriétaires du groupe, de sorte qu’ils pourront co-gérer les modèles d’organisation. Les administrateurs qui débutent dans l’organisation une fois l’équipe créée doivent être ajoutés manuellement en tant que propriétaires de groupe afin qu’ils disposent des mêmes autorisations pour gérer les modèles à l’échelle de l’organisation.
+- Lorsqu’un administrateur crée un modèle pour l’ensemble de son organisation pour la première fois, il crée automatiquement un nouveau groupe de Azure Active Directory (AAD) pour tous les administrateurs du client, y compris les administrateurs de services Teams. Ces administrateurs seront ajoutés en tant que propriétaires du groupe, de sorte qu’ils pourront co-gérer les modèles d’organisation. Les administrateurs qui débutent dans l’organisation une fois l’équipe créée doivent être ajoutés manuellement en tant que propriétaires de groupe afin qu’ils disposent des mêmes autorisations pour gérer les modèles à l’échelle de l’organisation.
 
 > [!Note]
 > Si un administrateur supprime le groupe, vous avez un mois pour le restaurer dans le portail Azure Active Directory (AAD) afin de restaurer toutes les données associées. Après un mois, ou si l’administrateur supprime ce groupe dans la Corbeille, vous perdrez toutes les données associées.
@@ -110,11 +110,11 @@ L’application Approbations est disponible par défaut. Vous pouvez désactiver
 
   1. Se connecter au Centre d’administration de Microsoft Teams.
 
-  2. Allez à **Teams applications** **AppsManage** > .
+  2. Allez à **Teams applications** > **AppsManage**.
 
   3. Recherchez l’application Approbations.
 
-     ![Affiche la navigation dans le Centre d’administration avec Teams Applications et > Gérer les applications mis en évidence.](media/manage-approval-apps.png)
+     ![affiche la navigation dans le Centre d’administration avec Teams applications et > l’application Gérer les applications mise en évidence.](media/manage-approval-apps.png)
 
   4. **Sélectionnez Approbations**.
 
@@ -202,7 +202,7 @@ Pour utiliser la fonctionnalité de signature électronique de l’application A
 
 Vous pouvez utiliser le centre Teams d’administration pour contrôler quels fournisseurs de signature électronique tiers sont disponibles pour vos utilisateurs dans l’application Approbations. Par défaut, les fournisseurs de signature électronique sont activés dans l’application Approbations. Lorsque vous désactivez un fournisseur de signature électronique, vos utilisateurs n’y ont pas accès lorsqu’ils créent des approbations. Vos utilisateurs ne pourront pas non plus afficher les demandes de signature électronique créées à l’aide de ce fournisseur.
 
-1. Dans le panneau de navigation gauche du Teams d’administration, voir **Teams applications De** >  **gestion des applications**.
+1. Dans le panneau de navigation gauche du Teams d’administration, Teams **applications** **AppsManage** > .
 2. Recherchez l’application Approbations, puis sélectionnez-la.
 3. Dans **l’Paramètres**, puis faites une ou plusieurs des choses suivantes :
 

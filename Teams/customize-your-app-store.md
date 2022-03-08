@@ -1,8 +1,8 @@
 ---
 title: Magasin d’applications personnalisées
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: prem
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: En savoir plus sur le magasin d’applications personnalisées Microsoft Teams.
-ms.openlocfilehash: cabfc148edb793ac40b49950b3b92676a0c80bfa
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: f98b91c8a700bfc8ebb560930862e66b38a35a0e
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62399498"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070383"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Magasin d’applications personnalisées dans Microsoft Teams
 
@@ -68,7 +68,7 @@ Lorsque vous sélectionnez **l’option Choisir une** image, vous pouvez téléc
 - .png
 - .jpg
 
-Le petit logo s’affiche en côté du titre de la section Créé pour **le** client dans la page d’accueil Teams du magasin d’articles.
+Le petit logo s’affiche en côté du titre **de la section** Créé pour le client dans la page d Teams page d’accueil du magasin d’articles.
 
 ## <a name="customize-the-background-color"></a>Personnaliser la couleur d’arrière-plan
 
@@ -109,7 +109,7 @@ Pour afficher un aperçu de vos modifications, sélectionnez **Preview apps stor
 ![aperçu du magasin d’applications personnalisées.](media/PowerAppsInStore650w.png)
 
 > [!Note]
-> La représentation peut différer de la version finale de votre magasin d’applications personnalisées, car certaines couleurs par défaut sont basées sur la version de vos utilisateurs Teams client.
+> La représentation peut différer de la version finale de votre magasin d’applications personnalisées, car certaines couleurs par défaut sont basées sur la version d’Teams client de vos utilisateurs.
 
 ## <a name="related-article"></a>Article connexe
 

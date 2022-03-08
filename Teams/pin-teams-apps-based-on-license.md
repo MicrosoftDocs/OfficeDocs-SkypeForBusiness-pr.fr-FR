@@ -1,9 +1,9 @@
 ---
 title: Personnaliser vos applications Teams en fonction de leur licence
-author: lanachin
-ms.author: v-lanachin
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: aaglick
-manager: samanro
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34614a6c1b45ea9660552b77b7c91d87e5c30d5f
-ms.sourcegitcommit: 2d4dab7a6436e53db9475d67695504753896ca86
+ms.openlocfilehash: 97da80a0bb02c18c3270d547dd0c0753a207dc8c
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "63065242"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070733"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>Personnaliser vos applications Teams en fonction de leur licence
 
@@ -30,7 +30,7 @@ ms.locfileid: "63065242"
 > [!NOTE]
 > Actuellement, cette fonctionnalité s’applique aux licences F. Par conséquent, cet article se concentre sur l’expérience des employés en première ligne. D’autres types de licence seront pris en charge à l’avenir.
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
 Teams permet d’épingler des applications en fonction de leur licence. Lorsqu’un utilisateur se Teams l’expérience d’application personnalisée est activée, l’utilisateur reçoit une expérience d’application personnalisée en fonction de sa licence.
 

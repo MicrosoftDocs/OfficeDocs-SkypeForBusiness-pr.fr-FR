@@ -1,28 +1,33 @@
 ---
-title: "Gérer l’application Tasks pour votre organisation dans Microsoft\_Teams"
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+title: Gérer l’application Tasks pour votre organisation dans Microsoft Teams
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Healthcare
-  - Microsoft Cloud for Retail
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 audience: admin
 description: Découvrez comment gérer l’application Tasks pour les utilisateurs de votre organisation.
 ms.localizationpriority: medium
 MS.collection:
-  - Teams_ITAdmin_Help
-  - M365-collaboration
-  - microsoftcloud-healthcare
-  - microsoftcloud-retail
+- Teams_ITAdmin_Help
+- M365-collaboration
+- microsoftcloud-healthcare
+- microsoftcloud-retail
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 2ad0324509849700ea74afe582d4ce7a4934dc3e
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070593"
 ---
-
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Tasks pour votre organisation dans Microsoft Teams
 
 ## <a name="overview-of-tasks"></a>Présentation de Tasks

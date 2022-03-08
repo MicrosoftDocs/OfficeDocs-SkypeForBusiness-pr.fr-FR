@@ -1,9 +1,9 @@
 ---
 title: Consentement spécifique à une ressource dans Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: nkramer
-manager: serdars
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e2c77e33165bedbb5302a1202f85906a64cea9a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 9e6e2f0e7827dab36645fec7105a9cbe0c439472
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400828"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070653"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Consentement spécifique à une ressource dans Microsoft Teams
 
@@ -32,7 +32,7 @@ En tant qu’administrateur, vous contrôlez si les propriétaires d’équipe d
 
 Voici les paramètres que vous devez définir pour contrôler si les propriétaires d’équipe peuvent accorder leur consentement aux applications. N’oubliez pas de passer en revue tous les paramètres suivants.
 
-### <a name="settings-in-azure-ad"></a>Paramètres dans Azure AD
+### <a name="settings-in-azure-ad"></a>Paramètres en Azure AD
 
 Les deux paramètres suivants déterminent si les propriétaires d’équipe peuvent accorder leur consentement aux applications.
 
@@ -43,7 +43,7 @@ Les deux paramètres suivants déterminent si les propriétaires d’équipe peu
 
 Ce paramètre contrôle si les utilisateurs de votre organisation peuvent consenter à des applications en leur nom. Pour permettre aux propriétaires d’équipe d’accorder leur consentement, ce paramètre doit être réglé sur **Oui**. Pour gérer ce paramètre, vous pouvez :
 
-1. Dans le portail Azure, allez à la Enterprise **d’applicationsUser** > .
+1. Dans le portail Azure, allez à Enterprise **paramètres de l’applicationUser** > .
 2. Sous **Enterprise applications**, définissez que les utilisateurs peuvent **consenter** à ce que les applications accèdent aux données de l’entreprise en leur nom sur **Non** ou **Oui**.
 
 Vous pouvez également gérer ce paramètre à l’aide de PowerShell. Pour en savoir plus, voir [Configurer le contenu utilisateur sur des applications](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications).
@@ -63,7 +63,7 @@ Outre les paramètres d’Azure AD, les [paramètres](manage-apps.md#manage-org-
 
 Ce paramètre d’application à l’échelle de l’organisation contrôle si les utilisateurs de votre organisation peuvent utiliser des applications tierces. Ce paramètre doit être activé pour permettre aux propriétaires d’équipe d’accorder leur accord. Pour gérer ce paramètre, vous pouvez :
 
-1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, cliquez sur **Teams applications** >  **De** gestion des applications, puis cliquez sur Paramètres de l’application à **l’échelle de l’organisation**.
+1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez dans **Teams** **applicationsManage** > , puis cliquez sur Paramètres de l’application à **l’échelle de l’organisation**.
 2. Sous **Applications tierces**, désactiver ou activer Autoriser **les applications tierces**.
 
     ![Capture d’écran du paramètre « Autoriser les applications tierces dans Teams »](media/resource-specific-consent-org-wide-setting.png)
@@ -93,7 +93,7 @@ Les propriétaires d’équipe peuvent uniquement accorder leur consentement aux
 
 Lors du téléchargement d’une application personnalisée (également connue sous le nom de « sideloading » ) qui utilise un consentement spécifique pour une ressource, l’application doit être provenant du client sur qui elle est installée. En d’autres termes, l Azure AD de l’application doit être de ce client. Les administrateurs globaux sont exemptés de cette restriction et peuvent télécharger des applications personnalisées à partir de n’importe quel client, directement à une équipe (chargement automatique) ou au catalogue d’applications client.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Autorisations RSC disponibles](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 - [Microsoft Graph](https://developer.microsoft.com/graph)

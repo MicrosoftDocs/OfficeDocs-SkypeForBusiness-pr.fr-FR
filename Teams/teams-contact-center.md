@@ -13,12 +13,12 @@ f1.keywords:
 description: Vue d’ensemble de la solution CCaaS (Centre de contacts intégré) pour les Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7593264efff9935df0606c1fad7e32006ea52c44
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.openlocfilehash: 52de716c35e934e13140af278814a93620dd4962
+ms.sourcegitcommit: 2c8d6183920fd0df7e0491cf4e79b2311503dba7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62863907"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63073742"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Intégrations du Centre de contacts pour les Microsoft Teams
 
@@ -35,7 +35,7 @@ Pour les organisations qui souhaitent obtenir des solutions avec des outils d’
 
 Le Centre de contacts connectés pour Microsoft Teams de certification vérifie que la solution de chaque fournisseur participant fournit la qualité, la compatibilité et la fiabilité qu’ils attendent des solutions Microsoft.
 
-Si vous êtes une organisation qui recherche une solution de centre de contacts intégré, consultez les [solutions](https://cloudpartners.transform.microsoft.com/contact-center-solutions) Microsoft Teams certifiées pour les centres de contacts pour obtenir la liste des fournisseurs de solutions certifiés, et les [solutions](#connected-contact-center-solutions) du Centre de contacts connectés pour une liste de fournisseurs en cours de certification.
+Si vous êtes une organisation qui recherche une solution de centre de contacts intégré, consultez les [solutions Microsoft Teams](https://cloudpartners.transform.microsoft.com/contact-center-solutions) certifiées pour les centres de contacts pour obtenir la liste des fournisseurs de solutions certifiés, et les [solutions](#connected-contact-center-solutions) du Centre de contacts connectés pour une liste de fournisseurs en cours de certification.
 
 Si vous êtes un vendeur désireux de rejoindre le programme de certification, envoyez un e-mail <Teamscategorypartner@microsoft.com>.
 
@@ -60,6 +60,7 @@ Les fournisseurs suivants proposent des solutions de centre de contacts intégr�
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
+| `Tendfor` | https://www.tendfor.com                                                            |
 
 ### <a name="solutions-currently-in-the-certification-process"></a>Solutions en cours de certification
 
@@ -78,6 +79,5 @@ Les fournisseurs suivants proposent des solutions de centre de contacts intégr�
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
-| `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
 Cette liste sera mise à jour à mesure que de autres fournisseurs de solutions rejoindront et répondront aux critères de certification.

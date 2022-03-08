@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour l’Afrique du Sud.
-ms.openlocfilehash: cccc1b801b2627ecb93eafd38b0ab944baac91aa
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 7c56d5bb6fd8ee3449b110b21b00000eda9dac55
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190815"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070573"
 ---
 # <a name="availability-in-south-africa"></a>Disponibilité en Afrique du Sud
 
@@ -59,11 +59,12 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Non  <br/> |
-|Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
-|Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
+|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
+|Minutes disponibles pour les forfaits d'appels. |Quatre options de forfait sont disponibles par mois civil : <ul><li>Forfait d’appels nationaux de 120 minutes </li><li>Forfait d’appels nationaux de 240 minutes</li></li><li>Forfait d’appels nationaux de 1200 minutes </li></li><li>Offre d’appels nationaux et internationaux :  1200 minutes d’appels nationaux ou 600 minutes d’appels internationaux (suivant ce qui est atteint en premier au cours du mois)</li></li></ul>|
+|Est-il possible de passer des appels sortants vers les numéros premium ?  <br/> | Ceci n’est pas pris en charge pour le moment. <br/> |
+|Est-il possible de passer des appels sortants ?  <br/> | Jusqu’à 196 pays ou régions, notamment [ceux-ci](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
 
-Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les options de [connectivité PSTN](../pstn-connectivity.md) pour toutes les options disponibles.
+Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les [options de connectivité PSTN](../pstn-connectivity.md) pour toutes les options disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 

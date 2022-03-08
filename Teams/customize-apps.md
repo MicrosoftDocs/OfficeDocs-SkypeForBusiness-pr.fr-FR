@@ -1,8 +1,8 @@
 ---
 title: Personnaliser des applications dans Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment personnaliser des applications dans Microsoft Teams.
-ms.openlocfilehash: cac5bc4e5d2748b8e4a9143d50e40dbf96ae80a0
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 7fb940ed512c96bd4aa4519bcdabbf9adcbe86a8
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62410617"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070423"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personnaliser des applications dans Microsoft Teams
 
@@ -42,8 +42,8 @@ ms.locfileid: "62410617"
 Consultez [le Teams de manifeste pour](/microsoftteams/platform/resources/schema/manifest-schema) plus d’informations sur les champs que vous pouvez personnaliser.
 
 > [!NOTE]
-> La personnalisation des applications n’est pas prise en Cloud de la communauté du secteur public du département de la défense (GCCH) ou du département de la défense (DoD).
-> Pour l’instant, cette fonctionnalité n’est pas disponible pour les applications téléchargées Microsoft Teams exerment.
+> La personnalisation des applications n’est actuellement pas prise en Cloud de la communauté du secteur public du département de la défense (GCCH) ou du département de la défense.
+> Pour l’instant, cette fonctionnalité n’est pas disponible pour les applications téléchargées Microsoft Teams version.
 
 ## <a name="customize-the-apps-details"></a>Personnaliser les détails de l’application
 
@@ -51,7 +51,7 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Développez **Teams Applications et** **sélectionnez Gérer les applications**.
+2. Développez **Teams Applications, puis** **sélectionnez Gérer les applications**.
 
 3. Consultez **la colonne Personnalisables** de la liste d’applications et tochez les différentes applications personnalisables.
 
@@ -139,7 +139,7 @@ Vous souhaitez peut-être consulter les détails de l’application pour examine
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Développez **Teams Applications et** **sélectionnez Gérer les applications**.
+2. Développez **Teams Applications, puis** **sélectionnez Gérer les applications**.
 
 3. Sélectionnez le nom de l’application.
 
