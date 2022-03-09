@@ -21,12 +21,12 @@ description: Vos équipes ou votre administrateur informatique peuvent configure
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 86a1b83ab0eb2d15810f94d61d0f7faccc226aa4
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: ec2ee80d2475742380944b2e834b5c7b7cf24275
+ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388096"
+ms.locfileid: "63392916"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Gérer l’accès externe dans Microsoft Teams
 
@@ -46,10 +46,10 @@ Utilisez l’accès externe dans les situations suivantes :
 
 Les stratégies d'accès externe comprennent des contrôles pour chaque type de fédération, tant au niveau de l'organisation que de l'utilisateur. La désactivation d'une politique au niveau de l'organisation la désactive pour tous les utilisateurs, quel que soit le paramètre de leur niveau d'utilisateur. Tous les paramètres d’accès externe sont activés par défaut.
 
-Le centre Teams d’administration contrôle l’accès externe au niveau de l’organisation. Si vous voulez contrôler l’accès externe sur le lever de l’utilisateur, vous devez utiliser PowerShell. Pour plus d’informations, afficher [Utiliser PowerShell](#using-powershell) ci-dessous.
+Le centre Teams d’administration contrôle l’accès externe au niveau de l’organisation. La plupart des options (sauf les restrictions de domaine) sont disponibles au niveau de l'utilisateur en utilisant PowerShell. Pour plus d’informations, afficher [Utiliser PowerShell](#using-powershell) ci-dessous.
 
 > [!NOTE]
-> Si vous désactivez l'accès externe dans votre organisation, les personnes extérieures à votre organisation peuvent toujours se joindre aux réunions par le biais de l'accès anonyme. Si vous souhaitez en savoir plus, consultez l’article [Gérer les paramètres de réunion dans Teams](meeting-settings-in-teams.md).
+> Si vous désactivez l'accès externe dans votre organisation, les personnes extérieures à votre organisation peuvent toujours se joindre aux réunions par le biais de la fonction de participation anonyme. Pour en savoir plus, voir [Gérer les paramètres de réunion dans Teams](meeting-settings-in-teams.md).
 
 > [!NOTE]
 > Les utilisateurs de Teams peuvent ajouter des applications lorsqu’ils hébergent des réunions ou des conversations avec des personnes d’autres organisations. Ils peuvent également utiliser des applications partagées par des personnes d’autres organisations lorsqu’ils rejoignent des réunions ou des conversations hébergées par ces organisations. Les stratégies de données de l’organisation de l’utilisateur hôte, ainsi que les pratiques de partage de données de toutes les applications tierces partagées par l’organisation de cet utilisateur, sont appliquées.
@@ -143,13 +143,13 @@ Pour en savoir plus sur la manière dont les utilisateurs de Teams et les utilis
 
 Vous pouvez configurer les paramètres au niveau de l’organisation à l’aide de [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) et les paramètres au niveau utilisateur à l’aide de [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
 
-Le tableau suivant indique les paramètres de cmdlet utilisés pour configurer la fédération. Notez que la configuration de la fédération avec des domaines spécifiques ne peut se faire qu'au niveau de l'organisation et non au niveau de l'utilisateur.
+Le tableau suivant indique les paramètres de cmdlet utilisés pour configurer la fédération.
 
 |Configuration|Niveau organisation (Set-CSTenantFederationConfiguration)|Niveau utilisateur (Set-CsExternalAccessPolicy)|
 |:-------|:--------|:------------------|
 |Activer/désactiver la fédération avec d’autres Teams et d’autres Skype Entreprise|`-AllowFederatedUsers`|`-EnableFederationAccess`|
-|Activer la fédération avec des domaines spécifiques|`-AllowedDomains`|N/A|
-|Désactiver la fédération avec des domaines spécifiques|`-Blocked Domains`|N/A|
+|Activer la fédération avec des domaines spécifiques|`-AllowedDomains`|Non disponibles|
+|Désactiver la fédération avec des domaines spécifiques|`-Blocked Domains`|Non disponibles|
 |Activer/désactiver la fédération avec Teams utilisateurs non gérés par une organisation|`-AllowTeamsConsumer`|`-EnableTeamsConsumerAccess`|
 |Activer/désactiver les Teams non gérés par une organisation dans le but de lancer des conversations|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |Activer/désactiver la fédération à Skype|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|
