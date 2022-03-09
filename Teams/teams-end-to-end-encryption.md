@@ -3,7 +3,7 @@ title: Chiffrement de bout en bout pour Microsoft Teams
 author: kccross
 ms.author: krowley
 manager: laurawi
-ms.date: 10/23/2021
+ms.date: 03/08/2022
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -19,21 +19,21 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdce0e30c1aaa3b40f362acda47c1a9ffa35161f
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 202aee527896b331a6c8e64e1fc8736fa4942ecb
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518936"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388188"
 ---
-# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls-public-preview"></a>Utiliser le chiffrement de bout en bout pour les appels individuels Microsoft Teams (préversion publique)
+# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Utilisez le cryptage de bout en bout pour les appels Microsoft Teams entre particuliers.
 
 > [!IMPORTANT]
 > Le modèle de service Teams et sa prise en charge du chiffrement est susceptible d’être modifié pour améliorer l’expérience utilisateur. Par exemple, le service déconseille régulièrement des suites de chiffrement qui ne sont plus considérées comme sécurisées. Ces modifications sont apportées dans le but de maintenir la sécurité de Teams et la confiance en conception. De plus, tout le contenu d’utilisateur dans les centres de données Microsoft est chiffré. Pour plus d’informations sur les couches de chiffrement Microsoft 365, voir [Chiffrement dans Microsoft 365](/microsoft-365/compliance/encryption).
 
 Le chiffrement de bout en bout, ou E2EE, se produit lorsque le contenu est chiffré avant d’être envoyé et déchiffré uniquement par le destinataire prévu. Avec le chiffrement de bout en bout, seuls les deux systèmes de point de terminaison sont impliqués dans le chiffrement et le déchiffrement des données d’appel. Aucun tiers, y compris Microsoft, n’a accès à la conversation déchiffrée.
 
-Avec cette publication de préversion publique, nous allons déployer E2EE pour les appels individuels non planifiés. Seul le flux multimédia en temps réel, c’est-à-dire les données vidéo et vocales, pour les appels individuels Teams est chiffré de bout en bout. Les deux parties doivent activer ce paramètre pour activer le chiffrement de bout en bout. [Le chiffrement Microsoft 365](/microsoft-365/compliance/encryption) protège les conversations, le partage de fichiers, la présence et tout autre contenu dans l’appel.
+Avec E2EE pour les appels individuels non programmés, seul le flux média en temps réel, c'est-à-dire les données vidéo et vocales, pour les appels individuels des équipes, est crypté de bout en bout. Les deux parties doivent activer ce paramètre pour activer le chiffrement de bout en bout. [Le chiffrement Microsoft 365](/microsoft-365/compliance/encryption) protège les conversations, le partage de fichiers, la présence et tout autre contenu dans l’appel.
 
 Si vous n’activez pas le chiffrement de bout en bout, Teams protège toujours un appel ou une réunion à l’aide du chiffrement basé sur les normes du secteur d’activité. Les données échangées pendant les appels sont toujours sécurisées pendant le transport et au repos. Pour plus d’informations, voir [Chiffrement des médias pour Teams](teams-security-guide.md#media-encryption).
 
@@ -109,7 +109,7 @@ Votre compte scolaire ou scolaire a besoin du rôle d’administrateur général
 
 #### <a name="to-enable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>Activation du chiffrement de bout en bout pour l’ensemble de votre client à l’aide de la stratégie globale
 
-Par défaut, le chiffrement de bout en bout est désactivé. Pour activer le chiffrement de bout en bout pour l’ensemble du client en configurant la stratégie globale par défaut, exécutez la cmdlet [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) comme décrit ci-après.
+Par défaut, le chiffrement de bout en bout est désactivé. Pour activer le chiffrement de bout en bout pour l'ensemble du locataire en définissant la politique globale par défaut, exécutez le cmdlet [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) comme suit.
 
 ```powershell
 Set-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType DisabledUserOverride
@@ -123,7 +123,7 @@ Où :
 
 #### <a name="to-disable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>Désactivation du chiffrement de bout en bout pour l’ensemble de votre client à l’aide de la stratégie globale
 
-Par défaut, le chiffrement de bout en bout est désactivé. Si vous avez apporté des modifications à la stratégie globale, vous pouvez modifier à nouveau le paramètre en exécutant la cmdlet [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) comme décrit ci-après.
+Par défaut, le chiffrement de bout en bout est désactivé. Si vous avez apporté des modifications à la stratégie globale, vous pouvez rétablir ce paramètre en exécutant le cmdlet [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) comme suit.
 
 ```powershell
 Grant-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType Disabled
@@ -149,7 +149,7 @@ Où :
 
 - *`policyname`* est le nom que vous voulez utiliser pour la stratégie. Les noms de stratégie ne peuvent pas contenir d’espaces, par exemple, ContosoE2EEUserPolicy.
 
-Les utilisateurs doivent toujours basculer vers les appels chiffrés de bout en bout dans leurs paramètres Teams avant de passer un appel chiffré de bout en bout. Pour obtenir des instructions, voir [Utiliser le chiffrement de bout en bout pour les appels Teams](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90).
+Les utilisateurs doivent encore activer les appels cryptés de bout en bout dans leurs paramètres Teams avant de pouvoir passer un appel crypté de bout en bout. Pour obtenir des instructions, voir [Utiliser le cryptage de bout en bout pour les appels Teams](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90).
 
 Par exemple :
 
