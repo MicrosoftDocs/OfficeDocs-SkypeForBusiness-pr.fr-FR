@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 5f6c7701a3bf2979ef2c3541ec51f0f55d5e0a51
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 7a4e84d7f58d8239a5493afffea71878123f47b1
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062578"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388076"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams appareils Android certifiés
 
@@ -48,7 +48,7 @@ Les appareils suivants sont certifiés dans le cadre du programme Microsoft Team
 | Crestron UC-P10-T (avec et sans combiné)    | `1.0.0.80`       | 5 août 2023            | 9 |
 | Crestron UC-P8-T (avec et sans combiné)     | `1.0.0.56`       | 5 août 2023            | 9 |
 | Crestron UC-P10-C-T (avec et sans combiné)  | `1.0.0.80`       | 5 août 2023            | 9 |
-| Crestron UC-P8-C-T (avec et sans combiné)   | `1.0.0.80`       | 5 août 2023            | 9 |
+| Crestron UC-P8-C-T (avec et sans combiné)   | `1.0.0.56`       | 5 août 2023            | 9 |
 | Audiocodes C470HD                      | `1.8.293   `                                               | 5 août 2023               | 9 |
 | Yealink MP52                           | `145.15.0.6 `                                              | 5 août 2023               | 9 |
 | AudioCodes C435HD                      | `1.12.33`                                                  | 5 août 2023               | 9 |
@@ -221,6 +221,7 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse |
 |:--------------|:-----------------|:-------------------------|
+| CESSEURS DÉVELOPPENT VISION 3T |`1.2.4.22042.05`   | Mise à jour 2022 n°1 |
 | AudioCodes RXV80 | `1.16.164 `   | Mise à jour 2022 n°1 |
 | Yealink VC210 | `118.15.0.65`   | Mise à jour 2022 n°1    |
 | Barre de réunions Yealink A20 | `133.15.0.80 `   | Mise à jour 2022 n°1   |
