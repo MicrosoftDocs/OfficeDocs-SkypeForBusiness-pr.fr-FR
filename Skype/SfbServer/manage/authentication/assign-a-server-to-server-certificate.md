@@ -1,8 +1,8 @@
 ---
 title: Affecter un certificat d’authentification de serveur à serveur à Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: 'Résumé : Affectez un certificat d’authentification de serveur à serveur pour Skype Entreprise Server.'
-ms.openlocfilehash: 30d62351d92a53c107e858ce1e0f88239f615208
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fdbfcf7e5708b1992c4e7bb10108a35085607477
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839946"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392616"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>Affecter un certificat d’authentification de serveur à serveur à Skype Entreprise Server
 **Résumé :** Affecter un certificat d’authentification de serveur à serveur pour Skype Entreprise Server.
@@ -29,7 +29,7 @@ Pour déterminer si un certificat d’authentification de serveur à serveur a d
 Get-CsCertificate -Type OAuthTokenIssuer
 ```
 
-Si aucune information de certificat n’est renvoyée, vous devez attribuer un certificat d’émetteur de jeton avant de pouvoir utiliser l’authentification de serveur à serveur. En règle générale, tout certificat Skype Entreprise Server peut être utilisé comme certificat OAuthTokenIssuer ; Par exemple, votre certificat Skype Entreprise Server par défaut peut également être utilisé comme certificat OAuthTokenIssuer. (Le certificat OAUthTokenIssuer peut également être n’importe quel certificat de serveur Web qui inclut le nom de votre domaine SIP dans le champ Objet.) Les deux principales conditions requises pour le certificat utilisé pour l’authentification de serveur à serveur sont les mêmes : 1) le même certificat doit être configuré en tant que certificat OAuthTokenIssuer sur tous vos serveurs frontaux ; et, 2) le certificat doit être au moins 2 048 bits.
+Si aucune information de certificat n’est renvoyée, vous devez attribuer un certificat d’émetteur de jeton avant de pouvoir utiliser l’authentification de serveur à serveur. En règle générale, tout certificat Skype Entreprise Server peut être utilisé comme certificat OAuthTokenIssuer ; par exemple, votre certificat par défaut Skype Entreprise Server peut également être utilisé comme certificat OAuthTokenIssuer. (Le certificat OAUthTokenIssuer peut également être n’importe quel certificat de serveur Web qui inclut le nom de votre domaine SIP dans le champ Objet.) Les deux principales conditions requises pour le certificat utilisé pour l’authentification de serveur à serveur sont les mêmes : 1) le même certificat doit être configuré en tant que certificat OAuthTokenIssuer sur tous vos serveurs frontaux ; et, 2) le certificat doit être au moins 2 048 bits.
   
 Si vous n’avez pas de certificat à même de servir pour l’authentification de serveur à serveur, vous pouvez obtenir un nouveau certificat, l’importer, puis l’utiliser pour l’authentification de serveur à serveur. Après avoir demandé et obtenu le nouveau certificat, vous pouvez ensuite ouvrir une session sur l’un de vos serveurs frontaux et passer par une commande Windows PowerShell semblable à celle-ci pour importer et affecter le certificat :
   
@@ -66,11 +66,11 @@ Si vous ne voulez pas utiliser Windows PowerShell, vous pouvez aussi faire appel
   
 Une fois que le certificat a été importé sur tous vos serveurs frontux, ce certificat peut être affecté à l’aide de l’Assistant Déploiement Skype Entreprise Server au lieu de Windows PowerShell. Pour affecter un certificat par le biais de l’Assistant Déploiement, effectuez les étapes suivantes sur un ordinateur où l’Assistant est installé :
   
-1. Cliquez sur Démarrer, sur Tous **les programmes, sur Skype Entreprise Server,** puis sur Skype Entreprise Server **Déploiement.**
+1. Cliquez sur Démarrer, sur Tous les programmes, **sur Skype Entreprise Server**, puis sur Skype Entreprise Server **Déploiement**.
     
-2. Dans l’Assistant Déploiement, cliquez sur Installer ou mettre **à jour Skype Entreprise Server système.**
+2. Dans l’Assistant Déploiement, cliquez sur **Installer ou mettre à Skype Entreprise Server système**.
     
-3. Dans la page Skype Entreprise Server, cliquez  sur le bouton Exécuter sous l’en-tête **Étape 3 : Demander,** installer ou attribuer des certificats. (Remarque : Si vous avez déjà installé des certificats sur cet ordinateur, le bouton **Exécuter** s’appelle **Réexécuter**.)
+3. Dans la page Skype Entreprise Server, cliquez sur le bouton Exécuter  sous l’en-tête **Étape 3 : Demander, installer ou attribuer des certificats**. (Remarque : Si vous avez déjà installé des certificats sur cet ordinateur, le bouton **Exécuter** s’appelle **Réexécuter**.)
     
 4. Dans l’Assistant Certificat, sélectionnez le certificat **OAuthTokenIssuer**, puis cliquez sur **Affecter**.
     

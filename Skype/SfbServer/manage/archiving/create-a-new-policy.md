@@ -1,8 +1,8 @@
 ---
 title: Créer une stratégie d’archivage dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 'Résumé : Découvrez comment créer une stratégie d’archivage pour Skype Entreprise Server.'
-ms.openlocfilehash: d60ca9399681bf44fadcf7767b7be1499e99cb99
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ffa2821ca4871a0e05d0afe2f162512a60df3897
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836446"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392636"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Créer une stratégie d’archivage dans Skype Entreprise Server
 
@@ -37,7 +37,7 @@ Pour créer une stratégie d’archivage à l’aide du Panneau de contrôle :
     
 4. Cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes : 
     
-   - Pour créer une stratégie d’archivage au niveau du site, cliquez sur Stratégie de **site,** puis, dans Sélectionner un **site,** cliquez sur le site auquel la stratégie doit être appliquée.
+   - Pour créer une stratégie d’archivage au niveau du site, cliquez sur Stratégie de **site, puis**, dans Sélectionner un **site**, cliquez sur le site auquel la stratégie doit être appliquée.
     
    - Pour créer une stratégie d’archivage au niveau de l’utilisateur, cliquez sur **Stratégie de l’utilisateur**.
     
@@ -54,11 +54,11 @@ Pour créer une stratégie d’archivage à l’aide du Panneau de contrôle :
 6. Cliquez sur **Valider**.
     
     > [!IMPORTANT]
-    > Les paramètres d’une stratégie utilisateur ne s’appliquent qu’aux utilisateurs et groupes d’utilisateurs spécifiques pour lesquels la stratégie a été définie. Pour plus d’informations, voir [Appliquer une stratégie d’archivage](apply-a-policy-to-users.md)aux utilisateurs dans Skype Entreprise Server . 
+    > Les paramètres d’une stratégie utilisateur ne s’appliquent qu’aux utilisateurs et groupes d’utilisateurs spécifiques pour lesquels la stratégie a été définie. Pour plus d’informations, voir [Appliquer une stratégie d’archivage aux utilisateurs dans Skype Entreprise Server](apply-a-policy-to-users.md). 
   
-## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Créer une stratégie d’archivage à l’aide Windows PowerShell
+## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Créer une stratégie d’archivage à l’aide de Windows PowerShell
 
-Vous pouvez également créer de nouvelles stratégies d’archivage à l’Windows PowerShell cmdlet **New-CsArchivingPolicy.** Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [New-CsArchivingPolicy.](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps)
+Vous pouvez également créer de nouvelles stratégies d’archivage à l’Windows PowerShell cmdlet **New-CsArchivingPolicy**. Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [New-CsArchivingPolicy](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) .
   
 ### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a>Pour créer une stratégie d’archivage au niveau du site
 
@@ -76,7 +76,7 @@ Pour créer une stratégie d’archivage au niveau de l’utilisateur, spécifie
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
 ```
 
-### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a>Pour créer une stratégie d’archivage qui active l’archivage des sessions de communication internes
+### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a>Pour créer une stratégie d’archivage qui permet l’archivage des sessions de communication internes
 
 Dans la mesure où aucun paramètre (à l’exception du paramètre obligatoire Identity) n’a été spécifié dans les commandes précédentes, les nouvelles stratégies utilisent les valeurs par défaut pour toutes leurs propriétés. Pour créer des stratégies qui utilisent des valeurs de propriétés distinctes, il vous suffit d’inclure le paramètre et la valeur de paramètre appropriés. Par exemple, la commande suivante crée une stratégie d’archivage qui autorise l’archivage des sessions de messagerie instantanée internes : 
   
@@ -84,7 +84,7 @@ Dans la mesure où aucun paramètre (à l’exception du paramètre obligatoire 
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True
 ```
 
-### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-both-internal-and-external-communication-sessions"></a>Pour créer une stratégie d’archivage qui active l’archivage des sessions de communication internes et externes
+### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-both-internal-and-external-communication-sessions"></a>Pour créer une stratégie d’archivage qui permet l’archivage des sessions de communication internes et externes
 
 Plusieurs valeurs de propriété peuvent être modifiées en incluant plusieurs paramètres. Par exemple, cette commande configure la nouvelle stratégie pour archiver les sessions de messagerie instantanée internes et externes :
   

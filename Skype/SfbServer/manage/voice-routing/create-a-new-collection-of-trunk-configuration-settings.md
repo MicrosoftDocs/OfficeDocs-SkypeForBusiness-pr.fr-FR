@@ -1,8 +1,8 @@
 ---
 title: 'Skype Entreprise Server : créer une collection de paramètres de configuration de la trunk'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Les paramètres de configuration de la configuration de la liaison de session SIP définissent la relation entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un PBX IP ou un contrôleur SBC (Session Border Controller) chez le fournisseur de services.
-ms.openlocfilehash: 501785bacd13053eb3479605220d60e1a2f4d852
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e71c78bf76ca6bbdb67bb06a04012951f0e35c0f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843847"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402868"
 ---
 # <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype Entreprise Server : créer une collection de paramètres de configuration de la trunk
 
@@ -27,14 +27,14 @@ Les paramètres de configuration de jonction SIP définissent la relation et les
 
 Lorsque vous installez Skype Entreprise Server, une collection globale de paramètres de configuration de la trunk SIP est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement).
 
-Lorsque vous créez des paramètres de configuration de la trunk SIP à l’aide du Panneau de configurationSkype for Business Server, les options suivantes sont disponibles :
+Lorsque vous créez des paramètres de configuration de trunk SIP à l’aide du Panneau de configurationSkype for Business Server, les options suivantes sont disponibles :
 
 |Paramètre de l’interface utilisateur | Paramètre PowerShell | Description |
 |--|--|--|
 |Nom|Identité|Identificateur unique de la collection. Cette propriété est en lecture seule ; vous ne pouvez pas changer l’identité d’une collection de paramètres de configuration de jonctions.|
 |Description|Description|Permet aux administrateurs de stocker des informations supplémentaires sur les paramètres (par exemple, l’objectif de la configuration des jonctions).|
 |Nombre maximal de boîtes de dialogue préliminaires prises en charge|MaxEarlyDialogs|Nombre maximal de réponses dirigées qu’une passerelle PSTN, un système IP-PBX ou un contrôleur de session en périphérie du côté fournisseur de services peut recevoir à une invitation qui est envoyée au serveur de médiation.|
-|Niveau de prise en charge du chiffrement|SRTPMode|Indique le niveau de prise en charge de la protection du trafic multimédia entre le serveur de médiation et la passerelle PSTN, le système IP-PBX ou le contrôleur de session en périphérie du côté fournisseur de services. Dans les cas de déviation du trafic multimédia, cette valeur doit être compatible avec le paramètre EncryptionLevel de la configuration multimédia. La configuration multimédia est définie à l’aide des cmdlets [New-CsMediaConfiguration](/powershell/module/skype/New-CsMediaConfiguration) et [Set-CsMediaConfiguration.](/powershell/module/skype/Set-CsMediaConfiguration)<br/>Les valeurs autorisées sont les suivantes :<br/><br/>**Obligatoire**: le chiffrement SRTP doit être utilisé.<br/>**Facultatif**: SRTP sera utilisé si la passerelle la prend en charge.<br/>**Non pris en** charge : le chiffrement SRTP n’est pas pris en charge et ne sera donc pas utilisé.<br/><br/>SRTPMode est utilisé uniquement si la passerelle est configurée en vue d’un recours au protocole de transport TLS (Transport Layer Security). Si la passerelle est configurée avec le protocole de transport TCP, SRTPMode est défini en interne sur NotSupported.|
+|Niveau de prise en charge du chiffrement|SRTPMode|Indique le niveau de prise en charge de la protection du trafic multimédia entre le serveur de médiation et la passerelle PSTN, le système IP-PBX ou le contrôleur de session en périphérie du côté fournisseur de services. Dans les cas de déviation du trafic multimédia, cette valeur doit être compatible avec le paramètre EncryptionLevel de la configuration multimédia. La configuration multimédia est définie à l’aide des cmdlets [New-CsMediaConfiguration](/powershell/module/skype/New-CsMediaConfiguration) et [Set-CsMediaConfiguration](/powershell/module/skype/Set-CsMediaConfiguration) .<br/>Les valeurs autorisées sont les suivantes :<br/><br/>**Obligatoire** : le chiffrement SRTP doit être utilisé.<br/>**Facultatif** : SRTP est utilisé si la passerelle la prend en charge.<br/>**Non pris en** charge : le chiffrement SRTP n’est pas pris en charge et ne sera donc pas utilisé.<br/><br/>SRTPMode est utilisé uniquement si la passerelle est configurée en vue d’un recours au protocole de transport TLS (Transport Layer Security). Si la passerelle est configurée avec le protocole de transport TCP, SRTPMode est défini en interne sur NotSupported.|
 |Prise en charge de la référence|Enable3pccRefer<br/>EnableReferSupport|Si défini sur **Activer la référence d’appel vers la passerelle**, indique que la jonction prend en charge la réception des demandes REFER à partir du serveur de médiation.<br/>Si défini sur **Activer la référence avec un contrôle d’appel tiers**, indique que le protocole 3pcc peut être utilisé pour permettre aux appels transférés de contourner le site hébergé. 3pcc est également connu sous le nom de « contrôle tiers », et se produit quand un tiers est utilisé pour connecter une paire d’appelants (par exemple, un opérateur passant un appel d’une personne A à une personne B).|
 |Activer le contournement de média|EnableBypass|Indique si le contournement de média est activé pour cette jonction. Le contournement de média peut être activé uniquement si **Traitement multimédia centralisé** est également activé.|
 |Traitement multimédia centralisé|ConcentratedTopology|Indique si une terminaison multimédia connue existe (par exemple, une passerelle PSTN où la terminaison multimédia possède la même adresse IP que la terminaison de signalisation).|
@@ -52,14 +52,14 @@ Lorsque vous créez des paramètres de configuration de la trunk SIP à l’aide
 ||||
 
 > [!Note]
-> Les Skype Entreprise Server cmdlets CsTrunkConfiguration peuvent prendre en charge des propriétés supplémentaires qui ne sont pas affichées Skype Entreprise Server panneau de configuration. Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [New-CsTrunkConfiguration.](/powershell/module/skype/New-CsTrunkConfiguration) 
+> Les Skype Entreprise Server cmdlets CsTrunkConfiguration peuvent prendre en charge des propriétés supplémentaires qui ne sont pas affichées dans Skype Entreprise Server panneau de configuration. Pour plus d’informations, consultez la rubrique d’aide de l'; [cmdlet New-CsTrunkConfiguration](/powershell/module/skype/New-CsTrunkConfiguration) . 
 
 **Pour créer de nouveaux paramètres de configuration de la Skype Entreprise Server panneau de configuration**
 
-1. Dans le Skype Entreprise Server de configuration, cliquez sur **Routage** des voix, puis sur **Configuration de la trunk .**
+1. Dans le Skype Entreprise Server de configuration, cliquez sur **Routage** des voix, puis sur **Configuration de la trunk**.
 2. Sous l’onglet **Configuration de la jonction**, cliquez sur **Nouveau**, puis cliquez sur **Jonction de site** pour créer les paramètres au niveau de l’étendue Site, ou cliquez sur **Jonction de pool** pour créer les paramètres au niveau de l’étendue Service.
-3. Dans la boîte de dialogue Sélectionner un **site** ou Un **service** (la boîte de dialogue qui s’affiche varie selon que vous créez des paramètres d’étendue site ou de service), sélectionnez l’emplacement des nouveaux paramètres de configuration, puis cliquez sur **OK.** Si la boîte de dialogue est vide, cela signifie qu’il n’y a aucun endroit pour créer les nouveaux paramètres ; Par exemple,  si la boîte de dialogue Sélectionner un site est vide, cela signifie que tous vos sites ont déjà été affectés à une collection de sites de configuration de trunk, et que chaque site (et chaque service) ne peut héberger qu’une seule collection de ce type. Dans ce cas, vous pouvez supprimer la collection existante et créer une nouvelle collection, ou simplement modifier la collection existante.
+3. Dans la boîte de dialogue Sélectionner un **site** ou Sélectionner un **service** (la boîte de dialogue qui s’affiche varie selon que vous créez des paramètres d’étendue site ou de service), sélectionnez l’emplacement des nouveaux paramètres de configuration, puis cliquez sur **OK**. Si la boîte de dialogue est vide, cela signifie qu’il n’y a aucun endroit pour créer les nouveaux paramètres ; Par exemple, si la  boîte de dialogue Sélectionner un site est vide, cela signifie que tous vos sites ont déjà été affectés à une collection de sites de configuration de trunk, et que chaque site (et chaque service) ne peut héberger qu’une seule collection de ce type. Dans ce cas, vous pouvez supprimer la collection existante et créer une collection, ou simplement modifier la collection existante.
 4. Dans la boîte de dialogue **Nouvelle configuration de jonction**, effectuez les sélections appropriées, puis cliquez sur **OK**.
 5. La propriété **État** de la collection aura la valeur **Non validé**. Pour valider les modifications et pour supprimer la collection, cliquez sur **Valider**, puis sur **Valider tout**.
 6. Dans la boîte de dialogue **Paramètres de configuration de la voix non validés**, cliquez sur **OK**.
-7. Dans la **boîte Skype Entreprise panneau de bord,** cliquez sur **OK.**
+7. Dans la **boîte Skype Entreprise panneau de bord**, cliquez sur **OK**.

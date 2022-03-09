@@ -1,7 +1,7 @@
 ---
 title: Disponibilité en Albanie
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services de Microsoft 365 et Office 365 pour les services Skype Entreprise et Microsoft Teams pour l’Albanie.
-ms.openlocfilehash: b618c288f06c01a037a3c386d3d65baa7a0c25c3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Voici les services Microsoft 365 et Office 365 pour les services Skype Entreprise et Microsoft Teams pour l’Albanie.
+ms.openlocfilehash: b6f129e750ad70b3b352035e917d22826df08505
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858911"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401678"
 ---
 # <a name="availability-in-albania"></a>Disponibilité en Albanie
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services de Microsoft 365 et Office 365 pour les services Skype Entreprise et Microsoft Teams pour l’Albanie.
+Voici les services Microsoft 365 et Office 365 pour les services Skype Entreprise et Microsoft Teams pour l’Albanie.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

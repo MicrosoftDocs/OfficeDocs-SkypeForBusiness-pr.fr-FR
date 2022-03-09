@@ -1,8 +1,8 @@
 ---
 title: Modifications apportées par la préparation de la forêt dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: Cette section décrit les paramètres globaux, les objets et les groupes de services universels et d’administration créés pendant la préparation de la forêt.
-ms.openlocfilehash: 8226c2e9b692699902faa751fafe14424e43ed45
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f5df54a579da84c6e55a055d7949bb60f5774c6c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828637"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389876"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Modifications apportées par la préparation de la forêt dans Skype Entreprise Server
 
@@ -26,7 +26,7 @@ Cette section décrit les paramètres globaux, les objets et les groupes de serv
 
 ## <a name="active-directory-global-settings-and-objects"></a>Paramètres globaux et objets Active Directory
 
-Si vous stockez les paramètres globaux dans le conteneur de configuration (comme c’est le cas pour tous les nouveaux déploiements Skype Entreprise Server), la préparation de la forêt utilise le conteneur services existant et ajoute un objet **RTC Service** sous l’objet Configuration\Services. Sous l’objet RTC Service, la préparation de la forêt ajoute un objet **Paramètres globaux** de type msRTCSIP-GlobalContainer. L’objet de paramètres globaux contient tous les paramètres qui s’appliquent au Skype Entreprise Server déploiement. Si vous choisissez de stocker les paramètres globaux dans le conteneur système, la préparation de la forêt ajoute un conteneur Microsoft sous le conteneur système du domaine racine et un nouvel objet RTC Service sous l’objet System\Microsoft.
+Si vous stockez les paramètres globaux dans le conteneur de configuration (comme c’est le cas pour tous les nouveaux déploiements Skype Entreprise Server), la préparation de la forêt utilise le conteneur Services existant et ajoute un objet **RTC Service** sous l’objet Configuration\Services. Sous l’objet RTC Service, la préparation de la forêt ajoute un objet **Paramètres globaux** de type msRTCSIP-GlobalContainer. L’objet paramètres globaux contient tous les paramètres qui s’appliquent au Skype Entreprise Server déploiement. Si vous choisissez de stocker les paramètres globaux dans le conteneur système, la préparation de la forêt ajoute un conteneur Microsoft sous le conteneur système du domaine racine et un nouvel objet RTC Service sous l’objet System\Microsoft.
 
 La préparation de la forêt ajoute également un nouvel objet **msRTCSIP-Domain** pour le domaine racine dans lequel la procédure est exécutée.
 
@@ -61,7 +61,7 @@ Le tableau suivant présente les groupes d’infrastructure.
 |RTCUniversalGlobalWriteGroup  <br/> |Accorde l’accès en écriture aux objets de paramètre global pour Skype Entreprise Server.  <br/> |
 |RTCUniversalGlobalReadOnlyGroup  <br/> |Accorde un accès en lecture seule aux objets de paramètre global pour Skype Entreprise Server.  <br/> |
 |RTCUniversalUserReadOnlyGroup  <br/> |Accorde un accès en lecture seule Skype Entreprise Server paramètres utilisateur.  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |Accorde un accès en lecture seule à Skype Entreprise Server paramètres. Ce groupe n’a pas accès aux paramètres de niveau pool, mais uniquement aux paramètres spécifiques à un serveur donné.  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |Accorde un accès en lecture seule Skype Entreprise Server paramètres. Ce groupe n’a pas accès aux paramètres de niveau pool, mais uniquement aux paramètres spécifiques à un serveur donné.  <br/> |
 |RTCUniversalSBATechnicians  <br/> |Accorde un accès en lecture seule à Skype Entreprise Server configuration et est placé dans le groupe Administrateurs locaux des survivable Branch Appliances lors de l’installation.  <br/> |
 
 Le tableau suivant présente les groupes de services.
