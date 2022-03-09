@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour Skype Entreprise Server 2019 et 2015 et Lync Server 2013 et 2010 au même endroit. Utilisez les liens répertoriés sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: 68b34b75cf0e671f5927c4e006e5567052be6e4e
-ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
+ms.openlocfilehash: c9a30c0671302f8cc8c3f27927e3a058dc3cfcd7
+ms.sourcegitcommit: 109be23768ae183e07a0833fa9a9e5cb0369cb43
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62921862"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368399"
 ---
 # <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
@@ -37,7 +37,7 @@ Pour obtenir les dernières mises Skype Entreprise online et Microsoft 365 mises
 |Skype Entreprise Server 2019 Mise à jour cumulative 4 Correctif logiciel 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Novembre 2020 |
 |Skype Entreprise Server cumulative 4 de 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Septembre 2020 |
 |Skype Entreprise Server mise à jour cumulative 3 2019 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Juillet 2020 |
-|Skype Entreprise Server cumulative 3 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Mars 2020 |
+|Skype Entreprise Server 2019 Mise à jour cumulative 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Mars 2020 |
 |Skype Entreprise Server cumulative 2019 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Décembre 2019 |
 |Skype Entreprise Server mise à jour cumulative 1 2019 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Septembre 2019 |
 |Skype Entreprise Server cumulative 2019 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| Juillet 2019 |
@@ -61,7 +61,7 @@ Pour obtenir les dernières mises Skype Entreprise online et Microsoft 365 mises
 |:--- |:--- |:--- |
 |Skype Entreprise Server 2015 Mise à jour cumulative 12 Correctif logiciel 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|Février 2022 |
 |Skype Entreprise Server cumulative 2015 12|[KB 3061064](https://support.microsoft.com/kb/3061064)|Août 2021 |
-|Skype Entreprise Server 2015 Mise à jour cumulative 11 Correctif logiciel 2|[KB 3061064](https://support.microsoft.com/kb/3061064)|Novembre 2020 |
+|Skype Entreprise Server mise à jour cumulative 2015 11 Correctif logiciel 2|[KB 3061064](https://support.microsoft.com/kb/3061064)|Novembre 2020 |
 |Skype Entreprise Server 2015 Mise à jour cumulative 11 Correctif logiciel 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|Juillet 2020 |
 |Skype Entreprise Server cumulative 2015 11|[KB 3061064](https://support.microsoft.com/kb/3061064)|13 mai 2020 |
 |Skype Entreprise Server 2015 Mise à jour cumulative 10 Correctif logiciel 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|Août 2019 |
@@ -78,7 +78,7 @@ Pour obtenir les dernières mises Skype Entreprise online et Microsoft 365 mises
 |Mise à jour cumulative 3 pour Skype Entreprise Server 2015, serveur frontal et serveur Edge |[KB 3149227](https://support.microsoft.com/kb/3149227) |Juin 2016 |
 |Mise à jour cumulative 2 pour Skype Entreprise Server 2015, serveur frontal et serveur Edge |[KB 3134260](https://support.microsoft.com/kb/3134260) |Mars 2016 |
 |Mise à jour cumulative 1 pour Skype Entreprise Server 2015, serveur frontal et serveur Edge |[KB 3097645](https://support.microsoft.com/kb/3097645) |Novembre 2015 |
-|Mise à jour cumulative Skype Entreprise Server 2015, composants principaux |[KB 3098601](https://support.microsoft.com/kb/3098601) |Septembre 2015 |
+|Mise à jour cumulative Skype Entreprise Server 2015, Principaux composants |[KB 3098601](https://support.microsoft.com/kb/3098601) |Septembre 2015 |
 |Mise à jour cumulative Skype Entreprise Server 2015, serveur frontal et serveur Edge|[KB 3061059](https://support.microsoft.com/kb/3061059) |Juin 2015 |
 ||||
 
@@ -97,10 +97,11 @@ Pour obtenir les dernières mises Skype Entreprise online et Microsoft 365 mises
 
 |Nom du package|Numéro de la ko|Date de sortie|
 |:--- |:--- |:--- |
-|Correctif logiciel 6 de la mise à jour cumulative 10 de Lync Server 2013 |[KB 5003602](https://support.microsoft.com/kb/5003602)|Mai 2021|
-|Correctif logiciel 5 de la mise à jour cumulative 10 de Lync Server 2013 |[KB 2809243](https://support.microsoft.com/kb/2809243)|Février 2021|
-|Correctif logiciel 10 de la mise à jour cumulative 10 de Lync Server 2013 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Juillet 2020|
-|Correctif logiciel 10 de la mise à jour cumulative 10 de Lync Server 2013 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Septembre 2019|
+|Correctif logiciel 10 de la mise à jour cumulative 10 de Lync Server 2013 7 |[KB 5010850](https://support.microsoft.com/kb/5010850)|Février 2022|
+|Correctif logiciel 6 de la mise à jour cumulative 10 de Lync Server 2013 |[KB 5003729](https://support.microsoft.com/kb/5003729)|11 mai 2021|
+|Correctif logiciel 5 de la mise à jour cumulative 10 de Lync Server 2013 |[KB 5000675](https://support.microsoft.com/kb/5000675), [KB 5000688](https://support.microsoft.com/kb/5000688)|9 février 2021|
+|Correctif logiciel 10 de la mise à jour cumulative 10 de Lync Server 2013 4 |[KB 4564312](https://support.microsoft.com/kb/4564312)|Juillet 2020|
+|Correctif logiciel 10 de la mise à jour cumulative 10 de Lync Server 2013 3 |[KB 4518345](https://support.microsoft.com/kb/4518345)|Septembre 2019|
 |Correctif logiciel 2 de la mise à jour cumulative 10 de Lync Server 2013 |[KB 4501392](https://support.microsoft.com/kb/4501392)|Juin 2019|
 |Correctif logiciel 10 de la mise à jour cumulative 10 de Lync Server 2013 |[KB 4458772](https://support.microsoft.com/kb/4458772)|Janvier 2019|
 |Mise à jour cumulative 10 de Lync Server 2013 |[KB 4295703](https://support.microsoft.com/kb/4295703)|Juillet 2018 |
@@ -144,7 +145,7 @@ Pour obtenir les dernières mises Skype Entreprise online et Microsoft 365 mises
 
 #### <a name="pre-configured-vhds"></a>Disques durs durs (VHD) pré-configurés
 
-La topologie complète se compose de sept machines virtuelles qui vous permettent d’évaluer entièrement Microsoft Lync 2013. Api de plateforme de développement Microsoft Exchange 2013, SharePoint 2013 et UC (y compris le SDK Microsoft Lync 2013, Exchange Web Services Managed API 2.0, le SDK Microsoft Lync Server 2013 et Microsoft Unified Communications Managed API 4.0).
+La topologie complète se compose de sept machines virtuelles qui vous permettent d’évaluer entièrement Microsoft Lync 2013. Microsoft Exchange 2013, SharePoint 2013 et les API de plateforme de développement UC (notamment le SDK Microsoft Lync 2013, Exchange Web Services Managed API 2.0, le SDK Microsoft Lync Server 2013 et Microsoft Unified Communications Managed API 4.0).
 
 Nom du package |Date de sortie|
 |:--- |:--- |
@@ -170,7 +171,7 @@ Nom du package |Date de sortie|
 | Visionneuse d’archivage de tableau blanc Lync Server 2013 |Février 2013 |
 |[Plug-in Lync VDI 2013 (32 bits)](https://www.microsoft.com/download/details.aspx?id=35457) |Octobre 2012 |
 |[Plug-in Lync VDI 2013 (64 bits)](https://www.microsoft.com/download/details.aspx?id=35454) |Octobre 2012 |
-|[Nouveau gabarit Office Visio-gabarit](https://www.microsoft.com/download/details.aspx?id=35772) |Juillet 2016 |
+|[Gabarit Office Visio nouveau](https://www.microsoft.com/download/details.aspx?id=35772) |Juillet 2016 |
 
 ### <a name="lync-server-2013-downloadable-documentation"></a><a id="lync-2013-downloadable-documentation"></a>Documentation téléchargeable pour Lync Server 2013
 
@@ -252,7 +253,7 @@ Nom du package |Date de sortie|
 
 ### <a name="resource-kit-technical-reference"></a>Kit de ressources (référence technique)
 
-Visitez le site de téléchargement du Kit de ressources [Microsoft Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=22644) pour télécharger les chapitres du livre individuellement OU téléchargez un fichier .zip qui contient les [19 chapitres du Kit](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip) de ressources.
+Visitez le site de téléchargement du Kit de ressources [Microsoft Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=22644) pour télécharger les chapitres du livre individuellement OU téléchargez un fichier .zip qui contient les [19 chapitres du Kit de ressources](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip).
 
 ### <a name="group-chat"></a>Group Chat
 
