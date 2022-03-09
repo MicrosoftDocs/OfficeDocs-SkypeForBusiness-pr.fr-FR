@@ -21,12 +21,12 @@ description: Vos équipes ou votre administrateur informatique peuvent configure
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ae0eb1b15c44dc85a82a87dfd92786c16c65cfc4
-ms.sourcegitcommit: 109be23768ae183e07a0833fa9a9e5cb0369cb43
+ms.openlocfilehash: 86a1b83ab0eb2d15810f94d61d0f7faccc226aa4
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63368389"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388096"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Gérer l’accès externe dans Microsoft Teams
 
@@ -143,7 +143,7 @@ Pour en savoir plus sur la manière dont les utilisateurs de Teams et les utilis
 
 Vous pouvez configurer les paramètres au niveau de l’organisation à l’aide de [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) et les paramètres au niveau utilisateur à l’aide de [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
 
-Le tableau suivant indique les paramètres de cmdlet utilisés pour configurer la fédération.
+Le tableau suivant indique les paramètres de cmdlet utilisés pour configurer la fédération. Notez que la configuration de la fédération avec des domaines spécifiques ne peut se faire qu'au niveau de l'organisation et non au niveau de l'utilisateur.
 
 |Configuration|Niveau organisation (Set-CSTenantFederationConfiguration)|Niveau utilisateur (Set-CsExternalAccessPolicy)|
 |:-------|:--------|:------------------|

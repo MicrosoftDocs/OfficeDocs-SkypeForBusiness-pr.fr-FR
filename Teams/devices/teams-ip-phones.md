@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 7a4e84d7f58d8239a5493afffea71878123f47b1
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: d91fb5f4c95fd63fda1d953c73ba26d105f05083
+ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388076"
+ms.locfileid: "63392886"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams appareils Android certifiés
 
@@ -45,6 +45,8 @@ Les appareils suivants sont certifiés dans le cadre du programme Microsoft Team
 
 |Modèle d’appareil    | Version du microprogramme    | Date de fin actuelle de la certification | Version du système d’exploitation Android                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 22 avril 2022               | 7,1x |
+| AudioCodes C448HD(Mode Cap uniquement)       | `C450HD_TEAMS_0.225`                                                  | 22 avril 2022               | 7,1x |
 | Crestron UC-P10-T (avec et sans combiné)    | `1.0.0.80`       | 5 août 2023            | 9 |
 | Crestron UC-P8-T (avec et sans combiné)     | `1.0.0.56`       | 5 août 2023            | 9 |
 | Crestron UC-P10-C-T (avec et sans combiné)  | `1.0.0.80`       | 5 août 2023            | 9 |
@@ -296,7 +298,7 @@ Voici les dernières versions de l Microsoft Teams et du microprogramme de l’a
 |Version de produit| Date de publication | Microsoft Teams version de l’application | Portail d'entreprise version complète | Version de l’agent d’administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 |Mise à jour pour 2022 #1A | 25 février 2022 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
-|Mise à jour 2022 n°1  | 22 février 2022 |`1449/1.0.96.2021726501` | `5.0.5304.0 `  | `322` |
+|Mise à jour 2022 n°1  | 22 février 2022 |`1449/1.0.97.2021726501` | `5.0.5304.0 `  | `322` |
 |Mise à jour 2021 n°1  | 12 août 2021 |`1449/1.0.97.2021070601`   | `5.0.5211.0`   |  `268`|
 
 #### <a name="firmware-versions"></a>Versions de microprogramme

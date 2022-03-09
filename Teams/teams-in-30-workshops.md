@@ -13,25 +13,25 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: landerl, nsuter
 search.appverid: MET150
-description: Des ateliers interactifs en direct conçus pour vous aider à prendre en Microsoft Teams en seulement 30 jours.
+description: Des ateliers interactifs en direct conçus pour vous aider à prendre en Microsoft Teams en 30 jours.
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9b4175769ea9d6cc57167c086b28ee5ef4e742d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b030ed9efd92a33ef38029088edcd8e2cf6023b5
+ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850527"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63392896"
 ---
 # <a name="teams-in-30"></a>Teams en 30
 <div id="main" class="v2">
     <div class="container">
-        <p>Microsoft est heureux de vous inviter à Teams dans <strong>30,</strong>une série d’ateliers interactifs en direct conçus pour aider les entreprises de taille moyenne (500 à 5 000 employés) à fonctionner avec Microsoft Teams en seulement 30 jours. Rejoignez-nous pour découvrir des recommandations et des conseils testés pour le temps et obtenir des réponses à Teams questions. Les participants de l’atelier recevront également une invitation exclusive pour les heures d’ouverture du bureau avec un Teams expert.
-           <p><font color="#6264A7">Vous êtes prêt à vous lancer ?</font> Nous encourageons tous les membres de votre équipe de projet à commencer avec la réunion <i>Prise en main’Teams en 30</i> sessions. Cliquez sur le titre d’une session ci-dessous pour vous inscrire.
+        <p>Microsoft est heureux de vous inviter à <strong>Teams dans 30</strong>, une série d’ateliers interactifs en direct conçus pour aider les entreprises de taille moyenne (500 à 5 000 employés) à fonctionner avec Microsoft Teams en seulement 30 jours. Rejoignez-nous pour découvrir des recommandations et des conseils testés pour le temps et obtenir des réponses à vos questions Teams réponses. Les participants de l’atelier recevront également une invitation exclusive pour les heures d’ouverture du bureau avec un Teams expert.
+           <p>Vous êtes prêt à vous lancer ? Nous encourageons tous les membres de votre équipe de projet à commencer avec la réunion <i>Prise en main’Teams en 30</i> sessions. Cliquez sur le titre d’une session ci-dessous pour vous inscrire.
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
@@ -142,7 +142,7 @@ ms.locfileid: "60850527"
                     <div class="cardText">
                     <h3>Teams Chalk Talks</h3>
                     <p>Conduites par des experts, ces ateliers interactifs en ligne permettent de découvrir les meilleures pratiques et des conseils pratiques sur certains des scénarios les plus populaires et les plus attrayants dans Teams. Chalk Talks part du principe que vous avez effectué un déploiement Teams base.</p>
-                    <p><strong>Conditions préalables</strong>: Teams participation à 30 ateliers ou déjà Teams dans votre organisation.</p>
+                    <p><strong>Conditions préalables</strong> : Teams participation à 30 ateliers ou déjà Teams dans votre organisation.</p>
                     <p><i>Public : administrateurs informatiques</i></p>
                     </div>
                 </div>
