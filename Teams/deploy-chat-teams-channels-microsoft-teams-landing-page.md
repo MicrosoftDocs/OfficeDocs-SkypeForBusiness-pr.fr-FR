@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: ed307d811322d2c217a117d192731cf5d42edcb7
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 6b1e2fdc31e5f9ece9b1c52f1f0cf5881e29229b
+ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536705"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63418836"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, équipes, canaux et applications dans Microsoft Teams
 
@@ -105,7 +105,7 @@ L’accès externe (appelé auparavant « fédération ») permet à vos utilisa
 L’accès invité dans Teams permet à des personnes en dehors de votre organisation d’avoir accès aux équipes et canaux. Vous pouvez utiliser les paramètres d’accès invité pour contrôler les fonctionnalités que les invités peuvent ou ne peuvent pas utiliser. L’accès invité est désactivé par défaut. Pour plus d’informations, consultez [Accès invité dans Teams](./guest-access.md).
 
 > [!NOTE]
-> Pour plus d’informations sur l’accès externe et l’accès hôte, consultez ici [Communiquer avec des utilisateurs d’autres organisations dans Microsoft Teams](communicate-with-users-from-other-organizations.md)
+> Pour plus d’informations sur l’accès externe et l’accès invité, consultez : [Communiquer avec les utilisateurs d’autres organisations dans Microsoft Teams](communicate-with-users-from-other-organizations.md)
 
 
 |Posez-vous la question|Action |
@@ -148,7 +148,7 @@ Teams fournit un certain nombre d'applications premières (fournies par Microsof
 
 Pour en savoir plus sur le déploiement et la gestion des applications dans Teams, consultez notre guide approfondi [Applications, robots et connecteurs](deploy-apps-microsoft-teams-landing-page.md).
 
-## <a name="additional-deployment-decisions"></a>Options de déploiement supplémentaires
+## <a name="additional-deployment-decisions"></a>Décisions de déploiement supplémentaires
 
 Vous souhaiterez peut-être modifier ces paramètres en fonction des besoins et de la configuration de votre organisation.
 
@@ -226,7 +226,7 @@ Microsoft Teams repose largement sur Entreprise Online, SharePoint Online et Sky
 
 | Posez-vous la question | Action |
 |--------------|--------|
-|<br>Est-ce que je devrai configurer l’accès conditionnel pour Teams ?|<ul><li>Pour comprendre comment fonctionnent les stratégies, voir [Comment fonctionnent les stratégies d’accès conditionnel pour Teams ?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>Pour configurer l’authentification multifacteur (MFA) pour Teams, voir :<ul><li>[Démarrage rapide : exiger l’authentification multifacteur MFA pour des applications spécifiques avec l’accès conditionnel Azure Active Directory](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Paramètres d’accès conditionnel Azure Active Directory : guide de référence](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>Est-ce que je devrai configurer l’accès conditionnel pour Teams ?|<ul><li>Pour comprendre comment fonctionnent les stratégies, voir [Comment fonctionnent les stratégies d’accès conditionnel pour Teams ?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>Pour configurer l’authentification multifacteur (MFA) Multi-Factor Authentication pour Teams, voir :<ul><li>[Démarrage rapide : exiger l’authentification multifacteur MFA pour des applications spécifiques avec l’accès conditionnel Azure Active Directory](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Paramètres d’accès conditionnel Azure Active Directory : guide de référence](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 
@@ -247,7 +247,7 @@ Office 365 pour le secteur public : GCC (cloud de communauté pour le secteur pu
 
 | Posez-vous la question | Action |
 |--------------|--------|
-| Est-ce que je vais devoir déployer Teams dans un environnement Office 365 pour le secteur public : « GCC » ? | Pour les considérations relatives au déploiement, voir [Plan pour les déploiements de Office 365 pour le secteur public : déploiements GCC](plan-for-government-gcc.md).|
+| Devrai-je déployer Teams dans un environnement Office 365 dans le secteur public (GCC) ? | Pour les considérations relatives au déploiement, voir [Plan pour les déploiements de Office 365 pour le secteur public : déploiements GCC](plan-for-government-gcc.md).|
 |||
 
 ## <a name="next-steps"></a>Étapes suivantes
