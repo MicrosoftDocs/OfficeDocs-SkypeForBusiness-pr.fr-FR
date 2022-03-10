@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: d91fb5f4c95fd63fda1d953c73ba26d105f05083
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: 7c33126f02a4a3236fb451e8e9efc0103c68abdd
+ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392886"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63418826"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams appareils Android certifiés
 
@@ -223,22 +223,23 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse |
 |:--------------|:-----------------|:-------------------------|
+| LogiBar    |   `1.5.705`   | Mise à jour 2022 n°1    |
 | CESSEURS DÉVELOPPENT VISION 3T |`1.2.4.22042.05`   | Mise à jour 2022 n°1 |
 | AudioCodes RXV80 | `1.16.164 `   | Mise à jour 2022 n°1 |
 | Yealink VC210 | `118.15.0.65`   | Mise à jour 2022 n°1    |
 | Barre de réunions Yealink A20 | `133.15.0.80 `   | Mise à jour 2022 n°1   |
 | Yealink MeetingBar A30 | `133.15.0.80 `   | Mise à jour 2022 n°1   |
-| Yealink CTP18 | ` 137.15.0.49 `    | Mise à jour 2022 n°1   |
+| Yealink CTP18 | `137.15.0.49`    | Mise à jour 2022 n°1   |
 | Poly Studio X30 | `3.9.0` | Mise à jour pour 2021 #2F   |
 | Poly Studio X50 | `3.9.0` | Mise à jour pour 2021 #2F   |
 | Poly TC8        | `3.9.0`          | Mise à jour pour 2021 #2F   |
 | Poly Studio X30 | `3.8.0`          | Mise à jour 2021 n°2    |
 | Poly Studio X50 | `3.8.0`          | Mise à jour 2021 n°2    |
 | Poly TC8        | `3.8.0`          | Mise à jour 2021 n°2    |
-| LogiBar    | 1.3.538         | Mise à jour pour 2021 #2B    |
-| LogiBar Mini | 1.3.538       | Mise à jour pour 2021 #2B    |
-| LogiBar    | 1.4.228         | Mise à jour pour 2021 #2B    |
-| LogiBar Mini | 1.4.228       | Mise à jour pour 2021 #2B    |
+| LogiBar    | `1.3.538`         | Mise à jour pour 2021 #2B    |
+| LogiBar Mini | `1.3.538`       | Mise à jour pour 2021 #2B    |
+| LogiBar    | `1.4.228`         | Mise à jour pour 2021 #2B    |
+| LogiBar Mini | `1.4.228`       | Mise à jour pour 2021 #2B    |
 | Poly Studio X30 | `3.7.0`          | Mise à jour pour 2021 #2A    |
 | Poly Studio X50 | `3.7.0`          | Mise à jour pour 2021 #2A    |
 | Poly TC8        | `3.7.0`          | Mise à jour pour 2021 #2A    |
