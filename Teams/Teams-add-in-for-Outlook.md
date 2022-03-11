@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ddd88bb34c383f5a712e7db1f946a156f68c1f4
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: c734fe5d6326d0fc4bfddfbc381d66339303d36e
+ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62389796"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63392872"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 
@@ -32,7 +32,7 @@ Le complément réunion Teams permet aux utilisateurs de planifier une réunion 
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Le complément Réunion Teams dans Outlook pour Windows
 
-Le complément Réunion Teams est installé automatiquement pour les utilisateurs pour lesquels Microsoft Teams et Office 2013, Office 2016 ou Office 2019 sont installés sur leur PC Windows. Le complément Réunion Teams apparaît sur le ruban Calendrier Outlook.
+Le complément Réunion Teams est installé automatiquement pour les utilisateurs pour lesquels Microsoft Teams et Office 2013, Office 2016, Office 2019 ou Office 2021 sont installés sur leur PC Windows. Le complément Réunion Teams apparaîtra sur le ruban Calendrier Outlook.
 
 ![Capture d'écran du complément réunion Teams sur le ruban Outlook.](media/Teams-add-in-for-Outlook.png)
 
@@ -100,7 +100,7 @@ Les clients peuvent [choisir leur mise à niveau de la migration de Skype Entrep
 
 Lorsque les utilisateurs qui travaillent en mode d’île planifient une réunion dans Outlook, ils peuvent généralement choisir de planifier une réunion Skype Entreprise ou une réunion Teams. Dans Outlook sur le web, Outlook Windows et Mac, les utilisateurs voient les compléments Skype Entreprise et Teams en mode île par défaut. Vous pouvez configurer un paramètre de stratégie de réunion Teams pour contrôler si les utilisateurs en mode d’îlots peuvent uniquement utiliser le complément réunion Teams ou les deux compléments de réunion Teams et Skype Entreprise.
 
-En raison de certaines limitations de la version initiale, Outlook Mobile ne peut prendre en charge que la création de réunions Skype Entreprise **ou** Teams. Pour plus de détails, voir le tableau suivant.
+En raison de certaines limitations de la version initiale, Outlook Mobile ne peut prendre en charge que la création de réunions Skype Entreprise **ou** réunions Teams. Pour plus d’informations, consultez le tableau suivant.
 
 | Mode de coexistence dans le centre d’administration Microsoft Teams | Fournisseur de réunions par défaut dans Outlook Mobile |
 | --------------------------------------|---------------------------------------------|

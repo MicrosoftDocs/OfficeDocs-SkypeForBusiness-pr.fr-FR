@@ -1,7 +1,7 @@
 ---
 title: Préversion publique de Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ description: En savoir plus sur la préversion publique dans Microsoft Teams. Es
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: e4a223431cef73d1fd9ec0578148b9f9d6f1d6d8
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 3c07244e49d0c61986ae6eb2c9c9d8e1f522e37b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959873"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417327"
 ---
 # <a name="microsoft-teams-public-preview"></a>Préversion publique de Microsoft Teams
 
@@ -46,7 +46,7 @@ Nous avons activé la préversion publique par utilisateur, et une stratégie d�
 
 2. Nommez la stratégie de mise à jour, ajoutez une description, puis sélectionnez le paramètre pour **Afficher les fonctionnalités en préversion**.
 
-   -   **Suivre la préversion d’Office** (par défaut) : cette nouvelle option active automatiquement les fonctionnalités de la préversion publique de Teams pour tous les utilisateurs inscrits dans le Canal actuel (préversion) d’Office. Aucune autre action n’est requise de la part de l’utilisateur final.
+   -   **Suivre la préversion d’Office** (par défaut) : cette nouvelle option activera automatiquement les fonctionnalités de la préversion publique de Teams pour tous les utilisateurs inscrits dans le Canal actuel (préversion) d’Office.Il n’y a plus d’actions requises par l’utilisateur.
    -   **Activé** : cette option active la préversion publique de Teams, que l’utilisateur soit inscrit dans le Canal actuel (préversion) d’office ou non. L’utilisateur final peut également choisir de participer à la préversion publique de Teams dans leur application Teams.
 
    > [!NOTE]  

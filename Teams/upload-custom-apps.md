@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment télécharger vos applications personnalisées dans le magasin d’applications de votre organisation dans le Microsoft Teams d’administration.
-ms.openlocfilehash: f9cbbfb60b2bb93cb3f687e6da8c6595f5cc185b
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b797d8728fba283ccb2f62a46bc6ac00a947c29a
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070183"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435828"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publier une application personnalisée en chargeant un package d’application
 
@@ -116,12 +116,10 @@ Dans la plupart des cas, une fois que vous avez terminé une mise à jour d’ap
 * Un robot a été ajouté ou supprimé
 * La propriété « botId » d’un robot existant a été modifiée
 * La propriété « isNotificationOnly » d’un robot existant a été modifiée
-* La propriété « SupportsFiles » du bot a été modifiée
-* Une extension de messagerie a été ajoutée ou supprimée
+* Les fonctionnalités SupportCalling, SupportsVideo et SupportsFiles d’un robot ont été ajoutées
+* Une extension de messagerie a été ajoutée
 * Un nouveau connecteur a été ajouté
-* Un nouvel onglet statique a été ajouté
-* Un nouvel onglet configurable a été ajouté
-* Propriétés dans « webApplicationInfo » modifiées
+* Des autorisations dans « Authorization » ont été ajoutées ou modifiées
 
 ![Capture d’écran de la liste des applications, montrant les applications dont la version est nouvelle disponible.](media/manage-your-custom-apps-update1.png)
 

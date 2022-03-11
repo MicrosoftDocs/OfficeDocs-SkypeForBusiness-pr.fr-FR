@@ -21,22 +21,22 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Découvrez comment planifier, gérer et effectuer des visites virtuelles à l’aide de l’application Bookings dans Teams.
-ms.openlocfilehash: 6241c377cc5daa0986081fbfa30eca5fa7146efc
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: ec3b2023d7413b3cb3e0710f201bea0224e49c59
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929269"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435928"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visites virtuelles avec Microsoft Teams et l’application Bookings
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
 [L’application Bookings dans](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) Microsoft Teams permet aux organisations de planifier et de gérer des rendez-vous virtuels pour le personnel et les participants. Elle permet de planifier des rendez-vous tels que des visites médicales, des consultations financières, des entretiens, du support client, des ajustements et des consultations virtuels, des horaires d’ouverture du bureau, etc.
 
 L’application Bookings facilite la gestion des demandes de planification complexes de toute organisation. Les planificateurs peuvent gérer plusieurs calendriers des services et du personnel, ainsi que les communications avec les participants internes et externes à partir d’une même expérience.
 
-Les rendez-vous virtuels sont tenus Microsoft Teams réunions, qui offrent des fonctionnalités de visioconférence robustes. Par exemple, un médecin peut partager son écran et examiner les résultats des tests avec un patient. Un conseiller bancaire peut également demander des signatures électroniques sur des documents, ce qui leur permet de fermer des transactions à distance.
+Les rendez-vous virtuels sont Microsoft Teams réunions, qui offrent des fonctionnalités de visioconférence robustes. Par exemple, un médecin peut partager son écran et examiner les résultats des tests avec un patient. Un conseiller bancaire peut également demander des signatures électroniques sur des documents, ce qui leur permet de fermer des transactions à distance.
 
 Chaque rendez-vous virtuel comprend un lien de réunion Teams envoyé aux participants par courrier électronique, qu’ils peuvent facilement rejoindre à partir d’un navigateur web ou à partir d’Teams sur n’importe quel appareil. Les rappels automatiques par courrier électronique permettent de réduire les absences de montre et d’améliorer l’implication des clients et des clients.
 
@@ -80,7 +80,7 @@ L’application Bookings est intégrée à Outlook. Une fois que vous avez ajout
 
 Créez des types de rendez-vous spécifiques pour représenter les services proposés par votre organisation et personnaliser l’expérience de réservation.
 
-Dans le calendrier de réservation, sélectionnez Autres **options** (...) > **types** de rendez-vous, puis **sélectionnez Nouveau type de rendez-vous**. Entrez un nom (&mdash;par exemple, Ouverture de compte, Renouvellement d’emprunt, Consultation d’emprunt,&mdash; Préparation de la taxe, etc.).
+Dans le calendrier de réservation, sélectionnez Autres **options** (...) > **types** de rendez-vous, puis sélectionnez **Nouveau type de rendez-vous**. Entrez un nom (&mdash;par exemple, Ouverture de compte, Renouvellement d’emprunt, Consultation d’emprunt,&mdash; Préparation de la taxe, etc.).
 
 Les informations et liens que vous ajoutez sont inclus dans la confirmation par courrier électronique qui est envoyée aux participants chaque fois que ce type de rendez-vous est réservé. Vous pouvez même définir des rappels par courrier électronique et d’autres options, telles que la possibilité pour les participants de rejoindre la réunion à partir d’un navigateur [mobile](mobile-browser-join.md) sans avoir à Teams. Pour en savoir plus, voir [Créer un type de rendez-vous](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
@@ -94,7 +94,7 @@ La confirmation par courrier électronique envoyée au participant inclut le lie
 
 ## <a name="conduct-a-visit"></a>Effectuer une visite
 
-Dans votre Teams calendrier Outlook, sélectionnez la réservation, puis sélectionnez Rejoindre ou Teams lien de la réunion. Vérifiez vos paramètres audio et vidéo, puis sélectionnez **Rejoindre maintenant**. Pour plus d’informations, [voir Conduire un rendez-vous Bookings](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
+Dans votre Teams calendrier Outlook, sélectionnez la réservation, puis sélectionnez Rejoindre ou Teams lien de la  réunion. Vérifiez vos paramètres audio et vidéo, puis sélectionnez **Rejoindre maintenant**. Pour plus d’informations, [voir Conduire un rendez-vous Bookings](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
 ## <a name="monitor-visits-and-get-real-time-status-updates"></a>Surveiller les visites et obtenir des mises à jour de l’état en temps réel
 
@@ -114,6 +114,12 @@ Le personnel enseignant peut même rejoindre et gérer les rendez-vous directeme
 L’application web Bookings vous offre des fonctionnalités supplémentaires. Par exemple, vous pouvez publier une page de réservation en ligne libre-service dans laquelle les personnes peuvent planifier des rendez-vous avec les membres de votre personnel. Pour accéder à l’application web Bookings, accédez à Autres **options** (...) **>'ouvrir l’application web Bookings**.
 
 Pour en savoir plus, [consultez Microsoft Bookings](/microsoft-365/bookings/bookings-overview).
+
+## <a name="get-insight-into-virtual-visits-usage"></a>Obtenir des informations sur l’utilisation des visites virtuelles
+
+Le [rapport utilisation des visites virtuelles](../teams-analytics-and-reports/virtual-visits-usage-report.md) dans le centre Microsoft Teams d’administration donne aux administrateurs une vue d’ensemble de Teams de l’activité des visites virtuelles dans votre organisation. Le rapport présente des données d’analyse détaillées pour les rendez-vous virtuels, y compris les visites bookings.
+
+Vous pouvez afficher les indicateurs clés tels que le temps d’attente en salle d’attente et la durée de la visite. Utilisez ces informations pour obtenir des informations sur les tendances d’utilisation afin d’optimiser les visites virtuelles afin d’optimiser les résultats d’entreprise.
 
 ## <a name="related-articles"></a>Articles connexes
 

@@ -20,301 +20,99 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: En savoir plus sur les licences de Microsoft Teams et les fonctionnalités que vous obtenez avec chaque licence.
-ms.openlocfilehash: 3b555e50355c2368c961ac0dc76c81b4c4586788
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 47481383c2ea4941eb29675216209e5b98a97e71
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387582"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435698"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams licences de modules add-on
 
-## <a name="what-features-can-i-get-with-add-on-licenses"></a>Quelles fonctionnalités puis-je obtenir avec des licences de module complémentaire ?
+## <a name="which-capabilities-can-i-get-with-add-on-licenses"></a>Quelles fonctionnalités puis-je obtenir avec des licences de modules ajoutés ?
 
-Les licences de module complémentaire sont des licences Microsoft Teams spécifiques. Ils vous donnent la possibilité d’ajouter des fonctionnalités uniquement pour les utilisateurs de votre organisation qui en ont besoin. Pour ajouter une fonctionnalité, achetez une licence de module complémentaire pour chaque utilisateur qui l'utilisera.
+Les licences de modules add-on sont des licences pour des fonctionnalités Microsoft Teams spécifiques. Ils vous donnent la possibilité d’ajouter des fonctionnalités uniquement pour les utilisateurs de votre organisation qui en ont besoin. Pour ajouter une fonctionnalité, achetez une licence de module add-on pour chaque utilisateur qui l’utilisera.
 
-Les options de licences de modules supplémentaires disponibles dépendent de la Microsoft 365 ou Office 365 votre offre. Pour voir quelles options de voix sont disponibles, voir la section « Quelles fonctionnalités vocales sont disponibles avec [mon plan](#what-voice-features-are-available-with-my-plan) ? » de cet article.
+Les options de licences de modules supplémentaires disponibles dépendent de Microsoft 365 votre offre. Pour savoir quelles options d’appel vocal et d’audioconférence sont disponibles, consultez la section des fonctionnalités Microsoft disponibles avec mon [offre ?](#which-microsoft-capabilities-are-available-with-my-plan) Section de cet article.
 
-Voici une liste des licences de Teams et de leurs fonctionnalités que vous pouvez ajouter à votre Teams abonnement.
-
-<br/>
+Voici une liste des licences Teams et de leurs fonctionnalités que vous pouvez ajouter à votre Teams abonnement.
 
 |Licence|Description|
 |-------|-----------|
-|**Téléphonie Microsoft 365 pour les PME** <br/> | Business Voice était l’offre groupée de fonctionnalités vocales de Microsoft pour les PETITES et moyennes entreprises, mais elle ne sera plus populaire à partir du 1er mars 2022. <br/> <br/> Si vous êtes une petite ou moyenne entreprise, nous vous recommandons d’acheter l’offre [Teams Téléphone](../business-voice/whats-business-voice.md) avec l’offre groupée Forfait d’appels, si elle est disponible dans votre région. |
-|**Teams Téléphone l’offre groupée Forfaits d’appels** <br/> |Teams Téléphone des forfaits d’appels est une solution téléphonique qui regroupe les fonctionnalités PBX de Système téléphonique et un plan d’appels nationaux pour la connectivité RSTN. <br/> |
-|**Teams Téléphone** <br/> |[Teams Téléphone](../what-is-phone-system-in-office-365.md) est un service téléphonique hébergé qui vous offre un contrôle d’appel et des fonctionnalités de Exchange de branche privée (PBX), avec des options de connexion au réseau téléphonique commuté (PSTN). Teams Téléphone fonctionnalités incluent la messagerie vocale cloud, l’ID de l’appelant, le parcage d’appel, le transfert d’appel, les files d’attente automatiques, les files d’attente d’appels, le transfert d’appel, l’ID de l’appelant, etc. <br>Pour en savoir plus, [consultez les informations](../here-s-what-you-get-with-phone-system.md) des Teams Téléphone. Pour plus d’informations sur [les prix, voir Teams Téléphone](https://go.microsoft.com/fwlink/?linkid=799763).  <br/> |
-|**Forfaits d’appel** <br/> |Si vous souhaitez que les utilisateurs puissent appeler des numéros de téléphone extérieurs à votre organisation, obtenez un [plan d’appel](../calling-plans-for-office-365.md). Il existe des forfaits d’appels nationaux et des plans d’appels nationaux et internationaux. Pour plus d’informations sur les [tarifs, voir Tarification des forfaits d’appels](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |
-|**Crédits de communication** |Si vous souhaitez des numéros gratuits pour l’audioconférence, les files d’attente automatiques ou les files d’attente d’appels, vous devez configurer les [crédits de communication](../set-up-communications-credits-for-your-organization.md). <br/> |
-|**Audioconférence** <br/> |Parfois, des personnes de votre organisation devront utiliser un téléphone pour appeler une Teams réunion à la place de leur ordinateur. Configurer [l’audioconférence pour les](../audio-conferencing-in-office-365.md) utilisateurs qui programment ou leadent des réunions. <br/> <br/>Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Pour les informations de tarification, consultez les [Prix appliqués à l’audioconférence](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>À partir de maintenant jusqu’au 31 mai 2022, les clients peuvent ajouter l’audioconférence à un abonnement Microsoft 365 ou Office 365 gratuitement pendant 12 mois au plus. À compter du 1er mars 2022, la fonctionnalité d’audioconférence sera incluse dans toutes Teams licences Microsoft 365 et Office 365 conférence. Pour plus d’informations, [voir Configurer l’audioconférence pour les petites et moyennes entreprises](../audio-conferencing-smb.md). <br/> <br/>Les organisations peuvent désormais utiliser un opérateur tiers pour leurs numéros d’audioconférence. Pour [plus d’informations, consultez](../operator-connect-conferencing-plan.md) le plan Connecter conférence de l’opérateur. <br/>|
-|**Salles Microsoft Teams** <br/> |[Salles Microsoft Teams](../rooms/index.md) n’est pas un module ajouté, mais une fonctionnalité qui apporte de la vidéo, de l’audio et du partage de contenu aux salles de conférence. Consultez [la Teams Salle de réunion licences de gestion des licences](../rooms/rooms-licensing.md).  <br/> |
-|**Advanced Communications** <br/> |[Advanced Communications inclut](advanced-communications.md) des outils et des personnalisations avancées des réunions pour gérer les stratégies de communication de votre organisation. |
+|**Téléphonie Microsoft 365 pour les PME** <br/> |Business Voice était l’offre groupée de fonctionnalités vocales de Microsoft pour les petites et moyennes entreprises, mais elle ne pourra plus être achetée à partir du 1er mars 2022. Les abonnés Business Voice actuels peuvent renouveler leur licence Business Voice jusqu’au 30 juin 2022. <br/> <br/> Si vous êtes une petite ou moyenne entreprise, nous vous recommandons d’acheter la Teams Téléphone avec la licence Forfait d’appels[, si](../business-voice/whats-business-voice.md) elle est disponible dans votre région. <br/> <br/> Vous pouvez également acheter une licence Teams Téléphone Standard qui vous permettra de vous connecter à votre fournisseur PSTN tiers préféré. |
+|**Teams Téléphone’offre groupée Forfait d’appels** <br/> |Le Teams Téléphone l’offre groupée de licences Forfait d’appels Teams Système téléphonique fonctionnalités PBX et un plan d’appels nationaux pour la connectivité PSTN. <br/> |
+|**Teams Téléphone Standard** <br/> |[Teams Système téléphonique](../what-is-phone-system-in-office-365.md) est un service téléphonique hébergé qui vous donne un contrôle d’appel et des fonctionnalités de Exchange privé (PBX). Teams Téléphone licences Standard vous donnent toutes les fonctionnalités de Teams Système téléphonique telles que la messagerie vocale cloud, l’ID de l’appelant, le parcage d’appel, le transfert d’appel, les standards automatiques, les files d’attente d’appels, le transfert d’appel et l’ID de l’appelant. <br/> <br/>Pour en savoir plus sur Système téléphonique, consultez les informations [sur](../here-s-what-you-get-with-phone-system.md) les Teams Système téléphonique. <br/> |
+|**Microsoft Teams forfaits d’appels** <br/> |Si vous souhaitez que les utilisateurs puissent appeler des numéros de téléphone extérieurs à votre organisation, vous pouvez acheter des forfaits d’appels [Microsoft Teams](../calling-plans-for-office-365.md) pour vous connecter aux numéros de téléphone PSTN avec Microsoft comme fournisseur PSTN. Il existe des forfaits d’appels nationaux et des plans d’appels nationaux et internationaux. <br/> <br/> Pour savoir si Teams forfaits d’appels sont disponibles dans votre pays ou région, consultez la disponibilité des pays et régions pour les plans [d’audioconférence et d’appel](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
+|**Crédits de communication** | Les crédits de communication fournissent un pool mensuel de minutes qui peut également être utilisé pour les appels téléphoniques RSTN si toutes les minutes du plan d’appels sont utilisées avant le début du mois suivant. Si vous souhaitez des numéros gratuits pour l’audioconférence, les files d’attente automatiques ou les files d’attente d’appels, vous devez configurer les [crédits de communication](../set-up-communications-credits-for-your-organization.md). <br/> |
+|**Audioconférence** <br/> |Parfois, des personnes de votre organisation devront utiliser un téléphone pour appeler une réunion Teams plutôt que leur ordinateur. [Configurer l’audioconférence](../set-up-audio-conferencing-in-teams.md) pour les utilisateurs qui programment ou leadent des réunions avec des participants qui doivent appeler à l’aide d’un téléphone. <br/> <br/>Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Pour les informations de tarification, consultez les [Prix appliqués à l’audioconférence](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Les organisations peuvent désormais utiliser un opérateur tiers pour leurs numéros d’audioconférence. Pour plus d’informations, [voir Plan d’Connecter conférence](../operator-connect-conferencing-plan.md). <br/>|
+|**Salles Microsoft Teams** <br/> | Microsoft Teams salle est un produit Microsoft Teams supplémentaire qui apporte de la vidéo, de l’audio et du partage de contenu aux salles de conférence. Les organisations peuvent acheter Salles Microsoft Teams licences autonomes pour ces fonctionnalités. Pour plus d’informations, voir [gestion Teams Salle de réunion licences](../rooms/rooms-licensing.md). <br/>|
 
-## <a name="what-voice-features-are-available-with-my-plan"></a>Quelles sont les fonctionnalités vocales disponibles avec mon offre ?
+## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>Quelles fonctionnalités Microsoft sont disponibles avec mon offre ?
 
-Découvrez les licences de modules supplémentaires dont vous avez besoin pour obtenir des fonctionnalités vocales dans Teams, selon votre offre.
+Tous les plans Microsoft 365 permettent aux Teams utilisateurs d’effectuer des appels d’égal à égal au sein de votre organisation à l’aide de la technologie VoIP. Toutefois, vous pouvez ajouter différentes licences pour des fonctionnalités telles que la possibilité d’effectuer des appels vers des numéros PSTN ou de définir un PBX.
 
-En fonction des fonctionnalités vocales que vous souhaitez, nous vous recommandons de comparer l’efficacité en terme de coût pour le passage à une offre qui inclut ces fonctionnalités. Par exemple, pour la plupart des grandes organisations, l’achat d’une offre groupée de logiciels dans le Microsoft 365 Entreprise’entraîne des coûts globaux moindres. En règle générale, lorsque vous achetez plusieurs licences de modules supplémentaires individuellement et non dans le cadre d’un forfait, vous pouvez payer un coût combiné plus élevé.
+### <a name="audio-conferencing"></a>Audioconférence
 
-#### <a name="small-and-medium-businesses"></a>[**Petites et moyennes entreprises**](#tab/small-business/)
+Vous pouvez ajouter **gratuitement des** licences d’audioconférence à tous Microsoft 365 abonnements.
 
-Si vous êtes une petite ou moyenne entreprise (moins de 300 utilisateurs), quatre méthodes s’offrent à vous pour obtenir les fonctionnalités vocales :
+Microsoft 365 E5/A5/G5 incluent des licences d’audioconférence, vous n’avez donc pas besoin d’acheter des licences d’audioconférence supplémentaires avec ces plans.
 
-- Achetez une offre Microsoft 365 business et une offre Microsoft 365 Teams Téléphone’offre groupée Forfait d’appels.
-- Achetez une offre Enterprise E1 ou E3 et une offre Microsoft 365 Teams Téléphone’offre groupée Forfait d’appels.
-- Achetez une offre Enterprise E1 ou E3 et ajoutez les fonctionnalités vocales individuellement.
-- Achetez une offre Enterprise E5, qui inclut des fonctionnalités vocales.
-  - Le Microsoft 365 Entreprise E5 inclut Teams Téléphone, mais les organisations devront quand même choisir une [option de connectivité RSTN](../pstn-connectivity.md).
+### <a name="voice-and-pstn-connectivity"></a>Connectivité vocale et PSTN
 
-Pour Microsoft 365 Teams Téléphone, deux options s’offrent à vous :
+Que vous êtes une petite entreprise, une organisation d’entreprise, un établissement d’enseignement, un organisme public ou une association à but non lucratif, vous avez trois moyens d’obtenir une Teams Système téléphonique et une connectivité RSTN :
 
-- **Microsoft 365 Teams Téléphone l’offre groupée Forfait** d’appels : Obtenez cette offre si vous souhaitez que la gestion de la gestion des numéros de téléphone et de la facturation soit gérée par Microsoft. Vérifiez si une carte [Teams Téléphone’offre d’appels est disponible dans votre région](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-- **Microsoft 365 Teams Téléphone licence** autonome : cette licence inclut Teams Téléphone, mais vous devrez tout de même vous connecter au réseau PSTN. Pour en savoir plus sur les solutions vocales, [voir Planifier Teams solution vocale proposée](../cloud-voice-landing-page.md). Pour afficher toutes vos options de connectivité PSTN, consultez [les options de connectivité PSTN](../pstn-connectivity.md).
+- Achetez une offre Microsoft 365 Entreprise, E1/E3, A1/A3 ou G1/G3 et ajoutez des Teams Téléphone avec des licences groupées de **plan** d’appels.
+  - Ce modèle vous offre Teams Système téléphonique fonctionnalités PBX et un plan d’appels nationaux Microsoft.
+  - Choisissez cette configuration si vous voulez que la gestion de la gestion des numéros de téléphone et de la facturation soit gérée par Microsoft.
+  - Vérifiez si la licence de [l’offre Teams Téléphone forfait Forfait d’appels est disponible dans votre région](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-Pour en savoir plus, voir [Teams Téléphone pour les petites et moyennes entreprises](../business-voice/whats-business-voice.md).
+- Achetez une offre E1/E3, A1/A3 ou G1/G3, ajoutez des licences **Teams Téléphone Standard**, et choisissez un plan d’appels autonome Microsoft ou un opérateur PSTN tiers.
+  - Ce modèle vous donnera Teams Système téléphonique, mais vous devrez tout de même vous connecter au réseau PSTN.
+  - Pour afficher toutes vos options de connectivité PSTN, consultez [les options de connectivité PSTN](../pstn-connectivity.md).
+  - Pour en savoir plus sur toutes les solutions vocales, [voir Planifier votre Teams solution vocale](../cloud-voice-landing-page.md).
 
-Voici un résumé basé sur le plan de gestion des licences.
+- Achetez une offre E5/A5/G5 et ajoutez des **forfaits** d’appels Microsoft ou connectez-vous à un fournisseur de connectivité PSTN tiers.
+  - Les plans Microsoft 365 E5, A5 et G5 incluent Teams Système téléphonique, mais les organisations doivent quand même choisir une option de connectivité [RSTN](../pstn-connectivity.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>Plan de base</strong></th>
-<th colspan="3"><strong>Options d’appel vocal</strong></th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-</tr>
-</thead>
-<tbody>
-<tr class="even">
-<td>Microsoft 365 Business Basic<br/>
-Microsoft 365 Business Standard<br/>
-Microsoft 365 Business Premium<br/>
-Microsoft Teams Essentials (AAD identité de l’entreprise)</td>
-<td>Teams Téléphone licence de forfait Forfait d’appels<br/> <br/>Forfait d’appels internationaux (facultatif) <br/> <br/>Crédits de communication (facultatif)</td>
-<td>Ou</td>
-<td>Teams Téléphone licence autonome<br/> <br/>Forfait d’appels nationaux ou forfait d’appels nationaux et internationaux<br/> <br/>Crédits de communication (facultatif)</td>
-</tr>
-<tr class="odd">
-<td>Microsoft 365 Entreprise E1/E3<br/>Office 365 Entreprise E1/E3<br/>Microsoft 365 F3<br/>Office 365 F3<br/>Microsoft 365 F1</td>
-<td>Teams Téléphone licence de forfait Forfait d’appels <br/> <br/>Forfait d’appels internationaux (facultatif) <br/> <br/>Crédits de communication (facultatif)</td>
-<td>Ou</td>
-<td>Teams Téléphone licence autonome<br/> <br/>Forfait d’appels nationaux ou forfait d’appels nationaux et internationaux<br/> <br/>Crédits de communication (facultatif)</td>
-</tr>
-<tr class="even">
-<td>Microsoft 365 Entreprise E5<br/>Office 365 Entreprise E5</td>
-<td>Forfait d’appels nationaux ou forfait d’appels nationaux et internationaux<br/> <br/>Crédits de communication (facultatif)</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
->[!NOTE]
->Si vous devez utiliser un service téléphonique tiers ou si les forfaits d’appels ne sont pas disponibles dans votre pays ou région, vous pouvez choisir [](../operator-connect-plan.md) entre un opérateur Connecter ou un [routage direct](../direct-routing-landing-page.md) pour votre organisation.
-
-#### <a name="enterprise"></a>[**Enterprise**](#tab/enterprise/)
-
-Si vous êtes une grande entreprise ou organisation (plus de 300 utilisateurs), vous disposez de trois façons d’obtenir les fonctionnalités vocales :
-
-- Achetez une offre Enterprise E1 ou E3 et ajoutez-la à Teams Téléphone’offre groupée Forfait d’appels.
-- Achetez une offre Enterprise E1 ou E3 et ajoutez les fonctionnalités vocales individuellement.
-- Achetez une offre Enterprise E5, qui inclut des fonctionnalités vocales.
-
-Voici un résumé basé sur le plan de gestion des licences.
+Voici un résumé des licences de voix et d’appel Microsoft à acheter, en fonction de Microsoft 365 plan :
 
 <table>
 <thead>
 <tr class="header">
 <th><strong>Plan de base</strong></th>
-<th colspan="2"><strong>Options d’appel vocal et de conférence</strong></th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
+<th><strong>Vous souhaitez que Microsoft soit votre opérateur PSTN</strong></th>
+<th><strong>Vous souhaitez utiliser un opérateur PSTN tiers</strong></th>
 </tr>
 </thead>
 <tbody>
-<tr class="even">
-<td>Microsoft 365 Entreprise E1/E3<br/>Office 365 Entreprise E1/E3<br/>Microsoft 365 F3<br/>Office 365 F3<br/>Microsoft 365 F1</td>
-<td>Teams Téléphone licence de forfait Forfait d’appels<br/> <br/> Forfait d’appels internationaux (facultatif) <br/> <br/> Crédits de communication (facultatif)<br/> </td>
-<td>ou</td>
-<td>Teams Téléphone licence autonome<br/> <br/> Forfait d’appels nationaux ou forfait d’appels nationaux et internationaux <br/> <br/> Crédits de communication (facultatif)</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Microsoft 365 Entreprise E5<br/>Office 365 Entreprise E5</td>
-<td>Forfait d’appels nationaux ou forfait d’appels nationaux et internationaux<br/> <br/>Crédits de communication (facultatif)</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
-Pour plus d’informations, [voir Microsoft 365 Entreprise et](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) [Office 365 Entreprise de projet](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans).
-
->[!NOTE]
->Si vous devez utiliser un service téléphonique tiers ou si les forfaits d’appels ne sont pas disponibles dans votre pays ou région, vous pouvez choisir [](../operator-connect-plan.md) entre un opérateur Connecter ou un [routage direct](../direct-routing-landing-page.md) pour votre organisation.
-
-#### <a name="education"></a>[**Éducation**](#tab/education/)
-
-Pour les établissements d’enseignement et les autres organisations universitaires, vous disposez de trois façons d’obtenir des fonctionnalités vocales.
-
-- Achetez une offre POUR l’éducation A1 ou A3 et une offre Microsoft 365 Teams Téléphone’offre groupée Forfait d’appels.
-- Achetez un plan EDU A1 ou A3 et ajoutez les fonctionnalités vocales individuellement.
-- Achetez une offre EDU A5, qui inclut des fonctionnalités vocales.
-
-Voici un résumé basé sur le plan de gestion des licences.
-
-<table>
-<thead>
-<tr class="header">
-<th><strong>Plan de base</strong></th>
-<th colspan="3"><strong>Options d’appel vocal et de conférence</strong></th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-</tr>
-</thead>
-<tbody>
-<tr class="even">
-<td>Microsoft 365 Entreprise A1 ou A3<br/>Office 365 Éducation A1 ou A3<br/>Microsoft 365 F3<br/>Office 365 F3</td>
-<td>Teams Téléphone licence de forfait Forfait d’appels <br/> <br/>Forfait d’appels internationaux (facultatif) <br/> <br/>Crédits de communication (facultatif)</td>
-<td>Ou</td>
-<td>Teams Téléphone licence autonome <br/> <br/>Forfait d’appels nationaux ou forfait d’appels nationaux et internationaux <br/> <br/>Crédits de communication (facultatif)</td>
+<tr>
+<td>Teams Essentials (AAD identité de l’entreprise) <br/> <br/>Toute offre Microsoft 365 incluant des Teams <br/> </td>
+<td>Teams Téléphone licences de forfait Forfait d’appels <br/> <br/>ou <br/> <br/>Teams Téléphone licences standard <br/> plus <br/>Forfait d’appels nationaux ou forfait d’appels nationaux et internationaux <br/> </td>
+<td>Teams Téléphone licences standard <br/> </td>
 </tr>
 <tr>
-<td>Microsoft 365 Éducation A1 ou A3<br/>Office 365 Éducation A1 ou A3<br/>Microsoft 365 F3<br/>Office 365 F3</td>
-<td>Teams Téléphone licence de forfait Forfait d’appels <br/> <br/>Forfait d’appels internationaux (facultatif) <br/> <br/>Crédits de communication (facultatif)</td>
-<td>Ou</td>
-<td>Teams Téléphone licence autonome <br/> <br/>Forfait d’appels nationaux ou forfait d’appels nationaux et internationaux <br/> <br/>Crédits de communication (facultatif)</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Microsoft 365 Éducation A5 <br/>Office 365 Éducation A5</td>
-<td>Forfait d’appels nationaux ou forfait d’appels nationaux et internationaux <br/> <br/>Crédits de communication (facultatif)</td>
-<td></td>
+<td>Microsoft 365 E5/A5/G5</td>
+<td>Forfait d’appels nationaux ou forfait d’appels nationaux et internationaux <br/> </td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-Pour en savoir plus, voir [Microsoft 365 Éducation](https://www.microsoft.com/education/buy-license/microsoft365) et [Office 365 Éducation de projet](https://www.microsoft.com/education/products/office).
+## <a name="more-guidance-on-microsoft-plans"></a>Conseils sur les plans Microsoft
 
->[!NOTE]
->Si vous devez utiliser un service téléphonique tiers ou si les forfaits d’appels ne sont pas disponibles dans votre pays ou région, vous pouvez choisir [](../operator-connect-plan.md) entre un opérateur Connecter ou un [routage direct](../direct-routing-landing-page.md) pour votre organisation.
+En savoir plus sur les plans Microsoft et obtenir des conseils en fonction du type de votre organisation :
 
-#### <a name="government"></a>[**Administration**](#tab/government/)
-
-Pour les organisations gouvernementales aux États-Cloud de la communauté du secteur public), trois méthodes s’offrent à vous pour obtenir les fonctionnalités vocales.
-
-- Achetez une offre GOV G1 ou G3 et Microsoft 365 Business Voice.
-- Achetez un plan GOV G1 ou G3 et ajoutez les fonctionnalités voix cloud individuellement.
-- Achetez un plan GOV G5, qui inclut des fonctionnalités vocales.
-
-Voici un résumé basé sur le plan de gestion des licences.
-
-<table>
-<thead>
-<tr class="header">
-<th><strong>Plan de base</strong></th>
-<th colspan="3"><strong>Options d’appel vocal et de conférence</strong></th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-</tr>
-</thead>
-<tbody>
-<tr class="even">
-<td>Microsoft 365 GOV G1 ou G3<br/>Office 365 GOV G1 ou G3<br/>Microsoft 365 F3<br/>Office 365 F3</td>
-<td>Teams Téléphone licence de forfait Forfait d’appels <br/> <br/>Forfait d’appels internationaux (facultatif) <br/> <br/>Crédits de communication (facultatif)</td>
-<td>Ou</td>
-<td>Teams Téléphone licence autonome <br/> <br/>Forfait d’appels nationaux ou forfait d’appels nationaux et internationaux <br/> <br/>Crédits de communication (facultatif)</td>
-</tr>
-<tr>
-<td>Microsoft 365 GOV G1 ou G3<br/>Office 365 GOV G1 ou G3<br/>Microsoft 365 F3<br/>Office 365 F3</td>
-<td>Teams Téléphone licence de forfait Forfait d’appels <br/> <br/>Forfait d’appels internationaux (facultatif) <br/> <br/>Crédits de communication (facultatif)</td>
-<td>Ou</td>
-<td>Teams Téléphone licence autonome <br/> <br/>Forfait d’appels nationaux ou forfait d’appels nationaux et internationaux <br/> <br/>Crédits de communication (facultatif)</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Microsoft 365 GOV G5<br>Office 365 GOV G5</td>
-<td>Forfait d’appels nationaux ou forfait d’appels nationaux et internationaux <br/> <br/>Crédits de communication (facultatif)</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
-Pour plus d’informations, [voir Microsoft 365 administration publique](https://www.microsoft.com/microsoft-365/government/) et [les Office 365 Secteur Public de projet](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans).
-
->[!NOTE]
->Si vous devez utiliser un service téléphonique tiers ou si les forfaits d’appels ne sont pas disponibles dans votre pays ou région, vous pouvez choisir [](../operator-connect-plan.md) entre un opérateur Connecter ou un [routage direct](../direct-routing-landing-page.md) pour votre organisation.
-
-#### <a name="nonprofit"></a>[**Association à but non lucratif**](#tab/nonprofit/)
-
-Si vous êtes une organisation à but non lucratif, quatre méthodes s’offrent à vous pour obtenir des fonctionnalités vocales.
-
-- Achetez une offre Microsoft 365 pour les associations de base ou une offre Microsoft 365 standard pour les associations et une offre Microsoft 365 Teams Téléphone’offre groupée d’appels.
-- Achetez une offre E1 ou E3 pour les associations et une offre Microsoft 365 Teams Téléphone une offre groupée d’appels.
-- Achetez une offre E1 ou E3 pour les associations et ajoutez les fonctionnalités vocales individuellement.
-- Achetez une offre E5 pour les associations, qui inclut des fonctionnalités vocales.
-
-Voici un résumé basé sur le plan de gestion des licences.
-
-<table>
-<thead>
-<tr class="header">
-<th><strong>Plan de base</strong></th>
-<th colspan="3"><strong>Options d’appel vocal et de conférence</strong></th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-</tr>
-</thead>
-<tbody>
-<tr class="even">
-<td>Microsoft 365 Business pour les associations<br/>Microsoft 365 Business pour les associations standard</td>
-<td>Teams Téléphone licence de forfait Forfait d’appels <br/> <br/> Forfait d’appels internationaux (facultatif) <br/> <br/> Crédits de communication (facultatif)</td>
-<td>Ou</td>
-<td>Teams Téléphone licence autonome <br/> <br/>Forfait d’appels nationaux ou forfait d’appels nationaux et internationaux <br/> <br/>Crédits de communication (facultatif)</td>
-</tr>
-<tr>
-<td>Microsoft 365 E1 ou E3 pour les associations<br/>Office 365 E1 pour les associations ou E3<br/>Microsoft 365 F3<br/>Office 365 F3</td>
-<td>Teams Téléphone licence de forfait Forfait d’appels <br/> <br/>Forfait d’appels internationaux (facultatif) <br/> <br/>Crédits de communication (facultatif)</td>
-<td>Ou</td>
-<td>Teams Téléphone licence autonome <br/> <br/>Forfait d’appels nationaux ou forfait d’appels nationaux et internationaux <br/> <br/>Crédits de communication (facultatif)</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Microsoft 365 E1 ou E3 pour les associations<br>Office 365 E1 pour les associations ou E3<br>Microsoft 365 F3<br>Office 365 F3</td>
-<td>Teams Téléphone licence autonome <br/> <br/>Forfait d’appels nationaux ou forfait d’appels nationaux et internationaux <br/> <br/>Crédits de communication (facultatif)</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Microsoft 365 E5 pour les associations<br>Office 365 pour les associations E5</td>
-<td>Forfait d’appels nationaux ou forfait d’appels nationaux et internationaux <br/> <br/>Crédits de communication (facultatif)</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
-Pour en savoir plus, [voir Microsoft 365 et Office 365 pour les associations offres](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
-
->[!NOTE]
->Si vous devez utiliser un service téléphonique tiers ou si les forfaits d’appels ne sont pas disponibles dans votre pays ou région, vous pouvez choisir [](../operator-connect-plan.md) entre un opérateur Connecter ou un [routage direct](../direct-routing-landing-page.md) pour votre organisation.
-
----
+- [Conseils pour les petites et moyennes entreprises](../business-voice/whats-business-voice.md)
+- [Plans pour les entreprises](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)
+- [Recommandations pour les établissements d’enseignement](https://www.microsoft.com/education/buy-license/microsoft365)
+- [Plans pour les gouvernements et les agences gouvernementales](https://www.microsoft.com/microsoft-365/government/)
+- [Offres pour les organisations à but non lucratif](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)
 
 ## <a name="need-help"></a>Vous avez besoin d’aide ?
 
 Vous devez parler à quelqu’un à propos des options de modules supplémentaires ? [Contacter le support relatif aux produits d’entreprises : aide de l’administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-content"></a>Contenu associé
 
 - [Attribuer Teams licences de modules add-on](assign-teams-add-on-licenses.md)
 - [Gérer l’accès des utilisateurs à Microsoft Teams](../user-access.md)
