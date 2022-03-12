@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 59d8303943b8912f7ed0578bd911b633b618f113
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 96755d4396e47ea1a6a3c4266a157cce63008372
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070553"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442700"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
 
@@ -38,7 +38,6 @@ Microsoft Teams d’applications vous permettent d’agréger une ou plusieurs f
 Les applications sont y consentées par les utilisateurs et gérées par les professionnels de l’it dans une perspective de stratégie. Toutefois, pour la plupart, les autorisations et le profil de risque d’une application sont définis par les autorisations et les profils de risque des fonctionnalités que contient l’application. Par conséquent, cet article se concentre sur les autorisations et les considérations au niveau de la fonctionnalité.
 
 Les autorisations ci-dessous en majuscules, par exemple RECEIVE_MESSAGE et REPLYTO_MESSAGE, n’apparaissent pas dans la documentation du développeur [Microsoft Teams](/microsoftteams/platform/overview) ou dans les [autorisations de Microsoft Graph](/graph/permissions-reference). Il s’agit simplement d’une a bref descriptif des objectifs de cet article.
-
 
 | Titre   | Description    |
 |-----------|------------|
@@ -71,7 +70,7 @@ Aucun
 
 - RECEIVE_MESSAGE, REPLYTO_MESSAGE. Le robot peut recevoir des messages d’utilisateurs et y répondre. <sup>1</sup>
 
-- POST_MESSAGE_USER. Une fois qu’un utilisateur a envoyé un message à un bot, il peut envoyer des messages directs à l’utilisateur (également *appelés messages proactifs* à tout moment).
+- POST_MESSAGE_USER. Une fois qu’un utilisateur a envoyé un message à un bot, il peut envoyer des messages directs à l’utilisateur (également _appelés messages proactifs_ à tout moment).
 
 - GET_CHANNEL_LIST. Les bots ajoutés aux équipes peuvent obtenir une liste des noms et des ID des canaux d’une équipe.
 
@@ -82,10 +81,10 @@ Aucun
 - POST_MESSAGE_TEAM. Permet aux robots d’une application d’envoyer des messages directs (proactifs) à tout membre de l’équipe à tout moment, même si l’utilisateur n’a jamais parlé au robot auparavant.
 
 - Les autorisations suivantes ne sont pas explicites, mais sont implicites par RECEIVE_MESSAGE et REPLYTO_MESSAGE ainsi que les étendues dans lesquelles les robots peuvent être utilisés, déclarés dans le manifeste :
- 
-    - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-    - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-    - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
+
+  - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
+  - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
+  - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM    
 
 - SEND_FILES, RECEIVE_FILES. <sup>2 Contrôle</sup> si un bot peut envoyer et recevoir des fichiers dans une conversation personnelle (pas encore pris en charge pour les discussions de groupe ou les canaux).
 
@@ -105,9 +104,9 @@ Aucun
 
 - Les robots peuvent récupérer (et stocker) la liste des canaux dans une équipe . ces données quittent le réseau d’entreprise.
 
-- Lorsqu’un fichier est envoyé à un bot, il quitte le réseau d’entreprise. L’envoi et la réception de fichiers nécessitent l’approbation de l’utilisateur pour chaque fichier. 
+- Lorsqu’un fichier est envoyé à un bot, il quitte le réseau d’entreprise. L’envoi et la réception de fichiers nécessitent l’approbation de l’utilisateur pour chaque fichier.
 
-- Par défaut, les robots ne peuvent pas agir pour le compte de l’utilisateur, mais ils peuvent demander aux utilisateurs de se connecter. dès que l’utilisateur se signe, le bot a un jeton d’accès avec lequel il peut faire des choses supplémentaires. Les informations supplémentaires dépendent du robot et de l’endroit où l’utilisateur se trouve : un robot est une application Azure AD https://apps.dev.microsoft.com/ inscrite à et qui peut avoir son propre ensemble d’autorisations.
+- Par défaut, les robots ne peuvent pas agir pour le compte de l’utilisateur, mais ils peuvent demander aux utilisateurs de se connecter. dès que l’utilisateur se signe, le bot a un jeton d’accès avec lequel il peut faire des choses supplémentaires. Les informations supplémentaires dépendent du robot et de l’endroit où l’utilisateur se trouve : un robot est une application Azure AD inscrite sur le portail [](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList) d’inscription des applications et qui peut avoir son propre ensemble d’autorisations.
 
 - Les robots sont informés chaque fois que des utilisateurs sont ajoutés ou supprimés d’une équipe.
 
@@ -140,7 +139,7 @@ Aucun (actuellement)
 
 ### <a name="considerations"></a>Considérations
 
-- Le profil de risque d’un onglet est presque identique à celui du site web en cours d’exécution dans un onglet de navigateur. 
+- Le profil de risque d’un onglet est presque identique à celui du site web en cours d’exécution dans un onglet de navigateur.
 
 - Un onglet obtient également le contexte dans lequel il est en cours d’exécution, y compris le nom d’utilisateur général et le nom d’utilisateur général de l’utilisateur actuel, l’ID d’objet Azure AD de l’utilisateur actuel, l’ID du groupe Microsoft 365 dans lequel il réside (s’il s’agit d’une équipe), l’ID de client et les paramètres régionaux actuels de l’utilisateur. Toutefois, pour ma carte ces ID et les informations d’un utilisateur, l’onglet doit le faire se Azure AD.
 
@@ -177,7 +176,7 @@ REPLYTO_CONNECTOR_MESSAGE. Certains connecteurs supportent des messages actionna
 
 ## <a name="outgoing-webhooks"></a>Sites web sortants
 
-*Les sites web sortants sont créés* à la volée par les propriétaires d’équipe ou les membres de l’équipe. Il ne s’agit pas de fonctionnalités Teams d’applications ; ces informations sont incluses pour l’intégralité.
+_Les sites web sortants sont créés_ à la volée par les propriétaires d’équipe ou les membres de l’équipe. Il ne s’agit pas de fonctionnalités Teams d’applications ; ces informations sont incluses pour l’intégralité.
 
 ### <a name="required-permissions"></a>Autorisations requises
 

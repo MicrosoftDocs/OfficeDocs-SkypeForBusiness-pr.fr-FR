@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment router des appels vers des numéros non insignés dans votre organisation.
-ms.openlocfilehash: 4d9c40a0b4a01f7fae4a755603cb5cf7eb132f5c
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: f53e83b3d4f26123feed70bdecad32cb45bc5588
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767367"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442792"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Routage des appels vers des numéros non instanés
 
@@ -67,13 +67,13 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - En cas de routage vers une annonce, le fichier audio est liffé une seule fois vers l’appelant.
 
-- Pour router les appels vers des numéros d’abonnés Microsoft Calling Plan non attribues, votre client doit avoir des [crédits de communication disponibles.](what-are-communications-credits.md)
+- Pour router les appels vers des numéros d’abonnés Microsoft Calling Plan non attribues, votre client doit avoir des [crédits de communication disponibles](what-are-communications-credits.md).
 
-- Pour router les appels vers des numéros de service Microsoft Calling Plan non insignés, votre client doit avoir au moins Système téléphonique licence – Utilisateur virtuel.
+- Pour router les appels vers des numéros de service Microsoft Calling Plan non insignés, votre client doit avoir au moins une licence Système téléphonique - Utilisateur virtuel.
 
 - Les formats de fichier audio personnalisés pris en charge sont WAV (non compressé, linéaire PCM avec une profondeur 8/16/32 bits en mono ou stéréo), WMA (mono uniquement) et MP3. Le contenu du fichier audio ne peut pas avoir une taille plus de 5 Mo.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Get-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/get-csteamsunassignednumbertreatment)
 
@@ -82,3 +82,5 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 - [Set-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/set-csteamsunassignednumbertreatment)
 
 - [Remove-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/remove-csteamsunassignednumbertreatment)
+
+- [Test-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/test-csteamsunassignednumbertreatment)

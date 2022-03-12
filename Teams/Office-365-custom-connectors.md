@@ -17,16 +17,16 @@ description: Avec les connecteurs, votre équipe reste au courant des dernières
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 39bc677b57a0cec5381c0d8f05b33d18b072769f
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: e42ef850c089633a6c9145935d6e70a92cdb6801
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070723"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442690"
 ---
-# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Utiliser des Microsoft 365 et des connecteurs personnalisés dans Microsoft Teams 
+# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Utiliser des Microsoft 365 et des connecteurs personnalisés dans Microsoft Teams
 
-Les connecteurs vous aideront à maintenir votre équipe à jour en leur adant directement dans un canal le contenu fréquemment utilisé et les mises à jour de service. Avec les connecteurs, vos utilisateurs Microsoft Teams peuvent recevoir des mises à jour de services populaires tels que Trello, Wunderlist, GitHub et Azure DevOps Services dans le flux de conversation de leur équipe. 
+Les connecteurs vous aideront à maintenir votre équipe à jour en leur adant directement dans un canal le contenu fréquemment utilisé et les mises à jour de service. Avec les connecteurs, vos utilisateurs Microsoft Teams peuvent recevoir des mises à jour de services populaires tels que Trello, Wunderlist, GitHub et Azure DevOps Services dans le flux de conversation de leur équipe.
 
 Tout membre d’une équipe peut connecter son équipe aux services cloud populaires avec les connecteurs si les autorisations de l’équipe le permettent et tous les membres de l’équipe sont informés des activités de ce service. Les connecteurs continueront à fonctionner même après le membre qui a initialement configuré le connecteur gauche. Tout membre de l’équipe  autorisée à ajouter\supprimer peut modifier la configuration des connecteurs par les autres membres.
 
@@ -64,6 +64,7 @@ Pour l’instant, vous pouvez ajouter des connecteurs à l’aide Microsoft Team
 > **Notification de mise à jour d’URL de connecteur**
 >
 > Les Teams sont en cours de transition vers une nouvelle URL pour renforcer la sécurité. Au cours de cette transition, vous recevrez certaines notifications de mise à jour du connecteur configuré pour utiliser la nouvelle URL. Il est vivement recommandé de mettre à jour votre connecteur immédiatement pour éviter toute interruption des services de connecteur. Pour mettre à jour l’URL, vous devez suivre les étapes suivantes :
+>
 > 1. Dans la page de configuration des connecteurs, un message « Attention requise » s’affiche sous le bouton « Gérer » pour les connexions qui doivent être mises à jour.
 > ![Capture d’écran du message « Attention requise ».](media/Teams_Attention_Required_message.png)
 > 2. Pour les connecteurs d’espace web entrants, les utilisateurs peuvent recréer la connexion en sélectionnant simplement Mettre à jour **l’URL** et en utilisant l’URL de site web nouvellement générée.
@@ -72,8 +73,6 @@ Pour l’instant, vous pouvez ajouter des connecteurs à l’aide Microsoft Team
 > 4. Un message « URL est à jour » s’affichera une fois l’URL correctement mise à jour.
 > ![Capture d’écran du message « L’URL est à jour ».](media/Teams_URL_up_to_date.png)
 
-
 ## <a name="develop-custom-connectors"></a>Développer des connecteurs personnalisés
-
 
 Vous pouvez également créer des connecteurs personnalisés, ainsi que des sites web entrants et sortants. Pour plus d’informations, consultez notre [documentation sur les développeurs](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).

@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ad0324509849700ea74afe582d4ce7a4934dc3e
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 90bdf2661432a5d68b8f6a727a272855f1a52173
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070593"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442450"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Tasks pour votre organisation dans Microsoft Teams
 
@@ -91,12 +91,12 @@ Nous vous déconseillons de supprimer une licence Exchange Online pour les trava
 
 Avec la publication de tâches, votre organisation peut publier des listes de tâches ciblées sur des emplacements spécifiques (des équipes) au sein de votre organisation pour définir et partager un programme de travail à réaliser à ces emplacements.
 
-- Les membres de l’équipe de publication, comme les dirigeants d’entreprise ou les responsables régionaux, peuvent créer des listes de tâches et les publier dans des équipes spécifiques.<br>
+- Les membres de l’équipe de publication, comme les dirigeants d’entreprise ou les responsables régionaux, peuvent créer des listes de tâches et les publier dans des équipes spécifiques.
     ![Capture d’écran de la publication de tâches.](media/manage-tasks-app-publish.png)
-- Les N+1 des équipes destinataires peuvent consulter les listes de tâches publiées et attribuer des tâches individuelles aux membres de l’équipe.<br>
+- Les N+1 des équipes destinataires peuvent consulter les listes de tâches publiées et attribuer des tâches individuelles aux membres de l’équipe.
     ![Capture d’écran de l’attribution d’une tâche.](media/manage-tasks-app-assign.png)
 - Les travailleurs de première ligne ont une expérience mobile simple pour voir les tâches qui leur sont assignées. Ils peuvent joindre des photos pour montrer leur travail le cas échéant et marquer leurs tâches comme terminées.
-- Les éditeurs et les N+1 peuvent afficher des rapports pour voir l’état d’affectation et d’achèvement des tâches à chaque niveau, y compris par emplacement (équipe), liste de tâches et tâche individuelle.<br>
+- Les éditeurs et les N+1 peuvent afficher des rapports pour voir l’état d’affectation et d’achèvement des tâches à chaque niveau, y compris par emplacement (équipe), liste de tâches et tâche individuelle.
     ![Capture d’écran des tâches affectées sur un appareil mobile.](media/manage-tasks-app-reporting.png)
 
 Les utilisateurs créent, gèrent et publient des listes de tâches dans l’onglet **Listes publiées** de l’application Tasks. Cet onglet ne s’affiche pour un utilisateur que si votre organisation [a configuré une hiérarchie de ciblage d’équipe](#set-up-your-team-targeting-hierarchy) et que l’utilisateur fait partie d’une équipe incluse dans la hiérarchie. La hiérarchie détermine si l’utilisateur peut publier ou recevoir des listes de tâches et afficher des rapports pour les listes reçues.

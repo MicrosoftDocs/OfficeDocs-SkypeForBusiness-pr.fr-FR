@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment mettre à jour les applications dans Microsoft Teams.
-ms.openlocfilehash: fac8f10808300280f52a62501ebb5cb8d69b4bb8
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: ce788bcdfb690aec305b71ec881a865385c895c2
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435708"
+ms.locfileid: "63442280"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Mettre à jour des applications dans Microsoft Teams
 
-Dans la plupart des cas, une fois que les développeurs d’applications publient une mise à jour d’application, la nouvelle version s’affiche automatiquement pour les utilisateurs. Toutefois, certaines mises à jour du manifeste <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams</a> nécessitent l’acceptation des utilisateurs :
+Dans la plupart des cas, une fois que les développeurs d’applications publient une mise à jour d’application, la nouvelle version s’affiche automatiquement pour les utilisateurs. Toutefois, certaines mises à jour du manifeste [Microsoft Teams](/microsoftteams/platform/resources/schema/manifest-schema) nécessitent l’acceptation des utilisateurs :
 
 * Un robot a été ajouté ou supprimé
 * La propriété « botId » d’un robot existant a été modifiée
@@ -41,9 +41,9 @@ Dans la plupart des cas, une fois que les développeurs d’applications publien
 
 ![option de mise à niveau pour une application.](media/manage-your-custom-apps-update2.png)
 
-> [!NOTE] 
-> Le processus de mise à jour s’applique à toutes les mises à jour d’application pour les applications Microsoft, les applications personnalisées et les applications tierces. 
+> [!NOTE]
+> Le processus de mise à jour s’applique à toutes les mises à jour d’application pour les applications Microsoft, les applications personnalisées et les applications tierces.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Gérer les applications](manage-apps.md)

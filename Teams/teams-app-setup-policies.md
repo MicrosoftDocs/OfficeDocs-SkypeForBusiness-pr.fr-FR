@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: adfdfa74dd00314cb0b7fad5524a89619e8772d2
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b5100bd09b371d90d5bede76b440f423eb527b9c
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070743"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442340"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -51,7 +51,7 @@ Les applications sont épinglées à :
 
 |Client de bureau Teams  |Client mobile Teams |
 |---------|---------|
-|![Le Teams de bureau.](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Le client Teams mobile](media/mobile-app-ui.png)      |
+|![Le Teams de bureau.](media/app-setup-policies-desktop-app-bar.png)<  |   ![Le client Teams mobile](media/mobile-app-ui.png)      |
 
 > [!NOTE]
 > Si vous avez Teams pour l'éducation, il est important de savoir que l’application Devoirs est épinglée par défaut dans la stratégie globale, même si actuellement elle n’est pas répertoriée dans la stratégie globale. Il s’agit de la quatrième application dans la liste des applications épinglées Teams clients.
@@ -193,7 +193,7 @@ Pour afficher toutes les applications épinglées pour un utilisateur, les utili
 |Client de bureau Teams |Client mobile Teams |
 |---------|---------|
 |Dans la barre de l’application sur le côté Teams, sélectionnez **... Autres applications**.| Dans la barre de l’application en bas de Teams, balayez vers le haut.|
-|![Plus d’applications dans Teams client de bureau.](media/app-setup-policies-desktop-more-apps.png)<br>   |![plus d’applications dans Teams client mobile](media/app-setup-policies-mobile-more-apps.png)  
+|![Plus d’applications dans Teams client de bureau.](media/app-setup-policies-desktop-more-apps.png)   |![plus d’applications dans Teams client mobile](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Que dois-je savoir sur l’expérience Teams mobile ?
 

@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment personnaliser des applications dans Microsoft Teams.
-ms.openlocfilehash: 7fb940ed512c96bd4aa4519bcdabbf9adcbe86a8
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 1f32b7f7d00b6737d959a1687574ce4560bd4725
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070423"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442640"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personnaliser des applications dans Microsoft Teams
 
@@ -85,19 +85,19 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
 > [!Note]
 > Seuls les champs que le développeur de l’application a attribués comme personnalisables seront visibles.
 
-5. Développez la section **Icône** .
+1. Développez la section **Icône** .
 
-   1. Télécharger une icône. Utilisez une icône en couleur (192 x 192 pixels) au format PNG.
+1. Télécharger une icône. Utilisez une icône en couleur (192 x 192 pixels) au format PNG.
 
-   1. Choisissez une couleur de contour d’icône. Utilisez un contour transparent (32 x 32) pixels au format PNG.
+1. Choisissez une couleur de contour d’icône. Utilisez un contour transparent (32 x 32) pixels au format PNG.
 
-   1. Sélectionnez une couleur d’accentuage de l’application qui correspond à l’icône.
+1. Sélectionnez une couleur d’accentuage de l’application qui correspond à l’icône.
 
-    ![Personnalisez les options de couleur du panneau d’icônes.](media/customize-app-colors.png)
+   ![Personnalisez les options de couleur du panneau d’icônes.](media/customize-app-colors.png)
 
-6. Une fois votre application personnalisée, sélectionnez **Appliquer**.
+1. Une fois votre application personnalisée, sélectionnez **Appliquer**.
 
-7. **Sélectionnez** Publier pour publier l’application personnalisée.
+1. **Sélectionnez** Publier pour publier l’application personnalisée.
 
    L’application personnalisée est désormais répertoriée dans votre page **Gérer les applications** . Vous n’aurez qu’une version de l’application, car la personnalisation des fonctionnalités de l’application ne crée pas de copie de l’application.
 
@@ -110,6 +110,7 @@ Vos utilisateurs finaux Teams désormais ouvrir leur client Teams client pour vo
 La note suivante contient des détails importants sur la personnalisation d’une application.
 
 > [!Note]
+>
 > - Lorsque vous personnalisez des applications et toute description liée à une application, veillez à respecter les instructions de personnalisation fournies par l’éditeur dans leur documentation ou conditions d’utilisation. Vous devez également respecter les droits d’autres personnes concernant les images tierces que vous pourriez utiliser.
 > - Les données de personnalisation fournies par l’administrateur sont stockées dans la région la plus proche.
 > - Il vous faut s’assurer que les liens vers les conditions d’utilisation ou la politique de confidentialité sont valides.

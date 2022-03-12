@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment approuver vos applications personnalisées soumises à l’aide de l’API Soumission Teams’application dans Microsoft Teams.
-ms.openlocfilehash: a1b6778c79fd389ebfd4b3ce172daa186e92b76e
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 3a4dfc0b14f20f367cd3580c5366adc26233dde9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070403"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442330"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publier une application personnalisée envoyée via l’API Teams App Submission
 
@@ -116,17 +116,17 @@ Après avoir publié l’application, le statut **publication** passe à **Publi
 
 ### <a name="control-access-to-the-app"></a>Contrôler l’accès à l’application
 
-Par défaut, tous les utilisateurs de votre organisation peuvent accéder à l’application dans le magasin d’applications de votre organisation. Pour restreindre et contrôler les personnes autorisées à utiliser l’application, vous pouvez créer et affecter une stratégie d’autorisation d’application. Pour plus d’informations, consultez <a href="/microsoftteams/teams-app-permission-policies" target="_blank">Gérer les stratégies d’autorisation d’application dans Teams</a>.
+Par défaut, tous les utilisateurs de votre organisation peuvent accéder à l’application dans le magasin d’applications de votre organisation. Pour restreindre et contrôler les personnes autorisées à utiliser l’application, vous pouvez créer et affecter une stratégie d’autorisation d’application. Pour plus d’informations, consultez [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md).
 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>Épingler et installer l’application pour les utilisateurs
 
-Par défaut, pour que les utilisateurs trouvent l’application qu’ils doivent trouver, ils doivent se rendre dans le magasin d’applications de votre organisation et la parcourir ou la rechercher. Pour faciliter l’accès des utilisateurs à l’application, vous pouvez épingler l’application à la barre d’application dans Teams. Pour ce faire, créez une stratégie de configuration d’application et attribuez-la aux utilisateurs. Pour plus d’informations, consultez l’article <a href="/microsoftteams/teams-app-setup-policies" target="_blank">Gérer les stratégies et paramètres d’application personnalisés dans Teams</a>.
+Par défaut, pour que les utilisateurs trouvent l’application qu’ils doivent trouver, ils doivent se rendre dans le magasin d’applications de votre organisation et la parcourir ou la rechercher. Pour faciliter l’accès des utilisateurs à l’application, vous pouvez épingler l’application à la barre d’application dans Teams. Pour ce faire, créez une stratégie de configuration d’application et attribuez-la aux utilisateurs. Pour plus d’informations, consultez l’article [Gérer les stratégies et paramètres d’application personnalisés dans Teams](teams-app-setup-policies.md).
 
 ### <a name="search-the-audit-log-for-teams-app-events"></a>Rechercher des événements d’application Teams dans le journal d’audit
 
-Vous pouvez effectuer des recherches dans le journal d’audit Teams l’activité des applications dans votre organisation. Pour en savoir plus sur la recherche dans le journal d’audit et la liste des activités Teams enregistrées dans le journal d’audit, voir Rechercher des événements dans le journal <a href="/microsoftteams/audit-log-events" target="_blank">d’audit dans Teams</a>.
+Vous pouvez effectuer des recherches dans le journal d’audit Teams l’activité des applications dans votre organisation. Pour en savoir plus sur la recherche dans le journal d’audit et la liste des activités Teams enregistrées dans le journal d’audit, voir Rechercher des événements dans le journal [d’audit dans Teams](audit-log-events.md).
 
-Pour effectuer une recherche dans le journal d’audit, vous devez au préalable activer la fonctionnalité d’audit dans le <a href="https://protection.office.com" target="_blank">Centre de sécurité et de conformité</a>. Si vous souhaitez en savoir plus, veuillez consulter <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">Activer ou désactiver la recherche dans le journal d'audit</a>. N’oubliez pas que les données d’audit ne sont disponibles qu’à partir du moment où vous avez activé l’audit.
+Pour effectuer une recherche dans le journal d’audit, vous devez au préalable activer la fonctionnalité d’audit dans le [Centre de sécurité et de conformité](https://sip.protection.office.com/). Si vous souhaitez en savoir plus, veuillez consulter [Activer ou désactiver la recherche dans le journal d'audit](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide). N’oubliez pas que les données d’audit ne sont disponibles qu’à partir du moment où vous avez activé l’audit.
 
 ## <a name="discover-and-adopt"></a>Découvrir et adopter
 
@@ -159,9 +159,9 @@ Gardez à l’esprit les choses suivantes :
 - Lorsqu’une application est approuvée, n’importe qui peut envoyer une mise à jour à l’application. Cela signifie que d’autres développeurs, y compris le développeur ayant initialement soumis l’application, peuvent soumettre une mise à jour à l’application.
 - Lorsqu’un développeur envoie une application et que la demande est en attente, seul ce même développeur peut envoyer une mise à jour de l’application. Les autres développeurs peuvent envoyer une mise à jour uniquement après l’approbation de l’application.
 
-Pour plus d’informations sur l’utilisation de l’API Graph mise à jour des applications, voir <a href="/graph/api/teamsapp-update">ici</a>.
+Pour plus d’informations sur l’utilisation de l’API Graph mise à jour des applications, voir [ici](/graph/api/teamsapp-update?view=graph-rest-1.0&tabs=http).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Publier une application personnalisée en chargeant un package d’application](upload-custom-apps.md)
 - [Gérer vos applications dans le Centre Microsoft Teams’administration](manage-apps.md)
@@ -169,4 +169,4 @@ Pour plus d’informations sur l’utilisation de l’API Graph mise à jour des
 - [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)
 - [Gérer les stratégies de mise en application dans Teams](teams-app-setup-policies.md)
 - [Teams surveillance et alertes](alerts/teams-admin-alerts.md)
-- <a href="/graph/api/resources/teamsapp?view=graph-rest-beta" target="_blank">API Microsoft Graph pour Teams applications</a>
+- [API Microsoft Graph pour Teams applications](alerts/teams-admin-alerts.md)

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer des Messagerie vocale infonuagique pour vos utilisateurs.
-ms.openlocfilehash: d2bb29130bad312dbd420c0adb8b16558232c258
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: d78942c5cbfc6af8e921c26c806378b45f480835
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392866"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442320"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -107,7 +107,7 @@ Pour chiffrer le message vocal, vous pouvez créer une étiquette de sensibilit�
 
 Lorsque vous activez des messages vocaux protégés, les utilisateurs peuvent écouter les messages vocaux protégés en appelant leur boîte aux lettres vocale ou en ouvrant le message dans Outlook, Outlook sur le web ou Outlook pour Android ou iOS. Les messages vocaux protégés ne peuvent pas être ouverts à l’Microsoft Teams ou Skype de Busimess.
 
-Pour créer une étiquette de sensibilité pour la messagerie vocale, voir [Utiliser des étiquettes de sensibilité](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). **Sélectionnez Dans Outlook, appliquez l’une des restrictions suivantes**, puis sélectionnez l’option Ne **pas** forwarder.
+Pour créer une étiquette de sensibilité pour la messagerie vocale, voir [Utiliser des étiquettes de sensibilité](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). Dans la section **Chiffrement** , **sélectionnez Autoriser les utilisateurs à attribuer des autorisations lorsqu’ils appliquent l’étiquette**. **Sélectionnez Dans Outlook, appliquez l’une des restrictions suivantes**, puis sélectionnez l’option Ne **pas** forwarder.
 
 Pour créer la stratégie de mise en service automatique afin d’appliquer une étiquette de confidentialité à la messagerie vocale, consultez comment configurer les stratégies d’étiquetage [automatique et](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) spécifiez les paramètres spécifiques suivants :
 

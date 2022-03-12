@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10adab9046a7cbd8cebccf6167075e38b1204dea
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 0c2ec3432a503755ba6164f4a46f7b35f9696271
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070433"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442310"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
@@ -198,6 +198,7 @@ En savoir plus sur [Journalisation des activités de Microsoft Dataverse et des 
 ## <a name="approvals-e-signature-integration"></a>Intégration de la signature électronique Approbations
 
 Pour utiliser la fonctionnalité de signature électronique de l’application Approbations, vous devez avoir une licence pour le fournisseur de signature électronique que vous voulez utiliser. Pour obtenir une licence pour votre organisation, vous devez vous rendre sur le site du fournisseur.
+
 ### <a name="enable-or-disable-e-signature-providers"></a>Activer ou désactiver les fournisseurs de signature électronique
 
 Vous pouvez utiliser le centre Teams d’administration pour contrôler quels fournisseurs de signature électronique tiers sont disponibles pour vos utilisateurs dans l’application Approbations. Par défaut, les fournisseurs de signature électronique sont activés dans l’application Approbations. Lorsque vous désactivez un fournisseur de signature électronique, vos utilisateurs n’y ont pas accès lorsqu’ils créent des approbations. Vos utilisateurs ne pourront pas non plus afficher les demandes de signature électronique créées à l’aide de ce fournisseur.

@@ -17,12 +17,12 @@ description: Découvrez comment gérer vos applications Teams sur la page Gérer
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: ad1dd28f4de0bc6db0ab7b2870a1cf7b2dae007a
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 96acf3151c2b805fead94979010669520b7a000f
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070223"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442290"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gérer vos applications dans le Centre Microsoft Teams’administration
 
@@ -165,7 +165,7 @@ Utilisez les paramètres des applications à l’échelle de l’organisation po
     - **Autoriser les applications tierces** : cette commande contrôle si les utilisateurs peuvent utiliser des applications tierces. Si vous désactiver ce paramètre, vos utilisateurs ne pourront pas installer ou utiliser des applications tierces et l’état de ces applications s’affiche comme bloqué à l’échelle de l’organisation dans le tableau.
 
         > [!NOTE]
-        > Lorsque  l’autorisation des applications tierces est activée, les sites [web sortants sont toujours activés](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) pour tous les utilisateurs, mais vous pouvez les contrôler au niveau de l’utilisateur en bloquant ou en bloquant l’application Web sans fil sortante via des stratégies d’autorisation d’application[.](teams-app-permission-policies.md) <br><br>Notez que si vous avez des [](teams-app-permission-policies.md) stratégies d’autorisation d’application existantes pour les applications **Microsoft** qui utilisent le paramètre Autoriser des applications spécifiques et bloquez tous les autres paramètres, et que vous voulez activer les sites web sortants pour les utilisateurs, ajoutez l’application Web de groupe sortant à la liste.
+        > Lorsque  l’autorisation des applications tierces est activée, les sites [web sortants sont toujours activés](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) pour tous les utilisateurs, mais vous pouvez les contrôler au niveau de l’utilisateur en bloquant ou en bloquant l’application Web sans fil sortante via des stratégies d’autorisation d’application[.](teams-app-permission-policies.md) Notez que si vous avez des [](teams-app-permission-policies.md) stratégies d’autorisation d’application existantes pour les applications **Microsoft** qui utilisent le paramètre Autoriser des applications spécifiques et bloquez tous les autres paramètres, et que vous voulez activer les sites web sortants pour les utilisateurs, ajoutez l’application Web de groupe sortant à la liste.
 
         > [!NOTE]
         > Les utilisateurs de Teams peuvent ajouter des applications lorsqu’ils hébergent des réunions ou des conversations avec des personnes d’autres organisations. Ils peuvent également utiliser des applications partagées par des personnes d’autres organisations lorsqu’ils rejoignent des réunions ou des conversations hébergées par ces organisations. Les stratégies de données de l’organisation de l’utilisateur hôte, ainsi que les pratiques de partage de données de toutes les applications tierces partagées par l’organisation de cet utilisateur, sont appliquées.
@@ -193,6 +193,6 @@ Pour accéder aux informations MCAS, suivez ces étapes :
 
 Sous cet onglet, vous trouverez des informations sur la sécurité, la conformité et la protection des données. Vous pouvez également développer chaque liste afin d’obtenir plus de détails sur les fonctionnalités qui sont pris en charge pour l’application sélectionnée.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)

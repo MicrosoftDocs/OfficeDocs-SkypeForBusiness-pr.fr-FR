@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment gérer l’accès aux applications personnalisées intégrées à la plateforme Microsoft Power Dans le Microsoft Teams d’administration.
-ms.openlocfilehash: d2ccb100a0d6354b1fca62911b17afdd3479887b
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: c093d432faa8d4977f4d931ac948a35dc6fe6509
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070533"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442670"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Gérer les applications Microsoft Power Platform dans le Centre Microsoft Teams’administration
 
@@ -76,7 +76,7 @@ Par défaut, les **Power Apps** partagées et **les applications Agent virtuel P
 
 ### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>Autoriser ou bloquer les applications Microsoft Power Platform pour des utilisateurs spécifiques
 
-Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation d’accéder aux applications créées dans Power Apps ou Power Virtual Agents, créez et affectez une ou plusieurs stratégies d’autorisation d’application [personnalisées](teams-app-permission-policies.md). 
+Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation d’accéder aux applications créées dans Power Apps ou Power Virtual Agents, créez et affectez une ou plusieurs stratégies d’autorisation d’application [personnalisées](teams-app-permission-policies.md).
 
 Par exemple, pour empêcher des utilisateurs spécifiques d’accéder aux applications créées dans Power Apps, créez une stratégie d’autorisation d’application personnalisée pour bloquer les **Power Apps** partagés, puis affectez la stratégie à ces utilisateurs.
 
@@ -84,14 +84,14 @@ Par exemple, pour empêcher des utilisateurs spécifiques d’accéder aux appli
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>Utiliser les journaux d’audit pour examiner l’activité d’installation de Microsoft Power Platform
 
-Les journaux d’audit pour Teams vous permettent d’examiner les événements dans lequel des utilisateurs ont installé des applications Microsoft Power Platform à partir de **la section** Pré-créé par vos collègues de la page Applications de Teams. Pour ce faire, recherchez un utilisateur ou un  ensemble d’utilisateurs dans le journal [d’audit](./audit-log-events.md) de l’événement Teams’application installée (sous l’opération **AppInstalled**). Pour rechercher les applications installées à partir de **Built par** vos collègues, recherchez la valeur **TemplatedInstance** dans la propriété **AppDistributionMode** dans les détails d’un enregistrement donné. 
+Les journaux d’audit pour Teams vous permettent d’examiner les événements dans lequel des utilisateurs ont installé des applications Microsoft Power Platform à partir de **la section** Pré-créé par vos collègues de la page Applications de Teams. Pour ce faire, recherchez un utilisateur ou un  ensemble d’utilisateurs dans le journal [d’audit](./audit-log-events.md) de l’événement Teams’application installée (sous l’opération **AppInstalled**). Pour rechercher les applications installées à partir de **Built par** vos collègues, recherchez la valeur **TemplatedInstance** dans la propriété **AppDistributionMode** dans les détails d’un enregistrement donné.
 
 :::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="Capture d’écran de la valeur TemplatedInstance dans la propriété AppDistributionMode.":::
 
 > [!NOTE]
 > Vous pouvez exporter des enregistrements d’audit au format CSV pour simplifier le filtrage.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Partager une application de zone de dessin dans Power Apps](/powerapps/maker/canvas-apps/share-app)
 - [Partager votre robot avec d’autres utilisateurs](/power-virtual-agents/admin-share-bots)

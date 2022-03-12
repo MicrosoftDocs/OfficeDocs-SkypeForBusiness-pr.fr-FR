@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30425631f0f3058d0fe39542b929e01bf0344367
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 54fbd67fffa666e7f07719305075be264f077976
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070363"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442270"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Afficher les autorisations des applications et accorder le consentement de l’administrateur dans Microsoft Teams d’administration
 
@@ -30,7 +30,7 @@ Dans cette page, vous pouvez également accorder à l’administrateur de l’or
 
 Si vous êtes un administrateur global, vous pouvez consulter et accorder votre consentement aux applications qui demandent des autorisations au nom de tous les utilisateurs de votre organisation. Ainsi, les utilisateurs n’ont pas à passer en revue et à accepter les autorisations demandées par l’application lorsqu’ils démarrent l’application. En outre, selon les paramètres de consentement de l’utilisateur dans Azure Active Directory (Azure AD), certains [utilisateurs](/azure/active-directory/manage-apps/configure-user-consent) ne sont pas autorisés à accorder le consentement aux applications qui accèdent aux données de l’entreprise.
 
-Parmi les autorisations demandées par les applications figurent la possibilité de lire les informations stockées dans une équipe, de lire le profil d’un utilisateur et d’envoyer un courrier électronique de la part d’utilisateurs. Pour en savoir plus, voir [Autorisations et consentement dans le Plateforme d'identités Microsoft terminaison](/azure/active-directory/develop/v2-permissions-and-consent). 
+Parmi les autorisations demandées par les applications figurent la possibilité de lire les informations stockées dans une équipe, de lire le profil d’un utilisateur et d’envoyer un courrier électronique de la part d’utilisateurs. Pour en savoir plus, voir [Autorisations et consentement dans le Plateforme d'identités Microsoft terminaison](/azure/active-directory/develop/v2-permissions-and-consent).
 
 La **colonne Autorisations** indique si une application dispose d’autorisations qui ont besoin d’un consentement. Vous verrez un lien Afficher les **détails** de chaque application enregistrée dans Azure AD qui dispose d’autorisations qui ont besoin d’un consentement. N’oubliez pas que cette règle ne s’applique qu’aux applications personnalisées et tierces. Vous ne verrez pas ce lien ou n’aurez pas besoin d’accorder le consentement de l’administrateur pour les applications publiées par Microsoft.
 
@@ -64,15 +64,15 @@ Une fois les autorisations acceptées, un message s’agit de la page des détai
 Si les utilisateurs de votre organisation sont autorisés à accorder le consentement et si un ou plusieurs utilisateurs ont accordé leur consentement à une application particulière, vous verrez également le même message pour vous faire savoir que le consentement a été accordé et le lien Azure Active Directory vers la page de l’application dans le portail Azure AD.
 
 > [!NOTE]
-> Bien que l’option Examiner les **autorisations** et le consentement ne soit pas disponible pour les administrateurs de service Teams et ne peuvent pas accorder de consentement à l’échelle de l’organisation à des applications, les administrateurs de service Teams peuvent afficher le contenu sous l’onglet **Autorisations** d’une application. Par exemple, un administrateur Teams service peut cliquer sur le **lien Azure Active Directory** pour afficher les détails des autorisations d’application dans le portail Azure AD’utilisateur. 
+> Bien que l’option Examiner les **autorisations** et le consentement ne soit pas disponible pour les administrateurs de service Teams et ne peuvent pas accorder de consentement à l’échelle de l’organisation à des applications, les administrateurs de service Teams peuvent afficher le contenu sous l’onglet **Autorisations** d’une application. Par exemple, un administrateur Teams service peut cliquer sur le **lien Azure Active Directory** pour afficher les détails des autorisations d’application dans le portail Azure AD’utilisateur.
 
 ## <a name="view-resource-specific-consent-permissions-of-an-app"></a>Afficher les autorisations de consentement spécifiques aux ressources d’une application
 
-Les autorisations RSC autorisent les propriétaires d’équipe à autoriser une application à accéder aux données d’une équipe et à les modifier. Les autorisations RSC sont précises Teams autorisations spécifiques qui définissent ce qu’une application peut faire dans une équipe spécifique. Des exemples d’autorisations RSC incluent la possibilité de créer et supprimer des canaux, d’obtenir les paramètres d’une équipe, et de créer et supprimer des onglets de canal. 
+Les autorisations RSC autorisent les propriétaires d’équipe à autoriser une application à accéder aux données d’une équipe et à les modifier. Les autorisations RSC sont précises Teams autorisations spécifiques qui définissent ce qu’une application peut faire dans une équipe spécifique. Des exemples d’autorisations RSC incluent la possibilité de créer et supprimer des canaux, d’obtenir les paramètres d’une équipe, et de créer et supprimer des onglets de canal.
 
 Les autorisations RSC sont définies dans le manifeste de l’application et non dans Azure AD. Vous accordez l’autorisation d’accès au site de recherche de détails lorsque vous ajoutez l’application à une équipe. Pour en savoir plus, [consultez le consentement spécifique à la ressource](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 
-Les administrateurs globaux et Teams de service peuvent afficher les autorisations RSC d’une application sous l’onglet **Autorisations** de la page des détails de l’application. 
+Les administrateurs globaux et Teams de service peuvent afficher les autorisations RSC d’une application sous l’onglet **Autorisations** de la page des détails de l’application.
 
 Pour afficher les autorisations RSC d’une application, suivez ces étapes :
 
@@ -88,7 +88,7 @@ Pour afficher les autorisations RSC d’une application, suivez ces étapes :
 
 Pour l’instant, la possibilité de passer en revue les autorisations et d’accorder le consentement n’est pas disponible pour toutes les applications tierces inscrites Azure AD qui demandent des autorisations. Au lieu du lien **Afficher les détails** , vous verrez dans **--** la **colonne Autorisations** . Nous travaillons avec des téléviseurs pour activer cette fonctionnalité pour leurs applications.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer vos applications dans le Centre Microsoft Teams’administration](manage-apps.md)
 - [Autorisations et consentement dans le point de terminaison Plateforme d'identités Microsoft’utilisateur](/azure/active-directory/develop/v2-permissions-and-consent)
