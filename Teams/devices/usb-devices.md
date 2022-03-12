@@ -15,45 +15,45 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et périphériques USB (casques, téléphones haut-parleurs, webcams et moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: d47e4723efae7ba339b54f5aa62064775d882e38
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 1b9b8116ad06d58f6e77e33394ad5dd3db107c88
+ms.sourcegitcommit: 2b858f5e7281705b383522615b6ade6eba347df5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363190"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448797"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft Teams
 
 Le programme de certification des périphériques garantit que les périphériques USB (casques, haut-parleurs, webcams et moniteurs) offrent une qualité audio ou vidéo enrichie. Les périphériques certifiés fonctionnent (plug-& lecture) sans configuration supplémentaire et offrent un contrôle d’appel avec les Microsoft Teams et Skype Entreprise. Les produits offrent une grande expérience aux utilisateurs finaux et aux administrateurs.
 
-Pour découvrir les appareils testés et certifiés pour Microsoft Teams' appareils, rendez-vous sur [Teams Store](https://products.office.com/microsoft-teams/across-devices/devices).
+Pour découvrir les appareils testés et certifiés pour Microsoft Teams, rendez-vous sur [Teams Store](https://products.office.com/microsoft-teams/across-devices/devices).
 
-Pour plus d’informations sur le contrôle d’appel avec Teams, voir les appels de contrôle à l’aide [d’un casque Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8).
+Pour plus d’informations sur le support du contrôle d’appel Teams, voir les appels de contrôle à l’aide [d’un casque Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8).
 
 > [!TIP]
 > Vous recherchez des appareils certifiés pour Skype Entreprise ? Rendez-vous sur [les périphériques audio et vidéo USB certifiés pour Skype Entreprise](/skypeforbusiness/certification/devices-usb-devices).
 
 ## <a name="understanding-certification-categories"></a>Comprendre les catégories de certification
 
-Les utilisateurs n’ont pas besoin de remplacer les périphériques précédemment certifiés lors de la mise à Teams de Skype Entreprise.  Tous les périphériques certifiés sont pris en charge Microsoft Teams et Skype Entreprise utilisateurs, avec quelques différences seulement.  La certification fournit également une désignation supplémentaire pour certaines catégories d’appareils.
+Les utilisateurs n’ont pas besoin de remplacer les appareils précédemment certifiés lors de la mise à Teams à partir Skype Entreprise.  Tous les périphériques certifiés sont pris en charge Microsoft Teams et Skype Entreprise utilisateurs, avec quelques différences seulement.  La certification fournit également une désignation supplémentaire pour certaines catégories d’appareils.
 
 - **Skype Entreprise des périphériques Teams de mise** à niveau certifiés à ce niveau ont été initialement certifiés pour les Skype Entreprise. Microsoft a travaillé avec les fabricants d’appareils pour offrir la meilleure expérience Teams’intégration possible sans aucune modification du matériel d’origine. Le *bouton se* comporte comme un bouton Teams pendant un appel et peut inclure d’autres fonctions au fil du temps.  Les appareils de cette catégorie peuvent porteront le badge Teams certification sur des supports marketing.
-- **La certification des Microsoft Teams** certifiés à ce niveau indique que les périphériques les plus récents sont certifiés, pour une expérience sans compromis Teams expérience. Ces appareils offrent tous les avantages d’une certification antérieure et incluent également un bouton Teams dédié avec indicateur LED. Avec la plupart des facteurs de forme, Teams bouton tactile est facile à trouver avec le logo Teams’écran. Microsoft continue à travailler avec les fabricants d’appareils pour fournir de nouvelles valeurs via les mises à jour du microprogramme au fil du temps.
+- **La certification des Microsoft Teams** certifiés à ce niveau indique que les périphériques les plus récents sont certifiés, pour une expérience sans compromis Teams expérience. Ces appareils offrent tous les avantages d’une certification antérieure et incluent également un bouton Teams dédié avec indicateur LED. Avec la plupart des facteurs de Teams, le bouton tactile est facile à trouver avec le logo Teams’écran. Microsoft continue à travailler avec les fabricants d’appareils pour fournir de nouvelles valeurs via les mises à jour du microprogramme au fil du temps.
 
 ### <a name="special-usage-designations"></a>Désignations d’utilisation spéciales
 
-- **Premium** microphone pour Ouvrir Office Tous les casques sont testés pour fournir un son clair, mais un bureau ouvert et d’autres environnements bruyants constituent un défi plus important. Les casques avec cette désignation captent la voix de l’utilisateur du casque mais ne transmettent pas le son de leurs voisins.
+- Premium microphone pour Ouvrir **l’Office** Tous les casques sont testés pour fournir un son clair, mais un bureau ouvert et les autres environnements bruyants posent un défi plus important. Les casques avec cette désignation captent la voix de l’utilisateur du casque mais ne transmettent pas le son de leurs voisins.
 - **Taille des salles de réunion** Les appareils partagés tels que les téléphones haut-parleurs et les caméras ont une distance d’utilisation prise en charge. Les distances recommandées peuvent être différentes selon le fabricant. Pour fournir aux clients des conseils clairs, tous les appareils partagés sont testés lors de la certification sur des tailles de salles et des environnements de bruit bien définis.
 
-[Parcourez les périphériques certifiés Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
+[Parcourez les périphériques certifiés pour Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
 
 ## <a name="end-user-experience"></a>Expérience de l’utilisateur final
 
 ### <a name="new-teams-certification-benefits"></a>Nouveaux avantages Teams certification
 
 - Bouton Teams dédié et voyant lumineux.
-- Notification utilisateur des événements et alertes du client d Teams réunion (par exemple, démarrage d’une réunion, messagerie vocale ou appel manqué).
-- Possibilité d’activer Teams client ou de répondre à une notification en cliquant sur le bouton (par exemple, pour rejoindre une réunion).
+- Notification utilisateur des événements et alertes du client Teams (par exemple, démarrage d’une réunion, messagerie vocale ou appel manqué).
+- Possibilité d’activer Teams client ou de répondre à une notification en cliquant sur le bouton (par exemple, pour participer à une réunion).
 - Certification conçue pour l’extensibilité (nouvelles fonctionnalités d’appareil/client à fournir via la mise à jour du microprogramme).
 
 ### <a name="core-certification-benefits"></a>Principaux avantages de certification
@@ -74,10 +74,11 @@ Si vous êtes fabricant et que vous souhaitez participer au programme de certifi
 
 ## <a name="certified-devices"></a>Périphériques certifiés
 
-*Tableau mis à jour en février 2022*
+*Table Mise à jour mars 2022*
 
 | Fabricant        | Modèle                                                     | Qualifié      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Dell                 |Speakerphone SP3022                                        |2/7/2022        |Certifié pour les Microsoft Teams                           |
 |Dell                 |Slim Conferencing Soundbar SB522A                          |1/25/2022       |Certifié pour les Microsoft Teams                           | 
 |Lenovo               |Utiliser le casque ANC câblé                                       |1/12/2022       |Certifié pour les Microsoft Teams                           |
 |Lenovo               |Go Wired Speakerphone                                      |1/10/2022       |Certifié pour les Microsoft Teams                           |
@@ -90,7 +91,7 @@ Si vous êtes fabricant et que vous souhaitez participer au programme de certifi
 |Jabra                |Cast 20                                                |11/26/2021      |Certifié pour les Microsoft Teams                           |
 |Poly                 |Voyager Focus 2 et Voyager Office Base                    |10/20/2021      |Certifié pour les Microsoft Teams                           |
 |Poly                 |Voyager 4320 et Voyager Office base                       |10/20/2021      |Certifié pour les Microsoft Teams                           |
-|Poly                 |Voyager 4310 et Voyager Office base                       |10/20/2021      |Certifié pour les Microsoft Teams                           |
+|Poly                 |Voyager 4310 et Voyager Office Base                       |10/20/2021      |Certifié pour les Microsoft Teams                           |
 |Jabra                |Casque Evolve 2 75                                        |10/8/2021       |Certifié pour les Microsoft Teams                           |
 |Logitech             |Zone Wired Earbuds                                         |9/2/2021        |Certifié pour les Microsoft Teams                           |
 |AudioCodes           |RXVCam10                                                   |8/26/2021       |Certifié pour les Microsoft Teams                           |
@@ -105,7 +106,7 @@ Si vous êtes fabricant et que vous souhaitez participer au programme de certifi
 |Poly                 |EncorePro 515-M                                            |4/26/2021       |Certifié pour les Microsoft Teams                           |
 |Dell                 |Casque ANC sans fil WL7022 Premier                        |4/22/2021       |Certifié pour les Microsoft Teams                           |
 |Dell                 |Casque sans fil WL5022 Pro                                |4/22/2021       |Certifié pour les Microsoft Teams                           |
-|Dell                 |Casque câblé WH3022 Pro                                   |4/22/2021       |Certifié pour les Microsoft Teams                           |
+|Dell                 |Casque câblé WH3022 Pro’audio                                   |4/22/2021       |Certifié pour les Microsoft Teams                           |
 |Logitech             |C920e Webcam                                               |4/22/2021       |Certifié pour les Microsoft Teams                           |
 |Poly                 |Studio P5 Webcam                                           |4/22/2021       |Certifié pour les Microsoft Teams                           |
 |Jabra                |Biz 2400 II                                                |4/22/2021       |Skype Entreprise mise à niveau vers Microsoft Teams      |

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour l’audio et la vidéo.
-ms.openlocfilehash: 9513650bf9c177154b45d7bd5dcda85354cf390b
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a9fc08208d35880637e5f044285a19fb97357157
+ms.sourcegitcommit: 2b858f5e7281705b383522615b6ade6eba347df5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766947"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448807"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Paramètres de stratégie de réunion pour l’audio & vidéo
 
@@ -39,6 +39,7 @@ Cet article décrit les paramètres de stratégie de réunion spécifiques à l�
 - [Vitesse de transmission du média (Ko)](#media-bit-rate-kbs)
 - [Mode filtres vidéo](#video-filters-mode)
 - [Autoriser les paramètres d’arrière-plan personnalisés](#allow-custom-background-settings)
+- [Contrôle appareil photo arrière (FECC) pour les caméras ptZ (Zoom d’inclinaison du point)](#far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras)
 
 ### <a name="mode-for-ip-audio"></a>Mode pour l’audio sur IP
 
@@ -73,7 +74,7 @@ Ce paramètre ne s’applique pas non plus aux appareils de salle de conférence
 Ce paramètre n’est pas encore disponible pour les environnements Microsoft 365 Cloud de la communauté du secteur public(GCC), GCC High ou Department of Defense (DoD).
 
 > [!NOTE]
-> Gardez à l’esprit que ce paramètre contrôle la vidéo sortante et entrante, tandis que le paramètre de vidéo **IP** contrôle la vidéo sortante. Pour plus d’informations, consultez [Quelle stratégie de vidéo sur IP est prioritaire ?](#which-ip-video-policy-setting-takes-precedence) et [Gérer l'audio/vidéo pour les participants à la réunion](#manage-audiovideo-for-meeting-participants).
+> Gardez à l’esprit que ce paramètre contrôle la vidéo sortante et entrante, tandis que le paramètre **de vidéo IP** contrôle la vidéo sortante. Pour plus d’informations, consultez [Quelle stratégie de vidéo sur IP est prioritaire ?](#which-ip-video-policy-setting-takes-precedence) et [Gérer l'audio/vidéo pour les participants à la réunion](#manage-audiovideo-for-meeting-participants).
 
 Pour plus d’informations, consultez [Gérer l’audio/vidéo pour les participants à la réunion](#manage-audiovideo-for-meeting-participants).
 
@@ -129,11 +130,11 @@ Pour un utilisateur, le paramètre de stratégie le plus restrictif pour la vid�
 La stratégie la plus restrictive entre la stratégie de l’organisateur de la réunion et la stratégie de l’utilisateur s’applique. Par exemple, si un organisateur a une stratégie qui restreint la vidéo et que la stratégie d’un utilisateur ne limite pas la vidéo, les participants à la réunion héritent de la stratégie de l’organisateur de la réunion et n’ont pas accès à la vidéo dans les réunions. Cela signifie qu’ils peuvent participer à la réunion avec le son uniquement.
 
 > [!NOTE]
-> Lorsqu’un utilisateur commence un appel de groupe pour participer à une jointure par téléphone, l’écran **Utiliser le téléphone pour l’audio** ne s’affiche pas. Nous travaillons à la résolution de ce problème connu. Pour contourner ce problème, sélectionnez **Audio du téléphone** sous **Autres options de jointure**.  
+> Lorsqu’un utilisateur commence un appel de groupe pour participer à une jointure par téléphone, l’écran **Utiliser le téléphone pour l’audio** ne s’affiche pas. Nous travaillons à la résolution de ce problème connu. Pour contourner ce problème, sélectionnez **Audio du téléphone** sous **Autres options de jointure**.
 
 #### <a name="teams-mobile-clients"></a>Clients mobiles Teams
 
-Pour les utilisateurs Teams clients mobiles, la possibilité de partager des photos et des vidéos pendant une réunion est également déterminée par le paramètre du mode **ip** vidéo ou **IP** vidéo. Selon le paramètre de stratégie prioritaire, la possibilité de partager des vidéos et des photos ne sera pas disponible. Cela n’affecte pas le partage d’écran, que vous configurez à l’aide d’un paramètre [Mode de partage d’écran](meeting-policies-content-sharing.md#screen-sharing-mode) séparé. De plus, vous pouvez définir une [Stratégie de mobilité Teams](/powershell/module/skype/new-csteamsmobilitypolicy) pour empêcher les utilisateurs mobiles d’utiliser une vidéo sur IP via une connexion cellulaire, ce qui signifie qu’ils doivent utiliser une connexion WiFi.
+Pour les utilisateurs Teams clients mobiles, la possibilité de partager des photos et des vidéos pendant une réunion est également déterminée par le paramètre du mode **IP** vidéo ou **IP** vidéo. Selon le paramètre de stratégie prioritaire, la possibilité de partager des vidéos et des photos ne sera pas disponible. Cela n’affecte pas le partage d’écran, que vous configurez à l’aide d’un paramètre [Mode de partage d’écran](meeting-policies-content-sharing.md#screen-sharing-mode) séparé. De plus, vous pouvez définir une [Stratégie de mobilité Teams](/powershell/module/skype/new-csteamsmobilitypolicy) pour empêcher les utilisateurs mobiles d’utiliser une vidéo sur IP via une connexion cellulaire, ce qui signifie qu’ils doivent utiliser une connexion WiFi.
 
 ### <a name="media-bit-rate-kbs"></a>Vitesse de transmission du média (Ko)
 
@@ -151,9 +152,9 @@ Il s’agit d’un paramètre par participant. Ce paramètre contrôle si les ut
 
 Vous pouvez utiliser le Centre Teams’administration et PowerShell pour définir cette stratégie. Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy), puis attribuer la stratégie aux utilisateurs.
 
-Pour spécifier si les utilisateurs peuvent personnaliser leur arrière-plan vidéo dans une réunion, définissez le paramètre **VideoFiltersMode** (sélectionnez le paramètre de filtres vidéo dans le Centre d’administration Teams) comme suit :
+Pour spécifier si les utilisateurs peuvent personnaliser leur arrière-plan vidéo dans une réunion, définissez le paramètre **VideoFiltersMode** **(** sélectionnez le paramètre de filtres vidéo dans le Centre d’administration Teams) comme suit :
 
-|Définition de la valeur dans PowerShell|Définition d’une valeur dans Teams d’administration |Comportement  |
+|Définition de la valeur dans PowerShell|Définition d’une valeur dans Teams centre d’administration |Comportement  |
 |---------|---------|---------|
 |**NoFilters** |**Aucun filtre**    |L'utilisateur ne peut pas personnaliser l'arrière-plan vidéo.|
 |**BlurOnly**     |**Flou d’arrière-plan uniquement**|L'utilisateur a la possibilité de flouter l'arrière-plan de la vidéo. |
@@ -165,19 +166,19 @@ Pour spécifier si les utilisateurs peuvent personnaliser leur arrière-plan vid
 
 ### <a name="allow-custom-background-settings"></a>Autoriser les paramètres d’arrière-plan personnalisés
 
-Vous pouvez ajouter des images d’arrière-plan personnalisées à utiliser par client. Cette fonctionnalité permet aux entreprises d’appliquer une branding d’entreprise Teams réunions.
+Vous pouvez ajouter des images d’arrière-plan personnalisées à utiliser par client. Cette fonctionnalité permet aux entreprises d’appliquer une  branding d’entreprise Teams réunions.
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Sélectionnez **Stratégies de**  >  **réunion Personnaliser** les images de  >  **réunion.**
+2. **Sélectionnez MeetingsMeeting** >  **PoliciesCustomize** >  meeting images.
 
    ![Sélection des stratégies de réunion avec le bouton Personnaliser les images de réunion mis en évidence.](media/custom-background-image-button.png)
 
-3. Sélectionnez **Le dans** les **images d’arrière-plan large de l’organisation.**
+3. Sélectionnez **Le dans** les **images d’arrière-plan de l’organisation**.
 
-4. Sélectionnez **+ Ajouter des images.**
+4. **Sélectionnez + Ajouter des images**.
 
-5. Dans le panneau Gérer les arrière-plans, **sélectionnez Ajouter une image.**
+5. Dans le panneau Gérer les arrière-plans, **sélectionnez Ajouter une image**.
 
 6. Assurez-vous que les images répondent aux exigences :
   
@@ -186,7 +187,7 @@ Vous pouvez ajouter des images d’arrière-plan personnalisées à utiliser par
    - Type de fichier PNG, JPG ou BMP
    - Vous pouvez charger au maximum 50 images
 
-7. Affichez un aperçu des images que vous avez sélectionnées, puis sélectionnez **Fermer.**
+7. Affichez un aperçu des images que vous avez sélectionnées, puis sélectionnez **Fermer**.
 
 8. Examinez les images et ajoutez-en d’autres selon vos besoins.
 
@@ -199,6 +200,27 @@ Les participants à la réunion voient une sélection d’images d’arrière-pl
 
 > [!NOTE]
 > Cette fonctionnalité est temporairement disponible en prévisualisation publique pour tous Microsoft Teams clients. Pour obtenir cette fonctionnalité après la prévisualisation, chaque utilisateur aura besoin de la licence du module ajouter Communications avancées. Pour plus d’informations, consultez [Module complémentaire Communications avancées pour Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
+
+### <a name="far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras"></a>Contrôle appareil photo arrière (FECC) pour les caméras ptZ (Zoom d’inclinaison du point)
+
+Le contrôle appareil photo de l’extrémité est une stratégie qui peut être affectée à salles Teams sur Windows des ressources. Il permet aux caméras PTZ connectées à une salle Teams de être contrôlées par les participants de la réunion dans l’application cliente Teams pendant les réunions.
+
+Pour utiliser le contrôle de caméra jusqu’à l’extrémité droite, les participants de la réunion doivent obtenir **l’application Contrôles de caméra PTZ** .  Voir [Autoriser et bloquer des applications](manage-apps.md#allow-and-block-apps) pour savoir comment rendre l’application disponible dans le magasin d’applications de votre organisation.
+
+Pour spécifier qui peut utiliser le contrôle de caméra extrême dans une réunion, créez et affectez une stratégie à un compte de ressource salles Teams à l’aide de l’cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps), ou utilisez [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) pour modifier une stratégie existante. Définissez le `TeamsCameraFarEndPTZMode` paramètre sur l’une des valeurs suivantes :
+
+| Valeur du paramètre | Comportement |
+|---------------|----------|
+|Désactivé | Il s’agit du paramètre par défaut. Lorsqu’il est « désactivé » , personne ne peut utiliser les contrôles de la caméra PTZ. |
+|AutoAcceptAll | Les contrôles de la caméra PTZ sont automatiquement disponibles pour tous les participants à la réunion. |
+|AutoAcceptInTenant | Les contrôles de caméra PTZ sont automatiquement disponibles pour les seuls participants de la même organisation que la Teams de réunion. |
+
+Lorsqu’elle `TeamsCameraFarEndPTZMode` est définie `AutoAcceptAll` sur ou`AutoAcceptInTenant`, le contrôle de la caméra peut toujours être désactivé manuellement de la Teams à tout moment pendant une réunion. Le contrôle caméra n’est pas non plus disponible lorsque la caméra est désactivée.
+
+N’importe quel appareil photo avec ptZ mécanique et CONTRÔLES.VXT est pris en charge. Pour obtenir la liste des caméras certifiées pour Teams, y compris les caméras PTZ et non PTZ, consultez les versions de microprogramme [certifiées pour les périphériques audio](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals) et vidéo USB. Cette fonctionnalité n’est pas encore prise en charge sur les caméras qui disposent de contrôles PTZ numériques ou salles Teams sur Android.  
+
+> [!NOTE]
+> Mettez à jour votre microprogramme appareil photo avant de tester les contrôles PTZ. Consultez la documentation du fabricant d’ordinateurs (OEM) pour mettre à jour le microprogramme.
 
 ## <a name="related-topics"></a>Sujets associés
 

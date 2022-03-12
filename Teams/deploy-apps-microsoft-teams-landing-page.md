@@ -18,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05d683bbefa9b3cc564e4f97e52f0fad441f2763
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 3a9566ceb6d99bb7d665efea975ecee048607dc9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070393"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442500"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Applications, robots et connecteurs dans Microsoft Teams
 
-Les applications vous permettent de rechercher du contenu à partir de vos services favoris et de les partager dans Teams. Elles vous aident à effectuer des actions telles qu’épingler des services en haut d’un canal, de mener une conversation avec des robots, ou de partager et attribuer des tâches. Pour en savoir plus, voir [Vue d’ensemble sur les applications dans Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0). 
+Les applications vous permettent de rechercher du contenu à partir de vos services favoris et de les partager dans Teams. Elles vous aident à effectuer des actions telles qu’épingler des services en haut d’un canal, de mener une conversation avec des robots, ou de partager et attribuer des tâches. Pour en savoir plus, voir [Vue d’ensemble sur les applications dans Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
 Vous pouvez ajouter des applications à votre déploiement Teams à l’aide des applications fournies avec Microsoft Teams, en utilisant des applications et modèles tiers certifiés, et en créant vos propres applications personnalisées.
 
@@ -47,7 +47,6 @@ Vous pouvez utiliser les [Modèles d’application](/microsoftteams/platform/sam
 
 Vous pouvez créer rapidement des solutions personnalisées à faible code à l’aide de l’intégration de Teams avec [Microsoft Power Platform](teams-power-platfom-integration.md). Vous pouvez également créer votre propre application personnalisée en fonction des besoins de votre entreprise. Si vous souhaitez en savoir plus, consultez l’article [Créer des applications Microsoft Teams](/microsoftteams/platform/overview).  
 
-
 ## <a name="apps-deployment-decisions"></a>Décisions liées au déploiement des applications
 
 Teams offre une expérience de collaboration prête à l’utilisation pour votre organisation, et la plupart des organisations trouvent que les paramètres par défaut leur conviennent. Cet article vous permet de décider si vous voulez modifier les paramètres par défaut en fonction du profil de votre organisation et vos exigences professionnelles, puis il vous guide pour chaque modification. Nous avons fractionné les paramètres en deux groupes, en commençant par l’ensemble des [modifications principales que vous êtes le plus susceptible d’apporter](#core-deployment-decisions). Le deuxième groupe inclut les [paramètres supplémentaires](#additional-deployment-decisions) vous pouvez configurer en fonction des besoins de votre organisation.
@@ -56,11 +55,12 @@ Teams offre une expérience de collaboration prête à l’utilisation pour votr
 
 Voici les paramètres d’applications que la plupart des organisations veulent modifier (si les paramètres par défaut de Teams ne fonctionnent pas pour l’organisation).
 
-### <a name="app-availability-settings"></a>Paramètres de disponibilité des applications 
+### <a name="app-availability-settings"></a>Paramètres de disponibilité des applications
 
-Teams fournit plusieurs applications fournies par Microsoft et d'applications tierces pour engager les utilisateurs, soutenir la productivité et intégrer les services d’entreprise couramment utilisés dans Teams. Obtenez les applications à partir du Store Teams. Par défaut, toutes les applications, y compris les applications personnalisées envoyées via le [processus d’approbation du Store Teams](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), sont activées pour tous les utilisateurs. Par exemple, les utilisateurs peuvent utiliser l’application Planificateur pour créer et gérer les tâches d’équipe dans Teams.
+Teams fournit plusieurs applications fournies par Microsoft et d'applications tierces pour engager les utilisateurs, soutenir la productivité et intégrer les services d’entreprise couramment utilisés dans Teams.
+Obtenez les applications à partir du Store Teams. Par défaut, toutes les applications, y compris les applications personnalisées envoyées via le [processus d’approbation du Store Teams](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), sont activées pour tous les utilisateurs. Par exemple, les utilisateurs peuvent utiliser l’application Planificateur pour créer et gérer les tâches d’équipe dans Teams.
 
-Par défaut, toutes les applications tierces fournies par Microsoft et les applications personnalisées sont disponibles et vous pouvez activer ou désactiver les applications individuelles. Il existe des paramètres globaux au niveau de l’organisation qui vous permettent d’activer ou désactiver toutes les applications tierces et/ou personnalisées pour toute votre organisation.
+Par défaut, toutes les applications tierces fournies par Microsoft et les applications personnalisées sont disponibles et vous pouvez activer ou désactiver les applications individuelles. Il existe des paramètres au niveau de l’organisation qui vous permettent d’activer ou désactiver toutes les applications tierces et/ou personnalisées pour toute votre organisation.
 
 | Posez-vous la question | Action |
 |--------------|--------|
@@ -68,6 +68,8 @@ Par défaut, toutes les applications tierces fournies par Microsoft et les appli
 |||
 
 ### <a name="app-permissions-and-other-considerations"></a>Autorisations d’applications et autres points à prendre en compte
+
+Les utilisateurs approuvent les applications. Elles sont gérées par l’administrateur ou le spécialiste des TI par l’intermédiaire de stratégies. Toutefois, la plupart du temps, les autorisations et le profil de risque d’une application sont définis dans l’application elle-même.
 
 Les utilisateurs approuvent les applications. Elles sont gérées par l’administrateur ou le spécialiste des TI par l’intermédiaire de stratégies. Toutefois, les autorisations d’application et le profil de risque sont définis dans l’application elle-même.
 
@@ -118,7 +120,9 @@ Vous pouvez utiliser les rapports d’activité pour voir comment les utilisateu
 
 ### <a name="app-templates"></a>Modèles d’application
 
-Les modèles d’application sont des applications Microsoft Teams prêtes pour la production qui sont impulsées par la communauté, open source et disponibles sur GitHub. Chacune contient des instructions détaillées de déploiement et d’installation pour votre organisation, offrant ainsi une application prête à l’emploi installable et utilisable immédiatement. Le code source complet est également disponible, de sorte que vous pouvez l’explorer en détail ou répliquer le code et le modifier en fonction de vos besoins spécifiques.
+Les modèles d’application sont des applications Microsoft Teams prêtes pour la production qui sont impulsées par la communauté, open source et disponibles sur GitHub. Chacune contient des instructions détaillées de déploiement et d’installation pour votre organisation, offrant ainsi une application prête à l’emploi installable et utilisable immédiatement.
+
+Le code source complet est également disponible, de sorte que vous pouvez l’explorer en détail ou répliquer le code et le modifier en fonction de vos besoins spécifiques.
 
 | Posez-vous la question | Action |
 |--------------|--------|
