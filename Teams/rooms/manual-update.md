@@ -1,7 +1,7 @@
 ---
 title: Mettre à jour manuellement un Salles Microsoft Teams appareil
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 appliesto:
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Découvrez comment mettre à jour manuellement Salles Microsoft Teams appareil vers une version spécifique.
-ms.openlocfilehash: 0b8ec08880d3f8c7ecce28293c92fb6ada901277
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 647a961e238d452fd3bfe162ffe8552e64329677
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62014994"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503721"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>Mettre à jour manuellement un Salles Microsoft Teams appareil
 
@@ -33,34 +33,34 @@ Si vous ne pouvez pas obtenir de mises à jour du Microsoft Store, vous pouvez u
 
 ## <a name="step-1-download-the-offline-app-update-script"></a>Étape 1 : télécharger le script de mise à jour de l’application hors connexion
 
-Tout d’abord, téléchargez la dernière version du script de mise à jour des applications hors connexion. Pour télécharger le script, cliquez <https://go.microsoft.com/fwlink/?linkid=2151817> sur . Le script est téléchargé dans le dossier téléchargements par défaut sur votre appareil.
+Tout d’abord, téléchargez la dernière version du script de mise à jour des applications hors connexion. Pour télécharger le script, cliquez sur <https://go.microsoft.com/fwlink/?linkid=2151817>. Le script est téléchargé dans le dossier téléchargements par défaut sur votre appareil.
 
 Les fichiers téléchargés peuvent être marqués comme bloqués par Windows. Si vous avez besoin d’exécuter le script sans interaction, vous devez débloquer le script. Pour débloquer le script, vous pouvez :
 
 1. Cliquez avec le bouton droit sur le fichier dans l’Explorateur de fichiers
 2. Cliquez sur **Propriétés**
-3. Sélectionnez **Débloquer**
+3. **Sélectionnez Débloquer**
 4. Cliquez **sur OK**
 
-Pour débloquer le script à l’aide de PowerShell, voir [Débloquer le fichier.](/powershell/module/microsoft.powershell.utility/unblock-file?view=powershell-7.1)
+Pour débloquer le script à l’aide de PowerShell, voir [Débloquer le fichier](/powershell/module/microsoft.powershell.utility/unblock-file?view=powershell-7.1).
 
-Une fois le script de mise à jour de l’application hors connexion téléchargé, transférez le fichier vers l salles Teams appareil mobile. Vous pouvez transférer un fichier sur l’appareil à l’aide d’un lecteur USB ou en accédant au fichier à partir d’un partage de fichiers réseau lorsque vous utilisez le mode d’administration sur l’appareil. N’oubliez pas d’enregistrer le fichier sur l’appareil.
+Une fois le script de mise à jour de l’application hors connexion téléchargé, transférez le fichier vers salles Teams appareil. Vous pouvez transférer un fichier sur l’appareil à l’aide d’un lecteur USB ou en accédant au fichier à partir d’un partage de fichiers réseau lorsque vous utilisez le mode d’administration sur l’appareil. N’oubliez pas d’enregistrer le fichier sur l’appareil.
 
-## <a name="step-2-run-the-script-to-update-the-teams-rooms-app"></a>Étape 2 : exécuter le script pour mettre à jour l salles Teams appappe
+## <a name="step-2-run-the-script-to-update-the-teams-rooms-app"></a>Étape 2 : exécuter le script pour mettre à jour l salles Teams appappl
 
-Le script de mise à jour de l’application hors connexion doit être exécuté à partir d’une invite de commandes avec élévation de élévation de Skype (l’utilisateur sous lequel l’application s’exécute) est toujours connecté. Pour plus d’informations sur la connexion à un compte d’administrateur afin d’utiliser l’invite de commandes avec élévation de privilèges lorsque l’utilisateur de Skype est toujours connecté, voir Passer en mode d’administration et revenir en arrière en cas de panne de l’application [Salles Microsoft Teams.](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes)
+Le script de mise à jour de l’application hors connexion doit être exécuté à partir d’une invite de commandes avec élévation de élévation de Skype (l’utilisateur sous lequel l’application s’exécute) est toujours connecté. Pour plus d’informations sur la connexion à un compte d’administrateur afin d’utiliser l’invite de commandes avec élévation de privilèges lorsque l’utilisateur de Skype est toujours connecté, voir Passer en mode d’administration, puis revenir en arrière en cas de panne de l’application [Salles Microsoft Teams](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes).
 
 Pour exécuter le script à partir d’une invite de commandes avec élévation de élévation de niveaux, exécutez l’une des commandes suivantes :
 
 1. Basculer en mode d’administration
-2. Cliquez sur l’icône Démarrer, tapez **Invite de** commandes, puis **sélectionnez Exécuter en tant qu’administrateur.**
-3. Exécutez la commande suivante qui `<path to script>` inclut le chemin d’accès complet au script et le nom du fichier de script :
+2. Cliquez sur l’icône Démarrer, tapez **Invite de** commandes, puis **sélectionnez Exécuter en tant qu’administrateur**
+3. Exécutez la commande suivante qui inclut `<path to script>` le chemin d’accès complet au script et le nom du fichier de script :
 
     ```console
     PowerShell -ExecutionPolicy Unrestricted "<path to script>"
     ```
 
-Par exemple, si le fichier de script se trouve dans et que le nom du fichier de script est `C:\Users\Admin\Downloads` `MTR-Update-4.5.6.7.ps1` le suivant, exécutez la commande suivante :
+Par exemple, si le fichier de script `C:\Users\Admin\Downloads`se trouve dans et que le nom du fichier de script `MTR-Update-4.5.6.7.ps1`est le suivant, exécutez la commande suivante :
 
 ```console
 PowerShell -ExecutionPolicy Unrestricted "C:\Users\Admin\Downloads\MTR-Update-4.5.6.7.ps1"
@@ -68,7 +68,7 @@ PowerShell -ExecutionPolicy Unrestricted "C:\Users\Admin\Downloads\MTR-Update-4.
 
 Autorisez l’exécuter. Une fois terminé, le script redémarrera le salles Teams appareil.
 
-Vous pouvez également exécuter le script à l’aide de Remote PowerShell. Pour plus d’informations sur l’utilisation de Remote PowerShell avec des salles Teams, voir Gestion à distance [à l’aide de PowerShell.](rooms-operations.md#remote-management-using-powershell)
+Vous pouvez également exécuter le script à l’aide de Remote PowerShell. Pour plus d’informations sur l’utilisation de Remote PowerShell avec des salles Teams, voir [Gestion à distance à l’aide de PowerShell](rooms-operations.md#remote-management-using-powershell).
 
 ## <a name="step-3-verify-the-app-has-been-updated-successfully"></a>Étape 3 : vérifier que l’application a bien été mise à jour
 

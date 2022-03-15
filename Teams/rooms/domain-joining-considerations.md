@@ -1,7 +1,7 @@
 ---
 title: Remarques relatives à la jonction du domaine Skype Room System
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: L’administrateur peut découvrir comment joindre un PC d’appliance Skype Room System à un domaine Active Directory, ainsi que les éléments à prendre en considération.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7956160f57971e48f1f979a7c0a905d760b767bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c64f6df46a8fec7364c63227e3c0a620758038f1
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579598"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503971"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -30,11 +30,11 @@ Consultez cette rubrique pour découvrir comment joindre un appareil PC Skype R
   
 ## <a name="domain-joining-considerations"></a>Remarques relatives à la jonction du domaine
 
-Vous pouvez joindre Skype PC de l’appliance Room System au domaine Active Directory ou le laisser dans un groupe de travail. Tenez compte des points suivants avant cette décision :
+Vous pouvez joindre l’Skype l’appliance PC Room System au domaine Active Directory ou le laisser dans un groupe de travail. Tenez compte des points suivants avant cette décision :
   
-- Le fait de rejoindre un domaine Skype’appliance PC room system permet d’importer automatiquement la chaîne de certificats racine privé de votre organisation.
+- Le fait de rejoindre un domaine Skype’appliance PC Room System permet d’importer automatiquement la chaîne de certificats racine privé de votre organisation.
 - Le fait de rejoindre un domaine sur Skype’appliance PC room system vous permet d’accorder aux utilisateurs de domaine et aux groupes des droits d’administration. En procédant ainsi, vous n’aurez pas à retenir le mot de passe du compte administrateur au niveau de l’ordinateur local.
-- Lorsque vous joignez un PC d’appliance Skype Room System au domaine, vous devez créer une unité d’organisation distincte afin de pouvoir fournir des exclusions d’objets de stratégie de groupe à l’unité d’organisation où se trouvent tous les objets machine Skype Room System. Lorsque vous faites cela, créez des objets machine dans l’ou avant de joindre le PC d’Skype Room System au domaine.
+- Lorsque vous joignez un PC d’appliance Skype Room System au domaine, vous devez créer une unité d’organisation distincte afin de pouvoir fournir des exclusions d’objets de stratégie de groupe à l’unité d’organisation où se trouvent tous les objets machine Skype Room System. Lorsque vous faites cela, créez des objets de machine dans l’ou avant de joindre l’Skype de l’appliance Room System au domaine.
 - De nombreuses organisations ont les fonctions de groupe suivantes, qui affectent Skype’appliance PC Room System. Assurez-vous de remplacer ou de bloquer l’héritage de ces éléments de groupe dans Skype Room System OU :
 
   - Délai d’ouverture de sessions (verrouillage automatique)
@@ -46,9 +46,9 @@ Vous pouvez joindre Skype PC de l’appliance Room System au domaine Active Dire
   - Créer un autre compte d’utilisateur de domaine sur tous les ordinateurs liés au domaine.
   - Push Windows Update to Skype Room System
     
-- En guise d’alternative, vous pouvez décider de laisser l’appareil PC dans le groupe de travail. À l’Microsoft Teams ou au client Skype Entreprise bureau, cela nécessite que vous importiez manuellement la chaîne de certificats racine sur l’appliance PC Skype Room System. Vous n’êtes pas obligé d’importer la chaîne de certificats racine si votre déploiement utilise un certificat public (par exemple, Confie, VeriSign, et ainsi de suite). 
+- En guise d’alternative, vous pouvez décider de laisser l’appareil PC dans le groupe de travail. À l’Microsoft Teams ou au client Skype Entreprise bureau, vous devez importer manuellement la chaîne de certificats racine sur l’appliance SKYPE Room System. Vous n’êtes pas obligé d’importer la chaîne de certificats racine si votre déploiement utilise un certificat public (par exemple, Confie, VeriSign, et ainsi de suite). 
     
-Si vous envisagez de joindre des ordinateurs Skype Room System au domaine, pour éviter de rejoindre l’ordinateur Skype Room System par inadvertance à une ou plusieurs équipes qui ne sont peut-être pas libres d’utiliser les noms de groupe, assurez-vous de rejoindre l’ou ou les équipes correctes. Vous pouvez utiliser l’cmdlet suivante à partir de l’ordinateur Skype Room System pour participer dans l’ou correcte et ne recevez pas d’os de stratégie de groupe qui peuvent bloquer la fonctionnalité LRS. Contactez votre administrateur système ou votre partenaire OEM pour exécuter ces cmdlets :
+Si vous envisagez de joindre des ordinateurs Skype Room System au domaine, pour éviter de rejoindre l’ordinateur Skype Room System par inadvertance à une ou plusieurs équipes qui ne sont peut-être pas libres d’utiliser les noms de groupe, assurez-vous de participer à l’ou ou correcte. Vous pouvez utiliser l’cmdlet suivante à partir de l’ordinateur Skype Room System pour participer dans l’ou correcte et ne recevez pas d’os de stratégie de groupe qui peuvent bloquer la fonctionnalité LRS. Contactez votre administrateur système ou votre partenaire OEM pour exécuter ces cmdlets :
   
 ```powershell
 $username = "contso.local\LRS01"
@@ -61,7 +61,7 @@ Même si vous créez une ou plusieurs stratégies distinctes et bloquez l’hér
   
 Vous avez peut-être plusieurs approches pour résoudre ces problèmes. Nous vous conseillons de consulter vos experts Active Directory pour vous assurer que vous disposez d’une équipe d’experts qui dispose des paramètres d’environnement de groupe appropriés, ou au moins d’une équipe dans laquelle les stratégies décrites précédemment n’existent pas. Il est déconseillé d’activer la qualité de service (QoS) pour les Skype Room System.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
   
 [Configuration du périphérique : création d’un périphérique ou modification d’un périphérique existant](/skypeforbusiness/help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

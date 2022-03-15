@@ -1,7 +1,7 @@
 ---
 title: Déployer des Salles Microsoft Teams en Skype Entreprise Server
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -13,20 +13,20 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: Lisez cette rubrique pour plus d’informations sur la manière de déployer Salles Microsoft Teams’Skype Entreprise Server.
+description: Lisez cette rubrique pour plus d’informations sur la façon de déployer Salles Microsoft Teams’Skype Entreprise Server.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 702eb2128dd37980fd3fc76548638102d45d7af9
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+ms.openlocfilehash: 358fa9295ec150f9c57a18252c76d309078b8e29
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355619"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503481"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Déployer des Salles Microsoft Teams en Skype Entreprise Server
   
-Cette rubrique explique comment ajouter un compte de ressource pour les Salles Microsoft Teams dans le cas d’un déploiement sur une seule forêt sur site.
+Cette rubrique explique comment ajouter un compte de ressources pour Salles Microsoft Teams un déploiement sur site à une seule forêt.
   
-Si vous avez un déploiement sur site dans une seule forêt avec Exchange 2013 SP1 ou une date ultérieure et Skype Entreprise Server 2015 ou ultérieure, vous pouvez utiliser les scripts Windows PowerShell fournis pour créer des comptes d’appareil. Si vous utilisez un déploiement en forêts multiples, vous pouvez utiliser des cmdlets équivalentes qui produit les mêmes résultats. Ces applets de commande sont décrites dans cette section.
+Si vous avez un déploiement sur site dans une seule forêt avec Exchange 2013 SP1 ou une date ultérieure et Skype Entreprise Server 2015 ou ultérieure, vous pouvez utiliser les scripts de Windows PowerShell fournis pour créer des comptes d’appareil. Si vous utilisez un déploiement en forêts multiples, vous pouvez utiliser des cmdlets équivalentes qui produit les mêmes résultats. Ces applets de commande sont décrites dans cette section.
   
 Avant de commencer à déployer Salles Microsoft Teams, assurez-vous que vous êtes autorisé à exécuter les cmdlets associées.
   
@@ -74,22 +74,22 @@ Avant de commencer à déployer Salles Microsoft Teams, assurez-vous que vous ê
    Set-AdUser ConferenceRoom01@contoso.com -PasswordNeverExpires $true
    ```
 
-5. Activez le compte de ressource dans Active Directory afin qu’il s’authentifiera pour Salles Microsoft Teams.
+5. Activez le compte de ressource dans Active Directory afin qu’il s’authentifiera Salles Microsoft Teams.
 
    ``` Powershell
    Set-AdUser ConferenceRoom01@contoso.com -Enabled $true
    ```
 
-6. Activez le compte de ressource avec d Skype Entreprise Server active Salles Microsoft Teams z votre compte Active Directory Skype Entreprise Server pool de ressources :
+6. Activez le compte de ressource avec Skype Entreprise Server activez votre compte Active Directory Salles Microsoft Teams un pool de ressources Skype Entreprise Server groupe de ressources :
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity ConferenceRoom01 -SipAddress sip:ConferenceRoom01@contoso.com -DomainController DC-ND-001.contoso.com
    -RegistrarPool LYNCPool15.contoso.com 
    ```
 
-    Modifiez les `-DomainController` `-RegistrarPool` attributs en valeurs appropriées pour votre environnement.
+    Modifiez les `-DomainController` attributs `-RegistrarPool` en valeurs appropriées pour votre environnement.
 
-7. **Facultatif**. Vous pouvez également autoriser les Salles Microsoft Teams à passer et recevoir des appels téléphoniques de réseau téléphonique commuté (PSTN) en activant les Voix Entreprise pour votre compte. Voix Entreprise n’est pas obligatoire pour Salles Microsoft Teams, mais si vous souhaitez utiliser des fonctionnalités de numérotation RST pour Salles Microsoft Teams, voici comment l’activer :
+7. **Facultatif**. Vous pouvez également autoriser les Salles Microsoft Teams à passer et recevoir des appels téléphoniques de réseau téléphonique commuté (PSTN) en activant les Voix Entreprise pour votre compte. Voix Entreprise n’est pas obligatoire pour Salles Microsoft Teams, mais si vous souhaitez utiliser des fonctionnalités de numérotation PSTN pour Salles Microsoft Teams, voici comment l’activer :
 
    ``` Powershell
    Set-CsMeetingRoom -Identity ConferenceRoom01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -114,7 +114,7 @@ Grant-CsVoicePolicy -Identity ConferenceRoom01 -PolicyName dk
 Grant-CsDialPlan -Identity ConferenceRoom01 -PolicyName e15dp2.contoso.com
 ```
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Configurer des comptes pour Salles Microsoft Teams](rooms-configure-accounts.md)
 

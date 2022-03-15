@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les canaux privés dans Microsoft Teams.
-ms.openlocfilehash: 2127ada4a289a04176a2ae743299c3176df4a661
-ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
+ms.openlocfilehash: 097c7e4c43c6127b59423cab94b97ac949a2df57
+ms.sourcegitcommit: b635f3765498ae23f535a33fa9ffea5068eecb14
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62963395"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "63463747"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canaux privés dans Microsoft Teams
 
@@ -76,7 +76,7 @@ Le tableau suivant décrit les actions que les propriétaires, les membres et le
 |---------|---------|---------|---------|---------|---------|---------|
 |Créer un canal privé|Contrôlée par l’administrateur|Contrôlée par l’administrateur et le propriétaire de l’équipe|Non|N/A|N/A|S/O|
 |Supprimer un canal privé|Oui|Non|Non|Oui|Non|Non|
-|Quitter un canal privé|S/O|S/O|S/O|Oui, à moins qu’il ne soit le dernier propriétaire|Oui|Oui|
+|Quitter un canal privé|S/O|N/A|S/O|Oui, à moins qu’il ne soit le dernier propriétaire|Oui|Oui|
 |Modifier un canal privé|Non|N/A|N/A|Oui|Non|Non|
 |Restaurer un canal privé supprimé|Oui|Non|Non|Oui|Non|Non|
 |Ajouter des membres|Non|N/A|N/A|Oui|Non|Non|
@@ -85,14 +85,14 @@ Le tableau suivant décrit les actions que les propriétaires, les membres et le
 
 ## <a name="private-channel-sharepoint-sites"></a>Canal privé des sites SharePoint
 
-Chaque canal privé possède ses propres sites SharePoint. Le site séparé vise à garantir que l’accès aux fichiers de canaux privés est limité aux seuls membres du canal privé. Ces sites sont créées avec une bibliothèque de documents par défaut, et peuvent être facilement améliorés et transformés en site complet via l’[interface de gestion de site](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Chaque site est créé dans la même zone géographique que le site de l’équipe parente. Ces sites légers ont un ID de modèle personnalisé, « TEAMCHANNEL#0 », pour simplifier la gestion via PowerShell et l’API Graph. 
+Chaque canal privé possède ses propres sites SharePoint. Le site séparé vise à garantir que l’accès aux fichiers de canaux privés est limité aux seuls membres du canal privé. Ces sites sont créées avec une bibliothèque de documents par défaut, et peuvent être facilement améliorés et transformés en site complet via l’[interface de gestion de site](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Chaque site est créé dans la même zone géographique que le site de l’équipe parente. Ces sites légers ont un ID de modèle personnalisé, « TEAMCHANNEL#0 », ou « TEAMCHANNEL#1 » pour simplifier la gestion via PowerShell et l’API Graph. 
 
 > [!NOTE]
 > Seules les personnes disposant d’autorisations de propriétaire ou de membre dans le canal auront accès au contenu du site de canal partagé. Les membres de l’équipe parente et les administrateurs n’auront pas accès, sauf s’ils sont également membres du canal.
 
 Un site de canaux privés synchronise la classification des données et hérite des autorisations d’accès invité du site de l’équipe parente. L’adhésion au propriétaire du site et aux groupes de membres, est synchronisée avec l’adhésion au canal privé au sein de Teams. Les autorisations de site pour un site de canal privé ne peuvent pas être gérées indépendamment via SharePoint. 
 
-Teams gère le cycle de vie du site SharePoint du canal privé. Si le site est supprimé en dehors de Teams, un travail d’arrière-plan restaure le site dans les quatre heures tant que le canal privé est toujours actif.
+Teams gère le cycle de vie du site de canal privé. Si le site est supprimé en dehors de Teams, un travail d’arrière-plan restaure le site dans les quatre heures tant que le canal privé est toujours actif.
 
 Si une équipe ou un canal privé contenant un canal privé est restauré, les sites sont également restaurés. Si un site de canal privé est restauré et dépasse le délai de suppression réversible de 30 jours, le site fonctionne alors comme un site autonome.
 

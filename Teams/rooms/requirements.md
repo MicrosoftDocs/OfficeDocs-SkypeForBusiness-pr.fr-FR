@@ -1,7 +1,7 @@
 ---
 title: Spécifications des salles Microsoft Teams
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,29 +15,29 @@ ms.collection:
 - M365-collaboration
 description: Découvrez les conditions requises pour la prise en charge Salles Microsoft Teams, notamment le choix du périphérique approprié, des microphones, des haut-parleurs, des caméras et des écrans.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 83430fd401a601ede397de188d956a61c93ac206
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: d479ff31b95acf349bf7e34aaf29bbe64c10309b
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929229"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503731"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Spécifications des salles Microsoft Teams
 
-Salles Microsoft Teams plusieurs tailles de pièce. salles Teams utiliser un large éventail de périphériques audio et vidéo certifiés en fonction de la taille et de l’utilisation de la salle. En sélectionnant le périphérique et la console principaux appropriés, combinés avec des microphones, des haut-parleurs, des caméras et des écrans appropriés à l’espace, vous pouvez déployer Salles Microsoft Teams dans des espaces de n’importe quelle taille, des petits espaces de conférence jusqu’aux grands espaces de conférence et aux salles de conférence.  L’ensemble des périphériques audio et vidéo certifiés disponibles pour configurer votre salle est disponible dans la [Galerie d’appareils](https://products.office.com/microsoft-teams/across-devices).
+Salles Microsoft Teams plusieurs tailles de pièce. salles Teams utiliser un large éventail de périphériques audio et vidéo certifiés en fonction de la taille et de l’utilisation de la salle. En sélectionnant le périphérique et la console principaux appropriés, combinés avec des microphones, des haut-parleurs, des caméras et des écrans appropriés à l’espace, vous pouvez déployer Salles Microsoft Teams dans des espaces de n’importe quelle taille, des petits espaces de réunion jusqu’aux grands espaces de conférence et aux salles de conférence.  L’ensemble des périphériques audio et vidéo certifiés disponibles pour configurer votre salle est disponible dans la [Galerie d’appareils](https://products.office.com/microsoft-teams/across-devices).
 
 Cet article résume la configuration requise pour le déploiement et la configuration des appareils pour la prise en charge des salles Microsoft Teams.
 
-Votre déploiement implique la création et la configuration d’un compte de ressource, comme salles Teams décrit [dans La](rooms-deploy.md) mise à Salles Microsoft Teams.
+Votre déploiement implique la création et la configuration d’un compte de ressource, comme salles Teams décrit dans La mise à [Salles Microsoft Teams](rooms-deploy.md).
 
 Reportez-vous à :
 
 - [Options de licence en fonction de votre offre : Salles Microsoft Teams](rooms-licensing.md)
 
 > [!NOTE]
-> Salles Microsoft Teams vous connectez à Microsoft Teams, Skype Entreprise Server 2019 ou Skype Entreprise Server 2015 et peuvent participer à des réunions hébergées par l’un de ces services.
+> Salles Microsoft Teams vous Microsoft Teams, Skype Entreprise Server 2019 ou Skype Entreprise Server 2015 et participer à des réunions hébergées par l’un de ces services.
 >
-> Les plateformes antérieures telles que Lync Server 2013 ne sont pas prises en charge par les salles Microsoft Teams. Salles Microsoft Teams n’est pas pris en charge dans Microsoft 365 ou Office 365 les environnements 21Vianet ou DoD.
+> Les plateformes antérieures telles que Lync Server 2013 ne sont pas prises en charge par les salles Microsoft Teams. Salles Microsoft Teams n’est pas pris en charge dans Microsoft 365 ou Office 365 des environnements 21Vianet ou DoD.
 >
 > Si vous avez un serveur Exchange local, les salles Microsoft Teams nécessitent l’utilisation d’Exchange Server 2013 SP1 ou d’une version ultérieure.
 
@@ -143,7 +143,7 @@ Ces appareils sont disponibles dans la [Vitrine de produits d'accessoires pour l
 |[Aver VB130 Camera Soundbar](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
 |[Hub de conférence Biamp Devio SCR-20CX Web-Based avec microphone plafond](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
-|[Hub de conférence Biamp Devio SCR-20TX Web-Based avec microphone tabletop](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
+|[Hub de conférence Biamp Devio SCR-20TX Web-Based avec microphone Tabletop](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
 |[Bldly Canvas](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
 |[Iqdly](https://www.huddly.com/conference-cameras/iq/) |1.3.22|

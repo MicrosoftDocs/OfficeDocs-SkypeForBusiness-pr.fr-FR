@@ -1,7 +1,7 @@
 ---
 title: Définir Microsoft Teams’interface utilisateur des appareils Android
-ms.author: mitressl
-author: flinchbot
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 appliesto:
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Découvrez comment définir l’interface utilisateur sur Teams appareils Android.
-ms.openlocfilehash: 32f5129330bf46657f126fc00f7eddc2fc30f090
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: c1872fffef3f21c3fec6a9c693b02e218d5d8337
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279382"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503768"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>Définir Microsoft Teams’interface utilisateur des appareils Android
 
@@ -69,7 +69,7 @@ Voici un exemple de la manière de remplacer la détection automatique de licenc
 
 ### <a name="create-a-new-policy-and-assign-to-user"></a>Créer une stratégie et l’affecter à l’utilisateur
 
-1. Démarrez une session Windows PowerShell connexion à distance et connectez-vous à Microsoft Teams l’aide de l’cmdlet suivante :
+1. Démarrez une session Windows PowerShell connexion à distance et connectez-vous à Microsoft Teams à l’aide de l’cmdlet suivante :
 
     ``` Powershell
     Connect-MicrosoftTeams
@@ -90,9 +90,9 @@ Voici un exemple de la manière de remplacer la détection automatique de licenc
 
 Après avoir accordé la stratégie au compte de ressource de la salle de réunion, vous devez attendre que l’affectation de stratégie soit répliquée. Vous devez également vous sortant de l’appareil et vous y remettre.
 
-## <a name="impact-on-microsoft-teams-admin-center"></a>Impact sur le Microsoft Teams d’administration
+## <a name="impact-on-microsoft-teams-admin-center"></a>Impact sur Microsoft Teams centre d’administration
 
-Microsoft Teams d’administration vous permet de gérer Microsoft Teams appareils mobiles. Pour plus d’informations sur la gestion des appareils à l’Teams centre d’administration, voir [Gérer vos appareils dans Microsoft Teams](device-management.md).
+Microsoft Teams centre d’administration vous permet de gérer Microsoft Teams appareils mobiles. Pour plus d’informations sur la gestion des appareils à l’Teams centre d’administration, voir [Gérer vos appareils dans Microsoft Teams](device-management.md).
 
 
 Teams centre d’administration vous permet de gérer Teams téléphones. Les téléphones sont filtrés en fonction de leur fonction : les téléphones d’utilisateur, les téléphones de zone commune et les téléphones de conférence. 

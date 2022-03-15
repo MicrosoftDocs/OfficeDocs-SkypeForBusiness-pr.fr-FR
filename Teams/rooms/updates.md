@@ -1,7 +1,7 @@
 ---
 title: Gérer Windows mises à jour pour Salles Microsoft Teams
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: ''
-description: Les administrateurs peuvent en savoir plus sur la gestion des mises Windows jour et Windows des fonctionnalités pour les utilisateurs Salles Microsoft Teams.
+description: Les administrateurs peuvent en savoir plus sur la gestion des mises Windows jour et Windows fonctionnalités pour les utilisateurs Salles Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c904db6b168280619b203a1327d6477736077efe
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 95b99e8869ed9fa63a372c6c40d1d0d2be28c019
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015004"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503751"
 ---
 # <a name="manage-windows-updates"></a>Gérer Windows mises à jour
 
-Salles Microsoft Teams s’exécute sur Windows 10 Entreprise IoT ou Windows 10 Entreprise (VL) et reçoit les mêmes mises à jour Windows et builds du système d’exploitation que les ordinateurs de bureau standard.
+Salles Microsoft Teams s’exécute sur Windows 10 Entreprise IoT ou Windows 10 Entreprise (VL) et reçoit les mêmes mises à Windows et builds du système d’exploitation que les ordinateurs de bureau standard.
 
 Windows mises à jour peuvent être gérées comme expliqué dans les sections suivantes :
 
@@ -39,8 +39,8 @@ Windows mises à jour peuvent être gérées comme expliqué dans les sections s
 
 - [Windows mises à jour pour les entreprises téléchargées](/windows/deployment/update/waas-manage-updates-wufb)
 - Les mises à jour sont téléchargées à partir de Windows Update ou de votre Windows Server Update Services (WSUS), mais avec des retards configurés au-delà de la date de publication d’origine.
-- Vous pouvez utiliser plusieurs utils ou stratégies filtrées pour créer des « anneaux » de déploiement où les administrateurs peuvent spécifier les appareils salles Teams installer d’abord les mises à jour de qualité et ceux qui seront installés ultérieurement. La fiabilité et les performances peuvent être testées sur un sous-ensemble d’appareils avant de déployer les mises à jour dans l’ensemble du déploiement sans avoir à gérer les mises à jour Windows dans Configuration Manager.
-- Les mises à jour WSUS et [](/windows/deployment/update/waas-integrate-wufb) Windows Entreprise peuvent être configurées en même temps si vous souhaitez à la fois la gestion de la bande passante et la Windows mises à jour pour les entreprises.
+- Vous pouvez utiliser plusieurs utils ou stratégies filtrées pour créer des « anneaux » de déploiement où les administrateurs peuvent spécifier les appareils salles Teams installer d’abord les mises à jour de qualité et ceux qui seront installés ultérieurement. La fiabilité et les performances peuvent être testées sur un sous-ensemble d’appareils avant de déployer les mises à jour dans l’ensemble du déploiement sans avoir à gérer les mises à jour Windows configuration manager.
+- Les mises à jour WSUS et Windows Entreprise peuvent être configurées [](/windows/deployment/update/waas-integrate-wufb) en même temps si vous souhaitez à la fois la gestion de la bande passante et le contrôle des mises à jour Windows entreprise.
 - Mises à jour de fonctionnalités. Consultez les notes qui suivent.
 
 ## <a name="wsusconfiguration-manager"></a>WSUS/Configuration Manager
@@ -55,4 +55,4 @@ Contrairement aux mises à jour de qualité et non reportables, Windows 10 « Mi
 
 Salles Microsoft Teams « pré-boîte » avec une approche pratique. salles Teams télécharger une mise à jour et attendre le redémarrage suivant pour l’installer. Sauf si quelqu’un le redémarre manuellement, l’installation se produit uniquement au redémarrage nocturne automatique. Windows les mises à jour doivent être transparentes dans la salle et le fonctionnement normal ne doit jamais être interrompu par Windows mises à jour.
 
-Si vous choisissez d’utiliser des appareils de joint noms de domaine, vous pouvez utiliser Microsoft Endpoint Configuration Manager WSUS. Prêter une attention particulière aux stratégies ou actions qui entraînent une mise à jour de l’appareil ou un redémarrage forcé pendant les heures d’ouverture. salles Teams ne doivent pas redémarrer pendant l’utilisation, ni faire l’Windows des mises à jour de l’interface utilisateur pendant les heures d’utilisation. Examinez votre configuration si ce comportement se produit.
+Si vous choisissez d’utiliser des appareils de joint noms de domaine, vous pouvez utiliser Microsoft Endpoint Configuration Manager WSUS. Prêter une attention particulière aux stratégies ou actions qui entraînent une mise à jour de l’appareil ou un redémarrage forcé pendant les heures d’ouverture. salles Teams ne doivent pas redémarrer pendant l’utilisation, ni faire l’Windows mises à jour de l’interface utilisateur pendant les heures d’utilisation. Examinez votre configuration si ce comportement se produit.

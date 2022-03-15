@@ -1,7 +1,7 @@
 ---
 title: Appareils pour Teams
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: divank
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 7c33126f02a4a3236fb451e8e9efc0103c68abdd
-ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
+ms.openlocfilehash: 1f91af4b299223a2ac0e815f5f84b70cbc04b953
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "63418826"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503561"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams appareils Android certifiés
 
@@ -47,10 +47,8 @@ Les appareils suivants sont certifiés dans le cadre du programme Microsoft Team
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
 | AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 22 avril 2022               | 7,1x |
 | AudioCodes C448HD(Mode Cap uniquement)       | `C450HD_TEAMS_0.225`                                                  | 22 avril 2022               | 7,1x |
-| Crestron UC-P10-T (avec et sans combiné)    | `1.0.0.80`       | 5 août 2023            | 9 |
-| Crestron UC-P8-T (avec et sans combiné)     | `1.0.0.56`       | 5 août 2023            | 9 |
-| Crestron UC-P10-C-T (avec et sans combiné)  | `1.0.0.80`       | 5 août 2023            | 9 |
-| Crestron UC-P8-C-T (avec et sans combiné)   | `1.0.0.56`       | 5 août 2023            | 9 |
+| Crestron UC-P10/T/CT                   | `1.0.0.80`       | 5 août 2023            | 9 |
+| Crestron UC-P8/T /CT                   | `1.0.0.56`       | 5 août 2023            | 9 |
 | Audiocodes C470HD                      | `1.8.293   `                                               | 5 août 2023               | 9 |
 | Yealink MP52                           | `145.15.0.6 `                                              | 5 août 2023               | 9 |
 | AudioCodes C435HD                      | `1.12.33`                                                  | 5 août 2023               | 9 |
@@ -136,6 +134,8 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme  | Version de produit incluse  |
 |:----------------|:--------------|:----------------------------|
+|Crestron UC-P8/I/C/CI     | `1.0.4.82`    | Mise à jour 2022 n°1 |
+|Crestron UC-P10/I/C/CI    | `1.0.4.82`    | Mise à jour 2022 n°1 |
 | PolySoin C60   | `7.2.1.1831`  | Mise à jour 2022 n°1                        |
 | Poly CCX400/CCX500/CCX600   | `7.2.1.1826`  | Mise à jour 2022 n°1                 |
 |Crestron UC-2     | `1.0.4.75`    | Mise à jour 2022 n°1 |
@@ -308,6 +308,7 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse|
 |:--------------|:-----------------|:-------------------------|
+|Crestron Touchpanel /770-T/1070-T | `1.006.0046 ` | Mise à jour 2022 n°1|
 |Yealink RoomPanel | ` 147.15.0.29 ` | Mise à jour 2022 n°1 |
 |Crestron -TSS770  | `1.004.0115` |Mise à jour 2021 n°1 |
 |Crestron-TSS1070  | `1.004.0115` |Mise à jour 2021 n°1 |

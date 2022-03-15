@@ -1,7 +1,7 @@
 ---
 title: Préparer votre environnement
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
-description: Découvrez comment préparer votre infrastructure pour le déploiement d Salles Microsoft Teams de manière à tirer parti de toutes les fonctionnalités.
+description: Découvrez comment préparer votre infrastructure pour le déploiement d Salles Microsoft Teams de sorte que vous pouvez tirer parti de toutes les fonctionnalités.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b92325fe9c7c43497fd9647306cfb6b218f5fde0
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 5203972feee8276d9d63c19f65965f62386ee7a0
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015034"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503951"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -49,7 +49,7 @@ Pour fonctionner correctement, les Salles Microsoft Teams doivent avoir accès �
 
 - Accès aux ports HTTP 80 et 443.
 
-- Ports TCP et UDP configurés comme décrit dans les exigences de port et de [protocole](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) pour les serveurs pour les implémentations Skype Entreprise Server sur site, ou URL et plages d’adresses [IP Microsoft 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) et Office 365 pour les Microsoft Teams.
+- Ports TCP et UDP configurés comme décrit dans [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) les exigences de port et de protocole pour les serveurs pour les implémentations Skype Entreprise Server sur site, ou [URL et plages d’adresses IP Microsoft 365 et Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) pour les Microsoft Teams.
 
 Si votre réseau fonctionne via un proxy, vous aurez également besoin de l’adresse du proxy ou des informations de script.
     
@@ -60,24 +60,24 @@ Si votre réseau fonctionne via un proxy, vous aurez également besoin de l’ad
 > Veillez à utiliser une connexion réseau câblée de 1 Gbits/s afin d’être sûr de disposer de la bande passante nécessaire. 
 
 > [!NOTE]
-> Les mises à jour logicielles Salles Microsoft Teams sont automatiquement téléchargées à partir du Microsoft Store pour Entreprises. Consultez [les conditions préalables Microsoft Store pour Entreprises et](/microsoft-store/prerequisites-microsoft-store-for-business) Éducation pour vérifier que la console de salle sera en mesure d’accéder au Store et de se mettre à jour.
+> Les mises à jour logicielles Salles Microsoft Teams sont automatiquement téléchargées à partir du Microsoft Store pour Entreprises. [Consultez les conditions préalables Microsoft Store pour Entreprises et](/microsoft-store/prerequisites-microsoft-store-for-business) Éducation pour vérifier que la console de salle sera en mesure d’accéder au Store et de se mettre à jour.
   
 ### <a name="certificates"></a>Certificats
 
-Votre Salles Microsoft Teams utilise des certificats pour les services Exchange web, l’Microsoft Teams ou Skype Entreprise, l’utilisation du réseau et l’authentification. Si les serveurs associés utilisent des certificats publics, comme c’est le cas pour les déploiements en ligne et certains déploiements locaux, l’installation des certificats ne devrait pas avoir lieu de la part de l’administrateur. En revanche, si l’autorité de certification est privée, l’appareil doit faire confiance à cette autorité de certification. Cela signifie que les certificats de chaîne CA + CA sont installés sur l’appareil. L’ajout de l’appareil au domaine peut permettre d’automatiser cette tâche.
+Votre appareil Salles Microsoft Teams utilise des certificats pour les services web Exchange, l’Microsoft Teams, la Skype Entreprise, l’utilisation du réseau et l’authentification. Si les serveurs associés utilisent des certificats publics, comme c’est le cas pour les déploiements en ligne et certains déploiements locaux, l’installation des certificats ne devrait pas avoir lieu de la part de l’administrateur. En revanche, si l’autorité de certification est privée, l’appareil doit faire confiance à cette autorité de certification. Cela signifie que les certificats de chaîne CA + CA sont installés sur l’appareil. L’ajout de l’appareil au domaine peut permettre d’automatiser cette tâche.
   
 Vous installerez les certificats comme vous le feriez pour tout autre client Windows.  
   
 > [!NOTE]
-> Des certificats peuvent être nécessaires pour être utilisés Salles Microsoft Teams et Skype Entreprise Server.
+> Des certificats peuvent être nécessaires pour que les certificats Salles Microsoft Teams’Skype Entreprise Server.
   
 ### <a name="proxy"></a>Proxy
 
 Salles Microsoft Teams est conçu pour hériter des paramètres proxy du système d’Windows système d’exploitation. Accédez au système d’exploitation Windows de la manière suivante :
   
-1. Dans l’interface utilisateur Salles Microsoft Teams, cliquez sur l’icône d’engrenage Paramètres dans laquelle vous êtes invité à consulter le mot de passe administrateur local sur l’appareil (le mot de passe par défaut est **sfb).**
-2. Appuyez sur **Paramètres** puis sur le bouton Aller à **Windows,** puis  sur le bouton Se connectez-vous à l’administrateur, puis cliquez sur le bouton Administrateur (si l’ordinateur est joint au domaine, sélectionnez Autre  **utilisateur,** puis utilisez .\admin comme nom d’utilisateur).
-3. Dans la **zone Rechercher Windows** tapez en bas à gauche dans regedit (appuyez longuement sur l’écran ou cliquez avec le bouton droit et sélectionnez Exécuter en tant **qu’administrateur).**
+1. Dans l’interface utilisateur Salles Microsoft Teams, cliquez sur l’icône d’engrenage Paramètres dans laquelle vous êtes invité à consulter le mot de passe administrateur local sur l’appareil (le mot de passe par défaut est **sfb**).
+2. Appuyez sur **Paramètres** puis sur le bouton Aller à **Windows**, puis sur le bouton Se connectez-vous  à l’administrateur, puis cliquez sur le bouton Administrateur  (si l’ordinateur est joint au domaine, sélectionnez Autre utilisateur **,** puis utilisez .\admin comme nom d’utilisateur).
+3. Dans la **zone Rechercher Windows** tapez en bas à gauche dans regedit (appuyez longuement sur l’écran ou cliquez avec le bouton droit et sélectionnez **Exécuter en tant qu’administrateur**).
 4. Cliquez sur le dossier HKEY_USERS (vous verrez une liste de SID de l’utilisateur d’ordinateur), assurez-vous que le dossier racine HKEY_USERS est sélectionné.
        
 5. Cliquez sur Fichier, puis **sélectionnez Charger la ruche.**
@@ -85,7 +85,7 @@ Salles Microsoft Teams est conçu pour hériter des paramètres proxy du systèm
 
 7. Vous êtes invité à nommer la clé de votre ruche nouvellement chargée. tapez dans Skype (vous devez à présent voir les paramètres du Registre de l Skype un utilisateur).
  
-8. Ouvrez la Skype clé d’accès et HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings vérifier que ces paramètres sont entrés : 
+8. Ouvrez la Skype et accédez à HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings vérifier que les paramètres sont entrés : 
     
     ```console
     [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
@@ -111,11 +111,11 @@ Salles Microsoft Teams est conçu pour hériter des paramètres proxy du systèm
     
 11. De retour dans l’écran de connexion, choisissez l’utilisateur **Skype**. Si toutes les étapes précédentes ont réussi, l Salles Microsoft Teams appareil se connecte correctement.
     
-Pour plus [d’informations](./security.md#network-security) sur les FQDN, ports et plages d’adresses IP requis pour les Salles Microsoft Teams.
+Pour plus [d’informations](./security.md#network-security) sur les FQDN, ports et plages d’adresses IP requis pour les Salles Microsoft Teams, voir l’article sur la sécurité réseau.
   
 ### <a name="admin-group-management"></a>Gestion du groupe d’administrateurs
 
-Si vous choisissez de rejoindre un domaine (Azure Active Directory ou Active Directory), vous pouvez utiliser Microsoft Endpoint Manager, stratégie de groupe ou gestion d’ordinateurs locaux pour définir un groupe de sécurité en tant qu’administrateur local, comme vous le feriez pour un PC Windows dans votre domaine. Tous les membres de ce groupe de sécurité peuvent saisir leurs informations d’identification et déverrouiller les paramètres.
+Si vous choisissez de rejoindre un domaine (Azure Active Directory ou Active Directory), vous pouvez utiliser Microsoft Endpoint Manager, stratégie de groupe ou gestion locale d’ordinateurs pour définir un groupe de sécurité en tant qu’administrateur local, comme vous le feriez pour un PC Windows dans votre domaine. Tous les membres de ce groupe de sécurité peuvent saisir leurs informations d’identification et déverrouiller les paramètres.
   
 > [!NOTE]
 > Si votre appareil Microsoft Teams Rooms n’approuve plus le domaine (par exemple, si vous supprimez Microsoft Teams Rooms du domaine après la jonction), vous ne pourrez pas vous authentifier dans l’appareil et ouvrir les paramètres. La solution consiste à se connecter avec le compte d’administrateur local. 
@@ -124,7 +124,7 @@ Si vous choisissez de rejoindre un domaine (Azure Active Directory ou Active Dir
 
 ### <a name="microsoft-teams-rooms-local-user-account"></a>Salles Microsoft Teams d’utilisateur local
 
-salles Teams inclut un compte local sans mot de passe nommé « Skype ». Ce compte est utilisé pour vous Windows pour lancer l’salles Teams appappe. L’application d’un mot de passe à ce compte n’est pas prise en charge. Pour [plus d Salles Microsoft Teams, voir Sécurité](security.md) des données.
+salles Teams inclut un compte local sans mot de passe nommé « Skype ». Ce compte est utilisé pour se Windows pour lancer l’salles Teams appappe. L’application d’un mot de passe à ce compte n’est pas prise en charge. Pour [plus d Salles Microsoft Teams, voir Sécurité](security.md) des données.
   
 ### <a name="admin---local-administrator-account"></a>"Admin" - Compte d’administrateur local
 
@@ -135,13 +135,13 @@ Salles Microsoft Teams mot de passe par défaut est « sfb ». Le mot de passe p
   
 Le mot de passe de l’administrateur local n’est pas inclus comme alternative lors de l’installation.
 
-Vous pouvez en savoir plus sur le compte administrateur dans l’article [Salles Microsoft Teams Sécurité.](security.md)
+Vous pouvez en savoir plus sur le compte administrateur dans l’article [Salles Microsoft Teams Sécurité](security.md).
   
 ### <a name="machine-account"></a>Compte d’ordinateur
 
-À l’Windows n’importe quel appareil, vous pouvez renommer le nom de l’ordinateur en cliquant avec le bouton droit **Paramètres** À propos de \>  \> **Renommer le PC.**
+À l’Windows n’importe quel appareil,  \> vous pouvez renommer le nom de l’ordinateur en cliquant Paramètres **à** \> propos de **Renommer le PC**.
   
-Si vous voulez renommer l’ordinateur après l’avoir joint à un domaine, utilisez [Renommer](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2)l’ordinateur, une commande PowerShell, suivie du nouveau nom de l’ordinateur.
+Si vous voulez renommer l’ordinateur après l’avoir joint à un domaine, utilisez [Renommer l’ordinateur](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2), une commande PowerShell, suivie du nouveau nom de l’ordinateur.
   
 ## <a name="related-topics"></a>Sujets associés
 

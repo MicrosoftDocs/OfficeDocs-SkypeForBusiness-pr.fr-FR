@@ -1,7 +1,7 @@
 ---
-title: Déployer des Salles Microsoft Teams avec Exchange Online
-ms.author: v-lanac
-author: lanachin
+title: Déployer des Salles Microsoft Teams en Exchange Online
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -14,34 +14,34 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: Lisez cette rubrique pour plus d’informations sur la façon de déployer des Salles Microsoft Teams avec Exchange Online.
-ms.openlocfilehash: e6eb3253d7edb999ba74d28ef9a6d8ae835ac16d
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: Lisez cette rubrique pour plus d’informations sur la façon de déployer Salles Microsoft Teams’Exchange Online.
+ms.openlocfilehash: ad3b621ef541fcec471e329d1696e4f7000f4cb5
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055484"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503741"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Déployer des Salles Microsoft Teams avec Exchange Online
+# <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Déployer des Salles Microsoft Teams en Exchange Online
 
-Lisez cette rubrique pour plus d’informations sur la façon de déployer des Salles Microsoft Teams avec Exchange Online.
+Lisez cette rubrique pour plus d’informations sur la façon de déployer Salles Microsoft Teams’Exchange Online.
   
 Si votre organisation dispose d’un mélange de services, dont certains sont hébergés en local et d’autres en ligne, votre configuration dépend de l’endroit où chaque service est hébergé. Cette rubrique traite des déploiements hybrides Salles Microsoft Teams avec des Exchange en ligne. Ce type de déploiement étant très différent, il n’est pas possible de fournir des instructions détaillées pour l’ensemble d’entre eux. Le processus suivant fonctionne pour de nombreuses configurations. Si le processus n’est pas configuré pour votre configuration, nous vous recommandons d’utiliser Windows PowerShell pour obtenir le même résultat final que celui documenté ici, ainsi que pour d’autres options de déploiement.
 
 ## <a name="requirements"></a>Conditions requises
 
-Avant de déployer Salles Microsoft Teams avec Exchange Online, assurez-vous que vous avez répondu à la exigences. Pour plus d’informations, [voir Salles Microsoft Teams requise.](requirements.md)
+Avant de déployer des Salles Microsoft Teams avec Exchange Online, assurez-vous que vous avez répondu à la exigences. Pour plus d’informations, [voir la Salles Microsoft Teams requise](requirements.md).
   
 Pour déployer des Salles Microsoft Teams’Exchange Online, suivez les étapes ci-dessous. Assurez-vous que vous êtes autorisé à exécuter les cmdlets. 
 
    > [!NOTE]
-   >  Le [module Azure Active Directory pour Windows PowerShell cmdlets](/powershell/azure/active-directory/overview?view=azureadps-1.0) dans cette section (par exemple, Set-MsolUser) a été testé dans le cadre de la configuration des comptes pour Salles Microsoft Teams. Il est possible que d’autres cmdlets fonctionnent, toutefois, elles n’ont pas été testées dans ce scénario particulier.
+   >  Le [module Azure Active Directory pour les Windows PowerShell de](/powershell/azure/active-directory/overview?view=azureadps-1.0) commande dans cette section (par exemple, Set-MsolUser) a été testé dans le cadre de la configuration des comptes pour Salles Microsoft Teams. Il est possible que d’autres cmdlets fonctionnent, toutefois, elles n’ont pas été testées dans ce scénario particulier.
 
 Si vous avez déployé les services AD FS (Active Directory Federation Services), vous deront peut-être convertir le compte d’utilisateur en utilisateur géré avant de suivre ces étapes, puis convertir l’utilisateur en utilisateur fédéré une fois ces étapes terminées.
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>Création d’un compte et définition des propriétés Exchange
 
-1. Démarrez une session de Windows PowerShell distante sur un PC et connectez-vous à Exchange Online comme suit :
+1. Démarrez une session Windows PowerShell session distante sur un PC et connectez-vous à Exchange Online comme suit :
 
     ``` Powershell
    Connect-ExchangeOnline
@@ -70,19 +70,19 @@ Si vous avez déployé les services AD FS (Active Directory Federation Services)
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>Ajout d’une adresse e-mail pour votre compte de domaine sur site
 
-1. Dans l’outil Utilisateurs et ordinateurs **Active Directory AD,** cliquez avec le bouton droit sur le conteneur ou l’unité d’organisation dans qui vos comptes Salles Microsoft Teams seront créés, cliquez sur **Nouveau,** puis sur **Utilisateur.**
-2. Tapez le nom d’affichage (- Identité) de l’cmdlet  précédente (Set-Mailbox ou  New-Mailbox) dans la zone Nom complet et l’alias dans la zone Nom de l’utilisateur. Cliquez sur **Suivant**.
+1. Dans l’outil Utilisateurs et ordinateurs **Active Directory AD**, cliquez avec le bouton droit sur le conteneur ou l’unité d’organisation dans qui vos comptes Salles Microsoft Teams seront créés, cliquez sur **Nouveau, puis** sur **Utilisateur**.
+2. Tapez le nom d’affichage (- Identité) de l’cmdlet précédente (Set-Mailbox ou New-Mailbox) dans la zone Nom complet et l’alias dans la zone Nom de l’utilisateur.  Cliquez sur **Suivant**.
 3. Saisissez le mot de passe de ce compte. Vous devrez le saisir à nouveau à des fins de vérification. Vérifiez que seule l’option **Le mot de passe n’expire jamais** est sélectionnée.
 
     > [!NOTE]
     > La sélection **du mot de passe n’expire** jamais est une obligation pour Salles Microsoft Teams. Il est possible que des règles de votre domaine interdisent la non-expiration des mots de passe. Si c’est le cas, vous devez créer une exception pour Salles Microsoft Teams compte d’utilisateur.
   
 4. Cliquez sur **Terminer** pour créer le compte.
-5. Après avoir créé le compte, exécutez une synchronisation d’annuaires. Cela peut être réalisé à l’aide de la configuration [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) dans PowerShell. Lorsque cette procédure est terminée, allez sur la page de l’utilisateur et vérifiez que les deux comptes créés lors des étapes précédentes ont été fusionnés.
+5. Après avoir créé le compte, exécutez une synchronisation d’annuaires. Cela peut être réalisé à l’aide [de la configuration Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) dans PowerShell. Lorsque cette procédure est terminée, allez sur la page de l’utilisateur et vérifiez que les deux comptes créés lors des étapes précédentes ont été fusionnés.
 
 ### <a name="assign-an-office-365-license"></a>Affectation d’une licence Office 365
 
-1. Tout d’abord, connectez-Azure AD pour appliquer certains paramètres de compte. Pour vous connecter, vous pouvez exécuter l’applet de commande suivante. Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+1. Tout d’abord, connectez-vous Azure AD pour appliquer certains paramètres de compte. Pour vous connecter, vous pouvez exécuter l’applet de commande suivante. Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0 n’est](/powershell/azure/active-directory/overview?view=azureadps-2.0) pas pris en charge.
@@ -103,7 +103,7 @@ Si vous avez déployé les services AD FS (Active Directory Federation Services)
 
 ## <a name="validate"></a>Validate
 
-Pour validation, vous devez être en mesure d’utiliser n’importe Microsoft Teams client pour vous connectez au compte que vous avez créé.
+Pour validation, vous devez être en mesure d’utiliser n’importe quel client Microsoft Teams pour vous connectez au compte que vous avez créé.
   
 ## <a name="see-also"></a>Voir aussi
 

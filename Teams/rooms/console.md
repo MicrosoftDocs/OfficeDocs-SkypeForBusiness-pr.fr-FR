@@ -1,7 +1,7 @@
 ---
 title: Créer une image Salles Microsoft Teams image
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
@@ -15,21 +15,21 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article décrit comment configurer et configurer la console Salles Microsoft Teams et ses périphériques.
-ms.openlocfilehash: d6c675ed6eb6f50cf41b817770caf723f75f556b
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 42f10ffe4ed2b577e91ed13b57ea8efcae67a1a4
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055644"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63504011"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>Créer une image Salles Microsoft Teams image
 
 Cet article décrit comment créer une image Salles Microsoft Teams déploiement en masse d’salles Teams.
 
 > [!NOTE]
-> Les étapes suivantes ne doivent être utilisées que lors de la création [d’une image basée](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) sur WIM pour un déploiement en masse. Si vous récupérez des appareils individuels, contactez le fabricant de votre matériel D’origine pour obtenir de l’aide.
+> Les étapes suivantes ne doivent être utilisées que lors de la création [d’une image basée sur WIM](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) pour un déploiement en masse. Si vous récupérez des appareils individuels, contactez le fabricant de votre matériel D’origine pour obtenir de l’aide.
 
-Vous ne devez effectuer ces étapes que si les comptes Microsoft Teams ou Skype Entreprise et Exchange nécessaires ont déjà été créés et testés comme décrit dans la procédure Déploiement [Salles Microsoft Teams.](rooms-deploy.md) Vous aurez besoin du matériel et du logiciel décrits dans Salles Microsoft Teams [configuration requise.](requirements.md) Cette rubrique contient les sections suivantes :
+Vous ne devez effectuer ces étapes que si les comptes Microsoft Teams ou Skype Entreprise et Exchange nécessaires ont déjà été créés et testés comme décrit dans la procédure Déploiement [Salles Microsoft Teams](rooms-deploy.md). Vous aurez besoin du matériel et du logiciel décrits dans Salles Microsoft Teams [configuration requise](requirements.md). Cette rubrique contient les sections suivantes :
   
 - [Préparer le support d’installation](console.md#Prep_Media)
 - [Installer un certificat d’autorisation d’certification privé sur la console](console.md#Certs)
@@ -46,18 +46,18 @@ L’installation de Salles Microsoft Teams l’application nécessite un disposi
 > L’échec de la Salles Microsoft Teams d’installation de votre entreprise conformément à ces instructions peut entraîner un comportement inattendu.
 
 > [!NOTE]
-> Le processus ci-dessous a pour objectif de créer un support d’installation pour imager Salles Microsoft Teams nouveaux appareils. Par défaut, les appareils existants sont automatiquement mis à jour à partir Windows Update et du Windows Store.
+> Le processus ci-dessous a pour objectif de créer un support d’installation pour imager de Salles Microsoft Teams appareils mobiles. Par défaut, les appareils existants sont automatiquement mis à jour à partir Windows Update et du Windows Store.
 
 > [!IMPORTANT]
-> L Windows 10 ordinateur utilisé pour créer le support d’installation Salles Microsoft Teams doit utiliser la même version ou une version ultérieure de Windows que le support d’installation cible.
+> L Windows 10 ordinateur utilisé pour créer le support d’installation Salles Microsoft Teams doit se trouver sur la même version ou ultérieure de Windows que le support d’installation cible.
   
-1. Téléchargez le [scriptCreateSrsMedia.ps1'application.](https://go.microsoft.com/fwlink/?linkid=867842)
+1. Téléchargez le [ scriptCreateSrsMedia.ps1'application](https://go.microsoft.com/fwlink/?linkid=867842).
 2. Exécutez le script CreateSrsMedia.ps1 à partir d'une invite avec élévation de privilèges sur un ordinateur Windows 10.
 3. Suivez les instructions du script pour créer un Salles Microsoft Teams de configuration USB.
 
 
 > [!TIP]
-> Chaque fois que CreateSrsMedia.ps1 script principal démarre, la sortie à l’écran inclut le nom d’un fichier journal ou d’une transcription de la session. En cas de problème lors de l’exécution du script, veillez à obtenir une copie de cette transcription lorsque vous demandez de l’aide. 
+> Chaque fois que le CreateSrsMedia.ps1 script démarre, la sortie à l’écran inclut le nom d’un fichier journal ou d’une transcription de la session. En cas de problème lors de l’exécution du script, veillez à obtenir une copie de cette transcription lorsque vous demandez de l’aide. 
 
 Le CreateSrsMedia.ps1 script automatise les tâches suivantes :
 
@@ -67,9 +67,9 @@ Le CreateSrsMedia.ps1 script automatise les tâches suivantes :
 4. Assemblez les composants nécessaires sur le support d’installation.
 
 > [!NOTE]
-Une version spécifique de Windows 10 est requise, et cette version est uniquement disponible pour les clients de licence en volume.  Vous pouvez en obtenir une copie à partir du Centre [de gestion des licences en volume.](https://www.microsoft.com/Licensing/servicecenter/)
+Une version spécifique de Windows 10 est requise, et cette version est uniquement disponible pour les clients de licence en volume.  Vous pouvez en obtenir une copie à partir du Centre [de gestion des licences en volume](https://www.microsoft.com/Licensing/servicecenter/).
 
-Lorsque vous avez terminé, supprimez le disque USB de votre ordinateur, puis procédez à l’installation de Windows 10 et de [l’application Salles Microsoft Teams console mobile.](console.md#Reimage)
+Lorsque vous avez terminé, supprimez le disque USB de votre ordinateur, puis procédez à l’installation de Windows 10 et de [l’application Salles Microsoft Teams console mobile](console.md#Reimage).
 
     
 ## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>Installer Windows 10 et l’application Salles Microsoft Teams console mobile
@@ -98,14 +98,14 @@ Vous devez à présent appliquer le support de configuration que vous avez cré�
 Une fois le système arrêté, vous risquez de supprimer le disque d’installation USB en toute sécurité. À ce stade, vous pouvez placer l’appareil cible dans sa station d’accueil (si vous utilisez un produit basé sur une station d’accueil), connecter les périphériques nécessaires à votre salle de réunion et vous connecter au réseau. Reportez-vous aux instructions de fabricant.
 
 > [!NOTE]
-> Les mises à jour logicielles Salles Microsoft Teams sont automatiquement téléchargées à partir du Microsoft Store pour Entreprises. Consultez [les conditions préalables Microsoft Store pour Entreprises et](/microsoft-store/prerequisites-microsoft-store-for-business) Éducation pour vérifier que la console de salle sera en mesure d’accéder au Store et de se mettre à jour.  
+> Les mises à jour logicielles Salles Microsoft Teams sont automatiquement téléchargées à partir du Microsoft Store pour Entreprises. [Consultez les conditions préalables Microsoft Store pour Entreprises et](/microsoft-store/prerequisites-microsoft-store-for-business) Éducation pour vérifier que la console de salle sera en mesure d’accéder au Store et de se mettre à jour.  
 
 ### <a name="selecting-a-language"></a>Sélection d’une langue 
 
-Dans la Mise à jour de l’application de créateur, vous devrez utiliser le script ApplyCurrentRegionAndLanguage.ps1 dans des scénarios où la sélection de langue implicite ne fournit pas à l’utilisateur la langue réelle de l’application qu’il souhaite (par exemple, il souhaite que l’application de console soit fournie en français, mais qu’elle soit en anglais).
+Dans la Mise à jour de l’application de créateur, vous devrez utiliser le script ApplyCurrentRegionAndLanguage.ps1 dans des scénarios où la sélection de langue implicite ne fournit pas à l’utilisateur la langue réelle de l’application qu’il souhaite (par exemple, il souhaite que l’application de console soit possible en français, mais qu’elle soit possible en anglais).
   
 > [!NOTE]
-> Les instructions suivantes fonctionnent uniquement pour les consoles créées à l’aide Windows mise à jour de créateur de contenu (Windows 10 20H1) ou ultérieure.
+> Les instructions suivantes fonctionnent uniquement pour les consoles créées à l’aide Windows mise à jour de créateur de contenu (Windows 10 20H1) ou version ultérieure.
   
 ### <a name="to-apply-your-desired-language"></a>Pour appliquer la langue de votre choix
 
@@ -115,9 +115,9 @@ Dans la Mise à jour de l’application de créateur, vous devrez utiliser le sc
     
 3. Sélectionnez l'icône d'engrenage pour lancer l'application **Paramètres** .
     
-4. Sélectionnez **la langue &amp; de l’heure.**
+4. Sélectionnez **la langue de &amp; l’heure**.
     
-5. Sélectionnez **la langue de la &amp; région.**
+5. **Sélectionnez la langue &amp; de la région**.
     
 6. Sélectionnez **Ajouter une langue**.
     
@@ -152,7 +152,7 @@ Une Windows est installée, l’Salles Microsoft Teams passe au processus de con
     
 2. Saisissez le mot de passe du compte de la salle dé réunion, puis saisissez-le à nouveau à des fins de vérification.
    
-3. Sélectionnez le mode de réunion pris en charge Microsoft Teams, Skype Entreprise Uniquement ou l’une des deux options de mode mixte. Si nécessaire, activez l’authentification moderne.
+3. Sélectionnez le mode réunion pris en charge : Microsoft Teams, Skype Entreprise Uniquement ou l’une des deux options de mode mixte. Si nécessaire, activez l’authentification moderne.
 
 4. Cliquez sur **Suivant**.
     
@@ -161,7 +161,7 @@ Une Windows est installée, l’Salles Microsoft Teams passe au processus de con
     
 7. Cliquez sur **Terminer**.
     
-L’application Salles Microsoft Teams doit se Microsoft Teams ou Skype Entreprise Server avec les informations d’identification entrées ci-dessus et commencer à synchroniser son calendrier avec Exchange à l’aide des mêmes informations d’identification. Pour plus d’informations sur l’salles Teams, consultez [l’aide Salles Microsoft Teams’aide.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+L’application Salles Microsoft Teams doit se Microsoft Teams ou Skype Entreprise Server avec les informations d’identification entrées ci-dessus et commencer à synchroniser son calendrier avec Exchange à l’aide des mêmes informations d’identification. Pour plus d’informations sur l’salles Teams, consultez [l’Salles Microsoft Teams’aide](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
 > Salles Microsoft Teams s’appuie sur la présence de matériel de console certifié. Même une image correctement créée contenant l’application de console Salles Microsoft Teams démarre pas au-delà de la procédure de configuration initiale, sauf si le matériel de la console est détecté. Pour Surface Pro solutions basées sur les données, la Surface Pro doit être connectée à son matériel d’accueil pour réussir ce contrôle.
@@ -174,17 +174,17 @@ L’application Salles Microsoft Teams doit se Microsoft Teams ou Skype Entrepri
 > [!NOTE]
 > La règle suivante s’applique uniquement si vous salles Teams à Skype Entreprise.
 
-Salles Microsoft Teams doit faire confiance aux certificats utilisés par les serveurs avec qui il se connecte. Dans le cas où l’autorité de certification est privée, par exemple un déploiement sur site avec Active Directory et l’autorité de certification Windows, vous pouvez ajouter le certificat à Salles Microsoft Teams de deux façons :
+Salles Microsoft Teams les certificats utilisés par les serveurs avec qui il se connecte. Dans le cas où l’autorité de certification est privée, par exemple un déploiement sur site avec Active Directory et l’autorité de certification Windows, vous pouvez ajouter le certificat à Salles Microsoft Teams de deux façons :
   
 - Vous pouvez rejoindre la console d’Active Directory et cela ajoutera automatiquement les certificats requis à la publication de l’autorité de certification dans Active Directory (option de déploiement normal).
     
-- Vous pouvez installer le certificat manuellement après le processus de création d’image. Avant cela, vous devez effectuer la mise en place initiale [de la console.](console.md#Initial)
+- Vous pouvez installer le certificat manuellement après le processus de création d’image. Avant cela, vous devez effectuer la mise en [place initiale de la console](console.md#Initial).
     
 ### <a name="to-manually-install-the-certificate"></a>Pour installer manuellement le certificat 
 
 1. Téléchargez le certificat d’AC sur votre ordinateur, puis enregistrez-le sur "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer".
     
-2. Placez la console en mode d’administration (voir [Mode d’administration et gestion des appareils).](rooms-operations.md#AdminMode)
+2. Placez la console en mode d’administration (voir [Mode d’administration et gestion des appareils](rooms-operations.md#AdminMode)).
     
 3. Exécutez la commande suivante :
     
@@ -195,11 +195,11 @@ Salles Microsoft Teams doit faire confiance aux certificats utilisés par les se
 ### <a name="join-an-active-directory-domain-optional"></a>Joindre un domaine Active Directory (facultatif)
 <a name="Certs"> </a>
 
-Vous pouvez rejoindre Salles Microsoft Teams votre domaine. Salles Microsoft Teams doivent être placées dans une station d’utilisateur distincte de vos stations de travail PC, car de nombreuses stratégies de station de travail ne sont pas compatibles avec les Salles Microsoft Teams. Par exemple, les stratégies d’application de mot de passe Salles Microsoft Teams le démarrage automatique des utilisateurs. Pour plus d’informations sur la gestion des paramètres d’introduction de groupe, voir [Gérer les Salles Microsoft Teams.](rooms-operations.md)
+Vous pouvez rejoindre Salles Microsoft Teams votre domaine. Salles Microsoft Teams doivent être placées dans une station d’utilisateur distincte de vos stations de travail PC, car de nombreuses stratégies de station de travail ne sont pas compatibles avec les Salles Microsoft Teams. Par exemple, les stratégies d’application de mot de passe Salles Microsoft Teams le démarrage automatique des stratégies de mot de passe. Pour plus d’informations sur la gestion des paramètres d’introduction de groupe, voir [Gérer les Salles Microsoft Teams](rooms-operations.md).
   
 ### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>Pour rejoindre Salles Microsoft Teams à un domaine
 
-1. Connectez-vous à la console à partir du compte d’administrateur (voir [mode Administrateur et gestion des appareils).](rooms-operations.md#AdminMode)
+1. Connectez-vous à la console à partir du compte d’administrateur (voir [mode Administrateur et gestion des appareils](rooms-operations.md#AdminMode)).
     
 2. Lancez l’invite de commande Powershell avec élévation de privilèges.
     
@@ -209,7 +209,7 @@ Vous pouvez rejoindre Salles Microsoft Teams votre domaine. Salles Microsoft Tea
    Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
    ```
 
-Par exemple, si votre domaine complet est redmond.corp.microsoft.com et que vous souhaitez que vos consoles Salles Microsoft Teams soient dans une ou « Salles Microsoft Teams » enfant d’une ou plusieurs « Ressources », la commande sera :
+Par exemple, si votre domaine complet est redmond.corp.microsoft.com et que vous souhaitez que vos consoles Salles Microsoft Teams se trouve dans une ou des « Salles Microsoft Teams » enfants d’une ou plusieurs ressources, la commande sera :
   
 ```PowerShell
 Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_Rooms,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
