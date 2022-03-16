@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article décrit comment configurer et configurer la console Salles Microsoft Teams et ses périphériques.
-ms.openlocfilehash: 42f10ffe4ed2b577e91ed13b57ea8efcae67a1a4
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: c13a247f2ce9d7fee7571f7f3a202310b2ce8b41
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63504011"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514719"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>Créer une image Salles Microsoft Teams image
 
@@ -117,30 +117,36 @@ Dans la Mise à jour de l’application de créateur, vous devrez utiliser le sc
     
 4. Sélectionnez **la langue de &amp; l’heure**.
     
-5. **Sélectionnez la langue &amp; de la région**.
+5. Sélectionnez **la langue**.
     
 6. Sélectionnez **Ajouter une langue**.
     
 7. Sélectionnez la langue que vous souhaitez ajouter.
     
-8. Sélectionnez la langue que vous vient d’ajouter à la liste « Langues ».
+8. Installer les fonctionnalités de langue.
     
-9. Sélectionnez **Définir par défaut**.
+9. Ne cochez pas la Windows la langue d’affichage définie.
     
-10. Pour supprimer une langue :
+10. Sélectionnez **Installer**.
+    
+11. Sélectionnez la langue que vous vient d’ajouter à la liste « Langues ».
+    
+12. Définir par défaut - Déplacer vers le haut pour définir la valeur par défaut
+
+13. Pour supprimer une langue :
     
     a. Sélectionnez la langue que vous souhaitez supprimer.
     
-    b. Sélectionnez **Supprimer**.
-    
-11. Lancez une invite de commande avec élévation de privilèges.
-    
-12. Exécutez la commande suivante : 
+    b. Sélectionnez Supprimer.
+
+14. Lancez une invite de commande avec élévation de privilèges.
+
+15. Exécutez la commande suivante : 
     ```PowerShell
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     ```
     
-13. Redémarrez le système.
+16. Redémarrez le système.
     
 La langue souhaitée est désormais appliquée à la console Salles Microsoft Teams’application.
 ## <a name="initial-set-up-of-the-console"></a>Configurer initialement la console
@@ -154,12 +160,12 @@ Une Windows est installée, l’Salles Microsoft Teams passe au processus de con
    
 3. Sélectionnez le mode réunion pris en charge : Microsoft Teams, Skype Entreprise Uniquement ou l’une des deux options de mode mixte. Si nécessaire, activez l’authentification moderne.
 
-4. Cliquez sur **Suivant**.
+4. **Sélectionnez Suivant**.
     
 5. Si vous utilisez Skype Entreprise et si le domaine SIP Skype Entreprise est différent du domaine Exchange de l’utilisateur, définissez le nom de domaine (FQDN) du Skype Entreprise Server dans la section Avancée. Si vous n’utilisez pas Skype Entreprise domaine SIP correspond au domaine Exchange domaine, laissez cette section vide.
-6. Cliquez sur **Suivant**.
+6. **Sélectionnez Suivant**.
     
-7. Cliquez sur **Terminer**.
+7. **Sélectionnez Terminer**.
     
 L’application Salles Microsoft Teams doit se Microsoft Teams ou Skype Entreprise Server avec les informations d’identification entrées ci-dessus et commencer à synchroniser son calendrier avec Exchange à l’aide des mêmes informations d’identification. Pour plus d’informations sur l’salles Teams, consultez [l’Salles Microsoft Teams’aide](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
@@ -195,7 +201,7 @@ Salles Microsoft Teams les certificats utilisés par les serveurs avec qui il se
 ### <a name="join-an-active-directory-domain-optional"></a>Joindre un domaine Active Directory (facultatif)
 <a name="Certs"> </a>
 
-Vous pouvez rejoindre Salles Microsoft Teams votre domaine. Salles Microsoft Teams doivent être placées dans une station d’utilisateur distincte de vos stations de travail PC, car de nombreuses stratégies de station de travail ne sont pas compatibles avec les Salles Microsoft Teams. Par exemple, les stratégies d’application de mot de passe Salles Microsoft Teams le démarrage automatique des stratégies de mot de passe. Pour plus d’informations sur la gestion des paramètres d’introduction de groupe, voir [Gérer les Salles Microsoft Teams](rooms-operations.md).
+Vous pouvez rejoindre Salles Microsoft Teams votre domaine. Salles Microsoft Teams doivent être placées dans une station d’utilisateur distincte de vos stations de travail PC, car de nombreuses stratégies de station de travail ne sont pas compatibles avec les Salles Microsoft Teams. Par exemple, il s’agit d’une stratégie d’application de mot Salles Microsoft Teams de démarrer automatiquement. Pour plus d’informations sur la gestion des paramètres d’introduction de groupe, voir [Gérer les Salles Microsoft Teams](rooms-operations.md).
   
 ### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>Pour rejoindre Salles Microsoft Teams à un domaine
 

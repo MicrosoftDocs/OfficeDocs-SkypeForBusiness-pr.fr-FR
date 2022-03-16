@@ -17,17 +17,17 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21a499d10fa9dc1d04d1e1baab8743b739a4e45d
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: bf1f393c8f6caf27a53ec45af0f04401f93b6793
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62385312"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514535"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive Entreprise et SharePoint ou Stream pour les enregistrements de réunion
 
 > [!NOTE]
-> Le stockage des enregistrements Teams de la version Classique Stream vers OneDrive et SharePoint (ODSP) est terminé depuis le 30 août 2021. Tous les enregistrements sont désormais stockés dans ODSP. Cette modification remplace la stratégie RecordingStorageMode et la modification du paramètre dans PowerShell n’a plus d’impact.
+> Le stockage des enregistrements Teams de réunion classique Stream vers OneDrive et SharePoint (ODSP) est terminé depuis le 30 août 2021. Tous les enregistrements sont désormais stockés dans ODSP. Cette modification remplace la stratégie RecordingStorageMode et la modification du paramètre dans PowerShell n’a plus d’impact.
 
 |Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Événement&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -98,13 +98,6 @@ L’option d’enregistrement de la réunion est un paramètre au niveau de la s
 > [!Note]
 > Si certains de vos utilisateurs ont affecté une stratégie par organisateur ou par utilisateur et s’ils doivent également stocker les enregistrements de réunion dans OneDrive Entreprise et SharePoint, vous devez définir ce paramètre sur cette stratégie. Si vous souhaitez en savoir plus d’informations, veuillez consulter la rubrique [Gérer les stratégies de réunion dans Teams](meeting-policies-overview.md).
 
-## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Désactiver OneDrive Entreprise et SharePoint pour continuer à utiliser Stream
-
-Même si le programme indique une stratégie définie sur **Stream**, elle n’est sans doute pas définie. En règle générale, si la stratégie n’est pas définie, le paramètre par défaut est **Stream**. Toutefois, avec ce nouveau changement, si vous préférez ne plus utiliser SharePoint ou OneDrive Entreprise, vous devez réinitialiser la stratégie sur **Stream** pour que **Stream** soit la stratégie par défaut.
-
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
-```
 
 ## <a name="permissions-or-role-based-access"></a>Autorisations ou accès en fonction du rôle
 

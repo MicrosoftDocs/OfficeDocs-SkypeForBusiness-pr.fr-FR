@@ -1,5 +1,5 @@
 ---
-title: Musique en attente
+title: Musique attente
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,33 +14,33 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: ''
-description: Découvrez comment gérer la fonctionnalité Musique en attente dans Système téléphonique.
-ms.openlocfilehash: d3fa7188e3d2320ba4eeb17ca95d28d1f57c18c4
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+description: Découvrez comment gérer la fonctionnalité Musique attente dans Système téléphonique.
+ms.openlocfilehash: a1e2662c04cfa9300d034aaaf8d7975e44e63f69
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767407"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514781"
 ---
-# <a name="music-on-hold"></a>Musique en attente
+# <a name="music-on-hold"></a>Musique attente
 
 Lorsqu’Microsoft Teams un utilisateur place un appel entrant en provenance du réseau téléphonique commuté (RST) en attente, l’appelant PSTN peut écouter la musique sélectionnée.
 
 La musique lie est soit la musique par défaut fournie par Microsoft, soit la musique personnalisée que vous téléchargez et configurez. En tant qu’administrateur client, vous configurez si une Musique mise en attente est disponible en créant une stratégie d’appel Teams et en attribuant la stratégie à l Teams utilisateur.
 
-La musique par défaut fournie dans les Microsoft Teams d’appel PSTN est gratuite, sans frais de redevance payables par votre organisation.
+La musique par défaut fournie dans les Microsoft Teams d’appel PSTN est gratuite des redevances payables par votre organisation.
 
 Notez que les appelants PSTN peuvent également écouter des Musique en attente dans d’autres scénarios (par exemple, lorsqu’ils appellent une file d’attente d’appels dans le cloud ou quand leur appel est mis en attente par un Microsoft Teams utilisateur). Ces scénarios ne sont pas couverts ni contrôlés par les fonctionnalités mentionnées dans cet article.
 
-## <a name="configure-music-on-hold"></a>Configurer l’Musique en attente
+## <a name="configure-music-on-hold"></a>Configurer Musique attente
 
 Pour configurer une Musique en attente :
 
-1.  Dans le panneau de navigation de gauche du Teams d’administration, allez dans stratégies **d> d’appel voice.**
+1.  Dans le panneau de navigation gauche du Teams d’administration, allez dans les stratégies **> d’appel de Voice >**.
 
 2.  Sous **l’onglet Gérer les** stratégies, sélectionnez une des stratégies existantes ou créez-en une.
 
-3.  Dans la Musique en attente pour les appelants **PSTN,** sélectionnez Activé **dans** le menu déroulant.
+3.  Dans la **Musique en attente pour les appelants PSTN,** sélectionnez **Activé dans le** menu déroulant.
 
 Vous pouvez également configurer les Musique en attente à l’aide du module Teams PowerShell. Dans TeamsCallingPolicy, modifiez le paramètre MusicOnHoldEnabledType sur Activé, puis accordez cette instance de stratégie à un ou plusieurs utilisateurs.
 
@@ -52,7 +52,7 @@ En plus de lire de la musique par défaut pour les appelants PSTN, vous pouvez t
 Par exemple, un service ou une organisation peut être désireux de lire une annonce personnalisée ou une musique personnalisée lorsque des appelants PSTN externes sont mis en attente.  
 
 > [!NOTE]
-> Vous êtes responsable de la suppression et de la sécurisation indépendantes de tous les droits et autorisations nécessaires pour utiliser tout fichier audio ou musical avec votre service Microsoft Teams client. Cela peut inclure la propriété intellectuelle et d’autres droits sur la musique, les effets sonores, l’audio, les marques, les noms et tout autre contenu du fichier audio de tous les titulaires des droits concernés. Les titulaires peuvent inclure des artistes, des acteurs, des acteurs, des dirigeants, des musiques, des étiquettes d’enregistrement, des éditeurs de musique, des musiques, des garde, des droits, des organisations de gestion collectives et toute autre partie qui possède, contrôle ou licence les droits d’auteur, les effets sonores, les droits audio et autres droits de propriété intellectuelle.
+> Vous êtes responsable de la suppression et de la sécurisation indépendantes de tous les droits et autorisations nécessaires pour utiliser tout fichier audio ou audio avec votre service Microsoft Teams musique. Cela peut inclure la propriété intellectuelle et d’autres droits sur la musique, les effets sonores, l’audio, les marques, les noms et tout autre contenu du fichier audio de tous les titulaires des droits concernés. Les titulaires peuvent inclure des artistes, des acteurs, des acteurs, des dirigeants, des musiques, des étiquettes d’enregistrement, des éditeurs de musique, des musiques, des garde, des droits, des organisations de gestion collectives et toute autre partie qui possède, contrôle ou licence les droits d’auteur, les effets sonores, les droits audio et autres droits de propriété intellectuelle.
 
 Pour configurer les Musique personnalisées en attente, utilisez les cmdlets PowerShell New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy et Import/Get/Remove/Export-CsOnlineAudioFile dans Teams PowerShell module 3.0.0 ou une ultérieure.
 
@@ -67,7 +67,7 @@ Pour les formats audio pris en charge et la taille de fichier maximale, voir [Im
 
 ### <a name="upload-the-custom-audio-file"></a>Télécharger fichier audio personnalisé
 
-La configuration d’une Musique mise en attente commence par le téléchargement du fichier audio. À cette fin, vous utilisez l’cmdlet PowerShell [Import-CsOnlineAudioFile.](/powershell/module/skype/import-csonlineaudiofile)
+La configuration de fichiers Musique mise en attente commence par le téléchargement du fichier audio. À cette fin, vous utilisez l’cmdlet PowerShell [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile) .
 
 Voici un exemple de chargement d’un fichier audio MP3 à l’aide de l’interface PowerShell :
 
@@ -82,7 +82,7 @@ ApplicationId : TenantGlobal
 
 ### <a name="reference-the-audio-file-in-a-teams-call-hold-policy"></a>Référencer le fichier audio dans une stratégie de Teams d’appel
 
-Après avoir téléchargé le fichier audio, vous devez référencer le fichier dans une stratégie de mise en attente d’appel Teams à l’aide de l’ID du fichier lorsque vous créez ou définissez une stratégie de mise en attente d’appel Teams. Par exemple :
+Après avoir téléchargé le fichier audio, vous devez référencer le fichier dans une stratégie de mise en attente d’appel Teams à l’aide de l’ID du fichier lorsque vous créez ou définissez une stratégie de Teams d’appel. Par exemple :
 
 ```PowerShell
 C:\> New-CsTeamsCallHoldPolicy -Identity "CustomMoH1" -Description "Custom MoH using CustomMoH1.mp3" -AudioFileId $AudioFile.Id
@@ -112,13 +112,13 @@ Le tableau suivant indique les fonctionnalités sur quels clients et appareils q
 
 ## <a name="restrictions"></a>Restrictions
 
-- Musique attente n’est disponible que dans le cloud commercial.
+- Musique en attente est disponible uniquement dans les instances commerciales et cloud Cloud de la communauté du secteur public cloud.
 
 - Musique attente n’est disponible que lorsque l’utilisateur est en mode TeamsOnly.
 
-- Si l’Teams d’appels est activé pour lLocation-Based routage des appels, l’Musique est en attente ne peut pas être joué à l’appelant.
+- Si l’Teams d’appels est activé pour lLocation-Based routage des appels, l’Musique en attente ne peut pas être joué à l’appelant.
 
-- Les Musique en attente personnalisée ne sont pas disponibles pour les utilisateurs configurés pour l’apparence de ligne partagée (délégation) et lorsque le parc d’appel est utilisé. L’Musique en attente standard est ledée.
+- Les Musique en attente personnalisée ne sont pas disponibles pour les utilisateurs configurés pour l’apparence de ligne partagée (délégation) et lorsque le parc d’appel est utilisé. L’Musique est en attente sera led.
 
 - Dans certains cas, un appel de dérivation média de routage direct sera converti en contournement multimédia non multimédia pour la lecture de Musique en attente et l’appel restera comme une dérivation non multimédia jusqu’à la fin de l’appel.
 

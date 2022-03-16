@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et périphériques USB (casques, téléphones haut-parleurs, webcams et moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 0e85a2317ba79bdedeca30dbd566ab84b557ec6f
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 3fccae62c996e0301e6bbe928cae17ff163c650e
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503551"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514525"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft Teams
 
@@ -78,6 +78,9 @@ Si vous êtes fabricant et que vous souhaitez participer au programme de certifi
 
 | Fabricant        | Modèle                                                     | Qualifié      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|DONT LE TITRE EST LE PLUS GRAND                 |ADAPT 661                                                  |3/11/2022       |Certifié pour les Microsoft Teams                           |
+|DONT LE TITRE EST LE PLUS GRAND                 |ADAPT 461T                                                 |3/11/2022       |Certifié pour les Microsoft Teams                           |
+|DONT LE TITRE EST LE PLUS GRAND                 |ADAPT 361                                                  |3/11/2022       |Certifié pour les Microsoft Teams                           |
 |Dell                 |Speakerphone SP3022                                        |2/7/2022        |Certifié pour les Microsoft Teams                           |
 |Dell                 |Slim Conferencing Soundbar SB522A                          |1/25/2022       |Certifié pour les Microsoft Teams                           | 
 |Lenovo               |Utiliser le casque ANC câblé                                       |1/12/2022       |Certifié pour les Microsoft Teams                           |

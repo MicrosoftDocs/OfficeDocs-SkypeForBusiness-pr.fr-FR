@@ -1,5 +1,5 @@
 ---
-title: "Déconnexion de Microsoft\_Teams"
+title: Déconnexion de Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,17 +8,22 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: sbhatta
-description: "Découvrez comment vous déconnecter de Microsoft\_Teams."
+description: Découvrez comment vous déconnecter de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 f1.keywords:
-  - NOCSH
+- NOCSH
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: b453295c02ef371c06c3adea4c2c8489c0a58468
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514709"
 ---
-
 # <a name="sign-out-of-microsoft-teams"></a>Déconnexion de Microsoft Teams
 
 Nous recommandons aux utilisateurs de rester connectés à l’application Microsoft Teams pour continuer à recevoir des conversations, des appels entrants et d’autres activités. Nous comprenons que, parfois, les utilisateurs peuvent vouloir se déconnecter de l’application Teams pour plusieurs raisons :
@@ -49,7 +54,7 @@ Sur un appareil mobile, vous pouvez vous déconnecter de Teams en accédant au m
 
 ### <a name="global-sign-in-and-sign-out-for-frontline-workers"></a>Connexion et déconnexion générale des employés de terrain
 
-L’application Android Teams prend désormais en charge la connexion et la déconnexion générale pour offrir une expérience de connexion et de déconnexion aisée pour les employés de terrain. Les employés peuvent choisir un appareil dans le pool d’appareils partagés et effectuer une connexion unique pour la « rendre personnelle » pendant la durée de leur shift. À la fin de leur shift, ils doivent pouvoir effectuer une déconnexion globale de l’appareil. Cette opération permet de supprimer toutes les informations personnelles et professionnelles de l’appareil afin de pouvoir rétablir l’appareil sur le pool d’appareils. Pour obtenir cette fonctionnalité, l’appareil doit être en mode partagé. Pour plus d’informations sur la configuration d’un appareil partagé, voir [Comment utiliser un mode d’appareil partagé dans Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+L’application Android Teams prend désormais en charge la connexion et la déconnexion générale pour offrir une expérience de connexion et de déconnexion aisée pour les employés de terrain. Les employés peuvent choisir un appareil dans le pool d’appareils partagés et effectuer une connexion unique pour la « rendre personnelle » pendant la durée de leur shift. À la fin de leur shift, ils doivent pouvoir effectuer une déconnexion globale de l’appareil. Cette opération permet de supprimer toutes les informations personnelles et professionnelles de l’appareil afin de pouvoir rétablir l’appareil sur le pool d’appareils. Pour obtenir cette fonctionnalité, l’appareil doit être en mode partagé.  Veillez à mettre fin à une réunion ou à un appel actif sur l’appareil avant de vous déconnecter. Pour découvrir comment configurer un appareil partagé, voir [Comment utiliser un mode d’appareil partagé dans Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
 ## <a name="manual-cleanup"></a>Nettoyage manuel
 
