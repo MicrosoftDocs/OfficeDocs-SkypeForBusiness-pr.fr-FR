@@ -629,8 +629,6 @@ items:
                 href: cloud-recording.md
               - name: Utiliser OneDrive Entreprise et SharePoint ou Stream pour les enregistrements de réunion
                 href: tmr-meeting-recording-change.md
-              - name: Intégrations au Centre de contacts
-                href: teams-contact-center.md
               - name: Utiliser le complément Réunion Teams dans Outlook
                 href: teams-add-in-for-outlook.md
               - name: Configurer l'application Skype pour les réunions afin de travailler avec des Teams
@@ -1287,6 +1285,8 @@ items:
                 href: add-funds-and-manage-communications-credits.md
           - name: Carrousel Microsoft Teams
             href: microsoft-teams-online-call-flows.md
+          - name: Intégrations au Centre de contacts
+            href: teams-contact-center.md
   - name: Gestion des appareils et des salles
     items:
       - name: Salles Microsoft Teams

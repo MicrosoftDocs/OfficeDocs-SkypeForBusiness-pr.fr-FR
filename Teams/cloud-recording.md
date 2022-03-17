@@ -19,12 +19,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7136ea224b23e29e7b4e669fbe3d364b787193fd
-ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
+ms.openlocfilehash: c91e964d9cc0bfc3047ed8413dff15e5aafb0cb8
+ms.sourcegitcommit: 4c608bf06f43e88c844492c262a26dcf3eacb4c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63043352"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63523803"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -274,142 +274,11 @@ La taille d’un enregistrement de 1 heure est de 400 Mo. Veillez à bien compre
  <a name="auto-expiration"></a>
 ### <a name="auto-expiration-of-teams-meeting-recordings"></a>Expiration automatique des enregistrements de réunion Teams
 
+Consultez les questions fréquemment posées aux administrateurs et aux utilisateurs finaux pour recueillir des informations sur le fonctionnement de l’expiration automatique des enregistrements de réunion Teams, les actions que vous pouvez effectuer maintenant et les actions que vous pouvez effectuer après le lancement de la fonctionnalité.
+  
 En savoir plus sur les modifications spécifiques à l’administrateur [ici.](meeting-expiration.md#changes-to-meeting-expiration)
 
 Découvrez comment les utilisateurs finaux peuvent gérer l’expiration des réunions [ici](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date).
-  
-Consultez les questions fréquemment posées aux administrateurs et aux utilisateurs finaux pour recueillir des informations sur le fonctionnement de l’expiration automatique des enregistrements de réunion Teams, les actions que vous pouvez effectuer maintenant et les actions que vous pouvez effectuer après le lancement de la fonctionnalité.
-  
-## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
-
-**Quelle est la modification ?**
-  
-Nous ’ introduisons un paramètre d’expiration par défaut de 60 jours pour tous les enregistrements de réunion Teams nouvellement créés. Cela signifie que, par défaut, tous les TMR créés après l’activation de cette fonctionnalité seront supprimés 60 jours après leur date de création. Si les administrateurs souhaitent que les enregistrements de réunion expirent plus tôt ou plus tard que la valeur par défaut, ils peuvent modifier le paramètre d’expiration. Les systèmes OneDrive et SharePoint surveillent la date d’expiration définie sur tous les enregistrements de réunion et les déplacent automatiquement vers la Corbeille à leur date d’expiration.
-
-**Qui est concerné ?**
-  
-Toute personne stockant un enregistrement de réunion Teams (sans canal, canal ou réunion ad hoc) dans OneDrive ou SharePoint.
-
-**Pourquoi dois-je utiliser cette fonctionnalité ?**
-  
-Vous devez utiliser cette fonctionnalité pour limiter le stockage OneDrive ou SharePoint consommé par les enregistrements de réunion Teams (remarque : ils utilisent généralement environ 400 Mo par heure d’enregistrement).
-  
-**Pourquoi introduisons-nous ce changement ?**
-  
-Les clients ont envoyé des commentaires excessifs indiquant qu’ils souhaitent davantage de contrôles pour réduire l’encombrement du stockage créé à partir des enregistrements de réunion Teams, dont 99 % en moyenne ne sont jamais revus après 60 jours.
-  
-**Pourquoi cette option est-elle activée par défaut ?**
-  
-Nous pensons que presque tous les clients tireront parti de la charge de stockage réduite sur leur locataire en supprimant les enregistrements qui ne seront probablement jamais revus après 60 jours. Notre objectif est de fournir une expérience aussi propre que possible à tous les clients par défaut.
-  
-**Sera-t-il automatiquement supprimé même si les données sont accessibles ou téléchargées ?**
-  
-L’accès au fichier ne modifie pas la date d’expiration.
-  
-**La date d’expiration est-elle visible sous forme de colonne dans la liste ?**
-
-Les utilisateurs ayant un accès visuel à l'enregistrement verront une icône rouge en regard du fichier dans le dossier OneDrive ou SharePoint 14 jours avant l'expiration du fichier. Il n’existe actuellement aucun moyen d’ajouter une colonne à une liste avec une date d’expiration.
-  
-**Comment la date d’expiration est-elle calculée ?**
-  
-La date d’expiration est calculée en tant que jour de création de l’enregistrement de réunion, plus le nombre de jours par défaut défini dans le paramètre Teams par l’administrateur.
-  
-**La date d'expiration peut-elle être modifiée pour chaque TMR, par exemple la date d'expiration des données A est de 30 jours et celle des données B de 60 jours ?**
-
-Oui, la date d’expiration est définie par fichier. Les utilisateurs peuvent modifier la date d’expiration dans le volet d’informations des détails d’un fichier sélectionné dans OneDrive ou SharePoint.
-
-**Comment un administrateur peut-il modifier la date d’expiration ?**
-  
-Les administrateurs peuvent modifier le paramètre d’expiration par défaut dans PowerShell ou le Centre d’administration Teams des utilisateurs avant la publication de la fonctionnalité. La modification des paramètres d’expiration aura uniquement un impact sur les TMRs nouvellement créés à partir de ce point. Cela n’aura aucun impact sur les enregistrements effectués avant cette date. Les nouveaux enregistrements n’expireront pas automatiquement jusqu’à la publication de la fonctionnalité, même si vous pouvez définir l’attribut de stratégie avant sa publication.
-
-La valeur de jours d’expiration peut être définie comme suit :
-  
-- La valeur peut être de 1 à 9 999.
-- La valeur peut également être -1 pour que le TMR n’expire jamais. 
- 
-Les administrateurs ne peuvent pas modifier la date d’expiration des TMRs existants déjà chargés sur OneDrive ou SharePoint avant la publication de cette fonctionnalité. Cela protège l’intention de l’utilisateur propriétaire du TMR.
-  
-Pour modifier le comportement d’expiration automatique par défaut de votre client, modifiez l’attribut suivant dans PowerShell. Dans cet exemple, la valeur par défaut est remplacée par 50 jours.
- 
-Set-CsTeamsMeetingPolicy -Identity Global -**New** MeetingRecordingExpirationDays 50
-
-La possibilité de modifier le paramètre par défaut dans le Centre d’administration Teams sera déployée ultérieurement, au moins 30 jours avant notre activation de la fonctionnalité d’expiration automatique par défaut.
-  
-**Un administrateur peut-il définir les TMR pour qu’ils n’expirent jamais ?**
-  
- Oui, les administrateurs peuvent configurer les TMR pour qu’ils n’expirent jamais.
-  
-**La lecture de l’enregistrement modifie-t-elle la date d’expiration ?**
-
-Non, la lecture n’a pas d’impact sur la date d’expiration.
-  
-**Que se passe-t-il à la date d’expiration si le TMR est téléchargé et chargé à nouveau ?**
-
-La date d'expiration sera effacée lors du nouveau chargement, indépendamment de la référence (SKU) de l'utilisateur.
-  
-**Que se passe-t-il si je copie ou déplace le TMR vers un autre emplacement ou site ?**
-
-La date est conservée uniquement pour un fichier TMR déplacé. Un fichier copié n'aura pas de date d'expiration, tout comme un TMR rechargé.
-  
-
-**Quelle est l’étendue du contrôle de la stratégie d’administration ?**
-  
-Les réunions et les appels sont contrôlés par le même `CsTeamsMeetingPolicy`paramètre,`MeetingRecordingExpirationDays`. 
-  
-**Comment les utilisateurs finaux peuvent-ils modifier la date d’expiration sur un fichier TMR spécifique ?**
-  
-Toute personne disposant d’autorisations de modification et de suppression sur un TMR peut modifier la date d’expiration dans le ’ volet d’informations du fichier dans OneDrive ou SharePoint.
-
-L’utilisateur peut différer l’expiration 14, 30 ou 60 jours, ou choisir une date spécifique à l’avenir, ou il peut sélectionner que le fichier n’a jamais expiré.
-  
-**Les administrateurs doivent-ils s’appuyer sur cette fonctionnalité pour un respect strict de la sécurité et de la conformité ?**
-  
-Non, les administrateurs ne doivent pas s’appuyer sur cette fonctionnalité pour bénéficier d’une protection légale, car les utilisateurs finaux peuvent modifier la date d’expiration de tous les enregistrements qu’ils contrôlent.
-  
-**Cette fonctionnalité appliquera-t-elle la rétention des fichiers ?**
-  
-Non, les fichiers ne seront pas conservés en raison de cette fonctionnalité ou de ses paramètres. Si un utilisateur disposant d’autorisations de suppression tente de supprimer un TMR dont le paramètre d’expiration est défini, l’action de suppression de cet utilisateur ’ est exécutée.
-
-**Une stratégie de rétention et/ou de suppression que j’ai définie dans le centre de sécurité et conformité (S+C) remplacera-t-elle le paramètre d’expiration TMR ?**
-  
-Oui, toutes les stratégies que vous avez définies dans le centre S+C sont prioritaires. Par exemple :
-  
-- Si vous avez une stratégie qui indique que tous les fichiers d’un site doivent être conservés pendant 100 jours et que le paramètre d’expiration d’un TMR est de 30 jours, le fichier d’enregistrement est conservé pendant les 100 jours complets.  
-- Si vous avez une stratégie de suppression qui indique que tous les tmrs seront supprimés après 5 jours et que vous avez un paramètre d’expiration sur un fichier d’enregistrement de 30 jours, ce fichier sera supprimé au bout de cinq jours.
-
-**Que se passe-t-il lorsqu’un TMR « expire » ?**
-  
-À la date d’expiration, le TMR est déplacé dans la Corbeille OneDrive ou SharePoint et le champ date d’expiration est effacé. Cette action du système est exactement la même que si un utilisateur a supprimé le fichier. Le cycle de vie de la corbeille suit ensuite le chemin d’accès normal. Si l’utilisateur récupère le TMR à partir de la Corbeille, le TMR ne sera plus supprimé par cette fonctionnalité depuis que la date d’expiration a été effacée, sauf si l’utilisateur final définit une nouvelle date d’expiration sur le fichier.
-  
-**Comment être averti de l’expiration d’un fichier ?**
-  
-Toutes les personnes disposant d’un accès à l’affichage verront une notification concernant la date d’expiration dans l’applet de commande d’enregistrement dans la fenêtre de conversation Teams.
-  
-Toutes les personnes ayant accès à l’affichage verront une icône rouge en regard du fichier dans votre dossier OneDrive ou SharePoint 14 jours avant l’expiration du fichier.
-  
-Le propriétaire du fichier reçoit une notification par e-mail lorsque le TMR expire et est dirigé vers la Corbeille pour récupérer le TMR s’il le souhaite.
-  
-**Quelles sont les références SKU requises pour cette fonctionnalité ?**
-  
-Toutes les références SKU auront cette fonctionnalité par défaut. Les utilisateurs A1 ont par défaut une période d’expiration de 30 jours.
-  
-**L’expiration du fichier est-elle un événement audité et puis-je le voir dans mes journaux d’audit ?**
-  
-Oui, les expirations de fichiers s’affichent en tant qu’événements de suppression du système dans le journal d’audit.
-  
-**Que se passe-t-il si je souhaite que l’administrateur ait un contrôle total sur le cycle de vie des tmrs et ne ’ souhaite pas donner aux utilisateurs finaux la possibilité de remplacer la date d’expiration ?**
-  
-Nous vous recommandons d’utiliser les stratégies de rétention et/ou de suppression S+C disponibles dans le cadre de la référence SKU de conformité E5. Cette offre vise à résoudre des problèmes juridiques d’administration complexes basés sur des stratégies et des contrats SLA.
-
-Cette fonctionnalité est uniquement conçue comme un mécanisme léger de nettoyage pour réduire l’encombrement du stockage créé à partir de TMR froids.
-  
-**Quand le fichier sera-t-il supprimé ?**
-  
-Le fichier sera supprimé dans les 5 jours suivant la date d’expiration, bien qu’il ne s’agit pas d’une garantie stricte.
-  
-**L’expiration automatique sera-t-elle également appliquée aux futures tmrs migrées à partir de Classic Stream après la publication de cette fonctionnalité ?**
-  
-Non, les tmrs migrés ne sont pas fournis avec un délai d’expiration défini sur eux. Au lieu de cela, nous encourageons les administrateurs à migrer uniquement les TMR qu’ils souhaitent conserver. Vous trouverez plus de détails dans la documentation de migration.
   
 ## <a name="manage-meeting-recordings"></a>Gérer les enregistrements de réunion
 
