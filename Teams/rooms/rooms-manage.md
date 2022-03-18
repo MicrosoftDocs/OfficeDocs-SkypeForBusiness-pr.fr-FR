@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Découvrez comment développer et exécuter la maintenance et les opérations continues pour vous assurer que vos systèmes Salles Microsoft Teams sont disponibles pour vos utilisateurs.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 82725093e67b0f7619ea97837b53fd841b965146
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 12738e544e8bf0f2e46979df0a1d64ea762bfa1f
+ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63504101"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63556640"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gérer les Salles Microsoft Teams
 
@@ -117,7 +117,7 @@ La ligne de première ligne est l’option de disposition du salles Teams réuni
 
 | Teams appareil | Version de l’application | Affichage à l’avant de la salle |
 |--------------|-------------|-----------------------|
-|Salles Microsoft Teams sur Windows | 4.11.12.0 ou version supérieure (la dernière version est recommandée) | Prend en charge les affichages simples et doubles ; Taille minimale : 46 pouces ; Proportions 16:9 avec 1920*1080 résolution ou 21:9 avec 2560 x 1080 résolution ; Tous les affichages doivent être mis à l’échelle de 100 % dans Windows paramètres |
+|Salles Microsoft Teams sur Windows | 4.11.12.0 ou version supérieure (la dernière version est recommandée) | Prend en charge les affichages simples et doubles ; Taille minimale : 46 pouces ; Proportions 16:9 avec résolution 1920 x 1080 ou 21:9 avec résolution 2560 x 1080 ; Tous les affichages doivent être mis à l’échelle de 100 % dans Windows paramètres |
 
 [Consultez Salles Microsoft Teams maintenance et les opérations](rooms-operations.md#change-scale-and-resolution) pour ajuster vos paramètres d’affichage afin de répondre aux besoins de la première ligne.
 

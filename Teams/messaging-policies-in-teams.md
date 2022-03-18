@@ -20,24 +20,24 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Découvrez les stratégies de messagerie et comment elles peuvent être utilisées pour contrôler la messagerie instantanée dans Teams.
-ms.openlocfilehash: b2163e780706a17b7793f8451b1bdb85a1830b2b
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 968e79952381b04f5165f285807cfe3a07237307
+ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205264"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63564766"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
 <!--- Add zone marker here--->
 
-Les stratégies de messagerie servent à contrôler les fonctionnalités de conversation et de messagerie de canal disponibles pour les utilisateurs (propriétaires et [membres)](assign-roles-permissions.md) Microsoft Teams. Vous pouvez utiliser la stratégie globale (à l’échelle de l’organisation par défaut) créée automatiquement ou créer et attribuer des stratégies de messagerie personnalisées.
+Les stratégies de messagerie servent à contrôler les fonctionnalités de conversation et de messagerie de canal disponibles pour les utilisateurs [(propriétaires](assign-roles-permissions.md) et membres) Microsoft Teams. Vous pouvez utiliser la stratégie globale (à l’échelle de l’organisation par défaut) créée automatiquement ou créer et attribuer des stratégies de messagerie personnalisées.
 
 Les utilisateurs de votre organisation obtiennent automatiquement la stratégie globale, sauf si vous créez et attribuez une stratégie personnalisée. Modifiez les paramètres de la stratégie globale ou créez et affectez une ou plusieurs stratégies personnalisées pour activer ou désactiver les fonctionnalités que vous souhaitez.
 
 ## <a name="create-a-custom-messaging-policy"></a>Créer une stratégie de messagerie personnalisée
 
-1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez dans **Stratégies de messagerie.**
+1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez dans **Stratégies de messagerie**.
 2. Sélectionnez **Ajouter**.
 3. Entrez un nom pour votre stratégie, ainsi qu’une description.
 4. Sélectionnez les paramètres de votre choix.
@@ -55,7 +55,7 @@ Affectez ensuite la stratégie aux utilisateurs.
 
 Vous pouvez modifier la stratégie globale et les stratégies personnalisées que vous créez.
 
-1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez dans **Stratégies de messagerie.**
+1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez dans **Stratégies de messagerie**.
 2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci, puis sélectionnez **Modifier**.
 3. À partir de là, apportez les modifications souhaitées.
 4. Sélectionnez **Enregistrer**.
@@ -75,7 +75,7 @@ Un utilisateur ne peut avoir qu’une stratégie de messagerie à la fois.
 
 Voici les paramètres de stratégie de messagerie que vous pouvez configurer.
 
-- **Les propriétaires peuvent supprimer les messages envoyés**  Utilisez ce paramètre pour que les propriétaires suppriment les messages que les utilisateurs ont envoyés dans les discussions.
+- **Les propriétaires peuvent supprimer les messages envoyés**  Utilisez ce paramètre pour que les propriétaires suppriment des messages de canal ou des publications que les utilisateurs ont envoyés.
 - **Supprimer les messages envoyés** Ce paramètre permet aux utilisateurs de supprimer les messages qu’ils ont envoyés dans une conversation.
 - **Modifier les messages envoyés** Ce paramètre permet aux utilisateurs de modifier les messages qu’ils ont envoyés dans une conversation.
 - **Read receipts** Les receipts de lecture permettent à l’expéditeur d’un message de conversation d’être informé lorsque son message a été lu par le destinataire dans les conversations de groupe de 1:1 et de 20 personnes au moins. Les messages de lecture sont supprimés de manière visuelle pour déterminer si un message a été lu ou non et améliorer la communication au niveau de l’équipe. Les reçus de lecture ne sont pas capturés dans les rapports eDiscovery.  
@@ -85,7 +85,7 @@ Voici les paramètres de stratégie de messagerie que vous pouvez configurer.
 <a name="bkchat"> </a>
 
 - **Bavarder**  Activer ce paramètre si vous voulez que les utilisateurs de votre organisation puissent utiliser l’application Teams pour discuter avec d’autres personnes.
-- *Utilisez Giphy dans les conversations** Si vous allumez Giphys, les utilisateurs peuvent inclure des Giphys dans les conversations avec d’autres personnes. Giphy est une base de données en ligne et moteur de recherche qui permet aux utilisateurs de rechercher et partager des fichiers GIF animés. Chaque Giphy est affecté à une évaluation du contenu. En plus d’activer ce paramètre, [](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) vous devez activer les expériences connectées facultatives pour autoriser les Giphys dans les conversations.
+- *Utilisez Giphy dans les conversations** Si vous allumez Giphys, les utilisateurs peuvent inclure Des Giphys dans les conversations avec d’autres personnes. Giphy est une base de données en ligne et moteur de recherche qui permet aux utilisateurs de rechercher et partager des fichiers GIF animés. Chaque Giphy est affecté à une évaluation du contenu. En plus d’activer ce paramètre, vous devez activer les [](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) expériences connectées facultatives pour autoriser les Giphys dans les conversations.
 - **Évaluation du contenu Giphy**
   - **Aucune restriction** Cela signifie que vos utilisateurs pourront insérer des Giphy dans les conversations, quel que soit l’évaluation du contenu.
   - **Modéré**  Cela signifie que vos utilisateurs pourront insérer des Giphys dans les conversations, mais que le contenu pour adultes sera modérément restreint.
@@ -95,7 +95,7 @@ Voici les paramètres de stratégie de messagerie que vous pouvez configurer.
 - **Aperçus d’URL** Utilisez ce paramètre pour activer ou désactiver la prévisualisation automatique des URL dans les messages.
 - **Traduire des messages** Activer ce paramètre pour que les utilisateurs traduisent automatiquement Teams messages dans la langue spécifiée par leurs paramètres de langue personnels pour Microsoft 365 ou Office 365.
 - **Lecteur immersif des messages** Activer ce paramètre pour que les utilisateurs visualisent les messages dans Microsoft Lecteur immersif. Lecteur immersif est un outil d’apprentissage qui offre une expérience de lecture plein écran pour améliorer la lisibilité du texte.
-- **Envoyer des messages urgents à l’aide de notifications de priorité** Si vous l’activer, les utilisateurs peuvent envoyer des messages à l’aide de [notifications de priorité.](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) Les notifications de priorité informent les utilisateurs toutes les  2 minutes pendant 20 minutes ou jusqu’à ce que les messages marqués comme urgents soient choisis et lus par le destinataire. Cette fonctionnalité augmente la probabilité que le message soit envoyé dans un délai raisonnable.
+- **Envoyer des messages urgents à l’aide de notifications de priorité** Si vous l’activer, les utilisateurs peuvent envoyer des messages à l’aide de [notifications de priorité](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Les notifications de priorité informent les utilisateurs toutes les 2 minutes pendant 20 minutes ou jusqu’à ce que les messages marqués comme urgents soient choisis et lus par le destinataire. Cette fonctionnalité augmente la probabilité que le message soit envoyé dans un délai raisonnable.
 - **Créer des messages vocaux**
   > [!Important]
   > Les messages audio ne sont pas capturés dans les rapports eDiscovery.
@@ -111,7 +111,7 @@ Voici les paramètres de stratégie de messagerie que vous pouvez configurer.
 > [!NOTE]
 > Certains de ces paramètres, tels que l’utilisation de Giphys, peuvent également être configurés au niveau de l’équipe par les propriétaires d’équipe et au niveau du canal privé par les propriétaires de canaux privés.
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Voir aussi
 
 - [Attribuer des stratégies aux utilisateurs et groupes dans Teams](assign-policies-users-and-groups.md)
 - [Affecter des propriétaires d’équipe et des membres dans Microsoft Teams](assign-roles-permissions.md)

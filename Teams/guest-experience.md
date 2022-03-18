@@ -19,16 +19,19 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Cette article décrit la fonctionnalité Microsoft Teams disponible pour les invités.
-ms.openlocfilehash: 5d8bb9ab670da0a4002f69cf5ddec9f245cd9c13
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: c7052eb22a68b146c3ee998b57ba877da82e11b4
+ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190689"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63556630"
 ---
 # <a name="guest-experience-in-teams"></a>Expérience de l’invité dans Microsoft Teams
 
 Lorsqu'un invité est convié à rejoindre une équipe, il reçoit un e-mail de bienvenue. Le message inclut des informations sur l'équipe et explique ce à quoi s’attendre maintenant qu'il est membre. L’invité doit accepter l’invitation en sélectionnant **Ouvrir Microsoft Teams** dans l’e-mail avant de pouvoir accéder à l'équipe et à ses canaux.
+
+> [!NOTE]
+> Une fois qu’un invité est ajouté à une équipe, quelques heures peuvent être avant qu’il n’y accède.
     
 ![Capture d’écran montrant un exemple d’e-mail de bienvenue.](media/guest-experience-image1.png)
     
