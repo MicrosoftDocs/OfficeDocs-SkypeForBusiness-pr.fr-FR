@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lorsque vous obtenez des numéros de téléphone ou des numéros de port (transfert) pour votre organisation, vous devrez peut-être obtenir de l’aide et une assistance au service TNS.
-ms.openlocfilehash: c32a6ed98cc54d04783025eacd03cb178e7f9120
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: b7ac8edd3c3c740f3b87feedc44535a193280a77
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733868"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660689"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>Services de numéro de téléphone (TNS) - Service Desk 
 
@@ -39,11 +39,13 @@ Un nouveau processus permet d’interagir avec le service TNS (Telephone Number 
 
 Pour contacter l’assistance :
 
-1. Connectez-vous à votre Centre d’administration Teams - admin.teams.microsoft.com.
+1. Connectez-vous à [votre Teams d’administration](https://admin.teams.microsoft.com).
 
-2. Dans le volet gauche, sélectionnez **Numéros de téléphone**.
+2. Dans le volet gauche, sélectionnez **Voix**, puis **sélectionnez Téléphone numéros**.
 
-3. En haut de la page, sélectionnez **Obtenir la prise en charge des numéros de téléphone**. Le Centre de services de numéro de téléphone s’affiche.  
+3. **Sélectionnez Ajouter** ou **Port**.
+
+4. En haut de la page, sélectionnez **Obtenir la prise en charge des numéros de téléphone**. Le Centre de services de numéro de téléphone s’affiche.  
 
 > [!NOTE]
 > Seule une personne du même client sera autorisée à créer un cas. Autrement dit, une personne de @fabrikam.com ne peut pas créer de cas pour le compte de @contoso.com. 
@@ -192,7 +194,7 @@ Vous pouvez afficher vos cas en sélectionnant **Afficher mes cas existants** et
 
 - **Filtrez vos cas** en sélectionnant **Cas ouverts**,  **Tous les cas**, ou **Cas fermés**.
 
-- **Communiquez avec le service TNS** concernant votre cas en ouvrant un cas existant, en faisant défiler la page vers le bas et en sélectionnant **Ajouter un commentaire.** Une nouvelle fenêtre s’affiche. Entrez votre message dans la zone de commentaire. Joignez tous les documents de prise en charge (le cas échéant) susceptibles d’aider à votre demande, puis sélectionnez **Soumettre**.  
+- **Communiquez avec le service TNS** concernant votre cas en ouvrant un cas existant, en faisant défiler la page vers le bas et en sélectionnant **Ajouter un commentaire**. Une nouvelle fenêtre s’affiche. Entrez votre message dans la zone de commentaire. Joignez tous les documents de prise en charge (le cas échéant) susceptibles d’aider à votre demande, puis sélectionnez **Soumettre**.  
 
   Les réponses du **service TNS** seront affichées sous la même chronologie. En cas de mise à jour de votre cas, vous recevez une notification par e-mail automatisée de la mise à jour. 
 

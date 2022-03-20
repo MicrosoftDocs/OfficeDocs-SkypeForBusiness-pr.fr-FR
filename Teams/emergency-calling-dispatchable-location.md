@@ -18,18 +18,18 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment Microsoft prend en charge les informations d’emplacement à cet emplacement pour prendre en charge les appels d’urgence.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7d241cee858d3ac19747be56b5a53e157b563f64
-ms.sourcegitcommit: 05e7c8ac9d6d6f712742d08820d43118c8949bbc
+ms.openlocfilehash: d80854fc36e6914ba48e8993d298c75b136bd06f
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61322999"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660709"
 ---
 # <a name="emergency-addresses-for-remote-locations"></a>Adresses d’urgence pour les emplacements distants
 
 Cet article décrit la prise en charge par Microsoft des informations d’emplacement d’appel d’urgence au 911 aux États-Unis. Ce support garantit que les informations d’emplacement à expédier les plus précises possible sont fournies aux Teams les utilisateurs qui appellent les services d’urgence. Quel que soit l’emplacement de l’appelant (sur site ou à domicile), les informations d’emplacement de l’appelant envoyées au Point de réponse de sécurité publique (PUBLIC SAFETY Answering Point) doivent être précises.
 
-Cet article inclut des informations sur la conformité de Microsoft avec l’Act for Multi Line Telephone Systems (MLTS) du BAUM. La loi RAY BAUM étend les obligations légales de Kari, qui sont entrées en vigueur début 2021. Pour plus d’informations sur le RAY BAUM’S Act et la loi de Kari, consultez l’emplacement du régulateur pour [les appels 911](https://www.fcc.gov/911-dispatchable-location) et les systèmes téléphoniques multi-lignes – Loi de Kari et [RAY BAUM’s Act 911 Direct Dialing, Notification et Conditions d’emplacement](https://www.fcc.gov/mlts-911-requirements)du service à la fois. 
+Cet article inclut des informations sur la conformité de Microsoft avec l’Act for Multi Line Telephone Systems (MLTS) du BAUM. La loi RAY BAUM étend les obligations légales de Kari, qui sont entrées en vigueur début 2021. Pour plus d’informations sur le RAY BAUM’S Act et la loi de Kari, consultez l’emplacement du régulateur pour les [appels 911](https://www.fcc.gov/911-dispatchable-location) et les systèmes téléphoniques [multi-lignes – Loi de Kari et RAY BAUM’s Act 911 Direct Dialing, Notification et Conditions d’emplacement](https://www.fcc.gov/mlts-911-requirements) du service à la fois. 
 
 Les utilisateurs qui travaillent à domicile peuvent désormais définir leurs propres adresses de secours, le cas échéant. Cet article décrit comment configurer des stratégies utilisateur pour que vos utilisateurs finaux définissent leurs adresses d’urgence.
 
@@ -64,7 +64,7 @@ Les adresses de secours Teams peuvent être classées selon différents types. L
 
 ## <a name="emergency-address-classification-and-routing"></a>Classification et routage des adresses d’urgence
 
-Le tableau suivant indique les types d’adresses d’urgence et les méthodes de routage associées pour chaque type : si l’appel est automatiquement acheminé vers le service CENTRE.PUBLIC ou s’il est filré pour plus de précision avant d’être transféré vers le service PUBLICP. Ce comportement de routage est pris en charge aux États-Unis pour tous les utilisateurs d’un plan d’appels, les partenaires Connecter opérateurs et les fournisseurs de services d’urgence certifiés pour le routage direct.
+Le tableau suivant indique les types d’adresses d’urgence et les méthodes de routage associées pour chaque type : si l’appel est automatiquement acheminé vers le service CENTRE.PUBLIC ou s’il est filré pour plus de précision avant d’être transféré vers le service PUBLICP. Ce comportement de routage est pris en charge aux États-Unis pour tous les utilisateurs d’un plan d’appels, les partenaires de gestion des appels Connecter et les fournisseurs de services d’urgence certifiés pour le routage direct.
 
 
 | Type d’adresse de secours | Méthode de routage d’urgence |
@@ -91,11 +91,11 @@ New-CsTeamsEmergencyCallingPolicy -Identity E911WFH -ExternalLocationLookupMode 
 Grant-CsTeamsEmergencyCallingPolicy -PolicyName E911WFH -Identity user@contoso.com
 ```
 
-Après avoir activation de cette fonctionnalité pour vos utilisateurs finaux, dans l’onglet Appels, l’utilisateur peut ajouter, modifier ou confirmer une adresse de secours et afficher l’adresse une fois celle-ci définie. 
+Après avoir activation de cette fonctionnalité pour vos utilisateurs finaux, dans l’onglet Appels, l’utilisateur peut ajouter, modifier ou confirmer une adresse de secours et afficher l’adresse une fois celle-ci définie. Pour plus d’informations sur la façon dont les utilisateurs finaux peuvent définir les services de localisation, voir Travail à partir de La Page d’urgence [911 : activer les services de localisation](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live).
 
-Sur Windows, vous pouvez gérer le service de localisation d’Windows, et déterminer si les applications ont accès à l’emplacement, à l’aide d’une stratégie de groupe ou à l’aide de la gestion des périphériques [mobiles.](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation)
+Sur Windows, vous pouvez gérer le service de localisation Windows et déterminer si les applications ont accès à l’emplacement, à l’aide d’une stratégie de groupe ou de la gestion des appareils [mobiles.](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation)
 
-Pour plus d’informations sur Windows service de localisation, voir Windows [service d’emplacement et la confidentialité.](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088)
+Pour plus d’informations sur Windows service de localisation, voir Windows [service d’emplacement et la confidentialité](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088).
 
 
 
@@ -105,14 +105,16 @@ Tenez compte des points suivants :
 
 - L’expérience domicile-travail décrite s’Teams bureau sur Windows et Mac.
 
-- Teams téléphones ne supportent pas l’expérience entre domicile et travail.
+- Teams ne supportent pas l’expérience entre domicile et travail.
 
 - Teams mobile prend en charge la détection automatique de l’emplacement, mais pas l’expérience entrée par l’utilisateur décrite.
 
 - Les paramètres de confidentialité peuvent être en conflit avec la détection automatique de l’emplacement - Vous pouvez utiliser des systèmes de gestion des appareils mobiles.
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
-[Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
+
+- [Travailler à partir de Home Emergency 911 : activer les services de localisation](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live)
 

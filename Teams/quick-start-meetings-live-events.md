@@ -1,7 +1,7 @@
 ---
-title: 'Démarrage rapide : réunions, webinaires et événements en direct'
+title: Réunions, webinaires et événements en direct
 ms.reviewer: ''
-description: Guide de démarrage rapide permettant aux administrateurs de déployer et de configurer des réunions, des webinaires et des événements en direct dans Microsoft Teams.
+description: Un guide destiné aux administrateurs pour déployer et configurer des réunions, des webinaires et des événements en direct dans Microsoft Teams.
 ms.topic: article
 author: CarolynRowe
 ms.author: crowe
@@ -20,29 +20,29 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed6abe00ac67b6029fdb72178ad09e21ec58e80d
-ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
+ms.openlocfilehash: ffd0ad9f9b765839a4543dd8600b558000fa164f
+ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "62974451"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63564736"
 ---
-# <a name="quick-start---meetings-webinars-and-live-events"></a>Démarrage rapide : réunions, webinaires et événements en direct 
+# <a name="meetings-webinars-and-live-events"></a>Réunions, webinaires et événements en direct 
 
 Il existe plusieurs façons de se réunir dans Microsoft Teams : réunions, webinaires et événements en direct. 
 
-Cet article, destiné aux administrateurs et aux professionnels de l’informatique, décrit brièvement les différences entre les réunions, les webinaires et les événements en direct. Il fournit ensuite des liens vers les informations dont vous avez besoin pour déployer rapidement cette fonctionnalité pour vos utilisateurs.
+Cet article, destiné aux administrateurs et aux professionnels de l'informatique, décrit les différences entre les réunions, les webinaires et les événements en direct. Il fournit ensuite des liens vers les informations dont vous avez besoin pour déployer rapidement cette fonctionnalité pour vos utilisateurs.
 
 > [!Note]
 > Pour plus d’informations sur la configuration rapide de réunions et d’événements Teams sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-## <a name="meetings-webinars-and-live-events"></a>Réunions, webinaires et événements en direct
 
-[Les réunions](#meetings), [webinaires](#webinars)et [événements en direct](#live-events) sont tous des types de réunions, mais les webinaires et les événements en direct offrent un contrôle supplémentaire à l’organisateur sur la conversation et les participants. Les webinaires fournissent une interaction bidirectionnelle tandis que les événements en direct offrent une expérience de questions et réponses gérée. 
+[Les réunions](#meetings), [les webinaires](#webinars) et [les événements en direct](#live-events) sont tous des types de réunions, mais les webinaires et les événements en direct offrent à l'organisateur un contrôle supplémentaire sur la conversation et les participants. Les webinaires permettent une interaction bidirectionnelle tandis que les événements en direct offrent une expérience de questions-réponses gérée. 
 
 Les différents types de réunions ont également des limites de participants et des fonctionnalités de participants différentes. 
 
-Le tableau suivant récapitule brièvement les trois types de réunions, le nombre de participants recommandés et la façon dont les participants peuvent interagir dans la réunion.<br><br>
+Le tableau suivant résume les trois types de réunions, le nombre de participants recommandé et la manière dont les participants peuvent interagir dans la réunion. Des sections contenant plus d'informations sur chaque type de réunion suivent le tableau. Cet article comprend également une section sur [les meilleures pratiques pour les grandes réunions](#best-practices-for-large-meetings).
+<br><br>
 
 | Type de réunion | Nombre de participants | Interaction | Inscription prise en charge |
 |----------|--------|--------|-----|
@@ -55,20 +55,9 @@ Le tableau suivant récapitule brièvement les trois types de réunions, le nomb
 
 **Les 10 000 habituels sont augmentés à 20 000 jusqu’au 30 juin 2022. Vous pouvez planifier des nombres encore plus importants avec des événements en direct dans Yammer et/ou Microsoft Stream. Pour plus d’informations, consultez [Événements en direct sur Microsoft 365](/stream/live-event-m365). Notez que les événements de plus de 20 000 participants nécessitent le [Programme d’assistance aux événements en direct](/stream/live-events-assistance). 
 
-**Considérations relatives aux grandes réunions, aux webinaires et aux événements en direct** : lors de l’hébergement de réunions de grande taille, tenez compte des points suivants :
+Notez que NDI est entièrement pris en charge dans les réunions, les webinaires et les événements en direct, ce qui vous permet de produire la diffusion en utilisant des outils tels que OBS et Wirecast. Pour plus d'informations, voir [Utiliser la technologie NDI® dans Microsoft Teams](use-ndi-in-meetings.md).
 
-- Pour une expérience optimale dans les grandes réunions, Microsoft recommande d’utiliser le client de bureau Teams ou les clients mobiles Teams. 
-
-- Les présentateurs des grandes réunions doivent utiliser le client de bureau Teams. 
-
-- Pour plus d’informations sur l’hébergement de grandes réunions, consultez [Meilleures pratiques pour une grande réunion Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
-
-Pour plus d’informations sur l’expérience de réunion en lecture seule, consultez [Expérience de réunion en lecture seule Teams](view-only-meeting-experience.md).
-
-Notez que NDI est entièrement pris en charge dans les réunions, les webinaires et les événements en direct, ce qui vous permet de produire la diffusion à l’aide d’outils tels que OBS et Wirecast. Pour plus d’informations, consultez [Utiliser la technologie NDI® dans Microsoft Teams](use-ndi-in-meetings.md).
-
-
-### <a name="meetings"></a>Réunions
+## <a name="meetings"></a>Réunions
 
 **Les réunions** dans Teams incluent le partage audio, vidéo et d’écran pour jusqu’à 1 000 personnes et des [fonctionnalités d’affichage uniquement](view-only-meeting-experience.md) pour les événements de plus de 1 000 participants. Les participants n’ont pas besoin d’être membres d’une organisation (ou d’avoir un compte Teams) pour participer à une réunion Teams. Ils peuvent participer directement à partir de l’invitation au calendrier via le lien Rejoindre la réunion ou appeler via audio, le cas échéant.  
 
@@ -76,7 +65,9 @@ En tant qu’administrateur, vous allez configurer les paramètres de réunion e
 
 Outre les réunions planifiées régulièrement, vos utilisateurs peuvent créer des réunions de canal. Avec les réunions de canal, tous les membres d’une équipe peuvent voir qu’il y a une réunion, participer à la réunion et utiliser la conversation de réunion. Les réunions de canal permettent d’inviter rapidement tous les membres d’une équipe à une réunion. Pour plus d’informations sur la façon dont les utilisateurs finaux planifient des réunions, consultez [Planifier une réunion](https://support.microsoft.com/office/schedule-a-meeting-in-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5).
 
-#### <a name="articles-for-administrators"></a>Articles pour les administrateurs
+Pour plus d’informations sur l’expérience de réunion en lecture seule, consultez [Expérience de réunion en lecture seule Teams](view-only-meeting-experience.md).
+
+### <a name="articles-for-administrators"></a>Articles pour les administrateurs
 
 Le tableau suivant met en évidence les articles clés que vous souhaitez examiner :
 
@@ -89,7 +80,7 @@ Le tableau suivant met en évidence les articles clés que vous souhaitez examin
 | [Utiliser la télémétrie en temps réel pour résoudre les problèmes de qualité des réunions](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | Décrit comment utiliser RTA (Real-Time Analytics) pour résoudre des problèmes de qualité des réunions Microsoft Teams pour des utilisateurs individuels. 
 |||
 
-#### <a name="key-training-for-end-users"></a>Formation clé pour les utilisateurs finaux
+### <a name="key-training-for-end-users"></a>Formation clé pour les utilisateurs finaux
 
 Le tableau suivant répertorie les formations disponibles pour les utilisateurs finaux de votre organisation :
 
@@ -102,12 +93,12 @@ Le tableau suivant répertorie les formations disponibles pour les utilisateurs 
 ||
 
 
-### <a name="webinars"></a>Séminaires web
+## <a name="webinars"></a>Séminaires web
 
 **Les webinaires** sont des réunions structurées où les présentateurs et les participants ont des rôles clairs. Une différence clé entre les webinaires et les réunions Teams est que les webinaires prennent en charge l’inscription et fournissent des données d’engagement des participants. Pour activer les webinaires dans votre organisation, consultez [Configurer des webinaires dans Teams](set-up-webinars.md). 
 
 
-#### <a name="key-training-for-end-users"></a>Formation clé pour les utilisateurs finaux
+### <a name="key-training-for-end-users"></a>Formation clé pour les utilisateurs finaux
 
 Le tableau suivant répertorie les formations disponibles pour les utilisateurs finaux de votre organisation :
 
@@ -118,11 +109,11 @@ Le tableau suivant répertorie les formations disponibles pour les utilisateurs 
 ||
 
 
-### <a name="live-events"></a>Événements en direct
+## <a name="live-events"></a>Événements en direct
 
 **Les événements en direct** sont des réunions structurées qui permettent à votre organisation de planifier et de produire des événements qui sont diffusés en continu à de grands publics en ligne&mdash; jusqu’à 20 000 personnes. Avec les événements en direct, l’interaction de l’audience est une expérience de questions et réponses managée.
 
-#### <a name="articles-for-administrators"></a>Articles pour les administrateurs
+### <a name="articles-for-administrators"></a>Articles pour les administrateurs
 
 Le tableau suivant met en évidence les articles clés que vous souhaitez examiner :
 
@@ -134,7 +125,7 @@ Le tableau suivant met en évidence les articles clés que vous souhaitez examin
 | [Configurer des événements en direct](teams-live-events/configure-teams-live-events.md) | Étapes de configuration des événements en direct.
 ||
 
-#### <a name="key-training-for-end-users"></a>Formation clé pour les utilisateurs finaux
+### <a name="key-training-for-end-users"></a>Formation clé pour les utilisateurs finaux
 
 Le tableau suivant répertorie les formations disponibles pour les utilisateurs finaux de votre organisation :
 
@@ -148,7 +139,7 @@ Pour produire des événements virtuels à plus grande échelle, consultez le [G
 
 ## <a name="apps-for-meetings"></a>Applications pour les réunions
 
-Microsoft vous permet d’améliorer les expériences de réunion en intégrant et en utilisant des applications de réunion. Par exemple, l’intégration du tableau blanc dans les réunions Teams est optimisée par l’application web Tableau blanc, qui permet aux participants aux réunions Teams de dessiner, d’esquisser et d’écrire ensemble sur un canevas numérique partagé.
+Microsoft vous permet d'améliorer les expériences de réunion en intégrant et en utilisant des applications de réunion. Par exemple, l'intégration d'un tableau blanc dans les réunions Teams est assurée par l'application Web Whiteboard, qui permet aux participants aux réunions Teams de dessiner, d'esquisser et d'écrire ensemble sur une toile numérique partagée.
 
 Vous pouvez ajouter des applications de réunion à votre déploiement Teams à l’aide des applications fournies avec Teams, à l’aide d’applications et de modèles tiers certifiés, et en créant vos propres applications personnalisées. 
 
@@ -163,11 +154,64 @@ Le tableau suivant répertorie les articles pour plus d’informations :
 
 ## <a name="license-requirements-for-meetings-webinars-and-live-events"></a>Licence requise pour les réunions, les webinaires et les événements en direct
 
-Tout le monde peut participer à une réunion Teams, à un webinaire ou à un événement en direct gratuitement&mdash; aucune licence n’est requise. 
+Tout le monde peut assister gratuitement à une réunion d'équipe, un webinaire ou un événement public en direct, &mdash;sans licence. 
 
 Pour les personnes qui organisent, planifient et hébergent des réunions, des webinaires ou des événements en direct, elles ont besoin de l’une des licences Microsoft 365 répertoriées dans la description du service [Microsoft Teams](/office365/servicedescriptions/teams-service-description). Si vous utilisez déjà Teams, vous disposez probablement de la licence dont vous avez besoin pour organiser et héberger des réunions, des webinaires et des événements en direct.
 
 Pour permettre aux personnes de se connecter à une réunion par téléphone, vous devez configurer l’audioconférence. Pour plus d’informations sur l’audioconférence, consultez [Audioconférence dans Teams](deploy-audio-conferencing-teams-landing-page.md).
+
+## <a name="best-practices-for-large-meetings"></a>Meilleures pratiques pour les grandes réunions
+
+Cette section fournit des conseils aux administrateurs, ainsi que des astuces qu'ils peuvent partager avec leurs présentateurs et organisateurs.
+
+Pour réussir un événement, suivez les pratiques décrites ci-dessous :
+
+- Pour une expérience optimale dans les grandes réunions, Microsoft recommande d’utiliser le client de bureau Teams ou les clients mobiles Teams. 
+
+- Assurez-vous que tous [les principes de connectivité réseau](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles) de Microsoft ont été respectés, tant sur place que pour les utilisateurs distants.
+- Utilisez la [télémétrie des données en temps réel](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-real-time-call-quality-analytics/ba-p/2912146) pour surveiller l'événement et identifier tout problème éventuel et sa source.
+  - Désignez des moniteurs de réunion pour [analyser](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) la télémétrie pour les utilisateurs qui font face à une mauvaise expérience causée par des métriques dépassant les seuils.
+  - Définissez les moniteurs de réunion comme présentateurs pour désactiver les flux vidéo indésirables, couper les micros en direct accidentels et retirer les participants si nécessaire.
+
+### <a name="guidelines-for-your-end-users"></a>Directives pour vos utilisateurs finaux
+
+Vos organisateurs et présentateurs devraient mettre en œuvre les recommandations ci-dessous :
+
+- Pour créer une réunion fluide, les organisateurs d'événements peuvent définir des présentateurs prédéfinis. Après le début d'une réunion, les présentateurs peuvent également promouvoir d'autres participants au rôle de présentateur.
+
+- Définir un co-organisateur via les options de la réunion (préversion publique)
+
+- Préconfigurez les paramètres de la vidéo et du microphone pour contrôler l'expérience des participants.
+  - Désactivez les microphones des participants pour éviter les perturbations. Si quelqu'un a besoin d'interagir pendant la réunion, permettez-lui de couper le son lorsqu'il lève la main.
+  - Désactivez la vidéo des participants pour éviter les distractions visuelles. Aux moments appropriés de la réunion, la vidéo peut être autorisée pour tous les participants ou pour des personnes spécifiques.
+
+- Utilisez les sondages et les questions-réponses pendant la réunion.
+
+- Utilisez les commandes du hall d'entrée pour contrôler l'entrée des réunions ou la tenue du hall.
+
+- Exécutez le test de connectivité du réseau [Microsoft 365 pour vérifier l'adéquation du réseau](https://connectivity.office.com/) plusieurs jours avant et le jour de l'événement.
+
+- Si vous présentez depuis votre domicile, vérifiez que d'autres appareils ne consomment pas de bande passante élevée (services de streaming, jeux en ligne, téléchargements volumineux).
+
+- Présentez à partir d'un point d'extrémité avec une connexion câblée pour un partage audio, vidéo et d'écran plus fiable.
+
+- Assurez-vous que les utilisateurs disposent de la dernière application Teams sur un ordinateur de bureau ou un appareil mobile.
+
+- Si vous utilisez un ordinateur portable, vérifiez que la connectivité réseau est élevée et que l'alimentation est suffisante.
+
+- Prévoyez un essai avant l'événement pour identifier les problèmes de dispositifs, d'éclairage ou de réseau. Cela permettra également aux organisateurs/présentateurs de se familiariser avec les fonctions qu'ils utiliseront.
+  - Prévoyez des essais supplémentaires si des problèmes ont été rencontrés afin de vous assurer que les efforts de correction ont été couronnés de succès.
+  
+- Utilisez des fonctionnalités telles que les projecteurs, PowerPoint Live, l'enregistrement des réunions, les sous-titres et les transcriptions pour promouvoir l'engagement et l'efficacité.
+
+- Les présentateurs et les participants doivent utiliser l'application de bureau Teams pour offrir une expérience optimale.
+
+- Les participants devraient désactiver les notifications de chat pendant les grandes réunions pour éviter les distractions.
+
+- Pour plus d’informations sur l’hébergement de grandes réunions, consultez [Meilleures pratiques pour une grande réunion Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
+
+
+
 
 
 ## <a name="related-topics"></a>Sujets associés

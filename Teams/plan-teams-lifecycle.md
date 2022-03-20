@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 539597393f34f2f02734c57df57097281a4d7839
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2c69737e6677a48d4fa7788e50fd97a876a67040
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012818"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660599"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planifier la gestion du cycle de vie dans Teams
 
@@ -153,7 +153,7 @@ Les équipes étant des organismes vivants, elles peuvent avoir parfois besoin d
 
 Lorsque le travail d'une équipe est arrivé à son terme, il est important de prendre officiellement acte qu'il est terminé. Cela donnera aux membres de l’équipe un sentiment de bouclage et empêchera également l’accès à des informations obsolètes et périmées. Vous pouvez utiliser l’équipe elle-même pour effectuer les rituels de clôture comme les analyses rétrospectives et les rapports de synthèse.
 
-Vous pouvez supprimer les équipes que vous n’avez plus besoin de conserver (une équipe créée exclusivement à des fins de test ou contenant des données sensibles par exemple). Les équipes sont ainsi supprimées avec une « suppression réversible » durant une durée de 30 jours, permettant au service Informatique de le récupérer.  La suppression d’une équipe n’a pas d’incidence sur les conversations ou contenus qui ont été conservés conformément aux stratégies de conformité. Les canaux ont également une « suppression réversible » et peuvent être rétablis jusqu’à 21 jours après la suppression. La suppression d’un canal ne supprimera pas le dossier ou son contenu de la bibliothèque de documents SharePoint.
+Vous pouvez supprimer les équipes que vous n’avez plus besoin de conserver (une équipe créée exclusivement à des fins de test ou contenant des données sensibles par exemple). Les équipes sont ainsi supprimées avec une « suppression réversible » durant une durée de 30 jours, permettant au service Informatique de le récupérer.  La suppression d’une équipe n’a pas d’incidence sur les conversations ou contenus qui ont été conservés conformément aux stratégies de conformité. Les canaux ont également une « suppression réversible » et peuvent être rétablis jusqu’à 30 jours après la suppression. La suppression d’un canal ne supprimera pas le dossier ou son contenu de la bibliothèque de documents SharePoint.
 
 Vous pouvez aussi utiliser des stratégies d’expiration et de rétention, en plus des fonctionnalités d’archivage pour réduire l’exposition aux équipes qui ne sont plus actives ou aux propriétaires qui ont quitté l'organisation.
 
