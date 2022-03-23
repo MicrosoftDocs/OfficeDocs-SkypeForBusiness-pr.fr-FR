@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 727425a1dfcd1ea4ebeec27cc79982d996db42fa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 523d35fd1e7981a52e5972232f0c00c276435f7f
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596378"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711878"
 ---
 # <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams
 
@@ -47,7 +47,7 @@ En savoir plus sur le [travail en équipe](https://support.office.com/article/te
 
 Meilleure pratique : créez des équipes avec un nombre plus important de membres et davantage de canaux. Réduisez le nombre d’équipes nécessitant la participation d’une personne. Les canaux au sein d’une équipe doivent être considérés comme sujets définis ou flux de travail pour aider l’équipe à organiser son travail pour atteindre les objectifs communs. Il n’y a pas de nombre spécifique de canaux devant être créés. Chaque équipe doit créer des canaux en fonction de leur travail, priorités et style.
 
-Utilisez les canaux standard pour les conversations auxquelles chacun des membres de l’équipe peut contribuer. Tirez parti des [Canaux privés dans Teams](private-channels.md) lorsqu'un espace de collaboration prioritaire est nécessaire avec un groupe de membres sélectionné.
+Utilisez les canaux standard pour les conversations auxquelles chacun des membres de l’équipe peut contribuer. Tirez parti des [canaux privés](private-channels.md) lorsque vous avez besoin d’un espace de collaboration particulier avec un groupe sélectionné de membres de l’équipe. Utilisez des [canaux partagés](shared-channels.md) lorsque vous avez besoin de collaborer avec des personnes extérieures à l’équipe.
 
 Les grandes organisations peuvent choisir de créer des équipes en tant que « modèles » pour standardiser les informations qu’elles capturent sur des types spécifiques de travail. Ceci est utile pour la gestion client stratégique, gestion de classe, scénarios soins de santé, gestion de sinistre, gestion des incidents et autres scénarios appropriés à un secteur d’activité spécifique. Pour en savoir plus, consultez la [Prise en main des modèles Teams](get-started-with-teams-templates.md) et les [Modèles Teams pour les petites et moyennes entreprises](smb-templates.md).
 

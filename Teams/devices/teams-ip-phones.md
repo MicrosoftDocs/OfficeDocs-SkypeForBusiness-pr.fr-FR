@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: f8d2d1bcd427908c7f21a0eba20096fb12ab4e0c
-ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
+ms.openlocfilehash: 745252b624f6b64800c91b91a9d1a6ee60f21614
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2022
-ms.locfileid: "63660609"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711948"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams appareils Android certifiés
 
@@ -71,9 +71,9 @@ Les appareils suivants sont certifiés sous le programme Salles Microsoft Teams 
 
 | Modèle d’appareil | Version du microprogramme | Date de fin actuelle de la certification | Taille de la salle                                        |  Version du système d’exploitation Android    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
-| Neat Bar | `NFB1.20220211.1158`     |   17 mars 2024 |    Petite Salle de réunion (4,5 m x 4,5 m) | 10 |
-| Neat Pad | `NFA1.20220211.1158 `    | 17 mars 2024  |    Petite Salle de réunion (4,5 m x 4,5 m) | 9 |
-| Carte nette | `NFC1.20220211.1158 `  |  17 mars 2024 |    Petite Salle de réunion (4,5 m x 4,5 m) | 10 |
+| Neat Bar | `NFB1.20220211.1158`     |3 septembre 2024|    Petite Salle de réunion (4,5 m x 4,5 m) | 10 |
+| Neat Pad | `NFA1.20220211.1158 `    | 5 août 2023 |    Petite Salle de réunion (4,5 m x 4,5 m) | 9 |
+| Carte nette | `NFC1.20220211.1158 `  | 3 septembre 2024 |    Petite Salle de réunion (4,5 m x 4,5 m) | 10 |
 | Logitech Roommate | `1.4.71` | 3 septembre 2024  | Grande salle de réunion (4,5 m x 8,5 m)  |   10  |
 | DONT LE DÉVELOPPEMENT DE 80T EST EN COURS | `1.2.2.21182.10` | 5 août 2023 | Fourni avec l’offre PERSONNELLES Vision 3T | 9 |
 | Logitech Tap Device     | `1.2.982`  |   3 septembre 2024  | Compatible avec la barre d’enfants Logitech Ainsi que la barre d’enfants Mini | 10 |
@@ -115,9 +115,10 @@ Voici les dernières versions de l’Teams pour téléphone et du microprogramme
 
 | Version de produit | Date de publication  | Microsoft Teams version de l’application | Portail d'entreprise version complète | Version de l’agent d’administration |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| Mise à jour 2022 n°2   | 21 mars 2022   | `1449/1.0.94.2022030501` |`5.0.5304.0` | `322` |
 | Mise à jour pour 2022 #1C  | 3 mars 2022  | `1449/1.0.94.2022022305` |`5.0.5304.0` | `322` |
-| Mise à jour 2022 n°1   | 7 février 2022   | `1449/1.0.94.2022011305` |`5.0.5304.0` | `322` |
 | Mise à jour pour 2022 #1B  | 7 février 2022   | `1449/1.0.94.2022020202` |`5.0.5304.0` | `322` |
+| Mise à jour 2022 n°1   | 7 février 2022   | `1449/1.0.94.2022011305` |`5.0.5304.0` | `322` |
 | Mise à jour pour 2021 #3B | 6 décembre 2021   | `1449/1.0.94.2021112302 ` | `5.0.5304.0` | `298` |
 | Mise à jour pour 2021 #3A | 22 novembre 2021   | `1449/1.0.94.2021110101 ` | `5.0.5304.0` | `298` |
 | Mise à jour 2021 n°3  | 3 novembre 2021   | `1449/1.0.94.2021101205` | `5.0.5304.0` | `298` |
@@ -137,8 +138,15 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme  | Version de produit incluse  |
 |:----------------|:--------------|:----------------------------|
-|Crestron UC-P8/I/C/CI     | `1.0.4.82`    | Mise à jour 2022 n°1 |
-|Crestron UC-P10/I/C/CI    | `1.0.4.82`    | Mise à jour 2022 n°1 |
+|Audiocodes C455HD | `1.15.289`    | Mise à jour pour 2022 #1C    |
+|Audiocodes C448HD  | `1.14.524` | Mise à jour pour 2022 #1C |
+|Audiocodes C450HD  | `1.14.524` | Mise à jour pour 2022 #1C |
+|Audiocodes C470HD  | `1.14.524` | Mise à jour pour 2022 #1C   |
+|Audiocodes C435HD  | `1.14.524` | Mise à jour pour 2022 #1C  |
+| PolySoin C60   | `7.2.1.1975`  | Mise à jour pour 2022 #1C                        |
+| Poly CCX400/CCX500/CCX600   | `7.2.1.1971`  | Mise à jour pour 2022 #1C            |
+| Crestron UC-P8/I/C/CI     | `1.0.4.82`    | Mise à jour 2022 n°1 |
+| Crestron UC-P10/I/C/CI    | `1.0.4.82`    | Mise à jour 2022 n°1 |
 | PolySoin C60   | `7.2.1.1831`  | Mise à jour 2022 n°1                        |
 | Poly CCX400/CCX500/CCX600   | `7.2.1.1826`  | Mise à jour 2022 n°1                 |
 |Crestron UC-2     | `1.0.4.75`    | Mise à jour 2022 n°1 |
@@ -147,11 +155,11 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 |Audiocodes C450HD  | `1.14.500` | Mise à jour 2022 n°1  |
 |Audiocodes C470HD  | `1.14.500` | Mise à jour 2022 n°1   |
 |Audiocodes C435HD  | `1.14.500` | Mise à jour 2022 n°1  |
-|Yealink T55/T56/T58   | `58.15.0.153`  | Mise à jour 2022 n°1 |
-|Yealink MP54/MP56/MP58   | `122.15.0.77`     | Mise à jour 2022 n°1  |
-| Yealink VP59   | `91.15.0.87`  | Mise à jour 2022 n°1     |
-| Yealink CP960  | `73.15.0.150`  | Mise à jour 2022 n°1         |
-| Yealink MP52 | `145.15.0.25`  | Mise à jour 2022 n°1         |
+|Yealink T55/T56/T58   | `58.15.0.153`  | Mise à jour pour 2022 #1B |
+|Yealink MP54/MP56/MP58   | `122.15.0.77`     | Mise à jour pour 2022 #1B  |
+| Yealink VP59   | `91.15.0.87`  | Mise à jour pour 2022 #1B     |
+| Yealink CP960  | `73.15.0.150`  | Mise à jour pour 2022 #1B      |
+| Yealink MP52 | `145.15.0.25`  | Mise à jour pour 2022 #1B         |
 | PolySoin C60  | `7.1.4.0250 ` | Mise à jour pour 2021 #3C  |
 | Poly CCX600    | `7.1.4.0253  `| Mise à jour pour 2021 #3C  |
 | Poly CCX500    | `7.1.4.0253  `| Mise à jour pour 2021 #3C  |

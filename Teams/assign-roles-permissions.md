@@ -16,23 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 666a623f955cd10fd4ad3e0983ccff83c9725a6b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a9ca46e3fa967019e674651ea27299b6552144a7
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586730"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711958"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires d’équipe et des membres dans Microsoft Teams
 
-Dans Microsoft Teams, il existe deux rôles d’utilisateur : **propriétaire** et **membre**. Par défaut, l’utilisateur qui crée une équipe se voit attribuer le statut de propriétaire. De plus, les propriétaires et les membres peuvent disposer des capacités de modérateur pour un canal (à condition que la modération ait été configurée). Si une équipe est créée à partir d’un groupe Microsoft 365 existant, les autorisations sont héritées.
+Dans Microsoft Teams, il existe deux rôles d’utilisateur : **propriétaire** et **membre**. Par défaut, l’utilisateur qui crée une équipe se voit attribuer le statut de propriétaire. De plus, les propriétaires et les membres peuvent disposer des capacités de modérateur pour un canal (à condition que la modération ait été configurée). Si une équipe est créée à partir d’un groupe de Microsoft 365 existant, les autorisations sont héritées.
 
 Le tableau ci-dessous présente les différences d’autorisations entre un propriétaire et un membre.
 
 
 |    Tâche                               | Propriétaire d'équipe | Membre de l’équipe |
 |-----------------------------------|------------|-------------|
-|          **Créer une équipe**          |    Oui<sup>1</sup>     |     Non      |
+|          **Créer une équipe**          |    Oui <sup>1</sup>     |     Non      |
 |          **Quitter une équipe**           |    Oui     |     Oui     |
 |  **Modifier le nom/la description d'une équipe**   |    Oui     |     Non      |
 |          **Supprimer l’équipe**          |    Oui     |     Non      |
@@ -40,8 +40,11 @@ Le tableau ci-dessous présente les différences d’autorisations entre un prop
 | **Modifier le nom/la description d’un canal standard** |    Oui     |    Oui<sup>2</sup>|
 |        **Supprimer un canal standard**         |    Oui     |    Oui<sup>2</sup>|
 |          ***Ajouter un canal privé**          |    Oui     |    Oui<sup>2</sup>|
-| ***Modifier le nom/la description d’un canal privé** |    Non     |    S/O|
+| ***Modifier le nom/la description d’un canal privé** |    Non     |    N/A|
 |        ***Supprimer un canal privé**         |    Oui     |    Non|
+|          **Ajouter un canal partagé**          |    Oui     |    Non|
+| **Modifier le nom/la description d’un canal partagé** |    Non     |    <sup>Non6</sup>|
+|        **Supprimer un canal partagé**         |    Oui     |    <sup>Non6</sup>|
 |          **Ajouter des membres**          |  Oui<sup>3</sup>   |     Non<sup>4</sup>    |
 |          **Demande d’ajouter des membres**          |  S/O   |     Oui<sup>5</sup>     |
 |           **Ajouter des applications**            |    Oui     |    Oui<sup>2</sup>|
@@ -50,7 +53,8 @@ Le tableau ci-dessous présente les différences d’autorisations entre un prop
 <sup>2</sup> Un propriétaire peut désactiver ces éléments au niveau de l’équipe, auquel cas, les membres n’y auront pas accès.<br>
 <sup>3</sup> après avoir ajouté un membre à une équipe, un propriétaire peut également promouvoir un membre au statut de propriétaire. Il est également possible pour un propriétaire d’abaisser leur propre état pour un membre.<br>
 <sup>4</sup> les membres de Teams peuvent ajouter d’autres membres à une équipe publique.<br>
-<sup>5</sup> un membre d’équipe ne peut pas ajouter directement des membres à une équipe privée, ils peuvent demander qu’une personne soit ajoutée à une équipe dont ils sont déjà membres. Lorsqu’un membre demande l’ajout d»une personne à une équipe, les propriétaires des équipes reçoivent une alerte de demande en attente qu’ils peuvent accepter ou refuser.
+<sup>5</sup> un membre d’équipe ne peut pas ajouter directement des membres à une équipe privée, ils peuvent demander qu’une personne soit ajoutée à une équipe dont ils sont déjà membres. Lorsqu’un membre demande l’ajout d»une personne à une équipe, les propriétaires des équipes reçoivent une alerte de demande en attente qu’ils peuvent accepter ou refuser.<br>
+<sup>6</sup> Si le membre de l’équipe est propriétaire d’un canal partagé, il peut effectuer cette action.
 
 *Si vous souhaitez en savoir plus sur les autorisations des canaux privés, consultez l’article [Canaux privés dans Teams](private-channels.md).
 
@@ -67,7 +71,7 @@ Si vous souhaitez en savoir plus, consultez l’article [Configurer et gérer la
 
 ## <a name="assign-a-user-role"></a>Attribuer un rôle utilisateur
 
-Pour attribuer un rôle d’utilisateur, dans Teams, sélectionnez le nom de l’équipe et cliquez sur **Autres options** > **Gérer l’équipe**. Dans l’onglet **Membres**, vous pouvez ajouter des membres et choisir des propriétaires et des modérateurs (si vous disposez des autorisations suffisantes). Si vous souhaitez en savoir plus, consultez l’article [Modifier les paramètres d’une équipe dans Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+Pour attribuer un rôle d’utilisateur, dans Teams, sélectionnez le nom de l’équipe et cliquez sur **Autres options** > **Gérer l’équipe**. Dans l’onglet **Membres**, vous pouvez ajouter des membres et choisir des propriétaires et des modérateurs (si vous disposez des autorisations suffisantes). Pour plus d’informations, [voir Modifier les paramètres d’une équipe dans Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
 
 ## <a name="permissions-to-create-teams"></a>Autorisations pour créer une équipe
 

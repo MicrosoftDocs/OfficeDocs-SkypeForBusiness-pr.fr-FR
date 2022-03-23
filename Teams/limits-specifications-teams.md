@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3260ec894de12b405e0fea8e0d3c75a550d896d4
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 647e5e12f7140abc3da8dc63964d5b94d9785e16
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959913"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711508"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -59,7 +59,10 @@ Cet article présente certaines limites, spécifications et autres configuration
 
 <sup>5</sup> 28 Ko est une limite approximative, car elle inclut le message lui-même (texte, liens d’image, etc.), les @-mentions, le nombre de connecteurs et les réactions.
 
-<sup>6</sup> Les équipes du cloud de la communauté du secteur public peuvent accueillir 25 000 membres mais celles de GCCH/DoD ne peuvent en accueillir que 2 500. Notez également que les mentions d’équipes/canaux sont bloquées dans les équipes de plus de 10 000 membres.
+<sup>6</sup> membres de canaux partagés extérieurs à l’équipe sont comptabilisés dans cette limite. Les équipes du GCC peuvent accueillir 25 000 membres, mais celles du GCCH/DoD ne peuvent accueillir que 2 500 membres. Notez également que les mentions d’équipes/canaux sont bloquées dans les équipes de plus de 10 000 membres.
+
+> [!NOTE]
+> Pour l'aperçu des limites des canaux partagés, voir [Limites des canaux partagés (aperçu)](/MicrosoftTeams/shared-channels#limits-for-shared-channels-preview).
 
 ## <a name="messaging"></a>Messagerie
 
@@ -162,7 +165,7 @@ Pour plus d’informations sur les événements en direct et une comparaison des
 > [!IMPORTANT]
 > **Augmentation de la limite d’événements en direct Microsoft 365**
 >
-> **Pour continuer à prendre en charge les besoins de nos clients, nous prolongerons les augmentations temporaires de limites pour les événements en direct jusqu’au 30 juin 2022, y compris** :
+> **Afin de continuer la prise en charge des besoins de nos clients, nous étendons les augmentations temporaires des limites pour les événements en direct jusqu’au 30 juin 2022, à savoir :**
 >
 >- Soutien aux événements accueillant jusqu'à 20 000 participants
 >- 50 événements à la fois peuvent être hébergés chez un client

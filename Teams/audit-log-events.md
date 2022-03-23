@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Découvrez comment récupérer des Microsoft Teams dans le journal d’audit du Centre de conformité Microsoft 365.
+description: Découvrez comment récupérer Microsoft Teams données à partir du journal d’audit dans le Centre de conformité Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7eec47d0ed2d2a299c930edee2e849c8eb20b8db
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: cdca912b77969e4157af641076dc683c3d17921c
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "61620488"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711328"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 
@@ -35,7 +35,7 @@ Le journal d’audit peut vous aider à examiner des activités spécifiques au 
 - Canal supprimé
 - Paramètre de canal modifié
 
-Pour obtenir la liste complète des Teams auditées, voir Teams et [Shifts in Teams activités](#shifts-in-teams-activities).[](#teams-activities)
+Pour obtenir la liste complète des Teams auditées, voir Teams [et](#teams-activities) [Shifts in Teams activités](#shifts-in-teams-activities).
 
 > [!NOTE]
 > Les événements d’audit des canaux privés sont également enregistrés tels qu’ils sont pour les équipes et les canaux standard.
@@ -60,7 +60,7 @@ Pour obtenir des instructions détaillées, consultez [le journal d’audit du C
 > [!IMPORTANT]
 > Les données d’audit ne sont visibles que dans le journal d’audit si l’audit est désactivé.
 
-La durée pendant qu’un enregistrement d’audit est conservé et utilisable dans le journal d’audit dépend de votre abonnement Microsoft 365 ou Office 365 et plus spécifiquement du type de licence affecté aux utilisateurs. Pour en savoir plus, consultez [la description du service du Centre & conformité](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center).
+Le temps pendant quoi un enregistrement d’audit est conservé et utilisable dans le journal d’audit dépend de votre abonnement Microsoft 365 ou Office 365 et plus spécifiquement du type de licence affecté aux utilisateurs. Pour en savoir plus, consultez la [description du service & de conformité du Centre de sécurité et conformité](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center).
 
 ## <a name="tips-for-searching-the-audit-log"></a>Astuces pour la recherche dans le journal d’audit
 
@@ -82,21 +82,21 @@ Regardez cette [vidéo pour utiliser](https://www.youtube.com/embed/UBxaRySAxyE)
 
 ## <a name="teams-activities"></a>Teams activités
 
-Voici une liste de tous les événements enregistrés pour les activités utilisateur et administrateur dans Teams journal d’audit Microsoft 365'équipe. Le tableau inclut le nom convivial affiché dans la colonne Activités et  le nom de l’opération correspondante qui apparaît dans les informations détaillées d’un enregistrement d’audit et dans le fichier CSV lorsque vous exportez les résultats de la recherche.
+Voici une liste de tous les événements enregistrés pour les activités utilisateur et administrateur dans le Teams d’audit Microsoft 365'équipe. Le tableau inclut le nom convivial affiché dans la colonne Activités et  le nom de l’opération correspondante qui apparaît dans les informations détaillées d’un enregistrement d’audit et dans le fichier CSV lorsque vous exportez les résultats de la recherche.
 
 |Nom convivial  |Opération |Description |
 |:---------|:---------|:---------|
 |Robot ajouté à l’équipe   |BotAddedToTeam        |Un utilisateur ajoute un robot à une équipe.        |
 |Ajout d'un canal   |ChannelAdded         |Un utilisateur ajoute un canal à une équipe.         |
 |Connecteur ajouté  |ConnectorAdded          |Un utilisateur ajoute un connecteur à un canal.        |
-|Ajout de détails sur Teams <sup>réunion 2</sup>|Détails de la réunion|Teams informations sur une réunion, notamment l’heure de début, l’heure de fin et l’URL de la réunion.|
-|Ajout d’informations sur les participants à la <sup>réunion 2</sup>|MeetingParticipantDetail|Teams ajouté des informations sur les participants à une réunion, notamment l’ID d’utilisateur de chaque participant, l’heure à partir de celle-ci et l’heure à partir de celle-ci.|
+|Ajout de détails sur Teams <sup>réunion 2</sup>|Détails de la réunion|Teams ajouté des informations sur une réunion, notamment l’heure de début, l’heure de fin et l’URL de la réunion.|
+|Ajout d’informations sur les participants à la <sup>réunion 2</sup>|MeetingParticipantDetail|Teams ajouté des informations sur les participants à une réunion, notamment l’ID d’utilisateur de chaque participant, l’heure à partir de celle-ci et l’heure à partir de la fin de la réunion.|
 |Membres ajoutés    |MemberAdded         |Un propriétaire d’équipe ajoute des membres à une équipe, un canal ou une conversation de groupe.         |
 |Onglet ajouté    |TabAdded         |Un utilisateur ajoute un onglet à un canal.        |
 |Paramètre de canal modifié    |ChannelSettingChanged         |L’opération ChannelSettingChanged est consignée lorsque les activités suivantes sont effectuées par un membre de l’équipe. Pour chacune de ces activités, une description du paramètre modifié (entre parenthèses s’affiche dans la colonne Élément des résultats de  la recherche dans le journal d’audit). <ul><li>Change name of a team channel (**Channel name**)</li><li>Description des modifications d’un canal d’équipe (**description du canal**)</li> </ul>      |
-|Paramètre d’organisation modifié   |TeamsTenantSettingChanged         |L’opération TeamsTenantSettingChanged est consignée lorsque les activités suivantes sont effectuées par un administrateur global dans le Centre d'administration Microsoft 365. Ces activités affectent les paramètres de Teams à l’échelle de l’organisation. Pour en savoir plus, [voir Gérer Teams de votre organisation](enable-features-office-365.md). <br>Pour chacune de ces activités, une description du paramètre modifié (entre parenthèses) s’affiche dans la colonne Élément des résultats de  la recherche dans le journal d’audit.<ul><li>Active ou désactive les Teams pour l’organisation (**Microsoft Teams**).</li><li>Active ou désactive l’interopérabilité entre les Microsoft Teams et Skype Entreprise pour l’organisation (Skype Entreprise **interopérabilité**).</li><li>Active ou désactive l’affichage d’organigramme dans Microsoft Teams clients (**affichage Organigramme**).</li><li>Active ou désactive la possibilité pour les membres de l’équipe de planifier des réunions privées (**planification de réunion privée**).</li><li>Active ou désactive la possibilité pour les membres de l’équipe de planifier des réunions de canal (**planification de réunion de canal**).</li><li>Active ou désactive les appels vidéo dans Teams réunions (**Vidéo pour Skype réunions**).</li><li>Active ou désactive le partage d’écran Microsoft Teams réunions pour l’organisation (partage d’écran **Skype réunions**).</li><li>Active ou désactive la possibilité d’ajouter des images animées (appelées Giphys) à Teams conversations (**images animées**).</li><li>Modifie le paramètre d’évaluation du contenu pour l’organisation (**évaluation du contenu**). L’évaluation du contenu restreint le type d’image animée qui peut être affiché dans les conversations.</li><li>Active ou désactive la possibilité pour les membres de l’équipe d’ajouter des images personnalisables (appelées mèmes personnalisés) à partir d’Internet aux conversations d’équipe (images personnalisables **à partir d’Internet**).</li><li>Active ou désactive la possibilité pour les membres de l’équipe d’ajouter des images modifiables (appelées autocollants) aux conversations d’équipe (**images modifiables**).</li><li>Active ou désactive la possibilité pour les membres de l’équipe d’utiliser des bots dans Microsoft Teams conversations et canaux (**bots à l’échelle de l’organisation).**</li><li>Active des robots spécifiques pour Microsoft Teams. Cela n’inclut pas T-Bot, qui est Teams d’aide disponible lorsque les bots sont activés pour l’organisation (**bots individuels**).</li><li>Active ou désactive la possibilité pour les membres de l’équipe d’ajouter des extensions ou des onglets (**extensions ou onglets**).</li><li>Active ou désactive le chargement latéral des robots propriétaires pour Microsoft Teams (**chargement latéral des bots**).</li><li>Active ou désactive la possibilité pour les utilisateurs d’envoyer des messages électroniques à un canal Microsoft Teams (**canal de messagerie**).</li></ul>|
+|Paramètre d’organisation modifié   |TeamsTenantSettingChanged         |L’opération TeamsTenantSettingChanged est consignée lorsque les activités suivantes sont effectuées par un administrateur global du Centre d'administration Microsoft 365. Ces activités affectent les paramètres de Teams à l’échelle de l’organisation. Pour plus d’informations, [voir Gérer Teams paramètres de gestion des informations pour votre organisation](enable-features-office-365.md). <br>Pour chacune de ces activités, une description du paramètre modifié (entre parenthèses) s’affiche dans la colonne Élément des résultats de  la recherche dans le journal d’audit.<ul><li>Active ou désactive les Teams pour l’organisation (**Microsoft Teams**).</li><li>Active ou désactive l’interopérabilité entre les Microsoft Teams et Skype Entreprise pour l’organisation (Skype Entreprise **interopérabilité**).</li><li>Active ou désactive l’affichage d’organigramme dans Microsoft Teams clients (**affichage Organigramme**).</li><li>Active ou désactive la possibilité pour les membres de l’équipe de planifier des réunions privées (**planification de réunion privée**).</li><li>Active ou désactive la possibilité pour les membres de l’équipe de planifier des réunions de canal (**planification de réunion de canal**).</li><li>Active ou désactive les appels vidéo dans Teams réunions (**Vidéo pour Skype réunions**).</li><li>Active ou désactive le partage d’écran Microsoft Teams réunions pour l’organisation (partage d’écran **Skype réunions**).</li><li>Active ou désactive la possibilité d’ajouter des images animées (appelées Giphys) à Teams conversations (**images animées**).</li><li>Modifie le paramètre d’évaluation du contenu pour l’organisation (**évaluation du contenu**). L’évaluation du contenu restreint le type d’image animée qui peut être affiché dans les conversations.</li><li>Active ou désactive la possibilité pour les membres de l’équipe d’ajouter des images personnalisables (appelées mèmes personnalisés) à partir d’Internet aux conversations d’équipe (images personnalisables **à partir d’Internet**).</li><li>Active ou désactive la possibilité pour les membres de l’équipe d’ajouter des images modifiables (appelées autocollants) aux conversations d’équipe (**images modifiables**).</li><li>Active ou désactive la possibilité pour les membres de l’équipe d’utiliser des robots dans Microsoft Teams conversations et canaux (**bots à l’échelle de l’organisation).**</li><li>Active des robots spécifiques pour Microsoft Teams. Cela n’inclut pas T-Bot, qui est Teams d’aide disponible lorsque les bots sont activés pour l’organisation (**bots individuels**).</li><li>Active ou désactive la possibilité pour les membres de l’équipe d’ajouter des extensions ou des onglets (**extensions ou onglets**).</li><li>Active ou désactive le chargement latéral des robots propriétaires pour Microsoft Teams (**chargement latéral des bots**).</li><li>Active ou désactive la possibilité pour les utilisateurs d’envoyer des messages électroniques à Microsoft Teams canal (**canal de messagerie**).</li></ul>|
 |Rôle modifié des membres de l’équipe    |MemberRoleChanged         |Un propriétaire d’équipe modifie le rôle des membres d’une équipe. Les valeurs suivantes indiquent le type de rôle attribué à l’utilisateur. <br><br>**1** - Indique le rôle Membre.<br>**2** - Indique le rôle Propriétaire.<br>**3** - Indique le rôle Invité.<br><br>La propriété Membres inclut également le nom de votre organisation et l’adresse de courrier du membre.        |
-|Paramètre d’équipe modifié    |TeamSettingChanged        |L’opération TeamSettingChanged est consignée lorsque les activités suivantes sont effectuées par un propriétaire d’équipe. Pour chacune de ces activités, une description du paramètre modifié (entre parenthèses) s’affiche dans la colonne Élément des résultats de  la recherche dans le journal d’audit.<ul><li>Modifie le type d’accès pour une équipe. Teams peut être définie comme publique ou **privée (type d’accès à l’équipe**). Quand une équipe est privée (paramètre par défaut), les utilisateurs ne peuvent y accéder que sur invitation. Quand une équipe est publique, n’importe qui peut la découvrir.</li><li>Modifie la classification des informations d’une équipe (**classification d’équipe**). Par exemple, les données d’équipe peuvent être classées comme impact élevé, impact moyen ou faible sur l’entreprise.</li><li>Modifie le nom d’une équipe (**nom de l’équipe**).</li><li>Modifie la description de l’équipe (**team description**).</li><li>Modifications apportées aux paramètres de l’équipe. Pour accéder à ces paramètres, un propriétaire d’équipe peut cliquer avec le bouton droit sur une équipe, sélectionner Gérer l’équipe **, puis** cliquer sur **l’Paramètres** groupe. Pour ces activités, le nom du paramètre modifié s’affiche dans la colonne **Élément** des résultats de la recherche dans le journal d’audit.</li></ul>         |
+|Paramètre d’équipe modifié    |TeamSettingChanged        |L’opération TeamSettingChanged est consignée lorsque les activités suivantes sont effectuées par un propriétaire d’équipe. Pour chacune de ces activités, une description du paramètre modifié (entre parenthèses) s’affiche dans la colonne Élément des résultats de  la recherche dans le journal d’audit.<ul><li>Modifie le type d’accès pour une équipe. Teams peut être définie comme publique ou **privée (type d’accès à l’équipe**). Quand une équipe est privée (paramètre par défaut), les utilisateurs ne peuvent y accéder que sur invitation. Quand une équipe est publique, n’importe qui peut la découvrir.</li><li>Modifie la classification des informations d’une équipe (**classification d’équipe**). Par exemple, les données d’équipe peuvent être classées comme impact élevé, impact moyen ou faible sur l’entreprise.</li><li>Modifie le nom d’une équipe (**nom de l’équipe**).</li><li>Modifie la description de l’équipe (**team description**).</li><li>Modifications apportées aux paramètres de l’équipe. Pour accéder à ces paramètres, un propriétaire d’équipe peut cliquer avec le bouton droit sur une équipe, sélectionner Gérer l’équipe **, puis** cliquer sur **Paramètres’onglet**. Pour ces activités, le nom du paramètre modifié s’affiche dans la colonne **Élément** des résultats de la recherche dans le journal d’audit.</li></ul>         |
 |Création d’une <sup>conversation 1, </sup> <sup>2</sup>|    ChatCreated|    Une Teams conversation instantanée a été créée.|
 |Équipe créée    |TeamCreated         |Un utilisateur crée une équipe.         |
 |Message supprimé  |MessageDeleted |Un message dans une conversation ou un canal a été supprimé.|
@@ -106,6 +106,7 @@ Voici une liste de tous les événements enregistrés pour les activités utilis
 |Équipe supprimée  |TeamDeleted            |Un propriétaire d’équipe supprime une équipe.      |
 |Message modifié avec un lien d’URL dans Teams     |MessageEditedHasLink         |Un utilisateur modifie un message et y ajoute un lien d’URL dans Teams.         |
 |Messages exportés <sup>1, </sup> <sup>2</sup> |    MessagesExported |Les messages de conversation ou de canal ont été exportés.|
+|Échec de la validation de l’invitation à un canal <sup>partagé3</sup> | FailedValidation |Un utilisateur répond à une invitation à un canal partagé, mais la validation de l’invitation a échoué. |
 |Extraire une <sup>conversation 1, </sup> <sup>2</sup>   |ChatRetrieved  |Une Microsoft Teams conversation instantanée a été récupérée.|
 |Récupération de tout le contenu hébergé d’un <sup>message1, </sup> <sup>2</sup> |MessageHostedContentsListed    |Tout le contenu hébergé dans un message, tel que les images ou les extraits de code, a été récupéré.|
 |Application installée |AppInstalled         |Une application a été installée.   |
@@ -117,12 +118,17 @@ Voici une liste de tous les événements enregistrés pour les activités utilis
 |Robot supprimé de l’équipe   |BotRemovedFromTeam         |Un utilisateur supprime un robot d’une équipe.       |
 |Connecteur supprimé     |ConnectorRemoved         |Un utilisateur supprime un connecteur d’un canal.         |
 |Membres supprimés    |MemberRemoved        |Un propriétaire d’équipe supprime des membres d’une équipe, d’un canal ou d’une conversation de groupe.         |
+|Suppression du partage du canal <sup>d’équipe3</sup> | TerminatedSharing |Un propriétaire d’équipe ou de canal a désactivé le partage pour un canal partagé. |
+|Partage restauré du canal <sup>d’équipe3</sup> | SharingRestored | Partage ré enabled pour un canal partagé par une équipe ou un propriétaire de canal. |
 |Onglet supprimé    |TabRemoved         |Un utilisateur supprime un onglet d’un canal.         |
+|Réponse à l’invitation pour un canal <sup>partagé3</sup> | InviteeResponded | Un utilisateur a répondu à une invitation de canal partagé. |
+|Réponse à l’invitation à un canal <sup>partagé3</sup> | ChannelOwnerResponded |Un propriétaire de canal a répondu à une réponse d’un utilisateur qui a répondu à une invitation de canal partagé. |
 |Messages récupérés <sup>1, </sup> <sup>2</sup> |MessagesListed |Les messages d’une conversation ou d’un canal ont été récupérés.|
 |Message avec un lien d’URL dans Teams |MessageCreatedHasLink|Un utilisateur envoie un message contenant un lien d’URL dans Teams.|
 |Notification de modification envoyée pour la création du message <sup>1, </sup> <sup>2</sup>  |MessageCreatedNotification |Une notification de modification a été envoyée pour informer une application d’écoute abonnée d’un nouveau message.|
 |Notification de modification envoyée pour suppression de message <sup>1, </sup> <sup>2</sup>  |MessageDeletedNotification |Une notification de modification a été envoyée pour informer une application d’écoute abonnée d’un message supprimé.|
 |Notification de modification envoyée pour la mise à <sup>jour des messages 1, </sup> <sup>2</sup>    |MessageUpdatedNotification |Une notification de modification a été envoyée pour informer une application d’écoute abonnée d’un message mis à jour.|
+|Invitation envoyée pour canal <sup>partagé3</sup> | Invités |Un propriétaire ou membre d’un canal envoie une invitation à un canal partagé. Les invitations aux canaux partagés peuvent être envoyées à des personnes extérieures à votre organisation si la stratégie de canal est configurée pour partager le canal avec des utilisateurs externes.  |
 |S’abonner aux notifications de modification de message <sup>1, </sup> <sup>2</sup> |SubscribedToMessages   |Un abonnement a été créé par une application d’écoute qui permet de recevoir les notifications de modification des messages.|
 |Application désinstallée |AppUninstalled           |Une application a été désinstallée.     |
 |Application mise à jour |AppUpdatedInCatalog           |Une application a été mise à jour dans le catalogue.     |
@@ -132,16 +138,16 @@ Voici une liste de tous les événements enregistrés pour les activités utilis
 |Onglet Mis à jour   |TabUpdated         |Un utilisateur a modifié un onglet dans un canal.         |
 |Application mise à niveau |AppUpgraded           |Une application a été mise à niveau vers sa dernière version dans le catalogue.     |
 |Utilisateur qui s’est inscrit à Teams     |TeamsSessionStarted         |Un utilisateur se signe à un client Microsoft Teams client. Cet événement ne capture pas les activités d’actualisation des jetons.         |
-
+||||
 
 > [!NOTE]
-> <sup>1 Un</sup> enregistrement d’audit pour cet événement est consigné uniquement lorsque l’opération est effectuée en appelant une API Graph Microsoft. Si l’opération est effectuée dans le client Teams, un enregistrement d’audit n’est pas enregistré.<br/><br/><sup>2 Cet</sup> événement n’est disponible qu’en audit avancé. Cela signifie que les utilisateurs doivent avoir la licence appropriée pour que ces événements soient enregistrés dans le journal d’audit. Pour plus d’informations sur les activités disponibles uniquement dans Audit avancé, voir [Audit avancé dans Microsoft 365](/microsoft-365/compliance/advanced-audit#advanced-audit-events). Pour les exigences de licence d’audit avancé, voir [les solutions d’audit dans Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements).
+> <sup>1 Un</sup> enregistrement d’audit pour cet événement est consigné uniquement lorsque l’opération est effectuée en appelant une API Graph Microsoft. Si l’opération est effectuée dans le client Teams, un enregistrement d’audit n’est pas enregistré.<br/><sup>2 Cet</sup> événement n’est disponible qu’en audit avancé. Cela signifie que les utilisateurs doivent avoir la licence appropriée pour que ces événements soient enregistrés dans le journal d’audit. Pour plus d’informations sur les activités disponibles uniquement dans Audit avancé, voir [Audit avancé dans Microsoft 365](/microsoft-365/compliance/advanced-audit#advanced-audit-events). Pour les exigences de licence d’audit avancé, voir [les solutions d’audit dans Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements). <br/> <sup>3 Cet</sup> événement est en prévisualisation publique.
 
 ## <a name="shifts-in-teams-activities"></a>Shifts in Teams activities
 
 **(version d’évaluation)**
 
-Si votre organisation utilise l’application Shifts dans Teams, vous pouvez rechercher des activités liées à l’application Shifts dans le journal d’audit. Voici une liste de tous les événements enregistrés pour les activités Shifts dans Teams journal d’audit Microsoft 365'audit.
+Si votre organisation utilise l’application Shifts dans Teams, vous pouvez rechercher des activités liées à l’application Shifts dans le journal d’audit. Voici une liste de tous les événements enregistrés pour les activités Shifts dans Teams journal d’audit Microsoft 365'équipe.
 
 |Nom convivial  |Opération  |Description  |
 |---------|---------|---------|
@@ -179,7 +185,7 @@ Vous pouvez utiliser l’API Office 365 d’activité de gestion des données po
 
 ## <a name="attribution-in-teams-audit-logs"></a>Attribution dans les journaux Teams audit
 
-Les modifications d’appartenance Teams (par exemple, utilisateurs ajoutés ou supprimés) apportées via Azure Active Directory (Azure AD), le portail d’administration Microsoft 365 ou l’API Graph Groups Microsoft 365 apparaîtront dans Teams  les messages d’audit et dans le canal Général avec une attribution à un propriétaire existant de l’équipe, et non au véritable initiateur de l’action ; Dans ces scénarios, consultez les Azure AD [d’audit Microsoft 365 de groupe](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) pour consulter les informations pertinentes.
+Les modifications d’appartenance Teams (par exemple, utilisateurs ajoutés ou supprimés) apportées via Azure Active Directory (Azure AD), le portail d’administration Microsoft 365 ou l’API Graph Groups Microsoft 365 s’affichent dans Teams  les messages d’audit et dans le canal Général avec une attribution à un propriétaire existant de l’équipe, et non au véritable initiateur de l’action ; Dans ces scénarios, consultez les Azure AD [d’audit Microsoft 365 de groupe](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) pour consulter les informations pertinentes.
 
 ## <a name="use-defender-for-cloud-apps-to-set-activity-policies"></a>Utiliser Defender pour les applications cloud pour définir des stratégies d’activité
 
@@ -207,7 +213,7 @@ Comme mentionné précédemment, vous pouvez surveiller les scénarios de suppre
 
 :::image type="content" alt-text="Stratégie montrant la configuration d’une stratégie pour la détection de la suppression de masse des équipes." source="media/TeamsMassDeletePolicy.png" lightbox="media/TeamsMassDeletePolicy.png":::
 
-Comme le montre la capture d’écran, vous pouvez définir de nombreux paramètres différents pour cette stratégie afin de surveiller les suppressions d’Teams, notamment la gravité, les actions simples ou répétées, et les paramètres limitant cette action à Teams et la suppression de site. Cette fonction peut être effectuée indépendamment d’un modèle, ou vous pouvez créer un modèle pour baser cette stratégie sur les besoins de votre organisation.
+Comme le montre la capture d’écran, vous pouvez définir de nombreux paramètres différents pour cette stratégie afin de surveiller les suppressions d’Teams, notamment la gravité, les actions simples ou répétées et les paramètres limitant cette action à Teams et la suppression de site. Cette fonction peut être effectuée indépendamment d’un modèle, ou vous pouvez créer un modèle pour baser cette stratégie sur les besoins de votre organisation.
 
 Après avoir établi une stratégie qui fonctionne pour votre entreprise, vous pouvez examiner les résultats dans le journal d’activité à mesure que les événements sont déclenchés :
 
@@ -225,8 +231,8 @@ Vous pouvez définir des alertes et envoyer des courriers électroniques aux adm
 
 [](/cloud-app-security/anomaly-detection-policy) Les stratégies de détection anormale dans Defender pour les applications cloud offrent des données d’analyse de l’organisation et de l’utilisation des utilisateurs (UEBA) et de l’apprentissage automatique (ML) immédiatement disponibles pour l’exécution de la détection avancée des menaces dans votre environnement cloud. Étant donné qu’elles sont activées automatiquement, les nouvelles stratégies de détection anormale fournissent des résultats immédiats en fournissant des détections immédiates, en ciblant de nombreuses relationurs au sein de vos utilisateurs, ainsi que les ordinateurs et appareils connectés à votre réseau. De plus, les nouvelles stratégies exposent davantage de données du moteur de détection Defender pour les applications cloud, afin de vous aider à accélérer le processus d’examen et à contenir des menaces en cours.
 
-Nous travaillons à l’intégration d’Teams à des stratégies de détection anormale. Pour l’instant, vous pouvez définir des stratégies de détection anormales pour d’autres produits Office et prendre des mesures sur les utilisateurs qui correspondent à ces stratégies.
+Nous travaillons à l’intégration des événements Teams dans les stratégies de détection anormale. Pour l’instant, vous pouvez définir des stratégies de détection anormales pour d’autres produits Office et prendre des mesures sur les utilisateurs qui correspondent à ces stratégies.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Effectuer des recherches dans le journal d’audit dans la Centre de conformité Microsoft 365](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

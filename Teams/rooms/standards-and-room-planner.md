@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Créez et organisez les normes sur la base de recommandations intelligentes de votre environnement.
 f1keywords: ''
-ms.openlocfilehash: 2eb0681999664cd3fd29876fbfa3550eee9fb507
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 978975bdd4ed02f248cf0a36d88109d2e281b8d4
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062801"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711527"
 ---
 # <a name="standards-and-room-planner"></a>Normes et planificateur de salles
 
@@ -37,7 +37,7 @@ Cette page comprend également une barre de commandes à partir de laquelle vous
 ![Capture d’écran de la page d’accueil pour la création des normes](../media/standards-and-room-planner-001.png)
 ### <a name="create-standards"></a>Créer des normes
 
-Utilisez le **flux de travail Créer un flux de travail standard** pour créer un flux de travail standard.
+Utilisez le **flux de travail Créer un** flux de travail standard pour créer un flux de travail standard.
 
 ![Capture d’écran des détails généraux des normes](../media/standards-and-room-planner-001.png)
 
@@ -45,15 +45,15 @@ Utilisez le **flux de travail Créer un flux de travail standard** pour créer u
 
 1. **Sélectionnez Créer un standard MTR**, puis fournissez des détails généraux tels que le nom et la description de la norme.
 
-   ![Capture d’écran de la sélection des normes Salle de réunion](../media/standards-and-room-planner-002.png)
+   ![Capture d’écran du type sélection Salle de réunion normes](../media/standards-and-room-planner-002.png)
 
 1. Sélectionnez le type de salle de réunion pour cette norme.
 
    ![Capture d’écran de la sélection des appareils recommandés pour les normes](../media/standards-and-room-planner-003.png)
 
-1. Sélectionnez votre périphérique de salle de réunion parmi les périphériques Teams dans votre inventaire de matériel.
+1. Sélectionnez l’un Teams modèles de salle certifiés dans votre inventaire de matériel. La liste varie en fonction du type de salle sélectionné à l’étape précédente.
 
-   ![Capture d’écran des détails généraux des normes](../media/standards-and-room-planner-004.png)
+   ![Capture d’écran de Sélectionner les mtrs standard](../media/standards-and-room-planner-004.png)
 
 
 1. Examinez les informations standard de latr.
@@ -64,14 +64,13 @@ Utilisez le **flux de travail Créer un flux de travail standard** pour créer u
 
    ![Capture d’écran des lieux à publier.](../media/standards-and-room-planner-006.png)
 
-Une fois le flux de travail terminé, la norme est créée et publiée avec succès sur le site, la région, le bâtiment ou la salle de réunion. Ces normes doivent à présent être utilisées à des fins de planification.
+Une fois publiées, les normes sont utilisées à des fins de planification.
 
 ![Capture d’écran de la norme correctement publiée »](../media/standards-and-room-planner-008.png)
 ### <a name="discovered-devices"></a>Périphériques détectés
 
 Dans les normes, sélectionnez **Périphériques découverts** pour afficher tous les périphériques découverts non standard au sein de votre organisation.
 
-![Capture d’écran des périphériques découverts d’une salle](../media/standards-and-room-planner-008.png)
 
 Vous pouvez prendre des mesures pour examiner et créer des normes à partir de ces appareils détectés dans votre inventaire.
 

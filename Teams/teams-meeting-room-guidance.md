@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb74dcb92328890b71317818b3230571151fd0a6
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: b02e3f441ad7a4a338c86e89b2740561d3d552d7
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062715"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711568"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Conseils pour les salles de réunion Teams
 
@@ -33,7 +33,7 @@ Cet article a pour but de guide les utilisateurs sur l’optimisation des espace
 
 # <a name="meeting-room-uses-and-layouts"></a>[Utilisations et dispositions des salles de réunion](#tab/uses)
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
 Salles Microsoft Teams solutions offrent une flexibilité d’objectif, voire une flexibilité de déplacement dans un espace que les salles de réunion traditionnelles n’ont pas. Par exemple, avec les appareils salles Teams, les utilisateurs peuvent améliorer leur collaboration avec un tableau blanc numérique et des caméras intelligentes de suivi des personnes pour s’assurer que chaque participant local est visible où qu’il se trouve dans la salle. N’importe quel type d’espace et de réunion peut être optimisé à l’salles Teams des appareils salles Teams solutions proposées.
 
@@ -536,11 +536,12 @@ Autres options :
 
 ### <a name="displays"></a>Affiche
 
--   Projecteur laser à courte résolution avec signal automatique lors de la synchronisation et retour au calme pendant la fonction de veille.
+- Un nouveau (ou très court), projecteur laser de haute résolution et de haute luminosité avec signal automatique lors de la synchronisation et retour au calme pendant la fonction de mise en veille. Un écran de projecteur de gain faible avec les propriétés de rejet de la lumière ambiant produit la meilleure qualité d’image dans les salles lumineuses.
 
-Comme illustré :
+Comme illustré : 
 
-Epson MondeVision™ Ultra LS500
+- [Projecteur Epson EB-PU1007 avec elPLX01S Ultra Short Throw lens](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
+- [Da-Lite UTB Contour screen | Écran HD progressive 0,6 | Scope diagonale 138 »](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
 
 Autres options :
 

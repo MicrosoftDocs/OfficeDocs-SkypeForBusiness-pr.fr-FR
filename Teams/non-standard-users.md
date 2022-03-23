@@ -1,5 +1,5 @@
 ---
-title: Teams d’applications pour les utilisateurs non standard
+title: Teams comportement des applications en fonction des types d’utilisateurs
 author: guptaashish
 ms.author: guptaashish
 ms.reviewer: joglocke
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Découvrez le comportement des applications Microsoft Teams’utilisateurs non standard.
+description: Découvrez le comportement des applications Microsoft Teams’application pour différents types d’utilisateurs.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,16 +17,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dd2a96b7df3ebcb3ae8659222744ed0f3273fa3
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 765c0b97d5e277bd086ac4b25ee11ac80cb6fc11
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070213"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711478"
 ---
-# <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams d’applications pour les utilisateurs non standard
+# <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teams comportement des applications en fonction des types d’utilisateurs
 
-Cet article décrit le comportement des applications dans Teams lorsque des utilisateurs invités, externes (fédérés) et anonymes sont présents dans un contexte Teams externe.
+Teams les applications se comportent quand des utilisateurs invités, externes (fédérés) et anonymes sont présents dans un Teams contexte.
 
 - Un **utilisateur invité est** une personne qui n’est ni un employé, ni un étudiant ni un membre de votre organisation. Il ne dispose pas d'aucun compte scolaire ni professionnel lié à votre organisation.
 
@@ -84,6 +84,6 @@ Les utilisateurs anonymes ne peuvent pas utiliser directement des applications d
 
 Les utilisateurs anonymes héritent de la stratégie d’autorisation globale par défaut au niveau utilisateur. Ils peuvent interagir avec les applications dans Teams réunions si la stratégie d’autorisation au niveau utilisateur a activé l’application. Les utilisateurs anonymes peuvent uniquement interagir avec les applications déjà disponibles dans une réunion et qui ne peuvent pas acquérir et/ou gérer ces applications.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Gérer les stratégies de mise en application dans Microsoft Teams](teams-app-setup-policies.md)

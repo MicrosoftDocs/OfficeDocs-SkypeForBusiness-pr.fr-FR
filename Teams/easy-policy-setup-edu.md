@@ -1,5 +1,5 @@
 ---
-title: Teams pour l'éducation l’Assistant Stratégie pour appliquer facilement des stratégies pour un apprentissage sécurisé
+title: Teams pour l'éducation Assistant Stratégie pour appliquer facilement des stratégies pour un apprentissage sécurisé
 author: serdars
 ms.author: serdars
 manager: serdars
@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment utiliser l’Assistant Stratégie de Teams pour l'éducation pour appliquer facilement des stratégies pour les étudiants et les enseignants afin de préserver la sécurité de votre environnement d’apprentissage.
+description: Découvrez comment utiliser l’Assistant Stratégie Teams pour l'éducation pour appliquer facilement des stratégies pour les étudiants et les enseignants afin de préserver la sécurité de votre environnement d’apprentissage.
 f1keywords: ''
-ms.openlocfilehash: 9834aceeffc6c5604c144e801405cea968df5a69
-ms.sourcegitcommit: 2612020cd932117148440b60be818ba31208b1d1
+ms.openlocfilehash: 4a793baeb725b497310e46db351e12e6c0540477
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "62805455"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711688"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Utiliser l’Assistant Teams pour l'éducation stratégie d’entreprise pour appliquer facilement des stratégies à un environnement d’apprentissage sécurisé
 
@@ -41,9 +41,9 @@ Les stratégies doivent être ajustées pour les étudiants et les enseignants a
 Cet article vous explique comment exécuter l’Assistant.
 
 > [!IMPORTANT]
-> Les stratégies appliquées par l’Assistant répondent aux besoins de la majorité des Teams pour l'éducation clients. L’Assistant ajuste la définition globale (à l’échelle de l’organisation par défaut) d’un ensemble principal de stratégies avec des paramètres que nous recommandons pour la sécurité des étudiants et les applique aux étudiants. L’Assistant crée et affecte également un ensemble de stratégies personnalisées aux enseignants et aux membres du personnel. La plupart Teams pour l'éducation clients n’auront pas besoin d’utiliser d’autres méthodes d’affectation de stratégie après avoir exécutez cet Assistant. Utilisez d’autres méthodes *d’affectation* de stratégies uniquement si vous voulez créer et gérer manuellement des stratégies pour vos étudiants, enseignants et membres du personnel.
+> Les stratégies appliquées par l’Assistant répondent aux besoins de la majorité des Teams pour l'éducation clients. L’Assistant ajuste la définition globale (à l’échelle de l’organisation par défaut) d’un ensemble principal de stratégies avec des paramètres que nous recommandons pour la sécurité des étudiants et les applique aux étudiants. L’Assistant crée et affecte également un ensemble de stratégies personnalisées aux enseignants et aux membres du personnel. La plupart Teams pour l'éducation clients n’auront pas besoin d’utiliser d’autres méthodes d’affectation de stratégies après avoir exécutez cet Assistant. Utilisez d’autres méthodes *d’affectation* de stratégies uniquement si vous voulez créer et gérer manuellement des stratégies pour vos étudiants, enseignants et membres du personnel.
 
-## <a name="teams-for-education-policy-wizard"></a>Teams pour l'éducation De stratégie de stratégie
+## <a name="teams-for-education-policy-wizard"></a>Teams pour l'éducation’Assistant Stratégie
 
 <a name="polwiz_intro"> </a>
 
@@ -105,7 +105,7 @@ Dans Teams, pour un domaine de stratégie donné, une stratégie peut être appl
 - Affectation à un groupe dont l’utilisateur est membre
 - Si l’utilisateur n’est pas directement affecté à une stratégie ou n’est pas membre d’un groupe à qui une stratégie a été attribuée, l’utilisateur reçoit automatiquement la stratégie globale (à l’échelle de l’organisation par défaut)
 
-Si plusieurs de ces affectations de stratégie existent pour un utilisateur, vous Teams l’ordre suivant pour déterminer l’affectation de stratégie qui prend effet. Pour plus d’informations, voir [les règles de](policy-assignment-overview.md#which-policy-takes-precedence) priorité ou de priorité pour les [groupes](assign-policies-users-and-groups.md#precedence-rules).
+Si plusieurs de ces affectations de stratégie existent pour un utilisateur, Teams utilise l’ordre suivant pour déterminer l’affectation de stratégie qui prend effet. Pour plus d’informations, voir [les règles de](policy-assignment-overview.md#which-policy-takes-precedence) priorité ou de priorité pour les [groupes](assign-policies-users-and-groups.md#precedence-rules).
 
 |Affectations de stratégie d’un utilisateur|Stratégie qui prend effet |
 |---------|---------|
@@ -131,7 +131,7 @@ Par exemple, vous avez attribué une stratégie de réunion directement aux ense
 
 L’Assistant ajuste et applique automatiquement [ces stratégies](#policies-applied-by-the-wizard). Il existe quelques mesures supplémentaires que vous voudrez peut-être prendre en fonction des besoins de votre établissement en sécurité.
 
-Voir [Maintenir la sécurité des étudiants lors de l’Teams’enseignement à distance](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) pour obtenir des recommandations supplémentaires en matière de sécurité.
+Voir [Maintenir la sécurité des étudiants lors de l’utilisation Teams’enseignement à distance](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) pour obtenir des recommandations supplémentaires en matière de sécurité.
 
 <a name="polwiz_mc"> </a>
 
@@ -139,7 +139,7 @@ Voir [Maintenir la sécurité des étudiants lors de l’Teams’enseignement à
 
 Pour l’instant, l’Assistant applique les stratégies recommandées lorsque vous l’exécutez. Il est important de savoir qu’à mesure que de nouvelles stratégies deviennent disponibles dans Teams, les paramètres globaux (par défaut à l’échelle de l’organisation) pour la sécurité des étudiants sont automatiquement mis à jour par l’Assistant.
 
-Consultez [le Centre de](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) messages (dans le Centre d'administration Microsoft 365) fréquemment pour vous tenir au courant des nouvelles fonctionnalités, ainsi que de leurs stratégies et paramètres de stratégie dans Teams.
+Consultez le Centre de [messages (dans](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) le Centre d'administration Microsoft 365) fréquemment pour vous tenir au courant des nouvelles fonctionnalités, ainsi que de leurs stratégies et paramètres de stratégie dans Teams.
 
 ## <a name="make-changes-in-the-wizard"></a>Apporter des modifications dans l’Assistant
 
@@ -194,6 +194,9 @@ Voici les zones de stratégie et les noms de stratégie correspondants couverts 
 
 Voici un résumé des paramètres appliqués par l’Assistant pour chaque zone de stratégie.
 
+> [!NOTE]
+> Seuls les propriétaires d’équipe peuvent créer des canaux partagés.<br><br>Les canaux partagés avec d’autres organisations nécessitent la configuration [Azure AD connexion directe B2B](/azure/active-directory/external-identities/b2b-direct-connect-overview) qui est désactivée par défaut. Pour [activer cette fonctionnalité, voir Collaborer avec des participants externes](/microsoft-365/solutions/collaborate-teams-direct-connect) dans un canal.
+
 #### <a name="students"></a>[**Étudiants**](#tab/student-settings/)
 
 Voici une liste des définitions de stratégie globales (à l’échelle de l’organisation par défaut) ajustées par l’Assistant et appliquées aux étudiants.
@@ -201,11 +204,14 @@ Voici une liste des définitions de stratégie globales (à l’échelle de l’
 |Zone de stratégie |Sous-zone  |Paramètre de stratégie  |Principale ou secondaire |Enseignement supérieur |
 |---------|---------|---------|---------|---------|
 |Stratégie Teams   |         |Créer des canaux privés         |Désactivé       |Activé|
-|Stratégie de réunions    |Général         |Se réunir maintenant dans des canaux         |Désactivé      |Activé|
-|  |        |Outlook-in         |Désactivé       |Activé|
-|  |        |Planification des réunions de canal        |Désactivé      |Activé|
-|  |        |Planification de réunions privées       |Désactivé      |Activé|
-|  |        |Inscription à une réunion              |Activé       |Activé|
+|               |         |Créer des canaux partagés         |Activé       |Activé|
+|               |         |Partager un canal avec des participants externes         |Activé       |Activé|
+|               |         |Participer à un canal partagé externe         |Activé       |Activé|
+|Stratégie de réunions    |Général         |Autoriser la conférence maintenant dans les canaux         |Désactivé      |Activé|
+|  |        |Autoriser le complément Outlook         |Désactivé       |Activé|
+|  |        |Autoriser la planification des réunions pour les canaux        |Désactivé      |Activé|
+|  |        |Autoriser la planification des réunions privées       |Désactivé      |Activé|
+|  |        |Autoriser l’inscription à une réunion              |Activé       |Activé|
 |  |        |Qui pouvez vous inscrire    |Tous les membres de l’organisation      |Tous les membres de l’organisation|
 |  |Audio & vidéo        |Transcription        |Activé       |Activé|
 |  |        |Enregistrement cloud         |Désactivé      |Activé|
@@ -271,11 +277,14 @@ Voici une liste des définitions de stratégie personnalisées assignées aux en
 |Zone de stratégie |Sous-zone  |Paramètre de stratégie  |Principale ou secondaire |Enseignement supérieur |
 |---------|---------|---------|---------|---------|
 |Stratégie Teams   |         |Créer des canaux privés         |Activé       |Activé|
-|Stratégie de réunions    |Général         |Se réunir maintenant dans des canaux         |Activé      |Activé|
-|  |        |Outlook-in         |Activé       |Activé|
-|  |        |Planification des réunions de canal        |Activé      |Activé|
-|  |        |Planification de réunions privées       |Activé      |Activé|
-|  |        |Inscription à une réunion              |Activé       |Activé|
+|               |         |Créer des canaux partagés         |Activé       |Activé|
+|               |         |Partager un canal avec des participants externes         |Activé       |Activé|
+|               |         |Participer à un canal partagé externe         |Activé       |Activé|
+|Stratégie de réunions    |Général         |Autoriser la conférence maintenant dans les canaux         |Activé      |Activé|
+|  |        |Autoriser le complément Outlook         |Activé       |Activé|
+|  |        |Autoriser la planification des réunions pour les canaux        |Activé      |Activé|
+|  |        |Autoriser la planification des réunions privées       |Activé      |Activé|
+|  |        |Autoriser l’inscription à une réunion              |Activé       |Activé|
 |  |        |Qui pouvez vous inscrire    |Tous les membres de l’organisation      |Tous les membres de l’organisation|
 |  |Audio & vidéo        |Transcription        |Activé       |Activé|
 |  |        |Enregistrement cloud         |Activé      |Activé|
@@ -329,7 +338,7 @@ Voici une liste des définitions de stratégie personnalisées assignées aux en
 
 * * *
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Stratégies et packages de stratégies Teams pour l’éducation](policy-packages-edu.md)
 - [Attribuer des stratégies à un grand nombre d’utilisateurs dans votre établissement scolaire](batch-group-policy-assignment-edu.md)

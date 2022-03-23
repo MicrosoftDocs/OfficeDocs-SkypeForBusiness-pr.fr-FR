@@ -22,23 +22,23 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: En savoir plus sur les options de numérotation automatique et de reconnaissance vocale des files d’attente dans Teams.
-ms.openlocfilehash: 7ea18f5ca1f9fba619fe00f28e93e245a7a8f074
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: db9eb9b4a31bd4d78c2e2519943cb405022e9fc6
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410675"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711278"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Référence de la reconnaissance vocale et de la numérotation automatique et de la file d’attente des appels
 
-La fonction Numérotation par nom ou numérotation est une fonctionnalité de numérotation automatique qui permet aux appelants de Teams les utilisateurs de votre organisation. À l’aide de leur clavier vocal ou téléphonique, les appelants peuvent dire ou entrer le nom complet ou partiel, ou le numéro de poste de la personne qu’ils souhaitent joindre. Le attendant automatique recherche dans l’annuaire de l’entreprise, recherche la personne, puis lui transfère l’appelant.  La numérotation par nom ou numérotation par poste est une option que vous avez configurée lorsque vous configurez les paramètres de flux d’appels [dans un attendant automatique.](create-a-phone-system-auto-attendant.md#call-flow)
+La fonction Numérotation par nom ou numérotation est une fonctionnalité de numérotation automatique qui permet aux appelants de joindre Teams utilisateurs de votre organisation. À l’aide de leur clavier vocal ou téléphonique, les appelants peuvent dire ou entrer le nom complet ou partiel, ou le numéro de poste de la personne qu’ils souhaitent joindre. Le attendant automatique recherche dans l’annuaire de l’entreprise, recherche la personne, puis lui transfère l’appelant.  La numérotation par nom ou numérotation par poste est une option que vous avez configurée lorsque vous [configurez les paramètres de flux d’appels dans un attendant automatique](create-a-phone-system-auto-attendant.md#call-flow).
 
 
 ## <a name="searching-for-users"></a>Recherche d’utilisateurs
 
-Teams utilisateurs qui peuvent être joints à l’aide de la numérotation par nom n’ont pas besoin de numéro de téléphone ou de forfaits d’appels, mais ils doivent être Voix Entreprise pour Skype Entreprise Server **utilisateurs.** Pour les organisations multinationales, la numérotation par nom recherche et transfère les appelants vers Microsoft Teams utilisateurs dans des pays ou régions différents.
+Teams utilisateurs qui peuvent être joints à l’aide de la numérotation par nom **n’ont** pas besoin de numéro de téléphone ou de forfaits d’appels, mais ils doivent être Voix Entreprise pour Skype Entreprise Server utilisateurs. Pour les organisations multinationales, la numérotation par nom recherche et transfère les appelants vers Microsoft Teams utilisateurs dans des pays ou régions différents.
 
-Teams utilisateurs qui peuvent être joints à l’aide de la numérotation par extension ne doivent pas avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent être Voix Entreprise pour Skype Entreprise Server **utilisateurs.** Vous devrez également avoir un plan de numérotation correctement configuré pour vos utilisateurs. Pour les organisations multinationales, La numérotation par extension recherche et transfère les appelants vers Microsoft Teams utilisateurs dans des pays ou régions différents. 
+Teams utilisateurs qui peuvent être joints à **l’aide** de la numérotation par extension ne doivent pas avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent être Voix Entreprise pour Skype Entreprise Server utilisateurs. Vous devrez également avoir un plan de numérotation correctement configuré pour vos utilisateurs. Pour les organisations multinationales, La numérotation par extension recherche et transfère les appelants vers les Microsoft Teams utilisateurs dans des pays ou régions différents. 
 
 Compte tenu des conditions préalables requises, la numérotation par nom ou numérotation doit être explicitement activée lors de la configuration d’un service de service automatique.
 
@@ -52,10 +52,10 @@ Il n’y a pas de limite au nombre d’utilisateurs Active Directory que les app
 |Voix (entrée vocale) |Prénom  <br/> Nom  <br/> Prénom + nom  <br/> Nom + prénom  | 80 000 utilisateurs |
 
 > [!NOTE]
-> Si vous utilisez la fonction Numérotation par nom avec la reconnaissance vocale, mais que l’Active Directory de votre organisation compte [](create-a-phone-system-auto-attendant.md#dial-scope) plus de 80 000 utilisateurs et que vous n’avez pas limité l’étendue de la numérotation par nom à l’aide de la fonctionnalité de portée de la numérotation, la fonction Numérotation par nom continuera de fonctionner pour les appelants qui utilisent un clavier téléphonique et les entrées vocales seront disponibles pour tous les autres scénarios. Vous pouvez utiliser la fonctionnalité de Portée de la numérotation pour limiter les noms atteignables en modifiant la portée de la Numérotation par nom pour un standard automatique spécifique.
+> Si vous utilisez la fonction Numérotation par nom avec la reconnaissance vocale, mais que l’Active Directory de votre organisation compte plus de 80 000 utilisateurs et que vous n’avez pas limité l’étendue de la numérotation par nom à l’aide de la fonctionnalité de portée de la numérotation, la fonction Numérotation par nom continuera de fonctionner pour les appelants qui utilisent un clavier téléphonique et les entrées vocales seront disponibles pour tous les autres scénarios.[](create-a-phone-system-auto-attendant.md#dial-scope) Vous pouvez utiliser la fonctionnalité de Portée de la numérotation pour limiter les noms atteignables en modifiant la portée de la Numérotation par nom pour un standard automatique spécifique.
  
 ### <a name="search-considerations"></a>Considérations en cas de recherche 
-La numérotation par nom recherche dans l’annuaire de l’organisation, puis filtre les résultats par rapport à l’étendue de la numérotation : inclure ou exclure des listes configurées. Si la recherche initiale renvoie plus de 100 utilisateurs, les listes d’étendue de numérotation ne sont pas appliquées, la recherche échoue et l’appelant se demande si trop de noms ont été trouvés.
+La numérotation par nom recherche d’abord l’annuaire de l’ensemble de l’organisation avant d’appliquer une étendue de numérotation, inclure ou exclure des listes configurées. Si la recherche initiale sur l’ensemble de l’annuaire renvoie plus de 100 utilisateurs, les listes d’étendue de numérotation ne sont pas appliquées, la recherche échoue et un trop grand nombre de noms ont été trouvés pour l’appelant.
  
  
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>Numérotation par nom - Entrée de clavier téléphonique (DTMF)
@@ -114,7 +114,7 @@ Les appelants peuvent dire les noms dans les formats suivants :
   
 ## <a name="language-support"></a>Prise en charge des langues
 
-La prise en charge linguistique de la reconnaissance vocale et de la reconnaissance vocale est disponible dans ces [langues.](create-a-phone-system-auto-attendant-languages.md)
+La prise en charge linguistique de la reconnaissance vocale et de la reconnaissance vocale est disponible dans ces [langues prise en charge](create-a-phone-system-auto-attendant-languages.md).
 
 Les commandes vocales suivantes sont disponibles pour la reconnaissance vocale : 
   

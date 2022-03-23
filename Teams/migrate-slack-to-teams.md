@@ -18,12 +18,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Suivez les instructions pour la migration de Slack vers Microsoft Teams.
-ms.openlocfilehash: 9342c7e251cc7466df0d70e8cb699d7e514455b4
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 7879e839c8f5597761827fe42ea75b1f0c8dddf9
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456354"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711888"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migrer de Slack vers Microsoft Teams
 
@@ -55,7 +55,7 @@ Après avoir lu cette section, vous devriez être en mesure de comprendre les co
 ### <a name="assess-your-slack-workspaces"></a>Évaluer vos espaces de travail Slack
 Avant de planifier le plan de migration de votre organisation, vous devez rassembler des informations sur les espaces de travail Slack. La compréhension de l’utilisation de vos espaces de travail Slack vous permet de déterminer l’étendue de votre migration. Par exemple, combien d’espaces de travail sont migrés ? Sont-ils utilisés par un service spécifique, plusieurs ou utilisés par une organisation entière ?
 
-Si vous êtes membre des espaces de travail de Slack que vous voulez déplacer, vous pouvez analyser l’utilisation vous-même en accédant à *\<your Slack workspace\>. slack.com/stats*. Consultez les onglets canaux et membres pour rechercher des modèles d’utilisation. Choisissez les espaces de travail que vous voulez migrer (et ceux que vous voulez laisser). 
+Si vous’ êtes membre des espaces de travail Slack que vous souhaitez migrer, vous pouvez analyser l’utilisation vous-même en accédant à *\<your Slack workspace\>.slack.com/stats*. Passez en revue les onglets Canaux et Membres pour rechercher des modèles d’utilisation. Choisissez les espaces de travail que vous souhaitez migrer (et ceux que vous souhaitez ignorer). 
 
 > [!NOTE]
 > Si vous n’avez pas accès à la page statistiques, vous n’êtes pas un administrateur ou un propriétaire. 
