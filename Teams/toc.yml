@@ -1529,7 +1529,7 @@ items:
                 href: teams-app-setup-policies.md
               - name: Gérer les stratégies d’application personnalisée et les paramètres dans Teams
                 href: teams-custom-app-policies-and-settings.md
-          - name: Personnaliser les applications Teams basées sur une licence
+          - name: Personnaliser les applications Teams pour vos employés de première ligne
             href: pin-teams-apps-based-on-license.md
           - name: Passer en revue les autorisations des applications et accorder le consentement administrateur
             href: app-permissions-admin-center.md

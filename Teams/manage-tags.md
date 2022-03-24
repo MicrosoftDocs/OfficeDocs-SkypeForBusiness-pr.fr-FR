@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment les balises sont utilisées dans votre organisation dans Microsoft Teams.
-ms.openlocfilehash: 2e099c611cbbfd22cc2cc32c189edc8243ea362d
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: af9855f1ca771cb9f5d4739194e26cba746859ff
+ms.sourcegitcommit: caaed4b48b8f2b05d035c1bdea00a61301bc9f05
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711578"
+ms.locfileid: "63740201"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gérer les balises dans Microsoft Teams
 
@@ -35,7 +35,7 @@ Comme indiqué précédemment, il existe deux types d’balises dans Teams.
 - **Marquage par shift** : Cette fonctionnalité permet aux personnes de se voir automatiquement attribuer des balises qui correspondent à leur planning et au nom du groupe shift dans l’application [Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) de Teams. Par exemple, la balise « EngineerOnCall » atteint tous les ingénieurs qui sont programmés dans Shifts pour travailler au moment où la balise est utilisée dans une conversation ou un billet de canal. Grâce au balisage par shift, Teams l’estimation de connaître le nom du personnel sur les équipes lorsque les utilisateurs ont besoin de relayer rapidement des informations. La balise par shift peut également être prise en charge par les principaux systèmes de gestion du personnel comme JDA, Kronos et AMiON en les intégrant à Shifts dans Teams. Pour plus d’informations sur la façon de configurer cette fonctionnalité, voir [Configurer le marquage par shift](#set-up-tagging-by-shift).
 
 > [!NOTE]
-> Les balises ne sont pas prise en charge dans les canaux privés ou partagés. Les balises ne sont pas disponibles dans les organisations du Département de la défense (DoD). 
+> Les balises ne sont pas prise en charge dans les canaux privés ou partagés.  
 
 ## <a name="how-tags-work"></a>Fonctionnement des balises
 

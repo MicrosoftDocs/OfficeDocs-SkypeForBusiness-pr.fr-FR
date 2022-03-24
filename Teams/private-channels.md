@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les canaux privés dans Microsoft Teams.
-ms.openlocfilehash: e3b8208f760d2ec549e242d390190fce8acba5fd
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 908432588c1744027b03efee44b9506ea4388fa2
+ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711468"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63761918"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canaux privés dans Microsoft Teams
 
@@ -122,6 +122,8 @@ Actuellement, les canaux privés prennent en charge les connecteurs et les ongle
 Chaque équipe peut avoir un maximum de 30 canaux privés et chaque canal privé peut avoir au maximum 250 membres. La limite des 30 canaux privés vient s’ajouter à la limite des 200 canaux standard par équipe. 
 
 Lorsque vous créez une équipe à partir d’une équipe existante, les canaux privés de l’équipe existante ne seront pas copiés.
+
+Il n’est pas possible de convertir un canal privé en un autre type de canal.
 
 Les notifications provenant de canaux privés ne sont pas incluses dans les e-mails d’activité manqués.
 

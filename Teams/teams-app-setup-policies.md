@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b5100bd09b371d90d5bede76b440f423eb527b9c
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 677ee2b0d57477ee79a9af7510d0ccf2dfbcae28
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442340"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774013"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -35,6 +35,9 @@ En tant qu’administrateur, vous pouvez utiliser des stratégies de configurati
 - **Télécharger applications personnalisées : les** stratégies de configuration d’application vous permettent d’autoriser les utilisateurs à télécharger des applications personnalisées sur Teams. Pour plus d’informations, [voir Télécharger applications personnalisées](#upload-custom-apps).
 
 ## <a name="pin-apps"></a>Épingler des applications
+
+> [!NOTE]
+> Pour les employés en première ligne de votre organisation, nous vous recommandons d’utiliser l’expérience personnalisée de l’application en ligne. Cette fonctionnalité épingle les applications les plus pertinentes dans Teams utilisateurs titulaires d’une [licence F](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt). Pour en savoir plus, voir [Personnaliser Teams pour vos employés en ligne](pin-teams-apps-based-on-license.md).
 
 L’épinglage d’applications vous permet de présenter les applications dont les utilisateurs de votre organisation ont besoin, y compris les applications conçues par des tiers ou par des développeurs de votre organisation.
 

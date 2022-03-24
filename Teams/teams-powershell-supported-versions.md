@@ -12,16 +12,16 @@ ms.collection:
 description: Découvrez les versions prise en charge du module Teams PowerShell, utilisé pour l’administration de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9254afde824f072f6015531b90f4cacfb38acafe
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: ea8a755c75c5f91c5dbf3a4cd4dd749ac576557c
+ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63689082"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762008"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams module PowerShell - Versions prise en charge
 
-Microsoft Teams versions du module PowerShell (TPM) de la série 4.x.x seront les seules versions prise en charge à l’avenir. Toutes les versions antérieures sont sur la voie de la retraite.
+Microsoft Teams versions 4.0.0 ou ultérieures du module PowerShell (TPM) seront les seules versions prise en charge à l’avenir. Toutes les versions antérieures sont sur la voie de la retraite.
 
 
 
@@ -39,8 +39,7 @@ Les organisations qui n’ont pas utilisé la TPM au cours des trois derniers mo
 
 ## <a name="current-organizations-tpm-active"></a>Organisations actuelles (TPM actives)
 
-Les organisations qui ont utilisé la technologie TPM au cours des trois derniers mois (22 janvier au 22 mars) auront plus de temps pour mettre à jour vers la technologie TPM 4.x.x. Plus d’informations à suivre prochainement.
-
+Les organisations qui ont utilisé la technologie TPM au cours des trois derniers mois (22 janvier au 22 mars) pourront utiliser la technologie TPM 4.0.0 ou une date supérieure à partir du 15 juin 2022. Nous vous recommandons de mettre à Teams module PowerShell vers la dernière version.
 
 
 ## <a name="important-notes"></a>Notes importantes
@@ -64,7 +63,7 @@ Les organisations qui ont utilisé la technologie TPM au cours des trois dernier
 
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Teams notes de publication de PowerShell](teams-powershell-release-notes.md)
 

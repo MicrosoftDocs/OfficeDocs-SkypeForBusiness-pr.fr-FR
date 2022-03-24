@@ -17,12 +17,12 @@ description: Découvrez comment gérer vos applications Teams sur la page Gérer
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 96acf3151c2b805fead94979010669520b7a000f
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: f8130d8f6d9d8609ce37d5f43f18dd083a5106e0
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442290"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774073"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gérer vos applications dans le Centre Microsoft Teams’administration
 
@@ -150,14 +150,16 @@ Les autorisations de consentement spécifique aux ressources autorisent les prop
 
 ## <a name="manage-org-wide-app-settings"></a>Gérer les paramètres des applications à l’échelle de l’organisation
 
-Utilisez les paramètres des applications à l’échelle de l’organisation pour contrôler si les utilisateurs profitent d’une expérience d’application personnalisée en fonction des licences (bientôt disponibles), de la mise à jour des applications tierces et du fait que les utilisateurs peuvent télécharger ou interagir avec des applications personnalisées au niveau de votre organisation. Les paramètres de l’application à l’échelle de l’organisation contrôlent le comportement de tous les utilisateurs et remplacent les autres stratégies d’autorisation d’application attribuées à des utilisateurs. Vous pouvez les utiliser pour contrôler des applications malveillantes ou problématiques.
+Utilisez les paramètres des applications à l’échelle de l’organisation pour contrôler si les utilisateurs courir à une licence [F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) profitent de l’expérience personnalisée en ligne des applications (bientôt disponible), si les utilisateurs peuvent installer des applications tierces et si les utilisateurs peuvent télécharger ou interagir avec des applications personnalisées au niveau de votre organisation. Les paramètres de l’application à l’échelle de l’organisation contrôlent le comportement de tous les utilisateurs et remplacent les autres stratégies d’autorisation d’application attribuées à des utilisateurs. Vous pouvez les utiliser pour contrôler des applications malveillantes ou problématiques.
 
 > [!NOTE]
 > Pour découvrir comment utiliser les paramètres d’application à l’échelle de l’organisation dans Microsoft 365 Government - Cloud de la communauté du secteur public High GCCH et Department of Defense (DoD) de Teams, voir Gérer les stratégies d’autorisation d’application [dans Teams](teams-app-permission-policies.md).
 
-1. Dans la page Gérer les applications, sélectionnez **les paramètres de l’application à l’échelle de l’organisation**. Vous pouvez ensuite configurer les paramètres voulus dans le panneau.
+1. Dans la page Gérer les applications, sélectionnez **les paramètres de l’application à l’échelle de l’organisation**. Vous pouvez ensuite configurer les paramètres que vous souhaitez dans le volet.
 
-1. (Bientôt disponible) Sous **Applications personnalisées**, désactiver ou activer **l’application Afficher les applications personnalisées en fonction des licences**. Lorsque ce paramètre est installé, les utilisateurs obtiennent une expérience dans laquelle des applications sont épinglées en fonction de leur licence. Pour plus d’informations, [voir Personnaliser vos Teams en fonction de la licence](pin-teams-apps-based-on-license.md).
+    :::image type="content" source="media/manage-apps-org-wide-app-settings.png" alt-text="Capture d’écran du volet Des paramètres d’application à l’échelle de l’organisation sur la page Gérer les applications":::
+
+1. (Bientôt disponible) Sous **Applications personnalisées**, désactiver ou activer **l’application Afficher les applications personnalisées**. Lorsque ce paramètre est ouvert, les utilisateurs titulaires d’une licence [F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) peuvent obtenir l’expérience personnalisée de l’application en ligne. Cette expérience épingle les applications les plus pertinentes au Teams les employés en ligne. Pour en savoir plus, voir [Personnaliser Teams pour vos employés en ligne](pin-teams-apps-based-on-license.md).
 
     Cette fonctionnalité est disponible pour les licences F. D’autres types de licence seront pris en charge à l’avenir.
 1. Sous **Applications tierces**, désactiver ou activer ces paramètres pour contrôler l’accès à des applications tierces :
