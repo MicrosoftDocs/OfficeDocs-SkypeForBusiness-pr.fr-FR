@@ -18,14 +18,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3a9566ceb6d99bb7d665efea975ecee048607dc9
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: be7ee83b510096d8d6ffc0c4a0a5984917ad55c5
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442500"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403975"
 ---
-# <a name="apps-bots--connectors-in-microsoft-teams"></a>Applications, robots et connecteurs dans Microsoft Teams
+# <a name="about-apps-in-microsoft-teams"></a>À propos des applications dans Microsoft Teams
 
 Les applications vous permettent de rechercher du contenu à partir de vos services favoris et de les partager dans Teams. Elles vous aident à effectuer des actions telles qu’épingler des services en haut d’un canal, de mener une conversation avec des robots, ou de partager et attribuer des tâches. Pour en savoir plus, voir [Vue d’ensemble sur les applications dans Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
@@ -39,13 +39,13 @@ Teams insère un ensemble d’applications intégrées, notamment Listes, Tâche
 
 En plus des applications fournies par Microsoft, vous pouvez utiliser des applications tierces certifiées par Microsoft. Microsoft collabore avec  des partenaires développeurs Microsoft 365 pour fournir les informations nécessaires pour la prise de décisions accélérées relatives à l’utilisation des applications et compléments Teams. Pour plus d’informations, consultez [Sécurité et conformité de l’application Microsoft Teams](/microsoft-365-app-certification/teams/teams-apps).
 
-## <a name="use-teams-templates"></a>Utilisation des modèles Teams
+## <a name="use-open-source-sample-apps-provided-by-microsoft"></a>Utiliser des exemples d’applications open source fournis par Microsoft
 
 Vous pouvez utiliser les [Modèles d’application](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json), qui sont des applications Microsoft Teams prêtes pour la production qui sont impulsées par la communauté, open source et disponibles sur GitHub.
 
 ## <a name="create-custom-apps"></a>Créer des notifications personnalisées
 
-Vous pouvez créer rapidement des solutions personnalisées à faible code à l’aide de l’intégration de Teams avec [Microsoft Power Platform](teams-power-platfom-integration.md). Vous pouvez également créer votre propre application personnalisée en fonction des besoins de votre entreprise. Si vous souhaitez en savoir plus, consultez l’article [Créer des applications Microsoft Teams](/microsoftteams/platform/overview).  
+Vous pouvez créer rapidement des solutions personnalisées à faible code à l’aide de l’intégration de Teams avec [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions). Vous pouvez également créer votre propre application personnalisée en fonction des besoins de votre entreprise. Si vous souhaitez en savoir plus, consultez l’article [Créer des applications Microsoft Teams](/microsoftteams/platform/overview).  
 
 ## <a name="apps-deployment-decisions"></a>Décisions liées au déploiement des applications
 
@@ -65,7 +65,6 @@ Par défaut, toutes les applications tierces fournies par Microsoft et les appli
 | Posez-vous la question | Action |
 |--------------|--------|
 |Est-ce que vous allez modifier les paramètres par défaut des applications Teams ? | Pour plus d’informations sur les stratégies et les paramètres que vous pouvez utiliser pour gérer les applications de votre organisation, voir [Paramètres d’administration des applications dans Microsoft Teams](admin-settings.md).|
-|||
 
 ### <a name="app-permissions-and-other-considerations"></a>Autorisations d’applications et autres points à prendre en compte
 
@@ -76,7 +75,6 @@ Les utilisateurs approuvent les applications. Elles sont gérées par l’admini
 | Posez-vous la question | Action |
 |--------------|--------|
 |<br>Quelles sont les applications auxquelles je souhaite autoriser l’accès ? Quelles sont les applications auxquelles je ne souhaite pas autoriser l’accès ?  | <ul><li>Voir [Autorisations points à prendre en compte pour les applications Microsoft Teams](app-permissions.md) pour obtenir la liste des objets qu’ils faut prendre en compte lorsque vous autorisez l’accès à une application, un robot, un onglet ou le connecteur.</li><li>Voir [Gérer vos applications dans le Centre d'administration Microsoft Teams](manage-apps.md) pour plus d’informations sur la mise à disposition d’une application aux utilisateurs de votre organisation.</li></ul>|
-|||
 
 ### <a name="bots-for-private-chats-and-channels"></a>Robots pour des conversations et des canaux privés
 
@@ -85,7 +83,6 @@ Les robots sont des programmes automatisés qui répondent aux requêtes ou four
 | Posez-vous la question | Action |
 |--------------|--------|
 |Est-ce que je souhaite autoriser les robots personnalisés dans mon organisation ?|Pour plus d’informations sur l’ajout de robots, voir [Ajouter des robots pour conversations et canaux privés dans Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). Pour plus d’informations sur l’activation ou la désactivation des robots personnalisés, voir [Paramètres d’administration des applications dans Microsoft Teams](admin-settings.md).|
-|||
 
 ### <a name="built-in-and-custom-tabs"></a>Onglets intégrés et personnalisés
 
@@ -94,7 +91,6 @@ Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un c
 | Posez-vous la question | Action |
 |--------------|--------|
 |Est-ce que je souhaite autoriser les onglets personnalisés dans mon organisation ?|Pour plus d’informations, voir [Utiliser des onglets intégrés et des onglets personnalisés dans Teams](built-in-custom-tabs.md).|
-|||
 
 ### <a name="custom-connectors"></a>Connecteurs personnalisés
 
@@ -103,7 +99,6 @@ Les connecteurs permettent à votre équipe de rester à jour en fournissant dir
 | Posez-vous la question | Action |
 |--------------|--------|
 |Est-ce que je souhaite permettre aux utilisateurs de créer des connecteurs personnalisés ?|Pour plus d’informations, voir [Utiliser des connecteurs personnalisés dans Teams](office-365-custom-connectors.md).|
-|||
 
 ## <a name="additional-deployment-decisions"></a>Décisions de déploiement supplémentaires
 
@@ -116,7 +111,6 @@ Vous pouvez utiliser les rapports d’activité pour voir comment les utilisateu
 | Posez-vous la question | Action |
 |--------------|--------|
 | <br>Qui a besoin de voir les rapports d’activité et est-ce qu’ils disposent des autorisations appropriées pour les afficher ? |<ul><li>Si vous ne voulez pas attribuer un rôle d’administrateur à un utilisateur, vous pouvez lui [attribuer le rôle de lecteur de rapports](teams-activity-reports.md#reports-reader-role).</li><li>Voir [Rôles et autorisations](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) et [Afficher et attribuer des rôles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) pour plus d’informations sur comment attribuer des rôles d’administrateur dans Azure Active Directory.</li></ul> |
-|||
 
 ### <a name="app-templates"></a>Modèles d’application
 
@@ -127,4 +121,3 @@ Le code source complet est également disponible, de sorte que vous pouvez l’e
 | Posez-vous la question | Action |
 |--------------|--------|
 | Est-ce que je veux installer des modèles d’applications Teams, tels que Icebreaker ? |Pour en savoir plus, lisez [Modèles d’application pour Teams](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=MicrosoftTeams%2ftoc.json).|
-|||

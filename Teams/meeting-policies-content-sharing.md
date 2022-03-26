@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams partage de contenu.
-ms.openlocfilehash: 6c713800aa0f95c7adfd6655455e6ff332f91595
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: dccf36a257cde5731c140f2000e3d0733d3366c3
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205314"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403985"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Paramètres de stratégie de réunion : partage de contenu
 
@@ -35,7 +35,7 @@ Cet article décrit les paramètres de stratégie de réunion suivants concernan
 - [Mode de partage d’écran](#screen-sharing-mode)
 - [Autoriser un participant à donner ou demander le contrôle](#allow-a-participant-to-give-or-request-control).
 - [Autoriser un participant externe à donner ou demander le contrôle](#allow-an-external-participant-to-give-or-request-control)
-- [PowerPoint partage](#powerpoint-sharing)
+- [PowerPoint Live](#powerpoint-live)
 - [Tableau blanc](#whiteboard)
 - [Notes partagées](#shared-notes)
 
@@ -99,13 +99,13 @@ La possibilité pour les utilisateurs fédérés de donner le contrôle à des u
 
 Pour utiliser PowerShell afin de contrôler si les participants externes peuvent transmettre des demandes de contrôle ou d’acceptation, utilisez l’applet de commande AllowExternalParticipantGiveRequestControl.
 
-### <a name="powerpoint-sharing"></a>PowerPoint partage
+### <a name="powerpoint-live"></a>PowerPoint Live
 
 Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si l’utilisateur peut partager des diapositives PowerPoint dans une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, invités et fédérés, héritent de la stratégie de l’organisateur de la réunion.
 
 Examinons l’exemple suivant.
 
-|Utilisateur |Stratégie de réunion  |PowerPoint partage |
+|Utilisateur |Stratégie de réunion  |PowerPoint Live |
 |---------|---------|---------|
 |Daniela   | Global   | Activé       |
 |Geneviève   | Location1MeetingPolicy        | Désactivé   |
