@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ff97fae1fb2483dcddf301715018b6a94f908a7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: d0f2364471b3800042e7536d1013b82d76209a02
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711438"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457067"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -488,6 +488,10 @@ if($cleanup){
 - Pour le moment, Azure Virtual Desktop ne prend pas en charge les clients macOS et Linux.
 - Le changement de client rapide peut entraîner des problèmes liés aux appels dans une environnement VDI, tels que le partage d’écran, qui ne sont pas disponibles. Le redémarrage du client permet d’atténuer ces problèmes.
 
+### <a name="notifications"></a>Notifications
+
+- La notification et la présence de nombre de messages dans la barre Windows des tâches n’est pas prise en charge sur Windows Server 2016 hôte.
+
 ### <a name="calling-and-meetings"></a>Appels et réunions
 
 Les fonctionnalités d’appel et de réunion suivantes ne sont pas pris en charge :
@@ -536,7 +540,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 Redémarrez ensuite VDA. Pour en savoir plus, consultez cet article de support citrix, [qui explique comment résoudre les problèmes d’optimisation HDX pour Microsoft Teams](https://support.citrix.com/article/CTX253754).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Installer en bloc Teams l’aide Windows programme d’installation en bloc (MSI)](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

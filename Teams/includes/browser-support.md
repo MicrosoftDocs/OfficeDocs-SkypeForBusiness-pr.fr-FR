@@ -3,7 +3,7 @@ Teams prend en charge les navigateurs suivants, avec quelques exceptions signal�
 
 |Navigateur  |Appels :audio, vidéo et partage  |Réunions : audio, vidéo et partage<sup>1</sup> <sup>2</sup> <sup>3</sup>  |
 |---------|---------|---------|
-|Internet Explorer 11     |Non pris en charge         |Les réunions ne sont prises en charge que si elles incluent des coordonnées PSTN. Pour participer à une réunion sur IE11 sans coordonnées PSTN, les utilisateurs doivent télécharger le client de bureau Teams.<br><br>Vidéo : non prise en charge.<br><br>Partage : partage entrant uniquement (non sortant)  <br><br> Les applications et services Microsoft 365 ne prennent pas en charge Internet Explorer 11 à partir du 17 août 2021 (Microsoft Teams ne prendra pas en charge Internet Explorer 11 et antérieure, à partir du 30 novembre 2020). [En savoir plus](https://www.microsoft.com/edge/business). Veuillez noter que le navigateur Internet Explorer 11 restera un navigateur pris en charge. Internet Explorer 11 est un composant du système d’exploitation Windows et [suit la stratégie de cycle de vie](/lifecycle/faq/internet-explorer-microsoft-edge) du produit sur lequel il est installé.    |
+|Internet Explorer 11     |Non pris en charge         |Les réunions ne sont prises en charge que si elles incluent des coordonnées PSTN. Pour participer à une réunion sur IE11 sans coordonnées PSTN, les utilisateurs doivent télécharger le client de bureau Teams.<br><br>Vidéo : non prise en charge.<br><br>Partage : partage entrant uniquement (non sortant)  <br><br> Les applications et services Microsoft 365 ne prennent pas en charge Internet Explorer 11 à partir du 17 août 2021 (Microsoft Teams ne prendra pas en charge Internet Explorer 11 et antérieure, à partir du 30 novembre 2020). [En savoir plus](https://www.microsoft.com/edge/business). Veuillez noter que le navigateur Internet Explorer 11 restera un navigateur pris en charge. Internet Explorer 11 est un composant du système d’exploitation Windows et [suit la stratégie de cycle de vie](/lifecycle/faq/internet-explorer-microsoft-edge) du produit sur lequel il est installé.    |
 |Microsoft Edge, RS2 ou version ultérieure     |Entièrement pris en charge, sauf le partage sortant <sup>4</sup>         |Entièrement pris en charge, sauf le partage sortant         |
 |Microsoft Edge (basé sur Chromium), dernière version et les deux versions précédentes     | Entièrement pris en charge    |Entièrement pris en charge         |
 |Google Chrome, dernière version et les deux versions précédentes       |Entièrement pris en charge |Entièrement pris en charge <br> <br>Le partage est pris en charge sans plug-in ni extension sur Chrome version 72 ou ultérieure.       |
@@ -16,7 +16,7 @@ Teams prend en charge les navigateurs suivants, avec quelques exceptions signal�
 
 <sup>2</sup> Brouiller mon arrière-plan n’est pas disponible lorsque vous exécutez Teams dans un navigateur. Cette fonctionnalité est uniquement disponible dans le client de bureau Teams.
 
-<sup>3</sup> Les réunions Teams sur les navigateurs sont limitées à un flux vidéo entrant unique de l’orateur actif.
+<sup>3</sup> Les réunions Teams sur les navigateurs sont limitées à un seul flux ; flux vidéo entrant de l’intervenant actuel ou partage d’écran.
 
 <sup>4</sup> Edge RS2 ou version ultérieure ne prend pas en charge l’envoi de trafic audio et vidéo en temps réel via des proxies HTTP.
 

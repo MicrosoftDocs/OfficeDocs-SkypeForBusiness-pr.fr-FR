@@ -21,22 +21,22 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Découvrez comment configurer des téléphones communs pour les centres d’accueil, les zones d’accueil et les salles de conférence '
-ms.openlocfilehash: 144e32e1bf56bc3e2d64d0c6a1a137fd501442b7
-ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
+ms.openlocfilehash: 313a17d1829c8f3584ec5fb7f37e5f1ec49231d0
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "62856662"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456937"
 ---
 # <a name="deploy-common-area-phones-for-microsoft-teams"></a>Déployer des téléphones de zone commune pour Microsoft Teams
 
 Un téléphone commun est généralement placé dans une zone telle qu’une salle d’accueil ou une autre zone accessible à de nombreuses personnes pour appeler. par exemple, une zone de réception, une salle d’accueil ou un téléphone de conférence. Les téléphones de zone commune sont signés avec des comptes liés à une licence zone Téléphone commun.
 
-Cet article donne une vue d’ensemble de la manière de déployer et de configurer Teams téléphones portables en tant que téléphones à zone commune pour les espaces partagés. Pour une expérience de salle de réunion plus complète, y compris les audioconférences, envisagez d’acheter la licence de salle Salle de réunion dédiée avec un appareil de salle de réunion.
+Cet article donne une vue d’ensemble de la façon de déployer et de configurer Teams téléphones en tant que téléphones à zone commune pour les espaces partagés. Pour une expérience de salle de réunion plus complète, y compris les audioconférences, envisagez d’acheter la licence de salle Salle de réunion dédiée avec un appareil de salle de réunion.
 
 ## <a name="overview"></a>Présentation
 
-La licence Domaine commun Téléphone prend en charge : 
+La licence domaine commun prend Téléphone charge : 
 
 
 | &nbsp;  |  Téléphone de zone commune  |
@@ -70,7 +70,7 @@ Tout d’abord, vous devez acheter une licence zone Téléphone (CAP) et vous as
 4. Entrez le nombre de licences dont vous avez besoin, puis sélectionnez **Acheter**.
 
 >[!NOTE]
->Si vous utilisez Intune dans votre environnement et que vous avez des règles d’accès conditionnel qui nécessitent la conformité de l’appareil, vous devez affecter une licence Azure Active Directory Premium Plan 1 et intune au compte d’appareil pour le téléphone de zone commune.
+>Si vous utilisez Intune dans votre environnement et que vous avez des règles d’accès conditionnel qui nécessitent la conformité de l’appareil, vous devez affecter une licence Azure Active Directory Premium Plan 1 et Intune au compte d’appareil pour le téléphone de zone commune.
 >
 >Les téléphones de zone commune peuvent être impactés par les règles d’accès conditionnel et d’autres configurations d’identité, telles que l’authentification multifacteur. Pour [en savoir plus, consultez les meilleures pratiques Teams’authentification pour les appareils Android](devices/authentication-best-practices-for-android-devices.md).
 
@@ -100,11 +100,11 @@ Si vous déployez un appareil :
 >[!NOTE]
 > Vous n’avez pas besoin d’ajouter Système téléphonique licence. Il est inclus dans la licence Téléphone de zone commune.
 >
->Si vous n’utilisez pas d’Téléphone Microsoft routage ou d’Connecter système direct, vous pouvez ajouter des licences de forfaits d’appels. Pour plus d’informations sur les licences, voir [Microsoft Teams licences de module complémentaire](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+>Si vous n’utilisez pas d’Téléphone Microsoft routage direct système ou d’Connecter, vous pouvez ajouter des licences de forfaits d’appels. Pour plus d’informations sur les licences, voir [Microsoft Teams licences de module complémentaire](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Utilisez PowerShell lorsque vous voulez créer et attribuer des licences pour plusieurs comptes d’utilisateurs à la fois. Pour [plus d’informations,](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) voir Créer Microsoft 365 comptes d’utilisateurs avec PowerShell et attribuer [Microsoft 365 licences utilisateur à des comptes d’utilisateurs avec PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide).
+Utilisez PowerShell lorsque vous voulez créer et attribuer des licences pour plusieurs comptes d’utilisateurs à la fois. Pour [plus d Microsoft 365,](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) voir Créer des comptes d’utilisateurs avec PowerShell Microsoft 365 attribuer des [licences utilisateur à](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) des comptes d’utilisateurs avec PowerShell.
 
 ## <a name="step-3---set-policies-for-common-area-phones"></a>Étape 3 : définir des stratégies pour les téléphones en zone commune
 
@@ -121,7 +121,7 @@ Si vous souhaitez remplacer l’interface par défaut d’un téléphone, envisa
 
 ### <a name="calling-policies"></a>Stratégies d’appel
 
-Utilisez des stratégies d’appel pour activer les appels privés, l’utilisation du forwarding d’appel ou la sonnerie simultanée sur les téléphones communs. Pour [en savoir plus,](teams-calling-policy.md) consultez les informations sur les appels et le Teams en savoir plus.
+Utilisez des stratégies d’appel pour activer les appels privés, l’utilisation du forwarding d’appel ou la sonnerie simultanée sur les téléphones communs. Pour [en savoir plus,](teams-calling-policy.md) consultez Les appels et le Teams d’autres informations.
 
 Par défaut, le parc d’appels n’est pas activé pour les téléphones en zone commune. Vous devez créer une stratégie pour l’activer. Pour [en savoir plus, voir Parc d’appel Microsoft Teams](call-park-and-retrieve.md) récupérer.
 
@@ -135,7 +135,7 @@ Une fois que vous avez créé et configuré un compte d’utilisateur, vous pouv
 
 - [Inscription locale](#local-sign-in)
 - [Se connectez à partir d’un autre appareil](#sign-in-from-another-device)
-- [Connectez-vous à l’aide Teams d’administration](#sign-in-using-the-teams-admin-center)
+- [Se connectez-vous à l’aide Teams centre d’administration](#sign-in-using-the-teams-admin-center)
 
 ### <a name="local-sign-in"></a>Inscription locale
 
@@ -147,6 +147,9 @@ Pour vous connectez localement avec un nom d’utilisateur et un mot de passe :
 
 3. Suivez les instructions de la connectez-vous sur l’appareil. Une fois que vous vous serez inscrit, le téléphone affichera l’expérience utilisateur commune sur le téléphone.
 
+> [!NOTE]
+> Si vous utilisez une stratégie de configuration personnalisée qui désépine l’application d’appel, le pavé de numérotation n’apparaît pas dans la zone Téléphone. Pour plus d’informations sur Teams de configuration, voir [Gérer les stratégies de configuration d’application dans Microsoft Teams](/microsoftteams/teams-app-setup-policies).
+
 ### <a name="sign-in-from-another-device"></a>Se connectez à partir d’un autre appareil
 
 Vous pouvez également vous connectez à un téléphone de zone commune à partir d’un autre appareil à l’aide d’un code. Lorsque vous vous connectez de cette façon, vous entrez le nom d’utilisateur et le mot de passe sur un autre appareil, plutôt que sur le téléphone lui-même.
@@ -157,9 +160,9 @@ Vous pouvez également vous connectez à un téléphone de zone commune à parti
 
 3. Entrez le code et en suivant les instructions pour terminer la connectez-vous.
 
-### <a name="sign-in-using-the-teams-admin-center"></a>Connectez-vous à l’aide Teams d’administration
+### <a name="sign-in-using-the-teams-admin-center"></a>Se connectez-vous à l’aide Teams centre d’administration
 
-En tant qu’administrateur, vous pouvez mettre en service à distance des téléphones communs et vous y connectez à partir du Teams d’administration. Il s’agit de la méthode de sign-in la plus efficace lorsque vous déployez un grand nombre de téléphones à la fois. [Consultez la mise en service à distance et connectez-vous Teams appareils Android](devices/remote-provision-remote-login.md) pour en savoir plus.
+En tant qu’administrateur, vous pouvez mettre en service à distance des téléphones communs et vous y connectez à partir du centre Teams’administration. Il s’agit de la méthode de sign-in la plus efficace lorsque vous déployez un grand nombre de téléphones à la fois. [Consultez la mise en service à distance et connectez-vous Teams appareils Android](devices/remote-provision-remote-login.md) pour en savoir plus.
 
 ## <a name="next-steps"></a>Étapes suivantes
 

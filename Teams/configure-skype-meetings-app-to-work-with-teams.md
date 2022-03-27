@@ -11,27 +11,27 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Les administrateurs peuvent utiliser le centre Microsoft Teams d’administration pour configurer l’application Réunions Skype utiliser les Teams
+description: Les administrateurs peuvent utiliser le centre Microsoft Teams d’administration pour configurer l’application Réunions Skype utiliser Teams
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe74237f1f1cfd93d92e0de01a01d3b576a82ec2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 90e14b79c53bf37772c7c5b4c655c293b91d5c2a
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727623"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480646"
 ---
 # <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams
 
 Une fois qu’un utilisateur a été mis à niveau vers Microsoft Teams, les administrateurs peuvent utiliser le Centre d’administration Microsoft Teams pour spécifier l’application préférée que les utilisateurs utiliseront pour rejoindre Skype Entreprise réunions.
 
-Pour spécifier l Skype application Réunions comme application préférée :
+Pour spécifier l’Skype’application Réunions comme application préférée :
 
 1. Se connecter au centre d’administration de Microsoft Teams.
-2. Dans le volet gauche, sous **Paramètres** à l’échelle de l’organisation, **sélectionnez Teams mise à niveau.**
-3. Dans la page Teams mise à niveau,  sous Préférences d’application, sélectionnez l’application Réunions Skype dans l’application Preferred (Preferred) pour que les **utilisateurs** participent à Skype Entreprise liste de listes dans la liste suivante.
+2. Dans le volet gauche, sous **Teams,** sélectionnez **Teams de mise à niveau**.
+3. Dans la page Teams mise à niveau, sous Préférences d’application **,** sélectionnez **l’application** Réunions Skype dans l’application Preferred (Preferred) pour que les **utilisateurs** participent à la liste Skype Entreprise de réunions en ligne.
 
     ![Sélectionnez l’application Préférée pour que les utilisateurs participent Skype Entreprise réunions.](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 

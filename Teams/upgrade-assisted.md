@@ -18,31 +18,31 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8becd4a83bb544747fa59a823bae37461c3642c3
-ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
+ms.openlocfilehash: a162a9151413137282d80e47f8f2b08c841e171a
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783893"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456887"
 ---
 # <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Mises à niveau assistées de Skype Entreprise Online vers Microsoft Teams
 
 Microsoft a Skype Entreprise Online le 31 juillet 2021.  Microsoft fournit un processus de mise à niveau assisté pour aider les organisations à déplacer les utilisateurs Skype Entreprise Online vers Teams uniquement.  Les mises à niveau assistées par Microsoft réduisent le nombre de tâches techniques et simplifient la transition vers un monde sans Skype Entreprise Online, que votre organisation soit :
  - Une organisation en ligne pure qui doit passer *d’Skype Entreprise Online* à la version Teams uniquement, ou
- - Organisation hybride avec des utilisateurs à la fois dans *Skype Entreprise Online*  et un environnement *Skype Entreprise Server* local, qui doit mettre à niveau uniquement les utilisateurs de Skype Entreprise *Online* vers Teams Uniquement.
+ - Organisation hybride avec des utilisateurs à la fois dans *Skype Entreprise Online*  et un environnement *Skype Entreprise Server* local, qui doit mettre à niveau uniquement son utilisateur Skype Entreprise *Online* vers Teams seul.
 
 Nous vous recommandons de consulter nos [conseils de mise à niveau](https://aka.ms/SkypeToTeams) avant de le mettre à niveau. Nos recommandations de mise à niveau incluent des activités recommandées et des ressources utiles pour effectuer une mise à niveau de Skype Entreprise Online vers Teams. Ces conseils s’appliquent à toute organisation qui planifie une mise à niveau vers Teams, qu’elle gère tous les aspects de la mise à niveau ou utilise le processus assisté.
 
 ## <a name="the-assisted-upgrade-experience"></a>L’expérience de mise à niveau assistée
 Skype Entreprise Les clients en ligne qui sont programmés pour des mises à niveau assistées vers Teams recevront différentes formes de notifications : Planifier la  modification des publications dans le Centre de messages Microsoft 365, notifications de mise à niveau du tableau de bord dans le Centre d’administration Teams et indicateurs dans l’application pour les utilisateurs finaux. La notification de mise à niveau dans le Centre de messages et le Centre d’administration Teams inclut la date de la mise à niveau assistée, ainsi qu’un lien vers les ressources de mise à niveau et la formation nécessaires pour contribuer à l’adoption et à l’utilisation d’Teams.
 
-L’expérience de mise à niveau assistée diffère légèrement selon que votre organisation compte des utilisateurs dans un environnement local Skype Entreprise Server :
-- **Organisations en ligne pures** Pour les *organisations qui* n’ont pas d’Skype locale pour les utilisateurs de Busineess Server, `TeamsUpgradeOverridePolicy` le processus de mise à niveau assisté applique la stratégie à votre organisation. Lorsque cette stratégie est appliquée, tous les utilisateurs de Skype Entreprise Online sont placés en mode Teams uniquement.
-- **Organisations hybrides avec des utilisateurs** Skype Entreprise sur site. Cela inclut les organisations qui ont tous les utilisateurs Skype Entreprise Server, qu’ils soient hybrides ou non. Ces organisations peuvent avoir des utilisateurs qui se classent dans l’une des catégories suivantes :
+L’expérience de mise à niveau assistée diffère légèrement selon que votre organisation compte des utilisateurs dans un environnement Skype Entreprise Server local :
+- **Organisations en ligne pures :** Pour les *organisations qui* n’ont pas d’Skype locale pour les utilisateurs de Busineess Server, `TeamsUpgradeOverridePolicy` le processus de mise à niveau assisté applique la stratégie à votre organisation. Lorsque cette stratégie est appliquée, tous les utilisateurs de Skype Entreprise Online sont placés en mode TeamsOnly.
+- **Organisations hybrides avec des utilisateurs** Skype Entreprise locaux : cela inclut les organisations qui incluent tous les utilisateurs Skype Entreprise Server, qu’ils soient hybrides ou non. Ces organisations peuvent avoir des utilisateurs qui se classent dans l’une des catégories suivantes :
 
   - Utilisateurs locaux homed on Skype Entreprise Server (qui peuvent ou non utiliser Teams, mais ne sont pas les seuls Teams utilisateurs)
-  - Teams uniquement les utilisateurs qui ont domicile dans Skype Entreprise Online
-  - Utilisateurs non Teams homed dans Skype Entreprise Online
+  - Utilisateurs de TeamsOnly qui ont domicile dans Skype Entreprise Online
+  - Utilisateurs non-TeamsOnly homed in Skype Entreprise Online
 
 Le processus de mise à niveau assisté n’aura d’impact que sur la dernière catégorie d’utilisateurs : les utilisateurs non Teams Seuls les utilisateurs homed in Skype Entreprise Online sont mis à niveau en mode Teams uniquement. Les utilisateurs Skype Entreprise sur site et les utilisateurs existants de TeamsOnly ne seront pas impactés par le processus de mise à niveau assistée.
 

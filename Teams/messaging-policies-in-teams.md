@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Découvrez les stratégies de messagerie et comment elles peuvent être utilisées pour contrôler la messagerie instantanée dans Teams.
-ms.openlocfilehash: 9716fe3ba9a2162a3c6c85cfa61ef5541f34fb38
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0f4001fc2a646b83f005d9cc48948fbbb314f042
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711718"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480666"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
@@ -34,6 +34,9 @@ ms.locfileid: "63711718"
 Les stratégies de messagerie servent à contrôler les fonctionnalités de conversation et de messagerie de canal disponibles pour les utilisateurs [(propriétaires](assign-roles-permissions.md) et membres) Microsoft Teams. Vous pouvez utiliser la stratégie globale (à l’échelle de l’organisation par défaut) créée automatiquement ou créer et attribuer des stratégies de messagerie personnalisées.
 
 Les utilisateurs de votre organisation obtiennent automatiquement la stratégie globale, sauf si vous créez et attribuez une stratégie personnalisée. Modifiez les paramètres de la stratégie globale ou créez et affectez une ou plusieurs stratégies personnalisées pour activer ou désactiver les fonctionnalités que vous souhaitez.
+
+> [!NOTE]
+> Pour garantir la synchronisation après un changement de stratégie, un redémarrage peut être nécessaire pour certaines instances. 
 
 ## <a name="create-a-custom-messaging-policy"></a>Créer une stratégie de messagerie personnalisée
 
@@ -106,12 +109,13 @@ Voici les paramètres de stratégie de messagerie que vous pouvez configurer.
 - **Supprimer des utilisateurs des conversations de groupe** Activer ce paramètre pour qu’un utilisateur supprime d’autres utilisateurs d’une conversation de groupe. Cette fonctionnalité vous permet de poursuivre une conversation avec un groupe de personnes plus petit sans perdre l’historique des discussions.
 - **Prédictions de texte** Activer ce paramètre pour qu’un utilisateur reçoie des prédictions de texte pour les messages de conversation.
 - **Réponses suggérées**  Activez ce paramètre pour activer les réponses suggérées pour les messages de conversation.
-- **Rôle d’autorisation de conversation** Utilisez ce paramètre pour définir le rôle de conversation surveillée de l’utilisateur.  En savoir plus sur [surveillance de conversation](supervise-chats-edu.md).
+- **Rôle d’autorisation de conversation** Utilisez ce paramètre pour définir le rôle de conversation surveillée de l’utilisateur. En savoir plus sur [surveillance de conversation](supervise-chats-edu.md).
+- **Les utilisateurs autorisés à utiliser les autorisations de conversation peuvent supprimer n’importe quel message** Utilisez ce paramètre pour autoriser les utilisateurs  autorisés à supprimer n’importe quel message de conversation de groupe ou de réunion.
 
 > [!NOTE]
 > Certains de ces paramètres, tels que l’utilisation de Giphys, peuvent également être configurés au niveau de l’équipe par les propriétaires d’équipe et au niveau du canal privé ou partagé par les propriétaires de canal.
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Sujets associés
 
 - [Attribuer des stratégies aux utilisateurs et groupes dans Teams](assign-policies-users-and-groups.md)
 - [Affecter des propriétaires d’équipe et des membres dans Microsoft Teams](assign-roles-permissions.md)

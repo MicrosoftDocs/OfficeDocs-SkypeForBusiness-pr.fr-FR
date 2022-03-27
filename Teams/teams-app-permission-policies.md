@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 2b8eaa4cfc9743ad297c7309769a3195e84cb539
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 35246d03fb7611971bd846370413ca0580397647
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442460"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457047"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gérer les stratégies d’autorisation d’application dans Microsoft Teams
 
@@ -51,34 +51,35 @@ Par exemple, vous voulez bloquer toutes les applications tierces et autoriser de
 
 Si vous voulez contrôler les applications disponibles pour différents groupes d’utilisateurs au niveau de votre organisation, créez et affectez une ou plusieurs stratégies d’autorisation d’application personnalisées. Vous pouvez créer et attribuer des stratégies personnalisées distinctes sur la base de la publication d’applications par Microsoft, des tiers ou votre organisation. Il est important de savoir qu’après avoir créé une stratégie personnalisée, vous ne pouvez pas la modifier si les applications tierces sont désactivées dans les paramètres de l’application à l’échelle de l’organisation.
 
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **applications Teams** > **Stratégies d’autorisation**.
-2. Cliquez sur **Ajouter**.
+1. Se connecter au [Teams d’administration](https://admin.teams.microsoft.com/dashboard)
+1. Dans le panneau de gauche, voir Teams **stratégies d’application.** > 
+1. Sélectionnez **Ajouter**.
     ![Capture d’écran de la nouvelle stratégie d’autorisation d’application.](media/app-permission-policies-new-policy.png)
-3. Entrez un nom pour votre stratégie, ainsi qu’une description.
-4. Sous **Applications Microsoft**, **Applications tierces** et **Applications personnalisées**, sélectionnez l’une des options suivantes :
+1. Entrez un nom pour votre stratégie, ainsi qu’une description.
+1. Sous **Applications Microsoft**, **Applications tierces** et **Applications personnalisées**, sélectionnez l’une des options suivantes :
 
     - **Autoriser toutes les applications**
     - **Autoriser des applications spécifiques et bloquer toutes les autres**
     - **Bloquer des applications spécifiques et autoriser toutes les autres**
     - **Bloquer toutes les applications**.
 
-5. Si vous avez sélectionné **Autoriser des applications spécifiques et bloquer d’autres utilisateurs**, ajoutez les applications que vous voulez autoriser :
+1. Si vous avez sélectionné **Autoriser des applications spécifiques et bloquer d’autres utilisateurs**, ajoutez les applications que vous voulez autoriser :
 
     1. Sélectionnez **Autoriser des applications**.
     1. Recherchez les applications que vous voulez autoriser, puis cliquez sur **Ajouter**. Les résultats de la recherche sont filtrés sur l’éditeur de l’application (**Applications Microsoft**, **Applications tierces** ou **Applications personnalisées**).
     1. Lorsque vous avez choisi la liste d’applications, cliquez sur **Autoriser**.
 
-6. De même, si vous avez sélectionné **Bloquer des applications spécifiques et autorisez tous les autres**, recherchez et ajoutez les applications que vous voulez bloquer, puis cliquez sur **Bloquer**.
-7. Cliquez sur **Enregistrer**.
+1. De même, si vous avez sélectionné Bloquer des applications spécifiques et autorisez toutes les **autres applications,** recherchez et ajoutez les applications que vous voulez bloquer, puis sélectionnez **Bloquer**.
+1. Sélectionnez **Enregistrer**.
 
 ## <a name="edit-an-app-permission-policy"></a>Modifier une stratégie d’autorisation à l’application
 
-Vous pouvez utiliser le Centre d’administration Microsoft Teams pour modifier une stratégie, y compris la stratégie globale et les stratégies personnalisées que vous créez.
+Vous pouvez utiliser le Centre Teams d’administration pour modifier une stratégie, y compris la stratégie globale et les stratégies personnalisées que vous créez.
 
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **applications Teams** > **Stratégies d’autorisation**.
-2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci, puis cliquez sur **Modifier**.
-3. À partir de là, apportez les modifications souhaitées. Vous pouvez gérer les paramètres en fonction de l’éditeur de l’application et ajouter et supprimer des applications en fonction du paramètre Autoriser/Bloquer.
-4. Cliquez sur **Enregistrer**.
+1. Dans le volet gauche du Microsoft Teams d’administration, voir stratégies Teams **applicationsPermission** > .
+1. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci, puis sélectionnez **Modifier**.
+1. À partir de là, apportez les modifications souhaitées. Vous pouvez gérer les paramètres en fonction de l’éditeur de l’application et ajouter et supprimer des applications en fonction du paramètre Autoriser/Bloquer.
+1. Sélectionnez **Enregistrer**.
 
 ## <a name="assign-a-custom-app-permission-policy-to-users"></a>Affecter une stratégie d’autorisation d’application personnalisée aux utilisateurs
 
@@ -98,13 +99,13 @@ Utilisez les paramètres de l’application à l’échelle de l’organisation 
 
     ![Capture d’écran des paramètres d’application à l’échelle de l’organisation.](media/app-permission-policies-gcc-org-wide.png)
 
-2. Sous **Applications tierces**, désactiver ou activer ces paramètres pour contrôler l’accès à des applications tierces :
+1. Sous **Applications tierces**, désactiver ou activer ces paramètres pour contrôler l’accès à des applications tierces :
 
     - **Autoriser les applications tierces** : cette commande contrôle si les utilisateurs peuvent utiliser des applications tierces. Si vous avez désactiver ce paramètre, vos utilisateurs ne pourront pas installer ou utiliser des applications tierces. Dans le cadre Microsoft 365 -GCCH et DoD du déploiement de Teams, ce paramètre est éteint par défaut.
     - **Autoriser toute nouvelle application tierce publiée sur le magasin par défaut** : cette option contrôle la publication automatique des nouvelles applications tierces publiées dans le magasin d’applications Teams dans Teams. Vous ne pouvez définir cette option que si vous autorisez des applications tierces.
 
-3. Sous **Applications bloquées**, ajoutez les applications que vous voulez bloquer au sein de votre organisation. Dans un Microsoft 365 - Déploiement gccH et DoD de Teams, toutes les applications tierces sont ajoutées à cette liste par défaut. Pour une application tierce que vous voulez autoriser dans votre organisation, supprimez l’application de cette liste d’applications bloquées. Lorsque vous bloquez une application à l’échelle de l’organisation, l’application est automatiquement bloquée pour tous vos utilisateurs, qu’elles soient autorisées ou non dans les stratégies d’autorisation d’application.
-4. Cliquez sur **Enregistrer** pour que les paramètres de l’application à l’échelle de l’organisation prennent effet.
+1. Sous **Applications bloquées**, ajoutez les applications que vous voulez bloquer au sein de votre organisation. Dans un Microsoft 365 - Déploiement gccH et DoD de Teams, toutes les applications tierces sont ajoutées à cette liste par défaut. Pour une application tierce que vous voulez autoriser dans votre organisation, supprimez l’application de cette liste d’applications bloquées. Lorsque vous bloquez une application à l’échelle de l’organisation, l’application est automatiquement bloquée pour tous vos utilisateurs, qu’elles soient autorisées ou non dans les stratégies d’autorisation d’application.
+1. **Sélectionnez Enregistrer** pour que les paramètres d’application à l’échelle de l’organisation prennent effet.
 
 Comme indiqué précédemment, pour autoriser des applications tierces, vous pouvez modifier et utiliser la stratégie globale (à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées.
 

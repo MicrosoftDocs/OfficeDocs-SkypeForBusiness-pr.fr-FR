@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 3418abb7196e855ab86fff72bc7c1e10eb37bfc0
-ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
+ms.openlocfilehash: eef9fc099a3509e946fd7d776dd878423df1cdea
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783913"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480676"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams appareils Android certifiés
 
@@ -71,9 +71,9 @@ Les appareils suivants sont certifiés sous le programme Salles Microsoft Teams 
 
 | Modèle d’appareil | Version du microprogramme | Date de fin actuelle de la certification | Taille de la salle                                        |  Version du système d’exploitation Android    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
-| Neat Bar | `NFB1.20220211.1158`     |3 septembre 2024|    Petite Salle de réunion (4,5 m x 4,5 m) | 10 |
-| Neat Pad | `NFA1.20220211.1158 `    | 5 août 2023 |    Petite Salle de réunion (4,5 m x 4,5 m) | 9 |
-| Carte nette | `NFC1.20220211.1158 `  | 3 septembre 2024 |    Petite Salle de réunion (4,5 m x 4,5 m) | 10 |
+| Neat Bar | `NFB1.20220211.1400` |3 septembre 2024|    Petite Salle de réunion (4,5 m x 4,5 m) | 10 |
+| Console tactile Neat Pad | `NFA1.20220211.1400`  | 5 août 2023 |  Compatible avec neat bar uniquement | 9 |
+| Carte nette | `NFC1.20220211.1400 ` | 3 septembre 2024 |    Petite Salle de réunion (4,5 m x 4,5 m) | 10 |
 | Logitech Roommate | `1.4.71` | 3 septembre 2024  | Grande salle de réunion (4,5 m x 8,5 m)  |   10  |
 | DONT LE DÉVELOPPEMENT DE 80T EST EN COURS | `1.2.2.21182.10` | 5 août 2023 | Fourni avec l’offre PERSONNELLES Vision 3T | 9 |
 | Logitech Tap Device     | `1.2.982`  |   3 septembre 2024  | Compatible avec la barre d’enfants Logitech Ainsi que la barre d’enfants Mini | 10 |
@@ -102,7 +102,7 @@ Les appareils suivants sont certifiés dans le cadre du programme Microsoft Team
 
 | Modèle d’appareil| Version du microprogramme | Date de fin actuelle de la certification | Version du système d’exploitation Android |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
-|Neat Bar         | `NFB1.20220211.1158` | 5 août 2023 | 9 |
+|Neat Pad Panel    | `NFA1.20220211.1400` | 5 août 2023 | 9 |
 |Crestron TSS-770 | `1.003.0082` |5 décembre 2022  | 8.1 |
 |Crestron TSS-1070 | `1.003.0082`|5 décembre 2022 | 8.1 |
 |Yealink RoomPanel | `147.15.0.1`|5 août 2023   | 9 |
