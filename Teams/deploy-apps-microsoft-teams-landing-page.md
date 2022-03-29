@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be7ee83b510096d8d6ffc0c4a0a5984917ad55c5
-ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
+ms.openlocfilehash: bd5ab3395aa870d0be073a0afcd08aafe9110637
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "64403975"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480656"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>À propos des applications dans Microsoft Teams
 
@@ -94,7 +94,7 @@ Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un c
 
 ### <a name="custom-connectors"></a>Connecteurs personnalisés
 
-Les connecteurs permettent à votre équipe de rester à jour en fournissant directement à votre canal du contenu et des mises à jour provenant des services que vous utilisez fréquemment. Grâce aux connecteurs, les utilisateurs de Microsoft Teams peuvent recevoir des mises à jour de services populaires tels que Twitter, Trello, Wunderlist, GitHub et Azure DevOps Services, dans le flux de conversations Teams.
+Les connecteurs permettent à votre équipe de rester à jour en fournissant directement à votre canal du contenu et des mises à jour provenant des services que vous utilisez fréquemment. Grâce aux connecteurs, les utilisateurs de Microsoft Teams peuvent recevoir des mises à jour de services populaires tels que Trello, Wunderlist, GitHub et Azure DevOps Services, dans le flux de conversations Teams.
 
 | Posez-vous la question | Action |
 |--------------|--------|

@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f9e11a089c75f1060e509dc9895e97176fc30345
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 748380aec60c578ff6c2b7687cd51a8a07a8024c
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456344"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457057"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams 
 
@@ -91,7 +91,7 @@ Pour une discussion détaillée sur l’optimisation du réseau, ainsi que des i
 </tr>
 <tr class="even">
 <td>Conseiller pour Teams</td>
-<td><a href="/microsoftteams/use-advisor-teams-roll-out">Conseiller pour Teams</a> fait partie intégrante du <a href="https://admin.teams.microsoft.com">Centre d’administration Teams</a>. Il évalue votre environnement Microsoft 365 ou Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer Teams.</td>
+<td><a href="/microsoftteams/use-advisor-teams-roll-out">Conseiller pour Teams</a> fait partie intégrante du <a href="https://admin.teams.microsoft.com">Centre d’administration Teams</a>. Il évalue votre environnement Microsoft 365 ou Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer Teams.</td>
 </tr>
 <tr class="odd">
 <td>Résolution des noms externes</td>
@@ -153,7 +153,7 @@ Le tableau suivant décrit la manière dont Teams utilise la bande passante. Tea
       **Modalité**
    :::column-end:::
    :::column span="3":::
-      **Exigences en bande passante (vitesse de transmission en Ko/s vers le haut/bas)**
+      **Exigences en bande passante (vitesse de transmission en Ko/s vers le haut/bas)**    
    :::column-end:::
 :::row-end:::
 :::row:::

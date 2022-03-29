@@ -21,12 +21,12 @@ description: Découvrez comment gérer les devoirs dans le Centre d’administra
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88414131b5ba8fee750efef8d0b6f6f5313e13fd
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 529240db27824ce8bf872d23636b904198ef7db1
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363140"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504134"
 ---
 # <a name="assignments-in-teams-for-education"></a>Devoirs dans Teams pour l’éducation
 
@@ -45,20 +45,20 @@ En utilisant les paramètres d’administration du Microsoft Teams d’administr
 
 ### <a name="weekly-guardian-email-digest"></a>E-mail hebdomadaire des tuteurs
 
-Les messages tuteurs sont envoyés chaque week-end à des parents ou tuteurs légaux. Le message électronique contient des informations sur les devoirs de la semaine précédente et de la semaine à venir. La synchronisation des parents et tuteurs peut être configurée à [l’aide Synchronisation des données scolaires](/schooldatasync/parent-contact-sync).
+Les messages tuteurs sont envoyés chaque week-end à des parents ou tuteurs légaux. Le message électronique contient des informations sur les devoirs de la semaine précédente et de la semaine à venir. La synchronisation des parents et tuteurs peut être configurée à [l’aide de Synchronisation des données scolaires](/schooldatasync/parent-contact-sync).
 
 1. Importez les coordonnées des parents via la Synchronisation parent/tuteur dans SDS. Pour obtenir des instructions sur l’activation de la synchronisation des parents et tuteurs, voir [Activer la synchronisation des parents et tuteurs](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
 
 2. Activer le paramètre tuteur dans le Microsoft Teams d’administration, car ce paramètre est désactivé par défaut. Cela permettra aux enseignants d’envoyer une résumé hebdomadaire.
 
    > [!NOTE]
-   > Les enseignants peuvent se désinsélectionner de la digestibilité en désélectionner le paramètre au sein de leur équipe de classe personnelle (e-mail Paramètres > **des parents/tuteurs**).
+   > Les enseignants peuvent se désinsélectionner de la digestibilité en désélectionner le paramètre au sein de leur équipe de classe personnelle (e-mail Paramètres > **du parent/tuteur**).
 
 Pour vérifier que les parents vont recevoir le message électronique, les trois éléments suivants doivent être vérifiés :
 
 - Adresse e-mail jointe au profil d’étudiant dans SDS et marquée en tant que _parent_ ou _tuteur_. Pour plus d’informations, voir [Format de fichier de synchronisation des parents et tuteurs](/schooldatasync/parent-contact-sync-file-format).
 
-- Les étudiants appartiennent à au moins une classe dans laquelle le courrier électronique n’est pas désactivé par l’enseignant dans les [paramètres de devoir](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77).
+- Les étudiants appartiennent à au moins une classe dans laquelle le courrier électronique n’est pas désactivé par l’enseignant dans les [paramètres des devoirs](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77).
 
 - Les messages électroniques contiennent des informations sur les devoirs dont la date d’échéance est de la semaine précédente ou de la semaine à venir.
 
@@ -74,7 +74,7 @@ MakeCode est un produit Microsoft qui est soumis aux conditions d’utilisation 
 
 Le paramètre par défaut de cette fonctionnalité est - **Non**.
 
-Pour activer les affectations MakeCode dans Teams, accédez au Centre d’administration **Teams**, accédez à la section **Devoirs**, puis activez l’option de bascule MakeCode **.** Cliquez sur **Enregistrer**. Laissez quelques heures à ces paramètres pour qu’ils prennent effet.
+Pour activer les affectations MakeCode dans Teams, accédez au Centre d’administration **Teams**, accédez à la section **Devoirs**, puis activez l’option de bascule MakeCode **.** Sélectionnez **Enregistrer**. Laissez quelques heures à ces paramètres pour qu’ils prennent effet.
 
 Pour plus d’informations sur le fonctionnement de cette fonctionnalité, regardez [cette vidéo de démonstration](https://makecode.com/blog/teams/teams-assignments).
 
@@ -86,7 +86,7 @@ Pour plus d’informations sur le fonctionnement de cette fonctionnalité, regar
 
 [Turnitin est](https://www.turnitin.com/) un service d’intégrité académique. Il s’agit d’un service tiers soumis à ses propres conditions et politique de confidentialité. Vous êtes responsable de l’utilisation des produits et services tiers.
 
-Le paramètre par défaut pour cette fonctionnalité est - **Non**.
+Le paramètre par défaut de cette fonctionnalité est - **Non**.
 
 Pour activer Turnitin pour votre organisation, vous devez avoir un abonnement Turnitin. Vous pouvez ensuite entrer les informations suivantes, qui se trouvent dans votre console d’administration Turnitin :
 
@@ -105,7 +105,7 @@ La console d’administration vous permet de créer une intégration et une clé
 ![Capture d’écran montrant l’ajout d’une nouvelle intégration.](./educationImages/Assignments_mopo_turnitin2.png)
 
 Une fois que vous aurez suivi les invites, la clé **TurnitinApiKey** vous sera donnée.
-Copiez la clé d’API et collez-la dans le Microsoft Teams’administration.  C’est la seule fois que vous pouvez afficher la clé.
+Copiez la clé d’API et collez-la dans le Microsoft Teams d’administration.  C’est la seule fois que vous pouvez afficher la clé.
 
 ![Capture d’écran montrant la copie de la clé API.](./educationImages/Assignments_mopo_turnitin3.png)
 
@@ -113,26 +113,26 @@ Lorsque vous cliquez sur **le bouton Enregistrer** dans le Centre d’administra
 
 ## <a name="assignments-data"></a>Données sur les affectations
 
-Les devoirs stockent les informations générées par les enseignants et les étudiants. Toutes les données sont partagées en collaboration entre l’enseignant et l’étudiant spécifique pour lequel les informations sont destinées à la classe. Il existe deux magasins de ce stock, SharePoint et en dehors de SharePoint.
+Les devoirs stockent les informations générées par les enseignants et les étudiants. Toutes les données sont partagées en collaboration entre l’enseignant et l’étudiant spécifique pour lequel les informations sont destinées à la classe. Il existe deux magasins de ces données, qu’SharePoint et en dehors SharePoint.
 
 >[!NOTE]
 >Les mêmes règles s’appliquent également aux intégrations tierces telles que la progression de la lecture.
 
 ### <a name="assignments-data-in-sharepoint-document-libraries"></a>Données sur les affectations SharePoint des documents
 
-Les fichiers des étudiants associés à un Devoir sont stockés dans une bibliothèque de documents (nommée : *Travail des étudiants*). Les fichiers associés aux devoirs créés par les enseignants et accessibles par les étudiants sont stockés dans une autre bibliothèque de documents (nommée : Fichiers de *classe) dans* le site d’équipe SharePoint de classe correspondant. Les intégrations tierces peuvent également stocker les données des devoirs sur le même site d’équipe de classe SharePoint site correspondant (nommé : Titre des *devoirs + Horodaté*).
+Les fichiers des étudiants associés à un Devoir sont stockés dans une bibliothèque de documents (nommée : *Travail des étudiants*). Les fichiers associés aux devoirs créés par les enseignants et accessibles par les étudiants sont stockés dans une autre bibliothèque de documents (nommée : Fichiers de *classe) dans* le site d’équipe de classe SharePoint de classe correspondant. Les intégrations tierces peuvent également stocker les données des devoirs sur le même site d’équipe de classe SharePoint site correspondant (nommé : Titre des *devoirs + Horodaté*).
 
 #### <a name="files-associated-with-the-student"></a>Fichiers associés à l’étudiant
 
-Les administrateurs informatiques peuvent utiliser l’outil de recherche de contenu pour rechercher des fichiers d’étudiants *(Travail* des *étudiants, Fichiers* de classe ou autres fichiers d’intégration 1er partie) liés aux envois de devoirs et aux fichiers liés aux devoirs. Par exemple, un administrateur peut effectuer une recherche sur tous les sites SharePoint de l’organisation et utiliser le nom et la classe ou le devoir de l’étudiant dans la requête de recherche pour trouver les données pertinentes pour une demande de sujet de données.
+Les administrateurs informatiques peuvent utiliser l’outil de recherche de contenu pour rechercher des fichiers d’étudiants *(Travail* des *étudiants, Fichiers* de classe ou autres fichiers d’intégration 1er partie) liés aux envois de devoirs et aux fichiers liés aux devoirs. Par exemple, un administrateur peut effectuer une recherche sur tous les sites SharePoint de l’organisation et utiliser le nom et le nom de la classe ou du devoir de l’étudiant dans la requête de recherche pour trouver les données pertinentes pour une demande d’objet de données (DSR).
 
 #### <a name="files-associated-with-the-teacher"></a>Fichiers associés à l’enseignant
 
-Les administrateurs informatiques peuvent utiliser l’outil de recherche de contenu pour rechercher des fichiers d’enseignants *(* travaux des *étudiants, fichiers* de classe ou autres fichiers d’intégration 1er partie) qui sont liés à des devoirs, ainsi que des fichiers distribués aux étudiants par les enseignants au sein d’une classe sur les devoirs. Par exemple, un administrateur peut effectuer une recherche sur tous les sites SharePoint de l’organisation et utiliser le nom de l’enseignant ainsi que le nom de la classe ou du devoir dans la requête de recherche pour trouver les données pertinentes pour une recherche de données.
+Les administrateurs informatiques peuvent utiliser l’outil de recherche de contenu pour rechercher des fichiers d’enseignants *(* travaux des *étudiants, fichiers* de classe ou autres fichiers d’intégration 1er partie) qui sont liés aux devoirs et fichiers distribués aux étudiants par les enseignants au sein d’une classe sur les devoirs. Par exemple, un administrateur peut effectuer une recherche sur tous les sites SharePoint de l’organisation et utiliser le nom de l’enseignant et le nom de la classe ou du devoir dans la requête de recherche pour trouver les données pertinentes pour une demande de service de gestion des droits.
 
 ### <a name="assignments-data-outside-of-sharepoint-document-libraries"></a>Données sur les affectations en dehors SharePoint de documents
 
-Certaines données liées aux devoirs ne sont pas stockées dans le site d’équipe de SharePoint de classe, ce qui signifie qu’elles ne sont pas accessibles avec la recherche de contenu. Cela inclut :
+Certaines données liées aux devoirs ne sont pas stockées dans le site d’équipe de classe SharePoint, ce qui signifie qu’elles ne sont pas accessibles avec la recherche de contenu. Cela inclut :
 
 - Notes et commentaires de l’enseignant
 - Liste des documents soumis à un devoir par chaque étudiant
@@ -144,7 +144,7 @@ Pour ce type de données, un administrateur informatique ou propriétaire de don
 >[!NOTE]
 >Si un étudiant ne fait plus partie de la classe, ses données sont peut-être toujours présentes dans la classe comme *n’étant plus inscrits*. L’étudiant devra fournir à l’administrateur du client la liste des classes dont il a pu faire partie.
 
-### <a name="bulk-export-assignment-data-outside-of-sharepoint-document-libraries"></a>Exporter en bloc des données d’affectation en dehors SharePoint de documents
+### <a name="bulk-export-assignment-data-outside-of-sharepoint-document-libraries"></a>Exporter en bloc des données d’affectation en dehors SharePoint des bibliothèques de documents
 
 #### <a name="for-a-student"></a>Pour un étudiant
 
@@ -174,6 +174,39 @@ Pour plus d’informations,  [voirConfigurer les devoirs pour Teams](/microsof
 
 Vous pouvez également utiliser des stratégies Teams pour supprimer les devoirs et notes pour un utilisateur spécifique ou pour l’ensemble de votre client.
 
-Pour supprimer devoirs et notes pour un utilisateur individuel, accédez au Centre d’administration **Teams**, puis aux applications Teams et > **d’autorisation** pour créer une définition de stratégie d’autorisation d’application.  Lorsque vous créez la définition de stratégie, définissez la stratégie  des applications **Microsoft** de façon à bloquer des applications **spécifiques**, à autoriser toutes les autres applications et à ajouter des affectations à la liste des applications bloquées. Une fois votre nouvelle définition de stratégie enregistrée, affectez-la aux utilisateurs appropriés.
+Pour supprimer devoirs et notes pour un utilisateur individuel, accédez au Centre d’administration **Teams**, puis accédez à **Teams applications > d’autorisation** pour créer une définition de stratégie d’autorisation d’application.  Lorsque vous créez la définition de stratégie, définissez la stratégie  des applications **Microsoft** de façon à bloquer des applications **spécifiques**, à autoriser toutes les autres applications et à ajouter des affectations à la liste des applications bloquées. Une fois votre nouvelle définition de stratégie enregistrée, affectez-la aux utilisateurs appropriés.
 
 Pour supprimer devoirs et notes pour l’ensemble de votre client, accédez au Centre d’administration **Teams**, accédez aux applications **Teams >** Gérer les applications, et recherchez et sélectionnez **Devoirs** dans la liste des applications. Dans la page des paramètres de l’application Devoir, modifiez le paramètre de statut en _Bloqué_.
+
+## <a name="assignments-diagnostic-tool-for-users"></a>Outil de diagnostic d’affectations pour les utilisateurs
+
+Le Support Microsoft a créé un outil permettant de collecter des données de diagnostic pour l’équipe d’ingénierie de Microsoft afin d’étudier les problèmes liés à la fonctionnalité Affectations.
+
+Cet outil est accessible à l’intérieur des Devoirs sur n’importe quel écran où les utilisateurs sont en situation de problème.
+
+Pour ouvrir l’outil de diagnostic dans Teams, les utilisateurs peuvent :
+
+- **Sur un ordinateur de bureau et sur le web :**
+  - Sélectionnez Ctrl+/
+- **Sur les appareils mobiles :**
+  - Toucher l’écran avec deux doigts et faire pivoter les doigts de 45 degrés, ou
+  - Appuyer sur l’écran avec trois doigts pendant 15 secondes
+
+Une fois l’outil de diagnostic apparaît, les utilisateurs voient une liste de données qui peuvent être nécessaires par le support technique Microsoft.
+
+Les données pulled peuvent inclure les données suivantes :
+
+- ID de groupe
+- ID du locataire
+- Session ID
+- ID d’affectation
+- ID de soumission
+- ID de l’utilisateur
+
+Ces données ne sont pas envoyées automatiquement à Microsoft. Les utilisateurs doivent copier et coller les données dans un ticket de support Microsoft.
+
+Si un utilisateur tirez l’outil de diagnostic puis le ferme, aucune donnée n’est envoyée.
+
+Lorsque les données sont envoyées à un agent de support Microsoft, elles sont gérées en tant que données de support conformément aux contrats de service Microsoft 365 de votre organisation.
+
+Pour obtenir des instructions sur l’utilisation de cet outil de diagnostic que vous pouvez partager avec les enseignants et les étudiants, voir Obtenir des données [de diagnostic pour résoudre les problèmes de devoirs](https://support.microsoft.com/topic/b40793f5-dbae-4c8a-841a-6baa7f232e2e).

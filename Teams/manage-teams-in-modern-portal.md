@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b84957e7451b75b804d2c279e160a260dabfbea8
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: d00cc5cd41d0b48f55564894a78f066406288151
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579534"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456947"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gérer les équipes dans le Centre d’administration Microsoft Teams
 
@@ -32,18 +32,19 @@ ms.locfileid: "60579534"
 
 Cet article fournit une vue d’ensemble des outils de gestion pour Teams dans le Centre d’administration Microsoft Teams.
 
-En tant qu’administrateur, vous devrez peut-être afficher ou mettre à jour les équipes que votre organisation a configurées pour la collaboration, ou vous devrez peut-être effectuer des actions de correction telles que l’attribution de propriétaires pour les équipes sans propriétaire. Vous pouvez gérer les équipes utilisées dans votre organisation via le module Microsoft Teams PowerShell et le Centre d’administration Microsoft Teams. Vous pouvez accéder au Centre d’administration sur <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Pour bénéficier de fonctionnalités d’administration complètes à l’aide de ces deux ensembles d’outils, vous devez vous assurer que l’un des rôles suivants vous est attribué :
+En tant qu’administrateur, vous devrez peut-être afficher ou mettre à jour les équipes que votre organisation a configurées pour la collaboration, ou vous devrez peut-être effectuer des actions de correction telles que l’attribution de propriétaires pour les équipes sans propriétaire. Vous pouvez gérer les équipes utilisées dans votre organisation via le module Microsoft Teams PowerShell et le Centre d’administration Microsoft Teams. Vous pouvez accéder au Centre d’administration sur <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Pour bénéficier de fonctionnalités d’administration complètes à l’aide de ces deux ensembles d’outils, vous devez vous assurer que l’un des rôles suivants vous est attribué :
 
 - Administrateur général
 - Administrateur Teams
 
 Vous pouvez en savoir plus sur les rôles d’administrateur dans Teams dans [Utiliser les rôles d’administrateur Microsoft Teams pour gérer Teams](using-admin-roles.md), et vous pouvez en savoir plus sur l’utilisation des applets de commande PowerShell pour la gestion des équipes dans les [informations de référence sur les applets de commande Microsoft Teams](/powershell/teams/).
 
-
+> [!NOTE]
+> Les administrateurs de Skype Entreprise Online peuvent gérer à la fois les stratégies des applications **Teams** et **Skype Entreprise Online** à travers PowerShell.
 
 ## <a name="teams-overview-grid"></a>Grille de vue d’ensemble de Teams
 
-Les outils de gestion pour les équipes se trouvent sous le nœud **Teams** dans le Centre d’administration Microsoft Teams. (Dans le Centre d’administration, sélectionnez **Teams** > **Gérer les équipes**.) Chaque équipe est soutenue par un groupe Microsoft 365, et ce nœud fournit une vue des groupes qui ont été compatibles avec Microsoft Teams dans votre organisation.
+Les outils de gestion pour les équipes se trouvent sous le nœud **Teams** dans le Centre d’administration Microsoft Teams. (Dans le Centre d’administration, sélectionnez **Teams** > **Gérer les équipes**.) Chaque équipe est soutenue par un groupe Microsoft 365, et ce nœud fournit une vue des groupes qui ont été compatibles avec Microsoft Teams dans votre organisation.
 
 ![Capture d’écran de la grille de vue d’ensemble de Teams.](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -76,7 +77,7 @@ Pour modifier les paramètres spécifiques au groupe et à l’équipe, sélecti
 
 ### <a name="archive"></a>Archiver
 
-Vous pouvez archiver une équipe. L’archivage d’une équipe place l’équipe en mode lecture seule dans Teams. En tant qu’administrateur, vous pouvez archiver et annuler l’archivage des équipes au nom de votre organisation dans le Centre d’administration. 
+Vous pouvez archiver une équipe. L’archivage d’une équipe place l’équipe en mode lecture seule dans Teams. En tant qu'administrateur, vous pouvez archiver et désarchiver des équipes au nom de votre organisation dans le centre d'administration. 
 
 ### <a name="delete"></a>Supprimer
 

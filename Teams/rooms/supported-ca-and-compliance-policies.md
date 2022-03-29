@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: Découvrez les stratégies d’accès conditionnel et de conformité aux appareils Intune pris en charge et recommandées pour Salles Microsoft Teams.
-ms.openlocfilehash: f3b115430779324a260232ce45ba125859abdde8
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: ea27f71a7d4f64bc1d9e8c8a3cd3d7b2a52151f3
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63689086"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504194"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms"></a>Stratégies de conformité des appareils Et Accès conditionnel pris en charge pour les Salles Microsoft Teams
 
@@ -28,7 +28,7 @@ Cet article fournit des stratégies de conformité aux appareils Intune et Accè
 
 ## <a name="supported-conditional-access-policies"></a>Stratégies d’accès conditionnel pris en charge  
 
-La liste suivante présente les stratégies d’accès conditionnel pris en charge pour salles Teams sur Windows et sur Android :
+La liste suivante présente les stratégies d’accès conditionnel pris en charge pour salles Teams sur Windows sur Android. Les stratégies Android pris en charge s’appliquent à tous les appareils, téléphones et panneaux Android.
 
 | Affectation | Windows | Android |
 |------------|---------|---------|
@@ -124,9 +124,9 @@ administrateur. |
 | Bloquer le débogage USB sur l’appareil | Pris en charge |  N/A|
 [**Tous les appareils Android*](/mem/intune/protect/compliance-policy-create-android#all-android-devices) | -- | -- |
 |Nombre maximal de minutes d’inactivité avant l’utilisation du mot de passe | Non pris en charge |  N/A |
-| Demander un mot de passe pour déverrouiller des appareils mobiles | Non pris en charge | S/O |
+| Demander un mot de passe pour déverrouiller des appareils mobiles | Non pris en charge | N/A |
 | [**Android 10 et version ultérieure**](/mem/intune/protect/compliance-policy-create-android#android-10-and-later) | -- | -- |
 | [**Android 9 et version antérieure ou Samsung Knox**](/mem/intune/protect/compliance-policy-create-android#android-9-and-earlier-or-samsung-knox) | -- | -- |
-|Type de mot de passe requis |Non pris en charge | S/O|
+|Type de mot de passe requis |Non pris en charge | N/A|
 
 ---

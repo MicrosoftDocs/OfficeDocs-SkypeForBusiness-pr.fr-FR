@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 677ee2b0d57477ee79a9af7510d0ccf2dfbcae28
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
+ms.openlocfilehash: 1ed41c595a386607942c81dda8f151435a1d1ac7
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63774013"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504144"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -57,32 +57,34 @@ Les applications sont épinglées à :
 |![Le Teams de bureau.](media/app-setup-policies-desktop-app-bar.png)<  |   ![Le client Teams mobile](media/mobile-app-ui.png)      |
 
 > [!NOTE]
-> Si vous avez Teams pour l'éducation, il est important de savoir que l’application Devoirs est épinglée par défaut dans la stratégie globale, même si actuellement elle n’est pas répertoriée dans la stratégie globale. Il s’agit de la quatrième application dans la liste des applications épinglées Teams clients.
+> Si vous avez Teams pour l'éducation, il est important de savoir que l’application Devoirs est épinglée par défaut dans la stratégie globale, même si actuellement elle n’est pas répertoriée dans la stratégie globale. Il s’agit de la quatrième application dans la liste des applications épinglées sur Teams clients.
 
 Pour créer une stratégie de configuration d’application afin d’épingler des applications, vous pouvez suivre les étapes suivantes :
 
-1. Dans le navigation gauche du Teams [d’administration](https://www.admin.teams.microsoft.com), voir Teams **d’applicationsSetup** > .
+1. Connectez-vous [Microsoft Teams centre d’administration](https://admin.teams.microsoft.com).
 
-2. Sélectionnez **Ajouter**.
+1. Dans le volet gauche, voir stratégies **Teams** **AppsSetup** > .
 
-3. Entrez un nom pour votre stratégie, ainsi qu’une description.
+1. Sélectionnez **Ajouter**.
 
-4. Activer **l’épinglage utilisateur**.
+1. Entrez un nom pour votre stratégie, ainsi qu’une description.
+
+1. Activer **l’épinglage utilisateur**.
 
    > [!NOTE]
    > Le **paramètre d’épinglage** utilisateur est disponible dans le Centre Teams’administration dans Microsoft 365 Cloud de la communauté du secteur public (Cloud de la communauté du secteur public) environnements ( Cloud de la communauté du secteur public, Cloud de la communauté du secteur public Haut et DoD), mais actuellement, il n’a aucun effet.
 
-5. Sous **Applications épinglées**, **sélectionnez Ajouter des applications**.
+1. Sous **Applications épinglées**, **sélectionnez Ajouter des applications**.
 
-6. Dans le **volet Ajouter des applications épinglées** , recherchez les applications que vous voulez ajouter, puis sélectionnez **Ajouter**. Vous pouvez également filtrer les applications par stratégie d’autorisation d’application.
+1. Dans le **volet Ajouter des applications épinglées** , recherchez les applications que vous voulez ajouter, puis sélectionnez **Ajouter**. Vous pouvez également filtrer les applications par stratégie d’autorisation d’application.
 
-7. Sélectionnez **Ajouter**.
+1. Sélectionnez **Ajouter**.
 
-8. Sous la **barre de l’application** **ou les extensions** de messagerie, organisez les applications dans l’ordre dans l’ordre dans Teams.
+1. Sous la **barre de l’application** **ou les extensions** de messagerie, organisez les applications dans l’ordre dans l’ordre dans Teams.
 
    ![section Applications épinglées.](media/pin-messaging-extensions.png)
 
-9. Sélectionnez **Enregistrer**.
+1. Sélectionnez **Enregistrer**.
 
 ## <a name="install-apps"></a>Installer des applications
 
