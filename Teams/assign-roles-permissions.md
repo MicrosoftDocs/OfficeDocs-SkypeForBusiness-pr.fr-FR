@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9ca46e3fa967019e674651ea27299b6552144a7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: b2f14993f47cdea5690413a32c9d286587db7324
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711958"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556345"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires d’équipe et des membres dans Microsoft Teams
 
@@ -63,7 +63,7 @@ Le tableau ci-dessous présente les différences d’autorisations entre un prop
 
 ## <a name="moderator-capabilities"></a>Capacités du modérateur
 
-En plus des autres fonctionnalités, les propriétaires et les membres d’une équipe peuvent avoir des capacités de modérateur pour un canal (à condition que la modération soit activée pour une équipe). Les modérateurs peuvent commencer de nouvelles publications dans un canal et contrôler si les membres d’une équipe peuvent répondre aux messages existants du canal. Ils peuvent également contrôler si les bots et les connecteurs peuvent envoyer des messages de canal.
+En plus des autres fonctionnalités, les propriétaires et les membres d’une équipe peuvent avoir des capacités de modérateur pour un canal (à condition que la modération soit activée pour une équipe). Les modérateurs peuvent commencer de nouvelles publications dans un canal et contrôler si les membres d’une équipe peuvent répondre aux messages existants du canal. Les modérateurs peuvent également contrôler si les applications avec bots et connecteurs peuvent envoyer des messages de canal.
 
 Les fonctionnalités du modérateur sont attribuées au niveau du canal. Par défaut, les propriétaires d’équipe disposent de fonctionnalités de modération. Les membres de l’équipe disposent de fonctionnalités de modérateur désactivées par défaut, mais le propriétaire d’une équipe peut accorder des fonctionnalités de modération pour un canal à un membre d’une équipe. Les modérateurs d’un canal peuvent ajouter et supprimer d’autres modérateurs au sein de ce canal.
 

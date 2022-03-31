@@ -24,12 +24,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: Guide détaillé détaillant la façon de configurer des Teams Système téléphonique pour votre organisation dans Microsoft 365.
-ms.openlocfilehash: 3a5c275c7d7d881ff770e6e84a3d4fa935d2827f
-ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
+ms.openlocfilehash: 6b56c68e7316c78c7c1881d6e9d6ca39b13823b1
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63043342"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556295"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>La configuration système téléphonique de votre organisation
 
@@ -50,7 +50,7 @@ Cet article décrit les étapes suivantes :
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>Étape 1 : acheter et attribuer une licence Système téléphonique licence
 
-Pour attribuer une licence Système téléphonique utilisateur à un seul utilisateur, les étapes sont identiques à l’attribution d’Microsoft 365 licence. Vous pouvez également attribuer des licences à plusieurs utilisateurs en bloc. Pour plus d’informations sur les licences Système téléphonique disponibles et la manière d’acquérir et d’attribuer des licences, voir  [Teams Licences](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) de module complémentaire et Attribuer des Teams de module [complémentaire Microsot](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
+Pour attribuer une licence Système téléphonique utilisateur à un seul utilisateur, les étapes sont identiques à l’attribution d’Microsoft 365 licence. Vous pouvez également attribuer des licences à plusieurs utilisateurs en bloc. Pour plus d’informations sur les licences Système téléphonique disponibles et la manière d’acquérir et d’attribuer des licences, voir  [Teams licences](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) de module complémentaire et Attribuer Microsoft Teams des [licences de module complémentaire](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>Étape 2. Choisir une option de connectivité RSTN 
  
@@ -58,7 +58,7 @@ Pour permettre à vos utilisateurs d’effectuer et de recevoir des appels exter
 
 - Forfait d’appels. Une solution all-in-the-cloud avec Microsoft comme opérateur PSTN. 
 
-- Opérateur Connecter. Si votre opérateur existant participe au programme de gestion des Connecter d’opérateur Microsoft, il peut gérer les contrôleurs de session et d’appel PSTN pour vous. 
+- Operator Connect. Si votre opérateur actuel participe au programme Microsoft Operator Connect, il peut gérer les appels PSTN et les contrôleurs de session en bordure de session pour vous. 
 
 - Routage direct. Utilisez votre propre opérateur PSTN en connectant vos SBCs à Système téléphonique. 
 
@@ -81,12 +81,12 @@ Pour plus d’informations sur la gestion des numéros de téléphone pour vos u
 
 Outre l’obtention de numéros de téléphone pour vos utilisateurs, vous pouvez acquérir des numéros de téléphone gratuits ou gratuits pour des services tels que les postes de transport automatique et les files d’attente d’appels. Un numéro de service peut gérer des centaines d’appels simultanément, tandis que le numéro de téléphone d’un utilisateur ne peut gérer que quelques appels en même temps.   
 
-Vous pouvez obtenir des numéros de service de Microsoft inclus dans votre licence. Si vous avez une connectivité RSTN via l’Connecter ou le routage direct, vous pouvez utiliser les numéros de service fournis par votre propre opérateur ou opérateur. 
+Vous pouvez obtenir des numéros de service de Microsoft inclus dans votre licence. Si vous avez une connectivité RSTN via un Operator Connect ou un routage direct, vous pouvez utiliser les numéros de service fournis par votre propre opérateur ou opérateur. 
 
 Pour plus d’informations, consultez :
 
 - [Gérer les numéros de téléphone](manage-phone-numbers-landing-page.md) pour votre organisation – Fournit une vue d’ensemble des types de numéros de téléphone avec des liens vers des articles spécifiques pour l’acquisition et la gestion des numéros en fonction de votre option de connectivité PSTN.  
-Décrit les [numéros de téléphone de service](manage-phone-numbers-landing-page.md#service-telephone-numbers) disponibles auprès de Microsoft inclus dans votre licence. Pour plus d’informations sur les numéros de service fournis par l’Connecter ou le routage direct, contactez votre fournisseur. 
+Décrit les [numéros de téléphone de service](manage-phone-numbers-landing-page.md#service-telephone-numbers) disponibles auprès de Microsoft inclus dans votre licence. Pour plus d’informations sur les numéros de service fournis par les Operator Connect ou le routage direct, contactez votre fournisseur. 
 
 - [Combien de numéros](how-many-phone-numbers-can-you-get.md) de téléphone pouvez-vous obtenir – Décrit le nombre de numéros de téléphone que vous pouvez obtenir en fonction des types de numéros de téléphone et des types de licences que vous avez achetées et attribuées. 
 

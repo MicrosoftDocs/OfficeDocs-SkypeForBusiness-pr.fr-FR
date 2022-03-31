@@ -19,32 +19,36 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b15625ae6e487a54fb5dbad122064148465b0ad
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: c95f5ab273112b29b91a312111000ba2dac76f9e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711698"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556325"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
 
-Microsoft Teams d’applications vous permettent d’agréger une ou plusieurs fonctionnalités dans un _package_ d’application qui peut être installé, mis à niveau et désinstallé. Les fonctionnalités sont les suivantes :
+Microsoft Teams d’applications vous permettent d’agréger une ou plusieurs fonctionnalités en applications qui peuvent être installées, mises à niveau et désinstallées. Les fonctionnalités des applications sont les suivantes :
 
 * Bots
 * Extensions de messagerie
 * Onglets
 * Connecteurs
 
-Les applications sont y consentées par les utilisateurs et gérées par les professionnels de l’it dans une perspective de stratégie. Toutefois, les autorisations et le profil de risque d’une application sont définis par les autorisations et les profils de risque des fonctionnalités qu’elle contient. Par conséquent, cet article se concentre sur les autorisations et les considérations au niveau de la fonctionnalité.
+En tant qu’administrateur, vous gérez uniquement les applications. Toutefois, l’article se concentre sur les autorisations et les considérations au niveau des fonctionnalités, car les fonctionnalités d’une application affectent les autorisations requises et les profils de risque de l’application. Pour l’utilisation, les applications sont consentées par les utilisateurs et gérées par des professionnels de l’informatique dans une perspective de stratégie.
 
-Les autorisations ci-dessous en majuscules, par exemple RECEIVE_MESSAGE et REPLYTO_MESSAGE, n’apparaissent pas dans la documentation du développeur [Microsoft Teams](/microsoftteams/platform/overview) ou dans les [autorisations de Microsoft Graph](/graph/permissions-reference).
+Par exemple, `RECEIVE_MESSAGE` `REPLYTO_MESSAGE` les autorisations répertoriées ci-dessous en majuscules sont uniquement à des fins d’illustration et d’explication. Ces chaînes ou autorisations n’apparaissent pas dans la [Microsoft Teams documentation](/microsoftteams/platform/overview) du développeur ou les [autorisations de Microsoft Graph](/graph/permissions-reference).
 
-| Titre   | Description    |
+<!--- TBD: What does this table mean? The icons are not used anywhere in this article so commenting this for now.
+
+| Title   | Description    |
 |-----------|------------|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Utilisez les tableaux ci-dessous comme guide pour comprendre les autorisations que les applications que vous examinez demandent.</li></ul> |
-| ![Icône montrant l’étape suivante](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Recherchez l’application ou le service lui-même pour décider si vous voulez autoriser ou non l’accès à l’application au sein de votre organisation. Par exemple, les robots envoient et reçoivent des messages des utilisateurs et, à l’exception des robots personnalisés d’entreprise, ils se trouvent en dehors de la limite de conformité. Par conséquent, toute application qui inclut un bot requiert ces autorisations et dispose de ce profil de risque minimal. </li></ul>|
+| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Use the tables below as a guide to understand which permissions the apps you're investigating are requesting.</li></ul> |
+| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Research the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise custom bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that minimum risk profile. </li></ul>|
 
-Voir aussi [Demander des autorisations d’appareil pour votre Microsoft Teams onglet.](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)
+See also [Request device permissions for your Microsoft Teams tab](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
+
+--->
 
 ## <a name="global-app-permissions-and-considerations"></a>Considérations et autorisations pour les applications globales
 
@@ -62,7 +66,7 @@ Aucun
 
 * [Le consentement spécifique à une](resource-specific-consent.md) ressource fournit un ensemble d’autorisations que les applications peuvent demander, qui apparaît sur l’écran d’installation de l’application. Pour en savoir plus sur les autorisations de consentement spécifiques aux ressources, voir [Graph référence des autorisations](/graph/permissions-reference#teams-resource-specific-consent-permissions).
 
-* Les applications peuvent également avoir besoin d’autorisations autres que des autorisations de consentement spécifiques aux ressources. Une fois qu’une application est installée, elle peut demander Graph autorisations d’autorisation par le biais d’une invite de consentement. Pour en savoir plus, voir [Comprendre Azure AD expériences de consentement d’application](/azure/active-directory/develop/application-consent-experience). Vous pouvez configurer les autorisations et le consentement de l’API dans le portail Azure. Pour plus d’informations, voir [Azure Active Directory infrastructure de consentement.](/azure/active-directory/develop/consent-framework)
+* Les applications peuvent également avoir besoin d’autorisations autres que des autorisations de consentement spécifiques aux ressources. Une fois qu’une application est installée, elle peut demander Graph autorisations d’autorisation par le biais d’une invite de consentement. Pour en savoir plus, voir [Comprendre Azure AD expériences de consentement d’application](/azure/active-directory/develop/application-consent-experience). Vous pouvez configurer les autorisations et le consentement de l’API dans le Portail Azure. Pour plus d’informations, voir [Azure Active Directory infrastructure de consentement.](/azure/active-directory/develop/consent-framework)
 
 ## <a name="bots-and-messaging-extensions"></a>Bots et extensions de messagerie
 
@@ -94,8 +98,7 @@ Aucun
 
   * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM    
-
+  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
 * SEND_FILES, RECEIVE_FILES:<sup>2 contrôle</sup> si un bot peut envoyer et recevoir des fichiers dans une conversation personnelle (pas encore pris en charge pour les discussions de groupe ou les canaux).
 

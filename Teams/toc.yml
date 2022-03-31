@@ -855,6 +855,8 @@ items:
                 href: operator-connect-configure.md
           - name: Routage direct
             items:
+              - name: Nouveautés
+                href: direct-routing-whats-new.md
               - name: Vue d’ensemble
                 href: direct-routing-landing-page.md
               - name: Planifier le routage direct

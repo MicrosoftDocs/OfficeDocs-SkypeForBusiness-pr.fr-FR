@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 765c0b97d5e277bd086ac4b25ee11ac80cb6fc11
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: fe3ad067844de3c7a5dda0a042dee837a9638eae
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711478"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556285"
 ---
 # <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teams comportement des applications en fonction des types d’utilisateurs
 
@@ -49,7 +49,7 @@ Les invités peuvent utiliser une application si l’application a été install
 
 #### <a name="bots-installed-to-a-channel"></a>Bots installed to a channel
 
-Les robots peuvent envoyer un message de façon proactive aux utilisateurs invités, mais les invités ne peuvent pas interagir avec le robot. Les invités ne peuvent pas envoyer de message à un robot, le mentionner ou interagir avec des cartes adaptatives qui communiquent avec le bot.
+Les utilisateurs invités peuvent mentionner le robot et interagir avec les cartes adaptatives.
 
 #### <a name="personal-bots-installed-with-policies"></a>Bots personnels installés avec des stratégies
 
@@ -84,6 +84,6 @@ Les utilisateurs anonymes ne peuvent pas utiliser directement des applications d
 
 Les utilisateurs anonymes héritent de la stratégie d’autorisation globale par défaut au niveau utilisateur. Ils peuvent interagir avec les applications dans Teams réunions si la stratégie d’autorisation au niveau utilisateur a activé l’application. Les utilisateurs anonymes peuvent uniquement interagir avec les applications déjà disponibles dans une réunion et qui ne peuvent pas acquérir et/ou gérer ces applications.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Gérer les stratégies de mise en application dans Microsoft Teams](teams-app-setup-policies.md)

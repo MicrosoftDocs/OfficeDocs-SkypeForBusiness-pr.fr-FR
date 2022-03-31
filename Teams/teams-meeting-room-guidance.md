@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b02e3f441ad7a4a338c86e89b2740561d3d552d7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: ac7ac28eca8a139d9a7d1ff5a8100af1de772955
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711568"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556275"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Conseils pour les salles de réunion Teams
 
@@ -33,7 +33,7 @@ Cet article a pour but de guide les utilisateurs sur l’optimisation des espace
 
 # <a name="meeting-room-uses-and-layouts"></a>[Utilisations et dispositions des salles de réunion](#tab/uses)
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 
 Salles Microsoft Teams solutions offrent une flexibilité d’objectif, voire une flexibilité de déplacement dans un espace que les salles de réunion traditionnelles n’ont pas. Par exemple, avec les appareils salles Teams, les utilisateurs peuvent améliorer leur collaboration avec un tableau blanc numérique et des caméras intelligentes de suivi des personnes pour s’assurer que chaque participant local est visible où qu’il se trouve dans la salle. N’importe quel type d’espace et de réunion peut être optimisé à l’salles Teams des appareils salles Teams solutions proposées.
 
@@ -232,7 +232,7 @@ En utilisant des solutions audio certifiées Salles Microsoft Teams, les personn
 
 Une caméra à angle ultra-large est positionnée à l’avant de la salle sous l’écran pour capturer tout le monde dans l’espace.
 
-La caméra de l’ange ultra-général permet de suivre les participants de la réunion de manière à ce qu’ils soient représentés individuellement dans une grande vue plutôt que sous forme de visages dans une grande image de la pièce entière.
+La caméra à angle ultra-large propose un suivi intelligent des participants à la réunion afin qu’ils soient représentés individuellement dans une vue large plutôt que sous forme de visages dans une grande image de la pièce entière.
 
 ![Rendu d’une salle de réunion améliorée à partir d’une vue d’affichage overhead.](media/emr5.png)
 
@@ -246,7 +246,7 @@ Pour donner aux personnes présentes dans la salle un meilleur sens de la connex
 
 Le contenu d’une réunion est entouré de composants contextuels tels que l’ordre du jour, les tâches et les notes, qui peuvent être mis à jour en temps réel pour aider les participants à rester impliqués et productifs. En outre, la conversation de réunion est clairement visible de sorte que lorsque vous rejoignez une réunion Teams à partir d’une salle Teams, vous pouvez facilement afficher la conversation et y participer en temps réel. Dans une salle de Microsoft Teams améliorée, ce contenu s’affiche sur un écran à proportions larges pour optimiser la taille du contenu de la réunion et le nombre de participants qui peuvent être affichés simultanément.
 
-Cette mise en page sera prise en charge dans toutes les configurations à affichage unique et à affichage double, et sera mise à disposition via salles Teams mise à jour logicielle. Bien que la disposition de première ligne soit particulièrement impactante dans une salle améliorée, elle peut être utilisée dans n’importe quelle salle Teams s’exécutant sur Windows, quelle que soit la configuration matérielle et de mobilier.
+Cette disposition est prise en charge dans toutes les configurations à affichage simple et à affichage double. Bien que la disposition de première ligne soit particulièrement impactante dans une salle améliorée, elle peut être utilisée dans n’importe quelle salle Teams s’exécutant sur Windows, quelle que soit la configuration matérielle et de mobilier.
 
 ### <a name="how-do-you-co-create-content"></a>Comment créer du contenu en collaboration ?
 

@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Découvrez les stratégies de messagerie et comment elles peuvent être utilisées pour contrôler la messagerie instantanée dans Teams.
-ms.openlocfilehash: 0f4001fc2a646b83f005d9cc48948fbbb314f042
-ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
+ms.openlocfilehash: 74b9474eda7fd3c6bfe7224f62fbf58f61689743
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64480666"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556245"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
@@ -80,6 +80,7 @@ Voici les paramètres de stratégie de messagerie que vous pouvez configurer.
 
 - **Les propriétaires peuvent supprimer les messages envoyés**  Utilisez ce paramètre pour que les propriétaires suppriment des messages de canal ou des publications que les utilisateurs ont envoyés.
 - **Supprimer les messages envoyés** Ce paramètre permet aux utilisateurs de supprimer les messages qu’ils ont envoyés dans une conversation.
+- **Supprimer la conversation** Ce paramètre permet aux utilisateurs de supprimer les messages qu’ils ont envoyés dans une conversation.
 - **Modifier les messages envoyés** Ce paramètre permet aux utilisateurs de modifier les messages qu’ils ont envoyés dans une conversation.
 - **Read receipts** Les receipts de lecture permettent à l’expéditeur d’un message de conversation d’être informé lorsque son message a été lu par le destinataire dans les conversations de groupe de 1:1 et de 20 personnes au moins. Les messages de lecture sont supprimés de manière visuelle pour déterminer si un message a été lu ou non et améliorer la communication au niveau de l’équipe. Les reçus de lecture ne sont pas capturés dans les rapports eDiscovery.  
     - **Utilisateur contrôlé** Cela signifie que les utilisateurs peuvent décider s’ils souhaitent recevoir des reçus de lecture comme ils le souhaitent. Le paramètre par défaut dans l’application est sous l’option. Les utilisateurs peuvent ensuite le désactiver.

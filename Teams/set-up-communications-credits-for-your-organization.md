@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 39ee93d35bbcb5055a6c5565df4f92374a18ed2e
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: f13580dcfa6d40802b414999e5fe047f3371b87e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392906"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556465"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurer les crédits de communication pour votre organisation
 
@@ -60,11 +60,13 @@ Pour plus d’informations, [voir Microsoft Teams licences de module complément
 
 1. Connectez-vous à [la Centre d'administration Microsoft 365](https://portal.office.com/Adminportal) votre compte scolaire ou scolaire.
     
-2. Dans le navigation gauche du Centre d'administration Microsoft 365, allez à **BillingPurchase** >  Services. Faites défiler vers le bas **et sélectionnez Modules add-ons**.
+2. Dans le navigation gauche du Centre d'administration Microsoft 365, allez à **BillingPurchase** >  Services.
 
-3. **Sélectionnez Crédits de communication**.
+3. Recherchez **Crédits de communication** sous la catégorie d’modules ajoutés ou recherchez « **Crédits** de communication » dans la zone rechercher dans toutes les **catégories** de produits et sélectionnez **Détails**.
     
-4. Sur la page **d’abonnement Crédits** de communication, remplissez vos informations, puis cliquez sur **Suivant** :
+4. Examinez les informations du service et sélectionnez **Acheter**. (Remarque : un nombre fixe de licences de crédits de communication est automatiquement sélectionné dans chaque commande.)
+
+5. Dans la page De règlement, entrez vos informations de paiement et remplissez les informations requises :
     
    - **Ajouter des fonds** Entrez le montant que vous voulez ajouter à votre compte. Si vous n’activez pas la recharge automatique, les capacités d’appel activées à l’aide des crédits de communication (par exemple, service entrant gratuit) seront interrompues une fois ces fonds épuisés. Pour éviter de devoir recharger manuellement votre solde de crédits de communication chaque fois qu’il atteint 0 (zéro), nous vous recommandons d’activer la fonctionnalité de recharge automatique.
     
@@ -81,7 +83,7 @@ Pour plus d’informations, [voir Microsoft Teams licences de module complément
      > 
      > Lorsque vous utilisez la fonction de recharge automatique, la facturation des crédits de communication est générée lorsque le montant du déclencheur est atteint et qu’une transaction de recharge est traitée. Les montants des crédits de communication sont utilisés d’une première manière. Pour savoir comment vérifier votre utilisation mensuelle, lisez Microsoft Teams [rapport d’utilisation PSTN](/microsoftteams/teams-analytics-and-reports/pstn-usage-report).
     
-5. Entrez vos informations de paiement, cliquez sur **passer la commande**.
+6. Sélectionnez **Placer une commande**.
     >[!IMPORTANT]
     >Si vous êtes un client de gestion des licences en volume, vous pouvez choisir votre numéro de contrat entreprise pour le paiement. Si vous avez plusieurs numéros d’accord entreprise, vous serez en mesure de sélectionner l’accord entreprise que vous souhaitez utiliser pour le paiement. Vous aurez également une possibilité de spécifier un numéro de commande fournisseur à associer avec le numéro d’accord entreprise (le cas échéant).
     
@@ -119,7 +121,7 @@ Vous pouvez également consulter des [informations en vous](https://portal.offic
   
 Pour consulter un tableau des licences dont vous avez besoin pour chaque fonctionnalité, consultez Microsoft Teams [licences de modules ajoutés](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
