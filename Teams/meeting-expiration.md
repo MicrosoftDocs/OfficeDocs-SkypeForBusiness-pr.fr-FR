@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Découvrez comment utiliser les paramètres de stratégie de réunion pour contrôler l’expiration d’une réunion Microsoft Teams.
-ms.openlocfilehash: d4752251f65dac0afb41ba357ad03063b3f6dfb0
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: ed76ea0278cdbf8a00bbd0d3e8434103aad2f270
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514687"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592809"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Stratégies de réunion et expiration des réunions dans Microsoft Teams
 
@@ -76,9 +76,6 @@ Si vous souhaitez que les personnes accèdent à des réunions précédemment pr
 > Si la réunion a été envoyée par un délégué, qui a reçu l’autorisation d’envoyer des invitations à la réunion au nom d’une autre personne( par exemple, un responsable), le paramètre de stratégie de réunion est appliqué à la personne qui a accordé l’autorisation (le responsable).
 
 ## <a name="changes-to-meeting-expiration"></a>Modifications apportées à l’expiration d’une réunion
-
-> [!IMPORTANT]
-> Si vous souhaitez activer l Teams expiration anticipée d’une réunion sur votre client, appliquez-Microsoft Teams [programme d’expiration anticipée de la réunion](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u).
 
 Tous les enregistrements des Teams de réunion nouvellement créés ont une durée d’expiration de 120 jours. Cette option est optionnée par défaut pour tous les locataires. Cela signifie que, par défaut, tous les tmrs créés après l’option seront supprimés 120 jours après la date de création. Les administrateurs peuvent également configurer les réunions pour **qu’ils n’expirent jamais automatiquement**. Le OneDrive et SharePoint de contrôle des détails des tmrs surveille la date d’expiration définie sur toutes les tmrs et déplace automatiquement les tmR vers la Corbeille à la date d’expiration.
 
@@ -155,7 +152,7 @@ Non, les tmrs migrés ne sont pas fournis avec un délai d’expiration défini 
 
 Lorsqu’un enregistrement ne parvient pas à être téléchargé sur OneDrive ou SharePoint, l’application Teams affiche un message dans la conversation que les utilisateurs ont jusqu’à 21 jours pour télécharger la tmR avant sa suppression définitive du serveur Teams. Cette expérience d’expiration existante en raison de l’échec des téléchargements de TMR n’est pas liée à la fonctionnalité d’expiration automatique OneDrive et SharePoint abordée dans le document d’aide.
 
-### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>Comment connaître la distribution des lectures par TMR afin de savoir quelles sont les valeurs par défaut d’expiration automatique optimales pour mon client ?
+### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>Comment faire de connaître la distribution des lectures par TMR. Je sais donc quelles sont les valeurs par défaut d’expiration automatique optimales pour mon client ?
 
 1. Recherchez la vidéo dans la bibliothèque.
 1. **Sélectionnez ...** >  **Détails**

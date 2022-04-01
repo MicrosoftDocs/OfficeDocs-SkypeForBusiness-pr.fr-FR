@@ -22,12 +22,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: b92cca01512d31fe193a718eede74fd04f44ae2e
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: 59e62ad1278c2703402a1186d198ae3ad877be63
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918867"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592770"
 ---
 # <a name="shifts-for-teams"></a>Shifts pour Teams
 
@@ -54,14 +54,17 @@ Si vous utilisez un système tiers de gestion du personnel (WFM) pour la planifi
 |&nbsp;  |&nbsp;  |
 |---------|---------|
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Vue d’ensemble des connecteurs Shifts](shifts/shifts-connectors.md)** Obtenez une vue d’ensemble des connecteurs Shifts et de leur fonctionnement. En savoir plus sur les connecteurs gérés et open source disponibles et les systèmes WFM pris en charge.   |
-|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Connecteurs Shifts gérés](shifts/shifts-connectors.md#managed-shifts-connectors)** Les connecteurs Shifts gérés, développés en collaboration avec nos partenaires, sont hébergés et gérés par nous ou par nos partenaires. Si vous utilisez le système Reflexis WFM, consultez le connecteur [Reflexis Shifts](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams) pour Microsoft Teams en savoir plus.    |
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Connecteurs Shifts gérés](shifts/shifts-connectors.md#managed-shifts-connectors)** Les connecteurs Shifts gérés, développés en collaboration avec nos partenaires, sont hébergés et gérés par nous ou par nos partenaires. Pour en savoir plus, voir [Microsoft Teams connecteur Shifts bleu Yonder](shifts/shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) et [Reflexis Shifts pour Microsoft Teams](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams).    |
+|   | **[Utiliser l’Assistant Connecteur Shifts pour connecter Shifts à Blue Yonder Workforce Management](shifts/shifts-connector-wizard.md)** L’Assistant Connecteur Shifts du Centre d'administration Microsoft 365 vous aide à configurer rapidement une connexion à votre système WFM. Actuellement, l’Assistant prend en charge le Teams Shifts bleu Yonder pour intégrer Shifts à Blue Yonder Workforce Management.
+|  | **[Utiliser PowerShell pour connecter Shifts à Blue Yonder Workforce Management](shifts/shifts-connector-blue-yonder-powershell-setup.md)** Découvrez comment utiliser PowerShell pour configurer une connexion à Blue Yonder Workforce Management via le connecteur Teams Shifts de Blue Yonder.         |
+|   | **[Utiliser PowerShell pour gérer votre connexion Shifts à Blue Yonder Workforce Management](shifts/shifts-connector-powershell-manage.md)** Obtenez des instructions sur l’utilisation de PowerShell pour gérer votre connexion Shifts à Blue Yonder Workforce Management après l’avoir installé via l’Assistant Connecteur Shifts ou PowerShell.
 |<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[Connecteurs Shifts open source](/microsoftteams/platform/samples/shifts-wfm-connectors)** Découvrez comment utiliser des [connecteurs open source pilotés](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) par la communauté pour intégrer votre système Kronos ou JDA WFM via Shifts Graph API et SDK.    |
 
 ## <a name="shifts-extensions"></a>Extensions Shifts
 
 |&nbsp;|&nbsp;|
 | ------------- | ------------- |
-| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph API](/graph/api/resources/shift)** Shifts Graph API vous permettent d’intégrer des données Shifts aux systèmes WFM (External Workforce Management). Vous avez la possibilité de créer des expériences Shifts personnalisées à l’arrière-plan, tout en offrant aux utilisateurs une expérience frontale enrichie dans Teams.             |
+| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph API](/graph/api/resources/shift)** Shifts Graph API vous permettent d’intégrer des données Shifts aux systèmes WFM (External Workforce Management). Vous avez la possibilité de créer des expériences Shifts personnalisées à l’arrière-plan, tout en offrant aux utilisateurs une expérience frontale enrichie en Teams.             |
 |<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate vous permet de prendre des informations à partir de Shifts, de créer des flux de travail personnalisés avec d’autres applications et d’effectuer des opérations à l’échelle. Automatisez les processus clés avec peu ou pas de code. Les déclencheurs et modèles supportent différents scénarios tels que l’activation des approbations automatiques pour les demandes de shift lorsque l’approbation d’un responsable n’est pas nécessaire. |
 
 ## <a name="featured-training"></a>Formation proposée

@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Lisez les questions fréquemment posées (FAQ) et les réponses sur Microsoft Teams tableau de bord de qualité des appels.
-ms.openlocfilehash: bd36fe70d46a190289749a96fbaadb8f6c176251
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: 3d795393f99765ab445a5495b626ebd9b8722131
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457174"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592929"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Forum aux questions (FAQ) sur le tableau de bord de qualité des appels
 
@@ -40,7 +40,7 @@ ms.locfileid: "62457174"
 
 [J’essaie d’utiliser le CQD pour les rapports de type utilisation et je constate que certaines données sont incomplètes. Pourquoi ?](#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)
 
-[Pourquoi les informations du Skype Entreprise sont-elles disponibles dans le CQD alors que j’ai filtré les Teams uniquement ?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[Pourquoi est-ce que je Skype Entreprise des informations dans le Teams de recherche ?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [Pourquoi mes rapports personnalisés ne retournent-ils qu’un maximum de 10 000 lignes alors que je sais qu’il devrait y avoir davantage d’entrées ?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
@@ -90,13 +90,13 @@ Pour en savoir plus sur les rôles qui peuvent accéder au CQD, notamment EUII, 
 
 ### <a name="im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that"></a>J’essaie d’utiliser le CQD pour les rapports de type utilisation et je constate que certaines données sont incomplètes. Pourquoi ?
 
-Les outils de gestion de la qualité des appels tels que CQD, Analyse des appels, CallRecord Graph API et Analyse en temps réel sont basés sur la télémétrie de diagnostic. Les informations que nous présentons Teams outils de gestion de la qualité des appels sont aussi complètes que les données de télémétrie que nous recevons des clients participant à un appel. Il existe plusieurs raisons pour lesquelles nous ne pouvons pas recevoir de télémétrie complète, telles que des pannes de réseau, des pare-feu ou des [configurations de proxy mal configurées](/microsoft-365/enterprise/urls-and-ip-address-ranges.md). Nous continuons à travailler pour améliorer la fiabilité et la résilience avec lesquelles les clients Teams fournir des données de télémétrie au service.
+Les outils de gestion de la qualité des appels tels que CQD, Analyse des appels, API Graph Enregistrement et Analyse en temps réel sont basés sur la télémétrie de diagnostic. Les informations que nous présentons Teams outils de gestion de la qualité des appels sont aussi complètes que les données de télémétrie que nous recevons des clients participant à un appel. Il existe plusieurs raisons pour lesquelles nous ne pouvons pas recevoir de télémétrie complète, telles que des pannes de réseau, des pare-feu ou des [configurations de proxy mal configurées](/microsoft-365/enterprise/urls-and-ip-address-ranges). Nous continuons à travailler pour améliorer la fiabilité et la résilience avec lesquelles les clients Teams les données de télémétrie au service.
 
-En ayant cela à l’esprit, nous ne mandons pas l’utilisation des outils de gestion de la qualité des appels pour le rapport d’utilisation. Ils ne sont pas conçus pour s’adapter à ces types de scénarios de rapports et de nombreuses statistiques d’utilisation ne sont pas disponibles et ne sont pas disponibles dans ces outils. Teams centre d’administration propose une série de rapports d’utilisation [et un](teams-analytics-and-reports/teams-reporting-reference.md) rapport de présence aux réunions est disponible directement à partir Teams client.[](teams-analytics-and-reports/meeting-attendance-report.md)
+En ayant cela à l’esprit, nous ne mandons pas l’utilisation des outils de gestion de la qualité des appels pour le rapport d’utilisation. Ils ne sont pas conçus pour s’adapter à ces types de scénarios de rapports et de nombreuses statistiques d’utilisation ne sont pas disponibles et ne sont pas disponibles dans ces outils. Teams d’administration propose une série de rapports d’utilisation [et un](teams-analytics-and-reports/teams-reporting-reference.md) rapport de présence aux réunions est disponible directement à partir Teams client.[](teams-analytics-and-reports/meeting-attendance-report.md)
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Pourquoi les informations du Skype Entreprise sont-elles disponibles dans le CQD alors que j’ai filtré les Teams uniquement ?
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Pourquoi est-ce que je Skype Entreprise des informations dans le Teams de recherche ?
 
-Lorsque vous filtrez des Teams uniquement dans les rapports du CQD (isTeams = 1), vous filtrez pour tous les appels pour lequel le  premier point de terminaison est Teams. Si le *deuxième point de* terminaison Skype Entreprise point de terminaison, ces informations s’afficheront dans votre rapport du CQD. Selon les scénarios de clients, le DQD peut inclure des appels Skype Entreprise Server 2019 lorsque [Call Data Connector](/skypeforbusiness/hybrid/plan-call-data-connector.md) est configuré. Il peut également comprendre des appels Skype bots téléphoniques (AA, CVI, VDI), des événements en direct et des appels RSTN.
+Lorsque vous filtrez les Teams uniquement dans les rapports du CQD (isTeams = 1), vous filtrez pour tous les appels pour lequel le  premier point de terminaison est Teams. Si le *deuxième point de* terminaison Skype Entreprise point de terminaison, ces informations s’afficheront dans votre rapport du CQD. Selon les scénarios de clients, le DQD peut inclure Skype Entreprise Server 2019 lorsque [Call Data Connector](/skypeforbusiness/hybrid/plan-call-data-connector.md) est configuré. Il peut également comprendre des appels Skype bots téléphoniques (AA, CVI, VDI), des événements en direct et des appels RSTN.
 
 Il est possible de supprimer des informations Skype Entreprise de vos requêtes en filtrant sur les dimensions telles que First *User Agent Category* et *Second User Agent Category*. Vous pouvez également utiliser *la paire de* catégories Agent utilisateur qui combine les dimensions Premier et Deuxième en un seul filtre.
 
@@ -106,7 +106,7 @@ Le CQD est conçu pour les requêtes de données résumées et n’est pas conç
 
 ### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>Pourquoi les Wi-Fi connexions VPN s’affichent-elle sous la connexion câblé au lieu du Wi-Fi ?
 
-Il s'agit d'un comportement normal. Le fournisseur VPN a créé un adaptateur ethernet virtuel qui est traité comme une connexion câblé. Dans la mesure où il n’est pas correctement étiqueté, le système d’exploitation ne sait pas qu’il s’agit d’une connexion Wi-Fi et l’indique comme étant câblé.
+Il s'agit d'un comportement normal. Le fournisseur VPN a créé un adaptateur ethernet virtuel qui est traité comme une connexion câblé. Dans la mesure où il n’est pas correctement étiqueté, le système d’exploitation ne sait pas qu’il s’agit d'Wi-Fi connexion et l’indique comme étant câblé.
 
 ### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>J’ai désactivé l’enregistrement basé sur une Teams et à présent les appels d’égal à égal sont marqués en tant que conférences. Que s’est-il passé ?
 

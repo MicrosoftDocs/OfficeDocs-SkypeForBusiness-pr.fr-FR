@@ -1,7 +1,7 @@
 ---
-title: Applications, robots et connecteurs dans Microsoft Teams
+title: En savoir plus sur les applications dans Microsoft Teams
 ms.reviewer: ''
-description: Apprenez-en plus sur les applications, les robots et les connecteurs, ainsi que sur la manière de choisir les éléments à déployer dans Microsoft Teams sur la base du profil de votre organisation et des besoins de votre entreprise.
+description: Découvrez les applications et décidez des applications à autoriser dans Teams en fonction du profil de votre organisation et des exigences métier.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
@@ -18,26 +18,26 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd5ab3395aa870d0be073a0afcd08aafe9110637
-ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
+ms.openlocfilehash: b6fd5ef344550cf85420faef1748c34f6e87e88b
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64480656"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556525"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>À propos des applications dans Microsoft Teams
 
-Les applications vous permettent de rechercher du contenu à partir de vos services favoris et de les partager dans Teams. Elles vous aident à effectuer des actions telles qu’épingler des services en haut d’un canal, de mener une conversation avec des robots, ou de partager et attribuer des tâches. Pour en savoir plus, voir [Vue d’ensemble sur les applications dans Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
+Les applications permettent aux utilisateurs de trouver du contenu à partir de leurs services favoris et de les partager dans Teams. Ils vous permettent d’effectuer des tâches telles que épingler des services en haut d’un canal, automatiser les notifications à l’aide de bots ou partager et affecter des tâches. Pour en savoir plus sur l’utilisation des applications, lisez [Vue d’ensemble des applications pour les utilisateurs finaux](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
-Vous pouvez ajouter des applications à votre déploiement Teams à l’aide des applications fournies avec Microsoft Teams, en utilisant des applications et modèles tiers certifiés, et en créant vos propres applications personnalisées.
+Les différents types d’applications que vos utilisateurs finaux peuvent utiliser dans Teams sont les applications créées par Microsoft, les applications tierces certifiées et les applications personnalisées créées par votre propre organisation.
 
 ## <a name="use-microsoft-provided-apps"></a>Utiliser les applications fournies par Microsoft
 
-Teams insère un ensemble d’applications intégrées, notamment Listes, Tâches, Compliments, Approbations, etc. Nous vous recommandons d’inclure les applications proposées Teams (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez d’autres applications, robots et connecteurs pour favoriser l’adoption des services Teams.
+Teams insère un ensemble d’applications intégrées, notamment Listes, Tâches, Compliments, Approbations, etc. Nous vous recommandons d’inclure les applications proposées Teams (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez d’autres applications au fur et à mesure que vous favorisez l’adoption de Teams. Certaines fonctionnalités par défaut, telles que le flux d’activité, la conversation, le calendrier et les appels, sont disponibles par défaut et épinglées pour faciliter l’accès des utilisateurs finaux.
 
 ## <a name="use-third-party-apps"></a>Utiliser des applications tierces
 
-En plus des applications fournies par Microsoft, vous pouvez utiliser des applications tierces certifiées par Microsoft. Microsoft collabore avec  des partenaires développeurs Microsoft 365 pour fournir les informations nécessaires pour la prise de décisions accélérées relatives à l’utilisation des applications et compléments Teams. Pour plus d’informations, consultez [Sécurité et conformité de l’application Microsoft Teams](/microsoft-365-app-certification/teams/teams-apps).
+En plus des applications fournies par Microsoft, vous pouvez utiliser des applications tierces validées par Microsoft. Microsoft collabore avec Microsoft 365 partenaires de développement pour fournir les informations nécessaires pour accélérer les décisions relatives à l’utilisation des applications Teams. Pour plus d’informations, consultez [Sécurité et conformité de l’application Microsoft Teams](/microsoft-365-app-certification/teams/teams-apps).
 
 ## <a name="use-open-source-sample-apps-provided-by-microsoft"></a>Utiliser des exemples d’applications open source fournis par Microsoft
 
@@ -68,41 +68,43 @@ Par défaut, toutes les applications tierces fournies par Microsoft et les appli
 
 ### <a name="app-permissions-and-other-considerations"></a>Autorisations d’applications et autres points à prendre en compte
 
-Les utilisateurs approuvent les applications. Elles sont gérées par l’administrateur ou le spécialiste des TI par l’intermédiaire de stratégies. Toutefois, la plupart du temps, les autorisations et le profil de risque d’une application sont définis dans l’application elle-même.
-
 Les utilisateurs approuvent les applications. Elles sont gérées par l’administrateur ou le spécialiste des TI par l’intermédiaire de stratégies. Toutefois, les autorisations d’application et le profil de risque sont définis dans l’application elle-même.
 
 | Posez-vous la question | Action |
 |--------------|--------|
 |<br>Quelles sont les applications auxquelles je souhaite autoriser l’accès ? Quelles sont les applications auxquelles je ne souhaite pas autoriser l’accès ?  | <ul><li>Voir [Autorisations points à prendre en compte pour les applications Microsoft Teams](app-permissions.md) pour obtenir la liste des objets qu’ils faut prendre en compte lorsque vous autorisez l’accès à une application, un robot, un onglet ou le connecteur.</li><li>Voir [Gérer vos applications dans le Centre d'administration Microsoft Teams](manage-apps.md) pour plus d’informations sur la mise à disposition d’une application aux utilisateurs de votre organisation.</li></ul>|
 
-### <a name="bots-for-private-chats-and-channels"></a>Robots pour des conversations et des canaux privés
+<!--- TBD: Rewrite this to talk about bots and tabs as a capability of apps. Admins do not govern bots, tabs, etc. Admins only govern apps that contain capabilities such as connectors, bots, etc. This writeup gives an impression that admins manage apps + bots + tabs + connectors, etc.
 
-Les robots sont des programmes automatisés qui répondent aux requêtes ou fournissent des mises à jour et des notifications relatives aux détails que les utilisateurs trouvent intéressants ou veulent suivre. Les robots permettent aux utilisateurs d’interagir avec les services cloud tels que la gestion des tâches, la planification et les sondages dans une conversation Teams. Teams prend en charge les robots dans les canaux et conversations privés. Les administrateurs peuvent contrôler si l’utilisation des robots est autorisée dans une organisation Microsoft 365 ou Office 365.
+### Bots for private chats and channels
 
-| Posez-vous la question | Action |
+Bots are automated programs that respond to queries or give updates and notifications about details users find interesting or want to stay informed about. Bots allow users to interact with cloud services such as task management, scheduling, and polling in a Teams chat. Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in a Microsoft 365 or Office 365 organization.
+
+| Ask yourself | Action |
 |--------------|--------|
-|Est-ce que je souhaite autoriser les robots personnalisés dans mon organisation ?|Pour plus d’informations sur l’ajout de robots, voir [Ajouter des robots pour conversations et canaux privés dans Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). Pour plus d’informations sur l’activation ou la désactivation des robots personnalisés, voir [Paramètres d’administration des applications dans Microsoft Teams](admin-settings.md).|
+|Do I want to allow custom bots in my organization?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
 
-### <a name="built-in-and-custom-tabs"></a>Onglets intégrés et personnalisés
+### Built-in and custom tabs
 
-Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un canal, une conversation privée ou une conversation de groupe, pour faciliter l'intégration de leurs services cloud. Ajouter des onglets pour améliorer l’accès aux utilisateurs et gérer les données dont ils ont besoin ou qu’ils utilisent le plus souvent. Dans des canaux, les onglets Conversations et Fichiers sont créés par défaut. Dans chaque conversation privée, les onglets Conversations, Fichiers, Organisation et Activité sont créés par défaut. En plus de ces onglets intégrés, vous pouvez créer et ajouter des onglets personnalisés. Pour savoir comment activer ou désactiver les applications Teams pour votre organisation, voir [Paramètres d’administration des applications dans Teams](admin-settings.md).
+Owners and team members can add tabs to a channel, private chat, and group chat to help integrate their cloud services. Add tabs to help users access and manage the data they need or use the most. In channels, the Conversations and Files tabs are created by default. In every private chat, the Conversations, Files, Organization, and Activity tabs are created by default. In addition to these built-in tabs, you can design and add custom tabs. To learn about turning Teams apps on or off for your organization, read [Admin settings for apps in Teams](admin-settings.md).
 
-| Posez-vous la question | Action |
+| Ask yourself | Action |
 |--------------|--------|
-|Est-ce que je souhaite autoriser les onglets personnalisés dans mon organisation ?|Pour plus d’informations, voir [Utiliser des onglets intégrés et des onglets personnalisés dans Teams](built-in-custom-tabs.md).|
+|Do I want to allow custom tabs in my organization?|For more information, see [Use built-in and custom tabs in Teams](built-in-custom-tabs.md).|
 
-### <a name="custom-connectors"></a>Connecteurs personnalisés
+### Custom connectors
 
-Les connecteurs permettent à votre équipe de rester à jour en fournissant directement à votre canal du contenu et des mises à jour provenant des services que vous utilisez fréquemment. Grâce aux connecteurs, les utilisateurs de Microsoft Teams peuvent recevoir des mises à jour de services populaires tels que Trello, Wunderlist, GitHub et Azure DevOps Services, dans le flux de conversations Teams.
+Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel. With connectors, your Teams users can receive updates from popular services such as Trello, Wunderlist, GitHub, and Azure DevOps Services in their Teams chats.
 
-| Posez-vous la question | Action |
+| Ask yourself | Action |
 |--------------|--------|
-|Est-ce que je souhaite permettre aux utilisateurs de créer des connecteurs personnalisés ?|Pour plus d’informations, voir [Utiliser des connecteurs personnalisés dans Teams](office-365-custom-connectors.md).|
+|Do I want to allow users to create custom connectors?|For more information, see [Use custom connectors in Teams](office-365-custom-connectors.md).|
+
+--->
 
 ## <a name="additional-deployment-decisions"></a>Décisions de déploiement supplémentaires
 
-Vous souhaiterez peut-être modifier ces paramètres en fonction des besoins et de la configuration de votre organisation.
+Vous pouvez modifier ces paramètres en fonction des besoins et de la configuration de votre organisation.
 
 ### <a name="activity-reports"></a>Rapports d’activité
 
@@ -114,7 +116,7 @@ Vous pouvez utiliser les rapports d’activité pour voir comment les utilisateu
 
 ### <a name="app-templates"></a>Modèles d’application
 
-Les modèles d’application sont des applications Microsoft Teams prêtes pour la production qui sont impulsées par la communauté, open source et disponibles sur GitHub. Chacune contient des instructions détaillées de déploiement et d’installation pour votre organisation, offrant ainsi une application prête à l’emploi installable et utilisable immédiatement.
+Les modèles d’application sont des applications prêtes pour la production pour Microsoft qui sont basées sur la communauté, open source et disponibles sur GitHub. Chaque application contient des instructions détaillées pour la déployer et l’installer pour votre organisation. Il s’agit d’une application prête à l’emploi que vous pouvez installer et commencer à utiliser immédiatement.
 
 Le code source complet est également disponible, de sorte que vous pouvez l’explorer en détail ou répliquer le code et le modifier en fonction de vos besoins spécifiques.
 

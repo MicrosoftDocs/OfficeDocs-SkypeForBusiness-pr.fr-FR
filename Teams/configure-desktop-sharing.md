@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c5db10ce87dc98cfb793eefb1daa953385c95f6d
 ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/25/2021
 ms.locfileid: "61205285"
@@ -39,11 +39,11 @@ Pour configurer le partage d’écran, vous créez une stratégie de réunion, p
 
 1. Sélectionnez **Réunions** > **Stratégies de réunion**.
 
-    ![Stratégies de réunion sélectionnées.](media/configure-desktop-sharing-image1.png)
+    ![Stratégies de Réunion sélectionnées](media/configure-desktop-sharing-image1.png)
 
 2. Sur la page **Stratégies de réunion**, sélectionnez **Ajouter**.
 
-    ![Message Stratégies de réunion.](media/addMeeting.png)
+    ![Le message des stratégies de réunion](media/addMeeting.png)
 
 3. Donnez un titre unique à votre stratégie, puis entrez une brève description.
 
@@ -53,7 +53,7 @@ Pour configurer le partage d’écran, vous créez une stratégie de réunion, p
    - **Application Unique** : permet aux utilisateurs de limiter le partage d’écran à une seule application active.
    - **Désactivé** : désactive le partage d’écran.
 
-    ![Options du mode partage.](media/configure-desktop-sharing-image3.png)
+    ![Les options du mode Partage](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
   > Vous ne pouvez pas activer la stratégie d’appel pour que les utilisateurs utilisent le partage d’écran à partir de la conversation. Toutefois, leur audio est désactivé jusqu’à ce qu’ils activent le son eux-mêmes. En outre, l’utilisateur partageant l’écran peut cliquer sur **Ajouter l’audio** pour activer l’audio. Si la stratégie d’appel est désactivée, les utilisateurs ne pourront pas ajouter l’audio au partage d’écran à partir de la session de conversation.
@@ -70,7 +70,7 @@ Pour configurer le partage d’écran, vous créez une stratégie de réunion, p
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>Utiliser PowerShell pour configurer le bureau partagé
 
-Vous pouvez également utiliser l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) pour contrôler le partage de Bureau. Définissez les paramètres suivants :
+Vous pouvez également utiliser l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) pour contrôler le partage de Bureau.
 
 - Description
 - ScreenSharingMode

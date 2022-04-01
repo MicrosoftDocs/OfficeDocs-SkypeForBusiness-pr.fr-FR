@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 104540c047f499f8b82139e0c76c93e4b4625f62
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 032036c6f08dac76cae9ed124ffe7bc8439e4c32
+ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401138"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64584259"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Expérience de réunion en lecture seule de Teams
 
@@ -119,6 +119,7 @@ Le participant en lecture seule ne pourra pas utiliser ces options dans les réu
 - Lever la main en réunion
 - Envoyer ou voir des réactions
 - Interagir avec toute application 3P intégrée à la réunion Teams, y compris les sondages.
+- Accès à l’enregistrement de la réunion.
 
 ## <a name="view-only-feature-limitations"></a>Limitations de la fonctionnalité lecture seule
 

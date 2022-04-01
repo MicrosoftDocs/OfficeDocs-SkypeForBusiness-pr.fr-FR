@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4d8ae47e2e9963a6379c6516a6739f8fcf180154
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 41d5cf86085c944e414e1c78e3160f8f2678d0d1
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711938"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592939"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barrières de l’information au Microsoft Teams
 
@@ -110,7 +110,7 @@ Les stratégies DE L’ORGANISATION sont activées lorsque les événements Team
 
 - Un utilisateur passe un appel téléphonique dans **Teams** : chaque fois qu’un utilisateur passe un appel vocal (via VOIP) à un autre utilisateur ou groupe d’utilisateurs, l’appel est évalué pour s’assurer qu’il ne enfreint pas les stratégies de l’organisation. En cas de violation, l’appel vocal est bloqué.
 
-- **Invités dans Teams** : Les stratégies DE l’organisation d’organisation de groupe s’appliquent également aux Teams invités. Pour plus d’informations sur les invités dans la liste d’adresses globale de votre organisation, voir Gérer l’accès invité [Microsoft 365 groupes.](/microsoft-365/admin/create-groups/manage-guest-access-in-groups) Une fois que les invités sont découvables, vous pouvez [définir les stratégies de l’organisation](/office365/securitycompliance/information-barriers-policies).
+- **Invités dans Teams** : Les stratégies DE l’organisation d’organisation de groupe s’appliquent également aux Teams invités. Si les invités doivent être utilisables dans la liste d’adresses globale de votre organisation, voir Gérer l’accès [invité dans Groupes Microsoft 365](/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Une fois que les invités sont découvables, vous pouvez [définir les stratégies de l’organisation](/office365/securitycompliance/information-barriers-policies).
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Impact des modifications de stratégie sur les conversations existantes
 
@@ -188,7 +188,7 @@ Le mode Barrières de l’information permet d’renforcer les personnes qui peu
 
 - **Ouvert** : Cette configuration est le mode IB par défaut pour tous les groupes existants qui ont été provisionés avant l’ouverture d’une barrière de l’information. Dans ce mode, aucune stratégie DE l’organisation n’est applicable.
 - **Implicite** : cette configuration est le mode IB par défaut lorsqu’une équipe est mise en service après l’activation des barrières de l’information. Le mode implicite vous permet d’ajouter tous les utilisateurs compatibles du groupe.
-- **Modérer par le propriétaire (aperçu)** : ce mode est définie pour une équipe lorsque vous voulez autoriser la collaboration entre des utilisateurs de segments incompatibles modérés par le propriétaire. Le propriétaire de l’équipe peut ajouter de nouveaux membres selon sa stratégie DNS.
+- **Propriétaire modéré :** Ce mode est définie pour une équipe lorsque vous voulez autoriser la collaboration entre les utilisateurs de segments incompatibles modérés par le propriétaire. Le propriétaire de l’équipe peut ajouter de nouveaux membres selon sa stratégie DNS.
 
 Teams création avant l’activation d’une stratégie de barrière des informations dans votre client sont automatiquement définies sur *le* mode Ouvrir par défaut. Une fois les stratégies IB activées sur votre client, vous devez mettre à jour le mode de vos équipes existantes vers *Implicite* pour vous assurer que les équipes existantes respectent la conformité de l’organisation.
 
@@ -202,7 +202,7 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 
 Pour mettre à jour le mode d’Ouverture à Implicite pour toutes les équipes existantes, utilisez ce [script PowerShell](information-barriers-mode-script.md).
 
-Si vous modifiez la configuration du mode Ouvrir sur les groupes connectés à Teams existants afin de respecter les exigences de conformité de votre organisation, vous devez mettre à jour les [modes IB](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) pour les sites SharePoint associés connectés à l’équipe Teams web.
+Si vous modifiez la configuration du mode Ouvrir sur les groupes connectés à Teams existants afin de respecter les exigences de conformité de votre organisation, vous devez mettre à jour les [modes IB](/sharepoint/information-barriers#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) pour les sites SharePoint associés connectés à l’équipe Teams web.
 
 ## <a name="required-licenses-and-permissions"></a>Licences et autorisations requises
 
@@ -218,11 +218,10 @@ Pour plus d’informations sur les licences et les autorisations, les plans et l
 ## <a name="more-information"></a>Plus d’informations
 
 - Pour en savoir plus sur les IB, consultez la [barrière des informations](/office365/securitycompliance/information-barriers).
-- Pour configurer les stratégies de l’organisation, voir [Mise en place des obstacles à la mise en œuvre des informations](/office365/securitycompliance/information-barriers-policies).
+- Pour configurer les stratégies de l’organisation, voir [Démarrage les barrières à l’information](/office365/securitycompliance/information-barriers-policies).
 - Pour modifier ou supprimer des stratégies d’ING, voir [Gérer les stratégies de protection contre la barrière des informations](/microsoft-365/compliance/information-barriers-edit-segments-policies).
 - [Barrières de l’information et canaux partagés](information-barriers-shared-channels.md)
 
 ## <a name="availability"></a>Disponibilité
 
-- La fonctionnalité est disponible dans notre cloud public. En janvier 2021, nous avons déployé des barrières à l’information dans Cloud de la communauté du secteur public cloud.
-- La fonctionnalité n’est pas encore disponible dans les Cloud de la communauté du secteur public nuages Haut et DOD.
+Les barrières de l’Teams sont disponibles dans les nuages publics, Cloud de la communauté du secteur public, Cloud de la communauté du secteur public- haut et DOD.

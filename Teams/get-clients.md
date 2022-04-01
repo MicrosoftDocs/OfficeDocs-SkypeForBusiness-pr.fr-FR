@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e02013ddc158e1e64386bc22652404ec387aee1
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 4b922607955d8b825006217bd2fe333eaadbc1ce
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893553"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556565"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams
 
@@ -46,7 +46,7 @@ Le client de bureau Teams est disponible en tant qu’application autonome et da
 - Linux (dans les formats `.deb` et `.rpm`)
 - Système d’exploitation Chrome (pour plus d’informations, voir [Comment utiliser Microsoft Office sur un Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad))
 
-Les clients de bureau peuvent être téléchargés et installés par les utilisateurs finaux directement à partir de [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) s’ils disposent des autorisations locales appropriées. Les autorisations d’administrateur ne sont pas nécessaires pour installer le client Teams sur les PC Windows, mais elles sont requises sur les Mac.
+Les clients de bureau peuvent être téléchargés et installés par les utilisateurs finaux directement à partir de [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) s’ils disposent des autorisations locales appropriées. Les autorisations d’administrateur ne sont pas requises pour installer le client Teams sur des PC Windows, mais sont requises sur les Mac.
 
 Les professionnels de l’informatique peuvent choisir leur méthode préférée préfèrent pour distribuer les fichiers d’installation sur les ordinateurs de leur organisation. Certains exemples incluent Microsoft Endpoint Configuration Manager (Windows) ou JAMF Pro (macOS). Pour plus d’informations sur la distribution Teams, voir les informations suivantes.
 
@@ -63,9 +63,9 @@ Les professionnels de l’informatique peuvent choisir leur méthode préférée
 
 Teams sur Windows met à disposition des programmes d’installation MSI téléchargeables dans les architectures [32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true), [64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true) et [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true). L’architecture x86 (32 bits et 64 bits) de Teams est agnostique à l’architecture de Windows et d’Office installée. Nous vous recommandons la version 64 bits de Teams sur les systèmes 64 bits.
 
-Teams nécessite .NET Framework 4,5 ou version ultérieure. Si .NET Framework ou version ultérieure n’est pas installée, le programme d’installation Teams proposera de l’installer à votre place.
+Teams requiert .NET Framework 4.5 ou version ultérieure. Si .NET Framework ou version ultérieure n’est pas installée, le programme d’installation teams vous proposera d’installer pour vous.
 
-Le client Windows est déployé dans le dossier AppData situé dans le profil de l’utilisateur. Le déploiement sur le profil local de l’utilisateur permet d’installer le client sans nécessiter de droits élevés. Le client Windows tire parti des emplacements suivants :
+Le client Windows est déployé dans le dossier AppData situé dans le profil utilisateur. Le déploiement sur le profil local des utilisateurs permet d’installer le client sans nécessiter d’autorisations élevées. Le client Windows tire parti des emplacements suivants :
 
 - %LocalAppData%\\Microsoft\\Teams
 
@@ -75,7 +75,7 @@ Le client Windows est déployé dans le dossier AppData situé dans le profil de
 
 - % LocalAppData%\\SquirrelTemp
 
-Lorsque les utilisateurs lancent un appel à l’aide du client Teams pour la première fois, ils peuvent remarquer un avertissement avec les paramètres de pare-feu Windows qui demandent aux utilisateurs d’autoriser la communication. Les utilisateurs peuvent être invités à ignorer ce message, car l’appel fonctionnera, même lorsque l’avertissement est fermé.
+Lorsque les utilisateurs lancent un appel à l’aide du client Teams pour la première fois, ils peuvent remarquer un avertissement avec les paramètres du pare-feu Windows qui demande aux utilisateurs d’autoriser la communication. Les utilisateurs peuvent être invités à ignorer ce message, car l’appel fonctionnera, même lorsque l’avertissement est ignoré.
 
 ![Capture d'écran d'une boîte de dialogue Alerte de sécurité Windows.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
@@ -179,7 +179,7 @@ sudo zypper install teams
 
 ## <a name="mobile-clients"></a>Clients mobiles
 
-Les applications mobiles Teams sont disponibles pour Android et iOS, et sont axées sur les utilisateurs en déplacement qui participent aux conversations instantanées et autorisent les appels audio P2P. Pour les applications mobiles, accédez à Google Play et l’Apple App Store.
+Les applications mobiles Teams sont disponibles pour Android et iOS, et sont destinées aux utilisateurs en déplacement participant à des conversations basées sur des conversations et autorisent les appels audio d’égal à égal. Pour les applications mobiles, accédez aux magasins mobiles appropriés Google Play et à l’Apple App Store.
 
 Les plateformes mobiles prises en charge pour les applications mobiles Teams sont les suivantes :
 
@@ -205,4 +205,4 @@ Le client de navigateur ([https://teams.microsoft.com](https://go.microsoft.com/
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-Le client de navigateur effectue la détection de la version du navigateur lors de la connexion à [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). Si une version de navigateur non prise en charge est détectée, le programme bloque l’accès à l’interface du navigateur et recommande à l’utilisateur de télécharger l’application de client bureau ou mobile.
+Le client du navigateur effectue la détection de version du navigateur lors de la connexion à [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). Si une version de navigateur non prise en charge est détectée, elle bloque l’accès à l’interface du navigateur et recommande à l’utilisateur de télécharger le client de bureau ou l’application mobile.

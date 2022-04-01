@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer des Messagerie vocale infonuagique pour vos utilisateurs.
-ms.openlocfilehash: d78942c5cbfc6af8e921c26c806378b45f480835
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: dd98275ac768990337a47f1f4ba6dacbdb385087
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442320"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592719"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -37,11 +37,11 @@ Messagerie vocale infonuagique dépose les messages vocaux dans la boîte aux le
 
 ## <a name="cloud-voicemail-provisioning"></a>Messagerie vocale infonuagique approvisionnement
 
-Pour Teams utilisateurs, Messagerie vocale infonuagique est automatiquement installé et mis en service. *Une licence Microsoft Teams Téléphone licence de licence n’est pas nécessaire pour Messagerie vocale infonuagique.*
+Pour Teams utilisateurs, Messagerie vocale infonuagique est automatiquement installé et mis en service. *Une licence Téléphonie Microsoft Teams licence de licence n’est pas nécessaire pour Messagerie vocale infonuagique.*
 
 L’approvisionnement Teams utilisateurs est un service autre que pour Skype Entreprise Online. Pour Skype Entreprise Utilisateurs en ligne, Messagerie vocale infonuagique a été automatiquement installé et mis en service lorsque les utilisateurs ont été affectés à une licence Système téléphonique et Voix Entreprise activés par le système de mise en service.
 
-Pour Skype Entreprise Server utilisateurs locaux, une Messagerie vocale infonuagique est automatiquement mise en service. Toutefois, vous devez configurer l’environnement Skype Entreprise Server router les appels vers Messagerie vocale infonuagique. Pour plus d’informations, [voir Planifier Messagerie vocale infonuagique service pour les utilisateurs locaux](/skypeforbusiness/hybrid/plan-cloud-voicemail.md).
+Pour Skype Entreprise Server utilisateurs locaux, une Messagerie vocale infonuagique est automatiquement mise en service. Toutefois, vous devez configurer l’environnement Skype Entreprise Server router les appels vers Messagerie vocale infonuagique. Pour plus d’informations, [voir Planifier Messagerie vocale infonuagique service pour les utilisateurs locaux](/skypeforbusiness/hybrid/plan-cloud-voicemail).
 
 ## <a name="cloud-voicemail-storage"></a>Messagerie vocale infonuagique stockage de données
 
@@ -55,7 +55,7 @@ La boîte Exchange’un utilisateur stocke les messages d’accueil enregistrés
 
 L’enregistrement et la transcription Messagerie vocale infonuagique débutent en Microsoft 365 à l’origine de l’appel acheminé vers Messagerie vocale infonuagique. Le message est ensuite remis dans la boîte aux lettres de l’Exchange’utilisateur.
 
-Par exemple, si un appel est reçu par un utilisateur de routage direct non disponible via un contrôleur de session border controller (SBC) en Europe, l’enregistrement et la transcription de la messagerie vocale sont effectués en Europe. Le message est ensuite remis dans la boîte aux lettres de l’Exchange’utilisateur. Par exemple, supposons qu’un Teams Amérique du Nord appelle un utilisateur non Teams en Europe. Dans ce cas, l’appel démarre en Amérique du Nord, le traitement se produit en Amérique du Nord, puis la messagerie vocale est remis dans la boîte aux lettres de l’Exchange en Europe.
+Par exemple, si un appel est reçu par un utilisateur de routage direct non disponible via un contrôleur de session border controller (SBC) en Europe, l’enregistrement et la transcription de la messagerie vocale sont effectués en Europe. Le message est ensuite remis dans la boîte aux lettres de l’Exchange’utilisateur. Par exemple, supposons qu’un Teams dans Amérique du Nord appelle un utilisateur non Teams en Europe. Dans ce cas, l’appel commence dans Amérique du Nord, le traitement se produit dans Amérique du Nord, puis le message vocal est remis dans la boîte aux lettres Exchange de l’utilisateur en Europe.
 
 La remise d’un message vocal à une boîte aux lettres Exchange’est effectuée à l’aide du protocole SMTP (Simple Mail Transport Protocol) comme n’importe quel autre message électronique.
 
@@ -75,7 +75,7 @@ Vous pouvez également désactiver la Messagerie vocale infonuagique d’un util
 
 Le paramètre par défaut pour tous les utilisateurs provisionés pour Messagerie vocale infonuagique est d’autoriser le routage des appels vers des Messagerie vocale infonuagique et de permettre aux utilisateurs de les Messagerie vocale infonuagique.
 
-Vous pouvez contrôler si le routage des appels vers Messagerie vocale infonuagique est autorisé pour les utilisateurs de Teams en utilisant l'Set-CsTeamsCallingPolicy de commande avec le paramètre AllowVoicemail. Pour plus d’informations,  [voirSet-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy.md).
+Vous pouvez contrôler si le routage des appels vers Messagerie vocale infonuagique est autorisé pour les utilisateurs de Teams en utilisant l'Set-CsTeamsCallingPolicy de commande avec le paramètre AllowVoicemail. Pour plus d’informations,  [voirSet-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
 - Si vous définissez AllowVoicemail sur AlwaysDisabled, les appels ne seront jamais acheminés vers la messagerie vocale, quels que soient les paramètres de réponse ou de réponse d’un utilisateur. La messagerie vocale n’est pas disponible en tant que paramètre de forwardage d’appel ou sans réponse dans Teams.
 
@@ -105,11 +105,11 @@ En Protection des données Microsoft, vous pouvez chiffrer les messages vocaux l
 
 Pour chiffrer le message vocal, vous pouvez créer une étiquette de sensibilité. La fonctionnalité d’étiquetage automatique vous permet de vous assurer que l’étiquette sera appliquée automatiquement aux messages vocaux entrants. 
 
-Lorsque vous activez des messages vocaux protégés, les utilisateurs peuvent écouter les messages vocaux protégés en appelant leur boîte aux lettres vocale ou en ouvrant le message dans Outlook, Outlook sur le web ou Outlook pour Android ou iOS. Les messages vocaux protégés ne peuvent pas être ouverts à l’Microsoft Teams ou Skype de Busimess.
+Lorsque vous activez des messages vocaux protégés, les utilisateurs peuvent écouter les messages vocaux protégés en appelant leur boîte aux lettres vocale ou en ouvrant le message dans Outlook, Outlook sur le web ou Outlook pour Android ou iOS. Les messages vocaux protégés ne peuvent pas être ouverts dans des Microsoft Teams ou Skype Entreprise.
 
 Pour créer une étiquette de sensibilité pour la messagerie vocale, voir [Utiliser des étiquettes de sensibilité](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). Dans la section **Chiffrement** , **sélectionnez Autoriser les utilisateurs à attribuer des autorisations lorsqu’ils appliquent l’étiquette**. **Sélectionnez Dans Outlook, appliquez l’une des restrictions suivantes**, puis sélectionnez l’option Ne **pas** forwarder.
 
-Pour créer la stratégie de mise en service automatique afin d’appliquer une étiquette de confidentialité à la messagerie vocale, consultez comment configurer les stratégies d’étiquetage [automatique et](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) spécifiez les paramètres spécifiques suivants :
+Pour créer la stratégie d’étiquetage automatique afin d’appliquer une étiquette de confidentialité aux messages vocaux, voir Comment configurer des stratégies d’étiquette [automatique et](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) spécifier les paramètres spécifiques suivants :
 
 -   Pour **choisir les informations à appliquer à cette étiquette**, sélectionnez **Stratégie personnalisée**.
 

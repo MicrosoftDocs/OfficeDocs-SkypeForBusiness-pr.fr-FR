@@ -18,18 +18,18 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Découvrez comment appeler, discuter, rechercher, puis ajouter des utilisateurs extérieures à l’organisation dans Microsoft Teams à l’aide de l’accès externe (fédération) et de l’accès invité.
-ms.openlocfilehash: ab6a15edc1aa8d0de6f77b96ed176171ff5d65ae
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: db5d29a9d7afd121c3cecc47aa3ce717bb815f54
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288432"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592739"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Utiliser l’accès invité et l’accès externe pour collaborer avec des personnes extérieures à votre organisation
 
 Lorsque vous avez besoin de communiquer, puis de collaborer avec des personnes extérieures à votre organisation, Microsoft Teams vous propose deux options :
 
-- **Accès externe** : type de fédération qui permet aux utilisateurs de rechercher, d’appeler des personnes d’autres organisations, puis de discuter avec elles. Vous ne pouvez pas ajouter ces personnes à des équipes, sauf en tant qu’invitées.
+- **Accès externe** : type de fédération qui permet aux utilisateurs de rechercher, d’appeler des personnes d’autres organisations, puis de discuter avec elles. Vous ne pouvez pas ajouter ces personnes à une équipe, sauf en tant qu’invitées.
 - **Accès invité** : l’accès invité vous permet d’inviter des personnes extérieures à votre organisation à rejoindre une équipe. Les personnes invitées obtiennent un compte invité dans Azure Active Directory.
 
 Note : Teams vous permet d’inviter des personnes extérieures à votre organisation à des réunions. Cela ne nécessite pas de configuration de l’accès externe ou invité.
@@ -97,7 +97,7 @@ Les tableaux suivants montrent les différences entre l’utilisation de l’acc
 <sup>1</sup> À condition que l’utilisateur ait été ajouté en tant qu’invité et qu’il soit connecté avec le compte invité.<br>
 <sup>2</sup> Uniquement par adresse e-mail ou SIP (Session Initiation Protocol).<br>
 <sup>3</sup> Fonction prise en charge pour la conversation 1:1 entre utilisateurs Teams uniquement de deux organisations différentes. <br>
-<sup>4</sup> Par défaut, les participants externes n’ont pas accès aux numéros de téléphone des participants distants. Si vous voulez conserver la confidentialité de ces numéros de téléphone, sélectionnez **Tonalités** pour le **type d’annonce d’entrée/sortie** (cela permet d’éviter que les numéros soient lus par les équipes). Pour plus d’informations, voir [Activer ou désactiver l’entrée et quitter les annonces pour les réunions dans Microsoft teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
+<sup>4</sup> Par défaut, les participants externes ne peuvent pas voir les numéros de téléphone des participants distants. Si vous voulez conserver la confidentialité de ces numéros de téléphone, sélectionnez **Tonalités** pour le **Type d’annonce d’entrée et de sortie** (cela permet d’éviter la lecture des numéros par Teams). Pour plus d’informations, consultez [Activer ou désactiver les annonces d’entrée et de sortie pour les réunions dans Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
 <sup>5</sup> Fonction autorisée par défaut, mais l’administrateur Teams peut la désactiver
 
 ## <a name="related-topics"></a>Voir aussi
