@@ -16,12 +16,12 @@ f1.keywords:
 description: 'Teams cas de voix pour une entreprise multinationale : système téléphonique'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c83cd07cb8943c19b783658a15db99351d11f995
-ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
+ms.openlocfilehash: abc7c2b3eb8cbbaf98842638526514171a8b23c7
+ms.sourcegitcommit: a77116a0b0fd7e3cf14de694c559338bea198851
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62353369"
+ms.lasthandoff: 04/03/2022
+ms.locfileid: "64628328"
 ---
 # <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Étude de cas Contoso : Système téléphonique pour une entreprise multinationale
 
@@ -38,15 +38,15 @@ Pour implémenter une solution système Téléphone Microsoft pour l’ensemble 
 
 - Système téléphonique forfait d’appels 
 
-- Système téléphonique un opérateur PSTN par le biais du routage direct 
+- Système téléphonique de l’opérateur RSTN via le routage direct 
 
-- Combinaison de Système téléphonique’aide d’un plan d’appels et Système téléphonique de l’opérateur PSTN via un routage direct
+- Combinaison de Système téléphonique’aide d’un plan d’appels Système téléphonique’utilisation d’un opérateur PSTN par le biais d’un routage direct
  
-Pour déterminer la solution appropriée pour leur organisation, Contoso a utilisé planifier votre [solution vocale Teams](/SkypeForBusiness/cloud-voice-landing-page) et la session d’appel Ignite 2019 [Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions).  
+Pour déterminer la solution appropriée pour leur organisation, Contoso a utilisé planifier votre [solution vocale Teams](/microsoftteams/cloud-voice-landing-page) et la session Ignite 2019 [Calling dans Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions).  
 
 ## <a name="site-type-a-skype-for-business-enterprise-voice"></a>Type de site A : Skype Entreprise Voix Entreprise 
 
-Les équipes Skype Entreprise Voix Entreprise Contoso ont été définies comme concentrateurs et ont fait l’affaire. Il y avait un emplacement central qui mainvait la passerelle PSTN dans la région qui fournissait la connexion au réseau PSTN pour les utilisateurs Skype Entreprise Voix Entreprise dans le pays. Bien souvent, ces sites satellitaires ne possèdent pas leur propre sortie Internet. Les numéros pour ces utilisateurs résident sur la ligne SIP qui se connecte à un SBC existant. 
+Les contacts Skype Entreprise Voix Entreprise Contoso ont été configurer en tant que concentrateur et parlent. Il y avait un emplacement central qui mainvait la passerelle PSTN dans la région qui fournissait la connexion au réseau PSTN pour les utilisateurs Skype Entreprise Voix Entreprise dans le pays. Bien souvent, ces sites satellitaires ne possèdent pas leur propre sortie Internet. Les numéros pour ces utilisateurs résident sur la ligne SIP qui se connecte à un SBC existant. 
 
 Pour déterminer si le SBC déjà déployé est certifié pour le routage direct et la dérivation média, Contoso a coché la liste des [contrôleurs de session certifiés pour le routage direct](direct-routing-border-controllers.md).  
 
@@ -95,7 +95,7 @@ En se basant sur les réponses à leurs questions, Contoso a décidé de :
 
 - Déplacez les utilisateurs situés dans une région dans laquelle des plans d’appel PSTN sont disponibles pour les utilisateurs Système téléphonique’offre d’appels. 
 
-- Déplacez les utilisateurs qui ne sont pas situés dans une région où des plans d’appel R SYSTÈME TÉLÉPHONIQUE sont disponibles avec un routage direct. 
+- Déplacer les utilisateurs qui ne sont pas situés dans une région où des plans d’appel R SYSTÈME TÉLÉPHONIQUE sont disponibles avec un routage direct. 
 
 - Tenez à jour une connexion RSTN aux appareils analogiques critiques d’entreprise.
 
@@ -130,7 +130,7 @@ En se basant sur les réponses à leurs questions, Contoso a décidé des soluti
 
 - Pour les utilisateurs téléphoniques hérités qui seront activés pour le routage direct, Contoso a porté les numéros de la ligne TDM vers la ligne SIP pour le SBC, étant donné que le SBC est certifié pour le routage direct. 
 
-- Pour prendre en charge un sous-ensemble d’utilisateurs qui passe à Système téléphonique et autoriser le routage continu via le système hérité, le système de téléphonie hérité a été installé comme le prochain saut vers le SBC.   
+- Pour prendre en charge un sous-ensemble d’utilisateurs qui passe à Système téléphonique et pour permettre un routage continu via le système hérité, le système de téléphonie hérité a été créé comme le prochain saut vers le SBC.   
 
 - En outre, pour encourager le changement de comportement des utilisateurs et supprimer la dépendance vis-à-vis de l’appel d’extension inter et intra-site, Contoso a fourni des conseils pour l’utilisation de Teams pour tous les appels internes.  
 
@@ -198,5 +198,5 @@ Contoso a vu l’opportunité de tirer parti de l’optimisation des médias loc
 
 Contoso avait un nombre d’utilisateurs qui devaient travailler à distance pendant une période prolongée après avoir été activés pour Système téléphonique. Les utilisateurs ont utilisé un réseau VPN pour accéder à certaines applications Métier. Sur un réseau VPN, les Système téléphonique utilisateurs ont connu une dégradation de la qualité des appels. 
 
-Pour résoudre le problème de qualité, Contoso a implémenté la tunnelliser fractionnée VPN, qui permettait à leur trafic Office 365 de traverser Internet alors que la connexion aux applications internes restait sur le VPN. Pour implémenter la tunnelliser fractionnement VPN, Contoso a suivi les recommandations de la tunnelliser fractionnement [VPN pour les utilisateurs Office 365](/office365/enterprise/office-365-vpn-implement-split-tunnel).  
+Pour résoudre le problème de qualité, Contoso a implémenté la tunnelliser fractionnée VPN, qui permettait à leur trafic Office 365 de traverser Internet alors que la connexion aux applications internes restait sur le VPN. Pour implémenter la tunnelliser fractionnement VPN, Contoso a suivi les recommandations de la tunnelliser fractionnement [VPN pour les Office 365](/office365/enterprise/office-365-vpn-implement-split-tunnel).  
 

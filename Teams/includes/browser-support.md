@@ -21,6 +21,6 @@ Teams prend en charge les navigateurs suivants, avec quelques exceptions signal�
 <sup>4</sup> Edge RS2 ou version ultérieure ne prend pas en charge l’envoi de trafic audio et vidéo en temps réel via des proxies HTTP.
 
 > [!NOTE]
-> Tant qu’un système d’exploitation peut exécuter le navigateur pris en charge, Teams est également pris en charge sur des ordinateurs de bureau.. Par exemple, exécuter Firefox sur le système d’exploitation Linux constitue une option pour utiliser Teams.
+> L’exécution de Teams dans un navigateur est prise en charge sur les PC et Mac qui répondent à la [Configuration matérielle minimale requise pour Microsoft Teams](../hardware-requirements-for-the-teams-app.md). Par exemple, exécuter Firefox sur le système d’exploitation Linux constitue une option pour utiliser Teams.
 >
-> En ce qui concerne les systèmes d’exploitation mobiles, nous vous recommandons d’exécuter l’application Teams, disponible dans les magasins Android et iOS. L’exécution de Teams dans un système d’exploitation mobile est prise en charge, mais de nombreuses fonctionnalités ne sont pas disponibles.
+> Pour une expérience optimale, nous vous recommandons d’utiliser l’application Teams lorsque vous être sur un appareil mobile. L’application Teams est disponible dans les magasins Android et iOS. L’exécution de Teams dans un navigateur via des appareils mobiles est prise en charge, mais de nombreuses fonctionnalités ne sont pas disponibles.

@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1737461b1eface3038957a862ab2bcb743ca4615
-  ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+  ms.openlocfilehash: 0a8f7affd933fbe8661609e90fa934a8597e4d3a
+  ms.sourcegitcommit: a77116a0b0fd7e3cf14de694c559338bea198851
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 02/25/2022
-  ms.locfileid: "62960056"
+  ms.lasthandoff: 04/03/2022
+  ms.locfileid: "64628338"
 items:
 - durationInMinutes: 1
   content: >
@@ -67,7 +67,7 @@ items:
     -   Publiez dans la section des commentaires au bas de la page « Étapes suivantes » de ce didacticiel.
 
 
-    Pour nous faire part de vos commentaires sur les Teams, par exemple des idées de nouvelles fonctionnalités, visitez le portail Teams [commentaires.](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)
+    Pour nous faire part de vos commentaires sur Teams fonctionnalités, par exemple des idées de nouvelles fonctionnalités, visitez le portail Teams [commentaires.](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)
 - title: Réunions dans Teams
   durationInMinutes: 16
   content: "\nPour vous familiariser avec les réunions dans Teams, consultez les rubriques suivantes :\n-   « Tenir des réunions » dans [Réunions et appels](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) (temps de lecture estimé : 6 minutes)\n\n-   Vidéo [Conférence maintenant](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf) (1 minute 45)\n\n-   Vidéo [Réunions planifiées](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137) (1 minute 45)\n\n-   [9 conseils pour une réunion avec Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) pour en savoir plus sur la salle d’attente, participer à des réunions de façon anonyme, etc (temps de lecture estimé : 6 minutes)\n"
@@ -113,4 +113,4 @@ items:
         - Suivez le [blog de Teams](https://aka.ms/teamsblog).
         - Lire la [feuille de route de Teams](https://aka.ms/O365Roadmap).
         - Découvrez les dernières fonctionnalités publiées dans les [Notes de publication](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)
-    4.  Explorez [les autres formations et didacticiels](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training).
+    4.  Explorez [les autres formations et didacticiels](/microsoftteams/ITAdmin-readiness#technical-training).

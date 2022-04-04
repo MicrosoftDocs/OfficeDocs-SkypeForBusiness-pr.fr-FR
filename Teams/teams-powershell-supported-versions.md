@@ -12,12 +12,12 @@ ms.collection:
 description: Découvrez les versions prise en charge du module Teams PowerShell, utilisé pour l’administration de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fc980420b53d850c48e680d25bdbf6ec437e8f8
-ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
+ms.openlocfilehash: e292e3ea5659920bca6fe6f663afc53164da5b49
+ms.sourcegitcommit: e3a4df81721abe83886714a7c3c798e4c0888c35
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783964"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "64617705"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams module PowerShell - Versions prise en charge
 
@@ -39,7 +39,7 @@ Les organisations qui n’ont pas utilisé Teams Module PowerShell au cours des 
 
 ## <a name="current-organizations-tpm-active"></a>Organisations actuelles (TPM actives)
 
-Les organisations qui ont utilisé le module Teams PowerShell au cours des trois derniers mois (22 janvier au 22 mars) ne pourront utiliser le module Teams PowerShell de la série 4.x.x ou supérieure qu’à partir du 15 juin 2022. 
+Les organisations qui ont utilisé le module Teams PowerShell au cours des trois derniers mois (22 janvier au 22 mars) ne pourront utiliser le module Teams PowerShell de la série 4.x.x ou supérieure qu’à partir du 15 juin 2022. Message center post for reference - MC350371. 
 
 
 
@@ -62,9 +62,11 @@ Les organisations qui ont utilisé le module Teams PowerShell au cours des trois
 
   * Modifications apportées à l’affectation Téléphone de numéro : plus de [détails dans Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstanceSet-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) &  (Message center post – MC316139)[](/powershell/module/skype/set-csonlinevoiceapplicationinstance)
 
+  * Deprecation de Get-CsOnlineDirectoryTenant – plus de [détails dans Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant) (publication du Centre de messages – MC346902).
 
 
-## <a name="related-topics"></a>Sujets associés
+
+## <a name="related-topics"></a>Voir aussi
 
 [Teams notes de publication de PowerShell](teams-powershell-release-notes.md)
 
