@@ -1,5 +1,5 @@
 ---
-title: Gérer les stratégies générales de réunion
+title: Gérer les stratégies d’assemblée générale
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,44 +18,45 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
-description: Découvrez comment gérer les paramètres généraux de stratégie de réunion dans Teams.
-ms.openlocfilehash: 1bf4958f74a95775d6d34c87ea6d7d65262530e4
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+description: Découvrez comment gérer les paramètres de stratégie d’assemblée générale dans Teams.
+ms.openlocfilehash: 2582327261e52f1d834cd3b368c79aa55ca7f103
+ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191475"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64686341"
 ---
 # <a name="meeting-policy-settings---general"></a>Paramètres de stratégie de réunion : général
 
 <a name="bkgeneral"> </a>
 
-Cet article décrit les paramètres de stratégie générale suivants pour Teams réunions :
+Cet article décrit les paramètres de stratégie généraux suivants pour Teams réunions :
 
-- [Se réunir maintenant dans des canaux](#meet-now-in-channels)
-- [Outlook-in](#outlook-add-in)
+- [Se rencontrer maintenant dans les canaux](#meet-now-in-channels)
+- [complément Outlook](#outlook-add-in)
 - [Planification des réunions de canal](#channel-meeting-scheduling)
 - [Planification de réunions privées](#private-meeting-scheduling)
 - [Se réunir maintenant dans des réunions privées](#meet-now-in-private-meetings)
-- [Mode de rôle de présentateur désigné](#designated-presenter-role-mode)
+- [Mode de rôle présentateur désigné](#designated-presenter-role-mode)
 - [Rapport d’engagement](#engagement-report)
-- [Inscription à une réunion](#meeting-registration)
-- [Qui pouvez vous inscrire](#who-can-register)
-- [Fournisseur de réunion pour le mode Islands](#meeting-provider-for-islands-mode)
+- [Inscription à la réunion](#meeting-registration)
+- [Qui peut s’inscrire](#who-can-register)
+- [Fournisseur de réunions pour le mode Îles](#meeting-provider-for-islands-mode)
+- [Coach de l’orateur](#speaker-coach)
 
-## <a name="meet-now-in-channels"></a>Se réunir maintenant dans des canaux
+## <a name="meet-now-in-channels"></a>Se rencontrer maintenant dans les canaux
 
-Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre contrôle si un utilisateur peut démarrer une réunion ad hoc dans Teams canal. Si vous l’activer, les  utilisateurs peuvent cliquer sur le bouton Réunion pour démarrer une réunion ad hoc ou planifier une réunion dans le canal. La valeur par défaut est True.
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre contrôle si un utilisateur peut démarrer une réunion ad hoc dans un canal Teams. Si vous **activez** cette option, les utilisateurs peuvent cliquer sur le bouton Réunion pour démarrer une réunion ad hoc ou planifier une réunion dans le canal. La valeur par défaut est True.
 
-[![Capture d’écran montrant l’icône Rencontrer maintenant sous un message. ](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
+[![Capture d’écran montrant l’icône Réunion maintenant sous un message.](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
 
-## <a name="outlook-add-in"></a>Outlook-in
+## <a name="outlook-add-in"></a>complément Outlook
 
 Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les réunions Teams peuvent être planifiées à partir d’Outlook (Windows, Mac, web et mobile).
 
 ![Capture d’écran montrant la possibilité de planifier une nouvelle réunion.](media/meeting-policies-outlook-add-in.png)
 
-Si vous la désactiver, les utilisateurs ne peuvent pas planifier Teams réunion lorsqu’ils créent une réunion dans Outlook. Par exemple, dans Outlook sur Windows, l’option **Nouvelle réunion Teams** ne s’affiche pas dans le ruban.
+Si vous désactivez cette option, les utilisateurs ne peuvent pas planifier Teams réunions lorsqu’ils créent une réunion dans Outlook. Par exemple, dans Outlook sur Windows, l’option **Nouvelle réunion Teams** ne s’affiche pas dans le ruban.
 
 ## <a name="channel-meeting-scheduling"></a>Planification des réunions de canal
 
@@ -65,26 +66,26 @@ Si cette stratégie est désactivée, les utilisateurs ne pourront pas créer de
 
 L’option Planifier une réunion sera désactivée.
 
-![Capture d’écran montrant l’option Planifier une réunion Teams.](media/schedule-meeting-option.png)
+![Capture d’écran montrant l’option Planifier une réunion dans Teams.](media/schedule-meeting-option.png)
 
 La sélection de canal est désactivée.
 
-[![Capture d’écran montrant l’option de calendrier pour sélectionner un canal dans qui vous voulez planifier une réunion. ](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
+[![Capture d’écran montrant l’option calendrier permettant de sélectionner un canal dans lequel vous souhaitez planifier une réunion.](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
-Dans la page de billets du canal, les messages suivants sont désactivés :
+Dans la page des billets de canal, les éléments suivants sont désactivés :
 
 - Bouton **Planifier une réunion** dans la zone composer une réponse du canal.
-  ![Capture d’écran montrant l’option de calendrier pour sélectionner un canal dans lequel vous voulez planifier une réunion.](media/schedule-meeting-disabled-in-chat2.png)
+  ![Capture d’écran montrant l’option calendrier permettant de sélectionner un canal dans lequel vous souhaitez planifier une réunion.](media/schedule-meeting-disabled-in-chat2.png)
   
 - Bouton **planifier une réunion** sur l’en-tête de canal.
-  ![Capture d’écran montrant l’option de calendrier pour sélectionner un canal par lequel vous voulez planifier une réunion.](media/schedule-now-in-header.png)
+  ![Capture d’écran montrant l’option calendrier permettant de sélectionner un canal par le biais duquel vous souhaitez planifier une réunion.](media/schedule-now-in-header.png)
 
 Dans le calendrier de canal :
 
 - Le bouton **Ajouter un événement** dans l’en-tête du calendrier est désactivé.
-  ![Capture d’écran montrant l’option de calendrier permettant de sélectionner un canal qui vous permet de planifier une réunion.](media/add-new-event-disabled.png)
+  ![Capture d’écran montrant l’option calendrier permettant de sélectionner un canal qui vous permettra de planifier une réunion.](media/add-new-event-disabled.png)
 
-- Les utilisateurs ne peuvent pas faire glisser et sélectionner un bloc de temps dans le calendrier du canal pour créer une réunion de canal.
+- Les utilisateurs ne pourront pas faire glisser et sélectionner un bloc de temps dans le calendrier du canal pour créer une réunion de canal.
 
 - Les utilisateurs ne peuvent pas utiliser les raccourcis clavier pour créer une réunion dans le calendrier du canal.
 
@@ -92,7 +93,7 @@ Dans le centre d’administration :
 
 L’application Calendrier du canal s’affiche dans la section **Applications Microsoft** sur la page stratégies d’autorisation d’application.
 
-![Capture d’écran montrant la stratégie d’autorisations d’application dans Teams centre d’administration.](media/manage-microsoft-apps-policy.png)
+![Capture d’écran montrant la stratégie d’autorisations d’application dans le centre d’administration Teams.](media/manage-microsoft-apps-policy.png)
 
 ## <a name="private-meeting-scheduling"></a>Planification de réunions privées
 
@@ -102,9 +103,9 @@ Notez que si vous désactivez **Autoriser la planification des réunions privée
 
 ## <a name="meet-now-in-private-meetings"></a>Se réunir maintenant dans des réunions privées
 
-Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre contrôle si un utilisateur peut commencer une réunion privée ad hoc.  Par défaut, ce paramètre est activé.
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre contrôle si un utilisateur peut démarrer une réunion privée ad hoc.  Par défaut, ce paramètre est activé.
 
-## <a name="designated-presenter-role-mode"></a>Mode de rôle de présentateur désigné
+## <a name="designated-presenter-role-mode"></a>Mode de rôle présentateur désigné
 
 Il s’agit d’une stratégie par utilisateur. Ce paramètre vous permet de modifier la valeur par défaut du paramètre **Qui peut présenter ?** dans **Options de réunion** dans le client Teams. Ce paramètre de stratégie affecte toutes les réunions, y compris les réunions Conférence maintenant.
 
@@ -124,47 +125,47 @@ Gardez à l’esprit qu’une fois que vous avez défini la valeur par défaut, 
 
 Il s’agit d’une stratégie par utilisateur. Ce paramètre permet de contrôler si les organisateurs de réunion peuvent télécharger le [Rapport de participation aux réunions](teams-analytics-and-reports/meeting-attendance-report.md).
 
-Cette stratégie est mise en place par défaut et permet aux organisateurs de voir qui a inscrit et participé aux réunions et webinaires qu’ils ont créés. Pour le désactiver dans le centre d Teams réunion, allez dans **Stratégies** de réunion, puis définissez le paramètre du rapport  >   **Engagement** sur **Désactiver.**
+Cette stratégie est activée par défaut et permet à vos organisateurs de voir qui a inscrit et participé aux réunions et aux webinaires qu’ils ont configurés. Pour la désactiver dans le centre d’administration Teams, accédez aux **stratégies MeetingsMeeting** >  et définissez le paramètre du **rapport Engagement** sur **Désactivé**.
 
-Vous pouvez également modifier une stratégie de réunion Teams à l’aide de l’cmdlet [Set-CsTeamsMeetingPolicy.](/powershell/module/skype/set-csteamsmeetingpolicy) Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
+Vous pouvez également modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
 
-Par défaut, **le paramètre AllowEngagementReport** est activé **dans** PowerShell. Pour empêcher l’organisateur de la réunion de télécharger le rapport de présence de réunion, définissez le paramètre **AllowEngagementReport** **sur Désactivé.**
+Par défaut, le paramètre **AllowEngagementReport** est défini sur **Activé** dans PowerShell. Pour empêcher un organisateur de réunion de télécharger le rapport de participation à la réunion, définissez le paramètre **AllowEngagementReport** sur **Désactivé**.
 
-Lorsque cette stratégie est activée, l’option de téléchargement du rapport de présence aux réunions s’affiche dans le **volet Participants.**
+Lorsque cette stratégie est activée, l’option permettant de télécharger le rapport de participation aux réunions s’affiche dans le volet **Participants** .
 
 > [!NOTE]
-> En tant qu’administrateur, vous ne pouvez pas afficher le rapport de présence pour les réunions que vous n’organisez pas. Toutefois, vous pouvez afficher les détails des participants pour une réunion donnée dans les 24 heures de cette réunion. Dans le centre Teams d’administration, allez à **Utilisateurs**  >  **Gérer les utilisateurs.** Choisissez le nom d’affichage de l’organisateur de la réunion. Sélectionnez **l’onglet & des** appels, puis choisissez l’ID de réunion ou d’appel approprié. Sélectionnez ensuite **Détails du participant.**
+> En tant qu’administrateur, vous ne pouvez pas afficher le rapport de présence pour les réunions que vous n’organisez pas. Toutefois, vous pouvez afficher les détails des participants pour une réunion donnée dans les 24 heures suivant cette réunion. Dans le centre d’administration Teams, accédez aux **utilisateurs UsersManage** > . Choisissez le nom complet de l’organisateur de la réunion. Sélectionnez l’onglet **Réunions & appels** , puis choisissez l’ID de réunion ou l’ID d’appel approprié. Ensuite, sélectionnez **Détails du participant**.
 
-Pour plus d’informations, notamment sur les limites du rapport d’engagement, consultez et téléchargez les rapports de présence aux réunions [dans Teams.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)
+Pour plus d’informations, notamment les limites du rapport d’engagement, consultez [et téléchargez les rapports de participation aux réunions dans Teams](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
 
-## <a name="meeting-registration"></a>Inscription à une réunion
+## <a name="meeting-registration"></a>Inscription à la réunion
 
-Il s’agit d’une stratégie par utilisateur. Si vous l’activer, les utilisateurs de votre organisation peuvent configurer des webinaires. Cette stratégie est activée par défaut.
+Il s’agit d’une stratégie par utilisateur. Si vous activez cette option, les utilisateurs de votre organisation peuvent configurer des webinaires. Cette stratégie est activée par défaut.
 
-Pour modifier cette stratégie dans le centre Teams’administration, voir **Stratégies**  >  **de réunion.** Pour désactiver l’inscription à une réunion, définissez la stratégie sur **Désactiver.**
-
-Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
-
-Pour activer l’inscription à une réunion, définissez le **paramètre MeetingRegistration** sur **True.** Cette option est définie par défaut sur **True.**
-
-Pour désactiver l’inscription aux réunions et empêcher les utilisateurs de planifier des webinaires, définissez le paramètre sur **False.**
-
-## <a name="who-can-register"></a>Qui pouvez vous inscrire
-
-Cette stratégie contrôle les utilisateurs qui peuvent s’inscrire et participer à des webinaires. Cette stratégie présente deux options, qui ne sont disponibles que si **l’enregistrement** de réunion est désactivé.
-
-- Définissez **Qui** peuvent s’inscrire à Tout le monde si vous voulez autoriser tout le monde, y compris les utilisateurs anonymes, à s’inscrire et à participer à des webinaires que les utilisateurs de votre organisation ont créés. 
-- Définissez Qui peuvent  **s’inscrire** à tous les membres de l’organisation si vous voulez autoriser uniquement les utilisateurs de votre organisation à s’inscrire et à participer à des webinaires.
-
-Par défaut, **la Qui peut s’inscrire** est définie sur **Tout le monde.** Pour modifier cette stratégie dans le centre Teams’administration, voir **Stratégies**  >  **de réunion.**
+Pour modifier cette stratégie dans le centre d’administration Teams, accédez aux stratégies **MeetingsMeeting** > . Pour désactiver l’inscription à la réunion, **définissez** la stratégie sur Désactivé.
 
 Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
 
-Pour autoriser tout le monde, y compris les utilisateurs anonymes, à s’inscrire et à participer à des webinaires, définissez le paramètre **WhoCanRegister** sur **Tout le monde.** Cette option est définie par défaut sur **Tout** le monde.
+Pour activer l’inscription de réunion, définissez le paramètre  **MeetingRegistration** sur **True**. Cette valeur est définie sur **True** par défaut.
 
-Pour autoriser uniquement les utilisateurs de votre organisation à s’inscrire et à participer à des webinaires, définissez le paramètre **sur EveryoneInCompany.**
+Pour désactiver l’inscription de réunion et empêcher les utilisateurs de planifier des webinaires, définissez le paramètre sur **False**.
 
-## <a name="meeting-provider-for-islands-mode"></a>Fournisseur de réunion pour le mode Islands
+## <a name="who-can-register"></a>Qui peut s’inscrire
+
+Cette stratégie contrôle les utilisateurs qui peuvent s’inscrire et participer à des webinaires. Cette stratégie comporte deux options, qui sont disponibles uniquement si **l’inscription à la réunion** est activée.
+
+- Définissez **Qui pouvez vous inscrire auprès** de **Tout le monde** si vous souhaitez autoriser tout le monde, y compris les utilisateurs anonymes, à inscrire et à participer aux webinaires que les utilisateurs de votre organisation ont configurés.
+- Définissez **Qui pouvez vous inscrire auprès** de **Tout le monde dans l’organisation** si vous souhaitez autoriser uniquement les utilisateurs de votre organisation à s’inscrire et à participer aux webinaires.
+
+Par défaut, **Qui pouvez s’inscrire** est défini sur **Tout le monde**. Pour modifier cette stratégie dans le centre d’administration Teams, accédez aux stratégies **MeetingsMeeting** > .
+
+Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
+
+Pour permettre à tout le monde, y compris aux utilisateurs anonymes, d’inscrire et d’assister à des webinaires, définissez le paramètre **WhoCanRegister** sur **Tout le monde**. Cette valeur est définie sur **Tout le monde** par défaut.
+
+Pour autoriser uniquement les utilisateurs de votre organisation à s’inscrire et à participer à des webinaires, définissez le paramètre sur **EveryoneInCompany**.
+
+## <a name="meeting-provider-for-islands-mode"></a>Fournisseur de réunions pour le mode Îles
 
 Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine quel complément de réunion Outlook est utilisé pour *les utilisateurs en mode îles*. Vous pouvez spécifier si les utilisateurs peuvent utiliser uniquement le complément réunion Teams ou les deux compléments réunion et Skype® Entreprise pour planifier des réunions dans Outlook.
 
@@ -185,6 +186,16 @@ Le paramètre AllowMeetingReactions ne peut être appliqué qu’avec PowerShell
 
 Les réactions pendant les réunions sont désactivées par défaut. La désactivation des réactions pour un utilisateur ne signifie pas qu’il ne peut pas utiliser les réactions dans les réunions qu’il planifie. L’organisateur de la réunion peut toujours activer les réactions à partir de la page des options de réunion, quel que soit le paramètre par défaut.
 
+## <a name="speaker-coach"></a>Coach de l’orateur
+
+Ce paramètre permet aux utilisateurs d’activer Speaker Coach lors d’une réunion Teams. Speaker Coach écoute l’audio de l’utilisateur pendant qu’il présente et fournit des commentaires en temps réel privés et des suggestions d’amélioration. L’utilisateur obtient également un rapport récapitulatif de ses commentaires après la réunion.
+
+> [!NOTE]
+> L’utilisateur qui a activé l’entraîneur de l’orateur pendant la réunion est le seul à pouvoir voir le rapport récapitulatif des commentaires. Les administrateurs n’ont accès à aucune de ces données.
+
+Actuellement, vous ne pouvez définir et modifier cette stratégie que dans PowerShell. à l’aide de l’applet de commande [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
+
+Ce paramètre est activé par défaut. Pour la désactiver, définissez **AllowMeetingCoach** sur **False**.
 
 ## <a name="related-topics"></a>Sujets associés
 

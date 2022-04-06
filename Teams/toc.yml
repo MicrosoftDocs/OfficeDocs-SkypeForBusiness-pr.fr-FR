@@ -969,6 +969,8 @@ items:
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
       - name: Forfait d’appels et routage
         items:
+          - name: Présentation
+            href: dial-plans-routing-overview.md
           - name: Que sont les plans de numérotation ?
             href: what-are-dial-plans.md
           - name: Créer et gérer les plans de numérotation
