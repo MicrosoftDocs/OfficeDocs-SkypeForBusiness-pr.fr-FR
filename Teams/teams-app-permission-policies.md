@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 35246d03fb7611971bd846370413ca0580397647
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
+ms.openlocfilehash: e4a09c92fad10f91abad697a92764429deed3bf8
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64457047"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64643078"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gérer les stratégies d’autorisation d’application dans Microsoft Teams
 
@@ -89,9 +89,12 @@ Vous pouvez utiliser le Centre Teams d’administration pour modifier une strat�
 
 Dans le cadre d’un déploiement Microsoft 365 Government - GCCH et DoD de Teams, il est important de connaître les informations suivantes sur les paramètres des applications tierces, qui sont propres à GCCH et DoD.
 
-Dans GCCH et DoD, toutes les applications tierces sont bloquées par défaut. En outre, vous trouverez la note suivante sur la gestion des applications tierces sur la page des stratégies de permission des applications dans le Centre d'administration de Microsoft Teams.
+Dans le GCC, toutes les applications tierces sont bloquées par défaut. En outre, vous trouverez la note suivante sur la gestion des applications tierces sur la page des stratégies de permission des applications dans le Centre d'administration de Microsoft Teams.
 
-![Capture d’écran de la stratégie d’autorisation d’application dans GCCH et DoD.](media/app-permission-policies-gcc.png)
+:::image type="content" source="media/app-permission-policies-gcc-trimmed.png" alt-text="Capture d’écran de la stratégie d’autorisation d’application dans GCCH et DoD." lightbox="media/app-permission-policies-gcc.png":::
+
+> [!NOTE]
+> Dans CLOUD GCCH et DOD, les applications tierces ne sont pas disponibles.
 
 Utilisez les paramètres de l’application à l’échelle de l’organisation pour contrôler si les utilisateurs peuvent installer des applications tierces. Les paramètres de l’application à l’échelle de l’organisation contrôlent le comportement de tous les utilisateurs et remplacent les autres stratégies d’autorisation d’application attribuées à des utilisateurs. Vous pouvez les utiliser pour contrôler des applications malveillantes ou problématiques.
 

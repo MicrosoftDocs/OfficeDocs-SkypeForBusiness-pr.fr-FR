@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: 294bbac570d1f1741449c7c81cb9389b20cdcdc6
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
-ms.translationtype: HT
+ms.openlocfilehash: 10afbcc30404122e9e4d497570bf0b69e4ef6fa7
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62960026"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642918"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -70,7 +70,7 @@ Dans la mesure où les stratégies à l’échelle de l’organisation et par or
 
 Toute autre combinaison de valeurs empêche les utilisateurs anonymes de rejoindre des réunions.
 > [!NOTE]
-> Pour utiliser la stratégie par organisateur pour les organisations dont la participation anonyme est désactivée par organisation, les administrateurs doivent créer une stratégie, puis l’affecter aux utilisateurs. Pour savoir comment procéder, consultez [Gérer les stratégies de réunion dans Microsoft Teams](/microsoftteams/meeting-policies-overview).
+> Pour en savoir plus sur la gestion des stratégies de réunion, voir [Gérer les stratégies de réunion dans Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 ### <a name="blocking-anonymous-join-for-specific-client-types"></a>Blocage de la jointure anonyme pour des types de clients spécifiques
 

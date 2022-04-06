@@ -1,5 +1,5 @@
 ---
-title: "Rapport d’utilisation de Microsoft\_Teams"
+title: Rapport d’utilisation de Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,15 +8,21 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: kojika
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 description: Découvrez comment utiliser le rapport utilisation Teams dans le centre d’administration de Microsoft Teams pour obtenir une vue d’ensemble de l’activité des équipes dans votre organisation.
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: bf9e609dbd1cf53eef6b94733eacb168855c5f97
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642958"
 ---
 # <a name="microsoft-teams-usage-report"></a>Rapport d’utilisation de Microsoft Teams
 
@@ -24,20 +30,20 @@ Le rapport de l’utilisation Teams dans le centre d’administration de Microso
 
 ## <a name="view-the-usage-report"></a>Afficher le rapport d’utilisation
 
-1. Dans la barre de navigation gauche du centre Microsoft Teams d’administration, cliquez sur **Analyse & rapports d’utilisation** >  **des rapports**. Sous **l’onglet Afficher les** rapports, sous **Rapport**, sélectionnez **Teams’utilisation.**
+1. Dans la barre de navigation gauche du Microsoft Teams d’administration, cliquez sur **Analyse & rapports d’utilisation** >  **des rapports**. Dans **l’onglet Afficher les** rapports, sous **Rapport**, sélectionnez **Teams’utilisation.**
 2. Dans **Plage de dates**, sélectionnez une plage puis cliquez sur **Exécuter le rapport**.
 
-    ![Capture d’écran Teams rapport d’utilisation de l’Teams dans le Centre d’administration avec des appels.](../media/teams-reports-teams-usage-with-callouts1.png "Capture d’écran du Teams d’utilisation de l’ordinateur dans Teams d’administration avec des appels")
+    ![Capture d’écran Teams rapport d’utilisation de l’Teams dans le Centre d’administration avec des appels.](../media/teams-reports-teams-usage-with-callouts1.png "Capture d’écran du Teams’utilisation de l’ordinateur dans Teams d’administration avec des appels")
 
 ## <a name="interpret-the-report"></a>Interpréter le rapport
 
 |Légende |Description  |
 |--------|-------------|
-|**1**   |Le Teams de l’activité de l’utilisation peut être pris en compte pour les tendances des 7, 30 ou 90 derniers jours. |
+|**1**   |Le Teams de l’activité sur l’utilisation peut être pris en compte pour les tendances des 7, 30 ou 90 derniers jours. |
 |**2**   |Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence de 24 à 48 heures par rapport à l’heure de l’activité. |
 |**3**   |<ul><li>L’axe X représente la plage de dates sélectionnée pour ce rapport.</li> <li> L’axe Y indique le nombre d’éléments ou activités actif(ve)s.</li> </ul>Pointez sur le point représentant un élément ou une activité à une date donnée pour voir le nombre d’instances de cet élément ou activité à cette date.|
 |**4**   |Vous pouvez filtrer ce qui est affiché dans le tableau en cliquant sur un élément dans la légende. Par exemple, cliquez sur **Nombre total** d’utilisateurs actifs, Teams & **canaux** **actifs, canaux** actifs ou **messages** pour voir uniquement les informations liées à chacun d’eux. La modification de cette sélection ne modifie pas les informations du tableau lui-même. |
-|**5**   |Le tableau présente une répartition de l’utilisation par équipe. <ul><li>**Le nom d’équipe** est le nom d’affichage de l’équipe. Vous pouvez cliquer sur le nom de l’équipe pour aller à la page des paramètres de l’équipe dans le Microsoft Teams d’administration. </li> <li>**Confidentialité** indique si l’équipe est une équipe privée ou publique.</li> <li>**Utilisateurs actifs** correspond au nombre d’utilisateurs actifs dans l’équipe pour la période spécifiée.</li><li>**Invités** correspond au nombre d’invités dans l’équipe pour la période spécifiée.</li> <li>**Les canaux actifs** sont le nombre de canaux qui ont au moins un utilisateur actif au cours de la période spécifiée.</li> <li>**Publier des messages** est le nombre de messages publiés dans les canaux pour la période spécifiée.</li> <li>**Les messages de** réponse sont le nombre de messages de réponse dans les canaux pour la période spécifiée.</li> <li>**Les réunions organisées** sont le nombre de réunions programmées et ad hoc organisées par l’utilisateur pendant la période spécifiée. </li><li>**Les messages urgents** sont le nombre de messages urgents pour la période spécifiée.</li><li>**Les réactions** sont le nombre de réactions aux messages au cours de la période spécifiée.</li><li>**Mentions** indique le nombre de mentions utilisées dans les messages au cours de la période spécifiée.</li><li>**Les messages de** canal sont le nombre de messages uniques que les utilisateurs de l’équipe ont publiés dans les conversations d’équipe pendant la période spécifiée.</li> </li> </ul>Notez que si un compte d’utilisateur n’existe plus dans Azure AD, le nom d’utilisateur s’affiche en tant que « - » dans le tableau. <br><br>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
+|**5**   |Le tableau présente une répartition de l’utilisation par équipe. <ul><li>**Le nom d’équipe** est le nom d’affichage de l’équipe. Vous pouvez cliquer sur le nom de l’équipe pour aller à la page des paramètres de l’équipe dans le Microsoft Teams d’administration. </li> <li>**Confidentialité** indique si l’équipe est une équipe privée ou publique.</li> <li>**Utilisateurs actifs** correspond au nombre d’utilisateurs actifs dans l’équipe pour la période spécifiée.</li><li>**Invités** correspond au nombre d’invités dans l’équipe pour la période spécifiée.</li> <li>**Les canaux actifs** sont le nombre de canaux qui ont au moins un utilisateur actif au cours de la période spécifiée.</li> <li>**Publier des messages** est le nombre de messages publiés dans les canaux pour la période spécifiée.</li> <li>**Les messages de** réponse sont le nombre de messages de réponse dans les canaux pour la période spécifiée.</li> <li>**Les réunions organisées** sont le nombre de réunions programmées et ad hoc organisées par l’utilisateur pendant la période spécifiée. </li><li>**Les messages urgents** sont le nombre de messages urgents pour la période spécifiée.</li><li>**Les réactions** sont le nombre de réactions aux messages au cours de la période spécifiée.</li><li>**Mentions** indique le nombre de mentions utilisées dans les messages au cours de la période spécifiée.</li><li>**Les messages de** canal sont le nombre de messages uniques que les utilisateurs de l’équipe ont publiés dans les conversations d’équipe pendant la période spécifiée.</li> </li> </ul>Notez que si une équipe n’existe plus, le nom s’affiche en tant que « - » dans la table. <br><br>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
 |**6**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau.|
 |**7**   |Vous pouvez exporter le rapport dans un fichier CSV à des fin d’analyse en mode hors connexion. Cliquez **sur Exporter vers Excel**, puis sous l’onglet **Téléchargements**, cliquez sur Télécharger  pour télécharger le rapport lorsqu’il est prêt.<br><br>![Capture d’écran de l’onglet Téléchargements affichant les rapports exportés à télécharger.](../media/teams-reports-export-to-csv.png)|
 |**8** |Les points de données de série de temps dans le graphique montrent différentes mesures d’utilisation agrégées au client|
@@ -45,6 +51,6 @@ Le rapport de l’utilisation Teams dans le centre d’administration de Microso
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Analyses et rapports Teams](teams-reporting-reference.md)

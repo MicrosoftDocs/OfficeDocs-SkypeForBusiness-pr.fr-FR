@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Cet article fournit des conseils sur l’utilisation des panneaux Teams panneaux.
-ms.openlocfilehash: e39b54d290ac3c8d4809f9da011c2e28451c2ae7
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 2928bb64881cad5fb5c6615d26767e963f725dcd
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062538"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64643038"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Utilisation de panneaux Microsoft Teams panneaux
 
@@ -33,7 +33,7 @@ Cet article fournit des conseils, tant aux utilisateurs finaux qu’aux administ
 
 Pour une vue d’ensemble des périphériques en panneaux et pour obtenir des instructions sur la façon de les planifier, de les livrer et de les gérer dans votre organisation, voir Déployer [Microsoft Teams panneaux](teams-panels.md).
 
-Pour un démarrage rapide, consultez la mise en Teams [panneaux](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be).
+Pour un démarrage rapide, découvrez les [Démarrage’Teams panneaux](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be).
 
 ## <a name="teams-panels-end-user-experience"></a>Teams panneaux expérience utilisateur final
 
@@ -158,7 +158,7 @@ Pour afficher ou mettre à jour un paramètre d’appareil :
 
 ## <a name="teams-panels-admin-experience"></a>Teams’administration des panneaux
 
-Si vous êtes l’administrateur du Teams de [ressources du panneau](teams-panels.md\#resource-account-provisioning), vous êtes également l’administrateur de **l’application Panel** sur l’appareil. En tant **qu’administrateur** de l’application Panneaux, vous pouvez gérer toutes les fonctions mentionnées dans [la section expérience](#teams-panels-end-user-experience) utilisateur final, en plus  de gérer les paramètres de l’application Panneaux sur l’appareil.
+Si vous êtes l’administrateur du écran Teams des ressources, vous êtes également [l’administrateur](teams-panels.md\#resource-account-provisioning) de **l’application Panneaux** sur l’appareil. En tant **qu’administrateur** de l’application Panneaux, vous pouvez gérer toutes les fonctions mentionnées dans [la section expérience](#teams-panels-end-user-experience) utilisateur final, en plus  de gérer les paramètres de l’application Panneaux sur l’appareil.
 
 Les appareils de vos panneaux offrent deux types de paramètres d’administration. Vous devez être administrateur d’appareil pour accéder aux paramètres d’administration disponibles. Les utilisateurs finaux ne peuvent pas accéder à ces paramètres.
 
@@ -192,9 +192,11 @@ Pour accéder à **l’option d** Paramètres de l’application Panneaux :
     - [Papier peint](#update-the-wallpaper)
     - [Indicateur LED](#change-the-busy-state-led-color)
 
-#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Coupler un panneau Teams panneau avec une salle Microsoft Teams sur Android
+#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Coupler un écran Teams avec une salle Microsoft Teams sur Android
 
-Dans le panneau Teams, connectez-vous à l’aide de vos informations d’identification d’administrateur.  
+Pour coupler un écran Teams et Teams Salle sur Android, les deux appareils doivent être connectés au même compte de ressource.
+
+Sur le écran Teams, connectez-vous à l’aide de vos informations d’identification d’administrateur.
 
 1. Go to **Paramètres > Device Paramètres > Admin Paramètres > Panels App Paramètres > Meetings > Device Pairing.**
 
@@ -208,6 +210,24 @@ Lorsque Teams panneaux est couplé avec une salle Microsoft Teams sur Android, l
 
 Pour activer l’enregistrement et la publication de salles, consultez l’enregistrement et la publication des salles [sur Microsoft Teams panneaux](check-in-and-room-release.md).
 
+#### <a name="room-capacity-warning"></a>Avertissement sur la capacité des salles
+
+Teams panneaux couplés à une salle Teams sur Android peuvent afficher un message d’avertissement lorsqu’une salle de réunion a la capacité maximale ou maximale. Pour utiliser cette fonctionnalité, la salle Teams doit être dispose d’une caméra qui prend en charge le comptage de personnes. salles Teams sur Android prendre en charge les avertissements de capacité des salles sans écran Teams.
+
+Les avertissements de capacité des salles sont désactivés par défaut. Pour activer le paramètre à partir de la écran Teams, couplez d’abord une écran Teams [à une salle Microsoft Teams sur Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). Le panneau et Teams de réunion doivent être signés dans le même compte de ressource.
+
+ Ensuite, allez à la **Paramètres > paramètres de l’appareil > d’administration et > d’application du Panneau d’administration**. Ensuite, sous **Réunions**, activer la notification de occupation de salle **maximale**.
+
+#### <a name="view-room-equipment"></a>Afficher l’équipement des salles
+
+Lorsque cette fonctionnalité est désactivée, les utilisateurs finaux peuvent voir l’équipement disponible dans un espace sur une écran Teams.
+
+Cette fonctionnalité est off par défaut et peut être activée par appareil. Pour l’activer, utilisez [Set-Place](/powershell/module/exchange/set-place?view=exchange-ps) dans PowerShell pour `AudioDeviceName``DisplayDeviceName`configurer les noms d’affichage pour , `VideoDeviceName`, et `Tags``IsWheelChairAccessible`.
+
+Vous pouvez également activer cette fonctionnalité dans le Exchange d’administration. Pour [plus d’informations, voir](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) Modifier une ressource.
+
+
+
 #### <a name="update-the-wallpaper"></a>Mettre à jour le papier peint
 
 Modifier l’image de papier peint de l’écran d’accueil.
@@ -216,7 +236,7 @@ Modifier l’image de papier peint de l’écran d’accueil.
 2. Appuyez **sur Papier peint**.
 3. Dans **Choisir votre image, sélectionnez** une image à définir comme image d’arrière-plan de l’écran d’accueil. Afficher un aperçu de l’image sélectionnée sous **Arrière-plan**.
 :::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="Cette capture d’écran affiche l’écran des paramètres de papier peint.":::
-4. Revenir à l’écran d’accueil et vérifier que le papier peint est mis à jour.
+4. Retour’écran d’accueil et vérifiez que le papier peint est mis à jour.
 
 #### <a name="change-the-busy-state-led-color"></a>Modifier la couleur LED de l’état occupé
 
@@ -226,7 +246,7 @@ Les administrateurs peuvent choisir la couleur rouge ou violette comme couleur L
 2. **Appuyez sur LED Paramètres**.
 3. **Sélectionnez la couleur souhaitée dans** Choisir la couleur LED.
 :::image type="content" source="../media/panels-led-settings.png" alt-text="Cette capture d’écran affiche les paramètres d’état Occupé de la couleur LED.":::
-4. Revenir à l’écran d’accueil et vérifier que la couleur LED de l’état occupé est mise à jour. Si l’espace de réunion est actuellement disponible, essayez de planifier une réunion test pour vérifier la modification de la couleur de LED pour l’état occupé.
+4. Retour’écran d’accueil et vérifiez que la couleur LED de l’état occupé est mise à jour. Si l’espace de réunion est actuellement disponible, essayez de planifier une réunion test pour vérifier la modification de la couleur de LED pour l’état occupé.
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 

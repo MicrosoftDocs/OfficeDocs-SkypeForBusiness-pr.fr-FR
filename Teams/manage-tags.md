@@ -16,16 +16,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment les balises sont utilisées dans votre organisation dans Microsoft Teams.
-ms.openlocfilehash: af9855f1ca771cb9f5d4739194e26cba746859ff
-ms.sourcegitcommit: caaed4b48b8f2b05d035c1bdea00a61301bc9f05
+ms.openlocfilehash: 67bbc53b5619c47117ae227396ad8352aa1a382a
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63740201"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642908"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gérer les balises dans Microsoft Teams
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 
 Les balises Microsoft Teams aux utilisateurs de se connecter rapidement et facilement avec un sous-ensemble de membres d’une équipe. Vous pouvez créer et attribuer des balises personnalisées pour catégoriser des personnes en fonction d’attributs, tels que le rôle, le projet, les compétences ou l’emplacement. Les balises peuvent également être automatiquement attribuées à des personnes en fonction de leurs informations de planning et de shift dans [l’application Shifts](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts). Une fois qu’un mot-balise est ajouté à un ou plusieurs membres de l’équipe, il peut être utilisé dans @mentions par n’importe qui de l’équipe dans une publication de canal ou pour commencer une conversation avec les seuls membres à qui cette balise est attribuée.
 
@@ -61,7 +61,7 @@ Une équipe peut avoir jusqu’à 100 balises, jusqu’à 100 membres peuvent ê
 
 Par défaut, les propriétaires d’équipe peuvent ajouter des balises personnalisées. Vous pouvez modifier ce paramètre pour autoriser les propriétaires d’équipe et les membres de l’équipe à créer, modifier, supprimer et gérer des balises, ou désactiver les balises pour votre organisation.
 
-1. Dans la barre de navigation gauche du Microsoft Teams d’administration, cliquez sur **Paramètres** >  à l’échelle de **l’organisation Teams paramètres**.
+1. Dans la barre de navigation gauche du Microsoft Teams d’administration, cliquez sur **Teams** >  **Teams paramètres.**
 2. Sous **Marquage**, en dessous de **Balises**, sélectionnez l’une des options suivantes :
 
     - **Propriétaires et membres d’équipe** : autoriser les propriétaires et membres d’équipe à gérer les balises.
@@ -72,7 +72,7 @@ Par défaut, les propriétaires d’équipe peuvent ajouter des balises personna
 
 Vous pouvez configurer les paramètres d’balise suivants pour contrôler la manière dont les balises personnalisées sont utilisées dans votre organisation.
 
-1. Dans la barre de navigation gauche du Microsoft Teams d’administration, cliquez sur **Paramètres** >  à l’échelle de **l’organisation Teams paramètres**.
+1. Dans la barre de navigation gauche du Microsoft Teams d’administration, cliquez sur **Teams** >  **Teams paramètres.**
 2. Sous **Marquage**, définissez les conditions suivantes en fonction des besoins de votre organisation.
 
     - Laissez les propriétaires d’équipe remplacer les personnes responsables de la gestion des balises : lorsque vous définissez ce paramètre, les propriétaires d’équipe peuvent définir si les membres de l’équipe peuvent créer et gérer des balises au sein d’une équipe, et que la valeur des balises est gérée par le paramètre est la valeur par défaut de chaque équipe. Si vous la désactiver, le paramètre **Balises** ne peut pas être modifié par équipe.
