@@ -1493,6 +1493,10 @@ items:
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
       - name: Administrer des applications tierces
         items:
+          - name: Comprendre les applications tierces
+            href: overview-third-party-apps.md
+          - name: Comprendre la validation d’application par Microsoft
+            href: overview-of-app-validation.md
           - name: 'Sécurité, conformité, confidentialité et gestion des données pour les applications tierces'
             href: /microsoft-365-app-certification/overview
           - name: Utiliser Microsoft 365 ou Office 365 et des connecteurs personnalisés
