@@ -969,7 +969,7 @@ items:
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
       - name: Forfait d’appels et routage
         items:
-          - name: Présentation
+          - name: Aperçu
             href: dial-plans-routing-overview.md
           - name: Que sont les plans de numérotation ?
             href: what-are-dial-plans.md
@@ -1563,8 +1563,8 @@ items:
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Gérer l’application Shifts
                 href: bookings-app-admin.md
-              - name: Gérer l’expérience de jointure sur les navigateurs mobiles
-                href: expand-teams-across-your-org/mobile-browser-join.md
+              - name: Gérer l’expérience de connexion sur les navigateurs
+                href: expand-teams-across-your-org/browser-join.md
               - name: Rapport d’utilisation des visites virtuelles
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
           - name: Shifts pour Teams
@@ -1693,8 +1693,8 @@ items:
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Rapport d’utilisation des visites virtuelles
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
-              - name: Gérer l’expérience de jointure sur les navigateurs mobiles
-                href: expand-teams-across-your-org/mobile-browser-join.md
+              - name: Gérer l’expérience de connexion sur les navigateurs
+                href: expand-teams-across-your-org/browser-join.md
           - name: Afficher et attribuer des packages de stratégie
             href: policy-packages-healthcare.md
           - name: Messagerie sécurisée
