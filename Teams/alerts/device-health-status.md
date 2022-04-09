@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Surveillance et alertes sur les appareils
+title: surveillance et alertes des appareils Microsoft Teams
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -12,72 +12,72 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-description: Découvrez comment utiliser les fonctionnalités Teams de surveillance et d’alerte dans le Centre d’administration Microsoft Teams pour surveiller de façon proactive l’état d’Teams appareils
+description: Découvrez comment utiliser les fonctionnalités de surveillance et d’alerte Teams dans le Centre d’administration Microsoft Teams pour surveiller de manière proactive l’état d’intégrité des appareils Teams
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: ac8ace461e2fb2f5ca8c163a5972fa575baec21d
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 22b67a0c046c3abb0643503948d67b77abb0e690
+ms.sourcegitcommit: f3c380f745af4c3aaa2720234860b45696a0c333
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536915"
+ms.lasthandoff: 04/09/2022
+ms.locfileid: "64737610"
 ---
-# <a name="microsoft-teams-device-health-monitoring"></a>Microsoft Teams d’état des appareils
+# <a name="microsoft-teams-device-health-monitoring"></a>Microsoft Teams surveillance de l’intégrité des appareils
 
-La surveillance de l’état des appareils Microsoft Teams centre d’administration vous permet de surveiller de façon proactive l’état de différents Teams appareils. Surveillez l’état hors connexion d’un appareil et recevez des alertes en temps réel si l’appareil surveillé dans votre organisation se déconnecte.  
+La surveillance de l’intégrité des appareils dans le centre d’administration Microsoft Teams vous permet de surveiller de manière proactive l’intégrité de différents appareils Teams. Surveillez l’état hors connexion d’un appareil et recevez des alertes en temps réel si l’appareil surveillé dans votre organisation est mis hors connexion.  
 
-Avant de commencer, vous avez besoin des autorisations de création d’équipes/canaux dans votre client. [En savoir plus.](/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide)
+Avant de commencer, vous aurez besoin des autorisations de création d’équipes/canaux dans votre locataire. [En savoir plus](/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide).
 
 ## <a name="configure-device-state-rule"></a>Configurer la règle d’état de l’appareil
 
-1. Dans la barre de navigation gauche du Centre Microsoft Teams’administration, sélectionnez Notifications et & **d’alertes.**  >  
+1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, sélectionnez **Notifications & alertsRules** > .
 
-   ![Section Règles du Centre d’administration.](../media/select-rules.png)
+   ![Section Règles dans le Centre d’administration.](../media/select-rules.png)
 
-2. Dans la page **Règles,** sélectionnez **Règle d’état de l’appareil.**
+2. Dans la page **Règles** , sélectionnez **Règle d’état de l’appareil**.
 
-3. Sélectionnez l’appareil pour configurer la règle d’état afin d’activer les alertes.
+3. Sélectionnez l’appareil pour configurer la règle d’état pour l’activation des alertes.
 
-    ![Teams règle d’état des appareils.](../media/device-state-rule.png )
+    ![Teams page de règle d’état des appareils.](../media/device-state-rule.png )
 
 ## <a name="interpret-the-rule-configuration"></a>Interpréter la configuration de la règle
 
 
 |Champ |Description  |
 |--------|-------------|
-|**Type de règle**   |La règle d’état de l’appareil vous aide à gérer efficacement. Teams appareils et est classé comme type de gestion des appareils. À l’avenir, d’autres règles de type de gestion des appareils seront disponibles pour surveiller d’autres fonctionnalités associées (par exemple, un appareil défectueux et l’état de la connectez-vous du périphérique).|
-|**Condition**   |Vous pouvez surveiller l’état des appareils s’ils sont hors connexion. [En savoir plus](../devices/device-management.md) sur la gestion des appareils dans Teams centre d’administration. |
-|**Étendue**   |Vous pouvez spécifier la fréquence à laquelle vous voulez surveiller l’état d’état de l’appareil en mentionnant la fréquence d’évaluation de la règle. Par défaut, les appareils Teams sont surveillés en temps quasi réel s’ils sont déconnectés. |
-|**Utilisateurs d’appareils**   |Vous pouvez spécifier les appareils qui ont besoin d’une surveillance proactive de l’utilisation hors connexion en les sélectionnant en fonction des utilisateurs connectés. Pour plus [d’informations, voir](#select-devices-for-configuration) Sélectionner des appareils pour plus d’informations. |
-|**Actions**  >  **Alerte de canal**   |Dans la section Actions, vous pouvez spécifier les canaux d’équipes pour qui vous souhaitez obtenir des alertes. Actuellement, une équipe par défaut nommée **Alertes** et notifications d’administrateur et canal **MonitoringAlerts** est créée où les notifications sont remis. <BR/> <BR/> Les administrateurs globaux et Teams de votre client seront automatiquement ajoutés à cette équipe par défaut.|
-|**Actions**  >  **Web se**   |Vous pouvez également recevoir des notifications avec un site web externe (facultatif). Spécifiez une URL de site web public externe dans la section web de notification où une charge utile de notification JSON sera envoyée. <BR/> <BR/>  La charge utile de notification, via des sites web, peut être intégrée à d’autres systèmes de votre organisation pour créer des flux de travail personnalisés.<br/><br/> 
+|**Type de règle**   |La règle d’état de l’appareil vous aide à gérer efficacement. Teams les appareils et est classé en tant que type de gestion des appareils. À l’avenir, d’autres règles de type de gestion des appareils seront disponibles pour surveiller d’autres fonctionnalités connexes (par exemple : un appareil défectueux et l’état de connexion de l’appareil).|
+|**Condition**   |Vous pouvez surveiller l’intégrité des appareils s’ils sont hors connexion. [En savoir plus](../devices/device-management.md) sur la gestion des appareils dans Teams centre d’administration. |
+|**Étendue**   |Vous pouvez spécifier la fréquence à laquelle vous souhaitez surveiller l’état d’intégrité de l’appareil en mentionnant la fréquence d’évaluation des règles. Par défaut, les appareils Teams sont surveillés en quasi temps réel s’ils sont mis hors connexion. |
+|**Utilisateurs de l’appareil**   |Vous pouvez spécifier les appareils qui nécessitent une surveillance proactive des statues hors connexion en les sélectionnant en fonction des utilisateurs connectés. Pour plus d’informations, reportez-vous à [Sélectionner des appareils pour la configuration](#select-devices-for-configuration) . |
+|**Actions** >  **Alerte de canal**   |Dans la section Actions, vous pouvez spécifier les canaux Teams pour lesquels vous souhaitez obtenir des alertes. Actuellement, une équipe par défaut nommée **Alertes d’administration et notifications** et canal nommé **MonitoringAlerts** sera créée à l’endroit où les notifications seront remises. <BR/> <BR/> Les administrateurs généraux et les administrateurs Teams de votre locataire sont automatiquement ajoutés à cette équipe par défaut.|
+|**Actions** >  **Webhook**   |Vous pouvez également recevoir des notifications avec un webhook externe (facultatif). Spécifiez une URL de webhook public externe dans la section webhook où une charge utile de notification JSON sera envoyée. <BR/> <BR/>  La charge utile de notification, via des webhooks, peut être intégrée à d’autres systèmes de votre organisation pour créer des workflows personnalisés.<br/><br/> 
 
-**Schéma de charge utile JSON pour le web :** <BR/><BR/>
+**Schéma de charge utile JSON pour le webhook :** <BR/><BR/>
 <pre lang="json">{ <br/>    "type": "object",<br>    "properties": { <br/>      "AlertTitle": { "type": "string "} ,<br/>      "DeviceLoggedInUserId": { "type": "string" } ,<br/>      "DeviceId": { "type": "string" } , <br/>      "MetricValues": { <br/>            "type": "object",<br/>            "properties": { <br/>                 "DeviceHealthStatus": { "type": "string"} <br/>            } <br/>       } ,<br/>       "RuleName": { "type": "string"} ,<br/>       "RuleDescription": { "type": "string"} ,<br/>       "RuleFrequency": { "type": "string"} ,<br/>       "RuleType": { "type": "string"} ,<br/>       "TenantId": { "type": "string"} , <br/>       "RuleCondition": { "type": "string"} , <br/>       "AlertRaisedAt": { "type": "string"} <br/>    } <br/>} </pre> <br/> 
 
-  **Exemple de charge utile JSON**:<br/> <br/> <pre lang="JSON">    { <br/>      "AlertTitle":"*sample_device_name* of *User_Name* has become offline",<br/>      "DeviceLoggedInUserId": *User_GUID* ,<br/>      "DeviceId": *Device_GUID* , <br/>      "MetricValues": { <br/>         DeviceHealthStatus": "offline" <br/>            }, <br/>        <br/>       "RuleName": "Device state rule" ,<br/>       "RuleDescription": ":"Alerts when device health status is detected as offline" ,<br/>       "RuleFrequency": "Real-time" ,<br/>       "RuleType": "Device Management" ,<br/>       "TenantId": *Tenant_GUID* , <br/>       "RuleCondition": "DeviceHealthStatus = Offline" , <br/>       "AlertRaisedAt": "2020-02-28T12:49:06Z" <br/>    }  </pre> <br/> 
+  **Exemple de charge utile JSON** :<br/> <br/> <pre lang="JSON">    { <br/>      "AlertTitle":"*sample_device_name* of *User_Name* has become offline",<br/>      "DeviceLoggedInUserId": *User_GUID* ,<br/>      "DeviceId": *Device_GUID* , <br/>      "MetricValues": { <br/>         "DeviceHealthStatus": "offline" <br/>            }, <br/>        <br/>       "RuleName": "Device state rule" ,<br/>       "RuleDescription": "Alerts when device health status is detected as offline" ,<br/>       "RuleFrequency": "Real-time" ,<br/>       "RuleType": "Device Management" ,<br/>       "TenantId": *Tenant_GUID* , <br/>       "RuleCondition": "DeviceHealthStatus = Offline" , <br/>       "AlertRaisedAt": "2020-02-28T12:49:06Z" <br/>    }  </pre> <br/> 
 
 ## <a name="select-devices-for-configuration"></a>Sélectionner des appareils pour la configuration
 
-1. Vous pouvez sélectionner Teams appareils que vous voulez surveiller en sélectionnant les utilisateurs connectés à ces appareils. Sélectionnez **Ajouter dans** la section **Utilisateurs de l’appareil.**
+1. Vous pouvez sélectionner Teams appareils que vous souhaitez surveiller en sélectionnant les utilisateurs connectés à ces appareils. Sélectionnez **Ajouter** dans la section **Utilisateurs de l’appareil** .
 
-2. Sélectionnez un ou plusieurs utilisateurs pour lesquels vous souhaitez surveiller l’état d’état de l’appareil
+2. Sélectionnez un ou plusieurs utilisateurs pour lesquels vous souhaitez surveiller l’état d’intégrité de l’appareil
 
-   ![ajouter un utilisateur à la règle d’état d’état de l’appareil.](../media/select-device-users.png )
+   ![ajouter un utilisateur dans la règle d’état d’intégrité de l’appareil.](../media/select-device-users.png )
 
-   La liste sélectionnée des utilisateurs s’affiche dans la section **Utilisateurs d’appareil.** Vous pouvez modifier cette liste en ajoutant ou en supprimant des utilisateurs.
+   La liste sélectionnée des utilisateurs s’affiche dans la section **Utilisateurs de l’appareil** . Vous pouvez modifier cette liste en ajoutant ou en supprimant des utilisateurs.
 
-Tous les appareils de connexion utilisés par la liste d’utilisateurs sélectionnée seront contrôlés pour vérifier l’état d’état du mode hors connexion.
+Tous les appareils de connexion utilisés par la liste sélectionnée d’utilisateurs seront surveillés pour l’état d’intégrité hors connexion.
 
 ## <a name="notifications-in-teams-client"></a>Notifications dans Teams client
 
-Les notifications sont remis dans le canal **MonitoringAlerts** créé automatiquement de l’équipe d’alertes et de notifications de **l’administrateur.** Vous recevrez une alerte dans les 15 minutes après que l’appareil sera hors connexion. 
+Les notifications sont remises dans le canal **MonitoringAlerts** créé automatiquement de l’équipe **Alertes et notifications** administrateur. Vous recevrez une alerte dans les 15 minutes suivant la mise hors connexion de l’appareil. 
 
 Une notification hors connexion d’appareil peut inclure les informations suivantes :
 
 - Nom de l’appareil hors connexion.
 - Utilisateur de l’appareil hors connexion.
-- Heure à quelle heure l’appareil s’est déconnecté ? (Actuellement, l’heure est présentée en UTC.)
-- Type de règle qui a élevé l’alerte.
-- Pourquoi une alerte est-elle élevée ?
+- Heure à laquelle l’appareil est hors connexion. (Actuellement, l’heure est présentée en UTC.)
+- Type de règle qui a déclenché l’alerte.
+- Pourquoi une alerte est-elle déclenchée ?

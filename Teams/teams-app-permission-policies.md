@@ -14,7 +14,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: En savoir plus sur les stratégies d’autorisation d’application dans Microsoft Teams et comment les utiliser pour contrôler les applications disponibles pour les utilisateurs de votre organisation.
+description: Découvrez les stratégies d’autorisation d’application dans Microsoft Teams et comment contrôler la disponibilité des applications pour vos utilisateurs finaux.
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: e4a09c92fad10f91abad697a92764429deed3bf8
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.openlocfilehash: 2a4862b1daedd90dce4d486ed1517efbfeaca336
+ms.sourcegitcommit: f3c380f745af4c3aaa2720234860b45696a0c333
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64643078"
+ms.lasthandoff: 04/09/2022
+ms.locfileid: "64737576"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gérer les stratégies d’autorisation d’application dans Microsoft Teams
 
@@ -45,14 +45,14 @@ Si votre organisation utilise déjà Teams, les paramètres de l’application q
 Par exemple, vous voulez bloquer toutes les applications tierces et autoriser des applications spécifiques de Microsoft pour l’équipe RH de votre organisation. Tout d’abord, vous devez vous rendre sur la page [Gérer les applications](manage-apps.md) et vous assurer que les applications que vous voulez autoriser pour l’équipe RH sont autorisées au niveau de l’organisation. Ensuite, créez une stratégie personnalisée appelée Stratégie d'autorisation des applications RH, définissez-la pour bloquer et autoriser les applications que vous souhaitez, et affectez-la aux utilisateurs de l'équipe RH.
 
 > [!NOTE]
-> Si vous avez déployé Teams dans un environnement MICROSOFT 365 CLOUD DE LA COMMUNAUTÉ DU SECTEUR PUBLIC High (GCCH) et Department of Defense (DoD), consultez Gérer les paramètres des applications à l’échelle de l’organisation pour [Microsoft 365 Government](#manage-org-wide-app-settings-for-microsoft-365-government) pour en savoir plus sur les paramètres d’applications tierces propres à GCCH et DoD.
+> Si vous avez déployé Teams dans un environnement Microsoft 365 Cloud de la communauté du secteur public High (GCCH) et department of Defense (DoD), consultez [Gérer les paramètres d’application à l’échelle de l’organisation pour Microsoft 365 Gouvernement](#manage-org-wide-app-settings-for-microsoft-365-government) afin d’en savoir plus sur les paramètres d’application tiers propres à GCCH et DoD.
 
 ## <a name="create-a-custom-app-permission-policy"></a>Créer une stratégie d’autorisation d’application personnalisée
 
 Si vous voulez contrôler les applications disponibles pour différents groupes d’utilisateurs au niveau de votre organisation, créez et affectez une ou plusieurs stratégies d’autorisation d’application personnalisées. Vous pouvez créer et attribuer des stratégies personnalisées distinctes sur la base de la publication d’applications par Microsoft, des tiers ou votre organisation. Il est important de savoir qu’après avoir créé une stratégie personnalisée, vous ne pouvez pas la modifier si les applications tierces sont désactivées dans les paramètres de l’application à l’échelle de l’organisation.
 
-1. Se connecter au [Teams d’administration](https://admin.teams.microsoft.com/dashboard)
-1. Dans le panneau de gauche, voir Teams **stratégies d’application.** > 
+1. Connectez-vous au centre d’administration [Teams](https://admin.teams.microsoft.com/dashboard)
+1. Dans le volet gauche, accédez à **Teams stratégies** **appsPermission** > .
 1. Sélectionnez **Ajouter**.
     ![Capture d’écran de la nouvelle stratégie d’autorisation d’application.](media/app-permission-policies-new-policy.png)
 1. Entrez un nom pour votre stratégie, ainsi qu’une description.
@@ -69,14 +69,14 @@ Si vous voulez contrôler les applications disponibles pour différents groupes 
     1. Recherchez les applications que vous voulez autoriser, puis cliquez sur **Ajouter**. Les résultats de la recherche sont filtrés sur l’éditeur de l’application (**Applications Microsoft**, **Applications tierces** ou **Applications personnalisées**).
     1. Lorsque vous avez choisi la liste d’applications, cliquez sur **Autoriser**.
 
-1. De même, si vous avez sélectionné Bloquer des applications spécifiques et autorisez toutes les **autres applications,** recherchez et ajoutez les applications que vous voulez bloquer, puis sélectionnez **Bloquer**.
+1. De même, si vous avez sélectionné **Bloquer des applications spécifiques et autorisez toutes les autres** applications, recherchez et ajoutez les applications que vous souhaitez bloquer, puis sélectionnez **Bloquer**.
 1. Sélectionnez **Enregistrer**.
 
 ## <a name="edit-an-app-permission-policy"></a>Modifier une stratégie d’autorisation à l’application
 
-Vous pouvez utiliser le Centre Teams d’administration pour modifier une stratégie, y compris la stratégie globale et les stratégies personnalisées que vous créez.
+Vous pouvez utiliser le centre d’administration Teams pour modifier une stratégie, y compris la stratégie globale et les stratégies personnalisées que vous créez.
 
-1. Dans le volet gauche du Microsoft Teams d’administration, voir stratégies Teams **applicationsPermission** > .
+1. Dans le volet gauche du centre d’administration Microsoft Teams, accédez à **Teams stratégies** **appsPermission** > .
 1. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci, puis sélectionnez **Modifier**.
 1. À partir de là, apportez les modifications souhaitées. Vous pouvez gérer les paramètres en fonction de l’éditeur de l’application et ajouter et supprimer des applications en fonction du paramètre Autoriser/Bloquer.
 1. Sélectionnez **Enregistrer**.
@@ -87,14 +87,14 @@ Vous pouvez utiliser le Centre Teams d’administration pour modifier une strat�
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>Gérer les paramètres d’application à l’échelle de l’organisation pour Microsoft 365 secteur public  
 
-Dans le cadre d’un déploiement Microsoft 365 Government - GCCH et DoD de Teams, il est important de connaître les informations suivantes sur les paramètres des applications tierces, qui sont propres à GCCH et DoD.
+Dans un déploiement Microsoft 365 Government - GCCH et DoD de Teams, il est important de connaître les paramètres d’application tiers, qui sont propres à GCCH et DoD.
 
-Dans le GCC, toutes les applications tierces sont bloquées par défaut. En outre, vous trouverez la note suivante sur la gestion des applications tierces sur la page des stratégies de permission des applications dans le Centre d'administration de Microsoft Teams.
+Dans les déploiements Cloud de la communauté du secteur public, GCCH et DoD, toutes les applications tierces sont bloquées par défaut. En outre, dans Cloud de la communauté du secteur public, vous voyez la remarque suivante sur la gestion des applications tierces sur la page des stratégies d’autorisation d’application dans le centre d’administration Microsoft Teams.
 
 :::image type="content" source="media/app-permission-policies-gcc-trimmed.png" alt-text="Capture d’écran de la stratégie d’autorisation d’application dans GCCH et DoD." lightbox="media/app-permission-policies-gcc.png":::
 
 > [!NOTE]
-> Dans CLOUD GCCH et DOD, les applications tierces ne sont pas disponibles.
+> Dans les clouds GCCH et DOD, les applications tierces ne sont pas disponibles.
 
 Utilisez les paramètres de l’application à l’échelle de l’organisation pour contrôler si les utilisateurs peuvent installer des applications tierces. Les paramètres de l’application à l’échelle de l’organisation contrôlent le comportement de tous les utilisateurs et remplacent les autres stratégies d’autorisation d’application attribuées à des utilisateurs. Vous pouvez les utiliser pour contrôler des applications malveillantes ou problématiques.
 
@@ -104,11 +104,11 @@ Utilisez les paramètres de l’application à l’échelle de l’organisation 
 
 1. Sous **Applications tierces**, désactiver ou activer ces paramètres pour contrôler l’accès à des applications tierces :
 
-    - **Autoriser les applications tierces** : cette commande contrôle si les utilisateurs peuvent utiliser des applications tierces. Si vous avez désactiver ce paramètre, vos utilisateurs ne pourront pas installer ou utiliser des applications tierces. Dans le cadre Microsoft 365 -GCCH et DoD du déploiement de Teams, ce paramètre est éteint par défaut.
+    - **Autoriser les applications tierces** : cette commande contrôle si les utilisateurs peuvent utiliser des applications tierces. Si vous avez désactiver ce paramètre, vos utilisateurs ne pourront pas installer ou utiliser des applications tierces. Dans un déploiement Microsoft 365 Government - GCCH et DoD de Teams, ce paramètre est désactivé par défaut.
     - **Autoriser toute nouvelle application tierce publiée sur le magasin par défaut** : cette option contrôle la publication automatique des nouvelles applications tierces publiées dans le magasin d’applications Teams dans Teams. Vous ne pouvez définir cette option que si vous autorisez des applications tierces.
 
-1. Sous **Applications bloquées**, ajoutez les applications que vous voulez bloquer au sein de votre organisation. Dans un Microsoft 365 - Déploiement gccH et DoD de Teams, toutes les applications tierces sont ajoutées à cette liste par défaut. Pour une application tierce que vous voulez autoriser dans votre organisation, supprimez l’application de cette liste d’applications bloquées. Lorsque vous bloquez une application à l’échelle de l’organisation, l’application est automatiquement bloquée pour tous vos utilisateurs, qu’elles soient autorisées ou non dans les stratégies d’autorisation d’application.
-1. **Sélectionnez Enregistrer** pour que les paramètres d’application à l’échelle de l’organisation prennent effet.
+1. Sous **Applications bloquées**, ajoutez les applications que vous voulez bloquer au sein de votre organisation. Dans un déploiement Microsoft 365 Government - GCCH et DoD de Teams, toutes les applications tierces sont ajoutées à cette liste par défaut. Pour une application tierce que vous voulez autoriser dans votre organisation, supprimez l’application de cette liste d’applications bloquées. Lorsque vous bloquez une application à l’échelle de l’organisation, l’application est automatiquement bloquée pour tous vos utilisateurs, qu’elles soient autorisées ou non dans les stratégies d’autorisation d’application.
+1. Sélectionnez **Enregistrer** pour que les paramètres d’application à l’échelle de l’organisation prennent effet.
 
 Comme indiqué précédemment, pour autoriser des applications tierces, vous pouvez modifier et utiliser la stratégie globale (à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées.
 

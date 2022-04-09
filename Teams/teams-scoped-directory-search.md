@@ -1,9 +1,8 @@
 ---
-title: Utiliser la recherche d’annuaire étendue Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+title: Limiter les utilisateurs qui peuvent voir lors de la recherche dans le répertoire dans Teams
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
-ms.date: 06/21/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -12,52 +11,42 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Découvrez comment utiliser Microsoft Teams dans l’annuaire pour fournir des affichages personnalisés de l’annuaire.
+description: Découvrez comment limiter les utilisateurs qui peuvent voir lors de la recherche dans le répertoire dans Teams.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 108a5895bf568207246ec6b1d7711e13e6c87069
-ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
+ms.openlocfilehash: 8b073cdd67d89de7d934990abc33cb0586d0fc76
+ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61111984"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "64732222"
 ---
-# <a name="use-microsoft-teams-scoped-directory-search"></a>Utiliser la recherche d’annuaire étendue Microsoft Teams
+# <a name="limit-who-users-can-see-when-searching-the-directory-in-teams"></a>Limiter les utilisateurs qui peuvent voir lors de la recherche dans le répertoire dans Teams
 
-Microsoft Teams dans l’étendue de la recherche dans l’annuaire permet aux organisations de créer des limites virtuelles qui contrôlent la façon dont les utilisateurs peuvent trouver et communiquer avec d’autres utilisateurs de leur organisation. 
+Microsoft Teams permet aux organisations de fournir des vues personnalisées du répertoire à leurs utilisateurs. Ces vues peuvent être utiles si :
 
-Microsoft Teams organisations fournissent des affichages personnalisés de l’annuaire à leurs utilisateurs. Microsoft Teams utilise la [barrière de l’information](/microsoft-365/compliance/information-barriers) pour prendre en charge ces affichages personnalisés. Une fois les stratégies activées, les résultats renvoyés par les recherches d’autres utilisateurs (par exemple, pour démarrer une conversation ou pour ajouter des membres à une équipe) seront étendues en fonction des stratégies configurées. Les utilisateurs ne pourront pas effectuer de recherche ou découvrir d’équipes lorsque la recherche étendue est en vigueur, mais les membres existants de ces équipes peuvent ajouter des utilisateurs, comme le permet les stratégies actives de la barrière des informations.
+- Votre organisation comporte plusieurs entreprises au sein de son client que vous souhaitez garder séparées.
+- Vos stratégies d’entreprise exigent que vous empêchant certains groupes au sein de votre organisation de communiquer entre elles.
+- Votre école souhaite limiter les conversations entre la faculté et les étudiants.
 
-> [!NOTE]
-> Dans Exchange environnements hybrides, cette fonctionnalité fonctionne uniquement avec Exchange Online, et non avec les boîtes aux lettres locaux.
+Il existe deux options pour limiter les utilisateurs qui peuvent voir lorsqu’ils recherchent le répertoire dans Teams :
 
-Voir aussi [Stratégies du carnet d’adresses dans Exchange Online.](/exchange/address-books/address-book-policies/address-book-policies)
+- [Obstacles à l’information dans Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams)
+- [Stratégies de carnet d’adresses dans Exchange Online](/exchange/address-books/address-book-policies/address-book-policies)
 
-## <a name="when-should-you-use-scoped-directory-searches"></a>Quand devez-vous utiliser des recherches dans l’annuaire dans l’étendue ?
+Si vous utilisez l’une ou l’autre option, vous devez activer la recherche par nom dans le centre d’administration Teams.
 
-Les scénarios qui viennent s’en tirer profit sont similaires aux scénarios de stratégie de carnet d’adresses. Par exemple, vous pouvez utiliser la recherche dans l’annuaire étendue dans les situations suivantes :
+Nous vous recommandons d’utiliser des obstacles à l’information si votre organisation répond aux [licences et autorisations requises](/microsoft-365/compliance/information-barriers#required-licenses-and-permissions).
 
-- Votre organisation comporte plusieurs entreprises au sein de son client que vous souhaitez garder séparées. 
-- Votre école souhaite limiter les conversations entre la faculté et les étudiants. 
- 
-Pour découvrir comment utiliser les stratégies du carnet d’adresses, lisez la barrière des [informations dans Exchange Online.](/microsoft-365/compliance/information-barriers)
+Pour activer la recherche par nom
 
-> [!IMPORTANT]
-> Les stratégies de carnet d’adresses offrent une séparation virtuelle des utilisateurs du point de vue de l’annuaire. Il est également important de noter que toutes les données des utilisateurs qui avaient déjà été mises en cache avant l’application de stratégies de carnet d’adresses nouvelles ou mises à jour resteront disponibles aux utilisateurs pendant 30 jours.
+1. Dans le centre d’administration Microsoft Teams, sélectionnez **Teams** >  **Teams paramètres**.
 
-## <a name="turn-on-scoped-directory-search"></a>Activer la recherche dans l’annuaire étendue
+1. Sous **Rechercher par nom**, en regard de la **recherche de répertoire d’étendue à l’aide d’une stratégie de carnet d’adresses Exchange**, activez **le bouton bascule**.
 
-1. Utilisez des stratégies de barrière de l’information pour configurer votre organisation en sous-groupes virtuels. Pour plus d’informations, voir [Définir les stratégies de barrière de l’information.](/microsoft-365/compliance/information-barriers-policies)
-
-2. Dans le Microsoft Teams d’administration, **sélectionnez** Teams  >  **Teams paramètres.**
-
-3. Sous **Rechercher par nom,** en plus de l’étendue de la recherche dans le répertoire Teams à l’aide d’Exchange de **carnet** d’adresses de base, basculez le **désactiver.**
-
-    ![Recherche dans l’annuaire dans l’étendue Microsoft Teams centre d’administration.](media/teams-scoped-directory-search-image1.png)
-
-> [!IMPORTANT]
-> La réplique de cette modification peut prendre quelques heures.
+> [!Note]
+> L’application de cette modification peut prendre quelques heures.
