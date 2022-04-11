@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Découvrez les licences de module complémentaire pour Microsoft Teams et les fonctionnalités que vous obtenez avec chaque licence.
-ms.openlocfilehash: 785ae1495e3a210883f489528ac401ad9442b526
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: 000678a0b41e660371de295ae40d2c6359774efe
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686381"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756950"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>licences de module complémentaire Microsoft Teams
 
@@ -50,12 +50,6 @@ Voici une liste de Teams licences de module complémentaire et de leurs fonction
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>Quelles sont les fonctionnalités Microsoft disponibles avec mon plan ?
 
 Tous les plans Microsoft 365 permettent à Teams utilisateurs d’effectuer des appels d’égal à égal au sein de votre organisation à l’aide de la technologie VoIP. Toutefois, vous pouvez ajouter des licences différentes pour des fonctionnalités telles que l’appel à des numéros RTC ou la configuration d’un PBX.
-
-### <a name="audio-conferencing"></a>Audioconférence
-
-Vous pouvez ajouter des licences **d’audioconférence** gratuitement à tous les abonnements Microsoft 365.
-
-Microsoft 365 E5/A5/G5 offrent des licences d’audioconférence. Vous n’aurez donc pas besoin d’acheter des licences d’audioconférence supplémentaires avec ces plans.
 
 ### <a name="voice-and-pstn-connectivity"></a>Connectivité vocale et RTC
 
