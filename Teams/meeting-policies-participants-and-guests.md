@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
-description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour les participants et les invités.
-ms.openlocfilehash: 8b4015c209f9cb30a773abefa3af4e4300a0dcec
-ms.sourcegitcommit: 2deb76ad222b77a19d43beffc87714204961aa09
+description: Apprenez à gérer les paramètres de stratégie de réunion dans Teams pour les participants et les invités.
+ms.openlocfilehash: 05408ade76aa96b64f07899881beb68fa52c74b4
+ms.sourcegitcommit: a31c02892e35babbbcf5e7c303c7f14d7ba5cb52
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63494350"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64784698"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion : participants et invités
 
@@ -35,8 +35,8 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 - [Autoriser les personnes anonymes à démarrer une réunion](#let-anonymous-people-start-a-meeting)
 - [Admettre les personnes automatiquement](#automatically-admit-people)
 - [Autoriser les utilisateurs entrants à éviter la salle d’attente](#allow-dial-in-users-to-bypass-the-lobby)
-- [Sous-titres en direct](#live-captions)
-- [Discuter pendant les réunions](#chat-in-meetings)
+- [Légendes en direct](#live-captions)
+- [Conversation dans les réunions](#chat-in-meetings)
 
 > [!NOTE]
 >Les options permettant de participer à une réunion varient en fonction des paramètres de chaque groupe Teams et de la méthode de connexion. Si votre groupe dispose d’une audioconférence et l’utilise pour se connecter, consultez[Audioconférence](/microsoftteams/audio-conferencing-in-office-365). Si votre équipe n’a pas d’audioconférence, consultez [Participer à une réunion dans Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
@@ -44,7 +44,7 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Autoriser les personnes anonymes à démarrer une réunion
 
-Ce paramètre est une stratégie par organisateur qui autorise les réunions de conférence rendez-vous sans leader. Ce paramètre détermine si les utilisateurs des appels entrants peuvent rejoindre la réunion sans utilisateur authentifié de l’organisation. Par défaut, ce paramètre est désactivé, ce qui signifie que les utilisateurs rendez-vous patientent dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion.
+Ce paramètre est une stratégie par organisateur qui permet des réunions de conférence rendez-vous sans leader. Ce paramètre détermine si les utilisateurs des appels entrants peuvent rejoindre la réunion sans utilisateur authentifié de l’organisation. Par défaut, ce paramètre est désactivé, ce qui signifie que les utilisateurs entrants attendront dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion.
 
 > [!NOTE]
 > Si ce paramètre est désactivé et qu’un utilisateur de participation a rejoint la réunion pour la première fois et est placé dans la salle d’attente, l’utilisateur d’une organisation doit participer à la réunion avec un client Teams pour admettre l’utilisateur de la salle d’attente. Il n’y a pas de contrôle de salle d’attente disponible pour les utilisateurs entrants.
@@ -63,36 +63,36 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle la join
 |Valeur du paramètre  |Comportement de jointure |
 |---------|---------|
 |**Tout le monde**   |Tous les participants à la réunion joignent directement la réunion sans attendre dans la salle d’attente. Cela inclut les utilisateurs authentifiés, les utilisateurs externes d’organisations approuvées (fédérées), les invités et les utilisateurs anonymes.     |
-|**Membres de mon organisation et invités**     |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, rejoignent directement la réunion sans attendre dans la salle d’attente. Les utilisateurs des organisations de confiance et les utilisateurs anonymes patientent dans la salle d’attente. Il s’agit du paramètre par défaut.    |
+|**Membres de mon organisation et invités**     |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, participent directement à la réunion sans attendre dans la salle d’attente. Les utilisateurs d’organisations approuvées et les utilisateurs anonymes attendent dans la salle d’attente. Il s’agit du paramètre par défaut.    |
 |**Membres de mon organisation, organisations de confiance et invités**     |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités et les utilisateurs des organisations approuvées, peuvent participer directement à la réunion sans attendre dans la salle d’attente.  Les utilisateurs anonymes attendent dans la salle d’attente.   |
-|**Membres de mon organisation**    |Les utilisateurs authentifiés au sein de l’organisation rejoignent directement la réunion sans attendre dans la salle d’attente.  Des utilisateurs d’organisations de confiance, des utilisateurs invités et des utilisateurs anonymes patientent dans la salle d’attente.          |
-|**Organisateur uniquement**    |Seuls les organisateurs de réunion peuvent rejoindre directement la réunion sans attendre dans la salle d’attente. Tous les autres utilisateurs, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs d’organisations de confiance et les utilisateurs anonymes, doivent patienter dans la salle d’attente. Sur la page Teams d’options de la réunion client, il s’affiche sous la la figure « Moi seul ».          |
-|**Utilisateurs invités uniquement**    |Seuls les utilisateurs invités et les organisateurs de la réunion peuvent participer directement à la réunion sans attendre dans la salle d’attente. Tous les autres utilisateurs, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs d’organisations de confiance et les utilisateurs anonymes, doivent patienter dans la salle d’attente. Dans la page Teams d’options de la réunion client, « Personnes que j’invite » s’affiche. Les utilisateurs ajoutés dans le cadre d’un groupe de distribution devront passer par la salle d’salle d’salle d’accueil.      |
+|**Membres de mon organisation**    |Les utilisateurs authentifiés de l’organisation rejoignent directement la réunion sans attendre dans la salle d’attente.  Les utilisateurs d’organisations approuvées, d’utilisateurs invités et d’utilisateurs anonymes attendent dans la salle d’attente.          |
+|**Organisateur uniquement**    |Seuls les organisateurs de réunion peuvent rejoindre directement la réunion sans attendre dans la salle d’attente. Tout le monde, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs d’organisations approuvées et les utilisateurs anonymes doivent attendre dans la salle d’attente. Dans la page Teams options de réunion du client, elle s’affiche sous la forme « Uniquement moi ».          |
+|**Utilisateurs invités uniquement**    |Seuls les utilisateurs invités et les organisateurs de réunion peuvent participer directement à la réunion sans attendre dans la salle d’attente. Tout le monde, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs d’organisations approuvées et les utilisateurs anonymes doivent attendre dans la salle d’attente. Dans la page Teams options de réunion du client, elle apparaît sous la forme « Personnes que j’invite ». Les utilisateurs ajoutés dans le cadre d’un groupe de distribution devront passer par la salle d’attente.      |
 
  > [!NOTE]
-> Les organisations de confiance sont des domaines avec qui vous autorisez les communications fédérées dans Teams. Si vous activez l’accès externe à tous les domaines **externes** dans le Centre d’administration Teams, tout utilisateur authentifié au sein d’Teams organisation est approuvé. Si vous choisissez de spécifier les domaines externes autorisés et bloquer tous les autres domaines, ceux-ci deviennent des organisations de confiance. Tout domaine bloqué n’est considéré comme pas une organisation digne de confiance.
+> Les organisations approuvées sont des domaines avec lequel vous autorisez les communications fédérées dans Teams. Si vous **activez Autoriser tous les domaines externes** pour l’accès externe dans le centre d’administration Teams, tout utilisateur authentifié au sein d’une organisation Teams est approuvé. Si vous choisissez de spécifier des domaines externes autorisés et de bloquer tous les autres, les domaines autorisés deviennent des organisations approuvées. Tout domaine bloqué n’est pas considéré comme une organisation approuvée.
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Autoriser les utilisateurs entrants à éviter la salle d’attente
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle si les personnes qui utilisent le téléphone rejoignent directement la réunion ou attendent dans la salle d’attente, quel que soit le paramètre **Autoriser les personnes automatiquement**. Par défaut, ce paramètre est désactivé. Lorsque ce paramètre est désactivé, les utilisateurs appelants patientent dans la salle d’attente jusqu’à ce qu’un utilisateur de l’organisation rejoigne la réunion avec un client Teams et les accepte. Lorsque ce paramètre est désactivé, les utilisateurs rendez-vous participent automatiquement à la réunion lorsqu’un utilisateur de l’organisation rejoint la réunion avec Teams client.
+Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle si les personnes qui utilisent le téléphone rejoignent directement la réunion ou attendent dans la salle d’attente, quel que soit le paramètre **Autoriser les personnes automatiquement**. Par défaut, ce paramètre est désactivé. Lorsque ce paramètre est désactivé, les utilisateurs appelants patientent dans la salle d’attente jusqu’à ce qu’un utilisateur de l’organisation rejoigne la réunion avec un client Teams et les accepte. Lorsque ce paramètre est activé, les utilisateurs entrants rejoignent automatiquement la réunion lorsqu’un utilisateur de l’organisation rejoint la réunion avec un client Teams.
 
 > [!NOTE]
 > Si un utilisateur connecté rejoint une réunion avant qu'un utilisateur de l'organisation ne la rejoigne, il sera placé dans la salle d'attente jusqu'à ce qu'un utilisateur de l'organisation rejoigne la réunion à l'aide d'un client Teams et l'admette. Si vous modifiez le paramètre par défaut pour un utilisateur, celui-ci s’applique à toutes les réunions organisées par cet utilisateur et aux réunions antérieures où l’utilisateur n’a pas modifié les options de la réunion.
 
-## <a name="live-captions"></a>Sous-titres en direct
+## <a name="live-captions"></a>Légendes en direct
 
-Ce paramètre est une stratégie par utilisateur et s’applique pendant une réunion. Ce paramètre détermine si l’option **Activer les légendes dynamiques** est disponible pour l’utilisateur, afin d’activer et de désactiver les légendes dynamiques dans les réunions qu’elle attend.  
+Ce paramètre est une stratégie par utilisateur qui s’applique lors d’une réunion. Ce paramètre détermine si l’option **Activer les légendes dynamiques** est disponible pour l’utilisateur, afin d’activer et de désactiver les légendes dynamiques dans les réunions qu’elle attend.  
 
 ![Capture d’écran montrant l’option Activer les sous-titres en direct.](media/meeting-policies-live-captions.png)
 
 |Valeur du paramètre |Comportement  |
 |---------|---------|
 |**Désactivé, mais l’utilisateur peut remplacer**     | Les sous-titres en direct ne sont pas activés automatiquement pour l’utilisateur pendant une réunion. L’utilisateur voit l’option **Activer les sous-titres en direct** dans le menu débordement (**...**) pour les activer. Il s’agit du paramètre par défaut. |
-|**Désactivé**     | Les légendes dynamiques sont désactivées pour l’utilisateur pendant une réunion. L’utilisateur n’a pas la possibilité de les activer.          |
+|**Non activé**     | Les légendes dynamiques sont désactivées pour l’utilisateur pendant une réunion. L’utilisateur n’a pas la possibilité de les activer.          |
 
 <a name="bkcontentsharing"> </a>
 
-## <a name="chat-in-meetings"></a>Discuter pendant les réunions
+## <a name="chat-in-meetings"></a>Conversation dans les réunions
 
 Ce paramètre est un paramètre par participant. Ce paramètre détermine si la conversation de réunion est autorisée pendant la réunion de l’utilisateur.
 
@@ -105,15 +105,15 @@ Ce paramètre est un paramètre par participant. Ce paramètre détermine si la 
 
 ## <a name="enable-meeting-policy-settings"></a>Activer les paramètres de stratégie de réunion
 
-Pour activer les paramètres de stratégie de réunion, vous pouvez utiliser le Centre d’administration [Teams](https://admin.teams.microsoft.com/policies/meetings) (**Meeting PoliciesEdit** >  **un** **policyParticipants** >  & guests) ou l’cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) dans Teams PowerShell. 
+Pour activer les paramètres de stratégie de réunion, vous pouvez utiliser le [centre d’administration Teams](https://admin.teams.microsoft.com/policies/meetings) (**Meeting PoliciesEdit** >  **a** **policyParticipants** >  & invités) ou l’applet de commande [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) dans Teams PowerShell. 
 
-Dans cet exemple, nous utilisons PowerShell pour modifier la stratégie de réunion globale afin de permettre à tous les utilisateurs de commencer ou de rejoindre une réunion.
+Dans cet exemple, nous utilisons PowerShell pour modifier la stratégie de réunion globale afin de permettre à quiconque de commencer ou de participer à une réunion.
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAnonymousUsersToStartMeeting $True -AllowPSTNUsersToBypassLobby $True
 ```
 
-Une fois que vous avez créé une stratégie, vous devez l’appliquer aux utilisateurs. Si vous avez modifié la stratégie globale (à l’échelle de l’organisation par défaut), elle s’applique automatiquement aux utilisateurs. Vous devez patienter au moins 4 heures pour que les modifications de stratégie prennent effet, mais cela peut prendre jusqu’à 24 heures.
+Une fois que vous avez configuré une stratégie, vous devez l’appliquer aux utilisateurs. Si vous avez modifié la stratégie globale (par défaut à l’échelle de l’organisation), elle s’applique automatiquement aux utilisateurs. Vous devez attendre au moins 4 heures pour que les modifications de stratégie prennent effet, mais cela peut prendre jusqu’à 24 heures.
 
 
 ## <a name="related-topics"></a>Sujets associés
