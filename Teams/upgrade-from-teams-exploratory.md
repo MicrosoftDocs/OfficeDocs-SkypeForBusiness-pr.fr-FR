@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4816f3f05c37fe1a690ffea7f48789c41fd2603
-ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
+ms.openlocfilehash: 95dd3f01d07a2e393414013ab40ca97ec1a63bb6
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61216670"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756970"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Mettre à niveau des utilisateurs à partir de l’essai exploratoire Teams
 
@@ -37,7 +37,7 @@ Cet article fournit une vue d’ensemble de la mise à niveau de vos utilisateur
 
 ## <a name="step-1-when-to-upgrade"></a>Étape 1 : Quand mettre à niveau  
 
-Pour vérifier l’expiration de la version d’évaluation exploratoire Teams de votre organisation et le nombre d’utilisateurs actifs, accédez à **Facturation >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>Vos produits</b></a> dans le centre d’administration Microsoft 365. Vous serez également averti avant l’expiration de l’essai exploratoire Teams.
+Pour vérifier l’expiration de l’essai exploratoire Teams de votre organisation et le nombre d’utilisateurs actifs, accédez à **Facturation >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>Vos produits</b></a> dans le Centre d’administration Microsoft 365. Vous serez également averti avant l’expiration de l’essai exploratoire Teams.
 
 > [!IMPORTANT]
 > Vous devez planifier la mise à niveau de vos utilisateurs vers des licences payantes avant la date d’expiration, afin que les utilisateurs ne perdent pas l’accès à Teams.
@@ -45,6 +45,9 @@ Pour vérifier l’expiration de la version d’évaluation exploratoire Teams d
 > Les utilisateurs perdront l’accès à Teams 30 jours après la date d’expiration de l’essai. Tant que les utilisateurs reçoivent une licence payante dans les 60 jours suivant la date d’expiration, ils peuvent récupérer l’accès à Teams et tout le contenu existe toujours. Toutefois, au bout de 60 jours, les données des utilisateurs sont supprimées. Une fois qu’une nouvelle licence est attribuée aux utilisateurs pour activer la fonctionnalité Teams, s’ils sont ajoutés dans la période de grâce, tout le contenu reste. Pour plus d’informations, consultez <a href="/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide" target="_blank">Qu’advient-il de mes données et de mon accès à la fin de mon abonnement ?</a>
 
 ## <a name="step-2-choose-an-upgrade-path"></a>Étape 2 : choisir un chemin de mise à niveau
+
+> [!TIP]
+> Nous recommandons Teams Essentials comme principale option pour les clients qui cherchent à mettre à niveau leur essais exploratoires Teams arrivant à expiration. Pour plus d’informations, consultez la rubrique [Comparer Microsoft Teams Essentials à d’autres plans](get-started-with-teams-essentials.md#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans).
 
 En fonction des abonnements dont votre organisation dispose actuellement, il existe trois façons de passer d’une version d’évaluation exploratoire Microsoft Teams à une licence payante :
 
@@ -67,7 +70,7 @@ Après avoir attribué les nouvelles licences, retirez les licences exploratoire
 
 ### <a name="auto-claim-policies"></a>Stratégies de revendication automatique
 
-La prochaine fois que vous effectuerez la mise à niveau, utilisez des stratégies de revendication automatique pour créer des stratégies pour votre organisation afin d’attribuer automatiquement des licences à partir d’abonnements payants aux nouveaux utilisateurs qui n’ont pas acquis de licence Teams. Pour plus d’informations, consultez <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Gérer les stratégies de revendication automatique</a>.
+La prochaine fois que vous effectuerez la mise à niveau, utilisez des stratégies de revendication automatique pour créer des stratégies pour votre organisation afin d’attribuer automatiquement des licences à partir d’abonnements payants aux nouveaux utilisateurs qui n’ont pas acquis de licence Teams. Pour plus d’informations, consultez la rubrique <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Gérer les stratégies de revendication automatique</a>.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
