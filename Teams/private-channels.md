@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les canaux privés dans Microsoft Teams.
-ms.openlocfilehash: 908432588c1744027b03efee44b9506ea4388fa2
-ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
+ms.openlocfilehash: 775019bc0151215557e7b0962619c4fe8fb8fe85
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63761918"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817825"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canaux privés dans Microsoft Teams
 
@@ -39,6 +39,8 @@ Par exemple, un canal privé est utile dans les cas suivants :
 Une icône de verrouillage indique un canal privé. Seuls les membres des canaux privés peuvent voir et participer aux canaux privés auxquels ils sont ajoutés.
 
 Lors de la création d’un canal privé, celui-ci est lié à l’équipe parente et ne peut pas être déplacé vers une autre équipe. De plus, les canaux privés ne peuvent pas être convertis en canaux standard et vice-versa.
+
+[Comparez les canaux privés à d’autres types de canaux](/microsoftteams/teams-channels-overview#channel-feature-comparison).
 
 ![Capture d’écran des canaux privés dans une équipe.](media/private-channels-in-teams.png)
 
@@ -76,7 +78,7 @@ Le tableau suivant décrit les actions que les propriétaires, les membres et le
 |---------|---------|---------|---------|---------|---------|---------|
 |Créer un canal privé|Contrôlée par l’administrateur|Contrôlée par l’administrateur et le propriétaire de l’équipe|Non|N/A|N/A|S/O|
 |Supprimer un canal privé|Oui|Non|Non|Oui|Non|Non|
-|Quitter un canal privé|S/O|S/O|S/O|Oui, à moins qu’il ne soit le dernier propriétaire|Oui|Oui|
+|Quitter un canal privé|S/O|N/A|S/O|Oui, à moins qu’il ne soit le dernier propriétaire|Oui|Oui|
 |Modifier un canal privé|Non|N/A|N/A|Oui|Non|Non|
 |Restaurer un canal privé supprimé|Oui|Non|Non|Oui|Non|Non|
 |Ajouter des membres|Non|N/A|N/A|Oui|Non|Non|
