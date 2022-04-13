@@ -21,65 +21,65 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-description: Découvrez comment configurer les paramètres utilisateur pour le forwarding et la délégation d’appels.
-ms.openlocfilehash: 5443ad958d23753b1d67d42782ddab41d9d6d080
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+description: Découvrez comment configurer les paramètres utilisateur pour le transfert et la délégation des appels.
+ms.openlocfilehash: 46fc88d20efb14ea130f38d9be284f8faad6f80f
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63689078"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817775"
 ---
 # <a name="configure-call-settings-for-your-users"></a>Configurer les paramètres d’appel pour vos utilisateurs
 
-Cet article décrit comment vous, en tant qu’administrateur, pouvez modifier les paramètres de forwardage et de délégation d’appel pour vos utilisateurs. Vous pouvez modifier ces paramètres, par exemple, dans les cas ci-après :
+Cet article décrit comment vous, l’administrateur, pouvez modifier les paramètres de transfert d’appel et de délégation pour vos utilisateurs. Vous souhaiterez peut-être modifier ces paramètres, par exemple, si :
 
-- Un utilisateur est en congé maladie et vous devez vous assurer que les appels entrants à l’utilisateur sont transmis à un collègue.
+- Un utilisateur est en congé de maladie et vous devez vous assurer que les appels entrants à l’utilisateur sont transférés à un collègue.
 
-- Vous devez inspecter les paramètres de forward d’appel pour tous les utilisateurs d’un service et éventuellement les corriger le cas échéant.
+- Vous devez inspecter les paramètres de transfert d’appel pour tous les utilisateurs d’un service et les corriger éventuellement en fonction des besoins.
 
 - Un nouvel assistant a été employé et vous devez l’ajouter en tant que délégué pour un groupe d’employés.
 
-Vous pouvez utiliser le Teams d’administration ou Teams cmdlets PowerShell pour afficher et modifier les paramètres d’appel des utilisateurs.
+Vous pouvez utiliser le centre d’administration Teams ou Teams applets de commande PowerShell pour afficher et modifier les paramètres d’appel des utilisateurs.
 
-Pour définir les paramètres d’appel d’un utilisateur, celui-ci doit avoir Téléphone Microsoft licence système.
+Pour définir les paramètres d’appel d’un utilisateur, l’utilisateur doit disposer d’une licence système Téléphone Microsoft attribuée.
 
-## <a name="use-the-teams-admin-center"></a>Utiliser le Centre Teams’administration de l’équipe
+## <a name="use-the-teams-admin-center"></a>Utiliser le centre d’administration Teams
 
-Vous pouvez utiliser le centre Teams d’administration pour configurer le récupérer et la délégation d’appel de groupe pour vos utilisateurs. 
+Vous pouvez utiliser le centre d’administration Teams pour configurer les paramètres de transfert d’appel et sans réponse, la prise en charge des appels de groupe et la délégation d’appel pour vos utilisateurs. 
 
-> [!NOTE]
-> L’option de configuration des paramètres de forwardage n’est actuellement pas disponible dans le Teams d’administration.
+Pour configurer les paramètres de transfert d’appel immédiat :
 
-Pour configurer le regroupement d’appels de groupe, vous pouvez :
+1. Dans le centre d’administration Teams, accédez aux **utilisateurs UsersManage**  >  et sélectionnez un utilisateur.
 
-1. Dans le Teams d’administration, sélectionnez un utilisateur dans **UsersManage** >  (**UtilisateursManage**).
+2. Dans la page des détails de l’utilisateur, accédez à l’onglet **Voix** .
 
-2. Dans la page des détails de l’utilisateur, allez sur **l’onglet** Voix.
+3. Sous **Règles de réponse aux appels**, sélectionnez **Être immédiatement transféré**, puis sélectionnez le type et la destination de transfert d’appel appropriés.
 
-3. Sous **Regroupement d’appels de** groupe, **sélectionnez Ajouter des personnes**. 
+Pour configurer la sonnerie simultanée, dans la même page, sélectionnez **Sonner les appareils de l’utilisateur**. Dans la liste déroulante **Autoriser également** , sélectionnez le paramètre de sonnerie simultané approprié.
 
-4. Spécifiez les paramètres du **retard et de la commande d’appel**.
+Pour configurer les paramètres sans réponse, dans la même page, sélectionnez le paramètre approprié dans la liste **déroulante Si sans réponse** . Dans **l’Anneau pendant ces nombreuses secondes avant de rediriger** la liste déroulante, spécifiez le nombre de secondes d’attente.
 
-Pour configurer la délégation, sur la même page, allez à **Délégation** d’appel et **sélectionnez Ajouter des personnes**.
+La configuration de la délégation d’appel et de la prise d’appel de groupe est intégrée aux paramètres de transfert d’appel et sans réponse en sélectionnant le type approprié. Par exemple, pour configurer que les appels doivent également sonner les délégués de l’utilisateur, dans la même page, sélectionnez **Délégation d’appel** sous **Autoriser également**. Ajoutez ensuite les délégués appropriés en sélectionnant **Ajouter des personnes** et en cliquant sur **Enregistrer**.
+
 
 ## <a name="use-powershell"></a>Utiliser PowerShell
 
-Vous pouvez utiliser PowerShell pour configurer les paramètres de forward et de délégation d’appel pour vos utilisateurs.  Vous utiliserez les cmdlets suivantes, qui sont disponibles dans Teams module PowerShell version 4.0 ou ultérieure :
+Vous pouvez utiliser PowerShell pour configurer les paramètres de transfert d’appel et de délégation pour vos utilisateurs.  Vous allez utiliser les applets de commande suivantes, qui sont disponibles dans Teams module PowerShell version 4.0 ou ultérieure :
 
-- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps) - Affiche les paramètres de forwarding d’appel, les délégués et les informations de délégant pour un utilisateur.
+- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps) : affiche les paramètres de transfert d’appel, les délégués et les informations de suppression pour un utilisateur.
 
-- [Set-CsUserCallingSettings - définit](/powershell/module/teams/set-csusercallingsettings?view=teams-ps) les paramètres de forwarding d’appel pour un utilisateur.
+- [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings?view=teams-ps) : définit les paramètres de transfert d’appel pour un utilisateur.
 
-- [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate?view=teams-ps) : ajoute un nouveau délégué avec les autorisations d’un utilisateur.
+- [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate?view=teams-ps) : ajoute un nouveau délégué avec des autorisations pour un utilisateur.
 
--   [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate?view=teams-ps) - modifie les autorisations d’un délégué existant.
+-   [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate?view=teams-ps) : modifie les autorisations pour un délégué existant.
 
--   [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate?view=teams-ps) - supprime un délégué d’un utilisateur.
+-   [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate?view=teams-ps) : supprime un délégué d’un utilisateur.
 
 
-### <a name="display-call-forward-and-delegation-settings-for-a-user"></a>Afficher les paramètres de forward et de délégation d’appel pour un utilisateur
+### <a name="display-call-forward-and-delegation-settings-for-a-user"></a>Afficher les paramètres de transfert d’appel et de délégation pour un utilisateur
 
-Pour afficher les paramètres actuels de forward et de délégation d’un utilisateur, utilisez l'Get-CsUserCallingSettings de contrôle, comme illustré dans l’exemple suivant :
+Pour afficher les paramètres actuels de transfert d’appel et de délégation pour un utilisateur, utilisez l’applet de commande Get-CsUserCallingSettings, comme illustré dans l’exemple suivant :
 
 ```PowerShell
 Get-CsUserCallingSettings -Identity user1@contoso.com
@@ -107,24 +107,24 @@ ManageSettings : True
 ReceiveCalls   : True
 ```
 
-La sortie indique que l’utilisateur1 a configuré une sonnerie simultanée pour les délégués. Les appels sans réponse sont envoyés vers la messagerie vocale au bout de 20 secondes. User2 est défini comme délégué avec toutes les autorisations de délégué.
+La sortie montre que la sonnerie simultanée de l’utilisateur1 aux délégués est configurée. Les appels sans réponse sont envoyés à la messagerie vocale après 20 secondes. User2 est défini comme délégué avec toutes les autorisations déléguées.
 
 
-### <a name="set-call-forward-settings-for-a-user"></a>Définir les paramètres de forward d’appel pour un utilisateur
+### <a name="set-call-forward-settings-for-a-user"></a>Définir les paramètres de transfert d’appel pour un utilisateur
 
-Pour faire suivre tous les appels de l’utilisateur 1 à l’utilisateur2, utilisez la cmdlet Set-CsUserCallingSettings, comme illustré dans l’exemple suivant : 
+Pour transférer tous les appels de user1 à user2, utilisez l’applet de commande Set-CsUserCallingSettings, comme indiqué dans l’exemple suivant : 
 
 ```PowerShell
 Set-CsUserCallingSettings -Identity user1@contoso.com -IsForwardingEnabled $true -ForwardingType Immediate -ForwardingTargetType SingleTarget -ForwardingTarget user2@contoso.com
 ```
 
-Pour faire sonner simultanément tous les délégués pour l’utilisateur 3, utilisez la cmdlet Set-CsUserCallingSettings, comme montré dans l’exemple suivant : 
+Pour faire sonner simultanément tous les délégués pour user3, utilisez l’applet de commande Set-CsUserCallingSettings, comme illustré dans l’exemple suivant : 
 
 ```PowerShell
 Set-CsUserCallingSettings -Identity user3@contoso.com -IsForwardingEnabled $true -ForwardingType Simultaneous -ForwardingTargetType MyDelegates
 ```
 
-L’exemple suivant utilise l'Set-CsUserCallingSettings de la cmdlet pour configurer un groupe d’appels pour user4 avec user5 et user6 en tant que membres. Tous les appels à des membres du groupe sont transmis dans l’ordre défini : 
+L’exemple suivant utilise l’applet de commande Set-CsUserCallingSettings pour configurer un groupe d’appels pour user4 avec user5 et user6 comme membres. Tous les appels aux membres du groupe sont transférés dans l’ordre dans lequel ils sont définis : 
 
 ```PowerShell
 $cgm = @("user5@contoso.com","user6@contoso.com")
@@ -134,27 +134,27 @@ Set-CsUserCallingSettings -Identity user4@contoso.com -CallGroupOrder InOrder -C
 Set-CsUserCallingSettings -Identity user4@contoso.com -IsForwardingEnabled $true -ForwardingType Immediate -ForwardingTargetType Group
 ```
 
-Pour plus d’exemples, [voir Set-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps).
+Pour plus d’exemples, consultez [Set-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps).
 
-### <a name="add-a-calling-delegate-for-a-user"></a>Ajouter un délégué d’appel pour un utilisateur
+### <a name="add-a-calling-delegate-for-a-user"></a>Ajouter un délégué appelant pour un utilisateur
 
-Pour ajouter user2 en tant que délégué pour user1 avec toutes les autorisations autorisées, utilisez l'New-CsUserCallingDelegate, comme montré dans l’exemple suivant : 
+Pour ajouter user2 en tant que délégué pour user1 avec toutes les autorisations autorisées, utilisez l’applet de commande New-CsUserCallingDelegate, comme illustré dans l’exemple suivant : 
 
 ```PowerShell
 New-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com -MakeCalls $true -ReceiveCalls $true -ManageSettings $true
 ```
 
-### <a name="change-calling-delegate-permissions"></a>Modifier les autorisations de délégué d’appel
+### <a name="change-calling-delegate-permissions"></a>Modifier les autorisations des délégués appelants
 
-Pour modifier les autorisations accordées aux délégués (par exemple, pour ne pas autoriser l’utilisateur2 à effectuer des appels pour l’utilisateur 1), utilisez l'Set-CsUserCallingDelegate cmdlet, comme montré dans l’exemple suivant : 
+Pour modifier les autorisations de délégué, par exemple pour ne pas autoriser user2 à effectuer des appels pour user1, utilisez l’applet de commande Set-CsUserCallingDelegate, comme indiqué dans l’exemple suivant : 
 
 ```PowerShell
 Set-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com -MakeCalls $false
 ```
 
-### <a name="remove-a-calling-delegate-for-a-user"></a>Supprimer un délégué d’appel pour un utilisateur
+### <a name="remove-a-calling-delegate-for-a-user"></a>Supprimer un délégué appelant pour un utilisateur
 
-Pour supprimer user2 en tant que délégué pour user1, utilisez l'Remove-CsUserCallingDelegate, comme illustré dans l’exemple suivant : 
+Pour supprimer user2 en tant que délégué pour user1, utilisez l’applet de commande Remove-CsUserCallingDelegate, comme illustré dans l’exemple suivant : 
 
 ```PowerShell
 Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com
