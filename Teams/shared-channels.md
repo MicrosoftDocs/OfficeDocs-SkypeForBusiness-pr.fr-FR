@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Apprenez à utiliser et à gérer les canaux partagés dans Microsoft Teams (Preview).
-ms.openlocfilehash: 0c66d308ef5182c6ace69a7bdcd004c865109bec
-ms.sourcegitcommit: 3e7c491d2bb13c86ac8e73b1c6c9735660c673e3
+ms.openlocfilehash: feecbdfe45e890b1e302d49bfdcaf7b6d3e19157
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64590382"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817845"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Canaux partagés dans Microsoft Teams (Aperçu)
 
@@ -34,6 +34,8 @@ Vous pouvez utiliser un canal partagé si vous souhaitez collaborer avec un grou
 Seuls les membres des canaux partagés peuvent voir et participer aux canaux partagés auxquels ils sont ajoutés. Les autres membres de l'équipe à laquelle le canal partagé est connecté ne verront pas le canal.
 
 Lorsqu'un canal partagé est créé, il est lié à l'équipe parente et ne peut pas être déplacé vers une autre équipe. En outre, les canaux partagés ne peuvent pas être convertis en canaux standard et vice versa.
+
+[Comparer les canaux partagés avec d’autres types de canaux](/microsoftteams/teams-channels-overview#channel-feature-comparison).
 
 ## <a name="best-practices-for-the-shared-channels-preview"></a>Meilleures pratiques pour l'aperçu des canaux partagés
 
