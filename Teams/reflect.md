@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27a3ed1d46626cb5f46aa3279246953b1dbe9a23
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 62aa82c42acf3ca4477da6da60b1faec6c847be1
+ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363120"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64837447"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Guide d’administration informatique de Reflect dans Microsoft Teams
 
@@ -31,14 +31,20 @@ Cette application de contrôle utilise des emojis et une granularité émotionne
 
 
 ## <a name="privacy-and-security"></a>Confidentialité et sécurité
-Reflect suit les mêmes normes de confidentialité et de sécurité que Insights pour protéger les informations sensibles des étudiants.
+Réflexions suit les mêmes normes de confidentialité et de sécurité que [Éducation Insights](class-insights.md) pour protéger les informations sensibles des étudiants.
 
-Les informations collectées et présentées via Reflect répondent à [plus de 90 normes réglementaires et sectorielles standards](/compliance/regulatory/offering-home), y compris le [RGPD](/compliance/regulatory/gdpr) et la loi de la famille[(Family Educational Rights and Privacy Act) (FERPA)](/compliance/regulatory/offering-ferpa) pour la sécurité des élèves et des enfants, ainsi que d’autres réglementations similaires axées sur la confidentialité.
+Réflexions, dans le cadre de Microsoft 365, respecte les réglementations nationales, régionales et sectorielles en matière de collecte et d’utilisation des données, notamment [RGPD](/compliance/regulatory/gdpr) et le [FERPA (Family Educational Rights and Privacy Act)](/compliance/regulatory/offering-ferpa) qui protège la confidentialité des dossiers d’enseignement des étudiants.
+
+Les données appartiennent à l’établissement, et Microsoft se contente de collecter et de stocker les données. Le personnel de Microsoft ne peut ni accéder aux données ni les consulter, sauf lors d’opérations d'audit (impliquant parfois des récupérations de données) requises pour assurer le bon fonctionnement du service, et ce dans le respect des règles de conformité.
 
 Les étudiants ne voient *jamais* les noms des autres étudiants, seulement leurs réponses. Bien qu’;ils puissent voient la distribution des réponses, ils ne peuvent *pas* voir les noms associés à chaque réflexion. 
 
 > [!NOTE]
 > Si moins de cinq étudiants répondent, aucune donnée n’est affichée aux étudiants. Cela permet de minimiser la possibilité pour les étudiants d’identifier les réponses des autres étudiants.
+
+> [!TIP]
+> * Si vous souhaitez en savoir plus sur la protection de vos données par Microsoft, veuillez visiter le [Centre de gestion de la confidentialité de Microsoft](https://www.microsoft.com/trust-center).
+> * Visitez [Offres de conformité Microsoft](/compliance/regulatory/offering-home) pour découvrir comment Microsoft 365 aider votre établissement à respecter les normes de conformité réglementaire.
 
 ## <a name="data-collection-and-storage"></a>Collecte et stockage de données
 Les données appartiennent à l’établissement scolaire, et Microsoft se contente de collecter et de stocker les données. Le personnel de Microsoft ne peut ni accéder aux données ni les consulter, sauf lors d’opérations d'audit (impliquant parfois des récupérations de données) requises pour assurer le bon fonctionnement du service, et ce dans le respect des règles de conformité.
@@ -75,4 +81,4 @@ Ils peuvent cliquer avec le bouton droit sur l’icône Reflect, puis sélection
 > Vous pouvez également localiser l’application Reflect via ce lien : [https://aka.ms/getReflect](https://aka.ms/getReflect)
 
 > [!TIP]
-> Pour plus d’informations, visitez la [Page de support de Reflect](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a). Cette page fournit des instructions à la fois pour les enseignants et les étudiants, et les aide à créer leur premier contrôle Reflect.
+> Pour plus d’informations, consultez [Page de support de Réflexions](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a). Cette page fournit des instructions pour les enseignants et les étudiants et explique comment créer leur premier contrôle de Réflexions.
