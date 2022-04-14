@@ -1,5 +1,5 @@
 ---
-title: Visites virtuelles avec Teams - Intégration à Epic EHR
+title: Rendez-vous virtuels avec Teams - Intégration à Epic EHR
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -22,31 +22,31 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Découvrez comment intégrer le connecteur Teams DSE pour permettre aux fournisseurs de soins de santé de votre organisation d’effectuer des visites virtuelles avec des patients ou d’autres fournisseurs dans Teams directement à partir du système Epic EHR.
-ms.openlocfilehash: e573c30720383554c9bda8467221ff48a1369e0b
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+description: Découvrez comment intégrer le connecteur Teams DSE pour permettre aux fournisseurs de soins de santé de votre organisation d’effectuer des rendez-vous virtuels avec des patients ou d’autres fournisseurs dans Teams directement à partir du système Epic EHR.
+ms.openlocfilehash: baef8aeda05413ce2f307a4bbea7259490ecfb83
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/14/2022
-ms.locfileid: "64703600"
+ms.locfileid: "64853055"
 ---
-# <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Visites virtuelles avec Teams - Intégration à Epic EHR
+# <a name="virtual-appointments-with-teams---integration-into-epic-ehr"></a>Rendez-vous virtuels avec Teams - Intégration à Epic EHR
 
-Le connecteur de dossiers médicaux électroniques (DSE) Microsoft Teams permet aux cliniciens de lancer facilement une visite ou une consultation de patients virtuels avec un autre fournisseur dans Microsoft Teams directement à partir du système Epic EHR. Basé sur le cloud Microsoft 365, Teams permet une collaboration et une communication simples et sécurisées avec des outils de conversation, de vidéo, de voix et de soins de santé dans un hub unique qui prend en charge la conformité avec HIPAA, la certification HITECH, etc.
+Le connecteur de dossiers médicaux électroniques (DSE) Microsoft Teams permet aux cliniciens de lancer facilement un rendez-vous virtuel ou une consultation avec un autre fournisseur dans Microsoft Teams directement à partir du système Epic EHR. Basé sur le cloud Microsoft 365, Teams permet une collaboration et une communication simples et sécurisées avec des outils de conversation, de vidéo, de voix et de soins de santé dans un hub unique qui prend en charge la conformité avec HIPAA, la certification HITECH, etc.
 
 La plateforme de communication et de collaboration de Teams permet aux cliniciens de s’occuper facilement de l’encombrement des systèmes fragmentés afin qu’ils puissent se concentrer sur la fourniture des meilleurs soins possibles. Avec le connecteur Teams EHR, vous pouvez :
 
-- Lancez Teams visites virtuelles à partir de votre système Epic EHR avec un flux de travail clinique intégré.
-- Permettre aux patients de rejoindre Teams visites virtuelles à partir du portail des patients ou par SMS.
+- Lancez Teams rendez-vous virtuels à partir de votre système Epic EHR avec un flux de travail clinique intégré.
+- Permettre aux patients de rejoindre Teams rendez-vous virtuels à partir du portail des patients ou par SMS.
 - Prenez en charge d’autres scénarios, notamment les services multi-participants, les visites de groupe et les services d’interpréteur.
-- Réécrivez les métadonnées dans le système DSE sur Teams visites virtuelles pour enregistrer lorsque les participants se connectent, se déconnectent et activent l’audit automatique et la conservation des enregistrements.
-- Affichez les rapports de données de consommation et les informations de qualité des appels personnalisables pour les visites connectées à la DSE.
+- Réécrivez les métadonnées dans le système DSE sur Teams rendez-vous virtuels à enregistrer lorsque les participants se connectent, se déconnectent et activent l’audit automatique et la conservation des enregistrements.
+- Affichez les rapports de données de consommation et les informations de qualité des appels personnalisables pour les rendez-vous connectés à la DSE.
 
-Regardez cette vidéo pour obtenir une vue d’ensemble de la gestion des visites virtuelles à partir du portail DSE.
+Regardez cette vidéo pour obtenir une vue d’ensemble de la gestion des rendez-vous virtuels à partir du portail DSE.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
-Cet article explique comment configurer le connecteur Teams EHR pour qu’il s’intègre à la plateforme Epic dans votre organisation de soins de santé. Il vous donne également une vue d’ensemble de l’expérience des visites virtuelles Teams à partir du système Epic EHR.
+Cet article explique comment configurer le connecteur Teams EHR pour qu’il s’intègre à la plateforme Epic dans votre organisation de soins de santé. Il vous donne également une vue d’ensemble de l’expérience de Teams rendez-vous virtuels à partir du système Epic EHR.
 
 ## <a name="before-you-begin"></a>Avant de commencer
 
@@ -130,7 +130,7 @@ Ensuite, pour configurer l’intégration, votre administrateur Microsoft 365 ef
 > [!NOTE]
 > Les notifications SMS sont actuellement disponibles uniquement dans le États-Unis. Nous travaillons à la mise à disposition de cette fonctionnalité dans d’autres régions dans les prochaines versions de Teams et met à jour cet article lorsqu’il sera disponible.
 
-Effectuez cette étape si votre organisation souhaite que Microsoft gère les notifications SMS pour vos patients. Lorsque vous activez les notifications PAR SMS, vos patients reçoivent des messages de confirmation et de rappel pour les visites planifiées.
+Effectuez cette étape si votre organisation souhaite que Microsoft gère les notifications SMS pour vos patients. Lorsque vous activez les notifications PAR SMS, vos patients reçoivent des messages de confirmation et de rappel pour les rendez-vous planifiés.
 
 Pour activer les notifications SMS, votre administrateur Microsoft 365 effectue les opérations suivantes :
 
@@ -159,8 +159,8 @@ Pour activer les notifications SMS, votre administrateur Microsoft 365 effectue 
 
     :::image type="content" source="media/ehr-connector-epic-sms-setup.png" alt-text="Capture d’écran montrant les paramètres d’installation des SMS." lightbox="media/ehr-connector-epic-sms-setup.png":::
 
-    - **SMS de confirmation** : les notifications sont envoyées aux patients lorsqu’une visite est planifiée, mise à jour ou annulée dans le système DSE.
-    - **SMS de rappel** : les notifications sont envoyées aux patients en fonction de l’intervalle de temps que vous spécifiez et de l’heure planifiée de la visite.
+    - **SMS de confirmation** : les notifications sont envoyées aux patients lorsqu’un rendez-vous est planifié, mis à jour ou annulé dans le système DSE.
+    - **SMS de rappel** : les notifications sont envoyées aux patients en fonction de l’intervalle de temps que vous spécifiez et de l’heure planifiée du rendez-vous.
 
     Cliquez sur **Enregistrer**.
 
@@ -197,7 +197,7 @@ Lorsque les informations de configuration sont approuvées par l'administrateur 
 - Enregistrement de configuration SMS
 - Enregistrement de configuration de test d’appareil
 
-L’analyste client Epic doit fournir ces enregistrements à Epic pour terminer la configuration visites virtuelles dans Epic. Pour plus d’informations, consultez le [Guide d’intégration de télésanté Epic-Microsoft Teams](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
+L’analyste client Epic doit fournir ces enregistrements à Epic pour terminer la configuration des rendez-vous virtuels dans Epic. Pour plus d’informations, consultez le [Guide d’intégration de télésanté Epic-Microsoft Teams](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
 > [!Note]  
 > À tout moment, l’analyste client Microsoft 365 ou Epic peut se connecter au portail de configuration pour afficher les enregistrements d’intégration et modifier la configuration de l’organisation, si nécessaire.
@@ -207,11 +207,11 @@ L’analyste client Epic doit fournir ces enregistrements à Epic pour terminer 
 > [!Note]
 > L’analyste client Epic doit terminer le processus d’approbation pour chaque URL de base FHIR configurée par l’administrateur Microsoft 365.
 
-## <a name="launch-teams-virtual-visits"></a>Lancer Teams visites virtuelles
+## <a name="launch-teams-virtual-appointments"></a>Lancer Teams rendez-vous virtuels
 
-Après avoir effectué les étapes du connecteur EHR et la configuration d’Epic, votre organisation est prête à prendre en charge les visites vidéo avec Teams.
+Après avoir effectué les étapes du connecteur EHR et la configuration d’Epic, votre organisation est prête à prendre en charge les rendez-vous vidéo avec Teams.
 
-### <a name="virtual-visits-prerequisites"></a>Conditions préalables aux visites virtuelles
+### <a name="virtual-appointments-prerequisites"></a>Prérequis pour les rendez-vous virtuels
 
 - Vos systèmes doivent répondre à toutes les [exigences en matière de logiciels et de navigateurs](../../hardware-requirements-for-the-teams-app.md) pour Teams.
 
@@ -219,53 +219,53 @@ Après avoir effectué les étapes du connecteur EHR et la configuration d’Epi
 
 ### <a name="provider-experience"></a>Expérience fournisseur
 
-Les fournisseurs de soins de santé de votre organisation peuvent participer à des visites à l’aide de Teams de leurs applications de fournisseur Epic (Hyperspace, Haiku, Canto). Le bouton **Commencer la visite virtuelle** est incorporé dans le flux du fournisseur.
+Les fournisseurs de soins de santé de votre organisation peuvent rejoindre des rendez-vous à l’aide de Teams à partir de leurs applications de fournisseur Epic (Hyperspace, Haiku, Canto). Le bouton **Commencer la visite virtuelle** est incorporé dans le flux du fournisseur.
 
 Principales fonctionnalités de l’expérience fournisseur :
 
-- Les fournisseurs peuvent rejoindre des visites à l’aide de navigateurs pris en charge ou de l’application Teams.
+- Les fournisseurs peuvent rejoindre des rendez-vous à l’aide de navigateurs pris en charge ou de l’application Teams.
 
-- Les fournisseurs doivent se connecter une seule fois avec leur compte Microsoft 365 lors de leur première visite.
+- Les fournisseurs doivent se connecter une seule fois avec leur compte Microsoft 365 lors de la première participation à un rendez-vous.
 
 - Après la connexion unique, le fournisseur est directement conduit au rendez-vous virtuel dans Teams. (Le fournisseur doit être connecté à Teams).
 
-- Les fournisseurs peuvent voir les mises à jour en temps réel des participants se connectant et se déconnectant pour un rendez-vous donné. Les fournisseurs peuvent voir quand le patient est connecté à une visite.
+- Les fournisseurs peuvent voir les mises à jour en temps réel des participants se connectant et se déconnectant pour un rendez-vous donné. Les fournisseurs peuvent voir quand le patient est connecté à un rendez-vous.
 
-  ![Expérience de fournisseur d’une visite avec un patient.](media/ehc-provider-experience-6.png)
+  ![Expérience de fournisseur d’un rendez-vous avec un patient.](media/ehc-provider-experience-6.png)
 
 > [!NOTE]
 > Toutes les informations entrées dans la conversation de réunion nécessaires à la continuité ou à la rétention des dossiers médicaux doivent être téléchargées, copiées et notifiées par le fournisseur de soins de santé. La conversation ne constitue pas un dossier médical légal ou un jeu d’enregistrements désigné. Les messages de la conversation sont stockés en fonction des paramètres créés par l’administrateur Microsoft Teams.
 
 ### <a name="patient-experience"></a>Expérience patient
 
-Le connecteur prend en charge les patients qui rejoignent des visites via MyChart web et mobile. Au moment du rendez-vous, les patients peuvent commencer une visite à partir de MyChart à l’aide du bouton **Commencer la visite virtuelle** .
+Le connecteur prend en charge les patients qui rejoignent des rendez-vous via MyChart web et mobile. Au moment du rendez-vous, les patients peuvent commencer un rendez-vous à partir de MyChart à l’aide du bouton **Commencer la visite virtuelle** .
 
 Principales fonctionnalités de l’expérience du patient :
 
-- Les patients peuvent rejoindre des visites à partir de [navigateurs web modernes sur le bureau et mobile sans avoir à installer l’application Teams](../browser-join.md).
+- Les patients peuvent rejoindre des rendez-vous à partir de [navigateurs web modernes sur le bureau et mobile sans avoir à installer l’application Teams](../browser-join.md).
 
-- Les patients peuvent rejoindre des visites en un seul clic et aucun autre compte ou connexion n’est requis.
+- Les patients peuvent rejoindre des rendez-vous en un seul clic et aucun autre compte ou connexion n’est requis.
 
-- Les patients ne sont pas tenus de créer un compte Microsoft ou de se connecter pour lancer une visite.
+- Les patients ne sont pas tenus de créer un compte Microsoft ou de se connecter pour lancer un rendez-vous.
 
 - Les patients sont placés dans une salle d’attente jusqu’à ce que le fournisseur les rejoigne et les admet.
 
-- Les patients peuvent tester leur vidéo et leur microphone dans la salle d’attente avant de rejoindre la visite.
+- Les patients peuvent tester leur vidéo et leur microphone dans la salle d’attente avant de rejoindre le rendez-vous.
 
-  ![Expérience du patient de la visite.](media/ehc-virtual-visit-5.png)
+  ![Expérience du patient du rendez-vous.](media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic, MyChart, Haiku et Canto sont des marques déposées d'Epic Systems Corporation.
 
-## <a name="get-insight-into-virtual-visits-usage"></a>Obtenir des insights sur l’utilisation des visites virtuelles
+## <a name="get-insight-into-virtual-appointments-usage"></a>Obtenir des insights sur l’utilisation des rendez-vous virtuels
 
-Le [rapport d’utilisation des visites virtuelles](../../teams-analytics-and-reports/virtual-visits-usage-report.md) dans le centre d’administration Microsoft Teams donne aux administrateurs une vue d’ensemble de Teams activité Visites virtuelles dans votre organisation. Le rapport présente des analyses détaillées pour les rendez-vous virtuels, notamment Teams réunions intégrées à la DSE effectuées à partir de votre système de DSE.
+Le [rapport d’utilisation des visites virtuelles](../../teams-analytics-and-reports/virtual-visits-usage-report.md) dans le centre d’administration Microsoft Teams donne aux administrateurs une vue d’ensemble de Teams activité de rendez-vous virtuels dans votre organisation. Le rapport présente des analyses détaillées pour les rendez-vous virtuels, notamment Teams réunions intégrées à la DSE effectuées à partir de votre système de DSE.
 
-Vous pouvez afficher des métriques clés telles que le temps d’attente de la salle d’attente et la durée de la visite. Utilisez ces informations pour obtenir des insights sur les tendances d’utilisation afin de vous aider à optimiser les visites virtuelles pour obtenir de meilleurs résultats métier.
+Vous pouvez afficher les métriques clés telles que le temps d’attente de la salle d’attente et la durée du rendez-vous. Utilisez ces informations pour obtenir des insights sur les tendances d’utilisation afin de vous aider à optimiser les rendez-vous virtuels pour obtenir de meilleurs résultats métier.
 
 ### <a name="privacy-and-location-of-data"></a>Confidentialité et emplacement des données
 
-Teams’intégration aux systèmes DSE optimise la quantité de données utilisées et stockées lors des flux d’intégration et de visites virtuelles. La solution respecte les principes et les directives générales de Teams en matière de confidentialité et de gestion des données, décrits dans Confidentialité Teams.
+Teams’intégration aux systèmes DSE optimise la quantité de données utilisées et stockées pendant les flux d’intégration et de rendez-vous virtuels. La solution respecte les principes et les directives générales de Teams en matière de confidentialité et de gestion des données, décrits dans Confidentialité Teams.
 
 Le connecteur Teams DSE ne stocke ni ne transfère les données personnelles identifiables ni les dossiers de santé des patients ou des fournisseurs de soins de santé à partir du système DSE. Les seules données stockées par le connecteur DMI sont l’ID unique de l’utilisateur DMI (utilisé lors de l’installation d’une réunion Teams).
 
