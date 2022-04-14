@@ -24,10 +24,10 @@ appliesto:
 ms.reviewer: ansantam
 description: Découvrez comment intégrer le connecteur Teams DSE pour permettre aux fournisseurs de soins de santé de votre organisation d’effectuer des visites virtuelles avec des patients ou d’autres fournisseurs dans Teams directement à partir du système Epic EHR.
 ms.openlocfilehash: e573c30720383554c9bda8467221ff48a1369e0b
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "64703600"
 ---
 # <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Visites virtuelles avec Teams - Intégration à Epic EHR

@@ -1,5 +1,5 @@
 ---
-title: Personnaliser des Teams adaptées à vos employés en ligne
+title: Personnaliser Teams applications pour vos employés de première ligne
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Découvrez l’expérience d’application personnalisée pour les employés en ligne Teams.
+description: Découvrez l’expérience d’application personnalisée pour les employés de première ligne dans Teams.
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
@@ -16,26 +16,26 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b526733558570e4903d9dce43094c7ffa0f7de17
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "63774183"
 ---
-# <a name="tailor-teams-apps-for-your-frontline-workers"></a>Personnaliser des Teams adaptées à vos employés en ligne
+# <a name="tailor-teams-apps-for-your-frontline-workers"></a>Personnaliser Teams applications pour vos employés de première ligne
 
 > [!NOTE]
 > [!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
 
 ## <a name="overview"></a>Présentation
 
-Teams fournit un moyen simple d’épingler des applications pour les employés en ligne. Cette fonctionnalité épingle les applications en fonction de leur licence pour offrir à vos employés en ligne une expérience pré-adaptée à Teams leurs besoins.
+Teams offre un moyen simple d’épingler des applications pour les travailleurs de première ligne. Cette fonctionnalité épingle les applications basées sur une licence pour offrir à vos employés de première ligne une expérience de Teams adaptée à leurs besoins.
 
-Grâce à l’expérience personnalisée des applications en avant-première, vos employés de première ligne obtiennent les applications les plus pertinentes au Teams sans aucune action requise de la part de l’administrateur.
+Grâce à l’expérience d’application de première ligne personnalisée, vos employés de première ligne obtiennent les applications les plus pertinentes dans Teams sans aucune action de la part de l’administrateur.
 
-## <a name="tailored-frontline-app-experience"></a>Expérience personnalisée de l’application en ligne
+## <a name="tailored-frontline-app-experience"></a>Expérience d’application de première ligne personnalisée
 
-Les applications sont épinglées à la barre de l’application, qui est la barre dans la partie inférieure des clients mobiles Teams (iOS et Android) et sur le côté du client de bureau Teams. Les applications suivantes sont épinglées pour les utilisateurs titulaires d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) :
+Les applications sont épinglées à la barre des applications, qui est la barre située en bas de la Teams clients mobiles (iOS et Android) et sur le côté du client de bureau Teams. Les applications suivantes sont épinglées pour les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) :
 
 - [Activité](https://support.microsoft.com/office/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)
 - [Conversation](https://support.microsoft.com/office/get-started-with-chat-0b506ce2-eb6d-4fca-9668-e56980ba755e)
@@ -47,61 +47,61 @@ Les applications sont épinglées à la barre de l’application, qui est la bar
 
 **Teams mobile**
 
-:::image type="content" source="media/tailored-teams-apps-mobile.png" alt-text="Expérience personnalisée de l’application en ligne sur Teams mobile" lightbox="media/tailored-teams-apps-mobile.png"::: 
+:::image type="content" source="media/tailored-teams-apps-mobile.png" alt-text="L’expérience d’application de première ligne personnalisée sur Teams mobile" lightbox="media/tailored-teams-apps-mobile.png"::: 
 
-**Teams bureau**
+**bureau Teams**
 
-:::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="Expérience personnalisée de l’application en ligne sur Teams bureau" lightbox="media/tailored-teams-apps-desktop.png"::: 
+:::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="L’expérience d’application de première ligne personnalisée sur Teams bureau" lightbox="media/tailored-teams-apps-desktop.png"::: 
 
 ## <a name="admin-controls"></a>Contrôles d’administration
 
 > [!NOTE]
-> Pour **que cette** fonctionnalité prenne effet, le paramètre d’épinglage utilisateur doit être désactivé [](teams-app-setup-policies.md) dans la stratégie de configuration de l’application globale (à l’échelle de l’organisation par défaut).
+> Le paramètre **d’épinglage utilisateur** doit être activé dans la [stratégie d’installation d’application](teams-app-setup-policies.md) globale (par défaut à l’échelle de l’organisation) pour que cette fonctionnalité prenne effet.
 
-L’expérience personnalisée en ligne des applications est contrôlée par  le paramètre d’application Afficher les applications personnalisées à l’échelle de l’organisation sur [la page Gérer](manage-apps.md#manage-org-wide-app-settings) les applications du Teams d’administration. Si la fonctionnalité est en cours, tous les utilisateurs de votre organisation  titulaires d’une licence F auront l’expérience d’application personnalisée.
+L’expérience d’application de première ligne personnalisée est contrôlée par le paramètre **Afficher les applications personnalisées** à l’échelle de l’organisation sur la page [Gérer les applications](manage-apps.md#manage-org-wide-app-settings) du centre d’administration Teams. Si la fonctionnalité est activée, tous les utilisateurs de votre organisation qui disposent d’une licence F bénéficieront de l’expérience d’application personnalisée.
 
-N’oubliez pas que les stratégies [de configuration d’application](teams-app-setup-policies.md) personnalisées attribuées aux utilisateurs sont prioritaire. Cela signifie que si un utilisateur possède déjà une stratégie de configuration d’application personnalisée, il reçoit la configuration définie dans la stratégie de configuration de l’application personnalisée. Pour en savoir plus sur le fonctionnement de la fonctionnalité avec Teams d’application, notamment la stratégie de configuration globale de l’application, voir la section [Scénarios](#scenarios) plus loin dans cet article.
+N’oubliez pas que toutes les [stratégies d’installation d’application](teams-app-setup-policies.md) personnalisées affectées aux utilisateurs sont prioritaires. Cela signifie que si une stratégie d’installation d’application personnalisée lui est déjà affectée, l’utilisateur obtient la configuration définie dans la stratégie d’installation d’application personnalisée. Pour en savoir plus sur le fonctionnement de la fonctionnalité avec Teams stratégies d’application, notamment la stratégie d’installation d’application globale, consultez la section [Scénarios](#scenarios) plus loin dans cet article.
 
-Cette fonctionnalité est activée par défaut. Toutefois, si vous ne souhaitez pas que l’expérience personnalisée de l’application en ligne fournie par Microsoft soit fournie, vous pouvez désactiver la fonctionnalité. Pour désactiver ou activer la fonctionnalité :
+Cette fonctionnalité est activée par défaut. Toutefois, si vous ne souhaitez pas utiliser l’expérience d’application de première ligne personnalisée fournie par Microsoft, vous pouvez désactiver la fonctionnalité. Pour désactiver ou activer la fonctionnalité :
 
-1. Dans le navigation gauche du Microsoft Teams d’administration, sélectionnez Teams **applications De** >  **gestion des applications**, puis sélectionnez les paramètres de l’application à l’échelle **de l’organisation**.
-2. Sous **Applications personnalisées**, basculez  le bouton bascule Afficher les applications personnalisées **sur Off** ou **On**.
+1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à **Teams applications** **appsManage** > , puis sélectionnez **paramètres d’application à l’échelle de l’organisation**.
+2. Sous **Applications personnalisées**, activez **ou** désactivez l’option **Afficher les applications personnalisées**.
 
-    :::image type="content" source="media/tailored-teams-apps-admin-center.png" alt-text="Capture d’écran du paramètre Afficher les applications personnalisées dans la page Gérer les applications Teams centre d’administration" lightbox="media/tailored-teams-apps-admin-center.png":::
+    :::image type="content" source="media/tailored-teams-apps-admin-center.png" alt-text="Capture d’écran du paramètre Afficher les applications personnalisées sur la page Gérer les applications du Centre d’administration Teams" lightbox="media/tailored-teams-apps-admin-center.png":::
 
 ## <a name="scenarios"></a>Scénarios
 
-### <a name="how-does-the-tailored-frontline-app-experience-affect-my-global-app-setup-policy"></a>En quoi l’expérience de l’application en avant-première personnalisée affecte-t-elle ma stratégie de configuration globale des applications ?
+### <a name="how-does-the-tailored-frontline-app-experience-affect-my-global-app-setup-policy"></a>Comment l’expérience d’application de première ligne personnalisée affecte-t-elle ma stratégie d’installation d’application globale ?
 
-Découvrez comment l’expérience personnalisée de l’application en avant-première fonctionne avec la stratégie de configuration globale de l’application. Les scénarios présentés dans ce tableau s’appliquent aux employés en ligne qui ont une licence F et à la stratégie de configuration globale des applications, avec **l’épinglage** utilisateur désactivé.
+Découvrez comment l’expérience d’application de première ligne personnalisée fonctionne avec la stratégie d’installation d’application globale. Les scénarios de ce tableau s’appliquent aux travailleurs de première ligne qui disposent d’une licence F et de la stratégie globale d’installation de l’application, avec **l’épinglage utilisateur** activé.
 
 |Si... |Puis... |
 |---------|---------|
-|Un employé en ligne dispose de la stratégie de configuration globale de l’application et la fonctionnalité est off. |Les applications sont définies par le travailleur en ligne dans la stratégie de configuration globale des applications.|
-|Un employé en ligne dispose de la stratégie de configuration globale des applications et la fonctionnalité est mise en place.     | L’employé en première ligne obtient l’expérience personnalisée de l’application en première ligne. Les applications définies dans la stratégie de configuration d’application globale sont épinglées sous les applications personnalisées.      |
-|Vous mettez à jour la stratégie de configuration de l’application globale et la fonctionnalité est mise en place.     |Les employés en ligne sont en mesure de se faire une expérience d’application en avant-première personnalisée, et les applications définies dans la stratégie de configuration globale des applications sont épinglées sous les applications personnalisées.         |
-|Un employé en ligne a la stratégie de configuration globale de l’application et **l’épinglage** d’utilisateurs est désactivé. |Les applications sont définies par le travailleur en ligne dans la stratégie de configuration globale des applications.|
-|Un collègue en ligne dispose de la stratégie de configuration globale des applications, et la stratégie de configuration globale de l’application est modifiée pour inclure une application métier à la deuxième position dans la liste d’applications. |L’applicationob est épinglée sous les applications personnalisées. L’employé en ligne peut modifier l’ordre de l’application **si l’épinglage d’utilisateur** est déjà en cours.         |
-|Un employé en ligne a la stratégie de configuration globale, et la stratégie de configuration d’applications globale est modifiée pour inclure Shifts à la première position.  |Shifts est épinglé à la sixième position, telle que définie par l’expérience personnalisée de l’application en ligne. L’employé en ligne peut modifier l’ordre de l’application **si l’épinglage d’utilisateur** est déjà en cours.          |
+|Un worker de première ligne a la stratégie d’installation d’application globale et la fonctionnalité est désactivée. |Le worker de première ligne obtient les applications définies dans la stratégie d’installation d’application globale.|
+|Un worker de première ligne a la stratégie d’installation d’application globale et la fonctionnalité est activée.     | Le worker de première ligne obtient l’expérience d’application de première ligne personnalisée. Les applications définies dans la stratégie globale d’installation des applications sont épinglées sous les applications personnalisées.      |
+|Vous mettez à jour la stratégie d’installation de l’application globale et la fonctionnalité est activée.     |Le worker de première ligne obtient l’expérience d’application de première ligne personnalisée et les applications définies dans la stratégie globale d’installation des applications sont épinglées sous les applications personnalisées.         |
+|Un worker de première ligne a la stratégie d’installation d’application globale et **l’épinglage utilisateur** est désactivé. |Le worker de première ligne obtient les applications définies dans la stratégie d’installation d’application globale.|
+|Un worker de première ligne a la stratégie d’installation d’application globale, et la stratégie d’installation d’application globale est modifiée pour inclure une application métier à la deuxième position dans la liste des applications. |L’application métier est épinglée sous les applications personnalisées. Le worker de première ligne peut modifier l’ordre de l’application si **l’épinglage de l’utilisateur** est activé.         |
+|Un worker de première ligne a la stratégie d’installation globale et la stratégie d’installation d’application globale est modifiée pour inclure Shifts en première position.  |Les décalages sont épinglés à la sixième position, comme défini par l’expérience d’application de première ligne personnalisée. Le worker de première ligne peut modifier l’ordre de l’application si **l’épinglage de l’utilisateur** est activé.          |
 
-### <a name="how-does-the-tailored-frontline-app-experience-work-with-other-teams-app-policies"></a>Comment l’expérience d’application personnalisée en ligne fonctionne-t-elle avec d’Teams d’application ?
+### <a name="how-does-the-tailored-frontline-app-experience-work-with-other-teams-app-policies"></a>Comment l’expérience d’application de première ligne personnalisée fonctionne-t-elle avec d’autres stratégies d’application Teams ?
 
-Découvrez comment l’expérience personnalisée de l’application en ligne fonctionne avec d’Teams d’application.
+Découvrez comment l’expérience d’application de première ligne personnalisée fonctionne avec d’autres stratégies d’application Teams.
 
 |Si...  |Puis... |
 |---------|---------|
-La fonctionnalité est off.   | Les applications sont définies par les employés en ligne dans la stratégie de configuration globale des applications ou la stratégie de configuration personnalisée de l’application qui leur est affectée.          |
-|Un employé en ligne dispose d’une stratégie de configuration d’application personnalisée et la fonctionnalité est mise en place.    |Les applications sont définies par le travailleur en ligne dans la stratégie de configuration de l’application personnalisée.          |
-|Une application en première ligne personnalisée est bloquée pour un utilisateur ou votre organisation.      |L’expérience personnalisée de l’application en ligne est adaptée à la stratégie [d’autorisation de l’application](teams-app-permission-policies.md). Si une application est bloquée, le travailleur en première ligne ne verra pas l’application bloquée.           |
-|Une application de l’expérience personnalisée en ligne est déjà définie dans une stratégie de configuration d’application et la fonctionnalité est mise en place. |L’application est épinglée selon l’ordre défini par la liste d’applications personnalisée.        |
-|Un utilisateur dispose d’une licence E, A ou G et la fonctionnalité est en cours.   | L’utilisateur n’a pas accès à l’expérience personnalisée de l’application en ligne. Pour l’instant, l’expérience s’applique uniquement aux utilisateurs  titulaires d’une licence F.        |
+La fonctionnalité est désactivée.   | Le worker de première ligne obtient les applications définies dans la stratégie d’installation d’application globale ou la stratégie d’installation d’application personnalisée qui leur est affectée.          |
+|Un worker de première ligne a une stratégie de configuration d’application personnalisée et la fonctionnalité est activée.    |Le worker de première ligne obtient les applications définies dans la stratégie d’installation d’application personnalisée.          |
+|Une application dans l’expérience d’application de première ligne personnalisée est bloquée pour un utilisateur ou pour votre organisation.      |L’expérience d’application de première ligne personnalisée respecte la [stratégie d’autorisation de l’application](teams-app-permission-policies.md). Si une application est bloquée, le worker de première ligne ne voit pas l’application bloquée.           |
+|Une application dans l’expérience d’application de première ligne personnalisée est déjà définie dans une stratégie d’installation d’application et la fonctionnalité est activée. |L’application est épinglée en fonction de l’ordre défini par la liste des applications personnalisées.        |
+|Un utilisateur dispose d’une licence E, A ou G et la fonctionnalité est activée.   | L’utilisateur n’obtient pas l’expérience d’application de première ligne personnalisée. Actuellement, l’expérience s’applique uniquement aux utilisateurs disposant d’une licence F.        |
 
 > [!NOTE]
-> Vous ne pouvez pas modifier les applications ou l’ordre des applications selon l’expérience personnalisée en ligne des applications. Pour l’instant, si vous voulez apporter des modifications, vous pouvez configurer votre propre expérience personnalisée. Pour ce faire, vous pouvez tout d’abord désactiver la fonctionnalité. Ensuite, [créez une stratégie de configuration d’application](teams-app-setup-policies.md) personnalisée et [affectez-la à des utilisateurs ou des groupes](assign-policies-users-and-groups.md).
+> Vous ne pouvez pas modifier les applications ou l’ordre des applications dans l’expérience d’application de première ligne personnalisée. Pour l’instant, si vous souhaitez apporter des modifications, vous pouvez configurer votre propre expérience personnalisée. Pour ce faire, commencez par désactiver la fonctionnalité. Ensuite, [créez une stratégie d’installation d’application personnalisée](teams-app-setup-policies.md) et [attribuez-la à des utilisateurs ou des groupes](assign-policies-users-and-groups.md).
 
 ## <a name="related-articles"></a>Articles connexes
 
-- [Gérer l’application Talkie-walkie dans Teams](walkie-talkie.md)
+- [Gérer l’application Walkie Talkie dans Teams](walkie-talkie.md)
 - [Gérer l’application Tâches dans Teams](manage-tasks-app.md)
 - [Gérer l’application Shifts dans Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Gérer l’application Approbations dans Teams](approval-admin.md)

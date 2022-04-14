@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams, qui fournit un message d’accueil, de la musique de suspension, la redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: 4c23b03e75c9433bcf5af6d4a5aa57e81447a74d
-ms.sourcegitcommit: 823ad7fe5f7a27f681c95b2d369ce2cbe71cfdfe
+ms.openlocfilehash: 4e194a315abecdf779a2df48c7fbb7b6412693cc
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64691459"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64846543"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -178,7 +178,7 @@ La **méthode de routage** détermine l’ordre dans lequel les agents reçoiven
 > 
 > Lorsque vous utilisez **l’inactivité la plus longue** et qu’il y a moins d’appels en file d’attente que les agents disponibles, seuls les deux premiers agents inactifs les plus longs sont présentés avec les appels de la file d’attente.
 > 
-> Lorsque vous utilisez **l’inactivité la plus longue** , il peut arriver qu’un agent reçoive un appel de la file d’attente peu après son indisponibilité ou s’il y a un court délai pour recevoir un appel de la file d’attente après être devenu disponible.
+> Lorsque vous utilisez **l’inactivité la plus longue** , il peut arriver qu’un agent reçoive un appel de la file d’attente peu de temps après être devenu indisponible ou un court délai de réception d’un appel de la file d’attente après être devenu disponible.
 > 
 > La présentation des appels de file d’attente d’appels aux agents peut entrer en conflit avec les restrictions de routage basé sur l’emplacement. Dans ce cas, l’agent reçoit un toast d’appel, mais ne peut pas répondre à l’appel. Cette condition se poursuit jusqu’à ce qu’un autre agent soit disponible pour répondre à l’appel, que l’appelant raccroche ou que la condition de délai d’expiration de la file d’attente d’appel se produise.  
 
@@ -195,6 +195,8 @@ Si un agent refuse de recevoir des appels, il ne sera pas inclus dans la liste d
 > Lorsque **l’inactivité la plus longue** est sélectionnée comme méthode de routage, le routage basé sur la présence est requis et automatiquement activé, même si le bouton bascule de routage basé sur la présence est **désactivé** et grisé.
 >
 > Si le routage basé sur la présence n’est pas activé et qu’il y a plusieurs appels dans la file d’attente, le système présentera ces appels simultanément aux agents, quel que soit leur statut de présence. Cela entraînera plusieurs notifications d’appels aux agents, en particulier si certains agents ne répondent pas à l’appel initial qui leur est présenté.
+>
+> Lors de l’utilisation du **routage basé sur la présence** , il peut arriver qu’un agent reçoive un appel de la file d’attente peu après son indisponibilité ou un court délai pour recevoir un appel de la file d’attente après être devenu disponible.
 > 
 > Les agents qui utilisent le client Skype Entreprise ne sont pas inclus dans la liste de routage des appels lorsque le routage basé sur la présence est activé. Si certains de vos agents utilisent Skype Entreprise, n’activez pas le routage des appels basé sur la présence.
 
@@ -363,7 +365,7 @@ Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suiva
 
 3. Les tests retournent les meilleures étapes suivantes pour traiter les configurations de locataire, de stratégie et de compte de ressource pour vérifier que la file d’attente d’appels est en mesure de recevoir des appels.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Voici ce que vous obtenez avec Téléphonie Microsoft Teams](here-s-what-you-get-with-phone-system.md)
 

@@ -13,14 +13,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Cet article explique comment configurer votre organisation et salles Teams des appareils pour prendre en charge la participation de réunions tierces à Cisco WebEx et Zoom.
-ms.openlocfilehash: 04be17003e39890ba74d6c7c4fc2393ba809f5c6
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 6defa9c9287b130eb5534f0aea158a78f2de8b18
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817665"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64846603"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Activer les appareils Teams Room pour participer à des réunions tierces
+
+> [!NOTE]
+> Cette fonctionnalité n’est actuellement disponible que sur salles Teams sur Windows.
 
 Salles Microsoft Teams appareils prennent en charge une expérience tactile permettant de participer à des réunions en ligne tierces, également appelées participations directes à des invités. Lorsque cette option est activée, vous pouvez utiliser salles Teams pour participer à des réunions hébergées sur Cisco WebEx et Zoom tout aussi facilement que vous pouvez participer à des réunions hébergées dans Microsoft Teams.
 

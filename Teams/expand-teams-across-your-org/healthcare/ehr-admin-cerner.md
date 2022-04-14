@@ -24,10 +24,10 @@ appliesto:
 ms.reviewer: ansantam
 description: Découvrez comment intégrer le connecteur Teams DSE pour permettre aux prestataires de soins de santé de votre organisation d’effectuer des visites virtuelles avec des patients ou d’autres fournisseurs dans Teams directement à partir du système Cerner EHR.
 ms.openlocfilehash: b5a5a860036b3b561d5a6e18a13b71e072998aa4
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "64703690"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>Visites virtuelles avec Teams - Intégration à Cerner EHR

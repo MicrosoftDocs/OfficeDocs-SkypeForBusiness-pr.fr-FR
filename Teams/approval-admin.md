@@ -19,10 +19,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 37c899c1507a28f51bb881a9e7e66de6d7af0d58
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "64643068"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
@@ -30,24 +30,24 @@ ms.locfileid: "64643068"
 L’application Approbations est disponible en tant qu’application personnelle pour tous les utilisateurs de Microsoft Teams.
 L’application Approbations offre un moyen simple d’apporter des audits, de la conformité, de la responsabilité et des flux de travail à des approbations structurées et non structurées dans Teams.
 
- ![affiche l’application Approbations.](media/approvals-selection.png)
+ ![affiche l’application d’approbations.](media/approvals-selection.png)
 
 Les utilisateurs peuvent épingler l’application Approbations pour l’enregistrer dans la barre de menus.
 
- ![affiche l’application Approbations avec l’option épingler.](media/approvalApp-pin.png)
+ ![affiche l’application d’approbations avec l’option épingler.](media/approvalApp-pin.png)
 
-La première approbation créée à partir de l Approbations application déclenche la mise en service de la solution d’approbation dans l’environnement Microsoft Dataverse par défaut. Approbations créée à partir de Approbations’application sera stockée dans l’environnement Microsoft Dataverse par défaut.
+La première approbation créée à partir de l’application Approbations déclenche l’approvisionnement de la solution d’approbation dans l’environnement Microsoft Dataverse par défaut. Approbations créé à partir de l’application Approbations est stocké dans l’environnement Microsoft Dataverse par défaut.
 
 Cet article décrit la exigences et les rôles de l’application Approbations.
 
 > [!NOTE]
-> Cette fonctionnalité n’a pas encore été publiée pour les Cloud de la communauté du secteur public du département de la défense (GCCH) et du département de la défense (DOD).
+> Cette fonctionnalité n’a pas encore été publiée pour les utilisateurs Cloud de la communauté du secteur public High (GCCH) et department of Defense (DOD).
 
 ## <a name="required-permissions-and-licenses"></a>Autorisations et licences requises
 
-Pour déployer l’Approbations, vous devez obtenir une autorisation pour les éléments suivants :
+Pour déployer l’application Approbations, vous avez besoin d’une autorisation pour les éléments suivants :
 
-- Autorisations de création d’une base de données Microsoft Dataverse.
+- Autorisations pour créer une base de données Microsoft Dataverse.
 
 - Un compte sur [powerautomate.microsoft.com](https://powerautomate.microsoft.com/)
 
@@ -55,22 +55,22 @@ Pour déployer l’Approbations, vous devez obtenir une autorisation pour les é
 
 - Licence pour [Power Automate](/power-automate/get-started-approvals), Office 365 ou Dynamics 365.
 
-- Une licence de Microsoft Forms est requise pour que les utilisateurs définissent de nouveaux modèles d’approbation.
+- Une licence pour Microsoft Forms est requise pour que les utilisateurs configurent de nouveaux modèles d’approbation.
 
-Pour utiliser l’application Approbations, vous avez besoin d’une licence pour Power Automate. Votre compte est automatiquement ajouté au rôle utilisateur Approbations dans l’environnement cible lors de votre première affectation d’approbation.
+Pour utiliser l’application Approbations, vous avez besoin d’une licence pour Power Automate, et votre compte est ajouté automatiquement au rôle d’utilisateur Approbations dans l’environnement cible lors de votre première affectation d’approbation.
 
 ## <a name="storage-with-microsoft-dataverse"></a>Stockage avec Microsoft Dataverse
 
-Le modèle de données commun (CDM) est le langage de données partagé utilisé par les applications d’analyse et d’entreprise dans Microsoft Dataverse. Il se compose d’un ensemble de schémas de données standardisés et extensibles publiés par Microsoft et nos partenaires qui permettent la cohérence des données et leur signification au sein des applications et des processus d’entreprise. En savoir plus sur [Modèle de données courant de Microsoft Power Platform](/power-automate/get-started-approvals).
+Common Data Model (CDM) est le langage de données partagé utilisé par les applications métier et analytiques dans Microsoft Dataverse. Il se compose d’un ensemble de schémas de données normalisés et extensibles publiés par Microsoft et nos partenaires, qui permet la cohérence des données et sa signification entre les applications et les processus métier. En savoir plus sur [Modèle de données courant de Microsoft Power Platform](/power-automate/get-started-approvals).
 
 En savoir plus sur le [flux d’approbation](/power-automate/modern-approvals).
 
-Approbations créés à partir d’un modèle stockent toujours des données dans Microsoft Dataverse, telles que leur titre, leurs détails, leur ID de modèle, etc. Les réponses envoyées sur la demande d’approbation sont stockées dans Forms. En savoir plus sur  [le stockage des données pour Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+Approbations qui sont créées à partir d’un modèle stockent toujours des données dans Microsoft Dataverse, telles que leur titre, leurs détails, leur ID de modèle, etc. Les réponses envoyées lors de la demande d’approbation sont stockées dans les formulaires. En savoir plus sur le  [stockage de données pour Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
->Si vous supprimez le modèle de formulaire sur le site Microsoft Forms, votre modèle d’approbation sera insérez et les utilisateurs ne pourront pas démarrer la demande. Les utilisateurs obtiennent une erreur « CDB TableNotFound » lorsqu’ils essaient d’ouvrir un modèle d’approbation qui a été supprimé Microsoft Forms.
+>Si vous supprimez le modèle de formulaire sur le site Microsoft Forms, il interrompt votre modèle d’approbation et les utilisateurs ne pourront pas démarrer la demande. Les utilisateurs recevront une erreur « CDB TableNotFound » lors de la tentative d’ouverture d’un modèle d’approbation qui a été supprimé sur Microsoft Forms.
 
-Les modèles à l’échelle de l’organisation partagent la même durée de vie du client et les modèles d’équipe partagent la même durée de vie de l’équipe. Par conséquent, la suppression définitive de l’équipe supprime les modèles associés.
+Les modèles d’organisation partagent la même durée de vie du locataire et les modèles d’équipe partagent la même durée de vie de l’équipe. Par conséquent, la suppression définitive de l’équipe supprime les modèles associés.
 
 ## <a name="approvals-teams-app-permissions"></a>Autorisations de l’application Autorisations Teams
 
@@ -99,10 +99,10 @@ Autorisations du modèle d’approbation
 
 - Tous les propriétaires d’équipe peuvent créer un modèle d’approbation pour les équipes dont ils sont propriétaires.
 
-- Lorsqu’un administrateur crée un modèle pour l’ensemble de son organisation pour la première fois, il crée automatiquement un nouveau groupe de Azure Active Directory (AAD) pour tous les administrateurs du client, y compris les administrateurs de services Teams. Ces administrateurs seront ajoutés en tant que propriétaires du groupe, de sorte qu’ils pourront co-gérer les modèles d’organisation. Les administrateurs qui débutent dans l’organisation une fois l’équipe créée doivent être ajoutés manuellement en tant que propriétaires de groupe afin qu’ils disposent des mêmes autorisations pour gérer les modèles à l’échelle de l’organisation.
+- Lorsqu’un administrateur crée un modèle pour l’ensemble de son organisation pour la première fois, il crée automatiquement un groupe de Azure Active Directory (AAD) pour tous les administrateurs du locataire, y compris les administrateurs de service globaux et Teams. Ces administrateurs seront ajoutés en tant que propriétaires du groupe, afin qu’ils puissent co-gérer les modèles d’organisation. Les administrateurs qui débutent dans l’organisation après la création de l’équipe doivent être ajoutés manuellement en tant que propriétaires de groupe afin de disposer des mêmes autorisations pour gérer les modèles à l’échelle de l’organisation.
 
 > [!Note]
-> Si un administrateur supprime le groupe, vous avez un mois pour le restaurer dans le portail Azure Active Directory (AAD) afin de restaurer toutes les données associées. Après un mois, ou si l’administrateur supprime ce groupe dans la Corbeille, vous perdrez toutes les données associées.
+> Si un administrateur supprime le groupe, vous avez un mois pour le restaurer dans le portail Azure Active Directory (AAD) pour restaurer toutes les données associées. Au bout d’un mois, ou si l’administrateur supprime ce groupe dans la corbeille, vous perdrez toutes les données associées.
 
 ## <a name="disable-the-approvals-app"></a>Gérer l'application Approbations
 
@@ -114,29 +114,29 @@ L’application Approbations est disponible par défaut. Vous pouvez désactiver
 
   3. Recherchez l’application Approbations.
 
-     ![affiche la navigation dans le Centre d’administration avec Teams applications et > l’application Gérer les applications mise en évidence.](media/manage-approval-apps.png)
+     ![affiche la navigation du Centre d’administration avec Teams Applications > Gérer les applications en surbrillance.](media/manage-approval-apps.png)
 
-  4. **Sélectionnez Approbations**.
+  4. Sélectionnez **Approbations**.
 
   5. Sélectionnez le bouton bascule pour désactiver l’application pour votre organisation.
 
-     :::image type="content" alt-text="affiche les détails de l’Approbations’application." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
+     :::image type="content" alt-text="affiche les détails de l’application Approbations." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
 ## <a name="app-policies"></a>Stratégies d’application
 
 ### <a name="retention-policy"></a>Stratégie de rétention
 
-Approbations créées à partir de l’application Approbations sont stockés dans l’environnement Microsoft Dataverse par défaut, qui ne prend pas en charge les sauvegardes pour le moment. En savoir plus sur la [Sauvegarde et restauration des environnements : Plateforme Power \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
+Approbations créées à partir de l’application Approbations sont stockées dans l’environnement Microsoft Dataverse par défaut, qui ne prend pas en charge les sauvegardes pour l’instant. En savoir plus sur la [Sauvegarde et restauration des environnements : Plateforme Power \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
-Les données stockées dans Forms ne sont pas supprimées tant que les propriétaires d’équipe ne  les ont pas effacées à partir de l’onglet Formulaires supprimés dans Microsoft Forms’application web.
+Les données stockées dans forms ne seront pas supprimées tant que les propriétaires de l’équipe ne les auront pas nettoyées de l’onglet **Formulaires supprimés** de l’application web Microsoft Forms.
 
 ### <a name="conditional-access-policies"></a>Stratégies d’accès conditionnel
 
-Actuellement, l’Approbations dans Teams ne prend pas en charge les stratégies d’accès conditionnel définies pour Microsoft Teams.
+Actuellement, l’application Approbations dans Teams ne prend pas en charge les stratégies d’accès conditionnel définies pour Microsoft Teams.
 
-## <a name="data-limitations"></a>Limites de données
+## <a name="data-limitations"></a>Limitations des données
 
-Chaque équipe peut contenir au maximum 400 modèles d’approbations, et chaque modèle peut collecter un maximum de 50 000 demandes en fonction des fonctionnalités actuelles de Microsoft Forms.
+Chaque équipe peut contenir au plus 400 modèles d’approbation, et chaque modèle peut collecter un maximum de 50 000 demandes en fonction de la fonctionnalité actuelle dans Microsoft Forms.
 
 ## <a name="auditing"></a>Audit
 
@@ -168,7 +168,7 @@ Vous pouvez rechercher les activités suivantes :
 
 - Ajout d’une signature électronique à une demande d’approbation
 
-- Affichage des détails de la demande de signature électronique
+- Afficher les détails de la demande de signature électronique
 
 - Demande de signature électronique examinée
 
@@ -180,9 +180,9 @@ Vous pouvez rechercher les activités suivantes :
 
 - Activer/désactiver un modèle
 
-- Modèle affichage
+- Modèle affiché
 
-Pour accéder à d’autres approbations d’audit dans Power Automate, activez et configurez l’audit dans l’environnement par défaut pour les entités d’approbation principale Approbation, Demande d’approbation et Réponse d’approbation. Les opérations de création, de mise à jour et de suppression sont des événements auditables pour les enregistrements d’approbation. En savoir plus sur [Audit des données et de l’activité des utilisateurs pour des raisons de sécurité et de conformité : Plateforme Power \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
+Pour accéder à d’autres approbations d’audit dans Power Automate, activez et configurez l’audit dans l’environnement par défaut pour les entités d’approbation principales : approbation, demande d’approbation et réponse d’approbation. Les opérations de création, de mise à jour et de suppression sont des événements auditables pour les enregistrements d’approbation. En savoir plus sur [Audit des données et de l’activité des utilisateurs pour des raisons de sécurité et de conformité : Plateforme Power \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
 
 L’audit peut être personnalisé davantage dans le [Centre de conformité et sécurité Microsoft 365](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).
 
@@ -201,20 +201,20 @@ En savoir plus sur [Journalisation des activités de Microsoft Dataverse et des 
 > [!Note]
 > Un utilisateur a le rôle de visionneuse d’une demande s’il fait partie de la conversation ou du canal sur lequel l’approbation a été créée. Il ne peut pas agir sur la demande si ce rôle ne lui a pas été affecté lors de la création de l’approbation.
 
-## <a name="approvals-e-signature-integration"></a>Approbations’intégration des signatures électronique
+## <a name="approvals-e-signature-integration"></a>Approbations’intégration de signature électronique
 
-Pour utiliser la Approbations signature électronique de l’application, vous avez besoin d’une licence pour le fournisseur de signature électronique spécifique que vous voulez utiliser. Pour obtenir une licence pour votre organisation, vous devez vous rendre sur le site du fournisseur.
+Pour utiliser la fonctionnalité de signature électronique d’application Approbations, vous avez besoin d’une licence pour le fournisseur de signature électronique spécifique que vous souhaitez utiliser. Pour obtenir une licence pour votre organisation, vous devez accéder au site du fournisseur.
 
 ### <a name="enable-or-disable-e-signature-providers"></a>Activer ou désactiver les fournisseurs de signature électronique
 
-Le Centre Teams d’administration vous permet de contrôler quels fournisseurs de signature électronique tiers sont disponibles pour vos utilisateurs dans l Approbations appe. Par défaut, les fournisseurs de signature électronique sont activés dans l’Approbations messagerie. Lorsque vous désactivez un fournisseur de signature électronique, vos utilisateurs n’y ont pas accès lorsqu’ils créent des approbations. Vos utilisateurs ne pourront pas non plus afficher les demandes de signature électronique créées à l’aide de ce fournisseur.
+Vous pouvez utiliser le centre d’administration Teams pour contrôler les fournisseurs de signature électronique tiers disponibles pour vos utilisateurs dans l’application Approbations. Par défaut, les fournisseurs de signatures électroniques sont activés dans l’application Approbations. Lorsque vous désactivez un fournisseur de signature électronique, vos utilisateurs n’ont pas accès à ce fournisseur lorsqu’ils créent des approbations. Vos utilisateurs ne pourront pas non plus afficher les demandes de signature électronique qui ont été créées à l’aide de ce fournisseur.
 
-1. Dans le panneau de navigation gauche du Teams d’administration, Teams **applications** **AppsManage** > .
-2. Recherchez l’Approbations, puis sélectionnez-la.
-3. Dans **l’Paramètres**, puis faites une ou plusieurs des choses suivantes :
+1. Dans le volet de navigation gauche du centre d’administration Teams, accédez à **Teams applications** **AppsManage** > .
+2. Recherchez l’application Approbations, puis sélectionnez-la.
+3. Accédez à l’onglet **Paramètres**, puis effectuez une ou plusieurs des opérations suivantes :
 
-    - Pour activer ou désactiver Adobe Sign, activez ou désactivez **le** **bouton bascule**.
-    - Pour activer ou désactiver DocuSign, activez ou désactivez **le** **bouton bascule**.
-4. **Sélectionnez Envoyer**.
+    - Pour activer ou désactiver Adobe Sign, activez **ou** **désactivez** le bouton bascule.
+    - Pour activer ou désactiver DocuSign, activez **ou** **désactivez** le bouton bascule.
+4. Sélectionnez **Envoyer**.
 
-Les approbations de signature électronique créées à partir Approbations’application sont stockées dans l’environnement cloud du fournisseur sélectionné. Pour exporter des données relatives aux signatures électronique, vous devez vous rendre sur le site du fournisseur. Pour plus d’informations sur le stockage, l’exportation et la rétention des contrats de signature électronique, consultez la documentation du fournisseur.
+Les approbations de signature électronique créées à partir de l’application Approbations sont stockées dans l’environnement cloud du fournisseur sélectionné. Pour exporter des données sur les signatures électroniques, vous devez accéder au site du fournisseur. Pour plus d’informations sur le stockage, l’exportation et la rétention des contrats de signature électronique, consultez la documentation du fournisseur.
