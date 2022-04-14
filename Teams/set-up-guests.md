@@ -1,5 +1,5 @@
 ---
-title: Activer ou désactiver l'accès invité dans Microsoft Teams
+title: Activer ou désactiver l’accès invité dans Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -22,62 +22,64 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Découvrez comment activer ou désactiver la fonctionnalité d'accès invité dans Microsoft Teams en tant qu'administrateur d'Office 365.
-ms.openlocfilehash: 2b444b8357d8edef9aaa1c9c8e72ae6762f5bd52
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: 1658ef97dd172209a965088caa2842a71e09e4e7
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138240"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839195"
 ---
-# <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Activer ou désactiver l'accès invité dans Microsoft Teams
+# <a name="turn-guest-access-in-microsoft-teams-on-or-off"></a>Activer ou désactiver l’accès invité dans Microsoft Teams
 
-> [!Note]
->
-> **Jusqu’en février 2021,** l’accès invité est désactivé par défaut. Vous devez activer l'accès invité pour Teams avant que les administrateurs ou les propriétaires d'équipes puissent ajouter des invités. Une fois l’accès invité activer, l’application des modifications peut prendre quelques heures. Si les utilisateurs voient le **message** Contacter votre administrateur lorsqu’ils essaient d’ajouter un invité à leur équipe, il est probable que l’accès invité n’a pas été désactivé ou que les paramètres ne sont pas encore effectifs.
->
-> Après **février 2021,** l’accès invité dans Microsoft Teams sera désactivé par défaut pour les nouveaux clients & clients existants qui n’ont pas configuré ce paramètre. Lorsque cette modification est implémentée, si vous n’avez pas encore configuré la fonctionnalité d’accès invité dans Microsoft Teams, cette fonctionnalité sera activée dans votre client. Si vous souhaitez que l’accès invité reste désactivé pour votre organisation, vous  devez confirmer que le paramètre d’accès invité est définie sur Désactivé au lieu de Service **par défaut.**
+Cet article explique comment configurer les paramètres d’accès invité , notamment les appels, les réunions et les conversations , dans Teams. L’accès invité dans Teams nécessite également la configuration d’autres paramètres dans Microsoft 365, notamment les paramètres dans Azure AD, Groupes Microsoft 365 et SharePoint. Si vous êtes prêt à commencer à inviter des personnes à faire partie d'une équipe, lisez ce qui suit :
 
-> [!IMPORTANT]
-> L'activation de l'accès invité dépend des paramètres d'Azure Active Directory, de Microsoft 365, de SharePoint et de Teams. Pour plus d’information, consultez [Collaborer avec des invités dans une équipe](/microsoft-365/solutions/collaborate-as-team).
+- Pour configurer l’accès invité pour Teams à des fins d’utilisation générale, consultez [Collaborer avec des invités dans une équipe](/microsoft-365/solutions/collaborate-as-team).
+- Pour collaborer avec une organisation partenaire qui utilise Azure Active Directory et autoriser les invités à s’inscrire automatiquement pour l’accès d’équipe, consultez [créer un extranet B2B avec des invités gérés](/microsoft-365/solutions/b2b-extranet).
+
+> [!NOTE]
+> Si vous voulez simplement rechercher, appeler, discuter et configurer des réunions avec des personnes d’autres organisations, utilisez [Accès externe](manage-external-access.md).
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Configurer l’accès invité dans le centre d’administration de Teams
 
 1. Se connecter au [Centre d’administration de Microsoft Teams](https://admin.teams.microsoft.com/).
 
-2. Sélectionnez **Accès**  >  **invité des utilisateurs.**
+2. Sélectionnez **l’accès** **UsersGuest** > .
 
-3. Définissez **Autoriser l’accès invité Teams** **sur.**
+3. Définissez **Autoriser l’accès invité dans Teams** **sur Activé**.
 
-    ![Autoriser le commutateur d’accès invité sur On.](media/guest-access-setting.png)
+    ![Autoriser le commutateur d’accès invité défini sur Activé .](media/guest-access-setting.png)
 
-4. Sous **Appel,** **Réunion** et **Messagerie,**  sélectionnez **Sur** ou Off pour chaque fonctionnalité, selon ce que vous voulez autoriser pour les invités.
+4. Sous **Appel**, **Réunion** et **Messagerie**, sélectionnez **Activé** ou **Désactivé** pour chaque fonctionnalité, en fonction de ce que vous souhaitez autoriser pour les invités.
 
       - **Passer des appels privés** : mettre ce paramètre sur **On** pour permettre aux invités d’effectuer des appels privés.
-      - **Vidéo IP** : activer ce **paramètre** pour permettre aux invités d’utiliser la vidéo dans leurs appels et réunions.
-      - **Mode partage d’écran** : ce paramètre contrôle la disponibilité du partage d’écran pour les invités.
+      - **Vidéo IP** : activez **ce paramètre pour** permettre aux invités d’utiliser la vidéo dans leurs appels et réunions.
+      - **Mode de partage d’écran** : ce paramètre contrôle la disponibilité du partage d’écran pour les invités.
           - Mettre ce paramètre sur **Désactivé** pour supprimer la possibilité pour les invités de partager leurs écrans dans Teams.
           - Activez ce paramètre sur **Application unique** pour autoriser le partage d’applications individuelles.
           - Activez ce paramètre sur **Écran entier** pour autoriser le partage d’écran entier.
-      - **Répondre maintenant** : activer ce **paramètre** pour permettre aux invités d’utiliser la fonctionnalité Meet Now dans Microsoft Teams.
+      - **Meet Now** : activez **ce paramètre pour** permettre aux invités d’utiliser la fonctionnalité Meet Now dans Microsoft Teams.
       - **Modifier les messages envoyés** : mettre ce paramètre sur **On** pour permettre aux invités de modifier les messages électroniques qu’ils ont envoyés précédemment.
-      - **Supprimer les messages envoyés** : activer ce **paramètre** pour permettre aux invités de supprimer les messages qu’ils ont envoyés précédemment.
+      - **Supprimer les messages envoyés** : activez **ce paramètre pour** permettre aux invités de supprimer les messages qu’ils ont envoyés précédemment.
       - **Conversation** : mettre ce paramètre sur **On** pour donner aux invités la possibilité d’utiliser la conversation dans Teams.
-      - Giphy dans les conversations : activer ce **paramètre** pour autoriser les invités à utiliser des **Giphys** dans les conversations. Giphy est une base de données en ligne et moteur de recherche qui permet aux utilisateurs de rechercher et partager des fichiers GIF animés. Chaque Giphy est affecté à une évaluation du contenu.
+      - **Giphy dans les conversations** : activez **ce paramètre pour** permettre aux invités d’utiliser Giphys dans les conversations. Giphy est une base de données en ligne et moteur de recherche qui permet aux utilisateurs de rechercher et partager des fichiers GIF animés. Chaque Giphy est affecté à une évaluation du contenu.
       - **Évaluation du contenu Giphy** : sélectionner une note dans la liste déroulante :
           - **Autoriser tout le contenu** : les invités pourront insérer tous les Giphys dans des conversations, quelle que soit l’évaluation du contenu.
           - **Modéré** : les invités pourront insérer Giphys dans les conversations, mais seront relativement limités pour le contenu adulte.
-          - **Strict** – Les invités peuvent insérer des Giphys dans les conversations, mais ne peuvent pas insérer de contenu pour adultes.
-      - **Mèmes dans les conversations** : activer ce **paramètre** pour autoriser les invités à utiliser des mèmes dans les conversations.
-      - **Autocollants dans les conversations** : activer ce **paramètre** pour permettre aux invités d’utiliser des autocollants dans les conversations.
-      - **Lecteur immersif des messages** : activer ce **paramètre** pour permettre aux invités d’utiliser le lecteur [immersif dans Teams.](https://support.microsoft.com/topic/a700c0d0-bc53-4696-a94d-4fbc86ac7a9a)
+          - **Strict** : les invités peuvent insérer des giphys dans les conversations, mais ne pourront pas insérer de contenu pour adultes.
+      - **Mèmes dans les conversations** : activez **ce paramètre pour** permettre aux invités d’utiliser Memes dans les conversations.
+      - **Autocollants dans les conversations** : activez **ce paramètre pour** permettre aux invités d’utiliser des autocollants dans les conversations.
+      - **Lecteur immersif pour les messages** : activez **ce paramètre pour** permettre aux invités d’utiliser [le lecteur immersif dans Teams](https://support.microsoft.com/topic/a700c0d0-bc53-4696-a94d-4fbc86ac7a9a).
 
-    ![Paramètres des autorisations invité dans Teams.](media/manage-guest-access-image1.png)
+    ![Paramètres des autorisations d’invité dans Teams.](media/manage-guest-access-image1.png)
 
 5. Sélectionnez **Enregistrer**.
 
-## <a name="external-access-federation-vs-guest-access"></a>Accès externe (fédération) et accès invité
+## <a name="turning-guest-access-off"></a>Désactivation de l’accès invité
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+Si vous désactivez l’accès invité dans Teams, les invités existants perdent l’accès à leur équipe. Toutefois, ils ne sont pas supprimés de l’équipe. Ils sont toujours visibles par les membres de l’équipe et peuvent être @mentionés. Si vous réactivez l’accès invité Teams, celui-ci retrouvera l’accès.
+
+Si vous envisagez de laisser l’accès invité désactivé, vous pouvez conseiller aux propriétaires de votre équipe de supprimer manuellement les comptes invités de leurs équipes. Si ces invités n’y ont pas accès, la visibilité de leur compte dans l’équipe peut semer la confusion chez les autres membres.
+
 
 ## <a name="see-also"></a>Voir aussi
 

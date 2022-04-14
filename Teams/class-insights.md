@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5e554672156f70556ebc18625115cd9a1ce8c58
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 234121449025512f8a5ffe37814804cc775b7b37
+ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062688"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64837457"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guide d’administration informatique sur Education Insights dans Microsoft Teams
 
@@ -106,7 +106,7 @@ Par exemple, un directeur ne voit que les classes de son établissement scolaire
 > Vous pouvez également localiser l’application Insights via ce lien : [https://aka.ms/addInsights](https://aka.ms/addInsights)
 
 ## <a name="when-is-insights-used"></a>Quand utiliser Insights ? 
-Insights prend en charge les communautés d’apprentissage pendant tout **le cycle d’apprentissage**. Grâce à des mesures en temps réel à plusieurs dimensions, Insights prend en charge un cycle continu d’identification, de réflexion, de discussion et d’initiatives parmi les membres de la communauté scolaire.
+Insights prend en charge les communautés d’apprentissage tout au long du **cycle d’apprentissage**. Grâce à des mesures en temps réel à plusieurs dimensions, Insights prend en charge un cycle continu d’identification, de réflexion, de discussion et d’initiatives parmi les membres de la communauté scolaire.
 *   **Déterminez** comment et quand les élèves s’engagent avec les enseignants, les supports de cours et leurs homologues ; évaluez leurs devoirs. 
 *   **Réfléchissez** sur la manière dont les entrées aident les élèves à réussir, à déterminer les domaines où ils peuvent progresser et les domaines nécessitant une assistance.
 *   **Discutez** des résultats avec les élèves et la communauté scolaire pour renforcer les relations, la définition des objectifs, l’auto-évaluation, susciter la collaboration, puis améliorer les résultats.
@@ -141,15 +141,17 @@ Pour l’instant, ces données proviennent des domaines suivants dans les équip
 > La plupart des données collectées s’affichent dans Insights en quelques minutes. La présence aux réunions de classe (réunions associées à l’un des canaux de classe) apparaît quelques heures après la fin de la réunion, généralement jusqu’à 24 heures plus tard.
 
 > [!NOTE]
-> Les données collectées dans Éducation Insights sont conservées jusqu’à ce que l’administrateur informatique désactive l’[option Education Analytics](#turn-sds-for-insights-on-or-off) ou que l’abonnement Office du client se termine. La suppression de fonctionnalités spécifiques dans Teams ne supprime pas des données d’historiques.
+> Les données collectées dans Éducation Insights sont conservées jusqu’à ce que l’administrateur informatique désactive l’[option Education Analytics](#turn-sds-for-insights-on-or-off) ou que l’abonnement Office du client se termine. La désactivation de fonctionnalités spécifiques dans Teams ne supprime pas les données de l’historique.
 
 ### <a name="privacy-and-security"></a>Confidentialité et sécurité
-Les informations collectées et présentées via Insights répondent à [plus de 90 normes réglementaires et sectorielles](/compliance/regulatory/offering-home), y compris le [RGPD](/compliance/regulatory/gdpr) et la loi [FERPA (Family Educational Rights and Privacy Act)](/compliance/regulatory/offering-ferpa) pour la sécurité des élèves et des enfants, ainsi que d’autres réglementations axées sur la confidentialité.
+Éducation Insights, dans le cadre de Microsoft 365, respecte les réglementations nationales, régionales et sectorielles en matière de collecte et d’utilisation des données, y compris [le RGPD](/compliance/regulatory/gdpr) et la [Loi sur les droits à l’éducation et la protection de la vie privée (FERPA)](/compliance/regulatory/offering-ferpa) qui protègent la vie privée des dossiers d’éducation des étudiants.
 
 Les données appartiennent à l’établissement, et Microsoft se contente de collecter et de stocker les données. Le personnel de Microsoft ne peut ni accéder aux données ni les consulter, sauf lors d’opérations d'audit (impliquant parfois des récupérations de données) requises pour assurer le bon fonctionnement du service, et ce dans le respect des règles de conformité.
 
-> [!NOTE]
-> Si vous souhaitez en savoir plus sur la protection de vos données par Microsoft, veuillez visiter le [Centre de gestion de la confidentialité de Microsoft](https://www.microsoft.com/trust-center).
+> [!TIP]
+> * Si vous souhaitez en savoir plus sur la protection de vos données par Microsoft, veuillez visiter le [Centre de gestion de la confidentialité de Microsoft](https://www.microsoft.com/trust-center).
+> * Visitez [les offres de conformité Microsoft](/compliance/regulatory/offering-home) pour découvrir comment Microsoft 365 aide votre institution à respecter les normes de conformité réglementaire.
+
 
 ### <a name="performance-and-reliability"></a>Performances et fiabilité
 Nous avons conçu Insights pour gérer un grand volume de données collectées depuis Teams avec des performances et une fiabilité optimales. Nous ne pouvons pas garantir une disponibilité à 100 %, mais nous essayons d’être disponibles le plus près possible de cet objectif.
@@ -191,7 +193,7 @@ L’affichage des informations au niveau de la classe en tant qu’enseignant *n
 Si vous souhaitez en savoir plus, veuillez lire les [**données du système d’information sur les élèves (SIE) avec Education Insights**](education-insights-sis-data-sync.md).
 
 ## <a name="manage-permissions"></a>Gérer les autorisations
-En temps qu’administrateur informatique, vous pouvez accorder des autorisations aux responsables de l’éducation, aux chefs de district, aux directeurs d’école, aux chefs d’établissement, aux conseillers, aux responsables de domaine d’étude, aux responsables de programmes, aux travailleurs sociaux et aux psychologues. Les enseignants bénéficient *automatiquement* d’une autorisation lorsqu’ils sont propriétaires d’une équipe de classe.
+En temps qu’administrateur informatique, vous pouvez accorder des autorisations aux responsables de l’éducation, aux chefs de district, aux directeurs d’école, aux chefs d’établissement, aux conseillers, aux responsables de domaine d’étude, aux responsables de programmes, aux travailleurs sociaux et aux psychologues. Les enseignants reçoivent *automatiquement* une autorisation lorsqu’ils ont une équipe de classe.
 
 Si vous souhaitez en savoir plus, veuillez lire [**Gérer l’accès des utilisateurs à Education Insights**](education-insights-manage-access.md).
 
@@ -273,7 +275,7 @@ Si ce n’est pas le cas, le faire de nouveau. Insights commence à collecter de
 
 
 ### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>Pourquoi certaines classes ou certains étudiants ne voient-ils pas tous les données ?
-Nous collectons les données des étudiants titulaires d’une *licence*. La raison la plus probable est que vous avez des étudiants invités qui participent à des cours et que leurs données ne sont pas collectées. Vous pouvez voir son nom, mais pas de données.
+Nous collectons les données des étudiants titulaires d’une *licence*. La raison la plus probable est que vous avez des étudiants invités qui participent à des classes et que leurs données ne sont pas collectées. Vous pouvez voir leur nom, sans aucune donnée.
 
 Vérifiez l’état de vos étudiants pour vous assurer qu’ils ont tous des licences étudiant. 
 

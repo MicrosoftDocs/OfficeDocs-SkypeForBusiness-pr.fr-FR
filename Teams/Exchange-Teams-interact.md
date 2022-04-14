@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1ade306ab1a9dc3c3f716b36d931bcf7a6d0b41
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 1b04e5937ad737feb39528c06f54ad8890ba32d0
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711498"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839055"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams
 
@@ -45,12 +45,12 @@ Le tableau suivant fournit un aide-mémoire utile sur la disponibilité de la fo
 
 **Actions prises en charge :**
 
-| La boîte aux lettres de l'utilisateur est hébergée dans :                                       | eDiscovery         | Conservation&nbsp;légale    | Rétention        | Gestion des équipes et des canaux | Créer et afficher des réunions dans Teams | Modifier une image de profil utilisateur | Historique des appels | Gestion des contacts | Accès au contacts Outlook | Messagerie vocale        | Ajouter et configurer des connecteurs | Ajouter et configurer des onglets | Ajouter et configurer des bots |
-|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|
-| **Exchange Online**                                                | Oui <sup>1</sup>   | Oui <sup>1</sup>   | Oui              | Oui                   | Oui                               | Yes<sup>7</sup>             | Oui          | Oui             | Oui <sup>6</sup>        | Oui              | Oui                          | Oui                    | Oui                    |
-| **vNext Exchange Online dédié**                                | Oui <sup>1</sup>   | Oui <sup>1</sup>   | Oui              | Oui                   | Oui                               | Yes<sup>7</sup>             | Oui          | Oui             | Oui <sup>6</sup>        | Oui              | Oui                          | Oui                    | Oui                    |
-| **Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise) | Oui <sup>1</sup>   | Oui <sup>1,2</sup> | Oui <sup>3</sup> | Oui                   | Non                                | Non                          | Oui          | Oui             | Non                      | Oui<sup>4</sup> | Oui <sup>5</sup>             | Oui                    | Oui                    |
-| **Exchange local** (Synchroniser avec Azure AD)                        | Oui <sup>1,9</sup> | Oui <sup>1</sup>   | Oui <sup>3</sup> | Oui                   | Oui <sup>8</sup>                  | <sup>Oui10</sup>            | Oui          | Oui             | Non                      | Oui<sup>4</sup> | Oui <sup>5</sup>             | Oui                    | Oui                    |
+| La boîte aux lettres de l'utilisateur est hébergée dans :                                       | eDiscovery         | Conservation&nbsp;légale    | Rétention        | Gestion des équipes et des canaux | Créer et afficher des réunions dans Teams | Modifier une image de profil utilisateur | Historique des appels | Gestion des contacts | Accès au contacts Outlook | Messagerie vocale        | Ajouter et configurer des connecteurs | Ajouter et configurer des onglets | Ajouter et configurer des bots | Modifier les paramètres hors Office |
+|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|------------------------|
+| **Exchange Online**                                                | Oui <sup>1</sup>   | Oui <sup>1</sup>   | Oui              | Oui                   | Oui                               | Yes<sup>7</sup>             | Oui          | Oui             | Oui <sup>6</sup>        | Oui              | Oui                          | Oui                    | Oui                    | Oui                    
+| **vNext Exchange Online dédié**                                | Oui <sup>1</sup>   | Oui <sup>1</sup>   | Oui              | Oui                   | Oui                               | Yes<sup>7</sup>             | Oui          | Oui             | Oui <sup>6</sup>        | Oui              | Oui                          | Oui                    | Oui                    | Oui                    
+| **Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise) | Oui <sup>1</sup>   | Oui <sup>1,2</sup> | Oui <sup>3</sup> | Oui                   | Non                                | Non                          | Oui          | Oui             | Non                      | Oui<sup>4</sup> | Oui <sup>5</sup>             | Oui                    | Oui                    | Oui                    
+| **Exchange local** (Synchroniser avec Azure AD)                        | Oui <sup>1,9</sup> | Oui <sup>1</sup>   | Oui <sup>3</sup> | Oui                   | Oui <sup>8</sup>                  | <sup>Oui10</sup>            | Oui          | Oui             | Non                      | Oui<sup>4</sup> | Oui <sup>5</sup>             | Oui                    | Oui                    | Non                      
 
 <sup>1</sup> eDiscovery et la Conservation légale pour la conformité sur des messages de canal sont pris en charge pour toutes les options d’hébergement.
 
@@ -64,15 +64,15 @@ Le tableau suivant fournit un aide-mémoire utile sur la disponibilité de la fo
 
 <sup>6</sup> Seul les contacts dans le dossier des contacts par défaut. L’accès aux autres dossiers et sous-dossiers de contacts n’est pas pris en charge.
 
-<sup>7</sup> Teams respecte le paramètre [Stratégie de boîte aux lettres Outlook sur le web](/powershell/module/exchange/client-access/set-owamailboxpolicy) qui est configuré par les administrateurs de clients pour contrôler si les utilisateurs peuvent modifier leur photo de profil. Si le paramètre **-SetPhotoEnabled** est désactivé dans la stratégie, les utilisateurs ne peuvent pas ajouter, modifier ou supprimer leur image de profil, de sorte que l’image de profil ne sera pas synchronisée avec les équipes si l’administrateur modifie la photo.
+<sup>7</sup> Teams respecte le paramètre [Stratégie de boîte aux lettres Outlook sur le web](/powershell/module/exchange/client-access/set-owamailboxpolicy) qui est configuré par les administrateurs de clients pour contrôler si les utilisateurs peuvent modifier leur photo de profil. Si le paramètre **-SetPhotoEnabled** est désactivé dans la stratégie, les utilisateurs ne peuvent pas ajouter, modifier ou supprimer leur image de profil. L’image de profil ne sera donc pas synchronisée avec les équipes si l’administrateur modifie la photo.
 
 <sup>8</sup> Vous devez remplir les conditions énumérées dans la section [Configuration requise pour créer et afficher des réunions pour les boîtes aux lettres hébergées localement](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises).
 
-<sup>9</sup> Au minimum, une licence Exchange Online plan 1 est également requise. Pour plus d’informations, [voir Rechercher des Teams conversation instantanée pour les utilisateurs locaux](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
+<sup>9</sup> Un minimum d’une licence Exchange Online Plan 1 est également requis. Pour plus d’informations, consultez [Rechercher Teams données de conversation pour les utilisateurs locaux](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
 
-<sup>10</sup> utilisateurs `SetPhotoEnabled` locaux peuvent utiliser des Teams pour mettre à jour leur image de profil, même si la Outlook de la stratégie de boîte aux lettres web est définie sur `false`.
+<sup>10</sup> Les utilisateurs locaux peuvent utiliser Teams pour mettre à jour leur image de profil, même si l’Outlook `SetPhotoEnabled` sur la stratégie de boîte aux lettres web est définie `false`sur .
  > [!NOTE]
- > La définition d’absence du Office via le client Teams n’est actuellement pas prise en charge pour les utilisateurs dont les boîtes aux lettres sont hébergées en local. Ces utilisateurs doivent effectuer cette action via le client Outlook client.
+ > La définition hors Office (OOF) via le client Teams n’est actuellement pas prise en charge pour les utilisateurs dont les boîtes aux lettres sont hébergées localement ; ces utilisateurs doivent effectuer cette action via le client Outlook.
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Configuration requise pour tirer le meilleur parti de Microsoft Teams
 
 Microsoft Teams est compatible avec plusieurs services Microsoft 365 et Office 365 pour enrichir l’expérience des utilisateurs. Pour la prise en charge de cette expérience, vous devez activer certaines fonctionnalités ou services et attribuer des licences.
@@ -90,6 +90,9 @@ Microsoft Teams est compatible avec plusieurs services Microsoft 365 et Office
 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>Conditions préalables pour créer et afficher les réunions pour les boîtes aux lettres hébergées localement
 
+  > [!NOTE]
+  > La création et l’affichage de réunions pour les boîtes aux lettres hébergées localement sont actuellement uniquement pris en charge dans les environnements commerical, Cloud de la communauté du secteur public et Cloud de la communauté du secteur public High.
+
 Si les boîtes aux lettres sont hébergées localement, pour créer et afficher les réunions, vous devez respecter les exigences suivantes :
 
 - La licence Teams requise doit être attribuée à l’utilisateur synchronisé Azure Active Directory.
@@ -98,25 +101,25 @@ Si les boîtes aux lettres sont hébergées localement, pour créer et afficher 
 
 - Les boîtes aux lettres sont hébergées dans Exchange Server 2016 Mise à jour cumulative 3 ou ultérieure.
 
-- Les services de découverte automatique et web Exchange sont publiés de manière externe.
+- La découverte automatique et les services web Exchange sont publiés en externe. Pour plus d’informations sur les services Microsoft 365 qui ont besoin d’accéder aux points de terminaison de découverte automatique et de Exchange services Web locaux, consultez [Autres points de terminaison non inclus dans le service web d’adresse IP et d’URL Office 365](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls).
 
 - L’authentification OAuth est de préférence configurée via l’Assistant de configuration hybride Exchange exécutant une configuration hybride complète (Classique ou Moderne). Si vous ne pouvez pas utiliser l’Assistant de configuration hybride, configurez OAuth tel que décrit dans [Configurer l’authentification OAuth entre des organisations Exchange et Exchange Online](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
   > [!NOTE]
   > Exchange fait confiance au jeton OAuth du service Teams qui est appelé EvoSTS. L’étape 1 doit être suffisante, mais seulement l’EvoSTS ; ACS est utilisé pour la recherche Libre/Occupé dans le calendrier.
 
-- La case à cocher dans la fonctionnalité de déploiement hybride Exchange dans Azure AD Connect est configurée. Pour plus d’informations, voir [Exchange écriture hybride](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback).
+- La case à cocher dans la fonctionnalité de déploiement hybride Exchange dans Azure AD Connect est configurée. Pour plus d’informations, consultez [Exchange’écriture différée hybride](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback).
 
 - Pour la prise en charge de l’application calendrier et du complément Outlook Teams pour Mac, les URL du service web Exchange doivent être configurées en tant que SPN dans le client Azure AD pour le principal de service Exchange. Cette est effectuée avec l’Assistant de configuration hybride ou en suivant [les étapes manuelles pour l’authentification moderne hybride](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
 
 Pour activer la délégation de calendrier pour ces utilisateurs :
 
-- Vous devez également effectuer les étapes décrites dans configurer l’intégration et [l’auth entre Skype Entreprise Online et Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) ; ces étapes fournissent à l’application de planification Teams les autorisations requises pour confirmer les autorisations accordées aux délégués.
+- Vous devez également effectuer les étapes décrites dans [Configurer l’intégration et OAuth entre Skype Entreprise Online et Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). Ces étapes fournissent à l’application de planification Teams les autorisations nécessaires pour confirmer les autorisations déléguées.
  
   > [!NOTE]
   > L’étape 2 inclut l’attribution de rôles pour ArchiveApplication, laquelle n’est pas requise pour la délégation.
 
-- Le Teams planification de réunion pour Outlook nécessite Exchange 2013 CU19 ou une date ultérieure lors de la planification d’une réunion au nom d’une autre personne. Cela permet la prise en charge de la découverte d’une boîte aux lettres non authentifiée par notre service pour vérifier les autorisations déléguées par rapport à la boîte aux lettres de délégation. L’emplacement du délégué et de la délégation peut être Exchange 2013 ou version ultérieure, ou Exchange Online, mais la découverte automatique doit correspondre à Exchange 2013 CU19 ou version ultérieure.
+- Le complément de planification Teams pour Outlook nécessite Exchange 2013 CU19 ou version ultérieure lors de la planification d’une réunion au nom d’une autre personne. Cela permet la prise en charge de la découverte d’une boîte aux lettres non authentifiée par notre service pour vérifier les autorisations déléguées par rapport à la boîte aux lettres de délégation. L’emplacement du délégué et de la délégation peut être Exchange 2013 ou version ultérieure, ou Exchange Online, mais la découverte automatique doit correspondre à Exchange 2013 CU19 ou version ultérieure.
 
 ## <a name="additional-considerations"></a>Considérations supplémentaires
 
@@ -126,7 +129,7 @@ Voice quelques éléments supplémentaires à considérer lorsque vous implémen
 
 - Elles contrôlent et protègent la configuration des stratégies de conformité dans Teams et Exchange en utilisant l’accès conditionnel. Pour plus d’informations, voir [Comment fonctionnent les stratégies d’accès conditionnel pour Teams ?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- Si votre organisation a des exigences en matière de conformité pour s’assurer que toutes les discussions en réunion puissent être découvertes, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres Exchange locale. Pour plus d’informations, [voir Private meeting scheduling (Planification de réunion privée](./meeting-policies-in-teams-general.md#private-meeting-scheduling)).
+- Si votre organisation a des exigences en matière de conformité pour s’assurer que toutes les discussions en réunion puissent être découvertes, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres Exchange locale. Pour plus d’informations, consultez [la planification des réunions privées](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
 
 - Dans un déploiement hybride Exchange, le contenu des messages de conversation est interrogeable, que les participants à la conversation aient une boîte aux lettres basée dans le cloud ou une boîte aux lettres locale. Pour en savoir plus, lire [Recherche de boîtes aux lettres sur le cloud des utilisateurs locaux](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Pour découvrir le recherche de contenu dans Teams, lire [Recherche de contenu dans le Centre de conformité Microsoft 365](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 

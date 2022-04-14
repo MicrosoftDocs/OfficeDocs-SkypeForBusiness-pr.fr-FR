@@ -1,5 +1,5 @@
 ---
-title: Téléphone gestion des nombres pour Singapour
+title: gestion des numéros Téléphone pour Singapour
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -19,29 +19,29 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone à Singapour pour Microsoft Teams.
-ms.openlocfilehash: 4db07ac8e89583bfce2127b2b30de2df08ad064e
-ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
+description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone à Singapour pour Microsoft Teams.
+ms.openlocfilehash: 968e44e8189bb5eebd50797983cbc639160cd3be
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "64504204"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839005"
 ---
-# <a name="phone-number-management-for-singapore"></a>Téléphone gestion des nombres pour Singapour
+# <a name="phone-number-management-for-singapore"></a>gestion des numéros Téléphone pour Singapour
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone à Singapour pour Microsoft Teams.
+Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone à Singapour pour Microsoft Teams.
   
 Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization.md).
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams. |À Singapour, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et en contactant le service de service [TNS pour obtenir des instructions](contact-tns-service-desk.md).<br/><br/>[Nouvelle demande de numéro de téléphone pour Singapour (v.1.0) (en-sg)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true). <br/><br/>Pour pouvoir vous attribuer des numéros de téléphone, vous devez télécharger l’un des formulaires Connaître vos clients suivants :<ul><li>[Connaître votre client Singapour - Chinois v1.0 zn-CN](https://download.microsoft.com/download/1/4/7/147324ac-06a5-4c7b-a38b-7efa0166fdf7/know-your-customer-for-singapore-(v1.0)-(zh-CN).pdf)</li><li>[Connaître votre client pour Singapour - Tamoul v1.0 ta-IN](https://download.microsoft.com/download/b/4/8/b48457c1-cef1-4bc7-ae44-71c5302e5eb2/know-your-customer-for-singapore-(v1.0)-(ta-IN).pdf)</li><li>[Connaître votre client Singapour - Malais v1.0 ms-MY](https://download.microsoft.com/download/f/5/9/f597a754-9478-4d5b-88af-a2a2fe5bbd62/know-your-customer-for-singapore-(v1.0)-(ms-MY).pdf)</li></ul>Complétez cette étape et [contactez le service de service TNS pour obtenir des instructions](contact-tns-service-desk.md).<br/><br/>Le remplissage des nouvelles commandes sur ce marché peut prendre de deux à trois semaines.  |
-|Obtenez les numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation pour Singapour (tous les nombres) (v.2.0) (en-sg)](<https://download.microsoft.com/download/e/9/5/e959053a-4b35-49f9-a23e-7085575c46f2/Letter of Authorization (LOA) for Singapore (all numbers) (v.2.0) (en-sg).pdf>)<br/> <br/>Remplissez-le et [contactez le service desk TNS pour obtenir des instructions](contact-tns-service-desk.md). <br/><br/>Le transfert des numéros peut prendre de une à six semaines dans ce marché selon la complexité du port. <br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.  |
-|Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service TNS pour obtenir des instructions](contact-tns-service-desk.md) sur la liste des numéros de téléphone que vous souhaitez publier/publier. <br/> |
-|Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contactez le service TNS pour obtenir des instructions](contact-tns-service-desk.md) sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
-|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier les numéros de file d’attente ou de numéro du personnel de service automatique, contactez le service de service [TNS pour obtenir des instructions](contact-tns-service-desk.md).|
+|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams. |À Singapour, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du centre d’administration Microsoft Teams. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en contactant TNS Service Desk pour obtenir des instructions](contact-tns-service-desk.md).<br/><br/>[Nouvelle demande de numéro de téléphone pour Singapour (v.1.0) (en-sg).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/>Avant de pouvoir vous attribuer des numéros de téléphone, vous devez télécharger l’un des formulaires suivants :<ul><li>[Connaître votre client Singapour - Chinois v1.0 zn-CN](https://download.microsoft.com/download/1/4/7/147324ac-06a5-4c7b-a38b-7efa0166fdf7/know-your-customer-for-singapore-(v1.0)-(zh-CN).pdf)</li><li>[Connaître votre client pour Singapour - Tamoul v1.0 ta-IN](https://download.microsoft.com/download/b/4/8/b48457c1-cef1-4bc7-ae44-71c5302e5eb2/know-your-customer-for-singapore-(v1.0)-(ta-IN).pdf)</li><li>[Connaître votre client Singapour - Malay v1.0 ms-MY](https://download.microsoft.com/download/f/5/9/f597a754-9478-4d5b-88af-a2a2fe5bbd62/know-your-customer-for-singapore-(v1.0)-(ms-MY).pdf)</li></ul>Complétez-le complètement et [contactez le service desk TNS pour obtenir des instructions](contact-tns-service-desk.md).<br/><br/>Les nouvelles commandes peuvent prendre de deux à trois semaines pour remplir ce marché.  |
+|Obtenez les numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour Singapour (tous les numéros)(en-sg)](<https://download.microsoft.com/download/e/9/5/e959053a-4b35-49f9-a23e-7085575c46f2/LOA-EN-SG-TN.pdf>)<br/> <br/>Renseignez-le et [contactez le service TNS pour obtenir des instructions](contact-tns-service-desk.md). <br/><br/>Le transfert de numéros peut prendre une à six semaines sur ce marché en fonction de la complexité du port. <br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour l’instant.  |
+|Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez TNS Service Desk pour obtenir des instructions](contact-tns-service-desk.md) sur la liste des numéros de téléphone que vous souhaitez publier/annuler la publication. <br/> |
+|Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contactez TNS Service Desk pour obtenir des instructions](contact-tns-service-desk.md) sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
+|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier des numéros de file d’attente d’appels ou de standard automatique, contactez [TNS Service Desk pour obtenir des instructions](contact-tns-service-desk.md).|
    
 ## <a name="related-topics"></a>Sujets associés
 
