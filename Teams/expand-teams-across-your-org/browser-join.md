@@ -1,5 +1,5 @@
 ---
-title: Gérer l’expérience de jointure pour les visites virtuelles Teams sur les navigateurs
+title: Gérer l’expérience de jointure pour Teams rendez-vous virtuels sur les navigateurs
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -20,15 +20,15 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: hafarmer
-description: Découvrez l’expérience de jointure pour les visites virtuelles Teams sur les navigateurs.
-ms.openlocfilehash: 276e33b16972f0543566014adf264fd12e45c4ae
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+description: Découvrez l’expérience de jointure pour Teams rendez-vous virtuels sur les navigateurs.
+ms.openlocfilehash: 418186734befa66f145ca56f883605715d83aa30
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "64703743"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853305"
 ---
-# <a name="manage-the-join-experience-for-teams-virtual-visits-on-browsers"></a>Gérer l’expérience de jointure pour les visites virtuelles Teams sur les navigateurs
+# <a name="manage-the-join-experience-for-teams-virtual-appointments-on-browsers"></a>Gérer l’expérience de jointure pour Teams rendez-vous virtuels sur les navigateurs
 
 Microsoft Teams permet aux utilisateurs de rejoindre facilement des rendez-vous virtuels sans avoir à télécharger Teams. Pour une expérience plus transparente, les participants peuvent participer à des rendez-vous tels que des visites médicales et des consultations financières à partir d’un bureau ou d’un navigateur mobile. Les participants n’ont pas besoin d’installer l’application Teams sur leur appareil.
 
@@ -68,7 +68,7 @@ Aucune configuration n’est nécessaire pour vous ou votre personnel !
 
 **Intégration à Cerner EHR** : le connecteur Teams EHR prend en charge les patients qui rejoignent des rendez-vous virtuels via un lien dans le SMS. Au moment du rendez-vous, les patients peuvent participer en appuyant sur le lien dans le SMS et Teams s’ouvre dans un navigateur.
 
-**Intégration à Epic EHR** : le connecteur Teams EHR prend en charge les patients qui rejoignent des rendez-vous virtuels via MyChart web et mobile. Au moment du rendez-vous, les patients peuvent commencer la visite à partir de MyChart à l’aide du bouton **Commencer la visite virtuelle**, et Teams s’ouvre dans un navigateur.
+**Intégration à Epic EHR** : le connecteur Teams EHR prend en charge les patients qui rejoignent des rendez-vous virtuels via MyChart web et mobile. Au moment du rendez-vous, les patients peuvent démarrer le rendez-vous à partir de MyChart à l’aide du bouton **Commencer la visite virtuelle**, et Teams s’ouvre dans un navigateur.
 
 ## <a name="supported-browsers"></a>Navigateurs pris en charge
 
@@ -88,12 +88,12 @@ Voici les navigateurs actuellement pris en charge. Nous prenons en charge la der
 
 ## <a name="things-to-consider"></a>Éléments à prendre en compte
 
-Le membre du personnel qui effectue la visite peut partager son écran à partir de son Teams client de bureau, mobile ou web avec un participant qui se joint à partir d’un bureau ou d’un navigateur mobile. Toutefois, les participants ne peuvent pas partager leur écran à partir d’un navigateur de bureau ou mobile.
+Le membre du personnel qui effectue le rendez-vous peut partager son écran à partir de son Teams client de bureau, mobile ou web avec un participant qui se joint à partir d’un bureau ou d’un navigateur mobile. Toutefois, les participants ne peuvent pas partager leur écran à partir d’un navigateur de bureau ou mobile.
 
 ## <a name="related-articles"></a>Articles connexes
 
-- [Visites virtuelles avec Teams et l’application Bookings](bookings-virtual-visits.md)
+- [Rendez-vous virtuels avec Teams et l’application Bookings](bookings-virtual-visits.md)
 - [Créer un type de rendez-vous Bookings](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [Participer à un rendez-vous Bookings en tant que participant](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
-- [Visites virtuelles avec Teams - Intégration à Cerner EHR](healthcare/ehr-admin-cerner.md)
-- [Visites virtuelles avec Teams - Intégration à Epic EHR](healthcare/ehr-admin.md)
+- [Rendez-vous virtuels avec Teams - Intégration à Cerner EHR](healthcare/ehr-admin-cerner.md)
+- [Rendez-vous virtuels avec Teams - Intégration à Epic EHR](healthcare/ehr-admin.md)

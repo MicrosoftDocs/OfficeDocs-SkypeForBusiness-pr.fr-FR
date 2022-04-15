@@ -1,5 +1,5 @@
 ---
-title: Visites virtuelles avec Teams - Intégration à Cerner EHR
+title: Rendez-vous virtuels avec Teams - Intégration à Cerner EHR
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -22,25 +22,25 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Découvrez comment intégrer le connecteur Teams DSE pour permettre aux prestataires de soins de santé de votre organisation d’effectuer des visites virtuelles avec des patients ou d’autres fournisseurs dans Teams directement à partir du système Cerner EHR.
-ms.openlocfilehash: b5a5a860036b3b561d5a6e18a13b71e072998aa4
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+description: Découvrez comment intégrer le connecteur Teams DSE pour permettre aux prestataires de soins de santé de votre organisation d’effectuer des rendez-vous virtuels avec des patients ou d’autres fournisseurs dans Teams directement à partir du système Cerner EHR.
+ms.openlocfilehash: 8caa80bca9a7b8278aff9133f81bfa807e6727ed
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/14/2022
-ms.locfileid: "64703690"
+ms.locfileid: "64853295"
 ---
-# <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>Visites virtuelles avec Teams - Intégration à Cerner EHR
+# <a name="virtual-appointments-with-teams---integration-into-cerner-ehr"></a>Rendez-vous virtuels avec Teams - Intégration à Cerner EHR
 
-Le connecteur de dossiers médicaux électroniques (DSE) Microsoft Teams permet aux cliniciens de lancer facilement une visite de patients virtuels ou de consulter un autre fournisseur dans Microsoft Teams directement à partir du système cerner de DSE. Basé sur le cloud Microsoft 365, Teams permet une collaboration et une communication simples et sécurisées avec des outils de conversation, de vidéo, de voix et de soins de santé dans un hub unique qui prend en charge la conformité avec HIPAA, la certification HITECH, etc.
+Le connecteur de dossiers médicaux électroniques (DSE) Microsoft Teams permet aux cliniciens de lancer facilement un rendez-vous virtuel pour les patients ou de consulter un autre fournisseur dans Microsoft Teams directement à partir du système cerner de DSE. Basé sur le cloud Microsoft 365, Teams permet une collaboration et une communication simples et sécurisées avec des outils de conversation, de vidéo, de voix et de soins de santé dans un hub unique qui prend en charge la conformité avec HIPAA, la certification HITECH, etc.
 
 La plateforme de communication et de collaboration de Teams permet aux cliniciens de s’occuper facilement de l’encombrement des systèmes fragmentés afin qu’ils puissent se concentrer sur la fourniture des meilleurs soins possibles. Avec le connecteur Teams EHR, vous pouvez :
 
-- Effectuez Teams visites virtuelles à partir de votre système Cerner EHR avec un flux de travail clinique intégré.
-- Permettre aux patients de rejoindre Teams visites virtuelles à partir de notifications par e-mail ou SMS.
-- Affichez les rapports de données de consommation et les informations de qualité des appels personnalisables pour les visites connectées à la DSE.
+- Effectuez Teams rendez-vous virtuels à partir de votre système Cerner EHR avec un flux de travail clinique intégré.
+- Permettre aux patients de rejoindre Teams rendez-vous virtuels à partir de notifications par e-mail ou SMS.
+- Affichez les rapports de données de consommation et les informations de qualité des appels personnalisables pour les rendez-vous connectés à la DSE.
 
-Cet article explique comment configurer et configurer le connecteur ehr Teams pour qu’il s’intègre à la plateforme Cerner. Il vous donne également une vue d’ensemble de l’expérience de visites virtuelles Teams du système Cerner EHR.
+Cet article explique comment configurer et configurer le connecteur ehr Teams pour qu’il s’intègre à la plateforme Cerner. Il vous donne également une vue d’ensemble de l’expérience de Teams rendez-vous virtuels du système Cerner EHR.
 
 ## <a name="before-you-begin"></a>Avant de commencer
 
@@ -91,7 +91,7 @@ Sélectionnez **Suivant** pour passer à l’étape suivante.
 
 ### <a name="enable-sms-notifications-optional"></a>Activer les notifications SMS (facultatif)
 
-Effectuez cette étape si votre organisation souhaite que Microsoft gère les notifications SMS pour vos patients. Lorsque vous activez les notifications PAR SMS, vos patients reçoivent des messages de confirmation et de rappel pour les visites planifiées.
+Effectuez cette étape si votre organisation souhaite que Microsoft gère les notifications SMS pour vos patients. Lorsque vous activez les notifications PAR SMS, vos patients reçoivent des messages de confirmation et de rappel pour les rendez-vous planifiés.
 
 Pour activer les notifications SMS, votre administrateur Microsoft 365 effectue les opérations suivantes :
 
@@ -120,57 +120,57 @@ Pour activer les notifications SMS, votre administrateur Microsoft 365 effectue 
 
 ### <a name="review-and-finish-the-configuration"></a>Passer en revue et terminer la configuration
 
-Vous recevrez des enregistrements d’intégration pour le lancement des patients et des fournisseurs. Ces enregistrements sont nécessaires pour terminer la configuration visites virtuelles dans Cerner. Pour plus d’informations, consultez le guide d’intégration de la télésanté Cerner-Microsoft Teams.
+Vous recevrez des enregistrements d’intégration pour le lancement des patients et des fournisseurs. Ces enregistrements sont nécessaires pour effectuer la configuration des rendez-vous virtuels dans Cerner. Pour plus d’informations, consultez le guide d’intégration de la télésanté Cerner-Microsoft Teams.
 
 > [!NOTE]
 > À tout moment, votre administrateur Microsoft 365 peut se connecter au portail de configuration pour afficher les enregistrements d’intégration et modifier les paramètres de configuration, si nécessaire.
 
-## <a name="launch-teams-virtual-visits"></a>Lancer Teams visites virtuelles
+## <a name="launch-teams-virtual-appointments"></a>Lancer Teams rendez-vous virtuels
 
-Une fois les étapes du connecteur EHR et cerner terminées, votre organisation est prête à prendre en charge les visites vidéo avec Teams.
+Une fois les étapes du connecteur EHR et cerner terminées, votre organisation est prête à prendre en charge les rendez-vous vidéo avec Teams.
 
-### <a name="virtual-visits-prerequisites"></a>Conditions préalables aux visites virtuelles
+### <a name="virtual-appointments-prerequisites"></a>Prérequis pour les rendez-vous virtuels
 
 - Vos systèmes doivent répondre à toutes les [exigences en matière de logiciels et de navigateurs](../../hardware-requirements-for-the-teams-app.md) pour Teams.
 - Vous avez terminé la configuration de l’intégration entre l’organisation Cerner et votre organisation Microsoft 365.
 
 ### <a name="provider-experience"></a>Expérience fournisseur
 
-Les fournisseurs de soins de santé de votre organisation peuvent participer à des visites à l’aide de Teams à partir du portail PowerChart. Le fournisseur doit accéder au tableau des patients où l’option Teams est disponible.
+Les fournisseurs de soins de santé de votre organisation peuvent rejoindre des rendez-vous à l’aide de Teams à partir du portail PowerChart. Le fournisseur doit accéder au tableau des patients où l’option Teams est disponible.
 
-À partir de là, le fournisseur peut afficher les informations de visite, participer à des visites et envoyer le lien de réunion. Après la connexion unique, le fournisseur est directement conduit au rendez-vous virtuel dans Teams.
+À partir de là, le fournisseur peut afficher les informations de rendez-vous, participer à des rendez-vous et envoyer le lien de réunion. Après la connexion unique, le fournisseur est directement conduit au rendez-vous virtuel dans Teams.
 
 Principales fonctionnalités de l’expérience fournisseur :
 
-- Les fournisseurs peuvent rejoindre des visites à l’aide de navigateurs pris en charge ou de l’application Teams.
+- Les fournisseurs peuvent rejoindre des rendez-vous à l’aide de navigateurs pris en charge ou de l’application Teams.
 - Les fournisseurs peuvent utiliser toutes les fonctionnalités de réunion Teams prises en charge, notamment le partage d’écran, l’arrière-plan personnalisé et l’enregistrement.
-- Les fournisseurs peuvent voir les mises à jour en temps réel des patients qui se connectent à une visite pour un rendez-vous donné dans PowerChart.
-- Les informations du fournisseur ne sont pas visibles par les patients pendant la visite.
+- Les fournisseurs peuvent voir les mises à jour en temps réel des patients qui se connectent à un rendez-vous pour un rendez-vous donné dans PowerChart.
+- Les informations du fournisseur ne sont pas visibles par les patients pendant le rendez-vous.
 
 > [!NOTE]
 > Toutes les informations entrées dans la conversation de réunion nécessaires à la continuité ou à la rétention des dossiers médicaux doivent être téléchargées, copiées et notifiées par le fournisseur de soins de santé. La conversation ne constitue pas un dossier médical légal ou un jeu d’enregistrements désigné. Les messages de la conversation sont stockés en fonction des paramètres créés par l’administrateur Microsoft Teams.
 
 ### <a name="patient-experience"></a>Expérience patient
 
-Le connecteur prend en charge les patients qui rejoignent des visites via un lien dans le SMS. Au moment du rendez-vous, les patients peuvent commencer une visite en appuyant sur le lien dans le SMS.
+Le connecteur prend en charge les patients qui rejoignent des rendez-vous via un lien dans le SMS. Au moment du rendez-vous, les patients peuvent commencer un rendez-vous en appuyant sur le lien dans le SMS.
 
 Principales fonctionnalités de l’expérience des patients
 
-- Les patients peuvent rejoindre des visites à partir de [navigateurs web modernes sur le bureau et mobile sans avoir à installer l’application Teams](../browser-join.md).
-- Les patients peuvent rejoindre des visites en un seul clic et aucun autre compte ou connexion n’est requis.
+- Les patients peuvent rejoindre des rendez-vous à partir de [navigateurs web modernes sur le bureau et mobile sans avoir à installer l’application Teams](../browser-join.md).
+- Les patients peuvent rejoindre des rendez-vous en un seul clic et aucun autre compte ou connexion n’est requis.
 - Les patients ne sont pas tenus de créer un compte Microsoft ou de se connecter pour lancer une visite.
 - Les patients sont placés dans une salle d’attente jusqu’à ce que le fournisseur les rejoigne et les admet.
-- Les patients peuvent tester leur vidéo et leur microphone dans la salle d’attente avant de rejoindre la visite.
+- Les patients peuvent tester leur vidéo et leur microphone dans la salle d’attente avant de rejoindre le rendez-vous.
 
-## <a name="get-insight-into-virtual-visits-usage"></a>Obtenir des insights sur l’utilisation des visites virtuelles
+## <a name="get-insight-into-virtual-appointments-usage"></a>Obtenir des insights sur l’utilisation des rendez-vous virtuels
 
-Le [rapport d’utilisation des visites virtuelles](../../teams-analytics-and-reports/virtual-visits-usage-report.md) dans le centre d’administration Microsoft Teams donne aux administrateurs une vue d’ensemble de Teams activité Visites virtuelles dans votre organisation. Le rapport présente des analyses détaillées pour les rendez-vous virtuels, notamment Teams réunions intégrées à la DSE effectuées à partir de votre système de DSE.
+Le [rapport d’utilisation des visites virtuelles](../../teams-analytics-and-reports/virtual-visits-usage-report.md) dans le centre d’administration Microsoft Teams donne aux administrateurs une vue d’ensemble de Teams activité de rendez-vous virtuels dans votre organisation. Le rapport présente des analyses détaillées pour les rendez-vous virtuels, notamment Teams réunions intégrées à la DSE effectuées à partir de votre système de DSE.
 
-Vous pouvez afficher des métriques clés telles que le temps d’attente de la salle d’attente et la durée de la visite. Utilisez ces informations pour obtenir des insights sur les tendances d’utilisation afin de vous aider à optimiser les visites virtuelles pour obtenir de meilleurs résultats métier.
+Vous pouvez afficher les métriques clés telles que le temps d’attente de la salle d’attente et la durée du rendez-vous. Utilisez ces informations pour obtenir des insights sur les tendances d’utilisation afin de vous aider à optimiser les rendez-vous virtuels pour obtenir de meilleurs résultats métier.
 
 ## <a name="privacy-and-location-of-data"></a>Confidentialité et emplacement des données
 
-Teams’intégration aux systèmes DSE optimise la quantité de données utilisées et stockées lors des flux d’intégration et de visites virtuelles. La solution respecte les principes et les directives générales de Teams en matière de confidentialité et de gestion des données, décrits dans Confidentialité Teams.
+Teams’intégration aux systèmes DSE optimise la quantité de données utilisées et stockées pendant les flux d’intégration et de rendez-vous virtuels. La solution respecte les principes et les directives générales de Teams en matière de confidentialité et de gestion des données, décrits dans Confidentialité Teams.
 
 Le connecteur Teams DSE ne stocke ni ne transfère les données personnelles identifiables ni les dossiers de santé des patients ou des fournisseurs de soins de santé à partir du système DSE. Les seules données stockées par le connecteur EHR sont l’ID unique de l’utilisateur DSE, qui est utilisé pendant Teams configuration de la réunion.
 
