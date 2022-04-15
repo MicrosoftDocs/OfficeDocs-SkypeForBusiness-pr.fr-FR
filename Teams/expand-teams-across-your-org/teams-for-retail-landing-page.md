@@ -20,12 +20,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f611afe731bc178759427efff2fe35d925ca0def
-ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
+ms.openlocfilehash: 2c20137aab3299f4151b6ef3ee7906ec39cf4baf
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "64403965"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853185"
 ---
 # <a name="get-started-with-teams-for-retail"></a>Commencer à travailler avec Teams vente au détail
 
@@ -74,7 +74,7 @@ L’application Bookings dans Microsoft Teams permet aux organisations de planif
 
 **Fonctionnalités et applications clés :** réunions, Bookings
 
-Informations complémentaires : [Visites virtuelles avec Microsoft Teams et l’application Bookings](bookings-virtual-visits.md)
+Informations complémentaires : [Rendez-vous virtuels avec Microsoft Teams et l’application Bookings](bookings-virtual-visits.md)
 
 ### <a name="simplify-business-processes"></a>Simplifier les processus d’entreprise
 
@@ -166,7 +166,7 @@ Pour les environnements de vente au détail, les applis et les services suivants
 
 | Autres applications et services de Microsoft | Description | Gestion | Aide |
 | ----- | ----- | ----- | ----- |
-| Bookings | Activez les ajustements et consultations virtuels. | [Visites virtuelles avec Microsoft Teams et l’application Bookings](bookings-virtual-visits.md) | [Utiliser Bookings](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
+| Bookings | Activez les ajustements et consultations virtuels. | [Rendez-vous virtuels avec Microsoft Teams et l’application Bookings](bookings-virtual-visits.md) | [Utiliser Bookings](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
 | Power Apps et Power Platform | Intégrez les processus d’entreprise et activer les mises à jour rapides des données, telles que le stock, les numéros de vente, les rapports d’incident, etc. | [L’intégration Teams avec Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) et [la gestion des applications Microsoft Power Platform dans le centre d’administration Microsoft Teams](../manage-power-platform-apps.md) | -  |
 | Microsoft Office SharePoint Online | Lorsque vous créez une équipe, un nouveau site SharePoint est créé et connecté à l’équipe. Bon nombre des scénarios ci-dessus s’appuient sur SharePoint fonctionnalités déjà incorporées dans Teams, telles que le partage de documents pour la collaboration d’équipe. | [L’intégration Teams et le groupe SharePoint](/sharepoint/teams-connected-sites) | [Ajouter une page SharePoint, une liste ou une bibliothèque de documents sous la Teams](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b)|
 | Viva Connections | Soit Connections crée un hub dans Teams où vos associés au vente au détail peuvent consulter un flux d’actualités personnalisé de votre organisation et un tableau de bord personnalisé avec les ressources dont ils ont besoin. | [Présentation de Viva Connections](/sharepoint/viva-connections-overview) | [Viva Connections dans Microsoft Teams](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) |
