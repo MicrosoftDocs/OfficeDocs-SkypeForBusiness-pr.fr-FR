@@ -1559,7 +1559,7 @@ items:
         items:
           - name: Bookings dans Teams
             items:
-              - name: Visites virtuelles avec Bookings et Teams
+              - name: Rendez-vous virtuels avec Bookings et Teams
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Gérer l’application Shifts
                 href: bookings-app-admin.md
@@ -1683,15 +1683,15 @@ items:
         items:
           - name: Prise en main de Teams pour les organismes de santé
             href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-          - name: Visites virtuelles
+          - name: Rendez-vous virtuels
             items:
-              - name: Visites virtuelles avec Teams-Intégration dans Cerner EHR
+              - name: Rendez-vous virtuels avec Teams – Intégration à Cerner EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-              - name: Visites virtuelles avec Teams-Intégration dans Epic DMI
+              - name: Rendez-vous virtuels avec Teams – Intégration à Epic EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
               - name: Rapports d’administration de dossier médical informatisé
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-              - name: Visites virtuelles avec Bookings et Teams
+              - name: Rendez-vous virtuels avec Bookings et Teams
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Rapport d’utilisation des visites virtuelles
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
