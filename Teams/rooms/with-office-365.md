@@ -14,114 +14,119 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Lisez cet article pour plus d’informations sur la création de comptes de ressources pour les salles et appareils partagés, notamment les Salles Microsoft Teams, les salles Teams sur Surface Hub et la Teams d’écran.
-ms.openlocfilehash: e7525a9e9ec6737bab18de4351675d567b61611b
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+description: Lisez cet article pour plus d’informations sur la création de comptes de ressources pour les salles et les appareils partagés, notamment les salles Microsoft Teams, les salles Teams sur surface Hub et la mise à l’eau à chaud sur Teams écrans.
+ms.openlocfilehash: e788ca2086faf86f602ef0938d520ea03dce4ef4
+ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514545"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "64885022"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>Créer et configurer des comptes de ressources pour des salles et des appareils Teams partagés
 
-Cet article décrit les étapes de création de comptes de ressources pour les espaces et appareils partagés, ainsi que les étapes de configuration des comptes de ressources pour Salles Microsoft Teams sur Windows, salles Teams sur Android, salles Teams sur Surface Hub et les procédures de désenchement hot-king sur Teams  s’affiche.
+Cet article décrit les étapes de création de comptes de ressources pour les espaces partagés et les appareils, ainsi que les étapes de configuration des comptes de ressources pour les salles Microsoft Teams sur Windows, les salles Teams sur Android, les salles Teams sur Surface Hub et la mise à l’eau à chaud sur Teams affichages.
 
-Microsoft 365 les comptes de ressources sont des Teams boîtes aux lettres et des comptes dédiés à des ressources spécifiques, telles qu’une salle ou un projecteur. Ces comptes de ressources peuvent répondre automatiquement aux invitations aux réunions à l’aide de règles que vous définissez lors de leur création. Par exemple, si vous avez une ressource commune telle qu’une salle de conférence, vous pouvez configurer un compte de ressource pour cette salle de conférence qui acceptera ou refusera automatiquement les invitations aux réunions en fonction de la disponibilité de son calendrier.
+Microsoft 365 comptes de ressources sont des comptes de boîte aux lettres et de Teams dédiés à des ressources spécifiques, telles qu’une salle ou un projecteur. Ces comptes de ressources peuvent répondre automatiquement aux invitations aux réunions à l’aide de règles que vous définissez lors de leur création. Par exemple, si vous disposez d’une ressource commune telle qu’une salle de conférence, vous pouvez configurer un compte de ressource pour cette salle de conférence qui acceptera ou refusera automatiquement les invitations aux réunions en fonction de sa disponibilité dans le calendrier. 
+
+Chaque compte de ressource est propre à une seule installation Microsoft Teams Rooms ou Teams afficher une implémentation à chaud.
+
+> [!NOTE]
+> Si vous utilisez Microsoft Teams panneaux, le compte de ressources Teams Rooms se connecte à la fois aux Teams Salles et aux panneaux Teams associés.
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
 > [!NOTE]
 > **Skype Entreprise** <br><br>
-> Si vous avez besoin d’activer l’utilisation de votre compte de ressource Skype Entreprise, voir [Déployer Salles Microsoft Teams’Skype Entreprise Server](with-skype-for-business-server-2015.md)
+> Si vous devez activer votre compte de ressources pour qu’il fonctionne avec Skype Entreprise, consultez [Déployer des salles Microsoft Teams avec Skype Entreprise Server](with-skype-for-business-server-2015.md)
 
 ## <a name="before-you-begin"></a>Avant de commencer
 
 ### <a name="requirements"></a>Conditions requises
 
-Selon votre environnement, vous avez besoin d’un ou plusieurs rôles pour créer des comptes de ressources.
+Selon votre environnement, vous avez besoin d’un ou de plusieurs rôles pour créer des comptes de ressources.
 
 |**Environnement**|**Rôles requis**|
 |-----|-----|
-|Azure Active Directory  <br/> |Administrateur général ou administrateur utilisateur  <br/> |
-|Active Directory  <br/> |Active Directory Enterprise administrateurs de domaine ou ont des droits délégués pour créer des utilisateurs. Azure Active Directory Connecter droits de synchronisation.  <br/> |
-|Exchange Online  <br/> |Administrateur général ou administrateur Exchange groupe   <br/> |
-|Exchange Server  <br/> |Exchange de l’organisation ou de la gestion des destinataires   <br/> |
+|Azure Active Directory  <br/> |Administrateur général ou administrateur d’utilisateurs  <br/> |
+|Active Directory  <br/> |Administrateurs d’entreprise Active Directory, administrateurs de domaine ou disposant de droits délégués pour créer des utilisateurs. Droits de synchronisation Azure Active Directory Connect.  <br/> |
+|Exchange Online  <br/> |Administrateur général ou administrateur Exchange   <br/> |
+|serveur Exchange  <br/> |gestion de l’organisation Exchange ou de la gestion des destinataires   <br/> |
 
-Si vous créez des comptes de ressources pour salles Teams, le upN doit correspondre à l’adresse SMTP du compte de ressource. Consultez [les Salles Microsoft Teams requises](requirements.md) avant de déployer salles Teams.
+Si vous créez des comptes de ressources pour Teams Rooms, l’UPN doit correspondre à l’adresse SMTP du compte de ressource. Consultez [Microsoft Teams Conditions requises pour les salles](requirements.md) avant de déployer Teams Salles.
 
 ### <a name="what-license-do-you-need"></a>De quelle licence avez-vous besoin ?
 
-Avant de créer un Microsoft 365 de ressources, vérifiez le type de licence dont il a besoin :
+Avant de créer un compte de ressource Microsoft 365, vérifiez le type de licence dont il a besoin :
 
-- **Teams** Réunions Si vous voulez associer le compte de ressource à un appareil partagé (par exemple, une salle Microsoft Teams ou un écran Teams avec entrées d’accès à l’écran) et l’utiliser pour participer à une réunion Teams afin que les participants peuvent l’utiliser pour présenter des fichiers vidéo et audio, vous avez besoin d’une licence Salle de réunion. Pour plus d’informations sur la gestion des licences pour les salles de réunion, [voir Teams Salle de réunion licences.](rooms-licensing.md)
+- **Teams réunions** Si vous souhaitez associer le compte de ressource à un appareil partagé, tel qu’une salle de Microsoft Teams ou un affichage Teams à chaud, et l’utiliser pour participer à une réunion Teams afin que les participants puissent l’utiliser pour présenter de la vidéo et de l’audio via celui-ci, vous avez besoin d’une licence de salle de réunion. Pour plus d’informations sur les licences pour les salles de réunion, consultez [Teams licences de salle de réunion](rooms-licensing.md).
 
-- **Appels PSTN** Si vous souhaitez que la ressource passe ou reçoit des appels vers ou depuis un numéro de téléphone externe (appelé un réseau téléphonique commuté public ou un appel RST), vous avez besoin d’une licence Microsoft 365 Système téléphonique ou Microsoft 365 Business Voice public. Il vous suffit d’effectuer l’étape 1 de la vue d’ensemble suivante. Consultez ensuite Microsoft Teams [licences de module complémentaire pour](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) plus d’informations.
+- **Appels RTC** Si vous souhaitez que la ressource effectue ou reçoive des appels vers ou à partir d’un numéro de téléphone externe (appelé réseau téléphonique commuté public ou appel RTC), vous avez besoin d’une licence Microsoft 365 Système téléphonique ou Microsoft 365 Voix entreprise. Vous devez uniquement effectuer l’étape 1 dans la vue d’ensemble suivante. Pour plus d’informations, consultez [Microsoft Teams licences de module](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) complémentaire.
 
-- Si vous n’utilisez un compte de ressource que pour réserver une ressource, invitez la ressource à votre réunion et demandez-lui d’accepter ou de refuser automatiquement l’invitation&mdash; que vous n’avez pas besoin d’attribuer une licence au compte de ressource. Il vous suffit d’effectuer&mdash; l’étape 1 de la vue d’ensemble suivante.  
+- Si vous utilisez uniquement un compte de ressource pour réserver une ressource&mdash;, invitez la ressource à votre réunion et demandez-lui d’accepter ou de refuser automatiquement l’invitation&mdash; que vous n’avez pas besoin d’attribuer une licence au compte de ressource et que vous n’avez qu’à effectuer l’étape 1 dans la vue d’ensemble suivante.  
 
 ## <a name="overview"></a>Présentation
 
-**Étape 1 : créer** [un compte de ressource](#create-a-resource-account). Ou, si une boîte aux lettres de salle existe déjà et que vous souhaitez la convertir en compte de ressource, vous pouvez modifier une boîte aux lettres de salle existante [Exchange de réunion](?tabs=existing-account#create-a-resource-account).
+**Étape 1 :** [créer un compte de ressource](#create-a-resource-account). Ou, si une boîte aux lettres de salle existe déjà et que vous souhaitez la convertir en compte de ressource, vous pouvez [modifier une boîte aux lettres de salle Exchange existante](?tabs=existing-account#create-a-resource-account).
 
-**Étape 2 -**  Ensuite, [configurez votre compte pour](#configure-mailbox-properties) Teams réunions.
+**Étape 2 -**  Ensuite, [configurez votre compte](#configure-mailbox-properties) pour Teams réunions.
 
-**Étape 3 :**  Si le compte de ressource doit être associé à un appareil partagé, par exemple un appareil Teams avec la désactivation de l’accès par défaut, désactivation de [l’expiration du mot de passe](#turn-off-password-expiration).
+**Étape 3 -**  Si le compte de ressource doit être associé à un appareil partagé, tel que Teams s’affiche avec desséchement à chaud, [désactivez l’expiration du mot de passe](#turn-off-password-expiration).
 
-**Étape 4 -**  Enfin, [attribuez une licence de salle de](#assign-a-meeting-room-license) réunion afin que le compte puisse accéder Microsoft Teams.
+**Étape 4 -**  Enfin, [attribuez une licence de salle de réunion](#assign-a-meeting-room-license) afin que le compte puisse accéder à Microsoft Teams.
 
-Après avoir créé et configuré vos comptes de ressources, consultez [](#next-steps) les étapes suivantes pour passer en revue les tâches de configuration supplémentaires, notamment les groupes de distribution, les fonctionnalités réseau et les appels.
+Après avoir créé et configuré vos comptes de ressources, consultez [les étapes suivantes](#next-steps) pour passer en revue les tâches d’installation supplémentaires, notamment les groupes de distribution, la fonctionnalité réseau et l’appel.
 
 ## <a name="create-a-resource-account"></a>Créer un compte de ressource
 
 > [!TIP]
-> Lors de l’attribution d’un nom à vos comptes de ressources, nous vous recommandons d’utiliser une convention d’affectation de noms standard au début de l’adresse de courrier. Cela vous aidera à créer des groupes dynamiques pour faciliter la gestion dans Azure Active Directory. Par exemple, vous pouvez utiliser « mtr- » pour tous les comptes de ressources qui seront associés à Salles Microsoft Teams.
+> Lorsque vous nommez vos comptes de ressources, nous vous recommandons d’utiliser une convention d’affectation de noms standard au début de l’adresse de messagerie. Cela vous aidera à créer des groupes dynamiques pour faciliter la gestion dans Azure Active Directory. Par exemple, vous pouvez utiliser « mtr- » pour tous les comptes de ressources qui seront associés à Microsoft Teams Rooms.
 
 > [!TIP]
-> Nous vous recommandons de créer tous les comptes de ressources à l’Exchange Online et Azure Active Directory.
+> Nous vous recommandons de créer tous les comptes de ressources à l’aide de Exchange Online et Azure Active Directory.
 
-Créez un compte de ressource à l’aide d’une méthode dans l’un des onglets suivants :
+Créez un compte de ressource à l’aide d’une méthode à partir de l’un des onglets suivants :
 
 #### <a name="in-microsoft-365-admin-center"></a>[**Dans Centre d'administration Microsoft 365**](#tab/m365-admin-center)
 
 1. Connectez-vous au Centre d’administration Microsoft 365.
 
-2. Fournissez les informations d’identification d’administrateur pour Microsoft 365 client.
+2. Fournissez les informations d’identification d’administrateur pour votre locataire Microsoft 365.
 
-3. Dans le **panneau** gauche, sélectionnez Salles et **& matériel**. Si ces options ne sont pas disponibles dans le panneau gauche, vous devrez peut-être sélectionner **Afficher tout d’abord** .
+3. Accédez à **Ressources** dans le volet gauche, puis sélectionnez **Salles & équipement**. Si ces options ne sont pas disponibles dans le volet gauche, vous devrez peut-être sélectionner **Afficher tout** d’abord.
 
-4. **Sélectionnez Ajouter une boîte aux lettres de ressource** pour créer un compte de salle. Entrez un nom d’affichage et une adresse de messagerie pour le compte, **sélectionnez** Ajouter, puis sélectionnez **Fermer**.
+4. Sélectionnez **Ajouter une boîte aux lettres de ressources** pour créer un compte de salle. Entrez un nom d’affichage et une adresse e-mail pour le compte, sélectionnez **Ajouter**, puis **sélectionnez Fermer**.
 
 5. Par défaut, les comptes de ressources sont configurés avec les paramètres suivants :
 
     - Autoriser les réunions répétées
     - Refuser automatiquement les réunions en dehors des limites suivantes
-      - Fenêtre de réservation (jours) : 180
+      - Fenêtre Réservation (jours) : 180
       - Durée maximale (heures) : 24
     - Accepter automatiquement les demandes de réunion
 
-    Si vous voulez les modifier, sélectionnez Définir les **options de** planification avant de sélectionner **Fermer**. Si vous souhaitez les modifier ultérieurement, dans **ResourcesRooms** >  **& ressources**, sélectionnez le compte de ressource. Sous Options **de réservation**, sélectionnez **Modifier**.
+    Si vous souhaitez les modifier, sélectionnez **Définir les options de planification** avant de sélectionner **Fermer**. Si vous souhaitez les modifier ultérieurement, accédez à **ResourcesRooms** >  **& équipement**, sélectionnez le compte de ressources. Ensuite, sous **Options de réservation**, **sélectionnez Modifier**.
 
-6. Sélectionnez **la salle** **usersActivez-la** >  et sélectionnez la salle que vous avez créée pour ouvrir le panneau de propriétés.
+6. Accédez aux **utilisateurs UsersActive** > , puis sélectionnez la salle que vous avez créée pour ouvrir le panneau des propriétés.
 
-7. Affectez ensuite un mot de passe au compte de ressource. Dans le panneau, sélectionnez **Réinitialiser le mot de passe**.
+7. Ensuite, affectez un mot de passe au compte de ressource. Dans le panneau, sélectionnez **Réinitialiser le mot de passe**.
  
-8. Demander aux utilisateurs de modifier le mot de passe sur un appareil partagé entraîne des problèmes de se connecte. **Décochez l’étape Demander à cet utilisateur de modifier son** mot de passe lors de sa première se connectant, puis sélectionnez **Réinitialiser**.
+8. L’obligation pour les utilisateurs de modifier le mot de passe sur un appareil partagé entraîne des problèmes de connexion. Décochez **Demander à cet utilisateur de modifier son mot de passe lors de sa première connexion**, puis **sélectionnez Réinitialiser**.
 
-9. Dans la section **Licences et applications**, définissez l’emplacement de sélection du pays ou de la région d’installation de l’appareil. Sélectionnez ensuite la licence à attribuer, par exemple, Salle de réunion, puis **sélectionnez Enregistrer les modifications**. La licence peut varier en fonction de votre organisation.
+9. Dans la section **Licences et applications** , **définissez l’emplacement De sélection** sur le pays ou la région où l’appareil sera installé. Sélectionnez ensuite la licence que vous souhaitez attribuer, par exemple salle de réunion, puis **sélectionnez Enregistrer les modifications**. La licence peut varier en fonction de votre organisation.
 
-Pour modifier les paramètres de la boîte aux lettres de ressources, voir Configurer les propriétés de la boîte aux [lettres](#configure-mailbox-properties) ou utiliser le Exchange d’administration.
+Pour modifier les paramètres de la boîte aux lettres de ressources, consultez [Configurer les propriétés de la boîte aux lettres](#configure-mailbox-properties) ou utiliser le centre d’administration Exchange.
 
-Vous devrez peut-être également appliquer des stratégies de bande passante ou de réunion à ce compte. Pour plus [d’informations](#next-steps) , voir la procédure suivante.
+Vous devrez peut-être également appliquer des stratégies de bande passante ou des stratégies de réunion à ce compte. Pour plus d’informations, consultez [les étapes suivantes](#next-steps) .
 
-#### <a name="with-exchange-online"></a>[**Avec les Exchange Online**](#tab/exchange-online)
+#### <a name="with-exchange-online"></a>[**Avec Exchange Online**](#tab/exchange-online)
 
-1. Connecter à [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
+1. Connectez-vous à [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
     ``` PowerShell
     Connect-ExchangeOnline
     ```
 
-2. Par défaut, les boîtes aux lettres de salle n’ont pas de comptes associés. Ajoutez un compte lorsque vous créez une boîte aux lettres de salle afin qu’elle puisse s’authentifier auprès Microsoft Teams.
+2. Par défaut, les boîtes aux lettres de salle n’ont pas de comptes associés. Ajoutez un compte lorsque vous créez une boîte aux lettres de salle afin qu’il puisse s’authentifier auprès de Microsoft Teams.
 
     Si vous créez une boîte aux lettres de ressources :
     
@@ -131,25 +136,25 @@ Vous devrez peut-être également appliquer des stratégies de bande passante ou
     
     Cet exemple crée une boîte aux lettres de salle avec les paramètres suivants :
 
-        - Account: ConferenceRoom01@contoso.com
+    - Compte : ConferenceRoom01@contoso.com
           
-        - Name: ConferenceRoom01
+    - Nom : ConferenceRoom01
         
-        - Alias: ConferenceRoom01
+     - Alias : ConferenceRoom01
         
-        - Account password: P@$$W0rd5959
+     - Mot de passe du compte : P@$$W 0rd5959
 
     ``` PowerShell
     New-Mailbox -MicrosoftOnlineServicesID ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
     ```
 
-Si vous n’êtes pas dans une configuration hybride Exchange, vous pouvez continuer à l’étape suivante (Configurer les propriétés de boîte [aux lettres](#configure-mailbox-properties)).
+Si vous n’êtes pas dans une configuration hybride Exchange, vous pouvez passer à l’étape suivante, configurer les [propriétés de boîte aux lettres](#configure-mailbox-properties).
 
-Si vous avez une configuration hybride Exchange, vous devez ajouter une adresse de messagerie pour votre compte de domaine local. Pour [plus d’informations, voir Synchroniser des annuaires Office 365 comptes](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78) d’utilisateurs locaux et locaux.
+Si vous êtes dans une configuration hybride Exchange, vous devez ajouter une adresse e-mail pour votre compte de domaine local. Pour plus d’informations, consultez [synchroniser les répertoires des comptes d’utilisateurs locaux et Office 365](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78).
 
 #### <a name="with-exchange-server"></a>[**Avec Exchange Server**](#tab/exchange-server)
 
-  1. Connecter à Exchange Management Shell. [Ouvrez Exchange Management Shell](/powershell/exchange/exchange-server/open-the-exchange-management-shell) ou [connectez-vous à votre serveur Exchange à l’aide de Remote PowerShell](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).
+  1. Connectez-vous à Exchange Management Shell. [Ouvrez le Exchange Management Shell](/powershell/exchange/exchange-server/open-the-exchange-management-shell) ou [connectez-vous à votre serveur Exchange à l’aide de PowerShell distant](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).
 
    2. Pour créer une boîte aux lettres de salle :
 
@@ -165,59 +170,59 @@ Si vous avez une configuration hybride Exchange, vous devez ajouter une adresse 
 
    - Alias : ConferenceRoom01
 
-   - Mot de passe de compte : P@$$W 0rd5959
+   - Mot de passe du compte : P@$$W 0rd5959
 
    ``` PowerShell
    New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
    ```
 
-#### <a name="modify-an-existing-exchange-room-mailbox"></a>[**Modifier une boîte aux lettres Exchange salle existante**](#tab/existing-account)
+#### <a name="modify-an-existing-exchange-room-mailbox"></a>[**Modifier une boîte aux lettres de salle de Exchange existante**](#tab/existing-account)
 
-Pour modifier une boîte aux lettres de salle existante afin qu’elle devienne un compte de ressource, utilisez la syntaxe suivante :
+Pour modifier une boîte aux lettres de salle existante pour qu’elle devienne un compte de ressource, utilisez la syntaxe suivante :
 
 ``` PowerShell
 Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
 ```
 
-Cet exemple active le compte de la boîte aux lettres de salle existante qui possède la valeur d’alias ConferenceRoom02 et définit le mot de passe sur 9898P@$$W 0rd.
+Cet exemple active le compte de la boîte aux lettres de salle existante qui a la valeur d’alias ConferenceRoom02 et définit le mot de passe sur 9898P@$$W 0rd.
 
 ``` PowerShell
 Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
 ```
 
-Si vous avez une configuration hybride Exchange, vous devez également ajouter une adresse de messagerie pour votre compte de domaine local. Pour [plus d’informations, voir Synchroniser des annuaires Office 365 comptes](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78) d’utilisateurs locaux et locaux.
+Si vous êtes dans une configuration hybride Exchange, vous devez également ajouter une adresse e-mail pour votre compte de domaine local. Pour plus d’informations, consultez [synchroniser les répertoires des comptes d’utilisateurs locaux et Office 365](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78).
 
-Pour plus d’informations sur la syntaxe et les paramètres, voir [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) et [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
+Pour obtenir des informations détaillées sur la syntaxe et les paramètres, consultez [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) et [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
 > [!NOTE]
-> Si vous créez ce compte pour Teams salle sur Surface Hub, vous devez également activer ActiveSync sur ce compte. Cela vous permettra d’envoyer des messages électroniques directement à partir du Surface Hub, que vous pouvez utiliser pour des fonctionnalités telles que Tableau blanc. Pour [plus d’informations, voir Application de stratégies ActiveSync à des comptes d’Surface Hub.)](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts)
+> Si vous créez ce compte pour Teams Room sur Surface Hub, vous devez également activer ActiveSync sur ce compte. Cela vous permet d’envoyer des messages électroniques directement à partir du Surface Hub, que vous pouvez utiliser pour des fonctionnalités telles que le Tableau blanc. Pour en savoir plus, consultez [Appliquer des stratégies ActiveSync aux comptes d’appareil (Surface Hub](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts) ).
 
 ---
 
 > [!IMPORTANT]
-> Si vous utilisez ce compte de ressource uniquement pour réserver de l’espace et accepter ou refuser automatiquement les invitations, vous avez terminé la mise en place. Si vous utilisez ce compte de ressource pour la fonction d’appel PSTN, consultez les Microsoft Teams [de modules add-on pour](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) déterminer quelle licence elle a besoin.
+> Si vous utilisez uniquement ce compte de ressource pour réserver de l’espace et accepter ou refuser automatiquement des invitations, vous avez terminé la configuration. Si vous utilisez ce compte de ressource pour l’appel RTC, consultez [Microsoft Teams licences de module](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) complémentaire pour déterminer la licence dont il a besoin.
 >
-> Ne continuez à la section suivante que si le compte de ressource est pour un salles Teams sur Windows, salles Teams sur Android, salles Teams sur Surface Hub ou un écran de Teams avec les Teams avec la fonction d’accès par accès hot-desking.
+> Passez à la section suivante uniquement si le compte de ressource est destiné à une Teams Rooms sur Windows, Teams Rooms sur Android, Teams Rooms sur Surface Hub ou un affichage Teams avec desking à chaud.
 
-## <a name="configure-mailbox-properties"></a>Configurer les propriétés d’une boîte aux lettres
+## <a name="configure-mailbox-properties"></a>Configurer les propriétés de boîte aux lettres
 
-Dans Exchange PowerShell, en ligne ou sur site, configurez les paramètres suivants dans la boîte aux lettres de salle pour améliorer l’expérience de réunion :
+Dans Exchange PowerShell, en ligne ou localement, configurez les paramètres suivants sur la boîte aux lettres de la salle pour améliorer l’expérience de réunion :
 
-- **AutomateProcessing : `AutoAccept`** Les organisateurs de réunion reçoivent directement la décision de réservation de salle sans intervention de la personne.
+- **AutomateProcessing : `AutoAccept`** Les organisateurs de la réunion reçoivent la décision de réservation de salle directement sans intervention humaine.
 
 - **AddOrganizerToSubject : `$false`** L’organisateur de la réunion n’est pas ajouté à l’objet de la demande de réunion.
 
-- **DeleteComments : `$false`** Conservez tout texte dans le corps du message des demandes de réunion entrantes. Cette étape est requise pour traiter les réunions Teams et tierces afin d’offrir une expérience de one touch join.
+- **DeleteComments : `$false`** Conservez le texte dans le corps du message des demandes de réunion entrantes. Cela est nécessaire pour traiter les réunions externes Teams et tierces afin de fournir une expérience one touch join.
 
 - **DeleteSubject : `$false`** Conservez l’objet des demandes de réunion entrantes.
 
-- **ProcessExternalMeetingMessages : `$true`** Indique s’il faut traiter les demandes de réunion provenant de l’extérieur Exchange organisation. Requis pour les réunions Teams externes et les [réunions tierces](/microsoftteams/rooms/third-party-join).
+- **ProcessExternalMeetingMessages : `$true`** Spécifie s’il faut traiter les demandes de réunion qui proviennent en dehors de l’organisation Exchange. Requis pour les réunions Teams externes et [les réunions tierces](/microsoftteams/rooms/third-party-join).
 
-- **RemovePrivateProperty : `$false`** Garantit que l’indicateur privé envoyé par l’organisateur de la réunion dans la demande de réunion initiale reste tel que spécifié.
+- **RemovePrivateProperty : `$false`** Garantit que l’indicateur privé qui a été envoyé par l’organisateur de la réunion dans la demande de réunion d’origine reste tel que spécifié.
 
 - **AddAdditionalResponse : `$true`** Le texte spécifié par le paramètre AdditionalResponse est ajouté aux demandes de réunion.
 
-- **Réponse supplémentaire : « Il s’agit d’Microsoft Teams salle de réunion ! »** Texte supplémentaire à ajouter à la réponse d’acceptation de la réunion.
+- **AdditionalResponse: « Il s’agit d’une salle de réunion Microsoft Teams! »** Texte supplémentaire à ajouter à la réponse d’acceptation de la réunion.
 
 Cet exemple configure ces paramètres sur une boîte aux lettres de salle nommée ConferenceRoom01 :
 
@@ -225,20 +230,20 @@ Cet exemple configure ces paramètres sur une boîte aux lettres de salle nommé
 Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -ProcessExternalMeetingMessages $true -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
 ```
 
-Pour plus d’informations sur la syntaxe et les paramètres, [voir Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
+Pour obtenir des informations détaillées sur la syntaxe et [les paramètres, consultez Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-## <a name="turn-off-password-expiration"></a>Désactiver l’expiration des mots de passe
+## <a name="turn-off-password-expiration"></a>Désactiver l’expiration du mot de passe
 
-Si le mot de passe du compte de ressource expire, l’appareil ne se connecte pas après la date d’expiration. Le mot de passe doit alors être modifié pour le compte de ressource, puis mis à jour sur chaque appareil. Pour éviter cela, vous pouvez désactiver l’expiration des mots de passe.
+Si le mot de passe du compte de ressource expire, l’appareil ne se connecte pas après la date d’expiration. Le mot de passe doit ensuite être modifié pour le compte de ressource, puis mis à jour sur chaque appareil. Pour éviter cela, vous pouvez désactiver l’expiration du mot de passe.
   
 > [!NOTE]
-> La définition **d’un mot de passe n’expire** jamais est une exigence pour les Microsoft Teams appareils partagés. Si vos règles de domaine interdit les mots de passe qui n’expirent pas, vous devez créer une exception pour chaque Teams ressource de l’appareil.
+> La définition **du mot de passe n’expire jamais** est une exigence pour les appareils Microsoft Teams partagés. Si vos règles de domaine interdisent les mots de passe qui n’expirent pas, vous devez créer une exception pour chaque Teams compte de ressource d’appareil.
 
-Suivez les étapes de l’un des onglets suivants pour désactiver l’expiration du mot de passe :
+Suivez les étapes décrites dans l’un des onglets suivants pour désactiver l’expiration du mot de passe :
 
 #### <a name="azure-active-directory-20"></a>[**Azure Active Directory 2.0**](#tab/azure-active-directory2-password/)
 
-Tout d’Connecter active Directory PowerShell :
+Tout d’abord, connectez-vous à Active Directory PowerShell :
 
 ```PowerShell
    Connect-AzureAD
@@ -246,21 +251,21 @@ Tout d’Connecter active Directory PowerShell :
 
 Ensuite, consultez [Définir un mot de passe pour qu’il n’expire jamais](/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire).
 
-Cet exemple définit le mot de passe du ConferenceRoom01@contoso.com pour qu’il n’expire jamais.
+Cet exemple montre comment définir le mot de passe du compte ConferenceRoom01@contoso.com pour qu’il n’expire jamais.
 
 ```PowerShell
 Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration
 ```
 
-#### <a name="azure-active-directory-10"></a>[**Azure Active Directory 1,0**](#tab/azure-active-directory1-password/)
+#### <a name="azure-active-directory-10"></a>[**Azure Active Directory 1.0**](#tab/azure-active-directory1-password/)
 
- 1. Connecter à MSOnline PowerShell :
+ 1. Connectez-vous à MSOnline PowerShell :
 
        ```PowerShell
        Connect-MsolService
        ```
 
-       Pour plus d’informations sur Active Directory, [voir Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+       Pour plus d’informations sur Active Directory, consultez [Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
 
 2. Définissez le mot de passe pour qu’il n’expire jamais à l’aide de la syntaxe suivante :
 
@@ -268,21 +273,21 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
     Set-MsolUser -Identity <samAccountName> -PasswordNeverExpires $true
     ```
 
-    Cet exemple définit le mot de passe du ConferenceRoom01@contoso.com pour qu’il n’expire jamais.
+    Cet exemple montre comment définir le mot de passe du compte ConferenceRoom01@contoso.com pour qu’il n’expire jamais.
 
     ```PowerShell
     Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -PasswordNeverExpires $true
     ```
 
-#### <a name="active-directory-on-premises"></a>[**Active Directory (en local)**](#tab/active-directory1-password/)
+#### <a name="active-directory-on-premises"></a>[**Active Directory (local)**](#tab/active-directory1-password/)
 
-1. Connecter à Active Directory PowerShell :
+1. Connectez-vous à Active Directory PowerShell :
 
     ```PowerShell
        Import-Module ActiveDirectory
     ```
     
-    Pour plus d’informations sur Active Directory PowerShell, voir [ActiveDirectory](/powershell/module/activedirectory/?view=windowsserver2022-ps).
+    Pour plus d’informations sur Active Directory PowerShell, consultez [ActiveDirectory](/powershell/module/activedirectory/?view=windowsserver2022-ps).
 
 2. Définissez le mot de passe pour qu’il n’expire jamais à l’aide de la syntaxe suivante :
 
@@ -290,7 +295,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
     Set-ADUser -Identity <samAccountName> -PasswordNeverExpires $true
     ```
 
-    Cet exemple définit le mot de passe du ConferenceRoom01@contoso.com pour qu’il n’expire jamais.
+    Cet exemple montre comment définir le mot de passe du compte ConferenceRoom01@contoso.com pour qu’il n’expire jamais.
 
     ```PowerShell
     Set-ADUser -Identity ConferenceRoom01@contoso.com -PasswordNeverExpires $true
@@ -300,39 +305,39 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 
 ## <a name="assign-a-meeting-room-license"></a>Attribuer une licence de salle de réunion
 
-Le compte de ressource a besoin d’Microsoft 365 ou Office 365 licence pour se Microsoft Teams.
+Le compte de ressource a besoin d’une licence Microsoft 365 ou Office 365 pour se connecter à Microsoft Teams.
 
 > [!NOTE]
-> Salles Microsoft Teams Standard et Salles Microsoft Teams Premium sont les deux SDK disponibles pour les appareils de salle de réunion partagées, dont salles Teams. Une licence de salle de réunion est requise pour les Teams’écran avec la mise en attente des réunions. Pour plus d’informations, voir [Teams licences de salle de réunion](rooms-licensing.md).
+> Microsoft Teams Rooms Standard et Microsoft Teams Rooms Premium sont les deux références SKU disponibles pour les appareils de salle de réunion partagés, y compris les salles Teams. Une licence de salle de réunion est requise pour Teams s’affiche à chaud. Pour plus d’informations, consultez [Teams licences de salle de réunion](rooms-licensing.md).
 
-Pour attribuer des licences à l’Centre d'administration Microsoft 365, voir [Attribuer des licences aux utilisateurs](/microsoft-365/admin/manage/assign-licenses-to-users). Pour attribuer des licences à l Azure AD, consultez l’un des onglets suivants :
+Pour attribuer des licences à l’aide de la Centre d'administration Microsoft 365, consultez [Affecter des licences aux utilisateurs](/microsoft-365/admin/manage/assign-licenses-to-users). Pour attribuer des licences à l’aide d’Azure AD, consultez l’un des onglets suivants :
 
 #### <a name="active-directory-20"></a>[**Active Directory 2.0**](#tab/active-directory2-license/)
 
 
-1. Connecter à Azure AD
+1. Se connecter à Azure AD
   
     ```PowerShell
     Connect-AzureAD
     ```
 
-     Pour plus d’informations sur Active Directory, voir [PowerShell Azure Active Directory Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0).
+     Pour plus d’informations sur Active Directory, consultez [Azure Active Directory PowerShell pour Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0).
     
-2. Affectez un emplacement d’utilisation à votre compte de ressource à l’aide de l’cmdlet `Set-AzureADUser` . Cela détermine les S SKD de licence disponibles.
+2. Affectez un emplacement d’utilisation à votre compte de ressources à l’aide de l’applet `Set-AzureADUser` de commande. Cela détermine les références SKU de licence disponibles.
 
-    Dans cet exemple, l’utilisateur est situé aux États-Unis :
+    Dans cet exemple, l’utilisateur se trouve dans le États-Unis (États-Unis) :
 
     ```PowerShell
     Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -UsageLocation 'US'
     ```
 
-3. Utilisez ensuite cette liste `Get-AzureADSubscribedSku` pour récupérer la liste des SKT disponibles pour votre organisation Microsoft 365 ou Office 365 service.
+3. Ensuite, utilisez cette option `Get-AzureADSubscribedSku` pour récupérer la liste des références SKU disponibles pour votre Microsoft 365 ou votre organisation Office 365.
 
     ```PowerShell
     Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
     ```
 
-4. Pour attribuer la licence, `Set-AzureADUser` utilisez l’cmdlet et convertissez l’ID de référence SKU de licence (voir l’étape 2) en objet de type de licence PowerShell. Affectez ensuite cet objet au compte de ressource. Dans l’exemple suivant, l’ID de référence SKU de licence est 6070a4c8-34c6-4937-8dfb-39bbc6397a60 et est affecté au compte conferenceroom01@contoso.com :
+4. Pour affecter la licence, utilisez l’applet `Set-AzureADUser` de commande et convertissez l’ID de référence SKU de licence (voir l’étape 2) en objet de type de licence PowerShell. Ensuite, affectez cet objet au compte de ressource. Dans l’exemple suivant, l’ID de la référence SKU de licence est 6070a4c8-34c6-4937-8dfb-39bbc6397a60, et il est affecté au compte conferenceroom01@contoso.com :
 
     ```PowerShell
     #Create an object for a single license type
@@ -351,25 +356,25 @@ Pour attribuer des licences à l’Centre d'administration Microsoft 365, voir [
 
 #### <a name="active-directory-10"></a>[**Active Directory 1.0**](#tab/active-directory1-license/)
 
-1. Connecter sur MSOnline PowerShell.
+1. Connectez-vous à MSOnline PowerShell.
 
    ```PowerShell
    Connect-MsolService
    ```
 
-    Pour plus d’informations sur Active Directory, [voir Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+    Pour plus d’informations sur Active Directory, consultez [Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
 
-2.  Affectez un emplacement d’utilisation à votre compte de ressource à l’aide de l’cmdlet `Set-MsolUser` . Cela détermine les S SKD de licence disponibles.
+2.  Affectez un emplacement d’utilisation à votre compte de ressources à l’aide de l’applet `Set-MsolUser` de commande. Cela détermine les références SKU de licence disponibles.
 
-    Dans cet exemple, l’utilisateur est situé aux États-Unis.
+    Dans cet exemple, l’utilisateur se trouve dans le États-Unis (États-Unis).
     
     ```PowerShell
     Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
     ```
     
-    Vous pouvez ensuite l’utiliser `Get-MsolAccountSku` pour récupérer la liste des SKT disponibles pour votre organisation Microsoft 365 ou Office 365 service.
+    Vous pouvez ensuite récupérer `Get-MsolAccountSku` une liste de références SKU disponibles pour votre Microsoft 365 ou votre organisation Office 365.
 
-4. Pour attribuer la licence, utilisez l’cmdlet `Set-MsolUser` . Dans cet exemple, la licence « contoso:MEETING_ROOM » est affectée au compte conferenceroom01@contoso.com :
+4. Pour attribuer la licence, utilisez l’applet de `Set-MsolUser` commande. Dans cet exemple, la licence « contoso:MEETING_ROOM » est affectée au compte conferenceroom01@contoso.com :
 
     ```PowerShell
     Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses 'contoso:MEETING_ROOM'
@@ -377,30 +382,33 @@ Pour attribuer des licences à l’Centre d'administration Microsoft 365, voir [
 
 ---
 
-Pour valider la création du compte et l’attribution de licence, connectez-vous à n’importe Teams client à l’aide du compte que vous avez créé.
+Pour valider la création du compte et l’attribution de licence, connectez-vous à n’importe quel client Teams à l’aide du compte que vous avez créé.
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-### <a name="network-and-bandwidth"></a>Réseau et bande passante
+### <a name="meeting-policies"></a>Stratégies de réunion
 
-Vous devrez peut-être appliquer des stratégies de réseau, de bande passante ou de réunion personnalisées à ce compte. Pour plus d’informations sur les stratégies réseau et de bande passante, voir [Paramètres de stratégie de réunion pour l’audio & vidéo](/microsoftteams/meeting-policies-audio-and-video). Pour salles Teams, nous vous recommandons de définir la bande passante de la stratégie de réunion à 10 Mbits/s.
+Vous devrez peut-être appliquer des stratégies de réseau, de bande passante ou de réunion personnalisées à ce compte. Pour plus d’informations sur les stratégies de réseau et de bande passante, consultez [les paramètres de stratégie de réunion pour la vidéo audio &](/microsoftteams/meeting-policies-audio-and-video). Pour Teams Salles, nous vous recommandons de définir la bande passante de la stratégie de réunion sur 10 Mbits/s.
 
-À des fins de collaboration, vous PowerPoint les notes en direct, le tableau blanc et les notes partagées. Vous pouvez créer une stratégie de réunion pour ajuster les paramètres des participants et invités pour salles Teams. Par exemple, examinez les paramètres de la salle d’accueil, tels que les participants à qui les participants sont automatiquement admis aux réunions. Pour plus d’informations sur Teams de réunion, voir [Gérer les stratégies de réunion dans Microsoft Teams](/microsoftteams/meeting-policies-overview).
+À des fins de collaboration, activez PowerPoint Live, Whiteboard et les notes partagées. Il est recommandé d’activer le paramètre de stratégie de réunion « Réunion maintenant dans des réunions privées ». Vous pouvez créer une stratégie de réunion pour ajuster les paramètres des participants et des invités pour Teams Salles. Par exemple, passez en revue les paramètres de salle d’attente, tels que les participants à admettre automatiquement aux réunions. Pour plus d’informations sur Teams stratégies de réunion, consultez [Gérer les stratégies de réunion dans Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 ### <a name="calling"></a>Appel
 
-Il n’existe aucune obligation unique d’activer les appels avec des comptes de ressources. Vous activez le compte de ressource pour les appels de la même façon que vous activez un utilisateur ordinaire.
+Il n’existe aucune exigence unique pour activer l’appel avec des comptes de ressources. Vous activez le compte de ressource pour appeler de la même façon que vous activez un utilisateur normal.
 
 > [!NOTE]
-> Nous vous recommandons de éteindre la messagerie vocale pour les appareils partagés en attribuant une stratégie d’appel aux comptes de ressources de l’appareil. Pour [plus d’informations,](../teams-calling-policy.md) voir Les appels et le Teams d’appel.
+> Nous vous recommandons de désactiver la messagerie vocale pour les appareils partagés en affectant une stratégie d’appel aux comptes de ressources d’appareil. Pour plus d’informations, consultez [l’appel et le transfert d’appel dans Teams](../teams-calling-policy.md).
 
-### <a name="configure-distribution-groups"></a>Configurer des groupes de distribution
+### <a name="configure-distribution-groups-for-teams-calendar"></a>Configurer des groupes de distribution pour Teams Calendrier
 
-Pour organiser les emplacements des salles de réunion, vous pouvez ajouter des comptes de ressources de votre appareil à Exchange groupes de distribution. Par exemple, si vous avez des bureaux dans trois emplacements géographiques différents, vous pouvez créer trois groupes de distribution et ajouter les comptes de ressources appropriés à chaque emplacement. Pour plus d’informations, [voir La liste Créer une salle](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list).
+Pour organiser vos emplacements de salle de réunion, vous pouvez ajouter vos comptes de ressources d’appareil à Exchange groupes de distribution. Par exemple, si vous avez des bureaux dans trois emplacements géographiques différents, vous pouvez créer trois groupes de distribution et ajouter les comptes de ressources appropriés à chaque emplacement. Pour plus d’informations, consultez [Créer une liste de salles](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list).
+
+### <a name="configure-places-for-outlook-calendar"></a>Configurer des emplacements pour Outlook Calendrier
+Pour que les emplacements de salle de réunion apparaissent dans le Outlook Finder de salle, vous devez utiliser l’applet de commande PowerShell Set-Place Exchange. Non seulement Set-Place remplir le finder de salle dans Outlook, il vous permet également d’ajouter des métadonnées supplémentaires telles que la capacité de la salle ou le plancher de la construction de la salle est. Pour plus d’informations, consultez [Set-Place](/powershell/module/exchange/set-place).
 
 ## <a name="related-articles"></a>Articles connexes
 
-[Configurer des comptes pour Salles Microsoft Teams](rooms-configure-accounts.md)
+[Configurer des comptes pour Microsoft Teams Rooms](rooms-configure-accounts.md)
 
 [Planifier les Salles Microsoft Teams](rooms-plan.md)
 
@@ -408,4 +416,4 @@ Pour organiser les emplacements des salles de réunion, vous pouvez ajouter des 
 
 [Gérer les Salles Microsoft Teams](rooms-manage.md)
 
-[Salles Microsoft Teams licences](rooms-licensing.md)
+[licences Microsoft Teams Rooms](rooms-licensing.md)
