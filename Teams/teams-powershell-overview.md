@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Vue d’ensemble de PowerShell
+title: Vue d’ensemble de Microsoft Teams PowerShell
 ms.reviewer: ''
 author: brandber
 ms.author: brandber
@@ -10,47 +10,49 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: Découvrez comment utiliser les contrôles PowerShell pour gérer les Microsoft Teams.
+description: Découvrez comment utiliser les contrôles PowerShell pour gérer Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e878acddd27044ecb57d33c76c1af755eaa7c5d8
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 07a97ee8242da28796664892d092b503e10c59cf
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456544"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922815"
 ---
-# <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams Vue d’ensemble de PowerShell
+# <a name="microsoft-teams-powershell-overview"></a>Vue d’ensemble de Microsoft Teams PowerShell
 
-Microsoft Teams Le module PowerShell est un ensemble d’lets de commande qui permet de Teams des données directement à partir de la ligne de commande PowerShell. PowerShell fournit de puissantes fonctionnalités d’automatisation qui peuvent être exploitez pour gérer votre charge Teams charge de travail.  
+Microsoft Teams module PowerShell est un ensemble d’applets de commande permettant de gérer Teams directement à partir de la ligne de commande PowerShell. PowerShell fournit des fonctionnalités puissantes pour l’automatisation qui peuvent être exploitées pour gérer votre charge de travail Teams.  
 
-Vous pouvez utiliser le module Microsoft Teams PowerShell à l’aide de l’une des méthodes suivantes : 
+Vous pouvez utiliser le module PowerShell Microsoft Teams à l’aide de l’une des méthodes suivantes : 
 
-- Installez le Microsoft Teams module PowerShell via [la Galerie PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (option recommandée). 
-- Installez le module PowerShell Microsoft Teams via le [téléchargement manuel.](https://www.powershellgallery.com/packages/MicrosoftTeams) 
+- Installez le module PowerShell Microsoft Teams via [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) (option recommandée). 
+- Installez le module PowerShell Microsoft Teams via [le téléchargement manuel](https://www.powershellgallery.com/packages/MicrosoftTeams). 
 
+> [!NOTE]
+> Microsoft Teams versions du module PowerShell antérieures à 4.x.x sont en cours de mise hors service. Veuillez mettre à jour vers la dernière version. Plus d’informations dans [Teams module PowerShell - Versions prises en charge](teams-powershell-supported-versions.md).
 
 ## <a name="features"></a>Fonctionnalités 
 
-Le Microsoft Teams module PowerShell inclut les fonctionnalités suivantes : 
+Le module PowerShell Microsoft Teams inclut les fonctionnalités suivantes : 
 
-- Un module unique permet de gérer tous les aspects de l’administration Teams, y compris les utilisateurs, les équipes, les stratégies et la configuration.  
+- Utilise un module unique pour gérer tous les aspects de l’administration Teams, notamment les utilisateurs, les équipes, les stratégies et la configuration.  
 - Prend en charge les mécanismes d’authentification tels que les jetons d’accès et les informations d’identification. 
 
 ##  <a name="data-collection"></a>Collecte de données 
 
-Microsoft Teams Les paramètres par défaut du module PowerShell collectent des données de télémétrie. Microsoft agrège les données collectées pour identifier les modes d’utilisation et les problèmes courants, tels que les cmdlets dont le succès est faible, afin de nous aider à hiérarchiser notre travail afin d’améliorer Teams expérience PowerShell. Microsoft Teams Le module PowerShell ne collecte aucune donnée personnelle ou privée. Pour plus d’informations, reportez-vous à la [Déclaration de confidentialité de Microsoft.](https://privacy.microsoft.com/privacystatement)
+Microsoft Teams paramètres par défaut du module PowerShell collectent les données de télémétrie. Microsoft agrège les données collectées pour identifier les modèles d’utilisation et les problèmes courants, tels que les applets de commande avec un faible succès, pour nous aider à hiérarchiser notre travail pour améliorer l’expérience Teams PowerShell. Microsoft Teams module PowerShell ne collecte pas de données privées ou personnelles. Pour plus d’informations, reportez-vous à la [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/privacystatement).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
-[Installation Teams PowerShell](teams-powershell-install.md)
+[Installation de Teams PowerShell](teams-powershell-install.md)
 
-[Gestion des Teams à l’Teams PowerShell](teams-powershell-managing-teams.md)
+[Gestion des Teams avec Teams PowerShell](teams-powershell-managing-teams.md)
 
-[Teams Notes de publication de PowerShell](teams-powershell-release-notes.md)
+[notes de publication Teams PowerShell](teams-powershell-release-notes.md)
 
-[Microsoft Teams des cmdlet](/powershell/teams/?view=teams-ps)
+[référence de l’applet de commande Microsoft Teams](/powershell/teams/?view=teams-ps)
 
-[Skype Entreprise des cmdlet](/powershell/skype/intro?view=skype-ps)
+[référence de l’applet de commande Skype Entreprise](/powershell/skype/intro?view=skype-ps)
 
 [Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams](using-admin-roles.md)

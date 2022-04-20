@@ -1,5 +1,5 @@
 ---
-title: Étiquettes de sensibilité pour Microsoft Teams
+title: Étiquettes de confidentialité pour Microsoft Teams
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -16,83 +16,83 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment utiliser des étiquettes de sensibilité pour protéger vos équipes dans Microsoft Teams.
-ms.openlocfilehash: 7602f7ba0a6c8c2908486d02b24d1141d4940a04
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+description: Découvrez comment utiliser des étiquettes de confidentialité pour protéger vos équipes dans Microsoft Teams.
+ms.openlocfilehash: fab5ad4e3be3da5afc6ee373aa6bebe2afae819e
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442660"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922695"
 ---
-# <a name="sensitivity-labels-for-microsoft-teams"></a>Étiquettes de sensibilité pour Microsoft Teams
+# <a name="sensitivity-labels-for-microsoft-teams"></a>Étiquettes de confidentialité pour Microsoft Teams
 
-[Les étiquettes de sensibilité](/microsoft-365/compliance/sensitivity-labels) permettent Teams administrateurs de protéger et de réguler l’accès au contenu organisationnel sensible créé lors de la collaboration au sein d’équipes. Après avoir configuré les étiquettes de confidentialité avec les stratégies associées dans le Centre de [conformité Microsoft](/microsoft-365/compliance/go-to-the-securitycompliance-center), ces étiquettes peuvent être appliquées aux équipes de votre organisation.
+[Les étiquettes de confidentialité](/microsoft-365/compliance/sensitivity-labels) permettent aux administrateurs Teams de protéger et de réglementer l’accès au contenu organisationnel sensible créé lors de la collaboration au sein des équipes. Une fois que vous avez configuré des étiquettes de confidentialité avec leurs stratégies associées dans le [portail de conformité Microsoft Purview](/microsoft-365/compliance/go-to-the-securitycompliance-center), ces étiquettes peuvent être appliquées aux équipes de votre organisation.
 
-Les étiquettes de sensibilité ne sont actuellement pas pris en compte dans les équipes de classe pour les clients qui Teams S SKUs Éducation. Pour en savoir plus sur les licences, consultez[Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description).
+Les étiquettes de confidentialité ne sont actuellement pas prises en charge dans les équipes de classes pour les clients utilisant Teams références SKU Éducation. Pour en savoir plus sur les licences, consultez[Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
-## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification"></a>Quelle est la différence entre les étiquettes de sensibilité et Teams classification ?
+## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification"></a>Quelle est la différence entre les étiquettes de confidentialité et la classification Teams ?
 
-Les étiquettes de sensibilité sont différentes Teams classification, également appelée classification Azure AD de groupe. Les classifications sont des chaînes de texte qui peuvent être associées à Microsoft 365 groupe de personnes, mais qui n’ont aucune stratégie réelle associée. Vous utilisez la classification en tant que métadonnées, puis vous devez utiliser d’autres méthodes telles que des outils et scripts internes pour appliquer des stratégies.
+Les étiquettes de sensibilité sont différentes de Teams classification, également appelée classification de groupe Azure AD. Les classifications sont des chaînes de texte qui peuvent être associées à un groupe Microsoft 365, mais qui n’ont aucune stratégie réelle associée. Vous utilisez la classification en tant que métadonnées, puis vous devez utiliser d’autres méthodes, telles que des outils et des scripts internes, pour appliquer des stratégies.
 
-L’utilisation d’étiquettes de confidentialité permet d’appliquer automatiquement leurs stratégies de bout en bout via une combinaison de la plateforme Microsoft 365 Groups, du centre de conformité et des services Teams web. Les étiquettes de confidentialité fournissent une prise en charge puissante de l’infrastructure pour sécuriser les données sensibles de votre organisation et assurer le respect de vos politiques ou réglementations internes.
+L’avantage de l’utilisation d’étiquettes de confidentialité est que leurs stratégies sont automatiquement appliquées de bout en bout par le biais d’une combinaison de la plateforme Groupes Microsoft 365, du centre de conformité et des services Teams. Les étiquettes de confidentialité fournissent une prise en charge puissante de l’infrastructure pour sécuriser les données sensibles de votre organisation et garantir la conformité avec vos stratégies ou réglementations internes.
 
-Si vous utilisez actuellement Teams classification par catégorie, consultez la documentation suivante pour plus d’informations et des instructions sur la conversion de ces valeurs en étiquettes de sensibilité : Catégorie [Azure AD classification de groupe](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification).
+Si vous utilisez actuellement Teams classification, consultez la documentation suivante pour plus d’informations et des instructions sur la conversion de ces valeurs en étiquettes de confidentialité : [classification de groupe classique Azure AD](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification).
 
-## <a name="example-scenarios-for-sensitivity-labels"></a>Exemples de scénarios pour les étiquettes de sensibilité
+## <a name="example-scenarios-for-sensitivity-labels"></a>Exemples de scénarios pour les étiquettes de confidentialité
 
-Exemples de scénarios d’utilisation d’étiquettes de sensibilité avec des Teams dans votre organisation :
+Exemples de scénarios permettant d’utiliser des étiquettes de confidentialité avec Teams dans votre organisation :
 
 - [Définir le niveau de confidentialité (public ou privé) pour les équipes](#set-the-privacy-level-for-teams)
 - [Contrôler l’accès invité aux équipes](#control-guest-access-to-teams)
 
-### <a name="set-the-privacy-level-for-teams"></a>Définir le niveau de confidentialité des équipes
+### <a name="set-the-privacy-level-for-teams"></a>Définir le niveau de confidentialité pour les équipes
 
 Vous pouvez créer et configurer une étiquette de confidentialité qui, lorsqu’elle est appliquée lors de la création de l’équipe, permet aux utilisateurs de créer des équipes avec un paramètre de confidentialité spécifique (public ou privé).
 
-Par exemple, vous créez et publiez une étiquette de confidentialité nommée « Confidentiel » qui a l’option de confidentialité de l’étiquette configurée comme **Privée**. Par conséquent, toute équipe créée avec cette étiquette doit être privée. 
+Par exemple, vous créez et publiez une étiquette de confidentialité nommée « Confidentiel » dont l’option de confidentialité d’étiquette est configurée comme **privée**. Par conséquent, toute équipe créée avec cette étiquette doit être une équipe privée. 
 
-Lorsqu’un utilisateur crée une équipe et sélectionne l’étiquette Confidentiel, la seule option de confidentialité disponible pour l’utilisateur est **Privé**. D’autres options de confidentialité, telles que Publique et À l’échelle de l’organisation, ne peuvent pas être sélectionnées par l’utilisateur :
+Lorsqu’un utilisateur crée une équipe et sélectionne l’étiquette **Confidentiel** , la seule option de confidentialité disponible pour l’utilisateur est **Private**. D’autres options de confidentialité telles que public et à l’échelle de l’organisation ne sont pas disponibles pour que l’utilisateur sélectionne :
 
-![Capture d’écran de l’étiquette confidentiel.](media/sensitivity-labels-confidential-example.png)
+![Capture d’écran de l’étiquette confidentialité.](media/sensitivity-labels-confidential-example.png)
 
-De même, vous créez et publiez une étiquette de confidentialité nommée « Général » dont l’option de confidentialité est configurée en tant que **Public**. Lorsqu’un utilisateur crée une équipe, il peut uniquement créer des équipes publiques ou à l’échelle de l’organisation quand il sélectionne cette étiquette :
+De même, vous créez et publiez une étiquette de confidentialité nommée « Général » dont l’option de confidentialité d’étiquette est configurée en tant que **Public**. Lorsqu’un utilisateur crée une équipe, il peut uniquement créer des équipes publiques ou à l’échelle de l’organisation lorsqu’il sélectionne cette étiquette :
 
-![Capture d’écran de l’étiquette de sensibilité Général.](media/sensitivity-labels-general-example.png)
+![Capture d’écran de l’étiquette de confidentialité générale.](media/sensitivity-labels-general-example.png)
 
-Lorsque l’équipe est créée, l’étiquette de sensibilité est visible pour les utilisateurs dans le coin supérieur droit des canaux de l’équipe. 
+Lorsque l’équipe est créée, l’étiquette de confidentialité est visible pour les utilisateurs dans le coin supérieur droit des canaux de l’équipe. 
 
-![Capture d’écran de l’étiquette de sensibilité dans le canal d’équipe.](media/sensitivity-labels-channel.png)
+![Capture d’écran de l’étiquette de confidentialité dans le canal d’équipe.](media/sensitivity-labels-channel.png)
 
-Un propriétaire d’équipe peut modifier l’étiquette de confidentialité et le paramètre de confidentialité de l’équipe à tout moment en se rendre à l’équipe, puis en cliquant **sur Modifier l’équipe**.
+Un propriétaire d’équipe peut modifier l’étiquette de confidentialité et le paramètre de confidentialité de l’équipe à tout moment en accédant à l’équipe, puis en cliquant sur **Modifier l’équipe**.
 
-![Capture d’écran de l’étiquette de sensibilité dans les propriétés de l’équipe.](media/sensitivity-labels-edit-team.png)
+![Capture d’écran de l’étiquette de confidentialité dans les propriétés de l’équipe.](media/sensitivity-labels-edit-team.png)
 
 ### <a name="control-guest-access-to-teams"></a>Contrôler l’accès invité aux équipes
 
-Vous pouvez utiliser des étiquettes de sensibilité pour contrôler l’accès invité à vos équipes. Teams’étiquette qui n’autorise pas l’accès invité sont uniquement disponibles pour les utilisateurs de votre organisation. Des personnes extérieures à votre organisation ne peuvent pas être ajoutées à l’équipe.
+Vous pouvez utiliser des étiquettes de confidentialité pour contrôler l’accès invité à vos équipes. Teams créés avec une étiquette qui n’autorise pas l’accès invité sont uniquement disponibles pour les utilisateurs de votre organisation. Les personnes extérieures à votre organisation ne peuvent pas être ajoutées à l’équipe.
 
-## <a name="microsoft-teams-admin-center"></a>Microsoft Teams d’administration
+## <a name="microsoft-teams-admin-center"></a>centre d’administration Microsoft Teams
 
-Vous pouvez appliquer des étiquettes de sensibilité lorsque vous créez ou modifiez une équipe dans le Microsoft Teams d’administration. 
+Vous pouvez appliquer des étiquettes de confidentialité lorsque vous créez ou modifiez une équipe dans le centre d’administration Microsoft Teams. 
 
-Les étiquettes de sensibilité sont également visibles dans les propriétés de l’équipe et dans la colonne **Classification** de **la page Gérer** les équipes du Microsoft Teams d’administration.
+Les étiquettes de confidentialité sont également visibles dans les propriétés de l’équipe et dans la colonne **Classification** de la page **Gérer les équipes** du centre d’administration Microsoft Teams.
 
 ## <a name="limitations"></a>Limites
 
-Avant d’utiliser des étiquettes de sensibilité Teams connaître les limitations suivantes :
+Avant d’utiliser des étiquettes de confidentialité pour Teams, tenez compte des limitations suivantes :
 
-- **Les étiquettes de sensibilité ne sont pas pris en charge par Teams Graph API et les cmdlets PowerShell**
+- **Les étiquettes de confidentialité ne sont pas prises en charge par les API Teams Graph et les applets de commande PowerShell**
     
-    Les utilisateurs ne peuvent pas spécifier d’étiquettes de sensibilité lors de la création d’équipes directement via Teams Graph API ou Teams cmdlets PowerShell. Toutefois, les groupes modernes Graph API et les cmdlets PowerShell permettent la création de groupes avec des étiquettes de sensibilité. Cela signifie que vous pouvez créer des groupes avec des étiquettes de sensibilité à l’aide de ces méthodes, puis convertir ces groupes en équipes.
+    Les utilisateurs ne pourront pas spécifier d’étiquettes de confidentialité lors de la création d’équipes directement via Teams Graph API ou Teams applets de commande PowerShell. Toutefois, les groupes modernes Graph API et les applets de commande PowerShell permettent la création de groupes avec des étiquettes de confidentialité. Cela signifie que vous pouvez créer des groupes avec des étiquettes de confidentialité à l’aide de ces méthodes, puis convertir ces groupes en équipes.
 
 - **Prise en charge des canaux privés**
     
-    Les canaux privés créés dans une équipe héritent de l’étiquette de sensibilité appliquée à une équipe. La même étiquette est appliquée automatiquement sur la collection SharePoint du canal privé.
+    Les canaux privés créés dans une équipe héritent de l’étiquette de confidentialité appliquée à une équipe. La même étiquette est appliquée automatiquement sur la collection de sites SharePoint pour le canal privé.
     
-    Toutefois, si un utilisateur modifie directement l’étiquette de sensibilité d’un site SharePoint pour un canal privé, cette modification n’est pas reflétée dans le client Teams privé. Dans ce scénario, les utilisateurs continuent à voir l’étiquette de sensibilité d’origine appliquée à l’équipe dans l’en-tête du canal privé.
+    Toutefois, si un utilisateur modifie directement l’étiquette de confidentialité sur un site SharePoint pour un canal privé, cette modification d’étiquette n’est pas reflétée dans le client Teams. Dans ce scénario, les utilisateurs continuent à voir l’étiquette de confidentialité d’origine appliquée à l’équipe dans l’en-tête de canal privé.
 
-## <a name="how-to-create-and-configure-sensitivity-labels-for-teams"></a>Comment créer et configurer des étiquettes de sensibilité pour Teams
+## <a name="how-to-create-and-configure-sensitivity-labels-for-teams"></a>Comment créer et configurer des étiquettes de confidentialité pour Teams
 
-Utilisez les instructions de la documentation Microsoft 365 pour créer et configurer des étiquettes de sensibilité pour Teams : 
+Suivez les instructions de la documentation Microsoft 365 pour créer et configurer des étiquettes de confidentialité pour Teams : 
 
-- [Utilisez des étiquettes de sensibilité pour protéger le contenu Microsoft Teams, Microsoft 365 groupes et SharePoint sites](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+- [Utilisez des étiquettes de confidentialité pour protéger le contenu dans Microsoft Teams, les groupes Microsoft 365 et les sites SharePoint](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).

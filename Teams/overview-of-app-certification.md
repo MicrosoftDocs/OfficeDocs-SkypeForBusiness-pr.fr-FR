@@ -18,29 +18,38 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aced3483f02eba6d8b4618633a0f19c4e76bec02
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 5a8edd0afc2adde7a6867242dd0bdc0b406ca682
+ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817855"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "64910910"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Programme de conformité de l’application Microsoft 365 pour la sécurité, la conformité et la confidentialité des applications tierces
 
-Le programme de conformité de Microsoft démontre qu'une application a été vérifiée par rapport à des contrôles dérivés des principaux cadres standard de l'industrie, et que des pratiques de sécurité et de conformité solides sont en place pour protéger les données des clients. Le programme comporte deux phases :
+Le programme de conformité Microsoft vérifie et audite une application par rapport à des contrôles dérivés des infrastructures de pointe liées aux normes du secteur d’activité. Le programme démontre que de solides pratiques de sécurité et de conformité sont en place pour protéger les données clients. Le programme comprend les phases suivantes :
 
+* Vérification de l’éditeur.
 * Attestation Publisher.
 * Certification Microsoft 365.
 
+## <a name="publisher-verification"></a>Vérification de l’éditeur
+
+Avant qu’un développeur d’application ne puisse soumettre son application à Microsoft, il doit faire l’objet d’une vérification. Un éditeur vérifie son identité à l’aide de son compte Microsoft Partner Network (MPN) et associe ce compte MPN à son inscription de l’application. La vérification de l’éditeur aide les administrateurs et les utilisateurs finaux à comprendre l’authenticité des développeurs d’applications. La vérification Publisher offre les avantages suivants :
+
+* Transparence accrue et réduction des risques pour les clients : cette fonctionnalité permet aux clients de comprendre quelles applications utilisées dans leur organisation sont publiées par les développeurs auxquels ils font confiance.
+* Amélioration de la personnalisation : un badge `verified` s’affiche dans l’invite de consentement Azure Active Directory, la page des applications d’entreprise et d’autres interfaces utilisateur utilisées par les utilisateurs finaux et les administrateurs.
+* Adoption plus fluide de l’entreprise : les administrateurs peuvent configurer des stratégies de consentement de l’utilisateur, avec l’état de vérification de l’éditeur comme critère de stratégie principal.
+
 ## <a name="publisher-attestation"></a>Attestation Publisher
 
-L’attestation Publisher est le niveau suivant dans le programme de conformité des applications. Les applications attestées par Publisher donnent une confiance accrue aux administrateurs quant aux mesures de sécurité et de conformité d’une application et réduisent le temps d’examen pour une application. L’attestation reflète les pratiques de sécurité, de gestion des données et de conformité d’une application par rapport à plus de 80 facteurs de risque identifiés par [Microsoft Cloud App Security](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security).
+L’attestation Publisher est le niveau suivant dans le programme de conformité des applications. Les applications attestées par l’éditeur assurent une confiance des administrateurs quant aux mesures de sécurité et de conformité d’une application. Cela permet également de réduire le temps d’examen de ces informations pour une application. L’attestation reflète les pratiques de sécurité, de gestion des données et de conformité d’une application par rapport à plus de 80 facteurs de risque identifiés par [Microsoft Cloud App Security](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security). Le processus d’attestation de l’éditeur peut commencer avant la fin de la vérification de l’éditeur.
 
 Les développeurs d’applications sont invités à effectuer une auto-évaluation qui inclut des questions fréquemment posées par les clients et les administrateurs informatiques pour évaluer la sécurité et la conformité d’une application. Microsoft publie ensuite ces informations pour une évaluation plus facile et plus rapide. Pour en savoir plus, consultez le [Guide d’attestation](/microsoft-365-app-certification/docs/enterprise-app-attestation-guide).
 
 Les administrateurs peuvent rapidement rechercher les applications attestées publiées de trois manières différentes.
 
-* Sur le Web, pour obtenir plus d'informations sur une application, consultez les détails d'une application spécifique sur son lien à l'adresse [Sécurité et conformité des applications Microsoft Teams](/microsoft-365-app-certification/teams/teams-apps) . Vous pouvez également cliquer sur le lien Attestation de l'éditeur dans le centre d'administration de Teams.
+* Lors de l’obtention d'informations sur une application, consultez les détails d'une application spécifique sur son lien à l'adresse [Sécurité et conformité des applications Microsoft Teams](/microsoft-365-app-certification/teams/teams-apps) . Vous pouvez également sélectionner le lien Attestation de l'éditeur dans le Centre d'administration de Teams.
 
   :::image type="content" source="media/attested-app-tac3.png" alt-text="Dans le Centre d’administration Microsoft Teams, cliquez sur lien d’attestation Publisher pour afficher les détails de l’attestation d’une application":::
 
@@ -48,27 +57,32 @@ Les administrateurs peuvent rapidement rechercher les applications attestées pu
 
   :::image type="content" source="media/attested-app-tac1.png" alt-text="Dans le Centre d’administration Microsoft Teams, l’icône attestée par Publisher s’affiche sur toutes les applications attestées.":::
 
-* Dans le Centre d’administration Microsoft Teams, lorsque vous accordez des autorisations à l’application, une coche bleue devant le nom de l’application indique qu’il s’agit d’une application attestée par Publisher ou d’une application certifiée Microsoft 365.
+* Dans le Centre d’administration Microsoft Teams, lorsque vous accordez des autorisations à l’application, une coche bleue devant le nom de l’application indique qu’il s’agit d’une application attestée par un éditeur ou d’une application certifiée Microsoft 365.
 
-   :::image type="content" source="media/attested-app-tac2.png" alt-text="Dans le Centre d’administration Microsoft Teams, dans la boîte de dialogue pour accorder des autorisations, les administrateurs peuvent vérifier la coche bleue pour être assurés que l’application est attestée par Publisher.":::
+   :::image type="content" source="media/attested-app-tac2.png" alt-text="Dans le Centre d’administration Microsoft Teams, dans la boîte de dialogue pour accorder des autorisations, la coche bleue indique qu’il s’agit d’une application attestée par un éditeur.":::
 
 La page des détails de l’attestation pour une application attestée ou certifiée répertorie les détails suivants.
 
-:::image type="content" source="media/attested-app-doc-details.png" alt-text="Rubriques sur lesquelles des informations détaillées sont fournies pour les applications attestées.":::
+:::image type="content" source="media/attested-app-doc-details.png" alt-text="Informations détaillées fournies pour les applications attestées.":::
 
 ## <a name="microsoft-365-certification"></a>Certification Microsoft 365
 
-La certification des applications est obtenue par l’examen et l’approbation par un analyste qualifié d’une évaluation complète centrée sur les infrastructures, processus et procédures de sécurité et de conformité d’une application. L’application est vérifiée par rapport à une série de contrôles de sécurité dérivés des principales infrastructures standard de l’industrie.
+La certification des applications s’effectue via la procédure suivante :
+
+* Révision d’un analyste qualifié.
+* Approbation par un analyste qualifié d’une évaluation complète centrée sur les infrastructures, processus et procédures de sécurité et de conformité d’une application.
+
+Nous vérifions l’application par rapport à une série de contrôles de sécurité dérivés d’infrastructures de pointe liées aux normes du secteur d’activité.
 
 Le certificat démontre que de solides pratiques de sécurité et de conformité sont en place pour protéger les données clients lorsque l’application est activée dans une organisation. Pour plus d'informations sur l'utilité de la certification Microsoft 365 pour les administrateurs et les utilisateurs finaux, consultez la page Vue d'ensemble du programme de [conformité des applications Microsoft 365](/microsoft-365-app-certification/docs/enterprise-app-certification-guide) .
 
 Les administrateurs peuvent vérifier rapidement la présence d'applications certifiées Microsoft 365 de la manière suivante.
 
-* Pour obtenir plus d'informations sur une application sur le web, consultez l'icône du bouclier dans la liste des applications dans la documentation sur la sécurité et la conformité des applications Microsoft Teams ou consultez la même icône dans la page de documentation spécifique à l'application.
+* Pour obtenir plus d'informations sur une application sur le web, consultez l'icône en forme de bouclier dans la documentation Microsoft à propos de l'application.
 
   :::image type="content" source="media/attested-app-doc-details.png" alt-text="Consultez les informations sur la certification Microsoft 365 dans l'article d'aide détaillé sur la sécurité et la conformité d'une application.":::
 
-* Lorsque vous vérifiez une application dans le centre d'administration de Teams, triez la liste des applications à l'aide de la colonne Certification. Afficher l’icône et, éventuellement, cliquer sur le lien pour accéder à la page spécifique à l'application mentionnée ci-dessus.
+* Lorsque vous vérifiez une application dans le centre d'administration de Teams, triez la liste des applications à l'aide de la colonne Certification. Affichez l’icône et, éventuellement, sélectionnez le lien pour accéder à la page spécifique à l'application mentionnée ci-dessus.
 
   :::image type="content" source="media/m365cert-apps-list1.png" alt-text="Afficher le statut de certification Microsoft 365 d'une application dans le centre d'administration Teams." lightbox="media/m365cert-apps-list2.png":::
 
@@ -76,48 +90,45 @@ Les administrateurs peuvent vérifier rapidement la présence d'applications cer
 
   :::image type="content" source="media/m365cert-app-details-banner.png" alt-text="Afficher les informations relatives à la certification Microsoft 365 dans la bannière de l'application lors de la gestion d'une application spécifique dans le centre d'administration de Teams.":::
 
-* Dans le Centre d’administration Microsoft Teams, lorsque vous accordez des autorisations à l’application, une coche bleue devant le nom de l’application indique qu’il s’agit d’une application attestée par Publisher ou d’une application certifiée Microsoft 365.
+* Dans le Centre d’administration Microsoft Teams, lorsque vous accordez des autorisations à l’application, une coche bleue devant le nom de l’application indique qu’il s’agit d’une application attestée par un éditeur ou d’une application certifiée Microsoft 365.
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="Dans le centre d'administration Teams, dans la boîte de dialogue d'octroi des autorisations, les administrateurs peuvent cocher la case bleue pour s'assurer que l'application est certifiée Microsoft 365.":::
 
-## <a name="know-details-of-third-party-apps"></a>Connaître les détails des applications tierces
-
-En tant qu'administrateur, vous pouvez consulter les informations relatives à la sécurité, à la conformité, à la confidentialité, etc. de toutes les applications tierces.
-
-### <a name="view-security-compliance-and-privacy-information-in-microsoft-documentation"></a>Afficher des informations sur la sécurité, la conformité et la confidentialité dans la documentation Microsoft
+## <a name="view-security-compliance-and-privacy-information-in-microsoft-documentation"></a>Afficher des informations sur la sécurité, la conformité et la confidentialité dans la documentation Microsoft
 
 Pour une application attestée ou certifiée, les détails concernant la sécurité, la confidentialité, la conformité, et plus encore pour chaque application, sont répertoriés dans les articles d'aide spécifiques à l'application liés à la [sécurité et à la conformité des applications Microsoft Teams](/microsoft-365-app-certification/teams/teams-apps).
 
-:::image type="content" source="media/attested-app-doc-details.png" alt-text="Sujets sur lesquels des informations détaillées sont fournies pour les applications qui sont soumises au programme de conformité de Microsoft.":::
+:::image type="content" source="media/attested-app-doc-details.png" alt-text="Informations détaillées fournies pour les applications qui sont soumises au programme de conformité de Microsoft.":::
 
-### <a name="view-the-granted-graph-permissions-in-azure-portal"></a>Afficher les autorisations graphiques accordées dans le portail Azure.
+<!--- TBD: Move to the permissions article 
 
-Les administrateurs peuvent accorder des autorisations à une application au nom de tous les utilisateurs de l'organisation. Cela permet d'éviter que chaque utilisateur doive demander individuellement les autorisations. Les permissions accordées par un administrateur sont appelées permissions déléguées dans [Azure Portal](https://aad.portal.azure.com/) .
+## View the granted Graph permissions in Azure Portal
 
-Avant d'accorder une autorisation à une application, consultez la liste des autorisations demandées dans la section [Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps) du centre d'administration de Teams.
+Admins can grant permission to an app on behalf of all organization users. It helps avoid each user to individually request the permissions. Permissions granted of an admin are called delegated permissions in [Azure Portal](https://aad.portal.azure.com/).
 
-:::image type="content" source="media/attested-app-tac2.png" alt-text="Dans le centre d'administration de Teams, dans la boîte de dialogue pour accorder des permissions, les administrateurs peuvent vérifier les permissions demandées par une application.":::
+Before you grant any permission to an app, review a list of requested permissions in the [Manage Apps](https://admin.teams.microsoft.com/policies/manage-apps) section of Teams admin center.
 
-Une fois que les administrateurs ont accordé les autorisations à l'échelle de l'organisation à une application, ils peuvent examiner les autorisations du graphique dans le portail Azure.
+:::image type="content" source="media/attested-app-tac2.png" alt-text="In Teams admin center, on the dialog to grant permissions, admins can check the permissions requested by an app.":::
 
-:::image type="content" source="media/tac-perms-in-aad-after-granting1.png" alt-text="Les administrateurs peuvent voir toutes les autorisations d'applications accordées par les utilisateurs et les administrateurs dans le portail Azure." lightbox="media/tac-perms-in-aad-after-granting2.png":::
+After admins grant the org-wide permissions to an app, they can review the Graph permissions in Azure Portal.
 
-### <a name="view-privacy-policy-and-terms-of-use-of-an-app"></a>Afficher la politique de confidentialité et les conditions d'utilisation d'une application
+:::image type="content" source="media/tac-perms-in-aad-after-granting1.png" alt-text="Admins can see all the app permissions granted by users and admins in the Azure Portal." lightbox="media/tac-perms-in-aad-after-granting2.png":::
+--->
 
-Dans le centre d'administration de Teams, chaque page de détail des applications contient un lien vers la déclaration de confidentialité et les conditions d'utilisation de l'éditeur de l'application.
+## <a name="view-privacy-policy-and-terms-of-use-of-an-app"></a>Afficher la politique de confidentialité et les conditions d'utilisation d'une application
+
+Dans le Centre d'administration de Teams, chaque page de détail des applications contient un lien vers la déclaration de confidentialité et les conditions d'utilisation de l'application.
 
 :::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="Depuis le centre d'administration de Teams, les administrateurs peuvent accéder au lien vers la politique de confidentialité et les conditions d'utilisation de chaque application." lightbox="media/tac-app-tou-privacy-info2.png":::
 
 <!--- TBD: Parking some content for later review. Check if this content needs to be published.
 
-We also have a few more quality and security checks for apps. We have launched Microsoft Cloud App Security (MCAS) program for the customer who have E5 or EMS license, where we rate risk for your cloud apps based on regulatory certification, industry standards, and best practices. We are also working on an Apps Quality Score system (launching soon) for all apps on Teams platform, and you will be able to check an app’s quality score quickly on Teams Store.
+- How to view the support information for an app in TAC?
+
+- We also have a few more quality and security checks for apps. We have launched Microsoft Cloud App Security (MCAS) program for the customer who have E5 or EMS license, where we rate risk for your cloud apps based on regulatory certification, industry standards, and best practices. We are also working on an Apps Quality Score system (launching soon) for all apps on Teams platform, and you will be able to check an app’s quality score quickly on Teams Store.
 
 --->
 
-<!--- TBD: Add related links later.
+## <a name="see-also"></a>Voir aussi
 
-## See also
-
-* []().
-* []().
---->
+* [Afficher les autorisations d’application et accorder le consentement de l’administrateur dans le centre d’administration Microsoft Teams](app-permissions-admin-center.md).

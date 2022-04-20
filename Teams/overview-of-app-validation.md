@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa6a03c5408afcd7cce1d3e48b78b3b1ddb3675a
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: a916d6bdd57c2956c076461d7f36df64d5c503d9
+ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756990"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "64910900"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Validation effectuée par Microsoft pour l’ensemble des applications Teams
 
@@ -53,14 +53,6 @@ Nous exécutons plus de 400 cas de test pour chaque application avant sa mise �
 * Les coordonnées de l’éditeur de logiciels indépendants sont disponibles dans la liste des magasins et dans leur [page d’attestation Publisher](/microsoft-365-app-certification/teams/teams-apps) respective.
 
 En outre, Microsoft encourage les développeurs d’applications à participer à son programme de conformité qui est une approche rigoureuse et à deux niveaux pour garantir la qualité, la sécurité et la conformité des applications. Le magasin Teams a des centaines d’applications qui vont au-delà du respect des instructions de validation déjà détaillées et qui se conforment à ces programmes.
-
-## <a name="publisher-verification"></a>Vérification de l’éditeur
-
-Avant qu’un développeur d’application ne puisse soumettre son application à Microsoft, il doit faire l’objet d’une vérification. Un éditeur vérifie son identité à l’aide de son compte Microsoft Partner Network (MPN) et associe ce compte MPN à son inscription à l’application. La vérification Publisher aide les administrateurs et les utilisateurs finaux à comprendre l’authenticité des développeurs d’applications qui s’intègrent à la Plateforme d'identités Microsoft. La vérification Publisher offre les avantages suivants :
-
-* Transparence accrue et réduction des risques pour les clients : cette fonctionnalité permet aux clients de comprendre quelles applications utilisées dans leur organisation sont publiées par les développeurs auxquels ils font confiance.
-* Amélioration de la personnalisation : un badge `verified` s’affiche dans l’invite de consentement Azure Active Directory, la page des applications d’entreprise et d’autres interfaces utilisateur utilisées par les utilisateurs finaux et les administrateurs.
-* Adoption plus fluide de l’entreprise : les administrateurs peuvent configurer des stratégies de consentement de l’utilisateur, avec l’état de vérification de l’éditeur comme critère de stratégie principal.
 
 ## <a name="see-also"></a>Voir aussi
 

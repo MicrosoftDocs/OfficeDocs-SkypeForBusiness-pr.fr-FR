@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b04e5937ad737feb39528c06f54ad8890ba32d0
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 52e4a9df0daded1a1091c32790dae2c15294529d
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839055"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922495"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams
 
@@ -131,7 +131,7 @@ Voice quelques éléments supplémentaires à considérer lorsque vous implémen
 
 - Si votre organisation a des exigences en matière de conformité pour s’assurer que toutes les discussions en réunion puissent être découvertes, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres Exchange locale. Pour plus d’informations, consultez [la planification des réunions privées](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
 
-- Dans un déploiement hybride Exchange, le contenu des messages de conversation est interrogeable, que les participants à la conversation aient une boîte aux lettres basée dans le cloud ou une boîte aux lettres locale. Pour en savoir plus, lire [Recherche de boîtes aux lettres sur le cloud des utilisateurs locaux](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Pour découvrir le recherche de contenu dans Teams, lire [Recherche de contenu dans le Centre de conformité Microsoft 365](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+- Dans un déploiement hybride Exchange, le contenu des messages de conversation est interrogeable, que les participants à la conversation aient une boîte aux lettres basée dans le cloud ou une boîte aux lettres locale. Pour en savoir plus, lire [Recherche de boîtes aux lettres sur le cloud des utilisateurs locaux](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Pour en savoir plus sur la recherche de contenu dans Teams, lisez [Recherche de contenu dans le portail de conformité Microsoft Purview](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
 - Pour l’état de présence, Microsoft Teams doit vérifier si la boîte aux lettres est hébergée sur Exchange Online ou localement. Le service décide alors de l’emplacement d’accès pour la boîte aux lettres. Pour activer le service Teams afin de vérifier l’emplacement de la boîte aux lettres au moyen d’un appel de l’API REST API au service Exchange Online, vous devez déployer un environnement Exchange hybride en exécutant l’Assistant de configuration Exchange hybride, tel que décrit dans [Créer un déploiement hybride avec l’Assistant de configuration hybride](/exchange/hybrid-deployment/deploy-hybrid).
 

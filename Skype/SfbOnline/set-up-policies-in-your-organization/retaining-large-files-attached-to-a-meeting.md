@@ -1,5 +1,5 @@
 ---
-title: Conserver les fichiers de grande taille joints à Skype Entreprise réunion
+title: Conservation de fichiers volumineux attachés à une réunion Skype Entreprise
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,31 +18,31 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Vous pouvez joindre des fichiers à Skype Entreprise réunion, que les participants peuvent ensuite ouvrir et télécharger. Les fichiers joints aux réunions Skype Entreprise sont conservés dans les boîtes aux lettres des participants dont la boîte aux lettres est placée en conservation pour litige, à laquelle une stratégie de rétention Microsoft 365 ou Office 365 est appliquée ou qui est placée sur une conservation associée à un cas de découverte électronique dans le Centre de conformité Microsoft 365. Ce contenu est enregistré dans les dossiers Éléments récupérables des participants dans leur boîte aux lettres.
-ms.openlocfilehash: 1733cb1b0111bb83bbeddf5253bd1b65b919a4a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Vous pouvez joindre des fichiers à une réunion Skype Entreprise, que les participants peuvent ensuite ouvrir et télécharger. Les fichiers joints à Skype Entreprise réunions sont conservés dans les boîtes aux lettres de tout participant dont la boîte aux lettres est placée en attente de litige, dont une stratégie de rétention Microsoft 365 ou Office 365 est appliquée, ou est placée dans une conservation associée à un cas eDiscovery dans le portail de conformité Microsoft Purview. Ce contenu est enregistré dans les dossiers Éléments récupérables des participants dans leurs boîtes aux lettres.
+ms.openlocfilehash: 35792e3415d3def0b8ac45ab39e9dec65f2f7725
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581988"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922435"
 ---
-# <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Conserver les fichiers de grande taille joints à Skype Entreprise réunion
+# <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Conservation de fichiers volumineux attachés à une réunion Skype Entreprise
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Vous pouvez joindre des fichiers à Skype Entreprise réunion, que les participants peuvent ensuite ouvrir et télécharger. Les fichiers joints aux réunions Skype Entreprise sont conservés dans les boîtes aux lettres des participants dont la boîte aux lettres est placée en conservation pour litige, à laquelle une stratégie de rétention Microsoft 365 ou Office 365 est appliquée ou qui est placée sur une conservation associée à un cas de découverte électronique dans le Centre de conformité Microsoft 365. Ce contenu est enregistré dans les dossiers Éléments **récupérables** des participants dans leur boîte aux lettres.
+Vous pouvez joindre des fichiers à une réunion Skype Entreprise, que les participants peuvent ensuite ouvrir et télécharger. Les fichiers joints à Skype Entreprise réunions sont conservés dans les boîtes aux lettres de tout participant dont la boîte aux lettres est placée en attente de litige, dont une stratégie de rétention Microsoft 365 ou Office 365 est appliquée, ou est placée dans une conservation associée à un cas eDiscovery dans le portail de conformité Microsoft Purview. Ce contenu est enregistré dans les dossiers **Éléments récupérables** des participants dans leurs boîtes aux lettres.
   
-Les fichiers conservés dans des boîtes aux lettres en attente sont indexés et peuvent donc faire l’être lors de l’exécution d’une recherche de contenu dans le Centre de conformité de la sécurité lors de la recherche dans la boîte aux lettres &amp; d’un participant. Toutefois, les fichiers joints de plus de 30 Mo sont fractionés en deux fichiers plus petits ou plus et enregistrés en tant que fichiers compressés (.zip). Le  *contenu*  de ces fichiers de plus petite taille n’est pas indexé pour la recherche et peut ne pas être renvoyé dans une recherche de contenu. Toutefois, les *métadonnées*  de ces fichiers (par exemple, le nom du fichier et l’auteur) sont indexées pour la recherche et peuvent être renvoyées dans une recherche de contenu.
+Les fichiers conservés dans les boîtes aux lettres en attente sont indexés et peuvent donc être recherchés lors de l’exécution d’une recherche de contenu dans le Centre de conformité de sécurité &amp; lors de la recherche dans la boîte aux lettres d’un participant. Toutefois, les fichiers attachés de plus de 30 Mo sont divisés en deux ou plusieurs fichiers plus petits et enregistrés en tant que fichiers compressés (.zip). Le  *contenu*  de ces fichiers plus petits n’est pas indexé pour la recherche et peut ne pas être retourné dans une recherche de contenu. Toutefois, les *métadonnées*  de ces fichiers (telles que le nom et l’auteur du fichier) sont indexées pour la recherche et peuvent être retournées dans une recherche de contenu.
   
 > [!IMPORTANT]
-> Les paramètres MaxReceiveSize et MaxSendSize pour une boîte aux lettres Exchange Online peuvent affecter la possibilité de conserver des fichiers de grande taille Skype Entreprise réunions. Les paramètres par défaut pour MaxReceiveSize et MaxSendSize sont respectivement de 36 Mo et 35 Mo. Toutefois, ces paramètres par défaut sont trop petits pour conserver un fichier d’Skype Entreprise réunion d’une taille supérieure à 30 Mo. Cela est dû au Exchange Online encodage Base64 des pièces jointes de message et d’autres données binaires. Lorsqu’un message est codé, sa taille augmente d’environ 33 %. Par conséquent, pour vous assurer que les fichiers volumineux des réunions Skype Entreprise sont conservés, nous vous recommandons d’augmenter la valeur pour MaxReceiveSize et MaxSendSize à 39 Mo (soit environ 33 % de plus que la limite de taille 30 Mo qui a été expliquée précédemment) pour les utilisateurs placés en attente. Sinon, un fichier de grande taille joint à Skype Entreprise réunion peut ne pas être conservé. Pour plus d’informations sur l’utilisation des commandes **Set-Mailbox -MaxReceiveSize** et **Set-Mailbox -MaxSendSize** dans Exchange Online PowerShell, voir [Set-Mailbox.](/powershell/module/exchange/mailboxes/Set-Mailbox)
+> Les paramètres MaxReceiveSize et MaxSendSize d’une boîte aux lettres Exchange Online peuvent affecter la possibilité de conserver des fichiers volumineux à partir de Skype Entreprise réunions. Les paramètres par défaut pour MaxReceiveSize et MaxSendSize sont respectivement de 36 Mo et 35 Mo. Toutefois, ces paramètres par défaut sont trop petits pour conserver un fichier d’une réunion Skype Entreprise supérieure à 30 Mo. Cela est dû au fait que Exchange Online utilise l’encodage en base64 des pièces jointes de message et d’autres données binaires. Lorsqu’un message est encodé, sa taille est augmentée d’environ 33 %. Par conséquent, pour vous assurer que les fichiers volumineux des réunions Skype Entreprise sont conservés, nous vous recommandons d’augmenter la valeur de MaxReceiveSize et MaxSendSize à 39 Mo (soit environ 33 % de plus que la limite de taille de 30 Mo expliquée précédemment) pour les utilisateurs placés en attente. Sinon, il se peut qu’un fichier volumineux attaché à une réunion Skype Entreprise ne soit pas conservé. Pour plus d’informations sur l’utilisation des commandes **Set-Mailbox -MaxReceiveSize** et **Set-Mailbox -MaxSendSize** dans Exchange Online PowerShell, consultez [Set-Mailbox](/powershell/module/exchange/mailboxes/Set-Mailbox).
   
-Les boîtes aux lettres qui ne sont pas en attente ne seront pas enregistrées. Par exemple, dans une réunion à trois personnes dans laquelle les boîtes aux lettres de deux participants sont marquées pour rétention, les données de réunion sont enregistrées dans les boîtes aux lettres de ces deux participants, mais pas dans la boîte aux lettres du troisième participant, dont la boîte aux lettres n’est pas en attente.
+Les boîtes aux lettres qui ne sont pas en attente n’auront pas de données de réunion enregistrées. Par exemple, dans une réunion à trois personnes dans laquelle les boîtes aux lettres de deux participants sont marquées pour conservation, les données de réunion sont enregistrées dans les boîtes aux lettres de ces deux participants, mais pas dans la boîte aux lettres du troisième participant, dont la boîte aux lettres n’est pas en attente.
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
-[Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)
+[Bloquer les transferts de fichiers point à point](block-point-to-point-file-transfers.md)
 
 [Configurer les stratégies client pour votre organisation](set-up-client-policies-for-your-organization.md)
 

@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b526733558570e4903d9dce43094c7ffa0f7de17
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: fb5bf166d9f7253a5cb72ffc92b674613d959334
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63774183"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "64961287"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>Personnaliser Teams applications pour vos employés de première ligne
 
 > [!NOTE]
-> [!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
+> Cette fonctionnalité est en cours de déploiement et n’est peut-être pas encore disponible dans votre organisation. Pour rester informé des fonctionnalités de Teams à venir, consultez la [feuille de route Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
 ## <a name="overview"></a>Présentation
 

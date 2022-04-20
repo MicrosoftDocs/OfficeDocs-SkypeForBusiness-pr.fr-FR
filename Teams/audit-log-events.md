@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Découvrez comment récupérer Microsoft Teams données à partir du journal d’audit dans le Centre de conformité Microsoft 365.
+description: Découvrez comment récupérer Microsoft Teams données à partir du journal d’audit dans le portail de conformité Microsoft Purview.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdca912b77969e4157af641076dc683c3d17921c
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 744a18f2a8f7f2ed406853ef7efbc9842d0096f5
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63711328"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922635"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 
@@ -42,7 +42,7 @@ Pour obtenir la liste complète des activités Teams qui sont auditées, consult
 
 ## <a name="turn-on-auditing-in-teams"></a>Activer l’audit dans Teams
 
-Avant de pouvoir examiner les données d’audit, vous devez d’abord activer l’audit dans le Centre de conformité Microsoft 365. Pour plus d’informations, consultez [Activer ou désactiver l’audit](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
+Avant de pouvoir examiner les données d’audit, vous devez d’abord activer l’audit dans le portail de conformité Microsoft Purview. Pour plus d’informations, consultez [Activer ou désactiver l’audit](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 
 > [!IMPORTANT]
 > Les données d’audit ne sont disponibles qu’à partir du moment où vous avez activé l’audit.
@@ -235,4 +235,4 @@ Nous travaillons à l’intégration d’événements Teams dans les stratégies
 
 ## <a name="related-topics"></a>Voir aussi
 
-- [Recherchez le journal d’audit dans le Centre de conformité Microsoft 365](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [Rechercher dans le journal d’audit dans le portail de conformité Microsoft Purview](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
