@@ -19,10 +19,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d061fa0cda1620980e7da68a345fc13acb6fc12a
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62362980"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
@@ -42,7 +42,7 @@ Cet article décrit les étapes à suivre pour faire en sorte que vos établisse
 > - Rendez l’ensemble de votre établissement d’enseignement rapidement opérationnel sur Teams avec [**Prise en main d’un seul récepteur de radiomessagerie**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
 > - Téléchargez [**Démarrer avec Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true) : un guide pour les professionnels de l’informatique présentant des pratiques utiles pour la sécurité et la gestion des modifications.
 > - Un ensemble d’articles rédigés pour les éducateurs, qui comprend des conseils pratiques pour les étapes [**les plus importantes de l’enseignement dans Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
-> - Un cours en ligne d’une heure dans le Centre des instructeurs Microsoft vous montre comment les éducateurs utilisent Teams dans leur vie professionnelle. [**Transformer l’apprentissage avec Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
+> - Un cours en ligne d’une heure dans le Centre des enseignants Microsoft montre comment les enseignants utilisent Teams dans leur vie professionnelle. [**Transformer l’apprentissage avec Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - Un cours en ligne d’une heure dans le Centre des instructeurs Microsoft guide les éducateurs dans l’enseignement au sein des classes Teams. [**Elaboration d’un environnement d’apprentissage collaboratif avec des classes Teams**](https://education.microsoft.com/course/b1e15cfc/overview).
 > - Si vous êtes un éducateur, un étudiant ou un parent ou gardien, obtenez des conseils sur [**l’apprentissage et l’apprentissage à distance avec Office 365**](https://aka.ms/RemoteLearningHelp).
 > - Les parents et les tuteurs peuvent également accéder à notre [**Page support pour les parents**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) afin d'obtenir de l’aide sur l'apprentissage à distance.
@@ -232,7 +232,7 @@ Les étudiants et les enseignants tirent le meilleur parti de Teams lorsqu’ils
 
 - Déployez dès maintenant! Déployez tôt pour vous assurer que tout fonctionne correctement et prêt pour le premier jour de l’école.
 - Si vous avez plus de 500 000 équipes, nous vous recommandons d’utiliser la méthode de création d’équipe disposant de [enseignant,](#educator-led-team-creation-from-office-365-class-groups). Il réduit les équipes inutilisées et le courrier pêle-mêle en créant uniquement des équipes de cours pertinentes et utiles.  
-- S’il existe des problèmes (par exemple, des classes manquantes) avec la création automatique d’une équipe SDS et si les enseignants en ont besoin immédiatement, ils peuvent utiliser la [méthode de création d’équipe disposant de enseignant](#educator-led-team-creation-from-office-365-class-groups) pour réessayer. [La création manuelle d’une équipe](#manual-team-creation) est une autre solution, mais elle ne maintient pas la mise à jour de votre abonnement d’équipe.  
+- S’il existe des problèmes (par exemple, des classes sont manquantes) avec la création automatique d’équipe SDS et que les enseignants en ont besoin immédiatement, ils peuvent utiliser la [méthode de création d’équipe dirigée par l’enseignant](#educator-led-team-creation-from-office-365-class-groups) pour réessayer. [La création manuelle d’une équipe](#manual-team-creation) est une autre solution. Toutefois, elle ne met pas à jour votre appartenance à l’équipe.  
 - La limite de l’équipe des clients est de 500 000 équipes. Par conséquent, les administrateurs doivent essayer de réduire le nombre d’équipes inutilisées de manière proactive afin d’éviter d’atteindre ces limites et de prolonger leur temps de configuration. Pour plus d’informations sur les limites, voir [Limites et spécifications pour Microsoft teams](limits-specifications-teams.md).  
 
 #### <a name="early-access-to-class-teams"></a>Accès anticipé aux équipes de cours
