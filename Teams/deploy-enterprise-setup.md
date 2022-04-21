@@ -16,19 +16,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dcbbc25de23018a66dd807ee47f5486103d8e32d
-ms.sourcegitcommit: c2a77ef9c1c9e6f00b3a4589bf02b100c37f5801
-ms.translationtype: MT
+ms.openlocfilehash: 6d5a9e3318ac0c72360487dbfc08b63bd39dc55e
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64648953"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922425"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>Configurer Microsoft Teams dans votre entreprise
 
 Les informations de cet article vous guident dans le déploiement de Teams dans votre organisation.
 
 > [!NOTE]
-> Si vous ne l’avez pas déjà fait, nous vous recommandons vivement de commencer votre déploiement Teams par un pilote. Un pilote vous permettra, ainsi qu'à quelques utilisateurs précoces, de vous familiariser avec Teams et ses fonctionnalités avant votre planification et votre déploiement final. Si vous souhaitez en savoir plus sur le démarrage de votre pilote, veuillez consulter la page [Prise en main de Microsoft Teams](get-started-with-teams-quick-start.md).
+> Si vous ne l’avez pas déjà fait, nous vous suggérons vivement de commencer votre déploiement Teams avec un pilote. Un pilote vous permettra, ainsi qu’à quelques utilisateurs précoces, de vous familiariser avec Teams et ses fonctionnalités avant votre planification et votre déploiement éventuel. Pour plus d’informations sur le démarrage de votre pilote, consultez [Démarrage avec Microsoft Teams](get-started-with-teams-quick-start.md).
 
 Avant de déployer Teams à grande échelle, assurez-vous que votre organisation est prête en consultant les points de la section [Assurez-vous que vous êtes prêt](get-started-with-teams-quick-start.md#make-sure-youre-ready).
 
@@ -78,8 +78,8 @@ La conversation, les équipes et les canaux sont la clé de l’utilisation de T
 
 | Decision | Description |
 |--|--|
-| L’accès externe doit-il être activé ? | L’accès externe permet aux membres d’une autre organisation de parler aux utilisateurs de votre organisation. Cela est utile lorsque vous avez une relation étroite avec une autre organisation, telle qu’un fournisseur, et que vous souhaitez faciliter la discussion entre les membres d’une organisation, la tenue de réunions, etc. <p>L’accès externe est différent de celui des invités. L’accès externe permet à tous les membres d’une organisation d’interagir avec les membres de votre organisation. L'accès invité invite des personnes spécifiques à interagir avec les contacts de votre organisation.<p>L’accès externe **est activé par** défaut.<p>[Gérer l’accès externe dans Microsoft Teams](manage-external-access.md)  |
-| L’accès invité doit-il être activé ? |L’accès invité permet aux contacts de votre organisation d’inviter des contacts externes à votre organisation à accéder à vos équipes et canaux. L’accès invité sert souvent à collaborer avec des contacts extérieurs à votre organisation qui n’ont pas de relation officielle avec la vôtre. Par exemple, vous pouvez inviter un planificateur de projet à travailler temporairement sur un projet.<p>L’accès invité est différent de l’accès externe. L'accès invité invite des personnes spécifiques à interagir avec les contacts de votre organisation. L’accès externe permet à tous les membres d’une autre organisation d’interagir avec les membres de votre organisation. <p>L’accès invité **est activé par** défaut. <p>[Collaborer avec des invités au sein d’une équipe](/microsoft-365/solutions/collaborate-as-team)  |
+| L’accès externe doit-il être activé ? | L’accès externe permet aux membres d’une autre organisation de parler aux utilisateurs de votre organisation. Cela est utile lorsque vous avez une relation étroite avec une autre organisation, telle qu’un fournisseur, et que vous souhaitez faciliter la discussion entre les membres d’une organisation, la tenue de réunions, etc. <p>L’accès externe est différent de celui des invités. L’accès externe permet à tous les membres d’une organisation d’interagir avec les membres de votre organisation. L'accès invité invite des personnes spécifiques à interagir avec les contacts de votre organisation.<p>L’accès externe est **Désactivé** par défaut.<p>[Gérer l’accès externe dans Microsoft Teams](manage-external-access.md)  |
+| L’accès invité doit-il être activé ? |L’accès invité permet aux contacts de votre organisation d’inviter des contacts externes à votre organisation à accéder à vos équipes et canaux. L’accès invité sert souvent à collaborer avec des contacts extérieurs à votre organisation qui n’ont pas de relation officielle avec la vôtre. Par exemple, vous pouvez inviter un planificateur de projet à travailler temporairement sur un projet.<p>L’accès invité est différent de l’accès externe. L'accès invité invite des personnes spécifiques à interagir avec les contacts de votre organisation. L’accès externe permet à tous les membres d’une autre organisation d’interagir avec les membres de votre organisation. <p>L’accès invité est **activé** par défaut. <p>[Collaborer avec des invités au sein d’une équipe](/microsoft-365/solutions/collaborate-as-team)  |
 
 #### <a name="meetings-and-audio-conferencing"></a>[Réunions et audioconférence](#tab/MeetingsAudioConferencing)
 
@@ -118,7 +118,7 @@ Votre système téléphonique vous permet de remplacer votre système téléphon
 | Voulez-vous remplacer votre système téléphonique local ? | Configurez le système téléphonique, configurez les attendants automatiques, les forfaits d’appels, les files d’attente d’appels, etc. <p> [La configuration système téléphonique de votre organisation](setting-up-your-phone-system.md)|
 | Voulez-vous définir les stratégies de messagerie vocale dans le cloud ?| Vous pouvez contrôler les fonctionnalités de messagerie vocale cloud accessibles à vos utilisateurs et leur fonctionnement. Par exemple, vous pouvez activer ou désactiver la transcription de la messagerie vocale pour l’ensemble de votre organisation, activer ou désactiver le masquage de la messagerie vocale pour des utilisateurs spécifiques, etc.<p> [Configurer la Messagerie vocale cloud](set-up-phone-system-voicemail.md) |
 | Voulez-vous activer les appels d’urgence dynamiques ?| L’appel d’urgence dynamique vous permet de configurer une carte d’emplacement en fonction des paramètres réseau et d’autres métadonnées pour déterminer où envoyer le personnel d’urgence en cas d’appel d’urgence d’un utilisateur. Vous pouvez configurer les paramètres réseau, attribuer des adresses d’urgence à des emplacements géographiques, etc.<p>[Planifier et configurer un appel d’urgence dynamique](configure-dynamic-emergency-calling.md) |
-| Voulez-vous personnaliser le comportement de l’ID d’appelant ? | Par défaut, le numéro de téléphone affiché lorsqu’un Teams’utilisateur passe un appel est le numéro de téléphone de l’utilisateur. Vous pouvez modifier ce numéro pour en faire le numéro principal de l'entreprise, bloquer le numéro de téléphone, rendre le numéro anonyme ou un autre numéro de service. Teams a une stratégie globale qui s’applique à tout le monde.<p>Si vous voulez que la même stratégie s’applique à tout le monde, il vous suffit d’apporter des modifications à cette stratégie globale. <p>Si vous souhaitez utiliser différentes stratégies pour différents groupes de personnes (par exemple, une stratégie pour les employés de bureau et une autre pour les cadres), vous pouvez créer et attribuer des stratégies. Lorsque vous affectez une stratégie à un utilisateur, la stratégie globale ne s’applique plus à celui-ci.<p> [Gérer les stratégies d’ID d’appelant dans Microsoft Teams](caller-id-policies.md) |
+| Voulez-vous personnaliser le comportement de l’ID d’appelant ? | Par défaut, le numéro de téléphone qui s’affiche lorsqu’un utilisateur Teams passe un appel est le numéro de téléphone de l’utilisateur. Vous pouvez modifier ce numéro pour en faire le numéro principal de l'entreprise, bloquer le numéro de téléphone, rendre le numéro anonyme ou un autre numéro de service. Teams a une stratégie globale qui s’applique à tout le monde.<p>Si vous voulez que la même stratégie s’applique à tout le monde, il vous suffit d’apporter des modifications à cette stratégie globale. <p>Si vous souhaitez utiliser différentes stratégies pour différents groupes de personnes (par exemple, une stratégie pour les employés de bureau et une autre pour les cadres), vous pouvez créer et attribuer des stratégies. Lorsque vous affectez une stratégie à un utilisateur, la stratégie globale ne s’applique plus à celui-ci.<p> [Gérer les stratégies d’ID d’appelant dans Microsoft Teams](caller-id-policies.md) |
 
 ---
 
@@ -145,16 +145,16 @@ Teams et Microsoft 365 fournissent de nombreux outils qui peuvent vous aider à 
 | [Conformité des communications](communication-compliance.md)| Permet de réduire les risques de communication en identifiant et en agissant sur le langage choquant, blasphématoire et harcelant, sur les images racées et sanglantes des adultes et sur le partage d'informations sensibles. |
 | [Enregistrement basé sur une stratégie pour les appels et réunions](teams-recording-policy.md)| Vous permet de contrôler quand et si les appels et réunions doivent être enregistrés et stockés automatiquement pour traitement ultérieur, rétention ou analyse.|
 | [Étiquettes de confidentialité](sensitivity-labels.md)| Permet de protéger et de contrôler l’accès aux informations sensibles en créant des étiquettes qui appliquent les options de confidentialité sélectionnées.|
-| [Protection contre la perte de données](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| Permet de créer des règles qui déterminent la manière dont certaines informations, telles que les numéros de sécurité sociale, les numéros de carte de crédit, etc. doivent être gérées. Vous pouvez empêcher l’envoi de certaines informations, les empêcher de quitter votre organisation, etc.|
+| [Protection contre la perte de données Microsoft Purview](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| Permet de créer des règles qui déterminent la manière dont certaines informations, telles que les numéros de sécurité sociale, les numéros de carte de crédit, etc. doivent être gérées. Vous pouvez empêcher l’envoi de certaines informations, les empêcher de quitter votre organisation, etc.|
 | [eDiscovery](eDiscovery-investigation.md)| Vous permet de rechercher et de récupérer du contenu dans votre organisation lorsque votre organisation reçoit des demandes de découverte dans le cadre de procédures légales. |
 | [Conservation légale](legal-hold.md)| Vous permet de conserver les informations de votre organisation, même si elles sont supprimées par un utilisateur, au besoin pendant une procédure légale afin de pouvoir les découvrir dans le cadre d’enquêtes eDiscovery. |
 | [Recherche de contenu](content-search.md)| Fournit un moyen de interroger les informations Teams sur Exchange, SharePoint Online et OneDrive Entreprise.|
-| [Auditing](audit-log-events.md)| Vous permet de voir des informations sur une action spécifique, y compris qui a effectué l'action, quand l'action a été effectuée, l'adresse IP qui a été utilisée, et ainsi de suite. Les actions incluent la création ou la suppression d’équipes, la création de canaux, les paramètres modifiés dans Teams, et ainsi de suite.|
+| [Auditing](audit-log-events.md)| Vous permet de voir des informations sur une action spécifique, y compris qui a effectué l'action, quand l'action a été effectuée, l'adresse IP qui a été utilisée, et ainsi de suite. Les actions comprennent la création ou la suppression d'équipes, la création de canaux, la modification des paramètres Teams, etc.|
 | [Clé client](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| Vous permet de créer une stratégie de chiffrement des données à l’aide de clés de chiffrement que vous fournissez.|
 
 ## <a name="clients"></a>Clients
 
-Lorsque vous êtes prêt à aider vos utilisateurs à utiliser Teams, ils peuvent installer le client Teams sur leurs PC Windows, Mac ou Linux, ou sur leurs appareils Android ou iOS. Les utilisateurs peuvent télécharger le client Teams directement depuis <https://teams.microsoft.com/downloads>.
+Lorsque vous êtes prêt à aider vos utilisateurs à utiliser Teams, ils peuvent installer le client Teams sur leur PC Windows, Mac ou Linux, ou sur leur appareil Android ou iOS. Les utilisateurs peuvent télécharger le client Teams directement à partir de <https://teams.microsoft.com/downloads>.
 
 Vérifiez que toutes les personnes qui utiliseront Teams ont une licence Teams. Si vous souhaitez en savoir plus sur l’attribution d’une licence Teams, veuillez consulter la rubrique [Gérer l’accès des utilisateurs à Teams](user-access.md#using-the-microsoft-365-admin-center).
 
