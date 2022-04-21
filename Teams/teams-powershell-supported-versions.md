@@ -12,12 +12,12 @@ ms.collection:
 description: Découvrez les versions prises en charge du module PowerShell Teams, utilisé pour l’administration de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 242c7c43b2af31b11e4183fdf3b9ed1b00f4bb1b
-ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
+ms.openlocfilehash: ac948022050babeff0c5ea3c0dbde853e0fabc54
+ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64866239"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65019326"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>module PowerShell Teams - Versions prises en charge
 
@@ -69,6 +69,7 @@ Les organisations qui ont utilisé Teams module PowerShell au cours des trois de
 ## <a name="deprecated-cmdlets"></a>Applets de commande déconseillées
 
 - Certaines des applets de commande qui ont été dépréciées récemment sont répertoriées ci-dessous. Vous trouverez des détails sur la même chose dans les documentations publiques correspondantes. 
+  * [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber)
   * [Get-CsOnlineDialInConferencingUserInfo](/powershell/module/skype/get-csonlinedialinconferencinguserinfo), [Get-CsOnlineDialInConferencingUserState](/powershell/module/skype/get-csonlinedialinconferencinguserstate), [Enable-CsOnlineDialInConferencingUser](/powershell/module/skype/enable-csonlinedialinconferencinguser), [Disable-CsOnlineDialInConferencingUser](/powershell/module/skype/disable-csonlinedialinconferencinguser)
   * [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant)
   * [New-CsOnlineAudioFile](/powershell/module/skype/new-csonlineaudiofile)
@@ -116,7 +117,7 @@ Les organisations qui ont utilisé Teams module PowerShell au cours des trois de
 
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [notes de publication Teams PowerShell](teams-powershell-release-notes.md)
 
