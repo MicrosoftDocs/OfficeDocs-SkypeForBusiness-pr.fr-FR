@@ -1,7 +1,7 @@
 ---
 title: Rechercher des événements Microsoft Teams dans le journal d'audit
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 audience: admin
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Découvrez comment récupérer Microsoft Teams données à partir du journal d’audit dans le portail de conformité Microsoft Purview.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 744a18f2a8f7f2ed406853ef7efbc9842d0096f5
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 82da7932fb87101ee04759ede3d96b68cbb64aa2
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922635"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031889"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 
@@ -141,7 +141,7 @@ Voici une liste de tous les événements enregistrés pour les activités utilis
 ||||
 
 > [!NOTE]
-> <sup>1</sup> Un enregistrement d’audit pour cet événement est enregistré uniquement lorsque l’opération est effectuée en appelant un API Graph Microsoft. Si l’opération est effectuée dans le client Teams, aucun enregistrement d’audit n’est enregistré<br/><sup>2</sup> Cet événement est disponible uniquement dans l’audit avancé. Cela signifie que les utilisateurs doivent disposer de la licence appropriée avant que ces événements ne soient enregistrés dans le journal d’audit. Pour plus d’informations sur les activités disponibles uniquement dans l’audit avancé, consultez [Audit avancé dans Microsoft 365](/microsoft-365/compliance/advanced-audit#advanced-audit-events). Pour connaître les exigences en matière de licences d’audit avancées, consultez [les solutions d’audit dans Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements). <br/> <sup>3</sup> Cet événement est en préversion publique.
+> <sup>1</sup> Un enregistrement d’audit pour cet événement est enregistré uniquement lorsque l’opération est effectuée en appelant un API Graph Microsoft. Si l’opération est effectuée dans le client Teams, aucun enregistrement d’audit n’est enregistré<br/><sup>2</sup> Cet événement est disponible uniquement dans Audit (Premium). Cela signifie que les utilisateurs doivent disposer de la licence appropriée avant que ces événements ne soient enregistrés dans le journal d’audit. Pour plus d’informations sur les activités disponibles uniquement dans Audit (Premium), consultez [Audit (Premium) dans Microsoft Purview](/microsoft-365/compliance/advanced-audit#advanced-audit-events). Pour connaître les exigences en matière de licences d’audit (Premium), consultez [les solutions d’audit dans Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements). <br/> <sup>3</sup> Cet événement est en préversion publique.
 
 ## <a name="shifts-in-teams-activities"></a>Changements dans les activités Teams
 
@@ -233,6 +233,6 @@ Vous pouvez définir des alertes et envoyer des e-mails aux administrateurs et a
 
 Nous travaillons à l’intégration d’événements Teams dans les stratégies de détection d’anomalies. Pour l’instant, vous pouvez configurer des stratégies de détection d’anomalies pour d’autres produits Office et prendre des éléments d’action sur les utilisateurs qui correspondent à ces stratégies.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Rechercher dans le journal d’audit dans le portail de conformité Microsoft Purview](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

@@ -1,7 +1,7 @@
 ---
 title: Utiliser la recherche de contenu dans Microsoft Teams
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 audience: admin
@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Découvrez comment utiliser la recherche de contenu dans le portail de conformité Microsoft Purview pour rechercher Microsoft Teams contenu stocké dans Exchange Online, SharePoint Online, OneDrive Entreprise et OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00de0bb3ecdcaf6dc674f08438b896abaaa49448
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 88f44bffaa3bf2dc125dad5f2d7595d08f49bffd
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922475"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031859"
 ---
 # <a name="use-content-search-in-microsoft-teams"></a>Utiliser la recherche de contenu dans Microsoft Teams
 
@@ -89,6 +89,6 @@ Avant d’effectuer ces étapes, vérifiez que la [dernière version du module P
     ```
 3. Incluez les boîtes aux lettres de tous les membres de chaque canal privé de l’équipe dans le cadre de votre requête de recherche de contenu.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Cas eDiscovery dans le portail de conformité Microsoft Purview](/Office365/SecurityCompliance/ediscovery-cases)

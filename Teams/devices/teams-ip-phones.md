@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams afin de produire les meilleurs résultats.
-ms.openlocfilehash: 353b96f1270ac1f7e52d454f76821b321c60a3e9
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: 29cc086cd88ccf801eb1b19e56833f36e6ef86b6
+ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64885012"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65030890"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams appareils Android certifiés
 
@@ -66,19 +66,19 @@ Les appareils suivants sont certifiés dans le cadre du programme de certificati
 | Yealink MP56 | `122.15.0.6` | 5 août 2023  | 9 |
 | Yealink VP59 | `91.15.0.16` | 5 août 2023  | 9 |
 
-## <a name="certified-teams-rooms-on-android"></a>Chambres Teams certifiées sur Android
+## <a name="certified-teams-rooms-on-android"></a>Salles Teams certifiés sur Android
 
-Les appareils suivants sont certifiés dans le cadre du programme de certification Microsoft Teams Rooms on Android :
+Les appareils suivants sont certifiés dans le cadre du Salles Microsoft Teams sur le programme de certification Android :
 
 | Modèle d’appareil | Version du microprogramme | Date de fin de la certification actuelle | Taille de la salle                                        |  Version du système d’exploitation Android    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
-| Barre ordonnée | `NFB1.20220211.1400` |3 septembre 2024|    Petite salle de réunion (4,5 m x 4,5 m) | 10 |
+| Barre ordonnée | `NFB1.20220211.1400` |3 septembre 2024|    Petite Salle de réunion (4,5 m x 4,5 m) | 10 |
 | Console tactile Neat Pad | `NFA1.20220211.1400`  | 5 août 2023 |  Compatible avec Neat Bar uniquement | 9 |
-| Tableau soigné | `NFC1.20220211.1400 ` | 3 septembre 2024 |    Petite salle de réunion (4,5 m x 4,5 m) | 10 |
+| Tableau soigné | `NFC1.20220211.1400 ` | 3 septembre 2024 |    Petite Salle de réunion (4,5 m x 4,5 m) | 10 |
 | Logitech En coloc | `1.4.71` | 3 septembre 2024  | Grande salle de réunion (4,5 m x 8,5 m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 5 août 2023 | Fourni avec l’EPOS Vision 3T | 9 |
 | Appareil Logitech Tap     | `1.2.982`  |   3 septembre 2024  | Compatible avec Logitech Rally Bar et Rally Bar Mini | 10 |
-| Logitech Rally Bar Mini | `1.2.982`     |   3 septembre 2024  |    Petite salle de réunion (4,5 m x 4,5 m) | 10 |
+| Logitech Rally Bar Mini | `1.2.982`     |   3 septembre 2024  |    Petite Salle de réunion (4,5 m x 4,5 m) | 10 |
 | Logitech Rally Bar      | `1.2.788`     |   3 septembre 2024  |    Pièce de taille moyenne (4,5 m x 6 m)       | 10 |
 | AudioCodes RXV80 | `1.9.155`        |   5 août 2023  | Salle de focus(3m x 3m) </br> Petite salle de réunion (4,5 m x 4,5 m) | 9 |
 | EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 5 août 2023 | Salle de focus(3m x 3m) </br> Petite salle de réunion (4,5 m x 4,5 m) | 9 |
@@ -214,9 +214,9 @@ Pour plus d’informations sur les fonctionnalités prises en charge par ces app
 
 Voir [Microsoft Teams s’affiche](teams-displays.md).
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Informations sur la version du produit pour les salles Teams sur Android
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Informations de publication du produit pour salles Teams sur Android
 
-Voici les dernières Teams Chambres sur les versions d’application et de microprogramme Android.
+Voici les dernières salles Teams sur les versions d’application et de microprogramme Android.
 
 #### <a name="app-versions"></a>Versions d’application
 
@@ -237,6 +237,8 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version du produit incluse |
 |:--------------|:-----------------|:-------------------------|
+| Logi En coloc |   `1.5.705`   | Mise à jour 2022 #1    |
+| Logi Rallybar Mini   |   `1.5.705`   | Mise à jour 2022 #1    |
 | Logi Rallybar    |   `1.5.705`   | Mise à jour 2022 #1    |
 | EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | Mise à jour 2022 #1 |
 | AudioCodes RXV80 | `1.16.164 `   | Mise à jour 2022 #1 |

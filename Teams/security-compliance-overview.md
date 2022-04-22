@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2e0238439bb79a7ca7833ef082f4f499c082aa9
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 1c41ac53e95c179fc62b5e2e469bb614cbdcd516
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922615"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031899"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sécurité et conformité dans Microsoft Teams
 
@@ -149,9 +149,9 @@ Pour plus d’informations sur l’utilisation des outils eDiscovery dans le por
 
 Nous avons un article spécifique à Teams pour plus d’informations sur [la conduite d’une enquête eDiscovery de contenu dans Microsoft Teams](eDiscovery-investigation.md).
 
-Les clients peuvent tirer parti d’eDiscovery ou [de Advanced eDiscovery](/microsoft-365/compliance/office-365-advanced-ediscovery) en fonction de leurs besoins. Le tableau suivant présente les différences entre les deux options :
+Les clients peuvent tirer parti d’eDiscovery ou [eDiscovery (Premium)](/microsoft-365/compliance/office-365-advanced-ediscovery) en fonction de leurs besoins. Le tableau suivant présente les différences entre les deux options :
 
-|&nbsp; |eDiscovery  |eDiscovery avancée  |
+|&nbsp; |eDiscovery  |eDiscovery (Premium)  |
 |---------|---------|---------|
 |Gestion des cas     |X        |X         |
 |Contrôle d'accès  |X         |X         |
@@ -216,7 +216,7 @@ En ce qui concerne les fonctionnalités de protection des informations, Microsof
 Pour plus d’informations sur la détermination des besoins en matière de licences pour implémenter des fonctionnalités de sécurité et de conformité, consultez les [exigences de licence](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) pour les fonctionnalités de sécurité et de conformité.
 
 > [!NOTE]
-> La recherche de contenu, core eDiscovery et Advanced eDiscovery n’ont pas besoin d’être activés dans le portail de conformité Microsoft Purview pour fonctionner. Pour plus d’informations, consultez [Microsoft 365 solutions eDiscovery](/microsoft-365/compliance/ediscovery).
+> La recherche de contenu, eDiscovery (Standard) et eDiscovery (Premium) n’ont pas besoin d’être activées dans le portail de conformité Microsoft Purview pour fonctionner. Pour plus d’informations, consultez [Microsoft 365 solutions eDiscovery](/microsoft-365/compliance/ediscovery).
 
 ## <a name="location-of-data-in-teams"></a>Emplacement des données dans Teams
 
@@ -233,7 +233,7 @@ Teams utilise les normes suivantes : [ISO 27001](/microsoft-365/compliance/offer
 
 Vous trouverez des détails dans les [ressources de protection des données](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides). Teams prend également en charge la conformité de Cloud Security Alliance.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [sécurité Microsoft 365](/microsoft-365/security/)
 

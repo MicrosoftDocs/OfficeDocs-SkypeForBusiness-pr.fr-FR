@@ -3,7 +3,7 @@ title: Conservation de fichiers volumineux attachés à une réunion Skype Entre
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: brendonb, markjjo
+ms.reviewer: brendonb, v-tophillips
 ms.topic: article
 ms.assetid: 12203a1a-4a9f-4838-88c5-3740ea16ed8d
 ms.tgt.pltfrm: cloud
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Vous pouvez joindre des fichiers à une réunion Skype Entreprise, que les participants peuvent ensuite ouvrir et télécharger. Les fichiers joints à Skype Entreprise réunions sont conservés dans les boîtes aux lettres de tout participant dont la boîte aux lettres est placée en attente de litige, dont une stratégie de rétention Microsoft 365 ou Office 365 est appliquée, ou est placée dans une conservation associée à un cas eDiscovery dans le portail de conformité Microsoft Purview. Ce contenu est enregistré dans les dossiers Éléments récupérables des participants dans leurs boîtes aux lettres.
-ms.openlocfilehash: 35792e3415d3def0b8ac45ab39e9dec65f2f7725
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: b799c1a471ac3884aa1b22cc1a681e53ee8284e9
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922435"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031869"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Conservation de fichiers volumineux attachés à une réunion Skype Entreprise
 
@@ -39,7 +39,7 @@ Les fichiers conservés dans les boîtes aux lettres en attente sont indexés et
   
 Les boîtes aux lettres qui ne sont pas en attente n’auront pas de données de réunion enregistrées. Par exemple, dans une réunion à trois personnes dans laquelle les boîtes aux lettres de deux participants sont marquées pour conservation, les données de réunion sont enregistrées dans les boîtes aux lettres de ces deux participants, mais pas dans la boîte aux lettres du troisième participant, dont la boîte aux lettres n’est pas en attente.
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
 [Bloquer les transferts de fichiers point à point](block-point-to-point-file-transfers.md)

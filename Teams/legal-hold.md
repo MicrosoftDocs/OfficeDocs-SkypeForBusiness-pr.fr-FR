@@ -1,7 +1,7 @@
 ---
 title: Placer un utilisateur ou une équipe Microsoft Teams en conservation légale
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ f1.keywords:
 description: Apprenez à placer un utilisateur ou une équipe Microsoft Teams en conservation légale à l’aide du portail de conformité Microsoft Purview et découvrez ce qui nécessite une conservation légale en fonction des exigences en matière de données.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d56bece07fe7342c4156abdae73508a1a149864
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 1f0ea852b564ac339ac390994384258cc5d68ea1
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922455"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031909"
 ---
 # <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Placer un utilisateur ou une équipe Microsoft Teams en conservation légale
 
@@ -35,7 +35,7 @@ Dans Microsoft Teams, toute une équipe ou certains utilisateurs peuvent être m
 > Placer un utilisateur en conservation n'implique pas automatiquement le placement d'un groupe en conservation, et inversement.
 > Les notifications envoyées dans les flux d’activité ne peuvent pas être mises en attente.
 
-Pour mettre un utilisateur ou une équipe en conservation légale dans une affaire Core eDiscovery :
+Pour mettre un utilisateur ou une équipe en conservation légale dans un cas eDiscovery (Standard) :
 
 1. Accédez au [portail de conformité Microsoft Purview](https://compliance.microsoft.com). Lorsque vous créez un cas, vous avez la possibilité de mettre des boîtes aux lettres ou des sites en attente.
 
@@ -44,7 +44,7 @@ Pour mettre un utilisateur ou une équipe en conservation légale dans une affai
    ![Microsoft Teams’onglet eDiscovery est sélectionné, montrant le bouton Créer une casse.](media/LegalHold1.png)
 
    > [!NOTE]
-   > Vous pouvez également placer un utilisateur sur une conservation associée à un cas Advanced eDiscovery. Pour plus d’informations, consultez [Gérer les conservations dans Advanced eDiscovery](/microsoft-365/compliance/managing-holds).
+   > Vous pouvez également placer un utilisateur sur une conservation associée à un cas eDiscovery (Premium). Pour plus d’informations, consultez [Gérer les conservations dans eDiscovery (Premium).](/microsoft-365/compliance/managing-holds)
 
 3. Accédez à l’onglet **Conservations** dans le menu supérieur, puis cliquez sur **Créer** pour créer une conservation. La mise en attente d’un utilisateur ou d’une équipe préserve tous les messages échangés par ces utilisateurs. Lorsque vous créez un cas, vous avez la possibilité de mettre des boîtes aux lettres ou des sites en attente.
 

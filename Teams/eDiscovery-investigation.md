@@ -1,7 +1,7 @@
 ---
 title: Effectuer une enquête eDiscovery sur le contenu
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: Découvrez ce qu’il faut faire lorsque vous devez effectuer eDisc
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d0906e24cc4bb749779bf432fe27c9c2af6ac0e3
-ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
+ms.openlocfilehash: 207164f3e16768b7643d2bba2177d52d6b3940f3
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64866199"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031919"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -82,7 +82,7 @@ Voici un exemple de métadonnées de réunion.
   > [!div class="mx-imgBorder"]
   > ![Métadonnées de réunion de la copie de conformité.](media/conversationOption3.png)
 
-Pour plus d’informations sur la conduite d’une enquête eDiscovery, consultez [Démarrage avec Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery).
+Pour plus d’informations sur la conduite d’une enquête eDiscovery, consultez [Démarrage avec eDiscovery (Standard).](/microsoft-365/compliance/get-started-core-ediscovery)
 
 Microsoft Teams données apparaissent sous forme de messagerie instantanée ou de conversations dans la sortie d’exportation Excel eDiscovery. Vous pouvez ouvrir le `.pst` fichier dans Outlook pour afficher ces messages après les avoir exportés.
 
@@ -131,7 +131,7 @@ Avant d’effectuer ces étapes, vérifiez que la [dernière version du module P
     Get-TeamChannelUser -GroupId <parent team GroupId> -DisplayName "Partner Shared Channel"
    ```
 
-4. Incluez les boîtes aux lettres des propriétaires et des membres d’un canal privé dans le cadre de votre [requête de recherche eDiscovery dans Core eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) ou lors de l’identification [et de la collecte du contenu du consignataire dans Advanced eDiscovery](/microsoft-365/compliance/add-custodians-to-case).
+4. Incluez les boîtes aux lettres des propriétaires et des membres d’un canal privé dans le cadre de votre [requête de recherche eDiscovery dans eDiscovery (Standard)](/microsoft-365/compliance/search-for-content-in-core-ediscovery) ou lors de l’identification [et de la collecte du contenu consignataire dans eDiscovery (Premium).](/microsoft-365/compliance/add-custodians-to-case)
 
 ### <a name="identifying-the-sharepoint-site-for-private-and-shared-channels"></a>Identification du site SharePoint pour les canaux privés et partagés
 
@@ -166,7 +166,7 @@ Avant d’effectuer ces étapes, [installez le SharePoint Online Management Shel
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-4. Incluez le site associé à un canal privé ou partagé dans le cadre de votre [requête de recherche eDiscovery dans Core eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) ou lors [de l’identification et de la collecte du contenu de consignation dans Advanced eDiscovery](/microsoft-365/compliance/add-custodians-to-case).
+4. Incluez le site associé à un canal privé ou partagé dans le cadre de votre [requête de recherche eDiscovery dans eDiscovery (Standard)](/microsoft-365/compliance/search-for-content-in-core-ediscovery) ou lors de l’identification [et de la collecte du contenu de consignation dans eDiscovery (Premium).](/microsoft-365/compliance/add-custodians-to-case)
 
 ## <a name="search-for-content-for-guest-users"></a>Rechercher du contenu pour les utilisateurs invités
 
@@ -248,9 +248,9 @@ Les administrateurs peuvent utiliser eDiscovery pour rechercher du contenu dans 
 
 - **Non fédéré** : dans une réunion Teams avec des utilisateurs de votre organisation et des utilisateurs invités, seuls les administrateurs de l’organisation qui héberge la réunion Teams peuvent rechercher du contenu dans les messages de conversation de la réunion.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Microsoft 365 solutions eDiscovery](/microsoft-365/compliance/ediscovery)
-- [Démarrage avec Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)
-- [flux de travail Teams dans Advanced eDiscovery](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
+- [Démarrage avec eDiscovery (Standard)](/microsoft-365/compliance/get-started-core-ediscovery)
+- [flux de travail Teams dans eDiscovery (Premium)](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
