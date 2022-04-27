@@ -24,7 +24,7 @@ ms.collection:
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
 ms.openlocfilehash: 10afbcc30404122e9e4d497570bf0b69e4ef6fa7
 ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/05/2022
 ms.locfileid: "64642918"
@@ -36,7 +36,7 @@ En tant qu'administrateur, vous utilisez les paramètres de réunions Teams pour
 Grâce à un paramètre de stratégie par organisateur, les administrateurs peuvent désormais contrôler si des utilisateurs spécifiques ou des groupes d’utilisateurs peuvent laisser des utilisateurs anonymes rejoindre les réunions qu’ils organisent. Les paramètres de stratégie par organisateur et à l’échelle de l’organisation contrôlent tous les deux l’adhésion anonyme et l’application la plus restrictive prend effet.
 
 > [!Important]
- > **DesableAnonymousJoin** est le paramètre de stratégie à l’échelle de l’organisation. Elle sera déconseillée à l’avenir, puis la stratégie par organisateur sera la seule façon de contrôler la participation anonyme.
+ > **-DisableAnonymousJoin** est un paramètre de stratégie à l’échelle de l’organisation. Il sera déconseillé à l’avenir et la stratégie par l’organisateur sera ensuite la seule façon de contrôler la participation anonyme.
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>Autoriser des utilisateurs anonymes à participer aux réunions
 
@@ -179,7 +179,7 @@ Type de trafic média| Plage de port source du client \* |Protocole|Valeur DSCP|
 |:---             |:---                         |:---    |:---      |:---      |
 |Audio            | Entre 50 000 et 50 019               |TCP/UDP |46        |Acheminement accéléré (EF)|
 |Vidéo            | 50 020–50 039               |TCP/UDP |34        |Acheminement assuré (AF41)|
-|Partage d’application/d'écran| 50 040–50 059      |TCP/UDP |18        |Transfert garanti (AF21)|
+|Partage d’application/d'écran| 50 040–50 059      |TCP/UDP |18         |Transfert garanti (AF21)|
 | | | | |
 
 \* Les plages de ports que vous attribuez ne peuvent pas se chevaucher et doivent être adjacentes.

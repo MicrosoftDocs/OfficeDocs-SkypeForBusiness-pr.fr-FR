@@ -23,7 +23,7 @@ appliesto:
 ms.localizationpriority: high
 ms.openlocfilehash: 06243ca47e26f66dd4194a9ec9e50cc5a6bfbde7
 ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/05/2022
 ms.locfileid: "64642848"
@@ -108,7 +108,7 @@ Pour communiquer avec un autre client, il doit **autoriser tous les domaines ext
 ## <a name="manage-contact-with-external-teams-users-not-managed-by-an-organization"></a>Gérer le contact avec les utilisateurs externes de Teams non gérés par une organisation
 
 > [!NOTE]
-> Les Teams et Skype interopations abordées dans cet article ne sont pas disponibles dans les déploiements de Cloud de la communauté du secteur public, Cloud de la communauté du secteur public Élevé ou DOD, ni dans les environnements cloud privés.
+> Les fonctionnalités d’interopérabilité Teams et Skype décrites dans cet article ne sont pas disponibles dans les déploiements GCC, GCC High ou DOD, ou dans les environnements de cloud privé.
 
 Les administrateurs peuvent choisir d'activer ou de désactiver les communications avec les utilisateurs externes de Teams qui ne sont pas gérés par une organisation (« non gérés »). S'ils sont activés, ils peuvent également contrôler davantage si les personnes ayant des comptes Teams non gérés peuvent initier un contact (voir l'image suivante). Si les **utilisateurs externes dont les comptes Teams ne sont pas gérés par une organisation peuvent contacter les utilisateurs de mon organisation**, les utilisateurs de Teams non gérés ne peuvent pas effectuer de recherche dans le courrier électronique complète pour trouver des contacts de l’organisation et toutes les communications avec des utilisateurs Teams non gérées doivent être initiées par les utilisateurs de l’organisation.
 
