@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: Découvrez les stratégies d’accès conditionnel et de conformité Intune des appareils prises en charge et recommandées pour Salles Microsoft Teams.
-ms.openlocfilehash: befe8faae5db204f5e15e307cadcc24f6867a487
-ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
+ms.openlocfilehash: 19e4593a6135c79eb156a1b34847ab518d6e8ea4
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64732292"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059235"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms"></a>Stratégies d’accès conditionnel et de conformité des appareils Intune prises en charge pour Salles Microsoft Teams
 
@@ -28,7 +28,10 @@ Cet article fournit des stratégies d’accès conditionnel et de conformité de
 
 ## <a name="supported-conditional-access-policies"></a>Stratégies d’accès conditionnel prises en charge  
 
-La liste suivante inclut les stratégies d’accès conditionnel prises en charge pour les salles Teams sur Windows et sur Android. Les stratégies Android prises en charge s’appliquent à tous les appareils Android dans les espaces partagés, y compris les téléphones et panneaux de la zone commune.
+La liste suivante inclut les stratégies d’accès conditionnel prises en charge pour les salles Teams sur Windows et sur Android. 
+
+> [!NOTE]
+> Les stratégies Android prises en charge s’appliquent à tous les appareils Android dans les espaces partagés, y compris les salles Teams sur Andourd, les téléphones de zone commune et les panneaux.
 
 | Affectation | Windows | Android |
 |------------|---------|---------|
@@ -75,11 +78,11 @@ Vous trouverez ci-dessous un tableau des paramètres de conformité des appareil
 |Exiger l’activation du démarrage sécurisé sur l’appareil |Pris en charge |Le démarrage sécurisé est obligatoire pour salles Teams. |
 |Exiger l’intégrité du code |Pris en charge  | L’intégrité du code est déjà une exigence pour salles Teams. |
 | [**Propriétés de l’appareil**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-properties) | -- | -- |
-|Version du système d’exploitation (minimum, maximum) |Non pris en charge | salles Teams les mises à jour automatiques des versions plus récentes de Windows et la définition de valeurs ici peuvent empêcher la connexion après une mise à jour du système d’exploitation.|
+|Version du système d’exploitation (minimum, maximum) |Non pris en charge | salles Teams les mises à jour automatiques des versions plus récentes de Windows et la définition de valeurs ici peuvent empêcher une connexion réussie après une mise à jour du système d’exploitation.|
 |Version du système d’exploitation pour les appareils mobiles (minimum, maximum) | Non prise en charge. | N/A |
 | Builds de système d’exploitation valides | Non pris en charge | N/A |
 | [**conformité Configuration Manager**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-properties) | -- | -- |
-| Exiger la conformité des appareils à partir de Configuration Manager | Pris en charge |  S/O |
+| Exiger la conformité des appareils à partir de Configuration Manager | Pris en charge |  N/A |
 | [**Sécurité du système**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22system-security) | -- | -- |
 | Toutes les stratégies de mot de passe | Non pris en charge | Les stratégies de mot de passe peuvent empêcher le compte Skype local de se connecter automatiquement. |
 | Exiger le chiffrement du stockage des données sur l’appareil. | Pris en charge  | Utilisez uniquement si vous avez d’abord activé le chiffrement du stockage de données sur salles Teams. |
@@ -105,7 +108,7 @@ Vous trouverez ci-dessous un tableau des paramètres de conformité des appareil
 | Exiger que l’appareil soit au niveau ou sous le score de risque de l’ordinateur | Non pris en charge |  N/A |
 | [**Intégrité de l’appareil**](/mem/intune/protect/compliance-policy-create-android%22%20/l%20%22device-health) | -- | -- |
 | Appareil géré avec l’administrateur d’appareil | Obligatoire | Teams la gestion des appareils Android nécessite l’activation de l’administrateur d’appareils. |
-| Appareils rootés | Pris en charge |  S/O |
+| Appareils rootés | Pris en charge |  N/A |
 | Exiger que l’appareil soit au niveau ou sous le niveau de menace de l’appareil | Non pris en charge |  N/A |
 | [**Google Play Protect**](/mem/intune/protect/compliance-policy-create-android#device-health) | -- | -- |
 | Google Play Services est configuré | Non pris en charge | Google Play n’est pas installé sur Teams appareils Android. |
@@ -113,14 +116,14 @@ Vous trouverez ci-dessous un tableau des paramètres de conformité des appareil
 | Analyse des menaces sur les applications | Non pris en charge | Google Play n’est pas installé sur Teams appareils Android. |
 | Attestation d’appareil SafetyNet | Non pris en charge | Google Play n’est pas installé sur Teams appareils Android.|
 | [**Propriétés de l’appareil**](/mem/intune/protect/compliance-policy-create-android#device-properties) | -- | -- |
-| Version du système d’exploitation (minimum, maximum) | Pris en charge |  S/O |
+| Version du système d’exploitation (minimum, maximum) | Pris en charge |  N/A |
 [**Sécurité du système**](/mem/intune/protect/compliance-policy-create-android#system-security) | -- | -- |
 | Exiger le chiffrement du stockage des données sur l’appareil. |Pris en charge |  N/A |
 [**Sécurité des appareils**](/mem/intune/protect/compliance-policy-create-android#device-security) | -- | -- |
 | Bloquer des applications à partir de sources inconnues | Non pris en charge | Seuls les administrateurs Teams installent des applications ou des outils OEM |
-| Portail d'entreprise intégrité du runtime d’application | Pris en charge |  S/O|
+| Portail d'entreprise intégrité du runtime d’application | Pris en charge |  N/A|
 | Applications restreintes | Non pris en charge |  N/A |
-| Bloquer le débogage USB sur l’appareil | Pris en charge |  S/O|
+| Bloquer le débogage USB sur l’appareil | Pris en charge |  N/A|
 [**Tous les appareils Android*](/mem/intune/protect/compliance-policy-create-android#all-android-devices) | -- | -- |
 |Nombre maximal de minutes d’inactivité avant que le mot de passe ne soit requis | Non pris en charge |  N/A |
 | Exiger un mot de passe pour déverrouiller des appareils mobiles | Non pris en charge | N/A |

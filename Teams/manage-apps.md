@@ -17,12 +17,12 @@ description: Découvrez comment gérer vos applications Teams dans la page Gére
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: a6e6adbfbed5e1b371655ca74aa6ca6c717490c9
-ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
+ms.openlocfilehash: 2a4062bbf71c3ad112a52a10ad9c1b3ff71f3dad
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65030940"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059075"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Gérer Teams applications dans le Centre d’administration Microsoft Teams
 
@@ -30,9 +30,9 @@ Vous gérez les applications de votre organisation dans **Teams applications** d
 
 ![Capture d’écran de la page Gérer les applications.](media/manage-apps.png)
 
-Pour gérer les applications, vous utilisez les stratégies suivantes pour contrôler les autorisations pour les utilisateurs, l’installation d’applications et le chargement d’applications personnalisées créées au sein de votre organisation. Pour comprendre les stratégies, consultez [Vue d’ensemble des stratégies d’application](app-policies.md).
+Pour utiliser Teams centre d’administration, vous devez être administrateur général ou administrateur de service Teams. Pour plus d’informations, consultez [Teams rôles d’administrateur](./using-admin-roles.md).
 
-Pour en savoir plus sur l’obtention de rôles d’administrateur et d’autorisations, consultez [Teams rôles d’administrateur](./using-admin-roles.md).
+Pour gérer les applications, vous utilisez des stratégies pour contrôler les autorisations des utilisateurs, l’installation d’applications et le chargement d’applications personnalisées créées au sein de votre organisation. Pour comprendre les stratégies, consultez [Vue d’ensemble des stratégies d’application](app-policies.md).
 
 > [!NOTE]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]

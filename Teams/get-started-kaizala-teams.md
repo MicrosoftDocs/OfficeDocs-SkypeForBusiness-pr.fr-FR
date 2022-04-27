@@ -6,61 +6,59 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: null
-description: Cet article décrit la manière Kaizala complètes des fonctionnalités enrichies dans Microsoft Teams.
-f1.keywords: null
+ms.reviewer: ''
+description: Cet article explique comment Kaizala complète les fonctionnalités et fonctionnalités enrichies dans Microsoft Teams.
+f1.keywords: ''
 ms.localizationpriority: medium
-search.appverid: null
-ms.collection: null
-ms.custom: null
+search.appverid: ''
+ms.collection: ''
+ms.custom: ''
+ms.openlocfilehash: a0760e95f1b91cc12320142fd666c5e837da623d
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059315"
 ---
-
 # <a name="kaizala-and-microsoft-teams"></a>Kaizala et Microsoft Teams 
 
-En avril 2019, nous avons annoncé [des plans de](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-coming-to-microsoft-teams/ba-p/974525) collaboration entre Kaizala **et Microsoft Teams**. Les fonctionnalités d’Kaizala complètent les fonctionnalités robustes de communication et de collaboration d’Teams, le hub pour le travail d’équipe dans Microsoft 365.
+En avril 2019, nous avons [annoncé](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-coming-to-microsoft-teams/ba-p/974525) l’intention de réunir Kaizala avec Microsoft Teams. Les fonctionnalités de Kaizala complètent les fonctionnalités robustes de communication et de collaboration de Teams, le hub du travail d’équipe dans Microsoft 365.
 
-Ouvrez une nouvelle façon de travailler avec Microsoft Teams. Teams les fonctionnalités de Kaizala en regroupant les discussions, les réunions, les appels, la collaboration, l’intégration des applications et le stockage de fichiers dans une interface unique. Teams permet aux clients de se rendre compte plus de leurs investissements et d’améliorer l’expérience quotidienne des travailleurs en ligne.
+Ouvrez la porte à une toute nouvelle façon de faire des affaires avec Microsoft Teams. Teams étend les fonctionnalités de Kaizala : rassembler les conversations, les réunions, les appels, la collaboration, l’intégration d’applications et le stockage de fichiers en une seule interface. Teams aide les clients à tirer davantage profit de leurs investissements et améliore l’expérience quotidienne des travailleurs de première ligne.
 
-Teams améliore la collaboration au sein de l’espace de travail en aidant les organisations à passer d’un tableau d’applications disparates à un concentrateur unique et sécurisé qui réunit les équipes dont elles ont besoin, notamment les discussions, les réunions et les appels, grâce à l’intégration native aux applications Office 365. Actuellement, plus de 500 000 organisations utilisent des Teams différents emplacements, fuseaux horaires et langues.
+Teams améliore la collaboration en milieu de travail en aidant les organisations à passer d’un tableau d’applications disparates à un hub unique et sécurisé qui rassemble les besoins des équipes, notamment les conversations, les réunions et les appels, le tout avec une intégration native aux applications Office 365. Actuellement, les organisations du monde entier utilisent Teams pour collaborer entre différents emplacements, fuseaux horaires et langues.
 
-Microsoft Teams remplacera le service Kaizala en tant que client de communication principal dans Microsoft 365 pour les employés internes et les membres de vos réseaux étendus.
+Microsoft Teams remplacerez Kaizala comme client de communication principal dans Microsoft 365 pour les employés internes et les personnes de vos réseaux étendus.
 
-**La première série de fonctionnalités de Kaizala Pro est désormais disponible dans Teams et inclut des actions Kaizala désormais disponibles sous la mesure de [modèles](/microsoftteams/platform/samples/app-templates) d’applications Teams, [telles que des sondages](/microsoftteams/platform/samples/app-templates#poll)[, des](/microsoftteams/platform/samples/app-templates#survey) [enquêtes, des listes de vérification](/microsoftteams/platform/samples/app-templates#checklist)[, des](/microsoftteams/platform/samples/app-templates#quiz--) questionnaires et des [formations.](/microsoftteams/platform/samples/app-templates#training--)**
+Kaizala Pro fonctionnalités sont désormais disponibles dans Teams et incluent Kaizala actions qui sont désormais disponibles en tant que [modèles d’application](/microsoftteams/platform/samples/app-templates) Teams, tels que [les sondages](/microsoftteams/platform/samples/app-templates#poll), [les enquêtes, les listes](/microsoftteams/platform/samples/app-templates#survey) de [vérification](/microsoftteams/platform/samples/app-templates#checklist), [les questionnaires et la](/microsoftteams/platform/samples/app-templates#quiz--) [formation](/microsoftteams/platform/samples/app-templates#training--). Nous avons récemment publié la possibilité pour les utilisateurs Teams d’interagir avec des utilisateurs externes par le biais de leurs numéros de téléphone. Consultez le [blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832) et [l’article](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57) pour en savoir plus.
 
-L’activation de tous les membres du réseau d’une organisation à l’aide d’outils de communication et de collaboration numériques peut transformer la façon dont le travail est effectué. Cette vue d’ensemble vous aide à démarrer la transition de Kaizala à Microsoft Teams aujourd’hui.
+L’activation de chaque membre du réseau d’une organisation avec des outils de communication et de collaboration numériques peut transformer la façon dont le travail est effectué. Cette vue d’ensemble vous aidera à commencer votre transition de Kaizala à Microsoft Teams aujourd’hui.
 
->[!NOTE]
-> Suite à l’évolution soudaine du travail à distance en 2020, nous avons pivoté les ressources pour répondre à l’augmentation exponentielle de l’utilisation de Microsoft Teams et aider les clients à assurer la continuité pendant ce temps difficile. Par conséquent, nos efforts pour apporter des fonctionnalités Kaizala aux équipes ont [été retardés](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-in-microsoft-teams/ba-p/1497289). Nous espérons vous fournir une mise à jour sur l’échéancier dans les prochains mois à mesure que nous y apporterons des ajustements.
-
-Lisez régulièrement les questions fréquemment posées sur Kaizala et Teams.
+Continuez à lire les questions fréquemment posées sur Kaizala et Teams.
 
 ## <a name="faq"></a>FAQ
 
-## <a name="when-should-my-organization-move-from-kaizala-to-teams"></a>Quand mon organisation doit-elle passer d’Kaizala à Teams ?
+## <a name="when-should-my-organization-move-from-kaizala-to-teams"></a>Quand mon organisation doit-elle passer de Kaizala à Teams ?
 
-Nous encourageons tous Microsoft 365 clients Office 365 à commencer à utiliser [Teams](https://www.microsoft.com/microsoft-teams/group-chat-software?ms.officeurl=teams&rtc=1&OCID=AID2388518_SEM_Ks5ySdZ9) dès aujourd’hui pour tirer parti des fonctionnalités enrichies que Teams fournit. Ces fonctionnalités comprennent une expérience simple et puissante pour les utilisateurs mobiles dans 46 langues et 181 marchés. Renforcez les employés de votre personnel en ligne grâce à des fonctionnalités telles que la gestion des shifts, l’accès invité et la prise en charge de flux de travail et d’applications personnalisés avec Microsoft Flow et PowerApps. Pour des Kaizala spécifiques qui ne sont pas encore disponibles dans Teams, nous publierons une chronologie d’intégration mise à jour dans le futur.
+Nous encourageons tous les clients Microsoft 365 et Office 365 à commencer à utiliser [Teams](https://www.microsoft.com/microsoft-teams/group-chat-software?ms.officeurl=teams&rtc=1&OCID=AID2388518_SEM_Ks5ySdZ9) aujourd’hui pour tirer parti des fonctionnalités riches que Teams fournit. Ces fonctionnalités incluent une expérience simple et puissante pour les utilisateurs mobiles dans 46 langues et 181 marchés. Donnez à votre personnel de travail de première ligne des fonctionnalités telles que la gestion des décalages, l’accès invité et la prise en charge des flux de travail et des applications personnalisés avec Microsoft Flow et PowerApps. Pour des fonctionnalités spécifiques Kaizala qui ne sont pas encore disponibles dans Teams, nous publierons une chronologie mise à jour à l’avenir.
 
-## <a name="how-can-i-continue-to-use-kaizala-pro-if-i-had-purchased-the-standalone-offering"></a>Comment continuer à utiliser l’Kaizala Pro si j’ai acheté l’offre autonome ?
+## <a name="how-can-i-continue-to-use-kaizala-pro-if-i-had-purchased-the-standalone-offering"></a>Comment puis-je continuer à utiliser Kaizala Pro si j’avais acheté l’offre autonome ?
 
-Depuis le 1er juillet 2020, Microsoft a mis fin aux ventes du service Kaizala Pro autonome. Kaizala et Teams restent accessibles dans le cadre des plans de développement Microsoft 365 [et Office 365 projets](/Office365/Kaizala/migrate-kaizala-pro).
+Depuis le 1er juillet 2020, Microsoft a mis fin aux ventes du service autonome Kaizala Pro. Kaizala et Teams continueront d’être accessibles dans [le cadre des plans de Microsoft 365 et de Office 365](/Office365/Kaizala/migrate-kaizala-pro).
 
-## <a name="how-can-i-get-started-with-teams"></a>Comment puis-je commencer à utiliser Teams ?
+## <a name="how-can-i-get-started-with-teams"></a>Comment prendre en main Teams ?
 
-[Téléchargez Teams](https://www.microsoft.com/microsoft-teams/group-chat-software) à partir de l’App Store et accédez à des formations et des ressources dans notre centre [d’aide](https://support.microsoft.com/teams?ui=en-us&rs=en-us&ad=us) pour commencer. Vous pouvez également rejoindre le [Teams tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams/ct-p/MicrosoftTeams) pour donner des commentaires, voter pour des demandes de fonctionnalités et vous impliquer avec une communauté extraordinaire.
+Téléchargez [Teams](https://www.microsoft.com/microsoft-teams/group-chat-software) à partir de l’App Store et accédez à la formation et aux ressources dans notre [centre d’aide](https://support.microsoft.com/teams?ui=en-us&rs=en-us&ad=us) pour commencer. Vous pouvez également rejoindre le [Community tech Teams](https://techcommunity.microsoft.com/t5/microsoft-teams/ct-p/MicrosoftTeams) pour donner des commentaires, voter sur les demandes de fonctionnalités et interagir avec une communauté impressionnante.
 
-## <a name="what-can-i-do-to-prepare-for-the-integration-of-kaizala-capabilities-in-teams"></a>Que puis-je faire pour préparer l’intégration des fonctionnalités Kaizala fonctionnalités dans Teams ?
+## <a name="what-can-i-do-to-prepare-for-the-transition-of-kaizala-to-teams"></a>Que puis-je faire pour préparer la transition de Kaizala vers Teams ?
 
-Commencez à utiliser Teams pour obtenir des solutions permettant d’renforcer la communication au sein de votre organisation. Teams ne s’agit pas seulement d’une mise à niveau de Kaizala, il s’agit d’un outil puissant qui ouvre la porte sur une toute nouvelle façon de faire ses activités. Teams se positionnait de manière unique dans différents scénarios d’utilisateurs en ligne pour les travailleurs en ligne grâce à l’introduction de Teams Essentials conçu pour les petites et moyennes entreprises (PME) et la possibilité de collaborer avec des utilisateurs externes uniquement à l’aide d’un numéro de téléphone avec Teams à usage personnel.
+Commencez à utiliser Teams dès aujourd’hui pour des solutions qui peuvent permettre la communication au sein de votre organisation. Teams n’est pas seulement une mise à niveau pour Kaizala, il s’agit d’un outil puissant qui ouvre la porte à une toute nouvelle façon de faire des affaires. Teams est positionnée de façon unique pour différents scénarios d’utilisateurs de travail de première ligne, grâce à l’introduction de [Teams Essentials conçu pour les petites et moyennes entreprises (SMB)](https://www.microsoft.com/microsoft-365/blog/2021/12/01/new-microsoft-teams-essentials-is-built-for-small-businesses/) et [la possibilité de collaborer avec des utilisateurs externes en entrant le numéro de téléphone ou l’adresse e-mail complète avec Teams à des fins personnelles](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832).
 
-## <a name="will-i-have-the-ability-to-sign-in-and-add-users-with-a-phone-number-on-teams"></a>Puis-je me connecter et ajouter des utilisateurs avec un numéro de téléphone Teams ?
+## <a name="will-i-be-able-to-use-teams-to-collaborate-with-customers-and-partners-outside-my-organization-using-a-phone-number"></a>Puis-je utiliser Teams pour collaborer avec des clients et partenaires extérieurs à mon organisation à l’aide d’un numéro de téléphone ?
 
-Les utilisateurs peuvent se Teams’aide d’un numéro de téléphone Teams comptes personnels.
-
-Avec Microsoft Teams Connecter, les utilisateurs ont la possibilité d’ajouter des utilisateurs externes avec des numéros de téléphone. Les utilisateurs peuvent collaborer avec des utilisateurs externes en tirant parti Teams travail et des Teams’interopérabilité à usage personnel.
-
-La collaboration des utilisateurs externes Teams peut également se faire avec l’accès invité par courrier électronique personnel ou officiel.
+Oui, avec Teams Connecter, vous pouvez inviter n’importe quel utilisateur Teams à discuter en entrant l’adresse e-mail ou le numéro de téléphone complet que vous souhaitez atteindre et démarrer une conversation un-à-un ou une conversation de groupe avec toute personne disposant d’un compte personnel Microsoft. Aucun changement de locataire n’est requis. Une gamme de contrôles et d’outils est fournie aux administrateurs informatiques et au compte personnel Microsoft Teams utilisateurs, pour garantir la sécurité. Affichez la [page de support](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57). Pour plus d’informations, consultez le [blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832).
 
 ## <a name="next-steps"></a>Étapes suivantes
 <a name="ControlSyncThroughput"> </a>
 
-[Tracez vos Kaizala pour Teams voyage](/MicrosoftTeams/prepare-for-teams-kaizala)
+[Graphique de votre Kaizala à Teams parcours](/MicrosoftTeams/prepare-for-teams-kaizala)

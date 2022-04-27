@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams, qui fournit un message d’accueil, de la musique de suspension, la redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: 4e194a315abecdf779a2df48c7fbb7b6412693cc
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 0a62abc27eed0008a337b900f563f8e7e2a75097
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846543"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059085"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -208,6 +208,9 @@ La **durée de l’alerte pour un agent** spécifie la durée pendant laquelle l
 > [!TIP]
 > La définition de **l’heure d’alerte de l’agent** sur **20 secondes** est le paramètre recommandé.
 
+> [!NOTE]
+> Le paramètre de [gestion du délai d’expiration](#call-timeout-handling) des appels a la priorité sur le temps d’alerte de l’agent. Si la durée maximale de la file d’attente configurée pour la gestion du délai d’expiration des appels a été atteinte, l’appel est extrait de l’agent, même si la limite de temps d’alerte de l’agent n’a pas été atteinte.
+
 ## <a name="call-overflow-handling"></a>Gestion du débordement des appels
 
 ![Capture d’écran des paramètres de dépassement d’appel.](media/call-queue-overflow-handling.png)
@@ -244,24 +247,24 @@ Les configurations ci-dessous sont recommandées :
 |Fonctionnalité                          |Teams <sup>Desktop1</sup> |Teams <sup>Mobile2</sup> |Lync |Téléphones IP | Files d’attente d’appels standard |Files d’attente d’appels basées sur un canal | Commentaire |
 |:--------------------------------|:------------------------:|:-----------------------:|:---:|:--------:|:--------------------:|:------------------------:|:-------------|
 |**Méthodes de routage de l’agent**        |                          |                         |     |          |                      |                          |              |
-|`Attendant Routing`              |O                         |O                        |O    |O         |O                     |O                         |*Par défaut*     |
+|`Attendant Routing`              |O                         |O                        |O    |O         |O                     |v                         |*Par défaut*     |
 |`Longest Idle`<sup>3</sup>       |O                         |v                        |N    |O         |O                     |v                         |*Recommandé* |
-|`Round Robin`                    |O                         |O                        |O    |O         |O                     |O                         |*Recommandé* |
-|`Serial`                         |O                         |O                        |O    |v         |<sup>Y4</sup>         |<sup>Y4</sup>             |              |
+|`Round Robin`                    |O                         |O                        |O    |O         |O                     |v                         |*Recommandé* |
+|`Serial`                         |O                         |O                        |O    |O         |<sup>Y4</sup>         |<sup>Y4</sup>             |              |
 |**Modes de transfert**               |                          |                         |     |          |                      |                          |              |
-|`Conference Mode`<sup>5</sup>    |O                         |v                        |N    |<sup>Y6</sup>|O                  |O                         |*Recommandé* |
+|`Conference Mode`<sup>5</sup>    |O                         |v                        |N    |<sup>Y6</sup>|O                  |v                         |*Recommandé* |
 |`Transfer Mode`                  |O                         |O                        |O    |O         |O                     |v                         |              |
 |Routage basé sur la <sup>présence3</sup>|O                        |v                        |N    |O         |O                     |v                         |*Recommandé* |
-|Les agents peuvent refuser               |O                         |O                        |<sup>Y7</sup>|<sup>Y7</sup>|O          |O                         |*Par défaut*     |
+|Les agents peuvent refuser               |O                         |v                        |<sup>Y7</sup>|<sup>Y7</sup>|O          |v                         |*Par défaut*     |
 |Files d’attente basées sur un canal             |v                         |N                        |N    |N         |n/a                   |<sup>Y8</sup>             |              |
 |Le toast d’appel affiche le nom du compte de ressource |<sup>Y9</sup>       |O                        |O    |          |O                     |v                         |              |
 |**ID d’appelant dynamique**            |                          |                         |     |          |                      |                          |              |
-|`Standard call queue`            |N                         |O                        |N    |N         |O                     |n/a                       |              |
-|`Channel based call queue`       |v                         |n/a                      |n/a  |n/a       |n/a                   |O                         |              |
+|`Standard call queue`            |N                         |v                        |N    |N         |O                     |n/a                       |              |
+|`Channel based call queue`       |v                         |n/a                      |n/a  |n/a       |n/a                   |v                         |              |
 |**Méthodes de connectivité RTC**    |                          |                         |     |          |                      |                          |Voir la note 10   |
 |`Calling Plans`                  |O                         |O                        |O    |O         |O                     |O                         |              |
 |`Direct Routing`                 |O                         |v                        |N    |N         |O                     |O                         |              |
-|`Operator Connect`               |O                         |O                        |     |          |O                     |v                         |              |
+|`Operator Connect`               |O                         |O                        |     |          |O                     |O                         |              |
 
 Remarques :
 1. Microsoft Teams Windows client, Microsoft Teams client Mac, Microsoft Teams sur l’infrastructure de bureau virtualisée, Microsoft Teams client web.
@@ -365,7 +368,7 @@ Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suiva
 
 3. Les tests retournent les meilleures étapes suivantes pour traiter les configurations de locataire, de stratégie et de compte de ressource pour vérifier que la file d’attente d’appels est en mesure de recevoir des appels.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Voici ce que vous obtenez avec Téléphonie Microsoft Teams](here-s-what-you-get-with-phone-system.md)
 
