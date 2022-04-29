@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez quels contrôleurs de frontière de session (SBC) ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d8a1a3e739188859cf34ea60c0160e9532a9ab3d
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 2ebc88b42257ca6f6f6cdce482d042b0dc3b406c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556575"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125759"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -49,9 +49,7 @@ Microsoft collabore avec chaque fournisseur pour :
 
 Les tableaux qui suivent répertorient les appareils certifiés pour le routage direct. (Pour plus d’informations sur les fournisseurs SBC qui prennent en charge l’optimisation des médias locaux, consultez [Configurer l’optimisation des médias locaux pour le routage direct](direct-routing-media-optimization-configure.md).)
 
-[En savoir plus sur le routage direct](https://aka.ms/dr).
-Si vous avez des questions sur le programme de certification SBC pour le routage direct, contactez drsbccertification@microsoft.com. Veuillez noter que nous n'acceptons pas de nouvelles nominations pour la certification jusqu'à nouvel ordre.
-<br/>
+[En savoir plus sur le routage direct](https://aka.ms/dr). Notez que nous n’acceptons pas les nouvelles nominations pour la certification jusqu’à nouvel ordre. <br/>
 
 ## <a name="certified-sbc-vendors"></a>Fournisseurs SBC certifiés
 
@@ -91,8 +89,7 @@ Si vous avez des questions sur le programme de certification SBC pour le routage
 |                                 |     Cisco Unified Border Element (CUBE) pour les routeurs des services d’agrégation de la série 1000      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (17.6.1a recommandé)         |    &#10004;     |    |
 |                                 |     Cisco Unified Border Element (CUBE) pour les plateformes Edge Catalyst 8000      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2 pris en charge (17.6.1a recommandé)      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Contrôleur de frontière de session (SBC) Avaya pour Enterprise (ASBCE)    |     &#10004;     |       &#10004;     |       Version 8.1.1 (8.1.2 pour le contournement du média)      |     |    |
-|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Contrôleur de bordure de session Nokia    |     &#10004;     |           |       19.5 (1908)       |     |    |
-|                     |    Contrôleur de bordure de session Nokia    |     &#10004;     |           |       20.8       |      &#10004;        |    |
+|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Contrôleur de bordure de session Nokia    |     &#10004;     |      &#10004;     |       22.0       |   &#10004;  |    |
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |      &#10004;     |       Prise en charge 5.0, 5.1 (recommandé 5.3)     |     |    |
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Lien d’attache    |     &#10004;     |           |      3.1        |     |    |
