@@ -1,5 +1,5 @@
 ---
-title: Gérez l’accès externe (fédération)
+title: Gérer les conversations et les réunions externes
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,20 +17,20 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.externalaccess.overview
 - seo-marvel-mar2020
-description: Vos équipes ou votre administrateur informatique peuvent configurer un accès externe pour d'autres domaines (fédération) afin de permettre aux utilisateurs de ces domaines de rechercher, d'appeler, de discuter et d'organiser des réunions avec vos utilisateurs.
+description: Vos équipes ou l’administrateur informatique peuvent configurer des conversations et des réunions externes pour d'autres domaines afin de permettre aux utilisateurs de ces domaines de rechercher, d'appeler, de discuter et d'organiser des réunions avec vos utilisateurs.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 06243ca47e26f66dd4194a9ec9e50cc5a6bfbde7
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.openlocfilehash: b3b1fb8a51993f0c1510a000e835bbae3098e11b
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64642848"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125719"
 ---
-# <a name="manage-external-access-in-microsoft-teams"></a>Gérer l’accès externe dans Microsoft Teams
+# <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Gérer les conversations et les réunions externes dans Microsoft Teams
 
-L'accès externe est un moyen pour les utilisateurs de Teams en dehors de votre organisation de rechercher, d'appeler, de discuter et d'organiser des réunions avec vous dans Teams. Vous pouvez également utiliser l'accès externe pour communiquer avec des personnes d'autres organisations qui utilisent toujours Skype Entreprise (en ligne et sur site) et Skype.
+Vous pouvez configurer des conversations et des réunions externes dans Teams à l’aide de la fonctionnalité *d’accès externe*. L'accès externe est un moyen pour les utilisateurs de Teams en dehors de votre organisation de rechercher, d'appeler, de discuter et d'organiser des réunions avec vous dans Teams. Vous pouvez également utiliser l'accès externe pour communiquer avec des personnes d'autres organisations qui utilisent toujours Skype Entreprise (en ligne et sur site) et Skype.
 
 Si vous souhaitez que les personnes d'autres organisations aient accès à vos équipes et canaux, utilisez plutôt l'accès invité. Pour plus d’informations sur les différences entre l’accès externe et l’accès invité, voir [Comparer les accès externe et invité](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
@@ -42,9 +42,9 @@ Utilisez l’accès externe dans les situations suivantes :
 
 - Ou vous souhaitez que tous les utilisateurs de Teams à travers le monde puissent vous contacter, à l'aide de votre adresse électronique. 
 
-## <a name="plan-for-external-access"></a>Plan pour l’accès externe
+## <a name="plan-for-external-meetings-and-chat"></a>Planifier des conversations et des réunions externes
 
-Les stratégies d'accès externe comprennent des contrôles pour chaque type de fédération, tant au niveau de l'organisation que de l'utilisateur. La désactivation d'une politique au niveau de l'organisation la désactive pour tous les utilisateurs, quel que soit le paramètre de leur niveau d'utilisateur. Tous les paramètres d’accès externe sont activés par défaut.
+Les stratégies d'accès externe comprennent des contrôles pour les niveaux organisateur et utilisateur. La désactivation d'une politique au niveau de l'organisation la désactive pour tous les utilisateurs, quel que soit le paramètre de leur niveau d'utilisateur. Tous les paramètres d’accès externe sont activés par défaut.
 
 Le centre Teams d’administration contrôle l’accès externe au niveau de l’organisation. La plupart des options (sauf les restrictions de domaine) sont disponibles au niveau de l'utilisateur en utilisant PowerShell. Pour plus d’informations, afficher [Utiliser PowerShell](#using-powershell) ci-dessous.
 
@@ -124,7 +124,7 @@ Pour permettre aux utilisateurs de Teams de votre organisation de communiquer av
 1. Activer la fonction Personnes de mon organisation permet de communiquer avec Teams utilisateurs dont les comptes ne sont pas **gérés par un paramètre de l’organisation**.
 2. Effacer les **utilisateurs externes Teams comptes non gérés par une organisation peuvent contacter les utilisateurs dans la case à cocher de mon** organisation.
 
-Pour permettre aux utilisateurs de Teams de votre organisation de communiquer avec des utilisateurs Teams externes dont les comptes ne sont pas gérés par une organisation et recevoir des demandes de communication avec ces utilisateurs Teams externes :
+Pour permettre aux utilisateurs de Teams dans votre organisation de communiquer avec des utilisateurs Teams externes dont les comptes ne sont pas gérés par une organisation et recevoir des demandes de communication avec ces utilisateurs Teams externes :
 1. Activer la fonction Personnes de mon organisation permet de communiquer avec Teams utilisateurs dont les comptes ne sont pas **gérés par un paramètre de l’organisation**.
 2. Sélectionnez **les utilisateurs externes Teams comptes non gérés par une organisation peuvent contacter les utilisateurs dans la case à cocher de mon** organisation.
 

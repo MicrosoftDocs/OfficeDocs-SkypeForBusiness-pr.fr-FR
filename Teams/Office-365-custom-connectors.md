@@ -17,12 +17,12 @@ description: Avec les connecteurs, votre équipe reste au courant des dernières
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 100db95adf900a48898515b9bb9a3a753b47de4f
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 2dea5ee50d75ff8913bc88f2f3947d9f665cb4dd
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125439"
+ms.locfileid: "65137015"
 ---
 # <a name="manage-microsoft-365-and-custom-connectors"></a>Gérer les connecteurs Microsoft 365 et personnalisés
 
@@ -38,9 +38,7 @@ Le module PowerShell V2 Exchange Online utilise l’authentification moderne et 
 
 Le paramètre client remplace le paramètre de groupe. Par exemple, si un administrateur active les connecteurs pour le groupe et les désactive sur le locataire, les connecteurs du groupe sont désactivés. Pour activer un connecteur dans Teams, [connectez-vous à Exchange Online PowerShell à l’aide](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true) de l’authentification moderne avec ou sans MFA.
 
-### <a name="commands-to-enable-or-disable-connectors"></a>Commandes permettant d’activer ou de désactiver des connecteurs
-
-Exécutez les commandes suivantes dans Exchange Online PowerShell :
+Pour activer ou désactiver un connecteur, exécutez les commandes suivantes dans Exchange Online PowerShell :
 
 * Pour désactiver les connecteurs pour le locataire : `Set-OrganizationConfig -ConnectorsEnabled:$false`.
 * Pour désactiver les messages actionnables pour le locataire : `Set-OrganizationConfig -ConnectorsActionableMessagesEnabled:$false`.
@@ -51,25 +49,50 @@ Exécutez les commandes suivantes dans Exchange Online PowerShell :
 
 Pour plus d’informations sur l’échange de modules PowerShell, consultez [Set-OrganizationConfig](/powershell/module/exchange/Set-OrganizationConfig?view=exchange-ps&preserve-view=true). Pour activer ou désactiver Outlook connecteurs, [connectez des applications à vos groupes dans Outlook](https://support.microsoft.com/topic/connect-apps-to-your-groups-in-outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab).
 
-<!---TBD: Delete this section after customer migration to new Webhook URL is complete --->
+<!--- TBD: Find out how can we get to know about completion of customer migration.
+Delete this section after customer migration to new Webhook URL is complete.
+--->
 
-#### <a name="connector-url-update-notification"></a>Notification de mise à jour de l’URL du connecteur
+## <a name="publish-connectors-for-your-organization"></a>Publier des connecteurs pour votre organisation
+
+Si vous souhaitez qu’un connecteur personnalisé soit disponible uniquement pour les utilisateurs de votre organisation, vous pouvez charger une application de connecteur personnalisée dans le catalogue d’applications de votre organisation. Après avoir chargé le package d’application, les utilisateurs finaux peuvent installer le connecteur à partir du catalogue d’applications de l’organisation et configurer et utiliser le connecteur dans une équipe.
+
+<!---TBD: Check if these instructions are for admins or end-users. I cannot find these options either in Teams or in TAC.
+
+To set up a connector:
+
+1. Select **Apps** from the left navigation bar.
+1. In the **Apps** section, select **Connectors**.
+1. Select the connector that you want to add.
+1. From the pop-up menu, select **Add to a team**.
+1. In the search box, type a team or channel name.
+1. Select **Set up a Connector** from the pop-up menu in the bottom right corner of the dialog window.
+--->
+
+> [!IMPORTANT]
+> Les connecteurs personnalisés ne sont pas disponibles dans Cloud de la communauté du secteur public (Cloud de la communauté du secteur public), Cloud de la communauté du secteur public-High et department of Defense (DOD).
+
+Pour utiliser des connecteurs dans une équipe ou un canal, ouvrez le menu Plus d’options dans le coin supérieur droit d’un canal. Dans le menu, sélectionnez **Connecteurs** , puis recherchez ou recherchez l’application de connecteur requise. Configurez le connecteur sélectionné si nécessaire.
+
+:::image type="content" source="media/connectors-selection-ui.png" alt-text="Ajoutez des connecteurs à votre canal dans Teams à partir des options Plus dans le coin supérieur droit du canal.":::
+
+## <a name="update-url-of-a-connector"></a>Mettre à jour l’URL d’un connecteur
 
 Les connecteurs Teams passent à une nouvelle URL pour améliorer la sécurité. Pendant la transition, vous recevrez une notification pour mettre à jour le connecteur configuré. Mettez à jour votre connecteur au plus tôt pour éviter toute interruption des services de connecteur. Pour mettre à jour votre connecteur :
 
 1. Dans la page de configuration des connecteurs, recherchez le message **Attention requise** en regard du connecteur configuré.
 
-   ![Capture d’écran du message Attention requise.](media/Teams_Attention_Required_message.png)
+   :::image type="content" source="media/Teams_Attention_Required_message.png" alt-text="Capture d’écran du message Attention requise.":::
 
 1. Pour recréer la connexion pour les connecteurs webhook entrants, sélectionnez **Mettre à jour l’URL** et utilisez l’URL de webhook générée.
 
-   ![Capture d’écran du bouton Mettre à jour l’URL.](media/Teams_update_URL_button.png)
+   :::image type="content" source="media/Teams_update_URL_button.png" alt-text="Capture d’écran du bouton Mettre à jour l’URL.":::
 
 1. Pour les autres types de connecteurs, supprimez le connecteur et recréez la configuration du connecteur. Une **URL est un message à jour** qui s’affiche.
 
-   ![La capture d’écran de l’URL est un message à jour.](media/Teams_URL_up_to_date.png)
+   :::image type="content" source="media/Teams_URL_up_to_date.png" alt-text="La capture d’écran de l’URL est un message à jour.":::
 
 ## <a name="see-also"></a>Voir aussi
 
-* [Vue d’ensemble des connecteurs personnalisés et des webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
+* [Vue d’ensemble des connecteurs et webhooks personnalisés](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
 * [Créer des connecteurs Office 365](/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-creating)

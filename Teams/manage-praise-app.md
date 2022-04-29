@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Découvrez comment gérer l’application Compliment dans le Centre d’administration Microsoft Teams.
-ms.openlocfilehash: 364fb60b6a729062e358685426acd98704c7ac02
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 16f59a8fbe0958a63f824762cfede020dbf54b8e
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "63442680"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65136975"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gérer l’application Compliment dans le Centre d’administration Microsoft Teams
 
@@ -31,7 +31,7 @@ Compliment est activé par défaut pour tous les utilisateurs Teams de votre org
 
 :::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Capture d’écran de la page Compliment détails de l’application dans le centre d’administration Teams, montrant le bouton bascule État.":::
 
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **applications Teams** > **Gérer les applications**.
+1. Dans le volet gauche du centre d’administration Microsoft Teams, accédez à **Teams applications** **AppsManage** > .
 2. Dans la liste des applications, recherchez l’application Compliment, sélectionnez-la, puis basculez le bouton bascule **État** sur **Bloqué** ou **Autorisé**.
 
 N’oubliez pas que ce paramètre affecte à la fois l’application Compliment et la fonctionnalité de Compliment dans l’application Viva Insights dans Teams.
