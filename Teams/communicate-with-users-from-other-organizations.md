@@ -17,24 +17,24 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-description: Découvrez comment appeler, discuter, rechercher, puis ajouter des utilisateurs extérieures à l’organisation dans Microsoft Teams à l’aide de l’accès externe (fédération) et de l’accès invité.
-ms.openlocfilehash: db5d29a9d7afd121c3cecc47aa3ce717bb815f54
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+description: Découvrez comment appeler, converser, rechercher, puis ajouter des utilisateurs extérieurs à l’organisation dans Microsoft Teams à l’aide de l’accès externe et de l’accès invité.
+ms.openlocfilehash: c2cf4a3820cceacf1f84401161d130995ecbc98f
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64592739"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125479"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Utiliser l’accès invité et l’accès externe pour collaborer avec des personnes extérieures à votre organisation
 
-Lorsque vous avez besoin de communiquer, puis de collaborer avec des personnes extérieures à votre organisation, Microsoft Teams vous propose deux options :
+Cet article décrit deux des options permettant de collaborer avec des contacts extérieurs à votre organisation :
 
 - **Accès externe** : type de fédération qui permet aux utilisateurs de rechercher, d’appeler des personnes d’autres organisations, puis de discuter avec elles. Vous ne pouvez pas ajouter ces personnes à une équipe, sauf en tant qu’invitées.
 - **Accès invité** : l’accès invité vous permet d’inviter des personnes extérieures à votre organisation à rejoindre une équipe. Les personnes invitées obtiennent un compte invité dans Azure Active Directory.
 
-Note : Teams vous permet d’inviter des personnes extérieures à votre organisation à des réunions. Cela ne nécessite pas de configuration de l’accès externe ou invité.
+Pour obtenir une vue d’ensemble complète de la collaboration externe dans Microsoft 365, consultez [Vue d’ensemble des options de collaboration externe dans Microsoft 365](/microsoft-365/enterprise/external-guest-access).
 
-## <a name="external-access-federation"></a>Accès externe (fédération)
+## <a name="external-access-external-chat-and-meetings"></a>Accès externe (réunions et conversation externes)
 
 Configurez l’accès externe si vous avez besoin de rechercher, d’appeler, de discuter, puis de configurer des réunions avec des personnes extérieures à votre organisation qui utilisent Teams, Skype Entreprise (en ligne ou en local) ou Skype. 
 
