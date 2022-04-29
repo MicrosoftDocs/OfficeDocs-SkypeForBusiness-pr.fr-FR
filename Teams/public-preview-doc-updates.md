@@ -18,12 +18,12 @@ description: En savoir plus sur la préversion publique dans Microsoft Teams. Es
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: e3fdf0901d150df63fded6dc49822ad81f81f7d5
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: f814483cee8941d3fd29d2442d653c444915d1a5
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059185"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125779"
 ---
 # <a name="microsoft-teams-public-preview"></a>Préversion publique de Microsoft Teams
 
@@ -73,6 +73,14 @@ Pour activer la préversion publique sur un client de bureau ou web, vous devez 
 
 > [!NOTE]  
 > Cette option est uniquement disponible lorsque l’option **Afficher les fonctionnalités de préversion** est définie sur **Activé**.
+
+### <a name="public-preview-for-microsoft-teams-rooms-on-windows"></a>Préversion publique pour Salles Microsoft Teams sur Windows
+
+La préversion publique est désactivée par défaut. Lorsque la préversion publique est activée, les utilisateurs finaux ont accès aux fonctionnalités qui sont en préversion publique sur Salles Teams activée. Pour activer la préversion publique, ajoutez ```<EnablePublicPreview>True</EnablePublicPreview>``` à votre fichier de configuration XML.
+
+Nous vous recommandons d’inscrire 5 à 10 appareils en préversion publique. 
+
+Toutes les fonctionnalités de la préversion publique sont annoncées à [Microsoft Teams Préversion publique – Communauté Microsoft Tech](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)
 
 ## <a name="teams-now-follows-office-preview-users"></a>Teams suit désormais les utilisateurs de la préversion d’Office
 

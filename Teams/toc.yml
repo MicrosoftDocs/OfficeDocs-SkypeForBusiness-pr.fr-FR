@@ -1327,34 +1327,28 @@ items:
                 href: rooms/security.md
               - name: Gestion des licences en ligne
                 href: rooms/rooms-licensing.md
-              - name: Meilleures pratiques pour l'accès conditionnel et la conformité d'Intune
-                href: rooms/conditional-access-and-compliance-for-devices.md
-              - name: Stratégies d’accès conditionnel et de conformité Intune prises en charge
-                href: rooms/supported-ca-and-compliance-policies.md
               - name: Planifier la gestion avec Azure Monitor
                 href: rooms/azure-monitor-plan.md
           - name: Déployer
             items:
               - name: Vue d’ensemble du déploiement
                 href: rooms/rooms-deploy.md
-              - name: Configurer les comptes
-                href: rooms/rooms-configure-accounts.md
               - name: Créer des comptes de ressource
                 href: rooms/with-office-365.md
-              - name: Avec Skype Entreprise Server
-                href: rooms/with-skype-for-business-server-2015.md
               - name: Configurer une console
                 href: rooms/console.md
+              - name: Authentification
+                items:
+                  - name: Configuration de l’authentification
+                    href: rooms/rooms-authentication.md
+                  - name: Meilleures pratiques pour l'accès conditionnel et la conformité d'Intune
+                    href: rooms/conditional-access-and-compliance-for-devices.md
+                  - name: Stratégies d’accès conditionnel et de conformité Intune prises en charge
+                    href: rooms/supported-ca-and-compliance-policies.md
               - name: Mise à jour manuelle d'un appareil
                 href: rooms/manual-update.md
-              - name: Configuration de l’authentification
-                href: rooms/rooms-authentication.md
-              - name: Participer à des réunions tierces
-                href: rooms/third-party-join.md
               - name: Gestion avec Azure Monitor
                 href: rooms/azure-monitor-deploy.md
-              - name: Migrer SRS v1 ou LRS
-                href: rooms/lrs-migration.md
               - name: Caméras de contenu
                 href: rooms/content-camera.md
               - name: Contrôles de reconnaissance vocale pour haut-parleurs intelligents
@@ -1371,11 +1365,13 @@ items:
                 href: rooms/rooms-manage.md
               - name: Maintenance et opérations
                 href: rooms/rooms-operations.md
+              - name: Participer à des réunions tierces
+                href: rooms/third-party-join.md
               - name: Problèmes détectés
                 href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
-              - name: Appareils avec Azure Monitor
+              - name: Gérer les appareils avec Azure Monitor
                 href: rooms/azure-monitor-manage.md
-              - name: Paramètres avec un fichier XML
+              - name: Gérer les paramètres avec un fichier XML
                 href: rooms/xml-config-file.md
               - name: Utiliser l’outil de récupération
                 href: rooms/recovery-tool.md
@@ -1481,6 +1477,8 @@ items:
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Planifier le déploiement des affichages et des téléphones
             href: devices/plan-device-deployment.md
+          - name: Comptes de ressources pour Skype Entreprise Server
+            href: rooms/with-skype-for-business-server-2015.md
   - name: Gérer les applications
     items:
       - name: Vue d’ensemble
