@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Gestion à distance des paramètres par défaut utilisés par un appareil Salles Microsoft Teams, notamment l’application d’un thème personnalisé et la création d’un fichier de paramètres maîtres.
-ms.openlocfilehash: ae529b99fc2e76aeb6c7f511de533be57b65ac08
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: c363dce55df4d9bdcf125492c2ca92b3b20feba7
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106279"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125459"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gérer à distance les paramètres d’une console Salles Microsoft Teams avec un fichier de configuration XML
 
@@ -64,6 +64,8 @@ N’importe quel éditeur de texte peut être utilisé pour créer un fichier de
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
   <FrontRowEnabled>true</FrontRowEnabled>
   <DefaultFoRExperience>0</DefaultFoRExperience>
+  <EnablePublicPreview>false</EnablePublicPreview>
+  <NoiseSuppressionDefault>0</NoiseSuppressionDefault>
   <SendLogs>
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
     <SendLogsAndFeedback>True</SendLogsAndFeedback>
@@ -137,6 +139,8 @@ Si une valeur de variable est de type incorrect, que les éléments sont dans l�
 | \<DisableTeamsAudioSharing\>                | &#x2777; booléenne            | Première &#x2776; | Défini sur true pour désactiver le partage audio HDMI pour les participants à Teams réunion. La valeur par défaut est false.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | \<FrontRowEnabled>                          | &#x2777; booléenne            | Première &#x2776; | Activée par défaut. Si la valeur est false, la ligne frontale est désactivée.
 | \<DefaultFoRExperience>                     | &#x2777; booléenne            | Première &#x2776; | Affichage galerie par défaut. Placez la valeur 1 pour modifier la disposition par défaut de l’affichage Galerie à la première ligne.
+| \<EnablePublicPreview\>                     | &#x2777; booléenne            | Première &#x2776; | Désactivé par défaut. Si la valeur est true, la préversion publique est activée et les utilisateurs finaux peuvent accéder aux fonctionnalités de la préversion publique sur les salles Teams activés. Pour plus d’informations, consultez [la préversion publique de Salles Microsoft Teams sur Windows](../public-preview-doc-updates.md#public-preview-for-microsoft-teams-rooms-on-windows). |
+| \<NoiseSuppressionDefault\>                 | &#x2777; booléenne            | Première &#x2776; | Activée par défaut. Placez 0 pour désactiver. La désactivation n’a pas d’impact sur le paramètre de bureau qui s’applique uniquement à Teams compte Room.
 | \<CortanaWakewordEnabled\>                  | &#x2777; booléenne            | Première &#x2776; | Définissez la valeur true pour activer le mot de sortie de veille Cortana « Hey Cortana ». Ce paramètre n’a aucun effet, sauf si le service Cortana est pris en charge dans votre pays ou région et que votre périphérique audio connecté prend en charge Cortana. La valeur par défaut est false.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | \<SendLogs\>                                | Conteneur                   | Première &#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | Chaîne &#x2778;            |                | Définit une adresse e-mail facultative à laquelle les journaux peuvent être envoyés lorsque la fenêtre « Envoyer des commentaires » s’affiche.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |

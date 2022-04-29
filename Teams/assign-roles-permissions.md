@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2f14993f47cdea5690413a32c9d286587db7324
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 76ca4a5dfd6d120b71e23d899ec9c7749db99827
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556345"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125489"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires d’équipe et des membres dans Microsoft Teams
 
-Dans Microsoft Teams, il existe deux rôles d’utilisateur : **propriétaire** et **membre**. Par défaut, l’utilisateur qui crée une équipe se voit attribuer le statut de propriétaire. De plus, les propriétaires et les membres peuvent disposer des capacités de modérateur pour un canal (à condition que la modération ait été configurée). Si une équipe est créée à partir d’un groupe de Microsoft 365 existant, les autorisations sont héritées.
+Dans Microsoft Teams, il existe deux rôles d’utilisateur : **propriétaire** et **membre**. Par défaut, l’utilisateur qui crée une équipe se voit attribuer le statut de propriétaire. De plus, les propriétaires et les membres peuvent disposer des capacités de modérateur pour un canal (à condition que la modération ait été configurée). Si une équipe est créée à partir d’un groupe Microsoft 365 existant, les autorisations sont héritées.
 
 Le tableau ci-dessous présente les différences d’autorisations entre un propriétaire et un membre.
 
@@ -43,8 +43,8 @@ Le tableau ci-dessous présente les différences d’autorisations entre un prop
 | ***Modifier le nom/la description d’un canal privé** |    Non     |    N/A|
 |        ***Supprimer un canal privé**         |    Oui     |    Non|
 |          **Ajouter un canal partagé**          |    Oui     |    Non|
-| **Modifier le nom/la description d’un canal partagé** |    Non     |    <sup>Non6</sup>|
-|        **Supprimer un canal partagé**         |    Oui     |    <sup>Non6</sup>|
+| **Modifier le nom/la description du canal partagé** |    Non     |    <sup>No6</sup>|
+|        **Supprimer un canal partagé**         |    Oui     |    <sup>No6</sup>|
 |          **Ajouter des membres**          |  Oui<sup>3</sup>   |     Non<sup>4</sup>    |
 |          **Demande d’ajouter des membres**          |  S/O   |     Oui<sup>5</sup>     |
 |           **Ajouter des applications**            |    Oui     |    Oui<sup>2</sup>|
@@ -54,7 +54,7 @@ Le tableau ci-dessous présente les différences d’autorisations entre un prop
 <sup>3</sup> après avoir ajouté un membre à une équipe, un propriétaire peut également promouvoir un membre au statut de propriétaire. Il est également possible pour un propriétaire d’abaisser leur propre état pour un membre.<br>
 <sup>4</sup> les membres de Teams peuvent ajouter d’autres membres à une équipe publique.<br>
 <sup>5</sup> un membre d’équipe ne peut pas ajouter directement des membres à une équipe privée, ils peuvent demander qu’une personne soit ajoutée à une équipe dont ils sont déjà membres. Lorsqu’un membre demande l’ajout d»une personne à une équipe, les propriétaires des équipes reçoivent une alerte de demande en attente qu’ils peuvent accepter ou refuser.<br>
-<sup>6</sup> Si le membre de l’équipe est propriétaire d’un canal partagé, il peut effectuer cette action.
+<sup>6</sup> Si le membre de l’équipe est un propriétaire de canal partagé, il peut effectuer cette action.
 
 *Si vous souhaitez en savoir plus sur les autorisations des canaux privés, consultez l’article [Canaux privés dans Teams](private-channels.md).
 
@@ -63,7 +63,7 @@ Le tableau ci-dessous présente les différences d’autorisations entre un prop
 
 ## <a name="moderator-capabilities"></a>Capacités du modérateur
 
-En plus des autres fonctionnalités, les propriétaires et les membres d’une équipe peuvent avoir des capacités de modérateur pour un canal (à condition que la modération soit activée pour une équipe). Les modérateurs peuvent commencer de nouvelles publications dans un canal et contrôler si les membres d’une équipe peuvent répondre aux messages existants du canal. Les modérateurs peuvent également contrôler si les applications avec bots et connecteurs peuvent envoyer des messages de canal.
+En plus des autres fonctionnalités, les propriétaires et les membres d’une équipe peuvent avoir des capacités de modérateur pour un canal (à condition que la modération soit activée pour une équipe). Les modérateurs peuvent commencer de nouvelles publications dans un canal et contrôler si les membres d’une équipe peuvent répondre aux messages existants du canal. Les modérateurs peuvent également contrôler si les applications dotées de bots et de connecteurs peuvent envoyer des messages de canal.
 
 Les fonctionnalités du modérateur sont attribuées au niveau du canal. Par défaut, les propriétaires d’équipe disposent de fonctionnalités de modération. Les membres de l’équipe disposent de fonctionnalités de modérateur désactivées par défaut, mais le propriétaire d’une équipe peut accorder des fonctionnalités de modération pour un canal à un membre d’une équipe. Les modérateurs d’un canal peuvent ajouter et supprimer d’autres modérateurs au sein de ce canal.
 
@@ -71,7 +71,10 @@ Si vous souhaitez en savoir plus, consultez l’article [Configurer et gérer la
 
 ## <a name="assign-a-user-role"></a>Attribuer un rôle utilisateur
 
-Pour attribuer un rôle d’utilisateur, dans Teams, sélectionnez le nom de l’équipe et cliquez sur **Autres options** > **Gérer l’équipe**. Dans l’onglet **Membres**, vous pouvez ajouter des membres et choisir des propriétaires et des modérateurs (si vous disposez des autorisations suffisantes). Pour plus d’informations, [voir Modifier les paramètres d’une équipe dans Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+Pour attribuer un rôle d’utilisateur, dans Teams, sélectionnez le nom de l’équipe, puis sélectionnez **Autres options** (**...**) > **Gérer l’équipe**. Dans l’onglet **Membres**, vous pouvez ajouter des membres et choisir des propriétaires et des modérateurs (si vous disposez des autorisations suffisantes). Pour plus d’informations, consultez [Modifier les paramètres de l’équipe dans Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+
+> [!NOTE]
+> L’option **Gérer l’équipe** n’apparaît pas pour les canaux épinglés. Sélectionnez le nom de l’équipe sous *Vos équipes* plus loin ci-dessous, puis sélectionnez **Autres options** (**...**) à droite du nom.
 
 ## <a name="permissions-to-create-teams"></a>Autorisations pour créer une équipe
 

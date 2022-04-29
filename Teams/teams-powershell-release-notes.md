@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez les dernières modifications apportées à Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66ed3281b2376810e4a87db8103b4b140e4675bd
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 827f38a2be539583a30d6b94341bbfa76203f8c4
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922445"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125659"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>notes de publication Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ Cette page fournit la dernière Teams journal des modifications PowerShell pour 
 
 | Date | Version | Updates |
 |------- | -------------------- | ------------------------------ |
+| Avril 2022 | [4.2.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.1-preview) |<li>Corrige les gestions des erreurs pour les applets de commande [SetRemove\|]-CsPhoneNumberAssignment.</li><li>[Obtenir\| SetRemove\|]-CsOnlineLisSubnet : correctifs pour le paramètre Subnet dans les applets de commande modernisées.</li><li>[Obtenir\| Set]-CsOnlineLisLocation & [GetSet\|]-CsOnlineLisCivicAddress : corrige les paramètres pris en charge dans les applets de commande modernisées.</li>
 | Avril 2022 | [4.2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.0) |<li>Prise en charge du proxy pour toutes les applets de commande pertinentes pour Teams. Les applets de commande prises en charge sont déployées progressivement.</li><li>Résout les problèmes liés à [NewSet\|] : les applets de commande policy modernisées lorsqu’ils sont utilisés avec les paramètres de type PSListModifier.</li><li>[CHANGEMENT CASSANT] Les paramètres de type PSListModifier acceptent uniquement la table de hachage avec Ajouter ou Supprimer. La table de hachage avec Remplacer n’est pas prise en charge pour l’instant. Au lieu de cela, les valeurs peuvent être définies directement dans le paramètre.</li><li>Corrige les problèmes de format avec [GetNew\|]- de quelques applets de commande Policy modernisées (CsVideoInteropServiceProvider, CsInboundBlockedNumberPattern, CsTeamsComplianceRecordingApplication, CsTeamsTranslationRule, CsTeamsUnassignedNumberTreatment, CsVoiceNormalizationRule).</li><li>Amélioration des performances du traitement des entrées de pipeline avec les applets de commande modernisées.</li><li>Résout les problèmes mineurs liés aux résultats d’entrée de pipeline.</li><li>Get-CsOnlineUser : l’attribut Country (appelé CountryOrRegionDisplayName dans les versions antérieures à 3.x.x) est ajouté.</li><li>[CHANGEMENT CASSANT] Get-CsOnlineUser : l’attribut CountryAbbreviation est désormais disponible uniquement lorsqu’il est utilisé avec le paramètre -Identity.</li>
 | Mars 2022 | [4.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.1.0) |<li>Résout les problèmes liés aux variables d’avertissement et d’erreur.</li><li>Résout les problèmes liés à l’utilisation d’applets de commande modernisées avec des runspaces PowerShell.</li><li>Versions [GetNewSetRemove\|\|\|]-CsTeamsShiftsConnectionInstance Cmdlets.</li><li>Versions [GetNewRemove\|\|]-CsTeamsShiftsConnectionTeamMap Cmdlets.</li><li>Libère les applets de commande Get-CsTeamsShiftsConnectionWfm[UserTeam\|].</li><li>Versions Get-CsTeamsShiftsConnectionConnector, Get-CsTeamsShiftsConnectionSyncResult, New-CsTeamsShiftsConnectionBatchTeamMap, Remove-CsTeamsShiftsScheduleRecord, Test-CsTeamsShiftsConnectionValidate, Get-CsTeamsShiftsConnectionOperation & Get-CsTeamsShiftsConnectionErrorReport cmdlets.</li>
 | Mars 2022 | [4.0.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.1-preview) |<li>Résout les problèmes liés au paramètre commun ErrorAction.</li>

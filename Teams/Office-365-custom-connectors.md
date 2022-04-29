@@ -1,5 +1,5 @@
 ---
-title: Utiliser des Microsoft 365 et des connecteurs personnalisés
+title: Gérer les connecteurs Microsoft 365 et personnalisés
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -17,63 +17,59 @@ description: Avec les connecteurs, votre équipe reste au courant des dernières
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7fef0b28d9663cdb472f4daf79076c2d4eefcd66
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.openlocfilehash: 100db95adf900a48898515b9bb9a3a753b47de4f
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64642978"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125439"
 ---
-# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Utiliser des Microsoft 365 et des connecteurs personnalisés dans Microsoft Teams
+# <a name="manage-microsoft-365-and-custom-connectors"></a>Gérer les connecteurs Microsoft 365 et personnalisés
 
-Pour tenir votre équipe à jour, les connecteurs offrent des mises à jour de service et du contenu fréquemment utilisés directement dans Teams canal. Avec les connecteurs, vos Teams peuvent recevoir des mises à jour de services populaires tels que Trello, Wunderlist, GitHub et Azure DevOps Services. Les mises à jour sont publiées directement dans le flux de conversation de leur équipe.
+Pour maintenir la mise à jour de votre équipe, les connecteurs fournissent des mises à jour de contenu et de service fréquemment utilisées directement dans un canal Teams. Avec les connecteurs, vos utilisateurs Teams peuvent recevoir des mises à jour de services populaires tels que Trello, Wunderlist, GitHub et Azure DevOps Services. Les mises à jour sont publiées directement dans le flux de conversation de leur équipe.
 
-Microsoft 365 connecteurs sont utilisés avec les groupes Microsoft Teams et Microsoft 365, ce qui permet à tous les membres de rester synchronisés et de recevoir rapidement les informations pertinentes. Les Microsoft Teams et Exchange utilisent le même modèle de connecteur, ce qui vous permet d’utiliser les mêmes connecteurs sur les deux plateformes. Il est toutefois utile de noter que la désactivation des connecteurs pour le groupe Microsoft 365 dont dépend une équipe désactive également la possibilité de créer des connecteurs pour cette équipe.
+Microsoft 365 connecteurs sont utilisés avec des groupes Microsoft Teams et Microsoft 365, ce qui permet à tous les membres de rester synchronisés et de recevoir rapidement des informations pertinentes. Les Microsoft Teams et les Exchange utilisent le même modèle de connecteur, ce qui vous permet d’utiliser les mêmes connecteurs dans les deux plateformes. Toutefois, si vous désactivez les connecteurs configurés pour un groupe Microsoft 365, cela désactive également la possibilité pour le groupe Microsoft 365 de créer des connecteurs.
 
-Tout membre d’une équipe peut connecter son équipe aux services cloud populaires avec les connecteurs si les autorisations de l’équipe le permettent et tous les membres de l’équipe sont informés des activités de ce service. Les connecteurs continuent de fonctionner après le membre qui a initialement configuré le connecteur à gauche. Tout membre de l’équipe  autorisée à ajouter ou supprimer des connecteurs peut modifier la configuration des connecteurs par les autres membres.
+Tout membre d’une équipe peut connecter son équipe aux services cloud populaires avec les connecteurs si les autorisations de l’équipe le permettent, et tous les membres de l’équipe sont informés des activités de ce service. Les connecteurs continuent de fonctionner après le départ du membre qui a initialement configuré le connecteur. Tout membre d’équipe disposant des autorisations d’ajout ou de suppression peut modifier la configuration des connecteurs par d’autres membres.
 
-> [!NOTE]
-> Les connecteurs sont désactivés par défaut dans les environnements Cloud Community (Cloud de la communauté du secteur public) pour le gouvernement. Pour les activer, définissez le ou `ConnectorsEnabled` les `ConnectorsEnabledForTeams` paramètres avec `$true` l’cmdlet `SetOrganizationConfig` . Connecter la nouvelle [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps).
+## <a name="enable-or-disable-connectors-in-teams"></a>Activer ou désactiver des connecteurs dans Teams
 
-## <a name="add-a-connector-to-a-channel"></a>Ajouter un connecteur à un canal
+Le module PowerShell V2 Exchange Online utilise l’authentification moderne et fonctionne avec l’authentification multifacteur, appelée MFA, pour se connecter à tous les environnements PowerShell Exchange associés dans Microsoft 365. Les administrateurs peuvent utiliser Exchange Online PowerShell pour désactiver les connecteurs d’un locataire entier ou d’une boîte aux lettres de groupe spécifique, ce qui affecte tous les utilisateurs de ce locataire ou boîte aux lettres. Il n’est pas possible de désactiver pour quelques utilisateurs spécifiques. En outre, les connecteurs sont désactivés par défaut pour Cloud de la communauté du secteur public, appelés locataires Cloud de la communauté du secteur public.
 
-Pour l’instant, vous pouvez ajouter des connecteurs à l’aide Microsoft Teams clients de bureau et Web. Toutefois, les informations publiées par ces connecteurs peuvent être affichées dans **tous les clients, y compris les appareils** mobiles.
+Le paramètre client remplace le paramètre de groupe. Par exemple, si un administrateur active les connecteurs pour le groupe et les désactive sur le locataire, les connecteurs du groupe sont désactivés. Pour activer un connecteur dans Teams, [connectez-vous à Exchange Online PowerShell à l’aide](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true) de l’authentification moderne avec ou sans MFA.
 
-1. Pour ajouter un connecteur à un canal, cliquez sur les **ellipses (...),** à droite du nom d’un canal, puis cliquez **sur Connecteurs**.
+### <a name="commands-to-enable-or-disable-connectors"></a>Commandes permettant d’activer ou de désactiver des connecteurs
 
-    > [!div class="mx-imgBorder"]
-    > ![Capture d’écran Teams’interface utilisateur avec l’option Connecteurs sélectionnée.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+Exécutez les commandes suivantes dans Exchange Online PowerShell :
 
-2. Vous pouvez sélectionner parmi une série de connecteurs disponibles, puis cliquer sur **Ajouter**.
+* Pour désactiver les connecteurs pour le locataire : `Set-OrganizationConfig -ConnectorsEnabled:$false`.
+* Pour désactiver les messages actionnables pour le locataire : `Set-OrganizationConfig -ConnectorsActionableMessagesEnabled:$false`.
+* Pour activer les connecteurs pour Teams, exécutez les commandes suivantes :
+  * `Set-OrganizationConfig -ConnectorsEnabled:$true`
+  * `Set-OrganizationConfig -ConnectorsEnabledForTeams:$true`
+  * `Set-OrganizationConfig -ConnectorsActionableMessagesEnabled:$true`
 
-    > [!div class="mx-imgBorder"]
-    > ![Capture d’écran de la boîte de dialogue Connecteurs affichant les connecteurs disponibles](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+Pour plus d’informations sur l’échange de modules PowerShell, consultez [Set-OrganizationConfig](/powershell/module/exchange/Set-OrganizationConfig?view=exchange-ps&preserve-view=true). Pour activer ou désactiver Outlook connecteurs, [connectez des applications à vos groupes dans Outlook](https://support.microsoft.com/topic/connect-apps-to-your-groups-in-outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab).
 
-3. Renseignez les informations requises pour le connecteur sélectionné et cliquez sur **Enregistrer**. Chaque connecteur nécessite un ensemble d'informations pour fonctionner correctement et certains peuvent également requérir l'ouverture d'une session au service à l'aide des liens fournis dans la page de configuration du connecteur.
+<!---TBD: Delete this section after customer migration to new Webhook URL is complete --->
 
-    > [!div class="mx-imgBorder"]
-    > ![Capture d'écran de la page de configuration du connecteur RSS.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
+#### <a name="connector-url-update-notification"></a>Notification de mise à jour de l’URL du connecteur
 
-4. Les données fournies par le connecteur sont automatiquement publiées dans le canal.
+Les connecteurs Teams passent à une nouvelle URL pour améliorer la sécurité. Pendant la transition, vous recevrez une notification pour mettre à jour le connecteur configuré. Mettez à jour votre connecteur au plus tôt pour éviter toute interruption des services de connecteur. Pour mettre à jour votre connecteur :
 
-    > [!div class="mx-imgBorder"]
-    > ![Capture d'écran de l'interface Teams affichant une conversation dans un canal.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
+1. Dans la page de configuration des connecteurs, recherchez le message **Attention requise** en regard du connecteur configuré.
 
-<!---Delete this section after customer migration to new Webhook URL is complete --->
+   ![Capture d’écran du message Attention requise.](media/Teams_Attention_Required_message.png)
 
-> [!IMPORTANT]
-> **Notification de mise à jour d’URL de connecteur**
->
-> Les Teams sont en cours de transition vers une nouvelle URL pour renforcer la sécurité. Au cours de cette transition, vous recevrez certaines notifications de mise à jour du connecteur configuré pour utiliser la nouvelle URL. Il est vivement recommandé de mettre à jour votre connecteur immédiatement pour éviter toute interruption des services de connecteur. Pour mettre à jour l’URL, vous devez suivre les étapes suivantes :
->
-> 1. Dans la page de configuration des connecteurs, un message « Attention requise » s’affiche sous le bouton « Gérer » pour les connexions qui doivent être mises à jour.
-> ![Capture d’écran du message « Attention requise ».](media/Teams_Attention_Required_message.png)
-> 2. Pour les connecteurs d’espace web entrants, les utilisateurs peuvent recréer la connexion en sélectionnant simplement Mettre à jour **l’URL** et en utilisant l’URL de site web nouvellement générée.
-> ![Capture d’écran du bouton « Mettre à jour l’URL ».](media/Teams_update_URL_button.png)
-> 3. Pour les autres types de connecteurs, l’utilisateur doit supprimer le connecteur et recréer la configuration du connecteur.
-> 4. Un message « URL est à jour » s’affichera une fois l’URL correctement mise à jour.
-> ![Capture d’écran du message « L’URL est à jour ».](media/Teams_URL_up_to_date.png)
+1. Pour recréer la connexion pour les connecteurs webhook entrants, sélectionnez **Mettre à jour l’URL** et utilisez l’URL de webhook générée.
+
+   ![Capture d’écran du bouton Mettre à jour l’URL.](media/Teams_update_URL_button.png)
+
+1. Pour les autres types de connecteurs, supprimez le connecteur et recréez la configuration du connecteur. Une **URL est un message à jour** qui s’affiche.
+
+   ![La capture d’écran de l’URL est un message à jour.](media/Teams_URL_up_to_date.png)
 
 ## <a name="see-also"></a>Voir aussi
 
-* [Créer des connecteurs et des pages web personnalisés](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
+* [Vue d’ensemble des connecteurs personnalisés et des webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
+* [Créer des connecteurs Office 365](/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-creating)

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement de Salles Microsoft Teams, y compris les phases de déploiement.
-ms.openlocfilehash: 61fce84f9f3737f771e0417443de566444cc2ca2
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 18a5d72fb9c11b34bb994734b8d064c3aaa2cdae
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839075"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125769"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
@@ -53,12 +53,12 @@ Pour plus d’informations sur ces dépendances, consultez les liens d’aide à
 Pour préparer votre déploiement Salles Microsoft Teams, effectuez les tâches centrales clés suivantes :
 
 -   Définissez Salles Microsoft Teams comptes de ressources.
--   Si vous joignez Teams Room à Azure Active Directory, préparez un groupe Azure AD avec une appartenance dynamique pour contenir tous les comptes de ressources salles Teams. Cela simplifiera la gestion future, comme l’application de stratégies d’accès conditionnel. Pour tirer le meilleur parti de Azure AD groupes dynamiques, déterminez une convention d’affectation de noms qui identifiera de manière unique vos comptes de ressources salles Teams.
--   Si vous joignez Teams Room à Active Directory, préparez une unité d’organisation et un groupe Active Directory pour contenir vos comptes d’ordinateur et de ressources Salles Microsoft Teams et, éventuellement, préparez des objets stratégie de groupe (GPO) pour activer la communication à distance PowerShell.
+-   Si vous joignez salles Teams à Azure Active Directory, préparez un groupe Azure AD avec une appartenance dynamique pour contenir tous les comptes de ressources salles Teams. Cela simplifiera la gestion future, comme l’application de stratégies d’accès conditionnel. Pour tirer le meilleur parti de Azure AD groupes dynamiques, déterminez une convention d’affectation de noms qui identifiera de manière unique vos comptes de ressources salles Teams.
+-   Si vous joignez salles Teams à Active Directory, préparez une unité d’organisation et un groupe Active Directory pour contenir vos comptes d’ordinateur et de ressources Salles Microsoft Teams et, éventuellement, préparez des objets stratégie de groupe (GPO) pour activer la communication à distance PowerShell.
 
 ### <a name="define-microsoft-teams-rooms-resource-account-features"></a>Définir Salles Microsoft Teams fonctionnalités du compte de ressource 
 
-Selon les scénarios de collaboration que vous avez décidé d’activer avec votre déploiement Salles Microsoft Teams, vous devez déterminer les fonctionnalités et fonctionnalités que vous affectez à chaque salle Microsoft Teams que vous activez.
+Selon les scénarios de collaboration que vous avez décidé d’activer avec votre déploiement Salles Microsoft Teams, vous devez déterminer les fonctionnalités et fonctionnalités que vous affectez à chaque Salles Microsoft Teams que vous activez.
 
 | **Scénario** | **Description** | **fonctionnalité de compte de service Salles Microsoft Teams** |
 |---------- |------------- | --- |

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: En savoir plus sur la gestion des Salles Microsoft Teams.
-ms.openlocfilehash: e214d0b438ea7dd9b710a7aba8597de6c5b76bdf
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: d57f84aa07c90b6a75693f0cbf739402a6e90a4c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106259"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125469"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>maintenance et opérations Salles Microsoft Teams
  
@@ -37,6 +37,15 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ```
 
 Les journaux d’activité sont générés sous la forme d’un fichier ZIP dans c:\rigel.
+
+### <a name="managing-disk-space"></a>Gestion de l’espace disque
+<a name="Space"> </a>
+
+Les journaux téléchargés sur l’appareil peuvent prendre de l’espace disque. Si les journaux d’activité ne sont pas nettoyés régulièrement, ils peuvent interférer avec les fonctionnalités normales de la salle. salles Teams supprime les journaux téléchargés après 30 jours. Les administrateurs informatiques peuvent remplacer le nettoyage du journal à l’aide du paramètre de Registre des appareils.
+
+|Paramètres|Permet|
+|:-----|:-----|
+|HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold  <br/> |Nettoie les journaux après 30 jours.  <br/> |
   
 ## <a name="front-of-room-display-settings"></a>Paramètres d’affichage de l’avant de la salle
 <a name="Display"> </a>
