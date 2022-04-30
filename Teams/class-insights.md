@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 234121449025512f8a5ffe37814804cc775b7b37
-ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
+ms.openlocfilehash: 3ce84036102407c31076ea2ec12fb5dc96e6b082
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64837457"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125619"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guide d’administration informatique sur Education Insights dans Microsoft Teams
 
@@ -231,6 +231,17 @@ Par défaut, Insights est activé, ce qui nous permet de collecter des analyses 
 
 > [!NOTE]
 > Si vous avez désactivé Insights, les données collectées sont supprimées. Les données supprimées lors de la désactivation seront restaurées ultérieurement, même si Insights est réactivé.
+
+
+### <a name="turn-machine-learning-in-insights-on-or-off"></a>Activer ou désactiver Machine Learning dans Insights
+
+Par défaut, les expériences basées sur le machine learning dans Insights sont désactivées. Pour autoriser ces insights, vous devez **Autoriser les Insights basés sur le Machine Learning**. L’activation de ce bouton bascule ne collectera pas d’autres données que les données déjà collectées par Education Insights.
+
+* Pour ce faire, ouvrez le [Centre d’administration SDS](https://sds.microsoft.com/) et accédez aux **Paramètres** > **Gérer les insights Education**. 
+* Réglez la **Activez ou désactivez les insights basés sur l’apprentissage automatique**.
+
+> [!NOTE]
+> Ce bouton bascule dépend du bouton bascule **Collect les données d’activité pour Insights**. La désactivation de **Collecter les données d’activité pour Insights** désactivera également le bouton de bascule **Autoriser les Insights Machine Learning**.
 
 ### <a name="turn-sds-for-insights-on-or-off"></a>Activer ou désactiver SDS pour Insights
 

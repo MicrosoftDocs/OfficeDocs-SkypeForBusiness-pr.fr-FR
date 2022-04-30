@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 84c0ef026b16ec19337ef8840b2285a1a98e5193
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: a2d6ee4129128df8acf17906b0bc45140b57f6f4
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711728"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125499"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, équipes, canaux et applications dans Microsoft Teams
 
@@ -94,7 +94,7 @@ L’accès externe (fédération) permet à vos utilisateurs de communiquer avec
 
 |Posez-vous la question|Action |
 |------------|-------|
-|<ul><li>Vais-je désactiver l’accès externe pour mon organisation ?</li><li>Si l’accès est activé, est-ce que je vais limiter les domaines avec lesquels mon organisation peut communiquer ?</li></ul> |<br>Pour activer ou désactiver l’accès externe, consultez [Planifier l’accès externe](manage-external-access.md#plan-for-external-access).|
+|<ul><li>Vais-je désactiver les réunions externes et les conversations pour mon organisation ?</li><li>Si l’accès est activé, est-ce que je vais limiter les domaines avec lesquels mon organisation peut communiquer ?</li></ul> |<br>Pour activer ou désactiver la réunion externe et la conversation, consultez [Gérer les réunions externes et des conversations](manage-external-access.md).|
 
 ### <a name="guest-access"></a>Accès invité
 
