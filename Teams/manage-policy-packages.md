@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft Teams pour simplifier, simplifier et aider à assurer la cohérence lors de la gestion des stratégies pour les groupes d’utilisateurs.
-ms.openlocfilehash: 173d5d1488196ea048a64ce12916f8115362c572
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: d38384889e48e7d666036675b1a52ae194ea9582
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63055304"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65144956"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Gérer les packages de stratégie pour Microsoft Teams
 
@@ -87,7 +87,7 @@ Les packages de stratégie personnalisés vous permettent de regrouper votre pro
 
 Pour créer un package de stratégie personnalisé :
 
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, sélectionnez **Packages** de stratégie, puis cliquez sur **Ajouter**.
+1. Dans le volet gauche du centre d’administration Microsoft Teams, sélectionnez **Packages** de stratégie, puis cliquez sur **Ajouter**.
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="Capture d’écran du bouton Ajouter dans la page Packages de stratégie dans le centre d’administration.":::
 
@@ -97,7 +97,7 @@ Pour créer un package de stratégie personnalisé :
 
 3. Sélectionnez les types de stratégie et les noms de stratégie à inclure dans le package.
 
-4. Cliquez sur **Enregistrer**.
+4. Sélectionnez **Enregistrer**.
 
 ## <a name="how-to-use-policy-packages"></a>Comment utiliser des packages de stratégie
 
@@ -120,17 +120,17 @@ Voici les étapes à suivre pour afficher, affecter et personnaliser des package
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>Afficher les paramètres d’une stratégie dans un package de stratégie
 
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, sélectionnez **Packages** de stratégie, puis sélectionnez un package de stratégie en cliquant à gauche du nom du package.
+1. Dans le volet gauche du centre d’administration Microsoft Teams, sélectionnez **Packages** de stratégie, puis sélectionnez un package de stratégie en cliquant à gauche du nom du package.
 
-2. Cliquez sur la stratégie à afficher.
+2. Sélectionnez la stratégie à afficher.
 
 ### <a name="customize-policies-in-a-policy-package"></a>Personnaliser des stratégies dans un package de stratégie
 
 Vous pouvez modifier les paramètres d’une stratégie via la page **Packages** de stratégie ou en accédant directement à la page de stratégie dans le centre d’administration Microsoft Teams.
 
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, effectuez l’une des opérations suivantes :
-    - Cliquez sur **Packages** de stratégie, puis sélectionnez le package de stratégie en cliquant à gauche du nom du package.
-    - Cliquez sur le type de stratégie.  Par exemple, cliquez sur **Stratégies de messagerie**.
+1. Dans le volet gauche du centre d’administration Microsoft Teams, effectuez l’une des opérations suivantes :
+    - Sélectionnez **packages** de stratégie, puis sélectionnez le package de stratégie en cliquant à gauche du nom du package.
+    - Sélectionnez le type de stratégie.  Par exemple, cliquez sur **Stratégies de messagerie**.
 
 2. Sélectionnez la stratégie à modifier. Les stratégies liées à un package de stratégie portent le même nom que le package de stratégie.
 
