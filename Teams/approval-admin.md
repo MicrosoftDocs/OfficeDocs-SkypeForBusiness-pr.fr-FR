@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45f663f2c75d12a21fe38c4bbc71e2b3d93d8247
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 205f0869e699384c9a37590db50e690b5b8bd804
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137125"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186980"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
@@ -122,15 +122,29 @@ L’application Approbations est disponible par défaut. Vous pouvez désactiver
 
      :::image type="content" alt-text="affiche les détails de l’application Approbations." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
-## <a name="app-policies"></a>Stratégies d’application
+## <a name="pin-approvals-to-teams"></a>Épingler Approbations à Teams
 
-### <a name="retention-policy"></a>Stratégie de rétention
+### <a name="use-the-tailored-frontline-app-experience-to-pin-approvals-and-other-apps-to-teams"></a>Utilisez l’expérience d’application de première ligne personnalisée pour épingler Approbations et d’autres applications à Teams
+
+L’expérience d’application de première ligne personnalisée dans Teams épingle les applications les plus pertinentes dans Teams pour les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Les applications épinglées incluent Approbations, Walkie Talkie, Tasks et Shifts. Par défaut, cette fonctionnalité est activée, ce qui offre à vos employés de première ligne une expérience prêt à l’emploi adaptée à leurs besoins.
+
+Les applications sont épinglées à la barre de l’application , la barre située sur le côté du client de bureau Teams et en bas de la Teams clients mobiles, où les utilisateurs peuvent y accéder rapidement et facilement.
+
+Pour en savoir plus, notamment sur le fonctionnement de l’expérience avec les stratégies d’application que vous définissez, consultez [Tailor Teams apps pour vos employés de première ligne](pin-teams-apps-based-on-license.md).
+
+### <a name="use-an-app-setup-policy-to-pin-approvals-to-teams"></a>Utiliser une stratégie d’installation d’application pour épingler Approbations à Teams
+
+Les stratégies d’installation d’application vous permettent de personnaliser Teams pour épingler les applications les plus importantes pour vos utilisateurs dans vos utilisateurs.
+
+Pour épingler l’application Approbations pour vos utilisateurs, vous pouvez modifier la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et affecter une stratégie d’installation d’application personnalisée. Pour plus d’informations, consultez l’article [Gérer les stratégies et paramètres d’application personnalisés dans Teams](teams-app-setup-policies.md).
+
+## <a name="retention-policy"></a>Stratégie de rétention
 
 Approbations créées à partir de l’application Approbations sont stockées dans l’environnement Microsoft Dataverse par défaut, qui ne prend pas en charge les sauvegardes pour l’instant. En savoir plus sur la [Sauvegarde et restauration des environnements : Plateforme Power \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
 Les données stockées dans forms ne seront pas supprimées tant que les propriétaires de l’équipe ne les auront pas nettoyées de l’onglet **Formulaires supprimés** de l’application web Microsoft Forms.
 
-### <a name="conditional-access-policies"></a>Stratégies d’accès conditionnel
+## <a name="conditional-access-policies"></a>Stratégies d’accès conditionnel
 
 Actuellement, l’application Approbations dans Teams ne prend pas en charge les stratégies d’accès conditionnel définies pour Microsoft Teams.
 

@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2dcc945795da34ed3045ffadbc55445303b48281
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 2cd0032291054e5a4c7ee8d9204d6173cdcdebdf
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137005"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187000"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Plannings pour votre organisation dans Microsoft Teams
 
@@ -71,9 +71,19 @@ Plannings est activé par défaut pour tous les utilisateurs Teams de votre orga
 
 Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation d’utiliser Shifts, assurez-vous que Shifts est activé pour votre organisation sur la page [Gérer les applications](../../manage-apps.md) . Créez ensuite une stratégie d’autorisation d’application personnalisée et attribuez-la à ces utilisateurs. Pour plus d’informations, consultez [Gérer les stratégies d’autorisation d’application dans Teams](../../teams-app-permission-policies.md).
 
-### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Utiliser une stratégie d’installation d’application pour épingler Majs à Teams
+### <a name="pin-shifts-to-teams"></a>Épingler majs à Teams
 
-Les stratégies de configuration des applications vous permettent de personnaliser Teams pour mettre en évidence les applications les plus importantes pour les utilisateurs de votre organisation. Les applications que vous définissez dans une stratégie sont épinglées à la barre d’applications&mdash;, la barre se trouvant sur le côté du client Teams pour ordinateur de bureau et en bas des clients mobiles Teams&mdash; là où les utilisateurs peuvent y accéder rapidement et facilement.
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-shifts-and-other-apps-to-teams"></a>Utilisez l’expérience d’application de première ligne personnalisée pour épingler Majs et d’autres applications à Teams
+
+L’expérience d’application de première ligne personnalisée dans Teams épingle les applications les plus pertinentes dans Teams pour les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Les applications épinglées incluent Shifts, Walkie Talkie, Tasks et Approbations. Par défaut, cette fonctionnalité est activée, ce qui offre à vos employés de première ligne une expérience prêt à l’emploi adaptée à leurs besoins.
+
+Les applications sont épinglées à la barre de l’application , la barre située sur le côté du client de bureau Teams et en bas de la Teams clients mobiles, où les utilisateurs peuvent y accéder rapidement et facilement.
+
+Pour en savoir plus, notamment sur le fonctionnement de l’expérience avec les stratégies d’application que vous définissez, consultez [Tailor Teams apps pour vos employés de première ligne](../../pin-teams-apps-based-on-license.md).  
+
+#### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Utiliser une stratégie d’installation d’application pour épingler Majs à Teams
+
+Les stratégies d’installation d’application vous permettent de personnaliser Teams pour épingler les applications les plus importantes pour vos utilisateurs.
 
 Vous pouvez créer une [stratégie d’installation d’application personnalisée](../../teams-app-setup-policies.md) en ajoutant l’application Shifts, puis [en affectant la stratégie](../../assign-policies-users-and-groups.md) à vos utilisateurs. Vous pouvez également utiliser la stratégie d’installation d’application qui fait partie des packages de stratégie Frontline Worker et Frontline Manager.
 

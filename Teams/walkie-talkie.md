@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 776f0f31d54788fbffd86bbcbedd44e30ada28a3
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "62015014"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186970"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Application Walkie Talkie dans Microsoft Teams
 
@@ -35,23 +35,25 @@ Avec Walkie Talkie dans Teams, les travailleurs de première ligne peuvent déso
 
 ### <a name="deploying-walkie-talkie"></a>Déploiement de Walkie Talkie
 
-Walkie Talkie est pris en charge sur les appareils Android avec les appareils Google Mobile Services (GMS) et iOS. 
+Walkie Talkie est pris en charge sur les appareils Android avec les appareils Google Mobile Services (GMS) et iOS.
 
-Actuellement, Walkie Talkie n’est pas préinstallé. Pour activer cette fonctionnalité pour les utilisateurs de votre organisation, vous devez ajouter Walkie Talkie à la stratégie  [d’installation](teams-app-setup-policies.md)  de l’application attribuée aux utilisateurs à partir du [centre d’administration Teams](https://admin.teams.microsoft.com/). Une fois activé, Walkie Talkie sera disponible sur l’application dans les 48 heures.
+### <a name="pin-walkie-talkie-to-teams"></a>Épingler Walkie Talkie à Teams
 
-### <a name="adding-walkie-talkie-to-your-app-list"></a>Ajout de Walkie Talkie à votre liste d’applications
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>Utilisez l’expérience d’application de première ligne personnalisée pour épingler Walkie Talkie et d’autres applications à Teams
 
-Dans le centre d’administration Microsoft Teams, sous Teams stratégies **appSetup** > , **l’option Autoriser l’épinglage utilisateur** doit être **activée.** Ensuite, sous la section Applications épinglées, cliquez sur **+Ajouter des applications**.
+L’expérience d’application de première ligne personnalisée dans Teams épingle les applications les plus pertinentes dans Teams pour les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Les applications épinglées incluent Walkie Talkie, Shifts, Tasks et Approbations. Par défaut, cette fonctionnalité est activée, ce qui offre à vos employés de première ligne une expérience prêt à l’emploi adaptée à leurs besoins.
 
-:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Affiche la section Applications épinglées et le bouton Ajouter des applications à sélectionner.":::
+Les applications sont épinglées à la barre de l’application , la barre située sur le côté du client de bureau Teams et en bas de la Teams clients mobiles, où les utilisateurs peuvent y accéder rapidement et facilement.
 
-Dans le panneau **Ajouter des applications épinglées** qui s’affiche à droite, utilisez la zone de texte **Rechercher** pour rechercher Walkie Talkie. Lorsque vous l’avez comme résultat de recherche, sélectionnez le bouton **Ajouter** à droite du nom pour l’ajouter à votre liste.
+Pour en savoir plus, notamment sur le fonctionnement de l’expérience avec les stratégies d’application que vous définissez, consultez [Tailor Teams apps pour vos employés de première ligne](pin-teams-apps-based-on-license.md).
 
-:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Affiche la barre latérale Ajouter des applications épinglées avec Walkie entré dans le volet de recherche et l’application Walkie Talkie dans les résultats de la recherche, avec le bouton Ajouter en regard de celui-ci.":::
+#### <a name="use-an-app-setup-policy-to-pin-walkie-talkie-to-teams"></a>Utiliser une stratégie d’installation d’application pour épingler Walkie Talkie à Teams
 
-L’application Walkie Talkie doit maintenant apparaître dans la liste des applications épinglées et être utilisable une fois que vous avez cliqué sur le bouton **Enregistrer** .
+Les stratégies d’installation d’application vous permettent de personnaliser Teams pour épingler les applications les plus importantes pour vos utilisateurs dans vos utilisateurs.
 
-:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="Affiche la liste des applications épinglées avec l’application Walkie Talkie ajoutée et le bouton Enregistrer sous la liste.":::
+Pour épingler l’application Walkie Talkie pour vos utilisateurs, vous pouvez modifier la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et affecter une stratégie d’installation d’application personnalisée. Pour plus d’informations, consultez l’article [Gérer les stratégies et paramètres d’application personnalisés dans Teams](teams-app-setup-policies.md).
+
+:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Capture d’écran montrant l’ajout de Walkie Talkie à la liste des applications épinglées dans le volet Ajouter des applications épinglées." lightbox="media/deploy-walkie-talkie-2.png":::
 
 ### <a name="network-documentation"></a>Documentation réseau
 

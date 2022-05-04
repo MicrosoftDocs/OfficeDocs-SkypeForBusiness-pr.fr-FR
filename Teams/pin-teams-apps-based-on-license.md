@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c3112740ab2b25b0f0107823d41c5b5e2d68f0f
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 4f717672c4cb297d7f3d2e95ceaa038eeceaa2ee
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059305"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187120"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>Personnaliser les applications Teams pour vos employés de première ligne
 
@@ -29,7 +29,7 @@ ms.locfileid: "65059305"
 
 ## <a name="overview"></a>Présentation
 
-Teams offre un moyen simple d’épingler des applications pour les travailleurs de première ligne. Cette fonctionnalité épingle les applications basées sur une licence pour offrir à vos employés de première ligne une expérience de Teams adaptée à leurs besoins.
+Teams épingle des applications basées sur une licence pour offrir à vos employés de première ligne une expérience de Teams adaptée à leurs besoins. 
 
 Grâce à l’expérience d’application de première ligne personnalisée, vos employés de première ligne obtiennent les applications les plus pertinentes dans Teams sans aucune action de la part de l’administrateur.
 

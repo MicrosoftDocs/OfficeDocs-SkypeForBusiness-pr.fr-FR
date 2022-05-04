@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4d410d643dcf0c3753e87fa03e4040812dd9a5a
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 051ea9a68cda344cf10bc297c84b3cbda6e61437
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137035"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186990"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Tasks pour votre organisation dans Microsoft Teams
 
@@ -37,7 +37,7 @@ L’application Tasks apporte une expérience de gestion des tâches pertinente 
 > [!NOTE]
 > Pendant le déploiement de l’expérience Tasks sur les clients Teams pour ordinateur de bureau, l’application sera initialement nommée **Planificateur**. Le nom sera ensuite temporairement remplacé par **Tasks par le Planificateur et To Do**, et plus tard, il sera renommé en **Tasks**. Sur les clients mobiles Teams, l’application sera toujours nommée **Tasks**. Une fois l’expérience pour ordinateur de bureau disponible, un court délai peut exister avant que l’expérience mobile soit disponible.
 
-   ![Capture d’écran de l’affichage de liste des tâches dans la liste Teams.](media/manage-tasks-app-tasks.png)
+:::image type="content" source="media/manage-tasks-app-tasks.png" alt-text="Capture d’écran de l’affichage liste des tâches." lightbox="media/manage-tasks-app-tasks.png":::
 
 Pour les organisations qui souhaitent simplifier la gestion des tâches pour les travailleurs de première ligne, Tasks comprend également des fonctionnalités qui vous permettent de cibler, publier et suivre les tâches de vos employés de première ligne. Par exemple, les dirigeants d’entreprise et les responsables régionaux peuvent créer et publier des listes de tâches ciblées sur des emplacements pertinents, tels que des magasins de détail spécifiques, et suivre les progrès grâce à des rapports en temps réel. Les N+1 peuvent attribuer des tâches à leur personnel et diriger les activités depuis leur bureau. Les travailleurs de première ligne, eux, disposent d’une liste hiérarchisée des tâches qui leur sont attribuées sur leur mobile ou leur ordinateur de bureau. Pour activer la [publication des tâches](#task-publishing), vous devez d’abord configurer une hiérarchie de ciblage d’équipe pour votre organisation, qui définit la manière dont toutes les équipes dans la hiérarchie sont liées entre elles.
 
@@ -75,9 +75,19 @@ Tasks est activé par défaut pour tous les utilisateurs Teams de votre organisa
 
 Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation d’utiliser tâches, assurez-vous que Tâches est activée pour votre organisation sur la page [Gérer les applications](manage-apps.md), puis créez une stratégie d’autorisation d’application personnalisée et attribuez-la à ces utilisateurs. Pour en savoir plus, consultez [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md).
 
-### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Utiliser une stratégie de configuration d’application pour épingler Tasks dans Teams
+### <a name="pin-tasks-to-teams"></a>Épingler des tâches à Teams
 
-Les stratégies de configuration des applications vous permettent de personnaliser Teams pour mettre en évidence les applications les plus importantes pour les utilisateurs de votre organisation. Les applications que vous définissez dans une stratégie sont épinglées à la barre— de l’application sur le côté du client de bureau Teams et en bas des clients— mobiles Teams, où les utilisateurs peuvent y accéder rapidement et facilement.
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>Utilisez l’expérience d’application de première ligne personnalisée pour épingler Tasks et d’autres applications à Teams
+
+L’expérience d’application de première ligne personnalisée dans Teams épingle les applications les plus pertinentes dans Teams pour les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Les applications épinglées incluent Tasks, Walkie Talkie, Shifts et Approbations. Par défaut, cette fonctionnalité est activée, ce qui offre à vos employés de première ligne une expérience prêt à l’emploi adaptée à leurs besoins.
+
+Les applications sont épinglées à la barre de l’application , la barre située sur le côté du client de bureau Teams et en bas de la Teams clients mobiles, où les utilisateurs peuvent y accéder rapidement et facilement.
+
+Pour en savoir plus, notamment sur le fonctionnement de l’expérience avec les stratégies d’application que vous définissez, consultez [Tailor Teams apps pour vos employés de première ligne](pin-teams-apps-based-on-license.md).
+
+#### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Utiliser une stratégie de configuration d’application pour épingler Tasks dans Teams
+
+Les stratégies d’installation d’application vous permettent de personnaliser Teams pour épingler les applications les plus importantes pour vos utilisateurs dans vos utilisateurs.
 
 Pour épingler l’application Tâches pour vos utilisateurs, vous pouvez modifier la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et affecter une stratégie de configuration d’application personnalisée. Pour en savoir plus, consultez [Gérer les stratégies de configuration d’application dans Teams](teams-app-setup-policies.md).
 
@@ -91,10 +101,13 @@ Nous vous déconseillons de supprimer une licence Exchange Online pour les trava
 
 Avec la publication de tâches, votre organisation peut publier des listes de tâches ciblées sur des emplacements spécifiques (des équipes) au sein de votre organisation pour définir et partager un programme de travail à réaliser à ces emplacements.
 
-- Les membres de l’équipe de publication, telles que la direction d’entreprise ou régionale, peuvent créer des listes de tâches et les publier dans des équipes spécifiques. ![Capture d’écran de la publication des tâches.](media/manage-tasks-app-publish.png)
-- Les responsables des équipes de destinataires peuvent passer en revue les listes de tâches publiées et affecter des tâches individuelles aux membres de l’équipe. ![Capture d’écran de l’attribution d’une tâche.](media/manage-tasks-app-assign.png)
+- Les membres de l’équipe de publication, comme les dirigeants d’entreprise ou les responsables régionaux, peuvent créer des listes de tâches et les publier dans des équipes spécifiques.
+
+    :::image type="content" source="media/manage-tasks-app-publish.png" alt-text="Capture d’écran de la publication de tâches." lightbox="media/manage-tasks-app-publish.png":::
+- Les responsables des équipes de destinataires peuvent passer en revue les listes de tâches publiées et affecter des tâches individuelles aux membres de l’équipe. :::image type="content" source="media/manage-tasks-app-assign.png" alt-text="Capture d’écran de l’attribution d’une tâche." lightbox="media/manage-tasks-app-assign.png":::
 - Les travailleurs de première ligne ont une expérience mobile simple pour voir les tâches qui leur sont assignées. Ils peuvent joindre des photos pour montrer leur travail le cas échéant et marquer leurs tâches comme terminées.
-- Les éditeurs et les responsables peuvent afficher les rapports pour voir l’état d’affectation et d’achèvement des tâches à chaque niveau, y compris par emplacement (équipe), liste des tâches et tâche individuelle. ![Capture d’écran des tâches affectées sur les appareils mobiles.](media/manage-tasks-app-reporting.png)
+- Les éditeurs et les N+1 peuvent afficher des rapports pour voir l’état d’affectation et d’achèvement des tâches à chaque niveau, y compris par emplacement (équipe), liste de tâches et tâche individuelle.
+    :::image type="content" source="media/manage-tasks-app-reporting.png" alt-text="Capture d’écran des tâches publiées." lightbox="media/manage-tasks-app-reporting.png":::
 
 Les utilisateurs créent, gèrent et publient des listes de tâches dans l’onglet **Listes publiées** de l’application Tasks. Cet onglet ne s’affiche pour un utilisateur que si votre organisation [a configuré une hiérarchie de ciblage d’équipe](#set-up-your-team-targeting-hierarchy) et que l’utilisateur fait partie d’une équipe incluse dans la hiérarchie. La hiérarchie détermine si l’utilisateur peut publier ou recevoir des listes de tâches et afficher des rapports pour les listes reçues.
 
