@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Découvrez comment gérer l’application Bookings dans Teams pour les utilisateurs de votre organisation.
-ms.openlocfilehash: aab7ce7a4813d851574f9a5796f5ce21d44774ff
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+ms.openlocfilehash: 5740da885fb271af212ba755d7db0228a996b429
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853065"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65217928"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Gérer l’application Bookings dans Microsoft Teams
 
@@ -41,7 +41,7 @@ Les planificateurs peuvent gérer plusieurs calendriers et communications de ser
 
 * La boîte aux lettres Exchange est en Exchange Online. Les boîtes aux lettres Exchange Server locales ne sont pas prises en charge.
 * Microsoft Bookings est disponible pour l’organisation.
-* Les utilisateurs disposent d’une licence appropriée. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3 et Business Standard sont pris en charge.
+* Les utilisateurs disposent d’une licence appropriée. Office 365 A3, A5, E1, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3 et Business Standard sont pris en charge.
 * Tous les utilisateurs de l’application Bookings et tout le personnel participant aux réunions disposent d’une licence qui prend en charge Teams planification des réunions.
 * [Prérequis pour les logiciels et les navigateurs](hardware-requirements-for-the-teams-app.md).
 
