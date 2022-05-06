@@ -1,5 +1,5 @@
 ---
-title: Créer une file d’attente d’appels via des cmdlets
+title: Créer une file d’attente d’appels via des applets de commande
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -23,101 +23,101 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: Découvrir comment configurer les files d’attente d’appels via des cmdlets
-ms.openlocfilehash: aa3330af2a47c87fc71f63396b84f8ad017e19b5
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+description: Découvrez comment configurer des files d’attente d’appels via des applets de commande
+ms.openlocfilehash: bdaf538164a74a366779bd3a4928330a2bc3b085
+ms.sourcegitcommit: c06d806778f3e6ea4b184bae271e55c34fd9594d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457444"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65244901"
 ---
-# <a name="create-a-call-queue-via-cmdlets"></a>Créer une file d’attente d’appels via des cmdlets
+# <a name="create-a-call-queue-via-cmdlets"></a>Créer une file d’attente d’appels via des applets de commande
 
 ## <a name="assumptions"></a>Hypothèses
 1)  PowerShell est installé sur votre ordinateur
-- Configurer votre ordinateur pour [l’Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+- Configurer votre ordinateur pour [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 - Module MSTeams installé ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
 - Module MSOnline installé ```` Install-Module -Name MSOnline -Force -AllowClobber ````
-2)  Vous avez des droits d’administration des locataires
-3)  Vous avez acheté des Microsoft Teams Téléphone
-4)  Les agents, listes de distribution et canaux Teams ci-dessous ont déjà été créés.
+2)  Vous disposez de droits d’administration de locataire
+3)  Vous avez acheté Téléphonie Microsoft Teams
+4)  Les agents, listes de distribution et canaux Teams mentionnés ci-dessous ont déjà été créés
 
-Remarque : la cmdlet Teams canal utilisé ci-dessous fait partie de la version d’aperçu public Teams module PowerShell.  Pour plus d’informations, [voir installer Teams prévisualisation publique de PowerShell](teams-powershell-install.md), et Microsoft Teams [notes de publication PowerShell](teams-powershell-release-notes.md).
+Remarque : l’applet de commande Teams Channel utilisée ci-dessous fait partie de la préversion publique de Teams module PowerShell.  Pour plus d’informations, consultez [Installer Teams préversion publique de PowerShell](teams-powershell-install.md) et consultez également [Microsoft Teams notes de publication powershell](teams-powershell-release-notes.md).
 
-Les utilisateurs qui ont déjà installé le module ````Update-Module MicrosoftTeams```` MicrosoftTeams doivent s’assurer que la version la plus récente est installée.
+Les utilisateurs qui ont déjà installé le module MicrosoftTeams doivent ````Update-Module MicrosoftTeams```` s’assurer que la version la plus à jour est installée.
 
 
 ## <a name="scenario"></a>Scénario
 
-Les trois files d’attente d’appels suivantes sont créées :
+Les trois files d’attente d’appels suivantes seront créées :
 
-Informations de la file d’attente des appels commerciaux :
-- Fronted by Standard automatique: Yes
-- Appels directs à partir du PSTN : Non
-- Langue : Anglais (États-Unis)
+Informations sur la file d’attente des appels de ventes :
+- Fronted by Auto Attendant: Yes
+- Appel direct à partir de PSTN : Non
+- Langue : Anglais US
 - Message d’accueil : Aucun
-- Musique attente : lire un fichier audio
-- - Nom du fichier : sales-hold-in-queue-music.wav
-- Réponse à un appel : Utilisateurs
+- Musique en attente : Lire un fichier audio
+- - Nom de fichier : sales-hold-in-queue-music.wav
+- Réponse aux appels : Utilisateurs
 - - Bill@contoso.com
 - - Mary@contoso.com
-- Mode conférence : sous
+- Mode conférence : activé
 - Méthode de routage : Attendant
-- Routage en fonction de la présence : non
-- Les agents d’appel peuvent refuser de prendre des appels : Oui
+- Routage basé sur la présence : désactivé
+- Les agents d’appel peuvent refuser de passer des appels : Oui
 - Heure d’alerte de l’agent d’appel : 15
-- Gestion des dépassements d’appel : 200
+- Gestion du dépassement de capacité des appels : 200
 - - Rediriger vers : Adele@contoso.com
-- Traitement du délai d’appel : 120 secondes
+- Gestion du délai d’expiration des appels : 120 secondes
 - - Rediriger vers : Adele@contoso.com
 
-Informations de la file d’attente d’appels du support :
-- Fronted by Standard automatique: Yes
-- Appels directs à partir du PSTN : Non
--   Langue : Anglais (Royaume-Uni)
--   Salutations : Lire un fichier audio
+Prise en charge des informations de file d’attente d’appels :
+- Fronted by Auto Attendant: Yes
+- Appel direct à partir de PSTN : Non
+-   Langue : Anglais Royaume-Uni
+-   Message d’accueil : Lire un fichier audio
 -   - Nom de fichier : support-greeting.wav
--   Musique attente : lire un fichier audio
--   - Nom du fichier : support-hold-in-queue-music.wav
--   Réponse à un appel : liste de distribution du support
+-   Musique en attente : Lire un fichier audio
+-   - Nom de fichier : support-hold-in-queue-music.wav
+-   Réponse aux appels : liste de distribution du support
 -   - Support@contoso.com
--   Mode conférence : sous
--   Méthode de routage : Idle la plus longue
--   Routage basé sur la présence : N/A – sur par défaut en raison d’Idle la plus longue
--   Les agents d’appel peuvent refuser de prendre des appels : Non
+-   Mode conférence : activé
+-   Méthode de routage : idle le plus long
+-   Routage basé sur la présence : N/A – activé par défaut en raison de l’inactivité la plus longue
+-   Les agents d’appel peuvent refuser de passer des appels : Non
 -   Heure d’alerte de l’agent d’appel : 15
--   Gestion des dépassements d’appel : 200
--   - Redirection : Prise en charge de la messagerie vocale partagée
+-   Gestion du dépassement de capacité des appels : 200
+-   - Redirection : prise en charge de la messagerie vocale partagée
 - - -   Lire un fichier audio (support-shared-voicemail-greeting.wav)
 - - -   Transcription activée
--   Traitement du délai d’appel : 45 minutes
--   - Redirection : Prise en charge de la messagerie vocale partagée
-- - - TTS : « Nous sommes désolés de vous avoir attendu et de transférer votre appel vers la messagerie vocale. »
+-   Gestion du délai d’expiration des appels : 45 minutes
+-   - Redirection : prise en charge de la messagerie vocale partagée
+- - - TTS : « Nous sommes désolés de vous avoir fait attendre et transférons maintenant votre appel à la messagerie vocale. »
 - - - Transcription activée
 
 
-Informations de la file d’attente d’appels en collaboration sur les installations :
-- Fronted by Standard automatique: No
-- Appels directs depuis PSTN : Non (appels internes uniquement)
--   Langue : Français (FR)
+Informations sur la file d’attente d’appels collaboratifs d’installations :
+- Fronted by Auto Attendant: No
+- Appel direct à partir de PSTN : Non (appel interne uniquement)
+-   Langue : Français FR
 -   Message d’accueil : Aucun
--   Musique attente : par défaut
--   Réponse à un appel : Équipe : installations
--   Call Answering Channel: Help Desk
+-   Musique en attente : valeur par défaut
+-   Répondeur d’appel : Équipe : Installations
+-   Canal de réponse aux appels : Support technique
 -   - Propriétaire du canal : Fred@contoso.com
--   Mode conférence : sous
--   Méthode de routage : Rond Rond
--   Routage en fonction de la présence : sur
--   Les agents d’appel peuvent refuser de prendre des appels : Non
+-   Mode conférence : activé
+-   Méthode de routage : Round Robin
+-   Routage basé sur la présence : activé
+-   Les agents d’appel peuvent refuser de passer des appels : Non
 -   Heure d’alerte de l’agent d’appel : 15
--   Gestion des dépassements d’appel : 200
+-   Gestion du dépassement de capacité des appels : 200
 -   - Déconnexion
--   Traitement du délai d’appel : 45 minutes
+-   Gestion du délai d’expiration des appels : 45 minutes
 -   - Déconnexion
 
 
 ## <a name="login"></a>Connexion
-Vous êtes invité à entrer vos informations d’identification d Teams administrateur.
+Vous serez invité à entrer vos informations d’identification d’administrateur Teams.
 ```
 $credential = Get-Credential
 Connect-MicrosoftTeams -Credential $credential
@@ -126,7 +126,7 @@ Connect-MsolService -Credential $credential
 
 ## <a name="sales-queue"></a>File d’attente des ventes
 ### <a name="create-audio-files"></a>Créer des fichiers audio
-Remplacez « d:\\ » par le chemin d’accès à l’endroit où les fichiers wav sont stockés sur votre ordinateur.
+Remplacez « d:\\ » par le chemin d’accès à l’emplacement où les fichiers wav sont stockés sur votre ordinateur.
 
 ````
 $content = Get-Content “d:\sales-hold-in-queue-music.wav” -Encoding byte -ReadCount 0
@@ -135,12 +135,12 @@ $audioFileSalesHoldInQueueMusicID = (Import-CsOnlineAudioFile -ApplicationID Hun
 
 ### <a name="get-users-id"></a>Obtenir l’ID d’utilisateur
 ````
-$userAdeleID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).ObjectID
-$userSalesBillID = (Get-CsOnlineUser -Identity “sip:bill@contoso.com”).ObectID
-$userSalesMaryID = (Get-CsOnlineUser -Identity “sip:mary@contoso.com”).ObjectID
+$userAdeleID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).Identity
+$userSalesBillID = (Get-CsOnlineUser -Identity “sip:bill@contoso.com”).Identity
+$userSalesMaryID = (Get-CsOnlineUser -Identity “sip:mary@contoso.com”).Identity
 ````
 
-### <a name="get-list-of-supported-languages"></a>Obtenir la liste des langues prise en charge
+### <a name="get-list-of-supported-languages"></a>Obtenir la liste des langues prises en charge
 ````
 Get-CsAutoAttendantSupportedLanguage
 ````
@@ -155,13 +155,13 @@ New-CsCallQueue -Name “Sales” -AgentAlertTime 15 -AllowOptOut $true -MusicOn
 Get-MsolAccountSku
 ````
 
-### <a name="create-and-assign-resource-account"></a>Créer et affecter un compte de ressource
-Remarque : Téléphone numéro non requis ici, car la file d’attente d’appels est avant terminée par un Standard automatique
-- ApplicationID
+### <a name="create-and-assign-resource-account"></a>Créer et attribuer un compte de ressource
+Remarque : Téléphone numéro n’est pas obligatoire ici, car la file d’attente d’appels est terminée par un standard automatique
+- ID d’application
 - - Standard automatique : ce933385-9390-45d1-9512-c8d228074e07
 - - File d’attente d’appels : 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-Remarque : le type de licence indiqué ci-dessous (PHONESYSTEM_VIRTUALUSER) doit être répertorié par l'Get-MsolAccountSku cmdlet ci-dessus.
+Remarque : le type de licence indiqué ci-dessous (PHONESYSTEM_VIRTUALUSER) doit être répertorié par l’applet de commande Get-MsolAccountSku ci-dessus.
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -170,16 +170,16 @@ Set-MsolUser -UserPrincipalName "Sales-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “Sales-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser -Identity "Sales-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser -Identity "Sales-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Sales").Identity
 
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue
 ````
 
 
-## <a name="support-queue"></a>File d’attente du support
+## <a name="support-queue"></a>File d’attente de support
 ### <a name="create-audio-files"></a>Créer des fichiers audio
-Remplacez « d:\\ » par le chemin d’accès à l’endroit où les fichiers wav sont stockés sur votre ordinateur.
+Remplacez « d:\\ » par le chemin d’accès à l’emplacement où les fichiers wav sont stockés sur votre ordinateur.
 
 ````
 $content = Get-Content “d:\support-greeting.wav” -Encoding byte -ReadCount 0
@@ -197,7 +197,7 @@ $audioFileSupportSharedVoicemailGreetingID = (Import-CsOnlineAudioFile -Applicat
 $teamSupportID = (Get-Team -displayname "Support").GroupID
 ````
 
-### <a name="get-list-of-supported-languages"></a>Obtenir la liste des langues prise en charge
+### <a name="get-list-of-supported-languages"></a>Obtenir la liste des langues prises en charge
 ````
 Get-CsAutoAttendantSupportedLanguage
 ````
@@ -212,13 +212,13 @@ New-CsCallQueue -Name “Support” -AgentAlertTime 15 -AllowOptOut $false -Dist
 Get-MsolAccountSku
 ````
 
-### <a name="create-and-assign-resource-account"></a>Créer et affecter un compte de ressource
-Remarque : Téléphone numéro non requis ici, car la file d’attente d’appels est frontale par un Standard automatique
-- ApplicationID
+### <a name="create-and-assign-resource-account"></a>Créer et attribuer un compte de ressource
+Remarque : Téléphone numéro n’est pas obligatoire ici, car la file d’attente d’appels est frontale par un standard automatique
+- ID d’application
 - - Standard automatique : ce933385-9390-45d1-9512-c8d228074e07
 - - File d’attente d’appels : 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-Remarque : le type de licence indiqué ci-dessous (PHONESYSTEM_VIRTUALUSER) doit être répertorié par l'Get-MsolAccountSku cmdlet ci-dessus.
+Remarque : le type de licence indiqué ci-dessous (PHONESYSTEM_VIRTUALUSER) doit être répertorié par l’applet de commande Get-MsolAccountSku ci-dessus.
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -227,36 +227,36 @@ Set-MsolUser -UserPrincipalName "Support-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “Support-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser -Identity "Support-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser -Identity "Support-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Support").Identity
 
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue
 ````
 
 
-## <a name="facilities-collaborative-calling-queue"></a>File d’attente d’appels de collaboration d’installations
-### <a name="get-facilities-team-group-id"></a>Obtenir l’ID du groupe d’équipe Installations
+## <a name="facilities-collaborative-calling-queue"></a>File d’attente d’appels collaboratifs d’installations
+### <a name="get-facilities-team-group-id"></a>Obtenir l’ID du groupe d’équipe Facilities
 ````
 $teamFacilitiesGroupID = (Get-Team -DisplayName "Facilities").GroupID
 ````
 
-### <a name="get-facilities-help-desk-team-channel-id"></a>Obtenir l’ID de canal de l’équipe du service d’aide sur les installations
+### <a name="get-facilities-help-desk-team-channel-id"></a>Obtenir l’ID de canal d’équipe du support technique d’installation
 ````
 Get-TeamChannel -GroupId $teamFacilitiesGroupID
 $teamFacilitiesHelpDeskChannelID = "{assign ID from output of above command}"
 ````
 
-### <a name="get-facilities-help-desk-channel-owner-user-id"></a>Obtenir l’ID d’utilisateur du propriétaire d’un canal du service d’aide installations
+### <a name="get-facilities-help-desk-channel-owner-user-id"></a>Obtenir l’ID d’utilisateur du propriétaire du canal Help Desk Facilities
 ````
 $teamFacilitiesHelpDeskChannelUserID = (Get-TeamChannelUser -GroupId $teamFacilitiesGroupID -DisplayName "Help Desk" -Role Owner).UserId
 ````
 
-### <a name="get-on-behalf-of-calling-resource-account-id"></a>Obtenir de la part de l’ID de compte de ressource d’appel
+### <a name="get-on-behalf-of-calling-resource-account-id"></a>Obtenir au nom de l’ID de compte de ressource d’appel
 ````
-$oboResourceAccountID = (Get-CsOnlineUser -Identity "MainAA-RA@contoso.com").ObjectID
+$oboResourceAccountID = (Get-CsOnlineUser -Identity "MainAA-RA@contoso.com").Identity
 ````
 
-### <a name="get-list-of-supported-languages"></a>Obtenir la liste des langues prise en charge
+### <a name="get-list-of-supported-languages"></a>Obtenir la liste des langues prises en charge
 ````
 Get-CsAutoAttendantSupportedLanguage
 ````
@@ -271,13 +271,13 @@ New-CsCallQueue -Name “Facilities” -AgentAlertTime 15 -AllowOptOut $false -C
 Get-MsolAccountSku
 ````
 
-### <a name="create-and-assign-resource-account"></a>Créer et affecter un compte de ressource
-Remarque : Téléphone numéro non requis ici, car la file d’attente d’appels est frontale par un Standard automatique
-- ApplicationID
+### <a name="create-and-assign-resource-account"></a>Créer et attribuer un compte de ressource
+Remarque : Téléphone numéro n’est pas obligatoire ici, car la file d’attente d’appels est frontale par un standard automatique
+- ID d’application
 - - Standard automatique : ce933385-9390-45d1-9512-c8d228074e07
 - - File d’attente d’appels : 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-Remarque : le type de licence indiqué ci-dessous (PHONESYSTEM_VIRTUALUSER) doit être répertorié par l'Get-MsolAccountSku cmdlet ci-dessus.
+Remarque : le type de licence indiqué ci-dessous (PHONESYSTEM_VIRTUALUSER) doit être répertorié par l’applet de commande Get-MsolAccountSku ci-dessus.
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Facilities-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -286,7 +286,7 @@ Set-MsolUser -UserPrincipalName "Facilities-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “Facilities-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser -Identity "Facilities-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser -Identity "Facilities-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Facilities").Identity
 
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue

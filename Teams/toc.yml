@@ -431,34 +431,30 @@ items:
         href: FAQ-support-remote-workforce.md
       - name: Rapports
         items:
-          - name: Rapports d'activité dans le centre d'administration Microsoft 365
-            href: teams-activity-reports.md
-          - name: Analyses et rapports dans le Centre d’administration Teams
-            items:
-              - name: Vue d’ensemble
-                href: teams-analytics-and-reports/teams-reporting-reference.md
-              - name: Rapport d’utilisation Teams
-                href: teams-analytics-and-reports/teams-usage-report.md
-              - name: Rapport d’activité de l’utilisateur Teams
-                href: teams-analytics-and-reports/user-activity-report.md
-              - name: Rapport d’utilisation de l’application Teams
-                href: teams-analytics-and-reports/app-usage-report.md
-              - name: Rapport d’utilisation Teams sur des appareils
-                href: teams-analytics-and-reports/device-usage-report.md
-              - name: Rapport sur les utilisateurs bloqués du réseau téléphonique commuté (RTC)
-                href: teams-analytics-and-reports/pstn-blocked-users-report.md
-              - name: Rapport du nombre de minutes RTC
-                href: teams-analytics-and-reports/pstn-minute-pools-report.md
-              - name: Rapport d'utilisation RTC
-                href: teams-analytics-and-reports/pstn-usage-report.md
-              - name: Rapport d’utilisation des appels sortants de l’audioconférence Teams
-                href: audio-conferencing-dial-out-usage-report.md
-              - name: Rapport d’utilisation des événements en direct Teams
-                href: teams-analytics-and-reports/teams-live-event-usage-report.md
-              - name: Rapport de la licence de protection des Informations de Teams
-                href: teams-analytics-and-reports/information-protection-license-report.md
-              - name: Rapport d’utilisation des visites virtuelles Teams
-                href: teams-analytics-and-reports/virtual-visits-usage-report.md
+          - name: Vue d’ensemble
+            href: teams-analytics-and-reports/teams-reporting-reference.md
+          - name: Rapport d’utilisation Teams
+            href: teams-analytics-and-reports/teams-usage-report.md
+          - name: Rapport d’activité de l’utilisateur Teams
+            href: teams-analytics-and-reports/user-activity-report.md
+          - name: Rapport d’utilisation de l’application Teams
+            href: teams-analytics-and-reports/app-usage-report.md
+          - name: Rapport d’utilisation Teams sur des appareils
+            href: teams-analytics-and-reports/device-usage-report.md
+          - name: Rapport sur les utilisateurs bloqués du réseau téléphonique commuté (RTC)
+            href: teams-analytics-and-reports/pstn-blocked-users-report.md
+          - name: Rapport du nombre de minutes RTC
+            href: teams-analytics-and-reports/pstn-minute-pools-report.md
+          - name: Rapport d'utilisation RTC
+            href: teams-analytics-and-reports/pstn-usage-report.md
+          - name: Rapport d’utilisation des appels sortants de l’audioconférence Teams
+            href: audio-conferencing-dial-out-usage-report.md
+          - name: Rapport d’utilisation des événements en direct Teams
+            href: teams-analytics-and-reports/teams-live-event-usage-report.md
+          - name: Rapport de la licence de protection des Informations de Teams
+            href: teams-analytics-and-reports/information-protection-license-report.md
+          - name: Rapport d’utilisation des visites virtuelles Teams
+            href: teams-analytics-and-reports/virtual-visits-usage-report.md
       - name: 'Fichiers journaux, Intégrité des services et support'
         items:
           - name: Utiliser des fichiers journaux pour surveiller et résoudre des problèmes liés à Teams
