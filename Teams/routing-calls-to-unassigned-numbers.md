@@ -1,5 +1,5 @@
 ---
-title: Routage des appels vers des numéros non instanés
+title: Routage des appels vers des numéros non attribués
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,29 +20,29 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Découvrez comment router des appels vers des numéros non insignés dans votre organisation.
-ms.openlocfilehash: f53e83b3d4f26123feed70bdecad32cb45bc5588
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+description: Découvrez comment router les appels vers des numéros non attribués dans votre organisation.
+ms.openlocfilehash: cc464419375b6391d0d95d6e99441777a40da9cb
+ms.sourcegitcommit: bc73017b4a3fe6271830bc8c5044bfd43eec80c0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442792"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65266920"
 ---
-# <a name="routing-calls-to-unassigned-numbers"></a>Routage des appels vers des numéros non instanés
+# <a name="routing-calls-to-unassigned-numbers"></a>Routage des appels vers des numéros non attribués
 
-En tant qu’administrateur, vous pouvez router les appels vers des numéros non insignés dans votre organisation. Par exemple, vous souhaitez peut-être router les appels vers des numéros non insignés comme suit : 
+En tant qu’administrateur, vous pouvez acheminer les appels vers des numéros non attribués dans votre organisation. Par exemple, vous souhaiterez peut-être acheminer les appels vers des numéros non attribués comme suit : 
 
 - Routez tous les appels vers un numéro non attribué donné vers une annonce personnalisée.
 
-- Routez tous les appels vers un numéro non attribué donné vers le tableau général principal.
+- Routez tous les appels vers un numéro non attribué donné vers le tableau de bord principal.
 
-Vous pouvez router des appels vers des numéros non affectationés vers un utilisateur, un compte de ressource associé à une Standard automatique ou à une file d’attente d’appels, ou vers un service d’annonces qui liera un fichier audio personnalisé à l’appelant.
+Vous pouvez acheminer les appels vers des numéros non attribués à un utilisateur, vers un compte de ressource associé à un standard automatique ou à une file d’attente d’appels, ou à un service d’annonce qui va lire un fichier audio personnalisé à l’appelant.
 
 ## <a name="configuration"></a>Configuration
 
-Pour router les appels vers un numéro non utilisé, utilisez la cmdlet New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment disponible dans Teams Module PowerShell 2.5.1 ou une date ultérieure.
+Pour acheminer les appels vers un numéro non attribué, utilisez l’applet de commande New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment disponible dans Teams module PowerShell 2.5.1 ou version ultérieure.
 
-Vous devez spécifier le numéro ou la plage de numéros appelés et le routage associé pour les appels vers ces numéros. Par exemple, la commande suivante spécifie que tous les appels vers le numéro +1 (555) 222-3333 seront acheminés vers le compte de ressource pour aa@contoso.com :
+Vous devez spécifier le nombre ou la plage de nombres appelés et le routage associé pour les appels à ces numéros. Par exemple, la commande suivante spécifie que tous les appels au numéro +1 (555) 222-3333 seront routées vers le compte de ressource aa@contoso.com :
 
 ``` PowerShell
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
@@ -51,7 +51,7 @@ $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectI
 New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -TreatmentPriority 1
 ```
 
-L’exemple suivant spécifie que tous les appels vers la plage de numéro +1 (555) 333-0000 à +1 (555) 333-9999 seront acheminés vers le service d’annonces, qui liera le fichier audio MainAnnouncement.wav à l’appelant.
+L’exemple suivant spécifie que tous les appels à la plage de nombres +1 (555) 333-0000 à +1 (555) 333-9999 seront acheminés vers le service d’annonce, qui lirea le fichier audio MainAnnouncement.wav à l’appelant.
 
 ```PowerShell
 $Content = Get-Content "C:\Media\MainAnnoucement.wav" -Encoding byte -ReadCount 0
@@ -65,13 +65,17 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 ## <a name="notes"></a>Remarques
 
-- En cas de routage vers une annonce, le fichier audio est liffé une seule fois vers l’appelant.
+- Si vous effectuez le routage vers une annonce, le fichier audio est lu une seule fois sur l’appelant.
 
-- Pour router les appels vers des numéros d’abonnés Microsoft Calling Plan non attribues, votre client doit avoir des [crédits de communication disponibles](what-are-communications-credits.md).
+- Pour acheminer les appels vers des numéros d’abonnés du plan d’appels Microsoft non attribués, votre locataire doit disposer de [crédits de communication](what-are-communications-credits.md) disponibles.
 
-- Pour router les appels vers des numéros de service Microsoft Calling Plan non insignés, votre client doit avoir au moins une licence Système téléphonique - Utilisateur virtuel.
+- Pour acheminer les appels vers des numéros de service de plan d’appel Microsoft non attribués, votre locataire doit disposer d’au moins un Système téléphonique : licence d’utilisateur virtuel.
 
-- Les formats de fichier audio personnalisés pris en charge sont WAV (non compressé, linéaire PCM avec une profondeur 8/16/32 bits en mono ou stéréo), WMA (mono uniquement) et MP3. Le contenu du fichier audio ne peut pas avoir une taille plus de 5 Mo.
+- Les formats pris en charge par le fichier audio personnalisé sont WAV (PCM linéaire non compressé avec une profondeur de 8/16/32 bits en mono ou stéréo), WMA (mono uniquement) et MP3. Le contenu du fichier audio ne peut pas dépasser 5 Mo.
+
+- Les appels entrants à Microsoft Teams et les appels sortants de Microsoft Teams verront le numéro appelé vérifié par rapport à la plage de numéros non attribués.
+
+- Si un modèle/plage spécifié contient des numéros de téléphone affectés à un compte d’utilisateur ou de ressource dans le locataire, les appels à ces numéros de téléphone sont acheminés vers la cible appropriée et non routés vers le traitement de numéros non attribués spécifié. Il n’y a pas d’autres vérifications des nombres dans la plage. Si la plage contient un numéro de téléphone externe valide, les appels sortants de Microsoft Teams vers ce numéro de téléphone seront acheminés en fonction du traitement.
 
 ## <a name="related-topics"></a>Voir aussi
 
