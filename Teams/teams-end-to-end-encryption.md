@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 202aee527896b331a6c8e64e1fc8736fa4942ecb
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: d5865494b94c280295d13e0f99303bc76d1fc274
+ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388188"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65249006"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Utilisez le cryptage de bout en bout pour les appels Microsoft Teams entre particuliers.
 
@@ -79,13 +79,13 @@ La stratégie par défaut globale à l’échelle de l’organisation spécifie 
 
 1. À l’aide d’un compte professionnel ou scolaire auquel le rôle d’administrateur général ou Teams a été affecté, connectez-vous au [Centre d'administration Teams](https://admin.teams.microsoft.com/).
 
-2. Accédez à **Autres paramètres** > **Stratégies de chiffrement améliorées**.
+2. Accédez à **Stratégies de chiffrement améliorées**.
 
 3. Choisissez la stratégie par défaut ou **Ajouter** pour ajouter une nouvelle stratégie, puis nommez-la.
 
-4. Pour activer le chiffrement de bout en bout pour vos utilisateurs, pour le **Chiffrement de bout en bout des appels**, choisissez **les utilisateurs peuvent l’activer**, puis sélectionnez **Enregistrer**.
+4. Pour activer le chiffrement de bout en bout pour vos utilisateurs, pour le **Chiffrement de bout en bout des appels**, choisissez **Remplacement d’utilisateur désactivé**, puis **Enregistrer**.
 
-   Pour désactiver le chiffrement de bout en bout, sélectionnez **Désactiver pour tout le monde**.
+   Pour désactiver le chiffrement de bout en bout, choisissez **Désactivé**.
 
 Une fois que vous avez terminé la configuration de la stratégie, affectez la stratégie aux utilisateurs, aux groupes ou à l’ensemble de votre client de la même façon que vous gérez d’autres stratégies Teams. Pour plus d’informations sur l’utilisation des stratégies dans Teams, voir [Gérer Teams avec des stratégies](manage-teams-with-policies.md).
 
