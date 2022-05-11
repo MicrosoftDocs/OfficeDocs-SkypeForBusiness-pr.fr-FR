@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6361e9454f6df301c0fbf1c91e39158115f2300
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 4f156b287969303edbf195c0054b3bb1eb631db2
+ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817795"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65303996"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planifier le routage géodépendant pour le routage direct
 
@@ -38,7 +38,7 @@ Lorsque vous êtes prêt à activer Location-Based routage, consultez :
 > [!NOTE]
 > Vous ne devez pas utiliser Location-Based routage pour router dynamiquement les appels RTC en fonction de l’emplacement de l’utilisateur. Cela peut entraîner des résultats inattendus.
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
 Location-Based le routage vous permet de limiter le contournement des péages pour un utilisateur en fonction de la stratégie et de l’emplacement géographique de l’utilisateur au moment d’un appel RTC entrant ou sortant. 
 
@@ -169,11 +169,11 @@ Lorsqu’un utilisateur est activé pour Location-Based routage, les éléments 
 
   - La question de savoir si le transfert sera autorisé est basée sur les éléments suivants :
   
-    - Le Location-Based paramètres de routage de l’utilisateur recevant l’appel transféré.
+    - Le Location-Based paramètres de routage de l’utilisateur transféré vers PSTN.
     - Emplacement du site réseau du point de terminaison.
     - Indique si l’emplacement est activé pour le routage Location-Based.
 
-    Le transfert est autorisé si l’utilisateur qui reçoit l’appel transféré est en mesure d’effectuer cet appel RTC à son emplacement actuel à l’aide de la même passerelle RTC.
+    Le transfert est autorisé si l’utilisateur transféré est en mesure d’effectuer cet appel RTC à son emplacement actuel à l’aide de la même passerelle RTC.
 
 - **Pour un appel RTC entrant ou sortant et un transfert vers un autre utilisateur Teams**, l’autorisation du transfert dépend des éléments suivants :
 
@@ -299,15 +299,15 @@ Le tableau suivant indique si le transfert d’appel et les transferts d’appel
 
     - Si l’appelant est activé pour Location-Based routage, il ne peut être transféré qu’à une passerelle activée pour le routage Location-Based située sur le même site réseau.
  
-Le tableau suivant montre comment Location-Based routage affecte le routage d’un appel VOIP à partir d’User1 sur Site1 aux utilisateurs situés à différents emplacements qui transfèrent ou transfèrent l’appel à un point de terminaison RTC.  
+Le tableau suivant montre comment Location-Based routage affecte le routage d’un appel VOIP à partir de Location-Based Le routage activé user1 sur Site1 aux utilisateurs situés à différents emplacements qui transfèrent ou transfèrent l’appel à un point de terminaison RTC.  
 
-|L’utilisateur lance un transfert d’appel ou un transfert  |Transfert vers PSTN  |Transférer vers PSTN  |
-|---------|---------|---------|
-|Même site réseau, site activé pour le routage Location-Based (User2)   |Le transfert d’appels peut uniquement être routée via Location-Based passerelle 1 activée pour le routage sur Site1, en fonction de la stratégie de routage vocal de User2         |La redirection d’appel peut uniquement être routée via Location-Based passerelle 1 activée pour le routage sur Site1, en fonction de la stratégie de routage vocal de User2         |
-|Site réseau différent, site activé pour le routage Location-Based (User3)    |Le transfert d’appels peut uniquement être routée via Location-Based passerelle 1 activée pour le routage sur Site1, en fonction de la stratégie de routage vocal de User3         |Le transfert d’appel ne peut être routée que via Location-Based passerelle 1 activée pour le routage sur Site1, en fonction de la stratégie de routage vocal de User3         |
-|Site réseau différent, site non activé pour le routage Location-Based (User4)    |Le transfert d’appels peut uniquement être routée via Location-Based passerelle 1 activée pour le routage sur Site1, en fonction de la stratégie de routage vocal de User4         |La redirection d’appel peut uniquement être routée via Location-Based passerelle 1 activée pour le routage sur Site1, en fonction de la stratégie de routage vocal de l’utilisateur 4         |
-|Réseau interne inconnu (User5)     |Le transfert d’appel peut uniquement être routée via Location-Based passerelle 1 activée pour le routage sur Site1, en fonction de la stratégie de routage vocal de User5         |Le transfert d’appel peut uniquement être routée via Location-Based passerelle 1 activée pour le routage sur Site1, en fonction de la stratégie de routage vocal de User5         |
-|Réseau externe inconnu (User6)   |Le transfert d’appels peut uniquement être routée via Location-Based passerelle 1 activée pour le routage sur Site1, en fonction de la stratégie de routage vocal d’User6        |Le transfert d’appel ne peut être routée que via Location-Based passerelle 1 activée pour le routage sur Site1, en fonction de la stratégie de routage vocal d’User6         |
+|L’utilisateur lance un transfert d’appel ou un transfert  |Transfert ou transfert vers PSTN  |
+|---------|---------|
+|Même site réseau, site activé pour le routage Location-Based (User2)   |L’appel RTC résultant n’est autorisé que si l’itinéraire calculé basé sur la stratégie de routage vocal d’User2 aboutit à un itinéraire via Location-Based passerelle 1 activée pour le routage sur Site1         |
+|Site réseau différent, site activé pour le routage Location-Based (User3)    |L’appel RTC résultant n’est autorisé que si l’itinéraire calculé basé sur la stratégie de routage vocal d’User3 aboutit à un itinéraire via Location-Based passerelle 1 activée pour le routage sur Site1 |
+|Site réseau différent, site non activé pour le routage Location-Based (User4)    |L’appel RTC résultant n’est autorisé que si l’itinéraire calculé basé sur la stratégie de routage vocal user4 aboutit à un itinéraire via Location-Based passerelle 1 activée pour le routage sur Site1          |
+|Réseau interne inconnu (User5)     |L’appel RTC résultant n’est autorisé que si l’itinéraire calculé basé sur la stratégie de routage vocal user5 aboutit à un itinéraire via Location-Based passerelle 1 activée pour le routage sur Site1          |
+|Réseau externe inconnu (User6)   |L’appel RTC résultant n’est autorisé que si l’itinéraire calculé basé sur la stratégie de routage vocal user6 aboutit à un itinéraire via Location-Based passerelle 1 activée pour le routage sur Site1          |
 
 ### <a name="simultaneous-ringing"></a>Sonnerie simultanée
 
@@ -328,15 +328,15 @@ Le tableau suivant indique si Location-Based routage autorise la sonnerie simult
 
 #### <a name="simultaneous-ringing-to-a-pstn-endpoint"></a>Sonnerie simultanée vers un point de terminaison RTC
 
-Le tableau suivant montre Location-Based comportement de routage pour un appel VoIP entrant à partir d’User1 situé sur Site1 à des utilisateurs situés à différents emplacements avec un anneau simultané défini sur un numéro RTC. 
+Le tableau suivant montre Location-Based comportement de routage pour un appel VoIP entrant à partir de Location-Based Utilisateur1 activé pour le routage situé sur Site1 aux utilisateurs situés à différents emplacements avec un anneau simultané défini sur un numéro RTC. 
 
 |Emplacement du point de terminaison utilisateur appelé  |La cible d’anneau simultanée est un point de terminaison PSTN |
 |---------|---------|
-|Même site réseau, site activé pour le routage Location-Based (User2)    |L’appel peut uniquement être routée via Location-Based passerelle de routage1 sur Site1, en fonction de la stratégie de routage vocal de User2       |
-|Site réseau différent activé pour le routage Location-Based (User3)    |L’appel peut uniquement être routée via Location-Based Passerelle de routage1 sur Site1, en fonction de la stratégie de routage vocal de User3        |
-|Autre site réseau non activé pour le routage Location-Based (User4)    |L’appel peut uniquement être routée via Location-Based Passerelle de routage1 sur Site1, en fonction de la stratégie de routage vocal de User4         |
-|Réseau interne inconnu (User5)    |L’appel peut uniquement être routée via Location-Based passerelle de routage1 sur Site1, en fonction de la stratégie de routage vocal de User5         |
-|Réseau externe inconnu (User6)   |L’appel peut uniquement être routée via Location-Based passerelle de routage1 sur Site1, en fonction de la stratégie de routage vocal de User6         |
+|Même site réseau, site activé pour le routage Location-Based (User2)    |L’appel RTC résultant n’est autorisé que si l’itinéraire calculé basé sur la stratégie de routage vocal d’User2 aboutit à un itinéraire via Location-Based passerelle 1 activée pour le routage sur Site1        |
+|Site réseau différent activé pour le routage Location-Based (User3)    |L’appel RTC résultant n’est autorisé que si l’itinéraire calculé basé sur la stratégie de routage vocal d’User3 aboutit à un itinéraire via Location-Based passerelle 1 activée pour le routage sur Site1         |
+|Autre site réseau non activé pour le routage Location-Based (User4)    |L’appel RTC résultant n’est autorisé que si l’itinéraire calculé basé sur la stratégie de routage vocal user4 aboutit à un itinéraire via Location-Based passerelle 1 activée pour le routage sur Site1          |
+|Réseau interne inconnu (User5)    |L’appel RTC résultant n’est autorisé que si l’itinéraire calculé basé sur la stratégie de routage vocal user5 aboutit à un itinéraire via Location-Based passerelle 1 activée pour le routage sur Site1          |
+|Réseau externe inconnu (User6)   |L’appel RTC résultant n’est autorisé que si l’itinéraire calculé basé sur la stratégie de routage vocal user6 aboutit à un itinéraire via Location-Based passerelle 1 activée pour le routage sur Site1          |
 
 #### <a name="inbound-calls-through-voice-apps-auto-attendant-or-call-queue"></a>Appels entrants via des applications vocales (standard automatique ou file d’attente d’appels)
 
@@ -395,7 +395,7 @@ Dans une téléconférence lancée par un utilisateur sans licence d’audioconf
 
 Si l’utilisateur activé pour le routage Location-Based rejoint la téléconférence à partir d’un site interne qui n’est pas activé pour le routage Location-Based, les restrictions du paragraphe ci-dessus ne sont pas appliquées. 
 
-La conférence sur le réseau pour l’audioconférence ne doit PAS être déployée avec n’importe quel équipement de téléphonie en Inde.
+Les conférences sur le réseau pour Audioconférence ne doivent PAS être déployées avec des équipements de téléphonie en Inde.
 
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Configuration requise pour le contournement du média pour le routage Location-Based

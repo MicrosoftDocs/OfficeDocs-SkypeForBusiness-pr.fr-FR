@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Découvrez comment gérer l’application Compliment dans le Centre d’administration Microsoft Teams.
-ms.openlocfilehash: 16f59a8fbe0958a63f824762cfede020dbf54b8e
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 495000af61c2b5d48dfdc30fe3b013a4ca8b8811
+ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65136975"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65303986"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gérer l’application Compliment dans le Centre d’administration Microsoft Teams
 
@@ -35,6 +35,8 @@ Compliment est activé par défaut pour tous les utilisateurs Teams de votre org
 2. Dans la liste des applications, recherchez l’application Compliment, sélectionnez-la, puis basculez le bouton bascule **État** sur **Bloqué** ou **Autorisé**.
 
 N’oubliez pas que ce paramètre affecte à la fois l’application Compliment et la fonctionnalité de Compliment dans l’application Viva Insights dans Teams.
+
+Si vous définissez l’état sur Bloquer, l’application Compliment est bloquée en quelques minutes. Toutefois, les éloges dans Viva Insights peuvent prendre 7 à 9 jours pour être bloqués.
 
 ## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>Activer ou désactiver Compliment pour des utilisateurs spécifiques de votre organisation
 
