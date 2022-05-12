@@ -18,18 +18,18 @@ ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 00b8079a360dbec05b14f1487755e96bfc98b76f
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: a7d296e296b2f5a20b5d7d10da6e598a989f0d71
+ms.sourcegitcommit: cd4464fe9bf0f38ed4c3ca058a51bcd29578eef9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556515"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "65316500"
 ---
 # <a name="teams-update-process"></a>Processus de mise à jour de Teams
 
-L’application web Teams est mise à jour chaque semaine.
+Les mises à jour des applications Web Teams sont généralement publiées le 4e lundi de chaque mois.
 
-Les mises à jour du client de bureau Teams sont publiées toutes les deux semaines après des tests et validations internes rigoureux via notre programme d’adoption des technologies (TAP). La mise à jour a généralement lieu un mardi. Si une mise à jour critique est requise, Teams contourne ce planning et publie la mise à jour dès que celle-ci est disponible.
+Les mises à jour du client de bureau Teams sont publiées tous les mois après des tests et validations internes rigoureux via notre programme d’adoption des technologies (TAP). Les mises à jour des clients de bureau commencent généralement le 4e lundi du mois et sont déployées progressivement aux clients tout au long de la semaine. Si une mise à jour critique est requise, Teams contourne ce planning et publie la mise à jour dès que celle-ci est disponible.
 
 Le client de bureau se met à jour automatiquement. Teams recherche les mises à jour toutes les quelques heures en arrière-plan, les télécharge, puis attend que l’ordinateur soit inactif avant d’installer la mise à jour en mode silencieux.
 
