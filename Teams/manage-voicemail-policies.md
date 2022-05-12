@@ -22,158 +22,97 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Gérer les stratégies de messagerie vocale pour vos utilisateurs.
-ms.openlocfilehash: 275c67cef3a318d15f030f26aa50a74a15748c03
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3f4c64194fc9e2b24c59dc7bc06ed972e801a6a8
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604423"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370827"
 ---
 # <a name="setting-voicemail-policies-in-your-organization"></a>Configuration des stratégies de messagerie vocale pour votre organisation
 
 > [!WARNING]
-> Pour Skype Entreprise clients, la désactivation de la messagerie vocale via une stratégie d’appel Microsoft Teams peut également désactiver le service de messagerie vocale pour vos Skype Entreprise utilisateurs.
+> Pour Skype Entreprise clients, la désactivation de la messagerie vocale via une stratégie d’appel Microsoft Teams peut également désactiver le service de messagerie vocale pour vos utilisateurs Skype Entreprise.
 
-## <a name="voicemail-organization-defaults-for-all-users"></a>Paramètres par défaut de l’organisation de messagerie vocale pour tous les utilisateurs
-- La transcription de messages vocaux est activée.
-- Le masquage de la transcription de messages vocaux est désactivé.
-- La durée maximale de l’enregistrement est définie sur cinq minutes.
+Vous pouvez utiliser des stratégies de messagerie vocale pour contrôler différentes fonctionnalités liées à Messagerie vocale infonuagique.
 
-Vous pouvez contrôler ces valeurs par défaut à l’aide des cmdlets [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) et [Grant-CsOnlineVoicemailPolicy.](/powershell/module/skype/Get-CsOnlineVoicemailPolicy)
+## <a name="voicemail-organization-defaults-for-all-users"></a>Valeurs par défaut de l’organisation de messagerie vocale pour tous les utilisateurs
+- La transcription de la messagerie vocale est activée.
+- La traduction de transcription de la messagerie vocale est activée.
+- Le masquage des vulgarités de transcription de la messagerie vocale est désactivé.
+- La durée maximale d’enregistrement est définie sur cinq minutes.
+- La modification des règles de réponse aux appels est activée.
+- Les langues d’invite du système principal et secondaire sont définies sur null et le paramètre de langue de messagerie vocale de l’utilisateur est utilisé.
 
-Les messages vocaux reçus par des utilisateurs de votre organisation sont transcrits dans la région d’Microsoft 365 ou Office 365 de votre organisation. La région dans laquelle votre client est hébergé peut ne pas être la même que la région où se trouve l’utilisateur qui reçoit le message vocal. Pour afficher la région dans laquelle votre client est hébergé, allez sur la [page](https://go.microsoft.com/fwlink/p/?linkid=2067339) de profil de l’organisation, puis cliquez sur Afficher les **détails** en regard de **l’emplacement des données.**
+Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) qui est créée automatiquement ou créer et affecter des stratégies personnalisées.
+
+## <a name="create-a-custom-voicemail-policy"></a>Créer une stratégie de messagerie vocale personnalisée
+
+Suivez ces étapes pour créer une stratégie de messagerie vocale personnalisée.
+
+1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez aux stratégies **VoiceVoicemail** > .
+2. Sélectionnez **Ajouter**.
+3. Activez ou désactivez les fonctionnalités que vous souhaitez utiliser dans votre stratégie de messagerie vocale.
+4. Sélectionnez **Enregistrer**.
+
+## <a name="edit-a-voicemail-policy"></a>Modifier une stratégie de messagerie vocale
+
+Suivez ces étapes pour modifier une stratégie de messagerie vocale existante.
+
+1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, sélectionnez **Stratégies** **VoiceVoicemail** > .
+2. Cliquez en regard de la stratégie à modifier, puis **sélectionnez Modifier**.
+3. Apportez les modifications souhaitées, puis cliquez sur **Enregistrer**.
 
 > [!IMPORTANT]
-> Vous ne pouvez pas créer une instance de stratégie pour la transcription ou la transcription avec une erreur de transcription à l’aide de l’cmdlet **New-CsOnlineVoiceMailPolicy,** et vous ne pouvez pas supprimer une instance de stratégie existante à l’aide de l’cmdlet **Remove-CsOnlineVoiceMailPolicy.**
-
-Vous pouvez régler les paramètres pour vos utilisateurs qui utilisent des stratégies relatives aux messages vocaux. Pour voir toutes les stratégies de messagerie vocale disponibles, vous pouvez utiliser l’cmdlet [Get-CsOnlineVoicemailPolicy.](/powershell/module/skype/Get-CsOnlineVoicemailPolicy)
-
-```PowerShell
-PS C:\> Get-CsOnlineVoicemailPolicy
+> Vous ne pouvez pas modifier ou supprimer les instances de stratégie préconfigurées appelées TranscriptionDisabled et TranscriptionProfanityMaskingEnabled.
 
 
-Identity                            : Global
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
+## <a name="assign-a-custom-voicemail-policy-to-users"></a>Affecter une stratégie de messagerie vocale personnalisée aux utilisateurs
 
-Identity                            : Tag:Default
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-Identity                            : Tag:TranscriptionProfanityMaskingEnabled
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : True
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-
-Identity                            : Tag:TranscriptionDisabled
-EnableTranscription                 : False
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-```
+## <a name="voicemail-policy-settings"></a>Paramètres de stratégie de messagerie vocale
   
-## <a name="turning-off-transcription-for-your-organization"></a>Désactivation de la transcription pour votre organisation
+### <a name="enable-transcription"></a>Activer la transcription
 
-Étant donné que le paramètre par défaut pour la transcription est pour votre organisation, vous souhaitez peut-être le désactiver à l’aide de [Set-CsOnlineVoicemailPolicy.](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) Pour ce faire, exécutez :
+Ce paramètre contrôle si le service Messagerie vocale infonuagique génère une transcipation de texte de la messagerie vocale enregistrée et l’inclut dans le message vocal. La transcription sera effectuée en fonction de la langue détectée dans la messagerie vocale enregistrée.
 
-```PowerShell
-Set-CsOnlineVoicemailPolicy -EnableTranscription $false
-```
+### <a name="transcription-translation"></a>Traduction de transcription
 
-## <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>Activer le masquage de transcription pour votre organisation
+Ce paramètre détermine si le service Messagerie vocale infonuagique traduit la transcription de la messagerie vocale enregistrée. La traduction sera tentée dans la langue préférée du récepteur de messagerie vocale.
 
-Le masquage de la transcription est désactivé par défaut pour votre organisation. S’il existe une exigence de l’entreprise pour l’activer, vous pouvez activer le masquage de la transcription à l’aide de [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). Pour ce faire, exécutez :
+### <a name="transcription-profanity-masking"></a>Masquage des vulgarités de transcription
 
-```PowerShell
-Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
-```
+Ce paramètre détermine si le service Messagerie vocale infonuagique masque les grossièretés trouvées dans la transcription de la messagerie vocale.
 
-## <a name="changing-the-recording-duration-for-your-organization"></a>Modification de la durée d’enregistrement pour votre organisation
+### <a name="maximum-recording-duration"></a>Durée maximale d’enregistrement
 
-La durée maximale d’enregistrement est définie par défaut sur cinq minutes pour votre organisation. S’il est impératif pour l’entreprise d’augmenter ou de diminuer la durée maximale d’enregistrement, vous pouvez le faire à l’aide de [Set-CsOnlineVoicemailPolicy.](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) Par exemple, pour définir la durée maximale d’enregistrement à 60 secondes, exécutez :
+La longueur maximale d’enregistrement contrôle la durée maximale d’enregistrement d’une messagerie vocale. La valeur par défaut est 5 minutes.
 
-```PowerShell
-Set-CsOnlineVoicemailPolicy -MaximumRecordingLength ([TimeSpan]::FromSeconds(60))
-```
+### <a name="call-answering-rules"></a>Règles de réponse aux appels
 
-## <a name="dual-language-system-prompts-for-your-organization"></a>Invites système en deux langues pour votre organisation
+Ce paramètre détermine si l’utilisateur est autorisé à configurer des règles de réponse aux appels vocaux dans Microsoft Teams.
 
-Par défaut, les invites du système de messagerie vocale sont présentées aux appelants dans la langue sélectionnée par l’utilisateur lors de la configuration de leur messagerie vocale. Si l’entreprise a besoin que les invites du système de messagerie vocale soient présentées dans deux langues, vous pouvez le faire à l’aide de [Set-CsOnlineVoicemailPolicy.](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) Une langue principale et une langue secondaire doivent être définies et peuvent ne pas être identiques. Pour ce faire, exécutez :
+### <a name="dual-language-system-prompts"></a>Invites du système de double langage
 
-```PowerShell
-Set-CsOnlineVoicemailPolicy -PrimarySystemPromptLanguage en-US -SecondarySystemPromptLanguage es-ES
-```
+Par défaut, les invites du système de messagerie vocale sont présentées aux appelants dans la langue sélectionnée par l’utilisateur lors de la configuration de leur messagerie vocale. Si l’entreprise exige que les invites du système de messagerie vocale soient présentées dans deux langues, une langue primaire et une langue secondaire peuvent être définies et elles peuvent ne pas être les mêmes.
 
-## <a name="turning-off-transcription-for-a-user"></a>Désactivation de la transcription pour un utilisateur
+### <a name="share-data-for-service-improvements"></a>Partager des données pour améliorer le service
 
-Les stratégies utilisateur sont évaluées avant les paramètres organisationnels par défaut. Par exemple, si la transcription de messages vocaux est activée pour tous vos utilisateurs, vous pouvez affecter une stratégie pour désactiver la transcription pour un utilisateur spécifique à l’aide de l’cmdlet [Grant-CsOnlineVoicemailPolicy.](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy)
-
-Pour désactiver la transcription pour un utilisateur unique, exécutez :
-
-```PowerShell
-Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:amosmar@contoso.com
-```
-
-## <a name="turning-on-transcription-profanity-masking-for-a-user"></a>Activer le masquage de transcription pour un utilisateur
-
-Pour activer le masquage de la transcription pour un utilisateur spécifique, vous pouvez attribuer une stratégie permettant d'activer le masquage de la transcription pour un utilisateur spécifique à l'aide de l’applet de commande [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy).
-
-Pour activer le masquage de la transcription pour un seul utilisateur, exécutez :
-
-```PowerShell
-Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -Identity sip:amosmar@contoso.com
-```
-
-## <a name="changing-the-recording-duration-for-a-user"></a>Modification de la durée d’enregistrement d’un utilisateur
-
-Vous devez d’abord créer une stratégie de messagerie vocale personnalisée à l’aide de l’cmdlet [New-CsOnlineVoicemailPolicy.](/powershell/module/skype/New-CsOnlineVoicemailPolicy) La commande ci-dessous crée une stratégie de messagerie vocale en ligne par utilisateur avec MaximumRecordingLength définie sur 60 secondes et d’autres champs définies sur la valeur globale au niveau du client.
-
-```PowerShell
-New-CsOnlineVoicemailPolicy -Identity "OneMinuteVoicemailPolicy" -MaximumRecordingLength ([TimeSpan]::FromSeconds(60))
-```
-
-Pour affecter cette stratégie personnalisée à un utilisateur, exécutez : 
-
-```PowerShell
-Grant-CsOnlineVoicemailPolicy -PolicyName OneMinuteVoicemailPolicy -Identity sip:amosmar@contoso.com
-```
-
-## <a name="dual-language-system-prompts-for-a-user"></a>Invites système en deux langues pour un utilisateur
-
-Vous devez d’abord créer une stratégie de messagerie vocale personnalisée à l’aide de l’cmdlet [New-CsOnlineVoicemailPolicy.](/powershell/module/skype/New-CsOnlineVoicemailPolicy) La commande ci-dessous crée une stratégie de messagerie vocale en ligne per-user enUS-esSP-VoicemailPolicy avec PrimarySystemPromptLanguage set to en-US (English - United States) et le SecondarySystemPromptLanguage set to es-SP (Spanish - Spain).
-
-```PowerShell
-New-CsOnlineVoicemailPolicy -Identity "enUS-esES-VoicemailPolicy" -PrimarySystemPromptLanguage en-US -SecondarySystemPromptLanguage es-ES
-```
-
-Pour affecter cette stratégie personnalisée à un utilisateur, exécutez : 
-
-```PowerShell
-Grant-CsOnlineVoicemailPolicy -PolicyName "enUS-esES-VoicemailPolicy" -Identity sip:amosmar@contoso.com
-```
-
-> [!NOTE]
-> La Get-CsOnlineVoicemailPolicy cmdlet ne retourne pas actuellement les valeurs de PrimarySystemPromptLanguage et SecondarySystemPromptLanguage. Pour que ces valeurs modifient la commande comme suit :
->
-> >```PowerShell
-> > (Get-CsOnlineVoicemailPolicy -Identity PolicyName).PrimarySystemPromptLanguage or
-> > (Get-CsOnlineVoicemailPolicy -Identity PolicyName).SecondarySystemPromptLanguage 
->
-> Remplacez **PolicyName** par le nom de la stratégie.
+Spécifie si les données de messagerie vocale et de transcription sont partagées avec le service pour l’entraînement et l’amélioration de la précision. Si la valeur est false, les données de messagerie vocale ne sont pas partagées, quel que soit le choix de l’utilisateur.
 
 
 > [!IMPORTANT]
-> Le service de messagerie vocale Microsoft 365 et Office 365 cache les stratégies de messagerie vocale et met à jour le cache toutes les 6 heures. Ainsi, jusqu’à 6 heures peuvent être nécessaires pour que les modifications de stratégies soient appliquées.
+> Le service de messagerie vocale dans Microsoft 365 et Office 365 met en cache les stratégies de messagerie vocale et met à jour le cache toutes les 6 heures. Par conséquent, l’application des modifications de stratégie que vous apportez peut prendre jusqu’à 6 heures.
+
+## <a name="related-articles"></a>Articles connexes
+
+[New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy)
+
+[Set-CsOnlineVoicemailPolicy](/powershell/module/skype/set-csonlinevoicemailpolicy)
+
+[Get-CsOnlineVoicemailPolicy](/powershell/module/skype/get-csonlinevoicemailpolicy)
+
+[Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/grant-csonlinevoicemailpolicy)
+
+[Remove-CsOnlineVoicemailPolicy](/powershell/module/skype/remove-csonlinevoicemailpolicy)

@@ -22,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Découvrez comment activer ou désactiver la fonctionnalité d'accès invité dans Microsoft Teams en tant qu'administrateur d'Office 365.
-ms.openlocfilehash: 1658ef97dd172209a965088caa2842a71e09e4e7
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 935fac44863ef2c3da4a9fc4f07fcd7e34265024
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839195"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370807"
 ---
 # <a name="turn-guest-access-in-microsoft-teams-on-or-off"></a>Activer ou désactiver l’accès invité dans Microsoft Teams
 
@@ -60,6 +60,7 @@ Cet article explique comment configurer les paramètres d’accès invité , not
       - **Meet Now** : activez **ce paramètre pour** permettre aux invités d’utiliser la fonctionnalité Meet Now dans Microsoft Teams.
       - **Modifier les messages envoyés** : mettre ce paramètre sur **On** pour permettre aux invités de modifier les messages électroniques qu’ils ont envoyés précédemment.
       - **Supprimer les messages envoyés** : activez **ce paramètre pour** permettre aux invités de supprimer les messages qu’ils ont envoyés précédemment.
+      - **Supprimer la conversation** : activez **ce paramètre pour** permettre aux invités de supprimer une conversation de conversation entière.
       - **Conversation** : mettre ce paramètre sur **On** pour donner aux invités la possibilité d’utiliser la conversation dans Teams.
       - **Giphy dans les conversations** : activez **ce paramètre pour** permettre aux invités d’utiliser Giphys dans les conversations. Giphy est une base de données en ligne et moteur de recherche qui permet aux utilisateurs de rechercher et partager des fichiers GIF animés. Chaque Giphy est affecté à une évaluation du contenu.
       - **Évaluation du contenu Giphy** : sélectionner une note dans la liste déroulante :
