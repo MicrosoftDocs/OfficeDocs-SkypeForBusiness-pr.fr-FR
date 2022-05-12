@@ -21,29 +21,29 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams afin de produire les meilleurs résultats.
-ms.openlocfilehash: 6a17faead9926ea6a7a7475eb867804d974f700e
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: e5588662279a1eda0728b57553d0e0a4a473e2da
+ms.sourcegitcommit: 73df40ce6fbd1d305fd381140f293a2feb0d27bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65217938"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "65359784"
 ---
-# <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams appareils Android certifiés
+# <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams des appareils Android certifiés
 
 Le programme de certification des appareils Microsoft Teams garantit que les appareils certifiés répondent à une norme élevée, avec des objectifs de performances et des métriques de qualité plus élevés sur l’ensemble de l’expérience Teams (audio, vidéo, interface utilisateur). Les partenaires Microsoft et OEM travaillent activement ensemble pour s’assurer que les appareils répondent à toutes les exigences de certification, notamment la sécurité, la qualité audio et vidéo, l’expérience Teams et l’accessibilité.
 
-Les programmes de certification sont conçus pour garantir que tous les appareils certifiés exécutent une version Android avec les fonctionnalités requises définies pour Teams et Teams centre d’administration. Les dates de fin de certification sont basées sur la version du système d’exploitation Android exécutée sur l’appareil lorsqu’il entre dans le programme de certification. Nos partenaires OEM s’efforcent d’étendre la durée de vie de la certification en mettant à niveau la version du système d’exploitation Android et en recertifiant, ou en publiant de nouveaux modèles à la fine pointe de la technique.
+Les programmes de certification sont conçus pour garantir que tous les appareils certifiés exécutent une version Android avec les fonctionnalités requises définies pour Teams et Teams centre d’administration. Les dates de fin de la certification sont basées sur la version du système d’exploitation Android s’exécutant sur l’appareil lorsqu’il entre dans le programme de certification. Nos partenaires OEM s’efforcent d’étendre la durée de vie de la certification en mettant à niveau la version du système d’exploitation Android et en recertifiant, ou en publiant de nouveaux modèles de pointe.
 
 Au-delà de la période de certification, Microsoft s’engage à prendre en charge la version la plus récente du client Teams sur ces appareils pendant deux ans après la fin de la période de certification.
 
 >[!NOTE]
->Les dates de fin de certification seront mises à jour régulièrement en fonction des plans des partenaires OEM pour effectuer une mise à niveau vers une version plus récente du système d’exploitation Android.
+>Les dates de fin de la certification seront régulièrement mises à jour en fonction des plans des partenaires OEM pour effectuer une mise à niveau vers une version plus récente Android système d’exploitation.
 
 ## <a name="certified-teams-phones"></a>Téléphones Teams certifiés
 
 Les appareils suivants sont certifiés dans le cadre du programme de certification des téléphones Microsoft Teams :
 
-|Modèle d’appareil    | Version du microprogramme    | Date de fin de la certification actuelle | Version du système d’exploitation Android                               |
+|Modèle d’appareil    | Version du microprogramme    | Date de fin de la certification actuelle | Android version du système d’exploitation                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
 | Yealink CP965    | `143.15.0.7 `          | 3 septembre 2025     | 11 |
 | AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 22 avril 2022               | 7.1x |
@@ -68,9 +68,9 @@ Les appareils suivants sont certifiés dans le cadre du programme de certificati
 
 ## <a name="certified-teams-rooms-on-android"></a>Salles Teams certifiés sur Android
 
-Les appareils suivants sont certifiés dans le cadre du Salles Microsoft Teams sur le programme de certification Android :
+Les appareils suivants sont certifiés dans le cadre du Salles Microsoft Teams sur Android Programme de certification :
 
-| Modèle d’appareil | Version du microprogramme | Date de fin de la certification actuelle | Taille de la salle                                        |  Version du système d’exploitation Android    |
+| Modèle d’appareil | Version du microprogramme | Date de fin de la certification actuelle | Taille de la salle                                        |  Android version du système d’exploitation    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
 | Barre ordonnée | `NFB1.20220211.1400` |3 septembre 2024|    Petite Salle de réunion (4,5 m x 4,5 m) | 10 |
 | Console tactile Neat Pad | `NFA1.20220211.1400`  | 5 août 2023 |  Compatible avec Neat Bar uniquement | 9 |
@@ -80,8 +80,8 @@ Les appareils suivants sont certifiés dans le cadre du Salles Microsoft Teams s
 | Appareil Logitech Tap     | `1.2.982`  |   3 septembre 2024  | Compatible avec Logitech Rally Bar et Rally Bar Mini | 10 |
 | Logitech Rally Bar Mini | `1.2.982`     |   3 septembre 2024  |    Petite Salle de réunion (4,5 m x 4,5 m) | 10 |
 | Logitech Rally Bar      | `1.2.788`     |   3 septembre 2024  |    Pièce de taille moyenne (4,5 m x 6 m)       | 10 |
-| AudioCodes RXV80 | `1.9.155`        |   5 août 2023  | Salle de focus(3m x 3m) </br> Petite salle de réunion (4,5 m x 4,5 m) | 9 |
-| EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 5 août 2023 | Salle de focus(3m x 3m) </br> Petite salle de réunion (4,5 m x 4,5 m) | 9 |
+| AudioCodes RXV80 | `1.9.155`        |   5 août 2023  | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) | 9 |
+| EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 5 août 2023 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) | 9 |
 | Yealink MeetingBar A30       | `133.15.0.52`    | 5 août 2023   | Pièce de taille moyenne (4,5 m x 6 m) | 9 |
 | Console tactile Yealink CTP18  | `137.15.0.28`    | 5 août 2023   | Compatible avec Yealink MeetingBar A20 et Yealink MeetingBar A30 | 9 |
 | Yealink MeetingBar A20  | `133.15.0.19`      | 5 août 2023 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) | 9 |
@@ -92,16 +92,16 @@ Les appareils suivants sont certifiés dans le cadre du Salles Microsoft Teams s
 
 ## <a name="certified-teams-displays"></a>Affichages de Teams certifiés
 
-Les appareils suivants sont certifiés dans le cadre du programme de certification Android Microsoft Teams :
+Les appareils suivants sont certifiés dans le cadre du programme de certification Microsoft Teams Affiche Android :
 
-| Modèle d’appareil | Version du microprogramme | Date de fin de la certification actuelle  | Version du système d’exploitation Android |
+| Modèle d’appareil | Version du microprogramme | Date de fin de la certification actuelle  | Android version du système d’exploitation |
 |:------------------------|:-----------------|:--------------|----------------------------------|
 |Lenovo ThinkSmart View|`CD-18781Y.201006.099`| 5 décembre 2022 |  8.1  |
 
 ## <a name="certified-teams-panels"></a>Panneaux de Teams certifiés
 Les appareils suivants sont certifiés dans le cadre du programme de certification des panneaux Microsoft Teams :
 
-| Modèle d’appareil| Version du microprogramme | Date de fin de la certification actuelle | Version du système d’exploitation Android |                                         
+| Modèle d’appareil| Version du microprogramme | Date de fin de la certification actuelle | Android version du système d’exploitation |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
 |Panneau pad soigné    | `NFA1.20220211.1400` | 5 août 2023 | 9 |
 |Crestron TSS-770 | `1.003.0082` |5 décembre 2022  | 8.1 |
@@ -218,9 +218,9 @@ Pour plus d’informations sur les fonctionnalités prises en charge par ces app
 
 Voir [Microsoft Teams s’affiche](teams-displays.md).
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Informations de publication du produit pour salles Teams sur Android
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Informations de mise en production du produit pour salles Teams sur Android
 
-Voici les dernières salles Teams sur les versions d’application et de microprogramme Android.
+Voici les dernières salles Teams sur Android versions d’application et de microprogramme.
 
 #### <a name="app-versions"></a>Versions d’application
 
@@ -241,6 +241,7 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version du produit incluse |
 |:--------------|:-----------------|:-------------------------|
+| Logi En coloc |   `1.6.290`   | Mise à jour 2022 #1    |
 | Logi Rallybar Mini   |   `1.6.272`   | Mise à jour 2022 #1  |
 | Logi Rallybar    |   `1.6.272`   | Mise à jour 2022 #1   |
 | Logi En coloc |   `1.5.705`   | Mise à jour 2022 #1    |
