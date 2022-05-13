@@ -11,14 +11,14 @@ metadata:
   author: lanachin
   ms.author: v-lanac
   ms.date: 06/23/2020
-  ms.openlocfilehash: b4ebe6851e6ee92d5b43fd781a3111fd015ba062
-  ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+  ms.openlocfilehash: feaab2b9acf9fa7d76ae564233930a00fb243006
+  ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 09/30/2021
-  ms.locfileid: "60014898"
+  ms.lasthandoff: 05/13/2022
+  ms.locfileid: "65393728"
 landingContent:
-- title: À propos Skype Entreprise Server 2015
+- title: À propos de Skype Entreprise Server 2015
   linkLists:
   - linkListType: overview
     links:
@@ -30,10 +30,6 @@ landingContent:
       url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
     - text: Diagrammes techniques
       url: ./technical-diagrams.md
-  - linkListType: download
-    links:
-    - text: Téléchargez-le maintenant !
-      url: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server
 - title: Planification
   linkLists:
   - linkListType: overview
@@ -44,7 +40,7 @@ landingContent:
       url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
     - text: Planifier les clients et les appareils
       url: ./plan-your-deployment/clients-and-devices/clients-and-devices.md
-    - text: Planifier votre solution Voix Entreprise de projet
+    - text: Planifier votre solution Voix Entreprise
       url: ./plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md
 - title: Installer et gérer
   linkLists:
@@ -58,17 +54,17 @@ landingContent:
       url: ./deploy/upgrade-to-skype-for-business-server.md
     - text: Déploiement de Voix Entreprise
       url: ./deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
-    - text: Configurer votre déploiement local pour la diffusion Réunion Skype local
+    - text: Configurer votre déploiement local pour Réunion Skype Diffusion
       url: ./deploy/configure-skype-meeting-broadcast.md
   - linkListType: how-to-guide
     links:
-    - text: Gérer les Skype Entreprise Server
+    - text: Gérer Skype Entreprise Server
       url: ./manage/manage.md
 - title: Autres ressources
   linkLists:
   - linkListType: overview
     links:
-    - text: Skype Entreprise Server 2019
+    - text: documentation Skype Entreprise Server 2019
       url: ../SfBServer2019/skype-for-business-server-2019.yml
     - text: Documentation Lync Server 2013
       url: /lyncserver/microsoft-lync-server-2013

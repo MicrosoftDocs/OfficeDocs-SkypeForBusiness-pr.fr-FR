@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d80006e46598d03dd8defffe7baf4ada17415fe2
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 1f08ddd68d036d18e4ea18073dd0711e32e0c91e
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187110"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393868"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurer la connexion parente dans Microsoft Teams pour l'éducation
 
@@ -75,27 +75,37 @@ La connexion parents permet aux enseignants et aux tuteurs de discuter, d’envo
   - Exécution du processus DFA au [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
   - Ouverture d’un ticket au [support technique](https://aka.ms/sdssupport).
 
-- Actuellement, SDS prend uniquement en charge l’ingestion de données basée sur CSV pour les contacts parents ; Toutefois, vous pouvez utiliser [PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) ou [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) pour toutes les données de liste de présence, et simplement ajouter des contacts parents à l’aide de CSV.
+- Actuellement, SDS prend uniquement en charge l’ingestion de données basée sur CSV pour les contacts parents. Toutefois, vous pouvez utiliser [PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) ou [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) pour toutes les données de liste de présence, et simplement ajouter des contacts parents à l’aide de CSV.
   - Créez un deuxième profil de synchronisation à l’aide du [format de synchronisation CSV SDS v1](/schooldatasync/school-data-sync-format-csv-files-for-sds).
   - Extrayez les deux [fichiers parents](/schooldatasync/parent-contact-sync-file-format) remplis avec le reste des fichiers v1 vides (uniquement les en-têtes).
     - User.csv
     - Guardianrelationship.csv
   - Pour afficher un exemple d’ensemble des fichiers CSV v1, consultez les [fichiers GitHub attributs requis minimum](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
   - Si vous souhaitez automatiser l’extraction des fichiers CSV après la synchronisation initiale, lisez notre [document CSV File Sync Automation](/schooldatasync/csv-file-sync-automation).
-  - Pour obtenir de l’aide sur la configuration de votre synchronisation des données SDS, contactez [notre équipe de réussite ou](https://www.microsoft.com/fasttrack?rtc=1) [ouvrez un ticket de support](https://edusupport.microsoft.com/support?product_id=data_sync).
+  - Pour obtenir de l’aide sur la configuration de votre SDS synchronisation des données, contactez [notre équipe de réussite ou](https://www.microsoft.com/fasttrack?rtc=1) [ouvrez un ticket de support](https://edusupport.microsoft.com/support?product_id=data_sync).
 
-### <a name="teams-admin-center---policies"></a>Centre d’administration Teams - Stratégies
+### <a name="teams-admin-center-policies"></a>Teams stratégies du Centre d’administration
 
 - Les propriétaires d’équipe de classe doivent avoir Teams conversation activée.
 - Les propriétaires d’équipe de classe doivent disposer d’un accès externe avec **Teams comptes non gérés par une organisation** activés.
-  - Cette option doit être activée au niveau du locataire et de l’utilisateur. Le paramètre de niveau client se trouve dans **Utilisateurs > Accès externe** dans le centre d’administration Teams. Ce paramètre est également accessible via PowerShell. Les stratégies d’accès externe au niveau de l’utilisateur sont accessibles uniquement via PowerShell. Pour plus d’informations, consultez les commandes PowerShell ci-dessous.
+  - Cette option doit être activée au niveau du locataire et de l’utilisateur. Le paramètre de niveau client se trouve dans **Users > External Access** dans le centre d’administration Teams. Ce paramètre est également accessible via PowerShell. Les stratégies d’accès externe au niveau de l’utilisateur sont accessibles uniquement via PowerShell. Pour plus d’informations, consultez les commandes PowerShell ci-dessous.
 
-> [!NOTE]
->Les parents et les tuteurs sont classés en tant qu’utilisateurs externes dans la fonctionnalité Parents, ce qui signifie qu’ils n’ont pas de droits de locataire complets. Ils ont uniquement accès à la conversation ou aux conversations aux laquelle ils sont ajoutés, ainsi qu’aux fichiers, images et autres contenus partagés dans la conversation.
->
->En outre, les utilisateurs externes peuvent voir la présence (hors connexion, disponible, occupée, etc.) des utilisateurs de votre organisation, mais cela peut être désactivé à l’aide de PowerShell pour protéger la confidentialité des utilisateurs. Dans PowerShell, utilisez [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) et définissez ``EnablePrivacyMode=true``.
->
->Même si les parents et les tuteurs sont des utilisateurs externes, leurs contributions aux conversations sont détectables. Découvrez comment effectuer une enquête Teams eDiscovery en lisant [Effectuer une enquête eDiscovery sur le contenu dans Microsoft Teams](ediscovery-investigation.md).
+#### <a name="parent-and-guardian-restrictions"></a>Restrictions relatives aux parents et aux tuteurs
+Les parents et les tuteurs sont classés en tant qu’utilisateurs externes dans la connexion parents, ce qui signifie qu’ils n’ont pas de droits de locataire complets. Ils ont uniquement accès à la conversation ou aux conversations aux laquelle ils sont ajoutés, ainsi qu’aux fichiers, images et autres contenus partagés dans la conversation.
+
+En outre, les utilisateurs externes peuvent voir la présence (hors connexion, disponible, occupée, etc.) des utilisateurs de votre organisation, mais cela peut être désactivé à l’aide de PowerShell pour protéger la confidentialité des utilisateurs. Dans PowerShell, utilisez [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) et définissez ``EnablePrivacyMode=true``.
+
+Même si les parents et les tuteurs sont des utilisateurs externes, leurs contributions aux conversations sont détectables. Découvrez comment effectuer une enquête Teams eDiscovery en lisant [Effectuer une enquête eDiscovery sur le contenu dans Microsoft Teams](ediscovery-investigation.md).
+
+#### <a name="blocking-a-parent-or-guardian-in-a-chat"></a>Blocage d’un parent ou d’un tuteur dans une conversation
+Les enseignants peuvent bloquer un tuteur dans la conversation initiée dans la connexion parente.
+
+Le propriétaire de la classe peut :
+
+1. Ouvrez la carte de profil du tuteur, sélectionnez l’ellipse et **Bloquer l’utilisateur**. 
+2. Ensuite, supprimez le tuteur de la conversation. 
+
+L’utilisateur bloqué ne pourra pas démarrer des conversations supplémentaires avec le propriétaire de la classe.
 
 ## <a name="allow-external-access-with-teams-accounts-not-managed-by-an-organization"></a>Autoriser l’accès externe avec des comptes Teams non gérés par une organisation
 
