@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 776f0f31d54788fbffd86bbcbedd44e30ada28a3
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 29a632efc433a14d578eff80fdeb74a6f167dfc3
+ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65186970"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65400230"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Application Walkie Talkie dans Microsoft Teams
 
@@ -31,11 +31,14 @@ L’application Walkie Talkie dans Teams fournit une communication push-to-talk 
 
 Avec Walkie Talkie dans Teams, les travailleurs de première ligne peuvent désormais communiquer en toute sécurité avec une expérience PTT familière sans avoir à transporter des radios volumineuses, et Walkie Talkie fonctionne n’importe où avec la connectivité Internet WiFi ou cellulaire.
 
+> [!NOTE]
+> Walkie Talkie n’est actuellement pas disponible en Chine.
+
 ## <a name="getting-started"></a>Prise en main
 
 ### <a name="deploying-walkie-talkie"></a>Déploiement de Walkie Talkie
 
-Walkie Talkie est pris en charge sur les appareils Android avec les appareils Google Mobile Services (GMS) et iOS.
+Walkie Talkie est pris en charge sur les appareils Android avec Google Mobile Services (GMS) et les appareils iOS.
 
 ### <a name="pin-walkie-talkie-to-teams"></a>Épingler Walkie Talkie à Teams
 
@@ -98,7 +101,7 @@ L’application Walkie Talkie est incluse dans toutes les licences payantes de T
 
 ## <a name="further-information"></a>Plus d’informations
 
-- ITAdmins peut contrôler qui utilise Walkie Talkie via les stratégies d’application.
+- Les administrateurs informatiques peuvent contrôler qui utilise Walkie Talkie via les stratégies d’application.
 - Si votre employé de première ligne utilise des données mobiles pour communiquer via Teams, Walkie Talkie utilise la même méthode.
 - Walkie Talkie doit bien fonctionner dans les situations de faible bande passante, ou les situations où votre smartphone est connecté et fonctionne. Walkie Talkie ne fonctionnera pas quand il n’y a aucune connectivité du tout.
 
