@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3a488d026a0879da29a448381e1f2b800a2d9504
-ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
+ms.openlocfilehash: 94d59c27841e873c4e178a1b5c0d09df6942c1fc
+ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65294105"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65400240"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -124,9 +124,9 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 |------------|---------------|
 |Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 1000, inclut GCC, GCCH et DoD, mais pas A1 (300). **La fonction de visualisation** permet à un maximum de 20 000 participants en mode écoute de se joindre à une réunion pour laquelle l'organisateur dispose d'une licence pour E3/E5/A3/A5 SKU, ainsi que pour les gouvernements (GCC, GCC High, DoD). L’expérience d’affichage en lecture seule sera bientôt disponible pour les webinaires. En savoir plus sur l'[Expérience d’affichage seul](view-only-meeting-experience.md).<sup>1,2</sup>.|
 |Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
-|Nombre d’appels actifs simultanés | 4 |
-|Taille maximale des fichiers PowerPoint | 2 Go|
+|Taille maximale des fichiers PowerPoint | 2 Go|
 |Teams garde les [enregistrements de réunions](cloud-recording.md) non chargés dans Microsoft Stream, disponibles en téléchargement local | 20 jours |
+| Durée maximale de l’enregistrement de la réunion | 4 heures ou 1,5 Go. Lorsque cette limite est atteinte, l’enregistrement se termine et redémarre automatiquement.
   
 <sup>1</sup> Pour une expérience optimale dans les réunions de grande taille, les webinaires et les événements en direct, Microsoft recommande d’utiliser la dernière version du client de bureau Teams ou des clients mobiles Teams.
 
