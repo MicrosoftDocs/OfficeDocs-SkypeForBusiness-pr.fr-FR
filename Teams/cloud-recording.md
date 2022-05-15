@@ -19,12 +19,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aab8f71ec8c9eb5ad1e984a68985a8a425e21f16
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 72ad8b9349681dbb10c3df848f99cc0250711543
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922665"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370817"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -147,8 +147,9 @@ Ce paramètre détermine si les fonctionnalités de légende et de transcription
   
 L’activation de ce paramètre crée une copie de la transcription stockée avec l’enregistrement de la réunion, ce qui active **Recherche**, **CC** et **Transcriptions** sur l’enregistrement de réunion.
 
+
 > [!NOTE]
-> Cette transcription pour les réunions enregistrées n'est actuellement prise en charge que pour l'anglais (États-Unis), l'anglais (Canada), l'anglais (Inde), l'anglais (Royaume-Uni), l'anglais (Australie), l'anglais (Nouvelle-Zélande), l'allemand (Allemagne), le portugais (Brésil), néerlandais (Pays-Bas), néerlandais (Belgique), français (France), espagnol (Espagne), japonais (Japon), français (Canada), chinois (cantonais, traditionnel), chinois (mandarin, simplifié), hindi (Inde) , italien (Italie), coréen (Corée), espagnol (Mexique), suédois (Suède), polonais (Pologne), arabe (Émirats arabes unis), arabe (Arabie saoudite), danois (Danemark), finnois (Finlande), norvégien (Norvège) et russe (Russie). Ils sont stockés avec les enregistrements de réunion dans OneDrive Entreprise et le stockage cloud SharePoint Online.
+> Cette transcription pour les réunions enregistrées est actuellement prise en charge uniquement pour l’anglais (États-Unis), l’anglais (Canada), l’anglais (Inde), l’anglais (Royaume-Uni), l’anglais (Australie), l’anglais (Nouvelle-Zélande), l’arabe (Émirats arabes unis), l’arabe (Arabie saoudite), le chinois (cantonais), le chinois (mandarin), le tchèque (Tchèque), Danois (Danemark), Néerlandais (Belgique), Néerlandais (Pays-Bas), Français (Canada), Français (France), Finlandais (Finlande), Allemand (Allemagne), Hébreu (Israël), hindi (Inde), italien (Italie), japonais (Japon),  Coréen (Corée), Norvégien (Norvège), Polonais (Pologne), Portugais (Brésil), Portugais (Portugal), Russe (Russie), Espagnol (Mexique), Espagnol (Espagne), Suédois (Suède), Thaï (Thaïlande), Turc (Turquie), Vietnamien (Vietnam). Ils sont stockés avec les enregistrements de réunion dans OneDrive Entreprise et le stockage cloud SharePoint Online.
 
 Vous pouvez utiliser le Centre d’administration Microsoft Teams ou PowerShell pour définir une stratégie de réunion Teams afin de contrôler si l’initiateur d’enregistrement peut transcrire le choix de transcrire l’enregistrement de la réunion.
 
