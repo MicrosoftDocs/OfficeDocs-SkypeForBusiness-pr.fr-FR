@@ -13,14 +13,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Cet article explique comment configurer votre organisation et salles Teams des appareils pour prendre en charge la participation de réunions tierces à Cisco WebEx et Zoom.
-ms.openlocfilehash: 6defa9c9287b130eb5534f0aea158a78f2de8b18
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 91b730f998a1c17ed41f42a1e2990c82045d3117
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846603"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442000"
 ---
-# <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Activer les appareils Teams Room pour participer à des réunions tierces
+# <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Autoriser les appareils salles Teams à participer à des réunions tierces
 
 > [!NOTE]
 > Cette fonctionnalité n’est actuellement disponible que sur salles Teams sur Windows.
@@ -65,8 +65,8 @@ Pour activer l’expérience de participation tactile, les informations de lien 
 
 Voici quelques exemples d’entrées que vous devrez peut-être ajouter à votre Defender pour Office 365 Coffre Liens *Ne réécrivez pas* la liste ou la liste d’exceptions de réécriture d’URL tierce :
 
-- **Cisco WebEx** `*.webex.com*`
-- **Zoom**`*.zoom.us*`, , `*.zoom.com*``*.zoomgov.com*`
+- **Cisco WebEx** `*.webex.com/*`
+- **Zoom**`*.zoom.us/*`, , `*.zoom.com/*``*.zoomgov.com/*`
 
 Pour obtenir la liste complète des URL à ajouter à votre Defender pour Office 365 Coffre Liens *Ne réécrivez pas* la liste ou la liste d’exceptions de réécriture d’URL tierce, contactez le fournisseur de services de réunion tiers à partir duquel vous souhaitez accepter les invitations à une réunion.
 

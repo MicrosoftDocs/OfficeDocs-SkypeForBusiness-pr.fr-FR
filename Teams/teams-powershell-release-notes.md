@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez les dernières modifications apportées à Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 169519741bb0107086679a0472ead65c0e512529
-ms.sourcegitcommit: 3aa1c3cbd8ba9919e2a4dd4c7d4b95c40ed3d55d
+ms.openlocfilehash: 2bd7507767cb7f8747d8abbf4a23adda39738182
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65230978"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442030"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>notes de publication Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ Cette page fournit la dernière Teams journal des modifications PowerShell pour 
 
 | Date | Version | Updates |
 |------- | -------------------- | ------------------------------ |
+| Mai 2022 | [4.3.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.1-preview) |<li>Améliorations de la taille du module.</li><li>Les paramètres non pris en charge dans la version modernisée de toutes les applets de commande entraînent une erreur.</li><li>Corrige la gestion des erreurs pour [GetSet\|]-CsOnlineDialInConferencingUser, Get-CsOnlineDialInConferencingBridge, [GetSetRegisterUnregister\|\|\|]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported cmdlets.</li><li>Libère le déploiement des applets de commande Scale en préversion - New-CsBatchTeamsDeployment & Get-CsBatchTeamsDeploymentStatus.</li>
 | Mai 2022 | [4.3.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.0) |<li>Corrige les gestions des erreurs pour les applets de commande [SetRemove\|]-CsPhoneNumberAssignment.</li><li>[Obtenir\| SetRemove\|]-CsOnlineLisSubnet : correctifs pour le paramètre Subnet dans les applets de commande modernisées.</li><li>[Obtenir\| Set]-CsOnlineLisLocation & [GetSet\|]-CsOnlineLisCivicAddress : corrige les paramètres pris en charge dans les applets de commande modernisées (plus d’informations dans les documentations publiques correspondantes).</li>
 | Avril 2022 | [4.2.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.1-preview) |<li>Corrige les gestions des erreurs pour les applets de commande [SetRemove\|]-CsPhoneNumberAssignment.</li><li>[Obtenir\| SetRemove\|]-CsOnlineLisSubnet : correctifs pour le paramètre Subnet dans les applets de commande modernisées.</li><li>[Obtenir\| Set]-CsOnlineLisLocation & [GetSet\|]-CsOnlineLisCivicAddress : corrige les paramètres pris en charge dans les applets de commande modernisées.</li>
 | Avril 2022 | [4.2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.0) |<li>Prise en charge du proxy pour toutes les applets de commande pertinentes pour Teams. Les applets de commande prises en charge sont déployées progressivement.</li><li>Résout les problèmes liés à [NewSet\|] : les applets de commande policy modernisées lorsqu’ils sont utilisés avec les paramètres de type PSListModifier.</li><li>[CHANGEMENT CASSANT] Les paramètres de type PSListModifier acceptent uniquement la table de hachage avec Ajouter ou Supprimer. La table de hachage avec Remplacer n’est pas prise en charge pour l’instant. Au lieu de cela, les valeurs peuvent être définies directement dans le paramètre.</li><li>Corrige les problèmes de format avec [GetNew\|]- de quelques applets de commande Policy modernisées (CsVideoInteropServiceProvider, CsInboundBlockedNumberPattern, CsTeamsComplianceRecordingApplication, CsTeamsTranslationRule, CsTeamsUnassignedNumberTreatment, CsVoiceNormalizationRule).</li><li>Amélioration des performances du traitement des entrées de pipeline avec les applets de commande modernisées.</li><li>Résout les problèmes mineurs liés aux résultats d’entrée de pipeline.</li><li>Get-CsOnlineUser : l’attribut Country (appelé CountryOrRegionDisplayName dans les versions antérieures à 3.x.x) est ajouté.</li><li>[CHANGEMENT CASSANT] Get-CsOnlineUser : l’attribut CountryAbbreviation est désormais disponible uniquement lorsqu’il est utilisé avec le paramètre -Identity.</li>
@@ -63,12 +64,12 @@ Cette page fournit la dernière Teams journal des modifications PowerShell pour 
 | Septembre 2020 | [1.1.5-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>intégration du connecteur en ligne Skype Entreprise</li> |
 | Juillet 2020 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Ajout des [applets de commande d’attribution de stratégie de groupe](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)</li> |
 | Juin 2020 | [1.1.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>intégration du connecteur en ligne Skype Entreprise<li>optimisations Get-Team<li>Fiabilité améliorée</li> |
-| Juin 2020 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Ajout du préchargement des applets de commande<li>optimisations .NET Framework</li>   |
+| Juin 2020 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Ajout du préchargement des applets de commande<li>Optimisations du .NET Framework</li>   |
 | Avril 2020 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode et signature d’assembly<li>Ajout de Get-CsPolicyPackage<li>Ajout de Get-CsUserPolicyPackage<li>Ajout de Get-CsUserPolicyPackageRecommendation<li>Ajout de Grant-CsUserPolicyPackage<li>Ajout de New-CsBatchPolicyPackageAssignmentOperation<li>Ajout de Set-TeamArchivedState<li>Ajout de Set-TeamPicture<li>Suppression de Get-TeamHelp</li>  |
 | Mars 2020 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Ajout de New-CsBatchPolicyAssignmentOperation</li> |
 | Février 2020 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>optimisations Get-Team</li>  |
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Aperçu de Teams PowerShell](teams-powershell-overview.md)
 

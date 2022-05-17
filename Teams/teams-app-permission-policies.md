@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 2a4862b1daedd90dce4d486ed1517efbfeaca336
-ms.sourcegitcommit: f3c380f745af4c3aaa2720234860b45696a0c333
+ms.openlocfilehash: a7276c2a538eacefc579a7233bb99fb7882afb8f
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2022
-ms.locfileid: "64737576"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442040"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gérer les stratégies d’autorisation d’application dans Microsoft Teams
 
@@ -87,14 +87,9 @@ Vous pouvez utiliser le centre d’administration Teams pour modifier une strat�
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>Gérer les paramètres d’application à l’échelle de l’organisation pour Microsoft 365 secteur public  
 
-Dans un déploiement Microsoft 365 Government - GCCH et DoD de Teams, il est important de connaître les paramètres d’application tiers, qui sont propres à GCCH et DoD.
+Dans un déploiement Microsoft 365 Government - Cloud de la communauté du secteur public, GCCH et DoD de Teams, toutes les applications tierces sont bloquées par défaut. Dans les clouds GCCH et DOD, les applications tierces ne sont pas disponibles. En outre, dans Cloud de la communauté du secteur public, vous voyez la remarque suivante sur la gestion des applications tierces sur la page des stratégies d’autorisation d’application dans le centre d’administration Microsoft Teams.
 
-Dans les déploiements Cloud de la communauté du secteur public, GCCH et DoD, toutes les applications tierces sont bloquées par défaut. En outre, dans Cloud de la communauté du secteur public, vous voyez la remarque suivante sur la gestion des applications tierces sur la page des stratégies d’autorisation d’application dans le centre d’administration Microsoft Teams.
-
-:::image type="content" source="media/app-permission-policies-gcc-trimmed.png" alt-text="Capture d’écran de la stratégie d’autorisation d’application dans GCCH et DoD." lightbox="media/app-permission-policies-gcc.png":::
-
-> [!NOTE]
-> Dans les clouds GCCH et DOD, les applications tierces ne sont pas disponibles.
+:::image type="content" source="media/app-permission-policies-gcc.png" alt-text="Capture d’écran de la stratégie d’autorisation d’application dans GCCH et DoD.":::
 
 Utilisez les paramètres de l’application à l’échelle de l’organisation pour contrôler si les utilisateurs peuvent installer des applications tierces. Les paramètres de l’application à l’échelle de l’organisation contrôlent le comportement de tous les utilisateurs et remplacent les autres stratégies d’autorisation d’application attribuées à des utilisateurs. Vous pouvez les utiliser pour contrôler des applications malveillantes ou problématiques.
 
