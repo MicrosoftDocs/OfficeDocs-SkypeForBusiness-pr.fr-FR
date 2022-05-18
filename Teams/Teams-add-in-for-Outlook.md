@@ -19,14 +19,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c734fe5d6326d0fc4bfddfbc381d66339303d36e
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: 8415ee8dc79c8c67189ae801b1287c56115e6d72
+ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392872"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "65462028"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
+
+Cet article détaille les exigences d’authentification et les fonctionnalités du complément Réunion Teams dans Outlook pour vos utilisateurs finaux. Il montre également comment activer des réunions privées et ajuster les paramètres de stratégie pour les utilisateurs en mode Île. Si vous rencontrez des problèmes avec le complément, consultez nos [derniers conseils de dépannage](/MicrosoftTeams/troubleshoot/meetings/resolve-teams-meeting-add-in-issues).
 
 Le complément réunion Teams permet aux utilisateurs de planifier une réunion Teams à partir d’Outlook. Le complément est disponible pour Outlook sur Windows, Mac, web et mobile.
 
@@ -126,59 +128,6 @@ Certaines fonctionnalités du complément Réunion Teams sont encore en cours de
 - Les utilisateurs ne peuvent pas planifier d’événements en direct à partir d’Outlook. Accédez à Teams pour planifier des événements en direct. Pour plus d’informations, consultez [Que sont les événements en direct Microsoft Teams ?](teams-live-events/what-are-teams-live-events.md)
 
 Découvrez les [réunions et les appels dans Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
-
-## <a name="troubleshooting"></a>Résolution des problèmes
-
-Procédez comme suit pour résoudre les problèmes liés au complément réunion Teams.
-
-> [!NOTE]
-> Ce scénario peut également être géré à l’aide de la version en ligne de commande de [Assistant Support et récupération Microsoft](/office365/troubleshoot/administration/sara-command-line-version) avec SaRAcmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook.
-
-### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Le complément Réunion Teams dans Outlook pour Windows ne s’affiche pas
-
-Si vous ne parvenez pas à obtenir le complément de la réunion Teams pour installer Outlook, essayez de suivre ces étapes de dépannage.
-
-[Téléchargez](https://aka.ms/SaRA-TeamsAddInScenario) et exécutez l’[Assistant récupération du support Microsoft](https://aka.ms/SaRA_Home) pour effectuer une procédure de résolution des problèmes et des correctifs automatisés.
-
-Vous pouvez également effectuer les étapes suivantes manuellement :
-
-- Les utilisateurs Windows 7 doivent installer la[mise à jour pour Universal Runtime C dans Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) pour le complément de réunion Teams afin de l’utiliser.
-- Vérifiez que l’utilisateur a une stratégie de mise à niveau Teams qui permet de planifier les réunions dans Teams. Pour plus d’informations, consultez [Effectuer la mise à niveau de Skype Entreprise vers Teams](/microsoftteams/meeting-policies-in-teams-general) .
-- Vérifiez que l’utilisateur a une stratégie de réunion Teams qui autorise le complément Outlook. Voir [Paramètres de la stratégie de réunion – Général](./meeting-policies-in-teams-general.md#outlook-add-in) pour plus de détails.
-- Assurez-vous que le client de bureau Teams est installé sur l’utilisateur. Le complément de réunion ne sera pas installé lorsque vous utiliserez uniquement le client web Teams.
-- Vérifiez que l’utilisateur dispose de l’installation d’Outlook 2013 ou version ultérieure.
-- Assurez-vous que l’utilisateur a l’autorisation d’exécuter regsvr32.exe.
-- Assurez-vous que toutes les mises à jour disponibles pour le client de bureau Outlook aient été appliquées.
-- Procédez comme suit :
-  - Redémarrez le client de bureau Teams.
-  - Déconnectez-vous, puis reconnectez-vous pour le client de bureau Teams.
-  - Fermez le client Outlook pour ordinateur de bureau. (Veillez à ce qu' Outlook ne soit pas exécuté en mode d’administration.)
-
-Si vous ne voyez pas le complément, assurez-vous qu’il n’est pas désactivé dans Outlook.
-
-- Dans Outlook, sélectionnez **Fichier**, puis **Options**.
-- Sélectionnez l’onglet **compléments** de boîte de dialogue **Options Outlook**.
-- Vérifiez que **Complément réunion Microsoft Teams pour Microsoft Office** est répertorié dans la liste **Compléments d’applications actifs**
-- Si le complément de réunion Teams est répertorié dans la liste **Compléments d’application désactivé**, sélectionnez **Compléments COM** dans **Gérer**, puis **Accéder...**
-- Activez la case à cocher en regard de **Complément réunion Microsoft Teams pour Microsoft Office**.
-- Sélectionnez **OK** sur toutes les boîtes de dialogue et redémarrez Outlook.
-
-Pour des orientations générales sur la procédure de gestion des compléments, consultez la rubrique [Afficher, gérer et installer des compléments dans les programmes Office](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
-
-Si le complément ne s’affiche pas, procédez comme suit pour vérifier les paramètres du Registre.
-
-> [!NOTE]
-> Une modification incorrecte du Registre peut endommager gravement votre système. Avant d’apporter des modifications au Registre, il est conseillé de sauvegarder les données de valeur stockées dans l’ordinateur.
-- Lancez Regedit.exe.
-- Accédez à HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins
-- Vérifiez que TeamsAddin.FastConnect existe.
-- Dans TeamsAddin.FastConnect, vérifiez l’existence de LoadBehavior et a la valeur 3.
-  - Si LoadBehavior a une valeur autre que 3, remplacez-la par 3 et redémarrez Outlook.
-
-### <a name="delegate-scheduling-does-not-work"></a>La planification des délégués ne fonctionne pas
-
-Si votre administrateur a configuré Microsoft Exchange pour [contrôler l’accès à Exchange Web Server (EWS)](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), un délégué ne pourra pas planifier une réunion Teams au nom du responsable. La solution pour cette configuration est en cours de développement et sera publiée ultérieurement. Pour contourner ce problème, votre administrateur peut ajouter la chaîne suivante à la liste verte EWS : « *SchedulingService* ». 
-
 
 ## <a name="related-topics"></a>Voir aussi
 
