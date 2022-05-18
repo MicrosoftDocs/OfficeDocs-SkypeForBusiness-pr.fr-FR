@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Découvrez comment intégrer le connecteur Teams DSE pour permettre aux fournisseurs de soins de santé de votre organisation d’effectuer des rendez-vous virtuels avec des patients ou d’autres fournisseurs dans Teams directement à partir du système Epic EHR.
-ms.openlocfilehash: baef8aeda05413ce2f307a4bbea7259490ecfb83
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+ms.openlocfilehash: abe826b1e71c37e0932404233c234282ec90b7f9
+ms.sourcegitcommit: 3cb40132e36717dfbdc6dfe83e7ea319f3ec9347
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853055"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "65465435"
 ---
 # <a name="virtual-appointments-with-teams---integration-into-epic-ehr"></a>Rendez-vous virtuels avec Teams - Intégration à Epic EHR
 
@@ -37,14 +37,10 @@ Le connecteur de dossiers médicaux électroniques (DSE) Microsoft Teams permet 
 La plateforme de communication et de collaboration de Teams permet aux cliniciens de s’occuper facilement de l’encombrement des systèmes fragmentés afin qu’ils puissent se concentrer sur la fourniture des meilleurs soins possibles. Avec le connecteur Teams EHR, vous pouvez :
 
 - Lancez Teams rendez-vous virtuels à partir de votre système Epic EHR avec un flux de travail clinique intégré.
-- Permettre aux patients de rejoindre Teams rendez-vous virtuels à partir du portail des patients ou par SMS.
+- Permettre aux patients de rejoindre Teams rendez-vous virtuels à partir du portail des patients ou via SMS.
 - Prenez en charge d’autres scénarios, notamment les services multi-participants, les visites de groupe et les services d’interpréteur.
 - Réécrivez les métadonnées dans le système DSE sur Teams rendez-vous virtuels à enregistrer lorsque les participants se connectent, se déconnectent et activent l’audit automatique et la conservation des enregistrements.
 - Affichez les rapports de données de consommation et les informations de qualité des appels personnalisables pour les rendez-vous connectés à la DSE.
-
-Regardez cette vidéo pour obtenir une vue d’ensemble de la gestion des rendez-vous virtuels à partir du portail DSE.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
 Cet article explique comment configurer le connecteur Teams EHR pour qu’il s’intègre à la plateforme Epic dans votre organisation de soins de santé. Il vous donne également une vue d’ensemble de l’expérience de Teams rendez-vous virtuels à partir du système Epic EHR.
 
@@ -87,7 +83,7 @@ Examinez le [Guide d’intégration de Microsoft Teams télémédecine](https://
 
 Les étapes d’intégration sont effectuées par les personnes suivantes dans votre organisation :
 
-- **Microsoft 365 administrateur général** : le principal responsable de l’intégration. L’administrateur configure le connecteur, active les SMS (si nécessaire) et ajoute l’analyste client Epic qui approuvera la configuration.
+- **Microsoft 365 administrateur général** : le principal responsable de l’intégration. L’administrateur configure le connecteur, active SMS (si nécessaire) et ajoute l’analyste client Epic qui approuvera la configuration.
 - **Analyste client Epic** : une personne de votre organisation qui a des informations d’identification de connexion à Epic. Ils approuvent les paramètres de configuration entrés par l’administrateur et fournissent les enregistrements de configuration à Epic.
 
 L’administrateur Microsoft 365 et l’analyste client Epic peuvent être la même personne.
@@ -128,52 +124,52 @@ Ensuite, pour configurer l’intégration, votre administrateur Microsoft 365 ef
 ### <a name="enable-sms-notifications-optional"></a>Activer les notifications SMS (facultatif)
 
 > [!NOTE]
-> Les notifications SMS sont actuellement disponibles uniquement dans le États-Unis. Nous travaillons à la mise à disposition de cette fonctionnalité dans d’autres régions dans les prochaines versions de Teams et met à jour cet article lorsqu’il sera disponible.
+> SMS notifications n’est actuellement disponible que dans le États-Unis. Nous travaillons à la mise à disposition de cette fonctionnalité dans d’autres régions dans les prochaines versions de Teams et met à jour cet article lorsqu’il sera disponible.
 
-Effectuez cette étape si votre organisation souhaite que Microsoft gère les notifications SMS pour vos patients. Lorsque vous activez les notifications PAR SMS, vos patients reçoivent des messages de confirmation et de rappel pour les rendez-vous planifiés.
+Effectuez cette étape si votre organisation souhaite que Microsoft gère SMS notifications pour vos patients. Lorsque vous activez SMS notifications, vos patients reçoivent des messages de confirmation et de rappel pour les rendez-vous planifiés.
 
-Pour activer les notifications SMS, votre administrateur Microsoft 365 effectue les opérations suivantes :
+Pour activer SMS notifications, votre administrateur Microsoft 365 effectue les opérations suivantes :
 
-1. Dans la page notifications SMS, cochez les deux cases de consentement pour :
+1. Dans la page SMS notifications, cochez les deux cases de consentement pour :
 
-    - Autoriser Microsoft à envoyer des notifications SMS aux patients au nom de votre organisation.
-    - Reconnaissez que vous allez vous assurer que les participants ont accepté d’envoyer et de recevoir des SMS.
+    - Autoriser Microsoft à envoyer SMS notifications aux patients au nom de votre organisation.
+    - Reconnaissez que vous vous assurerez que les participants ont accepté d’envoyer et de recevoir SMS messages.
     
-    :::image type="content" source="media/ehr-connector-epic-sms-notifications.png" alt-text="Capture d’écran de la page notifications SMS, montrant les cases à cocher de consentement et l’option permettant de générer un numéro de téléphone." lightbox="media/ehr-connector-epic-sms-notifications.png":::
+    :::image type="content" source="media/ehr-connector-epic-sms-notifications.png" alt-text="Capture d’écran de la page de notifications SMS, montrant les cases à cocher de consentement et l’option permettant de générer un numéro de téléphone." lightbox="media/ehr-connector-epic-sms-notifications.png":::
 
 1. Sous **Vos numéros de téléphone**, **sélectionnez Générer un nouveau numéro de téléphone** pour générer un numéro de téléphone pour votre organisation. Cette opération démarre le processus de demande et de génération d’un nouveau numéro de téléphone. Ce processus peut prendre jusqu’à 2 minutes.
 
-    Une fois le numéro de téléphone généré, il s’affiche à l’écran. Ce numéro sera utilisé pour envoyer des confirmations par SMS et des rappels à vos patients. Le nombre a été approvisionné, mais n’est pas encore lié à l’URL de base FHIR. Vous le ferez à l’étape suivante.
+    Une fois le numéro de téléphone généré, il s’affiche à l’écran. Ce numéro sera utilisé pour envoyer SMS confirmations et rappels à vos patients. Le nombre a été approvisionné, mais n’est pas encore lié à l’URL de base FHIR. Vous le ferez à l’étape suivante.
 
     :::image type="content" source="media/ehr-connector-epic-phone-number.png" alt-text="Capture d’écran montrant un exemple de numéro de téléphone généré." lightbox="media/ehr-connector-epic-phone-number.png":::
 
     Choisissez **Terminé**, puis sélectionnez **Suivant**.
 
-1. Pour lier le numéro de téléphone à une URL de base FHIR, sous **Téléphone numéro** dans la section **configuration SMS**, sélectionnez le numéro. Effectuez cette opération pour chaque URL de base FHIR pour laquelle vous souhaitez activer les notifications SMS.
+1. Pour lier le numéro de téléphone à une URL de base FHIR, sous **Téléphone numéro** dans la section **de configuration SMS**, sélectionnez le numéro. Effectuez cette opération pour chaque URL de base FHIR pour laquelle vous souhaitez activer SMS notifications.
 
     :::image type="content" source="media/ehr-connector-epic-link-phone-number.png" alt-text="Capture d’écran montrant comment lier un numéro de téléphone à une URL de base FHIR." lightbox="media/ehr-connector-epic-link-phone-number.png":::
 
-    S’il s’agit de la première fois que vous configurez le connecteur, vous verrez l’URL de base FHIR entrée à l’étape précédente. Le même numéro de téléphone peut être lié à plusieurs URL de base FHIR, ce qui signifie que les patients recevront des notifications PAR SMS du même numéro de téléphone pour différentes organisations et/ou services.
+    S’il s’agit de la première fois que vous configurez le connecteur, vous verrez l’URL de base FHIR entrée à l’étape précédente. Le même numéro de téléphone peut être lié à plusieurs URL de base FHIR, ce qui signifie que les patients recevront SMS notifications du même numéro de téléphone pour différentes organisations et/ou services.
 
-1. Sélectionnez **l’installation sms** en regard de chaque URL de base FHIR pour configurer les types de notifications SMS à envoyer à vos patients.
+1. Sélectionnez **SMS configuration** en regard de chaque URL de base FHIR pour configurer les types de notifications SMS à envoyer à vos patients.
 
-    :::image type="content" source="media/ehr-connector-epic-sms-setup.png" alt-text="Capture d’écran montrant les paramètres d’installation des SMS." lightbox="media/ehr-connector-epic-sms-setup.png":::
+    :::image type="content" source="media/ehr-connector-epic-sms-setup.png" alt-text="Capture d’écran montrant SMS paramètres d’installation." lightbox="media/ehr-connector-epic-sms-setup.png":::
 
-    - **SMS de confirmation** : les notifications sont envoyées aux patients lorsqu’un rendez-vous est planifié, mis à jour ou annulé dans le système DSE.
-    - **SMS de rappel** : les notifications sont envoyées aux patients en fonction de l’intervalle de temps que vous spécifiez et de l’heure planifiée du rendez-vous.
+    - **Confirmation SMS** : les notifications sont envoyées aux patients lorsqu’un rendez-vous est planifié, mis à jour ou annulé dans le système DSE.
+    - **Rappel SMS** : les notifications sont envoyées aux patients en fonction de l’intervalle de temps que vous spécifiez et de l’heure planifiée du rendez-vous.
 
     Cliquez sur **Enregistrer**.
 
 1. Sélectionnez **Télécharger certificat** pour charger un certificat de clé publique. Vous devez charger un certificat .cer codé en Base64 (clé publique uniquement) pour chaque environnement.
 
-    Un certificat de clé publique est nécessaire pour recevoir des informations de rendez-vous pour l’envoi de notifications PAR SMS. Le certificat est nécessaire pour vérifier que les informations entrantes proviennent d’une source valide.
+    Un certificat de clé publique est nécessaire pour recevoir des informations de rendez-vous pour l’envoi de notifications SMS. Le certificat est nécessaire pour vérifier que les informations entrantes proviennent d’une source valide.
 
-    Lorsque le connecteur est utilisé pour envoyer des rappels SMS, le numéro de téléphone du patient est envoyé par Epic dans une charge utile HL7v2 lorsque des rendez-vous sont créés dans Epic. Ces numéros sont stockés pour chaque rendez-vous dans la zone géographique de votre organisation et sont conservés jusqu’à ce que le rendez-vous ait lieu. Pour en savoir plus sur la configuration des messages HL7v2, consultez le [Guide d’intégration de Télésanté Epic-Microsoft Teams](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
+    Lorsque le connecteur est utilisé pour envoyer SMS rappels, le numéro de téléphone du patient est envoyé par Epic dans une charge utile HL7v2 lorsque des rendez-vous sont créés dans Epic. Ces numéros sont stockés pour chaque rendez-vous dans la zone géographique de votre organisation et sont conservés jusqu’à ce que le rendez-vous ait lieu. Pour en savoir plus sur la configuration des messages HL7v2, consultez le [Guide d’intégration de Télésanté Epic-Microsoft Teams](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
     Choisissez **Suivant**.
 
 > [!NOTE]
-> À tout moment, votre administrateur Microsoft 365 peut mettre à jour n’importe quel paramètre SMS. N’oubliez pas que la modification des paramètres peut entraîner l’arrêt du service SMS. Pour plus d’informations sur l’affichage des rapports SMS, consultez [Teams rapports d’administration du connecteur EHR](ehr-admin-reports.md).
+> À tout moment, votre administrateur Microsoft 365 peut mettre à jour l’un des paramètres SMS. N’oubliez pas que la modification des paramètres peut entraîner l’arrêt de SMS service. Pour plus d’informations sur l’affichage des rapports SMS, consultez [Teams rapports d’administration du connecteur EHR](ehr-admin-reports.md).
 
 ### <a name="approve-or-view-the-configuration"></a>Approuver ou afficher la configuration
 
@@ -193,11 +189,11 @@ Une fois la connexion à Epic réussie, l’analyste client Epic **doit** approu
 Lorsque les informations de configuration sont approuvées par l'administrateur Epic, les enregistrements d'intégration pour le lancement du patient et du fournisseur vous sont présentés. Les enregistrements d’intégration sont les suivants :
 
 - Dossiers des patients et des fournisseurs
-- Enregistrement SMS direct
-- Enregistrement de configuration SMS
+- Enregistrement de SMS direct
+- enregistrement de configuration SMS
 - Enregistrement de configuration de test d’appareil
 
-L’analyste client Epic doit fournir ces enregistrements à Epic pour terminer la configuration des rendez-vous virtuels dans Epic. Pour plus d’informations, consultez le [Guide d’intégration de télésanté Epic-Microsoft Teams](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
+Le jeton de contexte pour le test d’appareil se trouve dans l’enregistrement d’intégration du patient. L’analyste client Epic doit fournir ces enregistrements à Epic pour terminer la configuration des rendez-vous virtuels dans Epic. Pour plus d’informations, consultez le [Guide d’intégration de télésanté Epic-Microsoft Teams](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
 > [!Note]  
 > À tout moment, l’analyste client Microsoft 365 ou Epic peut se connecter au portail de configuration pour afficher les enregistrements d’intégration et modifier la configuration de l’organisation, si nécessaire.
@@ -221,6 +217,8 @@ Après avoir effectué les étapes du connecteur EHR et la configuration d’Epi
 
 Les fournisseurs de soins de santé de votre organisation peuvent rejoindre des rendez-vous à l’aide de Teams à partir de leurs applications de fournisseur Epic (Hyperspace, Haiku, Canto). Le bouton **Commencer la visite virtuelle** est incorporé dans le flux du fournisseur.
 
+  ![Expérience de fournisseur d’un rendez-vous virtuel avec le patient.](media/ehc-provider-experience-6.png)
+
 Principales fonctionnalités de l’expérience fournisseur :
 
 - Les fournisseurs peuvent rejoindre des rendez-vous à l’aide de navigateurs pris en charge ou de l’application Teams.
@@ -231,18 +229,27 @@ Principales fonctionnalités de l’expérience fournisseur :
 
 - Les fournisseurs peuvent voir les mises à jour en temps réel des participants se connectant et se déconnectant pour un rendez-vous donné. Les fournisseurs peuvent voir quand le patient est connecté à un rendez-vous.
 
-  ![Expérience de fournisseur d’un rendez-vous avec un patient.](media/ehc-provider-experience-6.png)
-
 > [!NOTE]
 > Toutes les informations entrées dans la conversation de réunion nécessaires à la continuité ou à la rétention des dossiers médicaux doivent être téléchargées, copiées et notifiées par le fournisseur de soins de santé. La conversation ne constitue pas un dossier médical légal ou un jeu d’enregistrements désigné. Les messages de la conversation sont stockés en fonction des paramètres créés par l’administrateur Microsoft Teams.
 
 ### <a name="patient-experience"></a>Expérience patient
 
-Le connecteur prend en charge les patients qui rejoignent des rendez-vous via MyChart web et mobile. Au moment du rendez-vous, les patients peuvent commencer un rendez-vous à partir de MyChart à l’aide du bouton **Commencer la visite virtuelle** .
+Le connecteur prend en charge les patients qui rejoignent des rendez-vous par le biais d’un lien dans le message texte SMS, le site web MyChart et mobile. Au moment du rendez-vous, les patients peuvent démarrer le rendez-vous à partir de MyChart à l’aide du bouton **Commencer la visite virtuelle** ou en appuyant sur le lien dans le message texte SMS.
+
+  ![Expérience du patient d’un rendez-vous virtuel.](media/ehc-virtual-visit-5.png)
 
 Principales fonctionnalités de l’expérience du patient :
 
 - Les patients peuvent rejoindre des rendez-vous à partir de [navigateurs web modernes sur le bureau et mobile sans avoir à installer l’application Teams](../browser-join.md).
+- Les patients peuvent tester le matériel et la connexion de leur appareil avant de rejoindre un rendez-vous.
+
+    :::image type="content" source="media/ehr-admin-epic-device-test.png" alt-text="Images d’un appareil mobile, montrant les fonctionnalités de test d’appareil." lightbox="media/ehr-admin-epic-device-test.png":::
+  
+    Fonctionnalités de test d’appareil :
+
+  - Les patients peuvent tester leur haut-parleur, leur microphone, leur caméra et leur connexion.
+  - Les patients peuvent effectuer un appel de test pour valider entièrement leur configuration.
+  - Les résultats du test d’appareil peuvent être renvoyés au système DSE.
 
 - Les patients peuvent rejoindre des rendez-vous en un seul clic et aucun autre compte ou connexion n’est requis.
 
@@ -251,8 +258,6 @@ Principales fonctionnalités de l’expérience du patient :
 - Les patients sont placés dans une salle d’attente jusqu’à ce que le fournisseur les rejoigne et les admet.
 
 - Les patients peuvent tester leur vidéo et leur microphone dans la salle d’attente avant de rejoindre le rendez-vous.
-
-  ![Expérience du patient du rendez-vous.](media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic, MyChart, Haiku et Canto sont des marques déposées d'Epic Systems Corporation.
