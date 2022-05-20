@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 930f4b7a311acc7c34e60b7916071d10349c0313
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: a4759bc010367e6531a557e2a5ff951d1b613505
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64592889"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65598357"
 ---
 # <a name="shifts-connectors"></a>Majs connecteurs
 
@@ -30,7 +30,7 @@ Les connecteurs Shifts vous permettent d’intégrer Shifts, l’outil de gestio
 
 La connexion de votre système WFM à Teams permet à votre personnel de première ligne de gérer les planifications plus efficacement et simplifie les processus quotidiens pour accroître l’engagement et la productivité. Vos employés de première ligne disposent d’un emplacement unique pour leurs besoins de planification, de communication et de collaboration pour accomplir leurs tâches, où que vous soyez, sur n’importe quel appareil.
 
-Nous proposons des connecteurs Shifts managés et open source. Cet article vous donne une vue d’ensemble des connecteurs Shifts et de leur fonctionnement.
+Cet article vous donne une vue d’ensemble des connecteurs Shifts et de leur fonctionnement.
 
 ## <a name="how-shifts-connectors-work"></a>Fonctionnement des connecteurs Shifts
 
@@ -115,17 +115,6 @@ Les travailleurs de première ligne peuvent :
 - Demandez un congé, ouvrez des équipes, échangez et proposez des changements dans Shifts.
 
 Pour en savoir plus, accédez à https://connect.zebra.com/microsoft-connectors.
-
-## <a name="open-source-shifts-connectors"></a>Connecteurs Shifts open source
-
-Les connecteurs Shifts open source sont des intégrations basées sur la communauté [basées sur shifts Graph API](/graph/api/resources/shift). Les connecteurs open source suivants sont disponibles :
-
-- Kronos-to-Teams WFC local
-- Connecteur JDA-to-Teams Shifts (pour Blue Yonder version 2017 à 2020.2)
-
-Chaque connecteur est fourni avec des instructions de déploiement et de configuration détaillées. Ils incluent des scripts de déploiement Azure Resource Manager (ARM) qui vous permettent d’héberger tous les services nécessaires dans Microsoft Azure. Le code source et les scripts de déploiement sont disponibles en téléchargement dans un [dépôt GitHub](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors). Vous pouvez effectuer un déploiement tel quels ou personnaliser ou étendre pour répondre à vos besoins.
-
-Pour plus d’informations, consultez les [connecteurs Shifts prêts pour la production](/microsoftteams/platform/samples/shifts-wfm-connectors).
 
 ## <a name="related-articles"></a>Articles connexes
 
