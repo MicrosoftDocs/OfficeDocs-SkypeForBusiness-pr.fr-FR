@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Découvrez les appels d’urgence, y compris les informations sur les adresses d’urgence, le routage des appels d’urgence et les appels d’urgence dynamiques.
-ms.openlocfilehash: f059f55281df2925511b85941fefbb675d781852
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 2806499e81b524168944e6cca2e9a6acb4d0b6a7
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125449"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624128"
 ---
 # <a name="manage-emergency-calling"></a>Gérer les appels d’urgence
 
@@ -275,9 +275,6 @@ Lors d’un appel d’urgence, un bureau de sécurité est téléconférence dan
 ### <a name="custom-emergency-disclaimer"></a>Exclusion de responsabilité d’urgence personnalisée
 
 Les administrateurs ont la possibilité d’ajouter une bannière personnalisée dans le locataire pour que leurs utilisateurs puissent activer E911. Les utilisateurs peuvent ignorer la bannière lorsqu’ils confirment leur adresse, et la bannière réapparaît quand Teams est redémarré. Pour activer cette fonctionnalité, vous devez définir l’exclusion de responsabilité du **service d’urgence** sous la Teams stratégie d’appel d’urgence et entrer un message de chaîne à afficher aux utilisateurs. Ce champ est facultatif lors de la configuration d’une stratégie personnalisée, et le champ de chaîne est limité à 250 caractères.
-
-> [!NOTE]
-> Actuellement, cela est configurable à l’aide de PowerShell avec la stratégie EnhancedEmergencyServicesDisclaimer. À l’avenir, il sera également configurable dans le centre d’administration Teams.
 
     
 ## <a name="related-topics"></a>Voir aussi
