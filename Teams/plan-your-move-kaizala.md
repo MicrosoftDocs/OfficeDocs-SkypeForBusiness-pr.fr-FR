@@ -1,104 +1,109 @@
 ---
-title: Planifier le passage d’un programme d’Kaizala à l’autre Microsoft Teams
-author: Benny-54
-ms.author: v-bshilpa
+title: Planifier un passage réussi de Kaizala à Microsoft Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: null
-description: Cet article décrit comment planifier une transition réussie d’un programme d’Kaizala à Microsoft Teams.
-f1.keywords: null
+ms.reviewer: ''
+description: Cet article explique comment planifier une transition réussie de Kaizala à Microsoft Teams.
+f1.keywords: ''
 ms.localizationpriority: medium
-search.appverid: null
-ms.collection: null
-ms.custom: null
+search.appverid: ''
+ms.collection: ''
+ms.custom: ''
+ms.openlocfilehash: 4416fa65f38ad3489d05312382cce55b4a21898f
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635392"
 ---
-
 # <a name="planning-for-a-successful-transition-from-kaizala-to-microsoft-teams"></a>Planification d’une transition réussie de Kaizala à Microsoft Teams
 
-À mesure que vous passez d’Kaizala à Microsoft Teams, il est important de prendre le temps de planifier une transition réussie.[](/microsoftteams/deploy-enterprise-setup?tabs=ChatTeamsChannels#plan-your-deployment) Un plan de transition solide offre une structure pour votre déplacement et garantit que toutes les parties prenantes travaillent sur un objectif commun. L’utilisation d’une infrastructure éprouvée pour implémenter le changement peut vous aider à commencer votre transition dès aujourd’hui.
+Lorsque vous passez de Kaizala à Microsoft Teams, il est important de prendre le temps de [planifier](/microsoftteams/deploy-enterprise-setup?tabs=ChatTeamsChannels#plan-your-deployment) une transition réussie. Un plan de transition solide vous permet de structurer votre démarche et de vous assurer que toutes les parties prenantes travaillent à la réalisation d’un objectif commun. L’utilisation d’un framework éprouvé pour implémenter la modification peut vous aider à commencer votre transition dès aujourd’hui.
 
 ## <a name="transition-framework"></a>Infrastructure de transition
 
 ![Image illustrant des conseils de transition](media/plan-for-successful-transition.png)
 
-Nous avons décrit l’approche recommandée pour la réussite d’une transition ci-dessous et vous encourageons à suivre les phases dans l’ordre, car chaque étape de la structure est mise en place à la suite de l’étape précédente.
+Nous avons décrit notre approche recommandée pour une transition réussie ci-dessous et vous encourageons à suivre les phases dans l’ordre, car chaque étape du framework s’appuie sur l’étape précédente.
 
-- Vision du travail d’équipe pour votre organisation
+- Envisager le travail d’équipe pour votre organisation
 
 - Identification des champions et des parties prenantes critiques
 
 - Définition de l’étendue de votre projet
 
-- Phase de Microsoft Teams
+- Pilote Microsoft Teams
 
 Avant de commencer, assurez-vous que :
 
-- [Teams est installé et](/microsoftteams/get-clients) [des licences sont attribuées](/office365/servicedescriptions/teams-service-description) dans votre environnement. Au minimum, des licences doivent être attribuées à votre équipe principale et aux premiers utilisateurs qui participeront à cette phase initiale du projet.
+- [Teams est installé](/microsoftteams/get-clients) et [des licences sont attribuées](/office365/servicedescriptions/teams-service-description) dans votre environnement. Au moins les licences minimales doivent être attribuées à votre équipe principale et aux premiers utilisateurs qui participeront à cette phase de projet initiale.
 
 - Vous avez téléchargé les applications de bureau et mobiles.
 
-### <a name="envision-teamwork-for-your-organization"></a>Faire un travail d’équipe pour votre organisation
+### <a name="envision-teamwork-for-your-organization"></a>Envisager le travail d’équipe pour votre organisation
 
-![Image illustrant des conseils supplémentaires pour la transition](media/kaizala-framework-guidance.png)
+![Image illustrant des instructions de transition supplémentaires](media/kaizala-framework-guidance.png)
 
-Un environnement technique sain, l’adoption par les utilisateurs durable et l’accomplissement de vos objectifs d’entreprise commencent tous par une planification appropriée. Un plan solide offre un cadre pour votre projet de mise à niveau et garantit que toutes les parties prenantes travaillent sur les mêmes objectifs. Prenez le temps d’énumérer les scénarios en cours Kaizala en cours d’utilisation. Ensuite, envisagez d’utiliser des scénarios d’utilisation au-dessus et au-delà dans un espace de travail moderne avec Microsoft Teams. Pour commencer à définir des scénarios d’utilisation, voir [Définir des scénarios d’utilisation pour Microsoft Teams](/microsoftteams/teams-adoption-define-usage-scenarios).
+Un environnement technique sain, une adoption soutenue des utilisateurs et la réalisation des objectifs de votre entreprise commencent tous par une planification appropriée. Un plan solide vous offre un cadre pour votre projet de mise à niveau et garantit que toutes les parties prenantes travaillent vers les mêmes objectifs. Prenez le temps de répertorier les scénarios actuels dans lesquels Kaizala est utilisé. Ensuite, envisagez des scénarios d’utilisation au-delà dans l’espace de travail moderne avec Microsoft Teams. Pour commencer à définir des scénarios d’utilisation, consultez [Définir des scénarios d’utilisation pour Microsoft Teams](/microsoftteams/teams-adoption-define-usage-scenarios).
 
 ### <a name="identify-champions-and-critical-stakeholders"></a>Identifier les champions et les parties prenantes critiques
 
-Commencez par réunir les parties prenantes concernées et définissez votre plan de mise à niveau. Un plan approprié doit inclure votre étendue, vos objectifs et un échéancier clair pour la transition. Une fois le plan accepté en place, confirmez que votre environnement technique et vos utilisateurs finaux sont prêts à l’Teams. Identifiez les personnes qui sont intéressé par les nouvelles technologies et aidez les autres. Créez [un programme de champion pour](/microsoftteams/teams-adoption-create-champions-program) susciter l’enthousiasme, les sensibilisations et l’adoption dans le cadre de votre transition. Nous avons créé un guide du programme Champions pour lancer ce programme dans votre organisation. Pour en savoir plus, voir [Créer un programme Champion](https://view.officeapps.live.com/op/view.aspx?src=https://fto365dev.blob.core.windows.net:443/media/Default/DocResources/Adoption/Build_Champions_Program_Guide.pptx).
+Commencez par rassembler les parties prenantes appropriées et définissez votre plan de mise à niveau. Un plan approprié doit inclure votre étendue, vos objectifs et une chronologie claire pour la transition. Une fois le plan convenu en place, vérifiez que votre environnement technique et vos utilisateurs finaux sont prêts pour Teams. Identifier les personnes intéressées par les nouvelles technologies et aider les autres. Créez un [programme champion](/microsoftteams/teams-adoption-create-champions-program) pour stimuler l’excitation, la sensibilisation et l’adoption tout au long de votre transition. Nous avons créé un Guide du programme des champions pour lancer ce programme dans votre organisation, pour en savoir plus, consultez [Créer un programme champion](https://view.officeapps.live.com/op/view.aspx?src=https://fto365dev.blob.core.windows.net:443/media/Default/DocResources/Adoption/Build_Champions_Program_Guide.pptx).
 
 ### <a name="define-your-project-scope"></a>Définition de l’étendue de votre projet
 
-Lorsque vous planifiez votre déplacement vers Microsoft Teams, il est essentiel de définir la réussite de votre activité.  L’étendue du projet définit le focus de votre projet pour le moment et permet à votre équipe de projet de se concentrer sur ses tâches actuelles, ce qui vous permet d’avoir une vision à long terme.
+Lorsque vous planifiez votre passage à Microsoft Teams, il est essentiel de définir à quoi ressemble la réussite de votre entreprise.  L’étendue du projet définit le focus de votre projet pour le moment et permet à votre équipe de projet de se concentrer sur ses tâches actuelles, ce qui vous permet de réaliser votre vision à long terme.
 
-Pour en savoir plus sur la stratégie recommandée pour définir les résultats et le succès, voir Définir les résultats et le succès pour [adopter Microsoft Teams](/microsoftteams/teams-adoption-define-outcomes).
+Pour en savoir plus sur notre stratégie recommandée pour définir les résultats et la réussite, consultez [Définir les résultats et la réussite de l’adoption de Microsoft Teams](/microsoftteams/teams-adoption-define-outcomes).
 
-### <a name="pilot-microsoft-teams"></a>Pilote Microsoft Teams
+### <a name="pilot-microsoft-teams"></a>Microsoft Teams pilote
 
-Une fois que vous avez défini l’étendue et la vision de votre projet, il est temps de Microsoft Teams. Identifiez un groupe [d’utilisateurs précoces qui participeront](/microsoftteams/teams-adoption-onboard-early-adopters) à une première expérience avec Teams. La conduite de votre pilote inclut la communication avec vos utilisateurs, une surveillance de votre réseau et de votre utilisation pour garantir que les performances et la qualité des appels réseau demeurent saines, rassemblez les commentaires des participants et examinez les tickets du service d’aide pour les questions liées aux Teams.
+Une fois que vous avez défini l’étendue et la vision de votre projet, il est temps de piloter Microsoft Teams. Identifiez un groupe [d’utilisateurs précoces](/microsoftteams/teams-adoption-onboard-early-adopters) pour participer à une expérience initiale avec Teams. La conduite de votre projet pilote inclut la communication avec vos utilisateurs, la surveillance de votre réseau et de votre utilisation pour garantir que les performances de votre réseau et la qualité des appels restent saines, la collecte des commentaires des participants et l’examen des billets de support technique pour les questions relatives à Teams.
 
 ## <a name="prepare-your-organization"></a>Préparer votre organisation
 
-Après avoir suivi l’infrastructure recommandée pour planifier une transition réussie à partir de Kaizala, préparez votre organisation pour la réussite d’une transition d’Microsoft Teams.
+Après avoir suivi l’infrastructure recommandée pour planifier une transition réussie à partir de Kaizala, préparez votre organisation pour une transition réussie de Microsoft Teams.
 
-### <a name="get-ready"></a>Se préparer
+### <a name="get-ready"></a>Préparez-vous
 
- 1. Assurez-vous qu’il existe Teams de licences pour tout le monde. Voir [Offres Teams](/microsoft-teams/compare-microsoft-teams-options?rtc=1) et [Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description).
+ 1. Assurez-vous qu’il existe Teams licences pour tout le monde. Voir [Offres Teams](/microsoft-teams/compare-microsoft-teams-options?rtc=1) et [Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
- 2. Utilisez [Microsoft Teams recommandations d’adoption](https://adoption.microsoft.com/microsoft-teams/#get-started) pour déployer Teams votre organisation.
+ 2. Utilisez [Microsoft Teams conseils d’adoption](https://adoption.microsoft.com/microsoft-teams/#get-started) pour déployer Teams au sein de votre organisation.
 
- 3. Préparez les administrateurs, les champions et votre grande organisation à adopter une communication avec les administrateurs Teams ressources de compétence et d’adoption.  
+ 3. Préparez les administrateurs, les champions et votre plus grande organisation à adopter la communication avec Teams par le biais de ressources de compétences et d’adoption.  
 
- 4. Utilisez ces ressources de formation pour aider les utilisateurs de votre organisation à apprendre et à tirer le meilleur Teams :
+ 4. Utilisez ces ressources de formation pour aider les utilisateurs de votre organisation à apprendre et à tirer le meilleur parti de Teams :
 
-    - Pour la préparation de l’administrateur informatique, voir [ressources de formation pour les administrateurs](/microsoftteams/itadmin-readiness).
+    - Pour connaître la préparation Administration informatique, consultez [Administration ressources de formation](/microsoftteams/itadmin-readiness).
 
-    - Pour une formation dirigée par un instructeur, consultez la [formation dirigée par un instructeur pour Microsoft Teams](/microsoftteams/instructor-led-training-teams-landing-page).
+    - Pour obtenir une formation dirigée par un instructeur, consultez la [formation dirigée par l’instructeur pour Microsoft Teams](/microsoftteams/instructor-led-training-teams-landing-page).
   
-    - Pour les vidéos de formation, voir [Microsoft Teams vidéos de formation](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?ui=en-us&rs=en-us&ad=us).
+    - Pour obtenir des vidéos de formation, consultez [Microsoft Teams vidéo de formation](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?ui=en-us&rs=en-us&ad=us).
 
 ## <a name="champion-microsoft-teams-adoption"></a>Champion Microsoft Teams adoption
 
-[L’adoption d’Microsoft Teams](/microsoftteams/teams-adoption-get-started) vous permet d’offrir une expérience utilisateur excellente et une valeur accrue au sein de votre entreprise.
+En [conduisant l’adoption](/microsoftteams/teams-adoption-get-started) de Microsoft Teams, vous pouvez offrir une excellente expérience utilisateur et une valeur commerciale accrue au sein de votre entreprise.
 
-Tout au long de Teams déploiement, n’oubliez pas de tirer parti de [](/microsoftteams/adopt-microsoft-teams-landing-page) ces ressources avec des conseils sur la conduite Teams adoption.
+Tout au long de votre déploiement Teams, veillez à tirer parti de [ces](/microsoftteams/adopt-microsoft-teams-landing-page) ressources avec des conseils sur la conduite Teams adoption.
 
-Renforcez vos connaissances en la Teams et renforcez l’utilisation de votre organisation grâce à une formation pour les administrateurs et les utilisateurs. Pour consulter des ressources de formation, voir [Microsoft Teams formation.](/microsoftteams/training-microsoft-teams-landing-page)
+Renforcez vos connaissances sur Teams et l’utilisation au sein de votre organisation par le biais d’une formation pour les administrateurs et les utilisateurs. Pour obtenir des ressources de formation, consultez [Microsoft Teams formation](/microsoftteams/training-microsoft-teams-landing-page).
 
-Si votre organisation est intéressé par une expérience personnalisable pour s’aligner sur vos plans d’utilisation et d’adoption, voir ici pour en savoir plus sur la solution de formation [Microsoft 365](https://adoption.microsoft.com/microsoft-365-learning-pathways/) parcours d’apprentissage à la demande.
+Si votre organisation est intéressée par une expérience personnalisable pour s’aligner sur vos plans d’utilisation et d’adoption, consultez ici pour en savoir plus sur la solution de formation à la demande [Microsoft 365 parcours d’apprentissage](https://adoption.microsoft.com/microsoft-365-learning-pathways/).
 
-Pour rester au fait des venir de Teams et de tous les autres produits et services Microsoft 365 ou Office 365 dans votre organisation, assurez-vous de consulter le Centre de messages et la feuille de route [](https://admin.microsoft.com/AdminPortal/Home?ref=/MessageCenter) [Teams’entreprise](https://www.microsoft.com/microsoft-365/roadmap?rtc=2&filters=Microsoft%20Teams). Vous serez informé des fonctionnalités nouvelles et mises à jour, des modifications prévues et des problèmes.
+Pour rester informé de ce qui va arriver pour Teams et tous les autres produits et services Microsoft 365 ou Office 365 de votre organisation, veillez [à consulter le](https://admin.microsoft.com/AdminPortal/Home?ref=/MessageCenter) Centre de messages et la [feuille de route Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=2&filters=Microsoft%20Teams). Vous serez informé des fonctionnalités nouvelles et mises à jour, des modifications prévues et des problèmes.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-Rassemblez tout le monde, menez des conversations efficacement, communiquez avec les employés et numérisez des tâches quotidiennes avec Microsoft Teams. Teams vous permet de communiquer et de vous coordonner facilement avec vos employés, membres, clients et employés en relation avec votre clientèle.
+Rassemblez tout le monde, mettez en place des conversations efficaces, connectez-vous aux employés et numérisez les tâches quotidiennes avec Microsoft Teams. Teams facilite la connexion et la coordination avec vos employés, membres, clients et distributeurs de première ligne.
 
-Pour des ressources supplémentaires, nous avons compilé une bibliothèque de [documentation](/microsoftteams/) sur Microsoft Teams pour les administrateurs et les professionnels de l’informatique. Utilisez la documentation pour vous assurer que votre organisation est prête tout au long de votre voyage d’un Kaizala à Microsoft Teams.
+Pour obtenir des ressources supplémentaires, nous avons compilé une [bibliothèque de documentation](/microsoftteams/) sur Microsoft Teams pour les administrateurs et les professionnels de l’informatique. Utilisez la documentation pour vous assurer que votre organisation est préparée tout au long de votre parcours entre Kaizala et Microsoft Teams.
 
 ## <a name="next-steps"></a>Étapes suivantes
 
 <a name="ControlSyncThroughput"> </a>
 
-[Navigation dans Microsoft Teams à partir de Kaizala](/MicrosoftTeams/navigate-teams)
+[Navigation Microsoft Teams à partir de Kaizala](/MicrosoftTeams/navigate-teams)

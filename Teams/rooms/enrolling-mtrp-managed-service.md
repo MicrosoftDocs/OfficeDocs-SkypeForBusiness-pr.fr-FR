@@ -1,7 +1,7 @@
 ---
-title: Inscrire un appareil salles Teams au service géré Salles Microsoft Teams Premium’équipe
-author: v-smandalika
-ms.author: v-smandalika
+title: Inscrire un appareil salles Teams dans le service managé Salles Microsoft Teams Premium
+author: donnah007
+ms.author: v-donnahill
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -15,32 +15,32 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment inscrire des comptes Salles Microsoft Teams service géré Salles Microsoft Teams Premium service.
+description: Découvrez comment inscrire des comptes Salles Microsoft Teams dans Salles Microsoft Teams Premium service managé.
 f1keywords: ''
-ms.openlocfilehash: d00c4f84447e8ba41f0328cca9b907db45e8fdb7
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: c64fcaf6e817eb57be2915f4f7b6d8684f2ae49b
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070413"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635452"
 ---
-# <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>Inscrire un appareil dans le service géré Salles Microsoft Teams Premium’équipe
+# <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>Inscrire un appareil dans le service managé Salles Microsoft Teams Premium
 
-Pour inscrire un appareil Salles Microsoft Teams au service géré par salles Teams Premium, vous devez affecter un ou plusieurs utilisateurs à l’administrateur de service géré, puis effectuer les étapes d’inscription à l’aide de cet utilisateur.
+Pour inscrire un appareil Salles Microsoft Teams dans le service managé salles Teams Premium, vous devez affecter un ou plusieurs utilisateurs à l’administrateur du service géré, puis effectuer les étapes d’inscription à l’aide de cet utilisateur.
 
-## <a name="assign-users-to-the-managed-service-administrator-role"></a>Attribuer des utilisateurs au rôle Administrateur de services gérés
+## <a name="assign-users-to-the-managed-service-administrator-role"></a>Affecter des utilisateurs au rôle Administrateur de service géré
 
-Pour attribuer aux utilisateurs le rôle Administrateur de service géré, vous pouvez effectuer les étapes suivantes :
+Effectuez les étapes suivantes pour affecter des utilisateurs au rôle Administrateur du service géré :
 
-1. Connectez-vous [au salles Teams Premium d’administration](https://portal.rooms.microsoft.com/) avec les mêmes privilèges d’administrateur que celui utilisé pour se connecter à la Centre d'administration Microsoft 365.
-2. Accédez à **Paramètres** >  **Paramètres** >  **Puis** sélectionnez **Administrateur de services gérés**.
-3. Sous **Administrateur de services gérés**, sélectionnez **l’onglet Devoirs** , puis **Sélectionnez Ajouter**.
-4. Suivez l’Assistant pour nommer l’affectation et sélectionnez les utilisateurs qui doivent y être ajoutés. L’affectation s’applique à tous les groupes de salles et de salles.
-5. À la fin de l’Assistant Affectation, **sélectionnez Ajouter un devoir**.
+1. Connectez-vous au [portail salles Teams Premium](https://portal.rooms.microsoft.com/) avec les mêmes privilèges d’administrateur que ceux utilisés pour vous connecter au Centre d'administration Microsoft 365.
+2. Accédez à **Paramètres** >  **Paramètres** >  **Roles**, puis sélectionnez **Administrateur de service géré**.
+3. Sous **Administrateur du service géré**, sélectionnez l’onglet **Affectations** , puis **Ajouter**.
+4. Suivez l’Assistant pour nommer l’affectation et sélectionnez les utilisateurs qui doivent y être ajoutés. L’affectation s’appliquera à toutes les salles et groupes de salles.
+5. À la fin de l’Assistant Affectation, **sélectionnez Ajouter une affectation**.
 
-Les utilisateurs à qui est attribué le rôle Administrateur de services gérés sont responsables de la gestion et de la surveillance au quotidien du portail salles Teams Premium service géré.
+Les utilisateurs auxquels le rôle Administrateur de service administré est attribué sont responsables de la gestion et de la surveillance quotidiennes du portail de service managé salles Teams Premium.
 
-Après avoir affecté des utilisateurs au rôle Administrateur de service géré, continuez à inscrire un appareil [salles Teams](enroll-a-device.md) pour ajouter un appareil salles Teams au portail de service géré.
+Une fois que vous avez affecté des utilisateurs au rôle Administrateur du service géré, passez à [l’inscription d’un appareil salles Teams](enroll-a-device.md) pour ajouter un appareil salles Teams au portail de service managé.
 
 <!-- ## Enroll a Teams Rooms device
 
