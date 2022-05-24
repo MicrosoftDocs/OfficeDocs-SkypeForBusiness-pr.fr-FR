@@ -1,9 +1,9 @@
 ---
 title: Disponibilité des applications Approbations dans Teams
-author: guptaashish
-ms.author: guptaashish
+author: mkbond007
+ms.author: mabond
 ms.reviewer: farhazk
-manager: prkosh
+manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 205f0869e699384c9a37590db50e690b5b8bd804
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: f31df258558e052e887a679321dd6ed2db48f344
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65186980"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646253"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
@@ -99,7 +99,7 @@ Autorisations du modèle d’approbation
 
 - Tous les propriétaires d’équipe peuvent créer un modèle d’approbation pour les équipes dont ils sont propriétaires.
 
-- Lorsqu’un administrateur crée un modèle pour l’ensemble de son organisation pour la première fois, il crée automatiquement un groupe de Azure Active Directory (AAD) pour tous les administrateurs du locataire, y compris les administrateurs de service globaux et Teams. Ces administrateurs sont ajoutés en tant que propriétaires du groupe, afin qu’ils puissent co-gérer les modèles d’organisation. Les administrateurs qui débutent dans l’organisation après la création de l’équipe doivent être ajoutés manuellement en tant que propriétaires de groupe afin de disposer des mêmes autorisations pour gérer les modèles à l’échelle de l’organisation.
+- Lorsqu’un administrateur crée un modèle pour l’ensemble de son organisation pour la première fois, il crée automatiquement un groupe Azure Active Directory (AAD) pour tous les administrateurs du locataire, y compris les administrateurs de service globaux et Teams. Ces administrateurs sont ajoutés en tant que propriétaires du groupe, afin qu’ils puissent co-gérer les modèles d’organisation. Les administrateurs qui débutent dans l’organisation après la création de l’équipe doivent être ajoutés manuellement en tant que propriétaires de groupe afin de disposer des mêmes autorisations pour gérer les modèles à l’échelle de l’organisation.
 
 > [!Note]
 > Si un administrateur supprime le groupe, vous avez un mois pour le restaurer dans le portail Azure Active Directory (AAD) pour restaurer toutes les données associées. Au bout d’un mois, ou si l’administrateur supprime ce groupe dans la corbeille, vous perdrez toutes les données associées.
@@ -114,7 +114,7 @@ L’application Approbations est disponible par défaut. Vous pouvez désactiver
 
   3. Recherchez l’application Approbations.
 
-     ![affiche la navigation du Centre d’administration avec Teams Applications > Gérer les applications en surbrillance.](media/manage-approval-apps.png)
+     ![affiche la navigation au centre Administration avec Teams Apps > Manage Apps mis en surbrillance.](media/manage-approval-apps.png)
 
   4. Sélectionnez **Approbations**.
 

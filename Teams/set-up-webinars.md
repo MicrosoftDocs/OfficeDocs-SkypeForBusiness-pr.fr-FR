@@ -1,7 +1,7 @@
 ---
 title: Configurer des webinaires dans Microsoft Teams
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.reviewer: sachung, emryan
 ms.topic: article
@@ -19,111 +19,111 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Découvrez comment gérer les stratégies de webinaire pour Teams réunions.
-ms.openlocfilehash: 5536a6c03df15be349edea7d980932b5fc0173ab
-ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
+ms.openlocfilehash: 2cf3af39b64506fc8802eafd1e2c45f35b7a4d00
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62224001"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646243"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Configurer des webinaires dans Microsoft Teams
 
-Cet article vous aide à configurer votre organisation pour héberger des webinaires.
+Cet article vous aidera à configurer votre organisation pour héberger des webinaires.
 
 ## <a name="what-are-webinars"></a>Que sont les webinaires ?
 
-Les webinaires sont des réunions structurées où les présentateurs et participants ont des rôles clairs, souvent utilisés à des fins de formation ou de scénarios de marketing de tête de série.
+Les webinaires sont des réunions structurées où les présentateurs et les participants ont des rôles clairs, souvent utilisés à des fins de formation ou pour des scénarios de génération de prospects commerciaux et marketing.
 
-Après avoir mis en place des webinaires dans votre organisation, vos utilisateurs peuvent planifier des webinaires et ouvrir l’inscription aux participants. Contrairement aux réunions traditionnelles qui incluent de nombreuses discussions et l’affectation de tâches, les webinaires sont destinés aux présentations interactives et offrent des outils pour l’analyse des participants.
-
-> [!IMPORTANT]
-> Pour permettre aux utilisateurs de configurer des webinaires, les Listes Microsoft doivent être configurés dans SharePoint en activant la création de listes personnelles. Pour en savoir plus, [consultez les paramètres de contrôle pour Listes Microsoft.](/sharepoint/control-lists)
-
-## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>Autoriser les utilisateurs à planifier des webinaires dans le Centre Teams’administration
-
-Vous pouvez utiliser le Centre Teams d’administration pour configurer des webinaires pour votre organisation. Les stratégies de configurer des webinaires se trouvent dans le Centre d’administration Teams sous **Stratégies**  >  **de réunion.**
-
-### <a name="meeting-registration"></a>Inscription à une réunion
-
-Si vous l’activer, les utilisateurs peuvent planifier des webinaires. Par défaut, cette option est désactivée. Si vous souhaitez désactiver l’inscription aux réunions, définissez cette stratégie sur **Désactiver.**
+Après avoir configuré des webinaires dans votre organisation, vos utilisateurs peuvent planifier des webinaires et ouvrir l’inscription aux participants. Contrairement aux réunions traditionnelles qui incluent de nombreuses discussions et affectations de tâches, les webinaires sont destinés à des présentations interactives et fournissent des outils pour l’analyse des participants.
 
 > [!IMPORTANT]
-> **La planification de réunion privée** doit être mise en place pour que l’inscription à la réunion fonctionne. Par défaut, cette stratégie est Teams centre d’administration. Pour les étudiants des locataires Éducation, cette stratégie est désactivée par défaut. Pour plus d’informations sur la façon d’activer la planification de réunions privées pour les étudiants, voir Teams pour l'éducation [stratégies et packages de stratégie.](policy-packages-edu.md)
+> Pour permettre aux utilisateurs de configurer des webinaires, Listes Microsoft doivent être configurés dans SharePoint en activant la création de listes personnelles. Pour plus d’informations, consultez [Paramètres de contrôle pour Listes Microsoft](/sharepoint/control-lists).
 
-### <a name="who-can-register"></a>Qui pouvez vous inscrire
+## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>Autoriser les utilisateurs à planifier des webinaires dans le centre d’administration Teams
 
-Si vous sélectionnez **Tout** le monde, tous les utilisateurs, y compris les utilisateurs anonymes, peuvent s’inscrire et participer à des webinaires. Si vous sélectionnez **Tous les membres de l’organisation,** seuls les utilisateurs de votre organisation peuvent s’inscrire aux webinaires. Si l’inscription à une réunion est désactivée, cette option n’est pas disponible et personne ne peut s’inscrire aux webinaires.
+Vous pouvez utiliser le centre d’administration Teams pour configurer des webinaires pour votre organisation. Vous trouverez les stratégies permettant de configurer des webinaires dans le centre d’administration Teams sous **Stratégies MeetingsMeeting** > .
+
+### <a name="meeting-registration"></a>Inscription à la réunion
+
+Si vous activez cette option, les utilisateurs peuvent planifier des webinaires. Par défaut, cette option est activée. Si vous souhaitez désactiver l’inscription à la réunion, définissez cette stratégie sur **Désactivée**.
+
+> [!IMPORTANT]
+> **La planification de réunion privée** doit être activée pour que l’inscription à la réunion fonctionne. Par défaut, cette stratégie est activée dans le centre d’administration Teams. Pour les étudiants des locataires de l’éducation, cette stratégie est désactivée par défaut. Pour plus d’informations sur l’activation de la planification de réunions privées pour les étudiants, consultez [Teams pour l'éducation stratégies et packages de stratégies](policy-packages-edu.md).
+
+### <a name="who-can-register"></a>Qui peut s’inscrire
+
+Si vous sélectionnez **Tout le monde**, tous les utilisateurs, y compris les utilisateurs anonymes, peuvent s’inscrire et participer à des webinaires. Si vous sélectionnez **Tout le monde dans l’organisation**, seuls les utilisateurs de votre organisation peuvent s’inscrire aux webinaires. Si l’inscription à la réunion est désactivée, cette option n’est pas disponible et personne ne peut s’inscrire aux webinaires.
 
 > [!NOTE]
-> La valeur par défaut Qui **peut s’inscrire** est Toute personne de **l’organisation** dans les locataires Éducation. Pour plus d’informations, voir [Teams pour l'éducation Assistant Stratégie.](easy-policy-setup-edu.md)
+> La valeur par défaut pour **Qui peut s’inscrire** est **Tout le monde dans l’organisation** dans les locataires de l’éducation. Pour plus d’informations, consultez [Teams pour l'éducation Assistant Stratégie](easy-policy-setup-edu.md).
 
 ### <a name="engagement-report"></a>Rapport d’engagement
 
-Lorsque c’est le cas, les organisateurs peuvent voir des rapports sur l’inscription et la participation aux webinaires qu’ils ont créés. Cette stratégie est optionnée par défaut. Pour plus d’informations, [voir Stratégies de réunion dans Teams - Rapport d’engagement.](meeting-policies-in-teams-general.md#engagement-report) Pour plus d’informations sur l’expérience utilisateur final, voir Afficher et télécharger les rapports de présence [aux réunions.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)
+Lorsque cela est activé, les organisateurs peuvent voir les rapports des personnes inscrites et ayant participé aux webinaires qu’elles ont configurées. Cette stratégie est activée par défaut. Pour plus d’informations, consultez [les stratégies de réunion dans Teams - Rapport d’engagement](meeting-policies-in-teams-general.md#engagement-report). Pour plus d’informations sur l’expérience de l’utilisateur final, consultez [Afficher et télécharger les rapports de participation aux réunions](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US).
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>Autoriser les utilisateurs à planifier des webinaires à l’aide de PowerShell
 
-Vous pouvez utiliser les attributs suivants dans la cmdlet Windows PowerShell **Set-CsTeamsMeetingPolicy** pour configurer les webinaires dans Teams.
+Vous pouvez utiliser les attributs suivants dans l’Windows PowerShell cmdlet **Set-CsTeamsMeetingPolicy** à configurer pour les webinaires dans Teams.
 
 - AllowMeetingRegistration
 - WhoCanRegister
 - AllowPrivateMeetingScheduling
 
-Lisez [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) pour plus d’informations sur l’cmdlet.
+Pour plus d’informations sur l’applet de commande, consultez [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) .
 
 > [!NOTE]
-> Avant d’exécuter ces cmdlets, vous devez être connecté à Microsoft Teams PowerShell. Pour plus d’informations, voir [Gérer Teams avec Microsoft Teams PowerShell.](/microsoftteams/teams-powershell-managing-teams)
+> Avant de pouvoir exécuter ces applets de commande, vous devez être connecté à Microsoft Teams PowerShell. Pour plus d’informations, consultez [Gérer les Teams avec Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
 ### <a name="allow-users-to-schedule-webinars"></a>Autoriser les utilisateurs à planifier des webinaires
 
-Vous pouvez limiter l’inscription aux seuls utilisateurs de votre organisation ou l’ouvrir à tous les utilisateurs à l’intérieur et à l’extérieur de votre client. Par défaut, **WhoCanRegister** est activé et activé sur **Tout** le monde pour la stratégie **Globale (à** l’échelle de l’organisation par défaut). Si vous voulez désactiver l’inscription à une réunion, définissez **AllowMeetingRegistration** sur **False.**
+Vous pouvez limiter l’inscription aux utilisateurs de votre organisation uniquement ou l’ouvrir à tout le monde à l’intérieur et à l’extérieur de votre locataire. Par défaut, **WhoCanRegister** est activé et défini sur **Tout le monde** pour la stratégie **globale (par défaut à l’échelle de l’organisation** ). Si vous souhaitez désactiver l’inscription de réunion, définissez **AllowMeetingRegistration sur** **False**.
 
 > [!IMPORTANT]
-> **AllowPrivateMeetingScheduling** doit être réglé sur **True** pour que **AllowMeetingRegistration** fonctionne.
+> **AllowPrivateMeetingScheduling** doit être défini sur **True** pour **que AllowMeetingRegistration** fonctionne.
 
-1. Activer l’inscription aux réunions
+1. Activer l’inscription à la réunion
 
 ```powershell
 Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
 ```
 
-2. Activer la planification de réunions privées
+2. Activer la planification des réunions privées
 
 ```powershell
 Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
-3. Configurer les utilisateurs qui peuvent s’inscrire aux webinaires
+3. Configurer qui peut s’inscrire aux webinaires
 
-**Autoriser *uniquement les* utilisateurs de votre organisation à s’inscrire aux webinaires**
+**Autoriser *uniquement* les utilisateurs de votre organisation à s’inscrire aux webinaires**
 
 ```powershell
 Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
 ```
 
-**Pour autoriser tout le monde, y compris les utilisateurs anonymes, à s’inscrire aux webinaires, exécutez :**
+**Pour permettre à quiconque, y compris aux utilisateurs anonymes, de s’inscrire aux webinaires, exécutez :**
 
 ```powershell
 Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 ```
 
 > [!CAUTION]
-> Si la rejoindre anonyme est désactivée dans les paramètres de réunion, les utilisateurs anonymes ne peuvent pas participer à des webinaires. Pour en savoir plus et activer ce paramètre, consultez [les paramètres de réunion dans Teams.](meeting-settings-in-teams.md)
+> Si la participation anonyme est désactivée dans les paramètres de réunion, les utilisateurs anonymes ne peuvent pas participer aux webinaires. Pour en savoir plus et activer ce paramètre, consultez [Paramètres de réunion dans Teams](meeting-settings-in-teams.md).
 
-### <a name="collect-meeting-attendance"></a>Recueillir la présence à des réunions
+### <a name="collect-meeting-attendance"></a>Collecter la participation aux réunions
 
-Le **paramètre AllowEngagementReport** vous permet de voir les webinaires inscrits et participé à des webinaires. Cette stratégie est désactivée par défaut. Pour le désactiver, exécutez la commande suivante dans PowerShell :
+Le paramètre **AllowEngagementReport** vous permet de voir qui a inscrit et participé à des webinaires. Cette stratégie est activée par défaut. Pour la désactiver, exécutez la commande suivante dans PowerShell :
 
 ```powershell
 Set-CsTeamsMeetingPolicy -AllowEngagementReport Disabled
 ```
 
-## <a name="configure-webinar-settings"></a>Configurer les paramètres de webinaire
+## <a name="configure-webinar-settings"></a>Configurer les paramètres du webinaire
 
-Après l’activation de votre environnement pour les webinaires, aucune autre gestion de l’administrateur n’est requise. La stratégie contrôle les options qui s’affichent pour les organisateurs de webinaires.
+Après avoir activé votre environnement pour les webinaires, aucune autre gestion d’administration n’est requise. La stratégie contrôle les options qui s’affichent pour les organisateurs de webinaires.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Stratégies de réunion dans Teams - Général](meeting-policies-in-teams-general.md)
-- [Documentation set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
-- [Teams pour l'éducation De stratégie de stratégie](easy-policy-setup-edu.md)
+- [Documentation Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+- [Assistant Stratégie Teams pour l'éducation](easy-policy-setup-edu.md)

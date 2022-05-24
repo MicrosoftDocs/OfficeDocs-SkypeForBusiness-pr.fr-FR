@@ -1,7 +1,7 @@
 ---
 title: Stratégies de réunion et expiration de la réunion dans Microsoft Teams
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Découvrez comment utiliser les paramètres de stratégie de réunion pour contrôler l’expiration de la réunion dans Microsoft Teams.
-ms.openlocfilehash: 74b47d296b06d2ef9462dfafec136a99ebff0a34
-ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
+ms.openlocfilehash: 014989cd2fda0ce28ef96ee53c82908f814ee8c7
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65442020"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646213"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Stratégies de réunion et expiration de la réunion dans Microsoft Teams
 
@@ -112,7 +112,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 Vous pouvez définir la date d’expiration dans le centre d’administration Teams sous **Stratégies de réunion.** Une fois que vous avez activé **réunions expirer automatiquement,** vous aurez la possibilité de définir une expiration d’enregistrement.
 
-![Capture d’écran du Centre d’administration de la stratégie d’expiration de réunion.](media/meeting-expiration-policy.jpg)
+![Administration capture d’écran du centre de la stratégie d’expiration de la réunion.](media/meeting-expiration-policy.jpg)
 
 ### <a name="security-and-compliance"></a>Sécurité et conformité
 
@@ -172,7 +172,7 @@ Le fichier sera supprimé dans les cinq jours suivant la date d’expiration, bi
 > [!NOTE]
 > À la date d’expiration, l’enregistrement est déplacé dans la corbeille et le champ date d’expiration est effacé. Si vous récupérez l’enregistrement à partir de la corbeille, il ne sera plus supprimé par cette fonctionnalité, car la date d’expiration a été effacée.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Modifier la date d’expiration de la réunion - Contrôles de l’utilisateur final](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
 
