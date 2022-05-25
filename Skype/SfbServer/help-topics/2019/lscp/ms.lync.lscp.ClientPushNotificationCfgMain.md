@@ -1,22 +1,27 @@
 ---
 title: Configuration des notifications Push du client mobile
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-  - ms.lync.lscp.ClientPushNotificationCfgMain
+- ms.lync.lscp.ClientPushNotificationCfgMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - CSH
+- CSH
 ms.localizationpriority: medium
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
-ROBOTS: 'NOINDEX, NOFOLLOW'
-description: 'Pour configurer les notifications push Microsoft et les notifications push Apple, vous devez créer une stratégie pour définir les types de notification push dont vous avez besoin.'
+ROBOTS: NOINDEX, NOFOLLOW
+description: Pour configurer les notifications push Microsoft et les notifications push Apple, vous devez créer une stratégie pour définir les types de notification push dont vous avez besoin.
+ms.openlocfilehash: 1f4f6e642087bc43024930953980b4c9b6f68a0b
+ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65671890"
 ---
-
 # <a name="mobile-client-push-notification-configuration"></a>Client mobile : configuration des notifications push
  
 Pour configurer les **notifications push Microsoft** et les **notifications push Apple**, vous devez créer une stratégie pour définir les types de notification push dont vous avez besoin.
@@ -24,7 +29,7 @@ Pour configurer les **notifications push Microsoft** et les **notifications push
 Dans l’écran de configuration principal, vous pouvez cliquer sur **Actualiser** pour actualiser et remplir à nouveau la liste des stratégies. Une zone de recherche permet de réduire la liste des stratégies affichées. À mesure que vous tapez le nom à rechercher, la liste des stratégies est automatiquement réduite.
   
 > [!IMPORTANT]
-> Les paramètres de stratégie appliqués au niveau d’une stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. La priorité de la stratégie est la : la stratégie utilisateur (la plus influente) remplace une stratégie de site, puis une stratégie de site remplace une stratégie globale (la moins influente). Cela signifie que plus le paramètre de stratégie est proche de l’objet que la stratégie affecte, plus elle a d’influence sur l’objet. 
+> Les paramètres de stratégie appliqués au niveau d’une stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. La priorité de la stratégie est : la stratégie utilisateur (la plus influente) remplace une stratégie de site, puis une stratégie de site remplace une stratégie globale (moins d’influence). Cela signifie que plus le paramètre de stratégie est proche de l’objet que la stratégie affecte, plus elle a d’influence sur l’objet. 
   
 Deux procédures sont possibles pour créer et modifier des stratégies :
   
@@ -32,7 +37,7 @@ Deux procédures sont possibles pour créer et modifier des stratégies :
     
 2. **Modifier** : sélectionnez une stratégie et cliquez sur Modifier pour sélectionner une action dans une liste déroulante. Vous pouvez modifier uniquement des sites que vous avez déjà créés ou modifier la stratégie globale :
     
-   - **Afficher les détails…**  : affiche des informations sur la stratégie actuellement sélectionnée. Vous serez en mesure d’apporter des modifications à la stratégie existante.
+   - **Afficher les détails...**: affiche des informations sur la stratégie actuellement sélectionnée. Vous serez en mesure d’apporter des modifications à la stratégie existante.
     
    - **Sélectionner tout** : si vous disposez de plusieurs stratégies et devez sélectionner toutes les stratégies, cliquez sur Sélectionner tout.
     
@@ -43,9 +48,9 @@ Deux procédures sont possibles pour créer et modifier des stratégies :
   
 La création d’une stratégie et la modification d’une stratégie existante sont associées à deux opérations :
   
-- **Commit** L’action de validation crée ou met à jour la stratégie et enregistre les modifications
+- **Commettre** L’action de validation crée ou met à jour la stratégie et enregistre les modifications
     
-- **Annuler** L’action d’annulation annule toutes les modifications qui ont été apportées depuis la dernière action de validation. Si vous annulez, les modifications apportées seront perdues.
+- **Annuler** L’action d’annulation ignore toutes les modifications qui ont été apportées depuis la dernière action de validation. Si vous annulez, toutes les modifications apportées seront perdues.
     
 Deux paramètres sont possibles pour **Configuration des notifications push**. Les paramètres sont associés aux services de notification push pour Microsoft et Apple. Vous pouvez activer la notification push pour l’un ou l’autre service en activant la case à cocher en regard du nom du service. Vous pouvez désactiver la case à cocher en cliquant dessus à nouveau. Une fois vos sélections effectuées, vous pouvez valider ou annuler. Cliquez sur Valider pour enregistrer les modifications apportées à la stratégie.
   

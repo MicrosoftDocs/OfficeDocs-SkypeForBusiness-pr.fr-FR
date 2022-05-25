@@ -17,12 +17,12 @@ description: Découvrez comment gérer vos applications Teams dans la page Gére
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: facb10f1ad20482c8760a32ba1319b3ed80100e8
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: c0ee3c70e4f01aa3931006c3b9d03ae372ddf999
+ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137025"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65671610"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Gérer Teams applications dans le Centre d’administration Microsoft Teams
 
@@ -39,66 +39,6 @@ Pour gérer les applications, vous utilisez des stratégies pour contrôler les 
 
 > [!NOTE]
 > La page Gérer les applications n’est pas disponible dans les déploiements Microsoft 365 Cloud de la communauté du secteur public High (GCCH) ou Department of Defense (DoD) de Teams.
-
-<!--- TBD: This info belongs in the app policy overview article. Title it as mentioned in the spreadsheet.
-
-* **App permission policy**: With it, you can control what apps are available to specific users in your organization. You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization. See [Manage app permission policies in Teams](teams-app-permission-policies.md).
-* **App setup policies**: It lets you customize the app experience for your users. You choose the apps that you want to pin to the app bar in the Teams clients and the order in which they appear, on web, desktop, and mobile clients. See [Manage app setup policies in Teams](teams-app-setup-policies.md).
-* **Custom app policies and settings**: Teams allows developers in your organization to build, test, and deploy custom apps to other users. Custom apps can be added to Teams by uploading an app package in a .zip file directly to a team or in the personal context. You can use app setup policies to control who in your organization can upload custom apps. You can also set org-wide settings to control whether users can interact with specific custom apps. See [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings).
-
-The following are the important use cases you can accomplish via the the Manage apps page:
-
-* [Allow or block apps at the org level](#allow-and-block-apps)
-* [Apps blocked by publishers](#apps-blocked-by-publishers)
-* [Add apps to teams](#add-an-app-to-a-team)
-* [Approve or upload new custom apps to your organization's app store](#publish-a-custom-app-to-your-organizations-app-store)
-* [View permissions requested by apps](#view-resource-specific-consent-permissions)
-* [Grant consent to apps](#grant-admin-consent-to-apps)
-* [Purchase service for third-party apps](#purchase-services-for-third-party-apps)
-* [See org-level status and properties of apps](#view-apps)
-* [Manage org-wide app settings](#manage-org-wide-app-settings)
-* [View security and compliance information for Microsoft 365 Certified apps](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
-
-<!--- TBD: Commenting for now in favor of the definition list above: 
-
-The Manage apps page gives you a view into all available apps, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
-
-In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
-
---->
-
-<!--- TBD: Move this view apps section to a new article about navigating and understanding TAC. It is yet to be created.
-
-## View apps
-
-You can view every app including the following information about each app.
-
-![Screenshot of the apps details page for an app.](media/app-detail-page.jpg)
-
-- **Name**: The app name. Select the app name to go to the app details page to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, privacy policy, terms of use, categories that apply to the app, certification status, supported capabilities, and app ID.
-- **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Select the link to view certification details for the app. If you see `--`, we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](/microsoft-365-app-certification/overview).
-- **Publisher**: Name of the publisher.
-- **Publishing status**: Publishing status of custom apps.
-- **Status**: Status of the app at the org level, which can be one of the following:
-  - **Allowed**: The app is available for all users in your organization.
-  - **Blocked**: The app is blocked and not available for any users in your organization.
-  - **Blocked by publisher**: The app is blocked by the publisher and is hidden from end-users by default. After you set up the app using the publisher's guidance, you can allow or block the app to make it available to end-users.
-  - **Blocked org-wide**: The app is blocked in org-wide app settings.
-      It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page.
-- **Licenses**: Indicates whether an app offers a Software as a Service (SaaS) subscription for purchase. This column applies only to third-party apps. Each third-party app will have one of the following values:
-  - **Purchase**: The app offers a SaaS subscription and is available to purchase.  
-  - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
-  - **- -**: The app doesn't offer a SaaS subscription.
-- **Custom app**: Whether the app is a custom app.
-- **Permissions**: Indicates whether a third-party or custom app that's registered in Azure Active Directory (Azure AD) has permissions that need consent. You'll see one of the following values:
-  - **View details**: The app has permissions that require consent before the app can access data.
-  - **- -**: The app doesn't have permissions that need consent.
-- **Categories**: Categories that apply to the app.
-- **Version**: App version.
-- **Admin can install in meetings**: Indicates whether an app can be installed by admins in Team meetings. [Learn more](teams-app-setup-policies.md#install-apps)
-
-To see the information that you want in the table, select **Edit Column** in the upper-right corner to add or remove columns to the table.
---->
 
 ## <a name="publish-a-custom-app-to-your-organizations-app-store"></a>Publier une application personnalisée dans l’App Store de votre organisation
 
@@ -127,20 +67,56 @@ Pour en savoir plus, consultez [Publier une application personnalisée en charge
 
 ## <a name="allow-and-block-apps"></a>Autoriser et bloquer des applications
 
-La page Gérer les applications est l’endroit où vous autorisez ou bloquez des applications individuelles au niveau de l’organisation. Il affiche chaque application disponible et son état actuel au niveau de l’organisation. (Le blocage et l’autorisation des applications au niveau de l’organisation sont **passés du volet paramètres de l’application à l’échelle de l’organisation** à cet emplacement.)
+La page Gérer les applications est l’endroit où vous autorisez ou bloquez des applications individuelles au niveau de l’organisation. Il affiche chaque application disponible et son état actuel au niveau de l’organisation.
 
-Pour autoriser ou bloquer une application, sélectionnez-la, puis **sélectionnez Autoriser** ou **Bloquer**. Lorsque vous bloquez une application, toutes les interactions avec cette application sont désactivées et l’application n’apparaît pas dans Teams pour les utilisateurs de votre organisation.
+Pour autoriser ou bloquer une application :
+
+1. Accédez à Teams centre d’administration > Teams applications > Gérer les applications.
+1. Sélectionnez une application dans la liste des applications.
+1. Sélectionnez **Autoriser** ou **Bloquer**.
 
 Lorsque vous bloquez ou autorisez une application sur la page Gérer les applications, cette application est bloquée ou autorisée pour tous les utilisateurs de votre organisation.  Lorsque vous bloquez ou autorisez une application dans une stratégie d’autorisation d’application Teams, elle est bloquée ou autorisée pour les utilisateurs auxquels cette stratégie est affectée. Pour qu’un utilisateur puisse installer et interagir avec n’importe quelle application, vous devez autoriser l’application au niveau de l’organisation sur la page Gérer les applications et dans la stratégie d’autorisation d’application affectée à l’utilisateur.
 
  > [!NOTE]
  > Pour désinstaller une application, cliquez avec le bouton droit sur l’application, puis cliquez sur **Désinstaller** ou utilisez le menu **Autres applications** sur le côté gauche.
 
+## <a name="manage-user-requests-to-unblock-apps"></a>Gérer les demandes des utilisateurs pour débloquer des applications
+
+Vous pouvez afficher les demandes de mise à disposition d’une application bloquée. La demande est envoyée à l’administrateur informatique, qui peut afficher et gérer les demandes des utilisateurs dans le centre d’administration Teams.
+
+  :::image type="content" source="media/user-request.png" alt-text="Déposer une demande d’approbation d’applications bloquées":::
+
+### <a name="view-a-request"></a>Afficher une demande
+
+ 1. Connectez-vous au centre d’administration Teams et sélectionnez [Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)
+
+    :::image type="content" source="media/requested-apps1.png" alt-text="Demande des utilisateurs" lightbox="media/requested-apps.png" border="true":::
+
+ 1. Pour afficher et vérifier le nombre de demandes pour chaque application, triez les demandes dans la colonne **Demandes par utilisateur** .
+ 1. Sélectionnez le nom de l’application que vous souhaitez débloquer et ouvre la page de détails de l’application.
+ 1. Sélectionnez **Gérer les demandes** et effectuez les étapes affichées dans la boîte de dialogue contextuelle. Les étapes d’approbation d’une application varient en fonction de la méthode utilisée pour la bloquer.
+
+    * Si l’application est bloquée à l’aide de stratégies d’autorisation, autorisez l’application en modifiant les [stratégies d’autorisation](teams-app-permission-policies.md).
+    * Si l’application est bloquée pour tous les utilisateurs, [autorisez l’application](#allow-and-block-apps).
+    * Si toutes les applications sont bloquées pour tous les utilisateurs, modifiez [les paramètres à l’échelle de l’organisation](#manage-org-wide-app-settings).
+
+ Si un administrateur autorise une application, il n’informe pas l’utilisateur final que sa demande est effectuée. L’utilisateur doit visiter l’application dans le Windows Store pour vérifier si l’application est débloquée ou non.
+
+### <a name="dismiss-a-user-request"></a>Ignorer une demande d’utilisateur
+
+ 1. Sélectionnez le nom de l’application pour laquelle vous souhaitez ignorer les demandes de l’utilisateur.
+ 1. Sélectionnez **Gérer les demandes** et **sélectionnez Ignorer toutes les demandes** dans la boîte de dialogue.
+ 1. Lorsqu’une demande est ignorée, elle réinitialise les demandes de l’utilisateur à zéro.
+
+  :::image type="content" source="media/reject.png" alt-text="a bloqué le rejet des applications."border="true":::
+
+Si un administrateur ignore une demande, il n’informe pas l’utilisateur final que sa demande est exécutée. L’utilisateur doit visiter l’application dans le Windows Store pour vérifier si l’application est débloquée ou non.
+
 ## <a name="apps-blocked-by-publishers"></a>Applications bloquées par les éditeurs
 
-Lorsqu’un éditeur de logiciels indépendant publie une application dans l’App Store global, il peut avoir besoin d’administrateurs pour configurer ou personnaliser l’expérience de l’application. L’administrateur peut le mettre à la disposition des utilisateurs finaux lorsque l’application est entièrement configurée.
+Lorsqu’un éditeur de logiciels indépendant publie une application dans l’App Store global, il peut avoir besoin d’administrateurs pour configurer ou personnaliser l’expérience de l’application. L’administrateur peut la mettre à la disposition des utilisateurs finaux lorsque l’application est entièrement configurée.
 
-Par exemple, Contoso Electronics est un éditeur de logiciels indépendants qui a créé une application de support technique pour Microsoft Teams. Contoso Electronics souhaite que ses clients configurent certaines propriétés de l’application afin que, lorsque les utilisateurs interagissent avec l’application, elle fonctionne comme prévu. Avant qu’un administrateur puisse autoriser ou bloquer l’application, elle s’affiche comme **bloquée par l’éditeur** dans le centre d’administration Teams et est masquée par défaut par les utilisateurs finaux. Après avoir suivi les instructions de l’éditeur pour configurer l’application, vous pouvez la mettre à la disposition des utilisateurs en passant à l’état **Autorisé**, ou empêcher les utilisateurs d’utiliser l’application en remplaçant l’état **par Bloqué**.
+Par exemple, Contoso Electronics est un éditeur de logiciels indépendants qui a créé une application de support technique pour Microsoft Teams. Contoso Electronics souhaite que ses clients configurent certaines propriétés de l’application afin que, lorsque les utilisateurs interagissent avec l’application, elle fonctionne comme prévu. Avant qu’un administrateur puisse autoriser ou bloquer l’application, elle s’affiche comme **bloquée par l’éditeur** dans le centre d’administration Teams et est masquée par défaut par les utilisateurs finaux. Après avoir suivi les instructions de l’éditeur pour configurer l’application, vous pouvez la mettre à la disposition des utilisateurs en définissant l’état **Sur Autorisé**, ou empêcher les utilisateurs d’utiliser l’application en remplaçant l’état **par Bloqué**.
 
 ![Capture d’écran de l’état bloqué par l’éditeur dans le Centre d’administration Teams.](media/blocked-by-publisher.png)
 
@@ -164,7 +140,7 @@ Vous pouvez rechercher et acheter des licences pour les services offerts par des
 
 ## <a name="grant-admin-consent-to-apps"></a>Accorder le consentement de l’administrateur aux applications
 
-Vous pouvez examiner et accorder le consentement aux applications qui demandent des autorisations pour le compte de tous les utilisateurs de votre organisation. Pour cela, les utilisateurs n’ont pas à examiner et à accepter les autorisations demandées par l’application lorsqu’ils démarrent l’application. La colonne **Autorisations** indique si une application dispose d’autorisations qui nécessitent un consentement. Vous verrez un lien **afficher les détails** de chaque application inscrite dans Azure AD disposant d’autorisations qui nécessitent un consentement. Pour plus d’informations, consultez [Afficher les autorisations d’application et accorder le consentement de l’administrateur dans le centre d’administration Microsoft Teams](app-permissions-admin-center.md).
+Vous pouvez examiner et accorder le consentement aux applications qui demandent des autorisations pour le compte de tous les utilisateurs de votre organisation. Pour cela, les utilisateurs n’ont pas à examiner et à accepter les autorisations demandées par l’application lorsqu’ils démarrent l’application. La colonne **Autorisations** indique si une application dispose d’autorisations qui nécessitent un consentement. Vous verrez un lien **Afficher les détails** pour chaque application inscrite dans Azure AD disposant d’autorisations qui nécessitent un consentement. Pour plus d’informations, consultez [Afficher les autorisations d’application et accorder le consentement de l’administrateur dans le centre d’administration Microsoft Teams](app-permissions-admin-center.md).
 
 ## <a name="view-resource-specific-consent-permissions"></a>Afficher les autorisations de consentement spécifiques aux ressources
 
@@ -172,7 +148,7 @@ Les autorisations de consentement spécifiques aux ressources (RSC) permettent a
 
 ## <a name="manage-org-wide-app-settings"></a>Gérer les paramètres d’application à l’échelle de l’organisation
 
-Utilisez les paramètres d’application à l’échelle de l’organisation pour contrôler si les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) bénéficient de l’expérience d’application de première ligne personnalisée, si les utilisateurs peuvent installer des applications tierces et si les utilisateurs peuvent charger ou interagir avec des applications personnalisées dans votre organisation. Les paramètres de l’application à l’échelle de l’organisation contrôlent le comportement de tous les utilisateurs et remplacent les autres stratégies d’autorisation d’application attribuées à des utilisateurs. Vous pouvez les utiliser pour contrôler des applications malveillantes ou problématiques.
+Utilisez les paramètres d’application à l’échelle de l’organisation pour contrôler si les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) bénéficient de l’expérience d’application de première ligne personnalisée (bientôt disponible), si les utilisateurs peuvent installer des applications tierces et si les utilisateurs peuvent charger ou interagir avec des applications personnalisées dans votre organisation. Les paramètres de l’application à l’échelle de l’organisation contrôlent le comportement de tous les utilisateurs et remplacent les autres stratégies d’autorisation d’application attribuées à des utilisateurs. Vous pouvez les utiliser pour contrôler des applications malveillantes ou problématiques.
 
 > [!NOTE]
 > Pour savoir comment utiliser les paramètres d’application à l’échelle de l’organisation dans Microsoft 365 Gouvernement - Cloud de la communauté du secteur public les déploiements de Teams du haut GCCH et du ministère de la Défense ( DoD), consultez [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md).
@@ -181,12 +157,12 @@ Utilisez les paramètres d’application à l’échelle de l’organisation pou
 
     :::image type="content" source="media/manage-apps-org-wide-app-settings.png" alt-text="Capture d’écran du volet Paramètres de l’application à l’échelle de l’organisation sur la page Gérer les applications":::
 
-1. Sous **Applications personnalisées**, désactivez ou **activez Afficher les applications personnalisées**. Lorsque ce paramètre est activé, les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) bénéficient de l’expérience d’application de première ligne personnalisée. Cette expérience épingle les applications les plus pertinentes dans Teams pour les travailleurs de première ligne. Pour en savoir plus, consultez [Tailor Teams apps pour vos employés de première ligne](pin-teams-apps-based-on-license.md).
+1. (Bientôt disponible) Sous **Applications personnalisées**, désactivez ou **activez Afficher les applications personnalisées**. Lorsque ce paramètre est activé, les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) bénéficient de l’expérience d’application de première ligne personnalisée. Cette expérience épingle les applications les plus pertinentes dans Teams pour les travailleurs de première ligne. Pour en savoir plus, consultez [Tailor Teams apps pour vos employés de première ligne](pin-teams-apps-based-on-license.md).
 
     Cette fonctionnalité est disponible pour les licences F. D’autres types de licences seront pris en charge à l’avenir.
 1. Sous **Applications tierces**, désactiver ou activer ces paramètres pour contrôler l’accès à des applications tierces :
 
-    - **Autoriser les applications tierces** : cette commande contrôle si les utilisateurs peuvent utiliser des applications tierces. Si vous désactivez ce paramètre, vos utilisateurs ne seront pas en mesure d’installer ou d’utiliser des applications tierces et l’état de l’application de ces applications s’affiche comme **bloqué à l’échelle de l’organisation** dans le tableau.
+    * **Autoriser les applications tierces** : cette commande contrôle si les utilisateurs peuvent utiliser des applications tierces. Si vous désactivez ce paramètre, vos utilisateurs ne seront pas en mesure d’installer ou d’utiliser des applications tierces et l’état de l’application de ces applications s’affiche comme **bloqué à l’échelle de l’organisation** dans le tableau.
 
         > [!NOTE]
         > Lorsque **l’option Autoriser les applications tierces** est désactivée, [les webhooks sortants sont toujours activés](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) pour tous les utilisateurs, mais vous pouvez les contrôler au niveau de l’utilisateur en autorisant ou en bloquant l’application webhook sortante via des [stratégies d’autorisation d’application](teams-app-permission-policies.md). Notez que si vous disposez de [stratégies d’autorisation d’application](teams-app-permission-policies.md) existantes pour les **applications Microsoft** qui utilisent le paramètre **Autoriser des applications spécifiques et bloquent tous les autres** paramètres, et que vous souhaitez activer les webhooks sortants pour les utilisateurs, ajoutez l’application De webhook sortant à la liste.
@@ -194,7 +170,7 @@ Utilisez les paramètres d’application à l’échelle de l’organisation pou
         > [!NOTE]
         > Les utilisateurs de Teams peuvent ajouter des applications lorsqu’ils hébergent des réunions ou des conversations avec des personnes d’autres organisations. Ils peuvent également utiliser des applications partagées par des personnes d’autres organisations lorsqu’ils rejoignent des réunions ou des conversations hébergées par ces organisations. Les stratégies de données de l’organisation de l’utilisateur hôte, ainsi que les pratiques de partage de données de toutes les applications tierces partagées par l’organisation de cet utilisateur, sont appliquées.
 
-    - **Autoriser toute nouvelle application tierce publiée sur le magasin par défaut** : cette option contrôle la publication automatique des nouvelles applications tierces publiées dans le magasin d’applications Teams dans Teams. Vous ne pouvez définir cette option que si vous autorisez des applications tierces.
+    * **Autoriser toute nouvelle application tierce publiée sur le magasin par défaut** : cette option contrôle la publication automatique des nouvelles applications tierces publiées dans le magasin d’applications Teams dans Teams. Vous ne pouvez définir cette option que si vous autorisez des applications tierces.
 
 1. Sous **Applications personnalisées**, désactivez ou **activez Autoriser l’interaction avec les applications personnalisées**. Ce paramètre contrôle si les utilisateurs peuvent interagir avec des applications personnalisées. Pour plus d’informations, consultez [Gérer les stratégies et paramètres d’application personnalisés dans Teams](teams-custom-app-policies-and-settings.md).
 1. Sélectionnez **Enregistrer** pour que les paramètres d’application à l’échelle de l’organisation prennent effet.

@@ -18,50 +18,47 @@ f1.keywords:
 ms.custom:
 - Legal
 hideEdit: true
-description: Comment faire la recherche d’un compte relais IP pour le Canada.
-ms.openlocfilehash: d062ec96a35d01fc5986af24a2bc52adf8138440
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Comment pousser un soupir pour un compte RELAIS IP pour le Canada.
+ms.openlocfilehash: 63b4bf27d12a11200ed6dc4601d7116089013a40
+ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620542"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65671690"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>Relais IP au Canada - inscription
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Pour configurer un compte relais IP pour le Canada, veuillez compléter les informations dans la liste ci-dessous et les envoyer par e-mail [à ptn@microsoft.com.](mailto:ptn@microsoft.com)
+Pour configurer un compte RELAIS IP pour le Canada, renseignez les informations indiquées ci-dessous et envoyez-les par e-mail à [ptn@microsoft.com](mailto:ptn@microsoft.com).
 
 - Prénom & nom :
 
-- Microsoft 365 ou Office 365 nom de domaine de l’organisation :(Exemple : Contoso.com)   
+- nom de domaine de l’organisation Microsoft 365 ou Office 365 :(Exemple : Contoso.com)
 
-- Microsoft 365 numéro Office 365 d’utilisateur :(Exemple : +1 XXX XXX XXXX)
+- Microsoft 365 ou Office 365 numéro de téléphone de l’utilisateur :(Exemple : +1 XXX XXX XXXX)
 
-- Mot de passe (8 à 16 caractères) :    
+- Mot de passe (8 à 16 caractères) :
 
-- Adresse physique le plus probable au moment d’une situation d’urgence : 
+- Adresse physique la plus probable au moment d’une urgence :
 
-- Numéro de rue & nom : 
+- Nom & numéro de rue :
 
-- Appartement / Suite :    
+- Appartement / Suite :
 
-- Ville : 
+- Ville:
 
-- Région/État : 
+- Province/État :
 
-- Code postal / Code postal :   
+- Code postal/code postal :
 
-- Téléphone Numéro : 
+- numéro Téléphone :
 
-- Microsoft 365 adresse Office 365 messagerie électronique :
+- adresse e-mail Microsoft 365 ou Office 365 :
 
 > [!NOTE]
-> L’adresse de courrier ci-dessus reçoit les messages qui vous sont laissés si vous n’êtes pas en ligne lorsque quelqu’un vous appelle via un relais IP. 
+> L’adresse e-mail ci-dessus reçoit les messages qui vous sont laissés si vous n’êtes pas en ligne lorsqu’une personne vous appelle via le relais IP. 
 
-Une fois votre compte prêt (dans les 24 heures), nous vous en utiliserons le nom d’utilisateur et le mot de passe par e-mail. 
+Une fois que votre compte est prêt (dans les 24 heures de travail), nous vous en retourons par e-mail avec le nom d’utilisateur et le mot de passe. 
 
-
-Consultez ensuite le relais [IP au Canada - Guide de l’utilisateur](ip-relay-canada-user-guide.md) pour commencer. 
-
-
+Ensuite, consultez le [relais IP au Canada - Guide de l’utilisateur](ip-relay-canada-user-guide.md) pour commencer. 

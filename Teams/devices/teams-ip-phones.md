@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams afin de produire les meilleurs résultats.
-ms.openlocfilehash: b63adbf126936bf7a4fcf004ab18338351b09565
-ms.sourcegitcommit: 4b0bd129af9cd487123ef6a5dc19ace0ec5a6c41
+ms.openlocfilehash: 43e408defc9f1202cb31d6d46cccbc8df7704254
+ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65406390"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65671780"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams des appareils Android certifiés
 
@@ -45,9 +45,11 @@ Les appareils suivants sont certifiés dans le cadre du programme de certificati
 
 |Modèle d’appareil    | Version du microprogramme    | Date de fin de la certification actuelle | Android version du système d’exploitation                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| AudioCodes C450HD                      | `1.17.443`                                                  |    5 août 2023              | 9 |
+| AudioCodes C448HD (mode majuscule uniquement)       |  `1.17.443`                                                   | 5 août 2023            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | 3 septembre 2025     | 11 |
-| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 22 avril 2022               | 7.1x |
-| AudioCodes C448HD (mode majuscule uniquement)       | `C450HD_TEAMS_0.225`                                                  | 22 avril 2022               | 7.1x |
+| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 22 avril 2022               | 7.1.x |
+| AudioCodes C448HD (mode majuscule uniquement)       | `C450HD_TEAMS_0.225`                                                  | 22 avril 2022               | 7.1.x |
 | Crestron UC-P10/T/CT                   | `1.0.0.80`       | 5 août 2023            | 9 |
 | Crestron UC-P8/T /CT                   | `1.0.0.56`       | 5 août 2023            | 9 |
 | Audiocodes C470HD                      | `1.8.293   `                                               | 5 août 2023               | 9 |
@@ -115,7 +117,7 @@ Voici les dernières versions Teams de l’application téléphonique et du micr
 
 #### <a name="app-versions"></a>Versions d’application
 
-| Version du produit | Date de publication  | version de l’application Microsoft Teams | version Portail d'entreprise | Version de l’Agent d’administration |
+| Version du produit | Date de publication  | version de l’application Microsoft Teams | version Portail d'entreprise | version de Administration Agent |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
 | Mise à jour 2022 #2A  | 13 avril 2022   | `1449/1.0.94.2022041102` |`5.0.5304.0` | `322` |
 | Mise à jour 2022 #2   | 21 mars 2022   | `1449/1.0.94.2022030501` |`5.0.5304.0` | `322` |
@@ -137,7 +139,7 @@ Voici les dernières versions Teams de l’application téléphonique et du micr
 
 #### <a name="firmware-versions"></a>Versions du microprogramme
 
-Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions installées correspondantes de l’application Microsoft Teams, Portail d'entreprise et de l’Agent d’administration. Recherchez la version du produit dans la colonne **Version incluse du produit** , puis recherchez la version du produit dans le tableau **des versions d’application** précédentes.
+Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions installées correspondantes de l’application Microsoft Teams, Portail d'entreprise et Administration Agent. Recherchez la version du produit dans la colonne **Version incluse du produit** , puis recherchez la version du produit dans le tableau **des versions d’application** précédentes.
 
 | Modèle d’appareil  | Version du microprogramme  | Version du produit incluse  |
 |:----------------|:--------------|:----------------------------|
@@ -227,7 +229,7 @@ Voici les dernières salles Teams sur Android versions d’application et de mic
 
 #### <a name="app-versions"></a>Versions d’application
 
-| Version du produit| Date de publication | version de l’application Microsoft Teams | version Portail d'entreprise | Version de l’Agent d’administration |
+| Version du produit| Date de publication | version de l’application Microsoft Teams | version Portail d'entreprise | version de Administration Agent |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 | Mise à jour 2022 #1  | 24 février 2022 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Mise à jour #2A 2021 | 15 juillet 2021  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
@@ -240,7 +242,7 @@ Voici les dernières salles Teams sur Android versions d’application et de mic
 
 #### <a name="firmware-versions"></a>Versions du microprogramme
 
-Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, Portail d'entreprise et de l’agent d’administration, qui sont installées en recherchant la version du produit dans la colonne **De version du produit inclus**. Recherchez ensuite la version du produit dans le tableau **des versions d’application** ci-dessus.
+Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, Portail d'entreprise et Administration Agent, qui sont installées en recherchant la version du produit dans la colonne **De version du produit inclus**. Recherchez ensuite la version du produit dans le tableau **des versions d’application** ci-dessus.
 
 | Modèle d’appareil  | Version du microprogramme | Version du produit incluse |
 |:--------------|:-----------------|:-------------------------|
@@ -298,7 +300,7 @@ Voici les dernières versions Microsoft Teams Affiche l’application et le micr
 
 #### <a name="app-versions"></a>Versions d’application
 
-|Version du produit| Date de publication | version de l’application Microsoft Teams | version Portail d'entreprise | Version de l’Agent d’administration |
+|Version du produit| Date de publication | version de l’application Microsoft Teams | version Portail d'entreprise | version de Administration Agent |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 |Mise à jour 2021 #4  |5 janvier 2022 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`
 |Mise à jour 2021 #3  |8 décembre 2021 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
@@ -308,7 +310,7 @@ Voici les dernières versions Microsoft Teams Affiche l’application et le micr
 
 #### <a name="firmware-versions"></a>Versions du microprogramme
 
-Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, Portail d'entreprise et de l’agent d’administration, qui sont installées en recherchant la version du produit dans la colonne **De version du produit inclus**. Recherchez ensuite la version du produit dans le tableau **des versions d’application** ci-dessus.
+Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, Portail d'entreprise et Administration Agent, qui sont installées en recherchant la version du produit dans la colonne **De version du produit inclus**. Recherchez ensuite la version du produit dans le tableau **des versions d’application** ci-dessus.
 
 | Modèle d’appareil  | Version du microprogramme | Version du produit incluse|
 |:--------------|:-----------------|:-------------------------|
@@ -322,7 +324,7 @@ Voici les dernières versions de l’application Microsoft Teams Panels et du mi
 
 #### <a name="app-versions"></a>Versions d’application
 
-|Version du produit| Date de publication | version de l’application Microsoft Teams | version Portail d'entreprise | Version de l’Agent d’administration |
+|Version du produit| Date de publication | version de l’application Microsoft Teams | version Portail d'entreprise | version de Administration Agent |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 |Mise à jour 2022 #2  | 25 avril 2022 | `1449/1.0.97.2022733702` | `5.0.5304.0`  | `322` |
 |Mise à jour #1A 2022 | 25 février 2022 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
@@ -331,7 +333,7 @@ Voici les dernières versions de l’application Microsoft Teams Panels et du mi
 
 #### <a name="firmware-versions"></a>Versions du microprogramme
 
-Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, Portail d'entreprise et de l’agent d’administration, qui sont installées en recherchant la version du produit dans la colonne **De version du produit inclus**. Recherchez ensuite la version du produit dans le tableau **des versions d’application** ci-dessus.
+Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, Portail d'entreprise et Administration Agent, qui sont installées en recherchant la version du produit dans la colonne **De version du produit inclus**. Recherchez ensuite la version du produit dans le tableau **des versions d’application** ci-dessus.
 
 | Modèle d’appareil  | Version du microprogramme | Version du produit incluse|
 |:--------------|:-----------------|:-------------------------|

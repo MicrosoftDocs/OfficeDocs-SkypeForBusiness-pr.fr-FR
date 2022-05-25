@@ -1,5 +1,5 @@
 ---
-title: Configurer la base de données d’emplacements dans Skype Entreprise Server
+title: Configurer la base de données d’emplacement dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: Configurez, remplissez et publiez la base de données d’emplacements E9-1-1 dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 5ebace7eabe0db04f06611bc9c11263021733367
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Configurez, remplissez et publiez la base de données d’emplacement E9-1-1 dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: fc7f53e1b62ec23e8075a9eac0d1158ee0143a5b
+ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400718"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65671560"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurer la base de données d’emplacements dans Skype Entreprise Server
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurer la base de données d’emplacement dans Skype Entreprise Server
  
-Configurez, remplissez et publiez la base de données d’emplacements E9-1-1 dans Skype Entreprise Server Voix Entreprise. 
+Configurez, remplissez et publiez la base de données d’emplacement E9-1-1 dans Skype Entreprise Server Voix Entreprise. 
   
 Pour permettre aux clients de détecter automatiquement leur emplacement au sein d’un réseau, vous devez d’abord configurer la base de données d’emplacements. 
   
-Pour configurer la base de données d’emplacements, effectuez les tâches suivantes :
+Pour configurer la base de données d’emplacement, effectuez les tâches suivantes :
   
-- Remplir la base de données avec une correspondance des éléments réseau avec les emplacements. Si vous utilisez une passerelle ELIN (Emergency Location Identification Number), vous devez inclure le numéro ELIN dans le \<CompanyName\> champ.
+- Remplir la base de données avec une correspondance des éléments réseau avec les emplacements. Si vous utilisez une passerelle ELIN (Emergency Location Identification Number), vous devez inclure le ELIN dans le \<CompanyName\> champ.
     
     Si vous ne renseignez pas la base de données d’emplacements et que **Lieu obligatoire** dans la stratégie d’emplacement est défini sur **Oui** ou sur **Clause d’exclusion de responsabilité**, le client invitera l’utilisateur à entrer un emplacement manuellement.
     
@@ -39,7 +39,7 @@ Pour configurer la base de données d’emplacements, effectuez les tâches suiv
     
 - Publier la base de données mise à jour.
     
-## <a name="populate-the-location-database"></a>Remplir la base de données d’emplacements
+## <a name="populate-the-location-database"></a>Remplir la base de données d’emplacement
 
 Pour localiser automatiquement des clients au sein d’un réseau, vous devez tout d’abord renseigner la base de données d’emplacements avec un schéma de collage réseau, qui mappe les éléments du réseau à des adresses civiles (c’est à dire, les rues). Vous pouvez utiliser des sous-réseaux, des points d’accès sans fil, des commutateurs et des ports pour définir le schéma de collage.
   
@@ -47,12 +47,12 @@ Vous pouvez ajouter des adresses à la base de données d’emplacements individ
   
 Si vous utilisez une passerelle ELIN, incluez-la dans le champ **CompanyName** pour chaque emplacement. Vous pouvez inclure plusieurs ELIN pour chaque emplacement, séparées par un point-virgule.
   
-|**Élément réseau**|**Colonnes requises**|
+|**Élément Network**|**Colonnes requises**|
 |:-----|:-----|
-|**Point d’accès sans fil** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**Subnet** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**Port** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…  <br/> …\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**Commutateur** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Point d’accès sans fil** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ...\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Subnet** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ...\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Port** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,...  <br/> ...\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Commutateur** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ...\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>Pour ajouter des éléments réseau à la base de données d’emplacements
 
@@ -120,7 +120,7 @@ Si vous utilisez une passerelle ELIN, incluez-la dans le champ **CompanyName** p
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>Pour valider des adresses situées dans la base de données des emplacements
 
-1.  Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
+1.  Démarrez l’interpréteur de commandes de gestion Skype Entreprise Server : cliquez sur **Démarrer**, cliquez sur **Tous les programmes**, cliquez Skype Entreprise **2015**, puis cliquez sur **Skype Entreprise Server Shell de gestion**.
     
 2. Exécutez les applets de commande suivantes pour configurer la connexion du fournisseur de service d’urgence.
     
@@ -137,17 +137,17 @@ Si vous utilisez une passerelle ELIN, incluez-la dans le champ **CompanyName** p
 
    Vous pouvez également utiliser l’applet de commande **Test-CsLisCivicAddress** pour valider des adresses individuelles.
     
-## <a name="publish-the-location-database"></a>Publier la base de données d’emplacements
+## <a name="publish-the-location-database"></a>Publier la base de données d’emplacement
 
 Les nouveaux emplacements que vous avez ajoutés à la base de données d’emplacements ne seront pas mis à la disposition du client tant qu’ils n’auront pas été publiés.
   
-Si vous utilisez des passerelles ELIN (Emergency Location Identification Number), vous devez également charger les numéros d’identification d’emplacement d’urgence vers la base de données ALI (Automatic Location Identification) de votre opérateur de réseau téléphonique commuté (PSTN). Votre opérateur PSTN peut vous obliger à utiliser un format spécifique pour les enregistrements ELIN. Pour plus d’informations, contactez votre opérateur PSTN. Vous pouvez exporter les enregistrements à partir de la base de données du service Informations sur l’emplacement et les mettre en forme selon les besoins.
+Si vous utilisez des passerelles ELIN (Emergency Location Identification Number), vous devez également charger les ELIN dans la base de données ALI (Automatic Location Identification) de votre opérateur de réseau téléphonique commuté (RTC). Votre opérateur RTC peut vous obliger à utiliser un format spécifique pour les enregistrements ELIN. Pour plus d’informations, contactez votre opérateur RTC. Vous pouvez exporter les enregistrements à partir de la base de données du service Informations sur l’emplacement et les mettre en forme en fonction des besoins.
   
-### <a name="to-publish-the-location-database"></a>Pour publier la base de données d’emplacements
+### <a name="to-publish-the-location-database"></a>Pour publier la base de données d’emplacement
 
--  Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer, sur** Tous les **programmes, sur** **Skype Entreprise 2015**, puis sur Skype Entreprise Server **Management Shell**.
+-  Démarrez l’interpréteur de commandes de gestion Skype Entreprise Server : cliquez sur **Démarrer**, cliquez sur **Tous les programmes**, cliquez Skype Entreprise **2015**, puis cliquez sur **Skype Entreprise Server Shell de gestion**.
     
-- Exécutez l’cmdlet suivante pour publier la base de données d’emplacements.
+- Exécutez l’applet de commande suivante pour publier la base de données d’emplacement.
     
   ```powershell
   Publish-CsLisConfiguration
