@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Administration pouvez lire les notes de publication de Salles Microsoft Teams, qui répertorient les améliorations cumulatives apportées à Salles Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03a23ecb47fb0efca19ce3a7085a1fcc41b80dc3
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: eadeea6648da5ef2a5b5210b45bb3c884a1cabe8
+ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674196"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65753057"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notes de publication pour Salles Microsoft Teams
 
@@ -39,6 +39,7 @@ salles Teams est régie par la politique de cycle de vie moderne. Pour plus d’
 
 |Libération |Publié sur <br/> Microsoft Store |
 |--- |--- |
+|4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
@@ -90,6 +91,13 @@ salles Teams est régie par la politique de cycle de vie moderne. Pour plus d’
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salles Microsoft Teams présentation des fonctionnalités et résolution des problèmes
+
+### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022)
+
+Introduit dans cette mise à jour :
+- Correctif de bogue pour Jabra Panacast 50
+- Correctif de bogue pour la participation à une réunion anonyme intercloud
+- Correctifs de qualité et de fiabilité
 
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)
 

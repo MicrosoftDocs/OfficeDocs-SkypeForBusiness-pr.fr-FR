@@ -12,12 +12,12 @@ ms.collection:
 description: Découvrez les versions prises en charge du module PowerShell Teams, utilisé pour l’administration de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80465e1685ea05d6f49c6119110ddf2004098055
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 6915448d76de64a65a9ac50e5c66e3ca41e051ef
+ms.sourcegitcommit: 8ce73ea99be607f5cdccb22a5366bc96e8fb09c8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681915"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65758312"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>module PowerShell Teams - Versions prises en charge
 
@@ -29,11 +29,11 @@ Les organisations nouvellement intégrées à Teams ne pourront utiliser Teams m
 
 ## <a name="current-organizations-non-tpm-active"></a>Organisations actuelles (non actives par le module de plateforme sécurisée)
 
-Les organisations qui n’ont pas utilisé Teams module PowerShell au cours des trois derniers mois (du 22 janvier au 22 mars) pourront uniquement utiliser Teams module PowerShell dans la série 4.x.x ou ultérieure à partir du 1er avril 2022.
+Les organisations qui n’ont pas utilisé Teams module PowerShell pendant la période du 22 janvier au 22 mars pourront uniquement utiliser Teams module PowerShell dans la série 4.x.x ou une version ultérieure à partir du 1er avril 2022.
 
 ## <a name="current-organizations-tpm-active"></a>Organisations actuelles (TPM actif)
 
-Les organisations qui ont utilisé Teams module PowerShell au cours des trois derniers mois (du 22 janvier au 22 mars) pourront uniquement utiliser Teams module PowerShell dans la série 4.x.x ou une version ultérieure à partir du 15 juin 2022. Billet du centre de messages pour référence - MC350371.
+Les organisations qui ont utilisé Teams module PowerShell pendant la période du 22 janvier au 22 mars ne pourront utiliser Teams module PowerShell dans la série 4.x.x ou ultérieure à partir du 15 juin 2022. Billet du centre de messages pour référence - MC350371.
 
 ## <a name="important-notes"></a>Remarques importantes
 
@@ -54,7 +54,9 @@ Les organisations qui ont utilisé Teams module PowerShell au cours des trois de
 
   - Modifications apportées à Téléphone affectation de numéros : plus d’informations dans [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (message center post – MC316139).
 
-  - Modifications des paramètres dans Get-CsTenant : plus d’informations dans [Get-CsTenant](/powershell/module/skype/get-cstenant).
+  - Modifications des paramètres dans Get-CsTenant : plus d’informations dans [Get-CsTenant](/powershell/module/skype/get-cstenant) (billet du centre de messages – MC365397).
+  
+  - Si vos scripts utilisent des applets de commande New/Set of Policy ou Configuration avec des paramètres de type PSListModifier, il est recommandé d’utiliser la dernière version (4.2.0 ou ultérieure).
 
 - Lors de l’utilisation de TPM 4.x.x ou version ultérieure, il est recommandé de ne pas utiliser les applets de commande déconseillées ou non prises en charge mentionnées [ci-dessous](#deprecated-cmdlets).
 
@@ -77,7 +79,7 @@ Les organisations qui ont utilisé Teams module PowerShell au cours des trois de
   - [Grant| | Set| Nouveau| Remove]-CsClientPolicy
   - [Grant| Get]-CsHostedVoicemailPolicy
   - [Grant| | Set| Nouveau| Remove]-CsMobilityPolicy
-  - [Grant| Get] CsVoiceRoutingPolicy
+  - [Grant| Get]-CsVoiceRoutingPolicy
   - [Grant| Get]-CsBroadcastMeetingPolicy
   - [Grant| Get]-CsCloudMeetingPolicy
   - [Grant| Get]-CsGraphPolicy
@@ -96,7 +98,7 @@ Les organisations qui ont utilisé Teams module PowerShell au cours des trois de
   - Get-CsHostingProvider
   - [Obtenir| Set| Inscrivez-vous| Annuler l’inscription]-CsHybridPSTNAppliance
   - [Obtenir| Set| Nouveau| Remove]-CsHybridPSTNSite
-  - [Obtenir| Set]- CsHybridMediationServer
+  - [Obtenir| Set]-CsHybridMediationServer
   - [Obtenir| Set| Nouveau| Remove]-CsTenantUpdateTimeWindow
   - Get-CsUserLocationStatus
   - Invoke-CsUcsRollback
@@ -106,7 +108,7 @@ Les organisations qui ont utilisé Teams module PowerShell au cours des trois de
   - [Obtenir| Set| Nouveau| Remove]-CsDefaultCatalogApp
   - [Obtenir| Set| Nouveau| Remove]-CsTeamsAppPreset
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [notes de publication Teams PowerShell](teams-powershell-release-notes.md)
 
