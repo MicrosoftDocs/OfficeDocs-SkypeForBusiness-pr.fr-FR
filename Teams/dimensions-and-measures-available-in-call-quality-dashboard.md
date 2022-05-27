@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenez des informations détaillées sur les dimensions et les mesures utilisées par le tableau de bord de qualité des appels (CQD) pour Microsoft Teams et Skype Entreprise Online.
-ms.openlocfilehash: 01159d64a1c9fdb48321bdb82b6199d6861c4bfa
-ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
+ms.openlocfilehash: f5614f7f0d14aa0053a613f5f471ae5e5315f1cf
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65462048"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675936"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensions et mesures disponibles dans le tableau de bord qualité des appels (CQD)
 
@@ -753,7 +753,7 @@ De nombreuses valeurs de mesure peuvent également être utilisées comme filtre
 |Taux de perte de paquets P50 | Pourcentage | 50 % des demandes doivent avoir un taux de perte de paquets inférieur au taux de perte de paquets donné.|
 |Délai de numérotation sortant pSTN| Millisecondes | Délai qui se produit sur les appels sortants mesuré à partir du moment où un nombre a été composé jusqu’à ce que l’appelant ou la partie appelée entende sonner.|
 |Délai de publication des appels entrants RTC | Millisecondes | Heure ou délai qui se produit sur les appels entrants mesuré à partir du moment où un nombre a été composé jusqu’à ce que l’appelant ou la partie appelée entende sonner.|
-|Pourcentage de bonnes valeurs RTC | Pourcentage | Le NER mesure la capacité d’un réseau à passer des appels en mesurant le nombre d’appels envoyés par rapport au nombre d’appels passés à un destinataire.<br/>NER = (Appels répondus + Occupé par l’utilisateur + Sonnerie sans réponse + Saisies de rejet terminal)/ Nombre total d’appels de tentative x 100.Il existe une erreur allant jusqu’à 0,2 % pour cette mesure. Pour plus d’informations, consultez la note ci-dessous.|
+|Pourcentage de bonnes valeurs RTC | Pourcentage | Le NER mesure la capacité d’un réseau à passer des appels en mesurant le nombre d’appels envoyés par rapport au nombre d’appels passés à un destinataire.<br/>NER = (Appels répondus + Utilisateur occupé + Sonnerie sans réponse + Saisies de rejet terminal) / Nombre total d’appels de tentative x 100. Il existe une erreur allant jusqu’à 0,2 % pour cette mesure. Pour plus d’informations, consultez la note ci-dessous.|
 | Avg Auto Attendant Chain Duration Seconds | Entier | Durée moyenne que les utilisateurs passent dans le standard automatique, mesurée en secondes. |
 | Durée moyenne de la file d’attente d’appels en secondes | Entier | Durée moyenne pendant laquelle les utilisateurs attendent qu’un agent réponde à une file d’attente d’appels, exprimée en secondes. |
 

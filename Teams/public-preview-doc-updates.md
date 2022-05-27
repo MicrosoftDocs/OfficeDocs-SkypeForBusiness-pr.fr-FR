@@ -18,17 +18,17 @@ description: En savoir plus sur la préversion publique dans Microsoft Teams. Es
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: f814483cee8941d3fd29d2442d653c444915d1a5
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 49ea7fe244b46840e80bfa4093706d314c708dcb
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125779"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675066"
 ---
 # <a name="microsoft-teams-public-preview"></a>Préversion publique de Microsoft Teams
 
 > [!NOTE] 
-> Les fonctionnalités incluses dans la préversion ne seront peut-être pas complètes et risquent de subir des modifications avant d’être disponibles dans la version publique. Nous les proposons uniquement à des fins d’évaluation et d’exploration. Les fonctionnalités dans la préversion ne sont pas prises en charge dans le Cloud de la communauté du secteur public (GCC) Office 365.
+> Les fonctionnalités incluses dans l’aperçu peuvent ne pas être complètes et subir des modifications avant d’être disponibles dans la version publique. Nous les proposons uniquement à des fins d’évaluation et d’exploration. Les fonctionnalités d’aperçu ne sont pas prises en charge dans Office 365 Government Community Cloud (GCC).
 
 La préversion publique de Microsoft Teams vous permet d’accéder en avant-première aux fonctionnalités non publiées de Teams. Les préversions vous permettent d’explorer, puis de tester les fonctionnalités à venir. Nous vous invitons également à nous faire part de vos commentaires sur les fonctionnalités des préversions publiques. La préversion publique est activée pour chaque utilisateur de Teams. Vous n’avez donc pas besoin de vous soucier de l’ensemble de votre organisation.
 

@@ -1,5 +1,5 @@
 ---
-title: Planifier l’Connecter conférence de l’opérateur
+title: Planifier Conférence en connexion à l'opérateur
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -15,93 +15,93 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: En savoir plus sur les Connecter conférence téléphonique, telles que la exigences et la planification du déploiement.
+description: En savoir plus sur les Conférence en connexion à l'opérateur, telles que les exigences et la planification du déploiement.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d910fd9d464d1c4ff452da70a3bde039e4748123
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: 881df7d9bd2d2d2bcbf6775654a97066a2927250
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257515"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676016"
 ---
-# <a name="plan-for-operator-connect-conferencing"></a>Planifier l’Connecter conférence de l’opérateur
+# <a name="plan-for-operator-connect-conferencing"></a>Planifier Conférence en connexion à l'opérateur
 
-L’audioconférence Microsoft offre la possibilité d’appeler une conférence et d’appeler à partir d’une conférence à l’aide de numéros de téléphone de réseau téléphonique commuté (PSTN).  Les participants rejoignent Microsoft Teams réunion à l’aide d’un pont de conférence audio uniquement.
+Microsoft Audioconférence offre la possibilité d’accéder à une conférence et de composer à partir d’une conférence à l’aide de numéros de téléphone rtc (RTC).  Les participants participent Microsoft Teams réunions à l’aide d’un pont de conférence audio uniquement.
 
-Grâce aux Connecter de conférence, les organisations peuvent utiliser les numéros de téléphone d’un opérateur tiers pour participer Microsoft Teams réunions. Si votre opérateur actuel fait partie du programme Connecter de l’opérateur Microsoft, vous pouvez ajouter des numéros de téléphone de votre opérateur à votre pont d’audioconférence et les utiliser pour participer à des réunions.
+Avec Conférence en connexion à l'opérateur fonctionnalités, les organisations peuvent utiliser des numéros de téléphone d’un opérateur tiers pour participer à des réunions Microsoft Teams. Si votre opérateur actuel fait partie du programme Microsoft Operator Connect, vous pouvez ajouter des numéros de téléphone de votre opérateur à votre pont Audioconférence et les utiliser pour participer à des réunions.
 
-Sans opérateur Connecter de conférence, les organisations peuvent uniquement utiliser les numéros de téléphone fournis par Microsoft pour leur pont d’audioconférence.
+Sans Conférence en connexion à l'opérateur fonctionnalités, les organisations peuvent uniquement utiliser les numéros de téléphone fournis par Microsoft pour leur pont d’audioconférence.
 
 >[!NOTE]
->Un fournisseur de numéros de téléphone qui fait partie du programme Connecter opérateur Microsoft est référencé dans cet article en tant qu'« opérateur ».
+>Un fournisseur de numéros de téléphone qui fait partie du programme Microsoft Operator Connect est référencé dans cet article comme un « opérateur ».
 >
->Pour voir si votre opérateur participe au programme de mise Connecter’opérateur Microsoft, consultez l’Microsoft 365 [de l Connecter de recherche.](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)
+>Pour voir si votre opérateur participe au programme Microsoft Operator Connect, consultez le [répertoire Microsoft 365 Operator Connect](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
 
-Cet article décrit l’opérateur Connecter conférence :
+Cet article décrit Conférence en connexion à l'opérateur :
 
 - [Avantages](#benefits)
-- [Conditions de licence et facturation](#licensing-requirements-and-billing)
-- [Informations supplémentaires sur l’audioconférence Microsoft](#additional-information-on-microsoft-audio-conferencing)
+- [Exigences en matière de licences et facturation](#licensing-requirements-and-billing)
+- [Informations supplémentaires sur Microsoft Audioconférence](#additional-information-on-microsoft-audio-conferencing)
 
-Pour plus d’informations sur la configuration de l’Connecter conférence, consultez Configurer l’Connecter [conférence.](operator-connect-conferencing-configure.md)
+Pour plus d’informations sur la configuration de Conférence en connexion à l'opérateur, consultez [Configurer Conférence en connexion à l'opérateur](operator-connect-conferencing-configure.md).
 
-Si certains utilisateurs de votre organisation doivent effectuer des appels externes vers des numéros de téléphone PSTN, vous avez encore besoin d’un plan d’appel. Pour en savoir plus sur l’utilisation d’un opérateur tiers pour la connectivité PSTN externe, voir [Plan d’utilisation des](operator-connect-plan.md)Connecter.
+Si certains utilisateurs de votre organisation doivent passer des appels externes à des numéros de téléphone RTC, vous avez toujours besoin d’un forfait d’appels. Pour en savoir plus sur l’utilisation d’un opérateur tiers pour la connectivité RTC externe, consultez [Plan for Operator Connect](operator-connect-plan.md).
 
 ## <a name="benefits"></a>Avantages
 
-L’Connecter conférence offre les avantages suivants :
+Conférence en connexion à l'opérateur offre les avantages suivants :
 
-- **Attribution flexible de numéros de téléphone entre votre opérateur et Microsoft.** Utilisez des numéros de téléphone de Microsoft et de votre opérateur (avec un abonnement Microsoft Audio Conferencing Standard uniquement) ou uniquement des numéros de téléphone de votre opérateur (avec une licence d’opérateur Connecter Conferencing uniquement).
+- **Allocation flexible des numéros de téléphone entre votre opérateur et Microsoft.** Utilisez les numéros de téléphone de Microsoft et de votre opérateur (avec un abonnement Microsoft Audioconférence Standard uniquement) ou utilisez uniquement les numéros de téléphone de votre opérateur (avec une licence Conférence en connexion à l'opérateur uniquement).
 
-- **Infrastructure gérée par un opérateur.**   Votre opérateur gère les contrôleurs de session en bordure (SBCS) et l’interactivité avec Microsoft, ce qui vous permet d’économiser des composants additionnels et de gérer vos données.
+- **Infrastructure gérée par l’opérateur.** Votre opérateur gère les contrôleurs de frontière de session (SBC) et l’interconnexion avec Microsoft, ce qui vous permet de bénéficier d’achats et de gestion supplémentaires de matériel.
 
-- **Déploiement plus rapide et plus facile.**   Connectez-vous rapidement à votre opérateur et attribuez des numéros de téléphone à votre pont de conférence audio à partir du Teams d’administration.
+- **Déploiement plus rapide et plus facile.** Connectez-vous rapidement à votre opérateur et attribuez des numéros de téléphone à votre pont Audioconférence à partir du centre d’administration Teams.
 
-- **Prise en charge et fiabilité améliorées.**   Les opérateurs fournissent un support technique et des contrats de niveau de service partagés afin d’améliorer la prise en charge du service, et l’peering direct optimisé par Azure crée une connexion réseau un-à-un pour une fiabilité accrue.
+- **Prise en charge et fiabilité améliorées.** Les opérateurs fournissent un support technique et des contrats de niveau de service partagé pour améliorer la prise en charge des services, et le peering direct optimisé par Azure crée une connexion réseau un-à-un pour une fiabilité accrue.
 
-L Connecter conférence de conférence peut être la bonne solution pour votre organisation si :
+Conférence en connexion à l'opérateur peut être la solution appropriée pour votre organisation si :
 
-- Vous voulez conserver **vos contrats avec** votre fournisseur de numéros de téléphone existant
+- Vous souhaitez **conserver vos contrats** avec votre fournisseur de numéros de téléphone existant
 
-- Vous voulez **développer la couverture globale de** votre pont d’audioconférence Microsoft existant
+- Vous souhaitez **étendre la couverture mondiale** de votre pont Microsoft Audioconférence existant
 
-- Vous souhaitez **obtenir des numéros de téléphone pour l’audioconférence** à partir d’un nouveau fournisseur de numéros de téléphone
+- Vous souhaitez **obtenir des numéros de téléphone pour Audioconférence** à partir d’un nouveau fournisseur de numéros de téléphone
 
-- **L’audioconférence Microsoft n’est pas disponible dans votre emplacement géographique**
+- **Microsoft Audioconférence n’est pas disponible dans votre emplacement géographique**
 
-- Vous souhaitez tirer parti d’un opérateur pour les services d’audioconférence avec un modèle de paiement à la **minute,** tel que l’utilisation de numéros gratuits et la appels sortants de réunions Teams vers des numéros de téléphone dans les pays qui ne sont pas inclus dans votre abonnement.
+- Vous souhaitez **tirer parti d’un opérateur pour Audioconférence services avec un modèle de paiement à la minute**, par exemple utiliser des numéros gratuits et effectuer des appels sortants depuis Teams réunions vers des numéros de téléphone dans les pays non inclus dans votre abonnement
 
-## <a name="licensing-requirements-and-billing"></a>Conditions de licence et facturation
+## <a name="licensing-requirements-and-billing"></a>Exigences en matière de licences et facturation
 
-Les utilisateurs qui ont besoin de numéros d’opérateur Connecter Conferencing pour participer aux réunions qu’ils organisent doivent avoir une licence Microsoft Audio Conferencing Standard ou une licence d’opérateur Microsoft Connecter Conferencing qui leur est affectée.
+Les utilisateurs qui ont besoin de numéros Conférence en connexion à l'opérateur pour participer aux réunions qu’ils organisent doivent disposer d’un abonnement Microsoft Audioconférence Standard ou d’une licence Microsoft Conférence en connexion à l'opérateur qui leur est attribuée.
 
-### <a name="audio-conferencing-standard-subscription"></a>Abonnement Audioconférence Standard
+### <a name="audio-conferencing-standard-subscription"></a>abonnement Audioconférence Standard
 
-Un abonnement Microsoft Audio Conferencing Standard peut être acheté sous la la mesure d’un module logiciel à une licence Microsoft Teams et est également inclus dans les abonnements Microsoft 365 E5 et Office 365 E5 conférence.
+Un abonnement Microsoft Audioconférence Standard peut être acheté en tant que module complémentaire à une licence Microsoft Teams et est également inclus dans les abonnements Microsoft 365 E5 et Office 365 E5.
 
-L’abonnement Audioconférence Standard permet aux abonnés d’utiliser des numéros de téléphone de Microsoft et de développer leurs ponts d’audioconférence avec les numéros d’un opérateur. Les abonnés peuvent également choisir les appels sortants Teams les réunions à router via Microsoft et les appels à router via un opérateur.
+L’abonnement Audioconférence Standard permet aux abonnés d’utiliser des numéros de téléphone de Microsoft et d’étendre leurs ponts d’audioconférence avec des numéros d’un opérateur. Les abonnés peuvent également choisir les appels sortants à partir de Teams réunions à acheminer via Microsoft et les appels à acheminer via un opérateur.
 
-Pour plus d’informations, [**voir Configurer l’Connecter conférence.**](operator-connect-conferencing-configure.md)
+Pour plus d’informations, consultez [**Configurer Conférence en connexion à l'opérateur**](operator-connect-conferencing-configure.md).
 
-### <a name="operator-connect-conferencing-license"></a>Licence Connecter conférence de l’opérateur
+### <a name="operator-connect-conferencing-license"></a>licence Conférence en connexion à l'opérateur
 
-Une licence de Connecter conférence de Microsoft peut être acquise en tant qu’module logiciel d’Microsoft Teams licence.
+Une licence Microsoft Conférence en connexion à l'opérateur peut être acquise en tant que module complémentaire à une licence Microsoft Teams.
 
-La licence Connecter conférence téléphonique permet aux abonnés d’utiliser les numéros de téléphone d’un opérateur, mais n’inclut pas les numéros de téléphone de Microsoft. Tous les appels sortants Teams vos réunions doivent être acheminés via un opérateur.
+La licence Conférence en connexion à l'opérateur permet aux abonnés d’utiliser les numéros de téléphone d’un opérateur, mais elle n’inclut pas les numéros de téléphone de Microsoft. Tous les appels sortants de Teams réunions doivent être routées via un opérateur.
 
-Pour plus d’informations, [**voir Configurer l’Connecter conférence.**](operator-connect-conferencing-configure.md)
+Pour plus d’informations, consultez [**Configurer Conférence en connexion à l'opérateur**](operator-connect-conferencing-configure.md).
 
 >[!Note]
->Les participants à la réunion n’ont pas besoin d’une licence d’abonnement Standard d’audioconférence ou d’une licence d’opérateur Connecter Conférence pour participer à une réunion organisée par un utilisateur avec les fonctionnalités d’opérateur Connecter Conferencing.
+>Les participants à la réunion n’ont pas besoin d’une licence d’abonnement standard Audioconférence ou d’une licence Conférence en connexion à l'opérateur pour participer à une réunion organisée par un utilisateur disposant de fonctionnalités Conférence en connexion à l'opérateur.
 
-Avec l’opérateur Connecter Conférence, Microsoft facture votre organisation en fonction du type de licence d’audioconférence utilisé par votre organisation, de l’audioconférence ou de l’opérateur Connecter conférence, et de l’utilisation des numéros de téléphone fournis par Microsoft.
+Avec Conférence en connexion à l'opérateur, Microsoft facture votre organisation en fonction du type de licence Audioconférence utilisée par votre organisation, Microsoft Audioconférence ou Conférence en connexion à l'opérateur et l’utilisation de tous les numéros de téléphone fournis par Microsoft.
 
-Votre opérateur facture votre organisation pour l’utilisation des numéros d’Connecter conférence fournis par votre opérateur.
+Votre opérateur facture à votre organisation l’utilisation de Conférence en connexion à l'opérateur numéros qu’il fournit.
 
-## <a name="additional-information-on-microsoft-audio-conferencing"></a>Informations supplémentaires sur l’audioconférence Microsoft
+## <a name="additional-information-on-microsoft-audio-conferencing"></a>Informations supplémentaires sur Microsoft Audioconférence
 
-L’audioconférence Microsoft permet aux participants de participer à Microsoft Teams réunion en composant un numéro de téléphone PSTN ou en composant un numéro de téléphone PSTN. Pour plus d’informations sur les fonctionnalités de Microsoft Audioconférence disponibles pour votre organisation, consultez la conférence [audio dans Microsoft 365.](audio-conferencing-in-office-365.md)
+Microsoft Audioconférence permet aux participants de participer à Microsoft Teams réunions en se rendant avec un numéro de téléphone RTC ou en accédant à un numéro de téléphone RTC. Pour plus d’informations sur les fonctionnalités microsoft Audioconférence disponibles pour votre organisation, consultez [Audioconférence dans Microsoft 365](audio-conferencing-in-office-365.md).

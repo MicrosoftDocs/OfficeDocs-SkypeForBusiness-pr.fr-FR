@@ -16,16 +16,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e57686e2decb5b2d663f75f1ad7884220a9ff4c2
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 38698179e2a3b4c6ca402190c98f89f329820d6e
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922805"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675406"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Obstacles à l’information dans Microsoft Teams
 
-[Les barrières à l’information (IB) Microsoft Purview](/microsoft-365/compliance/information-barriers) sont des stratégies qu’un administrateur peut configurer pour empêcher des individus ou des groupes de communiquer entre elles. Les E/S sont utiles si, par exemple, un service gère des informations qui ne doivent pas être partagées avec d’autres ministères. Les E/S sont également utiles lorsqu’un groupe doit être isolé ou empêché de communiquer avec quelqu’un en dehors de ce groupe. Les canaux partagés dans Microsoft Teams sont pris en charge par les obstacles à l’information. Selon le type de partage, les stratégies d’obstacle à l’information peuvent restreindre le partage de certaines façons. Pour plus d’informations sur le comportement des canaux partagés et des obstacles à l’information, consultez [Obstacles à l’information et Canaux partagés](information-barriers-shared-channels.md).
+[Microsoft Purview les barrières à l’information](/microsoft-365/compliance/information-barriers) (IB) sont des stratégies qu’un administrateur peut configurer pour empêcher des personnes ou des groupes de communiquer entre elles. Les E/S sont utiles si, par exemple, un service gère des informations qui ne doivent pas être partagées avec d’autres ministères. Les E/S sont également utiles lorsqu’un groupe doit être isolé ou empêché de communiquer avec quelqu’un en dehors de ce groupe. Les canaux partagés dans Microsoft Teams sont pris en charge par les obstacles à l’information. Selon le type de partage, les stratégies d’obstacle à l’information peuvent restreindre le partage de certaines façons. Pour plus d’informations sur le comportement des canaux partagés et des obstacles à l’information, consultez [Obstacles à l’information et Canaux partagés](information-barriers-shared-channels.md).
 
 Pour Microsoft Teams, les obstacles à l’information peuvent déterminer et empêcher les types de collaboration non autorisés suivants :
 

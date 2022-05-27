@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f31df258558e052e887a679321dd6ed2db48f344
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 93b0a74feb2d9333d634b9a7858ff6136ca5b5ec
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646253"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676496"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
@@ -65,7 +65,7 @@ Common Data Model (CDM) est le langage de données partagé utilisé par les app
 
 En savoir plus sur le [flux d’approbation](/power-automate/modern-approvals).
 
-Approbations qui sont créées à partir d’un modèle stockent toujours des données dans Microsoft Dataverse, telles que leur titre, leurs détails, leur ID de modèle, etc. Les réponses envoyées lors de la demande d’approbation sont stockées dans les formulaires. En savoir plus sur le  [stockage de données pour Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+Approbations qui sont créées à partir d’un modèle stockent toujours des données dans Microsoft Dataverse, telles que leur titre, leurs détails, leur ID de modèle, etc. Les réponses envoyées lors de la demande d’approbation sont stockées dans les formulaires. En savoir plus sur le [stockage de données pour Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
 >Si vous supprimez le modèle de formulaire sur le site Microsoft Forms, il interrompt votre modèle d’approbation et les utilisateurs ne peuvent pas démarrer la demande. Les utilisateurs reçoivent une erreur « CDB TableNotFound » lors de la tentative d’ouverture d’un modèle d’approbation supprimé le Microsoft Forms.
@@ -223,7 +223,7 @@ Pour utiliser la fonctionnalité de signature électronique d’application Appr
 
 Vous pouvez utiliser le centre d’administration Teams pour contrôler quels fournisseurs de signature électronique tiers sont disponibles pour vos utilisateurs dans l’application Approbations. Par défaut, les fournisseurs de signatures électroniques sont activés dans l’application Approbations. Lorsque vous désactivez un fournisseur de signature électronique, vos utilisateurs n’ont pas accès à ce fournisseur lorsqu’ils créent des approbations. Vos utilisateurs ne pourront pas non plus afficher les demandes de signature électronique qui ont été créées à l’aide de ce fournisseur.
 
-1. Dans le volet gauche du centre d’administration Teams, accédez à **Teams applications** **AppsManage** > .
+1. Dans le volet gauche du centre d’administration Teams, accédez à **Teams applications** > **Gérer les applications**.
 2. Recherchez l’application Approbations, puis sélectionnez-la.
 3. Accédez à l’onglet **Paramètres**, puis effectuez une ou plusieurs des opérations suivantes :
 

@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Découvrez comment utiliser les paramètres de stratégie de réunion pour contrôler l’expiration de la réunion dans Microsoft Teams.
-ms.openlocfilehash: 014989cd2fda0ce28ef96ee53c82908f814ee8c7
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 08cdcd9b7d7f18dafa468bd33ca065dafb5768a6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646213"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675356"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Stratégies de réunion et expiration de la réunion dans Microsoft Teams
 
@@ -131,7 +131,7 @@ Par exemple :
 
 ### <a name="will-this-feature-enforce-file-retention"></a>Cette fonctionnalité appliquera-t-elle la rétention des fichiers ?
 
-Non, les fichiers ne seront pas conservés en raison de cette fonctionnalité ou de ses paramètres. Si un utilisateur disposant d’autorisations de suppression tente de supprimer un TMR dont le paramètre d’expiration est défini, l’action de suppression de cet utilisateur ’ est exécutée.
+Non, les fichiers ne seront pas conservés en raison de cette fonctionnalité ou de ses paramètres. Si un utilisateur disposant d’autorisations de suppression tente de supprimer un TMR qui a un paramètre d’expiration, l’action de suppression de cet utilisateur est exécutée.
 
 ### <a name="what-skus-are-required-for-this-feature"></a>Quelles sont les références SKU requises pour cette fonctionnalité ?
 

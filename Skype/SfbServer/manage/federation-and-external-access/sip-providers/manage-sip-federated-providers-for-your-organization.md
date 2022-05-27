@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: Découvrez comment configurer la prise en charge pour les utilisateurs de fournisseurs fédérés SIP.
-ms.openlocfilehash: b6a28714ec3ad81470f362f49605d0be4805dbe2
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Découvrez comment configurer la prise en charge des utilisateurs de fournisseurs fédérés SIP.
+ms.openlocfilehash: dbbf01de2c1538c0761550b073ace573cde44eb7
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62392556"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676206"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Gérer les fournisseurs fédérés SIP pour votre organisation dans Skype Entreprise Server
 
@@ -34,11 +34,11 @@ Pour configurer la prise en charge pour les utilisateurs des fournisseurs fédé
 
 ## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a>Créer ou modifier des fournisseurs fédérés SIP publics dans Skype Entreprise Server
 
-La connectivité de messagerie instantanée publique permet aux utilisateurs de votre organisation d’utiliser la messagerie instantanée pour communiquer avec les utilisateurs des services de messagerie instantanée fournis par des fournisseurs publics.
+La connectivité de messagerie instantanée publique permet aux utilisateurs de votre organisation d’utiliser la messagerie instantanée pour communiquer avec les utilisateurs des services de messagerie instantanée fournis par les fournisseurs publics.
 
-Skype Entreprise Server a des configurations de fournisseur public pour la messagerie instantanée. Chaque fournisseur public est configuré avec le nom de domaine complet du serveur Edge du fournisseur et le niveau de vérification par défaut permet aux utilisateurs de communiquer uniquement avec les personnes de leur liste de contacts qui utilisent ce **fournisseur**.
+Skype Entreprise Server dispose de configurations de fournisseur public pour la messagerie instantanée. Chaque fournisseur public est configuré avec le nom de domaine complet du serveur Edge du fournisseur, et le niveau de vérification par défaut **Permet aux utilisateurs de communiquer uniquement avec les personnes de leur liste de contacts qui utilisent ce fournisseur**.
 
-Par défaut, aucun des fournisseurs publics n’est activé. Terminez le travail relatif au contrat de licence et à l’approvisionnement avant d’activer les fournisseurs publics. Vous pouvez activer le fournisseur avant de terminer le travail relatif au contrat de licence et à l’approvisionnement. Les utilisateurs ne pourront pas communiquer avec leurs contacts situés chez ces fournisseurs tant que le travail préalable ne sera pas terminé. Pour plus d’informations sur la gestion des licences et l’approvisionnement des fournisseurs publics, voir [Configure policies to control public user acces](../external-access-policies/configure-policies-to-control-public-user-access.md).
+Par défaut, aucun des fournisseurs publics n’est activé. Terminez le travail relatif au contrat de licence et à l’approvisionnement avant d’activer les fournisseurs publics. Vous pouvez activer le fournisseur avant de terminer le travail relatif au contrat de licence et à l’approvisionnement. Les utilisateurs ne pourront pas communiquer avec leurs contacts situés chez ces fournisseurs tant que le travail préalable ne sera pas terminé. Pour plus d’informations sur les licences et l’approvisionnement des fournisseurs publics, consultez [Configurer des stratégies pour contrôler les accès des utilisateurs publics](../external-access-policies/configure-policies-to-control-public-user-access.md).
 
 Utilisez la procédure suivante pour créer ou modifier des fournisseurs publics.
 
@@ -47,7 +47,7 @@ Utilisez la procédure suivante pour créer ou modifier des fournisseurs publics
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL Administration pour ouvrir le Skype Entreprise Server Panneau de configuration. 
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Fédération et accès externe**, puis sur **Fournisseurs fédérés SIP**.
 
@@ -71,7 +71,7 @@ Utilisez la procédure suivante pour créer ou modifier des fournisseurs publics
 
 ## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>Créer ou modifier des fournisseurs fédérés SIP hébergés dans Skype Entreprise Server
 
-La connectivité de messagerie instantanée du fournisseur hébergé permet aux utilisateurs de votre organisation d’utiliser la messagerie instantanée pour communiquer avec les utilisateurs des services de messagerie instantanée fournis par des fournisseurs hébergés.
+La connectivité de messagerie instantanée du fournisseur hébergé permet aux utilisateurs de votre organisation d’utiliser la messagerie instantanée pour communiquer avec les utilisateurs des services de messagerie instantanée fournis par les fournisseurs hébergés.
 
 Chaque fournisseur hébergé est configuré avec le nom de domaine complet du serveur Edge du fournisseur et le niveau de vérification par défaut **Autoriser les utilisateurs à communiquer avec les personnes dans leur liste des contacts qui utilisent ce fournisseur**.
 
@@ -81,7 +81,7 @@ Utilisez la procédure suivante pour créer ou modifier des fournisseurs héberg
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL Administration pour ouvrir le Skype Entreprise Server Panneau de configuration. 
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Fédération et accès externe**, puis sur **Fournisseurs fédérés SIP**.
 

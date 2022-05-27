@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment gérer les modèles d’équipe dans le Centre d’administration
-ms.openlocfilehash: c753a92205844ebade9a713a8442837039232339
-ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
+ms.openlocfilehash: 46b59d42ae464a5f09e9f24ecc91378bd6464034
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65248936"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681395"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Gérer les modèles d’équipe dans le Centre d’administration
 
@@ -106,7 +106,7 @@ R : Les modèles supprimés ne seront plus présents dans les stratégies de mod
 
 R : Oui.
 
-1. Dans le centre d’administration Teams, accédez aux **utilisateurs UsersManage** > .
+1. Dans le centre d’administration Teams, accédez à **Users** > **Manage users**.
 1. Dans la liste des utilisateurs, sélectionnez les utilisateurs que vous souhaitez affecter à la stratégie de modèles.
 1. Sélectionnez **Modifier les paramètres**, puis, sous **Stratégie de modèles**, choisissez la stratégie que vous souhaitez affecter.
 1. Choisissez **Appliquer**.
@@ -117,7 +117,7 @@ Pour plus d’informations, consultez [Affecter une stratégie à des utilisateu
 
 R : Dans le centre d’administration Teams :
 
-1. Accédez aux **utilisateurs UsersManage** > .
+1. Accédez à **Utilisateurs** > **gérer les utilisateurs**.
 2. Sélectionnez **Filtrer**, définissez un filtre pour la stratégie de modèles, puis **choisissez Appliquer**.
 
     ![Stratégie de modèles sélectionnée et affichage des utilisateurs.](media/template-policies-5.png)

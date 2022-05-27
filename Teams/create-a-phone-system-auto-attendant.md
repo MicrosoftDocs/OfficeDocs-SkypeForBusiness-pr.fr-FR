@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester des standards automatiques pour les grandes organisations dans Microsoft Teams.
-ms.openlocfilehash: a0b50a83e54059dca68562c2140ece6253448dd0
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 5f4b4f21f2e1cca8c8bbc350541cdd861b1bda3f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059095"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674366"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
 
@@ -327,7 +327,7 @@ Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suiva
 
 3. Les tests identifient les configurations de locataire, de stratégie ou de compte de ressource qui empêchent le standard automatique de recevoir des appels et fournissent des étapes pour résoudre les problèmes identifiés.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Voici ce que vous obtenez avec Teams Téléphone](./here-s-what-you-get-with-phone-system.md)
 

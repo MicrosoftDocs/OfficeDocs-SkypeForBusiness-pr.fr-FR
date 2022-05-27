@@ -1,5 +1,5 @@
 ---
-title: Rapport d’utilisation de l’audioconférence
+title: Audioconférence rapport d’utilisation des appels sortants
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -21,28 +21,28 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Découvrez quels pays et régions disposent de numéros de conférence rendez-vous et comment ils sont attribués automatiquement.
-ms.openlocfilehash: 16cdae3a377d5ce87c218affc4944051f14f2631
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: 067ff702478e6b7bae38db458a7088021386e6ec
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106442"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675426"
 ---
-# <a name="audio-conferencing-dial-out-usage-report"></a>Rapport d’utilisation de l’audioconférence
+# <a name="audio-conferencing-dial-out-usage-report"></a>Audioconférence rapport d’utilisation des appels sortants
 
-Le rapport d’utilisation de l’audioconférence rendez-vous dans le centre d’administration Teams vous donne une vue d’ensemble de l’utilisation et des dollars dépensés pour le service d’audioconférence rendez-vous. Ce rapport permet aux administrateurs d’utiliser des données au niveau de l’utilisateur en termes de crédits de communication passés et de minutes de numérotation utilisées. Il aidera les administrateurs à déterminer les futurs crédits de communication nécessaires à l’avenir à partir de n’importe quel point dans le temps.
+Le Audioconférence rapport d’utilisation de l’accès sortant dans le centre d’administration Teams vous donne une vue d’ensemble de l’utilisation et des dollars dépensés pour le service d’audioconférence rendez-vous. Ce rapport permet aux administrateurs d’utiliser des données au niveau de l’utilisateur en termes de crédits de communication passés et de minutes de numérotation utilisées. Il aidera les administrateurs à déterminer les futurs crédits de communication nécessaires à l’avenir à partir de n’importe quel point dans le temps.
 
-## <a name="view-the-audio-conferencing-dial-out-usage-report"></a>Afficher le rapport d’utilisation de l’audioconférence
+## <a name="view-the-audio-conferencing-dial-out-usage-report"></a>Afficher le rapport d’utilisation Audioconférence rendez-vous
 
-Dans le volet de navigation gauche du centre d’administration Microsoft Teams,  **sélectionnezAnalytics & rapports**  **reportsUsage** >. SousReport,  **sous Reportstab** , **** sélectionnez le **rapport d’utilisation de l’audioconférence**.
+Dans le volet de navigation gauche du centre d’administration Microsoft Teams, sélectionnez **Analyse & rapports** \> **d’utilisation**. Sous l’onglet **Afficher les rapports**, sous **Rapport**, sélectionnez le **Audioconférence rapport d’utilisation d’appel** sortant.
 
-La  **plage UnderDate** vous permet de sélectionner une plage prédéfinie de 7 ou 28 jours, ou de définir une plage personnalisée.
+Sous **Plage de dates**, vous pouvez sélectionner une plage prédéfinie de 7 ou 28 jours, ou définir une plage personnalisée.
 
- **SousCountry Prévisionné**, sélectionnez un pays par défaut ou sélectionnez tout, puis  **sélectionnez Le rapport d’exécution**.
+Sous **Pays prévisionné**, sélectionnez un pays par défaut ou sélectionnez tout, puis sélectionnez **Exécuter le rapport**.
 
 ## <a name="report-details"></a>Détails du rapport
 
-Le rapport d’utilisation de l’audioconférence avec numérotation comporte trois onglets principaux qui afficheront les informations dans un format de graphique basé sur la plage sélectionnée dans les listes déroulantes ci-dessus :
+Le Audioconférence rapport d’utilisation de la numérotation comporte trois onglets principaux qui affichent des informations dans un format de graphique basé sur la plage sélectionnée dans les listes déroulantes ci-dessus :
 
 - L’onglet **Coût** affiche les crédits de communication passés au cours de la période sélectionnée et le tableau ci-dessous fournit des détails au niveau de l’utilisateur.
 - **L’onglet Minutes d’utilisation** affiche le nombre total de minutes de déconnexion sur la période sélectionnée et le tableau ci-dessous fournit les détails au niveau de l’utilisateur.

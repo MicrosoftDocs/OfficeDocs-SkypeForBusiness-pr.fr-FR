@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Découvrez comment gérer la fonctionnalité Musique en attente dans Système téléphonique.
-ms.openlocfilehash: 4899ffd2a3b6bfda80164ca2df4a5460a2b005e2
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.openlocfilehash: 3f5121e72436966a82b38917453bcd21d8efa10f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624235"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674416"
 ---
 # <a name="music-on-hold"></a>Musique en attente
 
@@ -36,11 +36,11 @@ Notez que les appelants peuvent également écouter Musique en attente dans d’
 
 Pour configurer Musique en attente :
 
-1.  Dans le volet de navigation gauche du centre d’administration Teams, accédez aux **stratégies Voice > Calling**.
+1. Dans le volet de navigation gauche du centre d’administration Teams, accédez aux **stratégies Voice > Calling**.
 
-2.  Sous l’onglet **Gérer les stratégies** , sélectionnez l’une des stratégies existantes ou créez-en une.
+2. Sous l’onglet **Gérer les stratégies** , sélectionnez l’une des stratégies existantes ou créez-en une.
 
-3.  Dans le **Musique en attente pour le champ Appelants RTC**, **sélectionnez Activé** dans le menu déroulant.
+3. Dans le **Musique en attente pour le champ Appelants RTC**, **sélectionnez Activé** dans le menu déroulant.
 
 Vous pouvez également configurer Musique en attente à l’aide du module PowerShell Teams. Dans TeamsCallingPolicy, remplacez le paramètre MusicOnHoldEnabledType par Activé, puis accordez cette instance de stratégie à un ou plusieurs utilisateurs.
 
@@ -57,7 +57,6 @@ Par exemple, un service ou une organisation peut vouloir lire une annonce person
 Pour configurer des Musique personnalisés en attente, utilisez les applets de commande PowerShell New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy et Import/Get/Remove/Export-CsOnlineAudioFile dans Teams module PowerShell 3.0.0 ou ultérieur.
 
 Pour connaître les formats audio pris en charge et la taille maximale du fichier, consultez [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
-
 
 1. Vérifiez que l’utilisateur Teams a Musique en attente pour les appelants RTC définis sur Activé dans la stratégie d’appel Teams. 
 
@@ -104,7 +103,6 @@ Pour exporter un fichier audio chargé, utilisez l’applet de commande Export-C
 
 Le tableau suivant indique les fonctionnalités sur lesquelles les clients et les appareils prennent en charge les Musique en attente et les Musique personnalisés en attente. Microsoft continue d’ajouter la prise en charge des fonctionnalités. Par conséquent, revenez souvent en arrière pour obtenir une disponibilité supplémentaire.
 
-
 | Fonctionnalité | Bureau <br> Windows/Mac OS | Navigateur | Mobile <br> iOS | Mobile <br> Android | Teams Téléphone |
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | Maintenir l’appel RTC 1:1 | -Musique en attente<br>-Musique personnalisé en attente | -Musique en attente<br>-Musique personnalisé en attente | -Musique en attente<br>-Musique personnalisé en attente | -Musique en attente<br>-Musique personnalisé en attente | -Musique en attente<br>-Musique personnalisé en attente |
@@ -147,4 +145,3 @@ Le tableau suivant indique les fonctionnalités sur lesquelles les clients et le
 - [Grant-CsTeamsCallHoldPolicy](/powershell/module/skype/grant-csteamscallholdpolicy)
 
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
-

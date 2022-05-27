@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment les balises sont utilisées dans votre organisation dans Microsoft Teams.
-ms.openlocfilehash: 0fa615f2bbcdd7965777925b2413717779ad4a7a
-ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
+ms.openlocfilehash: 62ac77c6467a17da10fdc3ba66350383d7c8016c
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65442010"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675546"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gérer les balises dans Microsoft Teams
 
@@ -35,7 +35,7 @@ Comme mentionné précédemment, il existe deux types de balises dans Teams.
 - **Balisage par équipe** : avec cette fonctionnalité, les utilisateurs reçoivent automatiquement des balises qui correspondent à leur planification et à leur nom de groupe de shifts dans [l’application Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) dans Teams. Par exemple, la balise « EngineerOnCall » atteint tous les ingénieurs qui sont planifiés dans Shifts pour travailler au moment où la balise est utilisée dans une conversation ou un billet de canal. Avec le balisage par équipe, Teams ne sait pas le nom du personnel en équipe lorsque les utilisateurs doivent rapidement relayer des informations. L’étiquetage par équipe peut également être soutenu par les principaux systèmes de gestion de la main-d’œuvre tels que JDA, Kronos et AMiON en les intégrant à Shifts dans Teams. Pour en savoir plus sur la configuration de cette fonctionnalité, consultez [Configurer le balisage par décalage](#set-up-tagging-by-shift).
 
 > [!NOTE]
-> Les balises ne sont pas prises en charge dans les canaux privés ou partagés.  
+> Les balises ne sont pas prises en charge dans les canaux privés ou partagés.
 
 ## <a name="how-tags-work"></a>Fonctionnement des balises
 
@@ -55,7 +55,7 @@ En tant qu’administrateur, vous pouvez contrôler la façon dont les balises s
 
 ![Capture d’écran des paramètres d’étiquetage dans le centre d’administration Microsoft Teams.](media/manage-tags-admin-settings.png)
 
-Une équipe peut avoir jusqu’à 100 balises, jusqu’à 200 membres d’équipe peuvent être affectés à une balise et jusqu’à 25 balises dans la même équipe peuvent être attribuées à un seul utilisateur. 
+Une équipe peut avoir jusqu’à 100 balises, jusqu’à 200 membres d’équipe peuvent être affectés à une balise et jusqu’à 25 balises dans la même équipe peuvent être attribuées à un seul utilisateur.
 
 ### <a name="set-who-can-add-custom-tags"></a>Définir qui peut ajouter des balises personnalisées
 
@@ -91,15 +91,15 @@ Voici comment ajouter des balises personnalisées et comment configurer l’éti
 
 ### <a name="create-and-assign-custom-tags"></a>Créer et affecter des balises personnalisées
 
-Pour créer et affecter des balises personnalisées, sélectionnez **Teams** sur le côté gauche de l’application, puis recherchez votre équipe dans la liste. Sélectionnez **̇ ̇ ̇ Autres options**, puis choisissez **Gérer les balises**. Ici, vous pouvez créer des balises et les affecter à des personnes de votre équipe.
+Pour créer et affecter des balises personnalisées, sélectionnez **Teams** sur le côté gauche de l’application, puis recherchez votre équipe dans la liste. Sélectionnez **... Plus d’options**, puis **choisissez Gérer les balises**. Ici, vous pouvez créer des balises et les affecter à des personnes de votre équipe.
 
 ![Capture d’écran montrant comment appliquer des balises dans le client Teams .](media/manage-tags-teams.png)
 
-Pour supprimer une balise, sélectionnez **̇ ̇ ̇ Autres options** en regard de la balise, puis **sélectionnez Supprimer la balise**.
+Pour supprimer une balise, sélectionnez **... Autres options** en regard de la balise, puis **sélectionnez Supprimer la balise**.
 
 ### <a name="set-up-tagging-by-shift"></a>Configurer le balisage par décalage
 
-Le balisage par équipe permet à vos utilisateurs d’atteindre les personnes en déplacement en temps réel. Teams affecte automatiquement des utilisateurs avec des balises correspondant à leur planification et leur nom de groupe de décalage à partir de l’application Shifts, ce qui active la messagerie dynamique basée sur les rôles. Les notifications sont envoyées uniquement aux personnes qui sont en équipe au moment où une balise est utilisée pour démarrer une conversation ou dans un billet de canal. 
+Le balisage par équipe permet à vos utilisateurs d’atteindre les personnes en déplacement en temps réel. Teams affecte automatiquement des utilisateurs avec des balises correspondant à leur planification et leur nom de groupe de décalage à partir de l’application Shifts, ce qui active la messagerie dynamique basée sur les rôles. Les notifications sont envoyées uniquement aux personnes qui sont en équipe au moment où une balise est utilisée pour démarrer une conversation ou dans un billet de canal.
 
 1. Dans Teams, accédez à [l’application Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop).
 2. Créez des [groupes de décalage](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) et nommez-les en fonction d’un attribut tel qu’un rôle. Par exemple, EngineerOnCall. Le nom du groupe de décalage est le nom de la balise.
@@ -107,7 +107,7 @@ Le balisage par équipe permet à vos utilisateurs d’atteindre les personnes e
 4. Attendez 15 minutes pour que les équipes planifiées remplissent le service de balisage.
 5. Utilisez la balise partout où vous utilisez des balises dans Teams.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Utilisation de balises dans Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)
 

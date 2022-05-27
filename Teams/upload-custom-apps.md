@@ -1,5 +1,5 @@
 ---
-title: Télécharger vos applications personnalisées dans le Centre Microsoft Teams’administration
+title: Télécharger vos applications personnalisées dans le Centre d’administration Microsoft Teams
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -16,66 +16,66 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment télécharger vos applications personnalisées dans le magasin d’applications de votre organisation dans le Microsoft Teams d’administration.
-ms.openlocfilehash: e27bd96477846ae3a74b1b405519e2a2c833ec39
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+description: Découvrez comment charger vos applications personnalisées dans l’App Store de votre organisation dans le centre d’administration Microsoft Teams.
+ms.openlocfilehash: 586ece26155daa5a1627dc6288cbc5c88ee52f18
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442260"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681935"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publier une application personnalisée en chargeant un package d’application
 
 > [!NOTE]
-> Lorsque vous publiez une application Teams personnalisée, elle est disponible pour les utilisateurs dans le magasin d’applications de votre organisation. Il existe deux façons de publier une application personnalisée et la façon dont vous l’utilisez dépend de la façon dont vous l’obtenez. **Cet article explique comment publier** une application personnalisée en chargeant un package d’application (au format .zip) qu’un développeur vous envoie. L’autre méthode, l’approbation d’une application personnalisée, est utilisée lorsqu’un développeur envoie une application directement à [la page Gérer](manage-apps.md) les applications via l’API Teams App Submission. Pour en savoir plus sur cette méthode, voir [Publier une application personnalisée envoyée via l’API de soumission Teams’application](submit-approve-custom-apps.md).
+> Lorsque vous publiez une application Teams personnalisée, elle est disponible pour les utilisateurs de l’App Store de votre organisation. Il existe deux façons de publier une application personnalisée et la façon dont vous l’utilisez dépend de la façon dont vous obtenez l’application. **Cet article se concentre sur la façon de publier une application personnalisée en chargeant un package d’application (au format .zip) qu’un développeur vous envoie**. L’autre méthode, l’approbation d’une application personnalisée, est utilisée lorsqu’un développeur envoie une application directement à la page [Gérer les applications](manage-apps.md) via l’API de soumission d’application Teams. Pour en savoir plus sur cette méthode, consultez [Publier une application personnalisée envoyée via l’API de soumission d’application Teams](submit-approve-custom-apps.md).
 
-Cet article fournit des instructions de bout en bout sur la façon d’orienter votre application Teams du développement au déploiement jusqu’à la découverte. Ces conseils se concentrent sur Teams aspects de l’application et sont destinés aux administrateurs et professionnels de l’informatique. Pour plus d’informations sur le développement Teams applications, voir la [documentation Teams développeur.](/microsoftteams/platform/)
+Cet article fournit des conseils de bout en bout sur la façon d’utiliser votre application Teams du développement au déploiement en passant par la découverte. Ces conseils se concentrent sur les aspects Teams de l’application et sont destinés aux administrateurs et aux professionnels de l’informatique. Pour plus d’informations sur le développement d’applications Teams, consultez la [documentation Teams développeur](/microsoftteams/platform/).
 
-![Vue d’ensemble de votre application, du développement au déploiement.](media/upload-custom-apps.png)
+![Vue d’ensemble de votre application du développement au déploiement.](media/upload-custom-apps.png)
 
 ## <a name="develop"></a>Développer
 
 ### <a name="create-your-app"></a>Créer votre application
 
-La plateforme Microsoft Teams développeur permet aux développeurs d’intégrer facilement vos propres applications et services afin d’améliorer la productivité, de prendre des décisions plus rapidement et de créer une collaboration autour du contenu et des flux de travail existants. Les applications conçues sur la plateforme Teams sont des ponts entre le client Teams et vos services et flux de travail, ce qui les place directement dans le contexte de votre plateforme de collaboration. Pour plus d’informations, voir la documentation [Teams développeur](/microsoftteams/platform/).
+La plateforme de développement Microsoft Teams permet aux développeurs d’intégrer facilement vos propres applications et services afin d’améliorer la productivité, de prendre des décisions plus rapidement et de créer une collaboration autour du contenu et des flux de travail existants. Les applications basées sur la plateforme Teams sont des ponts entre le client Teams et vos services et flux de travail, en les intégrant directement dans le contexte de votre plateforme de collaboration. Pour plus d’informations, consultez la [documentation Teams développeur](/microsoftteams/platform/).
 
-## <a name="validate"></a>Validate
+## <a name="validate"></a>Valider
 
 ### <a name="get-the-app-package"></a>Obtenir le package d’application
 
-Lorsque l’application est prête à être utilisé en production, le développeur doit produire un package d’application. Ils peuvent utiliser [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview) pour cela. Ils vous enverront le fichier au .zip format.
+Lorsque l’application est prête à être utilisée en production, le développeur doit produire un package d’application. Ils peuvent utiliser [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview) pour cela. Ils vous enverront le fichier au format .zip.
 
-Microsoft [s’appuie sur ces directives](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines) pour s’assurer que les applications sont conformes aux normes de qualité et de sécurité du Teams apps store.
+Microsoft utilise [ces instructions](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines) pour s’assurer que les applications sont conformes aux normes de qualité et de sécurité du magasin mondial d’applications Teams.
 
-### <a name="allow-trusted-users-to-upload-custom-apps"></a>Autoriser les utilisateurs de confiance à télécharger des applications personnalisées
+### <a name="allow-trusted-users-to-upload-custom-apps"></a>Autoriser les utilisateurs approuvés à charger des applications personnalisées
 
-Pour vérifier que l’application fonctionne correctement dans votre client de production, vous devez vous autoriser, ainsi que/ou les utilisateurs de confiance, à télécharger des applications personnalisées dans le client de production. Pour ce faire [, vous devez](teams-app-setup-policies.md) utiliser des stratégies de configuration d’application.
+Pour vérifier que l’application fonctionne correctement dans votre locataire de production, vous devez autoriser vous-même et/ou les utilisateurs approuvés à charger des applications personnalisées dans le locataire de production. Pour ce faire, vous utilisez des [stratégies d’installation](teams-app-setup-policies.md) d’application.
 
 > [!NOTE]
-> Si vous ne souhaitez pas télécharger l’application dans votre client de production à des fins de validation, même pour vous-même ou des utilisateurs de confiance, vous pouvez ignorer cette étape et suivre les étapes du [Télécharger](#upload) et configurer et gérer [des sections](#set-up-and-manage) pour publier l’application nonvalidée dans le magasin d’applications de votre organisation. Ensuite, limitez l’accès à cette application uniquement à vous-même et aux utilisateurs de confiance. Ces utilisateurs peuvent ensuite obtenir l’application à partir du magasin d’applications de votre organisation pour effectuer une validation. Une fois l’application validée, utilisez les mêmes stratégies d’autorisation pour ouvrir l’accès à l’application et la déployer en production.
+> Si vous n’êtes pas à l’aise avec le chargement de l’application sur votre locataire de production pour validation, même pour vous-même ou les utilisateurs approuvés, vous pouvez ignorer cette étape et suivre les étapes de la [Télécharger](#upload) et [configurer et gérer](#set-up-and-manage) des sections pour publier l’application non validée dans l’App Store de votre organisation. Ensuite, limitez l’accès à cette application uniquement à vous-même et aux utilisateurs de confiance. Ces utilisateurs peuvent ensuite obtenir l’application à partir de l’App Store de votre organisation pour effectuer la validation. Une fois l’application validée, utilisez les mêmes stratégies d’autorisation pour ouvrir l’accès et déployer l’application pour une utilisation en production.
 
-Pour autoriser les utilisateurs de confiance à télécharger des applications personnalisées, suivez ces étapes :
+Pour permettre aux utilisateurs approuvés de charger des applications personnalisées, procédez comme suit :
 
-1. Activer le paramètre **d’application Autoriser l’interaction avec des applications** personnalisées à l’échelle de l’organisation. Pour ce faire :
-    1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez dans **Teams** **applicationsManage** > , puis cliquez sur Paramètres de l’application à **l’échelle de l’organisation**.
-    2. Sous **Applications personnalisées**, activer **l’application Autoriser l’interaction avec** les applications personnalisées, puis cliquez sur **Enregistrer**.
-2. Désactiver le paramètre **Télécharger d’applications personnalisées** dans la stratégie de configuration globale de l’application. Pour ce faire :
-    1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez dans **Teams** **appsSetup** >  policies, puis cliquez sur la stratégie **Global (** à l’échelle de l’organisation par défaut).
-    2. Désactiver Télécharger **applications personnalisées**, puis cliquez sur **Enregistrer**.
-3. Créez une stratégie de configuration d’application qui permet de télécharger des applications personnalisées et de les affecter à votre ensemble d’utilisateurs de confiance. Pour ce faire :
-    1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, cliquez sur **Teams d’applicationSetup** > , puis cliquez sur **Ajouter**. Donnez un nom et une description à la nouvelle stratégie, Télécharger applications personnalisées **, puis** cliquez sur **Enregistrer**.
-    2. Sélectionnez la nouvelle stratégie que vous avez créée, puis cliquez sur **Gérer les utilisateurs**. Recherchez un utilisateur, cliquez **sur Ajouter**, puis sur **Appliquer**. Répétez cette étape pour affecter la stratégie à tous vos utilisateurs de confiance.
+1. Activez le paramètre **Autoriser l’interaction avec les applications personnalisées** à l’échelle de l’organisation. Pour ce faire :
+    1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à **Teams applications** > **Gérer les applications**, puis cliquez sur **Paramètres d’application à l’échelle de l’organisation**.
+    2. Sous **Applications personnalisées**, **activez Autoriser l’interaction avec les applications personnalisées**, puis cliquez sur **Enregistrer**.
+2. Désactivez le paramètre **d’Télécharger applications personnalisées** dans la stratégie d’installation d’application globale. Pour ce faire :
+    1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à **Teams stratégies****d’installation** des applications > , puis cliquez sur la stratégie **globale (par défaut à l’échelle de l’organisation**).
+    2. Désactivez **Télécharger applications personnalisées**, puis cliquez sur **Enregistrer**.
+3. Créez une stratégie d’installation d’application qui permet de charger des applications personnalisées et de l’affecter à votre ensemble d’utilisateurs approuvés. Pour ce faire :
+    1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à **Teams stratégies****d’installation** des applications > , puis cliquez sur **Ajouter**. Donnez un nom et une description à la nouvelle stratégie, activez **Télécharger applications personnalisées**, puis cliquez sur **Enregistrer**.
+    2. Sélectionnez la nouvelle stratégie que vous avez créée, puis cliquez sur **Gérer les utilisateurs**. Recherchez un utilisateur, cliquez sur **Ajouter**, puis cliquez sur **Appliquer**. Répétez cette étape pour affecter la stratégie à tous vos utilisateurs approuvés.
 
-        ![Capture d’écran de la page « Ajouter une stratégie de configuration d’application »](media/manage-your-lob-apps-new-app-setup-policy.png)
+        ![Capture d’écran de la page « Ajouter une stratégie d’installation d’application »](media/manage-your-lob-apps-new-app-setup-policy.png)
 
-    Ces utilisateurs peuvent désormais télécharger le manifeste de l’application pour vérifier que l’application fonctionne correctement dans le client de production.
+    Ces utilisateurs peuvent maintenant charger le manifeste de l’application pour vérifier que l’application fonctionne correctement dans le locataire de production.
 
 ## <a name="upload"></a>Télécharger
 
-Pour mettre l’application à la disposition des utilisateurs dans le magasin d’applications de votre organisation, téléchargez l’application. Pour ce faire, vous pouvez utiliser la page [Gérer les](manage-apps.md) applications du Centre Microsoft Teams’administration.
+Pour mettre l’application à la disposition des utilisateurs de l’App Store de votre organisation, chargez l’application. Vous pouvez le faire dans la page [Gérer les applications](manage-apps.md) du centre d’administration Microsoft Teams.
 
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **applications Teams** > **Gérer les applications**.
-2. **Sélectionnez Télécharger**, cliquez **Télécharger**, sélectionnez le package d’application que vous avez reçu du développeur, puis **sélectionnez Ouvrir**.
+2. Sélectionnez **Télécharger**, cliquez sur **Télécharger**, sélectionnez le package d’application que vous avez reçu du développeur, puis **sélectionnez Ouvrir**.
 
    ![Capture d’écran du chargement d’une application dans le Centre d’administration.](media/manage-your-lob-apps-upload-new-app.png)
 
@@ -83,54 +83,54 @@ Pour mettre l’application à la disposition des utilisateurs dans le magasin d
 
 ### <a name="control-access-to-the-app"></a>Contrôler l’accès à l’application
 
-Par défaut, tous les utilisateurs de votre organisation peuvent accéder à l’application dans le magasin d’applications de votre organisation. Pour restreindre et contrôler les personnes autorisées à utiliser l’application, vous pouvez créer et affecter une stratégie d’autorisation d’application. Pour plus d’informations, consultez [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md).
+Par défaut, tous les utilisateurs de votre organisation peuvent accéder à l’application dans l’App Store de votre organisation. Pour restreindre et contrôler qui a l’autorisation d’utiliser l’application, vous pouvez créer et attribuer une stratégie d’autorisation d’application. Pour plus d’informations, consultez [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md).
 
-### <a name="pin-and-install-the-app-for-users-to-discover"></a>Épingler et installer l’application pour les utilisateurs
+### <a name="pin-and-install-the-app-for-users-to-discover"></a>Épingler et installer l’application pour que les utilisateurs découvrent
 
-Par défaut, pour que les utilisateurs trouvent l’application qu’ils doivent trouver, ils doivent se rendre dans le magasin d’applications de votre organisation et la parcourir ou la rechercher. Pour faciliter l’accès des utilisateurs à l’application, vous pouvez épingler l’application à la barre d’application dans Teams. Pour ce faire, créez une stratégie de configuration d’application et attribuez-la aux utilisateurs. Pour plus d’informations, consultez l’article [Gérer les stratégies et paramètres d’application personnalisés dans Teams](teams-app-setup-policies.md).
+Par défaut, pour que les utilisateurs trouvent l’application, ils doivent accéder à l’App Store de votre organisation et la rechercher. Pour permettre aux utilisateurs d’accéder facilement à l’application, vous pouvez épingler l’application à la barre de l’application dans Teams. Pour ce faire, créez une stratégie d’installation d’application et attribuez-la aux utilisateurs. Pour plus d’informations, consultez l’article [Gérer les stratégies et paramètres d’application personnalisés dans Teams](teams-app-setup-policies.md).
 
 ### <a name="search-the-audit-log-for-teams-app-events"></a>Rechercher des événements d’application Teams dans le journal d’audit
 
-Vous pouvez effectuer des recherches dans le journal d’audit Teams l’activité des applications dans votre organisation. Pour en savoir plus sur la recherche dans le journal d’audit et la liste des activités Teams enregistrées dans le journal d’audit, voir Rechercher des événements dans le journal [d’audit dans Teams](audit-log-events.md).
+Vous pouvez rechercher dans le journal d’audit pour afficher Teams activité des applications dans votre organisation. Pour en savoir plus sur la recherche dans le journal d’audit et pour afficher la liste des activités Teams qui sont enregistrées dans le journal d’audit, consultez [Rechercher les événements dans Teams dans le journal d’audit](audit-log-events.md).
 
-Pour effectuer une recherche dans le journal d’audit, vous devez au préalable activer la fonctionnalité d’audit dans le [Centre de sécurité et de conformité](https://sip.protection.office.com/homepage). Si vous souhaitez en savoir plus, veuillez consulter [Activer ou désactiver la recherche dans le journal d'audit](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide). N’oubliez pas que les données d’audit ne sont disponibles qu’à partir du moment où vous avez activé l’audit.
+Pour effectuer une recherche dans le journal d’audit, vous devez au préalable activer la fonctionnalité d’audit dans le [Centre de sécurité et de conformité](https://sip.protection.office.com/homepage). Si vous souhaitez en savoir plus, veuillez consulter [Activer ou désactiver la recherche dans le journal d'audit](/microsoft-365/compliance/turn-audit-log-search-on-or-off). N’oubliez pas que les données d’audit ne sont disponibles qu’à partir du moment où vous avez activé l’audit.
 
 ## <a name="discover-and-adopt"></a>Découvrir et adopter
 
-Les utilisateurs qui ont des autorisations sur l’application peuvent la trouver dans le magasin d’applications de votre organisation. Dans la page Applications, allez à Built **for *Your Organization Name*** (Conçu pour le nom de votre organisation) pour rechercher les applications personnalisées de votre organisation.
+Les utilisateurs disposant d’autorisations sur l’application peuvent la trouver dans l’App Store de votre organisation. Accédez à **Built for *Your Organization Name*** dans la page Applications pour rechercher les applications personnalisées de votre organisation.
 
-![Capture d’écran de la page Applications affichant l’application publiée.](media/custom-app-lifecycle-discovery.png)
+![Capture d’écran de la page Applications montrant l’application publiée .](media/custom-app-lifecycle-discovery.png)
 
-Si vous avez créé et attribué une stratégie de configuration d’application, l’application est épinglée à la barre d’application dans Teams pour faciliter l’accès aux utilisateurs à qui la stratégie a été attribuée.
+Si vous avez créé et affecté une stratégie d’installation d’application, l’application est épinglée à la barre de l’application dans Teams pour faciliter l’accès aux utilisateurs auxquels la stratégie a été attribuée.
 
 ## <a name="update"></a>Mettre à jour
 
-Pour mettre à jour une application, les développeurs doivent continuer à suivre les [](#develop) étapes [des sections](#validate) Développer et valider.
+Pour mettre à jour une application, les développeurs doivent continuer à suivre les étapes décrites dans les sections [Développer](#develop) et [valider](#validate) .
 
-Vous pouvez mettre à jour l’application dans la page Gérer les applications du Microsoft Teams d’administration. Pour ce faire, dans le navigation gauche du Microsoft Teams d’administration, Teams **applications** **AppsManage** > . Cliquez sur le nom de l’application, puis sur **Mettre à jour**. Cette faisant, vous remplacez l’application existante, et toutes les stratégies d’autorisation d’application et toutes les stratégies de configuration d’application demeurent appliquées pour l’application mise à jour.
+Vous pouvez mettre à jour l’application sur la page Gérer les applications dans le centre d’administration Microsoft Teams. Pour ce faire, dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à **Teams applications** > **Gérer les applications**. Cliquez sur le nom de l’application, puis sur **Mettre à jour**. Cette opération remplace l’application existante, et toutes les stratégies d’autorisation d’application et les stratégies d’installation d’application restent appliquées pour l’application mise à jour.
 
-### <a name="end-user-update-experience"></a>Expérience de mise à jour des utilisateurs finux
+### <a name="end-user-update-experience"></a>Expérience de mise à jour de l’utilisateur final
 
-Dans la plupart des cas, une fois que vous avez terminé une mise à jour d’application, la nouvelle version s’affiche automatiquement pour les utilisateurs finaux. Toutefois, certaines mises à jour du manifeste [Microsoft Teams](/microsoftteams/platform/resources/schema/manifest-schema) nécessitent l’acceptation des utilisateurs :
+Dans la plupart des cas, une fois que vous avez terminé une mise à jour d’application, la nouvelle version s’affiche automatiquement pour les utilisateurs finaux. Toutefois, certaines mises à jour du [manifeste Microsoft Teams](/microsoftteams/platform/resources/schema/manifest-schema) nécessitent l’acceptation de l’utilisateur :
 
-* Un robot a été ajouté ou supprimé
-* La propriété « botId » d’un robot existant a été modifiée
-* La propriété « isNotificationOnly » d’un robot existant a été modifiée
-* Les fonctionnalités SupportCalling, SupportsVideo et SupportsFiles d’un robot ont été ajoutées
-* Une extension de messagerie a été ajoutée
-* Un nouveau connecteur a été ajouté
-* Des autorisations dans « Authorization » ont été ajoutées ou modifiées
+- Un bot a été ajouté ou supprimé
+- Modification de la propriété « botId » d’un bot existant
+- Modification de la propriété « isNotificationOnly » d’un bot existant
+- La fonctionnalité SupportsCalling, SupportsVideo et SupportsFiles d’un bot a été ajoutée
+- Une extension de messagerie a été ajoutée
+- Un nouveau connecteur a été ajouté
+- Des autorisations dans « Authorization » ont été ajoutées ou modifiées
 
-![Capture d’écran de la liste des applications, montrant les applications dont la version est nouvelle disponible.](media/manage-your-custom-apps-update1.png)
+![Capture d’écran de la liste des applications, montrant les applications qui disposent d’une nouvelle version disponible.](media/manage-your-custom-apps-update1.png)
 
 ![Capture d’écran de l’option de mise à niveau pour une application.](media/manage-your-custom-apps-update2.png)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-* [Publier une application personnalisée envoyée via l’API Teams App Submission](submit-approve-custom-apps.md)
+- [Publier une application personnalisée envoyée via l’API de soumission d’application Teams](submit-approve-custom-apps.md)
 
-* [Gérer vos applications dans le Centre Microsoft Teams’administration](manage-apps.md)
-* [Gérer les stratégies d’application personnalisée et les paramètres dans Teams](teams-custom-app-policies-and-settings.md)
+- [Gérer vos applications dans le centre d’administration Microsoft Teams](manage-apps.md)
+- [Gérer les stratégies d’application personnalisée et les paramètres dans Teams](teams-custom-app-policies-and-settings.md)
 
-* [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)
-* [Gérer les stratégies de mise en application dans Teams](teams-app-setup-policies.md)
+- [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)
+- [Gérer les stratégies de mise en application dans Teams](teams-app-setup-policies.md)

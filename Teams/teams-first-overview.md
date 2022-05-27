@@ -15,12 +15,12 @@ description: Utilisez ces conseils pour déployer Microsoft Teams comme premièr
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6dba57003aaa58b9d0b72e7e866da261bed578e
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 2621ea94e2a35e7de9eed3dac2994f9b1932b0bb
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922685"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681725"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Déployer Microsoft Teams d’abord
 
@@ -39,8 +39,8 @@ Pour commencer à utiliser votre Teams premier déploiement, vous devez respecte
 
 1.  Une organisation Microsoft 365 ou Office 365 configurée avec votre nom de domaine
 
-2.  Azure Active Directory connectivité (connexion AAD) ou une solution de synchronisation d’identité cloud similaire , avec tous les attributs requis synchronisés avec votre locataire  
-    Pour comprendre les attributs synchronisés avec AAD synchronisation, lisez [Azure AD Connecter synchronisation : Attributs synchronisés avec Azure Active Directory](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
+2.  Azure Active Directory connectivité (AAD Connect) ou une solution de synchronisation d’identité cloud similaire , avec tous les attributs requis synchronisés avec votre locataire  
+    Pour comprendre les attributs synchronisés avec la synchronisation AAD, lisez [Azure AD Connecter sync : Attributs synchronisés avec Azure Active Directory](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 3.  Licences utilisateur appropriées attribuées pour Teams  
     Pour comprendre Teams licences, lisez [Microsoft Teams description du service](/office365/servicedescriptions/teams-service-description).
@@ -111,7 +111,7 @@ Ce point de départ part du principe que votre organisation n’utilise pas Skyp
 <tr class="odd">
 <td>Créer et afficher des réunions dans Teams</td>
 <td><p>Possibilité de créer des réunions internes et externes via Outlook complément.</p>
-<p>La fonctionnalité de numérotation et de numérotation RTC est disponible avec les licences d’audioconférence.</p>
+<p>La fonctionnalité de numérotation et de numérotation RTC est disponible avec les licences Audioconférence.</p>
 <p>Teams’accès au calendrier nécessite Exchange 2016 CU3+ localement déployé avec Exchange hybride établi : <a href="/exchange/hybrid-deployment/deploy-hybrid">créer un déploiement hybride avec l’Assistant Configuration hybride.</a> </p>
 
 En plus de Exchange configuration hybride, établissez Exchange’authentification OAuth : [Configurez l’authentification OAuth entre les organisations Exchange et Exchange Online](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). 
@@ -136,7 +136,7 @@ VoIP /PSTN dans Teams</td>
 <tr class="odd">
 <td>Plateforme d’application</td>
 <td>Les utilisateurs pourront utiliser les applications qui sont désignées comme disponibles en fonction des stratégies de votre entreprise.<br />
-En savoir plus ici : <a href="/microsoftteams/admin-settings">Paramètres d’administration pour les applications dans Teams</a></td>
+En savoir plus ici : <a href="/microsoftteams/admin-settings">Administration paramètres pour les applications dans Teams</a></td>
 </tr>
 <tr class="even">
 <td>Fonctionnalités de sécurité et de conformité</td>
@@ -190,7 +190,7 @@ Ce point de départ suppose que votre organisation utilise Skype Entreprise serv
 <tr class="odd">
 <td>Créer et afficher des réunions dans Teams</td>
 <td><p>Possibilité de créer des réunions internes et externes via Outlook complément.</p>
-<p>La fonctionnalité de numérotation et de numérotation RTC est disponible avec les licences d’audioconférence.</p>
+<p>La fonctionnalité de numérotation et de numérotation RTC est disponible avec les licences Audioconférence.</p>
 <p>Teams l’accès au calendrier nécessite Exchange CU3+ 2016 en local déployé avec Exchange hybride établi :<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">Créez un déploiement hybride avec l’Assistant Configuration hybride.</a></p>
 <p>L’administrateur peut contrôler le complément Skype Entreprise Outlook via l’attribut PreferredMeetingProviderForIslandsMode de la stratégie de réunion Teams :<a href="/powershell/module/skype/set-csteamsmeetingpolicy"> set-csteamsmeetingpolicy</a>.</p> 
@@ -214,7 +214,7 @@ VoIP /PSTN dans Teams</td>
 <tr class="odd">
 <td>Plateforme d’application</td>
 <td>Les utilisateurs pourront utiliser les applications qui sont désignées comme disponibles en fonction des stratégies de votre entreprise.<br />
-En savoir plus ici : <a href="/microsoftteams/admin-settings">Paramètres d’administration pour les applications dans Teams</a></td>
+En savoir plus ici : <a href="/microsoftteams/admin-settings">Administration paramètres pour les applications dans Teams</a></td>
 </tr>
 <tr class="even">
 <td>Fonctionnalités de sécurité et de conformité</td>
@@ -292,7 +292,7 @@ Pour plus d’informations sur chacun des services répertoriés ci-dessus, suiv
   - [Groupes Microsoft 365](office-365-groups.md) sont utilisées pour la création/gestion d’équipe et de canal.
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Illustrations architecture IT Microsoft Teams et solutions téléphonie](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 

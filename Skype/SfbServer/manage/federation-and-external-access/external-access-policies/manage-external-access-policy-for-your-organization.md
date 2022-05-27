@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Une fois que vous avez déployé un ou plusieurs serveurs Edge, vous devez activer les types d’accès externes qui seront pris en charge pour votre organisation.
-ms.openlocfilehash: da44136b314fc71a1c934edb0e4f5dc335b78e4a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 6134d2d6f5e2a204a18fdbda3360d39f00ed46f2
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62416607"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674586"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>Gestion de la stratégie d’accès externe pour votre organisation
 
@@ -41,10 +41,10 @@ Par défaut, aucune stratégie n’est configurée pour prendre en charge l’ac
 
 Ces options incluent les types d’accès externe suivants :
 
-  - **Activer les communications avec les utilisateurs fédérés**   Activez-le si vous souhaitez prendre en charge l’accès des utilisateurs aux domaines des partenaires fédérés. Ce paramètre configure la possibilité pour les utilisateurs de communiquer avec d’autres domaines fédérés SIP, ainsi que des fournisseurs hébergés tels que Microsoft 365 ou Office 365. 
+  - **Activer les communications avec les utilisateurs fédérés**   Activez cette option si vous souhaitez prendre en charge l’accès utilisateur aux domaines de partenaires fédérés. Ce paramètre configure la possibilité pour les utilisateurs de communiquer avec d’autres domaines fédérés SIP, ainsi que des fournisseurs hébergés tels que Microsoft 365 ou Office 365. 
 
 
-  - **Activer les communications avec des utilisateurs distants**   Activez cette option si vous souhaitez que les utilisateurs de votre organisation qui sont en dehors de votre pare-feu, tels que les télétravailleurs et les utilisateurs en déplacement, puissent se connecter à Skype Entreprise Server via Internet.
+  - **Activer les communications avec les utilisateurs distants**   Activez cette option si vous souhaitez que les utilisateurs de votre organisation qui se trouvent en dehors de votre pare-feu, tels que les télétravailleurs et les utilisateurs en déplacement, puissent se connecter à Skype Entreprise Server via Internet.
 
   - **Activer les communications avec les utilisateurs publics**   Activez cette option si vous souhaitez que les utilisateurs internes puissent communiquer avec les contacts du fournisseur de messagerie instantanée public.
    

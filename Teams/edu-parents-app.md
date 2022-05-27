@@ -1,5 +1,5 @@
 ---
-title: Configuration des parents par l’administrateur dans Teams pour l'éducation
+title: Administration configuration des parents dans Teams pour l'éducation
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f08ddd68d036d18e4ea18073dd0711e32e0c91e
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+ms.openlocfilehash: ccc69a07d523b046298643ad387e31e25138096f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393868"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676126"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurer la connexion parente dans Microsoft Teams pour l'éducation
 
@@ -102,8 +102,8 @@ Les enseignants peuvent bloquer un tuteur dans la conversation initiée dans la 
 
 Le propriétaire de la classe peut :
 
-1. Ouvrez la carte de profil du tuteur, sélectionnez l’ellipse et **Bloquer l’utilisateur**. 
-2. Ensuite, supprimez le tuteur de la conversation. 
+1. Ouvrez la carte de profil du tuteur, sélectionnez l’ellipse et **Bloquer l’utilisateur**.
+2. Ensuite, supprimez le tuteur de la conversation.
 
 L’utilisateur bloqué ne pourra pas démarrer des conversations supplémentaires avec le propriétaire de la classe.
 

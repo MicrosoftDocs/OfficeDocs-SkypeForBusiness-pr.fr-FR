@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: L’administrateur peut lire les notes de publication de Salles Microsoft Teams, qui répertorient les améliorations cumulatives dans Salles Microsoft Teams.
+description: Administration pouvez lire les notes de publication de Salles Microsoft Teams, qui répertorient les améliorations cumulatives apportées à Salles Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f91c286f08046d1a521d3758f1fc297bf2aa0d59
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 03a23ecb47fb0efca19ce3a7085a1fcc41b80dc3
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187020"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674196"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notes de publication pour Salles Microsoft Teams
 
@@ -95,9 +95,9 @@ salles Teams est régie par la politique de cycle de vie moderne. Pour plus d’
 
 Introduit dans cette mise à jour :
 - Les administrateurs informatiques peuvent inscrire un appareil Teams salles pour recevoir des fonctionnalités en préversion publique via le paramètre XML. Une fois inscrit, l’appareil commence à recevoir les fonctionnalités bêta. Toutes les fonctionnalités qui passent aux tests bêta sont annoncées à [Microsoft Teams préversion publique - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
-- L’administrateur informatique peut définir la résolution et la mise à l’échelle de l’affichage avant de la salle à distance via les paramètres <sup>XML2</sup>
-- L’administrateur informatique peut désactiver la suppression du bruit Microsoft via le paramètre <sup>XML3</sup> 
-- L’administrateur informatique peut remplacer le nettoyage du dossier de téléchargement sur l’appareil via le paramètre de clé de <sup>Registre4</sup>
+- L’administrateur informatique peut définir la résolution et la mise à l’échelle de l’affichage avant de la salle à distance via les paramètres XML<sup>2</sup>
+- L’administrateur informatique peut désactiver la suppression du bruit Microsoft via le paramètre XML<sup>3</sup> 
+- L’administrateur informatique peut remplacer le nettoyage du dossier de téléchargement sur l’appareil via le paramètre de clé de Registre<sup>4</sup>
 - Permettre aux utilisateurs de participer à Teams réunion hébergée sur un autre cloud (c’est-à-dire, le client GCCH peut participer à Teams réunions hébergées sur le cloud commercial et inversement) 
 - Teams salles bloquent désormais le lancement du navigateur edge à partir d’URL dans PowerPoint Live en tant que mesure de sécurité supplémentaire pour Teams salles avec affichages tactiles 
 - L’expérience De réunion maintenant est améliorée pour ajouter des instructions permettant aux utilisateurs d’inviter des utilisateurs à la salle 
@@ -125,21 +125,21 @@ Introduit dans cette mise à jour :
 
 Introduit dans cette mise à jour :
 - Disposition de la ligne avant (préversion) pour MTR sur Windows <sup>1</sup> 
-- Paramètre d’administration pour définir la disposition de la ligne front comme valeur par défaut  
-- Rencontrez maintenant et appelez la mise à jour de l’application pour Teams uniquement, Teams modes client par <sup>défaut1,2</sup>
-- Basculer entre plusieurs caméras vidéo dans Teams <sup>réunions1</sup> 
+- Administration paramètre pour définir la disposition de la ligne frontale comme valeur par défaut  
+- Rencontrez maintenant et appelez la mise à jour de l’application pour Teams uniquement, Teams modes client par défaut<sup>1,2</sup>
+- Basculer entre plusieurs caméras vidéo dans Teams réunions<sup>1</sup> 
 - Paramètre de caméra vidéo par défaut 
 - Cortana mise à jour de l’icône de transmission (push-to-talk) sur la console MTR 
 - Azure AD Premium 1 inclusion de licence dans Room Standard et les références SKU Premium 
-- AAD la prise en charge des stratégies d’accès <sup>conditionnel3</sup> 
+- Les stratégies d’accès conditionnel AAD prennent en charge<sup>3</sup> 
 - Cortana activation vocale activée par défaut dans OOBE
-- Prise en charge des contrôles PTZ <sup>distants4</sup>
+- Les contrôles PTZ distants prennent<sup>en charge 4</sup>
 
 > <sup>1</sup> Ces fonctionnalités sont déployées à l’aide de Teams client web et seront déployées dans les prochaines semaines. Pour plus d’informations, consultez [Teams mises à jour](../teams-client-update.md).
 > 
 > <sup>2</sup> salles Teams sur Windows en cours d’exécution dans Microsoft Teams uniquement ou Skype Entreprise et Microsoft Teams (par défaut) sont mises à jour avec de nouvelles expériences de réunion et d’appel, mais d’autres modes ne sont pas affectés par cette mise à jour.
 > 
-> <sup>3</sup> Consultez les détails supplémentaires sur la configuration [AAD stratégies d’accès conditionnel](../rooms/rooms-authentication.md#azure-ad-conditional-access) pour salles Teams.
+> <sup>3</sup> Consultez les détails supplémentaires sur la configuration des stratégies [d’accès conditionnel AAD](../rooms/rooms-authentication.md#azure-ad-conditional-access) pour salles Teams.
 > 
 > <sup>4</sup> Cette fonctionnalité nécessite que les administrateurs informatiques configurent Teams application de contrôles PTZ à distance client de bureau.
 > 
@@ -265,7 +265,7 @@ Introduit dans cette mise à jour :
 Introduit dans cette mise à jour :
 
 - Participer à des réunions Cisco WebEx à partir de salles Teams avec participation directe d’invités
-- Teams l’activation et l’inscription automatique du Centre d’administration
+- Teams Administration l’activation et l’inscription automatique du Centre
 - prise en charge des versions de Windows 10 1909
 - Basculer vers la disposition de la galerie vidéo même lorsque du contenu est présent
 - Prise en charge des mains levées virtuelles pour les participants et contrôles pour le présentateur
@@ -321,7 +321,7 @@ Introduit dans cette mise à jour :
 Introduit dans cette mise à jour :
 
 - Réponse automatique aux appels basés sur la proximité et paramètre d’administration pour contrôler ce
-- Actualisation de l’interface utilisateur de l’administrateur d’appareil Paramètres avec ajout de la configuration de l’appareil sous l’onglet À propos de
+- Actualisation de l’interface utilisateur Administration Paramètres de l’appareil avec ajout de la configuration de l’appareil sous l’onglet À propos
 - Contrôle de salle à l’écran principal
 - référence SKU Salle de réunion disponible dans Cloud de la communauté du secteur public
 - Prise en charge de la caméra de contenu pour le système basé sur Surface Pro (build d’application minimale requise : 4.2.4.0)
@@ -350,9 +350,9 @@ Introduit dans cette mise à jour :
 - Skype app Room System Store renommer « Salles Microsoft Teams »
 - Salles Microsoft Teams interface utilisateur de la console réalignée à Microsoft Teams
 - Mise à jour du thème : conservez uniquement l’image d’arrière-plan personnalisée devant les écrans de la salle, tout en faisant de l’arrière-plan de la console une couleur neutre pour garantir que les contrôles d’interface utilisateur de la console respectent le contraste de couleurs : exigences d’accessibilité
-- Barre universelle pour les contrôles d’appel en réunion pour les appels/réunions Teams afin de fournir une expérience cohérente avec Microsoft Teams clients PC/Web/<sup>Mobile1</sup>
-- Évaluation des commentaires sur la qualité des appels après Teams appels/<sup>réunions1</sup>
-- Réception/rendu Microsoft Whiteboard sur Salles Microsoft Teams devant l’affichage de la salle lorsqu’elle est partagée à partir du client Teams PC/Web/<sup>Mobile1</sup> <sup>2</sup>
+- Barre universelle pour les contrôles d’appel en réunion pour les appels/réunions Teams afin de fournir une expérience cohérente avec Microsoft Teams clients PC/Web/Mobile<sup>1</sup>
+- Évaluation des commentaires sur la qualité des appels après Teams appels/réunions<sup>1</sup>
+- Réception/rendu Microsoft Whiteboard sur Salles Microsoft Teams devant l’affichage de la salle lorsqu’elle est partagée à partir du client TEAMS PC/Web/Mobile<sup>1</sup> <sup>2</sup>
 - Suppression de la prise en charge des mises à niveau de Windows 10 version 1809 en raison de problèmes de compatibilité avec Salles Microsoft Teams client. Windows 10 prise en charge de la version 19H1 sera ajoutée dans les versions ultérieures
 
 <sup>1</sup> déploiement de service Microsoft Teams à l’aide d’anneaux Teams. Cette fonctionnalité peut être disponible avant ou après la mise à jour du client 4.0.105.0
@@ -422,7 +422,7 @@ Introduit dans cette mise à jour :
 
 - Améliorations de la fonctionnalité « Signaler un problème » en mode Teams (équivalent de « Envoyer des commentaires » en mode Skype Entreprise)
 - Activer la possibilité de revenir d’Teams au mode Skype Entreprise pour les appels SIP
-- Améliorations de l’accessibilité (Narrateur, Loupe)
+- Améliorations de l’accessibilité (Narrateur, loupe)
 - Redémarrer automatiquement l’application lorsque cela est nécessaire après l’application des modifications de l’approvisionnement XML
 - Correctifs divers
 
@@ -521,7 +521,7 @@ Introduit dans cette mise à jour :
 - Possibilité d’envoyer des commentaires pour les builds publiques
 - Amélioration de la télémétrie autour de la fiabilité des jointures de réunion
 - Amélioration des rapports OMS
-- Possibilité pour l’administrateur informatique de configurer des appareils à distance
+- Possibilité pour les Administration informatiques de configurer des appareils à distance
 
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
 

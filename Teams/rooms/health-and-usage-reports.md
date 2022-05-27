@@ -18,18 +18,17 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Création de rapports de données de nœud pour l’intégrité et l’utilisation des rapports
 f1keywords: ''
-ms.openlocfilehash: 400da9dca104bb5ff743a8c032d3997bd282e25a
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: f3c8ceec383d801c5992b0e8275cfe5360ef5bfe
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64757129"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674816"
 ---
 # <a name="health-and-usage-reports"></a>Rapports d’intégrité et d’utilisation
 
-Le nœud de création de rapports contient des données relatives à l’intégrité et à l’utilisation de vos salles gérées Microsoft et de vos insights de service. **Le 
+Le nœud de création de rapports contient des données relatives à l’intégrité et à l’utilisation de vos salles gérées Microsoft et de vos insights de service. La **vue d’ensemble** présente les tendances d’intégrité à l’échelle du locataire de vos chambres. L’onglet **Intégrité** affiche une liste des salles avec leurs données d’intégrité correspondantes. L’utilisation de la salle basée sur les informations de calendrier et les données de qualité des appels est visible sous **l’onglet Utilisation** .
 
-**Vue d’ensemble** des tendances d’intégrité à l’échelle du locataire de vos chambres. L’onglet **Intégrité** affiche une liste des salles avec leurs données d’intégrité correspondantes. L’utilisation de la salle basée sur les informations de calendrier et les données de qualité des appels est visible sous **l’onglet Utilisation** .
 ## <a name="navigating-reports"></a>Navigation dans les rapports
 
 <!--![A screenshot of active tickets bar graph](../media/health-and-usage-002new.png)-->
@@ -58,6 +57,7 @@ Dans le menu volant, il est possible de filtrer la liste des tickets par sous-ca
 Pour revenir en arrière, cliquez sur l’anneau ou cliquez sur la barre de navigation en haut à gauche.
 
 Pour accéder à un ticket spécifique dans cette vue de liste, cliquez sur le lien sous le **colum du ticket de support**.
+
 ### <a name="ticket-history"></a>Historique des tickets
 
 Le graphique d’historique des tickets affiche une comparaison des incidents qui vous ont été attribués ou qui ont été attribués à Microsoft sur la période spécifiée.
@@ -66,17 +66,21 @@ Le graphique d’historique des tickets affiche une comparaison des incidents qu
 > Si un ticket change de propriétaire dans une journée, celui qui est propriétaire de l’affectation pour la majorité de cette journée aura le ticket compté pour eux. Par exemple, si vous attribuez le ticket à Microsoft tôt dans la journée, le ticket est comptabilisé dans **Affecté à Microsoft** pour la journée.
 
 <!--![A screen shot of Tickets history by different periods](../media/health-and-usage-009.png)-->
+
 ### <a name="health-history"></a>Historique d’intégrité
 
 Ce graphique montre l’intégrité moyenne (définition dans la section Intégrité) pour toutes les salles du locataire, ainsi que l’intégrité moyenne de tous les clients MMR au quotidien. Vous pouvez afficher l’intégrité moyenne pendant jusqu’à 90 jours.
 
 <!--!![A screenshot of rooms health and average health](../media/health-and-usage-010.png)-->
-### <a name="most-reliableleast-reliable-rooms"></a>Salles les plus fiables/les moins fiables :
+
+### <a name="most-reliableleast-reliable-rooms"></a>Salles les plus fiables/les moins fiables
 
 Deux tableaux montrent les salles les plus fiables et les moins fiables en fonction de la santé. Pour l’affichage liste complète, sélectionnez Intégrité, puis triez la liste en fonction de la colonne Intégrité.
 
-### <a name="rooms-history"></a>Historique des salles : 
+### <a name="rooms-history"></a>Historique des salles
+
 Fournit une vue historique des chambres inscrites dans le service et fournit une vue comparative des chambres qui étaient saines ou non surveillées dans la même période.
+
 ## <a name="health"></a>Intégrité
 
 Pour accéder au rapport d’intégrité de toutes les salles, sélectionnez Rapports, puis  **Intégrité**.
@@ -121,26 +125,27 @@ Les titres fournissent quelques insights :
 - Nombre total de réunions réservées par le biais de l’échange
 - Pourcentage de réunions réservées incluant un lien Skype ou Teams
 - Nombre total d’appels avec participation à la salle
--   Agréger le score de performances des appels de tous les appels classés avec « Bonne » qualité pour tous les appels. 
+- Agréger le score de performances des appels de tous les appels classés avec « Bonne » qualité pour tous les appels. 
 
 Sous les métriques de titre se trouve une table de salles avec les métriques correspondantes. Sélectionnez une salle pour afficher plus de détails sur l’utilisation. Les métriques du tableau sont décrites dans le tableau suivant.
 
-| Colonne |  Description |
-|--------| -------------------|
-| Utilisation   | Pourcentage de temps pendant lequel la chambre a été réservée pendant les heures d’ouverture au cours de la période sélectionnée. Ex. Période définie sur 7 jours. Utilisation de 80 % par rapport aux moyens de réservation de la chambre pendant 32/40 heures |
-| Réservé en ligne |   Parmi les réunions réservées, dont le pourcentage a été activé avec Teams. Ex. 10 réunions ont été réservées. De ce nombre, 8 avaient un lien Teams. Booked Online = 80% |
-| Réunions planifiées | Nombre absolu de réunions planifiées dans la salle |
-| Nombre total d’appels | Nombre absolu d’appels avec la salle en tant que participant. |
-Performances des appels |  Pourcentage d’appels avec une note « Bonne ». Chaque appel est évalué et reçoit une note Good, Poor, Unknown. Cette métrique est calculée à partir d’appels corrects/nombre total d’appels |
+|Colonne|Description|
+|---|---|
+|Utilisation|Pourcentage de temps pendant lequel la chambre a été réservée pendant les heures d’ouverture au cours de la période sélectionnée. Ex. Période définie sur 7 jours. Utilisation de 80 % par rapport aux moyens de réservation de la chambre pendant 32/40 heures|
+|Réservé en ligne|Parmi les réunions réservées, dont le pourcentage a été activé avec Teams. Ex. 10 réunions ont été réservées. De ce nombre, 8 avaient un lien Teams. Booked Online = 80%|
+|Réunions planifiées|Nombre absolu de réunions planifiées dans la salle|
+|Nombre total d’appels|Nombre absolu d’appels avec la salle en tant que participant.|
+Performances des appels|Pourcentage d’appels avec une note « Bonne ». Chaque appel est évalué et reçoit une note Good, Poor, Unknown. Cette métrique est calculée à partir d’appels corrects/nombre total d’appels|
 
 L’utilisation est calculée à la fin de chaque jour à minuit (00:00) heure locale de l’appareil de salle de réunion. L’utilisation est calculée en fonction du temps total réservé à la réunion pour ce jour divisé par 8 heures.
+
 ## <a name="usage-details-of-a-room"></a>Détails d’utilisation d’une salle
- 
+
 Le fait de cliquer sur une salle dans l’affichage liste vous invite à utiliser un menu volant contenant des informations plus détaillées. Sous l’onglet Utilisation du menu volant se trouve un graphique montrant les heures d’utilisation des cinq derniers jours ouvrés. Pour chaque jour, il y a deux barres : le bleu représente l’heure de la réunion réservée ; purple représente l’heure planifiée des réunions Teams/Skype activées. En bas, les réservations moyennes de réunions et la durée des cinq derniers jours ouvrables sont calculées.
 
 <!--![A screenshot of utilization by hours per day](../media/health-and-usage-012.png)-->
 
-Le tableau **Appels** présente les réunions auxquelles la salle a participé à un appel Teams. La qualité audio de la salle est évaluée uniquement pour la salle, pas tous les participants. Pour afficher la qualité des appels pour tous les participants d’un appel spécifique, sélectionnez un appel en cliquant sur l’heure de début. 
+Le tableau **Appels** présente les réunions auxquelles la salle a participé à un appel Teams. La qualité audio de la salle est évaluée uniquement pour la salle, pas tous les participants. Pour afficher la qualité des appels pour tous les participants d’un appel spécifique, sélectionnez un appel en cliquant sur l’heure de début.
 
 <!--!![A screenshot of room audio quality](../media/health-and-usage-016.png)-->
 

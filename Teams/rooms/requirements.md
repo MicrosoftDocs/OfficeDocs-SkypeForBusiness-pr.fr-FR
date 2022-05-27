@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Découvrez la configuration requise pour la prise en charge des Salles Microsoft Teams, notamment le choix de l’appareil, des microphones, des haut-parleurs, des caméras et des écrans appropriés.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8086cfb6ac74e35d95ba45b701e2913d5b0f2ed6
-ms.sourcegitcommit: 4b0bd129af9cd487123ef6a5dc19ace0ec5a6c41
+ms.openlocfilehash: ad5abd962852aa8dd055e18fc8c525c16334d3c1
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65406410"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674186"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Spécifications des salles Microsoft Teams
 

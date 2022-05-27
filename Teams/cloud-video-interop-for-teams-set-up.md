@@ -17,96 +17,93 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fe0ac66b8d1ff9afe43d4d57783e803f426c23c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 1b76e7c5e79b3928c7fb19ad9c5f5fb8f241b29a
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732953"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674736"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Mise en place de l’interopérabilité de la vidéo cloud de Microsoft Teams
 
-Une fois que vous avez choisi votre ou vos partenaires [Cloud Video Interop,](cloud-video-interop.md)vous devez planifier votre déploiement, configurer avec les détails de mise en service et la clé de client partenaire, et donner votre consentement à l’application d’interop vidéo dans votre organisation. Le diagramme suivant décrit le processus. 
+Une fois que vous avez [choisi votre ou vos partenaires Cloud Video Interop](cloud-video-interop.md), vous devez planifier votre déploiement, vous familiariser avec les détails d’approvisionnement et la clé de locataire du partenaire, et donner votre consentement à l’application d’interopérabilité vidéo dans votre organisation. Le diagramme suivant décrit le processus.
 
-![Déploiement de CVI dans votre organisation.](media/deploying-cvi.png)
+![Déploiement de l’interface CVI dans votre organisation.](media/deploying-cvi.png)
 
 ## <a name="plan"></a>Plan
 
-Pour [plus d’informations sur l’Microsoft Teams](cloud-video-interop.md) d’un partenaire ou d’un partenaire à utiliser dans votre organisation, voir Cloud Video Interop. 
+Consultez [Cloud Video Interop pour Microsoft Teams](cloud-video-interop.md) pour plus d’informations sur l’identification d’un partenaire ou de partenaires à utiliser dans votre organisation.
 
-Pour planifier l’enablement à l’échelle de l’utilisateur, du concurrent/du site : 
+Pour planifier l’activation à l’échelle utilisateur/simultanée/à l’échelle du site :
 
-- Sélectionner un modèle de déploiement/hébergé pour votre utilisation
-- Sélectionnez le plan de licences idéal pour votre organisation. 
-- La capacité des VMs est que vous hébergez votre infrastructure vidéo.
+- Choisir un modèle de déploiement/modèle hébergé pour votre utilisation
+- Sélectionnez le plan de licence idéal pour votre organisation.
+- Vous pouvez planifier la capacité des machines virtuelles en hébergeant votre infrastructure vidéo.
 
-## <a name="configure"></a>Configuration 
+## <a name="configure"></a>Configuration
 
-Pour configurer Cloud Video Interop, suivez ces étapes. 
+Pour configurer Cloud Video Interop, procédez comme suit.
 
-1. Obtenez des informations de configuration auprès du partenaire/partenaire que vous avez choisi (clé client, appIds, etc.). Vous pouvez utiliser un ou plusieurs partenaires d’interop vidéo dans votre organisation 
+1. Obtenez les informations de configuration auprès du partenaire/des partenaires que vous avez choisis (clé de locataire, appIds...). Vous pouvez utiliser un ou plusieurs partenaires d’interopérabilité vidéo dans votre organisation
 
-2. Assurez-vous que votre réseau est correctement configuré. Configurez votre pare-feu vidéo basé sur les normes pour le travers de réseau de périmètre à prendre en charge. Par exemple : 
-    - Cisco VCS-e                  
+2. Vérifiez que votre réseau est correctement configuré. Configurez votre pare-feu vidéo basé sur des normes pour la traversée réseau de périmètre à prendre en charge. Par exemple :
+    - Cisco VCS-e
     - Polycom RPAD
 
-3. Configurez des salles intégrées avec Exchange et OTD. Dans la plupart des cas, un relais supplémentaire doit être configuré dans votre environnement.
+3. Configurez des salles intégrées avec Exchange et OTD. Dans la plupart des cas, un relais supplémentaire doit être configuré et configuré dans votre environnement.
 
+## <a name="provision"></a>Disposition
 
-## <a name="provision"></a>Approvisionnement
- 
-La clé client sera l’appel sortant vers le service partenaire. Dans l’exemple suivant, 813878896@t.plcm.vc est la clé client. 
+La clé de locataire est l’appel sortant vers le service partenaire. Dans l’exemple suivant, 813878896@t.plcm.vc est la clé de locataire.
 
-![Exemple de clé client.](media/tenant-key-example.png) 
+![Exemple de clé de locataire.](media/tenant-key-example.png)
 
-Vous devrez exécuter les cmdlets suivantes pour mettre en service la clé client et permettre également à certains utilisateurs ou à l’ensemble de votre organisation de créer des réunions avec des coordonnées d’interop vidéo.
+Vous devez exécuter les applets de commande suivantes pour provisionner la clé de locataire, et également autoriser certains utilisateurs ou toute votre organisation à créer des réunions avec des coordonnées d’interopérabilité vidéo.
 
- 
-- **[Get-CsTeamsVideoInteropServicepolicy](/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Microsoft fournit des stratégies prédécoupées pour chacun de nos partenaires pris en charge qui vous permettent de désigner le ou les partenaires à utiliser pour interop vidéo cloud.
+- **[Get-CsTeamsVideoInteropServicepolicy](/powershell/module/skype/get-csteamsvideointeropservicepolicy) :** Microsoft fournit des stratégies prédéfines pour chacun de nos partenaires pris en charge qui vous permettent de désigner les partenaires à utiliser pour l’interopérabilité vidéo cloud.
 
-    Cette cmdlet vous permet d’identifier les stratégies pré-construite que vous pouvez utiliser dans votre organisation. Vous pouvez affecter cette stratégie à un ou plusieurs de vos utilisateurs en tirant parti de l'Grant-CsTeamsVideoInteropServicePolicy cmdlet.
- 
-- **[Grant-CsTeamsVideoInteropServicePolicy](/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** LGrant-CsTeamsVideoInteropServicePolicy cmdlet vous permet d’affecter une stratégie précont enfantin à utiliser dans votre organisation ou d’affecter la stratégie à des utilisateurs spécifiques.
- 
-- **[New-CsVideoInteropServiceProvider](/powershell/module/skype/new-csvideointeropserviceprovider):** Utilisez le New-CsVideoInteropServiceProvider pour spécifier des informations sur un partenaire CVI pris en charge que votre organisation souhaite utiliser.
- 
-- **[Set-CsVideoInteropServiceProvider](/powershell/module/skype/set-csvideointeropserviceprovider):** Utilisez le Set-CsVideoInteropServiceProvider pour mettre à jour les informations sur un partenaire CVI pris en charge par votre organisation.
- 
-- **[Get-CsVideoInteropServiceProvider](/powershell/module/skype/get-csvideointeropserviceprovider):** Obtenez tous les fournisseurs configurés pour une utilisation au sein de l’organisation.
- 
-- **[Remove-CsVideoInteropServiceProvider](/powershell/module/skype/remove-csvideointeropserviceprovider):** Utilisez Remove-CsVideoInteropServiceProvider pour supprimer toutes les informations de fournisseur concernant un fournisseur que votre organisation n’utilise plus.  
- 
+    Cette applet de commande vous permet d’identifier les stratégies pré-construites que vous pouvez utiliser dans votre organisation. Vous pouvez affecter cette stratégie à un ou plusieurs de vos utilisateurs en tirant parti de l’applet de commande Grant-CsTeamsVideoInteropServicePolicy.
+
+- **[Grant-CsTeamsVideoInteropServicePolicy](/powershell/module/skype/grant-csteamsvideointeropservicepolicy) :** L’applet de commande Grant-CsTeamsVideoInteropServicePolicy vous permet d’affecter une stratégie prédéfini à utiliser dans votre organisation ou d’affecter la stratégie à des utilisateurs spécifiques.
+
+- **[New-CsVideoInteropServiceProvider](/powershell/module/skype/new-csvideointeropserviceprovider) :** Utilisez le New-CsVideoInteropServiceProvider pour spécifier des informations sur un partenaire CVI pris en charge que votre organisation souhaite utiliser.
+
+- **[Set-CsVideoInteropServiceProvider](/powershell/module/skype/set-csvideointeropserviceprovider) :** Utilisez le Set-CsVideoInteropServiceProvider pour mettre à jour les informations relatives à un partenaire CVI pris en charge que votre organisation utilise.
+
+- **[Get-CsVideoInteropServiceProvider](/powershell/module/skype/get-csvideointeropserviceprovider) :** Obtenez tous les fournisseurs qui ont été configurés pour une utilisation au sein de l’organisation.
+
+- **[Remove-CsVideoInteropServiceProvider](/powershell/module/skype/remove-csvideointeropserviceprovider) :** Utilisez Remove-CsVideoInteropServiceProvider pour supprimer toutes les informations du fournisseur sur un fournisseur que votre organisation n’utilise plus.
+
 ## <a name="consent"></a>Consentement
 
-Vous devrez fournir l’autorisation d’autoriser les périphériques de téléconférence vidéo (VCS) à rejoindre les réunions de votre organisation via le service partenaire. Ce lien d’accord sera également fourni par votre partenaire.  
- 
-Une fois ces étapes terminées, les utilisateurs qui sont activés individuellement via l’cmdlet Grant ci-dessus, ou tous les utilisateurs de l’organisation si le client est activé, auront des coordonnées VTC dans toutes les réunions Teams qu’ils ont prévues. N’importe quel VTC peut participer à ces réunions via ces coordonnées.
+Vous devez fournir un consentement d’autorisation pour que les appareils de téléconférence vidéo (VTC) rejoignent les réunions de votre organisation via le service partenaire. Ce lien de consentement sera également fourni par votre partenaire.
 
+Une fois ces étapes terminées, les utilisateurs qui sont activés individuellement via l’applet de commande Grant ci-dessus, ou tous les utilisateurs de l’organisation si le locataire est activé, auront des coordonnées VTC dans toutes les réunions Teams qu’ils planifient. N’importe quel VTC peut participer à ces réunions via ces coordonnées.
 
-|Nom|Courte description des autorisations d’application| Description|
-|--|--|---|
-|Calls.JoinGroupCall.All|Rejoindre des appels de groupe et des réunions en tant qu’application (aperçu)|Permet à l’application de participer à des appels de groupe et à des réunions programmées dans votre organisation, sans qu’un utilisateur ne soit inscrit.  L’application sera jointe avec les privilèges d’un utilisateur de l’annuaire pour les réunions dans votre client.|
-|Calls.JoinGroupCallasGuest.All|Rejoindre des appels de groupe et des réunions en tant qu’utilisateur invité (prévisualisation)|Permet à l’application de participer de manière anonyme à des appels de groupe et à des réunions programmées dans votre organisation, sans qu’un utilisateur ne soit inscrit.  L’application sera jointe en tant qu’invité aux réunions dans votre client.|
-|Calls.AccessMedia.All|Accéder aux flux multimédias dans un appel en tant qu’application (aperçu)|Permet à l’application d’accéder directement aux flux multimédias dans un appel, sans utilisateur inscrit.|
-|OnlineMeetings.Read.All|Lire les détails de la réunion en ligne (aperçu)|Permet à l’application de lire les détails de la réunion en ligne dans votre organisation, sans utilisateur inscrit.|
+|Nom|Description abrégée de l’autorisation d’application| Description|
+|---|---|---|
+|Calls.JoinGroupCall.All|Participer à des appels de groupe et à des réunions en tant qu’application (préversion)|Permet à l’application de rejoindre des appels de groupe et des réunions planifiées dans votre organisation, sans utilisateur connecté.  L’application sera jointe avec les privilèges d’un utilisateur d’annuaire aux réunions dans votre locataire.|
+|Calls.JoinGroupCallasGuest.All|Participer à des appels de groupe et à des réunions en tant qu’utilisateur invité (préversion)|Permet à l’application de rejoindre anonymement des appels de groupe et des réunions planifiées dans votre organisation, sans utilisateur connecté.  L’application sera jointe en tant qu’invité aux réunions de votre locataire.|
+|Calls.AccessMedia.All|Accéder aux flux multimédias dans un appel en tant qu’application (préversion)|Permet à l’application d’accéder directement aux flux multimédias dans un appel, sans utilisateur connecté.|
+|OnlineMeetings.Read.All|Lire les détails de la réunion en ligne (préversion)|Permet à l’application de lire les détails de la réunion en ligne dans votre organisation, sans utilisateur connecté.|
 
-## <a name="schedule"></a>Planifier
+## <a name="schedule"></a>Horaire
 
-Ensuite, planifier Teams réunion avec les coordonnées d’interopation vidéo. L’utilisateur activé peut planifier des réunions d’équipe via :
-- [Teams Le add-in de réunion pour Outlook](teams-add-in-for-outlook.md)
-- Teams bureau et mobile client
+Ensuite, planifiez Teams réunion avec des coordonnées d’interopérabilité vidéo. L’utilisateur activé peut planifier des réunions Teams via :
 
+- [complément réunion Teams pour Outlook](teams-add-in-for-outlook.md)
+- Teams bureau client et mobile
 
 ## <a name="join"></a>Rejoindre
 
-Vous pouvez participer Teams réunions avec vos appareils VTC des façons suivantes :
- 
-- IVR (Réponse vocale interactive)
-    - Vous pouvez appeler les IVR du partenaire à l’aide de la tenantkey@domain. 
-    - Une fois que vous êtes dans l’IVR partenaire, vous êtes invité à entrer le VTC conferenceId, qui vous connecte ensuite à la Teams partenaire.
-- Numérotation directe
-    - Vous pouvez appeler directement la réunion Teams sans interagir avec les IVR du partenaire à l’aide de la fonctionnalité de numérotation directe utilisant la chaîne complète de clés client. VTC ConferenceId@domain.
-- Numérotation à une pression
-    - Si vous avez une salle de numérotation Teams intégrée, vous pouvez utiliser les fonctionnalités de numérotation à une pression offertes par votre partenaire (sans avoir à taper de chaîne de numérotation).
+Vous pouvez participer à Teams réunions avec vos appareils VTC des manières suivantes :
 
-Enfin, engagez-vous Teams vos réunions en utilisant l’audio, la vidéo et le partage de contenu.
+- IVR (Réponse vocale interactive)
+  - Vous pouvez vous connecter à l’IVR du partenaire à l’aide de la tenantkey@domain.
+  - Une fois que vous êtes dans l’IVR partenaire, vous êtes invité à entrer l’ID de conférence VTC, qui vous connectera ensuite à la réunion Teams.
+- Direct
+  - Vous pouvez directement vous connecter à la réunion Teams sans interagir avec l’IVR du partenaire à l’aide de la fonctionnalité de numérotation directe à l’aide de la chaîne complète de clé de locataire. ConferenceId@domain VTC.
+- Numérotation à une seule touche
+  - Si vous disposez d’une salle de Teams intégrée, vous pouvez utiliser les fonctionnalités de numérotation tactile offertes par votre partenaire (sans avoir à taper de chaîne de numérotation).
+
+Enfin, contactez Teams utilisateurs dans vos réunions à l’aide du partage audio, vidéo et de contenu.

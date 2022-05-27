@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer Messagerie vocale infonuagique pour vos utilisateurs.
-ms.openlocfilehash: 96c96f85625d0cda7e6d7a28a59d6c9415f2bb79
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 6a75856954da509677a1c9ccdb54e34055f171ed
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922625"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681405"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -67,7 +67,7 @@ Pour gérer Messagerie vocale infonuagique fonctionnalités pour les groupes d�
 Vous pouvez configurer et affecter des stratégies de messagerie vocale existantes ou nouvelles pour des fonctionnalités telles que les règles de réponse aux appels, la transcription de la messagerie vocale, le masquage des vulgarités de transcription, la traduction de transcription et le langage d’invite système. Pour plus d’informations, consultez [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy).
 
 Pour gérer Messagerie vocale infonuagique paramètres pour les utilisateurs individuels, utilisez l’applet de commande [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings). Messagerie vocale infonuagique paramètres que vous pouvez appliquer à des utilisateurs individuels incluent les règles de réponse aux appels, la langue d’invite, la reconnaissance vocale par défaut et les salutations de vacances. Pour plus d’informations, consultez [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings).
-(Notez que vos utilisateurs finaux peuvent également configurer ces paramètres dans le client Teams en allant **à Paramètres** ->  **CallsConfigure** ->  Voicemail.)
+(Notez que vos utilisateurs finaux peuvent également configurer ces paramètres dans le client Teams en allant à **Paramètres** ->  **Calls** -> **Configure Voicemail**.)
 
 Vous pouvez également désactiver Messagerie vocale infonuagique pour un utilisateur à l’aide de l’applet de commande [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) et en définissant le paramètre VoicemailEnabled sur $false. Ce paramètre garantit que Messagerie vocale infonuagique ne peut plus enregistrer de messagerie vocale pour l’utilisateur.
 
@@ -75,7 +75,7 @@ Vous pouvez également désactiver Messagerie vocale infonuagique pour un utilis
 
 Le paramètre par défaut pour tous les utilisateurs approvisionnés pour Messagerie vocale infonuagique est d’autoriser le routage des appels vers Messagerie vocale infonuagique et de permettre aux utilisateurs de transférer des appels à Messagerie vocale infonuagique.
 
-Vous pouvez contrôler si le routage des appels à Messagerie vocale infonuagique est autorisé pour Teams utilisateurs à l’aide de l’applet de commande Set-CsTeamsCallingPolicy avec le paramètre AllowVoicemail. Pour plus d’informations,  [consultezSet-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+Vous pouvez contrôler si le routage des appels à Messagerie vocale infonuagique est autorisé pour Teams utilisateurs à l’aide de l’applet de commande Set-CsTeamsCallingPolicy avec le paramètre AllowVoicemail. Pour plus d’informations, consultez [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
 - Si vous définissez AllowVoicemail sur AlwaysDisabled, les appels ne sont jamais acheminés vers la messagerie vocale, quels que soient les paramètres de transfert d’appel ou sans réponse pour un utilisateur. La messagerie vocale n’est pas disponible en tant que transfert d’appel ou paramètre sans réponse dans Teams.
 
@@ -99,36 +99,34 @@ Les informations suivantes traitent de la configuration des Messagerie vocale in
 
 ## <a name="enable-protected-voicemail-in-your-organization"></a>Activer la messagerie vocale protégée dans votre organisation
 
-Lorsqu’une personne laisse un message vocal pour un utilisateur de votre organisation, la messagerie vocale est remise à la boîte aux lettres de l’utilisateur sous forme de pièce jointe. 
+Lorsqu’une personne laisse un message vocal pour un utilisateur de votre organisation, la messagerie vocale est remise à la boîte aux lettres de l’utilisateur sous forme de pièce jointe.
 
-À l’aide de Microsoft Purview Information Protection, vous pouvez chiffrer les messages vocaux laissés par les appelants internes et externes. Vous pouvez également empêcher l’utilisateur de transférer ces messages. Cette fonctionnalité est prise en charge pour les utilisateurs disposant de boîtes aux lettres Exchange Online.
+À l’aide de Protection des données Microsoft Purview, vous pouvez chiffrer les messages vocaux laissés par les appelants internes et externes. Vous pouvez également empêcher l’utilisateur de transférer ces messages. Cette fonctionnalité est prise en charge pour les utilisateurs disposant de boîtes aux lettres Exchange Online.
 
-Pour chiffrer le message vocal, vous pouvez créer une étiquette de confidentialité. Avec la fonctionnalité d’étiquetage automatique, vous pouvez vous assurer que l’étiquette sera appliquée automatiquement aux messages vocaux entrants. 
+Pour chiffrer le message vocal, vous pouvez créer une étiquette de confidentialité. Avec la fonctionnalité d’étiquetage automatique, vous pouvez vous assurer que l’étiquette sera appliquée automatiquement aux messages vocaux entrants.
 
-Lorsque vous activez la messagerie vocale protégée, les utilisateurs peuvent écouter les messages vocaux protégés en appelant leur boîte aux lettres de messagerie vocale ou en ouvrant le message dans Outlook, Outlook sur le web ou Outlook pour Android ou iOS. Les messages vocaux protégés ne peuvent pas être ouverts dans Microsoft Teams ou Skype Entreprise.
+Lorsque vous activez la messagerie vocale protégée, les utilisateurs peuvent écouter les messages vocaux protégés en appelant dans leur boîte aux lettres de messagerie vocale ou en ouvrant le message dans Outlook, Outlook sur le web ou Outlook pour Android ou iOS. Les messages vocaux protégés ne peuvent pas être ouverts dans Microsoft Teams ou Skype Entreprise.
 
-Pour créer une étiquette de confidentialité pour la messagerie vocale, consultez [Utiliser des étiquettes de confidentialité](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). Dans la section **Chiffrement** , choisissez **Autoriser les utilisateurs à attribuer des autorisations lorsqu’ils appliquent l’étiquette**. Sélectionnez **Dans Outlook, appliquez l’une des restrictions suivantes**, puis sélectionnez l’option **Ne pas transférer**.
+Pour créer une étiquette de confidentialité pour la messagerie vocale, consultez [Utiliser des étiquettes de confidentialité](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions). Dans la section **Chiffrement** , choisissez **Autoriser les utilisateurs à attribuer des autorisations lorsqu’ils appliquent l’étiquette**. Sélectionnez **Dans Outlook, appliquez l’une des restrictions suivantes**, puis sélectionnez l’option **Ne pas transférer**.
 
-Pour créer la stratégie d’étiquetage automatique afin d’appliquer une étiquette de confidentialité à la messagerie vocale, consultez [Comment configurer des stratégies d’étiquetage automatique](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) et spécifiez les paramètres spécifiques suivants :
+Pour créer la stratégie d’étiquetage automatique afin d’appliquer une étiquette de confidentialité à la messagerie vocale, consultez [Comment configurer des stratégies d’étiquetage automatique](/microsoft-365/compliance/apply-sensitivity-label-automatically#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) et spécifiez les paramètres spécifiques suivants :
 
--   Pour **choisir les informations auxquelles vous souhaitez appliquer cette étiquette**, sélectionnez **Stratégie personnalisée**.
+- Pour **choisir les informations auxquelles vous souhaitez appliquer cette étiquette**, sélectionnez **Stratégie personnalisée**.
 
--   Pour **choisir les emplacements où vous souhaitez appliquer l’étiquette**, sélectionnez **Emplacements : Exchange pour tous les utilisateurs**.
+- Pour **choisir les emplacements où vous souhaitez appliquer l’étiquette**, sélectionnez **Emplacements : Exchange pour tous les utilisateurs**.
 
--   Pour  **configurer des règles courantes ou avancées**, sélectionnez **Règles avancées**.
+- Pour  **configurer des règles courantes ou avancées**, sélectionnez **Règles avancées**.
 
 - règles de Exchange :
-    - Conditions:<br>
-        - **L’en-tête correspond au modèle :**<br>
-              Content-Class = Voice-CA
-       -  **L’adresse IP de l’expéditeur est :**<br>
-               13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
+  - Conditions:
+    - **Modèle correspondant à l’en-tête** : Content-Class = Voice-CA
+    - **L’adresse IP de l’expéditeur est** : 13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
 
 - Pour **choisir une étiquette à appliquer automatiquement**, sélectionnez l’étiquette de confidentialité que vous avez créée pour la messagerie vocale à l’étape ci-dessus.
 
-- Pour **obtenir des paramètres supplémentaires pour l’e-mail**, **sélectionnez Appliquer le chiffrement aux e-mails reçus de l’extérieur de votre organisation**, puis spécifiez le propriétaire rights management.
+- Pour **obtenir des paramètres supplémentaires pour l’e-mail**, **sélectionnez Appliquer le chiffrement aux e-mails reçus de l’extérieur de votre organisation**, puis spécifiez le propriétaire Rights Management.
 
-Les plages IP V4 spécifiées dans l’adresse IP de l’expéditeur sont basées sur la liste de l’ID 12 dans [Office 365 URL et plages d’adresses IP](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams).
+Les plages IP V4 spécifiées dans l’adresse IP de l’expéditeur sont basées sur la liste de l’ID 12 dans [Office 365 URL et plages d’adresses IP](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
 
 Pour plus d’informations sur le chiffrement des messages, consultez [Définir des règles de flux de courrier pour chiffrer les messages électroniques](/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email).
 

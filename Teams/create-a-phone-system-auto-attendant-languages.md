@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams langues prises en charge par le standard automatique
-ms.openlocfilehash: 0a513e31f94052abc07707ddd57bc116c4768aff
-ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
+ms.openlocfilehash: 609c92d86c1fbacddf35093a1ad77df065f5da75
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65462038"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676456"
 ---
 # <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams langues prises en charge par le standard automatique
 
@@ -38,17 +38,17 @@ Le standard automatique prend en charge les langues suivantes pour la reconnaiss
 |Catalan (catalan)                       |O                        |O                                      |
 |Chinois (simplifié, PRC)               |O                        |O                                      |
 |Chinois (traditionnel, Hong Kong)        |v                        |                                       |
-|Chinois (traditionnel, Taïwan)           |v                        |                                       |    
-|Croate (Croatie)                      |v                        |                                       |    
-|Tchèque (République tchèque)                  |v                        |                                       |    
-|Danois (Danemark)                        |v                        |                                       |    
-|Néerlandais (Pays-Bas)                     |v                        |                                       |    
+|Chinois (traditionnel, Taïwan)           |v                        |                                       |
+|Croate (Croatie)                      |v                        |                                       |
+|Tchèque (République tchèque)                  |v                        |                                       |
+|Danois (Danemark)                        |v                        |                                       |
+|Néerlandais (Pays-Bas)                     |v                        |                                       |
 |Anglais (Australie)                     |O                        |O                                      |
 |Anglais (Canada)                        |O                        |O                                      |
 |Anglais (Inde)                         |O                        |O                                      |
 |Anglais (Royaume-Uni)                |O                        |O                                      |
 |Anglais (États-Unis)                 |O                        |O                                      |
-|Finlandais (Finlande)                       |v                        |                                       |    
+|Finlandais (Finlande)                       |v                        |                                       |
 |Français (Canada)                         |O                        |O                                      |
 |Français (France)                         |O                        |O                                      |
 |Allemand (Allemagne)                        |O                        |O                                      |
@@ -57,21 +57,21 @@ Le standard automatique prend en charge les langues suivantes pour la reconnaiss
 |Indonésien (Indonésie)                  |O                        |                                       |
 |Italien (Italie)                         |O                        |O                                      |
 |Japonais (Japon)                        |O                        |O                                      |
-|Coréen (Corée)                          |O                        |                                       |    
-|Norvégien Bokmal (Norvège)               |v                        |                                       |    
-|Polonais (Pologne)                         |v                        |                                       |    
+|Coréen (Corée)                          |O                        |                                       |
+|Norvégien Bokmal (Norvège)               |v                        |                                       |
+|Polonais (Pologne)                         |v                        |                                       |
 |Portugais (Brésil)                     |O                        |O                                      |
-|Portugais (Portugal)                   |v                        |                                       |    
-|Roumain (Roumanie)                      |O                        |                                       |    
-|Russe (Russie)                        |v                        |                                       |    
-|Slovaque (Slovaquie)                       |O                        |                                       |    
-|Slovène (Slovénie)                    |v                        |                                       |    
+|Portugais (Portugal)                   |v                        |                                       |
+|Roumain (Roumanie)                      |O                        |                                       |
+|Russe (Russie)                        |v                        |                                       |
+|Slovaque (Slovaquie)                       |O                        |                                       |
+|Slovène (Slovénie)                    |v                        |                                       |
 |Espagnol (Mexique)                        |O                        |O                                      |
 |Espagnol (Espagne, International)          |O                        |O                                      |
-|Suédois (Suède)                        |v                        |                                       |    
-|Thaï (Thaïlande)                         |v                        |                                       |    
-|Turc (Turquie)                        |O                        |                                       |    
-|Vietnamien (Vietnam)                    |O                        |                                       |    
+|Suédois (Suède)                        |v                        |                                       |
+|Thaï (Thaïlande)                         |v                        |                                       |
+|Turc (Turquie)                        |O                        |                                       |
+|Vietnamien (Vietnam)                    |O                        |                                       |
 
 > [!NOTE]
 > Le choix d’une langue qui ne prend pas en charge la reconnaissance vocale désactive l’option entrées vocales dans le menu et la numérotation par nom est limitée à l’utilisation de l’entrée de clavier (DTMF) uniquement. Pour plus d’informations, reportez-vous à [l’entrée Dial by Name - Keypad (DTMF](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) ).

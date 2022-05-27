@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce8e702682ebcc4b05e94f077882d51f09aac0ff
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.openlocfilehash: 5b85befa685458f5460ab21bb962af3f0df4f004
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624148"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681585"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -101,6 +101,9 @@ Vous pouvez déployer l’application de bureau Teams pour VDI à l’aide d’u
 Pour une installation permanente dédiée, l’installation par ordinateur et par utilisateur fonctionnera. Toutefois, pour une installation non persistante, Teams nécessite une installation par ordinateur pour fonctionner efficacement. Consultez la section [d’installation non persistante](#non-persistent-setup) .
 
 Avec l’installation par ordinateur, les mises à jour automatiques sont désactivées. Cela signifie que pour mettre à jour l’application Teams, vous devez désinstaller la version actuelle pour la mettre à jour vers une version plus récente. Avec l’installation par utilisateur, les mises à jour automatiques sont activées.
+
+> [!IMPORTANT]
+> Tenez à jour l’application de bureau Teams dans votre environnement VDI. Teams versions d’application de bureau dont les dates de publication sont plus de 90 jours antérieures à la [date de publication de la version actuelle](/officeupdates/teams-app-versioning) ne sont pas prises en charge. Les versions d’application de bureau Teams non prises en charge affichent une page bloquante pour les utilisateurs et demandent qu’ils mettent à jour leur application.
 
 Pour la plupart des déploiements VDI, nous vous recommandons de déployer Teams à l’aide de l’installation par ordinateur. Pour effectuer une mise à jour vers la dernière version Teams, commencez par la procédure de désinstallation suivie du déploiement de la dernière version Teams.
 
@@ -299,8 +302,8 @@ Pour affecter une stratégie à plusieurs utilisateurs à la fois :
 Vous pouvez également effectuer les opérations suivantes :
 
 1. Dans le volet de navigation gauche du centre d’administration Teams, accédez à la stratégie que vous souhaitez affecter. Par exemple :
-    - Accédez aux **stratégies VoiceCalling** > , puis cliquez sur **DisallowCalling**.
-    - Accédez aux **stratégies MeetingsMeeting** > , puis cliquez sur **AllOff**.
+    - Accédez aux **stratégies d’appel** **vocal** > , puis cliquez sur **DisallowCalling**.
+    - Accédez aux **stratégies** **réunions** > , puis cliquez sur **AllOff**.
 2. Sélectionnez **Gérer les utilisateurs**.
 3. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 4. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
@@ -355,8 +358,8 @@ Pour affecter une stratégie à plusieurs utilisateurs à la fois :
 Vous pouvez également effectuer les opérations suivantes :
 
 1. Dans le volet de navigation gauche du centre d’administration Teams, accédez à la stratégie que vous souhaitez affecter. Par exemple :
-    - Accédez aux **stratégies VoiceCalling** > , puis cliquez sur **AllowCalling**.
-    - Accédez aux **stratégies MeetingsMeeting** > , puis cliquez sur **AllOn**.
+    - Accédez aux **stratégies d’appel** **vocal** > , puis cliquez sur **AllowCalling**.
+    - Accédez aux **stratégies** **réunions** > , puis cliquez sur **AllOn**.
 2. Sélectionnez **Gérer les utilisateurs**.
 3. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 4. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
@@ -540,7 +543,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 Ensuite, redémarrez VDA. Pour plus d’informations, consultez cet article de support Citrix sur la [résolution des problèmes d’optimisation HDX pour Microsoft Teams](https://support.citrix.com/article/CTX253754).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Installation en bloc Teams à l’aide de Windows Installer (MSI)](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

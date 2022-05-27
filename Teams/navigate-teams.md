@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 9bf52e68f8db5ecacfb4683b0a4809437a860d77
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 2455d386e9bdf297995880f679e5db74b299e64d
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635242"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674836"
 ---
 # <a name="navigate-microsoft-teams"></a>Naviguer Microsoft Teams
 
@@ -89,7 +89,7 @@ Il existe deux façons de déplacer vos groupes plats Kaizala vers Teams :
 
 - Option 2 : Passer d’un groupe plat Kaizala à une équipe Teams
 
-**Option 1 : Passer d’un groupe plat Kaizala à une conversation de groupe dans Teams**
+**Option 1 : Passer d’un groupe plat Kaizala à une conversation de groupe dans Teams** :
 
 Vous pouvez créer une conversation de groupe Teams pour tenir des réunions rapides et des conversations temporaires avec jusqu’à 250 participants. Les conversations de groupe permettent aux membres de votre organisation d’avoir un emplacement central pour une conversation ouverte où n’importe qui peut être ajouté à la conversation.
 
@@ -102,23 +102,23 @@ Vous pouvez créer une conversation de groupe Teams pour tenir des réunions rap
 2. Ajoutez des personnes à la conversation.
 
     ![Ajouter des personnes à la conversation](media/kaizala-to-teams-image5.png)
-    
+
    Lors de l’ajout d’une personne à une conversation de groupe (pas une conversation un-à-un), vous pouvez inclure **l’historique des conversations** et la **durée de l’historique** que vous souhaitez partager avec eux.
 
 3. Gérer la conversation de groupe.
   
     ![Gérer la conversation de groupe](media/manage-groupchats.png)
-    
+
    Pour voir qui est dans une conversation de groupe, pointez sur le nombre de participants dans l’en-tête de conversation pour afficher une liste des noms de tout le monde.
 
-**Option 2 : Passer d’un groupe plat Kaizala à une équipe Teams**
-   
+**Option 2 : Passer d’un groupe plat Kaizala à une équipe Teams** :
+
 Pour une communication de grand groupe ciblée, vous pouvez créer une équipe pour un groupe plat. Vous pouvez ajouter jusqu’à 25 000 membres pour communiquer de manière structurée avec des conversations thématiques. Ce type de communication permet aux rôles de modération et d’administration de s’assurer que les choses s’exécutent correctement.
 
 1. Créer une équipe : pour être opérationnel dans Teams, vous devez créer une équipe, ajouter des personnes et ajouter des canaux. Pour en savoir plus, consultez [vos premières équipes](get-started-with-teams-create-your-first-teams-and-channels.md).
 2. Consultez le guide pour les propriétaires d’équipe :
 
-En tant que [propriétaire d’équipe](https://support.microsoft.com/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us), vous pouvez ajouter de nouveaux membres et invités, modifier des membres en propriétaires, gérer les canaux et les paramètres, et archiver une équipe qui n’est plus utilisée.
+   En tant que [propriétaire d’équipe](https://support.microsoft.com/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us), vous pouvez ajouter de nouveaux membres et invités, modifier des membres en propriétaires, gérer les canaux et les paramètres, et archiver une équipe qui n’est plus utilisée.
 
 3. Ajoutez des membres en bloc à une équipe :
 
@@ -318,7 +318,7 @@ Utilisez le tableau suivant pour parcourir les fonctionnalités correspondantes 
 | Répertoire | Recherchez n’importe qui dans votre organisation via la **barre de recherche** dans teams. Les résultats de la recherche retournent également des fichiers, des messages et des publications |
 | Analytique (cartes d’action) | **Les sondages**, **les enquêtes** et **les listes de** vérification ont intégré des rapports avec des données téléchargeables. Les travaux peuvent également être attribués à l’aide de l’application Tasks dans Teams, disponible pour les utilisateurs. Pour d’autres scénarios, des applications tierces comme **Trello**, **Asana** peuvent également être explorées pour être utilisées dans Teams. |
 | Extensions – Connecteurs | Utilisez l’option **Connecteurs** dans le menu (...) pour tout canal pour lequel le connecteur est requis. |
-| [Rapport d’adoption de l’analytique (utilisation),](teams-analytics-and-reports/view-analytics.md) [rapport d’utilisation](teams-analytics-and-reports/teams-usage-report.md), [rapport d’activité](teams-analytics-and-reports/user-activity-report.md) | Les propriétaires d’équipe peuvent accéder aux rapports de leurs équipes en naviguant à partir du menu (...) pour **gérer** **teamanalytics** > . |
+| [Rapport d’adoption de l’analytique (utilisation),](teams-analytics-and-reports/view-analytics.md) [rapport d’utilisation](teams-analytics-and-reports/teams-usage-report.md), [rapport d’activité](teams-analytics-and-reports/user-activity-report.md) | Les propriétaires d’équipe peuvent accéder aux rapports de leurs équipes en naviguant à partir du menu (...) pour gérer **l’analytique** de **l’équipe** > . |
 
 > [!NOTE]
 > Teams les utilisateurs finaux peuvent utiliser Teams sur le bureau ou le mobile pour gérer leurs équipes et canaux individuels et n’ont pas besoin d’accéder au centre de Teams Administration.

@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4fc6e36c0c78bdf86e1384fe6269f292f20deb7
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 35447b432118737821f578ddaee364e780f18e0d
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922825"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675346"
 ---
 # <a name="shifts-data-faq"></a>Faq sur les changements de données
 
@@ -45,7 +45,7 @@ Lorsque vous configurez Teams pour la première fois, vous choisissez un pays ou
 
 ## <a name="can-i-access-and-export-or-delete-a-users-personal-data-in-shifts"></a>Puis-je accéder et exporter ou supprimer les données personnelles d’un utilisateur dans Shifts ?
 
-Shifts est conforme au Règlement général sur la protection des données (RGPD).Une demande formelle d’une personne (connue sous le nom de personne concernée) d’entreprendre une action sur ses données personnelles est appelée demande d’objet de données (DSR). Vous pouvez rechercher et agir sur des données personnelles dans Shifts en réponse à une DSR.
+Shifts est conforme au Règlement général sur la protection des données (RGPD). Une demande formelle d’une personne (connue sous le nom de personne concernée) d’entreprendre une action sur ses données personnelles est appelée demande d’objet de données (DSR). Vous pouvez rechercher et agir sur des données personnelles dans Shifts en réponse à une DSR.
 
 Vous pouvez utiliser l’outil recherche de contenu eDiscovery dans le portail de conformité Microsoft Purview pour rechercher et exporter des données de planification et d’horloge dans Excel. Pour toutes les autres données Shifts, vous pouvez prendre des captures d’écran des données.
 
@@ -63,7 +63,7 @@ Il n’existe aucune option permettant de supprimer uniquement les données Shif
 
 Vous pouvez récupérer une planification supprimée si le groupe Microsoft 365 qui le sauvegarde (ou l’équipe dans Teams) est restauré.
 
-Par défaut, un groupe Microsoft 365 supprimé est conservé pendant 30 jours. Cette période de 30 jours est appelée « suppression réversible », car vous pouvez toujours restaurer le groupe. Pour plus d’informations, consultez [Restaurer un groupe Microsoft 365 supprimé](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center).
+Par défaut, un groupe Microsoft 365 supprimé est conservé pendant 30 jours. Cette période de 30 jours est appelée « suppression réversible », car vous pouvez toujours restaurer le groupe. Pour plus d’informations, consultez [Restaurer un groupe Microsoft 365 supprimé](/microsoft-365/admin/create-groups/restore-deleted-group?tabs=admin-center).
 
 ## <a name="can-i-use-custom-retention-policies-for-shifts-data"></a>Puis-je utiliser des stratégies de rétention personnalisées pour les données Shifts ?
 
@@ -77,7 +77,7 @@ Aujourd’hui, nous n’offrons pas la possibilité de récupérer des données 
 
 ## <a name="what-type-of-encryption-does-shifts-use-for-data-at-rest-and-in-transit"></a>Quel type de chiffrement Shifts utilise-t-il pour les données au repos et en transit ?
 
-Les données shifts sont chiffrées au repos par Azure Cosmos DB et Azure Stockage. Pour en savoir plus, consultez [le chiffrement des données Azure au repos](/azure/security/fundamentals/encryption-atrest) et le [chiffrement des données dans Azure Cosmos base de données](/azure/cosmos-db/database-encryption-at-rest).
+Les données de décalage sont chiffrées au repos par Azure Cosmos DB et stockage Azure. Pour en savoir plus, consultez [le chiffrement des données Azure au repos](/azure/security/fundamentals/encryption-atrest) et le [chiffrement des données dans Azure Cosmos base de données](/azure/cosmos-db/database-encryption-at-rest).
 
 Shifts suit Microsoft 365 instructions pour le chiffrement des données en transit. Pour plus d’informations, consultez [Chiffrement pour les données en transit](/compliance/assurance/assurance-encryption-in-transit).
 

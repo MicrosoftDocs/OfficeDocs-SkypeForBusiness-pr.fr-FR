@@ -19,20 +19,20 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 8a8e8b21bb3b224586ef7e74f971059070d0a74c
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: d530cc3947c738753f053d126ded1dd77b815009
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059295"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676396"
 ---
-# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams 
+# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams
 
 ## <a name="network-requirements"></a>Configuration réseau requise
 
 Si vous avez déjà [optimisé votre réseau pour Microsoft 365 ou Office 365](/Office365/Enterprise/assessing-network-connectivity), vous êtes probablement prêt pour Microsoft Teams. Dans tous les cas, et surtout si vous déployez rapidement Teams en tant que première charge de travail Microsoft 365 ou Office 365 pour prendre en charge les **employés distants**, vérifiez les étapes suivantes avant de commencer le déploiement de Teams :
 
-1.  Est-ce que tous vos emplacements ont un accès à Internet (pour pouvoir se connecter à Microsoft 365 ou à Office 365) ? En plus du trafic web normal, assurez-vous d’avoir ouvert les ports TCP et les adresses IP répertoriés pour Teams dans [URL Office 365 et les plages d’adresses IP](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
+1. Est-ce que tous vos emplacements ont un accès à Internet (pour pouvoir se connecter à Microsoft 365 ou à Office 365) ? En plus du trafic web normal, assurez-vous d’avoir ouvert les ports TCP et les adresses IP répertoriés pour Teams dans [URL Office 365 et les plages d’adresses IP](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
 
     > [!IMPORTANT]
     > Si vous devez vous fédérer avec Skype pour les entreprises, sur site ou en ligne, vous devrez configurer un enregistrement DNS supplémentaire.
@@ -40,14 +40,14 @@ Si vous avez déjà [optimisé votre réseau pour Microsoft 365 ou Office 365](/
     >|Enregistrement DNS  |Service  |Protocol (Protocole)  |Priority (Priorité)  |Weight (Poids)  |Port  |Target (Cible)  |
     >|---------|---------|---------|---------|---------|---------|---------|
     >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
-    
-2.  Avez-vous un domaine vérifié pour Microsoft 365 ou Office 365 (par exemple, contoso.com) ?
-    
+
+2. Avez-vous un domaine vérifié pour Microsoft 365 ou Office 365 (par exemple, contoso.com) ?
+
     - Si votre organisation n’a pas déployé Microsoft 365 ou Office 365, consultez la [prise en main](/microsoft-365/admin/admin-overview/get-started-with-office-365).
     - Si votre organisation n’a pas ajouté ou configuré un domaine vérifié pour Microsoft 365 ou Office 365, consultez là [FAQ sur les domaines](/microsoft-365/admin/setup/domains-faq).
 
-3.  Votre organisation a-t-elle déployé Exchange Online et SharePoint Online ?
-    
+3. Votre organisation a-t-elle déployé Exchange Online et SharePoint Online ?
+
     - Si votre organisation ne dispose pas d'Exchange Online, reportez-vous à la page [Comprendre l’interaction entre Exchange et Microsoft Teams](exchange-teams-interact.md).
     - Si votre organisation ne dispose pas de SharePoint Online, reportez-vous à la page [Comprendre l’interaction entre SharePoint Online et OneDrive Entreprise avec Microsoft Teams](sharepoint-onedrive-interact.md).
 
@@ -55,12 +55,12 @@ Une fois que vous avez vérifié que vous répondez à ces exigences réseau, vo
 
 > [!IMPORTANT]
 > **Pour les établissements d’enseignement** : si votre organisation est un établissement d’enseignement et que vous utilisez un système d’information sur les élèves (SIE), [déployez la synchronisation des données scolaires](/schooldatasync/) avant de déployer Teams.
->  
+>
 > **Exécution de Skype Entreprise Server** en local : si votre organisation exécute Skype Entreprise Server en local (ou Lync Server), vous devez [configurer Azure AD Connect](/skypeforbusiness/hybrid/configure-azure-ad-connect) pour synchroniser votre annuaire local avec Microsoft 365 ou Office 365.
 
-### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>Recommandation : surveillez votre réseau à l’aide du tableau de bord de qualité des appels et de l’analyse des appels 
+### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>Recommandation : surveillez votre réseau à l’aide du tableau de bord de qualité des appels et de l’analyse des appels
 
-Utilisez le [tableau de bord de la qualité des appels (TBQA)](turning-on-and-using-call-quality-dashboard.md) pour mieux connaître la qualité des appels et réunions dans Teams. Le TBQA peut vous aider à optimiser votre réseau en gardant un œil sur la qualité, la fiabilité et l’expérience utilisateur. Le TBQA examine la télémétrie d’agrégation pour l’ensemble d’une organisation où des modèles globaux peuvent apparaître, ce qui vous permet d’identifier les problèmes et de planifier la correction. De plus, le TBQA propose des rapports métriques enrichis qui fournissent des informations sur la qualité globale, sur la fiabilité et sur l’expérience utilisateur. 
+Utilisez le [tableau de bord de la qualité des appels (TBQA)](turning-on-and-using-call-quality-dashboard.md) pour mieux connaître la qualité des appels et réunions dans Teams. Le TBQA peut vous aider à optimiser votre réseau en gardant un œil sur la qualité, la fiabilité et l’expérience utilisateur. Le TBQA examine la télémétrie d’agrégation pour l’ensemble d’une organisation où des modèles globaux peuvent apparaître, ce qui vous permet d’identifier les problèmes et de planifier la correction. De plus, le TBQA propose des rapports métriques enrichis qui fournissent des informations sur la qualité globale, sur la fiabilité et sur l’expérience utilisateur.
 
 Vous utiliserez [l’analyse des appels](set-up-call-analytics.md) pour évaluer les problèmes liés aux appels et aux réunions pour un utilisateur particulier.
 
@@ -70,9 +70,9 @@ Les tâches suivantes sont facultatives et ne sont pas requises pour déployer T
 
 Vous pouvez avoir besoin d’optimiser davantage le réseau si :
 
-  - Teams fonctionnent lentement (votre bande passante est peut-être insuffisante)
-  - Les appels sont en continue (peut être dû à un pare-feu ou à des bloqueurs de proxy)
-  - Les appels sont statiques et saccadés, ou la voix est robotique (peut être dû à une gigue ou une perte de paquets)
+- Teams fonctionnent lentement (votre bande passante est peut-être insuffisante)
+- Les appels sont en continue (peut être dû à un pare-feu ou à des bloqueurs de proxy)
+- Les appels sont statiques et saccadés, ou la voix est robotique (peut être dû à une gigue ou une perte de paquets)
 
 Pour une discussion détaillée sur l’optimisation du réseau, ainsi que des instructions sur l’identification et la résolution des problèmes de réseau, lisez les [principes de connectivité réseau de Microsoft 365 et Office 365](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles).
 
@@ -117,9 +117,9 @@ Pour une discussion détaillée sur l’optimisation du réseau, ainsi que des i
 <td><p>Nous vous recommandons de fournir un autre chemin d’accès pour le trafic Teams qui contourne le réseau privé virtuel (VPN), communément appelé <a href="/windows/security/identity-protection/vpn/vpn-routing">VPN en tunnel segmenté</a>. Grâce au tunnel segmenté, le trafic pour Microsoft 365 ou Office 365 ne passe pas par le VPN, mais va directement vers Microsoft 365 ou Office 365. Contourner le VPN a un impact positif sur la qualité de Teams et réduit la charge à partir des appareils VPN et du réseau de l’organisation. Pour mettre en place un tunnel segmenté, consultez votre fournisseur VPN.</p>
 <p>Nous vous recommandons de contourner le VPN pour les autres raisons suivantes :
 <ul>
-<li><p>Les VPN ne sont généralement pas conçus ou configurés pour prendre en charge les médias en temps réel.</p></li> 
-<li><p>Certains VPN peuvent également ne pas prendre en charge les UDP (obligatoires pour Teams).</p></li> 
-<li><p>Les VPN offrent également une phase supplémentaire de chiffrement au-dessus du trafic multimédia déjà chiffré.</p></li> 
+<li><p>Les VPN ne sont généralement pas conçus ou configurés pour prendre en charge les médias en temps réel.</p></li>
+<li><p>Certains VPN peuvent également ne pas prendre en charge les UDP (obligatoires pour Teams).</p></li>
+<li><p>Les VPN offrent également une phase supplémentaire de chiffrement au-dessus du trafic multimédia déjà chiffré.</p></li>
 <li><p>La connectivité à Teams peut ne pas être efficace en raison de l’épinglage de bande passante via un appareil VPN.</p></li></td>
 </tr>
 <tr class="odd">
@@ -153,7 +153,7 @@ Le tableau suivant décrit la manière dont Teams utilise la bande passante. Tea
       **Modalité**
    :::column-end:::
    :::column span="3":::
-      **Exigences en bande passante (vitesse de transmission en Ko/s vers le haut/bas)**    
+      **Exigences en bande passante (vitesse de transmission en Ko/s vers le haut/bas)**
    :::column-end:::
 :::row-end:::
 :::row:::
@@ -304,13 +304,13 @@ Le tableau suivant décrit la manière dont Teams utilise la bande passante. Tea
 
 **Les performances minimales**, **recommandées** et **optimales en matière** de bande passante sont basées sur l'utilisation par point de terminaison. En règle générale, il existe un point de terminaison par utilisateur, tel qu’un ordinateur ou un appareil mobile. Toutefois, si un utilisateur participe à une réunion Teams sur ** un ordinateur *et* un appareil mobile, deux points de terminaison sont associés à cet utilisateur.
 
-- Les exigences **minimales** en matière de bande passante pour les appels vidéo sont d’une résolution maximale de 240 p, de fréquences d’images de contenu de partage d’écran adaptatives de 1 875 à 7,5fps et de vidéo en mode ensemble/grande galerie jusqu’à une résolution de 540 p.  
+- Les exigences **minimales** en matière de bande passante pour les appels vidéo sont d’une résolution maximale de 240 p, de fréquences d’images de contenu de partage d’écran adaptatives de 1 875 à 7,5fps et de vidéo en mode ensemble/grande galerie jusqu’à une résolution de 540 p.
 
-- Les exigences **recommandées** en matière de bande passante pour les appels vidéo sont jusqu’à 1 080p de résolution <sup>\*</sup>, les fréquences d’images de contenu de partage d’écran s’adaptent de 7,5 à 30fps, et la vidéo en mode ensemble/grande galerie jusqu’à 1 080p de résolution <sup>\*</sup>.  
+- Les exigences **recommandées** en matière de bande passante pour les appels vidéo sont jusqu’à 1 080p de résolution <sup>\*</sup>, les fréquences d’images de contenu de partage d’écran s’adaptent de 7,5 à 30fps, et la vidéo en mode ensemble/grande galerie jusqu’à 1 080p de résolution <sup>\*</sup>.
 
 - **Meilleures performances** Les conseils offrent une meilleure fidélité vidéo pour les réunions de plus grands participants, des environnements à perte élevée et un contenu de mouvement plus élevé avec des fréquences d’images de contenu de partage d’écran adaptatives de 15 à 30fps.
 
-<sup>\*</sup>Attendez-vous à une qualité jusqu’à 1 080p, mais en fonction des conditions de votre réseau, la résolution et la qualité des vidéos seront optimisées en conséquence.  
+<sup>\*</sup>Attendez-vous à une qualité jusqu’à 1 080p, mais en fonction des conditions de votre réseau, la résolution et la qualité des vidéos seront optimisées en conséquence.
 
 ## <a name="related-topics"></a>Voir aussi
 

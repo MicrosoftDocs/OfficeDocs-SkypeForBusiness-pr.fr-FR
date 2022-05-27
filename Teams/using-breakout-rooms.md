@@ -11,12 +11,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Les utilisateurs finaux peuvent découvrir comment utiliser les salles pour petits groupes dans Microsoft Teams
-ms.openlocfilehash: 77646dad78459b108f39803bb4927d849bce703f92e36c832d8606dbc3e15e94
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 308f07c071f6a88b3de9043ca986896dbabb08fc
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345113"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681415"
 ---
 # <a name="using-breakout-rooms-in-microsoft-teams"></a>Utilisation de salles pour petits groupes dans Teams
 
@@ -43,13 +43,13 @@ Lorsque vous êtes prêt à commencer vos session pour petits groupes, sélectio
 
 Vous remarquerez que les participants quittent la réunion principale et rejoignent leur salle pour petits groupes.
 
-Si un participant quitte sa salle pour petits groupes, l’organisateur peut replacer le participant dans la salle pour petits groupes en sélectionnant les points de suspension **[...]** en regard du nom du participant, puis en sélectionnant **Demander à rejoindre**.
+Si un participant quitte sa salle d’accueil, l’organisateur peut déplacer le participant vers la salle de réunion en sélectionnant les points de suspension **[...]** en regard du nom du participant, puis en sélectionnant **Demander à participer**.
 
 Si un participant rejoint la réunion principale suite à l’ouverture d’une salle pour petits groupes, l’organisateur peut ajouter le participant à une salle pour petits groupes. Si le participant ne parvient pas à rejoindre la salle, sélectionnez **Demander à rejoindre**.
 
 ## <a name="send-announcements"></a>Envoyer des annonces
 
-L’organisateur de la réunion peut envoyer des annonces à tous les participants lorsque les salles pour petits groupes sont ouvertes. Sélectionnez les points de suspension **[...]** dans l’en-tête de salles pour petits groupes.
+L’organisateur de la réunion peut envoyer des annonces à tous les participants lorsque les salles pour petits groupes sont ouvertes. Sélectionnez les points de suspension **[...]** dans l’en-tête des salles d’atelier.
 
 Par exemple, rappelez aux participants de @mentionner l’organisateur de la réunion lorsqu’ils ont besoin d’aide, ou attribuez-leur un compte à rebours de cinq minutes avant de les replacer dans la salle principale.
 Les participants reçoivent l’annonce dans leur discussion sur les salles pour petits groupes.
@@ -58,5 +58,5 @@ Les participants reçoivent l’annonce dans leur discussion sur les salles pour
 
 Sélectionnez **Fermer les salles** pour replacer tous les participants dans la salle principale.
 
-Vous pouvez également sélectionner les points de suspension **[...]** pour sélectionner une pièce pour petits groupes en particulier, puis sélectionner **Fermer la salle**.
+Vous pouvez également sélectionner les points de suspension **[...]** pour une salle de pause spécifique, puis sélectionner **Fermer la salle**.
 Une fois la salle pour petits groupes fermée, la conversation est fermée. Les participants ne pourront pas y poursuivre leur conversation.

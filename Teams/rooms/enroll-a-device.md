@@ -1,5 +1,5 @@
 ---
-title: Inscrire un appareil Salle Teams dans les services gérés
+title: Inscrire un appareil Teams Room dans Managed Services
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
@@ -15,85 +15,90 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Intégration de salles Teams à des services gérés
+description: Intégration d’appareils salles Teams à des services managés
 f1keywords: ''
-ms.openlocfilehash: 4261e93a7bfab5d21620f8dbb327575352062c86
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: d40daed54a04ca7d9949ecc63f57c379aee6b666
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63689149"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675786"
 ---
-# <a name="enroll-device-into-managed-service"></a>Inscrire un appareil au service géré
+# <a name="enroll-device-into-managed-service"></a>Inscrire un appareil dans le service managé
 
-Le déploiement nécessite l’intégration Salles Microsoft Teams appareils aux services gérés Salles Microsoft Teams’équipe. L’agent du service de surveillance est à utiliser avec les systèmes et périphériques Microsoft Teams salle de production (MTR).
+Le déploiement nécessite l’intégration d’appareils Salles Microsoft Teams aux services managés Salles Microsoft Teams. L’agent de service de surveillance est destiné aux systèmes et périphériques certifiés Microsoft Teams Room (MTR).
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Suivez les procédures ci-après pour configurer votre matériel avant d’essayer le processus d’inscription :
+Suivez ces procédures pour configurer votre matériel avant de tenter le processus d’inscription :
 
-### <a name="adding-proxy-settings-optional"></a>Ajout de paramètres proxy (facultatif)
+### <a name="adding-proxy-settings-optional"></a>Ajout de paramètres de proxy (facultatif)
 
-1. Connectez-vous en tant qu’administrateur en suivant [les opérations effectuées en tant qu’utilisateur administrateur de l’appareil MTR](#performing-operations-as-the-admin-user-of-the-mtr-device).
-1. Dans la Windows ***Rechercher** _ (section inférieure gauche de l’écran), entrez _ *cmd** (appuyez longuement sur l’écran ou sélectionnez Droite, puis sélectionnez Exécuter en tant qu’administrateur).****  
+1. Connectez-vous en tant qu’administrateur [en effectuant des opérations en tant qu’utilisateur Administration de l’appareil MTR](#performing-operations-as-the-admin-user-of-the-mtr-device).
+1. Dans le Windows champ ***Search** _ (section en bas à gauche de l’écran), entrez _ *cmd** (appuyez longuement sur l’écran ou sélectionnez à droite, puis **_choisissez Exécuter en tant qu’administrateur_**).
 1. Exécutez la commande suivante (les guillemets doubles à la fin de la commande sont importants) :
-   - Si vous utilisez un ***serveur proxy*** unique : bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY <proxyserver>:<port> «  »
 
-      *Exemple :* bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY contosoproxy.corp.net:8080 «  »
-      
+   - Si vous utilisez un ***serveur proxy*** unique : `bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY <proxyserver>:<port> ""`
 
-   - Si vous utilisez ***un fichier pac*** : bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT <pac file url>
+     *Exemple:*
 
-      
-      *Exemple :* bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net/proxy.pac`
-      
+     ```DOS
+     bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY contosoproxy.corp.net:8080 ""
+     ```
+
+   - Si vous utilisez un fichier ***PAC*** : `bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT <pac file url>`
+
+     *Exemple:*
+
+     ```DOS
+     bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net/proxy.pac`
+     ```
 
 ### <a name="enabling-tpm-settings"></a>Activation des paramètres TPM
 
 > [!NOTE]
-> Le TPM doit être activé pour s’inscrire au service géré.
+> Le module de plateforme sécurisée doit être activé pour s’inscrire au service managé.
 
-Si la fonction TPM sur un appareil Intel NUC est désactivée, activez la fonction TPM sur ces appareils comme suit :  
+Si le module TPM sur un appareil Intel NUC est désactivé, activez le module de plateforme sécurisée sur ces appareils comme suit :
 
-1. Branchez le clavier sur un périphérique NUC.  
-1. Redémarrez l’appareil.  
-1. Pour afficher l’écran BIOS, appuyez rapidement sur **F2**.  
-1. **Sélectionnez Avancé**.  
-1. **Sélectionnez Sécurité**.  
-1. À droite, en dessous des fonctionnalités de sécurité, activez la **technologie De confiance de plateforme Intel**.  
-1. Pour enregistrer vos paramètres, appuyez **sur F10**.  
-1. Dans la zone de confirmation, sélectionnez **Oui**. 
-## <a name="performing-operations-as-the-admin-user-of-the-mtr-device"></a>Opérations en tant qu’utilisateur administrateur de l’appareil MTR
+1. Branchez le clavier à un appareil NUC.
+1. Redémarrez l’appareil.
+1. Pour afficher l’écran BIOS, appuyez rapidement sur **F2**.
+1. Sélectionnez **Avancé**.
+1. Sélectionnez **Sécurité**.
+1. Sur le côté droit sous Fonctionnalités de sécurité, activez **la technologie d’approbation de plateforme Intel**.
+1. Pour enregistrer vos paramètres, appuyez sur **F10**.
+1. Dans la zone de confirmation, sélectionnez **Oui**.
 
-Certaines procédures de configuration/installation nécessitent que vous vous connectiez à l’appareil en tant qu’administrateur.
+## <a name="performing-operations-as-the-admin-user-of-the-mtr-device"></a>Exécution d’opérations en tant qu’utilisateur Administration de l’appareil MTR
+
+Certaines procédures de configuration/installation vous obligent à vous connecter à l’appareil en tant qu’administrateur.
 
 Pour vous connecter à l’appareil en tant qu’administrateur (administrateur local) :
 
-1. Assurez-vous de raccrocher les appels en cours et de revenir à l’écran d’accueil.
-1. Dans l’interface utilisateur de Microsoft Teams Room, sélectionnez **Plus, puis** **Paramètres**, à l’endroit où vous êtes invité à sélectionner le mot de passe administrateur local sur l’appareil (le mot de passe par défaut est **_sfb_**).
-1. **Sélectionnez Paramètres**, puis **sélectionnez Windows Paramètres** pour accéder Windows administrateur local.  
+1. Assurez-vous de raccrocher tous les appels en cours et de revenir à l’écran d’accueil.
+1. Dans l’interface utilisateur Microsoft Teams Room, sélectionnez **Plus**, puis sélectionnez **Paramètres**, où vous êtes invité à entrer le mot de passe administrateur local sur l’appareil (le mot de passe par défaut est **_sfb_**).
+1. Sélectionnez **Paramètres**, puis **sélectionnez Windows Paramètres** pour accéder à Windows en tant qu’administrateur local.
 
-1. Dans la liste des utilisateurs affichée dans l’écran Windows connexion, sélectionnez **Administrateur (ou** administrateur local de votre appareil).
-
-> [!NOTE]
-> Si l’ordinateur est joint au *domaine,* sélectionnez **Autre** utilisateur, puis **utilisez .\admin**, ou le nom d’utilisateur de l’administrateur local configuré sur l’appareil en tant que nom d’utilisateur.  
-
-Pour revenir à l’application Salle Microsoft Teams après avoir effectué les tâches d’administration nécessaires :
-
-1. Dans la Windows ***menu Démarrer***, connectez-vous à partir du compte d’administrateur.
-1. Revenir à Microsoft Teams de réunion en sélectionnant l’icône de compte d’utilisateur à l’extrême gauche de l’écran, **puis en Skype**.
+1. Dans la liste des utilisateurs affichés dans l’écran de connexion Windows, sélectionnez **Administrateur** (ou l’administrateur local respectif de votre appareil).
 
 > [!NOTE]
-> Si l’Skype n’est pas répertorié, sélectionnez Autre utilisateur, entrez ***.\skype*** comme nom d’utilisateur, puis connectez-vous.
+> Si l’ordinateur est *joint à un domaine*, choisissez **Autre utilisateur**, puis utilisez **.\admin** ou le nom d’utilisateur de l’administrateur local configuré dans l’appareil comme nom d’utilisateur.
 
- 
+Pour revenir à l’application Microsoft Teams Room après avoir effectué les tâches administratives nécessaires :
+
+1. À partir de la ***menu Démarrer Windows***, déconnectez-vous du compte Administration.
+1. Revenez à Microsoft Teams Room en sélectionnant l’icône du compte d’utilisateur à l’extrême gauche de l’écran, puis en sélectionnant **Skype**.
+
+> [!NOTE]
+> Si l’utilisateur Skype n’est pas répertorié, sélectionnez Autre utilisateur, entrez ***.\skype*** comme nom d’utilisateur, puis connectez-vous.
 
 ## <a name="urls-required-for-communication"></a>URL requises pour la communication
 
  > [!NOTE]
- > Tout le trafic réseau entre l’agent des périphériques MTR et le Salles Microsoft Teams – Le portail de service des services gérés est SSL sur le port 443 *.*  Voir [Office 365 URL et plages d’adresses IP - Microsoft 365 Entreprise | Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
+ > Tout le trafic réseau entre l’agent d’appareils MTR et le Salles Microsoft Teams : le portail de service Managed Services est SSL sur le port 443 *.*  Voir [Office 365 URL et plages d’adresses IP - Microsoft 365 Entreprise | Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
 
-Les hôtes suivants doivent être autorisés si la  liste d’utilisateurs du trafic est activée au sein de votre environnement d’entreprise :
+Les hôtes suivants doivent être autorisés si la **liste d’autorisation du trafic** est activée dans votre environnement d’entreprise :
 
 agent.rooms.microsoft.com<br>
 global.azure-devices-provisioning.net<br>
@@ -109,91 +114,94 @@ mmrprodnoamstor.blob.core.windows.net
 
 ## <a name="enrollment-process"></a>Processus d’inscription
 
-Le processus d’inscription comprend les étapes suivantes :  
+Le processus d’inscription implique les étapes suivantes :
 
-1. Dans la barre de navigation gauche du Salles Microsoft Teams – Services [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)gérés, développez **Paramètres puis** sélectionnez **Général**.  
-1. Sous *Inscrire une salle, sélectionnez* **Télécharger le programme d’installation**  pour télécharger le logiciel de l’agent de surveillance.
-1. **Facultatif :** Configurer les paramètres proxy de l’agent voir [Ajout de paramètres proxy (facultatif).](#adding-proxy-settings-optional)
-1. Installez le programme d’installation de l’agent (téléchargé à l’étape 2) sur des unités MTR, soit en exécutant la MSI localement sur un appareil MTR, soit via votre moyen normal de publication d’applications MSI en masse sur les appareils de votre environnement (stratégie de groupe, etc.).  
-1. La salle s’affiche dans le portail dans les 5 à 10 minutes. Si ce n’est pas le cas, contactez managedroomsupport@microsoft.com.  
+1. Dans la barre de navigation gauche du portail Salles Microsoft Teams – Services [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)managés, développez **Paramètres** et sélectionnez **Général**.
+1. Sous *Inscrire une salle*, **sélectionnez Télécharger le programme d’installation**  pour télécharger le logiciel de l’agent de surveillance.
+1. **Optionnel:** Configurer les paramètres de proxy pour l’agent ; voir [Ajout de paramètres de proxy (facultatif).](#adding-proxy-settings-optional)
+1. Installez le programme d’installation de l’agent (téléchargé à l’étape 2) sur des unités MTR, soit en exécutant MSI localement sur un appareil MTR, soit en publiant en masse des applications MSI sur des appareils de votre environnement (stratégie de groupe, etc.).
+1. La salle s’affiche dans le portail dans un délai de 5 à 10 minutes. Si ce n’est pas le cas, contactez managedroomsupport@microsoft.com.
 
    ![Capture d’écran des paramètres et des clés d’inscription automatique.](../media/software-installation-005new.png)
- 
+
 > [!NOTE]
-> Si vous devez installer l’agent sans que l’application Teams sur le MTR puisse se connecter à Teams, vous pouvez utiliser notre clé d’inscription comme processus facultatif. Allez à « ? »  (Aide) dans le coin supérieur droit du portail, puis sélectionnez « Clé de téléchargement (facultatif) ». Lors de l’installation de l’agent, placez la « clé d’inscription automatique » (précédemment téléchargée à partir du portail) sur  **leC:\Rigeldirectory**  de l’appareil.
+> Si vous devez installer l’agent sans que l’application Teams sur le MTR puisse se connecter à Teams, vous pouvez utiliser notre clé d’inscription comme processus facultatif. Accédez à « ? »  (Aide) dans le coin supérieur droit du portail, puis sélectionnez « Télécharger la clé (facultatif) ». Lors de l’installation de l’agent, placez la « clé d’inscription automatique » (précédemment téléchargée à partir du portail) dans le répertoire **C:\Rigel** de l’appareil.
 
 ## <a name="installation"></a>Installation
 
-Après avoir téléchargé le programme d’installation à partir de Microsoft (à partir du portail ou à l’aide de l’URL AKA.ms fournie ci-dessus), dézipez son contenu pour accéder au fichier **ManagedRoomsInstaller.msi**.
+Après avoir téléchargé le programme d’installation à partir de Microsoft (à partir du portail ou à l’aide de l’URL AKA.ms fournie ci-dessus), décompressez son contenu pour accéder au fichier **ManagedRoomsInstaller.msi**.
 
-Il existe deux modes d’installation : 1) installation de machine locale individuelle et 2) mode de déploiement en masse (généralement via une stratégie de groupe de méthode similaire). Nous vous recommandons d’installer individuellement des ordinateurs qui ne sont pas joints à un domaine ou des ordinateurs dont vous n’avez aucun moyen d’utiliser des programme d’installation MSI à distance.  
+Il existe deux modes d’installation : 1) l’installation de l’ordinateur local individuel et 2) le mode de déploiement en masse (généralement via une stratégie de groupe de méthode similaire). Nous vous recommandons d’installer individuellement des ordinateurs non joints à un domaine ou des machines pour lesquelles vous n’avez aucun moyen d’exécuter des programmes d’installation MSI à distance.
 
-En raison des nombreuses méthodes qui s’offrent à vous pour exécuter des applications MSI en mode déploiement en masse, ce document ne fait le reste que de l’installation en mode individuel.  
-## <a name="individual-devicemdashdomain-joined-walkthrough"></a>Pas à pas individuelle jointe par DeviceDomain&mdash;
+En raison des nombreuses façons dont les clients peuvent exécuter des applications MSI en mode de déploiement en masse, ce document décrit uniquement l’installation en mode individuel.
 
-1. Connectez-vous à l’appareil en tant qu’administrateur. *Assurez-vous que les opérations effectuées en tant qu’administrateur de l’appareil sont* suivies.
+## <a name="individual-devicemdashdomain-joined-walkthrough"></a>Procédure pas à pas jointe à un domaine d’appareil&mdash;individuel
 
-1. Copiez le fichier **ManagedRoomsInstaller.msi** sur l’appareil MTR.
+1. Connectez-vous à l’appareil en tant qu’administrateur. Assurez-vous *que les opérations d’exécution de l’utilisateur Administration des étapes de l’appareil* sont suivies.
 
-   Lors de ***l’exécution deManagedRoomsInstaller.msi'un*** écran du contrat de licence s’affiche.
+1. Copiez le **fichierManagedRoomsInstaller.msi** sur l’appareil MTR.
 
-1.  Après avoir lu le contrat, vérifiez ***J’accepte les termes** dans le contrat de licence_ et appuyez sur _*Installer**.  
+   Lors de l’exécution de la ***ManagedRoomsInstaller.msi*** est un écran contrat de licence.
 
-    Cette situation commence à l’installation Salles Microsoft Teams l’installation du logiciel de surveillance des services gérés. Une invite à une élévation (exécuter en tant qu’administrateur) s’affiche.
+1. Après avoir lu le contrat, vérifiez ***J’accepte les termes du contrat de licence** _ et appuyez sur _*Installer**.
 
- 1. **Sélectionnez Oui**.
+    Cela commence l’installation du logiciel de surveillance Salles Microsoft Teams – Managed Services. Une invite d’élévation (exécuter en tant qu’administrateur) s’affiche.
 
-    L’installation se poursuit. Au cours de la procédure d’installation, une fenêtre de console s’ouvre et commence l’étape finale de la Salles Microsoft Teams – Installation du logiciel de surveillance des services gérés.  
+1. Sélectionnez **Oui**.
+
+    L’installation se poursuivra. Pendant la procédure d’installation, une fenêtre de console s’ouvre et commence l’étape finale de l’Salles Microsoft Teams – Installation du logiciel de surveillance des services managés.
 
     > [!NOTE]
     > Ne fermez pas la fenêtre. Une fois l’installation terminée, l’Assistant affiche un bouton « Terminer ».
 
 ## <a name="completing-enrollment"></a>Fin de l’inscription
 
-Une fois l’installation terminée, patientez 5 à 10 minutes et actualisez le portail. L’appareil est répertorié comme état *d’intégration.*
+Une fois l’installation terminée, attendez 5 à 10 minutes et actualisez le portail et l’appareil sera répertorié, signalé comme état *d’intégration* .
 
-Dans *l’état d’intégration* , l’état de la salle est affiché et mis à jour, mais il ne élève aucune alerte ou ne crée pas de tickets de investigation.
+Dans *l’état d’intégration* , l’état de la salle est affiché et mis à jour, mais il ne déclenche pas d’alertes ou ne crée pas de tickets d’enquête.
 
-Sélectionnez la salle, puis **sélectionnez S’inscrire**  pour recevoir des alertes d’incident, des tickets d’examen ou pour signaler un incident.
+Choisissez la salle et **sélectionnez Inscrire**  pour commencer à recevoir des alertes d’incident, des tickets d’enquête ou pour signaler un incident.
 
-Pour toute question ou problème, ouvrez un client qui a signalé un incident dans le portail ou contactez managedroomsupport@microsoft.com.
+Pour toute question ou problème, ouvrez un incident signalé par le client dans le portail ou contactez managedroomsupport@microsoft.com.
 
-### <a name="unenrolling-and-uninstalling-monitoring-software"></a>Désinscrire et désinstaller un logiciel de surveillance
+### <a name="unenrolling-and-uninstalling-monitoring-software"></a>Désinscription et désinstallation des logiciels de surveillance
 
-Pour désinscrire l’appareil, supprimez l’agent de surveillance du périphérique MTR comme suit :
+Pour désinscrire l’appareil, supprimez l’agent de surveillance de l’appareil MTR comme suit :
 
-1. Sur l’appareil surveillé, connectez-vous à l’appareil en tant qu’administrateur. En tant qu’utilisateur administrateur de *l’appareil*, n’oubliez pas de suivre les étapes d’opérations effectuées.
-1. Téléchargez le script de réinitialisation [à partir aka.ms/MTRPDeviceOffBoarding](https://aka.ms/MTRPDeviceOffBoarding).
+1. Sur l’appareil surveillé, connectez-vous à l’appareil en tant qu’administrateur. Veillez à suivre les *étapes de l’exécution des opérations en tant qu’utilisateur Administration de l’appareil*.
+1. Téléchargez le script de réinitialisation à partir de [aka.ms/MTRPDeviceOffBoarding](https://aka.ms/MTRPDeviceOffBoarding).
 1. Extrayez le script quelque part sur l’appareil et copiez le chemin d’accès.
-1. Ouvrez PowerShell en tant qu’administrateur : dans le Windows ***Search** _ (section inférieure gauche de l’écran), entrez « Powershell », puis cliquez avec le bouton droit sur _*_Windows PowerShell_**.
-1. *Sélectionnez « Exécuter en tant qu’administrateur* », puis acceptez l’invite UAC.
-1. Entrez *Set-ExecutionPolicy –ExecutionPolicy RemoteSigned* , puis appuyez **sur Y** à l’invite suivante.  
-1. Collez ou tapez le chemin d’accès complet du script de débordage décompressé dans la fenêtre PowerShell, puis appuyez sur **Entrée**.
+1. Ouvrez PowerShell en tant qu’administrateur : dans le champ ***Search** _ Windows (section en bas à gauche de l’écran), entrez « PowerShell », puis cliquez avec le bouton droit sur _*_Windows PowerShell_**.
+1. Sélectionnez *« Exécuter en tant qu’administrateur »* et acceptez l’invite UAC.
+1. Entrez *Set-ExecutionPolicy –ExecutionPolicy RemoteSigned* , puis appuyez sur **Y** à l’invite suivante.
+1. Collez ou tapez le chemin complet du script de désintégrage décompressé dans la fenêtre PowerShell, puis **appuyez sur Entrée**.
 
    Exemple :
 
-   *C:\Users\admin\Downloads\MTRPDeviceOffboarding\_\_\MTRPDevice\_\_Offboarding.ps1*  
+   ```powershell
+   C:\Users\admin\Downloads\MTRP\_Device\_Offboarding\MTRP\_Device\_Offboarding.ps1
+   ```
 
-   Cette procédure rétablit les mises à jour MTR standard de l’appareil et supprime l’agent de surveillance et les fichiers MTRP.
+   Cette commande réinitialise l’appareil aux mises à jour MTR standard de l’utilisateur et supprime l’agent et les fichiers de surveillance MTRP.
 
-1. Dans le menu de gauche de la Salles Microsoft Teams – Services gérés, sélectionnez **Salles**.  
-1. Dans la liste des salles fournies, sélectionnez la salle que vous voulez désinscrire, puis sélectionnez Désinscrire pour arrêter de recevoir des alertes d’incident ou des tickets de recherches, ou pour signaler un incident pour la salle.
+1. Dans le menu de gauche du portail Salles Microsoft Teams – Services managés, sélectionnez **Salles**.
+1. Dans la liste des salles fournies, choisissez la salle que vous souhaitez désinscrire et sélectionnez **Désinscrire** pour arrêter d’obtenir des alertes d’incident ou des tickets d’enquête, ou pour signaler un incident pour la salle.
 
-## <a name="troubleshooting-table"></a>Tableau de dépannage
+## <a name="troubleshooting-table"></a>Tableau de résolution des problèmes
 
 > [!NOTE]
-> Tous les Salles Microsoft Teams – Les erreurs de surveillance des services gérés sont enregistrées sur un fichier de journal des événements spécifique nommé **Salles gérées Microsoft**. 
+> Toutes les Salles Microsoft Teams : les erreurs de surveillance des services managés sont consignées dans un fichier journal des événements spécifique nommé **Salles gérées Microsoft**.
 
-### <a name="application-runtime-log-file-location-"></a>***Emplacement du fichier journal runtime de l’application*** =  
+***Emplacement du fichier journal du runtime d’application*** =
 
-C:\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-x.x.x\ServicePortalAgent\ServicePortalVerboseLogFile.log\_\_, où **x.x.x** est le numéro de version de l’application.
+C:\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-x.x.x\ServicePortalAgent\ServicePortal\_Verbose\_LogFile.log, où **x.x.x** est le numéro de version de l’application.
 
-|**Symptôme**  |**Procédure recommandée**  |
-| :- | :- |
-|<p>Vous recevez un message d’erreur indiquant   </p><p>***ERREUR : Exécutez cette application avec** _ </p><p>_ *_elevated privileges_**  </p>|Exécuter l’application avec des privilèges croissants et essayer à nouveau  |
-|  |  |
-|<p>Vous recevez un message d’erreur indiquant   </p><p>***Impossible de trouver les données TPM***  </p>|Assurez-vous que la fonction TPM (Module de plateforme approuvé) est mise en place sur votre appareil dans sa fonction BIOS. Cela se trouve généralement dans les paramètres de sécurité de l’appareil BIOS  |
-|  |  |
-|<p>Vous recevez un message d’erreur  </p><p>` `***ERREUR : Le compte d’utilisateur local nommé « Administrateur » ou « Skype » in trouvé***  </p>|Assurez-vous que les comptes d’utilisateur existent sur l’appareil Microsoft Teams systèmes de salle certifiés.  |
-|  |  |
-|Vous recevez des messages d’état d’erreur qui ne sont pas couverts ci-dessus  |Veuillez fournir une copie du journal d’installation à votre agent Microsoft Teams support système. |
+|Symptôme|Procédure recommandée|
+|---|---|
+|Vous recevez un message d’erreur indiquant : </p><p> ***ERREUR : Exécutez cette application avec** _ <br> _ *_privilèges élevés_**|Exécutez l’application avec des privilèges élevés et réessayez.|
+|||
+|Vous recevez un message d’erreur indiquant : </p><p> ***Les données TPM sont introuvables***|Vérifiez que le module TPM (Trusted Platform Module) est activé sur votre appareil dans son BIOS. Cela se trouve généralement dans les paramètres de sécurité du BIOS de l’appareil.|
+|||
+|Vous recevez un message d’erreur : </p><p> ***ERREUR : Le compte d’utilisateur local nommé « Administration » ou « Skype » est introuvable***|Assurez-vous que les comptes d’utilisateur existent sur l’appareil certifié Microsoft Teams Systèmes Room.|
+|||
+|Vous recevez des messages d’état d’erreur qui ne sont pas couverts ci-dessus.|Veuillez fournir une copie de votre journal d’installation à votre agent de support système Microsoft Teams.|

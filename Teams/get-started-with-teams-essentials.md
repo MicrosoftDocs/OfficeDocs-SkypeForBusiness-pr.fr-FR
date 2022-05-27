@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
-ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
+ms.openlocfilehash: 46624ff1e1eeeede5066cf6972cc92469cf8979c
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "62864027"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675046"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>Guide de démarrage rapide de Microsoft Teams Essentials pour les petites entreprises
 
@@ -29,7 +29,7 @@ Microsoft Teams Essentials est un abonnement autonome à Teams qui offre une sol
 
 ### <a name="before-you-continue"></a>Avant de continuer
 
-Microsoft Teams Essentials est disponible à l’achat via le site web direct de Microsoft ’ et sélectionnez Microsoft Cloud Partners. Les abonnements par le biais de direct et de partenaire diffèrent d’une manière ou d’une autre, car ils utilisent des systèmes d’identité différents. Pour plus d’informations, consultez le tableau plus loin dans cet article :[ les plans Microsoft Teams Essentials](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)
+Microsoft Teams Essentials est disponible à l’achat via le site web direct de Microsoft et sélectionnez Microsoft Cloud Partners. Les abonnements par le biais de direct et de partenaire diffèrent d’une manière ou d’une autre, car ils utilisent des systèmes d’identité différents. Pour plus d’informations, consultez le tableau plus loin dans cet article :[ les plans Microsoft Teams Essentials](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)
 
 Un abonnement acheté via le site web direct de Microsoft Corporation utilise l’identité de compte Microsoft qui vous permet d’utiliser votre adresse de messagerie existante telle que TomislavK@outlook.com, TomislavK@gmail.com ou TomislavK@ContosoLandscaping.com pour vous inscrire.
 
@@ -37,7 +37,7 @@ Vous pouvez également Teams Essentials acheté par l’intermédiaire de certai
 
 ## <a name="what-microsoft-teams-essentials-subscription-do-i-have"></a>Quel abonnement  de Microsoft Teams Essentials est-ce que j’ai ?  
 
-Si vous avez acheté Teams Essentials via le site web de Microsoft ’ (direct), vous possédez **Microsoft Teams Essentials**.
+Si vous avez acheté Teams Essentials via le site web de Microsoft (direct), vous possédez **Microsoft Teams Essentials**.
 
 Si vous avez acheté Teams Essentials par le biais d’un partenaire certifié Microsoft, vous possédez **Microsoft Teams Essentials (identité AAD)**.
 
@@ -153,20 +153,20 @@ Gardez à l’esprit les limitations suivantes :
 
 #### <a name="how-do-i-upgrade-my-organization"></a>Comment mettre à niveau mon organisation ?
 
-Pour effectuer une mise à niveau vers la version Microsoft Teams Essentials de Teams, sélectionnez **…** dans le menu de navigation supérieur. Sélectionnez ensuite le **pied de**  page au bas du menu déroulant qui s’affiche.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="Capture d’écran montrant le bouton Mettre à niveau"::: 
+Pour effectuer une mise à niveau vers la version Microsoft Teams Essentials de Teams, sélectionnez **...** dans le menu de navigation supérieur. Sélectionnez ensuite le bouton **Changer de niveau** en bas du menu déroulant qui s’affiche.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="Capture d’écran montrant le bouton Mettre à niveau"::: 
 
 Après avoir sélectionné le bouton **Mettre à niveau** dans Teams, vous êtes redirigé ici : [Microsoft Teams pour les petites entreprises](https://www.microsoft.com/microsoft-teams/upgrade-teams)
 
 Entrez l’adresse e-mail actuelle que vous utilisez pour vous connecter à Teams, puis achetez le plan Microsoft Teams Essentials.
 
 
-### <a name="can-i-purchase-teams-essentials-using-aad-identity-through-microsofts-website"></a>Puis-je acheter Teams Essentials à l’aide de l’identité AAD via le site web de Microsoft ’ ?  
+### <a name="can-i-purchase-teams-essentials-using-aad-identity-through-microsofts-website"></a>Puis-je acheter Teams Essentials à l’aide de l’identité AAD via le site web de Microsoft ?  
 
 Non. Teams Essentials avec l’identité AAD est disponible uniquement par le biais de certains partenaires Microsoft Cloud. Si vous êtes intéressé par l’utilisation d’un partenaire, visitez [Rechercher un partenaire Microsoft fournisseur de solutions Cloud](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider).
 
-### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Puis-je utiliser un système de courrier existant avec Microsoft Teams Essentials ?  
+### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Puis-je utiliser un système de courrier existant avec Microsoft Teams Essentials ?  
 
-Oui. Vous pouvez conserver votre système de messagerie existant et tirer parti de Teams Essentials pour vous réunir, discuter et collaborer.  
+Oui. Vous pouvez conserver votre système de messagerie existant et tirer parti de Teams Essentials pour vous réunir, discuter et collaborer.  
 
 ### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>Puis-je connecter ma solution de calendrier existante à Teams Essentials ?
 Oui. Vous pouvez synchroniser des calendriers existants à partir de Outlook.com et Google avec Teams Essentials.

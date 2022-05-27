@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: acolonna
 description: Découvrez comment un utilisateur ayant le statut Absent ou Ne pas déranger peut définir explicitement un autre utilisateur en tant que délégué dans son message d’état.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fd1b11038d4dbd0f1ea773065628170d7f55a33c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14f58861074ed8b9291ca725f60ff1612534f4dc
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596188"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674206"
 ---
 # <a name="message-delegation"></a>Délégation de messages
 

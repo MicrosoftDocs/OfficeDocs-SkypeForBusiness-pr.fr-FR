@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f717672c4cb297d7f3d2e95ceaa038eeceaa2ee
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: b59753e1ad1e5a0be36ed8a0d924d7fa6d6658a2
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187120"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675516"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>Personnaliser les applications Teams pour vos employés de première ligne
 
@@ -37,7 +37,7 @@ Grâce à l’expérience d’application de première ligne personnalisée, vos
 
 ## <a name="tailored-frontline-app-experience"></a>Expérience d’application de première ligne personnalisée
 
-Les applications sont épinglées à la barre des applications, qui est la barre située en bas de la Teams clients mobiles (iOS et Android) et sur le côté du client de bureau Teams. Les applications suivantes sont épinglées pour les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) :
+Les applications sont épinglées à la barre de l’application, qui est la barre située en bas du Teams clients mobiles (iOS et Android) et sur le côté du client de bureau Teams. Les applications suivantes sont épinglées pour les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) :
 
 - [Activité](https://support.microsoft.com/office/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)
 - [Conversation](https://support.microsoft.com/office/get-started-with-chat-0b506ce2-eb6d-4fca-9668-e56980ba755e)
@@ -55,7 +55,7 @@ Les applications sont épinglées à la barre des applications, qui est la barre
 
 :::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="L’expérience d’application de première ligne personnalisée sur Teams bureau" lightbox="media/tailored-teams-apps-desktop.png"::: 
 
-## <a name="admin-controls"></a>Contrôles d’administration
+## <a name="admin-controls"></a>contrôles Administration
 
 > [!NOTE]
 > Le paramètre **d’épinglage utilisateur** doit être activé dans la [stratégie d’installation d’application](teams-app-setup-policies.md) globale (par défaut à l’échelle de l’organisation) pour que cette fonctionnalité prenne effet.
@@ -66,7 +66,7 @@ N’oubliez pas que toutes les [stratégies d’installation d’application](te
 
 Cette fonctionnalité est activée par défaut. Toutefois, si vous ne souhaitez pas utiliser l’expérience d’application de première ligne personnalisée fournie par Microsoft, vous pouvez désactiver la fonctionnalité. Pour désactiver ou activer la fonctionnalité :
 
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à **Teams applications** **appsManage** > , puis sélectionnez **paramètres d’application à l’échelle de l’organisation**.
+1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à **Teams applications** > **Gérer les applications**, puis sélectionnez **paramètres d’application à l’échelle de l’organisation**.
 2. Sous **Applications personnalisées**, activez **ou** désactivez l’option **Afficher les applications personnalisées**.
 
     :::image type="content" source="media/tailored-teams-apps-admin-center.png" alt-text="Capture d’écran du paramètre Afficher les applications personnalisées sur la page Gérer les applications du Centre d’administration Teams" lightbox="media/tailored-teams-apps-admin-center.png":::

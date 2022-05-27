@@ -1,5 +1,5 @@
 ---
-title: Conférence sur réseau pour l’audioconférence
+title: Conférence sur le réseau pour Audioconférence
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -18,135 +18,135 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: Les suivantes décrivent le réseau pour l’audioconférence.
-ms.openlocfilehash: c6820bade333b6672d00e4f52a361280c10c8771
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: Les éléments suivants décrivent les Audioconférence sur le réseau.
+ms.openlocfilehash: 9b986bb8cd4d432c563e60f03e2dcdf496749f36
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055664"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675956"
 ---
-# <a name="on-network-conferencing-for-audio-conferencing"></a>Conférence sur réseau pour l’audioconférence
+# <a name="on-network-conferencing-for-audio-conferencing"></a>Conférence sur le réseau pour Audioconférence
 
-Les conférences sur réseau permettent aux organisations d’envoyer des appels d’audioconférence entrants et sortants à des numéros de connexion Microsoft par le biais d’un routage direct. Cette fonctionnalité n’est pas destinée à étendre la prise en charge de l’audioconférence à des numéros d’accès tiers. La fonction de conférence sur réseau n’est pas prise en charge si elle est utilisée pour router les appels entrants vers le service d’audioconférence par le biais de numéros de téléphone tiers ou d’appels sortants vers le réseau PSTN à partir du pont de conférence audio Microsoft.
+La conférence sur le réseau permet aux organisations d’envoyer des appels entrants et sortants Audioconférence à des numéros de connexion Microsoft via le routage direct. Cette fonctionnalité n’est pas destinée à étendre la prise en charge de Audioconférence à des numéros de connexion tiers. La conférence sur le réseau n’est pas prise en charge si elle est utilisée pour acheminer les appels entrants vers le service Audioconférence par le biais de numéros de téléphone entrants tiers ou d’appels sortants vers le rtc à partir de Microsoft Audioconférence Bridge.
 
-Cet article décrit les conditions préalables et les étapes de configuration requises pour activer la conférence sur réseau pour votre organisation.
+Cet article décrit les prérequis et les étapes de configuration nécessaires pour activer la conférence sur le réseau pour votre organisation.
 
 > [!IMPORTANT]
-> La conférence sur réseau ne doit PAS être déployée avec n’importe quel équipement téléphonique en Inde.
-  
+> La conférence sur le réseau ne doit PAS être déployée avec n’importe quel équipement de téléphonie en Inde.
+
 ## <a name="prerequisites"></a>Conditions préalables
 
-Avant de configurer la conférence sur réseau, assurez-vous que votre organisation répond aux conditions préalables suivantes :
+Avant de configurer la conférence sur le réseau, assurez-vous que votre organisation répond aux conditions préalables suivantes :
 
-- Assurez-vous que tous les utilisateurs de votre organisation qui sont activés ou seront activés pour l’audioconférence utilisent des Teams pour toutes les réunions. Le routage des appels d’audioconférence entrants et sortants via la conférence réseau est pris en charge uniquement pour Teams réunions.
+- Assurez-vous que tous les utilisateurs de votre organisation qui sont activés ou seront activés pour Audioconférence utilisent Teams pour toutes les réunions. Le routage des appels Audioconférence entrants et sortants via la conférence sur le réseau est pris en charge uniquement pour Teams réunions.
 
-- Attribuez des licences d’audioconférence à tous les utilisateurs qui utiliseront la conférence sur réseau.
+- Attribuez Audioconférence licences à tous les utilisateurs qui utiliseront la conférence sur le réseau.
 
-- Configurer le service d’audioconférence. Pour plus d’informations, [consultez Configurer l’audioconférence pour Microsoft Teams.](set-up-audio-conferencing-in-teams.md)
+- Configurez le service Audioconférence. Pour plus d’informations, consultez [Configurer Audioconférence pour Microsoft Teams](set-up-audio-conferencing-in-teams.md).
 
-- Configurer votre contrôleur de session SBC (Session Border Controller) pour le routage direct. Pour plus d’informations, [voir Planifier le routage direct et](direct-routing-plan.md) Configurer le [routage direct.](direct-routing-configure.md)
+- Configurez votre contrôleur de frontière de session (SBC) pour le routage direct. Pour plus d’informations, consultez [Planifier le routage direct](direct-routing-plan.md) et [configurer le routage direct](direct-routing-configure.md).
 
-  Si vous configurationnez le routage direct uniquement dans le cadre de l’audioconférence, vous devez seulement effectuer l'« étape 1 : Connecter SBC » pour les conférences réseau.
-  
-## <a name="enable-the-routing-of-dial-in-calls-to-microsoft-audio-conferencing-through-direct-routing"></a>Activer le routage des appels d’accès vers l’audioconférence Microsoft par le biais d’un routage direct
+  Si vous configurez le routage direct uniquement pour les besoins de Audioconférence, vous n’avez besoin que de l’étape 1 : Connecter votre SBC pour la conférence sur le réseau.
 
-Pour router les appels d’accès effectués par vos utilisateurs locaux vers le service d’audioconférence via un routage direct, vous devez configurer les règles de routage appropriées pour vos SBCs et vos Exchange privés (PBX).
+## <a name="enable-the-routing-of-dial-in-calls-to-microsoft-audio-conferencing-through-direct-routing"></a>Activer le routage des appels entrants à Microsoft Audioconférence via le routage direct
 
-Vous devez configurer l’équipement téléphonique de vos sites pour router les appels vers n’importe quel numéro de service du pont de conférence de votre organisation via une ligne de routage direct.
+Pour acheminer les appels rendez-vous effectués par vos utilisateurs locaux vers le service Audioconférence via le routage direct, vous devez configurer les règles de routage appropriées pour vos SBC et vos Exchange(s) de branche privée (PBX).
 
-Vous trouverez les numéros de service dans le Centre d’administration Teams sous Réunions **-> Ponts** de conférence ou à l’aide de l’cmdlet PowerShell Skype Entreprise Online Get-CsOnlineDialInConferencingBridge. Pour plus d’informations, consultez la liste des numéros [d’audioconférence Microsoft Teams.](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+Vous devez configurer l’équipement de téléphonie de vos sites pour acheminer les appels vers n’importe quel numéro de service du pont de conférence de votre organisation via une jonction de routage direct.
+
+Vous trouverez les numéros de service dans Teams centre d’administration sous **Meetings -> Conferencing Bridges** ou à l’aide de l’applet de commande PowerShell Skype Entreprise Online Get-CsOnlineDialInConferencingBridge. Pour plus d’informations, consultez la liste des [numéros Audioconférence dans Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
 > [!NOTE]
-> Cette fonctionnalité n’est pas disponible pour les utilisateurs titulaires d’une licence d’audioconférence à la minute.
+> Cette fonctionnalité n’est pas disponible pour les utilisateurs disposant de la licence de paiement à la minute Audioconférence.
 
-## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>Activer le routage des appels sortants Teams des réunions via un routage direct
+## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>Activer le routage de Teams appels sortants de réunion via le routage direct
 
-Teams appels sortants de réunion sont lancés à partir d’une réunion de votre organisation vers des numéros PSTN, y compris les appels de participation et les appels pour amener de nouveaux participants à une réunion.
+Teams les appels de rendez-vous de réunion sont lancés à partir d’une réunion de votre organisation vers des numéros RTC, y compris des appels d’appel et des appels pour amener de nouveaux participants à une réunion.
 
-Pour activer Teams routage d’appels sortants de réunion via un routage direct vers des utilisateurs du réseau, vous devez créer et affecter une stratégie de routage audioconférence nommée « OnlineAudioConferencingRoutingPolicy ».
+Pour activer Teams routage rendez-vous de réunion via le routage direct vers des utilisateurs sur le réseau, vous devez créer et attribuer une stratégie de routage Audioconférence appelée « OnlineAudioConferencingRoutingPolicy ».
 
-La stratégie OnlineAudioConferencingRoutingPolicy équivaut à la stratégie CsOnlineVoiceRoutingPolicy pour les appels PSTN 1:1 via un routage direct. La stratégie OnlineAudioConferencingRoutingPolicy peut être gérée à l’aide des cmdlets suivantes :
+La stratégie OnlineAudioConferencingRoutingPolicy est équivalente à la stratégie CsOnlineVoiceRoutingPolicy pour les appels RTC 1:1 via le routage direct. La stratégie OnlineAudioConferencingRoutingPolicy peut être gérée à l’aide des applets de commande suivantes :
 
--   New-CsOnlineAudioConferencingRoutingPolicy
+- New-CsOnlineAudioConferencingRoutingPolicy
 - Set-CsOnlineAudioConferencingRoutingPolicy
 - Get-CsOnlineAudioConferencingRoutingPolicy
 - Grant-CsOnlineAudioConferencingRoutingPolicy
 - Remove-CsOnlineAudioConferencingRoutingPolicy
 
-Pour plus d’informations sur le routage pour le routage direct, voir [Configurer le routage vocal pour le routage direct.](direct-routing-voice-routing.md)
+Pour plus d’informations sur le routage pour le routage direct, consultez [Configurer le routage vocal pour le routage direct](direct-routing-voice-routing.md).
 
-Pour permettre le routage des appels sortants de réunion via un routage direct, vous devez :
+Pour activer le routage des appels de rendez-vous de réunion via le routage direct, vous devez :
 
-- Configurer les stratégies de routage de l’audioconférence
-- Configurer le routage sur l’équipement téléphonique de votre organisation
+- Configurer Audioconférence stratégies de routage
+- Configurer le routage sur l’équipement de téléphonie de votre organisation
 - (Facultatif) Configurer un plan de numérotation
 
-Les appels sortants des Teams sont issus du numéro de service par défaut sur le pont de conférence. Pour plus d’informations sur le numéro de service par défaut de votre pont d’audioconférence, consultez Modifier les numéros de téléphone de votre pont [d’audioconférence.](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
+Les appels sortants de Teams réunions proviennent du numéro de service par défaut sur le pont de conférence. Pour plus d’informations sur le numéro de service par défaut de votre pont Audioconférence, consultez [Modifier les numéros de téléphone sur votre pont Audioconférence](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-### <a name="configure-audio-conferencing-routing-policies"></a>Configurer les stratégies de routage de l’audioconférence
+### <a name="configure-audio-conferencing-routing-policies"></a>Configurer Audioconférence stratégies de routage
 
-La stratégie de routage de l’audioconférence OnlineAudioConferencingRoutingPolicy détermine les appels sortants de réunion acheminés vers des itinéraires de routage direct. Si vous êtes familiarisé avec la stratégie CsOnlineVoiceRoutingPolicy, cette stratégie fonctionne de façon très similaire.
+La stratégie de routage Audioconférence OnlineAudioConferencingRoutingPolicy détermine les appels de rendez-vous de réunion routés vers les jonctions de routage direct. Si vous êtes familiarisé avec la stratégie CsOnlineVoiceRoutingPolicy, cette stratégie fonctionne de façon très similaire.
 
-Les étapes suivantes sont nécessaires pour configurer les stratégies de routage des audioconférences :
+Les étapes suivantes sont nécessaires pour configurer Audioconférence stratégies de routage :
 
-1. Créer des utilisations PSTN
-1. Configurer les itinéraires vocables
-1. Créer des stratégies de routage audioconférence
+1. Créer des utilisations RTC
+1. Configurer des itinéraires vocaux
+1. Créer Audioconférence stratégies de routage vocal
 1. Affecter une stratégie à vos utilisateurs
 
-#### <a name="create-pstn-usages"></a>Créer des utilisations PSTN
+#### <a name="create-pstn-usages"></a>Créer des utilisations RTC
 
-Les utilisations PSTN sont des collections d’itinéraires vocaux. Lorsqu’un appel sortant est lancé à partir de la réunion d’un organisateur donné, les itinéraires vocaux sont utilisés pour déterminer l’itinéraire de routage de l’appel en fonction des utilisations PSTN associées à l’utilisateur via la stratégie de routage vocale de l’utilisateur.
+Les utilisations RTC sont des collections d’itinéraires vocaux. Lorsqu’un appel sortant est lancé à partir de la réunion d’un organisateur donné, les itinéraires vocaux sont utilisés pour déterminer le chemin de routage de l’appel en fonction des utilisations RTC associées à l’utilisateur via la stratégie de routage vocal de l’utilisateur.
 
-Vous pouvez créer une utilisation PSTN à l’aide de l’cmdlet « Set-CsOnlinePstnUsage ». Par exemple :
+Vous pouvez créer une utilisation RTC à l’aide de l’applet de commande « Set-CsOnlinePstnUsage ». Par exemple :
 
 ```powershell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
-#### <a name="configure-voice-routes"></a>Configurer les itinéraires vocables
+#### <a name="configure-voice-routes"></a>Configurer des itinéraires vocaux
 
-Les itinéraires vocux déterminent la passerelle PSTN à utiliser pour router un appel en fonction du numéro de téléphone qui est composé à partir d’Teams réunion. Les itinéraires vocables déterminent la passerelle PSTN qui doit être utilisée pour router un appel donné en faisant correspondre le numéro de téléphone composé à partir d’une réunion Teams avec un modèle de regex. Lors de la création d’un itinéraire vocal, l’itinéraire doit être associé à une ou plusieurs utilisations PSTN.
+Les itinéraires vocaux déterminent la passerelle RTC qui doit être utilisée pour acheminer un appel en fonction du numéro de téléphone composé à partir d’une réunion Teams. Les itinéraires vocaux déterminent la passerelle RTC qui doit être utilisée pour acheminer un appel donné en mettant en correspondance le numéro de téléphone composé à partir d’une réunion Teams avec un modèle d’expression régulière. Lors de la création d’un itinéraire vocal, l’itinéraire doit être associé à une ou plusieurs utilisations RTC.
 
-Vous pouvez créer un itinéraire vocal et définir les regex et passerelles à associer à l’itinéraire vocal à l’aide de l’cmdlet « New-CsOnlineVoiceRoute ». Par exemple :
+Vous pouvez créer un itinéraire vocal et définir l’expression régulière et les passerelles à associer à l’itinéraire vocal à l’aide de l’applet de commande « New-CsOnlineVoiceRoute ». Par exemple :
 
 ```powershell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 
-#### <a name="create-audio-conferencing-voice-routing-policies"></a>Créer des stratégies de routage audioconférence
+#### <a name="create-audio-conferencing-voice-routing-policies"></a>Créer Audioconférence stratégies de routage vocal
 
-Les stratégies de routage audio de l’audioconférence déterminent les itinéraires possibles qui peuvent être utilisés pour router un appel en provenance des réunions d’un organisateur en fonction du numéro de téléphone cible de l’appel sortant de la réunion. Les stratégies de routage audio de l’audioconférence sont associées à une ou plusieurs utilisations PSTN, qui, à leur tour, déterminent les itinéraires possibles qui seront tentés d’être utilisés pour les appels sortants de réunion des organisateurs associés à la stratégie.
+Audioconférence stratégies de routage des communications vocales déterminent les itinéraires possibles qui peuvent être utilisés pour acheminer un appel provenant des réunions d’un organisateur en fonction du numéro de téléphone cible de l’appel sortant de la réunion. Audioconférence stratégies de routage vocal sont associées à une ou plusieurs utilisations RTC, qui déterminent à leur tour les itinéraires possibles qui seront tentés d’être utilisés pour les appels sortants de réunion des organisateurs associés à la stratégie.
 
-Vous pouvez créer une stratégie de routage audio de conférence audio à l’aide de l’cmdlet « New- CsOnlineAudioConferencingRoutingPolicy ». Par exemple :
+Vous pouvez créer une stratégie de routage vocal Audioconférence à l’aide de l’applet de commande « New- CsOnlineAudioConferencingRoutingPolicy ». Par exemple :
 
 ```powershell
 New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and Canada"
 ```
 
-Une fois la stratégie affectée à un utilisateur et lorsqu’un appel sortant de réunion est lancé à partir de l’une des réunions de l’utilisateur, les itinéraires vocaux dans les utilisations PSTN associés à l’organisateur via la stratégie de routage vocal de l’utilisateur sont évalués. Si la destination d’appel sortant de la réunion correspond à une connexion regex dans l’un des itinéraires vocaux associés à l’organisateur, l’appel sortant de la réunion est acheminé vers la passerelle PSTN définie dans l’itinéraire vocal. Si la destination d’appel sortant de la réunion ne correspond pas aux itinéraires vocux associés à l’organisateur, l’appel sortant de la réunion est acheminé par Microsoft.
+Une fois la stratégie affectée à un utilisateur et lorsqu’un appel de numérotation de réunion est lancé à partir d’une des réunions de l’utilisateur, les itinéraires vocaux dans les utilisations RTC associées à l’organisateur via la stratégie de routage vocal de l’utilisateur sont évalués. Si la destination de l’appel sortant de la réunion correspond à une expression régulière dans l’un des itinéraires vocaux associés à l’organisateur, l’appel de numérotation de réunion est routé vers la passerelle RTC définie dans l’itinéraire vocal. Si la destination de l’appel sortant de la réunion ne correspond à aucun des itinéraires vocaux associés à l’organisateur, l’appel sortant de la réunion est routée par Microsoft.
 
 #### <a name="assign-a-policy-to-your-users"></a>Affecter une stratégie à vos utilisateurs
 
-Une fois les stratégies de routage d’audioconférence définies, vous pouvez les affecter aux utilisateurs. Une fois les stratégies affectées, les appels sortants de la réunion sont évalués par rapport à celui-ci afin de déterminer leur itinéraire de routage. Les stratégies de routage des audioconférences sont toujours évaluées sur la base de l’organisateur de la réunion, indépendamment de l’utilisateur qui déclenche un appel sortant de réunion.
+Une fois les stratégies de routage Audioconférence définies, vous pouvez désormais les affecter aux utilisateurs. Une fois les stratégies affectées, les appels de rendez-vous de réunion sont évalués par rapport à celui-ci pour déterminer leur chemin d’accès de routage. Audioconférence stratégies de routage sont toujours évaluées en fonction de l’organisateur de la réunion, indépendamment de l’utilisateur de la réunion qui lance un appel sortant de réunion.
 
-Vous pouvez affecter une stratégie de routage audio de conférence audio à un utilisateur à l’aide de l’cmdlet « Grant-CsOnlineAudioConferencingRoutingPolicy ». Par exemple :
+Vous pouvez affecter une stratégie de routage vocal Audioconférence à un utilisateur à l’aide de l’applet de commande « Grant-CsOnlineAudioConferencingRoutingPolicy ». Par exemple :
 
 ```powershell
-Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
+Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1"
 ```
 
-### <a name="configure-routing-on-the-telephony-equipment-of-your-organization"></a>Configurer le routage sur l’équipement téléphonique de votre organisation
+### <a name="configure-routing-on-the-telephony-equipment-of-your-organization"></a>Configurer le routage sur l’équipement de téléphonie de votre organisation
 
-Sur l’équipement téléphonique de votre organisation, vous devez vous assurer que les appels sortants de la réunion acheminés via le routage direct sont acheminés vers la destination réseau prévue.
+Sur l’équipement téléphonique de votre organisation, vous devez vous assurer que les appels de rendez-vous de réunion acheminés via le routage direct sont acheminés vers la destination réseau prévue.
 
 ### <a name="optional-configure-a-dial-plan"></a>(Facultatif) Configurer un plan de numérotation
 
-Un plan de numérotation est un ensemble de règles de normalisation qui traduisent les numéros de téléphone composés par un utilisateur individuel dans un autre format (généralement E.164) pour l’autorisation et le routage des appels.
+Un plan de numérotation est un ensemble de règles de normalisation qui traduisent les numéros de téléphone composés par un utilisateur individuel dans un autre format (généralement E.164) à des fins d’autorisation d’appel et de routage des appels.
 
-Par défaut, Teams utilisateurs peuvent appeler des numéros PSTN au format E.164, c’est-à-dire + \<country code\> \<number\> . Toutefois, les plans de numérotation peuvent être utilisés pour permettre aux utilisateurs de composer des numéros de téléphone dans d’autres formats, par exemple des extensions à 4 chiffres.
+Par défaut, Teams utilisateurs peuvent accéder à des numéros RTC au format E.164, c’est-à-dire +\<country code\>\<number\> . Toutefois, les plans de numérotation peuvent être utilisés pour permettre aux utilisateurs de composer des numéros de téléphone dans d’autres formats, par exemple des extensions à 4 chiffres.
 
-Si vous souhaitez activer la numérotation basée sur un numéro de poste par le biais de conférences réseau, vous pouvez configurer des plans de numérotation pour qu’ils correspondent au modèle de numérotation de poste et aux plages de numéros de téléphone du numéro de téléphone de votre organisation. Pour configurer des plans de numérotation, voir [Créer et gérer des plans de numérotation.](create-and-manage-dial-plans.md)
+Si vous souhaitez activer la numérotation basée sur les extensions via la conférence sur le réseau, vous pouvez configurer des plans de numérotation pour qu’ils correspondent au modèle de numérotation d’extension aux plages de numéros de téléphone du numéro de téléphone de votre organisation. Pour configurer des plans de numérotation, consultez [Créer et gérer des plans de numérotation](create-and-manage-dial-plans.md).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi

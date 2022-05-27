@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3345cdecbb6b55f1b5dc83693a1caee5b1a6e77f
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 4fb3eb61de1372012f2a530be86d394ca46893a6
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635372"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681745"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Conseils de salle de réunion pour Teams
 
@@ -37,7 +37,7 @@ Cet article est destiné à guider les utilisateurs sur l’optimisation des esp
 
 Salles Microsoft Teams solutions offrent une flexibilité d’objectif et même une flexibilité de mouvement dans un espace que les salles de réunion traditionnelles ne font pas. Par exemple, avec salles Teams appareils, les utilisateurs peuvent améliorer leur collaboration avec un tableau blanc numérique, et les caméras intelligentes de suivi des personnes s’assurent que chaque participant local peut être vu, où qu’ils se trouvent dans la salle. Tout type d’espace et tout type de réunion peuvent être optimisés avec des appareils salles Teams ou des solutions salles Teams.
 
-### <a name="presentation-focused-meetings"></a>Réunions axées sur la présentation 
+### <a name="presentation-focused-meetings"></a>Réunions axées sur la présentation
 
 Les réunions et les réunions présentes constituent le premier compartiment, et cette réunion est généralement plus formelle. L’audio-visuel est une priorité et l’accent est mis sur la présentation du contenu. L’appareil est généralement fixe, ce qui permet aux utilisateurs de rester assis tout en interagissant avec l’appareil à partir d’une console centrale de table.
 
@@ -60,6 +60,7 @@ N’oubliez pas que les deux types de salles peuvent gérer les deux types d’e
 **Présentation combinée et dispositions d’espace de co-création :** Une combinaison de cas d’usage d’autres scénarios de réunion peut être combinée pour former des salles à usages multiples où les réunions axées sur la présentation, ainsi que le travail de co-création, peuvent être réalisées avec une efficacité égale, souvent simultanément.
 
 ## <a name="optimizing-the-meeting-experience"></a>Optimisation de l’expérience de réunion
+
 Une grande expérience de réunion est le résultat de l’utilisation de la meilleure technologie possible pour un espace de réunion de manière à faciliter l’échange d’idées sans être intrusif.
 
 ### <a name="native-teams-rooms-experiences-versus-other-devices"></a>Expériences de salles Teams natives par rapport à d’autres appareils
@@ -118,33 +119,33 @@ Les choix de technologies audio et vidéo appropriés aideront les utilisateurs 
 
 Les considérations audio sont essentielles pour s’assurer que les participants à distance et en salle peuvent être clairement entendus et compris. La couverture du microphone et du haut-parleur doit inclure chaque siège de la pièce sans laisser d’espace.
 
-*Périphériques audio appropriés pour chaque espace*
+*Périphériques audio appropriés pour chaque espace* :
 
 Une source audio unique pour un espace est nécessaire pour s’assurer qu’il n’y a aucun problème audio dans une salle de réunion.
 
 L’association du microphone et des haut-parleurs appropriés pour chaque espace donnera les meilleurs résultats possibles pour être entendu clairement sans distraction.
 
--   Dans les espaces partagés, les options s’étendent, mais les mêmes principes demeurent : les participants à la réunion doivent être entendus et entendre clairement les autres.
+- Dans les espaces partagés, les options s’étendent, mais les mêmes principes demeurent : les participants à la réunion doivent être entendus et entendre clairement les autres.
 
-    -   Les périphériques audio tout-en-un sont des options faciles à déployer et de haute qualité pour les **espaces plus petits** avec un nombre limité de participants assis relativement près de l’appareil audio.
+  - Les périphériques audio tout-en-un sont des options faciles à déployer et de haute qualité pour les **espaces plus petits** avec un nombre limité de participants assis relativement près de l’appareil audio.
 
-    -   Dans **les espaces plus grands**, les microphones et les haut-parleurs se séparent pour garantir une couverture maximale pour tous les participants dans l’espace. De nombreuses solutions pour les salles de taille moyenne à grande sont disponibles dans le cadre d’un kit qui ne nécessite aucune configuration, uniquement l’installation physique des microphones et des haut-parleurs.
+  - Dans **les espaces plus grands**, les microphones et les haut-parleurs se séparent pour garantir une couverture maximale pour tous les participants dans l’espace. De nombreuses solutions pour les salles de taille moyenne à grande sont disponibles dans le cadre d’un kit qui ne nécessite aucune configuration, uniquement l’installation physique des microphones et des haut-parleurs.
 
-    -   Dans **les espaces les plus grands et les plus complexes**, des solutions sont disponibles pour permettre l’utilisation simultanée d’un large éventail de microphones et de types de haut-parleurs, comme la capture d’une voix de conférencier et de public à partir d’une grande salle tout en mettant l’appel à la disposition de tous. Ces solutions sont idéales lorsqu’elles sont déployées avec un partenaire Microsoft qui possède une expertise dans la conception et le déploiement de solutions plus techniquement impliquées.
+  - Dans **les espaces les plus grands et les plus complexes**, des solutions sont disponibles pour permettre l’utilisation simultanée d’un large éventail de microphones et de types de haut-parleurs, comme la capture d’une voix de conférencier et de public à partir d’une grande salle tout en mettant l’appel à la disposition de tous. Ces solutions sont idéales lorsqu’elles sont déployées avec un partenaire Microsoft qui possède une expertise dans la conception et le déploiement de solutions plus techniquement impliquées.
 
 ### <a name="video"></a>Vidéo
 
 La vidéo est tout aussi importante que l’audio. Capturer des communications physiques et non verbales telles que des expressions faciales ou des gestes est aussi important que le contenu de la salle de classe ou de la réunion pour garantir un engagement et une compréhension maximums. Les salles doivent être équipées de la taille d’affichage appropriée afin que tout le monde puisse vivre la réunion correctement, que ce soit dans la salle ou à distance. C’est pourquoi les salles doivent également disposer d’une couverture caméra appropriée et d’un champ de vue (FOV) pour capturer efficacement tous les participants à la réunion en salle pour ceux qui rejoignent à distance.
 
-*Les caméras appropriées pour chaque espace*
+*Les caméras appropriées pour chaque espace* :
 
 Aussi importante que la qualité audio, la vidéo de haute qualité est une nécessité pour la collaboration moderne Teams. La technologie des caméras a beaucoup évolué avec des caméras de haute qualité désormais disponibles pour tous les espaces.
 
--   Les caméras incluses dans les appareils tels que les ordinateurs portables et les tablettes doivent être utilisées dans toutes les réunions pour s’assurer que tout le monde est vu et entendu. Pour les utilisateurs qui souhaitent apporter une expérience vidéo plus riche à **un** **espace personnel**, les caméras externes représentent un pas en avant par rapport aux appareils incorporés et peuvent être utilisées dans un plus grand nombre de scénarios et de configurations, garantissant ainsi que les participants à l’appel partagent la meilleure vue d’eux-mêmes. Ces appareils s’installent facilement avec une connexion USB simple trouvée sur chaque PC.
+- Les caméras incluses dans les appareils tels que les ordinateurs portables et les tablettes doivent être utilisées dans toutes les réunions pour s’assurer que tout le monde est vu et entendu. Pour les utilisateurs qui souhaitent apporter une expérience vidéo plus riche à **un** **espace personnel**, les caméras externes représentent un pas en avant par rapport aux appareils incorporés et peuvent être utilisées dans un plus grand nombre de scénarios et de configurations, garantissant ainsi que les participants à l’appel partagent la meilleure vue d’eux-mêmes. Ces appareils s’installent facilement avec une connexion USB simple trouvée sur chaque PC.
 
--   Dans les espaces partagés, les options et fonctionnalités s’étendent. **Les salles plus petites** peuvent être couvertes par des caméras incluses dans des périphériques audio tout-en-un, tels que des barres audio. Ces caméras disposent généralement d’un large champ de vue, ce qui garantit qu’elles capturent chaque participant dans l’espace en une seule capture. Beaucoup de ces caméras disposent également de choses telles que le cadrage intelligent de l’image, de sorte que l’appareil photo montre uniquement les personnes dans la réunion et non pas des chaises vides, ou les personnes comptant, pour suivre et comprendre l’utilisation de l’espace.
+- Dans les espaces partagés, les options et fonctionnalités s’étendent. **Les salles plus petites** peuvent être couvertes par des caméras incluses dans des périphériques audio tout-en-un, tels que des barres audio. Ces caméras disposent généralement d’un large champ de vue, ce qui garantit qu’elles capturent chaque participant dans l’espace en une seule capture. Beaucoup de ces caméras disposent également de choses telles que le cadrage intelligent de l’image, de sorte que l’appareil photo montre uniquement les personnes dans la réunion et non pas des chaises vides, ou les personnes comptant, pour suivre et comprendre l’utilisation de l’espace.
 
--   Dans **les salles plus grandes**, les caméras disposent de la technologie nécessaire pour capturer les participants à différents endroits à différentes distances. Ces caméras peuvent capturer des groupes ou se concentrer sur des individus spécifiques tout en conservant une grande clarté visuelle. Les appareils qui peuvent suivre et présenter uniquement des haut-parleurs actifs sont régulièrement utilisés dans des espaces plus grands afin que de nombreux participants puissent être présentés individuellement tout au long d’une réunion pendant qu’ils apportent leurs idées.
+- Dans **les salles plus grandes**, les caméras disposent de la technologie nécessaire pour capturer les participants à différents endroits à différentes distances. Ces caméras peuvent capturer des groupes ou se concentrer sur des individus spécifiques tout en conservant une grande clarté visuelle. Les appareils qui peuvent suivre et présenter uniquement des haut-parleurs actifs sont régulièrement utilisés dans des espaces plus grands afin que de nombreux participants puissent être présentés individuellement tout au long d’une réunion pendant qu’ils apportent leurs idées.
 
 # <a name="enhanced-microsoft-teams-room"></a>[Salle de Microsoft Teams améliorée](#tab/emtr)
 
@@ -172,25 +173,25 @@ Le concept de la salle de Microsoft Teams améliorée est conçu autour de deux 
 
 Principes de conception :
 
--   Les participants distants peuvent établir une présence réelle dans la salle
+- Les participants distants peuvent établir une présence réelle dans la salle
 
--   Les participants en salle peuvent conserver leur identité individuelle dans la réunion
+- Les participants en salle peuvent conserver leur identité individuelle dans la réunion
 
--   Tous les participants à la réunion peuvent s’engager dans une collaboration sans limites.
+- Tous les participants à la réunion peuvent s’engager dans une collaboration sans limites.
 
 **Objectif 2 : Les connexions se sentent naturelles et immersives.**
 
 Principes de conception :
 
--   Les expériences sont mises à l’échelle pour la connexion humaine, ce qui permet des interactions qui ont l’impression que tout le monde est dans la même pièce.
+- Les expériences sont mises à l’échelle pour la connexion humaine, ce qui permet des interactions qui ont l’impression que tout le monde est dans la même pièce.
 
 Une expérience de salle améliorée est l’ensemble de ces composants et idées mis en place sans fonctionnalité unique définissant l’expérience. Les fonctionnalités et concepts individuels de notre Salles Microsoft Teams amélioré peuvent également être déployés seuls.
 
 Exemples de déploiement de fonctionnalités spécifiques :
 
--   Tirez parti de notre nouvelle expérience d’affichage en première ligne dans tous les types d’espaces de réunion où il existe une solution Microsoft Teams Room qui la prend en charge.
+- Tirez parti de notre nouvelle expérience d’affichage en première ligne dans tous les types d’espaces de réunion où il existe une solution Microsoft Teams Room qui la prend en charge.
 
--   Implémentez des tables courbées et des dispositions orientées vers l’avant avec des expériences de salle Microsoft Teams traditionnelles pour promouvoir une meilleure connexion humaine dans la salle tout en conservant la continuité de l’expérience dans tous les espaces de réunion.
+- Implémentez des tables courbées et des dispositions orientées vers l’avant avec des expériences de salle Microsoft Teams traditionnelles pour promouvoir une meilleure connexion humaine dans la salle tout en conservant la continuité de l’expérience dans tous les espaces de réunion.
 
 ## <a name="when-should-you-deploy-this-room-type"></a>Quand devez-vous déployer ce type de salle ?
 
@@ -198,13 +199,13 @@ Les Salles Microsoft Teams améliorées ne sont pas destinées à remplacer tous
 
 Salles Microsoft Teams continueront de proposer des expériences de réunion hybride centrées sur les personnes mises à disposition par le biais de mises à jour logicielles. Toutefois, il existe des technologies matérielles et des conseils de configuration de salle qui jouent un rôle clé dans l’optimisation de certaines des expériences améliorées. C’est la combinaison de ces composants qui comprend une salle Microsoft Teams améliorée. Lorsque vous évaluez le nombre de Salles Microsoft Teams que vous souhaitez faire évoluer vers une salle de Microsoft Teams améliorée, tenez compte des points suivants :
 
--   Les mises à niveau matérielles et/ou les investissements à effectuer.
+- Les mises à niveau matérielles et/ou les investissements à effectuer.
 
--   La plupart des salles de conférence sont conçues pour maximiser les longueurs carrées précieuses avec une relation étroite entre la dimension de la salle et la capacité de la salle. Une salle de Microsoft Teams améliorée hiérarchise l’expérience de réunion au-dessus de l’optimisation des carrés. Toutes les organisations ne peuvent pas hiérarchiser de cette façon pour chaque espace de réunion, car cela pourrait réduire le nombre de salles de réunion qu’elles peuvent avoir.
+- La plupart des salles de conférence sont conçues pour maximiser les longueurs carrées précieuses avec une relation étroite entre la dimension de la salle et la capacité de la salle. Une salle de Microsoft Teams améliorée hiérarchise l’expérience de réunion au-dessus de l’optimisation des carrés. Toutes les organisations ne peuvent pas hiérarchiser de cette façon pour chaque espace de réunion, car cela pourrait réduire le nombre de salles de réunion qu’elles peuvent avoir.
 
-### <a name="understanding-this-space"></a>Comprendre cet espace 
+### <a name="understanding-this-space"></a>Comprendre cet espace
 
-*Équilibrage de la flexibilité hybride avec l’inclusion*
+*Équilibrage de la flexibilité hybride avec l’inclusion* :
 
 Chez Microsoft, nos instructions de travail flexibles hiérarchisent en donnant aux employés le choix et la flexibilité sur l’endroit où travailler et quand. Ce changement fondamental de politique nous a fait repenser l’évolution de nos espaces de réunion et de nos technologies.
 
@@ -222,7 +223,7 @@ La disposition de la salle est conçue pour une visibilité et un engagement max
 
 La disposition comporte une table courbée pour le contact visuel en personne et l’orientation pour les participants distants avec toutes les chaises face à l’affichage afin que les participants soient en mesure de suivre le long.
 
-### <a name="how-does-the-audio-work"></a>Comment fonctionne l’audio ? 
+### <a name="how-does-the-audio-work"></a>Comment fonctionne l’audio ?
 
 À l’aide de solutions audio certifiées pour Salles Microsoft Teams, les utilisateurs sont en mesure d’entendre et d’être entendus clairement.
 
@@ -236,9 +237,9 @@ La caméra à angle ultra-large dispose d’un suivi intelligent des participant
 
 ![Rendu d’une salle de réunion améliorée à partir d’une vue de surcharge.](media/emr5.png)
 
-### <a name="how-do-the-front-of-room-displays-work"></a>Comment fonctionnent les écrans avant de la pièce ? 
+### <a name="how-do-the-front-of-room-displays-work"></a>Comment fonctionnent les écrans avant de la pièce ?
 
-Cette salle est optimisée pour la disposition Salles Microsoft Teams appelée ligne d’avant et s’affiche par le biais d’un projecteur haute résolution à jet court spécialisé, créant ainsi une expérience immersif de front-of-room conçue spécifiquement pour Teams réunions. 
+Cette salle est optimisée pour la disposition Salles Microsoft Teams appelée ligne d’avant et s’affiche par le biais d’un projecteur haute résolution à jet court spécialisé, créant ainsi une expérience immersif de front-of-room conçue spécifiquement pour Teams réunions.
 
 ### <a name="what-is-front-row"></a>Qu’est-ce que la première ligne ?
 
@@ -254,9 +255,9 @@ Dans Salles Microsoft Teams, les utilisateurs peuvent tirer parti du tableau bla
 
 ## <a name="enhanced-microsoft-teams-room-design-guidance"></a>Conseils améliorés en matière de conception de salle Microsoft Teams
 
-Cette section est destinée à couvrir la construction d’une salle à partir de zéro. 
+Cette section est destinée à couvrir la construction d’une salle à partir de zéro.
 
-### <a name="room-layout"></a>Disposition de la salle 
+### <a name="room-layout"></a>Disposition de la salle
 
 #### <a name="room-size"></a>Taille de la salle
 
@@ -264,9 +265,9 @@ Cette section est destinée à couvrir la construction d’une salle à partir d
 
 25 pi x 14 pi
 
-#### <a name="room-capacity"></a>Capacité de la salle 
+#### <a name="room-capacity"></a>Capacité de la salle
 
-Cette salle Microsoft Teams améliorée est optimisée pour entre 6 et 8 personnes. 
+Cette salle Microsoft Teams améliorée est optimisée pour entre 6 et 8 personnes.
 
 #### <a name="room-furniture"></a>Meubles de salle
 
@@ -290,7 +291,7 @@ La console tactile Salles Microsoft Teams doit être montée au centre de la tab
 
 Bien que de nombreux participants puissent choisir de partager du contenu dans ce type de salle de réunion en rejoignant la réunion Teams par le biais d’un appareil personnel à l’appel Teams, la présentation vidéo locale dans la salle doit également être mise à disposition à la table de manière facilement accessible.
 
-## <a name="infrastructure"></a>Infrastructure 
+## <a name="infrastructure"></a>Infrastructure
 
 ### <a name="infrastructure-power"></a>Puissance de l’infrastructure
 
@@ -312,11 +313,11 @@ La lumière des fenêtres d’une pièce de ce type peut affecter négativement 
 
 Le plancher d’une pièce de ce type doit être tapissé ou traité de manière acoustique afin d’éviter les problèmes d’écho et de bruit ambiant pendant les réunions.
 
-### <a name="lighting"></a>Éclairage 
+### <a name="lighting"></a>Éclairage
 
 Des lumières de surcharge doivent être fournies pour éclairer l’espace uniformément, avec les participants de salle de réunion ne semblent pas être lavés ou assis dans un espace sombre. Les efforts visant à réduire l’éclairage direct sur les écrans avant de la pièce, les appareils de co-création ou d’autres surfaces réfléchissantes dans l’espace doivent être entrepris pour éviter d’introduire des reflets.
 
-## <a name="technology-guidance"></a>Conseils technologiques 
+## <a name="technology-guidance"></a>Conseils technologiques
 
 ### <a name="microsoft-teams-rooms-solution"></a>solution Salles Microsoft Teams
 
@@ -362,21 +363,21 @@ Une salle de ce type nécessite l’utilisation d’un rapport d’aspects ultra
 
 Voici quelques exemples de types d’affichage :
 
--   Projecteurs laser
+- Projecteurs laser
 
--   Murs vidéo LED
+- Murs vidéo LED
 
--   Écrans plats À ÉCRANS LCD ou OLED spécialisés
+- Écrans plats À ÉCRANS LCD ou OLED spécialisés
 
 #### <a name="display-functions"></a>Fonctions d’affichage
 
 Les Salles Microsoft Teams améliorées, comme avec toutes les autres solutions Salles Microsoft Teams, nécessitent l’utilisation d’affichages qui peuvent prendre en charge les fonctionnalités suivantes pour une opération appropriée :
 
--   Veillez et réveillez-vous rapidement après le sommeil en fonction de la synchronisation HDMI.
+- Veillez et réveillez-vous rapidement après le sommeil en fonction de la synchronisation HDMI.
 
-    -   Pour les projecteurs, les périodes de préchauffage et de refroidissement automatiques doivent être prises en charge sans intervention de l’utilisateur.
+  - Pour les projecteurs, les périodes de préchauffage et de refroidissement automatiques doivent être prises en charge sans intervention de l’utilisateur.
 
--   Les affichages doivent prises en charge l’EDID et les résolutions appropriées requises par la conception Salles Microsoft Teams.
+- Les affichages doivent prises en charge l’EDID et les résolutions appropriées requises par la conception Salles Microsoft Teams.
 
 #### <a name="display-placement"></a>Emplacement d’affichage
 
@@ -396,7 +397,7 @@ Une salle améliorée nécessite que l’affichage soit un affichage à proporti
 
 Tous les salles Teams sont en mesure de tirer parti de Microsoft Whiteboard par le biais d’un appareil de collaboration interactif tel qu’un Microsoft Surface Hub, un écran tactile avant de la pièce, et par le biais d’appareils complémentaires tels qu’un PC, un téléphone ou une tablette.
 
-#### <a name="traditional-whiteboard"></a>Tableau blanc traditionnel 
+#### <a name="traditional-whiteboard"></a>Tableau blanc traditionnel
 
 Toutes les salles Teams sur Windows peuvent tirer parti des tableaux blancs traditionnels dans une réunion Teams à l’aide de la fonctionnalité de capture intelligente et d’une caméra de contenu secondaire.
 
@@ -404,7 +405,7 @@ Toutes les salles Teams sur Windows peuvent tirer parti des tableaux blancs trad
 
 ### <a name="microsoft-teams-room-console-and-compute"></a>console et calcul Microsoft Teams Room
 
--   Solution de Salles Microsoft Teams basée sur Windows.
+- Solution de Salles Microsoft Teams basée sur Windows.
 
 Comme indiqué :
 
@@ -412,17 +413,17 @@ Comme indiqué :
 
 Autres options :
 
--   [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
+- [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
 
--   [Système de conférence crestron Flex personnalisable](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
+- [Système de conférence crestron Flex personnalisable](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
 
--   [Système de conférence crestron Flex personnalisable avancé](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
+- [Système de conférence crestron Flex personnalisable avancé](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
 
--   [Poly G10-T](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-g10-t/564)
+- [Poly G10-T](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-g10-t/564)
 
 ### <a name="camera"></a>Caméra
 
--   Un appareil photo ultra-large avec cadrage intelligent.
+- Un appareil photo ultra-large avec cadrage intelligent.
 
 Comme indiqué :
 
@@ -430,27 +431,27 @@ Comme indiqué :
 
 Autres options :
 
--   [Jabra PanaCast](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/jabra-panacast/353)
+- [Jabra PanaCast](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/jabra-panacast/353)
 
--   [Yealink UVC30](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-room/409)
+- [Yealink UVC30](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-room/409)
 
--   [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
+- [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
 
--   [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
+- [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
 
--   [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
+- [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
 
--   Poly Studio E70
+- Poly Studio E70
 
--   [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
+- [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
 
--   [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html)
+- [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html)
 
--   [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html)
+- [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html)
 
 ### <a name="microphone"></a>Microphone
 
--   Une solution de microphone certifiée qui capturera clairement tous les participants à la réunion en salle.
+- Une solution de microphone certifiée qui capturera clairement tous les participants à la réunion en salle.
 
 Comme indiqué :
 
@@ -458,45 +459,45 @@ Comme indiqué :
 
 Autres options :
 
--   [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
+- [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
 
--   [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
+- [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
 
--   [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
+- [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
 
--   [Lenovo ThinkSmart Bar](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
+- [Lenovo ThinkSmart Bar](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
+- [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [Hub de salle de conférence Biamp Devio avec micro Parle Ceiling](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [Hub de salle de conférence Biamp Devio avec micro Parle Ceiling](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Hub de salle de conférence Biamp Devio avec micro de table Parle](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [Hub de salle de conférence Biamp Devio avec micro de table Parle](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Système audio de montage mural Shure MXA710-4FT](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
+- [Système audio de montage mural Shure MXA710-4FT](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
 
--   [Système d’audioconférence Nureva HDL300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
+- [Système d’audioconférence Nureva HDL300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
 
--   [Audio de la salle de réunion QSC : haut-parleurs au plafond](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
+- [Audio de la salle de réunion QSC : haut-parleurs au plafond](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
 
--   [Audio directionnel QSC - audio de plafond](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
+- [Audio directionnel QSC - audio de plafond](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
 
--   [Audio de la salle de réunion QSC : haut-parleurs de pendentif](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
+- [Audio de la salle de réunion QSC : haut-parleurs de pendentif](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
 
--   [Audio biamp avec micro de plafond Parlé](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+- [Audio biamp avec micro de plafond Parlé](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [Audio de biamp avec micros de table Parlé](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+- [Audio de biamp avec micros de table Parlé](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [Solution audio de plafond Bose DS4](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
+- [Solution audio de plafond Bose DS4](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
 
--   [Solution audio de plafond Bose ES1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
+- [Solution audio de plafond Bose ES1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
 
--   [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
+- [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
 
--   [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
+- [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
 
 ### <a name="speakers"></a>Haut-parleurs
 
--   Une solution d’orateur certifié qui fournira un son clair et intelligible à tous les participants à la réunion en salle.
+- Une solution d’orateur certifié qui fournira un son clair et intelligible à tous les participants à la réunion en salle.
 
 Comme indiqué :
 
@@ -504,47 +505,47 @@ Comme indiqué :
 
 Autres options :
 
--   [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
+- [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
 
--   [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
+- [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
 
--   [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
+- [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
 
--   [Lenovo ThinkSmart Bar](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
+- [Lenovo ThinkSmart Bar](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
+- [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [Hub de salle de conférence Biamp Devio avec micro Parle Ceiling](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [Hub de salle de conférence Biamp Devio avec micro Parle Ceiling](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Hub de salle de conférence Biamp Devio avec micro de table Parle](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [Hub de salle de conférence Biamp Devio avec micro de table Parle](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Système audio de montage mural Shure MXA710-4FT](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
+- [Système audio de montage mural Shure MXA710-4FT](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
 
--   [Système d’audioconférence Nureva HDL300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
+- [Système d’audioconférence Nureva HDL300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
 
--   [Audio de la salle de réunion QSC : haut-parleurs au plafond](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
+- [Audio de la salle de réunion QSC : haut-parleurs au plafond](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
 
--   [Audio directionnel QSC - audio de plafond](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
+- [Audio directionnel QSC - audio de plafond](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
 
--   [Audio de la salle de réunion QSC : haut-parleurs de pendentif](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
+- [Audio de la salle de réunion QSC : haut-parleurs de pendentif](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
 
--   [Audio biamp avec micro de plafond Parlé](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+- [Audio biamp avec micro de plafond Parlé](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [Audio de biamp avec micros de table Parlé](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+- [Audio de biamp avec micros de table Parlé](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [Solution audio de plafond Bose DS4](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
+- [Solution audio de plafond Bose DS4](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
 
--   [Solution audio de plafond Bose ES1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
+- [Solution audio de plafond Bose ES1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
 
--   [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
+- [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
 
--   [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
+- [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
 
 ### <a name="displays"></a>Affiche
 
 - Un jet court ou ultra-court, une haute résolution et un projecteur laser à luminosité élevée avec mise en éveil automatique lors de la synchronisation et du refroidissement pendant la fonction de veille. Un écran de projecteur à faible gain avec la lumière ambiante rejetant les propriétés fournira la meilleure qualité d’image dans les salles lumineuses.
 
-Comme indiqué : 
+Comme indiqué :
 
 - [Projecteur Epson EB-PU1007 avec objectif ElPLX01S Ultra Short Throw](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
 - [Da-Lite UTB Contour Screen | Hd Progressive 0.6 Screen | Cinemascope 138 » Diagonale](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
@@ -555,9 +556,9 @@ Pour le scénario idéal, d’autres options d’affichage (autres projecteurs, 
 
 ### <a name="co-create-options"></a>Options de co-création
 
--   Tableau blanc analogique avec une caméra de contenu OR
+- Tableau blanc analogique avec une caméra de contenu OR
 
--   Affichage tactile interactif compatible.
+- Affichage tactile interactif compatible.
 
 Comme indiqué :
 
@@ -567,11 +568,11 @@ Autres options :
 
 Caméras de contenu :
 
--   [Caméra de contenu UVC30 Yealink](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-content-camera/647)
+- [Caméra de contenu UVC30 Yealink](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-content-camera/647)
 
--   [Canevas Huddly](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/huddly-canvas/568)
+- [Canevas Huddly](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/huddly-canvas/568)
 
--   [Kit de Caméra de contenu BRIO Logitech](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
+- [Kit de Caméra de contenu BRIO Logitech](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
 Appareils tactiles interactifs :
 

@@ -17,12 +17,12 @@ description: Découvrez ce qu’il faut faire lorsque vous devez effectuer eDisc
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 207164f3e16768b7643d2bba2177d52d6b3940f3
-ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
+ms.openlocfilehash: a89f2ac8fc94505ec0d97bb426bc8fc92901aa52
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2022
-ms.locfileid: "65031919"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675306"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -36,27 +36,26 @@ La découverte électronique des messages et des fichiers dans [les canaux priv�
 
 Tous les contenus Teams ne sont pas accessibles en ligne. Le tableau suivant présente les types de contenu que vous pouvez rechercher à l’aide des outils Microsoft eDiscovery :
 
-| Type de contenu | eDiscoverable | Remarques |
-|:--- | :--- |:--- |
-|Enregistrements audio | Non | |
+|Type de contenu|eDiscoverable|Remarques|
+|---|---|---|
+|Enregistrements audio|Non||
 |Contenu de la carte|Oui|Pour plus d’informations, consultez [Rechercher le contenu de la carte](#search-for-card-content) .|
-|Liens de conversation | Oui | |
-|Messages de conversation | Oui |Cela inclut le contenu dans les canaux Teams standard, les conversations 1:1, les conversations de groupe 1:N et les conversations avec les participants de l’utilisateur invité.  |
-|Extraits de code | Non | |
-|Messages modifiés | Oui | Si l’utilisateur est en attente, les versions précédentes des messages modifiés sont également conservées. |
-|Emojis, GIF et autocollants | Oui | |
-|Notifications de flux | Non | |
-|Images incluses | Oui | |
-|composants Loop| Oui|Le contenu d’un composant de boucle est enregistré dans un fichier .fluid stocké dans le compte OneDrive Entreprise de l’utilisateur qui envoie le composant de boucle. Cela signifie que vous devez inclure OneDrive en tant que source de données lors de la recherche de contenu dans les composants de boucle. |
-|Conversations par messagerie instantanée de réunion | Oui | |
-|Métadonnées <sup>de réunion1</sup> | Oui |  |
-|Nom du canal | Oui | |
-|Messages de conversation de canal privé et partagé | Oui | |
-|Citations | Oui | Le contenu entre guillemets peut faire l’objet d’une recherche. Toutefois, les résultats de la recherche n’indiquent pas que le contenu a été cité. |
-|Réactions (comme les j’aime, les cœurs et d’autres réactions) | Non | |
-|Objet | Oui | |
-|Tables | Oui | |
-||||
+|Liens de conversation|Oui||
+|Messages de conversation|Oui|Cela inclut le contenu dans les canaux Teams standard, les conversations 1:1, les conversations de groupe 1:N et les conversations avec les participants de l’utilisateur invité.|
+|Extraits de code|Non||
+|Messages modifiés|Oui|Si l’utilisateur est en attente, les versions précédentes des messages modifiés sont également conservées.|
+|Emojis, GIF et autocollants|Oui||
+|Notifications de flux|Non||
+|Images incluses|Oui||
+|composants Loop|Oui|Le contenu d’un composant de boucle est enregistré dans un fichier .fluid stocké dans le compte OneDrive Entreprise de l’utilisateur qui envoie le composant de boucle. Cela signifie que vous devez inclure OneDrive en tant que source de données lors de la recherche de contenu dans les composants de boucle.|
+|Conversations par messagerie instantanée de réunion|Oui||
+|Métadonnées<sup>de réunion 1</sup>|Oui||
+|Nom du canal|Oui||
+|Messages de conversation de canal privé et partagé|Oui||
+|Citations|Oui|Le contenu entre guillemets peut faire l’objet d’une recherche. Toutefois, les résultats de la recherche n’indiquent pas que le contenu a été cité.|
+|Réactions (comme les j’aime, les cœurs et d’autres réactions)|Non||
+|Objet|Oui||
+|Tables|Oui||
 
 <sup>1 Les</sup> métadonnées de réunion (et d’appel) incluent les éléments suivants :
 
@@ -207,7 +206,7 @@ Pour rechercher du contenu pour les utilisateurs invités :
    Start-ComplianceSearch <search name>
    ```
 
-6. Accédez, [https://compliance.microsoft.com](https://compliance.microsoft.com) puis cliquez sur **Afficher la** **recherche allContent** > .
+6. Accédez, [https://compliance.microsoft.com](https://compliance.microsoft.com) puis cliquez sur **Afficher toutes les** > **recherches de contenu**.
 
 7. Dans la liste des recherches, sélectionnez la recherche que vous avez créée à l’étape 4 pour afficher la page de menu volant.
 
@@ -234,11 +233,11 @@ Lors de l’affichage du contenu de la carte dans les résultats de la recherche
 ![Contenu de la carte dans Teams message de canal.](media/CardContentTeams.png)
 
 ### <a name="card-content-in-search-results"></a>Contenu de la carte dans les résultats de la recherche
-  
+
 ![Même contenu de carte dans les résultats d’une recherche de contenu.](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> Pour afficher des images à partir du contenu de la carte dans les résultats de recherche à ce stade (par exemple, les coches de la capture d’écran précédente), vous devez être connecté à Teams (https://teams.microsoft.com)sous un autre onglet de la même session de navigateur que celle utilisée pour afficher les résultats de la recherche. Sinon, les espaces réservés d’image sont affichés.
+> Pour afficher des images à partir du contenu de la carte dans les résultats de recherche à ce stade (par exemple, les coches de la capture d’écran précédente), vous devez être connecté à Teams (à <https://teams.microsoft.com>) dans un autre onglet de la même session de navigateur que celle que vous utilisez pour afficher les résultats de la recherche. Sinon, les espaces réservés d’image sont affichés.
 
 ## <a name="ediscovery-in-federated-and-non-federated-environments"></a>eDiscovery dans les environnements fédérés et non fédérés
 
@@ -248,7 +247,7 @@ Les administrateurs peuvent utiliser eDiscovery pour rechercher du contenu dans 
 
 - **Non fédéré** : dans une réunion Teams avec des utilisateurs de votre organisation et des utilisateurs invités, seuls les administrateurs de l’organisation qui héberge la réunion Teams peuvent rechercher du contenu dans les messages de conversation de la réunion.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Microsoft 365 solutions eDiscovery](/microsoft-365/compliance/ediscovery)
 - [Démarrage avec eDiscovery (Standard)](/microsoft-365/compliance/get-started-core-ediscovery)

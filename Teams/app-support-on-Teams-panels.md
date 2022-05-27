@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bf4066675755e0f93844644a6a59404af678a38
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 1f9d2e3b17f852dcd020dc11c323bbc24c2dfc30
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635412"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675906"
 ---
 # <a name="microsoft-teams-appsline-of-business-lob-app-support-on-teams-panels"></a>prise en charge des applications Microsoft Teams/métier sur les panneaux Teams
 
@@ -36,7 +36,7 @@ Teams panneaux ajoute la prise en charge des [applications Teams/applications m�
 
 ## <a name="teams-app-experience-on-teams-panels"></a>Teams’expérience de l’application sur les panneaux Teams
 
-![Capture d’écran du centre d’administration Teams montrant la section qui permettra aux utilisateurs d’accéder aux applications.](media/tac1update.png) 
+![Capture d’écran du centre d’administration Teams montrant la section qui permettra aux utilisateurs d’accéder aux applications.](media/tac1update.png)
 
 *L’écran d’accueil des panneaux Teams comprend des options de navigation d’application, décrites dans la capture d’écran en rouge. Notez qu’il s’agit d’exemples d’icônes qui peuvent ne pas être utilisables.*
 
@@ -44,7 +44,7 @@ Teams panneaux ajoute la prise en charge des [applications Teams/applications m�
 
 *Lorsqu’un utilisateur final appuie sur l’une des icônes de l’application, il voit l’écran de l’application Teams affiché dans la capture d’écran précédente. Le rectangle gris de la capture d’écran montre où les applications sont affichées sur le écran Teams. La barre d’application est fixe et fait partie de l’application de panneaux Teams.*
 
-## <a name="set-up-and-manage-teams-panels-apps-in-teams-admin-center"></a>Configurer et gérer des applications de panneaux Teams dans Teams centre d’administration 
+## <a name="set-up-and-manage-teams-panels-apps-in-teams-admin-center"></a>Configurer et gérer des applications de panneaux Teams dans Teams centre d’administration
 
 Microsoft Teams applications apportent des informations clés, des outils courants et des processus approuvés à l’endroit où les personnes se rassemblent, apprennent et travaillent. Teams applications [fonctionnent via des fonctionnalités intégrées](/microsoftteams/platform/concepts/capabilities-overview). À présent, en tant qu’administrateur informatique, vous avez le choix entre les applications à inclure dans l’appareil de panneaux Teams de votre organisation et à personnaliser les autorisations via le [centre d’administration Teams](https://admin.teams.microsoft.com/).
 
@@ -62,11 +62,11 @@ Après avoir configuré des applications, vous pouvez utiliser des [stratégies 
 
 Étant donné que Teams offre la possibilité d’afficher un large éventail d’applications, les administrateurs peuvent décider quelles applications sont les plus essentielles pour l’organisation et épingler uniquement ces applications pour l’écran **d’accueil** des panneaux Teams pour un accès rapide. S’il existe plus de cinq applications épinglées ou d’applications non épinglées, elles apparaissent sous l’écran **Plus** . Microsoft recommande de créer une stratégie de configuration d’application personnalisée spécifiquement pour Teams panneaux.
 
-![Capture d’écran de l’interface utilisateur de la page stratégies d’installation de l’application.](media/appsetup1.png) 
+![Capture d’écran de l’interface utilisateur de la page stratégies d’installation de l’application.](media/appsetup1.png)
 
 Pour gérer les applications épinglées affichées dans les panneaux Teams, connectez-vous au centre d’administration Teams de votre organisation et accédez à **Teams stratégies** **d’installation** \> d’applications \> **Sélectionner ou créer une nouvelle** \> **stratégie épinglées**.
 
-![Capture d’écran de la section Applications épinglées dans l’interface utilisateur.](media/appsetup2.png) 
+![Capture d’écran de la section Applications épinglées dans l’interface utilisateur.](media/appsetup2.png)
 
 *Les applications incluses dans cette image ne sont que des exemples et peuvent ne pas être utilisables.*
 
@@ -74,7 +74,7 @@ Microsoft vous recommande de désactiver **Télécharger applications personnali
 
 Pour plus d’informations sur l’épinglage d’applications, consultez [Gérer les stratégies d’installation des applications](/microsoftteams/teams-app-setup-policies).
 
-## <a name="manage-apps-display-order-in-teams-panels"></a>Gérer l’ordre d’affichage des applications dans Teams panneaux 
+## <a name="manage-apps-display-order-in-teams-panels"></a>Gérer l’ordre d’affichage des applications dans Teams panneaux
 
 ![Capture d’écran de la section Applications dans l’interface utilisateur.](media/appsetup3.png)
 
@@ -122,6 +122,6 @@ Toutes les applications ne peuvent pas être épinglées à Teams par le biais d
 
 ![Capture d’écran de la section de stratégie d’installation dans l’interface utilisateur avec une fenêtre contextuelle confirmant que l’épinglage utilisateur est actif.](media/appsetup4.png)
 
-*Les applications incluses dans cette image ne sont que des exemples et peuvent ne pas être utilisables.* 
+*Les applications incluses dans cette image ne sont que des exemples et peuvent ne pas être utilisables.*
 
 Ce comportement est attendu pour un appareil dans un espace partagé et permet d’éviter l’épinglage involontaire d’application.

@@ -21,12 +21,12 @@ description: Vos équipes ou l’administrateur informatique peuvent configurer 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: b3b1fb8a51993f0c1510a000e835bbae3098e11b
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 7d45fea1b0b2fdb5d659f0a025b74473050b3616
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125719"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674226"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Gérer les conversations et les réunions externes dans Microsoft Teams
 
@@ -117,14 +117,17 @@ Dans le centre d'administration Teams, accédez à **Utilisateurs** > **Accès e
 ![Capture d’écran des paramètres d’accès externe](./media/external-access-accounts-not-managed-by-org.png)
 
 Pour empêcher les utilisateurs de Teams de votre organisation de communiquer avec des utilisateurs Teams externes dont les comptes ne sont pas gérés par une organisation :
+
 1. Désactiver les **personnes de mon organisation peuvent communiquer avec Teams utilisateurs dont les comptes ne sont pas gérés par un paramètre de l’organisation**.
 2. Effacer les **utilisateurs externes Teams comptes non gérés par une organisation peuvent contacter les utilisateurs dans la case à cocher de mon** organisation.
 
 Pour permettre aux utilisateurs de Teams de votre organisation de communiquer avec des utilisateurs de Teams externes dont les comptes ne sont pas gérés par une organisation si vos utilisateurs de Teams ont initié le contact :
+
 1. Activer la fonction Personnes de mon organisation permet de communiquer avec Teams utilisateurs dont les comptes ne sont pas **gérés par un paramètre de l’organisation**.
 2. Effacer les **utilisateurs externes Teams comptes non gérés par une organisation peuvent contacter les utilisateurs dans la case à cocher de mon** organisation.
 
 Pour permettre aux utilisateurs de Teams dans votre organisation de communiquer avec des utilisateurs Teams externes dont les comptes ne sont pas gérés par une organisation et recevoir des demandes de communication avec ces utilisateurs Teams externes :
+
 1. Activer la fonction Personnes de mon organisation permet de communiquer avec Teams utilisateurs dont les comptes ne sont pas **gérés par un paramètre de l’organisation**.
 2. Sélectionnez **les utilisateurs externes Teams comptes non gérés par une organisation peuvent contacter les utilisateurs dans la case à cocher de mon** organisation.
 
@@ -134,7 +137,7 @@ Pour permettre aux membres Teams de votre organisation de discuter avec et d’a
 
 ![Capture d’écran du Skype utilisateurs](./media/external-access-skype-settings.png)
 
-**Utiliser le centre d’administration Microsoft Teams**
+### <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
 1. Dans la navigation de gauche, accédez à **Utilisateurs** > **Accès externe**.
 
@@ -142,7 +145,7 @@ Pour permettre aux membres Teams de votre organisation de discuter avec et d’a
 
 Pour en savoir plus sur la manière dont les utilisateurs de Teams et les utilisateurs de Skype peuvent communiquer, y compris les limitations qui s’appliquent, voir [Interopérabilité Skype et Teams](teams-skype-interop.md).
 
-## <a name="using-powershell"></a>Utiliser PowerShell
+### <a name="using-powershell"></a>Utiliser PowerShell
 
 Vous pouvez configurer les paramètres au niveau de l’organisation à l’aide de [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) et les paramètres au niveau utilisateur à l’aide de [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
 
@@ -219,7 +222,7 @@ Pour permettre aux utilisateurs de votre organisation de communiquer avec des ut
 
 | Si votre organisation | Activer la fédération comme suit |
 |:---------|:-----------------------|
-|En ligne sans Skype Entreprise en local. Cela inclut les organisations qui ont des utilisateurs de TeamsOnly et/ou Skype Entreprise Online.| Si vous utilisez le Centre d’administration Teams : <br>- Assurez-vous que les domaines avec lesquels vous voulez communiquer sont autorisés à l'accès externe.<br><br>Si vous utilisez PowerShell :<br>- Vérifiez que le client est activé pour la fédération : `Get-CsTenantFederationConfiguration` doit afficher `AllowFederatedUsers=true`. <br>- Assurez-vous que la valeur effective de l’utilisateur `CsExternalAccessPolicy` est de `EnableFederationAccess=true`.<br>- Si vous n’utilisez pas la fédération ouverte, assurez-vous que le domaine cible est répertorié dans `AllowedDomains` de `CsTenantFederationConfiguration`. |
+|En ligne sans Skype Entreprise en local. Cela inclut les organisations qui ont des utilisateurs de TeamsOnly et/ou Skype Entreprise Online.| Si vous utilisez le Centre d’administration Teams : <br>- Vérifiez que les domaines avec lesquels vous voulez communiquer sont autorisés pour l'accès externe.<br><br>Si vous utilisez PowerShell :<br>- Vérifiez que le client est activé pour la fédération : `Get-CsTenantFederationConfiguration` doit afficher `AllowFederatedUsers=true`. <br>- Assurez-vous que la valeur effective de l’utilisateur `CsExternalAccessPolicy` est de `EnableFederationAccess=true`.<br>- Si vous n’utilisez pas la fédération ouverte, assurez-vous que le domaine cible est répertorié dans `AllowedDomains` de `CsTenantFederationConfiguration`. |
 |En local uniquement| Dans les outils locaux : <br>- Vérifiez que la fédération est activée dans `CsAccessEdgeConfiguration`.<br>- Vérifiez que la fédération de l’utilisateur est activée via `ExternalAccessPolicy` (soit la stratégie globale, la stratégie de site ou la stratégie attribuée par l’utilisateur). <br> - Si vous n’utilisez pas la fédération ouverte, assurez-vous que le domaine cible est répertorié dans `AllowedDomains`.|
 |Hybride avec certains utilisateurs en ligne (dans Skype Entreprise ou Teams) et certains utilisateurs en local. | Suivez les étapes ci-dessus pour les organisations en ligne et locales. |
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a00561f10e78a18acc146df4ed8a76b103c937c9
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: b6fb93bf7f8e3278ba4fba16604769c6f8f10e36
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514565"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681605"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Se connecter à Microsoft Teams
 

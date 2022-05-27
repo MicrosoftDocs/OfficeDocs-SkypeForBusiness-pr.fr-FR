@@ -1,5 +1,5 @@
 ---
-title: Salles Microsoft Teams service géré
+title: Salles Microsoft Teams service managé
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -15,129 +15,135 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: En savoir plus sur Salles Microsoft Teams service géré.
+description: Découvrez le service managé Salles Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 2c0131f76146c27e259198baca826cedaddc6426
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: 432e09204ae157ece03b2dd0c1f4ac3336adec52
+ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331105"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65741876"
 ---
-# <a name="microsoft-teams-rooms-managed-service"></a>Salles Microsoft Teams service géré
+# <a name="microsoft-teams-rooms-managed-service"></a>Salles Microsoft Teams service managé
 
-Le service géré par Salles Microsoft Teams est un service de gestion et de surveillance informatique basé sur le cloud qui maintient les périphériques Salles Microsoft Teams et leurs périphériques à jour et de façon proactive, et permet de prendre en charge un environnement optimisé pour une expérience utilisateur excellente.
+Le service managé Salles Microsoft Teams est un service de gestion et de surveillance informatique basé sur le cloud qui maintient Salles Microsoft Teams appareils et leurs périphériques à jour et surveillés de manière proactive, ce qui prend en charge un environnement optimisé pour une expérience utilisateur optimale.
 
-Le Salles Microsoft Teams géré est pour les organisations qui cherchent à améliorer leur expérience de salle de réunion et à augmenter rapidement leur empreinte en offrant une gestion proactive pour Salles Microsoft Teams appareils. Ce service permet aux organisations de gagner du temps, de l’argent et une expertise qui seraient autrement consacrées à la gestion de salle « faites vous-même ».  
+Le service managé Salles Microsoft Teams est destiné aux organisations qui cherchent à améliorer leur expérience de salle de réunion et à mettre rapidement à l’échelle leur empreinte en offrant une gestion proactive pour les appareils Salles Microsoft Teams. Le service permet aux organisations d’économiser du temps, de l’argent et de l’expertise qui seraient autrement dépensés dans la gestion de salles « faites-le vous-même ».  
 
-Le Salles Microsoft Teams géré repose sur l’expertise de Microsoft en matière de gestion logicielle de points de fin, d’apprentissage automatique et d’automatisation intelligente. Le Salles Microsoft Teams géré permet aux organisations d’offrir une expérience de haute qualité sur plusieurs sites distants, et peut répondre au rythme de croissance qu’une organisation peut nécessiter.
+Le service managé Salles Microsoft Teams repose sur une base solide de l’expertise de Microsoft en matière de gestion logicielle des points de terminaison, du Machine Learning et de l’automatisation intelligente. Le service managé Salles Microsoft Teams aide les organisations à offrir une expérience de haute qualité sur plusieurs sites distants et peut répondre à n’importe quel rythme de croissance qu’une organisation peut avoir besoin.
 
 Voici trois aspects clés du service :  
 
 - Opérations intelligentes  
 
-   Logiciels et apprentissage automatique automatisant les mises à jour, la détection des problèmes et la résolution des problèmes pour les Salles Microsoft Teams.  
+   Logiciels et machine learning qui automatisent les mises à jour, la détection des problèmes et la résolution des problèmes pour Salles Microsoft Teams.  
 
 
 
 - Experts dédiés  
 
-   Une équipe d’experts qui fournit des opérations de service 24 heures sur 24, un support par niveau et une assistance pour la résolution des incidents.  
+   Une équipe d’experts qui fournissent des opérations de service 24 h/24 et 7 j/7, un support hiérarch et une assistance pour la résolution des incidents.  
 
 
 
-- Aperçus améliorés  
+- Insights améliorés  
 
-   Analyse enrichie, rapports et apprentissages éprouvées à l’échelle de nombreux clients.  
+   Des analyses enrichies, des rapports et des apprentissages éprouvés à grande échelle pour de nombreux clients.  
 
 
 ## <a name="service-capabilities"></a>Fonctionnalités de service
 
-Voici une vue d’ensemble des fonctionnalités du service géré Salles Microsoft Teams service.
+Voici une vue d’ensemble des fonctionnalités du service managé Salles Microsoft Teams.
 
 |Fonctionnalités  |Description  |
 |---------|---------|
-|**Planification et déploiement de salles**   |Fonctionnalités de planification de salle qui vous permettent de comprendre l’inventaire de votre équipement de salle et de prendre des décisions sur les normes d’équipement pour les nouveaux déploiements de salles.         |
-|**Analyse et résolution des problèmes**  |Surveillance de l’état des salles qui détecte les problèmes liés au système de salle et aux périphériques et fournit une réponse proactive à la gestion des incidents pilotée par Microsoft.         |
-|**Gestion des mises à jour**    |Gestion et distribution des mises à jour d’application et de microprogramme pour les systèmes de salle et leurs périphériques, effectuées par Microsoft.         |
-|**Informations recommandations**     |Informations’état du client, de l’utilisation, de l’utilisation et de la fiabilité de l’équipement.         |
-|**Conformité et certifications**   |Répond à toutes les normes applicables pour les Microsoft Online Services.         |
-|**Service clientèle**   |Prise en charge du ticket 24 x 7 x 365 via le centre Salles Microsoft Teams d’opérations de service géré par l’entreprise dédié. Escalade en votre nom vers d’autres fournisseurs principaux, le cas échéant. Pour en savoir plus, consultez [le service clientèle.](#customer-support)|
-|**Appareils pris en charge**    |Des systèmes Salles Microsoft Teams certifiés et leurs périphériques.<br>*Surface Hub support technique à venir au deuxième semestre 2021*        |
-|**Régions prise en charge**    |Voir [Régions pris en charge.](#supported-regions)        |
-|**Intégration**    |Intégration disponible avec le service hébergé par le client Maintenant.         |
+|**Planification et déploiement des salles**   |Fonctionnalités de planification de salle qui vous permettent de comprendre l’inventaire des équipements de votre salle et de prendre des décisions sur les normes d’équipement pour les nouveaux déploiements de salles.         |
+|**Analyse et résolution des problèmes**  |Surveillance de l’intégrité de la salle qui détecte les problèmes avec le système de salle et les périphériques et fournit une réponse proactive à la gestion des incidents pilotée par Microsoft.         |
+|**Gestion des mises à jour**    |Gestion et remise des mises à jour des applications et microprogrammes pour les systèmes de salle et leurs périphériques effectués par Microsoft.         |
+|**Informations et recommandations**     |Informations à l’intégrité, à l’utilisation, à l’utilisation et à la fiabilité de l’équipement.         |
+|**Conformité et certifications**   |Répond à toutes les normes applicables pour Microsoft Online Services.         |
+|**Support client**   |Prise en charge des tickets 24 x 7 x 365 via le centre d’opérations de service managé (SOC) du service managé Salles Microsoft Teams dédié. Escalade en votre nom vers d’autres fournisseurs principaux, le cas échéant. Pour plus d’informations, consultez [le support technique](#customer-support).|
+|**Appareils pris en charge**    |Systèmes Salles Microsoft Teams certifiés et leurs périphériques.<br>*Surface Hub soutien au second semestre 2021*        |
+|**Régions prises en charge**    |Consultez [les régions prises en charge](#supported-regions).        |
+|**Intégration**    |Intégration disponible avec le service hébergé par le client maintenant.         |
 
-## <a name="service-features"></a>Fonctionnalités de service
+## <a name="service-features"></a>Fonctionnalités du service
 
-Voici un résumé des fonctionnalités importantes que le service géré Salles Microsoft Teams fournit pour prendre en charge les fonctionnalités ci-dessus.
+Voici un résumé des fonctionnalités importantes fournies par le service managé Salles Microsoft Teams pour prendre en charge les fonctionnalités ci-dessus.
 
 |Fonctionnalité  |Description  |
 |---------|---------|
-|**Gestion des stocks**   |Suivi de l’inventaire de salles avec une option d’exportation en bloc qui répertorie les appareils de salle, les périphériques, les marque et les modèles.         |
-|**Inscriptions aux salles**   |Intégration facile avec l’inscription autonome des appareils de salle au service Salles Microsoft Teams géré.          |
-|**Administration des salles**     |Portail client pour les fonctionnalités de service gérées, les informations, les paramètres d’administration et la gestion des groupes de salles.         |
-|**Analyse**    |Surveillance de l’état des applications, système d’exploitation, périphériques et microprogrammes. Détection automatique d’incidents pour les problèmes affectant les expériences de réunion en raison de problèmes tels que l’état périphérique. Vue d’ensemble de l’ensemble de l’immobilier de la salle et des incidents via le Salles Microsoft Teams de service géré.|
-|**Résolution des problèmes et corrections**     |Diagnostics automatisés et correction automatique le cas échéant. Salles Microsoft Teams correction des incidents gérés par soC pour les cas non automatisés. Intégration de Service Now à la coordination des incidents.         |
-|**Gestion des mises à jour**   |Application de réunion automatisée et mise à jour du microprogramme en fonction des anneaux de déploiement configurables par le client         |
-|**Informations recommandations**   |Utilisation, incidents, état et rapports globaux (affichages historiques)         |
+|**Gestion des stocks**   |Suivi de l’inventaire des salles avec une option d’exportation en bloc qui répertorie les appareils de salle, les périphériques, les marques et les modèles.         |
+|**Inscription de salle**   |Intégration facile avec l’inscription automatique d’appareils de salle au service managé Salles Microsoft Teams.          |
+|**Administration des salles**     |Portail client pour les fonctionnalités de service managé, les insights, les paramètres d’administration et la gestion des groupes de salles.         |
+|**Analyse**    |Analyse de l’intégrité des applications, du système d’exploitation, des périphériques et du microprogramme. Détection automatisée des incidents pour les problèmes affectant les expériences de réunion en raison de problèmes tels que l’intégrité des périphériques. Vue d’ensemble de l’intégrité de l’ensemble de l’espace et des incidents via le portail des services managés Salles Microsoft Teams.|
+|**Dépannage et correction**     |Diagnostics automatisés et correction automatique, le cas échéant. Salles Microsoft Teams correction des incidents assistés par SOC du service managé pour les cas non automatisés. Intégration de Service Now pour la coordination des incidents.         |
+|**Gestion des mises à jour**   |Orchestration automatisée des mises à jour de l’application de réunion et du microprogramme en fonction des anneaux de déploiement configurables par le client         |
+|**Informations et recommandations**   |Utilisation, incidents, intégrité et rapports globaux (vues historiques)         |
 
-## <a name="service-prerequisites"></a>Conditions préalables au service
+## <a name="service-prerequisites"></a>Prérequis du service
 
-Pour que le service géré Salles Microsoft Teams conserve la qualité du service, les salles [inscrites](requirements.md#hardware-requirements)doivent être des appareils pris en charge Salles Microsoft Teams et vous devez préparer votre environnement avec toutes les URL et plages d’adresses [IP Office 365 requises,](/office365/enterprise/urls-and-ip-address-ranges) entièrement autorisées et accessibles par les périphériques de salle de réunion. Pour en savoir plus, [consultez Préparer votre environnement](rooms-prep.md) dans la documentation Salles Microsoft Teams’équipe.
+Pour que le service managé Salles Microsoft Teams maintienne la qualité du service, les salles inscrites doivent être [Salles Microsoft Teams appareils pris en charge](requirements.md#hardware-requirements), et vous devez préparer votre environnement avec toutes les [URL Office 365 requises et les plages d’adresses IP entièrement autorisées et accessibles](/office365/enterprise/urls-and-ip-address-ranges) par les appareils de salle de réunion. Pour en savoir plus, consultez [Préparer votre environnement](rooms-prep.md) dans la documentation Salles Microsoft Teams.
 
-En tant que fournisseur d’un service géré, Microsoft doit travailler avec les parties prenantes responsables pour les salles de votre organisation afin de maintenir l’santé des salles et de récupérer des problèmes. Vous êtes responsable des périphériques non certifiés utilisés dans les salles de réunion, des logiciels tiers ou personnalisés que vous avez choisi de déployer sur vos appareils de salle de réunion, et d’adhering pour modifier les pratiques de gestion recommandées par Microsoft.
+En tant que fournisseur d’un service géré, Microsoft doit travailler avec les parties prenantes responsables pour les salles de votre organisation afin de garder les salles saines et de récupérer des problèmes. Vous êtes responsable des appareils non certifiées utilisés dans les salles de réunion, des logiciels tiers ou personnalisés que vous avez choisis de déployer dans vos appareils de salle de réunion, et du respect des pratiques de gestion des modifications recommandées par Microsoft.
 
-Votre organisation ou un partenaire signé par votre organisation doit être prêt à corriger les problèmes du dernier kilomètre détectés par le service.
+Votre organisation ou un partenaire contracté par votre organisation doit être prêt à corriger les derniers problèmes détectés par le service.
 
-## <a name="customer-support"></a>Service clientèle
+## <a name="customer-support"></a>Support client
 
-Le Salles Microsoft Teams géré par un service géré dédié Salles Microsoft Teams SOC. Le mode principal de communication entre le service géré Salles Microsoft Teams soc et les clients consiste à passer par le Salles Microsoft Teams de service géré. La soc Salles Microsoft Teams service géré par l’entreprise fournit la première réponse et l’escalade appropriée des tickets élevés par le système ou votre organisation.
+Le service managé Salles Microsoft Teams est pris en charge par le biais d’un soC de service managé Salles Microsoft Teams dédié. Le mode principal de communication entre le service managé Salles Microsoft Teams SOC et les clients est le portail de service managé Salles Microsoft Teams. Le Salles Microsoft Teams soC de service managé fournit une première réponse et une escalade appropriée sur les tickets déclenchés par le système ou par votre organisation.
 
 |  | Description |
 |---------|---------|
-|**Étendue**   |Les incidents liés à l’application de salle de réunion, aux appareils de salle et aux périphériques sont inclus dans Salles Microsoft Teams prise en charge du service géré.|
-|**Public**  |Opérations it only         |
-|**Langues prise en charge**    |Anglais         |
-|**Disponibilité du support via le portail**   | 24 heures sur 24, 7 jours sur 7      |
-|**Délai de réponse initiale pour le service géré Salles Microsoft Teams SOC**   |  4 heures       |
-|**Fermeture automatique de tickets en cas d’inactivité du client**    |Tickets initiés par le client : 3 jours ou moins<br>Tickets initiés par le système : 15 jours ou moins</li>   </ul>      |
-|**Redirection vers le Support Microsoft plus large**   |Les problèmes liés à un autre produit Microsoft hors de l’étendue du service géré Salles Microsoft Teams sont dirigés vers l’équipe de support technique appropriée.         |
-|**Redirection vers le support OEM (Original Equipment Manufacturer)**    |La Salles Microsoft Teams service géré SOC travaille à comprendre le problème et, le cas échéant, à coordonner le support avec le OEM. Dans certains cas, il vous sera peut-être responsable d’impliquer directement votre OEM.         |
+|**Étendue**   |Les incidents liés à l’application de salle de réunion, aux appareils de salle et aux périphériques sont inclus dans Salles Microsoft Teams prise en charge du service managé.|
+|**Public**  |Opérations informatiques uniquement         |
+|**Langues prises en charge**    |Anglais         |
+|**Prise en charge de la disponibilité via le portail**   | 24 X 7      |
+|**Temps de réponse initial pour le soC du service managé Salles Microsoft Teams**   |  4 heures       |
+|**Fermeture automatisée des tickets en cas d’inactivité du client**    |Billets initiés par le client : 3 jours ouvrables<br>Billets initiés par le système : 15 jours ouvrables</li>   </ul>      |
+|**Redirection vers des Support Microsoft plus larges**   |Les problèmes liés à un autre produit Microsoft en dehors de l’étendue du service managé Salles Microsoft Teams sont dirigés vers l’équipe de support appropriée.         |
+|**Redirection vers la prise en charge du fabricant d’équipement d’origine (OEM)**    |Le Salles Microsoft Teams soC de service managé fonctionne pour comprendre le problème et, le cas échéant, permet de coordonner la prise en charge avec l’OEM. Dans certains cas, vous pouvez être responsable de l’engagement direct avec votre OEM.         |
 
-En outre, gardez à l’esprit que le service géré soC Salles Microsoft Teams d’assistance aux opérations ita dans votre organisation et ne remplace pas les services de service d’assistance de vos utilisateurs finaux.
+En outre, gardez à l’esprit que le Salles Microsoft Teams soC de service géré aidera les opérations informatiques dans votre organisation et ne remplace pas les services de support technique pour vos utilisateurs finaux.
 
-Pour plus d’informations sur la couverture Salles Microsoft Teams prise en charge du service géré, voir Inclusions et [exclusions du support.](#support-inclusions-and-exclusions)
+Pour plus d’informations sur la couverture Salles Microsoft Teams prise en charge du service managé, consultez [Inclusions et exclusions du support](#support-inclusions-and-exclusions).
 
-## <a name="supported-regions"></a>Régions prise en charge
+## <a name="supported-regions"></a>Régions prises en charge
 
-La licence Salles Microsoft Teams Premium est disponible dans tous les pays et régions où Microsoft 365 est disponible. Pour obtenir la liste complète des pays et régions, consultez Microsoft 365 [disponibilité internationale.](https://www.microsoft.com/microsoft-365/business/international-availability)
+La licence Salles Microsoft Teams Premium est disponible dans les pays suivants avec audioconférence :
 
-## <a name="support-inclusions-and-exclusions"></a>Prise en charge des inclusions et exclusions
+- Australie, Autriche, Belgique, Brésil, Bulgarie, Canada, Croatie, Chypre, République tchèque, Danemark, Estonie, Finlande, France, France, Grèce, Hong Kong R.A.S., Hongrie, Irlande, Italie, Japon, Lettonie, Lituanie, Luxembourg, Malte, Mexique, Monaco, Pays-Bas, Nouvelle-Zélande, Norvège, Pologne, Portugal, Roumanie, Russie, Singapour, Slovaquie, Slovénie, Slovénie, Espagne, Suède, Suisse, Taiwan, Royaume-Uni, États-Unis.
+
+La licence Salles Microsoft Teams Premium est disponible dans les pays suivants sans audioconférence :
+
+- Andorre, Île Bouvet, Île christmas, Îles Cocos (Quilles), Îles Cook, Îles Féroé, Fidji, Gibraltar, Groenland, Iles Heard et McDonald, Islande, Inde, Kiribati, Lesotho, Liechtenstein, Macao R.A.S., Îles Marshall, Micronésie, Nauru, Niue, Île Norfolk, Îles Mariannes du Nord, Palau, Papouasie-Nouvelle-Guinée, Îles Pitcairn, Saint Pierre et Miquelon, Samoa, San Marino, Îles Salomon, Swau, Tokelau, Tonga, Tuvalu,  Mexico, Vatican, Wallis et Futuna.
+
+## <a name="support-inclusions-and-exclusions"></a>Prise en charge des inclusions et des exclusions
 
 
-|Ce qui est inclus |Qu’est-ce qui est exclu ? |Canaux de support pour les éléments exclus  |
+|Éléments inclus |Ce qui est exclu |Canaux de prise en charge des éléments exclus  |
 |---------|---------|---------|
 |**Configuration du service**   |         |         |
-|Examens et conseils pour Salles Microsoft Teams Windows configuration de l’Salles Microsoft Teams, configuration de réseau tierce, configuration logicielle tierce, paramètres d’alimentation et configuration recommandés.     |Toute configuration logicielle tierce et les enquêtes qui ne font pas directement partie de l’Microsoft Teams Room. En outre, toute configuration spécifique à OEM nécessitant une configuration en dehors des fenêtres tierces, ou Microsoft Teams de l’application Room.         |Canaux de support standard tiers         |
-|**Configuration d’un compte de salle**    |         |         |
-|Itinéraire vers la documentation disponible pour la configuration d’un compte de salle à la demande. En cas de problèmes de configuration de compte ou de sign-in, une investigation initiale est effectuée.     |Exécution de corrections ou de problèmes recommandés avec l’exécution des corrections recommandées, la configuration de fournisseurs d’authentification tiers et la configuration de fonctionnalités de compte individuel.        |Support technique de Microsoft et fournisseur d’authentification tiers         |
-|**Prise en charge périphérique**    |         |         |
-|Les enquêtes initiales sont effectuées pour les périphériques certifiés tels que les caméras, les microphones et les haut-parleurs.    |Problèmes qui ne sont pas résolus en appliquant des configurations standard ou qui impliquent une application tierce.         |Support OEM         |
-|**TOUS les appareils de remplacement**   |         |         |
-|Les enquêtes initiales sont effectuées pour les périphériques certifiés tels que les caméras, les microphones et les haut-parleurs. La remise au support OEM est effectuée pour que le OEM remplisse la demande de remplacement ou de garantie.    |approvisionnement, expédition ou installation de remplacements ;         |Support OEM         |
-|**Analyse de cause racine**     |         |         |
-|Toutes les causes racines des problèmes rencontrés dans l’expérience de salle de réunion sont fournies lorsqu’elles sont disponibles, mais sont effectuées en fonction des possibilités.     |L’analyse des causes racine des problèmes logiciels tiers n’est pas incluse.         |Canaux de support standard tiers         |
+|Investigation et conseils pour Salles Microsoft Teams Windows configuration, notamment les paramètres d’application Salles Microsoft Teams, la configuration du réseau interne, la configuration de logiciels internes, ainsi que les paramètres d’alimentation et la configuration recommandés.     |Toutes les configurations et investigations logicielles tierces qui ne font pas directement partie de l’application Microsoft Teams Room. En outre, toutes les configurations propres à OEM qui nécessitent une configuration en dehors des fenêtres internes ou des paramètres d’application Microsoft Teams Room.         |Canaux de support standard tiers         |
+|**Configuration du compte de salle**    |         |         |
+|Direction vers la documentation disponible pour la configuration du compte de salle à la demande. Pour les problèmes de connexion ou de configuration de compte, une investigation initiale est effectuée.     |Exécution des corrections recommandées ou problèmes liés à l’exécution de la correction recommandée, à la configuration des fournisseurs d’authentification tiers et à la configuration des fonctionnalités de compte individuel.        |Prise en charge standard de Microsoft et prise en charge du fournisseur d’authentification tiers         |
+|**Prise en charge des périphériques**    |         |         |
+|Les investigations initiales sont effectuées pour les périphériques certifiés tels que les caméras, les microphones et les haut-parleurs.    |Problèmes qui ne sont pas résolus par l’application de configurations standard ou qui impliquent une application tierce.         |Prise en charge oem         |
+|**RMA et remplacement d’appareil**   |         |         |
+|Les investigations initiales sont effectuées pour les périphériques certifiés tels que les caméras, les microphones et les haut-parleurs. La remise à la prise en charge OEM est effectuée pour que l’OEM réponde à la demande de remplacement ou de garantie.    |Approvisionnement, expédition ou installation de remplacements.         |Prise en charge oem         |
+|**Analyse de la cause racine**     |         |         |
+|Toutes les causes principales des problèmes rencontrés dans l’expérience de salle de réunion sont fournies lorsqu’elles sont disponibles, mais sont effectuées sur une base aussi performante.     |L’analyse de la cause racine des problèmes logiciels tiers n’est pas incluse.         |Canaux de support standard tiers         |
 |**Expérience de réunion**   |         |         |
-|L’étude des problèmes dans les paramètres de réunion sur Salles Microsoft Teams appapp, et des conseils pour la configuration appropriée de la qualité de service sur l’appareil sont fournis à la demande.      |Les analyses ou enquêtes à l’origine des problèmes de qualité des appels ou liés au réseau sont exclus de cette étendue.         |Support Technique Microsoft         |
-|**Correction, intégration et continu**     |         |         |
-|Les clients reçoivent des instructions pour l’apport de salles aux normes recommandées par Salles Microsoft Teams service géré lors de l’intégration    |Les enquêtes sur les images de logiciels personnalisés internes ou non conformes aux instructions de version logicielle recommandées de Salles Microsoft Teams service géré ne sont pas étendues.   | |       
+|L’examen des problèmes dans les paramètres de réunion sur Salles Microsoft Teams application et des conseils pour configurer correctement la qualité de service sur l’appareil sont fournis à la demande.      |L’analyse de la cause racine ou les investigations relatives aux problèmes de qualité des appels ou aux problèmes liés au réseau sont exclus de cette étendue.         |Prise en charge standard de Microsoft         |
+|**Correction, intégration et en cours**     |         |         |
+|Les clients reçoivent des conseils pour mettre leurs chambres aux normes recommandées par Salles Microsoft Teams service managé lors de l’intégration    |Les investigations relatives aux images logicielles personnalisées internes ou non conformes aux instructions de version logicielle recommandées par Salles Microsoft Teams service managé ne sont pas dans l’étendue.   | |       
 
 ## <a name="data-collection"></a>Collecte de données
 
-Le Salles Microsoft Teams géré surveille les appareils, collecte les données des appareils et permet à Microsoft d’accéder à distance aux appareils de salle et de les gérer. Le Salles Microsoft Teams géré n’accède pas au contenu en direct d’une réunion.
+Le service managé Salles Microsoft Teams surveille les appareils, collecte les données des appareils et permet à Microsoft d’accéder et de gérer à distance les appareils de salle. Le service managé Salles Microsoft Teams n’accède pas au contenu en direct d’une réunion.
 
-Les données collectées sont spécifiques à un compte de salle, et non à un utilisateur individuel. Les références incidentes à un utilisateur individuel peuvent être présentes dans le journal d’activité pendant l’utilisation de l’appareil. Les données collectées sont traitées par Microsoft conformément à la [Déclaration de confidentialité de Microsoft.](https://aka.ms/privacy)  
+Les données collectées sont spécifiques à un compte de salle, et non à un utilisateur individuel. Des références incidentes à un utilisateur individuel peuvent être présentes dans le journal d’activité lors de l’utilisation de l’appareil. Les données collectées sont traitées par Microsoft conformément à la [déclaration de confidentialité de Microsoft](https://aka.ms/privacy).  
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
-- [Salles Microsoft Teams service géré](https://rooms.microsoft.com)
+- [Salles Microsoft Teams service managé](https://rooms.microsoft.com)

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77d33d29a51fe32fff6901fdcb8ba33ecad107f7
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: 0a1a178c279a418c0555f100c48a63c9efe71717
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370897"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681785"
 ---
 # <a name="plan-for-sip-gateway"></a>Planifier la passerelle SIP
 
@@ -47,8 +47,7 @@ La passerelle SIP connecte des appareils SIP compatibles à Teams pour aider vos
 - **Multifréquence à deux tonalités :** Les utilisateurs d’appareils SIP peuvent appuyer sur les touches numériques pour fournir une entrée lors des appels de réponse vocale interactifs.
 - **Teams réunions :** un utilisateur d’appareil SIP peut rejoindre une réunion Teams en composant le numéro d’accès à la réunion. Les participants à la réunion peuvent ajouter un utilisateur d’appareil SIP à la réunion en composant le numéro de téléphone de l’utilisateur ou en ajoutant simplement un participant en cliquant sur « Demander à rejoindre » pour alerter également l’appareil SIP de l’utilisateur. Les utilisateurs invités d’une autre organisation peuvent être ajoutés à une réunion Teams par un participant qui compose le numéro d’un utilisateur invité pour inclure cet invité.
 - **Transferts d’appels :** Les utilisateurs d’appareils SIP peuvent transférer des appels. La passerelle SIP prend en charge les transferts aveugles et consultatifs.
-- **Transfert d’appel local :** Un utilisateur d’appareil SIP peut définir des règles de transfert (toujours, au délai d’expiration et occupé) pour l’appareil. Si l’appareil est connecté à la passerelle SIP, l’appel est redirigé vers l’adresse cible en fonction de la règle définie par l’utilisateur de l’appareil. Pour que le transfert d’appel local fonctionne, l’administrateur doit définir l’attribut `AllowCallRedirect` sur `Set-CsTeamsCallingPolicy` `Enabled`. 
-
+- **Transfert d’appel local :** Un utilisateur d’appareil SIP peut définir des règles de transfert (toujours, au délai d’expiration et occupé) pour l’appareil. Si l’appareil est connecté à la passerelle SIP, l’appel est redirigé vers l’adresse cible en fonction de la règle définie par l’utilisateur de l’appareil. Pour que le transfert d’appel local fonctionne, l’administrateur doit définir l’attribut `AllowCallRedirect` sur `Set-CsTeamsCallingPolicy` `Enabled`.
 
 ## <a name="requirements-to-use-sip-gateway"></a>Configuration requise pour utiliser la passerelle SIP
 
@@ -56,7 +55,8 @@ Teams utilisateurs doivent avoir un numéro de téléphone avec l’appel RTC ac
 
 ### <a name="hardware-software-and-licenses"></a>Matériel, logiciels et licences
 
-Si vous disposez d’un appareil 3PIP ou SIP, vous devez disposer des éléments suivantes : 
+Si vous disposez d’un appareil 3PIP ou SIP, vous devez disposer des éléments suivantes :
+
 - Une licence pour Système téléphonique (via E5 ou une licence autonome)
 - Activation RTC (par exemple, un numéro de téléphone) via un plan d’appel Microsoft Teams, un routage direct ou Operator Connect
 - Une licence common area Téléphone pour tous les appareils de zone commune

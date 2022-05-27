@@ -19,12 +19,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f37e364450104b07adfe6a48c8cc29bab607470
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 7123d45819f6e956ecf562fd321e7762b50e5ae6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "61545005"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674656"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Mettre en service Microsoft Teams à grande échelle pour les employés de bureau
 
@@ -214,8 +214,8 @@ Les applications sont épinglées à la barre des applications. Il s’agit de l
 
 Les paramètres suivants peuvent être personnalisés en fonction des besoins de votre entreprise. Nous avons choisi quelques options recommandées en fonction des meilleures pratiques pour améliorer la facilité d’intégration de nouveaux utilisateurs à grande échelle. Pour plus d’informations, cliquez [ici](teams-app-setup-policies.md).
 
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux  **applications Teams** > **Stratégies de configuration**.
-2. Cliquez sur  **Ajouter**.  
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Applications Teams** > **Stratégies de configuration**.
+2. Cliquez sur **Ajouter**.  
 3. Entrez un nom pour votre stratégie, ainsi qu’une description. Par exemple, la stratégie de configuration de l’application Frontline Manager.
     :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Capture d’écran de l’exemple de nom et de description de la stratégie de configuration d’application du gestionnaire de première ligne.":::
 
@@ -227,7 +227,7 @@ Les paramètres suivants peuvent être personnalisés en fonction des besoins de
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Capture d’écran de l’écran Ajouter des applications épinglées, montrant le bouton Ajouter pour l’application Shifts":::
 
 7. Supprimer l’appel, s’il s’affiche. La suppression de cette fonctionnalité ne la désactive pas pour l’utilisateur, mais l’empêche d’apparaître dans la barre de l’application pour simplifier l’expérience de l’utilisateur final.
-8. Disposez les applications dans l’ordre suivant pour déterminer leur ordre dans la barre de l’application Teams, puis cliquez sur  **Enregistrer**.
+8. Disposez les applications dans l’ordre suivant pour déterminer leur ordre dans la barre de l’application Teams, puis cliquez sur **Enregistrer**.
 
     - Activité
     - Conversation
@@ -241,8 +241,8 @@ Les paramètres suivants peuvent être personnalisés en fonction des besoins de
 
 Les paramètres suivants peuvent être personnalisés en fonction des besoins de votre entreprise. Nous avons choisi quelques options recommandées en fonction des meilleures pratiques pour améliorer la facilité d’intégration de nouveaux utilisateurs à grande échelle. Pour plus d’informations, cliquez [ici](teams-app-setup-policies.md).
 
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux  **applications Teams** > **Stratégies de configuration**.
-2. Cliquez sur  **Ajouter**.
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Applications Teams** > **Stratégies de configuration**.
+2. Cliquez sur **Ajouter**.
 3. Entrez un nom pour votre stratégie, ainsi qu’une description. Par exemple, la stratégie de configuration de l’application des employés de première ligne.
     :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Capture d’écran de l’exemple de nom et de description de la stratégie de configuration de l’application des employés de première ligne.":::
 
@@ -255,7 +255,7 @@ Les paramètres suivants peuvent être personnalisés en fonction des besoins de
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Capture d’écran de l’écran Ajouter des applications épinglées, montrant le bouton Ajouter pour l’application Shifts":::
 
 7. Supprimez les réunions et les appels, s’ils apparaissent. La suppression de ces fonctionnalités ne les désactivera pas pour l’utilisateur, mais l’empêchera d’apparaître dans la barre de l’application pour simplifier l’expérience de l’utilisateur final.
-8. Disposez les applications dans l’ordre suivant pour déterminer leur ordre dans la barre de l’application Teams, puis cliquez sur  **Enregistrer**.
+8. Disposez les applications dans l’ordre suivant pour déterminer leur ordre dans la barre de l’application Teams, puis cliquez sur **Enregistrer**.
     - Activité
     - Conversation
     - Équipes
@@ -273,31 +273,31 @@ En tant qu’administrateur, vous pouvez utiliser des stratégies d’autorisati
 
 Les paramètres suivants peuvent être personnalisés en fonction des besoins de votre entreprise. Voici quelques options recommandées en fonction des meilleures pratiques qui peuvent améliorer la facilité d’intégration de nouveaux utilisateurs à grande échelle. Pour plus d’informations, cliquez [ici](teams-app-permission-policies.md).
 
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux  **applications Teams** > **Stratégies d’autorisation**.
-2. Cliquez sur  **Ajouter**.
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **applications Teams** > **Stratégies d’autorisation**.
+2. Cliquez sur **Ajouter**.
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Capture d’écran de la page Ajouter une stratégie d’autorisation d’application.":::
 
 3. Entrez un nom pour votre stratégie, ainsi qu’une description. Par exemple, la stratégie d’autorisation d’application du gestionnaire de ligne de front.net.
-4. Sous  **Microsoft Apps**, sélectionnez **Autoriser toutes les applications**.
-5. Sous  **applications tierces**, sélectionnez **Autoriser toutes les applications**.
+4. Sous **Applications Microsoft**, sélectionnez **Autoriser toutes les applications**.
+5. Sous **Applications tierces**, sélectionnez **Autoriser toutes les applications**.
 6. Sous **Applications personnalisées**, sélectionnez **Autoriser toutes les applications**.
-7. Cliquez sur  **Enregistrer**.
+7. Cliquez sur **Enregistrer**.
 
 #### <a name="create-the-frontline-worker-app-permission-policy"></a>Créer la stratégie d’autorisation d’application des employés de première ligne
 
 Les paramètres suivants peuvent être personnalisés en fonction des besoins de votre entreprise. Voici quelques options recommandées en fonction des meilleures pratiques qui peuvent améliorer la facilité d’intégration de nouveaux utilisateurs à grande échelle. Pour plus d’informations, cliquez [ici](teams-app-permission-policies.md).
 
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux  **applications Teams** > **Stratégies d’autorisation**.
-2. Cliquez sur  **Ajouter**.
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **applications Teams** > **Stratégies d’autorisation**.
+2. Cliquez sur **Ajouter**.
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Capture d’écran de la page Ajouter une stratégie d’autorisation d’application.":::
 
 3. Entrez un nom pour votre stratégie, ainsi qu’une description. Par exemple, une stratégie d’autorisation d’application de travail de première ligne.
-4. Sous  **Microsoft Apps**, sélectionnez **Autoriser toutes les applications**.
-5. Sous  **applications tierces**, sélectionnez **Bloquer toutes les applications**.
+4. Sous **Applications Microsoft**, sélectionnez **Autoriser toutes les applications**.
+5. Sous **Applications tierces**, sélectionnez **Bloquer toutes les applications**.
 6. Sous **Applications personnalisées**, sélectionnez **Autoriser toutes les applications**.
-7. Cliquez sur  **Enregistrer**.
+7. Cliquez sur **Enregistrer**.
 
 ## <a name="users-and-security-groups"></a>Groupes d’utilisateurs et des groupes de sécurité
 

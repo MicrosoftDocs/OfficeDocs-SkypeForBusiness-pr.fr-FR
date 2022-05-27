@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222ea1852ef4336c21cfb24c977c20665a667ff3
-ms.sourcegitcommit: 9968ef7d58c526e35cb58174db3535fd6b2bd1db
+ms.openlocfilehash: 8d3b56a7935f31413829c89285fc81ee70023ab4
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "65284069"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675766"
 ---
 # <a name="configure-operator-connect"></a>Configurer Operator Connect
 
@@ -71,7 +71,7 @@ Pour acquérir des numéros pour les nouveaux utilisateurs Teams, procédez comm
 4. **Attribuez des nombres.** Une fois que votre opérateur aura terminé la commande, il chargera les numéros vers votre locataire. Vous pouvez afficher les nombres et le fournisseur dans le centre d’administration Teams en accédant aux **numéros De voix > Téléphone**. Attribuez des numéros aux utilisateurs à partir du centre d’administration Teams ou à l’aide de PowerShell. Pour plus d’informations, consultez [Affecter des numéros](#assign-numbers).
 
 > [!NOTE]
-> En plus  [d’oublier les numéros de téléphone de vos utilisateurs](getting-phone-numbers-for-your-users.md), vous pouvez obtenir des numéros de téléphone payants ou gratuits pour des services tels que l’audioconférence (pour les ponts de conférence), les standards automatiques et les files d’attente d’appels (également appelés numéros de service). Les numéros de téléphone de service disposent d'une capacité d'appels simultanés plus élevée que les numéros de téléphone d'utilisateur ou d'abonné. Par exemple, un numéro de service peut gérer des centaines d’appels simultanément, tandis que le numéro de téléphone d’un utilisateur ne peut gérer que quelques appels simultanément. Pour obtenir des numéros de service, contactez votre opérateur.
+> En plus [d’obtenir des numéros de téléphone pour vos utilisateurs](getting-phone-numbers-for-your-users.md), vous pouvez obtenir des numéros de téléphone payants ou gratuits pour des services tels que Audioconférence (pour les ponts de conférence), les standards automatiques et les files d’attente d’appels (également appelés numéros de service). Les numéros de téléphone de service disposent d'une capacité d'appels simultanés plus élevée que les numéros de téléphone d'utilisateur ou d'abonné. Par exemple, un numéro de service peut gérer des centaines d’appels simultanément, tandis que le numéro de téléphone d’un utilisateur ne peut gérer que quelques appels simultanément. Pour obtenir des numéros de service, contactez votre opérateur.
 
 ### <a name="emergency-addresses"></a>Adresses d’urgence
 

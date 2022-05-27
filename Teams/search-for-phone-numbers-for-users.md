@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment rechercher des numéros de téléphone que vous pouvez affecter à vos utilisateurs, par pays ou région et ville, et spécifiez la quantité de numéros dont vous avez besoin.
-ms.openlocfilehash: 46bdc54f892993b9a161690a5d42692fe66b9f5a
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: 4cb30e6ef03e50c3524ccd9b5c36ae10fb8b5ab2
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686371"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681795"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>Rechercher des numéros de téléphone pour les utilisateurs
 
@@ -34,7 +34,7 @@ Lorsque vous configurez des utilisateurs de votre organisation pour passer et re
   
 Avant de pouvoir attribuer des numéros de téléphone fournis par Microsoft à vos utilisateurs, vous devez utiliser la page **Obtenir de nouveaux numéros** pour rechercher les numéros de téléphone disponibles. Vous pouvez effectuer une recherche par **pays (marché),****type de numéro** et **emplacement**. Vous verrez ensuite une liste d’opérateurs qui fournissent des numéros dans ce pays.
 
-Si vous sélectionnez Microsoft comme opérateur, vous pouvez acquérir les numéros du centre d’administration Teams en entrant la quantité de numéros de téléphone dont vous aurez besoin pour vos utilisateurs.La page limite automatiquement la quantité en fonction du nombre que vous avez encore à acquérir. Si vous sélectionnez un opérateur Operator Connect, vous êtes dirigé vers la page d’accueil de l’opérateur sélectionné pour terminer l’ordre des numéros.
+Si vous sélectionnez Microsoft comme opérateur, vous pouvez acquérir les numéros du centre d’administration Teams en entrant la quantité de numéros de téléphone dont vous aurez besoin pour vos utilisateurs. La page limite automatiquement la quantité en fonction du nombre que vous avez encore à acquérir. Si vous sélectionnez un opérateur Operator Connect, vous êtes dirigé vers la page d’accueil de l’opérateur sélectionné pour terminer l’ordre des numéros.
 
 La façon dont vous acquérez et gérez des numéros de téléphone diffère en fonction de votre option de connectivité RTC : Forfaits d’appels Microsoft, Operator Connect ou Routage direct.
 
@@ -46,10 +46,10 @@ Pour rechercher des numéros de téléphone pour vos utilisateurs :
   
 1. Accédez au **centre d’administration Microsoft Teams**.
 
-2. Dans le volet de navigation de gauche, sélectionnez **Voix** >  **Téléphone numérosGet** >  **de nouveaux nombres**.
+2. Dans le volet de navigation gauche, sélectionnez **Voix** >  **Téléphone numéros** > **Obtenir de nouveaux numéros**.
   
     > [!IMPORTANT]
-    > Pour que vous voyiez l’option **Voix** dans le volet de navigation gauche du centre d’administration Teams, vous devez d’abord acheter au moins une **licence E5 ou E3 Enterprise**, une licence de module complémentaire **Système téléphonique** ou une licence de module complémentaire **AudioConférence**.  
+    > Pour que vous voyiez l’option **Voix** dans le volet de navigation gauche du centre d’administration Teams, vous devez d’abord acheter au moins une **licence E5 ou E3 Enterprise**, une licence **de** module complémentaire Système téléphonique ou une licence de module complémentaire **Audioconférence**.  
 
 3. Dans la page **Sélectionner l’emplacement et la quantité** , sélectionnez un emplacement dans la liste déroulante **Pays (Marché** ).
 
@@ -75,10 +75,10 @@ Pour rechercher des numéros de téléphone pour vos utilisateurs :
 
 1. Accédez au **centre d’administration Microsoft Teams**.
 
-2. Dans le volet de navigation de gauche, sélectionnez **Voix** >  **Téléphone numérosGet** >  **de nouveaux nombres**.
+2. Dans le volet de navigation gauche, sélectionnez **Voix** >  **Téléphone numéros** > **Obtenir de nouveaux numéros**.
   
     > [!IMPORTANT]
-    > Pour que vous voyiez l’option **Voix** dans le volet de navigation gauche du centre d’administration Teams, vous devez d’abord acheter au moins une **licence E5 ou E3 Enterprise**, une licence de module complémentaire **Système téléphonique** ou une licence de module complémentaire **AudioConférence**.  
+    > Pour que vous voyiez l’option **Voix** dans le volet de navigation gauche du centre d’administration Teams, vous devez d’abord acheter au moins une **licence E5 ou E3 Enterprise**, une licence **de** module complémentaire Système téléphonique ou une licence de module complémentaire **Audioconférence**.  
 
 3. Dans la page **Sélectionner l’emplacement et la quantité** , sélectionnez un emplacement dans la liste déroulante **Pays (Marché** ).
 
@@ -92,7 +92,7 @@ Pour rechercher des numéros de téléphone pour vos utilisateurs :
 
 8. Une fois votre commande terminée, votre opérateur charge les numéros de téléphone vers votre locataire et vous pouvez les affecter aux utilisateurs.  
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-landing-page.md)
 
