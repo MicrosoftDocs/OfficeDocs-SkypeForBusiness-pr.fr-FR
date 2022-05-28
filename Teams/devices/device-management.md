@@ -1,7 +1,7 @@
 ---
 title: Gérer vos périphériques dans Microsoft Teams
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4346d82e490d28840e029d257cbeeb4c4e10765
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: 576c22d95dbbbb16105eb8e365c717ba7140cfb8
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65220447"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65767240"
 ---
 # <a name="microsoft-teams-managing-your-devices"></a>Microsoft Teams : Gestion de vos appareils 
 
@@ -68,7 +68,7 @@ Pour plus d’informations sur la gestion de vos appareils salles Teams, consult
 
 ## <a name="manage-phones-teams-rooms-on-android-teams-displays-and-teams-panels"></a>Gérer les téléphones, les salles Teams sur Android, les écrans Teams et les panneaux Teams 
 
-Dans le centre d’administration Teams, vous pouvez afficher et gérer des téléphones, des salles Teams sur Android, des affichages Teams et des panneaux Teams inscrits dans Teams de votre organisation. Les informations que vous verrez pour chaque appareil incluent le nom de l’appareil, le fabricant, le modèle, l’utilisateur, l’état, l’action, la dernière vue et l’historique. Vous pouvez personnaliser la vue pour afficher les informations qui correspondent à vos besoins.
+Dans le centre d’administration Teams, vous pouvez afficher et gérer des téléphones, des salles Teams sur Android, des écrans Teams et des panneaux Teams inscrits dans Teams de votre organisation. Les informations que vous verrez pour chaque appareil incluent le nom de l’appareil, le fabricant, le modèle, l’utilisateur, l’état, l’action, la dernière vue et l’historique. Vous pouvez personnaliser la vue pour afficher les informations qui correspondent à vos besoins.
 
 Les téléphones, les salles Teams sur Android, les écrans Teams et les panneaux Teams sont inscrits automatiquement dans Microsoft Intune si vous y êtes inscrit. Une fois qu’un appareil est inscrit, la conformité de l’appareil est confirmée et des stratégies d’accès conditionnel sont appliquées à l’appareil.
 
@@ -87,13 +87,13 @@ Voici quelques exemples de gestion des téléphones, des salles Teams sur Androi
 
 ### <a name="use-configuration-profiles-in-teams"></a>Utiliser des profils de configuration dans Teams
 
-Utilisez des profils de configuration pour gérer les paramètres et les fonctionnalités des différents appareils Teams de votre organisation, notamment les salles Teams sur Android, les écrans Teams, le téléphone Teams et les panneaux Teams. Vous pouvez créer ou charger des profils de configuration pour inclure des paramètres et des fonctionnalités que vous souhaitez activer ou désactiver, puis attribuer un profil à un appareil ou à un ensemble d’appareils. 
+Utilisez des profils de configuration pour gérer les paramètres et les fonctionnalités des différents appareils Teams de votre organisation, notamment les salles Teams sur Android, les écrans Teams, Teams téléphone et les panneaux Teams. Vous pouvez créer ou charger des profils de configuration pour inclure des paramètres et des fonctionnalités que vous souhaitez activer ou désactiver, puis attribuer un profil à un appareil ou à un ensemble d’appareils. 
 
 #### <a name="create-a-configuration-profile"></a>Créer un profil de configuration
 
 Pour créer un profil de configuration pour un type d’appareil Teams :
 
-1. Dans le volet de navigation de gauche, accédez à **Teams Appareils** > sélectionnez le type d’appareil Teams > **profils de configuration**. Par exemple, sélectionnez **Teams Appareils** >  **Teams profils panelsConfiguration** >  pour créer un profil de configuration pour Teams panneaux.
+1. Dans le volet de navigation de gauche, accédez à **Teams Appareils** > sélectionnez le type d’appareil Teams > **profils de configuration**. Par exemple, sélectionnez **Teams Appareils** >  **Teams panneaux Profils** > **de configuration** pour créer un profil de configuration pour Teams panneaux.
 2. Cliquez sur **Ajouter**.
 3. Entrez un nom pour le profil et ajoutez éventuellement une description conviviale.
 4. Spécifiez les paramètres souhaités pour le profil, puis cliquez sur **Enregistrer**.
