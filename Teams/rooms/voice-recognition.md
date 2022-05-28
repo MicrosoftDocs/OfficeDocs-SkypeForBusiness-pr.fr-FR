@@ -1,7 +1,7 @@
 ---
 title: Contrôle Administration des locataires pour la reconnaissance vocale (profil vocal) dans salles Teams
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95f3b03ddad75cd36bb6dbbfd51eac08d7742aac
-ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
+ms.openlocfilehash: 3d5caa402be0ea282d70bfe17cc9d2d728e6ec2c
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65063255"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760926"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Gérer les contrôles de technologie de reconnaissance vocale pour un haut-parleur intelligent
 
@@ -160,6 +160,6 @@ Une fois qu’un utilisateur final s’inscrit, sa voix peut être reconnue pend
 |Espagnol  <br/> |Mexique  <br/> |es-MX  <br/> |
 |Espagnol  <br/> |Espagne  <br/> |es-ES  <br/> |
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Article de support : Utiliser des haut-parleurs intelligents pour identifier les participants en salle ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)

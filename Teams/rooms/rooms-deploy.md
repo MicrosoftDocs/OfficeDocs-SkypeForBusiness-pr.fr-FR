@@ -1,7 +1,7 @@
 ---
 title: Déployer les Salles Microsoft Teams
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement de Salles Microsoft Teams, y compris les phases de déploiement.
-ms.openlocfilehash: 18a5d72fb9c11b34bb994734b8d064c3aaa2cdae
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 0111e8723d70b753c2d8de64350387252db8f8f7
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125769"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760916"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
@@ -53,7 +53,7 @@ Pour plus d’informations sur ces dépendances, consultez les liens d’aide à
 Pour préparer votre déploiement Salles Microsoft Teams, effectuez les tâches centrales clés suivantes :
 
 -   Définissez Salles Microsoft Teams comptes de ressources.
--   Si vous joignez salles Teams à Azure Active Directory, préparez un groupe Azure AD avec une appartenance dynamique pour contenir tous les comptes de ressources salles Teams. Cela simplifiera la gestion future, comme l’application de stratégies d’accès conditionnel. Pour tirer le meilleur parti de Azure AD groupes dynamiques, déterminez une convention d’affectation de noms qui identifiera de manière unique vos comptes de ressources salles Teams.
+-   Si vous joignez salles Teams à Azure Active Directory, préparez un groupe Azure AD avec une appartenance dynamique pour contenir tous les comptes de ressources salles Teams. Cela simplifiera la gestion future, comme l’application de stratégies d’accès conditionnel. Pour tirer le meilleur parti des groupes dynamiques Azure AD, déterminez une convention d’affectation de noms qui identifiera de manière unique vos comptes de ressources salles Teams.
 -   Si vous joignez salles Teams à Active Directory, préparez une unité d’organisation et un groupe Active Directory pour contenir vos comptes d’ordinateur et de ressources Salles Microsoft Teams et, éventuellement, préparez des objets stratégie de groupe (GPO) pour activer la communication à distance PowerShell.
 
 ### <a name="define-microsoft-teams-rooms-resource-account-features"></a>Définir Salles Microsoft Teams fonctionnalités du compte de ressource 
@@ -63,7 +63,7 @@ Selon les scénarios de collaboration que vous avez décidé d’activer avec vo
 | **Scénario** | **Description** | **fonctionnalité de compte de service Salles Microsoft Teams** |
 |---------- |------------- | --- |
 | Réunions interactives            | Utilisation de la voix, de la vidéo et du partage d’écran ; faire de l’Salles Microsoft Teams une ressource bookable                     | Activé pour Microsoft Teams ou Skype Entreprise ; activé pour Exchange (boîte aux lettres de ressources) |
-| Conférence rendez-vous            | Disposer d’un numéro de téléphone d’audioconférence lors de l’appui sur « Nouvelle réunion » sur la console | Activé pour l’audioconférence                                          |
+| Conférence rendez-vous            | Disposer d’un numéro de téléphone d’audioconférence lors de l’appui sur « Nouvelle réunion » sur la console | Activé pour Audioconférence                                          |
 | Appels PSTN sortants/entrants | Activer la console Salles Microsoft Teams pour effectuer et recevoir des appels RTC                                         | Activé pour Système téléphonique                                                |
 
 Pour plus d’informations sur Salles Microsoft Teams comptes, consultez [Configurer des comptes pour Salles Microsoft Teams](rooms-configure-accounts.md).
@@ -79,13 +79,13 @@ _Exemple de table de planification de compte de ressources Salles Microsoft Team
 
 | **Site**  | **Nom de la salle** | **Type de salle** | **Fonctionnalités de salle futures**                                                 | **Salles Microsoft Teams fonctionnalités du compte**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Siège social de Londres | Curie         | Moyen        | 1 écran, audio et vidéo plus présentation <br>Accès aux conférences rendez-vous<br> Accès RTC  | Activé pour Exchange (boîte aux lettres de ressources) <br>Activé pour l’audioconférence <br>Activé pour Système téléphonique |
-| Siège social de Sydney | Hill          | Grande         | 2 Écrans, audio et vidéo et présentation<br>Accès aux conférences rendez-vous<br> Accès RTC  | Activé pour Skype Entreprise <br>Activé pour Exchange (boîte aux lettres de ressources)<br> Activé pour l’audioconférence <br>Activé pour Système téléphonique |
+| Siège social de Londres | Curie         | Moyen        | 1 écran, audio et vidéo plus présentation <br>Accès aux conférences rendez-vous<br> Accès RTC  | Activé pour Exchange (boîte aux lettres de ressources) <br>Activé pour Audioconférence <br>Activé pour Système téléphonique |
+| Siège social de Sydney | Hill          | Grande         | 2 Écrans, audio et vidéo et présentation<br>Accès aux conférences rendez-vous<br> Accès RTC  | Activé pour Skype Entreprise <br>Activé pour Exchange (boîte aux lettres de ressources)<br> Activé pour Audioconférence <br>Activé pour Système téléphonique |
 
 
 ### <a name="prepare-to-host-microsoft-teams-rooms-and-resource-accounts-optional"></a>Préparer l’hébergement des comptes de Salles Microsoft Teams et de ressources (facultatif)
 
-Pour vous permettre de gérer et de créer des rapports sur vos comptes de Salles Microsoft Teams et de ressources, préparez votre Active Directory local ou Azure Active Directory (Azure AD). 
+Pour vous permettre de gérer et de créer des rapports sur vos comptes de Salles Microsoft Teams et de ressources, préparez votre Active Directory local ou votre Azure Active Directory (Azure AD). 
 
 Définissez un groupe Active Directory local ou Azure Active Directory auquel ajouter tous les comptes de ressources Salles Microsoft Teams. Si vous utilisez Azure Active Directory, envisagez d’utiliser un groupe dynamique pour ajouter et supprimer automatiquement des comptes de ressources du groupe.
 
@@ -115,7 +115,7 @@ La planification de la configuration et du déploiement couvre les domaines clé
 
 Chaque appareil Salles Microsoft Teams nécessite un compte de ressource dédié et unique qui doit être activé pour les Microsoft Teams ou les Skype Entreprise, ainsi que pour les Exchange. Ce compte doit avoir une boîte aux lettres de salle hébergée sur Exchange. Le traitement du calendrier doit être configuré afin que l’appareil puisse accepter automatiquement les demandes de réunion entrantes. Pour plus d’informations sur la création de ces comptes, consultez [Configurer des comptes pour Salles Microsoft Teams](rooms-configure-accounts.md). 
 
-**Pro Conseil** : chaque Salles Microsoft Teams doit avoir un nom de machine valide et unique sur votre réseau. De nombreux systèmes de surveillance et d’alerte affichent le nom de la machine en tant qu’identificateur de clé. Il est donc important de développer une convention d’affectation de noms pour Salles Microsoft Teams déploiements qui permet au personnel du support technique de localiser facilement les Salles Microsoft Teams signalés comme nécessitant une action. Par exemple, vous pouvez utiliser un modèle *MTR-SiteRoom*- *Name* (MTR-LON-CURIE). 
+**Pro Conseil** : chaque Salles Microsoft Teams doit avoir un nom de machine valide et unique sur votre réseau. De nombreux systèmes de surveillance et d’alerte affichent le nom de la machine en tant qu’identificateur de clé. Il est donc important de développer une convention d’affectation de noms pour Salles Microsoft Teams déploiements qui permet au personnel du support technique de localiser facilement les Salles Microsoft Teams signalés comme nécessitant une action. Par exemple, vous pouvez utiliser un modèle *MTR-Site*-*Room Name* (MTR-LON-CURIE). 
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|

@@ -1,7 +1,7 @@
 ---
 title: Meilleures pratiques en matière d’accès conditionnel et de conformité pour Salles Microsoft Teams
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: Découvrez les stratégies de conformité des appareils et les meilleures pratiques recommandées en matière d’accès conditionnel et de Intune pour les Salles Microsoft Teams.
-ms.openlocfilehash: b4e1d3cb91ff68e664d590c8e180e55211ca93b0
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 1221060121f47154549c6c6fc926415f4feabbe5
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675486"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761306"
 ---
 # <a name="conditional-access-and-intune-compliance-for-microsoft-teams-rooms"></a>Accès conditionnel et conformité Intune pour Salles Microsoft Teams
 

@@ -1,7 +1,7 @@
 ---
 title: Stratégies d’accès conditionnel et de conformité des appareils Intune prises en charge pour Salles Microsoft Teams
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: kspiess
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: Découvrez les stratégies d’accès conditionnel et de conformité Intune des appareils prises en charge et recommandées pour Salles Microsoft Teams.
-ms.openlocfilehash: 1c355280622d03cf0a8100f0ee4a23dd17df88a1
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 8492f94106423498c7e301e48c8f4d046d569674
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675236"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761466"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms-and-teams-android-devices"></a>Stratégies de conformité des appareils Intune et d’accès conditionnel prises en charge pour les appareils Salles Microsoft Teams et Teams Android
 

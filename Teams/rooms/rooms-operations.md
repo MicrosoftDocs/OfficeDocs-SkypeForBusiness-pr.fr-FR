@@ -1,7 +1,7 @@
 ---
 title: maintenance et opérations Salles Microsoft Teams
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: En savoir plus sur la gestion des Salles Microsoft Teams.
-ms.openlocfilehash: d57f84aa07c90b6a75693f0cbf739402a6e90a4c
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: df9760694bd8e0c650be25eec7d435efcae02127
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125469"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761056"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>maintenance et opérations Salles Microsoft Teams
  
@@ -30,7 +30,7 @@ Salles Microsoft Teams est la solution de conférence de Microsoft conçue pour 
 
 Pour collecter des journaux dans Teams centre d’administration, accédez à **Teams appareils > salles Teams sur Windows**. Sélectionnez le nom complet de l’appareil pour lequel vous souhaitez ouvrir des journaux. Dans le panneau supérieur, sélectionnez « Télécharger les journaux d’activité des appareils ». Une fois que vous avez confirmé, les journaux d’activité seront prêts à être téléchargés dans l’onglet Historique après quelques minutes.
 
-Vous pouvez également utiliser PowerShell pour collecter des journaux. Vous devez appeler le script de collecte de journaux fourni avec l’application Salles Microsoft Teams. En [mode Administrateur](rooms-operations.md), démarrez une invite de commandes avec élévation de privilèges et exécutez la commande suivante :
+Vous pouvez également utiliser PowerShell pour collecter des journaux. Vous devez appeler le script de collecte de journaux fourni avec l’application Salles Microsoft Teams. En [mode Administration](rooms-operations.md), démarrez une invite de commandes avec élévation de privilèges et exécutez la commande suivante :
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -96,11 +96,11 @@ Le tableau suivant récapitule les opérations distantes possibles et les métho
 
 |Groupe de travail |Aucun domaine joint|Domaine joint|
 |:-----|:-----|:-----|
-|Redémarrer  <br/> |centre d’administration Teams  <br/> Bureau distant  <br/> PowerShell distant  <br/> | <br/>Bureau à distance (nécessite une configuration supplémentaire)  <br/> PowerShell distant (nécessite une configuration supplémentaire)  <br/> Configuration Manager  <br/> |
+|Redémarrer  <br/> |Centre d’administration Microsoft Teams  <br/> Bureau distant  <br/> PowerShell distant  <br/> | <br/>Bureau à distance (nécessite une configuration supplémentaire)  <br/> PowerShell distant (nécessite une configuration supplémentaire)  <br/> Configuration Manager  <br/> |
 |Mise à jour du SE  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |Mise à jour de l';application  <br/> |	Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
-|Configuration du compte  <br/> |centre d’administration Teams  <br/> |centre d’administration Teams  <br/> |
-|Accès aux journaux  <br/> |centre d’administration Teams  <br/> Powershell  <br/> |centre d’administration Teams <br/> Powershell  <br/>  |
+|Configuration du compte  <br/> |Centre d’administration Microsoft Teams  <br/> |Centre d’administration Microsoft Teams  <br/> |
+|Accès aux journaux  <br/> |Centre d’administration Microsoft Teams  <br/> Powershell  <br/> |Centre d’administration Microsoft Teams <br/> Powershell  <br/>  |
    
 ## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>Configuration de stratégie de groupe pour Salles Microsoft Teams
 <a name="GroupPolicy"> </a>
@@ -135,12 +135,12 @@ Lorsque vous joignez Salles Microsoft Teams à un domaine, assurez-vous que vos 
 
 |Paramètres|Permet|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Permet à Salles Microsoft Teams de démarrer  <br/> |
-|Gestion de l’alimentation :\> sur AC, désactivez l’écran après 10 minutes  <br/> Gestion de l’alimentation -\> Sur ac, ne jamais mettre le système en veille  <br/> |Permet à Salles Microsoft Teams de désactiver les affichages attachés et de se réveiller automatiquement  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Permet au démarrage des salles Microsoft Teams  <br/> |
+|Gestion de l’alimentation :\> sur AC, désactivez l’écran après 10 minutes  <br/> Gestion de l’alimentation -\> Sur ac, ne jamais mettre le système en veille  <br/> |Permet aux salles Microsoft Teams de désactiver les affichages attachés et de se réveiller automatiquement  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Ou équivalent signifie la désactivation de l’expiration du mot de passe sur le compte local. Si vous n’effectuez pas cette opération, le compte Skype ne parviendra pas à se connecter en signalant l’expiration d’un mot de passe. Note que ceci aura un impact sur tous les comptes locaux sur l’ordinateur, et par conséquent, cet échec entraînera aussi l’éventuelle expiration du compte administratif.   <br/> |Active le compte Skype avec lequel toujours se connecter  <br/> |
 
 > [!NOTE]
-> Quand Salles Microsoft Teams est compatible avec la prochaine version de Windows 10 système d’exploitation, salles Teams automatiquement mises à jour vers la version suivante via Windows Update. Salles Microsoft Teams ne doit pas être mis à niveau vers la prochaine version de Windows 10 manuellement ou via l’activation des stratégies de groupe Windows Update for Business (WUFB) « Sélectionner le niveau de préparation Windows pour les mises à jour que vous souhaitez recevoir » et « Sélectionner lors de la réception des versions d’évaluation et des mises à jour des fonctionnalités » par le biais de l’objet de stratégie de groupe. salles Teams avec ces stratégies de groupe activées est connu pour rencontrer des problèmes avec Windows 10 mises à jour du système d’exploitation.
+> Lorsque les salles Microsoft Teams sont compatibles avec la prochaine version du système d’exploitation Windows 10, les salles Teams sont automatiquement mises à jour vers la version suivante via Windows Update. Les salles Microsoft Teams ne doivent pas être mises à niveau manuellement vers la prochaine version de Windows 10 ou via l’activation des stratégies de groupe Windows Update for Business (WUFB) « Sélectionner le niveau de préparation Windows pour les mises à jour que vous souhaitez recevoir » et « Sélectionner lors de la réception des versions d’évaluation et des mises à jour des fonctionnalités » via l’objet de stratégie de groupe. Les salles Teams avec ces stratégies de groupe activées sont connues pour rencontrer des problèmes avec les mises à jour du système d’exploitation Windows 10.
 
 ## <a name="remote-management-using-powershell"></a>Gestion distante à l’aide de PowerShell
 <a name="RemotePS"> </a>
@@ -152,17 +152,17 @@ Vous pouvez effectuer les opérations de gestion suivantes à distance à l’ai
 - Obtenir les informations système
 - Redémarrer le système
 - Récupérer les journaux
-- Transférer des fichiers (nécessite un Salles Microsoft Teams joint à un domaine)
+- Transférer des fichiers (nécessite une salle Microsoft Teams jointe à un domaine)
     
 > [!NOTE]
-> Cette fonctionnalité est désactivée par défaut. Vous devez activer PowerShell à distance pour votre environnement sur le système Salles Microsoft Teams afin d’effectuer les opérations ci-dessous. Reportez-vous à la documentation sur **[Enable-PSRemoting](/powershell/module/microsoft.powershell.core/enable-psremoting)** pour plus d’informations sur l’activation de PowerShell à distance.
+> Cette fonctionnalité est désactivée par défaut. Vous devez activer PowerShell à distance pour votre environnement sur le système salles Microsoft Teams pour effectuer les opérations ci-dessous. Reportez-vous à la documentation sur **[Enable-PSRemoting](/powershell/module/microsoft.powershell.core/enable-psremoting)** pour plus d’informations sur l’activation de PowerShell à distance.
   
 Par exemple, vous pouvez activer PowerShell à distance comme suit :
   
 1. Connectez-vous en tant qu’administrateur sur un appareil Salles Microsoft Teams.
 2. Ouvrez une invite de commandes PowerShell avec élévation de privilèges.
 3. Entrez la commande suivante : `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. Ouvrez la stratégie de sécurité locale et ajoutez le groupe de sécurité *Administrateurs* à **Security Paramètres** >  **Local PoliciesUser** >  **Rights AssignmentAccess** >  **à partir du réseau**.
+4. Ouvrez la stratégie de sécurité locale et ajoutez le groupe de sécurité *Administrateurs* aux **paramètres** >  de sécurité **Stratégies locales** > **Affectation** >  des droits **d’utilisateur Accéder à cet ordinateur à partir du réseau**.
 
 Pour effectuer une opération de gestion :
   
@@ -221,24 +221,24 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>Mises à jour logicielles
 <a name="SWupdate"> </a>
 
-Par défaut, Salles Microsoft Teams tente de se connecter au Windows Store pour obtenir la dernière version de Salles Microsoft Teams logiciel. Par conséquent, salles Teams nécessite un accès Internet régulier. Avant de contacter Microsoft avec des problèmes de support, assurez-vous que Salles Microsoft Teams est chargé avec la dernière version de l’application.
+Par défaut, Microsoft Teams Rooms tente de se connecter au Windows Store pour obtenir la dernière version du logiciel Salles Microsoft Teams. Par conséquent, les salles Teams nécessitent un accès Internet régulier. Avant de contacter Microsoft avec des problèmes de support, assurez-vous que les salles Microsoft Teams sont chargées avec la dernière version de l’application.
   
-Salles Microsoft Teams se connecte à Windows Update pour récupérer les mises à jour du microprogramme du système d’exploitation et des périphériques. Il se connecte également au Microsoft Store pour récupérer les mises à jour d’application.
+Les salles Microsoft Teams se connectent à Windows Update pour récupérer les mises à jour du microprogramme du système d’exploitation et des périphériques. Il se connecte également au Microsoft Store pour récupérer les mises à jour d’application.
 
-Si vous devez gérer les mises à jour des applications manuellement, mais que vous ne pouvez pas suivre la procédure normale pour [Microsoft Store pour Entreprises](https://businessstore.microsoft.com/store) distribuer des [applications hors connexion](/microsoft-store/distribute-offline-apps), vous pouvez acquérir salles Teams packages de mise à jour pour effectuer des mises à jour d’application sur les systèmes d’exploitation pris en charge. La mise à jour peut être en retard par rapport à la version du magasin, et elle peut ne pas toujours correspondre à la dernière build disponible. Pour plus d’informations, consultez [Mettre à jour manuellement un appareil Salles Microsoft Teams](manual-update.md).
+Si vous devez gérer les mises à jour d’applications manuellement, mais que vous ne pouvez pas suivre la procédure normale pour [que Microsoft Store pour Entreprises](https://businessstore.microsoft.com/store) [distribue des applications hors connexion](/microsoft-store/distribute-offline-apps), vous pouvez acquérir des packages de mise à jour salles Teams pour effectuer des mises à jour d’application sur les systèmes d’exploitation pris en charge. La mise à jour peut être en retard par rapport à la version du magasin, et elle peut ne pas toujours correspondre à la dernière build disponible. Pour plus d’informations, consultez [Mettre à jour manuellement un appareil Salles Microsoft Teams](manual-update.md) .
 
 ## <a name="admin-mode-and-device-management"></a>Mode Administrateur et gestion des appareils
 <a name="AdminMode"> </a>
 
-Certaines fonctions de gestion, telles que l’installation manuelle d’un certificat d’autorité de certification privé, nécessitent de placer salles Teams en mode Administrateur. 
+Certaines fonctions de gestion, telles que l’installation manuelle d’un certificat d’autorité de certification privée, nécessitent le placement des salles Teams en mode Administrateur. 
   
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Basculement vers le mode Administrateur et retour lorsque l’application Salles Microsoft Teams est en cours d’exécution
 
 1. Raccrochez tous les appels en cours et revenez à l’écran d’accueil.
-2. Sélectionnez l’icône Engrenage et affichez le menu (les options sont **Paramètres**, **Accessibilité** et **Redémarrer l’appareil**).
+2. Sélectionnez l’icône Engrenage et affichez le menu (les options sont **Paramètres**, **Accessibilité** et **Redémarrer l’appareil** ).
 3. Sélectionnez **Paramètres**.
 4. Entrez le mot de passe administrateur. L’écran d’installation s’affiche.  Si l’appareil n’est pas joint à un domaine, le compte d’administration local (nom d’utilisateur « Administrateur ») est utilisé par défaut. Le mot de passe par défaut de ce compte est « sfb ». Modifiez ce mot de passe dès que possible. Si l’ordinateur est joint à un domaine, vous pouvez vous connecter avec un compte de domaine disposant des privilèges appropriés.
-5. Sélectionnez **Windows Paramètres** dans la colonne de gauche.
+5. Sélectionnez **Paramètres Windows** dans la colonne de gauche.
 6. Connectez-vous au bureau avec vos informations d’identification administrateur. Vous disposez des privilèges nécessaires pour gérer l’appareil.
 7. Exécutez les tâches administratives requises.
 8.  Redémarrez l’ordinateur lorsque vous avez terminé.
@@ -247,20 +247,20 @@ La console revient à présent à son mode de fonctionnement normal. La procédu
   
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Basculement vers le mode Administrateur et retour en cas de blocage de l’application Salles Microsoft Teams
 
-1. Appuyez rapidement cinq fois sur la touche Windows. L’écran de connexion de Windows apparaît.  
+1. Appuyez rapidement cinq fois sur la touche Windows. L’écran de connexion de Windows apparaît. 
 2. Connectez-vous au bureau avec vos informations d’identification administrateur.
 3. Exécutez les tâches administratives requises.
 4. Redémarrez l’ordinateur lorsque vous avez terminé.
 
     > [!NOTE]
-    > Cette méthode ne journalise pas l’utilisateur Skype désactivé ou termine correctement l’application, mais vous l’utiliseriez si l’application ne répondait pas et que l’autre méthode n’était pas disponible. 
+    > Cette méthode ne déconnecte pas l’utilisateur Skype ou ne termine pas correctement l’application, mais vous l’utiliseriez si l’application ne répondait pas et que l’autre méthode n’était pas disponible. 
 
-   La console redémarre en mode d’opération normal, exécutant l’application Salles Microsoft Teams. Vous pouvez supprimer le clavier si vous en avez attaché un pour effectuer cette procédure.
+   La console redémarre en mode d’opération normal, en exécutant l’application Salles Microsoft Teams. Vous pouvez supprimer le clavier si vous en avez attaché un pour effectuer cette procédure.
    ## <a name="troubleshooting-tips"></a>Astuces de dépannage
    <a name="TS"> </a>
 
-- Les invitations à une réunion peuvent ne pas apparaître lorsqu’elles sont envoyées au-delà des limites de domaine (par exemple, entre deux entreprises). Dans ce cas, les administrateurs informatiques doivent décider s’il faut autoriser les utilisateurs externes à planifier une réunion. Consultez l’article relatif à la Exchange l’applet de commande PowerShell [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing), en particulier le paramètre « ProcessExternalMeetingMessages ».
-- Salles Microsoft Teams ne prend pas en charge les redirections de découverte automatique Exchange via Exchange 2010.
+- Les invitations à une réunion peuvent ne pas apparaître lorsqu’elles sont envoyées au-delà des limites de domaine (par exemple, entre deux entreprises). Dans ce cas, les administrateurs informatiques doivent décider s’il faut autoriser les utilisateurs externes à planifier une réunion. Consultez l’article relatif à l’applet de commande Exchange PowerShell [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing), en particulier le paramètre « ProcessExternalMeetingMessages ».
+- Les salles Microsoft Teams ne prennent pas en charge les redirections de découverte automatique Exchange via Exchange 2010.
 - En général, il est recommandé aux administrateurs informatiques de désactiver les points de terminaison audio qu’ils n’ont pas l’intention d’utiliser.
 - Dans le cas où une image miroir s’afficherait en préversion de la salle, l’administrateur informatique peut corriger le problème en mettant l’appareil photo sous tension ou en renversant l’orientation de l’image à l’aide des paramètres de l’appareil photo.
 - La perte de l’accès à l’écran tactile de la console est connue. Dans ce cas, le problème est parfois résolu en redémarrant salles Teams.

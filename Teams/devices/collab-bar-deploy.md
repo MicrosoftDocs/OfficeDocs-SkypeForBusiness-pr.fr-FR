@@ -1,7 +1,7 @@
 ---
 title: Déployer Salles Microsoft Teams sur Android
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: payurevi
@@ -14,112 +14,112 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: Lisez cet article pour en savoir plus sur le déploiement d Salles Microsoft Teams sur Android.
-ms.openlocfilehash: 7b37f03bdecf0bb6b1d3f3545d096836aa81b805
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+description: Lisez cet article pour en savoir plus sur le déploiement de Salles Microsoft Teams sur Android.
+ms.openlocfilehash: d97af4854ca276d1d5a31f2990e607f357b01f58
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514515"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761116"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Déployer Salles Microsoft Teams sur Android
 
-Le déploiement d Salles Microsoft Teams sur Android peut être ventilé selon les phases suivantes :
+Le déploiement de Salles Microsoft Teams sur Android peut être divisé en phases suivantes :
 
-- **État de préparation du site** Confirmez que vos emplacements de déploiement (salles) répondent aux exigences de déploiement.
-- **Disponibilité du service** Créez des comptes de ressources et attribuez-les aux appareils ([voir Créer un compte de ressource à l’aide du Centre d'administration Microsoft 365](resource-account-ui.md)). Bien que nous vous recommandons d’utiliser une licence de salle dédiée, un compte d’utilisateur final titulaire d’une licence appropriée peut également vous salles Teams sur Android.
-- **Configuration et déploiement** Configurer et salles Teams connecter les périphériques dont vous avez besoin (pour plus d’informations, consultez la documentation du fabricant).
+- **Préparation du site** Vérifiez que vos emplacements de déploiement (salles) répondent aux exigences de déploiement.
+- **Préparation du service** Créez des comptes de ressources et attribuez-les aux appareils ([voir Créer un compte de ressource à l’aide du Centre d'administration Microsoft 365](resource-account-ui.md)). Bien que nous vous recommandons d’utiliser une licence de salle dédiée, un compte d’utilisateur final disposant d’une licence appropriée peut également se connecter à salles Teams sur Android.
+- **Configuration et déploiement** Configurez salles Teams et connectez les périphériques dont vous avez besoin (consultez la documentation du fabricant pour plus d’informations).
 
-Pour gérer salles Teams, vous devez être administrateur global, administrateur de Teams service ou administrateur de Teams périphériques. Pour plus d’informations sur les rôles d’administrateur, voir [Utiliser Microsoft Teams rôles d’administrateur pour gérer Teams](../using-admin-roles.md).
+Pour gérer salles Teams, vous devez être administrateur général, administrateur de service Teams ou administrateur d’appareil Teams. Pour plus d’informations sur les rôles d’administrateur, consultez [Utiliser Microsoft Teams rôles d’administrateur pour gérer Teams](../using-admin-roles.md).
 
-## <a name="site-readiness"></a>État de préparation du site
+## <a name="site-readiness"></a>Préparation du site
 
-Pendant la livraison des appareils commandés à votre organisation, travaillez avec votre réseau, vos installations et vos équipes audio-visuelles pour vous assurer que les exigences de déploiement sont respectées et que chaque site et salle est prêt en termes d’alimentation, de mise en réseau et d’affichage.
+Pendant que les appareils commandés sont remis à votre organisation, collaborez avec vos équipes réseau, installations et audio-visuels pour vous assurer que les exigences de déploiement sont remplies et que chaque site et salle est prêt en termes d’alimentation, de mise en réseau et d’affichage.
 
 Nos recommandations pour les sites de barre de collaboration sont les suivantes :
 
-- Salles dont la taille peut aller jusqu’à 5 personnes
+- Chambres d’une taille maximale de 5 personnes
 - Comptes de ressources dédiés
-- Écrans tactiles
-- Cabling Ethernet
-- Qualité de service (QoS) activée sur le réseau pour les Microsoft Teams multimédia
+- Affichages tactiles
+- Câblage Ethernet
+- Qualité de service (QoS) activée sur le réseau pour Microsoft Teams média
 
-Pour des raisons d’installation physique, consultez la documentation du fabricant et, si vous en avez une, tirez parti de l’expérience de votre équipe audio-visuelle avant d’installer et d’installer les écrans et d’exécuter le cablage.
+Pour des considérations relatives à l’installation physique, consultez la documentation du fabricant et, si vous en avez une, tirez parti de l’expérience de votre équipe audio-visuelle avant d’installer et de monter des écrans et d’exécuter le câblage.
 
 > [!TIP]
-> Assurez-vous de préparer votre réseau [pour](../prepare-network.md) la Teams de planification de la bande passante et d’évaluation de l’pertinence de votre réseau pour le trafic en temps réel.
+> Veillez à consulter [Préparer votre réseau pour Teams](../prepare-network.md) pour la planification de la bande passante et l’évaluation de l’adéquation de votre réseau pour le trafic en temps réel.
 >
-> Nous vous déconseillons de placer des serveurs proxy entre Teams appareils et Internet. Pour plus d’informations sur les serveurs proxy et Teams serveurs proxy, consultez [les serveurs proxy pour Teams](../proxy-servers-for-skype-for-business-online.md).
+> Nous vous déconseillons de placer des serveurs proxy entre Teams appareils et Internet. Pour plus d’informations sur les serveurs proxy et les Teams, consultez [les serveurs proxy pour Teams](../proxy-servers-for-skype-for-business-online.md).
 
 |&nbsp;|&nbsp;|
 |-----------|------------|
-| ![Icône montrant les points de décision.](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Confirmez que vos sites répondent aux exigences de disponibilité du site pour les barres de collaboration pour Microsoft Teams.</li><li>Confirmez que vous avez fourni suffisamment de bande passante pour chaque site.</li></ul>|
-| ![Icône illustrant les étapes suivantes.](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Commencez à planifier le déploiement et la configuration de votre barre de collaboration.</li></ul>|
+| ![Icône montrant les points de décision.](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Vérifiez que vos sites répondent aux exigences de préparation des sites pour les barres de collaboration pour Microsoft Teams.</li><li>Vérifiez que vous avez fourni une bande passante suffisante pour chaque site.</li></ul>|
+| ![Icône représentant les étapes suivantes.](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Commencez à planifier le déploiement et la configuration de votre barre de collaboration.</li></ul>|
 
 ## <a name="service-readiness"></a>Préparation du service
 
-Avant de déployer salles Teams, vous devez décider s’ils utiliseront des comptes de ressources Microsoft 365, des comptes d’utilisateur final, ou un mélange des deux. Microsoft 365 de ressources sont des comptes de boîtes aux lettres et de Teams qui sont dédiés à des ressources spécifiques, telles qu’une salle, un projecteur, etc. Ces comptes de ressources peuvent répondre automatiquement aux invitations aux réunions à l’aide de règles que vous définissez lors de leur création. Sauf si salles Teams est dédié à une personne spécifique pour son utilisation privée, nous vous recommandons de Microsoft 365 un compte de ressource pour ce compte.
+Avant de déployer salles Teams, vous devez décider s’il utilisera Microsoft 365 comptes de ressources, les comptes d’utilisateur final ou un mélange des deux. Microsoft 365 comptes de ressources sont des comptes de boîte aux lettres et de Teams dédiés à des ressources spécifiques, telles qu’une salle, un projecteur, etc. Ces comptes de ressources peuvent répondre automatiquement aux invitations aux réunions à l’aide de règles que vous définissez lors de leur création. Sauf si salles Teams est dédié à une personne spécifique pour son utilisation privée, nous vous recommandons de configurer un compte de ressource Microsoft 365 pour celui-ci.
 
 ### <a name="using-a-resource-account"></a>Utilisation d’un compte de ressource
 
-Si vous décidez de configurer un Microsoft 365 de ressources, vous devez acheter une licence Salle de réunion de ressources pour ce compte. La licence Salle de réunion inclut une boîte aux lettres de ressources qui permet aux membres de votre organisation de réserver la salle de réunion par le biais d Outlook réunion ou Teams. La licence permet également aux participants de la réunion de partager des vidéos et des audioconférences et des écrans.
+Si vous décidez de configurer un compte de ressource Microsoft 365, vous devez acheter une licence Salle de réunion pour celui-ci. La licence Salle de réunion inclut une boîte aux lettres de ressources qui permet aux membres de votre organisation de réserver la salle de réunion via Outlook ou Teams. La licence permet également la vidéo et l’audioconférence et le partage d’écran entre les participants à la réunion.
 
-Si vous devez recevoir ou appeler un numéro de téléphone externe, vous avez peut-être besoin d’un plan d’appels ou d Microsoft 365 Business Voice [licence de module logiciel.](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business) Si vous avez activé le routage direct dans votre organisation, vous n’avez besoin que de la référence Salle de réunion SKU.
+Si vous devez recevoir ou passer des appels vers ou depuis un numéro de téléphone externe, vous aurez [peut-être](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business) besoin d’un forfait d’appels ou d’une licence de module complémentaire Microsoft 365 Business Voice. Si le routage direct est activé dans votre organisation, vous n’avez besoin que de la référence SKU Salle de réunion.
 
-Lorsque vous créez un compte de ressource, vous pouvez choisir d’autoriser ou non le compte à accepter ou refuser automatiquement les demandes de réunion, d’autoriser les réunions récurrentes, de spécifier à l’avance les informations sur la ressource, etc.
+Lorsque vous créez un compte de ressource, vous pouvez choisir de laisser le compte accepter ou refuser automatiquement les demandes de réunion, d’autoriser les réunions périodiques, de spécifier jusqu’à quel moment les utilisateurs peuvent réserver la ressource, et ainsi de suite.
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
-Pour plus d’informations sur Microsoft 365 comptes de ressources, voir [Créer un compte de ressource à l’aide de la Centre d'administration Microsoft 365](resource-account-ui.md).
+Pour plus d’informations sur Microsoft 365 comptes de ressources, consultez [Créer un compte de ressource à l’aide de la Centre d'administration Microsoft 365](resource-account-ui.md).
 
 |&nbsp;|&nbsp;|
 |-----------|------------|
-| ![Icône montrant les points de décision.](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez si vous souhaitez effectuer ou recevoir des appels téléphoniques externes et identifier les exigences en matière de licences pour vos comptes de ressources.</li></ul>|
-| ![Icône illustrant les étapes suivantes.](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Préparer les comptes des ressources.</li></ul>|
+| ![Icône montrant les points de décision.](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Déterminez si vous souhaitez passer ou recevoir des appels téléphoniques externes et identifier les exigences de licence pour vos comptes de ressources.</li></ul>|
+| ![Icône représentant les étapes suivantes.](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Préparez des comptes de ressources.</li></ul>|
 
 ## <a name="configuration-and-deployment"></a>Configuration et déploiement
 
-La planification de la configuration et du déploiement couvre les aspects clés suivants :
+La planification de la configuration et du déploiement couvre les domaines clés suivants :
 
-- Mise en service de compte de ressource
+- Provisionnement de comptes de ressources
 - Déploiement d’appareils
-- salles Teams configuration des applications et périphériques
+- salles Teams configuration de l’application et de l’appareil périphérique
 -  Tests
-- Gestion des biens
+- Gestion des ressources
 
-### <a name="account-provisioning"></a>Provisionnage de compte
+### <a name="account-provisioning"></a>Provisionnement de comptes
 
-Si vous envisagez d’utiliser des comptes de ressources Microsoft 365 pour laisser les utilisateurs réserver des barres de collaboration, suivez les instructions dans Créer un compte de ressource à l’aide du [Centre d'administration Microsoft 365](resource-account-ui.md) pour créer un compte de ressource Microsoft 365 pour chaque barre de collaboration qui en a besoin. C’est également ici que vous devrez ajouter une licence Salle de réunion au compte de ressource et, si vous voulez effectuer ou recevoir des appels vers ou depuis des numéros de téléphone externes, une licence Plan d’appel ou Voix Entreprise si votre organisation n’utilise pas le routage direct.
+Si vous envisagez d’utiliser Microsoft 365 comptes de ressources pour permettre aux utilisateurs de réserver des barres de collaboration, suivez les instructions fournies dans [Créer un compte de ressource à l’aide de la Centre d'administration Microsoft 365](resource-account-ui.md) pour créer un compte de ressource Microsoft 365 pour chaque barre de collaboration qui en a besoin. C’est également là que vous devez ajouter une licence Salle de réunion au compte de ressource et, si vous souhaitez passer ou recevoir des appels vers ou à partir de numéros de téléphone externes, une licence Forfait d’appels ou Voix entreprise si votre organisation n’utilise pas le routage direct.
 
-Si vous souhaitez affecter des salles Teams à des utilisateurs individuels pour leur utilisation privée, vous n’avez pas besoin de configurer de comptes supplémentaires. Les utilisateurs peuvent se connecter à des barres de collaboration à l’aide de leur compte personnel.
+Si vous souhaitez affecter salles Teams à des utilisateurs individuels pour leur utilisation privée, vous n’avez pas besoin de configurer de comptes supplémentaires. Les utilisateurs peuvent se connecter aux barres de collaboration à l’aide de leur compte personnel.
 
 > [!TIP]
-> Rendez les noms d’affichage de vos Microsoft 365 ressources descriptifs et faciles à comprendre. Voici les noms que les utilisateurs voient lorsqu’ils recherchent et ajoutent des salles Teams aux réunions. Vous pourriez utiliser une convention - telle que Le nom de la salle de *site(**Capacité* maximale de la salle), par exemple Tyz, une salle de réunion de 4 personnes à Londres, qui peut avoir le nom complet LON-X(4).
+> Rendez les noms d’affichage de vos comptes de ressources Microsoft 365 descriptifs et faciles à comprendre. Il s’agit des noms que les utilisateurs verront lors de la recherche et de l’ajout de salles Teams aux réunions. Vous pouvez utiliser une convention comme *Site*-*Room Name* (*Max Room Capacity*), par exemple Curie, une salle de réunion à 4 personnes à Londres, peut avoir le nom complet LON-CURIE(4).
 
 |&nbsp;|&nbsp;|
 |-----------|------------|
-| ![Icône montrant les points de décision.](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez de la convention d’affectation de noms pour vos comptes de ressources dédiés.</li><li>Décidez si vous devez créer des comptes individuels ou utiliser des scripts d’approvisionnement en bloc.</li></ul>|
-| ![Icône illustrant les étapes suivantes.](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Commencez à planifier le déploiement de votre appareil.</li></ul>|
+| ![Icône montrant les points de décision.](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez de la convention d’affectation de noms pour vos comptes de ressources dédiés.</li><li>Déterminez si vous allez créer des comptes individuels ou utiliser des scripts de provisionnement en bloc.</li></ul>|
+| ![Icône représentant les étapes suivantes.](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Commencez à planifier le déploiement de votre appareil.</li></ul>|
 
 ### <a name="device-deployment"></a>Déploiement d’appareils
 
-Ensuite, vous devez créer votre plan pour remettre les appareils et leurs périphériques affectés à vos salles, puis procéder à l’installation et à la configuration.
+Ensuite, vous devez créer votre plan pour remettre les appareils et leurs périphériques affectés à vos salles, puis poursuivre l’installation et la configuration.
 
 |&nbsp;|&nbsp;|
 |-----------|------------|
-| ![Icône montrant les points de décision.](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez qui gérera le déploiement site par site.</li><li> Identifiez les ressources qui seront en mesure d’installer salles Teams site et entreprenons la configuration et les tests.</li></ul>|
-| ![Icône illustrant les étapes suivantes.](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Démarrez le test de l’appareil.</li></ul>|
+| ![Icône montrant les points de décision.](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Déterminez qui gérera le déploiement site par site.</li><li> Identifiez les ressources qui installeront salles Teams sur le site et effectuez la configuration et les tests.</li></ul>|
+| ![Icône représentant les étapes suivantes.](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Démarrez le test de l’appareil.</li></ul>|
 
 ### <a name="testing"></a> Tests
 
-Une fois que vous avez salles Teams, vous devez les tester. Connectez-vous salles Teams vérifier que les fonctionnalités attendues fonctionnent. Il est vivement recommandé de vérifier qu’elles apparaissent dans la section **Barres de collaboration** sous **l’onglet Teams Appareils** du Microsoft Teams d’administration. Il est également important de tester plusieurs appels et réunions afin de vérifier la qualité et les performances.
+Une fois que vous avez déployé salles Teams, vous devez les tester. Connectez-vous à salles Teams et vérifiez que les fonctionnalités attendues fonctionnent. Nous vous recommandons vivement de vérifier qu’elles apparaissent dans la section **Barres de collaboration** sous l’onglet **Appareils Teams** du Centre d’administration Microsoft Teams. Il est également important d’effectuer un certain nombre d’appels de test et de réunions pour vérifier la qualité et les performances.
 
-Dans le cadre du déploiement général de la Microsoft Teams, nous vous recommandons de configurer la création de fichiers pour le tableau de bord de qualité des appels, de surveiller les tendances de la qualité et de vous impliquer dans le processus de révision de la qualité de l’expérience. Pour plus d’informations, voir le [Guide de révision de la qualité de l’expérience](../quality-of-experience-review-guide.md).
+Dans le cadre du déploiement général Microsoft Teams, nous vous recommandons de configurer des fichiers de génération pour le tableau de bord de qualité des appels (CQD), de surveiller les tendances de qualité et de participer au processus de révision de la qualité de l’expérience. Pour plus d’informations, consultez le [Guide de révision de la qualité de l’expérience](../quality-of-experience-review-guide.md).
 
-### <a name="asset-management"></a>Gestion des biens
+### <a name="asset-management"></a>Gestion des ressources
 
-Dans le cadre du déploiement, vous pouvez mettre à jour votre registre de biens avec le nom de la salle, le compte de ressource connecté et les périphériques affectés.
+Dans le cadre du déploiement, vous devez mettre à jour votre registre de ressources avec le nom de la salle, le compte de ressource connecté et les périphériques affectés.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Créer des comptes de ressources pour les salles et les appareils Teams partagés](../rooms/with-office-365.md)

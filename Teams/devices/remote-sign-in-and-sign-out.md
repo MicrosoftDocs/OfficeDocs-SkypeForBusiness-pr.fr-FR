@@ -1,7 +1,7 @@
 ---
-title: Se connectez à distance et connectez-vous pour Teams appareils Android
-author: cazawideh
-ms.author: czawideh
+title: Connexion à distance et déconnexion pour les appareils Teams Android
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: prasad.gholve
 ms.topic: article
@@ -17,36 +17,36 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment vous connectez et vous connectez à distance à Teams appareils Android
-ms.openlocfilehash: 13566268df77f0d5f963829444002dc753569ec8
-ms.sourcegitcommit: a3b3eb85354d62b2a5325ba7c8dda88352c6711a
+description: Découvrez comment se connecter à distance et se déconnecter d’appareils Teams Android
+ms.openlocfilehash: 5688ed8b7edf49e3048cb8b36b7e033030c09d5b
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61070571"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761426"
 ---
-# <a name="remote-sign-in-and-sign-out-for-teams-android-devices"></a>Se connectez à distance et connectez-vous pour Teams appareils Android
+# <a name="remote-sign-in-and-sign-out-for-teams-android-devices"></a>Connexion à distance et déconnexion pour les appareils Teams Android
 
-Cet article explique comment vous connectez et dé connectez-vous à distance Teams appareils Android à partir du Teams d’administration. Si vous n’avez pas encore mis en service un appareil ou s’il n’a jamais été connecté, consultez la mise en service à distance et connectez-vous pour Teams [appareils Android.](remote-provision-remote-login.md)
+Cet article explique comment se connecter à distance et se déconnecter Teams Android appareils à partir du centre d’administration Teams. Si vous n’avez pas encore approvisionné d’appareil, ou si l’appareil est approvisionné mais n’a jamais été connecté, consultez [l’approvisionnement à distance et connectez-vous pour Teams Android appareils](remote-provision-remote-login.md).
 
-## <a name="remote-sign-in"></a>Se connectez à distance
+## <a name="remote-sign-in"></a>Connexion à distance
 
-Une fois qu’un appareil est mis en service et connecté pour la première fois, il apparaît dans sa page correspondante sous le nœud **d’appareils Teams** du Centre d’administration Teams.
+Une fois qu’un appareil est approvisionné et connecté pour la première fois, il apparaît sur sa page correspondante sous le nœud **Teams appareils** du centre d’administration Teams.
 
-Pour vous connectez à un appareil qui a été signé, allez sur la page de l’appareil correspondant.
+Pour vous connecter à un appareil qui a été déconnecté, accédez à la page d’appareil correspondante.
 
-1. Sélectionnez l’appareil sur qui vous voulez vous connecter.
+1. Sélectionnez l’appareil que vous souhaitez connecter.
 
-2. Dans le menu **Actions,** sélectionnez **Se connectez à un utilisateur.**
+2. Accédez au menu **Actions** , puis **sélectionnez Connecter un utilisateur**.
 
-## <a name="remote-sign-out"></a>Sign out remote
+## <a name="remote-sign-out"></a>Déconnexion à distance
 
-1. Sélectionnez l’appareil sur la page correspondante.
+1. Sélectionnez l’appareil que vous souhaitez déconnecter à partir de la page correspondante.
 
-2. Dans le menu **Actions,** sélectionnez **Se sortir.**
+2. Accédez au menu **Actions** , puis **sélectionnez Se déconnecter**.
 
 ## <a name="related-articles"></a>Articles connexes
 
-- [Mise en service à distance et se connectez pour Teams appareils Android](remote-provision-remote-login.md)
+- [Approvisionnement à distance et connexion pour les appareils Teams Android](remote-provision-remote-login.md)
 - [Gérer vos périphériques dans Teams](device-management.md)
-- [Mettre à jour Teams appareils à distance](remote-update.md)
+- [Mettre à jour des appareils Teams à distance](remote-update.md)

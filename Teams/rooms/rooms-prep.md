@@ -1,7 +1,7 @@
 ---
 title: Préparer votre environnement
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Découvrez comment préparer votre infrastructure pour le déploiement de Salles Microsoft Teams afin de pouvoir tirer parti de toutes les fonctionnalités.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b04ecd5b10f82e3f331bc2e888f59927de52e18c
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 4e479a3bc51cdab49a742d9084601505f13020d8
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64838995"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761246"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -79,7 +79,7 @@ Vous installerez les certificats comme vous le feriez pour tout autre client Win
 Salles Microsoft Teams est conçu pour hériter des paramètres proxy du système d’exploitation Windows. Accédez au système d’exploitation Windows de la manière suivante :
   
 1. Dans l’interface utilisateur Salles Microsoft Teams, cliquez sur l’icône d’engrenage Paramètres où vous serez invité à entrer le mot de passe administrateur local sur l’appareil (le mot de passe par défaut est **sfb**).
-2. Appuyez sur **Paramètres**, puis appuyez sur le bouton **Atteindre Windows**, puis sur le bouton **Accéder à la connexion de l’administrateur**, puis cliquez sur le bouton **Administrateur** (si l’ordinateur est joint au domaine, choisissez **Autre utilisateur,** puis utilisez .\admin comme nom d’utilisateur).
+2. Appuyez sur **Paramètres**, puis appuyez sur le bouton **Atteindre Windows**, puis appuyez sur **l’option Accéder à Administration bouton Se connecter**, puis cliquez sur le bouton **Administrateur** (si l’ordinateur est joint au domaine, choisissez **Autre utilisateur,** puis utilisez .\admin comme nom d’utilisateur).
 3. Dans la **zone de recherche Windows** type en bas à gauche dans regedit (appuyez longuement sur l’écran ou cliquez avec le bouton droit et choisissez **Exécuter en tant qu’administrateur**).
 4. Cliquez sur le dossier HKEY_USERS (vous verrez une liste de SID de l’utilisateur d’ordinateur), assurez-vous que le dossier racine HKEY_USERS est sélectionné.
        
@@ -131,14 +131,14 @@ salles Teams inclut un compte local sans mot de passe nommé « Skype ». Ce com
   
 ### <a name="admin---local-administrator-account"></a>"Admin" - Compte d’administrateur local
 
-Salles Microsoft Teams mot de passe par défaut est défini sur « sfb ». Le mot de passe peut être modifié localement via le mode Administrateur ou dans le fichier AutoUnattend.xml (utilisez le gestionnaire d’images système Windows du Kit de développement logiciel (ADK) pour apporter la modification au fichier xml).
+Salles Microsoft Teams mot de passe par défaut est défini sur « sfb ». Le mot de passe peut être modifié localement via le mode Administration ou dans le fichier AutoUnattend.xml (utilisez le gestionnaire d’images système Windows du Kit de développement logiciel (ADK) pour apporter la modification au fichier xml).
   
 > [!CAUTION]
 > Veillez à modifier le mot de passe Salles Microsoft Teams dès que possible. 
   
 Le mot de passe de l’administrateur local n’est pas inclus comme alternative lors de l’installation.
 
-Vous pouvez en savoir plus sur le compte d’administrateur dans l’article [Salles Microsoft Teams Sécurité](security.md).
+Vous pouvez en savoir plus sur le compte Administration dans l’article [Salles Microsoft Teams Sécurité](security.md).
   
 ### <a name="machine-account"></a>Compte d’ordinateur
 
@@ -146,7 +146,7 @@ Tout comme n’importe quel appareil Windows, le nom de l’ordinateur peut êtr
   
 Si vous souhaitez renommer l’ordinateur après l’avoir joint à un domaine, utilisez [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2), une commande PowerShell, suivie du nouveau nom de l’ordinateur.
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Planifier Salles Microsoft Teams](rooms-plan.md)
 

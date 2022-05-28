@@ -1,7 +1,7 @@
 ---
 title: Notes de publication pour Salles Microsoft Teams (Windows)
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Administration pouvez lire les notes de publication de Salles Microsoft Teams, qui répertorient les améliorations cumulatives apportées à Salles Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eadeea6648da5ef2a5b5210b45bb3c884a1cabe8
-ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
+ms.openlocfilehash: cbf840eb8abc60cbdc53325e41b3d9f95e6b4713
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/27/2022
-ms.locfileid: "65753057"
+ms.locfileid: "65761106"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notes de publication pour Salles Microsoft Teams
 
@@ -95,8 +95,8 @@ salles Teams est régie par la politique de cycle de vie moderne. Pour plus d’
 ### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022)
 
 Introduit dans cette mise à jour :
-- Correctif de bogue pour Jabra Panacast 50
-- Correctif de bogue pour la participation à une réunion anonyme intercloud
+- Résolution de bogue pour plusieurs flux vidéo simultanés de Jabra Panacast 50 (vidéo de réunion, vidéo de caméra de contenu)
+- Les réunions intercloud peuvent désormais utiliser un périphérique audio de conférence par défaut
 - Correctifs de qualité et de fiabilité
 
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)

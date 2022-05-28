@@ -1,7 +1,7 @@
 ---
 title: Gérer à distance Salles Microsoft Teams paramètres de l’appareil
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Gestion à distance des paramètres par défaut utilisés par un appareil Salles Microsoft Teams, notamment l’application d’un thème personnalisé et la création d’un fichier de paramètres maîtres.
-ms.openlocfilehash: c363dce55df4d9bdcf125492c2ca92b3b20feba7
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 15cedb921657d9be646fcd1aef94f15f989eec4f
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125459"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761136"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gérer à distance les paramètres d’une console Salles Microsoft Teams avec un fichier de configuration XML
 

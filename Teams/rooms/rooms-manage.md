@@ -1,7 +1,7 @@
 ---
 title: Gérer les Salles Microsoft Teams
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Découvrez comment développer et exécuter une maintenance et des opérations continues pour vous assurer que vos systèmes Salles Microsoft Teams sont disponibles pour vos utilisateurs.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 47f1c170fd0c41331dfaffa2d81386ac3c2fb722
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: 0252d44b073353aea43fec838f439ecb2233c43f
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106269"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761296"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gérer les Salles Microsoft Teams
 
@@ -100,8 +100,8 @@ Si vous en sélectionnez plusieurs, les paramètres qui prennent en charge la mo
 | **Haut-parleur par défaut**                                          | Liste des haut-parleurs disponibles                             | Non                 |
 | **Volume par défaut**                                           | 0-100                                                  | Non                 |
 | **Caméra de contenu**                                           | Liste des caméras disponibles                              | Non                 |
-| **Améliorations apportées à la caméra de contenu**                              | Activé<br>Désactivé                                              | Non                 |
-| **Faire pivoter la caméra de contenu de 180 degrés**                        | Activé<br>Désactivé                                              | Non                 |
+| **Améliorations apportées au contenu Caméra**                              | Activé<br>Désactivé                                              | Non                 |
+| **Faire pivoter le contenu Caméra 180 degrés**                        | Activé<br>Désactivé                                              | Non                 |
 | *Thématisation*                                                    |                                                        |                    |
 |                                                              | Par défaut<br>Aucun thème<br>Personnalisé<br>Liste des thèmes intégrés   | Oui                |
 
