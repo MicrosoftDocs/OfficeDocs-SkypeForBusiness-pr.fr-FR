@@ -1640,6 +1640,8 @@ items:
         items:
           - name: Prise en main de Teams pour les employés de première ligne
             href: flw-landing-page.md
+          - name: Démarrer par une version d’évaluation en première ligne
+            href: flw-trial.md
           - name: Options de licence pour les employés de première ligne
             href: flw-licensing-options.md
           - name: Guide de démarrage rapide pour les travailleur de première ligne
