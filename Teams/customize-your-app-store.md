@@ -1,5 +1,5 @@
 ---
-title: Magasin d’applications personnalisées
+title: Personnaliser votre app store dans Teams
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -17,26 +17,26 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: En savoir plus sur le magasin d’applications personnalisées Microsoft Teams.
-ms.openlocfilehash: f98b91c8a700bfc8ebb560930862e66b38a35a0e
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+description: Découvrez comment personnaliser l’App Store de votre organisation dans Microsoft Teams.
+ms.openlocfilehash: 18ea62e608fe7f357ca0848a1b39fa5a337c7442
+ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070383"
+ms.lasthandoff: 05/31/2022
+ms.locfileid: "65780630"
 ---
-# <a name="custom-apps-store-in-microsoft-teams"></a>Magasin d’applications personnalisées dans Microsoft Teams
+# <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>Personnaliser l’App Store de votre organisation dans Microsoft Teams
 
-Vous pouvez désormais personnaliser le magasin d’applications de votre organisation dans Teams avec la personnalisation de votre entreprise en ajoutant votre logo, vos arrière-plans et vos couleurs de texte personnalisées pour qu’il soit plus invitant pour les utilisateurs finaux.
+Vous pouvez désormais personnaliser le magasin d’applications de votre organisation dans Teams avec la personnalisation de votre entreprise en ajoutant votre logo, vos arrière-plans personnalisés et vos couleurs de texte personnalisées pour le rendre plus invitant pour les utilisateurs finaux.
 
-> [!Note]
-> L’application des modifications apportées à la marque nécessitera 24 heures.
+> [!NOTE]
+> L’application des modifications apportées à la personnalisation peut prendre jusqu’à 24 heures.
 
-Vous pouvez accéder au Magasin de personnalisation dans le Centre d’administration en sélectionnant **Teams** **appsCustomize** >  store.
+Vous pouvez accéder au magasin personnalisé dans le Centre d’administration en sélectionnant **Teams apps** > **Personnaliser le magasin**.
 
-  ![Fonctionnalité de personnalisation du Store mise en évidence dans la console d’administration.](media/customize-app-store.png)
+  ![Administration console personnaliser la fonctionnalité du magasin mise en surbrillance.](media/customize-app-store.png)
 
-Cet article décrit les fonctionnalités du magasin d’applications personnalisées et leur utilisation.
+Cet article décrit les fonctionnalités du magasin d’applications personnalisées et comment les utiliser.
 
 ## <a name="customize-your-organization-logo"></a>Personnaliser le logo de votre organisation
 
@@ -44,15 +44,11 @@ Cet article décrit les fonctionnalités du magasin d’applications personnalis
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Ici, vous pouvez télécharger le logo de votre organisation. Le logo sélectionné s’affiche dans la Teams client dans **AppsBuilt**  >  pour votre page client.
+Ici, vous pouvez charger le logo de votre organisation. Le logo sélectionné s’affiche dans le client Teams dans la page **Applications** > **conçues pour votre locataire**.
 
-Lorsque vous sélectionnez **l’option Choisir une** image, vous pouvez télécharger le fichier de votre choix. Le logo doit avoir la taille 240 x 60 ou s’il doit être dimensioné de cette taille. Elle ne doit pas avoir une taille supérieure à 5 Mo. Les formats pris en charge sont les autres :
+Lorsque vous sélectionnez l’option **Choisir une image** , vous pouvez charger le fichier de votre choix. Le logo doit être 240 x 60, ou il sera mis à l’échelle à cette taille. Il ne doit pas dépasser 5 Mo. Les formats pris en charge sont .svg, .png et .jpg.
 
-- .svg
-- .png
-- .jpg
-
-Le logo apparaît dans le coin supérieur droit du catalogue d’applications client du Teams store.
+Le logo s’affiche dans le coin supérieur droit du catalogue d’applications client dans le magasin Teams.
 
 ## <a name="customize-your-small-logo"></a>Personnaliser votre petit logo
 
@@ -60,15 +56,11 @@ Le logo apparaît dans le coin supérieur droit du catalogue d’applications cl
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Le logo de votre organisation est une image ou un symbole représentant la marque de votre organisation et n’inclut pas le nom de votre société. Le signet love permet aux membres d’une équipe d’identifier le magasin d’applications. Le logo sélectionné s’affiche dans la Teams client dans la page Applications.
+La marque de logo ou le petit logo de votre organisation est une image ou un symbole qui représente la marque de votre organisation et n’inclut pas le nom de votre entreprise. Le signet d’amour aide les membres de l’équipe à identifier le magasin d’applications. Le logo sélectionné s’affiche dans le client Teams dans la page Applications.
 
-Lorsque vous sélectionnez **l’option Choisir une** image, vous pouvez télécharger le fichier de votre choix. Le logo doit avoir une taille de 32 x 32 pixels ou être réduite de cette taille. Elle ne doit pas avoir une taille supérieure à 5 Mo. Les formats pris en charge sont les autres :
+Sélectionnez l’option **Choisir une image** et chargez un fichier de votre choix. Conservez la résolution de marques de logo jusqu’à 32 x 32 pixels, ou elle est sous-échantillonnée jusqu’à cette résolution. Conservez la taille du fichier inférieure à 5 Mo. Les formats pris en charge sont .svg, .png et .jpg.
 
-- .svg
-- .png
-- .jpg
-
-Le petit logo s’affiche en côté du titre **de la section** Créé pour le client dans la page d Teams page d’accueil du magasin d’articles.
+Teams Store affiche le logo en regard de la section **Built for your tenant**.
 
 ## <a name="customize-the-background-color"></a>Personnaliser la couleur d’arrière-plan
 
@@ -76,18 +68,15 @@ Le petit logo s’affiche en côté du titre **de la section** Créé pour le cl
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Assurez-vous que l’arrière-plan présente suffisamment de contraste avec le texte afin que les utilisateurs puisse lire le texte de façon claire. L’arrière-plan s’affiche dans Teams client dans **AppsBuilt** >  **pour l’en-tête de votre** client.
+Assurez-vous que l’arrière-plan a suffisamment de contraste avec le texte afin que les utilisateurs puissent lire le texte clairement. L’arrière-plan s’affiche dans le client Teams dans **Les applications** > **conçues pour votre en-tête de locataire**.
 
 Vous disposez des options suivantes :
 
-- Utiliser Teams thème d’arrière-plan par défaut du client
-- Choisissez une image. Lorsque vous sélectionnez l’image d’arrière-plan, vous pouvez télécharger le fichier de votre choix. L’arrière-plan doit faire 1212 x 100 pixels ou s’écheller de cette taille. Elle ne doit pas avoir une taille supérieure à 5 Mo. Les formats pris en charge sont les autres :
-  - .svg
-  - .png
-  - .jpg
-- Choisissez un arrière-plan personnalisé. Lorsque vous **sélectionnez Choisir une couleur personnalisée**, un séleceur de couleurs s’ouvre. Sélectionnez la couleur de votre choix en ajustant l’échelle du séleceur de couleurs.
+* Utiliser Teams thème d’arrière-plan par défaut du client
+* Choisissez une image. Lorsque vous sélectionnez l’image d’arrière-plan, vous pouvez charger le fichier de votre choix. L’arrière-plan doit être de 1212 x 100 pixels, ou il sera mis à l’échelle vers cette taille. Il ne doit pas dépasser 5 Mo. Les formats pris en charge sont .svg, .png et .jpg.
+* Choisissez un arrière-plan personnalisé. Lorsque vous **sélectionnez Choisir une couleur personnalisée**, un sélecteur de couleurs s’ouvre. Sélectionnez la couleur souhaitée en ajustant l’échelle du sélecteur de couleurs.
 
-L’image ou la couleur d’arrière-plan est utilisée comme arrière-plan de la bannière supérieure du Teams du catalogue d’applications clientes.
+L’image d’arrière-plan ou la couleur est utilisée comme arrière-plan pour la bannière supérieure dans le catalogue d’applications client Teams.
 
 ## <a name="customize-the-text-color-of-your-name"></a>Personnaliser la couleur de texte de votre nom
 
@@ -95,22 +84,18 @@ L’image ou la couleur d’arrière-plan est utilisée comme arrière-plan de l
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Assurez-vous que la couleur de texte présente suffisamment de contraste avec l’arrière-plan afin que les utilisateurs peuvent lire clairement le nom de votre organisation. Le texte s’affiche dans Teams client dans **AppsBuilt** >  **pour l’en-tête de votre** client.
+Fournissez un contraste suffisant avec la couleur de texte par rapport à l’arrière-plan afin que les utilisateurs finaux puissent lire clairement le nom de votre organisation. Le texte s’affiche dans le client Teams dans **Les applications** > **conçues pour l’en-tête de votre locataire**.
 
-Lorsque vous **sélectionnez Choisir une couleur personnalisée**, un séleceur de couleurs s’ouvre. Sélectionnez la couleur de votre choix en ajustant l’échelle du séleceur de couleurs.
+Lorsque vous **sélectionnez Choisir une couleur personnalisée**, un sélecteur de couleurs s’ouvre. Sélectionnez la couleur souhaitée en ajustant l’échelle du sélecteur de couleurs.
 
- ![le s sélectionneur de couleurs.](media/choose-a-custom-color.png)
+ ![le sélecteur de couleurs.](media/choose-a-custom-color.png)
 
-## <a name="complete-the-customization-of-your-team-apps-store"></a>Finaliser la personnalisation de votre magasin d’applications d’équipe
+## <a name="complete-the-customization-of-your-team-apps-store"></a>Effectuer la personnalisation de votre magasin d’applications d’équipe
 
-Une fois que vous avez terminé de personnaliser votre magasin d’applications, assurez-vous de sélectionner **Enregistrer pour enregistrer** vos modifications.
-Pour afficher un aperçu de vos modifications, sélectionnez **Preview apps store** pour afficher une représentation de votre magasin d’applications personnalisé.
+Une fois que vous avez terminé la personnalisation de votre magasin d’applications, veillez à sélectionner **Enregistrer** pour enregistrer vos modifications.
+Pour afficher un aperçu de vos modifications, sélectionnez **le magasin d’applications En préversion** pour afficher une représentation de votre magasin d’applications personnalisé.
 
 ![aperçu du magasin d’applications personnalisées.](media/PowerAppsInStore650w.png)
 
-> [!Note]
-> La représentation peut différer de la version finale de votre magasin d’applications personnalisées, car certaines couleurs par défaut sont basées sur la version d’Teams client de vos utilisateurs.
-
-## <a name="related-article"></a>Article connexe
-
-[Gérer vos applications](manage-apps.md)
+> [!NOTE]
+> La représentation peut varier de la version finale de votre magasin d’applications personnalisées, car certaines couleurs par défaut sont basées sur la version de Teams client de vos utilisateurs.
