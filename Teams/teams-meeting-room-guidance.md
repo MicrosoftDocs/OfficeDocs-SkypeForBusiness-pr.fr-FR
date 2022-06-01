@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fb3eb61de1372012f2a530be86d394ca46893a6
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 8df4740d6f5facc427900e7af760b11a9c8cb43f
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681745"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823399"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Conseils de salle de réunion pour Teams
 
@@ -83,7 +83,7 @@ Préparez vos utilisateurs à le faire par étapes afin de maximiser votre expé
 
 Vous pouvez commencer par ce plan en adressant tous vos espaces de réunion non av ou non équipés de collaboration. Vous pouvez toujours tirer parti de Teams dans vos salles de réunion, même si ces salles de réunion n’ont pas encore Teams appareils installés.
 
-*Audio:* Un excellent pont vers une salle de Teams complète consiste à planifier la technologie de réunion en fournissant à vos utilisateurs individuels des périphériques audio certifiés Teams pour les plus petites salles et groupes, ou en les déployant dans des salles avant une solution de salles Teams complète pour les grands espaces destinés aux groupes plus grands où un petit appareil ne le coupera pas.
+*Audio:* Un excellent pont vers une salles Teams complète consiste à planifier la technologie de réunion en fournissant à vos utilisateurs individuels des périphériques audio certifiés Teams pour les plus petites salles et groupes, ou en les déployant dans des salles avant une solution de salles Teams complète pour les grands espaces destinés aux groupes plus grands où un petit appareil ne le coupera pas.
 
 *Vidéo:* Lorsque ces salles sont utilisées, les utilisateurs individuels peuvent apporter leurs propres appareils pour partager le contenu de la réunion Teams et capturer leurs expressions avec leurs appareils photo individuels. Les utilisateurs peuvent ensuite désigner quelqu’un comme source unique d’audio pour le groupe local, en connectant cet appareil personnel à l’appareil audio certifié, afin que tout le monde (local et distant) ait une expérience positive de l’audio de réunion.
 

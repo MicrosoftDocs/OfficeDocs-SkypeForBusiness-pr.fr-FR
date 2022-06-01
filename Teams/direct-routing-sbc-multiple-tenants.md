@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment configurer un contrôleur de frontière de session (SBC) pour servir plusieurs locataires pour les partenaires Microsoft et/ou les opérateurs RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7a465945a55482c84b9d6373240bc89850b80e3a
-ms.sourcegitcommit: 3f046142c40b3b776165e964f2b8718e2fe55df3
+ms.openlocfilehash: be75743752f34024baf7b2fd017557c2f0044ba6
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "65661675"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823685"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -52,7 +52,7 @@ Voici les étapes d’implémentation technique pour configurer le scénario.
 2. Activez le nom du sous-domaine.
 3. Configurez la jonction du transporteur vers le locataire client et approvisionnez les utilisateurs.
 
-*Veillez à comprendre les principes de base du DNS et la façon dont le nom de domaine est géré dans Microsoft 365. Pour plus d’informations, voir [Obtenir de l’aide sur Microsoft 365 domaines](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Veillez à comprendre les principes de base du DNS et la façon dont le nom de domaine est géré dans Microsoft 365. Pour plus d’informations, voir [Obtenir de l’aide sur Microsoft 365 domaines](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 ## <a name="deploy-and-configure-the-sbc"></a>Déployer et configurer le SBC
 
@@ -83,7 +83,7 @@ Les sous-domaines **DOIVENT** correspondre au nom de domaine complet de la jonct
 
 Lorsqu’un appel arrive à l’interface de routage direct Microsoft 365, l’interface utilise l’en-tête Contact pour rechercher le locataire où l’utilisateur doit être recherché. Le routage direct n’utilise pas la recherche de numéro de téléphone sur l’invite, car certains clients peuvent avoir des numéros non DID qui peuvent se chevaucher dans plusieurs locataires. Par conséquent, le nom de nom de domaine complet dans l’en-tête Contact est nécessaire pour identifier le locataire exact pour rechercher l’utilisateur par le numéro de téléphone.
 
-*Pour plus d’informations sur la création de noms de domaine dans Microsoft 365 organisations, consultez [Obtenir de l’aide sur Microsoft 365 domaines](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Pour plus d’informations sur la création de noms de domaine dans Microsoft 365 organisations, consultez [Obtenir de l’aide sur Microsoft 365 domaines](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 Le diagramme suivant récapitule les exigences relatives au domaine de base, aux sous-domaines et à l’en-tête Contact.
 
@@ -139,7 +139,7 @@ Une fois que vous avez inscrit un nom de domaine, vous devez l’activer en ajou
 > [!NOTE]
 > Le locataire du transporteur doit conserver au moins une licence Système téléphonique attribuée au locataire pour éviter la suppression de la configuration Skype Entreprise. 
 
-*Pour plus d’informations sur l’ajout d’utilisateurs dans Microsoft 365 organisations, consultez [Obtenir de l’aide sur Microsoft 365 domaines](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Pour plus d’informations sur l’ajout d’utilisateurs dans Microsoft 365 organisations, consultez [Obtenir de l’aide sur Microsoft 365 domaines](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 Par exemple : test@customers.adatum.biz
 
@@ -196,7 +196,7 @@ Pour plus d’informations sur les rôles d’administrateur et sur l’attribut
 
 Après avoir inscrit un nom de domaine, vous devez l’activer en ajoutant au moins un utilisateur et en affectant une adresse SIP avec la partie FQDN de l’adresse SIP correspondant au sous-domaine créé dans le locataire client. 
 
-*Pour plus d’informations sur l’ajout d’utilisateurs dans Microsoft 365 organisations, consultez [Obtenir de l’aide sur Microsoft 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Pour plus d’informations sur l’ajout d’utilisateurs dans Microsoft 365 organisations, consultez [Obtenir de l’aide sur Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 Par exemple : test@sbc1.customers.adatum.biz
 

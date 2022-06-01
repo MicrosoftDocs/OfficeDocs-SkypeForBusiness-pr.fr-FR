@@ -23,111 +23,111 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f13580dcfa6d40802b414999e5fe047f3371b87e
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 9cbd49ed35b3bd52c7b00decf67cab0e01d0a320
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556465"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823595"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurer les crédits de communication pour votre organisation
 
-Vous devez configurer les crédits de communications si vous souhaitez utiliser des numéros gratuits avec Skype pour Business et Teams Microsoft. En outre, nous vous recommandons de configurer les crédits de communication pour les utilisateurs de vos forfaits d’appels (nationaux ou internationaux) et de l’audioconférence qui ont besoin de pouvoir appeler vers n’importe quelle **destination**. De nombreux pays/de nombreuses régions sont inclus, mais il est possible que certaines destinations ne soient pas incluses dans votre offre d’appels ou dans vos abonnements à l’audioconférence. Si vous ne définissez pas la facturation des crédits de communication et si vous n’affectez pas de licences crédits de communication à vos **utilisateurs** et que vous n’avez plus de minutes d’appel (selon votre plan d’appels ou d’audioconférence dans votre pays/région), ces utilisateurs ne pourront plus appeler ou sortir d’un appel sortant d’une réunion d’audioconférence. Vous pouvez obtenir plus d’informations, notamment sur les montants des fonds recommandés, en lisant [l’information Sur les crédits de communication.](what-are-communications-credits.md)
+Vous devez configurer les crédits de communications si vous souhaitez utiliser des numéros gratuits avec Skype pour Business et Teams Microsoft. En outre, nous vous recommandons de configurer des crédits de communication pour vos forfaits d’appels (nationaux ou internationaux) et de Audioconférence utilisateurs qui ont besoin de la possibilité de composer des appels vers **n’importe quelle destination**. De nombreux pays/régions sont inclus, mais certaines destinations peuvent ne pas être incluses dans votre forfait d’appels ou Audioconférence abonnements. Si vous ne configurez pas la facturation des crédits de communication et attribuez une licence **de crédits de communication** à vos utilisateurs et que vous ne disposez pas de minutes pour votre organisation (en fonction de votre forfait d’appels ou de votre plan Audioconférence dans votre pays/région), ces utilisateurs ne pourront pas passer d’appels ou effectuer des appels à partir de Audioconférence réunions. Vous pouvez obtenir plus d’informations, y compris les montants de financement recommandés, en lisant [Qu’est-ce que les crédits de communication?](what-are-communications-credits.md)
   
 > [!NOTE]
 > Pour connaitre le coût, [voir les tarifs ici](https://go.microsoft.com/fwlink/p/?LinkId=799523 ). 
   
-## <a name="step-1-assign-an-audio-conferencing-or-calling-plan-license-to-your-users"></a>Étape 1 : affecter une licence d’audioconférence ou de plan d’appel à vos utilisateurs
+## <a name="step-1-assign-an-audio-conferencing-or-calling-plan-license-to-your-users"></a>Étape 1 : Attribuer une licence de plan de Audioconférence ou d’appel à vos utilisateurs
 
-Lorsque vous vous inscrivez, vous obtenez un certain nombre de minutes en fonction de votre pays/région. Vous pouvez rechercher votre pays ou région dans la liste de disponibilité du pays ou de la région pour les [plans d’audioconférence](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization) et d’appel pour voir le nombre de minutes que vous recevrez. Une fois ces minutes déconnectées, les appels sont déconnectés. Pour éviter cela, vous devez configurer les crédits de communication.
+Lorsque vous vous inscrivez, vous obtenez un certain nombre de minutes en fonction de votre pays/région. Vous pouvez rechercher votre pays ou région dans la [liste de disponibilité pays ou région pour Audioconférence et forfaits d’appels](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization) pour voir le nombre de minutes que vous obtiendrez. Une fois ces minutes utilisées, les appels sont déconnectés. Pour éviter cela, vous devez configurer les crédits de communication.
   
-Pour ce faire, **vous devez affecter une licence d’audioconférence** ou d’Système téléphonique à vos utilisateurs. Les crédits de communication peuvent être activés pour les utilisateurs qui ont l’une de ces deux licences attribuées ou les deux.
+Pour ce faire, **vous devez attribuer une licence Audioconférence ou Système téléphonique** à vos utilisateurs. Les crédits de communication peuvent être activés pour les utilisateurs qui ont l’une ou l’autre de ces deux licences attribuées ou les deux.
   
-- Affectez **une licence d’audioconférence** à vos utilisateurs. Voir [Attribuer Microsoft Teams licences de modules add-on](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+- Attribuez une licence **Audioconférence** à vos utilisateurs. Voir [Attribuer Microsoft Teams licences de module complémentaire](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-    Une fois que vous aurez attribué cette licence, vous devrez configurer l’audioconférence. Pour obtenir des instructions détaillées, voir Essayer ou acheter l’audioconférence dans Microsoft 365 [ou Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
+    Après avoir attribué cette licence, vous devez configurer l’audioconférence. Pour obtenir des instructions pas à pas, consultez [essayer ou acheter des Audioconférence dans Microsoft 365 ou Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Affectez **Système téléphonique** et une licence **De plan d’appels** nationaux ou nationaux et internationaux à vos utilisateurs. Voir [Attribuer Microsoft Teams licences de modules add-on](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+- Attribuez **Système téléphonique** et une licence de forfait d’appels **nationaux ou nationaux et internationaux** à vos utilisateurs. Voir [Attribuer Microsoft Teams licences de module complémentaire](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
     > [!NOTE]
-    > Bien que cela ne soit pas obligatoire pour les crédits de communication, vous devez également affecter une licence **Plan** d’appels nationaux **ou Plan** d’appels nationaux et internationaux.
+    > Bien qu’il ne soit pas obligatoire pour les crédits de communication, vous devez également attribuer un **forfait d’appels nationaux** ou une licence de **forfait d’appels nationaux et internationaux** .
   
-    Après avoir affecté ces licences, vous devrez également obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs dans votre organisation. Pour obtenir des instructions détaillées, voir [Configurer les forfaits d’appels](set-up-calling-plans.md).
+    Après avoir affecté ces licences, vous devrez également obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs dans votre organisation. Pour obtenir des instructions pas à pas, consultez [Configurer les forfaits d’appels](set-up-calling-plans.md).
     
-Pour plus d’informations, [voir Microsoft Teams licences de module complémentaire](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Pour plus d’informations, consultez [Microsoft Teams licences de module complémentaire](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Étape 2 : configurer les crédits de communication pour votre organisation
+## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Étape 2 : Configurer des crédits de communication pour votre organisation
 
-1. Connectez-vous à [la Centre d'administration Microsoft 365](https://portal.office.com/Adminportal) votre compte scolaire ou scolaire.
+1. Connectez-vous au [Centre d'administration Microsoft 365](https://portal.office.com/Adminportal) avec votre compte professionnel ou scolaire.
     
-2. Dans le navigation gauche du Centre d'administration Microsoft 365, allez à **BillingPurchase** >  Services.
+2. Dans le volet de navigation gauche de l’Centre d'administration Microsoft 365, accédez à **Billing** > **Purchase Services**.
 
-3. Recherchez **Crédits de communication** sous la catégorie d’modules ajoutés ou recherchez « **Crédits** de communication » dans la zone rechercher dans toutes les **catégories** de produits et sélectionnez **Détails**.
+3. Recherchez **Crédits de communication** sous la catégorie des **modules complémentaires** ou recherchez « Crédits de communication » dans la zone **de recherche Rechercher dans toutes les catégories de produits** , puis sélectionnez **Détails**.
     
-4. Examinez les informations du service et sélectionnez **Acheter**. (Remarque : un nombre fixe de licences de crédits de communication est automatiquement sélectionné dans chaque commande.)
+4. Passez en revue les informations de service et **sélectionnez Acheter**. (Remarque : un nombre fixe de licences de crédits de communication sont automatiquement sélectionnées dans chaque ordre.)
 
-5. Dans la page De règlement, entrez vos informations de paiement et remplissez les informations requises :
+5. Dans la page Caisse, entrez vos informations de paiement et renseignez les informations requises :
     
-   - **Ajouter des fonds** Entrez le montant que vous voulez ajouter à votre compte. Si vous n’activez pas la recharge automatique, les capacités d’appel activées à l’aide des crédits de communication (par exemple, service entrant gratuit) seront interrompues une fois ces fonds épuisés. Pour éviter de devoir recharger manuellement votre solde de crédits de communication chaque fois qu’il atteint 0 (zéro), nous vous recommandons d’activer la fonctionnalité de recharge automatique.
+   - **Ajouter des fonds** Entrez le montant que vous souhaitez ajouter à votre compte. Si vous n’activez pas le rechargement automatique, une fois ces fonds épuisés, les fonctionnalités d’appel qui sont activées à l’aide des crédits de communication sont interrompues (par exemple, le service gratuit entrant). Pour éviter d’avoir à rétablir manuellement le solde de vos crédits de communication chaque fois que votre solde atteint 0 (zéro), nous vous recommandons d’activer la fonctionnalité de recharge automatique.
     
    - **Recharge automatique** Activer la recharge automatique permet de recharger automatiquement votre compte lorsque son solde passe en dessous d'un seuil que vous avez défini.
     
-     Nous vous recommandons d’utiliser le paramètre de **recharge** automatique pour éviter toute interruption de service au cas où votre solde de crédits de communication atteint 0 (zéro). Un courrier électronique vous est envoyé en cas de réussite des transactions de recharge, en cas d’échec des transactions de recharge (par exemple en cas de carte de crédit expirée) et lorsque le solde de vos crédits de communication atteint 0 (zéro).
+     Il est recommandé d’utiliser le paramètre **de recharge automatique** pour éviter toute interruption de service si le solde de vos crédits de communication atteint 0 (zéro). Vous recevrez un e-mail lorsque les transactions de recharge aboutissent, lorsque les transactions de recharge échouent (par exemple, une carte de crédit expirée) et lorsque le solde de vos crédits de communication atteint 0 (zéro).
     
-   - **Montant de la recharge** Entrez le montant dans la **zone Recharger avec** que vous souhaitez ajouter à votre compte une fois qu’il a atteint le montant de déclenchement ci-dessous.
+   - **Montant de recharge** Entrez le montant dans la zone **Recharge avec** laquelle vous souhaitez ajouter à votre compte une fois qu’il a atteint le montant du déclencheur ci-dessous.
     
-   - **Montant déclencheur** Entrez le montant dans **Lorsque le solde passe** en dessous de la zone utilisée pour *déclencher la recharge*  automatique. Lorsque votre solde passe en dessous de ce montant, le montant de recharge est automatiquement ajouté à votre compte.
+   - **Quantité de déclencheurs** Entrez le montant dans **When the balance falls below box** that will be used to ' *trigger*  ' the auto-recharge. Une fois que votre solde est inférieur à ce montant, le montant de recharge est ajouté automatiquement à votre compte.
 
       > [!NOTE]
-     > Le crédit s’appliquera uniquement aux crédits de communication aux tarifs publiés par Microsoft lorsque les services sont utilisés. Tout fond non utilisé dans les 12 mois suivant la date d'achat expire et est perdu. 
+     > Les fonds ne seront appliqués qu’aux crédits de communication aux tarifs publiés par Microsoft lorsque les services sont utilisés. Tout fond non utilisé dans les 12 mois suivant la date d'achat expire et est perdu. 
      > 
-     > Lorsque vous utilisez la fonction de recharge automatique, la facturation des crédits de communication est générée lorsque le montant du déclencheur est atteint et qu’une transaction de recharge est traitée. Les montants des crédits de communication sont utilisés d’une première manière. Pour savoir comment vérifier votre utilisation mensuelle, lisez Microsoft Teams [rapport d’utilisation PSTN](/microsoftteams/teams-analytics-and-reports/pstn-usage-report).
+     > Lors de l’utilisation de la fonction de recharge automatique, la facturation des crédits de communication est générée lorsque le montant du déclencheur est atteint et qu’une transaction de recharge est traitée. Les montants du crédit de communication sont utilisés d’une première manière. Pour savoir comment vérifier votre utilisation mensuelle, lisez [Microsoft Teams rapport d’utilisation RTC](/microsoftteams/teams-analytics-and-reports/pstn-usage-report).
     
-6. Sélectionnez **Placer une commande**.
+6. Sélectionnez **Ordre des places**.
     >[!IMPORTANT]
-    >Si vous êtes un client de gestion des licences en volume, vous pouvez choisir votre numéro de contrat entreprise pour le paiement. Si vous avez plusieurs numéros d’accord entreprise, vous serez en mesure de sélectionner l’accord entreprise que vous souhaitez utiliser pour le paiement. Vous aurez également une possibilité de spécifier un numéro de commande fournisseur à associer avec le numéro d’accord entreprise (le cas échéant).
+    >Si vous êtes un client de licence en volume, vous souhaiterez peut-être utiliser votre contrat entreprise pour le paiement. Si vous souhaitez le faire, ouvrez un cas de support Premier pour activer cette option. Si vous avez plusieurs numéros d’accord entreprise, vous serez en mesure de sélectionner l’accord entreprise que vous souhaitez utiliser pour le paiement. Vous aurez également la possibilité de spécifier un numéro de bon de commande à associer au numéro du contrat d’entreprise (le cas échéant) une fois que le support l’aura activé.
     
-Chaque organisation utilisera différemment le volume et les tarifs des forfaits d’appels. You will need to get this type of usage data from your current service provider. Les organisations qui utilisent déjà Skype Entreprise Online ou Microsoft Teams comme fournisseur de services peuvent obtenir des données d’utilisation en les révisant dans le rapport d’utilisation du centre d’administration **Microsoft Teams** >  **Analytics & reportsUsage** >  **reportsPSTN** >  **et SMS (preview**).
+Chaque organisation aura une utilisation différente du volume et des tarifs du forfait d’appels à prendre en compte. You will need to get this type of usage data from your current service provider. Les organisations qui utilisent déjà Skype Entreprise Online ou Microsoft Teams en tant que fournisseur de services peuvent obtenir des données d’utilisation en les consultant dans le **Microsoft Teams centre** > **d’administration Analytics & signale****les rapports** >  >  d’utilisation **PSTN et SMS (préversion).**
   
-Lors de la configuration des crédits de communication, vous devrez examiner l’utilisation des appels pour votre organisation afin de déterminer les montants dont vous avez besoin. Vous pouvez obtenir des informations sur l’utilisation des appels en vous reportant au rapport d’utilisation **PSTN et SMS (prévisualisation** ). Ce rapport vous permet d’exporter les enregistrements de données d’appel vers Excel si vous avez besoin de stocker les données ou de créer des rapports personnalisés. Pour découvrir comment consulter l’utilisation, lisez Microsoft Teams [rapport d’utilisation PSTN](/microsoftteams/teams-analytics-and-reports/pstn-usage-report).
+Lorsque vous configurez des crédits de communication, vous devez examiner l’utilisation des appels pour votre organisation afin de déterminer les montants dont vous avez besoin. Vous pouvez obtenir des informations sur l’utilisation des appels en consultant le **rapport d’utilisation PSTN et SMS (préversion).** Ce rapport vous permet d’exporter les enregistrements de données d’appel vers Excel si vous devez stocker les données ou créer des rapports personnalisés. Pour savoir comment voir l’utilisation, lisez [Microsoft Teams rapport d’utilisation RTC](/microsoftteams/teams-analytics-and-reports/pstn-usage-report).
   
-## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Étape 3 : affecter une licence crédits de communication à des utilisateurs
+## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Étape 3 : Attribuer une licence de crédits de communication aux utilisateurs
 
-1. Connectez-vous à [la Centre d'administration Microsoft 365](https://portal.office.com/Adminportal) votre compte scolaire ou scolaire.
+1. Connectez-vous au [Centre d'administration Microsoft 365](https://portal.office.com/Adminportal) avec votre compte professionnel ou scolaire.
     
-2. Dans le navigation gauche du Centre d'administration Microsoft 365,  >  sélectionnez Utilisateurs **usersActivez-les**, puis sélectionnez un utilisateur dans la liste.
+2. Dans le volet de navigation gauche de l’Centre d'administration Microsoft 365, accédez à **Utilisateurs** > **actifs**, puis sélectionnez un utilisateur dans la liste.
     
-3. **Sélectionnez Licences et Applications**.
+3. Choisissez **Licences et applications**.
     
-4. Pour attribuer cette licence, basculez les **crédits de communication** sur **Actif** , puis sélectionnez **Enregistrer**.
+4. Basculez **les crédits de communication** **sur Activé** pour affecter cette licence, puis **sélectionnez Enregistrer**.
     
     > [!NOTE]
-    > Même si certains de vos utilisateurs ont une licence **Enterprise E5**, il est recommandé de le faire.
+    > Même si des utilisateurs se voient attribuer une licence **Enterprise E5**, il est toujours recommandé de le faire.
 
     > [!TIP]
-    > Vous pouvez utiliser [PowerShell pour attribuer](/powershell/module/skype/?view=skype-ps&preserve-view=true) des licences et des applications à plusieurs utilisateurs à l’grâce d’une seule commande.
+    > Vous pouvez utiliser [PowerShell](/powershell/module/skype/?view=skype-ps&preserve-view=true) pour attribuer des licences et des applications à plusieurs utilisateurs à l’aide d’une seule commande.
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>Vous souhaitez en savoir plus sur les offres et les tarifs ?
 
-Vous pouvez consulter les plans et les tarifs en visitant l’un des liens suivants :
+Vous pouvez voir les plans et les tarifs en consultant l’un des liens suivants :
   
 - [Forfaits d’appel](https://go.microsoft.com/fwlink/?LinkId=799761 )
     
-- [Plans d’audioconférence](https://go.microsoft.com/fwlink/?LinkId=799762 )
+- [plans Audioconférence](https://go.microsoft.com/fwlink/?LinkId=799762 )
     
-- [Système téléphonique de projets](https://go.microsoft.com/fwlink/?LinkId=799763)
+- [plans Système téléphonique](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Vous pouvez également consulter des [informations en vous](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) Centre d'administration Microsoft 365 sur les **abonnements BillingSubscriptionsAdd** >  > .
+Vous pouvez également afficher des informations [en vous connectant au Centre d'administration Microsoft 365 et en](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) accédant à **Abonnements** >  de **facturation** > **Ajouter des abonnements**.
   
-Pour consulter un tableau des licences dont vous avez besoin pour chaque fonctionnalité, consultez Microsoft Teams [licences de modules ajoutés](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Pour afficher un tableau avec la licence ou les licences dont vous aurez besoin pour chaque fonctionnalité, consultez [Microsoft Teams licences de module](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) complémentaire.
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
 - [Configuration de la messagerie vocale Cloud : Aide pour l'administrateur](set-up-phone-system-voicemail.md)
     
-- [Configurer des forfaits d’appels](set-up-calling-plans.md) [et des forfaits d’appels Microsoft 365 ou Office 365](calling-plans-for-office-365.md)
+- [Configurer des forfaits d’appels](set-up-calling-plans.md) et [des forfaits d’appels pour Microsoft 365 ou Office 365](calling-plans-for-office-365.md)
     
 - [Ajouter des fonds et gérer les Crédits de Communications](add-funds-and-manage-communications-credits.md)
     

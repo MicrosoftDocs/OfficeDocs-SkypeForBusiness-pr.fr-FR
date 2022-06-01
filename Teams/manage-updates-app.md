@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 8c538a4de417bcc6b19e579162357e56c444abdb
-ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
+ms.openlocfilehash: 39b0e358e57a8780918c6969a562b28d9e3fe49d
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65781037"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823725"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Mises à jour pour votre organisation dans Microsoft Teams
 
@@ -53,6 +53,8 @@ Dans les installations de fabrication du magasin, les employés effectuent des v
 ![Image du modèle de procédure pas à pas de sécurité hebdomadaire sur un appareil mobile.](media/updates-mobile.png)
 
 Pendant ce temps, une équipe de travailleurs à distance met à jour le site web du magasin. Ils sont répartis entre les fuseaux horaires, de sorte que les réunions de stand-up quotidiennes ne sont pas pratiques. Au lieu de cela, chacun des membres de l’équipe envoie des rapports de mise à jour quotidiennes sur leur progression au responsable de l’équipe.
+
+[Téléchargez le lookbook Mises à jour](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409) pour voir d’autres exemples de ce que vous pouvez faire avec Mises à jour.
 
 ## <a name="required-permissions-and-licenses"></a>Autorisations et licences requises
 

@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 2455d386e9bdf297995880f679e5db74b299e64d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: cbea53abb94bc3cb591d98781187ac2f4cb68dfd
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674836"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823459"
 ---
 # <a name="navigate-microsoft-teams"></a>Naviguer Microsoft Teams
 
@@ -259,7 +259,7 @@ Le questionnaire est une [extension de messagerie Teams](/microsoftteams/platfor
 
 Utilisez le modèle d’application [Checkins du personnel](/microsoftteams/platform/samples/app-templates#staff-check-ins) pour permettre au personnel de première ligne de fournir facilement des informations et des mises à jour d’état critiques dans le temps sur une base planifiée ou ad hoc directement à partir de Teams. L’application prend en charge l’emplacement en temps réel, les photos, les notes, les notifications de rappel et les flux de travail automatisés.
 
-Utilisez Teams pour faciliter la formation de votre organisation. La formation est une application [d’extension de messagerie Teams](/microsoftteams/platform/what-are-messaging-extensions) personnalisée qui permet aux utilisateurs de publier une formation au sein d’une conversation ou d’un canal pour le partage et l’amélioration des connaissances hors connexion. L’application est prise en charge sur plusieurs clients de plateforme Teams, tels que bureau, navigateur, iOS et Android. Cette application est prête pour le déploiement dans le cadre de votre abonnement Microsoft 365.
+Utilisez Teams pour faciliter la formation de votre organisation. La formation est une application [d’extension de messagerie Teams](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet) personnalisée qui permet aux utilisateurs de publier une formation au sein d’une conversation ou d’un canal pour le partage et l’amélioration des connaissances hors connexion. L’application est prise en charge sur plusieurs clients de plateforme Teams, tels que bureau, navigateur, iOS et Android. Cette application est prête pour le déploiement dans le cadre de votre abonnement Microsoft 365.
 
 [Obtenez-le sur GitHub](https://github.com/OfficeDev/microsoft-teams-apps-training)
 

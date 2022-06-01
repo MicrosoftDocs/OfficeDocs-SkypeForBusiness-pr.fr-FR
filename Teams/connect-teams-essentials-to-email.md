@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bc388f533d39d6e1bc0140bcd975d6354898d5a
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: dcea261be727c01382d55c4a2861541291fcb343
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674906"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823585"
 ---
 # <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>Connecter Microsoft Teams Essentials (identité AAD) à un système de messagerie existant avec calendrier
 
@@ -69,7 +69,7 @@ Tous les e-mails générés dans Microsoft 365 sont transférés à l’espace d
 
 :::image type="content" source="media/essentials-googleworkspace.png" alt-text="Image représentant un diagramme du flux de messagerie entre EXO et Gmail":::
 
-Ces exemples s’appuient sur l’applet de commande PowerShell [Connecter-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline?view=exchange-ps&preserve-view=true) qui fait partie du [module PowerShell V2 Exchange Online](/powershell/exchange/exchange-online-powershell-v2&preserve-view=true). Si vous recevez une erreur lors de l’exécution de Connecter-ExchangeOnline, vérifiez que vous avez suivi les instructions recommandées pour installer le module à [l’aide du module EXO V2](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps&preserve-view=true). Lorsque Connect-ExchangeOnline demande des informations d’identification, veillez à utiliser un compte d’administrateur client.
+Ces exemples s’appuient sur l’applet de commande PowerShell [Connecter-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline) qui fait partie du [module PowerShell V2 Exchange Online](/powershell/exchange/exchange-online-powershell-v2?preserve-view=true&view=exchange-ps). Si vous recevez une erreur lors de l’exécution de Connecter-ExchangeOnline, vérifiez que vous avez suivi les instructions recommandées pour installer le module à [l’aide du module EXO V2](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-EXO-v2-module). Lorsque Connect-ExchangeOnline demande des informations d’identification, veillez à utiliser un compte d’administrateur client.
 
 #### <a name="step-one-set-up-a-new-microsoft-365-tenant-domain"></a>Étape 1 : Configurer un nouveau domaine de locataire Microsoft 365
 

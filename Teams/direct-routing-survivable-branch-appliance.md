@@ -1,5 +1,5 @@
 ---
-title: Direct Routing SBA
+title: SBA de routage direct
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,88 +15,88 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: En savoir plus sur le routage direct, comme la configuration, les décisions de déploiement essentielles nécessaires et les considérations relatives au routage vocal.
+description: En savoir plus sur le routage direct, comme la configuration, les décisions de déploiement de base nécessaires et les considérations relatives au routage vocal.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b378ee327f2ba284a348ff7458c617fed71541c6
-ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
+ms.openlocfilehash: f087498d3a9d679ea10ba2c8cc9505ab772d85ab
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61401888"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823645"
 ---
-# <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Appliance de branche (SBA) survivable pour le routage direct
+# <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Survivable Branch Appliance (SBA) pour le routage direct
 
 
-Parfois, un site client utilisant le routage direct pour se connecter Téléphone Microsoft système informatique peut être en panne sur Internet.
+Parfois, un site client utilisant le routage direct pour se connecter à Téléphone Microsoft System peut rencontrer une panne Internet.
 
-Supposons que le site du client (appelé branche) ne puisse pas se connecter temporairement au cloud Microsoft via un routage direct. Toutefois, l’intranet à l’intérieur de la branche est toujours pleinement fonctionnel et les utilisateurs peuvent se connecter au contrôleur de session en bordure (SBC) qui fournit la connectivité PSTN.
+Supposons que le site client, appelé branche, ne peut pas se connecter temporairement au cloud Microsoft via le routage direct. Toutefois, l’intranet à l’intérieur de la branche est toujours entièrement fonctionnel et les utilisateurs peuvent se connecter au contrôleur de bordure de session (SBC) qui fournit une connectivité RTC.
 
-Cet article décrit comment utiliser une appliance de branche permettant de survivre pour permettre à Téléphone Microsoft System de continuer à passer et recevoir des appels de réseau téléphonique commuté (PSTN) en cas de panne.
+Cet article explique comment utiliser survivable Branch Appliance (SBA) pour permettre à Téléphone Microsoft System de continuer à passer et à recevoir des appels rtc (RTC) en cas de panne.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Le code SBA est fourni par les fournisseurs Microsoft à SBC qui incorporent ensuite le code dans leur microprogramme ou le distribuez séparément pour que SBA soit exécuté sur une version VM ou un matériel distinct. 
+SBA est un code distribuable fourni par Microsoft aux fournisseurs SBC qui incorporent ensuite du code dans leur microprogramme ou le distribuent séparément pour que SBA s’exécute sur une machine virtuelle ou un matériel distinct. 
 
-Pour obtenir la dernière version du microprogramme du contrôleur de session en bordure avec l’appliance de branche survivable incorporée, contactez votre fournisseur SBC. De plus, les suivantes sont obligatoires :
+Pour obtenir le dernier microprogramme du contrôleur de bordure de session avec l’appliance survivable Branch Appliance incorporée, contactez votre fournisseur SBC. En outre, les éléments suivants sont requis :
 
-- Le SBC doit être configuré pour la dérivation média pour s’assurer que le client Microsoft Teams dans le site de branche peut faire circuler du média directement avec le SBC. 
+- Le SBC doit être configuré pour media bypass afin de s’assurer que le client Microsoft Teams dans le site de branche peut avoir des médias qui circulent directement avec le SBC. 
 
-- TLS1.2 doit être activé sur le système d’exploitation VM SBA.
+- TLS1.2 doit être activé sur le système d’exploitation de machine virtuelle SBA.
 - Les ports 3443, 4444 et 8443 sont utilisés par Microsoft SBA Server pour communiquer avec le client Teams et doivent être autorisés sur le pare-feu. 
-- Le port 5061 (ou celui configuré sur le SBC) est utilisé par Microsoft SBA Server pour communiquer avec le SBC et doit être autorisé par le pare-feu. 
-- Le port UDP 123 est utilisé par Microsoft SBA Server pour communiquer avec le serveur NTP et doit être autorisé par le pare-feu.
-- Le port 443 est utilisé par Microsoft SBA Server pour communiquer avec les Microsoft 365 et doit être autorisé par le pare-feu.
-- Les plages d’adresses IP et balises de service Azure pour le cloud public doivent être définies conformément aux directives décrites à l’adresse : https://www.microsoft.com/download/details.aspx?id=56519
+- Le port 5061 (ou celui configuré sur le SBC) est utilisé par Microsoft SBA Server pour communiquer avec le SBC et doit être autorisé sur le pare-feu. 
+- Le port UDP 123 est utilisé par Microsoft SBA Server pour communiquer avec le serveur NTP et doit être autorisé sur le pare-feu.
+- Le port 443 est utilisé par Microsoft SBA Server pour communiquer avec Microsoft 365 et doit être autorisé sur le pare-feu.
+- Les plages d’adresses IP Azure et les balises de service pour le cloud public doivent être définies conformément aux instructions décrites dans : https://www.microsoft.com/download/details.aspx?id=56519
 
-## <a name="supported-teams-clients"></a>Clients clients Teams pris en charge
+## <a name="supported-teams-clients"></a>Clients Teams pris en charge
 
 La fonctionnalité SBA est prise en charge sur les clients Microsoft Teams suivants : 
 
-- Microsoft Teams Windows bureau 
+- bureau Microsoft Teams Windows 
 
-- Microsoft Teams macOS
-- Teams pour appareils mobiles 
-- Teams Téléphones portables
+- bureau Microsoft Teams macOS
+- Teams pour mobile 
+- téléphones Teams
 
 ## <a name="how-it-works"></a>Mode de fonctionnement
 
-En cas d’interruption d’Internet, Teams client doit basculer automatiquement vers le SBA et les appels en cours doivent continuer sans interruptions. Aucune action n’est requise de la part de l’utilisateur. Dès que le client Teams détecte que vous avez accès à Internet et que tous les appels sortants sont terminés, le client revient en mode d’utilisation normal et se connecte à d’Teams services. Le SBA charge les enregistrements de données d’appel collectés dans le cloud et l’historique des appels est mis à jour de sorte que ces informations soient disponibles pour révision par l’administrateur client. 
+En cas de panne d’Internet, le client Teams doit basculer automatiquement vers l’accès SBA, et les appels en cours doivent continuer sans interruption. Aucune action n’est requise de la part de l’utilisateur. Dès que le client Teams détecte qu’Internet est activé et que tous les appels sortants sont terminés, le client revient en mode d’opération normal et se connecte à d’autres services Teams. L’administrateur SBA charge les enregistrements de données d’appel collectés dans le cloud et l’historique des appels est mis à jour afin que ces informations soient disponibles pour révision par l’administrateur client. 
 
-Lorsque le Microsoft Teams client est en mode hors connexion, la fonctionnalité d’appel suivante est disponible : 
+Lorsque le client Microsoft Teams est en mode hors connexion, les fonctionnalités liées à l’appel suivantes sont disponibles : 
 
-- Passer des appels PSTN via SBA/SBC local avec les médias s’écoule dans le SBC.
+- Effectuer des appels RTC via SBA/SBC local avec un média qui transite par le SBC.
 
-- Réception d’appels PSTN via SBA/SBC local, avec trafic de médias par le SBC. 
+- Réception d’appels RTC via SBA/SBC local avec un média transitant par le SBC. 
 
-- Appels PSTN en attente et reprise.
+- Conserver et reprendre les appels RTC.
 
 ## <a name="configuration"></a>Configuration
 
-Pour que la fonctionnalité SBA fonctionne, le client Teams doit connaître les SBA disponibles sur chaque site de filiale et les SBA attribués aux utilisateurs de ce site. Les étapes de configuration sont les suivantes :
+Pour que la fonctionnalité SBA fonctionne, le client Teams doit savoir quels SBA sont disponibles dans chaque site de branche et quels SBA sont affectés aux utilisateurs de ce site. Les étapes de configuration sont les suivantes :
 
 1. Créez les SBA.
-2. Créez la stratégie Teams de survivance de la branche de données.
-3. Attribuez la stratégie aux utilisateurs.
-4. Enregistrez une application pour SBA auprès de Azure Active Directory.
+2. Créez la stratégie de survivabilité de la branche Teams.
+3. Affectez la stratégie aux utilisateurs.
+4. Inscrivez une application pour l’enregistrement SBA auprès de Azure Active Directory.
 
-Toute la configuration est effectuée à l’aide Skype Entreprise cmdlets PowerShell online. (Le Centre Teams d’administration ne prend pas encore en charge la fonctionnalité SBA de routage direct.) 
+Toute la configuration est effectuée à l’aide Skype Entreprise applets de commande PowerShell en ligne. (Le centre d’administration Teams ne prend pas encore en charge la fonctionnalité SBA de routage direct.) 
 
-(Pour plus d’informations sur la configuration du SBC, avec des liens vers la documentation du fournisseur SBC, consultez la configuration du contrôleur de session en bordure à la fin de cet article.)
+(Pour plus d’informations sur la configuration du SBC, avec des liens vers la documentation du fournisseur SBC, consultez la configuration du contrôleur de bordure de session à la fin de cet article.)
 
 ### <a name="create-the-sbas"></a>Créer les SBA
 
-Pour créer les SBA, vous devez utiliser la cmdlet New-CsTeamsSurvivableBranchAppliance'entrée. Cette cmdlet a les paramètres suivants :
+Pour créer les SBA, vous allez utiliser l’applet de commande New-CsTeamsSurvivableBranchAppliance. Cette applet de commande a les paramètres suivants :
 
 | Paramètre| Description |
 | :------------|:-------|
-| Identity  | Identité du SBA  |
-| Fqdn | FQDN du SBA |
-| Site | Site TenantNetworkSite où se trouve le site SBA |
-| Description | Mise en forme gratuite du texte |
+| Identity  | Identité de l’administrateur de base de données  |
+| Fqdn | Nom de domaine complet du SBA |
+| Site | TenantNetworkSite où se trouve l’administrateur SBA |
+| Description | Texte au format libre |
 |||
 
 Par exemple :
@@ -109,14 +109,14 @@ Site        :
 Description : SBA 1 
 ```
 
-### <a name="create-the-teams-branch-survivability-policy"></a>Créer la stratégie Teams d’accessibilité des branches 
+### <a name="create-the-teams-branch-survivability-policy"></a>Créer la stratégie de survivabilité Teams Branch 
 
-Pour créer une stratégie, vous devez utiliser l'New-CsTeamsSurvivableBranchAppliancePolicy cmdlet. Cette cmdlet possède les paramètres suivants. Notez que la stratégie peut contenir un ou plusieurs SBA.
+Pour créer une stratégie, vous utilisez l’applet de commande New-CsTeamsSurvivableBranchAppliancePolicy. Cette applet de commande a les paramètres suivants. Notez que la stratégie peut contenir un ou plusieurs contrats SBA.
 
 | Paramètre| Description |
 | :------------|:-------|
-| Identity | L’identité de la stratégie |
-| BranchApplianceFqdns  | FQDN des SBA dans le site |
+| Identity | Identité de la stratégie |
+| BranchApplianceFqdns  | Nom de domaine complet des SBA dans le site |
 ||
 
 Par exemple :
@@ -127,7 +127,7 @@ Identity             : Tag:CPH
 BranchApplianceFqdns : {sba1.contoso.com, sba2.contoso.com} 
 ```
 
-Vous pouvez ajouter ou supprimer des SBE d’une stratégie à l’aide de Set-CsTeamsSurvivableBranchAppliancePolicy cmdlet. Par exemple : 
+Vous pouvez ajouter ou supprimer des SDA d’une stratégie à l’aide de l’applet de commande Set-CsTeamsSurvivableBranchAppliancePolicy. Par exemple : 
 
 ``` powershell
 Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @{remove="sba1.contoso.com"} 
@@ -136,12 +136,12 @@ Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @
 
 ### <a name="assign-a-policy-to-a-user"></a>Affecter une stratégie à un utilisateur
 
-Pour affecter la stratégie à des utilisateurs individuels, vous devez utiliser l'Grant-CsTeamsSurvivableBranchAppliancePolicy cmdlet. Cette cmdlet a les paramètres suivants :
+Pour affecter la stratégie à des utilisateurs individuels, vous allez utiliser l’applet de commande Grant-CsTeamsSurvivableBranchAppliancePolicy. Cette applet de commande a les paramètres suivants :
 
 | Paramètre| Description |
 | :------------|:-------|
 | Identity | Identité de l’utilisateur |
-| PolicyName | L’identité de la stratégie |
+| PolicyName | Identité de la stratégie |
 ||
 
 Par exemple :
@@ -150,53 +150,53 @@ Par exemple :
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName CPH -Identity user@contoso.com 
 ```
 
-Vous pouvez supprimer une stratégie d’un utilisateur en accordant la stratégie $Null comme illustré dans l’exemple suivant :
+Vous pouvez supprimer une stratégie d’un utilisateur en lui accordant la stratégie $Null comme indiqué dans l’exemple suivant :
 
 ``` powershell
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
 ```
 
-### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>Enregistrer une application pour SBA auprès de Azure Active Directory
+### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>Inscrire une application pour l’application SBA auprès de Azure Active Directory
 
-Pour permettre à différents SBA utilisés au sein de votre client de lire les données requises de Microsoft 365, vous devez inscrire une application pour le SBA auprès de Azure Active Directory. 
+Pour permettre à différents SBA utilisés au sein de votre locataire de lire les données requises à partir de Microsoft 365, vous devez inscrire une application pour l’authentification unique auprès de Azure Active Directory. 
 
-Pour plus d’informations sur l’inscription des applications, voir les informations suivantes :
+Pour plus d’informations sur l’inscription d’application, consultez les rubriques suivantes :
 
-- [Développez des applications métier pour les Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
+- [Développer des applications métier pour Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
-- [Enregistrer une application auprès du Plateforme d'identités Microsoft](/azure/active-directory/develop/quickstart-register-app).  
+- [Inscrivez une application auprès du Plateforme d'identités Microsoft](/azure/active-directory/develop/quickstart-register-app).  
 
-Vous ne devez inscrire qu’une seule application pour être utilisé par tous les SBE de votre client. 
+Vous n’avez besoin d’inscrire qu’une seule application pour qu’elle soit utilisée par toutes les autorités de certification de votre locataire. 
 
-Pour l’inscription SBA, les valeurs suivantes doivent être créées par l’inscription : 
+Pour l’inscription SBA, vous avez besoin des valeurs suivantes créées par l’inscription : 
 
 - ID d’application (client) 
-- Client secret 
+- Clé secrète client 
 
-Pour l’application SBA, gardez les choses suivantes à l’esprit : 
+Pour l’application SBA, gardez à l’esprit les éléments suivants : 
 
 - Le nom peut être ce que vous décidez.  
-- Types de comptes pris en charge = Compte dans cet annuaire de l’organisation uniquement. 
-- The Web Redirect Uri = https://login.microsoftonline.com/common/oauth2/nativeclient .
-- Jetons d’octroi implicites = jetons Access et ID. 
-- Autorisations de l’API = Skype et Teams’accès de l’administrateur client ->'application - > application_access_custom_sba_appliance.
-- Secret client : vous pouvez utiliser n’importe quelle description et expiration. 
-- N’oubliez pas de copier le secret client immédiatement après l’avoir créé. 
+- Types de comptes pris en charge = Compte dans cet annuaire organisationnel uniquement. 
+- Uri de redirection web = https://login.microsoftonline.com/common/oauth2/nativeclient.
+- Jetons d’octroi implicite = Jetons d’accès et jetons d’ID. 
+- Autorisations d’API = Skype et Teams locataire Administration Access -> Autorisations d’application -> application_access_custom_sba_appliance.
+- Clé secrète client : vous pouvez utiliser n’importe quelle description et expiration. 
+- N’oubliez pas de copier la clé secrète client immédiatement après sa création. 
 - L’ID d’application (client) s’affiche sous l’onglet Vue d’ensemble.
 
-Ensuite, suivez ces étapes :
+Procédez comme suit :
 
-1. Enregistrez l’application.
+1. Inscrivez l’application.
 2. Définissez les jetons d’octroi implicites.
-3. Définissez les autorisations de l’API.
-4. Créez le secret client.
+3. Définissez les autorisations d’API.
+4. Créez la clé secrète client.
 
 
-## <a name="session-border-controller-configuration"></a>Configuration du contrôleur de session Border 
+## <a name="session-border-controller-configuration"></a>Configuration du contrôleur de bordure de session 
 
-Pour obtenir une aide étape par étape sur la configuration du contrôleur de session en bordure avec l’appliance de branche utilisable pour la survie, consultez la documentation fournie par votre fournisseur SBC : 
+Pour obtenir des instructions pas à pas sur la configuration de votre contrôleur de frontière de session avec l’appliance survivable Branch appliance incorporée, consultez la documentation fournie par votre fournisseur SBC : 
 
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-survivable-branch-appliances)
+- [AudioCodes](https://www.audiocodes.com/library/technical-documents?query=sba)
 
 - [Ruban](https://support.sonus.net/pages/viewpage.action?pageId=248644034)
 
@@ -206,16 +206,16 @@ Pour obtenir une aide étape par étape sur la configuration du contrôleur de s
 
 ## <a name="reporting-issues"></a>Signaler des problèmes
 
-Signalez les problèmes à l’organisation de support de votre fournisseur SBC. Lorsque vous signalez le problème, indiquez que vous avez une appliance de branche utilisable par la survivable.
+Signalez les problèmes à l’organisation de support technique de votre fournisseur SBC. Lorsque vous signalez le problème, indiquez que vous disposez d’une appliance Survivable Branch Appliance configurée.
 
 ## <a name="known-issues"></a>Problèmes connus
 
-- L’ajout de nouveaux équipements de branches survivables peut prendre un certain temps avant de pouvoir les utiliser dans les stratégies d’appliance de branche survivable.
+- Lorsque vous ajoutez de nouvelles appliances Survivable Branch Appliances, cela peut prendre un certain temps avant de pouvoir les utiliser dans les stratégies Survivable Branch Appliance.
 
-- Lorsque vous affectez une stratégie d’équipement de branche survivable à un utilisateur, l’utilisation de SBA dans la sortie de Get-CsOnlineUser peut prendre un certain temps. 
+- Lorsque vous attribuez une stratégie Survivable Branch Appliance à un utilisateur, l’affichage de l’authentification unique dans la sortie de Get-CsOnlineUser peut prendre un certain temps. 
 
-- La recherche inversée de nombre par rapport Azure AD Contacts n’est pas effectuée. 
+- La recherche de numéros inversés sur les contacts Azure AD n’est pas effectuée. 
 
-- Le SBA ne prend pas en charge les paramètres de forwardage d’appel. 
+- L’administrateur SBA ne prend pas en charge les paramètres de transfert d’appel. 
 
-- La prise en charge d’un appel d’urgence vers un numéro de secours configuré pour les appels d’urgence dynamiques (E911) n’est pas prise en charge.
+- L’appel d’urgence à un numéro d’urgence configuré pour les appels d’urgence dynamiques (E911) n’est pas pris en charge.
