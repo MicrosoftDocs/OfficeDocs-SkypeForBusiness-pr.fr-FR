@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Apprenez à utiliser et à gérer les canaux partagés dans Microsoft Teams.
-ms.openlocfilehash: afaae423b09b36845b0eeadd9276de1356d0fca0
-ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
+description: Découvrez comment utiliser et gérer des canaux partagés dans Microsoft Teams.
+ms.openlocfilehash: 72701d71712a553c9a02cf9ab41ce0ced0597c3a
+ms.sourcegitcommit: c74c83fdb3fdbf1a5ebc9398bf0379d33f888d1b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65785984"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65795636"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canaux partagés dans Microsoft Teams
 
@@ -150,11 +150,78 @@ Les limitations suivantes s’appliquent également :
 
 - Les canaux partagés supportent les onglets à l’exception de Stream, Planner et Forms.
 
-- Les applications LOB, les bots, les connecteurs et les extensions de message ne sont pas pris en charge pour l'aperçu public.
+- Les applications métier, les bots, les connecteurs et les extensions de message ne sont pas pris en charge.
 
 - Lorsque vous créez une équipe à partir d’une équipe existante, les canaux privés de l’équipe existante ne seront pas copiés.
 
 - Pour l’instant, les notifications des canaux privés ne sont pas incluses dans les messages électroniques d’activité manqués.
+
+## <a name="supported-apps-in-shared-channels"></a>Applications prises en charge dans les canaux partagés
+
+Pour plus d’informations sur la préparation de votre application pour les canaux partagés, consultez [Comment ouvrir votre application à la collaboration inter-organisationnelle avec Microsoft Teams Connect](https://mybuild.microsoft.com/sessions/4d84d73c-08de-4f56-990b-2a73b2037df1).
+
+Les applications suivantes sont prises en charge pour une utilisation dans des canaux partagés. 
+
+- Activité
+- Adobe Acrobat Sign
+- Asana
+- Calendrier
+- Calendar Pro
+- Appel
+- Conversation
+- Code by Vivani
+- Conceptboard
+- Excel
+- FileBrowser
+- Fichiers
+- Flipgrid
+- Freehand by InVision
+- HeyTaco
+- Jira Cloud
+- Kahoot!
+- Listes
+- Lucidchart
+- Lumio
+- MeisterTask
+- MindMeister
+- Mindomo
+- Miro
+- Monday.com
+- MURAL
+- Nearpod
+- OneNote
+- fichier PDF ;
+- Pear Deck
+- PowerPoint
+- Priority Matrix
+- Quicklinks
+- Quizlet
+- Saved
+- Scrum-Poker
+- Rechercher
+- Microsoft Office SharePoint Online
+- SharePoint Pages
+- Slido
+- Smartsheet
+- SurveyMonkey
+- Tasks in a Box
+- Équipes
+- Teams Manager
+- TeamViewer
+- Travail d’équipe
+- Testportal
+- TrackingTime
+- Trello
+- Vevox
+- Visio
+- VSTS
+- Wakelet
+- Web
+- Wooclap
+- Mot
+- YouTube
+- Zendesk
+- Zoho Projects
 
 ## <a name="related-topics"></a>Rubriques connexes
 

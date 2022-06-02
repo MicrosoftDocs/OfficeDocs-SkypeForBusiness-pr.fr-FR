@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et périphériques USB (tels que les casques, les haut-parleurs, les webcams et les moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 912d6d3481ba6f9885a79e0600f74c9ecd031c8c
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: ac06ca93423039714de87a5bce036b18becedb27
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760896"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840966"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft Teams
 
@@ -74,13 +74,14 @@ Si vous êtes fabricant et que vous souhaitez participer au programme de certifi
 
 ## <a name="certified-devices"></a>Appareils certifiés
 
-*Table mise à jour mai 2022*
+*Tableau mis à jour en juin 2022*
 
 > [!NOTE]
 > Le format de date est MMDDYYYYY.
 
 | Fabricant        | Modèle                                                     | Qualifié      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |Casques C10/C20/C50                                |5/31/2022       |Certifié pour Microsoft Teams                           |
 |Poly                 |Moniteur Studio P21                                         |5/12/2022       |Certifié pour Microsoft Teams                           |
 |Yealink              |Casque UH38                                               |5/2/2022        |Certifié pour Microsoft Teams                           |   
 |Yealink              |Casque BH72                                               |5/2/2022        |Certifié pour Microsoft Teams                           |
@@ -146,8 +147,8 @@ Si vous êtes fabricant et que vous souhaitez participer au programme de certifi
 |Lenovo               |Pro casque stéréo VoIP câblé                              |12/21/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
 |Poly                 |Savi Office 7320                                           |12/18/2020      |Certifié pour Microsoft Teams                           |
 |Poly                 |Savi Office 7310                                           |12/18/2020      |Certifié pour Microsoft Teams                           |
-|Jabra                |Evolve 75e Headset                                         |12/16/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
-|Jabra                |Evolve 65e Headset                                         |12/16/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
+|Jabra                |Evolve 75e / casque SE                                         |12/16/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
+|Jabra                |Evolve 65e /SE Headset                                         |12/16/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
 |Dell                 |Moniteur C3422WE                                            |12/11/2020      |Certifié pour Microsoft Teams                           |
 |Dell                 |Moniteur C2722DE                                            |12/11/2020      |Certifié pour Microsoft Teams                           |
 |Dell                 |Moniteur C2422HE                                            |12/11/2020      |Certifié pour Microsoft Teams                           |
