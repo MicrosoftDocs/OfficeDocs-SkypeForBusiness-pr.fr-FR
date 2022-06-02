@@ -8,7 +8,7 @@ En tant que fournisseur de solutions de centre de contacts, vous avez le choix e
 
 - Si vous souhaitez utiliser des bots Azure et les API Microsoft Graph Communication pour permettre aux fournisseurs de solutions de créer des applications Teams, consultez le [modèle Étendre](?tabs=extend#steps).
 
-- Si vous souhaitez utiliser un Kit de développement logiciel (SDK) qui permet aux fournisseurs de solutions d’imbinger des expériences natives Teams dans leur application, consultez le [modèle Power](?tabs=power#steps). Les solutions d’alimentation seront possibles lorsque le Kit de développement logiciel (SDK) sera disponible, vers la fin de 2021.
+- Si vous souhaitez utiliser un Kit de développement logiciel (SDK) qui permet aux fournisseurs de solutions d’imbinger des expériences natives Teams dans leur application, consultez le [modèle Power](?tabs=power#steps). Les solutions d’alimentation sont possibles lorsque le Kit de développement logiciel (SDK) est disponible. À venir.
 
 ### <a name="the-connect-model"></a>[**Modèle Connecter**](#tab/connect)
 
@@ -64,17 +64,6 @@ Bien que ces fonctionnalités ne soient pas une liste complète des fonctionnali
 
 Le modèle Power permet aux fournisseurs de solutions de créer des applications vocales basées sur Azure natives à l’aide de l’infrastructure d’appel Teams et de la plateforme cliente pour fournir des solutions modernes et intelligentes pour la connexion collaborative entre les clients et les agents. L’objectif du modèle Power est de fournir une expérience de centre de contacts à une application et à un écran.
 
-**Points forts des fonctionnalités :**
-
-Bien que ces fonctionnalités ne soient pas une liste complète des fonctionnalités de ce modèle d’intégration, les domaines d’intérêt sont les suivants :
-
-- Expériences d’agent formel activées en mode natif pour la communication omnicanal via Teams SDK
-
-- Utiliser Teams services de collaboration pour la collaboration des agents et les interactions avec les clients
-
-- Approvisionnement rapide des services cloud, déployer n’importe où
-
-- Contrôle de conversation direct et interaction avec les utilisateurs pendant les conversations Teams
 
 > [!NOTE]
-> Le modèle Power sera disponible fin 2021.
+> À venir.
