@@ -1,5 +1,5 @@
 ---
-title: Canaux partagés dans Microsoft Teams (Aperçu)
+title: Canaux partagés dans Microsoft Teams
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,15 +17,15 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Apprenez à utiliser et à gérer les canaux partagés dans Microsoft Teams (Preview).
-ms.openlocfilehash: 1f222d8994c435c315a91deaba77e383b55cba42
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+description: Apprenez à utiliser et à gérer les canaux partagés dans Microsoft Teams.
+ms.openlocfilehash: afaae423b09b36845b0eeadd9276de1356d0fca0
+ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393878"
+ms.lasthandoff: 05/31/2022
+ms.locfileid: "65785984"
 ---
-# <a name="shared-channels-in-microsoft-teams-preview"></a>Canaux partagés dans Microsoft Teams (Aperçu)
+# <a name="shared-channels-in-microsoft-teams"></a>Canaux partagés dans Microsoft Teams
 
 Les canaux partagés dans Microsoft Teams créent des espaces de collaboration où vous pouvez inviter des personnes qui ne font pas partie de l'équipe. Seuls les utilisateurs qui sont propriétaires ou membres du canal partagé peuvent accéder à ce dernier. Alors que les invités (personnes disposant de comptes d'invités Azure Active Directory dans votre organisation.) ne peuvent pas être ajoutés à un canal partagé, vous pouvez inviter des personnes extérieures à votre organisation à participer à un canal partagé en utilisant Azure AD B2B direct connect.
 
@@ -36,12 +36,6 @@ Seuls les membres des canaux partagés peuvent voir et participer aux canaux par
 Lorsqu'un canal partagé est créé, il est lié à l'équipe parente et ne peut pas être déplacé vers une autre équipe. En outre, les canaux partagés ne peuvent pas être convertis en canaux standard et vice versa.
 
 [Comparer les canaux partagés avec d’autres types de canaux](/microsoftteams/teams-channels-overview#channel-feature-comparison).
-
-## <a name="best-practices-for-the-shared-channels-preview"></a>Meilleures pratiques pour l'aperçu des canaux partagés
-
-Les canaux partagés sont en version préliminaire et nécessitent que vous ayez configuré [Microsoft Teams Public Preview](/MicrosoftTeams/public-preview-doc-updates). Si vous prévoyez de partager des canaux avec d'autres organisations, celles-ci doivent également avoir configuré l'aperçu public de Teams.
-
-Nous vous recommandons d'activer l'aperçu pour tous vos utilisateurs. Les utilisateurs pour lesquels l'aperçu n'est pas activé ne peuvent pas créer de canaux partagés, mais peuvent toujours être ajoutés à des canaux partagés. L'activation de l'aperçu pour tous les utilisateurs peut contribuer à garantir une expérience cohérente.
 
 ## <a name="getting-started-with-shared-channels"></a>Prise en main des canaux partagés
 
@@ -141,14 +135,14 @@ Les articles suivants peuvent être utiles aux utilisateurs de votre organisatio
 
 [Rôles partagés de propriétaire et de membre du canal dans Teams](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
-## <a name="limits-for-shared-channels-preview"></a>Limites pour les canaux partagés (prévisualisation)
+## <a name="limits-for-shared-channels"></a>Limites pour les canaux partagés
 
 Le tableau suivant décrit le nombre maximal de canaux et de membres.
 
 |Maximum...|Valeur|Remarques|
 |:---------|:----|:----|
 |Membres d’une équipe|25 000|Inclut tous les utilisateurs de l’équipe et dirige les membres dans les canaux partagés.|
-|Canaux partagés par équipe|50|Hébergé et partagé avec l’équipe. (Inclut les canaux supprimés pendant leur fenêtre de récupération de 30 jours.)|
+|Canaux partagés par équipe|200|Hébergé et partagé avec l’équipe. (Inclut les canaux supprimés pendant leur fenêtre de récupération de 30 jours.)|
 |Teams un canal peut être partagé avec|50|Exclusion de l’équipe parente|
 |Membres dans un canal partagé|5 000 membres directs, y compris jusqu’à 50 équipes. (Chaque équipe avec laquelle le canal est partagé compte comme un membre aux fins de cette limite).|Les mises à jour en temps réel ne sont disponibles que pour 25 000 utilisateurs à la fois et seuls 25 000 utilisateurs apparaîtront dans la liste des chaînes.|
 
