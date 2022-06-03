@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccc69a07d523b046298643ad387e31e25138096f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 7c26f70bb6592c418968b77c9ef2a495cb98648a
+ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676126"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860795"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurer la connexion parente dans Microsoft Teams pour l'éducation
 
@@ -56,13 +56,13 @@ La connexion parents permet aux enseignants et aux tuteurs de discuter, d’envo
 > - Fonctionnalités Exchange de la branche publique (PBX).
 > - Connexion au rtc.
 >
-> Microsoft 365 A1 et les plans A3 n’incluent pas les fonctionnalités PBX ni la connexion PSTN. Vous pouvez acheter [des licences de module complémentaire pour chacune de ces licences](/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+> Microsoft 365 A1 et les plans A3 n’incluent pas les fonctionnalités PBX ni la connexion PSTN. Vous pouvez acheter [des licences de module complémentaire pour chacune de ces licences](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 >
 > Microsoft 365 A5 plans incluent uniquement des fonctionnalités PBX à l’aide de Teams Système téléphonique. Vous devrez toujours [acheter un plan d’appel Teams ou utiliser une solution tierce](pstn-connectivity.md) pour vous connecter à des numéros externes sur le rtc.
 >
 > Pour plus d’informations sur toutes vos options pour obtenir une connectivité RTC, consultez les [options de connectivité RTC](pstn-connectivity.md).
 >
-> Pour plus d’informations sur Teams licences d’appel, consultez [Teams options de licence de module](/teams-add-on-licensing/microsoft-teams-add-on-licensing) complémentaire.
+> Pour plus d’informations sur Teams licences d’appel, consultez [Teams options de licence de module](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) complémentaire.
 
 ## <a name="requirements"></a>Conditions requises
 
@@ -91,13 +91,20 @@ La connexion parents permet aux enseignants et aux tuteurs de discuter, d’envo
   - Cette option doit être activée au niveau du locataire et de l’utilisateur. Le paramètre de niveau client se trouve dans **Users > External Access** dans le centre d’administration Teams. Ce paramètre est également accessible via PowerShell. Les stratégies d’accès externe au niveau de l’utilisateur sont accessibles uniquement via PowerShell. Pour plus d’informations, consultez les commandes PowerShell ci-dessous.
 
 #### <a name="parent-and-guardian-restrictions"></a>Restrictions relatives aux parents et aux tuteurs
-Les parents et les tuteurs sont classés en tant qu’utilisateurs externes dans la connexion parents, ce qui signifie qu’ils n’ont pas de droits de locataire complets. Ils ont uniquement accès à la conversation ou aux conversations aux laquelle ils sont ajoutés, ainsi qu’aux fichiers, images et autres contenus partagés dans la conversation.
+
+Les parents et les tuteurs sont classés en tant *qu’utilisateurs externes* dans la connexion parents, ce qui signifie qu’ils n’ont pas de droits de locataire complets. Ils ont uniquement accès à la conversation ou aux conversations dont ils font partie et aux fichiers, images et autres contenus partagés dans la conversation.
+
+Pour les conversations externes, les utilisateurs internes et externes peuvent ajouter des utilisateurs à la conversation. Pour en savoir plus sur l’expérience de conversation externe, consultez [Gérer les réunions externes et la conversation dans Microsoft Teams](manage-external-access.md).
 
 En outre, les utilisateurs externes peuvent voir la présence (hors connexion, disponible, occupée, etc.) des utilisateurs de votre organisation, mais cela peut être désactivé à l’aide de PowerShell pour protéger la confidentialité des utilisateurs. Dans PowerShell, utilisez [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) et définissez ``EnablePrivacyMode=true``.
 
 Même si les parents et les tuteurs sont des utilisateurs externes, leurs contributions aux conversations sont détectables. Découvrez comment effectuer une enquête Teams eDiscovery en lisant [Effectuer une enquête eDiscovery sur le contenu dans Microsoft Teams](ediscovery-investigation.md).
 
+> [!IMPORTANT]
+> Les administrateurs informatiques doivent informer tous les propriétaires de classes sur les meilleures pratiques pour partager des informations sur les étudiants via une conversation, y compris les risques pour la confidentialité des étudiants.
+
 #### <a name="blocking-a-parent-or-guardian-in-a-chat"></a>Blocage d’un parent ou d’un tuteur dans une conversation
+
 Les enseignants peuvent bloquer un tuteur dans la conversation initiée dans la connexion parente.
 
 Le propriétaire de la classe peut :
