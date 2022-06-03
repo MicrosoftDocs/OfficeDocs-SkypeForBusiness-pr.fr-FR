@@ -1693,7 +1693,7 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
               - name: Rendez-vous virtuels avec Teams – Intégration à Epic EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: Rapports d’administration de dossier médical informatisé
+              - name: Rapport des rendez-vous virtuels du connecteur DMI
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Rendez-vous virtuels avec Bookings et Teams
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
