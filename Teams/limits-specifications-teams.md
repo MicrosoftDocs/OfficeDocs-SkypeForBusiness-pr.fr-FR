@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 94d59c27841e873c4e178a1b5c0d09df6942c1fc
-ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
+ms.openlocfilehash: 16ca31652f3b5b9daa0216e683d80e6d9b0c809d
+ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65400240"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65886631"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -97,6 +97,8 @@ Users who participate in conversations that are part of the chat list in Teams m
 |Taille de chaque pièce jointe | Inférieur à 10 Mo |
 |Nombre d’images incorporées<sup>2</sup> |50   |
 
+> [!NOTE]
+> Le nombre d'e-mails que vous pouvez envoyer à un canal est limité. La limite est de six e-mails par dix secondes par canal et par utilisateur et de huit e-mails par dix secondes par client et par utilisateur.
 <sup>1</sup> Si le message excède cette limite, un aperçu du message est généré et l’utilisateur est invité à télécharger et à afficher le message d’origine à partir du lien fourni.
 
 <sup>2</sup> Si le nombre de pièces jointes ou d’images dépasse cette limite, un message d’erreur s’affiche.

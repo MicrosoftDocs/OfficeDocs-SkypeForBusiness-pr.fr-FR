@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c975abb16b8c131b21733d57463435aa7e643639
-ms.sourcegitcommit: 6e7af2e556526bd8b2bcc8f689192e254d8cb4a3
+ms.openlocfilehash: 39025c0ccd9cb3b7bc02de85719f98f4ec7f3090
+ms.sourcegitcommit: 1788f852508208a01f230f6f68a5a81ec8594c47
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62146251"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860067"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Configuration matérielle requise pour Microsoft Teams
 
@@ -44,7 +44,7 @@ Toutes les conditions requises dans les sections suivantes s’appliquent à la 
 |Version de .NET    |  Requiert .NET 4.5 CLR ou version ultérieure.       |
 |Vidéo    |  Caméra vidéo USB 2.0       |
 |Appareils    |   Caméra d’ordinateur portable standard, microphone et haut-parleurs    |
-|Appels vidéo et réunions|<ul><li>Requiert un processeur à 2 cœurs. Pour une meilleure résolution du partage de vidéo ou d’écran et une meilleure fréquence d’images, un processeur 4 cœurs ou plus est recommandé.</li> <li>Les effets vidéo d’arrière-plan nécessitent Windows 10 ou un processeur avec le jeu d’instructions AVX2.</li> <li>Consultez l’article [Recommandations relatives au pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs non pris en charge.</li><li>Participer à une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams nécessite le Bluetooth LE, qui nécessite l’activation du Bluetooth sur l’appareil client. Pour les clients Windows, le client Teams 64 bits est nécessaire. Cette fonctionnalité n’est pas disponible sur les clients Teams 32 bits.</li></ul> |
+|Appels vidéo et réunions|<ul><li>Nécessite un processeur à deux cœurs. Pour une résolution de partage vidéo/d’écran et une fréquence d’images plus élevées, il est recommandé d’utiliser un processeur à quatre cœurs ou mieux.</li> <li>Les effets vidéo d’arrière-plan nécessitent Windows 10 ou un processeur avec le jeu d’instructions AVX2.</li> <li>Consultez l’article [Recommandations relatives au pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs non pris en charge.</li><li>Participer à une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams nécessite le Bluetooth LE, qui nécessite l’activation du Bluetooth sur l’appareil client. Pour les clients Windows, le client Teams 64 bits est nécessaire. Cette fonctionnalité n’est pas disponible sur les clients Teams 32 bits.</li></ul> |
 |Événements en direct Teams | Si vous générez des événements en direct Teams, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur Kaby Lake Core i5, d’une RAM de 4,0 Go (ou plus) et d’un codeur matériel. Consultez l’article [Recommandations relatives au pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs **non pris en charge**. |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Configuration matérielle requise pour Teams sur Mac
@@ -58,7 +58,7 @@ Toutes les conditions requises dans les sections suivantes s’appliquent à la 
 |Système d’exploitation  |    L’une des trois versions les plus récentes de macOS. Vous trouverez des informations sur les dernières versions de macOS et comment mettre à jour votre version de macOS [ici](https://support.apple.com/en-us/HT201260). Par exemple, lorsqu’une nouvelle version de macOS est publiée, la nouvelle version et les deux versions qui la précèdent deviennent les versions prises en charge.      |
 |Vidéo  |    Webcam compatible     |
 |Voix    |  Microphone et haut-parleurs compatibles, casque avec microphone ou appareil équivalent       |
-|Appels vidéo et réunions | <ul><li>Requiert un processeur à 2 cœurs. Pour une meilleure résolution du partage de vidéo ou d’écran et une meilleure fréquence d’images, un processeur 4 cœurs ou plus est recommandé. </li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Linux.</li></ul>
+|Appels vidéo et réunions | <ul><li>Nécessite un processeur à deux cœurs. Pour une résolution de partage vidéo/d’écran et une fréquence d’images plus élevées, il est recommandé d’utiliser un processeur à quatre cœurs ou mieux. </li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Linux.</li></ul>
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Configuration matérielle requise pour Teams sur Linux
@@ -74,7 +74,7 @@ Toutes les conditions requises dans les sections suivantes s’appliquent à la 
 |Vidéo    |  Caméra vidéo USB 2.0       |
 |Appareils    |   Caméra d’ordinateur portable standard, microphone et haut-parleurs    |
 |Voix    |  Microphone et haut-parleurs compatibles, casque avec microphone ou appareil équivalent       |
-|Appels vidéo et réunions | <ul><li>Requiert un processeur à 2 cœurs. Pour une meilleure résolution du partage de vidéo ou d’écran et une meilleure fréquence d’images, un processeur 4 cœurs ou plus est recommandé.</li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Linux.</li></ul>
+|Appels vidéo et réunions | <ul><li>Nécessite un processeur à deux cœurs. Pour une résolution de partage vidéo/d’écran et une fréquence d’images plus élevées, il est recommandé d’utiliser un processeur à quatre cœurs ou mieux.</li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Linux.</li></ul>
 |Distributions Linux prises en charge | Ubuntu 18.04 LTS, 20.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8       |
 |Environnement de bureau pris en charge | GNOME, KDE       |
 |Serveur d’affichage pris en charge | X11       |
@@ -101,6 +101,6 @@ Voir [Teams pour une infrastructure bureau virtualisée(VDI)](teams-for-vdi.md) 
 ### <a name="related-topics"></a>Sujets associés
 
 - [Obtenir les applications Teams](get-clients.md)
-- [Microsoft Teams sur les appareils mobiles](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
+- [Microsoft Teams sur les appareils mobiles](https://support.microsoft.com/office/set-up-your-teams-mobile-apps-1ba8dce3-1122-47f4-8db6-00a4f93117e8)
 - [Installer l’application Microsoft Teams à l’aide d’un fichier MSI](msi-deployment.md)
 - [Limites et spécifications de Microsoft Teams](limits-specifications-teams.md)

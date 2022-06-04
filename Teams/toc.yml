@@ -455,6 +455,8 @@ items:
             href: teams-analytics-and-reports/information-protection-license-report.md
           - name: Rapport d’utilisation des visites virtuelles Teams
             href: teams-analytics-and-reports/virtual-visits-usage-report.md
+          - name: Rapport des rendez-vous virtuels du connecteur DMI Teams
+            href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
       - name: 'Fichiers journaux, Intégrité des services et support'
         items:
           - name: Utiliser des fichiers journaux pour surveiller et résoudre des problèmes liés à Teams
@@ -1693,7 +1695,7 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
               - name: Rendez-vous virtuels avec Teams – Intégration à Epic EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: Rapport des rendez-vous virtuels du connecteur DMI
+              - name: Rapport des rendez-vous virtuels du connecteur DMI Teams
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Rendez-vous virtuels avec Bookings et Teams
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
