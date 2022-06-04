@@ -1,9 +1,9 @@
 ---
-title: Teams la comparaison des fonctionnalités des appareils pour les espaces partagés entre les Windows et les Android
+title: Comparaison des fonctionnalités des appareils Teams pour les espaces partagés entre Windows et Android
 author: dstrome
 ms.author: dstrome
 manager: jsarrasin
-ms.date: 10/07/2021
+ms.date: 06/03/2022
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
@@ -20,23 +20,23 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de089e5c87615f039e91832d95310faa8ff41ac6
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 46ea03016b329801b5cdd4b422192ff35496dbdd
+ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761076"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65886701"
 ---
-# <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Teams les appareils pour les espaces partagés présentent une comparaison entre Windows et Android 
-Salles Microsoft Teams expériences sont conçues en tenant compte des clients. Chaque client a des besoins uniques, c’est pourquoi Microsoft offre un large éventail d’options, notamment salles Teams sur Windows et sur Android. 
+# <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Comparaison des fonctionnalités des appareils Teams pour les espaces partagés entre Windows et Android 
+Les expériences salles Microsoft Teams sont conçues en tenant compte des clients. Chaque client a des besoins uniques, c’est pourquoi Microsoft offre un large éventail d’options, y compris les salles Teams sur Windows et sur Android. 
 
 Les fonctionnalités principales sont disponibles sur les deux plateformes afin que les utilisateurs finaux puissent toujours bénéficier d’expériences audio et vidéo exceptionnelles, utiliser une jointure tactile pour participer à des réunions, et accéder à des fonctionnalités inclusives telles que des légendes en direct et lever la main. 
 
-À mesure que Microsoft apporte de nouvelles fonctionnalités à Teams et à salles Teams, nous nous efforçons de les apporter à toutes les plateformes, mais les fonctionnalités peuvent être déployées à différents moments en raison de plusieurs facteurs, notamment la faisabilité technique et les commentaires des clients pour chaque plateforme. Cela signifie que certaines fonctionnalités peuvent être déployées sur Windows avant qu’elles ne soient disponibles sur la plateforme Android. 
+Comme Microsoft apporte de nouvelles fonctionnalités à Teams et aux salles Teams, nous nous efforçons de les apporter à toutes les plateformes, mais les fonctionnalités peuvent être déployées à différents moments en raison de plusieurs facteurs, notamment la faisabilité technique et les commentaires des clients pour chaque plateforme. Cela signifie que certaines fonctionnalités peuvent être déployées sur Windows avant qu’elles ne soient disponibles sur la plateforme Android. 
 
-Pour vous guider sur les fonctionnalités disponibles sur différentes plateformes, vous pouvez vous reporter au graphique ci-dessous, qui sera mis à jour régulièrement. Toutes les fonctionnalités salles Teams ne seront pas incluses dans cette liste. Pour plus d’informations, consultez la [feuille de route Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) et les représentants commerciaux microsoft.    
+Pour vous guider sur les fonctionnalités disponibles sur différentes plateformes, vous pouvez vous reporter au graphique ci-dessous, qui sera mis à jour régulièrement. Toutes les fonctionnalités salles Teams ne seront pas incluses dans cette liste. Pour plus d’informations, consultez la [feuille de route microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) et les représentants commerciaux de Microsoft.    
 
-## <a name="teams-devices-for-shared-spaces"></a>appareils Teams pour les espaces partagés
+## <a name="teams-devices-for-shared-spaces"></a>Appareils Teams pour les espaces partagés
 ### <a name="feature-comparison-between-windows-and-android"></a>Comparaison des fonctionnalités entre Windows et Android
 (mars 2022) 
 
@@ -45,7 +45,7 @@ Pour vous guider sur les fonctionnalités disponibles sur différentes plateform
 |**Participation à une réunion**|Jointure tactile |Disponible  |Disponibles |
 ||Jointure de proximité |Disponible  |Disponibles |
 ||Conférence maintenant |Disponible  |Disponibles |
-||Participation directe à l’invité |Disponible  |Bientôt disponible |
+||Participation directe à l’invité |Disponible  |Disponibles |
 |**Engagement et collaboration des réunions**|Expérience d’application intuitive et spécialement conçue |Disponible  |Disponibles |
 ||Mises en page vidéo et de contenu (par exemple, mode Ensemble, grande galerie, galerie uniquement, galerie et contenu) |Disponible  |Disponibles |
 ||Bulles de conversation|Disponible |Bientôt disponible |
@@ -57,18 +57,18 @@ Pour vous guider sur les fonctionnalités disponibles sur différentes plateform
 ||Légendes fermées en direct |Disponible  |Disponibles |
 ||Enregistrement cloud et transcription de réunion |Disponible  |Disponibles |
 ||Réunions coordonnées avec Surface Hub |Disponible |Non disponibles |
-||Microsoft Whiteboard (entrée manuscrite à l’écran disponible avec écran tactile) |Disponible  |Disponibles |
+||Tableau blanc Microsoft (entrée manuscrite à l’écran disponible avec écran tactile) |Disponible  |Disponibles |
 ||Capture de contenu intelligent |Disponible  |Bientôt disponible |
 |**Contrôles de réunion et d’appareil**|Contrôles à distance de salle sur mobile |Disponible  |Disponibles |
 ||Partage sans fil |Disponible  |Disponibles |
 ||Cast à partir d’un mobile |Disponible  |Disponibles |
 ||Résolution vidéo et de contenu : 1080p, 30 FPS |Disponible  |Disponibles |
 ||Liste des participants à la réunion |Disponible  |Disponibles |
-||Cortana compétences vocales |Disponible  |Bientôt disponible |
+||Compétences vocales de Cortana |Disponible  |Bientôt disponible |
 ||Prise en charge du double écran |Disponible  |Disponibles |
 |**Sécurité**|Montage sécurisé, emplacement de verrouillage de sécurité (verrouillage Kensington), accès aux ports d’E/S |Disponible  |Disponibles |
 ||Système d'exploitation |Windows 10  |Android 8.1+ |
-||Fonctionnalités de sécurité du système d’exploitation |TPM 2.0, désactiver des ports spécifiques, démarrage sécurisé, Credential Guard, contrôle d’accès de paramètre OOBE, protection d’accès direct à la mémoire, sécurité réseau |Android chiffrement de disque complet, fonctionnalités propres à l’OEM |
+||Fonctionnalités de sécurité du système d’exploitation |TPM 2.0, désactiver des ports spécifiques, démarrage sécurisé, Credential Guard, contrôle d’accès de paramètre OOBE, protection d’accès direct à la mémoire, sécurité réseau |Chiffrement de disque complet Android, fonctionnalités propres à OEM |
 ||Mode plein écran |Disponible  |Disponibles |
 |**Gestion et administration**|Déléguer en toute sécurité l’accès de gestion à un partenaire |Disponible  |Disponibles |
 ||Contrôle d’accès en fonction des rôles |Disponible  |Disponibles |

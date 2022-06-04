@@ -13,31 +13,31 @@ ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: Découvrez la configuration requise pour la prise en charge des Salles Microsoft Teams, notamment le choix de l’appareil, des microphones, des haut-parleurs, des caméras et des écrans appropriés.
+description: Découvrez les conditions requises pour la prise en charge des salles Microsoft Teams, notamment le choix de l’appareil, des microphones, des haut-parleurs, des caméras et des écrans appropriés.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29b58a57d052acb529bc4c21db184589ed3739d8
-ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
+ms.openlocfilehash: e2f8ae10f19d59d9eefdc5f4f5fcf0eac4085eb0
+ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65860605"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65886651"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Spécifications des salles Microsoft Teams
 
-Salles Microsoft Teams mettre à l’échelle pour différentes tailles de salle. salles Teams utiliser un large éventail de périphériques audio et vidéo certifiés en fonction de la taille et de l’utilisation de la salle. En sélectionnant l’appareil et la console de base appropriés, combinés avec des microphones, des haut-parleurs, des caméras et des écrans adaptés à l’espace, vous pouvez déployer Salles Microsoft Teams dans des espaces de toute taille, depuis de petits espaces blottis jusqu’aux grands espaces de conférence et salles de réunion.  L’ensemble des périphériques audio et vidéo certifiés disponibles pour configurer votre salle est disponible dans la [Galerie d’appareils](https://products.office.com/microsoft-teams/across-devices).
+Les salles Microsoft Teams sont mises à l’échelle pour différentes tailles de salle. Les salles Teams utilisent un large éventail de périphériques audio et vidéo certifiés en fonction de la taille et de l’utilisation de la salle. En sélectionnant l’appareil et la console de base appropriés, combinés avec des microphones, des haut-parleurs, des caméras et des écrans appropriés pour l’espace, vous pouvez déployer des salles Microsoft Teams dans des espaces de toute taille, des petits espaces blottis jusqu’aux grands espaces de conférence et salles de réunion.  L’ensemble des périphériques audio et vidéo certifiés disponibles pour configurer votre salle est disponible dans la [Galerie d’appareils](https://products.office.com/microsoft-teams/across-devices).
 
 Cet article résume la configuration requise pour le déploiement et la configuration des appareils pour la prise en charge des salles Microsoft Teams.
 
-Votre déploiement implique la création et la configuration d’salles Teams de compte de ressources, comme décrit dans [Déployer Salles Microsoft Teams](rooms-deploy.md).
+Votre déploiement implique la création et la configuration de comptes de ressources de salles Teams, comme décrit dans [Déployer des salles Microsoft Teams](rooms-deploy.md).
 
 Reportez-vous à :
 
 - [Options de licence en fonction de votre offre : Salles Microsoft Teams](rooms-licensing.md)
 
 > [!NOTE]
-> Salles Microsoft Teams se connecter à Microsoft Teams, Skype Entreprise Server 2019 ou Skype Entreprise Server 2015 et peut participer à des réunions hébergées par l’un de ces services.
+> Les salles Microsoft Teams se connectent à Microsoft Teams, Skype Entreprise Server 2019 ou Skype Entreprise Server 2015 et peuvent participer à des réunions hébergées par l’un de ces services.
 >
-> Les plateformes antérieures telles que Lync Server 2013 ne sont pas prises en charge par les salles Microsoft Teams. Salles Microsoft Teams n’est pas pris en charge dans Microsoft 365 ou Office 365 géré par des environnements 21Vianet ou DoD.
+> Les plateformes antérieures telles que Lync Server 2013 ne sont pas prises en charge par les salles Microsoft Teams. Les salles Microsoft Teams ne sont pas prises en charge dans Microsoft 365 ou Office 365 géré par des environnements 21Vianet ou DoD.
 >
 > Si vous avez un serveur Exchange local, les salles Microsoft Teams nécessitent l’utilisation d’Exchange Server 2013 SP1 ou d’une version ultérieure.
 
@@ -121,7 +121,7 @@ Tous les appareils et offres groupées actuels de salle Microsoft Teams sont dis
   |Surface Pro </br>(5e génération) |Core i5 |8 Go ou 4 Go |128 Go ou plus |
   |Surface Pro 4 |Core i5 |8 Go ou 4 Go |128 Go ou plus |
 
-- Surface Pro appareils nécessitent l’une des options de station d’ancrage suivantes :
+- Les appareils Surface Pro nécessitent l’une des options de station d’ancrage suivantes :
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
@@ -133,14 +133,14 @@ Ces appareils sont disponibles dans la [Vitrine de produits d'accessoires pour l
 
 |Périphériques des Salles Microsoft Teams|Version du micrologiciel certifiée | L'appareil photo prend en charge le contenu de l'utilisation de l'appareil photo|
 |:--- |:--- | :--- |
-|[Aver VC520 Pro Caméra + Haut-parleur](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
+|[Aver VC520 Pro Camera + Haut-parleur](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
 |[Système de conférence Aver VC520 PRO2](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
 |[Aver VB342+ Caméra Soundbar](https://www.averusa.com/products/conference-camera/vb342plus) | Barre de son : 0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
 |[Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) |0.0.7200.3 |
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
-|[Aver VB130 Caméra Soundbar](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
+|[Aver VB130 Camera Soundbar](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Barre vidéo Bose VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
 |[Hub de conférence Biamp Devio SCR-20CX Web-Based avec microphone plafond](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[Biamp Devio SCR-20TX Web-Based Conferencing Hub with Tabletop Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
@@ -148,15 +148,15 @@ Ces appareils sont disponibles dans la [Vitrine de produits d'accessoires pour l
 |[Canevas Huddly](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
-|[Huddly IQ Caméra](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
+|[Huddly IQ Camera](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
 |[Huddly L1](https://www.huddly.com/conference-cameras/l1/) | 1.2.9 |
-|Huddly L1 Caméra avec [crestron UC-C100-T MTR](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) kit | Huddly L1 Caméra: 1.2.1 </br> Crestron UC-C100-T avec ASUS Tek Computer INC 9934 compute 1.0.20.246 ou version ultérieure |
-|Huddly L1 Caméra avec [Crestron UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) MTR-W Kit | Huddly L1 Caméra: 1.2.9 </br> Crestron UC-CX100-T avec ASUS Tek Computer INC 9934 1.00.20.246 ou version ultérieure |
-|Huddly L1 Caméra avec Crestron UC-M70-T MTR kit | Huddly L1 Caméra: 1.2.1 </br> Crestron UC-M70-T avec ASUS Tek Computer INC 9934 compute 1.0.20.246 ou version ultérieure |
-|Huddly L1 Caméra avec crestron UC-MX70-T MTR kit | Huddly L1 Caméra: 1.2.1 </br> Crestron UC-MX70-T avec ASUS Tek Computer INC 9934 compute 1.0.20.246 ou version ultérieure |
+|Huddly L1 Camera with [Crestron UC-C100-T MTR](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) kit | Caméra Huddly L1 : 1.2.1 </br> Crestron UC-C100-T avec ASUS Tek Computer INC 9934 compute 1.0.20.246 ou version ultérieure |
+|Appareil photo Huddly L1 avec [Crestron UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) MTR-W Kit | Caméra Huddly L1 : 1.2.9 </br> Crestron UC-CX100-T avec ASUS Tek Computer INC 9934 1.00.20.246 ou version ultérieure |
+|Huddly L1 Camera with Crestron UC-M70-T MTR kit | Caméra Huddly L1 : 1.2.1 </br> Crestron UC-M70-T avec ASUS Tek Computer INC 9934 compute 1.0.20.246 ou version ultérieure |
+|Huddly L1 Camera with Crestron UC-MX70-T MTR kit | Caméra Huddly L1 : 1.2.1 </br> Crestron UC-MX70-T avec ASUS Tek Computer INC 9934 compute 1.0.20.246 ou version ultérieure |
 |[Jabra Panacast3 Caméra](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
 |[Jabra Panacast 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|3.4.0| &#x2714; |
-|[Lenovo ThinkSmart Cam Caméra](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
+|[Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
 |[Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR)|0.9.3|
 |Lenovo ThinkSmart Bar Expand XL|5.9.5|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
@@ -181,7 +181,7 @@ Ces appareils sont disponibles dans la [Vitrine de produits d'accessoires pour l
 |[Polycom Trio 8500 / 8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html)   |5.7.2.3205|
 |[Poly Trio C60](https://www.poly.com/us/en/products/phones/trio/trio-c60)  |5.9.5.3066|
 |[Barre vidéo P15 Poly Studio](https://www.poly.com/us/en/products/video-conferencing/studio-p/studio-p15)|1.2.0.000287 |
-|[Poly Studio E70 Caméra](https://www.poly.com/us/en/products/video-conferencing/studio/studio-e70)|1.1|
+|[Appareil photo Poly Studio E70](https://www.poly.com/us/en/products/video-conferencing/studio/studio-e70)|1.1|
 |[EPOS SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
 |[EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226)   |1.2.15   |
 |[EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223)   |2.1.52  |
@@ -207,10 +207,11 @@ Ces appareils sont disponibles dans la [Vitrine de produits d'accessoires pour l
 |[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/products/mixers/p300) +</br>[Shure MXA 910 avec micro de matrice de plafond Intellimix](https://www.shure.com/products/microphones/mxa910) | 4.1|
 |[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/products/mixers/p300)+</br>[Shure MXA 310 Table Array Mic ](https://www.shure.com/products/microphones/mxa310) +</br>[Haut-parleur de plafond MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP : 4.1.11 </br> Micro MXA310 Table Array : 4.1.41 </br> Haut-parleur MXN5W-C : 1.0.4 |
 |[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/products/mixers/p300) + </br>[Shure MXA 920 avec Intellimix Ceiling Array Mic](https://www.shure.com/en-US/products/microphones/mxa920?utm_source=linkedin&utm_medium=social&sfid=&prod=) +</br>[Haut-parleur de plafond MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP : 4.7.7 </br> Micro MXA920 Ceiling Array : 1.1.56 </br> Haut-parleur MXN5W-C : 1.5.6 |
+|ANIUSB + </br> [Shure MXA 920 avec Intellimix Ceiling Array Mic](https://www.shure.com/en-US/products/microphones/mxa920?utm_source=linkedin&utm_medium=social&sfid=&prod=) +</br>[Haut-parleur de plafond MXN5](https://www.shure.com/en-US/products/loudspeakers/mxn5)| ANIUSB : 4.4.7 </br> MXA920 : 1.1.56 </br> MXN5 : 1.5.6|
 |[Shure MXA 710 2ft Table Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br>[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/products/mixers/p300) +</br>[Haut-parleur de plafond MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP : 4.4.8 </br> Haut-parleur MXN5-C : 1.1.1 |
 |[Shure MXA 710 4ft Wall Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br>[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/products/mixers/p300) +</br>[Haut-parleur de plafond MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP : 4.4.8 </br> Haut-parleur MXN5-C : 1.1.1 |
 |[Shure MXA 910 avec microphone Intellimix Ceiling Array](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software : 3.0.4.14 </br> Shure MXA 910 avec microphone Intellimix Ceiling Array : 4.4.11 </br> Haut-parleurs Shure MXN5-C : 1.2.1 </br> Crestron UC-C100-T avec calcul ASUS Tek Computer INC 9934 | 
-|[Shure MXA 910 avec microphone Intellimix Ceiling Array](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>Lenovo ThinkSmart Core | Shure Intellimix Room Software : 3.2.0.52 </br> Shure MXA 910 avec microphone Intellimix Ceiling Array : 4.4.11 </br> Haut-parleurs Shure MXN5-C : 1.2.1 </br> Lenovo ThinkSmart Core : Windows version du système d’exploitation IoT 19h2/20h2 |
+|[Shure MXA 910 avec microphone Intellimix Ceiling Array](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>Lenovo ThinkSmart Core | Shure Intellimix Room Software : 3.2.0.52 </br> Shure MXA 910 avec microphone Intellimix Ceiling Array : 4.4.11 </br> Haut-parleurs Shure MXN5-C : 1.2.1 </br> Lenovo ThinkSmart Core : Version du système d’exploitation Windows IoT 19h2/20h2 |
 |[Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp)|1.0.2|
 |[Biamp Tesira premier plan AVB VT4 DSP audio fixe](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br>[Microphone Sennheiser TeamConnect Ceiling 2](https://sennheiser.com/tcc2)+ &Dagger;</br>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15 </br> TCC2: 1.3.3 </br>EX-UBT: 3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+</br>[Microphone de plafond TCM-XA De Biamp Parlé](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br>[Haut-parleur monté au plafond biamp Desono C-IC6](https://www.biamp.com/products/tesira-speakers)| Version FW audio : 3.15|
@@ -220,7 +221,7 @@ Ces appareils sont disponibles dans la [Vitrine de produits d'accessoires pour l
 |[Amplificateur AmpLink Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink + Sennheiser TCC2 Ceiling Microphone + </br> Haut-parleur de plafond Bose DesignMax DM2C-P](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1,160  </br> TCC2: 1.4.2  |  |
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Amplificateur AmpLink Bose P2600A +</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [Haut-parleur de plafond DesignMax DM2C -LP](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A : 1,160  </br> TCC2: 1.4.2  | 
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Amplificateur AmpLink Bose P2600A+</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [Haut-parleur de plafond EdgeMax EM180](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2.290  </br> P2600A : 1,160  </br> TCC2: 1.4.2  |
-|QSC Q-SYS Core ([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/), [8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/), [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/) ou [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> [Sennheiser TCC2 Ceiling Microphone](https://en-us.sennheiser.com/tcc2) + </br> Amplificateur QSC ([série SPA](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) ou [série CX-Q](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)) + </br> [Haut-parleurs de la série QSC AcousticDesign](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> QSC IP Caméra ([PTZ-IP 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/), [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) facultatif + </br> [QSC Q-SYS I/O USB Bridge](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) facultatif | QSC Q-SYS Core, PTZ-IP Caméra et pont USB d’E/S : QSC Q-SYS Designer 9.0.1-2104.022 </br> Microphone de plafond Sennheiser TCC2 : TCC2 - 1.5.1, Dante 1.2.0 </br> Amplificateurs QSC : N/A </br> Haut-parleurs de la série QSC AcousticDesign : N/A | 
+|QSC Q-SYS Core ([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/), [8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/), [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/) ou [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> [Sennheiser TCC2 Ceiling Microphone](https://en-us.sennheiser.com/tcc2) + </br> Amplificateur QSC ([série SPA](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) ou [série CX-Q](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)) + </br> [Haut-parleurs de la série QSC AcousticDesign](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> Caméra IP QSC ([PTZ-IP 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/), [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) facultatif + </br> [QSC Q-SYS I/O USB Bridge](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) facultatif | QSC Q-SYS Core, appareil photo PTZ-IP et pont USB d’E/S : QSC Q-SYS Designer 9.0.1-2104.022 </br> Microphone de plafond Sennheiser TCC2 : TCC2 - 1.5.1, Dante 1.2.0 </br> Amplificateurs QSC : N/A </br> Haut-parleurs de la série QSC AcousticDesign : N/A | 
 
 
 &Dagger; Les clients peuvent choisir l’interface Dante ou le commutateur réseau recommandé par biamp/Sennheiser pour cette offre groupée.
