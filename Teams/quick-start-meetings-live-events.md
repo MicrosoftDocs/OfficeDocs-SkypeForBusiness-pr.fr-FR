@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ffd0ad9f9b765839a4543dd8600b558000fa164f
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: 330faa00c2ba14f03e5219642fa274fc24eb8765
+ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63564736"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65913422"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Réunions, webinaires et événements en direct 
 
@@ -51,9 +51,9 @@ Le tableau suivant résume les trois types de réunions, le nombre de participan
 | Événements en direct | Jusqu’à 20 000** |- Diffuser au grand public. <br>- Questions et réponses modérées pour l’interaction de l’audience. <br> - Peut spécifier des producteurs et des présentateurs, y compris des présentateurs externes.<br>- Prend en charge des fonctionnalités de production plus avancées. | Non |
 ||||
 
-*Les 10 000 habituels sont augmentés à 20 000 jusqu’au 30 juin 2022.<br>
+*Les 10 000 habituels sont portés à 20 000 jusqu'au 31 décembre 2022.<br>
 
-**Les 10 000 habituels sont augmentés à 20 000 jusqu’au 30 juin 2022. Vous pouvez planifier des nombres encore plus importants avec des événements en direct dans Yammer et/ou Microsoft Stream. Pour plus d’informations, consultez [Événements en direct sur Microsoft 365](/stream/live-event-m365). Notez que les événements de plus de 20 000 participants nécessitent le [Programme d’assistance aux événements en direct](/stream/live-events-assistance). 
+**Les 10 000 habituels sont portés à 20 000 jusqu'au 31 décembre 2022. Vous pouvez planifier des nombres encore plus importants avec des événements en direct dans Yammer et/ou Microsoft Stream. Pour plus d’informations, consultez [Événements en direct sur Microsoft 365](/stream/live-event-m365). Notez que les événements de plus de 20 000 participants nécessitent le [Programme d’assistance aux événements en direct](/stream/live-events-assistance). 
 
 Notez que NDI est entièrement pris en charge dans les réunions, les webinaires et les événements en direct, ce qui vous permet de produire la diffusion en utilisant des outils tels que OBS et Wirecast. Pour plus d'informations, voir [Utiliser la technologie NDI® dans Microsoft Teams](use-ndi-in-meetings.md).
 

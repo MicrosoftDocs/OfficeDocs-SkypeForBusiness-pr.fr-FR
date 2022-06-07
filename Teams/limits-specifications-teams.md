@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 16ca31652f3b5b9daa0216e683d80e6d9b0c809d
-ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
+ms.openlocfilehash: cdbae6cacd861602baea69ec9682f8069dc720a0
+ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "65886631"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65913432"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -168,7 +168,7 @@ Pour plus d’informations sur les événements en direct et une comparaison des
 > [!IMPORTANT]
 > **Augmentation de la limite d’événements en direct Microsoft 365**
 >
-> **Afin de continuer la prise en charge des besoins de nos clients, nous étendons les augmentations temporaires des limites pour les événements en direct jusqu’au 30 juin 2022, à savoir :**
+> **Pour continuer à répondre aux besoins de nos clients, nous prolongerons les augmentations de limites temporaires pour les événements en direct jusqu'au 31 décembre 2022, notamment** :
 >
 >- Soutien aux événements accueillant jusqu'à 20 000 participants
 >- 50 événements à la fois peuvent être hébergés chez un client
