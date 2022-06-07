@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8415ee8dc79c8c67189ae801b1287c56115e6d72
-ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
+ms.openlocfilehash: 03a2501236cd8dfa708790e49719d8103a187783
+ms.sourcegitcommit: 5640e8264b61c1f8cf8eb212315eeba1a794e494
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65462028"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65928827"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 
@@ -39,11 +39,14 @@ Le complément Réunion Teams est installé automatiquement pour les utilisateur
 ![Capture d'écran du complément réunion Teams sur le ruban Outlook.](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+>
+>
 > - Il n’existe **aucune URL directe** qui fait la liaison avec le complément Teams.
 > - D’autres aspects sont à prendre en considération si votre organisation exécute Teams et Skype Entreprise. Dans certains cas, le complément Teams n’est pas disponible dans Outlook. Pour plus d’informations, consultez [Effectuer la mise à niveau de Skype Entreprise vers Teams](upgrade-to-Teams-on-prem-tools.md) .
 > - Les autorisations utilisateur pour exécuter le fichier Regsvr32.exe constituent une condition minimale requise pour que le complément réunion Teams soit installé sur l’ordinateur.
 > - Si le complément Réunion Teams n'apparaît pas, demandez aux utilisateurs de fermer Outlook et Teams, de redémarrer d'abord le client Teams, de se connecter à Teams puis de redémarrer le client Outlook, dans cet ordre spécifique.
 > - Si vous utilisez une installation d’Office Outlook à partir du Microsoft Store, le complément réunion Teams n’est pas pris en charge. Les utilisateurs qui ont besoin de ce complément sont invités à installer la version « démarrer en un clic » d’Office, comme décrit dans l’article [Office sur Windows 10 en mode S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f).
+> - L’installation de [Webview2](/microsoft-edge/webview2/concepts/distribution) sera requise pour la fonctionnalité de complément de réunion Teams, les options de réunion incorporées. Si WebView2 n’est pas installé, les utilisateurs sont redirigés vers le navigateur, ce qui peut fournir une expérience détériorée, en particulier au moment de la création de la réunion.
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Le complément Réunion Teams dans Outlook pour Mac
 
