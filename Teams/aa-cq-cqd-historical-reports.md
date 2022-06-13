@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Découvrez comment utiliser le tableau de bord qualité des appels Power BI rapport pour afficher les données historiques du standard automatique et de la file d’attente des appels.
-ms.openlocfilehash: 66394094f51d58344f151b8ebb7059c2e390c089
-ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
+ms.openlocfilehash: e2d71410d10fb809debd1699afcf452c71a6e088
+ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65294095"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046446"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Rapport d’historique de la file d’attente d’appels & standard automatique
 
@@ -122,7 +122,7 @@ Effectuez les étapes suivantes :
 
 |Section Rapport                          |Description                                                       |
 |:---------------------------------------|:-----------------------------------------------------------------|
-|Source d’appel <sup>entrant1</sup>        |Distribution des appels par source d’appel interne/externe             |
+|Source d’appel entrant<sup>1</sup>        |Distribution des appels par source d’appel interne/externe             |
 |Totaux de la méthode de recherche d’annuaire          |Distribution des appels par type de recherche                               |
 |Action de l’appelant                           |Distribution des appels par récepteur d’appels                             |
 |Résultat de l’appel                             |Distribution des appels par état d’appel final                          |
@@ -145,7 +145,7 @@ Effectuez les étapes suivantes :
 |:-----------------------------------------------|:------------------------------------------|:-------------------|
 |Sélecteur de dates                                   |AAStartTime                                |Aucun                |
 |Standard automatique                                  |Nom AA                                    |Aucun                |
-|Source d’appel <sup>entrant1</sup>                |Type d'appel<br>TotalCallCount                |Appels externes : le type d’appel est externe<br>Appels internes : le type d’appel est interne |
+|Source d’appel entrant<sup>1</sup>                |Type d'appel<br>TotalCallCount                |Appels externes : le type d’appel est externe<br>Appels internes : le type d’appel est interne |
 |Totaux de la méthode de recherche d’annuaire                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod est abs_search_dtmf ou abs_search_name    |
 |Actions de l’appelant                                  |AATransferAction<br>TotalCallCount         |Aucun                                                             |
 |Secondes moyennes dans AA<br>Actions moyennes de l’appelant |AAChainDuration<br>AACallerActionCount     |Aucun                                                             |
@@ -160,7 +160,7 @@ Effectuez les étapes suivantes :
 |Nom AA                                 |Texte                     |Nom du compte de ressource attaché au standard automatique<br><br>Si le nom complet du compte de ressource est **aa_test@microsoft.com**, cette valeur est : **aa_test** |
 |AACallerActionCount                     |Nombre entier             |Résumer : Somme<br>Nombre d’actions sélectionnées par l’appelant dans le standard automatique pendant l’appel  |
 |AACallFlow                              |Texte                     |Encapsule les différents états de l’appel du standard automatique : valeurs possibles :<br><br>§ abs_search<br>§ annonce<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |Texte                     |Résultat de l’appel final : valeurs possibles :<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ inconnu<br>§ user_terminated |
+|AACallResult                            |Texte                     |Résultat de l’appel final : valeurs possibles :<br><br>§ failed_to_establish_media (la partie média de l’appel n’a pas pu être établie)<br>§ failover_to_operator (appel transféré à l’opérateur généralement en raison d’une erreur système)<br>§ oaa_chain_too_long (trop de jambes dans l’AA)<br>§ oaa_session_too_long (la session AA a duré trop longtemps)<br>§ service_declined (AA n’a pas accepté l’appel)<br>§ service_terminated (la configuration AA déconnecte l’appel)<br>§ terminated_automatic_selection (la configuration AA déconnecte les appels)<br>§ terminated_no_operator (appel arrêté en raison de l’erreur aucun opérateur défini) <br>§ terminated_transfer_failed (l’appel s’est terminé en tant que transfert ayant échoué - généralement vers le numéro expernal)<br>***§ transferred_to_operator*** (l’appel a été transféré à l’opérateur , généralement en raison d’une erreur d’entrée de l’utilisateur)<br>§ transferred_to_receptionist (identique à transferred_to_operator)<br>§ transferred_to_self (l’appel a été retourné au début de l’AA , généralement à partir d’une option d’annonce de menu)<br>§ transferred_to_shared_voicemail (l’appel a été transféré vers la messagerie vocale partagée)<br>§ transferred_to_user (l’appel a été transféré à un utilisateur - inclut les files d’attente d’appels)<br>§ inconnu (une erreur inconnue s’est produite)<br>§ user_terminated (appelant raccroché) |
 |AAChainDuration                         |Nombre décimal           |Résumer : Somme<br>Durée de l’appel dans le standard automatique                     |
 |AAChainIndex                            |Texte                     |                                                                         |
 |AAConnectivityType                      |Texte                     |Type d’appel : valeurs possibles :<br><br>§ ExternalCall<br>§ InternalCall |
@@ -168,7 +168,7 @@ Effectuez les étapes suivantes :
 |AADirectorySearchMethod                 |Texte                     |Méthode de recherche du dernier carnet d’adresses : valeurs possibles :<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
 |AAStartTime                             |Date/heure                |Heure de début de l’appel du standard automatique                                           |
 |AATransferAction                        |Texte                     |Type de cible de transfert d’appel : valeurs possibles :<br><br>***§ application - entité** _<br>d’application vocale§ external_pstn<br>_*_§ hunt_group - Entité de file d’attente d’appels_*_<br>_*_§ orgaa - Entité de standard automatique de l’organisation_**<br>§ shared_voicemail<br>§ inconnu<br>§ utilisateur |
-|Type <sup>d’appel1</sup>                   |Texte                     |Type d’appel : valeurs possibles :<br><br>§ Externe<br>§ Interne         |
+|Type d’appel<sup>1</sup>                   |Texte                     |Type d’appel : valeurs possibles :<br><br>§ Externe<br>§ Interne         |
 |IsAAInvolved                            |Texte                     |Toujours 1                                                                 |
 |PSTNMinutes                             |Nombre entier             |Résumer : Somme<br>Utilisation totale des minutes                                     |
 |TotalCallCount                          |Nombre entier             |Résumer : Somme<br>Toujours 1 - utilisé pour fournir la somme de tous les appels            |
@@ -180,7 +180,7 @@ Effectuez les étapes suivantes :
 
 |Section Rapport                          |Description                                                        |
 |:---------------------------------------|:------------------------------------------------------------------|
-|Source d’appel <sup>entrant1</sup>        |Distribution de l’appel par source d’appel interne/externe              |
+|Source d’appel entrant<sup>1</sup>        |Distribution de l’appel par source d’appel interne/externe              |
 |Volume d’appels                             |Distribution des appels par files d’attente d’appels                                |
 |Résultat de l’appelant                           |Distribution de l’appel par résultat d’appel                                |
 |Timeout/Overflow call total action      |Distribution de l’appel NON transféré (abandonné) par résultat d’appel       |
@@ -205,7 +205,7 @@ Effectuez les étapes suivantes :
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |Sélecteur de dates                       |Dates -> DateTime                     |Aucun                  |
 |Identité de file d’attente d’appels                 |dCQ-CQIdentity ->'identité de file d’attente d’appels |Aucun                  |
-|Source d’appel <sup>entrant1</sup>    |fCallQueueAnalytics -> Nombre d’appels<br>fCallQueueAnalytics -> Type d’appel    |Appels externes : le type d’appel est externe<br>Appels internes : le type d’appel est interne |
+|Source d’appel entrant<sup>1</sup>    |fCallQueueAnalytics -> Nombre d’appels<br>fCallQueueAnalytics -> Type d’appel    |Appels externes : le type d’appel est externe<br>Appels internes : le type d’appel est interne |
 |Temps d’attente moyen                    |fCallQueueFinalStateAction -> durée moyenne d’appel (secondes) |Avant le transfert : le résultat de l’appel de file d’attente d’appels est agent_joined_conference ou transferred_to_agent<br>Avant raccrocher : le résultat de l’appel de file d’attente d’appels n’est pas agent_joined_conference ou transferred_to_agent |
 |Résultat de l’appel                         |fCallQueueAnalytics -> Nombre d’appels<br>fCallQueueAnalytics -> Call Queue Call Call Result | Aucun |
 |Timeout/Overflow appelle l’action totale |fCallQueueFinalStateAction -> Nombre d’appels<br>fCallQueueFinalStateAction -> Action d’état final de la file d’attente d’appels |L’action d’état final de la file d’attente d’appels n’est pas transférée |
@@ -225,10 +225,10 @@ Effectuez les étapes suivantes :
 |Nom                                    |Type de données                |Description                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |Nombre d’appels                              |Nombre entier             |Résumer : Somme<br>Nombre d'appels                                          |
-|Résultat de l’appel de file d’attente d’appels                  |Texte                     |État final de l’appel de file d’attente d’appels : valeurs possibles :<br><br>§ agent_joined_conference<br>§ refusé<br>§ déconnecté<br>§ error<br>§ a échoué<br>§ non valide<br>§ survolé<br>§ timed_out<br>§ transferred_to_agent |
+|Résultat de l’appel de file d’attente d’appels                  |Texte                     |État final de l’appel de file d’attente d’appels : valeurs possibles :<br><br>§ agent_joined_conference (appels en mode conférence répondus)<br>§ refusé<br>§ déconnecté<br>§ error<br>§ a échoué<br>§ non valide<br>§ survolé (condition de dépassement remplie)<br>§ timed_out (condition de délai d’expiration remplie)<br>§ transferred_to_agent (appels en mode transférence répondu {default}) |
 |Identité de file d’attente d’appels                     |Texte                     |Nom du compte de ressource attaché à la file d’attente d’appels<br><br>Si le nom complet du compte de ressource est **cq_test@microsoft.com**, cette valeur est la suivante : **cq_test** |
 |Type de cible de file d’attente d’appels                  |Texte                     |***Type cible de redirection d’appel : valeurs possibles :***<br><br>§ ApplicationEndpoint<br>§ Boîte aux lettres<br>§ Autre<br>§ Utilisateur |
-|Type <sup>d’appel1</sup>                   |Texte                     |Type d’appel : valeurs possibles :<br><br>§ Externe<br>§ Interne           |
+|Type d’appel<sup>1</sup>                   |Texte                     |Type d’appel : valeurs possibles :<br><br>§ Externe<br>§ Interne           |
 |Date                                    |Date/heure                |Date et heure de début de l’appel de file d’attente d’appels (heure) (UTC)                           | 
 |IsAbandoned                             |True/false               |True si l’appel n’est pas répondu par un agent                                   |
 |Type de connectivité RTC                  |Texte                     |Type d’appel : valeurs possibles :<br><br>§ ExternalCall<br>§ InternalCall   |
@@ -248,7 +248,7 @@ Effectuez les étapes suivantes :
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
 |Durée moyenne de l’appel (secondes)         |Nombre décimal           |Résumer : Somme<br>Durée moyenne des appels en secondes |
 |Nombre d’appels                              |Nombre entier             |Résumer : Somme<br>Nombre d'appels                  |
-|Résultat de l’appel de file d’attente d’appels                  |Texte                     |État final de l’appel de file d’attente d’appels : valeurs possibles :<br><br>§ agent_joined_conference<br>§ refusé<br>§ déconnecté<br>§ error<br>§ a échoué<br>§ non valide<br>§ survolé<br>§ timed_out<br>§ transferred_to_agent |
+|Résultat de l’appel de file d’attente d’appels                  |Texte                     |État final de l’appel de file d’attente d’appels : valeurs possibles :<br><br>§ agent_joined_conference (appels en mode conférence répondus)<br>§ refusé<br>§ déconnecté<br>§ error<br>§ a échoué<br>§ non valide<br>§ survolé (condition de dépassement remplie)<br>§ timed_out (condition de délai d’expiration remplie)<br>§ transferred_to_agent (appels en mode de transfert avec réponse {default} |
 |Action d’état final de la file d’attente d’appels           |Texte                     |Action finale de la file d’attente des appels : valeurs possibles :<br><br>§ disconnect (appels timed_out)<br>§ disconnect_with_busy (appels survolés)<br>§ failed_to_accept_call<br>§ vers l’avant<br>§ shared_voicemail<br>§ autre<br>§ messagerie vocale |
 |Identité de file d’attente d’appels                     |Texte                     |Nom du compte de ressource attaché à la file d’attente d’appels<br><br>Si le nom complet du compte de ressource est **cq_test@microsoft.com**, cette valeur est la suivante : **cq_test** |
 |Date                                    |Date/heure                |Date et heure de début de l’appel de file d’attente d’appels (heure) (UTC)   |

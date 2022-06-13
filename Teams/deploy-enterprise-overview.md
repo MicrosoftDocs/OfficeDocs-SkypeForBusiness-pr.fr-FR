@@ -1,7 +1,7 @@
 ---
 title: Présentation du déploiement de Microsoft Teams en entreprise
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,19 +16,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6e6a2835df6f00bc9103594b1cfe5ae011c6960
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fae55eb230c3c0a450a95eb00e50861888bbe3f1
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617420"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045573"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Présentation du déploiement de Teams en entreprise
 
 Si vous êtes fans une moyenne ou grande entreprise, vous devez penser au futur déploiement du service auprès de vos utilisateurs, au déploiement prévu du client Microsoft Teams auprès d’eux, à l’impact éventuel de votre conception réseau sur la qualité de la communication en temps réel, et bien plus encore.
 
 > [!NOTE]
-> Si vous ne l’avez pas déjà fait, nous vous suggérons vivement de commencer votre déploiement Teams par un pilote. Un pilote vous permettra, ainsi qu'à quelques utilisateurs précoces, de vous familiariser avec Teams et ses fonctionnalités avant votre planification et votre déploiement final. Si vous souhaitez en savoir plus sur le démarrage de votre pilote, veuillez consulter la page [Prise en main de Microsoft Teams](get-started-with-teams-quick-start.md).
+> Si vous ne l’avez pas déjà fait, nous vous suggérons vivement de commencer votre déploiement Teams avec un pilote. Un pilote vous permettra, ainsi qu’à quelques utilisateurs précoces, de vous familiariser avec Teams et ses fonctionnalités avant votre planification et votre déploiement éventuel. Pour plus d’informations sur le démarrage de votre pilote, consultez [Démarrage avec Microsoft Teams](get-started-with-teams-quick-start.md).
 
 Dès que vous avez lu les sections ci-dessous et que vous êtes prêt à commencer le déploiement de Teams dans votre organisation, veuillez consulter la rubrique [Configurer Microsoft Teams dans votre entreprise](deploy-enterprise-setup.md).
 

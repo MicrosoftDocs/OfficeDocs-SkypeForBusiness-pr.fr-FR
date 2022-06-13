@@ -1,7 +1,7 @@
 ---
 title: Configurer Microsoft Teams dans votre petite entreprise
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bdf55403f807ddb8929da71d082adffcbcb7877d
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: c3afa62cfaca28c0c428c15b44868e7237973955
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767147"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045443"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>Configurer Microsoft Teams dans votre petite entreprise
 
 Il existe de nombreuses façons de personnaliser Teams. Les sections suivantes affichent la manière de configurer chaque charge de Teams de travail : **conversations, équipes et canaux**; **réunions et conférences**; et **des solutions vocales.** Vous devez définir l’ordre dans lequel vous définissez chaque charge de travail. Nous vous recommandons de commencer par définir d’abord les conversations, les équipes et les canaux de charge de travail. Cependant, vous pouvez commencer par des réunions et des conférences, voire la voix cloud. Le choix vous appartient.
 
 > [!NOTE]
-> Si vous ne l’avez pas déjà fait, nous vous recommandons vivement de commencer votre déploiement Teams par un pilote. Un pilote vous permettra, ainsi qu'à quelques utilisateurs précoces, de vous familiariser avec Teams et ses fonctionnalités avant votre planification et votre déploiement final. Si vous souhaitez en savoir plus sur le démarrage de votre pilote, veuillez consulter la page [Prise en main de Microsoft Teams](get-started-with-teams-quick-start.md).
+> Si vous ne l’avez pas déjà fait, nous vous suggérons vivement de commencer votre déploiement Teams avec un pilote. Un pilote vous permettra, ainsi qu’à quelques utilisateurs précoces, de vous familiariser avec Teams et ses fonctionnalités avant votre planification et votre déploiement éventuel. Pour plus d’informations sur le démarrage de votre pilote, consultez [Démarrage avec Microsoft Teams](get-started-with-teams-quick-start.md).
 
 Avant de déployer Teams à grande échelle, assurez-vous que votre organisation est prête en consultant les points de la section [Assurez-vous que vous êtes prêt](get-started-with-teams-quick-start.md#make-sure-youre-ready).
 
@@ -86,7 +86,7 @@ Pour plus d'informations sur Teams Phone avec le plan d'appel pour les petites e
 
 ## <a name="deploy-clients"></a>Déployer les clients
 
-Lorsque vous êtes prêt à aider vos utilisateurs à utiliser Teams, ils peuvent installer le client Teams sur leurs PC Windows, Mac ou Linux, ou sur leurs appareils Android ou iOS. Les utilisateurs peuvent télécharger le client Teams directement depuis <https://teams.microsoft.com/downloads>.
+Lorsque vous êtes prêt à aider vos utilisateurs à utiliser Teams, ils peuvent installer le client Teams sur leur PC Windows, Mac ou Linux, ou sur leur appareil Android ou iOS. Les utilisateurs peuvent télécharger le client Teams directement à partir de <https://teams.microsoft.com/downloads>.
 
 Vérifiez que toute personne souhaitant utiliser Teams possède une licence Teams. Si vous souhaitez en savoir plus sur l’attribution d’une licence Teams, veuillez consulter la rubrique [Gérer l’accès des utilisateurs à Teams](user-access.md#using-the-microsoft-365-admin-center).
 

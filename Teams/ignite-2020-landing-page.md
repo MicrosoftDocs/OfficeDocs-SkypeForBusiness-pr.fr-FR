@@ -1,19 +1,19 @@
 ---
 title: sessions Teams à Ignite 2020
 description: Recherchez tous les apprentissages disponibles pour Business Central.
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.date: 09/21/2020
 ms.topic: article
 ms.service: msteams
-ms.author: serdars
 audience: admin
 manager: serdars
-ms.openlocfilehash: 35ec6c883c880543c9d27a18a9af87d3cff7ab6d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: a956af4c9eedf5e9b4c10c61c219651da94f4ffb
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675116"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046013"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>sessions Teams à Ignite 2020
 
@@ -26,7 +26,7 @@ ms.locfileid: "65675116"
 |[Création d’un espace de travail résilient, inclusif et hybride avec Microsoft Teams](https://aka.ms/IG20-DB156-R1) |Les organisations passent à un espace de travail hybride pour répondre aux besoins des employés distants et sur site. Dans la première partie, découvrez comment les équipes peuvent rester connectées par le biais de réunions Teams, d’événements virtuels et d’appels, ainsi que de nouvelles expériences d’appareil. Nous allons montrer comment la plateforme Teams peut aider à rationaliser les flux de travail, à améliorer la prise de décision et à intégrer votre écosystème d’applications. <br> Consultez également la deuxième partie de cette série, code de session DB158.|Nicole Herskowitz                 |
 |[Rencontrez-vous plus intelligemment, restez concentré et obtenez plus d’Microsoft Teams réunions](https://aka.ms/IG20-DB151)  |Les réunions sont la pierre angulaire de la façon dont le travail est effectué. Découvrez comment Teams réunions peuvent vous aider, vous et votre organisation, à être plus productifs tout en vous adaptant à une nouvelle façon de travailler.  |Shiraz Cupala|
 |[appel Microsoft Teams simple](https://aka.ms/IG20-DB149)  |Enterprise Appels dans Teams est simple à déployer et à utiliser. Découvrez les principes de base de l’appel Teams tout en recherchant les derniers appels, tels que les nouvelles expériences d’appel et les appels collaboratifs. |Paul Cannon, Laura Kramer, Barbara Kim|
-|[Un emplacement pour les administrateurs pour gérer Microsoft Teams : nouveautés de Teams la facilité de gestion](https://aka.ms/IG20-DB144) |Teams administrateurs disposent de fonctionnalités de gestion flexibles et granulaires. Ces fonctionnalités leur permettent d’concevoir une expérience personnalisée pour leurs organisations qui répond le mieux aux besoins de l’entreprise. Dans cette session, nous allons présenter les fonctionnalités les plus récentes et les plus importantes autour de notre portail Team Administration Center, discuter des nouveautés en matière de stratégies, de gestion des applications, de gestion des appareils, de création de rapports, d’analytique et de résolution des problèmes, et de PowerShell. |Ronit Ben-Sheffer, Jamie Stark|
+|[Un emplacement pour les administrateurs pour gérer Microsoft Teams : nouveautés de Teams la facilité de gestion](https://aka.ms/IG20-DB144) |Teams administrateurs disposent de fonctionnalités de gestion flexibles et granulaires. Ces fonctionnalités leur permettent d’concevoir une expérience personnalisée pour leurs organisations qui répond le mieux aux besoins de l’entreprise. Dans cette session, nous présenterons les fonctionnalités les plus récentes et les plus importantes de notre portail Team Admin Center, discuterons des nouveautés en matière de stratégies, de gestion des applications, de gestion des appareils, de création de rapports, d’analytique et de dépannage, et de PowerShell. |Ronit Ben-Sheffer, Jamie Stark|
 |[Mettre à l’échelle et personnaliser des réunions et des événements virtuels avec Microsoft Teams](https://aka.ms/IG20-DB138)|Les réunions ont toutes les formes et tailles : découvrez comment utiliser Teams pour structurer et gérer votre prochain grand événement. Teams pouvez effectuer une mise à l’échelle en toute transparence en fonction des besoins de votre organisation, en fournissant des moyens de personnaliser et de fournir des expériences de participants optimales pour les événements de toutes tailles.  |Christina Torok, Ashwin Appiah|
 |[Mettre en place des expériences de réunion modernes sur l’espace de travail hybride à l’aide d’appareils Microsoft Teams](https://aka.ms/IG20-DB147) |Présentation des appareils Microsoft Teams. Teams appareils sont conçus pour aider les utilisateurs à optimiser la puissance de Teams et à combler l’écart entre les espaces de travail distants et partagés. Découvrez les appareils conçus pour offrir des expériences de salle de réunion centrées sur les personnes et des espaces de travail personnels réinventés permettant des expériences plus inclusives et collaboratives avec des appareils Microsoft Teams.  |Kendra Baker, Greg Baribault|
 |[Transformation de l’espace de travail moderne avec Microsoft Teams Platform](https://aka.ms/IG20-DB157) |Découvrez tous les points d’extensibilité nouveaux et existants au sein de la plateforme Teams. Découvrez comment créer des applications et des solutions puissantes pour répondre aux besoins de votre entreprise.|Archana Saseetharan, Michal Lesiczka|

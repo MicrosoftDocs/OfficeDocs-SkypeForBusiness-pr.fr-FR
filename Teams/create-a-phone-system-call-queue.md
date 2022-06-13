@@ -22,13 +22,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams, qui fournit un message d’accueil, de la musique de suspension, la redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: 7678d132b8711ea828bf643201df5501323ab77e
-ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
+description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams. Les files d’attente d’appels fournissent un message d’accueil, de la musique de suspension, la redirection des appels et d’autres fonctionnalités.
+ms.openlocfilehash: d6dd0d7211f9e430dbb716ff905c82443d5f4830
+ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65840986"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046436"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -39,23 +39,17 @@ Les files d’attente des appels utilisent une méthode de routage des appelants
 
 Les files d’attente des appels fournissent :
 
-- un message d’accueil.
+- Message d’accueil
 
-- une musique pour les personnes en attente dans la file d’attente.
+- Musique pendant que des personnes attendent en attente dans une file d’attente
 
-- un routage des appels vers les agents, en utilisant la méthode *Premier entré, premier sorti* (PEPS).
+- Routage des appels - dans l’ordre *First In, First Out* (FIFO) - vers les agents
 
-- Gestion des options pour le débordement et la temporisation des files d’attente.
+- Gestion des options pour le dépassement de file d’attente et le délai d’expiration
 
-Veillez à lire l’article [Planifier les standards automatiques et les files d’attente des appels pour Teams](plan-auto-attendant-call-queue.md), puis à suivre les [étapes de démarrage](plan-auto-attendant-call-queue.md#getting-started) avant de suivre les procédures de cet article.
+Avant de suivre les procédures décrites dans cet article, assurez-vous d’avoir lu [Plan for Teams des standards automatiques et des files d’attente d’appels](plan-auto-attendant-call-queue.md), et que vous avez suivi les [étapes de prise en main](plan-auto-attendant-call-queue.md#getting-started).
 
 **Pour plus d’informations, consultez la matrice [de compatibilité des fonctionnalités de file d’attente](#call-queue-feature-compatibility) d’appels ci-dessous.**
-
-## <a name="video-demonstration"></a>Démonstration vidéo
-
-Cette vidéo montre un exemple de base de la création d’une file d’attente d’appels dans Teams.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 ## <a name="create-the-call-queue"></a>Créer la file d’attente d’appels
 
@@ -77,13 +71,13 @@ Pour plus d’informations, consultez [Gérer Teams comptes de ressources](manag
 
 **Disponible pour Teams canal/utilisateurs de bureau appelants collaboratifs et Teams utilisateurs clients mobiles avec des files d’attente d’appels standard**
 
-Vous pouvez affecter des numéros d’ID d’appelant sortant pour les agents en spécifiant un ou plusieurs comptes de ressources avec un numéro de téléphone. Les agents peuvent sélectionner le numéro d’ID d’appelant sortant à utiliser avec chaque appel sortant qu’ils effectuent.
+Vous pouvez affecter des numéros d’ID d’appelant sortant pour les agents en spécifiant un ou plusieurs comptes de ressources avec un numéro de téléphone. Les agents peuvent sélectionner le numéro d’ID d’appelant sortant à utiliser avec chaque appel sortant qu’ils effectuent. Dans l’application Appels, les agents peuvent utiliser leur numéro de file d’attente d’appels /standard automatique (AA) ou leur propre numéro direct entrant personnel (DID).
 
 Cliquez sur **Ajouter**, recherchez les comptes de ressources que vous souhaitez autoriser les agents à utiliser à des fins d’ID d’appelant lors des appels sortants, cliquez sur **Ajouter**, puis cliquez sur **Ajouter**.
 
 **Files d’attente d’appels standard**
 
-Pour Teams utilisateurs de bureau et les files d’attente d’appels standard envisagent de définir directement l’ID de l’appelant pour les membres de la file d’attente d’appels sur le numéro de service de la file d’attente d’appels ou le standard automatique approprié. Pour plus d’informations, consultez [Gérer les stratégies d’ID d’appelant dans Microsoft Teams](caller-id-policies.md).
+Pour Teams utilisateurs de bureau et les files d’attente d’appels standard, envisagez de définir l’ID de l’appelant pour les membres de la file d’attente d’appels sur le numéro de service de la file d’attente d’appels ou le standard automatique approprié. Pour plus d’informations, consultez [Gérer les stratégies d’ID d’appelant dans Microsoft Teams](caller-id-policies.md).
 
 > [!NOTE]
 > Le compte de ressource utilisé à des fins d’appel d’ID doit avoir une licence d’utilisateur virtuel système Téléphonie Microsoft Teams et l’une des opérations suivantes doit être attribuée :
@@ -118,7 +112,7 @@ Examinez les [conditions d’ajout des agents à une file d’attente ](plan-aut
 
 ##### <a name="teams-channel"></a>Canal Teams
 
-Vous pouvez ajouter jusqu’à 200 agents via un canal Teams. Vous devez être membre de l’équipe, créateur ou propriétaire du canal pour ajouter un canal à la file d’attente.
+Vous pouvez ajouter jusqu’à 200 agents via un canal Teams. Vous devez être membre de l’équipe ou créateur ou propriétaire du canal pour ajouter un canal à la file d’attente.
 
 Si vous voulez [utiliser un canal Teams pour gérer la file d’attente](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), sélectionnez l’option **Sélectionner une équipe**, puis cliquez sur **Ajouter un canal**. Recherchez l’équipe à utiliser, sélectionnez-la, puis cliquez sur **Ajouter**. Sélectionnez le canal que vous souhaitez utiliser (seuls les canaux standard sont pris en charge), puis cliquez sur **Appliquer**. 
 
@@ -129,12 +123,14 @@ Les clients suivants sont pris en charge lors de l’utilisation d’un canal Te
 
 > [!NOTE]
 > Si vous utilisez cette option, l’opération de la file d’attente d’appels peut prendre jusqu’à 24 heures.
+>
+> S’il y a plus de 200 membres dans l’équipe, seuls les 200 premiers membres, par ordre alphabétique, seront ajoutés en tant qu’agents à la file d’attente des appels.
 
 ##### <a name="users-and-groups"></a>Utilisateurs et groupes
 
 Vous pouvez ajouter jusqu’à 20 agents individuellement et jusqu’à 200 agents via des groupes.
 
-Si vous voulez ajouter des utilisateurs individuels ou des groupes à la file d’attente, sélectionnez l’option **Choisir des utilisateurs et des groupes**. 
+Si vous souhaitez ajouter des utilisateurs ou des groupes individuels à la file d’attente, **sélectionnez Choisir des utilisateurs et des groupes**. 
 
 Pour ajouter un utilisateur à la file d’attente, cliquez sur **Ajouter des utilisateurs**, recherchez l’utilisateur, cliquez sur **Ajouter**, puis de nouveau sur **Ajouter**.
 
@@ -142,17 +138,19 @@ Pour ajouter un groupe à la file d’attente, cliquez sur **Ajouter des groupes
 
 > [!NOTE]
 > L’arrivée du premier appel peut prendre jusqu’à huit heures pour les nouveaux utilisateurs ajoutés à un groupe.
+>
+> S’il y a plus de 200 membres dans le groupe, seuls les 200 premiers membres, par ordre alphabétique, seront ajoutés en tant qu’agents à la file d’attente des appels.
 
 ## <a name="call-routing"></a>Routage des appels
 
 ![Capture d’écran des paramètres du mode de conférence et de la méthode de routage.](media/call-queue-conference-mode-routing-method.png)
 
-Le **mode conférence** réduit considérablement le temps nécessaire à la mise en relation d’un appelant avec un agent, une fois que l’agent a accepté l’appel. Pour que le mode conférence fonctionne, les agents de la file d’attente des appels doivent utiliser l’un des clients suivants :
+**Le mode conférence** réduit le temps nécessaire à la connexion d’un appelant à un agent une fois que l’agent a accepté l’appel. Pour que le mode conférence fonctionne, les agents de la file d’attente des appels doivent utiliser l’un des clients suivants :
 
   - la dernière version du client Microsoft Teams pour ordinateur de bureau, de l’application Android ou de l’application iOS
   - Téléphonie Microsoft Teams version 1449/1.0.94.2020051601 ou ultérieure
   
-Les comptes Teams des agents doivent être définis sur le mode Teams uniquement. Les agents qui ne répondent pas aux exigences ne sont pas inclus dans la liste de routage des appels. Nous vous recommandons d’activer le mode conférence pour vos files d’attente des appels si tous vos agents utilisent des clients compatibles.
+Les comptes Teams des agents doivent être définis en mode TeamsOnly. Les agents qui ne répondent pas aux exigences ne sont pas inclus dans la liste de routage des appels. Nous vous recommandons d’activer le mode de conférence pour vos files d’attente d’appels si vos agents utilisent des clients compatibles.
 
 > [!NOTE]
 > Le mode conférence n’est pas pris en charge si les appels téléphoniques sont acheminés vers la file d’attente à partir d’une passerelle de routage direct activée pour le routage basé sur l’emplacement.
@@ -170,7 +168,7 @@ La **méthode de routage** détermine l’ordre dans lequel les agents reçoiven
 
 - Le **tourniquet (round robin)** équilibre le routage des appels entrants afin que chaque agent d’appel reçoive le même nombre d’appels provenant de la file d’attente. Cette méthode de routage peut être souhaitable dans un environnement de vente entrant pour garantir l’égalité des chances entre tous les agents d’appel.
 
-- L’**inactivité la plus longue** achemine chaque appel vers l’agent qui a été inactif le plus longtemps. Un agent est considéré comme inactif si son état de présence est Disponible. Les agents dont l’état de présence n’est pas Disponible ne pourront pas recevoir d’appels tant qu’ils n’auront pas changé leur présence en Disponible. 
+- L’**inactivité la plus longue** achemine chaque appel vers l’agent qui a été inactif le plus longtemps. Un agent est considéré comme inactif si son état de présence est Disponible. Les agents dont l’état de présence n’est pas Disponible ne pourront pas recevoir d’appels tant qu’ils n’auront pas remplacé leur présence par Disponible. 
 
 > [!TIP]
 > Le paramètre recommandé consiste à définir la **méthode de routage** **sur round robin** ou **idle le plus** long.
@@ -180,7 +178,7 @@ La **méthode de routage** détermine l’ordre dans lequel les agents reçoiven
 > 
 > Lorsque vous utilisez **l’inactivité la plus longue** et qu’il y a moins d’appels en file d’attente que les agents disponibles, seuls les deux premiers agents inactifs les plus longs sont présentés avec les appels de la file d’attente.
 > 
-> Lorsque vous utilisez **l’inactivité la plus longue** , il peut arriver qu’un agent reçoive un appel de la file d’attente peu de temps après être devenu indisponible ou un court délai de réception d’un appel de la file d’attente après être devenu disponible.
+> Lorsque vous utilisez **l’inactivité la plus longue**, il peut arriver qu’un agent reçoive un appel de la file d’attente peu après son indisponibilité, ou un court délai pour recevoir un appel de la file d’attente après être devenu disponible.
 > 
 > La présentation des appels de file d’attente d’appels aux agents peut entrer en conflit avec les restrictions de routage basé sur l’emplacement. Dans ce cas, l’agent reçoit un toast d’appel, mais ne peut pas répondre à l’appel. Cette condition se poursuit jusqu’à ce qu’un autre agent soit disponible pour répondre à l’appel, que l’appelant raccroche ou que la condition de délai d’expiration de la file d’attente d’appel se produise.  
 
@@ -196,9 +194,9 @@ Si un agent refuse de recevoir des appels, il ne sera pas inclus dans la liste d
 > [!NOTE]
 > Lorsque **l’inactivité la plus longue** est sélectionnée comme méthode de routage, le routage basé sur la présence est requis et automatiquement activé, même si le bouton bascule de routage basé sur la présence est **désactivé** et grisé.
 >
-> Si le routage basé sur la présence n’est pas activé et qu’il y a plusieurs appels dans la file d’attente, le système présentera ces appels simultanément aux agents, quel que soit leur statut de présence. Cela entraînera plusieurs notifications d’appels aux agents, en particulier si certains agents ne répondent pas à l’appel initial qui leur est présenté.
+> Si le routage basé sur la présence n’est pas activé et qu’il existe plusieurs appels dans la file d’attente, le système présente ces appels simultanément aux agents, quel que soit leur état de présence. Cette action entraîne plusieurs notifications d’appel aux agents, en particulier si certains agents ne répondent pas à l’appel initial qui leur est présenté.
 >
-> Lors de l’utilisation du **routage basé sur la présence** , il peut arriver qu’un agent reçoive un appel de la file d’attente peu après son indisponibilité ou un court délai pour recevoir un appel de la file d’attente après être devenu disponible.
+> Lors de l’utilisation du **routage basé sur la présence**, il peut arriver qu’un agent reçoive un appel de la file d’attente peu après son indisponibilité ou un court délai pour recevoir un appel de la file d’attente après être devenu disponible.
 > 
 > Les agents qui utilisent le client Skype Entreprise ne sont pas inclus dans la liste de routage des appels lorsque le routage basé sur la présence est activé. Si certains de vos agents utilisent Skype Entreprise, n’activez pas le routage des appels basé sur la présence.
 
@@ -222,7 +220,7 @@ Le **nombre maximal d’appels dans la file d’attente** spécifie le nombre ma
 Vous pouvez choisir de mettre fin à l’appel ou de le rediriger vers l’une des destinations de routage des appels. Par exemple, vous pouvez demander à l’appelant de laisser un message vocal pour les agents dans la file d’attente. Pour les transferts externes, consultez [Les prérequis](plan-auto-attendant-call-queue.md#prerequisites) et les [transferts de numéros de téléphone externes . Détails techniques](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) de la mise en forme des numéros.
 
 > [!NOTE]
-> Si le nombre maximum d’appels est défini sur 0, le message d’accueil ne sera pas diffusé.
+> Si le nombre maximal d’appels est défini sur 0, le message d’accueil ne sera pas lu.
 >
 > Lors de la redirection vers la messagerie vocale partagée, **assurez-vous que les personnes extérieures à cette organisation envoient un e-mail à cette équipe pour l’équipe**/le groupe dans le centre de Administration Microsoft 365.
 
@@ -252,42 +250,41 @@ Les configurations ci-dessous sont recommandées :
 
 ## <a name="call-queue-feature-compatibility"></a>Compatibilité des fonctionnalités de file d’attente d’appels
 
-|Fonctionnalité                          |Teams Desktop<sup>1</sup> |Teams Mobile<sup>2</sup> |Lync |Téléphones IP | Files d’attente d’appels standard |Files d’attente d’appels basées sur un canal | Commentaire |
-|:--------------------------------|:------------------------:|:-----------------------:|:---:|:--------:|:--------------------:|:------------------------:|:-------------|
-|**Méthodes de routage de l’agent**        |                          |                         |     |          |                      |                          |              |
-|`Attendant Routing`              |O                         |O                        |O    |O         |O                     |v                         |*Par défaut*     |
-|`Longest Idle`<sup>3</sup>       |O                         |v                        |N    |O         |O                     |v                         |*Recommandé* |
-|`Round Robin`                    |O                         |O                        |O    |O         |O                     |v                         |*Recommandé* |
-|`Serial`                         |O                         |O                        |O    |v         |Y<sup>4</sup>         |Y<sup>4</sup>             |              |
-|**Options de routage de l’agent**        |                          |                         |     |          |                      |                          |              |
-|`Presence Based Routing`<sup>3</sup>|O                        |v                        |N    |O         |O                     |v                         |*Recommandé* |
-|`Agents can Opt-out`               |O                         |O                        |Y<sup>7</sup>|Y<sup>7</sup>|O          |O                         |*Par défaut*     |
-|**Modes de transfert**               |                          |                         |     |          |                      |                          |              |
-|`Conference Mode`<sup>5</sup>    |O                         |v                        |N    |Y<sup>6</sup>|O                  |O                         |*Recommandé* |
-|`Transfer Mode`                  |O                         |O                        |O    |O         |O                     |v                         |*Par défaut*              |
-|**Appel collaboratif**        |                          |                         |     |          |                      |                          |              |
-|`Channel Based Queues`             |v                         |N                        |N    |N         |n/a                   |Y<sup>8</sup>             |              |
-|**ID d’appelant dynamique**            |                          |                         |     |          |                      |                          |              |
-|`Standard call queue`            |N                         |v                        |N    |N         |O                     |n/a                       |              |
-|`Channel based call queue`       |O                         |n/a                      |n/a  |n/a       |n/a                   |O                         |              |
-|**Méthodes de connectivité RTC**    |                          |                         |     |          |                      |                          |Voir la note 10   |
-|`Calling Plans`                  |O                         |O                        |O    |O         |O                     |O                         |              |
-|`Direct Routing`                 |O                         |v                        |N    |N         |O                     |O                         |              |
-|`Operator Connect`               |O                         |O                        |     |          |O                     |v                         |              |
-|**Divers**    |                          |                         |     |          |                      |                          |Voir la note 10   |
-|`Call toast shows Resource Account Name` |Y<sup>9</sup>       |O                        |O    |          |O                     |v                         |              |
+|Fonctionnalité                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Lync |Téléphones IP | Files d’attente d’appels standard |Files d’attente d’appels basées sur un canal | Commentaire |
+|:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
+|**Méthodes de routage de l’agent**        |                          |          |                |     |          |                      |                          |   |
+|`Attendant Routing`              |O                         |O         |O               |O    |O         |O                     |v                         |*Par défaut*     |
+|`Longest Idle`<sup>3</sup>       |O                         |O         |v               |N    |O         |O                     |v                         |*Recommandé* |
+|`Round Robin`                    |O                         |O         |O               |O    |O         |O                     |v                         |*Recommandé* |
+|`Serial`                         |O                         |O         |O               |O    |v         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
+|**Options de routage de l’agent**        |                          |          |                |     |          |                      |                          |   |
+|`Presence Based Routing`<sup>3</sup>|O                      |O         |v               |N    |O         |O                     |v                         |*Recommandé* |
+|`Agents can Opt-out`               |O                       |O         |v               |Y<sup>7</sup>|Y<sup>7</sup>|O          |v                         |*Par défaut*     |
+|**Modes de transfert**               |                          |          |                |     |          |                      |                          |   |
+|`Conference Mode`<sup>5</sup>    |O                         |O         |v               |N    |Y<sup>6</sup>|O                  |O                         |*Recommandé* |
+|`Transfer Mode`                  |O                         |O         |O               |O    |O         |O                     |v                         |*Par défaut*              |
+|**Appel collaboratif**        |                          |          |                |     |          |                      |                          |   |
+|`Channel Based Queues`             |v                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
+|**ID d’appelant dynamique**            |                          |          |                |     |          |                      |                          |   |
+|`Standard call queue`            |N                         |N         |v               |N    |N         |O                     |n/a                       |   |
+|`Channel based call queue`       |v                         |n/a       |n/a             |n/a  |n/a       |n/a                   |O                         |   |
+|**Méthodes de connectivité RTC**    |                          |          |                |     |          |                      |                          |Voir la note 9   |
+|`Calling Plans`                  |O                         |O         |O               |O    |O         |O                     |O                         |   |
+|`Direct Routing`                 |O                         |O         |v               |N    |N         |O                     |O                         |   |
+|`Operator Connect`               |O                         |O         |O               |     |          |O                     |v                         |   |
+|**Divers**                |                          |          |                |     |          |                      |                          |   |
+|`Call toast shows Resource Account Name` |v                 |N         |O               |O    |          |O                     |v                         |              |
 
 Remarques :
-1. Microsoft Teams Windows client, Microsoft Teams client Mac, Microsoft Teams sur l’infrastructure de bureau virtualisée, Microsoft Teams client web.
+1. Microsoft Teams Windows client, Microsoft Teams client Mac, Microsoft Teams sur l’infrastructure de bureau virtualisée.
 2. application Microsoft Teams iPhone, application Microsoft Teams Android.
 3. La sélection de l’inactivité la plus longue pour la méthode de routage de l’agent active automatiquement le routage basé sur présence.
 4. Peut uniquement définir l’ordre lors de l’ajout d’utilisateurs individuels dans le cadre de files d’attente d’appels standard. Lorsqu’une liste de distribution ou un canal Teams est utilisé, l’ordre est alphabétique.
 5. Le mode conférence n’est pas pris en charge si les appels téléphoniques sont acheminés vers la file d’attente à partir d’une passerelle de routage direct activée pour le routage basé sur l’emplacement.
-6. Microsoft Teams téléphone uniquement.
-7. Via la page Portail Paramètres utilisateur à l’adressehttps://aka.ms/vmsettings
+6. Téléphonie Microsoft Teams seulement.
+7. Par le biais de la page Portail Paramètres utilisateur à l’adresse https://aka.ms/vmsettings.
 8. Seuls les canaux publics sont pris en charge.
-9. Exclusion de Teams client Web.
-10. Les standards automatiques et les files d’attente d’appels ne peuvent pas transférer d’appels entre des méthodes de connectivité RTC.
+9. Les standards automatiques et les files d’attente d’appels ne peuvent pas transférer d’appels entre des méthodes de connectivité RTC.
 
 
 ## <a name="supported-clients"></a>Clients pris en charge
@@ -308,7 +305,7 @@ Les clients suivants sont pris en charge pour les agents d’appel dans une file
   - Application Microsoft Teams pour Android
 
     > [!NOTE]
-    > Les files d’attente des appels auxquelles un numéro de routage direct est attribué ne prennent pas en charge les clients Skype Entreprise, les clients Lync ou les téléphones IP Skype Entreprise en tant qu’agents. Le client Teams est uniquement pris en charge avec un [mode de coexistence de Teams uniquement](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
+    > Les files d’attente d’appels qui se voient attribuer un numéro de routage direct ne prennent pas en charge Skype Entreprise clients, clients Lync ou Skype Entreprise téléphones IP en tant qu’agents. Le client Teams est uniquement pris en charge avec un [mode de coexistence de TeamsOnly](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
 
 ## <a name="call-queue-cmdlets"></a>Cmdlets de files d’attente des appels
 
@@ -379,7 +376,7 @@ Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suiva
 
 3. Les tests retournent les meilleures étapes suivantes pour traiter les configurations de locataire, de stratégie et de compte de ressource pour vérifier que la file d’attente d’appels est en mesure de recevoir des appels.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Voici ce que vous obtenez avec Téléphonie Microsoft Teams](here-s-what-you-get-with-phone-system.md)
 

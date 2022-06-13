@@ -1,7 +1,7 @@
 ---
 title: Posters de l’architecture du service informatique de Microsoft Teams et des solutions vocales
-ms.author: serdars
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: ITPro
 ms.topic: landing-page
@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: 'Résumé: En savoir plus sur la logique de services de productivité dans Microsoft 365, fonctionnant avec Microsoft Teams. Découvrez également les solutions vocales pour Teams.'
-ms.openlocfilehash: 6ac6f7f88ec838b445d382dbc6ba8d5ee4ec1bcf
-ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
+ms.openlocfilehash: 5e53d82aff2ad67ca97acd151e5cbc9d2ed75810
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64866189"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045423"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Posters de l’architecture du service informatique de Microsoft Teams et des solutions vocales
 

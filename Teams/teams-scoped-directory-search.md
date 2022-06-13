@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b073cdd67d89de7d934990abc33cb0586d0fc76
-ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
+ms.openlocfilehash: c20c5acdafff69e5a43f02093b515b456daa8ff7
+ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64732222"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046426"
 ---
 # <a name="limit-who-users-can-see-when-searching-the-directory-in-teams"></a>Limiter les utilisateurs qui peuvent voir lors de la recherche dans le répertoire dans Teams
 
@@ -50,3 +50,5 @@ Pour activer la recherche par nom
 
 > [!Note]
 > L’application de cette modification peut prendre quelques heures.
+> 
+> L’activation de la recherche par nom masque la zone **Équipes de recherche** et la liste des équipes publiques dans **Rejoindre ou créer une équipe** dans Teams. Il désactive également la jointure d’une équipe en tapant `/join` la zone de commande en haut de Teams.

@@ -1,8 +1,8 @@
 ---
-title: ressources de formation Administration - Microsoft Teams
+title: Ressources de formation de l’administrateur - Microsoft Teams
 ms.reviewer: jhwang
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 description: Vidéos de formation sur les complexes PowerPoint, les didacticiels et autres ressources pour les administrateurs sur la façon de planifier, déployer et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bc4841e67606f467bc13940755a7de77038d7b6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 3cda81a54bce9310454cd6b0607e943eb7c2bb37
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675586"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045853"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Prise en main de la formation d’administrateur pour Microsoft Teams
 
@@ -96,7 +96,7 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 | Titre                                                                       | Abstrait                                                                                                                                                                                                               |  Lien vers le guide                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Identity, Access Management & Threat Protection for Teams                   | Découvrez comment utiliser les centres d’administration Microsoft et PowerShell pour configurer des stratégies d’accès et d’identité et activer Office 365 Protection avancée contre les menaces pour Teams                                                            | [guide de sécurité Teams](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Microsoft Purview stratégies de protection contre la perte de données (DLP) pour Microsoft Teams                     | Découvrez comment ajouter Microsoft Teams à une stratégie DLP existante et comment créer une stratégie, qu’elle soit basée sur un modèle ou entièrement personnalisée en fonction des besoins de protection des données de votre organisation.                        | [guide Teams DLP](https://aka.ms/teamsdlpguide)         |
+| Stratégies de protection contre la perte de données (DLP) Microsoft Purview pour Microsoft Teams                     | Découvrez comment ajouter Microsoft Teams à une stratégie DLP existante et comment créer une stratégie, qu’elle soit basée sur un modèle ou entièrement personnalisée en fonction des besoins de protection des données de votre organisation.                        | [guide Teams DLP](https://aka.ms/teamsdlpguide)         |
 | Gestion de la conformité dans Teams                                                | Utilisez les centres d’administration Microsoft 365 Sécurité, conformité Microsoft 365 et Microsoft Teams, ainsi que Windows PowerShell pour gérer et configurer les stratégies de Microsoft Teams d’une organisation Office 365 et paramètres. | [Gestion de la conformité dans Teams guide](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams Conseiller : Déploiement de conversations, d’équipes, de canaux et d’applications dans Microsoft Teams | Découvrez comment utiliser Teams Advisor pour évaluer votre environnement et créer un plan de déploiement de conversations, d’équipes, de canaux et d’applications.                                                                                         |  [guide Teams Conseiller](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | Simplification de l’administration Teams avec PowerShell et des groupes dynamiques        | Convertissez un groupe Office 365 de l’appartenance statique en groupe dynamique et utilisez Windows PowerShell pour affecter une nouvelle stratégie d’autorisation d’application à tous les membres.                                                                         |  [Guide d’administration de la rationalisation Teams](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
