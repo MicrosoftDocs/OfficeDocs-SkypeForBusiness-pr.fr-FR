@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, de média et de bureau produits par Microsoft Teams, où ils sont trouvés et comment ils peuvent vous aider à surveiller et à résoudre les problèmes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d8e3ab079498ecfca11a7d2ba48736aaf457329
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 178e89ff91de4638f6a9ff56a4dcb935d18f6f91
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059105"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66056944"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Utiliser des fichiers journaux pour surveiller et dépanner Microsoft Teams
 
@@ -95,12 +95,16 @@ Les journaux de débogage contiennent les flux de données suivants :
 -   Appel/conversation
 
 Pour collecter les journaux pour Linux :
-- Raccourci clavier : <kbd>CtrlAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> + <kbd></kbd>  
+- Raccourci clavier : <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Maj</kbd> + <kbd>1</kbd>  
 - Les fichiers seront disponibles dans `~/Downloads`
 
 Pour collecter les journaux d’activité pour browser et Windows :
-- Raccourci clavier : <kbd>CtrlAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> + <kbd></kbd>  
+- Raccourci clavier : <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Maj</kbd> + <kbd>1</kbd>  
 - Les fichiers seront disponibles dans `%userprofile%\Downloads`
+
+Pour collecter les journaux pour Mac :
+- Raccourci clavier : <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
+- Les fichiers seront disponibles dans `~/Downloads`
 
 ## <a name="media-logs"></a>Journaux des médias
 
@@ -153,7 +157,11 @@ Consultez la section _Collecter et activer la journalisation_ pour les instructi
 Pour collecter les journaux pour Linux :
 - Cliquez sur l’icône Microsoft Teams dans votre barre d’état système, puis **sélectionnez Obtenir les journaux**.
 - Les fichiers seront disponibles dans `~/.config/Microsoft/Microsoft Teams/logs.txt`.
-  
+
+Pour collecter les journaux pour Mac :
+- Cliquez sur le menu Aide dans Microsoft Teams, puis **sélectionnez Collecter les fichiers de support**.
+- Le `logs.txt` fichier se trouve dans le dossier Bureau à l’intérieur du dossier _journal \<local date and time>des diagnostics MSTeams_.
+
 Pour collecter des journaux d’activité pour Windows :
 - Cliquez sur l’icône Microsoft Teams dans votre barre d’état système, puis **sélectionnez Collecter les fichiers de support**.
 - Le `logs.txt` fichier est ouvert automatiquement dans Bloc-notes.

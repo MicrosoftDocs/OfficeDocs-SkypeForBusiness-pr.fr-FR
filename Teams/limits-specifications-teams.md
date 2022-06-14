@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cdbae6cacd861602baea69ec9682f8069dc720a0
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: 2d31474233057d930ccdbc0bdfea27262cc5dc04
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913432"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046003"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -45,8 +45,8 @@ Cet article présente certaines limites, spécifications et autres configuration
 |Nombre de canaux par équipe    | 200 (y compris les canaux supprimés)<sup>4</sup>        |
 |Nombre de canaux privés par équipe    |30 (y compris les canaux supprimés)<sup>4</sup>        |
 |Nombre de membres dans un canal privé    |250|
-|Taille maximale de liste de distribution, groupe de sécurité ou groupe Office 365 pouvant être importé dans une équipe    |3 500|
-|Nombre maximal de membres d’un groupe Office 365 pouvant être convertis en équipe    |10 000<sup>6</sup>     |
+|Taille maximale de liste de distribution, groupe de sécurité ou groupe Microsoft 365 pouvant être importé dans une équipe    |3 500|
+|Nombre maximal de membres d’un groupe Microsoft 365 pouvant être convertis en équipe    |10 000<sup>6</sup>     |
 |Taille de billet de conversation de canal | Environ 28 Ko par billet<sup>5</sup> |
 
 <sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](/graph/permissions-reference).
@@ -62,7 +62,7 @@ Cet article présente certaines limites, spécifications et autres configuration
 <sup>6</sup> membres de canaux partagés extérieurs à l’équipe sont comptabilisés dans cette limite. Notez également que les mentions d’équipes/canaux sont bloquées dans les équipes de plus de 10 000 membres.
 
 > [!NOTE]
-> Pour l'aperçu des limites des canaux partagés, voir [Limites des canaux partagés (aperçu)](/MicrosoftTeams/shared-channels#limits-for-shared-channels-preview).
+> Pour les limites des canaux partagés, voir [Limites des canaux partagés](/MicrosoftTeams/shared-channels#limits-for-shared-channels).
 
 ## <a name="messaging"></a>Messagerie
 

@@ -6,23 +6,20 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-f1.keywords:
-- NOCSH
 ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-- m365initiative-voice
 search.appverid: MET150
 description: Découvrez comment modifier vos licences Business Voice pour Teams Téléphone licences.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39e374175b4ba0a7613405305c4db3baa0e69171
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: e9e973d00761e62e62a3c749163f9e6dcaa8a636
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046129"
+ms.locfileid: "66057094"
 ---
 # <a name="move-from-business-voice-to-teams-phone-licenses"></a>Passer de Business Voice à Teams Téléphone licences
 
@@ -38,6 +35,11 @@ Les clients Business Voice existants ne sont pas automatiquement transférés ve
 
 Cet article s’adresse aux administrateurs informatiques qui doivent modifier leurs licences Business Voice pour Téléphonie Microsoft Teams et Audioconférence licences tout en conservant les mêmes fonctionnalités.
 
+> [!WARNING]
+> Suivez attentivement les instructions de cet article. Si les instructions vous indiquent de NE PAS sélectionner le bouton **Enregistrer** , ne sélectionnez pas le bouton **Enregistrer** .
+>
+> L’enregistrement prématuré peut entraîner la perte d’affectations de numéros de téléphone, de plans de numérotation, de standards automatiques et de files d’attente d’appels.
+
 ## <a name="acquire-new-licenses"></a>Acquérir de nouvelles licences
 
 Avant de remplacer les licences Business Voice, vous devez d’abord acheter des licences de remplacement pour vos utilisateurs.
@@ -52,18 +54,17 @@ Utilisez le tableau suivant pour déterminer les licences à acheter en fonction
 
 | Ancien plan de licence | Plan de licence recommandé | Description |
 | ---------------- | ------------------------ | ----------- |
-| Business Voice avec forfait d’appels | Téléphone Teams avec forfait d'appel | Fournit des fonctionnalités de Système téléphonique basées sur le cloud et un plan d’appels nationaux avec Microsoft comme fournisseur RTC. |
-| Business Voice sans forfait d’appels | Teams Phone Standard | Fournit des fonctionnalités de Système téléphonique basées sur le cloud qui peuvent être combinées avec un [plan d’appel via un fournisseur RTC tiers à l’aide d’un routage Operator Connect ou direct](pstn-connectivity.md) |
-| Business Voice (n’importe quelle version) | L’équipe Microsoft Audioconférence sélectionner l’appel sortant ou Audioconférence | Fournit des fonctionnalités de connexion et de numérotation aux participants de réunion organisés par un utilisateur titulaire d’une licence |
+| Business Voice avec forfait d’appels | Teams Téléphone avec forfait d’appels et Audioconférence Microsoft Teams avec rendez-vous aux États-Unis/CAN | Fournit des fonctionnalités de Système téléphonique basées sur le cloud, un forfait d’appels nationaux avec Microsoft comme fournisseur RTC, ainsi que des fonctionnalités de connexion et de numérotation pour les participants à la réunion organisées par un utilisateur sous licence. |
+| Business Voice sans forfait d’appels | Teams Phone Standard et Audioconférence Microsoft Teams avec rendez-vous aux États-Unis/CAN | Fournit des fonctionnalités de Système téléphonique basées sur le cloud qui peuvent être combinées avec [un plan d’appel tiers avec un fournisseur RTC à l’aide de fonctionnalités de routage Operator Connect ou direct](pstn-connectivity.md), de connexion et de numérotation pour rencontrer des participants organisés par un utilisateur sous licence. |
 
 ## <a name="how-to-update-licenses"></a>Comment mettre à jour les licences
 
 Vous avez quatre façons de mettre à jour vos licences :
 
-- Mise à jour de la licence utilisateur unique via Centre d'administration Microsoft 365.
-- Mise à jour de licence utilisateur en bloc via Centre d'administration Microsoft 365.
-- Mise à jour de licence utilisateur en bloc à l’aide d’un script PowerShell.
-- Mise à jour en bloc des licences utilisateur à l’aide de licences basées sur un groupe Azure.
+- Mise à jour des licences mono-utilisateur via Centre d'administration Microsoft 365
+- Mise à jour de licence utilisateur en bloc via Centre d'administration Microsoft 365
+- Mise à jour de licence utilisateur en bloc à l’aide d’un script PowerShell
+- Mise à jour de licence utilisateur en bloc à l’aide de licences basées sur un groupe Azure
 
 # <a name="option-1-single-user-in-admin-center"></a>[Option 1 : Utilisateur unique dans le Centre d’administration](#tab/single-user)
 
