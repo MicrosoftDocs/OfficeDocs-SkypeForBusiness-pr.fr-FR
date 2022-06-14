@@ -1407,6 +1407,8 @@ items:
             href: rooms/standards-and-room-planner.md
           - name: Incidents signalés par le client
             href: rooms/customer-reported-incidents.md
+          - name: Informations sur les données et la confidentialité
+            href: rooms/data-and-privacy-info.md
           - name: Utilisation de l’application mobile Salles Teams
             href: rooms/extended-mobile-app.md
       - name: Appareils
