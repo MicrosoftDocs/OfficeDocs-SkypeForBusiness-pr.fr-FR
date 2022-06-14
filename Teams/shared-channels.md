@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des canaux partagés dans Microsoft Teams.
-ms.openlocfilehash: 72701d71712a553c9a02cf9ab41ce0ced0597c3a
-ms.sourcegitcommit: c74c83fdb3fdbf1a5ebc9398bf0379d33f888d1b
+ms.openlocfilehash: 11abe6245dea7ee72bc2f71b412addbed5aa6e30
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65795636"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66057054"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canaux partagés dans Microsoft Teams
 
@@ -96,10 +96,12 @@ Le tableau suivant décrit les actions que les propriétaires, les membres et le
 
 Chaque canal partagé a [son propre site SharePoint](/SharePoint/teams-connected-sites). Le site séparé doit garantir que l'accès aux fichiers du canal partagé est limité aux seuls membres du canal partagé. Ces sites sont créées avec une bibliothèque de documents par défaut, et peuvent être facilement améliorés et transformés en site complet via l’[interface de gestion de site](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Chaque site est créé dans la même zone géographique que le site de l’équipe parente. Ces sites légers ont un ID de modèle personnalisé, « TEAMCHANNEL#0 », pour simplifier la gestion via PowerShell et l’API Graph. 
 
+Un site de canal partagé hérite de l’étiquette de confidentialité de l’équipe parente. Il en va de même si le canal est partagé directement avec une autre équipe.
+
 > [!NOTE]
 > Seules les personnes disposant d’autorisations de propriétaire ou de membre dans le canal auront accès au contenu du site de canal partagé. Les membres de l’équipe parente et les administrateurs n’auront pas accès, sauf s’ils sont également membres du canal.
 
-Un site de canal partagé synchronise la classification des données du site de l'équipe mère. L'adhésion au propriétaire du site et aux groupes de membres est synchronisée avec l'adhésion au canal partagé. Les autorisations de site pour un site de canal partagé ne peuvent pas être gérées indépendamment par SharePoint. 
+L'adhésion au propriétaire du site et aux groupes de membres est synchronisée avec l'adhésion au canal partagé. Les autorisations de site pour un site de canal partagé ne peuvent pas être gérées indépendamment par SharePoint. 
 
 Teams gère le cycle de vie du site de canal partagé. Si le site est supprimé en dehors de Teams, il est restauré automatiquement dans les quatre heures, pour autant que le canal partagé soit toujours actif. Si le site est définitivement supprimé, un nouveau site est provisionné pour le canal partagé.
 
