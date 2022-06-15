@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone à Singapour pour Microsoft Teams.
-ms.openlocfilehash: e333809f0ca5975cc5ce285c3263bdb04c523994
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: b7540072afc360818e7f8cd6a25d06bc6bb5724c
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045563"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103211"
 ---
 # <a name="phone-number-management-for-singapore"></a>gestion des numéros Téléphone pour Singapour
 
@@ -38,12 +38,12 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
 |Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams. |À Singapour, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du centre d’administration Microsoft Teams. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en contactant TNS Service Desk pour obtenir des instructions](contact-tns-service-desk.md).<br/><br/>[Nouvelle demande de numéro de téléphone pour Singapour (v.1.0) (en-sg).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/>Avant de pouvoir vous attribuer des numéros de téléphone, vous devez télécharger l’un des formulaires suivants :<ul><li>[Connaître votre client Singapour - Chinois v1.0 zn-CN](https://download.microsoft.com/download/1/4/7/147324ac-06a5-4c7b-a38b-7efa0166fdf7/know-your-customer-for-singapore-(v1.0)-(zh-CN).pdf)</li><li>[Connaître votre client pour Singapour - Tamoul v1.0 ta-IN](https://download.microsoft.com/download/b/4/8/b48457c1-cef1-4bc7-ae44-71c5302e5eb2/know-your-customer-for-singapore-(v1.0)-(ta-IN).pdf)</li><li>[Connaître votre client Singapour - Malay v1.0 ms-MY](https://download.microsoft.com/download/f/5/9/f597a754-9478-4d5b-88af-a2a2fe5bbd62/know-your-customer-for-singapore-(v1.0)-(ms-MY).pdf)</li></ul>Complétez-le complètement et [contactez le service desk TNS pour obtenir des instructions](contact-tns-service-desk.md).<br/><br/>Les nouvelles commandes peuvent prendre de deux à trois semaines pour remplir ce marché.  |
-|Obtenez les numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour Singapour (numéros d’utilisateur et de service)(en-sg)v2](<https://download.microsoft.com/download/e/9/5/e959053a-4b35-49f9-a23e-7085575c46f2/LOA-SG-GEO-EN.pdf>)<br/> <br/>Renseignez-le et [contactez le service TNS pour obtenir des instructions](contact-tns-service-desk.md). <br/><br/>Le transfert de numéros peut prendre une à six semaines sur ce marché en fonction de la complexité du port. <br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour l’instant.  |
+|Obtenez les numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour Singapour (numéros d’utilisateur et de service)(en-sg)v2](<https://download.microsoft.com/download/e/9/5/e959053a-4b35-49f9-a23e-7085575c46f2/LOA-SG-GEO-EN.pdf>)<br/> <br/>Renseignez-le et [contactez le service TNS pour obtenir des instructions](contact-tns-service-desk.md). <br/><br/>Le transfert de numéros peut prendre une à six semaines sur ce marché en fonction de la complexité du port. <br/><br/>Les numéros géographiques peuvent être portés dans le service (pour les files d’attente d’appels & standard automatique uniquement, car ces numéros ne peuvent pas être utilisés pour la conférence pour l’instant.) ou les types de numéros d’abonné. Notez que le service de portage pour le port gratuit (0800) n’est actuellement pas pris en charge.  |
 |Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez TNS Service Desk pour obtenir des instructions](contact-tns-service-desk.md) sur la liste des numéros de téléphone que vous souhaitez publier/annuler la publication. <br/> |
 |Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contactez TNS Service Desk pour obtenir des instructions](contact-tns-service-desk.md) sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
 |Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier des numéros de file d’attente d’appels ou de standard automatique, contactez [TNS Service Desk pour obtenir des instructions](contact-tns-service-desk.md).|
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

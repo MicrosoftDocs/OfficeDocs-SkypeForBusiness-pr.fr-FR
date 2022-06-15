@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ed354dfca3ac8600bd25122daa15d3ecf743e55
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 6e5dcee1e45ec191853f088887e7ed36f8e3fbc6
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817785"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103201"
 ---
 # <a name="security-and-microsoft-teams"></a>Sécurité et Microsoft Teams
 
@@ -79,7 +79,7 @@ TLS authentifie toutes les parties et chiffre tout le trafic. L'utilisation de T
 
 ### <a name="man-in-the-middle-attack"></a>Attaque par intercepteur
 
-Une attaque de l’intercepteur se produit lorsqu'une personne malveillante réachemine la communication entre deux utilisateurs via son propre ordinateur, à l'insu des deux utilisateurs en question. La personne malveillante peut surveiller et lire le trafic avant de l'envoyer au destinataire prévu. Chaque utilisateur de la communication envoie sans le savoir du trafic à la personne malveillante et en reçoit de cette dernière, tout en pensant qu'il ne communique qu'avec l'utilisateur prévu. Ce scénario peut se produire si une personne malveillante peut modifier les services de domaine Active Directory pour ajouter son serveur comme serveur de confiance ou modifier la configuration du système de noms de domaine (DNS) pour que les clients se connectent via la personne malveillante avant d'atteindre le serveur.
+Une attaque de l’intercepteur se produit lorsqu’une personne malveillante redirige les communications entre deux utilisateurs via son propre ordinateur, à l’insu des deux participants. L’intrus peut surveiller et lire le trafic avant de l’acheminer vers le destinataire concerné. Chacun des utilisateurs envoie et reçoit du trafic vers/de l’intrus, alors qu’il pense communiquer avec l’utilisateur concerné uniquement. Ce scénario peut se produire si un utilisateur malveillant peut modifier Active Directory Domain Services pour ajouter son serveur en tant que serveur approuvé ou modifier la configuration DNS ou utiliser d’autres moyens pour que les clients se connectent via la personne malveillante lorsqu’elle arrive sur le serveur.
 
 Les attaques d’homme-intermédiaire sur le trafic multimédia entre deux points de terminaison qui participent dans l’audio, la vidéo et le partage d’applications dans Teams sont évitées en utilisant *Secure Real-Time Transport Protocol*(SRTP) pour chiffrer le flux de données multimédia. Les clés cryptographiques sont négociées entre les deux points de terminaison sur un protocole de signalisation propriétaire (Team Calling Protocol) qui utilise TLS 1.2 et AES-256 (en mode GCM) canal UDP/TCP chiffré.
 
@@ -264,13 +264,13 @@ Un présentateur peut également promouvoir un participant au rôle de présenta
 
 Les participants à la réunion sont également classés par localisation et informations d’identification. Vous pouvez utiliser ces deux caractéristiques pour préciser les utilisateurs pouvant avoir accès à des réunions spécifiques. Les utilisateurs peuvent être répartis dans les catégories suivantes :
 
-- **Les utilisateurs qui appartiennent au client** Ces utilisateurs ont des informations d’identification dans Azure Active Directory pour le client.
+- **Utilisateurs qui appartiennent au client**. Ces utilisateurs ont des informations d’identification dans Azure Active Directory pour le client.
 
     *Membres de mon organisation* : ces utilisateurs ont une information d’identification dans Azure Active Directory pour le client. *Membres de mon organisation* inclut les comptes invités invités.
 
     *Utilisateurs distants* : ces utilisateurs se rejoignent en dehors du réseau de l’entreprise. Ce sont, par exemple, des employés qui travaillent à domicile ou en déplacement, ou d’autres personnes, comme les employés de fournisseurs de confiance, qui ont reçu des informations d’identification d’entreprise pour leurs conditions d’utilisation du service. Les utilisateurs distants peuvent créer et participer à des réunions et se comporter comme présentateurs.
 
-- **Les utilisateurs qui n’appartiennent pas au client**. Ces utilisateurs n’ont pas d’informations d’identification dans Azure AD pour le client.
+- **Utilisateurs qui n’appartiennent pas au client**. Ces utilisateurs n’ont pas d’informations d’identification dans Azure AD pour le client.
 
     *Les utilisateurs fédérés* les utilisateurs fédérés ont des informations d’identification valides avec les partenaires fédérés et sont donc traités comme authentifiés par Teams, mais restent externe pour le client organisateur de la réunion. Les utilisateurs fédérés peuvent participer à des réunions et être promus aux présentateurs une fois qu’ils ont rejoint la réunion, mais ils ne peuvent pas créer de réunions dans les entreprises avec lesquelles ils sont fédérés.
 
@@ -292,7 +292,7 @@ Les organisateurs de la réunion contrôlent si les participants peuvent rejoind
 Les valeurs par défaut sont les suivantes :
 
 - *Les membres de mon organisation* – toutes les personnes extérieures à l’organisation attendent dans la salle d’attente jusqu’à leur admission.
-- *Les membres de mon organisation et les organisations approuvées* : les utilisateurs authentifiés et les utilisateurs externes provenant de domaines Teams et Skype Entreprise qui se trouvent dans la liste verte d’accès externe peuvent contourner la salle d’attente. Tous les autres utilisateurs patientent dans la salle d'attente jusqu’à leur admission.
+- *Personnes de mon organisation, organisations de confiance et invités* - Les utilisateurs authentifiés de l'organisation, y compris les utilisateurs invités et les utilisateurs des organisations de confiance, rejoignent directement la réunion sans attendre dans le hall. Les utilisateurs anonymes attendent dans la salle d’attente.
 - *Tout le monde* – tous les participants à la réunion ignorent la salle d’attente une fois qu’un utilisateur authentifié a rejoint la réunion.
 
 ### <a name="presenter-capabilities"></a>Fonctionnalités du présentateur

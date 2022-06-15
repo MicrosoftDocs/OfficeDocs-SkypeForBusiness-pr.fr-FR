@@ -19,20 +19,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 393793e5c0a5c4a305f26427951968c5614c052f
-ms.sourcegitcommit: 5640e8264b61c1f8cf8eb212315eeba1a794e494
+ms.openlocfilehash: 27e0cf72149542f7822b1857489be685f6a21546
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65928857"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103391"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Mises à jour pour votre organisation dans Microsoft Teams
 
 ## <a name="what-is-the-updates-app"></a>Qu’est-ce que l’application Mises à jour ?
 
-Les mises à jour dans l’application Microsoft Teams fournissent un emplacement centralisé pour que les membres de votre organisation créent, examinent et envoient des mises à jour. En créant des modèles, vous pouvez utiliser l’application Mises à jour pour effectuer le suivi de tout ce dont votre organisation a besoin. Les mises à jour sont disponibles pour le bureau et les appareils mobiles.
+Les mises à jour dans Microsoft Teams application fournissent un emplacement centralisé pour que les membres de votre organisation créent, examinent et envoient des mises à jour. En créant des modèles, vous pouvez utiliser l’application Mises à jour pour effectuer le suivi de tout ce dont votre organisation a besoin. Les mises à jour sont disponibles pour le bureau et les appareils mobiles.
 
-Dans Teams, les utilisateurs peuvent obtenir des mises à jour à partir de l’App Store Teams. Toutes les mises à jour qu’ils doivent envoyer s’affichent sur la page **Envoyer** .
+Dans Teams, les utilisateurs peuvent obtenir des mises à jour à partir de l’app store Teams. Toutes les mises à jour qu’ils doivent envoyer s’affichent sur la page **Envoyer** . Vous pouvez partager les [Első lépések dans l’article Mises à jour](https://support.microsoft.com/office/get-started-in-updates-c03a079e-e660-42dc-817b-ca4cfd602e5a) avec vos utilisateurs pour les aider à se familiariser avec l’utilisation des mises à jour.
 
 [![Image de la page Envoyer dans Teams pour le bureau.](media/updates-submit-small.png)](media/updates-submit.png#lightbox)
 
@@ -40,7 +40,7 @@ Les utilisateurs peuvent afficher les mises à jour qu’ils ont affectées dans
 
 [![Image de la page Révision dans Teams pour le bureau.](media/updates-home-small.png)](media/updates-home.png#lightbox)
 
-Lorsqu’une mise à jour est affectée à un utilisateur, elle s’affiche dans son flux d’activités Teams. Les utilisateurs peuvent également afficher toutes leurs demandes de mise à jour actuelles et les soumissions précédentes dans l’application Mises à jour. En outre, n’importe qui peut créer des modèles et envoyer des demandes de mise à jour.
+Lorsqu’une mise à jour est affectée à un utilisateur, elle s’affiche dans son flux d’activité Teams. Les utilisateurs peuvent également afficher toutes leurs demandes de mise à jour actuelles et les soumissions précédentes dans l’application Mises à jour. En outre, n’importe qui peut créer des modèles et envoyer des demandes de mise à jour.
 
 Les mises à jour sont disponibles avec des modèles à la fois out-of-the-box pour les scénarios métier courants et la possibilité de créer votre propre modèle. N’importe qui peut créer un modèle pour de nouveaux types de mises à jour.
 
@@ -68,20 +68,20 @@ Vous avez besoin d’une autorisation pour les éléments suivants pour déploye
 
 - Licence pour Power Automate, Office 365 ou Dynamics 365.
 
-- Une licence Microsoft Forms est nécessaire pour que les utilisateurs configurent de nouveaux modèles.
+- Une licence pour Microsoft Forms est requise pour que les utilisateurs configurent de nouveaux modèles.
 
 ## <a name="storage-with-microsoft-dataverse"></a>Stockage avec Microsoft Dataverse
 
-Common Data Model (CDM) est le langage de données partagé utilisé par les applications métier et analytiques dans Microsoft Dataverse. Il se compose d’un ensemble de schémas de données normalisés et extensibles publiés par Microsoft et nos partenaires, qui permet la cohérence des données et sa signification entre les applications et les processus métier. En savoir plus sur common [data model](/common-data-model/).
+Common Data Model (CDM) est le langage de données partagé utilisé par les applications métier et analytiques dans Microsoft Dataverse. Il se compose d’un ensemble de schémas de données normalisés et extensibles publiés par Microsoft et nos partenaires, qui permet la cohérence des données et sa signification entre les applications et les processus métier. Mer informasjon sur le [common data model](/common-data-model/).
 
-Les mises à jour créées à partir d’un modèle stockent toujours des données dans Microsoft Dataverse, telles que leur titre, leurs détails, leur ID de modèle, etc. En savoir plus sur  [le stockage de données pour Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+Les mises à jour créées à partir d’un modèle stockent toujours des données dans Microsoft Dataverse, telles que leur titre, leurs détails, leur ID de modèle, etc. Mer informasjon sur le  [stockage de données pour Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
 >Si vous supprimez le modèle de formulaire sur le site Microsoft Forms, il interrompt votre modèle mises à jour et les utilisateurs ne peuvent pas envoyer la mise à jour. Les utilisateurs reçoivent une erreur « CDB TableNotFound » lors de la tentative d’ouverture d’un modèle qui a été supprimé sur Microsoft Forms.
 
-## <a name="updates-teams-app-permissions"></a>Met à jour les autorisations d’application Teams
+## <a name="updates-teams-app-permissions"></a>Mises à jour Teams autorisations d’application
 
-L’application Updates Teams vous permet d’accéder aux fonctionnalités suivantes :
+L’application Mises à jour Teams vous permet d’accéder aux fonctionnalités suivantes :
 
 - Recevoir les messages et les données que vous lui fournissez.
 
@@ -112,7 +112,7 @@ L’application Mises à jour est disponible par défaut. Vous pouvez désactive
 
   3. Recherchez l’application Mises à jour.
 
-     [![Capture d’écran de la navigation du Centre d’administration avec Teams Apps > Manage Apps mis en évidence.](media/manage-updates-small.png)](media/manage-updates.png#lightbox)
+     [![Capture d’écran de la navigation au centre de Administration avec Teams Apps > Gérer les applications en surbrillance.](media/manage-updates-small.png)](media/manage-updates.png#lightbox)
 
   4. Sélectionnez **Mises à jour**.
 
@@ -121,7 +121,7 @@ L’application Mises à jour est disponible par défaut. Vous pouvez désactive
 
 ## <a name="pin-updates-to-teams"></a>Épingler les mises à jour à Teams
 
-Les stratégies d’installation d’application vous permettent de personnaliser Teams pour épingler les applications les plus importantes pour vos utilisateurs dans vos utilisateurs. Les applications sont épinglées à la barre de l’application , la barre située sur le côté du client de bureau Teams et en bas des clients mobiles Teams, où les utilisateurs peuvent y accéder rapidement et facilement.
+Les stratégies d’installation d’application vous permettent de personnaliser Teams pour épingler les applications les plus importantes pour vos utilisateurs dans vos utilisateurs. Les applications sont épinglées à la barre de l’application , la barre située sur le côté du client de bureau Teams et en bas de la Teams clients mobiles, où les utilisateurs peuvent y accéder rapidement et facilement.
 
 Pour épingler l’application Mises à jour pour vos utilisateurs, vous pouvez modifier la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et affecter une stratégie d’installation d’application personnalisée. Pour plus d’informations, consultez l’article [Gérer les stratégies et paramètres d’application personnalisés dans Teams](teams-app-setup-policies.md).
 
@@ -137,11 +137,11 @@ Actuellement, l’application Mises à jour dans Teams ne prend pas en charge le
 
 ## <a name="data-limitations"></a>Limitations des données
 
-Chaque utilisateur peut créer au maximum 400 modèles de mises à jour, et chaque modèle peut collecter un maximum de 50 000 demandes en fonction de la fonctionnalité actuelle dans Microsoft Forms.
+Chaque utilisateur peut créer au plus 400 modèles de mises à jour, et chaque modèle peut collecter un maximum de 50 000 demandes en fonction de la fonctionnalité actuelle dans Microsoft Forms.
 
 ## <a name="security"></a>Sécurité
 
-À partir de l’application Mises à jour Teams, les utilisateurs ont accès à la création de mises à jour et à l’affichage des mises à jour qu’ils ont envoyées et reçues. Les utilisateurs n’ont pas accès aux mises à jour créées par d’autres utilisateurs, sauf s’ils sont une visionneuse de la requête.
+À partir de l’application Teams Mises à jour, les utilisateurs ont accès à la création de mises à jour et à l’affichage des mises à jour qu’ils ont envoyées et reçues. Les utilisateurs n’ont pas accès aux mises à jour créées par d’autres utilisateurs, sauf s’ils sont une visionneuse de la requête.
 
 > [!Note]
 > Un utilisateur reçoit un rôle de visionneuse d’une demande s’il fait partie de la conversation ou du canal dans lequel le rapport de mise à jour a été créé ou si le créateur du modèle les ajoute manuellement en tant que visionneuse. Ils n’auront pas la possibilité d’agir sur la demande s’ils n’ont pas reçu ce rôle lors de la création du rapport.

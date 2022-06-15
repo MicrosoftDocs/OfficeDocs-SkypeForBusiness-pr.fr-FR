@@ -12,28 +12,19 @@ ms.collection:
 description: Découvrez les versions prises en charge du module PowerShell Teams, utilisé pour l’administration de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6915448d76de64a65a9ac50e5c66e3ca41e051ef
-ms.sourcegitcommit: 8ce73ea99be607f5cdccb22a5366bc96e8fb09c8
+ms.openlocfilehash: ad20cc285a9e882c45d2d158601ebcc90236dbf5
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65758312"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103371"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>module PowerShell Teams - Versions prises en charge
 
-Microsoft Teams versions du module PowerShell (TPM) de la série 4.x.x ou ultérieures seront les seules versions prises en charge à l’avenir. Toutes les versions antérieures sont sur le chemin de la mise hors service. Il est recommandé de mettre à jour Teams module PowerShell vers la dernière version.
+Microsoft Teams versions du module PowerShell (TPM) de la série 4.x.x ou ultérieures sont les seules versions prises en charge à l’heure actuelle. Toutes les versions antérieures sont entièrement mises hors service depuis le 15 juin 2022 & cesseront de fonctionner (billet du Centre de messages pour référence - MC350371). 
 
-## <a name="new-organizations"></a>Nouvelles organisations
+Il est recommandé de mettre à jour vers la dernière version Teams module PowerShell.
 
-Les organisations nouvellement intégrées à Teams ne pourront utiliser Teams module PowerShell dans la série 4.x.x ou ultérieure à partir du 1er avril 2022.
-
-## <a name="current-organizations-non-tpm-active"></a>Organisations actuelles (non actives par le module de plateforme sécurisée)
-
-Les organisations qui n’ont pas utilisé Teams module PowerShell pendant la période du 22 janvier au 22 mars pourront uniquement utiliser Teams module PowerShell dans la série 4.x.x ou une version ultérieure à partir du 1er avril 2022.
-
-## <a name="current-organizations-tpm-active"></a>Organisations actuelles (TPM actif)
-
-Les organisations qui ont utilisé Teams module PowerShell pendant la période du 22 janvier au 22 mars ne pourront utiliser Teams module PowerShell dans la série 4.x.x ou ultérieure à partir du 15 juin 2022. Billet du centre de messages pour référence - MC350371.
 
 ## <a name="important-notes"></a>Remarques importantes
 
@@ -108,7 +99,7 @@ Les organisations qui ont utilisé Teams module PowerShell pendant la période d
   - [Obtenir| Set| Nouveau| Remove]-CsDefaultCatalogApp
   - [Obtenir| Set| Nouveau| Remove]-CsTeamsAppPreset
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [notes de publication Teams PowerShell](teams-powershell-release-notes.md)
 
