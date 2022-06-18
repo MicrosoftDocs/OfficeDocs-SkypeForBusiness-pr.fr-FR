@@ -805,11 +805,13 @@ items:
                 href: more-about-calling-line-id-and-calling-party-name.md
           - name: Standards automatiques et files d’attente d’appels
             items:
-              - name: Planification
+              - name: Planifier les standards automatiques et les files d'attente d'appels
                 href: plan-auto-attendant-call-queue.md
-              - name: Configuration du standard automatique
+              - name: Planifier le flux de routage d'appels
+                href: plan-your-call-routing-flow.md
+              - name: Configurer vos standards automatiques
                 href: create-a-phone-system-auto-attendant.md
-              - name: Configuration de la file d’attente des appels
+              - name: Configuration de files d’attente d’appels
                 href: create-a-phone-system-call-queue.md
               - name: Gérer les comptes de ressources Teams
                 href: manage-resource-accounts.md
@@ -819,6 +821,8 @@ items:
                 href: answer-auto-attendant-and-call-queue-calls.md
               - name: Rapports
                 href: aa-cq-cqd-historical-reports.md
+              - name: Informations de référence sur les applets de commande PowerShell pour les standards automatiques et les files d’attente d’appels
+                href: call-queue-auto-attendant-cmdlets.md
               - name: Numérotation et référence vocale
                 href: dial-voice-reference.md
           - name: Bloquer les appels entrants
@@ -1056,7 +1060,7 @@ items:
               - name: 'Étape 5 : Attribuer des numéros de téléphone aux utilisateurs'
                 href: business-voice/set-up-assign-numbers.md
               - name: 'Étape 6 : Configurer un standard automatique'
-                href: business-voice/set-up-auto-attendant.md
+                href: create-a-phone-system-auto-attendant.md
               - name: 'Étape 7 : port de numéros de téléphone (facultatif)'
                 href: business-voice/port-phone-numbers.md
               - name: Ressources post-installation
@@ -1072,13 +1076,9 @@ items:
               - name: Créer d’autres utilisateurs
                 href: business-voice/create-users.md
               - name: Configurer une file d'attente d'appels
-                href: business-voice/create-a-phone-system-call-queue-smb.md
-              - name: Configurer un standard automatique
-                href: business-voice/create-a-phone-system-auto-attendant-smb.md
+                href: create-a-phone-system-call-queue.md
           - name: Gérez la configuration de votre système téléphonique
             items:
-              - name: Créer un ou plusieurs utilisateurs
-                href: business-voice/create-users.md
               - name: Gestion des appareils
                 href: business-voice/manage-devices.md
               - name: Surveiller la qualité des appels
@@ -1793,7 +1793,7 @@ items:
             href: teams-add-on-licensing/advanced-communications.md
           - name: Gestion des licences des stratégies de messagerie
             href: teams-add-on-licensing/pri-message.md
-          - name: 'Microsoft 365 – Système téléphonique – Utilisateur virtuel : licence utilisateur virtuel'
+          - name: 'Microsoft Teams Phone Standard : Licence utilisateur virtuel'
             href: teams-add-on-licensing/virtual-user.md
           - name: "Prise en main de Teams\_Essentials"
             href: get-started-with-teams-essentials.md
