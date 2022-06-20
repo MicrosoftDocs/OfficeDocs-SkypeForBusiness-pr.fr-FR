@@ -1,9 +1,9 @@
 ---
 title: Configurer ServiceNow pour salles Teams
-author: dstrome
-ms.author: dstrome
+author: donnah007
+ms.author: v-donnahill
 manager: serdars
-ms.reviewer: ''
+ms.reviewer: ronmart
 ms.topic: article
 ms.service: msteams
 audience: Admin
@@ -12,18 +12,21 @@ appliesto:
 localization_priority: Normal
 description: En savoir plus sur la configuration de ServiceNow dans le portail salles Teams Premium
 f1keywords: ''
-ms.openlocfilehash: c11a4e3cf4f128c8043ad2451f7d0a7a2ffe1c2e
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 6362d0bed4263ce374c1fb5cfd05d4d8815044c2
+ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761496"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66167308"
 ---
 # <a name="configure-servicenow-for-teams-rooms"></a>Configurer ServiceNow pour salles Teams
 
 Cet article décrit les prérequis et les étapes à suivre pour configurer votre environnement ServiceNow dans le portail salles Teams Premium.
 
-## <a name="before-you-begin"></a>Avant de commencer
+## <a name="watch-microsoft-teams-rooms--managed-services-service-now-integration"></a>Regarder : Salles Microsoft Teams — Intégration du service Services managés
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ZK4B]
+
 
 ### <a name="teams-rooms-prerequisites"></a>salles Teams prérequis
 
@@ -74,7 +77,7 @@ Une fois votre test réussi, **sélectionnez Envoyer** pour enregistrer vos modi
 
 - **description** : le champ de description dans ServiceNow est la première valeur de l’historique des conversations d’un incident ServiceNow. La description est équivalente au premier message dans le portail salles Teams Premium.
 
-- **assignment_group** : le champ groupe d’affectations dans ServiceNow est utilisé pour organiser les incidents. Le groupe d’affectations est équivalent aux groupes Room dans le portail salles Teams Premium. Par défaut, il existe un groupe de salles et d’autres peuvent être ajoutés. Vous décidez du nombre de groupes et de la façon de regrouper vos incidents. Par exemple, vous pouvez choisir d’organiser vos incidents par emplacement.
+- **assignment_group** : le champ groupe d’affectations dans ServiceNow est utilisé pour organiser les incidents. Les groupes d’affectations sont équivalents aux groupes Room dans le portail salles Teams Premium. Par défaut, il existe un groupe de salles et d’autres peuvent être ajoutés. Vous décidez du nombre de groupes et de la façon de regrouper vos incidents. Par exemple, vous pouvez choisir d’organiser vos incidents par emplacement.
 
 - **gravité** : le champ de gravité dans ServiceNow est utilisé pour organiser les incidents par priorité. Les valeurs qui désignent la priorité sont personnalisables. La gravité est équivalente au champ Anneau dans le portail salles Teams Premium. Pour personnaliser les anneaux dans le portail salles Teams Premium, accédez à **Mises à jour** dans le menu de navigation de gauche. Accédez ensuite à l’onglet **Anneaux** , puis **sélectionnez Ajouter un anneau**.
 

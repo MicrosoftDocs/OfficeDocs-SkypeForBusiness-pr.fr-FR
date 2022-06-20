@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Intégration d’appareils salles Teams à des services managés
 f1keywords: ''
-ms.openlocfilehash: d40daed54a04ca7d9949ecc63f57c379aee6b666
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 901cf212d6eaeb7ca98b8a158de517b0687ba517
+ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675786"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66167318"
 ---
 # <a name="enroll-device-into-managed-service"></a>Inscrire un appareil dans le service managé
 
@@ -85,10 +85,10 @@ Pour vous connecter à l’appareil en tant qu’administrateur (administrateur 
 > [!NOTE]
 > Si l’ordinateur est *joint à un domaine*, choisissez **Autre utilisateur**, puis utilisez **.\admin** ou le nom d’utilisateur de l’administrateur local configuré dans l’appareil comme nom d’utilisateur.
 
-Pour revenir à l’application Microsoft Teams Room après avoir effectué les tâches administratives nécessaires :
+Pour revenir à l’application Salles Microsoft Teams après avoir effectué les tâches administratives nécessaires :
 
 1. À partir de la ***menu Démarrer Windows***, déconnectez-vous du compte Administration.
-1. Revenez à Microsoft Teams Room en sélectionnant l’icône du compte d’utilisateur à l’extrême gauche de l’écran, puis en sélectionnant **Skype**.
+1. Revenez à Salles Microsoft Teams en sélectionnant l’icône de compte d’utilisateur à l’extrême gauche de l’écran, puis en sélectionnant **Skype**.
 
 > [!NOTE]
 > Si l’utilisateur Skype n’est pas répertorié, sélectionnez Autre utilisateur, entrez ***.\skype*** comme nom d’utilisateur, puis connectez-vous.
