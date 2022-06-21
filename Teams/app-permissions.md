@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a9ce3fccd8974bd7f8cba04d01bf16738772ea11
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 925136660ef6adda6374fab1acccf10a2b9f1722
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124179"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190284"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
 
@@ -168,7 +168,7 @@ REPLYTO_CONNECTOR_MESSAGE. Certains connecteurs prennent en charge les messages 
 
 * Les messages du connecteur ne peuvent pas contenir de pièces jointes de fichier.
 
-* L’URL de l’instance de connecteur doit être traitée comme secrète/confidentielle : toute personne disposant de cette URL peut la publier, comme une adresse e-mail. Par conséquent, il existe un risque de courrier indésirable ou de liens vers des sites de hameçonnage ou de programmes malveillants. Si cela devait se produire, les propriétaires d’équipe peuvent supprimer l’instance de connecteur.
+* L’URL de l’instance de connecteur doit être traitée comme secrète/confidentielle : toute personne disposant de cette URL peut la publier, comme une adresse e-mail. Par conséquent, il existe un risque de courrier indésirable ou de liens vers des sites de hameçonnage ou de programmes malveillants. Si cela se produit, les propriétaires d’équipe peuvent supprimer l’instance de connecteur.
 
 * Si le service qui envoie des messages de connecteur est compromis et commence à envoyer des liens de courrier indésirable/hameçonnage/programmes malveillants, un administrateur client peut empêcher la création de nouvelles instances de connecteur et Microsoft peut les bloquer de manière centralisée.
 

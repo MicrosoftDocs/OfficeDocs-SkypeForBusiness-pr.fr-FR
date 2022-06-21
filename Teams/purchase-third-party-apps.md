@@ -12,16 +12,16 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava, nsuter
 search.appverid: MET150
 f1keywords: ''
-description: Découvrez comment acheter des applications tierces pour Teams dans le centre d’administration Microsoft Teams.
+description: Découvrez comment acheter des applications tierces auprès d’Teams magasin à l’aide d’une carte de crédit, d’une carte de débit ou d’une facturation par facture.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 52cab02898a2fd187c60d2348a42c3ce97de2a3b
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 33d5faec0694c666b2f392713d235cb52ef8b0e8
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137085"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190324"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Acheter des applications tierces pour Teams
 
@@ -38,7 +38,7 @@ Ici, vous pouvez également acheter des licences pour les services offerts par d
 > [!IMPORTANT]
 > Lorsque vous activez l’achat d’applications, il active également l’achat dans l’application. Les utilisateurs peuvent voir des offres d’achat dans l’application qui sont contrôlées par l’éditeur de logiciels indépendants pour leur application. Si vous souhaitez empêcher vos utilisateurs d’acheter une application, vous devez bloquer l’application. Pour plus d’informations sur la façon de bloquer une application, consultez [Gérer les stratégies d’application](app-policies.md) ou [découvrez comment bloquer une application au niveau de l’organisation](manage-apps.md#allow-and-block-apps).
 
-1. Dans le volet gauche du centre d’administration Microsoft Teams, accédez à **Teams applications** **AppsManage** > . Vous devez être administrateur général ou administrateur de service Teams pour accéder à la page.
+1. Dans le volet gauche du centre d’administration Microsoft Teams, accédez à **Teams applications** > **Gérer les applications**. Vous devez être administrateur général ou administrateur de service Teams pour accéder à la page.
 1. Recherchez l’application souhaitée. Pour identifier les applications qui ont un abonnement SaaS payant, consultez la colonne **Licences** . Chaque application aura l’une des valeurs suivantes :
     - **Achat** : l’application offre un abonnement SaaS et est disponible à l’achat.  
     - **Acheté** : l’application offre un abonnement SaaS et vous avez acheté des licences pour celle-ci.
@@ -72,7 +72,7 @@ Sélectionnez **Gérer les licences** pour accéder au Centre d'administration M
 Les administrateurs généraux peuvent ajouter d’autres licences, supprimer des licences et annuler des abonnements pour les achats effectués par n’importe qui dans l’organisation. Teams les administrateurs de service peuvent effectuer les mêmes actions pour les achats effectués par eux-mêmes. Toutefois, si un administrateur de service Teams a également le rôle d’administrateur de facturation, il peut gérer les achats effectués par n’importe qui dans l’organisation.
 
 > [!NOTE]
-> Si un administrateur général souhaite gérer un abonnement acheté par un autre administrateur général, il doit se trouver dans le même compte de facturation. Vous pouvez accorder à un autre administrateur général l’accès à un abonnement que vous avez acheté en sélectionnant l’application dans le Centre d'administration Microsoft 365. À partir de là, accédez à **View billing** **profileSelect** >  billing **accountAssign rolesAdd** >  **other Global admins**. > 
+> Si un administrateur général souhaite gérer un abonnement acheté par un autre administrateur général, il doit se trouver dans le même compte de facturation. Vous pouvez accorder à un autre administrateur général l’accès à un abonnement que vous avez acheté en sélectionnant l’application dans le Centre d'administration Microsoft 365. À partir de là, accédez à **Afficher le profil** >  de facturation **Sélectionner le compte** >  de facturation **Attribuer des rôles** > **Ajouter d’autres administrateurs généraux**.
 
 ### <a name="invoice-billing"></a>Facturation de facture
 
@@ -91,5 +91,5 @@ Pour plus d’informations, les développeurs d’applications tierces peuvent a
 
 - [Gérer vos applications dans le centre d’administration Microsoft Teams](manage-apps.md)
 - [Créer une offre SaaS](/azure/marketplace/partner-center-portal/create-new-saas-offer)
-- [Azure AD rôles intégrés](/azure/active-directory/roles/permissions-reference)
+- [Rôles intégrés Azure AD](/azure/active-directory/roles/permissions-reference)
 - [Microsoft 365 rôles d’administrateur](/microsoft-365/admin/add-users/about-admin-roles)

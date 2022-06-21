@@ -14,17 +14,17 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment utiliser et gérer des stratégies d’installation d’application dans Microsoft Teams pour les utilisateurs de votre organisation.
+description: Découvrez comment créer, modifier et gérer des stratégies d’installation d’application pour épingler des applications, installer des applications et permettre aux utilisateurs de charger des applications personnalisées.
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 05e70d9b1e69ff72eda8e984af1cb1228842f5da
-ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
+ms.openlocfilehash: 58a2b8730c4f3d02746aeb0bb3887bcd63d44918
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65786004"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190475"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 

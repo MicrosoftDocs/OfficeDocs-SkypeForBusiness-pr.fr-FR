@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: Découvrez les stratégies dans Teams application.
+description: Découvrez les stratégies d’autorisation d’application, les stratégies d’installation d’application et les stratégies d’application personnalisées utilisées pour gérer les applications dans Microsoft Teams.
 audience: admin
 ms.localizationpriority: medium
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95adb8d95f003dc85596a55b16af594be828a1c2
-ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
+ms.openlocfilehash: bea917ef962d0ba6af80a04c375a95d70bf0dec7
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65030880"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190334"
 ---
 # <a name="overview-of-app-policies-used-to-manage-apps-in-microsoft-teams"></a>Vue d’ensemble des stratégies d’application utilisées pour gérer les applications dans Microsoft Teams
 
@@ -44,7 +44,7 @@ Vous pouvez contrôler qui peut charger des applications personnalisées pour Te
 
 ![Capture d’écran de la stratégie d’application personnalisée.](media/custom-app-policy.png)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 * [Gérer les stratégies d’application personnalisée et les paramètres dans Teams](teams-custom-app-policies-and-settings.md)
 * [Gérer les stratégies de mise en application dans Teams](teams-app-setup-policies.md)

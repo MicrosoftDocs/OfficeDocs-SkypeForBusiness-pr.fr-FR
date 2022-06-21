@@ -13,16 +13,16 @@ ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Avec les connecteurs, votre équipe reste au courant des dernières activités, en leur fournissant directement dans un canal du contenu et des mises à jour de services que vous utilisez fréquemment.
+description: Découvrez comment les connecteurs maintiennent votre équipe à jour en fournissant fréquemment du contenu et des mises à jour directement dans un canal Teams pour les services que vous utilisez.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2dea5ee50d75ff8913bc88f2f3947d9f665cb4dd
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: de0c0398d511aca05a69220e0e35a28268535c59
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137015"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190444"
 ---
 # <a name="manage-microsoft-365-and-custom-connectors"></a>Gérer les connecteurs Microsoft 365 et personnalisés
 

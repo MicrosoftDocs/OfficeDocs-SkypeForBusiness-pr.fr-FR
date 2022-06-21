@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c26f70bb6592c418968b77c9ef2a495cb98648a
-ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
+ms.openlocfilehash: 6a38bfbcc8ec7de5e9c1535b1a597b534e46d009
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65860795"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190616"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurer la connexion parente dans Microsoft Teams pour l'éducation
 
@@ -41,12 +41,11 @@ Voici quelques ressources que les administrateurs informatiques peuvent partager
 
 La connexion parents permet aux enseignants et aux tuteurs de discuter, d’envoyer des e-mails et d’appeler à l’aide de Teams.
 
-- Teams données de contact du tuteur restent à jour avec SIS à l’aide de Synchronisation des données scolaires (SDS).
+- Les enseignants peuvent lancer des conversations avec des tuteurs.
+  - Si le tuteur n’a pas de compte de consommateur Teams, il reçoit le message initial de l’enseignant et une invitation par e-mail à accéder à Teams.
 - Il fonctionne avec la conversation supervisée. Pour plus d’informations, consultez [Utiliser des conversations supervisées dans Microsoft Teams](supervise-chats-edu.md).
   - Par défaut, les tuteurs disposent d’autorisations restreintes, de sorte qu’ils ne peuvent pas discuter avec des étudiants ou supprimer des utilisateurs des conversations.
   - Ce paramètre peut être modifié par l’administrateur du locataire.
-- Les enseignants peuvent lancer des conversations avec des tuteurs.
-  - Si le tuteur n’a pas de compte de consommateur Teams, il reçoit le message initial de l’enseignant et une invitation par e-mail à accéder à Teams.
 - Les enseignants peuvent cliquer sur l’e-mail d’un tuteur pour les envoyer par e-mail à l’aide de leur client de messagerie natif.
 - Les enseignants peuvent cliquer sur le numéro de téléphone d’un tuteur pour les appeler dans Teams.
 
@@ -66,7 +65,17 @@ La connexion parents permet aux enseignants et aux tuteurs de discuter, d’envo
 
 ## <a name="requirements"></a>Conditions requises
 
+Vous devez utiliser Microsoft Graph ou Synchronisation des données scolaires (SDS) pour renseigner les informations de contact associées aux parents et aux tuteurs de chaque étudiant.
+
+### <a name="graph-api"></a>API Graph
+
+Si vous utilisez déjà [le Kit de développement logiciel (SDK) Microsoft Graph PowerShell](/powershell/microsoftgraph/overview) pour créer des identités Student, vous pouvez facilement inclure le [type de ressource RelatedContact](/graph/api/resources/relatedcontact).
+
 ### <a name="school-data-sync"></a>Synchronisation des données scolaires
+
+Teams données de contact du tuteur restent à jour avec SIS à l’aide de Synchronisation des données scolaires (SDS), lorsque SDS est configuré pour la synchronisation régulièrement.
+
+Si guardian est supprimé des enregistrements *d’un étudiant* , toutes les conversations existantes les impliquant contiendront une bannière visible par le propriétaire de la conversation. Cette bannière informera le propriétaire de la conversation de la modification, en lui demandant de supprimer le tuteur de la conversation. Microsoft ne met pas automatiquement à jour l’appartenance à la conversation pour supprimer le tuteur.
 
 - Vous avez besoin de Synchronisation des données scolaires (SDS) pour renseigner les informations de **contact associées aux** parents et aux tuteurs de chaque étudiant.
   - [Déployer la SDS](/schooldatasync/parents-and-guardians-in-sds)
