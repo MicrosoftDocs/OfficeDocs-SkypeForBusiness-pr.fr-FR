@@ -1,7 +1,7 @@
 ---
 title: Comprendre les applications tierces dans Microsoft Teams
 ms.reviewer: ''
-description: Découvrez les applications tierces des éditeurs de logiciels indépendants et des partenaires Microsoft.
+description: Découvrez les applications tierces des éditeurs de logiciels indépendants et des partenaires Microsoft dans Microsoft Teams.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: acdb924476ca9239b4298700d7f3186d7e80106a
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: b13793222a6a53ec7c7c271578da31465044afde
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675016"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190508"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Vue d’ensemble des applications tierces dans Microsoft Teams
 

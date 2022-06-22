@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1392678e77d96eb34445be1848a6cbfbb559bc5c
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: bfb786c031acf0d07e67895416b724e24f4950da
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913412"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190294"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>À propos des applications dans Microsoft Teams
 
@@ -48,7 +48,7 @@ Les différents types d’applications que vos utilisateurs finaux peuvent utili
 
 ## <a name="core-apps"></a>Applications principales
 
-Certaines fonctionnalités par défaut telles que le flux d’activité, les canaux Teams, la conversation, le calendrier et les appels sont disponibles et épinglées par défaut pour faciliter l’accès des utilisateurs finaux. En tant qu’administrateur, vous pouvez modifier le comportement par défaut à l’aide de la [stratégie d’installation](/microsoftteams/teams-app-setup-policies).
+Certaines fonctionnalités par défaut telles que le flux d’activité, les canaux Teams, les conversations, les calendriers et les appels sont disponibles et épinglés par défaut pour faciliter l’accès des utilisateurs finaux. En tant qu’administrateur, vous pouvez modifier le comportement par défaut à l’aide de la [stratégie d’installation](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="Les applications principales sont les applications épinglées dans Teams par défaut." lightbox="media/core-apps-pinned2.png":::
 
