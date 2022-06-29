@@ -20,16 +20,16 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et gérer des standards automatiques dans Microsoft Teams.
-ms.openlocfilehash: 7cfce516946d38f794e9803e5ecfb30c128cb149
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 37326ec03c22c91de5f4c4edb94aaad67f52bde5
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124169"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240943"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
 
-Les standards automatiques permettent aux utilisateurs d’appeler votre organisation et de naviguer dans un système de menus pour parler au service approprié, à la file d’attente des appels, à une personne ou à un opérateur. Vous pouvez créer des standards automatiques pour votre organisation à l’aide du centre d’administration Microsoft Teams ou de PowerShell.
+Les standards automatiques permettent aux utilisateurs d’appeler votre organisation et de naviguer dans un système de menus pour parler au service approprié, à la file d’attente des appels, à une personne ou à un opérateur. Vous pouvez créer des standards automatiques pour votre organisation avec le Centre d’administration Microsoft Teams ou PowerShell.
 
 Veillez à lire l’article [Planifier les standards automatiques et les files d’attente des appels pour Teams](plan-auto-attendant-call-queue.md), puis à suivre les [étapes de démarrage](plan-auto-attendant-call-queue.md#getting-started) avant de suivre les procédures de cet article.
 
@@ -40,7 +40,7 @@ Les standards automatiques peuvent diriger les appels, en fonction de l’entré
 - **Application vocale** : un autre standard automatique ou une file d’attente d’appels. (Choisissez le compte de ressource associé au standard automatique ou à la file d’attente d’appels lors du choix de cette destination.)
 - **Messagerie vocale** : boîte aux lettres vocale associée à un groupe Microsoft 365 que vous spécifiez. Vous pouvez choisir si vous voulez des transcriptions de messagerie vocale et le message « Veuillez laisser un message après le ton ». invite système.
   - Dans M365 Administration Center, activez « Autoriser les personnes extérieures à l’organisation à envoyer un e-mail à cette équipe » pour le groupe Microsoft 365 que vous spécifiez
-- **Numéro de téléphone externe** : n’importe quel numéro de téléphone. (Consultez [les détails techniques du transfert externe](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
+- **Numéro de téléphone externe** : n’importe quel numéro de téléphone. Consultez [les détails techniques du transfert externe](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
 - **Annonce (fichier audio)** : lire un fichier audio. Message d’annonce enregistré que vous chargez qui est enregistré en tant qu’audio dans . WAV, .MP3 ou . Format WMA. L’enregistrement ne peut pas dépasser 5 Mo. Le système lit l’annonce, puis revient au menu du standard automatique.
 - **Annonce (Typée)** : tapez un message. Texte que vous souhaitez que le système lisent. Vous pouvez entrer jusqu’à 1 000 caractères. Le système lit l’annonce, puis revient au menu du standard automatique.
 
@@ -53,15 +53,15 @@ Les étapes à suivre pour ajouter un standard automatique sont les suivantes :
 1. Configurez l’étendue de numérotation.
 1. Configurez des comptes de ressources.
 
-Les étapes décrites dans l’article créent des standards automatiques à l’aide du centre d’administration Teams. Pour obtenir des instructions sur la **création de standards automatiques à l’aide de PowerShell**, consultez [Création de standards automatiques avec des applets de commande PowerShell](create-a-phone-system-auto-attendant-via-cmdlets.md).
+Les étapes décrites dans l’article créent des standards automatiques à l’aide du Centre d’administration Teams. Pour obtenir des instructions sur la **création de standards automatiques à l’aide de PowerShell**, consultez [Création de standards automatiques avec des applets de commande PowerShell](create-a-phone-system-auto-attendant-via-cmdlets.md).
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>Suivez ces étapes pour configurer votre standard automatique
-
-Pour configurer un standard automatique, dans le [centre d’administration Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851), développez **Voix**, sélectionnez **Standards automatiques**, puis **sélectionnez Ajouter**.
 
 # <a name="step-1---general-info"></a>[Étape 1 - Informations générales](#tab/general-info)
 
 ## <a name="step-1---set-the-auto-attendants-general-information"></a>Étape 1 : définir les informations générales du standard automatique
+
+Pour configurer un standard automatique, dans le [Centre d’administration Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851), développez **Voix**, sélectionnez **Standards automatiques**, puis **Sélectionnez Ajouter**.
 
 1. Tapez un nom pour le standard automatique dans la zone située en haut.
 
@@ -78,13 +78,14 @@ Pour configurer un standard automatique, dans le [centre d’administration Team
 
 Une fois que vous avez défini les informations générales de votre standard automatique, sélectionnez **Suivant**.
 
+
 # <a name="step-2---basic-call-flow"></a>[Étape 2 - Flux d’appel de base](#tab/call-flow)
 
 ## <a name="step-2---set-up-the-basic-call-flow"></a>Étape 2 : Configurer le flux d’appel de base
 
 ### <a name="set-a-greeting"></a>Définir un message d’accueil
 
-- Si vous **sélectionnez Lire un fichier audio**, vous pouvez utiliser le bouton **de fichier Télécharger** pour charger un message d’accueil enregistré enregistré sous forme audio. WAV, .MP3 ou . Format WMA. L’enregistrement ne peut pas dépasser 5 Mo.
+- Si vous **sélectionnez Lire un fichier audio** , vous pouvez utiliser le bouton **Charger un fichier** pour charger un message d’accueil enregistré enregistré sous forme audio. WAV, .MP3 ou . Format WMA. L’enregistrement ne peut pas dépasser 5 Mo.
 
 - Si vous sélectionnez **Tapez un message d’accueil** , le système lit le texte que vous tapez (jusqu’à 1 000 caractères) lorsque le standard automatique répond à un appel.
 
@@ -200,7 +201,7 @@ Pour ajouter un compte de ressource, sélectionnez **Ajouter un compte** et rech
 
 Une fois que vous avez ajouté des comptes de ressources, sélectionnez **Suivant**.
 
-Pour plus d’informations, consultez [Gérer les comptes de ressources Teams](manage-resource-accounts.md).
+Pour plus d’informations, consultez [Gérer les comptes de ressources Teams](manage-resource-accounts.md) .
 
 # <a name="additional-resources"></a>[Ressources supplémentaires](#tab/additional-resources)
 
@@ -210,13 +211,13 @@ Pour plus d’informations, consultez [Gérer les comptes de ressources Teams](m
 
 Reportez-vous aux [conditions préalables](plan-auto-attendant-call-queue.md#prerequisites) pour autoriser les standards automatiques à transférer des appels en externe.  De plus,:
 
-- Pour un compte de ressource avec une [licence de plan d’appel](calling-plans-for-office-365.md) ou un numéro [de Operator Connect](operator-connect-plan.md), le numéro de téléphone de transfert externe doit être entré au format E.164 (+[code du pays][indicatif régional][numéro de téléphone]).
+- Pour un compte de ressource avec une [licence forfait d’appels](calling-plans-for-office-365.md) ou un numéro [de connexion d’opérateur](operator-connect-plan.md) , le numéro de téléphone de transfert externe doit être entré au format E.164 (+[code du pays][indicatif régional][numéro de téléphone]).
 
 - Pour un compte de ressource avec une stratégie de routage vocal en ligne de licence Téléphonie Microsoft Teams et de routage direct, le format de numéro de téléphone de transfert externe dépend des paramètres [du contrôleur de frontière de session (SBC](direct-routing-connect-the-sbc.md)).
 
 Le numéro de téléphone sortant affiché est déterminé comme suit :
 
-- Pour les numéros de plan d’appel et de Operator Connect, le numéro de téléphone de l’appelant d’origine s’affiche.
+- Pour les numéros de plan d’appel et de connexion d’opérateur, le numéro de téléphone de l’appelant d’origine s’affiche.
 - Pour les numéros de routage direct, le nombre envoyé est basé sur le paramètre P-Asserted-Identity (PAI) sur le SBC, comme suit :
   - Si la valeur est Désactivée, le numéro de téléphone de l’appelant d’origine s’affiche. Il s’agit du paramètre par défaut et recommandé.
   - Si la valeur est Activée, le numéro de téléphone du compte de ressource s’affiche.
@@ -230,7 +231,7 @@ Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suiva
 1. Sélectionnez **Exécuter les tests** ci-dessous, qui remplira le diagnostic dans le Centre d'Administration Microsoft 365.
 
    > [!div class="nextstepaction"]
-   > [Exécuter des tests : Teams standard automatique](https://aka.ms/TeamsAADiag)
+   > [Exécuter des tests : Standard automatique Teams](https://aka.ms/TeamsAADiag)
 
 2. Dans le volet Exécuter le diagnostic, entrez le compte de ressource dans le champ **Nom d’utilisateur ou e-mail** , puis sélectionnez **Exécuter les tests**.
 
@@ -240,7 +241,7 @@ Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suiva
 
 ### <a name="related-topics"></a>Voir aussi
 
-[Voici ce que vous obtenez avec Teams Téléphone](./here-s-what-you-get-with-phone-system.md)
+[Voici ce que vous obtenez avec Teams Phone](./here-s-what-you-get-with-phone-system.md)
 
 [Obtenir des numéros de téléphone de service](./getting-service-phone-numbers.md)
 

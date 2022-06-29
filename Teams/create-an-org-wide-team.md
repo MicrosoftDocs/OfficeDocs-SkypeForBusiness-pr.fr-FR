@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6cfc36c2f695775940c97441d87dc776619ffd8
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: cfb9cf174488cfc8043cf04ab08f7eadba920bc3
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675966"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240753"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
@@ -40,7 +40,7 @@ Lorsqu’une équipe à l’échelle de l’organisation est créée, tous les a
 
 Les types de comptes suivants ne seront pas ajoutés à votre équipe à l’échelle de l’organisation :
 
-- Comptes bloqués à la connexion
+- Comptes bloqués de la connexion
 - Utilisateurs invités
 - Comptes de ressource ou de service (par exemple, comptes associés aux standards automatiques et aux files d’attente d’appels)
 - Comptes de salle ou de matériel
@@ -53,7 +53,7 @@ Les types de comptes suivants ne seront pas ajoutés à votre équipe à l’éc
 > - Si vous ne voyez pas l’option **à l’échelle de l’organisation** lors de la création d’une équipe et que vous êtes administrateur général, vous avez peut-être atteint la limite de cinq équipes à l’échelle de l’organisation, ou votre organisation peut avoir plus de 10 000 membres. Nous cherchons à augmenter cette limite à l’avenir. Les équipes à l’échelle de l’organisation sont actuellement indisponibles pour Teams pour l’éducation.
 > - Les salles qui ne font pas partie d’une liste de salles, d’équipements et de comptes de ressources peuvent être ajoutées ou synchronisées avec l’équipe à l’échelle de l’organisation. Les propriétaires d’équipe peuvent facilement supprimer ces comptes de l’équipe.
 > - Toutes les actions effectuées par le système pour ajouter ou supprimer des membres sont publiées dans le canal général. Le canal est également marqué comme présentant une nouvelle activité dans le client Teams.
-> - Nous allons créer automatiquement une équipe à l’échelle de l’organisation pour votre organisation si votre organisation est nouvelle à Teams et n’a pas plus de 5 000 utilisateurs. Le nom de l’équipe correspondra au nom du client et aura un canal général. Les administrateurs généraux peuvent modifier cette équipe de la même façon que n’importe quelle autre équipe.
+> - Nous allons créer automatiquement une équipe à l’échelle de l’organisation pour votre organisation si votre organisation n’a pas plus de 5 000 utilisateurs. Le nom de l’équipe correspondra au nom du client et aura un canal général. Les administrateurs généraux peuvent modifier cette équipe de la même façon que n’importe quelle autre équipe.
 
 ## <a name="best-practices"></a>Meilleures pratiques
 
@@ -71,7 +71,7 @@ Réduisez les bruits de canal en faisant en sorte que seuls les propriétaires d
 Réduisez @mentions pour empêcher la surcharge de l’ensemble de l’organisation.
 
 1. Accédez à l’équipe et cliquez sur **... Autres options** \> **Gérer l’équipe**.
-2. Sous **l’onglet Paramètres****, cliquez @mentions** \> désactiver **l’option Afficher les membres pour @team ou @[nom de l’équipe]**.
+2. Sous l’onglet **Paramètres** , cliquez sur **@mentions** \> désactiver **l’option Afficher les membres pour @team ou @[nom de l’équipe]**.
 
 ### <a name="automatically-show-important-channels"></a>Afficher automatiquement les canaux importants
 
@@ -90,7 +90,7 @@ Si vous souhaitez en savoir plus, consultez l’article [Configurer et gérer la
 
 ### <a name="remove-accounts-that-might-not-belong"></a>Supprimez les comptes sans propriétaire
 
-Même si les membres ne peuvent pas quitter une équipe à l’échelle de l’organisation, en tant que propriétaire d’équipe, vous pouvez gérer la liste d’équipe en supprimant les comptes qui n’appartiennent pas. **Veillez à utiliser Teams pour supprimer des utilisateurs de votre équipe à l’échelle de l’organisation**. Si vous utilisez une autre méthode pour supprimer un utilisateur, tel que le Centre d'administration Microsoft 365 ou d’un groupe dans Outlook, l’utilisateur peut être ajouté à l’équipe à l’échelle de l’organisation.
+Même si les membres ne peuvent pas quitter une équipe à l’échelle de l’organisation, en tant que propriétaire d’équipe, vous pouvez gérer la liste d’équipe en supprimant les comptes qui n’appartiennent pas. **Veillez à utiliser Teams pour supprimer des utilisateurs de votre équipe à l’échelle de l’organisation**. Si vous utilisez une autre façon de supprimer un utilisateur, tel que le Centre d'administration Microsoft 365 ou d’un groupe dans Outlook, l’utilisateur peut être ajouté à l’équipe à l’échelle de l’organisation.
 
 ## <a name="faq"></a>FAQ
 
@@ -107,7 +107,7 @@ Si cette solution de contournement n’est pas une option, vous pouvez utiliser 
 
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-organization-wide-team"></a>Existe-t-il un moyen de convertir une équipe existante en équipe à l’échelle de l’organisation ?
 
-Les administrateurs généraux peuvent convertir une équipe existante en équipe à l’échelle de l’organisation en la modifiant dans Teams client. Accédez au nom de l’équipe, cliquez sur **Autres options** > **Modifier l’équipe**.
+Les administrateurs généraux peuvent convertir une équipe existante en équipe à l’échelle de l’organisation en la modifiant dans le client Teams. Accédez au nom de l’équipe, cliquez sur **Autres options** > **Modifier l’équipe**.
 
 ### <a name="can-i-create-an-organization-wide-team-using-a-team-template"></a>Puis-je créer une équipe à l’échelle de l’organisation à l’aide d’un modèle d’équipe ?
 
@@ -115,4 +115,4 @@ Les modèles d’équipe ne peuvent pas être utilisés pour créer une équipe 
 
 ## <a name="see-also"></a>Voir aussi
 
-Regardez une vidéo sur [la création d’une équipe à l’échelle de l’entreprise dans Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
+Regardez une vidéo sur [la création d’une équipe à l’échelle de l’organisation dans Microsoft Teams](https://www.youtube.com/watch?v=x3qGlwwCz_w).

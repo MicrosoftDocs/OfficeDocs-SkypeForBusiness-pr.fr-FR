@@ -1,5 +1,5 @@
 ---
-title: Déployer des équipes à grande échelle pour les travailleurs de première ligne dans Microsoft Teams
+title: Déployer des équipes à grande échelle pour les employés de première ligne dans Microsoft Teams
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: rahuldey
@@ -15,18 +15,18 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 561eaf310201b99ada9cce4dde49746d58d77088
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: feffd8e6f651b4592e789cd24243f01417f1b966
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046023"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240731"
 ---
-# <a name="deploy-teams-at-scale-for-frontline-workers-in-microsoft-teams"></a>Déployer des équipes à grande échelle pour les travailleurs de première ligne dans Microsoft Teams
+# <a name="deploy-teams-at-scale-for-frontline-workers-in-microsoft-teams"></a>Déployer des équipes à grande échelle pour les employés de première ligne dans Microsoft Teams
 
 > [!NOTE]
-> Cette fonctionnalité est actuellement en préversion privée. Si vous souhaitez participer à la préversion privée, contactez-nous à [dscale@microsoft.com](mailto:dscale@microsoft.com).
+> Cette fonctionnalité est actuellement en préversion publique. Si vous souhaitez participer, contactez-nous à [dscale@microsoft.com](mailto:dscale@microsoft.com).
+
 
 ## <a name="overview"></a>Présentation
  
@@ -66,7 +66,7 @@ Vous devez créer deux fichiers CSV pour chaque lot d’équipes que vous déplo
     |**Nom de l’équipe**|Nom de l’équipe.|
     |**ID d’équipe existant**|Si vous ajoutez ou supprimez des utilisateurs d’une équipe existante, spécifiez l’ID d’équipe de l’équipe.|
     |**Visibilité**|Que l’équipe soit publique (toute personne de votre organisation peut participer) ou privée (les utilisateurs ont besoin de l’approbation des propriétaires de l’équipe pour rejoindre). Les options sont **publiques** et **privées**.|
-    |**ID de modèle d’équipe**|Si vous créez une équipe à partir d’un modèle prédéfagé ou personnalisé, spécifiez l’ID du modèle d’équipe. Consultez [Démarrage avec des modèles d’équipe dans le centre d’administration Teams](get-started-with-teams-templates-in-the-admin-console.md) pour obtenir une liste des ID et des modèles d’équipe prédéfinifiés. Si vous souhaitez utiliser le modèle d’équipe par défaut standard, laissez ce champ vide.|
+    |**ID de modèle d’équipe**|Si vous créez une équipe à partir d’un modèle prédéfagé ou personnalisé, spécifiez l’ID du modèle d’équipe. Consultez [Prise en main des modèles d’équipe dans le Centre d’administration Teams](get-started-with-teams-templates-in-the-admin-console.md) pour obtenir une liste des ID et des modèles d’équipe prédéfinifiés. Si vous souhaitez utiliser le modèle d’équipe par défaut standard, laissez ce champ vide.|
 
 - **Fichier CSV qui mappe les utilisateurs que vous ajoutez à chaque équipe**. Ce fichier doit contenir les colonnes requises, dans l’ordre suivant, en commençant par la première colonne :
 
@@ -118,18 +118,18 @@ Maintenant que vous avez créé vos fichiers CSV, vous êtes prêt à configurer
 
 Vous utilisez l’applet ```New-CsBatchTeamsDeployment``` de commande pour envoyer un lot d’équipes à créer. Un ID d’orchestration est généré pour chaque lot. Vous pouvez ensuite utiliser l’applet ```Get-CsBatchTeamsDeployment``` de commande pour suivre la progression et l’état de chaque lot.
 
-1. Installez PowerShell version 7 ou ultérieure. Pour obtenir des instructions pas à pas, consultez [l’installation de PowerShell sur Windows](/powershell/scripting/install/installing-powershell-on-windows).
+1. Installez PowerShell version 7 ou ultérieure. Pour obtenir des conseils pas à pas, consultez [l’installation de PowerShell sur Windows](/powershell/scripting/install/installing-powershell-on-windows).
 1. Exécutez PowerShell en mode administrateur.
-1. Exécutez la commande suivante pour désinstaller tout module PowerShell précédemment installé Teams.
+1. Exécutez ce qui suit pour désinstaller tout module Teams PowerShell précédemment installé.
 
     ```powershell
     Uninstall-module -Name MicrosoftTeams -Force -Allversions
     ```
 
     Si vous recevez un message d’erreur, vous êtes déjà défini. Passez à l’étape suivante.
-1. Téléchargez et installez la [dernière version du module PowerShell Teams](https://www.powershellgallery.com/packages/MicrosoftTeams).
+1. Téléchargez et installez la [dernière version du module Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
-1. Exécutez la commande suivante pour vous connecter à Teams.
+1. Exécutez les étapes suivantes pour vous connecter à Teams.
 
     ```powershell
     Connect-MicrosoftTeams
@@ -137,7 +137,7 @@ Vous utilisez l’applet ```New-CsBatchTeamsDeployment``` de commande pour envoy
 
     Lorsque vous y êtes invité, connectez-vous à l’aide de vos informations d’identification d’administrateur.
 
-1. Exécutez la commande suivante pour obtenir une liste des commandes dans le module PowerShell Teams.
+1. Exécutez la commande suivante pour obtenir une liste des commandes dans le module Teams PowerShell.
 
     ```powershell
     Get-Command -Module MicrosoftTeams

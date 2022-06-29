@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 330faa00c2ba14f03e5219642fa274fc24eb8765
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: f33ab77f2b615bcdd08f14512585b653027c38e8
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913422"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240973"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Réunions, webinaires et événements en direct 
 
@@ -176,6 +176,8 @@ Pour réussir un événement, suivez les pratiques décrites ci-dessous :
 ### <a name="guidelines-for-your-end-users"></a>Directives pour vos utilisateurs finaux
 
 Vos organisateurs et présentateurs devraient mettre en œuvre les recommandations ci-dessous :
+
+- Pour les réunions avec plus de 10 participants, utilisez [Questions et réponses](/MicrosoftTeams/manage-qna-for-teams) pour permettre aux participants de poser et de recevoir officiellement des réponses aux questions, ainsi que de participer à des discussions structurées.
 
 - Pour créer une réunion fluide, les organisateurs d'événements peuvent définir des présentateurs prédéfinis. Après le début d'une réunion, les présentateurs peuvent également promouvoir d'autres participants au rôle de présentateur.
 
