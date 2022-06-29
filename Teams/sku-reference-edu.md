@@ -1,5 +1,5 @@
 ---
-title: Référence SKU pour l’éducation
+title: Informations de référence sur la référence SKU Éducation
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -9,18 +9,23 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Répertorie les plans de licence pour les enseignants et étudiants et les ID de référence SKU.
-f1keywords: null
+description: Répertorie les plans de licence et les ID de référence (SKU) des enseignants et étudiants de l’éducation.
+f1keywords: ''
+ms.openlocfilehash: f91896a23cf69d09ab5ba922d8b893a496737037
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494501"
 ---
+# <a name="education-sku-reference"></a>Informations de référence sur la référence SKU Éducation
 
-# <a name="education-sku-reference"></a>Référence SKU pour l’éducation
-
-Cet article répertorie les plans de licence pour les enseignants et étudiants et les ID de référence SKU que vous pouvez utiliser comme référence lorsque vous utilisez PowerShell pour identifier les utilisateurs de votre organisation par type de licence.
+Cet article répertorie les plans de licence des enseignants et des étudiants (SKU) et les ID de référence SKU que vous pouvez utiliser comme référence lorsque vous utilisez PowerShell pour identifier les utilisateurs de votre organisation par type de licence.
 
 ## <a name="faculty-licenses"></a>Licences pour les enseignants
 
@@ -36,34 +41,34 @@ Cet article répertorie les plans de licence pour les enseignants et étudiants 
 |Office 365 Éducation E4 pour les enseignants      |ENTERPRISEWITHSCAL_FACULTY         |16732e85-c0e3-438e-a82f-71f39cbe2acb         |
 |Microsoft 365 Éducation A3 pour les enseignants      |M365EDU_A3_FACULTY         |4b590615-0888-425a-a965-b3bf7789848d         |
 |Microsoft 365 Éducation A5 pour les enseignants       |M365EDU_A5_FACULTY         |e97c048c-37a4-45fb-ab50-922fbf07a370         |
-|Microsoft 365 A5 sans Audioconférence pour les enseignants     |M365EDU_A5_NOPSTNCONF_FACULTY         |e578b273-6db4-4691-bba0-8d691f4da603         |
-|Office 365 Éducation pour l’enseignement à domicile pour les enseignants     |STANDARDWOFFPACK_HOMESCHOOL_FAC         |43e691ad-1491-4e8c-8dc9-da6b8262c03b         |
+|Microsoft 365 A5 sans audioconférence pour les enseignants     |M365EDU_A5_NOPSTNCONF_FACULTY         |e578b273-6db4-4691-bba0-8d691f4da603         |
+|Office 365 Éducation pour Homeschool for Faculty     |STANDARDWOFFPACK_HOMESCHOOL_FAC         |43e691ad-1491-4e8c-8dc9-da6b8262c03b         |
 |Office 365 A1 pour les enseignants (pour appareil)     |STANDARDWOFFPACK_FACULTY_DEVICE         |af4e28de-6b52-4fd3-a5f4-6bf708a304d3         |
 
-## <a name="student-licenses"></a>Licences étudiant
+## <a name="student-licenses"></a>Licences d’étudiant
 
 |Nom du produit |SkuPartNumber   |SkuID |
 |---------|---------|---------|
 |Office 365 Éducation E3 pour les étudiants       |ENTERPRISEPACK_STUDENT         |8fc2205d-4e51-4401-97f0-5c89ef1aafbb         |
-|Office 365 Éducation pour les étudiants     |STANDARDWOFFPACK_IW_STUDENT         |314c4481-f395-4525-be8b-2ec4bb1e9d91         |
+|Office 365 Éducation pour les étudiants     |STANDARDWOFFPACK_STUDENT         |314c4481-f395-4525-be8b-2ec4bb1e9d91         |
 |Office 365 Éducation E5 pour les étudiants      |ENTERPRISEPREMIUM_STUDENT         |ee656612-49fa-43e5-b67e-cb1fdf7699df         |
-|Office 365 Éducation E5 sans conférence PSTN pour les étudiants     |ENTERPRISEPREMIUM_NOPSTNCONF_STUDENT         |1164451b-e2e5-4c9e-8fa6-e5122d90dbdc         |
+|Office 365 Éducation E5 sans conférence RTC pour les étudiants     |ENTERPRISEPREMIUM_NOPSTNCONF_STUDENT         |1164451b-e2e5-4c9e-8fa6-e5122d90dbdc         |
 |Office 365 Éducation E1 pour les étudiants       |STANDARDPACK_STUDENT         |d37ba356-38c5-4c82-90da-3d714f72a382         |
 |Office 365 Éducation E4 pour les étudiants      |ENTERPRISEWITHSCAL_STUDENT         |05e8cabf-68b5-480f-a930-2143d472d959         |
 |Microsoft 365 Éducation A3 pour les étudiants      |M365EDU_A3_STUDENT         |7cfd9a2b-e110-4c39-bf20-c6a3f36a3121         |
-|Microsoft 365 Éducation A3 pour les étudiants utilisent les avantages       |M365EDU_A3_STUUSEBNFT         |18250162-5d87-4436-a834-d795c15c80f3         |
+|Microsoft 365 Éducation A3 pour les étudiants utilisent des avantages       |M365EDU_A3_STUUSEBNFT         |18250162-5d87-4436-a834-d795c15c80f3         |
 |Microsoft 365 Éducation A5 pour les étudiants        |M365EDU_A5_STUDENT       |46c119d4-0379-4a9d-85e4-97c66d3f909e        |
-|Microsoft 365 A5 avantages de l’utilisation par les étudiants     |M365EDU_A5_STUUSEBNFT         |31d57bc7-3a05-4867-ab53-97a17835a411         |
-|Microsoft 365 A5 sans Audioconférence pour les étudiants      |M365EDU_A5_NOPSTNCONF_STUDENT         |a25c01ce-bab1-47e9-a6d0-ebe939b99ff9         |
-|Microsoft 365 A5'utilisation de l’audioconférence pour les étudiants    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
+|Microsoft 365 A5'étudiant utilise les avantages     |M365EDU_A5_STUUSEBNFT         |31d57bc7-3a05-4867-ab53-97a17835a411         |
+|Microsoft 365 A5 sans audioconférence pour les étudiants      |M365EDU_A5_NOPSTNCONF_STUDENT         |a25c01ce-bab1-47e9-a6d0-ebe939b99ff9         |
+|Microsoft 365 A5 sans audioconférence pour les étudiants utilisent l’avantage    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
 |Office 365 A3 pour les étudiants     |ENTERPRISEPACKPLUS_STUDENT         |98b6e773-24d4-4c0d-a968-6e787a1f8204         |
-|Office 365 A3'utilisation de l’étudiant     |ENTERPRISEPACKPLUS_STUUSEBNFT         |476aad1e-7a7f-473c-9d20-35665a5cbd4f         |
-|Office 365 A5'utilisation de l’étudiant    |ENTERPRISEPREMIUM_STUUSEBNFT         |f6e603f1-1a6d-4d32-a730-34b809cb9731         |
-|Office 365 A5'utilisation de l’audioconférence pour les étudiants  |ENTERPRISEPREMIUM_NOPSTNCONF_STUUSEBNFT         |bc86c9cd-3058-43ba-9972-141678675ac1         |
-|Office 365 Éducation pour l’enseignement à domicile pour les étudiants     |STANDARDWOFFPACK_HOMESCHOOL_STU         |afbb89a7-db5f-45fb-8af0-1bc5c5015709         |
-|Office 365 A1 pour les étudiants (pour appareil)     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
+|Office 365 A3'étudiant utilise l’avantage     |ENTERPRISEPACKPLUS_STUUSEBNFT         |476aad1e-7a7f-473c-9d20-35665a5cbd4f         |
+|Office 365 A5 l’avantage d’utilisation de Student    |ENTERPRISEPREMIUM_STUUSEBNFT         |f6e603f1-1a6d-4d32-a730-34b809cb9731         |
+|Office 365 A5 sans audioconférence pour les étudiants utilisent l’avantage  |ENTERPRISEPREMIUM_NOPSTNCONF_STUUSEBNFT         |bc86c9cd-3058-43ba-9972-141678675ac1         |
+|Office 365 Éducation pour Homeschool for Students     |STANDARDWOFFPACK_HOMESCHOOL_STU         |afbb89a7-db5f-45fb-8af0-1bc5c5015709         |
+|Office 365 A1 pour les étudiants (pour l’appareil)     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
 |Office 365 A1 Plus pour les étudiants     |STANDARDWOFFPACK_IW_STUDENT         |e82ae690-a2d5-4d76-8d30-7c6e01e6022e         |
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-- [Attribuer des stratégies à un grand nombre d’utilisateurs dans votre établissement scolaire](batch-group-policy-assignment-edu.md)
+- [Affecter des stratégies à de grands ensembles d’utilisateurs dans votre établissement scolaire](batch-group-policy-assignment-edu.md)

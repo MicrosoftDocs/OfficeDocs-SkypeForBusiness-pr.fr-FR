@@ -21,37 +21,37 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
-description: Utilisez la télémétrie en temps réel avec des détails sur les appareils, les réseaux et la connectivité pour résoudre les problèmes des utilisateurs lors de Microsoft Teams réunions planifiées.
-ms.openlocfilehash: 4f56e50ddc8ac861e109bbc4d4a2a74533043d24
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+description: Utilisez la télémétrie en temps réel avec des détails sur les appareils, les réseaux et la connectivité pour résoudre les problèmes des utilisateurs lors des réunions planifiées de Microsoft Teams.
+ms.openlocfilehash: c7bc5ee0415a289782cad1dd7daa5c13bdaf7364
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125799"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494721"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Utiliser la télémétrie en temps réel pour résoudre les problèmes de qualité des réunions
 
-Cet article explique comment utiliser Real-Time Analytics (RTA) pour résoudre les problèmes de qualité de réunion Microsoft Teams médiocre pour les utilisateurs individuels. Vous pouvez accéder à Real-Time Analytics si vous avez l’un des rôles suivants :
+Cet article explique comment utiliser Real-Time Analytics (RTA) pour résoudre les problèmes de mauvaise qualité des réunions Microsoft Teams pour les utilisateurs individuels. Vous pouvez accéder à Real-Time Analytics si vous avez l’un des rôles suivants :
 
 - Administrateur Teams
 - Spécialiste du support des communications Teams
 - Ingénieur du support technique pour les communications Teams
 
-Pour plus d’informations sur Teams rôles d’administrateur, consultez [Utiliser Microsoft Teams rôles d’administrateur pour gérer Teams](/MicrosoftTeams/using-admin-roles).
+Pour plus d’informations sur les rôles d’administrateur Teams, consultez [Utiliser les rôles d’administrateur Microsoft Teams pour gérer Teams](/MicrosoftTeams/using-admin-roles).
 
 Real-Time Analytics permet aux administrateurs informatiques d’examiner les réunions planifiées de leurs utilisateurs importants et de voir les problèmes liés à l’audio, à la vidéo, au partage de contenu et au réseau. En tant qu’administrateur, vous pouvez utiliser cette télémétrie pour examiner ces problèmes pendant les réunions et résoudre les problèmes en temps réel.
 
 ## <a name="what-is-real-time-analytics"></a>Qu’est-ce que Real-Time Analytics ?
 
-Aujourd’hui, la résolution des problèmes de réunion individuelle est disponible pour Teams administrateurs via [Call Analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) une fois la réunion terminée. Real-Time Analytics permet aux administrateurs de résoudre les problèmes liés aux réunions planifiées pendant qu’elles sont en cours.
+Aujourd’hui, la résolution des problèmes des réunions individuelles est disponible pour les administrateurs Teams via [Call Analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) une fois la réunion terminée. Real-Time Analytics permet aux administrateurs de résoudre les problèmes liés aux réunions planifiées pendant qu’elles sont en cours.
 
-Real-Time Analytics affiche des informations détaillées sur Teams réunions pour chaque utilisateur de votre compte Office 365, mises à jour en temps réel. Il inclut des informations sur les appareils, le réseau, la connectivité, l’audio, la vidéo et les problèmes de partage de contenu, qui aideront les administrateurs à résoudre plus efficacement les problèmes de qualité des appels.
+Real-Time Analytics affiche des informations détaillées sur les réunions Teams pour chaque utilisateur de votre compte Office 365, mises à jour en temps réel. Il inclut des informations sur les appareils, le réseau, la connectivité, l’audio, la vidéo et les problèmes de partage de contenu, qui aideront les administrateurs à résoudre plus efficacement les problèmes de qualité des appels.
 
-En tant qu’administrateur Teams, vous bénéficiez d’un accès total à toutes les données de télémétrie en temps réel pour chaque utilisateur. En outre, vous pouvez attribuer Azure Active Directory rôles au personnel de soutien. Pour en savoir plus sur ces rôles, consultez [Autoriser le support et le personnel du support](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff) technique.
+En tant qu’administrateur Teams, vous bénéficiez d’un accès complet à toutes les données de télémétrie en temps réel pour chaque utilisateur. En outre, vous pouvez attribuer des rôles Azure Active Directory au personnel de support. Pour en savoir plus sur ces rôles, consultez [Autoriser le support et le personnel du support](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff) technique.
 
 ## <a name="where-to-find-per-user-real-time-troubleshooting-telemetry"></a>Où trouver les données de télémétrie en temps réel par utilisateur
 
-Pour afficher toutes les informations et données de réunion d’un utilisateur, accédez au [centre d’administration Teams](https://admin.teams.microsoft.com). Sous **UtilisateursManage** > , sélectionnez un utilisateur, puis ouvrez l’onglet **Réunions & appels** sur la page de profil de l’utilisateur. Dans **les réunions récentes**, vous verrez une liste des réunions auxquelles l’utilisateur a participé au cours des dernières 24 heures *pour lesquelles des données de télémétrie en temps réel sont disponibles*, y compris les réunions en cours. Si la réunion n’est pas en cours ou n’a pas de données de télémétrie en temps réel, elle s’affiche dans **les réunions précédentes**.
+Pour afficher toutes les informations et données de réunion d’un utilisateur, accédez au [Centre d’administration Teams](https://admin.teams.microsoft.com). Sous **Gérer** > **les utilisateurs**, sélectionnez un utilisateur, puis ouvrez l’onglet **Réunions & appels** sur la page de profil de l’utilisateur. Dans **les réunions récentes**, vous verrez une liste des réunions auxquelles l’utilisateur a participé au cours des dernières 24 heures *pour lesquelles des données de télémétrie en temps réel sont disponibles*, y compris les réunions en cours. Si la réunion n’est pas en cours ou n’a pas de données de télémétrie en temps réel, elle s’affiche dans **les réunions précédentes**.
 
 :::image type="content" alt-text="Capture d’écran de la table des réunions récentes." source="media/recent-meetings.png" lightbox="media/recent-meetings.png":::
 
@@ -63,15 +63,44 @@ Pour examiner les données de télémétrie d’un utilisateur donné pour une r
 
 :::image type="content" alt-text="Capture d’écran des données de session utilisateur d’analyse des appels." source="media/real-time-telemetry-edit.png" lightbox="media/real-time-telemetry-edit.png":::
 
-## <a name="measures-available-in-real-time-analytics"></a>Mesures disponibles dans Real-Time Analytics
+## <a name="details-and-measures-available-in-real-time-analytics"></a>Détails et mesures disponibles dans Real-Time Analytics
+
+### <a name="device-information"></a>Informations sur l’appareil
+| Nom | Description | Raisons possibles de valeurs vides|
+|:---|:---|:---|
+| Périphérique de capture audio | Nom de l’appareil de capture audio (par exemple, microphone) utilisé | Il se peut que le système n’ait pas de nom associé à l’appareil (par exemple, bureau à distance ou appareil « Audio distant » de la machine virtuelle)  |
+| Périphérique de rendu audio | Nom de l’appareil de rendu audio (par exemple, haut-parleurs ou écouteurs) utilisé | Il se peut que le système n’ait pas de nom associé à l’appareil (par exemple, bureau à distance ou appareil « Audio distant » de la machine virtuelle)  |
+| Appareil de capture vidéo | Nom de l’appareil de capture vidéo utilisé | L’utilisateur n’envoie pas de vidéo à partir du point de terminaison surveillé |
+
+### <a name="connectivity-information"></a>Informations de connectivité
+| Mesure | Unités / Valeurs possibles | Description | Raisons possibles de valeurs vides|
+|:---|:---|:---|:---|
+| Type de réseau | &bull; Ethernet <br/> &bull; Wi-Fi | Type de connexion réseau utilisée | |
+| Wi-Fi force | &bull; Excellent : -50dBm ou supérieur <br/> &bull; Bon : -51 dBm à -64 dBm<br/> &bull; Médiocre : -65 dBm ou inférieur | Force de la connexion Wi-Fi actuelle de l’utilisateur | L’utilisateur n’est pas connecté à Wi-Fi |
+| canal Wi-Fi | Entier | Canal sur lequel le point d’accès du réseau Wi-Fi diffuse | L’utilisateur n’est pas connecté à Wi-Fi |
+| Type physique | String <br/> &bull; Exemple : 802.11ac | Type d’infrastructure sans fil utilisé | L’utilisateur n’est pas connecté à Wi-Fi |
+| bande Wi-Fi | 2,4 GHz ou 5 GHz | Wi-Fi bande à laquelle l’utilisateur est connecté | L’utilisateur n’est pas connecté à Wi-Fi |
+| Lieu | String | Pays dans lequel se trouve l’utilisateur | Les informations d’emplacement de l’utilisateur sont bloquées ou indisponibles |
+| Adresse IP locale | String (IP:Port) | Adresse IP locale du point de terminaison de l’utilisateur et du port multimédia | |
+| Adresse IP réflexive du serveur | String (IP:Port) | Adresse IP publique du point de terminaison de l’utilisateur et du port multimédia | |
+| Type de connectivité | UDP ou TCP | Protocole de couche de transport en service ; UDP est préféré pour les médias en temps réel | |
+
+### <a name="user-signals"></a>Signaux utilisateur
+Les signaux utilisateur identifient quand un utilisateur participe activement à l’appel, ne parle pas, mais est désactivé ou est désactivé. Actuellement, les signaux utilisateur sont uniquement disponibles pour l’audio.
+
+| Modalité | Valeurs possibles | Description |
+|:---|:---|:---|
+| Audio | &bull; Non activé, participant parlant <br/> &bull; Non activé, ne parlant pas <br/> &bull; Coupé | Indique le comportement de l’utilisateur pour la partie audio de l’appel  |
+
 
 ### <a name="audio"></a>Audio
 |Nom de la mesure |Unités |Bon seuil |Description |
 |:---|:---|:---|:---|
 |Jitter |Millisecondes |Moins de 30 ms |Jitter est une mesure de la variation du délai de paquet pour un flux de données. Lorsque cette valeur est trop élevée, l’audio peut devenir agité. | 
 |Perte de paquets |Pourcentage |Moins de 5 % |La perte de paquets se produit lorsque les paquets de données ne parviennent pas à atteindre leur destination. Le pourcentage de paquets perdus est basé sur le nombre total de paquets envoyés. |
-|Durée des allers-retours |Millisecondes |Moins de 500 ms |Le temps d’aller-retour est le temps nécessaire pour qu’un seul paquet se déplace du client vers le point de terminaison distant et retourne au client. Une durée d’aller-retour élevée peut entraîner des retards dans la lecture du flux. Par exemple, deux personnes d’une réunion parlent involontairement l’une de l’autre en raison du retard. |
+|Durée des allers-retours |Millisecondes |Moins de 500 ms |Le temps d’aller-retour est le temps nécessaire pour qu’un seul paquet se déplace du client vers le point de terminaison distant et retourne au client. Une durée d’aller-retour élevée peut entraîner des retards dans la lecture du flux. Par exemple, deux personnes d’une réunion parlent involontairement l’une de l’autre en raison du retard. S’affiche uniquement pour l’audio sortant. |
 |Bitrate |Kilobits par seconde (Kbits/s) |Supérieur à 24 Kbits/s |Débit du flux audio exprimé en kilobits par seconde. |
+| Codec | String <br/> &bull; Exemple : SATIN | Informations uniquement | Affiche le codec audio envoyé et reçu. Un codec différent peut être reçu que celui envoyé. |
 
 
 ### <a name="video"></a>Vidéo
@@ -104,14 +133,14 @@ Pour examiner les données de télémétrie d’un utilisateur donné pour une r
 - iOS
 
 > [!NOTE]
-> Teams client web (y compris VDI) ne prend pas en charge la remise des données de télémétrie en temps réel.
+> Le client web Teams (y compris VDI) ne prend pas en charge la distribution des données de télémétrie en temps réel.
 
-## <a name="teams-devices-with-support-for-real-time-telemetry"></a>Teams des appareils avec prise en charge de la télémétrie en temps réel
+## <a name="teams-devices-with-support-for-real-time-telemetry"></a>Appareils Teams avec prise en charge de la télémétrie en temps réel
 
 - MTR - Surface Hub
-- MTR - affichage Teams
+- MTR - Affichage Teams
 - MTR - Barre de collaboration
-- Appareils Téléphone IP
+- Appareils IP Phone
 
 > [!NOTE]
 > Les appareils qui ont rejoint la réunion à l’aide de solutions CVI (Cloud Video Interop) ne sont pas pris en charge dans Real-Time Analytics.
@@ -119,14 +148,14 @@ Pour examiner les données de télémétrie d’un utilisateur donné pour une r
 
 ## <a name="limitations"></a>Limites
 
-- Les données de télémétrie en temps réel sont disponibles uniquement pour les réunions planifiées. Pour les réunions ad hoc telles que les réunions Meet Now, PSTN, les appels 1:1 et les appels de groupe, la télémétrie en temps réel n’est pas disponible.
+- La télémétrie en temps réel est disponible uniquement pour les réunions planifiées et meet now. Pour les appels RTC, les appels 1:1 et les appels de groupe, la télémétrie en temps réel n’est pas disponible.
 - La télémétrie en temps réel est disponible uniquement pour les présentateurs d’événements en direct planifiés. Il n’est actuellement pas disponible pour les participants aux événements en direct.
 - Les données de télémétrie en temps réel sont disponibles pour une réunion dans **le cadre de réunions récentes** pendant 24 heures après la fin de la réunion. Après 24 heures, vous ne pouvez pas accéder aux données et la réunion passe aux **réunions précédentes**. Si une réunion dure plus de 3 heures, les données de télémétrie en temps réel ne sont disponibles que pour les *3 dernières heures*.
 - La télémétrie n’est pas disponible en temps réel lors de l’utilisation d’anciennes versions de Teams. Si aucune télémétrie n’est disponible, essayez de mettre à jour votre client.
 - Si des participants externes ou des utilisateurs anonymes participent à une réunion, leur nom complet s’affiche comme **étant indisponible** pour conserver la confidentialité entre locataires.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Configurer l’analytique des appels par utilisateur](set-up-call-analytics.md)
 
-[Utilisez Microsoft Teams rôles d’administrateur pour gérer Teams](/MicrosoftTeams/using-admin-roles).
+[Utilisez des rôles d’administrateur Microsoft Teams pour gérer Teams](/MicrosoftTeams/using-admin-roles).

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Cet article explique comment configurer votre organisation et salles Teams des appareils pour prendre en charge la participation de réunions tierces à Cisco Webex et Zoom.
-ms.openlocfilehash: 93b853e8b9d0a692062bb0c81d670c42701ca415
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 23eefeb564e3333b1bc2105a1fc4d57a0ff41bbe
+ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045413"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66529676"
 ---
 # <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Autoriser les appareils salles Teams à participer à des réunions tierces
 
@@ -26,12 +26,12 @@ Salles Microsoft Teams appareils prennent en charge une expérience tactile perm
 
 Appareils et services pris en charge :
 
-- MTR sur Windows, tous les modèles certifiés : Zoom, Cisco WebEx
+- MTR sur Windows, tous les modèles certifiés – Zoom, Cisco Webex
 
 - Modèles certifiés MTR sur Android, Poly, Yealink et Logitech – Zoom
 
 > [!NOTE]
-> Pour participer à une réunion Cisco WebEx à partir d’un appareil salles Teams, la réunion Cisco doit être hébergée dans WebEx Meetings Pro à l’aide de l’application web Cisco WebEx version WBS 40.7 ou ultérieure. 
+> Pour participer à une réunion Cisco Webex à partir d’un appareil salles Teams, la réunion Cisco doit être hébergée dans Webex Meetings Pro à l’aide de Cisco Webex webex version WBS 40.7 ou ultérieure. 
 
 Avant de pouvoir participer à des réunions tierces à partir de salles Teams, vous devez effectuer les opérations suivantes :
 
@@ -45,7 +45,7 @@ Les sections suivantes vous montrent comment effectuer chacune de ces étapes.
 
 La première chose que vous devez faire pour activer une expérience de jointure tactile à partir des salles d’équipe consiste à définir les règles de traitement du calendrier pour la boîte aux lettres Exchange Online salle de l’appareil. La boîte aux lettres de salle doit autoriser les réunions externes et conserver le corps et l’objet du message afin qu’il puisse voir l’URL nécessaire pour rejoindre la réunion tierce. Pour définir ces options de boîte aux lettres de salle à l’aide de l’applet [de commande Set-CalendarProcessing, procédez](/powershell/module/exchange/set-calendarprocessing.) comme suit :
 
-1. Connecter à Exchange Online PowerShell. Pour plus d’informations, consultez [Connecter pour Exchange Online PowerShell avec l’authentification de base](/powershell/exchange/connect-to-exchange-online-powershell) ou [Connecter pour Exchange Online PowerShell à l’aide de l’authentification multifacteur](/powershell/exchange/mfa-connect-to-exchange-online-powershell), en fonction de votre méthode d’authentification.
+1. Connectez-vous à Exchange Online PowerShell. Pour plus d’informations, consultez [Se connecter à Exchange Online PowerShell avec l’authentification de base](/powershell/exchange/connect-to-exchange-online-powershell) ou [se connecter à Exchange Online PowerShell à l’aide de l’authentification multifacteur](/powershell/exchange/mfa-connect-to-exchange-online-powershell), en fonction de votre méthode d’authentification.
 
 2. Obtenez le nom d’utilisateur principal (UPN) de la boîte aux lettres de la salle si vous ne le connaissez pas en exécutant la commande suivante :
 
@@ -65,23 +65,23 @@ En savoir plus sur [Exchange Online PowerShell](/powershell/exchange/exchange-on
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>Étape 2 : Configurer Office 365 Protection contre les menaces et réécrire les liens
 
-Pour activer l’expérience de participation tactile, les informations de lien de participation à la réunion de la réunion tierce doivent être présentes et lisibles dans l’invitation à la réunion. Si votre organisation utilise la fonctionnalité [de liens sécurisés Microsoft Defender pour Office 365](/microsoft-365/security/office-365-security/safe-links), ou si vous utilisez une solution tierce qui analyse toutes les URL entrantes et sortantes à la recherche de menaces, elle peut modifier les URL de participation à la réunion et rendre la réunion méconnaissable par l’appareil salles Teams. Pour vous assurer que cela ne se produit pas, vous devez ajouter les URL du service de réunion tiers à la liste Defender pour [Office 365 Coffre Les liens **ne réécrivez pas**](/microsoft-365/security/office-365-security/safe-links) ou la liste d’exceptions de réécriture d’URL tierce.
+Pour activer l’expérience de participation tactile, les informations de lien de participation à la réunion de la réunion tierce doivent être présentes et lisibles dans l’invitation à la réunion. Si votre organisation utilise la fonctionnalité [de liens sécurisés Microsoft Defender pour Office 365](/microsoft-365/security/office-365-security/safe-links), ou si vous utilisez une solution tierce qui analyse toutes les URL entrantes et sortantes à la recherche de menaces, elle peut modifier les URL de participation à la réunion et rendre la réunion méconnaissable par l’appareil salles Teams. Pour vous assurer que cela ne se produit pas, vous devez ajouter les URL du service de réunion tiers à defender pour [Office 365 Liens fiables **Ne réécrivez pas** la liste](/microsoft-365/security/office-365-security/safe-links) ou la liste d’exceptions de réécriture d’URL tierce.
 
  Si vous utilisez une solution tierce, reportez-vous aux instructions de cette solution pour ajouter des URL à sa liste d’exceptions de réécriture d’URL.
 
-Voici quelques exemples d’entrées que vous devrez peut-être ajouter à votre Defender pour Office 365 Coffre Liens *Ne réécrivez pas* la liste ou la liste d’exceptions de réécriture d’URL tierce :
+Voici quelques exemples d’entrées que vous devrez peut-être ajouter à votre Defender pour Office 365 Liens fiables *Ne réécrivez pas* la liste ou la liste d’exceptions de réécriture d’URL tierce :
 
 - **Cisco Webex** `*.webex.com/*`
 - **Zoom**`*.zoom.us/*`, , `*.zoom.com/*``*.zoomgov.com/*`
 
-Pour obtenir la liste complète des URL à ajouter à votre Defender pour Office 365 Coffre Liens *Ne réécrivez pas* la liste ou la liste d’exceptions de réécriture d’URL tierce, contactez le fournisseur de services de réunion tiers à partir duquel vous souhaitez accepter les invitations à une réunion.
+Pour obtenir la liste complète des URL à ajouter à votre Defender pour Office 365 Liens fiables *Ne réécrivez pas* la liste ou la liste d’exceptions de réécriture d’URL tierce, contactez le fournisseur de services de réunion tiers à partir duquel vous souhaitez accepter les invitations à la réunion.
 
 > [!CAUTION]
-> Ajoutez uniquement les URL de confiance à votre Microsoft Defender pour Office 365 Coffre Liens *Ne réécrivez pas* la liste ou la liste d’exceptions de réécriture d’URL tierce.
+> Ajoutez uniquement les URL de confiance à votre Microsoft Defender pour Office 365 Liens sécurisés *Ne réécrivez pas* la liste ou la liste d’exceptions de réécriture d’URL tierce.
 
-## <a name="step-3a-enable-third-party-meetings-on-teams-rooms-on-windows"></a>Étape 3a : Activer des réunions tierces sur salles Teams le Windows
+## <a name="step-3a-enable-third-party-meetings-on-teams-rooms-on-windows"></a>Étape 3a : Activer des réunions tierces sur salles Teams sur Windows
 
-La dernière étape à effectuer consiste à autoriser salles Teams à participer à des réunions tierces. Les réunions tierces nécessitent un nom d’utilisateur et une adresse e-mail pour les rejoindre. Si le nom d’utilisateur et l’adresse e-mail que vous devez utiliser sont différents de la boîte aux lettres de salle de l’appareil, vous devez les ajouter à votre appareil. Vous pouvez le faire dans les paramètres salles Teams ou dans le fichier de configuration XML. Vous pouvez le faire dans les paramètres salles Teams sur n’importe quel salles Teams compatible ou dans le fichier de configuration XML pour salles Teams sur Windows.
+La dernière étape à effectuer consiste à autoriser salles Teams à participer à des réunions tierces. Les réunions tierces nécessitent un nom d’utilisateur et une adresse e-mail pour les rejoindre. Si le nom d’utilisateur et l’adresse e-mail que vous devez utiliser sont différents de la boîte aux lettres de salle de l’appareil, vous devez les ajouter à votre appareil. Vous pouvez le faire dans les paramètres salles Teams ou dans le fichier de configuration XML. Vous pouvez le faire dans les paramètres de salles Teams sur n’importe quel salles Teams compatible ou dans le fichier de configuration XML pour salles Teams sur Windows.
 
 ### <a name="use-device-settings"></a>Utiliser les paramètres de l’appareil
 
@@ -126,7 +126,7 @@ Pour configurer salles Teams sur Android à l’aide de la console à écran tac
 1.  Dans la console Salles Microsoft Teams ou sur l’écran avant de la salle, sélectionnez **Plus**.
 2.  Sélectionnez **Paramètres** et :
     -   Si vous utilisez un compte personnel (par exemple, un compte avec une licence E5), choisissez l’option **Réunions** .
-    -   Si vous utilisez un compte partagé (par exemple, un compte de ressource avec une licence salles Teams), choisissez **Paramètres de l’appareil**, recherchez **Teams Paramètres d’administration**, entrez un mot de passe d’administrateur et choisissez une option **Réunions**.
+    -   Si vous utilisez un compte partagé (par exemple, un compte de ressource avec une licence salles Teams), choisissez **Paramètres de l’appareil**, recherchez les **paramètres Administration Teams**, entrez un mot de passe d’administrateur et choisissez une option **Réunions**.
       > [!NOTE]
       > Certains fabricants d’appareils ont besoin d’un mot de passe d’administrateur avant d’accéder aux **paramètres** de l’appareil.
 

@@ -17,23 +17,23 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Découvrez comment utiliser les paramètres de stratégie de réunion pour contrôler l’expiration de la réunion dans Microsoft Teams.
-ms.openlocfilehash: 08cdcd9b7d7f18dafa468bd33ca065dafb5768a6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 08ca5a75b8dd470b006d44e562eb795f814faba6
+ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675356"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66529686"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Stratégies de réunion et expiration de la réunion dans Microsoft Teams
 
-[Les stratégies de réunion](meeting-policies-overview.md) dans Microsoft Teams sont utilisées pour contrôler si les utilisateurs de votre organisation peuvent démarrer et planifier des réunions, ainsi que les fonctionnalités disponibles pour les participants aux réunions planifiées par les utilisateurs. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées. Vous gérez les stratégies de réunion dans le centre d’administration Microsoft Teams ou à l’aide des applets de commande PowerShell [Get](/powershell/module/skype/get-csteamsmeetingpolicy), [New](/powershell/module/skype/new-csteamsmeetingpolicy), [Set](/powershell/module/skype/set-csteamsmeetingpolicy), [Remove](/powershell/module/skype/remove-csteamsmeetingpolicy), [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy.
+[Les stratégies de réunion](meeting-policies-overview.md) dans Microsoft Teams sont utilisées pour contrôler si les utilisateurs de votre organisation peuvent démarrer et planifier des réunions, ainsi que les fonctionnalités disponibles pour les participants aux réunions planifiées par les utilisateurs. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées. Vous gérez les stratégies de réunion dans le Centre d’administration Microsoft Teams ou à l’aide des applets de commande PowerShell [Get](/powershell/module/skype/get-csteamsmeetingpolicy), [New](/powershell/module/skype/new-csteamsmeetingpolicy), [Set](/powershell/module/skype/set-csteamsmeetingpolicy), [Remove](/powershell/module/skype/remove-csteamsmeetingpolicy), [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy.
 
 Paramètres de stratégie de réunion qui contrôlent si les utilisateurs peuvent démarrer et planifier des réunions, ainsi que contrôler l’expiration des réunions planifiées par les utilisateurs. Lorsqu’un lien de participation à une réunion et un ID de conférence expirent, personne ne peut participer à la réunion. Les paramètres de stratégie de réunion suivants déterminent si les utilisateurs peuvent démarrer et planifier des réunions dans Teams. Nous abordons les paramètres de la réunion dans cet article.
 
 - [Se réunir maintenant dans les canaux](meeting-policies-in-teams-general.md#meet-now-in-channels) : détermine si un utilisateur peut démarrer une réunion impromptue dans un canal.
 - [Planification des réunions](meeting-policies-in-teams-general.md#channel-meeting-scheduling) de canal : détermine si un utilisateur peut planifier une réunion dans un canal.
 - [Planification de réunion privée](meeting-policies-in-teams-general.md#private-meeting-scheduling) : détermine si un utilisateur peut planifier une réunion privée dans Teams. Une réunion est privée lorsque celle-ci n’est pas publiée dans un canal d’une équipe.
-- [Outlook ajouter](meeting-policies-in-teams-general.md#outlook-add-in) : contrôle si un utilisateur peut planifier une réunion privée à partir de Outlook. Une réunion est privée lorsque celle-ci n’est pas publiée dans un canal d’une équipe.
+- [Complément Outlook](meeting-policies-in-teams-general.md#outlook-add-in) : contrôle si un utilisateur peut planifier une réunion privée à partir d’Outlook. Une réunion est privée lorsque celle-ci n’est pas publiée dans un canal d’une équipe.
 - [Réunion maintenant dans des réunions privées](meeting-policies-in-teams-general.md#meet-now-in-private-meetings) : détermine si un utilisateur peut démarrer une réunion privée impromptue.
 
 Par défaut, ces paramètres sont activés. Lorsque l’un de ces paramètres est désactivé, tout utilisateur auquel la stratégie est affectée ne peut pas démarrer ou planifier de nouvelles réunions de ce type. En même temps, les liens de participation à la réunion et les ID de conférence de toutes les réunions existantes de ce type que l’utilisateur a démarrées ou planifiées expirent.
@@ -63,7 +63,7 @@ Voici un résumé du fonctionnement de l’expiration de la réunion pour chacun
 |Si vous voulez...&nbsp;&nbsp; |Procédez comme suit&nbsp;&nbsp;&nbsp;&nbsp;  |Comportement de la participation à une réunion&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
 |Expirer des réunions de réunions privées maintenant démarrées par un utilisateur&nbsp;&nbsp;|Désactivez **La réunion maintenant dans les réunions privées**.&nbsp;&nbsp;|Personne ne peut participer à **la réunion privée maintenant** les réunions démarrées par l’utilisateur.|
-|Faire expirer des réunions privées planifiées par un utilisateur&nbsp;&nbsp;|Désactivez **la planification de réunion privée** _et_ désactivez **Outlook complément**. &nbsp;&nbsp;|Personne ne peut participer à des réunions privées planifiées par l’utilisateur. Cela empêche les personnes de participer aux réunions suivantes :<ul><li>Réunions privées qui se sont produites dans le passé.</li><li>Réunions privées prévues pour l’avenir et qui n’ont pas encore eu lieu.</li><li>Instances futures de réunions privées périodiques.</li></ul><br>La **planification de réunion privée** et **le complément Outlook** doivent être désactivés pour expirer les réunions privées planifiées par un utilisateur. Si un paramètre est désactivé et que l’autre est activé, les liens de participation aux réunions et les ID de conférence des réunions existantes restent actifs et n’expireront pas.|
+|Faire expirer des réunions privées planifiées par un utilisateur&nbsp;&nbsp;|Désactivez **la planification des réunions privées** _et_ désactivez le **complément Outlook**. &nbsp;&nbsp;|Personne ne peut participer à des réunions privées planifiées par l’utilisateur. Cela empêche les personnes de participer aux réunions suivantes :<ul><li>Réunions privées qui se sont produites dans le passé.</li><li>Réunions privées prévues pour l’avenir et qui n’ont pas encore eu lieu.</li><li>Instances futures de réunions privées périodiques.</li></ul><br>La **planification des réunions privées et le** **complément Outlook** doivent être désactivés pour expirer les réunions privées planifiées par un utilisateur. Si un paramètre est désactivé et que l’autre est activé, les liens de participation aux réunions et les ID de conférence des réunions existantes restent actifs et n’expireront pas.|
 |Réunions **Expire channel Meet now** démarrées par un utilisateur&nbsp;&nbsp;|Désactivez **La réunion maintenant dans les canaux** _et_ désactivez la **planification des réunions de canal**.&nbsp;&nbsp;|Personne ne peut participer aux réunions **de canal Meet now** démarrées par l’utilisateur.|
 |Expiration des réunions de canal planifiées par un utilisateur&nbsp;&nbsp;|Désactivez la **planification des réunions de canal**.&nbsp;&nbsp;|Personne ne peut participer aux réunions de canal planifiées par l’utilisateur. Cela empêche les personnes de participer aux réunions suivantes :<ul><li>Réunions de canal qui se sont produites dans le passé.</li><li>Réunions de canal prévues pour l’avenir et qui n’ont pas encore eu lieu.</li><li>Instances futures de réunions de canal périodiques.</li></ul>|
 
@@ -77,26 +77,26 @@ Si vous souhaitez que des personnes accèdent à des réunions précédemment pl
 
 ## <a name="changes-to-meeting-expiration"></a>Modifications apportées à l’expiration de la réunion
 
-Tous les enregistrements de réunion de Teams nouvellement créés (TMR) ont une expiration par défaut de 120 jours. Cette option est activée par défaut pour tous les locataires. Cela signifie que par défaut, tous les TMR créés *après l’authentification de cette fonctionnalité* seront supprimés 120 jours après leur date de création. Les administrateurs peuvent également définir des réunions pour **ne jamais expirer automatiquement**. Le système OneDrive et SharePoint surveille la date d’expiration définie sur tous les TMR et déplace automatiquement les TMR vers la corbeille à leur date d’expiration.
+Tous les enregistrements de réunion Teams nouvellement créés (TMR) ont une expiration par défaut de 120 jours. Cette option est activée par défaut pour tous les locataires. Cela signifie que par défaut, tous les TMR créés *après l’authentification de cette fonctionnalité* seront supprimés 120 jours après leur date de création. Les administrateurs peuvent également définir des réunions pour **ne jamais expirer automatiquement**. Le système OneDrive et SharePoint surveillent la date d’expiration définie sur tous les TMR et déplacent automatiquement les TMR vers la corbeille à leur date d’expiration.
 
 > [!NOTE]
 > Une copie de la transcription de la réunion est enregistrée dans OneDrive SharePoint et une deuxième copie est enregistrée dans Exchange dans un stockage temporaire. La copie OSDP expire lorsque le TMR expire automatiquement.
 
 L’expiration automatique des réunions est un mécanisme de nettoyage léger pour réduire l’encombrement du stockage créé par les anciens TMR. En moyenne, sur tous les clients, 96 % des TMR ne sont pas surveillés après 60 jours et 99 % ne sont pas surveillés après 110 jours. Nous pensons que presque tous les clients bénéficieront de la réduction de la charge de stockage sur leur locataire en supprimant les enregistrements qui ne seront probablement plus regardés après 60 jours. Notre objectif est de fournir une expérience aussi propre que possible à tous les clients par défaut.
 
-Utilisez l’expiration de la réunion pour limiter les OneDrive ou les SharePoint pour la consommation de stockage cloud pilotée par Teams enregistrements de réunion. Un enregistrement de réunion classique consomme environ 400 Mo par heure d’enregistrement.
+Utilisez l’expiration de la réunion pour limiter l’utilisation de OneDrive ou SharePoint pour la consommation de stockage cloud pilotée par les enregistrements de réunion Teams. Un enregistrement de réunion classique consomme environ 400 Mo par heure d’enregistrement.
 
 > [!NOTE]
 > La date d’expiration par défaut maximale pour les utilisateurs A1 est de 30 jours.
 
 ### <a name="expiration-date"></a>Date d’expiration
 
-- La date d’expiration est calculée comme le **jour de sa création**, ainsi que le **nombre de jours par défaut défini dans la stratégie Teams par l’administrateur**.
+- La date d’expiration est calculée comme le **jour de sa création** , ainsi que le **nombre de jours par défaut défini dans la stratégie Teams par l’administrateur**.
 - La lecture n’a pas d’impact sur la date d’expiration.
 
 ### <a name="change-the-default-expiration-date"></a>Modifier la date d’expiration par défaut
 
-Les administrateurs peuvent modifier le paramètre d’expiration par défaut dans PowerShell ou le centre d’administration Teams. Toutes les modifications n’auront d’effet que sur les tmrs *nouvellement créés* à partir de ce point. Il n’aura aucun impact sur les enregistrements créés avant cette date. Les administrateurs ne peuvent pas modifier la date d’expiration sur les TMR existants. Cette opération est effectuée pour protéger la décision de l’utilisateur propriétaire du TMR. Les réunions et les appels peuvent être contrôlés par ce paramètre.
+Les administrateurs peuvent modifier le paramètre d’expiration par défaut dans PowerShell ou le Centre d’administration Teams. Toutes les modifications n’auront d’effet que sur les tmrs *nouvellement créés* à partir de ce point. Il n’aura aucun impact sur les enregistrements créés avant cette date. Les administrateurs ne peuvent pas modifier la date d’expiration sur les TMR existants. Cette opération est effectuée pour protéger la décision de l’utilisateur propriétaire du TMR. Les réunions et les appels peuvent être contrôlés par ce paramètre.
 
 La valeur de la date d’expiration peut être définie comme suit :
 
@@ -110,7 +110,7 @@ Exemple de commande PowerShell :
 Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 ```
 
-Vous pouvez définir la date d’expiration dans le centre d’administration Teams sous **Stratégies de réunion.** Une fois que vous avez activé **réunions expirer automatiquement,** vous aurez la possibilité de définir une expiration d’enregistrement.
+Vous pouvez définir la date d’expiration dans le Centre d’administration Teams sous **Stratégies de réunion.** Une fois que vous avez activé **réunions expirer automatiquement,** vous aurez la possibilité de définir une expiration d’enregistrement.
 
 ![Administration capture d’écran du centre de la stratégie d’expiration de la réunion.](media/meeting-expiration-policy.jpg)
 
@@ -120,13 +120,13 @@ Vous pouvez définir la date d’expiration dans le centre d’administration Te
 
 Non, vous ne devez pas vous fier à cela pour la protection légale, car les utilisateurs finaux peuvent modifier la date d’expiration des enregistrements qu’ils contrôlent.
 
-#### <a name="will-a-retention-andor-deletion-policy-ive-set-in-the-security--compliance-center-override-the-teams-meeting-recording-expiration-setting"></a>Une stratégie de rétention et/ou de suppression que j’ai définie dans le Centre de sécurité & conformité remplacera-t-elle le paramètre d’expiration de l’enregistrement de la réunion Teams ?
+#### <a name="will-a-retention-andor-deletion-policy-ive-set-in-the-security--compliance-center-override-the-teams-meeting-recording-expiration-setting"></a>Une stratégie de rétention et/ou de suppression que j’ai définie dans le Centre de sécurité & conformité remplacera-t-elle le paramètre d’expiration de l’enregistrement de réunion Teams ?
 
 Oui, toutes les stratégies que vous avez définies dans le centre de conformité sont prioritaires.
 
 Par exemple :
 
-- Si vous disposez d’une stratégie indiquant que tous les fichiers d’un site doivent être conservés pendant 100 jours et que le paramètre d’expiration d’un enregistrement de réunion Teams est de 30 jours, l’enregistrement est conservé pendant les 100 jours complets.
+- Si vous avez une stratégie indiquant que tous les fichiers d’un site doivent être conservés pendant 100 jours et que le paramètre d’expiration d’un enregistrement de réunion Teams est de 30 jours, l’enregistrement est conservé pendant les 100 jours complets.
 - Si vous avez une stratégie de suppression indiquant que tous les enregistrements de réunion Teams seront supprimés après cinq jours et que vous disposez d’un paramètre d’expiration pour un enregistrement de réunion Teams de 30 jours, l’enregistrement sera supprimé après cinq jours.
 
 ### <a name="will-this-feature-enforce-file-retention"></a>Cette fonctionnalité appliquera-t-elle la rétention des fichiers ?
@@ -148,9 +148,9 @@ La fonctionnalité d’expiration automatique est uniquement conçue comme un m�
 
 Non, les tmrs migrés ne sont pas fournis avec un délai d’expiration défini sur eux. Au lieu de cela, nous encourageons les administrateurs à migrer uniquement les TMR qu’ils souhaitent conserver. Vous trouverez plus de détails dans la documentation de migration.
 
-### <a name="how-is-this-feature-different-from-the-expiration-message-i-see-when-a-tmr-upload-to-onedrive-and-sharepoint-fails"></a>En quoi cette fonctionnalité diffère-t-elle du message d’expiration que je vois lorsqu’un chargement TMR vers OneDrive et SharePoint échoue ?
+### <a name="how-is-this-feature-different-from-the-expiration-message-i-see-when-a-tmr-upload-to-onedrive-and-sharepoint-fails"></a>En quoi cette fonctionnalité diffère-t-elle du message d’expiration que je vois lorsqu’un chargement TMR sur OneDrive et SharePoint échoue ?
 
-Lorsqu’un enregistrement ne parvient pas à être téléchargé vers OneDrive ou SharePoint, l’application Teams affiche un message dans la conversation indiquant que les utilisateurs disposent de 21 jours pour télécharger le TMR avant qu’il ne soit définitivement supprimé du serveur Teams. Cette expérience d’expiration existante due à l’échec des chargements TMR n’est pas liée à la OneDrive et SharePoint fonctionnalité d’expiration automatique présentée dans le document d’aide.
+Lorsqu’un enregistrement ne parvient pas à être téléchargé sur OneDrive ou SharePoint, l’application Teams affiche un message dans la conversation indiquant que les utilisateurs ont jusqu’à 21 jours pour télécharger le TMR avant qu’il ne soit définitivement supprimé du serveur Teams. Cette expérience d’expiration existante en raison d’échecs de téléchargements TMR n’est pas liée à la fonctionnalité d’expiration automatique OneDrive et SharePoint décrite dans le document d’aide.
 
 ### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>Comment faire connaître la distribution des playbacks TMR afin de savoir ce que la valeur par défaut d’expiration automatique optimale doit être pour mon locataire ?
 
@@ -167,12 +167,12 @@ Vous verrez des statistiques de fichier qui montrent :
 
 ### <a name="when-will-the-file-be-deleted"></a>Quand le fichier sera-t-il supprimé ?
 
-Le fichier sera supprimé dans les cinq jours suivant la date d’expiration, bien qu’il ne s’agit pas d’une garantie stricte. Le propriétaire du fichier reçoit une notification par e-mail lorsque l’enregistrement expire et est dirigé vers la corbeille pour récupérer l’enregistrement.
+L’enregistrement est généralement supprimé dans un jour après la date d’expiration, mais dans de rares cas, il peut prendre jusqu’à cinq jours. Le propriétaire du fichier reçoit une notification par e-mail lorsque l’enregistrement expire et est dirigé vers la corbeille pour récupérer l’enregistrement.
 
 > [!NOTE]
 > À la date d’expiration, l’enregistrement est déplacé dans la corbeille et le champ date d’expiration est effacé. Si vous récupérez l’enregistrement à partir de la corbeille, il ne sera plus supprimé par cette fonctionnalité, car la date d’expiration a été effacée.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Modifier la date d’expiration de la réunion - Contrôles de l’utilisateur final](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
 

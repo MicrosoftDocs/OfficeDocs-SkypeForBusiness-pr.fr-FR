@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Découvrez la configuration requise pour la prise en charge des Salles Microsoft Teams, notamment le choix de l’appareil, des microphones, des haut-parleurs, des caméras et des écrans appropriés.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f3bdfc24344f481a2846790ae13b6c964c69d4c2
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 3b725dc6a39ac777e7f15e3fbf2e4389b5f4333b
+ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241023"
+ms.locfileid: "66529716"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Spécifications des salles Microsoft Teams
 
@@ -90,6 +90,8 @@ Tous les appareils et offres groupées actuels de salle Microsoft Teams sont dis
   |Console TAP Logitech avec Lenovo Core Compute |Core i5|8 Go|128 Go|
   |[Logitech Tap et Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 Go |128 Go|
   |[Poly G10-T avec Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 Go | 128 Go|
+  |[Kit Poly G40-T avec Poly Studio USB, avec Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g40) |Core i5| 8 Go | 128 Go|
+  |[Kit Poly G85-T avec Poly Eagle Eye Director II, avec Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) |Core i5| 8 Go | 128 Go|
   |Console Poly GC8 avec Lenovo Thinksmart Core|Core i5|8 Go|128 Go|
   |Console Poly GC8 avec Dell Optiplex 7080|Core i5|8 Go|128 Go|
   |[Yealink MVC300 avec Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 Go |128 Go |

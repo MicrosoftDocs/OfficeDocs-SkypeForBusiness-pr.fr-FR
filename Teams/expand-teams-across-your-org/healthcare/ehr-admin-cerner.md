@@ -22,25 +22,25 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Découvrez comment intégrer le connecteur Teams DSE pour permettre aux prestataires de soins de santé de votre organisation d’effectuer des rendez-vous virtuels avec des patients ou d’autres fournisseurs dans Teams directement à partir du système Cerner EHR.
-ms.openlocfilehash: 8caa80bca9a7b8278aff9133f81bfa807e6727ed
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+description: Découvrez comment intégrer le connecteur DSE Teams pour permettre aux fournisseurs de soins de santé de votre organisation d’effectuer des rendez-vous virtuels avec des patients ou d’autres fournisseurs dans Teams directement à partir du système CERNER EHR.
+ms.openlocfilehash: 990d1816d33fde527195faf81ff6153b6aa9ab8f
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853295"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494821"
 ---
 # <a name="virtual-appointments-with-teams---integration-into-cerner-ehr"></a>Rendez-vous virtuels avec Teams - Intégration à Cerner EHR
 
-Le connecteur de dossiers médicaux électroniques (DSE) Microsoft Teams permet aux cliniciens de lancer facilement un rendez-vous virtuel pour les patients ou de consulter un autre fournisseur dans Microsoft Teams directement à partir du système cerner de DSE. Basé sur le cloud Microsoft 365, Teams permet une collaboration et une communication simples et sécurisées avec des outils de conversation, de vidéo, de voix et de soins de santé dans un hub unique qui prend en charge la conformité avec HIPAA, la certification HITECH, etc.
+Le connecteur DSE (Electronic Health Record) de Microsoft Teams permet aux cliniciens de lancer facilement un rendez-vous virtuel pour les patients ou de consulter un autre fournisseur dans Microsoft Teams directement à partir du système Cerner EHR. Basé sur le cloud Microsoft 365, Teams permet une collaboration et une communication simples et sécurisées avec des outils de conversation, de vidéo, de voix et de soins de santé dans un hub unique qui prend en charge la conformité avec HIPAA, la certification HITECH, etc.
 
-La plateforme de communication et de collaboration de Teams permet aux cliniciens de s’occuper facilement de l’encombrement des systèmes fragmentés afin qu’ils puissent se concentrer sur la fourniture des meilleurs soins possibles. Avec le connecteur Teams EHR, vous pouvez :
+La plateforme de communication et de collaboration de Teams permet aux cliniciens de réduire facilement l’encombrement des systèmes fragmentés afin qu’ils puissent se concentrer sur la fourniture des meilleurs soins possibles. Avec le connecteur DSE Teams, vous pouvez :
 
-- Effectuez Teams rendez-vous virtuels à partir de votre système Cerner EHR avec un flux de travail clinique intégré.
-- Permettre aux patients de rejoindre Teams rendez-vous virtuels à partir de notifications par e-mail ou SMS.
+- Effectuez des rendez-vous virtuels Teams à partir de votre système Cerner EHR avec un flux de travail clinique intégré.
+- Permettre aux patients de rejoindre des rendez-vous virtuels Teams à partir de notifications par e-mail ou SMS.
 - Affichez les rapports de données de consommation et les informations de qualité des appels personnalisables pour les rendez-vous connectés à la DSE.
 
-Cet article explique comment configurer et configurer le connecteur ehr Teams pour qu’il s’intègre à la plateforme Cerner. Il vous donne également une vue d’ensemble de l’expérience de Teams rendez-vous virtuels du système Cerner EHR.
+Cet article explique comment configurer et configurer le connecteur DSE Teams pour qu’il s’intègre à la plateforme Cerner. Il vous donne également une vue d’ensemble de l’expérience de rendez-vous virtuels Teams à partir du système CERNER EHR.
 
 ## <a name="before-you-begin"></a>Avant de commencer
 
@@ -49,11 +49,11 @@ Cet article explique comment configurer et configurer le connecteur ehr Teams po
 
 ### <a name="prerequisites"></a>Conditions préalables
 
-Avant d’intégrer le connecteur Teams DSE dans votre organisation de santé, vous devez disposer des éléments suivants :
+Avant d’intégrer le connecteur DSE Teams dans votre organisation de santé, vous devez disposer des éléments suivants :
 
-- Un abonnement actif à Microsoft Teams’offre autonome du connecteur EHR (uniquement appliquée lors du test dans un environnement de DSE de production).
-- Les utilisateurs disposent d’une licence Microsoft 365 ou Office 365 appropriée qui inclut Teams réunions.
-- Teams est adopté et utilisé dans votre organisation de soins de santé.
+- Un abonnement actif à Microsoft Cloud for Healthcare ou un abonnement à une offre autonome du connecteur EHR Microsoft Teams.
+- Les utilisateurs disposent d’une licence Microsoft 365 ou Office 365 appropriée qui inclut les réunions Teams.
+- Teams est adopté et utilisé dans votre organisation de santé.
 - Vos systèmes répondent à toutes les [exigences en matière de logiciels et de navigateurs](../../hardware-requirements-for-the-teams-app.md) pour Teams.
 - Cerner version novembre 2018 ou ultérieure
 
@@ -67,7 +67,7 @@ La configuration du connecteur nécessite que vous :
 - [Passer en revue et terminer la configuration](ehr-admin-cerner.md#review-and-finish-the-configuration)
 
 > [!IMPORTANT]
-> Ces étapes doivent être effectuées par l’administrateur général Microsoft 365 de votre organisation.  
+> Ces étapes doivent être effectuées par l’administrateur général Microsoft 365 dans votre organisation.  
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>Lancer le portail de configuration du connecteur EHR
 
@@ -79,7 +79,7 @@ Votre administrateur Microsoft 365 peut configurer un seul service ou plusieurs 
 
 Ensuite, pour configurer l’intégration, votre administrateur Microsoft 365 ajoute une URL de base FHIR (Fast Health Interoperability Resources) à partir de Cerner et spécifie l’environnement. Configurez autant d’URL de base FHIR que nécessaire, en fonction des besoins de votre organisation et des environnements que vous souhaitez tester.
 
-:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Capture d’écran de la page Informations sur la configuration du portail de configuration du connecteur Teams EHR." lightbox="media/ehr-admin-cerner-configuration.png":::
+:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Capture d’écran de la page Informations sur la configuration du portail de configuration du connecteur DSE Teams." lightbox="media/ehr-admin-cerner-configuration.png":::
 
 - L’URL de base FHIR est une adresse statique qui correspond au point de terminaison de l’API FHIR de votre serveur. Exemple d’URL est `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`.
 
@@ -110,7 +110,7 @@ Pour activer les notifications SMS, votre administrateur Microsoft 365 effectue 
 
     Choisissez **Terminé**, puis sélectionnez **Suivant**.
 
-1. Pour lier le numéro de téléphone à une URL de base FHIR, sous **Téléphone numéro** dans la section **configuration SMS**, sélectionnez le numéro. Effectuez cette opération pour chaque URL de base FHIR pour laquelle vous souhaitez activer les notifications SMS.
+1. Pour lier le numéro de téléphone à une URL de base FHIR, sous **Numéro de téléphone** dans la section **configuration SMS** , sélectionnez le numéro. Effectuez cette opération pour chaque URL de base FHIR pour laquelle vous souhaitez activer les notifications SMS.
 
     :::image type="content" source="media/ehr-admin-cerner-link-phone-number.png" alt-text="Capture d’écran montrant comment lier un numéro de téléphone à une URL de base FHIR." lightbox="media/ehr-admin-cerner-link-phone-number.png":::
 
@@ -120,12 +120,12 @@ Pour activer les notifications SMS, votre administrateur Microsoft 365 effectue 
 
 ### <a name="review-and-finish-the-configuration"></a>Passer en revue et terminer la configuration
 
-Vous recevrez des enregistrements d’intégration pour le lancement des patients et des fournisseurs. Ces enregistrements sont nécessaires pour effectuer la configuration des rendez-vous virtuels dans Cerner. Pour plus d’informations, consultez le guide d’intégration de la télésanté Cerner-Microsoft Teams.
+Vous recevrez des enregistrements d’intégration pour le lancement des patients et des fournisseurs. Ces enregistrements sont nécessaires pour effectuer la configuration des rendez-vous virtuels dans Cerner. Pour plus d’informations, consultez le guide d’intégration de télésanté Cerner-Microsoft Teams.
 
 > [!NOTE]
 > À tout moment, votre administrateur Microsoft 365 peut se connecter au portail de configuration pour afficher les enregistrements d’intégration et modifier les paramètres de configuration, si nécessaire.
 
-## <a name="launch-teams-virtual-appointments"></a>Lancer Teams rendez-vous virtuels
+## <a name="launch-teams-virtual-appointments"></a>Lancer des rendez-vous virtuels Teams
 
 Une fois les étapes du connecteur EHR et cerner terminées, votre organisation est prête à prendre en charge les rendez-vous vidéo avec Teams.
 
@@ -164,20 +164,20 @@ Principales fonctionnalités de l’expérience des patients
 
 ## <a name="get-insight-into-virtual-appointments-usage"></a>Obtenir des insights sur l’utilisation des rendez-vous virtuels
 
-Le [rapport d’utilisation des visites virtuelles](../../teams-analytics-and-reports/virtual-visits-usage-report.md) dans le centre d’administration Microsoft Teams donne aux administrateurs une vue d’ensemble de Teams activité de rendez-vous virtuels dans votre organisation. Le rapport présente des analyses détaillées pour les rendez-vous virtuels, notamment Teams réunions intégrées à la DSE effectuées à partir de votre système de DSE.
+Le [rapport d’utilisation des visites virtuelles](../../teams-analytics-and-reports/virtual-visits-usage-report.md) dans le Centre d’administration Microsoft Teams donne aux administrateurs une vue d’ensemble de l’activité des rendez-vous virtuels Teams dans votre organisation. Le rapport présente des analyses détaillées pour les rendez-vous virtuels, y compris les réunions intégrées à la DSE Teams effectuées à partir de votre système de DSE.
 
 Vous pouvez afficher les métriques clés telles que le temps d’attente de la salle d’attente et la durée du rendez-vous. Utilisez ces informations pour obtenir des insights sur les tendances d’utilisation afin de vous aider à optimiser les rendez-vous virtuels pour obtenir de meilleurs résultats métier.
 
 ## <a name="privacy-and-location-of-data"></a>Confidentialité et emplacement des données
 
-Teams’intégration aux systèmes DSE optimise la quantité de données utilisées et stockées pendant les flux d’intégration et de rendez-vous virtuels. La solution respecte les principes et les directives générales de Teams en matière de confidentialité et de gestion des données, décrits dans Confidentialité Teams.
+L’intégration de Teams aux systèmes DSE optimise la quantité de données utilisées et stockées pendant les flux d’intégration et de rendez-vous virtuels. La solution respecte les principes et les directives générales de Teams en matière de confidentialité et de gestion des données, décrits dans Confidentialité Teams.
 
-Le connecteur Teams DSE ne stocke ni ne transfère les données personnelles identifiables ni les dossiers de santé des patients ou des fournisseurs de soins de santé à partir du système DSE. Les seules données stockées par le connecteur EHR sont l’ID unique de l’utilisateur DSE, qui est utilisé pendant Teams configuration de la réunion.
+Le connecteur DSE Teams ne stocke ni ne transfère les données personnelles identifiables ni les dossiers d’intégrité des patients ou des fournisseurs de soins de santé à partir du système DSE. Les seules données stockées par le connecteur EHR sont l’ID unique de l’utilisateur DSE, qui est utilisé lors de la configuration de réunion Teams.
 
 L’ID unique de l’utilisateur DMI est stocké dans l’une des trois zones géographiques décrites dans [Emplacement de stockage des données client Microsoft 365](/microsoft-365/enterprise/o365-data-locations). Toutes les conversations, enregistrements et autres données partagés dans Teams par les participants à la réunion sont stockés en fonction des stratégies de stockage existantes. Pour en savoir plus sur l’emplacement des données dans Teams, consultez [Emplacement des données dans Teams](../../location-of-data-in-teams.md).
 
 ## <a name="related-articles"></a>Articles connexes
 
-- [Teams rapport d’utilisation des visites virtuelles](../../teams-analytics-and-reports/virtual-visits-usage-report.md)
-- [Teams rapports d’administration du connecteur EHR](ehr-admin-reports.md)
-- [Démarrage avec Teams pour les organisations de santé](teams-in-hc.md)
+- [Rapport d’utilisation des visites virtuelles Teams](../../teams-analytics-and-reports/virtual-visits-usage-report.md)
+- [Rapports d’administration du connecteur DSE Teams](ehr-admin-reports.md)
+- [Prise en main de Teams pour les organisations de soins de santé](teams-in-hc.md)
