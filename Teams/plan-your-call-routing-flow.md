@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Découvrez comment planifier votre flux de routage des appels pour les standards automatiques et les files d’attente d’appels dans Microsoft Teams.
-ms.openlocfilehash: 3be72f17f876eb694d3b46293f039ccc07d65fbb
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 7788bbe07b33a133af04c8a7fe8333ba66f7f2df
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124571"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240983"
 ---
 # <a name="plan-your-call-routing-flow"></a>Planifier votre flux de routage des appels
 
@@ -47,7 +47,8 @@ Lorsque les appels sont redirigés par un standard automatique ou une file d’a
 
 - **Personne de l’organisation** : une personne de votre organisation qui est en mesure de recevoir des appels vocaux. Il peut s’agir d’un utilisateur en ligne ou d’un utilisateur hébergé localement à l’aide de Skype Entreprise Server.
 - **Application vocale** : un autre standard automatique ou une file d’attente d’appels. Choisissez le compte de ressource associé à la destination.
-- **Numéro de téléphone externe** : n’importe quel numéro de téléphone. (Consultez [les détails techniques du transfert externe](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
+- **Numéro de téléphone externe** : n’importe quel numéro de téléphone. Consultez [les détails techniques du transfert externe](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
+
 - **Messagerie vocale** : boîte aux lettres vocale associée à un groupe Microsoft 365 que vous spécifiez. Vous pouvez choisir si vous voulez des transcriptions de messagerie vocale et le message « Veuillez laisser un message après le ton ». invite système.
 - **Opérateur** (standard automatique uniquement) : opérateur défini pour le standard automatique. La définition d’un opérateur est facultative. Un opérateur peut être l’une des autres destinations de cette liste.
 

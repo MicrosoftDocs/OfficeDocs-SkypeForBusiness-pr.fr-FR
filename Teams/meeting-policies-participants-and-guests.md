@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
-description: Apprenez à gérer les paramètres de stratégie de réunion dans Teams pour les participants et les invités.
-ms.openlocfilehash: f63056740ab42c3dde0e05e8b9321173ea20091f
-ms.sourcegitcommit: c73f27ee7a208ae73784edf5b23adc699cf69327
+description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour les participants et les invités.
+ms.openlocfilehash: 5770c4d998a28edf2b8fc8131650b98420e826f9
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66130767"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241133"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion : participants et invités
 
@@ -44,7 +44,7 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>Permettre aux personnes anonymes de participer à une réunion
 
-Ce paramètre par organisateur permet à quiconque de participer à des réunions en tant qu’utilisateur anonyme en sélectionnant le lien dans l’invitation à la réunion. Pour en savoir plus, voir [Rejoindre une réunion sans disposer de compte Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508). La capacité des utilisateurs anonymes à participer à des réunions est également contrôlée au niveau de votre organisation, le paramètre le plus restrictif sera efficace. Pour plus d’informations, consultez [Utilisation du centre d’administration Microsoft Teams pour configurer la stratégie à l’échelle de l’organisation](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
+Ce paramètre par organisateur permet à quiconque de participer à des réunions en tant qu’utilisateur anonyme en sélectionnant le lien dans l’invitation à la réunion. Pour en savoir plus, voir [Rejoindre une réunion sans disposer de compte Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508). La capacité des utilisateurs anonymes à participer à des réunions est également contrôlée au niveau de votre organisation, le paramètre le plus restrictif sera efficace. Pour plus d’informations, consultez [Utilisation du Centre d’administration Microsoft Teams pour configurer la stratégie à l’échelle de l’organisation](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Autoriser les personnes anonymes à démarrer une réunion
 
@@ -70,11 +70,11 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les
 |**Membres de mon organisation et invités**     |Les utilisateurs authentifiés au sein de l’organisation, y compris les invités, participent directement à la réunion sans attendre dans la salle d’attente. Les utilisateurs des organisations approuvées et des utilisateurs anonymes attendent dans la salle d’attente. Il s’agit du paramètre par défaut.    |
 |**Membres de mon organisation, organisations de confiance et invités**     |Les utilisateurs authentifiés au sein de l’organisation, y compris les invités et les utilisateurs d’organisations approuvées, participent directement à la réunion sans attendre dans la salle d’attente.  Les utilisateurs anonymes attendent dans la salle d’attente.   |
 |**Membres de mon organisation**    |Les utilisateurs authentifiés de l’organisation rejoignent directement la réunion sans attendre dans la salle d’attente.  Les utilisateurs d’organisations approuvées, d’invités et d’utilisateurs anonymes attendent dans la salle d’attente.          |
-|**Organisateur uniquement**    |Seuls les organisateurs de réunion peuvent rejoindre directement la réunion sans attendre dans la salle d’attente. Tout le monde, y compris les utilisateurs authentifiés au sein de l’organisation, les invités, les utilisateurs d’organisations approuvées et les utilisateurs anonymes doivent attendre dans la salle d’attente. Dans la page Teams options de réunion du client, elle s’affiche sous la forme « Uniquement moi ».          |
-|**Utilisateurs invités uniquement**    |Seuls les utilisateurs invités et les organisateurs de réunion peuvent participer directement à la réunion sans attendre dans la salle d’attente. Tout le monde, y compris les utilisateurs authentifiés au sein de l’organisation, les invités, les utilisateurs d’organisations approuvées et les utilisateurs anonymes doivent attendre dans la salle d’attente. Dans la page Teams options de réunion du client, elle apparaît sous la forme « Personnes que j’invite ». Les utilisateurs ajoutés dans le cadre d’un groupe de distribution devront passer par la salle d’attente.      |
+|**Organisateur uniquement**    |Seuls les organisateurs de réunion peuvent rejoindre directement la réunion sans attendre dans la salle d’attente. Tout le monde, y compris les utilisateurs authentifiés au sein de l’organisation, les invités, les utilisateurs d’organisations approuvées et les utilisateurs anonymes doivent attendre dans la salle d’attente. Dans la page Options de réunion du client Teams, elle apparaît comme « Uniquement moi ».          |
+|**Utilisateurs invités uniquement**    |Seuls les utilisateurs invités et les organisateurs de réunion peuvent participer directement à la réunion sans attendre dans la salle d’attente. Tout le monde, y compris les utilisateurs authentifiés au sein de l’organisation, les invités, les utilisateurs d’organisations approuvées et les utilisateurs anonymes doivent attendre dans la salle d’attente. Dans la page Options de réunion du client Teams, elle apparaît sous la forme « Contacts que j’invite ». Les utilisateurs ajoutés dans le cadre d’un groupe de distribution devront passer par la salle d’attente.      |
 
  > [!NOTE]
-> Les organisations approuvées sont des domaines avec lequel vous autorisez les communications fédérées dans Teams. Si vous **activez Autoriser tous les domaines externes** pour l’accès externe dans le centre d’administration Teams, tout utilisateur authentifié au sein d’une organisation Teams est approuvé. Si vous choisissez de spécifier des domaines externes autorisés et de bloquer tous les autres, les domaines autorisés deviennent des organisations approuvées. Tout domaine bloqué n’est pas considéré comme une organisation approuvée.
+> Les organisations approuvées sont des domaines avec lequel vous autorisez les communications fédérées dans Teams. Si vous **activez Autoriser tous les domaines externes** pour l’accès externe dans le Centre d’administration Teams, tout utilisateur authentifié au sein d’une organisation Teams est approuvé. Si vous choisissez de spécifier des domaines externes autorisés et de bloquer tous les autres, les domaines autorisés deviennent des organisations approuvées. Tout domaine bloqué n’est pas considéré comme une organisation approuvée.
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Autoriser les utilisateurs entrants à éviter la salle d’attente
 
@@ -110,9 +110,20 @@ Ce paramètre ne s’applique pas aux réunions de canal. Une fois cette straté
 
 <a name="bkparticipantsandguests"> </a>
 
+## <a name="qa-in-meetings"></a>Q&A dans les réunions
+
+Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les organisateurs peuvent ajouter l’expérience Q&A à leurs réunions. Par défaut, ce paramètre est désactivé. En savoir plus sur Q&R [ici](/manage-qna-for-meetings). 
+
+Pour paramètre QnAEngagementMode contrôle cette stratégie dans PowerShell et Q&A peut également être ajustée dans le portail d’administration.
+
+|Valeur du paramètre |Comportement  |
+|---------|---------|
+|**Activé**     | Les organisateurs peuvent ajouter Q&A lors de la création de réunions. |
+|**Désactivé**     | Les organisateurs n’ont pas la possibilité d’ajouter Q&A lors de la création de réunions.  |
+
 ## <a name="enable-meeting-policy-settings"></a>Activer les paramètres de stratégie de réunion
 
-Pour activer les paramètres de stratégie de réunion, vous pouvez utiliser le [centre d’administration Teams](https://admin.teams.microsoft.com/policies/meetings) (Les **stratégies** >  de réunion **modifient une** >  stratégie **Participants & invités**) ou l’applet de commande [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) dans Teams PowerShell. 
+Pour activer les paramètres de stratégie de réunion, vous pouvez utiliser le [Centre d’administration Teams](https://admin.teams.microsoft.com/policies/meetings) (Stratégies de **réunion** > **Modifiez une** > **stratégie Participants & invités**) ou l’applet de commande [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) dans Teams PowerShell. 
 
 Dans cet exemple, nous utilisons PowerShell pour modifier la stratégie de réunion globale afin de permettre à quiconque de commencer ou de participer à une réunion.
 

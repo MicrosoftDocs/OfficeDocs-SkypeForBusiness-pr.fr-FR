@@ -19,12 +19,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7123d45819f6e956ecf562fd321e7762b50e5ae6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 0c51c0e2225d73d140f424535f3dc1bd7a302afa
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674656"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240413"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Mettre en service Microsoft Teams à grande échelle pour les employés de bureau
 
@@ -105,7 +106,7 @@ Par exemple : .\SetConfig.ps1-tenantName contoso.onmicrosoft.com-rootPath "C:\da
 > [!IMPORTANT]
 > La façon dont les informations d’identification sont gérées dans ces scripts peut ne pas être appropriée à votre utilisation, elles sont facilement adaptées à vos besoins. Suivez toujours les normes et pratiques de votre entreprise pour sécuriser les comptes de service et les identités gérées.
 
-Les scripts utilisent les informations d’identification qui sont stockées en tant que fichiers XML dans $ENV:LOCALAPPDATA\keys, autrement dit, le dossier AppData\Local. La fonction d’assistance **Set-Creds** dans le module **BulkAddFunctions. psm1** doit être appelée pour spécifier les informations d’identification utilisées pour exécuter ces scripts. Cette technique permet de supprimer la nécessité d’authentifier tous les points de terminaison de service tout en conservant les informations d’identification dans un magasin local. À partir de chaque script, les informations d’identification appropriées sont lues à l’aide de la fonction d’assistance **Get-Creds**. Ces informations d’identification sont utilisées pour se connecter aux différents services.
+Les scripts utilisent des informations d’identification stockées sous forme de fichiers XML dans `$ENV:LOCALAPPDATA\keys`, autrement dit, le dossier AppData\Local. La fonction d’assistance **Set-Creds** dans le module **BulkAddFunctions. psm1** doit être appelée pour spécifier les informations d’identification utilisées pour exécuter ces scripts. Cette technique permet de supprimer la nécessité d’authentifier tous les points de terminaison de service tout en conservant les informations d’identification dans un magasin local. À partir de chaque script, les informations d’identification appropriées sont lues à l’aide de la fonction d’assistance **Get-Creds**. Ces informations d’identification sont utilisées pour se connecter aux différents services.
 
 Lorsque vous appelez la fonction **Set-Creds**, vous êtes invité à fournir un nom de fichier XML qui sera écrit dans $ENV:LOCALAPPDATA\keys. Il se peut que vous ayez d’autres informations d’identification pour différents services. Par exemple, vous pouvez avoir des informations d’identification différentes pour MicrosoftTeams, AzureAD et MSonline. Dans ce cas, vous pouvez exécuter la fonction **Se-tCred** plusieurs fois, en enregistrant chaque fichier d’informations d’identification avec un nom approprié.
 
@@ -367,7 +368,7 @@ Lorsque vous disposez d’une licence Azure AD P1 ou version ultérieure, vous a
 
 Maintenant que vous avez effectué toutes les étapes, il est temps de vérifier le travail que vous avez accompli.
 
-1. L’utilisateur créé aura un mot de passe initial qui se trouve dans createUsers.ps1 et il doit le modifier lors de sa première connexion.
+1. L’utilisateur créé aura un mot de passe initial qui se trouve dans CreateUsers.ps1 et il doit le modifier lors de sa première connexion.
 1. Vérifiez que la présentation de Teams correspond à vos attentes. Si ce n’est pas le cas, consultez les sections **Créer des stratégies Teams** et **Affecter des stratégies Teams aux utilisateurs** .
 1. Vérifiez que l’utilisateur est dans la bonne équipe. Si ce n’est pas le cas, passez en revue les sections **Créer et configurer des utilisateurs** et **Affecter des utilisateurs aux équipes** sections.
 
