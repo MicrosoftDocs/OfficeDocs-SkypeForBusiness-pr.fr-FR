@@ -22,12 +22,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03b68923ae47324525f192949d442e94e36685c2
-ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
+ms.openlocfilehash: f965e69e3dda921cf5fdf348a728db403fc26a84
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65753047"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494731"
 ---
 # <a name="get-started-with-teams-for-retail"></a>Commencer à travailler avec Teams vente au détail
 
@@ -127,7 +127,7 @@ Les employés de vente au détail sont généralement des employés mobiles : em
 
 Avec un taux de renouvellement élevé, il est essentiel de pouvoir ajouter et supprimer des comptes rapidement, et d’obtenir les stratégies qui s’emploient. Obtenez l’Assistant Intégration des travailleurs de première ligne dans le Centre d'administration Microsoft 365. L’Assistant met en place une équipe pour vos employés de première ligne et attribue des licences et des packages de stratégie à chaque membre de l’équipe. Pour plus d’informations, voir Utiliser l’Assistant Intégration des employés de première ligne pour rendre votre personnel en [première ligne opérationnel](../flw-onboarding-wizard.md).
 
-Si vous devez ajouter un grand nombre d’utilisateurs (plus de 100), vous pouvez rapidement mettre en service les utilisateurs et les équipes et affecter toutes les stratégies pertinentes avec un déploiement scripté pour les employés en [première ligne.](../flw-scripted-deployment.md)
+Si vous avez un grand nombre d’équipes que vous souhaitez déployer, consultez [Déployer des équipes à grande échelle pour les employés de première ligne](../deploy-teams-at-scale.md).
 
 La présence des employés en ligne est souvent moins prévisible que les autres employés, car leurs heures de travail ne sont généralement pas les mêmes chaque jour. En tant qu’administrateur, vous pouvez configurer Teams avec l’accès en équipe (prévisualisation) afin d’afficher un ensemble d’états de présence basés sur shift pour les employés de première ligne de votre organisation qui indiquent quand ils sont en déplacement. Vous pouvez également gérer l’accès aux employés Teams employés en dehors de leur bureau. Pour plus d’informations, afficher [Gérer l’accès en équipe pour les employés de première ligne](shifts/manage-shift-based-access-flw.md)
 
