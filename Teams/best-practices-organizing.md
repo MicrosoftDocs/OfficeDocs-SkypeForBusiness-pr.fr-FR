@@ -1,8 +1,8 @@
 ---
 title: Meilleurs pratiques d’organisation d’équipe
 ms.reviewer: pbethi
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 523d35fd1e7981a52e5972232f0c00c276435f7f
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 959a2936a762584ceee8c3292cc9ced343d33fc5
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711878"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562753"
 ---
 # <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams
 
@@ -41,13 +41,13 @@ Lorsque vous déployez Teams pour la première fois, nous vous recommandons de c
 
 ## <a name="create-channels-to-focus-discussions"></a>Créez des canaux pour orienter les discussions
 
-Une fois que vous avez créé votre équipe, il est bon de commencer à réfléchir aux différents projets et types de conversations que vous devez prendre en charge. Créez des canaux initiaux pour que les membres sachent où collaborer et trouver les conversations existantes. Utilisez des noms de canaux descriptifs pour permettre aux membres d’identifier facilement l’emplacement de chaque conversation. Ajoutez des outils (par exemple, OneNote, Power BI ou Planner) sous forme d’onglets à un canal, pour que les membres disposent de tout ce dont ils ont besoin, directement dans le canal. Vous pouvez également ajouter à un canal, sous forme d'onglet, une page web couramment utilisée.
+Une fois que vous avez créé votre équipe, il est judicieux de commencer à réfléchir aux différents projets et types de conversations que vous devez prendre en charge. Créez des canaux initiaux pour que les membres sachent où collaborer et trouver les conversations existantes. Utilisez des noms de canaux descriptifs pour permettre aux membres d’identifier facilement l’emplacement de chaque conversation. Ajoutez des outils (par exemple, OneNote, Power BI ou Planner) sous forme d’onglets à un canal, pour que les membres disposent de tout ce dont ils ont besoin, directement dans le canal. Vous pouvez également ajouter à un canal, sous forme d'onglet, une page web couramment utilisée.
 
 En savoir plus sur le [travail en équipe](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) avec ces conseils rapides pour les utilisateurs finaux.
 
 Meilleure pratique : créez des équipes avec un nombre plus important de membres et davantage de canaux. Réduisez le nombre d’équipes nécessitant la participation d’une personne. Les canaux au sein d’une équipe doivent être considérés comme sujets définis ou flux de travail pour aider l’équipe à organiser son travail pour atteindre les objectifs communs. Il n’y a pas de nombre spécifique de canaux devant être créés. Chaque équipe doit créer des canaux en fonction de leur travail, priorités et style.
 
-Utilisez les canaux standard pour les conversations auxquelles chacun des membres de l’équipe peut contribuer. Tirez parti des [canaux privés](private-channels.md) lorsque vous avez besoin d’un espace de collaboration particulier avec un groupe sélectionné de membres de l’équipe. Utilisez des [canaux partagés](shared-channels.md) lorsque vous avez besoin de collaborer avec des personnes extérieures à l’équipe.
+Utilisez les canaux standard pour les conversations auxquelles chacun des membres de l’équipe peut contribuer. Tirez parti des [canaux privés](private-channels.md) lorsque vous avez besoin d’un espace de collaboration ciblé avec un groupe sélectionné de membres de l’équipe. Utilisez [des canaux partagés](shared-channels.md) lorsque vous devez collaborer avec des personnes extérieures à l’équipe.
 
 Les grandes organisations peuvent choisir de créer des équipes en tant que « modèles » pour standardiser les informations qu’elles capturent sur des types spécifiques de travail. Ceci est utile pour la gestion client stratégique, gestion de classe, scénarios soins de santé, gestion de sinistre, gestion des incidents et autres scénarios appropriés à un secteur d’activité spécifique. Pour en savoir plus, consultez la [Prise en main des modèles Teams](get-started-with-teams-templates.md) et les [Modèles Teams pour les petites et moyennes entreprises](smb-templates.md).
 

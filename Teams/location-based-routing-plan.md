@@ -1,14 +1,14 @@
 ---
 title: Planifier le routage géodépendant pour le routage direct
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
-description: Découvrez comment planifier Location-Based routage pour Teams Téléphone routage direct.
+description: Découvrez comment planifier Location-Based routage pour le routage direct par téléphone Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,18 +16,18 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f156b287969303edbf195c0054b3bb1eb631db2
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: d282a2cd9588c2e7104b3093d03da082e9cf388b
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65303996"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562623"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planifier le routage géodépendant pour le routage direct
 
 Dans certains pays et régions, il est illégal de contourner le fournisseur de réseau téléphonique commuté (RTC) pour réduire les coûts d’appels longue distance. 
 
-Cet article décrit ce que vous devez savoir pour utiliser Location-Based routage afin de limiter le contournement des péages pour Microsoft Teams utilisateurs en fonction de leur emplacement géographique. Cet article s’applique uniquement au routage direct. Location-Based routage ne s’applique pas au plan d’appel ou à Operator Connect.
+Cet article décrit ce que vous devez savoir pour utiliser Location-Based routage afin de limiter le contournement des péages pour les utilisateurs de Microsoft Teams en fonction de leur emplacement géographique. Cet article s’applique uniquement au routage direct. Location-Based le routage ne s’applique pas au plan d’appel ou à l’opérateur Connect.
 
 Lorsque vous êtes prêt à activer Location-Based routage, consultez :
 
@@ -58,13 +58,13 @@ Cet article suppose qu’un site réseau peut se trouver dans l’un des états 
 
 ### <a name="toll-bypass-evaluation-and-outcome"></a>Évaluation et résultat du contournement des péages
 
-Lorsque Location-Based routage est utilisé, un appel entre un utilisateur Teams et le rtc est évalué pour déterminer si le contournement des péages est restreint. Selon les résultats, l’appel se termine ou ne se termine pas. 
+Lorsque Location-Based routage est utilisé, un appel entre un utilisateur Teams et le RTC est évalué pour déterminer si le contournement des péages est restreint. Selon les résultats, l’appel se termine ou ne se termine pas. 
 
 Si un utilisateur est activé pour Location-Based routage et que l’utilisateur se trouve sur un site où Location-Based restrictions de routage sont en vigueur, le contournement payant est limité pour cet utilisateur. Teams utilise les informations suivantes pour déterminer si le contournement des péages est restreint : 
 
 - Indique si l’utilisateur Teams est activé pour Location-Based routage tel que défini dans la stratégie d’appel Teams de l’utilisateur.
 
-- Le Teams l’emplacement du site réseau du point de terminaison de l’utilisateur et indique si le site est activé ou non pour Location-Based routage.
+- Emplacement du site réseau du point de terminaison de l’utilisateur Teams et si le site est activé ou non pour Location-Based routage.
 
 - Emplacement du site réseau de la passerelle RTC utilisée par l’appel.
 
@@ -72,13 +72,13 @@ Si un utilisateur est activé pour Location-Based routage et que l’utilisateur
 
 - Pour les scénarios de transfert, l’itinéraire de l’appel RTC est basé sur les paramètres de routage de la personne qui transfère l’appel et sur les paramètres de routage Location-Based de l’utilisateur Teams vers lequel l’appel est transféré.  
 
-- Pour les scénarios de conférence et d’appel de groupe, qu’un utilisateur Teams pour lequel le contournement payant est restreint fait ou a fait partie de l’appel.
+- Pour les scénarios de conférence et d’appel de groupe, si un utilisateur Teams pour lequel le contournement payant est restreint fait ou a fait partie de l’appel.
 
 Si un appel ne peut pas se terminer, l’utilisateur Teams est averti comme suit :
 
 - Pour les appels RTC sortants, le message suivant s’affiche dans la fenêtre d’appel : l’appel n’est pas autorisé en raison des paramètres de votre organisation.
 
-- Pour les appels RTC entrants, l’appel est routé en fonction des paramètres de transfert d’appel sans réponse de l’utilisateur appelés Teams, généralement vers la messagerie vocale. Si les paramètres d’appel sans réponse de l’utilisateur Teams ne sont pas configurés, l’appel se déconnecte.
+- Pour les appels RTC entrants, l’appel est routé en fonction des paramètres de transfert d’appel sans réponse de l’utilisateur Teams, généralement vers la messagerie vocale. Si les paramètres d’appel sans réponse ne sont pas configurés pour l’utilisateur Teams, l’appel se déconnecte.
 
 ## <a name="apply-location-based-routing"></a>Appliquer Location-Based routage
 
@@ -141,7 +141,7 @@ En outre, si vous définissez GatewayLbrEnabledUserOverride sur True, Location-B
 
 ## <a name="restriction-rules"></a>Règles de restriction
 
-Les règles de restriction varient selon qu’un utilisateur Teams est ou non activé pour le routage Location-Based.
+Les règles de restriction varient selon qu’un utilisateur Teams est ou non activé pour Location-Based routage.
 
 ### <a name="user-is-enabled-for-location-based-routing"></a>L’utilisateur est activé pour le routage Location-Based
 
@@ -163,7 +163,7 @@ Lorsqu’un utilisateur est activé pour Location-Based routage, les éléments 
 
    - Dans tout autre scénario, par exemple si l’utilisateur est itinérant, l’appel n’est pas autorisé et est routée vers les paramètres de transfert d’appel sans réponse de l’utilisateur (généralement la messagerie vocale).  
    
-- **Pour un appel voIP Teams 1:1 et un transfert vers PSTN**, notez les points suivants :
+- **Pour un appel VoIP Teams 1:1 et un transfert vers PSTN**, notez les points suivants :
 
   - Le routage de l’appel, c’est-à-dire la passerelle RTC vers la sortie de l’appel, est basé sur les paramètres de routage de l’utilisateur qui transfère l’appel.
 
@@ -205,10 +205,10 @@ Les diagrammes suivants montrent les flux de décision pour les appels entrants 
 
 Cette section décrit différents scénarios de restriction du contournement des péages à l’aide du routage Location-Based. Les scénarios comparent la façon dont les appels sont routées pour les utilisateurs qui ne sont pas activés pour le routage Location-Based avec les utilisateurs qui sont activés pour le routage Location-Based.
 
-- [Teams utilisateur passe un appel sortant au RTC](#teams-user-places-an-outbound-call-to-the-pstn)
-- [Teams utilisateur reçoit un appel entrant du RTC](#teams-user-receives-an-inbound-call-from-the-pstn)
-- [Teams utilisateur transfère ou transfère l’appel à un autre utilisateur Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user)
-- [Teams utilisateur transfère ou transfère l’appel au point de terminaison RTC](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
+- [L’utilisateur Teams passe un appel sortant au RTC](#teams-user-places-an-outbound-call-to-the-pstn)
+- [L’utilisateur Teams reçoit un appel entrant du RTC](#teams-user-receives-an-inbound-call-from-the-pstn)
+- [L’utilisateur Teams transfère ou transfère l’appel à un autre utilisateur Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user)
+- [L’utilisateur Teams transfère ou transfère l’appel au point de terminaison RTC](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
 - [Sonnerie simultanée](#simultaneous-ringing)
 - [Délégation](#delegation)
 
@@ -216,7 +216,7 @@ Le diagramme suivant montre les restrictions activées par Location-Based routag
 
 ![Diagramme montrant les scénarios de routage Location-Based.](media/lbr-direct-routing.png "Diagramme montrant les scénarios de routage Location-Based")
 
-### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams utilisateur passe un appel sortant au RTC
+### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>L’utilisateur Teams passe un appel sortant au RTC
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Utilisateur non activé pour le routage Location-Based
 
@@ -234,7 +234,7 @@ En comparaison, le routage des appels sortants pour les utilisateurs qui sont ac
 |Réseau interne inconnu (Location4)    |  Appel RTC non autorisé, sauf si gatewayLbrEnabledUserOverride est défini sur True       |
 |Réseau externe inconnu (Location5)    | Appel RTC non autorisé, sauf si gatewayLbrEnabledUserOverride est défini sur True       |
 
-### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>Teams utilisateur reçoit un appel entrant du RTC
+### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>L’utilisateur Teams reçoit un appel entrant du RTC
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Utilisateur non activé pour le routage Location-Based
 
@@ -252,11 +252,11 @@ En comparaison, les utilisateurs activés pour le routage Location-Based ne peuv
 |Réseau interne inconnu (Location4)   | Appels non routées vers des points de terminaison dans Location4        |
 |Réseau externe inconnu (Location5)     | Appels non routées vers des points de terminaison dans Location5        |
 
-### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>Teams utilisateur transfère ou transfère l’appel à un autre utilisateur Teams
+### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>L’utilisateur Teams transfère ou transfère l’appel à un autre utilisateur Teams
 
 Lorsqu’un point de terminaison RTC est impliqué, Location-Based routage analyse si un ou les deux utilisateurs sont activés pour le routage Location-Based et détermine si l’appel doit être transféré ou transféré en fonction de l’emplacement des deux points de terminaison. 
  
-Le transfert d’appel nécessite que l’utilisateur initial récupère l’appel alors que le transfert d’appel ne nécessite pas la réponse de l’appel initial. Les appels peuvent être transférés même si User1 n’est pas à un emplacement pour recevoir des appels entrants (voir le tableau dans le [Teams l’utilisateur reçoit un appel entrant à partir de la section RTC](#teams-user-receives-an-inbound-call-from-the-pstn)) et que les appels ne peuvent pas être transférés si User1 ne peut pas recevoir l’appel entrant. 
+Le transfert d’appel nécessite que l’utilisateur initial récupère l’appel alors que le transfert d’appel ne nécessite pas la réponse de l’appel initial. Les appels peuvent être transférés même si User1 n’est pas à un emplacement pour recevoir des appels entrants (voir le tableau dans [l’utilisateur Teams reçoit un appel entrant à partir de la section RTC](#teams-user-receives-an-inbound-call-from-the-pstn) ) et que les appels ne peuvent pas être transférés si User1 ne peut pas recevoir l’appel entrant. 
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Utilisateur non activé pour le routage Location-Based
 
@@ -268,7 +268,7 @@ De même, un utilisateur qui n’est pas activé pour Location-Based Routage ne 
 
 Le transfert et le transfert d’appels RTC entrants à partir d’une passerelle activée pour le routage Location-Based sont autorisés uniquement si l’utilisateur cible est activé pour le routage Location-Based et se trouve sur le même site. Sinon, le transfert et le transfert d’appels ne sont pas autorisés. 
 
-Le tableau suivant indique si le transfert d’appel et les transferts d’appels sont autorisés, en fonction de l’emplacement de l’utilisateur cible. Dans ce tableau, User1, situé dans Site1, lance le transfert ou le transfert vers d’autres utilisateurs Teams qui sont également activés pour le routage Location-Based et qui se trouvent à différents emplacements.  
+Le tableau suivant indique si le transfert d’appel et les transferts d’appels sont autorisés, en fonction de l’emplacement de l’utilisateur cible. Dans ce tableau, User1, situé dans Site1, lance le transfert ou le transfert à d’autres utilisateurs Teams qui sont également activés pour le routage Location-Based et qui se trouvent dans différents emplacements.  
 
 |Emplacement du point de terminaison utilisateur cible|User1 lance le transfert d’appels |User1 lance l’appel vers l’avant|
 |---------|---------|---------|
@@ -278,7 +278,7 @@ Le tableau suivant indique si le transfert d’appel et les transferts d’appel
 |Réseau interne inconnu (User5)| Non autorisé|Non autorisé|
 |Réseau externe inconnu (User6)| Non autorisé|Non autorisé|
 
-### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>Teams utilisateur transfère ou transfère l’appel au point de terminaison RTC
+### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>L’utilisateur Teams transfère ou transfère l’appel au point de terminaison RTC
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Utilisateur non activé pour le routage Location-Based
 
@@ -350,11 +350,11 @@ Le transfert vers la messagerie vocale est également autorisé.
 
 ### <a name="delegation"></a>Délégation
 
-Un utilisateur Teams peut choisir des délégués qui peuvent passer et recevoir des appels en leur nom. Les fonctionnalités de délégation dans Teams sont affectées par le routage Location-Based comme suit : 
+Un utilisateur Teams peut choisir des délégués qui peuvent passer et recevoir des appels en leur nom. Les fonctionnalités de délégation dans Teams sont affectées par Location-Based routage comme suit : 
 
-- Pour les appels sortants à partir d’un délégué Location-Based de routage activé pour le compte d’un délégant, les mêmes règles s’appliquent. Le routage des appels est basé sur la stratégie d’autorisation des appels, la stratégie de routage vocal et l’emplacement du délégué. Pour plus d’informations, consultez [Teams utilisateur place un appel sortant au rtc](#teams-user-places-an-outbound-call-to-the-pstn). 
+- Pour les appels sortants à partir d’un délégué Location-Based de routage activé pour le compte d’un délégant, les mêmes règles s’appliquent. Le routage des appels est basé sur la stratégie d’autorisation des appels, la stratégie de routage vocal et l’emplacement du délégué. Pour plus d’informations, consultez [l’utilisateur Teams qui place un appel sortant au RTC](#teams-user-places-an-outbound-call-to-the-pstn). 
 
-- Pour les appels RTC entrants à un délégant, les mêmes règles de routage Location-Based qui s’appliquent au transfert d’appel ou à la sonnerie simultanée à d’autres utilisateurs s’appliquent également aux délégués. Pour plus d’informations, consultez [Teams transferts d’utilisateurs ou transferts d’appel vers un autre utilisateur Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user), [Teams transferts d’utilisateurs ou transferts d’appel vers le point](#teams-user-transfers-or-forwards-call-to-pstn-endpoint) de terminaison RTC et [sonnerie simultanée](#simultaneous-ringing). Lorsqu’un délégué définit un point de terminaison RTC comme cible d’anneau simultanée, la stratégie de routage vocal du délégué est utilisée pour router l’appel vers le rtc. 
+- Pour les appels RTC entrants à un délégant, les mêmes règles de routage Location-Based qui s’appliquent au transfert d’appel ou à la sonnerie simultanée à d’autres utilisateurs s’appliquent également aux délégués. Pour plus d’informations, consultez [transferts d’utilisateurs Teams ou transferts d’appel à un autre utilisateur Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user), [transferts d’utilisateurs Teams ou transferts d’appel vers le point](#teams-user-transfers-or-forwards-call-to-pstn-endpoint) de terminaison RTC et [sonnerie simultanée](#simultaneous-ringing). Lorsqu’un délégué définit un point de terminaison RTC comme cible d’anneau simultanée, la stratégie de routage vocal du délégué est utilisée pour router l’appel vers le rtc. 
 
 - Pour la délégation, Microsoft recommande que le délégeur et les délégués associés se trouvent dans le même site réseau. 
 
@@ -371,15 +371,15 @@ Les sous-réseaux IPv4 et IPv6 sont pris en charge. Toutefois, IPv6 est priorita
 ### <a name="client-support-for-location-based-routing"></a>Prise en charge du client pour le routage Location-Based
 
 Les clients Teams suivants sont pris en charge :
-- Teams clients de bureau (Windows et Mac)
-- Teams clients mobiles (iOS et Android)
-- Teams téléphones IP
+- Clients de bureau Teams (Windows et Mac)
+- Clients mobiles Teams (iOS et Android)
+- Téléphones IP Teams
 
 Le client web Teams et les clients Skype Entreprise ne sont pas pris en charge.
 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>Fonctionnalités non prises en charge par le routage géodépendant
 
-Location-Based routage ne s’applique pas aux types d’interactions suivants. Location-Based routage n’est pas appliqué lorsque Teams points de terminaison interagissent avec des points de terminaison RTC dans les scénarios suivants : 
+Location-Based routage ne s’applique pas aux types d’interactions suivants. Location-Based le routage n’est pas appliqué lorsque les points de terminaison Teams interagissent avec des points de terminaison RTC dans les scénarios suivants : 
 
 - Parcage d’appel ou récupération des appels via le parcage d’appels 
 
@@ -395,7 +395,7 @@ Dans une téléconférence lancée par un utilisateur sans licence d’audioconf
 
 Si l’utilisateur activé pour le routage Location-Based rejoint la téléconférence à partir d’un site interne qui n’est pas activé pour le routage Location-Based, les restrictions du paragraphe ci-dessus ne sont pas appliquées. 
 
-Les conférences sur le réseau pour Audioconférence ne doivent PAS être déployées avec des équipements de téléphonie en Inde.
+La conférence sur le réseau pour l’audioconférence ne doit PAS être déployée avec n’importe quel équipement de téléphonie en Inde.
 
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Configuration requise pour le contournement du média pour le routage Location-Based

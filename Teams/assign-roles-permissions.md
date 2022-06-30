@@ -1,7 +1,7 @@
 ---
 title: Affecter des propriétaires d’équipe et des membres dans Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76ca4a5dfd6d120b71e23d899ec9c7749db99827
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 1a8993882bb281dc7c9bd6b8bde95387a183b637
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125489"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562763"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires d’équipe et des membres dans Microsoft Teams
 
@@ -43,8 +43,8 @@ Le tableau ci-dessous présente les différences d’autorisations entre un prop
 | ***Modifier le nom/la description d’un canal privé** |    Non     |    N/A|
 |        ***Supprimer un canal privé**         |    Oui     |    Non|
 |          **Ajouter un canal partagé**          |    Oui     |    Non|
-| **Modifier le nom/la description du canal partagé** |    Non     |    <sup>No6</sup>|
-|        **Supprimer un canal partagé**         |    Oui     |    <sup>No6</sup>|
+| **Modifier le nom/la description du canal partagé** |    Non     |    No<sup>6</sup>|
+|        **Supprimer un canal partagé**         |    Oui     |    No<sup>6</sup>|
 |          **Ajouter des membres**          |  Oui<sup>3</sup>   |     Non<sup>4</sup>    |
 |          **Demande d’ajouter des membres**          |  S/O   |     Oui<sup>5</sup>     |
 |           **Ajouter des applications**            |    Oui     |    Oui<sup>2</sup>|

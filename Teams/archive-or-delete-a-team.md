@@ -1,8 +1,8 @@
 ---
 title: Archiver ou supprimer une équipe dans Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
 manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ec5d6dedc482eb7becdd23fbd2747e87195cd0f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: dddb7bdb2285eb6a6502adbf6172aa6a3fe76c3d
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674446"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562413"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archiver ou supprimer une équipe dans Microsoft Teams
 
@@ -47,7 +47,7 @@ Suivez ces étapes pour archiver une équipe. Vous devez être un administrateur
 
     ![Capture d’écran du message d’archive Teams.](media/teams-archive-message.png)
 
-4. Pour empêcher les utilisateurs de modifier le contenu du site SharePoint et de l’onglet Wiki associé à l’équipe, **sélectionnez Rendre le site SharePoint en lecture seule pour les membres de l’équipe**. (Teams propriétaires pourront toujours modifier ce contenu.)
+4. Pour empêcher les utilisateurs de modifier le contenu dans le site SharePoint et l’onglet Wiki associé à l’équipe, **sélectionnez Rendre le site SharePoint en lecture seule pour les membres de l’équipe**. (Les propriétaires de Teams pourront toujours modifier ce contenu.)
 5. Sélectionnez **Archiver** pour archiver l’équipe. L’état de l’équipe passe à **Archivé**, il est déplacé à l’intérieur des **équipes masquées** situées en bas de la liste des équipes, et une petite icône représentant l’état archivé est ajoutée en regard de celle-ci.
 
 ## <a name="make-an-archived-team-active"></a>Rendre une équipe archivée active
@@ -123,7 +123,7 @@ Par défaut, un groupe Microsoft 365 supprimé est conservé pendant 30 jours. C
 
     L’exécution du processus de restauration peut prendre jusqu’à 24 heures, après quoi l’équipe et le contenu associé à l’équipe, y compris les onglets et les canaux, s’affichent dans Teams.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Archiver ou restaurer une équipe](https://support.microsoft.com/office/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)
 

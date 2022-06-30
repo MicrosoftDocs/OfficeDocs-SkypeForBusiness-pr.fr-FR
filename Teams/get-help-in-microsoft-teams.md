@@ -1,7 +1,7 @@
 ---
 title: Obtenir de l’aide dans Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,30 +13,30 @@ ms.reviewer: karuanag
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Découvrez les rubriques d’aide, les vidéos, les notes de publication et les forums de commentaires pour obtenir de l’aide Microsoft Teams.
+description: Découvrez les rubriques d’aide, les vidéos, les notes de publication et les forums de commentaires afin d’obtenir de l’aide dans Microsoft Teams.
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 815746f350f4ded43f8f38811e4d0105ac1c742d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c34db9bdd2911a1b2680b9d886ce99ec0f690537
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579718"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562633"
 ---
 # <a name="get-help-in-microsoft-teams"></a>Obtenir de l’aide dans Microsoft Teams
 
-Le bouton Aide dans Microsoft Teams où vos utilisateurs et champions peuvent trouver toute l’aide dont ils peuvent avoir besoin lors de l’utilisation de Teams.
+Le bouton d’aide de Microsoft Teams permet à vos utilisateurs et champions de trouver toute l’aide dont ils peuvent avoir besoin lors de l’utilisation de Teams.
 
-Teams prise en charge des langues localisées pour le contenu d’aide. Pour obtenir la liste la plus complète des langues pris en charge, voir Microsoft Teams langues pris en charge [pour le contenu d’aide.](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf)
+Teams fournit une prise en charge linguistique localisée pour le contenu d’aide. Pour obtenir la liste la plus actuelle des langues prises en charge, consultez [les langues prises en charge par Microsoft Teams pour obtenir du contenu d’aide](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf).
 
- - **Parcourir les rubriques** - Cet article aide à organiser le contenu à l’aide Teams fonctionnalité. Instructions simples et simples pour aider les utilisateurs à mieux Teams. 
+ - **Parcourir les rubriques** : cela permet d’aider le contenu organisé par la fonctionnalité Teams. Conseils simples et simples pour aider les utilisateurs à tirer le meilleur parti de Teams. 
 
- - **Vidéos** : notre contenu vidéo à la demande permet aux utilisateurs d’apprendre rapidement des tâches spécifiques. Nous ne cessons de produire de nouvelles vidéos. Par contre, consultez cette vidéo fréquemment. Il est bien sûr nécessaire d’accéder à Internet. 
+ - **Vidéos** : notre contenu vidéo à la demande permet aux utilisateurs d’apprendre rapidement des tâches spécifiques. Nous produisons continuellement de nouvelles vidéos, donc revenez fréquemment. L’accès à Internet est obligatoire, bien sûr. 
 
  - **Nouveautés** - 
-    Notes de publication périodiques pour les utilisateurs et les propriétaires d’équipe concernant les fonctionnalités nouvelles ou Teams mises à jour.
+    Notes de publication périodiques pour les utilisateurs et les propriétaires d’équipe concernant les fonctionnalités Teams nouvelles ou mises à jour.
 
- - **Partager une idée** : vos informations sur l’amélioration d’Teams sont les premières à nous faire part de vos Teams. Cette option vous permet d’utiliser notre forum de commentaires sur les produits, où vous pouvez envoyer des demandes de nouvelles fonctionnalités ou voter pour des demandes existantes. Nous ne cessons de passer en revue ces informations au moment où nous prévoyons de nouvelles fonctionnalités. 
+ - **Partager une idée** : nous voulons toujours entendre votre point de vue sur la façon d’améliorer Teams. Cette option vous permet d’accéder à notre forum de commentaires sur les produits, où vous pouvez envoyer de nouvelles demandes de fonctionnalités ou voter sur des demandes existantes. Nous examinons constamment ces informations au fur et à mesure de la planification de nouvelles fonctionnalités. 
 
 

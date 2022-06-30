@@ -1,13 +1,13 @@
 ---
 title: Exporter du contenu avec les API d’exportation Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 audience: admin
 ms.service: msteams
 ms.reviewer: vikramju
-description: Dans cet article, vous allez découvrir comment exporter du contenu Teams à l’aide des API d’exportation Microsoft Teams.
+description: Dans cet article, vous allez découvrir comment exporter du contenu Teams à l’aide des API Microsoft Teams Export.
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -18,26 +18,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f59b275d3caaaa94fc55cf7bc2418ebe0aee4ba
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: ffbea482ac15d1362eabc720fe2c05a8b5954954
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674216"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562643"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exporter du contenu avec les API d’exportation Microsoft Teams
 
-Teams Les API d’exportation vous permettent d’exporter des messages 1:1, des conversations de groupe, des conversations de réunion et des messages de canal à partir de Microsoft Teams. Si votre organisation doit exporter Microsoft Teams messages, vous pouvez les extraire à l’aide des API d’exportation Teams. *Le message* de conversation représente un message de conversation individuel au sein d’un [canal](/graph/api/resources/channel) ou [d’une conversation](/graph/api/resources/chat). Le message de conversation peut être un message de conversation racine ou une partie d’un thread de réponse défini par la propriété **replyToId** dans le message de conversation.
+Les API d’exportation Teams vous permettent d’exporter 1:1, une conversation de groupe, des conversations de réunion et des messages de canal à partir de Microsoft Teams. Si votre organisation doit exporter des messages Microsoft Teams, vous pouvez les extraire à l’aide des API d’exportation Teams. *Le message* de conversation représente un message de conversation individuel au sein d’un [canal](/graph/api/resources/channel) ou [d’une conversation](/graph/api/resources/chat). Le message de conversation peut être un message de conversation racine ou une partie d’un thread de réponse défini par la propriété **replyToId** dans le message de conversation.
 
 Voici quelques exemples sur la façon dont vous pouvez utiliser ces API d’exportation :
 
-- **Exemple 1** : Si vous avez activé Microsoft Teams dans votre organisation et souhaitez exporter tous les messages Microsoft Teams à ce jour par programmation en passant la plage de dates pour un utilisateur ou une équipe donné.
+- **Exemple 1** : Si vous avez activé Microsoft Teams dans votre organisation et que vous souhaitez exporter tous les messages Microsoft Teams à ce jour par programmation en passant la plage de dates pour un utilisateur ou une équipe donné.
 - **Exemple 2** : Si vous souhaitez exporter par programmation tous les messages de l’utilisateur ou de l’équipe quotidiennement en fournissant une plage de dates. Les API d’exportation peuvent récupérer tous les messages créés ou mis à jour pendant la plage de dates donnée.
 
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>Qu’est-ce qui est pris en charge par les API d’exportation Teams ?
 
-- **Exportation en bloc d’Teams Message :** Teams les API d’exportation prennent en charge jusqu’à 200 RPS par application par locataire et 600 RPS pour une application, avec ces limites, vous devriez être en mesure d’exporter en bloc des messages Teams.
-- **Contexte d’application** : pour appeler Microsoft Graph, votre application doit acquérir un jeton d’accès à partir du Plateforme d'identités Microsoft. Le jeton d’accès contient des informations sur votre application et les autorisations dont elle dispose pour les ressources et les API disponibles via Microsoft Graph. Pour obtenir un jeton d’accès, votre application doit être inscrite auprès du Plateforme d'identités Microsoft et être autorisée par un utilisateur ou un administrateur à accéder aux ressources Microsoft Graph dont elle a besoin.
+- **Exportation en bloc du message Teams :** Les API d’exportation Teams prennent en charge jusqu’à 200 RPS par application par locataire et 600 RPS pour une application, avec ces limites, vous devriez être en mesure d’exporter en bloc des messages Teams.
+- **Contexte d’application** : pour appeler Microsoft Graph, votre application doit acquérir un jeton d’accès à partir du Plateforme d'identités Microsoft. Le jeton d’accès contient des informations sur votre application et les autorisations dont elle dispose pour les ressources et LES API disponibles via Microsoft Graph. Pour obtenir un jeton d’accès, votre application doit être inscrite auprès du Plateforme d'identités Microsoft et être autorisée par un utilisateur ou un administrateur à accéder aux ressources Microsoft Graph dont elle a besoin.
 
     Si vous êtes déjà familiarisé avec l’intégration d’une application à l’Plateforme d'identités Microsoft pour obtenir des jetons, consultez la section [Étapes suivantes](/graph/auth/auth-concepts#next-steps) pour obtenir des informations et des exemples spécifiques à Microsoft Graph.
 - **Environnement hybride :** Les API d’exportation prennent en charge les messages envoyés par les utilisateurs approvisionnés sur un environnement hybride (Exchange et Teams locaux). Tous les messages envoyés par les utilisateurs configurés pour un environnement hybride seront accessibles à l’aide des API Export.
@@ -75,7 +75,7 @@ Voici quelques exemples sur la façon dont vous pouvez utiliser ces API d’expo
 
 ## <a name="prerequisites-to-access-teams-export-apis"></a>Conditions préalables à l’accès aux API d’exportation Teams
 
-- Microsoft Teams API dans Microsoft Graph que l’accès aux données sensibles est considéré comme des API protégées. Les API d’exportation nécessitent une validation supplémentaire, au-delà des autorisations et du consentement, avant de pouvoir les utiliser. Pour demander l’accès à ces API protégées, remplissez le [formulaire de demande](https://aka.ms/teamsgraph/requestaccess).
+- Les API Microsoft Teams dans Microsoft Graph qui accèdent à des données sensibles sont considérées comme des API protégées. Les API d’exportation nécessitent une validation supplémentaire, au-delà des autorisations et du consentement, avant de pouvoir les utiliser. Pour demander l’accès à ces API protégées, remplissez le [formulaire de demande](https://aka.ms/teamsgraph/requestaccess).
 - Les autorisations d’application sont utilisées par les applications qui s’exécutent sans qu’un utilisateur connecté soit présent ; les autorisations d’application ne peuvent être accordées que par un administrateur. Les autorisations suivantes sont nécessaires :
   - *Chat.Read.All* : permet d’accéder à tous les messages 1:1, de conversation de groupe et de conversation de réunion
   - *ChannelMessage.Read.All* : permet d’accéder à tous les messages de canal
