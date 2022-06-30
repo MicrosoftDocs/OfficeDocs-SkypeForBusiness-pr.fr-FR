@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01b51694b22d44ace9980f2b98fdb89a9150a12d
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: b96108f3bf548475cd19822967ba4e484fb26703
+ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240743"
+ms.locfileid: "66551201"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Conformité des communications avec Microsoft Teams
 
@@ -53,7 +53,7 @@ Les administrateurs Teams peuvent configurer des stratégies de conformité des 
 >[!NOTE]
 >La disponibilité des messages signalés par l’utilisateur pour les organisations sous licence et utilisant [la conformité des communications](/microsoft-365/compliance/communication-compliance-configure#subscriptions-and-licensing) et Microsoft Teams a démarré en mai 2022. Cette fonctionnalité sera disponible d’ici le 31 août 2022 pour toutes les organisations sous licence et utilisant la conformité des communications jusqu’en juillet 2022. Pour les organisations qui commencent à utiliser la conformité des communications après juillet 2022, la disponibilité de la stratégie de messages signalés par l’utilisateur peut prendre jusqu’à 30 jours à compter de la date de votre licence et de la première utilisation de la conformité des communications.
 
-L’option *Signaler une préoccupation* dans les messages de conversation internes Teams est activée par défaut et peut être contrôlée via des stratégies de messagerie Teams dans le [Centre d’administration Teams](/microsoftteams/manage-teams-in-modern-portal). Cela permet aux utilisateurs de votre organisation d’envoyer des messages de conversation interne inappropriés pour révision par les réviseurs de conformité des communications pour la stratégie. Pour plus d’informations sur les messages signalés par l’utilisateur dans la conformité des communications, consultez [Stratégies de conformité des communications](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy).
+L’option *Signaler une préoccupation* pour les messages de conversation personnelle et de groupe Teams est activée par défaut et peut être contrôlée via des stratégies de messagerie Teams dans le [Centre d’administration Teams](/microsoftteams/manage-teams-in-modern-portal). Cela permet aux utilisateurs de votre organisation d’envoyer des messages de conversation interne inappropriés pour révision par les réviseurs de conformité des communications pour la stratégie. Pour plus d’informations sur les messages signalés par l’utilisateur dans la conformité des communications, consultez [Stratégies de conformité des communications](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy).
 
 ![Signaler un menu d’inquiétude.](./media/communication-compliance-report-a-concern-full-menu.png)
 

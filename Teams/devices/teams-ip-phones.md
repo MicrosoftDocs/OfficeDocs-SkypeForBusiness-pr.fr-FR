@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams afin de produire les meilleurs résultats.
-ms.openlocfilehash: 4182487d03b2628553ed9b7fee860a080ad3c6c6
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 95a92b964773e7ed1aafa9e4e87004acad61b3f3
+ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494351"
+ms.locfileid: "66551211"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Appareils Android certifiés Microsoft Teams
 
@@ -72,6 +72,8 @@ Les appareils suivants sont certifiés dans le cadre du Salles Microsoft Teams s
 
 | Modèle d’appareil | Version du microprogramme | Date de fin de la certification actuelle | Taille de la salle                                        |  Version du système d’exploitation Android    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Yealink MeetingBar A20 | `133.15.0.108  `   | 3 septembre 2024 | Petite salle de réunion (4,5 m x 4,5 m)| 10|
+| Yealink MeetingBar A30 | `133.15.0.108  `   | 3 septembre 2024 | Pièce de taille moyenne (4,5 m x 6 m) | 10|
 | Logitech Tap IP VR0029     | `1.6.762`  |   3 septembre 2024  | Compatible avec Logitech Rally Bar et Rally Bar Mini | 10 |
 | Barre ordonnée | `NFB1.20220211.1400` |3 septembre 2024|    Petite salle de réunion (4,5 m x 4,5 m) | 10 |
 | Console tactile Neat Pad | `NFA1.20220211.1400`  | 5 août 2023 |  Compatible avec Neat Bar uniquement | 9 |
@@ -246,6 +248,8 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version du produit incluse |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.12.0.366027` | Mise à jour 2022 #1   |
+| Poly Studio X50 | `3.12.0.366027` | Mise à jour 2022 #1  |
 | Logi Rallybar    | `1.6.552`         | Mise à jour 2022 #2    |
 | Logi Rallybar Mini | `1.6.552`       | Mise à jour 2022 #2   |
 | Barre ordonnée | `NFB1.20220512.2200` | Mise à jour 2022 #2 |
