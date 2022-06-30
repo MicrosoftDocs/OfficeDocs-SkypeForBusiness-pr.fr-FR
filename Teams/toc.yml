@@ -637,6 +637,8 @@ items:
                 href: set-up-the-call-me-feature-for-your-users.md
               - name: Recevoir un rapport de participation à une réunion
                 href: teams-analytics-and-reports/meeting-attendance-report.md
+              - name: Gérer les questions et réponses dans les réunions Teams
+                href: manage-qna-for-teams.md
               - name: Gérer le tableau blanc dans Teams
                 href: manage-whiteboard.md
               - name: Configurer un module complémentaire de réunion Teams pour Google Workspace
@@ -785,10 +787,12 @@ items:
             href: set-up-common-area-phones.md
           - name: Messagerie vocale
             items:
-              - name: Configurer la Messagerie vocale cloud
+              - name: Gérer la messagerie vocale cloud
                 href: set-up-phone-system-voicemail.md
               - name: Gérer les stratégies de messagerie vocale
                 href: manage-voicemail-policies.md
+              - name: Gérer les paramètres de messagerie vocale
+                href: manage-voicemail-settings.md
               - name: Modifier la langue par défaut de la messagerie vocale
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: Langues pour les messages et l’accueil de la messagerie vocale
@@ -1618,7 +1622,7 @@ items:
             href: easy-policy-setup-edu.md
           - name: Connexion des parents dans les équipes pour l'éducation
             href: edu-parents-app.md
-          - name: Application Career Coach dans Teams pour l'éducation
+          - name: Application Conseiller d’orientation dans Teams pour l'éducation
             href: career-coach.md
           - name: Supervisez les conversations dans Teams
             href: supervise-chats-edu.md
@@ -1658,8 +1662,8 @@ items:
             href: flw-quickstart.yml
           - name: Assistant d’intégration de Worker de première ligne
             href: flw-onboarding-wizard.md
-          - name: Déploiement par script pour les travailleurs de première ligne
-            href: flw-scripted-deployment.md
+          - name: Déployer des équipes à grande échelle pour les travailleurs de première ligne
+            href: deploy-teams-at-scale.md
           - name: Personnaliser les applications Teams pour vos employés de première ligne
             href: pin-teams-apps-based-on-license.md
           - name: Gérer l’application Shifts
@@ -1743,8 +1747,8 @@ items:
             href: get-started-with-retail-teams-templates.md
           - name: Assistant d’intégration de Worker de première ligne
             href: flw-onboarding-wizard.md
-          - name: Déploiement par script pour les travailleurs de première ligne
-            href: flw-scripted-deployment.md
+          - name: Déployer des équipes à grande échelle pour les travailleurs de première ligne
+            href: deploy-teams-at-scale.md
           - name: Shifts pour Teams
             items:
               - name: Shifts pour Teams
