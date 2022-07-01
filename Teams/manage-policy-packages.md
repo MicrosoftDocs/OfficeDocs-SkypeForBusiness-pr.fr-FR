@@ -1,7 +1,7 @@
 ---
 title: Gérer les packages de stratégie dans Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: sekrantz, aaglick
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft Teams pour simplifier, simplifier et aider à assurer la cohérence lors de la gestion des stratégies pour les groupes d’utilisateurs.
-ms.openlocfilehash: d38384889e48e7d666036675b1a52ae194ea9582
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 7ba8f21014f892d2170684a8a4cccdfce21cee91
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65144956"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66572182"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Gérer les packages de stratégie pour Microsoft Teams
 
@@ -35,14 +35,14 @@ Vous pouvez utiliser les [packages de stratégie inclus dans Teams](#policy-pack
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Capture d’écran de la page Packages de stratégie dans le Centre d’administration.":::
 
-Vous pouvez personnaliser les paramètres des stratégies dans un package de stratégie en fonction des besoins de vos utilisateurs. Lorsque vous modifiez les paramètres des stratégies dans un package, tous les utilisateurs affectés à ce package obtiennent les paramètres mis à jour. Vous gérez les packages de stratégie à l’aide du centre d’administration Microsoft Teams ou de PowerShell.
+Vous pouvez personnaliser les paramètres des stratégies dans un package de stratégie en fonction des besoins de vos utilisateurs. Lorsque vous modifiez les paramètres des stratégies dans un package, tous les utilisateurs affectés à ce package obtiennent les paramètres mis à jour. Vous gérez les packages de stratégie à l’aide du Centre d’administration Microsoft Teams ou de PowerShell.
 
 > [!NOTE]
 > Cette fonctionnalité est temporairement disponible en préversion publique pour tous les clients Microsoft Teams. Pour obtenir cette fonctionnalité après la préversion, chaque utilisateur a besoin de la licence de module complémentaire Advanced Communications. Pour plus d’informations, consultez [Module complémentaire Communications avancées pour Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## <a name="what-is-a-policy-package"></a>Qu’est-ce qu’un package de stratégie ?
 
-Les packages de stratégie vous permettent de contrôler Teams fonctionnalités que vous souhaitez autoriser ou restreindre pour des ensembles spécifiques de personnes au sein de votre organisation. Chaque package de stratégie dans Teams est conçu autour d’un rôle d’utilisateur et inclut des stratégies et des paramètres de stratégie prédéfinis qui prennent en charge les activités de collaboration et de communication typiques de ce rôle.
+Les packages de stratégie vous permettent de contrôler les fonctionnalités Teams que vous souhaitez autoriser ou restreindre pour des ensembles spécifiques de personnes au sein de votre organisation. Chaque package de stratégie dans Teams est conçu autour d’un rôle d’utilisateur et inclut des stratégies et des paramètres de stratégie prédéfinis qui prennent en charge les activités de collaboration et de communication classiques pour ce rôle.
 
 Les packages de stratégie prennent en charge les types de stratégie Teams suivants :
 
@@ -69,12 +69,12 @@ Teams inclut actuellement les packages de stratégie suivants.
 |Professionnel de la santé  |Crée un ensemble de stratégies et de paramètres de stratégies qui offrent aux travailleurs cliniques tels que les infirmières autorisées, les infirmières responsables, les médecins et les travailleurs sociaux un accès complet à la conversation, aux appels, à la gestion des équipes et aux réunions. |
 |Travailleurs de l’information sur le secteur de la santé  |Crée un ensemble de stratégies et de paramètres de stratégie qui donnent aux travailleurs de l’information, par exemple, le personnel de l’information, l’informatique, le personnel financier et les responsables de la mise en conformité, un accès total aux discussions, aux appels et aux réunions.|
 |Salle de soins de santé  |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux salles des patients dans votre organisation de santé.|
-|Utilisateur de petite et moyenne entreprise (Teams Système téléphonique avec forfait d’appels) |Crée une stratégie d’installation d’application qui inclut les applications pour un Teams Système téléphonique avec l’expérience forfait d’appel.|
-|Utilisateur de petite et moyenne entreprise (sans Teams Système téléphonique avec forfait d’appels) |Crée une stratégie d’installation d’application pertinente pour une petite et moyenne entreprise Teams les utilisateurs (non Teams Système téléphonique avec l’expérience d’offre groupée forfait d’appels).
+|Petite et moyenne entreprise (système téléphonique Teams avec forfait d’appels) |Crée une stratégie d’installation d’application qui inclut les applications d’un système téléphonique Teams avec expérience de forfait d’appels.|
+|Utilisateur de petite et moyenne entreprise (sans système téléphonique Teams avec forfait d’appels) |Crée une stratégie d’installation d’application pertinente pour les utilisateurs Teams de petite et moyenne entreprise (système téléphonique non Teams avec expérience de forfait d’appels).
 |Agent de sécurité publique   |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux agents de sécurité publique de votre organisation.|
 
 > [!NOTE]
-> Nous allons ajouter d’autres packages de stratégie dans les prochaines versions de Teams. Pour plus d’informations, consultez les informations les plus récentes.  
+> Nous ajouterons d’autres packages de stratégie dans les prochaines versions de Teams. Par conséquent, consultez les informations les plus récentes.  
 
 Chaque stratégie individuelle reçoit le nom du package de stratégie afin de vous permettre d’identifier facilement les stratégies liées à un package de stratégie.
 Par exemple, lorsque vous attribuez le package de stratégie Éducation (Enseignant) aux enseignants de votre établissement scolaire, une stratégie nommée Education_Teacher est créée pour chaque stratégie du package.
@@ -87,7 +87,7 @@ Les packages de stratégie personnalisés vous permettent de regrouper votre pro
 
 Pour créer un package de stratégie personnalisé :
 
-1. Dans le volet gauche du centre d’administration Microsoft Teams, sélectionnez **Packages** de stratégie, puis cliquez sur **Ajouter**.
+1. Dans le volet gauche du Centre d’administration Microsoft Teams, sélectionnez **Packages** de stratégie, puis cliquez sur **Ajouter**.
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="Capture d’écran du bouton Ajouter dans la page Packages de stratégie dans le centre d’administration.":::
 
@@ -116,19 +116,19 @@ L’exemple suivant décrit comment utiliser des packages de stratégie dans vot
 > [!NOTE]
 > Vous pouvez également modifier les paramètres des stratégies dans un package de stratégie après avoir affecté un package. Les modifications que vous apportez aux paramètres de stratégie sont automatiquement appliquées aux utilisateurs auxquels le package est attribué.
 
-Voici les étapes à suivre pour afficher, affecter et personnaliser des packages de stratégie dans le centre d’administration Microsoft Teams.
+Voici les étapes à suivre pour afficher, affecter et personnaliser des packages de stratégie dans le Centre d’administration Microsoft Teams.
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>Afficher les paramètres d’une stratégie dans un package de stratégie
 
-1. Dans le volet gauche du centre d’administration Microsoft Teams, sélectionnez **Packages** de stratégie, puis sélectionnez un package de stratégie en cliquant à gauche du nom du package.
+1. Dans le volet gauche du Centre d’administration Microsoft Teams, sélectionnez **Packages** de stratégie, puis sélectionnez un package de stratégie en cliquant à gauche du nom du package.
 
 2. Sélectionnez la stratégie à afficher.
 
 ### <a name="customize-policies-in-a-policy-package"></a>Personnaliser des stratégies dans un package de stratégie
 
-Vous pouvez modifier les paramètres d’une stratégie via la page **Packages** de stratégie ou en accédant directement à la page de stratégie dans le centre d’administration Microsoft Teams.
+Vous pouvez modifier les paramètres d’une stratégie via la page **Packages** de stratégie ou en accédant directement à la page de stratégie dans le Centre d’administration Microsoft Teams.
 
-1. Dans le volet gauche du centre d’administration Microsoft Teams, effectuez l’une des opérations suivantes :
+1. Dans le volet gauche du Centre d’administration Microsoft Teams, effectuez l’une des opérations suivantes :
     - Sélectionnez **packages** de stratégie, puis sélectionnez le package de stratégie en cliquant à gauche du nom du package.
     - Sélectionnez le type de stratégie.  Par exemple, cliquez sur **Stratégies de messagerie**.
 
@@ -140,9 +140,9 @@ Vous pouvez modifier les paramètres d’une stratégie via la page **Packages**
 
 Vous pouvez affecter un package de stratégie à un utilisateur individuel, un groupe ou un lot d’utilisateurs. Pour plus d’informations sur l’affectation de packages de stratégie, consultez [Affecter des packages de stratégie aux utilisateurs et aux groupes](assign-policy-packages.md).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Affecter des packages de stratégie](assign-policy-packages.md)
-- [Teams packages de stratégie pour les administrateurs EDU](policy-packages-edu.md)
+- [Packages de stratégie Teams pour les administrateurs EDU](policy-packages-edu.md)
 - [Packages de stratégie Teams pour la santé publique](policy-packages-healthcare.md)
-- [Teams packages de politiques pour le gouvernement](policy-packages-gov.md)
+- [Packages de stratégie Teams pour le gouvernement](policy-packages-gov.md)
