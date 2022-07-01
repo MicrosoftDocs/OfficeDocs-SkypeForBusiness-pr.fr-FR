@@ -1,7 +1,7 @@
 ---
 title: Utiliser des conversations supervisées pour les locataires non éducatifs
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -14,13 +14,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez les conversations supervisées pour les locataires non éducatifs dans Microsoft Teams réunions.
-ms.openlocfilehash: 4076a2dfa93a037912649bbac88c876c498f1586
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+description: Découvrez les conversations supervisées pour les locataires non éducatifs dans les réunions Microsoft Teams.
+ms.openlocfilehash: a06aa7b9ae24e29a70b3c1a4fc74fae134616b6b
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681565"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66564182"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>Conversations supervisées pour les locataires non éducatifs
 
@@ -54,13 +54,13 @@ Les rôles ne peuvent pas être attribués aux invités de votre locataire. Le r
 
 ## <a name="allow-supervised-chat"></a>Autoriser la conversation supervisée
 
-La conversation supervisée est désactivée par défaut pour votre locataire. Une fois que vous avez défini des rôles d’autorisation de conversation pour vos utilisateurs, vous pouvez activer la conversation supervisée au sein de votre locataire en accédant aux **paramètres** \> à l’échelle de **l’organisation Teams Paramètres** et en définissant la stratégie **d’autorisations de conversation basée sur le rôle** **sur Activé**. Vous pouvez également utiliser PowerShell pour activer la conversation supervisée en définissant AllowRoleBasedChatPermissions sur True. Cette applet de commande se trouve sous [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration).
+La conversation supervisée est désactivée par défaut pour votre locataire. Une fois que vous avez défini des rôles d’autorisation de conversation pour vos utilisateurs, vous pouvez activer la conversation supervisée au sein de votre locataire en accédant aux **paramètres à l’échelle de l’organisation paramètres** \> **Teams** et en définissant la stratégie **d’autorisations de conversation basée sur le rôle** **sur Activé**. Vous pouvez également utiliser PowerShell pour activer la conversation supervisée en définissant AllowRoleBasedChatPermissions sur True. Cette applet de commande se trouve sous [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration).
 
 La conversation supervisée doit être activée pour tous les utilisateurs du locataire et ne peut pas être activée uniquement pour une partie de vos utilisateurs.
 
 **Activer la conversation** :
 
-Activez la conversation pour tous vos utilisateurs à l’aide de la stratégie de conversation existante disponible dans Teams centre d’administration.
+Activez la conversation pour tous vos utilisateurs à l’aide de la stratégie de conversation existante disponible dans le Centre d’administration Teams.
 
 **Gérer les conversations supervisées** :
 

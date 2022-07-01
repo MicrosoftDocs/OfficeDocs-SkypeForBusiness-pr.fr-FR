@@ -1,7 +1,7 @@
 ---
-title: Gérer les paramètres Skype Entreprise dans le Centre d’administration Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+title: Gérer Skype Entreprise paramètres dans le Centre d’administration Microsoft Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -21,32 +21,32 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment gérer les paramètres des fonctionnalités Skype Entreprise dans le centre d’administration Microsoft Teams.
-ms.openlocfilehash: f3c79e40d55319af9a45063893bed285140c6d7f
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+description: Découvrez comment gérer les paramètres des fonctionnalités Skype Entreprise dans le Centre d’administration Microsoft Teams.
+ms.openlocfilehash: 06c5cc4a199a7b29f2db97159850583d6927fc13
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681335"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563702"
 ---
-# <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Gérer les paramètres Skype Entreprise dans le Centre d’administration Microsoft Teams
+# <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Gérer Skype Entreprise paramètres dans le Centre d’administration Microsoft Teams
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
 <a name="sfb-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-En tant qu’administrateur, le centre d’administration Microsoft Teams est l’endroit où vous gérez Skype Entreprise fonctionnalités pour Skype Entreprise utilisateurs de votre organisation. Vous pouvez gérer les paramètres [de votre organisation](#manage-skype-for-business-settings-for-your-organization) sur la page **Skype Entreprise** et les paramètres [des utilisateurs individuels](#manage-skype-for-business-settings-for-individual-users) sous l’onglet **Skype Entreprise** des pages de détails utilisateur.
+En tant qu’administrateur, le Centre d’administration Microsoft Teams est l’endroit où vous gérez Skype Entreprise fonctionnalités pour Skype Entreprise utilisateurs de votre organisation. Vous pouvez gérer les paramètres [de votre organisation](#manage-skype-for-business-settings-for-your-organization) sur la page **Skype Entreprise** et les paramètres [des utilisateurs individuels](#manage-skype-for-business-settings-for-individual-users) sous l’onglet **Skype Entreprise** des pages de détails utilisateur.
 
-La page **Skype Entreprise** s’affiche uniquement si le mode de coexistence de votre organisation n’est pas défini **sur Teams uniquement**. De même, vous ne verrez l’onglet **Skype Entreprise** pour un utilisateur que si le mode de coexistence de l’utilisateur n’est pas **Teams uniquement**. Pour en savoir plus sur les modes de coexistence, consultez [Comprendre Teams et Skype Entreprise coexistence et interopérabilité](teams-and-skypeforbusiness-coexistence-and-interoperability.md), et [Définir vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md).
+La page **Skype Entreprise** s’affiche uniquement si le mode de coexistence de votre organisation n’est pas défini **sur Teams uniquement**. De même, vous ne verrez l’onglet **Skype Entreprise** pour un utilisateur que si le mode de coexistence de l’utilisateur n’est pas **Uniquement Teams**. Pour en savoir plus sur les modes de coexistence, consultez [Comprendre Teams et Skype Entreprise coexistence et interopérabilité](teams-and-skypeforbusiness-coexistence-and-interoperability.md) et [définir vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md).
 
 > [!NOTE]
-> Skype Entreprise paramètres se trouvaient précédemment dans le **portail hérité** dans le centre d’administration Microsoft Teams. Avec la mise hors service du portail hérité, nous avons migré les paramètres vers ces nouveaux emplacements dans le centre d’administration Teams pour la gestion Skype Entreprise.
+> Skype Entreprise paramètres étaient précédemment dans le **portail hérité** dans le Centre d’administration Microsoft Teams. Avec la mise hors service du portail hérité, nous avons migré les paramètres vers ces nouveaux emplacements dans le Centre d’administration Teams pour la gestion Skype Entreprise.
 
-Le [rôle d’administrateur Azure AD](/azure/active-directory/roles/permissions-reference) de l’administrateur général ou de l’administrateur Skype Entreprise doit vous être attribué pour gérer Skype Entreprise fonctionnalités dans le centre d’administration Microsoft Teams.
+Le [rôle d’administrateur Azure AD](/azure/active-directory/roles/permissions-reference) de l’administrateur général ou de l’administrateur Skype Entreprise doit vous être attribué pour gérer Skype Entreprise fonctionnalités dans le Centre d’administration Microsoft Teams.
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>Gérer les paramètres de Skype Entreprise pour votre organisation
 
-Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez aux **paramètres** >  à l’échelle de l’organisation **Skype Entreprise**. À partir de là, vous pouvez configurer et gérer Réunion Skype notifications de diffusion, de confidentialité de présence et d’appareil mobile pour tous les utilisateurs Skype Entreprise de votre organisation.
+Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **paramètres** >  à **l’échelle** de l’organisation Skype Entreprise. À partir de là, vous pouvez configurer et gérer Réunion Skype notifications de diffusion, de confidentialité de présence et d’appareil mobile pour tous les utilisateurs Skype Entreprise de votre organisation.
 
 ### <a name="skype-meeting-broadcast"></a>Diffusion de réunion Skype
 
@@ -80,7 +80,7 @@ Utilisez les paramètres suivants pour gérer Skype Entreprise la confidentialit
 Par défaut, Skype Entreprise utilisateurs de votre organisation peuvent voir l’état de présence (par exemple, Disponible, Occupé ou Absent) d’autres utilisateurs Skype Entreprise. Choisissez l’une des options suivantes pour définir qui peut voir la présence de vos utilisateurs Skype Entreprise.
 
 - **Afficher automatiquement les informations de présence** : tout utilisateur Skype Entreprise de votre organisation qui n’a pas été ajouté à la liste **externe** ou **bloquée** de l’utilisateur peut voir la présence de cet utilisateur.
-- **Afficher les informations de présence uniquement aux contacts d’un utilisateur** : tout utilisateur Skype Entreprise dans la liste contacts de l’utilisateur qui n’est pas ajouté à sa liste **externe** ou **bloquée** peut voir la présence de cet utilisateur. Les utilisateurs peuvent remplacer ce paramètre dans Skype Entreprise en passant à **Paramètres** >  **Tools** > **Options**.
+- **Afficher les informations de présence uniquement aux contacts d’un utilisateur** : tout utilisateur Skype Entreprise dans la liste contacts de l’utilisateur qui n’est pas ajouté à sa liste **externe** ou **bloquée** peut voir la présence de cet utilisateur. Les utilisateurs peuvent remplacer ce paramètre dans Skype Entreprise en cliquant sur **Options** des **outils** >  de **paramètres** > .
 
 #### <a name="mobile-notifications"></a>Notifications mobiles
 
@@ -101,7 +101,7 @@ Tenez compte des points suivants :
 <a name="sfb-user-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Pour gérer Skype Entreprise paramètres pour des utilisateurs individuels, dans le volet de navigation gauche du centre d’administration Teams, accédez à **Utilisateurs**, cliquez sur le nom d’affichage de l’utilisateur pour ouvrir la page de détails de l’utilisateur, puis sélectionnez l’onglet **paramètres Skype Entreprise**. À partir de là, vous pouvez configurer les paramètres d’accès externe et de réunion pour l’utilisateur.
+Pour gérer Skype Entreprise paramètres pour les utilisateurs individuels, dans le volet de navigation gauche du Centre d’administration Teams, accédez à **Utilisateurs**, cliquez sur le nom d’affichage de l’utilisateur pour ouvrir la page de détails de l’utilisateur, puis sélectionnez l’onglet **paramètres Skype Entreprise**. À partir de là, vous pouvez configurer les paramètres d’accès externe et de réunion pour l’utilisateur.
 
 :::image type="content" source="media/skype-for-business-settings-user.png" alt-text="Capture d’écran de l’onglet Skype Entreprise sur la page de détails de l’utilisateur.":::
 
@@ -110,7 +110,7 @@ Pour gérer Skype Entreprise paramètres pour des utilisateurs individuels, dans
 Vous pouvez autoriser ou bloquer de manière sélective si un utilisateur peut communiquer avec des personnes extérieures à votre organisation.
 
 - **Utilisateurs externes Skype Entreprise** : activez cette option si vous souhaitez permettre à l’utilisateur de communiquer avec Skype Entreprise utilisateurs dans des domaines fédérés.
-- **Utilisateurs externes Skype** : activez cette option si vous souhaitez autoriser l’utilisateur à communiquer avec Skype utilisateurs. 
+- **Utilisateurs Skype externes** : activez cette option si vous souhaitez autoriser l’utilisateur à communiquer avec les utilisateurs Skype. 
 
 ### <a name="meeting-settings"></a>Paramètres de réunion
 

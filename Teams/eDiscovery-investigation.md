@@ -17,12 +17,12 @@ description: Découvrez ce qu’il faut faire lorsque vous devez effectuer eDisc
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6f24c780944bfed6bb10fb8b1cd7634edc1ce850
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 4b5a0ca0cb52c4b444769b7bfc25b17cab80a02b
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562423"
+ms.locfileid: "66563942"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -38,7 +38,7 @@ Tout le contenu Teams n’est pas accessible en ligne. Le tableau suivant prése
 
 |Type de contenu|eDiscoverable|Remarques|
 |---|---|---|
-|Enregistrements audio|Non||
+|Enregistrements audio|Oui||
 |Contenu de la carte|Oui|Pour plus d’informations, consultez [Rechercher le contenu de la carte](#search-for-card-content) .|
 |Liens de conversation|Oui||
 |Messages de conversation|Oui|Cela inclut le contenu dans les canaux Teams standard, les conversations 1:1, les conversations de groupe 1:N et les conversations avec les participants de l’utilisateur invité.|
@@ -51,7 +51,6 @@ Tout le contenu Teams n’est pas accessible en ligne. Le tableau suivant prése
 |Conversations par messagerie instantanée de réunion|Oui||
 |Métadonnées<sup>de réunion 1</sup>|Oui||
 |Nom du canal|Oui||
-|Messages de conversation de canal privé et partagé|Oui||
 |Citations|Oui|Le contenu entre guillemets peut faire l’objet d’une recherche. Toutefois, les résultats de la recherche n’indiquent pas que le contenu a été cité.|
 |Réactions (comme les j’aime, les cœurs et d’autres réactions)|Oui||
 |Objet|Oui||

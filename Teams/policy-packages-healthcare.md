@@ -1,7 +1,7 @@
 ---
 title: Packages de stratégie Teams pour la santé publique
-author: serdars
-ms.author: serdars
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Découvrez comment utiliser et gérer les packages de stratégies Teams pour votre organisation de santé publique.
-ms.openlocfilehash: d61075f03af034148205520f1d9f08c313b739ed
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: c4a1d6909cd6a2c7f58c3a30353a3d4398c4c70e
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62417377"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563722"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Packages de stratégie Teams pour la santé publique
 
@@ -52,11 +52,11 @@ Teams inclut actuellement les packages de stratégies de santé suivants.
 |Travailleurs de l’information sur le secteur de la santé  |Travailleurs de l’information de votre organisation de santé |Crée un ensemble de stratégies et de paramètres de stratégie qui donnent aux travailleurs de l’information, par exemple, le personnel de l’information, l’informatique, le personnel financier et les responsables de la mise en conformité, un accès total aux discussions, aux appels et aux réunions.|
 |Salle de soins de santé  |Appareils de salle des patients|Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux salles des patients dans votre organisation de santé.|
 
-![Capture d’écran des packages de stratégies médicales.](media/policy-packages-healthcare.png)
+![Capture d’écran des packages de stratégie de santé.](media/policy-packages-healthcare.png)
 
 Chaque stratégie individuelle reçoit le nom du package de stratégie afin de vous permettre d’identifier facilement les stratégies liées à un package de stratégie. Par exemple, lorsque vous affectez le package de stratégie des professionnels de la santé à des médecins de votre organisation, une stratégie nommée Healthcare_ClinicalWorker est créée pour chaque stratégie du package.
 
-![Capture d’écran des stratégies dans le package pour les travailleurs médicaux.](media/policy-packages-healthcare-clinical-worker.png)
+![Capture d’écran des politiques dans le package Healthcare Clinical Worker.](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>Prise en main avec les packages de stratégie
 
@@ -117,4 +117,4 @@ Un lot peut contenir jusqu’à 5 000 utilisateurs. Vous pouvez spécifier des u
 
 [Gérer les packages de stratégie dans Teams](manage-policy-packages.md)
 
-[Attribuer des packages de stratégies à des utilisateurs et groupes](assign-policy-packages.md)
+[Affecter des packages de stratégie à des utilisateurs et des groupes](assign-policy-packages.md)

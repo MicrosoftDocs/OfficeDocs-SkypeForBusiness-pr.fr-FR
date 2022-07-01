@@ -1,7 +1,7 @@
 ---
 title: Présence des utilisateurs dans Teams
-author: dmaguire
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a928b532dcfb87a866f25502f4523078ce9cd48
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 7e1c436e6bcd204eb383228a73a115a70ae29e08
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012958"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563762"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
@@ -48,7 +48,7 @@ La présence fait partie du profil d’un utilisateur dans Microsoft Teams (et d
 |  ![Un cercle rouge avec une ligne blanche indique Ne pas déranger.](media/Presence_DND.png) Ne pas déranger ||
 || ![Un cercle rouge avec une ligne blanche indique En cours de présentation.](media/Presence_DND.png) Présentation|
 || ![Un cercle rouge avec une ligne blanche indique un Travail individuel en cours](media/Presence_DND.png) Ne pas déranger (travail individuel). Le travail individuel se produit lorsque les utilisateurs planifient un temps de travail individuel dans MyAnalytics/Insights de leur calendrier.|
-| ![Une icône d’horloge jaune indique l’absence.](media/Presence_Away.png) Absent(e)| ![Une icône d’horloge jaune indique l’absence.](media/Presence_Away.png) Absent|
+| ![Une icône d’horloge jaune indique l’absence.](media/Presence_Away.png) Absent(e)| ![Une icône d’horloge jaune indique l’absence.](media/Presence_Away.png) Absent(e)|
 || ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent, *heure* de Vu pour la dernière fois|
 |![Une icône d’horloge jaune indique l’absence, de retour dans quelques minutes](media/Presence_Away.png) De retour dans quelques minutes| |
 |![Un cercle gris avec un x indique un mode Hors connexion.](media/Presence_Offline.png) Apparaître Hors connexion|![Un cercle gris avec un x indique un mode Hors connexion](media/Presence_Offline.png) Hors ligne. Lorsque les utilisateurs ne sont pas connectés sur l’un de leurs appareils, ils apparaissent hors ligne. |

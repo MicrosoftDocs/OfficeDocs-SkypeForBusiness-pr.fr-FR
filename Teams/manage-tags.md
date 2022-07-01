@@ -1,7 +1,7 @@
 ---
 title: Gérer les balises dans Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: acolonna, salu
 ms.topic: article
@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment les balises sont utilisées dans votre organisation dans Microsoft Teams.
-ms.openlocfilehash: 62ac77c6467a17da10fdc3ba66350383d7c8016c
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 146b8fa36eccb446921c87dd98aa3af44458ba00
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675546"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563712"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gérer les balises dans Microsoft Teams
 
@@ -32,7 +32,7 @@ Les balises dans Microsoft Teams permettent aux utilisateurs de se connecter rap
 Comme mentionné précédemment, il existe deux types de balises dans Teams.
 
 - **Balises personnalisées** : les propriétaires d’équipe et les membres de l’équipe (si la fonctionnalité est activée pour eux) peuvent créer et attribuer manuellement des balises à des personnes. Par exemple, une balise « Concepteur » ou « Radiologiste » atteindra ces ensembles de personnes d’une équipe sans avoir à taper leur nom.
-- **Balisage par équipe** : avec cette fonctionnalité, les utilisateurs reçoivent automatiquement des balises qui correspondent à leur planification et à leur nom de groupe de shifts dans [l’application Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) dans Teams. Par exemple, la balise « EngineerOnCall » atteint tous les ingénieurs qui sont planifiés dans Shifts pour travailler au moment où la balise est utilisée dans une conversation ou un billet de canal. Avec le balisage par équipe, Teams ne sait pas le nom du personnel en équipe lorsque les utilisateurs doivent rapidement relayer des informations. L’étiquetage par équipe peut également être soutenu par les principaux systèmes de gestion de la main-d’œuvre tels que JDA, Kronos et AMiON en les intégrant à Shifts dans Teams. Pour en savoir plus sur la configuration de cette fonctionnalité, consultez [Configurer le balisage par décalage](#set-up-tagging-by-shift).
+- **Balisage par équipe** : avec cette fonctionnalité, les utilisateurs reçoivent automatiquement des balises qui correspondent à leur planification et à leur nom de groupe de shifts dans [l’application Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) dans Teams. Par exemple, la balise « EngineerOnCall » atteint tous les ingénieurs qui sont planifiés dans Shifts pour travailler au moment où la balise est utilisée dans une conversation ou un billet de canal. Avec le balisage par équipe, Teams ne connaît pas le nom du personnel en équipe lorsque les utilisateurs ont besoin de relayer rapidement des informations. Le balisage par équipe peut également être soutenu par les principaux systèmes de gestion de la main-d’œuvre tels que JDA, Kronos et AMiON en les intégrant à Shifts dans Teams. Pour en savoir plus sur la configuration de cette fonctionnalité, consultez [Configurer le balisage par décalage](#set-up-tagging-by-shift).
 
 > [!NOTE]
 > Les balises ne sont pas prises en charge dans les canaux privés ou partagés.
@@ -51,9 +51,9 @@ Lorsqu’une balise est @mentioned dans une conversation de canal, les membres d
 
 ## <a name="manage-custom-tags-for-your-organization"></a>Gérer les balises personnalisées pour votre organisation
 
-En tant qu’administrateur, vous pouvez contrôler la façon dont les balises sont utilisées dans votre organisation dans le centre d’administration Microsoft Teams. Actuellement, vous ne pouvez pas utiliser PowerShell pour gérer les balises.
+En tant qu’administrateur, vous pouvez contrôler la façon dont les balises sont utilisées au sein de votre organisation dans le Centre d’administration Microsoft Teams. Actuellement, vous ne pouvez pas utiliser PowerShell pour gérer les balises.
 
-![Capture d’écran des paramètres d’étiquetage dans le centre d’administration Microsoft Teams.](media/manage-tags-admin-settings.png)
+![Capture d’écran des paramètres d’étiquetage dans le Centre d’administration Microsoft Teams.](media/manage-tags-admin-settings.png)
 
 Une équipe peut avoir jusqu’à 100 balises, jusqu’à 200 membres d’équipe peuvent être affectés à une balise et jusqu’à 25 balises dans la même équipe peuvent être attribuées à un seul utilisateur.
 
@@ -61,7 +61,7 @@ Une équipe peut avoir jusqu’à 100 balises, jusqu’à 200 membres d’équip
 
 Par défaut, les propriétaires d’équipe peuvent ajouter des balises personnalisées. Vous pouvez modifier ce paramètre pour autoriser les propriétaires d’équipe et les membres de l’équipe à créer, modifier, supprimer et gérer des balises, ou vous pouvez désactiver les balises pour votre organisation.
 
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, cliquez sur **Teams** >  **Teams paramètres**.
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, cliquez sur **Paramètres** **Teams** > .
 2. Sous **Balisage**, en regard des **balises,** sélectionnez l’une des options suivantes :
 
     - **Propriétaires et membres** de l’équipe : autorisez les propriétaires d’équipe et les membres à gérer les balises.
@@ -72,7 +72,7 @@ Par défaut, les propriétaires d’équipe peuvent ajouter des balises personna
 
 Vous pouvez configurer les paramètres de balises suivants pour contrôler la façon dont les balises personnalisées sont utilisées au sein de votre organisation.
 
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, cliquez sur **Teams** >  **Teams paramètres**.
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, cliquez sur **Paramètres** **Teams** > .
 2. Sous **Balisage**, définissez ce qui suit, en fonction des besoins de votre organisation.
 
     - **Laissez les propriétaires d’équipe remplacer ceux qui peuvent gérer les balises** : lorsque vous activez ce paramètre, les propriétaires d’équipe peuvent définir si les membres de l’équipe peuvent créer et gérer des balises au sein d’une équipe et la valeur des **balises est gérée par** paramètre comme valeur par défaut pour chaque équipe. Si vous désactivez ce paramètre, les **balises sont gérées par** le paramètre ne peuvent pas être modifiées par équipe.
@@ -81,7 +81,7 @@ Vous pouvez configurer les paramètres de balises suivants pour contrôler la fa
 
 ## <a name="manage-custom-tags-settings-for-a-team"></a>Gérer les paramètres de balises personnalisées pour une équipe
 
-Si vous avez activé le paramètre **Laisser les propriétaires d’équipe remplacer ceux qui peuvent gérer les balises** dans le centre d’administration Microsoft Teams, les propriétaires d’équipe peuvent définir si les membres peuvent ajouter des balises au niveau de l’équipe. Pour ce faire, sous l’onglet **Paramètres** d’une équipe, accédez à **Balises**, puis choisissez qui peut ajouter des balises.
+Si vous avez activé le paramètre **Laisser les propriétaires d’équipe remplacer ceux qui peuvent gérer les balises** dans le Centre d’administration Microsoft Teams, les propriétaires d’équipe peuvent définir si les membres peuvent ajouter des balises au niveau de l’équipe. Pour ce faire, sous l’onglet **Paramètres** d’une équipe, accédez à **Balises**, puis choisissez qui peut ajouter des balises.
 
 ![Capture d’écran du paramètre de balises au niveau de l’équipe.](media/manage-tags-team-settings.png)
 
@@ -107,7 +107,7 @@ Le balisage par équipe permet à vos utilisateurs d’atteindre les personnes e
 4. Attendez 15 minutes pour que les équipes planifiées remplissent le service de balisage.
 5. Utilisez la balise partout où vous utilisez des balises dans Teams.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Utilisation de balises dans Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)
 
