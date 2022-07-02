@@ -1,7 +1,7 @@
 ---
 title: Bienvenue dans Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.custom:
 - intro-overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57ec8ab827eae0d0c6334e11fa75b068544f8505
-ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
+ms.openlocfilehash: 9b91bff459d93dee392a428e1a141622c8937c70
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "61625925"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66606243"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bienvenue dans Microsoft Teams
 Si vous êtes l’administrateur de Microsoft Teams dans votre organisation, vous êtes au bon endroit. Lorsque vous êtes prêt à utiliser Teams, commencez par la rubrique [Comment déployer Teams](./deploy-overview.md) et [Configurer une collaboration sécurisée avec Microsoft 365 et Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams) .
@@ -34,7 +34,7 @@ Si vous débutez avec Teams et que vous voulez en savoir plus, regardez notre co
 
 Ne manquez pas notre vidéo Bienvenue dans Teams pour les administrateurs Teams (un peu plus de 3 minutes) :
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vxWb]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
 Si vous recherchez de l’aide pour les utilisateurs finaux Teams, cliquez sur **Aide** sur le côté gauche de l’application ou accédez au [Centre d’aide de Microsoft Teams](https://support.office.com/teams). Pour la formation, accédez à [Formation Microsoft Teams](training-microsoft-teams-landing-page.md). 
 

@@ -1,7 +1,7 @@
 ---
 title: Créer votre programme d’ambassadeurs de Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
@@ -18,47 +18,47 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Découvrez comment former une équipe de champions pour promouvoir l’adoption Teams’adoption en faisant de la sensibilisation, de l’adoption et de l’éducation dans votre organisation.
+description: Découvrez comment former une équipe de champions pour promouvoir l’adoption de Teams en favorisant la sensibilisation, l’adoption et l’éducation au sein de votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 446b0e4ba0cdc549623ac0411a549e481288ed3b
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: f70f47c034234db16e936d12986121df10b43521
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387472"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605823"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Créer votre programme d’ambassadeurs de Microsoft Teams
 
-Les champions sont essentiels pour sensibiliser votre organisation, l’adoption et l’éducation. Un champion est une personne qui est avant tout motivé pour aider d’autres personnes, qui s’intéressent à la nouvelle technologie (spécifiquement Teams) et aident d’autres employés à l’utiliser pour s’aligner sur vos meilleures pratiques. Selon la taille de votre organisation, vous pouvez l’avoir dans le cadre du rôle de cette personne. Bien souvent, les employés prennent ce rôle eux-mêmes en raison de leur motivation essentielle pour aider d’autres personnes.
+Les champions sont essentiels à la sensibilisation, à l’adoption et à l’éducation au sein de votre organisation. Un champion est une personne, principalement motivée par l’aide aux autres, qui s’intéresse aux nouvelles technologies (en particulier Teams) et qui aide les autres employés à l’utiliser conformément à vos meilleures pratiques. En fonction de la taille de votre organisation, cela peut faire partie intégrante du rôle de la personne, mais souvent, les employés prennent ce rôle eux-mêmes en raison de leur motivation principale pour aider les autres.
 
-La stratégie Champions s’intègre à votre planification du lancement global de plusieurs façons, comme illustré ci-dessous.
+Les champions s’intègreront à votre planification de lancement globale de différentes façons, comme indiqué ci-dessous.
 
-![Illustration de la planification du lancement de Champions.](media/teams-adoption-champions.png)
+![Illustration de la planification du lancement des champions.](media/teams-adoption-champions.png)
 
-La champions doit :
+Les champions doivent :
 
-- Être officiellement formé pour accroître leur profondeur et leur éventail de connaissances
-- Encouragez-vous et  donner la possibilité de guider, d’enseigner et de former leurs pairs
-- Être cohérent et positif sur l’impact de leurs efforts
+- Être formés officiellement pour augmenter leur profondeur et leur étendue de connaissances
+- Être encouragés et habilités à guider, enseigner et former leurs pairs
+- Avoir un renforcement cohérent et positif qui affirme l’impact de leurs efforts
 - Avoir un plan clair à exécuter
 
-Utilisez notre [Guide du programme Champions pour](https://aka.ms/M365Champions) créer ce programme dans votre organisation. Nos meilleures pratiques pour cette communauté sont les autres :
+Utilisez notre [Guide du programme champions](https://aka.ms/M365Champions) pour créer ce programme dans votre organisation. Nos meilleures pratiques pour cette communauté sont les suivantes :
 
-- Participez [au programme Champions](https://aka.ms/O365Champions). Assurez-vous qu’au minimum les chefs d’équipe du programme Champions (et éventuellement tous les champions de l’entreprise) sont membres du programme. Cet appel communautaire gratuit et mensuel vous fournira des informations précieuses pour gérer votre propre programme et obtenir le meilleur Teams et d’Microsoft 365 services Office 365'entreprise. Les documents du programme peuvent être réutilisés dans votre propre programme interne.
+- Rejoignez le [Programme des champions](https://aka.ms/O365Champions). Assurez-vous qu’au minimum les dirigeants du programme Champions (et potentiellement tous les champions de l’entreprise) sont membres du programme. Cet appel communautaire gratuit et mensuel fournit des informations précieuses pour exécuter votre propre programme et tirer le meilleur parti de Teams et d’autres services Microsoft 365 ou Office 365. Les documents du programme peuvent être réutilisés dans votre propre programme interne.
 
-- Utilisez l’équipe Team Teamwork Champion : Vos champions doivent utiliser l’équipe que vous avez configurée pour eux pour toutes les communications, commentaires et ressources du programme.  Ce faisant, ils se familiariserront de plus en plus avec le produit et ses avantages.
+- Utilisez l’équipe Teamwork Champion : Vos champions doivent utiliser l’équipe que vous avez configurée pour eux pour toutes les communications, commentaires et ressources du programme.  Ce faisant, ils deviendront de plus en plus familiarisés avec le produit et ses avantages.
 
-- Organisez des réunions mensuelles régulières : Favorisez l’enthousiasme et la cohérence de votre communauté en tenant des réunions mensuelles régulières. Il peut s’agit d’une combinaison de réunions en personne et de réunions virtuelles, mais leur cohérence est essentielle pour disposer d’une communauté de champions.
+- Organisez des réunions mensuelles régulières : favorisez l’enthousiasme et la cohésion de votre communauté en organisant des réunions mensuelles régulières. Il peut s’agir d’une combinaison de réunions en personne et de réunions virtuelles, mais leur cohérence est essentielle pour avoir une communauté de champions prospère.
 
     > [!TIP]
-    > Pour créer vos agendas, planifier vos réunions pour la semaine après l’appel de la communauté publique. 
+    > Pour vous aider à élaborer vos agendas, planifiez vos réunions pour la semaine qui suit l’appel de la communauté publique. 
 
-- Soyez clair sur les conditions requises : certains programmes Champion nécessitent que les membres participent aux réunions mensuelles, organisent des horaires de bureau pour le groupe d’utilisateurs qu’ils assistent et fournissent une formation à de nouveaux utilisateurs. Quelle que soit vos exigences, assurez-vous que les champions sont bien clairs sur la façon de participer avec succès au programme.
+- Soyez clair sur les exigences du programme : certains programmes champions exigent que les membres participent aux réunions mensuelles, tiennent des heures de bureau pour le groupe d’utilisateurs qu’ils prennent en charge et fournissent une formation aux nouveaux utilisateurs. Quelles que soient vos exigences, assurez-vous que les champions sont clairs sur la façon de participer au programme avec succès.
 
-- Récompensez visiblement vos champions : Vos champions vous donnent des informations importantes sur l’avancement et les pièges potentiels de votre projet. Récompensez-les souvent pour leur participation. Les petits gestes sont très longs et, souvent, les employés ne recherchent pas d’gain monétaire, mais ils apprécient la reconnaissance de leurs contributions. Trouvez des méthodes appropriées et amusantes pour remercier votre communauté. 
+- Récompensez visiblement vos champions : vos champions vous donneront des insights importants sur la progression et les pièges potentiels de votre projet. Récompensez-les souvent pour leur participation. Les petits gestes font beaucoup de chemin et, souvent, les employés ne cherchent pas à gagner de l’argent, mais apprécient la reconnaissance de leurs contributions. Trouvez des façons appropriées et amusantes de remercier votre communauté. 
 
-- Formez les champions de temps en temps et souvent : Votre programme démarre et des réunions mensuelles peuvent être utilisées pour développer des compétences dans la communauté de votre champion. Utilisez ces opportunités pour les amener à s’insérer, mener leur formation initiale, les encourager à participer à nos cours et à s’assurer qu’ils sont prêts à soutenir leurs employés à mesure qu’ils avancent dans la phase de expérimentation.  
+- Former les champions tôt et souvent : votre programme démarre et des réunions mensuelles peuvent être utilisées pour acquérir des compétences au sein de votre communauté de champions. Utilisez ces occasions pour les intégrer, effectuer leur formation initiale, les encourager à suivre nos cours et s’assurer qu’ils sont prêts à soutenir leurs employés à mesure qu’ils progressent dans la phase d’expérimentation.  
 
-![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : [Achever le démarrage rapide de la gouvernance](teams-adoption-governance-quick-start.md)
+![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : [Terminer le démarrage rapide de la gouvernance](teams-adoption-governance-quick-start.md)
 

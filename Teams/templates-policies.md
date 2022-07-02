@@ -1,7 +1,7 @@
 ---
 title: Gérer les modèles d’équipe dans le Centre d’administration
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment gérer les modèles d’équipe dans le Centre d’administration
-ms.openlocfilehash: 46b59d42ae464a5f09e9f24ecc91378bd6464034
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 9f2044f059414f9afe1ff335f8204cd26861164b
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681395"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605903"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Gérer les modèles d’équipe dans le Centre d’administration
 
@@ -38,7 +38,7 @@ Regardez cette courte vidéo pour découvrir comment gérer les stratégies de m
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Accédez à **Teams** >  **Templates** stratégies.
+2. Accédez aux **stratégies de modèles** **Teams** > .
 
 3. Sélectionnez **Ajouter**.
 
@@ -70,11 +70,11 @@ Vous pouvez affecter une stratégie de modèles directement aux utilisateurs, in
 > [!Note]
 > Actuellement, l’attribution de stratégies de modèles aux utilisateurs en fonction de l’appartenance au groupe, par exemple à tous les utilisateurs d’un groupe de sécurité, n’est pas prise en charge. Cette fonctionnalité sera disponible à l’avenir.
 
-Pour obtenir une vue d’ensemble des façons d’affecter des stratégies dans Teams, consultez [Affecter des stratégies dans Teams](policy-assignment-overview.md).
+Pour obtenir une vue d’ensemble des façons d’attribuer des stratégies dans Teams, consultez [Affecter des stratégies dans Teams](policy-assignment-overview.md).
 
 ### <a name="assign-a-templates-policy-to-individual-users"></a>Affecter une stratégie de modèles à des utilisateurs individuels
 
-Vous pouvez utiliser le centre d’administration Teams ou PowerShell pour affecter une stratégie de modèles à un utilisateur individuel ou à un petit nombre d’utilisateurs à la fois. Pour plus d’informations, consultez [Affecter une stratégie à des utilisateurs individuels](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users).
+Vous pouvez utiliser le Centre d’administration Teams ou PowerShell pour attribuer une stratégie de modèles à un utilisateur individuel ou à un petit nombre d’utilisateurs à la fois. Pour plus d’informations, consultez [Affecter une stratégie à des utilisateurs individuels](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users).
 
 ### <a name="assign-a-templates-policy-to-a-batch-of-users"></a>Affecter une stratégie de modèles à un lot d’utilisateurs
 
@@ -102,11 +102,11 @@ R : Tous les nouveaux modèles sont visibles par défaut. Vous pouvez choisir de
 
 R : Les modèles supprimés ne seront plus présents dans les stratégies de modèles.
 
-**Q : Puis-je affecter plusieurs utilisateurs à une stratégie de modèles dans le centre d’administration Teams ?**
+**Q : Puis-je affecter plusieurs utilisateurs à une stratégie de modèles dans le Centre d’administration Teams ?**
 
 R : Oui.
 
-1. Dans le centre d’administration Teams, accédez à **Users** > **Manage users**.
+1. Dans le Centre d’administration Teams, accédez à **Users** > **Manage users**.
 1. Dans la liste des utilisateurs, sélectionnez les utilisateurs que vous souhaitez affecter à la stratégie de modèles.
 1. Sélectionnez **Modifier les paramètres**, puis, sous **Stratégie de modèles**, choisissez la stratégie que vous souhaitez affecter.
 1. Choisissez **Appliquer**.
@@ -115,7 +115,7 @@ Pour plus d’informations, consultez [Affecter une stratégie à des utilisateu
 
 **Q : Comment faire afficher tous les utilisateurs affectés à une stratégie spécifique ?**
 
-R : Dans le centre d’administration Teams :
+R : Dans le Centre d’administration Teams :
 
 1. Accédez à **Utilisateurs** > **gérer les utilisateurs**.
 2. Sélectionnez **Filtrer**, définissez un filtre pour la stratégie de modèles, puis **choisissez Appliquer**.
@@ -132,7 +132,7 @@ R : Non, les stratégies de modèles pour EDU ne sont pas prises en charge.
 
 ## <a name="related-articles"></a>Articles connexes
 
-- [Démarrage avec des modèles d’équipe dans le Centre d’administration](./get-started-with-teams-templates-in-the-admin-console.md)
+- [Prise en main des modèles d’équipe dans le Centre d’administration](./get-started-with-teams-templates-in-the-admin-console.md)
 
 - [Créer un modèle d’équipe personnalisé](./create-a-team-template.md)
 
