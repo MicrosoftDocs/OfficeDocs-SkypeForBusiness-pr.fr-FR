@@ -5,6 +5,8 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-apps
+ms.custom: intro-get-started
 audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
@@ -17,18 +19,18 @@ description: Découvrez comment gérer les applications Teams. Découvrez commen
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 25e540a7709ab12b73a97cc94b1350630c302197
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 82ab9372f925e40beac41d4075b49b34118f8851
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529726"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616050"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Gérer les applications Teams dans le Centre d’administration Microsoft Teams
 
 Vous gérez les applications pour votre organisation dans la page **Applications Teams** dans le portail du Centre d’administration Teams. Utilisez la page Gérer les applications pour afficher et gérer toutes les applications Teams dans le catalogue d’applications de votre organisation.
 
-![Capture d’écran de la page Gérer les applications.](media/manage-apps.png)
+:::image type="content" source="media/manage-apps.png" alt-text="Capture d’écran de la page Gérer les applications." lightbox="media/manage-apps.png":::
 
 Pour utiliser le Centre d’administration Teams, vous devez disposer d’un rôle d’administrateur général Administration ou d’administrateur Teams. Pour plus d’informations, consultez les articles d’aide suivants :
 
@@ -156,7 +158,7 @@ Vous utilisez le bouton **Ajouter à l’équipe** pour installer une applicatio
 1. Recherchez une application par son nom et sélectionnez l’application. N’ouvrez pas la page des détails de l’application.
 1. Sélectionnez **Ajouter à l’équipe**.
 
-   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="Capture d’écran de l’option Ajouter à l’équipe pour l’application qui peut être ajoutée à l’étendue de l’équipe." lightbox="media/manage-apps-add-app-team.png":::
+   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="Capture d’écran de l’option Ajouter à l’équipe pour l’application qui peut être ajoutée à l’étendue de l’équipe.":::
 
 1. Dans le volet **Ajouter à l’équipe** , recherchez l’équipe à laquelle vous souhaitez ajouter l’application, sélectionnez l’équipe, puis **sélectionnez Appliquer**.
 

@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System - seo-marvel-apr2020
 description: Consultez cet article pour les applets de commande PowerShell afin de créer et de gérer des standards automatiques et des files d’attente d’appels dans Microsoft Teams.
-ms.openlocfilehash: afb3b6d7992c828c85cebdf83d89a2b17fff6065
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: bbe8f85cdd2e75693cf71e784cb75274f85d7b9b
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494811"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615890"
 ---
 # <a name="powershell-cmdlet-reference-for-auto-attendants-and-call-queues"></a>Informations de référence sur les applets de commande PowerShell pour les standards automatiques et les files d’attente d’appels
 
@@ -58,7 +58,6 @@ Les applets de commande suivantes vous permettent de gérer les standards automa
 
 Pour obtenir un guide pas à pas sur la création de standards automatiques avec PowerShell, consultez [Création de standards automatiques avec des applets de commande PowerShell](create-a-phone-system-auto-attendant-via-cmdlets.md)
 
-
 ## <a name="call-queue-cmdlets"></a>Cmdlets de files d’attente des appels
 
 Les applets de commande suivantes vous permettent de gérer une file d’attente d’appels :
@@ -68,9 +67,7 @@ Les applets de commande suivantes vous permettent de gérer une file d’attente
 - [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
 - [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-
 Pour obtenir un guide pas à pas sur la création de files d’attente d’appels avec PowerShell, consultez [Création de files d’attente d’appels avec des applets de commande PowerShell](create-a-phone-system-call-queue-via-cmdlets.md)
-
 
 ## <a name="common-cmdlets-used-by-both-auto-attendants-and-call-queues"></a>Applets de commande courantes utilisées par les standards automatiques et les files d’attente d’appels
 
@@ -96,18 +93,15 @@ Les applets de commande suivantes sont également nécessaires pour gérer les u
 - [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
 - [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
 
-
-### <a name="virtual-teams-phone-licenses"></a>Licences Virtual Teams Phone
+### <a name="teams-phone-resource-account-licenses"></a>Licences de compte de ressources de téléphone Teams
 
 - [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
 - [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
-
 
 ### <a name="phone-number-assignment"></a>Affectation de numéro de téléphone
 
 - [Get-CsPhoneNumberAssignment](/powershell/module/teams/Get-CsPhoneNumberAssignment)
 - [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)
-
 
 ### <a name="audio-files"></a>Fichiers audio
 
@@ -116,9 +110,7 @@ Les applets de commande suivantes sont également nécessaires pour gérer les u
 - [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
 - [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
 
-
 ### <a name="support-languages-and-time-zones"></a>Langues et fuseaux horaires de prise en charge
 
 - [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
 - [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-

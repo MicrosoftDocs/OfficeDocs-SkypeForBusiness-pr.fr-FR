@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams des e-mails et des enquêtes de transition | Mise à niveau de base
-author: SerdarSoysal
-ms.author: serdars
+title: E-mails et enquêtes Microsoft Teams Transition | Mise à niveau de base
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Exemples d’e-mails et d’enquêtes à utiliser en conjunciton avec le plan d’action en dix étapes accélérée pour la mise à niveau d’Skype Entreprise à Teams
+description: Exemples d’e-mails et d’enquêtes à utiliser en conjoncton avec le plan d’action en dix étapes accéléré pour la mise à niveau de Skype Entreprise vers Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,20 +18,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 928ccad80670a140bfe72eaf42c94b145c0134e0
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: bb091735402abf89a7eb20b681252bbb1b681ee3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62409807"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615630"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemples de courriers électroniques et d’enquêtes pour les communications De base
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemples d’e-mails et d’enquêtes pour mettre à niveau les communications de base
 
-## <a name="sample-emails"></a>Exemples de courriers électroniques
+## <a name="sample-emails"></a>Exemples d’e-mails
 
 <a name="step-1-email"></a>
 
-### <a name="stakeholder-email-for-step-1"></a>Courrier des parties prenantes, pour l’étape 1
+### <a name="stakeholder-email-for-step-1"></a>E-mail des parties prenantes, pour l’étape 1
 
 Ligne d’objet :
 
@@ -53,7 +53,7 @@ Microsoft has provided an upgrade checklist outlining the essential tasks we sho
 
 <a name="step-4-email"></a>
 
-### <a name="notify-users-email-for-step-4"></a>Informer les utilisateurs du courrier électronique à l’étape 4
+### <a name="notify-users-email-for-step-4"></a>Avertir les utilisateurs par e-mail, pour l’étape 4
 
 Ligne d’objet :
 
@@ -82,9 +82,9 @@ If you have questions or need help, please reach out to <<insert company support
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a>Rappeler aux utilisateurs de recevoir un courrier électronique à l’étape 6
+### <a name="remind-users-email-for-step-6"></a>Rappeler aux utilisateurs l’e-mail, pour l’étape 6
 
-Ligne d’objet : RAPPEL : Préparez-vous pour la mise à niveau vers Teams
+Ligne d’objet : RAPPEL : Préparez-vous pour votre mise à niveau vers Teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
@@ -113,7 +113,7 @@ Should you have questions about this upgrade, contact <<insert alias or contact 
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>Courrier de bienvenue des utilisateurs du sponsor exécutif, pour l’étape 7
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>Bienvenue utilisateurs e-mail du sponsor exécutif, pour l’étape 7
 
 Ligne d’objet :
 
@@ -148,7 +148,7 @@ Regards,
 
 <a name="step-9-email"></a>
 
-### <a name="check-in-email-for-step-9"></a>E-mail d’enregistrement, pour l’étape 9
+### <a name="check-in-email-for-step-9"></a>E-mail d’archivage, pour l’étape 9
 
 Ligne d’objet :
 
@@ -170,7 +170,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Courrier électronique pour demander aux utilisateurs d’essayer les équipes et les canaux, à l’étape 10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>E-mail pour demander aux utilisateurs d’essayer les équipes et les canaux, pour l’étape 10
 
 Ligne d’objet :
 
@@ -201,29 +201,29 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>Exemples d’enquêtes
 
-Indiquez si vous êtes qualifié pour effectuer les activités suivantes dans Teams et s’il existe une ou plusieurs activités dont vous souhaitez en savoir plus.
+Indiquez les compétences que vous avez pour effectuer les activités suivantes dans Teams et si vous souhaitez en savoir plus sur une ou plusieurs activités.
 
-| &nbsp; | Très qualifié | Assez qualifiée | Il n’est pas du tout qualifié | Vous souhaitez en savoir plus | S/O | Vous ne savez pas ou ne vous connaissez pas |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
+| &nbsp; | Très qualifié | Un peu qualifié | Pas du tout qualifié | Vous souhaitez en savoir plus | S/O | Incertain/pas familier |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Utiliser des Teams messagerie instantanée/discuter avec d’autres personnes | | | | | | | | | | |
-| Utiliser des Teams pour les réunions en ligne | | | | | | | | | | |
-| Utiliser des Teams pour la collaboration (équipes et canaux) | | | | | | | | | | |
+| Utiliser Teams pour la messagerie instantanée/discuter avec d’autres personnes | | | | | | | | | | |
+| Utiliser Teams pour les réunions en ligne | | | | | | | | | | |
+| Utiliser Teams pour la collaboration (équipes et canaux) | | | | | | | | | | |
 | Utiliser Teams sur mon appareil mobile | | | | | | | | | | |
 
-| **Quelles sont les choses qui vous empêchent d’utiliser Microsoft Teams ?** | **Sélectionner toutes les sélections applicables** |
+| **Qu’est-ce qui, le cas échéant, vous empêche d’utiliser Microsoft Teams ?** | **Sélectionner tout ce qui s’applique** |
 |---|---|
-| Je n’en ai jamais entendu parler | &#9744; |
-| Je ne l’ai pas installée sur mon ordinateur | &#9744; |
-| Je ne comprends pas à quoi cela pourrait être bénéfique pour moi ou pour les personnes avec qui je travaille | &#9744; |
+| Je n’en ai jamais entendu parler. | &#9744; |
+| Je ne l’ai pas installé sur mon ordinateur | &#9744; |
+| Je ne comprends pas comment cela serait bénéfique pour moi ou les gens avec qui je travaille | &#9744; |
 | Je n’ai pas eu le temps de l’évaluer pour mes besoins | &#9744; |
 | J’utilise déjà d’autres applications qui répondent à mes besoins en matière de communication et de collaboration | &#9744; |
-| J’ai besoin d’une formation avant de l’utiliser | &#9744; |
+| J’aurais besoin d’une formation avant de l’utiliser | &#9744; |
 | J’ai essayé de l’utiliser, mais j’ai eu des problèmes techniques ou une mauvaise expérience | &#9744; |
 | Notre support technique n’a pas pu m’aider avec mes questions | &#9744; |
 | Rien, je l’utilise actuellement | &#9744; |
-| Autre (veuillez spécifier) | &#9744; |
+| Autre (spécifiez) | &#9744; |
 
-**Allez-vous recommander l’Microsoft Teams à un ami/un collègue ? (0=Pas du tout... 10=Très probable)**
+**Êtes-vous susceptible de recommander Microsoft Teams à un ami/un collègue ? (0=Pas du tout probable... 10=Extrêmement probable)**
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|

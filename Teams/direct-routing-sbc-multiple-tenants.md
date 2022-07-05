@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment configurer un contrôleur de frontière de session (SBC) pour servir plusieurs locataires pour les partenaires Microsoft et/ou les opérateurs RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48a045ea84cabf34ec6f95b4aa0f605a3155d50e
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9221414053b0ee92b87553e0f81c23b41b23f0fb
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240663"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616340"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -139,7 +139,7 @@ Une fois que vous avez inscrit un nom de domaine, vous devez l’activer en ajou
 - Compte d’utilisateur avec Office 365 E1/E3/E5/A3/A5 ou Microsoft 365 E3/E5/A3/A5
 - Compte d’utilisateur avec Office 365 F1/F3 ou Microsoft 365 F1/F3
 - Compte d’utilisateur avec téléphone de zone commune
-- Compte de ressource avec licence d’utilisateur virtuel
+- Compte de ressource avec **licence de compte de ressource Téléphonie Microsoft Teams**
 
 En outre, l’UPN du compte (nom d’utilisateur principal) ou Skype Entreprise’adresse SIP locale doit utiliser le même nom de domaine complet que le domaine nouvellement créé.
 
@@ -189,22 +189,22 @@ Pour plus d’informations sur les rôles d’administrateur et sur l’attribut
 
 10. Sélectionnez **Terminer** dans la page **Mettre à jour les paramètres DNS** .
 
-11. Vérifiez que l’état est **terminé**. 
-    
+11. Vérifiez que l’état est **terminé**.
+
     ![Capture d’écran de la page montrant l’état de l’installation terminée.](media/direct-routing-12-sbc-setup-complete.png)
-    
+
 > [!NOTE]
 > L’URL de base et le sous-domaine du client individuel doivent se trouver sur le même locataire pour vous permettre d’ajouter une jonction de _route directe_ .
 
 ### <a name="activate-the-subdomain-name"></a>Activer le nom du sous-domaine
 
 Une fois que vous avez inscrit un nom de sous-domaine, vous devez l’activer en ajoutant au moins un compte d’utilisateur ou de ressource sous licence Teams. Les comptes acceptables sont concédés sous licence avec l’une des références SKU suivantes :
- 
+
 -   Compte d’utilisateur avec Office 365 E1/E3/E5/A3/A5 ou Microsoft 365 E3/E5/A3/A5
 -   Compte d’utilisateur avec Office 365 F1/F3 ou Microsoft 365 F1/F3
 -   Compte d’utilisateur avec téléphone de zone commune
--   Compte de ressource avec licence d’utilisateur virtuel
- 
+-   Compte de ressource avec une licence **de compte de ressource Téléphonie Microsoft Teams**
+
 En outre, l’UPN du compte (nom d’utilisateur principal) ou Skype Entreprise’adresse SIP locale doit utiliser le même nom de domaine complet que le sous-domaine nouvellement créé.
 
 Pour plus d’informations sur l’ajout d’utilisateurs dans les organisations Microsoft 365, consultez [Obtenir de l’aide sur Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).

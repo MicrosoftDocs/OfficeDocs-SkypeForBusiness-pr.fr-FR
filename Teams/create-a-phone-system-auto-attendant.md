@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et gérer des standards automatiques dans Microsoft Teams.
-ms.openlocfilehash: 37326ec03c22c91de5f4c4edb94aaad67f52bde5
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 384c7aae5e11c938a6bf8ab5f82924d0379a83aa
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240943"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616110"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
 
@@ -57,9 +57,9 @@ Les étapes décrites dans l’article créent des standards automatiques à l�
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>Suivez ces étapes pour configurer votre standard automatique
 
-# <a name="step-1---general-info"></a>[Étape 1 - Informations générales](#tab/general-info)
+# <a name="step-1-general-info"></a>[Étape 1 : Informations générales](#tab/general-info)
 
-## <a name="step-1---set-the-auto-attendants-general-information"></a>Étape 1 : définir les informations générales du standard automatique
+## <a name="step-1-set-the-auto-attendants-general-information"></a>Étape 1 : Définir les informations générales du standard automatique
 
 Pour configurer un standard automatique, dans le [Centre d’administration Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851), développez **Voix**, sélectionnez **Standards automatiques**, puis **Sélectionnez Ajouter**.
 
@@ -78,10 +78,9 @@ Pour configurer un standard automatique, dans le [Centre d’administration Team
 
 Une fois que vous avez défini les informations générales de votre standard automatique, sélectionnez **Suivant**.
 
+# <a name="step-2-basic-call-flow"></a>[Étape 2 : Flux d’appel de base](#tab/call-flow)
 
-# <a name="step-2---basic-call-flow"></a>[Étape 2 - Flux d’appel de base](#tab/call-flow)
-
-## <a name="step-2---set-up-the-basic-call-flow"></a>Étape 2 : Configurer le flux d’appel de base
+## <a name="step-2-set-up-the-basic-call-flow"></a>Étape 2 : Configurer le flux d’appel de base
 
 ### <a name="set-a-greeting"></a>Définir un message d’accueil
 
@@ -131,9 +130,9 @@ Pour plus d’informations, reportez-vous à la [référence Numérotation et vo
 
 Une fois que vous avez défini vos options de flux d’appel de base, sélectionnez **Suivant**.
 
-# <a name="step-3---after-hours-call-flow"></a>[Étape 3 - Flux d’appels après heures](#tab/after-hours)
+# <a name="step-3-after-hours-call-flow"></a>[Étape 3 : Flux d’appels après heures](#tab/after-hours)
 
-## <a name="step-3---set-up-call-flow-for-after-hours-optional"></a>Étape 3 : Configurer le flux d’appels après les heures de travail (facultatif)
+## <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>Étape 3 : Configurer le flux d’appels après les heures de travail (facultatif)
 
 Les heures d’ouverture peuvent être définies pour chaque standard automatique.
 
@@ -151,9 +150,9 @@ Si vous souhaitez séparer le routage des appels pour les appelants après les h
 
 Une fois que vous avez ajouté votre flux d’appels après heures, sélectionnez **Suivant**.
 
-# <a name="step-4---holiday-call-flow"></a>[Étape 4 - Flux d’appels de vacances](#tab/holidays)
+# <a name="step-4-holiday-call-flow"></a>[Étape 4 : Flux d’appels de vacances](#tab/holidays)
 
-## <a name="step-4---set-up-call-flows-for-holidays-optional"></a>Étape 4 : Configurer des flux d’appels pour les jours fériés (facultatif)
+## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Étape 4 : Configurer des flux d’appels pour les jours fériés (facultatif)
 
 Votre standard automatique peut avoir un flux [d’appels pour chaque congé que vous avez configuré](set-up-holidays-in-teams.md). Vous pouvez ajouter jusqu'à 20 congés planifiés pour chaque standard automatique.
 
@@ -176,9 +175,9 @@ Répétez la procédure en fonction des besoins pour chaque congé supplémentai
 
 Une fois que vous avez ajouté toutes vos heures de congé, sélectionnez **Suivant**.
 
-# <a name="step-5---dial-scope"></a>[Étape 5 - Portée de numérotation](#tab/dial-scope)
+# <a name="step-5-dial-scope"></a>[Étape 5 : Étendue de numérotation](#tab/dial-scope)
 
-## <a name="step-5---set-up-dial-scope-optional"></a>Étape 5 : Configurer l’étendue de numérotation (facultatif)
+## <a name="step-5-set-up-dial-scope-optional"></a>Étape 5 : Configurer l’étendue de numérotation (facultatif)
 
 *L’étendue de numérotation* définit les utilisateurs disponibles dans le répertoire lorsqu’un appelant utilise le numérotation par nom ou numérotation par extension. La valeur par défaut de **Tous les utilisateurs en ligne** inclut tous les utilisateurs de votre organisation qui sont des utilisateurs en ligne ou hébergés localement à l’aide de Skype Entreprise Server.
 
@@ -191,9 +190,9 @@ Si un utilisateur se trouve dans les deux listes, il est exclu du répertoire.
 
 Une fois que vous avez sélectionné vos options **d’étendue de numérotation** , sélectionnez **Suivant**.
 
-# <a name="step-6---resource-accounts"></a>[Étape 6 - Comptes de ressources](#tab/resource-accounts)
+# <a name="step-6-resource-accounts"></a>[Étape 6 : Comptes de ressources](#tab/resource-accounts)
 
-## <a name="step-6---set-up-resource-accounts-optional"></a>Étape 6 : Configurer des comptes de ressources (facultatif)
+## <a name="step-6-set-up-resource-accounts-optional"></a>Étape 6 : Configurer des comptes de ressources (facultatif)
 
 Tous les standards automatiques doivent avoir un compte de ressources associé.  Les standards automatiques de premier niveau auront besoin d’au moins un compte de ressource associé à un numéro de service. Si vous le souhaitez, vous pouvez affecter plusieurs comptes de ressources à un standard automatique, chacun avec un numéro de service distinct.
 
@@ -203,9 +202,9 @@ Une fois que vous avez ajouté des comptes de ressources, sélectionnez **Suivan
 
 Pour plus d’informations, consultez [Gérer les comptes de ressources Teams](manage-resource-accounts.md) .
 
-# <a name="additional-resources"></a>[Ressources supplémentaires](#tab/additional-resources)
+---
 
-## <a name="resources-for-more-complex-scenarios"></a>Ressources pour des scénarios plus complexes
+## <a name="resources-for-complex-scenarios"></a>Ressources pour des scénarios complexes
 
 ### <a name="external-phone-number-transfers---technical-details"></a>Transferts de numéros de téléphone externes - Détails techniques
 
@@ -237,9 +236,7 @@ Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suiva
 
 3. Les tests identifient les configurations de locataire, de stratégie ou de compte de ressource qui empêchent le standard automatique de recevoir des appels et fournissent des étapes pour résoudre les problèmes identifiés.
 
----
-
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Sujets associés
 
 [Voici ce que vous obtenez avec Teams Phone](./here-s-what-you-get-with-phone-system.md)
 

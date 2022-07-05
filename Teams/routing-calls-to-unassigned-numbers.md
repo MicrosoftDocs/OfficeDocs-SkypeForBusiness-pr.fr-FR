@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment router les appels vers des numéros non attribués dans votre organisation.
-ms.openlocfilehash: f092cf5501d723dabb4336d648387833dd376e9b
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: 8874fc5a47ede1c35178cf16c7d3eded6f7826a7
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65304056"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615730"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Routage des appels vers des numéros non attribués
 
@@ -40,7 +40,7 @@ Vous pouvez acheminer les appels vers des numéros non attribués à un utilisat
 
 ## <a name="configuration"></a>Configuration
 
-Pour acheminer les appels vers un numéro non attribué, utilisez l’applet de commande New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment disponible dans Teams module PowerShell 2.5.1 ou version ultérieure.
+Pour acheminer les appels vers un numéro non attribué, utilisez l’applet de commande New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment disponible dans le module Teams PowerShell 2.5.1 ou version ultérieure.
 
 Vous devez spécifier le nombre ou la plage de nombres appelés et le routage associé pour les appels à ces numéros. Par exemple, la commande suivante spécifie que tous les appels au numéro +1 (555) 222-3333 seront routées vers le compte de ressource aa@contoso.com :
 
@@ -69,15 +69,15 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - Pour acheminer les appels vers des numéros d’abonnés du plan d’appels Microsoft non attribués, votre locataire doit disposer de [crédits de communication](what-are-communications-credits.md) disponibles.
 
-- Pour acheminer les appels vers des numéros de service de plan d’appel Microsoft non attribués, votre locataire doit disposer d’au moins un Système téléphonique : licence d’utilisateur virtuel.
+- Pour acheminer les appels vers des numéros de service de plan d’appel Microsoft non attribués, votre locataire doit disposer d’au moins une **licence de compte de ressource Téléphonie Microsoft Teams**.
 
 - Les formats pris en charge par le fichier audio personnalisé sont WAV (PCM linéaire non compressé avec une profondeur de 8/16/32 bits en mono ou stéréo), WMA (mono uniquement) et MP3. Le contenu du fichier audio ne peut pas dépasser 5 Mo.
 
-- Les appels entrants à Microsoft Teams et les appels sortants de Microsoft Teams verront le numéro appelé vérifié par rapport à la plage de numéros non attribués.
+- Les appels entrants à Microsoft Teams et les appels sortants de Microsoft Teams auront le numéro appelé vérifié par rapport à la plage de numéros non attribués.
 
-- Si un modèle/plage spécifié contient des numéros de téléphone affectés à un compte d’utilisateur ou de ressource dans le locataire, les appels à ces numéros de téléphone sont acheminés vers la cible appropriée et non routés vers le traitement de numéros non attribués spécifié. Il n’y a pas d’autres vérifications des nombres dans la plage. Si la plage contient un numéro de téléphone externe valide, les appels sortants de Microsoft Teams vers ce numéro de téléphone seront acheminés en fonction du traitement.
+- Si un modèle/plage spécifié contient des numéros de téléphone affectés à un compte d’utilisateur ou de ressource dans le locataire, les appels à ces numéros de téléphone sont acheminés vers la cible appropriée et non routés vers le traitement de numéros non attribués spécifié. Il n’y a pas d’autres vérifications des nombres dans la plage. Si la plage contient un numéro de téléphone externe valide, les appels sortants de Microsoft Teams vers ce numéro de téléphone sont acheminés en fonction du traitement.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Get-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/get-csteamsunassignednumbertreatment)
 

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer Messagerie vocale infonuagique pour vos utilisateurs.
-ms.openlocfilehash: 259072194dc474d88a979ac3afb591e72eb51248
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9d6752098ff9dee6294d53fb24f6b7df6ee8e21c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494371"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616250"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -105,7 +105,7 @@ Lorsqu’une personne laisse un message vocal pour un utilisateur de votre organ
 
 Pour chiffrer le message vocal, vous pouvez créer une étiquette de confidentialité. Avec la fonctionnalité d’étiquetage automatique, vous pouvez vous assurer que l’étiquette sera appliquée automatiquement aux messages vocaux entrants.
 
-Lorsque vous activez la messagerie vocale protégée, les utilisateurs peuvent écouter les messages vocaux protégés en appelant dans leur boîte aux lettres de messagerie vocale ou en ouvrant le message dans Outlook, Outlook sur le web ou Outlook pour Android ou iOS. Les messages vocaux protégés ne peuvent pas être ouverts dans Microsoft Teams ou Skype Entreprise.
+Lorsque vous activez la messagerie vocale protégée, les utilisateurs peuvent écouter les messages vocaux protégés en ouvrant le message dans Outlook, Outlook sur le web ou Outlook pour Android ou iOS. Les messages vocaux protégés ne peuvent pas être ouverts dans Microsoft Teams ou Skype Entreprise.
 
 Pour créer une étiquette de confidentialité pour la messagerie vocale, consultez [Utiliser des étiquettes de confidentialité](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions). Dans la section **Chiffrement** , choisissez **Autoriser les utilisateurs à attribuer des autorisations lorsqu’ils appliquent l’étiquette**. Sélectionnez **Dans Outlook, appliquez l’une des restrictions suivantes**, puis sélectionnez l’option **Ne pas transférer** .
 

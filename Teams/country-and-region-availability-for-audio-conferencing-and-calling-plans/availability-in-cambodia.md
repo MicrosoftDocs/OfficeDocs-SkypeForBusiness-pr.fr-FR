@@ -1,36 +1,41 @@
 ---
 title: Disponibilité au Cambodge
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.reviewer: 'mikedav, jastark, oscarr, v-sukade, rcole, fafan'
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - M365-voice
+- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Audio Conferencing
-  - Phone System
-  - Calling Plans
-description: Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour le Cambodge.
+- Audio Conferencing
+- Phone System
+- Calling Plans
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Cambodge.
+ms.openlocfilehash: c5bfe7453d86e7448d8916415fd5d979b6480caa
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616210"
 ---
-
 # <a name="availability-in-cambodia"></a>Disponibilité au Cambodge
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour le Cambodge.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Cambodge.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -57,13 +62,13 @@ Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Micro
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
 
-Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les [options de connectivité PSTN](../pstn-connectivity.md) pour toutes les options disponibles.
+Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les [options de connectivité RTC](../pstn-connectivity.md) pour toutes les options disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | #A0 |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | 1995: 1 |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Non <br/> |
    

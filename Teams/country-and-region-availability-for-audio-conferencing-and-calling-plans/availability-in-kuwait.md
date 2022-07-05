@@ -1,7 +1,7 @@
 ---
 title: Disponibilité au Koweït
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise et Microsoft Teams koweït.
-ms.openlocfilehash: 819a163d4c57cbe56a73012045f226531d4718e2
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Koweït.
+ms.openlocfilehash: 27acfd2cc4d08f5ff8cef8611e13bad17e5ad4a7
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400108"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616100"
 ---
 # <a name="availability-in-kuwait"></a>Disponibilité au Koweït
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise et Microsoft Teams koweït.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Koweït.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -62,13 +62,13 @@ Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
 
-Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les [options de connectivité PSTN](../pstn-connectivity.md) pour toutes les options disponibles.
+Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les [options de connectivité RTC](../pstn-connectivity.md) pour toutes les options disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | Koweït City <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | Koweït <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Non  <br/> |
    

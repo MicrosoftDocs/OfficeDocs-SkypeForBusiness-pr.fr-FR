@@ -6,6 +6,7 @@ ms.reviewer: ''
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: teams-chat
 audience: admin
 search.appverid: MET150
 description: Découvrez la variété d'équipes, de canaux et d'applications disponibles pour des exigences très variées, telles que les opérations financières, la planification d'événements, les ventes, etc.
@@ -18,16 +19,17 @@ ms.custom:
 - ms.teamsadmincenter.teamschannel.overview
 - ms.teamsadmincenter.teamssettings.overview
 - okr_smb
+- intro-overview
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bd98159e9e209cba855e1a0f2d0ee853b3ba889
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: 74f4580eee7ee7ee935b405cfe51c4a3e49ef98c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756890"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616280"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 
@@ -75,7 +77,7 @@ Les propriétaires d’équipe peuvent gérer les paramètres à l’échelle de
 
 Si vous êtes administrateur Teams dans Microsoft 365, vous avez accès aux paramètres à l’échelle du système dans le Centre d’administration Teams. Ces paramètres peuvent avoir une incidence sur les options et valeurs par défaut que les propriétaires d'équipe voient sous les paramètres de l’équipe. Par exemple, vous pouvez activer un canal « Général » par défaut, pour les annonces, discussions et ressources de l’équipe, qui s’afficheront pour toutes les équipes.
 
-Par défaut, tous les utilisateurs sont autorisés à créer une équipe. Pour modifier ceci, consultez la rubrique [Attribuer des rôles et des autorisations dans Teams](assign-roles-permissions.md).
+Par défaut, tous les utilisateurs sont autorisés à créer une équipe dans Microsoft Teams. Pour modifier cela, consultez [Attribuer des rôles et des autorisations dans Teams](assign-roles-permissions.md).
 
 L’une des principales activités de planification pour impliquer les utilisateurs dans Teams consiste à aider les utilisateurs à réfléchir et à comprendre comment Teams peut améliorer la collaboration dans leur vie quotidienne. Discutez avec les utilisateurs et aidez-les à sélectionner les scénarios d’entreprise dans lesquels ils collaborent actuellement de manière fragmentée. Rassemblez-les dans un canal avec les onglets pertinents qui les aideront à effectuer leur travail. Un des cas d’utilisation les plus puissants de Teams est un processus inter-organisationnel.
 

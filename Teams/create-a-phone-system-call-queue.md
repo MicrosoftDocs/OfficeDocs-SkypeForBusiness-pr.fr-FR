@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels dans Microsoft Teams. Les files d’attente d’appels fournissent un message d’accueil, de la musique de suspension, la redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: b90dc937d9df1b8578e80c34c96030caf2db5bad
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: cd5e0cc291b353b8bb46d82333275cc44ef860d3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494691"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616170"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -96,7 +96,7 @@ Pour plus d’informations, consultez [Gérer les comptes de ressources Teams](m
 Vous pouvez affecter des numéros d’ID d’appelant sortant pour les agents en spécifiant un ou plusieurs comptes de ressources avec un numéro de téléphone. Les agents peuvent sélectionner le numéro d’ID d’appelant sortant à utiliser avec chaque appel sortant qu’ils effectuent. Dans l’application Appels, les agents peuvent utiliser leur numéro de file d’attente d’appels /standard automatique (AA) ou leur propre numéro direct entrant personnel (DID).
 
 > [!NOTE]
-> Le compte de ressource utilisé à des fins d’appel d’ID doit avoir une licence **Système Téléphonie Microsoft Teams - Utilisateur virtuel** et l’une des opérations suivantes :
+> Le compte de ressource utilisé à des fins d’appel d’ID doit avoir une licence **de compte** de ressource Téléphonie Microsoft Teams et l’une des opérations suivantes doit être attribuée :
 >
 > - Une licence de forfait d’appels et un numéro de téléphone attribué
 > - Un numéro de téléphone Operator Connect attribué
@@ -121,7 +121,7 @@ Si vous n’avez pas de compte de ressource avec un numéro de téléphone attri
 
 Une fois que vous avez créé ce nouveau compte de ressource pour appeler l’ID, vous devez toujours :
 
-- Attribuer une [Téléphonie Teams standard - Licence d’utilisateur virtuel](manage-resource-accounts.md#assign-a-license)
+- Attribuer une [licence de compte de ressource téléphonique Teams](manage-resource-accounts.md#assign-a-license)
 - Attribuer une licence de plan d’appels Microsoft, attribuer un numéro de téléphone Operator Connect ou attribuer une stratégie de routage vocal en ligne pour le routage direct
 - Affectez le [numéro de téléphone du service au compte de ressource](manage-resource-accounts.md#assign-a-service-number), si vous utilisez le plan d’appel Microsoft
 
@@ -133,7 +133,7 @@ Ce langage sera utilisé pour les invites vocales générées par le système et
 
 Une fois que vous avez sélectionné une langue, sélectionnez le bouton **Suivant** en bas de la page **Ajouter une file d’attente d’appels** .
 
-# <a name="step-2---greeting-and-music"></a>[Étape 2 - Salutations et musique](#tab/greeting-music)
+# <a name="step-2-greeting-and-music"></a>[Étape 2 : Salutations et musique](#tab/greeting-music)
 
 ## <a name="step-2-add-a-greeting-and-on-hold-music"></a>Étape 2 : Ajouter un message d’accueil et de la musique en attente
 
@@ -151,7 +151,7 @@ Teams fournit de la musique par défaut aux appelants pendant qu’ils sont *en 
 
 Une fois que vous avez sélectionné un message d’accueil et une musique en attente, sélectionnez le bouton **Suivant** en bas de la page **Ajouter une file d’attente d’appels** .
 
-# <a name="step-3---call-answering"></a>[Étape 3 : Répondre aux appels](#tab/call-answering)
+# <a name="step-3-call-answering"></a>[Étape 3 : Répondre aux appels](#tab/call-answering)
 
 ## <a name="step-3-set-up-who-will-answer-incoming-calls"></a>Étape 3 : Configurer qui répondra aux appels entrants
 
@@ -223,7 +223,7 @@ Les comptes Teams des agents doivent être définis en mode TeamsOnly. Les agent
 
 Une fois que vous avez sélectionné les options de réponse aux appels, sélectionnez le bouton **Suivant** en bas de la page **Ajouter une file d’attente d’appels** .
 
-# <a name="step-4---agent-routing"></a>[Étape 4 - Routage de l’agent](#tab/agent-routing)
+# <a name="step-4-agent-routing"></a>[Étape 4 : Routage de l’agent](#tab/agent-routing)
 
 ## <a name="step-4-select-your-agent-routing-options"></a>Étape 4 : Sélectionner les options de routage de votre agent
 
@@ -285,7 +285,7 @@ Nous vous recommandons de définir **l’heure d’alerte de l’agent** sur **2
 
 Une fois que vous avez sélectionné les options de routage des appels de votre agent, sélectionnez le bouton **Suivant** en bas de la page **Ajouter une file d’attente d’appels** .
 
-# <a name="step-5---call-overflow"></a>[Étape 5 - Dépassement de capacité des appels](#tab/call-overflow)
+# <a name="step-5-call-overflow"></a>[Étape 5 : Dépassement d’appel](#tab/call-overflow)
 
 ## <a name="step-5-set-how-to-handle-call-overflow"></a>Étape 5 : Définir la façon de gérer le dépassement de capacité des appels
 
@@ -308,7 +308,7 @@ Pour les transferts externes, consultez [Les prérequis](./plan-auto-attendant-c
 
 Une fois que vous avez sélectionné vos options de délai d’expiration d’appel, sélectionnez le bouton **Suivant** en bas de la page **Ajouter une file d’attente d’appels** .
 
-# <a name="step-6---call-timeout"></a>[Étape 6 - Délai d’expiration des appels](#tab/call-timeout)
+# <a name="step-6-call-timeout"></a>[Étape 6 : Délai d’expiration des appels](#tab/call-timeout)
 
 ## <a name="step-6-set-how-to-handle-call-timeouts"></a>Étape 6 : Définir comment gérer les délais d’expiration des appels
 
@@ -327,9 +327,11 @@ Pour les transferts externes, consultez [Les prérequis](./plan-auto-attendant-c
 
 Une fois que vous avez sélectionné les options de routage des appels de votre agent, **sélectionnez** le bouton Envoyer en bas de la page **Ajouter une file d’attente d’appels** .
 
-# <a name="additional-resources"></a>[Ressources supplémentaires](#tab/additional-resources)
+---
 
-## <a name="summary-of-recommended-call-queue-settings"></a>Résumé des paramètres de file d’attente d’appels recommandés
+## <a name="resources-for-complex-scenarios"></a>Ressources pour des scénarios complexes
+
+### <a name="summary-of-recommended-call-queue-settings"></a>Résumé des paramètres de file d’attente d’appels recommandés
 
 Les configurations ci-dessous sont recommandées :
 
@@ -338,7 +340,7 @@ Les configurations ci-dessous sont recommandées :
 - **Routage basé sur la présence** sur **Activé**
 - **Durée de l’alerte pour un agent :** sur **20 secondes**
 
-## <a name="call-queue-feature-compatibility"></a>Compatibilité des fonctionnalités de file d’attente d’appels
+### <a name="call-queue-feature-compatibility"></a>Compatibilité des fonctionnalités de file d’attente d’appels
 
 |Fonctionnalité                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Lync |Téléphones IP | Files d’attente d’appels standard |Files d’attente d’appels basées sur un canal | Commentaire |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
@@ -356,7 +358,7 @@ Les configurations ci-dessous sont recommandées :
 |**Appel collaboratif**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |v                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**ID d’appelant dynamique**            |                          |          |                |     |          |                      |                          |   |
-|`Standard call queue`            |N                         |N         |v               |N    |N         |O                     |n/a                       |   |
+|`Standard call queue`            |O                         |O         |v               |N    |N         |O                     |n/a                       |   |
 |`Channel based call queue`       |v                         |n/a       |n/a             |n/a  |n/a       |n/a                   |v                         |   |
 |**Méthodes de connectivité RTC**    |                          |          |                |     |          |                      |                          |Voir la note 9   |
 |`Calling Plans`                  |O                         |O         |O               |O    |O         |O                     |O                         |   |
@@ -365,7 +367,7 @@ Les configurations ci-dessous sont recommandées :
 |**Divers**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |v                 |N         |O               |O    |          |O                     |v                         |              |
 
-### <a name="notes"></a>Remarques
+#### <a name="notes"></a>Remarques
 
 1. Client Microsoft Teams Windows, Client Mac Microsoft Teams, Microsoft Teams sur infrastructure de bureau virtualisée.
 2. Application iPhone Microsoft Teams, application Android Microsoft Teams.
@@ -377,7 +379,7 @@ Les configurations ci-dessous sont recommandées :
 8. Seuls les canaux publics sont pris en charge.
 9. Les standards automatiques et les files d’attente d’appels ne peuvent pas transférer d’appels entre des méthodes de connectivité RTC.
 
-## <a name="supported-clients"></a>Clients pris en charge
+### <a name="supported-clients"></a>Clients pris en charge
 
 Les clients suivants sont pris en charge pour les agents d’appel dans une file d’attente des appels :
 
@@ -397,7 +399,7 @@ Les clients suivants sont pris en charge pour les agents d’appel dans une file
   > [!NOTE]
   > Les files d’attente des appels auxquelles un numéro de routage direct est attribué ne prennent pas en charge les clients Skype Entreprise, les clients Lync ou les téléphones IP Skype Entreprise en tant qu’agents. Le client Teams est uniquement pris en charge avec un [mode de coexistence de Teams uniquement](setting-your-coexistence-and-upgrade-settings.md).
 
-## <a name="call-queue-diagnostic-tool"></a>Outil de diagnostic de file d’attente d’appels
+### <a name="call-queue-diagnostic-tool"></a>Outil de diagnostic de file d’attente d’appels
 
 Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suivant pour vérifier qu’une file d’attente d’appels peut recevoir des appels :
 
@@ -410,9 +412,7 @@ Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suiva
 
 3. Les tests retournent les meilleures étapes suivantes pour traiter les configurations de locataire, de stratégie et de compte de ressource pour vérifier que la file d’attente d’appels est en mesure de recevoir des appels.
 
----
-
-## <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Sujets associés
 
 [Voici ce que vous obtenez avec Téléphonie Microsoft Teams](here-s-what-you-get-with-phone-system.md)
 

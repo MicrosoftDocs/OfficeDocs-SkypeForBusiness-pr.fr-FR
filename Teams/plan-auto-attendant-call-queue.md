@@ -1,5 +1,5 @@
 ---
-title: Planifier Teams standards automatiques et les files d’attente d’appels
+title: Planifier les standards automatiques teams et les files d’attente d’appels
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez les standards automatiques et les files d’attente d’appels, et comment les utiliser pour aider les appelants à se déplacer dans un système de menus pour atteindre les personnes ou les services de votre organisation.
-ms.openlocfilehash: 958a0ccbf49ef7c35ecbe586262005964bfbf704
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 1f439ca0a6eb9ff3487582253cdd0aad7b2fad6c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124289"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616080"
 ---
-# <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planifier Teams standards automatiques et les files d’attente d’appels
+# <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planifier les standards automatiques teams et les files d’attente d’appels
 
 Les standards automatiques vous permettent de configurer des options de menu pour router les appels en fonction de l’entrée de l’appelant. Les options de menu d’un standard automatique, telles que « Pour les ventes, appuyez sur 1 - For Services appuyez sur 2 », permettent à une organisation de fournir une série de choix qui guident rapidement les appelants vers leur destination, sans compter sur un opérateur humain pour gérer les appels entrants.
 
@@ -61,7 +61,7 @@ Les files d’attente d’appels permettent un routage spécifique des appels da
 
 Comme les standards automatiques, les files d’attente d’appels ont chacune un paramètre de langue. Vous pouvez utiliser différentes files d’attente d’appels si vous faites des affaires dans plusieurs langues. Les agents peuvent être membres de plusieurs files d’attente s’ils sont multilingues.
 
-Pour chaque file d’attente d’appels, vous pouvez spécifier si les agents de la file d’attente peuvent refuser de prendre des appels et si les appels doivent être routés vers eux en fonction de leur indication de présence dans Teams.
+Pour chaque file d’attente d’appels, vous pouvez spécifier si les agents de la file d’attente peuvent refuser de passer des appels et si les appels doivent être routés vers eux en fonction de leur indication de présence dans Teams.
 
 Vous pouvez affecter un numéro de téléphone à une file d’attente d’appels, mais les files d’attente d’appels ne fournissent pas de routage d’appels distinct pendant les heures creuses et les jours fériés. À moins que votre file d’attente d’appels ne dispose d’un personnel 24 heures sur 24 et 7 jours sur 7, nous vous recommandons d’attribuer le numéro de téléphone à un standard automatique qui redirige vers la file d’attente des appels pendant les heures d’ouverture.
 
@@ -70,9 +70,9 @@ Vous pouvez affecter un numéro de téléphone à une file d’attente d’appel
 Pour configurer des standards automatiques et des files d’attente d’appels, vous avez besoin des ressources suivantes :
 
 - Un compte de ressource pour chaque standard automatique et chaque file d’attente d’appels
-- Une licence Système Téléphone Microsoft - Utilisateur virtuel gratuite pour chaque compte de ressource qui sera directement accessible à partir d’utilisateurs Teams ou de numéros de téléphone externes
-- Au moins un [numéro de service Microsoft](getting-service-phone-numbers.md), un numéro Operator Connect, un numéro de routage direct ou un numéro hybride pour chaque compte de ressource que vous souhaitez numéroter directement à partir de numéros de téléphone externes
- - Le numéro de service peut être un numéro payant ou gratuit
+- Une licence de compte de ressource Téléphonie Microsoft Teams gratuite pour chaque compte de ressource qui sera directement accessible à partir d’utilisateurs Teams ou de numéros de téléphone externes
+- Au moins un [numéro de service Microsoft](getting-service-phone-numbers.md), un numéro de connexion d’opérateur, un numéro de routage direct ou un numéro hybride pour chaque compte de ressource que vous souhaitez numéroter directement à partir de numéros de téléphone externes
+  - Le numéro de service peut être un numéro payant ou gratuit
 
 > [!NOTE]
 > Les comptes de ressources sont désactivés pour la connexion et doivent le rester. La conversation et la présence ne sont pas disponibles pour ces comptes.
@@ -80,20 +80,20 @@ Pour configurer des standards automatiques et des files d’attente d’appels, 
 Les agents qui reçoivent des appels à partir des files d’attente d’appels doivent être Voix Entreprise activés en ligne ou sur site. En outre, si les files d’attente d’appels utilisent des numéros de routage direct, les agents qui doivent téléconférencer ou transférer des appels nécessitent également :
 
 - Stratégie de routage vocal en ligne affectée si la file d’attente d’appels utilise le mode de transfert
-- Une licence Audioconférence ou une stratégie de routage vocal en ligne affectée si la file d’attente d’appels utilise le mode conférence
+- Une licence d’audioconférence ou une stratégie de routage vocal en ligne affectée si la file d’attente d’appels utilise le mode conférence
 
 Si vos agents utilisent l’application Microsoft Teams pour les appels de file d’attente d’appels, ils doivent être en mode TeamsOnly.
 
-Lors de l’utilisation d’un compte de ressource à des fins d’ID de ligne d’appel dans les files d’attente d’appels, le compte de ressource doit avoir une licence d’utilisateur virtuel Système téléphonique et l’une des conditions suivantes :
+Lors de l’utilisation d’un compte de ressource à des fins d’ID de ligne d’appel dans les files d’attente d’appels, le compte de ressource doit disposer d’une licence de compte de ressource téléphonique Teams et de l’une des opérations suivantes :
 
 - Une licence [de forfait d’appels](calling-plans-for-office-365.md) et un numéro de téléphone attribué
-- Un [numéro de téléphone Operator Connect](operator-connect-plan.md) attribué
+- Un numéro de téléphone [Operator Connect](operator-connect-plan.md) attribué
 - Une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md) (l’attribution de numéros de téléphone est facultative lors de l’utilisation du routage direct)
 
-Lorsqu’un standard automatique ou une file d’attente d’appels transfère des appels vers un numéro externe, des comptes de ressources spécifiques comme indiqué ci-dessous doivent avoir une licence d’utilisateur virtuel Système téléphonique et l’une des opérations suivantes doit être attribuée :
+Lorsqu’un standard automatique ou une file d’attente d’appels transfère des appels vers un numéro externe, des comptes de ressources spécifiques comme indiqué ci-dessous doivent disposer d’une licence de compte de ressource téléphonique Teams et de l’une des opérations suivantes :
 
 - Une licence [de forfait d’appels](calling-plans-for-office-365.md) et un numéro de téléphone attribué
-- Un [numéro de téléphone Operator Connect](operator-connect-plan.md) attribué
+- Un numéro de téléphone [Operator Connect](operator-connect-plan.md) attribué
 - Une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md) (l’attribution de numéros de téléphone est facultative lors de l’utilisation du routage direct)
 
 Compte de ressource à concéder sous licence :
@@ -103,9 +103,9 @@ Compte de ressource à concéder sous licence :
 > [!NOTE]
 > Si le plan d’appel affecté au compte de ressource est désactivé ou supprimé, les [crédits de communication](what-are-communications-credits.md), s’ils sont disponibles dans le locataire (sans être affectés au compte de ressource), sont consommés. S’il n’y a pas de forfait d’appels ou de crédits de communication, l’appel échoue.
 >
-> Les numéros de service de routage direct pour le standard automatique et les files d’attente d’appels sont pris en charge uniquement pour les utilisateurs Microsoft Teams et les agents d’appel.
+> Les numéros de service de routage direct pour le standard automatique et les files d’attente d’appels sont pris en charge uniquement pour les utilisateurs et les agents d’appel Microsoft Teams.
 > 
-> Les transferts entre le plan d’appel, le Operator Connect et les jonctions de routage direct ne sont pas pris en charge.
+> Les transferts entre le plan d’appel, operator connect et les jonctions de routage direct ne sont pas pris en charge.
 > 
 > Dans un scénario hybride, le compte de ressource doit être créé localement. Pour plus d’informations, consultez [Planifier les files d’attente d’appels cloud](/skypeforbusiness/hybrid/plan-call-queue).
 
@@ -138,12 +138,12 @@ Vous pouvez utiliser une combinaison de ces options pour chaque file d’attente
 
 Nous vous recommandons de choisir une stratégie pour ajouter des agents d’appel aux files d’attente avant de commencer votre configuration.
 
-Si vous disposez d’un standard automatique et d’une infrastructure de file d’attente d’appels et que vous migrez vers Teams, vous aurez besoin d’un plan pour transférer vos numéros de téléphone existants vers les nouveaux standards automatiques et les files d’attente d’appels. Vous devrez peut-être créer une [commande de port](phone-number-calling-plans/port-order-overview.md) pour déplacer vos numéros à partir d’un autre fournisseur. Nous vous recommandons d’acquérir temporairement un ou plusieurs nouveaux numéros de téléphone et de tester vos flux de standard automatique et de file d’attente d’appels avant de les remplacer par les numéros que vous utilisez actuellement.
+Si vous disposez d’une infrastructure de standard automatique et de file d’attente d’appels existante et que vous migrez vers Teams, vous aurez besoin d’un plan pour transférer vos numéros de téléphone existants vers les nouveaux standards automatiques et les files d’attente d’appels. Vous devrez peut-être créer une [commande de port](phone-number-calling-plans/port-order-overview.md) pour déplacer vos numéros à partir d’un autre fournisseur. Nous vous recommandons d’acquérir temporairement un ou plusieurs nouveaux numéros de téléphone et de tester vos flux de standard automatique et de file d’attente d’appels avant de les remplacer par les numéros que vous utilisez actuellement.
 
-**Le mode conférence** est une option dans les files d’attente d’appels qui réduit considérablement le temps nécessaire pour se connecter Teams appels VOIP et appels RTC à un agent. Pour que le mode conférence fonctionne, les agents de la file d’attente des appels doivent utiliser l’un des clients suivants :
+**Le mode conférence** est une option dans les files d’attente d’appels qui réduit considérablement le temps nécessaire pour connecter des appels VOIP Teams et des appels RTC à un agent. Pour que le mode conférence fonctionne, les agents de la file d’attente des appels doivent utiliser l’un des clients suivants :
 
 - la dernière version du client Microsoft Teams pour ordinateur de bureau, de l’application Android ou de l’application iOS
-- Téléphone Microsoft System version 1449/1.0.94.2020051601 ou ultérieure
+- Microsoft Phone System version 1449/1.0.94.2020051601 ou ultérieure
   
 Définissez les comptes Teams des agents en mode Teams uniquement. Les agents qui ne répondent pas aux exigences ne sont pas inclus dans la liste de routage des appels.
 
@@ -157,9 +157,9 @@ Une fois que vous avez terminé les tâches de planification décrites dans cet 
 
 1. Obtenez les numéros de service dont vous avez besoin pour les standards automatiques et les files d’attente d’appels que vous souhaitez rendre accessibles en effectuant une numérotation directe à partir de l’extérieur de votre organisation. Cela peut inclure [le transfert de numéros à partir d’un autre fournisseur](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [la demande de nouveaux numéros de service](getting-service-phone-numbers.md).
 
-2. Obtenez une [Système téléphonique - Licence d’utilisateur virtuel](teams-add-on-licensing/virtual-user.md) pour chaque compte de ressource que vous prévoyez de créer. Ces licences étant gratuites, nous vous suggérons d’en obtenir quelques-unes supplémentaires au cas où vous décideriez d’apporter des modifications à vos comptes de ressources à l’avenir.
+2. Obtenez une [licence de compte de ressource téléphonique Teams](teams-add-on-licensing/virtual-user.md) pour chaque compte de ressource que vous envisagez de créer. Ces licences étant gratuites, nous vous suggérons d’en obtenir quelques-unes supplémentaires au cas où vous décideriez d’apporter des modifications à vos comptes de ressources à l’avenir.
 
-3. [Créez un compte de ressource](manage-resource-accounts.md) pour chaque standard automatique et file d’attente d’appels que vous souhaitez créer. Attribuez à chaque compte une Système téléphonique - Licence d’utilisateur virtuel et, éventuellement, un numéro de service.
+3. [Créez un compte de ressource](manage-resource-accounts.md) pour chaque standard automatique et file d’attente d’appels que vous souhaitez créer. Attribuez à chaque compte une licence de compte de ressource téléphonique Teams et, éventuellement, un numéro de service.
 
 4. [Créez les jours fériés](set-up-holidays-in-teams.md) pour lesquels vous souhaitez disposer d’un routage des appels distinct dans vos standards automatiques.
 
@@ -176,9 +176,9 @@ Pour plus d’informations sur la création de standards automatiques et de file
 - [Configurer un standard automatique](create-a-phone-system-auto-attendant.md)
 - [Créer une file d’attente d’appel](create-a-phone-system-call-queue.md)
 
-Si vous avez besoin de fonctionnalités plus étendues, telles que l’intégration à des workflows, des bots et des SMS, envisagez [Azure Communication Services](/azure/communication-services/overview).
+Si vous avez besoin de fonctionnalités plus étendues, telles que l’intégration aux flux de travail, aux bots et aux SMS, envisagez [Azure Communication Services](/azure/communication-services/overview).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Planifier le routage direct](direct-routing-plan.md)
 
