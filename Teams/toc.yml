@@ -1797,7 +1797,7 @@ items:
             href: teams-add-on-licensing/advanced-communications.md
           - name: Gestion des licences des stratégies de messagerie
             href: teams-add-on-licensing/pri-message.md
-          - name: 'Microsoft Teams Phone Standard : Licence utilisateur virtuel'
+          - name: Licence de compte de ressource Téléphone Microsoft Teams
             href: teams-add-on-licensing/virtual-user.md
           - name: "Prise en main de Teams\_Essentials"
             href: get-started-with-teams-essentials.md
