@@ -13,12 +13,12 @@ f1.keywords:
 description: Vue d’ensemble de la solution CCaaS (Centre de contacts intégré) pour Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d43b698b18aaca09eedbd4f7a1f8afdac91753ff
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 78dc2c412302aa4fdcadde6c77e56dcf6757f3cf
+ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529656"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66642739"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Intégrations de centre de contacts pour Microsoft Teams
 
@@ -83,6 +83,7 @@ Les fournisseurs suivants offrent des solutions de centre de contacts intégrée
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
+| `Roger365` | https://www.roger365.io/contact-center-teams                         |
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Solgari` | https://solgari.com/converse-for-teams/                       |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
