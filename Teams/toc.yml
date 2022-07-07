@@ -1553,7 +1553,7 @@ items:
             href: pin-teams-apps-based-on-license.md
           - name: Autorisations graphique et consentement administrateur dans Azure AD
             href: app-permissions-admin-center.md
-          - name: Gérer le consentement spécifique à une ressource pour votre organisation
+          - name: Gérer le consentement spécifique à la ressource pour votre organisation
             href: resource-specific-consent.md
           - name: Comprendre les autorisations d’application et l’accès aux ressources
             href: app-permissions.md
@@ -1561,9 +1561,9 @@ items:
             href: non-standard-users.md
           - name: Mises à jour d’application et rôle d’administrateur
             href: apps-update-experience.md
-          - name: Gérer l’accès aux applications Teams dans Microsoft 365
+          - name: Gérer l’accès aux applications dans Microsoft 365
             href: manage-third-party-teams-apps.md
-          - name: Auditer les activités et les événements de gestion des applications
+          - name: Auditer les activités de gestion des applications
             href: audit-app-management-activities.md
       - name: Rapport et analyse sur l’utilisation des applications
         href: teams-analytics-and-reports/app-usage-report.md
