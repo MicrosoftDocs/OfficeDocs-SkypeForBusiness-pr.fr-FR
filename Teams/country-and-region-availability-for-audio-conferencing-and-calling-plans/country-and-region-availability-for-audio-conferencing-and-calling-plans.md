@@ -25,13 +25,13 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 - seo-marvel-mar2020
-description: Découvrez si l’audioconférence, les Système téléphonique, les forfaits d’appels, les crédits de communication et les numéros de téléphone gratuits et payants sont disponibles dans un pays ou une région.
-ms.openlocfilehash: 71aa417de6a6ec9f6388ac414512f42a881be001
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+description: Découvrez si l’audioconférence, le système téléphonique, les forfaits d’appels, les crédits de communication et les numéros de téléphone gratuits et payants sont disponibles dans un pays ou une région.
+ms.openlocfilehash: 7693ae0421d186d1ac230d48bf4df2369aa4e3f8
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686311"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682463"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 
@@ -161,7 +161,7 @@ Vous pouvez sélectionner un pays ou une région pour voir quelles fonctionnalit
 
 ***
 
-Une fois que vous avez vérifié si l’un des services Skype Entreprise ou Microsoft Teams est disponible, vous pouvez voir [Skype Entreprise et Microsoft Teams licences de module](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) complémentaire pour vous aider à acheter des licences et à les affecter à vos utilisateurs.
+Une fois que vous avez vérifié si l’un des services Skype Entreprise ou Microsoft Teams est disponible, vous pouvez voir [Skype Entreprise et les licences de module complémentaire Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) pour vous aider à acheter des licences et à les affecter à vos utilisateurs.
 
 > [!NOTE]
 >
@@ -171,7 +171,7 @@ Une fois que vous avez vérifié si l’un des services Skype Entreprise ou Micr
 
 ### <a name="audio-conferencing"></a>Audioconférence
 
-Parfois, des personnes de votre organisation devront utiliser un téléphone pour rejoindre une réunion. Skype Entreprise et Microsoft Teams inclut la fonctionnalité d’audioconférence pour cette situation ! Il est possible de rejoindre des réunions en utilisant un téléphone au lieu des applications Skype Entreprise et Microsoft Teams sur un appareil mobile ou un PC. Une fois que vous avez décidé d’utiliser l’audioconférence pour votre organisation, achetez une licence **d’audioconférence** pour chaque personne de votre organisation qui va planifier/héberger une réunion audio.
+Parfois, des personnes de votre organisation devront utiliser un téléphone pour rejoindre une réunion. Skype Entreprise et Microsoft Teams incluent la fonctionnalité d’audioconférence pour cette situation ! Il est possible de rejoindre des réunions en utilisant un téléphone au lieu des applications Skype Entreprise et Microsoft Teams sur un appareil mobile ou un PC. Une fois que vous avez décidé d’utiliser l’audioconférence pour votre organisation, achetez une licence **d’audioconférence** pour chaque personne de votre organisation qui va planifier/héberger une réunion audio.
   
 Avec l’audioconférence, il existe des numéros de téléphone gratuits et payants que vos utilisateurs peuvent utiliser pour se connecter à des réunions. Les numéros de téléphone des pays ou régions suivants sont automatiquement attribués en tant que numéros d’audioconférence partagés aux organisations lorsqu’elles sont activées pour l’audioconférence. Des numéros gratuits et payants dédiés peuvent être attribués à votre organisation à partir de villes supplémentaires.
 
@@ -193,7 +193,7 @@ La numérotation à partir d’une réunion vers un autre pays/région dans le m
   
 ### <a name="phone-system"></a>Système téléphonique
 
-Avec Système téléphonique, vous créez des standards automatiques et des files d’attente d’appels (avec un numéro payant ou gratuit) pour répondre aux appels entrants de votre organisation. Lorsque vous ajoutez un forfait d’appels pour les utilisateurs, ils peuvent utiliser Skype Entreprise pour s’occuper des tâches de contrôle d’appel de base, telles que le placement et la réception d’appels, le transfert d’appels, le son et le désactivation des appels. **Système téléphonique** utilisateurs cliquent sur un nom dans leur carnet d’adresses, et Skype Entreprise passe un appel à cette personne. Pour passer et recevoir des appels, **Système téléphonique** utilisateurs utilisent leurs appareils mobiles, un casque avec un ordinateur portable ou un PC, ou l’un des nombreux téléphones IP qui fonctionnent avec Skype Entreprise.
+Avec le système téléphonique, vous créez des standards automatiques et des files d’attente d’appels (avec un numéro gratuit ou payant) pour répondre aux appels entrants de votre organisation. Lorsque vous ajoutez un forfait d’appels pour les utilisateurs, ils peuvent utiliser Skype Entreprise pour s’occuper des tâches de contrôle d’appel de base, telles que le placement et la réception d’appels, le transfert d’appels, le son et le désactivation des appels. Les utilisateurs **du système téléphonique** cliquent sur un nom dans leur carnet d’adresses, et Skype Entreprise passe un appel à cette personne. Pour passer et recevoir des appels, les utilisateurs **du système téléphonique** utilisent leurs appareils mobiles, un casque avec un ordinateur portable ou un PC, ou l’un des nombreux téléphones IP qui fonctionnent avec Skype Entreprise.
 
 La disponibilité des numéros de téléphone payant de certains de ces emplacements peut varier à un moment donné, en fonction des niveaux de stock. En plus d’obtenir des numéros de téléphone pour des utilisateurs individuels, il est également possible de rechercher et d’acquérir des numéros de téléphone payants ou gratuits pour des services tels que l’audioconférence (pour les ponts de conférence), les standards automatiques et les files d’attente d’appels. Il s’agit de numéros de service. Pour obtenir les numéros de téléphone, consultez [Obtention de numéros de téléphone de service](../getting-service-phone-numbers.md). Mais pour vos utilisateurs, une fois qu’une offre d’appels leur est attribuée, vous pouvez attribuer un numéro de téléphone à l’utilisateur afin de pouvoir passer et recevoir des appels téléphoniques. Pour rechercher ces numéros de téléphone, accédez à [Obtention de numéros de téléphone pour vos utilisateurs](../getting-phone-numbers-for-your-users.md). Vous pouvez également voir [Affectation, modification ou suppression du numéro de téléphone d’un utilisateur](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
@@ -206,7 +206,7 @@ Utilisez la liste déroulante en haut de la page pour rechercher un pays ou une 
 
 ### <a name="calling-plans"></a>Forfaits d’appel
 
-Avec un Système téléphonique, un forfaits d’appels permet aux utilisateurs de passer et recevoir des appels téléphoniques. Vous obtenez d’abord un numéro de téléphone d’utilisateur (abonné) (et non un numéro de service) à affecter à l’utilisateur, puis vous attribuez un forfait d’appels. Il existe trois types de forfaits d’appels disponibles : **national**, **international** **et national et international**. Pour plus d’information, consultez [Système téléphonique et forfaits d’appels](../calling-plan-landing-page.md).
+Avec un Système téléphonique, un forfaits d’appels permet aux utilisateurs de passer et recevoir des appels téléphoniques. Vous obtenez d’abord un numéro de téléphone d’utilisateur (abonné) (et non un numéro de service) à affecter à l’utilisateur, puis vous attribuez un forfait d’appels. Il existe deux types de forfaits d’appels disponibles : **national** et **international**. Pour plus d’information, consultez [Système téléphonique et forfaits d’appels](../calling-plan-landing-page.md).
 
 Pour plus d’informations sur les licences, vous pouvez également consulter [Licences de système téléphonique et de forfaits d’appels](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 

@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ff797e0793373d0cb7b476b31411ccdf377639c
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 2694981d18bfbee7f75ea8157fb656d77675a71d
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674376"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647686"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guide d’administration informatique sur Education Insights dans Microsoft Teams
 
@@ -78,7 +79,7 @@ Les enseignants et les responsables de l’éducation peuvent accéder à Insigh
 
 Les enseignants peuvent utiliser ces deux méthodes :
 
-- [Application personnelle](https://support.microsoft.com/office/747fd8d9-00b0-43e6-bacc-a1bf030b1867) : une vue d’ensemble de toutes les classes actives est disponible dans la barre gauche de l’application Teams, avec la possibilité d’explorer au niveau du détail les données de la classe.
+- [Application personnelle](https://support.microsoft.com/office/747fd8d9-00b0-43e6-bacc-a1bf030b1867) : une vue d’ensemble de toutes les classes actives est disponible dans la barre gauche de l’application Teams, avec la possibilité d’explorer au niveau du détail des données de la classe.
 - [Onglets](https://support.microsoft.com/office/1386d1b4-3641-4a23-9b9c-0c6c774c2b6c) : un onglet du menu de navigation supérieur d’une équipe de classe renferme des informations sur leurs classes. Cet onglet permet à l’enseignant d’accéder directement aux données pertinentes lorsqu’il se trouve dans la classe en question dans Teams pour consulter les données dans le contexte de la classe.
 
 Insights affiche des données sur les activités. Ces données proviennent de tous les canaux au sein d’une équipe de classe. Cependant, vous pouvez uniquement ajouter Insights en tant qu’onglet à des canaux publics. L’onglet prend en compte les activités de tous les membres de l’équipe de classe qui ne sont pas propriétaires (y compris les enseignants qui ne sont pas propriétaires de l’équipe).
@@ -250,17 +251,19 @@ Par défaut, Insights est activé, ce qui nous permet de collecter des analyses 
 :::image type="content" source="media/insights-settings.png" alt-text="Capture d’écran de la page centre d’administration SDS dans laquelle vous avez une option de paramètres permettant d’activer ou de désactiver Insights.":::
 
 > [!NOTE]
-> Si vous avez désactivé Insights, les données collectées sont supprimées. Les données supprimées lors de la désactivation seront restaurées ultérieurement, même si Insights est réactivé.
+> Si vous avez désactivé Insights, les données collectées sont supprimées. Les données supprimées lors de la désactivation ne seront pas restaurées ultérieurement, même si Insights est réactivé.
 
-### <a name="turn-machine-learning-in-insights-on-or-off"></a>Activer ou désactiver Machine Learning dans Insights
+### <a name="turn-on-and-off-advanced-inferences-in-insights"></a>Activer et désactiver les inférences avancées dans Insights
 
-Par défaut, les expériences basées sur le machine learning dans Insights sont désactivées. Pour autoriser ces insights, vous devez **Autoriser les Insights basés sur le Machine Learning**. L’activation de ce bouton bascule ne collectera pas d’autres données que les données déjà collectées par Education Insights.
+Lorsque le bouton bascule **Autoriser les inférences avancées** pour Éducation Insights est activé, Éducation Insights peut présenter aux étudiants, aux enseignants et aux chefs d’établissement de l’éducation des inférences avancées sur l’apprentissage (par exemple, des avertissements d’engagement). Ces inférences permettent aux enseignants de fournir un soutien plus personnalisé aux étudiants. Le bouton bascule contrôle également l’utilisation des données des locataires pour la modélisation.
+
+L’activation de ce bouton bascule ne collectera pas d’autres données que les données déjà collectées par Education Insights.
 
 - Pour ce faire, ouvrez le [Centre d’administration SDS](https://sds.microsoft.com/) et accédez aux **Paramètres** > **Gérer les insights Education**.
-- Réglez la **Activez ou désactivez les insights basés sur l’apprentissage automatique**.
+- Réglez le bouton bascule **Autoriser les inférences avancées** sur Activé ou désactivé.
 
 > [!NOTE]
-> Ce bouton bascule dépend du bouton bascule **Collect les données d’activité pour Insights**. La désactivation de **Collecter les données d’activité pour Insights** désactivera également le bouton de bascule **Autoriser les Insights Machine Learning**.
+> Ce bouton bascule dépend du bouton bascule **Collect les données d’activité pour Insights**. La désactivation de **Collecter les données d’activité pour Insights** désactivera également le bouton bascule **Autoriser les inférences avancées**.
 
 ### <a name="turn-sds-for-insights-on-or-off"></a>Activer ou désactiver SDS pour Insights
 

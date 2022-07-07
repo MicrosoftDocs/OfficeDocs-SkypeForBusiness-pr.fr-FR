@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment configurer et connecter votre SBC au routage direct du système téléphonique Teams.
-ms.openlocfilehash: e33f9538fdf69696e0a87da84dc5aec8e8d304af
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 0423c374e903aab2e283ee45bcabf9ceb31ef869
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241103"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682663"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Connecter votre contrôleur de frontière de session (SBC) au routage direct
 
@@ -95,6 +95,8 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
   > Outre le domaine inscrit dans votre locataire, il est important qu’un utilisateur dispose de ce domaine et d’une licence E3 ou E5 affectée. Si ce n’est pas le cas, vous recevrez l’erreur suivante :<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
   > 3. Plusieurs adresses IP mappées avec le même nom de domaine complet côté SBC ne sont pas prises en charge.
+  > 4. Pour fournir le chiffrement le plus performant à nos clients, Microsoft forcera l’utilisation de TLS1.2 pour l’interface SIP de routage direct.
+  > Pour éviter tout impact sur le service, assurez-vous que vos SBC sont configurés pour prendre en charge TLS1.2 et qu’ils peuvent se connecter à l’aide de l’une des suites de chiffrement suivantes : TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 c’est-à-dire. ECDHE-RSA-AES256-GCM-SHA384 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 c’est-à-dire ECDHE-RSA-AES128-GCM-SHA256 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 c’est-à-dire ECDHE-RSA-AES256-SHA384 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 c’est-à-dire ECDHE-RSA-AES128-SHA256
 
 Voici un exemple :
 

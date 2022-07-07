@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenez des informations détaillées sur les dimensions et les mesures utilisées par le tableau de bord de qualité des appels (CQD) pour Microsoft Teams et Skype Entreprise Online.
-ms.openlocfilehash: 27b7800efd8835254c5f093781881296b4db2464
-ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
+ms.openlocfilehash: bc2289f06641e206f3188c865b936962e5f1b1f5
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66551221"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682533"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensions et mesures disponibles dans le tableau de bord qualité des appels (CQD)
 
@@ -191,10 +191,10 @@ Le tableau suivant répertorie les dimensions actuellement disponibles dans CQD,
 | First Inside Corp  | Énumération <br/>**Valeurs possibles :** <br/> À l’intérieur, à l’extérieur  | Indique si le premier point de terminaison se trouvait sur un sous-réseau au sein du réseau d’entreprise, en fonction du mappage des données de construction du sous-réseau au locataire. Par défaut, le point de terminaison est considéré intérieur. <br/> **Exemple de valeur :** Intérieur | |
 | Second Inside Corp  | Énumération <br/> **Valeurs possibles :** <br/> À l’intérieur, à l’extérieur | Indique si le deuxième point de terminaison se trouvait sur un sous-réseau au sein du réseau d’entreprise, en fonction du mappage des données de construction du sous-réseau au locataire. Par défaut, le point de terminaison est considéré intérieur. <br/>**Exemple de valeur :** Intérieur  |  |
 |**Deployment**| | | |
-| First Tenant Id  | Chaîne  | ID de locataire pour le premier point de terminaison. <br/> **Exemple de valeur :** 00000000 — 0000 -0000 - 0000 — 000000000000  | <br/>&bull; Impossible de déterminer l’ID de locataire pour le premier point de terminaison. Cela peut indiquer que le point de terminaison a été connecté à un déploiement Skype Entreprise Server local.  |
-| Second Tenant Id  | Chaîne  | ID de locataire pour le deuxième point de terminaison. <br/> **Exemple de valeur :** 00000000 — 0000 - 0000 - 0000 — 000000000000  |  <br/>&bull; Impossible de déterminer l’ID de locataire du deuxième point de terminaison. Cela peut indiquer que le point de terminaison a été connecté à un déploiement Skype Entreprise Server local.  |
-| First Pool  | Chaîne  | Nom de domaine complet (FQDN) du pool Skype Entreprise attribué au premier point de terminaison. <br/> **Exemple de valeur :** pool1.lync.com <span></span><span></span>  | <br/>&bull;Indique que le point de terminaison a été connecté à une Skype Entreprise ou Microsoft Teams. Ce champ est rempli uniquement pour les flux utilisant des déploiements Skype Entreprise Server locaux. |
-| Second Pool  | Chaîne  | Nom de domaine complet (FQDN) du pool Skype Entreprise attribué au deuxième point de terminaison. <br/> **Exemple de valeur :** <span>pool1.lync.com</span>   | &bull;Skype Entreprise pool en ligne n’a pas pu être déterminé pour le deuxième point de terminaison. Cela peut indiquer que le point de terminaison a été connecté à un déploiement Skype Entreprise Server local.  |
+| First Tenant Id  | Chaîne  | ID de locataire pour le premier point de terminaison. <br/> **Exemple de valeur :** 00000000 — 0000 -0000 - 0000 — 000000000000  | <br/>&bull; Impossible de déterminer l’ID de locataire pour le premier point de terminaison. Cela peut indiquer que le point de terminaison a été connecté à un déploiement local Skype Entreprise Server.  |
+| Second Tenant Id  | Chaîne  | ID de locataire pour le deuxième point de terminaison. <br/> **Exemple de valeur :** 00000000 — 0000 - 0000 - 0000 — 000000000000  |  <br/>&bull; Impossible de déterminer l’ID de locataire du deuxième point de terminaison. Cela peut indiquer que le point de terminaison a été connecté à un déploiement local Skype Entreprise Server.  |
+| First Pool  | Chaîne  | Nom de domaine complet (FQDN) du pool Skype Entreprise attribué au premier point de terminaison. <br/> **Exemple de valeur :** pool1.lync.com <span></span><span></span>  | <br/>&bull;Indique que le point de terminaison a été connecté à une Skype Entreprise ou Microsoft Teams. Ce champ est rempli uniquement pour les flux à l’aide de déploiements Skype Entreprise Server locaux. |
+| Second Pool  | Chaîne  | Nom de domaine complet (FQDN) du pool Skype Entreprise attribué au deuxième point de terminaison. <br/> **Exemple de valeur :** <span>pool1.lync.com</span>   | &bull;Skype Entreprise pool en ligne n’a pas pu être déterminé pour le deuxième point de terminaison. Cela peut indiquer que le point de terminaison a été connecté à un déploiement local Skype Entreprise Server.  |
 | Is Federated  | Boléen  | True si les flux se trouvaient entre deux locataires fédérés, False dans le cas contraire.   | <br/>&bull; Impossible de déterminer s’il s’agissait d’un flux fédéré <br/>&bull; Certaines données de signalisation n’ont pas été collectées   |
 |Région | String   |  Région dans laquelle le déploiement a été localisé en fonction de la région d’accueil du locataire. <br/> **Exemple de valeur :** Amérique du Nord | <br/>&bull; Données réseau non signalées <br/>&bull; Le réseau ne se trouve pas dans le réseau d’entreprise <br/>&bull; Le réseau n’a pas de région définie dans les données de mappage de sous-réseau. |
 |**Stream**| | | |
@@ -551,6 +551,9 @@ Le tableau suivant répertorie les dimensions actuellement disponibles dans CQD,
 |La file d’attente d’appels est-elle impliquée ?|Boolean|Si la valeur est True, une file d’attente d’appels a été impliquée dans un appel ou un flux donné. ||
 |**Réunion**||||
 |Planification de l’ID d’application source|String |AppID du premier client de planification ou du client tiers qui a réservé la réunion.|Le client de planification n’a pas fourni ce paramètre par le biais de ses données de télémétrie.|
+|**Commun**||||
+| Premier ID de ressource ACS |String |Identificateur de ressource immuable d’Azure Communication Service associé au premier point de terminaison. <br/> **Exemple :** 00000000-0000-0000-0000-0000000000000 | Le point de terminaison n’utilise pas d’API Azure Communication Services|
+| Deuxième ID de ressource ACS |String |Identificateur de ressource immuable d’Azure Communication Service associé au deuxième point de terminaison. <br/> **Exemple :** 00000000-0000-0000-0000-0000000000000 | Le point de terminaison n’utilise pas d’API Azure Communication Services|
 |**Datapair**||||
 | Network Connection Detail Pair  | Paire énumérée <br/>**Valeurs possibles :** <br/> wifi : wifi <br/> wifi : filaire <br/> Filaire : wifi <br/> Filaire : filaire <br/> MobileBB : MobileBB <br/> MobileBB : autre <br/> MobileBB : tunnel <br/> MobileBB : wifi <br/> MobileBB : filaire <br/> Autre : autre <br/> Autre : wifi <br/> Autre : filaire <br/> Tunnel : tunnel <br/> Tunnel : wifi <br/> Tunnel : filaire <br/> : MobileBB <br/> : Autre <br/> : Tunnel <br/> : wifi <br/> : Filaire <br/> :  | Paire de détails de connexion réseau pour le premier et le deuxième système d'extrémités.  | &bull; Le type de connectivité réseau du point de terminaison était inconnu. Cela peut se produire si l'appel n'a pas pu être établi.   |
 | User Agent Category Pair  | Paire énumérée  | Paire de catégorie de l'agent utilisateur pour le premier et le deuxième point de terminaison. <br/> **Exemple de valeur :** AV-MCU : OC  | &bull; L’agent utilisateur de point de terminaison n’était pas un type connu  |

@@ -14,20 +14,20 @@ f1.keywords:
 - NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
-description: Déterminez le plan d’appel système Téléphone Microsoft qui servira le mieux votre organisation sur Cloud Voice dans Teams.
+description: Déterminez le plan d’appel du système téléphonique Microsoft qui servira le mieux votre organisation sur Cloud Voice dans Teams.
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 798d119be837e5ab2aafbd26676dd7e26b641db6
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: e11c6f6cbb53808ba259afd90420ac9855c9731d
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686301"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682473"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>Quelle forfait d’appels vous convient le mieux ?
 
-Vous avez terminé la [Démarrage](get-started-with-teams-quick-start.md). Vous avez déployé Teams avec [des conversations, des équipes, des canaux et des applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md) au sein de votre organisation. Vous avez peut-être déployé [des réunions & conférence](deploy-meetings-microsoft-teams-landing-page.md). Vous êtes maintenant prêt à ajouter des charges de travail de voix cloud et vous avez décidé d’utiliser Téléphone Microsoft Système avec forfait d’appels pour vous connecter au réseau téléphonique commuté (RTC).
+Vous avez terminé la prise [en main](get-started-with-teams-quick-start.md). Vous avez déployé Teams avec [des conversations, des équipes, des canaux et des applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md) au sein de votre organisation. Vous avez peut-être déployé [des réunions & conférence](deploy-meetings-microsoft-teams-landing-page.md). Vous êtes maintenant prêt à ajouter des charges de travail de voix cloud et vous avez décidé d’utiliser Microsoft Phone System avec forfait d’appels pour vous connecter au réseau téléphonique commuté (RTC).
 
 Cet article décrit les principales décisions de déploiement pour les forfaits d’appels, ainsi que des considérations supplémentaires que vous pouvez configurer, en fonction des besoins de votre organisation. Vous devez également lire [Cloud Voice dans Microsoft Teams](cloud-voice-landing-page.md) pour plus d’informations sur les offres de voix cloud de Microsoft.
 
@@ -41,13 +41,12 @@ Les articles suivants fournissent plus d’informations sur le déploiement et l
 
 ## <a name="core-deployment-decisions"></a>Décisions liées au déploiement Core
 
-Pour utiliser Microsoft comme opérateur de téléphonie, vous devez obtenir des licences forfait d’appels et les attribuer à vos utilisateurs Système téléphonique.
+Pour utiliser Microsoft comme opérateur de téléphonie, vous devez obtenir des licences de forfait d’appels et les attribuer à vos utilisateurs du système téléphonique.
 
-Il existe trois types de forfaits d’appels disponibles :
+Deux types de forfaits d’appels sont disponibles :
 
 - Forfaits d’appels nationaux
 - Forfaits d’appels internationaux
-- Forfaits d’appels nationaux et internationaux
 
 |Posez-vous la question|Action |
 |------------|-------|
@@ -59,7 +58,7 @@ Mes utilisateurs ont-ils chacun un numéro de téléphone direct entrant (DID) ?
 
 ### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>Transférer des numéros de téléphone vers Microsoft 365 ou Office 365
 
-Il est facile de transférer vos numéros de téléphone de votre fournisseur de services actuel vers Teams. Une fois que vous avez transféré vos numéros de téléphone vers Teams, Microsoft devient votre fournisseur de services et vous facture ces numéros de téléphone. Pour plus d’informations, consultez [Transférer des numéros de téléphone à Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Il est facile de transférer vos numéros de téléphone de votre fournisseur de services actuel vers Teams. Une fois que vous avez transféré vos numéros de téléphone vers Teams, Microsoft devient votre fournisseur de services et vous facture ces numéros de téléphone. Pour plus d’informations, consultez [Transférer des numéros de téléphone vers Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 ### <a name="phone-numbers-and-emergency-locations"></a>Numéros de téléphone et emplacements d'urgence
 
