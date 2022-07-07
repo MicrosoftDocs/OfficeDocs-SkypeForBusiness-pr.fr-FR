@@ -19,12 +19,12 @@ description: Découvrez comment gérer les applications Teams. Découvrez commen
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 82ab9372f925e40beac41d4075b49b34118f8851
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 92f7c6d69fbc9f680c204f0210aaa80742dd6384
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616050"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647746"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Gérer les applications Teams dans le Centre d’administration Microsoft Teams
 
@@ -62,7 +62,7 @@ Les options permettant d’accomplir la plupart des cas d’utilisation de la ge
 | Les stratégies de mise à jour sont utilisées pour gérer les utilisateurs teams et Office en préversion qui verront les fonctionnalités de préversion ou de préversion dans l’application Teams.  | [Stratégies de mise à jour Teams](https://admin.teams.microsoft.com/policies/updatemanagement) | [Préversion publique de Teams](public-preview-doc-updates.md) |
 | **En dehors du Centre d’administration Teams** | | |
 | Gérer les licences et les abonnements d’applications tierces dans Centre d'administration Microsoft 365 | [Centre d'administration Microsoft 365](https://admin.microsoft.com/#/licenses) | [Gérer les abonnements d’applications tierces](/microsoft-365/commerce/manage-saas-apps) |
-| Auditez les événements d’application Teams sur portail de conformité Microsoft Purview. | [Audit](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Activités Teams](audit-log-events.md#teams-activities) |
+| Auditez les événements d’application Teams sur portail de conformité Microsoft Purview. | [Audit](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Activités Teams](audit-app-management-activities.md) |
 | Les applications peuvent se voir accorder des autorisations pour votre organisation et ses données par trois méthodes : un administrateur donne son consentement à l’application pour tous les utilisateurs, un utilisateur accorde le consentement à l’application, ou un administrateur qui intègre une application et qui active l’accès en libre-service ou attribue des utilisateurs directement à l’application. Vérifiez les autorisations Graph pour les applications. Vérifiez les autorisations fournies par les utilisateurs ou déléguées par les administrateurs. | [Portail Azure AD](https://aad.portal.azure.com/) | [Passer en revue les autorisations accordées aux applications](/azure/active-directory/manage-apps/manage-application-permissions) |
 
 <!---

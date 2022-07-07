@@ -1,5 +1,5 @@
 ---
-title: Utiliser PowerShell pour gérer votre connexion Shifts à Blue Yonder Workforce Management
+title: Utilisez PowerShell pour gérer votre connexion Shifts à Blue Yonder Workforce Management
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: ''
@@ -15,18 +15,18 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a102001c9c35b3d93467a9955329ce9d314532d0
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: c4edf815a3ce21a820fa292a06d41275c97d78a5
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675366"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647813"
 ---
-# <a name="use-powershell-to-manage-your-shifts-connection-to-blue-yonder-workforce-management"></a>Utiliser PowerShell pour gérer votre connexion Shifts à Blue Yonder Workforce Management
+# <a name="use-powershell-to-manage-your-shifts-connection-to-blue-yonder-workforce-management"></a>Utilisez PowerShell pour gérer votre connexion Shifts à Blue Yonder Workforce Management
 
 ## <a name="overview"></a>Présentation
 
-Le [connecteur Microsoft Teams Shifts pour Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) vous permet d’intégrer l’application Shifts dans Microsoft Teams à Blue Yonder Workforce Management (Blue Yonder WFM). Une fois que vous avez configuré une connexion, vos employés de première ligne peuvent afficher et gérer leurs horaires en mode WFM Blue Yonder à partir de Shifts.
+Le [connecteur Microsoft Teams Shifts pour Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) vous permet d’intégrer l’application Shifts dans Microsoft Teams à Blue Yonder Workforce Management (Blue Yonder WFM). Une fois que vous avez configuré une connexion, vos employés de première ligne peuvent afficher et gérer en toute transparence leurs horaires dans Blue Yonder WFM à partir de Shifts.
 
 Vous pouvez utiliser [l’Assistant Connecteur Shifts](shifts-connector-wizard.md) dans le Centre d'administration Microsoft 365 ou [PowerShell](shifts-connector-blue-yonder-powershell-setup.md) pour configurer une connexion. Une fois qu’une connexion est configurée, vous la gérez à l’aide des [applets de commande PowerShell du connecteur Shifts](#shifts-connector-cmdlets).
 
@@ -53,7 +53,7 @@ Cet article explique comment utiliser PowerShell pour effectuer les opérations 
 
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
-7. Connecter à Teams.
+7. Connectez-vous à Teams.
 
     ```powershell
     Connect-MicrosoftTeams
@@ -101,7 +101,7 @@ Pour plus d’informations, consultez [Get-CsTeamsShiftsConnectionErrorReport](/
 
 ### <a name="user-mapping-errors"></a>Erreurs de mappage d’utilisateurs
 
-Des erreurs de mappage d’utilisateurs peuvent se produire si un ou plusieurs utilisateurs d’un site WFM Blue Yonder ne sont pas membres de l’équipe mappée dans Teams. Pour résoudre ce problème, assurez-vous que les utilisateurs de l’équipe mappée correspondent aux utilisateurs du site WFM Blue Yonder.
+Des erreurs de mappage d’utilisateurs peuvent se produire si un ou plusieurs utilisateurs d’une instance blue Yonder WFM n’est pas membre de l’équipe mappée dans Teams. Pour résoudre ce problème, assurez-vous que les utilisateurs de l’équipe mappée correspondent aux utilisateurs de l’instance blue Yonder WFM.
 
 Pour afficher les détails des utilisateurs non mappés, [configurez votre environnement](#set-up-your-environment) (si ce n’est pas déjà fait), puis exécutez le script suivant.
 
@@ -151,18 +151,18 @@ ForEach ($mapping in $mappings){
 
 ### <a name="account-authorization-errors"></a>Erreurs d’autorisation de compte
 
-Des erreurs d’autorisation de compte peuvent se produire si le compte de service WFM Blue Yonder ou Microsoft 365 informations d’identification du compte système sont incorrectes ou ne disposent pas des autorisations requises.
+Des erreurs d’autorisation de compte peuvent se produire si le compte de service Blue Yonder WFM ou les informations d’identification du compte système Microsoft 365 sont incorrects ou ne disposent pas des autorisations requises.
 
-Pour modifier votre compte de service WFM Blue Yonder ou Microsoft 365 informations d’identification de compte système pour la connexion, vous pouvez exécuter l’applet de commande [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) ou utiliser le script PowerShell dans la section [Modifier les paramètres de connexion](#change-connection-settings) de cet article.
+Pour modifier vos informations d’identification de compte de service Blue Yonder WFM ou de compte système Microsoft 365 pour la connexion, vous pouvez exécuter l’applet de commande [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) ou utiliser le script PowerShell dans la section [Modifier les paramètres de connexion](#change-connection-settings) de cet article.
 
 ## <a name="change-connection-settings"></a>Modifier les paramètres de connexion
 <a name="change_settings"> </a>
 
-Utilisez ce script pour modifier les paramètres de connexion. Paramètres que vous pouvez modifier, citons votre compte de service WFM Blue Yonder et votre mot de passe, Microsoft 365 compte système, les mappages d’équipe et les paramètres de synchronisation.
+Utilisez ce script pour modifier les paramètres de connexion. Les paramètres que vous pouvez modifier incluent votre compte de service Blue Yonder WFM et votre mot de passe, le compte système Microsoft 365, les mappages d’équipe et les paramètres de synchronisation.
 
-Les paramètres de synchronisation incluent la fréquence de synchronisation (en minutes) et les données de planification synchronisées entre blue Yonder WFM et Shifts. Les données de planification sont définies dans les paramètres suivants, que vous pouvez afficher en exécutant [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector).
+Les paramètres de synchronisation incluent la fréquence de synchronisation (en minutes) et les données de planification synchronisées entre Blue Yonder WFM et Shifts. Les données de planification sont définies dans les paramètres suivants, que vous pouvez afficher en exécutant [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector).
 
-- Le paramètre **enabledConnectorScenarios** définit les données synchronisées de Blue Yonder WFM à Shifts. Les options sont `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `TimeOff``OpenShiftRequest``TimeOffRequest`.
+- Le paramètre **enabledConnectorScenarios** définit les données synchronisées entre Blue Yonder WFM et Shifts. Les options sont `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `TimeOff``OpenShiftRequest``TimeOffRequest`.
 - Le paramètre **enabledWfiScenarios** définit les données synchronisées entre Shifts et Blue Yonder WFM. Les options sont `SwapRequest`, `OpenShiftRequest`, `UserShiftPreferences``TimeOffRequest`.
 
     > [!NOTE]
@@ -275,13 +275,13 @@ Write-Host "Success"
 > [!IMPORTANT]
 > Suivez ces étapes uniquement si vous avez choisi de désactiver les shifts ouverts, les demandes de décalage, les demandes d’échange ou les demandes de congé à l’aide du script dans la section [Modifier les paramètres de connexion](#change-connection-settings) plus haut dans cet article ou à l’aide de l’applet de commande [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) . L’exécution de cette étape masque la fonctionnalité dans Shifts. Sans cette deuxième étape, les utilisateurs verront toujours la fonctionnalité dans Shifts et recevront un message d’erreur « opération non prise en charge » s’ils essaient de l’utiliser.
 
-Pour masquer les décalages ouverts, les demandes d’échange et les demandes de congé dans Shifts, utilisez le [type de ressource de planification](/graph/api/resources/schedule) API Graph pour définir les paramètres suivants ```false``` pour chaque équipe que vous avez mappée à un site WFM Blue Yonder :
+Pour masquer les décalages ouverts, les demandes d’échange et les demandes de congé dans Shifts, utilisez le [type de ressource de planification](/graph/api/resources/schedule) API Graph pour définir les paramètres suivants ```false``` pour chaque équipe que vous avez mappée à une instance de WFM Blue Yonder :
 
 - Ouvrir les décalages : ```openShiftsEnabled```
 - Demandes d’échange :  ```swapShiftsRequestsEnabled```
 - Demandes de congé : ```timeOffRequestsEnabled```
 
-Pour masquer les demandes de décalages ouverts dans Shifts, accédez à **Paramètres** dans Shifts, puis désactivez le paramètre **Ouvrir les décalages**.
+Pour masquer les demandes de décalages ouverts dans Shifts, accédez à **Paramètres** dans Shifts, puis désactivez le paramètre **Ouvrir les décalages** .
 
 ## <a name="unmap-a-team-from-one-connection-and-map-it-to-another-connection"></a>Décommapper une équipe d’une connexion et la mapper à une autre connexion
 
@@ -372,7 +372,7 @@ else {
 
 ## <a name="shifts-connector-cmdlets"></a>Majs applets de commande de connecteur
 
-Pour obtenir de l’aide sur les applets de commande du connecteur Shifts, recherchez **CsTeamsShiftsConnection** dans la [Teams référence des applets de commande PowerShell](/powershell/teams/intro). Voici des liens vers certaines applets de commande couramment utilisées.
+Pour obtenir de l’aide sur les applets de commande du connecteur Shifts, recherchez **CsTeamsShiftsConnection** dans la [référence de l’applet de commande Teams PowerShell](/powershell/teams/intro). Voici des liens vers certaines applets de commande couramment utilisées.
 
 - [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation)
 - [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance)
@@ -393,7 +393,7 @@ Pour obtenir de l’aide sur les applets de commande du connecteur Shifts, reche
 ## <a name="related-articles"></a>Articles connexes
 
 - [Majs connecteurs](shifts-connectors.md)
-- [Utiliser l’Assistant Connecteur Shifts pour connecter Shifts à Blue Yonder Workforce Management](shifts-connector-wizard.md)
+- [Utilisez l’Assistant Connecteur Shifts pour connecter Shifts à Blue Yonder Workforce Management](shifts-connector-wizard.md)
 - [Utiliser PowerShell pour connecter Shifts à Blue Yonder Workforce Management](shifts-connector-blue-yonder-powershell-setup.md)
 - [Gérer l’application Shifts](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Présentation de Teams PowerShell](../../teams-powershell-overview.md)
