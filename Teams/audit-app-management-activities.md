@@ -15,14 +15,14 @@ description: Découvrez comment auditer les activités d’application Teams des
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: d75773db33f1648e3fff0c7bf06944da133f0604
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: 77c7ac5d80304e82f1309e3a22b21c17d106a58c
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642886"
+ms.locfileid: "66647839"
 ---
-# <a name="search-the-audit-logs-for-app-events"></a>Rechercher des événements d’application dans les journaux d’audit
+# <a name="audit-for-app-management-activities-and-events"></a>Auditer les activités et les événements de gestion des applications
 
 Microsoft Purview Audit (Standard) dans Microsoft 365 vous permet de rechercher les enregistrements d’audit des activités effectuées dans les différents services Microsoft 365 par les utilisateurs finaux et les administrateurs.
 
@@ -32,7 +32,7 @@ Avant de pouvoir effectuer une recherche dans l’audit, veillez à remplir les 
 * [Activez l’audit dans le portail de conformité Microsoft Purview](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 * [Attribuez des autorisations pour rechercher dans le journal d’audit](/microsoft-365/compliance/set-up-basic-audit).
 
-## <a name="audit-logs-for-app-events-in-teams"></a>Journaux d’audit pour les événements d’application dans Teams
+## <a name="search-the-audit-logs-for-app-events-in-teams"></a>Rechercher des événements d’application dans les journaux d’audit
 
 Les journaux d’audit des événements d’application dans Teams vous aident à examiner des actions spécifiques. Bien que vous puissiez rechercher un large éventail d’actions dans les journaux d’activité, le tableau suivant répertorie certaines des actions d’application Teams enregistrées. En outre, vous pouvez rechercher des activités liées aux connecteurs, aux bots, aux onglets, etc.
 
