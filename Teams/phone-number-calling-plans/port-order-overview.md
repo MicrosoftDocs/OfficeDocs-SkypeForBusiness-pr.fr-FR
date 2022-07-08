@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenez une vue d’ensemble des commandes de port et de la façon de transférer des numéros de téléphone de votre fournisseur de services vers Teams.
-ms.openlocfilehash: 37b8a56603ab7cd6888a624cca1b9e76ae8cfb03
-ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
+ms.openlocfilehash: a4062d6a5c63b590502d5afebc547bd319e2adda
+ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66103241"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66687830"
 ---
 # <a name="whats-a-port-order"></a>Qu’est-ce qu’une demande de transfert ?
 
@@ -31,13 +31,13 @@ Si vous disposez actuellement d’un fournisseur de services téléphoniques ou 
   
 Une fois que vous avez transféré vos numéros de téléphone vers Teams, Microsoft devient votre fournisseur de services et vous pouvez déconnecter votre service avec votre ancien fournisseur de services ou opérateur.
 
-Passez en revue les informations contenues dans cet article pour vous familiariser avec le portage de numéros. Après cela, vous devez être prêt à créer une commande de port et à transférer vos numéros de téléphone. Pour obtenir des instructions pas à pas, consultez [Transférer des numéros de téléphone à Teams](transfer-phone-numbers-to-teams.md).
+Passez en revue les informations contenues dans cet article pour vous familiariser avec le portage de numéros. Après cela, vous devez être prêt à créer une commande de port et à transférer vos numéros de téléphone. Pour obtenir des instructions pas à pas, consultez [Transférer des numéros de téléphone vers Teams](transfer-phone-numbers-to-teams.md) .
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>Quels pays ou régions prennent en charge le portage de numéros ?
 
 Vous pouvez porter ou transférer des numéros de téléphone dans tous les pays ou régions pris en charge, mais la façon dont vous envoyez une demande de commande de port dépend du pays ou de la région d’où proviennent les numéros de téléphone. Pour obtenir la liste des pays et régions qui prennent en charge le portage de numéros, consultez [Gérer les numéros de téléphone de votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).  
 
-Actuellement, [l’Assistant Portage](transfer-phone-numbers-to-teams.md) dans le centre d’administration Microsoft Teams prend en charge l’obtention de numéros de téléphone pour le Royaume-Uni, Estados Unidos et le Canada. Pour obtenir des numéros de téléphone pour d’autres pays et régions, vous pouvez [soumettre manuellement une commande de port](manually-submit-port-order.md).
+Actuellement, [l’Assistant Portage](transfer-phone-numbers-to-teams.md) dans le Centre d’administration Microsoft Teams prend en charge l’obtention de numéros de téléphone pour le Royaume-Uni, États-Unis et le Canada. Pour obtenir des numéros de téléphone pour d’autres pays et régions, vous pouvez [soumettre manuellement une commande de port](manually-submit-port-order.md).
   
 ## <a name="what-numbers-can-be-transferred"></a>Quels sont les numéros qui peuvent être transférés ?
 
@@ -50,7 +50,7 @@ En général, vous pouvez transférer n’importe quel numéro de téléphone pr
 - Numéros de téléphone d’appareil mobile tels que ceux utilisés pour le téléphone cellulaire et les tablettes.
 
     > [!NOTE]
-    > Le transfert de numéros mobiles n’est disponible qu’au Estados Unidos et à Porto Rico.
+    > Le transfert de numéros mobiles n’est disponible qu’au États-Unis et à Porto Rico.
   
 - des numéros de téléphone payants ;
 
@@ -66,18 +66,18 @@ En général, vous pouvez transférer n’importe quel numéro de téléphone pr
 
 - des numéros de téléphone VoIP provenant d'un fournisseur de téléphone, comme Vonage ou RingCentral.
 
-- Skype Entreprise numéros de téléphone hybrides. Si vous souhaitez transférer ces numéros, envoyez-nous un e-mail à l’adresse <ptn@microsoft.com>.
+- Si vous transférez des numéros de téléphone hybrides (migration depuis le routage direct ou la connexion de l’opérateur vers les forfaits d’appels), contactez [l’équipe des services de numéros](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) de téléphone, veillez à inclure une note indiquant qu’il s’agit de numéros de téléphone hybrides.
 
 **Vous ne pouvez pas transférer :**
   
 > [!NOTE]
-> À ce stade, vous ne pouvez pas transférer de numéro de téléphone ou de numéros qui ne proviennent pas d’un pays ou d’une région pris en charge, y compris les numéros de téléphone d’un fournisseur de téléphone VoIP. Pour obtenir la liste des pays/régions pris en charge, consultez [la disponibilité des pays et des régions pour Audioconférence et les forfaits d’appels](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> À ce stade, vous ne pouvez pas transférer de numéro de téléphone ou de numéros qui ne proviennent pas d’un pays ou d’une région pris en charge, y compris les numéros de téléphone d’un fournisseur de téléphone VoIP. Pour obtenir la liste des pays/régions pris en charge, consultez [la disponibilité des pays et des régions pour l’audioconférence et les forfaits d’appels](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - des numéros de téléphone utilisés pour les connexions de données, comme les lignes DSL ou les connexions Internet haut débit ;
 
 - des numéros de téléphone dédiés à la télécopie.
 
-    Si vous avez déjà des numéros de téléphone dédiés qui sont utilisés pour la télécopie, vous *pouvez* transférer ces numéros vers Teams mais vos services de télécopie ne fonctionneront pas comme prévu. Les services de télécopie ne sont pas disponibles pour Teams clients, même si vous disposez de licences pour Système téléphonique, forfait d’appels nationaux ou forfait d’appels internationaux.
+    Si vous avez des numéros de téléphone dédiés existants qui sont utilisés pour la télécopie, vous  *pouvez*  transférer ces numéros vers Teams, mais vos services de télécopie ne continueront pas à fonctionner comme prévu. Les services de télécopie ne sont pas disponibles pour les clients Teams, même si vous disposez de licences pour le système téléphonique, le forfait d’appels nationaux ou le forfait d’appels internationaux.
 
     Si vous transférez le numéro de téléphone vers Teams, vous pouvez affecter ce numéro de téléphone à un utilisateur de votre organisation au lieu de l’utiliser pour la télécopie.
 
@@ -92,7 +92,7 @@ Vous devez disposer de toutes les informations de compte pour votre opérateur a
 
 Lorsque vous transférez des numéros de téléphone vers Teams, vous avez la possibilité de transférer tous vos numéros ou certains d’entre eux.
   
-- **Port complet** C’est quand vous transférez tous vos numéros de votre fournisseur de services actuel vers Teams. Lorsque vous êtes invité à indiquer les numéros de téléphone que vous souhaitez transférer, vous *devez inclure* le numéro de téléphone de facturation (BTN) ainsi que tous les autres numéros de téléphone de votre compte.
+- **Port complet** C’est à ce moment que vous transférez tous vos numéros de votre fournisseur de services actuel vers Teams. Lorsque vous êtes invité à indiquer les numéros de téléphone que vous souhaitez transférer, vous *devez inclure* le numéro de téléphone de facturation (BTN) ainsi que tous les autres numéros de téléphone de votre compte.
 
     Par exemple, supposons que votre BTN est  *+1 425-555-1234*  et que vous souhaitez porter tous vos 25 numéros de téléphone (*+1 425-555-1235 à 1259*). Lorsque vous suivez les instructions ci-dessous pour transférer vos numéros, vous devez saisir : **+14255551234 - +14255551259**.
 
@@ -113,13 +113,13 @@ Vous devez par exemple envoyer une demande de transfert de numéro unique pour c
 
 - les numéros de téléphone mobile et
 
-- Numéros de service qui peuvent être utilisés pour Audioconférence dans Microsoft 365 ou Office 365.
+- Numéros de service qui peuvent être utilisés pour l’audioconférence dans Microsoft 365 ou Office 365.
 
 Voici plus d’informations sur la façon d’envoyer des demandes de portage de numéros pour chacun de ces types de nombres :
   
-- **Téléphone numéros** fournis par différents transporteurs nécessitent une demande de portage unique pour les numéros avec chaque transporteur.
+- **Les numéros de téléphone** fournis par différents opérateurs nécessitent une demande de portage unique pour les numéros avec chaque opérateur.
 
-- **Les numéros gratuits** avec des codes régionaux tels que : 800, 844, 855, 866, 877 et 888 ne peuvent pas être inclus dans une demande de portage de nombres avec d’autres types de numéros. Pour porter ces numéros gratuits, vous devez [soumettre manuellement une commande de port](manually-submit-port-order.md). Vous ne pouvez pas porter ces numéros dans le centre d’administration Microsoft Teams. Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de téléphone de votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- **Les numéros gratuits** avec des codes régionaux tels que : 800, 844, 855, 866, 877 et 888 ne peuvent pas être inclus dans une demande de portage de nombres avec d’autres types de numéros. Pour porter ces numéros gratuits, vous devez [soumettre manuellement une commande de port](manually-submit-port-order.md). Vous ne pouvez pas porter ces numéros dans le Centre d’administration Microsoft Teams. Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de téléphone de votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
     Il est important d’utiliser la lettre d’autorisation correcte (LOA) pour le pays et le type de numéros de téléphone que vous souhaitez porter. Vous pouvez [télécharger la LOA dont vous avez besoin ici](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
@@ -132,7 +132,7 @@ Voici plus d’informations sur la façon d’envoyer des demandes de portage de
 
 Une fois que vous avez terminé la demande de commande de port, le traitement prend entre 7 et 14 jours. Toutefois, en fonction de votre fournisseur de services, cela peut prendre jusqu'à 30 jours. Une fois les numéros de téléphone transférés, vous recevrez un e-mail de notre part pour vous informer que vous êtes bon pour aller.
   
-Pour vérifier l’état de votre commande de port, dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à **Voix** >  **Téléphone numéros**, puis cliquez sur **Historique des commandes**. Chaque état de l’ordre de port est répertorié dans la colonne **État** .
+Pour vérifier l’état de votre commande de port, dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **numéros de téléphone** **vocal** > , puis cliquez sur **Historique des commandes**. Chaque état de l’ordre de port est répertorié dans la colonne **État** .
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>Les numéros de téléphone des utilisateurs (abonnés) peuvent-ils être convertis en numéros de service ?
 <a name="bkmk_type_1"> </a>
@@ -141,9 +141,9 @@ Oui. Il vous suffit d'envoyer une demande de service incluant le GUID de client 
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>Puis-je transférer mes numéros de Teams vers un autre fournisseur de services téléphoniques ou opérateur ?
 
-Pour transférer vos numéros de Teams vers un autre transporteur, vous devez envoyer une demande au nouveau transporteur. Vous devez également définir un code confidentiel de portage dans le centre d’administration Microsoft Teams.
+Pour transférer vos numéros de Teams vers un autre opérateur, vous devez envoyer une demande au nouveau transporteur. Vous devez également définir un code confidentiel de portage dans le Centre d’administration Microsoft Teams.
 
-Pour définir votre code confidentiel de portage, dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à **Voix** >  **Téléphone nombres**, dans le coin supérieur droit de la page, **sélectionnez Gérer le code confidentiel de portage**, puis entrez un code confidentiel à 10 chiffres.
+Pour définir votre code confidentiel de portage, dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez aux **numéros de téléphone** **vocal** > , dans le coin supérieur droit de la page, sélectionnez **Gérer le code confidentiel de portage**, puis entrez un code confidentiel à 10 chiffres.
 
 Lorsque votre nouveau transporteur nous contacte avec la demande de portage, nous lui demandons de fournir le code confidentiel que vous avez défini.
 
@@ -174,7 +174,7 @@ Voici les erreurs le plus fréquentes commises lors des transferts de numéros. 
 
 - Assurez-vous que votre service est actif. Le fait de figer le compte empêche la modification des opérateurs téléphoniques sur le compte. La personne autorisée à apporter des modifications au compte doit envoyer une commande au transporteur actuel pour supprimer le gel. Ce processus peut prendre une à trois semaines en fonction du transporteur.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Quel est le statut de vos demandes de transfert ?](port-order-status.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

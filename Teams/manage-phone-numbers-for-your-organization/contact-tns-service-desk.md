@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lorsque vous obtenez des numéros de téléphone ou des numéros de port (transfert) pour votre organisation, vous devrez peut-être obtenir de l’aide et du support auprès du service TNS.
-ms.openlocfilehash: bd12ac951e6a0f23ffeebf7a9d2e7655ce73d906
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 8fd5bb73ebdf5aba4cbadeb885404e1a6a6b4fca
+ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240723"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66687870"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>Services de numéro de téléphone (TNS) - Service Desk
 
@@ -43,7 +43,7 @@ Pour contacter l’assistance :
 
 2. Dans le volet gauche, sélectionnez **Voix**, puis **Numéros de téléphone**.
 
-3. Dans le coin supérieur droit de la page, cliquez sur **Actions**, puis **sélectionnez Obtenir la prise en charge des numéros de téléphone**. Vous serez transféré vers le Centre de **services de numéro de téléphone** (portail Service Desk).
+3. Dans le coin supérieur droit de la page, cliquez sur **Actions**, puis **sélectionnez Obtenir la prise en charge des numéros de téléphone**. Vous serez transféré au [Centre de services de numéro de téléphone](https://pstnsd.powerappsportals.com/)
 
 > [!NOTE]
 > Seule une personne du même locataire est autorisée à créer un cas. Par exemple, une personne de @fabrikam.com ne peut pas créer de cas au nom de @contoso.com.
@@ -140,7 +140,7 @@ Le type de cas peut être l’un des suivants :
 
   - **Type de numéros** - Sélectionnez le type de vos nombres. Consultez [Types de numéros de téléphone](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
-  - **Vous avez essayé d’obtenir des numéros de téléphone à partir du portail Teams Administration Center** - Avez-vous essayé d’acheter ces numéros de téléphone auprès du Centre de Administration Microsoft Teams ?
+  - **Vous avez essayé d’obtenir des numéros de téléphone à partir du portail Du Centre** d’administration Teams - Avez-vous essayé d’acheter ces numéros de téléphone auprès du Centre d’administration Microsoft Teams ?
 
   - **Quantité de numéros de téléphone requis** : nombre de numéros de téléphone que vous souhaitez acheter.
 
