@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Découvrez comment planifier, gérer et effectuer des rendez-vous virtuels à l’aide de l’application Bookings dans Teams.
-ms.openlocfilehash: a89eaa242cd62238d4e5c6c9d7a88f3a2e9ac62c
-ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
+ms.openlocfilehash: 245b9fdf8cd619ea68d2d20097f1aee4bdbbf20d
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66103381"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695127"
 ---
 # <a name="virtual-appointments-with-microsoft-teams-and-the-bookings-app"></a>Rendez-vous virtuels avec Microsoft Teams et l’application Bookings
 
@@ -56,13 +56,13 @@ Cet article vous donne une vue d’ensemble de la planification, de la gestion e
 
 Si vous êtes administrateur, consultez [Gérer l’application Bookings dans Teams](../bookings-app-admin.md) pour en savoir plus sur les conditions préalables à l’utilisation de l’application Bookings dans Teams, comment contrôler l’accès à Bookings dans votre organisation, ainsi que les paramètres de stratégie et d’administration recommandés.
 
-N’oubliez pas que seuls les planificateurs de votre organisation doivent avoir l’application Bookings installée dans Teams. Le personnel qui effectue ou participe à des rendez-vous virtuels n’a pas besoin de l’application. Ils rejoignent des rendez-vous à partir de leur Teams ou de leur calendrier Outlook ou en utilisant le lien de la réunion dans leur e-mail de confirmation de réservation.
+N’oubliez pas que seuls les planificateurs de votre organisation doivent avoir installé l’application Bookings dans Teams. Les membres du personnel qui effectuent ou participent à des rendez-vous virtuels n’ont pas besoin de l’application. Ils rejoignent des rendez-vous à partir de leur calendrier Teams ou Outlook ou en utilisant le lien de la réunion dans leur e-mail de confirmation de réservation.
 
 ## <a name="set-up-a-new-booking-calendar"></a>Configurer un nouveau calendrier de réservation
 
 ### <a name="create-the-booking-calendar"></a>Créer le calendrier de réservation
 
-Dans Teams, accédez à **Bookings** >  **Első lépések**, puis sélectionnez **Nouveau calendrier de réservation**. Remplissez le formulaire et veillez à choisir le type d’entreprise approprié pour votre organisation.
+Dans Teams, accédez à **Bookings** > **Get started**, puis sélectionnez **Nouveau calendrier de réservation**. Remplissez le formulaire et veillez à choisir le type d’entreprise approprié pour votre organisation.
 
 :::image type="content" source="../media/bookings-virtual-visits-new-booking-calendar.png" alt-text="Capture d’écran de l’écran nouveau calendrier de réservation montrant les types d’entreprises":::
 
@@ -76,7 +76,7 @@ Pour en savoir plus, consultez [Créer un calendrier Bookings](https://support.m
 
 Dans le calendrier de réservation, accédez à **Plus d’options** (...) > **Paramètres**, puis sélectionnez **Personnel**. Ajoutez des membres du personnel et attribuez un rôle à chaque personne que vous ajoutez. Vous pouvez ajouter jusqu’à 100 membres du personnel à un calendrier de réservation.
 
-L’application Bookings s’intègre à Outlook. Après avoir ajouté du personnel, vous pourrez afficher la disponibilité du calendrier de cette personne et planifier les réservations pour elle. Pour en savoir plus, consultez [Ajouter du personnel et afficher un calendrier Bookings](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
+L’application Bookings s’intègre à Outlook. Après avoir ajouté des membres du personnel, vous pourrez afficher la disponibilité de leur calendrier et planifier des réservations pour eux. Pour en savoir plus, consultez [Ajouter du personnel et afficher un calendrier Bookings](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
 
 ### <a name="create-appointment-types"></a>Créer des types de rendez-vous
 
@@ -96,7 +96,7 @@ Lorsque vous utilisez des formulaires, gardez à l’esprit que :
 Lorsqu’un planificateur utilise le type de rendez-vous pour planifier un rendez-vous, il peut choisir d’inclure le formulaire, de le supprimer ou d’ajouter d’autres formulaires que vous avez liés au type de rendez-vous. Les participants doivent remplir le formulaire avant de rejoindre le rendez-vous.
 
 > [!NOTE]
-> Toutes les informations fournies par les patients dans formulaires dans le cadre de Bookings ou de services de rendez-vous virtuels nécessaires à la continuité ou à la rétention des dossiers médicaux doivent être téléchargées, copiées et/ou notées directement dans ces dossiers. Ce service ne constitue pas un dossier médical légal ou un ensemble d’enregistrements désignés.
+> Si vous êtes un fournisseur de soins de santé, toutes les informations fournies par vous ou les patients dans Teams (y compris l’application Formulaires, l’application Bookings, les enregistrements de réunion si activés par vous ou tout autre service de rendez-vous virtuel Teams) nécessaires à des fins de continuité ou de rétention des dossiers médicaux doivent être téléchargées, copiées et/ou notées directement dans ces enregistrements par vous. Ce service ne tient pas de dossiers médicaux juridiques ou de dossiers désignés.
 
 Pour plus d’informations, consultez [Créer un type de rendez-vous](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
@@ -106,13 +106,13 @@ Dans le calendrier de réservation, sélectionnez **Nouvelle réservation**. Sé
 
 Cela inclut les informations de contact du participant, le membre du personnel qui fournira le service, les notes internes que seul le personnel peut voir, les rappels par e-mail et si le participant peut participer à partir d’un navigateur mobile. Si un formulaire est lié au type de rendez-vous, vous pouvez choisir de l’inclure, de le supprimer ou d’ajouter d’autres formulaires liés.
 
-La confirmation par e-mail envoyée au participant inclut le lien de réunion et une pièce jointe afin qu’il puisse ajouter le rendez-vous virtuel à son calendrier. Le personnel reçoit également une confirmation par e-mail et une invitation à une réunion. Si un formulaire a été inclus dans le rendez-vous, les administrateurs et planificateurs bookings peuvent voir si le formulaire a été rempli par le participant avant le rendez-vous et peut afficher la réponse du participant.
+La confirmation par e-mail envoyée au participant inclut le lien de réunion et une pièce jointe afin qu’il puisse ajouter le rendez-vous virtuel à son calendrier. Les membres du personnel reçoivent également une confirmation par e-mail et une invitation à une réunion. Si un formulaire a été inclus dans le rendez-vous, les administrateurs et planificateurs bookings peuvent voir si le formulaire a été rempli par le participant avant le rendez-vous et peut afficher la réponse du participant.
 
-Pour plus d’informations, consultez [Planifier une réservation dans l’application Teams Bookings](https://support.microsoft.com/office/schedule-a-booking-in-the-teams-bookings-app-e275049d-0d0f-4161-8526-461a9f29439f).
+Pour plus d’informations, consultez [Planifier une réservation dans l’application Réservations Teams](https://support.microsoft.com/office/schedule-a-booking-in-the-teams-bookings-app-e275049d-0d0f-4161-8526-461a9f29439f).
 
 ## <a name="conduct-an-appointment"></a>Effectuer un rendez-vous
 
-Dans votre calendrier Teams ou Outlook, accédez à la réservation, puis **sélectionnez Rejoindre** ou le lien Teams réunion. Vérifiez vos paramètres audio et vidéo, puis **sélectionnez Rejoindre maintenant**. Pour plus d’informations, consultez [Le rendez-vous De réservations](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
+Dans votre calendrier Teams ou Outlook, accédez à la réservation, puis sélectionnez **Rejoindre** ou le lien de réunion Teams. Vérifiez vos paramètres audio et vidéo, puis **sélectionnez Rejoindre maintenant**. Pour plus d’informations, consultez [Le rendez-vous De réservations](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
 ## <a name="monitor-appointments-and-get-real-time-status-updates"></a>Surveiller les rendez-vous et obtenir des mises à jour d’état en temps réel
 
@@ -125,7 +125,7 @@ Dans votre calendrier Teams ou Outlook, accédez à la réservation, puis **sél
 Le personnel peut même rejoindre et gérer les rendez-vous directement à partir de la file d’attente.
 
 > [!NOTE]
-> Actuellement, l’application Bookings prend en charge l’ajout d’un maximum de 100 employés par calendrier de réservation. Si vous avez utilisé Graph API pour configurer et ajouter du personnel à un calendrier de réservation, cette limite peut ne pas être appliquée. Dans ce scénario, l’onglet **File d’attente** ne peut pas afficher le contenu des calendriers qui ont plus de 100 employés. Pour une expérience optimale, nous vous recommandons d’ajouter pas plus de 100 personnes à un calendrier de réservation. Nous nous efforçons de résoudre cette limitation dans les versions ultérieures.
+> Actuellement, l’application Bookings prend en charge l’ajout d’un maximum de 100 employés par calendrier de réservation. Si vous avez utilisé les API Graph pour configurer et ajouter du personnel à un calendrier de réservation, cette limite peut ne pas être appliquée. Dans ce scénario, l’onglet **File d’attente** ne peut pas afficher le contenu des calendriers qui ont plus de 100 employés. Pour une expérience optimale, nous vous recommandons d’ajouter pas plus de 100 personnes à un calendrier de réservation. Nous nous efforçons de résoudre cette limitation dans les versions ultérieures.
 
 ## <a name="additional-capabilities-with-the-bookings-web-app"></a>Fonctionnalités supplémentaires avec l’application web Bookings
 
@@ -135,16 +135,16 @@ Pour en savoir plus, consultez [Microsoft Bookings](/microsoft-365/bookings/book
 
 ## <a name="get-insight-into-virtual-appointments-usage"></a>Obtenir des insights sur l’utilisation des rendez-vous virtuels
 
-Le [rapport d’utilisation des visites virtuelles](../teams-analytics-and-reports/virtual-visits-usage-report.md) dans le centre d’administration Microsoft Teams donne aux administrateurs une vue d’ensemble de Teams activité de rendez-vous virtuels dans votre organisation. Le rapport présente des analyses détaillées pour les rendez-vous virtuels, y compris les rendez-vous Bookings.
+Le [rapport d’utilisation des visites virtuelles](../teams-analytics-and-reports/virtual-visits-usage-report.md) dans le Centre d’administration Microsoft Teams donne aux administrateurs une vue d’ensemble de l’activité des rendez-vous virtuels Teams dans votre organisation. Le rapport présente des analyses détaillées pour les rendez-vous virtuels, y compris les rendez-vous Bookings.
 
 Vous pouvez afficher les métriques clés telles que le temps d’attente de la salle d’attente et la durée du rendez-vous. Utilisez ces informations pour obtenir des insights sur les tendances d’utilisation afin de vous aider à optimiser les rendez-vous virtuels pour obtenir de meilleurs résultats métier.
 
 ## <a name="related-articles"></a>Articles connexes
 
-- [Gérer l’expérience de jointure pour Teams rendez-vous virtuels sur les navigateurs mobiles](browser-join.md)
+- [Gérer l’expérience de jointure pour les rendez-vous virtuels Teams sur les navigateurs mobiles](browser-join.md)
 
-- [Teams rapport d’utilisation des visites virtuelles](../teams-analytics-and-reports/virtual-visits-usage-report.md)
+- [Rapport d’utilisation des visites virtuelles Teams](../teams-analytics-and-reports/virtual-visits-usage-report.md)
 
-- [Első lépések avec Teams pour les organisations de santé](healthcare/teams-in-hc.md)
+- [Prise en main de Teams pour les organisations de soins de santé](healthcare/teams-in-hc.md)
 
-- [Application Bookings dans Teams documentation d’aide](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
+- [Documentation d’aide sur l’application Bookings dans Teams](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)

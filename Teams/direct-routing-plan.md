@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct Microsoft vous permet de connecter un contrôleur de frontière de session (SBC) fourni par le client pris en charge au système téléphonique.
-ms.openlocfilehash: a5ccb8534ed8772124ae6e2506af81e5b63134d0
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: fd5f2733fc11511e6cfc2e646c0bb78aff26b522
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682513"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695057"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -35,7 +35,7 @@ Le routage direct vous permet de connecter un contrôleur de frontière de sessi
 ![Diagramme montrant la configuration de la connectivité RTC locale.](media/PlanDirectRouting1-PSTNwithTeams.png "Configuration de la connectivité RTC locale avec le client Microsoft Teams")
 
   > [!NOTE]
-  > Skype Entreprise Online vous permet également de coupler un SBC fourni par le client, mais cela nécessite un déploiement local Skype Entreprise Server ou une édition spéciale de Skype Entreprise, appelée Cloud Connector, entre le SBC et microsoft Cloud. Ce scénario est appelé voix hybride. En revanche, le routage direct permet une connexion directe entre le SBC pris en charge et le cloud Microsoft.
+  > Skype Entreprise Online vous permet également d’associer un SBC fourni par le client, mais cela nécessite un déploiement Skype Entreprise Server local ou une édition spéciale de Skype Entreprise, appelée Cloud Connector, entre SBC et Microsoft Cloud. Ce scénario est appelé voix hybride. En revanche, le routage direct permet une connexion directe entre le SBC pris en charge et le cloud Microsoft.
 
 > [!Important]
 > Cloud Connector Edition prendra sa retraite le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau de téléphonie local à Teams à l’aide du [routage direct](direct-routing-landing-page.md). 
@@ -160,6 +160,9 @@ Il est possible qu’une entreprise ait plusieurs espaces d’adressage SIP dans
 
 Le SBC n’a besoin que d’un seul nom de domaine complet et peut servir les utilisateurs à partir de n’importe quel espace d’adressage dans le locataire jumelé. Par exemple, un SBC portant le nom sbc1.contoso.com peut recevoir et envoyer le trafic RTC pour les utilisateurs ayant des adresses user@contoso.com et user@fabrikam.com tant que ces espaces d’adressage SIP sont inscrits dans le même locataire.  
 
+ > [!NOTE]
+ > Le nom de domaine complet SBC dans Azure Communication Services routage direct doit être différent du nom de domaine complet SBC dans le routage direct Teams.
+  
 ## <a name="public-trusted-certificate-for-the-sbc"></a>Certificat approuvé public pour le SBC
 
 Microsoft vous recommande de demander le certificat pour le SBC en générant une demande de signature de certification (CSR). Pour obtenir des instructions spécifiques sur la génération d’une RSE pour un SBC, reportez-vous aux instructions ou à la documentation d’interconnexion fournies par vos fournisseurs SBC. 
