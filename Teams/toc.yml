@@ -1489,7 +1489,7 @@ items:
             href: devices/plan-device-deployment.md
           - name: Comptes de ressources pour Skype Entreprise Server
             href: rooms/with-skype-for-business-server-2015.md
-  - name: Gérer les applications
+  - name: Gérer les applications dans Teams
     items:
       - name: Comprendre les applications dans Teams
         href: deploy-apps-microsoft-teams-landing-page.md
@@ -1517,10 +1517,10 @@ items:
             href: overview-of-app-validation.md
           - name: 'Sécurité, conformité et confidentialité des applications tierces'
             href: overview-of-app-certification.md
-          - name: Gérer les connecteurs Microsoft 365 et connecteurs personnalisés
-            href: Office-365-custom-connectors.md
           - name: Acheter des applications tierces pour Teams
             href: purchase-third-party-apps.md
+          - name: Gérer les connecteurs Microsoft 365 et connecteurs personnalisés
+            href: Office-365-custom-connectors.md
       - name: Modèles d’application pour Teams
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
       - name: Gérer des applications métier personnalisées
@@ -1531,9 +1531,9 @@ items:
             href: submit-approve-custom-apps.md
           - name: Publier une application personnalisée en téléchargeant un package d’application
             href: upload-custom-apps.md
-          - name: Personnaliser des applications dans Teams
+          - name: Personnaliser l’apparence et les métadonnées des applications
             href: customize-apps.md
-          - name: Personnaliser le magasin d’applications de votre organisation
+          - name: Personnaliser l’App Store de votre organisation
             href: customize-your-app-store.md
       - name: Contrôles d’administration pour régir les applications
         items:
@@ -1541,13 +1541,13 @@ items:
             href: manage-apps.md
           - name: Stratégies d’application
             items:
-              - name: Gérer les stratégies d’applications dans Teams
+              - name: Comprendre les stratégies d’application
                 href: app-policies.md
-              - name: Gérer les stratégies d’autorisation d’application dans Teams
+              - name: Gérer les stratégies d’autorisation des applications
                 href: teams-app-permission-policies.md
-              - name: Gérer les stratégies de configuration d’applications dans Teams
+              - name: Gérer les stratégies de configuration des applications
                 href: teams-app-setup-policies.md
-              - name: Gérer les stratégies d’application personnalisée et les paramètres dans Teams
+              - name: Gérer les stratégies et paramètres d’application personnalisés
                 href: teams-custom-app-policies-and-settings.md
           - name: Personnaliser les applications Teams pour vos employés de première ligne
             href: pin-teams-apps-based-on-license.md
@@ -1557,16 +1557,16 @@ items:
             href: resource-specific-consent.md
           - name: Comprendre les autorisations d’application et l’accès aux ressources
             href: app-permissions.md
-          - name: Comportement de l’application basé sur les types d’utilisateurs
-            href: non-standard-users.md
-          - name: Mises à jour d’application et rôle d’administrateur
-            href: apps-update-experience.md
           - name: Gérer l’accès aux applications dans Microsoft 365
             href: manage-third-party-teams-apps.md
           - name: Auditer les activités de gestion des applications
             href: audit-app-management-activities.md
-      - name: Rapport et analyse sur l’utilisation des applications
-        href: teams-analytics-and-reports/app-usage-report.md
+          - name: Rapport et analyse sur l’utilisation des applications
+            href: teams-analytics-and-reports/app-usage-report.md
+          - name: Comportement de l’application basé sur les types d’utilisateurs
+            href: non-standard-users.md
+          - name: Mises à jour d’application et rôle d’administrateur
+            href: apps-update-experience.md
   - name: Conseils pour les industries et le secteur public
     items:
       - name: Vue d’ensemble
