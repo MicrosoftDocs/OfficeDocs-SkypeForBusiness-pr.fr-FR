@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour les participants et les invités.
-ms.openlocfilehash: 5770c4d998a28edf2b8fc8131650b98420e826f9
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 7f9cb76e12671425ee2b7b0543263195796e04d5
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241133"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713352"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion : participants et invités
 
@@ -112,9 +112,11 @@ Ce paramètre ne s’applique pas aux réunions de canal. Une fois cette straté
 
 ## <a name="qa-in-meetings"></a>Q&A dans les réunions
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les organisateurs peuvent ajouter l’expérience Q&A à leurs réunions. Par défaut, ce paramètre est désactivé. En savoir plus sur Q&R [ici](/manage-qna-for-meetings). 
+Il s’agit d’une stratégie par organisateur. Ce paramètre permet aux administrateurs client Microsoft 365 d’activer ou de désactiver l’expérience Questions & Réponses (Q&A).
 
-Pour paramètre QnAEngagementMode contrôle cette stratégie dans PowerShell et Q&A peut également être ajustée dans le portail d’administration.
+Le paramètre est appliqué lorsqu’une réunion est créée ou mise à jour par les organisateurs. Par défaut, ce paramètre est désactivé. En savoir plus sur Q&R [ici](/manage-qna-for-meetings).
+
+Le paramètre QnAEngagementMode contrôle cette stratégie dans PowerShell. Q&A peut également être ajusté dans le portail d’administration.
 
 |Valeur du paramètre |Comportement  |
 |---------|---------|

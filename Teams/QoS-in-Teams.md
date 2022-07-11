@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6015c7b7cf1e7be5bc6b9b3e1fe0577a7f707377
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 5b9c049942808da9b2df97d031ff850949bca211
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564142"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713312"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implémenter la qualité de service (QoS) dans Microsoft Teams
 
@@ -151,7 +151,7 @@ Tenez compte des éléments suivants lorsque vous utilisez ces paramètres :
 
 - Tous les clients, y compris les clients mobiles et les appareils Teams, utiliseront ces plages de ports et seront affectés par toute stratégie DSCP que vous implémentez qui utilise ces plages de ports sources. Les seuls clients qui continueront à utiliser des ports dynamiques sont les clients basés sur un navigateur (clients qui permettent aux participants de participer à des réunions à l’aide de leur navigateur).
 
-- Bien que le client Mac utilise les mêmes plages de ports, il utilise également des valeurs codées en dur pour l’audio (EF) et la vidéo (AF41). Ces valeurs ne sont pas configurables.
+- Bien que le client Mac utilise les mêmes plages de ports, il utilise également des valeurs codées en dur pour le partage audio (EF) et vidéo et d’application/écran (AF41). Ces valeurs ne sont pas configurables.
 
 - Si vous avez besoin ultérieurement d’ajuster les plages de ports pour améliorer l’expérience utilisateur, les plages de ports ne peuvent pas se chevaucher et doivent être adjacentes les unes aux autres.
 

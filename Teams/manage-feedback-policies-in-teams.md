@@ -17,16 +17,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser des stratégies de commentaires pour contrôler si les utilisateurs Teams de votre organisation peuvent envoyer des commentaires sur Teams à Microsoft.
-ms.openlocfilehash: 206533faba3ae7c79c5e6bed54eb738061ed37bb
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 7fcfa1738f7dbbc0f7c70afec86e9e2f181d6d21
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562443"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713342"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gérer les stratégies de commentaires dans Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Les utilisateurs de votre organisation peuvent envoyer des commentaires sur Microsoft Teams pour nous faire savoir comment nous procédons directement à partir du bureau Teams, des clients web et des appareils mobiles. Nous améliorons continuellement l’expérience Teams et nous utilisons ces commentaires pour améliorer Teams.
 
