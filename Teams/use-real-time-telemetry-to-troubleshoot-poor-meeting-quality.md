@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Utilisez la télémétrie en temps réel avec des détails sur les appareils, les réseaux et la connectivité pour résoudre les problèmes des utilisateurs lors des réunions planifiées de Microsoft Teams.
-ms.openlocfilehash: c7bc5ee0415a289782cad1dd7daa5c13bdaf7364
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 794c0097c3bdcc757e0a469cb0f65b5eb4e6c285
+ms.sourcegitcommit: ce1cbdcfce8c785c66f6a51ef8e84092124f3ef0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494721"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "66716800"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Utiliser la télémétrie en temps réel pour résoudre les problèmes de qualité des réunions
 
@@ -153,6 +153,9 @@ Les signaux utilisateur identifient quand un utilisateur participe activement à
 - Les données de télémétrie en temps réel sont disponibles pour une réunion dans **le cadre de réunions récentes** pendant 24 heures après la fin de la réunion. Après 24 heures, vous ne pouvez pas accéder aux données et la réunion passe aux **réunions précédentes**. Si une réunion dure plus de 3 heures, les données de télémétrie en temps réel ne sont disponibles que pour les *3 dernières heures*.
 - La télémétrie n’est pas disponible en temps réel lors de l’utilisation d’anciennes versions de Teams. Si aucune télémétrie n’est disponible, essayez de mettre à jour votre client.
 - Si des participants externes ou des utilisateurs anonymes participent à une réunion, leur nom complet s’affiche comme **étant indisponible** pour conserver la confidentialité entre locataires.
+
+> [!NOTE]
+> Dans le cadre d’une préversion publique limitée, les données de télémétrie en temps réel sont actuellement disponibles pendant **7 jours** après la fin d’une réunion. Les limites ci-dessus s’appliquent une fois la préversion publique terminée.
 
 ## <a name="related-topics"></a>Sujets associés
 
