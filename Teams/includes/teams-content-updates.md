@@ -3,6 +3,30 @@
 
 
 
+## <a name="week-of-july-04-2022"></a>Semaine du 4 juillet 2022
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 7/5/2022 | [Informations de référence sur les applets de commande PowerShell pour les standards automatiques et les files d’attente d’appels](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | modifié |
+| 7/5/2022 | [Configurer un standard automatique pour Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modifié |
+| 7/5/2022 | [Créer une file d’attente des appels dans Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
+| 7/5/2022 | [Réunions et conférences dans Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | modifié |
+| 7/5/2022 | [Configurer le contrôleur de bordure de session - Plusieurs locataires](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modifié |
+| 7/5/2022 | [Planifier les standards automatiques teams et les files d’attente d’appels](/MicrosoftTeams/plan-auto-attendant-call-queue) | modifié |
+| 7/5/2022 | [Réunions, webinaires et événements en direct](/MicrosoftTeams/quick-start-meetings-live-events) | modifié |
+| 7/5/2022 | [licences de compte de ressource Téléphonie Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | modifié |
+| 7/5/2022 | [Étude de cas Contoso vocale Teams : Standards automatiques et files d’attente d’appels](/MicrosoftTeams/voice-case-study-call-queues) | modifié |
+| 7/5/2022 | [Rechercher des événements de gestion des applications dans les journaux d’audit](/MicrosoftTeams/audit-app-management-activities) | ajouté |
+| 7/6/2022 | [Guide d’administration informatique sur Education Insights dans Microsoft Teams](/MicrosoftTeams/class-insights) | modifié |
+| 7/6/2022 | [Utiliser PowerShell pour connecter Shifts à Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | modifié |
+| 7/6/2022 | [Utilisez l’Assistant Connecteur Shifts pour connecter Shifts à Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-wizard) | modifié |
+| 7/6/2022 | [Utilisation d’un ID d’appelant dans votre organisation](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | modifié |
+| 7/7/2022 | Découvrir la fonction d'appel dans Microsoft Teams | supprimé |
+| 7/7/2022 | [Forfaits d’appels pour Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | modifié |
+| 7/8/2022 | [Rendez-vous virtuels avec Microsoft Teams et l’application Bookings](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | modifié |
+
+
 ## <a name="week-of-june-27-2022"></a>Semaine du 27 juin 2022
 
 
@@ -85,22 +109,3 @@
 | 6/10/2022 | [Déployer des équipes à grande échelle pour les employés de première ligne dans Microsoft Teams](/MicrosoftTeams/deploy-teams-at-scale) | modifié |
 | 6/10/2022 | [Passer des licences Business Voice à Teams Phone](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | ajouté |
 | 6/10/2022 | [Autoriser les appareils salles Teams à participer à des réunions tierces](/MicrosoftTeams/rooms/third-party-join) | modifié |
-
-
-## <a name="week-of-may-30-2022"></a>Semaine du 30 mai 2022
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 5/31/2022 | [Gérer l’application Mises à jour pour votre organisation](/MicrosoftTeams/manage-updates-app) | ajouté |
-| 5/31/2022 | [Personnaliser votre app store dans Teams](/MicrosoftTeams/customize-your-app-store) | modifié |
-| 5/31/2022 | [Gérer les stratégies d’autorisation d’application dans Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modifié |
-| 5/31/2022 | [Canaux partagés dans Microsoft Teams](/MicrosoftTeams/shared-channels) | modifié |
-| 5/31/2022 | [Gérer les stratégies de mise en application dans Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modifié |
-| 6/1/2022 | [Contrôleurs de frontière de session certifiés pour le routage direct](/MicrosoftTeams/direct-routing-border-controllers) | modifié |
-| 6/1/2022 | [Adresses d’urgence pour les emplacements distants](/MicrosoftTeams/emergency-calling-dispatchable-location) | modifié |
-| 6/1/2022 | [Créer une file d’attente des appels dans Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
-| 6/2/2022 | [Configuration matérielle requise pour Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modifié |
-| 6/2/2022 | [Restrictions de caractère spécial dans les stratégies Teams](/MicrosoftTeams/special-character-restrictions-in-policy-names) | modifié |
-| 6/2/2022 | [Administration configuration des parents dans Teams pour l'éducation](/MicrosoftTeams/edu-parents-app) | modifié |
-| 6/3/2022 | [Rapport de Rendez-vous virtuels du connecteur DSE Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-reports) | modifié |
