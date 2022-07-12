@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer des standards automatiques via des applets de commande
-ms.openlocfilehash: a3f669a6540e42cd0ff4a016da0215ca79f3bd22
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 4dccd4e5026d78dada222cedf98659cdcd5ce6e5
+ms.sourcegitcommit: 6fb15729b2ff5ca142cb90605f3c98112cb36804
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676612"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "66744320"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>Créer un standard automatique via des applets de commande
 
@@ -52,7 +52,7 @@ ms.locfileid: "65676612"
 3. Vous avez acheté Téléphonie Microsoft Teams
 4. Les files d’attente d’appels référencées ci-dessous ont déjà été configurées en suivant le guide [de création de files d’attente d’appels avec les applets de commande PowerShell](create-a-phone-system-call-queue-via-cmdlets.md) .
 
-**Remarque** : certaines des applets de commande référencées ci-dessous peuvent faire partie de la préversion publique de Teams module PowerShell. Pour plus d’informations, consultez [Installer Teams préversion publique de PowerShell](teams-powershell-install.md) et consultez également [Microsoft Teams notes de publication powershell](teams-powershell-release-notes.md).
+**Remarque** : certaines des applets de commande référencées ci-dessous peuvent faire partie de la préversion publique du module Teams PowerShell. Pour plus d’informations, consultez [La préversion publique d’Install Teams PowerShell](teams-powershell-install.md) et les [notes de publication de Microsoft Teams PowerShell](teams-powershell-release-notes.md).
 
 Les utilisateurs qui ont déjà installé le module MicrosoftTeams doivent `Update-Module MicrosoftTeams` s’assurer que la version la plus à jour est installée.
 
@@ -113,7 +113,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Créer et affecter un compte de ressource
 
-**Remarque** : Téléphone numéro n’est pas obligatoire ici, car la file d’attente d’appels est terminée par un standard automatique
+**Remarque** : Le numéro de téléphone n’est pas obligatoire ici, car la file d’attente d’appels est terminée par un standard automatique
 
 - ID d’application
   - Standard automatique : ce933385-9390-45d1-9512-c8d228074e07
@@ -211,7 +211,7 @@ $dialbynameAAMenuOption3 = New-CsAutoAttendantMenuOption -Action TransferCallToT
 $afterHoursMenuOption4 = New-CsAutoAttendantMenuOption -Action Announcement -DtmfResponse Tone4 -Prompt $addressPrompt
 ```
 
-### <a name="create-after-hours-menu-and-call-flow"></a>Menu Créer après les heures de travail et Flow d’appel
+### <a name="create-after-hours-menu-and-call-flow"></a>Menu Créer après les heures de travail et flux d’appel
 
 ```PowerShell
 $afterHoursMenu = New-CsAutoAttendantMenu -Name "After Hours Menu" -MenuOptions @($afterHoursMenuOption1, $afterHoursMenuOption2, $dialbynameAAMenuOption3, $afterHoursMenuOption4) -Prompt $afterHoursMenuPrompt
@@ -288,7 +288,7 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 ### <a name="get-list-of-unassigned-service-numbers"></a>Obtenir la liste des numéros de service non attribués
 
 ```PowerShell
-Get-CsOnlineTelephoneNumber -IsNotAssigned -InventoryType Service
+Get-CsPhoneNumberAssignment -PstnAssignmentStatus Unassigned -CapabilitiesContain VoiceApplicationAssignment
 ```
 
 #### <a name="assign-available-phone-number"></a>Affecter le numéro de téléphone disponible
