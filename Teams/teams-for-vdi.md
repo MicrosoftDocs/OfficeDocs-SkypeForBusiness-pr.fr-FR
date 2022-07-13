@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8dc80503c2b949fb77cc8d593ba5a8dd71e68654
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 90e577f9d6ef7567387fbc7a26a944d20e976f66
+ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240443"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66773703"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -176,8 +176,6 @@ Pour en savoir plus sur Teams et Applications Microsoft 365 pour les grandes ent
 
     > [!NOTE]
     > Pour les clouds gouvernementaux, consultez [Installation en bloc de Teams à l’aide de Windows Installer (MSI)](msi-deployment.md) pour les liens de téléchargement vers les fichiers MSI.
-
-    La version minimale de l’application de bureau Teams requise est la version 1.3.00.4461. La conservation RTC n’est pas prise en charge dans les versions antérieures.
 
 2. Installez le MSI sur la machine virtuelle VDI en exécutant l’une des commandes suivantes :
 
@@ -540,7 +538,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 Ensuite, redémarrez VDA. Pour plus d’informations, consultez cet article de support Citrix sur la [résolution des problèmes d’optimisation HDX pour Microsoft Teams](https://support.citrix.com/article/CTX253754).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Installer Teams en bloc à l’aide de Windows Installer (MSI)](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)
