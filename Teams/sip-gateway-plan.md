@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a715e913966040c5406901403b90d5a6a421e2e4
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 6bf8e6ab6f2a5ba7303887e9e7d7d72d22c50964
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045873"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794682"
 ---
 # <a name="plan-for-sip-gateway"></a>Planifier la passerelle SIP
 
@@ -34,10 +34,10 @@ La passerelle SIP permet à votre organisation d’utiliser n’importe quel app
 
 ## <a name="benefits-of-sip-gateway"></a>Avantages de la passerelle SIP
 
-La passerelle SIP connecte des appareils SIP compatibles à Teams pour aider vos utilisateurs à migrer en toute transparence vers Teams téléphonie. À l’aide de la passerelle SIP, vos utilisateurs peuvent effectuer toutes les opérations suivantes :
+La passerelle SIP connecte des appareils SIP compatibles à Teams pour aider vos utilisateurs à migrer en toute transparence vers la téléphonie Teams. À l’aide de la passerelle SIP, vos utilisateurs peuvent effectuer toutes les opérations suivantes :
 
-- **Passer des appels :** Les utilisateurs d’appareils SIP peuvent passer des appels au réseau téléphonique commuté (RTC), à d’autres appareils SIP et à Teams et Skype Entreprise utilisateurs. Les utilisateurs d’appareils SIP peuvent uniquement appeler les utilisateurs qui ont des numéros de téléphone.
-- **Recevoir des appels :** Les utilisateurs d’appareils SIP peuvent recevoir un appel du RTC, des utilisateurs Teams ou Skype Entreprise qui disposent d’appareils SIP, ainsi que des applications clientes Teams et Skype Entreprise. L’appareil SIP agit comme un point de terminaison Teams. Les appels entrants seront également dupliqués vers l’appareil SIP de l’utilisateur.
+- **Passer des appels :** Les utilisateurs d’appareils SIP peuvent passer des appels au réseau téléphonique commuté (RTC), à d’autres appareils SIP, à Teams et à Skype Entreprise utilisateurs. Les utilisateurs d’appareils SIP peuvent uniquement appeler les utilisateurs qui ont des numéros de téléphone.
+- **Recevoir des appels :** Les utilisateurs d’appareils SIP peuvent recevoir un appel du RTC, de Teams ou Skype Entreprise utilisateurs disposant d’appareils SIP, ainsi que de Teams et d’applications clientes Skype Entreprise. L’appareil SIP agit comme un point de terminaison Teams. Les appels entrants seront également dupliqués vers l’appareil SIP de l’utilisateur.
 - **Plusieurs appels simultanés :** Un utilisateur d’appareil SIP dans un appel peut mettre l’appel en attente pour effectuer ou recevoir d’autres appels. Un utilisateur d’appareil SIP peut également téléconférencer deux appels.
 - **Ne pas déranger :** Un utilisateur d’appareil SIP peut définir ne pas déranger sur l’appareil afin que l’appareil ne sonne pas pour les appels entrants. Cela n’a aucun impact sur l’état de l’utilisateur sur tous les autres points de terminaison Teams.
 - **Hold/Resume et Mute/Unmute :** Un utilisateur d’appareil SIP peut maintenir et reprendre ou désactiver ou désactiver un appel à l’aide des fonctionnalités de ces actions sur l’appareil.
@@ -45,21 +45,21 @@ La passerelle SIP connecte des appareils SIP compatibles à Teams pour aider vos
 - **Indicateur d’attente de message :** Les utilisateurs d’appareils SIP peuvent recevoir des notifications qui les alertent lorsqu’ils ont de nouveaux messages vocaux.
 - **Connexion et déconnexion :** Les utilisateurs d’appareils SIP peuvent se connecter et se déconnecter de Teams sur l’appareil.
 - **Multifréquence à deux tonalités :** Les utilisateurs d’appareils SIP peuvent appuyer sur les touches numériques pour fournir une entrée lors des appels de réponse vocale interactifs.
-- **Teams réunions :** un utilisateur d’appareil SIP peut rejoindre une réunion Teams en composant le numéro d’accès à la réunion. Les participants à la réunion peuvent ajouter un utilisateur d’appareil SIP à la réunion en composant le numéro de téléphone de l’utilisateur ou en ajoutant simplement un participant en cliquant sur « Demander à rejoindre » pour alerter également l’appareil SIP de l’utilisateur. Les utilisateurs invités d’une autre organisation peuvent être ajoutés à une réunion Teams par un participant qui compose le numéro d’un utilisateur invité pour inclure cet invité.
+- **Réunions Teams :** Un utilisateur d’appareil SIP peut rejoindre une réunion Teams en composant le numéro d’accès à la réunion. Les participants à la réunion peuvent ajouter un utilisateur d’appareil SIP à la réunion en composant le numéro de téléphone de l’utilisateur ou en ajoutant simplement un participant en cliquant sur « Demander à rejoindre » pour alerter également l’appareil SIP de l’utilisateur. Les utilisateurs invités d’une autre organisation peuvent être ajoutés à une réunion Teams par un participant qui compose le numéro d’un utilisateur invité pour inclure cet invité.
 - **Transferts d’appels :** Les utilisateurs d’appareils SIP peuvent transférer des appels. La passerelle SIP prend en charge les transferts aveugles et consultatifs.
 - **Transfert d’appel local :** Un utilisateur d’appareil SIP peut définir des règles de transfert (toujours, au délai d’expiration et occupé) pour l’appareil. Si l’appareil est connecté à la passerelle SIP, l’appel est redirigé vers l’adresse cible en fonction de la règle définie par l’utilisateur de l’appareil. Pour que le transfert d’appel local fonctionne, l’administrateur doit définir l’attribut `AllowCallRedirect` sur `Set-CsTeamsCallingPolicy` `Enabled`.
 
 ## <a name="requirements-to-use-sip-gateway"></a>Configuration requise pour utiliser la passerelle SIP
 
-Teams utilisateurs doivent avoir un numéro de téléphone avec l’appel RTC activé pour utiliser la passerelle SIP.
+Les utilisateurs Teams doivent disposer d’un numéro de téléphone avec l’appel RTC activé pour utiliser la passerelle SIP.
 
 ### <a name="hardware-software-and-licenses"></a>Matériel, logiciels et licences
 
 Si vous disposez d’un appareil 3PIP ou SIP, vous devez disposer des éléments suivantes :
 
-- Une licence pour Système téléphonique (via E5 ou une licence autonome)
-- Activation RTC (par exemple, un numéro de téléphone) via un plan d’appel Microsoft Teams, un routage direct ou Operator Connect
-- Une licence common area Téléphone pour tous les appareils de zone commune
+- Une licence pour le système téléphonique (via E5 ou une licence autonome)
+- Activation RTC (par exemple, un numéro de téléphone) via un plan d’appel Microsoft Teams, un routage direct ou une connexion d’opérateur
+- Une licence Common Area Phone pour tous les appareils de zone commune
 
 ## <a name="compatible-devices"></a>Appareils compatibles
 
@@ -137,6 +137,27 @@ Si vous disposez d’un appareil 3PIP ou SIP, vous devez disposer des éléments
 |          |C450HD      |3.2.1      |3.4.6.687  |   |   |
 |          |445HD       |3.2.1      |3.4.6.687  |   |   |
 |          |RX50        |3.2.1      |3.4.6.687  |   |   |
+|**Spectralink**|       |           |           |   |[Prise en charge de Spectraink](https://support.spectralink.com)|
+|          |7202        |PCS22B     |PCS22B     |Combiné |   |
+|          |7212        |PCS22B     |PCS22B     |Combiné |   |
+|          |7502        |PCS22B     |PCS22B     |Combiné |   |
+|          |7522        |PCS22B     |PCS22B     |Combiné |   |
+|          |7532        |PCS22B     |PCS22B     |Combiné |   |
+|          |7622        |PCS22B     |PCS22B     |Combiné |   |
+|          |7642        |PCS22B     |PCS22B     |Combiné |   |
+|          |7722        |PCS22B     |PCS22B     |Combiné |   |
+|          |7742        |PCS22B     |PCS22B     |Combiné |   |
+|          |IP-DECT Server 200 |PCS22Ab |PCS22Ab |Serveur IP-DECT |   |
+|          |IP-DECT Server 400 |PCS22Ab |PCS22Ab |Serveur IP-DECT |   |
+|          |IP-DECT Server 6500 |PCS22Ab |PCS22Ab |Serveur IP-DECT |   |
+|          |Serveur IP-DECT virtuel 1 |PCS22Ab |PCS22Ab |Serveur IP-DECT |   |
+|          |IP-DECT Base Station |PCS22Ab |PCS22Ab |Serveur IP-DECT |   |
+
+> [!NOTE]
+> Les appareils Spectrasink reçoivent les mises à jour du microprogramme en direct des serveurs IP-DECT DeCt de Specink.
+
+> [!NOTE]
+> Pour les requêtes de support, les clients qui utilisent des systèmes IP-DECT avec la passerelle SIP Teams doivent contacter leur fabricant DECT ou leurs partenaires de canal d’implémentation.
 
 > [!NOTE]
 > Pour certains appareils, la version minimale du microprogramme est supérieure à la version approuvée du microprogramme. Cela est dû au fait que la version 3.X est la version Skype Entreprise. Nous mettons à jour la version SIP 2.X.

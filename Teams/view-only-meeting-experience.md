@@ -1,7 +1,7 @@
 ---
 title: Expérience de réunion en lecture seule
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 032036c6f08dac76cae9ed124ffe7bc8439e4c32
-ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
+ms.openlocfilehash: b6e68f267ac925efd0efbd3b0ee3d67800e11614
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64584259"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794562"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Expérience de réunion en lecture seule de Teams
 
@@ -119,7 +119,7 @@ Le participant en lecture seule ne pourra pas utiliser ces options dans les réu
 - Lever la main en réunion
 - Envoyer ou voir des réactions
 - Interagir avec toute application 3P intégrée à la réunion Teams, y compris les sondages.
-- Accès à l’enregistrement de la réunion.
+- Accès à l’enregistrement de réunion.
 
 ## <a name="view-only-feature-limitations"></a>Limitations de la fonctionnalité lecture seule
 
@@ -129,7 +129,7 @@ Le participant en lecture seule ne pourra pas utiliser ces options dans les réu
 - Les participants en lecture seule ne sont pas inclus dans le rapport de participation.
 - Les participants en lecture seule ont une expérience vidéo unique. Ils peuvent voir l’intervenant actif ou le contenu partagé, mais pas les deux.
 - Pour le moment, les dispositions de la **Galerie**, la **Grade galerie**, ou du **Mode Ensemble** ne sont pas prises en charge pour les participants en lecture seule.
-- Les participants en affichage seul sont uniquement pris en charge par les stratégies de salle d’accueil suivantes : « Membres de mon organisation , personnes de mon organisation et invités , personnes de mon organisation, organisations de confiance et invités » et « Tout le monde ». Si vous utilisez une politique de salle d'attente qui ne prend pas en charge les participants en mode lecture seule, ces derniers seront rejetés de la réunion. 
-- Les participants en lecture seule n’ont pas la même latence qu’un participant ordinaire.<sup>1</sup>
+- Les participants en mode affichage uniquement sont uniquement pris en charge par les stratégies de lobby suivantes : « Personnes de mon organisation », « Personnes de mon organisation et invités », « Personnes de mon organisation, organisations approuvées et invités » et « Tout le monde ». Si vous utilisez une politique de salle d'attente qui ne prend pas en charge les participants en mode lecture seule, ces derniers seront rejetés de la réunion. 
+- Les participants en lecture seule n’ont pas la même latence qu’un participant ordinaire. <sup>1</sup>
 
   <sup>1</sup> participants en lecture seule ont un retard audio et vidéo de 30 secondes pendant la réunion.  

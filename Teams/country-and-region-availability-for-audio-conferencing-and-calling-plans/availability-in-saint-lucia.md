@@ -1,36 +1,41 @@
 ---
-title: Disponibilité en Sainte Lucie
-author: SerdarSoysal
-ms.author: serdars
+title: Disponibilité à Sainte-Lucie
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.reviewer: 'mikedav, jastark, oscarr, v-sukade, rcole, fafan'
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - M365-voice
+- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Audio Conferencing
-  - Phone System
-  - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour Saint-Lucie.
+- Audio Conferencing
+- Phone System
+- Calling Plans
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour Sainte-Lucie.
+ms.openlocfilehash: c9f26fbd15a3f627c054d23de29cb606c50b0348
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794332"
 ---
-
-# <a name="availability-in-saint-lucia"></a>Disponibilité en Sainte Lucie
+# <a name="availability-in-saint-lucia"></a>Disponibilité à Sainte-Lucie
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour Saint-Lucie.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour Sainte-Lucie.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -57,7 +62,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
 
-Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les [options de connectivité PSTN](../pstn-connectivity.md) pour toutes les options disponibles.
+Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les [options de connectivité RTC](../pstn-connectivity.md) pour toutes les options disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 

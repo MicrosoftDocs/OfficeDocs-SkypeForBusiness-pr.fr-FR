@@ -1,7 +1,7 @@
 ---
 title: Utiliser OneDrive Entreprise et SharePoint pour les enregistrements de réunion
-author: serdars
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 ms.reviewer: debhag
 manager: serdars
 ms.topic: article
@@ -17,17 +17,17 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d2863517ae4a147f9ded902dffff40ef315642e
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: bc315353e1ece0b4d455937c1677e35e3c18d152
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556335"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794152"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive Entreprise et SharePoint ou Stream pour les enregistrements de réunion
 
 > [!NOTE]
-> Le stockage des enregistrements Teams de réunion classique Stream vers OneDrive et SharePoint (ODSP) est terminé depuis le 30 août 2021. Tous les enregistrements sont désormais stockés dans ODSP. Cette modification remplace la stratégie RecordingStorageMode et la modification du paramètre dans PowerShell n’a plus d’impact.
+> Le changement de stockage des enregistrements de réunion Teams de Classic Stream vers OneDrive et SharePoint (ODSP) est terminé depuis le 30 août 2021. Tous les enregistrements sont maintenant stockés dans ODSP. Cette modification remplace la stratégie RecordingStorageMode et la modification du paramètre dans PowerShell n’a plus d’impact.
 
 |Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Événement&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ ms.locfileid: "64556335"
 Microsoft Teams offre une nouvelle méthode d’enregistrement des réunions. Comme première phase d’une transition du système Microsoft Stream classique vers la [nouvelle version de Stream](/stream/streamnew/new-stream), cette méthode stocke les enregistrements sur Microsoft OneDrive Entreprise et SharePoint dans Microsoft 365, puis offre de nombreux avantages.
 
 > [!NOTE]
-> Si le chargement d’une réunion Teams échoue sur OneDrive/SharePoint, un message d’erreur « L’enregistrement s’est terminé de manière inattendue » s’affiche et l’enregistrement est enregistré temporairement dans Azure Media Services (AMS). Une fois stocké dans AMS, aucune nouvelle tentative n’est faite pour télécharger automatiquement l’enregistrement sur OneDrive/SharePoint stream.
+> Si un enregistrement de réunion Teams ne parvient pas à être téléchargé sur OneDrive/SharePoint, un message d’erreur « L’enregistrement s’est terminé de manière inattendue » s’affiche et l’enregistrement est enregistré temporairement dans Azure Media Services (AMS). Une fois stocké dans AMS, aucune nouvelle tentative n’est effectuée pour charger automatiquement l’enregistrement sur OneDrive/SharePoint ou Stream.
 
 Les enregistrements de réunion stockés dans AMS sont disponibles pendant 21 jours avant d’être automatiquement supprimés. Les utilisateurs peuvent télécharger la vidéo à partir d’AMS s’ils doivent conserver une copie.
 
@@ -110,12 +110,12 @@ L’option d’enregistrement de la réunion est un paramètre au niveau de la s
 |Appel individuel avec des parties internes             |Destinataire de l’appel                 |Compte OneDrive Entreprise du destinataire de l’appel                        |Le destinataire de l’appel est propriétaire et dispose de tous les droits. <br /><br />Appelant (si dans le même client) dispose d’un accès en lecture seule. Aucun accès de partage. <br /><br />L’appelant (s’il est dans un client différent) ne dispose d’aucun accès. Le destinataire de l’appel doit partager le document avec l’appelant.|
 |Appel individuel avec des parties externes             |Appelant                 |Compte OneDrive Entreprise de l’appelant                        |L’appelant est propriétaire et dispose de tous les droits.<br /> <br />Le destinataire de l’appel ne dispose d’aucun accès. L’appelant doit partager le document avec le destinataire de l’appel.|
 |Appel individuel avec des parties externes             |Destinataire de l’appel                 |Compte OneDrive Entreprise du destinataire de l’appel                        |Le destinataire de l’appel est propriétaire et dispose de tous les droits.<br /><br />L’appelant ne dispose d’aucun accès. Le destinataire de l’appel doit partager le document avec l’appelant.|
-|Appel de groupe                                 |Tout membre de l’appel |Membre ayant cliqué sur le compte OneDrive Entreprise de l’enregistrement  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits. <br /><br /> Les autres membres du groupe du même client ont des droits de lecture. <br /><br /> Les autres membres du groupe d’un client différent n’y ont aucun droit.|
+|Appel de groupe                                 |Tout membre de l’appel |Membre ayant cliqué sur le compte OneDrive Entreprise de l’enregistrement  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits. <br /><br /> Les autres membres du groupe du même locataire disposent de droits de lecture. <br /><br /> Les autres membres du groupe d’un autre locataire n’y ont aucun droit.|
 |Réunion ad hoc/planifiée                    |Organisateur              |Compte OneDrive Entreprise de l’organisateur                     |L’organisateur dispose de droits complets sur l’enregistrement. <br /><br /> Tous les autres membres de la réunion disposent d’un accès en lecture.|
-|Réunion ad hoc/planifiée                    |Autre membre de la réunion   |Membre de réunion qui a cliqué sur Enregistrer                                  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits d’accès à l’enregistrement. <br /><br />L’organisateur dispose de droits de modification et de partage.<br /><br /> Tous les autres membres de la réunion ont un accès en lecture.|
+|Réunion ad hoc/planifiée                    |Autre membre de la réunion   |Membre de réunion qui a cliqué sur Enregistrer                                  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits d’accès à l’enregistrement. <br /><br />L’organisateur dispose de droits de modification et de partage.<br /><br /> Tous les autres membres de la réunion disposent d’un accès en lecture.|
 |Réunion ad hoc/planifiée avec des utilisateurs externes|Organisateur              |Compte OneDrive Entreprise de l’organisateur                     |L’organisateur dispose de droits complets sur l’enregistrement.<br /> <br /> Tous les autres membres de la réunion provenant du même client que l’organisateur disposent d’un accès en lecture. <br /><br /> Tous les autres membres externes n’ont pas d’accès, et l’organisateur doit le partager avec eux.|
 |Réunion ad hoc/planifiée avec des utilisateurs externes|Autre membre de la réunion   |Membre qui a cliqué sur Enregistrement                                  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits d’accès à l’enregistrement. L’organisateur dispose de droits de modification et de partage. <br /><br /> Tous les autres membres de la réunion provenant du même client que l’organisateur disposent d’un accès en lecture. <br /><br />Tous les autres membres externes n’ont pas d’accès, et l’organisateur doit le partager avec eux.|
-|Réunion de canal                            |Membre du canal         |Teams SharePoint emplacement pour ce canal. **Remarque** : Le chargement de l’enregistrement de réunion de canal SharePoint n’est pas pris en charge pour les restrictions basées sur IP. Nous vous recommandons [d’utiliser l’accès conditionnel Azure](/azure/active-directory/conditional-access/overview). |Le membre qui a cliqué sur Enregistrement a le droit de modifier l’enregistrement. <br /> <br />Les autorisations de tous les autres membres sont basées sur le canal SharePoint’autorisations.|
+|Réunion de canal                            |Membre du canal         |Emplacement SharePoint Teams pour ce canal. **Remarque** : le chargement de l’enregistrement de réunion de canal sur SharePoint n’est pas pris en charge pour les restrictions basées sur IP. Nous vous recommandons d’utiliser [l’accès conditionnel Azure](/azure/active-directory/conditional-access/overview). |Le membre qui a cliqué sur Enregistrement a le droit de modifier l’enregistrement. <br /> <br />Les autorisations de chaque autre membre sont basées sur les autorisations SharePoint de canal.|
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
@@ -144,11 +144,11 @@ Par défaut, tous les fichiers d’enregistrement arrivent sur le compte OneDriv
 - Pour les réunions de canal, les autorisations sont héritées de la liste des propriétaires et des membres dans le canal.
 
 > [!NOTE]
-> Vous ne recevrez pas d’e-mail à la fin de l’enregistrement, mais celui-ci s’affiche dans la conversation de réunion une fois qu’il est terminé. Cela se produit beaucoup plus rapidement qu’auparavant dans Stream.
+> Vous ne recevrez pas d’e-mail à la fin de l’enregistrement, mais celui-ci s’affiche dans la conversation de réunion une fois qu’il est terminé. Cela se produira beaucoup plus rapidement qu’auparavant dans Stream.
 
-**Comment gérer les légendes ?**
+**Comment puis-je gérer les légendes ?**
 
-Les sous-titres des enregistrements de réunion Teams ne seront disponibles pendant la lecture que si la transcription de l’utilisateur était activée au moment de l’enregistrement. Les administrateurs doivent [activer la transcription d’enregistrement](meetings-policies-recording-and-transcription.md#allow-transcription) pour s’assurer que leurs utilisateurs ont la possibilité d’enregistrer les réunions avec transcription.
+Les sous-titres des enregistrements de réunion Teams ne seront disponibles pendant la lecture que si la transcription de l’utilisateur était activée au moment de l’enregistrement. Les administrateurs doivent [activer l’enregistrement de la transcription](meetings-policies-recording-and-transcription.md#allow-transcription) pour s’assurer que leurs utilisateurs ont la possibilité d’enregistrer des réunions avec la transcription.
 
 Les légendes permettent de créer du contenu inclusif pour les visiteurs de tous niveaux. En tant que propriétaire, vous pouvez masquer les sous-titres de l’enregistrement de la réunion, bien que la transcription de la réunion soit toujours disponible sur Teams, sauf si vous l’avez supprimé de cet emplacement.
 
@@ -171,9 +171,9 @@ Vous pouvez lire votre vidéo est sur le lecteur vidéo de OneDrive Entreprise o
 
 **Si vous envisagez de déconseiller l’ajout à Stream, les vidéos existantes resteront-elles toujours en l’état, et pendant combien de temps ?**
 
-Nous ne déconseillerons pas Stream en tant que plateforme dans un avenir proche. Les vidéos qui résident actuellement dans Stream y resteront jusqu’au début de la migration. Lors de la migration, ces vidéos migreront également vers OneDrive Entreprise ou SharePoint. Pour plus [d’informations,](/stream/streamnew/migration-details) consultez les détails de la migration.
+Nous ne déconseillerons pas Stream en tant que plateforme dans un avenir proche. Les vidéos qui résident actuellement dans Stream y resteront jusqu’au début de la migration. Lors de la migration, ces vidéos migreront également vers OneDrive Entreprise ou SharePoint. Pour plus d’informations, consultez [les détails de la migration](/stream/streamnew/migration-details) .
 
-**Comment faire appliquer une étiquette de rétention aux Microsoft Teams des réunions ?**
+**Comment faire appliquer une étiquette de rétention aux enregistrements de réunion Microsoft Teams ?**
 
 Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Application automatique d’étiquettes de rétention](/microsoft-365/compliance/apply-retention-labels-automatically).
 
@@ -181,6 +181,6 @@ Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Application au
 
 Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Which policy takes precedence?](./policy-assignment-overview.md#which-policy-takes-precedence) (Quelle est la stratégie prioritaire ?).
 
-**Où se trouve l’enregistrement si l’utilisateur ne OneDrive Entreprise pas SharePoint stockage, ou si le quota de stockage est plein ?**
+**Où va l’enregistrement si l’utilisateur n’a pas OneDrive Entreprise ou SharePoint, ou si le quota de stockage est plein ?**
 
-L’enregistrement sera placé dans notre emplacement de stockage temporaire où il sera placé pendant 21 jours. Pendant ce temps, l’organisateur doit télécharger l’enregistrement. Si l’enregistrement n’est pas téléchargé dans les 21 jours, il est supprimé.
+L’enregistrement atterrira dans notre emplacement de stockage temporaire où il sera conservé pendant 21 jours. Pendant ce temps, l’organisateur doit télécharger l’enregistrement. S’il n’est pas téléchargé dans les 21 jours, l’enregistrement est supprimé.

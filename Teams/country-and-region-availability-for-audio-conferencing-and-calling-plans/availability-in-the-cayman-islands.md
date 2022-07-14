@@ -1,7 +1,7 @@
 ---
-title: Disponibilité aux îles Caïmans
-author: SerdarSoysal
-ms.author: serdars
+title: Disponibilité dans les îles Caïmans
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services de Microsoft 365 et de Office 365 que vous Skype Entreprise et Microsoft Teams aux îles Caïmans.
-ms.openlocfilehash: d5a66a27bf2cbf4ecfa8b5e115aa3545f462cd9e
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les îles Caïmans.
+ms.openlocfilehash: da848be71b5737586a58f08568c184cd42c0a954
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62384132"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794302"
 ---
-# <a name="availability-in-the-cayman-islands"></a>Disponibilité aux îles Caïmans
+# <a name="availability-in-the-cayman-islands"></a>Disponibilité dans les îles Caïmans
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services de Microsoft 365 et de Office 365 que vous Skype Entreprise et Microsoft Teams aux îles Caïmans.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les îles Caïmans.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -62,7 +62,7 @@ Voici les services de Microsoft 365 et de Office 365 que vous Skype Entreprise e
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
 
-Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les [options de connectivité PSTN](../pstn-connectivity.md) pour toutes les options disponibles.
+Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les [options de connectivité RTC](../pstn-connectivity.md) pour toutes les options disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 

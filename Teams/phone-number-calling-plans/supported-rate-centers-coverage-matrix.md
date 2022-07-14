@@ -1,7 +1,7 @@
 ---
-title: Centres de tarifs et couverture pris en charge pour les forfaits d’appels
-ms.author: serdars
-author: SerdarSoysal
+title: Centres tarifaires pris en charge et couverture pour les forfaits d’appels
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: davlick, julienp
 ms.topic: article
@@ -16,24 +16,24 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Répertorie les centres de tarifs pris en charge et la couverture des forfaits d’appels.
-ms.openlocfilehash: fd0bdaac0765f2b92c4c81758e166948abe8489a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Répertorie les centres tarifaires pris en charge et la couverture des forfaits d’appels.
+ms.openlocfilehash: cd991c55c62eeba620d7a8d7f9f75cb7344507a9
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398408"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794102"
 ---
-# <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>Centres de tarifs et couverture pris en charge pour les forfaits d’appels
+# <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>Centres tarifaires pris en charge et couverture pour les forfaits d’appels
 
-Cet article répertorie les centres de tarifs pris en charge et la couverture des forfaits d’appels en Amérique du Nord. Un centre de taux est le terme du secteur pour une zone géographique qui définit traditionnellement les limites des appels locaux, des tarifs de facturation et de l’affectation de numéros de téléphone pour le réseau téléphonique commuté (RSTN). Dans de nombreux cas, le secteur passant à toutes les offres inclusives ou à l’offre groupée de minutes, le centre des tarifs est devenu moins important pour la facturation, mais il est toujours utilisé par certaines personnes.
+Cet article répertorie les centres tarifaires pris en charge et la couverture des forfaits d’appels dans Amérique du Nord. Un centre tarifaire est le terme sectoriel d’une zone géographique qui définit traditionnellement des limites pour les appels locaux, les tarifs de facturation et l’attribution de numéros de téléphone pour le réseau téléphonique commuté (RTC). Dans de nombreux cas, avec le passage de l’industrie à tous les forfaits inclusifs ou offres groupées de minutes, le centre de tarification est devenu moins important pour la facturation, mais est toujours utilisé par certains.
 
-Les centres [de taux pris en charge et la matrice de couverture pour la feuille de calcul Amérique du Nord](https://www.microsoft.com/download/details.aspx?id=102534) répertorient les centres de taux que nous pris en charge. Lorsque vous obtention de nouveaux numéros de téléphone ou lorsque vous transférez des numéros de téléphone de votre fournisseur existant vers Teams, téléchargez la feuille de calcul et utilisez-la pour rechercher des centres de tarifs. Si vous ne connaissez pas votre centre de taux, vous pouvez le rechercher sur Internet en fonction de vos indicatifs régionaux et préfixes (NXX).
-Si vous avez de nouveaux numéros et que nous n’avons pas les numéros que vous avez demandés, nous allons essayer de vous proposer des numéros à partir du même centre de taux.
+Les [centres de taux pris en charge et la matrice de couverture pour Amérique du Nord](https://www.microsoft.com/download/details.aspx?id=102534) feuille de calcul répertorient les centres de taux que nous prenons en charge. Lorsque vous obtenez de nouveaux numéros de téléphone ou lorsque vous transférez des numéros de téléphone de votre fournisseur existant vers Teams, téléchargez la feuille de calcul et utilisez-la pour rechercher des centres de débit. Si vous ne connaissez pas votre centre tarifaire, vous pouvez le rechercher sur Internet en fonction de vos codes régionaux (NPA) et préfixes (NXX).
+Si vous obtenez de nouveaux numéros et que nous n’avons pas les nombres que vous avez demandés, nous tenterons de vous proposer des numéros à partir du même centre de tarifs.
 
-Si vous avez de nouveaux numéros et que nous n’avons pas les numéros que vous avez demandés, nous vous proposons les numéros dans le même centre de taux.
+Si vous obtenez de nouveaux numéros et que nous n’avons pas les numéros que vous avez demandés, nous vous offrons des numéros à partir du même centre de tarifs.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Gérer des numéros de téléphone pour votre entreprise](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

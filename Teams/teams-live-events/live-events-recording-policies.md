@@ -1,7 +1,7 @@
 ---
 title: Stratégies d’enregistrement des événements en direct
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,26 +13,26 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: En savoir plus sur les stratégies d’enregistrement d’événements en direct.
+description: Découvrez les stratégies d’enregistrement d’événements en direct.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3725abe49c72251b8672fb5851177586be8bf871
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 5ae98255edf26843e59839192a9f20096182bfa2
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62386362"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794112"
 ---
-# <a name="live-event-recording-policies-in-microsoft-teams"></a>Stratégies d’enregistrement d’événements en direct Microsoft Teams
+# <a name="live-event-recording-policies-in-microsoft-teams"></a>Stratégies d’enregistrement d’événements en direct dans Microsoft Teams
 
-Plusieurs options s’offrent à vous pour enregistrer Microsoft Teams événement en direct. Les options d’enregistrement sont définies à l’aide de stratégies d’enregistrement. Cet article décrit les différents paramètres.
+Vous disposez de plusieurs options pour enregistrer un événement en direct Microsoft Teams. Les options d’enregistrement sont définies à l’aide de stratégies d’enregistrement. Cet article décrit les différents paramètres.
 
 Les options d’enregistrement sont définies à l’aide de la commande PowerShell [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy).
 
-## <a name="scheduling-and-option-behaviors"></a>Planification et comportements des options
+## <a name="scheduling-and-option-behaviors"></a>Comportements de planification et d’option
 
-Deux options d’organisateur sont disponibles lors de la planification de l’enregistrement d’un événement en direct :
+Il existe deux options d’organisateur lors de la planification d’un enregistrement d’événement en direct :
 
 - Enregistrement disponible pour les producteurs et les présentateurs
 
@@ -40,28 +40,28 @@ Deux options d’organisateur sont disponibles lors de la planification de l’e
 
 - Enregistrement disponible pour les participants
 
-  - DVR : un enregistreur vidéo numérique (DVR) permet aux participants de rembobiner et de suspendre pendant l’événement
+  - DVR : Un enregistreur vidéo numérique (DVR) permet aux participants de rembobiner et de s’interrompre pendant l’événement
 
-  - VOD : une vidéo à la demande permet aux participants de les regarder une fois l’événement terminé
+  - VOD : une vidéo à la demande (VOD) permet aux participants de regarder une fois l’événement terminé
 
 ## <a name="broadcast-recording-policy-setting"></a>Paramètre de stratégie d’enregistrement de diffusion
 
-Dans le cadre de la stratégie de diffusion, vous pouvez activer ou désactiver l’enregistrement d’un événement en direct à partir d’un paramètre.
+Dans le cadre de la stratégie de diffusion, vous pouvez activer ou désactiver l’enregistrement pour un événement en direct.
 
 | &nbsp;| Enregistrement disponible pour les producteurs et les présentateurs | Enregistrement disponible pour les participants |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | Toujours enregistrer               | Désactivé et sélectionné                                | Activé et sélectionné         |
 | L’organisateur peut enregistrer ou non | Activé et sélectionné par défaut                  | Activé et sélectionné par défaut   |
-| N’enregistrez jamais               | Désactivé et non sélectionné                            | Désactivé et non sélectionné      |
+| Ne jamais enregistrer               | Désactivé et non sélectionné                            | Désactivé et non sélectionné      |
 
-## <a name="storage-and-persistence-behavior"></a>Stockage et de persistance
+## <a name="storage-and-persistence-behavior"></a>Comportement de stockage et de persistance
 
 | Option                                       | État   | DVR                                                   | VOD                                                     | Enregistrement                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| Enregistrement disponible pour les participants | Sélectionné     | DVR est disponible et le Azure Media Services (AMS) est stocké pendant 180 jours | Les participants peuvent accéder à l’événement et le regarder                     |                              |
-|                                                  | Non sélectionné | DVR est disponible et le bien AMS est stocké pendant 180 jours | Le participant ne sera pas autorisé à accéder à l’événement une fois celui-ci terminé |                              |
-||Désactivé (non sélectionné)|DVR est disponible et l’actif AMS est supprimé après l’événement|Le participant ne sera pas autorisé à accéder à l’événement une fois celui-ci terminé||
-| Enregistrement disponible pour les producteurs et les présentateurs | Sélectionné     |                                                           |                                                             | Un mp4 est créé et stocké pendant 180 jours |
+| Enregistrement disponible pour les participants | Sélectionné     | DVR est disponible et la ressource Azure Media Services (AMS) est stockée pendant 180 jours | Le participant peut accéder à l’événement et l’observer                     |                              |
+|                                                  | Non sélectionné | DVR est disponible et la ressource AMS est stockée pendant 180 jours | Le participant n’aura pas accès à l’événement une fois l’événement terminé |                              |
+||Désactivé (non sélectionné)|DVR est disponible et la ressource AMS est supprimée après l’événement|Le participant n’aura pas accès à l’événement une fois l’événement terminé||
+| Enregistrement disponible pour les producteurs et les présentateurs | Sélectionné     |                                                           |                                                             | Un MP4 est créé et stocké pendant 180 jours |
 |                                                  | Non sélectionné |                                                           |                                                             | Aucun fichier n’est créé           |
 
 ### <a name="related-topics"></a>Sujets associés
@@ -69,4 +69,4 @@ Dans le cadre de la stratégie de diffusion, vous pouvez activer ou désactiver 
 - [Comprendre un événement en direct Teams](what-are-teams-live-events.md)
 - [Offre pour les événements en direct Teams](plan-for-teams-live-events.md)
 - [Configurer les paramètres d’événements en direct dans Teams](configure-teams-live-events.md)
-- [Teams de réunion en nuages](../cloud-recording.md)
+- [Enregistrement des réunions de clouds Teams](../cloud-recording.md)

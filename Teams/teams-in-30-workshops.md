@@ -1,7 +1,7 @@
 ---
-title: Teams en 30
-author: SerdarSoysal
-ms.author: serdars
+title: Teams dans 30
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 07/01/2019
 ms.service: msteams
@@ -13,25 +13,25 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: landerl, nsuter
 search.appverid: MET150
-description: Des ateliers interactifs en direct conçus pour vous aider à prendre en Microsoft Teams en 30 jours.
+description: Des ateliers interactifs en direct conçus pour vous permettre d’être opérationnel avec Microsoft Teams en seulement 30 jours.
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b030ed9efd92a33ef38029088edcd8e2cf6023b5
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: aaa02c0db57f253d080cc616ff91ae7fa2a287b5
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392896"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794172"
 ---
-# <a name="teams-in-30"></a>Teams en 30
+# <a name="teams-in-30"></a>Teams dans 30
 <div id="main" class="v2">
     <div class="container">
-        <p>Microsoft est heureux de vous inviter à <strong>Teams dans 30</strong>, une série d’ateliers interactifs en direct conçus pour aider les entreprises de taille moyenne (500 à 5 000 employés) à fonctionner avec Microsoft Teams en seulement 30 jours. Rejoignez-nous pour découvrir des recommandations et des conseils testés pour le temps et obtenir des réponses à vos questions Teams réponses. Les participants de l’atelier recevront également une invitation exclusive pour les heures d’ouverture du bureau avec un Teams expert.
-           <p>Vous êtes prêt à vous lancer ? Nous encourageons tous les membres de votre équipe de projet à commencer avec la réunion <i>Prise en main’Teams en 30</i> sessions. Cliquez sur le titre d’une session ci-dessous pour vous inscrire.
+        <p>Microsoft est heureux de vous inviter à <strong>Teams dans 30</strong>, une série d’ateliers interactifs en direct conçus pour aider les organisations de taille moyenne (500 à 5 000 employés) à fonctionner avec Microsoft Teams en seulement 30 jours. Joignez-vous à nous pour découvrir des conseils et des meilleures pratiques éprouvés et obtenir des réponses à vos questions Teams. Les participants à l’atelier recevront également une invitation exclusive pour les heures de bureau à micro ouvert avec un expert Teams.
+           <p>Vous êtes prêt à vous lancer ? Nous encourageons tous les membres de votre équipe de projet à commencer par la session <i>Prise en main de Teams dans 30</i> sessions. Cliquez sur un titre de session ci-dessous pour vous inscrire.
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
@@ -44,9 +44,9 @@ ms.locfileid: "63392896"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Commencer à Teams en 30 (commencez ici !)</h3>
-                        <P>Démarrez votre Teams en 30 voyage au pied droit. Comprenez le programme, les personnes qui doivent y participer et les ressources que vous pouvez utiliser pour garantir votre réussite.</P>
-                        <p><i>Public : sponsors d’entreprise, administrateurs informatiques, adoption et modification des propriétaires</i></p>
+                        <h3>Prise en main de Teams dans 30 (Commencez ici !)</h3>
+                        <P>Démarrez votre teams en 30 étapes du bon pied. Comprendre le programme, qui doit participer et les ressources que vous pouvez utiliser pour garantir votre réussite.</P>
+                        <p><i>Public : sponsors d’entreprise, administrateurs informatiques, propriétaires d’adoption et de changement</i></p>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@ ms.locfileid: "63392896"
                     </div>
                     <div class="cardText">
                         <h3>Préparez vos utilisateurs finaux</h3>
-                    <p>Découvrez des stratégies et des ressources pour préparer vos utilisateurs, créer une base de champions et garantir l’acceptation des utilisateurs comme élément clé de votre déploiement Teams de développement.</p><p><i>Public : Adoption et modification des propriétaires</i></p>
+                    <p>Découvrez des stratégies et des ressources pour préparer vos utilisateurs, créer un contingent de champions et garantir l’acceptation des utilisateurs en tant que composant principal de votre déploiement Teams.</p><p><i>Audience : Propriétaires d’adoption et de modification</i></p>
                     </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@ ms.locfileid: "63392896"
                     </div>
                     <div class="cardText">
                     <h3>Préparer votre environnement - Partie I</h3>
-                    <p>Définissez les bases de votre Teams déploiement. Identifiez les Teams conditions préalables, les meilleures pratiques en matière de mise en réseau et de sécurité, les stratégies de coexistence, les analyses et rapports, et les recommandations en matière de distribution du client.</p><p><i>Public : administrateurs informatiques</i></p>
+                    <p>Définissez la base de votre déploiement Teams. Identifiez les prérequis Teams, les meilleures pratiques en matière de mise en réseau et de sécurité, les stratégies de coexistence, l’analytique et les rapports, ainsi que les recommandations de distribution des clients.</p><p><i>Public : administrateurs informatiques</i></p>
 </div>
                 </div>
             </div>
@@ -101,8 +101,8 @@ ms.locfileid: "63392896"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Préparer votre environnement - Partie 2</h3>
-                    <p>Maintenant que vous avez les bases de l’application, comprenez les meilleures pratiques en matière de conformité, de rétention, de gouvernance et d’audioconférence pour Teams.</p><p><i>Public : administrateurs informatiques</i></p>
+                        <h3>Préparer votre environnement - Partie II</h3>
+                    <p>Maintenant que vous avez les bases en place, comprenez les meilleures pratiques pour implémenter la conformité, la rétention, la gouvernance et l’audioconférence pour Teams.</p><p><i>Public : administrateurs informatiques</i></p>
                     </div>
                 </div>
             </div>
@@ -121,8 +121,8 @@ ms.locfileid: "63392896"
                     </div>
                     <div class="cardText">
                     <h3>Optimiser et développer</h3>
-                    <p>Concevoir une offre qui inclut l’optimisation des performances du service, le développement Teams fonctionnalités et l’intégration de nouveaux utilisateurs.</p>
-                    <p><i>Public : sponsors d’entreprise, administrateurs informatiques, adoption et modification des propriétaires</i></p>
+                    <p>Concevez un plan qui inclut l’optimisation des performances du service, l’extension des fonctionnalités teams et l’intégration de nouveaux utilisateurs.</p>
+                    <p><i>Public : sponsors d’entreprise, administrateurs informatiques, propriétaires d’adoption et de changement</i></p>
                     </div>
                 </div>
             </div>
@@ -141,8 +141,8 @@ ms.locfileid: "63392896"
                     </div>
                     <div class="cardText">
                     <h3>Teams Chalk Talks</h3>
-                    <p>Conduites par des experts, ces ateliers interactifs en ligne permettent de découvrir les meilleures pratiques et des conseils pratiques sur certains des scénarios les plus populaires et les plus attrayants dans Teams. Chalk Talks part du principe que vous avez effectué un déploiement Teams base.</p>
-                    <p><strong>Conditions préalables</strong> : Teams participation à 30 ateliers ou déjà Teams dans votre organisation.</p>
+                    <p>Animés par des experts en la matière, ces ateliers interactifs en ligne offrent une occasion unique d’apprendre les meilleures pratiques et des conseils pratiques sur certains des scénarios les plus populaires et attrayants dans Teams. Chalk Talks suppose que vous avez terminé un déploiement Teams de base.</p>
+                    <p><strong>Prérequis</strong> : Teams dans 30 ateliers ou déjà activé pour Teams au sein de votre organisation.</p>
                     <p><i>Public : administrateurs informatiques</i></p>
                     </div>
                 </div>

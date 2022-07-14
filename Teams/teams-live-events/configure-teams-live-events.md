@@ -1,7 +1,7 @@
 ---
 title: Configurer les paramètres d’événements en direct dans Microsoft Teams
-author: serdarsoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 03/11/2019
 ms.topic: article
@@ -15,38 +15,38 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
-description: Découvrez comment gérer les paramètres des Teams en direct qui se tiennent dans votre organisation.
+description: Découvrez comment gérer les paramètres des événements en direct Teams qui sont organisés dans votre organisation.
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac7558f2177ab468043e624d6230106179f79a6e
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 8ac5bf29fbbe61b2e2224aeccb2082e31742816b
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205234"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794162"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurer les paramètres d’événements en direct dans Microsoft Teams
 
-Utilisez Teams paramètres d’événements en direct pour configurer les paramètres des événements en direct qui se tiennent dans votre organisation. Vous pouvez configurer une URL de prise en charge et configurer un fournisseur de distribution de vidéos tiers. Ces paramètres s’appliquent à tous les événements en direct créés dans votre organisation.
+Utilisez les paramètres d’événements en direct Teams pour configurer les paramètres des événements en direct qui se tiennent dans votre organisation. Vous pouvez configurer une URL de support et un fournisseur de distribution de vidéos tiers. Ces paramètres s’appliquent à tous les événements en direct créés dans votre organisation.
 
-Vous pouvez facilement gérer ces paramètres dans le Centre d’administration Microsoft Teams’administration. Dans le navigation de gauche, allez aux **paramètres d’événements**  >  **en direct Meetings.**
+Vous pouvez facilement gérer ces paramètres dans le Centre d’administration Microsoft Teams. Dans le volet de navigation de gauche, accédez aux **paramètres des événements** > **en direct réunions**.
 
-![Capture d’écran de Teams paramètres des événements en direct.](../media/teams-live-events-settings-new.png "Capture d’écran Teams paramètres d’événements en direct que vous pouvez configurer dans le Centre d’administration Microsoft Teams’équipe")
+![Capture d’écran des paramètres des événements en direct Teams.](../media/teams-live-events-settings-new.png "Capture d’écran des paramètres d’événements en direct Teams que vous pouvez configurer dans le Centre d’administration Microsoft Teams")
 
 ## <a name="set-up-event-support-url"></a>Configurer l’URL de prise en charge des événements
 
-Cette URL est affichée aux participants à un événement en direct. Ajoutez l’URL du support technique de votre organisation pour donner aux participants un moyen de contacter le support technique pendant un événement en direct.
+Cette URL s’affiche pour les participants aux événements en direct. Ajoutez l’URL de support de votre organisation pour permettre aux participants de contacter le support lors d’un événement en direct.
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
-1. Dans la barre de navigation de gauche, allez **aux paramètres de l’événement Meetings**  >  **Live event.**
-2. Sous **URL du support technique,** entrez l’URL du support technique de votre organisation.
+1. Dans le volet de navigation de gauche, accédez aux **paramètres d’événements** > **En direct des réunions**.
+2. Sous **URL du support**, entrez l’URL de support de votre organisation.
 
-    ![Paramètre de l’URL de prise en charge des événements en direct dans le Centre d’administration.](../media/teams-live-events-settings-supporturl.png "Capture d’écran du paramètre d’URL de prise en charge pour Teams événements en direct")
+    ![Paramètre d’URL de prise en charge pour les événements en direct dans le Centre d’administration.](../media/teams-live-events-settings-supporturl.png "Capture d’écran du paramètre d’URL de support pour les événements en direct Teams")
 
 ### <a name="using-windows-powershell"></a>Reportez-vous à la rubrique Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio.
 
@@ -55,24 +55,24 @@ Exécutez la commande suivante :
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
-Pour plus d’informations, [voir Set-CsTeamsMeetingBroadcastConfiguration.](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true)
+Pour plus d’informations, consultez [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true).
 ## <a name="configure-a-third-party-video-distribution-provider"></a>Configurer un fournisseur de distribution de vidéos tiers 
 
-Si vous avez acheté et configuré une solution de réseau (SDN) définie par le logiciel ou de réseau de distribution de contenu d’entreprise (ECDN) via un partenaire de distribution de vidéos Microsoft, configurez le fournisseur pour les événements en direct dans Teams. 
+Si vous avez acheté et configuré une solution SDN (Software Defined Network) ou un réseau de distribution de contenu d’entreprise (eCDN) par le biais d’un partenaire de distribution de vidéos Microsoft, configurez le fournisseur pour les événements en direct dans Teams. 
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
-1. Dans la barre de navigation de gauche, allez **aux paramètres de l’événement Meetings**  >  **Live event.**
-2. Sous **Fournisseurs de distribution de vidéos tiers,** complétent les étapes suivantes : 
+1. Dans le volet de navigation de gauche, accédez aux **paramètres d’événements** > **En direct des réunions**.
+2. Sous **fournisseurs de distribution de vidéos tiers**, procédez comme suit : 
 
     ![Paramètres du fournisseur de distribution de vidéos tiers dans le Centre d’administration.](../media/teams-live-events-settings-distribution-provider-new.png "Capture d’écran des paramètres du fournisseur de distribution de vidéos tiers pour les événements en direct")
 
-    - **Fournisseur de distribution tiers** Activez cette fonction pour activer le fournisseur de distribution de vidéos tiers.
+    - **Fournisseur de distribution tiers** Activez cette option pour activer le fournisseur de distribution de vidéos tiers.
     - **Nom du fournisseur SDN** Choisissez le fournisseur que vous utilisez.
-    - **Configuration de SDN** Entrez les détails de la configuration SDN.
+    - **Configuration du SDN** Entrez les détails de la configuration SDN.
         
 ### <a name="using-windows-powershell"></a>Reportez-vous à la rubrique Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio.
-Obtenez l’ID de licence ou le jeton d’API et le modèle d’API auprès de votre fournisseur, puis exécutez l’une des solutions suivantes, selon le fournisseur que vous utilisez :
+Obtenez l’ID de licence ou le jeton d’API et le modèle d’API à partir du contact de votre fournisseur, puis exécutez l’une des opérations suivantes, en fonction du fournisseur que vous utilisez :
 
 **Hive** 
 ```PowerShell
@@ -90,21 +90,21 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName ramp -SdnRuntimeConfiguration "{Configuration provided by RAMP}"
 ```
-**Peer5**
+**Homologue 5**
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName peer5 -SdnLicenseId {peer5CustomerId}
 ```
 
-Pour plus d’informations, [voir Set-CsTeamsMeetingBroadcastConfiguration.](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true)
+Pour plus d’informations, consultez [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true).
 
 > [!NOTE]
-> Si vous prévoyez de créer des événements en direct à l’aide d’une application ou d’un appareil externe, vous devrez également configurer votre fournisseur [eCDN avec Microsoft Stream.](/stream/network-caching) 
+> Si vous envisagez de créer des événements en direct à l’aide d’une application ou d’un appareil externe, vous devez également [configurer votre fournisseur eCDN avec Microsoft Stream](/stream/network-caching). 
 
 >[!Note]
 > Le passage de Microsoft Stream à [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](../tmr-meeting-recording-change.md) est une approche à différentes étapes. Au lancement, vous aurez la possibilité de choisir cette expérience. En novembre vous devrez quitter cette option si vous souhaitez poursuivre avec Stream et, au début de 2021 nous exigerons de tous les clients l’utilisation de OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunion.
 
 >[!Note]
-> Votre solution eCDN choisie est soumise aux conditions d’utilisation et à la politique de confidentialité du fournisseur tiers sélectionné, qui régissent votre utilisation de la solution du fournisseur eCDN. Votre utilisation de la solution du fournisseur eCDN ne sera pas soumise aux termes du contrat de licence en volume Microsoft ou aux conditions des services en ligne. Si vous n’acceptez pas les conditions du fournisseur tiers, n’activez pas la solution eCDN dans Microsoft Teams.
+> Votre solution eCDN choisie est soumise aux conditions d’utilisation et à la politique de confidentialité du fournisseur tiers sélectionné, qui régiront votre utilisation de la solution du fournisseur eCDN. Votre utilisation de la solution du fournisseur eCDN ne sera pas soumise aux termes de licence en volume Microsoft ou aux conditions des services en ligne. Si vous n’acceptez pas les conditions du fournisseur tiers, n’activez pas la solution eCDN dans Microsoft Teams.
 
 ### <a name="related-topics"></a>Sujets associés
 - [Que sont les événements en direct Teams ?](what-are-teams-live-events.md)

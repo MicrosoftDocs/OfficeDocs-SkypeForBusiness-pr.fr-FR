@@ -1,7 +1,7 @@
 ---
 title: Classification de flux dans le tableau de bord qualité des appels (CQD)
-ms.author: serdars
-author: lolaj
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: gageames
 ms.topic: article
@@ -20,20 +20,20 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Découvrez comment la qualité du flux est classifiée dans le tableau de bord de qualité des appels (CQD) pour Microsoft Teams et Skype Entreprise Online.
-ms.openlocfilehash: 5ee2575cf952eb9d7e78f14b2b8ba7693cd3f878
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 9b17cf115759e96edbccdb85369ac42fd5861ff7
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059255"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794292"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Classification de flux dans le tableau de bord de qualité des appels (CQD)
 
-Le tableau de bord de qualité des appels (CQD) pour Microsoft Teams et Skype Entreprise Online vous permet d’obtenir des insights sur la qualité des appels effectués à l’aide des services Microsoft Teams et Skype Entreprise. Cette rubrique fournit des informations détaillées sur la classification de qualité des flux de médias. Pour en savoir plus sur le CQD et comment le configurer, consultez [Configurer le tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md).
+Le tableau de bord de qualité des appels (CQD) pour Microsoft Teams et Skype Entreprise Online vous permet d’obtenir des insights sur la qualité des appels effectués à l’aide de Microsoft Teams et des services Skype Entreprise. Cette rubrique fournit des informations détaillées sur la classification de qualité des flux de médias. Pour en savoir plus sur le CQD et comment le configurer, consultez [Configurer le tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md).
 
 ## <a name="classifier-definitions"></a>Définitions du classificateur
 
-Flux dans CQD sont classés comme _bons_, _pauvres_ ou _non classés_ en fonction des valeurs des métriques de qualité clés disponibles. Les métriques et conditions utilisées pour classer le flux sont affichées dans les tableaux qui suivent. Les dimensions « Poor Due To » de CQD peuvent être utilisées pour comprendre quelle métrique est responsable d’une classification _médiocre_ . Pour plus d’informations sur ces dimensions, consultez [Dimensions et mesures disponibles dans le tableau de bord qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Les flux dans CQD sont classés comme _bons_, _pauvres_ ou _non classés_ en fonction des valeurs des métriques de qualité clés disponibles. Les métriques et conditions utilisées pour classer le flux sont affichées dans les tableaux qui suivent. Les dimensions « Poor Due To » de CQD peuvent être utilisées pour comprendre quelle métrique est responsable d’une classification _médiocre_ . Pour plus d’informations sur ces dimensions, consultez [Dimensions et mesures disponibles dans le tableau de bord qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>Classificateur audio
 
@@ -48,7 +48,7 @@ Si une ou plusieurs des conditions suivantes sont remplies et que l’utilisatio
 
 ### <a name="video-classifier-due-to-freeze"></a>Video Classifier due to Freeze
 
-Le flux vidéo est marqué  _Good_ or _Poor_ en fonction de la valeur d’un score de classifieur généré pour estimer que l’utilisateur final a rencontré Frozen Video. Ce classifieur est disponible pour Microsoft Teams produit uniquement.
+Le flux vidéo est marqué  _Good_ or _Poor_ en fonction de la valeur d’un score de classifieur généré pour estimer que l’utilisateur final a rencontré Frozen Video. Ce classifieur est disponible uniquement pour le produit Microsoft Teams.
 
 |N° d’étape|Mesure|Scénario|Condition |Classification si la condition est vraie |Classification si la condition est fausse |Classification si la métrique n'est pas disponible |Explication |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
