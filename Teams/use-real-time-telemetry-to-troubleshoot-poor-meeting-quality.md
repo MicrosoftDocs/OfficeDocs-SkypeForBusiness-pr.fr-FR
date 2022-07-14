@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Utilisez la télémétrie en temps réel avec des détails sur les appareils, les réseaux et la connectivité pour résoudre les problèmes des utilisateurs lors des réunions planifiées de Microsoft Teams.
-ms.openlocfilehash: 794c0097c3bdcc757e0a469cb0f65b5eb4e6c285
-ms.sourcegitcommit: ce1cbdcfce8c785c66f6a51ef8e84092124f3ef0
+ms.openlocfilehash: 26ee7b809d7b18bb07a7f8ae57852c2333b26d94
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "66716800"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789619"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Utiliser la télémétrie en temps réel pour résoudre les problèmes de qualité des réunions
 
@@ -155,7 +155,7 @@ Les signaux utilisateur identifient quand un utilisateur participe activement à
 - Si des participants externes ou des utilisateurs anonymes participent à une réunion, leur nom complet s’affiche comme **étant indisponible** pour conserver la confidentialité entre locataires.
 
 > [!NOTE]
-> Dans le cadre d’une préversion publique limitée, les données de télémétrie en temps réel sont actuellement disponibles pendant **7 jours** après la fin d’une réunion. Les limites ci-dessus s’appliquent une fois la préversion publique terminée.
+> Dans le cadre d’une préversion publique limitée, les données de télémétrie en temps réel sont actuellement disponibles pendant **7 jours** après la fin d’une réunion. Une fois la préversion terminée, seuls les locataires disposant de licences de module complémentaire Advanced Communications disposent de données de télémétrie disponibles pour la période de 7 jours prolongée. Tous les autres locataires seront soumis aux limites mentionnées ci-dessus.
 
 ## <a name="related-topics"></a>Sujets associés
 

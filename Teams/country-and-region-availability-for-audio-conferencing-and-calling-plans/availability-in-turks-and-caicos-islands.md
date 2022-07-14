@@ -1,7 +1,7 @@
 ---
-title: Disponibilité aux Îles Turques-et-Caïques
-author: SerdarSoysal
-ms.author: serdars
+title: Disponibilité dans les îles Turks et Caicos
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 aux îles Skype Entreprise et Microsoft Teams disponibles pour les îles Turques-et-Caïques.
-ms.openlocfilehash: 26d95fd94887cdfb7574c2d18f602d8b087b2d5a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les îles Turks et Caicos.
+ms.openlocfilehash: f1a0a06d19ca89a8f1ed07be1b89d387bcad9a42
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62409857"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789729"
 ---
-# <a name="availability-in-turks-and-caicos-islands"></a>Disponibilité aux Îles Turques-et-Caïques
+# <a name="availability-in-turks-and-caicos-islands"></a>Disponibilité dans les îles Turks et Caicos
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 aux îles Skype Entreprise et Microsoft Teams disponibles pour les îles Turques-et-Caïques.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les îles Turks et Caicos.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -62,7 +62,7 @@ Voici les services Microsoft 365 et Office 365 aux îles Skype Entreprise et Mic
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
 
-Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les [options de connectivité PSTN](../pstn-connectivity.md) pour toutes les options disponibles.
+Si les forfaits d’appels ne sont pas disponibles à l’achat, consultez les [options de connectivité RTC](../pstn-connectivity.md) pour toutes les options disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 

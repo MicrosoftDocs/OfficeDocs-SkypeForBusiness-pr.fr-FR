@@ -1,7 +1,7 @@
 ---
 title: Mise en place de l’interopérabilité de la vidéo cloud de Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b76e7c5e79b3928c7fb19ad9c5f5fb8f241b29a
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: f9ae7d59a97989d7f0677bf56b46c0a3d51f3e49
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674736"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789329"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Mise en place de l’interopérabilité de la vidéo cloud de Microsoft Teams
 
@@ -32,7 +32,7 @@ Une fois que vous avez [choisi votre ou vos partenaires Cloud Video Interop](clo
 
 ## <a name="plan"></a>Plan
 
-Consultez [Cloud Video Interop pour Microsoft Teams](cloud-video-interop.md) pour plus d’informations sur l’identification d’un partenaire ou de partenaires à utiliser dans votre organisation.
+Pour plus d’informations sur l’identification d’un partenaire ou d’un partenaire à utiliser dans votre organisation, consultez [Cloud Video Interop pour Microsoft Teams](cloud-video-interop.md) .
 
 Pour planifier l’activation à l’échelle utilisateur/simultanée/à l’échelle du site :
 
@@ -89,21 +89,21 @@ Une fois ces étapes terminées, les utilisateurs qui sont activés individuelle
 
 ## <a name="schedule"></a>Horaire
 
-Ensuite, planifiez Teams réunion avec des coordonnées d’interopérabilité vidéo. L’utilisateur activé peut planifier des réunions Teams via :
+Ensuite, planifiez la réunion Teams avec des coordonnées d’interopérabilité vidéo. L’utilisateur activé peut planifier des réunions Teams via :
 
-- [complément réunion Teams pour Outlook](teams-add-in-for-outlook.md)
-- Teams bureau client et mobile
+- [Complément réunion Teams pour Outlook](teams-add-in-for-outlook.md)
+- Bureau client et mobile Teams
 
 ## <a name="join"></a>Rejoindre
 
-Vous pouvez participer à Teams réunions avec vos appareils VTC des manières suivantes :
+Vous pouvez participer aux réunions Teams avec vos appareils VTC des manières suivantes :
 
 - IVR (Réponse vocale interactive)
   - Vous pouvez vous connecter à l’IVR du partenaire à l’aide de la tenantkey@domain.
   - Une fois que vous êtes dans l’IVR partenaire, vous êtes invité à entrer l’ID de conférence VTC, qui vous connectera ensuite à la réunion Teams.
 - Direct
-  - Vous pouvez directement vous connecter à la réunion Teams sans interagir avec l’IVR du partenaire à l’aide de la fonctionnalité de numérotation directe à l’aide de la chaîne complète de clé de locataire. ConferenceId@domain VTC.
+  - Vous pouvez directement accéder à la réunion Teams sans interagir avec l’IVR du partenaire à l’aide de la fonctionnalité de numérotation directe à l’aide de la chaîne complète de clé de locataire. ConferenceId@domain VTC.
 - Numérotation à une seule touche
-  - Si vous disposez d’une salle de Teams intégrée, vous pouvez utiliser les fonctionnalités de numérotation tactile offertes par votre partenaire (sans avoir à taper de chaîne de numérotation).
+  - Si vous disposez d’une salle Teams intégrée, vous pouvez utiliser les fonctionnalités de numérotation tactile offertes par votre partenaire (sans avoir à taper de chaîne de numérotation).
 
-Enfin, contactez Teams utilisateurs dans vos réunions à l’aide du partage audio, vidéo et de contenu.
+Enfin, contactez les utilisateurs teams dans vos réunions à l’aide du partage audio, vidéo et de contenu.

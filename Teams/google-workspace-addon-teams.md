@@ -1,7 +1,7 @@
 ---
-title: Configurer le Microsoft Teams de réunion pour Google Workspace
-author: SerdarSoysal
-ms.author: serdars
+title: Configurer le module complémentaire de réunion Microsoft Teams pour Google Workspace
+author: CarolynRowe
+ms.author: crowe
 ms.reviewer: aravin
 manager: serdars
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: Découvrez comment configurer le Microsoft Teams de réunion pour Google Workspace.
+description: Découvrez comment configurer le module complémentaire de réunion Microsoft Teams pour Google Workspace.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -18,40 +18,40 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b93fecea83a4fb44a19f490af514626a0d17f3ff
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 020fdd048b25dc015036e49d00858c106cf9a7af
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62388986"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789179"
 ---
-# <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurer le Microsoft Teams de réunion pour Google Workspace
+# <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurer le module complémentaire de réunion Microsoft Teams pour Google Workspace
 
-L’Microsoft Teams à une réunion permet aux utilisateurs de Google Agenda de planifier et de Microsoft Teams réunion directement à partir de Google Workspace. Les utilisateurs ont accès aux Teams fonctionnalités de réunion, notamment les vidéoconférences et audioconférences, le partage d’écran, la conversation de réunion, les tableaux blancs numériques, etc. Restez connecté et organisé pour être encore plus efficace au sein de votre travail, de votre école et de votre vie.
+L’utilisation du module complémentaire de réunion Microsoft Teams permet aux utilisateurs du calendrier Google de planifier et de participer à une réunion Microsoft Teams directement à partir de Google Workspace. Les utilisateurs auront accès aux fonctionnalités des réunions Teams, notamment la vidéo et l’audioconférence, le partage d’écran, la conversation de réunion, les tableaux blancs numériques, etc. Restez connecté et organisé pour faire plus ensemble au travail, à l’école et dans la vie.
 
-Le Microsoft Teams de réunion pour Google Workspace doit être activé par un administrateur de Teams pour que les utilisateurs clients peuvent accéder à l’application.
+Le module complémentaire de réunion Microsoft Teams pour Google Workspace doit être activé par un administrateur Teams pour que les utilisateurs locataires puissent accéder à l’application.
 
-## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>Activer ou désactiver le Microsoft Teams de réunion pour Google Workspace dans le portail Azure
+## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>Activer ou désactiver le module complémentaire de réunion Microsoft Teams pour Google Workspace dans le Portail Azure
 
-En tant qu’administrateur client, vous pouvez activer ou désactiver un module Microsoft Teams réunion pour Google Workspace à partir du compte d’administrateur de votre organisation à l’aide du portail Azure.
+En tant qu’administrateur client, vous pouvez activer ou désactiver un module complémentaire de réunion Microsoft Teams pour Google Workspace à partir du compte d’administrateur de votre organisation à l’aide de la Portail Azure.
 
-L’option d’ajout est activée par défaut.
+Le module complémentaire est activé par défaut.
 
-1. Connectez-vous au portail Azure.
+1. Connectez-vous au Portail Azure.
 
-2. Sélectionnez **Enterprise applicationsAll** >  **applications**.
+2. Sélectionnez **Applications d’entreprise** > **Toutes les applications**.
 
-3. Recherchez **Microsoft Teams le module-module de réunion pour Google Workspace**.
+3. Recherchez le **module complémentaire de réunion Microsoft Teams pour Google Workspace**.
 
-   ![Portail Azure affichant toutes les applications.](media/aad-add-google-workspace.png)
+   ![Portail Azure montrant toutes les applications.](media/aad-add-google-workspace.png)
 
-4. **Sélectionnez Oui**.
+4. Sélectionnez **Oui**.
 
-   ![Portail Azure affichant les propriétés de l’espace de travail Google.](media/google-workspace-properties.png)
+   ![Portail Azure montrant les propriétés de l’espace de travail Google.](media/google-workspace-properties.png)
 
-5. (Facultatif) Pour désactiver l’module ajouté, sélectionnez **Non** au lieu de **Oui** à l’étape 4.
+5. (Facultatif) Pour désactiver le module complémentaire, sélectionnez **Non** au lieu de **Oui** à l’étape 4.
 
-## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>Désactiver le Microsoft Teams de réunion pour Google Workspace à l’aide de PowerShell
+## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>Désactiver le module complémentaire de réunion Microsoft Teams pour Google Workspace à l’aide de PowerShell
 
 ```powershell
 Connect-AzureAD
@@ -73,15 +73,15 @@ if ($servicePrincipal) {
 }
 ```
 
-Pour plus d’informations, [voir Créer un principal de service Azure avec Azure PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0).
+Pour plus d’informations, consultez [Créer un principal de service Azure avec Azure PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0).
 
-## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Supprimer le Microsoft Teams de réunion pour Google Workspace
+## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Supprimer le module complémentaire de réunion Microsoft Teams pour Google Workspace
 
-Voir la documentation Google [Supprimer une application Google Workspace Marketplace pour](https://support.google.com/a/answer/6216211?hl=en) obtenir des instructions.
+Pour obtenir des instructions, consultez la documentation Google [Supprimer une application Google Workspace Marketplace](https://support.google.com/a/answer/6216211?hl=en) .
 
-## <a name="create-the-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>Créer le Microsoft Teams de réunion pour Google Workspace à l’aide de PowerShell
+## <a name="create-the-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>Créer le module complémentaire de réunion Microsoft Teams pour Google Workspace à l’aide de PowerShell
 
-Si le module Microsoft Teams à une réunion n’est pas présent dans votre client, vous pouvez le créer à l’aide de PowerShell : 
+Si le module complémentaire de réunion Microsoft Teams n’est pas présent dans votre locataire, vous pouvez le créer à l’aide de PowerShell : 
 
 ```powershell
 Connect-AzureAD

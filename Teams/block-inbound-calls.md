@@ -1,7 +1,7 @@
 ---
 title: Bloquer les appels entrants dans Microsoft Teams
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -15,16 +15,16 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Découvrez comment utiliser PowerShell pour gérer le blocage des appels entrants.
-ms.openlocfilehash: 25b271cbcf62acd732463e9dd34d4189479d2417
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 217a4fe6770d916e9013acf7f90ebf6a5556b837
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674386"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789599"
 ---
 # <a name="block-inbound-calls"></a>Bloquer les appels entrants
 
-Les forfaits d’appels Microsoft, le routage direct et Operator Connect tous prennent en charge le blocage des appels entrants à partir du réseau téléphonique commuté (RTC). Cette fonctionnalité permet à un administrateur de définir une liste de modèles de nombres au niveau global du locataire afin que l’ID d’appelant de chaque appel RTC entrant au locataire puisse être vérifié par rapport à la liste pour une correspondance. Si une correspondance est établie, un appel entrant est rejeté.
+Les forfaits d’appels Microsoft, le routage direct et l’opérateur Connect prennent tous en charge le blocage des appels entrants à partir du réseau téléphonique commuté (RTC). Cette fonctionnalité permet à un administrateur de définir une liste de modèles de nombres au niveau global du locataire afin que l’ID d’appelant de chaque appel RTC entrant au locataire puisse être vérifié par rapport à la liste pour une correspondance. Si une correspondance est établie, un appel entrant est rejeté.
 
 Cette fonctionnalité de blocage des appels entrants fonctionne uniquement sur les appels entrants qui proviennent du rtc et fonctionne uniquement au niveau global du locataire. Les utilisateurs Teams individuels ne peuvent pas manipuler cette liste. Le client Teams permet aux utilisateurs individuels de bloquer les appels RTC. Pour plus d’informations sur la façon dont vos utilisateurs finaux peuvent implémenter le blocage des appels, consultez [Gérer les paramètres d’appel dans Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 

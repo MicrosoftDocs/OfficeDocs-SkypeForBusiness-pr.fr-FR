@@ -1,7 +1,7 @@
 ---
-title: Installer Power BI Connecteur pour utiliser des modèles de requête CQD
-ms.author: serdars
-author: SerdarSoysal
+title: Installer le connecteur Power BI pour utiliser des modèles de requête CQD
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article
@@ -14,21 +14,21 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-description: Installer Power BI Connecteur pour utiliser des modèles de requête CQD (Call Quality Dashboard)
-ms.openlocfilehash: 3ca8a4c70b23923dcf49906b85529c7b7e369008
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+description: Installer le connecteur Power BI pour utiliser des modèles de requête CQD (Call Quality Dashboard)
+ms.openlocfilehash: 80d1b39c6fbe26f04998b06b22fb527b60bbb6a0
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675256"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789869"
 ---
-# <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>Installer le connecteur Microsoft Call Quality pour Power BI pour utiliser des modèles de requête Tableau de bord qualité des appels
+# <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>Installer le connecteur Microsoft Call Quality pour Power BI afin d’utiliser des modèles de requête Tableau de bord de la qualité des appels
 
-Avant de pouvoir utiliser les modèles de requête Power BI (fichiers PBIX) pour Microsoft Teams tableau de bord de qualité des appels (CQD), vous devez installer le connecteur Microsoft Call Quality pour Power BI, à l’aide du fichier *MicrosoftCallQuality.pqx* inclus dans le [téléchargement](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).
+Avant de pouvoir utiliser les modèles de requête Power BI (fichiers PBIX) pour microsoft Teams Call Quality Dashboard (CQD), vous devez installer le connecteur Microsoft Call Quality pour Power BI, à l’aide du fichier *MicrosoftCallQuality.pqx* inclus dans le [téléchargement](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).
 
-Lire [Utiliser Power BI pour analyser les données de CQD pour Teams](CQD-Power-BI-query-templates.md) en savoir plus sur ces modèles.
+Lisez [Utiliser Power BI pour analyser les données de CQD pour Teams](CQD-Power-BI-query-templates.md) afin d’en savoir plus sur ces modèles.
 
-Assurez-vous que vous disposez du [rôle d’accès CQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) approprié pour accéder aux rapports Power BI.
+Vérifiez que vous disposez du [rôle d’accès CQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) approprié pour accéder aux rapports Power BI.
 
 > [!NOTE]
 > Le connecteur Microsoft Call Quality prend uniquement en charge DirectQuery dans Power BI ; Le mode d’importation n’est pas pris en charge. 
@@ -53,7 +53,7 @@ Pour créer un rapport et exécuter des requêtes, vous devez d’abord vous con
 
     ![Obtenir des données dans le connecteur Power BI.](media/CQD-power-bi-connector1-resize.png)
 
-2. La fenêtre *Obtenir des données* doit apparaître à ce stade. Accédez aux *services en ligne*, puis sélectionnez *Microsoft Call Quality (bêta)* et appuyez *sur Connecter*.
+2. La fenêtre *Obtenir des données* doit apparaître à ce stade. Accédez aux *services en ligne*, puis sélectionnez *Microsoft Call Quality (bêta)* et *appuyez sur Connect*.
 
     ![Qualité des appels Microsoft dans le connecteur Power BI.](media/CQD-power-bi-connector2-resize.png)
 
@@ -65,7 +65,7 @@ Pour créer un rapport et exécuter des requêtes, vous devez d’abord vous con
 
 6. À ce stade, Power BI charge le modèle de données sur le côté droit de la fenêtre. Dans le cas contraire, la page reste vide et aucune requête n’est chargée par défaut. Passez à **Générer des requêtes ci-dessous** afin de générer une requête et de retourner des données.
 
-Si l’une des étapes de ce processus d’installation n’était pas claire, vous trouverez une explication plus détaillée du processus dans le guide de [démarrage rapide : Connecter aux données dans Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
+Si l’une des étapes de ce processus d’installation n’était pas claire, vous trouverez une explication plus détaillée du processus dans démarrage [rapide : Se connecter aux données dans Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
 ## <a name="building-queries"></a>Création de requêtes
 
@@ -116,7 +116,7 @@ Les requêtes de connecteur De qualité des appels Microsoft doivent être conç
 
 ## <a name="limitations"></a>Limites
 
-Malgré l’utilisation de Power BI, toutes les fonctionnalités Power BI ne sont pas prises en charge par le connecteur Microsoft Call Quality, soit en raison de limitations sur le modèle de données du tableau de bord de qualité des appels, soit sur les connecteurs DirectQuery en général. La liste ci-dessous note certaines des limitations les plus importantes du connecteur, mais cette liste ne doit pas être considérée comme exhaustive :
+Malgré l’utilisation de Power BI, toutes les fonctionnalités de Power BI ne sont pas prises en charge par le connecteur Qualité des appels Microsoft, soit en raison des limitations du modèle de données du tableau de bord de qualité des appels, soit des connecteurs DirectQuery en général. La liste ci-dessous note certaines des limitations les plus importantes du connecteur, mais cette liste ne doit pas être considérée comme exhaustive :
 
 1. **Colonnes calculées :** Les connecteurs DirectQuery en général ont une prise en charge limitée des colonnes calculées dans Power BI. Certaines colonnes calculées peuvent fonctionner avec le connecteur, que ces colonnes sont des exceptions. En règle générale, les colonnes calculées ne fonctionnent pas.
 
@@ -124,15 +124,15 @@ Malgré l’utilisation de Power BI, toutes les fonctionnalités Power BI ne son
 
 3. **Visuels personnalisés :** Bien que le connecteur Microsoft Call Quality fonctionne avec une gamme de visuels personnalisés, nous ne pouvons pas garantir la compatibilité avec tous les visuels personnalisés. De nombreux visuels personnalisés s’appuient sur l’utilisation de colonnes calculées ou de données importées, dont aucun n’est pris en charge par les connecteurs DirectQuery.
 
-4. **Référencement des données mises en cache :** Power BI ne prend actuellement pas en charge le référencement de données mises en cache à partir d’un connecteur DirectQuery d’aucune façon. Toute tentative de référence des résultats d’une requête entraîne une nouvelle requête.
+4. **Référencement de données mises en cache :** Power BI ne prend actuellement en charge le référencement des données mises en cache à partir d’un connecteur DirectQuery d’aucune façon. Toute tentative de référence des résultats d’une requête entraîne une nouvelle requête.
 
 5. **Filtrage des données relatives :** Est pris en charge dans le connecteur Microsoft Call Quality, mais uniquement avec les dimensions *Heure de début* et *Heure de fin* . Bien que la dimension *Date* puisse être le choix évident pour le filtrage de date relative, *la date* n’est pas stockée en tant qu’objet date/heure et ne prend donc pas en charge le filtrage de date relative dans Power BI.
 
 6. **Requêtes de mesure uniquement -** Ne sont pas pris en charge pour l’instant dans le connecteur Microsoft Call Quality. Lors de la création d’une visualisation avec au moins trois mesures et aucune dimension, les données de colonne sont transposées. Pour éviter cela, incluez toujours au moins une dimension (par exemple: Month Year) dans vos visualisations. Cette situation devrait être résolue dans une prochaine version du connecteur Microsoft Call Quality pour Power BI.
 
-7. **prise en charge Cloud de la communauté du secteur public (Cloud de la communauté du secteur public) :** pour les clients de l’environnement Cloud de la communauté du secteur public, le connecteur Microsoft Call Quality fonctionne lors de l’utilisation Power BI Desktop seulement. Le connecteur Microsoft Call Quality n’est actuellement pas compatible avec le service Power BI pour les clients Cloud de la communauté du secteur public.
+7. **Prise en charge du cloud de la communauté du secteur public (GCC) –** Pour les clients de l’environnement GCC, le connecteur Microsoft Call Quality fonctionne uniquement lorsque vous utilisez Power BI Desktop. Le connecteur Microsoft Call Quality n’est pas actuellement compatible avec le service Power BI pour les clients GCC.
 
-La plupart de ces problèmes sont des restrictions à la conception du connecteur DirectQuery en Power BI ou fondamentales à la conception du modèle de données CQD.
+La plupart de ces problèmes sont des restrictions à la conception du connecteur DirectQuery dans Power BI ou fondamentales à la conception du modèle de données CQD.
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
@@ -147,14 +147,14 @@ Sinon, si les dates que vous souhaitez afficher sont récentes, appliquez un fil
 
 ### <a name="when-i-add-certain-dimensions-to-my-reports-the-visual-immediately-returns-couldnt-load-the-data-for-this-visual-removing-the-dimension-fixes-the-visual----what-is-happening"></a>Lorsque j’ajoute certaines dimensions à mes rapports, le visuel retourne immédiatement **« Impossible de charger les données pour ce visuel** ». La suppression de la dimension corrige le visuel : que se passe-t-il ?
 
-Il s’agit d’un problème connu dans le connecteur Microsoft Call Quality ; toute dimension exposée sous la forme d’un nombre entier apparaîtra dans Power BI sous la forme d’une colonne d’agrégation, où Power BI tentera une action de synthèse par défaut (généralement « Somme »). Dans certains cas, ce comportement réussit à additionner les valeurs même si le résultat n’est pas utile, car la « somme » d’une dimension comme Second WiFi Channel n’a aucun sens. Dans d’autres cas, cette action de synthèse échoue et provoque des erreurs dans le visuel.
+Il s’agit d’un problème connu dans le connecteur Microsoft Call Quality ; Toute dimension exposée sous la forme d’un nombre entier apparaît dans Power BI sous la forme d’une colonne d’agrégation, où Power BI tente une action de synthèse par défaut (généralement « Somme »). Dans certains cas, ce comportement réussit à additionner les valeurs même si le résultat n’est pas utile, car la « somme » d’une dimension comme Second WiFi Channel n’a aucun sens. Dans d’autres cas, cette action de synthèse échoue et provoque des erreurs dans le visuel.
 
 Pour contourner ce problème, commencez par supprimer la dimension du visuel. Sélectionnez la dimension dans la liste « Champs », accédez à l’onglet « Outils de colonne » dans le ruban, cliquez sur le menu déroulant « Résumé », puis sélectionnez **Ne pas résumer**. La dimension peut maintenant être ajoutée à nouveau au visuel.
 
 
 ## <a name="error-codes"></a>Codes d’erreur
 
-Étant donné que le connecteur Microsoft Call Quality pour Power BI est moins restreint que l’application de navigateur en termes de types de requêtes que vous pouvez construire, vous pouvez parfois rencontrer un certain nombre d’erreurs lors de la création de vos requêtes. Si vous recevez un message d’erreur de type « CQDError ». RunQuery – Erreur d’exécution de requête », référencez la liste ci-dessous avec le numéro ErrorType fourni pour résoudre le problème possible avec la requête. Voici les codes de type d’erreur les plus courants que vous pouvez rencontrer avec le connecteur CQD Power BI :
+Étant donné que le connecteur Qualité des appels Microsoft pour Power BI est moins restreint que l’application de navigateur en termes de types de requêtes que vous pouvez construire, vous pouvez parfois rencontrer un certain nombre d’erreurs lors de la création de vos requêtes. Si vous recevez un message d’erreur de type « CQDError ». RunQuery – Erreur d’exécution de requête », référencez la liste ci-dessous avec le numéro ErrorType fourni pour résoudre le problème possible avec la requête. Voici les codes de type d’erreur les plus courants que vous pouvez rencontrer avec le connecteur Power BI CQD :
 
 - **ErrorType 1 - Erreur de structure de requête :** Une erreur de structure de requête est généralement due à l’échec de la génération d’une requête correctement mise en forme par le connecteur. Cela se produit le plus souvent lors de l’utilisation de fonctionnalités non prises en charge, comme spécifié dans les limitations ci-dessus. Vérifiez que vous n’utilisez pas de colonnes calculées ou de visuels personnalisés pour cette requête.
 
@@ -168,7 +168,7 @@ Si vous rencontrez des erreurs supplémentaires en dehors de cette étendue, inf
 
 ## <a name="footnotes"></a>Notes
 
-**<sup>1</sup>** Certains processus et applications (par exemple, OneDrive) peuvent entraîner la modification de votre dossier racine Documents ; assurez-vous que le répertoire *Power BI Desktop\\ Custom Connectors* est placé à l’intérieur du dossier racine actuel Documents.
+**<sup>1</sup>** Certains processus et applications (par exemple, OneDrive) peuvent entraîner la modification de votre dossier racine Documents ; assurez-vous que le *répertoire Power BI Desktop\\ Custom Connectors* est placé à l’intérieur du dossier racine actuel Documents.
 
 **<sup>2</sup>** Les informations d’identification de connexion que vous utilisez pour Call Quality Dashboard *n’ont pas* besoin d’être les mêmes que vous utilisez pour vous connecter à l’application Power BI Desktop elle-même.
 
@@ -176,7 +176,7 @@ Si vous rencontrez des erreurs supplémentaires en dehors de cette étendue, inf
 
 ### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>Quand le connecteur Power BI sera-t-il mis à jour à partir de l’état « Bêta » ?
 
-Malgré la balise Bêta, le connecteur Microsoft Call Quality (bêta) pour Power BI est la première version « release » du connecteur et a été officiellement signé par l’équipe Power BI pour refléter cela. Au moment de la publication initiale du connecteur, l’équipe Power BI n’était pas en mesure de fournir un support et une certification plus large, mais elle était toujours prête à attester de la sécurité, de l’authenticité et des fonctionnalités générales du connecteur Microsoft Call Quality. À l’avenir, nous prévoyons d’investir dans le connecteur Microsoft Call Quality pour Power BI dans un avenir proche.
+Malgré la balise Bêta, le connecteur Microsoft Call Quality (bêta) pour Power BI est la première version « release » du connecteur et a été officiellement signé par l’équipe Power BI pour refléter cela. Au moment de la publication initiale du connecteur, l’équipe Power BI n’était pas en mesure de fournir une prise en charge et une certification plus large, mais elle était toujours prête à attester de la sécurité, de l’authenticité et des fonctionnalités générales du connecteur Microsoft Call Quality. À l’avenir, nous prévoyons d’investir dans le connecteur Microsoft Call Quality pour Power BI dans un avenir proche.
 
 ### <a name="why-does-the-connector-seem-slower-compared-to-call-quality-dashboard-in-the-browser-what-can-i-do-to-improve-performance"></a>Pourquoi le connecteur semble-t-il plus lent que le tableau de bord qualité des appels dans le navigateur ? Que puis-je faire pour améliorer les performances ?
 
@@ -195,6 +195,6 @@ Au lieu de tenter d’augmenter le nombre de lignes de résultats, il est préf�
 
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-[Utilisez Power BI pour analyser les données de CQD pour Teams](CQD-Power-BI-query-templates.md)
+[Utiliser Power BI pour analyser les données de CQD pour Teams](CQD-Power-BI-query-templates.md)

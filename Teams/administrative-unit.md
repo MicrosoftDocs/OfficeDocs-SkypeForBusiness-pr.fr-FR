@@ -1,14 +1,14 @@
 ---
-title: Gérer les appareils avec des unités d’administration
-author: mahoffman
-ms.author: serdars
+title: Gérer les appareils avec des unités administratives
+author: CarolynRowe
+ms.author: crowe
 ms.reviewer: prasad.ghlove
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Découvrez comment utiliser les unités d’administration dans Microsoft Teams
+description: Découvrez comment utiliser des unités administratives dans Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,58 +16,58 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63579e7e9b6b2f7a7456349c489d4f544eb67cc1
-ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
+ms.openlocfilehash: 5afbc4acd33acf7e950218e7cf2e30383b3b1d12
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64584309"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790429"
 ---
-# <a name="manage-devices-in-the-teams-admin-center-with-administrative-units"></a>Gérer les appareils dans le centre Teams d’administration avec des unités d’administration
+# <a name="manage-devices-in-the-teams-admin-center-with-administrative-units"></a>Gérer les appareils dans le Centre d’administration Teams avec des unités administratives
 
-Les unités d’administration du Teams d’administration fournissent un accès détaillé basé sur le rôle pour la gestion d Teams appareils mobiles. Les unités d’administration Teams d’accéder à des ressources spécifiques, mais limitent l’accès de cet administrateur à d’autres ressources. Ceci est particulièrement utile si vous avez des administrateurs Teams locaux dans différents pays ou régions.
+Les unités administratives du Centre d’administration Teams fournissent un accès détaillé en fonction du rôle pour la gestion des appareils Teams. Les unités administratives accordent à l’administrateur Teams l’accès à des ressources spécifiques, mais limitent l’accès de cet administrateur à d’autres ressources. Cela est particulièrement utile si vous avez des administrateurs Teams locaux dans différents pays ou régions.
 
-Par exemple, Contoso a des opérations dans le monde entier. Contrôle est un administrateur informatique global basé à Londres, tandis que Prashant est un administrateur informatique local basé à Bengalre, Inde. Aujourd’hui, lorsque Prashant se Teams centre d’administration en tant qu’administrateur de périphériques, il peut voir Teams appareils dans le monde entier. L’équipe souhaite limiter l’accès de Prashant aux Teams de l’appareil en l’autre lieu. Les unités d’administration lui la la font. Pour plus d’informations, [voir unités d’administration dans Azure Active Directory](/azure/active-directory/roles/administrative-units).
+Par exemple, Contoso a des opérations dans le monde entier. Alice est un administrateur informatique général basé à Londres, tandis que Prashant est un administrateur informatique local basé àCrére, en Inde. Aujourd’hui, quand Prashant se connecte au Centre d’administration Teams en tant qu’administrateur d’appareils, il peut voir les appareils Teams dans le monde entier. Alice souhaite limiter l’accès de Prashant aux appareils Teams uniquement à Bengalre. Les unités administratives l’ont laissé faire. Pour en savoir plus, consultez [Unités administratives dans Azure Active Directory](/azure/active-directory/roles/administrative-units).
 
 > [!NOTE]
-> Pour le moment, les unités d’administration sont disponibles dans Teams centre d’administration pour le rôle d Teams administrateur de périphériques uniquement.
+> Les unités administratives sont actuellement disponibles dans le Centre d’administration Teams uniquement pour le rôle d’administrateur des appareils Teams.
 
-## <a name="add-administrative-units"></a>Ajouter des unités d’administration
+## <a name="add-administrative-units"></a>Ajouter des unités administratives
 
-Vous devez être un administrateur global pour ajouter des unités d’administration. Pour savoir comment faire, voir [Ajouter une unité d’administration](/azure/active-directory/roles/admin-units-manage#add-an-administrative-unit).
+Vous devez être administrateur général pour ajouter des unités administratives. Pour savoir comment faire, consultez [Ajouter une unité administrative](/azure/active-directory/roles/admin-units-manage#add-an-administrative-unit).
 
-## <a name="assign-admins-to-administrative-units"></a>Affecter des administrateurs à des unités d’administration
+## <a name="assign-admins-to-administrative-units"></a>Affecter des administrateurs à des unités administratives
 
-Vous devez également être administrateur global pour affecter des unités d’administration. Vous pouvez affecter des unités d’administration à l’aide Portail Azure, PowerShell ou microsoft API Graph. Pour plus d’informations, voir [Attribuer Azure AD dans le cadre de l’unité d’administration](/azure/active-directory/roles/admin-units-assign-roles).
+Vous devez également être administrateur général pour affecter des unités administratives. Vous pouvez affecter des unités administratives à l’aide de Portail Azure, PowerShell ou microsoft API Graph. Pour plus d’informations, consultez [Attribuer des rôles Azure AD avec étendue d’unité administrative](/azure/active-directory/roles/admin-units-assign-roles).
 
-## <a name="select-administrative-units"></a>Sélectionner les unités d’administration
+## <a name="select-administrative-units"></a>Sélectionner des unités administratives
 
-Si vous êtes un administrateur d’appareils Teams, après qu’un administrateur global vous a attribué une unité d’administration, vous pouvez vous connectez au Centre d’administration Teams pour gérer les appareils. Si vous n’êtes affecté qu’à une seule unité d’administration, vous ne verrez que les appareils affectés à cette unité d’administration. Si vous êtes affecté à plusieurs unités d’administration, vous pouvez basculer de l’une à l’autre sans vous dé signer à partir Teams centre d’administration. 
+Si vous êtes administrateur d’appareils Teams, une fois qu’un administrateur général vous a affecté à une unité administrative, vous pouvez vous connecter au Centre d’administration Teams pour gérer les appareils. Si vous n’êtes affecté qu’à une seule unité administrative, seuls les appareils affectés à cette unité administrative s’affichent. Si vous êtes affecté à plusieurs unités administratives, vous pouvez basculer entre ces unités administratives sans vous déconnecter du Centre d’administration Teams. 
 
-1. Connectez-vous au [Teams d’administration.](https://go.microsoft.com/fwlink/p/?linkid=2024339)
+1. Connectez-vous au [Centre d’administration Teams](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-2. Dans la **boîte de dialogue Vos unités** d’administration, suivez l’une des étapes suivantes :
-    - Sélectionnez l’unité d’administration que vous voulez gérer, ou 
-    - **Sélectionnez Tous les appareils** si vous êtes autorisé à gérer tous les appareils pour votre organisation.
+2. Dans la boîte de dialogue **Vos unités administratives** , procédez comme suit :
+    - Sélectionnez l’unité administrative que vous souhaitez gérer, ou 
+    - Sélectionnez **Tous les appareils** si vous êtes autorisé à gérer tous les appareils de votre organisation.
 
 3. Sélectionnez **Enregistrer**.
 
-## <a name="switch-administrative-units"></a>Changer d’unité d’administration
+## <a name="switch-administrative-units"></a>Changer d’unité administrative
 
-Si vous êtes un administrateur Teams appareils mobiles, vous pouvez basculer entre les unités d’administration si vous êtes connecté au Centre Teams’administration. Pour changer d’unité d’administration :
+Si vous êtes administrateur d’appareils Teams, vous pouvez basculer entre les unités administratives si vous êtes connecté au Centre d’administration Teams. Pour basculer vers une autre unité administrative :
 
-1. Connectez-vous au [Teams d’administration.](https://go.microsoft.com/fwlink/p/?linkid=2024339)
+1. Connectez-vous au [Centre d’administration Teams](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-2. Dans la barre de navigation gauche, **sélectionnez Teams périphériques mobiles**.
+2. Dans le volet de navigation de gauche, sélectionnez **Appareils Teams**.
 
-3. Dans le volet droit, dans le coin supérieur gauche, sélectionnez l’unité d’administration affichée.
+3. Dans le volet droit, en haut à gauche, sélectionnez l’unité administrative affichée.
 
-4. Dans la **boîte de dialogue Vos unités** d’administration, suivez l’une des étapes suivantes :
-    - Sélectionnez l’unité d’administration que vous voulez gérer, ou 
-    - **Sélectionnez Tous les appareils** si vous êtes autorisé à gérer tous les appareils pour votre organisation.
+4. Dans la boîte de dialogue **Vos unités administratives** , procédez comme suit :
+    - Sélectionnez l’unité administrative que vous souhaitez gérer, ou 
+    - Sélectionnez **Tous les appareils** si vous êtes autorisé à gérer tous les appareils de votre organisation.
 
 5. Sélectionnez **Enregistrer**.
 
 ## <a name="related-topics"></a>Sujets associés
 
-- [Ajouter des utilisateurs ou groupes à une unité d’administration](/azure/active-directory/roles/admin-units-members-add)
+- [Ajouter des utilisateurs ou des groupes à une unité administrative](/azure/active-directory/roles/admin-units-members-add)

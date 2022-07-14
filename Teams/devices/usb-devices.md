@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et périphériques USB (tels que les casques, les haut-parleurs, les webcams et les moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 7df6ca32a359931a62935d68257583c4d499aa93
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: c56b6c50ff9873aa2eace6a790f484065697f855
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647656"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789159"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft Teams
 
@@ -84,6 +84,9 @@ Si vous êtes fabricant et que vous souhaitez participer au programme de certifi
 |Dell                 |Caméra WB5023                                              |6/29/2022       |Certifié pour Microsoft Teams                           |
 |EPOS                 |Casque ADAPT 560 II                                       |6/22/2022       |Certifié pour Microsoft Teams                           |
 |EPOS                 |Casques C10/C20/C50                                |5/31/2022       |Certifié pour Microsoft Teams                           |
+|Jabra                |Casque Mono/Stéréo Engage55                               |5/25/2022       |Certifié pour Microsoft Teams                           |
+|EPOS                 |EXPAND 40T Speakerphone                                    |5/24/2022       |Certifié pour Microsoft Teams                           | 
+|Dell                 |Moniteur U3223QZ                                            |5/24/2022       |Certifié pour Microsoft Teams                           |
 |Poly                 |Moniteur Studio P21                                         |5/12/2022       |Certifié pour Microsoft Teams                           |
 |Yealink              |Casque UH38                                               |5/2/2022        |Certifié pour Microsoft Teams                           |   
 |Yealink              |Casque BH72                                               |5/2/2022        |Certifié pour Microsoft Teams                           |

@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d31474233057d930ccdbc0bdfea27262cc5dc04
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 30938e8175c12802339767ba0f2e6324cae3b871
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046003"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789419"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -228,7 +228,7 @@ Un équipe de classe peut prendre en charge 300 membres. Toutefois, si vous déc
 |---------|---------|
 |Nombre de balises par équipe    | 100        |
 |Nombre de balises par défaut suggérées par équipe    | 25        |
-|Nombre de membres de l’équipe attribués à un indicateur    |100         |
+|Nombre de membres d’équipe affectés à une balise    |200         |
 |Nombre de mots clés attribués à un utilisateur par équipe    |25         |
 
 ## <a name="contacts"></a>Contacts

@@ -1,7 +1,7 @@
 ---
-title: Gérer les paramètres du pont dans Teams
-author: SerdarSoysal
-ms.author: serdars
+title: Gérer les paramètres de pont dans Teams
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -17,19 +17,19 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment gérer les paramètres du pont dans Microsoft Teams
-ms.openlocfilehash: 4fb6a51b7413f9a4137cda70467003d7c0009498
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Découvrez comment gérer les paramètres de pont dans Microsoft Teams
+ms.openlocfilehash: 2246092be07c68e38534f20e6e370c1a73aaae76
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401638"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789349"
 ---
-# <a name="manage-bridge-settings-in-teams"></a>Gérer les paramètres du pont dans Teams
+# <a name="manage-bridge-settings-in-teams"></a>Gérer les paramètres de pont dans Teams
 
-Avant et pendant une Microsoft Teams ou un appel téléphonique, l’organisateur de la réunion dispose de plusieurs options pour choisir les paramètres du pont. Pour plus d’informations, consultez les articles suivants :
+Avant et pendant une réunion Microsoft Teams ou un appel téléphonique, l’organisateur de la réunion dispose de plusieurs options pour choisir les paramètres du pont. Pour plus d’informations, consultez les articles suivants :
 
-- [Courriers électroniques envoyés aux utilisateurs lorsque leurs paramètres changent dans Teams](emails-sent-to-users-when-their-settings-change-in-teams.md)
-- [Permettre aux utilisateurs d’enregistrer leur nom lorsqu’ils rejoignent une réunion](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
-- [Désactiver les annonces d’entrée et de sortie d’Teams réunion](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
-- [Masquage des numéros de téléphone](ptsn-mask-phone-numbers.md)
+- [E-mails envoyés aux utilisateurs lorsque leurs paramètres changent dans Teams](emails-sent-to-users-when-their-settings-change-in-teams.md)
+- [Permettre aux utilisateurs d’enregistrer leurs noms lorsqu’ils rejoignent une réunion](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
+- [Désactiver l’entrée et quitter les annoucements dans une réunion Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+- [Masquer les numéros de téléphone](ptsn-mask-phone-numbers.md)

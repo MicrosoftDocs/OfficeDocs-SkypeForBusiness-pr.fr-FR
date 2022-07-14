@@ -1,7 +1,7 @@
 ---
 title: Questions fréquentes (FAQ) sur le tableau de bord de qualité des appels (CQD)
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: Lisez les questions fréquentes (FAQ) et les réponses sur Microsoft Teams tableau de bord de qualité des appels (CQD).
-ms.openlocfilehash: f320bab549ee322c1254babd0feb49cc24419215
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+description: Lisez les questions fréquentes (FAQ) et les réponses sur le tableau de bord de qualité des appels Microsoft Teams (CQD).
+ms.openlocfilehash: 862967138321b1855f2fdc5b0c8b6ce6caca887f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823203"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789389"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Questions fréquentes (FAQ) sur le tableau de bord de qualité des appels (CQD)
 
@@ -46,7 +46,7 @@ ms.locfileid: "65823203"
 
 [Pourquoi Wi-Fi connexions VPN s’affichent-elles comme étant câblées au lieu du Wi-Fi ?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
-[J’ai activé l’enregistrement basé sur les stratégies dans Teams et maintenant les appels P2P sont marqués comme des conférences. Que s’est-il passé ?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
+[J’ai activé l’enregistrement basé sur des stratégies dans Teams et maintenant les appels P2P sont marqués comme des conférences. Que s’est-il passé ?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>Pourquoi le CQD marque-t-il un appel comme « Bon » si un ou plusieurs participants à la réunion ont eu une mauvaise expérience ?
 
@@ -90,7 +90,7 @@ Pour en savoir plus sur les rôles qui peuvent accéder au CQD , y compris EUII,
 
 ### <a name="im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that"></a>J’essaie d’utiliser CQD pour les rapports de type d’utilisation et de constater que certaines données sont incomplètes. Pourquoi cela ?
 
-Les outils de gestion de la qualité des appels tels que CQD, Call Analytics, CallRecord API Graph et Real-time Analytics sont basés sur la télémétrie de diagnostic. Les informations que nous affichons dans Teams outils de gestion de la qualité des appels sont aussi complètes que les données de télémétrie que nous recevons des clients participant à un appel. Il existe plusieurs raisons pour lesquelles nous ne pouvons pas recevoir de données de télémétrie complètes, telles que des pannes de réseau ou des [configurations incorrectes de pare-feu ou de proxy](/microsoft-365/enterprise/urls-and-ip-address-ranges). Nous continuons à travailler pour améliorer la fiabilité et la résilience avec lesquelles Teams clients fournissent des données de télémétrie au service.
+Les outils de gestion de la qualité des appels tels que CQD, Call Analytics, CallRecord API Graph et Real-time Analytics sont basés sur la télémétrie de diagnostic. Les informations que nous affichons dans les outils de gestion de la qualité des appels Teams sont uniquement aussi complètes que les données de télémétrie que nous recevons des clients participant à un appel. Il existe plusieurs raisons pour lesquelles nous ne pouvons pas recevoir de données de télémétrie complètes, telles que des pannes de réseau ou des [configurations incorrectes de pare-feu ou de proxy](/microsoft-365/enterprise/urls-and-ip-address-ranges). Nous continuons à travailler pour améliorer la fiabilité et la résilience avec lesquelles les clients Teams fournissent des données de télémétrie au service.
 
 Dans cet esprit, nous ne prenons pas en charge l’utilisation d’outils de gestion de la qualité des appels pour la création de rapports d’utilisation. Elles ne sont pas conçues pour prendre en charge ni pour ces types de scénarios de création de rapports, et de nombreuses statistiques d’utilisation ne sont pas et ne seront pas disponibles dans ces outils. Teams Administration Center propose une série de [rapports d’utilisation](teams-analytics-and-reports/teams-reporting-reference.md), et un [rapport de participation aux réunions](teams-analytics-and-reports/meeting-attendance-report.md) est disponible directement à partir du client Teams.
 
@@ -108,7 +108,7 @@ CQD est conçu pour les requêtes de données résumées et n’est pas conçu p
 
 Il s'agit d'un comportement normal. Le fournisseur VPN a créé une carte ethernet virtuelle qui est traitée comme une connexion câblée. Étant donné qu’il n’est pas correctement étiqueté, le système d’exploitation ne sait pas qu’il s’agit d’une connexion Wi-Fi et le signale comme câblé.
 
-### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>J’ai activé l’enregistrement basé sur les stratégies dans Teams et maintenant les appels P2P sont marqués comme des conférences. Que s’est-il passé ?
+### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>J’ai activé l’enregistrement basé sur des stratégies dans Teams et maintenant les appels P2P sont marqués comme des conférences. Que s’est-il passé ?
 
 Ce comportement est attendu lorsque l’enregistrement basé sur des stratégies est activé dans Microsoft Teams. L’enregistrement basé sur des stratégies utilise un bot d’enregistreur Teams déployé dans Microsoft Azure pour capturer le contenu de la réunion à des fins de conformité. Dans la gestion de la qualité des appels, « pair à pair » est une description du flux du trafic multimédia, et non de l’interaction entre les utilisateurs. Étant donné qu’un bot enregistreur est lui-même partie à l’appel, l’appel n’est plus pair à pair, mais un appel multiparte. Les appels multipartis sont classés en tant que conférences par Microsoft Teams. Ils sont donc indiqués en tant que tels lorsque vous affichez ces appels dans CQD et d’autres outils de qualité des appels.
 

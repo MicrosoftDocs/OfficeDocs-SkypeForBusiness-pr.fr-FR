@@ -1,7 +1,7 @@
 ---
 title: Données et rapports dans le tableau de bord de qualité des appels (CQD)
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Découvrez les données et les rapports disponibles dans le tableau de bord de qualité des appels Microsoft (CQD).
-ms.openlocfilehash: c30840ea4bf1de02572300044964211c5668056f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: ba30be8d63dab1f5720be5637ea0a28c26d5d877
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675006"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789809"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Données et rapports dans le tableau de bord de qualité des appels (CQD)
 
@@ -39,9 +39,9 @@ Vous pouvez accéder aux données de CQD par plusieurs voies différentes. Chois
 
 |&nbsp;|&nbsp;|
 |---|---|
-|centre d’administration Teams [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)|Les données CQD sont incluses dans la page **Utilisateurs** du centre d’administration Teams, affichant les données les plus courantes dont vous avez besoin dans un format facile à lire. Vous ne pouvez pas personnaliser les données CQD que vous trouvez sous **Utilisateurs**.|
+|Centre d’administration Teams [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)|Les données CQD sont incluses dans la page **Utilisateurs** du Centre d’administration Teams, affichant les données les plus courantes dont vous avez besoin dans un format facile à lire. Vous ne pouvez pas personnaliser les données CQD que vous trouvez sous **Utilisateurs**.|
 |Portail CQD [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)|Synthèse robuste et rapports détaillés qui répondent à la plupart des besoins, avec filtrage d’extraction. Vous pouvez également personnaliser des rapports dans le portail CQD. <br><br>Obtenez deux [modèles de rapport CQD](#import-the-cqd-report-templates) pour vous aider à analyser les données dans le portail CQD.|
-|Power BI|Utilisez des requêtes directes pour afficher vos données CQD dans Power BI à l’aide de [modèles Power BI personnalisables](CQD-Power-BI-query-templates.md). [Téléchargez Power BI modèles de requête pour CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>Vous pouvez également [utiliser l’API REST pour accéder aux données CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) via Power BI. Utilisez cette méthode si vous souhaitez télécharger vos données CQD afin de pouvoir les utiliser hors connexion. L’avantage de cette méthode est de meilleures performances, particulièrement utiles pour les jeux de données volumineux qui se décomposent en Power BI lorsque vous êtes en ligne.|
+|Power BI|Utilisez des requêtes directes pour afficher vos données CQD dans Power BI à l’aide de [modèles Power BI personnalisables](CQD-Power-BI-query-templates.md). [Téléchargez les modèles de requête Power BI pour CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>Vous pouvez également [utiliser l’API REST pour accéder aux données CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) via Power BI. Utilisez cette méthode si vous souhaitez télécharger vos données CQD afin de pouvoir les utiliser hors connexion. L’avantage de cette méthode est de meilleures performances, particulièrement utiles pour les jeux de données volumineux qui se cachent dans Power BI lorsque vous êtes en ligne.|
 |API Graph|Accédez vous-même aux données de qualité des appels à l’aide du [API Graph](/graph/api/resources/callrecords-api-overview). Il s’agit de la méthode la plus complexe, mais elle vous offre le plus de contrôle et de flexibilité dans l’analyse des données de qualité de vos appels. Par exemple, si vous devez le joindre à d’autres données pour votre organisation, vous pouvez utiliser le API Graph pour créer un modèle de données et incorporer des données de qualité des appels.|
 
 ## <a name="import-the-cqd-report-templates"></a>Importer les modèles de rapport CQD
@@ -73,7 +73,7 @@ Pour des raisons de conformité, les données d’informations d’identificatio
 - Nom du point de terminaison de la machine
 - Commentaires verbatim de l’utilisateur
 - ID d’objet (ID d’objet Active Directory de l’utilisateur du point de terminaison)
-- numéro de Téléphone
+- Numéro de téléphone
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>Administration rôles avec et sans accès EUII
 
@@ -131,16 +131,16 @@ Si vous souhaitez utiliser Power BI pour analyser vos données CQD, lisez [Utili
 |Métriques de partage d’écran vidéo|Non|Oui|
 |Métriques vidéo|Non|Oui|
 |Quantité de données disponibles|12 derniers mois|12 derniers mois|
-|données Microsoft Teams|Oui|Oui|
+|Données Microsoft Teams|Oui|Oui|
 
 ### <a name="select-product-data-to-see-in-reports"></a>Sélectionner les données de produit à afficher dans les rapports
 
-Dans le résumé et les rapports Location-Enhanced, vous pouvez utiliser la liste déroulante **Filtre** de produit pour afficher toutes les données de produit, uniquement Microsoft Teams données ou uniquement Skype Entreprise données en ligne.
+Dans le résumé et les rapports Location-Enhanced, vous pouvez utiliser la liste déroulante **Filtre** de produit pour afficher toutes les données de produit, uniquement les données Microsoft Teams ou uniquement les données Skype Entreprise Online.
 
 > [!div class="mx-imgBorder"]
 > ![Capture d’écran : affiche les options de contrôle Filtre de produit.](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
 
-Dans les rapports détaillés, vous pouvez utiliser la dimension **Is Teams** pour filtrer les données sur des données Microsoft Teams ou Skype Entreprise Online.
+Dans les rapports détaillés, vous pouvez utiliser la dimension **Is Teams** pour filtrer les données vers Microsoft Teams ou Skype Entreprise données Online.
 
 ## <a name="summary-reports"></a>Rapports récapitulatifs
 
@@ -160,7 +160,7 @@ Utilisez les données de cet onglet pour évaluer l’état et les tendances de 
 > [!div class="mx-imgBorder"]
 > ![Capture d’écran : afficher l’onglet Qualité des appels.](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
 
-Flux sont classés en trois groupes : Good, Poor et Unclassified. Il existe également des valeurs de  *pourcentage médiocre*  calculées qui vous donnent le rapport entre les flux classés *comme pauvres*  et le nombre total de flux classifiés. Étant donné *que Poor % = Poor streams/(Poor streams+ Good streams) \* 100*, poor *%* n’est pas affecté par la présence de plusieurs flux *non classés*  . Pour voir ce qui classe un flux comme médiocre ou bon, reportez-vous à [classification de flux dans le tableau de bord qualité des appels](stream-classification-in-call-quality-dashboard.md).
+Les flux sont classés en trois groupes : Good, Poor et Unclassified. Il existe également des valeurs de  *pourcentage médiocre*  calculées qui vous donnent le rapport entre les flux classés *comme pauvres*  et le nombre total de flux classifiés. Étant donné *que Poor % = Poor streams/(Poor streams+ Good streams) \* 100*, poor *%* n’est pas affecté par la présence de plusieurs flux *non classés*  . Pour voir ce qui classe un flux comme médiocre ou bon, reportez-vous à [classification de flux dans le tableau de bord qualité des appels](stream-classification-in-call-quality-dashboard.md).
 
 Utilisez l’échelle à gauche pour mesurer les valeurs de nombre de flux.
 
@@ -214,13 +214,13 @@ Comme les noms l’indiquent, les critères de classification sont basés sur le
 
 ## <a name="tenant-data-information"></a>Informations sur les données du locataire
 
-Le tableau de bord Rapports de synthèse CQD inclut une page **Télécharger** données client, accessible en sélectionnant **Les données du locataire Télécharger** dans le menu Paramètres en haut à droite. Cette page permet aux administrateurs de charger leurs propres informations, par exemple :
+Le tableau de bord Rapports récapitulatifs du CQD inclut une page **de chargement des données** client, accessible en sélectionnant **Chargement des données** client dans le menu Paramètres dans le coin supérieur droit. Cette page permet aux administrateurs de charger leurs propres informations, par exemple :
 
 - Carte d’adresse IP et d’informations géographiques.
 - Carte de chaque AP sans fil et de son adresse MAC.
 - Carte de point de terminaison à point de terminaison Make/Model/Type, etc.
 
-Nous vous recommandons de charger vos données de locataire, de bâtiment et d’emplacement afin que CQD puisse inclure ces informations dans vos rapports. Si vous n’avez pas encore chargé ces données, lisez [Télécharger locataire et créez des données](CQD-upload-tenant-building-data.md).
+Nous vous recommandons de charger vos données de locataire, de bâtiment et d’emplacement afin que CQD puisse inclure ces informations dans vos rapports. Si vous n’avez pas encore chargé ces données, lisez [Charger le locataire et générer des données](CQD-upload-tenant-building-data.md).
 
 ## <a name="detailed-reports"></a>Rapports détaillés
 
@@ -238,7 +238,7 @@ Nous vous recommandons de charger vos données de locataire, de bâtiment et d�
 
 ## <a name="create-custom-detailed-reports"></a>Créer des rapports détaillés personnalisés
 
-Si les rapports CQD par défaut ne répondent pas à vos besoins, utilisez ces instructions pour créer un rapport personnalisé. Ou (à partir de janvier 2020) [Utilisez plutôt Power BI pour les rapports CQD](cqd-power-bi-query-templates.md).
+Si les rapports CQD par défaut ne répondent pas à vos besoins, utilisez ces instructions pour créer un rapport personnalisé. Vous pouvez également (à partir de janvier 2020) [utiliser Power BI pour les rapports CQD ](cqd-power-bi-query-templates.md)à la place.
 
 Dans la liste déroulante des rapports en haut de l’écran affiché lors de la connexion\(, l’écran\) **Rapports récapitulatifs** sélectionnez **Rapports détaillés**, puis **Nouveau**. Cliquez sur **Modifier** dans un rapport pour afficher le Éditeur de requête. Chaque rapport est complété par une requête effectuée dans le cube. Il s’agit de la visualisation des données renvoyées par la requête. Le Éditeur de requête vous aide à modifier ces requêtes et les options d’affichage du rapport.
 
@@ -349,7 +349,7 @@ Pour appliquer des filtres d’URL avec des valeurs à sélection multiple, sép
 
 Si vous spécifiez un nom ou une valeur non valide, le filtre d’URL n’est pas appliqué.
 
-Vous pouvez utiliser un filtre d’URL pour filtrer chaque rapport pour une dimension spécifique. Les filtres d’URL les plus courants sont utilisés pour filtrer les rapports afin d’exclure les données de télémétrie des participants fédérés, ou de se concentrer uniquement sur Teams ou Skype Entreprise Online. L’exclusion des données fédérées des rapports CQD est utile lorsque vous corrigez des bâtiments ou des réseaux gérés où des points de terminaison fédérés peuvent influencer vos rapports.
+Vous pouvez utiliser un filtre d’URL pour filtrer chaque rapport pour une dimension spécifique. Les filtres d’URL les plus courants sont utilisés pour filtrer les rapports afin d’exclure les données de télémétrie des participants fédérés ou de se concentrer uniquement sur Teams ou Skype Entreprise Online. L’exclusion des données fédérées des rapports CQD est utile lorsque vous corrigez des bâtiments ou des réseaux gérés où des points de terminaison fédérés peuvent influencer vos rapports.
 
 |Filtre|Description|Exemple de filtre de requête CQD|
 |---|---|---|
@@ -361,7 +361,7 @@ Vous pouvez utiliser un filtre d’URL pour filtrer chaque rapport pour une dime
 
 L’ID de locataire dans CQD correspond à l’ID d’annuaire dans Azure. Si vous ne connaissez pas votre ID d’annuaire, vous pouvez le trouver dans le Portail Azure :
 
-1. Connectez-vous au portail Microsoft Azure :<https://portal.azure.com>
+1. Connectez-vous au Portail Azure Microsoft :<https://portal.azure.com>
 
 2. Sélectionnez **Azure Active Directory**.
 
@@ -373,9 +373,9 @@ Vous pouvez également trouver votre ID de locataire à l’aide de PowerShell :
 Login-AzureRmAccount
 ```
 
-## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Comparaison des données de Teams et de Skype Entreprise CQD
+## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Comparaison des données Teams et Skype Entreprise CQD
 
-Lors de l’examen de vos données, vous pouvez voir des différences entre les données entre Teams et Skype Entreprise. Voici quelques raisons :
+Lorsque vous examinez vos données, vous pouvez voir des différences entre les données entre Teams et Skype Entreprise. Voici quelques raisons :
 
 - Différences dans les mécanismes pour garantir les performances et la fiabilité :
   - Teams dispose d’une reconnexion automatique et d’une itinérance rapide. Skype Entreprise ne le fait pas.

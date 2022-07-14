@@ -1,7 +1,7 @@
 ---
 title: Teams pour l'éducation Assistant Stratégie pour appliquer facilement des stratégies pour l’apprentissage en toute sécurité
-author: serdars
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser l’Assistant Stratégie Teams pour l'éducation pour appliquer facilement des stratégies aux étudiants et aux enseignants afin de sécuriser votre environnement d’apprentissage.
 f1keywords: ''
-ms.openlocfilehash: 245739f06d86459f119d9f5d0a37e67ac4098953
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 833e4b16ca617d06fcc3ace770e2548f6e05a0bb
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675916"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790229"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Utilisez l’Assistant Stratégie Teams pour l'éducation pour appliquer facilement des stratégies pour un environnement d’apprentissage sécurisé
 
@@ -30,9 +30,9 @@ ms.locfileid: "65675916"
 
 L’Assistant Stratégie Microsoft Teams pour l'éducation simplifie la gestion des stratégies pour vos étudiants et enseignants. Utilisez-le pour appliquer facilement et rapidement l’ensemble le plus important de stratégies pertinentes à la création d’une expérience d’apprentissage sûre et productive.
 
-Les stratégies de Teams vous permettent de contrôler le comportement de Teams dans votre environnement et les fonctionnalités disponibles pour les utilisateurs. Par exemple, il existe des stratégies d’appel, des stratégies de réunion et des stratégies de messagerie, pour n’en nommer que quelques-unes, et chaque zone de stratégie peut être personnalisée pour répondre aux besoins de votre organisation.
+Les stratégies dans Teams vous permettent de contrôler le comportement de Teams dans votre environnement et les fonctionnalités disponibles pour les utilisateurs. Par exemple, il existe des stratégies d’appel, des stratégies de réunion et des stratégies de messagerie, pour n’en nommer que quelques-unes, et chaque zone de stratégie peut être personnalisée pour répondre aux besoins de votre organisation.
 
-Pour maintenir un environnement d’apprentissage sûr et ciblé, il est important de définir des stratégies pour contrôler ce que les étudiants peuvent faire dans Teams. Par exemple, vous pouvez utiliser des stratégies pour contrôler qui peut utiliser une conversation privée et un appel privé, qui peut planifier des réunions et quels types de contenu peuvent être partagés. Vous pouvez également utiliser des stratégies pour activer Teams fonctionnalités qui enrichissent l’expérience d’apprentissage.
+Pour maintenir un environnement d’apprentissage sûr et ciblé, il est important de définir des stratégies pour contrôler ce que les étudiants peuvent faire dans Teams. Par exemple, vous pouvez utiliser des stratégies pour contrôler qui peut utiliser une conversation privée et un appel privé, qui peut planifier des réunions et quels types de contenu peuvent être partagés. Vous pouvez également utiliser des stratégies pour activer les fonctionnalités Teams qui enrichissent l’expérience d’apprentissage.
 
 Les stratégies doivent être ajustées pour que les élèves et les enseignants puissent garder l’expérience d’apprentissage sécuritaire. Les politiques pour les étudiants doivent être plus restrictives afin de réduire le risque de recevoir des niveaux d’accès inappropriés. Les enseignants et le personnel ont besoin d’un ensemble distinct de politiques qui peuvent être plus permissives pour leur permettre de réussir. Par exemple, autorisez les enseignants à planifier des réunions et à empêcher les étudiants de le faire.
 
@@ -56,7 +56,7 @@ L’Assistant configure des stratégies basées sur le type d’établissement d
 
 Vous n’avez besoin d’exécuter l’Assistant qu’une seule fois. Les nouveaux étudiants obtiennent automatiquement les définitions de stratégie globales (par défaut à l’échelle de l’organisation) appliquées par l’Assistant et les nouvelles équipes que vous ajoutez au groupe que vous avez sélectionné reçoivent automatiquement les stratégies personnalisées.
 
-En outre, chaque fois qu’une nouvelle fonctionnalité est ajoutée à Teams, la valeur par défaut appropriée de la stratégie edu appropriée pour cette fonctionnalité est automatiquement ajoutée au global (valeur par défaut à l’échelle de l’organisation) sans aucune intervention de l’administrateur. Cela permet de s’assurer que les bonnes politiques sont en place pour assurer la sécurité et l’engagement des étudiants.
+En outre, chaque fois qu’une nouvelle fonctionnalité est ajoutée à Teams, la valeur par défaut appropriée de l’instruction EDU de la stratégie pour cette fonctionnalité est automatiquement ajoutée au global (valeur par défaut à l’échelle de l’organisation) sans nécessiter d’intervention de l’administrateur. Cela permet de s’assurer que les bonnes politiques sont en place pour assurer la sécurité et l’engagement des étudiants.
 
 > [!NOTE]
 > Consultez [Stratégies appliquées par l’Assistant](#policies-applied-by-the-wizard) pour obtenir une liste détaillée des définitions de stratégie appliquées par l’Assistant.
@@ -69,7 +69,7 @@ Maintenant, commençons !
 
 Suivez ces étapes pour exécuter l’Assistant.
 
-1. Si vous débutez avec Teams, l’Assistant démarre automatiquement. Sinon, vous pouvez démarrer l’Assistant à tout moment à partir du tableau de bord. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à **Accueil**, puis, dans la vignette Configuration facile **d’un environnement d’apprentissage sécurisé**, sélectionnez **Configuration rapide**.
+1. Si vous débutez avec Teams, l’Assistant démarre automatiquement. Sinon, vous pouvez démarrer l’Assistant à tout moment à partir du tableau de bord. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Accueil**, puis, dans la vignette Configuration facile **d’un environnement d’apprentissage sécurisé** , sélectionnez **Configuration rapide**.
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Capture d’écran de l’Assistant dans le tableau de bord.":::
 
@@ -97,7 +97,7 @@ Suivez ces étapes pour exécuter l’Assistant.
 ### <a name="step-1-remove-existing-policy-assignments-that-conflict-with-policies-applied-by-the-wizard"></a>Étape 1 : Supprimer les affectations de stratégie existantes en conflit avec les stratégies appliquées par l’Assistant
 
 > [!IMPORTANT]
-> **Effectuez cette étape uniquement si des stratégies existantes sont affectées aux étudiants, aux enseignants et au personnel *avant* d’exécuter l’Assistant**. Si vous débutez avec Teams et que vous n’avez pas d’autres stratégies que les stratégies créées par l’Assistant, ignorez-la et passez à l’étape 2.
+> **Effectuez cette étape uniquement si des stratégies existantes sont affectées aux étudiants, aux enseignants et au personnel *avant* d’exécuter l’Assistant**. Si vous débutez avec Teams et que vous n’avez pas de stratégies existantes autres que les stratégies créées par l’Assistant, ignorez cela et passez à l’étape 2.
 
 Dans Teams, pour une zone de stratégie donnée, une stratégie peut être appliquée à un utilisateur des manières suivantes :
 
@@ -131,7 +131,7 @@ Par exemple, vous avez affecté une stratégie de réunion directement aux ensei
 
 L’Assistant ajuste et applique automatiquement [ces stratégies](#policies-applied-by-the-wizard). Il existe peu de mesures supplémentaires, que vous souhaiterez peut-être prendre en fonction des besoins de votre établissement pour rester en sécurité.
 
-Pour obtenir des recommandations supplémentaires en matière de sécurité, consultez [La sécurité des étudiants lors de l’utilisation de Teams pour l’apprentissage à distance](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA).
+Pour obtenir des recommandations supplémentaires en matière de sécurité, consultez [La sécurité des étudiants lors de l’utilisation de Teams pour l’apprentissage à distance](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) .
 
 <a name="polwiz_mc"> </a>
 
@@ -147,7 +147,7 @@ Toutefois, consultez fréquemment le [Centre](https://admin.microsoft.com/AdminP
 
 Si vous devez apporter des modifications après avoir exécuté l’Assistant, vous pouvez le réexécuter et modifier vos sélections.
 
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à **Accueil**, puis, dans la configuration de stratégie **facile pour une vignette d’environnement d’apprentissage sécurisé**, **sélectionnez Modifier**.
+1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à **Accueil**, puis, dans la vignette Configuration de stratégie **facile pour un environnement d’apprentissage sécurisé** , **sélectionnez Modifier**.
 2. À partir de là, passez à travers chaque page de l’Assistant pour apporter vos modifications. Vous pouvez modifier le type de votre établissement, les groupes d’enseignants et le personnel auquel vous souhaitez affecter des stratégies, ou les deux.
 
 Le tableau suivant récapitule ce qui se passe lorsque vous apportez une modification dans l’Assistant.
@@ -164,7 +164,7 @@ Le tableau suivant récapitule ce qui se passe lorsque vous apportez une modific
 
 ### <a name="policy-areas"></a>Domaines de stratégie
 
-Voici les zones de stratégie et les noms de stratégie correspondants couverts par l’Assistant. Pour trouver ces stratégies, accédez au centre d’administration Microsoft Teams, puis, dans la navigation de gauche, accédez à chaque page de zone de stratégie.
+Voici les zones de stratégie et les noms de stratégie correspondants couverts par l’Assistant. Pour trouver ces stratégies, accédez au Centre d’administration Microsoft Teams, puis, dans la navigation de gauche, accédez à chaque page de zone de stratégie.
 
 #### <a name="students"></a>[**Étudiants**](#tab/students/)
 
@@ -221,7 +221,7 @@ Voici une liste des définitions de stratégie globales (par défaut à l’éch
 ||Partage de contenu|Mode de partage d’écran|Écran entier|Écran entier|
 |||Autoriser un participant à donner ou demander le contrôle|Activé|Activé|
 |||Autoriser un participant externe à donner ou demander le contrôle|Activé|Activé|
-|||partage PowerPoint|Activé|Activé|
+|||Partage PowerPoint|Activé|Activé|
 |||Tableau blanc|Activé|Activé|
 |||Notes partagées|Activé|Activé|
 ||Participants & invités|Autoriser les personnes anonymes à démarrer une réunion|Désactivé|Activé|
@@ -234,7 +234,7 @@ Voici une liste des définitions de stratégie globales (par défaut à l’éch
 |Stratégie d’événements en direct||Planification des événements en direct|Désactivé|Désactivé|
 |||Transcription pour les participants|Activé|Activé|
 |||Qui peut participer aux événements en direct planifiés|Tous les membres de l’organisation|Tous les membres de l’organisation|
-|||Qui pouvez enregistrer un événement|Toujours|Toujours|
+|||Qui peut enregistrer un événement|Toujours|Toujours|
 |Stratégie de messagerie||Les propriétaires peuvent supprimer les messages envoyés|Désactivé|Activé|
 |||Supprimer des messages envoyés|Désactivé|Activé|
 |||Modifier des messages envoyés|Désactivé|Activé|
@@ -254,10 +254,10 @@ Voici une liste des définitions de stratégie globales (par défaut à l’éch
 |Stratégie d’autorisation d’application||Applications Microsoft|Bloquer des applications spécifiques et autoriser tous les autres > Walkie Talkie bloqué|Autoriser toutes les applications|
 |||Applications tierces|Autoriser toutes les applications|Autoriser toutes les applications|
 |||Applications personnalisées|Autoriser toutes les applications|Autoriser toutes les applications|
-|Stratégie d’installation de l’application||Télécharger applications personnalisées|Désactivé|Désactivé|
+|Stratégie d’installation de l’application||Charger des applications personnalisées|Désactivé|Désactivé|
 |||Épinglage d’utilisateur|Activé|Activé|
 |||Applications installées|Aucun|Aucun|
-|||Applications épinglées|Activité, Calendrier, Teams|Activité, conversations, Teams, calendrier, appel, fichier
+|||Applications épinglées|Activité, Calendrier, Teams|Activité, conversations, équipes, calendrier, appel, fichier
 |Stratégie d’Appel||Passer des appels privés|Désactivé|Activé|
 |||Transfert d’appel et sonnerie simultanée aux membres de votre organisation|Désactivé|Activé|
 |||Transfert d’appel et sonnerie simultanée vers des numéros de téléphone externes|Désactivé|Activé|
@@ -294,7 +294,7 @@ Voici une liste des définitions de stratégie personnalisées affectées aux en
 ||Partage de contenu|Mode de partage d’écran|Écran entier|Écran entier|
 |||Autoriser un participant à donner ou demander le contrôle|Activé|Activé|
 |||Autoriser un participant externe à donner ou demander le contrôle|Activé|Activé|
-|||partage PowerPoint|Activé|Activé|
+|||Partage PowerPoint|Activé|Activé|
 |||Tableau blanc|Activé|Activé|
 |||Notes partagées|Activé|Activé|
 ||Participants & invités|Autoriser les personnes anonymes à démarrer une réunion|Activé|Activé|
@@ -307,7 +307,7 @@ Voici une liste des définitions de stratégie personnalisées affectées aux en
 |Stratégie d’événements en direct||Planification des événements en direct|Activé|Activé|
 |||Transcription pour les participants|Activé|Activé|
 |||Qui peut participer aux événements en direct planifiés|Tous les membres de l’organisation|Tous les membres de l’organisation|
-|||Qui pouvez enregistrer un événement|Toujours enregistrer|Toujours enregistrer|
+|||Qui peut enregistrer un événement|Toujours enregistrer|Toujours enregistrer|
 |Stratégie de messagerie||Les propriétaires peuvent supprimer les messages envoyés|Activé|Activé|
 |||Supprimer des messages envoyés|Activé|Activé|
 |||Modifier des messages envoyés|Activé|Activé|
@@ -334,7 +334,7 @@ Voici une liste des définitions de stratégie personnalisées affectées aux en
 |||Busy on busy est disponible lors d’un appel|Désactivé|Désactivé|
 |||Autoriser les appels RTC web|Activé|Activé|
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Stratégies et packages de stratégies Teams pour l’éducation](policy-packages-edu.md)
 - [Affecter des stratégies à de grands ensembles d’utilisateurs dans votre établissement scolaire](batch-group-policy-assignment-edu.md)

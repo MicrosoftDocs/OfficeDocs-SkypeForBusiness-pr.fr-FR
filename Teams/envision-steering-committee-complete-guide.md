@@ -1,7 +1,7 @@
 ---
 title: Comité directeur pour le déploiement de voix cloud
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0aee75ce49734dad37d4e75b77c224fa82301f0b
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 46fc7550e5ee1e29b603d4124ffc5d6fe9b45951
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674676"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789549"
 ---
 # <a name="steering-committee"></a>Comité directeur
 
@@ -75,7 +75,7 @@ Chaque comité directeur a besoin d’un leadership fort et de rôles et de resp
 | Champion de la qualité | Être responsable de la mise en place de métriques de qualité. | | |
 | Program/Project Manager | Prenez la responsabilité de la présentation et de la collecte des commentaires à incorporer dans le projet. | | |
 | Équipe de compte partenaire | Fournissez des commentaires du point de vue du partenaire d’un point de vue plus large, d’autres activités de partenaire. | | |
-| Équipe Project partenaire | Fournir des commentaires du point de vue du partenaire concernant la livraison du projet | | |
+| Équipe de projet partenaire | Fournir des commentaires du point de vue du partenaire concernant la livraison du projet | | |
 
 ## <a name="schedule-steering-committee-meetings"></a>Planifier des réunions du comité directeur 
 
@@ -94,7 +94,7 @@ Les éléments suivants doivent être complétés et inclus dans le jeu de prés
 
 -   Suivi des éléments d’action précédents du comité directeur
 
--   PowerPoint du comité directeur, rapport d’état général du projet
+-   Comité directeur PowerPoint, rapport d’état général du projet
 
     -   Examinez le projet à partir d’une révision de type mensuel/trimestriel/annuel.
 
@@ -128,7 +128,7 @@ Les éléments suivants doivent être complétés et inclus dans le jeu de prés
 
         -   Identifiez les étapes suivantes et l’aide dont les membres du comité pourraient avoir besoin.
 
--   Vue d’ensemble de la qualité : utilisez les conseils de [préparation de votre réseau pour Teams](prepare-network.md).
+-   Vue d’ensemble de la qualité : utilisez les conseils de [Préparation de votre réseau pour Teams](prepare-network.md).
 
     -   Soyez prêt à expliquer en détail les résultats de ces rapports de qualité et à inclure des recommandations pour corriger les problèmes signalés.
 

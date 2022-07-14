@@ -23,4 +23,4 @@ Teams prend en charge les navigateurs suivants, avec quelques exceptions signal�
 > [!NOTE]
 > L’exécution de Teams dans un navigateur est prise en charge sur les PC et Mac qui répondent à la [Configuration matérielle minimale requise pour Microsoft Teams](../hardware-requirements-for-the-teams-app.md). Par exemple, exécuter Firefox sur le système d’exploitation Linux constitue une option pour utiliser Teams.
 >
-> Pour une expérience optimale, nous vous recommandons d’utiliser l’application Teams lorsque vous être sur un appareil mobile. L’application Teams est disponible dans les magasins Android et iOS. L’exécution de Teams dans un navigateur via des appareils mobiles est prise en charge, mais de nombreuses fonctionnalités ne sont pas disponibles.
+> Pour une expérience optimale, nous vous recommandons d’utiliser l’application Teams lorsque vous être sur un appareil mobile. L’application Teams est disponible dans les magasins Android et iOS.

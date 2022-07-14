@@ -1,7 +1,7 @@
 ---
 title: Informations de référence sur la référence SKU Éducation
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: karsmith
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Répertorie les plans de licence et les ID de référence (SKU) des enseignants et étudiants de l’éducation.
 f1keywords: ''
-ms.openlocfilehash: f91896a23cf69d09ab5ba922d8b893a496737037
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: c6fe915950189dfe3ee46acc6187636fbe34da5a
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494501"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790169"
 ---
 # <a name="education-sku-reference"></a>Informations de référence sur la référence SKU Éducation
 
