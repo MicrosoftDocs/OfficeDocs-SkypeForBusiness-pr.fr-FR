@@ -1,9 +1,9 @@
 ---
 title: Gérer l’application Plannings pour votre organisation dans Teams
-author: mkbond007
-ms.author: mabond
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: aaku
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4c4b76bb4f2f63ffadc0a98d00a8f2d10ec8ef91
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: e97e90a3a6e97bd2637d63cf3ee0d0bceb57dc15
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646263"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819409"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Plannings pour votre organisation dans Microsoft Teams
 
@@ -50,7 +50,7 @@ Il est important de savoir que Shifts ne prend actuellement pas en charge les in
 Plannings est disponible dans toutes les références Entreprise où Teams est disponible.
 
 > [!NOTE]
-> Les décalages sont disponibles dans les environnements Cloud de la communauté du secteur public (Cloud de la communauté du secteur public), mais pas dans Cloud de la communauté du secteur public environnements High ou DoD.
+> Les décalages sont disponibles dans les environnements cloud de la communauté du secteur public (GCC), mais pas dans les environnements GCC High ou DoD.
 
 ## <a name="location-of-shifts-data"></a>Emplacement des données Plannings
 
@@ -71,17 +71,17 @@ Plannings est activé par défaut pour tous les utilisateurs Teams de votre orga
 
 Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation d’utiliser Shifts, assurez-vous que Shifts est activé pour votre organisation sur la page [Gérer les applications](../../manage-apps.md) . Créez ensuite une stratégie d’autorisation d’application personnalisée et attribuez-la à ces utilisateurs. Pour plus d’informations, consultez [Gérer les stratégies d’autorisation d’application dans Teams](../../teams-app-permission-policies.md).
 
-### <a name="pin-shifts-to-teams"></a>Épingler majs à Teams
+### <a name="pin-shifts-to-teams"></a>Épingler des majs à Teams
 
-#### <a name="use-the-tailored-frontline-app-experience-to-pin-shifts-and-other-apps-to-teams"></a>Utilisez l’expérience d’application de première ligne personnalisée pour épingler Majs et d’autres applications à Teams
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-shifts-and-other-apps-to-teams"></a>Utiliser l’expérience d’application de première ligne personnalisée pour épingler Shifts et d’autres applications à Teams
 
-L’expérience d’application de première ligne personnalisée dans Teams épingle les applications les plus pertinentes dans Teams pour les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Les applications épinglées incluent Shifts, Walkie Talkie, Tasks et Approbations. Par défaut, cette fonctionnalité est activée, ce qui offre à vos employés de première ligne une expérience prêt à l’emploi adaptée à leurs besoins.
+L’expérience d’application de première ligne personnalisée dans Teams épingle les applications les plus pertinentes dans Teams pour les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Les applications épinglées incluent shifts, Walkie Talkie, Tasks et Approvals. Par défaut, cette fonctionnalité est activée, ce qui offre à vos employés de première ligne une expérience prêt à l’emploi adaptée à leurs besoins.
 
-Les applications sont épinglées à la barre de l’application , la barre située sur le côté du client de bureau Teams et en bas de la Teams clients mobiles, où les utilisateurs peuvent y accéder rapidement et facilement.
+Les applications sont épinglées à la barre de l’application , la barre située sur le côté du client de bureau Teams et en bas des clients mobiles Teams, où les utilisateurs peuvent y accéder rapidement et facilement.
 
-Pour en savoir plus, notamment sur le fonctionnement de l’expérience avec les stratégies d’application que vous définissez, consultez [Tailor Teams apps pour vos employés de première ligne](../../pin-teams-apps-based-on-license.md).  
+Pour en savoir plus, notamment sur le fonctionnement de l’expérience avec les stratégies d’application que vous définissez, consultez [Personnaliser les applications Teams pour vos employés de première ligne](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).  
 
-#### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Utiliser une stratégie d’installation d’application pour épingler Majs à Teams
+#### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Utiliser une stratégie d’installation d’application pour épingler Shifts à Teams
 
 Les stratégies d’installation d’application vous permettent de personnaliser Teams pour épingler les applications les plus importantes pour vos utilisateurs.
 
@@ -101,8 +101,8 @@ Pour effectuer une recherche dans le journal d’audit, vous devez au préalable
 
 ## <a name="related-articles"></a>Articles connexes
 
-- [Shifts pour Teams](../shifts-for-teams-landing-page.md)
+- [Shifts pour Teams](/microsoft-365/frontline/shifts-for-teams-landing-page)
 - [Faq sur les changements de données](shifts-data-faq.md)
-- [Majs connecteurs](shifts-connectors.md)
+- [Majs connecteurs](/microsoft-365/frontline/shifts-connectors)
 - [Aide sur les shifts pour les travailleurs de première ligne](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Attribuer des stratégies à vos utilisateurs](../../policy-assignment-overview.md)

@@ -1,16 +1,16 @@
 ---
-title: Disponibilité des applications Approbations dans Teams
-author: mkbond007
-ms.author: mabond
+title: Gérer l’application Approbations dans Microsoft Teams
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: farhazk
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: En savoir plus sur la disponibilité des applications Approbations dans Microsoft Teams.
+description: Découvrez comment gérer l’application Approbations pour votre organisation dans Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -18,14 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93b0a74feb2d9333d634b9a7858ff6136ca5b5ec
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 888bd2a3cc9b53595625f43e04ab3b1603645944
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676496"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819279"
 ---
-# <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
+# <a name="manage-the-approvals-app-in-microsoft-teams"></a>Gérer l’application Approbations dans Microsoft Teams
 
 L’application Approbations est disponible en tant qu’application personnelle pour tous les utilisateurs de Microsoft Teams.
 L’application Approbations offre un moyen simple d’apporter des audits, de la conformité, de la responsabilité et des flux de travail à des approbations structurées et non structurées dans Teams.
@@ -36,12 +36,12 @@ Les utilisateurs peuvent épingler l’application Approbations pour l’enregis
 
  ![affiche l’application d’approbations avec l’option épingler.](media/approvalApp-pin.png)
 
-La première approbation créée à partir de l’application Approbations déclenche l’approvisionnement de la solution d’approbation dans l’environnement Microsoft Dataverse par défaut. Approbations créé à partir de l’application Approbations est stocké dans l’environnement Microsoft Dataverse par défaut.
+La première approbation créée à partir de l’application Approbations déclenche l’approvisionnement de la solution d’approbation dans l’environnement Microsoft Dataverse par défaut. Les approbations créées à partir de l’application Approbations sont stockées dans l’environnement Microsoft Dataverse par défaut.
 
 Cet article décrit la exigences et les rôles de l’application Approbations.
 
 > [!NOTE]
-> Cette fonctionnalité n’a pas encore été publiée pour les utilisateurs Cloud de la communauté du secteur public High (GCCH) et department of Defense (DOD).
+> Cette fonctionnalité n’a pas encore été publiée pour les utilisateurs government Community Cloud High (GCCH) et department of Defense (DOD).
 
 ## <a name="required-permissions-and-licenses"></a>Autorisations et licences requises
 
@@ -65,7 +65,7 @@ Common Data Model (CDM) est le langage de données partagé utilisé par les app
 
 En savoir plus sur le [flux d’approbation](/power-automate/modern-approvals).
 
-Approbations qui sont créées à partir d’un modèle stockent toujours des données dans Microsoft Dataverse, telles que leur titre, leurs détails, leur ID de modèle, etc. Les réponses envoyées lors de la demande d’approbation sont stockées dans les formulaires. En savoir plus sur le [stockage de données pour Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+Les approbations créées à partir d’un modèle stockent toujours des données dans Microsoft Dataverse, telles que leur titre, leurs détails, leur ID de modèle, etc. Les réponses envoyées lors de la demande d’approbation sont stockées dans les formulaires. En savoir plus sur le [stockage de données pour Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
 >Si vous supprimez le modèle de formulaire sur le site Microsoft Forms, il interrompt votre modèle d’approbation et les utilisateurs ne peuvent pas démarrer la demande. Les utilisateurs reçoivent une erreur « CDB TableNotFound » lors de la tentative d’ouverture d’un modèle d’approbation supprimé le Microsoft Forms.
@@ -99,7 +99,7 @@ Autorisations du modèle d’approbation
 
 - Tous les propriétaires d’équipe peuvent créer un modèle d’approbation pour les équipes dont ils sont propriétaires.
 
-- Lorsqu’un administrateur crée un modèle pour l’ensemble de son organisation pour la première fois, il crée automatiquement un groupe Azure Active Directory (AAD) pour tous les administrateurs du locataire, y compris les administrateurs de service globaux et Teams. Ces administrateurs sont ajoutés en tant que propriétaires du groupe, afin qu’ils puissent co-gérer les modèles d’organisation. Les administrateurs qui débutent dans l’organisation après la création de l’équipe doivent être ajoutés manuellement en tant que propriétaires de groupe afin de disposer des mêmes autorisations pour gérer les modèles à l’échelle de l’organisation.
+- Lorsqu’un administrateur crée un modèle pour l’ensemble de son organisation pour la première fois, il crée automatiquement un groupe Azure Active Directory (AAD) pour tous les administrateurs du locataire, y compris les administrateurs du service Global et Teams. Ces administrateurs sont ajoutés en tant que propriétaires du groupe, afin qu’ils puissent co-gérer les modèles d’organisation. Les administrateurs qui débutent dans l’organisation après la création de l’équipe doivent être ajoutés manuellement en tant que propriétaires de groupe afin de disposer des mêmes autorisations pour gérer les modèles à l’échelle de l’organisation.
 
 > [!Note]
 > Si un administrateur supprime le groupe, vous avez un mois pour le restaurer dans le portail Azure Active Directory (AAD) pour restaurer toutes les données associées. Au bout d’un mois, ou si l’administrateur supprime ce groupe dans la corbeille, vous perdrez toutes les données associées.
@@ -122,25 +122,25 @@ L’application Approbations est disponible par défaut. Vous pouvez désactiver
 
      :::image type="content" alt-text="affiche les détails de l’application Approbations." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
-## <a name="pin-approvals-to-teams"></a>Épingler Approbations à Teams
+## <a name="pin-approvals-to-teams"></a>Épingler les approbations à Teams
 
-### <a name="use-the-tailored-frontline-app-experience-to-pin-approvals-and-other-apps-to-teams"></a>Utilisez l’expérience d’application de première ligne personnalisée pour épingler Approbations et d’autres applications à Teams
+### <a name="use-the-tailored-frontline-app-experience-to-pin-approvals-and-other-apps-to-teams"></a>Utiliser l’expérience d’application de première ligne personnalisée pour épingler des approbations et d’autres applications à Teams
 
-L’expérience d’application de première ligne personnalisée dans Teams épingle les applications les plus pertinentes dans Teams pour les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Les applications épinglées incluent Approbations, Walkie Talkie, Tasks et Shifts. Par défaut, cette fonctionnalité est activée, ce qui offre à vos employés de première ligne une expérience prêt à l’emploi adaptée à leurs besoins.
+L’expérience d’application de première ligne personnalisée dans Teams épingle les applications les plus pertinentes dans Teams pour les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Les applications épinglées incluent approbations, talkie walkie, tâches et majs. Par défaut, cette fonctionnalité est activée, ce qui offre à vos employés de première ligne une expérience prêt à l’emploi adaptée à leurs besoins.
 
-Les applications sont épinglées à la barre de l’application , la barre située sur le côté du client de bureau Teams et en bas de la Teams clients mobiles, où les utilisateurs peuvent y accéder rapidement et facilement.
+Les applications sont épinglées à la barre de l’application , la barre située sur le côté du client de bureau Teams et en bas des clients mobiles Teams, où les utilisateurs peuvent y accéder rapidement et facilement.
 
-Pour en savoir plus, notamment sur le fonctionnement de l’expérience avec les stratégies d’application que vous définissez, consultez [Tailor Teams apps pour vos employés de première ligne](pin-teams-apps-based-on-license.md).
+Pour en savoir plus, notamment sur le fonctionnement de l’expérience avec les stratégies d’application que vous définissez, consultez [Personnaliser les applications Teams pour vos employés de première ligne](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
-### <a name="use-an-app-setup-policy-to-pin-approvals-to-teams"></a>Utiliser une stratégie d’installation d’application pour épingler Approbations à Teams
+### <a name="use-an-app-setup-policy-to-pin-approvals-to-teams"></a>Utiliser une stratégie d’installation d’application pour épingler des approbations à Teams
 
 Les stratégies d’installation d’application vous permettent de personnaliser Teams pour épingler les applications les plus importantes pour vos utilisateurs dans vos utilisateurs.
 
-Pour épingler l’application Approbations pour vos utilisateurs, vous pouvez modifier la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et affecter une stratégie d’installation d’application personnalisée. Pour plus d’informations, consultez l’article [Gérer les stratégies et paramètres d’application personnalisés dans Teams](teams-app-setup-policies.md).
+Pour épingler l’application Approbations pour vos utilisateurs, vous pouvez modifier la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer une stratégie d’installation d’application personnalisée. Pour plus d’informations, consultez l’article [Gérer les stratégies et paramètres d’application personnalisés dans Teams](teams-app-setup-policies.md).
 
 ## <a name="retention-policy"></a>Stratégie de rétention
 
-Approbations créées à partir de l’application Approbations sont stockées dans l’environnement Microsoft Dataverse par défaut, qui ne prend pas en charge les sauvegardes pour l’instant. En savoir plus sur la [Sauvegarde et restauration des environnements : Plateforme Power \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
+Les approbations créées à partir de l’application Approbations sont stockées dans l’environnement Microsoft Dataverse par défaut, qui ne prend pas en charge les sauvegardes pour l’instant. En savoir plus sur la [Sauvegarde et restauration des environnements : Plateforme Power \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
 Les données stockées dans forms ne seront pas supprimées tant que les propriétaires de l’équipe ne les auront pas nettoyées de l’onglet **Formulaires supprimés** de l’application web Microsoft Forms.
 
@@ -215,17 +215,17 @@ En savoir plus sur [Journalisation des activités de Microsoft Dataverse et des 
 > [!Note]
 > Un utilisateur reçoit un rôle de visionneuse d’une demande s’il fait partie de la conversation ou du canal dans lequel l’approbation a été créée. Il ne peut pas agir sur la demande si ce rôle ne lui a pas été affecté lors de la création de l’approbation.
 
-## <a name="approvals-e-signature-integration"></a>Approbations’intégration de signature électronique
+## <a name="approvals-e-signature-integration"></a>Intégration des signatures électroniques d’approbations
 
-Pour utiliser la fonctionnalité de signature électronique d’application Approbations, vous avez besoin d’une licence pour le fournisseur de signature électronique spécifique que vous souhaitez utiliser. Pour obtenir une licence pour votre organisation, vous devez accéder au site du fournisseur.
+Pour utiliser la fonctionnalité de signature électronique de l’application Approbations, vous avez besoin d’une licence pour le fournisseur de signature électronique spécifique que vous souhaitez utiliser. Pour obtenir une licence pour votre organisation, vous devez accéder au site du fournisseur.
 
 ### <a name="enable-or-disable-e-signature-providers"></a>Activer ou désactiver les fournisseurs de signature électronique
 
-Vous pouvez utiliser le centre d’administration Teams pour contrôler quels fournisseurs de signature électronique tiers sont disponibles pour vos utilisateurs dans l’application Approbations. Par défaut, les fournisseurs de signatures électroniques sont activés dans l’application Approbations. Lorsque vous désactivez un fournisseur de signature électronique, vos utilisateurs n’ont pas accès à ce fournisseur lorsqu’ils créent des approbations. Vos utilisateurs ne pourront pas non plus afficher les demandes de signature électronique qui ont été créées à l’aide de ce fournisseur.
+Vous pouvez utiliser le Centre d’administration Teams pour contrôler quels fournisseurs de signature électronique tiers sont disponibles pour vos utilisateurs dans l’application Approbations. Par défaut, les fournisseurs de signatures électroniques sont activés dans l’application Approbations. Lorsque vous désactivez un fournisseur de signature électronique, vos utilisateurs n’ont pas accès à ce fournisseur lorsqu’ils créent des approbations. Vos utilisateurs ne pourront pas non plus afficher les demandes de signature électronique qui ont été créées à l’aide de ce fournisseur.
 
-1. Dans le volet gauche du centre d’administration Teams, accédez à **Teams applications** > **Gérer les applications**.
+1. Dans le volet gauche du Centre d’administration Teams, accédez à **Applications Teams** > **Gérer les applications**.
 2. Recherchez l’application Approbations, puis sélectionnez-la.
-3. Accédez à l’onglet **Paramètres**, puis effectuez une ou plusieurs des opérations suivantes :
+3. Accédez à l’onglet Paramètres, puis effectuez une ou plusieurs des **opérations suivantes** :
 
     - Pour activer ou désactiver Adobe Sign, activez **ou** **désactivez** le bouton bascule.
     - Pour activer ou désactiver DocuSign, activez **ou** **désactivez** le bouton bascule.
