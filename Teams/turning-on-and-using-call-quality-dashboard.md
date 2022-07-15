@@ -1,7 +1,7 @@
 ---
 title: Configurer le tableau de bord de qualité des appels (CQD)
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Découvrez comment activer et utiliser le tableau de bord qualité des appels et obtenir des rapports récapitulatifs sur la qualité des appels.
-ms.openlocfilehash: 5a220ac01965623417354df35a9052648652f607
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 052b38634d17aa6d0086c80ed2a638a7818a729f
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60081613"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66797379"
 ---
 # <a name="set-up-call-quality-dashboard"></a>Configurer le tableau de bord qualité des appels
 
