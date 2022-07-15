@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des canaux partagés dans Microsoft Teams.
-ms.openlocfilehash: 11abe6245dea7ee72bc2f71b412addbed5aa6e30
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 9a547963854f981e723d29b1472c2bda808b90c2
+ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057054"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66773763"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canaux partagés dans Microsoft Teams
 
@@ -85,7 +85,7 @@ Le tableau suivant décrit les actions que les propriétaires, les membres et le
 |---------|---------|---------|---------|---------|---------|---------|
 |Créer un canal partagé|Contrôlée par l’administrateur|Contrôlée par l’administrateur et le propriétaire de l’équipe|Non|N/A|Non|Non|
 |Supprimer un canal partagé|Oui|Non|Non|Oui|Non|Non|
-|Quitter un canal partagé|N/A|N/A|S/O|Oui, à moins qu’il ne soit le dernier propriétaire|Oui|Oui|
+|Quitter un canal partagé|N/A|S/O|S/O|Oui, à moins qu’il ne soit le dernier propriétaire|Oui|Oui|
 |Modifier un canal partagé|Non|N/A|N/A|Oui|Non|Non|
 |Restaurer un canal privé supprimé|Oui|Non|Non|Oui|Non|Non|
 |Ajouter des membres|Non|N/A|N/A|Oui|Non|Non|
@@ -94,7 +94,7 @@ Le tableau suivant décrit les actions que les propriétaires, les membres et le
 
 ## <a name="shared-channel-sharepoint-sites"></a>Sites SharePoint de canal partagé
 
-Chaque canal partagé a [son propre site SharePoint](/SharePoint/teams-connected-sites). Le site séparé doit garantir que l'accès aux fichiers du canal partagé est limité aux seuls membres du canal partagé. Ces sites sont créées avec une bibliothèque de documents par défaut, et peuvent être facilement améliorés et transformés en site complet via l’[interface de gestion de site](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Chaque site est créé dans la même zone géographique que le site de l’équipe parente. Ces sites légers ont un ID de modèle personnalisé, « TEAMCHANNEL#0 », pour simplifier la gestion via PowerShell et l’API Graph. 
+Chaque canal partagé a [son propre site SharePoint](/SharePoint/teams-connected-sites). Le site séparé doit garantir que l'accès aux fichiers du canal partagé est limité aux seuls membres du canal partagé. Ces sites sont créées avec une bibliothèque de documents par défaut, et peuvent être facilement améliorés et transformés en site complet via l’[interface de gestion de site](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Chaque site est créé dans la même zone géographique que le site de l’équipe parente. Ces sites légers ont un ID de modèle personnalisé, « TEAMCHANNEL#1 », pour simplifier la gestion via PowerShell et l’API Graph. 
 
 Un site de canal partagé hérite de l’étiquette de confidentialité de l’équipe parente. Il en va de même si le canal est partagé directement avec une autre équipe.
 
