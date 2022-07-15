@@ -1,13 +1,13 @@
 ---
 title: Exemple de script PowerShell - Créer des équipes de gestionnaires de personnes
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Utilisez ce script PowerShell pour créer une équipe pour chaque responsable avec ses directs en tant que membres de l’équipe.
+description: Utilisez ce script PowerShell pour créer une équipe pour chaque responsable avec ses rapports directs en tant que membres de l’équipe.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05f5a53974444341ecc7da8431525b69bc8f1923
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 0b8eb4f60b5bf15e54821181ffedc584d9202669
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681555"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825658"
 ---
 # <a name="powershell-script-sample---create-new-people-manager-teams"></a>Exemple de script PowerShell - Créer des équipes de gestionnaires de personnes
 
-Utilisez ce script PowerShell pour créer une équipe pour chaque responsable avec ses directs en tant que membres de l’équipe. Avant d’exécuter ce script, exécutez le script [Des gestionnaires d’exportation](powershell-script-create-teams-from-managers-export-managers.md) pour exporter (à partir de votre annuaire Active Directory) une liste de gestionnaires et leurs directs pour votre organisation.
+Utilisez ce script PowerShell pour créer une équipe pour chaque responsable avec ses rapports directs en tant que membres de l’équipe. Avant d’exécuter ce script, exécutez le script [Des gestionnaires](powershell-script-create-teams-from-managers-export-managers.md) d’exportation pour exporter (à partir de votre annuaire Active Directory) une liste de gestionnaires et leurs rapports directs pour votre organisation.
 
 Pour en savoir plus sur ce script PowerShell, consultez [Créer des équipes de gestionnaires de personnes](../create-manager-directs-teams.md).
 
-Si vous débutez avec PowerShell et avez besoin d’aide pour démarrer, reportez-vous à la rubrique [Présentation d’Azure PowerShell](/powershell/azure/overview).
+Si vous débutez avec PowerShell et que vous avez besoin d’aide pour commencer, consultez [Vue d’ensemble de Azure PowerShell](/powershell/azure/overview).
 
 ## <a name="create-new-people-manager-teams"></a>Créer des équipes de gestionnaires de personnes
 

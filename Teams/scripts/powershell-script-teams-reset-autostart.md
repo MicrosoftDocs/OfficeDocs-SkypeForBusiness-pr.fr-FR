@@ -1,30 +1,35 @@
 ---
-title: 'Exemple de script PowerShell : réinitialiser le paramètre de démarrage automatique dans Teams'
-author: SerdarSoysal
-ms.author: serdars
+title: Exemple de script PowerShell - Réinitialiser le paramètre de démarrage automatique dans Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: Utilisez ce script PowerShell pour réinitialiser le paramètre de démarrage automatique Teams par utilisateur.
+description: Utilisez ce script PowerShell pour réinitialiser le paramètre de démarrage automatique dans Teams par utilisateur.
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: fbe75347317b625a45e2e74eb26c6ba43886df2a
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825478"
 ---
+# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>Exemple de script PowerShell - Réinitialiser le paramètre de démarrage automatique dans Teams
 
-# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>Exemple de script PowerShell : réinitialiser le paramètre de démarrage automatique dans Teams
+Utilisez ce script pour réinitialiser le paramètre de démarrage automatique Teams par utilisateur. Cela inclut toutes les valeurs définies par l’utilisateur ou l’application Teams. Par défaut, Teams démarre automatiquement lorsqu’un utilisateur se connecte à son ordinateur après son installation.
 
-Utilisez ce script pour réinitialiser Teams paramètre de démarrage automatique par utilisateur. Cela inclut toutes les valeurs définies par l’utilisateur ou l Teams appeil. Par défaut, Teams démarre automatiquement lorsqu’un utilisateur se connecte à son ordinateur après l’installation.
+Si vous avez déjà déployé Teams et que vous souhaitez définir le [paramètre Empêcher microsoft Teams de démarrer automatiquement après l’installation stratégie de groupe paramètre](../msi-deployment.md#use-group-policy-recommended) pour désactiver le démarrage automatique de Teams, vous devez d’abord définir le paramètre stratégie de groupe sur la valeur souhaitée, puis exécuter ce script.
 
-Si vous avez déjà déployé Teams et que vous voulez définir l’Microsoft Teams Empêcher le démarrage automatique après [l’installation](../msi-deployment.md#use-group-policy-recommended) du paramètre stratégie de groupe pour désactiver le démarrage automatique d’Teams, vous devez commencer par définir le paramètre de stratégie de groupe sur la valeur de votre souhaitez, puis exécuter ce script.
-
-Une Teams d’un utilisateur, les paramètres de démarrage automatique ne peuvent pas être désactivés à l’aide d’une stratégie de groupe.
+Une fois Teams démarré pour un utilisateur, les paramètres de démarrage automatique ne peuvent pas être désactivés à l’aide de stratégie de groupe.
 
 ## <a name="sample-script"></a>Exemple de script
 
@@ -142,7 +147,7 @@ if($null -eq $teamsProc) {
 }
 ````
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Installer Teams avec MSI](../msi-deployment.md)
-- [Déployer des Teams avec Applications Microsoft 365 pour les grandes entreprises](/deployoffice/teams-install)
+- [Déployer Teams avec Applications Microsoft 365 pour les grandes entreprises](/deployoffice/teams-install)

@@ -1,7 +1,7 @@
 ---
 title: Exemple de script PowerShell - Créer & attribuer une stratégie de messagerie
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 09254f9ed85f69551ee825dbeb8ae063a010f780
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 764de690bbf743991536416c7fed08d0b88e7e97
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823705"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825888"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Exemple de script PowerShell : créer et attribuer une stratégie de messagerie
 
@@ -30,7 +30,7 @@ Utilisez ce script PowerShell pour créer une stratégie de messagerie dans Micr
 
 Pour plus d’informations sur l’utilisation de ce script PowerShell, consultez [Démarrage rapide - Teams pour l'éducation](../teams-quick-start-edu.yml).
 
-Ce script utilise l’applet de commande [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) qui se trouve dans le module PowerShell Skype Entreprise Online. Consultez [Teams vue d’ensemble de PowerShell](../teams-powershell-overview.md) pour en savoir plus sur la gestion des Teams à l’aide de PowerShell.
+Ce script utilise l’applet de commande [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) qui se trouve dans le module PowerShell Skype Entreprise Online. Consultez [la vue d’ensemble de Teams PowerShell](../teams-powershell-overview.md) pour en savoir plus sur la gestion de Teams à l’aide de PowerShell.
 
 
 ## <a name="before-you-start"></a>Avant de commencer

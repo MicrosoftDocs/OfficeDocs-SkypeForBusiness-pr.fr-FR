@@ -1,13 +1,13 @@
 ---
-title: Exemple de script PowerShell - nettoyage Teams de déploiement
-author: SerdarSoysal
-ms.author: serdars
+title: Exemple de script PowerShell - Nettoyage du déploiement Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: Utilisez ce script PowerShell pour désinstaller Teams et supprimer le Teams dossier des utilisateurs.
+description: Utilisez ce script PowerShell pour désinstaller Teams et supprimer le dossier Teams pour les utilisateurs.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 246c47b74fc90ddfb7b38a0474bc88bff5321559
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: d7875cb01b928567d5883f36e21eb2f0de0bccf6
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62402648"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825688"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Exemple de script PowerShell - nettoyage Teams de déploiement
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Exemple de script PowerShell - Nettoyage du déploiement Teams
 
-Utilisez ce script pour supprimer des Teams. Ce script désinstalle Teams et supprime le Teams d’un utilisateur. Exécutez ce script pour chaque profil utilisateur dans lequel Teams été installé sur un ordinateur.
+Utilisez ce script pour supprimer Teams. Ce script désinstalle Teams et supprime le dossier Teams pour un utilisateur. Exécutez ce script pour chaque profil utilisateur dans lequel Teams a été installé sur un ordinateur.
 
 
 ## <a name="sample-script"></a>Exemple de script
@@ -62,7 +62,7 @@ catch
 
 ````
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager](../msi-deployment.md)
-- [Déployer des Teams avec Microsoft 365 Apps](/deployoffice/teams-install)
+- [Déployer Teams avec Microsoft 365 Apps](/deployoffice/teams-install)

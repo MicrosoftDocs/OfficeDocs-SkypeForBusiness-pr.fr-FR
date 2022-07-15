@@ -1,7 +1,7 @@
 ---
-title: Restrictions de numérotation gratuites en Autriche
-ms.author: serdars
-author: SerdarSoysal
+title: Restrictions de numérotation gratuit en Autriche
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -21,31 +21,31 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous devez vous rendre sur une page spécifique du pays qui contient des détails, des restrictions et des limites spécifiques sur la disponibilité du service gratuit où un service gratuit est disponible. Le format ou les formats de numérotation indiquent les codes d’accès requis dans chaque pays ou région pour composer le numéro gratuit.
-ms.openlocfilehash: 8335435d8eac35b0e65ae8f8165ad2f9160b00d2
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Cela vous aidera à trouver comment composer des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous accédez à une page spécifique à un pays qui contient des détails spécifiques, des restrictions et des limites pour la disponibilité du service gratuit où le service gratuit est disponible. Le format ou les formats de numérotation vous indiquent les codes d’accès requis dans chaque pays ou région pour composer le numéro gratuit.
+ms.openlocfilehash: b109d27f3e2a6c608ca92ac537ce9a51c623aa2f
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62394436"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825468"
 ---
-# <a name="toll-free-dialing-restrictions-in-austria"></a>Restrictions de numérotation gratuites en Autriche
+# <a name="toll-free-dialing-restrictions-in-austria"></a>Restrictions de numérotation gratuit en Autriche
 
-[Trouvez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md) ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
+[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md), ou apprenez-en davantage sur les limitations et restrictions de numérotation gratuit.
 
 
 |**Détails**|**Description**|
 |:-----|:-----|
-|Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
+|Les appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> | 0 800 XX XXX <br>|
-|Code ISO de pays/région  <br/> |AT  <br/> |
-|Île/territoire couvert(s)  <br/> |Non applicable  <br/> |
+|Code ISO pays/région  <br/> |À  <br/> |
+|Île/territoire couvert  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> | Non applicable  <br/>  |
-|Disponibilité des lignes câblés/fixes  <br/> |Oui  <br/> |
-|Disponibilité de réseau mobile  <br/> | Oui (certains numéros peuvent être premium) <br/> |
-|Problèmes de commentaires, restrictions et accès  <br/> |Aucun  <br/> |
+|Disponibilité des lignes câblées/fixes  <br/> |Oui  <br/> |
+|Disponibilité de réseau mobile  <br/> | Oui (certains nombres peuvent être premium) <br/> |
+|Commentaires, restrictions et problèmes d’accès  <br/> |Aucun  <br/> |
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

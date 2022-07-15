@@ -1,13 +1,13 @@
 ---
-title: Niveau de qualité de l’expérience utilisateur | Microsoft Teams | QoS | Qualité de l’appel
-author: SerdarSoysal
-ms.author: serdars
+title: Qualité de l’expérience utilisateur | Microsoft Teams | | QoS Qualité des appels
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Les administrateurs peuvent en savoir plus sur les tâches et les activités requises pour surveiller la qualité et l’utilisation de Microsoft Teams.
+description: Administration pouvez en savoir plus sur les tâches et les activités requises pour surveiller la qualité et l’utilisation de Microsoft Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,26 +20,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ea92ffd8adcdfb319cd1b515419b987fc6bbbc4
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: dfc37ac16cbaf26380da21b78b84f3aa481ebaf5
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62394426"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825518"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité
 
-![Diagramme mettant en évidence l’excellence opérationnelle étape du voyage de mise à niveau.](media/upgrade-banner-op-excellence.png "Étapes du voyage de mise à niveau, avec l’accentuation sur la phase d’excellence opérationnelle")
+![Diagramme mettant en évidence l’étape d’excellence opérationnelle du parcours de mise à niveau.](media/upgrade-banner-op-excellence.png "Étapes du parcours de mise à niveau, en mettant l’accent sur la phase d’excellence opérationnelle")
 
-Cet article fait partie de la phase d’excellence opérationnelle de votre parcours de mise à niveau, qui commence dès que vous avez terminé votre mise à niveau de Skype Entreprise vers Teams.
+Cet article fait partie de l’étape d’excellence opérationnelle de votre parcours de mise à niveau, qui commence dès que vous avez terminé votre mise à niveau de Skype Entreprise vers Teams.
 
 ## <a name="improve-and-monitor-call-quality"></a>Améliorer et surveiller la qualité des appels
 
-L’amélioration et le suivi de la qualité des appels pour [Teams](monitor-call-quality-qos.md) inclut un ensemble d’activités qui évaluent et fournissent des recommandations de correction dans les domaines clés qui ont le plus fort impact sur l’amélioration de l’expérience utilisateur, comme illustré ci-dessous.
+[L’amélioration et la surveillance de la qualité des appels pour Teams](monitor-call-quality-qos.md) incluent un ensemble d’activités qui évaluent et fournissent des conseils de correction dans les domaines clés qui ont le plus d’impact sur l’amélioration de l’expérience utilisateur, comme illustré ci-dessous.
 
-![Illustration des principaux domaines à examiner lors d’une révision.](media/plan-my-service-management-image2.png "Principaux aspects à examiner lors d’une révision de la qualité de l’expérience : audio, fiabilité et résultats des enquêtes effectués par les utilisateurs.")
+![Illustration des domaines clés à examiner lors d’un examen.](media/plan-my-service-management-image2.png "Domaines clés à examiner lors d’une révision de la qualité de l’expérience : audio, fiabilité et résultats de l’enquête utilisateur.")
 
-En evaluant et en réstant les aspects décrits dans le guide, vous pouvez réduire leur risque d’affecter négativement l’expérience utilisateur. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
+En évaluant et en corrigeant en permanence les zones décrites dans le guide, vous pouvez réduire leur risque d’affecter négativement l’expérience utilisateur. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
 
 - Configuration incomplète du pare-feu ou du proxy
 
@@ -53,8 +53,8 @@ En evaluant et en réstant les aspects décrits dans le guide, vous pouvez rédu
 
 - Sous-réseaux ou périphériques réseau problématiques
 
-Les conseils fournis dans Améliorer et surveiller la qualité des appels pour [Teams](monitor-call-quality-qos.md) se concentrent sur l’utilisation du tableau de bord de qualité des appels online comme principal outil pour signaler et examiner chaque zone décrite, avec un focus sur l’audio afin d’optimiser l’adoption et l’impact. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
+Les conseils fournis dans [Améliorer et surveiller la qualité des appels pour Teams](monitor-call-quality-qos.md) se concentrent sur l’utilisation du tableau de bord de qualité des appels (CQD) Online comme principal outil pour signaler et examiner chaque domaine décrit, en concentrant sur l’audio pour optimiser l’adoption et l’impact. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
 
-Il est vivement recommandé de désigner le champion de la qualité rapidement. Une fois désignées, elles doivent se familiariser avec le contenu du projet Améliorer et surveiller la qualité des appels des [Teams](monitor-call-quality-qos.md).
+Nous vous recommandons vivement de nommer le champion de la qualité dès le début. Après avoir été nommés, ils doivent commencer à se familiariser avec le contenu dans [Améliorer et surveiller la qualité des appels pour Teams](monitor-call-quality-qos.md).
 
 <!--ENDOFSECTION-->

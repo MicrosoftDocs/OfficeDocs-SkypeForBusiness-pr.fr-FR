@@ -1,7 +1,7 @@
 ---
-title: Exemple de script PowerShell - Exporter les responsables et leurs directs
-author: SerdarSoysal
-ms.author: serdars
+title: Exemple de script PowerShell - Exporter les gestionnaires et leurs rapports directs
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436f9566031a2cd9bc3b06a23df7b3b7346d3bec
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: fbd1758c0de6d0cb7751b4a447e21ab386f823ba
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674176"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825668"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Exemple de script PowerShell - Exporter les responsables et leurs directs
+# <a name="powershell-script-sample---export-managers-and-their-direct-reports"></a>Exemple de script PowerShell - Exporter les gestionnaires et leurs rapports directs
 
-Utilisez ce script PowerShell pour exporter une liste de gestionnaires et leurs directs pour votre organisation. Utilisez ce script pour préparer la création d’une équipe de gestionnaire de personnes pour chaque responsable avec ses rapports directs en tant que membres de l’équipe.
+Utilisez ce script PowerShell pour exporter une liste de gestionnaires et leurs rapports directs pour votre organisation. Utilisez ce script pour préparer la création d’une équipe de gestionnaire de personnes pour chaque responsable avec ses rapports directs en tant que membres de l’équipe.
 
 Pour en savoir plus sur ce script PowerShell, consultez [Créer des équipes de gestionnaires de personnes](../create-manager-directs-teams.md).
 
