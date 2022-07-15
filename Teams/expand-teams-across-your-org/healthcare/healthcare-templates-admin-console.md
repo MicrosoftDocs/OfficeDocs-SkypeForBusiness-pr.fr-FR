@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: yinchang
 description: Découvrez comment gérer et utiliser les modèles d’équipe médicale dans le Centre d’administration Teams et avec Microsoft Graph pour créer rapidement et facilement des équipes pour votre organisation de services de santé.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 78269b393c384af82e48284e3ffefe8785013975
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 831e4e257277ce2fca6dc007ac5f3bfe963bca35
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046000"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819439"
 ---
 # <a name="use-healthcare-team-templates"></a>Utiliser des modèles d’équipe médicale
 
@@ -73,7 +73,7 @@ Ce modèle est destiné à la communication et à la collaboration entre les dif
 &sup1; Application ajoutée au canal en tant qu’onglet
 ## <a name="use-team-templates-with-microsoft-graph"></a>Utiliser les modèles Teams avec Microsoft Graph
 
-Les développeurs peuvent utiliser Microsoft Graph pour créer des équipes à partir de modèles d’équipe prédéfinis. Pour en savoir plus sur l’utilisation des modèles d’équipe avec Microsoft Graph, consultez [Démarrage des modèles d’équipe à l’aide de Microsoft Graph](../../get-started-with-teams-templates.md), [Vue d’ensemble de l’API Microsoft Teams](/graph/teams-concept-overview?view=graph-rest-1.0) et [Type de ressource de modèles Teams](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Les développeurs peuvent utiliser Microsoft Graph pour créer des équipes à partir de modèles d’équipe prédéfinis. Pour en savoir plus sur l’utilisation des modèles d’équipe avec Microsoft Graph, consultez [Démarrage des modèles d’équipe à l’aide de Microsoft Graph](../../get-started-with-teams-templates.md), [Vue d’ensemble de l’API Microsoft Teams](/graph/teams-concept-overview) et [Type de ressource de modèles Teams](/graph/api/resources/teamstemplate).
 
 Voici les modèles pré-intégrés de l’équipe de santé.
 ### <a name="ward"></a>Unité
@@ -214,4 +214,4 @@ Pour utiliser ces modèles, modifiez la propriété « template@odata.bind » da
 - [Créer une équipe à partir d’un modèle](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Utiliser des modèles d’équipe dans le Centre d’administration Teams](../../get-started-with-teams-templates-in-the-admin-console.md)
 - [Prise en main des modèles d’équipe à l’aide de Microsoft Graph](../../get-started-with-teams-templates.md)
-- [Prise en main de Teams pour les organismes de santé](teams-in-hc.md)
+- [Prise en main de Teams pour les organismes de santé](/microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
