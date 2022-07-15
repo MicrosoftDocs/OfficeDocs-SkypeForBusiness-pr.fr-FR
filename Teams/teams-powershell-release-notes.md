@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez les dernières modifications apportées à Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67a05d19d6996062690d00099aa455b3eb60fd57
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 96f2b119c36b26a0c8805bcce29edc2830e1568f
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562353"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810116"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notes de publication de Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ Cette page fournit le journal des modifications Teams PowerShell le plus récent
 
 | Date | Version | Mises à jour |
 |------- | -------------------- | ------------------------------ |
+| Juillet 2022 | [4.5.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.1-preview) |<li>Libère le paramètre AccountType pour l’applet de commande Get-CsOnlineUser, ce qui permet d’interroger un type spécifique d’utilisateurs.</li><li>L’attribut AccountType est ajouté dans la sortie Get-CsOnlineUser indiquant le type d’utilisateur. Les valeurs possibles pour AccountType sont : « Utilisateur » (comptes d’utilisateur), « ResourceAccount » (points de terminaison d’application ou comptes de ressources), « Invité » (comptes invités) & « Inconnu » (type d’utilisateur inconnu).</li><li>Résout les problèmes liés aux paramètres Rank & Group dans les applets de commande Grant-Cs\<PolicyName\> .</li>
 | Juin 2022 | [4.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.0) |<li>Prend en charge le paramètre IncludeResources pour l’applet de commande Get-CsAutoAttendantStatus.</li><li>Prend en charge le paramètre SoftDeletedUsers pour l’applet de commande Get-CsOnlineUser.</li><li>Versions [Get\|Grant]-CsTeamsMediaLoggingPolicy cmdlets.</li><li>Prend en charge le paramètre facultatif AuthorizedUsers pour les applets de commande [New\|Set]-CsAutoAttendant & [New\|Set]-CsCallQueue.</li><li>Corrige les paramètres d’invite de messages vocaux partagés où le type d’invite n’a pas pu être basculé une fois qu’ils ont été définis pour Set-CsCallQueue cmdlet.</li><li> Corrige les applets de commande [New\|Set]-CsOnlineSchedule pour qu’ils fonctionnent au format date-heure européen.</li><li>Versions [New\|Get\|Set\|Remove\|Grant]-CsTeamsVoiceApplicationsPolicy cmdlets.</li><li>Libère Get-CsHybridTelephoneNumber cmdlet.</li><li>Publie les versions modernisées des applets de commande [New\|Remove]-CsHybridTelephoneNumber.</li><li>Prend en charge ToneStar et TonePound comme valeur pour le paramètre DtmfResponse dans l’applet de commande New-CsAutoAttendantMenuOption.</li><li> Résout les problèmes liés à PSListModifier dans le paramètre AllowedDomainsAsAList dans l’applet de commande Set-CsTenantFederationConfiguration modernisée.</li><li> Prend en charge les paramètres Group et Rank pour toutes les applets de commande Grant-Cs\<PolicyName\> .</li><li> Libère Test-CsTeamsTranslationRule cmdlet.</li>
 | Juin 2022 | [4.4.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.3-preview) |<li>Prend en charge le paramètre IncludeResources pour l’applet de commande Get-CsAutoAttendantStatus.</li><li>Prend en charge le paramètre SoftDeletedUsers pour l’applet de commande Get-CsOnlineUser.</li><li>Versions [Get\|Grant]-CsTeamsMediaLoggingPolicy cmdlets.</li><li>Prend en charge le paramètre facultatif AuthorizedUsers pour les applets de commande [New\|Set]-CsAutoAttendant & [New\|Set]-CsCallQueue.</li><li>Corrige les paramètres d’invite de messages vocaux partagés où le type d’invite n’a pas pu être basculé une fois qu’ils ont été définis pour Set-CsCallQueue cmdlet.</li><li> Corrige les applets de commande [New\|Set]-CsOnlineSchedule pour qu’ils fonctionnent au format date-heure européen.</li>
 | Mai 2022 | [4.4.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.1) |<li>Améliorations de la taille du module.</li><li>Les paramètres non pris en charge dans la version modernisée de toutes les applets de commande entraînent une erreur.</li><li>Corrige la gestion des erreurs pour [Get\|Set]-CsOnlineDialInConferencingUser, Get-CsOnlineDialInConferencingBridge, [Get\|Set\|Register\|Unregister]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported cmdlets.</li><li>Déprécie Test-CsOnlineLisCivicAddress cmdlet.</li><li>Le nom d’utilisateur principal (UPN) & GUID peut être utilisé maintenant comme identité dans les applets de commande modernisables [Get\|Remove]-CsOnlineApplicationInstanceAssociation.</li><li> [CHANGEMENT CASSANT] Get-CsOnlineUser : les attributs de stratégie dans la sortie sont désormais null si cette stratégie n’est pas affectée à un utilisateur. Ces attributs sont des objets UserPolicyDefinition vides dans les versions antérieures (3.0.0 à 4.3.1).</li><li>Corrige Set-CsCallQueue pour autoriser les valeurs de tableau null ou vides dans les paramètres d’entrée.</li><li>Get-CsPhoneNumberAssignment - Les attributs IsoSubdivision city & sont ajoutés à la sortie.</li>
@@ -72,7 +73,7 @@ Cette page fournit le journal des modifications Teams PowerShell le plus récent
 | Mars 2020 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Ajout de New-CsBatchPolicyAssignmentOperation</li> |
 | Février 2020 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>optimisations Get-Team</li>  |
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Aperçu de Teams PowerShell](teams-powershell-overview.md)
 

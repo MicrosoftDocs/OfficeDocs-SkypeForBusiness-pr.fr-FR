@@ -20,21 +20,21 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46ea03016b329801b5cdd4b422192ff35496dbdd
-ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
+ms.openlocfilehash: c7b61ebcc5fa650e7282b48d45862b2649783af7
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "65886701"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810166"
 ---
 # <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Comparaison des fonctionnalités des appareils Teams pour les espaces partagés entre Windows et Android 
-Les expériences salles Microsoft Teams sont conçues en tenant compte des clients. Chaque client a des besoins uniques, c’est pourquoi Microsoft offre un large éventail d’options, y compris les salles Teams sur Windows et sur Android. 
+Salles Microsoft Teams expériences sont conçues en tenant compte des clients. Chaque client a des besoins uniques, c’est pourquoi Microsoft offre un large éventail d’options, notamment salles Teams sur Windows et sur Android. 
 
 Les fonctionnalités principales sont disponibles sur les deux plateformes afin que les utilisateurs finaux puissent toujours bénéficier d’expériences audio et vidéo exceptionnelles, utiliser une jointure tactile pour participer à des réunions, et accéder à des fonctionnalités inclusives telles que des légendes en direct et lever la main. 
 
-Comme Microsoft apporte de nouvelles fonctionnalités à Teams et aux salles Teams, nous nous efforçons de les apporter à toutes les plateformes, mais les fonctionnalités peuvent être déployées à différents moments en raison de plusieurs facteurs, notamment la faisabilité technique et les commentaires des clients pour chaque plateforme. Cela signifie que certaines fonctionnalités peuvent être déployées sur Windows avant qu’elles ne soient disponibles sur la plateforme Android. 
+Comme Microsoft apporte de nouvelles fonctionnalités à Teams et à salles Teams, nous nous efforçons de les apporter à toutes les plateformes, mais les fonctionnalités peuvent être déployées à différents moments en raison de plusieurs facteurs, notamment la faisabilité technique et les commentaires des clients pour chaque plateforme. Cela signifie que certaines fonctionnalités peuvent être déployées sur Windows avant qu’elles ne soient disponibles sur la plateforme Android. 
 
-Pour vous guider sur les fonctionnalités disponibles sur différentes plateformes, vous pouvez vous reporter au graphique ci-dessous, qui sera mis à jour régulièrement. Toutes les fonctionnalités salles Teams ne seront pas incluses dans cette liste. Pour plus d’informations, consultez la [feuille de route microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) et les représentants commerciaux de Microsoft.    
+Pour vous guider sur les fonctionnalités disponibles sur différentes plateformes, vous pouvez vous reporter au graphique ci-dessous, qui sera mis à jour régulièrement. Toutes les fonctionnalités salles Teams ne seront pas incluses dans cette liste. Pour plus d’informations, consultez la [feuille de route de Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) et les représentants commerciaux de Microsoft.    
 
 ## <a name="teams-devices-for-shared-spaces"></a>Appareils Teams pour les espaces partagés
 ### <a name="feature-comparison-between-windows-and-android"></a>Comparaison des fonctionnalités entre Windows et Android
@@ -77,10 +77,11 @@ Pour vous guider sur les fonctionnalités disponibles sur différentes plateform
 ||Surveillance de l’intégrité des périphériques connectés |Disponible  |Bientôt disponible |
 ||Configuration à distance (redémarrage, paramètres, collecte de journaux) |Disponible  |Disponibles |
 ||Mises à jour automatiques des applications Teams |Disponible  |Disponibles |
-||Inscription automatique de l’appareil |Disponible |Bientôt disponible |
+||Inscription automatique de l’appareil |Disponible |Disponibles |
 ||Analyse de la qualité des appels |Disponible  |Disponibles |
 |**Bon pour / Espace**|Focus (2-4 personnes) |Disponible  |Disponibles |
 ||Petite (4 à 6 personnes) |Disponible  |Disponibles |
 ||Moyen (6 à 12 personnes) |Disponible  |Disponibles |
 ||Grand (12 à 16 personnes) |Disponible  |Disponibles |
 ||Salle multi-usage (16 personnes et plus) |Disponible  |Non disponibles |
+

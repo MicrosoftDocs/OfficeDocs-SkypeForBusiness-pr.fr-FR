@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Utilisez la télémétrie en temps réel avec des détails sur les appareils, les réseaux et la connectivité pour résoudre les problèmes des utilisateurs lors des réunions planifiées de Microsoft Teams.
-ms.openlocfilehash: e1f9b445917a0bfd8ba06a736444fc532aa1a0b7
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: 203f16d83d211a4a85f3217992d509bccba5dea3
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794342"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810176"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Utiliser la télémétrie en temps réel pour résoudre les problèmes de qualité des réunions
 
@@ -137,10 +137,10 @@ Les signaux utilisateur identifient quand un utilisateur participe activement à
 
 ## <a name="teams-devices-with-support-for-real-time-telemetry"></a>Appareils Teams avec prise en charge de la télémétrie en temps réel
 
-- MTR - Surface Hub
-- MTR - Affichage Teams
-- MTR - Barre de collaboration
-- Appareils IP Phone
+- Affichage Teams
+- Téléphone Teams
+- salles Teams
+- salles Teams sur surface Hub
 
 > [!NOTE]
 > Les appareils qui ont rejoint la réunion à l’aide de solutions CVI (Cloud Video Interop) ne sont pas pris en charge dans Real-Time Analytics.
@@ -157,7 +157,7 @@ Les signaux utilisateur identifient quand un utilisateur participe activement à
 > [!NOTE]
 > Dans le cadre d’une préversion publique limitée, les données de télémétrie en temps réel sont actuellement disponibles pendant **7 jours** après la fin d’une réunion. Une fois la préversion terminée, seuls les locataires disposant de licences de module complémentaire Advanced Communications disposent de données de télémétrie disponibles pour la période de 7 jours prolongée. Tous les autres locataires seront soumis aux limites mentionnées ci-dessus.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer l’analytique des appels par utilisateur](set-up-call-analytics.md)
 
