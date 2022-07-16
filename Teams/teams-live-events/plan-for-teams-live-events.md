@@ -1,7 +1,7 @@
 ---
 title: Planifier des événements en direct dans Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b39be09266f5af76064f867e721fab5146a75adc
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: 7e522227baf9d71cddd51c5cd0468b91bb6de3f8
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913442"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825548"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -106,7 +106,7 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 > [!IMPORTANT]
 > **Augmentation de la limite d’événements en direct Microsoft 365**
 >
-> **Pour continuer à répondre aux besoins de nos clients, nous prolongerons les augmentations de limites temporaires pour les événements en direct jusqu'au 31 décembre 2022, notamment**:
+> **Pour continuer à répondre aux besoins de nos clients, nous prolongerons les augmentations de limites temporaires pour les événements en direct jusqu'au 31 décembre 2022, notamment** :
 >
 >- Soutien aux événements accueillant jusqu'à 20 000 participants
 >- 50 événements à la fois peuvent être hébergés chez un client

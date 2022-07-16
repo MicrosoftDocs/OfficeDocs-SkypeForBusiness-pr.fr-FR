@@ -1,8 +1,8 @@
 ---
 title: Teams pour le secteur public
-description: Découvrez comment planifier et déployer des déploiements Teams dans Microsoft 365 environnements gouvernementaux.
-author: SerdarSoysal
-ms.author: serdars
+description: Découvrez comment planifier et déployer Teams dans les environnements Microsoft 365 Government.
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.topic: article
 manager: serdars
 audience: admin
@@ -14,20 +14,20 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ae61c865a5833145e6cb8bf4fc80ad3bf9a127f
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 3aeedd782bffed24a632674c18ef86f91fab6609
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62417407"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825738"
 ---
 # <a name="teams-for-government"></a>Teams pour le secteur public
 
-Utilisez ces ressources pour en savoir plus sur des considérations spécifiques pour le déploiement d Teams dans Microsoft 365 environnements gouvernementaux. Lorsque vous êtes prêt, suivez la même trajectoire de déploiement recommandée pour les déploiements Teams décrite dans la manière de les [Microsoft Teams](../deploy-overview.md).
+Utilisez ces ressources pour en savoir plus sur les considérations spécifiques relatives au déploiement de Teams dans les environnements Microsoft 365 Government. Lorsque vous êtes prêt, suivez le même chemin de déploiement recommandé pour Teams que celui indiqué dans [Comment déployer Microsoft Teams](../deploy-overview.md).
 
 | &nbsp; |&nbsp; |
 | ------------- | ------------- |
-| ![Capture d’écran de l’icône de liste numéroée.](../media/list-123-teams.svg)  |  [Planifier les déploiements Microsoft 365 administration publique Cloud de la communauté du secteur public déploiements](../plan-for-government-gcc.md) |
+| ![Capture d’écran de l’icône de liste numérotée.](../media/list-123-teams.svg)  |  [Planifier les déploiements de Microsoft 365 Government - GCC](../plan-for-government-gcc.md) |
 | ![Capture d’écran du Presse-papiers avec une icône de liste de tâches.](../media/tasks-teams.svg) | [Plan pour Microsoft 365 pour entités publiques - GCC High](../plan-for-government-gcc-high.md) |
-| ![Capture d’écran de l’icône d’éléments de liste à puces.](../media/task-list-planning-teams.svg)  |  [Planifier les Microsoft 365 administration publique - DoD](../plan-for-government-dod.md) |
+| ![Capture d’écran de l’icône d’éléments de liste à puces.](../media/task-list-planning-teams.svg)  |  [Planifier les déploiements Microsoft 365 Government - DOD](../plan-for-government-dod.md) |
 | ![Capture d’écran de l’icône de flèche droite.](../media/arrow-right-2-teams.svg)  |  [Audioconférence avec routage direct pour GCC High et DoD](../audio-conferencing-with-direct-routing-for-gcch-and-dod.md) |

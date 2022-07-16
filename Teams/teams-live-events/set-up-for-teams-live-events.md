@@ -1,7 +1,7 @@
 ---
 title: Configurer des événements en direct dans Microsoft Teams
-author: serdarsoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,16 +16,16 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
-description: Configurez des événements en direct dans Teams, notamment configurer votre réseau, attribuer des licences, activer les fonctionnalités et la planification des événements en direct, et des solutions de distribution de vidéos.
+description: Configurez les événements en direct dans Teams, notamment configurer votre réseau, attribuer des licences, activer les fonctionnalités et la planification des événements en direct, et des solutions de distribution de vidéos.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a2e7061252afc5c485da01c3c1c30e9625bd07cc
-ms.sourcegitcommit: 3f046142c40b3b776165e964f2b8718e2fe55df3
+ms.openlocfilehash: f972fa2a78796a2768c62d191a95e68f41a91a5e
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "65661665"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825908"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
@@ -50,7 +50,7 @@ Les stratégies d’événements en direct sont utilisées pour contrôler qui d
 
 <a name="bkcreatepolicy"> </a>
 
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à l’onglet Gérer les **stratégies d’événements** >  en direct **des réunions** > .
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à l’onglet Gérer les **stratégies d’événements** >  en direct **des réunions** > .
 2. Effectuez l’une des options suivantes :
 
     - Si vous voulez modifier la stratégie par défaut existante, sélectionnez **Globale (par défaut à l’échelle de l’organisation)**.
@@ -70,7 +70,7 @@ Les stratégies d’événements en direct sont utilisées pour contrôler qui d
 |**Qui peut participer aux événements en direct planifiés**    |Choisissez l’une des options suivantes.<br><br>**Tout le monde** Les utilisateurs peuvent créer des événements en direct auxquels tout le monde, y compris des personnes extérieures à votre organisation, peut participer. Ce paramètre active le type d’autorisation **Publique** dans Teams lorsqu’un utilisateur planifie un événement en direct.<br> **Tous les membres de l’organisation** Les utilisateurs peuvent créer des événements en direct auxquels les membres de votre organisation, y compris les [utilisateurs invités](../add-guests.md) extérieurs à l’organisation, peuvent participer. Les utilisateurs ne peuvent pas créer des événements en direct suivis par des utilisateurs anonymes. Ce paramètre active le type d’autorisation **Org-wide** dans Teams lorsqu’un utilisateur planifie un événement en direct.<br> **Utilisateurs ou groupes spécifiques** Les utilisateurs peuvent créer des événements en direct auxquels seuls des utilisateurs ou des groupes spécifiques de votre organisation peuvent participer. Les utilisateurs ne peuvent pas créer des événements en direct suivis par tout le monde au sein de votre organisation ou par des utilisateurs anonymes. Ce paramètre active le type d’autorisation **Individus et groupes** dans Teams lorsqu’un utilisateur planifie un événement en direct.       |
 |**Paramètre d’enregistrement**  <br>     | Ce paramètre ne peut être appliqué qu’aux événements créés dans Teams. Choisissez l’une des options suivantes. <br><br> **Toujours enregistrer** Les événements en direct créés par les utilisateurs sont toujours enregistrés. Une fois l’événement terminé, les membres de l’équipe peuvent télécharger l’enregistrement et les participants peuvent l’examiner. <br> **Ne jamais enregistrer** Les événements en direct créés par les utilisateurs ne sont jamais enregistrés. <br>**L’organisateur peut enregistrer ou non** Les utilisateurs peuvent choisir d’enregistrer ou non l’événement en direct. Si l’enregistrement a eu lieu, une fois l’événement terminé, les membres de l’équipe peuvent télécharger l’enregistrement et les participants peuvent le regarder.
 
-Vous pouvez également effectuer cette opération à l’aide de Windows PowerShell et, actuellement, Cloud de la communauté du secteur public clients High et DoD doivent utiliser cette méthode. Pour plus d’informations, voir [Utiliser PowerShell pour définir les stratégies d’événements en direct dans Teams](set-teams-live-events-policies-using-powershell.md).
+Vous pouvez également effectuer cette opération à l’aide de Windows PowerShell et, actuellement, les clients GCC High et DoD doivent utiliser cette méthode. Pour plus d’informations, voir [Utiliser PowerShell pour définir les stratégies d’événements en direct dans Teams](set-teams-live-events-policies-using-powershell.md).
 
 ### <a name="assign-a-live-events-policy-to-users"></a>Attribuer une stratégie d’événements en direct à des utilisateurs
 
@@ -103,7 +103,7 @@ Les solutions SDN/eCDN suivantes sont pré-intégrées et peuvent être configur
 
 - **Ramp OmniCache** assure la distribution de réseau nouvelle génération et permet de distribuer de façon transparente du contenu vidéo sur les WAN globaux, afin d’aider les producteurs d’événements à optimiser la bande passante réseau et à prendre en charge la diffusion d’événements en direct et la diffusion à la demande. L’assistance pour Ramp OmniCache pour les événements en direct créés dans Teams sera disponible prochainement. [En savoir plus](https://rampecdn.com).
 
-- **Riverbed**, la norme du secteur en matière d’optimisation du réseau, étend ses solutions d’accélération à Microsoft Teams et Stream.  Désormais, Microsoft 365 clients peuvent accélérer en toute confiance 365 trafic, y compris Teams et Stream, ainsi qu’une multitude d’autres services SaaS d’entreprise de premier plan pour augmenter la productivité de la main-d’œuvre en tout lieu. Teams et l’accélération stream peuvent être activées par le biais d’une configuration sans effort qui est fourni avec toute l’assurance de la prise en charge de classe mondiale riverbed et l’investissement continu.
+- **Riverbed**, la norme du secteur en matière d’optimisation du réseau, étend ses solutions d’accélération à Microsoft Teams et Stream.  Désormais, les clients Microsoft 365 peuvent accélérer en toute confiance 365 trafic, notamment Teams et Stream, ainsi qu’une multitude d’autres services SaaS d’entreprise de premier plan pour accroître la productivité de la main-d’œuvre où que vous soyez. L’accélération Teams et Stream peut être activée par le biais d’une configuration sans effort qui est fourni avec toute l’assurance du support de classe mondiale de Riverbed et de l’investissement continu.
 
 > [!NOTE]
 > La solution SDN ou eCDN que vous avez choisie est soumise aux **conditions d’utilisation du service et à la politique de confidentialité du prestataire tiers**, lesquelles gouvernent votre utilisation de la solution. L’utilisation de la solution de votre prestataire ne sera pas soumise aux termes du programme de licences en volume Microsoft ou des services en ligne. Si vous n’acceptez pas les **conditions de votre prestataire tiers**, n’activez pas la solution dans Teams.
@@ -114,7 +114,7 @@ Une fois que vous avez configuré la solution SDN ou eCDN, vous pouvez configure
 
 Accédez à [Configurer les paramètres d’événements en direct dans Teams](configure-teams-live-events.md).
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Sujets associés
 
 - [Comprendre un événement en direct Teams](what-are-teams-live-events.md)
 - [Offre pour les événements en direct Teams](plan-for-teams-live-events.md)

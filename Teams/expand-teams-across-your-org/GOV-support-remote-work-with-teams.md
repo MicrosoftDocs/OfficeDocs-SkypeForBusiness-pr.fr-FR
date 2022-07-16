@@ -1,7 +1,7 @@
 ---
 title: Prise en charge des employés du secteur public travaillant à distance avec Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de l’organisation du service public grâce à Microsoft Teams, en particulier lorsqu’ils travaillent à domicile en réponse à l’épidémie de COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42d4b94a23bb2e3b9003f62a467c07eaf9c328e6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d245055d84025867705c1d83391510324ca7a22f
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608981"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825748"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Prise en charge des employés du secteur public travaillant à distance avec Microsoft Teams
 
