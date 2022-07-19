@@ -1,7 +1,7 @@
 ---
 title: Licences de module complémentaire Microsoft Teams
-ms.author: serdars
-author: SerdarSoysal
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: conceptual
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Découvrez les licences de module complémentaire pour Microsoft Teams et les fonctionnalités que vous obtenez avec chaque licence.
-ms.openlocfilehash: f3d7b7aacf611592898b6d2aeef0fb3dde854fdf
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: a44851194543c58fed7f3449fcbe5b4bedbf6074
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682483"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838829"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licences de module complémentaire Microsoft Teams
 
@@ -39,13 +39,13 @@ Voici la liste des licences de module complémentaire Teams et leurs fonctionnal
 
 |Licence|Description|
 |-------|-----------|
-|**Téléphonie Microsoft 365 pour les PME** <br/> |Business Voice était le groupe de fonctionnalités vocales de Microsoft pour les petites et moyennes entreprises, mais ne sera plus disponible à l’achat à partir du 1er mars 2022. Les abonnés Business Voice actuels peuvent renouveler leurs licences Business Voice jusqu’au 30 juin 2022. <br/> <br/> Si vous êtes une petite ou moyenne entreprise, nous vous recommandons d’acheter la [licence Téléphone Teams avec forfait d’appels](../business-voice/whats-business-voice.md), si elle est disponible dans votre région. <br/> <br/> Vous pouvez également acheter une licence Teams Phone Standard qui vous permettra de vous connecter à votre fournisseur PSTN tiers préféré. |
+|**Téléphonie Microsoft 365 pour les PME** <br/> |Business Voice était le groupe de fonctionnalités vocales de Microsoft pour les petites et moyennes entreprises, mais ne sera plus disponible à l’achat à partir du 1er mars 2022. Les abonnés Business Voice actuels peuvent renouveler leurs licences Business Voice jusqu’au 30 juin 2022. <br/> <br/> Si vous êtes une petite ou moyenne entreprise, nous vous recommandons d’acheter la [licence Téléphone Teams avec forfait d’appels](../business-voice/whats-business-voice.md), si elle est disponible dans votre région. <br/> <br/> Vous pouvez également acheter une licence Téléphonie Teams standard qui vous permettra de vous connecter à votre fournisseur RTC tiers préféré. |
 |**Téléphone Teams avec offre groupée forfait d’appels** <br/> |La licence Téléphone Teams avec forfait d’appels regroupe les fonctionnalités PBX du système téléphonique Teams et un plan d’appels nationaux pour la connectivité RTC. <br/> |
-|**Teams Phone Standard** <br/> |[Le système téléphonique Teams](../what-is-phone-system-in-office-365.md) est un service téléphonique hébergé qui vous offre des fonctionnalités de contrôle des appels et d’échange de succursales privées (PBX). Les licences Teams Phone Standard vous offrent toutes les fonctionnalités du système téléphonique Teams, telles que la messagerie vocale cloud, l’ID d’appelant, le parc d’appels, le transfert des appels, les standards automatiques, les files d’attente d’appels, le transfert d’appels et l’ID d’appelant. <br/> <br/>Pour en savoir plus sur le système téléphonique, consultez [Ce que vous obtenez avec le système téléphonique Teams](../here-s-what-you-get-with-phone-system.md). <br/> |
-|**Forfaits d’appels Microsoft Teams** <br/> |Si vous souhaitez que les utilisateurs puissent appeler des numéros de téléphone en dehors de votre organisation, vous pouvez acheter des [forfaits d’appels Microsoft Teams](../calling-plans-for-office-365.md) pour vous connecter à des numéros de téléphone RTC avec Microsoft comme fournisseur RTC. Il existe des forfaits d’appels nationaux et des forfaits d’appels internationaux. <br/> <br/> Pour savoir si les forfaits d’appels Teams sont disponibles dans votre pays ou région, consultez [la disponibilité des régions et des pays pour l’audioconférence et les forfaits d’appels](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
+|**Téléphonie Teams standard** <br/> |[Le système téléphonique Teams](../what-is-phone-system-in-office-365.md) est un service téléphonique hébergé qui vous offre des fonctionnalités de contrôle des appels et d’échange de succursales privées (PBX). Téléphonie Teams standard licences vous offrent toutes les fonctionnalités du système téléphonique Teams, telles que la messagerie vocale cloud, l’ID d’appelant, le parc d’appels, le transfert d’appels, les standards automatiques, les files d’attente d’appels, le transfert d’appels et l’ID d’appelant. <br/> <br/>Pour en savoir plus sur le système téléphonique, consultez [Ce que vous obtenez avec le système téléphonique Teams](../here-s-what-you-get-with-phone-system.md). <br/> |
+|**Plans d'appel de Microsoft Teams** <br/> |Si vous souhaitez que les utilisateurs puissent appeler des numéros de téléphone en dehors de votre organisation, vous pouvez acheter [Plans d'appel de Microsoft Teams](../calling-plans-for-office-365.md) pour vous connecter à des numéros de téléphone RTC avec Microsoft comme fournisseur RTC. Il existe des forfaits d’appels nationaux et des forfaits d’appels internationaux. <br/> <br/> Pour savoir si les forfaits d’appels Teams sont disponibles dans votre pays ou région, consultez [la disponibilité des régions et des pays pour l’audioconférence et les forfaits d’appels](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
 |**Crédits de communication** | Les crédits de communication fournissent un pool mensuel de minutes qui peut également être utilisé pour les appels téléphoniques RTC, si toutes les minutes de votre forfait d’appels sont utilisées avant le début du mois suivant. Si vous souhaitez des numéros gratuits pour l’audioconférence, les standards automatiques ou les files d’attente d’appels, vous devez [configurer des crédits de communication](../set-up-communications-credits-for-your-organization.md). <br/> |
-|**Audioconférence** <br/> |Parfois, les membres de votre organisation doivent utiliser un téléphone pour appeler une réunion Teams au lieu de leur ordinateur. [Configurez l’audioconférence](../set-up-audio-conferencing-in-teams.md) pour les utilisateurs qui planifient ou dirigent des réunions avec des participants qui doivent appeler à l’aide d’un téléphone. <br/> <br/>Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Pour les informations de tarification, consultez les [Prix appliqués à l’audioconférence](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Les organisations peuvent désormais utiliser un opérateur tiers pour leurs numéros d’audioconférence. Pour plus d’informations, consultez [Plan for Operator Connect Conferencing](../operator-connect-conferencing-plan.md). <br/>|
-|**Salles Microsoft Teams** <br/> | La salle Microsoft Teams est un produit Microsoft Teams supplémentaire qui permet le partage de vidéos, audio et de contenu dans les salles de conférence. Les organisations peuvent acheter des licences autonomes Salles Microsoft Teams pour ces fonctionnalités. Pour plus d’informations, consultez [licences de salle de réunion Teams](../rooms/rooms-licensing.md). <br/>|
+|**Audioconférence** <br/> |Parfois, les membres de votre organisation doivent utiliser un téléphone pour appeler une réunion Teams au lieu de leur ordinateur. [Configurez l’audioconférence](../set-up-audio-conferencing-in-teams.md) pour les utilisateurs qui planifient ou dirigent des réunions avec des participants qui doivent appeler à l’aide d’un téléphone. <br/> <br/>Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Pour les informations de tarification, consultez les [Prix appliqués à l’audioconférence](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Les organisations peuvent désormais utiliser un opérateur tiers pour leurs numéros d’audioconférence. Pour plus d’informations, consultez [Plan for Conférence en connexion à l'opérateur](../operator-connect-conferencing-plan.md). <br/>|
+|**Salles Microsoft Teams** <br/> | La salle Microsoft Teams est un produit Microsoft Teams supplémentaire qui permet le partage de vidéos, audio et de contenu dans les salles de conférence. Les organisations peuvent acheter Salles Microsoft Teams licences autonomes pour ces fonctionnalités. Pour plus d’informations, consultez [licences de salle de réunion Teams](../rooms/rooms-licensing.md). <br/>|
 
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>Quelles sont les fonctionnalités Microsoft disponibles avec mon plan ?
 
@@ -60,7 +60,7 @@ Que vous soyez une petite entreprise, une organisation d’entreprise, un établ
   - Choisissez cette configuration si vous souhaitez que la gestion et la facturation des numéros de téléphone soient gérées par Microsoft.
   - Vérifiez si la [licence d’offre groupée Téléphone Teams avec forfait d’appels est disponible dans votre région](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- Achetez un plan E1/E3, A1/A3 ou G1/G3, ajoutez des licences **Teams Phone Standard** et choisissez un forfait d’appels autonome Microsoft ou un opérateur RTC tiers.
+- Achetez un plan E1/E3, A1/A3 ou G1/G3, ajoutez **des** licences Téléphonie Teams standard et choisissez un forfait d’appels autonome Microsoft ou un opérateur RTC tiers.
   - Ce modèle vous donnera le système téléphonique Teams, mais vous devrez toujours vous connecter au rtc.
   - Pour afficher toutes vos options de connectivité RTC, consultez les [options de connectivité RTC](../pstn-connectivity.md).
   - Pour en savoir plus sur toutes les solutions vocales, consultez [Planifier votre solution vocale Teams](../cloud-voice-landing-page.md).
@@ -81,11 +81,11 @@ Voici un résumé des licences vocales et d’appels Microsoft à acheter, en fo
 <tbody>
 <tr>
 <td>Teams Essentials (identité AAD) <br/> <br/>Tout plan Microsoft 365 incluant Teams <br/> </td>
-<td>Téléphone Teams avec licences d’offre groupée forfait d’appels <br/> <br/>ou <br/> <br/>Licences Teams Phone Standard <br/> plus <br/>Licences forfait d’appels nationaux ou forfaits d’appels internationaux <br/> </td>
-<td>Licences Teams Phone Standard <br/> </td>
+<td>Téléphone Teams avec licences d’offre groupée forfait d’appels <br/> <br/>ou <br/> <br/>licences Téléphonie Teams standard <br/> plus <br/>Licences forfait d’appels nationaux ou forfaits d’appels internationaux <br/> </td>
+<td>licences Téléphonie Teams standard <br/> </td>
 </tr>
 <tr>
-<td>Plans Microsoft 365 E5/A5/G5</td>
+<td>plans Microsoft 365 E5/A5/G5</td>
 <td>Licences forfait d’appels nationaux ou forfaits d’appels internationaux <br/> </td>
 <td></td>
 </tr>

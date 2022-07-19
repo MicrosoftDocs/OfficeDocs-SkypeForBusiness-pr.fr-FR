@@ -1,7 +1,7 @@
 ---
 title: Attribuer des licences de module complémentaire Teams aux utilisateurs
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Découvrez comment attribuer des licences de module complémentaire Teams aux utilisateurs pour des fonctionnalités telles que l’audioconférence, le système téléphonique et les forfaits d’appels.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fca8eb5acac30210e67068f9a2b1eb8dfdce3cb
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 380abec55466d831722c76c9e552055378ecf1df
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682493"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838819"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Attribuer des licences de module complémentaire Teams aux utilisateurs
 
@@ -36,13 +36,13 @@ Vous pouvez utiliser le Centre d'administration Microsoft 365 ou PowerShell pour
 
 Avant de commencer, passez en revue les exigences suivantes :
 
-- Si vous utilisez la connectivité RTC (Public Switched Telephone Network) locale pour les utilisateurs, vous devez uniquement attribuer une licence Teams Phone Standard. N’affectez PAS de licence de plan d’appel.
+- Si vous utilisez la connectivité RTC (Public Switched Telephone Network) locale pour les utilisateurs, vous n’avez qu’à attribuer une licence Téléphonie Teams standard. N’affectez PAS de licence de plan d’appel.
 
 - Après avoir affecté un plan d’appels Microsoft à un utilisateur, il peut prendre jusqu’à 24 heures avant qu’il ne voie le pavé de numérotation dans son client Teams. Si le pavé de numérotation n’est pas affiché dans les 24 heures, vérifiez la configuration de votre [pavé de numérotation](../dial-pad-configuration.md). Si nécessaire, vous pouvez également [contacter le support technique](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - Un message d’erreur s’affiche si vous n’avez pas acheté le nombre correct de licences. Si vous avez besoin d’acheter d’autres licences de forfait d’appels, choisissez l’option d’en acheter davantage.
 
-- Même si des licences Enterprise E5 sont attribuées à vos utilisateurs, vous devez toujours les connecter au RTC. Vous disposez de plusieurs [options de connectivité RTC](../pstn-connectivity.md), notamment les plans d’appel Microsoft Teams, le routage direct ou Operator Connect.
+- Même si des licences Enterprise E5 sont attribuées à vos utilisateurs, vous devez toujours les connecter au RTC. Vous disposez de plusieurs [options de connectivité RTC](../pstn-connectivity.md), notamment Plans d'appel de Microsoft Teams, le routage direct ou Operator Connect.
 
 - Une fois que vous avez attribué des licences de forfait d’appels ou de crédits de communication à vos utilisateurs, vous devez obtenir les numéros de téléphone de votre organisation, puis affecter ces numéros aux utilisateurs. Pour obtenir des instructions pas à pas, consultez [Configurer les forfaits d’appels](../set-up-calling-plans.md).
 
@@ -66,7 +66,7 @@ Voici un exemple d’utilisation d’un script pour attribuer des licences à vo
 
 1. Installez la version 64 bits de [l’Assistant Connexion Microsoft Online Services pour les professionnels de l’informatique RTW](/collaborate/connect-redirect?DownloadID=59185).
 2. Installez le module Microsoft Azure Active Directory pour Windows PowerShell :
-    1. Ouvrez une invite de commandes Windows PowerShell avec élévation de privilèges (exécutez Windows PowerShell en tant qu’administrateur).
+    1. Ouvrez une invite de commandes de Windows PowerShell avec élévation de privilèges (exécutez Windows PowerShell en tant qu’administrateur).
     2. Exécutez la commande suivante :
         ```powershell
         Install-Module MSOnline
@@ -143,7 +143,7 @@ Pour plus d’informations, consultez [Afficher les licences et les services ave
 | Microsoft 365 Business | SPB|
 | Audioconférence | MCOMEETADV |
 | Paiement par minute de l’audioconférence (paiement à l’utilisation) Nécessite la configuration et l’activation des crédits de communication.* | MCOMEETACPEA |
-| Teams Phone Standard | MCOEV |
+| Téléphonie Teams standard | MCOEV |
 | Téléphone Teams avec forfait d'appel | MCOTEAMS_ESSENTIALS |
 | Plan d’appels internationaux | MCOPSTN2 |
 | Forfait d’appels nationaux (3 000 minutes par utilisateur/mois pour les États-Unis/PR/CA, 1 200 minutes par utilisateur/mois pour les pays de l’UE) | MCOPSTN1 |

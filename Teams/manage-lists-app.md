@@ -1,9 +1,9 @@
 ---
 title: Gérer l’application Lists pour votre organisation dans Teams
-author: mkbond007
-ms.author: mabond
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: anach,v-jasuk
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 6c756fcdf8251bc2b468be1f89c98b1f069a1779
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: efb9f2ce1f96dbddef049166e34fd999a5ed987e
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646493"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842230"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Lists pour votre organisation dans Microsoft Teams
 
@@ -60,7 +60,7 @@ Un bureau de poste local est responsable du tri et de la livraison du courrier d
 
 Après la réunion, les facteurs récupèrent leur courrier et commencent leur itinéraire de livraison. Des incidents peuvent survenir le long d’un itinéraire, par exemple, un accident de voiture, un problème lié à un chien ou une manifestation. Lorsque les facteurs rencontrent un incident, ils utilisent Teams sur leurs appareils mobiles pour enregistrer les détails de l’incident, qui sont suivis dans une liste dans le canal d’équipe. Tous les membres de l’équipe, y compris les facteurs sur le terrain, peuvent consulter ces informations et rester informés.
 
-Avant de passer à Teams, les transporteurs de courrier devaient retourner au bureau de poste pour remplir un formulaire de copie papier pour signaler un incident, qui a ensuite été entré dans une feuille de calcul Excel. Teams offre aux facteurs une expérience, en priorité sur mobile, dans laquelle ils peuvent utiliser Lists pour signaler les incidents sur le terrain quand ils se produisent, partager les détails des incidents avec les membres de l’équipe, avoir des conversations à leur sujet sur le canal et résoudre des incidents.
+Avant de passer à Teams, les transporteurs de courrier devaient retourner au bureau de poste pour remplir un formulaire de copie en dur pour signaler un incident, qui a ensuite été entré dans une feuille de calcul Excel. Teams offre aux facteurs une expérience, en priorité sur mobile, dans laquelle ils peuvent utiliser Lists pour signaler les incidents sur le terrain quand ils se produisent, partager les détails des incidents avec les membres de l’équipe, avoir des conversations à leur sujet sur le canal et résoudre des incidents.
 
 ## <a name="what-you-need-to-know-about-lists"></a>Ce que vous devez savoir sur les Lists
 
@@ -95,7 +95,7 @@ Si les utilisateurs de votre organisation ont créé des listes à l’aide de l
 
 Lists est activé par défaut pour tous les utilisateurs Teams de votre organisation. Vous pouvez désactiver ou activer l’application au niveau de l’organisation sur la page [Gérer les applications](manage-apps.md) dans le centre d’administration Microsoft Teams.
 
-1. Dans le volet gauche du centre d’administration Microsoft Teams, accédez à **Teams applications** **AppsManage** > .
+1. Dans le volet gauche du Centre d’administration Microsoft Teams, accédez à **Applications Teams** > **Gérer les applications**.
 2. Effectuez l’une des opérations suivantes :
 
     - Pour désactiver Listes pour votre organisation, recherchez l’application Listes, sélectionnez-la, puis **sélectionnez Bloquer**.

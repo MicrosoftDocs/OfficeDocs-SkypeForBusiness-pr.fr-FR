@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b508b368629ce716a1269380eb1fffe2137620c8
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: 0a2af1aae614763432ce0c856c9bad12fc7bceef
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647646"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838809"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exporter du contenu avec les API d’exportation Microsoft Teams
 
@@ -43,7 +43,7 @@ Voici quelques exemples sur la façon dont vous pouvez utiliser ces API d’expo
 - **Environnement hybride :** Les API d’exportation prennent en charge les messages envoyés par les utilisateurs approvisionnés sur un environnement hybride (Exchange et Teams locaux). Tous les messages envoyés par les utilisateurs configurés pour un environnement hybride seront accessibles à l’aide des API Export.
 - **Messages supprimés par l’utilisateur :** Les messages supprimés par les utilisateurs du client Teams sont accessibles à l’aide des API d’exportation jusqu’à 21 jours à partir du moment de la suppression.
 - **Pièces jointes de message :** Les API d’exportation incluent les liens vers les pièces jointes envoyées dans le cadre des messages. À l’aide des API d’exportation, vous pouvez récupérer les fichiers joints dans les messages.
-- **Réactions:** Les API d’exportation prennent en charge les réactions initées par un utilisateur sur un message Teams. Les réactions actuellement prises en charge sont le cœur, la colère, comme, triste, surpris, et rire.
+- **Réactions:** Les API d’exportation prennent en charge les réactions lancées par un utilisateur sur un message Teams. Les réactions actuellement prises en charge sont le cœur, la colère, comme, triste, surpris, et rire.
 - **Propriétés du message de conversation :** Reportez-vous à la liste complète des propriétés prises en charge par les API d’exportation Teams [ici](/graph/api/resources/chatmessage#properties).
 
 

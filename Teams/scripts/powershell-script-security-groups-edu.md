@@ -1,13 +1,13 @@
 ---
 title: Exemple de script PowerShell - Créer des groupes de sécurité pour les enseignants et les étudiants de votre établissement scolaire
-author: serdars
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: Utilisez ce script PowerShell pour créer les groupes de sécurité dont vous avez besoin pour gérer Teams stratégies pour les enseignants et les étudiants de votre établissement scolaire.
+description: Utilisez ce script PowerShell pour créer les groupes de sécurité dont vous avez besoin pour gérer les stratégies Teams pour les enseignants et les étudiants de votre établissement scolaire.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f46bd50e47640c575489788ccd3e5db0ce778564
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 99c4e10cc37513323eb3dcfb8159977b269a667d
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681545"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838789"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Exemple de script PowerShell - Créer des groupes de sécurité pour les enseignants et les étudiants de votre établissement scolaire
 
-Utilisez ce script PowerShell pour créer les groupes de sécurité dont vous avez besoin pour gérer Microsoft Teams stratégies dans votre établissement scolaire. La [fonctionnalité d’attribution de stratégie aux groupes](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) dans Teams vous permet d’affecter une stratégie à un groupe d’utilisateurs, tel qu’un groupe de sécurité. L’affectations de stratégie est propagée aux membres du groupe en fonction de règles de priorité. Lorsque les membres sont ajoutés à un groupe ou supprimés de ceux-ci, leurs affectations de stratégie héritées sont mises à jour en conséquence.
+Utilisez ce script PowerShell pour créer les groupes de sécurité dont vous avez besoin pour gérer les stratégies Microsoft Teams dans votre établissement scolaire. La [fonctionnalité d’attribution de stratégie aux groupes](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) dans Teams vous permet d’affecter une stratégie à un groupe d’utilisateurs, tel qu’un groupe de sécurité. L’affectations de stratégie est propagée aux membres du groupe en fonction de règles de priorité. Lorsque les membres sont ajoutés à un groupe ou supprimés de ceux-ci, leurs affectations de stratégie héritées sont mises à jour en conséquence.
 
 Ce script PowerShell crée deux groupes de sécurité, l’un pour le personnel enseignant et l’autre pour les étudiants de votre école, en fonction du type de licence. Vous pouvez ensuite affecter des stratégies aux groupes de sécurité que vous avez créés. Pour plus d’informations sur l’utilisation de ce script, consultez [Affecter des stratégies à de grands ensembles d’utilisateurs dans votre établissement scolaire](../batch-group-policy-assignment-edu.md).
 
@@ -34,7 +34,7 @@ Ce script effectue les opérations suivantes :
 
 - Identifie le personnel et les enseignants auxquels une référence SKU de faculté est attribuée, crée un groupe de sécurité, puis ajoute le personnel et les enseignants au groupe.
 - Identifie les étudiants auxquels une référence SKU d’étudiant est attribuée, crée un groupe de sécurité, puis ajoute les étudiants au groupe.
-- Met à jour l’appartenance de chaque groupe de sécurité pour ajouter ou supprimer du personnel, des enseignants et des étudiants selon qu’ils disposent d’une licence.
+- Mises à jour l’appartenance de chaque groupe de sécurité pour ajouter ou supprimer du personnel, des enseignants et des étudiants selon qu’ils disposent d’une licence.
 
 Vous devez exécuter ce script régulièrement pour maintenir les groupes de sécurité à jour.
 
@@ -45,7 +45,7 @@ Vous devez exécuter ce script régulièrement pour maintenir les groupes de sé
 
 Téléchargez et installez le [module PowerShell Skype Entreprise Online](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell), puis redémarrez votre ordinateur si vous y êtes invité.
 
-Pour plus d’informations, consultez [Gérer Skype Entreprise Online avec Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) et [Teams vue d’ensemble de PowerShell](../teams-powershell-overview.md).
+Pour plus d’informations, consultez [Gérer Skype Entreprise Online avec Office 365](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) vue d’ensemble de PowerShell et [Teams PowerShell](../teams-powershell-overview.md).
 
 
 ## <a name="sample-script"></a>Exemple de script

@@ -3,6 +3,51 @@
 
 
 
+## <a name="week-of-july-11-2022"></a>Semaine du 11 juillet 2022
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 7/13/2022 | [Musique en attente](/MicrosoftTeams/music-on-hold) | modifié |
+| 7/14/2022 | [Planifier la passerelle SIP](/MicrosoftTeams/sip-gateway-plan) | modifié |
+| 7/15/2022 | [Notes de publication pour Salles Microsoft Teams (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | modifié |
+| 7/15/2022 | [Packages de stratégie Teams pour les travailleurs de première ligne](/MicrosoftTeams/policy-packages-flw) | ajouté |
+| 7/15/2022 | [Gérer l’application Approbations dans Microsoft Teams](/MicrosoftTeams/approval-admin) | modifié |
+| 7/15/2022 | [Gérer l’application Bookings dans Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | modifié |
+| 7/15/2022 | Déployer des équipes à grande échelle pour les employés de première ligne dans Microsoft Teams | supprimé |
+| 7/15/2022 | Rendez-vous virtuels avec Microsoft Teams et l’application Bookings | supprimé |
+| 7/15/2022 | Gérer l’expérience de jointure pour les rendez-vous virtuels Teams sur les navigateurs | supprimé |
+| 7/15/2022 | [Développer Microsoft Teams au sein de votre organisation](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | modifié |
+| 7/15/2022 | Rendez-vous virtuels avec Teams - Intégration à Cerner EHR | supprimé |
+| 7/15/2022 | Rapport de Rendez-vous virtuels du connecteur DSE Microsoft Teams | supprimé |
+| 7/15/2022 | Rendez-vous virtuels avec Teams - Intégration à Epic EHR | supprimé |
+| 7/15/2022 | Délégation de messages | supprimé |
+| 7/15/2022 | Messagerie sécurisée pour les organismes de santé utilisant Microsoft Teams | supprimé |
+| 7/15/2022 | Prise en main de Teams pour les organismes de santé | supprimé |
+| 7/15/2022 | Simplifier les processus métier dans les environnements de vente au détail | supprimé |
+| 7/15/2022 | Collaboration entre équipes commerciales | supprimé |
+| 7/15/2022 | Shifts pour Teams | supprimé |
+| 7/15/2022 | Gérer l’accès par équipe pour les travailleurs de première ligne dans Teams | supprimé |
+| 7/15/2022 | [Gérer l’application Plannings pour votre organisation dans Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modifié |
+| 7/15/2022 | Gérer les propriétaires de planification pour la gestion des décalages | supprimé |
+| 7/15/2022 | Utiliser PowerShell pour connecter Shifts à Blue Yonder Workforce Management | supprimé |
+| 7/15/2022 | Utilisez PowerShell pour gérer votre connexion Shifts à Blue Yonder Workforce Management | supprimé |
+| 7/15/2022 | Utilisez l’Assistant Connecteur Shifts pour connecter Shifts à Blue Yonder Workforce Management | supprimé |
+| 7/15/2022 | Majs connecteurs | supprimé |
+| 7/15/2022 | Teams pour la vente au détail | supprimé |
+| 7/15/2022 | Aider vos clients et clients à utiliser des rendez-vous virtuels | supprimé |
+| 7/15/2022 | [Démarrer avec Teams pour employés de première ligne](/MicrosoftTeams/flw-landing-page) | modifié |
+| 7/15/2022 | Comprendre les types d’utilisateurs et les licences des employés en ligne | supprimé |
+| 7/15/2022 | Utilisez l’Assistant Intégration des employés de première ligne pour votre personnel de première ligne soit opérationnel | supprimé |
+| 7/15/2022 | Guide de démarrage rapide du Worker de première ligne | supprimé |
+| 7/15/2022 | Gérer la version d’évaluation en première ligne dans Teams | supprimé |
+| 7/15/2022 | Personnaliser les applications Teams pour vos employés de première ligne | supprimé |
+| 7/15/2022 | [Packages de stratégie Teams pour la santé publique](/MicrosoftTeams/policy-packages-healthcare) | modifié |
+| 7/15/2022 | Rapport d’utilisation des visites virtuelles Microsoft Teams | supprimé |
+| 7/15/2022 | [Exemple de script PowerShell - Exporter les gestionnaires et leurs rapports directs](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-export-managers) | modifié |
+| 7/15/2022 | [Exemple de script PowerShell - Créer des équipes de gestionnaires de personnes](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-new-teams) | modifié |
+
+
 ## <a name="week-of-july-04-2022"></a>Semaine du 4 juillet 2022
 
 
@@ -90,22 +135,3 @@
 | 6/16/2022 | [Planifier les standards automatiques teams et les files d’attente d’appels](/MicrosoftTeams/plan-auto-attendant-call-queue) | modifié |
 | 6/16/2022 | [Charger vos applications personnalisées dans le Centre d’administration Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | modifié |
 | 6/16/2022 | [Gérer les stratégies de réunion pour les participants et les invités](/MicrosoftTeams/meeting-policies-participants-and-guests) | modifié |
-
-
-## <a name="week-of-june-06-2022"></a>Semaine du 6 juin 2022
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 6/6/2022 | [Gérer l’accès aux applications Teams dans Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | modifié |
-| 6/7/2022 | [Gérer l’application Mises à jour pour votre organisation](/MicrosoftTeams/manage-updates-app) | modifié |
-| 6/7/2022 | [Déployer des équipes à grande échelle pour les employés de première ligne dans Microsoft Teams](/MicrosoftTeams/deploy-teams-at-scale) | ajouté |
-| 6/8/2022 | [Autoriser les appareils salles Teams à participer à des réunions tierces](/MicrosoftTeams/rooms/third-party-join) | modifié |
-| 6/9/2022 | [Comportement des applications Teams en fonction des types d’utilisateurs](/MicrosoftTeams/non-standard-users) | modifié |
-| 6/9/2022 | [Configurer la licence Common Area Phone](/MicrosoftTeams/set-up-common-area-phones) | modifié |
-| 6/9/2022 | [Créer une file d’attente des appels dans Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
-| 6/9/2022 | [Configurer les crédits de communication pour votre organisation](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modifié |
-| 6/10/2022 | [Extension d’application mobile](/MicrosoftTeams/rooms/extended-mobile-app) | ajouté |
-| 6/10/2022 | [Déployer des équipes à grande échelle pour les employés de première ligne dans Microsoft Teams](/MicrosoftTeams/deploy-teams-at-scale) | modifié |
-| 6/10/2022 | [Passer des licences Business Voice à Teams Phone](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | ajouté |
-| 6/10/2022 | [Autoriser les appareils salles Teams à participer à des réunions tierces](/MicrosoftTeams/rooms/third-party-join) | modifié |

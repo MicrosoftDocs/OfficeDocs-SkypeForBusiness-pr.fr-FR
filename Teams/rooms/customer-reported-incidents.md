@@ -2,7 +2,7 @@
 title: Salles Microsoft Teams incidents signalés par le client
 author: donnah007
 ms.author: v-donnahill
-ms.date: 06/27/2022
+ms.date: 07/08/2022
 manager: serdars
 ms.reviewer: dstrome
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Les partenaires/clients peuvent fermer manuellement les incidents et garantir des rapports précis sur l’intégrité de la salle dans MTRP.
-ms.openlocfilehash: 3f765627e2d18d52a6b3db8abbdd2ad59cee7019
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: f28462c6fab02a2a6b8e7db00b1f89ff30b80da1
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494649"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842303"
 ---
 # <a name="customer-reported-incident-tickets"></a>Tickets d’incident signalés par le client
 
@@ -31,6 +31,11 @@ Pour tout type d’incident que Microsoft n’a pas signalé, ou pour toute ques
 ![capture d’écran de l’incident Incidents->Report](../media/customer-reported-incidents-001.png)
 
 Dans le champ Description, décrivez le mieux possible le problème avec lequel vous avez besoin d’aide de Microsoft. Vous pouvez ajouter une ou plusieurs salles.
+
+Vérifiez  **l’impact élevé** si l’incident est à l’origine d’une dégradation importante de l’intégrité du service ou d’une pièce critique. Pour aider Microsoft à hiérarchiser correctement votre demande, décrivez en détail la raison pour laquelle il s’agit d’un impact élevé.
+
+> [!NOTE]
+> N’utilisez pas ce champ pour les questions générales, les salles et/ou les problèmes qui n’ont pas d’atténuation disponible.
 
 ![capture d’écran des salles de rapport d’incident affectées](../media/customer-reported-incidents-002.png)
 

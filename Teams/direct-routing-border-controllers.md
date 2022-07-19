@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez quels contrôleurs de frontière de session (SBC) ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb4363fec70a7bcf139929541a7dfe3686089937
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 3a0db349d1e828a238a6b7a68d8f005e7389182b
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823546"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838849"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -178,3 +178,6 @@ Le tableau suivant répertorie les appareils vérifiés pour l’interopérabili
 Notez la certification accordée à une version majeure. Cela signifie que le microprogramme avec n’importe quel nombre dans le microprogramme SBC suivant la version principale est pris en charge.
 
 Pour fournir des commentaires sur Teams, par exemple des idées de nouvelles fonctionnalités, consultez le [portail de commentaires de Microsoft](https://feedbackportal.microsoft.com/).
+
+> [!NOTE]
+> Le nouveau ciblage multimédia n’est pas pris en charge. Lors d’un appel Routage direct, si le SBC envoie une nouvelle adresse IP multimédia au Routage direct Teams, bien qu’il soit négocié dans la signalisation SIP, le multimédia n’est jamais envoyé à la nouvelle adresse IP à partir du Routage direct Teams.
