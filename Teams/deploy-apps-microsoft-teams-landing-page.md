@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: f802506ff815745aaf555501e37171ebddfc7f91
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 24115de31c06c38ff1f0217868cf19993aa24555
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615860"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838859"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>À propos des applications dans Microsoft Teams
 
@@ -83,9 +83,15 @@ Les développeurs peuvent charger une application pour la mettre à la dispositi
 
 Si vous interdisez le chargement indépendant, les développeurs peuvent toujours tester leurs applications dans un [locataire de test](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Une fois le développement d’applications personnalisées terminé, les développeurs demandent aux administrateurs de distribuer leur application personnalisée aux utilisateurs finaux. Pour plus d’informations, consultez [comment publier une application personnalisée](/microsoftteams/upload-custom-apps). En tant qu’administrateur, vous pouvez autoriser ou interdire l’utilisation d’une application personnalisée pour des utilisateurs spécifiques.
 
-### <a name="about-app-templates"></a>À propos des modèles d’application
+## <a name="about-app-templates"></a>À propos des modèles d’application
 
-Les modèles d’application pour Teams sont des exemples d’applications fonctionnels prêts pour la production créés par Microsoft pour illustrer les cas d’usage courants, présenter les meilleures pratiques de développement d’applications et fournir des applications open source que les développeurs peuvent étendre pour créer des applications personnalisées. Les développeurs de votre organisation personnalisent les modèles d’application pour les besoins de votre organisation en modifiant simplement le code disponible dans GitHub. En tant qu’administrateur, vous fournissez ces applications en tant qu’applications personnalisées pour vos utilisateurs finaux.
+Les modèles d’application pour Teams sont des exemples d’applications fonctionnelles et prêtes pour la production créés par Microsoft pour obtenir les éléments suivants :
+
+* Illustrer des cas d’utilisation courants
+* Présenter les meilleures pratiques de développement d’applications
+* Fournir des applications open source que les développeurs peuvent étendre pour créer des applications personnalisées
+
+Les développeurs de votre organisation personnalisent les modèles d’application en modifiant simplement le code disponible dans GitHub. Vous fournissez ces applications en tant qu’applications personnalisées pour vos utilisateurs finaux afin de répondre aux besoins de toute organisation.
 
 Pour en savoir plus, consultez [Modèles d’application Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
