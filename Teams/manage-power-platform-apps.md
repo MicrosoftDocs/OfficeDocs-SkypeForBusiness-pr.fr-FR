@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment gérer l’accès aux applications personnalisées créées à l’aide de Microsoft Power Platform dans le Centre d’administration Teams.
-ms.openlocfilehash: bf75d65f9ebc84ec836dd64839b3e6178d828867
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 85aa9904b22dd03e1056b353bf91904909c11f59
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240523"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880258"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Gérer les applications Microsoft Power Platform dans le Centre d’administration Teams
 
@@ -39,7 +39,7 @@ Les applications Microsoft Power Platform créées par les développeurs de votr
 
 Lorsqu’une application Microsoft Power Platform est créée ou partagée, les utilisateurs peuvent l’afficher et l’installer sur la page Applications en accédant à **Built with Power Platform**. (L’affichage de l’application ici peut prendre quelques minutes après la création ou le partage d’une application.)
 
-:::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Captures d’écran de la page Applications, montrant les applications Microsoft Power Platform répertoriées dans Built with Power Platform":::
+:::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Captures d’écran de la page Applications, montrant les applications Microsoft Power Platform répertoriées dans Built with Power Platform.":::
 
 Les utilisateurs finaux voient une application dans **Built with Power Platform** si l’application remplit l’une des conditions suivantes.
 
@@ -69,10 +69,10 @@ Par défaut, **Shared Power Apps** et **Shared Power Virtual Agent Apps** sont a
 1. Dans le volet gauche du Centre d’administration Microsoft Teams, accédez à **Applications Teams** > **Gérer les applications**. Vous devez être administrateur général ou administrateur du service Teams pour accéder à la page.
 2. Dans la liste des applications, effectuez l’une des opérations suivantes.
 
-    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="Capture d’écran de la page Gérer les applications, montrant les applications Microsoft Power Platform partagées":::
+    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="Capture d’écran de la page Gérer les applications, montrant les applications Microsoft Power Platform partagées.":::
 
-    - Pour bloquer les applications créées dans Power Apps ou Power Virtual Agents pour tous les utilisateurs de votre organisation, recherchez **Shared Power Apps** ou **Shared Power Virtual Agent Apps**, sélectionnez-la, puis cliquez sur **Bloquer**.
-    - Pour autoriser les applications créées dans Power Apps ou Power Virtual Agents pour tous les utilisateurs de votre organisation, recherchez **Shared Power Apps** ou **Shared Power Virtual Agent Apps**, sélectionnez-la, puis cliquez sur **Autoriser**.
+    * Pour bloquer les applications créées dans Power Apps ou Power Virtual Agents pour tous les utilisateurs de votre organisation, recherchez **Shared Power Apps** ou **Shared Power Virtual Agent Apps**, sélectionnez-la, puis sélectionnez **Bloquer**.
+    * Pour autoriser les applications créées dans Power Apps ou Power Virtual Agents pour tous les utilisateurs de votre organisation, recherchez **Shared Power Apps** ou **Shared Power Virtual Agent Apps**, sélectionnez-la, puis **sélectionnez Autoriser**.
 
 ### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>Autoriser ou bloquer des applications Microsoft Power Platform pour des utilisateurs spécifiques
 
@@ -91,10 +91,10 @@ Vous pouvez utiliser les journaux d’audit de Teams pour examiner les événeme
 > [!NOTE]
 > Vous pouvez exporter des enregistrements d’audit au format CSV pour faciliter le filtrage.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-articles"></a>Articles connexes
 
-- [Partager une application canevas dans Power Apps](/powerapps/maker/canvas-apps/share-app)
-- [Partager votre bot avec d’autres utilisateurs](/power-virtual-agents/admin-share-bots)
-- [Gérer les applications dans le Centre d’administration Microsoft Teams](manage-apps.md)
-- [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)
-- [Publier une application personnalisée envoyée via l’API de soumission d’application Teams](submit-approve-custom-apps.md)
+* [Partager une application canevas dans Power Apps](/powerapps/maker/canvas-apps/share-app)
+* [Partager votre bot avec d’autres utilisateurs](/power-virtual-agents/admin-share-bots)
+* [Gérer les applications dans le Centre d’administration Microsoft Teams](manage-apps.md)
+* [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)
+* [Publier une application personnalisée envoyée via l’API de soumission d’application Teams](submit-approve-custom-apps.md)

@@ -22,21 +22,21 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 description: Découvrez comment l’audioconférence dans Microsoft 365 ou Office 365 permet aux utilisateurs d’appeler des réunions à partir de leur téléphone.
-ms.openlocfilehash: 11e1e493db38b5e830b3334f659d23f86b6b56ba
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+ms.openlocfilehash: 1a03faf129a40d61605474e95c759067ce20841e
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016998"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884903"
 ---
 # <a name="audio-conferencing-policy-settings-for-toll-and-toll-free-numbers"></a>Paramètres de stratégie d’audioconférence pour les numéros payants et gratuits
 
-## <a name="teams-audio-conferencing-policy"></a>Teams stratégie d’audioconférence
+## <a name="teams-audio-conferencing-policy"></a>Stratégie d’audioconférence Teams
 
-Utilisez des stratégies d’audioconférence pour gérer les numéros payants et gratuits d’audioconférence à afficher dans les invitations aux réunions créées par les utilisateurs au sein de votre organisation. Vous pouvez utiliser l’une des deux stratégies créées automatiquement ou créer et affecter des stratégies personnalisées. Les deux stratégies créées automatiquement sont globales (par défaut à l’échelle de l’organisation) et AllowTollFreeDialinFalse (affectées à tous les utilisateurs existants au sein de l’organisation qui ne sont pas activés pour les numéros de numérotation gratuits). Vous gérez les stratégies d’audioconférence dans le centre d’administration Microsoft Teams ou à l’aide de [PowerShell](teams-powershell-overview.md).
+Utilisez des stratégies d’audioconférence pour gérer les numéros payants et gratuits d’audioconférence à afficher dans les invitations aux réunions créées par les utilisateurs au sein de votre organisation. Vous pouvez utiliser l’une des deux stratégies créées automatiquement ou créer et affecter des stratégies personnalisées. Les deux stratégies créées automatiquement sont globales (par défaut à l’échelle de l’organisation) et AllowTollFreeDialinFalse (affectées à tous les utilisateurs existants au sein de l’organisation qui ne sont pas activés pour les numéros de numérotation gratuits). Vous gérez les stratégies d’audioconférence dans le Centre d’administration Microsoft Teams ou à l’aide de [PowerShell](teams-powershell-overview.md).
 
-- Le paramètre AllowTollFreeDialin ne peut plus être géré pour un utilisateur individuel via Teams centre d’administration ou PowerShell. Les administrateurs de locataires pourront uniquement gérer ce paramètre via la nouvelle stratégie d’audioconférence.
-- La stratégie globale ne peut pas être modifiée à partir du centre d’administration Teams.
+- Le paramètre AllowTollFreeDialin ne peut plus être géré pour un utilisateur individuel via le Centre d’administration Teams ou PowerShell. Les administrateurs de locataires pourront uniquement gérer ce paramètre via la nouvelle stratégie d’audioconférence.
+- La stratégie globale ne peut pas être modifiée à partir du Centre d’administration Teams.
 
 Lorsqu’une stratégie d’audioconférence Teams est activée dans le locataire, deux stratégies créées automatiquement sont disponibles dans le locataire. Les deux stratégies créées automatiquement et leurs paramètres par défaut sont les suivants :
 
@@ -64,7 +64,7 @@ Par exemple, si un utilisateur basé en Allemagne a un numéro de téléphone pa
 
 Vue d’ensemble des étapes :
 
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à Réunions > Audioconférence.
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à Réunions > Audioconférence.
 1. Sélectionnez Ajouter.
 1. Entrez le nom et la description de la stratégie. Le nom ne peut pas contenir de caractères spéciaux et ne doit pas dépasser 64 caractères.
 1. Sélectionnez les paramètres de votre choix.
@@ -76,7 +76,7 @@ Cela garantit que les numéros de téléphone que vous avez sélectionnés pour 
 
 ### <a name="step-by-step-instructions-on-creating-a-custom-policy-based-on-the-example"></a>Instructions pas à pas sur la création d’une stratégie personnalisée basée sur l’exemple
 
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à la **conférence** **MeetingsAudio** > .
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **l’audioconférence** **Réunions** > .
 2. Sélectionnez **Ajouter**.
 3. Entrez le nom et la description de la stratégie. Le nom ne peut pas contenir de caractères spéciaux et ne doit pas dépasser 64 caractères.
 4. Choisissez d’inclure ou non des numéros gratuits dans les réunions créées par les utilisateurs de cette stratégie. La définition de cette option **sur Activé** vous permet d’ajouter des numéros de téléphone gratuits dans cette stratégie.
@@ -94,9 +94,9 @@ Cela garantit que les numéros de téléphone que vous avez sélectionnés pour 
 
 ## <a name="edit-a-meeting-policy"></a>Modifier une stratégie de réunion
 
-Vous pouvez modifier toutes les stratégies personnalisées que vous créez. (Notez que la stratégie globale ne peut pas être modifiée à partir du centre d’administration Teams)
+Vous pouvez modifier toutes les stratégies personnalisées que vous créez. (Notez que la stratégie globale ne peut pas être modifiée à partir du Centre d’administration Teams)
 
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à la **conférence** **MeetingsAudio** > .
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **l’audioconférence** **Réunions** > .
 1. Choisissez la stratégie à modifier en sélectionnant à gauche du nom de la stratégie, puis en sélectionnant **Modifier**.
 1. Apportez des modifications.
 1. Sélectionnez **Enregistrer**.
@@ -116,6 +116,9 @@ Pour en savoir plus sur les différentes façons d’affecter des stratégies au
 > [!NOTE]
 > Un utilisateur ne peut se faire attribuer qu’une seule stratégie d’audioconférence à la fois.
 
+> [!IMPORTANT]
+> Jusqu’à 24 heures peuvent être nécessaires pour que les numéros de téléphone attribués s’affichent sur votre invitation à la réunion. Si vous ne voyez pas les numéros mis à jour s’afficher, patientez au moins 24 heures avant de contacter le support technique.
+
 ### <a name="known-issue"></a>Problème connu
 
-Lorsque vous démarrez une réunion à l’aide de l’option **Répondre maintenant** à partir de Microsoft Teams > Calendrier > Meet Mow, si vous sélectionnez ensuite les points de suspension ... option de menu, puis Informations de réunion, il y aura un problème avec la partie inférieure de la section sous **Ou appeler (audio uniquement).** Tous les numéros de téléphone définis dans la stratégie s’affichent, mais l’alignement des numéros rend la lecture difficile.
+Lorsque vous démarrez une réunion à l’aide de l’option **Meet now** de Microsoft Teams > Calendar > Meet Mow, si vous sélectionnez ensuite les points de suspension ... option de menu, puis Informations de réunion, il y aura un problème avec la partie inférieure de la section sous **Ou appeler (audio uniquement).** Tous les numéros de téléphone définis dans la stratégie s’affichent, mais l’alignement des numéros rend la lecture difficile.

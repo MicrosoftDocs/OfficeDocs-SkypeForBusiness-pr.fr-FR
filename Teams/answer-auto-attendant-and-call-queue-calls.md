@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1a9058dbd583c9d795d04f27b43995c75095e80d
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: fb621661ab8b5b8ace8a965e77513cd72966cf23
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647666"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880368"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
 
@@ -49,7 +49,7 @@ Une fois qu’un standard automatique ou un appel de file d’attente d’appels
 > [!NOTE] 
 > Les appels de file d’attente d’appels ne sont pas transférés en fonction de la configuration des règles de réponse aux appels de l’utilisateur. Cela permet de s’assurer que les appelants restent dans la file d’attente jusqu’à ce qu’un agent puisse répondre à l’appel et que l’appelant ne soit pas transféré de manière inattendue.
 >
-> Les utilisateurs recevant des appels de standards automatiques et de files d’attente d’appels ne seront présentés avec le nom de l’appelant que s’il est fourni à partir du RTC ou si le numéro de l’appelant correspond aux contacts clients de l’équipe locale de l’utilisateur cible.
+> Les utilisateurs qui reçoivent des appels à partir de files d’attente d’appels ne reçoivent le nom de l’appelant que s’ils sont fournis à partir du RTC ou si le numéro de l’appelant correspond aux contacts clients de l’équipe locale de l’utilisateur cible.
 >
 > Les agents ne sont pas avertis des appels manqués ou des messages vocaux pour les appels de file d’attente d’appels.
 

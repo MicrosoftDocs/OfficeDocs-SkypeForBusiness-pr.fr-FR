@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Découvrez comment configurer la Conférence rendez-vous ou l’Audioconférence pour les membres de votre entreprise qui doivent utiliser un téléphone pour participer à des téléconférences. '
-ms.openlocfilehash: 2098ec90223ec7242f24368f2b6dc7687d3370fd
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+ms.openlocfilehash: 701c1b4826a52400d91d18d4aa26f11aac07d266
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016636"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884833"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurer l’audioconférence pour Microsoft Teams
 
@@ -109,7 +109,10 @@ Reportez-vous à [Définir les numéros de téléphone inclus dans les invitatio
 Si vous avez besoin de plus de détails, consultez [Sélectionner Microsoft en tant que fournisseur d’audioconférences](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
 > [!NOTE]
-> Vous pouvez également définir des numéros de téléphone en les ajoutant à *TeamsAudioconferencingpolicy et en affectant* la stratégie à vos utilisateurs. Les numéros de téléphone payants et gratuits ajoutés à la stratégie sont prioritaires sur les numéros de téléphone définis individuellement pour les utilisateurs via le volet des paramètres d’audioconférence. Si aucun numéro de téléphone n’est ajouté à *Teamsaudioconferencingpolicy*, le numéro de téléphone défini individuellement pour les utilisateurs via le volet des paramètres d’audioconférence s’affiche dans Microsoft Teams demandes de réunion. [Les paramètres de stratégie d’audioconférence pour les numéros payants et gratuits](audio-conferencing-toll-free-numbers-policy.md) contiennent plus d’informations.
+> Vous pouvez également définir des numéros de téléphone en les ajoutant à *TeamsAudioconferencingpolicy et en affectant* la stratégie à vos utilisateurs. Les numéros de téléphone payants et gratuits ajoutés à la stratégie sont prioritaires sur les numéros de téléphone définis individuellement pour les utilisateurs via le volet des paramètres d’audioconférence. Si aucun numéro de téléphone n’est ajouté à *teamsaudioconferencingpolicy*, le numéro de téléphone défini individuellement pour les utilisateurs via le volet des paramètres d’audioconférence s’affiche dans les demandes de réunion Microsoft Teams. [Les paramètres de stratégie d’audioconférence pour les numéros payants et gratuits](audio-conferencing-toll-free-numbers-policy.md) contiennent plus d’informations.
+
+> [!IMPORTANT]
+> Jusqu’à 24 heures peuvent être nécessaires pour que les numéros de téléphone attribués s’affichent sur votre invitation à la réunion. Si vous ne voyez pas les numéros mis à jour s’afficher, patientez au moins 24 heures avant de contacter le support technique.
 
 ## <a name="step-8-set-up-meeting-invitations-optional"></a>Étape 8 : Configuration des invitations aux réunions (facultatif)
 

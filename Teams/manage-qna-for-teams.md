@@ -15,22 +15,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 description: Découvrez comment les administrateurs informatiques peuvent configurer, utiliser et gérer Q&A dans Teams Q&A pour une approche structurée de la collecte des questions, de l’organisation des discussions, de la suppression de messages individuels, de l’utilisation des langues disponibles et de la compréhension du cycle de vie des données, ainsi que des stratégies de rétention et de suppression des données.
-ms.openlocfilehash: 387f66967a4448ff15374d6765e10ae25a72d7c0
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: 3ffdc4f48c43bef2d1d342983a63612c91bc40a9
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713442"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880428"
 ---
 # <a name="manage-qa-in-teams-meetings"></a>Gérer les réunions Q&A dans Teams
 
-Q&A permet aux présentateurs de répondre en temps réel aux questions des participants. Cette fonctionnalité est idéale pour les réunions structurées de grande taille, telles que les assemblées générales, les webinaires, toutes les mains et les formations.
+Q&A permet aux présentateurs de répondre aux questions des participants en temps réel. Cette fonctionnalité est idéale pour les réunions structurées de grande taille, telles que les assemblées générales, les webinaires, toutes les mains et les formations.
 
 Cet article explique comment gérer Q&A et les stratégies au niveau de l’utilisateur, qui déterminent si un organisateur peut activer teams Q&A dans leurs réunions.
-
-> [!NOTE]
-> Cette fonctionnalité est actuellement en préversion privée et n’est pas accessible publiquement. Si vous souhaitez participer au programme de préversion privée, inscrivez-vous [ici.](https://m365crmedu.powerappsportals.com/LMSSignup/)
-
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -47,12 +43,12 @@ Q&A peut être utilisé par les types d’utilisateurs suivants :
 - Utilisateur fédéré : utilisateur disposant d’informations d’identification Microsoft 365 pour un autre locataire.
 - Utilisateur invité : tous les invités que vous ajoutez à votre Microsoft Teams, SharePoint ou Azure Active Directory.
 
-Lorsque les administrateurs activent Q&A, les utilisateurs dotés du rôle organisateur peuvent activer Q&A lors de la création ou de la mise à jour des réunions. Par le biais des options de réunion Teams et Outlook, les organisateurs peuvent également supprimer Q&A des réunions où il a été ajouté précédemment pour empêcher les participants d’utiliser la fonctionnalité.
+> [!NOTE]
+> Q&A ne sera pas disponible pour afficher uniquement les participants qui rejoignent la capacité de la réunion.
+
+Lorsque les administrateurs activent Q&A, les utilisateurs dotés du [rôle organisateur](https://aka.ms/GetQnA) peuvent activer Q&A lors de la création ou de la mise à jour des réunions. Par le biais des options de réunion Teams et Outlook, les organisateurs peuvent également supprimer Q&A des réunions où il a été ajouté précédemment pour empêcher les participants d’utiliser la fonctionnalité.
 
 ## <a name="use-the-teams-admin-center-to-manage-qa"></a>Utiliser le Centre d’administration Teams pour gérer Q&A
-
-> [!NOTE]
-> La gestion de Q&A dans le Centre d’administration n’est pas disponible en préversion publique. Utilisez PowerShell pour configurer et gérer Q&A pour vos utilisateurs.
 
 Votre organisation peut avoir des exigences pour limiter les organisateurs qui peuvent activer Q&A. Vous pouvez utiliser le Centre d’administration Teams pour gérer les organisateurs qui peuvent activer Q&A dans les grandes réunions.
 Procédez comme suit pour contrôler les organisateurs qui peuvent utiliser Q&A :
@@ -155,4 +151,23 @@ La rétention du contenu suit les stratégies de rétention définies pour Yamme
 
 **Q : Quelle est la différence entre la configuration de Q&A via l’App Store Teams et l’utilisation des options de réunion ?**
 
-**Un:** Bien qu’il n’y ait aucune différence entre l’expérience utilisateur du participant et du modérateur, Q&A doit être configuré uniquement à l’aide des options de réunion. L’application Q&A dans l’App Store Teams sera déconseillée d’ici la fin de 2022. Il est donc préférable d’utiliser les options de réunion pour configurer Q&A dans vos réunions.
+**Un:** Nous avons simplifié l’activation de Q&A par le biais des options de réunion. À compter d’août 2022, l’application Q&A dans l’App Store Teams ne sera plus prise en charge. Q&A ne doit donc être activé que par le biais des options de réunion. Si vous êtes l’organisateur des réunions où Q&A a été activé via l’App Store Teams, supprimez l’application Q&A, puis activez uniquement les options de réunion.
+
+**Q : Pourquoi est-ce que je vois deux icônes Q&A dans ma réunion ?**
+
+**Un:** Vous voyez deux icônes Q&A dans votre réunion, car Q&A a également été activé via les options de réunion. Supprimez l’application Q&A qui a été ajoutée via le App Store Teams en suivant les instructions ci-dessous. Effectuez cette opération pour toutes vos réunions où vous aviez précédemment ajouté Q&A via l’App Store Teams.
+
+**Comment supprimer l’application Q&A qui a été ajoutée à partir de l’App Store Teams.**
+
+1. Sur Teams Desktop, participez à la réunion où vous avez précédemment ajouté Q&A.
+
+2. Dans le panneau supérieur, sélectionnez la deuxième occurrence de l’icône Q&A dans la fenêtre Réunion Teams . Il s’agit de l’expérience Q&A qui a été ajoutée via l’App Store Teams.
+
+3. Lorsque l’onglet Q&A est ouvert, cliquez sur les points de suspension, puis cliquez sur « Supprimer ». Cela supprime l’expérience Q&A qui a été ajoutée via l’App Store Teams.
+
+4. Cliquez sur « Supprimer » pour supprimer définitivement l’expérience Q&A qui a été ajoutée via l’App Store Teams.
+
+> [!NOTE]
+> Seule l’application Q&A ajoutée via l’App Store Teams aura des points de suspension pour supprimer l’application Q&A. L’expérience Q&A activée par le biais des options de réunion n’aura pas de points de suspension et ne peut pas être supprimée d’ici.
+
+Voilà! À présent, il n’existe qu’une seule expérience Q&A , optimisée par les options de réunion. L’application Q&A ajoutée via l’App Store Teams est supprimée.

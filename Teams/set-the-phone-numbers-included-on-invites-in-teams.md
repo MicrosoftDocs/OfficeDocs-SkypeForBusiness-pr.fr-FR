@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Suivez ces étapes pour créer un numéro de téléphone par défaut pour que les appelants rejoignent une réunion Microsoft Teams.
-ms.openlocfilehash: 7f22f86a020940caf663b671c81ab7958230db21
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+ms.openlocfilehash: f0956007d5df72c1fd6c6ae905433e73bd855a56
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016576"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884843"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Définir les numéros de téléphone inclus sur les invitations dans Microsoft Teams.
 
@@ -49,11 +49,14 @@ Les numéros de téléphone inclus dans les invitations aux réunions des utilis
 
 Comme indiqué ci-dessus, en plus des numéros de téléphone, chaque invitation à une réunion contient un lien qui ouvre la liste complète de tous les numéros de téléphone entrants qui peuvent être utilisés pour participer à une réunion donnée.
 
+> [!IMPORTANT]
+> Jusqu’à 24 heures peuvent être nécessaires pour que les numéros de téléphone attribués s’affichent sur votre invitation à la réunion. Si vous ne voyez pas les numéros mis à jour s’afficher, patientez au moins 24 heures avant de contacter le support technique.
+
 ### <a name="new-users"></a>Nouveaux utilisateurs
 
 Les numéros de téléphone payants et gratuits inclus dans les invitations aux réunions pour les nouveaux utilisateurs sont également définis par *teamsAudioconferencingPolicy* qui est affecté à ces utilisateurs. Par défaut, l’objet *Global TeamsAudioconferencingPolicy* est attribué à tous les nouveaux utilisateurs. Aucun numéro de téléphone n’est ajouté à la stratégie globale (sauf si cela est modifié par l’administrateur client). Dans ce cas, les numéros de téléphone inclus dans les invitations à la réunion des utilisateurs activés pour l’audioconférence sont définis par le numéro de téléphone payant de conférence par défaut et le numéro de téléphone gratuit de conférence par défaut trouvé dans les paramètres de chaque utilisateur.
 
-Pour un nouvel utilisateur, les numéros payants de conférence par défaut sont affectés en fonction de l’emplacement d’utilisation défini dans le centre d’administration Microsoft 365 de l’utilisateur lorsque l’utilisateur est activé pour le service d’audioconférence. S’il existe un numéro de péage dans le pont de conférence qui correspond au pays de l’utilisateur, ce numéro est automatiquement attribué comme numéro de péage par défaut de l’utilisateur. S’il n’y en a pas, le numéro défini comme numéro de péage par défaut du pont de conférence est attribué en tant que numéro de péage par défaut de l’utilisateur.  
+Pour un nouvel utilisateur, les numéros payants de conférence par défaut sont attribués en fonction de l’emplacement d’utilisation défini dans le centre d’administration Microsoft 365 de l’utilisateur lorsque l’utilisateur est activé pour le service d’audioconférence. S’il existe un numéro de péage dans le pont de conférence qui correspond au pays de l’utilisateur, ce numéro est automatiquement attribué comme numéro de péage par défaut de l’utilisateur. S’il n’y en a pas, le numéro défini comme numéro de péage par défaut du pont de conférence est attribué en tant que numéro de péage par défaut de l’utilisateur.  
 
 Une fois que l’utilisateur est activé pour le service d’audioconférence, les numéros de téléphone payants et gratuits par défaut de l’utilisateur peuvent être modifiés par l’administrateur client à partir de leurs valeurs initiales en fonction des besoins.
 
@@ -65,11 +68,11 @@ Consultez [les paramètres de stratégie d’audioconférence pour les numéros 
 
 Vous devez être un administrateur du service Teams pour apporter ces modifications. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](./using-admin-roles.md) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
 
-1. Connectez-vous au centre d’administration Microsoft Teams.
+1. Connectez-vous au Centre d’administration Microsoft Teams.
 
 2. Dans le volet de navigation de gauche, cliquez sur **Utilisateurs**.
 
-    ![Affiche la sélection d’utilisateurs dans le centre d’administration Microsoft Teams.](media/Admin-users.png)
+    ![Affiche la sélection d’utilisateurs dans le Centre d’administration Microsoft Teams.](media/Admin-users.png)
 
 3. Cliquez sur le nom d’utilisateur dans la liste des utilisateurs disponibles.
 
@@ -80,7 +83,7 @@ Vous devez être un administrateur du service Teams pour apporter ces modificati
 5. Utilisez les champs **Numéro payant** ou **Numéro gratuit** pour entrer les numéros de l’utilisateur.
 
 > [!IMPORTANT]
-> Lorsque vous modifiez les paramètres d’audioconférence d’un utilisateur, les réunions périodiques et futures Microsoft Teams doivent être mises à jour et envoyées aux participants.
+> Lorsque vous modifiez les paramètres d’audioconférence d’un utilisateur, les réunions Microsoft Teams périodiques et futures doivent être mises à jour et envoyées aux participants.
 
 > [!NOTE]
 > Les numéros de téléphone entrés dans ce paramètre sont utilisés uniquement si *teamsAudioConferencingPolicy* affecté à l’utilisateur n’a pas de numéros de téléphone ajoutés.
@@ -93,7 +96,7 @@ Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions q
 
 - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-Pour définir ou modifier le numéro de téléphone d’audioconférence par défaut pour un organisateur ou un utilisateur de réunion à l’aide [de Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps), définissez le **`ServiceNumber`** ou **`TollFreeServiceNumber`** les paramètres de l’applet de commande [Set-CsOnlineDialInConferencingUser sur](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) l’un des numéros disponibles.
+Pour définir ou modifier le numéro de téléphone d’audioconférence par défaut d’un organisateur ou d’un utilisateur de réunion à l’aide de [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps), définissez le **`ServiceNumber`** ou **`TollFreeServiceNumber`** les paramètres de l’applet de commande [Set-CsOnlineDialInConferencingUser sur](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) l’un des numéros disponibles.
 
 ## <a name="related-topics"></a>Sujets associés
 
