@@ -18,12 +18,12 @@ description: Dans cet article, vous allez découvrir les rapports Teams disponib
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 02acd95084b814e6f49634972eebeedfdeeb9472
-ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.openlocfilehash: bd6be2023745390a0f1225224e6ebbe9bcbde1dc
+ms.sourcegitcommit: e6f3e1e499ed1298b3e6f7a1b53f6cb8ba73c9b1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66825858"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66906959"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Analyses et rapports Microsoft Teams
 
@@ -36,7 +36,7 @@ Pour accéder aux rapports, vous devez être administrateur général dans Micro
 Accédez au Centre d’administration Microsoft Teams, dans le volet de navigation de gauche, sélectionnez **Analyse & rapports**, puis, sous **Afficher les rapports**, choisissez le rapport que vous souhaitez exécuter.
 
 > [!NOTE]
-> Les rapports du Centre d’administration Microsoft Teams sont distincts des rapports d’activité pour Teams qui font partie des rapports Microsoft 365 dans le Centre d'administration Microsoft 365. Pour plus d’informations sur les rapports d’activité dans le Centre d'administration Microsoft 365, consultez [les rapports d’activité Teams dans le Centre d'administration Microsoft 365](../teams-activity-reports.md)
+> Les rapports du Centre d’administration Microsoft Teams sont distincts des rapports d’activité pour Teams qui font partie des rapports Microsoft 365 dans le Centre d'administration Microsoft 365. Pour plus d’informations sur les rapports d’activité dans le Centre d'administration Microsoft 365, consultez [Rapports Microsoft 365 dans le Centre d’administration](/microsoft-365/admin/activity-reports/activity-reports).
 
 ## <a name="teams-reporting-reference"></a>Informations de référence sur les rapports Teams
 
