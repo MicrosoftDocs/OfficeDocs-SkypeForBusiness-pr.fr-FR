@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des canaux partagés dans Microsoft Teams.
-ms.openlocfilehash: 9a547963854f981e723d29b1472c2bda808b90c2
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: 2c15567c78000de187877477554c233b59c5e58f
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773763"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884913"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canaux partagés dans Microsoft Teams
 
@@ -157,6 +157,8 @@ Les limitations suivantes s’appliquent également :
 - Lorsque vous créez une équipe à partir d’une équipe existante, les canaux privés de l’équipe existante ne seront pas copiés.
 
 - Pour l’instant, les notifications des canaux privés ne sont pas incluses dans les messages électroniques d’activité manqués.
+
+- Les canaux partagés ne sont pas pris en charge dans les équipes de classe.
 
 ## <a name="supported-apps-in-shared-channels"></a>Applications prises en charge dans les canaux partagés
 
