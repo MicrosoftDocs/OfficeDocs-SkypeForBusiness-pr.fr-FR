@@ -1,7 +1,7 @@
 ---
 title: Configurer Operator Connect
-author: cazawideh
-ms.author: czawideh
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 09/30/2021
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c37c6e52eac53e2cf3e43e45566243a6c83025a7
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: e9a773e7c8767164480374826a2410050681505a
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240503"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915192"
 ---
 # <a name="configure-operator-connect"></a>Configurer Operator Connect
 
@@ -91,18 +91,15 @@ Pour plus d’informations sur les appels d’urgence, consultez [Gérer les app
 
 1. Contactez votre opérateur pour porter vos numéros vers Operator Connect. Consultez le [répertoire Microsoft 365 Operator Connect](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) pour trouver le site web de votre opérateur.
 
-2. Une fois que votre opérateur a terminé la commande de portage, vous pouvez annuler l’affectation des numéros de téléphone du plan d’appel de vos utilisateurs et supprimer la licence du plan d’appel. Ensuite, votre opérateur peut charger les numéros dans votre locataire.
+2. Une fois que votre opérateur a terminé l’ordre de portage, il charge les numéros vers votre locataire.
 
 3. Attribuez des numéros Operator Connect aux utilisateurs à l’aide du Centre d’administration Teams ou de PowerShell. Pour plus d’informations, consultez [Affecter des numéros](#assign-numbers).
 
 ### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>Déplacer des numéros du routage direct vers Operator Connect
 
-Pour déplacer des numéros du routage direct vers Operator Connect, le numéro de routage direct existant qui a été chargé vers votre locataire par votre opérateur doit être supprimé de l’utilisateur auquel il est affecté. Ensuite, une fois le nombre migré vers Operator Connect, vous pouvez le réaffecter à l’utilisateur. Pour passer du routage direct à Operator Connect avec des numéros de téléphone locaux ou en ligne, suivez les étapes ci-dessous :
+Pour passer du routage direct à Operator Connect avec des numéros de téléphone locaux ou en ligne, suivez les étapes ci-dessous :
 
->[!IMPORTANT]
-> Le numéro de téléphone sera hors service pendant la migration. Coordonnez-vous donc avec votre opérateur Operator Connect avant de commencer.
-
-#### <a name="step-1---remove-existing-direct-routing-numbers"></a>Étape 1 : supprimer les numéros de routage direct existants.
+#### <a name="step-1---identify-if-the-existing-direct-routing-numbers-are-assigned-online-or-on-premises"></a>Étape 1 : identifier si les numéros de routage direct existants sont affectés en ligne ou localement.
 
 Vérifiez que l’utilisateur se voit attribuer un numéro de routage direct en exécutant la commande module Teams PowerShell :
 
@@ -119,9 +116,13 @@ Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI
 ```
 
 S’il `OnPremLineUri` est rempli avec un numéro de téléphone E.164, le numéro de téléphone a été attribué localement et synchronisé avec Microsoft 365.
-    
-**Pour supprimer les numéros de routage direct affectés localement,** exécutez la commande PowerShell Skype Entreprise Server suivante :
-    
+
+**Pour migrer les numéros de routage direct existants affectés en ligne à Operator Connect**, contactez votre opérateur. Pour trouver le site web de votre opérateur, consultez le [répertoire Microsoft 365 Operator Connect](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). À la date et à l’heure convenues, votre opérateur migre vos numéros du routage direct vers Operator Connect.
+
+**Pour migrer les numéros de routage direct affectés localement à Operator Connect**, exécutez la commande PowerShell Skype Entreprise Server suivante :
+>[!IMPORTANT]
+> Le numéro de téléphone sera hors service pendant la migration. Coordonnez-vous donc avec votre opérateur Operator Connect avant de commencer.
+
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
 ```
@@ -140,7 +141,7 @@ OnPremLineURI                        :
 LineURI                              : 
 ```
 
-<br> **Pour supprimer les numéros de routage direct en ligne existants affectés en ligne,** exécutez la commande module Teams PowerShell suivante :
+
 
 
 ```PowerShell
@@ -193,6 +194,6 @@ Pour libérer des numéros de téléphone à partir du Centre d’administration
 
 - Si le numéro de téléphone est attribué à un utilisateur, vous devez annuler l’affectation du numéro. Sélectionnez **Modifier**, puis **Supprimez l’utilisateur**. Après avoir enregistré vos modifications, sélectionnez **Release**.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Planifier les standards automatiques teams et les files d’attente d’appels](plan-auto-attendant-call-queue.md)

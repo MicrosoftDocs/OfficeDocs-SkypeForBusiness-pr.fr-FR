@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da74dcb2203eb43ca5b7174697cbc074f5d50855
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: e2e934e0dd9896c507e4d5818a77a1637cdcb2b3
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642749"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915212"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Présentation de l’enregistrement basé sur des stratégies Teams pour les appels & réunions
 
@@ -206,8 +206,8 @@ La prise en charge des notifications est activée à l’aide des expériences c
 **Autres points de terminaison - Avis audio**
 - Téléphones SIP
 - Skype Entreprise
-- Audioconférence
-- Appelants RTC
+- Audioconférence (avis audio dans la langue par défaut ou la langue sélectionnée par l’utilisateur du numéro de connexion)
+- Appelants RTC (avis audio dans la langue par défaut de l’utilisateur Teams)
 
 > [!NOTE]
 > L’enregistrement de conformité n’est pas pris en charge avec les files d’attente d’appels en mode conférence. Utilisez les files d’attente d’appels en mode transfert.
