@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment charger vos applications personnalisées dans l’App Store de votre organisation dans le Centre d’administration Microsoft Teams.
-ms.openlocfilehash: 5ef5992e01b5de4e2f4feaed51b50e2d0f16c0d8
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: 8f7968a53b70ac8ffa871d03adacd648ec047c52
+ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642759"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66958049"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publier une application personnalisée en chargeant un package d’application
 
@@ -57,20 +57,20 @@ Pour permettre aux utilisateurs approuvés de charger des applications personnal
 1. Activez le paramètre **Autoriser l’interaction avec les applications personnalisées** à l’échelle de l’organisation. Pour ce faire :
 
     1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à Applications **Teams** > **Gérer les applications**, puis cliquez sur **Paramètres d’application à l’échelle de l’organisation**.
-    
-    2. Sous **Applications personnalisées**, **activez Autoriser l’interaction avec les applications personnalisées**, puis cliquez sur **Enregistrer**.
-    
+
+    1. Sous **Applications personnalisées**, **activez Autoriser l’interaction avec les applications personnalisées**, puis cliquez sur **Enregistrer**.
+
 1. Désactivez le paramètre **Charger des applications personnalisées** dans la stratégie d’installation d’application globale. Pour ce faire :
 
     1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **stratégies d’installation** des **applications** >  Teams, puis cliquez sur la stratégie **globale (par défaut à l’échelle de l’organisation**).
-    
-    2. Désactivez **Télécharger des applications personnalisées**, puis cliquez sur **Enregistrer**.
-    
+
+    1. Désactivez **Télécharger des applications personnalisées**, puis cliquez sur **Enregistrer**.
+
 1. Créez une stratégie d’installation d’application qui permet de charger des applications personnalisées et de l’affecter à votre ensemble d’utilisateurs approuvés. Pour ce faire :
 
     1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **stratégies d’installation** des **applications** >  Teams, puis cliquez sur **Ajouter**. Donnez un nom et une description à la nouvelle stratégie, **activez Charger des applications personnalisées**, puis cliquez sur **Enregistrer**.
-    
-    2. Sélectionnez la nouvelle stratégie que vous avez créée, puis cliquez sur **Gérer les utilisateurs**. Recherchez un utilisateur, cliquez sur **Ajouter**, puis cliquez sur **Appliquer**. Répétez cette étape pour affecter la stratégie à tous vos utilisateurs approuvés.
+
+    1. Sélectionnez la nouvelle stratégie que vous avez créée, puis cliquez sur **Gérer les utilisateurs**. Recherchez un utilisateur, cliquez sur **Ajouter**, puis cliquez sur **Appliquer**. Répétez cette étape pour affecter la stratégie à tous vos utilisateurs approuvés.
 
        ![Capture d’écran de la page « Ajouter une stratégie d’installation d’application »](media/manage-your-lob-apps-new-app-setup-policy.png)
 
@@ -119,7 +119,17 @@ Vous pouvez mettre à jour l’application sur la page Gérer les applications d
 
 Dans la plupart des cas, une fois que vous avez terminé une mise à jour d’application, la nouvelle version s’affiche automatiquement pour les utilisateurs finaux. Pour plus d’informations, consultez [l’expérience de mise à jour de l’utilisateur final](apps-update-experience.md).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="remove"></a>Retirer
+
+Pour supprimer une application, procédez comme suit :
+
+1. Se connecter au Centre d’administration de Microsoft Teams.
+1. Page **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)** >  **d’Access Teams**.
+1. Cliquez sur le nom de l’application pour ouvrir la page de détails de l’application.
+1. À côté de la bannière de l’application, sélectionnez **Actions** > **Delete**.
+1. Dans la boîte de dialogue, **sélectionnez Supprimer**.
+
+## <a name="related-articles"></a>Articles connexes
 
 * [Publier une application personnalisée envoyée via l’API de soumission d’application Teams](submit-approve-custom-apps.md)
 * [Gérer vos applications dans le Centre d’administration Microsoft Teams](manage-apps.md)

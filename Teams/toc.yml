@@ -1535,10 +1535,6 @@ items:
             href: submit-approve-custom-apps.md
           - name: Publier une application personnalisée en téléchargeant un package d’application
             href: upload-custom-apps.md
-          - name: Personnaliser l’apparence et les métadonnées des applications
-            href: customize-apps.md
-          - name: Personnaliser l’App Store de votre organisation
-            href: customize-your-app-store.md
       - name: Contrôles d’administration pour régir les applications
         items:
           - name: Vue d’ensemble de la gestion des applications
@@ -1561,16 +1557,20 @@ items:
             href: resource-specific-consent.md
           - name: Comprendre les autorisations d’application et l’accès aux ressources
             href: app-permissions.md
+          - name: Personnaliser l’apparence et les métadonnées des applications
+            href: customize-apps.md
+          - name: Personnaliser l’App Store de votre organisation
+            href: customize-your-app-store.md
           - name: Gérer l’accès aux applications dans Microsoft 365
             href: manage-third-party-teams-apps.md
-          - name: Auditer les activités de gestion des applications
-            href: audit-app-management-activities.md
-          - name: Rapport et analyse sur l’utilisation des applications
-            href: teams-analytics-and-reports/app-usage-report.md
           - name: Comportement de l’application basé sur les types d’utilisateurs
             href: non-standard-users.md
           - name: Mises à jour d’application et rôle d’administrateur
             href: apps-update-experience.md
+          - name: Auditer les activités de gestion des applications
+            href: audit-app-management-activities.md
+          - name: Rapport et analyse sur l’utilisation des applications
+            href: teams-analytics-and-reports/app-usage-report.md
   - name: Conseils pour les industries et le secteur public
     items:
       - name: Vue d’ensemble
