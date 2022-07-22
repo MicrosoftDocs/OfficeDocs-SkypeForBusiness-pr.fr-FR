@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db4b3adabecf147f5adf9cadb9891892b5a82e5a
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: e2ac9a38e16000829b391e77dffdd718ed349299
+ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606223"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66952758"
 ---
 # <a name="share-to-teams-from-outlook"></a>Partager vers Teams à partir d’Outlook
 
@@ -30,9 +30,9 @@ Partager vers Teams à partir d’Outlook (Partager vers Teams) permet aux utili
 La fonctionnalité Partager vers Teams nécessite un complément pour Outlook. Ce complément est installé automatiquement chaque fois qu’un utilisateur se connecte à l’application web Teams ou au client de bureau Teams.
 
 > [!NOTE]
-> Veillez à consulter [les compléments pour Outlook dans Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) et [les règles d’accès client dans Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) pour vous assurer que vos compléments pour Outlook fonctionnent correctement. En outre, la désactivation des expériences connectées peut empêcher les compléments pour Outlook de fonctionner correctement. Pour plus d’informations, consultez [Expériences connectées dans Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) .  
+> Veillez à consulter [les compléments pour Outlook dans Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) et [les règles d’accès client dans Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) pour vous assurer que vos compléments pour Outlook fonctionnent correctement. En outre, la désactivation des expériences connectées peut empêcher les compléments pour Outlook de fonctionner correctement. Pour plus d’informations, consultez [Expériences connectées dans Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) . Les boîtes aux lettres partagées ne sont pas prises en charge par le complément. 
 
-Le partage vers Teams utilise le même mécanisme de transport que lorsqu’un utilisateur envoie un e-mail à un canal. Pour le partage vers des conversations, les e-mails (y compris les pièces jointes) sont copiés sur OneDrive de l’expéditeur. Pour le partage vers des canaux, les e-mails et les pièces jointes sont copiés dans le dossier **Messages électroniques** dans SharePoint.
+Le partage vers Teams utilise le même mécanisme de transport que lorsqu’un utilisateur envoie un e-mail à un canal. Pour le partage vers des conversations, les e-mails (y compris les pièces jointes) sont copiés sur OneDrive de l’expéditeur. Pour le partage sur des canaux, les e-mails et les pièces jointes sont copiés dans le dossier **Email messages** dans SharePoint.
 
 Le complément Outlook pour Share to Teams utilise l’ensemble de conditions requises 1.7, comme détaillé dans la [documentation des compléments Outlook](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook), qui inclut des détails sur les compléments Outlook, les exigences d’environnement pour les compléments Outlook et les clients Outlook spécifiques pris en charge avec l’ensemble de conditions requises 1.7.
 

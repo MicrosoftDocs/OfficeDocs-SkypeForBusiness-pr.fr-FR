@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5df52ff5de4db994cb049db1dde2b27c2465dce5
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 0e6fdb36148f87ce243fff044a08a3bdcdd28d58
+ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675756"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66952768"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Guide d’administration informatique de Reflect dans Microsoft Teams
 
@@ -29,15 +29,15 @@ Ce document fournit des informations sur [Reflect](https://aka.ms/reflect) , qui
 
 Cette application de contrôle utilise des emojis et une granularité émotionnelle inspirée de la recherche pour aider les enseignants à ajouter une formation sociale et émotionnelle à leur routine déjà chargée.
 
-
 ## <a name="privacy-and-security"></a>Confidentialité et sécurité
+
 Reflect suit les mêmes normes de confidentialité et de sécurité qu’[Éducation Insights](class-insights.md) pour protéger les informations sensibles des étudiants.
 
 Reflect, dans le cadre de Microsoft 365, respecte les réglementations nationales, régionales et sectorielles en matière de collecte et d’utilisation des données, y compris [le RGPD](/compliance/regulatory/gdpr) et la [Loi sur les droits à l’éducation et la protection de la vie privée (FERPA)](/compliance/regulatory/offering-ferpa) qui protègent la vie privée des dossiers d’éducation des étudiants.
 
 Les données appartiennent à l’établissement, et Microsoft se contente de collecter et de stocker les données. Le personnel de Microsoft ne peut ni accéder aux données ni les consulter, sauf lors d’opérations d'audit (impliquant parfois des récupérations de données) requises pour assurer le bon fonctionnement du service, et ce dans le respect des règles de conformité.
 
-Les étudiants ne voient *jamais* les noms des autres étudiants, seulement leurs réponses. Bien qu’;ils puissent voient la distribution des réponses, ils ne peuvent *pas* voir les noms associés à chaque réflexion. 
+Les étudiants ne voient *jamais* les noms des autres étudiants, seulement leurs réponses. Bien qu’;ils puissent voient la distribution des réponses, ils ne peuvent *pas* voir les noms associés à chaque réflexion.
 
 > [!NOTE]
 > Si moins de cinq étudiants répondent, aucune donnée n’est affichée aux étudiants. Cela permet de minimiser la possibilité pour les étudiants d’identifier les réponses des autres étudiants.
@@ -51,9 +51,9 @@ Les données appartiennent à l’établissement scolaire, et Microsoft se conte
 
 Les données sont stockées dans Insights. Par défaut, Insights est activé. Lorsque vous désactivez Insights, nous **supprimons toutes les données collectées** pour Reflect. Si vous réactivez Insights, nous commencerons à collecter des données à partir de l’heure de la réactivation.
 
-Dans le [Guide d’administration informatique Insights](class-insights.md), vous pouvez découvrir le fonctionnement de Insights (y compris les emplacements de stockage) et [comment désactiver ou activer Insights](class-insights.md#turn-insights-on-or-off) lorsque vous voulez supprimer les données ou activer le service.
+Dans le [Guide d’administration informatique Insights](class-insights.md), vous pouvez découvrir le fonctionnement de Insights (y compris les emplacements de stockage) et [comment désactiver ou activer Insights](class-insights.md#turn-on-and-off-insights) lorsque vous voulez supprimer les données ou activer le service.
 
-Les données des étudiants sont collectées dans Reflect, bien que les données invités ne le sont pas. **Si un étudiant est défini comme un invité, ses données ne sont pas collectées.** 
+Les données des étudiants sont collectées dans Reflect, bien que les données invités ne le sont pas. **Si un étudiant est défini comme un invité, ses données ne sont pas collectées.**
 
 ## <a name="enable-reflect"></a>Activer Reflect
 Si vous gérez la stratégie de configuration de l’application pour votre établissement, assurez-vous que Reflect est *autorisé* dans votre client. Vous pouvez également ajouter Reflect aux équipes de classe concernées à partir du centre d’administration Teams.
