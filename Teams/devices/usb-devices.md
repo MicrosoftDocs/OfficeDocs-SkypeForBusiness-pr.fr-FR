@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et périphériques USB (tels que les casques, les haut-parleurs, les webcams et les moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 956034bff42cdf3694c648306caf218057bca1da
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 63813ca51626ae16903b57e56de9b47345f44c10
+ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880388"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66972779"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft Teams
 
@@ -41,6 +41,12 @@ Les utilisateurs n’ont pas besoin de remplacer des appareils précédemment ce
 - **Certifié pour Microsoft Teams** Les appareils certifiés à ce niveau indiquent les appareils les plus récents certifiés, pour une expérience Teams sans compromis. Ces appareils offrent tous les avantages de la certification antérieure et incluent également un bouton Teams dédié avec indicateur LED. Avec la plupart des facteurs de forme, le bouton Teams est un bouton tactile facile à trouver avec le logo Teams. Microsoft continue de travailler avec les fabricants d’appareils pour fournir une nouvelle valeur via des mises à jour de microprogramme au fil du temps.
 
 ### <a name="special-usage-designations"></a>Désignations d’utilisation spéciales
+
+- **Périphériques audio certifiés Bluetooth natifs**  La plupart des casques Bluetooth et des haut-parleurs certifiés pour Microsoft Teams sont conçus pour être utilisés avec un dongle USB pour la connectivité aux PC et aux hôtes Mac. De nombreux utilisateurs ont demandé l’option d’associer directement leur appareil à l’hôte, car ils n’ont pas assez de ports USB, ou ils ne veulent pas avoir à se souvenir d’apporter le dongle USB avec eux quand ils travaillent dans différents emplacements.
+
+    Les appareils certifiés Bluetooth natifs, notamment les casques et les haut-parleurs, sont pris en charge sur les PC Windows (MacOS peut être pris en charge à l’avenir). Les appareils sont testés pour les performances audio, le contrôle des appels et l’intégration des boutons Teams, avec et sans l’utilisation d’un dongle USB.
+
+    Les performances en mode Bluetooth natif étant affectées par la radio Bluetooth sur le PC hôte, nous vous recommandons d’installer les dernières mises à jour du microprogramme pour les appareils et la radio Bluetooth. Une petite partie des utilisateurs peut avoir besoin de continuer à utiliser le dongle USB, par exemple lorsque vous travaillez dans un environnement radio à haute densité, si leur PC Bluetooth est fortement utilisé par plusieurs appareils couplés, ou avec certains PC qui ont des radios Bluetooth peu performantes.
 
 - **Microphone Premium pour Ouvrir Office** Tous les casques sont testés pour fournir un son clair, mais l’ouverture du bureau et d’autres environnements bruyants pose un plus grand défi. Les casques avec cette désignation prennent la voix de l’utilisateur du casque, mais ne transmettent pas le son de leurs voisins.
 - **Taille de la salle de réunion** Les appareils partagés tels que les haut-parleurs et les caméras ont une distance d’utilisation prise en charge. Les distances recommandées peuvent être différentes selon le fabricant. Pour fournir aux clients des conseils clairs, tous les appareils partagés sont testés lors de la certification par rapport aux tailles de salles et aux environnements de bruit bien définis.
