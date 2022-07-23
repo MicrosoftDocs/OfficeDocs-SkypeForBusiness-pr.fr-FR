@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des canaux partagés dans Microsoft Teams.
-ms.openlocfilehash: 2c15567c78000de187877477554c233b59c5e58f
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 8bd0fe39031fdae6d47e7c738a1c883b6b066f7d
+ms.sourcegitcommit: 1398570f56d5918d309f95fb734a2e8c5b4981b5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884913"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66968905"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canaux partagés dans Microsoft Teams
 
@@ -85,7 +85,7 @@ Le tableau suivant décrit les actions que les propriétaires, les membres et le
 |---------|---------|---------|---------|---------|---------|---------|
 |Créer un canal partagé|Contrôlée par l’administrateur|Contrôlée par l’administrateur et le propriétaire de l’équipe|Non|N/A|Non|Non|
 |Supprimer un canal partagé|Oui|Non|Non|Oui|Non|Non|
-|Quitter un canal partagé|N/A|S/O|S/O|Oui, à moins qu’il ne soit le dernier propriétaire|Oui|Oui|
+|Quitter un canal partagé|N/A|N/A|S/O|Oui, à moins qu’il ne soit le dernier propriétaire|Oui|Oui|
 |Modifier un canal partagé|Non|N/A|N/A|Oui|Non|Non|
 |Restaurer un canal privé supprimé|Oui|Non|Non|Oui|Non|Non|
 |Ajouter des membres|Non|N/A|N/A|Oui|Non|Non|
@@ -149,6 +149,8 @@ Le tableau suivant décrit le nombre maximal de canaux et de membres.
 |Membres dans un canal partagé|5 000 membres directs, y compris jusqu’à 50 équipes. (Chaque équipe avec laquelle le canal est partagé compte comme un membre aux fins de cette limite).|Les mises à jour en temps réel ne sont disponibles que pour 25 000 utilisateurs à la fois et seuls 25 000 utilisateurs apparaîtront dans la liste des chaînes.|
 
 Les limitations suivantes s’appliquent également :
+
+- Seuls les comptes professionnels ou scolaires Azure AD sont pris en charge pour les participants externes.
 
 - Les canaux partagés supportent les onglets à l’exception de Stream, Planner et Forms.
 
