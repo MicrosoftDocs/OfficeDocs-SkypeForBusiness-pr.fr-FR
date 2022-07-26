@@ -1525,6 +1525,8 @@ items:
             href: overview-of-app-certification.md
           - name: Acheter des applications tierces pour Teams
             href: purchase-third-party-apps.md
+          - name: Adobe Acrobat en tant que visionneuse PDF par défaut dans Teams
+            href: adobe-acrobat-pdf-viewer-teams.md
           - name: Gérer les connecteurs Microsoft 365 et connecteurs personnalisés
             href: Office-365-custom-connectors.md
       - name: Gérer des applications métier personnalisées
