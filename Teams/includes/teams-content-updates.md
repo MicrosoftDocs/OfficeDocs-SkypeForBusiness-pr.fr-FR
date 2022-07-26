@@ -3,6 +3,28 @@
 
 
 
+## <a name="week-of-july-18-2022"></a>Semaine du 18 juillet 2022
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 7/18/2022 | [En savoir plus sur les applications dans Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modifié |
+| 7/18/2022 | [Gérer les stratégies de mise en application dans Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modifié |
+| 7/18/2022 | Mise en service de Microsoft Teams à grande échelle pour les employés de bureau | supprimé |
+| 7/19/2022 | [Gérer Microsoft 365 et les connecteurs personnalisés](/MicrosoftTeams/office-365-custom-connectors) | modifié |
+| 7/19/2022 | [En savoir plus sur les applications dans Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modifié |
+| 7/19/2022 | [Gérer les applications Microsoft Power Platform dans le Centre d’administration Microsoft Teams](/MicrosoftTeams/manage-power-platform-apps) | modifié |
+| 7/19/2022 | [Gérer les réunions Q&A dans Teams](/MicrosoftTeams/manage-qna-for-teams) | modifié |
+| 7/19/2022 | [Vue d’ensemble de la certification des applications par Microsoft](/MicrosoftTeams/overview-of-app-certification) | modifié |
+| 7/19/2022 | [Acheter des applications tierces pour Teams](/MicrosoftTeams/purchase-third-party-apps) | modifié |
+| 7/20/2022 | [Configurer Operator Connect](/MicrosoftTeams/operator-connect-configure) | modifié |
+| 7/21/2022 | [Guide d’administration informatique sur Education Insights dans Microsoft Teams](/MicrosoftTeams/class-insights) | modifié |
+| 7/21/2022 | [Expérience de mise à jour des applications dans Microsoft Teams](/MicrosoftTeams/apps-update-experience) | modifié |
+| 7/21/2022 | [Gérer vos applications dans le Centre d’administration Microsoft Teams](/MicrosoftTeams/manage-apps) | modifié |
+| 7/21/2022 | [Utiliser l’API de soumission d’applications Teams pour envoyer et approuver vos applications personnalisées](/MicrosoftTeams/submit-approve-custom-apps) | modifié |
+| 7/21/2022 | [Charger vos applications personnalisées dans le Centre d’administration Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | modifié |
+
+
 ## <a name="week-of-july-11-2022"></a>Semaine du 11 juillet 2022
 
 
@@ -103,35 +125,3 @@
 | 6/23/2022 | [Acheter, configurer et activer Career Coach pour Microsoft Teams pour l'éducation](/MicrosoftTeams/career-coach) | modifié |
 | 6/23/2022 | [Configurer Operator Connect](/MicrosoftTeams/operator-connect-configure) | modifié |
 | 6/24/2022 | [Gérer vos applications dans le Centre d’administration Microsoft Teams](/MicrosoftTeams/manage-apps) | modifié |
-
-
-## <a name="week-of-june-13-2022"></a>Semaine du 13 juin 2022
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 6/13/2022 | [Créer une file d’attente des appels dans Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
-| 6/13/2022 | [Utiliser Power BI pour analyser les données de CQD pour Microsoft Teams](/MicrosoftTeams/cqd-power-bi-query-templates) | modifié |
-| 6/13/2022 | [Passer des licences Business Voice à Teams Phone](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | modifié |
-| 6/13/2022 | [Utiliser les fichiers journaux pour le dépannage de Microsoft Teams](/MicrosoftTeams/log-files) | modifié |
-| 6/13/2022 | [Données et informations de confidentialité](/MicrosoftTeams/rooms/data-and-privacy-info) | modifié |
-| 6/13/2022 | [gestion des mises à jour Salles Microsoft Teams](/MicrosoftTeams/rooms/update-management) | modifié |
-| 6/15/2022 | [Module PowerShell Teams - Versions prises en charge](/MicrosoftTeams/teams-powershell-supported-versions) | modifié |
-| 6/16/2022 | [Informations de référence sur les applets de commande PowerShell pour les standards automatiques et les files d’attente d’appels](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | ajouté |
-| 6/16/2022 | [Planifier votre flux de routage des appels pour Microsoft Teams](/MicrosoftTeams/plan-your-call-routing-flow) | ajouté |
-| 6/16/2022 | [Autorisations d’applications Microsoft Teams et points à prendre en compte](/MicrosoftTeams/app-permissions) | modifié |
-| 6/16/2022 | [Affectation, modification ou suppression du numéro de téléphone d’un utilisateur](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | modifié |
-| 6/16/2022 | Configurer un standard automatique pour Microsoft Teams - Didacticiel sur les petites entreprises | supprimé |
-| 6/16/2022 | Créer une file d’attente d’appels dans Téléphonie Microsoft Teams System - Didacticiel sur les petites entreprises | supprimé |
-| 6/16/2022 | [Affecter des numéros de téléphone système téléphonique Teams à vos utilisateurs](/MicrosoftTeams/business-voice/set-up-assign-numbers) | modifié |
-| 6/16/2022 | Configurer un standard automatique pour le numéro de téléphone principal de votre entreprise | supprimé |
-| 6/16/2022 | [Configurer un compte de ressources système Téléphonie Microsoft Teams](/MicrosoftTeams/business-voice/set-up-resource-account) | modifié |
-| 6/16/2022 | [Aide du système téléphonique Teams pour les petites et moyennes entreprises](/MicrosoftTeams/business-voice/whats-business-voice) | modifié |
-| 6/16/2022 | [Configurer un standard automatique pour Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modifié |
-| 6/16/2022 | [Créer une file d’attente des appels dans Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
-| 6/16/2022 | [Modifier l’apparence des applications dans le magasin Teams de votre organisation](/MicrosoftTeams/customize-apps) | modifié |
-| 6/16/2022 | [Référence de numérotation et de reconnaissance vocale du standard automatique et de la file d’attente d’appels](/MicrosoftTeams/dial-voice-reference) | modifié |
-| 6/16/2022 | [Gérer les comptes de ressource dans Teams](/MicrosoftTeams/manage-resource-accounts) | modifié |
-| 6/16/2022 | [Planifier les standards automatiques teams et les files d’attente d’appels](/MicrosoftTeams/plan-auto-attendant-call-queue) | modifié |
-| 6/16/2022 | [Charger vos applications personnalisées dans le Centre d’administration Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | modifié |
-| 6/16/2022 | [Gérer les stratégies de réunion pour les participants et les invités](/MicrosoftTeams/meeting-policies-participants-and-guests) | modifié |
