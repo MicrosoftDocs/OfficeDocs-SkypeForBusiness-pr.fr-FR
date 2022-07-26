@@ -1,9 +1,9 @@
 ---
-title: Inscrire un appareil Teams Room dans Managed Services
+title: Inscrire un appareil Salle Teams dans les services managés
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
-ms.reviewer: ''
+ms.date: 07/22/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,16 +17,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Intégration d’appareils salles Teams à des services managés
 f1keywords: ''
-ms.openlocfilehash: 901cf212d6eaeb7ca98b8a158de517b0687ba517
-ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
+ms.openlocfilehash: 124d301a37fde8802b60f3e59ad5f1a1dd19862c
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2022
-ms.locfileid: "66167318"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005434"
 ---
 # <a name="enroll-device-into-managed-service"></a>Inscrire un appareil dans le service managé
 
-Le déploiement nécessite l’intégration d’appareils Salles Microsoft Teams aux services managés Salles Microsoft Teams. L’agent de service de surveillance est destiné aux systèmes et périphériques certifiés Microsoft Teams Room (MTR).
+Le déploiement nécessite l’intégration d’appareils Salles Microsoft Teams aux services managés Salles Microsoft Teams. L’agent de service de surveillance est destiné à être utilisé avec des systèmes et périphériques MTR (Microsoft Teams Room) certifiés.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -35,12 +35,12 @@ Suivez ces procédures pour configurer votre matériel avant de tenter le proces
 ### <a name="adding-proxy-settings-optional"></a>Ajout de paramètres de proxy (facultatif)
 
 1. Connectez-vous en tant qu’administrateur [en effectuant des opérations en tant qu’utilisateur Administration de l’appareil MTR](#performing-operations-as-the-admin-user-of-the-mtr-device).
-1. Dans le Windows champ ***Search** _ (section en bas à gauche de l’écran), entrez _ *cmd** (appuyez longuement sur l’écran ou sélectionnez à droite, puis **_choisissez Exécuter en tant qu’administrateur_**).
+1. Dans le champ Windows ***Search** _ (section en bas à gauche de l’écran), entrez _ *cmd** (appuyez longuement sur l’écran ou sélectionnez à droite, puis **_choisissez Exécuter en tant qu’administrateur_**).
 1. Exécutez la commande suivante (les guillemets doubles à la fin de la commande sont importants) :
 
    - Si vous utilisez un ***serveur proxy*** unique : `bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY <proxyserver>:<port> ""`
 
-     *Exemple:*
+     *Exemple :*
 
      ```DOS
      bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY contosoproxy.corp.net:8080 ""
@@ -48,7 +48,7 @@ Suivez ces procédures pour configurer votre matériel avant de tenter le proces
 
    - Si vous utilisez un fichier ***PAC*** : `bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT <pac file url>`
 
-     *Exemple:*
+     *Exemple :*
 
      ```DOS
      bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net/proxy.pac`
@@ -77,17 +77,17 @@ Certaines procédures de configuration/installation vous obligent à vous connec
 Pour vous connecter à l’appareil en tant qu’administrateur (administrateur local) :
 
 1. Assurez-vous de raccrocher tous les appels en cours et de revenir à l’écran d’accueil.
-1. Dans l’interface utilisateur Microsoft Teams Room, sélectionnez **Plus**, puis sélectionnez **Paramètres**, où vous êtes invité à entrer le mot de passe administrateur local sur l’appareil (le mot de passe par défaut est **_sfb_**).
-1. Sélectionnez **Paramètres**, puis **sélectionnez Windows Paramètres** pour accéder à Windows en tant qu’administrateur local.
+1. Dans l’interface utilisateur de la salle Microsoft Teams, sélectionnez  **Plus**, puis Sélectionnez **Paramètres**, où vous êtes invité à entrer le mot de passe Administrateur local sur l’appareil (le mot de passe par défaut est **_sfb_**).
+1. Sélectionnez **Paramètres**, puis sélectionnez  **Paramètres Windows**  pour accéder à Windows en tant qu’administrateur local.
 
-1. Dans la liste des utilisateurs affichés dans l’écran de connexion Windows, sélectionnez **Administrateur** (ou l’administrateur local respectif de votre appareil).
+1. Dans la liste des utilisateurs affichés dans l’écran de connexion Windows, sélectionnez  **Administrateur** (ou l’administrateur local respectif de votre appareil).
 
 > [!NOTE]
 > Si l’ordinateur est *joint à un domaine*, choisissez **Autre utilisateur**, puis utilisez **.\admin** ou le nom d’utilisateur de l’administrateur local configuré dans l’appareil comme nom d’utilisateur.
 
 Pour revenir à l’application Salles Microsoft Teams après avoir effectué les tâches administratives nécessaires :
 
-1. À partir de la ***menu Démarrer Windows***, déconnectez-vous du compte Administration.
+1. Dans le ***menu Démarrer*** de Windows, déconnectez-vous du compte Administration.
 1. Revenez à Salles Microsoft Teams en sélectionnant l’icône de compte d’utilisateur à l’extrême gauche de l’écran, puis en sélectionnant **Skype**.
 
 > [!NOTE]
@@ -116,7 +116,7 @@ mmrprodnoamstor.blob.core.windows.net
 
 Le processus d’inscription implique les étapes suivantes :
 
-1. Dans la barre de navigation gauche du portail Salles Microsoft Teams – Services [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)managés, développez **Paramètres** et sélectionnez **Général**.
+1. Dans la barre de navigation gauche du portail Salles Microsoft Teams – Services [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)**managés, développez Paramètres** et sélectionnez **Général**.
 1. Sous *Inscrire une salle*, **sélectionnez Télécharger le programme d’installation**  pour télécharger le logiciel de l’agent de surveillance.
 1. **Optionnel:** Configurer les paramètres de proxy pour l’agent ; voir [Ajout de paramètres de proxy (facultatif).](#adding-proxy-settings-optional)
 1. Installez le programme d’installation de l’agent (téléchargé à l’étape 2) sur des unités MTR, soit en exécutant MSI localement sur un appareil MTR, soit en publiant en masse des applications MSI sur des appareils de votre environnement (stratégie de groupe, etc.).
@@ -131,11 +131,11 @@ Le processus d’inscription implique les étapes suivantes :
 
 Après avoir téléchargé le programme d’installation à partir de Microsoft (à partir du portail ou à l’aide de l’URL AKA.ms fournie ci-dessus), décompressez son contenu pour accéder au fichier **ManagedRoomsInstaller.msi**.
 
-Il existe deux modes d’installation : 1) l’installation de l’ordinateur local individuel et 2) le mode de déploiement en masse (généralement via une stratégie de groupe de méthode similaire). Nous vous recommandons d’installer individuellement des ordinateurs non joints à un domaine ou des machines pour lesquelles vous n’avez aucun moyen d’exécuter des programmes d’installation MSI à distance.
+Il existe deux modes d’installation : 1) l’installation de la machine locale individuelle et 2) le mode de déploiement en masse (généralement via Intune de méthode similaire). Nous vous recommandons d’installer individuellement des ordinateurs non joints à un domaine ou des machines pour lesquelles vous n’avez aucun moyen d’exécuter des programmes d’installation MSI à distance.
 
-En raison des nombreuses façons dont les clients peuvent exécuter des applications MSI en mode de déploiement en masse, ce document décrit uniquement l’installation en mode individuel.
+En raison des nombreuses façons dont les clients peuvent exécuter des applications MSI en mode de déploiement en masse, ce document décrit uniquement l’installation en mode individuel et en bloc sur Intune appareils inscrits.
 
-## <a name="individual-devicemdashdomain-joined-walkthrough"></a>Procédure pas à pas jointe à un domaine d’appareil&mdash;individuel
+### <a name="individual-device-installation"></a>Installation d’un appareil individuel
 
 1. Connectez-vous à l’appareil en tant qu’administrateur. Assurez-vous *que les opérations d’exécution de l’utilisateur Administration des étapes de l’appareil* sont suivies.
 
@@ -154,9 +154,52 @@ En raison des nombreuses façons dont les clients peuvent exécuter des applicat
     > [!NOTE]
     > Ne fermez pas la fenêtre. Une fois l’installation terminée, l’Assistant affiche un bouton « Terminer ».
 
+### <a name="intune-enrolled-device-bulk-deployment"></a>déploiement en bloc d’appareil inscrit Intune
+
+Les composants suivants sont prérequis pour une installation réussie : 
+
+- **Intune inscription** : salles Teams sur les appareils Windows doivent déjà être inscrits dans Intune.
+  Pour plus d’informations sur l’inscription de salles Teams sur des appareils Windows dans Intune, consultez [Inscription de Salles Microsoft Teams sur des appareils Windows avec Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
+- Groupe **Azure AD avec tous les salles Teams sur les appareils Windows en tant que membres** : groupe créé dans Azure AD qui inclut tous les salles Teams sur les appareils Windows qui doivent faire partie du service Salles Microsoft Teams Premium. Ce groupe sera utilisé pour cibler le déploiement de l’agent MTRP.
+  
+> [!NOTE]
+> Vous pouvez envisager d’utiliser des groupes dynamiques dans Azure AD à cet effet, plus d’informations [sur l’inscription de Salles Microsoft Teams sur des appareils Windows avec Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
+- Télécharger le **programme d’installation** de **l’agent MTRP** : téléchargez le fichier zip de <https://aka.ms/serviceportalagentmsi> l’agent et extrayez le contenu du fichier zip (ManagedRoomsInstaller.msi) dans un dossier temporaire local.
+
+**Pour l’installer à l’aide de Intune**
+
+1. Connectez-vous au Centre d’administration [Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Sélectionnez **Applications** > **que toutes les applications** > **ajoutent**.
+1. Dans le volet **Sélectionner un type d’application** , sous **Autres** types d’application, sélectionnez **Application métier**.
+1. Cliquez sur **Sélectionner**. Les étapes **d’ajout d’application s’affichent** . 
+1. Dans le volet **Ajouter une application** , cliquez sur **Sélectionner le fichier de package d’application**.
+   1. Dans le volet **fichier du package d’application** ,  **sélectionnez Parcourir**. Ensuite, sélectionnez le fichier **ManagedRoomsInstaller.msi** téléchargé précédemment (reportez-vous à la section prérequis).
+   1. Lorsque vous avez terminé, sélectionnez **OK** dans le volet du **fichier de package** d’application pour ajouter l’application.
+1. Dans la page **d’informations sur l’application** , effectuez les modifications suivantes :
+   1. Éditeur : entrez **Microsoft Corporation**.
+   1. Ignorer la version de l’application : sélectionnez **Oui**.
+
+      > [!NOTE]
+      > L’agent MTRP est automatiquement mis à jour ; Par conséquent, vous devez ignorer explicitement la version de l’application (toute version de référence peut être mise à jour automatiquement).
+
+   1. (Facultatif) Catégorie : Sélectionnez **Gestion de l’ordinateur**.
+   
+1. Cliquez sur **Suivant** pour afficher la page **Affectations** .
+   1. Dans la section **Obligatoire** , cliquez **sur + Ajouter un groupe** pour cibler un groupe d’appareils pour l’installation de l’agent.
+   1. Dans le volet **Sélectionner un groupe, tapez** le nom du groupe dans la zone de recherche (reportez-vous aux prérequis ci-dessus), cliquez sur le **groupe** souhaité, puis cliquez sur **Sélectionner**.
+      Pour plus d’informations, consultez [Ajouter des groupes pour organiser les utilisateurs et les appareils](https://go.microsoft.com/fwlink/?linkid=2202166) et [attribuer des applications à des groupes avec Microsoft Intune](https://go.microsoft.com/fwlink/?linkid=2202270).
+1. Cliquez sur **Suivant** pour afficher la page **Vérifier + créer** .
+1. Passez en revue les valeurs et les paramètres que vous avez entrés pour l’application. Lorsque vous avez terminé, cliquez sur **Créer** pour ajouter l’application à Intune.
+
+Une fois le processus terminé, vos appareils commencent à installer l’agent MTRP après quelques minutes.
+
+> [!NOTE]
+> Après l’installation, l’agent MTRP peut prendre jusqu’à huit heures pour exécuter une mise à jour automatique vers la dernière version et être répertorié dans le portail MTRP.
+Pour accélérer l’inscription automatique dans le portail MTRP, envisagez de redémarrer l’appareil MTR après le déploiement de l’agent.
+
 ## <a name="completing-enrollment"></a>Fin de l’inscription
 
-Une fois l’installation terminée, attendez 5 à 10 minutes et actualisez le portail et l’appareil sera répertorié, signalé comme état *d’intégration* .
+Une fois l’installation terminée, attendez 5 à 10 minutes, puis actualisez le portail pour afficher l’appareil dans la liste, signalé comme état *d’intégration* .
 
 Dans *l’état d’intégration* , l’état de la salle est affiché et mis à jour, mais il ne déclenche pas d’alertes ou ne crée pas de tickets d’enquête.
 
@@ -171,7 +214,7 @@ Pour désinscrire l’appareil, supprimez l’agent de surveillance de l’appar
 1. Sur l’appareil surveillé, connectez-vous à l’appareil en tant qu’administrateur. Veillez à suivre les *étapes de l’exécution des opérations en tant qu’utilisateur Administration de l’appareil*.
 1. Téléchargez le script de réinitialisation à partir de [aka.ms/MTRPDeviceOffBoarding](https://aka.ms/MTRPDeviceOffBoarding).
 1. Extrayez le script quelque part sur l’appareil et copiez le chemin d’accès.
-1. Ouvrez PowerShell en tant qu’administrateur : dans le champ ***Search** _ Windows (section en bas à gauche de l’écran), entrez « PowerShell », puis cliquez avec le bouton droit sur _*_Windows PowerShell_**.
+1. Ouvrez PowerShell en tant qu’administrateur : dans le champ Windows ***Search** _ (section en bas à gauche de l’écran), entrez « PowerShell », puis cliquez avec le bouton droit sur _*_Windows PowerShell_**.
 1. Sélectionnez *« Exécuter en tant qu’administrateur »* et acceptez l’invite UAC.
 1. Entrez *Set-ExecutionPolicy –ExecutionPolicy RemoteSigned* , puis appuyez sur **Y** à l’invite suivante.
 1. Collez ou tapez le chemin complet du script de désintégrage décompressé dans la fenêtre PowerShell, puis **appuyez sur Entrée**.
@@ -202,6 +245,6 @@ C:\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-x.
 |||
 |Vous recevez un message d’erreur indiquant : </p><p> ***Les données TPM sont introuvables***|Vérifiez que le module TPM (Trusted Platform Module) est activé sur votre appareil dans son BIOS. Cela se trouve généralement dans les paramètres de sécurité du BIOS de l’appareil.|
 |||
-|Vous recevez un message d’erreur : </p><p> ***ERREUR : Le compte d’utilisateur local nommé « Administration » ou « Skype » est introuvable***|Assurez-vous que les comptes d’utilisateur existent sur l’appareil certifié Microsoft Teams Systèmes Room.|
+|Vous recevez un message d’erreur : </p><p> ***ERREUR : Le compte d’utilisateur local nommé « Administration » ou « Skype » est introuvable***|Assurez-vous que les comptes d’utilisateur existent sur l’appareil certifié microsoft Teams Room.|
 |||
-|Vous recevez des messages d’état d’erreur qui ne sont pas couverts ci-dessus.|Veuillez fournir une copie de votre journal d’installation à votre agent de support système Microsoft Teams.|
+|Vous recevez des messages d’état d’erreur qui ne sont pas couverts ci-dessus.|Veuillez fournir une copie de votre journal d’installation à votre agent de support Microsoft Teams System.|

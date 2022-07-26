@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Découvrez comment utiliser les paramètres de stratégie de réunion pour contrôler l’expiration de la réunion dans Microsoft Teams.
-ms.openlocfilehash: 08ca5a75b8dd470b006d44e562eb795f814faba6
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 3d79041cf6e8e16ed4ebd680cf5f4370e04cd62a
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529686"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005334"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Stratégies de réunion et expiration de la réunion dans Microsoft Teams
 
@@ -101,8 +101,8 @@ Les administrateurs peuvent modifier le paramètre d’expiration par défaut da
 La valeur de la date d’expiration peut être définie comme suit :
 
 - Valeur minimale : **1 jour**
-- Valeur maximale : **99 999 jours**
-- Vous pouvez également définir la date d’expiration sur **-1** afin que les enregistrements n’expirent jamais.
+- Valeur maximale : **99 9999 jours**
+- Vous pouvez également définir la date d’expiration sur **-1** dans PowerShell afin que les enregistrements n’expirent jamais.
 
 Exemple de commande PowerShell :
 
@@ -114,24 +114,19 @@ Vous pouvez définir la date d’expiration dans le Centre d’administration Te
 
 ![Administration capture d’écran du centre de la stratégie d’expiration de la réunion.](media/meeting-expiration-policy.jpg)
 
-### <a name="security-and-compliance"></a>Sécurité et conformité
+### <a name="compliance"></a>Conformité
 
-#### <a name="should-i-rely-on-this-feature-for-strict-security-and-compliance-adherence"></a>Dois-je m’appuyer sur cette fonctionnalité pour un respect strict de la sécurité et de la conformité ?
+Vous ne devez pas vous appuyer sur les paramètres d’expiration TMR pour la protection légale, car les utilisateurs finaux peuvent modifier la date d’expiration des enregistrements qu’ils contrôlent.
 
-Non, vous ne devez pas vous fier à cela pour la protection légale, car les utilisateurs finaux peuvent modifier la date d’expiration des enregistrements qu’ils contrôlent.
+#### <a name="teams-meeting-recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>Paramètres d’expiration de l’enregistrement de réunion Teams et stratégies de rétention Microsoft 365 dans Microsoft Purview
 
-#### <a name="will-a-retention-andor-deletion-policy-ive-set-in-the-security--compliance-center-override-the-teams-meeting-recording-expiration-setting"></a>Une stratégie de rétention et/ou de suppression que j’ai définie dans le Centre de sécurité & conformité remplacera-t-elle le paramètre d’expiration de l’enregistrement de réunion Teams ?
+La rétention des fichiers est prioritaire sur la suppression de fichier. Un enregistrement de réunion avec une stratégie de rétention Purview ne peut pas être supprimé par une stratégie d’expiration TMR tant que la période de rétention n’est pas terminée. Par exemple, si vous avez une stratégie de location Purview qui indique qu’un fichier sera conservé pendant cinq ans et une stratégie d’expiration TMR définie pendant 60 jours, la stratégie d’expiration TMR supprimera l’enregistrement au bout de cinq ans.  
 
-Oui, toutes les stratégies que vous avez définies dans le centre de conformité sont prioritaires.
+Si vous avez une stratégie d’expiration TMR et une stratégie de suppression Purview avec des dates de suppression différentes, le fichier sera supprimé au plus tôt des deux dates. Par exemple, si vous avez une stratégie de suppression Purview indiquant qu’un fichier sera supprimé au bout d’un an et qu’un délai d’expiration TMR est défini pour 120 jours, le paramètre d’expiration TMR supprime le fichier après 120 jours.
 
-Par exemple :
+### <a name="enforcement-of-file-retention-with-the-teams-meeting-recording-expiration-setting"></a>Application de la conservation des fichiers avec le paramètre d’expiration de l’enregistrement de la réunion Teams
 
-- Si vous avez une stratégie indiquant que tous les fichiers d’un site doivent être conservés pendant 100 jours et que le paramètre d’expiration d’un enregistrement de réunion Teams est de 30 jours, l’enregistrement est conservé pendant les 100 jours complets.
-- Si vous avez une stratégie de suppression indiquant que tous les enregistrements de réunion Teams seront supprimés après cinq jours et que vous disposez d’un paramètre d’expiration pour un enregistrement de réunion Teams de 30 jours, l’enregistrement sera supprimé après cinq jours.
-
-### <a name="will-this-feature-enforce-file-retention"></a>Cette fonctionnalité appliquera-t-elle la rétention des fichiers ?
-
-Non, les fichiers ne seront pas conservés en raison de cette fonctionnalité ou de ses paramètres. Si un utilisateur disposant d’autorisations de suppression tente de supprimer un TMR qui a un paramètre d’expiration, l’action de suppression de cet utilisateur est exécutée.
+Les fichiers ne seront pas conservés en raison de cette fonctionnalité ou de ses paramètres. Si un utilisateur disposant d’autorisations de suppression tente de supprimer un TMR qui a un paramètre d’expiration, l’action de suppression de cet utilisateur est exécutée.
 
 ### <a name="what-skus-are-required-for-this-feature"></a>Quelles sont les références SKU requises pour cette fonctionnalité ?
 
@@ -172,7 +167,7 @@ L’enregistrement est généralement supprimé dans un jour après la date d’
 > [!NOTE]
 > À la date d’expiration, l’enregistrement est déplacé dans la corbeille et le champ date d’expiration est effacé. Si vous récupérez l’enregistrement à partir de la corbeille, il ne sera plus supprimé par cette fonctionnalité, car la date d’expiration a été effacée.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Modifier la date d’expiration de la réunion - Contrôles de l’utilisateur final](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment configurer un contrôleur de frontière de session (SBC) pour servir plusieurs locataires pour les partenaires Microsoft et/ou les opérateurs RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9221414053b0ee92b87553e0f81c23b41b23f0fb
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 8880f912ae21af3bf269e86469241f345bc33f74
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616340"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005354"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -60,7 +60,7 @@ Pour obtenir des instructions détaillées sur le déploiement et la configurati
 
 - **AudioCodes :** Consultez les [notes de configuration du routage direct](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) pour la configuration du scénario d’hébergement SBC, comme décrit dans la note de configuration du modèle d’hébergement de routage direct microsoft Teams « Connecting AudioCodes SBC to Microsoft Teams Hosting Model ». 
 - **Oracle:** Consultez les [notes de configuration du routage direct](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html) pour la configuration du scénario d’hébergement SBC, comme décrit dans la section « Microsoft ». 
-- **Communications du ruban :** Pour obtenir de la documentation sur la configuration des [SBC Core SBC Core SBC](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) De ruban, consultez la documentation sur la configuration des SBC de la série Ribbon Core. Voir aussi [La meilleure pratique du ruban - Configuration des opérateurs pour Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
+- **Communications du ruban :** Pour obtenir de la documentation sur la configuration des [SBC Core SBC Core SBC](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+MS+Teams+Solution+Guide) De ruban, consultez la documentation sur la configuration des SBC de la série Ribbon Core. Voir aussi [La meilleure pratique du ruban - Configuration des opérateurs pour Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
 - **TE-Systems (anynode) :** Inscrivez-vous sur le site de [la page communauté TE-Systems](https://community.te-systems.de/) pour obtenir de la documentation et des exemples sur la configuration de anynode SBC pour plusieurs locataires.
 - **Métaswitch :** Inscrivez-vous sur le site de [la page De la communauté Metaswitch](https://manuals.metaswitch.com/MAN39555) pour obtenir de la documentation sur l’activation de Perimeta SBC pour plusieurs locataires.
 
