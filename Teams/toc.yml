@@ -459,8 +459,10 @@ items:
             href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       - name: 'Fichiers journaux, Intégrité des services et support'
         items:
-          - name: Utiliser des fichiers journaux pour surveiller et résoudre des problèmes liés à Teams
+          - name: Configurer des fichiers journaux pour la surveillance et la résolution des problèmes dans Teams
             href: log-files.md
+          - name: Journaux d’activité et suivi du navigateur pour Teams
+            href: browser-logs-and-tracing-for-teams.md
           - name: Vérifier l’intégrité du service pour Microsoft Teams
             href: service-health.md
           - name: Comment rechercher votre code confidentiel d’assistance
@@ -977,6 +979,8 @@ items:
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: Gérer les numéros de téléphone utilisés pour le Routage direct
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
+          - name: Gestion des licences et des numéros de téléphone
+            href: phone-numbers-licensing-changes.md
       - name: Forfait d’appels et routage
         items:
           - name: Aperçu
