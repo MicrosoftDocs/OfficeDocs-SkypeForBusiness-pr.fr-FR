@@ -17,18 +17,18 @@ description: Découvrez ce qu’il faut faire lorsque vous devez effectuer eDisc
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac4aa6e8182342f36da0434aaf78123937d6d8ce
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 1d548149f978764bbfbe3d0cd3475704ad6a76c2
+ms.sourcegitcommit: 9b08e2826b5b210abd9daa2ef40d4693a5000e33
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616410"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67039641"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
 Les grandes entreprises sont souvent exposées à des poursuites judiciaires à sanctions élevées qui exigent la soumission de toutes les informations stockées électroniquement (ESI). Le contenu Microsoft Teams peut être recherché et utilisé pendant les investigations eDiscovery.
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 
 Toutes les conversations Microsoft Teams 1:1 ou de groupe sont journalées dans les boîtes aux lettres des utilisateurs respectifs. Tous les messages de canal standard sont journalés dans la boîte aux lettres de groupe représentant l’équipe. Les fichiers chargés dans les canaux standard sont couverts par les fonctionnalités eDiscovery pour SharePoint Online et OneDrive Entreprise.
 
@@ -69,16 +69,13 @@ Voici un exemple de conversation entre les participants au cours d’une réunio
 
 ![Conversation entre les participants dans Teams.](media/MeetingIMConversations.png)
 
-[!div class="mx-imgBorder"]
-
 Voici un exemple de copie de conformité de la même conversation de conversation affichée dans un outil eDiscovery.
 
 ![Conversation entre les participants dans les résultats de la recherche eDiscovery.](media/MeetingImConversation2.png)
 
 Voici un exemple de métadonnées de réunion.
 
-  > [!div class="mx-imgBorder"]
-  > ![Métadonnées de réunion de la copie de conformité.](media/conversationOption3.png)
+![Métadonnées de réunion de la copie de conformité.](media/conversationOption3.png)
 
 Pour plus d’informations sur la conduite d’une enquête eDiscovery, consultez [Prise en main d’eDiscovery (Standard).](/microsoft-365/compliance/get-started-core-ediscovery)
 
@@ -246,7 +243,7 @@ Les administrateurs peuvent utiliser eDiscovery pour rechercher du contenu dans 
 
 - **Non fédéré** : dans une réunion Teams avec des utilisateurs de votre organisation et des utilisateurs invités, seuls les administrateurs de l’organisation qui héberge la réunion Teams peuvent rechercher du contenu dans les messages de conversation de la réunion.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Solutions Microsoft 365 eDiscovery](/microsoft-365/compliance/ediscovery)
 - [Bien démarrer avec eDiscovery (Standard)](/microsoft-365/compliance/get-started-core-ediscovery)

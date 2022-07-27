@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Découvrez comment appeler, converser, rechercher, puis ajouter des utilisateurs extérieurs à l’organisation dans Microsoft Teams à l’aide de l’accès externe et de l’accès invité.
-ms.openlocfilehash: c2cf4a3820cceacf1f84401161d130995ecbc98f
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 829f763c77578fdc9e17a29386ebad30e52f4986
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125479"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023987"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Utiliser l’accès invité et l’accès externe pour collaborer avec des personnes extérieures à votre organisation
 
@@ -42,6 +42,11 @@ Par défaut, l'accès externe est activé pour tous les domaines. Vous pouvez re
 
 ![Capture d’écran des paramètres d’accès externe](media/external-access-federation-settings.png)
 
+L’accès externe est disponible pour les locataires suivants :
+
+- Dans et entre Commercial, GCC et GCC high
+- Entre DOD uniquement
+
 Si vous souhaitez configurer l’accès externe, veuillez consulter la rubrique [Gérer l'accès externe](manage-external-access.md). 
 
 >[!NOTE]
@@ -52,6 +57,12 @@ Si vous souhaitez configurer l’accès externe, veuillez consulter la rubrique 
 L’accès invité permet d’ajouter une personne extérieure à votre organisation à une équipe, dans laquelle elle peut discuter, appeler, rencontrer des participants, puis collaborer sur des fichiers. Les invités peuvent bénéficier de presque toutes les mêmes fonctionnalités Teams que les membres d’équipe natifs. Pour plus d’informations, voir [Expérience des invités dans Teams.](guest-experience.md)
 
 Les invités sont ajoutés au répertoire Azure Active Directory de votre organisation en tant qu’utilisateurs B2B, puis doivent se connecter à Teams à l’aide de leur compte invité. En d’autres termes, ils devront sans doute se déconnecter de leurs propres organisations pour se connecter à la vôtre.
+
+L’accès invité est disponible pour les locataires suivants :
+
+- Dans et entre Commercial et GCC
+- Entre GCC High uniquement
+- Entre DOD uniquement
 
 Si vous souhaitez configurer l’accès invité pour Teams, veuillez consulter la rubrique [Collaborer avec des invités au sein d’une équipe](/microsoft-365/solutions/collaborate-as-team).
 
