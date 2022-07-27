@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Découvrez comment attribuer des licences de module complémentaire Teams aux utilisateurs pour des fonctionnalités telles que l’audioconférence, le système téléphonique et les forfaits d’appels.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 380abec55466d831722c76c9e552055378ecf1df
-ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+ms.openlocfilehash: 07196e26f38042b6046d6761bd60dfad64f89c7d
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "66838819"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023675"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Attribuer des licences de module complémentaire Teams aux utilisateurs
 
@@ -64,18 +64,10 @@ Utilisez PowerShell pour attribuer des licences aux utilisateurs en bloc. Pour p
 
 Voici un exemple d’utilisation d’un script pour attribuer des licences à vos utilisateurs.
 
-1. Installez la version 64 bits de [l’Assistant Connexion Microsoft Online Services pour les professionnels de l’informatique RTW](/collaborate/connect-redirect?DownloadID=59185).
-2. Installez le module Microsoft Azure Active Directory pour Windows PowerShell :
-    1. Ouvrez une invite de commandes de Windows PowerShell avec élévation de privilèges (exécutez Windows PowerShell en tant qu’administrateur).
-    2. Exécutez la commande suivante :
-        ```powershell
-        Install-Module MSOnline
-        ```
-    3. Si vous êtes invité à installer le fournisseur NuGet, tapez **Y**, puis appuyez sur Entrée.
-    4. Si vous êtes invité à installer le module à partir de PSGallery, tapez **Y**, puis appuyez sur Entrée.
-3. À l’invite de commandes Windows PowerShell, exécutez le script suivant pour attribuer des licences à vos utilisateurs, où \<CompanyName:License> se trouvent le nom de votre organisation et l’identificateur de la licence que vous souhaitez attribuer. Par exemple, litwareinc:MCOMEETADV.
+1. [Installez le module Microsoft Azure Active Directory pour Windows PowerShell](/powershell/azure/active-directory/install-msonlinev1).
+2. À l’invite de commandes Windows PowerShell, exécutez le script suivant pour attribuer des licences à vos utilisateurs, où `CompanyName:License` se trouvent le nom de votre organisation et l’identificateur de la licence que vous souhaitez attribuer. Par exemple, `litwareinc:MCOMEETADV`.
 
-    L’identificateur est différent du nom convivial de la licence. Par exemple, l’identificateur de l’audioconférence est MCOMEETADV. Pour plus d’informations, consultez [les noms de produits et les identificateurs de référence SKU pour la gestion des licences](#product-names-and-sku-identifiers-for-licensing).
+    L’identificateur est différent du nom convivial de la licence. Par exemple, l’identificateur de l’audioconférence est `MCOMEETADV`. Pour plus d’informations, consultez [les noms de produits et les identificateurs de référence SKU pour la gestion des licences](#product-names-and-sku-identifiers-for-licensing).
 
     ```powershell
     #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.

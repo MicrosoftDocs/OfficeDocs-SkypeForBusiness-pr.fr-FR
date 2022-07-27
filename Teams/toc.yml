@@ -1600,8 +1600,16 @@ items:
             href: easy-policy-setup-edu.md
           - name: Connexion des parents dans les équipes pour l'éducation
             href: edu-parents-app.md
-          - name: Application Conseiller d’orientation dans Teams pour l'éducation
-            href: career-coach.md
+          - name: Conseiller d'orientation
+            items:
+              - name: Commencer à utiliser le Conseiller d'orientation
+                href: career-coach.md
+              - name: Installer et configurer le Conseiller d'orientation
+                href: career-coach-set-up-steps.md
+              - name: Résoudre des problèmes avec le Conseiller d'orientation
+                href: career-coach-troubleshoot.md
+              - name: Ressources pour le Conseiller d'orientation
+                href: career-coach-resources.md
           - name: Supervisez les conversations dans Teams
             href: supervise-chats-edu.md
           - name: Éducation Insights
@@ -1998,6 +2006,8 @@ items:
             href: complaint-handling-code-for-the-united-kingdom-u-k.md
           - name: Conditions générales d’utilisation des appels d’urgence
             href: emergency-calling-terms-and-conditions.md
+      - name: Erreurs des canaux partagés
+        href: shared-channels-errors.md
       - name: Mettre à niveau du questionnaire de découverte
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Notes de publication pour les fonctionnalités d’administration de Teams

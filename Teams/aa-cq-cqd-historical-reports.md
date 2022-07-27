@@ -21,23 +21,25 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: Découvrez comment utiliser le tableau de bord qualité des appels Power BI rapport pour afficher les données historiques du standard automatique et de la file d’attente des appels.
-ms.openlocfilehash: e2d71410d10fb809debd1699afcf452c71a6e088
-ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
+description: Découvrez comment utiliser le rapport Power BI du tableau de bord qualité des appels pour afficher les données historiques du standard automatique et de la file d’attente des appels.
+ms.openlocfilehash: b9bb3cf0990058cd16ed35d52d07f63be6cd90fb
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046446"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67024007"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Rapport d’historique de la file d’attente d’appels & standard automatique
 
-Le Teams standard automatique & modèle de rapport historique de file d’attente d’appels Power BI fournit les trois rapports suivants :
+Le standard automatique Teams & modèle Power BI de rapport historique de file d’attente d’appels fournit les trois rapports suivants :
 
 - [Standard automatique](media/cqd-teams-aa-cq-historical-report-sample-aa.png) : affichage de l’analytique des appels entrants dans vos standards automatiques.
 - [File d’attente d’appels](media/cqd-teams-aa-cq-historical-report-sample-cq.png) : analyse des appels entrant dans vos files d’attente d’appels.
 - [Chronologie de l’agent](media/cqd-teams-aa-cq-historical-report-sample-at.png) : affichage de la chronologie des agents actifs dans les appels de file d’attente d’appels.
 
 Ces rapports utilisent les données du magasin de données [Tableau de bord qualité des appels](CQD-Power-BI-query-templates.md) . Les rapports permettent aux organisations de signaler le nombre d’appels traités par les standards automatiques et les files d’attente d’appels.  Les rapports fournissent également des insights sur les performances de l’agent dans les files d’attente d’appels.
+
+### <a name="v160-published-on-july-22-2022"></a>V1.60 publié le 22 juillet 2022
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -52,17 +54,17 @@ Le compte que vous utilisez pour afficher le rapport d’historique doit dispose
 
 ## <a name="installation"></a>Installation 
 
-Les étapes suivantes supposent que vous avez déjà installé Power BI Desktop sur l’ordinateur et que votre compte dispose des autorisations nécessaires pour accéder au pipeline de données CQD.
+Les étapes suivantes supposent que vous avez déjà installé Power BI Desktop sur votre ordinateur et que votre compte dispose des autorisations nécessaires pour accéder au pipeline de données CQD.
 
 Effectuez les étapes suivantes :
 
-- Téléchargez les [modèles de requête CQD Power BI](https://www.microsoft.com/download/details.aspx?id=102291) et enregistrez le fichier zip dans un répertoire sur votre ordinateur.
+- Téléchargez les [modèles de requête Power BI CQD](https://www.microsoft.com/download/details.aspx?id=102291) et enregistrez le fichier zip dans un répertoire sur votre ordinateur.
 
 - Double-cliquez sur le fichier zip pour l’ouvrir.
 
-- Double-cliquez sur le fichier de modèle « CQ and AA combined Analytics 20201105.pbit ». Le Power BI Desktop doit être lancé.
+- Double-cliquez sur le fichier de modèle « Standard automatique CQD Teams & Rapport historique de file d’attente d’appels V1.60.pbit ». Le Power BI Desktop doit être lancé.
 
-- Vous êtes invité à sélectionner la région de pipeline de données CQD. Sélectionnez la région où se trouve votre locataire.
+- Vous êtes invité à sélectionner la région du pipeline de données CQD. Sélectionnez la région où se trouve votre locataire.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Capture d’écran sélection de la région du pipeline de données CQD.":::
 
@@ -83,23 +85,23 @@ Effectuez les étapes suivantes :
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Capture d’écran sélectionnant l’option d’actualisation.":::
 
-- Vous serez alors invité à vous connecter. Sélectionnez **Compte d’organisation** , puis **Connectez-vous**.
+- Vous serez invité à vous connecter. Sélectionnez **Compte d’organisation** , puis **Connectez-vous**.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Capture d’écran montrant la connexion.":::
 
-- Sélectionnez **Connecter** et observez l’actualisation des données.
+- Sélectionnez **Se connecter** et regardez l’actualisation des données.
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>Latence des données et analytique AA & CQ
 
-Les données seront disponibles dans le pipeline de données CQD dans un délai de 30 minutes.
+Les données sont généralement disponibles dans les 30 minutes suivant la fin de l’appel ; toutefois, il peut arriver que l’apparition des données prenne plusieurs heures. 
 
-Vous devrez actualiser les données pour voir les nouvelles données analytiques. 
+Vous devrez actualiser les données pour voir les nouvelles données.
 
 ## <a name="customization"></a>Personnalisation 
 
 Vous pouvez personnaliser certains aspects de visualisation des rapports, tels que l’ajout ou la suppression de champs à afficher dans les différentes visualisations, la modification du type de graphique, etc.
 
-Vous ne pouvez pas ajouter d’autres champs de données au rapport.
+Le rapport contient toutes les métriques de données actuellement disponibles.
 
 ### <a name="change-color-schema"></a>Modifier le schéma de couleur 
 
@@ -306,6 +308,15 @@ Effectuez les étapes suivantes :
 
 - Seuls 28 jours d’historique sont disponibles dans le tableau de bord, car les données de file d’attente d’appels/standard automatique sont considérées comme des données personnelles et sont soumises à des stratégies de rétention de la confidentialité des données.
 
-- Dans certains scénarios, le nombre d’appels répondus par l’agent dans le rapport chronologie de l’agent de file d’attente d’appels cloud peut être différent du nombre d’appels indiqué dans l’historique des appels client Teams. L’historique des appels du client Teams est correct. Le support est en cours d’examen, mais il n’y a pas de temps estimé pour la réparation disponible pour l’instant.
+- Dans certains scénarios, le nombre d’appels répondus par l’agent dans le rapport chronologie de l’agent de file d’attente d’appels cloud peut être différent du nombre d’appels indiqué dans l’historique des appels du client Teams. L’historique des appels du client Teams est correct. Le support est en cours d’examen, mais il n’y a pas de temps estimé pour la réparation disponible pour l’instant.
 
 - <sup>1</sup> **La source d’appel entrante** dans le standard automatique et les graphiques de file d’attente des appels indiquent la source de la jambe d’appel finale plutôt que la source de la jambe d’appel initiale. Par exemple, si un standard automatique reçoit un appel externe et transfère l’appel à un autre standard automatique ou file d’attente d’appels, la **source d’appel entrante** est signalée comme interne.
+
+## <a name="version-history"></a>Historique des versions
+|Version  |Date de publication     |Fichier                                                           |Description                                         |
+|:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
+|1.60     |22 juillet 2022      |Standard automatique CQD Teams & rapport historique de file d’attente d’appels V1.60.pbit |Reportez-vous à :<br>Standard automatique CQD Teams & rapports historiques de file d’attente d’appels - Modifier Log.docx dans le fichier zip téléchargé pour obtenir la liste des modifications                                                                             |
+|1.00     |5 novembre 2020   |CQ et AA combined Analytics 20201105.pbit                         |Version initiale                                     |
+
+
+

@@ -19,16 +19,16 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 72ad8b9349681dbb10c3df848f99cc0250711543
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: 7e68c0563420ad2c4e2d53421dc8dfaecfc23cd1
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370817"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023977"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
-Dans Microsoft Teams, les utilisateurs peuvent enregistrer leurs réunions et appels de groupe Teams pour capturer les activités audio, vidéo et de partage d’écran. Il existe également une option de transcription automatique des enregistrements qui permet aux utilisateurs de regarder les enregistrements des réunions avec des sous-titres et de rechercher des éléments de discussion importants dans la transcription. L’enregistrement se produit dans le cloud et est enregistré dans Microsoft OneDrive Entreprise et Microsoft SharePoint Online, afin que les utilisateurs puissent le partager en toute sécurité au sein de leur organisation.
+Dans Microsoft Teams, les utilisateurs peuvent enregistrer leurs réunions et appels de groupe Teams pour capturer les activités audio, vidéo et de partage d’écran. Il existe également une option de transcription automatique des enregistrements qui permet aux utilisateurs de regarder les enregistrements des réunions avec des sous-titres et de rechercher des éléments de discussion importants dans la transcription. L’enregistrement se produit dans le cloud et est réalisé dans OneDrive et SharePoint, afin que les utilisateurs puissent le partager en toute sécurité au sein de leur organisation.
 
 Lorsqu’une réunion est enregistrée, elle est automatiquement :
 
@@ -42,18 +42,18 @@ Lorsqu’une réunion est enregistrée, elle est automatiquement :
 Connexe : [documentation de l’utilisateur final sur l’enregistrement de la réunion Teams](https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 
 >[!Note]
-> Le passage de l’utilisation de Microsoft Stream (classique) à OneDrive Entreprise et SharePoint Online pour les enregistrements de réunions aura lieu automatiquement en août 2021. Pour plus d’informations, consultez [Utiliser OneDrive Entreprise et SharePoint Online ou Stream pour les enregistrements de réunion](tmr-meeting-recording-change.md).
+> Le passage de l’utilisation de Microsoft Stream (classique) à OneDrive et SharePoint pour les enregistrements de réunion aura lieu automatiquement en août 2021. Pour plus d’informations, consultez [Utiliser OneDrive et SharePoint ou Stream pour les enregistrements de réunion](tmr-meeting-recording-change.md).
 
 > [!NOTE]
 > Si vous souhaitez en savoir plus sur l’utilisation des rôles dans les réunions Teams et la méthode pour modifier les rôles des utilisateurs, consultez l’article [Rôles dans une réunion Teams](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019). Pour les options d’enregistrement d’événements en direct, consultez l’article [Stratégies d’enregistrement des événements en direct dans Teams. ](teams-live-events/live-events-recording-policies.md).
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Conditions préalables pour l’enregistrement de réunion cloud Teams
 
-Pour que les réunions d’un utilisateur Teams soient enregistrées, OneDrive Entreprise et SharePoint Online doivent être activés pour le client. De plus, les conditions préalables suivantes sont requises pour l’organisateur de la réunion et la personne qui lance l’enregistrement :
+Pour que les réunions d’un utilisateur Teams soient enregistrées, OneDrive et SharePoint doivent être activés pour le client. De plus, les conditions préalables suivantes sont requises pour l’organisateur de la réunion et la personne qui lance l’enregistrement :
 
-- L’utilisateur dispose d’un espace de stockage suffisant dans OneDrive Entreprise pour enregistrer les enregistrements de réunions hors canal.
+- L’utilisateur dispose d’un espace de stockage suffisant dans OneDrive pour enregistrer les sauvegardes de réunion hors canal.
 
-- Le canal Teams dispose d’un stockage suffisant dans SharePoint Online pour enregistrer les enregistrements des réunions de canal.
+- Le canal Teams dispose d’un espace de stockage suffisant dans SharePoint pour que les enregistrements des réunions de canal soient enregistrés.
 
 - L’utilisateur a `CsTeamsMeetingPolicy -AllowCloudRecording` défini le paramètre sur true pour enregistrer les réunions et les appels de groupe.
 
@@ -67,7 +67,7 @@ Pour que les réunions d’un utilisateur Teams soient enregistrées, OneDrive E
 
 > [!IMPORTANT]
 >
-> Les utilisateurs n’ont pas besoin d’activer OneDrive Entreprise ou SharePoint Online si vous souhaitez que les utilisateurs puissent uniquement enregistrer et télécharger les enregistrements. Cela signifie que les enregistrements ne sont pas stockés dans OneDrive Entreprise ou SharePoint Online, mais qu’ils sont stockés dans un stockage Teams temporaire avec une limite de 21 jours avant leur suppression. Il ne s’agit pas d’un élément qu’un administrateur peut contrôler, gérer ou supprimer pour l’instant.
+> Les utilisateurs n’ont pas besoin que OneDrive ou SharePoint soit activé si vous souhaitez que les utilisateurs enregistrent et téléchargent uniquement les enregistrements. Cela signifie que les enregistrements ne sont pas stockés dans OneDrive ou SharePoint, mais qu’ils sont stockés dans un stockage Teams temporaire avec une limite de 21 jours avant leur suppression. Il ne s’agit pas d’un élément qu’un administrateur peut contrôler, gérer ou supprimer pour l’instant.
 >
 > Pour plus [d’informations sur le fonctionnement du stockage d’enregistrement de réunion temporaire](#temp-storage), voir ci-dessous.  
 
@@ -115,7 +115,7 @@ Ce paramètre contrôle si les réunions de canal sont enregistrées dans un dos
 
 Les deux valeurs de ce paramètre sont les suivantes :
 
-- **Autoriser** (par défaut) : enregistre les enregistrements de réunion de canal dans un dossier « Recordings » dans le canal. Les autorisations sur les fichiers d’enregistrement sont basées sur les autorisations Channel SharePoint Online. Il s’agit du même fichier que n’importe quel autre fichier chargé pour le canal.
+- **Autoriser** (par défaut) : enregistre les enregistrements de réunion de canal dans un dossier « Recordings » dans le canal. Les autorisations sur les fichiers d’enregistrement sont basées sur les autorisations SharePoint du canal. Il s’agit du même fichier que n’importe quel autre fichier chargé pour le canal.
 
 - **Bloquer**: enregistre les enregistrements de réunion de canal dans un dossier « Recordings\View only » dans le canal. Les propriétaires de canaux disposeront de droits complets sur les enregistrements de ce dossier, mais les membres du canal disposeront d’un accès en lecture sans possibilité de téléchargement.
 
@@ -149,7 +149,7 @@ L’activation de ce paramètre crée une copie de la transcription stockée ave
 
 
 > [!NOTE]
-> Cette transcription pour les réunions enregistrées est actuellement prise en charge uniquement pour l’anglais (États-Unis), l’anglais (Canada), l’anglais (Inde), l’anglais (Royaume-Uni), l’anglais (Australie), l’anglais (Nouvelle-Zélande), l’arabe (Émirats arabes unis), l’arabe (Arabie saoudite), le chinois (cantonais), le chinois (mandarin), le tchèque (Tchèque), Danois (Danemark), Néerlandais (Belgique), Néerlandais (Pays-Bas), Français (Canada), Français (France), Finlandais (Finlande), Allemand (Allemagne), Hébreu (Israël), hindi (Inde), italien (Italie), japonais (Japon),  Coréen (Corée), Norvégien (Norvège), Polonais (Pologne), Portugais (Brésil), Portugais (Portugal), Russe (Russie), Espagnol (Mexique), Espagnol (Espagne), Suédois (Suède), Thaï (Thaïlande), Turc (Turquie), Vietnamien (Vietnam). Ils sont stockés avec les enregistrements de réunion dans OneDrive Entreprise et le stockage cloud SharePoint Online.
+> Cette transcription pour les réunions enregistrées est actuellement prise en charge uniquement pour l’anglais (États-Unis), l’anglais (Canada), l’anglais (Inde), l’anglais (Royaume-Uni), l’anglais (Australie), l’anglais (Nouvelle-Zélande), l’arabe (Émirats arabes unis) , l’arabe (Arabie saoudite), le chinois (simplifié, Chine), chinois (traditionnel, Hong Kong SAR), chinois (traditionnel, Taïwan), tchèque (Tchèque), danois (Danemark), néerlandais (Belgique), néerlandais (Pays-Bas), Français (Canada), Français (France), finnois (Finlande), allemand (Allemagne), Grec (Grèce), hébreu (Israël), hindi (Inde), hongrois (Hongrie), italien (Italie), japonais (Japon), coréen (Corée), norvégien (Norvège), polonais (Pologne), portugais (Brésil), portugais (Portugal), roumain (Romanie), russe (Russie), slovaque (Pologne), espagnol (Mexique), espagnol (Espagne), suédois (Suède), thaï (Thaïlande), turc (Turquie), ukrainien (Ukraine), vietnamien (Vietnam). Ils sont stockés avec les enregistrements de réunion dans OneDrive et le stockage cloud SharePoint.
 
 Vous pouvez utiliser le Centre d’administration Microsoft Teams ou PowerShell pour définir une stratégie de réunion Teams afin de contrôler si l’initiateur d’enregistrement peut transcrire le choix de transcrire l’enregistrement de la réunion.
 
@@ -202,15 +202,15 @@ Après avoir ajouté l'URL de votre stratégie de confidentialité, la déclarat
 
 ## <a name="permissions-and-storage"></a>Autorisations et stockage
 
-Les enregistrements de réunion sont stockés dans OneDrive Entreprise et le stockage cloud SharePoint Online. L’emplacement et les autorisations dépendent du type de réunion et du rôle de l’utilisateur dans la réunion. Les autorisations par défaut appliquées à l’enregistrement sont répertoriées ci-dessous. Les utilisateurs qui disposent de droits d’édition complets sur le fichier d’enregistrement vidéo peuvent modifier les autorisations et les partager ultérieurement avec d’autres personnes si nécessaire.
+Les enregistrements de réunion sont stockés dans Le Stockage Cloud OneDrive et SharePoint. L’emplacement et les autorisations dépendent du type de réunion et du rôle de l’utilisateur dans la réunion. Les autorisations par défaut appliquées à l’enregistrement sont répertoriées ci-dessous. Les utilisateurs qui disposent de droits d’édition complets sur le fichier d’enregistrement vidéo peuvent modifier les autorisations et les partager ultérieurement avec d’autres personnes si nécessaire.
 
 ### <a name="non-channel-meetings"></a>Réunions hors canal
 
-- L’enregistrement est stocké dans un dossier nommé **Recordings** dans le OneDrive Entreprise de l’utilisateur qui a cliqué sur l’enregistrement. 
+- L’enregistrement est stocké dans un dossier nommé **Enregistrements** dans le OneDrive de l’utilisateur qui a cliqué sur l’enregistrement. 
 
-  Exemple : <i>Enregistrements OneDrive Entreprise</i>/**Recordings**
+  Exemple : <i>enregistrements OneDrive/de la sauvegarde</i>
 
-- Les personnes invitées à la réunion, à l’exception des utilisateurs externes, bénéficient automatiquement de l’autorisation d’accès au fichier d’enregistrement avec accès en affichage sans possibilité de téléchargement.
+- Les personnes invitées à la réunion, à l’exception des participants externes, bénéficient automatiquement de l’autorisation d’accès au fichier d’enregistrement avec un accès en affichage sans possibilité de téléchargement.
 
 - Le propriétaire de la réunion et la personne qui a cliqué sur l’enregistrement bénéficieront d’un accès de modification complet avec la possibilité de modifier les autorisations et de partager avec d’autres personnes.
 
@@ -224,7 +224,7 @@ Si `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` est défini sur Autorise
 
 - Le membre qui a cliqué sur l’enregistrement dispose des droits de modification pour l’enregistrement.
 
-- Les autorisations de tous les autres membres sont basées sur les autorisations Channel SharePoint Online.
+- Les autorisations de tous les autres membres sont basées sur les autorisations canal SharePoint.
 
 Si `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` est défini sur Bloquer :
 
@@ -240,27 +240,27 @@ Pour plus d’informations sur des types de réunions spécifiques, consultez le
 
 | Type de réunion  | Qui a cliqué sur Enregistrement ?| Où arrive l’enregistrement ? | Qui a accès ? En lecture et en écriture, lecture seule ou partage  |
 |-------------|-----------------------|------------------------|------------------------|
-|Appel individuel avec des parties internes             |Appelant                 |Compte OneDrive Entreprise de l’appelant                        |L’appelant est propriétaire et dispose de tous les droits. <br /><br />L’appelé (si dans le même client) dispose d’un accès en lecture seule. Aucun accès de partage. <br /><br /> Le destinataire de l’appel (s’il est dans un client différent) ne dispose d’aucun accès. L’appelant doit partager le document avec le destinataire de l’appel.|
-|Appel individuel avec des parties internes             |Destinataire de l’appel                 |Compte OneDrive Entreprise du destinataire de l’appel                        |Le destinataire de l’appel est propriétaire et dispose de tous les droits. <br /><br />Appelant (si dans le même client) dispose d’un accès en lecture seule. Aucun accès de partage. <br /><br />L’appelant (s’il est dans un client différent) ne dispose d’aucun accès. Le destinataire de l’appel doit partager le document avec l’appelant.|
-|Appel individuel avec des parties externes             |Appelant                 |Compte OneDrive Entreprise de l’appelant                        |L’appelant est propriétaire et dispose de tous les droits.<br /> <br />Le destinataire de l’appel ne dispose d’aucun accès. L’appelant doit partager le document avec le destinataire de l’appel.|
-|Appel individuel avec des parties externes             |Destinataire de l’appel                 |Compte OneDrive Entreprise du destinataire de l’appel                        |Le destinataire de l’appel est propriétaire et dispose de tous les droits.<br /><br />L’appelant ne dispose d’aucun accès. Le destinataire de l’appel doit partager le document avec l’appelant.|
-|Appel de groupe                                 |Tout membre de l’appel |Membre ayant cliqué sur le compte OneDrive Entreprise de l’enregistrement  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits. <br /><br /> Les autres membres du même client disposent de droits en lecture. <br /><br /> Les autres membres du groupe de différent clients n’y ont aucun droit.|
-|Réunion ad hoc/planifiée                    |Organisateur              |Compte OneDrive Entreprise de l’organisateur                     |L’organisateur dispose de droits complets sur l’enregistrement. <br /><br /> Tous les autres membres de la réunion disposent d’un accès en lecture sans possibilité de téléchargement.|
+|Appel individuel avec des parties internes             |Appelant                 |Compte OneDrive de l’appelant                        |L’appelant est propriétaire et dispose de tous les droits. <br /><br />L’appelé (si dans le même client) dispose d’un accès en lecture seule. Aucun accès de partage. <br /><br /> Le destinataire de l’appel (s’il est dans un client différent) ne dispose d’aucun accès. L’appelant doit partager le document avec le destinataire de l’appel.|
+|Appel individuel avec des parties internes             |Destinataire de l’appel                 |Compte OneDrive de l’appelé                        |Le destinataire de l’appel est propriétaire et dispose de tous les droits. <br /><br />Appelant (si dans le même client) dispose d’un accès en lecture seule. Aucun accès de partage. <br /><br />L’appelant (s’il est dans un client différent) ne dispose d’aucun accès. Le destinataire de l’appel doit partager le document avec l’appelant.|
+|Appel individuel avec des parties externes             |Appelant                 |Compte OneDrive de l’appelant                        |L’appelant est propriétaire et dispose de tous les droits.<br /> <br />Le destinataire de l’appel ne dispose d’aucun accès. L’appelant doit partager le document avec le destinataire de l’appel.|
+|Appel individuel avec des parties externes             |Destinataire de l’appel                 |Compte OneDrive de l’appelé                        |Le destinataire de l’appel est propriétaire et dispose de tous les droits.<br /><br />L’appelant ne dispose d’aucun accès. Le destinataire de l’appel doit partager le document avec l’appelant.|
+|Appel de groupe                                 |Tout membre de l’appel |Membre du groupe qui a cliqué sur le compte OneDrive de l’enregistrement  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits. <br /><br /> Les autres membres du même client disposent de droits en lecture. <br /><br /> Les autres membres du groupe de différent clients n’y ont aucun droit.|
+|Réunion ad hoc/planifiée                    |Organisateur              |Compte OneDrive de l’organisateur                     |L’organisateur dispose de droits complets sur l’enregistrement. <br /><br /> Tous les autres membres de la réunion disposent d’un accès en lecture sans possibilité de téléchargement.|
 |Réunion ad hoc/planifiée                    |Autre membre de la réunion   |Membre de réunion qui a cliqué sur Enregistrer                                  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits d’accès à l’enregistrement. <br /><br />L’organisateur dispose de droits de modification et de partage.<br /><br /> Tous les autres membres de la réunion disposent d’un accès en lecture sans possibilité de téléchargement.|
-|Réunion ad hoc/planifiée avec des utilisateurs externes|Organisateur              |Compte OneDrive Entreprise de l’organisateur                     |L’organisateur dispose de droits complets sur l’enregistrement.<br /> <br /> Tous les autres membres de la réunion du même client que l’organisateur disposent d’un accès en lecture sans possibilité de téléchargement. <br /><br /> Tous les autres membres externes n’ont pas d’accès, et l’organisateur doit le partager avec eux.|
-|Réunion ad hoc/planifiée avec des utilisateurs externes|Autre membre de la réunion   |Membre qui a cliqué sur Enregistrement                                  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits d’accès à l’enregistrement. L’organisateur dispose de droits de modification et de partage. <br /><br /> Tous les autres membres de la réunion du même client que l’organisateur disposent d’un accès en lecture sans possibilité de téléchargement. <br /><br />Tous les autres membres externes n’ont pas d’accès, et l’organisateur doit le partager avec eux.|
-|Réunion de canal                            |Membre du canal         |Emplacement SharePoint de Teams pour ce canal                   |Si Set-CsTeamsMeetingPolicy -ChannelRecordingDownload est défini sur Autoriser (par défaut), le membre qui a cliqué sur Enregistrement dispose des droits de modification pour l’enregistrement. Les autorisations de tous les autres membres sont basées sur les autorisations Channel SharePoint Online.<Br><Br>Si Set-CsTeamsMeetingPolicy -ChannelRecordingDownload est défini sur Bloquer, les propriétaires de canaux disposeront des droits complets sur l’enregistrement, mais les membres du canal disposeront d’un accès en lecture sans possibilité de téléchargement.|
+|Réunion ad hoc/planifiée avec des participants externes|Organisateur              |Compte OneDrive de l’organisateur                     |L’organisateur dispose de droits complets sur l’enregistrement.<br /> <br /> Tous les autres membres de la réunion du même client que l’organisateur disposent d’un accès en lecture sans possibilité de téléchargement. <br /><br /> Tous les autres membres externes n’ont pas d’accès, et l’organisateur doit le partager avec eux.|
+|Réunion ad hoc/planifiée avec des participants externes|Autre membre de la réunion   |Membre qui a cliqué sur Enregistrement                                  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits d’accès à l’enregistrement. L’organisateur dispose de droits de modification et de partage. <br /><br /> Tous les autres membres de la réunion du même client que l’organisateur disposent d’un accès en lecture sans possibilité de téléchargement. <br /><br />Tous les autres membres externes n’ont pas d’accès, et l’organisateur doit le partager avec eux.|
+|Réunion de canal                            |Membre du canal         |Emplacement SharePoint de Teams pour ce canal                   |Si Set-CsTeamsMeetingPolicy -ChannelRecordingDownload est défini sur Autoriser (par défaut), le membre qui a cliqué sur Enregistrement dispose des droits de modification pour l’enregistrement. Les autorisations de tous les autres membres sont basées sur les autorisations canal SharePoint.<Br><Br>Si Set-CsTeamsMeetingPolicy -ChannelRecordingDownload est défini sur Bloquer, les propriétaires de canaux disposeront des droits complets sur l’enregistrement, mais les membres du canal disposeront d’un accès en lecture sans possibilité de téléchargement.|
 
 <a name="temp-storage"></a>
-### <a name="temporary-storage-when-unable-to-upload-to-onedrive-for-business-and-sharepoint-online"></a>Stockage temporaire en cas d’impossibilité de chargement vers OneDrive Entreprise et SharePoint Online
+### <a name="temporary-storage-when-unable-to-upload-to-onedrive-and-sharepoint"></a>Stockage temporaire en cas d’impossibilité de chargement vers OneDrive et SharePoint
 
-Si un enregistrement de réunion ne peut pas être chargé sur OneDrive Entreprise et SharePoint Online, il sera temporairement disponible en téléchargement à partir de Teams pendant 21 jours avant sa suppression. À ce stade, ce n’est pas quelque chose qu’un administrateur peut contrôler ou gérer pour inclure la possibilité de le supprimer.
+Si un enregistrement de réunion ne peut pas être chargé sur OneDrive et SharePoint, il sera temporairement disponible en téléchargement à partir de Teams pendant 21 jours avant sa suppression. À ce stade, ce n’est pas quelque chose qu’un administrateur peut contrôler ou gérer pour inclure la possibilité de le supprimer.
 
 Les enregistrements de réunion peuvent se retrouver dans ce stockage temporaire pour les raisons suivantes :
 
-- Pour les réunions hors canal si l’enregistrement de l’utilisateur n’a pas de configuration OneDrive Entreprise ou si OneDrive Entreprise a atteint son quota de stockage
-- Pour une réunion de canal si le site SharePoint Online a atteint son quota de stockage ou si le site n’a pas encore été approvisionné
-- Si des stratégies OneDrive Entreprise et SharePoint Online spécifiques sont activées, cela empêche les utilisateurs de charger des fichiers lorsqu’ils ne se trouvent pas sur des plages d’adresses IP spécifiques, etc.
+- Pour les réunions hors canal si l’utilisateur qui enregistre n’a pas OneDrive ou si son OneDrive a atteint son quota de stockage
+- Pour une réunion de canal si le site SharePoint a atteint son quota de stockage ou si le site n’a pas encore été approvisionné
+- Si des stratégies OneDrive et SharePoint spécifiques sont activées, empêchant les utilisateurs de charger des fichiers lorsqu’ils ne se trouvent pas sur des plages d’adresses IP spécifiques, etc.
 
 La rétention d’enregistrement pour ce stockage temporaire est affectée par le message de conversation lui-même. Par conséquent, toute suppression du message de conversation d’origine pour l’enregistrement empêchera les utilisateurs d’accéder à l’enregistrement. Il existe deux scénarios qui peuvent affecter ceci :
 
@@ -270,7 +270,7 @@ La rétention d’enregistrement pour ce stockage temporaire est affectée par l
 
 ### <a name="planning-for-storage"></a>Planification pour stockage
 
-La taille d’un enregistrement de 1 heure est de 400 Mo. Veillez à bien comprendre la capacité requise pour les fichiers enregistrés et à disposer d’un espace de stockage suffisant dans OneDrive Entreprise et SharePoint Online.  Lisez [Définissez l’espace de stockage par défaut pour OneDrive Entreprise](/onedrive/set-default-storage-space) et [Gérer les limites de stockage de site SharePoint Online](/sharepoint/manage-site-collection-storage-limits) pour comprendre le stockage de base inclus dans l’abonnement et comment acheter du stockage supplémentaire.
+La taille d’un enregistrement de 1 heure est de 400 Mo. Veillez à bien comprendre la capacité requise pour les fichiers enregistrés et à disposer d’un espace de stockage suffisant dans OneDrive et SharePoint.  Lisez [Définir l’espace de stockage par défaut pour OneDrive](/onedrive/set-default-storage-space) et [gérer les limites de stockage de site SharePoint](/sharepoint/manage-site-collection-storage-limits) pour comprendre le stockage de base inclus dans l’abonnement et comment acheter du stockage supplémentaire.
 
  <a name="auto-expiration"></a>
 ### <a name="auto-expiration-of-teams-meeting-recordings"></a>Expiration automatique des enregistrements de réunion Teams
@@ -283,9 +283,9 @@ Découvrez comment les utilisateurs finaux peuvent gérer l’expiration des ré
   
 ## <a name="manage-meeting-recordings"></a>Gérer les enregistrements de réunion
 
-Les enregistrements de réunion sont stockés sous forme de fichiers vidéo dans OneDrive Entreprise et SharePoint Online, et suivent les options de gestion et de gouvernance disponibles sur ces plateformes. Pour plus d’informations, consultez [vue d’ensemble de la gouvernance SharePoint Online](/sharepoint/governance-overview), [OneDrive Entreprise guide pour les entreprises](/onedrive/plan-onedrive-enterprise)ou [OneDrive Entreprise guide pour les petites entreprises](/onedrive/one-drive-quickstart-small-business) .
+Les enregistrements de réunion sont stockés sous forme de fichiers vidéo dans OneDrive et SharePoint et suivent les options de gestion et de gouvernance disponibles sur ces plateformes. Pour plus d’informations, consultez [la vue d’ensemble de la gouvernance SharePoint](/sharepoint/governance-overview) .
 
-Pour les réunions hors canal, les enregistrements sont stockés dans le OneDrive Entreprise de l’enregistreur, ce qui permet de gérer la propriété et la rétention après le départ d’un employé suivront la [OneDrive Entreprise normale et le processus SharePoint Online](/onedrive/retention-and-deletion#the-onedrive-deletion-process).
+Pour les réunions hors canal, les enregistrements sont stockés dans l’espace OneDrive de l’enregistreur. Ainsi, la gestion de la propriété et de la rétention après le départ d’un employé suit le [processus OneDrive et SharePoint](/onedrive/retention-and-deletion#the-onedrive-deletion-process)normal.
 
 ## <a name="closed-captions-for-recordings"></a>Sous-titres pour les enregistrements
 
@@ -293,7 +293,7 @@ Les sous-titres des enregistrements de réunion Teams ne seront disponibles pend
 
 Les légendes permettent de créer du contenu inclusif pour les visiteurs de tous niveaux. En tant que propriétaire, vous pouvez masquer les sous-titres de l’enregistrement de la réunion, bien que la transcription de la réunion soit toujours disponible sur Teams, sauf si vous l’avez supprimé de cet emplacement.
 
-Les sous-titres pour le fichier vidéo de l’enregistrement sont aujourd’hui liés à la transcription de la réunion Teams. Ce lien restera pendant la durée de vie du fichier dans la plupart des cas, mais il peut être corrompu si le fichier vidéo est copié dans le même OneDrive Entreprise ou le même site SharePoint Online, ce qui empêcherait aux sous-titres d’être copiés sur le fichier vidéo.
+Aujourd’hui, les sous-titres du fichier vidéo d’enregistrement sont liés à la transcription de la réunion Teams. Ce lien restera pendant la durée de vie du fichier dans la plupart des cas, mais il peut être rompu si le fichier vidéo est copié dans le même site OneDrive ou SharePoint, ce qui entraînerait l’inversion des sous-titres sur le fichier vidéo copié.
 
 Les modifications futures apportées au lien entre la transcription dans Teams et l’enregistrement seront précisées ici et dans les notifications du centre de messages. Si nous apportons des modifications à l'avenir, nous veillerons à ce que les fichiers d'enregistrement datant de moins de 60 jours affichent la transcription de la réunion sous forme de sous-titres.
 
@@ -304,9 +304,9 @@ Les modifications futures apportées au lien entre la transcription dans Teams e
 
 ### <a name="ediscovery"></a>eDiscovery
 
-Les enregistrements de réunion sont stockés dans OneDrive Entreprise et SharePoint Online, qui appartiennent à Microsoft 365 et sont conformes à la norme de niveau D d’Office 365. Pour prendre en charge les demandes e-Discovery pour les administrateurs de conformité qui sont intéressés par les enregistrements de réunions ou d’appels, le message d’enregistrement terminé est disponible dans la fonctionnalité de recherche de contenu de conformité pour Microsoft Teams. Les administrateurs de conformité peuvent rechercher le mot clé « enregistrement » dans la ligne d’objet de l’élément dans le cadre de la recherche de contenu de conformité et découvrir les enregistrements de réunions et d’appels au sein de l’organisation.
+Les enregistrements de réunion sont stockés dans OneDrive et SharePoint, qui est Microsoft 365 et office 365 de niveau D. Pour prendre en charge les demandes e-Discovery pour les administrateurs de conformité qui sont intéressés par les enregistrements de réunions ou d’appels, le message d’enregistrement terminé est disponible dans la fonctionnalité de recherche de contenu de conformité pour Microsoft Teams. Les administrateurs de conformité peuvent rechercher le mot clé « enregistrement » dans la ligne d’objet de l’élément dans le cadre de la recherche de contenu de conformité et découvrir les enregistrements de réunions et d’appels au sein de l’organisation.
 
-En outre, le fichier vidéo d’enregistrement de réunion est disponible via des recherches eDiscovery pour les fichiers sur SharePoint Online et OneDrive Entreprise.
+En outre, le fichier vidéo d’enregistrement de réunion est disponible via des recherches eDiscovery pour les fichiers sur SharePoint et OneDrive.
 
 Pour en savoir plus sur eDiscovery, consultez l’article [solutions eDiscovery pour Microsoft 365](/microsoft-365/compliance/ediscovery)
 
@@ -316,7 +316,7 @@ Vous pouvez appliquer des étiquettes de rétention automatiques pour cibler uni
 
 ### <a name="microsoft-purview-data-loss-prevention-dlp-policies"></a>Conseils de stratégie de protection contre la perte de données (DLP) Microsoft Purview
 
-Vous pouvez appliquer des stratégies DLP aux fichiers d’enregistrement de réunion également par la propriété ProgID. Dans la règle DLP pour les fichiers dans SharePoint Online et OneDrive Entreprise définissez les conditions comme suivantes :
+Vous pouvez appliquer des stratégies DLP aux fichiers d’enregistrement de réunion également par la propriété ProgID. Dans la règle DLP pour les fichiers dans SharePoint et OneDrive, définissez les conditions suivantes :
 
 - Propriété du document = *ProgID*
 - Valeur = *Media.Meeting*

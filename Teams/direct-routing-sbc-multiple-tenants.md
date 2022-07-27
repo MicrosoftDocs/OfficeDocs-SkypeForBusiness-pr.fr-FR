@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment configurer un contrôleur de frontière de session (SBC) pour servir plusieurs locataires pour les partenaires Microsoft et/ou les opérateurs RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8880f912ae21af3bf269e86469241f345bc33f74
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: 9d7ee3960f88b1c6ed4ee140b4f291162e37da30
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005354"
+ms.locfileid: "67024017"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -246,7 +246,7 @@ Deux nouvelles entités ont été introduites :
 Exemples:
 - Customers.adatum.biz : jonction de transporteur qui doit être créée dans le locataire du transporteur.
 
-- Sbc1.customers.adatum.biz : jonction dérivée dans un locataire client. Vous pouvez ajouter le nom de la jonction dérivée dans le locataire client dans la stratégie de routage vocal en ligne sans le créer.
+- Sbc1.customers.adatum.biz : jonction dérivée dans un locataire client. Vous pouvez ajouter le nom de la jonction dérivée dans le locataire client dans les itinéraires vocaux sans le créer.
 
 - Le transporteur doit configurer l’enregistrement DNS résolvant le nom de domaine complet de jonction dérivé en adresse IP SBC du transporteur.
 

@@ -18,12 +18,12 @@ description: Découvrez comment configurer les forfaits d’appels Microsoft et 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9da8f8f082812063de7d2fb81c7d5b716ad1e07a
-ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
+ms.openlocfilehash: bc7fb0ae87cda84dfbf7b164d38b709b7ef2eef9
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66972789"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023695"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -156,7 +156,7 @@ Notez que la propagation de certaines modifications apportées aux paramètres r
 
 - Si l’activation dynamique de l’appel d’urgence ou de la configuration dynamique de la notification du service de sécurité est requise, vous devez configurer à la fois les adresses IP approuvées et les sites réseau.
 
-- Si seuls des emplacements dynamiques sont requis, vous devez configurer uniquement les adresses IP approuvées ; La configuration des paramètres de metwork n’est pas nécessaire.
+- Si seuls des emplacements dynamiques sont requis, vous devez configurer uniquement les adresses IP approuvées ; la configuration des paramètres réseau n’est pas nécessaire.
 
 - Si aucun des deux n’est requis, la configuration des paramètres réseau n’est pas requise.
 

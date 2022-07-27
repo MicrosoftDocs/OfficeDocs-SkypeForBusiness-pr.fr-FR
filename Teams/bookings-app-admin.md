@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Découvrez comment gérer l’application Bookings dans Teams pour les utilisateurs de votre organisation.
-ms.openlocfilehash: f11739784dcb9897bf9a3fcbffdadc8aea00d3e0
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: e7b8cbabd7c013c47d0d3d75982eb879ccc23e98
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819289"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023785"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Gérer l’application Bookings dans Microsoft Teams
 
@@ -75,7 +75,7 @@ Cette fonctionnalité est déployée progressivement dans le monde entier pour l
 
 Lors de la configuration d’une boîte aux lettres Bookings, le domaine de courrier par défaut de votre organisation Microsoft 365 ou Office 365 est utilisé. Toutefois, le domaine par défaut peut entraîner des problèmes lors de l’envoi d’invitations à une réunion à des destinataires externes. Par exemple, votre invitation peut être marquée comme courrier indésirable et déplacée vers le dossier indésirable du destinataire, de sorte que le destinataire peut ne jamais voir votre invitation.
 
-Nous vous recommandons de modifier le domaine par défaut avant de créer votre boîte aux lettres Bookings. Consultez les [questions fréquentes (FAQ) sur les domaines](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365).
+Nous vous recommandons de modifier le domaine par défaut avant de créer votre boîte aux lettres Bookings. Consultez les [questions fréquentes (FAQ) sur les domaines](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-microsoft-365).
 
 Si vous devez modifier le domaine par défaut après avoir créé votre boîte aux lettres Bookings, utilisez PowerShell.
 
