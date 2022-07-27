@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 735fc17c7e82c1c2362b235508b28b9b4a392439
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: d99dacdd0580d2ee9eaf775d843c5c46a0960259
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563972"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023997"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gérer les équipes dans le Centre d’administration Microsoft Teams
 
@@ -58,7 +58,7 @@ La grille affiche les propriétés suivantes :
 - **Privacy** : Visibilité et accès au groupe de sauvegardes Microsoft 365.
 - **Status** : État archivé ou actif pour cette équipe. En savoir plus sur l’archivage des équipes dans [Archiver ou restaurer une équipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 - **Description** : Description du groupe de sauvegardes Microsoft 365.
-- **Classification** : Classification (si elle est utilisée dans votre organisation) affectée au groupe de sauvegardes Microsoft 365. Pour en savoir plus sur les classifications, consultez [Créer des classifications pour les groupes Office dans votre organisation](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **Classification** : Classification (si elle est utilisée dans votre organisation) affectée au groupe de sauvegardes Microsoft 365. Pour en savoir plus sur les classifications, consultez la page [Créer des classifications pour les groupes Microsoft 365 dans votre organisation](/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell#create-classifications-for-microsoft-365-groups-in-your-organization).
 - **GroupID** : l’ID de groupe unique du groupe de sauvegardes Microsoft 365.
 
 > [!NOTE]
