@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 508f10c07a25bb2dc3cef7af84d7dacc62989f28
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 000c279c32237fd7477a375bf9968db03ec5376d
+ms.sourcegitcommit: 644374fcad6372494e87d729de690af4c060f635
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023685"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67054925"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Gérer les stratégies de rétention pour Microsoft Teams
 
@@ -42,7 +42,7 @@ En tant qu’administrateur, Teams prend en charge les stratégies de rétention
 
 Pour plus d’informations sur les solutions de rétention dans Microsoft 365, consultez [En savoir plus sur les stratégies de rétention et les étiquettes de rétention](/microsoft-365/compliance/retention).
 
-Les utilisateurs soumis à une stratégie de rétention pour Teams doivent disposer d’une licence appropriée, telle qu’Office 365 E3 ou Office 365 A3. Pour obtenir d’autres options de licence pour ces stratégies de rétention, consultez la section [Gestion des informations](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) à partir de [Conseils de gestion des licences pour la sécurité et la conformité de Microsoft 365](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance). Pour en savoir plus sur les licences Teams, consultez[Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description).
+Les utilisateurs soumis à une stratégie de rétention pour Teams doivent disposer d’une licence appropriée, telle qu’Office 365 E3 ou Office 365 A3. Pour obtenir d’autres options de licence pour ces stratégies de rétention, consultez la section [Gestion du cycle de vie des données Microsoft Purview](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-lifecycle-management) de [l’aide sur les licences Microsoft 365 pour la sécurité & conformité](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance). Pour en savoir plus sur les licences Teams, consultez[Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
 ## <a name="how-teams-retention-policies-support-retain-and-delete-actions"></a>Prise en charge des actions de rétention et de suppression par les stratégies de rétention Teams
 
