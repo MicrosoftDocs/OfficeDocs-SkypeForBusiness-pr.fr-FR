@@ -22,22 +22,22 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez les options de numérotation et de reconnaissance vocale du standard automatique et de la file d’attente des appels dans Teams.
-ms.openlocfilehash: 784dcbf16c5122c165dc1a949fa237769c9837d3
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 93a20be62f09ed7b636c593ecac48927d70e237f
+ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124189"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67070725"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Référence de numérotation et de reconnaissance vocale du standard automatique et de la file d’attente d’appels
 
-Numérotation par nom ou par extension est une fonctionnalité de standard automatique qui permet aux appelants d’atteindre Teams utilisateurs de votre organisation. À l’aide de leur clavier vocal ou téléphonique, les appelants peuvent indiquer ou entrer le nom complet ou partiel, ou l’extension de la personne qu’ils souhaitent joindre. Le standard automatique effectue une recherche dans le répertoire de l’entreprise, recherche la personne, puis lui transfère l’appelant.  Numérotation par nom ou numérotation par extension sont des options que vous configurez lorsque vous [configurez les paramètres de flux d’appel dans un standard automatique](create-a-phone-system-auto-attendant.md?tabs=call-flow).
+Numérotation par nom ou par extension est une fonctionnalité de standard automatique qui permet aux appelants d’atteindre les utilisateurs Teams de votre organisation. À l’aide de leur clavier vocal ou téléphonique, les appelants peuvent indiquer ou entrer le nom complet ou partiel, ou l’extension de la personne qu’ils souhaitent joindre. Le standard automatique effectue une recherche dans le répertoire de l’entreprise, recherche la personne, puis lui transfère l’appelant.  Numérotation par nom ou numérotation par extension sont des options que vous configurez lorsque vous [configurez les paramètres de flux d’appel dans un standard automatique](create-a-phone-system-auto-attendant.md?tabs=call-flow).
 
 ## <a name="searching-for-users"></a>Recherche d’utilisateurs
 
-Teams les utilisateurs qui peuvent être contactés à l’aide de Dial by Name **ne sont pas tenus d’avoir un numéro de téléphone ou d’avoir des forfaits d’appels qui leur sont attribués, mais ils doivent être Voix Entreprise activés pour Skype Entreprise Server utilisateurs**. Pour les organisations multinationales, Dial by Name recherche et transfère les appelants vers Microsoft Teams utilisateurs qui se trouvent dans des pays ou régions différents.
+Les utilisateurs Teams qui peuvent être contactés à l’aide de Dial by Name **ne sont pas tenus d’avoir un numéro de téléphone ou d’avoir des forfaits d’appels qui leur sont attribués, mais ils doivent être Voix Entreprise activés pour Skype Entreprise Server utilisateurs**. Pour les organisations multinationales, Dial by Name recherche et transfère les appelants aux utilisateurs de Microsoft Teams qui se trouvent dans différents pays ou régions.
 
-Teams utilisateurs qui peuvent être contactés à l’aide de Dial by Extension **ne sont pas tenus d’avoir un numéro de téléphone ou d’avoir des forfaits d’appels qui leur sont attribués, mais ils doivent être Voix Entreprise activés pour Skype Entreprise Server utilisateurs**. Vous devez également disposer d’un plan de numérotation correctement configuré pour vos utilisateurs. Pour les organisations multinationales, Dial by Extension recherche et transfère les appelants vers Microsoft Teams utilisateurs qui se trouvent dans différents pays ou régions.
+Les utilisateurs Teams qui peuvent être contactés à l’aide de Dial by Extension **ne sont pas tenus d’avoir un numéro de téléphone ou d’avoir des forfaits d’appels qui leur sont attribués, mais ils doivent être Voix Entreprise activés pour Skype Entreprise Server utilisateurs**. Vous devez également disposer d’un plan de numérotation correctement configuré pour vos utilisateurs. Pour les organisations multinationales, Dial by Extension recherche et transfère les appelants aux utilisateurs de Microsoft Teams qui se trouvent dans différents pays ou régions.
 
 Compte tenu des conditions préalables requises, la numérotation par nom ou par extension doit être explicitement activée lors de la configuration d’un standard automatique.
 
@@ -90,7 +90,7 @@ Plusieurs caractères spéciaux sont utilisés pour rechercher des personnes à 
 
 Les utilisateurs peuvent rechercher d’autres membres de leur organisation avec leur voix (reconnaissance vocale). Ils peuvent également joindre n’importe qui dans Active Directory en indiquant le nom complet ou partiel de la personne qu’ils tentent de localiser. L’utilisation d’entrées vocales peut reconnaître des noms dans différents formats, notamment FirstName, LastName, FirstName + LastName ou LastName + FirstName.
   
-Vous pouvez activer la reconnaissance vocale pour un standard automatique, mais l’entrée du clavier téléphonique (DTMF) n’est pas désactivée. Téléphone entrée de clavier peut être utilisée à tout moment, même si la reconnaissance vocale est activée sur le standard automatique.
+Vous pouvez activer la reconnaissance vocale pour un standard automatique, mais l’entrée du clavier téléphonique (DTMF) n’est pas désactivée. L’entrée du clavier téléphonique peut être utilisée à tout moment, même si la reconnaissance vocale est activée sur le standard automatique.
   
 Comme pour l’entrée du clavier téléphonique, si plusieurs noms sont trouvés, la personne qui appelle entend une liste de noms à sélectionner.
 
@@ -113,11 +113,11 @@ Les appelants peuvent dire des noms dans les formats suivants :
 
 ### <a name="dial-by-extension"></a>Composer par extension
 
-Les utilisateurs que vous souhaitez rendre disponibles pour **la numérotation par extension** doivent avoir une extension spécifiée dans le cadre de l’un des attributs de téléphone suivants définis dans Active Directory (et synchronisés via Azure AD Connecter) ou Azure Active Directory. (Pour plus d’informations, consultez [Ajouter des utilisateurs individuellement ou en bloc](/microsoft-365/admin/add-users/add-users) .)
+Les utilisateurs que vous souhaitez rendre disponibles pour **la numérotation par extension** doivent avoir une extension spécifiée dans le cadre de l’un des attributs de téléphone suivants définis dans Active Directory (et synchronisés via Azure AD Connect) ou Azure Active Directory. (Pour plus d’informations, consultez [Ajouter des utilisateurs individuellement ou en bloc](/microsoft-365/admin/add-users/add-users) .)
 
-- OfficePhone/TelephoneNumber (AD et Azure AD)
+- TelephoneNumber (AD et Azure AD)
 - HomePhone (AD)
-- Mobile/MobilePhone (AD et Azure AD)
+- Mobile (AD et Azure AD)
 - OtherTelephone (AD)
 
 Le format requis pour entrer l’extension dans le champ numéro de téléphone de l’utilisateur peut être l’un des formats suivants :
@@ -130,7 +130,11 @@ Le format requis pour entrer l’extension dans le champ numéro de téléphone 
 - Exemple 2 : Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber « +1555555678x5678 »
 - Exemple 3 : Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber « x5678 »
 
-Vous pouvez définir l’extension dans le [Centre d'administration Microsoft 365](https://admin.microsoft.com/) ou le [centre d’administration Azure Active Directory](https://aad.portal.azure.com). Jusqu’à 12 heures peuvent être nécessaires avant que les modifications ne soient disponibles pour les standards automatiques et les files d’attente d’appels.
+Vous pouvez définir l’extension dans le [Centre d'administration Microsoft 365](https://admin.microsoft.com/) ou le [Centre d’administration Azure Active Directory](https://aad.portal.azure.com). Jusqu’à 12 heures peuvent être nécessaires avant que les modifications ne soient disponibles pour les standards automatiques et les files d’attente d’appels.
+
+> [!NOTE]
+>  Si vous utilisez le champ TelephoneNumber pour définir l’extension, Microsoft vous recommande d’utiliser le format *+\<phone number>;ext=\<extension>*. Si un numéro de téléphone Teams est également attribué à l’utilisateur, vous devez définir les deux numéros de la même façon.
+
 
 ## <a name="language-support"></a>Prise en charge linguistique
 

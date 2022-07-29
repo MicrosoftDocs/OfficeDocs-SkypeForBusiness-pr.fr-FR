@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez les standards automatiques et les files d’attente d’appels, et comment les utiliser pour aider les appelants à se déplacer dans un système de menus pour atteindre les personnes ou les services de votre organisation.
-ms.openlocfilehash: 1f439ca0a6eb9ff3487582253cdd0aad7b2fad6c
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 218377b2082d1a057f503abbf83d37ff78686986
+ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616080"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67070735"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planifier les standards automatiques teams et les files d’attente d’appels
 
@@ -69,7 +69,7 @@ Vous pouvez affecter un numéro de téléphone à une file d’attente d’appel
 
 Pour configurer des standards automatiques et des files d’attente d’appels, vous avez besoin des ressources suivantes :
 
-- Un compte de ressource pour chaque standard automatique et chaque file d’attente d’appels
+- Un [compte de ressource](manage-resource-accounts.md) pour chaque standard automatique et chaque file d’attente d’appels
 - Une licence de compte de ressource Téléphonie Microsoft Teams gratuite pour chaque compte de ressource qui sera directement accessible à partir d’utilisateurs Teams ou de numéros de téléphone externes
 - Au moins un [numéro de service Microsoft](getting-service-phone-numbers.md), un numéro de connexion d’opérateur, un numéro de routage direct ou un numéro hybride pour chaque compte de ressource que vous souhaitez numéroter directement à partir de numéros de téléphone externes
   - Le numéro de service peut être un numéro payant ou gratuit
@@ -178,7 +178,7 @@ Pour plus d’informations sur la création de standards automatiques et de file
 
 Si vous avez besoin de fonctionnalités plus étendues, telles que l’intégration aux flux de travail, aux bots et aux SMS, envisagez [Azure Communication Services](/azure/communication-services/overview).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Planifier le routage direct](direct-routing-plan.md)
 
