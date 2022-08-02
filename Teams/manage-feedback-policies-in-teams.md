@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser des stratégies de commentaires pour contrôler si les utilisateurs Teams de votre organisation peuvent envoyer des commentaires sur Teams à Microsoft.
-ms.openlocfilehash: 7fcfa1738f7dbbc0f7c70afec86e9e2f181d6d21
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: f9d001fba9503f6d5f2e482a437bc8f38c8ffc7d
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713342"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156522"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gérer les stratégies de commentaires dans Microsoft Teams
 
@@ -60,7 +60,7 @@ Vous pouvez modifier la stratégie globale ou créer et affecter une stratégie 
 
 Par exemple, vous souhaitez autoriser tous les utilisateurs de votre organisation à envoyer des commentaires et à recevoir des enquêtes, à l’exception des nouveaux employés en formation. Dans ce scénario, vous créez une stratégie personnalisée pour désactiver les deux fonctionnalités et l’affecter à de nouveaux employés. Tous les autres utilisateurs de votre organisation obtiennent la stratégie globale avec les fonctionnalités activées.  
 
-Vous gérez les stratégies de commentaires à l’aide de PowerShell. Utilisez l’applet [**de commande New-CsTeamsFeedbackPolicy**](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) pour créer une stratégie personnalisée. Utilisez l’applet de commande **Grant-CsTeamsFeedbackPolicy** pour l’affecter à un ou plusieurs utilisateurs ou groupes d’utilisateurs, tels qu’un groupe de sécurité ou un groupe de distribution. Utilisez **Set-CsTeamsFeedbackPolicy** pour définir des indicateurs spécifiques.
+Vous gérez les stratégies de commentaires à l’aide de PowerShell. Utilisez l’applet [**de commande New-CsTeamsFeedbackPolicy**](/powershell/module/skype/new-csteamsfeedbackpolicy) pour créer une stratégie personnalisée. Utilisez l’applet de commande **Grant-CsTeamsFeedbackPolicy** pour l’affecter à un ou plusieurs utilisateurs ou groupes d’utilisateurs, tels qu’un groupe de sécurité ou un groupe de distribution. Utilisez **Set-CsTeamsFeedbackPolicy** pour définir des indicateurs spécifiques.
 
 Pour désactiver et activer les fonctionnalités, définissez les paramètres suivants :
 
@@ -68,7 +68,7 @@ Pour désactiver et activer les fonctionnalités, définissez les paramètres su
 
  - **Enquêtes** : définissez le paramètre **receiveSurveysMode** sur **activé** pour autoriser les utilisateurs auxquels la stratégie est affectée à recevoir l’enquête. Pour que les utilisateurs reçoivent l’enquête et leur permettent de refuser, définissez le paramètre sur **enabledUserOverride**. Dans Teams, les utilisateurs peuvent ensuite accéder à **Paramètres** > **de confidentialité** et choisir s’ils souhaitent participer à des enquêtes. La définition du **paramètre désactivé** désactive la fonctionnalité et les utilisateurs auxquels la stratégie est affectée ne recevront pas l’enquête.
 
- - **E-mail** : utilisez l’indicateur **AllowEmailCollection** pour ajouter un champ de messagerie.
+ - **Email** : Utilisez l’indicateur **AllowEmailCollection** pour ajouter un champ de messagerie.
  - **Collection de journaux** : utilisez l’indicateur **AllowLogCollection** pour ajouter l’option d’adhésion à la collecte des journaux pour les utilisateurs. La collecte des journaux est actuellement activée uniquement sur les appareils mobiles. Pour plus d’informations sur les données partagées via les journaux [d’activité, en savoir plus](https://go.microsoft.com/fwlink/?linkid=2168178).
 
 ## <a name="create-a-custom-feedback-policy"></a>Créer une stratégie de commentaires personnalisée
@@ -89,7 +89,7 @@ Dans cet exemple, nous affectons une stratégie personnalisée nommée Nouvelle 
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
 - [Attribuer des stratégies à vos utilisateurs](policy-assignment-overview.md)

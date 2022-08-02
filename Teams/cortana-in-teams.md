@@ -19,17 +19,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3c4ff65fb87bed077e1020764382314d5d15c62
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 78aaad6506a7130d336d3847c55e0c0ec08c4450
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562433"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156783"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Assistance vocale Cortana dans Teams
 
 > [!NOTE]
-> L’assistance vocale Cortana est prise en charge dans les applications mobiles Microsoft Teams pour iOS et Android et les affichages Microsoft Teams pour les utilisateurs du États-Unis, du Royaume-Uni, du Canada, de l’Inde et de l’Australie. Salles Microsoft Teams sur Windows est uniquement prise en charge pour les appareils dont les paramètres régionaux sont définis sur en-us. L’assistance vocale Cortana n’est pas actuellement disponible pour les locataires GCC, GCC-High, DoD et NON-US EDU. L’assistance vocale Cortana dans l’application mobile Teams est désormais disponible pour les clients EDU en-US. L’expansion vers d’autres langues et régions se produira dans le cadre des versions ultérieures.
+> L’assistance vocale Cortana est prise en charge dans les applications mobiles Microsoft Teams pour iOS et Android, les écrans Microsoft Teams et les Salles Microsoft Teams sur Windows pour les utilisateurs du États-Unis, du Royaume-Uni, du Canada, de l’Inde et de l’Australie. L’assistance vocale Cortana dans l’application mobile Teams est désormais disponible pour les clients EDU en-US. L’expansion vers d’autres langues et régions se produira dans le cadre des versions ultérieures. L’assistance vocale Cortana n’est pas actuellement disponible pour les locataires GCC, GCC-High, DoD et NON-US EDU.
 
 L’assistance vocale Cortana dans l’application mobile Teams, sur Salles Microsoft Teams sur Windows et sur les appareils d’affichage Microsoft Teams permet aux utilisateurs Microsoft 365 Entreprise de simplifier la communication, la collaboration et les tâches liées aux réunions à l’aide du langage naturel parlé. Les utilisateurs peuvent parler à Cortana en sélectionnant le bouton microphone situé en haut à droite de l’application mobile Teams, ou en disant « Cortana » dans la salle Microsoft Teams ou lors de l’utilisation d’un affichage Microsoft Teams. Pour se connecter rapidement avec leur équipe mains libres et en déplacement, les utilisateurs peuvent dire des requêtes telles que « appeler Megan » ou « envoyer un message à ma prochaine réunion ». Les utilisateurs peuvent également participer à des réunions en disant « Participer à ma prochaine réunion » et utiliser l’assistance vocale pour partager des fichiers, vérifier leur calendrier, etc. Ces expériences d’assistance vocale sont fournies à l’aide de [services de niveau entreprise Cortana](/microsoft-365/admin/misc/cortana-integration) qui sont entièrement conformes aux promesses de confidentialité, de sécurité et de conformité de Office 365, comme indiqué dans les [conditions des services en ligne (OST).](https://www.microsoft.com/licensing/product-licensing/products?rtc=1&preserve-view=true)
 
@@ -125,7 +125,7 @@ Pour activer _l’activation vocale_ cortana pendant une réunion, déplacez le 
 _L’activation vocale_ cortana peut être activée si vous utilisez un Hub Lenovo 500 ou si l’un de ces appareils est connecté à votre salle :
 
 - Jabra Panacast 50
-- Microphones de rallye
+- Système de conférence Logi Rally Plus
 - Barre vidéo Bose VB1
 - EPOS EXPAND Capture 5
 - Yealink MSpeech
