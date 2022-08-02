@@ -865,6 +865,8 @@ items:
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Operator Connect
             items:
+              - name: Nouveautés
+                href: operator-connect-whats-new.md
               - name: Planifier Operator Connect
                 href: operator-connect-plan.md
               - name: Configurer Operator Connect
@@ -1622,6 +1624,8 @@ items:
                 href: education-insights-manage-access.md
               - name: Prise en main de Reflect
                 href: reflect.md
+              - name: Comprendre l'évolution de la lecture
+                href: insights-for-reading-progress.md
           - name: Devoirs dans Microsoft Teams pour l’éducation
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: Administrateurs de ressources Microsoft Teams pour l’éducation

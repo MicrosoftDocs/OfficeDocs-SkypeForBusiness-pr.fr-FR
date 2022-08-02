@@ -19,26 +19,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: a74128c7732d649c33ee50c73255eee956053260
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 8fa6763641edf1b4eff29e16fb7ecdeaa4111edf
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880378"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156682"
 ---
-# <a name="about-apps-in-microsoft-teams"></a>À propos des applications dans Microsoft Teams
+# <a name="understand-microsoft-teams-apps"></a>Comprendre les applications Microsoft Teams
 
 Les applications sont un excellent moyen de rassembler vos outils et services d’espace de travail et de collaborer avec d’autres personnes. Les applications aident les utilisateurs finaux à être plus productifs, collaboratifs et efficaces dans leurs tâches quotidiennes. Les organisations utilisent des applications pour se connecter à leurs clients, fournir des services et partager des informations. Par exemple, les utilisateurs finaux utilisent une application Calendrier épinglée dans Teams pour collaborer rapidement avec d'autres personnes, une application avec une fonctionnalité de bots informant les utilisateurs de la qualité d'un service web dans un canal Teams, et une application pour partager et assigner des tâches à divers utilisateurs finaux dans un canal.
 
-Notre large sélection d’applications validées et sécurisées dans le Store permet aux utilisateurs finaux d’accéder aux outils et services dont votre organisation a besoin chaque jour. Les applications Microsoft Teams sont des applications SaaS web qui n’ont pas besoin d’être déployées. Les utilisateurs finaux peuvent utiliser des applications dans Teams uniquement en fonction des [autorisations](https://admin.teams.microsoft.com/policies/app-permission) fournies par vous. En tant qu’administrateur, vous approuvez ou bloquez simplement l’utilisation de n’importe quelle application pour les utilisateurs de votre organisation. Vous contrôlez la disponibilité des applications pour tous les utilisateurs dans les réunions, les conversations et les canaux.
+Notre vaste catalogue d'applications validées et sécurisées dans Teams Store permet aux utilisateurs finaux d'accéder aux outils et services dont votre organisation a besoin au quotidien. Les applications Microsoft Teams sont des applications SaaS web qui n’ont pas besoin d’être déployées. Les utilisateurs finaux peuvent utiliser les applications dans Teams uniquement en fonction [des autorisations que vous leur avez accordées](app-policies.md). En tant qu'administrateur, vous utilisez des stratégies de niveau entreprise pour autoriser ou bloquer toute application pour les utilisateurs de votre organisation. Vous contrôlez la disponibilité des applications pour chaque utilisateur dans les différents contextes tels que les réunions, les chats et les canaux.
 
-Pour fournir à vos utilisateurs finaux des applications dont ils ont besoin, poursuivez la lecture afin de comprendre les types d’applications et l’emplacement où vos utilisateurs accèdent à ces applications. Pour en savoir plus sur l’utilisation des applications, consultez [Vue d’ensemble des applications pour les utilisateurs finaux](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)
-
-<!--- Commenting the previous content as part of this article revamp.
-
-Apps let users find content from their favorite services and share it in Teams. They let you do tasks such as pin services at the top of a channel, automate notifications using bots, or share and assign tasks.
-
---->
+Cet article vous aide à comprendre les types d'applications et l'endroit d'où vos utilisateurs accèdent à ces applications. Pour en savoir plus sur l'utilisation des applications, lisez [Vue d'ensemble des applications pour les utilisateurs finaux](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
 Les différents types d’applications que vos utilisateurs finaux peuvent utiliser dans Teams sont les suivants :
 
@@ -49,7 +43,7 @@ Les différents types d’applications que vos utilisateurs finaux peuvent utili
 
 ## <a name="core-apps"></a>Applications principales
 
-Certaines fonctionnalités par défaut telles que le flux d’activité, les canaux Teams, les conversations, les calendriers et les appels sont disponibles et épinglés par défaut pour faciliter l’accès des utilisateurs finaux. En tant qu’administrateur, vous pouvez modifier le comportement par défaut à l’aide de la [stratégie d’installation](/microsoftteams/teams-app-setup-policies).
+Certaines fonctionnalités de Teams, telles que le flux d'activité, les canaux, la conversation, le calendrier et les appels, sont disponibles par défaut et épinglées par défaut pour faciliter l'accès des utilisateurs finaux. En tant qu'administrateur, vous pouvez modifier ce comportement par défaut en utilisant la [stratégie de configuration](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="Les applications principales sont les applications épinglées dans Teams par défaut." lightbox="media/core-apps-pinned2.png":::
 
@@ -69,15 +63,17 @@ En plus des applications fournies par Microsoft, vous pouvez utiliser des applic
 
 ## <a name="custom-apps"></a>Applications personnalisées
 
-Les applications créées par les développeurs de votre organisation sont appelées applications personnalisées. Le développement d’une telle application est demandé pour des exigences spécifiques de votre organisation et vous disposez de contrôles pour autoriser ou interdire ces applications. Les développeurs de votre organisation peuvent rapidement créer des solutions personnalisées à faible code à l’aide de l’intégration de Teams à [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions).
+Les applications créées par les développeurs de votre organisation sont appelées applications personnalisées ( ou applications de secteur d'activité). Votre organisation peut commander la création d'applications personnalisées pour répondre à des besoins spécifiques. Vous avez la possibilité d'autoriser ou de bloquer ces applications pour l'ensemble de l'organisation ou pour des utilisateurs spécifiques. Les développeurs de votre organisation peuvent créer des solutions personnalisées à faible code en utilisant l'intégration de Teams avec [Microsoft Power Plateforme](/microsoftteams/platform/samples/teams-low-code-solutions).
 
 Une fois qu’un administrateur autorise l’utilisation d’applications personnalisées, les utilisateurs finaux recherchent ces applications en cliquant sur **Conçu pour votre organisation** dans le volet de navigation gauche du magasin Teams.
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Capture d’écran des applications personnalisées dans le magasin Teams dans l’application de bureau teams." lightbox="media/built-for-your-org2.png":::
 
+<!--- TBD - new article on custom app overview and sideloading. --->
+
 ### <a name="understand-sideloading-of-custom-apps"></a>Comprendre le chargement indépendant des applications personnalisées
 
-Lors du développement d’applications personnalisées et avant de les distribuer aux utilisateurs finaux, les développeurs testent les applications eux-mêmes ou avec une équipe en ajoutant un version de test dans le magasin. Cette méthode est appelée chargement indépendant des applications et s’applique uniquement aux applications personnalisées.
+Lorsqu'ils développent des applications personnalisées et avant de les distribuer aux utilisateurs finaux, les développeurs testent les applications en les ajoutant au Teams Store pour les tester. Les développeurs peuvent effectuer des tests seuls ou avec un groupe d'utilisateurs déterminé, mais l'application n'est pas accessible aux autres utilisateurs finaux de l'organisation. Cette méthode est appelée chargement indépendant des applications et s’applique uniquement aux applications personnalisées.
 
 Les développeurs peuvent recourir au chargement indépendant d’une application pour la mettre à la disposition des membres d’une équipe spécifique, généralement pour tester une application en cours de développement. De cette manière, seuls les développeurs de l’application peuvent l’utiliser sans nécessiter l’autorisation de l’administrateur, à condition que ce dernier autorise le chargement indépendant dans Teams. En tant qu’administrateur, vous pouvez interdire le chargement indépendant de l’application pour tous les développeurs.
 
