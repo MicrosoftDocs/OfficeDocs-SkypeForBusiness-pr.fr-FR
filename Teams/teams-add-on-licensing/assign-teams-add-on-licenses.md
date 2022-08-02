@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Découvrez comment attribuer des licences de module complémentaire Teams aux utilisateurs pour des fonctionnalités telles que l’audioconférence, le système téléphonique et les forfaits d’appels.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07196e26f38042b6046d6761bd60dfad64f89c7d
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 1bef1464b94f736a10cc184a2bdb88e2cdf6df88
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023675"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156972"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Attribuer des licences de module complémentaire Teams aux utilisateurs
 
@@ -142,6 +142,8 @@ Pour plus d’informations, consultez [Afficher les licences et les services ave
 | Forfait d’appels nationaux (120 minutes par utilisateur/mois pour chaque pays) </br>*Ce plan n’est pas disponible dans le États-Unis.* | MCOPSTN5 |
 | Forfait d’appels nationaux (240 minutes par utilisateur/mois pour chaque pays) </br>*Ce plan n’est pas disponible dans le États-Unis.* | MCOPSTN6 |
 | Crédits de communication | MCOPSTNPP |
+| Forfaits d’appels avec paiement à l’utilisation (pays de la zone 1) | MCOPSTN_PAYG_1 |
+| Forfaits d’appels avec paiement à l’utilisation (pays de la zone 2) | MCOPSTN_PAYG_2 |
 
 ## <a name="related-content"></a>Contenu associé
 

@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 5021087c900141c97e534b521d3789dbe7f5eb72
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 2c47c240da6c25369a6276ee61d4a7b97eda60e4
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682523"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156822"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Forfaits d’appels pour Microsoft 365
 
@@ -39,16 +39,18 @@ Les appels à d’autres utilisateurs Skype Entreprise et Microsoft Teams sont g
   
 Voici les options forfaits d’appel :
   
-- **Forfait d’appels nationaux** : les utilisateurs titulaires d’une licence peuvent appeler des numéros situés dans le pays/la région où ils sont affectés dans Microsoft 365 ou Office 365.
+- **Forfait d’appels nationaux** : les utilisateurs titulaires d’une licence peuvent appeler des numéros situés dans le pays/la région où ils sont affectés dans Microsoft 365. Minutes entrantes illimitées incluses. Les minutes sortantes sont incluses en fonction de la licence achetée.
 
-- **Forfait d’appels internationaux** : les utilisateurs titulaires d’une licence peuvent appeler des numéros situés dans le pays/la région où leur licence Microsoft 365 ou Office 365 est attribuée à l’utilisateur en fonction de l’emplacement de l’utilisateur, ainsi qu’à des numéros internationaux dans [196 pays/régions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
+- **Forfait d’appels internationaux** : les utilisateurs titulaires d’une licence peuvent appeler des numéros situés dans le pays/la région où leur licence Microsoft 365 est attribuée à l’utilisateur en fonction de l’emplacement de l’utilisateur et des numéros internationaux dans [196 pays/régions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Minutes entrantes illimitées incluses. Les minutes sortantes sont incluses en fonction de la licence achetée.
+
+- **Forfait d’appels avec paiement à l’utilisation** : les utilisateurs titulaires d’une licence peuvent appeler des numéros situés dans le pays/la région où leur licence Microsoft 365 est attribuée à l’utilisateur en fonction de l’emplacement de l’utilisateur et des numéros internationaux dans  [196 pays/régions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Minutes entrantes illimitées incluses. Aucune minute sortante n’est incluse. Tous les appels sortants sont facturés en fonction des minutes utilisées, avec les crédits de communication ou la facturation post-paiement.
 
 Tous les utilisateurs du même pays/région (il s’agit de l’emplacement du pays d’utilisateur défini dans la zone de licence du Centre d'administration Microsoft 365) avec le même forfait d’appels partagent un pool de minutes. Par exemple, si vous avez 100 utilisateurs situés dans le même pays/région avec un forfait d’appels nationaux de 120 minutes attribué, ils partagent un pool de 12 000 minutes. Tous les appels dépassant ces minutes sont facturés par minute.
 
 Visitez [la disponibilité des pays et des régions](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) pour connaître les minutes mensuelles disponibles pour chaque organisation dans chaque pays/région.
   
 > [!IMPORTANT]
-> Le pays/la région est basé sur l’emplacement de la licence de l’utilisateur dans le **Centre d'administration Microsoft 365** >  **Actifs** et **non sur** l’adresse de facturation répertoriée sous le **profil d’organisation** dans le **Centre d'administration Microsoft 365**. 
+> Le pays/la région est basé sur l’emplacement de la licence de l’utilisateur dans le **Centre d'administration Microsoft 365** >  **Actifs** et **non sur** l’adresse de facturation répertoriée sous le **profil d’organisation** dans le **Centre d'administration Microsoft 365**.
 
 > [!NOTE]
 > Le regroupement n’est disponible que sur des plans d’appel identiques.
@@ -59,14 +61,14 @@ Pour plus d’informations sur les limites d’utilisation et les conditions d�
   
 ## <a name="how-to-buy-a-calling-plan"></a>Comment acheter un forfait d’appels
 
-1. <strong>Vous devez d’abord acheter une licence de module complémentaire **Phone System</strong><strong>. Pour ce faire, [connectez-vous à l’Centre d'administration Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et choisissez **</strong> > **Abonnements** >  de module complémentaire Billing **Purchase Services** > **Acheter maintenant**.
+1. Vous devez d’abord acheter une **licence de module complémentaire Système téléphonique**. Pour ce faire, [connectez-vous à l’Centre d'administration Microsoft 365 et choisissez](https://go.microsoft.com/fwlink/p/?linkid=868433) >  Les **abonnements** de module complémentaire  >  Billing **Purchase Services** > **Acheter maintenant**.
 
     ![Capture d’écran montrant l’option d’achat d’un forfait d’appels vocaux.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > Selon votre plan, vous devrez peut-être acheter d’autres modules complémentaires avant de pouvoir acheter des licences système téléphonique. Pour en savoir plus, voir les [Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-2. Une fois que vous avez acheté des licences de système téléphonique, vous pouvez acheter le forfait d’appels en vous connectant au **Centre d'administration Microsoft 365****, en choisissant** >  les **abonnements aux modules complémentaires** Billing **Purchase Services** > , puis en cliquant sur **Acheter maintenant**. Vous y verrez les forfaits d’appels.
+2. Une fois que vous avez acheté des licences système téléphonique, vous pouvez acheter le forfait d’appels [en vous connectant au Centre d'administration Microsoft 365 et en choisissant](https://go.microsoft.com/fwlink/p/?linkid=868433)**les abonnements** de module complémentaire Services **d’achat** >  de facturation > , puis en sélectionnant **Acheter maintenant**. Vous y verrez les forfaits d’appels.
 
 Vous pouvez acheter et affecter différents forfaits d’appels à différents utilisateurs, en fonction des besoins de votre organisation. Après avoir sélectionné le forfait d’appels dont vous avez besoin, passez à la caisse. Vous attribuez un plan à chaque utilisateur du Centre d'administration Microsoft 365. Pour savoir comment, consultez [Affecter des licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
@@ -89,7 +91,7 @@ Voici d’autres articles qui expliquent comment configurer vos forfaits d’app
 - [Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Voici ce que vous obtenez avec le système téléphonique dans Microsoft 365 ou Office 365](./here-s-what-you-get-with-phone-system.md)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-articles"></a>Articles connexes
 
 - [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 - [Configuration de la messagerie vocale Cloud : Aide pour l'administrateur](set-up-phone-system-voicemail.md)
