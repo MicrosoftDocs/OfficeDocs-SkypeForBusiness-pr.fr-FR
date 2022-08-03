@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams afin de produire les meilleurs résultats.
-ms.openlocfilehash: 346ef66bf0c042024f897d30b97fd5afed12d7f7
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4c2426b2a63feadfc9fc1569efaffbca99771e16
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156702"
+ms.locfileid: "67175698"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Appareils Android certifiés Microsoft Teams
 
@@ -253,6 +253,7 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version du produit incluse |
 |:--------------|:-----------------|:-------------------------|
+| AudioCodes RXV80 | `1.16.191` | Mise à jour 2022 #2A   |
 | Poly Studio X30 | `3.12.0.366027` | Mise à jour 2022 #1   |
 | Poly Studio X50 | `3.12.0.366027` | Mise à jour 2022 #1  |
 | Logi Rallybar    | `1.6.552`         | Mise à jour 2022 #2    |

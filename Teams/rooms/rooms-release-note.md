@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Administration pouvez lire les notes de publication de Salles Microsoft Teams, qui répertorient les améliorations cumulatives apportées à Salles Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 07b4661df5df7ac766c17a07c2bdd940b3d2cb6b
-ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
+ms.openlocfilehash: b5630636ce5dc8f26d430e6d883bff0dc2bcc71f
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66810106"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67175848"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notes de publication pour Salles Microsoft Teams
 
@@ -37,8 +37,9 @@ salles Teams est régie par la politique de cycle de vie moderne. Pour plus d’
 
 ## <a name="version-history"></a>Historique des versions
 
-|Libération |Publié sur <br/> Microsoft Store |
+|Libérer |Publié sur <br/> Microsoft Store |
 |--- |--- |
+|4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
@@ -92,6 +93,29 @@ salles Teams est régie par la politique de cycle de vie moderne. Pour plus d’
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salles Microsoft Teams présentation des fonctionnalités et résolution des problèmes
+
+### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
+
+Introduit dans cette mise à jour :
+
+- Participer à une réunion Teams à l’aide de l’ID de réunion
+- Chiffrement de bout en bout pour les appels Teams un-à-un<sup>1</sup> 
+- Suppression du bruit dans les réunions Teams<sup>2</sup>
+- Mise à jour de l’expérience de plateau de partage
+- Désactiver le son et désactiver l’état sur la vidéo de votre salle
+- paramètre Administration pour la disposition par défaut uniquement du contenu  
+- L’authentification moderne est activée par défaut
+
+ <sup>1</sup> Avant de pouvoir activer le chiffrement de bout en bout pour les appels à partir d’un appareil Salle Teams, vous devez configurer la stratégie pour le compte d’utilisateur de l’appareil. Vous pouvez mettre à jour la stratégie de l’utilisateur à partir du Centre d’administration Teams ou à l’aide de Teams PowerShell. Pour plus d’informations, consultez [Configurer la stratégie pour le compte d’utilisateur salle Teams.](../teams-end-to-end-encryption.md)
+
+ <sup>2</sup> salles Teams ajouté la prise en charge de la suppression du bruit dans la version 4.12 avec remplacement par l’administrateur.
+
+> [!IMPORTANT]
+> Avec cette mise à jour, les nouveaux appareils salles Teams utilisent désormais par défaut l’authentification moderne lors de la connexion à Microsoft Teams et Exchange Online.
+>
+> Nous vous recommandons vivement de tester vos appareils salles Teams avant la fin août en activant l’authentification moderne pour leurs comptes de salle.
+>
+> Cette modification permet de préparer la mise à jour à venir dans Exchange Online pour désactiver l’authentification de base à partir du 1er octobre 2022. Pour plus d’informations, consultez [La dépréciation de l’authentification de base dans Exchange Online – Mise à jour de mai 2022 ](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866).  
 
 ### <a name="4121390-7142022"></a>4.12.139.0 (7/14/2022)
 

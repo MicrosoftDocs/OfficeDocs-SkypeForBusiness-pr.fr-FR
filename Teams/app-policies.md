@@ -7,20 +7,20 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: Découvrez les stratégies d’autorisation d’application, les stratégies d’installation d’application et les stratégies d’application personnalisées utilisées pour gérer les applications dans Microsoft Teams.
+description: Découvrez les stratégies d’autorisation d’application, les stratégies de configuration des applications et les stratégies d’application personnalisées utilisées pour gérer les applications dans Microsoft Teams.
 audience: admin
-ms.localizationpriority: medium
+ms.localizationpriority: high
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bd8c6c88f9c1c207f0f6d9ebb1f64a626f2bce8
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
-ms.translationtype: MT
+ms.openlocfilehash: 547db7e0545247629ade5ed49d039a2b9ac95556
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880218"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67175638"
 ---
 # <a name="overview-of-app-policies-used-to-manage-apps"></a>Vue d’ensemble des stratégies d’application utilisées pour gérer les applications
 
@@ -28,19 +28,19 @@ Les stratégies d’application sont utilisées pour contrôler le comportement 
 
 ## <a name="app-permission-policies"></a>Stratégies d’autorisation d’application
 
-**Les stratégies d’autorisation** d’application sont utilisées pour contrôler les applications disponibles pour vos utilisateurs. En tant qu’administrateur, vous pouvez autoriser ou bloquer des applications spécifiques que vos utilisateurs installent à partir de l’App Store Teams. [Les stratégies d’autorisation d’application](teams-app-permission-policies.md) sont gérées via le Centre d’administration Microsoft Teams.
+**Les stratégies d’autorisation d’application** sont utilisées pour contrôler les applications disponibles pour vos utilisateurs. En tant qu’administrateur, vous pouvez autoriser ou bloquer des applications spécifiques que vos utilisateurs installent à partir de l’App Store Teams. [Les stratégies d’autorisation d’application](teams-app-permission-policies.md) sont gérées via le Centre d’administration Microsoft Teams.
 
 ![Capture d’écran de la stratégie d’autorisation d’application.](media/app-permission-policy.png)
 
-## <a name="app-setup-policies"></a>Stratégies d’installation de l’application
+## <a name="app-setup-policies"></a>Stratégies de configuration d’application
 
-**Les stratégies d’installation** d’application vous permettent d’épingler et d’installer des applications pour le compte de vos utilisateurs et de contrôler ces paramètres pour votre organisation. [Les stratégies d’installation](teams-app-setup-policies.md) d’application sont gérées dans le Centre d’administration Teams.
+**Les stratégies de configuration des applications** vous permettent d’épingler et d’installer des applications pour le compte de vos utilisateurs et de contrôler ces paramètres pour votre organisation. [Les stratégies de configuration des applications](teams-app-setup-policies.md) sont gérées dans le Centre d’administration Teams.
 
-![Capture d’écran de la stratégie d’installation d’application dans le Centre d’administration Teams.](media/app-setup-policy.png)
+![Capture d’écran de la stratégie de configuration d’application dans le Centre d’administration Teams.](media/app-setup-policy.png)
 
 ## <a name="custom-app-policies"></a>Stratégies d’application personnalisées
 
-Vous pouvez contrôler qui peut charger des applications personnalisées dans Teams avec des **stratégies d’application personnalisées**. [Les paramètres et stratégies d’application personnalisés](teams-custom-app-policies-and-settings.md) sont gérés par le biais du Centre d’administration Microsoft Teams.
+Vous pouvez contrôler qui peut charger des applications personnalisées dans Teams avec des **Stratégies d’application personnalisées**. [Les paramètres et stratégies d’application personnalisés](teams-custom-app-policies-and-settings.md) sont gérés via le Centre d’administration Microsoft Teams.
 
 ![Capture d’écran de la stratégie d’application personnalisée.](media/custom-app-policy.png)
 

@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et gérer des standards automatiques dans Microsoft Teams.
-ms.openlocfilehash: 384c7aae5e11c938a6bf8ab5f82924d0379a83aa
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: e54ffdeac8db21ebcc6cc00f51893769e0d194bb
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616110"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67176098"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
 
@@ -33,16 +33,19 @@ Les standards automatiques permettent aux utilisateurs d’appeler votre organis
 
 Veillez à lire l’article [Planifier les standards automatiques et les files d’attente des appels pour Teams](plan-auto-attendant-call-queue.md), puis à suivre les [étapes de démarrage](plan-auto-attendant-call-queue.md#getting-started) avant de suivre les procédures de cet article.
 
-Les standards automatiques peuvent diriger les appels, en fonction de l’entrée des appelants, vers l’une des destinations suivantes :
+Les standards automatiques peuvent rediriger les appels, en fonction de l’entrée des appelants, vers l’une des destinations suivantes :
 
 - **Opérateur** : opérateur défini pour le standard automatique. La définition d’un opérateur est facultative. L’opérateur peut être défini comme l’une des autres destinations de cette liste.
 - **Personne de l’organisation** : une personne de votre organisation qui peut recevoir des appels vocaux. Cette personne peut être un utilisateur en ligne ou un utilisateur hébergé localement à l’aide de Skype Entreprise Server.
 - **Application vocale** : un autre standard automatique ou une file d’attente d’appels. (Choisissez le compte de ressource associé au standard automatique ou à la file d’attente d’appels lors du choix de cette destination.)
 - **Messagerie vocale** : boîte aux lettres vocale associée à un groupe Microsoft 365 que vous spécifiez. Vous pouvez choisir si vous voulez des transcriptions de messagerie vocale et le message « Veuillez laisser un message après le ton ». invite système.
   - Dans M365 Administration Center, activez « Autoriser les personnes extérieures à l’organisation à envoyer un e-mail à cette équipe » pour le groupe Microsoft 365 que vous spécifiez
-- **Numéro de téléphone externe** : n’importe quel numéro de téléphone. Consultez [les détails techniques du transfert externe](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
+- **Numéro de téléphone externe** : n’importe quel numéro de téléphone. Consultez [les détails techniques du transfert externe](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details).
 - **Annonce (fichier audio)** : lire un fichier audio. Message d’annonce enregistré que vous chargez qui est enregistré en tant qu’audio dans . WAV, .MP3 ou . Format WMA. L’enregistrement ne peut pas dépasser 5 Mo. Le système lit l’annonce, puis revient au menu du standard automatique.
 - **Annonce (Typée)** : tapez un message. Texte que vous souhaitez que le système lisent. Vous pouvez entrer jusqu’à 1 000 caractères. Le système lit l’annonce, puis revient au menu du standard automatique.
+
+> [!NOTE]
+> Lorsque vous redirigez des appels vers une **personne de l’organisation**, cette personne doit être activée par la voix. Pour plus d’informations sur l’activation de la voix, consultez [Affecter des licences de module complémentaire Teams aux utilisateurs](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 Les étapes à suivre pour ajouter un standard automatique sont les suivantes :
 
@@ -232,11 +235,11 @@ Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suiva
    > [!div class="nextstepaction"]
    > [Exécuter des tests : Standard automatique Teams](https://aka.ms/TeamsAADiag)
 
-2. Dans le volet Exécuter le diagnostic, entrez le compte de ressource dans le champ **Nom d’utilisateur ou e-mail** , puis sélectionnez **Exécuter les tests**.
+2. Dans le volet De diagnostic d’exécution, entrez le compte de ressource dans le champ **Nom d’utilisateur ou Email**, puis sélectionnez **Exécuter les tests**.
 
 3. Les tests identifient les configurations de locataire, de stratégie ou de compte de ressource qui empêchent le standard automatique de recevoir des appels et fournissent des étapes pour résoudre les problèmes identifiés.
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Voir aussi
 
 [Voici ce que vous obtenez avec Teams Phone](./here-s-what-you-get-with-phone-system.md)
 
