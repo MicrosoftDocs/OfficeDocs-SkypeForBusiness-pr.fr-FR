@@ -10,30 +10,30 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment inscrire des comptes Salles Microsoft Teams dans Salles Microsoft Teams Premium service managé.
 f1keywords: ''
-ms.openlocfilehash: c64fcaf6e817eb57be2915f4f7b6d8684f2ae49b
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: f721406381e1eb99584563473196893bc21cf39b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635452"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270999"
 ---
 # <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>Inscrire un appareil dans le service managé Salles Microsoft Teams Premium
 
-Pour inscrire un appareil Salles Microsoft Teams dans le service managé salles Teams Premium, vous devez affecter un ou plusieurs utilisateurs à l’administrateur du service géré, puis effectuer les étapes d’inscription à l’aide de cet utilisateur.
+Pour inscrire un appareil Salles Microsoft Teams dans le service managé Salles Teams Premium, vous devez affecter un ou plusieurs utilisateurs à l’administrateur du service géré, puis effectuer les étapes d’inscription à l’aide de cet utilisateur.
 
 ## <a name="assign-users-to-the-managed-service-administrator-role"></a>Affecter des utilisateurs au rôle Administrateur de service géré
 
 Effectuez les étapes suivantes pour affecter des utilisateurs au rôle Administrateur du service géré :
 
 1. Connectez-vous au [portail salles Teams Premium](https://portal.rooms.microsoft.com/) avec les mêmes privilèges d’administrateur que ceux utilisés pour vous connecter au Centre d'administration Microsoft 365.
-2. Accédez à **Paramètres** >  **Paramètres** >  **Roles**, puis sélectionnez **Administrateur de service géré**.
+2. Accédez aux **rôles** **paramètres** >  > , puis sélectionnez **Administrateur de service géré**.
 3. Sous **Administrateur du service géré**, sélectionnez l’onglet **Affectations** , puis **Ajouter**.
 4. Suivez l’Assistant pour nommer l’affectation et sélectionnez les utilisateurs qui doivent y être ajoutés. L’affectation s’appliquera à toutes les salles et groupes de salles.
 5. À la fin de l’Assistant Affectation, **sélectionnez Ajouter une affectation**.

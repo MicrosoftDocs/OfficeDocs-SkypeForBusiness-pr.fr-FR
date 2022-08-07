@@ -11,7 +11,6 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
-- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,13 +19,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 'Découvrez comment définir l’audioconférence dans votre petite ou moyenne entreprise pour les personnes qui doivent utiliser un téléphone pour se connecter à des réunions. '
-ms.openlocfilehash: b7b5fbc958c67aa966619c961e011cda9450faf3
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+description: Découvrez comment définir l’audioconférence dans votre petite ou moyenne entreprise pour les personnes qui doivent utiliser un téléphone pour se connecter à des réunions.
+ms.openlocfilehash: b3b3514e2d33abe53da940759ddacefea29b961a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884823"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270659"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>Configurer l’audioconférence pour les petites et moyennes entreprises
 
@@ -119,7 +118,7 @@ Reportez-vous à [Définir les numéros de téléphone inclus dans les invitatio
 > [!NOTE]
 > Vous pouvez également définir des numéros de téléphone en les ajoutant à *TeamsAudioconferencingpolicy et en affectant* la stratégie à vos utilisateurs. Les numéros de téléphone payants et gratuits ajoutés à la stratégie sont prioritaires sur les numéros de téléphone définis individuellement pour les utilisateurs via le volet des paramètres d’audioconférence. Si aucun numéro de téléphone n’est ajouté à *teamsaudioconferencingpolicy*, le numéro de téléphone défini individuellement pour les utilisateurs via le volet des paramètres d’audioconférence s’affiche dans les demandes de réunion Microsoft Teams. [Les paramètres de stratégie d’audioconférence pour les numéros payants et gratuits](audio-conferencing-toll-free-numbers-policy.md) contiennent plus d’informations.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Audioconférence](audio-conferencing-in-office-365.md)
 - [Configurer l’audioconférence pour Teams](set-up-audio-conferencing-in-teams.md)

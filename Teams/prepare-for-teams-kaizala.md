@@ -1,5 +1,5 @@
 ---
-title: Graphique de votre Kaizala à Teams parcours
+title: Graphique de votre parcours Kaizala vers Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -11,16 +11,17 @@ description: Cet article explique comment préparer un passage de Kaizala à Mic
 f1.keywords: ''
 ms.localizationpriority: medium
 search.appverid: ''
-ms.collection: ''
+ms.collection:
+- M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 913d8991678a4da384d9208378e359cec016f1b8
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 7256d91a8a306f88e7f40b728158747971497262
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635402"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271419"
 ---
-# <a name="charting-your-kaizala-to-teams-journey"></a>Graphique de votre Kaizala à Teams parcours
+# <a name="charting-your-kaizala-to-teams-journey"></a>Graphique de votre parcours Kaizala vers Teams
 
 Vous avez décidé de passer de Kaizala à Microsoft Teams.
 
@@ -32,7 +33,7 @@ Avant de commencer, il est important de répondre à ces deux questions :
 
 ## <a name="identify-user-groups"></a>Identifier les groupes d’utilisateurs
 
-*Quels groupes existent dans votre organisation ? Qui utiliserez Teams et comment ? Quels sont les besoins de ces groupes pour un travail d’équipe efficace ?* Pour commencer votre parcours vers Teams, identifiez d’abord **les groupes d’utilisateurs pour votre transition.**  Les groupes d’utilisateurs sont un ensemble d’employés au sein de votre personnel qui effectuent des travaux dans des domaines similaires de l’entreprise. 
+*Quels groupes existent dans votre organisation ? Qui utilisera Teams et comment ? Quels sont les besoins de ces groupes pour un travail d’équipe efficace ?* Pour commencer votre parcours vers Teams, identifiez d’abord **les groupes d’utilisateurs pour votre transition.**  Les groupes d’utilisateurs sont un ensemble d’employés au sein de votre personnel qui effectuent des travaux dans des domaines similaires de l’entreprise. 
 
 Nous avons identifié trois groupes d’utilisateurs courants pour vous aider à identifier les besoins de collaboration. Chaque groupe d’utilisateurs a ses propres besoins uniques en termes de communication. 
 
@@ -70,13 +71,13 @@ Les utilisateurs qui se connectent à la main-d’œuvre de première ligne ont 
 
 Les utilisateurs qui se connectent avec des utilisateurs externes (fournisseurs/fournisseurs) peuvent utiliser :
 
-- [Microsoft Teams utilisateurs peuvent discuter avec n’importe quel Teams utilisateurs qui sont en dehors de leur organisation](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)
+- [Les utilisateurs de Microsoft Teams peuvent discuter avec tous les utilisateurs Teams qui sont en dehors de leur organisation](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)
 
 - [Ajouter ou inviter des personnes extérieures à votre organisation Teams à une conversation](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)
 
 ## <a name="determine-your-path"></a>Déterminer votre chemin d’accès
 
-Après avoir vérifié les besoins de collaboration de vos groupes d’utilisateurs, vous serez en mesure de déterminer à quoi ressemblera votre chemin d’accès entre Kaizala et Teams. Chaque organisation est unique, et aucun parcours de main-d’œuvre ne sera exactement le même. Les organisations qui n’utilisent pas actuellement Teams devront prendre des décisions stratégiques supplémentaires pour assurer une transition réussie. La détermination de votre chemin d’accès vous aidera à identifier toutes les actions importantes qui doivent être effectuées pour une transition réussie.
+Après avoir vérifié les besoins de collaboration de vos groupes d’utilisateurs, vous serez en mesure de déterminer à quoi ressemblera votre chemin d’accès entre Kaizala et Teams. Chaque organisation est unique, et aucun parcours de main-d’œuvre ne sera exactement le même. Les organisations qui n’utilisent pas Actuellement Teams devront prendre des décisions stratégiques supplémentaires pour assurer une transition réussie. La détermination de votre chemin d’accès vous aidera à identifier toutes les actions importantes qui doivent être effectuées pour une transition réussie.
 
 Nous avons décrit ce que peut être le chemin d’accès en fonction de l’utilisation de votre organisation aujourd’hui :  
 
@@ -86,7 +87,7 @@ Pour les organisations **qui n’utilisent pas Teams** :
 
  1. Envisager le travail d’équipe pour votre organisation
 
- 2. Teams pilote
+ 2. Équipes pilotes
   
  3. Déployer Teams
   

@@ -1,5 +1,5 @@
 ---
-title: Audioconférence en Microsoft 365
+title: Audioconférence dans Microsoft 365
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -11,7 +11,6 @@ ms.service: msteams
 ms.collection:
 - M365-voice
 - M365-collaboration
-- m365initiative-meetings
 search.appverid: MET150
 audience: admin
 appliesto:
@@ -25,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: Découvrez comment l’audioconférence dans Microsoft 365 ou Office 365 permet aux utilisateurs d’appeler des réunions à partir de leur téléphone.
-ms.openlocfilehash: b75d7c7fe50d658390a760b998a49a02ba2a0e84
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 1a8ed17474bc3fbcf2a9f227be4010df70d6da64
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055674"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272029"
 ---
-# <a name="audio-conferencing-in-microsoft-365"></a>Audioconférence en Microsoft 365
+# <a name="audio-conferencing-in-microsoft-365"></a>Audioconférence dans Microsoft 365
 
-L’audioconférence Microsoft 365 et Office 365 permet aux utilisateurs d’appeler des réunions à partir de leur téléphone. L’audioconférence permet d’autoriser jusqu’à 1 000 participants téléphoniques.
+L’audioconférence dans Microsoft 365 et Office 365 permet aux utilisateurs d’appeler des réunions à partir de leur téléphone. L’audioconférence autorise jusqu’à 1 000 participants par téléphone.
 
 ## <a name="what-is-audio-conferencing"></a>Qu-est-ce que l’audioconférence ?
 
@@ -47,7 +46,7 @@ L’appel entrant vers une réunion est particulièrement utile pour les personn
 - Les utilisateurs peuvent participer à une réunion en mains libres à l’aide d’appareils Bluetooth.
 - Les utilisateurs estiment cela plus facile ou pratique compte tenu de leur situation.
 
-Il vous suffit de configurer la fonctionnalité de audioconférence pour les utilisateurs qui comptent planifier ou organiser des réunions. Les participants à la réunion qui se connectent n’ont pas besoin de licence ou de configuration particulière.
+Il vous suffit de configurer la fonctionnalité de conférence audio pour les utilisateurs qui comptent planifier ou organiser des réunions. Les participants à la réunion qui se connectent n’ont pas besoin de licence ou de configuration particulière.
 
 Après avoir rejoint la réunion, les participants peuvent faire des appels sortants et inviter d’autres personnes à participer à une réunion Skype Entreprise ou Microsoft Teams.
 Voir l’[Appel sortant à partir d’une réunion Teams pour permettre à d’autres personnes de participer à celle-ci](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) ou l’[Appel sortant à partir d’une réunion Skype Entreprise pour que d’autres personnes puissent y accéder](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
@@ -76,7 +75,7 @@ Deux types de numéros de téléphone de conférence audio peuvent être affect�
   
  Les **numéros de téléphone dédiés** sont les numéros disponibles uniquement pour les utilisateurs au sein de votre organisation. Vous pouvez modifier les langues utilisées lorsque quelqu'un appelle l'un de ces numéros. Vous devez obtenir un numéro de téléphone service pour ces éléments.
   
- **Les numéros de téléphone** partagés sont les numéros qui peuvent être partagés avec d’autres Microsoft 365 ou Office 365. Vous ne pouvez pas modifier les langues utilisées lorsque quelqu'un appelle l'un de ces numéros.
+ **Les numéros de téléphone partagés** sont ceux qui peuvent être partagés avec d’autres Microsoft 365 ou Office 365. Vous ne pouvez pas modifier les langues utilisées lorsque quelqu'un appelle l'un de ces numéros.
   
 Bien que le numéro de conférence audio par défaut assigné à un organisateur soit inclus uniquement dans l'invitation à la réunion, un appelant peut utiliser n'importe quel numéro de téléphone affecté à votre pont de conférence pour participer à une réunion. La liste des numéros de téléphone qui peuvent être utilisés pour participer à une réunion est disponible en cliquant sur le lien **Trouver un numéro national** figurant sur chaque invitation à la réunion.
 
@@ -100,7 +99,7 @@ Les numéros de téléphone de conférence audio dédiés sont des numéros de s
 
 - **Utiliser le Centre d'administration Skype Entreprise.** Pour certains pays/régions, vous pouvez obtenir les numéros pour les ponts de conférence à l’aide du centre d’administration Skype Entreprise. Voir [Obtention de numéros de téléphone de service](./getting-service-phone-numbers.md).
 
-- **Portage de vos numéros existants.** Vous pouvez transférer des numéros existants de votre fournisseur de services ou de votre opérateur de téléphonie actuel vers Microsoft 365 ou Office 365. Consultez le [Transfert des numéros de téléphone vers Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [Gestion des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour plus d’informations pour vous aider à effectuer ces opérations.  
+- **Portage de vos numéros existants.** Vous pouvez porter ou transférer des numéros existants de votre fournisseur de services ou opérateur téléphonique actuel vers Microsoft 365 ou Office 365. Consultez le [Transfert des numéros de téléphone vers Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [Gestion des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour plus d’informations pour vous aider à effectuer ces opérations.  
   
 - **Utiliser un formulaire de demande pour de nouveaux numéros.** Il peut arriver (en fonction votre pays ou région) que vous ne puissiez pas obtenir vos nouveaux numéros de téléphone à l’aide du centre d’administration de Skype Entreprise, ou que vous ayez besoin de numéros de téléphone ou indicatifs spécifiques. Si c'est le cas, vous devrez télécharger un formulaire et nous le renvoyer. Pour plus d’informations, voir [Gestion des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 

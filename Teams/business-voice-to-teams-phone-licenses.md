@@ -1,5 +1,5 @@
 ---
-title: Passer de Business Voice à Teams Téléphone licences
+title: Passer des licences Business Voice à Teams Phone
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,33 +7,32 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 search.appverid: MET150
-description: Découvrez comment modifier vos licences Business Voice pour Teams Téléphone licences.
+description: Découvrez comment remplacer vos licences Business Voice par des licences Teams Phone.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9e973d00761e62e62a3c749163f9e6dcaa8a636
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 6e7622e4b78e57f45209b90a525eb5fefbe8cd66
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057094"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271229"
 ---
-# <a name="move-from-business-voice-to-teams-phone-licenses"></a>Passer de Business Voice à Teams Téléphone licences
+# <a name="move-from-business-voice-to-teams-phone-licenses"></a>Passer des licences Business Voice à Teams Phone
 
 À la fin de juin 2022, Business Voice sera mis hors service. Nous recommandons donc [aux entreprises de passer à Téléphonie Microsoft Teams avec forfait d'appels licences groupées](https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/teams-phone-with-calling-plan-available-in-33-markets-on-january/ba-p/2967643).
 
 Business Voice a regroupé les trois licences de module complémentaire Teams suivantes :
 
-- **Téléphonie Microsoft Teams** pour un Système téléphonique cloud dans Microsoft Teams.
+- **Téléphonie Microsoft Teams** pour un système téléphonique cloud dans Microsoft Teams.
 - **Audioconférence** pour les conférences rendez-vous et rendez-vous pour les réunions.
 - **Forfaits d’appels Microsoft** pour les appels nationaux à la connectivité RTC (Public Switched Telephone Network).
 
 Les clients Business Voice existants ne sont pas automatiquement transférés vers le nouveau modèle de licence.
 
-Cet article s’adresse aux administrateurs informatiques qui doivent modifier leurs licences Business Voice pour Téléphonie Microsoft Teams et Audioconférence licences tout en conservant les mêmes fonctionnalités.
+Cet article s’adresse aux administrateurs informatiques qui doivent modifier leurs licences Business Voice en licences Téléphonie Microsoft Teams et audioconférence tout en conservant les mêmes fonctionnalités.
 
 > [!WARNING]
 > Suivez attentivement les instructions de cet article. Si les instructions vous indiquent de NE PAS sélectionner le bouton **Enregistrer** , ne sélectionnez pas le bouton **Enregistrer** .
@@ -54,8 +53,8 @@ Utilisez le tableau suivant pour déterminer les licences à acheter en fonction
 
 | Ancien plan de licence | Plan de licence recommandé | Description |
 | ---------------- | ------------------------ | ----------- |
-| Business Voice avec forfait d’appels | Teams Téléphone avec forfait d’appels et Audioconférence Microsoft Teams avec rendez-vous aux États-Unis/CAN | Fournit des fonctionnalités de Système téléphonique basées sur le cloud, un forfait d’appels nationaux avec Microsoft comme fournisseur RTC, ainsi que des fonctionnalités de connexion et de numérotation pour les participants à la réunion organisées par un utilisateur sous licence. |
-| Business Voice sans forfait d’appels | Teams Phone Standard et Audioconférence Microsoft Teams avec rendez-vous aux États-Unis/CAN | Fournit des fonctionnalités de Système téléphonique basées sur le cloud qui peuvent être combinées avec [un plan d’appel tiers avec un fournisseur RTC à l’aide de fonctionnalités de routage Operator Connect ou direct](pstn-connectivity.md), de connexion et de numérotation pour rencontrer des participants organisés par un utilisateur sous licence. |
+| Business Voice avec forfait d’appels | Téléphone Teams avec forfait d’appels et Audioconférence Microsoft Teams avec rendez-vous aux États-Unis/CAN | Fournit des fonctionnalités de système téléphonique basé sur le cloud, un forfait d’appels nationaux avec Microsoft comme fournisseur RTC, ainsi que des fonctionnalités de connexion et de numérotation pour les participants à la réunion organisées par un utilisateur sous licence. |
+| Business Voice sans forfait d’appels | Téléphonie Teams standard et Audioconférence Microsoft Teams avec rendez-vous aux États-Unis/CAN | Fournit des fonctionnalités de système téléphonique basé sur le cloud qui peuvent être combinées avec [un plan d’appel tiers avec un fournisseur RTC à l’aide de l’opérateur Connect ou du routage direct](pstn-connectivity.md) , ainsi que des fonctionnalités de connexion et de numérotation pour les participants à la réunion organisées par un utilisateur sous licence. |
 
 ## <a name="how-to-update-licenses"></a>Comment mettre à jour les licences
 
@@ -78,7 +77,7 @@ Pour mettre à jour un seul utilisateur, vous pouvez utiliser le Centre d'admini
 1. Dans l’écran **Licences et applications** , désélectionnez la licence Business Voice.
     > [!IMPORTANT]
     > N’enregistrez pas encore les modifications. Si vous enregistrez les modifications sans ajouter les nouvelles licences, le compte d’utilisateur est déprovisionné et le numéro de téléphone n’est pas attribué.
-1. Après avoir désélectionner Business Voice, vérifiez les nouvelles licences Teams Téléphone et Audioconférence.
+1. Après avoir désélectionner Business Voice, vérifiez les nouvelles licences de téléphone et d’audioconférence Teams.
 1. Vous pouvez maintenant enregistrer vos modifications en toute sécurité en sélectionnant **Enregistrer la modification**.
 
 Les licences de l’utilisateur seront mises à jour et ne doivent pas avoir d’impact sur la disponibilité du service.
@@ -96,13 +95,13 @@ Pour mettre à jour les licences de plusieurs utilisateurs en bloc, vous pouvez 
     > [!IMPORTANT]
     > L’option **Remplacer** supprime toutes les licences existantes pour les utilisateurs sélectionnés.  Par conséquent, vous devrez sélectionner l’état de licence souhaité pour les utilisateurs, y compris toutes les autres licences utilisées, comme Microsoft 365 Business Premium.
     >
-    > En outre, si les utilisateurs sélectionnés ont des configurations de licence de base différentes, ils seront remplacés par vos licences sélectionnées, ce qui peut affecter d’autres zones de Microsoft 365.
+    > En outre, si les utilisateurs sélectionnés ont des configurations de licence de base différentes, ils seront remplacés par vos licences sélectionnées, ce qui peut affecter d’autres domaines de Microsoft 365.
     >
     > Pour les locataires disposant d’une configuration de licence mixte, nous vous recommandons d’utiliser [l’option de mise à jour en bloc avec un script PowerShell](#option-3-bulk-user-license-update-using-a-powershell-script).
 1. Dans l’écran **Licences et applications** , désélectionnez la licence Business Voice.
     > [!IMPORTANT]
     > N’enregistrez pas encore les modifications. Si vous enregistrez les modifications sans ajouter les nouvelles licences, les comptes des utilisateurs sélectionnés seront déprovisionnés et le numéro de téléphone non attribué.
-1. Après avoir désélectionner Business Voice, vérifiez les nouvelles licences Teams Téléphone et Audioconférence.
+1. Après avoir désélectionner Business Voice, vérifiez les nouvelles licences de téléphone et d’audioconférence Teams.
 1. Vous pouvez maintenant enregistrer vos modifications en toute sécurité en sélectionnant **Enregistrer la modification**.
   Les licences des utilisateurs seront mises à jour et ne doivent pas avoir d’impact sur la disponibilité du service.
 
@@ -115,10 +114,10 @@ Le remplacement du plan de licence Business Voice à l’aide d’un script Powe
 Pour utiliser cette méthode, vous allez suivre les étapes générales suivantes :
 
 1. Obtenez les identificateurs de plan de licence spécifiques au locataire de vos licences Business Voice actuelles.
-1. Obtenez les identificateurs spécifiques au locataire de vos nouveaux plans de licence Teams Téléphone et Audioconférence.
+1. Obtenez les identificateurs spécifiques au locataire de vos nouveaux plans de licences de téléphone et d’audioconférence Teams.
 1. Vérifiez si les nouveaux plans de licence ont les mêmes plans de service que la licence Business Voice actuelle.
 1. Recherchez les utilisateurs clients sous licence pour Business Voice (ou modifiez le script pour inclure un filtre pour sélectionner un sous-ensemble d’utilisateurs, si vous le souhaitez).
-1. Mettez à jour la configuration des licences des utilisateurs avec des plans Teams Téléphone et Audioconférence.
+1. Mettez à jour la configuration des licences des utilisateurs avec les plans de téléphonie et d’audioconférence Teams.
 
 > [!IMPORTANT]
 > Le script fourni est un exemple de code. Le script ne doit pas être copié en l’état et exécuté dans un locataire de production sans test, validation et personnalisation pour votre environnement spécifique.
@@ -132,7 +131,7 @@ Pour utiliser cette méthode, vous allez suivre les étapes générales suivante
     Import-Module AzureAD
     ```
 
-1. Connecter à votre locataire Microsoft 365 et fournissez les informations d’identification d’administrateur du locataire.
+1. Connectez-vous à votre locataire Microsoft 365 et fournissez les informations d’identification d’administrateur du locataire.
 
     ```powershell
     Connect-AzureAD
@@ -167,16 +166,16 @@ Pour utiliser cette méthode, vous allez suivre les étapes générales suivante
     $skuSourceBV = Get-AzureADSubscribedSku  | where {$_.SkuPartNumber -eq "BUSINESS_VOICE_MED2_TELCO"}
     ```
 
-1. Utilisez le tableau suivant pour identifier vos nouveaux codes de référence SKU de licence Teams Téléphone et Audioconférence.
+1. Utilisez le tableau suivant pour identifier vos nouveaux codes de référence SKU de licences de téléphone et d’audioconférence Teams.
 
     | SKU Code | Type de licence |
     | -------- | ------------ |
     | MCOTEAMS_ESSENTIALS | Téléphone Teams avec forfait d'appel |
-    | MCOEV | Teams Phone Standard (aucun forfait d’appels) |
+    | MCOEV | Téléphonie Teams standard (aucun forfait d’appels) |
     | MCOMEETADV | Audioconférence |
     | Microsoft_Teams_Audio_Conferencing_select_dial_out | Audioconférence Microsoft Teams sélectionnez Numérotation sortante |
 
-1. Créez des variables PowerShell pour stocker les Teams Téléphone uniques et les codes de référence SKU Audioconférence.
+1. Créez des variables PowerShell pour stocker les codes uniques des références SKU de téléphone et d’audioconférence Teams.
     1. Veillez à remplacer l’étiquette `SkuPartNumber` par les codes de référence SKU que vous avez disponibles dans votre locataire.
     1. Dans cet exemple, nous utilisons les codes et `MCOMEETADV` les `MCOTEAM_ESSENTIALS` codes de référence SKU.
 
@@ -193,7 +192,7 @@ Pour utiliser cette méthode, vous allez suivre les étapes générales suivante
     $servicePlan_CP = $skuSourceBV.ServicePlans | where {$_.ServicePlanName.ToString() -like "*PSTN*"}
     ```
 
-1. Avant de passer à autre chose, vérifiez si la référence SKU source (Business Voice) et les références SKU cibles (Teams Téléphone et Audioconférence) ont les mêmes plans de service inclus.
+1. Avant de passer à autre chose, vérifiez si la référence SKU source (Business Voice) et les références SKU cibles (téléphone teams et audioconférence) ont les mêmes plans de service inclus.
     1. Une incompatibilité peut déclencher une modification de licence susceptible de perturber les services de voix et d’audioconférence des utilisateurs.
     2. Créez des variables pour vérifier si tous les plans de service de la référence SKU source seront remplacés par le même plan de service cible.
 
@@ -249,14 +248,14 @@ Pour utiliser cette méthode, vous allez suivre les étapes générales suivante
     Get-AzureAdUser | ForEach { $BVlicensed=$False ; For ($i=0; $i -le ($_.AssignedLicenses | Measure).Count ; $i++) { If($_.AssignedLicenses[$i].SkuId -eq $skuSourceBV.SkuId) { $BVlicensed=$true } } ; If( $BVlicensed -eq $true) { $usersLicensedOldSKU.Add($_)} }
     ```
 
-1. À présent, à l’aide de la nouvelle liste d’utilisateurs, effectuez une activité de mise à jour pour supprimer les licences Business Voice et ajouter les licences Teams Téléphone et Audioconférence, à l’aide de l’objet ``$LicensesToUpdate`` que vous avez créé précédemment.
+1. À présent, à l’aide de la nouvelle liste d’utilisateurs, effectuez une activité de mise à jour pour supprimer les licences Business Voice et ajouter les licences de téléphone et d’audioconférence Teams, à l’aide de l’objet ``$LicensesToUpdate`` que vous avez créé précédemment.
 
     ```powershell
     $usersLicensedOldSKU | ForEach { Set-AzureADUserLicense -ObjectId $_.ObjectId -AssignedLicenses $LicensesToUpdate; Write-Host "Completed Update of user " $_.UserPrincipalName;  }
     ```
 
 > [!NOTE]
-> Si vous n’avez pas suffisamment de licences Teams Téléphone et/ou Audioconférence disponibles pour remplacer Business Voice, vous obtenez l’abonnement d’erreur **avec guid de référence SKU qui n’a pas de licence disponible** lors de l’attribution de l’utilisateur dès que le pool de licences est épuisé.
+> Si vous n’avez pas suffisamment de licences de téléphone et/ou d’audioconférence Teams disponibles pour remplacer Business Voice, vous obtiendrez l’abonnement d’erreur **avec le guid de référence SKU qui n’a pas de licence disponible** lors de l’attribution de l’utilisateur dès que le pool de licences est épuisé.
 
 ### <a name="full-script"></a>Script complet
 
@@ -341,7 +340,7 @@ Vous devrez valider les exigences de [licence pour les licences basées sur un g
 ### <a name="how-to-bulk-update-licenses-using-group-based-licensing"></a>Comment mettre à jour des licences en bloc à l’aide de licences basées sur un groupe
 
 1. Accédez à [portal.azure.com](https://portal.azure.com) et connectez-vous avec les informations d’identification de l’administrateur.
-1. Accédez à **Azure Active Directory** et dans le menu de gauche, sélectionnez **Licences**.
+1. Accédez à **Azure Active Directory** et, dans le menu de gauche, sélectionnez **Licences**.
 1. Pour vérifier quels groupes ont des licences Business Voice affectées, choisissez **Tous les produits** et sélectionnez le plan Business Voice.
 1. Sélectionnez **Groupes sous licence** ou **utilisateurs sous licence**. Vous trouverez la liste des groupes sous licence dans le volet droit.
 1. Sélectionnez le nom du groupe pour ouvrir les détails de l’attribution de groupe.
@@ -363,4 +362,4 @@ Une fois que vous avez terminé la méthode choisie, vérifiez si les licences u
 1. Sélectionnez **Gérer les licences de produit** dans la barre d’outils.
 1. Dans l’écran **Licences et applications** , examinez les licences qui leur ont été attribuées.
 
-Si les licences appropriées sont attribuées à tous les utilisateurs ciblés, vous avez terminé la mise à jour de vos licences Business Voice pour Teams Téléphone et Audioconférence licences.
+Si toutes les licences appropriées sont attribuées à tous les utilisateurs ciblés, vous avez terminé la mise à jour de vos licences Business Voice vers les licences de téléphone et d’audioconférence Teams.

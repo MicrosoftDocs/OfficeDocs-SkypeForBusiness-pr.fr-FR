@@ -10,17 +10,16 @@ search.appverid: MET150
 description: Découvrez comment configurer une hiérarchie d’équipe dans votre organisation pour publier du contenu sur un grand ensemble d’équipes.
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 877b081e4964d07a7df0372688eee589bbde8fac
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: aa18168c9e8755a9b6b895ba48c38f8f79005177
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563782"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271079"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurer la hiérarchie de ciblage de votre équipe
 
@@ -278,7 +277,7 @@ Vérifiez que vous utilisez le TeamId approprié pour l’équipe dans votre fic
 
 Assurez-vous que l’ID d’équipe dans votre fichier CSV de schéma correspond à l’ID de groupe affiché dans le Centre d’administration Microsoft Teams.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 * [Gérer l’application Tâches pour votre organisation dans Teams](manage-tasks-app.md)
 * [Présentation de Teams PowerShell](teams-powershell-overview.md)

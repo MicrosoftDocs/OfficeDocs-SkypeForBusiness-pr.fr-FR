@@ -18,12 +18,12 @@ description: Découvrez les différentes façons d’affecter des stratégies et
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 3dec8bf23167c5166302942140fcfe49e9ea3720
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: e7cf7ba085c7bad22fea4b14f79b9eb3d4e6e2aa
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156512"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268419"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Affecter des stratégies dans Teams – Prise en main
 
@@ -83,9 +83,9 @@ Suivez ces étapes pour définir les stratégies globales (par défaut à l’é
 
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à la page de stratégie du type de stratégie à mettre à jour. Par exemple, les stratégies **Teams** >  Teams, les stratégies **réunions** > , **les stratégies de messagerie** ou les **stratégies d’appel** **vocal** > .
 2. Sélectionnez la stratégie **globale (par défaut à l’échelle de l’organisation)** pour afficher les paramètres actuels.
-3. Mettez à jour la stratégie en fonction des besoins, puis **sélectionnez Appliquer**.
+3. Mettez à jour la stratégie en fonction des besoins, puis **sélectionnez Enregistrer**.
 
-![Mettez à jour la stratégie globale dans le Centre d’administration Teams.](media/assign-globalpolicy.png)
+:::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Capture d’écran montrant la stratégie globale de mise à jour dans le Centre d’administration Teams." lightbox="media/teams-meetings-policies-global-expanded.png":::
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
@@ -125,7 +125,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 Lorsque vous attribuez des stratégies aux utilisateurs dans le Centre d’administration Microsoft Teams, vous pouvez afficher l’état de ces affectations de stratégie dans le [journal d’activité](https://admin.teams.microsoft.com/activitylog). Le journal d’activité affiche les informations de chargement des enregistrements réseau, les opérations de stratégie de groupe à partir du Centre d’administration Teams et de PowerShell, et les opérations de stratégie par lot (pour plus de 20 utilisateurs) à partir du Centre d’administration Teams, au cours des 30 derniers jours.
 
-![Capture d’écran de la page du journal d’activité.](media/Activity_Log.png)
+:::image type="content" source="media/teams-activity-log.png" alt-text="Capture d’écran de la page du journal d’activité." lightbox="media/Activity_Log.png":::
 
 Pour afficher vos opérations de stratégie dans le journal d’activité :
 

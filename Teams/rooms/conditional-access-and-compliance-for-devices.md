@@ -11,13 +11,14 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: Découvrez les stratégies de conformité des appareils et les meilleures pratiques recommandées en matière d’accès conditionnel et de Intune pour les Salles Microsoft Teams.
-ms.openlocfilehash: 1221060121f47154549c6c6fc926415f4feabbe5
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: a1d86b002a4960e58541650643574428a2c3ede5
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761306"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271029"
 ---
 # <a name="conditional-access-and-intune-compliance-for-microsoft-teams-rooms"></a>Accès conditionnel et conformité Intune pour Salles Microsoft Teams
 
@@ -27,11 +28,11 @@ Cet article fournit les conditions requises et les meilleures pratiques pour l�
 
 salles Teams doit déjà être déployé sur les appareils auxquels vous souhaitez affecter des stratégies d’accès conditionnel. Si vous n’avez pas encore déployé salles Teams, consultez [Créer des comptes de ressources pour les salles et les appareils Teams partagés](with-office-365.md) et [Déployer Salles Microsoft Teams sur Android](../devices/collab-bar-deploy.md) pour plus d’informations.
 
-Un Azure Active Directory plan de service P1 est nécessaire pour utiliser l’accès conditionnel. Il est inclus dans la licence Salles Microsoft Teams.
+Un plan de service Azure Active Directory P1 est nécessaire pour utiliser l’accès conditionnel. Il est inclus dans la licence Salles Microsoft Teams.
 
 ## <a name="teams-rooms-conditional-access-best-practices"></a>salles Teams meilleures pratiques en matière d’accès conditionnel
 
-Les stratégies d’accès conditionnel peuvent sécuriser le processus de connexion sur les appareils qui se trouvent dans des espaces partagés et qui sont utilisés par plusieurs personnes. Pour obtenir une vue d’ensemble de l’accès conditionnel dans Azure Active Directory (Azure AD), consultez [Qu’est-ce que l’accès conditionnel dans Azure Active Directory ?](/azure/active-directory/conditional-access/overview).
+Les stratégies d’accès conditionnel peuvent sécuriser le processus de connexion sur les appareils qui se trouvent dans des espaces partagés et qui sont utilisés par plusieurs personnes. Pour obtenir une vue d’ensemble de l’accès conditionnel dans Azure Active Directory (Azure AD), consultez [Qu’est-ce que l’accès conditionnel dans Azure Active Directory ?](/azure/active-directory/conditional-access/overview)
 
 Lorsque vous utilisez l’accès conditionnel pour sécuriser salles Teams, tenez compte des meilleures pratiques suivantes :
 
@@ -48,13 +49,13 @@ Dans l’exemple ci-dessous, la stratégie d’accès conditionnel fonctionne co
 
 1.  La connexion au compte doit être membre d’un groupe d’utilisateurs spécifique, dans cet exemple, le groupe « Appareils partagés ».
 
-2.  Le compte qui se connecte doit uniquement essayer d’accéder à Exchange Online, Microsoft Teams ou SharePoint Online. Les tentatives de connexion à n’importe quelle autre application cliente sont rejetées.
+2.  La connexion au compte doit uniquement essayer d’accéder à Exchange Online, Microsoft Teams ou SharePoint Online. Les tentatives de connexion à n’importe quelle autre application cliente sont rejetées.
 
-3.  Le compte de ressource doit se connecter à la plateforme d’appareil Windows.
+3.  Le compte de ressource doit se connecter sur la plateforme d’appareils Windows.
 
 4.  Le compte de ressource doit également se connecter à partir d’un emplacement connu et approuvé.
 
-Si ces conditions sont remplies avec succès et que l’utilisateur entre le nom d’utilisateur et le mot de passe appropriés, le compte de ressource se connecte à Teams.
+Si ces conditions sont remplies avec succès et que l’utilisateur entre le nom d’utilisateur et le mot de passe corrects, le compte de ressource se connecte à Teams.
 
 ## <a name="conditional-access-with-microsoft-intune-compliance-for-teams-rooms"></a>Accès conditionnel avec conformité Microsoft Intune pour salles Teams
 
@@ -62,16 +63,16 @@ Les exigences de conformité sont des règles définies que les appareils doiven
 
 Pour obtenir la liste des stratégies de conformité Intune prises en charge pour salles Teams, consultez Stratégies [de conformité des appareils prises en charge](supported-ca-and-compliance-policies.md#supported-device-compliance-policies).
 
-Pour plus d’informations sur la configuration de Intune avec des appareils Teams Android, consultez [Configurer les Intune pour inscrire des appareils basés sur Teams Android](../devices/phones-displays-deploy.md#configure-intune-to-enroll-teams-android-based-devices).
+Pour plus d’informations sur la configuration de Intune avec des appareils Android Teams, consultez [Configurer Intune pour inscrire des appareils Teams basés sur Android](../devices/phones-displays-deploy.md#configure-intune-to-enroll-teams-android-based-devices).
 
-## <a name="example-windows-only-conditional-access-with-intune-device-compliance"></a>Exemple (Windows uniquement) : accès conditionnel avec Intune conformité de l’appareil
+## <a name="example-windows-only-conditional-access-with-intune-device-compliance"></a>Exemple (Windows uniquement) : Accès conditionnel avec Intune conformité de l’appareil
 
-Dans cet exemple, pour salles Teams sur Windows
+Dans cet exemple pour salles Teams sur Windows
 
 1. Exiger qu’un pare-feu s’exécute sur salles Teams sur Windows.
 
 2. Exiger que Microsoft Defender s’exécute sur salles Teams.
 
-3. Si une Teams Room ne répond à aucune de ces exigences, elle n’est pas marquée comme conforme et les appareils ne se connectent pas.
+3. Si une salle Teams ne répond à aucune de ces exigences, elle n’est pas marquée comme conforme et les appareils ne se connectent pas.
 
-Cette stratégie de conformité s’applique à tous les utilisateurs, et pas seulement aux comptes de ressources Teams.
+Cette stratégie de conformité s’applique à tous les utilisateurs, pas seulement aux comptes de ressources Teams.

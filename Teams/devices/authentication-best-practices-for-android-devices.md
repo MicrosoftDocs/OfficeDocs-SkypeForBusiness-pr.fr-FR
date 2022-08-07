@@ -1,5 +1,5 @@
 ---
-title: Meilleures pratiques d’authentification pour Microsoft Teams la gestion des appareils partagés des appareils Android.
+title: Meilleures pratiques d’authentification pour la gestion des appareils partagés Microsoft Teams des appareils Android.
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -13,43 +13,42 @@ description: Meilleures pratiques sur la gestion des appareils Android partagés
 ms.collection:
 - M365-voice
 - M365-collaboration
-- skype-for-business-itpro
-- skype-for-business-online
+- Teams_ITAdmin_Devices
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6eef76052f662b26f946bf80839a62186c287b68
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 0f658a70235440563d7cb3910830c56923b60f3e
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635461"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270099"
 ---
-# <a name="authentication-best-practices-for-teams-shared-device-management-on-android-devices"></a>Meilleures pratiques d’authentification pour Teams la gestion des appareils partagés sur Android appareils
+# <a name="authentication-best-practices-for-teams-shared-device-management-on-android-devices"></a>Bonnes pratiques d’authentification pour la gestion des appareils partagés Teams sur les appareils Android
 
-Les objectifs des appareils utilisés avec Teams rendre nécessaires différentes stratégies de gestion des appareils. Par exemple, une tablette d’entreprise personnelle utilisée par un seul vendeur a un ensemble de besoins différent d’un téléphone sur appel partagé par de nombreuses personnes du service clientèle.
+Les objectifs des appareils utilisés avec Teams rendent nécessaires différentes stratégies de gestion des appareils. Par exemple, une tablette d’entreprise personnelle utilisée par un seul vendeur a un ensemble de besoins différent d’un téléphone sur appel partagé par de nombreuses personnes du service clientèle.
 
 Les administrateurs de sécurité et les équipes d’exploitation doivent planifier les appareils qui peuvent être utilisés dans l’organisation. Ils doivent implémenter des mesures *de sécurité* adaptées à chaque objectif. Les recommandations de cet article facilitent certaines de ces décisions.
 
 >[!NOTE]
->L’accès conditionnel nécessite un abonnement Premium Azure Active Directory (Azure AD).
+>L’accès conditionnel nécessite un abonnement Azure Active Directory (Azure AD) Premium.
 
 >[!NOTE]
->Les stratégies pour Android appareils mobiles peuvent ne pas s’appliquer aux appareils Teams Android.
+>Les stratégies pour les appareils mobiles Android peuvent ne pas s’appliquer aux appareils Android Teams.
 
 ## <a name="authentication-recommendations-are-different-for-personal-versus-shared-android-devices"></a>Les recommandations d’authentification sont différentes pour les appareils android personnels et partagés
 
-Les appareils Teams partagés ne peuvent pas utiliser les mêmes exigences d’inscription et de conformité que sur les appareils personnels. L’application des exigences d’authentification des appareils personnels aux appareils partagés entraîne des problèmes de connexion.
+Les appareils Teams partagés ne peuvent pas utiliser les mêmes exigences pour l’inscription et la conformité que celles utilisées sur les appareils personnels. L’application des exigences d’authentification des appareils personnels aux appareils partagés entraîne des problèmes de connexion.
 
 1.  **Les appareils sont déconnectés en raison de stratégies de mot de passe.**
 
-Les comptes utilisés sur Teams appareils ont une stratégie d’expiration de mot de passe. Les comptes utilisés avec des appareils partagés n’ont pas d’utilisateur spécifique pour les mettre à jour et les restaurer à un état de travail lorsque leurs mots de passe expirent. Si votre organisation exige l’expiration et la réinitialisation occasionnelles des mots de passe, ces comptes cesseront de fonctionner sur Teams appareils jusqu’à ce qu’un administrateur Teams réinitialise le mot de passe et se connecte.
+Les comptes utilisés sur les appareils Teams ont une stratégie d’expiration de mot de passe. Les comptes utilisés avec des appareils partagés n’ont pas d’utilisateur spécifique pour les mettre à jour et les restaurer à un état de travail lorsque leurs mots de passe expirent. Si votre organisation requiert l’expiration et la réinitialisation occasionnelles des mots de passe, ces comptes cesseront de fonctionner sur les appareils Teams jusqu’à ce qu’un administrateur Teams réinitialise le mot de passe et se connecte.
 
 **Défi** : Quand il s’agit d’accéder. Teams à partir d’un appareil, le compte d’une personne a une stratégie d’expiration de mot de passe. Lorsque le mot de passe va expirer, il suffit de le modifier. Toutefois, les comptes utilisés sur *des appareils partagés* (comptes de ressources) peuvent ne pas être connectés à une seule personne qui peut modifier un mot de passe en fonction des besoins. Cela signifie qu’un mot de passe peut expirer et laisser les travailleurs sur place, ne sachant pas comment reprendre leur travail.
 
-Lorsque votre organisation a besoin d’une réinitialisation de mot de passe ou applique l’expiration du mot de passe, assurez-vous qu’un administrateur Teams est prêt à réinitialiser le mot de passe afin que ces comptes partagés puissent se connecter.
+Lorsque votre organisation nécessite une réinitialisation de mot de passe ou applique l’expiration du mot de passe, assurez-vous qu’un administrateur Teams est prêt à réinitialiser le mot de passe afin que ces comptes partagés puissent se connecter.
 
 2.  **Les appareils ne parviennent pas à se connecter en raison de stratégies d’accès conditionnel.**
 
@@ -65,15 +64,15 @@ Microsoft recommande les paramètres suivants lors du déploiement d’appareils
 
 ### <a name="use-a-resource-account-and-curtail-its-password-expiration"></a>**Utiliser un compte de ressource et limiter l’expiration de son mot de passe**
 
-Teams appareils partagés doivent utiliser une [boîte aux lettres de ressources Exchange](/exchange/recipients-in-exchange-online/manage-resource-mailboxes). La création de ces boîtes aux lettres génère automatiquement un compte. Ces comptes peuvent être synchronisés avec Azure AD à partir d’Active Directory ou créés directement dans Azure AD. Toutes les stratégies d’expiration de mot de passe pour les utilisateurs s’appliquent également aux comptes utilisés sur Teams appareils partagés. Par conséquent, pour éviter les interruptions causées par les stratégies d’expiration de mot de passe, définissez la stratégie d’expiration du mot de passe pour les appareils partagés afin qu’elles n’expirent jamais.
+Les appareils partagés Teams doivent utiliser une [boîte aux lettres de ressources Exchange](/exchange/recipients-in-exchange-online/manage-resource-mailboxes). La création de ces boîtes aux lettres génère automatiquement un compte. Ces comptes peuvent être synchronisés avec Azure AD à partir d’Active Directory ou créés directement dans Azure AD. Toutes les stratégies d’expiration de mot de passe pour les utilisateurs s’appliquent également aux comptes utilisés sur les appareils partagés Teams. Par conséquent, pour éviter les interruptions causées par les stratégies d’expiration de mot de passe, définissez la stratégie d’expiration du mot de passe pour les appareils partagés afin qu’elles n’expirent jamais.
 
-À compter de Teams appareils CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams version 1449/1.0.94.2021022403 pour les téléphones Teams) et [CY20 21 Mise à jour 2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams version 1449/1.0.96.2021051904 pour Salles Microsoft Teams sur Android), les administrateurs clients peuvent se connecter à Teams  appareils à distance. Au lieu de partager des mots de passe avec des techniciens pour configurer des appareils, les administrateurs locataires doivent utiliser la connexion à distance pour émettre des codes de vérification. Vous pouvez vous connecter à ces appareils à partir du centre d’administration Teams.
+À compter des appareils Teams CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams version 1449/1.0.94.2021022403 pour les téléphones Teams) et [CY2021 Update #2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams version 1449/1.0.96.2021051904 pour Salles Microsoft Teams sur Android), les administrateurs locataires peuvent se connecter à distance aux appareils Teams. Au lieu de partager des mots de passe avec des techniciens pour configurer des appareils, les administrateurs locataires doivent utiliser la connexion à distance pour émettre des codes de vérification. Vous pouvez vous connecter à ces appareils à partir du Centre d’administration Teams.
 
-Pour plus d’informations, consultez [l’approvisionnement à distance et la connexion pour Teams Android appareils](/MicrosoftTeams/devices/remote-provision-remote-login). 
+Pour plus d’informations, consultez [l’approvisionnement à distance et la connexion pour les appareils Android Teams](/MicrosoftTeams/devices/remote-provision-remote-login). 
 
 ### <a name="review-these-conditional-access-policies"></a>**Passer en revue ces stratégies d’accès conditionnel**
 
-L’accès conditionnel Azure AD définit des exigences supplémentaires que les appareils doivent respecter pour se connecter. Pour Teams appareils, passez en revue les conseils qui suivent pour déterminer si vous avez créé les stratégies qui permettront aux utilisateurs d’appareils partagés d’effectuer leur travail.
+L’accès conditionnel Azure AD définit des exigences supplémentaires que les appareils doivent respecter pour se connecter. Pour les appareils Teams, passez en revue les conseils qui suivent pour déterminer si vous avez créé les stratégies qui permettront aux utilisateurs d’appareils partagés d’effectuer leur travail.
 
 > [!TIP]
 > Pour obtenir une vue d’ensemble de l’accès conditionnel, consultez [Qu’est-ce que l’accès conditionnel](/azure/active-directory/conditional-access/overview) ?
@@ -94,7 +93,7 @@ Si les appareils partagés sont approvisionnés dans un emplacement bien défini
 >[!NOTE]
 >La conformité des appareils nécessite une licence Intune.
 
-Si vous inscrivez des appareils partagés dans Intune, vous pouvez configurer la conformité des appareils en tant que contrôle dans l’accès conditionnel afin que seuls les appareils conformes puissent accéder à vos ressources d’entreprise. Teams appareils peuvent être configurés pour les stratégies d’accès conditionnel en fonction de la conformité des appareils. Pour plus d’informations, consultez [Accès conditionnel : Exiger un appareil joint à Azure AD conforme ou hybride](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device).
+Si vous inscrivez des appareils partagés dans Intune, vous pouvez configurer la conformité des appareils en tant que contrôle dans l’accès conditionnel afin que seuls les appareils conformes puissent accéder à vos ressources d’entreprise. Les appareils Teams peuvent être configurés pour les stratégies d’accès conditionnel en fonction de la conformité des appareils. Pour plus d’informations, consultez [Accès conditionnel : Exiger un appareil joint à Azure AD conforme ou hybride](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device).
 
 Pour définir le paramètre de conformité de vos appareils à l’aide de Intune, consultez [Utiliser des stratégies de conformité pour définir des règles pour les appareils que vous gérez avec Intune](/intune/protect/device-compliance-get-started).
 

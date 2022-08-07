@@ -1,5 +1,5 @@
 ---
-title: Approvisionnement à distance et connexion pour les appareils Teams Android
+title: Approvisionnement à distance et connexion pour les appareils Android Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,24 +9,24 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_Devices
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment approvisionner à distance et se connecter à des appareils Teams Android
-ms.openlocfilehash: 5a746e3255ce8af9bcf59f8dfcae12854b222a1f
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+description: Découvrez comment configurer et se connecter à distance pour les appareils Android Teams
+ms.openlocfilehash: 566f7428d03a16082a37ff7a8896cffbb27b85ec
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761286"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267789"
 ---
-# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Approvisionnement à distance et connexion pour les appareils Teams Android
+# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Approvisionnement à distance et connexion pour les appareils Android Teams
 
-Les administrateurs informatiques peuvent approvisionner et se connecter à distance à un appareil Teams Android. Pour approvisionner un appareil à distance, l’administrateur doit charger les ID MAC des appareils en cours d’approvisionnement et créer un code de vérification. L’ensemble du processus peut être effectué à distance à partir du centre d’administration Teams.
+Les administrateurs informatiques peuvent approvisionner et se connecter à distance à un appareil Android Teams. Pour approvisionner un appareil à distance, l’administrateur doit charger les ID MAC des appareils en cours d’approvisionnement et créer un code de vérification. L’ensemble du processus peut être effectué à distance à partir du Centre d’administration Teams.
 
 ## <a name="review-the-supported-devices"></a>Passer en revue les appareils pris en charge
 
@@ -34,15 +34,15 @@ La liste suivante présente les exigences du microprogramme d’appareil Android
 
 |Catégorie d’appareil|Modèle d’appareil|Version du microprogramme|
 |---|---|---|
-|téléphones Teams|Yealink T55/T56/T58|58.15.0.124|
-|téléphones Teams|Yealink VP59|91.15.0.58|
-|téléphones Teams|Yealink CP960|73.15.0.117|
-|téléphones Teams|Yealink MP56/MP54/MP58|122.15.0.36|
-|téléphones Teams|Crestron UC-2|1.0.3.52|
-|téléphones Teams|Poly Trio C60|7.0.2.1071|
-|téléphones Teams|CCX400/CCX500/CCX600 |7.0.2.1072|
-|téléphones Teams|Audio Codes C448HD/C450HD/C470HD|1.10.120|
-|panneaux Teams|Crestron 770/1070|1.004.0115|
+|Téléphones Teams|Yealink T55/T56/T58|58.15.0.124|
+|Téléphones Teams|Yealink VP59|91.15.0.58|
+|Téléphones Teams|Yealink CP960|73.15.0.117|
+|Téléphones Teams|Yealink MP56/MP54/MP58|122.15.0.36|
+|Téléphones Teams|Crestron UC-2|1.0.3.52|
+|Téléphones Teams|Poly Trio C60|7.0.2.1071|
+|Téléphones Teams|CCX400/CCX500/CCX600 |7.0.2.1072|
+|Téléphones Teams|Audio Codes C448HD/C450HD/C470HD|1.10.120|
+|Panneaux Teams|Crestron 770/1070|1.004.0115|
 |salles Teams sur Android|Logitech Rally Bar Mini|1.2.982|
 |salles Teams sur Android|Logitech Rally Bar|1.2.982|
 |salles Teams sur Android|AudioCodes RXV80|1.13.361|
@@ -60,7 +60,7 @@ La liste suivante présente les exigences du microprogramme d’appareil Android
 Effectuez les étapes suivantes pour approvisionner un nouvel appareil.
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
-2. Développez **Teams appareils**.
+2. Développez **les appareils Teams**.
 3. Sélectionnez **Provisionner un nouvel appareil** dans l’onglet **Actions** .
 
 Dans la fenêtre **Approvisionner de nouveaux appareils** , vous pouvez ajouter l’adresse MAC manuellement ou charger un fichier.
@@ -75,12 +75,12 @@ Dans la fenêtre **Approvisionner de nouveaux appareils** , vous pouvez ajouter 
 1. Entrez un emplacement, qui permet aux techniciens d’identifier où installer les appareils.
 1. Sélectionnez **Appliquer** lorsque vous avez terminé.
 
-### <a name="upload-a-file-to-add-a-device-mac-address"></a>Télécharger un fichier pour ajouter une adresse MAC d’appareil
+### <a name="upload-a-file-to-add-a-device-mac-address"></a>Charger un fichier pour ajouter une adresse MAC d’appareil
 
-1. Sous l’onglet **En attente d’activation**, sélectionnez **Télécharger ID MAC**.
+1. Sous l’onglet **En attente d’activation** , **sélectionnez Charger les ID MAC**.
 2. Téléchargez le modèle de fichier.
 3. Entrez l’ID MAC et l’emplacement, puis enregistrez le fichier.
-4. **Sélectionnez fichier**, puis **sélectionnez Télécharger**.
+4. **Sélectionnez fichier**, puis **téléchargez**.
 
 ## <a name="generate-a-verification-code"></a>Générer un code de vérification
 
@@ -95,7 +95,7 @@ Vous avez besoin d’un code de vérification pour les appareils. Le code de vé
 
 Lorsque l’appareil est sous tension et connecté au réseau, le technicien provisionne l’appareil. Ces étapes sont effectuées sur l’appareil Teams.
 
-1. Le technicien sélectionne **Provisionner l’appareil** dans le **Paramètres**.  
+1. Le technicien sélectionne **Provisionner l’appareil** dans les **Paramètres**.  
 
    ![Provisionnez une nouvelle option d’appareil à partir de l’onglet Actions.](../media/provision-device1.png)
   

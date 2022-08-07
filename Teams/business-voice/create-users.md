@@ -1,5 +1,5 @@
 ---
-title: Créer des Microsoft 365 utilisateurs, ajouter des numéros Teams Téléphone des offres groupées d’appels et affecter des numéros de téléphone
+title: Créer des utilisateurs Microsoft 365, ajouter Teams Phone avec licences de forfait d’appels et attribuer des numéros de téléphone
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,34 +9,33 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 search.appverid: MET150
-description: Découvrez comment créer des licences et les Teams Système téléphonique des utilisateurs d’une offre groupée d’appels et leur affecter des numéros de téléphone.
+description: Découvrez comment créer et concéder une licence à Teams Phone System avec les utilisateurs du forfait d’appels groupés et leur attribuer des numéros de téléphone.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb60d60a12949cbb2a0b9ac60e727cfab393de12
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.collection:
+- M365-voice
+ms.openlocfilehash: ac665f46c7be619d26b0c6da371ba57e554a07ee
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053273"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271999"
 ---
-# <a name="create-and-license-teams-phone-system-with-calling-plan-bundle-users-and-assign-them-phone-numbers"></a>Créer des licences et des Teams Système téléphonique avec les utilisateurs d’une offre groupée Forfait d’appels et leur affecter des numéros de téléphone
+# <a name="create-and-license-teams-phone-system-with-calling-plan-bundle-users-and-assign-them-phone-numbers"></a>Créer et concéder une licence au système téléphonique Teams avec des utilisateurs de forfaits d’appels et leur attribuer des numéros de téléphone
 
-Pour utiliser l’Teams Système téléphonique avec l’offre groupée Forfait d’appels, vous avez besoin d’un compte Microsoft 365 qui dispose Teams Téléphone licences de forfait Forfait d’appels. Lorsque vous avez un compte et des licences, vous pouvez commencer à affecter des numéros de téléphone.
+Pour utiliser le système téléphonique Teams avec l’offre groupée forfait d’appels, vous avez besoin d’un compte Microsoft 365 disposant de licences De téléphone Teams avec forfait d’appels groupés. Lorsque vous disposez d’un compte et de licences, vous pouvez commencer à attribuer des numéros de téléphone.
 
 ## <a name="create-and-license-users"></a>Créer des utilisateurs et leur octroyer une licence
 
 Suivez les étapes décrites dans [Ajouter des utilisateurs individuellement ou en bloc](/microsoft-365/admin/add-users/add-users) et [Attribuer des licences aux utilisateurs](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 > [!NOTE]
-> Dans le **volet Attribuer des licences de** produit, sélectionnez **Teams Téléphone’aide du plan d’appel**.
+> Dans le volet **Attribuer des licences de produit** , sélectionnez **Téléphone Teams avec forfait d’appels**.
 
 ## <a name="assign-phone-numbers-to-users"></a>Attribuer des numéros de téléphone aux utilisateurs
 
-Après avoir créé des utilisateurs et leur Teams Téléphone licence d’offre groupée Forfait d’appels, vous pouvez leur affecter des numéros de téléphone. Vous devez avoir un numéro de téléphone non attribué pour chaque utilisateur devant passer ou recevoir des appels vers ou à partir de numéros de téléphone externes. Si vous n’avez pas assez de numéros de téléphone non attribués, consultez [Demander d’autres numéros de téléphone](#get-more-phone-numbers), plus loin dans cet article.
+Une fois que vous avez créé des utilisateurs et leur avez attribué une licence Teams Phone avec forfait d’appels, vous pouvez leur attribuer des numéros de téléphone. Vous devez avoir un numéro de téléphone non attribué pour chaque utilisateur devant passer ou recevoir des appels vers ou à partir de numéros de téléphone externes. Si vous n’avez pas assez de numéros de téléphone non attribués, consultez [Demander d’autres numéros de téléphone](#get-more-phone-numbers), plus loin dans cet article.
 
 1. Accédez au [Centre d’administration Teams](https://admin.teams.microsoft.com).
 2. Entrez un nom et une description pour la demande de numéro de téléphone.

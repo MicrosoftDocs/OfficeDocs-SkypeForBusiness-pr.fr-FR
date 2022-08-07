@@ -15,16 +15,16 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Utilisez le rapport de routage direct rtc (CQD) du tableau de bord de qualité des appels Microsoft Teams pour surveiller et résoudre les problèmes liés aux appels RTC dans Microsoft Teams.
-ms.openlocfilehash: 8d6e971adc3cd7e4ec9b4038356e744d4451146f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7b7205658358cfa3aa90824718c03731fa33a534
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789889"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270709"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Utilisation du rapport de routage direct rtc CQD
 
-Nouveau en mars 2020, nous avons ajouté un rapport de routage direct RTC (Call Quality Dashboard) Microsoft Teams à nos [modèles de requête Power BI téléchargeables pour CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+Le rapport de routage direct rtc (CQD) du tableau de bord de qualité des appels Microsoft Teams est disponible dans nos [modèles de requête Power BI téléchargeables pour CQD](https://www.microsoft.com/download/details.aspx?id=102291). 
 
 
 Le rapport de routage direct RTC CQD (CQD PSTN Direct Routing Report.pbit) vous aide à comprendre les modèles d’utilisation et la qualité de vos services RTC. Utilisez ce rapport pour surveiller l’utilisation du service, les informations sur votre contrôleur de frontière de session (SBC), le service de téléphonie, les paramètres réseau et les détails du ratio d’efficacité réseau. Ces informations peuvent vous aider à identifier les problèmes, y compris la raison des appels supprimés. Par exemple, vous serez en mesure de voir quand le volume diminue, ou combien d’appels sont affectés et pour quelle raison.
@@ -143,7 +143,7 @@ Si vous voyez un pic sur l’un des quatre graphiques (latence, gigue, taux de p
 
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Utiliser Power BI pour analyser les données de CQD pour Microsoft Teams](CQD-PSTN-report.md)
 

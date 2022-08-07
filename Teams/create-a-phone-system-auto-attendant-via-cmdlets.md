@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer des standards automatiques via des applets de commande
-ms.openlocfilehash: 4dccd4e5026d78dada222cedf98659cdcd5ce6e5
-ms.sourcegitcommit: 6fb15729b2ff5ca142cb90605f3c98112cb36804
+ms.openlocfilehash: fa52f84f822635505e3d3390855195ba579406f7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "66744320"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270139"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>Créer un standard automatique via des applets de commande
 
@@ -143,7 +142,7 @@ $dtr = New-CsOnlineDateTimeRange -Start "01/01/2022" -End "02/01/2022"
 $newyearSchedule = New-CsOnlineSchedule -Name "New Year" -FixedSchedule -DateTimeRanges @($dtr)
 ```
 
-### <a name="create-address-fax-and-email-information-prompt"></a>Créer une adresse, une télécopie et une invite d’informations sur les e-mails
+### <a name="create-address-fax-and-email-information-prompt"></a>Créer une adresse, une télécopie et une invite d’informations Email
 
 ```PowerShell
 $addressPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "To repeat this information at any time press the * key. Our mailing address is: 123 Main Street, Any town, Any Place, County. Our email address is: info@contoso.com. Our fax number is: 929-555-0151"

@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
+- m365initiative-securecollab
 f1.keywords:
 - NOCSH
 appliesto:
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des canaux partagés dans Microsoft Teams.
-ms.openlocfilehash: 8bd0fe39031fdae6d47e7c738a1c883b6b066f7d
-ms.sourcegitcommit: 1398570f56d5918d309f95fb734a2e8c5b4981b5
+ms.openlocfilehash: 55d1956b1f112e0f1685ac6c4126f564cf40bdb1
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66968905"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272259"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canaux partagés dans Microsoft Teams
 
@@ -211,7 +211,6 @@ Les applications suivantes sont prises en charge pour une utilisation dans des c
 - Smartsheet
 - SurveyMonkey
 - Tasks in a Box
-- Équipes
 - Teams Manager
 - TeamViewer
 - Travail d’équipe

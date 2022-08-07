@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment router les appels vers des numéros non attribués dans votre organisation.
-ms.openlocfilehash: 8874fc5a47ede1c35178cf16c7d3eded6f7826a7
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 3f3d0b9e6962cce7abdb91efa8539dd559c38956
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615730"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272299"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Routage des appels vers des numéros non attribués
 
@@ -77,7 +76,7 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - Si un modèle/plage spécifié contient des numéros de téléphone affectés à un compte d’utilisateur ou de ressource dans le locataire, les appels à ces numéros de téléphone sont acheminés vers la cible appropriée et non routés vers le traitement de numéros non attribués spécifié. Il n’y a pas d’autres vérifications des nombres dans la plage. Si la plage contient un numéro de téléphone externe valide, les appels sortants de Microsoft Teams vers ce numéro de téléphone sont acheminés en fonction du traitement.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Get-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/get-csteamsunassignednumbertreatment)
 

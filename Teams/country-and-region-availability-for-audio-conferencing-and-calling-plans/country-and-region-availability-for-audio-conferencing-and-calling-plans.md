@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Découvrez si l’audioconférence, le système téléphonique, les forfaits d’appels, les crédits de communication et les numéros de téléphone gratuits et payants sont disponibles dans un pays ou une région.
-ms.openlocfilehash: 7693ae0421d186d1ac230d48bf4df2369aa4e3f8
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 0bc0013f27e890e56224dcc1c645afbaf94b699a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682463"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269179"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 
@@ -205,6 +205,11 @@ La disponibilité des numéros de téléphone payant de certains de ces emplacem
 Utilisez la liste déroulante en haut de la page pour rechercher un pays ou une région, ainsi que les services disponibles.
 
 ### <a name="calling-plans"></a>Forfaits d’appel
+
+|Fonctionnalité     |Détails  |
+|----------|-----------|
+|Les forfaits d'appels sont-ils disponibles à l'achat ?  |Oui          |   
+|Minutes disponibles pour les forfaits d'appels.    |Cinq options de plan sont disponibles par mois calendaire : <ul><li>Forfait d’appels avec paiement à l’utilisation </li><li> Forfait d’appels nationaux de 120 minutes </li><li> Forfait d’appels nationaux de 240 minutes </li><li> Forfait d’appels nationaux de 1200 minutes </li><li> Forfait d’appels internationaux : 1 200 minutes d’appels nationaux ou 600 minutes d’appels internationaux (selon le premier jour du mois calendaire)</li></ul>|
 
 Avec un Système téléphonique, un forfaits d’appels permet aux utilisateurs de passer et recevoir des appels téléphoniques. Vous obtenez d’abord un numéro de téléphone d’utilisateur (abonné) (et non un numéro de service) à affecter à l’utilisateur, puis vous attribuez un forfait d’appels. Il existe deux types de forfaits d’appels disponibles : **national** et **international**. Pour plus d’information, consultez [Système téléphonique et forfaits d’appels](../calling-plan-landing-page.md).
 

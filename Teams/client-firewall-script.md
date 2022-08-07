@@ -1,5 +1,5 @@
 ---
-title: Exemple de script - script PowerShell Microsoft Teams pare-feu
+title: Exemple de script - Script PowerShell de pare-feu Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,23 +8,22 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- m365initiative-deployteams
 ms.reviewer: harij, rafarhi
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Exemple de script qui peut être utilisé pour configurer des Windows à l Teams des connexions via Windows Pare-feu.
+description: Exemple de script qui peut être utilisé pour configurer Windows afin d’autoriser les connexions Teams via le Pare-feu Windows.
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1131868af2b81b1d786bd760518f56633ec8aa83
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: b15c8e141f8a3cd5cde1915901d3dbcd9e29b23a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893757"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269399"
 ---
-# <a name="sample-script---microsoft-teams-firewall-powershell-script"></a>Exemple de script - script PowerShell Microsoft Teams pare-feu
+# <a name="sample-script---microsoft-teams-firewall-powershell-script"></a>Exemple de script - Script PowerShell de pare-feu Microsoft Teams
 
 Cet exemple de script qui doit s’exécuter sur des ordinateurs clients dans le contexte d’un compte d’administrateur élevé, crée une nouvelle règle de pare-feu entrant pour chaque dossier utilisateur trouvé dans c:\users. Lorsque Teams détecte cette règle, il permet d’empêcher l’application Teams d’inviter les utilisateurs à créer des règles de pare-feu lorsque les utilisateurs passent leur premier appel à partir de Teams.
 

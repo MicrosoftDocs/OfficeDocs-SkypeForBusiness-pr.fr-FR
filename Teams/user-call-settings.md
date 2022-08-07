@@ -11,23 +11,21 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- ms.teamsadmincenter.callqueues.overview"
-- Phone System - seo-marvel-apr2020
+- ms.teamsadmincenter.callqueues.overview
+- Phone System
+- seo-marvel-apr2020
 description: Découvrez comment configurer les paramètres utilisateur pour le transfert et la délégation des appels.
-ms.openlocfilehash: 41d954f468166fd8600601f98ea98d5be129eccd
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 64907043448f44ff861ede026d0a4343899ad98b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681995"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272229"
 ---
 # <a name="configure-call-settings-for-your-users"></a>Configurer les paramètres d’appel pour vos utilisateurs
 
@@ -37,17 +35,17 @@ Cet article décrit comment vous, l’administrateur, pouvez modifier les param�
 - Vous devez inspecter les paramètres de transfert d’appel pour tous les utilisateurs d’un service et les corriger éventuellement en fonction des besoins.
 - Un nouvel assistant a été employé et vous devez l’ajouter en tant que délégué pour un groupe d’employés.
 
-Vous pouvez utiliser le centre d’administration Teams ou Teams applets de commande PowerShell pour afficher et modifier les paramètres d’appel des utilisateurs.
+Vous pouvez utiliser le Centre d’administration Teams ou les applets de commande Teams PowerShell pour afficher et modifier les paramètres d’appel pour les utilisateurs.
 
-Pour définir les paramètres d’appel d’un utilisateur, l’utilisateur doit disposer d’une licence système Téléphone Microsoft attribuée.
+Pour définir les paramètres d’appel d’un utilisateur, l’utilisateur doit disposer d’une licence Microsoft Phone System attribuée.
 
-## <a name="use-the-teams-admin-center"></a>Utiliser le centre d’administration Teams
+## <a name="use-the-teams-admin-center"></a>Utiliser le Centre d’administration Teams
 
-Vous pouvez utiliser le centre d’administration Teams pour configurer les paramètres de transfert d’appel et sans réponse, la prise en charge des appels de groupe et la délégation d’appel pour vos utilisateurs.
+Vous pouvez utiliser le Centre d’administration Teams pour configurer les paramètres de transfert d’appel et sans réponse, la prise en charge des appels de groupe et la délégation d’appel pour vos utilisateurs.
 
 Pour configurer les paramètres de transfert d’appel immédiat :
 
-1. Dans le centre d’administration Teams, accédez à **Users** > **Manage users** et sélectionnez un utilisateur.
+1. Dans le Centre d’administration Teams, accédez à **Users** > **Manage users** et sélectionnez un utilisateur.
 
 2. Dans la page des détails de l’utilisateur, accédez à l’onglet **Voix** .
 
@@ -61,7 +59,7 @@ La configuration de la délégation d’appel et de la prise d’appel de groupe
 
 ## <a name="use-powershell"></a>Utiliser PowerShell
 
-Vous pouvez utiliser PowerShell pour configurer les paramètres de transfert d’appel et de délégation pour vos utilisateurs.  Vous allez utiliser les applets de commande suivantes, qui sont disponibles dans Teams module PowerShell version 4.0 ou ultérieure :
+Vous pouvez utiliser PowerShell pour configurer les paramètres de transfert d’appel et de délégation pour vos utilisateurs.  Vous allez utiliser les applets de commande suivantes, qui sont disponibles dans le module Teams PowerShell version 4.0 ou ultérieure :
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings) : affiche les paramètres de transfert d’appel, les délégués et les informations de suppression pour un utilisateur.
 - [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings) : définit les paramètres de transfert d’appel pour un utilisateur.
@@ -151,7 +149,7 @@ Pour supprimer user2 en tant que délégué pour user1, utilisez l’applet de c
 Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings)
 - [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings)

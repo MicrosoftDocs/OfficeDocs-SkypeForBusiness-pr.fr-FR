@@ -12,12 +12,15 @@ appliesto:
 localization_priority: Normal
 description: En savoir plus sur la configuration de ServiceNow dans le portail salles Teams Premium
 f1keywords: ''
-ms.openlocfilehash: 6362d0bed4263ce374c1fb5cfd05d4d8815044c2
-ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_MTRP
+ms.openlocfilehash: 920d31a350914115623a83f018815d8bebe94f6a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2022
-ms.locfileid: "66167308"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272379"
 ---
 # <a name="configure-servicenow-for-teams-rooms"></a>Configurer ServiceNow pour salles Teams
 
@@ -37,7 +40,7 @@ Cet article décrit les prérequis et les étapes à suivre pour configurer votr
 - Une connexion d’autorisation de base ou une connexion [OAuth](https://docs.servicenow.com/bundle/rome-platform-administration/page/administer/security/concept/c_OAuthApplications.html) . Pour plus d’informations, consultez [Création d’informations d’identification](https://developer.servicenow.com/dev.do#!/learn/learning-plans/rome/servicenow_application_developer/app_store_learnv2_rest_rome_creating_credentials) dans ServiceNow.
 - Une instance ServiceNow et son nom d’hôte d’instance et l’URI de l’API
 - Rôle de incident_manager ou supérieur
-- Version logicielle de ServiceNow qui prend en charge API Table
+- Version logicielle de ServiceNow qui prend en charge l’API Table
 
 ## <a name="configure-your-environment"></a>Configurer votre environnement
 
@@ -54,7 +57,7 @@ La façon dont votre environnement est configuré est hautement personnalisable 
 | Description | Premier message | Aucune action n’est nécessaire. Le champ salles Teams est rempli automatiquement. |
 | assignment_group | Groupe de salles | Copiez la valeur assignment_group dans votre instance ServiceNow et collez-la dans le champ valeur ServiceNow dans le formulaire de configuration. Si vous avez plusieurs assignment_group, sélectionnez **Ajouter un groupe de salles** pour chaque valeur personnalisée supplémentaire. |
 | Gravité | Anneaux | La gravité est une valeur personnalisée dans ServiceNow. Il s’agit du quatrième élément de la deuxième colonne de votre instance ServiceNow. Copiez la valeur et collez-la dans le champ valeur ServiceNow dans le formulaire de configuration. Si vous avez plusieurs valeurs de gravité, sélectionnez **Ajouter un anneau** pour chaque valeur personnalisée supplémentaire. |
-| Commentaires (facultatif) | Valeur personnalisée* | Pour ajouter un champ de commentaires au formulaire de configuration, sélectionnez **Ajouter** en haut de la section de mappage de champs. Copiez la valeur de commentaire dans votre instance ServiceNow et collez-la dans le champ ServiceNow dans le formulaire de configuration. Attribuez-lui un champ Microsoft Teams Room dans le menu déroulant, puis copiez et collez la valeur ServiceNow. |
+| Commentaires (facultatif) | Valeur personnalisée* | Pour ajouter un champ de commentaires au formulaire de configuration, sélectionnez **Ajouter** en haut de la section de mappage de champs. Copiez la valeur de commentaire dans votre instance ServiceNow et collez-la dans le champ ServiceNow dans le formulaire de configuration. Affectez-lui un champ Salle Microsoft Teams dans le menu déroulant, puis copiez et collez la valeur ServiceNow. |
 | état (résolu) | Valeur personnalisée* | Copiez l’état de résolution de votre instance ServiceNow et collez-le dans le champ valeur ServiceNow dans le formulaire de configuration. |
 | close_code | Valeur personnalisée* | Sous l’onglet **Informations de résolution** de votre instance ServiceNow, copiez le code de fermeture et collez-le dans le champ valeur ServiceNow dans le formulaire de configuration. |
 
@@ -81,7 +84,7 @@ Une fois votre test réussi, **sélectionnez Envoyer** pour enregistrer vos modi
 
 - **gravité** : le champ de gravité dans ServiceNow est utilisé pour organiser les incidents par priorité. Les valeurs qui désignent la priorité sont personnalisables. La gravité est équivalente au champ Anneau dans le portail salles Teams Premium. Pour personnaliser les anneaux dans le portail salles Teams Premium, accédez à **Mises à jour** dans le menu de navigation de gauche. Accédez ensuite à l’onglet **Anneaux** , puis **sélectionnez Ajouter un anneau**.
 
-- **commentaires** : Les commentaires sont un champ facultatif dans ServiceNow qui est utilisé pour inclure des champs requis personnalisés à partir de votre instance ServiceNow dans la configuration de votre portail salles Teams Premium. L’équivalent de commentaires est une valeur personnalisée dans le portail salles Teams Premium.
+- **commentaires** : Les commentaires sont un champ facultatif dans ServiceNow qui est utilisé pour inclure des champs requis personnalisés à partir de votre instance ServiceNow dans votre configuration du portail salles Teams Premium. L’équivalent de commentaires est une valeur personnalisée dans le portail salles Teams Premium.
 
 - **état (résolu)** : le champ État (résolu) dans ServiceNow est utilisé pour désigner la façon dont un incident a été résolu et est nécessaire pour fermer un incident. La valeur d’état (résolue) est personnalisable. L’équivalent de l’état (résolu) est une valeur personnalisée dans le portail salles Teams Premium.
 

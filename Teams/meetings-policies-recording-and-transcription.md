@@ -17,13 +17,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
-description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour l’enregistrement et la transcription.
-ms.openlocfilehash: da7a5d43231abcb00339f2ffc2c57c7e90ff2d2e
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+description: Apprenez à gérer les paramètres de stratégie de réunion dans Teams pour l’enregistrement et la transcription.
+ms.openlocfilehash: 12f8be910c713a9ce023ac17c956ef50f5889792
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646363"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268979"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>Paramètres de stratégie de réunion pour l’enregistrement & transcription
 
@@ -39,7 +39,7 @@ Il s’agit d’une combinaison d’une stratégie par organisateur et par utili
 
 L’activation de ce paramètre crée une copie de la transcription stockée avec l’enregistrement de la réunion, ce qui active **Recherche**, **CC** et **Transcriptions** sur l’enregistrement de réunion.
 
-La transcription des réunions enregistrées est actuellement prise en charge uniquement pour les utilisateurs qui définissent leur langue ou parlent l’anglais dans Teams réunions.
+La transcription des réunions enregistrées est actuellement prise en charge uniquement pour les utilisateurs qui définissent leur langue ou parlent l’anglais dans les réunions Teams.
 
 ## <a name="allow-cloud-recording"></a>Autoriser l’enregistrement dans le cloud
 
@@ -67,9 +67,10 @@ Pour en savoir plus sur l’enregistrement de réunions cloud, consultez [Enregi
 
 ## <a name="store-recordings-outside-of-your-country-or-region"></a>Stocker des enregistrements en dehors de votre pays ou région
 
-Cette stratégie contrôle si les enregistrements de réunion peuvent être stockés définitivement dans un autre pays ou région. S’il est activé, les enregistrements ne peuvent pas être migrés. Pour plus d’informations sur les réunions cloud et l’emplacement de stockage des enregistrements, consultez [Teams’enregistrement de réunion cloud](cloud-recording.md).
+Cette stratégie contrôle si les enregistrements de réunion peuvent être stockés définitivement dans un autre pays ou région. S’il est activé, les enregistrements ne peuvent pas être migrés. Pour plus d’informations sur les réunions cloud et l’emplacement de stockage des enregistrements, consultez [l’enregistrement des réunions cloud Teams](cloud-recording.md).
 
 ## <a name="related-topics"></a>Voir aussi
 
-- [Attribuer des stratégies aux utilisateurs dans Teams](policy-assignment-overview.md)
+- [Affecter des stratégies aux utilisateurs dans Teams](policy-assignment-overview.md)
 - [Enregistrement de réunion cloud](cloud-recording.md)
+- [Stratégies de réunion et expiration de la réunion dans Microsoft Teams](meeting-expiration.md)

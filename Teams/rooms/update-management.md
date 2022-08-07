@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: surveillance proactive de vos salles de réunion.
 f1keywords: ''
-ms.openlocfilehash: 2311d17c5d60b7c9eb845570ce24c5f6db507717
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 97c812cca2b64979f224e9f7da63087899b9c7a9
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057064"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269119"
 ---
 # <a name="update-management"></a>Gestion des mises à jour 
 Une salle de réunion moderne est équipée d’un appareil Salles Microsoft Teams et d’autres périphériques tels qu’une caméra, un microphone ou un haut-parleur, et potentiellement plus d’appareils pour créer une expérience de réunion inclusive et efficace. L’équipement de différents types d’OEM fournit l’expérience organisationnelle exacte souhaitée; toutefois, ils doivent être maintenus avec des logiciels et des microprogrammes sur une base continue.  
@@ -51,17 +51,17 @@ Il existe quelques prérequis pour la réception des mises à jour des services 
 
 |Logiciels |Aide |
 |:- |:- |
-|Logitech Sync Services  |Doit être installé et exécuté sur les appareils de salle de réunion Logitech. Les services de synchronisation requis sont installés automatiquement à partir de Windows Mises à jour, sauf si elles sont bloquées. Le package de synchronisation complète peut également être installé. |
-|mises à jour du système d’exploitation Windows |Doit être maintenu activé et non redirigé vers WSUS, ni bloqué du point de vue de la mise en réseau. Ni les stratégies GPO ni GDM ne doivent être utilisées pour gérer les mises à jour du système d’exploitation. |
-|mises à jour Microsoft Store   |Doit être désactivé. Managed Services désactive les mises à jour du Windows Store si elle est activée. |
-|Logiciel antivirus |Si vous exécutez des logiciels AV sur ces appareils, vous devez vous assurer qu’AV a des exclusions en place pour Teams et Skype dlls. Pour plus d’informations, voir ici. |
+|Logitech Sync Services  |Doit être installé et exécuté sur les appareils de salle de réunion Logitech. Les services de synchronisation requis sont installés automatiquement à partir de Windows Mises à jour, sauf s’ils sont bloqués. Le package de synchronisation complète peut également être installé. |
+|Mises à jour du système d’exploitation Windows |Doit être maintenu activé et non redirigé vers WSUS, ni bloqué du point de vue de la mise en réseau. Ni les stratégies GPO ni GDM ne doivent être utilisées pour gérer les mises à jour du système d’exploitation. |
+|Mises à jour du Microsoft Store   |Doit être désactivé. Managed Services désactive les mises à jour du Windows Store si elle est activée. |
+|Logiciel antivirus |Si vous exécutez des logiciels AV sur ces appareils, vous devez vous assurer qu’AV a des exclusions en place pour les DLL Teams et Skype. Pour plus d’informations, voir ici. |
 |Logiciels supplémentaires |Des logiciels supplémentaires tels que l’affichage de bureau à distance tiers, etc. doivent être examinés avec Managed Services pour éliminer les effets secondaires. |
 |Gestion des modifications supplémentaires|Peut interférer avec les mises à jour couvertes et ne doit pas être introduite. |
 
 ## <a name="managed-updates--how-it-works"></a>Mises à jour gérées : fonctionnement 
 Il existe deux façons principales de gérer les mises à jour :  
 
-- **Géré automatiquement** : les mises à jour sont installées dans votre appareil de salle en fonction de l’évaluation des services managés. Aucune intervention n’est requise pour les mises à jour gérées dans notre portefeuille.
+- **Géré automatiquement** : Mises à jour sont installés dans votre appareil de salle en fonction de l’évaluation des services managés. Aucune intervention n’est requise pour les mises à jour gérées dans notre portefeuille.
 - **Anneau validé** : configurez un système d’anneau pour afficher un aperçu des mises à jour sur des appareils spécifiques afin de pouvoir les surveiller sans le travail de jambe associé. La configuration en anneau fournit une couche supplémentaire de diligence raisonnable avant les déploiements à grande échelle.  
 
 ### <a name="automatically-managed"></a>Géré automatiquement
@@ -81,13 +81,13 @@ Les mises à jour managées sont planifiées pour les salles en fonction de l’
 
 - Pour aider nos clients à répondre aux exigences de gestion des modifications, le déploiement des mises à jour démarre **le mercredi** dans l’anneau intermédiaire. Si une mise à jour critique est requise, nous allons contourner cette planification et la publier dès qu’elle est disponible. 
 
-- Les mises à jour sont séquencées en fonction des besoins dans une salle particulière. 
+- Mises à jour sont séquencées en fonction des besoins d’une pièce particulière. 
 - Si vous avez des anneaux d’installation pour valider les mises à jour, la mise à jour progresse dans l’ordre de l’anneau. 
 - Une nouvelle mise à jour peut remplacer une mise à jour mise en file d’attente si nous déterminons que la stabilité de la salle est améliorée en fonction de votre situation.  
-- Les mises à jour sont généralement appliquées au cours de notre fenêtre de maintenance nocturne, c’est-à-dire à l’heure locale de **la salle de 12h00 à 5h00** pour éviter tout type d’interruptions. 
+- Mises à jour sont généralement appliquées pendant notre fenêtre d’entretien nocturne , c’est-à-dire l’heure locale de **la pièce de 12h00 à 5h00** pour éviter tout type d’interruptions. 
 
 ## <a name="microsoft-teams-rooms-app-update-lifecycle-policy"></a>Salles Microsoft Teams stratégie de cycle de vie des mises à jour d’application 
-La stratégie de support de l’équipe d’ingénierie MTR indique que tous les supports se terminent après l’expiration du cycle de vie de douze (12) mois pour une version ou si plus de deux mises à jour ont été publiées depuis. Ensuite, les clients doivent mettre à jour vers une version prise en charge. Reportez-vous [à Salles Microsoft Teams prise en charge de la version de l’application - Microsoft Teams | Microsoft Docs](rooms-lifecycle-support.md) pour obtenir une description détaillée du service.
+La stratégie de support de l’équipe d’ingénierie MTR indique que tous les supports se terminent après l’expiration du cycle de vie de douze (12) mois pour une version ou si plus de deux mises à jour ont été publiées depuis. Ensuite, les clients doivent mettre à jour vers une version prise en charge. Consultez [Salles Microsoft Teams prise en charge de la version de l’application - Microsoft Teams | Microsoft Docs](rooms-lifecycle-support.md) pour obtenir une description détaillée du service.
 
 Pour maintenir une norme uniforme dans toutes nos salles gérées et pour nous permettre d’identifier efficacement les problèmes de tendance, nous allons prendre en charge et déployer les deux dernières versions majeures ou mineures (N, N-1) du logiciel de l’application MTR conformément aux conditions générales des services de support et d’abonnement. Nous mettons automatiquement à jour les salles non conformes, en contournant les anneaux de mise à jour si nécessaire. 
 
@@ -104,7 +104,7 @@ Le volet Mises à jour affiche une vue d’ensemble générale de la gestion des
 - **Salles** : l’onglet Salles offre une vue sur les salles et les anneaux auxquels chaque chambre appartient.
 - **Anneaux** : l’onglet Anneaux affiche les anneaux de salles de votre organisation.
 
-### <a name="updates"></a>Updates  
+### <a name="updates"></a>Mises à jour  
 
 Cette vue affiche les mises à jour pertinentes pour votre locataire et leur état respectif. Pour afficher les mises à jour passées qui ne sont plus actives, **sélectionnez le bouton Bascule Inclure les mises à jour passées** sur ON.  
 
@@ -133,13 +133,13 @@ Pour configurer l’anneau auquel une salle doit appartenir :
 1. Sélectionnez l’anneau auquel la salle doit appartenir.  
 1. Cliquez sur **Affecter**.  
 
-La vue d’espace détaillée affiche les mises à jour pertinentes et leur état sous le nœud **Mises à jour** .  
+L’affichage détaillé de la salle affiche les mises à jour pertinentes et leur état sous le **nœud Mises à jour**.  
 
 ![Capture d’écran des mises à jour et des modifications pertinentes](../media/update-management-003.jpg)
 
 ### <a name="rings"></a>Anneaux  
 
-Les anneaux sont utilisés pour réduire le risque de problèmes dérivés du déploiement des mises à jour des fonctionnalités. Pour ce faire, déployez progressivement la mise à jour sur l’ensemble du site. Chaque anneau doit avoir une liste de Microsoft Teams salles et un calendrier de déploiement correspondant. La définition d’anneaux est généralement un événement unique (ou au moins peu fréquent), mais le service informatique doit revoir ces groupes de temps à autre pour s’assurer que le séquencement est toujours correct.  
+Les anneaux sont utilisés pour réduire le risque de problèmes dérivés du déploiement des mises à jour des fonctionnalités. Pour ce faire, déployez progressivement la mise à jour sur l’ensemble du site. Chaque anneau doit avoir une liste de salles Microsoft Teams et un calendrier de déploiement correspondant. La définition d’anneaux est généralement un événement unique (ou au moins peu fréquent), mais le service informatique doit revoir ces groupes de temps à autre pour s’assurer que le séquencement est toujours correct.  
 
 L’onglet **Anneaux** répertorie tous les anneaux dans votre locataire. Il existe trois anneaux préconfigurés :  
 
@@ -151,7 +151,7 @@ L’onglet **Anneaux** répertorie tous les anneaux dans votre locataire. Il exi
 
 ### <a name="specifying-rollout-timeline"></a>Spécification de la chronologie du déploiement
 
-Les mises à jour ne peuvent pas dépasser 60 jours pour se terminer sur tous les anneaux.  
+Mises à jour ne peut pas dépasser 60 jours pour se terminer sur tous les anneaux.  
 
 |Paramètre |Explication |
 |:- |:- |
@@ -204,8 +204,8 @@ Le déplacement de salles d’un anneau à l’autre est possible de deux maniè
 
 **Ou**
 
-1. Ouvrez les détails de la salle que vous souhaitez déplacer (via incidents, salles ou mises à jour -> salles).
-1. Cliquez sur l’onglet **Mises à jour** .  
+1. Ouvrez les détails de la salle que vous souhaitez déplacer (via incidents, salles ou Mises à jour -> Chambres).
+1. Cliquez sur l’onglet **Mises à jour**.  
 1. Sous **Anneau attribué**, cliquez sur **Modifier**.
 1. Dans la liste déroulante, sélectionnez le nouvel anneau.  
 1. Cliquez sur **Affecter**.
@@ -220,6 +220,6 @@ Les services managés orchestrent les mises à jour au sein de votre organisatio
 - Il peut y avoir des situations urgentes où vous pouvez décider de rendre une mise à jour disponible précédemment. Dans ce cas, vous pouvez utiliser le bouton **Forcer les mises à jour** . Lorsque vous utilisez l’option Forcer la mise à jour, vous avez le choix de forcer la mise à jour immédiatement ou lorsque la salle est disponible.  
 
 > [!NOTE]
-> **Nous ne recommandons pas de forcer les mises à jour** en tant que stratégie générale de gestion des mises à jour. Si vous envoyez (push) une mise à jour qui est toujours dans notre passe de validation, vous pouvez rencontrer des problèmes que nous connaissons déjà. Dans ce cas, la résolution des incidents pour ces salles sera effectuée de façon optimale.  
+> **Nous ne recommandons pas « Forcer Mises à jour »** comme stratégie générale de gestion des mises à jour. Si vous envoyez (push) une mise à jour qui est toujours dans notre passe de validation, vous pouvez rencontrer des problèmes que nous connaissons déjà. Dans ce cas, la résolution des incidents pour ces salles sera effectuée de façon optimale.  
 
 - En outre, pour garantir de bonnes pratiques de gestion des changements, nous consignerons chaque mise à jour de force en interne dans le service. À l’avenir, nous nous attendons à ce que cela soit également visible pour vous.

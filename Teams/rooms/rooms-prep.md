@@ -13,14 +13,15 @@ ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: Découvrez comment préparer votre infrastructure pour le déploiement de Salles Microsoft Teams afin de pouvoir tirer parti de toutes les fonctionnalités.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0bedb70ade23f92424a14e4bea3f1462fc2cbccf
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 3f0224ebf0c6c8e0f21fe669bb8a92ff345b928b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823053"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268949"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -37,7 +38,7 @@ Cette section contient une vue d’ensemble des étapes nécessaires à la prép
     
 ### <a name="create-and-test-a-resource-account"></a>Créer et tester un compte de ressource
 
-Un *compte de ressource* est un compte que le client Salles Microsoft Teams utilise pour accéder aux fonctionnalités de Exchange, comme le calendrier, et pour se connecter à Microsoft Teams. Pour plus d’informations, consultez [Déployer Salles Microsoft Teams](rooms-deploy.md).
+Un *compte de ressource* est un compte que le client Salles Microsoft Teams utilise pour accéder aux fonctionnalités d’Exchange, telles que le calendrier, et pour se connecter à Microsoft Teams. Pour plus d’informations, consultez [Déployer Salles Microsoft Teams](rooms-deploy.md).
   
 ### <a name="check-network-availability"></a>Vérification de la disponibilité du réseau
 
@@ -64,7 +65,7 @@ Si votre réseau fonctionne via un proxy, vous aurez également besoin de l’ad
   
 ### <a name="certificates"></a>Certificats
 
-Votre appareil Salles Microsoft Teams utilise des certificats pour Exchange services web, Microsoft Teams ou Skype Entreprise, l’utilisation du réseau et l’authentification. Si les serveurs associés utilisent des certificats publics, ce qui est le cas pour les déploiements en ligne et certains déploiements locaux, aucune autre action n’est requise de la part de l’administrateur pour installer des certificats. En revanche, si l’autorité de certification est une autorité de certification privée, l’appareil doit approuver cette autorité de certification. Cela signifie que les certificats de chaîne d’autorité de certification et d’autorité de certification sont installés sur l’appareil. L’ajout de l’appareil au domaine peut permettre d’automatiser cette tâche.
+Votre appareil Salles Microsoft Teams utilise des certificats pour les services web Exchange, Microsoft Teams ou Skype Entreprise, l’utilisation du réseau et l’authentification. Si les serveurs associés utilisent des certificats publics, ce qui est le cas pour les déploiements en ligne et certains déploiements locaux, aucune autre action n’est requise de la part de l’administrateur pour installer des certificats. En revanche, si l’autorité de certification est une autorité de certification privée, l’appareil doit approuver cette autorité de certification. Cela signifie que les certificats de chaîne d’autorité de certification et d’autorité de certification sont installés sur l’appareil. L’ajout de l’appareil au domaine peut permettre d’automatiser cette tâche.
   
 Vous installerez les certificats comme vous le feriez pour tout autre client Windows. 
 
@@ -76,17 +77,17 @@ Vous installerez les certificats comme vous le feriez pour tout autre client Win
   
 ### <a name="proxy"></a>Proxy
 
-Salles Microsoft Teams est conçu pour hériter des paramètres proxy du système d’exploitation Windows. Accédez au système d’exploitation Windows de la manière suivante :
+Salles Microsoft Teams est conçu pour hériter des paramètres de proxy du système d’exploitation Windows. Accédez au système d’exploitation Windows de la manière suivante :
   
-1. Dans l’interface utilisateur Salles Microsoft Teams, cliquez sur l’icône d’engrenage Paramètres où vous serez invité à entrer le mot de passe administrateur local sur l’appareil (le mot de passe par défaut est **sfb**).
-2. Appuyez sur **Paramètres**, puis appuyez sur le bouton **Atteindre Windows**, puis appuyez sur **l’option Accéder à Administration bouton Se connecter**, puis cliquez sur le bouton **Administrateur** (si l’ordinateur est joint au domaine, choisissez **Autre utilisateur,** puis utilisez .\admin comme nom d’utilisateur).
-3. Dans la **zone de recherche Windows** type en bas à gauche dans regedit (appuyez longuement sur l’écran ou cliquez avec le bouton droit et choisissez **Exécuter en tant qu’administrateur**).
+1. Dans l’interface utilisateur Salles Microsoft Teams, cliquez sur l’icône d’engrenage Paramètres dans laquelle vous êtes invité à entrer le mot de passe Administrateur local sur l’appareil (le mot de passe par défaut est **sfb**).
+2. Appuyez sur **Paramètres**, puis appuyez sur le bouton **Accéder à Windows**, puis appuyez sur l’option **Accéder à Administration bouton Se connecter**, puis cliquez sur le bouton **Administrateur** (si l’ordinateur est joint au domaine, choisissez **Autre utilisateur,** puis utilisez .\admin comme nom d’utilisateur).
+3. Dans la zone **Windows De recherche** , tapez le type en bas à gauche dans regedit (appuyez longuement sur l’écran ou cliquez avec le bouton droit et choisissez **Exécuter en tant qu’administrateur**).
 4. Cliquez sur le dossier HKEY_USERS (vous verrez une liste de SID de l’utilisateur d’ordinateur), assurez-vous que le dossier racine HKEY_USERS est sélectionné.
        
 5. Cliquez sur Fichier, puis choisissez **Charger Hive.**
-6. Accédez au dossier **C:\Users\Skype** et tapez dans la zone nom de fichier NTUSER.dat, puis appuyez sur le bouton ouvrir
+6. Accédez au dossier **C:\Users\Skype** et tapez dans la zone nom de fichier NTUSER.dat, puis appuyez sur le bouton Ouvrir
 
-7. Vous serez invité à entrer un nom de clé pour votre Hive nouvellement chargé ; tapez Skype (vous devez maintenant voir les paramètres du Registre pour l’utilisateur Skype).
+7. Vous serez invité à entrer un nom de clé pour votre Hive nouvellement chargé ; tapez dans Skype (vous devez maintenant voir les paramètres du Registre pour l’utilisateur Skype).
  
 8. Ouvrez la clé Skype et accédez à HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings puis vérifiez que ces paramètres sont entrés : 
     
@@ -118,7 +119,7 @@ Consultez l’article [Sécurité réseau](./security.md#network-security) pour 
   
 ### <a name="admin-group-management"></a>Gestion du groupe d’administrateurs
 
-Si vous choisissez de joindre un domaine (Azure Active Directory ou Active Directory), vous pouvez utiliser Microsoft Endpoint Manager, stratégie de groupe ou Gestion des ordinateurs locaux pour définir un groupe de sécurité en tant qu’administrateur local comme vous le feriez pour un PC Windows dans votre domaine. Tous les membres de ce groupe de sécurité peuvent saisir leurs informations d’identification et déverrouiller les paramètres.
+Si vous choisissez de rejoindre un domaine (Azure Active Directory ou Active Directory), vous pouvez utiliser Microsoft Endpoint Manager, stratégie de groupe ou Gestion des ordinateurs locaux pour définir un groupe de sécurité en tant qu’administrateur local comme vous le feriez pour un PC Windows dans votre domaine. Tous les membres de ce groupe de sécurité peuvent saisir leurs informations d’identification et déverrouiller les paramètres.
   
 > [!NOTE]
 > Si votre appareil Microsoft Teams Rooms n’approuve plus le domaine (par exemple, si vous supprimez Microsoft Teams Rooms du domaine après la jonction), vous ne pourrez pas vous authentifier dans l’appareil et ouvrir les paramètres. La solution consiste à se connecter avec le compte d’administrateur local. 
@@ -127,11 +128,11 @@ Si vous choisissez de joindre un domaine (Azure Active Directory ou Active Direc
 
 ### <a name="microsoft-teams-rooms-local-user-account"></a>Salles Microsoft Teams compte d’utilisateur local
 
-salles Teams inclut un compte local sans mot de passe nommé « Skype ». Ce compte est utilisé pour se connecter à Windows pour lancer l’application salles Teams. Il n’est pas pris en charge d’appliquer un mot de passe à ce compte. Pour plus d’informations, consultez [Salles Microsoft Teams Sécurité](security.md).
+salles Teams inclut un compte local sans mot de passe nommé « Skype ». Ce compte permet de se connecter à Windows pour lancer l’application salles Teams. Il n’est pas pris en charge d’appliquer un mot de passe à ce compte. Pour plus d’informations, consultez [Salles Microsoft Teams Sécurité](security.md).
   
 ### <a name="admin---local-administrator-account"></a>"Admin" - Compte d’administrateur local
 
-Salles Microsoft Teams mot de passe par défaut est défini sur « sfb ». Le mot de passe peut être modifié localement via le mode Administration ou dans le fichier AutoUnattend.xml (utilisez le gestionnaire d’images système Windows du Kit de développement logiciel (ADK) pour apporter la modification au fichier xml).
+Salles Microsoft Teams mot de passe par défaut est défini sur « sfb ». Le mot de passe peut être modifié localement via le mode Administration ou dans le fichier AutoUnattend.xml (utilisez le gestionnaire d’images système Windows à partir d’ADK pour apporter la modification au fichier xml).
   
 > [!CAUTION]
 > Veillez à modifier le mot de passe Salles Microsoft Teams dès que possible. 
@@ -142,7 +143,7 @@ Vous pouvez en savoir plus sur le compte Administration dans l’article [Salles
   
 ### <a name="machine-account"></a>Compte d’ordinateur
 
-Tout comme n’importe quel appareil Windows, le nom de l’ordinateur peut être renommé en cliquant avec le bouton droit dans **Paramètres** \> **About** \> **Rename PC**.
+Tout comme n’importe quel appareil Windows, le nom de la machine peut être renommé en cliquant avec le bouton droit dans **Paramètres** \> **à propos** \> **de renommer le PC**.
   
 Si vous souhaitez renommer l’ordinateur après l’avoir joint à un domaine, utilisez [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer), une commande PowerShell, suivie du nouveau nom de l’ordinateur.
   

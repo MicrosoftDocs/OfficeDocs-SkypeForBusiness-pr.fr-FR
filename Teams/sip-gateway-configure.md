@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72fdabd1ba25254876bc3d4506c889d50cbc6613
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: d33573d86f2bcb485f6a7e7cfc550ea1f3184223
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370887"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270489"
 ---
 # <a name="configure-sip-gateway"></a>Configurer la passerelle SIP
 
@@ -36,7 +36,7 @@ Avant de pouvoir configurer la passerelle SIP, procédez comme suit :
 
 - **Réinitialiser les appareils SIP aux paramètres d’usine par défaut.** Vous ou les utilisateurs de votre organisation devez réinitialiser les paramètres par défaut de chaque appareil SIP utilisé avec la passerelle SIP. Pour savoir comment procéder, consultez les instructions du fabricant.
 
-- **Ouvrez votre pare-feu pour Microsoft 365 et Teams.** Ouvrez le pare-feu de votre réseau pour Microsoft 365 et Teams trafic, comme décrit dans [Office 365 URL et plages d’adresses IP](/microsoft-365/enterprise/urls-and-ip-address-ranges). Les règles de pare-feu sont nécessaires uniquement pour le trafic sortant.
+- **Ouvrez votre pare-feu sur Microsoft 365 et Teams.** Ouvrez le pare-feu de votre réseau pour le trafic Microsoft 365 et Teams, comme décrit dans [Office 365 URL et plages d’adresses IP](/microsoft-365/enterprise/urls-and-ip-address-ranges). Les règles de pare-feu sont nécessaires uniquement pour le trafic sortant.
 
 - **Assurez-vous que les appareils SIP ne se trouvent pas derrière un proxy.** Assurez-vous que le trafic http/s contourne n’importe quel proxy http/s d’entreprise.
 
@@ -60,7 +60,6 @@ Avant de pouvoir configurer la passerelle SIP, procédez comme suit :
   - https://httpblobsdgnoam.blob.core.windows.net
 
 
-
 Les sections suivantes décrivent ce que vous devez faire en tant qu’administrateur pour configurer la passerelle SIP.
 
 - [Vérifiez que la passerelle SIP est disponible pour votre organisation](#verify-that-sip-gateway-is-available-for-your-organization).
@@ -73,26 +72,25 @@ Cet article explique également comment :
 
 - [Inscrivez des appareils SIP individuellement ou par lots pour votre commodité](#provision-and-enroll-sip-devices-as-common-area-phones).  
 
-
 - [Affichez et surveillez vos appareils SIP.](#view-and-monitor-sip-devices)
 
 - [Activez la prise en charge d’une interface utilisateur multilingue.](#set-a-sip-devices-ui-language)
 
 ## <a name="verify-that-sip-gateway-is-available-for-your-organization"></a>Vérifier que la passerelle SIP est disponible pour votre organisation
 
-1. Connectez-vous au [centre d’administration Teams](https://admin.teams.microsoft.com/).
+1. Connectez-vous au [Centre d’administration Teams](https://admin.teams.microsoft.com/).
 
-2. À gauche, sélectionnez **Teams appareils** et vérifiez si l’onglet **Appareils SIP** est visible. Si c’est le cas, le service de passerelle SIP est activé pour votre organisation.
+2. À gauche, sélectionnez **Appareils Teams** et vérifiez si l’onglet **Appareils SIP** est visible. Si c’est le cas, le service de passerelle SIP est activé pour votre organisation.
 
 ## <a name="enable-sip-gateway-for-the-users-in-your-organization"></a>Activer la passerelle SIP pour les utilisateurs de votre organisation
 
-Vous pouvez activer la passerelle SIP pour votre organisation de deux manières : à l’aide du centre d’administration Teams ou d’une applet de commande PowerShell.
+Vous pouvez activer la passerelle SIP pour votre organisation de deux manières : à l’aide du Centre d’administration Teams ou d’une applet de commande PowerShell.
 
-### <a name="by-using-teams-admin-center"></a>En utilisant Teams centre d’administration
+### <a name="by-using-teams-admin-center"></a>À l’aide du Centre d’administration Teams
 
-Pour activer la passerelle SIP dans le centre d’administration Teams, procédez comme suit :
+Pour activer la passerelle SIP dans le Centre d’administration Teams, procédez comme suit :
 
-1. Accéder au [centre d’administration Teams](https://admin.teams.microsoft.com/)
+1. Accéder au [Centre d’administration Teams](https://admin.teams.microsoft.com/)
 
 2. À gauche, sous **Voix**, **sélectionnez Stratégies d’appel**.
 
@@ -122,7 +120,7 @@ Pour chaque appareil SIP, définissez l’une des URL de serveur d’approvision
 - Amériques: `http://noam.ipp.sdg.teams.microsoft.com`
 - APAC: `http://apac.ipp.sdg.teams.microsoft.com`
 
-Ajoutez des appareils SIP à votre organisation Teams en configurant l’URL du serveur d’approvisionnement de passerelle SIP ci-dessus dans votre serveur DHCP. Pour en savoir plus sur le serveur DHCP, consultez [Déployer et gérer DHCP](/learn/modules/deploy-manage-dynamic-host-configuration-protocol). En outre, vous pouvez utiliser l’option DHCP 42 pour spécifier le serveur NTP (Network Time Protocol) et l’option DHCP 2 pour spécifier le décalage du temps universel coordonné (UTC) en secondes. Les appareils de votre organisation seront routées vers le serveur d’approvisionnement de la passerelle SIP. Les téléphones SIP correctement approvisionnés affichent le logo Teams et un bouton souple pour la connexion.
+Ajoutez des appareils SIP à votre organisation Teams en configurant l’URL du serveur d’approvisionnement de passerelle SIP ci-dessus dans votre serveur DHCP. Pour en savoir plus sur le serveur DHCP, consultez [Déployer et gérer DHCP](/learn/modules/deploy-manage-dynamic-host-configuration-protocol). En outre, vous pouvez utiliser l’option DHCP 42 pour spécifier le serveur NTP (Network Time Protocol) et l’option DHCP 2 pour spécifier le décalage du temps universel coordonné (UTC) en secondes. Les appareils de votre organisation seront routées vers le serveur d’approvisionnement de la passerelle SIP. Les téléphones SIP correctement approvisionnés affichent le logo Teams et un bouton soft pour la connexion.
 
 Vérifiez que les appareils SIP sont sur la version minimale du microprogramme prise en charge pour l’intégration. Lors de l’intégration, la passerelle SIP envoie (push) l’interface utilisateur de configuration et d’authentification par défaut à l’appareil. Pour connaître la version requise du microprogramme pour les appareils SIP, consultez [Plan for SIP Gateway](sip-gateway-plan.md).
 
@@ -134,7 +132,7 @@ Les utilisateurs qui travaillent à distance doivent configurer manuellement l�
 
 2. Ouvrez une fenêtre de navigateur, entrez l’adresse IP de l’appareil, connectez-vous (si nécessaire) et configurez l’URL du serveur d’approvisionnement dans l’utilitaire web de l’appareil.
 
-3. Sous **Paramètres** ou **paramètres avancés** sur l’utilitaire web, entrez l’URL du serveur d’approvisionnement indiquée ci-dessus.
+3. Sous **Paramètres** ou **Paramètres avancés** sur l’utilitaire web, entrez l’URL du serveur d’approvisionnement indiquée ci-dessus.
 
 > [!NOTE]
 > - Seuls les appareils SIP compatibles peuvent être intégrés à la passerelle SIP. 
@@ -146,7 +144,7 @@ Les utilisateurs qui travaillent à distance doivent configurer manuellement l�
 
 ## <a name="configure-conditional-access"></a>Configurer l’accès conditionnel
 
-L’accès conditionnel est une fonctionnalité Azure Active Directory (Azure AD) qui permet de s’assurer que les appareils qui accèdent à vos ressources Microsoft 365 sont correctement gérés et sécurisés. La passerelle SIP authentifie les appareils SIP auprès d’Azure AD. Par conséquent, si votre organisation utilise l’accès conditionnel pour les appareils du réseau d’entreprise, elle doit exclure les adresses IP suivantes :
+L’accès conditionnel est une fonctionnalité Azure Active Directory (Azure AD) qui permet de garantir que les appareils qui accèdent à vos ressources Microsoft 365 sont correctement gérés et sécurisés. La passerelle SIP authentifie les appareils SIP auprès d’Azure AD. Par conséquent, si votre organisation utilise l’accès conditionnel pour les appareils du réseau d’entreprise, elle doit exclure les adresses IP suivantes :
 
 - Amérique du Nord :
     - USA Est : 52.170.38.140
@@ -160,18 +158,18 @@ L’accès conditionnel est une fonctionnalité Azure Active Directory (Azure AD
 
 Pour plus d’informations, consultez [les plages d’adresses IP](/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
-
 ## <a name="provision-and-enroll-sip-devices-as-common-area-phones"></a>Approvisionner et inscrire des appareils SIP en tant que téléphones de zone commune
+
 > [!NOTE]
 > Un appareil SIP doit être intégré à la passerelle SIP avant de pouvoir être inscrit.
 
-Pour simplifier vos tâches, vous pouvez inscrire des appareils SIP dans le centre d’administration Teams, un par un ou par lots. Voici comment procéder :
+Pour simplifier vos tâches, vous pouvez inscrire des appareils SIP dans le Centre d’administration Teams un par un ou par lots. Voici comment procéder :
 
-1. Connectez-vous au [**centre d’administration Teams**](https://admin.teams.microsoft.com).
+1. Connectez-vous au [**Centre d’administration Teams**](https://admin.teams.microsoft.com).
 
-2. Sélectionnez **Teams appareils** **devicesSIP** > .
+2. Sélectionnez **appareils** > **Teams appareils SIP**.
 
-3. En haut à droite, sélectionnez **Les appareils ActionsProvision**  >  et effectuez l’une des étapes suivantes :
+3. En haut à droite, sélectionnez **Actions** > **Provisionner les appareils** et effectuez l’une des étapes suivantes :
 
   - **Pour approvisionner un appareil :**
 
@@ -187,17 +185,17 @@ Pour simplifier vos tâches, vous pouvez inscrire des appareils SIP dans le cent
 
      a. Sous **En attente de l’activation**, à droite, sélectionnez **Exporter** (icône Microsoft Excel).
      
-     b. Dans le volet **Approvisionner des appareils**, sous **Télécharger plusieurs adresses MAC**, sélectionnez **télécharger un modèle**.
+     b. Dans le volet **Approvisionner des appareils** , sous **Charger plusieurs adresses MAC**, sélectionnez **télécharger un modèle**.
      
      c. Enregistrez **Template_Provisioning.csv** sur votre ordinateur et renseignez les champs **ID MAC** et **Emplacement** .
     
-     d. Dans le volet **Approvisionner des appareils**, sélectionnez **Télécharger plusieurs adresses MAC**. 
+     d. Dans le volet **Approvisionner des appareils** , **sélectionnez Charger plusieurs adresses MAC**. 
 
-     E. À droite du **volet Télécharger adresses MAC**, **sélectionnez Sélectionner un fichier, puis sélectionnez** le fichier **Template_Provisioning.csv** qui contient vos données.
+     E. À droite du volet **Charger des adresses MAC** , **sélectionnez Sélectionner un fichier, puis sélectionnez** le **fichierTemplate_Provisioning.csv** qui contient vos données.
 
      F. Dans le volet **Approvisionner des appareils** , sous **En attente d’activation**, sélectionnez un appareil, puis **sélectionnez Générer le code de vérification** pour générer un code de vérification unique pour chaque appareil approvisionné. Notez le code de vérification pour chaque appareil SIP.
 
-4. Sur l’appareil SIP, composez le code de fonctionnalité d’inscription suivi du code de vérification. Sur l’appareil SIP, composez le code \*de fonctionnalité d’inscription 55* (utilisé par la passerelle SIP pour la validation du code de vérification unique de l’inscription), suivi du code de vérification généré dans Teams Centre d’administration pour cet appareil particulier. Par exemple, si le code de vérification est 123456, composez \*55\* 123456 pour inscrire l’appareil.
+4. Sur l’appareil SIP, composez le code de fonctionnalité d’inscription suivi du code de vérification. Sur l’appareil SIP, composez le code \*de fonctionnalité d’inscription 55* (utilisé par la passerelle SIP pour la validation du code de vérification unique de l’inscription), suivi du code de vérification généré dans teams Administration Center pour cet appareil particulier. Par exemple, si le code de vérification est 123456, composez \*55\*123456 pour inscrire l’appareil.
 
 5.  Dans le volet **Approvisionner des appareils** , sous **En attente de connexion**, sélectionnez **Déconnecter**.
 
@@ -205,19 +203,19 @@ Pour simplifier vos tâches, vous pouvez inscrire des appareils SIP dans le cent
 
 7. Accédez à [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin), puis, sous **Entrer du code**, entrez le code d’appairage de l’appareil SIP, puis sélectionnez **Suivant**.
 
-8. Dans la page de **connexion** Microsoft, dans le champ **e-mail ou téléphone** , entrez l’adresse e-mail de l’appareil SIP, puis sélectionnez **Suivant**.
+8. Dans **la page de** connexion Microsoft, dans le **champ Email ou téléphone**, entrez l’adresse e-mail de l’appareil SIP, puis sélectionnez **Suivant**.
 
 9. Dans la page **Mot de passe** , entrez le mot de passe de l’adresse e-mail de l’appareil SIP, puis **sélectionnez Se connecter**.
 
-10. Dans la page **Êtes-vous en train de tenter de vous connecter à Teams page de passerelle d’appareils SIP**, **sélectionnez Continuer**.
+10. Dans la page **Passerelle Des appareils SIP Teams** , sélectionnez **Continuer**.
 
 ## <a name="how-to-sign-in-and-sign-out"></a>Comment se connecter et se déconnecter
 
-Seule la connexion locale est prise en charge pour les appareils personnels des utilisateurs. Pour déconnecter un appareil du Centre d’administration, procédez comme suit :
+Seule la connexion locale est prise en charge pour les appareils personnels des utilisateurs. Pour déconnecter un appareil du centre Administration, procédez comme suit :
 
-1. Connectez-vous au [**centre d’administration Teams**](https://admin.teams.microsoft.com).
+1. Connectez-vous au [**Centre d’administration Teams**](https://admin.teams.microsoft.com).
 
-2. Sélectionnez **Teams appareils** **devicesSIP** > .
+2. Sélectionnez **appareils** > **Teams appareils SIP**.
 
 3. À droite, sélectionnez un appareil SIP, puis **déconnectez-vous**.
 
@@ -241,11 +239,11 @@ Pour se déconnecter, un utilisateur d’appareil peut :
 
 - Appuyez sur **Se déconnecter** sur l’appareil SIP et suivez les étapes décrites sur l’appareil. 
 
-Pour déconnecter un appareil sur le centre d’administration Teams :
+Pour déconnecter un appareil sur le Centre d’administration Teams :
 
-1. Connectez-vous au [**centre d’administration Teams**](https://admin.teams.microsoft.com).
+1. Connectez-vous au [**Centre d’administration Teams**](https://admin.teams.microsoft.com).
 
-2. Sélectionnez **Teams appareils** **devicesSIP** > .
+2. Sélectionnez **appareils** > **Teams appareils SIP**.
 
 3. À droite, dans le volet **appareils SIP** , sélectionnez l’appareil.
 
@@ -253,24 +251,24 @@ Pour déconnecter un appareil sur le centre d’administration Teams :
 
 ## <a name="view-and-monitor-sip-devices"></a>Afficher et surveiller les appareils SIP
 
-Vous pouvez afficher et surveiller votre inventaire d’appareils SIP dans le centre d’administration Teams une fois que les utilisateurs des appareils se sont connectés au moins une fois. Voici comment procéder :
+Vous pouvez afficher et surveiller votre inventaire d’appareils SIP dans le Centre d’administration Teams une fois que les utilisateurs des appareils se sont connectés au moins une fois. Voici comment procéder :
 
-1. Connectez-vous au [centre d’administration Teams](https://admin.teams.microsoft.com/).
+1. Connectez-vous au [Centre d’administration Teams](https://admin.teams.microsoft.com/).
 
-2. Sélectionnez **Teams appareils** **devicesSIP** > . Tous les appareils SIP connectés sont répertoriés à droite.
+2. Sélectionnez **appareils** > **Teams appareils SIP**. Tous les appareils SIP connectés sont répertoriés à droite.
 
 ## <a name="restart-a-sip-device"></a>Redémarrer un appareil SIP
 
-1. Connectez-vous au [centre d’administration Teams](https://admin.teams.microsoft.com).
+1. Connectez-vous au [Centre d’administration Teams](https://admin.teams.microsoft.com).
 
-2. Sélectionnez **Teams appareils** **devicesSIP** > . 
+2. Sélectionnez **appareils** > **Teams appareils SIP**. 
 
 3. À droite, sélectionnez l’appareil SIP que vous souhaitez redémarrer, puis **sélectionnez Redémarrer**.
 
 
 > [!NOTE]
-> - La suppression d’un appareil SIP de votre locataire n’est actuellement pas disponible dans le centre d’administration Teams. 
-> - L’exécution de commande dépend de la disponibilité de l’appareil, et elle peut ne pas correspondre à l’état d’exécution indiqué dans le centre d’administration Teams. Si vous essayez d’activer la passerelle SIP sur un appareil qui ne la prend pas en charge, la commande n’est pas exécutée.
+> - La suppression d’un appareil SIP de votre locataire n’est actuellement pas disponible dans le Centre d’administration Teams. 
+> - L’exécution de la commande dépend de la disponibilité de l’appareil, et elle peut ne pas correspondre à l’état d’exécution indiqué dans le Centre d’administration Teams. Si vous essayez d’activer la passerelle SIP sur un appareil qui ne la prend pas en charge, la commande n’est pas exécutée.
 
 ## <a name="sync-policy-changes-to-sip-devices-to-enforce-policies"></a>Synchroniser les modifications de stratégie sur les appareils SIP pour appliquer des stratégies
 
@@ -310,11 +308,11 @@ Comment définir le japonais pour les téléphones Cisco :
 
 ## <a name="microsoft-teams-and-ipv6"></a>Microsoft Teams et IPv6
 
-La passerelle SIP prend uniquement en charge IPv4. Microsoft Teams service et le client prennent en charge IPv4 et IPv6. Si vous souhaitez contrôler les communications vers Microsoft Teams, utilisez les plages d’adresses IP dans [Microsoft 365 URL et plages d’adresses IP](/microsoft-365/enterprise/urls-and-ip-address-ranges).
+La passerelle SIP prend uniquement en charge IPv4. Le service Microsoft Teams et le client prennent en charge IPv4 et IPv6. Si vous souhaitez contrôler les communications avec Microsoft Teams, utilisez les plages d’adresses IP dans les [URL et les plages d’adresses IP Microsoft 365](/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
 ## <a name="emergency-calling"></a>Appel d’urgence
 
-La passerelle SIP prend uniquement en charge les adresses d’urgence statiques (également appelées adresses d’urgence inscrites). Actuellement, les adresses inscrites ne sont pas prises en charge pour les scénarios de routage direct. Pour plus d’informations sur les appels d’urgence, consultez [Planifier et gérer les appels d’urgence](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
+La passerelle SIP prend en charge les appels d’urgence dynamiques (E911 dynamique) pour les appareils SIP compatibles qui partagent des attributs réseau sur le réseau. Ces attributs sont approvisionnés dans le Centre d’administration Teams et peuvent être une combinaison d’adresses IP locales et de longueur de sous-réseau, ou d’ID de châssis et de numéro de port réseau. Pour les appareils qui ne partagent pas d’attributs d’emplacement, ou si l’emplacement n’est pas résolu dynamiquement pour une raison quelconque, la passerelle SIP continuera à prendre en charge les appels d’urgence en fonction des adresses inscrites. Actuellement, les adresses inscrites ne sont pas prises en charge pour les scénarios de routage direct. Pour plus d’informations sur les appels d’urgence, consultez [Planifier et gérer les appels d’urgence](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
 
 ## <a name="report-problems-to-microsoft"></a>Signaler des problèmes à Microsoft
 

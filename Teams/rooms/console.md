@@ -12,15 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article explique comment configurer la console Salles Microsoft Teams et ses périphériques.
-ms.openlocfilehash: d3c4f534fbd5395c7e0cda8e095b5a6d7a2b8def
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 2a38154ebca1dfae282722fdb64e76389627ca15
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761256"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270109"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>Créer une image Salles Microsoft Teams
 
@@ -29,7 +30,7 @@ Cet article explique comment créer une image Salles Microsoft Teams pour le dé
 > [!NOTE]
 > Les étapes suivantes doivent être utilisées uniquement lors de la création d’une [image WIM](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) pour le déploiement en masse. Si vous récupérez des appareils individuels, contactez votre fabricant d’équipement d’origine (OEM) pour obtenir de l’aide.
 
-Vous ne devez effectuer ces étapes que si les comptes Microsoft Teams ou Skype Entreprise et Exchange nécessaires ont déjà été créés et testés, comme décrit dans [Deploy Salles Microsoft Teams](rooms-deploy.md). Vous aurez besoin du matériel et des logiciels décrits dans [Salles Microsoft Teams exigences](requirements.md). Cette rubrique contient les sections suivantes :
+Vous devez effectuer ces étapes uniquement si les comptes Microsoft Teams ou Skype Entreprise et Exchange nécessaires ont déjà été créés et testés comme décrit dans [Déployer Salles Microsoft Teams](rooms-deploy.md). Vous aurez besoin du matériel et des logiciels décrits dans [Salles Microsoft Teams exigences](requirements.md). Cette rubrique contient les sections suivantes :
   
 - [Préparer le support d’installation](console.md#Prep_Media)
 - [Installer un certificat d’autorité de certification privée sur la console](console.md#Certs)
@@ -49,7 +50,7 @@ L’installation de l’application console Salles Microsoft Teams nécessite un
 > Le processus ci-dessous consiste à créer un support d’installation pour imager de nouveaux appareils Salles Microsoft Teams. Par défaut, les appareils existants sont mis à jour automatiquement à partir de Windows Update et du Windows Store.
 
 > [!IMPORTANT]
-> La machine Windows 10 utilisée pour créer le support d’installation Salles Microsoft Teams doit se trouver sur la même version ou ultérieure de Windows que le support d’installation cible.
+> L’Windows 10 machine utilisée pour créer le support d’installation Salles Microsoft Teams doit se trouver sur la même version ou ultérieure de Windows que le support d’installation cible.
   
 1. Téléchargez le [ scriptCreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
 2. Exécutez le script CreateSrsMedia.ps1 à partir d'une invite avec élévation de privilèges sur un ordinateur Windows 10.
@@ -125,7 +126,7 @@ Dans La mise à jour du créateur, vous devez utiliser le script ApplyCurrentReg
     
 8. Installez les fonctionnalités de langage.
     
-9. Ne cochez pas Définir comme langue d’affichage Windows.
+9. Ne cochez pas Set en tant que langue d’affichage Windows.
     
 10. Sélectionnez **Installer**.
     
@@ -152,9 +153,9 @@ La langue souhaitée est désormais appliquée à la console Salles Microsoft Te
 ## <a name="initial-set-up-of-the-console"></a>Configuration initiale de la console
 <a name="Initial"> </a>
 
-Une fois Windows installée, l’application Salles Microsoft Teams passe à son processus d’installation initial.
+Une fois Windows installé, l’application Salles Microsoft Teams passe à son processus d’installation initial.
   
-1. L’écran Compte d’utilisateur apparaît. Entrez l’adresse de connexion du compte Microsoft Exchange Resource (au format user@domain) du compte de salle à utiliser avec la console.
+1. L’écran Compte d’utilisateur apparaît. Entrez l’adresse de connexion du compte de ressource Microsoft Exchange (au format user@domain) du compte de salle à utiliser avec la console.
     
 2. Saisissez le mot de passe du compte de la salle dé réunion, puis saisissez-le à nouveau à des fins de vérification.
    
@@ -167,7 +168,7 @@ Une fois Windows installée, l’application Salles Microsoft Teams passe à son
     
 7. Sélectionnez **Terminer**.
     
-L’application Salles Microsoft Teams doit se connecter à Microsoft Teams ou Skype Entreprise Server avec les informations d’identification entrées ci-dessus, et doit également commencer à synchroniser son calendrier avec Exchange à l’aide de ces mêmes informations d’identification. Pour plus d’informations sur l’utilisation de salles Teams, reportez-vous à [l’aide Salles Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+L’application Salles Microsoft Teams doit se connecter à Microsoft Teams ou Skype Entreprise Server avec les informations d’identification entrées ci-dessus et commencer à synchroniser son calendrier avec Exchange à l’aide de ces mêmes informations d’identification. Pour plus d’informations sur l’utilisation de salles Teams, reportez-vous à [l’aide Salles Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
 > Salles Microsoft Teams s’appuie sur la présence de matériel de console certifié. Même une image correctement créée contenant l’application console Salles Microsoft Teams ne démarre pas après la procédure d’installation initiale, sauf si le matériel de la console est détecté. Pour Surface Pro solutions basées, le Surface Pro doit être connecté à son matériel d’ancrage associé pour passer cette vérification.
@@ -242,7 +243,7 @@ Utilisez la liste de vérification suivante lors de la vérification finale que 
 |Terminé |Vérifier |
 |:-----:|:-----|
 |☐   |La version du microprogramme de la caméra est correcte (le cas échéant).   |
-|☐   |Caméra fonctionnel et positionné de manière optimale   |
+|☐   |Appareil photo fonctionnel et positionné de manière optimale   |
 |☐   |Les paramètres des périphériques de lecture et de communication par défaut sont définis sur les périphériques audio choisis.   |
 |☐   |Les paramètres du périphérique d’enregistrement de communication par défaut est défini sur le périphérique audio choisi.   |
 |☐   |La version du microprogramme du périphérique audio est correcte (le cas échéant).   |

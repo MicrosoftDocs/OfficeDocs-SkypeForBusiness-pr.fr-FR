@@ -10,7 +10,6 @@ ms.service: msteams
 ms.collection:
 - M365-voice
 - M365-collaboration
-- m365initiative-meetings
 search.appverid: MET150
 audience: admin
 appliesto:
@@ -22,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 description: Découvrez comment l’audioconférence dans Microsoft 365 ou Office 365 permet aux utilisateurs d’appeler des réunions à partir de leur téléphone.
-ms.openlocfilehash: 1a03faf129a40d61605474e95c759067ce20841e
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 7073fa9c870fc718b2d2c6e24e109878e0dd2d34
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884903"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269929"
 ---
 # <a name="audio-conferencing-policy-settings-for-toll-and-toll-free-numbers"></a>Paramètres de stratégie d’audioconférence pour les numéros payants et gratuits
 

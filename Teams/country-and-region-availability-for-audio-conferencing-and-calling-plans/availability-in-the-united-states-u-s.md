@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les États-Unis.
-ms.openlocfilehash: e03c9c9a2499822a53aa0dc5d122771fda957488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le États-Unis.
+ms.openlocfilehash: 524050f9859f8aa2847ee4706705ec8c95399f15
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620690"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268589"
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilité aux États-Unis
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les États-Unis. Pour [plus d’informations, consultez](../calling-plans-for-office-365.md) comment acheter une offre d’appels.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le États-Unis. Découvrez [comment acheter un forfait d’appels](../calling-plans-for-office-365.md) pour plus d’informations.
 
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -59,21 +59,21 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 
 | **Fonctionnalité**                                       | **Détails**                                                                                                                                                                                                                                                                                                                     |
 |:--------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/>   | Oui  <br/>                                                                                                                                                                                                                                                                                                                      |
-| Minutes disponibles pour les forfaits d'appels.              | Quatre options de forfait sont disponibles par mois civil : <ul><li>Forfait d’appels nationaux de 120 minutes (disponibilité limitée)</li><li>Forfait d’appels nationaux de 240 minutes (disponibilité limitée)</li></li><li>Forfait d'appels nationaux de 3000 minutes </li></li><li>Offre d’appels nationaux et internationaux : 3000 minutes d’appels nationaux ou 600 minutes d’appels internationaux (suivant ce qui est atteint en premier au cours du mois)</li></li> |
+|Les forfaits d'appels sont-ils disponibles à l'achat ?  |Oui          |   
+|Minutes disponibles pour les forfaits d'appels.    |Cinq options de plan sont disponibles par mois calendaire : <ul><li>Forfait d’appels avec paiement à l’utilisation </li><li> Forfait d’appels nationaux de 120 minutes </li><li> Forfait d’appels nationaux de 240 minutes </li><li> Forfait d’appels nationaux de 1200 minutes </li><li> Forfait d’appels internationaux : 1 200 minutes d’appels nationaux ou 600 minutes d’appels internationaux (selon le premier jour du mois calendaire)</li></ul>|
 | Est-il possible de passer des appels sortants vers les numéros premium ? <br/> | Ceci n’est pas pris en charge pour le moment. <br/>                                                                                                                                                                                                                                                                                               |
 | Est-il possible de passer des appels sortants ?  <br/>                | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                                                                      |
 > [!Note]
-> Lorsqu’un utilisateur d’un plan d’appels (national ou national et international) aux États-Unis compose un numéro de téléphone au Canada, il est traité comme un appel national. C’est également le cas lorsqu’un utilisateur au Canada compose un numéro de téléphone aux États-Unis. Toutefois, si vous utilisez également des stratégies de forfait d’appels pour limiter les appels sortants des utilisateurs à « nationaux » uniquement, un utilisateur américain ne pourra pas appeler le Canada et de la même manière, un utilisateur du Canada ne pourra pas appeler un utilisateur américain.
+> Lorsqu’un utilisateur d’un forfait d’appels (national ou national et international) aux États-Unis compose un numéro de téléphone au Canada, il est traité comme un appel national. C’est également le cas lorsqu’un utilisateur au Canada compose un numéro de téléphone aux États-Unis. Toutefois, si vous utilisez également des stratégies de plan d’appel pour limiter la numérotation des utilisateurs à « nationale » uniquement, un utilisateur des États-Unis ne pourra pas appeler le Canada et, de même, un utilisateur canadien ne pourra pas appeler un utilisateur américain.
 
 >[!Note]
-> Les appels nationaux aux États-Unis incluent ceux à l’ensemble des 50 États des États-Unis et de Porto Rico. Les utilisateurs ayant attribué l’emplacement d’utilisation sous licence des États-Unis et/ou de Porto Rico partagent le même nombre de minutes.
+> États-Unis appels nationaux comprend des appels aux 50 États américains et à Porto Rico. Les utilisateurs affectés avec l’emplacement d’utilisation de la licence aux États-Unis et/ou à Porto Rico partagent le même pool de minutes.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |<ul><li>Alabama, Birmingham <li>  Arizona, Phoenix <li>  Arkansas, Little Rock <li> Californie, Los Angeles <li> Californie, San Francisco <li>  Colorado, Colorado, Colorado <li>  Columbia, Washington DC <li>  Connecticut, Hartford <li>  Delaware, Wilmington <li>Floride, Miami <li>  Géorgie, Atlanta <li> Hawaii, Honolulu <li> Idaho, Boise <li> Illinois, Illinois <li> Illinois, Chicago <li> Illinois, Cicero<li>  Indiana, Indianapolis <li>  Iowa, Iowa City <li>  Kansas, Wichita <li> Kentucky, Louisville <li>  Louisiane, Nouvelle-Zélande <li> Maine, Portland <li> Maryland, Baltimore <li>  Massachusetts, États-Unis <li> Michigan, Pontiac <li> Minnesota, Minneapolis <li> Minnesota, St. Paul <li> Mississippi, Jackson <li>  Missouri, Kansas City <li>Missouri, St. Louis <li>  Montana, Billings <li> Caroline du Nord, Charlotte<li>Dakota du Nord, Fargo <li> Nebraska, Omaha <li> Nevada, Las Vegas <li>  New Hampshire, Manchester <li> New Jersey, Newark <li> Nouveau-Mexique, Albuquerque <li>  New York, New York City <li>Ohio, Columbus <li>Oklahoma, Oklahoma City <li> Oregon, Portland <li> Pennsylvanie, Pennsylvanie <li> Rhode Island, Providence <li>  Caroline du Sud, Charleston <li>Dakota du Sud, Sioux Falls <li>  Tennessee, Memphis <li> Texas, Dallas <li>  Texas, Houston <li> Utah, Salt Lake City <li> Vermont, Brattleboro<li> Virginie, Richmond <li> Washington, Seattle <li>  Virginie-Occidentale, Charleston<li>  Wisconsin, Wisconsin <li> Wyoming, Laramie</ul> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |<ul><li>Alabama, Birmingham <li>  Arizona, Phoenix <li>  Arkansas, Little Rock <li> Californie, Los Angeles <li> Californie, San Francisco <li>  Colorado, Denver <li>  Columbia, Washington DC <li>  Connecticut, Hartford <li>  Delaware, Wilmington <li>Floride, Miami <li>  Géorgie, Atlanta <li> Hawaï, Honolulu <li> Idaho, Boise <li> Illinois, Aurora <li> Illinois, Chicago <li> Illinois, Cicero<li>  Indiana, Indianapolis <li>  Iowa, Iowa City <li>  Kansas, Wichita <li> Kentucky, Louisville <li>  Louisiane, Nouvelle-Orléans <li> Maine, Portland <li> Maryland, Baltimore <li>  Massachusetts, Boston <li> Michigan, Township <li> Minnesota, Minneapolis <li> Minnesota, Saint-Paul <li> Mississippi, Jackson <li>  Missouri, Kansas City <li>Missouri, Saint-Louis <li>  Montana, Facturations <li> Caroline du Nord, Charlotte<li>Dakota du Nord, Fargo <li> Nebraska, Alaska <li> Nevada, Las Vegas <li>  New Hampshire, Manchester <li> New Jersey, Newark <li> Nouveau Mexique, Albuquerque <li>  New York, New York City <li>Ohio, Columbus <li>Oklahoma, Oklahoma City <li> Oregon, Portland <li> Pennsylvanie, Philadelphie <li> Rhode Island, Providence <li>  Caroline du Sud, Charleston <li>Dakota du Sud, Falls De Dakota du Sud <li>  Tennessee, Memphis <li> Texas, Dallas <li>  Texas, Houston <li> Utah, Salt Lake City <li> Vermont, Brattleboro<li> Virginie, Richmond <li> Washington, Seattle <li>  Virginie-Occidentale, Charleston<li>  Wisconsin, Milwaukee <li> Wyoming, Laramie</ul> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 
@@ -87,7 +87,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

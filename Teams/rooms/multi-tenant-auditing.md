@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Journalisation d’audit pour TRM.
 f1keywords: ''
-ms.openlocfilehash: 3681f50f0e15a7688a944c14e69907ba53dd2817
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: de7f01a3c93dc31ff10c9e00cb3d0f3ef5806cb3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676607"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269101"
 ---
 # <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Journalisation d’audit dans le service managé salles Teams
 
@@ -37,7 +37,7 @@ Lorsque vous exportez tous les résultats d’une recherche dans le journal d’
 
 **Pour télécharger les journaux d’activité** 
 
-1. Accédez à **Paramètres > Journaux d’audit général >**.
+1. Accédez à **Paramètres > journaux d’audit > généraux**.
 1. Pour définir la plage de dates des journaux d’intérêt, **entrez la date de début** et la **date de fin.**
 
    > [!NOTE]

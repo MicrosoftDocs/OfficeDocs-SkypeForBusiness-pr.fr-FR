@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour la République tchèque.
-ms.openlocfilehash: 913875b574912b2db0316888d55d054b529b55a3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour la République tchèque.
+ms.openlocfilehash: af6122a54b6e3c147155c28d4d57b4b38f4ab027
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589808"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269499"
 ---
 # <a name="availability-in-the-czech-republic"></a>Disponibilité dans la République Tchèque
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour la République tchèque.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour la République tchèque.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -59,8 +59,8 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les forfaits d'appels. |Quatre options de forfait sont disponibles par mois civil : <ul><li>Forfait d'appels nationaux de 120 minutes </li><li>Forfait d'appels nationaux de 240 minutes</li></li><li>Forfait d'appels nationaux de 1200 minutes </li></li><li>Offre d’appels nationaux et internationaux :  1200 minutes d’appels nationaux ou 600 minutes d’appels internationaux (suivant ce qui est atteint en premier au cours du mois)</li></li></ul>|
+|Les forfaits d'appels sont-ils disponibles à l'achat ?  |Oui          |   
+|Minutes disponibles pour les forfaits d'appels.    |Cinq options de plan sont disponibles par mois calendaire : <ul><li>Forfait d’appels avec paiement à l’utilisation </li><li> Forfait d’appels nationaux de 120 minutes </li><li> Forfait d’appels nationaux de 240 minutes </li><li> Forfait d’appels nationaux de 1200 minutes </li><li> Forfait d’appels internationaux : 1 200 minutes d’appels nationaux ou 600 minutes d’appels internationaux (selon le premier jour du mois calendaire)</li></ul>|
 |Est-il possible de passer des appels sortants vers les numéros premium ?  <br/> | Ceci n’est pas pris en charge pour le moment. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
@@ -82,7 +82,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

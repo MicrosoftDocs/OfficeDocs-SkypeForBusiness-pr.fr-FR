@@ -18,12 +18,12 @@ description: Découvrez les différentes façons d’affecter des stratégies à
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: d3a77082fe3fb2e1f070c11f1ff85e6d883b2704
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 9d286d4451ce143a54beda6e457c12ba059832b3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156562"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267579"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>Affecter des stratégies à des utilisateurs et des groupes
 
@@ -41,7 +41,7 @@ Pour affecter une stratégie à un utilisateur :
 2. Sélectionnez l’utilisateur en cliquant à gauche du nom d’utilisateur, puis **sélectionnez Modifier les paramètres**.
 3. Sélectionnez la stratégie que vous souhaitez affecter, puis **sélectionnez Appliquer**.
 
-![Affectez une stratégie à un utilisateur dans le Centre d’administration Teams.](media/assign-policy-user.png)
+    :::image type="content" source="media/assign-policies-users-edit-settings.png"  alt-text="Capture d’écran du volet Modifier les paramètres sous Gérer les utilisateurs." lightbox="media/assign-policies-users-edit-settings-expanded.png":::
 
 > [!NOTE]
 > Pour annuler l’affectation d’une stratégie spécialisée d’un utilisateur, vous pouvez définir chaque stratégie sur **Global (par défaut à l’échelle de l’organisation).** Vous pouvez également supprimer les affectations de stratégie en bloc pour tous les utilisateurs directement affectés à une stratégie. Pour plus d’informations, lisez [les stratégies de désaffectation en bloc](#unassign-policies-in-bulk).
@@ -50,11 +50,11 @@ Vous pouvez également effectuer les opérations suivantes pour affecter une str
 
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à la page de stratégie.
 2. Sélectionnez la stratégie que vous souhaitez affecter en cliquant à gauche du nom de la stratégie.
-3. Sélectionnez **Gérer les utilisateurs**.
+3. Sélectionnez **Affecter des utilisateurs**.
 4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 5. Lorsque vous avez terminé d’ajouter des utilisateurs, **sélectionnez Appliquer**.
 
-![Affectez une stratégie à un utilisateur dans le Centre d’administration Teams via la deuxième méthode.](media/assign-policy-user2.png)
+    :::image type="content" source="media/assign-policies-user-example.png" alt-text="Capture d’écran montrant comment affecter une stratégie à un utilisateur dans le Centre d’administration Teams via la deuxième méthode." lightbox="media/assign-policies-user-example-expanded.png":::
 
 ### <a name="use-powershell"></a>Utiliser PowerShell
 
@@ -142,7 +142,7 @@ Si vous ne spécifiez pas de classement, l’attribution de stratégie reçoit l
     3. Sélectionnez la stratégie que vous souhaitez affecter.
     4. Sélectionnez **Appliquer**.
 
-![Affectez une stratégie à un groupe dans le Centre d’administration Teams.](media/assign-policy-group.png)
+        :::image type="content" source="media/assign-policies-groups-messaging.png" alt-text="Capture d’écran montrant comment affecter une stratégie à un groupe dans le Centre d’administration Teams." lightbox="media/assign-policies-groups-messaging-expanded.png":::
 
 Pour supprimer une affectation de stratégie de groupe, sous l’onglet **Affectation** de stratégie de groupe de la page de stratégie, sélectionnez l’affectation de groupe, puis **sélectionnez Supprimer**.
 

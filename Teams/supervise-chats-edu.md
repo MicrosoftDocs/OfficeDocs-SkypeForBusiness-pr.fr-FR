@@ -15,12 +15,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez les conversations supervisées dans les réunions Microsoft Teams.
-ms.openlocfilehash: c355730424ec164c2853d4f4dc55956fb7554ce2
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 5cee0678e48a0fcdeb340b90e95981c3b1759f83
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789979"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271469"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>Conversations supervisées dans Microsoft Teams
 
@@ -84,6 +86,6 @@ Une fois la conversation supervisée activée initialement, vous devez effectuer
 
 - Si un utilisateur disposant d’autorisations complètes quitte ou est supprimé d’un locataire, les conversations qu’il supervisait sont laissées sans assistance. Avant de supprimer l’utilisateur d’origine, assurez-vous qu’un autre utilisateur disposant des autorisations complètes est ajouté à ces conversations afin que la conversation puisse rester supervisée. Une fois le superviseur d’origine supprimé, les nouveaux participants ne peuvent pas être ajoutés à la conversation, mais les participants actuels peuvent continuer à communiquer.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Conversations supervisées pour Teams dans l’éducation](https://support.microsoft.com/topic/supervised-chats-in-microsoft-teams-for-education-ad3aaafc-c85a-416f-95f9-d691f419cbb8?storagetype=live)

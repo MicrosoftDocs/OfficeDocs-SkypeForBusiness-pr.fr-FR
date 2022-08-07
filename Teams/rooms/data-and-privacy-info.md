@@ -11,19 +11,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Données et informations de confidentialité
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: 3fa24a1009c5480c308dfc35306286d470178820
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 5799288005a5d30152a6f810c0aa40d451198390
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057084"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270299"
 ---
 # <a name="approach"></a>Approche
 
@@ -37,7 +37,7 @@ La technologie suit les processus de confidentialité pour s’assurer qu’elle
 > [!Note]
 > Des références incidentes à un utilisateur individuel peuvent être présentes dans le journal d’activité lors de l’utilisation de l’appareil.
 
-## <a name="who-can-access-data"></a>Qui pouvez accéder aux données
+## <a name="who-can-access-data"></a>Qui peut accéder aux données ?
 
 Managed Services prend des mesures fortes pour protéger les données client contre un accès inapproprié ou une utilisation inappropriée par des personnes non autorisées. Ces mesures incluent la restriction de l’accès par le personnel et les sous-traitants de Microsoft.
 
@@ -74,7 +74,7 @@ Managed Services ne surveille pas ou n’enregistre pas le contenu audio, vidéo
 |Catégorie|Détails|Motif de la requête|
 | :- | :- | :- |
 |Collecte et gestion des données en cours|Adresse IP, identité du compte de salle (Exchange, Skype Entreprise et/ou Teams), coordonnées d’emplacement, e-mails et communication dans le portail avec Microsoft ou logiciel|Identifier et se connecter au système sous gestion ; identifier, diagnostiquer et atténuer les défaillances ; suivre l’utilisation, l’analytique et les insights ; interroger et réparer l’état de connectivité|
-|Collecte et gestion de données ad hoc|Informations sur le journal des événements, l’activité utilisateur/l’identité de l’utilisateur de la salle connectée au fichier journal, ainsi que les informations de diagnostic, Windows requêtes système (exemples : liste des périphériques USB, état de l’alimentation, etc.)|Identifier, diagnostiquer et atténuer les échecs et pour l’utilisation, l’analytique et les insights|
+|Collecte et gestion de données ad hoc|Informations sur le journal des événements, activité de l’utilisateur/identité de l’utilisateur de la salle connectée au fichier journal, ainsi que les informations de diagnostic, requêtes système Windows (exemples : liste d’appareils USB, état d’alimentation, etc.)|Identifier, diagnostiquer et atténuer les échecs et pour l’utilisation, l’analytique et les insights|
 
 Certaines données sensibles dans le journal d’activité de l’appareil sont expurgées localement (non collectées par Managed Services) :
 
@@ -100,4 +100,4 @@ Managed Services fournit une prise en charge régionale de la résidence des don
 
 ## <a name="more-resources"></a>Plus de ressources
 
-Salles Microsoft Teams Security:/microsoftteams/rooms/security Microsoft Privacy Statement : https://aka.ms/privacy Gestion des données chez Microsoft : https://www.microsoft.com/trust-center/privacy/data-management Description du service Services managés : [Microsoft Teams service managé room](microsoft-teams-rooms-premium.md)
+Salles Microsoft Teams Security:/microsoftteams/rooms/security Microsoft Privacy Statement : https://aka.ms/privacy Gestion des données chez Microsoft : https://www.microsoft.com/trust-center/privacy/data-management Description du service Services managés : [Service managé salle Microsoft Teams](microsoft-teams-rooms-premium.md)

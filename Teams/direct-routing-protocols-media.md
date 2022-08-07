@@ -1,5 +1,5 @@
 ---
-title: Téléphone vue d’ensemble du routage direct du système
+title: Vue d’ensemble du routage direct du système téléphonique
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -8,130 +8,129 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: HHw Direct Routing prend en charge la dérivation média avec un contrôleur de session Border Controller activé pour ICE Lite.
+description: hHw Direct Routing prend en charge le contournement multimédia avec un contrôleur de bordure de session activé pour ICE Lite.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c32838d282d6f5fff5eb1e85c36d78eee8828d41
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 59ea283069c6fc37590d6329aeac46e40484f8ca
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234569"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267759"
 ---
 # <a name="overview"></a>Vue d’ensemble
 
-Cet article décrit la façon dont le routage direct prend en charge la dérivation média avec un contrôleur de session border controller (SBC) activé pour ICE Lite, comme décrit dans le [RFC 5245.](https://tools.ietf.org/html/rfc5245) Cet article est destiné aux administrateurs vocaux chargés de configurer la connexion entre le serveur SBC local et le service proxy SIP.
+Cet article décrit comment le routage direct prend en charge le contournement multimédia avec un contrôleur de bordure de session (SBC) activé pour ICE Lite, comme décrit dans [RFC 5245](https://tools.ietf.org/html/rfc5245). Cet article s’adresse aux administrateurs vocaux responsables de la configuration de la connexion entre le SBC local et le service proxy SIP.
 
-Cet article fournit une vue d’ensemble des scénarios ICE Lite et des conditions requises pour l’interopérabilité. Cet article décrit les formats des messages et les transitions de machine à état requises pour garantir la fiabilité du flux des appels et des médias.
+Cet article fournit une vue d’ensemble des scénarios ice Lite et des exigences en matière d’interopérabilité. L’article décrit les formats de message et les transitions de machine à états requises pour garantir un flux d’appel et de média fiable.
 
 ## <a name="terminology"></a>Terminologie
 
-- Tout d’abord Bonjour : les premiers mots prononcés par l’appelant et l’appelé. Il est important que tous les efforts soient déployés pour garantir la livraison fiable des premiers paquets à partir des points de terminaison dans la plupart des cas d’utilisation.
+- First Hello : les premiers mots prononcés par l’appelant et l’appelé. Il est important que tous les efforts soient déployés pour s’assurer que les premiers paquets des points de terminaison sont remis de manière fiable pour la plupart des cas d’usage.
 
-- Entrée de l’écran : l’offre de l’appelant peut être livrée à plusieurs points de terminaison si l’appelant est disponible sur plusieurs appareils (par exemple, un utilisateur Teams peut être connecté à Teams pour Windows et Teams pour Android ou iPhone).
+- Forking : l’offre de l’appelant peut être remise à plusieurs points de terminaison d’appelés si l’appelé est disponible sur plusieurs appareils (par exemple, un utilisateur Teams peut être connecté à Teams pour Windows et Teams pour Android ou iPhone).
 
-- Réponse inversée (183) – Les points de terminaison des appelants pour une configuration d’appel plus rapide envoient une réponse avec les candidats et les clés nécessaires pour établir un flux multimédia. Cela est effectué dans l’attente de l’utilisateur pouvant répondre à l’appel (200OK) à partir de cette instance de l’appelant spécifique. L’appelant doit être prêt à recevoir les réponses de plusieurs personnes à l’aide de la forking.
+- Réponse provisoire (183) : les points de terminaison de l’appelé pour une configuration d’appel plus rapide envoient une réponse avec les candidats et les clés nécessaires pour établir le flux multimédia. Cette opération est effectuée en prévision de la réponse potentielle de l’utilisateur à l’appel (200OK) à partir de cette instance d’appelé spécifique. Avec la duplication, l’appelant doit être prêt à recevoir plusieurs réponses provisoires.
 
-- Re-Invite – Proposer aux candidats finux sélectionnés par le point de terminaison ICE de contrôle. L’attribut a=remote-candidate permet de résoudre les conditions de course qui seraient dues à la gestion de plusieurs bifurcations.
+- Re-Invite : offre avec les candidats finaux sélectionnés par le point de terminaison de contrôle ICE. Cela aura l’attribut a=remote-candidate pour résoudre toutes les conditions de concurrence de la gestion de plusieurs duplications.
 
-- Teams Point de terminaison : il peut s’agit soit d’un serveur (processeur multimédia, relais de transport) soit du client Teams client.
+- Point de terminaison Teams : il peut s’agir d’un serveur (processeur multimédia, relais de transport) ou du client Teams.
 
-## <a name="message-format"></a>Format des messages
+## <a name="message-format"></a>Format du message
 
-L Teams infrastructure de projets suit le RFC 5245 pour ICE-Lite. Cela implique que tous les messages STUN respectent la [norme RFC 5389.](https://tools.ietf.org/html/rfc5389)
+L’infrastructure Teams suit RFC 5245 pour ICE-Lite. Cela implique que tous les messages STUN seront conformes à [RFC 5389](https://tools.ietf.org/html/rfc5389).
 
-Les STUN requis par la mise à jour RFC 5389 doivent ignorer les attributs STUN qu’ils ne reconnaissent pas et continuer à traiter les messages avec les attributs connus. 
+Les SBC requis par RFC 5389 doivent ignorer les attributs STUN qu’ils ne reconnaissent pas et continuer à traiter les messages avec les attributs connus. 
 
-Si des paquets malformés sont reçus, les paquets doivent être ignorés sans impact sur l’établissement de la session multimédia.
+Si des paquets mal formés sont reçus, les paquets doivent être ignorés sans impact sur l’établissement de la session multimédia.
 
-## <a name="ice-lite-requirements"></a>Conditions requises pour ICE Lite
+## <a name="ice-lite-requirements"></a>Configuration requise pour ICE Lite
 
-Cette section présente brièvement les conditions requises pour ICE Lite.
+Cette section décrit brièvement les conditions requises pour ICE Lite.
 
 ### <a name="candidate-gathering"></a>Rassemblement des candidats
 
-Le SBC doit offrir un seul candidat accessible publiquement. Pour l’instant, seuls les candidats IPV4 sont pris en charge.
+Le SBC ne doit offrir qu’un seul candidat accessible publiquement. Actuellement, seuls les candidats IPV4 sont pris en charge.
 
 
 #### <a name="connectivity-checks"></a>Vérifications de connectivité
 
-L’implémentation ICE Lite doit répondre aux vérifications de connectivité reçues. Le point de terminaison ICE Lite ne doit pas envoyer de demandes de vérification de la connectivité. (Si des vérifications de connectivité sont envoyées en violation, l’implémentation complète répondra, ce qui peut entraîner la découverte de candidats dérivé par des pairs inattendus et potentiellement entraîner des échecs d’appel.)
+L’implémentation ICE Lite doit répondre aux vérifications de connectivité reçues. Le point de terminaison ICE Lite ne doit pas envoyer de demandes de vérification de connectivité. (Si des vérifications de connectivité sont envoyées en violation, l’implémentation complète répond, ce qui peut entraîner la découverte de candidats dérivés d’homologue inattendus et potentiellement des échecs d’appel.)
 
-#### <a name="nominations"></a>Tous les autres peuvent y avoir été nommé
+#### <a name="nominations"></a>Nominations
 
-Le point de terminaison d’implémentation complète ICE sera toujours le point de terminaison contrôle et suit les règles « Regular » pour la sélection des candidats finaux à utiliser pour le flux de médias. Le point de terminaison ICE Lite peut utiliser les contrôles pour conclure le chemin à utiliser pour établir un appel multimédia et complet.
+Le point de terminaison d’implémentation complète ICE sera toujours le point de terminaison de contrôle et suivra les nominations « régulières » pour sélectionner les candidats finaux à utiliser pour le flux multimédia. Le point de terminaison ICE Lite peut utiliser les candidatures pour conclure le chemin d’accès à utiliser pour les médias et l’établissement complet des appels.
 
-Remarque : en cas d’utilisation d’une pliure avec des points de terminaison d’égal à égal envoyant 183 réponses différentes, le SBC doit être prêt à répondre aux vérifications de plusieurs points de terminaison et également à partir de plusieurs points de terminaison si les problèmes ont lieu avant 200OK. Selon la fusion de l’ordinateur de l’état ICE sur le chemin d’accès final et le minutage de la réponse de l’utilisateur, les choses peuvent se produire avant ou après 200OK. Le SBC doit être en mesure de gérer ces deux cas.
+Remarque : Dans le cas d’une saisie manuscrite avec des points de terminaison homologues qui envoient 183 réponses provisoires, le SBC doit être prêt à répondre aux vérifications de plusieurs points de terminaison et également aux candidatures de plusieurs points de terminaison si les candidatures se produisent avant 200OK. Selon la convergence de l’ordinateur d’état ICE sur le chemin final et le moment où l’utilisateur répond, les nominations peuvent se produire avant ou après 200OK. Le SBC doit être en mesure de gérer les deux cas.
 
-#### <a name="converging-for-forking"></a>Convergeant pour l’king
+#### <a name="converging-for-forking"></a>Convergation pour la duplication manuscrite
 
-Si l’offre entre le test SBC et plusieurs points de terminaison Teams, les points de terminaison Teams peuvent répondre avec une réponse inexplique et démarrer des vérifications de connectivité. Le SBC doit être prêt à recevoir les vérifications de connectivité et à répondre aux vérifications de connectivité à partir de plusieurs points de terminaison d’égal à égal. Par exemple, l Teams un utilisateur peut être à la fois inscrit sur un ordinateur de bureau et un téléphone portable. Les deux appareils seront avertis de l’appel entrant et tenteront de vérifier la connectivité avec le SBC.
+Si l’offre de la duplication SBC à plusieurs points de terminaison Teams, les points de terminaison Teams peuvent répondre avec une réponse provisoire et démarrer des vérifications de connectivité. Le SBC doit être prêt à recevoir des vérifications de connectivité et à répondre aux vérifications de connectivité de plusieurs points de terminaison homologues. Par exemple, l’utilisateur Teams peut être connecté à la fois à un bureau et à un téléphone portable. Les deux appareils seront avertis de l’appel entrant et tenteront des vérifications de connectivité avec le SBC.
 
-Finalement, un seul point de terminaison répondra à l’appel (200OK). Lors de la réception de la 200OK, le SBC peut configurer le contexte exact pour le traitement des paquets multimédias.
+Finalement, un seul des points de terminaison répondra à l’appel (200OK). Lors de la réception du 200OK, le SBC peut configurer le contexte approprié pour le traitement des paquets multimédias.
 
 ## <a name="scenarios"></a>Scénarios
 
 ###  <a name="inbound-call-from-sbc"></a>Appel entrant à partir de SBC
 
-Dans ce scénario, le SBC doit gérer plusieurs points de terminaison pairs possibles :
+Pour ce scénario, il existe plusieurs points de terminaison d’homologue possibles que le SBC doit gérer :
 
-- Les points de terminaison du serveur répondront généralement directement avec 200OK. Il s’agit de points de terminaison ICE complets qui sont généralement impliqués dans des scénarios de messagerie vocale, de file d’attente d’appels et de attendant automatique.
+- Les points de terminaison de serveur répondent généralement directement avec 200OK. Il s’agit de points de terminaison ICE complets qui sont généralement impliqués dans les scénarios de messagerie vocale, de file d’attente d’appels et de standard automatique.
 
-- Les points de terminaison du client peuvent envoyer plusieurs réponses avec différentes balises De/À (183) suivies d’un 200OK à partir du point de terminaison qui répond à l’appel. Il s’agit de points de terminaison ICE complets représentant généralement des clients d’utilisateurs finaux.
+- Les points de terminaison clients peuvent envoyer plusieurs réponses provisoires avec différentes balises From/To (183) suivies d’un 200OK à partir du point de terminaison qui répond à l’appel. Il s’agit de points de terminaison ICE complets qui représentent généralement des clients d’utilisateur final.
 
-- Autres points de terminaison SBC. Il s’agit des points de terminaison ICE Lite généralement impliqués dans le scénario de sonnerie simultanée des points de terminaison du client et d’autres numéros de téléphone.
+- Autres points de terminaison SBC. Il s’agit de points de terminaison ICE Lite généralement impliqués dans le scénario de sonnerie simultanée des points de terminaison client et d’un autre ou plusieurs numéros de téléphone.
 
-Le SBC doit répondre à toutes les demandes de vérification de connectivité valides reçues à partir des points de terminaison ICE complets. Selon la technologie RFC, les points de terminaison ICE complets deviendront des points de terminaison contrôlés. Les Teams points de terminaison (client/serveur) effectuent des vérifications de connectivité « régulières ». Le 200Ok final peut être soit à partir d’un point de terminaison qui a envoyé des médias précoces, soit d’un autre point de terminaison. Lors de la réception de la 200Ok, le SBC doit configurer le contexte pour le flux de médias. 
+Le SBC doit répondre à toutes les demandes de vérification de connectivité valides reçues des points de terminaison ICE complets. Par RFC, les points de terminaison ICE complets deviendront des points de terminaison de contrôle. Les points de terminaison Teams (client/serveur) effectuent des nominations « régulières » pour effectuer des vérifications de connectivité. Le 200Ok final peut être à partir d’un point de terminaison qui a envoyé un média précoce ou d’un autre point de terminaison. Lors de la réception du 200Ok, le SBC doit configurer le contexte approprié pour le flux multimédia. 
 
 ###  <a name="early-media"></a>Médias précoces
 
-S’il existe un flux de médias précoce, le SBC doit être basé vers le premier point de terminaison qui démarre la diffusion en continu de médias. un flux de médias peut commencer avant les candidats. Le système SBC doit prendre en charge l’envoi de DTMF pendant cette phase afin d’activer les scénarios DVR/messagerie vocale. Le SBC doit utiliser le chemin d’accès de priorité le plus élevé sur lequel il a reçu les vérifications si l’examen n’est pas terminé.
+S’il existe un flux multimédia précoce, le SBC doit se verrouiller vers le premier point de terminaison qui démarre le streaming multimédia ; le flux multimédia peut commencer avant que les candidats soient nommés. Le SBC doit prendre en charge l’envoi de DTMF pendant cette phase pour activer les scénarios de messagerie vocale/IVR. Le SBC doit utiliser le chemin d’accès prioritaire le plus élevé sur lequel il a reçu des vérifications si les candidatures ne sont pas terminées.
 
-### <a name="outbound-call-to-sbc"></a>Appel sortant vers SBC
+### <a name="outbound-call-to-sbc"></a>Appel sortant à SBC
 
-Les Teams points de terminaison sont l’appelant pour ce scénario et seront les points de terminaison de contrôle. Lors de la réception d’une réponse complète (183) ou d’une réponse finale (200OK), le point de terminaison Teams démarre les vérifications de connectivité et passe aux vérifications « normales » pour effectuer les vérifications de connectivité.
+Les points de terminaison Teams sont l’appelant de ce scénario et seront le point de terminaison de contrôle. Lors de la réception d’une réponse provisoire (183) ou d’une réponse finale (200OK), le point de terminaison Teams démarre les vérifications de connectivité et passe aux nominations « régulières » pour effectuer les vérifications de connectivité.
 
-Remarque : si la base de données SBC envoie une réponse complète (183), le SBC doit être prêt à recevoir les demandes de vérification de connectivité et potentiellement terminer les vérifications avant l’envoi du 200OK par le SBC. Si les vérifications et/ou contrôles sont effectués avant la réception de la mise à jour du 200OK, les vérifications et/ou les contrôles ne seront pas effectués à nouveau après la réception de 200OK. Le SBC ne doit pas changer les candidats ICE, le mot de passe et le fragment de nom d’utilisateur entre 183 et 200.
+Remarque : si le SBC envoie une réponse provisoire (183), le SBC doit être prêt à recevoir des demandes de vérification de connectivité et potentiellement terminer les candidatures avant que le 200OK soit envoyé par le SBC. Si les vérifications et/ou les nominations sont terminées avant la réception du 200OK, les vérifications et/ou les nominations ne seront plus effectuées après la réception de 200OK. Le SBC ne doit pas modifier les candidats ICE, le mot de passe et l’ufrag (fragment de nom d’utilisateur) entre 183 et 200.
 
-Pour prendre en charge les fichiers multimédias en avant-première, le SBC peut commencer à diffuser les médias vers le candidat ICE de l’pair, avec la priorité la plus élevée en fonction des vérifications de connectivité reçues, avant même que l’examen ne soit effectué par Teams point de terminaison. Le SBC doit s’attendre à ce que des médias Teams de tous les candidats jusqu’à ce que l’équipe soit terminée. Une fois qu’un candidat a été désigné, le contexte doit être réinitialisé pour envoyer et recevoir des paquets multimédias.
+Pour prendre en charge les médias précoces, le SBC peut commencer à diffuser le média en continu vers le candidat ICE pair, avec la priorité la plus élevée en fonction des vérifications de connectivité reçues, même avant que les candidatures ne soient terminées par le point de terminaison Teams. Le SBC doit attendre des médias de Teams sur n’importe quel candidat jusqu’à ce que les candidatures soient terminées. Une fois qu’un candidat est nommé, le SBC doit rétablir le contexte approprié pour envoyer et recevoir des paquets multimédias.
 
-## <a name="srtp-support-requirements"></a>Conditions requises de prise en charge du SRTP
+## <a name="srtp-support-requirements"></a>Exigences de prise en charge de SRTP
 
-Le code SBC doit prendre en charge les données de chiffrement SRTP AES_CM_128_HMAC_SHA1_80'offre et de réponse dans le format suivant :
+Le SBC doit prise en charge des AES_CM_128_HMAC_SHA1_80 de chiffrement de chiffrement SRTP pour l’offre et la réponse au format suivant :
 
 ```console
 "inline:" <key||salt> ["|" lifetime]
 ```
 
-Voici un exemple d’attribut crypto dans l’offre SDP provenant du SBC :
+Voici un exemple d’attribut de chiffrement dans l’offre SDP du SBC :
 
 ```console
 a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:V/Lr6Lsvhad/crSB9kCQ28jrYDxR2Yfk5bXryH5V|2^31
 ```
 
-Les paramètres MKI et Longueur ne sont pas obligatoires.
+Les paramètres MKI et Length ne sont pas requis.
 
-Pour plus d’informations, [voir RFC 4568, section 6.1.](https://tools.ietf.org/html/rfc4568#section-6.1)
+Pour plus d’informations, voir [RFC 4568, section 6.1](https://tools.ietf.org/html/rfc4568#section-6.1).
 
-## <a name="sdes-support-requirements"></a>Conditions requises pour la prise en charge de SDES
+## <a name="sdes-support-requirements"></a>Exigences de prise en charge de SDES
 
-L’appareil doit pouvoir proposer SDES dans le format décrit ci-dessous. Les processeurs Microsoft Media préfèrent toujours SDES.
+L’appareil doit être en mesure d’offrir SDES au format décrit ci-dessous. Les processeurs multimédias Microsoft préfèrent toujours SDES.
 
-- Avec une dérivation non multimédia, même si un client prend uniquement en charge DTLS, les processeurs multimédias sont convertis en SDES.
+- Avec la déviation non multimédia, même si un client prend uniquement en charge DTLS, les processeurs multimédias sont convertis en SDES.
 
-- Avec la dérivation média, si un client est DTLS uniquement (état Google Chrome futur), un routage direct insère un mp dans le chemin, convertissant l’appel de la dérivation média en contournement non multimédia. Entre le composant SBC et le composant de processeur multimédia du routage direct, SDES est toujours utilisé.
+- Avec la déviation du trafic multimédia, si un client est DTLS uniquement (futur état Google Chrome), le routage direct insère un mp dans le chemin d’accès, convertissant l’appel du contournement multimédia en contournement non multimédia. Entre le composant SBC et le composant processeur multimédia du routage direct, SDES est toujours utilisé.
 
-Actuellement, aucun client de Teams n’offre de DTLS uniquement ; Google a toutefois annoncé qu’à un moment donné, il cessera de prise en charge de SDES.
+Actuellement, il n’existe aucun client Teams qui offre uniquement DTLS ; Toutefois, Google a annoncé qu’à un moment donné, ils cesseront de soutenir SDES.
 
-## <a name="format-for-offer-from-sbc-in-bypass-mode"></a>Format de l’offre SBC en mode contournement 
+## <a name="format-for-offer-from-sbc-in-bypass-mode"></a>Format de l’offre de SBC en mode contournement 
 
-L’offre doit contenir SDES et peut contenir des contenus DTLS facultatifs au format suivant :
+L’offre doit contenir SDES et peut contenir DTLS facultatif au format suivant :
 
 ```console
 m=audio 54056 UDP/TLS/RTP/SAVP 0 8 76 77 18 9 101 13
@@ -142,7 +141,7 @@ a=setup:actpass
 a=rtcp-mux
 ```
 
-### <a name="format-for-answer-containing-sdes-to-sbc"></a>Format de réponse contenant SDES à SBC
+### <a name="format-for-answer-containing-sdes-to-sbc"></a>Format de réponse contenant SDES vers SBC
 
 ```console
 m=audio 54056 RTP/SAVP 111 103 104 9 0 8 description 106 13 110 112 113 126
@@ -153,9 +152,9 @@ a=rtcp-mux
 
 ```
 
-## <a name="format-for-offer-from-teams-to-sbc"></a>Mise en forme de l’offre Teams SBC 
+## <a name="format-for-offer-from-teams-to-sbc"></a>Format de l’offre de Teams vers SBC 
 
-### <a name="format-for-sdes-only-offer-to-sbc"></a>Format de l’offre SDES uniquement sur SBC
+### <a name="format-for-sdes-only-offer-to-sbc"></a>Format de l’offre SDES uniquement pour SBC
 
 ```console
 m=audio 52884 RTP/SAVP 111 103 104 9 0 8 106 13 110 112 113 126

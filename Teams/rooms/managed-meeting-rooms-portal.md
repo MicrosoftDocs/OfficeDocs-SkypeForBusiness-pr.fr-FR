@@ -1,5 +1,5 @@
 ---
-title: Salles Microsoft Teams’entreprise
+title: portail Salles Microsoft Teams
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
@@ -10,43 +10,43 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Fournir une vue d’état de vos salles de réunion.
+description: Fournissez une vue d’ensemble de l’intégrité de vos salles de réunion.
 f1keywords: ''
-ms.openlocfilehash: db8f6125bda335dfab2f9208fcfd8ab0f192e4e7
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: d76f1f68e0cc73d2abd554ec5c2fc115139a6a0f
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767526"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269209"
 ---
-# <a name="microsoft-managed-meeting-rooms-portal"></a>Portail Salles de réunion gérées par Microsoft
+# <a name="microsoft-managed-meeting-rooms-portal"></a>Portail des salles de réunion gérées Par Microsoft
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 
-Le portail Salles de réunion gérées (« Portail Salles ») fournit une vue d’état de vos salles de réunion. Un affichage client de ce portail est pour votre visibilité et vos commentaires, et pour faciliter vos outils/pratiques d’analyse existants.
+Le portail des salles de réunion gérées (« Portail des salles ») fournit une vue d’ensemble de l’intégrité de vos salles de réunion. Une vue client de ce portail est destinée à votre visibilité et à vos commentaires, et à faciliter vos outils/pratiques de supervision existants.
 
 L’étendue de la surveillance est
 
-- Affichage des incidents
-  - Principaux problèmes affectant vos salles
-  - Actions requises pour rétablir l’état d’santé des salles
-  - Problèmes en cours d’investigation par Microsoft
-- Affichage des appareils Microsoft Teams salle
-  - Instantané de l’état au Salles Microsoft Teams de l’appareil (MTR)
-  - Historique et détails de base pour chaque appareil
+- Vue des incidents
+  - Principaux problèmes affectant vos chambres
+  - Actions nécessaires pour rétablir l’état sain des salles
+  - Problèmes faisant l’objet d’une enquête par Microsoft
+- Affichage des appareils Salle Microsoft Teams
+  - Capture instantanée de l’état au niveau de l’appareil Salles Microsoft Teams (MTR)
+  - Historique de base et détails pour chaque appareil
 
-**Affichage des appareils Microsoft Teams salle**
+**Affichage des appareils Salle Microsoft Teams**
 
-- Instantané de l’état au Salles Microsoft Teams de l’appareil (MTR)
-- Historique et détails de base pour chaque appareil
+- Capture instantanée de l’état au niveau de l’appareil Salles Microsoft Teams (MTR)
+- Historique de base et détails pour chaque appareil
 
 > [!Important]
-> Examinez [**attribuer aux utilisateurs le**](enrolling-mtrp-managed-service.md#assign-users-to-the-managed-service-administrator-role) rôle Administrateur de services gérés et assurez-vous que l’accès au portail est limité en fonction des besoins de votre entreprise.
+> Passez en revue [**Affecter des utilisateurs au rôle Administrateur de service administré**](enrolling-mtrp-managed-service.md#assign-users-to-the-managed-service-administrator-role) et assurez-vous que l’accès au portail est limité en fonction des besoins de votre entreprise.
 
 ## <a name="terminology"></a>Terminologie
 
@@ -54,170 +54,170 @@ Voici les termes fréquemment utilisés dans le portail.
 
 |Terme |Signification |
 | :- | :- |
-|**Logiciel de surveillance** |Agent de surveillance déployé sur chacun des appareils de Microsoft Teams salle. |
-|**Application** |Microsoft Teams’application Room System (qu’elle utilise Skype Entreprise ou Microsoft Teams comme service de collaboration. |
-|**Salle/Appareil** |Le périphérique certifié Microsoft Teams room system. |
-|**Non contrôlé** | Les logiciels de surveillance Microsoft déployés dans le cadre des services gérés ne peuvent pas se connecter aux services cloud. Nous ne recevons pas de télémétrie sur l’appareil. |
-|<p>**Saine /** </p><p>**Défectueux** </p>|(s) dans l’appareil/périphérique. |
-|**Supprimé** |Si un périphérique est connu pour être en maintenance et que ses alertes doivent être ignorées, l’appareil peut être supprimé délibérément. |
-|**Intégration** |L’état d’un appareil de salle pendant sa configuration est ajouté, mais n’est pas prêt comme une salle régulièrement prise en charge. |
+|**Logiciel de surveillance** |Agent de surveillance déployé sur chacun des appareils salle Microsoft Teams. |
+|**Application** |Application système salle Microsoft Teams (qu’elle utilise Skype Entreprise ou Microsoft Teams comme service de collaboration. |
+|**Salle/appareil** |Appareil système Microsoft Teams Room certifié. |
+|**Non surveillé** | Les logiciels de surveillance Microsoft déployés dans le cadre de services gérés ne peuvent pas se connecter aux services cloud. Nous ne recevons pas de données de télémétrie sur l’appareil. |
+|<p>**Sain /** </p><p>**Malsain** </p>|Anomalies dans l’appareil/périphérique. |
+|**Supprimé** |Si un appareil est connu pour être en maintenance et que ses alertes doivent être ignorées, l’appareil peut être supprimé délibérément. |
+|**Intégration** |L’état d’un appareil de salle pendant l’installation est ajouté, mais n’est pas prêt en tant que salle régulièrement prise en charge. |
 |**Incident** |Problème affectant les expériences de réunion des utilisateurs finaux qui ont besoin d’une action. |
-|**Configuration mal configurée** |La configuration détectée n’est pas correcte / souvent utilisée. |
-|**Support Ticket** |Identificateur de suivi Microsoft interne qui suit toutes les communications/actions relatives à un incident. |
+|**Mal configuré** |La configuration détectée n’est pas correcte/ couramment utilisée. |
+|**Support Ticket** |Identificateur de suivi Microsoft interne qui effectue le suivi de toutes les communications/actions concernant un incident. |
 
-## <a name="incidents-view"></a>Affichage Incidents
+## <a name="incidents-view"></a>Vue Incidents
 
-Cet affichage est une vue d’ensemble de l’onglet Incidents dans le portail Salles gérées. Cette page est la page d’accueil par défaut du portail.
+Cette vue est une vue d’ensemble de l’onglet Incidents dans le portail des salles gérées. Cette page est la page d’accueil par défaut du portail.
 
 ### <a name="top-level-summary"></a>Résumé de niveau supérieur 
-Le résumé de niveau supérieur présente en un coup d’œil les problèmes qui affectent vos salles, ce que vous devez faire et ce que Microsoft fait à leur sujet :
+Le résumé de niveau supérieur montre en un coup d’œil les problèmes qui affectent vos salles, ce que vous devez faire et ce que Microsoft fait à leur sujet :
 
-![Capture d’écran montrant un résumé des problèmes de niveau supérieur](../media/rooms-monitor-001new.png)
+![Capture d’écran montrant un récapitulatif des problèmes de niveau supérieur](../media/rooms-monitor-001new.png)
 
 |# |Explication |
 | :- | :- |
 |1 |Types d’incidents affectant vos salles |
-|2 |**ACTION DE LA NÉCESSITÉ**: éléments nécessitant votre intervention à résoudre. |
-|3 |**AFFECTÉ À MICROSOFT**: Éléments pour l’instant examinés par le personnel de Microsoft. |
-|4 |**EXAMEN EN ATTENTE**: Éléments dans la file d’attente à examiner par le personnel microsoft. |
+|2 |**NEED ACTION** : Éléments qui nécessitent votre intervention pour résoudre. |
+|3 |**AFFECTÉ À MICROSOFT** : Éléments actuellement examinés par le personnel de Microsoft. |
+|4 |**ENQUÊTE EN ATTENTE** : Éléments de la file d’attente à examiner par le personnel de Microsoft. |
 
-Les incidents devraient se trouver dans l’un des trois états :
+Les incidents sont censés se trouver dans l’un des trois états suivants :
 
-- **Action du besoin**: vous est attribué pour action
-- **Affecté à Microsoft**: Affecté à Microsoft pour l’action suivante
-- **Examen en attente**: examen en cours pour les étapes suivantes
+- **Action de besoin** : affectée à vous pour l’action
+- **Affecté à Microsoft** : Affecté à Microsoft pour l’action suivante
+- **Enquête en attente** : En cours d’investigation pour les étapes suivantes
 
-### <a name="reviewing-incidents"></a>Révision des incidents
+### <a name="reviewing-incidents"></a>Examen des incidents
 
-L’image suivante répertorie tous les incidents actuellement actifs dans vos salles. Ceux qui vous sont  attribués sont dans la partie supérieure : voici ce que vous devez examiner pour les étapes suivantes. En outre, ceux affectés à Microsoft ou à l’examen en attente ont des détails que vous pouvez utiliser pour intervenir.
+L’image suivante répertorie tous les incidents actuellement actifs dans vos salles. Celles qui vous sont affectées *sont en haut* : voici ce que vous devez examiner pour les étapes suivantes. En outre, celles affectées à Microsoft ou en attente d’investigation ont des détails que vous pouvez utiliser pour intervenir.
 
-Le fait de cliquer sur un des éléments dont l’état est «**Action** des besoins » affiche des détails supplémentaires sur l’incident.
+Le fait de cliquer sur l’un des éléments dont l’état est « **Action Des besoins** » affiche des détails supplémentaires sur l’incident.
 
 ## <a name="types-of-incidents"></a>Types d’incidents
 
-Les incidents sont classés avec deux types de gravité générale :
+Les incidents sont classés en deux types de gravité larges :
 
-- **Important**: les incidents susceptibles de causer des problèmes dans les réunions et qui doivent être prioritaires.
-- **Avertissement :** incidents qui sont des notifications pour planifier des actions de maintenance. Si ces salles ne sont pas prises en charge, il est probable qu’elles soient plus susceptibles d’être prises en charge. Les avertissements vous donnent le temps de planifier et de soutenir l’assistance.
+- **Important** : les incidents qui sont susceptibles de provoquer des problèmes lors de réunions et qui doivent être classés par ordre de priorité.
+- **Avertissement** : incidents qui sont des notifications pour planifier des actions de maintenance. Si ces derniers ne sont pas pris en charge, puis au fil du temps les chambres sont plus susceptibles de frapper un problème. Les avertissements sont destinés à vous donner le temps de planifier et d’orchestrer le support.
 
-Un avertissement peut passer à «**Important**» s’il n’est pas participé à un certain temps.
+Un avertissement peut passer à « **Important** » s’il n’est pas pris en charge pendant un certain temps.
 
-## <a name="health-status-of-device-and-incidents"></a>État d’état du périphérique et incidents
+## <a name="health-status-of-device-and-incidents"></a>État d’intégrité de l’appareil et des incidents
 
-Les incidents classés comme **« Important** » dans la gravité affectent l’état d’état d’un appareil. Si au moins un incident de gravité **= « Important »** est associé à un appareil, il est considéré comme **_un_** appareil défectueux.
+Les incidents classés **comme « Importants »** dans la gravité affectent l’état d’intégrité d’un appareil. S’il existe au moins un incident de **gravité = « Important »** associé à un appareil, il est classé comme **_étant défectueux_** .
 
-Les incidents classés **comme étant de gravité de l’avertissement** n’affectent pas l’état d’état signalé sur un appareil. Toutefois, si un appareil est associé à des incidents de niveau d’avertissement, il s’affiche avec l’état d’état de l’appareil comme suit.
+Les incidents classés comme **gravité « Avertissement »** n’affectent pas l’état d’intégrité signalé sur un appareil. Toutefois, si un appareil est associé à des incidents de niveau d’avertissement, l’état d’intégrité de l’appareil s’affiche comme suit.
 
-![Capture d’écran montrant l’état d’état d’une salle](../media/rooms-monitor-004.jpg)
+![Capture d’écran montrant l’état d’intégrité d’une salle](../media/rooms-monitor-004.jpg)
 
-Voici quelques-uns des types d’incidents que vous pouvez voir et les explications de chaque type. Pour chaque type, l’action associée à l’incident sera plus spécifique en fonction du problème.
+Voici quelques-uns des types d’incidents que vous pouvez voir et les explications pour chaque type. Pour chaque type, l’action associée à l’incident sera plus spécifique en fonction du problème.
 
-**Tableau 1 : incidents avec une gravité « Importante »**
-
-|Type |Explication |
-| :- | :- |
-|**Affichage** |L’affichage connecté à l’appareil ne semble pas être sain.|
-|**Microphone de conférence, haut-parleur de conférence** |Les périphériques audio (micro/haut-parleur) semblent mal configurés. |
-|**Appareil photo** |L’appareil photo connecté à l’appareil ne semble pas être en bon état. |
-|**HDMI Ingest** |HDMI Ingest n’est pas sain. |
-|**Sign-in** (Exchange) |Microsoft Teams l’application Room accède aux informations de calendrier de Exchange et les problèmes de réussite de la signature sont signalés en cas d’incident de inscription. |
-|**Se connectez** (Teams) |Microsoft Teams’application Room se connecte à l’appareil et l’échec de la se connecte sera signalé avec cet incident (si le client utilise Teams). |
-|**Se connectez** (Skype Entreprise) |Microsoft Teams’application Room se connecte à l’appareil, et l’échec de la connecté est signalé avec cet incident (si le client utilise Skype Entreprise) |
-|**Capteur de proximité** |Microsoft Teams’application Salle invite les participants à participer à une réunion s’ils sont à proximité. Les échecs de cette fonctionnalité seront signalés dans le cadre de cet incident. |
-
-**Tableau 2 : Incidents avec gravité de l’avertissement**
+**Tableau 1 : Incidents avec gravité « Important »**
 
 |Type |Explication |
 | :- | :- |
-|**Version de l’application** |La version de l’Microsoft Teams Room s’exécutant sur l’appareil n’est pas à jour. Les versions obsolètes sont les causes connues des problèmes connus des utilisateurs. |
-|**Version du système d’exploitation** |La version de votre Windows d’exploitation s’exécutant dans la salle de réunion n’est plus recommandée. |
-|**Réseau** |Ce type d’avertissement sera supprimé à l’avenir en raison d’un travail supplémentaire requis après l’évaluation. |
+|**Affichage** |L’affichage connecté à l’appareil ne semble pas sain.|
+|**Microphone de conférence, présentateur de conférence** |Les périphériques audio (microphone/haut-parleur) semblent être mal configurés. |
+|**Caméra** |La caméra connectée à l’appareil ne semble pas saine. |
+|**Ingestion HDMI** |L’ingestion HDMI n’est pas saine. |
+|**Connexion** (Exchange) |L’application Salle Microsoft Teams accède aux informations du calendrier à partir d’Exchange et tout problème lié à la réussite de la connexion est signalé par un incident de connexion. |
+|**Connexion** (Teams) |L’application Salle Microsoft Teams se connecte à l’appareil et l’échec de connexion est signalé avec cet incident (si le client utilise Teams). |
+|**Connexion** (Skype Entreprise) |L’application Salle Microsoft Teams se connecte à l’appareil et l’échec de connexion est signalé avec cet incident (si le client utilise Skype Entreprise) |
+|**Capteur de proximité** |L’application Salle Microsoft Teams invite les participants à participer à une réunion s’ils sont à proximité. Les défaillances de cette fonctionnalité sont signalées dans le cadre de cet incident. |
+
+**Tableau 2 : Incidents avec gravité « Avertissement »**
+
+|Type |Explication |
+| :- | :- |
+|**Version de l’application** |La version de l’application salle Microsoft Teams s’exécutant sur l’appareil n’est pas à jour. Les versions obsolètes sont des causes connues des problèmes rencontrés par les utilisateurs. |
+|**Version du système d’exploitation** |La version du système d’exploitation Windows s’exécutant dans la salle de réunion n’est plus recommandée. |
+|**Réseau** |Ce type d’avertissement sera supprimé à court terme en raison d’un travail supplémentaire requis après l’évaluation. |
 
 ## <a name="responding-to-incidents"></a>Réponse aux incidents
 
-Les incidents sont de trois catégories : Action des besoins, Examen en attente ou Affecté à Microsoft.
+Les incidents se répartissent en trois catégories : Action requise, Enquête en attente ou Affectation à Microsoft.
 
-### <a name="needs-action-incidents"></a>Incidents de « nécessite une action »
+### <a name="needs-action-incidents"></a>Incidents « Nécessite une action »
 
-Les incidents dont l’état est « Action nécessaire **»** vous sont attribués pour qu’une action corrective soit entreprise.
+Les incidents dont l’état est défini sur **« Needs Action »** vous sont affectés pour prendre une action corrective.
 
 Chaque incident de ce type aura un champ d’action avec une action recommandée par Microsoft comme suit :
 
 ![Capture d’écran montrant l’action d’incident recommandée](../media/rooms-monitor-005.jpg)
 
-- Si vous avez pris cette action, vous pouvez répondre à l’incident en insérez vos notes dans la zone Répondre, puis sélectionner « Attribuer à Microsoft » avant de publier.
-- Il est également possible que la notification soit incorrecte sur la base de votre avis. Dans ce cas, faites part de vos commentaires et attribuez-le à Microsoft.
-- Enfin, si vous souhaitez ajouter un commentaire afin de fournir davantage de contexte pour votre propre équipe ou pour l’équipe Microsoft, publiez le message sans avoir à mettre en place l’attribution à Microsoft.
+- Si vous avez effectué l’action, vous pouvez répondre à l’incident avec vos notes dans la zone Répondre, puis choisir « Affecter à Microsoft » avant de publier.
+- Il est également possible que la notification soit incorrecte en fonction de votre révision. Dans ce cas, fournissez ce commentaire et affectez-le à Microsoft.
+- Enfin, si vous souhaitez ajouter un commentaire pour fournir un contexte supplémentaire pour votre propre équipe ou pour l’équipe Microsoft, publiez le message sans activer « Affecter à Microsoft ».
 
 >[!NOTE]
->Votre action corrective peut résoudre le problème et l’analyse des salles gérées effacera cet incident de votre liste. Dans le cas ci-dessus, vous n’avez peut-être pas la possibilité de résoudre le problème et de le ré-attribuer à Microsoft. Ce problème sera résolu dans une prochaine version.
+>Votre action corrective peut résoudre le problème et la surveillance des salles gérées efface cet incident de votre liste. Dans la situation ci-dessus, vous n’aurez peut-être pas l’occasion de résoudre le problème et de l’affecter à Microsoft. Ce problème sera résolu dans une version ultérieure.
 
-### <a name="pending-investigation-incidents"></a>Incidents de « Examen en attente »
+### <a name="pending-investigation-incidents"></a>Incidents d'« enquête en attente »
 
-Pour les incidents en cours d’investigation, le champ de description contient des informations sur l’incident, les causes classiques et les résolutions qui peuvent être utiles pour résoudre certains problèmes afin que vous pouvez agir sans délai.
+Pour les incidents en cours d’investigation, le champ de description contient des informations sur l’incident, les causes typiques et les résolutions qui peuvent être utiles pour résoudre certains problèmes afin que vous puissiez agir sans délai.
 
 ### <a name="assigned-to-microsoft-incidents"></a>Incidents « Affectés à Microsoft »
 
-Pour les incidents attribués à Microsoft, le champ « Action » contiendra de brefs détails sur les étapes correctives planifiées ou progressions. Ces étapes peuvent avoir besoin d’une collaboration avec votre équipe, et une collaboration étendue sera effectuée par e-mail/appels au besoin. Une fois ces problèmes résolus, ils disparaîtront du portail et, à l’avenir, ils seront suivis et résolus dans l’historique.
+Pour les incidents affectés à Microsoft, le champ « Action » contient de brefs détails sur les étapes correctives planifiées ou avancées. Ces étapes peuvent nécessiter une collaboration avec votre équipe et une collaboration étendue sera effectuée par e-mail/appels en fonction des besoins. Une fois ces problèmes résolus, ils disparaîtront du portail et, à l’avenir, il y aura un historique pour suivre ces incidents et leur résolution.
 
-![Capture d’écran montrant les étapes correctives MS](../media/rooms-monitor-006.jpg)
+![Capture d’écran montrant les étapes correctives de MS](../media/rooms-monitor-006.jpg)
 
 ## <a name="rooms-view"></a>Vue Salles
 
-Chaque appareil est un proxy pour une salle et ses périphériques connectés. Un appareil sain représente une salle saine, et un appareil défectueux représente une salle qui peut être à l’origine de problèmes pendant les réunions. Outre l’affichage Incidents, le portail Salles gérées fournit également une vue d’ensemble de l’état de la salle et vous aide à dépanner les détails des appareils et à comprendre les échecs répétés dans l’historique des incidents.
+Chaque appareil est un proxy pour une salle et ses périphériques connectés. Un appareil sain représente une salle saine et un appareil défectueux représente une salle susceptible de provoquer des problèmes pendant les réunions. En plus de la vue Incidents, le portail des salles gérées fournit également une vue d’ensemble de l’intégrité des salles et vous aide à résoudre les problèmes de l’appareil et à comprendre les échecs répétés avec l’historique des incidents.
 
-![Capture d’écran montrant la vue d’ensemble de l’état d’une salle](../media/rooms-monitor-007.jpg)
+![Capture d’écran montrant la vue d’ensemble de l’intégrité d’une salle](../media/rooms-monitor-007.jpg)
 
-**Sain, défectueux, déconnecté** Le panneau supérieur de l’affichage Salles fournit un instantané rapide du bon état de nombre de vos appareils (« En bonne santé »), du nombre affectés par des problèmes (« Défectueux »), du nombre de personnes qui ne fournissent pas de données de télémétrie (« Déconnecté ») et du nombre d’appareils supprimés de l’alerte (en tant que remplacement). Les salles sont surveillées pour leur santé à l’aide de critères évolutifs et de critères heuristiques. L’objectif est de refléter la réalité de l’expérience utilisateur dans la salle le plus précisément possible et de la rendre actionnable.
+**Sain, non sain, déconnecté** Le panneau supérieur de la vue Salles fournit un instantané rapide du nombre de vos appareils dans un état correct (« Sain »), du nombre d’appareils affectés par des problèmes (« Non sains »), du nombre d’appareils qui ne fournissent pas de données de télémétrie (« déconnectés ») et du nombre d’appareils supprimés des alertes (en guise de remplacement). Les chambres sont surveillées pour la santé à l’aide de critères évolutifs et heuristiques. L’objectif est de refléter la réalité de l’expérience utilisateur dans la salle aussi précisément que possible et de la rendre exploitable.
 
-**Salles saines/non saines**:
+**Salles saines/non saines** :
 
-Les appareils/périphériques qui n’ont aucun incident de gravité « Important » sont ceux qui sont marqués comme sains. Toutefois, cela n’implique pas qu’il y a une panne de place pour tous les appareils défectueux dans le portail. La partie description et action de l’incident contient des détails plus spécifiques sur le problème et l’impact potentiel sur l’expérience utilisateur.
+Les appareils/périphériques qui n’ont pas d’incidents de gravité « Important » répondent aux critères d’intégrité actuels sont marqués comme sains. Toutefois, cela n’implique pas qu’il y ait une panne de pièce pour chaque appareil défectueux dans le portail. La partie description et action de l’incident contient des détails plus spécifiques sur le problème et l’impact potentiel sur l’expérience utilisateur.
 
 **Appareil déconnecté :**
 
-L’agent de surveillance Microsoft déployé dans le cadre du pilote Salles gérées est déconnecté des services cloud des salles gérées. Nous ne recevons pas de télémétrie sur la salle et n’avons pas le statut le plus récent. Cela peut se produire en raison de problèmes réseau, de modifications de la stratégie de pare-feu ou de modifications apportées à l’image de l’appareil.
+L’agent de supervision Microsoft déployé dans le cadre du pilote Salles gérées est déconnecté des services cloud Managed Room. Nous ne recevons pas de données de télémétrie sur la salle et n’avons pas l’état d’intégrité le plus récent. Cela peut se produire en raison de problèmes réseau, de modifications de stratégie de pare-feu ou de modifications apportées à l’image de l’appareil.
 
 ## <a name="room-detail-status-and-changes"></a>Détails de la salle : État et modifications
 
-**Détails de la salle : État** *L’onglet* État du périphérique fournit une vue consolidée de l’état d’un appareil, de tous les problèmes actifs pour l’appareil, des actions nécessaires pour les résoudre ou qui sont en cours. L’onglet État présente également la répartition des différents composants d’état d’état de l’appareil sous *l’onglet Incidents.* Si un appareil est déconnecté, les détails de l’état ne sont pas disponibles.
+**Détails de la salle : État** L’onglet *État* de l’appareil fournit une vue consolidée de l’état d’un appareil, de tous les problèmes actifs pour l’appareil, des actions nécessaires pour les résoudre ou qui sont en cours. L’onglet État contient également la répartition des différents composants d’intégrité de l’appareil sous *l’onglet Incidents*. Si un appareil est déconnecté, les détails de l’état ne sont pas disponibles.
 
-![Capture d’écran montrant l’affichage état consolidé](../media/rooms-monitor-008.png)
+![Capture d’écran montrant l’affichage d’état consolidé](../media/rooms-monitor-008.png)
 
-**Afficher tous les signaux :** Pour afficher tous les signaux d’une catégorie de signaux, activez le bouton bascule Afficher tous les signaux. Des flèches d’extension apparaissent en regard des titres de catégorie sur lesquels vous pouvez cliquer pour développer la vue d’accordion.
+**Afficher tous les signaux :** Pour afficher tous les signaux contenus dans une catégorie de signal, activez le bouton Bascule Afficher tous les signaux. Les flèches d’expansion s’affichent en regard des en-têtes de catégorie sur lesquels vous pouvez cliquer pour développer l’affichage accordéon.
 
-![Capture d’écran montrant des signaux au sein d’une catégorie](../media/rooms-monitor-009.png)
+![Capture d’écran montrant des signaux dans une catégorie](../media/rooms-monitor-009.png)
 
-**Supprimer/désapresser le ticket** Lorsqu’une salle est inscrite, vous indiquez que vous souhaitez recevoir des notifications pour les modifications apportées à la télémétrie de salle. Il peut se produire qu’un appareil ou un périphérique particulier se trouve dans un état connu où vous ne souhaitez pas que des tickets ou notifications soient générés. L’utilisation de la fonctionnalité Supprimer le ticket supprimera toute notification concernant ce signal particulier. Lorsque vous êtes prêt à ce que le service surveille et vous informe à propos de ce signal, il vous suffit de les compresser individuellement.
+**Supprimer/annuler la suppression d’un ticket** Quand une salle est inscrite, vous indiquez que vous souhaitez recevoir des notifications pour les modifications apportées à la télémétrie de la salle. Il arrive qu’un appareil ou périphérique particulier se trouve dans un état connu où vous ne souhaitez pas que des tickets ou des notifications soient générés. L’utilisation de la fonctionnalité Supprimer le ticket fait taire toute notification concernant ce signal particulier. Lorsque vous êtes prêt à ce que le service vous surveille et vous informe de ce signal, supprimez simplement le signal individuel.
 
-![Capture d’écran montrant les tickets supprimés d’une salle](../media/rooms-monitor-010.png)
+![Capture d’écran montrant les tickets supprimés de la salle](../media/rooms-monitor-010.png)
 
-**Extension de la catégorie de ticket actif** Sous chaque catégorie de ticket, un ticket actif ou le dernier ticket résolu s’affiche avec la gravité et la date de la dernière mise à jour du ticket. En cliquant sur la flèche d’extension, tous les tickets s’affichent avec un lien actif vers les informations sur les tickets.
+**Expansion des catégories de tickets actifs** Sous chaque catégorie de ticket, tout ticket actif ou le dernier ticket résolu s’affiche avec la gravité et la date de la dernière mise à jour du ticket. En cliquant sur la flèche d’expansion, tous les tickets s’affichent avec un lien actif vers les informations de ticket.
 
-Extension de la catégorie de ticket actif : sous chaque catégorie de ticket, un ticket actif ou le dernier ticket résolu s’affiche avec la gravité et la date de la dernière mise à jour du ticket. En cliquant sur la flèche d’extension, tous les tickets s’affichent avec un lien actif vers les informations sur les tickets.
+Extension de catégorie de ticket actif : sous chaque catégorie de ticket, tout ticket actif ou le dernier ticket résolu s’affiche avec la gravité et la date de la dernière mise à jour du ticket. En cliquant sur la flèche d’expansion, tous les tickets s’affichent avec un lien actif vers les informations de ticket.
 
 ![Capture d’écran montrant la catégorie de ticket résolue](../media/rooms-monitor-011.png)
 
 ## <a name="active-ticket-overview"></a>Ticket actif : Vue d’ensemble
 
-Chaque incident créé identifie le problème détecté et l’action corrective à mettre en place pour rétablir l’état de la salle. Le ticket généré véhicule une vue d’ensemble des incidents avec tous les messages générés par l’IA des services gérés, ainsi que l’équipe d’ingénierie du service Microsoft qui enquête sur le problème. Toutes les pièces jointes collectées pour la résolution des problèmes d’incident sont répertoriées. L’onglet Historique contient les dates à qui des problèmes ont été identifiés.
+Chaque incident créé identifie le problème détecté et l’action corrective à prendre pour rétablir l’état sain de la salle. Le ticket généré transmet une vue d’ensemble des incidents avec tous les messages générés par l’IA des services managés, ainsi que par l’équipe d’ingénierie des services Microsoft chargée d’examiner le problème. Toutes les pièces jointes collectées pour la résolution des problèmes d’incident sont répertoriées. L’onglet Historique indique les dates auxquelles les problèmes ont été identifiés.
 
-![Capture d’écran montrant une vue d’ensemble des tickets actifs](../media/rooms-monitor-012.png)
+![Capture d’écran montrant la vue d’ensemble des tickets actifs](../media/rooms-monitor-012.png)
 
-Ticket actif : Messages L’interface utilisateur des messages est le principal outil de communication pour interagir avec les ingénieurs du service Microsoft afin de corriger le problème identifié. Il est important de prendre réception des communications de Microsoft afin de vous assurer que nous vous fournissons le meilleur service possible. Si vous avez pris les mesures recommandées, répondez à cet incident en insliquant sur vos notes dans la zone Répondre et attribuez-les à Microsoft en cliquant sur Attribuer à Microsoft avant de publier.
-Il est également possible que la notification soit incorrecte sur la base de votre avis. Dans ce cas, faites part de vos commentaires et attribuez-le à Microsoft.
-Enfin, si vous souhaitez ajouter un commentaire afin de fournir davantage de contexte pour votre propre équipe ou pour Microsoft, publiez simplement le message sans avoir à mettre en place l’erreur « Affecter à Microsoft .
+Ticket actif : messages L’interface utilisateur des messages est le principal outil de communication pour interagir avec les ingénieurs du service Microsoft qui travaillent à résoudre le problème identifié. Il est important de reconnaître les communications de Microsoft pour vous assurer que nous vous fournissons le meilleur service possible. Si vous avez effectué les actions recommandées, répondez à cet incident avec vos notes dans la zone Répondre et affectez-la à Microsoft en cliquant sur « Affecter à Microsoft » avant de publier.
+Il est également possible que la notification soit incorrecte en fonction de votre révision. Dans ce cas, fournissez ce commentaire et affectez-le à Microsoft.
+Enfin, si vous souhaitez ajouter un commentaire pour fournir un contexte supplémentaire pour votre propre équipe ou pour l’équipe Microsoft, il vous suffit de publier le message sans activer « Affecter à Microsoft ».
 
-![Capture d’écran montrant les messages de ticket actif](../media/rooms-monitor-013.png)
+![Capture d’écran montrant les messages de ticket actifs](../media/rooms-monitor-013.png)
 
 
-Ticket actif : Pièces jointes Dans certains cas, les ingénieurs du service Microsoft ont besoin d’informations supplémentaires pour améliorer leur examen du problème. L’onglet Pièce jointe vous permet de télécharger des images, des vidéos ou des journaux qui sont demandés.
+Ticket actif : pièces jointes Dans certains cas, les ingénieurs du service Microsoft ont besoin d’informations supplémentaires pour approfondir leur investigation du problème. L’onglet Pièce jointe vous permet de charger des images, des vidéos ou des journaux d’activité qui sont demandés.
 
-![Capture d’écran montrant des attachmments de ticket actifs](../media/rooms-monitor-014.png)
+![Capture d’écran montrant les attachements de tickets actifs](../media/rooms-monitor-014.png)
 
-Ticket actif : Historique Chaque signal de salle est affecté à un seul numéro de ticket. Un périphérique ou un appareil de salle est persistant dans une salle et peut-être en problème au fil du temps. En conservant ces informations sous un ID de ticket unique spécifique, toutes les informations historiques sont conservées et peuvent être analysées pour des modèles de comportement. L’interface utilisateur Historique affiche toutes les actions de tickets créées et résolues pour ce signal.
+Ticket actif : Historique Chaque signal de salle n’a qu’un seul numéro de ticket qui lui est affecté exprès. Un périphérique ou un périphérique de salle persiste dans une pièce et peut rencontrer des problèmes au fil du temps. En conservant ces informations sous un ID de ticket unique spécifique, toutes les informations historiques sont conservées et peuvent être analysées pour les modèles de comportement. L’interface utilisateur de l’historique fournit une vue de toutes les actions de tickets créées et résolues pour ce signal.
 
 ![Capture d’écran montrant l’historique des tickets actifs](../media/rooms-monitor-015.png)
 
-Faq Comment les tickets dynamiques affectent-ils moi et les opérations de mes salles ?  
-Les clients voient la création de tickets et de corrections plus intelligents qui se développent au-delà d’un simple ticket de signal binaire. Par exemple, un Salle de réunion peut afficher jusqu’à trois écrans (Affichage 1, Affichage 2 &'affichage du panneau tactile MTR). Toutefois, seul un (un) signal d’affichage est saine ou défectueux. Grâce aux nouveaux tickets dynamiques, nous pouvons désormais générer des tickets propres à chaque signal d’affichage.
+FAQ Comment les tickets dynamiques ont-ils un impact sur moi et sur le fonctionnement de mes chambres ?  
+Les clients verront la création de tickets et de corrections plus intelligents qui s’étendent au-delà d’un simple ticket de signal binaire. Par exemple, il peut y avoir jusqu’à trois affichages dans une salle de réunion (affichage 1, affichage 2 & l’affichage du panneau tactile MTR). Toutefois, il n’y a qu’un seul signal d’affichage sain ou non sain. Avec les nouveaux tickets dynamiques, nous pouvons désormais générer des tickets uniques à chaque signal d’affichage.

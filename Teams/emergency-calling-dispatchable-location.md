@@ -10,6 +10,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -18,16 +19,16 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment Microsoft prend en charge les informations de localisation expédiables pour prendre en charge les appels d’urgence.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e45b5a18d8acd09714ebedd40a722bcbd152fc3c
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 9efa5f6e9ad5b5f2434efb95265f58c9a603fdd5
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823536"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272069"
 ---
 # <a name="emergency-addresses-for-remote-locations"></a>Adresses d’urgence pour les emplacements distants
 
-Cet article décrit la prise en charge par Microsoft des informations d’emplacement d’appel d’urgence 911 dans le États-Unis. Cette prise en charge garantit que les informations d’emplacement dispatchable les plus précises possibles sont fournies pour Teams utilisateurs effectuant des appels d’urgence. Quel que soit l’emplacement de l’appelant , sur place ou à partir de son domicile, les renseignements sur l’emplacement d’un appelant envoyés au point de réponse à la sécurité publique (PSAP) doivent être exacts.
+Cet article décrit la prise en charge par Microsoft des informations d’emplacement d’appel d’urgence 911 dans le États-Unis. Cette prise en charge garantit que les informations d’emplacement dispatchable les plus précises possibles sont fournies aux utilisateurs Teams effectuant des appels d’urgence. Quel que soit l’emplacement de l’appelant , sur place ou à partir de son domicile, les renseignements sur l’emplacement d’un appelant envoyés au point de réponse à la sécurité publique (PSAP) doivent être exacts.
 
 Cet article contient des informations sur la conformité de Microsoft avec la loi RAY BAUM pour les systèmes téléphoniques multilignes (MLTS). La Loi de RAY BAUM étend les exigences de la loi de Kari, qui sont entrées en vigueur au début de 2021. Pour plus d’informations sur la Loi de RAY BAUM et la loi de Kari, consultez [l’article Dispatchable Location for 911 Calls](https://www.fcc.gov/911-dispatchable-location) and [Multi-line Telephone Systems – Kari’s Law and RAY BAUM’s Act 911 Direct Dialing, Notification, and Dispatchable Location Requirements](https://www.fcc.gov/mlts-911-requirements). 
 
@@ -82,7 +83,7 @@ Le tableau suivant répertorie les types d’adresses d’urgence et les méthod
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez aux **stratégies d’urgence vocales** > .
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **stratégies d’urgence** **vocale** > .
 2. Sélectionnez **Ajouter**.
 3. Entrez un nom pour la stratégie d’appel d’urgence, par exemple « E911WFH ».
 4. Activez le **mode recherche d’emplacement externe**.
@@ -107,9 +108,9 @@ Grant-CsTeamsEmergencyCallingPolicy -PolicyName E911WFH -Identity user@contoso.c
 
 Après avoir activé cette fonctionnalité pour vos utilisateurs finaux, à partir de l’onglet Appels, l’utilisateur peut ajouter, modifier ou confirmer une adresse d’urgence et afficher l’adresse une fois celle-ci définie. Pour plus d’informations sur la façon dont les utilisateurs finaux peuvent définir des services de localisation, consultez [Work from Home Emergency 911 : activer les services de localisation](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live).
 
-Sur Windows, vous pouvez gérer le service d’emplacement Windows, et si les applications ont accès à l’emplacement, à l’aide d’une stratégie de groupe ou à l’aide de [la gestion des appareils mobiles (GPM).](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation)
+Sur Windows, vous pouvez gérer le service d’emplacement Windows et déterminer si les applications ont accès à l’emplacement, à l’aide d’une stratégie de groupe ou à l’aide de [la gestion des appareils mobiles (GPM).](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation)
 
-Pour plus d’informations sur Windows service d’emplacement, consultez [Windows service d’emplacement et la confidentialité](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088).
+Pour plus d’informations sur le service d’emplacement Windows, consultez [le service d’emplacement Windows et la confidentialité](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088).
 
 
 
@@ -117,11 +118,11 @@ Pour plus d’informations sur Windows service d’emplacement, consultez [Windo
 
 Tenez compte des points suivants :
 
-- L’expérience professionnelle à domicile décrite concerne Teams bureau sur Windows et Mac.
+- L’expérience de travail à domicile décrite est pour le bureau Teams sur Windows et Mac.
 
-- Teams téléphones ne prennent pas en charge l’expérience professionnelle à domicile.
+- Les téléphones Teams ne prennent pas en charge l’expérience professionnelle à domicile.
 
-- Teams mobile prend en charge la détection automatique de l’emplacement, mais pas l’expérience entrée par l’utilisateur décrite.
+- Teams Mobile prend en charge la détection automatique de l’emplacement, mais pas l’expérience entrée par l’utilisateur décrite.
 
 - Les paramètres de confidentialité peuvent entrer en conflit avec la détection automatique de l’emplacement : les systèmes Gestion des appareils mobiles peuvent être utilisés.
 

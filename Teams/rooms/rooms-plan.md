@@ -14,13 +14,14 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
-description: Cet article explique les considérations de planification pertinentes pour le déploiement de Salles Microsoft Teams, la prochaine génération de Skype Room Systems.
-ms.openlocfilehash: 392a14e3a72d60903db88b34d9b72152e1a8ec81
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+- Teams_ITAdmin_Rooms
+description: Cet article explique les considérations de planification pertinentes pour le déploiement de Salles Microsoft Teams, la prochaine génération de Systèmes de salle Skype.
+ms.openlocfilehash: fe973e7e6f3f6d84a4ddf1721ccc8c73fb5da928
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761366"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269749"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planifier Salles Microsoft Teams
 
@@ -48,7 +49,7 @@ Salles Microsoft Teams inclut les composants clés suivants pour offrir une exp�
 
 Vous pouvez acheter ces composants en tant que bundles préinstallés auprès d’un certain nombre de fournisseurs, ou vous pouvez acheter les composants pris en charge individuellement en suivant les [exigences décrites dans cet article](requirements.md).
 
-Vous pouvez déployer Salles Microsoft Teams avec des déploiements locaux Microsoft Teams ou Skype Entreprise.  Pour plus d’informations sur les licences nécessaires, consultez la [Teams Salle de réunion Mise à jour](rooms-licensing.md) des licences.
+Vous pouvez déployer Salles Microsoft Teams avec Microsoft Teams ou Skype Entreprise déploiements locaux.  Pour plus d’informations sur les licences nécessaires, consultez la [mise à jour des licences de salle de réunion Teams](rooms-licensing.md) .
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
@@ -66,18 +67,18 @@ Commencez par comprendre les salles de conférence dont vous disposez et envisag
 
 Vous devrez peut-être coordonner ces activités entre plusieurs équipes. Nous fournissons une vue générale des principales activités que vous devez couvrir, ainsi que des suggestions pour les équipes qui sont généralement impliquées dans le déploiement et la gestion des systèmes de salle de conférence, pour vous aider à déterminer avec qui vous devez travailler.
 
-| Tâche                       | Qui peut entreprendre la tâche           | Affecté à | Liens vers ce contenu |
+| Tâche                       | Qui peut entreprendre la tâche ?           | Affecté à | Liens vers ce contenu |
 |----------------------------|----------------------------------------|-------------|-----------------------|
-| Salles d’inventaire            | Facilities / AV team / IT Project Team |             | [Inventaire des salles et planification des fonctionnalités](#room-inventory-and-capability-planning) |
-| Fonctionnalités de planification          | Équipe de Project informatique                        |             | [Inventaire des salles et planification des fonctionnalités](#room-inventory-and-capability-planning) |
-| Sélection de l’appareil           | Équipe it Project / AV              |             | [Sélection de l’appareil](#device-selection) |
-| Marchés publics                | Équipe it Project / AV              |             | [Marchés publics](#procurement) |
-| Préparation du site             | Facilities / AV team / IT Project Team |             | [Préparation du site](rooms-deploy.md#site-readiness) |
-| Préparation du service          | Équipe de Project informatique                        |             | [Préparation du service](rooms-deploy.md#service-readiness) |
-| Configuration              | Équipe de Project informatique                        |             | [Configuration et déploiement](rooms-deploy.md#configuration-and-deployment) |
-| Déploiement                 | Facilities / AV team / IT Project Team |             | [Liste de vérification du déploiement](console.md#microsoft-teams-rooms-deployment-checklist) |
-| Adoption                   | Facilities / AV team / IT Project Team |             | [Adoption](#plan-for-adoption-and-change-management) |
-| Maintenance et opérations | Équipe AV / Équipe de Project informatique              |             | [Vue d’ensemble de la gestion](rooms-manage.md) |
+| Salles d’inventaire            | Installations / équipe AV / Équipe de projet informatique |             | [Inventaire des salles et planification des fonctionnalités](#room-inventory-and-capability-planning) |
+| Fonctionnalités de planification          | Équipe de projet informatique                        |             | [Inventaire des salles et planification des fonctionnalités](#room-inventory-and-capability-planning) |
+| Sélection de l’appareil           | Équipe de projet informatique /équipe av              |             | [Sélection de l’appareil](#device-selection) |
+| Marchés publics                | Équipe de projet informatique /équipe av              |             | [Marchés publics](#procurement) |
+| Préparation du site             | Installations / équipe AV / Équipe de projet informatique |             | [Préparation du site](rooms-deploy.md#site-readiness) |
+| Préparation du service          | Équipe de projet informatique                        |             | [Préparation du service](rooms-deploy.md#service-readiness) |
+| Configuration              | Équipe de projet informatique                        |             | [Configuration et déploiement](rooms-deploy.md#configuration-and-deployment) |
+| Déploiement                 | Installations / équipe AV / Équipe de projet informatique |             | [Liste de vérification du déploiement](console.md#microsoft-teams-rooms-deployment-checklist) |
+| Adoption                   | Installations / équipe AV / Équipe de projet informatique |             | [Adoption](#plan-for-adoption-and-change-management) |
+| Maintenance et opérations | Équipe AV / Équipe de projet informatique              |             | [Vue d’ensemble de la gestion](rooms-manage.md) |
 
 ## <a name="room-inventory-and-capability-planning"></a>Inventaire des salles et planification des fonctionnalités
 
@@ -106,7 +107,7 @@ Pour obtenir des conseils sur le type d’appareils système et périphériques 
 
 En fonction du fournisseur que vous préférez, utilisez les informations fournies dans l’article de configuration requise pour définir votre Salles Microsoft Teams et la configuration d’appareil périphérique prise en charge par type de salle, et utilisez-la comme modèle pour votre déploiement.
 
-**Pro Conseil** : certains types de salles peuvent ne pas être applicables pour votre déploiement.
+**Conseil pro** : certains types de salles peuvent ne pas être applicables pour votre déploiement.
 
 | &nbsp; | &nbsp; |
 |---|---|
@@ -122,7 +123,7 @@ _Exemple de modèle de déploiement Salles Microsoft Teams pour votre organisati
 | Moyenne 18' par 20'  | 6&ndash;12       |                              |                    |                 |
 | Grand 15' par 32'   | 12&ndash;16      |                              |                    |                 |
 
-**Pro Conseil :** c’est le moment idéal pour commencer à collecter des informations sur la solution Salles Microsoft Teams que vous avez choisie.
+**Conseil professionnel –** C’est le moment idéal pour commencer à collecter des informations sur la solution Salles Microsoft Teams que vous avez choisie.
 
 ## <a name="procurement"></a>Marchés publics
 
@@ -134,7 +135,7 @@ En fonction de l’échelle et de l’approche de votre déploiement, vous pouve
 
 | &nbsp; | &nbsp; |
 |---|---|
-| ![composants d’expédition.](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Allez-vous expédier les composants directement à un site ou à une installation de préproduction ?</li><li>Qui gérerez-vous l’installation intermédiaire (si vous décidez d’en utiliser une) ?</li></ul> |
+| ![composants d’expédition.](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Allez-vous expédier les composants directement à un site ou à une installation de préproduction ?</li><li>Qui gérera l’installation intermédiaire (si vous décidez d’en utiliser une) ?</li></ul> |
 | ![planifier les opérations.](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Planifier les opérations.</li><li>Planifier l’adoption et la gestion des changements.</li></ul> |
 
 ## <a name="plan-for-operations"></a>Planifier les opérations

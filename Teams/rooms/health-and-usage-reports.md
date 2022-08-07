@@ -11,19 +11,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Création de rapports de données de nœud pour l’intégrité et l’utilisation des rapports
 f1keywords: ''
-ms.openlocfilehash: f3c8ceec383d801c5992b0e8275cfe5360ef5bfe
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 87a04860a69799bf00492691dc24498076bd4924
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674816"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271429"
 ---
 # <a name="health-and-usage-reports"></a>Rapports d’intégrité et d’utilisation
 
@@ -141,7 +141,7 @@ L’utilisation est calculée à la fin de chaque jour à minuit (00:00) heure l
 
 ## <a name="usage-details-of-a-room"></a>Détails d’utilisation d’une salle
 
-Le fait de cliquer sur une salle dans l’affichage liste vous invite à utiliser un menu volant contenant des informations plus détaillées. Sous l’onglet Utilisation du menu volant se trouve un graphique montrant les heures d’utilisation des cinq derniers jours ouvrés. Pour chaque jour, il y a deux barres : le bleu représente l’heure de la réunion réservée ; purple représente l’heure planifiée des réunions Teams/Skype activées. En bas, les réservations moyennes de réunions et la durée des cinq derniers jours ouvrables sont calculées.
+Le fait de cliquer sur une salle dans l’affichage liste vous invite à utiliser un menu volant contenant des informations plus détaillées. Sous l’onglet Utilisation du menu volant se trouve un graphique montrant les heures d’utilisation des cinq derniers jours ouvrés. Pour chaque jour, il y a deux barres : le bleu représente l’heure de la réunion réservée ; violet représente l’heure planifiée des réunions Teams/Skype activées. En bas, les réservations moyennes de réunions et la durée des cinq derniers jours ouvrables sont calculées.
 
 <!--![A screenshot of utilization by hours per day](../media/health-and-usage-012.png)-->
 

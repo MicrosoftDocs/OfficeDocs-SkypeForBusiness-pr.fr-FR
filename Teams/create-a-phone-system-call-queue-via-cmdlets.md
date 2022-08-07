@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,16 +19,16 @@ ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- ms.teamsadmincenter.callqueues.overview"
+- ms.teamsadmincenter.callqueues.overview
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels via des applets de commande
-ms.openlocfilehash: 8d62d3648d35cc302e333c2efa552bb2094cb14d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: b2439bf6b71fc7381494030c326db88660fa5eaf
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674576"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268799"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>Créer une file d’attente d’appels via des applets de commande
 
@@ -51,9 +50,9 @@ ms.locfileid: "65674576"
 
 2. Vous disposez de droits d’administration de locataire
 3. Vous avez acheté Téléphonie Microsoft Teams
-4. Les agents, listes de distribution et canaux Teams mentionnés ci-dessous ont déjà été créés
+4. Les agents, listes de distribution et canaux Teams référencés ci-dessous ont déjà été créés
 
-Remarque : l’applet de commande Teams Channel utilisée ci-dessous fait partie de la préversion publique de Teams module PowerShell.  Pour plus d’informations, consultez [Installer Teams préversion publique de PowerShell](teams-powershell-install.md) et consultez également [Microsoft Teams notes de publication powershell](teams-powershell-release-notes.md).
+Remarque : l’applet de commande Canal Teams utilisée ci-dessous fait partie de la préversion publique du module Teams PowerShell.  Pour plus d’informations, consultez [La préversion publique d’Install Teams PowerShell](teams-powershell-install.md) et les [notes de publication de Microsoft Teams PowerShell](teams-powershell-release-notes.md).
 
 Les utilisateurs qui ont déjà installé le module MicrosoftTeams doivent `Update-Module MicrosoftTeams` s’assurer que la version la plus à jour est installée.
 
@@ -176,7 +175,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Créer et attribuer un compte de ressource
 
-Remarque : Téléphone numéro n’est pas obligatoire ici, car la file d’attente d’appels est terminée par un standard automatique
+Remarque : Le numéro de téléphone n’est pas obligatoire ici, car la file d’attente d’appels est terminée par un standard automatique
 
 - ID d’application
   - Standard automatique : ce933385-9390-45d1-9512-c8d228074e07
@@ -240,7 +239,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Créer et attribuer un compte de ressource
 
-Remarque : Téléphone numéro n’est pas obligatoire ici, car la file d’attente d’appels est frontale par un standard automatique
+Remarque : Le numéro de téléphone n’est pas obligatoire ici, car la file d’attente d’appels est frontale par un standard automatique
 
 - ID d’application
   - Standard automatique : ce933385-9390-45d1-9512-c8d228074e07
@@ -308,7 +307,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Créer et attribuer un compte de ressource
 
-**Remarque** : Téléphone numéro n’est pas obligatoire ici, car la file d’attente d’appels est frontale par un standard automatique
+**Remarque** : Le numéro de téléphone n’est pas obligatoire ici, car la file d’attente d’appels est frontale par un standard automatique
 
 - ID d’application
   - Standard automatique : ce933385-9390-45d1-9512-c8d228074e07

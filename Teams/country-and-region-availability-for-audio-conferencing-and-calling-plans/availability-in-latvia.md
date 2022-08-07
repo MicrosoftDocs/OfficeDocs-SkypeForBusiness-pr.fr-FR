@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Microsoft 365 et Office 365 services disponibles Skype Entreprise et Microsoft Teams pour la Lettonie.
-ms.openlocfilehash: dac4a1294020414e01c901d2593180d16beacfb3
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: Services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour la Lettonie.
+ms.openlocfilehash: d67549ca300caa4be08825278e6dacf0320c3c26
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733045"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271859"
 ---
 # <a name="availability-in-latvia"></a>Disponibilité en Lettonie
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Microsoft Teams pour la Lettonie.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour la Lettonie.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -59,20 +59,20 @@ Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Mi
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les forfaits d'appels. |Quatre options de forfait sont disponibles par mois civil : <ul><li>Forfait d’appels nationaux de 120 minutes </li><li>Forfait d’appels nationaux de 240 minutes</li></li><li>Forfait d’appels nationaux de 1200 minutes </li></li><li>Offre d’appels nationaux et internationaux :  1200 minutes d’appels nationaux ou 600 minutes d’appels internationaux (suivant ce qui est atteint en premier au cours du mois)</li></li></ul>|
+|Les forfaits d'appels sont-ils disponibles à l'achat ?  |Oui          |   
+|Minutes disponibles pour les forfaits d'appels.    |Cinq options de plan sont disponibles par mois calendaire : <ul><li>Forfait d’appels avec paiement à l’utilisation </li><li> Forfait d’appels nationaux de 120 minutes </li><li> Forfait d’appels nationaux de 240 minutes </li><li> Forfait d’appels nationaux de 1200 minutes </li><li> Forfait d’appels internationaux : 1 200 minutes d’appels nationaux ou 600 minutes d’appels internationaux (selon le premier jour du mois calendaire)</li></ul>|
 |Est-il possible de passer des appels sortants vers les numéros premium ?  <br/> | Ceci n’est pas pris en charge pour le moment. <br/> |
-|Est-il possible de passer des appels sortants ?  <br/> | [Jusqu’à 196 pays ou régions.](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/> |
+|Est-il possible de passer des appels sortants ?  <br/> | [À 196 pays ou régions](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Riiga[(sur demande)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Riiga ([sur demande](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
    
-Pour obtenir des numéros de téléphone gratuits et gratuits pour l’audioconférence, les attendants automatiques et les files d’attente d’appels, consultez Obtenir des numéros de téléphone de service pour les Skype Entreprise et [Microsoft Teams.](../getting-service-phone-numbers.md)
+Pour obtenir des numéros de téléphone gratuits et payants pour l’audioconférence, les standards automatiques et les files d’attente d’appels, consultez [Obtention des numéros de téléphone du service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Crédits de communication
 

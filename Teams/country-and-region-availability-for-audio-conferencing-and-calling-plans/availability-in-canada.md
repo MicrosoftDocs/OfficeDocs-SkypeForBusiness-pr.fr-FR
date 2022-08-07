@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Canada.
-ms.openlocfilehash: 034a9655afad69b90c9195dad5f7f7bceeac4cba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Canada.
+ms.openlocfilehash: c8648fc1eda7bdcc38b87611d11ec5263a89dfb8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593138"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270509"
 ---
 # <a name="availability-in-canada"></a>Disponibilité au Canada
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Canada.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Canada.
 
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -59,13 +59,13 @@ Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Micro
 
 | **Fonctionnalité**                                        | **Détails**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/>    | Oui  <br/>                                                                                                                                                                                                                                                                  |
-| Minutes disponibles pour les forfaits d'appels.               | Quatre options de forfait sont disponibles par mois civil : <ul><li>Forfait d'appels nationaux de 120 minutes </li><li>Forfait d'appels nationaux de 240 minutes</li></li><li>Forfait d'appels nationaux de 3000 minutes</li></li><li>Offre d’appels nationaux et internationaux : 3000 minutes d’appels nationaux ou 600 minutes d’appels internationaux (suivant ce qui est atteint en premier au cours du mois)</li>|
+|Les forfaits d'appels sont-ils disponibles à l'achat ?  |Oui          |   
+|Minutes disponibles pour les forfaits d'appels.    |Cinq options de plan sont disponibles par mois calendaire : <ul><li>Forfait d’appels avec paiement à l’utilisation </li><li> Forfait d’appels nationaux de 120 minutes </li><li> Forfait d’appels nationaux de 240 minutes </li><li> Forfait d’appels nationaux de 1200 minutes </li><li> Forfait d’appels internationaux : 1 200 minutes d’appels nationaux ou 600 minutes d’appels internationaux (selon le premier jour du mois calendaire)</li></ul>|
 | Est-il possible de passer des appels sortants vers les numéros premium ?  <br/> | Ceci n’est pas pris en charge pour le moment.<br/>                                                                                                                                                                                                                                            |
 | Est-il possible de passer des appels sortants ?  <br/>                 | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                  |
 
 > [!Note]
-> Lorsqu’un utilisateur d’un plan d’appels (national ou national et international) aux États-Unis compose un numéro de téléphone au Canada, il est traité comme un appel national. C’est également le cas lorsqu’un utilisateur au Canada compose un numéro de téléphone aux États-Unis. Toutefois, si vous utilisez également des stratégies de forfait d’appels pour limiter les appels sortants des utilisateurs à « nationaux » uniquement, un utilisateur américain ne pourra pas appeler le Canada et de la même manière, un utilisateur du Canada ne pourra pas appeler un utilisateur américain.
+> Lorsqu’un utilisateur d’un forfait d’appels (national ou national et international) aux États-Unis compose un numéro de téléphone au Canada, il est traité comme un appel national. C’est également le cas lorsqu’un utilisateur au Canada compose un numéro de téléphone aux États-Unis. Toutefois, si vous utilisez également des stratégies de plan d’appel pour limiter la numérotation des utilisateurs à « nationale » uniquement, un utilisateur des États-Unis ne pourra pas appeler le Canada et, de même, un utilisateur canadien ne pourra pas appeler un utilisateur américain.
 
 > [!Note]
 > Les appels vers les États-Unis sont considérés comme des appels nationaux.
@@ -88,7 +88,7 @@ Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Micro
 
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

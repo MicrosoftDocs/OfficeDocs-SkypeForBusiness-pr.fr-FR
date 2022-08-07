@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection:
-- M365-voice
 description: Découvrez comment utiliser le rapport d’utilisation du RTC Teams dans le Centre d’administration Microsoft Teams pour obtenir une vue d’ensemble de l’utilisation des appels et de l’audioconférence dans votre organisation.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15c14e05c1f283971b4882cf3f6e8d3758a2d8ba
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 1539f679225334f71855300a54c4fba950ddd8f8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023767"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267629"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Rapport d’utilisation du RTC Microsoft Teams
 
@@ -136,7 +136,7 @@ La première ligne du fichier CSV contient des noms de colonnes. Toutes les date
 > | 2 | ID de conférence | `nvarchar(64)` | ID de la conférence audio |
 > | 3 | Emplacement de l’utilisateur | `nvarchar(2)` | Code de pays de l’utilisateur, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 4 | AAD ObjectId | `uniqueidentifier` | Appel de l’ID de l’utilisateur dans Azure Active Directory.<br/> Ces informations utilisateur et d’autres seront null/vides pour les types d’appels de bot (ucap_in, ucap_out) |
-> | 5 | UPN | `nvarchar(128)` | UserPrincipalName (nom de connexion) dans Azure Active Directory.<br/>Il s’agit généralement de l’adresse SIP de l’utilisateur et peut être identique à l’adresse de messagerie de l’utilisateur. |
+> | 5 | Upn | `nvarchar(128)` | UserPrincipalName (nom de connexion) dans Azure Active Directory.<br/>Il s’agit généralement de l’adresse SIP de l’utilisateur et peut être identique à l’adresse de messagerie de l’utilisateur. |
 > | 6 | Nom d’affichage de l’utilisateur | `nvarchar(128)` | Nom d’affichage de l’utilisateur |
 > | 7 | ID de l’appelant | `nvarchar(128)` | Numéro qui a reçu l’appel pour les appels entrants ou numéro composé pour les appels sortants. [Format E.164](https://en.wikipedia.org/wiki/E.164) |
 > | 8 | Type d'appel | `nvarchar(32)` | Indique si l’appel était un appel sortant ou entrant RTC et le type d’appel tel qu’un appel passé par un utilisateur ou une conférence audio |
@@ -161,7 +161,7 @@ Vous pouvez exporter des données jusqu’à cinq mois (150 jours) à partir de 
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | Correlationid | `uniqueidentifier` | Identificateur d’appel. Plusieurs jambes du même appel peuvent partager le même CorrelationId |
 > | 1 | AAD ObjectId | `uniqueidentifier` | Appel de l’ID de l’utilisateur dans Azure Active Directory.<br/> Ces informations utilisateur et d’autres peuvent être null/vides pour les types d’appels de bot |
-> | 2 | UPN | `nvarchar(128)` | UserPrincipalName (nom de connexion, Azure Active Directory) de l’utilisateur ou du bot qui a effectué ou reçu l’appel.<br/>Il s’agit généralement de l’adresse SIP de l’utilisateur et peut être identique à l’adresse de messagerie de l’utilisateur. |
+> | 2 | Upn | `nvarchar(128)` | UserPrincipalName (nom de connexion, Azure Active Directory) de l’utilisateur ou du bot qui a effectué ou reçu l’appel.<br/>Il s’agit généralement de l’adresse SIP de l’utilisateur et peut être identique à l’adresse de messagerie de l’utilisateur. |
 > | 3 | Nom d’affichage | `nvarchar(128)` | Nom d’un utilisateur ou d’un bot appelant (par exemple, File d’attente d’appels ou Standard automatique) défini dans Centre d'administration Microsoft 365 |
 > | 4 | Pays de l’utilisateur | `nvarchar(2)` | Code de pays de l’utilisateur, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 5 | Heure d’invitation | `datetimeoffset` | Lorsque l’invite initiale envoie un appel sortant à partir d’un utilisateur ou d’un bot Teams vers le SBC, ou lorsqu’elle est reçue en entrant vers Teams ou un appel de bot par le composant proxy SIP du routage direct à partir du SBC |
@@ -183,7 +183,7 @@ Vous pouvez exporter des données jusqu’à cinq mois (150 jours) à partir de 
 > | 21 | ID de corrélation partagé | `uniqueidentifier` | Indique que deux appels ou plus sont liés |
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Analyses et rapports Teams](teams-reporting-reference.md)
 - [Rapport d’appel RTC dans Microsoft Graph](/graph/api/callrecords-callrecord-getpstncalls?view=graph-rest-1.0&tabs=http)

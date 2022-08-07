@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 ms.reviewer: filippse
 search.appverid: MET150
@@ -18,36 +17,36 @@ description: Notification d’appel de routage direct
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 4af5d65a3d92fbe104b7c998cd8045b6fb52c653
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: 4aa8e6a6f75141f7858e2342b65fb59d09326c33
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457184"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268429"
 ---
 # <a name="manage-call-notifications"></a>Gérer les notifications d’appels
 
-Cet article décrit comment gérer les notifications d’appel pour vos utilisateurs du routage direct. Vous pouvez configurer les points de terminaison d’appel sur un Teams Exchange et un système de branche privé (PBX) ou un contrôleur de session en bordure (SBC) tiers. Cette configuration est utile, par exemple, si vous voulez envoyer un appel vers les téléphones portables et de bureau d’un utilisateur en même temps.   
+Cet article explique comment gérer les notifications d’appel pour vos utilisateurs de routage direct. Vous pouvez configurer des points de terminaison d’appel à la fois pour Teams et pour un contrôleur SBC (Private Branch Exchange) ou SBC (Session Border Controller) tiers. Cette configuration est utile, par exemple, si vous souhaitez envoyer un appel aux téléphones mobiles et de bureau d’un utilisateur en même temps.   
 
 Dans le diagramme suivant, l’utilisateur Irena a deux points de terminaison :
 
-- Un point Teams de terminaison
+- Un point de terminaison Teams
 - Un téléphone SIP connecté à un SBC tiers
 
-Lorsqu’un appel arrive, le SBC dus au routage direct et au SBC tiers.
+Lorsqu’un appel arrive, le SBC duplique l’appel entre le routage direct et le SBC tiers.
 
 
-![Diagramme montrant des points de Teams point de terminaison](media/direct-routing-call-notification-1.png)
+![Diagramme montrant les points de terminaison Teams dupliqués.](media/direct-routing-call-notification-1.png)
 
-Si l’appel est accepté sur la fork 2 (par le SBC tiers), Teams génère une notification « Appel manqué ».  
+Si l’appel est accepté sur fork 2 (par le SBC tiers), Teams génère une notification « Appel manqué ».  
 
-Vous pouvez empêcher la notification « Appel manqué » en configurant le SBC de manière à envoyer une annulation dans la fork 1 comme suit :
+Vous pouvez empêcher la notification « Appel manqué » en configurant le SBC pour envoyer une commande Cancel on Fork 1 comme suit :
 
-RAISON : SIP; cause=200;texte"Appel effectué ailleurs » 
+RAISON : SIP; cause=200;text"Call completed elsewhere » 
 
-L’appel n’est pas enregistré dans les enregistrements des détails des Teams Système téléphonique’un appel réussi. L’appel sera inscrit comme une « tentative » avec le code SIP final « 487 », le sous-code Microsoft final « 540200 » et la phrase du code SIP final « Appel effectué ailleurs ».  (Pour afficher les enregistrements des détails des appels,  ->  sélectionnez Teams d’administration > Rapports d’analyse et de **reportsusage**, puis sélectionnez **Utilisation PSTN**.)
+L’appel ne sera pas inscrit dans les enregistrements détaillés de l’appel du système téléphonique Teams en tant qu’appel réussi. L’appel sera inscrit en tant que « Tentative » avec le code SIP final « 487 », le sous-code Microsoft final « 540200 » et l’expression de code SIP finale « Appel terminé ailleurs ».  (Pour afficher les enregistrements des détails de l’appel, accédez au centre Administration Teams -> **Rapports d’utilisation d’analytique et de rapports** -> , puis sélectionnez **Utilisation RTC**.)
 
 
-Le diagramme ci-dessous illustre le flux SIP de la fork 1, explique le flux d’appels et la raison attendue dans le message Annuler. 
+Le diagramme ci-dessous illustre l’échelle SIP pour fork 1, explique le flux d’appel et la raison attendue dans le message Cancel. 
 
-![Le diagramme affiche des points de Teams point de terminaison dus.](media/direct-routing-call-notification-2.png)
+![Diagramme montrant les points de terminaison Teams dupliqués.](media/direct-routing-call-notification-2.png)

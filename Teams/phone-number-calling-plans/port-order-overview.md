@@ -18,12 +18,15 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenez une vue d’ensemble des commandes de port et de la façon de transférer des numéros de téléphone de votre fournisseur de services vers Teams.
-ms.openlocfilehash: 21a91833956e5d24f0bb6e5895232517f39d8c6a
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.collection:
+- M365-voice
+- m365initiative-voice
+ms.openlocfilehash: e9f267bfdb56558245fecefe240f2c09c07d4783
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789395"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270869"
 ---
 # <a name="whats-a-port-order"></a>Qu’est-ce qu’une demande de transfert ?
 
@@ -174,7 +177,7 @@ Voici les erreurs le plus fréquentes commises lors des transferts de numéros. 
 
 - Assurez-vous que votre service est actif. Le fait de figer le compte empêche la modification des opérateurs téléphoniques sur le compte. La personne autorisée à apporter des modifications au compte doit envoyer une commande au transporteur actuel pour supprimer le gel. Ce processus peut prendre une à trois semaines en fonction du transporteur.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Quel est le statut de vos demandes de transfert ?](port-order-status.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

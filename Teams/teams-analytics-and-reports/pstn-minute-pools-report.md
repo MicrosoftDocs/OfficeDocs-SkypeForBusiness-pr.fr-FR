@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection:
-- M365-voice
 description: Comment utiliser le rapport des pools de minutes RTC Teams dans le Centre d’administration Microsoft Teams pour afficher les minutes consommées au sein de votre organisation au cours du mois en cours.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3aafc45cebab24f5524a4d3120dd0c03083d0c6c
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.collection:
+- M365-voice
+ms.openlocfilehash: d3e2b4d7d0aba44929b7094c4146f9f69db0e8eb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794352"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267369"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Rapport des pools de minutes RTC Microsoft Teams
 
@@ -46,6 +46,6 @@ Dans le volet de navigation gauche du Centre d’administration Microsoft Teams,
 |**6**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau.|
 |**7**   |Sélectionnez **Plein écran** pour afficher le rapport en mode plein écran.|
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Analyses et rapports Teams](teams-reporting-reference.md)

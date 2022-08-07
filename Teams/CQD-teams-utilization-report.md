@@ -9,25 +9,24 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-voice
-- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Utilisez les rapports Power BI d’utilisation de Teams pour accéder aux données du tableau de bord de qualité des appels (CQD) Microsoft Teams afin de suivre l’utilisation de Microsoft Teams dans votre organisation.
-ms.openlocfilehash: 6e96f9dd06f872f2907d04aa335e2af2d7a75f2b
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: bd579fa3f57c6e3b50a363eb77523f577c750efb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790339"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270689"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Afficher l’utilisation de Microsoft Teams dans Power BI à l’aide de données CQD
 
-Nouveau en mars 2020, nous avons ajouté un rapport d’utilisation Teams à nos modèles de [requête Power BI téléchargeables pour CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+Le rapport d’utilisation teams est disponible dans le cadre de nos [modèles de requête Power BI téléchargeables pour CQD](https://www.microsoft.com/download/details.aspx?id=102291). 
 
-Ces nouveaux rapports d’utilisation de Teams vous permettent de voir comment (et combien) vos utilisateurs utilisent Microsoft Teams en accédant aux données du tableau de bord de qualité des appels (CQD) Teams. Ces rapports sont destinés à être un emplacement centralisé auquel les administrateurs et les dirigeants d’entreprise peuvent accéder rapidement pour ces données.
+Ce rapport vous permet de voir comment (et combien) vos utilisateurs utilisent Microsoft Teams en accédant aux données du tableau de bord de qualité des appels (CQD) Teams. Ces rapports sont destinés à être un emplacement centralisé auquel les administrateurs et les dirigeants d’entreprise peuvent accéder rapidement pour ces données. Notez que nous vous conseillons de [ne pas nous appuyer sur ces données pour des nombres concrets en raison de la nature des données de télémétrie de qualité des appels](CQD-frequently-asked-questions.md#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that).
 
 Le rapport Power BI d’utilisation de Teams se compose de deux rapports principaux : **[Le résumé du nombre d’appels](#call-count-summary-report)** et le **[résumé des minutes audio](#audio-minutes-summary-report)**. [L’utilisation quotidienne](#daily-usage), [les détails audio régionaux](#regional-audio-details), [les détails de conférence et les](#conference-details) rapports de [liste](#user-list) d’utilisateurs entrent en jeu lorsqu’un utilisateur tire parti des rapports d’exploration, indiqués dans les descriptions ci-dessous.
 
@@ -157,7 +156,7 @@ Le haut à droite du graphique affiche le nombre d’appels effectués par chaqu
 Le tableau inférieur fournit des informations détaillées sur les sessions auxquelles chaque utilisateur a participé au cours de cette heure. La colonne Type d’échec est utile pour déterminer ce qui a provoqué la suppression d’un appel. Les colonnes Capture et Render Device sont utiles pour identifier la raison pour laquelle un appel a été signalé comme ayant une qualité médiocre.
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

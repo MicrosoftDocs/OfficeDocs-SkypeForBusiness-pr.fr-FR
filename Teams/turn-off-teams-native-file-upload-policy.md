@@ -1,5 +1,5 @@
 ---
-title: Désactiver Teams stratégie de Télécharger fichier natif
+title: Désactiver la stratégie de chargement de fichiers natifs Teams
 author: danieasmith
 ms.author: danismith
 manager: serdars
@@ -10,48 +10,47 @@ search.appverid: ''
 description: Découvrez comment créer, définir, affecter et ajuster la stratégie de fichiers Teams à l’aide de PowerShell.
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b6089e93b4754fa35edaa9befb5cfa6bb176238
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 1993371099d0712d21106987f21575e85e181ad7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681905"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268926"
 ---
-# <a name="turn-off-teams-native-file-upload-policy"></a>Désactiver Teams stratégie de Télécharger fichier natif
+# <a name="turn-off-teams-native-file-upload-policy"></a>Désactiver la stratégie de chargement de fichiers natifs Teams
 
 Microsoft Teams utilise OneDrive et SharePoint pour stocker et partager du contenu, mais certaines organisations et utilisateurs peuvent préférer utiliser des fournisseurs de stockage tiers.  
 
-Si votre organisation choisit un tiers pour le stockage de contenu, vous devez désactiver le `NativeFileEntryPoints` paramètre dans la stratégie Teams Files. Ce paramètre est activé par défaut, qui affiche l’option permettant de charger du contenu à partir d’OneDrive ou de SharePoint vers Teams conversations ou canaux.
+Si votre organisation choisit un tiers pour le stockage de contenu, vous devez désactiver le `NativeFileEntryPoints` paramètre dans la stratégie Fichiers Teams. Ce paramètre est activé par défaut, qui affiche l’option permettant de charger du contenu à partir de OneDrive ou SharePoint vers des conversations ou des canaux Teams.
 
 Cet article vous aidera à créer, définir, affecter et supprimer le paramètre à l’aide `NativeFileEntryPoints` de PowerShell.
 
 >[!NOTE]
->Lorsque la stratégie de fichiers Teams est désactivée, les utilisateurs ne voient pas de points d’accès pour OneDrive et SharePoint dans Teams, mais la création de nouvelles équipes et canaux continue de déclencher la génération de bibliothèques SharePoint correspondantes.
+>Lorsque la stratégie Fichiers Teams est désactivée, les utilisateurs ne voient pas les points d’accès pour OneDrive et SharePoint dans Teams, mais la création de nouvelles équipes et canaux continue de déclencher la génération de bibliothèques SharePoint correspondantes.
 
-## <a name="prepare-to-update-the-teams-files-policy"></a>Préparer la mise à jour de la stratégie fichiers Teams
+## <a name="prepare-to-update-the-teams-files-policy"></a>Préparer la mise à jour de la stratégie Fichiers Teams
 
 ### <a name="set-up-microsoft-powershell"></a>Configurer Microsoft PowerShell
 
-Actuellement, cette stratégie ne peut pas être modifiée dans le centre d’administration Teams. L’administrateur client Microsoft 365 de votre organisation devra apporter les modifications à l’aide des applets de commande PowerShell détaillées plus loin dans cet article.
+Actuellement, cette stratégie ne peut pas être modifiée dans le Centre d’administration Teams. L’administrateur client Microsoft 365 de votre organisation devra apporter les modifications à l’aide des applets de commande PowerShell détaillées plus loin dans cet article.
 
-Découvrez comment installer le module PowerShell Teams à l’aide de PowerShell Gallery en lisant [Installer Microsoft Teams module PowerShell](teams-powershell-install.md).
+Découvrez comment installer le module PowerShell Teams à l’aide de PowerShell Gallery en lisant [Installer le module Microsoft Teams PowerShell](teams-powershell-install.md).
 
-Pour installer ou télécharger le module PowerShell Teams, consultez [PowerShell Gallery pour Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0).
+Pour installer ou télécharger le module Teams PowerShell, consultez [PowerShell Gallery pour Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0).
 
-Pour plus d’informations sur la configuration de PowerShell pour la gestion Teams, consultez [Gérer les Teams avec Microsoft Teams PowerShell](teams-powershell-managing-teams.md).
+Pour plus d’informations sur la configuration de PowerShell pour la gestion teams, consultez [Gérer Teams avec Microsoft Teams PowerShell](teams-powershell-managing-teams.md).
 
-### <a name="allow-third-party-apps-in-teams-admin-center"></a>Autoriser les applications tierces dans Teams Administration Center
+### <a name="allow-third-party-apps-in-teams-admin-center"></a>Autoriser les applications tierces dans le Centre de Administration Teams
 
-Cette étape n’est pas nécessaire pour modifier la stratégie de fichiers Teams, mais elle est requise lorsque vous êtes prêt à intégrer votre fournisseur de stockage tiers dans l’expérience Teams de vos utilisateurs.
+Cette étape n’est pas nécessaire pour modifier la stratégie Fichiers Teams, mais elle est requise lorsque vous êtes prêt à intégrer votre fournisseur de stockage tiers dans l’expérience Teams de vos utilisateurs.
 
-Votre administrateur de locataire Microsoft 365 doit activer la stratégie « Autoriser les applications tierces » dans le centre d’administration Teams.
+Votre administrateur client Microsoft 365 doit activer la stratégie « Autoriser les applications tierces » dans le Centre d’administration Teams.
 
-Pour savoir comment autoriser des applications tierces ou personnalisées, consultez Gérer les paramètres des applications à l’échelle de l’organisation dans [Gérer vos applications dans le centre d’administration Microsoft Teams](/microsoftteams/manage-apps#manage-org-wide-app-settings).
+Pour savoir comment autoriser des applications tierces ou personnalisées, consultez Gérer les paramètres des applications à l’échelle de l’organisation dans [Gérer vos applications dans le Centre d’administration Microsoft Teams](/microsoftteams/manage-apps#manage-org-wide-app-settings).
 
 ## <a name="turn-off-nativefileentrypoints-for-your-entire-tenant"></a>Désactiver NativeFileEntryPoints pour l’ensemble de votre locataire
 
@@ -67,7 +66,7 @@ Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
 
 ### <a name="check-the-status-of-your-tenant"></a>Vérifier l’état de votre locataire  
 
-Pour afficher l’état actuel de la stratégie fichiers Teams de votre locataire, utilisez l’applet de `Get-CsTeamsFilesPolicy` commande.
+Pour afficher l’état actuel de la stratégie Fichiers Teams de votre locataire, utilisez l’applet de `Get-CsTeamsFilesPolicy` commande.
 
 ```powershell
 Get-CsTeamsFilesPolicy -Identity Global
@@ -87,7 +86,7 @@ Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
 
 ### <a name="remove-the-policy-for-your-users"></a>Supprimer la stratégie pour vos utilisateurs
 
-Pour supprimer la stratégie de fichiers Teams pour vos utilisateurs, utilisez l’applet de `Remove-CsTeamsFilesPolicy` commande.
+Pour supprimer la stratégie Fichiers Teams pour vos utilisateurs, utilisez l’applet de `Remove-CsTeamsFilesPolicy` commande.
 
 ```powershell
 Remove-CsTeamsFilesPolicy -Identity Global
@@ -95,7 +94,7 @@ Remove-CsTeamsFilesPolicy -Identity Global
 
 ## <a name="turn-off-nativefileentrypoints-for-specific-users"></a>Désactiver NativeFileEntryPoints pour des utilisateurs spécifiques
 
-Vous pouvez également mettre à jour la stratégie Teams Files pour des utilisateurs spécifiques en créant une nouvelle chaîne de stratégie `-Identity` Teams Files et en affectant la stratégie nouvellement créée aux utilisateurs.
+Vous pouvez également mettre à jour la stratégie Fichiers Teams pour des utilisateurs spécifiques en créant une chaîne de stratégie `-Identity` Fichiers Teams et en affectant la stratégie nouvellement créée aux utilisateurs.
 
 ### <a name="sample-powershell-policy-cmdlet-for-specific-users"></a>Exemple d’applet de commande de stratégie PowerShell pour des utilisateurs spécifiques
 
@@ -117,7 +116,7 @@ Grant-CsTeamsFilesPolicy  -identity "user email id" -PolicyName UserPolicy
 
 ### <a name="update-the-policy"></a>Mettre à jour la stratégie
 
-Si vous devez modifier le paramètre de la nouvelle stratégie de fichiers Teams`UserPolicy`, utilisez l’applet de `Set-CsTeamsFilePolicy` commande.
+Si vous devez modifier le paramètre de la nouvelle stratégie de fichiers `UserPolicy`Teams, utilisez l’applet de `Set-CsTeamsFilePolicy` commande.
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled
@@ -125,7 +124,7 @@ Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled
 
 ### <a name="remove-the-policy-for-the-complete-list-of-users"></a>Supprimer la stratégie pour la liste complète des utilisateurs
 
-Pour supprimer la stratégie de tous les utilisateurs affectés à la stratégie Teams Files`UserPolicy`, utilisez l’applet `Remove-CsTeamsFilesPolicy` de commande.
+Pour supprimer la stratégie de tous les utilisateurs affectés à la stratégie Fichiers `UserPolicy`Teams, utilisez l’applet de `Remove-CsTeamsFilesPolicy` commande.
 
 ```powershell
 Remove-CsTeamsFilesPolicy -Identity UserPolicy

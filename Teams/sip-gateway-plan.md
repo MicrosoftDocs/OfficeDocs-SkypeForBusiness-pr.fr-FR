@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bbb03bcf092d1379065ced1d95e3aa61980febcc
-ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+ms.openlocfilehash: adcaee64e2a95d41229afe580624c6798547cb85
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "66838999"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271699"
 ---
 # <a name="plan-for-sip-gateway"></a>Planifier la passerelle SIP
 
@@ -48,6 +48,7 @@ La passerelle SIP connecte des appareils SIP compatibles à Teams pour aider vos
 - **Réunions Teams :** Un utilisateur d’appareil SIP peut rejoindre une réunion Teams en composant le numéro d’accès à la réunion. Les participants à la réunion peuvent ajouter un utilisateur d’appareil SIP à la réunion en composant le numéro de téléphone de l’utilisateur ou en ajoutant simplement un participant en cliquant sur « Demander à rejoindre » pour alerter également l’appareil SIP de l’utilisateur. Les utilisateurs invités d’une autre organisation peuvent être ajoutés à une réunion Teams par un participant qui compose le numéro d’un utilisateur invité pour inclure cet invité.
 - **Transferts d’appels :** Les utilisateurs d’appareils SIP peuvent transférer des appels. La passerelle SIP prend en charge les transferts aveugles et consultatifs.
 - **Transfert d’appel local :** Un utilisateur d’appareil SIP peut définir des règles de transfert (toujours, au délai d’expiration et occupé) pour l’appareil. Si l’appareil est connecté à la passerelle SIP, l’appel est redirigé vers l’adresse cible en fonction de la règle définie par l’utilisateur de l’appareil. Pour que le transfert d’appel local fonctionne, l’administrateur doit définir l’attribut `AllowCallRedirect` sur `Set-CsTeamsCallingPolicy` `Enabled`.
+- **Appareils obsolètes hors-bord :** La passerelle SIP prend en charge la désintégration automatique des appareils obsolètes approvisionnés pour un locataire. Les appareils appairés (connectés) seront désintégrés s’ils ne sont pas connectés pendant 30 jours et les appareils non appariés (déconnectés) après 14 jours. Un appareil désintégré peut être réintégré après une réinitialisation d’usine.
 
 ## <a name="requirements-to-use-sip-gateway"></a>Configuration requise pour utiliser la passerelle SIP
 
@@ -84,23 +85,27 @@ Si vous disposez d’un appareil 3PIP ou SIP, vous devez disposer des éléments
 |**Poly**  |           |            |           |L’appareil redémarre automatiquement et installe le microprogramme sélectionné.|   |
 |          |Trio 8500  |5.9.5.3182  |7.1.1.0997 |   |   |
 |          |Trio 8800  |5.9.5.3182  |7.1.1.0997 |   |   |
-|          |VVX150     |5.9.5       |6.3.1.8427 |   |   |
-|          |VVX201     |5.9.5       |6.3.1.8427 |   |   |
-|          |VVX250     |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX150<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX201<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX250<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX300     |5.9.5       |5.9.6.2327 |   |   |
-|          |VVX301     |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX301<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX310     |5.9.5       |5.9.6.2327 |   |   |
-|          |VVX311     |5.9.5       |6.3.1.8427 |   |   |
-|          |VVX350     |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX311<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX350<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX400     |5.9.5       |5.9.6.2327 |   |   |
-|          |VVX401     |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX401<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX410     |5.9.5       |5.9.6.2327 |   |   |
-|          |VVX411     |5.9.5       |6.3.1.8427 |   |   |
-|          |VVX450     |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX411<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX450<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX500     |5.9.5       |5.9.6.2327 |   |   |
-|          |VVX501     |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX501<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX600     |5.9.5       |5.9.6.2327 |   |   |
-|          |VVX601     |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX601<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |Rove B2    |8.0.3.0009  |8.0.3.0009 |   |   |
+|          |Rove B4    |8.0.3.0009  |8.0.3.0009 |   |   |
+|          |Rove 30    |8.0.3.0009  |8.0.3.0009 |   |   |
+|          |Rove 40    |8.0.3.0009  |8.0.3.0009 |   |   |
 |**Yealink**|          |            |           |   |[Prise en charge de Yealink](https://support.yealink.com/)|
 |          |T40P       |83          |54.84.0.125|   |   |
 |          |T41S       |83          |66.85.0.5  |   |   |
@@ -108,38 +113,40 @@ Si vous disposez d’un appareil 3PIP ou SIP, vous devez disposer des éléments
 |          |T41S       |83          |66.85.0.5  |   |   |
 |          |T42G       |83          |29.83.0.130|   |   |
 |          |T42S       |83          |66.85.0.5  |   |   |
-|          |T42U       |83          |108.86.0.20|   |   |
-|          |T43U       |83          |108.86.0.20|   |   |
+|          |T42U<sup>1</sup>      |83          |108.86.0.20|   |   |
+|          |T43U<sup>1</sup>      |83          |108.86.0.20|   |   |
 |          |T46S       |83          |66.85.0.5  |   |   |
-|          |T46U       |83          |108.86.0.20|   |   |
+|          |T46U<sup>1</sup>      |83          |108.86.0.20|   |   |
 |          |T48S       |83          |66.85.0.5  |   |   |
 |          |T48G       |83          |35.83.0.130|   |   |
-|          |T48U       |83          |108.86.0.20|   |   |
+|          |T48U<sup>1</sup>      |83          |108.86.0.20|   |   |
 |          |T53        |83          |96.85.0.5  |   |   |
 |          |T53W       |83          |96.85.0.5  |   |   |
 |          |T54W       |83          |96.85.0.5  |   |   |
 |          |T57W       |83          |96.85.0.5  |   |   |
 |          |T21P       |83          |52.84.0.140|   |   |
+|          |T21P_E2    |83          |52.84.0.140|   |   |
 |          |T23G       |83          |44.84.0.140|   |   |
 |          |T27G       |83          |69.85.0.5  |   |   |
 |          |T29G       |83          |46.83.0.130|   |   |
 |          |T30        |83          |124.85.0.40|   |   |
 |          |T30P       |83          |124.85.0.40|   |   |
 |          |T31G       |83          |124.85.0.40|   |   |
+|          |T31P       |83          |124.85.0.40|   |   |
 |          |T33G       |83          |124.85.0.40|   |   |
 |          |T40G       |83          |76.84.0.125|   |   |
 |          |T41P       |83          |36.83.0.120|   |   |
 |          |T46G       |83          |28.83.0.130|   |   |
 |**AudioCodes**|       |            |           |Certains appareils SIP AudioCodes ont besoin d’un paramètre d’URL de provisionnement. Téléchargez et installez les fichiers de mise à niveau pour les appareils AudioCodes affectés à droite. |[Fichiers téléchargeables pour les appareils affectés sur AudioCodes](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo7914a2-4f3a-4000-8957-47bd6f35a3a5)|
-|          |405         |2.2.8      |2.2.16.570 |   |   |
-|          |405HD       |3.2.1      |2.2.16.570 |   |   |
-|          |420HD       |3.2.1      |2.2.16.570 |   |   |
-|          |430HD       |3.2.1      |2.2.16.570 |   |   |
-|          |440HD       |3.2.1      |2.2.16.570 |   |   |
-|          |450HD       |3.2.1      |3.4.6.687  |   |   |
-|          |C450HD      |3.2.1      |3.4.6.687  |   |   |
-|          |445HD       |3.2.1      |3.4.6.687  |   |   |
-|          |RX50        |3.2.1      |3.4.6.687  |   |   |
+|          |405<sup>1</sup>        |2.2.8      |2.2.16.570 |   |   |
+|          |405HD<sup>1</sup>      |3.2.1      |2.2.16.570 |   |   |
+|          |420HD<sup>1</sup>      |3.2.1      |2.2.16.570 |   |   |
+|          |430HD<sup>1</sup>      |3.2.1      |2.2.16.570 |   |   |
+|          |440HD<sup>1</sup>      |3.2.1      |2.2.16.570 |   |   |
+|          |450HD<sup>1</sup>      |3.2.1      |3.4.6.687  |   |   |
+|          |C450HD<sup>1</sup>     |3.2.1      |3.4.6.687  |   |   |
+|          |445HD<sup>1</sup>      |3.2.1      |3.4.6.687  |   |   |
+|          |RX50<sup>1</sup>       |3.2.1      |3.4.6.687  |   |   |
 |**Spectralink**|       |           |           |   |[Prise en charge de Spectraink](https://support.spectralink.com)|
 |          |7202        |PCS22B     |PCS22B     |Combiné |   |
 |          |7212        |PCS22B     |PCS22B     |Combiné |   |
@@ -155,6 +162,11 @@ Si vous disposez d’un appareil 3PIP ou SIP, vous devez disposer des éléments
 |          |IP-DECT Server 6500 |PCS22Ab |PCS22Ab |Serveur IP-DECT |   |
 |          |Serveur IP-DECT virtuel 1 |PCS22Ab |PCS22Ab |Serveur IP-DECT |   |
 |          |IP-DECT Base Station |PCS22Ab |PCS22Ab |Serveur IP-DECT |   |
+
+<sup>1 L’appareil</sup> prend en charge les appels d’urgence dynamiques (E911) avec la passerelle SIP.
+
+> [!NOTE]
+> Les clients peuvent utiliser AudioCodes OVOC et Poly Lens pour gérer la configuration côté appareil de leurs appareils AudioCodes 400 et Poly VVX/Trio, respectivement.
 
 > [!NOTE]
 > Les appareils Spectrasink reçoivent les mises à jour du microprogramme en direct des serveurs IP-DECT DeCt de Specink.

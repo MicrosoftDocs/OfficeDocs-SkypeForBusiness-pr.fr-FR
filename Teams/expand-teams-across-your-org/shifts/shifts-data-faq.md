@@ -17,17 +17,16 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 35447b432118737821f578ddaee364e780f18e0d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: f05ba56086a9c9dd3cbad046c1cfad34733ee2ee
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675346"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268189"
 ---
 # <a name="shifts-data-faq"></a>Faq sur les changements de données
 
@@ -35,7 +34,7 @@ Cet article traite des questions fréquemment posées sur les données Shifts, n
 
 ## <a name="where-is-shifts-data-stored"></a>Où sont stockées les données Shifts ?
 
-Les données de décalage sont stockées dans l’une des trois zones géographiques (zones géographiques) : Asie-Pacifique (APAC), Union européenne (UE) ou États-Unis. Chaque géo stocke les données dans au moins deux régions de centre de données Azure pour la haute disponibilité (HA) et la récupération d’urgence (DR). Aujourd’hui, la géo États-Unis/Amérique du Nord utilise des centres de données dans les États-Unis Centre Nord et Centre Sud. Pour plus d’informations, consultez [Where is Microsoft 365 customer data stored](/microsoft-365/enterprise/o365-data-locations).
+Les données de décalage sont stockées dans l’une des trois zones géographiques (zones géographiques) : Asie-Pacifique (APAC), Union européenne (UE) ou États-Unis. Chaque géo stocke les données dans au moins deux régions de centre de données Azure pour la haute disponibilité (HA) et la récupération d’urgence (DR). Aujourd’hui, la géo États-Unis/Amérique du Nord utilise des centres de données dans les États-Unis Centre Nord et Centre Sud. Pour plus [d’informations, consultez Où sont stockées les données client Microsoft 365](/microsoft-365/enterprise/o365-data-locations).
 
 Actuellement, Shifts offre la résidence des données en Australie, au Canada, en France, au Japon et au Royaume-Uni. Nous travaillons activement à étendre la prise en charge à d’autres emplacements.
 
@@ -69,7 +68,7 @@ Par défaut, un groupe Microsoft 365 supprimé est conservé pendant 30 jours. C
 
 Actuellement, Shifts ne prend pas en charge les stratégies de rétention personnalisées.
 
-Pour en savoir plus sur les stratégies de rétention dans Teams, consultez [En savoir plus sur la rétention des Teams](/microsoft-365/compliance/retention-policies-teams) et [gérer les stratégies de rétention pour Teams](../../retention-policies.md).
+Pour en savoir plus sur les stratégies de rétention dans Teams, consultez [En savoir plus sur la rétention pour Teams](/microsoft-365/compliance/retention-policies-teams) et [gérer les stratégies de rétention pour Teams](../../retention-policies.md).
 
 ## <a name="can-i-retrieve-shifts-data-for-a-user-whose-license-was-revoked"></a>Puis-je récupérer des données Shifts pour un utilisateur dont la licence a été révoquée ?
 
@@ -77,9 +76,9 @@ Aujourd’hui, nous n’offrons pas la possibilité de récupérer des données 
 
 ## <a name="what-type-of-encryption-does-shifts-use-for-data-at-rest-and-in-transit"></a>Quel type de chiffrement Shifts utilise-t-il pour les données au repos et en transit ?
 
-Les données de décalage sont chiffrées au repos par Azure Cosmos DB et stockage Azure. Pour en savoir plus, consultez [le chiffrement des données Azure au repos](/azure/security/fundamentals/encryption-atrest) et le [chiffrement des données dans Azure Cosmos base de données](/azure/cosmos-db/database-encryption-at-rest).
+Les données de décalage sont chiffrées au repos par Azure Cosmos DB et Stockage Azure. Pour en savoir plus, consultez [le chiffrement des données Azure au repos](/azure/security/fundamentals/encryption-atrest) et [le chiffrement des données dans Azure Cosmos DB](/azure/cosmos-db/database-encryption-at-rest).
 
-Shifts suit Microsoft 365 instructions pour le chiffrement des données en transit. Pour plus d’informations, consultez [Chiffrement pour les données en transit](/compliance/assurance/assurance-encryption-in-transit).
+Shifts suit les instructions de Microsoft 365 pour le chiffrement des données en transit. Pour plus d’informations, consultez [Chiffrement pour les données en transit](/compliance/assurance/assurance-encryption-in-transit).
 
 Le chiffrement des décalages des données au repos et en transit est vérifié chaque année par l’audit de conformité SOC2.
 
@@ -91,17 +90,17 @@ Nous ne stockons pas de copies immuables des données Shifts. Par exemple, un re
 
 Certains aspects de Shifts ne peuvent pas être modifiés et certains aspects peuvent être modifiés. Par exemple, les détails de décalage tels que les notes et les couleurs peuvent être modifiés de la même façon que dans l’application Shifts. Les demandes de décalage ne peuvent pas être modifiées, sauf si la demande est retirée.
 
-Pour voir quels champs ont été modifiés, vous pouvez rechercher les événements Shifts dans le journal d’audit Microsoft 365. Pour en savoir plus sur les événements consignés pour les activités Shifts dans le journal d’audit Microsoft 365, consultez [Shifts in Teams activities](../../audit-log-events.md#shifts-in-teams-activities).
+Pour voir quels champs ont été modifiés, vous pouvez rechercher des événements Shifts dans le journal d’audit Microsoft 365. Pour en savoir plus sur les événements enregistrés pour les activités Shifts dans le journal d’audit Microsoft 365, consultez [Shifts in Teams activities](../../audit-log-events.md#shifts-in-teams-activities).
 
 ## <a name="my-organization-uses-a-workforce-management-system-for-scheduling-can-we-integrate-with-and-access-shifts-data"></a>Mon organisation utilise un système de gestion de la main-d’œuvre pour la planification. Pouvons-nous intégrer et accéder aux données Shifts ?
 
-Les décalages Graph API vous permettent d’intégrer des données Shifts à des systèmes de gestion de la main-d’œuvre externe (WFM). Pour plus d’informations, consultez [Majs Graph API](/graph/api/resources/shift).
+Les API Shifts Graph vous permettent d’intégrer des données Shifts à des systèmes externes de gestion de la main-d’œuvre (WFM). Pour plus d’informations, consultez [les API Shifts Graph](/graph/api/resources/shift).
 
-Nous proposons également des connecteurs Shifts managés et des connecteurs Shifts open source. Avec ces connecteurs, vous pouvez intégrer votre système WFM directement à Shifts. Pour en savoir plus sur les connecteurs Shifts et les systèmes WFM pris en charge, consultez [connecteurs Shifts](shifts-connectors.md).
+Nous proposons également des connecteurs Shifts managés et des connecteurs Shifts open source. Avec ces connecteurs, vous pouvez intégrer votre système WFM directement à Shifts. Pour en savoir plus sur les connecteurs Shifts et les systèmes WFM pris en charge, consultez [Connecteurs Shifts](shifts-connectors.md).
 
 ## <a name="can-shifts-data-be-deleted-permanently-after-a-specified-period-of-time"></a>Les données Shifts peuvent-ils être supprimées définitivement après une période spécifiée ?
 
-Aujourd’hui, nous ne supprimons pas du tout vos données Shifts. À l’aide [de Shifts Graph API](/graph/api/resources/shift), il est possible de [créer une application à l’aide de Power Apps](/powerapps/maker/) pour conserver les données pendant une période spécifiée. Toutefois, nous ne prenons pas en charge cela en mode natif.
+Aujourd’hui, nous ne supprimons pas du tout vos données Shifts. À l’aide [des API Shifts Graph](/graph/api/resources/shift), il est possible de [créer une application à l’aide de Power Apps](/powerapps/maker/) pour conserver les données pendant une période spécifiée. Toutefois, nous ne prenons pas en charge cela en mode natif.
 
 ## <a name="can-shifts-data-be-moved-in-a-tenant-to-tenant-migration"></a>Les données Shifts peuvent-ils être déplacées lors d’une migration de locataire à locataire ?
 

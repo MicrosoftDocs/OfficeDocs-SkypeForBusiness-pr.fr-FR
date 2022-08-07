@@ -17,12 +17,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Répertorie les centres tarifaires pris en charge et la couverture des forfaits d’appels.
-ms.openlocfilehash: cd991c55c62eeba620d7a8d7f9f75cb7344507a9
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.collection:
+- M365-voice
+ms.openlocfilehash: eb40c3adf77aed6d88363986f3ab01fc7191b9f2
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794102"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270859"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>Centres tarifaires pris en charge et couverture pour les forfaits d’appels
 
@@ -33,7 +35,7 @@ Si vous obtenez de nouveaux numéros et que nous n’avons pas les nombres que v
 
 Si vous obtenez de nouveaux numéros et que nous n’avons pas les numéros que vous avez demandés, nous vous offrons des numéros à partir du même centre de tarifs.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer des numéros de téléphone pour votre entreprise](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

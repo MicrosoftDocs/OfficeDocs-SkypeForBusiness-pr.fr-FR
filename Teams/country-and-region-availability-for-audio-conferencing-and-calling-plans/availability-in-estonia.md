@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour l’Estonie.
-ms.openlocfilehash: 29f36d9dd98a6a65216029d81d82d1b124b348ea
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour l’Estonie.
+ms.openlocfilehash: cdba6958d972160c916376e733bcc2eb88eeced0
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942539"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271039"
 ---
 # <a name="availability-in-estonia"></a>Disponibilité en Estonie
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour l’Estonie.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour l’Estonie.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -59,10 +59,10 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les forfaits d'appels. |Quatre options de forfait sont disponibles par mois civil : <ul><li>Forfait d’appels nationaux de 120 minutes </li><li>Forfait d’appels nationaux de 240 minutes</li></li><li>Forfait d’appels nationaux de 1200 minutes </li></li><li>Offre d’appels nationaux et internationaux :  1200 minutes d’appels nationaux ou 600 minutes d’appels internationaux (suivant ce qui est atteint en premier au cours du mois)</li></li></ul>|
+|Les forfaits d'appels sont-ils disponibles à l'achat ?  |Oui          |   
+|Minutes disponibles pour les forfaits d'appels.    |Cinq options de plan sont disponibles par mois calendaire : <ul><li>Forfait d’appels avec paiement à l’utilisation </li><li> Forfait d’appels nationaux de 120 minutes </li><li> Forfait d’appels nationaux de 240 minutes </li><li> Forfait d’appels nationaux de 1200 minutes </li><li> Forfait d’appels internationaux : 1 200 minutes d’appels nationaux ou 600 minutes d’appels internationaux (selon le premier jour du mois calendaire)</li></ul>|
 |Est-il possible de passer des appels sortants vers les numéros premium ?  <br/> | Ceci n’est pas pris en charge pour le moment. <br/> |
-|Est-il possible de passer des appels sortants ?  <br/> | Jusqu’à 196 pays ou régions, notamment [ceux-ci.](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/> |
+|Est-il possible de passer des appels sortants ?  <br/> | À 196 pays ou régions, y compris [ceux-ci](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
@@ -82,7 +82,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

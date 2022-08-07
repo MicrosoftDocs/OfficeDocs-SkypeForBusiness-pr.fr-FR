@@ -6,8 +6,6 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-MS.collection:
-- M365-collaboration
 ms.reviewer: nakulm
 f1.keywords:
 - NOCSH
@@ -16,12 +14,14 @@ search.appverid: MET150
 description: Découvrez comment Teams prend en charge l’audio et la vidéo dans les navigateurs non pris en charge.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 134700ad29dac89174e5c05db697dd46911a86f9
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 71fb02fae88f2f61d2d6435e126e20093a5a3baf
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794122"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267820"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Réunions Microsoft Teams sur des navigateurs non pris en charge
 
@@ -48,6 +48,6 @@ Les personnes qui utilisent l’application web Teams sur des navigateurs non pr
 
 Pour plus d’informations sur la prise en charge des navigateurs dans Teams, consultez [Limites et spécifications pour Teams](./limits-specifications-teams.md#browsers).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Participer à une réunion Teams sur un navigateur non pris en charge](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)

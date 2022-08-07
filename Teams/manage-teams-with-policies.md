@@ -10,17 +10,16 @@ search.appverid: ''
 description: Penchez-vous sur les stratégies Teams.
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b56e617321cea25fe677b7d9a7a00afba0940b07
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: acaa1280e00ad2e86a49c2bbd8e7f4464bd0c0e7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156532"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268759"
 ---
 # <a name="manage-teams-with-policies"></a>Gérer Teams avec des stratégies
 
@@ -34,7 +33,7 @@ Les stratégies sont utilisées pour accomplir de nombreuses tâches au sein de 
 
 Les stratégies peuvent être affectées de plusieurs manières différentes en fonction de ce que votre organisation tente d’accomplir. Vous pouvez effectuer et afficher les affectations dans le Centre d’administration Teams.
 
-![Capture d’écran de l’attribution de stratégie de groupe.](media/group-policy-assignment.png)
+:::image type="content" source="media/group-policy-assignment.png" alt-text="Capture d’écran de l’attribution de stratégie de groupe Teams." lightbox="media/group-policy-assignment.png":::
 
 En savoir plus sur l’attribution de stratégies [ici](policy-assignment-overview.md).
 
@@ -47,17 +46,17 @@ Les stratégies sont gérées avec le Centre d’administration Microsoft Teams 
 
 Par exemple, une stratégie d’installation d’application peut vous permettre de permettre aux utilisateurs de charger des applications personnalisées, d’installer des applications pour le compte de vos utilisateurs et d’épingler des applications à la barre des applications Teams. Ces stratégies sont configurées dans le Centre d’administration Teams.
 
-![Capture d’écran de la stratégie d’installation de l’application.](media/app-setup-policy.png)
+:::image type="content" source="media/app-setup-policy.png" alt-text="Capture d’écran de la stratégie d’installation de l’application." lightbox="media/app-setup-policy.png":::
 
 En outre, une stratégie de réunion peut être utilisée pour contrôler les paramètres audio et vidéo dans les réunions Teams, telles que les transcriptions, les enregistrements cloud et l’audio/vidéo IP.
 
-![Capture d’écran de la stratégie de réunion.](media/engineering-meeting-policy.png)
+:::image type="content" source="media/engineering-meeting-policy.png" alt-text="Capture d’écran de la stratégie de réunion." lightbox="media/engineering-meeting-policy.png":::
 
 ### <a name="teams-for-education"></a>Teams pour l’éducation
 
 Vous pouvez également utiliser [l’Assistant stratégie Teams pour l'éducation](easy-policy-setup-edu.md) pour configurer et gérer facilement des stratégies pour votre environnement d’apprentissage.
 
-![Capture d’écran de Teams pour l'éducation Assistant Stratégie.](media/easy-policy-setup-quick-setup.png)
+:::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Capture d’écran de Teams pour l'éducation Assistant Stratégie." lightbox="media/easy-policy-setup-quick-setup.png":::
 
 ## <a name="types-of-policies"></a>Types de stratégies
 

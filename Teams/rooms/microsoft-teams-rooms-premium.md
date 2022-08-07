@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez le service managé Salles Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 432e09204ae157ece03b2dd0c1f4ac3336adec52
-ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
+ms.openlocfilehash: 322e67a0bc6e03db7960e64d2cd5e7a97b930dbc
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "65741876"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269579"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Salles Microsoft Teams service managé
 
@@ -60,10 +60,10 @@ Voici une vue d’ensemble des fonctionnalités du service managé Salles Micros
 |**Planification et déploiement des salles**   |Fonctionnalités de planification de salle qui vous permettent de comprendre l’inventaire des équipements de votre salle et de prendre des décisions sur les normes d’équipement pour les nouveaux déploiements de salles.         |
 |**Analyse et résolution des problèmes**  |Surveillance de l’intégrité de la salle qui détecte les problèmes avec le système de salle et les périphériques et fournit une réponse proactive à la gestion des incidents pilotée par Microsoft.         |
 |**Gestion des mises à jour**    |Gestion et remise des mises à jour des applications et microprogrammes pour les systèmes de salle et leurs périphériques effectués par Microsoft.         |
-|**Informations et recommandations**     |Informations à l’intégrité, à l’utilisation, à l’utilisation et à la fiabilité de l’équipement.         |
+|**Insights et recommandations**     |Insights sur l’intégrité, l’utilisation, l’utilisation et la fiabilité de l’équipement des clients.         |
 |**Conformité et certifications**   |Répond à toutes les normes applicables pour Microsoft Online Services.         |
 |**Support client**   |Prise en charge des tickets 24 x 7 x 365 via le centre d’opérations de service managé (SOC) du service managé Salles Microsoft Teams dédié. Escalade en votre nom vers d’autres fournisseurs principaux, le cas échéant. Pour plus d’informations, consultez [le support technique](#customer-support).|
-|**Appareils pris en charge**    |Systèmes Salles Microsoft Teams certifiés et leurs périphériques.<br>*Surface Hub soutien au second semestre 2021*        |
+|**Appareils pris en charge**    |Systèmes Salles Microsoft Teams certifiés et leurs périphériques.<br>*Prise en charge du Surface Hub au second semestre 2021*        |
 |**Régions prises en charge**    |Consultez [les régions prises en charge](#supported-regions).        |
 |**Intégration**    |Intégration disponible avec le service hébergé par le client maintenant.         |
 
@@ -79,7 +79,7 @@ Voici un résumé des fonctionnalités importantes fournies par le service manag
 |**Analyse**    |Analyse de l’intégrité des applications, du système d’exploitation, des périphériques et du microprogramme. Détection automatisée des incidents pour les problèmes affectant les expériences de réunion en raison de problèmes tels que l’intégrité des périphériques. Vue d’ensemble de l’intégrité de l’ensemble de l’espace et des incidents via le portail des services managés Salles Microsoft Teams.|
 |**Dépannage et correction**     |Diagnostics automatisés et correction automatique, le cas échéant. Salles Microsoft Teams correction des incidents assistés par SOC du service managé pour les cas non automatisés. Intégration de Service Now pour la coordination des incidents.         |
 |**Gestion des mises à jour**   |Orchestration automatisée des mises à jour de l’application de réunion et du microprogramme en fonction des anneaux de déploiement configurables par le client         |
-|**Informations et recommandations**   |Utilisation, incidents, intégrité et rapports globaux (vues historiques)         |
+|**Insights et recommandations**   |Utilisation, incidents, intégrité et rapports globaux (vues historiques)         |
 
 ## <a name="service-prerequisites"></a>Prérequis du service
 
@@ -124,7 +124,7 @@ La licence Salles Microsoft Teams Premium est disponible dans les pays suivants 
 |Éléments inclus |Ce qui est exclu |Canaux de prise en charge des éléments exclus  |
 |---------|---------|---------|
 |**Configuration du service**   |         |         |
-|Investigation et conseils pour Salles Microsoft Teams Windows configuration, notamment les paramètres d’application Salles Microsoft Teams, la configuration du réseau interne, la configuration de logiciels internes, ainsi que les paramètres d’alimentation et la configuration recommandés.     |Toutes les configurations et investigations logicielles tierces qui ne font pas directement partie de l’application Microsoft Teams Room. En outre, toutes les configurations propres à OEM qui nécessitent une configuration en dehors des fenêtres internes ou des paramètres d’application Microsoft Teams Room.         |Canaux de support standard tiers         |
+|Examen et conseils pour Salles Microsoft Teams configuration de Windows, notamment les paramètres d’application Salles Microsoft Teams, la configuration réseau interne, la configuration de logiciels internes et les paramètres d’alimentation et configuration recommandés.     |Toutes les configurations et investigations logicielles tierces qui ne font pas directement partie de l’application Salle Microsoft Teams. En outre, toutes les configurations propres à l’OEM qui nécessitent une configuration en dehors des fenêtres internes ou des paramètres d’application salle Microsoft Teams.         |Canaux de support standard tiers         |
 |**Configuration du compte de salle**    |         |         |
 |Direction vers la documentation disponible pour la configuration du compte de salle à la demande. Pour les problèmes de connexion ou de configuration de compte, une investigation initiale est effectuée.     |Exécution des corrections recommandées ou problèmes liés à l’exécution de la correction recommandée, à la configuration des fournisseurs d’authentification tiers et à la configuration des fonctionnalités de compte individuel.        |Prise en charge standard de Microsoft et prise en charge du fournisseur d’authentification tiers         |
 |**Prise en charge des périphériques**    |         |         |

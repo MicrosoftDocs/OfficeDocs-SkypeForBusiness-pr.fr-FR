@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct Microsoft vous permet de connecter un contrôleur de frontière de session (SBC) fourni par le client pris en charge au système téléphonique.
-ms.openlocfilehash: fd5f2733fc11511e6cfc2e646c0bb78aff26b522
-ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
+ms.openlocfilehash: f3fe1e9f6f2244c7d33528488f07e66797509d2a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "66695057"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267779"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -256,8 +256,8 @@ Vous devez utiliser les ports suivants pour les environnements Microsoft 365 ou 
 
 |Trafic|De|À|Port source|Port de destination|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP Proxy|SBC|1024 – 65535|Défini sur le SBC (pour Office 365 GCC High/DoD, seul le port 5061 doit être utilisé)|
-SIP/TLS|SBC|SIP Proxy|Défini sur le SBC|5061|
+|SIP/TLS|SIP Proxy|Sbc|1024 – 65535|Défini sur le SBC (pour Office 365 GCC High/DoD, seul le port 5061 doit être utilisé)|
+SIP/TLS|Sbc|SIP Proxy|Défini sur le SBC|5061|
 ||||||
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>Mécanisme de basculement pour la signalisation SIP
@@ -268,8 +268,8 @@ Le tableau ci-dessous récapitule les relations entre les centres de données pr
 
 |Si le centre de données principal est|EMEA|NOAM|ASIE|
 |:--- |:--- |:--- |:--- |
-|Centre de données secondaire (sip2.pstnhub.microsoft.com)|NOUS|UE|NOUS|
-|Centre de données tertiaire (sip3.pstnhub.microsoft.com)|ASIE|ASIE|UE|
+|Centre de données secondaire (sip2.pstnhub.microsoft.com)|Nous|Ue|Nous|
+|Centre de données tertiaire (sip3.pstnhub.microsoft.com)|ASIE|ASIE|Ue|
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Trafic multimédia : plages de ports
@@ -295,8 +295,8 @@ La plage de ports des processeurs multimédias est indiquée dans le tableau sui
 
 |Trafic|De|À|Port source|Port de destination|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|Processeur multimédia|SBC|3478-3481 et 49152 – 53247|Défini sur le SBC|
-|UDP/SRTP|SBC|Processeur multimédia|Défini sur le SBC|3478-3481 et 49152 – 53247|
+|UDP/SRTP|Processeur multimédia|Sbc|3478-3481 et 49152 – 53247|Défini sur le SBC|
+|UDP/SRTP|Sbc|Processeur multimédia|Défini sur le SBC|3478-3481 et 49152 – 53247|
 
   > [!NOTE]
   > Microsoft recommande au moins deux ports par appel simultané sur le SBC.
@@ -334,7 +334,7 @@ S’applique uniquement au cas de contournement non multimédia. Avec media bypa
 Sur le tronçon entre le processeur multimédia cloud et le client Microsoft Teams, SILK ou G.722 est utilisé. Le choix du codec sur cette étape est basé sur des algorithmes Microsoft, qui prennent en compte plusieurs paramètres. 
 
   > [!NOTE]
-  > Le ciblage multimédia n’est pas pris en charge. Lors d’un appel de routage direct, si le SBC envoie une nouvelle adresse IP multimédia au routage direct Teams, bien qu’il soit négocié dans la signalisation SIP, le média n’est jamais envoyé à la nouvelle adresse IP à partir du routage direct Teams.
+  > Le nouveau ciblage multimédia n’est pas pris en charge. Lors d’un appel Routage direct, si le SBC envoie une nouvelle adresse IP multimédia au Routage direct Teams, bien qu’il soit négocié dans la signalisation SIP, le multimédia n’est jamais envoyé à la nouvelle adresse IP à partir du Routage direct Teams.
 
 ## <a name="supported-session-border-controllers-sbcs"></a>Contrôleurs de frontière de session (SBC) pris en charge
 
@@ -344,6 +344,8 @@ Les appareils qui ont été validés sont répertoriés comme certifiés pour le
 
 Pour plus d’informations sur les SBC prises en charge, consultez [Contrôleurs de frontière de session certifiés pour le routage direct](direct-routing-border-controllers.md).
 
+## <a name="support-boundaries"></a>Limites de prise en charge
+Microsoft ne prend en charge le système téléphonique avec routage direct que lorsqu'il est utilisé avec des périphériques certifiés. En cas de problème, vous devez d'abord contacter le support client de votre fournisseur de SBC. Si nécessaire, le fournisseur SBC transmettra le problème à Microsoft par les canaux internes. Microsoft se réserve le droit de rejeter les cas de support où un appareil non certifié est connecté au système téléphonique par le biais du Direct Routing. Si Microsoft détermine que le problème de routage direct d’un client concerne l’appareil SBC d’un fournisseur, le client devra contacter de nouveau le fournisseur SBC pour obtenir de l’aide.
  
 ## <a name="see-also"></a>Voir aussi
 

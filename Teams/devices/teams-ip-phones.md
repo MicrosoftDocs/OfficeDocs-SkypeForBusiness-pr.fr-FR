@@ -9,6 +9,7 @@ ms.tgt.pltfrm: lync
 ms.service: msteams
 ms.collection:
 - M365-voice
+- Teams_ITAdmin_Devices
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams afin de produire les meilleurs résultats.
-ms.openlocfilehash: 4c2426b2a63feadfc9fc1569efaffbca99771e16
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: f78ef3b4d637f166ac3c20d50e16532eff9db790
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175698"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271329"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Appareils Android certifiés Microsoft Teams
 
@@ -101,6 +102,8 @@ Les appareils suivants sont certifiés dans le cadre du programme de certificati
 
 | Modèle d’appareil | Version du microprogramme | Date de fin de la certification actuelle  | Version du système d’exploitation Android |
 |:------------------------|:-----------------|:--------------|----------------------------------|
+| Crestron UC-P8-TD |`1.0.0.42`| 5 août 2023 |  9  |
+| Crestron UC-P10-TD |`1.0.0.42`| 5 août 2023 |  9  |
 |Lenovo ThinkSmart View|`CD-18781Y.201006.099`| 5 décembre 2022 |  8.1  |
 
 ## <a name="certified-teams-panels"></a>Panneaux Teams certifiés

@@ -17,18 +17,17 @@ f1.keywords:
 ms.custom: ''
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
 description: Découvrez comment configurer et gérer la diffusion en continu pour vos réunions Teams.
-ms.openlocfilehash: 352a0c2e7a0584640e466b5e46456906e4912d00
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 5e1e84fc3b0b4ed2f81b3f3a8c84450dc3cee56c
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646343"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270179"
 ---
 # <a name="stream-teams-meetings"></a>Diffuser en continu des réunions Teams
 
-Cet article vous aidera à configurer la diffusion en continu pour Teams réunions.
+Cet article vous aidera à configurer la diffusion en continu pour les réunions Teams.
 
 ## <a name="what-is-streaming-and-how-does-it-work"></a>Qu’est-ce que le streaming et comment fonctionne-t-il ?
 
@@ -39,7 +38,7 @@ La diffusion en continu permet à votre organisation d’étendre votre portée 
 
 ## <a name="set-up-streaming-with-powershell"></a>Configurer la diffusion en continu avec PowerShell
 
-Vous pouvez configurer votre organisation pour la diffusion en continu avec PowerShell. Actuellement, cette stratégie n’est pas disponible dans le centre d’administration Teams. La stratégie par utilisateur est utilisée pour spécifier **qui** peut activer la diffusion en continu en direct. Cette option est désactivée par défaut.
+Vous pouvez configurer votre organisation pour la diffusion en continu avec PowerShell. Actuellement, cette stratégie n’est pas disponible dans le Centre d’administration Teams. La stratégie par utilisateur est utilisée pour spécifier **qui** peut activer la diffusion en continu en direct. Cette option est désactivée par défaut.
 
 Vous pouvez utiliser l’attribut suivant dans l’Windows PowerShell cmdlet **Set-CsTeamsMeetingPolicy** pour configurer la diffusion en continu. Pour plus d’informations sur l’applet de commande, consultez [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -56,6 +55,6 @@ Pour plus d’informations sur l’affectation de stratégies avec PowerShell, c
 
 ## <a name="related-topics"></a>Voir aussi
 
-- [Attribuer des stratégies dans Teams](policy-assignment-overview.md)
+- [Affecter des stratégies dans Teams](policy-assignment-overview.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 - [Démarrage rapide : réunions, webinaires et événements en direct](quick-start-meetings-live-events.md)

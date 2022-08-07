@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Microsoft Teams à Porto Rico.
-ms.openlocfilehash: 63c4ce78cb45483118c05d935fb6ade300d51d16
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour Porto Rico.
+ms.openlocfilehash: 00cd5b7068d6feaa14a78623c3c0c50269fead4e
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605913"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271869"
 ---
 # <a name="availability-in-puerto-rico"></a>Disponibilité à Puerto Rico
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Microsoft Teams à Porto Rico.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour Porto Rico.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -44,7 +44,7 @@ Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Micr
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Non  <br/> |
-|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponible  <br/> |
+|Possibilité d'appel sortant à l'aide de la fonctionnalité Appelez-moi  <br/> |Disponible  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
 
@@ -59,8 +59,8 @@ Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Micr
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les forfaits d'appels  <br/> |3000 minutes nationales ou 600 minutes internationales (en fonction de ce qui arrive en premier par mois civil). Les appels nationaux aux États-Unis incluent ceux à l’ensemble des 50 États des États-Unis et de Porto Rico. Les utilisateurs ayant attribué l’emplacement d’utilisation sous licence des États-Unis et/ou de Porto Rico partagent le même nombre de minutes.  <br/> |
+|Les forfaits d'appels sont-ils disponibles à l'achat ?  |Oui          |   
+|Minutes disponibles pour les forfaits d'appels.    |Cinq options de plan sont disponibles par mois calendaire : <ul><li>Forfait d’appels avec paiement à l’utilisation </li><li> Forfait d’appels nationaux de 120 minutes </li><li> Forfait d’appels nationaux de 240 minutes </li><li> Forfait d’appels nationaux de 1200 minutes </li><li> Forfait d’appels internationaux : 1 200 minutes d’appels nationaux ou 600 minutes d’appels internationaux (selon le premier jour du mois calendaire)</li></ul>|
 |Est-il possible de passer des appels sortants vers les numéros premium ? <br/> | Ceci n’est pas pris en charge pour le moment. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    
@@ -82,7 +82,7 @@ Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Micr
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

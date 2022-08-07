@@ -12,7 +12,6 @@ ms.service: msteams
 ms.collection:
 - M365-voice
 - M365-collaboration
-- m365initiative-meetings
 ms.custom:
 - seo-marvel-mar2020
 f1.keywords:
@@ -21,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3ede4a0721bacb9c4feb996d58ab01327c13dfd
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 0c12891e2eb03aaca3f444a83bfd18ee752b8576
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055854"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268809"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Découvrir comment déployer la conférence audio dans Microsoft Teams
 
@@ -116,7 +115,7 @@ Pour fournir des numéros gratuits de pont de téléconférence et pour prendre 
 |Est-ce que je souhaite configurer un montant de recharge automatique ?|Pour configurer un montant de recharge automatique, voir [Configurer les crédits de communication pour votre organisation](set-up-communications-credits-for-your-organization.md).|
 |||
 
-## <a name="additional-deployment-decisions"></a>Options de déploiement supplémentaires
+## <a name="additional-deployment-decisions"></a>Décisions de déploiement supplémentaires
 
 Vous souhaiterez peut-être modifier ces paramètres en fonction des besoins et de la configuration de votre organisation.
 
@@ -141,7 +140,7 @@ Pour plus d'informations sur les plans d'appel, voir [Quels sont les plans de nu
 |Quels sont les utilisateurs qui ont besoin d’un plan d’appel personnalisé et quel plan de numérotation client doit être attribué à chaque utilisateur ?|Pour ajouter des utilisateurs à un plan de numérotation personnalisé à l’aide de PowerShell, voir [Créer et gérer des plans de numérotation](create-and-manage-dial-plans.md).|
 |||
 
-### <a name="troubleshoot-meeting-and-call-quality"></a>Résoudre les problèmes de réunion et de qualité d’appel
+### <a name="troubleshoot-meeting-and-call-quality"></a>Résoudre les problèmes de qualité de réunion et d’appel
 
 Teams offre deux façons de surveiller et de résoudre les problèmes de qualité d’appel : [Analytique des appels et Tableau de bord de qualité des appels](monitor-call-quality-qos.md). L’analytique des appels affiche des informations détaillées sur les appareils, les réseaux et la connectivité liés aux appels et réunions spécifiques pour chaque utilisateur. L’analytique des appels est conçue pour aider les administrateurs et agents du support technique à résoudre les problèmes de qualité d’appel concernant des appels spécifiques, alors que le Tableau de bord de qualité des appels est conçu pour aider les administrateurs et les ingénieurs réseau à optimiser un réseau. Le Tableau de bord de qualité des appels se concentre sur des utilisateurs spécifiques et examine plutôt des informations globales pour l'ensemble d'une organisation Teams.
 

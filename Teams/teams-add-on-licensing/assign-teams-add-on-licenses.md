@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +15,12 @@ ms.reviewer: mikedav
 description: Découvrez comment attribuer des licences de module complémentaire Teams aux utilisateurs pour des fonctionnalités telles que l’audioconférence, le système téléphonique et les forfaits d’appels.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bef1464b94f736a10cc184a2bdb88e2cdf6df88
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 3b482781ee29094986c310158fe74f02662f790d
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156972"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268169"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Attribuer des licences de module complémentaire Teams aux utilisateurs
 
@@ -132,7 +131,7 @@ Pour plus d’informations, consultez [Afficher les licences et les services ave
 | Microsoft Enterprise E1 | STANDARDPACK |
 | Microsoft 365 Business Basic | O365_BUSINESS_ESSENTIALS|
 | Microsoft 365 Business Standard | O365_BUSINESS_PREMIUM|
-| Microsoft 365 Business | SPB|
+| Microsoft 365 Business | Spb|
 | Audioconférence | MCOMEETADV |
 | Paiement par minute de l’audioconférence (paiement à l’utilisation) Nécessite la configuration et l’activation des crédits de communication.* | MCOMEETACPEA |
 | Téléphonie Teams standard | MCOEV |
