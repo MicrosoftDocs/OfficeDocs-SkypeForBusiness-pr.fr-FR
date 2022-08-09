@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e6fdb36148f87ce243fff044a08a3bdcdd28d58
-ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
+ms.openlocfilehash: a7cb846cfeafeff3009890b8745e9b13fc6bdd97
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66952768"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268379"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Guide d’administration informatique de Reflect dans Microsoft Teams
 
-Ce document fournit des informations sur [Reflect](https://aka.ms/reflect) , qui fait partie intégrante de [Insights dans Microsoft Teams](class-insights.md). Reflect aide les étudiants à reconnaître et à parcourir dans leurs émotions en leur offrant des opportunités régulières de partager et d’être entendus. Reflect peut aider les apprenants à étendre sur leur vocabulaire émotionnel et à approfondir leur empathie pour leurs paires tout en fournissant des commentaires utiles aux enseignants pour une communauté de classe saine.
+Ce document fournit des informations sur [Microsoft Réflexions](https://aka.ms/reflect), qui fait partie intégrante de [Insights pour l’éducation dans Microsoft Teams](class-insights.md). Reflect aide les étudiants à reconnaître et à parcourir dans leurs émotions en leur offrant des opportunités régulières de partager et d’être entendus. Reflect peut aider les apprenants à étendre sur leur vocabulaire émotionnel et à approfondir leur empathie pour leurs paires tout en fournissant des commentaires utiles aux enseignants pour une communauté de classe saine.
 
-Cette application de contrôle utilise des emojis et une granularité émotionnelle inspirée de la recherche pour aider les enseignants à ajouter une formation sociale et émotionnelle à leur routine déjà chargée.
+Cette application gratuite de points utilise des émojis et des personnages pour aider les élèves à développer une granularité émotionnelle. La recherche démontre que l’enseignement explicite des compétences sociales et émotionnelles améliore le rendement scolaire et comportemental des étudiants et a des impacts positifs tout au long de la vie.
 
 ## <a name="privacy-and-security"></a>Confidentialité et sécurité
 
@@ -69,16 +69,7 @@ Si vous avez précédemment défini que chaque application doit être autorisée
 > Pour plus d’informations, lisez [comment autoriser une application ou l’ajouter à une équipe de classe](manage-apps.md#allow-and-block-apps).
 
 ## <a name="where-do-educators-find-reflect"></a>Où les enseignants peuvent-ils trouver Reflect ?
-Une fois que vous avez activé Reflect, les enseignants peuvent se rendre en classe et sélectionner l’option **Nouvelle conversation**. Ils sélectionnent ensuite « **...** » pour faire apparaître les extensions de messagerie et saisissent **Refléter** dans la barre de recherche. La boîte de dialogue les guide dans la définition de la question et des personnes peuvent voir.
-
-:::image type="content" source="media/reflect-add-app.png" alt-text="Ajouter Reflect à une équipe de classe.":::
-
-Ils peuvent cliquer avec le bouton droit sur l’icône Reflect, puis sélectionner **Épingler** pour y accéder facilement.
-
-:::image type="content" source="media/reflect-pin-app.png" alt-text="Épingler l’application Reflect.":::
-
-> [!TIP]
-> Vous pouvez également localiser l’application Reflect via ce lien : [https://aka.ms/getReflect](https://aka.ms/getReflect)
+Réflexions est disponible par défaut dans n’importe quelle équipe de classe ou de personnel. Pour accéder à l’application, naviguez vers l’équipe souhaitée, puis sélectionnez l’onglet Réflexions.
 
 > [!TIP]
 > Pour plus d’informations, visitez la [Page de support Reflect](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a). Cette page fournit des instructions aux enseignants et aux étudiants et les aide à créer leur premier enregistrement Reflect.
