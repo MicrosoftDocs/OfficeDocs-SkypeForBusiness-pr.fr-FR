@@ -1,9 +1,8 @@
 ---
 title: Autorisations d’applications Microsoft Teams et points à prendre en compte
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.date: 06/27/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -15,16 +14,16 @@ ms.reviewer: rowille
 description: L’administrateur peut découvrir les données et les autorisations que les applications Microsoft Teams demandent à leur organisation.
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2cb641bb8756802820cf6ec6a311e3328c3887ca
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 05be32bff1069d11ea26d28e6eb5377ec04e65e9
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175668"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299063"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
 
@@ -191,7 +190,7 @@ Aucun
 
 * Les webhooks sortants sont similaires aux bots, mais ont moins de privilèges. Ils doivent être mentionnés explicitement, tout comme les bots.
 
-* Lorsqu’un webhook sortant est inscrit, un secret est généré, ce qui permet au webhook sortant de vérifier que l’expéditeur est Microsoft Teams par opposition à un attaquant malveillant. Ce secret doit rester un secret ; toute personne qui y a accès peut emprunter l’identité de Microsoft Teams. Si le secret est compromis, le webhook sortant peut être supprimé et recréé, et un nouveau secret est généré.
+* Lorsqu’un webhook sortant est inscrit, un secret est généré, ce qui permet au webhook sortant de vérifier que l’expéditeur est Microsoft Teams par opposition à un attaquant malveillant. Ce secret doit rester un secret ; toute personne qui y a accès peut emprunter l’identité de Microsoft Teams. Si le secret est compromis, supprimez et recréez le webhook sortant pour générer un nouveau secret.
 
 * Bien qu’il soit possible de créer un webhook sortant qui ne valide pas le secret, nous vous recommandons de le faire.
 

@@ -3,7 +3,6 @@ title: Modifier l’apparence des applications dans le magasin Teams de votre or
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -14,15 +13,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment modifier l’apparence de l’application et renommer une application en modifiant les détails et les métadonnées de l’application.
-ms.openlocfilehash: 32c526e2cbbb4ef464e0daa777228e0a17dd391b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 304aa0b5d8becae641f69b0c389ca41160ad2e2f
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269079"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298883"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>Personnaliser l’apparence des applications dans le magasin Teams de votre organisation
 
@@ -102,13 +101,13 @@ Vos utilisateurs finaux Teams peuvent désormais voir l’application personnali
 
 Notez les détails suivants sur la personnalisation d’une application :
 
-* Lorsque vous personnalisez des applications et toute description liée à une application, veillez à suivre les instructions de personnalisation fournies par l’éditeur de l’application dans sa documentation ou ses conditions d’utilisation. Vous êtes également responsable du respect des droits d’autres personnes concernant les images tierces que vous pouvez utiliser.
+* Lorsque vous personnalisez des applications et toute description liée à une application, veillez à suivre les instructions de personnalisation fournies par le développeur de l’application dans sa documentation ou ses conditions d’utilisation. Vous êtes également responsable du respect des droits d’autres personnes concernant les images tierces que vous pouvez utiliser.
 
 * Les données de personnalisation fournies par l’administrateur sont stockées dans la région la plus proche.
 
 * Il vous incombe de vous assurer que les liens vers les conditions d’utilisation ou la politique de confidentialité sont valides.
 
-* Si l’éditeur d’application n’autorise plus la personnalisation d’un champ, un message s’affiche sur la page de détails de l’application pour informer l’administrateur des champs qui ne peuvent plus être personnalisés. Toutes les modifications apportées à ce champ seront rétablies aux valeurs d’origine.
+* Si le développeur d’application n’autorise plus la personnalisation d’un champ, un message s’affiche sur la page de détails de l’application pour informer l’administrateur des champs qui ne peuvent plus être personnalisés. Toutes les modifications apportées à ce champ seront rétablies aux valeurs d’origine.
 
 * Nous vous recommandons de tester les modifications de personnalisation d’application dans un locataire de test Teams avant d’apporter ces modifications dans votre environnement de production.
 
