@@ -1,6 +1,6 @@
 ---
 title: Rechercher des événements de gestion des applications dans les journaux d’audit
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -13,13 +13,13 @@ f1keywords: ''
 description: Découvrez comment auditer les activités d’application Teams des utilisateurs et des administrateurs de votre organisation.
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
-ms.openlocfilehash: 0ad20fc8d5efd6c243ce29c3255b787bae322994
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.localizationpriority: medium
+ms.openlocfilehash: 5eb1ffe4a637c61efc8e64e970f25474933914a7
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269719"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299253"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>Auditer les activités et les événements de gestion des applications
 
@@ -69,7 +69,7 @@ Après avoir recherché la connexion d’audit dans le portail de conformité, v
 > [!NOTE]
 > Lorsque l’une des activités ci-dessus est effectuée par un utilisateur ou un administrateur, Teams génère et stocke un enregistrement d’audit. Dans Audit (Standard), les enregistrements sont conservés pendant 90 jours, ce qui signifie que vous pouvez rechercher des activités qui se sont produites au cours des trois derniers mois.
 
-## <a name="see-also"></a>Voir aussi
+## <a name="related-articles"></a>Articles connexes
 
 * [Utiliser les journaux d’audit pour examiner l’activité d’installation de Microsoft Power Platform](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
 * [Recherchez le signe d’audit dans le portail de conformité](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
