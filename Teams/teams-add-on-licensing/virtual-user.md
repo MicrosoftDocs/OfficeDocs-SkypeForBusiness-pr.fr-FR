@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Découvrez comment attribuer des licences de compte de ressources de téléphone Teams gratuites ou des licences utilisateur Téléphonie Teams standard payantes aux comptes de ressources de votre organisation.
-ms.openlocfilehash: 07b47b2ec5b24b1edbfb599dc5a61e96169a02a2
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: f8aaf7480fc228fc78879ed5905aaaf7092777ab
+ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615400"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "67298294"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>licences de compte de ressource Téléphonie Microsoft Teams
 
@@ -34,7 +34,7 @@ Les organisations avec Téléphonie Teams standard ou Teams Phone avec forfait d
 Tous les standards automatiques et les files d’attente d’appels nécessitent un compte de ressource associé. Les comptes de ressources qui nécessitent un numéro de téléphone ont besoin d’une licence *de compte* de ressource Téléphonie Microsoft Teams gratuite ou d’une licence d’utilisateur *Téléphonie Teams standard* payante avant qu’un numéro de téléphone puisse être appliqué au compte de ressource.
 
 > [!TIP]
-> Aucune licence n’est nécessaire pour les comptes de ressources qui seront utilisés avec des standards automatiques imbriqués ou des files d’attente d’appels qui n’ont pas de numéro de téléphone attribué. Consultez le diagramme suivant pour obtenir des informations de référence.
+> Aucune licence n’est nécessaire pour les comptes de ressources qui seront utilisés avec des standards automatiques imbriqués ou des files d’attente d’appels qui n’ont pas de numéro de téléphone attribué.
 
 ## <a name="resource-account-license-allocation"></a>Allocation de licences de compte de ressources
 

@@ -1533,14 +1533,18 @@ items:
             href: adobe-acrobat-pdf-viewer-teams.md
           - name: Gérer les connecteurs Microsoft 365 et connecteurs personnalisés
             href: Office-365-custom-connectors.md
-      - name: Gérer des applications métier personnalisées
+      - name: Gérer les applications personnalisées
         items:
+          - name: Gérer les applications personnalisées et chargées de manière indépendante
+            href: custom-app-overview.md
+          - name: Gérer les stratégies et paramètres d’application personnalisés
+            href: teams-custom-app-policies-and-settings.md
+          - name: Publier des applications personnalisées envoyées à l’aide de l’API
+            href: submit-approve-custom-apps.md
+          - name: Publier une application personnalisée envoyée en tant que package
+            href: upload-custom-apps.md
           - name: Gérer les applications Power Platform dans le Centre d'administration Teams
             href: manage-power-platform-apps.md
-          - name: Publier des applications personnalisées sur le magasin de votre organisation
-            href: submit-approve-custom-apps.md
-          - name: Publier une application personnalisée en téléchargeant un package d’application
-            href: upload-custom-apps.md
       - name: Contrôles d’administration pour régir les applications
         items:
           - name: Vue d’ensemble de la gestion des applications
@@ -1557,7 +1561,7 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: Personnaliser les applications Teams pour vos employés de première ligne
             href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-          - name: Autorisations graphique et consentement administrateur dans Azure AD
+          - name: Passer en revue les autorisations des applications et accorder le consentement administrateur
             href: app-permissions-admin-center.md
           - name: Gérer le consentement spécifique à la ressource pour votre organisation
             href: resource-specific-consent.md

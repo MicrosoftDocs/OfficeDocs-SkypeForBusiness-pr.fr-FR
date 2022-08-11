@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b547990a05d6c4ff0bd7a3bd36fdf3fbe431202e
-ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
+ms.openlocfilehash: 73f11abed8101031361e92d008c4edbd89b9a31c
+ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66958139"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67278768"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurer la connexion parente dans Microsoft Teams pour l'éducation
 
@@ -181,7 +181,7 @@ Une fois que les stratégies d’accès externe au niveau utilisateur sont corre
 
 ## <a name="turn-on-the-parents-app-in-the-teams-admin-center"></a>Activer l’application Parents dans le Centre d’administration Teams
 
-L’application Parents est désactivée par défaut, de sorte que les propriétaires d’équipe de classe ne la voient pas dans leurs équipes de classes tant qu’elle n’est pas autorisée par le biais du Centre d’administration Teams. L’application Parents est activée dans le Centre d’administration Teams à l’aide des [applications Autoriser bloquées par les éditeurs](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers).
+L’application Parents est désactivée par défaut, de sorte que les propriétaires d’équipe de classe ne la voient pas dans leurs équipes de classes tant qu’elle n’est pas autorisée par le biais du Centre d’administration Teams. L’application Parents est activée dans le Centre d’administration Teams à l’aide [d’Autoriser les applications bloquées par les développeurs](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers).
 
 À tout moment, l’application peut être désactivée au niveau du locataire à l’aide des [applications Autoriser et bloquer](manage-apps.md#allow-and-block-apps) dans le Centre d’administration Teams. S’il est désactivé au niveau du locataire, il est bloqué pour tous les utilisateurs, même si les autorisations au niveau de l’utilisateur sont activées.
 
