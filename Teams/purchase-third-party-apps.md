@@ -15,12 +15,12 @@ description: Découvrez comment acheter des applications tierces dans le magasin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 9da0b39582238f10fc3d76d7299afd0b004048fd
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 41882a241a911e7c482a2a9a16c9fa9cfd649e9d
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270829"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299193"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Achat d’applications tierces pour Teams
 
@@ -34,8 +34,7 @@ Ici, vous pouvez également acheter des licences pour les services offerts par d
 
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>Acheter des applications dans le Centre d'administration Teams
 
-> [!IMPORTANT]
-> Lorsque vous activez l’achat d’applications, il active également l’achat dans l’application. Les utilisateurs peuvent voir des offres d’achat dans l’application qui sont contrôlées par l’éditeur de logiciels indépendant pour leur application. Si vous souhaitez empêcher vos utilisateurs d’acheter une application, vous devez bloquer l’application. Pour plus d’informations sur le blocage d’une application, consultez [Gérer les stratégies d’application](app-policies.md) ou [découvrez comment bloquer une application au niveau de l’organisation](manage-apps.md#allow-and-block-apps).
+Pour acheter des applications dans le centre d'administration Teams, procédez comme suit : 
 
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **Applications Teams** > **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)**. Vous devez être un administrateur global ou un administrateur de service Teams pour accéder à la page.
 
@@ -47,7 +46,7 @@ Ici, vous pouvez également acheter des licences pour les services offerts par d
 1. Lorsque vous trouvez l'application, sélectionnez **Acheter** pour accéder à l'onglet **Plans et tarifs** de la page des détails de l'application. Passez en revue les plans et les informations de tarification de l'offre SaaS pour l'application. Si vous souhaitez avoir plus d’informations, sélectionnez **En savoir plus** pour accéder à la page de l’application sur [AppSource](https://appsource.microsoft.com/).
 
    > [!NOTE]
-   > Les offres privées peuvent également être répertoriées à l’achat, ce qui inclut des tarifs spéciaux que votre organisation a précédemment négociés avec un éditeur de logiciels indépendant. Ces offres ont l’étiquette **Plan privé** sous leur nom.
+   > Des plans privés peuvent également être proposés à l'achat, qui incluent des tarifs spéciaux que votre organisation peut négocier séparément avec un développeur d'applications. Ces régimes portent l'étiquette **Plan privé** sous le nom du régime.
 
 1. Pour vous abonner à une application, choisissez l’offre souhaitée, puis sélectionnez **Acheter**. Le flux de paiement s'ouvre directement dans le centre d'administration Teams.
 
@@ -76,7 +75,10 @@ Pour afficher et gérer les licences que vous avez achetées, sélectionnez **G�
 Les administrateurs généraux peuvent ajouter plus de licences, supprimer des licences et annuler les licences pour les achats effectués par n'importe qui dans l'organisation. Les administrateurs de service Teams peuvent effectuer les mêmes actions pour les achats effectués par eux-mêmes. Toutefois, si un administrateur de service Teams a également le rôle d'administrateur de facturation, il peut gérer les achats effectués par n'importe qui dans l'organisation.
 
 > [!NOTE]
-> Si un administrateur général souhaite gérer un abonnement acheté par un autre administrateur général, il doit se trouver dans le même compte de facturation. Vous pouvez accorder un autre accès administrateur général à un abonnement que vous avez acheté en sélectionnant l’application dans le [Centre d'administration Microsoft 365](https://admin.microsoft.com). À partir de là, accédez à **Afficher le profil de facturation** > **Sélectionner le compte de facturation** > **Attribuer des rôles** > **Ajouter d’autres administrateurs généraux**.
+> Si un administrateur général souhaite gérer un abonnement acheté par un autre administrateur général, il doit se trouver dans le même compte de facturation. Vous pouvez accorder un autre accès administrateur général à un abonnement que vous avez acheté en sélectionnant l’application dans le [Centre d'administration Microsoft 365](https://admin.microsoft.com). Dans le Centre d’administration, accédez à **Afficher le profil de facturation** > **Sélectionner le compte de facturation** > **Attribuer des rôles** > **Ajouter d’autres administrateurs généraux**.
+
+> [!IMPORTANT]
+> Lorsque vous activez l'achat d'applications, cela active également les achats intégrés. Les utilisateurs peuvent voir des offres d'achat dans l'application qui sont contrôlées par le développeur de l'application pour leur application. Pour empêcher les utilisateurs d'acheter une application, vous devez bloquer l'application.
 
 ### <a name="invoice-billing"></a>Facturation
 
