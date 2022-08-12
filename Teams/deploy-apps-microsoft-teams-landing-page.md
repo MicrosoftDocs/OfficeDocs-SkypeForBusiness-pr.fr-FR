@@ -3,7 +3,7 @@ title: En savoir plus sur les applications dans Microsoft Teams
 ms.reviewer: ''
 description: Découvrez les applications et décidez des applications à autoriser dans Teams en fonction du profil de votre organisation et des exigences métier.
 ms.topic: article
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 77d33fc464ab67945c8d3c588c4ce47366c2ba2d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: b7e95c04a2a8632fbda566c322e474809703de03
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270259"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298913"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Comprendre les applications Microsoft Teams
 
@@ -49,7 +49,7 @@ Certaines fonctionnalités de Teams, telles que le flux d'activité, les équipe
 
 ## <a name="microsoft-provided-apps"></a>Applications fournies par Microsoft
 
-Microsoft fournit de nombreuses applications pour améliorer la productivité et la collaboration. Vous et les utilisateurs finaux pouvez trouver ces applications en recherchant Microsoft répertorié en tant que serveur de publication dans le centre d’administration ou répertorié en tant que fournisseur dans le Magasin d’équipes.
+Microsoft fournit de nombreuses applications pour améliorer la productivité et la collaboration. Vous et les utilisateurs finaux pouvez trouver ces applications en recherchant Microsoft répertorié en tant qu’éditeur dans le Centre d’administration Teams ou répertorié en tant que fournisseur dans Teams Store.
 
 Teams insère un ensemble d’applications intégrées, notamment Listes, Tâches, Compliments, Approbations, etc. Nous vous recommandons d'inclure les applications recommandées, telles que Planner, dans votre déploiement initial de Teams.
 
@@ -65,19 +65,11 @@ En plus des applications fournies par Microsoft, vous pouvez utiliser des applic
 
 Les applications créées par les développeurs de votre organisation sont appelées applications personnalisées ( ou applications de secteur d'activité). Votre organisation peut commander la création d'applications personnalisées pour répondre à des besoins spécifiques. Vous avez la possibilité d'autoriser ou de bloquer ces applications pour l'ensemble de l'organisation ou pour des utilisateurs spécifiques. Les développeurs de votre organisation peuvent créer des solutions personnalisées à faible code en utilisant l'intégration de Teams avec [Microsoft Power Plateforme](/microsoftteams/platform/samples/teams-low-code-solutions).
 
-Une fois qu’un administrateur autorise l’utilisation d’applications personnalisées, les utilisateurs finaux recherchent ces applications en cliquant sur **Conçu pour votre organisation** dans le volet de navigation gauche du magasin Teams.
+Une fois qu’un administrateur autorise l’utilisation d’applications personnalisées, les utilisateurs finaux peuvent rechercher ces applications en cliquant sur **Conçu pour votre organisation** dans le volet de navigation gauche de Teams Store.
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Capture d’écran des applications personnalisées dans le magasin Teams dans l’application de bureau teams." lightbox="media/built-for-your-org2.png":::
 
-<!--- TBD - new article on custom app overview and sideloading. --->
-
-### <a name="understand-sideloading-of-custom-apps"></a>Comprendre le chargement indépendant des applications personnalisées
-
-Lorsqu'ils développent des applications personnalisées et avant de les distribuer aux utilisateurs finaux, les développeurs testent les applications en les ajoutant au Teams Store pour les tester. Les développeurs peuvent effectuer des tests seuls ou avec un groupe d'utilisateurs déterminé, mais l'application n'est pas accessible aux autres utilisateurs finaux de l'organisation. Cette méthode est appelée chargement indépendant des applications et s’applique uniquement aux applications personnalisées.
-
-Les développeurs peuvent recourir au chargement indépendant d’une application pour la mettre à la disposition des membres d’une équipe spécifique, généralement pour tester une application en cours de développement. De cette manière, seuls les développeurs de l’application peuvent l’utiliser sans nécessiter l’autorisation de l’administrateur, à condition que ce dernier autorise le chargement indépendant dans Teams. En tant qu’administrateur, vous pouvez interdire le chargement indépendant de l’application pour tous les développeurs.
-
-Si vous interdisez le chargement indépendant, les développeurs peuvent toujours tester leurs applications en [créant un client de test distinct](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Une fois le développement d’applications personnalisées terminé, les développeurs demandent aux administrateurs de distribuer leur application personnalisée aux utilisateurs finaux. Pour plus d’informations, consultez [comment publier une application personnalisée](/microsoftteams/upload-custom-apps). En tant qu’administrateur, vous pouvez autoriser ou interdire l’utilisation d’une application personnalisée pour des utilisateurs spécifiques.
+Pour plus d’informations, consultez [Comprendre et gérer les applications personnalisées et chargées de manière indépendante](custom-app-overview.md).
 
 ## <a name="about-app-templates"></a>À propos des modèles d’application
 

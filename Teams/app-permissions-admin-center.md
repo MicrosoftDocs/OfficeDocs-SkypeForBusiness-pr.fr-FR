@@ -1,24 +1,23 @@
 ---
 title: Afficher les autorisations des applications et accorder le consentement administrateur dans le Centre d’administration Microsoft Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
-ms.reviewer: vaibhava
 manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Découvrez comment afficher les autorisations demandées par les applications et accorder le consentement administrateur aux applications dans la page Gérer les applications du Centre d’administration Microsoft Teams.
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e3d7ca4f86660080cb387a9d4cd80927f296040
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: f5bd84ce2fa19fc7a9aa823250fa77f1980055f0
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175648"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299053"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Afficher les autorisations des applications et accorder le consentement administrateur dans le Centre d’administration Microsoft Teams
 
@@ -86,9 +85,9 @@ Pour afficher les autorisations RSC pour une application, procédez comme suit 
 
 ### <a name="the-view-details-link-isnt-displayed-in-the-permissions-column-for-some-third-party-apps-that-request-permissions"></a>Le lien « Afficher les détails » n’est pas affiché dans la colonne Autorisations pour certaines applications tierces qui demandent des autorisations.
 
-Actuellement, la possibilité d’examiner les autorisations et d’accorder le consentement n’est pas disponible pour toutes les applications tierces inscrites dans Azure Active Directory qui demandent des autorisations. Au lieu du lien **Afficher les détails**, vous le verrez **--** dans la colonne **Autorisations** . Nous travaillons avec les éditeurs de logiciels indépendants pour activer cette fonctionnalité pour leurs applications.
+La possibilité d’examiner des autorisations et d’accorder un consentement n’est pas disponible pour toutes les applications tierces. En règle générale, les applications tierces sont inscrites dans Azure Active Directory lorsque les applications demandent des autorisations. Au lieu du lien **Afficher les détails**, vous le verrez `--` dans la colonne **Autorisations** .
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-articles"></a>Articles connexes
 
 * Vous gérez les applications pour votre organisation dans les [applications Teams au sein du centre d’administration Microsoft Teams](manage-apps.md).
 * [Autorisations et consentement dans le point de terminaison Plateforme d’identités Microsoft pour développeurs](/azure/active-directory/develop/v2-permissions-and-consent)

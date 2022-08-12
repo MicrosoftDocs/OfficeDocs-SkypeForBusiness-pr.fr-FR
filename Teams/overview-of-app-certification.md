@@ -1,6 +1,5 @@
 ---
 title: Vue d’ensemble de la certification des applications par Microsoft
-ms.reviewer: ''
 description: Découvrez le programme de conformité de l’application Microsoft 365 pour la sécurité, la conformité et la confidentialité des applications tierces.
 ms.topic: article
 author: guptaashish
@@ -18,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b18e8e596fc1b8180a056c5a141b45e60bd7f889
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 9918c1ce81464f2fbe9a0c16bc0373e54858d79b
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880418"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299083"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Programme de conformité de l’application Microsoft 365 pour la sécurité, la conformité et la confidentialité des applications tierces
 
@@ -35,7 +34,7 @@ Le programme de conformité Microsoft vérifie et audite une application par rap
 
 ## <a name="publisher-verification"></a>Vérification de l’éditeur
 
-Avant qu’un développeur d’application ne puisse soumettre son application à Microsoft, il doit faire l’objet d’une vérification. Un éditeur vérifie son identité à l’aide de son compte Microsoft Partner Network (MPN) et associe ce compte MPN à son inscription de l’application. La vérification de l’éditeur aide les administrateurs et les utilisateurs finaux à comprendre l’authenticité des développeurs d’applications. La vérification Publisher offre les avantages suivants :
+Avant qu’un développeur d’application ne puisse soumettre son application à Microsoft, il doit faire l’objet d’une vérification. Un développeur vérifie son identité à l’aide de son compte Microsoft Partner Network (MPN) et associe ce compte MPN à son inscription d’application. La vérification de l’éditeur aide les administrateurs et les utilisateurs finaux à comprendre l’authenticité des développeurs d’applications. La vérification Publisher offre les avantages suivants :
 
 * Transparence accrue et réduction des risques pour les clients : cette fonctionnalité permet aux clients de comprendre quelles applications utilisées dans leur organisation sont publiées par les développeurs auxquels ils font confiance.
 * Amélioration de la personnalisation : un badge `verified` s’affiche dans l’invite de consentement Azure Active Directory, la page des applications d’entreprise et d’autres interfaces utilisateur utilisées par les utilisateurs finaux et les administrateurs.

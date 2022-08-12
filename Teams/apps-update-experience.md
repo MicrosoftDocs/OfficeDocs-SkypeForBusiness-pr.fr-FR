@@ -1,9 +1,8 @@
 ---
 title: Expérience de mise à jour d’applications dans Microsoft Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -14,31 +13,33 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Dans cet article, découvrez la mise à jour des applications Microsoft, des applications personnalisées et des applications tierces dans Microsoft Teams.
-ms.openlocfilehash: bcd06b9814b03d917014d8136f51a280e30007d1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Dans cet article, découvrez comment les applications Microsoft, les applications personnalisées et les applications tierces dans Microsoft Teams sont mises à jour et comment les administrateurs les mettent à disposition.
+ms.openlocfilehash: ed91ad441b773833838796d9ea8c71038c842b88
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272059"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299043"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Mettre à jour des applications dans Microsoft Teams
 
-Dans la plupart des cas, après la publication d’une mise à jour d’application par des développeurs, la nouvelle version s’affiche automatiquement pour les utilisateurs. Toutefois, certaines mises à jour du [Manifeste Microsoft Teams](/microsoftteams/platform/resources/schema/manifest-schema) nécessitent l’acceptation de l’utilisateur :
+Dans la plupart des cas, une fois qu’une nouvelle version d’une application est disponible dans Teams Store, l’application est automatiquement mise à jour pour les utilisateurs. Toutefois, quelques modifications spécifiques apportées à la nouvelle version de l’application nécessitent l’acceptation par l’utilisateur de la mise à jour de l’application. L’acceptation de l’utilisateur garantit la sensibilisation aux modifications telles que les fonctionnalités ou l’accès. Si les développeurs d’applications apportent les modifications spécifiques suivantes aux applications Microsoft Teams, vos utilisateurs finaux doivent approuver la mise à jour de l’application :
 
-* Un bot a été ajouté ou supprimé.
-* La propriété « botId » existante d’un bot a changé.
-* La propriété existante « isNotificationOnly » d’un bot a changé.
-* La fonctionnalité SupportsCalling, SupportsVideo et SupportsFiles d’un bot a été ajoutée.
+* Un bot est ajouté.
+* La propriété `isNotificationOnly` d’un bot existant ou la propriété `botId` est modifiée.
+* La fonctionnalité `SupportsCalling`, `SupportsVideo` ou `SupportsFiles` d’un bot est ajoutée.
 * Une extension de messagerie a été ajoutée.
-* Un nouveau connecteur a été ajouté.
-* Des autorisations dans « Autorisation » ont été ajoutées ou modifiées.
+* Les autorisations dans Autorisation sont ajoutées ou modifiées.
+* `Id` ou `ApplicationPermissionsHash`, ou les deux sont modifiés à l’intérieur du `webApplicationInfo`.
 
-:::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="Nouvelle version disponible." lightbox="media/manage-your-custom-apps-update1.png":::
+<!--- image update
+:::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="New version available." lightbox="media/manage-your-custom-apps-update1.png":::
 
-:::image type="content" source="media/manage-your-custom-apps-update2.png" alt-text="Option de mise à niveau pour une application." lightbox="media/manage-your-custom-apps-update2.png":::
+:::image type="content" source="media/manage-your-custom-apps-update2.png" alt-text="Upgrade option for an app." lightbox="media/manage-your-custom-apps-update2.png":::
+--->
 
-> [!NOTE]
-> Le processus de mise à jour s’applique à toutes les mises à jour d’application pour les applications Microsoft, les applications personnalisées et les applications tierces.
+## <a name="related-articles"></a>Articles connexes
+
+* [Comprendre le schéma du manifeste pour les mises à jour effectuées dans les applications](/microsoftteams/platform/resources/schema/manifest-schema).
