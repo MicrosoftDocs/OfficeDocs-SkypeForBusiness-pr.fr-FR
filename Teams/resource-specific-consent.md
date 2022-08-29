@@ -12,12 +12,12 @@ ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b506352052924b8394cbdfc712ce96750b96523
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: fb96b6130ce87d8d1453f6ea4ee40af2bb84050d
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298893"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396465"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Consentement spécifique à la ressource dans Microsoft Teams
 
@@ -31,7 +31,7 @@ En tant qu’administrateur, vous contrôlez si les propriétaires d’équipe d
 
 Voici les paramètres que vous devez définir pour contrôler si les propriétaires d’équipe peuvent donner leur consentement aux applications. Veillez à passer en revue tous les paramètres suivants.
 
-### <a name="settings-in-azure-ad"></a>Paramètres dans Azure AD
+### <a name="settings-in-azure-active-directory-portal"></a>Paramètres dans le portail Azure Active Directory
 
 Les deux paramètres suivants déterminent si les propriétaires d’équipe peuvent donner leur consentement aux applications.
 
@@ -62,8 +62,8 @@ Outre les paramètres dans Azure AD, [les paramètres d’application à l’éc
 
 Ce paramètre d’application à l’échelle de l’organisation contrôle si les utilisateurs de votre organisation peuvent utiliser des applications tierces. Ce paramètre doit être activé pour permettre aux propriétaires d’équipe de donner leur consentement. Pour gérer ce paramètre, procédez comme suit :
 
-1. Dans la navigation de gauche du centre d'administration de Microsoft Teams, accédez aux **applications Teams** > **Gérer les applications**, puis cliquez sur **Paramètres de l’application à l’échelle de l’organisation**.
-2. Sous **Applications tierces**, désactivez ou activez **Autoriser les applications tierces**.
+1. Connectez-vous au Centre d’administration Teams et accédez aux **applications** >  Teams **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Sélectionnez **les paramètres d’application à l’échelle de l’organisation** et, sous **Applications tierces**, désactivez ou **activez Autoriser les applications tierces**.
 
     ![Capture d’écran du paramètre « Autoriser les applications tierces dans Teams »](media/resource-specific-consent-org-wide-setting.png)
 
@@ -73,8 +73,8 @@ Il est possible que les modifications ne prennent effet qu'après 24 heures.
 
 Lorsque vous bloquez ou autorisez une application sur la page [Gérer les applications](manage-apps.md#allow-and-block-apps), cette application est bloquée ou autorisée pour tous les utilisateurs de votre organisation. Les propriétaires d’équipe ne peuvent donner leur consentement à une application que si l’application est autorisée. Pour autoriser ou bloquer une application au niveau de l’organisation, procédez comme suit :
 
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **applications Teams** > **Gérer les applications**.
-2. Dans la page Gérer les applications, sélectionnez l’application, puis cliquez sur **Bloquer** pour la bloquer ou cliquez sur **Autoriser** pour l’autoriser.
+1. Connectez-vous au Centre d’administration Teams et accédez aux **applications** >  Teams **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Dans la page Gérer les applications, sélectionnez l’application, puis **sélectionnez Bloquer** pour la bloquer ou **sélectionnez Autoriser** pour l’autoriser.
 
     ![Capture d’écran des applications bloquées dans les paramètres à l’échelle de l’organisation.](media/resource-specific-consent-allow-block-apps.png)
 
@@ -83,16 +83,16 @@ Lorsque vous bloquez ou autorisez une application sur la page [Gérer les applic
 Les propriétaires d’équipe peuvent uniquement donner leur consentement aux applications que leur stratégie d’autorisation d’application leur permet d’exécuter. Pour afficher et gérer la stratégie d’autorisation d’application affectée à un propriétaire d’équipe, procédez comme suit :
 
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Utilisateurs**.
-2. Double-cliquez sur le nom d’affichage du propriétaire de l’équipe, puis cliquez sur **Stratégies**.
-3. La stratégie affectée au propriétaire de l’équipe est répertoriée sous **Stratégie d’autorisation d’application**.
-    - Pour affecter une autre stratégie, cliquez sur **Modifier**, puis sélectionnez la stratégie que vous souhaitez affecter.
-    - Pour modifier les paramètres de la stratégie affectée au propriétaire de l'équipe, cliquez sur le nom de la stratégie, puis apportez les modifications souhaitées.  
+1. Double-cliquez sur le nom complet du propriétaire de l’équipe, puis sélectionnez **Stratégies**.
+1. La stratégie affectée au propriétaire de l’équipe est répertoriée sous **Stratégie d’autorisation d’application**.
+    - Pour affecter une autre stratégie, **sélectionnez Modifier**, puis sélectionnez la stratégie que vous souhaitez affecter.
+    - Pour modifier les paramètres de la stratégie affectée au propriétaire de l’équipe, sélectionnez le nom de la stratégie, puis apportez les modifications souhaitées.  
 
-## <a name="uploading-custom-apps"></a>Chargement d’applications personnalisées
+## <a name="upload-custom-apps"></a>Charger des applications personnalisées
 
 Lors du téléchargement d'une application personnalisée (également connu sous le nom de sideloading) qui utilise un consentement spécifique aux ressources, l'application doit provenir du locataire sur lequel elle est installée. En d’autres termes, l’inscription d’application Azure AD doit être à partir de ce locataire. Les administrateurs généraux sont exemptés de cette restriction et peuvent charger des applications personnalisées à partir de n’importe quel locataire, directement vers une équipe (chargement indépendant) ou dans le catalogue d’applications client.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 - [Autorisations RSC disponibles](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 - [Microsoft Graph](https://developer.microsoft.com/graph)

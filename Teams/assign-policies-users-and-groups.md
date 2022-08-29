@@ -18,12 +18,12 @@ description: Découvrez les différentes façons d’affecter des stratégies à
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 9d286d4451ce143a54beda6e457c12ba059832b3
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: a57c038242c06f4305410e68cff907aef6889841
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267579"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396648"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>Affecter des stratégies à des utilisateurs et des groupes
 
@@ -147,6 +147,10 @@ Si vous ne spécifiez pas de classement, l’attribution de stratégie reçoit l
 Pour supprimer une affectation de stratégie de groupe, sous l’onglet **Affectation** de stratégie de groupe de la page de stratégie, sélectionnez l’affectation de groupe, puis **sélectionnez Supprimer**.
 
 Pour modifier le classement d’une affectation de groupe, vous devez d’abord supprimer l’affectation de stratégie de groupe. Ensuite, suivez les étapes ci-dessus pour affecter la stratégie à un groupe.
+
+Cette vidéo montre les étapes à suivre pour créer et affecter une stratégie de réunion personnalisée à un groupe.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Ws0?autoplay=false]
 
 ### <a name="use-the-powershell-option"></a>Utiliser l’option PowerShell
 
@@ -376,7 +380,7 @@ Lorsque vous désattribuez des stratégies en bloc, vous supprimez les affectati
 
 Après avoir désattribué des stratégies, vous pouvez consulter les détails de l’opération dans le [journal d’activité](https://admin.teams.microsoft.com/activity-log).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Gérer Teams avec des stratégies](manage-teams-with-policies.md)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
