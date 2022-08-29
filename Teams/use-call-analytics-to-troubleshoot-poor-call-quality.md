@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Utilisez les détails d’Analyse des appels par utilisateur sur les appareils, les réseaux et la connectivité pour résoudre les problèmes d’utilisateur avec les appels et réunions Microsoft Teams.
-ms.openlocfilehash: 38636d911be55648ec17628bcec7d4cee21358c5
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: c83ecbad418dc471f1db2c9c71b88fa621fe4a11
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794312"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397095"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels
 
@@ -54,6 +54,10 @@ Pour afficher toutes les informations et données d’appel d’un utilisateur, 
 Pour obtenir des informations supplémentaires sur une session donnée, notamment des statistiques détaillées sur les médias et les réseaux, cliquez sur une session pour afficher les détails.
 
 ![Capture d’écran des données de session utilisateur d’analyse des appels.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
+
+Cette vidéo montre les étapes permettant d’afficher les réunions et les informations d’appel d’un utilisateur.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x2e?autoplay=false]
 
 ## <a name="what-does-each-teams-support-role-do"></a>Que fait chaque rôle de support Teams ?
 
@@ -93,7 +97,7 @@ Le tableau suivant vous indique les informations par utilisateur disponibles pou
 
    Dans les détails de la session pour chaque appel ou réunion, les problèmes mineurs apparaissent en jaune. Si quelque chose est jaune, il est en dehors de la plage normale, et il peut contribuer au problème, mais il est peu probable qu’il soit la cause principale du problème. Si quelque chose est rouge, il s’agit d’un problème important, et c’est probablement la cause principale de la mauvaise qualité des appels pour cette session.
 
-Dans de rares cas, les données de qualité de l’expérience ne sont pas reçues pour les sessions audio. Cela est souvent dû à l’abandon d’un appel ou à l’arrêt de la connexion avec le client. Lorsque cela se produit, l’évaluation de session n’est **pas disponible**.
+Dans de rares cas, les données de qualité de l’expérience ne sont pas reçues pour les sessions audio. Cela est souvent dû à un appel supprimé ou à l’arrêt de la connexion avec le client. Lorsque cela se produit, l’évaluation de session n’est **pas disponible**.
 
 Pour les sessions audio qui ont des données de qualité d’expérience (QoE), le tableau suivant décrit les principaux problèmes qui qualifient une session de **médiocre**.
 
@@ -104,6 +108,6 @@ Pour les sessions audio qui ont des données de qualité d’expérience (QoE), 
 |L’appareil ne fonctionne pas|Device|Un appareil ne fonctionne pas correctement. Les ratios de non-fonctionnement de l’appareil sont les suivants : <p> DeviceRenderNotFunctioningEventRatio >= 0,005 <br>  DeviceCaptureNotFunctioningEventRatio >= 0,005|
 ||||
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer l’analytique des appels par utilisateur](set-up-call-analytics.md)

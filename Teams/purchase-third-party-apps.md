@@ -1,6 +1,6 @@
 ---
 title: Achat d’applications tierces pour Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -15,12 +15,12 @@ description: Découvrez comment acheter des applications tierces dans le magasin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 41882a241a911e7c482a2a9a16c9fa9cfd649e9d
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 680f48fd75c85b219a4c1ed5b18289962637401b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299193"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396305"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Achat d’applications tierces pour Teams
 
@@ -34,9 +34,9 @@ Ici, vous pouvez également acheter des licences pour les services offerts par d
 
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>Acheter des applications dans le Centre d'administration Teams
 
-Pour acheter des applications dans le centre d'administration Teams, procédez comme suit : 
+Pour acheter des applications dans le centre d'administration Teams, procédez comme suit :
 
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **Applications Teams** > **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)**. Vous devez être un administrateur global ou un administrateur de service Teams pour accéder à la page.
+1. Connectez-vous au Centre d’administration Teams et accédez aux **applications** >  Teams **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)**. Vous devez être un administrateur global ou un administrateur de service Teams pour accéder à la page.
 
 1. Recherchez l’application souhaitée par son nom. Pour identifier les applications qui ont un abonnement SaaS payant, regardez dans la colonne **Licences**. Chaque application a l’une des valeurs suivantes :
     * **Achat** : l'application propose un abonnement SaaS et elle est disponible à l'achat.  

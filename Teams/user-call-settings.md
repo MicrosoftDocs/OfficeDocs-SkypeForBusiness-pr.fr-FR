@@ -20,12 +20,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer les paramètres utilisateur pour le transfert et la délégation des appels.
-ms.openlocfilehash: 64907043448f44ff861ede026d0a4343899ad98b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c9d085027ed1b365e8aa47b5908c946c4234e5ca
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272229"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397355"
 ---
 # <a name="configure-call-settings-for-your-users"></a>Configurer les paramètres d’appel pour vos utilisateurs
 
@@ -56,6 +56,10 @@ Pour configurer la sonnerie simultanée, dans la même page, sélectionnez **Son
 Pour configurer les paramètres sans réponse, dans la même page, sélectionnez le paramètre approprié dans la liste **déroulante Si sans réponse** . Dans **l’Anneau pendant ces nombreuses secondes avant de rediriger** la liste déroulante, spécifiez le nombre de secondes d’attente.
 
 La configuration de la délégation d’appel et de la prise d’appel de groupe est intégrée aux paramètres de transfert d’appel et sans réponse en sélectionnant le type approprié. Par exemple, pour configurer que les appels doivent également sonner les délégués de l’utilisateur, dans la même page, sélectionnez **Délégation d’appel** sous **Autoriser également**. Ajoutez ensuite les délégués appropriés en sélectionnant **Ajouter des personnes** et en cliquant sur **Enregistrer**.
+
+Cette vidéo montre les étapes à suivre pour afficher et modifier les paramètres vocaux d’un utilisateur.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE546F7?autoplay=false]
 
 ## <a name="use-powershell"></a>Utiliser PowerShell
 
@@ -149,7 +153,7 @@ Pour supprimer user2 en tant que délégué pour user1, utilisez l’applet de c
 Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings)
 - [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings)

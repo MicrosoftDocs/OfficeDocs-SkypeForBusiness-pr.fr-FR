@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lisez cet article pour plus d’informations sur la création de comptes de ressources pour les salles et les appareils partagés, notamment les Salles Microsoft Teams, les salles Teams sur Surface Hub et la mise à l’eau à chaud sur les écrans Teams.
-ms.openlocfilehash: eaa95efde1db01d3c7a346309f50eca2427af4e8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 45cd61b476f10f673150653144bdb79a47604962
+ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271709"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67405156"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>Créer et configurer des comptes de ressources pour les salles et les appareils Teams partagés
 
@@ -95,7 +95,7 @@ Créez un compte de ressource à l’aide d’une méthode à partir de l’un d
 
 3. Accédez à **Ressources** dans le volet gauche, puis sélectionnez **Salles & équipement**. Si ces options ne sont pas disponibles dans le volet gauche, vous devrez peut-être sélectionner **Afficher tout** d’abord.
 
-4. Sélectionnez **Ajouter une boîte aux lettres de ressources** pour créer un compte de salle. Entrez un nom d’affichage et une adresse e-mail pour le compte, sélectionnez **Ajouter**, puis **sélectionnez Fermer**.
+4. Sélectionnez **Ajouter une ressource** pour créer un compte de salle. Entrez un nom d’affichage et une adresse e-mail pour le compte, sélectionnez **Ajouter**, puis **sélectionnez Fermer**.
 
 5. Par défaut, les comptes de ressources sont configurés avec les paramètres suivants :
 
@@ -105,13 +105,13 @@ Créez un compte de ressource à l’aide d’une méthode à partir de l’un d
       - Durée maximale (heures) : 24
     - Accepter automatiquement les demandes de réunion
 
-    Si vous souhaitez les modifier, sélectionnez **Définir les options de planification** avant de sélectionner **Fermer**. Si vous souhaitez les modifier ultérieurement, accédez **aux** > **salles de ressources & équipement**, sélectionnez le compte de ressources. Ensuite, sous **Options de réservation**, **sélectionnez Modifier**.
+    Si vous souhaitez les modifier, **sélectionnez Modifier les options de réservation** avant de sélectionner **Fermer**. Si vous souhaitez les modifier ultérieurement, accédez **aux** > **salles de ressources & équipement**, sélectionnez le compte de ressources. Ensuite, sous **Options de réservation**, **sélectionnez Modifier**.
 
 6. Accédez à **Utilisateurs** > **actifs** et sélectionnez la salle que vous avez créée pour ouvrir le panneau des propriétés.
 
 7. Ensuite, affectez un mot de passe au compte de ressource. Dans le panneau, sélectionnez **Réinitialiser le mot de passe**.
  
-8. L’obligation pour les utilisateurs de modifier le mot de passe sur un appareil partagé entraîne des problèmes de connexion. Décochez **Demander à cet utilisateur de modifier son mot de passe lors de sa première connexion**, puis **sélectionnez Réinitialiser**.
+8. L’obligation pour les utilisateurs de modifier le mot de passe sur un appareil partagé entraîne des problèmes de connexion. Décochez **Demander à cet utilisateur de modifier son mot de passe lors de sa première connexion**, puis sélectionnez **Réinitialiser le mot de passe**.
 
 9. Dans la section **Licences et applications** , **définissez l’emplacement De sélection** sur le pays ou la région où l’appareil sera installé. Sélectionnez ensuite la licence que vous souhaitez attribuer, par exemple salle de réunion, puis **sélectionnez Enregistrer les modifications**. La licence peut varier en fonction de votre organisation.
 
@@ -250,7 +250,7 @@ Tout d’abord, connectez-vous à Active Directory PowerShell :
    Connect-AzureAD
 ```
 
-Ensuite, consultez [Définir un mot de passe pour qu’il n’expire jamais](/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire).
+Ensuite, consultez [Définir un mot de passe pour qu’il n’expire jamais](/microsoft-365/admin/add-users/set-password-to-never-expire#set-a-password-to-never-expire).
 
 Cet exemple montre comment définir le mot de passe du compte ConferenceRoom01@contoso.com pour qu’il n’expire jamais.
 
@@ -288,7 +288,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
        Import-Module ActiveDirectory
     ```
     
-    Pour plus d’informations sur Active Directory PowerShell, consultez [ActiveDirectory](/powershell/module/activedirectory/?view=windowsserver2022-ps).
+    Pour plus d’informations sur Active Directory PowerShell, consultez [ActiveDirectory](/powershell/module/activedirectory/).
 
 2. Définissez le mot de passe pour qu’il n’expire jamais à l’aide de la syntaxe suivante :
 

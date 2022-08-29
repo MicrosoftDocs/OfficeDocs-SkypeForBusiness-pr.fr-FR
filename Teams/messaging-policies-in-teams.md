@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Découvrez les stratégies de messagerie et la façon dont elles peuvent être utilisées pour contrôler la messagerie de conversation dans Teams.
-ms.openlocfilehash: f74ae28176f147d768e8e551ac07d1bcf189836b
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 1975262b6fdd404d9314c3644ebba79b6cb5bd9a
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563962"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396515"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
@@ -112,11 +112,12 @@ Voici les paramètres de stratégie de messagerie que vous pouvez configurer.
 - **Réponses suggérées**  Activez ce paramètre pour activer les réponses suggérées pour les messages de conversation.
 - **Rôle d’autorisation de conversation** Utilisez ce paramètre pour définir le rôle de conversation supervisée de l’utilisateur. En savoir plus sur [surveillance de conversation](supervise-chats-edu.md).
 - **Les utilisateurs disposant d’autorisations de conversation complètes peuvent supprimer n’importe quel message** Utilisez ce paramètre pour permettre aux utilisateurs disposant d’autorisations complètes de supprimer tout message de conversation de groupe ou de réunion.
+- **Messages vidéo** Activez ce paramètre si vous souhaitez que les utilisateurs de votre organisation puissent utiliser l’application Teams pour envoyer des messages vidéo à d’autres personnes dans Chat.
 
 > [!NOTE]
 > Certains de ces paramètres, tels que l’utilisation de Giphys, peuvent également être configurés au niveau de l’équipe par les propriétaires d’équipe et au niveau du canal privé ou partagé par les propriétaires de canal.
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Rubriques connexes
 
 - [Affecter des stratégies à des utilisateurs et des groupes dans Teams](assign-policies-users-and-groups.md)
 - [Affecter des propriétaires d’équipe et des membres dans Microsoft Teams](assign-roles-permissions.md)

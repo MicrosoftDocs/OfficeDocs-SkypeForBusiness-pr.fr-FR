@@ -18,12 +18,12 @@ description: Découvrez les différentes façons d’affecter des stratégies et
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: e7cf7ba085c7bad22fea4b14f79b9eb3d4e6e2aa
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7c9855a56031d3eb22cdcbc1ac1b27dfa075db49
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268419"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418453"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Affecter des stratégies dans Teams – Prise en main
 
@@ -87,6 +87,9 @@ Suivez ces étapes pour définir les stratégies globales (par défaut à l’é
 
 :::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Capture d’écran montrant la stratégie globale de mise à jour dans le Centre d’administration Teams." lightbox="media/teams-meetings-policies-global-expanded.png":::
 
+> [!NOTE]
+> Une fois que vous avez soumis une opération de stratégie, vous êtes invité à le confirmer avec une boîte de dialogue contextuelle. Cela inclut les affectations de stratégies, la modification d’une stratégie existante et la création de stratégies personnalisées. Vous devez confirmer le démarrage de l’opération de stratégie, ou vous pouvez annuler et revenir en arrière ultérieurement.
+
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
 Pour définir les stratégies globales à l’aide de PowerShell, utilisez l’identificateur global.  Commencez par examiner la stratégie globale actuelle pour déterminer le paramètre à modifier.
@@ -149,7 +152,11 @@ Pour afficher vos opérations de stratégie dans le journal d’activité :
 > [!NOTE]
 > Vous pouvez également accéder au journal d’activité à partir de la page **Utilisateurs** . Une fois que vous avez sélectionné **Appliquer** pour envoyer une affectation de stratégie en bloc, une bannière s’affiche en haut de la page. Sélectionnez le lien **du journal d’activité** dans la bannière.
 
-## <a name="related-topics"></a>Voir aussi
+Cette vidéo montre les étapes à suivre pour afficher et gérer les stratégies affectées et efficaces pour un utilisateur.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x4E?autoplay=false]
+
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Affecter des stratégies à des utilisateurs et des groupes](assign-policies-users-and-groups.md)
 - [Affecter des packages de stratégie à des utilisateurs et des groupes](assign-policy-packages.md)

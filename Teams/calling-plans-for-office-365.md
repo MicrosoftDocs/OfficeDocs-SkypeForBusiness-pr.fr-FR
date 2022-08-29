@@ -1,5 +1,5 @@
 ---
-title: Forfaits d’appels pour Microsoft 365
+title: Forfaits d’appels pour Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -27,14 +27,14 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization.
-ms.openlocfilehash: 624b155bb6a114a1b1dbe71220379e4c3d9d7ede
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: eb10b681b867461122fe6b5e89f6f0a519d60ae7
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269219"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396845"
 ---
-# <a name="calling-plans-for-microsoft-365"></a>Forfaits d’appels pour Microsoft 365
+# <a name="calling-plans-for-microsoft-teams"></a>Forfaits d’appels pour Microsoft Teams
 
 Les appels à d’autres utilisateurs Skype Entreprise et Microsoft Teams sont gratuits, mais si vous souhaitez que vos utilisateurs puissent appeler des téléphones standard et que vous n’avez pas encore de fournisseur de services pour passer des appels vocaux, vous devez acheter un forfait d’appels. Pour plus d’informations, consultez [Systèmes téléphoniques et forfaits d’appels](calling-plan-landing-page.md).
   
@@ -44,7 +44,11 @@ Voici les options forfaits d’appel :
 
 - **Forfait d’appels internationaux** : les utilisateurs titulaires d’une licence peuvent appeler des numéros situés dans le pays/la région où leur licence Microsoft 365 est attribuée à l’utilisateur en fonction de l’emplacement de l’utilisateur et des numéros internationaux dans [196 pays/régions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Minutes entrantes illimitées incluses. Les minutes sortantes sont incluses en fonction de la licence achetée.
 
-- **Forfait d’appels avec paiement à l’utilisation** : les utilisateurs titulaires d’une licence peuvent appeler des numéros situés dans le pays/la région où leur licence Microsoft 365 est attribuée à l’utilisateur en fonction de l’emplacement de l’utilisateur et des numéros internationaux dans  [196 pays/régions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Minutes entrantes illimitées incluses. Aucune minute sortante n’est incluse. Tous les appels sortants sont facturés en fonction des minutes utilisées, avec les crédits de communication ou la facturation post-paiement.
+- **Forfait d’appels avec paiement à l’utilisation** : les utilisateurs titulaires d’une licence peuvent appeler des numéros situés dans le pays/la région où leur licence Microsoft 365 est attribuée à l’utilisateur en fonction de l’emplacement de l’utilisateur et des numéros internationaux dans  [196 pays/régions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Minutes entrantes illimitées incluses. Aucune minute sortante n’est incluse. Tous les appels sortants sont facturés en fonction des minutes utilisées, avec les crédits de communication ou la facturation post-paiement. Les licences sont attribuées aux utilisateurs en fonction de leur emplacement. Vous pouvez choisir parmi 2 options :
+  - **Forfait d’appels avec paiement à l’utilisation zone 1** : achetez-le pour les utilisateurs du États-Unis, y compris Porto Rico, le Canada et le Royaume-Uni.
+    - Les licences de zone 1 ne sont pas actuellement disponibles à la vente dans les États-Unis et Porto Rico, mais elles peuvent être approvisionnées pour les utilisateurs des États-Unis et de Porto Rico si elles sont achetées dans d’autres pays.
+  - Forfait **d’appels avec paiement à l’utilisation zone 2** : achetez-le pour les utilisateurs en Autriche, Belgique, Croatie, République tchèque, Danemark, Estonie, Finlande, France, Allemagne, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Pays-Bas, Nouvelle-Zélande, Norvège, Pologne, Portugal, Roumanie, Singapour, Slovaquie, Slovénie, Afrique du Sud, Espagne, Suède et Suisse.
+    - Les licences de zone 2 ne sont actuellement pas disponibles à la vente dans le États-Unis et Porto Rico.
 
 Tous les utilisateurs du même pays/région (il s’agit de l’emplacement du pays d’utilisateur défini dans la zone de licence du Centre d'administration Microsoft 365) avec le même forfait d’appels partagent un pool de minutes. Par exemple, si vous avez 100 utilisateurs situés dans le même pays/région avec un forfait d’appels nationaux de 120 minutes attribué, ils partagent un pool de 12 000 minutes. Tous les appels dépassant ces minutes sont facturés par minute.
 

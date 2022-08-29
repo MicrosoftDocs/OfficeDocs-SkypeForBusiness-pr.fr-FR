@@ -16,16 +16,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Répertorie les plans de licence et les ID de référence (SKU) des enseignants et étudiants de l’éducation.
 f1keywords: ''
-ms.openlocfilehash: c6fe915950189dfe3ee46acc6187636fbe34da5a
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: f0b1f51b18ba7c43b4cb5eed9b7626100e9a950f
+ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790169"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "67426861"
 ---
 # <a name="education-sku-reference"></a>Informations de référence sur la référence SKU Éducation
 
-Cet article répertorie les plans de licence des enseignants et des étudiants (SKU) et les ID de référence SKU que vous pouvez utiliser comme référence lorsque vous utilisez PowerShell pour identifier les utilisateurs de votre organisation par type de licence.
+Cet article répertorie les plans de licence des enseignants et des étudiants (SKU) et les ID de référence SKU.
+
+Utilisez cette référence lors de l’utilisation de PowerShell pour identifier les utilisateurs de votre organisation par type de licence.
 
 ## <a name="faculty-licenses"></a>Licences pour les enseignants
 
@@ -69,6 +71,6 @@ Cet article répertorie les plans de licence des enseignants et des étudiants (
 |Office 365 A1 pour les étudiants (pour l’appareil)     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
 |Office 365 A1 Plus pour les étudiants     |STANDARDWOFFPACK_IW_STUDENT         |e82ae690-a2d5-4d76-8d30-7c6e01e6022e         |
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Affecter des stratégies à de grands ensembles d’utilisateurs dans votre établissement scolaire](batch-group-policy-assignment-edu.md)

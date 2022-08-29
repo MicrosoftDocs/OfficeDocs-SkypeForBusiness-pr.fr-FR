@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05be32bff1069d11ea26d28e6eb5377ec04e65e9
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 2f4809d615d97aa46ecad3b46c2b723c33b4619e
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299063"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396865"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
 
@@ -96,7 +96,7 @@ Aucun
 
 * Lorsqu’un utilisateur discute avec un bot, s’il stocke l’ID de l’utilisateur, il peut envoyer les messages directs de l’utilisateur à tout moment.
 
-* Théoriquement, il est possible que les messages de bot contiennent des liens vers des sites d’hameçonnage ou de programmes malveillants. Toutefois, les bots peuvent être bloqués par l’utilisateur, l’administrateur du locataire ou globalement par Microsoft. [Les vérifications de vérification et de validation des applications](overview-of-app-validation.md) garantissent que de fausses applications ne sont pas disponibles dans le Magasin Teams.
+* Théoriquement, il est possible que les messages de bot contiennent des liens vers des sites d’hameçonnage ou de programmes malveillants. Toutefois, les bots peuvent être bloqués par l’utilisateur, l’administrateur du locataire ou globalement par Microsoft. [Les vérifications de vérification et de validation des](overview-of-app-validation.md) applications garantissent que toutes les applications fausses ne sont pas disponibles dans le magasin Teams.
 
 * Un bot peut récupérer (et stocker) des informations d’identité de base pour les membres de l’équipe auxquels l’application a été ajoutée, ou pour des utilisateurs individuels dans des conversations personnelles ou de groupe. Pour obtenir plus d’informations sur ces utilisateurs, le bot doit les obliger à se connecter à Azure Active Directory (Azure AD).
 
@@ -105,8 +105,6 @@ Aucun
 * Par défaut, les bots n’ont pas la possibilité d’agir pour le compte de l’utilisateur, mais les bots peuvent demander aux utilisateurs de se connecter ; dès que l’utilisateur se connecte, le bot dispose d’un jeton d’accès avec lequel il peut effectuer des opérations supplémentaires. Ces autres éléments dépendent exactement du bot et de l’endroit où l’utilisateur se connecte : un bot est une application Azure AD inscrite au https://apps.dev.microsoft.com/ et peut avoir son propre jeu d’autorisations.
 
 * Lorsqu’un fichier est envoyé à un bot, le fichier quitte le réseau d’entreprise. L’envoi et la réception de fichiers nécessitent l’approbation de l’utilisateur pour chaque fichier.
-
-* Par défaut, les bots n’ont pas la possibilité d’agir pour le compte de l’utilisateur, mais les bots peuvent demander aux utilisateurs de se connecter ; dès que l’utilisateur se connecte, le bot dispose d’un jeton d’accès avec lequel il peut effectuer des opérations supplémentaires. Ces éléments supplémentaires dépendent exactement du bot et de l’endroit où l’utilisateur se connecte : un bot est une application Azure AD inscrite sur le [portail d’inscription des applications](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList) et peut avoir son propre jeu d’autorisations.
 
 * Les bots sont informés chaque fois que des utilisateurs sont ajoutés ou supprimés d’une équipe.
 

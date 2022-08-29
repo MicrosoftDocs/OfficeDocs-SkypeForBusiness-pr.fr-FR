@@ -10,6 +10,7 @@ ms.custom: intro-get-started
 audience: admin
 ms.collection:
 - M365-collaboration
+- m365-frontline
 ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords:
@@ -18,12 +19,12 @@ description: Découvrez comment gérer les applications Teams. Découvrez commen
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: bbad8eb283fe3e27397b2ddd5d22a91fc6570394
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 5c769a5cb8aab00265dee90bcce4b093c50e2a90
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298863"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397055"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Gérer les applications Teams dans le Centre d’administration Microsoft Teams
 
@@ -44,9 +45,10 @@ Lors de la création d’une application, les développeurs créent et ajoutent 
 
 Les options permettant d’accomplir la plupart des cas d’utilisation de la gestion des applications sont disponibles dans le Centre d’administration Teams. En outre, certaines options sont disponibles dans d’autres portails ou dans d’autres pages du Centre d’administration Teams.
 
+Les tâches de gestion des applications prises en charge dans le Centre d’administration se trouvent dans le tableau ci-dessous.
+
 | Cas d’utilisation de la gestion des applications | Lien vers l’interface | Documentation |
 |:----|:----|:----|
-| **Dans le Centre d’administration Teams** | | |
 | Contrôlez les applications disponibles pour les utilisateurs de votre organisation en autorisant et en bloquant les applications. Vous pouvez également charger et approuver des applications personnalisées. Après avoir géré les applications sur cette page, vous pouvez utiliser les stratégies d’autorisation et de configuration des applications pour configurer les applications disponibles pour des utilisateurs spécifiques dans le magasin d’applications de votre organisation. | [Gérer les applications dans le Centre d’administration Teams](https://admin.teams.microsoft.com/policies/manage-apps) | Article actuel |
 | Les stratégies d’autorisation d’application contrôlent les applications que vous souhaitez mettre à la disposition des utilisateurs Teams de votre organisation. Vous pouvez utiliser la stratégie par défaut globale (à l’échelle de l’organisation) et la personnaliser, ou vous pouvez créer une ou plusieurs stratégies pour répondre aux besoins de votre organisation. | [Stratégies d’autorisation](https://admin.teams.microsoft.com/policies/app-permission) | [Gérer les stratégies d’autorisation d’application](teams-app-permission-policies.md) |
 | Les stratégies de configuration d’application contrôlent la façon dont les applications sont mises à la disposition d’un utilisateur avec l’application Teams. Utilisez la stratégie globale (par défaut à l’échelle de l’organisation) et personnalisez-la ou créez des stratégies personnalisées et attribuez-les à un ensemble d’utilisateurs. | [Stratégies d’installation](https://admin.teams.microsoft.com/policies/app-setup) | [Gérer les stratégies de configuration des applications](teams-app-setup-policies.md) |
@@ -55,8 +57,12 @@ Les options permettant d’accomplir la plupart des cas d’utilisation de la ge
 | Le rapport d’utilisation des applications Teams fournit des informations sur les applications utilisées, les utilisateurs actifs et d’autres informations sur l’utilisation des applications. | [Rapports d’utilisation](https://admin.teams.microsoft.com/analytics/reports) | [Rapport d’utilisation des applications Teams](teams-analytics-and-reports/app-usage-report.md) |
 | Vos utilisateurs peuvent ajouter des applications lorsqu’ils hébergent des réunions ou des conversations avec des invités. Ils peuvent également utiliser des applications partagées par des invités lorsqu’ils rejoignent des réunions ou des conversations hébergées en externe. Les stratégies de données de l’organisation de l’utilisateur hôte et les pratiques de partage de données de toutes les applications tierces partagées par l’organisation de cet utilisateur sont appliquées. | [Accès externe](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [Comportement des applications en fonction des types d’utilisateurs](non-standard-users.md) |
 | Avec l’accès invité, vous pouvez fournir l’accès aux applications et à d’autres fonctionnalités Teams aux personnes extérieures à votre organisation, tout en conservant le contrôle sur vos données d’entreprise. | [Accès invité](https://admin.teams.microsoft.com/company-wide-settings/guest-configuration) | [Accès invité dans Teams](guest-access.md) |
-| Les stratégies de mise à jour permettent de gérer les utilisateurs des préversions de Teams et d’Office, qui auront accès aux fonctionnalités d’avant-publication ou de préversion dans l’application Teams. | [Stratégies de mise à jour Teams](https://admin.teams.microsoft.com/policies/updatemanagement) | [Préversion publique de Teams](public-preview-doc-updates.md) |
-| **En dehors du Centre d’administration Teams** | | |
+| Les stratégies de mise à jour Teams sont utilisées pour gérer les utilisateurs teams et Office en préversion qui peuvent voir les fonctionnalités de préversion ou de préversion dans l’application Teams. | [Stratégies de mise à jour Teams](https://admin.teams.microsoft.com/policies/updatemanagement) | [Préversion publique de Teams](public-preview-doc-updates.md) |
+
+Les tâches de gestion des applications prises en charge sur d’autres portails figurent dans le tableau ci-dessous.
+
+| Cas d’utilisation de la gestion des applications | Lien vers l’interface | Documentation |
+|:----|:----|:----|
 | Gérer les licences et les abonnements d’applications tierces dans Centre d’administration Microsoft 365 | [Centre d’administration Microsoft 365](https://admin.microsoft.com/#/licenses) | [Gérer les abonnements d’applications tierces](/microsoft-365/commerce/manage-saas-apps) |
 | Auditez les événements d’application Teams sur le portail de conformité Microsoft Purview. | [Audit](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Activités Teams](audit-app-management-activities.md) |
 | Les applications peuvent recevoir des autorisations pour votre organisation et ses données par trois méthodes : un administrateur donne son consentement à l’application pour tous les utilisateurs, un utilisateur accorde son consentement à l’application, ou un administrateur intègre une application et permet un accès en libre-service ou assigne des utilisateurs directement à l’application. Vérifiez les autorisations Graph pour les applications. Vérifiez les autorisations fournies par les utilisateurs ou déléguées par les administrateurs. | [Portail Azure AD](https://aad.portal.azure.com/) | [Passer en revue les autorisations accordées aux applications](/azure/active-directory/manage-apps/manage-application-permissions) |
@@ -71,9 +77,8 @@ La page Gérer les applications est l’endroit où vous autorisez ou bloquez de
 
 Pour autoriser ou bloquer une application :
 
-1. Connectez-vous au Centre d’administration Teams.
-1. Accédez aux **Applications Teams** >  à la page **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)** .
-1. Sélectionnez une application dans la liste des applications. Vous pouvez effectuer une recherche par le nom de l’application, puis la sélectionner.
+1. Connectez-vous au Centre d’administration Teams et accédez aux **applications** >  Teams **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)**
+1. Sélectionnez une application dans la liste des applications. Vous pouvez effectuer une recherche par le nom de l’application.
 1. Sélectionnez l’option **Autoriser** ou **Bloquer**.
 
 Lorsque vous autorisez (ou bloquez) une application sur la page [Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps) dans le Centre d’administration Teams, l’application particulière est autorisée (ou bloquée) pour tous les utilisateurs de votre organisation. Cette méthode diffère de la stratégie d’autorisation d’application dans le contexte où l’autorisation (ou le blocage) d’une application via une stratégie d’autorisation a un impact uniquement sur les utilisateurs spécifiques auxquels la stratégie est affectée.
@@ -88,7 +93,7 @@ Les utilisateurs finaux peuvent afficher, mais pas utiliser, les applications bl
 
 ### <a name="view-a-request"></a>Afficher une demande
 
- 1. Connectez-vous au Centre d’administration Teams et sélectionnez **Applications Teams** > **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)**.
+ 1. Connectez-vous au Centre d’administration Teams et accédez aux **[applications De gestion des applications](https://admin.teams.microsoft.com/policies/manage-apps)** **Teams** > .
 
     :::image type="content" source="media/requested-apps1.png" alt-text="Les demandes des utilisateurs finaux pour les applications bloquées sont affichées dans le Centre d’administration Teams dans la colonne intitulée Demandes des utilisateurs." lightbox="media/requested-apps.png":::
 
@@ -129,7 +134,7 @@ Utilisez les paramètres d’application à l’échelle de l’organisation pou
 > [!NOTE]
 > Pour savoir comment utiliser les paramètres d’application à l’échelle de l’organisation dans Microsoft 365 Government : les déploiements de Teams Cloud de la communauté du secteur public High (GCCH) et Department of Defense (DoD), consultez [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md).
 
-1. Dans la page Gérer les applications, sélectionnez **Paramètres d’application à l’échelle de l’organisation**. Vous pouvez ensuite configurer les paramètres souhaités dans le volet.
+1. Dans la page **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)** , sélectionnez **Paramètres d’application à l’échelle de l’organisation**. Vous pouvez ensuite configurer les paramètres souhaités dans le volet.
 
     :::image type="content" source="media/manage-apps-org-wide-app-settings.png" alt-text="Capture d’écran du volet Paramètres de l’application à l’échelle de l’organisation sur la page Gérer les applications":::
 

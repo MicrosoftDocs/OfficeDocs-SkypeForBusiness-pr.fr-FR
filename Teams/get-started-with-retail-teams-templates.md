@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: yinchang
 ms.collection:
 - M365-collaboration
+- m365-frontline
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment gérer et utiliser les modèles d’équipe de vente au détail dans le Centre d’administration Teams et avec Microsoft Graph pour créer rapidement et facilement des équipes pour votre organisation de vente au détail.
@@ -19,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3cf6d2e7eb23517477572775e7d18571463957b
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
-ms.translationtype: HT
+ms.openlocfilehash: 3e8d908a0c6183f4d305b0b622060cfd2ed78922
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046340"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396295"
 ---
 # <a name="use-retail-team-templates"></a>Utiliser des modèles d’équipe de vente au détail
 
@@ -32,7 +33,7 @@ Les modèles d’équipe Microsoft Teams vous permettent de créer rapidement et
 
 Pour les revendeurs, les modèles d’équipe peuvent être particulièrement puissants, car ils vous aident à déployer rapidement des équipes cohérentes au sein de votre organisation. Les modèles aident également le personnel à s’orienter dans l’utilisation efficace de Teams.
 
-Teams comprend des modèles conçus spécifiquement pour les besoins des revendeurs. Utilisez ces modèles pré-conçus pour créer rapidement des équipes de communication et de collaboration entre les membres du personnel. Dans cet article, nous vous présenterons chacun de ces modèles et vous expliquerons comment les utiliser.
+Teams comprend des modèles conçus spécifiquement pour les besoins des revendeurs. Utilisez ces modèles pré-conçus pour créer rapidement des équipes de communication et de collaboration entre les membres du personnel. Cet article présente chacun des modèles Teams et vous explique comment les utiliser.
 
 La façon dont vous gérez et travaillez avec les modèles d’équipe dépend de votre rôle d’administrateur ou de développeur.
 
@@ -45,7 +46,7 @@ La façon dont vous gérez et travaillez avec les modèles d’équipe dépend d
 
 En tant qu’administrateur, vous pouvez gérer des modèles d’équipe dans le Centre d’administration de Microsoft Teams. Ici, vous pouvez afficher des détails sur chaque modèle. Vous pouvez également [créer et attribuer des stratégies de modèles](templates-policies.md) à votre personnel afin de contrôler les modèles qu’ils voient dans Teams pour [la création d’équipes](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b).
 
-Pour en savoir plus sur les modèles d’équipe en général, consultez [ Commencer à utiliser les modèles d’équipe dans le centre d’administration Teams](get-started-with-teams-templates-in-the-admin-console.md).
+Pour en savoir plus sur les modèles d’équipe en général, voir [Commencer à utiliser les modèles d’équipe dans le Centre d'administration Teams](get-started-with-teams-templates-in-the-admin-console.md).
 
 Nous proposons actuellement les modèles d’équipe de vente au détail pré-intégrés suivants. Pour les afficher, dans le volet de navigation gauche du centre d'administration Teams, accédez à **Modèles d’équipes** >  **Teams**.
 
@@ -65,7 +66,7 @@ Le modèle de collaboration entre responsables est idéal pour créer une équip
 
 | Type de modèle| TemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------|- |----------------------------------------------------- |
-|Vente au détail pour les responsables|`retailManagerCollaboration` |Canaux : <ul><li>Général<li>Opérations<ul><li>Tâches (tâches opérationnelles)&sup1;</li><li>Inspection&sup1;</li></ul></li><li>Formation<ul><li>Tâches (Learning)&sup1;</li></ul></li></ul> Applications : <ul><li>Wiki</li><li>Tâches</li><li>Inspection</li></ul>|
+|Vente au détail pour les responsables|`retailManagerCollaboration` |Canaux : <ul><li>Général<li>Opérations<ul><li>Tâches (tâches opérationnelles)&sup1;</li><li>Inspection&sup1;</li></ul></li><li>Apprentissage<ul><li>Tâches (Learning)&sup1;</li></ul></li></ul> Applications : <ul><li>Wiki</li><li>Tâches</li><li>Inspection</li></ul>|
 ||||
 
 &sup1; Application ajoutée au canal en tant qu’onglet
@@ -80,12 +81,12 @@ Voici les modèles pré-intégrés de l’équipe de vente au détail.
 
 Le modèle Store est idéal pour créer une équipe afin de représenter un emplacement de magasin de détail. Le modèle Store vous permet de créer une équipe pour chaque emplacement de vente au détail dans votre organisation.
 
-| Type de modèle | TemplateId | Canaux de modèles |
+| Type de modèle | TemplateId | Canaux modèles |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Commerce - <br>Magasin | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Canaux <ul><li>Général</li><li>Transfert de quart&sup2</li><li>Préparation du magasin</li><li>Formation&sup2</li></ul>Propriétés de l’équipe <ul><li>Visibilité de l’équipe définie sur Public</li></ul> <br>Autorisations de membre <ul><li>Impossible de créer, mettre à jour ou supprimer des canaux </li><li>Ajout ou suppression d’applications impossible </li><li>Création, mise à jour ou suppression d’onglets impossible</li><li>Création, mise à jour ou suppression de connecteurs impossible</li><ul>|
 ||||
 
-Canaux favoris automatiques ; &sup2
+&sup2; Canaux favoris automatiques
 
 Méthodes recommandées pour personnaliser le modèle Store pour votre organisation :
 
@@ -97,12 +98,12 @@ Méthodes recommandées pour personnaliser le modèle Store pour votre organisat
 
 Le modèle de collaboration entre responsables est idéal pour créer une équipe permettant à un ensemble de responsables de collaborer entre magasins/régions, etc. Par exemple, si votre organisation comporte des régions, vous pouvez créer une équipe de collaboration entre responsables pour la région de Californie et y inclure tous les responsables de magasin de cette région, ainsi que le responsable régional de cette région.
 
-| Type de modèle | TemplateId | Canaux de modèles |
+| Type de modèle | TemplateId | Canaux modèles |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Commerce - <br>Magasin | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Canaux <ul><li>Général</li><li>Opérations&sup2 ;</li><li>Formation&sup2</li></ul>Propriétés de l’équipe <ul><li>Visibilité de l’équipe définie sur Privé</li></ul> <br>Autorisations de membre <ul><li>Peut créer, mettre à jour et supprimer des canaux </li><li>Peut ajouter et supprimer des applications </li><li>Peut créer, mettre à jour et supprimer des onglets</li><li>Peut créer, mettre à jour et supprimer des connecteurs</li><ul>|
 ||||
 
-Canaux favoris automatiques ; &sup2
+&sup2; Canaux favoris automatiques
 
 Méthodes recommandées pour personnaliser le modèle de collaboration entre responsables pour votre organisation :
 

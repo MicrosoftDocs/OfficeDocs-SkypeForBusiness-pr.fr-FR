@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams afin de produire les meilleurs résultats.
-ms.openlocfilehash: 7feb5cbf411884bfe5249ebf0bbe237c4547fcbc
-ms.sourcegitcommit: 976d49c8c1104282c205ac533ed10450a5371950
+ms.openlocfilehash: 74f8a25955d112548b5bbd311a0e51d110c4944d
+ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67304073"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "67426841"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Appareils Android certifiés Microsoft Teams
 
@@ -112,8 +112,8 @@ Les appareils suivants sont certifiés dans le cadre du programme de certificati
 | Modèle d’appareil| Version du microprogramme | Date de fin de la certification actuelle | Version du système d’exploitation Android |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
 |Panneau pad soigné    | `NFA1.20220211.1400` | 5 août 2023 | 9 |
-|Crestron TSS-770 | `1.003.0082` |5 décembre 2022  | 8.1 |
-|Crestron TSS-1070 | `1.003.0082`|5 décembre 2022 | 8.1 |
+|Crestron TSS-770 | `2.001.0058` |3 septembre 2024  | 10 |
+|Crestron TSS-1070 | `2.001.0058`|3 septembre 2024 | 10 |
 |Yealink RoomPanel | `147.15.0.1`|5 août 2023   | 9 |
 |Logitech TAP Scheduler | `1.3.111` |3 septembre 2024 | 10 |
 
@@ -131,7 +131,8 @@ Voici les dernières versions du microprogramme et de l’application téléphon
 | Mise à jour 2022 #2   | 21 mars 2022   | `1449/1.0.94.2022030501` |`5.0.5304.0` | `322` |
 | Mise à jour #1C 2022  | 3 mars 2022  | `1449/1.0.94.2022022305` |`5.0.5304.0` | `322` |
 | Mise à jour #1B 2022  | 7 février 2022   | `1449/1.0.94.2022020202` |`5.0.5304.0` | `322` |
-| Mise à jour 2022 #1   | 7 février 2022   | `1449/1.0.94.2022011305` |`5.0.5304.0` | `322` |
+| Mise à jour #1A 2022  | 7 février 2022   | `1449/1.0.94.2022011305` |`5.0.5304.0` | `322` |
+| Mise à jour 2022 #1   | 6 février 2022   | `1449/1.0.94.2021724504` |`5.0.5304.0` | `322` |
 | Mise à jour #3C 2021 | 16 décembre 2021   | `1449/1.0.94.2021121302` | `5.0.5304.0` | `298` |
 | Mise à jour 2021 #3B | 6 décembre 2021   | `1449/1.0.94.2021112302 ` | `5.0.5304.0` | `298` |
 | Mise à jour #3A 2021 | 22 novembre 2021   | `1449/1.0.94.2021110101 ` | `5.0.5304.0` | `298` |
@@ -152,6 +153,9 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme  | Version du produit incluse  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C435HD/C455HD/C470HD | `1.17.741` | Mise à jour 2022 #3A    |
+|Poly Trio C60 | `7.3.2.0174` | Mise à jour 2022 #3A |
+|Poly CCX 400/500/600/505 | `7.3.2.0182` | Mise à jour 2022 #3A |
 |Yealink T55A/T56A/T58A   | `58.15.0.168`     | Mise à jour 2022 #3A  |
 |Yealink VP59  | `91.15.0.102`     | Mise à jour 2022 #3A  |
 |Yealink CP960  | `73.15.0.163`     | Mise à jour 2022 #3A  |
@@ -174,21 +178,21 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 |Audiocodes C435HD  | `1.14.524` | Mise à jour #1C 2022  |
 | Poly Trio C60   | `7.2.1.1975`  | Mise à jour #1C 2022                        |
 | Poly CCX400/CCX500/CCX600   | `7.2.1.1971`  | Mise à jour #1C 2022            |
-| Crestron UC-P8/I/C/CI     | `1.0.4.82`    | Mise à jour 2022 #1 |
-| Crestron UC-P10/I/C/CI    | `1.0.4.82`    | Mise à jour 2022 #1 |
-| Poly Trio C60   | `7.2.1.1831`  | Mise à jour 2022 #1                        |
-| Poly CCX400/CCX500/CCX600   | `7.2.1.1826`  | Mise à jour 2022 #1                 |
-|Crestron UC-2     | `1.0.4.75`    | Mise à jour 2022 #1 |
-|Audiocodes C455HD | `1.15.271`    | Mise à jour 2022 #1
-|Audiocodes C448HD  | `1.14.500` | Mise à jour 2022 #1 |
-|Audiocodes C450HD  | `1.14.500` | Mise à jour 2022 #1  |
-|Audiocodes C470HD  | `1.14.500` | Mise à jour 2022 #1   |
-|Audiocodes C435HD  | `1.14.500` | Mise à jour 2022 #1  |
-|Yealink T55/T56/T58   | `58.15.0.153`  | Mise à jour #1B 2022 |
-|Yealink MP54/MP56/MP58   | `122.15.0.77`     | Mise à jour #1B 2022  |
-| Yealink VP59   | `91.15.0.87`  | Mise à jour #1B 2022     |
-| Yealink CP960  | `73.15.0.150`  | Mise à jour #1B 2022      |
-| Yealink MP52 | `145.15.0.25`  | Mise à jour #1B 2022         |
+| Crestron UC-P8/I/C/CI     | `1.0.4.82`    | Mise à jour #1A 2022 |
+| Crestron UC-P10/I/C/CI    | `1.0.4.82`    | Mise à jour #1A 2022 |
+| Poly Trio C60   | `7.2.1.1831`  | Mise à jour #1B 2022                        |
+| Poly CCX400/CCX500/CCX600   | `7.2.1.1826`  | Mise à jour #1B 2022                 |
+|Crestron UC-2     | `1.0.4.75`    | Mise à jour #1A 2022 |
+|Audiocodes C455HD | `1.15.271`    | Mise à jour #1A 2022 |
+|Audiocodes C448HD  | `1.14.500` | Mise à jour #1A 2022 |
+|Audiocodes C450HD  | `1.14.500` | Mise à jour #1A 2022  |
+|Audiocodes C470HD  | `1.14.500` | Mise à jour #1A 2022   |
+|Audiocodes C435HD  | `1.14.500` | Mise à jour #1A 2022  |
+|Yealink T55/T56/T58   | `58.15.0.153`  | Mise à jour 2022 #1 |
+|Yealink MP54/MP56/MP58   | `122.15.0.77`     | Mise à jour 2022 #1  |
+| Yealink VP59   | `91.15.0.87`  | Mise à jour 2022 #1     |
+| Yealink CP960  | `73.15.0.150`  | Mise à jour 2022 #1      |
+| Yealink MP52 | `145.15.0.25`  | Mise à jour 2022 #1         |
 | Poly Trio C60  | `7.1.4.0250 ` | Mise à jour #3C 2021  |
 | Poly CCX400/CCX500/CCX600    | `7.1.4.0253  `| Mise à jour #3C 2021  |
 | Poly Trio C60   | `7.1.4.0201`  | Mise à jour 2021 #3B                        |
@@ -370,6 +374,7 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version du produit incluse|
 |:--------------|:-----------------|:-------------------------|
+|Panneau pad soigné | `NFA1.20220512.2210` | Mise à jour 2022 #2  |
 |Crestron Touchpanel TSS-1070 / TSS-770 | `2.001.0058 ` | Mise à jour 2022 #1|
 |Logitech Tap Scheduler | `1.6.762` |Mise à jour 2022 #2  |
 |Panneau pad soigné |NFA1.20220512.2158 | Mise à jour 2022 #2 |

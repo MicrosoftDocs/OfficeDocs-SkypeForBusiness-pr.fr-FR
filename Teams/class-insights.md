@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02a425d325721dc732e0bd06aa3aee8fd3973dda
-ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
-ms.translationtype: HT
+ms.openlocfilehash: 1f95f9c1a3ad6a65dbefa4d48c0c5277e01b65f2
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66952778"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397271"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guide d’administration informatique sur Education Insights dans Microsoft Teams
 
@@ -256,13 +256,15 @@ Il existe deux endroits où vous pouvez contrôler *Éducation Insights*. Les de
 1. Accédez à **Paramètres** > **Gérer Education Insights**.
 1. Activez ou désactivez le bouton bascule **Collecter les données d’activité pour Insights** .
 
-![Capture d’écran des boutons bascule du Centre d’administration SDS pour désactiver et activer Insights](media/manage-insights-toggles.png)
+![Capture d’écran des boutons bascule du Centre d’administration SDS pour désactiver et activer Insights.](media/manage-insights-toggles.png)
 
 #### <a name="turn-on-and-off-insights-from-the-teams-client"></a>Activer et désactiver Insights à partir du client Teams
 
 1. Si la *Éducation Insights* application personnelle n’est pas épinglée, suivez [ces instructions](class-insights.md#education-leaders) pour l’ajouter.
 1. Avec un compte d’administrateur Microsoft 365, ouvrez la page **des paramètres Administration** à l’aide de l’icône de points de suspension située dans le coin supérieur droit de *Éducation Insights*.
 1. Activez ou désactivez le bouton bascule **Collecter les données d’activité pour Insights** .
+
+![Capture d’écran du client Teams bascule pour désactiver et activer Insights.](media/admin-settings-main-screen.png)
 
 > [!NOTE]
 > Si vous avez désactivé Insights, les données collectées sont supprimées. Les données supprimées lors de la désactivation ne seront pas restaurées ultérieurement, même si Insights est réactivé.

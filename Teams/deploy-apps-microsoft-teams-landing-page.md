@@ -7,11 +7,11 @@ author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
-ms.date: 04/05/2022
 ms.service: msteams
 ms.subservice: teams-apps
 ms.collection:
 - M365-collaboration
+- m365-frontline
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: b7e95c04a2a8632fbda566c322e474809703de03
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 78f0f0857884f70d5e758b1c52e13341c15faa0e
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298913"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397195"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Comprendre les applications Microsoft Teams
 
@@ -73,13 +73,13 @@ Pour plus d’informations, consultez [Comprendre et gérer les applications per
 
 ## <a name="about-app-templates"></a>À propos des modèles d’application
 
-Les modèles d’application pour Teams sont des exemples d’applications fonctionnelles et prêtes pour la production créés par Microsoft pour obtenir les éléments suivants :
+À l’aide des méthodes de développement d’applications, Microsoft crée et fournit des exemples d’applications fonctionnelles et prêtes pour la production. Collectivement, ces applications sont appelées modèles d’application pour Teams et sont fournies à :
 
-* Illustrer les cas d'utilisation les plus courants.
-* Présenter les meilleures pratiques de développement d’applications.
-* Fournir des applications open source que les développeurs peuvent étendre pour créer des applications personnalisées.
+* Illustrez quelques cas d’utilisation de collaboration dans Teams.
+* Présenter les meilleures pratiques et méthodes de développement d’applications.
+* Fournissez des applications open source que les développeurs peuvent étendre pour créer leurs propres applications.
 
-Les développeurs de votre organisation personnalisent les modèles d’application en modifiant simplement le code disponible dans GitHub. Vous fournissez ces applications en tant qu’applications personnalisées pour vos utilisateurs finaux afin de répondre aux besoins de toute organisation.
+Les développeurs de votre organisation personnalisent les modèles d’application avec des modifications simples apportées au code source fourni. Vous fournissez ces applications en tant qu’applications personnalisées pour vos utilisateurs finaux afin de répondre aux besoins de toute organisation.
 
 Pour en savoir plus, consultez [Modèles d’application Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
@@ -167,3 +167,7 @@ You can use activity reports to see how users in your organization are using Tea
 | Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 
 --->
+
+## <a name="related-articles"></a>Articles connexes
+
+* [En savoir plus sur les modèles d’application pour Teams](/microsoftteams/platform/samples/app-templates).

@@ -12,12 +12,12 @@ ms.collection:
 description: Découvrez les versions prises en charge du module Teams PowerShell, utilisées pour l’administration de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175d9785cd32d18db7eebd363d08840538baa0df
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: 5ae244a16e934b70085b2193bee3ef21a277f7ed
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819549"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397285"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Module PowerShell Teams - Versions prises en charge
 
@@ -48,6 +48,8 @@ Il est recommandé de mettre à jour vers la dernière version du module Teams P
   - Modifications des paramètres dans Get-CsTenant : plus d’informations dans [Get-CsTenant](/powershell/module/skype/get-cstenant) (billet du centre de messages – MC365397).
   
   - Si vos scripts utilisent des applets de commande New/Set of Policy ou Configuration avec des paramètres de type PSListModifier, il est recommandé d’utiliser la dernière version (4.2.0 ou ultérieure). Message center post for reference - MC397428.
+
+  - [Nouveau| Les applets de commande Get]-CsCloudCallDataConnection sont désormais prises en charge à partir des versions 4.6.0 ou ultérieures (message center post - MC408993).
 
 - Lors de l’utilisation de TPM 4.x.x ou version ultérieure, il est recommandé de ne pas utiliser les applets de commande déconseillées ou non prises en charge mentionnées [ci-dessous](#deprecated-cmdlets).
 

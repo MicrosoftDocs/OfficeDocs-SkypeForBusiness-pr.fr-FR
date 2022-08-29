@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment obtenir de nouveaux numéros, effectuer un port ou transférer des numéros existants pour Teams, et comment afficher les modifications apportées à vos utilisateurs.
-ms.openlocfilehash: b0ed990cd16a7e4878c2819a95fac29f46a9d770
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4f3c06986943be42d6a39c22101645e1ff1b0058
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156542"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396335"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtention de numéros de téléphone Skype Entreprise pour vos utilisateurs
 
@@ -89,6 +89,10 @@ Une fois que vous avez obtenu vos numéros de téléphone, vous devez attribuer 
 
 > [!NOTE]
 > Si vous avez besoin d’obtenir plus de numéros de téléphone que cela, [contactez le contact du support technique pour les produits professionnels - Administration aide](/microsoft-365/admin/contact-support-for-business-products).
+
+Cette vidéo montre les étapes à suivre pour affecter un numéro de téléphone à un utilisateur.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE54mbS?autoplay=false]
 
 ## <a name="related-articles"></a>Articles connexes
 

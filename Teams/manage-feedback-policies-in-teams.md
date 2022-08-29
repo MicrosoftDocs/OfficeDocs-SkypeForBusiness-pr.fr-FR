@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser des stratégies de commentaires pour contrôler si les utilisateurs Teams de votre organisation peuvent envoyer des commentaires sur Teams à Microsoft.
-ms.openlocfilehash: f9d001fba9503f6d5f2e482a437bc8f38c8ffc7d
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 933c6971058c107ab881cb48bb0f2a9dbd74900d
+ms.sourcegitcommit: 44fd07d8e6e5fcbe5051de2300e180f295eaaad3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156522"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "67339798"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gérer les stratégies de commentaires dans Microsoft Teams
 
@@ -68,6 +68,7 @@ Pour désactiver et activer les fonctionnalités, définissez les paramètres su
 
  - **Enquêtes** : définissez le paramètre **receiveSurveysMode** sur **activé** pour autoriser les utilisateurs auxquels la stratégie est affectée à recevoir l’enquête. Pour que les utilisateurs reçoivent l’enquête et leur permettent de refuser, définissez le paramètre sur **enabledUserOverride**. Dans Teams, les utilisateurs peuvent ensuite accéder à **Paramètres** > **de confidentialité** et choisir s’ils souhaitent participer à des enquêtes. La définition du **paramètre désactivé** désactive la fonctionnalité et les utilisateurs auxquels la stratégie est affectée ne recevront pas l’enquête.
 
+ - **Captures d’écran** : utilisez l’indicateur **AllowScreenshotCollection** pour ajouter l’option d’adhésion à la collection de captures d’écran pour les utilisateurs.
  - **Email** : Utilisez l’indicateur **AllowEmailCollection** pour ajouter un champ de messagerie.
  - **Collection de journaux** : utilisez l’indicateur **AllowLogCollection** pour ajouter l’option d’adhésion à la collecte des journaux pour les utilisateurs. La collecte des journaux est actuellement activée uniquement sur les appareils mobiles. Pour plus d’informations sur les données partagées via les journaux [d’activité, en savoir plus](https://go.microsoft.com/fwlink/?linkid=2168178).
 
@@ -89,7 +90,7 @@ Dans cet exemple, nous affectons une stratégie personnalisée nommée Nouvelle 
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
 - [Attribuer des stratégies à vos utilisateurs](policy-assignment-overview.md)

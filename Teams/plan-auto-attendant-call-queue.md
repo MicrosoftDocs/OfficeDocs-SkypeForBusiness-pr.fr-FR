@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez les standards automatiques et les files d’attente d’appels, et comment les utiliser pour aider les appelants à se déplacer dans un système de menus pour atteindre les personnes ou les services de votre organisation.
-ms.openlocfilehash: 218377b2082d1a057f503abbf83d37ff78686986
-ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
+ms.openlocfilehash: f97081e641574c0d2ea192820100861b39b48d9b
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67070735"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443351"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planifier les standards automatiques teams et les files d’attente d’appels
 
@@ -77,7 +77,7 @@ Pour configurer des standards automatiques et des files d’attente d’appels, 
 > [!NOTE]
 > Les comptes de ressources sont désactivés pour la connexion et doivent le rester. La conversation et la présence ne sont pas disponibles pour ces comptes.
 
-Les agents qui reçoivent des appels à partir des files d’attente d’appels doivent être Voix Entreprise activés en ligne ou sur site. En outre, si les files d’attente d’appels utilisent des numéros de routage direct, les agents qui doivent téléconférencer ou transférer des appels nécessitent également :
+Les agents qui reçoivent des appels à partir des files d’attente d’appels doivent être Téléphonie –  Grandes entreprises activés en ligne ou sur site. En outre, si les files d’attente d’appels utilisent des numéros de routage direct, les agents qui doivent téléconférencer ou transférer des appels nécessitent également :
 
 - Stratégie de routage vocal en ligne affectée si la file d’attente d’appels utilise le mode de transfert
 - Une licence d’audioconférence ou une stratégie de routage vocal en ligne affectée si la file d’attente d’appels utilise le mode conférence
@@ -176,9 +176,21 @@ Pour plus d’informations sur la création de standards automatiques et de file
 - [Configurer un standard automatique](create-a-phone-system-auto-attendant.md)
 - [Créer une file d’attente d’appel](create-a-phone-system-call-queue.md)
 
+> [!IMPORTANT]
+> Le jeton GUID Azure Active Directory (AAD) d’un utilisateur est stocké dans le cadre de la configuration du standard automatique ou de la file d’attente d’appels lorsque l’utilisateur est configuré comme suit :
+>
+>  - un utilisateur autorisé de standard automatique ou de file **d’attente d’appels**.
+>  - opérateur **de standard** automatique.
+>  - un point **de transfert de personne dans l’organisation** .
+>  - membre individuel d’une file d’attente d’appels.
+> 
+> Les configurations de standard automatique et de file d’attente d’appels ne sont pas synchronisées avec les événements de cycle de vie AAD.  Les administrateurs Teams doivent mettre à jour manuellement le standard automatique et appeler les configurations de file d’attente pour supprimer ces données personnelles lorsqu’un utilisateur inclus dans la configuration quitte l’organisation.
+>
+> Cela ne s’applique pas aux appartenances à l’agent de file d’attente qui sont configurées via des listes de distribution ou des canaux. Il ne s’applique pas non plus aux utilisateurs qui sont atteints via la fonctionnalité **Numérotation par nom** ou **numérotation par numéro** des standards automatiques.
+
 Si vous avez besoin de fonctionnalités plus étendues, telles que l’intégration aux flux de travail, aux bots et aux SMS, envisagez [Azure Communication Services](/azure/communication-services/overview).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Planifier le routage direct](direct-routing-plan.md)
 

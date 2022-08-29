@@ -16,12 +16,12 @@ description: Découvrez comment définir Adobe Acrobat en tant que visionneuse 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 9e8860c10e74d5dc06f73632b33b6c94ea792a09
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: b1c5654791dde3def8ec622880e26b07f693633f
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299243"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396705"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Adobe Acrobat en tant que visionneuse PDF par défaut dans Microsoft Teams
 
@@ -39,11 +39,11 @@ Pour configurer l’application Adobe Acrobat en tant que gestionnaire par déf
 
 Avant de configurer l’application, assurez-vous d’autoriser l’utilisation des applications dans votre client, que vous avez spécifiquement autorisé l’application Adobe Acrobat et que les stratégies d’autorisation de l’application l’autorisent. Pour configurer Adobe Acrobat en tant qu’application par défaut pour les fichiers PDF, procédez comme suit :
 
-1. Connectez-vous au Centre d’administration Teams et accédez à **l’application Teams** > **[ Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Connectez-vous au Centre d’administration Teams et accédez aux **[applications Gestion des applications](https://admin.teams.microsoft.com/policies/manage-apps)** **Teams** > .
 
-1. Recherchez l’application Adobe Acrobat et sélectionnez-la.
+1. Recherchez l’application Adobe Acrobat et sélectionnez-la. Elle ouvre la page de détails de l’application.
 
-1. Sous l’onglet **Autorisations**, sélectionnez **Vérifier l’autorisation**.
+1. Sélectionnez l’onglet **Autorisations** , puis **sélectionnez Vérifier l’autorisation**.
 
    :::image type="content" source="media/permission-policy.png" alt-text="Capture d’écran de la stratégie de configuration d’application dans le Centre d’administration Teams" lightbox="media/teams-app-adobe-acrobat-permission.png":::
 

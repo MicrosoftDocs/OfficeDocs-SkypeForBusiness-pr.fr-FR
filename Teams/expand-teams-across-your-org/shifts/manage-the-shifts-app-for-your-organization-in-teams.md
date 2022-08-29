@@ -20,15 +20,16 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - microsoftcloud-retail
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec51237ff9a3b0dff1894581364756afbfd6f5cf
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 759e0cb846b6bca404276e50ca00a1ff28d5725c
+ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269009"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67405136"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Plannings pour votre organisation dans Microsoft Teams
 
@@ -89,6 +90,17 @@ Vous pouvez créer une [stratégie d’installation d’application personnalis�
 Un [package de stratégie](../../manage-policy-packages.md) dans Teams est une collection de stratégies et de paramètres de stratégie prédéfinis que vous pouvez attribuer aux utilisateurs qui ont des rôles similaires dans votre organisation. L’ensemble de stratégies dans les packages de stratégie Frontline Worker et Frontline Manager inclut une stratégie d’installation d’application qui épingle l’application Shifts et d’autres applications qui prennent en charge les activités de communication et de collaboration pour ce rôle.
 
 Nous vous recommandons d’utiliser les packages de stratégie De frontline Worker et Frontline Manager, car ils simplifient, simplifient et aident à assurer la cohérence lors de la gestion des stratégies pour votre personnel de première ligne.
+
+### <a name="enable-shift-based-tags-in-teams"></a>Activer des balises basées sur des shifts dans Teams
+
+[Les balises](https://support.microsoft.com/office/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e) dans Teams permettent aux utilisateurs de se connecter facilement à un sous-ensemble de personnes d’une équipe. Avec les balises basées sur les shifts, les personnes reçoivent automatiquement des balises qui correspondent à leur nom de groupe de planification et de décalage dans Shifts. La balise peut être utilisée dans @mentions sur la ligne **À** dans une conversation ou dans un billet sur n’importe quel canal standard de l’équipe.
+
+Les balises basées sur les shifts permettent à vos utilisateurs d’atteindre des personnes en déplacement en temps réel. Les notifications sont envoyées uniquement aux personnes qui sont en équipe au moment où l’étiquette est utilisée dans une conversation ou un billet de canal. Par exemple :
+
+- Un responsable de magasin utilise la balise @Cashiers pour publier une annonce sur un canal pour tous les caissier en équipe.
+- Une infirmière utilise la balise @CardiologistsOnCall pour démarrer une conversation avec tous les cardiologues de garde.
+
+Vous pouvez activer ou désactiver la fonctionnalité dans le Centre d’administration Microsoft Teams. Pour plus d’informations, consultez [Gérer les étiquettes dans Teams](../../manage-tags.md).
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>Rechercher des événements de Plannings dans le journal d’audit 
 

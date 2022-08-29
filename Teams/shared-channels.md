@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des canaux partagés dans Microsoft Teams.
-ms.openlocfilehash: 55d1956b1f112e0f1685ac6c4126f564cf40bdb1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 767773d8c7f91bb290332fbd0976fb638edb2b8b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272259"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397225"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canaux partagés dans Microsoft Teams
 
@@ -70,6 +70,9 @@ Lorsqu'une équipe est archivée, le partage individuel reste intact, mais le pa
 Un propriétaire de canal partagé ne peut pas être supprimé par le client Teams s'il est le dernier propriétaire d'un ou plusieurs canaux partagés.
 
 Si le dernier propriétaire du canal partagé quitte votre organisation ou s'il est supprimé du groupe Microsoft 365 associé à l'équipe, un membre du canal partagé est automatiquement promu propriétaire du canal partagé. Pensez à ajouter plus d'un propriétaire pour éviter cette situation.
+
+> [!NOTE]
+> Les participants externes doivent être ajoutés à l’aide de leur UPN, plutôt que de leur adresse e-mail, si les deux ne correspondent pas dans Azure Active Directory.
 
 ## <a name="channel-owner-settings"></a>Paramètres du propriétaire du canal
 
@@ -154,7 +157,7 @@ Les limitations suivantes s’appliquent également :
 
 - Les canaux partagés supportent les onglets à l’exception de Stream, Planner et Forms.
 
-- Les applications métier, les bots, les connecteurs et les extensions de message ne sont pas pris en charge.
+- Les bots, connecteurs et extensions de message ne sont pas pris en charge.
 
 - Lorsque vous créez une équipe à partir d’une équipe existante, les canaux privés de l’équipe existante ne seront pas copiés.
 

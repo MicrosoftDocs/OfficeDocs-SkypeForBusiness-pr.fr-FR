@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour les participants et les invités.
-ms.openlocfilehash: 7f9cb76e12671425ee2b7b0543263195796e04d5
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: da04d38ce63e43414c1a560f92593fbd76ef5b0c
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713352"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396505"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion : participants et invités
 
@@ -40,7 +40,7 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 - [Conversation dans les réunions](#chat-in-meetings)
 
 > [!NOTE]
->Les options permettant de participer à une réunion varient en fonction des paramètres de chaque groupe Teams et de la méthode de connexion. Si votre groupe dispose d’une audioconférence et l’utilise pour se connecter, consultez[Audioconférence](/microsoftteams/audio-conferencing-in-office-365). Si votre équipe n’a pas d’audioconférence, consultez [Participer à une réunion dans Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+> Les options permettant de participer à une réunion varient en fonction des paramètres de chaque groupe Teams et de la méthode de connexion. Si votre groupe dispose d’une audioconférence et l’utilise pour se connecter, consultez[Audioconférence](/microsoftteams/audio-conferencing-in-office-365). Si votre équipe n’a pas d’audioconférence, consultez [Participer à une réunion dans Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>Permettre aux personnes anonymes de participer à une réunion
 
@@ -71,7 +71,7 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les
 |**Membres de mon organisation, organisations de confiance et invités**     |Les utilisateurs authentifiés au sein de l’organisation, y compris les invités et les utilisateurs d’organisations approuvées, participent directement à la réunion sans attendre dans la salle d’attente.  Les utilisateurs anonymes attendent dans la salle d’attente.   |
 |**Membres de mon organisation**    |Les utilisateurs authentifiés de l’organisation rejoignent directement la réunion sans attendre dans la salle d’attente.  Les utilisateurs d’organisations approuvées, d’invités et d’utilisateurs anonymes attendent dans la salle d’attente.          |
 |**Organisateur uniquement**    |Seuls les organisateurs de réunion peuvent rejoindre directement la réunion sans attendre dans la salle d’attente. Tout le monde, y compris les utilisateurs authentifiés au sein de l’organisation, les invités, les utilisateurs d’organisations approuvées et les utilisateurs anonymes doivent attendre dans la salle d’attente. Dans la page Options de réunion du client Teams, elle apparaît comme « Uniquement moi ».          |
-|**Utilisateurs invités uniquement**    |Seuls les utilisateurs invités et les organisateurs de réunion peuvent participer directement à la réunion sans attendre dans la salle d’attente. Tout le monde, y compris les utilisateurs authentifiés au sein de l’organisation, les invités, les utilisateurs d’organisations approuvées et les utilisateurs anonymes doivent attendre dans la salle d’attente. Dans la page Options de réunion du client Teams, elle apparaît sous la forme « Contacts que j’invite ». Les utilisateurs ajoutés dans le cadre d’un groupe de distribution devront passer par la salle d’attente.      |
+|**Utilisateurs invités uniquement**    |Seuls les utilisateurs invités et les organisateurs de réunion peuvent participer directement à la réunion sans attendre dans la salle d’attente. Tout le monde, y compris les utilisateurs authentifiés au sein de l’organisation, les invités, les utilisateurs d’organisations approuvées et les utilisateurs anonymes doivent attendre dans la salle d’attente. Dans la page Options de réunion du client Teams, il apparaît comme « Personnes j’invite ». Les utilisateurs ajoutés dans le cadre d’un groupe de distribution devront passer par la salle d’attente.      |
 
  > [!NOTE]
 > Les organisations approuvées sont des domaines avec lequel vous autorisez les communications fédérées dans Teams. Si vous **activez Autoriser tous les domaines externes** pour l’accès externe dans le Centre d’administration Teams, tout utilisateur authentifié au sein d’une organisation Teams est approuvé. Si vous choisissez de spécifier des domaines externes autorisés et de bloquer tous les autres, les domaines autorisés deviennent des organisations approuvées. Tout domaine bloqué n’est pas considéré comme une organisation approuvée.
@@ -98,15 +98,20 @@ Ce paramètre est une stratégie par utilisateur qui s’applique lors d’une r
 
 ## <a name="chat-in-meetings"></a>Conversation dans les réunions
 
-Ce paramètre est un paramètre par participant. Ce paramètre détermine si la conversation de réunion est autorisée pendant la réunion de l’utilisateur.
-
-Ce paramètre ne s’applique pas aux réunions de canal. Une fois cette stratégie de conversation de réunion appliquée aux utilisateurs, un organisateur ne peut pas remplacer cette stratégie par le biais d’options de réunion.
+Il s’agit d’une stratégie par utilisateur et par organisateur. Ce paramètre détermine si la conversation de réunion est autorisée pendant la réunion de l’utilisateur. Ce paramètre ne s’applique pas aux réunions de canal.
 
 |Valeur du paramètre |Comportement  |
 |---------|---------|
 |**Activer pour tout le monde**     | Tous les participants peuvent écrire et afficher des messages de conversation. |
 |**Désactivez-le pour tout le monde**     | La conversation de réunion est désactivée pour tous les participants.  |
 |**Activez-le pour tout le monde, sauf les utilisateurs anonymes**     | L’accès en écriture de conversation de réunion est désactivé uniquement pour les participants anonymes.  |
+
+Une fois que cette **stratégie de conversation dans les réunions** est appliquée aux utilisateurs, un organisateur ne peut pas remplacer cette stratégie par le biais des **options de réunion**.
+
+La stratégie appliquée à l’organisateur de la réunion peut affecter d’autres utilisateurs de la réunion. Par exemple :
+
+- Si l’organisateur a défini **chat dans les réunions** pour **l’activer pour tout le monde** ou **l’activer pour tout le monde, mais les utilisateurs anonymes**, la stratégie individuelle d’un utilisateur s’applique et tous les utilisateurs avec **désactiver pour tout le monde** ne sera pas en mesure de discuter dans la réunion.
+- Si l’organisateur a défini **chat dans les réunions** pour **la désactiver pour tout le monde**, la stratégie de l’organisateur s’applique et personne ne sera en mesure de discuter dans la réunion.
 
 <a name="bkparticipantsandguests"> </a>
 

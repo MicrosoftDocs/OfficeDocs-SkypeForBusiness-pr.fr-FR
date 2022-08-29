@@ -3,6 +3,77 @@
 
 
 
+## <a name="week-of-august-15-2022"></a>Semaine du 15 août 2022
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 8/15/2022 | [Contrôleurs de frontière de session certifiés pour le routage direct](/MicrosoftTeams/direct-routing-border-controllers) | modifié |
+| 8/16/2022 | [Forfaits d’appels pour Microsoft Teams](/MicrosoftTeams/calling-plans-for-office-365) | modifié |
+| 8/17/2022 | [Personnaliser votre magasin d’applications dans Teams](/MicrosoftTeams/customize-your-app-store) | modifié |
+| 8/17/2022 | [Appareils pour Teams](/MicrosoftTeams/devices/teams-ip-phones) | modifié |
+| 8/17/2022 | [Consentement spécifique à la ressource dans Microsoft Teams](/MicrosoftTeams/resource-specific-consent) | modifié |
+| 8/17/2022 | [Gérer les stratégies d’autorisation d’application dans Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modifié |
+| 8/17/2022 | [Gérer les stratégies et paramètres d’application personnalisés](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modifié |
+| 8/17/2022 | [Charger vos applications personnalisées dans le Centre d’administration Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | modifié |
+| 8/18/2022 | [Afficher les autorisations des applications et accorder le consentement administrateur dans le Centre d’administration Microsoft Teams](/MicrosoftTeams/app-permissions-admin-center) | modifié |
+| 8/18/2022 | Nouveautés - Operator Connect | supprimé |
+| 8/18/2022 | [Charger vos applications personnalisées dans le Centre d’administration Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | modifié |
+| 8/19/2022 | [Gérer les équipes dans le centre d’administration Microsoft Teams](/MicrosoftTeams/manage-teams-in-modern-portal) | modifié |
+| 8/19/2022 | [Gérer les stratégies de réunion pour les participants et les invités](/MicrosoftTeams/meeting-policies-participants-and-guests) | modifié |
+| 8/19/2022 | [Expériences connectées optionnelles dans Teams](/MicrosoftTeams/teams-privacy-oce-overview) | modifié |
+| 8/20/2022 | [Planifier le contournement de média avec un routage direct](/MicrosoftTeams/direct-routing-plan-media-bypass) | modifié |
+| 8/20/2022 | [Préparer le réseau de votre organisation pour Microsoft Teams](/MicrosoftTeams/prepare-network) | modifié |
+| 8/20/2022 | [Téléphones et appareils pour Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modifié |
+| 8/20/2022 | [Utiliser des modèles Teams dans le Centre d’administration](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modifié |
+| 8/20/2022 | [Achat d’applications tierces pour Teams](/MicrosoftTeams/purchase-third-party-apps) | modifié |
+| 8/20/2022 | [Présentation des équipes et des canaux dans Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modifié |
+| 8/20/2022 | [Mettre à niveau Skype Entreprise localement vers Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | modifié |
+| 8/20/2022 | [Gérer les stratégies de messagerie vocale](/MicrosoftTeams/manage-voicemail-policies) | ajouté |
+| 8/20/2022 | [Affectation, modification ou suppression du numéro de téléphone d’un utilisateur](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | modifié |
+| 8/20/2022 | [Approvisionnement à distance et connexion pour les appareils Android Teams](/MicrosoftTeams/devices/remote-provision-remote-login) | modifié |
+| 8/20/2022 | [Gérer l’application Plannings pour votre organisation dans Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modifié |
+| 8/20/2022 | [Configurer Operator Connect](/MicrosoftTeams/operator-connect-configure) | modifié |
+| 8/20/2022 | [Transferts de données entre les opérateurs et Microsoft pour Operator Connect](/MicrosoftTeams/operator-connect-data-transfer) | modifié |
+| 8/20/2022 | [Connexion d’opérateur](/MicrosoftTeams/operator-connect-plan) | modifié |
+| 8/20/2022 | [Rechercher des numéros de téléphone pour les utilisateurs](/MicrosoftTeams/search-for-phone-numbers-for-users) | modifié |
+| 8/20/2022 | [Configurer les paramètres d’événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modifié |
+| 8/20/2022 | [Configurer des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modifié |
+| 8/20/2022 | [Configurer la confirmation de rendez-vous rendez-vous pour vos utilisateurs dans Microsoft Teams](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | modifié |
+
+
+## <a name="week-of-august-08-2022"></a>Semaine du 8 août 2022
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 8/8/2022 | [Expérience de mise à jour d’applications dans Microsoft Teams](/MicrosoftTeams/apps-update-experience) | modifié |
+| 8/8/2022 | Vous gérez les applications pour votre organisation dans les [applications Teams au sein du centre d’administration Microsoft Teams](/MicrosoftTeams/manage-apps). | modifié |
+| 8/8/2022 | [Effectuer une enquête eDiscovery sur le contenu](/MicrosoftTeams/ediscovery-investigation) | modifié |
+| 8/9/2022 | [Vue d’ensemble des stratégies d’application pour gérer les applications dans Teams](/MicrosoftTeams/app-policies) | modifié |
+| 8/9/2022 | Comité directeur pour le déploiement de voix cloud | supprimé |
+| 8/9/2022 | Liste de vérification de l’intégration - Configurer des charges de travail de voix cloud - Microsoft Teams | supprimé |
+| 8/9/2022 | Liste de vérification de l’intégration - Configurer le routage direct - Microsoft Teams | supprimé |
+| 8/9/2022 | Liste de vérification de l’intégration - Configurer les fonctionnalités principales - Microsoft Teams | supprimé |
+| 8/9/2022 | Liste de contrôle d’intégration - Activer le service Microsoft 365 ou Office 365 | supprimé |
+| 8/9/2022 | Référence Salles Microsoft Teams | supprimé |
+| 8/9/2022 | [Gérer les applications personnalisées et chargées de manière indépendante](/MicrosoftTeams/custom-app-overview) | ajouté |
+| 8/9/2022 | [En savoir plus sur les applications dans Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modifié |
+| 8/9/2022 | [Vue d’ensemble des tests et de la validation des applications par Microsoft](/MicrosoftTeams/overview-of-app-validation) | modifié |
+| 8/9/2022 | [Comprendre les applications tierces dans Microsoft Teams](/MicrosoftTeams/overview-third-party-apps) | modifié |
+| 8/9/2022 | [Achat d’applications tierces pour Teams](/MicrosoftTeams/purchase-third-party-apps) | modifié |
+| 8/9/2022 | [Gérer les stratégies d’autorisation d’application dans Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modifié |
+| 8/9/2022 | [Gérer les stratégies de mise en application dans Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modifié |
+| 8/9/2022 | [Gérer les stratégies et paramètres d’application personnalisés](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modifié |
+| 8/10/2022 | Routage direct | supprimé |
+| 8/11/2022 | [En savoir plus sur les applications dans Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modifié |
+| 8/11/2022 | Vous gérez les applications pour votre organisation dans les [applications Teams au sein du centre d’administration Microsoft Teams](/MicrosoftTeams/manage-apps). | modifié |
+| 8/11/2022 | [Gérer les stratégies de mise en application dans Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modifié |
+| 8/12/2022 | [Configurer un standard automatique pour Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | ajouté |
+| 8/12/2022 | [Créer une file d’attente des appels dans Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | ajouté |
+| 8/12/2022 | [Application Walkie Talkie dans Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modifié |
+
+
 ## <a name="week-of-august-01-2022"></a>Semaine du 1er août 2022
 
 
@@ -135,7 +206,7 @@
 | 7/18/2022 | Mise en service de Microsoft Teams à grande échelle pour les employés de bureau | supprimé |
 | 7/19/2022 | [Gérer les connecteurs Microsoft 365 et les connecteurs personnalisés](/MicrosoftTeams/office-365-custom-connectors) | modifié |
 | 7/19/2022 | [En savoir plus sur les applications dans Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modifié |
-| 7/19/2022 | [Gérer les applications Microsoft Power Platform dans le Centre d’administration Microsoft Teams](/MicrosoftTeams/manage-power-platform-apps) | modifié |
+| 7/19/2022 | [Gérer les applications Microsoft Power Platform dans le centre d'administration Microsoft Teams](/MicrosoftTeams/manage-power-platform-apps) | modifié |
 | 7/19/2022 | [Gérer les réunions Q&A dans Teams](/MicrosoftTeams/manage-qna-for-teams) | modifié |
 | 7/19/2022 | [Vue d’ensemble de la certification des applications par Microsoft](/MicrosoftTeams/overview-of-app-certification) | modifié |
 | 7/19/2022 | [Achat d’applications tierces pour Teams](/MicrosoftTeams/purchase-third-party-apps) | modifié |
@@ -145,72 +216,3 @@
 | 7/21/2022 | Vous gérez les applications pour votre organisation dans les [applications Teams au sein du centre d’administration Microsoft Teams](/MicrosoftTeams/manage-apps). | modifié |
 | 7/21/2022 | [Utiliser l’API de soumission d’applications Teams pour envoyer et approuver vos applications personnalisées](/MicrosoftTeams/submit-approve-custom-apps) | modifié |
 | 7/21/2022 | [Charger vos applications personnalisées dans le Centre d’administration Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | modifié |
-
-
-## <a name="week-of-july-11-2022"></a>Semaine du 11 juillet 2022
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 7/13/2022 | [Musique en attente](/MicrosoftTeams/music-on-hold) | modifié |
-| 7/14/2022 | [Planifier la passerelle SIP](/MicrosoftTeams/sip-gateway-plan) | modifié |
-| 7/15/2022 | [Notes de publication pour Salles Microsoft Teams (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | modifié |
-| 7/15/2022 | [Packages de stratégie Teams pour les travailleurs de première ligne](/MicrosoftTeams/policy-packages-flw) | ajouté |
-| 7/15/2022 | [Gérer l’application Approbations dans Microsoft Teams](/MicrosoftTeams/approval-admin) | modifié |
-| 7/15/2022 | [Gérer l’application Bookings dans Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | modifié |
-| 7/15/2022 | Déployer des équipes à grande échelle pour les employés de première ligne dans Microsoft Teams | supprimé |
-| 7/15/2022 | Rendez-vous virtuels avec Microsoft Teams et l’application Bookings | supprimé |
-| 7/15/2022 | Gérer l’expérience de jointure pour les rendez-vous virtuels Teams sur les navigateurs | supprimé |
-| 7/15/2022 | [Développer Microsoft Teams au sein de votre organisation](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | modifié |
-| 7/15/2022 | Rendez-vous virtuels avec Teams - Intégration à Cerner EHR | supprimé |
-| 7/15/2022 | Rapport de Rendez-vous virtuels du connecteur DSE Microsoft Teams | supprimé |
-| 7/15/2022 | Rendez-vous virtuels avec Teams - Intégration à Epic EHR | supprimé |
-| 7/15/2022 | Délégation de messages | supprimé |
-| 7/15/2022 | Messagerie sécurisée pour les organismes de santé utilisant Microsoft Teams | supprimé |
-| 7/15/2022 | Prise en main de Teams pour les organismes de santé | supprimé |
-| 7/15/2022 | Simplifier les processus métier dans les environnements de vente au détail | supprimé |
-| 7/15/2022 | Collaboration entre équipes commerciales | supprimé |
-| 7/15/2022 | Shifts pour Teams | supprimé |
-| 7/15/2022 | Gérer l’accès par équipe pour les travailleurs de première ligne dans Teams | supprimé |
-| 7/15/2022 | [Gérer l’application Plannings pour votre organisation dans Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modifié |
-| 7/15/2022 | Gérer les propriétaires de planification pour la gestion des décalages | supprimé |
-| 7/15/2022 | Utiliser PowerShell pour connecter Shifts à Blue Yonder Workforce Management | supprimé |
-| 7/15/2022 | Utilisez PowerShell pour gérer votre connexion Shifts à Blue Yonder Workforce Management | supprimé |
-| 7/15/2022 | Utilisez l’Assistant Connecteur Shifts pour connecter Shifts à Blue Yonder Workforce Management | supprimé |
-| 7/15/2022 | Majs connecteurs | supprimé |
-| 7/15/2022 | Teams pour la vente au détail | supprimé |
-| 7/15/2022 | Aider vos clients et clients à utiliser des rendez-vous virtuels | supprimé |
-| 7/15/2022 | [Démarrer avec Teams pour employés de première ligne](/MicrosoftTeams/flw-landing-page) | modifié |
-| 7/15/2022 | Comprendre les types d’utilisateurs et les licences des employés en ligne | supprimé |
-| 7/15/2022 | Utilisez l’Assistant Intégration des employés de première ligne pour votre personnel de première ligne soit opérationnel | supprimé |
-| 7/15/2022 | Guide de démarrage rapide du Worker de première ligne | supprimé |
-| 7/15/2022 | Gérer la version d’évaluation en première ligne dans Teams | supprimé |
-| 7/15/2022 | Personnaliser les applications Teams pour vos employés de première ligne | supprimé |
-| 7/15/2022 | [Packages de stratégie Teams pour la santé publique](/MicrosoftTeams/policy-packages-healthcare) | modifié |
-| 7/15/2022 | Rapport d’utilisation des visites virtuelles Microsoft Teams | supprimé |
-| 7/15/2022 | [Exemple de script PowerShell - Exporter les gestionnaires et leurs rapports directs](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-export-managers) | modifié |
-| 7/15/2022 | [Exemple de script PowerShell - Créer des équipes de gestionnaires de personnes](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-new-teams) | modifié |
-
-
-## <a name="week-of-july-04-2022"></a>Semaine du 4 juillet 2022
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 7/5/2022 | [Informations de référence sur les applets de commande PowerShell pour les standards automatiques et les files d’attente d’appels](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | modifié |
-| 7/5/2022 | [Configurer un standard automatique pour Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modifié |
-| 7/5/2022 | [Créer une file d’attente des appels dans Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
-| 7/5/2022 | [Réunions et conférences dans Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | modifié |
-| 7/5/2022 | [Configurer le contrôleur de bordure de session - Plusieurs locataires](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modifié |
-| 7/5/2022 | [Planifier les standards automatiques teams et les files d’attente d’appels](/MicrosoftTeams/plan-auto-attendant-call-queue) | modifié |
-| 7/5/2022 | [Réunions, webinaires et événements en direct](/MicrosoftTeams/quick-start-meetings-live-events) | modifié |
-| 7/5/2022 | [licences de compte de ressource Téléphonie Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | modifié |
-| 7/5/2022 | [Étude de cas Contoso vocale Teams : Standards automatiques et files d’attente d’appels](/MicrosoftTeams/voice-case-study-call-queues) | modifié |
-| 7/5/2022 | [Rechercher des événements de gestion des applications dans les journaux d’audit](/MicrosoftTeams/audit-app-management-activities) | ajouté |
-| 7/6/2022 | [Guide d’administration informatique sur Education Insights dans Microsoft Teams](/MicrosoftTeams/class-insights) | modifié |
-| 7/6/2022 | [Utiliser PowerShell pour connecter Shifts à Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | modifié |
-| 7/6/2022 | [Utilisez l’Assistant Connecteur Shifts pour connecter Shifts à Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-wizard) | modifié |
-| 7/6/2022 | [Utilisation d’un ID d’appelant dans votre organisation](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | modifié |
-| 7/7/2022 | Découvrir la fonction d'appel dans Microsoft Teams | supprimé |
-| 7/7/2022 | [Forfaits d’appels pour Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | modifié |
-| 7/8/2022 | [Rendez-vous virtuels avec Microsoft Teams et l’application Bookings](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | modifié |

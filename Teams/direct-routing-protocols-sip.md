@@ -16,12 +16,12 @@ f1.keywords:
 description: Protocoles de routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a4ba1715ccf7b1ea2f0dbf12b58fd5aa6556b24
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 00df395ab67ea3e268cb31f202dd59cba4d4148b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271259"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396315"
 ---
 # <a name="direct-routing---sip-protocol"></a>Routage direct - Protocole SIP
 
@@ -42,7 +42,7 @@ Avant qu’un appel entrant ou sortant puisse être traité, les messages OPTION
 | En-tête de contact | Contact: <sip:sbc1.adatum.biz:50588;transport=tls> |
 
 > [!NOTE]
-> Les en-têtes SIP ne contiennent pas d’userinfo dans l’URI SIP utilisé. Conformément à [la RFC 3261, section 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), la partie userinfo d’un URI est facultative et peut être absente lorsque l’hôte de destination n’a pas de notion d’utilisateurs ou lorsque le hosst lui-même est la ressource identifiée. Si le signe @ est présent dans un URI SIP, le champ utilisateur NE DOIT PAS être vide.
+> Les en-têtes SIP ne contiennent pas d’userinfo dans l’URI SIP utilisé. Conformément à [la RFC 3261, section 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), la partie userinfo d’un URI est facultative et peut être absente lorsque l’hôte de destination n’a pas de notion d’utilisateurs ou lorsque l’hôte lui-même est la ressource identifiée. Si le signe @ est présent dans un URI SIP, le champ utilisateur NE DOIT PAS être vide.
 > Notez que l’URI SIPS ne doit pas être utilisé avec le routage direct, car il n’est pas pris en charge.
 > Vérifiez la configuration de votre contrôleur de frontière de session et assurez-vous que vous n’utilisez pas les en-têtes « Remplacer » dans les demandes SIP. Le routage direct rejette les demandes SIP dont les en-têtes Replaces sont définis.
 

@@ -11,12 +11,13 @@ ms.localizationpriority: medium
 description: Découvrez comment gérer l’application Praise dans le Centre d’administration Microsoft Teams.
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 0f30a508fd1c0f2e82dcab3c22d3ade94d4e0118
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+- m365-frontline
+ms.openlocfilehash: 36f904f40fdb878480addc0d753b4ccb44a3f2d9
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269419"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396685"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gérer l’application Praise dans le Centre d’administration Microsoft Teams
 
@@ -33,7 +34,7 @@ Les éloges sont activés par défaut pour tous les utilisateurs Teams de votre 
 
 :::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Capture d’écran de la page de détails de l’application Compliment dans le Centre d’administration Teams, montrant le bouton bascule État.":::
 
-1. Dans le volet gauche du Centre d’administration Microsoft Teams, accédez à **Applications Teams** > **Gérer les applications**.
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **Applications Teams** > **Gérer les applications**.
 2. Dans la liste des applications, recherchez l’application Compliment, sélectionnez-la, puis basculez le bouton bascule **État** sur **Bloqué** ou **Autorisé**.
 
 N’oubliez pas que ce paramètre affecte à la fois l’application Praise et la fonctionnalité Praise dans l’application Viva Insights dans Teams.

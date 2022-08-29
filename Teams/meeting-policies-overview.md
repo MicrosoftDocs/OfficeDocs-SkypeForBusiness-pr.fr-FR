@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams et les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: ccfcb15cb5456a25b8bbad0383481f20d4c81e9b
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 99c84f6c0dfcbd20824a90af49739eace200ecd2
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205534"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396545"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>Gérer les stratégies de réunion dans Microsoft Teams
 
@@ -44,7 +44,7 @@ Vous pouvez implémenter des stratégies de plusieurs manières, ce qui affecte 
 |Type d’implémentation  |Description  |
 |---------|---------|
 |Par organisateur    |Lorsque vous appliquez une stratégie par organisateur, tous les participants à la réunion héritent de la stratégie de l’organisateur. Par exemple, le paramètre **Admettre automatiquement des personnes** est une stratégie par organisateur. Elle permet de contrôler si les utilisateurs rejoignent directement la réunion ou attendent dans la salle d’attente pour les réunions planifiées par l’utilisateur auquel la stratégie est attribuée.          |
-|Par utilisateur    |Lorsque vous appliquez une stratégie par utilisateur, seule la stratégie par utilisateur s’applique pour restreindre certaines fonctionnalités pour l’organisateur et/ou les participants à la réunion. Par exemple, **La maintenant dans les canaux est** une stratégie par utilisateur.     |
+|Par utilisateur    |Lorsque vous appliquez une stratégie par utilisateur, seule la stratégie par utilisateur s’applique pour restreindre certaines fonctionnalités pour l’organisateur et/ou les participants à la réunion. Par exemple, **La réunion maintenant dans les canaux** est une stratégie par utilisateur.     |
 |Par organisateur et par utilisateur     |Lorsque vous appliquez une combinaison d’une stratégie par organisateur et par utilisateur, certaines fonctionnalités sont limitées aux participants à la réunion en fonction de leur stratégie et celle de l’organisateur. Par exemple, **l’enregistrement cloud** est une stratégie par organisateur et par utilisateur. Activez ce paramètre pour autoriser l’organisateur de la réunion et les participants à démarrer et arrêter un enregistrement.
 
 Vous pouvez modifier les paramètres dans la stratégie globale ou créer et affecter une ou plusieurs stratégies personnalisées. Les utilisateurs recevront automatiquement la stratégie par défaut, sauf si vous créez et leur attribuez une stratégie personnalisée.
@@ -64,16 +64,20 @@ Par exemple, imaginons que vous avez un grand nombre d’utilisateurs et que vou
 
 Sous **Audio & vidéo** :
 
-- Désactiver l’enregistrement cloud.
-- Désactiver la vidéo IP.
+- Désactivez l’enregistrement cloud.
+- Désactivez la vidéo IP.
 
 Sous **Partage de contenu** :
 
 - Désactiver le mode de partage d’écran.
-- Désactiver le Tableau blanc.
-- Désactiver les notes partagées.
+- Désactivez le tableau blanc.
+- Désactivez les notes partagées.
 
 Vous pouvez ensuite attribuer la stratégie aux utilisateurs.
+
+Cette vidéo montre les étapes à suivre pour créer et affecter une stratégie de réunion personnalisée à un utilisateur (ou à des utilisateurs).
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Wv0?autoplay=false]
 
 ## <a name="edit-a-meeting-policy"></a>Modifier une stratégie de réunion
 
@@ -86,6 +90,10 @@ Vous pouvez modifier la stratégie globale et les stratégies personnalisées qu
 
 > [!NOTE]
 > Un utilisateur ne peut être affecté qu’à une stratégie de réunion à la fois.
+
+Cette vidéo montre les étapes à suivre pour modifier une stratégie de réunion par défaut à l’échelle de l’organisation.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53MoG?autoplay=false]
 
 ## <a name="assign-a-meeting-policy-to-users"></a>Affecter une stratégie de réunion aux utilisateurs
 
