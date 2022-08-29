@@ -21,12 +21,12 @@ description: Vos équipes ou l’administrateur informatique peuvent configurer 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 7d45fea1b0b2fdb5d659f0a025b74473050b3616
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
-ms.translationtype: HT
+ms.openlocfilehash: 009d82d65a79bacfc0c5eca785cb595b5aebc793
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674226"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418513"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Gérer les conversations et les réunions externes dans Microsoft Teams
 
@@ -274,6 +274,13 @@ Si vous êtes administrateur, vous pouvez utiliser l'outil de diagnostic suivant
 
 3. Les tests renverront les meilleures prochaines étapes pour traiter les configurations de locataire ou de stratégie qui empêchent la communication avec l'utilisateur fédéré.
 
+## <a name="user-level-controls"></a>Contrôles au niveau de l’utilisateur
+
+Lorsque les utilisateurs reçoivent des conversations 1:1 d’une personne extérieure à l’organisation, ils bénéficient d’une expérience en plein écran dans laquelle ils peuvent choisir **d’afficher un aperçu** du message, **d’accepter** la conversation ou **de bloquer** la personne qui envoie la conversation.
+
+Le blocage des personnes externes est disponible à plusieurs endroits dans Teams, y compris le menu plus (**...**) dans la liste de conversations et le menu plus (**...**) sur la carte contacts. Les utilisateurs peuvent également débloquer des personnes externes via le menu plus (**...**) de la liste de conversations, le menu plus (**...**) sur la carte contacts, ou en visitant **les contacts bloqués Paramètres** >  Modifier **les** > **contacts bloqués**. Le blocage est disponible avant ou après l’envoi des messages.
+
+Le blocage de personnes externes les empêche d’envoyer des messages dans des conversations 1:1, d’ajouter l’utilisateur à de nouvelles conversations de groupe et d’afficher leur présence. Tandis que les invitations aux conversations de groupe sont bloquées, les utilisateurs bloqués peuvent avoir les mêmes conversations avec les utilisateurs qui les ont bloquées, soit parce que la conversation a été lancée avant le blocage, soit parce que l’invitation à la conversation de groupe a été envoyée par un autre membre.
 
 ## <a name="related-topics"></a>Sujets associés
 

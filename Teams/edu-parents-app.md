@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73f11abed8101031361e92d008c4edbd89b9a31c
-ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
+ms.openlocfilehash: 37de74db112dcbd5466659b385f1bb94d7c134aa
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67278768"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418623"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurer la connexion parente dans Microsoft Teams pour l'éducation
 
@@ -42,7 +42,7 @@ Voici quelques ressources que les administrateurs informatiques peuvent partager
 La connexion parents permet aux enseignants et aux tuteurs de discuter, d’envoyer des e-mails et d’appeler à l’aide de Teams.
 
 - Les enseignants peuvent lancer des conversations avec des tuteurs.
-  - Si le tuteur n’a pas de compte de consommateur Teams, il reçoit le message initial de l’enseignant et une invitation par e-mail à accéder à Teams.
+  - Si le tuteur n’a pas de compte de consommateur Teams ou s’il n’a pas encore rejoint Teams, il reçoit le message de l’enseignant, ainsi qu’une invitation par e-mail à accéder à Teams. Cela s’applique uniquement dans les cas où les limites d’invitation n’ont pas été atteintes, et la conversation est une nouvelle conversation ou une conversation existante qui a été entrée à nouveau à partir de la connexion parente.
 - Il fonctionne avec la conversation supervisée. Pour plus d’informations, consultez [Utiliser des conversations supervisées dans Microsoft Teams](supervise-chats-edu.md).
   - Par défaut, les tuteurs disposent d’autorisations restreintes, de sorte qu’ils ne peuvent pas discuter avec des étudiants ou supprimer des utilisateurs des conversations.
   - Ce paramètre peut être modifié par l’administrateur du locataire.

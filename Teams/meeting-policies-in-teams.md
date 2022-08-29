@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams. Utilisez les paramètres de stratégie pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 651d6ec34a86ac7e8468aac8b8a94b8e0c5f18a5
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
-ms.translationtype: HT
+ms.openlocfilehash: 1b5b173253ee457a6d966f9310987168d62a5299
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605240"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418493"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans Teams
 
@@ -323,7 +323,7 @@ Pour les réunions qui nécessitent une expérience vidéo de la plus haute qual
 
 - [Mode de partage d’écran](#screen-sharing-mode)
 - [Autoriser un participant à donner ou demander le contrôle](#allow-a-participant-to-give-or-request-control).
-- [Autoriser un participant externe à donner ou demander le contrôle](#allow-an-external-participant-to-give-or-request-control)
+- [Les participants externes peuvent donner ou demander le contrôle](#external-participants-can-give-or-request-control)
 - [Autoriser le partage de PowerPoint](#allow-powerpoint-sharing)
 - [Autoriser le tableau blanc](#allow-whiteboard)
 - [Autoriser les notes partagées](#allow-shared-notes)
@@ -333,7 +333,7 @@ Pour les réunions qui nécessitent une expérience vidéo de la plus haute qual
 > [!NOTE]
 > Cette fonctionnalité est en cours de développement. Le partage d’écran est une stratégie par participant. Cependant, cette fonctionnalité peut être affectée par les paramètres de partage d’écran de l’organisateur, comme décrit dans cette section.
 
-Ce paramètre détermine si le partage de bureau et/ou de fenêtre est autorisé dans la réunion de l’utilisateur. Les participants à la réunion qui n'ont pas de stratégie attribuée (par exemple, les participants anonymes, invités, B2B et fédérés) héritent de la stratégie de l'organisateur de la réunion.
+Ce paramètre détermine si le partage de bureau et/ou de fenêtre est autorisé dans la réunion de l’utilisateur. Les participants à la réunion qui n’ont pas de stratégies affectées (par exemple, les participants externes) héritent de la stratégie de l’organisateur de la réunion.
 
 |Valeur du paramètre |Comportement  |
 |---------|---------|
@@ -378,22 +378,21 @@ Pour utiliser PowerShell afin de contrôler qui peut donner le contrôle ou acce
 > [!NOTE]
 > Pour donner et prendre le contrôle du contenu partagé pendant le partage, les deux personnes doivent utiliser le client de bureau Teams. Le contrôle n’est pas pris en charge lorsqu'une des parties exécute Teams dans un navigateur. Il s'agit d'une limitation technique que nous nous efforçons de résoudre.
 
-### <a name="allow-an-external-participant-to-give-or-request-control"></a>Autoriser un participant externe à donner ou demander le contrôle
+### <a name="external-participants-can-give-or-request-control"></a>Les participants externes peuvent donner ou demander le contrôle
 
-Il s’agit d’une stratégie par utilisateur. Le fait qu’une organisation ait cette définition pour un utilisateur ne contrôle pas ce que les participants externes peuvent effectuer, quel que soit l’organisateur de la réunion. Ce paramètre détermine si les participants externes peuvent bénéficier d’un contrôle ou demander le contrôle de l’écran du destinataire, en fonction de ce que le partage a défini dans les stratégies de réunion de leur organisation. Les participants externes aux réunions Teams peuvent être classés comme suit :  
+Il s’agit d’une stratégie par utilisateur. Le fait qu’une organisation ait cette définition pour un utilisateur ne contrôle pas ce que les participants externes peuvent effectuer, quel que soit l’organisateur de la réunion. Ce paramètre détermine si les participants externes peuvent bénéficier d’un contrôle ou demander le contrôle de l’écran du destinataire, en fonction de ce que le partage a défini dans les stratégies de réunion de leur organisation. Les participants externes aux réunions Teams peuvent être classés comme suit :  
 
-- Utilisateur anonyme
-- Utilisateurs invités  
-- Utilisateur B2B
-- Utilisateur fédéré  
+- Participant anonyme
+- Invités
+- Utilisateur d’accès externe  
 
-La possibilité pour les utilisateurs fédérés de donner le contrôle à des utilisateurs externes tandis que le partage est contrôlé par le paramètre **Autoriser à un participant externe d’attribuer ou de demander un contrôle** dans son organisation.
+Si les utilisateurs d’accès externe peuvent donner le contrôle à d’autres participants externes pendant que le partage est contrôlé par les **participants externes peuvent donner ou demander le paramètre de contrôle** dans leur organisation.
 
 Pour utiliser PowerShell afin de contrôler si les participants externes peuvent transmettre des demandes de contrôle ou d’acceptation, utilisez l’applet de commande AllowExternalParticipantGiveRequestControl.
 
 ### <a name="allow-powerpoint-sharing"></a>Autoriser le partage de PowerPoint
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si l’utilisateur peut partager des diapositives PowerPoint dans une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, invités et fédérés, héritent de la stratégie de l’organisateur de la réunion.
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si l’utilisateur peut partager des diapositives PowerPoint dans une réunion. Les participants externes, y compris les utilisateurs anonymes, invités et externes, héritent de la stratégie de l’organisateur de la réunion.
 
 Examinons l’exemple suivant.
 
@@ -406,7 +405,7 @@ Amanda ne peut pas partager les diapositives PowerPoint dans les réunions, mêm
 
 ### <a name="allow-whiteboard"></a>Autoriser le tableau blanc
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut partager le tableau blanc pendant une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, B2B et fédérés, héritent de la stratégie de l’organisateur de la réunion.
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut partager le tableau blanc pendant une réunion. Les participants externes, y compris les utilisateurs anonymes, invités et externes, héritent de la stratégie de l’organisateur de la réunion.
 
 Examinons l’exemple suivant.
 
@@ -419,7 +418,7 @@ Amanda ne peut pas partager le tableau blanc pendant une réunion, même si elle
 
 ### <a name="allow-shared-notes"></a>Autoriser les notes partagées
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut créer et partager des notes pendant une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, B2B et fédérés, héritent de la stratégie de l’organisateur de la réunion. L’onglet **Notes de réunion** est pris en charge pour les réunions comptant jusqu’à 100 participants.
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut créer et partager des notes pendant une réunion. Les participants externes, y compris les utilisateurs anonymes, invités et externes, héritent de la stratégie de l’organisateur de la réunion. L’onglet **Notes de réunion** est pris en charge pour les réunions comptant jusqu’à 100 participants.
 
 Examinons l’exemple suivant.
 
@@ -468,7 +467,7 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle la join
   
 |Valeur du paramètre  |Comportement de jointure |
 |---------|---------|
-|**Tout le monde**   |Tous les participants à la réunion joignent directement la réunion sans attendre dans la salle d’attente. Cela inclut les utilisateurs authentifiés, les utilisateurs externes d’organisations approuvées (fédérées), les invités et les utilisateurs anonymes.     |
+|**Tout le monde**   |Tous les participants à la réunion joignent directement la réunion sans attendre dans la salle d’attente. Cela inclut les utilisateurs authentifiés, les utilisateurs d’accès externe, les invités et les utilisateurs anonymes.     |
 |**Membres de mon organisation, organisations de confiance et invités**     |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités et les utilisateurs des organisations approuvées, peuvent participer directement à la réunion sans attendre dans la salle d’attente. Les utilisateurs anonymes patientent dans la salle d’attente.   |
 |**Membres de mon organisation et invités**    |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités et les utilisateurs des organisations approuvées, peuvent participer directement à la réunion sans attendre dans la salle d’attente. Les utilisateurs d’organisations approuvées et utilisateurs anonymes patientent dans la salle d’attente.           |
 |**Organisateur uniquement**    |Seuls les organisateurs de réunion peuvent rejoindre directement la réunion sans attendre dans la salle d’attente. Toutes les autres personnes, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs des organisations approuvées et les utilisateurs anonymes, doivent attendre dans la salle d’attente.           |

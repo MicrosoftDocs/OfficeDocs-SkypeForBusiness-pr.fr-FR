@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels dans Microsoft Teams. Les files d’attente d’appels fournissent un message d’accueil, de la musique de suspension, la redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: cd5e0cc291b353b8bb46d82333275cc44ef860d3
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: f14c0644c7a4be2a63e74ae59705bb7e3bc0cb76
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616170"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443331"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -42,6 +42,14 @@ Les files d’attente des appels fournissent :
 - Gestion des options pour le débordement et la temporisation des files d’attente.
 
 Avant de suivre les procédures décrites dans cet article, assurez-vous d’avoir lu [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) et suivi les [étapes de prise en main](plan-auto-attendant-call-queue.md#getting-started).
+
+## <a name="whats-new-for-call-queues-in-the-past-6-months"></a>Nouveautés des files d’attente d’appels au cours des 6 derniers mois
+
+- Août
+  - **L’ajout d’un message d’accueil** (TTS (Text to Speech) est désormais pris en charge pour le message d’accueil principal de la file d’attente d’appels.
+  - Ignorer les contrôles de **message du système de messagerie vocale** est maintenant exposé lors du routage vers la messagerie vocale partagée, ce qui s’applique également aux invites **d’ajout d’un message d’accueil**.
+
+## <a name="steps-to-create-a-call-queue"></a>Étapes de création d’une file d’attente d’appels
 
 Les étapes de configuration d’une file d’attente d’appels incluent :
 
@@ -137,9 +145,13 @@ Une fois que vous avez sélectionné une langue, sélectionnez le bouton **Suiva
 
 ## <a name="step-2-add-a-greeting-and-on-hold-music"></a>Étape 2 : Ajouter un message d’accueil et de la musique en attente
 
+*Nouveau : **l’ajout d’un message d’accueil** (TTS (Text to Speech) est désormais pris en charge pour le message d’accueil principal de la file d’attente d’appels.*
+
 Spécifiez si vous souhaitez envoyer un *message d’accueil* aux appelants lorsqu’ils arrivent dans la file d’attente.
 
-Si vous **sélectionnez Lire un fichier audio**, vous devez charger un fichier MP3, WAV ou WMA contenant le message d’accueil que vous souhaitez lire. La taille maximale de l’enregistrement téléchargé est de 5 Mo.
+- Si vous **sélectionnez Lire un fichier audio**, vous devez charger un fichier MP3, WAV ou WMA contenant le message d’accueil que vous souhaitez lire. La taille maximale de l’enregistrement téléchargé est de 5 Mo.
+
+- Si vous sélectionnez **Tapez un message d’accueil**, le système lit le texte que vous tapez (jusqu’à 1 000 caractères) lorsque la file d’attente d’appels répond à un appel.
 
 Teams fournit de la musique par défaut aux appelants pendant qu’ils sont *en attente dans une file d’attente*.
 
@@ -299,14 +311,14 @@ Vous pouvez choisir de **déconnecter** l’appel ou de le **rediriger** vers l�
 
 Par exemple, vous pouvez demander à l’appelant de laisser un message vocal pour les agents dans la file d’attente.
 
+*Nouveau - Ignorer les contrôles de **message système de messagerie vocale** sont désormais exposés lors du routage vers la messagerie vocale partagée, ce qui s’applique également aux invites **d’ajout d’un message d’accueil** .*
+
 Pour les transferts externes, consultez [Les prérequis](./plan-auto-attendant-call-queue.md#prerequisites) et les [transferts de numéros de téléphone externes . Détails techniques](create-a-phone-system-auto-attendant.md?tabs=additional-resources) de la mise en forme des numéros.
 
 > [!NOTE]
 > Si le nombre maximal d’appels est défini sur 0, le message d’accueil ne sera pas lu.
->
-> Lors de la redirection vers la messagerie vocale partagée, **assurez-vous que les personnes extérieures à cette organisation envoient un e-mail à cette équipe pour l’équipe**/le groupe dans le centre de Administration Microsoft 365.
 
-Une fois que vous avez sélectionné vos options de délai d’expiration d’appel, sélectionnez le bouton **Suivant** en bas de la page **Ajouter une file d’attente d’appels** .
+Une fois que vous avez sélectionné les options de gestion du dépassement de capacité des appels, sélectionnez le bouton **Suivant** en bas de la page **Ajouter une file d’attente d’appels** .
 
 # <a name="step-6-call-timeout"></a>[Étape 6 : Délai d’expiration des appels](#tab/call-timeout)
 
@@ -320,12 +332,11 @@ Vous pouvez choisir de **déconnecter** l’appel ou de le **rediriger** vers l�
 
 Par exemple, vous pouvez demander à l’appelant de laisser un message vocal pour les agents dans la file d’attente.
 
+*Nouveau - Ignorer les contrôles de **message système de messagerie vocale** sont désormais exposés lors du routage vers la messagerie vocale partagée, ce qui s’applique également aux invites **d’ajout d’un message d’accueil** .*
+
 Pour les transferts externes, consultez [Les prérequis](./plan-auto-attendant-call-queue.md#prerequisites) et les [transferts de numéros de téléphone externes . Détails techniques](create-a-phone-system-auto-attendant.md?tabs=additional-resources) de la mise en forme des numéros.
 
-> [!NOTE]
-> Lors de la redirection vers la messagerie vocale partagée, **assurez-vous que les personnes extérieures à cette organisation envoient un e-mail à cette équipe pour l’équipe**/le groupe dans le centre de Administration Microsoft 365.
-
-Une fois que vous avez sélectionné les options de routage des appels de votre agent, **sélectionnez** le bouton Envoyer en bas de la page **Ajouter une file d’attente d’appels** .
+Une fois que vous avez sélectionné les options de gestion du délai d’expiration des appels, **sélectionnez** le bouton Envoyer en bas de la page **Ajouter une file d’attente d’appels** .
 
 ---
 
@@ -353,13 +364,13 @@ Les configurations ci-dessous sont recommandées :
 |`Presence Based Routing`<sup>3</sup>|O                      |O         |v               |N    |O         |O                     |v                         |*Recommandé* |
 |`Agents can Opt-out`               |O                       |O         |v               |Y<sup>7</sup>|Y<sup>7</sup>|O          |v                         |*Par défaut*     |
 |**Modes de transfert**               |                          |          |                |     |          |                      |                          |   |
-|`Conference Mode`<sup>5</sup>    |O                         |O         |v               |N    |Y<sup>6</sup>|O                  |v                         |*Recommandé* |
+|`Conference Mode`<sup>5</sup>    |O                         |O         |v               |N    |Y<sup>6</sup>|O                  |O                         |*Recommandé* |
 |`Transfer Mode`                  |O                         |O         |O               |O    |O         |O                     |v                         |*Par défaut*              |
 |**Appel collaboratif**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |v                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**ID d’appelant dynamique**            |                          |          |                |     |          |                      |                          |   |
 |`Standard call queue`            |O                         |O         |v               |N    |N         |O                     |n/a                       |   |
-|`Channel based call queue`       |v                         |n/a       |n/a             |n/a  |n/a       |n/a                   |v                         |   |
+|`Channel based call queue`       |O                         |n/a       |n/a             |n/a  |n/a       |n/a                   |O                         |   |
 |**Méthodes de connectivité RTC**    |                          |          |                |     |          |                      |                          |Voir la note 9   |
 |`Calling Plans`                  |O                         |O         |O               |O    |O         |O                     |O                         |   |
 |`Direct Routing`                 |O                         |O         |v               |N    |N         |O                     |O                         |   |
@@ -408,11 +419,11 @@ Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suiva
    > [!div class="nextstepaction"]
    > [Exécuter des tests : File d’attente d’appels Teams](https://aka.ms/TeamsCallQueueDiag)
 
-2. Dans le volet Exécuter le diagnostic, entrez le compte de ressource dans le champ **Nom d’utilisateur ou e-mail** , puis sélectionnez **Exécuter les tests**.
+2. Dans le volet De diagnostic d’exécution, entrez le compte de ressource dans le champ **Nom d’utilisateur ou Email**, puis sélectionnez **Exécuter les tests**.
 
 3. Les tests retournent les meilleures étapes suivantes pour traiter les configurations de locataire, de stratégie et de compte de ressource pour vérifier que la file d’attente d’appels est en mesure de recevoir des appels.
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Rubriques connexes
 
 [Voici ce que vous obtenez avec Téléphonie Microsoft Teams](here-s-what-you-get-with-phone-system.md)
 

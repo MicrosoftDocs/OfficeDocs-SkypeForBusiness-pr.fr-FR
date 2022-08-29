@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 041a2fbf54eb513c74348adf09df7452dabb4368
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e468622d4aac30756e54127072045831374c5425
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268119"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418643"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Vue d’ensemble des composants de boucle dans Teams
 
@@ -90,6 +90,6 @@ Si vous désactivez ces expériences comme indiqué dans la section [Gestion des
 - Avec les autorisations de fichier par défaut du locataire définies sur *Des personnes spécifiques* (seules les personnes spécifiées par l’utilisateur), la création d’un composant en direct dans une conversation de groupe avec plus de 20 membres nécessite que l’expéditeur sélectionne manuellement les options d’autorisation pour le composant.
 - La recherche de composants de boucle dans la recherche Teams renvoie un lien vers le composant dans office.com, et non le message de conversation lui-même.
 - Les composants de boucle sont désactivés dans les conversations fédérées.
-- Les invités B2B ne pourront pas collaborer sur un composant en direct partagé avec eux via Company Share Link. Définissez les autorisations sur **Les personnes actuellement présentes dans cette conversation** pour partager des composants avec des invités B2B.
+- Les invités ne pourront pas collaborer sur un composant en direct partagé avec eux via Company Share Link. Définissez des autorisations pour **Personnes actuellement dans cette conversation** pour partager des composants avec des invités.
 - Les composants de boucle ne sont pas pris en charge dans les canaux Teams.
 - Les composants de boucle dans la conversation ne se chargent pas uniquement si le fichier a été déplacé vers une bibliothèque différente. Si le fichier est déplacé vers un autre dossier, il continue à se charger dans la conversation.

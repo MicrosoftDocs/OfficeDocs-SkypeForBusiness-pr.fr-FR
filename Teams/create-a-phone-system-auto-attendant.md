@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et gérer des standards automatiques dans Microsoft Teams.
-ms.openlocfilehash: e54ffdeac8db21ebcc6cc00f51893769e0d194bb
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 913ac62ceb251f166852ec8c6d5ba84b7c0777ea
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67176098"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443401"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
 
@@ -46,6 +46,15 @@ Les standards automatiques peuvent rediriger les appels, en fonction de l’entr
 
 > [!NOTE]
 > Lorsque vous redirigez des appels vers une **personne de l’organisation**, cette personne doit être activée par la voix. Pour plus d’informations sur l’activation de la voix, consultez [Affecter des licences de module complémentaire Teams aux utilisateurs](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+>
+> Bien que la définition d’un **opérateur** soit facultative, elle est recommandée.  Les standards automatiques redirigent les appels vers l’opérateur si l’appelant n’effectue pas de sélection sur les menus, sélectionne à plusieurs reprises des options non valides ou si les appels par nom ou numéro échouent à plusieurs reprises.  Si aucun opérateur n’est défini, le standard automatique supprime l’appel.
+
+## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>Nouveautés des standards automatiques au cours des 6 derniers mois
+ 
+ - Août - **Les options de menu Lire** dans le flux d’appel, le flux d’appel pour les heures creuses et le flux d’appel pendant les jours fériés prennent désormais en charge \* les clés (astérisque) et \# (livre).
+ - Juillet - Le flux d’appels pendant les jours fériés prend désormais en charge les **options de menu Lecture**.
+ 
+## <a name="steps-to-create-an-auto-attendant"></a>Étapes de création d’un standard automatique
 
 Les étapes à suivre pour ajouter un standard automatique sont les suivantes :
 
@@ -99,10 +108,9 @@ Une fois que vous avez défini les informations générales de votre standard au
 
 #### <a name="play-menu-options"></a>Options de menu Lecture
 
-Pour les options de numérotation, affectez les clés 0-9 sur le clavier téléphonique à l’une des destinations de routage des appels. Les clés \* (astérisque) et \# (livre) sont réservées par le système et ne peuvent pas être réaffectées. Si vous appuyez sur l’une de ces touches, le menu actuel est répété.
+*Les clés New - \* (astérisque) et \# (livre) peuvent désormais être utilisées dans les options de menu.*
 
-> [!NOTE]
-> La touche # sauvegarde uniquement le standard automatique le plus récent. Une fois que la limite est franchie vers un nouveau standard automatique, la touche # ne peut pas vous amener à la précédente.
+Pour les options de numérotation, affectez les touches 0-9, \* (astérisque) et \# (livre) sur le clavier téléphonique à l’une des destinations de routage des appels. 
 
 Les mappages de clés ne doivent pas nécessairement être continus. Il est possible de créer un menu avec les clés 0, 1 et 3 mappées aux options, tandis que la clé numéro 2 n’est pas utilisée.
 
@@ -159,6 +167,8 @@ Une fois que vous avez ajouté votre flux d’appels après heures, sélectionne
 
 Votre standard automatique peut avoir un flux [d’appels pour chaque congé que vous avez configuré](set-up-holidays-in-teams.md). Vous pouvez ajouter jusqu'à 20 congés planifiés pour chaque standard automatique.
 
+*Nouveau : **les options de menu Lecture** sont désormais disponibles dans les flux d’appels de vacances.*
+
 1. Dans la page Paramètres de l’appel de congés, sélectionnez **Ajouter**.
 
 1. Tapez un nom pour ce paramètre de congé.
@@ -167,7 +177,7 @@ Votre standard automatique peut avoir un flux [d’appels pour chaque congé que
 
 1. Choisissez le type de message d’accueil que vous souhaitez utiliser.
 
-1. Choisissez si vous souhaitez **déconnecter** ou **rediriger** l’appel.
+1. Choisissez si vous souhaitez **déconnecter**, **rediriger** ou **lire les options de menu** de l’appel.
 
     1. Si vous avez choisi de rediriger, choisissez la destination de routage des appels pour l’appel.
     1. Si vous choisissez de lire des options de menu, **configurez les options de menu Lecture**.
@@ -224,7 +234,7 @@ Le numéro de téléphone sortant affiché est déterminé comme suit :
   - Si la valeur est Désactivée, le numéro de téléphone de l’appelant d’origine s’affiche. Il s’agit du paramètre par défaut et recommandé.
   - Si la valeur est Activée, le numéro de téléphone du compte de ressource s’affiche.
 
-Dans un environnement hybride Skype Entreprise, pour transférer un appel de standard automatique au rtc, créez un utilisateur local avec le transfert d’appel défini sur le numéro RTC. L’utilisateur doit être activé pour Voix Entreprise et une stratégie de voix doit être affectée. Pour plus d’informations, consultez [Transfert d’appel du standard automatique vers PSTN](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
+Dans un environnement hybride Skype Entreprise, pour transférer un appel de standard automatique au rtc, créez un utilisateur local avec le transfert d’appel défini sur le numéro RTC. L’utilisateur doit être activé pour Téléphonie –  Grandes entreprises et une stratégie de voix doit être affectée. Pour plus d’informations, consultez [Transfert d’appel du standard automatique vers PSTN](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
 ### <a name="auto-attendant-diagnostic-tool"></a>Outil de diagnostic du standard automatique
 
@@ -239,7 +249,7 @@ Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suiva
 
 3. Les tests identifient les configurations de locataire, de stratégie ou de compte de ressource qui empêchent le standard automatique de recevoir des appels et fournissent des étapes pour résoudre les problèmes identifiés.
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Rubriques connexes
 
 [Voici ce que vous obtenez avec Teams Phone](./here-s-what-you-get-with-phone-system.md)
 

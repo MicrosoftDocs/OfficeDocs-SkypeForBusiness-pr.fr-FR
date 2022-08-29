@@ -15,24 +15,27 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
-description: Utilisez Microsoft Teams modèles prédéfinis créés dans Microsoft Graph pour créer rapidement et facilement des équipes pour les petites et moyennes entreprises.
+description: Utilisez des modèles prédéfinis de Microsoft Teams intégrés à Microsoft Graph pour créer rapidement et facilement des équipes pour les petites et moyennes entreprises.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5317b989bd7fe77f34743b6554cd356c226c2fa8
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 644d45660fba729991796f33e7210222832e0c0f
+ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646303"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67278478"
 ---
 # <a name="team-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Modèles d’équipe intégrés à Microsoft Graph pour les petites et moyennes entreprises
 
 Les modèles d’équipe dans Microsoft Teams vous permettent de créer rapidement et facilement des équipes en fournissant une structure d’équipe prédéfinie de paramètres, de canaux et d'applications préinstallées.
 
-Pour les petites et moyennes entreprises, les modèles peuvent être particulièrement puissants, car ils vous aident à déployer rapidement Teams au sein de votre organisation. Les modèles aident également les utilisateurs à s’orienter sur la façon d’utiliser efficacement Teams. Cet article vous est destiné si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation.
+Pour les petites et moyennes entreprises, les modèles peuvent être particulièrement puissants, car ils vous aident à déployer rapidement Teams au sein de votre organisation. Les modèles aident également les utilisateurs à se familiariser avec l’utilisation efficace de Teams. Cet article vous est destiné si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation.
 
 Nous proposons actuellement trois modèles prédéfinits pour les petites et moyennes entreprises que vous pouvez utiliser dans différentes situations. Tous les modèles créent des équipes *privées* . Une fois les équipes créées et prêtes à être déployées dans votre organisation, vous pouvez définir la confidentialité sur *Org-Wide* ou *Public*, le cas échéant.
 
-Pour en savoir plus sur les modèles d’équipe en général, consultez [Démarrage avec des modèles d’équipe à l’aide de Microsoft Graph](get-started-with-teams-templates.md).
+> [!NOTE]
+> Vous pouvez également utiliser Microsoft Graph pour créer vos propres modèles personnalisés. Pour plus d’informations, consultez [le type de ressource teamTemplate](/graph/api/resources/teamtemplate).
+
+Pour en savoir plus sur les modèles d’équipe en général, consultez [Prise en main des modèles d’équipe à l’aide de Microsoft Graph](get-started-with-teams-templates.md).
 
 ## <a name="company-wide-template"></a>modèle Company-Wide
 
@@ -64,7 +67,7 @@ Le modèle d’équipe de direction est idéal pour créer une équipe permettan
 
 | Type de modèle  | TemplateId | Propriétés fournies avec ce modèle de base |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>Équipe des cadres | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | Canaux <ul><li>Général\*</li><li>Privé \*</li></ul> Applications<ul><li>OneNote (épinglé au canal **privé**)</li> <li>Planificateur (épinglé au canal **privé** ) </li></ul><br>Propriétés de l’équipe <ul><li>Visibilité de l’équipe définie sur Privé</li></ul> | 
+| SMB - <br>Équipe des cadres | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | Canaux <ul><li>Général\*</li><li>Privé \*</li></ul> Applications<ul><li>OneNote (épinglé au canal **privé** )</li> <li>Planificateur (épinglé au canal **privé** ) </li></ul><br>Propriétés de l’équipe <ul><li>Visibilité de l’équipe définie sur Privé</li></ul> | 
 
 *Canaux favoris automatiques<br>
 
@@ -90,7 +93,7 @@ Nous fournissons également le script ci-dessous pour l’équipe finance qui pe
 
 | Type de modèle | TemplateId | Propriétés fournies avec ce modèle de base |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>Finances  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| Canaux <ul><li>Général\*</li><li>Privé \*</li></ul><br> Applications<ul><li>OneNote (épinglé au canal **privé**)</li> <li>Planificateur (épinglé au canal **privé** ) </li> </ul><br>Propriétés de l’équipe <ul><li>Visibilité de l’équipe définie sur Privé</li></ul> | 
+| SMB - <br>Finances  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| Canaux <ul><li>Général\*</li><li>Privé \*</li></ul><br> Applications<ul><li>OneNote (épinglé au canal **privé** )</li> <li>Planificateur (épinglé au canal **privé** ) </li> </ul><br>Propriétés de l’équipe <ul><li>Visibilité de l’équipe définie sur Privé</li></ul> | 
 
 *Canaux favoris automatiques
 
@@ -179,7 +182,7 @@ Content-Type: application/json
 
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Utiliser des modèles d’équipe dans le Centre d’administration Teams](get-started-with-teams-templates-in-the-admin-console.md)
 - [Prise en main des modèles d’équipe à l’aide de Microsoft Graph](get-started-with-teams-templates.md)

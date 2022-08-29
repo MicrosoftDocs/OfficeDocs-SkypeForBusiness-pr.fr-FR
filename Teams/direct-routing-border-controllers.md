@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez quels contrôleurs de frontière de session (SBC) ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3a0db349d1e828a238a6b7a68d8f005e7389182b
-ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
-ms.translationtype: HT
+ms.openlocfilehash: 15363373b2959007cb2883b6d63ee70520df1846
+ms.sourcegitcommit: a28b193d695402b37a53ffd0406568774801ef6c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "66838849"
+ms.lasthandoff: 08/16/2022
+ms.locfileid: "67347289"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -65,11 +65,11 @@ Veuillez noter que nous n'acceptons pas de nouvelles nominations pour la certifi
 ||Mediant 9000  SBC|&#10004;|&#10004;|Prise en charge 7.20A.258 (recommandé 7.40A.100 ou 7.40A.250)|&#10004;|&#10004;|
 ||Virtual Edition SBC|&#10004;|&#10004;|Prise en charge 7.20A.258 (recommandé 7.40A.100 ou 7.40A.250)|&#10004;|&#10004;|
 ||Mediant Cloud Edition SBC|&#10004;|&#10004;|Prise en charge 7.20A.258 (recommandé 7.40A.100 ou 7.40A.250)|&#10004;|&#10004;|
-|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5100/5110|&#10004;|&#10004;|Prise en charge 9.2, 8.2 et 7.2 (recommandé 10.1)|&#10004;||
-||SBC 5200/5210|&#10004;|&#10004;|Prise en charge 9.2, 8.2 et 7.2 (recommandé 10.1)|&#10004;||
-||SBC 5400|&#10004;|&#10004;|Prise en charge 9.2, 8.2 et 7.2 (recommandé 10.1)|&#10004;||
-||SBC 7000|&#10004;|&#10004;|Prise en charge 9.2, 8.2 et 7.2 (recommandé 10.1)|&#10004;||
-||SBC SWe|&#10004;|&#10004;|Prise en charge 9.2, 8.2 et 7.2 (recommandé 10.1)|&#10004;||
+|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5100/5110|&#10004;|&#10004;|Pris en charge sur toutes les versions de 10.1, 9.2, 8.2 et 7.2 (Recommander la dernière version de 10.1)|&#10004;||
+||SBC 5200/5210|&#10004;|&#10004;|Pris en charge sur toutes les versions de 10.1, 9.2, 8.2 et 7.2 (Recommander la dernière version de 10.1)|&#10004;||
+||SBC 5400|&#10004;|&#10004;|Pris en charge sur toutes les versions de 10.1, 9.2, 8.2 et 7.2 (Recommander la dernière version de 10.1))|&#10004;||
+||SBC 7000|&#10004;|&#10004;|Pris en charge sur toutes les versions de 10.1, 9.2, 8.2 et 7.2 (Recommander la dernière version de 10.1)|&#10004;||
+||Toutes les variantes SBC SWe, y compris les offres hébergées|&#10004;|&#10004;|Pris en charge sur toutes les versions de 10.1, 9.2, 8.2 et 7.2 (Recommander la dernière version de 10.1)|&#10004;||
 ||SBC 1000|&#10004;|&#10004;|8.x ou 9.x|&#10004;|&#10004;|
 ||SBC 2000|&#10004;|&#10004;|8.x ou 9.x|&#10004;|&#10004;|
 ||SBC SWe Lite|&#10004;|&#10004;|8.x ou 9.x|&#10004;|&#10004;|

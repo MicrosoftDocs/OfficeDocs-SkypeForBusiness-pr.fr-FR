@@ -16,12 +16,12 @@ description: Découvrez ce qu’il faut faire lorsque vous devez effectuer eDisc
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 28605ac0f691083151fbb84c73c2ffcfa92ca3b4
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c77cb7cda26b6061ee1e4fce05bf5ff326b7116b
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269059"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283115"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -35,25 +35,24 @@ La découverte électronique des messages et des fichiers dans [les canaux priv�
 
 Tout le contenu Teams n’est pas accessible en ligne. Le tableau suivant présente les types de contenu que vous pouvez rechercher à l’aide des outils Microsoft eDiscovery :
 
-|Type de contenu|eDiscoverable|Remarques|
-|---|---|---|
-|Enregistrements audio|Oui||
-|Contenu de la carte|Oui|Pour plus d’informations, consultez [Rechercher le contenu de la carte](#search-for-card-content) .|
-|Liens de conversation|Oui||
-|Messages de conversation|Oui|Cela inclut le contenu dans les canaux Teams standard, les conversations 1:1, les conversations de groupe 1:N et les conversations avec les participants de l’utilisateur invité.|
-|Extraits de code|Non||
-|Messages modifiés|Oui|Si l’utilisateur est en attente, les versions précédentes des messages modifiés sont également conservées.|
-|Emojis, GIF et autocollants|Oui||
-|Notifications de flux|Non||
-|Images incluses|Oui||
-|Composants de boucle|Oui|Le contenu d’un composant de boucle est enregistré dans un fichier .fluid stocké dans le compte OneDrive Entreprise de l’utilisateur qui envoie le composant de boucle. Cela signifie que vous devez inclure OneDrive comme source de données lors de la recherche de contenu dans les composants de boucle.|
-|Conversations par messagerie instantanée de réunion|Oui||
-|Métadonnées<sup>de réunion 1</sup>|Oui||
-|Nom du canal|Oui||
-|Citations|Oui|Le contenu entre guillemets peut faire l’objet d’une recherche. Toutefois, les résultats de la recherche n’indiquent pas que le contenu a été cité.|
-|Réactions (comme les j’aime, les cœurs et d’autres réactions)|Oui|Les réactions sont prises en charge pour tous les clients commerciaux après le 1er juin 2022. Les réactions avant cette date ne sont pas disponibles pour eDiscovery. La prise en charge du cloud gouvernemental est planifiée. Il n’y a pas de soutien juridique pour les réactions.|
-|Objet|Oui||
-|Tables|Oui||
+|Type de contenu|Remarques|
+|---|---|
+|Enregistrements audio||
+|Contenu de la carte|Pour plus d’informations, consultez [Rechercher le contenu de la carte](#search-for-card-content) .|
+|Liens de conversation||
+|Messages de conversation|Cela inclut le contenu dans les canaux Teams standard, les conversations 1:1, les conversations de groupe 1:N et les conversations avec les participants de l’utilisateur invité.|
+|Extraits de code||
+|Messages modifiés|Si l’utilisateur est en attente, les versions précédentes des messages modifiés sont également conservées.|
+|Emojis, GIF et autocollants||
+|Images incluses||
+|Composants de boucle|Le contenu d’un composant de boucle est enregistré dans un fichier .fluid stocké dans le compte OneDrive Entreprise de l’utilisateur qui envoie le composant de boucle. Cela signifie que vous devez inclure OneDrive comme source de données lors de la recherche de contenu dans les composants de boucle.|
+|Conversations par messagerie instantanée de réunion||
+|Métadonnées<sup>de réunion 1</sup>||
+|Nom du canal||
+|Citations|Le contenu entre guillemets peut faire l’objet d’une recherche. Toutefois, les résultats de la recherche n’indiquent pas que le contenu a été cité.|
+|Réactions (comme les j’aime, les cœurs et d’autres réactions)|Les réactions sont prises en charge pour tous les clients commerciaux après le 1er juin 2022. Les réactions avant cette date ne sont pas disponibles pour eDiscovery. La prise en charge du cloud gouvernemental est planifiée. Il n’y a pas de soutien juridique pour les réactions.|
+|Objet||
+|Tables||
 
 <sup>1 Les</sup> métadonnées de réunion (et d’appel) incluent les éléments suivants :
 
@@ -242,7 +241,7 @@ Les administrateurs peuvent utiliser eDiscovery pour rechercher du contenu dans 
 
 - **Non fédéré** : dans une réunion Teams avec des utilisateurs de votre organisation et des utilisateurs invités, seuls les administrateurs de l’organisation qui héberge la réunion Teams peuvent rechercher du contenu dans les messages de conversation de la réunion.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Solutions Microsoft 365 eDiscovery](/microsoft-365/compliance/ediscovery)
 - [Bien démarrer avec eDiscovery (Standard)](/microsoft-365/compliance/get-started-core-ediscovery)
