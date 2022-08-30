@@ -14,17 +14,17 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: fd039c732d1a7e55a3cfb8aa59a3f78cf5f2cfe9
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: 90d2135a03e8881c41cdc4d280cef9f144bdbd16
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443481"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457244"
 ---
 # <a name="kaizala-and-microsoft-teams"></a>Kaizala et Microsoft Teams 
 
->[!Important]
-> Microsoft Kaizala prendra sa retraite le 31 août 2023. Nous vous recommandons de procéder à une mise à niveau vers Microsoft Teams pour poursuivre la connexion, le partage et la collaboration. Après la date de mise hors service, l’accès et le support pour Kaizala seront interrompus.
+> [!Important]
+> Microsoft Kaizala prendra sa retraite le 31 août 2023. Nous vous recommandons de passer à Microsoft Teams pour poursuivre la connexion, le partage et la collaboration. Après la date de mise hors service, l’accès et le support pour Kaizala seront interrompus.
 
 En avril 2019, nous avons [annoncé](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-coming-to-microsoft-teams/ba-p/974525) l’intention de réunir Kaizala avec Microsoft Teams. Les fonctionnalités de Kaizala complètent les fonctionnalités robustes de communication et de collaboration de Teams, le hub pour le travail d’équipe dans Microsoft 365.
 

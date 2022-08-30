@@ -14,16 +14,19 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 65fdd80fe8eb9073c53267da3ea390ab570cfc96
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c3b83f33db2c4c91a5f2e8ad00706e225f4b01d5
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270319"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457124"
 ---
 # <a name="navigate-microsoft-teams"></a>Naviguer dans Microsoft Teams
 
 Maintenant que vous avez une compréhension claire du chemin et des besoins uniques de votre organisation, il est temps de commencer votre parcours vers une collaboration puissante avec Microsoft Teams. Utilisez la section suivante pour découvrir comment parcourir les fonctionnalités de Kaizala complimentées dans Teams.
+
+> [!Important]
+> Microsoft Kaizala prendra sa retraite le 31 août 2023. Nous vous recommandons de passer à Microsoft Teams pour poursuivre la connexion, le partage et la collaboration. Après la date de mise hors service, l’accès et le support pour Kaizala seront interrompus.
 
 | De Kaizala | Vers Teams |
 |---------|-----------------------|

@@ -14,12 +14,12 @@ description: Découvrez comment auditer les activités d’application Teams des
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 5eb1ffe4a637c61efc8e64e970f25474933914a7
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 33e308dec79163b2b3ccbc82870352555d0aa80f
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299253"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457274"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>Auditer les activités et les événements de gestion des applications
 
@@ -68,6 +68,9 @@ Après avoir recherché la connexion d’audit dans le portail de conformité, v
 
 > [!NOTE]
 > Lorsque l’une des activités ci-dessus est effectuée par un utilisateur ou un administrateur, Teams génère et stocke un enregistrement d’audit. Dans Audit (Standard), les enregistrements sont conservés pendant 90 jours, ce qui signifie que vous pouvez rechercher des activités qui se sont produites au cours des trois derniers mois.
+
+> [!TIP]
+> En tant qu’administrateur, si vous souhaitez créer un rapport par utilisateur pour savoir si un utilisateur a bloqué ou désactivé un bot, consultez [Comprendre qui a bloqué, désactivé ou désinstallé un bot](/microsoftteams/platform/bots/how-to/conversations/send-proactive-messages?#understand-who-blocked-muted-or-uninstalled-a-bot).
 
 ## <a name="related-articles"></a>Articles connexes
 
