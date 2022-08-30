@@ -3,6 +3,36 @@
 
 
 
+## <a name="week-of-august-22-2022"></a>Semaine du 22 août 2022
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 8/22/2022 | [Gérer l’application Plannings pour votre organisation dans Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modifié |
+| 8/22/2022 | [Gérer les balises dans Microsoft Teams](/MicrosoftTeams/manage-tags) | modifié |
+| 8/22/2022 | [Créer des comptes de ressources pour les salles et les appareils Teams partagés](/MicrosoftTeams/rooms/with-office-365) | modifié |
+| 8/23/2022 | [Utiliser l’accès invité et l’accès externe pour collaborer avec des personnes extérieures à votre organisation](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modifié |
+| 8/23/2022 | [Gérer les stratégies de réunion pour le partage de contenu](/MicrosoftTeams/meeting-policies-content-sharing) | modifié |
+| 8/23/2022 | [Gérer les stratégies de réunion dans Teams](/MicrosoftTeams/meeting-policies-in-teams) | modifié |
+| 8/24/2022 | [Démarrage rapide - Configurer Microsoft Teams pour l'éducation](/MicrosoftTeams/teams-quick-start-guide-edu) | ajouté |
+| 8/24/2022 | Guide de démarrage rapide : administrateurs de Microsoft Teams pour l’éducation | supprimé |
+| 8/24/2022 | [Résoudre les problèmes de faible bande passante pour Teams](/MicrosoftTeams/edu-remote-low-bandwidth) | modifié |
+| 8/24/2022 | [Teams pour l’éducation](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | modifié |
+| 8/24/2022 | [Questions fréquentes (FAQ) sur Microsoft Education pour les administrateurs informatiques](/MicrosoftTeams/plan-teams-governance-edu) | modifié |
+| 8/24/2022 | [Gérer les stratégies et packages de stratégie Microsoft Teams pour l’éducation](/MicrosoftTeams/policy-packages-edu) | modifié |
+| 8/24/2022 | [Prise en main de Microsoft Teams pour l'apprentissage à distance](/MicrosoftTeams/remote-learning-edu) | modifié |
+| 8/24/2022 | [Partager des ressources d’adoption teams](/MicrosoftTeams/resources-teams-edu) | modifié |
+| 8/24/2022 | [Attribuer des licences Microsoft Teams pour l’éducation](/MicrosoftTeams/teams-edu-licensing) | modifié |
+| 8/24/2022 | [Gérer l’utilisation d’un numéro de téléphone](/MicrosoftTeams/manage-the-usage-of-a-phone-number) | ajouté |
+| 8/25/2022 | [Administration ressources de formation - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modifié |
+| 8/26/2022 | [Rapport d’historique de la file d’attente d’appels & standard automatique](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modifié |
+| 8/26/2022 | [Configurer un standard automatique pour Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | modifié |
+| 8/26/2022 | [Configurer un standard automatique pour Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modifié |
+| 8/26/2022 | [Créer une file d’attente des appels dans Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | modifié |
+| 8/26/2022 | [Créer une file d’attente des appels dans Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
+| 8/26/2022 | [Planifier les standards automatiques teams et les files d’attente d’appels](/MicrosoftTeams/plan-auto-attendant-call-queue) | modifié |
+
+
 ## <a name="week-of-august-15-2022"></a>Semaine du 15 août 2022
 
 
@@ -194,25 +224,3 @@
 | 7/26/2022 | [Gestion des clients multilocataires pour les partenaires](/MicrosoftTeams/rooms/multi-tenant-management-partner) | modifié |
 | 7/26/2022 | [Attribuer des licences de module complémentaire Teams aux utilisateurs](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | modifié |
 | 7/29/2022 | [Gérer des numéros de téléphone pour votre entreprise](/MicrosoftTeams/manage-phone-numbers-landing-page) | modifié |
-
-
-## <a name="week-of-july-18-2022"></a>Semaine du 18 juillet 2022
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 7/18/2022 | [En savoir plus sur les applications dans Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modifié |
-| 7/18/2022 | [Gérer les stratégies de mise en application dans Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modifié |
-| 7/18/2022 | Mise en service de Microsoft Teams à grande échelle pour les employés de bureau | supprimé |
-| 7/19/2022 | [Gérer les connecteurs Microsoft 365 et les connecteurs personnalisés](/MicrosoftTeams/office-365-custom-connectors) | modifié |
-| 7/19/2022 | [En savoir plus sur les applications dans Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modifié |
-| 7/19/2022 | [Gérer les applications Microsoft Power Platform dans le centre d'administration Microsoft Teams](/MicrosoftTeams/manage-power-platform-apps) | modifié |
-| 7/19/2022 | [Gérer les réunions Q&A dans Teams](/MicrosoftTeams/manage-qna-for-teams) | modifié |
-| 7/19/2022 | [Vue d’ensemble de la certification des applications par Microsoft](/MicrosoftTeams/overview-of-app-certification) | modifié |
-| 7/19/2022 | [Achat d’applications tierces pour Teams](/MicrosoftTeams/purchase-third-party-apps) | modifié |
-| 7/20/2022 | [Configurer Operator Connect](/MicrosoftTeams/operator-connect-configure) | modifié |
-| 7/21/2022 | [Guide d’administration informatique sur Education Insights dans Microsoft Teams](/MicrosoftTeams/class-insights) | modifié |
-| 7/21/2022 | [Expérience de mise à jour d’applications dans Microsoft Teams](/MicrosoftTeams/apps-update-experience) | modifié |
-| 7/21/2022 | Vous gérez les applications pour votre organisation dans les [applications Teams au sein du centre d’administration Microsoft Teams](/MicrosoftTeams/manage-apps). | modifié |
-| 7/21/2022 | [Utiliser l’API de soumission d’applications Teams pour envoyer et approuver vos applications personnalisées](/MicrosoftTeams/submit-approve-custom-apps) | modifié |
-| 7/21/2022 | [Charger vos applications personnalisées dans le Centre d’administration Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | modifié |
