@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-get-started
-ms.openlocfilehash: 84cc77409aecf5525a16ef73e3dfa7e0115f7566
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: d6667564c326552cd5671c480bb1ee66a3311c93
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268569"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466002"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Réunions et conférences dans Microsoft Teams
 
@@ -52,7 +52,6 @@ Teams offre une expérience prête à l’utilisation pour votre organisation, e
 
 > [!TIP]
 > Regardez la session suivante pour en savoir plus sur les réunions : [présentation des réunions dans Microsoft Teams pour les professionnels de l’informatique](https://aka.ms/teams-meetings-intro).
-
 
 ## <a name="meetings-and-conferencing-prerequisites"></a>Prérequis pour les réunions et conférences
 
@@ -150,7 +149,7 @@ Pour plus d’informations, voir [Enregistrement de réunion Teams dans le nuage
 
 | Posez-vous la question | Action |
 |--------------|--------|
-| Est-ce que je vais activer le service de transcription pour la réunion ?|Voir [activer ou désactiver la transcription de l’enregistrement](meetings-policies-recording-and-transcription.md#allow-transcription)|
+| Est-ce que je vais activer le service de transcription pour la réunion ?|Voir [activer ou désactiver la transcription de l’enregistrement](meetings-policies-recording-and-transcription.md#transcription)|
 
 ### <a name="live-events-policies"></a>Stratégies d’événements en direct
 
@@ -203,6 +202,7 @@ Il est important de comprendre l’état de santé général du service Teams af
 |Qui dans mon organisation doit se charger de la gestion du service de réunions ? | Vérifiez que cette personne dispose des autorisations d’administration Teams dont elle a besoin pour gérer votre service de réunions. Pour en savoir plus sur les rôles d’administrateur Teams, voir [Utiliser les rôles d’administrateur Microsoft Teams pour gérer les équipes](using-admin-roles.md).|
 
 ## <a name="next-steps"></a>Étapes suivantes
+
 - [Favoriser l’adoption](adopt-microsoft-teams-landing-page.md) des réunions et conférences au sein de votre organisation.
 - [Ajouter une audioconférence](deploy-audio-conferencing-teams-landing-page.md)
 - [Mettre en place les services audio dans le nuage](cloud-voice-landing-page.md)

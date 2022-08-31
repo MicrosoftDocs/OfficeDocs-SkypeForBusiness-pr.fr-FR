@@ -19,12 +19,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7a1f8aa97f43e70e2ec17e64cfa2a618b7a61af7
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
-ms.translationtype: HT
+ms.openlocfilehash: f1ec379a7f8d30738fc71b66d840752137ce72bf
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175708"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466012"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -39,7 +39,7 @@ Lorsqu’une réunion est enregistrée, elle est automatiquement :
 - Ajouté à différentes listes de fichiers dans Microsoft 365 : Partagé avec moi, office.com, Recommandé, Récent, etc.
 - Indexé pour la recherche Microsoft 365
 
-Connexe : [documentation de l’utilisateur final sur l’enregistrement de la réunion Teams](https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
+Connexe : [documentation de l’utilisateur final sur l’enregistrement de la réunion Teams](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 
 >[!Note]
 > Le passage de l’utilisation de Microsoft Stream (classique) à OneDrive et SharePoint pour les enregistrements de réunion aura lieu automatiquement en août 2021. Pour plus d’informations, consultez [Utiliser OneDrive et SharePoint ou Stream pour les enregistrements de réunion](tmr-meeting-recording-change.md).
@@ -79,7 +79,7 @@ Cette section explique comment configurer et planifier l’enregistrement des r�
 
 Vous pouvez utiliser le Centre d’administration Microsoft Teams ou PowerShell pour définir une stratégie de réunion Teams afin de contrôler si les réunions des utilisateurs peuvent être enregistrées.
 
-Dans le Centre d’administration Microsoft Teams, activer ou désactiver le paramètre d’enregistrement **sur le nuage** dans la stratégie de réunion. Si vous souhaitez en savoir plus, consultez l’article [Paramètres de stratégie de réunion pour l’audio et la vidéo](meetings-policies-recording-and-transcription.md#allow-cloud-recording).
+Dans le Centre d’administration Microsoft Teams, activer ou désactiver le paramètre d’enregistrement **sur le nuage** dans la stratégie de réunion. Si vous souhaitez en savoir plus, consultez l’article [Paramètres de stratégie de réunion pour l’audio et la vidéo](meetings-policies-recording-and-transcription.md#cloud-recording).
 
 À l’aide de PowerShell, vous configurez le paramètre AllowCloudRecording dans TeamsMeetingPolicy. Pour en savoir plus, consultez[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -107,8 +107,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 | Je souhaite que l’enregistrement soit 100 % désactivé. | <ol><li>Vérifiez que la stratégie globale CsTeamsMeetingPolicy a AllowCloudRecording = False.<li>Tous les utilisateurs ont reçu la stratégie globale CsTeamsMeetingPolicy OU l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False. |
 | Je souhaite désactiver l’enregistrement pour la majorité des utilisateurs, mais activer de manière sélective des utilisateurs spécifiques autorisés à enregistrer. | <ol><li>Vérifiez que la stratégie globale CsTeamsMeetingPolicy a AllowCloudRecording = False.<li>La plupart des utilisateurs ont reçu la stratégie CsTeamsMeetingPolicy globale ou l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False.<li>Tous les autres utilisateurs ont reçu une des stratégies de CsTeamsMeetingPolicy avec AllowCloudRecording = True. <ol> |
 
-
 <a name="bd-channel"></a>
+
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>Bloquer ou autoriser le téléchargement des enregistrements de réunion de canal
 
 Ce paramètre contrôle si les réunions de canal sont enregistrées dans un dossier « Recordings » ou un dossier « Recordings\View only » dans le canal. Le paramètre s’applique à la stratégie de l’utilisateur qui sélectionne l’enregistrement pour la réunion de canal.
@@ -143,17 +143,17 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 >```
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>Activer ou désactiver la transcription de l’enregistrement
+
 Ce paramètre détermine si les fonctionnalités de légende et de transcription sont disponibles lors de la lecture des enregistrements de réunion. La personne qui a lancé l'enregistrement doit activer ce paramètre pour que ces fonctionnalités fonctionnent avec son enregistrement.
   
 L’activation de ce paramètre crée une copie de la transcription stockée avec l’enregistrement de la réunion, ce qui active **Recherche**, **CC** et **Transcriptions** sur l’enregistrement de réunion.
-
 
 > [!NOTE]
 > Cette transcription pour les réunions enregistrées est actuellement prise en charge uniquement pour l’anglais (États-Unis), l’anglais (Canada), l’anglais (Inde), l’anglais (Royaume-Uni), l’anglais (Australie), l’anglais (Nouvelle-Zélande), l’arabe (Émirats arabes unis) , l’arabe (Arabie saoudite), le chinois (simplifié, Chine), chinois (traditionnel, Hong Kong SAR), chinois (traditionnel, Taïwan), tchèque (Tchèque), danois (Danemark), néerlandais (Belgique), néerlandais (Pays-Bas), Français (Canada), Français (France), finnois (Finlande), allemand (Allemagne), Grec (Grèce), hébreu (Israël), hindi (Inde), hongrois (Hongrie), italien (Italie), japonais (Japon), coréen (Corée), norvégien (Norvège), polonais (Pologne), portugais (Brésil), portugais (Portugal), roumain (Romanie), russe (Russie), slovaque (Pologne), espagnol (Mexique), espagnol (Espagne), suédois (Suède), thaï (Thaïlande), turc (Turquie), ukrainien (Ukraine), vietnamien (Vietnam). Ils sont stockés avec les enregistrements de réunion dans OneDrive et le stockage cloud SharePoint.
 
 Vous pouvez utiliser le Centre d’administration Microsoft Teams ou PowerShell pour définir une stratégie de réunion Teams afin de contrôler si l’initiateur d’enregistrement peut transcrire le choix de transcrire l’enregistrement de la réunion.
 
-Dans le Centre d’administration Microsoft Teams, activez ou désactivez le paramètre **Autoriser la transcription** dans la stratégie de réunion. Si vous souhaitez en savoir plus, consultez l’article [Paramètres de stratégie de réunion pour l’audio et la vidéo](meetings-policies-recording-and-transcription.md#allow-transcription).
+Dans le Centre d’administration Microsoft Teams, activez ou désactivez le paramètre **Autoriser la transcription** dans la stratégie de réunion. Si vous souhaitez en savoir plus, consultez l’article [Paramètres de stratégie de réunion pour l’audio et la vidéo](meetings-policies-recording-and-transcription.md#transcription).
 
 À l’aide de PowerShell, vous configurez le paramètre AllowTranscription dans TeamsMeetingPolicy. Pour en savoir plus, consultez[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -171,9 +171,6 @@ Pour modifier la valeur de AllowCloudRecording dans la stratégie globale, utili
 Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 ```
 
-</br>
-</br>
-
 |Scénario|Étapes |
 |---|---|
 |Je souhaite que tous les utilisateurs de ma société soient en mesure de transcrire lors du lancement de l’enregistrement d’une réunion. |<ol><li>Confirmer que la stratégie globale CsTeamsMeetingPolicy a AllowTranscription = True. <li>Tous les utilisateurs ont la stratégie globale CsTeamsMeetingPolicy OU l’une des stratégies CsTeamsMeetingPolicy avec AllowTranscription = True. </ol>|
@@ -182,6 +179,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |Je souhaite que la transcription soit désactivée pour la majorité des utilisateurs, mais activer de manière sélective des utilisateurs spécifiques qui sont autorisés à transcrire. |<ol><li>Vérifiez que la stratégie globale CsTeamsMeetingPolicy a AllowCloudRecording = False. <li>La majorité des utilisateurs ont reçu la stratégie globale CsTeamsMeetingPolicy OU l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False. <li>Tous les autres utilisateurs ont reçu une des stratégies de CsTeamsMeetingPolicy avec AllowCloudRecording = True. </ol>|
 
 ### <a name="terms-of-use-acceptance"></a>Acceptation des Conditions d’utilisation
+
 Si votre organisation dispose d’une stratégie d’enregistrement des réunions que vous souhaitez que vos utilisateurs acceptent avant d’enregistrer une réunion, utiliser la fonctionnalité [Conditions d’utilisation Azure Active Directory](/azure/active-directory/conditional-access/terms-of-use). Cette fonctionnalité permet à vos utilisateurs d’accepter les conditions de la stratégie utilisateur de votre organisation avant d’accéder à Microsoft Teams. Cette fonctionnalité ne s’applique pas spécifiquement au clic sur le bouton Enregistrer. Elle est associée à l’utilisation de Teams ou d’autres applications Microsoft 365 en général. Notre suggestion est d’ajouter votre information d’enregistrement de la réunion aux conditions d'utilisation générales pour l’utilisateur de Teams ou de Microsoft 365.
 
 ### <a name="set-a-custom-privacy-policy-url"></a>Définir une URL de stratégie de confidentialité personnalisée
@@ -208,7 +206,7 @@ Les enregistrements de réunion sont stockés dans Le Stockage Cloud OneDrive et
 
 - L’enregistrement est stocké dans un dossier nommé **Enregistrements** dans le OneDrive de l’utilisateur qui a cliqué sur l’enregistrement. 
 
-  Exemple : <i>enregistrements OneDrive/de la sauvegarde</i>
+  Exemple :**enregistrements** OneDrive /*de l’enregistreur*
 
 - Les personnes invitées à la réunion, à l’exception des participants externes, bénéficient automatiquement de l’autorisation d’accès au fichier d’enregistrement avec un accès en affichage sans possibilité de téléchargement.
 
@@ -220,7 +218,7 @@ Si `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` est défini sur Autorise
 
 - L’enregistrement est stocké dans la bibliothèque de documentation du site Teams dans un dossier nommé **Recordings**.
 
-  Exemple : <i> nom Teams – Nom du canal</i>/**Documents**/**Recordings**
+   Exemple : *Nom teams - Enregistrements***documents**/ de nom / de canal
 
 - Le membre qui a cliqué sur l’enregistrement dispose des droits de modification pour l’enregistrement.
 
@@ -230,7 +228,7 @@ Si `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` est défini sur Bloquer 
 
 - L’enregistrement est stocké dans la bibliothèque de documentation du site Teams dans un dossier nommé **Recordings/View only**. 
 
-  Exemple : <i>nom Teams – Nom du canal</i>/**Documents/Recordings/View only**
+  Exemple : *Nom Teams - Nom*/ de canal **Documents/Enregistrements/Affichage uniquement**
 
 - Les propriétaires de canaux disposeront de droits complets de modification et de téléchargement sur les enregistrements de ce dossier.
 
@@ -252,6 +250,7 @@ Pour plus d’informations sur des types de réunions spécifiques, consultez le
 |Réunion de canal                            |Membre du canal         |Emplacement SharePoint de Teams pour ce canal                   |Si Set-CsTeamsMeetingPolicy -ChannelRecordingDownload est défini sur Autoriser (par défaut), le membre qui a cliqué sur Enregistrement dispose des droits de modification pour l’enregistrement. Les autorisations de tous les autres membres sont basées sur les autorisations canal SharePoint.<Br><Br>Si Set-CsTeamsMeetingPolicy -ChannelRecordingDownload est défini sur Bloquer, les propriétaires de canaux disposeront des droits complets sur l’enregistrement, mais les membres du canal disposeront d’un accès en lecture sans possibilité de téléchargement.|
 
 <a name="temp-storage"></a>
+
 ### <a name="temporary-storage-when-unable-to-upload-to-onedrive-and-sharepoint"></a>Stockage temporaire en cas d’impossibilité de chargement vers OneDrive et SharePoint
 
 Si un enregistrement de réunion ne peut pas être chargé sur OneDrive et SharePoint, il sera temporairement disponible en téléchargement à partir de Teams pendant 21 jours avant sa suppression. À ce stade, ce n’est pas quelque chose qu’un administrateur peut contrôler ou gérer pour inclure la possibilité de le supprimer.
@@ -271,21 +270,14 @@ La rétention d’enregistrement pour ce stockage temporaire est affectée par l
 ### <a name="planning-for-storage"></a>Planification pour stockage
 
 La taille d’un enregistrement de 1 heure est de 400 Mo. Veillez à bien comprendre la capacité requise pour les fichiers enregistrés et à disposer d’un espace de stockage suffisant dans OneDrive et SharePoint.  Lisez [Définir l’espace de stockage par défaut pour OneDrive](/onedrive/set-default-storage-space) et [gérer les limites de stockage de site SharePoint](/sharepoint/manage-site-collection-storage-limits) pour comprendre le stockage de base inclus dans l’abonnement et comment acheter du stockage supplémentaire.
-
- <a name="auto-expiration"></a>
-### <a name="auto-expiration-of-teams-meeting-recordings"></a>Expiration automatique des enregistrements de réunion Teams
-
-Consultez les questions fréquemment posées aux administrateurs et aux utilisateurs finaux pour recueillir des informations sur le fonctionnement de l’expiration automatique des enregistrements de réunion Teams, les actions que vous pouvez effectuer maintenant et les actions que vous pouvez effectuer après le lancement de la fonctionnalité.
-  
-En savoir plus sur les modifications spécifiques à l’administrateur [ici.](meeting-expiration.md#changes-to-meeting-expiration)
-
-Découvrez comment les utilisateurs finaux peuvent gérer l’expiration des réunions [ici](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date).
   
 ## <a name="manage-meeting-recordings"></a>Gérer les enregistrements de réunion
 
 Les enregistrements de réunion sont stockés sous forme de fichiers vidéo dans OneDrive et SharePoint et suivent les options de gestion et de gouvernance disponibles sur ces plateformes. Pour plus d’informations, consultez [la vue d’ensemble de la gouvernance SharePoint](/sharepoint/governance-overview) .
 
 Pour les réunions hors canal, les enregistrements sont stockés dans l’espace OneDrive de l’enregistreur. Ainsi, la gestion de la propriété et de la rétention après le départ d’un employé suit le [processus OneDrive et SharePoint](/onedrive/retention-and-deletion#the-onedrive-deletion-process)normal.
+
+Les enregistrements de réunion ont un délai d’expiration par défaut de 120 jours. Vous pouvez désactiver le paramètre d’expiration automatique des réunions ou modifier l’heure d’expiration par défaut. En savoir plus sur [l’expiration automatique des enregistrements de réunion](meetings-policies-recording-and-transcription.md#meetings-automatically-expire).
 
 ## <a name="closed-captions-for-recordings"></a>Sous-titres pour les enregistrements
 
@@ -324,11 +316,12 @@ Vous pouvez appliquer des stratégies DLP aux fichiers d’enregistrement de ré
 Pour en savoir plus sur la protection contre la perte de données, consultez l’article [En savoir plus sur la protection contre la perte de données](/microsoft-365/compliance/dlp-learn-about-dlp)
 
 ## <a name="meeting-recording-diagnostic-tools"></a>Outils de diagnostic d'enregistrement de réunion
-  ### <a name="user-cannot-record-meetings"></a>L'utilisateur ne peut pas enregistrer les réunions
+
+### <a name="user-cannot-record-meetings"></a>L'utilisateur ne peut pas enregistrer les réunions
 
 Si vous êtes administrateur, vous pouvez utiliser l'outil de diagnostic suivant pour valider que l'utilisateur est correctement configuré pour enregistrer une réunion dans Teams :
 
-1. Sélectionnez **Exécuter les tests** ci-dessous, qui remplira le diagnostic dans le Centre d'Administration Microsoft 365. 
+1. Sélectionnez **Exécuter les tests** ci-dessous, qui remplira le diagnostic dans le Centre d'Administration Microsoft 365.
 
    > [!div class="nextstepaction"]
    > [Exécuter des tests : enregistrement de réunion](https://aka.ms/MeetingRecordingDiag)
@@ -337,16 +330,16 @@ Si vous êtes administrateur, vous pouvez utiliser l'outil de diagnostic suivant
 
 3. Les tests renverront les meilleures étapes suivantes pour traiter les configurations de locataire ou de stratégie afin de valider que l'utilisateur est correctement configuré pour enregistrer une réunion dans Teams.
   
-  ### <a name="meeting-record-is-missing"></a>L'enregistrement de la réunion est manquant
+### <a name="meeting-record-is-missing"></a>L'enregistrement de la réunion est manquant
 
 Si vous êtes un administrateur, vous pouvez utiliser l'outil de diagnostic suivant pour valider que l'enregistrement de la réunion s'est terminé avec succès et qu'il a été téléchargé sur Stream ou OneDrive, en fonction de l'ID de la réunion et de l'heure de début de l'enregistrement :
 
-1. Sélectionnez **Exécuter les tests** ci-dessous, qui remplira le diagnostic dans le Centre d'Administration Microsoft 365. 
+1. Sélectionnez **Exécuter les tests** ci-dessous, qui remplira le diagnostic dans le Centre d'Administration Microsoft 365.
 
    > [!div class="nextstepaction"]
    > [Exécuter des tests : enregistrement de réunion manquant](https://aka.ms/MissingRecordingDiag)
 
-2. Dans le volet Exécuter le diagnostic, saisissez l'URL de la réunion dans le champ **URL de la réunion qui a été enregistrée** (généralement trouvée dans l'invitation à la réunion), ainsi que la date de la réunion dans le champ **Quand la réunion a-t-elle été enregistrée ?**, puis sélectionnez **Exécuter les tests**.
+2. Dans le volet De diagnostic d’exécution, entrez l’URL de la réunion dans **l’URL de la réunion enregistrée** (généralement trouvée dans l’invitation à la réunion) ainsi que la date de la réunion dans le champ **Quand la réunion a-t-elle été enregistrée ?** puis sélectionnez **Exécuter les tests**.
 
 3. Les tests valideront que l'enregistrement de la réunion s'est terminé avec succès et qu'il a été téléchargé sur Stream ou OneDrive.
 

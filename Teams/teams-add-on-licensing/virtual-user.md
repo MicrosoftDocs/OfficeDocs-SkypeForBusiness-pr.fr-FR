@@ -18,57 +18,53 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 - LIL_Placement
-- seo-marvel-apr2020
-description: Découvrez comment attribuer des licences de compte de ressources de téléphone Teams gratuites ou des licences utilisateur Téléphonie Teams standard payantes aux comptes de ressources de votre organisation.
-ms.openlocfilehash: f8aaf7480fc228fc78879ed5905aaaf7092777ab
-ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
+- admindeeplinkMAC
+description: Découvrez comment attribuer Téléphonie Microsoft Teams licences de compte de ressource à des comptes de ressources pour les standards automatiques et les files d’attente d’appels dans votre organisation.
+ms.openlocfilehash: 348317ca659e03a9dacf8eaae603cff52a009912
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/09/2022
-ms.locfileid: "67298294"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67465982"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>licences de compte de ressource Téléphonie Microsoft Teams
 
-Les organisations avec Téléphonie Teams standard ou Teams Phone avec forfait d’appels sous licence peuvent attribuer une licence *de compte* de ressource Téléphonie Microsoft Teams gratuite ou une licence d’utilisateur *Téléphonie Teams standard* payante aux comptes de ressources. Un plan d’appel Microsoft n’est pas toujours requis (voir [Plan for Teams Auto Attendant et call queues](../plan-auto-attendant-call-queue.md#prerequisites) for prerequisites when transfering calls to an external phone number).
+Dans Microsoft Teams, tous les standards automatiques et les files d’attente d’appels nécessitent un compte de ressources associé. Chaque compte de ressource doit se voir attribuer une **licence de compte** de ressource Téléphonie Microsoft Teams pour s’assurer qu’il est correctement identifié par le système et fonctionne correctement, *que le compte de ressource se voit attribuer ou non un numéro de téléphone*. Les organisations disposant d’un abonnement incluant Teams Phone reçoivent automatiquement une certaine quantité de licences de **compte de ressources de téléphone Teams** sans frais supplémentaires.  Un plan d’appel Microsoft n’est pas nécessaire, sauf si vous souhaitez pouvoir composer un numéro à l’aide de ce compte de ressource. Pour plus d’informations, consultez [Planifier le standard automatique Teams et les files d’attente d’appels](../plan-auto-attendant-call-queue.md#prerequisites).
 
-Tous les standards automatiques et les files d’attente d’appels nécessitent un compte de ressource associé. Les comptes de ressources qui nécessitent un numéro de téléphone ont besoin d’une licence *de compte* de ressource Téléphonie Microsoft Teams gratuite ou d’une licence d’utilisateur *Téléphonie Teams standard* payante avant qu’un numéro de téléphone puisse être appliqué au compte de ressource.
-
-> [!TIP]
-> Aucune licence n’est nécessaire pour les comptes de ressources qui seront utilisés avec des standards automatiques imbriqués ou des files d’attente d’appels qui n’ont pas de numéro de téléphone attribué.
+> [!NOTE]
+> Auparavant, une licence **de compte de ressource de téléphone Teams** (anciennement appelée licence **d’utilisateur virtuel** ) était nécessaire uniquement lors de l’affectation d’un numéro de téléphone à un compte de ressource. À présent, une licence de compte de ressource **téléphonique Teams** doit être attribuée à tous les comptes de ressources, qu’ils se voient attribuer ou non un numéro de téléphone. En outre, n’affectez pas de licence **Téléphonie Teams standard** à un compte de ressource. Si vous disposez actuellement de comptes de ressources configurés avec des licences **Téléphonie Teams standard**, vous devez basculer vers une licence **de compte de ressources de téléphone Teams**, comme décrit ci-dessous.
+ 
 
 ## <a name="resource-account-license-allocation"></a>Allocation de licences de compte de ressources
 
-Votre organisation est allouée Téléphonie Microsoft Teams licences *de compte de* ressource en fonction de sa taille globale. Toute organisation disposant d’au moins une licence avec des fonctionnalités du système téléphonique Teams, y compris Téléphonie Teams standard et Teams Phone avec licences forfait d’appels, dispose de 25 licences de compte de ressources disponibles gratuitement. Lorsque vous ajoutez 10 Téléphonie Teams standard ou Teams Phone avec des licences d’utilisateur forfait d’appels dans votre organisation, une autre *licence de compte de ressource Téléphonie Microsoft Teams* devient disponible.
+Votre organisation reçoit des licences de **compte de ressources de téléphone Teams** en fonction de sa taille globale. Toute organisation disposant d’un abonnement avec des fonctionnalités de système téléphonique, telles que **Téléphonie Teams standard** et **Teams Phone avec licences forfait d’appels**, dispose de 25 licences de **compte de ressources de téléphone Teams** disponibles gratuitement. 
 
-> [!NOTE]
-> Téléphonie Teams standard et Teams Phone avec forfait d’appels sont des licences complémentaires disponibles pour tous les abonnés Microsoft 365. Téléphonie Teams standard licences sont également incluses dans Microsoft 365 E5 plans.
-
-Si votre organisation utilise les licences *de compte* de ressource Téléphonie Microsoft Teams gratuites pour créer des nœuds de standard automatique ou de file d’attente d’appels, vous pouvez toujours utiliser les licences *de Téléphonie Teams standard* payantes avec un compte de ressources. La plupart des organisations disposent de suffisamment de licences de compte de ressources en fonction du plan de mise à l’échelle.
+Pour chaque 10 licences utilisateur de **Téléphonie Teams standard** ou **Teams Phone avec forfait d’appels** dans votre organisation, une licence de **compte de ressource téléphonique Teams** supplémentaire est disponible.  La plupart des organisations disposent de suffisamment de licences **de compte de ressources de téléphone Teams** en fonction de ce plan de mise à l’échelle. Si d’autres licences de **compte de ressources de téléphone Teams** sont nécessaires, vous pouvez acheter davantage de licences de **compte de ressources de téléphone Teams** au-delà de l’allocation standard par le biais de votre représentant de compte Microsoft.
 
 ### <a name="license-allocation-example"></a>Exemple d’allocation de licence
 
-Contoso, Inc. a acheté 600 licences incluant Phone System (une pour chaque employé). Contoso reçoit 25 licences initiales plus 60 *Téléphonie Microsoft Teams compte de* ressources, soit 85 au total. Leur organisation dispose de 90 files d’attente d’appels et de standards automatiques qui ont des numéros de téléphone. Ils doivent attribuer toutes les licences *de compte* de ressources Téléphonie Microsoft Teams et obtenir cinq licences *Téléphonie Teams standard* à prix régulier.
+Contoso, Inc. a acheté 600 licences incluant Phone System (une pour chaque employé). Contoso dispose d’un nombre initial de 25 licences plus 60 licences de **compte de ressources de téléphone Teams** , soit 85 au total. Leur organisation dispose de 90 files d’attente d’appels et de standards automatiques qui ont des numéros de téléphone. Ils doivent attribuer toutes les licences **de compte de ressources de téléphone Teams** et acheter cinq licences supplémentaires de **compte de ressources de téléphone Teams** . 
 
-Contoso doit envisager de remanier le standard automatique et le système de file d’attente des appels. S’ils utilisent moins de numéros de téléphone et plus de nœuds imbriqués qui n’ont pas besoin d’un numéro de téléphone, ils simplifient l’implémentation et réduisent les coûts.
+## <a name="how-to-obtain-microsoft-teams-phone-resource-account-licenses"></a>Comment obtenir des licences de compte de ressource Téléphonie Microsoft Teams
 
-## <a name="how-to-buy-microsoft-teams-phone-resource-account-licenses"></a>Comment acheter des licences de compte de ressource Téléphonie Microsoft Teams
-
-1. Connectez-vous au Centre d’administration Microsoft 365.
-2. Accédez **aux** > **modules complémentaires** Billing **Purchase Services** > .
+1. Connectez-vous au [Centre d’administration Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+2. Accédez **aux** > **modules complémentaires** Billing [**Purchase Services**](https://go.microsoft.com/fwlink/p/?linkid=868433) > .
 3. Faites défiler la page pour rechercher la licence **de compte de ressource Téléphonie Microsoft Teams**. Sélectionnez **Acheter maintenant**.
 
    > [!NOTE]
-   > Gardez à l’esprit que vous devez toujours **acheter** la licence même si elle a un coût de zéro.
+   > Gardez à l’esprit que même si vous êtes dans votre allocation, vous devez toujours **acheter** la licence même si elle a un coût égal à zéro.
 
 ## <a name="change-an-existing-resource-account-to-use-a-microsoft-teams-phone-resource-account-license"></a>Modifier un compte de ressource existant pour utiliser une licence de compte de ressource Téléphonie Microsoft Teams
 
-Si vous décidez de basculer la licence sur votre compte de ressource d’une licence *Téléphonie Teams standard* vers une licence *de compte de ressource Téléphonie Microsoft Teams* :
+Si vous disposez de comptes de ressources existants à l’aide d’une licence **Téléphonie Teams standard**, vous devez basculer vers une licence **de compte de ressources de téléphone Teams** :
 
-1. Obtenez la nouvelle licence *de compte de ressource Téléphonie Microsoft Teams*.
+1. Obtenez la nouvelle licence **de compte de ressources de téléphone Teams** .
 2. Suivez les étapes liées dans le Centre d'administration Microsoft 365 pour [déplacer les utilisateurs vers un autre abonnement](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
-> Supprimez toujours une licence *de Téléphonie Teams standard* complète et attribuez la licence *de compte de ressource Téléphonie Microsoft Teams* dans la même activité de licence. Si vous supprimez l’ancienne licence, enregistrez les modifications apportées au compte, ajoutez la nouvelle licence, puis enregistrez à nouveau les paramètres du compte, le compte de ressource peut ne plus fonctionner comme prévu. Si cela se produit, nous vous recommandons de créer un compte de ressource pour la *licence Téléphonie Microsoft Teams compte de* ressources et de supprimer le compte de ressource rompu.
+> Supprimez toujours une licence **Téléphonie Teams standard** et attribuez la licence **compte de ressource téléphonique Teams** dans la même activité de licence. Si vous supprimez l’ancienne licence, enregistrez les modifications de compte, ajoutez la nouvelle licence et enregistrez à nouveau les paramètres du compte, le compte de ressource peut ne plus fonctionner comme prévu, comme les standards automatiques et les files d’attente d’appels de votre organisation ne fonctionnent plus.
+>
+> Si cela se produit, nous vous recommandons de créer un compte de ressource à l’aide de la licence **du compte de ressources de téléphone Teams** et de supprimer le compte de ressource rompu.
 
 ## <a name="related-information"></a>Informations connexes
 
