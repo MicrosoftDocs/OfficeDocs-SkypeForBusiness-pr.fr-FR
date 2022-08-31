@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Une liste des propriétés de bureau et des événements de contrôles des stratégies pour Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c255fd02342eb6db1878608ad2da09683d7a83ec
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
-ms.translationtype: HT
+ms.openlocfilehash: 5bb9e4dfd604728ea1714d3ab2e663dab3b5c3c6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863225"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608921"
 ---
 # <a name="required-desktop-diagnostic-data-for-microsoft-teams"></a>Données de diagnostic de bureau requises pour Microsoft Teams
 
@@ -32,7 +32,7 @@ Pour plus d’informations sur les données de diagnostic, notamment sur la faç
 ## <a name="events"></a>Événements
 
 > [!NOTE]
-> Il existe des propriétés communes pour tous les événements répertoriés ci-dessous, pour les découvrir, consultez la section [Propriétés envoyées avec tous les événements](#properties-sent-with-all-events).
+> Il existe des propriétés communes pour tous les événements répertoriés ci-dessous, pour les découvrir, consulter la section [Propriétés envoyées avec tous les événements](#properties-sent-with-all-events).
 
 ### <a name="logging"></a>Journalisation
 
@@ -164,7 +164,7 @@ Pour plus d’informations sur les données de diagnostic, notamment sur la faç
 | locale/AppInfo_Locale                      | Paramètres régionaux de l’application                                                         |
 | os/DeviceInfo_OsName                       | Nom du système d’exploitation                                                            |
 | UserInfo_Language                          | Langue utilisateur sélectionnée                                             |
-| UserInfo_Id                                | Identifiant de l’utilisateur                                                            |
+| UserInfo_Id                                | ID de l’utilisateur                                                            |
 | UserInfo_TenantId/TenantId                 | Identifiant du client                                                          |
 | ring/UserInfo_Ring                         | Concept qui permet de fournir une application de manière progressive          |
 | region                                     | Zone du centre des données ayant répondu à la demande de l’utilisateur                       |
@@ -322,7 +322,7 @@ Pour plus d’informations sur les données de diagnostic, notamment sur la faç
 | Thread_Type        | Type de thread auquel l’utilisateur a accédé                          |
 | Panel_LaunchSource | information de source du panneau démarré        |
 | Tab_Type           | Type de l’onglet auquel l’utilisateur a accédé                         |
-| Team_Type          | Type d’équipe à laquelle l’utilisateur accède                            |
+| Team_Type          | Type d’équipe à laquelle l’utilisateur a accédé                            |
 
 ### <a name="properties-sent-with-userbi-panelaction-events"></a>Propriétés envoyées avec les événements panelaction UserBI
 
@@ -348,7 +348,7 @@ Pour plus d’informations sur les données de diagnostic, notamment sur la faç
 | Action_Scenario       | Fonctionnalité dans un groupe de fonctionnalités liées à la métrique commerciale |
 | Panel_LaunchSource    | information de source du panneau démarré                  |
 | Tab_Type              | Type de l’onglet auquel l’utilisateur a accédé                                   |
-| Team_Type             | Type d’équipe à laquelle l’utilisateur accède                                      |
+| Team_Type             | Type d’équipe à laquelle l’utilisateur a accédé                                      |
 
 ### <a name="properties-sent-with-outlook-addin-events"></a>Propriétés envoyées avec les événements de complément Outlook
 

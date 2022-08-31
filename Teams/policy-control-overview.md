@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Une vue d’ensemble des contrôles de stratégie pour Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed0e5aa3a39147238bf0ade57df509a31f0f13e8
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
-ms.translationtype: HT
+ms.openlocfilehash: 13b807d98b92deaac54ad8b755295b73e90c6548
+ms.sourcegitcommit: b4bc3b4c1d167a075a25180818f61758eb56cd6b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142810"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61041256"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Vue d’ensemble du contrôle de stratégie pour Microsoft Teams
 
@@ -87,9 +87,6 @@ Vos utilisateurs ne pourront pas modifier le niveau de données de diagnostic de
 Ces données de diagnostic n’incluent pas les noms des utilisateurs, leurs adresses e-mail ou tout autre contenu utilisateur, tel que les fichiers Office partagés dans Teams, un message de conversation envoyé dans Teams ou le texte d’un billet publié dans un canal Teams. Notre système crée un ID unique qui est associé aux données de diagnostic de vos utilisateurs. Lorsque nous recevons des données de diagnostic indiquant que l’application Teams a cessé de fonctionner 100 fois, cet ID unique nous permet de déterminer s’il s’agit d’un seul utilisateur qui a été bloqué 100 fois ou si ce sont 100 utilisateurs différents qui ont été bloqués chacun une fois. Nous n’utilisons pas cet ID unique pour identifier un utilisateur spécifique.
 
 Pour afficher les données de diagnostic qui sont envoyées à Microsoft, vous pouvez utiliser la visionneuse de données de diagnostic que vous pouvez télécharger et installer gratuitement depuis le Microsoft Store. Pour plus d’informations, consultez [Utiliser la visionneuse de diagnostic de données avec Office](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
-
-> [!NOTE]
-> La prise en charge de la visionneuse de données de diagnostic est disponible pour Teams sur les appareils exécutant Android. La prise en charge de Teams sur les appareils exécutant Windows, macOS ou iOS est en cours d’exécution.
 
 ## <a name="required-service-data-for-connected-experiences"></a>Données de service requises pour les expériences utilisateur connectées
 
