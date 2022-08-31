@@ -17,12 +17,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: Découvrez comment parcourir et acheter des appareils dans le magasin d’appareils du Centre d’administration Teams
-ms.openlocfilehash: a6b68f6e1ffbde15f9f38dfcdeac881a7b3aabc1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d1e3d016f51c6113b6f09076f67647c32f7fd1fa
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267979"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466212"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>Acheter des appareils dans le magasin d’appareils Teams
 
@@ -32,7 +32,7 @@ Le magasin d’appareils du Centre d’administration Teams vous permet de parco
 
 ## <a name="requirements"></a>Conditions requises
 
-Pour utiliser le magasin d’appareils, vous devez être administrateur général ou administrateur Teams.
+Pour utiliser le magasin d’appareils, vous devez être administrateur général, administrateur Teams ou administrateur d’appareil Teams.
 
 ## <a name="browse-the-store"></a>Parcourir le magasin
 
@@ -45,14 +45,6 @@ Lorsque vous achetez des appareils à partir du magasin d’appareils, le paieme
 Vous pouvez payer avec une carte de crédit ou un bon de commande. Le paiement du bon de commande nécessite une configuration unique avec le fournisseur de traitement.
 
 Toutes les commandes peuvent être retournées jusqu’à 30 jours après leur livraison.
-
-## <a name="data-handling-and-sharing"></a>Gestion et partage des données
-
-Le magasin d’appareils Teams doit partager des informations de base sur l’utilisateur et l’entreprise, y compris les GUID utilisateur et locataire, avec UnifiedCommunications.com pour permettre l’achat dans le Centre d’administration Teams.
-
-Le partage de données est désactivé par défaut. Pour l’activer, accédez au magasin d’appareils Teams, sélectionnez l’icône paramètres, puis activez le paramètre.  
-
-Lorsque ce paramètre est désactivé, les données ne sont pas partagées et vous pouvez parcourir le magasin d’appareils Teams, mais vous ne pouvez pas effectuer d’achats. Les données collectées et partagées avec le fournisseur de traitement pendant que le paramètre était activé sont traitées comme spécifié dans leur déclaration de confidentialité.
 
 ## <a name="order-tracking-and-history"></a>Suivi et historique des commandes
 
