@@ -1,59 +1,59 @@
 ### YamlMime:Hub
 title: Skype Entreprise
-summary: Documentation technique Skype Entreprise
+summary: documentation technique Skype Entreprise
 brand: m365
 metadata:
   title: Skype Entreprise
-  description: Documentation technique Skype Entreprise
+  description: documentation technique Skype Entreprise
   ms.service: skype-for-business-online
   ms.topic: hub-page
   audience: ITPro
   author: samanro
   ms.author: samanro
   ms.date: 07/03/2019
-  localization_priority: Priority
-  ms.openlocfilehash: 4fddbad88364a26bee8c8217175080b80380ed60
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: HT
+  ms.localizationpriority: high
+  ms.openlocfilehash: 35f0728c28765ccfeaffd2b2716280b9d20dfbb3
+  ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+  ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51119033"
+  ms.lasthandoff: 08/26/2021
+  ms.locfileid: "58592988"
 additionalContent:
   sections:
-  - title: Professionnels de l’informatique
+  - title: Pour les professionnels de l’informatique
     items:
-    - title: Skype Entreprise Online
-      summary: Trouvez des ressources pour gérer Skype Entreprise Online dans votre environnement Office 365.
+    - title: Skype Entreprise Online
+      summary: Trouvez des ressources pour gérer Skype Entreprise Online dans votre environnement Office 365.
       url: ../SfbOnline/skype-for-business-online.yml
     - title: Solutions hybrides
-      summary: Trouvez des informations sur la planification d’un déploiement Skype Entreprise hybride.
+      summary: Recherchez des informations sur la planification d’un Skype Entreprise déploiement hybride.
       url: ../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json
-    - title: Skype Entreprise Server
-      summary: Déployer et gérer Skype Entreprise Server pour votre organisation.
+    - title: Skype Entreprise Server
+      summary: Déployez et gérez Skype Entreprise Server pour votre organisation.
       url: ../SfBServer2019/skype-for-business-server-2019.yml
     - title: Référence PowerShell pour Skype Entreprise
-      summary: En savoir plus sur les applets de commande PowerShell dont vous devez pour gérer Skype Entreprise et Skype Entreprise Online.
+      summary: Découvrez les cmdlets PowerShell dont vous avez besoin pour gérer Skype Entreprise et Skype Entreprise Online.
       url: /powershell/skype/intro
-    - title: Microsoft Teams
-      summary: Obtenez les conseils de planification, de mise en œuvre et de mise en pratique dont vous avez besoin pour réussir le déploiement de Microsoft Teams.
+    - title: Microsoft Teams
+      summary: Obtenez la planification, la procédure et l’aide pratique dont vous avez besoin pour déployer avec succès Microsoft Teams.
       url: /MicrosoftTeams/
-    - title: Passage de Skype Entreprise à Microsoft Teams
-      summary: Trouvez les conseils et les outils pour explorer votre cheminement optimal vers Teams.
+    - title: Transition de Skype Entreprise à Microsoft Teams
+      summary: Trouvez des conseils et des outils pour explorer votre chemin optimal vers Teams.
       url: /MicrosoftTeams/upgrade-start-here
     - title: Salles Microsoft Teams
       summary: Apprenez à planifier, déployer et gérer les Salles Microsoft Teams.
       url: /SkypeForBusiness/room-systems/
     - title: Programme de certification Skype Entreprise
-      summary: En savoir plus sur les solutions et appareils certifiés.
+      summary: En savoir plus sur les solutions et les appareils certifiés.
       url: ../SfbPartnerCertification/certification/overview.md
-    - title: Résoudre les problèmes
-      summary: Recherchez des ressources pour la résolution des problèmes et le support pour les administrateurs et professionnels de l’informatique.
+    - title: Résolution des problèmes
+      summary: Recherchez des ressources de dépannage et de support pour les professionnels de l’informatique et les administrateurs.
       url: /office/troubleshoot
-  - title: Pour les autres audiences
+  - title: Pour d’autres audiences
     items:
     - title: Développeurs
-      summary: Recommandations pour le développement de solutions pour Skype Entreprise.
+      summary: Conseils pour le développement de solutions pour Skype Entreprise.
       url: /skype-sdk/
     - title: Utilisateurs finaux
-      summary: Le site support.office.com propose aux utilisateurs de Skype Entreprise des pages d’aide, de formation et de support technique.
+      summary: Trouvez de l’aide, de la formation et du support technique pour Skype Entreprise utilisateurs sur support.office.com.
       url: https://support.office.com/skype-for-business
