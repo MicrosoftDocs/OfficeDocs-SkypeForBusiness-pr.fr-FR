@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez les journaux d’activité Debug, Media et Desktop produits par Microsoft Teams, où ils se trouvent et comment ils peuvent aider à la surveillance et à la résolution des problèmes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae6e6eb0c84eae8293f141940842506fa3f54142
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: 2ab00f7a1eedf2b1341819c7ec1c67abeb5f6e38
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/31/2022
-ms.locfileid: "67466032"
+ms.locfileid: "67486889"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>Configurer des fichiers journaux pour la surveillance et la résolution des problèmes dans Teams
 
@@ -118,7 +118,7 @@ Lisez [Grant-CsTeamsMediaLoggingPolicy](/powershell/module/teams/grant-csteamsme
 
 ### <a name="end-user-configuration"></a>Configuration de l’utilisateur final
 
-Pour que vos utilisateurs finaux consignent les données de diagnostic pour les réunions Teams, ils doivent activer l’option dans le client Teams. Ils passent à **Paramètres** > **généraux**, sélectionnent **activer les journaux multimédias (données de diagnostic pour le partage audio, vidéo et d’écran). Nécessite le redémarrage de Teams)** (nécessite le redémarrage de Teams), redémarrer Teams et reproduire le problème. Le client Teams doit être redémarré pour que la journalisation commence. Les utilisateurs peuvent le redémarrer en cliquant avec le bouton droit sur l’icône dans leur dock (Mac) ou leur barre des tâches (Windows) et en sélectionnant Quitter. Une fois qu’ils ont quitté, ils peuvent cliquer sur l’icône de l’application pour ouvrir à nouveau Teams.
+Pour que vos utilisateurs finaux consignent les données de diagnostic pour les réunions Teams, ils doivent activer l’option dans le client Teams. Ils accéderont à **Paramètres** > **généraux**, activeront la case à cocher **Activer les journaux multimédias (données de diagnostic pour l’audio, la vidéo et le partage d’écran)** et reproduisent le problème.
 
 > [!NOTE]
 > Lorsque vos utilisateurs se déconnectent de Teams, la journalisation multimédia est réinitialisée à sa valeur par défaut.

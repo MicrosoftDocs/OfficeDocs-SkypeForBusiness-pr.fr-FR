@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Voici quelques-unes des principales questions que nous obtenons de nos clients qui souhaitent utiliser l’audioconférence.
-ms.openlocfilehash: b6b14397282a365931dc58e6da20f2b3da3ab6c8
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 1f2e45a68b1f964453645c1d06794f9016019beb
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023745"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486979"
 ---
 # <a name="audio-conferencing-common-questions"></a>Questions fréquentes à propos de l’audioconférence
 
@@ -142,7 +142,7 @@ Pour les organisateurs de réunion uniquement :
 | Nom de la commande                   | Clés de commande | Description                                                 |
 |--------------------------------|--------------|-------------------------------------------------------------|
 | Admettre tout                      | \*21         | Appuyez \*sur 21 pour admettre que tous les participants attendent dans la salle d’attente.  |
-| Désactiver tous les sons                       | \*22         | Appuyez \*sur 21 pour désactiver le son de tous les participants (à l’exception de l’organisateur). |
+| Désactiver tous les sons                       | \*22         | Appuyez \*sur 22 pour désactiver le son de tous les participants (à l’exception de l’organisateur). |
 | Activer/désactiver l’annonce d’entrée/sortie | \*23         | Appuyez \*sur 23 pour activer ou désactiver l’annonce Entrée/Sortie.    |
 
 ## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>Les participants peuvent-ils composer des numéros de téléphone internationaux lorsqu’ils participent à une réunion Skype Entreprise ou Microsoft Teams ?

@@ -15,12 +15,12 @@ description: Découvrez comment acheter des applications tierces dans le magasin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 680f48fd75c85b219a4c1ed5b18289962637401b
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 53a630fd887bd793f2b811e97e176cbd40ec1d0d
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396305"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486719"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Achat d’applications tierces pour Teams
 
@@ -28,7 +28,7 @@ Les applications Teams sont gratuites et certaines peuvent nécessiter l'achat d
 
 La page [Gérer les applications](manage-apps.md) du Centre d’administration Microsoft Teams vous permet d’afficher et de gérer toutes les applications Teams pour votre organisation. Par exemple, vous pouvez voir l’état et les propriétés au niveau de l’organisation des applications, charger de nouvelles applications personnalisées dans l’App Store de votre organisation, bloquer ou autoriser des applications au niveau de l’organisation et gérer les paramètres d’application à l’échelle de l’organisation.
 
-Ici, vous pouvez également acheter des licences pour les services offerts par des applications tierces pour les utilisateurs de votre organisation. La colonne **Licences** du tableau indique si une application propose un abonnement SaaS à l'achat.
+Ici, vous pouvez également acheter des licences pour les services offerts par des applications tierces pour les utilisateurs de votre organisation. La colonne **Licences** du tableau indique si une application propose un abonnement SaaS à l'achat. Les utilisateurs finaux peuvent acheter des applications à l’aide d’une carte de crédit, d’une carte de débit ou d’une facturation par facture.
 
 ![Capture d’écran de la page Gérer les applications des licences d’achat.](media/manage-apps-new-page.png)
 

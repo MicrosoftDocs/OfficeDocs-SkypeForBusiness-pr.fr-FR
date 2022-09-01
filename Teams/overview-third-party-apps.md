@@ -16,16 +16,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 456661bd19eb140647dceca6d2b400366bdf8bdc
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: e44cd87189033d6082f38a2d4534738c83187e7b
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299114"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486999"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Vue d’ensemble des applications tierces dans Microsoft Teams
 
-Teams Store fournit de nombreuses applications utiles créées par des éditeurs de logiciels tiers et des développeurs, en plus des applications fournies par Microsoft. Bien que ces applications soient créées par des fournisseurs tiers, Microsoft effectue une validation rigoureuse des fonctionnalités, de la facilité d’utilisation et de la sécurité de ces applications. Ce n’est qu’après la validation que Microsoft rend les applications disponibles dans Teams Store. Pour que les utilisateurs finaux bénéficient de l’écosystème d’applications enrichi, la gouvernance des applications par les administrateurs est une étape clé. En tant qu’administrateur, définissez un processus de gouvernance des applications qui concilie les exigences très variées des utilisateurs finaux en matière d’applications et les limitations des stratégies informatiques internes, des normes et des profils de risque.
+Teams Store fournit de nombreuses applications utiles créées par des éditeurs de logiciels tiers et des développeurs, en plus des applications fournies par Microsoft. Pour les utiliser, en tant qu’administrateur, vous définissez un processus de gouvernance des applications qui équilibre les exigences étendues des utilisateurs finaux avec les stratégies informatiques, les normes et les profils de risque de votre organisation. Bien que ces applications soient créées par des fournisseurs tiers, Microsoft effectue une validation rigoureuse des fonctionnalités, de la facilité d’utilisation et de la sécurité de ces applications. Ce n’est qu’après la validation que Microsoft rend les applications disponibles dans Teams Store. Pour que les utilisateurs finaux bénéficient de l’écosystème d’applications enrichi, la gouvernance des applications par les administrateurs est une étape clé.
 
 Les applications tierces dans Microsoft Teams ne sont pas contrôlées ou détenues par Microsoft et ne sont pas régies par le Contrat d’abonnement Microsoft Online. L’utilisation par votre organisation de chaque application tierce est soumise aux conditions générales et à la déclaration de confidentialité de cette application. Le Centre d’administration Microsoft Teams vous permet de vérifier toutes les autorisations d’une application, les déclarations de confidentialité et les conditions d’utilisation avant d’autoriser son utilisation. Comme toujours, vous pouvez autoriser l’utilisation d’une application pour quelques utilisateurs spécifiques ou tous les utilisateurs. Pour les applications tierces, comme pour les applications personnalisées, Microsoft Teams permet aux administrateurs d’autoriser, d’interdire, de régir et d’analyser l’utilisation des applications.
 

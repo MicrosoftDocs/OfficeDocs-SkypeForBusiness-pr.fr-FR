@@ -1,6 +1,6 @@
 ---
 title: Personnaliser votre magasin d’applications dans Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.reviewer: prem
@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment personnaliser le magasin d’applications Teams de votre organisation en ajoutant un logo, des arrière-plans personnalisés et des couleurs de texte personnalisées.
-ms.openlocfilehash: 5982b3e1e1a6145b9617fb899e7941b7f31a22e9
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 4d26ba44fa9c9618476f7afdc7a59d7a4afd66ca
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397035"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486959"
 ---
 # <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>Personnaliser le magasin d’applications de votre organisation dans Microsoft Teams
 
@@ -36,23 +36,11 @@ Vous pouvez accéder au magasin personnalisé dans le Centre d’administration 
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Ici, vous pouvez charger le logo de votre organisation. Le logo sélectionné s’affiche dans le client Teams dans la page **Applications** > **Créé pour votre locataire** .
+Ici, vous pouvez charger le logo de votre organisation. Le logo sélectionné s’affiche dans le client Teams dans la page **Applications** > **conçues pour votre organisation** .
 
 Lorsque vous sélectionnez l’option **Choisir une image**, vous pouvez charger le fichier de votre choix. Le logo doit être de 240 x 60, ou il sera redimensionné à cette taille. Il ne doit pas dépasser 5 Mo. Les formats pris en charge sont .svg, .png et .jpg.
 
 Le logo s’affiche dans le coin supérieur droit du catalogue d’applications client dans le magasin Teams.
-
-## <a name="customize-your-small-logo"></a>Personnaliser votre petit logo
-
-<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-<a name="orglogomark"> </a>
-<!-- Do not remove the bookmark link above. -->
-
-La marque du logo ou le petit logo de votre organisation est une image ou un symbole qui représente la marque de votre organisation et n’inclut pas le nom de votre entreprise. La lovemark aide les membres de l’équipe à identifier le magasin d’applications. Le logo sélectionné s’affiche dans le client Teams dans la page Applications.
-
-Sélectionnez l’option **Choisir une image** et chargez un fichier de votre choix. Maintenez la résolution de la marque du logo à 32 x 32 pixels ou elle sera sous-échantillonnée à cette résolution. Conservez une taille de fichier inférieure à 5 Mo. Les formats pris en charge sont .svg, .png et .jpg.
-
-Teams Store affiche le logo à côté de la section **Construit pour votre client**.
 
 ## <a name="customize-the-background-color"></a>Personnaliser la couleur d’arrière-plan
 
@@ -60,7 +48,7 @@ Teams Store affiche le logo à côté de la section **Construit pour votre clien
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Assurez-vous que l’arrière-plan est suffisamment contrasté avec le texte pour que les utilisateurs puissent lire le texte clairement. L’arrière-plan s’affiche dans le client Teams dans **Applications** > **Créé pour votre en-tête client**.
+Assurez-vous que l’arrière-plan est suffisamment contrasté avec le texte pour que les utilisateurs puissent lire le texte clairement. L’arrière-plan s’affiche dans le client Teams dans **Applications** > **conçues pour l’en-tête de votre organisation** .
 
 Vous disposez des options suivantes :
 
@@ -76,7 +64,7 @@ L’image ou la couleur d’arrière-plan est utilisée comme arrière-plan de l
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Fournissez un contraste suffisant par rapport à l’arrière plan pour que les utilisateurs finaux puissent lire clairement le nom de votre organisation. Le texte s’affiche dans le client Teams dans **Applications** > **Créé pour votre en-tête client**.
+Fournissez un contraste suffisant par rapport à l’arrière plan pour que les utilisateurs finaux puissent lire clairement le nom de votre organisation. Le texte s’affiche dans le client Teams dans **Les applications** > **conçues pour l’en-tête de votre organisation** .
 
 Lorsque vous sélectionnez **Choisir une couleur personnalisée**, un sélecteur de couleurs s’ouvre. Sélectionnez la couleur souhaitée en ajustant l’échelle du sélecteur de couleurs.
 
