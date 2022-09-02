@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5865494b94c280295d13e0f99303bc76d1fc274
-ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
-ms.translationtype: HT
+ms.openlocfilehash: e090c465b46370367d96a782e12f38161465ce33
+ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65249006"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572084"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Utilisez le cryptage de bout en bout pour les appels Microsoft Teams entre particuliers.
 
@@ -34,6 +34,8 @@ ms.locfileid: "65249006"
 Le chiffrement de bout en bout, ou E2EE, se produit lorsque le contenu est chiffré avant d’être envoyé et déchiffré uniquement par le destinataire prévu. Avec le chiffrement de bout en bout, seuls les deux systèmes de point de terminaison sont impliqués dans le chiffrement et le déchiffrement des données d’appel. Aucun tiers, y compris Microsoft, n’a accès à la conversation déchiffrée.
 
 Avec E2EE pour les appels individuels non programmés, seul le flux média en temps réel, c'est-à-dire les données vidéo et vocales, pour les appels individuels des équipes, est crypté de bout en bout. Les deux parties doivent activer ce paramètre pour activer le chiffrement de bout en bout. [Le chiffrement Microsoft 365](/microsoft-365/compliance/encryption) protège les conversations, le partage de fichiers, la présence et tout autre contenu dans l’appel.
+
+Les appels chiffrés de bout en bout peuvent être effectués entre deux parties quand : les parties utilisent la dernière version du client de bureau Teams pour Windows ou Mac, sur un appareil mobile avec la dernière mise à jour pour iOS et Android, ou sur un salles Teams sur un appareil Windows à l’aide de la dernière mise à jour.
 
 Si vous n’activez pas le chiffrement de bout en bout, Teams protège toujours un appel ou une réunion à l’aide du chiffrement basé sur les normes du secteur d’activité. Les données échangées pendant les appels sont toujours sécurisées pendant le transport et au repos. Pour plus d’informations, voir [Chiffrement des médias pour Teams](teams-security-guide.md#media-encryption).
 
