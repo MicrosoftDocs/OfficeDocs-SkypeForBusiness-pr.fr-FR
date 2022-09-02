@@ -1503,6 +1503,8 @@ items:
         href: deploy-apps-microsoft-teams-landing-page.md
       - name: Gérer les applications fournies par Microsoft
         items:
+          - name: Gérer l’application Administration
+            href: manage-admin-app.md
           - name: Gérer l’application Shifts
             href: bookings-app-admin.md
           - name: Gérer l’application Listes
