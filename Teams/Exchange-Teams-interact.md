@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c94b1c7f33de136eea33ec7905e1e37a9ceb0e2
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: 6b3251160c0ce44b02fffe4ff50c078a529c5d00
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713362"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590201"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams
 
@@ -86,7 +86,7 @@ Microsoft Teams est compatible avec plusieurs services Microsoft 365 et Office
 - La création de groupe Microsoft 365 doit être activée pour permettre aux utilisateurs de créer des équipes dans Microsoft Teams.
 
   > [!IMPORTANT]
-  > Si vous désinstallez le client Skype Entreprise après qu'un utilisateur a été déplacé en mode **Teams uniquement**, la présence peut cesser de fonctionner dans Outlook et d’autres applications Office. La présence fonctionne correctement dans Teams. Pour résoudre ce problème, sélectionnez votre photo de profil dans le coin supérieur droit de Microsoft Teams, puis **Paramètres**. Sur l’onglet **Général** sous **Application**, sélectionnez **Enregistrer Teams comme application de conversation pour Office (redémarrage des applications Office requis)**. Après la section de cette option, fermez puis rouvrez toutes les applications Office, y compris Outlook. Une fois Outlook ouvert, les informations de présence sont disponible.
+  > Si vous désinstallez le client Skype Entreprise après qu'un utilisateur a été déplacé en mode **Teams uniquement**, la présence peut cesser de fonctionner dans Outlook et d’autres applications Office. La présence fonctionne correctement dans Teams. Pour résoudre ce problème, sélectionnez le bouton de sélection à gauche de votre image de profil dans le coin supérieur droit de Microsoft Teams, puis sélectionnez **Paramètres**. Sur l’onglet **Général** sous **Application**, sélectionnez **Enregistrer Teams comme application de conversation pour Office (redémarrage des applications Office requis)**. Après la section de cette option, fermez puis rouvrez toutes les applications Office, y compris Outlook. Une fois Outlook ouvert, les informations de présence sont disponible.
 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>Conditions préalables pour créer et afficher les réunions pour les boîtes aux lettres hébergées localement
 

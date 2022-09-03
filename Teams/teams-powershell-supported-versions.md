@@ -12,16 +12,16 @@ ms.collection:
 description: Découvrez les versions prises en charge du module Teams PowerShell, utilisées pour l’administration de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ae244a16e934b70085b2193bee3ef21a277f7ed
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: d28e16c248957518ca16eb3eff7e082ebe6bd9bd
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397285"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590321"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Module PowerShell Teams - Versions prises en charge
 
-Les versions du module PowerShell Microsoft Teams (TPM) de la série 4.x.x ou ultérieures sont les seules versions prises en charge à l’heure actuelle. Toutes les versions antérieures sont entièrement mises hors service depuis le 15 juin 2022 & cesseront de fonctionner (billet du Centre de messages pour référence - MC350371). 
+Les versions du module PowerShell Microsoft Teams (TPM) de la série 4.x.x ou ultérieures sont les seules versions prises en charge à l’heure actuelle. Toutes les versions antérieures sont entièrement mises hors service dans les environnements commerciaux depuis le 15 juin 2022 & cesseront de fonctionner (billet du Centre de messages pour référence - MC350371). 
 
 Il est recommandé de mettre à jour vers la dernière version du module Teams PowerShell.
 

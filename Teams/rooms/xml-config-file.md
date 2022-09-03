@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Gestion à distance des paramètres par défaut utilisés par un appareil Salles Microsoft Teams, notamment l’application d’un thème personnalisé et la création d’un fichier de paramètres maîtres.
-ms.openlocfilehash: df9cc718ddcedb9745807dadd70c8e1a78748c6f
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 74ae005ceae3c17d64403990eda067e3d8bd7cfc
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272099"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590161"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gérer à distance les paramètres d’une console Salles Microsoft Teams avec un fichier de configuration XML
 
@@ -52,7 +52,7 @@ N’importe quel éditeur de texte peut être utilisé pour créer un fichier de
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <SfbMeetingEnabled>true</SfbMeetingEnabled>
   <IsTeamsDefaultClient>true</IsTeamsDefaultClient>
-  <WebexMeetingsEnabled>true</WebexMeetingsEnabled>
+  <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
   <ZoomMeetingsEnabled>true</ZoomMeetingsEnabled>
   <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
   <CustomDisplayNameForThirdPartyMeetings>guestname</CustomDisplayNameForThirdPartyMeetings>
@@ -106,6 +106,8 @@ N’importe quel éditeur de texte peut être utilisé pour créer un fichier de
       <ExtendedFoRDisplayResolution>1920,1080</ExtendedFoRDisplayResolution> 
       <ExtendedFoRDisplayScaling>100</ExtendedFoRDisplayScaling> 
   </ExtendedFoRDisplay>  
+  <EnableDeviceEndToEndEncryption>false</EnableDeviceEndToEndEncryption>
+  <SplitVideoLayoutsDisabled>false</SplitVideoLayoutsDisabled>
 </SkypeSettings>
 ```
 
@@ -169,12 +171,14 @@ Si une valeur de variable est de type incorrect, que les éléments sont dans l�
 | `<Video>`                                   | &#x2777; booléenne            |                | Contrôle la configuration vidéo sur un appareil salles Teams. Cet élément a deux attributs :<br><ul><li><b>Par défaut</b> Détermine sur quel appareil la caméra sera active au démarrage d’une réunion. Pour une expérience optimale, nous vous recommandons de définir `true` uniquement le salles Teams appareil, tandis que tous les autres appareils sont définis `false`sur .</li><li><b>Activé</b> Détermine si les participants à une réunion peuvent activer ou désactiver la caméra. Vous pouvez définir cette `true` option sur tous les autres appareils de l’événement que les participants souhaitent partager différentes perspectives vidéo (par exemple, si un participant utilise le tableau blanc Surface Hub). Si vous ne souhaitez pas que les participants activent ou désactivent une caméra sur un appareil, définissez cette `false`option sur .<p> Si la **valeur par défaut** de la vidéo est définie `true`, le paramètre **Vidéo activé** est ignoré et les participants peuvent activer ou désactiver la caméra.</li></ul> |
 | `<Whiteboard>`                              | &#x2777; booléenne            |                | Contrôle la configuration du tableau blanc sur un appareil salles Teams. Cet élément a deux attributs :<br><ul><li><b>Par défaut</b> Détermine sur quel appareil le tableau blanc sera actif au démarrage d’une réunion. Pour une expérience optimale, nous vous recommandons de définir `false` l’appareil salles Teams et d’utiliser le tableau blanc sur un Surface Hub.</li><li><b>Activé</b> Détermine si les participants à une réunion peuvent activer ou désactiver le tableau blanc. Si vous ne souhaitez pas que les participants activent ou désactivent le tableau blanc sur un appareil, définissez cette `false`option sur .<p> Si la **valeur par défaut du tableau** blanc est définie `true`sur , le paramètre Tableau **blanc activé** est ignoré et les participants peuvent activer ou désactiver le tableau blanc.</li></ul>                                                                                                                                                   |
 | `<EnableResolutionAndScalingSetting>` | &#x2777; booléenne | Première &#x2776; | Par défaut, il est désactivé. Si vous souhaitez modifier la résolution et la mise à l’échelle de votre Front of Room, définissez-la sur true. Si la valeur est true, la résolution d’affichage et le paramètre de mise à l’échelle sont appliqués. Ce paramètre affecte à la fois le foR principal et le foR étendu une fois ce paramètre activé. |
-| `<MainFoRDisplay>` | Conteneur | | Utilisez ce conteneur si votre appareil utilise le mode d’affichage unique.<br><br>En mode double affichage, le front principal de la salle (FoR) est un écran avec horloge (hors réunion) et vidéo en auto-aperçu (en réunion). `<MainFoRDisplayResolution>` et `<MainFoRDisplayScaling>` doivent être ensemble à la fois. Si vous utilisez uniquement l’un `<MainFoRDisplayResolution>` ou l’autre, `<MainFoRDisplayScaling>`il sera ignoré. |
+| `<MainFoRDisplay>` | Conteneur |Première &#x2776; | Utilisez ce conteneur si votre appareil utilise le mode d’affichage unique.<br><br>En mode double affichage, le front principal de la salle (FoR) est un écran avec horloge (hors réunion) et vidéo en auto-aperçu (en réunion). `<MainFoRDisplayResolution>` et `<MainFoRDisplayScaling>` doivent être ensemble à la fois. Si vous utilisez uniquement l’un `<MainFoRDisplayResolution>` ou l’autre, `<MainFoRDisplayScaling>`il sera ignoré. |
 | `<MainFoRDisplayResolution>` | String | | Valeur numérique d’entrée largeur, hauteur (par exemple, 1920 1080). Elle sera ignorée si votre instance foR ne la prend pas en charge.|
 | `<MainFoRDisplayScaling>` | Numéro | | Valeur numérique d’entrée de la mise à l’échelle. Les valeurs valides sont 100 (recommandé), 125, 150, 175, 200, 225, 250, 300, 350, 400, 450 et 500. Si vous entrez 500 et que votre foR prend en charge jusqu’à 300, il est défini sur 300.|
-| `<ExtendedFoRDisplay>` | Conteneur | | En mode double affichage, l’écran Front of Room (FoR) étendu est un écran dans lequel vous voyez du contenu partagé (en réunion).  `<ExtendedFoRDisplayResolution>` et `<ExtendedFoRDisplayScaling>` doivent être ensemble à la fois. Si vous utilisez uniquement l’un `<ExtendedFoRDisplayResolution>` ou l’autre, `<ExtendedFoRDisplayScaling>`il sera ignoré. |
+| `<ExtendedFoRDisplay>` | Conteneur |Première &#x2776;| En mode double affichage, l’écran Front of Room (FoR) étendu est un écran dans lequel vous voyez du contenu partagé (en réunion).  `<ExtendedFoRDisplayResolution>` et `<ExtendedFoRDisplayScaling>` doivent être ensemble à la fois. Si vous utilisez uniquement l’un `<ExtendedFoRDisplayResolution>` ou l’autre, `<ExtendedFoRDisplayScaling>`il sera ignoré. |
 | `<ExtendedFoRDisplayResolution>` | String | |Valeur numérique d’entrée width, height (par exemple : 1920,1080). Une valeur est ignorée si votre instance foR ne la prend pas en charge. |
 | `<ExtendedFoRDisplayScaling>` | Numéro | | Valeur numérique d’entrée de la mise à l’échelle. Les valeurs valides sont 100 (recommandé), 125, 150, 175, 200, 225, 250, 300, 350, 400, 450 et 500. Si vous entrez 500 et que votre foR prend en charge jusqu’à 300, il est défini sur 300. |
+| `<EnableDeviceEndToEndEncryption>` | &#x2777; booléenne | | La valeur par défaut est `false`. Spécifiez `true` pour activer le chiffrement de bout en bout pour les appels Teams un-à-un. Le chiffrement de bout en bout doit être activé pour que cela fonctionne à la fois pour l’appelant et le destinataire. |
+| `<SplitVideoLayoutsDisabled>` |  &#x2777; booléenne | | La valeur par défaut est `false`. Ce paramètre s’applique uniquement aux salles double affichage. Spécifiez `true` pour désactiver le fractionnement de la galerie vidéo sur les deux écrans. Cela désactive également la disposition de la ligne frontale et tous les paramètres associés à la disposition de la ligne avant. |
 
 &#x2776; Tous les éléments de premier niveau sont facultatifs. Si un élément du premier niveau est omis, tous ses paramètres enfants restent inchangés sur l';appareil.
   

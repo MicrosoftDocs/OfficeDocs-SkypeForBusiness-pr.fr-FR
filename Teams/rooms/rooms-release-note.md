@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Administration pouvez lire les notes de publication de Salles Microsoft Teams, qui répertorient les améliorations cumulatives apportées à Salles Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9460694aec7a6b7f7c7f1648d8f9512ded4c01f7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d6cb8e8e01490f4c150ab77c1f4e6d896e6a2bce
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270079"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590181"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notes de publication pour Salles Microsoft Teams
 
@@ -40,6 +40,7 @@ salles Teams est régie par la politique de cycle de vie moderne. Pour plus d’
 
 |Libération |Publié sur <br/> Microsoft Store |
 |--- |--- |
+|4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
@@ -94,6 +95,19 @@ salles Teams est régie par la politique de cycle de vie moderne. Pour plus d’
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salles Microsoft Teams présentation des fonctionnalités et résolution des problèmes
+
+### <a name="414240-922022"></a>4.14.24.0 (9/2/2022)
+
+Introduit dans cette mise à jour :
+
+- Mise à jour <sup>1</sup> de l’expérience de disposition des lignes frontales 
+- Épingler et masquer la vidéo de la salle <sup>1</sup> 
+- Configuration de l’administrateur pour désactiver la galerie fractionnée en double affichage salles Teams <sup>1</sup>
+- Les salles Teams à double affichage peuvent désormais afficher jusqu’à 18 flux vidéo participant <sup>2</sup>
+
+<sup>1</sup> La configuration de l’administrateur pour désactiver la galerie fractionnée via XML se trouve dans [Gérer les paramètres d’une console Salles Microsoft Teams à distance avec un fichier de configuration XML](../rooms/xml-config-file.md).
+
+<sup>2</sup> Cette fonctionnalité est déployée sur le client web Teams et prendra environ deux semaines. Pour plus d’informations, consultez [les mises à jour teams](../teams-client-update.md).
 
 ### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
 
