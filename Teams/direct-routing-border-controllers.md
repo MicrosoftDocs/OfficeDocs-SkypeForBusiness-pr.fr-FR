@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez quels contrôleurs de frontière de session (SBC) ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15363373b2959007cb2883b6d63ee70520df1846
-ms.sourcegitcommit: a28b193d695402b37a53ffd0406568774801ef6c
+ms.openlocfilehash: acca97643340e59150ec1a81cf856c8c444155a8
+ms.sourcegitcommit: 8005e7953fcb6dcc78ba406925aeaaa49f08d3d9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2022
-ms.locfileid: "67347289"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67609432"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -103,7 +103,7 @@ Veuillez noter que nous n'acceptons pas de nouvelles nominations pour la certifi
 |[Technologies M5 (anciennement Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|Série Mediatrix Sentinel|&#10004;||DGW 48.0.2340 (DGW recommandé 48.1.2503)|||
 |[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller (ONeSBC)|&#10004;|&#10004;|Prise en charge 6.6.1m5ha1 (recommandé 6.8.x)|||
 ||Ekinops Virtual Session Border Controller (ONEvSBC)|&#10004;|&#10004;|Prise en charge 6.6.1m5ha1 (recommandé 6.8.x)|||
-|[46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|Voix hyperconvergée|&#10004;|&#10004;|HCVoice 1.0.6|||
+|[46 Labs LLC](https://46labs.atlassian.net/wiki/spaces/peeredge/pages/61603842/Microsoft+Teams+Implementation+Guide+v1.0)|Voix hyperconvergée|&#10004;|&#10004;|HCVoice 1.0.6|||
 |[Frafos](https://www.frafos.com/ms-teams-abc-sbc)|ABC SBC|&#10004;||4.6|||
 
 <br/>

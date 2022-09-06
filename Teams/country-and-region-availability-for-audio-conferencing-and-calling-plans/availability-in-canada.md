@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Canada.
-ms.openlocfilehash: c8648fc1eda7bdcc38b87611d11ec5263a89dfb8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 4559208fdd651b586af8b2005f901071cb5c4030
+ms.sourcegitcommit: 8005e7953fcb6dcc78ba406925aeaaa49f08d3d9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270509"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67609422"
 ---
 # <a name="availability-in-canada"></a>Disponibilité au Canada
 
@@ -60,7 +60,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 | **Fonctionnalité**                                        | **Détails**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  |Oui          |   
-|Minutes disponibles pour les forfaits d'appels.    |Cinq options de plan sont disponibles par mois calendaire : <ul><li>Forfait d’appels avec paiement à l’utilisation </li><li> Forfait d’appels nationaux de 120 minutes </li><li> Forfait d’appels nationaux de 240 minutes </li><li> Forfait d’appels nationaux de 1200 minutes </li><li> Forfait d’appels internationaux : 1 200 minutes d’appels nationaux ou 600 minutes d’appels internationaux (selon le premier jour du mois calendaire)</li></ul>|
+|Minutes disponibles pour les forfaits d'appels.    |Cinq options de plan sont disponibles par mois calendaire : <ul><li>Forfait d’appels avec paiement à l’utilisation </li><li> Forfait d’appels nationaux de 120 minutes </li><li> Forfait d’appels nationaux de 240 minutes </li><li> Forfait d’appels nationaux de 3 000 minutes </li><li> Forfait d’appels internationaux : 3 000 minutes d’appels nationaux ou 600 minutes d’appels internationaux (selon ce qui est atteint en premier dans le mois calendaire)</li></ul>|
 | Est-il possible de passer des appels sortants vers les numéros premium ?  <br/> | Ceci n’est pas pris en charge pour le moment.<br/>                                                                                                                                                                                                                                            |
 | Est-il possible de passer des appels sortants ?  <br/>                 | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                  |
 
@@ -88,7 +88,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

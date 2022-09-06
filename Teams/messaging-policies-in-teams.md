@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Découvrez les stratégies de messagerie et la façon dont elles peuvent être utilisées pour contrôler la messagerie de conversation dans Teams.
-ms.openlocfilehash: 1975262b6fdd404d9314c3644ebba79b6cb5bd9a
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 2b428f39624ce7e6fb82815c7cbba3872b2113c2
+ms.sourcegitcommit: 8005e7953fcb6dcc78ba406925aeaaa49f08d3d9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396515"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67609442"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
@@ -80,9 +80,8 @@ Voici les paramètres de stratégie de messagerie que vous pouvez configurer.
 
 - **Les propriétaires peuvent supprimer les messages envoyés**  Utilisez ce paramètre pour permettre aux propriétaires de supprimer les messages de canal ou les publications envoyés par les utilisateurs.
 - **Supprimer les messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de supprimer les messages qu’ils ont envoyés dans la conversation.
-- **Supprimer la conversation** Utilisez ce paramètre pour permettre aux utilisateurs de supprimer les messages qu’ils ont envoyés dans la conversation.
 - **Modifier les messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de modifier les messages qu’ils ont envoyés dans la conversation.
-- **Lire les reçus** Les reçus de lecture permettent à l’expéditeur d’un message de conversation d’être averti lorsque son message a été lu par le destinataire dans 1:1 et de regrouper les conversations 20 personnes ou moins. Les accusés de réception de lecture de message suppriment de façon incertaine la lecture d’un message et améliorent la communication de l’équipe. Les reçus de lecture ne sont pas capturés dans les rapports eDiscovery.  
+- **Lire les reçus** Les reçus de lecture permettent à l’expéditeur d’un message de conversation d’être averti lorsque son message a été lu par le destinataire dans 1:1 et de regrouper les conversations 20 personnes ou moins. Les reçus de lecture de message suppriment l’incertitude quant à la lecture d’un message et améliorent la communication de l’équipe. Les reçus de lecture ne sont pas capturés dans les rapports eDiscovery.  
     - **Contrôlé par l’utilisateur** Cela signifie que les utilisateurs peuvent décider s’ils veulent des reçus de lecture activés ou désactivés. Le paramètre par défaut dans l’application est ACTIVÉ. Les utilisateurs peuvent ensuite la désactiver.
     - **Activé pour tout le monde** Cela signifie que tous les utilisateurs du locataire disposeront de la fonctionnalité activée sans possibilité de la désactiver. Lorsque vous utilisez le paramètre **Activé pour tout le monde** , la seule façon de définir des reçus pour l’ensemble du locataire consiste soit à n’avoir qu’une seule stratégie de messagerie pour l’ensemble du locataire (stratégie par défaut nommée « Global (Par défaut à l’échelle de l’organisation) ») ou à faire en sorte que toutes les stratégies de messagerie du locataire utilisent les mêmes paramètres pour les reçus. La fonctionnalité d’accusés de lecture est plus efficace lorsque la fonctionnalité est activée **Activé pour tout le monde**.
     - **Désactivé pour tout le monde** Cela signifie que la fonctionnalité est désactivée et que personne dans le locataire n’a de reçus de lecture et ne peut pas l’activer.
