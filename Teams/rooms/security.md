@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
 description: Découvrez comment sécuriser vos appareils Salles Microsoft Teams.
-ms.openlocfilehash: 4814bd5930bd311bf79fc749a1e736d1c3645165
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 231039324e15afb7b24f194623e54455d51e85c2
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270049"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606213"
 ---
 # <a name="microsoft-teams-rooms-security"></a>sécurité Salles Microsoft Teams
 
@@ -79,7 +79,7 @@ salles Teams appareils incluent un compte d’administration nommé « Administr
 Le compte Administration n’est pas requis pour le bon fonctionnement des appareils salles Teams et peut être renommé ou même supprimé. Toutefois, avant de supprimer le compte Administration, veillez à configurer un autre compte d’administrateur local configuré avant de supprimer celui fourni avec salles Teams appareils. Pour plus d’informations sur la modification d’un mot de passe pour un compte Windows local à l’aide d’outils Windows intégrés ou de PowerShell, consultez les rubriques suivantes :
 
 - [Modifier ou réinitialiser votre mot de passe Windows](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
-- [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser?view=powershell-5.1#example-2--change-the-password-on-an-account)
+- [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser#example-2--change-the-password-on-an-account)
 
 Vous pouvez également importer des comptes de domaine dans le groupe Administrateur Windows local. Vous pouvez le faire pour les comptes Azure AD à l’aide de Intune. Pour plus d’informations, consultez [CSP de stratégie – RestrictedGroups.](/windows/client-management/mdm/policy-csp-restrictedgroups)
 
@@ -101,12 +101,12 @@ Nous vous recommandons de créer le compte de ressource dans Azure AD, si possib
 
 En règle générale, salles Teams a les mêmes exigences réseau que n’importe quel client Microsoft Teams. L’accès par le biais de pare-feu et d’autres appareils de sécurité est le même pour salles Teams que pour tout autre client Microsoft Teams. Spécifiques à salles Teams, les catégories répertoriées comme « obligatoires » pour Teams doivent être ouvertes sur votre pare-feu. salles Teams a également besoin d’accéder à Windows Update, au Microsoft Store et à Microsoft Intune (si vous utilisez Microsoft Intune pour gérer vos appareils). Pour obtenir la liste complète des adresses IP et URL requises pour Salles Microsoft Teams, consultez :
 
-- [URL et plages d’adresses IP Office 365](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams) **Microsoft Teams**
+- [URL et plages d’adresses IP Office 365](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) **Microsoft Teams**
 - **Windows Update** [configurer WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
 -  [Prérequis du Microsoft Store pour l’Microsoft Store pour Entreprises et l’éducation](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
 - **points de terminaison réseau Microsoft Intune** [pour Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
-Si vous utilisez le composant de services managés Salles Microsoft Teams de Salles Microsoft Teams Premium, vous devez également vous assurer que salles Teams pouvez accéder aux URL suivantes :
+Si vous utilisez le composant de services managés Salles Microsoft Teams de Salles Microsoft Teams Pro, vous devez également vous assurer que salles Teams pouvez accéder aux URL suivantes :
 
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
@@ -120,11 +120,13 @@ Si vous utilisez le composant de services managés Salles Microsoft Teams de Sal
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
 
-salles Teams est configuré pour se maintenir automatiquement corrigé avec les dernières mises à jour windows, y compris les mises à jour de sécurité. salles Teams installe toutes les mises à jour en attente tous les jours à partir de 2h00 à l’aide d’une stratégie locale prédéfinie. Il n’est pas nécessaire d’utiliser des outils supplémentaires pour déployer et appliquer Windows Mises à jour. L’utilisation d’outils supplémentaires pour déployer et appliquer des mises à jour peut retarder l’installation des correctifs Windows et entraîner un déploiement moins sécurisé. L’application salles Teams est déployée à l’aide du Microsoft Store. Si vos appareils disposent d’une licence avec Salles Microsoft Teams Standard, toutes les nouvelles versions de l’application sont automatiquement installées pendant le processus de mise à jour corrective nocturne. Si vos appareils disposent d’une licence avec Salles Microsoft Teams Premium et qu’ils sont inscrits auprès de Microsoft Managed Service, de nouvelles versions de l’application salles Teams sont installées conformément à votre plan de déploiement défini.
+salles Teams est configuré pour se maintenir automatiquement corrigé avec les dernières mises à jour windows, y compris les mises à jour de sécurité. salles Teams installe toutes les mises à jour en attente tous les jours à partir de 2h00 à l’aide d’une stratégie locale prédéfinie. Il n’est pas nécessaire d’utiliser des outils supplémentaires pour déployer et appliquer Windows Mises à jour. L’utilisation d’outils supplémentaires pour déployer et appliquer des mises à jour peut retarder l’installation des correctifs Windows et entraîner un déploiement moins sécurisé. L’application salles Teams est déployée à l’aide du Microsoft Store.
+
+<!-- LICENSE-REVIEW If your devices are licensed with Microsoft Teams Rooms Standard, any new versions of the app are automatically installed during the nightly patching process. If your devices are licensed with Microsoft Teams Rooms Premium and enrolled in the Microsoft Managed Service, new versions of the Teams Rooms app are installed per your defined rollout plan. -->
 
 salles Teams appareils fonctionnent avec la plupart des protocoles de sécurité 802.1X ou d’autres protocoles de sécurité réseau. Toutefois, nous ne pouvons pas tester salles Teams par rapport à toutes les configurations de sécurité réseau possibles. Par conséquent, si des problèmes de performances peuvent être suivis de problèmes de performances réseau, vous devrez peut-être désactiver ces protocoles s’ils sont configurés dans votre organisation.
 
-Pour optimiser les performances des supports en temps réel, nous vous recommandons vivement de configurer le trafic multimédia Teams pour contourner les serveurs proxy et d’autres appareils de sécurité réseau. Les médias en temps réel sont très sensibles à la latence et les serveurs proxy et les périphériques de sécurité réseau peuvent dégrader considérablement la qualité vidéo et audio des utilisateurs. En outre, étant donné que les médias Teams sont déjà chiffrés, il n’y a aucun avantage tangible à passer le trafic via un serveur proxy. Pour plus d’informations, consultez [Mise en réseau (vers le cloud) : point de vue d’un architecte](/microsoft-365/solutions/networking-design-principles?view=o365-worldwide) qui traite des recommandations réseau pour améliorer les performances des médias avec Microsoft Teams et Salles Microsoft Teams.
+Pour optimiser les performances des supports en temps réel, nous vous recommandons vivement de configurer le trafic multimédia Teams pour contourner les serveurs proxy et d’autres appareils de sécurité réseau. Les médias en temps réel sont très sensibles à la latence et les serveurs proxy et les périphériques de sécurité réseau peuvent dégrader considérablement la qualité vidéo et audio des utilisateurs. En outre, étant donné que les médias Teams sont déjà chiffrés, il n’y a aucun avantage tangible à passer le trafic via un serveur proxy. Pour plus d’informations, consultez [Mise en réseau (vers le cloud) : point de vue d’un architecte](/microsoft-365/solutions/networking-design-principles) qui traite des recommandations réseau pour améliorer les performances des médias avec Microsoft Teams et Salles Microsoft Teams.
 
 > [!IMPORTANT]
 > salles Teams ne prend pas en charge les serveurs proxy authentifiés.

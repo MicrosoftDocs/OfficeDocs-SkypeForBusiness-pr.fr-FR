@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Cet article fournit une vue d’ensemble des fonctionnalités prises en charge par les panneaux Microsoft Teams.
-ms.openlocfilehash: 745e592e1c8451a47038c33a9f30d29a7a99d63c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d31ac86be9ac00b7aa8a77e37a906b32a00a2095
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268559"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606733"
 ---
 # <a name="microsoft-teams-panels"></a>Panneaux Microsoft Teams
 
@@ -54,7 +54,7 @@ La configuration matérielle, logicielle et réseau requise pour déployer des a
 
 ## <a name="license-requirement"></a>Condition requise pour la licence
 
-Pour utiliser des panneaux Teams, vous avez besoin [d’une licence Salles Microsoft Teams Standard](../rooms/rooms-licensing.md).
+Pour utiliser des panneaux Teams, vous avez besoin d’une [licence Salles Microsoft Teams](../rooms/rooms-licensing.md).
 
 > [!Note]
 > Si vous avez déjà Salles Microsoft Teams déployé dans l’espace de réunion où vous installez des panneaux Teams, vous n’avez pas besoin d’une licence supplémentaire pour utiliser les panneaux Teams.
@@ -103,11 +103,12 @@ La planification de la configuration et du déploiement couvre les domaines clé
 
 Chaque appareil de panneaux Teams nécessite un compte de ressource de salle Microsoft 365. Vous utilisez les informations d’identification du compte de ressource pour vous connecter à l’application Microsoft Teams sur l’appareil panneaux.
 
-Pour configurer un compte de ressource Microsoft 365 pour les panneaux Teams, nous vous recommandons d’acheter une [licence Salles Microsoft Teams Standard](#license-requirement). Pour plus d’informations sur la création d’un compte de ressource et l’attribution d’une licence, consultez [Créer des comptes de ressources pour les salles et les appareils Teams partagés](../rooms/with-office-365.md).
+Pour configurer un compte de ressource Microsoft 365 pour les panneaux Teams, vous devez acheter une [licence Salles Microsoft Teams](#license-requirement).
+Pour plus d’informations sur la création d’un compte de ressource et l’attribution d’une licence, consultez [Créer des comptes de ressources pour les salles et les appareils Teams partagés](../rooms/with-office-365.md).
 
 > [!NOTE]
 >
->- Si vous disposez déjà d’un compte de ressource de salle configuré pour l’espace de réunion où vous installez des panneaux, utilisez le même compte de ressource de salle pour vous connecter à l’appareil de panneaux. Toutefois, assurez-vous que le compte de ressource de salle dispose de la licence Salles Microsoft Teams Standard qui lui est attribuée afin de l’utiliser comme compte de ressource de panneaux.
+>- Si vous disposez déjà d’un compte de ressource de salle configuré pour l’espace de réunion où vous installez des panneaux, utilisez le même compte de ressource de salle pour vous connecter à l’appareil de panneaux. Toutefois, assurez-vous que le compte de ressource de salle dispose d’une licence Salles Microsoft Teams qui lui est attribuée afin de l’utiliser comme compte de ressource de panneaux.
 >
 >- Si vous disposez déjà d’un Salles Microsoft Teams déployé dans l’espace de réunion où vous installez des panneaux Teams, vous n’avez pas besoin d’acheter une licence distincte pour déployer des panneaux. L’administrateur se connecte à l’appareil de panneaux avec les mêmes informations d’identification que le Salles Microsoft Teams pour le même espace.
 >

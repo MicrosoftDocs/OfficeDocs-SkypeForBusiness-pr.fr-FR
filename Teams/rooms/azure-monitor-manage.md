@@ -16,16 +16,18 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Cet article explique comment surveiller Salles Microsoft Teams appareils de manière intégrée à l’aide d’Azure Monitor.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2f0878e7553e2d151f781c3f522a9b533b4b56d8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 53cc9c571657591c43aa35944802fd02dcf6bd4c
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268969"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606403"
 ---
 # <a name="monitor-microsoft-teams-rooms-devices-with-azure-monitor"></a>Surveiller les appareils Salles Microsoft Teams avec Azure Monitor
 
 Cet article explique comment surveiller les Salles Microsoft Teams de manière intégrée à l’aide d’Azure Monitor.
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 Vous pouvez configurer Azure Monitor pour fournir des données de télémétrie de base pour vous aider à surveiller les appareils des salles de réunion Microsoft Teams. Pour plus d’informations, consultez [Plan Salles Microsoft Teams management with Azure Monitor](azure-monitor-plan.md) et [Deploy Salles Microsoft Teams management with Azure Monitor](azure-monitor-deploy.md). À mesure que votre solution de supervision évolue, vous pouvez utiliser d’autres fonctionnalités de données et de surveillance pour créer une vue plus détaillée des performances des appareils.
 
@@ -45,7 +47,7 @@ Comprendre ces descriptions d'événements vous permet d'être rapidement inform
 | 3001  <br> Événement d’erreur  | Il s'agit d'un événement d'erreur de matériel. L’application Salles Microsoft Teams a un processus qui vérifie l’intégrité des composants matériels connectés (devant de la pièce, microphone, haut-parleur, caméra) toutes les 5 minutes. Si un ou plusieurs des composants ne sont pas sains, il écrit EventID 3001 dans le journal des événements. Cet événement est écrit toutes les 5 minutes jusqu’à ce que le problème avec l’appareil soit résolu.   | `{"Description":" Front of Room Display status : Unhealthy. Configured display count is 2. Real display count is 0. Conference Microphone status : Unhealthy. Conference Speaker status : Healthy. Default Speaker status : Healthy. Camera status : Healthy.", "ResourceState":"Unhealthy", "OperationName":"HardwareCheckEngine", "OperationResult":"Fail", "OS":"Windows 10", "OSVersion":"10.0.14393.1198", "Alias":"alias<span></span>@contoso.com", "DisplayName":"Yosemite conference room", "AppVersion":"2.0.58.0", "IPv4Address":"10.10.10.10", "IPv6Address":"IPv6Address", "IPv4Address2":"10.10.10.10"}` <br><br>   Les périphériques matériels sont indiqués comme étant sains ou défectueux.  <br> Dans cet exemple, deux écrans _de salle_ sont configurés et aucun d’entre eux n’est actuellement disponible. _L’état du microphone de conférence_ est _défectueux_, ce qui peut avoir plusieurs causes possibles. Étant donné que la dernière ressource n'a pas réussi le contrôle, l'état de celle-ci est indiqué comme étant Défectueux. Envoyez un technicien pour examiner le problème de plus près. |
 | 4000  <br> Information  <br> | Il s'agit d'un événement de redémarrage de l'application. À chaque redémarrage de l'application, elle enregistre cet événement dans le journal des événements Windows.  <br> | `{"Description":"App restarts.", "ResourceState":"Healthy", "OperationName":"Restart", "OperationResult":"Pass", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@domain.com", "DisplayName":"Display Name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"}` <br><br> L’application peut redémarrer pour différentes raisons. Comparez la fréquence de redémarrage des appareils dans le même bâtiment et dans différents bâtiments. Gardez à l’esprit les problèmes connus tels que les fluctuations de puissance et les défaillances, car cela peut fournir des indices aux problèmes d’infrastructure.|
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
  
 
 [Planifier la surveillance Salles Microsoft Teams avec Azure Monitor](azure-monitor-plan.md)

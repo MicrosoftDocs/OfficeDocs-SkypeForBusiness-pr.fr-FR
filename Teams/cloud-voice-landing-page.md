@@ -24,12 +24,12 @@ search.appverid: MET150
 description: En savoir plus sur les fonctionnalités de voix cloud de Microsoft Teams et les décisions de déploiement que vous prendrez pour votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b1f4b0756e640d9b93e235b2724ce7841b4f44f
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 40f2a4f56b9d1c174696265300226263eb41a9de
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240823"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606063"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planifier votre solution vocale Teams
 
@@ -49,6 +49,7 @@ Toutefois, votre situation peut être plus complexe. Par exemple, vous pouvez av
 
 - Système téléphonique avec forfait d’appels
 - Système téléphonique avec votre propre opérateur RTC avec Operator Connect
+- Système téléphonique avec votre propre opérateur mobile RTC avec Fournisseur de connectivité mobile (préversion publique)
 - Système téléphonique avec votre propre opérateur RTC avec routage direct
 - Solution combinée qui utilise le système téléphonique avec forfait d’appels, le système téléphonique avec operator connect et/ou le système téléphonique avec routage direct
 
@@ -150,9 +151,12 @@ Le système téléphonique fournit des fonctionnalités PBX complètes pour votr
 
 - [**Système téléphonique avec forfait d’appels**](pstn-connectivity.md#phone-system-with-calling-plan). Une solution tout-dans-le-cloud avec Microsoft comme opérateur RTC.
 
-- [**Système téléphonique avec votre propre opérateur RTC à l’aide de Operator Connect**](operator-connect-plan.md). Avec Operator Connect, si votre opérateur existant participe au programme Microsoft Operator Connect, il peut gérer le service pour l’appel RTC à Teams. Pour plus d’informations sur les avantages et les exigences de Operator Connect, consultez [Plan Operator Connect](operator-connect-plan.md).
+- [**Système téléphonique avec votre propre opérateur RTC à l’aide de Operator Connect**](operator-connect-plan.md). Avec Operator Connect, si votre opérateur existant participe au programme Microsoft Operator Connect, il peut gérer le service pour l’appel RTC à Teams. 
+
+- [**Système téléphonique avec votre propre opérateur mobile RTC à l’aide de Fournisseur de connectivité mobile**](operator-connect-mobile-plan.md) **version d’évaluation publique**. Avec Fournisseur de connectivité mobile, si votre opérateur existant participe au programme Microsoft Fournisseur de connectivité mobile, il peut gérer le service pour l’utilisation de numéros de téléphone mobile compatibles SIM avec Teams. 
 
 - [**Système téléphonique avec votre propre opérateur RTC à l’aide du routage direct**](pstn-connectivity.md#phone-system-with-direct-routing) pour connecter votre environnement local à Teams.
+
 
 Vous pouvez choisir une combinaison d’options, ce qui vous permet de concevoir une solution pour un environnement complexe ou de gérer une migration en plusieurs étapes. Vous en apprendrez plus sur la migration ultérieurement.
 
@@ -176,9 +180,9 @@ Lors de la migration de votre solution vocale, il existe quatre scénarios d’a
 
 - **[Un utilisateur dans Skype Entreprise Online, avec des fonctionnalités vocales locales](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice) via Skype Entreprise édition locale ou Cloud Connector**. La mise à niveau de l’utilisateur vers Teams doit être coordonnée avec la migration de l’utilisateur vers le routage direct pour garantir que l’utilisateur TeamsOnly dispose des fonctionnalités RTC.
 
-- **[Utilisateur en Skype Entreprise local avec Voix Entreprise](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing), qui passera en ligne et conservera la connectivité RTC locale**. La migration de cet utilisateur vers Teams nécessite le déplacement du compte Skype Entreprise local de l’utilisateur vers le cloud et la coordination de ce déplacement avec la migration de l’utilisateur vers le routage direct. 
+- **[Utilisateur en Skype Entreprise local avec Téléphonie –  Grandes entreprises](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing), qui passera en ligne et conservera la connectivité RTC locale**. La migration de cet utilisateur vers Teams nécessite le déplacement du compte Skype Entreprise local de l’utilisateur vers le cloud et la coordination de ce déplacement avec la migration de l’utilisateur vers le routage direct. 
 
-- **[Un utilisateur dans Skype Entreprise local avec Voix Entreprise](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan), qui passera en ligne et utilisera un plan d’appel Microsoft**.  La migration de cet utilisateur vers Teams nécessite le déplacement du compte Skype Entreprise local de l’utilisateur vers le cloud, et la coordination de ce déplacement avec le port du numéro de téléphone de cet utilisateur vers un plan d’appel Microsoft ou B) en affectant un nouveau numéro d’abonné à partir des régions disponibles.
+- **[Un utilisateur dans Skype Entreprise local avec Téléphonie –  Grandes entreprises](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan), qui passera en ligne et utilisera un plan d’appel Microsoft**.  La migration de cet utilisateur vers Teams nécessite le déplacement du compte Skype Entreprise local de l’utilisateur vers le cloud, et la coordination de ce déplacement avec le port du numéro de téléphone de cet utilisateur vers un plan d’appel Microsoft ou B) en affectant un nouveau numéro d’abonné à partir des régions disponibles.
 
 Pour plus d’informations sur la façon d’implémenter votre migration vocale pour chacun de ces scénarios, consultez les articles suivants :
 

@@ -18,49 +18,49 @@ f1.keywords:
 - NOCSH
 description: Dans cet article, vous allez découvrir comment affecter ou modifier un emplacement d’urgence pour les utilisateurs de votre organisation.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 004635be112bb8d38b88277e89c24d263b21ec37
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: 2562661a08c98c15a24a5e7db6a0f31dee864573
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180897"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606603"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Affecter ou modifier un emplacement d’urgence pour un utilisateur
 
-Quelle que soit l’option de connectivité [RST que](pstn-connectivity.md) vous choisissez, choisissez les plans d’appel Microsoft, les Connecter d’opérateur ou le routage direct d’un emplacement d’urgence doivent être affectés à chaque numéro de téléphone &mdash; ou &mdash; utilisateur.
+Quelle que soit [l’option de connectivité RTC](pstn-connectivity.md), vous choisissez&mdash;Plans d’appel Microsoft, Opérateur Connect, Fournisseur de connectivité mobile (préversion publique) ou Routage&mdash;direct, un emplacement d’urgence doit être affecté à chaque numéro de téléphone ou utilisateur.
 
-Toutefois, en fonction de l’option de connectivité RSTN, la façon dont vous gérez et attribuez des emplacements d’urgence à un utilisateur peut varier. Pour plus d’informations, voir [Gérer les appels d’urgence.](what-are-emergency-locations-addresses-and-call-routing.md)
+Toutefois, selon votre option de connectivité RTC, la façon dont vous gérez et affectez des emplacements d’urgence pour un utilisateur peut varier. Pour plus d’informations, consultez [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md).
 
 Cet article explique comment affecter ou modifier un emplacement d’urgence pour un utilisateur. 
 
-Cet article s’applique aux forfaits d’appels et aux Connecter.
+Cet article s’applique aux forfaits d’appels, à Operator Connect et Fournisseur de connectivité mobile (préversion publique).
   
-Vous pouvez affecter ou modifier un emplacement d’urgence pour un utilisateur dans le centre d Microsoft Teams’administration ou à l’aide de PowerShell.
+Vous pouvez affecter ou modifier un emplacement d’urgence pour un utilisateur dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
-1. Dans le navigation gauche du Centre d Microsoft Teams' administration, cliquez sur **Les** numéros Téléphone  >  **voix.**
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, cliquez sur **les numéros de téléphone** **vocal** > .
 
-2. Dans la page **Téléphone nombres,** cliquez sur l’onglet Nombres, sélectionnez un numéro d’utilisateur dans la liste, puis cliquez sur  **Modifier.**
+2. Dans la page **Numéros de téléphone** , cliquez sur l’onglet **Nombres** , sélectionnez un numéro d’utilisateur dans la liste, puis cliquez sur **Modifier**.
 
-3. Dans le **volet Édition,** sous Emplacement **d’urgence,** faites l’une des opérations suivantes :
+3. Dans le volet **Modifier** , sous **Emplacement d’urgence**, effectuez l’une des opérations suivantes :
 
    - Pour affecter un emplacement d’urgence, recherchez et sélectionnez un emplacement d’urgence.
 
-   - Pour modifier l’emplacement d’urgence déjà attribué à l’utilisateur, cliquez sur **X** pour supprimer l’emplacement existant, puis recherchez et sélectionnez l’emplacement que vous voulez affecter.
+   - Pour modifier l’emplacement d’urgence déjà affecté à l’utilisateur, cliquez sur **X** pour supprimer l’emplacement existant, puis recherchez et sélectionnez l’emplacement que vous souhaitez attribuer.
 
-4. Selon que vous voulez envoyer un courrier électronique à l’utilisateur avec ses informations de numéro de téléphone, désactiver ou activer l’utilisateur de courrier avec des **informations de numéro de téléphone.** Par défaut, c’est le cas.
+4. Selon que vous souhaitez envoyer un e-mail à l’utilisateur avec ses informations de numéro de téléphone, désactivez ou activez **Email utilisateur avec les informations de numéro de téléphone**. Par défaut, cette option est activée.
 
 5. Cliquez sur **Appliquer**.
 
 ## <a name="using-powershell"></a>Utiliser PowerShell
 
-Voir [Set-CsPhoneNumberAssignment.](/powershell/module/teams/set-csphonenumberassignment) 
+Voir [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment). 
 
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
-- [Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)
 - [Affecter ou modifier un lieu pour un emplacement d’urgence pour un utilisateur](assign-change-emergency-place-user.md)
 - [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)

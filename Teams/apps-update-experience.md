@@ -16,23 +16,32 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Dans cet article, découvrez comment les applications Microsoft, les applications personnalisées et les applications tierces dans Microsoft Teams sont mises à jour et comment les administrateurs les mettent à disposition.
-ms.openlocfilehash: ed91ad441b773833838796d9ea8c71038c842b88
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: b947e8b77bc167ccbdfb6a90bfa7c4ab96476efc
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299043"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606093"
 ---
-# <a name="update-apps-in-microsoft-teams"></a>Mettre à jour des applications dans Microsoft Teams
+# <a name="teams-app-updates-and-admin-role"></a>Mises à jour d’application Teams et rôle d’administrateur
 
-Dans la plupart des cas, une fois qu’une nouvelle version d’une application est disponible dans Teams Store, l’application est automatiquement mise à jour pour les utilisateurs. Toutefois, quelques modifications spécifiques apportées à la nouvelle version de l’application nécessitent l’acceptation par l’utilisateur de la mise à jour de l’application. L’acceptation de l’utilisateur garantit la sensibilisation aux modifications telles que les fonctionnalités ou l’accès. Si les développeurs d’applications apportent les modifications spécifiques suivantes aux applications Microsoft Teams, vos utilisateurs finaux doivent approuver la mise à jour de l’application :
+Les administrateurs Teams peuvent aider leurs utilisateurs finaux à obtenir la dernière version des applications. Pour ce faire, ils effectuent une ou les deux tâches suivantes :
 
-* Un bot est ajouté.
-* La propriété `isNotificationOnly` d’un bot existant ou la propriété `botId` est modifiée.
-* La fonctionnalité `SupportsCalling`, `SupportsVideo` ou `SupportsFiles` d’un bot est ajoutée.
-* Une extension de messagerie a été ajoutée.
-* Les autorisations dans Autorisation sont ajoutées ou modifiées.
-* `Id` ou `ApplicationPermissionsHash`, ou les deux sont modifiés à l’intérieur du `webApplicationInfo`.
+* [Mettez à jour les applications tierces](#updates-to-third-party-apps) qui sont disponibles dans le magasin Teams lorsqu’une nouvelle version est fournie par le développeur ou le fournisseur de l’application.
+* [Mettez à jour les applications personnalisées](#updates-to-custom-apps) qui sont disponibles uniquement dans votre organisation lorsque votre développeur soumet une nouvelle version.
+
+## <a name="updates-to-third-party-apps"></a>Mises à jour à des applications tierces
+
+Pour que les utilisateurs installent et utilisent une application, ils doivent accorder des autorisations à l’application pour accéder aux services et informations requis. Dans la plupart des cas, lorsqu’une nouvelle version d’une application installée est disponible dans le Magasin Teams, l’application est automatiquement mise à jour pour tous les utilisateurs. Toutefois, quelques modifications spécifiques apportées à la nouvelle version de l’application nécessitent à nouveau une autorisation utilisateur. Cette acceptation répétée de l’utilisateur garantit une prise de conscience des modifications telles que les fonctionnalités ou l’accès aux informations personnelles. Les administrateurs Teams peuvent [fournir des autorisations à une application pour le compte des utilisateurs](app-permissions-admin-center.md).
+
+Si les développeurs d’applications apportent une ou plusieurs modifications suivantes à leurs applications, les utilisateurs finaux doivent approuver la mise à jour de l’application.
+
+* Ajoutez ou supprimez un bot. Modifiez l’ID du bot à l’aide de la `botId` propriété.
+* Modifiez la `isNotificationOnly` propriété d’un bot existant qui peut modifier les notifications du bot.
+* Modifiez `SupportsCalling`, `SupportsVideo`et `SupportsFiles` les propriétés d’un bot existant pour ajouter la fonctionnalité d’appel, de lecture de vidéo et de chargement ou de téléchargement de fichiers.
+* Ajoutez ou supprimez des autorisations dans l’autorisation.
+* Ajoutez ou supprimez une extension de messagerie, ajoutez un onglet de groupe, ajoutez un connecteur ou ajoutez un canal.
+* Modifiez les paramètres dans le [`webApplicationInfo`](/microsoftteams/platform/resources/schema/manifest-schema#webapplicationinfo) fichier manifeste.
 
 <!--- image update
 :::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="New version available." lightbox="media/manage-your-custom-apps-update1.png":::
@@ -40,6 +49,11 @@ Dans la plupart des cas, une fois qu’une nouvelle version d’une application 
 :::image type="content" source="media/manage-your-custom-apps-update2.png" alt-text="Upgrade option for an app." lightbox="media/manage-your-custom-apps-update2.png":::
 --->
 
-## <a name="related-articles"></a>Articles connexes
+## <a name="updates-to-custom-apps"></a>Mises à jour aux applications personnalisées
+
+Les applications personnalisées créées et déployées au sein de votre organisation sont disponibles pour les utilisateurs de votre locataire ou organisation. L’administrateur Teams met à jour les applications personnalisées vers les nouvelles versions fournies par les développeurs au sein de l’organisation. Pour plus d’informations, consultez [la façon dont les administrateurs gèrent les applications personnalisées](custom-app-overview.md).
+
+## <a name="related-article"></a>Article connexe
 
 * [Comprendre le schéma du manifeste pour les mises à jour effectuées dans les applications](/microsoftteams/platform/resources/schema/manifest-schema).
+* [En savoir plus sur la gestion des applications personnalisées](custom-app-overview.md).

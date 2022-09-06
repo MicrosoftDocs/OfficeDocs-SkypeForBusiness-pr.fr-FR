@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Cet article fournit une vue d’ensemble des fonctionnalités prises en charge par les affichages Microsoft Teams.
-ms.openlocfilehash: 18b8219a3eef391170c7321ae994d79f1b73f016
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 8b06078633dd8c7ee43c2ee98ad1f3e4751d3a51
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268769"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606023"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams s’affiche
 
@@ -55,16 +55,16 @@ Pour en savoir plus sur le déploiement d’affichages Teams à l’aide de Intu
 
 Pour gérer vos appareils d’affichage Teams, dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **affichages Teams**. À partir de là, vous pouvez modifier le profil de configuration de l’appareil, gérer les mises à jour, redémarrer des appareils, ajouter et supprimer des balises d’appareil, etc. Pour plus d’informations, consultez [Gérer vos appareils dans Teams](device-management.md).
 
-## <a name="set-up-hot-desking-on-teams-displays"></a>Configurer le desking à chaud sur les affichages Teams
+## <a name="set-up-hot-desking-on-teams-displays"></a>Configurer la mise à l’chaud sur les affichages Teams
 
-Le desking à chaud permet aux membres de votre organisation de réserver des espaces de travail temporaires à l’avance via Teams et Outlook, ou à partir de l’appareil lui-même. Lorsque le desking à chaud est activé, les utilisateurs se connectent aux affichages Teams avec leurs informations d’identification Microsoft 365 pour accéder à leurs réunions, conversations et fichiers. Lorsqu’ils se déconnectent, toutes leurs informations personnelles sont supprimées de l’appareil.
+Le desking à chaud permet aux membres de votre organisation de réserver des espaces de travail temporaires à l’avance via Teams et Outlook, ou à partir de l’appareil lui-même. Lorsque la mise à jour rapide est activée, les utilisateurs se connectent aux affichages Teams avec leurs informations d’identification Microsoft 365 pour accéder à leurs réunions, conversations et fichiers. Lorsqu’ils se déconnectent, toutes leurs informations personnelles sont supprimées de l’appareil.
 
-Pour commencer, vous devez acquérir des licences Salles Microsoft Teams Standard et créer des comptes de ressources pour chaque affichage Teams. Consultez [Créer des comptes de ressources pour les salles et les appareils Teams partagés](../rooms/with-office-365.md) pour créer des comptes de ressources.
+Pour commencer, vous devez acquérir [des licences Salles Microsoft Teams](../rooms/rooms-licensing.md) et créer des comptes de ressources pour chaque affichage Teams. Consultez [Créer des comptes de ressources pour les salles et les appareils Teams partagés](../rooms/with-office-365.md) pour créer des comptes de ressources.
 
-Après avoir créé des comptes de ressources, vous pouvez créer et affecter une stratégie pour activer le desking à chaud. Pour en savoir plus, consultez [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) .
+Après avoir créé des comptes de ressources, vous pouvez créer et affecter une stratégie pour activer la mise à l’eau à chaud. Pour en savoir plus, consultez [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy) .
 
 > [!IMPORTANT]
-> Étant donné que les affichages Teams avec desking à chaud sont utilisés dans des espaces de travail partagés par plusieurs personnes, les règles d’accès conditionnel et d’autres configurations d’identité dans votre environnement, telles que Multi-Factor Authentication, peuvent avoir un impact sur ces appareils et entraîner des problèmes de connexion. Pour obtenir des conseils sur la sécurisation des appareils partagés, consultez les [meilleures pratiques d’authentification pour les appareils Android Teams partagés](authentication-best-practices-for-android-devices.md).
+> Étant donné que les affichages Teams à chaud sont utilisés dans des espaces de travail partagés par plusieurs personnes, les règles d’accès conditionnel et d’autres configurations d’identité dans votre environnement, telles que Multi-Factor Authentication, peuvent avoir un impact sur ces appareils et entraîner des problèmes de connexion. Pour obtenir des conseils sur la sécurisation des appareils partagés, consultez les [meilleures pratiques d’authentification pour les appareils Android Teams partagés](authentication-best-practices-for-android-devices.md).
 
 ## <a name="upgrade-teams-phones-to-teams-displays"></a>Mettre à niveau les téléphones Teams vers les affichages Teams
 

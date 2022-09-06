@@ -15,12 +15,12 @@ ms.reviewer: mikedav
 description: Découvrez comment attribuer des licences de module complémentaire Teams aux utilisateurs pour des fonctionnalités telles que l’audioconférence, le système téléphonique et les forfaits d’appels.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b482781ee29094986c310158fe74f02662f790d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6c10ba390d906681434ae56272e4f112911bfcff
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268169"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606053"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Attribuer des licences de module complémentaire Teams aux utilisateurs
 
@@ -143,6 +143,10 @@ Pour plus d’informations, consultez [Afficher les licences et les services ave
 | Crédits de communication | MCOPSTNPP |
 | Forfaits d’appels avec paiement à l’utilisation (pays de la zone 1) | MCOPSTN_PAYG_1 |
 | Forfaits d’appels avec paiement à l’utilisation (pays de la zone 2) | MCOPSTN_PAYG_2 |
+| Salles Microsoft Teams De base | Microsoft_Teams_Rooms_Basic |
+| Salles Microsoft Teams De base sans audioconférence | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
+| Salles Microsoft Teams Pro | Microsoft_Teams_Rooms_Pro |
+| Salles Microsoft Teams Pro sans audioconférence | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
 
 ## <a name="related-content"></a>Contenu associé
 

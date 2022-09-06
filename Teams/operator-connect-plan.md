@@ -1,5 +1,5 @@
 ---
-title: Connexion d’opérateur
+title: Planifier Operator Connect
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,18 +21,28 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 745587281c5566b1ba4fe0d1ea06a44d40c8a7f2
-ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
+ms.openlocfilehash: 4e3d86bf4607b723f92958d34d9530764ab80daf
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66915182"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606443"
 ---
 # <a name="plan-for-operator-connect"></a>Planifier Operator Connect
 
 Operator Connect est une autre option permettant de fournir une connectivité rtc (RTC) avec Teams et le système téléphonique. Pour plus d’informations sur les solutions vocales Teams et les options de connectivité RTC, consultez [Planifier votre solution vocale Teams](cloud-voice-landing-page.md) et les [options de connectivité RTC](pstn-connectivity.md).
 
-Cet article décrit les avantages et les exigences, et fournit un lien vers les opérateurs participant au programme Microsoft Operator Connect.  Si vous décidez que Operator Connect est la solution appropriée pour votre organisation, après avoir lu cet article, consultez [Configurer Operator Connect](operator-connect-configure.md).  
+Cet article décrit les avantages et les exigences, et fournit un lien vers les opérateurs participant au programme Microsoft Operator Connect.  
+
+Operator Connect peut être la solution appropriée pour votre organisation si :
+
+- Le plan d’appel Microsoft n’est pas disponible dans votre emplacement géographique.
+
+- Votre opérateur préféré est un participant au programme Microsoft Operator Connect.
+
+- Vous souhaitez trouver un nouvel opérateur pour activer l’appel dans Teams.
+
+Si vous décidez que Operator Connect est la solution appropriée pour votre organisation, après avoir lu cet article, consultez [Configurer Operator Connect](operator-connect-configure.md).  
 
 ## <a name="benefits"></a>Avantages
 
@@ -48,11 +58,7 @@ Avec Operator Connect, si votre opérateur existant participe au programme Micro
 
 ## <a name="requirements"></a>Conditions requises
 
- Operator Connect peut être la solution appropriée pour votre organisation si :
-
-- Le plan d’appel Microsoft n’est pas disponible dans votre emplacement géographique.
-- Votre opérateur préféré est un participant au programme Microsoft Operator Connect.
-- Vous souhaitez trouver un nouvel opérateur pour activer l’appel dans Teams.
+ 
 
 Pour activer les affectations de numéros de téléphone avec Operator Connect, assurez-vous que vos utilisateurs sont les suivants :
 

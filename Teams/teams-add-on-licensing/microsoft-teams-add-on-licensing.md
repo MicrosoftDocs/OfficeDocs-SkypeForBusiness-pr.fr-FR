@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Découvrez les licences de module complémentaire pour Microsoft Teams et les fonctionnalités que vous obtenez avec chaque licence.
-ms.openlocfilehash: b4c416720a618cff106552126e0f7e1aaa87b1bc
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 84ea719c5038251efa9ddb767b3bf15a5aa40b00
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156802"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606083"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licences de module complémentaire Microsoft Teams
 
@@ -45,7 +45,7 @@ Voici la liste des licences de module complémentaire Teams et leurs fonctionnal
 |**Plans d'appel de Microsoft Teams** <br/> |Si vous souhaitez que les utilisateurs puissent appeler des numéros de téléphone en dehors de votre organisation, vous pouvez acheter [Plans d'appel de Microsoft Teams](../calling-plans-for-office-365.md) pour vous connecter à des numéros de téléphone RTC avec Microsoft comme fournisseur RTC. Il existe des forfaits d’appels nationaux, des forfaits d’appels internationaux et des forfaits d’appels avec paiement à l’utilisation. <br/> <br/> Pour savoir si les forfaits d’appels Teams sont disponibles dans votre pays ou région, consultez [la disponibilité des régions et des pays pour l’audioconférence et les forfaits d’appels](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
 |**Crédits de communication** | Les crédits de communication fournissent un pool mensuel de minutes qui peut également être utilisé pour les appels téléphoniques RTC, si toutes les minutes de votre forfait d’appels sont utilisées avant le début du mois suivant. Si vous souhaitez des numéros gratuits pour l’audioconférence, les standards automatiques ou les files d’attente d’appels, vous devez [configurer des crédits de communication](../set-up-communications-credits-for-your-organization.md). <br/> |
 |**Audioconférence** <br/> |Parfois, les membres de votre organisation doivent utiliser un téléphone pour appeler une réunion Teams au lieu de leur ordinateur. [Configurez l’audioconférence](../set-up-audio-conferencing-in-teams.md) pour les utilisateurs qui planifient ou dirigent des réunions avec des participants qui doivent appeler à l’aide d’un téléphone. <br/> <br/>Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Pour les informations de tarification, consultez les [Prix appliqués à l’audioconférence](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Les organisations peuvent désormais utiliser un opérateur tiers pour leurs numéros d’audioconférence. Pour plus d’informations, consultez [Plan for Conférence en connexion à l'opérateur](../operator-connect-conferencing-plan.md). <br/>|
-|**Salles Microsoft Teams** <br/> | La salle Microsoft Teams est un produit Microsoft Teams supplémentaire qui permet le partage de vidéos, audio et de contenu dans les salles de conférence. Les organisations peuvent acheter Salles Microsoft Teams licences autonomes pour ces fonctionnalités. Pour plus d’informations, consultez [licences de salle de réunion Teams](../rooms/rooms-licensing.md). <br/>|
+|**Salles Microsoft Teams** <br/> | La salle Microsoft Teams est un produit Microsoft Teams supplémentaire qui permet le partage de vidéos, audio et de contenu dans les salles de conférence. <br/> <br/>salles Teams De base est une licence gratuite pour jusqu’à 25 salles qui offre des fonctionnalités de réunion et de gestion de base pour tous les appareils salles Teams. <br/> <br/>salles Teams Pro offre des expériences de réunion améliorées ainsi qu’une gestion et une sécurité avancées pour vous aider à utiliser vos appareils à grande échelle et à activer des réunions hybrides inclusives. <br/> <br/>Pour plus d’informations, consultez [licences de salle de réunion Teams](../rooms/rooms-licensing.md). <br/>|
 
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>Quelles sont les fonctionnalités Microsoft disponibles avec mon plan ?
 

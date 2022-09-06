@@ -23,20 +23,20 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 - seo-marvel-mar2020
 description: Découvrez le nombre de numéros de téléphone que vous pouvez obtenir dans Microsoft Teams en fonction du type de numéro et du nombre de licences dont vous disposez.
-ms.openlocfilehash: 053a1772ed14b09c1bed159973f50bc47125c58e
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 629fed74d1c9f049ec28292e63f6fdb53fdc1c44
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156772"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606573"
 ---
 # <a name="how-many-telephone-numbers-can-you-get"></a>Combien de numéros de téléphone pouvez-vous obtenir ?
 
 Lorsque vous recherchez et obtenez des numéros de téléphone fournis par Microsoft pour votre organisation, vous pouvez obtenir plus de numéros de téléphone que vous n’avez attribué de licences. Toutefois, cela dépend des types de numéros de téléphone et des types de licences que vous avez achetés et attribués.
 
-La façon dont vous acquérez et gérez des numéros de téléphone diffère en fonction de votre option de connectivité RTC : Forfaits d’appels Microsoft, Connexion d’opérateur ou Routage direct. Pour plus d’informations, consultez [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-landing-page.md).
+La façon dont vous acquérez et gérez des numéros de téléphone diffère en fonction de votre option de connectivité RTC : Forfaits d’appels Microsoft, Opérateur Connect, Fournisseur de connectivité mobile (préversion publique) ou Routage direct. Pour plus d’informations, consultez [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-landing-page.md).
 
-Le tableau suivant s’applique aux forfaits d’appels Microsoft, à [l’audioconférence](deploy-audio-conferencing-teams-landing-page.md) et aux applications vocales, telles que [les files d’attente d’appels et les standards automatiques](plan-auto-attendant-call-queue.md). Pour plus d’informations sur Operator Connect et le routage direct, contactez votre fournisseur de services.
+Le tableau suivant s’applique aux forfaits d’appels Microsoft, à [l’audioconférence](deploy-audio-conferencing-teams-landing-page.md) et aux applications vocales, telles que [les files d’attente d’appels et les standards automatiques](plan-auto-attendant-call-queue.md). Pour plus d’informations sur Operator Connect, Fournisseur de connectivité mobile ou le routage direct, contactez votre fournisseur de services.
 
 Vous pouvez voir la quantité de numéros de téléphone que vous pouvez obtenir de Microsoft pendant la recherche et le processus d’acquisition dans le Centre d’administration Microsoft Teams (**Obtenir des numéros de téléphone**).
 

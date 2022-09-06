@@ -16,16 +16,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Utilisez une caméra de contenu dans Salles Microsoft Teams qui interagit avec le logiciel de traitement d’images pour permettre aux présentateurs de dessiner sur un tableau blanc analogique.
-ms.openlocfilehash: 08d360e62cd2d254f2c207e9b9eee9adea424c34
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 6f8116e8c54c24d31a122d54ec505b72f4ef8fdc
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396665"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606373"
 ---
 # <a name="content-cameras"></a>Caméras de contenu
 
 Vous pouvez maintenant utiliser une caméra de contenu avec un système Salles Microsoft Teams. Une caméra de contenu interagit avec un logiciel spécial de traitement d’images et un tableau blanc pour permettre à un présentateur de dessiner sur un tableau blanc analogique et de partager le contenu avec des participants distants.
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 Consultez la vidéo suivante pour obtenir des exemples de fonctionnalités de caméra de contenu.
 

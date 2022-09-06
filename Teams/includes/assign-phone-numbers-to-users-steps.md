@@ -9,7 +9,7 @@
 5. Pour affecter ou modifier l’emplacement d’urgence associé, sous **Emplacement d’urgence**, recherchez et sélectionnez l’emplacement.
 
    > [!NOTE]
-   > Si vous attribuez des numéros aux utilisateurs d’Operator Connect, vous pouvez ou non être en mesure d’affecter ou de modifier l’emplacement d’urgence associé. Cette fonctionnalité dépend de votre opérateur. Pour plus d’informations, contactez votre opérateur.
+   > Si vous attribuez des numéros à Operator Connect ou Fournisseur de connectivité mobile utilisateurs, vous pouvez ou non être en mesure d’affecter ou de modifier l’emplacement d’urgence associé. Cette fonctionnalité dépend de votre opérateur. Pour plus d’informations, contactez votre opérateur.
 
 6. Selon que vous souhaitez envoyer un e-mail à l’utilisateur avec ses informations de numéro de téléphone, désactivez ou activez **Email utilisateur avec les informations de numéro de téléphone**. Par défaut, cette option est activée.
 7. Cliquez sur **Enregistrer**.

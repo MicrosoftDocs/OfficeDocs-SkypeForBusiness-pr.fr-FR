@@ -23,18 +23,18 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Apprenez à utiliser le Centre d’administration Microsoft Teams pour afficher la liste de tous les numéros de téléphone de votre organisation et de tous les numéros affectés aux utilisateurs ou non affectés.
-ms.openlocfilehash: 84162b3971b1730df114482d30820dcf7e86a684
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: ac7c63515b34b8c199f8050933b6c3ccbc6f8d33
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494461"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606073"
 ---
 # <a name="see-a-list-of-telephone-numbers"></a>Afficher la liste des numéros de téléphone 
 
 Il existe différents types de numéros de téléphone que vous pouvez affecter aux utilisateurs ou aux applications vocales telles que [l’audioconférence](deploy-audio-conferencing-teams-landing-page.md) ou [les files d’attente d’appels](plan-auto-attendant-call-queue.md). Pour plus d’informations, consultez [Gérer les numéros de téléphone de votre organisation](/microsoftteams/manage-phone-numbers-landing-page).
 
-Cet article s’applique aux forfaits d’appels et à Operator Connect. Pour plus d’informations sur le routage direct, consultez [Configurer le numéro de téléphone et activer la voix d’entreprise](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
+Cet article s’applique aux forfaits d’appels, à Operator Connect et Fournisseur de connectivité mobile (préversion publique). Pour plus d’informations sur le routage direct, consultez [Configurer le numéro de téléphone et activer la voix d’entreprise](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
   
 ## <a name="to-see-all-telephone-numbers-in-your-organization"></a>Pour afficher tous les numéros de téléphone de votre organisation
 
@@ -108,7 +108,7 @@ Pour afficher tous les numéros de téléphone affectés aux utilisateurs, utili
 Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-landing-page.md)
 

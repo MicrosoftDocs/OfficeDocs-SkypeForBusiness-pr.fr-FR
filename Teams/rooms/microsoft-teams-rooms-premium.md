@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez le service managé Salles Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 322e67a0bc6e03db7960e64d2cd5e7a97b930dbc
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5e59312d3febe2dc6b4178874bae21fc27fe77d2
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269579"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606283"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Salles Microsoft Teams service managé
 
@@ -110,11 +110,11 @@ Pour plus d’informations sur la couverture Salles Microsoft Teams prise en cha
 
 ## <a name="supported-regions"></a>Régions prises en charge
 
-La licence Salles Microsoft Teams Premium est disponible dans les pays suivants avec audioconférence :
+La licence Salles Microsoft Teams Pro est disponible dans les pays suivants avec audioconférence :
 
 - Australie, Autriche, Belgique, Brésil, Bulgarie, Canada, Croatie, Chypre, République tchèque, Danemark, Estonie, Finlande, France, France, Grèce, Hong Kong R.A.S., Hongrie, Irlande, Italie, Japon, Lettonie, Lituanie, Luxembourg, Malte, Mexique, Monaco, Pays-Bas, Nouvelle-Zélande, Norvège, Pologne, Portugal, Roumanie, Russie, Singapour, Slovaquie, Slovénie, Slovénie, Espagne, Suède, Suisse, Taiwan, Royaume-Uni, États-Unis.
 
-La licence Salles Microsoft Teams Premium est disponible dans les pays suivants sans audioconférence :
+La licence Salles Microsoft Teams Pro est disponible dans les pays suivants sans audioconférence :
 
 - Andorre, Île Bouvet, Île christmas, Îles Cocos (Quilles), Îles Cook, Îles Féroé, Fidji, Gibraltar, Groenland, Iles Heard et McDonald, Islande, Inde, Kiribati, Lesotho, Liechtenstein, Macao R.A.S., Îles Marshall, Micronésie, Nauru, Niue, Île Norfolk, Îles Mariannes du Nord, Palau, Papouasie-Nouvelle-Guinée, Îles Pitcairn, Saint Pierre et Miquelon, Samoa, San Marino, Îles Salomon, Swau, Tokelau, Tonga, Tuvalu,  Mexico, Vatican, Wallis et Futuna.
 
@@ -144,6 +144,6 @@ Le service managé Salles Microsoft Teams surveille les appareils, collecte les 
 
 Les données collectées sont spécifiques à un compte de salle, et non à un utilisateur individuel. Des références incidentes à un utilisateur individuel peuvent être présentes dans le journal d’activité lors de l’utilisation de l’appareil. Les données collectées sont traitées par Microsoft conformément à la [déclaration de confidentialité de Microsoft](https://aka.ms/privacy).  
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Salles Microsoft Teams service managé](https://rooms.microsoft.com)

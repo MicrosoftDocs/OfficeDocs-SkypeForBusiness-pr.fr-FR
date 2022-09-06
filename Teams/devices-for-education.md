@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e7ba6b94466874a1e1ab07496ece0d3c4f34dfb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5dcab13a6ee0c54e9fc88901c2fe022f35309e88
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269349"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606853"
 ---
 # <a name="teams-devices-for-education"></a>Appareils Teams pour l’éducation
 
@@ -62,19 +62,19 @@ Les systèmes non natifs et auto-générés qui s’appuient sur des services ex
 
 **Spécialement conçu pour Teams** :
 
-Audio et vidéo avancés et partage
+Audio et vidéo avancés et partage.
 
 **Portefeuille d’appareils étendu pour n’importe quelle pièce** :
 
-Sélectionnez parmi les facteurs de forme entièrement modularisés ou intégrés dans les systèmes d’exploitation Android ou Windows
+Sélectionnez parmi les facteurs de forme entièrement modularisés ou intégrés dans les systèmes d’exploitation Android ou Windows.
 
 **Expériences de salle réinventées** :
 
-Participer à des réunions Teams sans friction pour participer à des réunions inclusives et collaboratives pour les étudiants et les enseignants
+Rejoignez les réunions Teams sans friction pour participer à des réunions inclusives et collaboratives pour les étudiants et les enseignants.
 
 **Facilement géré à partir d’un seul endroit** :
 
-Gérez et conservez entièrement les appareils à jour et prêts à être mis à jour dans teams Administration Center et activez la gestion proactive 24h/24 et 7 j/7 de Microsoft avec Salles Microsoft Teams Premium
+Gérez et conservez entièrement les appareils à jour et prêts à être mis à jour dans Teams Administration Center et activez la gestion proactive 24h/24 et 7 j/7 de Microsoft avec Salles Microsoft Teams Pro.
 
 ## <a name="space-considerations"></a>Considérations relatives à l’espace
 

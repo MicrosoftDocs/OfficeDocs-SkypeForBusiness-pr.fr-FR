@@ -16,16 +16,18 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Cet article explique comment déployer la surveillance des Salles Microsoft Teams de manière intégrée de bout en bout à l’aide d’Azure Monitor.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2b6d1931b0a1818b5146f6ac0e02c225fea3af52
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5dbea45008024762f30d9555f4762c4377d2ed1f
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267449"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606413"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-monitoring-with-no-loc-textazure-monitor"></a>Déployer :::no-loc text="Microsoft Teams Rooms"::: la surveillance avec :::no-loc text="Azure Monitor":::
 
 Cet article explique comment configurer et déployer une surveillance intégrée de bout en bout des appareils à l’aide :::no-loc text="Azure Monitor":::de :::no-loc text="Microsoft Teams Rooms"::: .
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 Vous pouvez configurer :::no-loc text="Log Analytics"::: à l’intérieur :::no-loc text="Azure Monitor"::: pour fournir des données de télémétrie de base et des alertes qui vous aideront à gérer :::no-loc text="Microsoft Teams Rooms":::. À mesure que votre solution de gestion évolue, vous pouvez décider de déployer des données et des fonctionnalités de gestion supplémentaires pour créer une vue plus détaillée de la disponibilité et des performances des appareils.
 

@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Répertorie les plans de licence et les ID de référence (SKU) des enseignants et étudiants de l’éducation.
 f1keywords: ''
-ms.openlocfilehash: f0b1f51b18ba7c43b4cb5eed9b7626100e9a950f
-ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
+ms.openlocfilehash: 9ff2956c587af22d338403638c8ecac0dfb75cfd
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "67426861"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606043"
 ---
 # <a name="education-sku-reference"></a>Informations de référence sur la référence SKU Éducation
 
@@ -46,6 +46,10 @@ Utilisez cette référence lors de l’utilisation de PowerShell pour identifier
 |Microsoft 365 A5 sans audioconférence pour les enseignants     |M365EDU_A5_NOPSTNCONF_FACULTY         |e578b273-6db4-4691-bba0-8d691f4da603         |
 |Office 365 Éducation pour Homeschool for Faculty     |STANDARDWOFFPACK_HOMESCHOOL_FAC         |43e691ad-1491-4e8c-8dc9-da6b8262c03b         |
 |Office 365 A1 pour les enseignants (pour appareil)     |STANDARDWOFFPACK_FACULTY_DEVICE         |af4e28de-6b52-4fd3-a5f4-6bf708a304d3         |
+|Salles Microsoft Teams De base pour les enseignants | Microsoft_Teams_Rooms_Basic_FAC | a4e376bd-c61e-4618-9901-3fc0cb1b88bb |
+|Salles Microsoft Teams de base sans audioconférence pour les enseignants | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing_FAC | 7da0ac23-26f8-4d04-8731-9016d9883340 |
+|Salles Microsoft Teams Pro pour les enseignants | Microsoft_Teams_Rooms_Pro_FAC | 4cde982a-ede4-4409-9ae6-b003453c8ea6 |
+|Salles Microsoft Teams Pro sans audioconférence pour les enseignants | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing_FAC | 271f6b1a-de32-4849-bcf4-b79b8a7c2cfe |
 
 ## <a name="student-licenses"></a>Licences d’étudiant
 

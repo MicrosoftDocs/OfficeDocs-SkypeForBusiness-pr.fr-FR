@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9a773e7c8767164480374826a2410050681505a
-ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
+ms.openlocfilehash: d7397ade44b1e7ee68c176c51bb1af9880ca0373
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66915192"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606533"
 ---
 # <a name="configure-operator-connect"></a>Configurer Operator Connect
 
@@ -58,6 +58,20 @@ La façon dont vous configurez les numéros de téléphone varie selon que vous 
 
 - Si vous souhaitez déplacer des numéros existants du routage direct vers Operator Connect, consultez [Déplacer des numéros du routage direct vers Operator Connect](#move-numbers-from-direct-routing-to-operator-connect).
 
+### <a name="assign-numberes-to-emergency-addresses"></a>Affecter des numéros à des adresses d’urgence
+
+L’adresse d’urgence est un emplacement statique associé à un nombre. Une fois que vous avez créé des adresses d’urgence dans le Centre d’administration Teams, la façon dont vous attribuez les adresses, ou les modifiez ultérieurement, dépend de votre opérateur.
+
+Pour affecter des numéros à des adresses d’urgence, votre opérateur implémente l’un des trois scénarios suivants :
+
+- L’opérateur affecte des adresses d’urgence aux numéros de téléphone et vous permet de les modifier ultérieurement dans le Centre d’administration Teams.
+
+- L’opérateur n’affecte pas d’adresses et vous permet d’attribuer des adresses d’urgence aux numéros de téléphone dans le Centre d’administration Teams.
+
+- L’opérateur affecte des adresses d’urgence aux numéros de téléphone et ne vous permet pas de les modifier. Dans ce scénario, vous devez contacter votre opérateur pour apporter des modifications aux numéros de téléphone et à leur adresse d’urgence affectée.
+
+Pour plus d’informations sur les appels d’urgence, consultez [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md) et [planifier et configurer les appels d’urgence dynamiques](configure-dynamic-emergency-calling.md).
+
 ### <a name="acquire-numbers-for-new-teams-users"></a>Acquérir des numéros pour les nouveaux utilisateurs Teams
 
 Pour acquérir des numéros pour les nouveaux utilisateurs teams, procédez comme suit :
@@ -72,20 +86,6 @@ Pour acquérir des numéros pour les nouveaux utilisateurs teams, procédez comm
 
 > [!NOTE]
 > En plus [d’obtenir des numéros de téléphone pour vos utilisateurs](getting-phone-numbers-for-your-users.md), vous pouvez obtenir des numéros de téléphone payants ou gratuits pour des services tels que l’audioconférence (pour les ponts de conférence), les standards automatiques et les files d’attente d’appels (également appelés numéros de service). Les numéros de téléphone de service disposent d'une capacité d'appels simultanés plus élevée que les numéros de téléphone d'utilisateur ou d'abonné. Par exemple, un numéro de service peut gérer des centaines d’appels simultanément, tandis que le numéro de téléphone d’un utilisateur ne peut gérer que quelques appels simultanément. Pour obtenir des numéros de service, contactez votre opérateur.
-
-### <a name="emergency-addresses"></a>Adresses d’urgence
-
-L’adresse d’urgence est un emplacement statique associé à un nombre. Une fois que vous avez créé des adresses d’urgence dans le Centre d’administration Teams, la façon dont vous attribuez les adresses, ou les modifiez ultérieurement, dépend de votre opérateur.
-
-Pour affecter des numéros à des adresses d’urgence, votre opérateur implémente l’un des trois scénarios suivants :
-
-- L’opérateur affecte des adresses d’urgence aux numéros de téléphone et vous permet de les modifier ultérieurement dans le Centre d’administration Teams.
-
-- L’opérateur n’affecte pas d’adresses et vous permet d’attribuer des adresses d’urgence aux numéros de téléphone dans le Centre d’administration Teams.
-
-- L’opérateur affecte des adresses d’urgence aux numéros de téléphone et ne vous permet pas de les modifier. Dans ce scénario, vous devez contacter votre opérateur pour apporter des modifications aux numéros de téléphone et à leur adresse d’urgence affectée.
-
-Pour plus d’informations sur les appels d’urgence, consultez [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md) et [planifier et configurer les appels d’urgence dynamiques](configure-dynamic-emergency-calling.md).
 
 ### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>Déplacer des numéros de forfaits d’appels vers Operator Connect
 
@@ -194,6 +194,6 @@ Pour libérer des numéros de téléphone à partir du Centre d’administration
 
 - Si le numéro de téléphone est attribué à un utilisateur, vous devez annuler l’affectation du numéro. Sélectionnez **Modifier**, puis **Supprimez l’utilisateur**. Après avoir enregistré vos modifications, sélectionnez **Release**.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Planifier les standards automatiques teams et les files d’attente d’appels](plan-auto-attendant-call-queue.md)

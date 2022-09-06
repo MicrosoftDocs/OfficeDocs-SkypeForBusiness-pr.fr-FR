@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Cet article décrit les considérations relatives à la planification de l’utilisation d’Azure Monitor pour surveiller les Salles Microsoft Teams dans votre implémentation Skype Entreprise ou Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac3ac3af4e4f162238af0e9bf38c45569302fdfb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5640fd63ac413403105be7d5f23e413b2f19ebdf
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269569"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606393"
 ---
 # <a name="plan-microsoft-teams-rooms-monitoring-with-azure-monitor"></a>Planifier la surveillance Salles Microsoft Teams avec Azure Monitor
  
@@ -29,6 +29,8 @@ ms.locfileid: "67269569"
 
 > [!NOTE]
 > Vous pouvez également [configurer la surveillance de l’intégrité des salles Teams](../alerts/device-health-status.md) à l’aide du Centre d’administration Teams.
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 [Azure Monitor](/azure/azure-monitor/overview) est une collection de services de supervision qui ont été conçus dans le cloud dès le début. Au lieu de déployer et de gérer des ressources locales, les composants Azure Monitor sont entièrement hébergés dans Azure. La configuration est minimale et vous pouvez être opérationnel en quelques minutes. Avec certains travaux de personnalisation, il peut faciliter la surveillance des Salles Microsoft Teams en fournissant des notifications de l’intégrité du système ou des pannes pour des systèmes individuels de salle, et il peut monter en puissance jusqu’à gérer des milliers de Salles Microsoft Teams.
   
