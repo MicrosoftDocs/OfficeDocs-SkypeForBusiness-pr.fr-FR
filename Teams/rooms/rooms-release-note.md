@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Administration pouvez lire les notes de publication de Salles Microsoft Teams, qui répertorient les améliorations cumulatives apportées à Salles Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4905c22f974e464ed0079bad572623c83782cfda
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: cb76ac9da50a55dbf8a5df10ddab4f65cfdebcc7
+ms.sourcegitcommit: 2ecf98862aae607d0675418a6177be91f56af1f0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606233"
+ms.locfileid: "67607617"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notes de publication pour Salles Microsoft Teams
 
@@ -102,13 +102,13 @@ Introduit dans cette mise à jour :
 
 - Mise à jour <sup>1</sup> de l’expérience de disposition des lignes frontales 
 - Épingler et masquer la vidéo de la salle <sup>1</sup> 
-- Configuration de l’administrateur pour désactiver la galerie fractionnée en double affichage salles Teams <sup>1</sup>
-- Les salles Teams à double affichage peuvent désormais afficher jusqu’à 18 flux vidéo participant <sup>2</sup>
-- Prise en charge des licences de salle De base Salles Microsoft Teams Pro et Microsoft Teams <sup>2</sup>
+- Configuration de l’administrateur pour désactiver la galerie fractionnée en double affichage salles Teams <sup>2</sup>
+- Les salles Teams à double affichage peuvent désormais afficher jusqu’à 18 flux vidéo participant <sup>1</sup>
+- Prise en charge des licences de salle De base de salle Salles Microsoft Teams Pro et Microsoft Teams <sup>1</sup>
 
-<sup>1</sup> La configuration de l’administrateur pour désactiver la galerie fractionnée via XML se trouve dans [Gérer les paramètres d’une console Salles Microsoft Teams à distance avec un fichier de configuration XML](../rooms/xml-config-file.md).
+<sup>1</sup> Cette fonctionnalité est déployée sur le client web Teams et prendra environ deux semaines à compter de la date de publication de cette mise à jour. Pour plus d’informations, consultez [les mises à jour teams](../teams-client-update.md).
 
-<sup>2</sup> Cette fonctionnalité est déployée sur le client web Teams et prendra environ deux semaines à compter de la date de publication de cette mise à jour. Pour plus d’informations, consultez [les mises à jour teams](../teams-client-update.md).
+<sup>2</sup> La configuration de l’administrateur pour désactiver la galerie fractionnée via XML se trouve dans [Gérer à distance les paramètres d’une console Salles Microsoft Teams avec un fichier de configuration XML](../rooms/xml-config-file.md).
 
 ### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
 
