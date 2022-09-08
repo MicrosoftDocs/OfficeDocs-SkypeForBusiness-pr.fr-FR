@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - admindeeplinkMAC
 description: Découvrez comment attribuer Téléphonie Microsoft Teams licences de compte de ressource à des comptes de ressources pour les standards automatiques et les files d’attente d’appels dans votre organisation.
-ms.openlocfilehash: 348317ca659e03a9dacf8eaae603cff52a009912
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: 56b461c2de32f32dd51d72c5468e31f51b107310
+ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465982"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67630424"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>licences de compte de ressource Téléphonie Microsoft Teams
 
@@ -43,7 +43,7 @@ Pour chaque 10 licences utilisateur de **Téléphonie Teams standard** ou **Team
 
 ### <a name="license-allocation-example"></a>Exemple d’allocation de licence
 
-Contoso, Inc. a acheté 600 licences incluant Phone System (une pour chaque employé). Contoso dispose d’un nombre initial de 25 licences plus 60 licences de **compte de ressources de téléphone Teams** , soit 85 au total. Leur organisation dispose de 90 files d’attente d’appels et de standards automatiques qui ont des numéros de téléphone. Ils doivent attribuer toutes les licences **de compte de ressources de téléphone Teams** et acheter cinq licences supplémentaires de **compte de ressources de téléphone Teams** . 
+Contoso, Inc. a acheté 600 licences incluant Phone System (une pour chaque employé). Contoso dispose d’un nombre initial de 25 licences plus 60 licences de **compte de ressources de téléphone Teams** , soit 85 au total. Son organisation dispose de 90 files d’attente d’appels et de standards automatiques. Ils doivent attribuer toutes les licences **de compte de ressources de téléphone Teams** et acheter cinq licences supplémentaires de **compte de ressources de téléphone Teams** . 
 
 ## <a name="how-to-obtain-microsoft-teams-phone-resource-account-licenses"></a>Comment obtenir des licences de compte de ressource Téléphonie Microsoft Teams
 
