@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez quels contrôleurs de frontière de session (SBC) ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: acca97643340e59150ec1a81cf856c8c444155a8
-ms.sourcegitcommit: 8005e7953fcb6dcc78ba406925aeaaa49f08d3d9
+ms.openlocfilehash: fd42a6b9084e73d867a5c744a5b8852f20401ff5
+ms.sourcegitcommit: 8b33cc2c2e8f43e6ab4b17715d6a42692351ccad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67609432"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67624284"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -73,7 +73,7 @@ Veuillez noter que nous n'acceptons pas de nouvelles nominations pour la certifi
 ||SBC 1000|&#10004;|&#10004;|8.x ou 9.x|&#10004;|&#10004;|
 ||SBC 2000|&#10004;|&#10004;|8.x ou 9.x|&#10004;|&#10004;|
 ||SBC SWe Lite|&#10004;|&#10004;|8.x ou 9.x|&#10004;|&#10004;|
-||Série EdgeMarc|&#10004;||15.6.1||
+||Série EdgeMarc|&#10004;|&#10004;|16.3.2||
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)|Think 365 SBC|&#10004;||1.4|||
 |[Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)|AP 1100|&#10004;|&#10004;|Prises en charge: 8.3.0.0.1 (recommandé 8.4.x et & 9.x)|&#10004;|&#10004;|
 ||AP 3900|&#10004;|&#10004;|Prises en charge: 8.3.0.0.1 (recommandé 8.4.x et & 9.x)|&#10004;|&#10004;|
