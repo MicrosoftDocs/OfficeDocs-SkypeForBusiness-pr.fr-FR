@@ -55,7 +55,7 @@ Dans les installations de fabrication du magasin, les employés effectuent des c
 
 Pendant ce temps, une équipe de travailleurs à distance met à jour le site web du magasin. Ils sont répartis entre les fuseaux horaires, de sorte que les réunions de stand-up quotidiennes ne sont pas pratiques. Au lieu de cela, chacun des membres de l’équipe envoie quotidiennement Mises à jour rapports sur leur progression au responsable de l’équipe.
 
-[Téléchargez le lookbook Mises à jour](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409) pour voir d’autres exemples de ce que vous pouvez faire avec Mises à jour.
+[Téléchargez le lookbook Mises à jour](https://go.microsoft.com/fwlink/?linkid=2197649) pour voir d’autres exemples de ce que vous pouvez faire avec Mises à jour.
 
 ## <a name="required-permissions-and-licenses"></a>Autorisations et licences requises
 
