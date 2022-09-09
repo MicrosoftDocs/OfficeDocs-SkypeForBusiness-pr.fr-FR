@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 67a6424d6fcde396ebdbb41b3c00fc4186e8e475
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: cfcd041fd755016ec04832f42c497e2b0ad51469
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396695"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637007"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -92,7 +92,7 @@ Pour épingler des applications à l’aide d’une stratégie de configuration 
 * Installez des applications pour les utilisateurs finaux dans leur environnement Teams personnel.
 * Installez des applications pour les utilisateurs finaux en tant qu’[extensions de messagerie](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
-Les utilisateurs finaux peuvent installer des applications par eux-mêmes si la [stratégie d’autorisation d’application](teams-app-permission-policies.md) les autorise et que l’application est autorisée par l’administrateur Teams. Au lieu de cela, si une application est bloquée pour un utilisateur ou une organisation, les utilisateurs finaux peuvent [demander l’approbation de l’administrateur](manage-apps.md#manage-user-requests-to-allow-apps).
+Les utilisateurs finaux peuvent installer des applications par eux-mêmes si la [stratégie d’autorisation d’application](teams-app-permission-policies.md) les autorise et que l’application est autorisée par l’administrateur Teams. Au lieu de cela, si une application est bloquée pour un utilisateur ou une organisation, les utilisateurs finaux peuvent [demander l’approbation de l’administrateur](user-requests-approve-apps.md).
 
 Pour installer des applications à l’aide d’une stratégie d’installation d’application, procédez comme suit :
 

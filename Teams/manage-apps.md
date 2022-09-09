@@ -19,12 +19,12 @@ description: Découvrez comment gérer les applications Teams. Découvrez commen
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: beaa10343570624b6ce9b01dbaf9f4a0e962b191
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: ca49ca15b026048d2c495d30a51eac0f809244b5
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486879"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637047"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Gérer les applications Teams dans le Centre d’administration Microsoft Teams
 
@@ -85,38 +85,6 @@ Lorsque vous autorisez (ou bloquez) une application sur la page [Gérer les appl
 
 Un utilisateur peut installer et utiliser une application uniquement lorsque l’application est autorisée via le paramètre à l’échelle du client et autorisée pour l’utilisateur via une stratégie d’autorisation.
 
-## <a name="manage-user-requests-to-allow-apps"></a>Gérer les demandes des utilisateurs pour autoriser les applications
-
-Les utilisateurs finaux peuvent afficher, mais pas utiliser, les applications bloquées dans Teams Store. Pour les applications bloquées, une option est disponible pour demander l’approbation de l’administrateur. Ces demandes sont assemblées dans le Centre d’administration Teams et les administrateurs peuvent afficher et gérer les demandes quand ils le souhaitent. Nous vous recommandons vivement d’effectuer régulièrement un tri pour vérifier les demandes des utilisateurs finaux.
-
-  :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Demandez à un administrateur d’approuver une application bloquée en sélectionnant l’option d’approbation de demande dans Teams Store.":::
-
-### <a name="view-a-request"></a>Afficher une demande
-
- 1. Connectez-vous au Centre d’administration Teams et accédez aux **[applications De gestion des applications](https://admin.teams.microsoft.com/policies/manage-apps)** **Teams** > .
-
-    :::image type="content" source="media/requested-apps1.png" alt-text="Les demandes des utilisateurs finaux pour les applications bloquées sont affichées dans le Centre d’administration Teams dans la colonne intitulée Demandes des utilisateurs." lightbox="media/requested-apps.png":::
-
- 1. Pour afficher et vérifier le nombre de demandes pour chaque application, triez les demandes dans la colonne **Demandes par utilisateur** . Vous ne pouvez pas afficher le nom des utilisateurs qui ont demandé une application.
- 1. Pour autoriser une application, sélectionnez le nom de l’application, ce qui ouvre la page des détails de l’application.
- 1. Sélectionnez **Gérer les demandes** et effectuez les étapes affichées dans la boîte de dialogue contextuelle. Selon la méthode utilisée pour bloquer une application, une ou plusieurs des étapes suivantes sont nécessaires pour la débloquer :
-
-    * Si l’application est bloquée à l’aide de stratégies d’autorisation, autorisez l’application en modifiant les [stratégies d’autorisation](teams-app-permission-policies.md).
-    * Si l’application est bloquée pour tous les utilisateurs, [autorisez l’application](#allow-and-block-apps).
-    * Si toutes les applications sont bloquées pour tous les utilisateurs, modifiez les [paramètres à l’échelle de l’organisation](#manage-org-wide-app-settings).
-
- Si un administrateur autorise une application, Teams n’informe pas l’utilisateur final que sa demande est prise en compte. L’utilisateur peut afficher l’application dans Teams Store pour vérifier s’il peut ou non ajouter l’application à son client Teams. Si l’application est approuvée par un administrateur, les utilisateurs peuvent l’ajouter. Si l’administrateur n’approuve pas la demande et la rejette, les utilisateurs finaux pourront la demander à nouveau.
-
-### <a name="dismiss-a-user-request"></a>Ignorer une demande d’utilisateur
-
- 1. Sélectionnez le nom de l’application pour laquelle vous souhaitez ignorer les demandes de l’utilisateur.
- 1. Sélectionnez **Gérer les demandes** , puis **Ignorer toutes les demandes** dans la boîte de dialogue.
- 1. Lorsqu’une demande est ignorée, elle réinitialise les demandes de l’utilisateur à zéro.
-
-  :::image type="content" source="media/reject.png" alt-text="Les administrateurs peuvent approuver une demande utilisateur en autorisant une application, ou peuvent rejeter la demande en n’effectuant aucune action.":::
-
-Si un administrateur ignore une demande, cela n’informe pas l’utilisateur final que sa demande a été prise en compte. Une fois qu’un administrateur a ignoré une demande, l’utilisateur final peut à nouveau faire la demande de l’application.
-
 ## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>Autoriser les applications bloquées par les développeurs
 
 Lorsqu’un développeur publie une application dans Teams Store, certaines applications peuvent nécessiter une configuration de la part d’un administrateur. Les administrateurs rendent l’application disponible pour les utilisateurs finaux lors de la configuration de l’application.
@@ -159,3 +127,4 @@ Utilisez les paramètres d’application à l’échelle de l’organisation pou
 ## <a name="related-article"></a>Article connexe
 
 * [Gérer Teams pendant la transition à partir du Centre d’administration Skype Entreprise](manage-teams-skypeforbusiness-admin-center.md)
+* [Gérer les demandes des utilisateurs pour autoriser les applications](user-requests-approve-apps.md).
