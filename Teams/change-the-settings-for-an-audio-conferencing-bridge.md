@@ -14,7 +14,6 @@ ms.collection:
 - M365-collaboration
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -24,21 +23,21 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: Modifiez les paramètres du pont d’audioconférence, notamment les notifications d’entrée et de sortie, les noms de lecture ou les numéros de téléphone, les tonalités et les appelants d’invite pour enregistrer leur nom.
-ms.openlocfilehash: 48925c30d9ac42c76b6f00d8416d767c6e0ab14d
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: d9853826d9a93c5794017185f561b9d6a6cd1ffb
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823043"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641785"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont d’audioconférence.
 
-Lorsque vous configurez Audioconférence dans Microsoft 365 ou Office 365, vous recevez des numéros de téléphone pour vos utilisateurs à partir d’un pont d’audioconférence. Un pont de conférence peut contenir un ou plusieurs numéros de téléphone. Ces numéros de téléphone sont utilisés lorsque les appelants se connecter à une réunion. Le numéro de téléphone est inclus en bas de l’Skype Entreprise ou Microsoft Teams invitation à la réunion.
+Lorsque vous configurez l’audioconférence dans Microsoft 365 ou Office 365, vous recevez des numéros de téléphone pour vos utilisateurs à partir d’un pont d’audioconférence. Un pont de conférence peut contenir un ou plusieurs numéros de téléphone. Ces numéros de téléphone sont utilisés lorsque les appelants se connecter à une réunion. Le numéro de téléphone est inclus au bas de l’invitation à la réunion Teams.
   
-Le pont de conférence répond à un appel et invite l’appelant avec des invites vocales à l’aide d’un standard automatique de réunion, puis, selon vos paramètres, il peut lire des notifications, demander aux appelants d’enregistrer leur nom et contrôler les paramètres du code confidentiel. Les codes confidentiels sont donnés aux organisateurs de réunion pour leur permettre de démarrer une réunion lorsqu’ils n’utilisent pas d’application Skype Entreprise ou Microsoft Teams.
+Le pont de conférence répond à un appel et invite l’appelant avec des invites vocales à l’aide d’un standard automatique de réunion, puis, selon vos paramètres, il peut lire des notifications, demander aux appelants d’enregistrer leur nom et contrôler les paramètres du code confidentiel. Les codes confidentiels sont donnés aux organisateurs de réunion pour leur permettre de démarrer une réunion lorsqu’ils n’utilisent pas d’application Microsoft Teams.
 
   > [!IMPORTANT]
-  > Un code confidentiel n’est requis pour l’organisateur de la réunion que lorsqu’un utilisateur d’application Skype Entreprise ou Microsoft Teams n’a pas encore démarré la réunion. Si tout le monde se présente à la réunion, le code confidentiel est requis pour que l’organisateur de la réunion démarre la réunion.
+  > Un code confidentiel est requis uniquement pour l’organisateur de la réunion lorsqu’un utilisateur d’application Teams n’a pas encore démarré la réunion. Si tout le monde se présente à la réunion, le code confidentiel est requis pour que l’organisateur de la réunion démarre la réunion.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -63,7 +62,7 @@ Le pont de conférence répond à un appel et invite l’appelant avec des invit
 4. Pour définir la longueur du code confidentiel pour les réunions, sélectionnez le nombre de chiffres souhaité pour le code confidentiel dans la liste de **longueurs de code confidentiel** .
 
 5. Pour spécifier s’il faut envoyer des e-mails à vos utilisateurs, activez ou désactivez **l’envoi automatique de courriers électroniques aux utilisateurs si leur configuration de l’audioconférence change**.
-    Pour plus d’informations, consultez [les e-mails envoyés automatiquement aux utilisateurs lorsque leurs paramètres de Audioconférence changent dans Microsoft Teams](emails-sent-to-users-when-their-settings-change-in-teams.md) ou [les e-mails envoyés aux utilisateurs lorsque leurs paramètres changent dans Skype Entreprise Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change).
+    Pour plus d’informations, consultez [les e-mails envoyés automatiquement aux utilisateurs lorsque leurs paramètres d’audioconférence changent dans Microsoft Teams](emails-sent-to-users-when-their-settings-change-in-teams.md) .
 
 6. Cliquez sur **Enregistrer**.
 
@@ -79,17 +78,10 @@ Le pont de conférence répond à un appel et invite l’appelant avec des invit
 
 - Windows PowerShell présente de nombreux avantages en termes de vitesse, de simplicité et de productivité par rapport à l’utilisation de la Centre d'administration Microsoft 365, par exemple lorsque vous apportez des modifications de paramètres à de nombreux utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes :
 
-  - [Présentation de Windows PowerShell et Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [Vue d’ensemble de Microsoft Teams PowerShell](teams-powershell-overview.md)
 
-  - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-  - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-    > [!NOTE]
-    > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1).
+  - [Installer le module Microsoft Teams PowerShell](teams-powershell-install.md)
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer Audioconférence pour Microsoft Teams](set-up-audio-conferencing-in-teams.md)
-
-[Configurer Audioconférence pour Skype Entreprise Online](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

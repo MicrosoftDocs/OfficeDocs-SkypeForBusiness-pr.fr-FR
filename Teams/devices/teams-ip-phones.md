@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams afin de produire les meilleurs résultats.
-ms.openlocfilehash: c28cf614cf21b9a462ef140275d0282372387f3e
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: b42ded686588d26bdd647adab136b4f0dba98cdb
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637077"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642095"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Appareils Android certifiés Microsoft Teams
 
@@ -89,9 +89,7 @@ Les appareils suivants sont certifiés dans le cadre du Salles Microsoft Teams s
 | Logitech Rally Bar      | `1.2.788`     |   3 septembre 2024  |    Pièce de taille moyenne (4,5 m x 6 m)       | 10 |
 | AudioCodes RXV80 | `1.9.155`        |   5 août 2023  | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) | 9 |
 | EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 5 août 2023 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) | 9 |
-| Yealink MeetingBar A30       | `133.15.0.52`    | 5 août 2023   | Pièce de taille moyenne (4,5 m x 6 m) | 9 |
 | Console tactile Yealink CTP18  | `137.15.0.28`    | 5 août 2023   | Compatible avec Yealink MeetingBar A20 et Yealink MeetingBar A30 | 9 |
-| Yealink MeetingBar A20  | `133.15.0.19`      | 5 août 2023 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) | 9 |
 | Poly Studio X30         | `3.1.1.216109`     | 5 décembre 2022  | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) | 8.1 |
 | Poly Studio X50         | `3.1.1.216109`     | 5 décembre 2022   | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) | 8.1 |
 | Poly TC8                | `3.3.2.210441`     | 5 août 2023 | Compatible avec Poly Studio X30 et Poly Studio X50  |  9  |

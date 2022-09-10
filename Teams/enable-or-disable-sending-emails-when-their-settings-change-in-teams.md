@@ -1,5 +1,5 @@
 ---
-title: Options de messagerie électronique en cas de modification des paramètres d’audioconférence
+title: Email options lorsque les paramètres d’audioconférence changent
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -20,51 +20,51 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Découvrez comment activer ou désactiver Skype d’envoyer des courriers électroniques aux utilisateurs lorsque des paramètres tels que les modifications d’épingle ou le numéro de conférence par défaut changent dans Microsoft Teams. '
-ms.openlocfilehash: 568a42badd375314ee5b29529a53b52b1f6267eb
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: 'Découvrez comment activer ou désactiver l’envoi d’e-mails aux utilisateurs par Microsoft Teams lorsque des paramètres tels que les modifications de broche ou le numéro de conférence par défaut sont modifiés dans Teams. '
+ms.openlocfilehash: a5119d6f612ed083ac4e72ab52f6bb189af4c9d1
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055294"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642105"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Activer ou désactiver l'envoi de courriers électroniques lorsque les paramètres d’audioconférence sont modifiés dans Microsoft Teams
 
-Les utilisateurs sont automatiquement avertis par courrier électronique lorsqu’ils sont activés pour l’audioconférence. Toutefois, il peut être possible que vous vouliez réduire le nombre de courriers électroniques envoyés à Microsoft Teams utilisateurs. Dans ce cas, vous pouvez désactiver l’envoi de courriers électroniques.
+Les utilisateurs sont automatiquement avertis par e-mail lorsqu’ils sont activés pour l’audioconférence. Toutefois, il peut arriver que vous souhaitiez réduire le nombre d’e-mails envoyés aux utilisateurs de Microsoft Teams. Dans ce cas, vous pouvez désactiver l’envoi de courrier électronique.
   
-Si vous désactivez l’envoi de courriers électroniques, les messages audioconférences ne seront pas envoyés à vos utilisateurs, y compris les courriers électroniques concernant les moments où les utilisateurs sont activés ou désactivés pour l’audioconférence, la réinitialisation de leur code confidentiel et la modification de l’ID de conférence et du numéro de téléphone de conférence par défaut.
+Si vous désactivez l’envoi d’e-mails, les e-mails d’audioconférence ne seront pas envoyés à vos utilisateurs, y compris les e-mails pour le moment où les utilisateurs sont activés ou désactivés pour l’audioconférence, quand leur code confidentiel est réinitialisé et lorsque l’ID de conférence et le numéro de téléphone de conférence par défaut changent.
   
-Voici un exemple du courrier électronique envoyé aux utilisateurs lorsqu’ils sont activés pour l’audioconférence :
+Voici un exemple d’e-mail envoyé aux utilisateurs lorsqu’ils sont activés pour l’audioconférence :
   
 ![Exemple de message électronique d’audioconférence.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>Quand les messages électroniques sont-ils envoyés à vos utilisateurs ?
 
-- Après avoir activé l’audioconférence, plusieurs messages électroniques sont envoyés aux utilisateurs de votre organisation :
+- Plusieurs e-mails sont envoyés aux utilisateurs de votre organisation une fois qu’ils sont activés pour l’audioconférence :
 
-  - **Lorsqu’une licence d’audioconférence** leur est affectée.
+  - Lorsqu’une licence **d’audioconférence** leur est attribuée.
 
-  - Lorsque vous réinitialisez manuellement le code confidentiel de l’utilisateur pour l’audioconférence.
+  - Lorsque vous réinitialisez manuellement le code confidentiel de l’audioconférence de l’utilisateur.
 
   - Lorsque vous réinitialisez manuellement l'ID de conférence de l'utilisateur.
 
-  - Lorsque la **licence d’audioconférence** leur est retirée.
+  - Lorsque la licence **d’audioconférence** leur est supprimée.
 
-  - Lorsque le fournisseur de services d’audioconférence d’un utilisateur passe de Microsoft à un autre fournisseur ou à **Aucun.**
+  - Lorsque le fournisseur d’audioconférence d’un utilisateur passe de Microsoft à un autre fournisseur ou **à Aucun**.
 
-  - Lorsque Microsoft est le fournisseur de services d’audioconférence.
+  - Lorsque le fournisseur d’audioconférence d’un utilisateur est remplacé par Microsoft.
 
-## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Activer ou désactiver l’envoi de courriers électroniques aux utilisateurs
+## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Activer ou désactiver l’envoi d’e-mails aux utilisateurs
 
-Vous pouvez utiliser des Microsoft Teams ou Windows PowerShell pour activer ou désactiver le courrier électronique envoyé aux utilisateurs.
+Vous pouvez utiliser Microsoft Teams ou Windows PowerShell pour activer ou désactiver les e-mails envoyés aux utilisateurs.
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence).
 
-2. En haut de la page Ponts **de** conférence, cliquez **sur Paramètres du pont.**
+2. En haut de la page **Ponts de conférence** , cliquez sur **Paramètres du pont**.
 
-3. Dans le **volet Paramètres du** pont, activez ou désactivez automatiquement l’envoi de courriers électroniques aux utilisateurs en cas de modification de **leurs paramètres de connexion.**
+3. Dans le volet **Paramètres du pont** , activez ou désactivez **l’envoi automatique d’e-mails aux utilisateurs si leurs paramètres de connexion changent**.
 
 4. Cliquez sur **Enregistrer**.
 
@@ -81,11 +81,11 @@ Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $tr
 
 Vous pouvez également utiliser Windows PowerShell et exécuter :[](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings)
 
-Pour plus [d’informations, Microsoft Teams la référence PowerShell.](/powershell/module/teams/?view=teams-ps)
+Pour plus d’informations, consultez la [référence Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) .
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer vos tâches Microsoft 365 Office 365 d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 à l’aide d’un seul point d’administration qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour prendre en main Windows PowerShell, consultez ces rubriques :
 
 - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
@@ -95,6 +95,6 @@ Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Micros
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Messages électroniques envoyés aux utilisateurs en cas de modification de leurs paramètres d’audioconférence](emails-sent-to-users-when-their-settings-change-in-teams.md)
+[E-mails envoyés aux utilisateurs lorsque leurs paramètres d’audioconférence changent](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
 [Envoyer à un utilisateur un courrier électronique qui contient ses informations d’audioconférence](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)

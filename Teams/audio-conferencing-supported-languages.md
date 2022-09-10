@@ -14,7 +14,6 @@ ms.collection:
 - M365-collaboration
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -22,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: 63cc7b7f20fd121801a00e43b95e1c7e33762d93
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 1f437aa1b2ec9d308989a725ef478921c28424bd
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823449"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642085"
 ---
 # <a name="audio-conferencing-supported-languages"></a>Langues prises en charge pour l’audioconférence
 
-Lorsque vous configurez et configurez des Audioconférence dans Microsoft 365 ou Office 365, vous pouvez sélectionner les langues primaires et secondaires (jusqu’à 4) utilisées lorsque les appelants se connecter à une réunion Skype Entreprise ou Microsoft Teams. Voici la liste des langues prises en charge pour Audioconférence :
+Lorsque vous configurez et configurez l’audioconférence dans Microsoft 365 ou Office 365, vous pouvez sélectionner les langues principales et secondaires (jusqu’à 4) utilisées lorsque les appelants composent une réunion Microsoft Teams. Voici la liste des langues prises en charge pour l’audioconférence :
   
 > [!IMPORTANT]
-> Les langues primaires et secondaires ne peuvent être modifiées que sur des numéros de téléphone Audioconférence dédiés.
+> Les langues primaires et secondaires ne peuvent être modifiées que sur des numéros de téléphone d’audioconférence dédiés.
   
 ## <a name="currently-supported-languages"></a>Langues actuellement prises en charge
 
@@ -85,9 +84,9 @@ Lorsque vous configurez et configurez des Audioconférence dans Microsoft 365 ou
 |Turc  <br/> |Turquie  <br/> |tr-TR  <br/> |
 |Ukrainien  <br/> |Ukraine  <br/> |uk-UA  <br/> |
 
-Si vous recherchez des pays ou des régions où vous pouvez acheter des Audioconférence, consultez [la disponibilité des pays et des régions pour Audioconférence et les forfaits d’appels](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Si vous recherchez des pays ou des régions où vous pouvez acheter l’audioconférence, consultez [la disponibilité des pays et des régions pour l’audioconférence et les forfaits d’appels](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
-Si vous recherchez des pays ou régions spécifiques qui ont des numéros de téléphone pour Audioconférence, consultez [Téléphone numéros de Audioconférence dans Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) ou [Téléphone numéros de Audioconférence dans Skype Entreprise Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
+Si vous recherchez des pays ou régions spécifiques qui ont des numéros de téléphone pour l’audioconférence, consultez [les numéros de téléphone pour l’audioconférence dans Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 
@@ -101,15 +100,12 @@ Si vous recherchez des pays ou régions spécifiques qui ont des numéros de té
 
 - Windows PowerShell présente de nombreux avantages en termes de vitesse, de simplicité et de productivité par rapport à l’utilisation de l’Centre d'administration Microsoft 365, par exemple lorsque vous modifiez les paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
 
-  - [Présentation de Windows PowerShell et Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [Vue d’ensemble de Microsoft Teams PowerShell](teams-powershell-overview.md)
 
-  - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [Installer le module Microsoft Teams PowerShell](teams-powershell-install.md)
 
-  - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-    > [!NOTE]
-    > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1).
+  - [Gérer Teams avec Microsoft Teams PowerShell](teams-powershell-managing-teams.md)
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
-[Essayer ou acheter des Audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Essayer ou acheter l’audioconférence dans Microsoft 365 pour Microsoft Teams](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)

@@ -23,16 +23,16 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: Découvrez comment essayer ou acheter des licences d’audioconférence (conférence RTC) pour Microsoft 365 ou Office 365 afin de configurer des téléconférences auxquelles les utilisateurs peuvent se connecter.
-ms.openlocfilehash: 861537c6c452612058d8e3ad8ae416b812d0bb32
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5d93f9d81e2b70520d8c8044293f81aff2a36940
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271439"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641915"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Essayer ou acheter l’audioconférence dans Microsoft 365 pour Microsoft Teams
 
-Parfois, des personnes de votre organisation devront utiliser un téléphone pour rejoindre une réunion. Microsoft Teams inclut la fonctionnalité d’audioconférence pour cette situation ! Les utilisateurs peuvent appeler des réunions Microsoft Teams à l’aide d’un téléphone, au lieu d’utiliser l’application Microsoft Teams sur un appareil mobile ou un PC.
+Parfois, des personnes de votre organisation devront utiliser un téléphone pour rejoindre une réunion. Microsoft Teams inclut la fonctionnalité d’audioconférence pour cette situation ! Personnes pouvez appeler des réunions Microsoft Teams à l’aide d’un téléphone, au lieu d’utiliser l’application Microsoft Teams sur un appareil mobile ou un PC.
 
 Vous devez uniquement configurer l’audioconférence pour les personnes qui envisagent de planifier ou de diriger des réunions. Les participants à la réunion qui se connectent par téléphone n’ont pas besoin de licence ou de configuration particulière.
 
@@ -76,15 +76,15 @@ Si vous êtes un client Volume et Gestion des licences, vous pouvez obtenir des 
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Étape 2 : Définir le fournisseur de services d’audioconférence pour les utilisateurs qui mènent ou planifient des réunions
 
-Lorsque vous attribuez une licence **d’audioconférence** à des personnes de votre organisation qui n’ont pas Skype Entreprise intégrées à un fournisseur d’audioconférence tiers, elles sont toutes configurées et prêtes à l’utilisation ! (Vous n’avez pas à définir leur fournisseur de services d’audioconférence.)
+Lorsque vous attribuez une licence **d’audioconférence** à des personnes de votre organisation qui n’ont pas intégré Teams à un fournisseur d’audioconférence tiers, elles sont toutes configurées et prêtes à l’utilisation ! (Vous n’avez pas à définir leur fournisseur de services d’audioconférence.)
 
-Si vous avez des utilisateurs activés avec un fournisseur d’audioconférence tiers, vous devez remplacer le fournisseur de ces utilisateurs par Microsoft. Pour modifier le fournisseur d’un utilisateur, consultez [Affecter Microsoft en tant que fournisseur d’audioconférence](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
+Si vous avez des utilisateurs activés avec un fournisseur d’audioconférence tiers, vous devez remplacer le fournisseur de ces utilisateurs par Microsoft. Pour modifier le fournisseur d’un utilisateur, consultez [Affecter des licences de module complémentaire Teams aux utilisateurs](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 ## <a name="step-3-other-admin-tasks"></a>Étape 3 : Autres tâches d’administration
 
 Les étapes suivantes sont **facultatives**, mais un grand nombre d’administrateurs préfèrent les effectuer :
 
-1. [Personnalisez les invitations à une réunion](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Les numéros de connexion définis pour l'utilisateur seront ajoutés automatiquement aux invitations envoyées aux participants. Vous pouvez cependant ajouter vos propres liens d’aide et légaux, un texte et une petite image de l’entreprise.
+1. [Personnalisez les invitations à une réunion](meeting-settings-in-teams.md#customize-meeting-invitations). Les numéros de connexion définis pour l'utilisateur seront ajoutés automatiquement aux invitations envoyées aux participants. Vous pouvez cependant ajouter vos propres liens d’aide et légaux, un texte et une petite image de l’entreprise.
 
 2. [Définissez les numéros de téléphone inclus dans les invitations](set-the-phone-numbers-included-on-invites-in-teams.md). Il s’agit du numéro de téléphone qui s’affiche dans la réunion planifiée par un utilisateur.
 
@@ -95,7 +95,7 @@ Les étapes suivantes sont **facultatives**, mais un grand nombre d’administra
 > [!NOTE]
 > Cette fonctionnalité n’est pas encore disponible pour les clients utilisant Office 365 géré par 21Vianet en Chine. Pour plus d’informations, consulter la rubrique [En savoir plus à propos d’Office 365 géré par 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Activer Teams dans votre organisation](office-365-set-up.md)
 

@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: acaa1280e00ad2e86a49c2bbd8e7f4464bd0c0e7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e369403e17136aaec6341e46b4851d18fb778a89
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268759"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641865"
 ---
 # <a name="manage-teams-with-policies"></a>Gérer Teams avec des stratégies
 
@@ -70,7 +70,7 @@ Type de stratégie | Description
 [Stratégies d’application](app-policies.md)| Les stratégies d’application sont utilisées pour contrôler les applications dans Microsoft Teams. Les administrateurs peuvent autoriser ou bloquer les applications que les utilisateurs peuvent installer, épingler des applications à la barre d’applications Teams d’un utilisateur et installer l’application pour le compte de vos utilisateurs.
 [Stratégies de messagerie](messaging-policies-in-teams.md)| Les stratégies de messagerie contrôlent la disponibilité des fonctionnalités de conversation et de canal.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 * [Affecter des stratégies dans Teams - Prise en main](policy-assignment-overview.md)
 * [Gérer les stratégies de commentaires dans Microsoft Teams](manage-feedback-policies-in-teams.md)

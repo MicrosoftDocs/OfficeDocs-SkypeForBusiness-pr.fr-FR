@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Suivez ces étapes pour créer un numéro de téléphone par défaut pour que les appelants rejoignent une réunion Microsoft Teams.
-ms.openlocfilehash: f0956007d5df72c1fd6c6ae905433e73bd855a56
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 27ff7040b27d2265bcdc5ab30f48cb919746471b
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884843"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642065"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Définir les numéros de téléphone inclus sur les invitations dans Microsoft Teams.
 
@@ -98,8 +98,8 @@ Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions q
 
 Pour définir ou modifier le numéro de téléphone d’audioconférence par défaut d’un organisateur ou d’un utilisateur de réunion à l’aide de [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps), définissez le **`ServiceNumber`** ou **`TollFreeServiceNumber`** les paramètres de l’applet de commande [Set-CsOnlineDialInConferencingUser sur](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) l’un des numéros disponibles.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
-[Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Essayer ou acheter l’audioconférence dans Microsoft 365 pour Microsoft Teams](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 [Modifier les numéros de téléphone de votre pont d’audioconférence](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)

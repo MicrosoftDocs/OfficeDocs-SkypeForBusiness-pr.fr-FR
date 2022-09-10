@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c12891e2eb03aaca3f444a83bfd18ee752b8576
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 1da45446c2ab1879dd8064537dc50dafd99ea013
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268809"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641745"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Découvrir comment déployer la conférence audio dans Microsoft Teams
 
@@ -35,7 +35,7 @@ Une conférence audio permet de participer à une réunion d’équipes à parti
 
 Cet article vous permet de décider si vous voulez modifier les paramètres par défaut de conférence audio en fonction du profil de votre organisation et vos exigences professionnelles, puis il vous guide pour chaque modification. Nous avons fractionné les paramètres en deux groupes, en commençant par l’ensemble des [modifications principales que vous êtes le plus susceptible d’apporter](#core-deployment-decisions). Le deuxième groupe inclut les [paramètres supplémentaires](#additional-deployment-decisions) que vous souhaiterez peut-être configurer, en fonction des besoins de votre organisation.
 
-Il vous suffit de configurer la fonctionnalité de conférence audio pour les utilisateurs qui comptent planifier ou organiser des réunions. Les participants à la réunion qui se connectent n’ont pas besoin de licence ni d’aucune configuration particulière. Participer à une réunion par téléphone est particulièrement utile pour les personnes qui sont en déplacement et ne peuvent pas utiliser le client Skype Entreprise ou l’application Teams sur leur ordinateur ou leur appareil mobile. 
+Il vous suffit de configurer la fonctionnalité de conférence audio pour les utilisateurs qui comptent planifier ou organiser des réunions. Les participants à la réunion qui se connectent n’ont pas besoin de licence ni d’aucune configuration particulière. La connexion (connexion) aux réunions est très utile pour les utilisateurs qui sont sur la route et ne peuvent pas participer à une réunion à l’aide de l’application Teams sur leurs ordinateurs portables ou appareils mobiles.
 
 ## <a name="audio-conferencing-prerequisites"></a>Conditions requises pour une audioconférence
 
@@ -44,7 +44,7 @@ Avant de pouvoir mettre en place une conférence audio pour Teams, il faut prend
 |Posez-vous la question|Action |
 |------------|-------|
 |Est-ce que la fonctionnalité de conférence audio est disponible pour mon pays/ma région ?|Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).|
-|Mes utilisateurs ont-ils la licence appropriée pour le service conférence audio de Teams ?|Les licences d’audioconférence sont disponibles dans le cadre des abonnements Microsoft 365 ou Office 365 E5, ou en tant que complément des abonnements Microsoft 365 Business Standard E1 ou E3. <ul><li>Pour obtenir et attribuer des licences, voir [Essayer ou acheter la fonctionnalité de conférence audio dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) et [Attribuer ou supprimer des licences pour Microsoft 365 Apps for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Pour en savoir plus, lire[Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>Pour voir quelles sont les fonctionnalités du nuage sont incluses dans chaque offre, consultez [Options en fonction de votre offre de licence](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).</li></ul>|
+|Mes utilisateurs ont-ils la licence appropriée pour le service conférence audio de Teams ?|Les licences d’audioconférence sont disponibles dans le cadre des abonnements Microsoft 365 ou Office 365 E5, ou en tant que complément des abonnements Microsoft 365 Business Standard E1 ou E3. <ul><li>Pour obtenir et attribuer des licences, consultez [Affecter ou supprimer des licences pour Applications Microsoft 365 pour les PME](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Pour en savoir plus, lire[Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>Pour voir quelles sont les fonctionnalités du nuage sont incluses dans chaque offre, consultez [Options en fonction de votre offre de licence](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).</li></ul>|
 |Est-ce que j’ai besoin d’acheter des crédits de communication pour les utilisateurs à qui sont attribuées les licences de conférence audio ?|Pour en savoir plus, voir [Les crédits de communication, qu’est-ce que c’est ?](what-are-communications-credits.md), puis consulter la section [Crédits de communication](#communications-credits) section ci-dessous.|
 |||
 
@@ -82,7 +82,7 @@ Vous pouvez configurer la langue par défaut et d’autres langues pour les audi
 
 |Posez-vous la question|Action |
 |------------|-------|
-| Quelles langues dois-je choisir pour les messages d’accueil du standard automatique ? | Pour choisir les langues, reportez-vous à la section [Définir les langues du standard automatique d’audioconférence](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json).|
+| Quelles langues dois-je choisir pour les messages d’accueil du standard automatique ? | Pour choisir des langues, consultez [Définir les langues du standard automatique pour l’audioconférence dans Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).|
 |||
 
 ### <a name="conferencing-bridge-settings"></a>Paramètres du pont d’audioconférence

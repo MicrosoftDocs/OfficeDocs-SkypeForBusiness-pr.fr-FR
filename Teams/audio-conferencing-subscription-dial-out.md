@@ -13,7 +13,6 @@ ms.collection:
 - M365-collaboration
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -22,16 +21,16 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Dial-Out et Appelez-moi à l’avantage minutes. À compter du 1er décembre 2019, chaque abonnement à l’audioconférence fournit 60 minutes par utilisateur par mois aux pays de la zone A.
-ms.openlocfilehash: 18300c44c806689b601c8b14d8c871ecb0ff6ba4
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 6df0b6f2157f16da6e992d465b524a5b582e0a12
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187010"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642145"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Avantage de minutes de l’abonnement à l’audioconférence « Dial-Out »/« Call Me At »
 
-## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>audioconférence Microsoft Teams et Skype Entreprise RTC
+## <a name="microsoft-teams-and-pstn-audio-conferencing"></a>Microsoft Teams et audioconférence RTC
 
 Chaque abonnement standard d’audioconférence fournit 60 minutes par utilisateur et par mois qui peuvent être utilisées pour composer des numéros non premium dans n’importe quel pays de la zone A, comme décrit dans ce document. Cet avantage s’applique aux licences *d’abonnement mensuel* à l’audioconférence et ne s’étend pas aux licences d’audioconférence à la minute.
 
@@ -74,16 +73,15 @@ Prenons l’exemple suivant. Un client a acheté 115 licences d’abonnement à 
 
 ## <a name="how-can-i-monitor-minute-my-pool-usage"></a>Comment surveiller l’utilisation de mon pool par minute ?
 
-- Vous pouvez surveiller l’utilisation par rapport à votre pool de minutes de déconnexion dans le centre d’administration Microsoft Teams. Dans le volet de navigation de gauche, accédez à **Analytics & rapports** **reportsUsage** > , puis sélectionnez **pools de minutes RTC**. Le pool de minutes de numérotation de la zone A est étiqueté dans le rapport « Appels sortants vers les pays de la zone A ».
-- Les notifications par e-mail sont envoyées aux administrateurs suivants lorsque l’utilisation du pool de minutes de déconnexion de votre organisation a atteint 80 % et 100 % :
+- Vous pouvez surveiller l’utilisation par rapport à votre pool de minutes de déconnexion dans le Centre d’administration Microsoft Teams. Dans le volet de navigation de gauche, accédez à **Analytics & rapports** > **d’utilisation**, puis sélectionnez **pools de minutes RTC**. Le pool de minutes de numérotation de la zone A est étiqueté dans le rapport « Appels sortants vers les pays de la zone A ».
+- Email notifications seront envoyées aux administrateurs suivants lorsque l’utilisation du pool de minutes de numérotation de votre organisation a atteint 80 % et 100 % :
 
   - Administrateur de facturation
-  - Administrateur Skype Entreprise
   - Administrateur général
   - Administrateur d’utilisateurs
   - Administrateur du support technique
   - Administrateur du support technique
-  - Azure AD administrateur local de l’appareil joint
+  - Administrateur local d’appareil joint à Azure AD
   - Administrateur d’application
   - Administrateur de licences
   - Administrateur d’appareil cloud
@@ -96,7 +94,7 @@ Prenons l’exemple suivant. Un client a acheté 115 licences d’abonnement à 
 
 Pour plus d’informations sur les crédits de communication, consultez [Crédits de communication](what-are-communications-credits.md).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Zones de pays et de régions pour l’audioconférence](audio-conferencing-zones.md)

@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Les éléments suivants décrivent le réseau pour l’audioconférence.
-ms.openlocfilehash: 222a89df39f1fe6b2decb21431f3475a148a1a6c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 56e2addc3b924d7d73df7475ad217a999dc0aca0
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267589"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641875"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>Conférence sur le réseau pour l’audioconférence
 
@@ -54,7 +54,7 @@ Pour acheminer les appels rendez-vous effectués par vos utilisateurs locaux ver
 
 Vous devez configurer l’équipement de téléphonie de vos sites pour acheminer les appels vers n’importe quel numéro de service du pont de conférence de votre organisation via une jonction de routage direct.
 
-Vous trouverez les numéros de service dans le Centre d’administration Teams sous **Meetings -> Conferencing Bridges** ou à l’aide de l’applet de commande Skype Entreprise Online PowerShell Get-CsOnlineDialInConferencingBridge. Pour plus d’informations, consultez la liste des [numéros d’audioconférence dans Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Vous trouverez les numéros de service dans le Centre d’administration Teams sous **Meetings -> Conferencing Bridges** ou à l’aide de l’applet de commande Teams PowerShell Get-CsOnlineDialInConferencingBridge. Pour plus d’informations, consultez la liste des [numéros d’audioconférence dans Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
 > [!NOTE]
 > Cette fonctionnalité n’est pas disponible pour les utilisateurs disposant de la licence d’audioconférence à la minute.
@@ -148,4 +148,4 @@ Par défaut, les utilisateurs Teams peuvent composer des numéros RTC au format 
 
 Si vous souhaitez activer la numérotation basée sur les extensions via la conférence sur le réseau, vous pouvez configurer des plans de numérotation pour qu’ils correspondent au modèle de numérotation d’extension aux plages de numéros de téléphone du numéro de téléphone de votre organisation. Pour configurer des plans de numérotation, consultez [Créer et gérer des plans de numérotation](create-and-manage-dial-plans.md).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes

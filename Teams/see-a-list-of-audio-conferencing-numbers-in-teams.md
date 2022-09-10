@@ -22,17 +22,17 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Découvrez comment rechercher les numéros de conférence rendez-vous disponibles pour l’audioconférence à partir de Microsoft Teams.
-ms.openlocfilehash: 33beda34a5c7079c5df910492264061216fb7072
-ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
+ms.openlocfilehash: de03b3a1b12cc6bdcef9326e80e970ece2bdc378
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2022
-ms.locfileid: "67460627"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641885"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Afficher la liste des numéros d'audioconférence dans Microsoft Teams
 
 Lorsque vous configurez l’audioconférence pour les utilisateurs de Microsoft Teams, vous pouvez afficher les numéros de téléphone qui leur sont disponibles pour l’audioconférence. Cette liste comporte tous les numéros de téléphone d’audioconférence disponibles pour votre organisation.
-   
+
 **Vous recherchez les prix ?** Passez en revue la section **Tarifs de l’audioconférence** dans [l’audioconférence](https://www.microsoft.com/microsoft-teams/audio-conferencing).
   
 S'il n'existe qu'un numéro de téléphone disponible pour votre organisation, il est utilisé comme numéro par défaut pour tous vos utilisateurs. Lorsque plusieurs numéros de téléphone sont disponibles, vous pouvez sélectionner le numéro de téléphone par défaut pour chaque utilisateur. Ce numéro par défaut sera inclus dans les invitations à une réunion Microsoft Teams.
@@ -61,6 +61,3 @@ Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions q
 
 Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](/powershell/module/teams/?view=teams-ps).
   
-## <a name="related-topics"></a>Rubriques connexes
-
-[Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
