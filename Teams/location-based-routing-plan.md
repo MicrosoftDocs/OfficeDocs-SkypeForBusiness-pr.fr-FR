@@ -1,7 +1,7 @@
 ---
 title: Planifier le routage géodépendant pour le routage direct
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d282a2cd9588c2e7104b3093d03da082e9cf388b
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 795433f832d57767a7937be1a9d3e7f31e73f240
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562623"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647438"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planifier le routage géodépendant pour le routage direct
 
@@ -38,7 +38,7 @@ Lorsque vous êtes prêt à activer Location-Based routage, consultez :
 > [!NOTE]
 > Vous ne devez pas utiliser Location-Based routage pour router dynamiquement les appels RTC en fonction de l’emplacement de l’utilisateur. Cela peut entraîner des résultats inattendus.
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 
 Location-Based le routage vous permet de limiter le contournement des péages pour un utilisateur en fonction de la stratégie et de l’emplacement géographique de l’utilisateur au moment d’un appel RTC entrant ou sortant. 
 
@@ -387,9 +387,9 @@ Location-Based routage ne s’applique pas aux types d’interactions suivants. 
 
 ### <a name="location-based-routing-for-conferencing"></a>Location-Based routage pour les conférences
 
-Un utilisateur Location-Based routage activé sur un appel RTC n’est pas autorisé à démarrer une conférence avec un autre utilisateur ou un numéro RTC. La connexion aux standards automatiques ou aux files d’attente d’appels est autorisée.
+Un utilisateur Location-Based routage activé sans licence d’audioconférence sur un appel RTC n’est pas autorisé à démarrer une conférence avec un autre utilisateur ou un numéro RTC. La connexion aux standards automatiques ou aux files d’attente d’appels est autorisée.
 
-Si l’utilisateur dispose d’une licence d’audioconférence, il doit démarrer une conférence avec les utilisateurs concernés et appeler le RTC via le pont de conférence pour démarrer une téléconférence.
+Si l’utilisateur dispose d’une licence d’audioconférence, il doit démarrer une conférence avec les utilisateurs concernés et appeler le RTC via le pont de conférence pour démarrer une téléconférence. Si l’utilisateur est déjà sur un appel RTC, il peut ajouter un autre utilisateur ou numéro RTC à l’appel via l’escalade de l’appel à l’aide du pont de conférence pour composer.
 
 Dans une téléconférence lancée par un utilisateur sans licence d’audioconférence, l’ajout de participants RTC n’est pas autorisé s’il existe ou a eu au moins un utilisateur Location-Based routage activé dans la téléconférence. Si au moins un participant RTC fait partie ou faisait partie d’une telle téléconférence avant qu’un Location-Based participants activés pour le routage n’ait été invité à participer à l’appel, ces Location-Based participants activés pour le routage ne peuvent pas être ajoutés à l’appel.
 
@@ -397,6 +397,7 @@ Si l’utilisateur activé pour le routage Location-Based rejoint la téléconf�
 
 La conférence sur le réseau pour l’audioconférence ne doit PAS être déployée avec n’importe quel équipement de téléphonie en Inde.
 
+Un utilisateur Location-Based routage activé sur un appel RTC n’est pas autorisé à fusionner cet appel avec un autre appel.
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Configuration requise pour le contournement du média pour le routage Location-Based
 

@@ -18,30 +18,30 @@ description: Découvrez comment gérer et configurer la demande de l’utilisate
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: c47578184aa97f9c6cc366e186c1590ef1e3fba4
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: 122d41de6f1cb5ea67a5ce85ba9f8f7d02e26339
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637310"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647538"
 ---
-# <a name="manage-user-requests-to-allow-apps-that-are-blocked-by-admins"></a>Gérer les demandes des utilisateurs pour autoriser les applications bloquées par les administrateurs
+# <a name="manage-user-requests"></a>Gérer les demandes des utilisateurs
 
-Les applications que vous bloquez dans votre organisation peuvent réduire la productivité et la collaboration des utilisateurs finaux. Les applications qui sont disponibles dans le magasin Teams mais qui sont bloquées dans votre organisation ne peuvent pas être utilisées par les utilisateurs finaux. Toutefois, pour rester informés, les utilisateurs finaux peuvent afficher les applications bloquées, afficher les informations de l’application et les cas d’usage qu’elles serveurs. Les utilisateurs peuvent demander l’approbation de l’administrateur afin qu’ils puissent utiliser ces applications dans Teams, une fois que vous avez choisi d’autoriser l’application.
+Les applications que vous bloquez dans votre organisation peuvent affecter la productivité et la collaboration des utilisateurs finaux. Les applications qui sont disponibles dans le magasin Teams mais qui sont bloquées dans votre organisation ne peuvent pas être utilisées par les utilisateurs finaux. Toutefois, pour rester informés, les utilisateurs finaux peuvent afficher les applications bloquées, afficher les informations de l’application et les cas d’usage qu’elles serveurs. Les utilisateurs demandent l’approbation de l’administrateur afin qu’ils utilisent ces applications dans Teams, après avoir évalué la demande.
 
-Cette fonctionnalité vous fournit un signal sur la demande d’une application au sein de votre organisation. Vous pouvez facilement afficher le nombre agrégé de demandes d’applications et prendre des décisions éclairées sur les applications à envisager d’autoriser dans votre organisation.
+Cette fonctionnalité vous fournit un signal sur la demande d’une application au sein de votre organisation. Vous pouvez facilement afficher le nombre agrégé de demandes pour les applications. Il vous aide à prendre une décision éclairée sur les applications à évaluer pour autoriser dans votre organisation.
 
 Vous conservez le contrôle total des applications autorisées ou bloquées pour les utilisateurs. Si vous choisissez d’autoriser une application, les contrôles et l’interface utilisateur pour gérer les applications restent les mêmes.
 
-* L’option par défaut envoie les demandes utilisateur dans le Centre d’administration Teams, où vous pouvez [afficher les demandes des utilisateurs et autoriser les applications demandées](#view-user-requests-and-allow-the-requested-apps).
+* L’option par défaut envoie les demandes utilisateur dans le Centre d’administration Teams, où vous pouvez [afficher les demandes des utilisateurs et autoriser les applications demandées](#view-user-requests).
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Capture d’écran montrant l’option permettant de demander à un administrateur d’approuver une application bloquée.":::
 
-* Une personnalisation vous permet de [configurer l’expérience de l’utilisateur final](#modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app) en redirigeant l’utilisateur vers une méthode de demande d’application personnalisée. Vous pouvez fournir un SMS personnalisé pour informer les utilisateurs et diriger les utilisateurs vers l’URL interne de votre organisation pour collecter les demandes d’autorisation des applications.
+* Une personnalisation vous permet de [configurer l’expérience de l’utilisateur final](#modify-the-default-setting-to-receive-end-user-requests) qui convient le mieux à votre organisation. Vous pouvez fournir une instruction personnalisée qui s’affiche aux utilisateurs finaux sur les applications bloquées dans l’App Store Teams et diriger les utilisateurs vers un site interne pour collecter leurs demandes.
 
-   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Capture d’écran montrant l’expérience de l’utilisateur final pour les applications en magasin lorsqu’un administrateur redirige l’URL de demande d’application autoriser vers une URL personnalisée.":::
+   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Capture d’écran montrant l’expérience de l’utilisateur final pour les applications en magasin lorsqu’un administrateur redirige l’URL de demande d’application d’autorisation vers un site interne.":::
 
-## <a name="modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app"></a>Modifier le paramètre par défaut pour recevoir des demandes de l’utilisateur final pour autoriser une application
+## <a name="modify-the-default-setting-to-receive-end-user-requests"></a>Modifier le paramètre par défaut pour recevoir des demandes de l’utilisateur final
 
 Pour configurer un message personnalisé et rediriger les utilisateurs vers une URL spécifique à l’organisation pour demander l’approbation de l’application, procédez comme suit :
 
@@ -60,9 +60,9 @@ Pour configurer un message personnalisé et rediriger les utilisateurs vers une 
 
 1. Sélectionnez **Enregistrer**.
 
-## <a name="view-user-requests-and-allow-the-requested-apps"></a>Afficher les demandes des utilisateurs et autoriser les applications demandées
+## <a name="view-user-requests"></a>Afficher les demandes des utilisateurs
 
-Les demandes d’utilisateur final reçues par la méthode par défaut sont affichées dans le Centre d’administration Teams. Vous pouvez facilement afficher et gérer les demandes. Nous vous recommandons vivement d’effectuer régulièrement un tri pour vérifier les demandes des utilisateurs finaux. Pour afficher et autoriser les applications, procédez comme suit :
+Les demandes d’utilisateur final reçues par la méthode par défaut sont affichées dans le Centre d’administration Teams. Vous pouvez facilement afficher et gérer les demandes. Nous vous recommandons d’avoir un triage régulier pour rechercher les demandes des utilisateurs finaux. Pour afficher et autoriser les applications, procédez comme suit :
 
 1. Connectez-vous au Centre d’administration Teams et accédez à la page **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)**  >  teams.
 
@@ -82,7 +82,7 @@ Les demandes d’utilisateur final reçues par la méthode par défaut sont affi
    * Si l’application est bloquée pour tous les utilisateurs, [autorisez l’application](manage-apps.md#allow-and-block-apps).
    * Si toutes les applications sont bloquées pour tous les utilisateurs, [modifiez les paramètres à l’échelle de l’organisation](manage-apps.md#manage-org-wide-app-settings).
 
-1. Si vous le souhaitez, pour basculer vers une configuration personnalisée vers l’URL propre à votre organisation, sélectionnez Le lien Configurer les demandes des utilisateurs dans la boîte de dialogue Gérer les demandes des utilisateurs. Il ouvre le volet paramètres de l’application à l’échelle de l’organisation dans lequel vous pouvez [configurer l’expérience de demande de l’utilisateur final](#modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app).
+1. Si vous le souhaitez, pour basculer vers une configuration personnalisée vers l’URL propre à votre organisation, sélectionnez Le lien Configurer les demandes des utilisateurs dans la boîte de dialogue Gérer les demandes des utilisateurs. Il ouvre le volet paramètres de l’application à l’échelle de l’organisation dans lequel vous pouvez [configurer l’expérience de demande de l’utilisateur final](#modify-the-default-setting-to-receive-end-user-requests).
 
 Si vous autorisez une application après avoir reçu des demandes dans le Centre d’administration Teams, Teams n’informe pas l’utilisateur final que sa demande est traitée. L’utilisateur peut vérifier l’application dans le Magasin Teams pour vérifier si l’application est autorisée. L’option d’ajout de l’application est disponible pour l’utilisateur une fois que vous l’avez autorisée. Si vous autorisez une application après avoir reçu des demandes via votre méthode spécifique à l’organisation, vos mécanismes internes pour fournir la mise à jour de l’état à l’utilisateur final s’appliquent.
 

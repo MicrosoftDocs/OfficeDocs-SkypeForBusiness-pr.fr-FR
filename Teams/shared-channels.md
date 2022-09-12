@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des canaux partagés dans Microsoft Teams.
-ms.openlocfilehash: dd9edbe18a01ffc1a46a8cab76a383aed0bef5a4
-ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
+ms.openlocfilehash: 323d20c152af9595b6a738f917103a59ab4142ef
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67630454"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647548"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canaux partagés dans Microsoft Teams
 
@@ -118,7 +118,7 @@ Pour plus d'informations sur l'exécution d'une recherche eDiscovery pour les me
 
 ## <a name="considerations-around-file-access-in-shared-channels"></a>Éléments à prendre en compte concernant l’accès aux fichiers dans les canaux privés
 
-Les fichiers, dossiers et blocs-notes OneNote d'un canal partagé peuvent être partagés avec des personnes extérieures au canal en utilisant [le partage de fichiers SharePoint standard](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).
+Les fichiers, dossiers et blocs-notes OneNote dans un canal partagé peuvent être partagés avec des personnes extérieures au canal (mais pas en dehors de l’organisation) à l’aide du [partage de fichiers SharePoint standard](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).
 
 Si un utilisateur se voit accorder l'accès à un fichier, un dossier ou un bloc-notes dans un canal partagé via SharePoint, le fait de retirer l'utilisateur de l'équipe ou du canal partagé ne supprimera pas l'accès de l'utilisateur au fichier, au dossier ou au bloc-notes.
 

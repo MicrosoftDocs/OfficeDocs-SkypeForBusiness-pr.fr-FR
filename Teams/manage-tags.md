@@ -15,21 +15,21 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment les balises sont utilisées dans votre organisation dans Microsoft Teams.
-ms.openlocfilehash: 4f394d66521464e99c9492532cb1571931a8de27
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 9c2da438d3f88a172759ec13672aec663ae6add9
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418503"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647428"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gérer les balises dans Microsoft Teams
 
-Les balises dans Microsoft Teams permettent aux utilisateurs de se connecter rapidement et facilement à un sous-ensemble de personnes d’une équipe. Vous pouvez créer et affecter des balises personnalisées pour catégoriser des personnes en fonction d’attributs, tels que le rôle, le projet, la compétence ou l’emplacement. Vous pouvez également attribuer automatiquement des balises aux personnes en fonction de leur planification et de leurs informations de décalage dans [l’application Shifts](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts). Une fois qu’une balise est ajoutée à un ou plusieurs membres de l’équipe, elle peut être utilisée dans @mentions par toute personne de l’équipe dans un billet de canal pour notifier uniquement les personnes qui se voient attribuer cette balise d’une conversation.
+Les balises dans Microsoft Teams permettent aux utilisateurs de se connecter rapidement et facilement à un sous-ensemble de personnes d’une équipe. Vous pouvez créer et affecter des balises personnalisées pour catégoriser des personnes en fonction d’attributs, tels que le rôle, le projet, la compétence ou l’emplacement. Vous pouvez également attribuer automatiquement des balises aux personnes en fonction de leur planification et de leurs informations de décalage dans [l’application Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6). Une fois qu’une balise est ajoutée à un ou plusieurs membres de l’équipe, elle peut être utilisée dans @mentions par toute personne de l’équipe dans un billet de canal pour notifier uniquement les personnes qui se voient attribuer cette balise d’une conversation.
 
 Comme mentionné précédemment, il existe deux types de balises dans Teams.
 
 - **Balises personnalisées** : les propriétaires d’équipe et les membres de l’équipe (s’ils disposent des autorisations) peuvent créer et affecter manuellement des balises à des personnes. Par exemple, une balise « Concepteur » ou « Radiologiste » atteindra ces ensembles de personnes d’une équipe sans avoir à taper leur nom.
-- **Balisage par équipe** : avec cette fonctionnalité, les utilisateurs reçoivent automatiquement des balises qui correspondent à leur planification et à leur nom de groupe de shifts dans [l’application Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) dans Teams. Par exemple, la balise « EngineerOnCall » atteint tous les ingénieurs qui sont planifiés dans Shifts pour travailler au moment où la balise est utilisée dans une conversation ou un billet de canal. Avec le balisage par équipe, Teams ne connaît pas le nom du personnel en équipe lorsque les utilisateurs ont besoin de relayer rapidement des informations.
+- **Balisage par équipe** : avec cette fonctionnalité, les utilisateurs reçoivent automatiquement des balises qui correspondent à leur planification et à leur nom de groupe de shifts dans [l’application Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_usetags) dans Teams. Par exemple, la balise « EngineerOnCall » atteint tous les ingénieurs qui sont planifiés dans Shifts pour travailler au moment où la balise est utilisée dans une conversation ou un billet de canal. Avec le balisage par équipe, Teams ne connaît pas le nom du personnel en équipe lorsque les utilisateurs ont besoin de relayer rapidement des informations.
 
 > [!NOTE]
 > Les balises ne sont pas prises en charge dans les canaux privés ou partagés.
