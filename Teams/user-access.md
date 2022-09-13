@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e78d5905eaed7d9302ffdbf071c3dcf93f00fea
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 9affb1fc93bf79cd7f583f0e74b02bd06f604f0d
+ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616260"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "67657254"
 ---
 # <a name="manage-user-access-to-teams"></a>Gérer l’accès des utilisateurs à Microsoft Teams
 
@@ -40,7 +40,7 @@ Vous gérez les licences Teams dans le Centre d'administration Microsoft 365 ou 
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Utilisation de la Centre d'administration Microsoft 365
 
-Les licences au niveau de l’utilisateur Teams sont gérées directement via les interfaces de gestion des utilisateurs Centre d'administration Microsoft 365. Un administrateur peut attribuer des licences à de nouveaux utilisateurs lors de la création de nouveaux comptes d’utilisateur ou à des utilisateurs disposant de comptes existants. 
+Les licences au niveau de l’utilisateur Teams sont gérées directement via les interfaces de gestion des utilisateurs Centre d'administration Microsoft 365. Un administrateur peut attribuer des licences à de nouveaux utilisateurs lors de la création de nouveaux comptes d’utilisateur ou à des utilisateurs disposant de comptes existants.
 
 > [!IMPORTANT]
 > L’administrateur doit disposer de privilèges d’administrateur général ou d’administrateur de gestion des utilisateurs pour gérer les licences Microsoft Teams.
@@ -110,7 +110,7 @@ Exécutez la commande suivante pour désactiver Teams pour tous les utilisateurs
 Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Licences de module complémentaire Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Attribuer des licences de module complémentaire Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)

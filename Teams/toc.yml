@@ -923,7 +923,7 @@ items:
                     href: direct-routing-media-optimization.md
                   - name: Configurer l’optimisation des médias locaux
                     href: direct-routing-media-optimization-configure.md
-              - name: Contrôler et dépanner le routage direct
+              - name: Surveiller le routage direct
                 items:
                   - name: Vue d’ensemble
                     href: direct-routing-monitor-and-troubleshoot.md
@@ -1589,7 +1589,7 @@ items:
             href: manage-third-party-teams-apps.md
           - name: Utiliser des applications en tant qu’utilisateurs externes ou invités
             href: non-standard-users.md
-          - name: Gérer les demandes des utilisateurs pour autoriser les applications
+          - name: Gérer les demandes des utilisateurs
             href: user-requests-approve-apps.md
           - name: Mises à jour d’application et rôle d’administrateur
             href: apps-update-experience.md
