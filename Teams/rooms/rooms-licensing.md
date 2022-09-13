@@ -6,14 +6,13 @@ manager: serdars
 ms.reviewer: sohailta
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -22,60 +21,131 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: Découvrez les licences disponibles pour différents types de fonctionnalités d’appel et de réunion dans Salles Microsoft Teams.
-ms.openlocfilehash: d93878050b9ae7dd4f39923aa71e37ad902b2608
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Découvrez et comparez les licences disponibles pour différents types de fonctionnalités d’appel et de réunion dans Salles Microsoft Teams.
+ms.openlocfilehash: f2815dd99cb2b1882ec0783fc834d58db60c1b0d
+ms.sourcegitcommit: 087254ba68d75ea4f9205a972f1d8d554d9176c7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268229"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "67650816"
 ---
-# <a name="teams-meeting-room-licensing-update"></a>Mise à jour des licences de salle de réunion Teams
+# <a name="microsoft-teams-rooms-licenses"></a>Licences Salles Microsoft Teams
 
-## <a name="licensing-solutions-for-shared-communication-devices"></a>Solutions de licence pour les appareils de communication partagée
+Microsoft offre deux licences pour les appareils de salle de réunion qui participent aux réunions et aux appels Teams :
 
-Microsoft dispose de deux références SKU dédiées pour les réunions de licence et les appels par appareil pour les appareils de salle de réunion (par exemple, Salles Microsoft Teams, Microsoft Surface Hub et barres de collaboration pour Microsoft Teams).
+- **Salles Microsoft Teams Pro** offre des expériences de réunion en salle améliorées telles que l’audio et la vidéo intelligents, la première ligne et les grandes galeries, ainsi que la prise en charge du double écran. La licence salles Teams Pro fournit également des fonctionnalités de gestion avancées telles que la gestion des appareils distants, les stratégies d’accès conditionnel et l’analytique détaillée des appareils.
 
-|&nbsp;|Salles Microsoft Teams Standard |Salles Microsoft Teams Premium |
-|:--- |:---: |:---: |
-|Microsoft Teams|  &#x2714;|  &#x2714;|
-|Système téléphonique|  &#x2714;|  &#x2714;|
-|Audioconférence|&#x2714; &sup1;|&#x2714; &sup1;|
-|Microsoft Intune|&#x2714;|&#x2714;|  
-|Azure Active Directory P1|&#x2714;|&#x2714;| 
-|Disponibilité mondiale | &#x2714; &sup2;| &#x2714; &sup2;|
-|Disponibilité du canal | EA, EAS, CSP, <br/>Web Direct | EA, EAS, CSP, <br/>Web Direct |
-|Services managés | | &#x2714; &sup3;|
+    salles Teams Pro convient parfaitement aux organisations de taille moyenne et d’entreprise, ainsi qu’aux petites organisations avec un nombre de salles plus important ou des besoins plus avancés.
 
+- **Salles Microsoft Teams Basic** fournit des expériences de réunion de base aux organisations qui achètent un appareil certifié Salles Microsoft Teams, sans coût supplémentaire. La licence salles Teams De base inclut la planification, la participation aux réunions, le partage de contenu et l’intégration collaborative, ainsi que des fonctionnalités de sécurité et de gestion de base.
 
-&sup1; La disponibilité et les minutes incluses peuvent varier selon la région. Pour vérifier la disponibilité du service,  [reportez-vous à la disponibilité des pays et des régions pour les forfaits d’audioconférence et d’appel](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Des frais de consommation peuvent s’appliquer pour des services supplémentaires, tels que les frais gratuits, les minutes internationales pour les forfaits nationaux, etc. Les clients peuvent désactiver ces fonctionnalités pour éviter une facturation supplémentaire.  
+    Vous pouvez attribuer jusqu’à 25 licences Salles Microsoft Teams De base à salles Teams appareils de votre organisation. Si vous avez besoin de licencer plus de 25 appareils, ces licences supplémentaires doivent être salles Teams licences Pro.
 
-&sup2; Non disponible dans les clouds souverains  
+Une licence salles Teams De base peut être utilisée pour concéder un seul appareil certifié salles Teams dans une salle. Si vous souhaitez vous connecter à plusieurs appareils d’une salle à l’aide du même compte de ressource (par exemple, une console salles Teams, un Surface Hub et un écran Teams), vous devez utiliser une licence salles Teams Pro.
 
-&sup3; Pour plus d’informations et de disponibilité, consultez [Salles Microsoft Teams service managé](microsoft-teams-rooms-premium.md).
+[!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
-Les deux licences contiennent des droits pour Skype Entreprise Online, qui a été mis hors service le 31 juillet 2021.
+## <a name="teams-rooms-license-service-plan-comparison"></a>comparaison des plans de service de licence salles Teams
 
-Le tableau suivant répertorie les fonctionnalités disponibles dans Salles Microsoft Teams et les licences que vous devez acheter pour les obtenir.
-  
-> [!NOTE]
-> Ces licences doivent être affectées à la salle configurée et elle doit être un objet utilisateur.
+Le tableau suivant présente les services inclus dans chaque licence salles Teams.
 
-| &nbsp; | Vous avez Microsoft Teams. <br/> Voici les compléments que vous devez acheter :   |Vous avez Skype Entreprise Server 2015/2019 (local). <br/> Voici les compléments que vous devez acheter :|
-|:-----|:-----|:-----|
-|Rejoindre une réunion planifiée  | Salles Microsoft Teams Standard ou Premium  |Skype Entreprise Licence d'accès client Server standard  |
-|Lancer une réunion ad hoc | Salles Microsoft Teams Standard ou Premium  |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
-|Lancer une réunion ad hoc et passer d’une réunion à un numéro de téléphone |  Salles Microsoft Teams Standard ou Premium |Skype Entreprise Licence d'accès client standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
-|Donnez à la salle un numéro de téléphone et faites ou recevez un appel de la salle ou participez à une conférence audio à l’aide d’un numéro de téléphone  | Avec routage direct et/ou connexion d’opérateur : Salles Microsoft Teams Standard ou Premium<br/>Sans routage direct ou sans connexion d’opérateur : forfait d’appels nationaux ou internationaux<br/>Téléphonie Microsoft 365 pour les PME  |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Plus  |
-|Gérer votre appareil de salle avec Microsoft Intune |Salles Microsoft Teams Standard ou Premium  |abonnement Microsoft Intune avec [GPM local](/configmgr/mdm/plan-design/plan-on-premises-mdm) |
-|services managés Salles Microsoft Teams | Salles Microsoft Teams Premium ||
+|                                           | Salles Microsoft Teams De base                                          | Salles Microsoft Teams Pro                                              |
+|:------------------------------------------|:--------------------------------------------------------------------:|:----------------------------------------------------------------------:|
+| **Nombre maximal de licences**            | 25                                                                   | Illimité                                                              |
+| **Microsoft Teams**                       | &#x2714;                                                             | &#x2714;                                                               |
+| **Audioconférence <sup>1</sup>**        | &#x2714;                                                             | &#x2714;                                                               |
+| **Tableau blanc**                            | &#x2714;                                                             | &#x2714;                                                               |
+| **Téléphone Teams**                           |                                                                      | &#x2714;                                                               |
+| **Microsoft Intune**                      |                                                                      | &#x2714;                                                               |
+| **Azure Active Directory Premium plan 1** |                                                                      | &#x2714;                                                               |
+| **Skype Entreprise plan <sup>2 2</sup>** |                                                                      | &#x2714;                                                               |
+| **Disponibilité géographique**               | Mondiale                                                            | Mondiale                                                              |
+| **Disponibilité des segments**                  | Commercial, Secteur public mondial, Éducation, Charité, GCC         | Secteur public mondial, éducation, charité, GCC, GCC-High |
+| **Disponibilité du canal**                  | Web Direct, Nouvelle expérience commerciale (NCE) - Le client a dirigé<sup>3</sup> | EA, EAS, EES, CSP, Web Direct, NCE - Dirigé par le client, NCE - Partenaire dirigé   |
 
+<sup>1</sup> Pour vérifier la disponibilité du service, consultez [la disponibilité du pays et de la région pour les forfaits d’audioconférence et d’appel](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). [Les crédits de communication](../what-are-communications-credits.md) peuvent s’appliquer à des services supplémentaires, tels que des minutes internationales gratuites et payantes pour les forfaits nationaux, etc. Vous pouvez désactiver ces fonctionnalités pour éviter une facturation supplémentaire.
 
-> [!NOTE]
-> 
-> Si des licences utilisateur existantes sont attribuées pour les systèmes de salle (par exemple, E3 ou E5), celles-ci continueront de fonctionner sans interruption. Toutefois, pour être conforme aux modifications futures, vous devez passer aux licences de salle de réunion lorsque les licences utilisateur attribuées expirent.
-> 
+<sup>2</sup> Inclus pour activer certaines méthodes d’authentification héritées.
 
- Découvrez également [les expériences de salle de réunion : Découvrez les nouveaux Salles Microsoft Teams Standard et Premium](https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/).
+<sup>3</sup> Vous devez ajouter et attribuer une licence de base salles Teams gratuite pour chaque appareil via le Centre d'administration Microsoft 365.
 
- Vous pouvez lire [Configurer la licence Common Area Phone pour Microsoft Teams](../set-up-common-area-phones.md) pour plus d’informations sur la gestion des licences common area phones.
+## <a name="switching-from-teams-rooms-standard-and-teams-rooms-premium"></a>Passer de salles Teams Standard et salles Teams Premium
+
+Si votre organisation dispose d’appareils de réunion qui utilisent les licences héritées salles Teams Standard ou salles Teams Premium, vous pouvez continuer à utiliser ces licences jusqu’à leur date d’expiration. À la date d’expiration de vos licences héritées existantes, nous vous recommandons de passer à la licence salles Teams Pro. Les fonctionnalités de réunion et de gestion disponibles<sup>*</sup> dans les deux licences héritées ont été combinées dans la licence salles Teams Pro.
+
+> [!IMPORTANT]
+> Les licences héritées ne passent pas automatiquement aux nouvelles licences. À l’expiration d’une licence héritée, vous devez acheter un nouveau salles Teams Pro (recommandé) ou salles Teams licence De base. salles Teams licences Pro peuvent être achetées via le Centre d'administration Microsoft 365 ou votre canal de vente préféré. salles Teams Les licences de base ne peuvent être achetées que par le biais de la Centre d'administration Microsoft 365.
+
+Si votre organisation dispose d’un Accord Entreprise, vous pouvez continuer à utiliser vos licences héritées existantes jusqu’à la prochaine période de renouvellement. Vous pouvez également continuer à réserver des licences héritées supplémentaires jusqu’à votre prochaine période de renouvellement. Pour plus d’informations, contactez votre représentant Microsoft.
+
+<sup>*</sup>Les ingénieurs du service Microsoft ne serviront plus d’intermédiaires pour la réponse aux incidents à compter du 1er octobre 2022.
+
+## <a name="teams-rooms-console-and-teams-client-feature-comparison"></a>comparaison des fonctionnalités de la console salles Teams et du client Teams
+
+Les tableaux suivants comparent les licences salles Teams De base et salles Teams Pro et indiquent les fonctionnalités disponibles avec chacune d’elles. Si aucune fonctionnalité n’est disponible pour une licence, cette fonctionnalité ne peut pas être utilisée sur salles Teams appareils auxquels cette licence a été attribuée. Pour utiliser une fonctionnalité sur un appareil salles Teams, affectez la licence dans laquelle cette fonctionnalité est disponible pour cet appareil.
+
+### <a name="meeting-join"></a>Participation à une réunion
+
+|                                                                 | Salles Microsoft Teams De base | Salles Microsoft Teams Pro |
+|:----------------------------------------------------------------|:---------------------------:|:-------------------------:|
+| **Participer à des réunions Teams avec 1 contact, proximité et ID de réunion** | &#x2714;                    | &#x2714;                  |
+| **Démarrer des réunions ad hoc à partir de la salle**                         | &#x2714;                    | &#x2714;                  |
+| **Participation directe des invités pour les réunions Zoom et Webex**               | &#x2714;                    | &#x2714;                  |
+| **Participer à des réunions dans des clouds Teams**                           |                             | &#x2714;                  |
+| **Archivage de salle avec le panneau Teams**                              |                             | &#x2714;                  |
+
+### <a name="share-and-collaborate"></a>Partager et collaborer
+
+|                                                  | Salles Microsoft Teams De base | Salles Microsoft Teams Pro |
+|:-------------------------------------------------|:---------------------------:|:-------------------------:|
+| **Partager et afficher tous les types de contenu Teams**       | &#x2714;                    | &#x2714;                  |
+| **Partager le tableau blanc avec la caméra de capture de contenu** |                             | &#x2714;                  |
+
+### <a name="meeting-engagement"></a>Engagement de réunion
+
+|                                                      | Salles Microsoft Teams De base | Salles Microsoft Teams Pro |
+|:-----------------------------------------------------|:---------------------------:|:-------------------------:|
+| **Galerie de vidéos Teams avec plusieurs options de disposition** | &#x2714;                    | &#x2714;                  |
+| **Première ligne**                                        |                             | &#x2714;                  |
+| **Mode Ensemble**                                    |                             | &#x2714;                  |
+| **Grande galerie (jusqu’à 50 vidéos)**                  |                             | &#x2714;                  |
+| **Prise en charge du double écran**                              |                             | &#x2714;                  |
+
+### <a name="calling"></a>Appel
+
+|                                                   | Salles Microsoft Teams De base | Salles Microsoft Teams Pro |
+|:--------------------------------------------------|:---------------------------:|:-------------------------:|
+| **Passer et recevoir des appels d’égal à égal et de groupe** | &#x2714;                    | &#x2714;                  |
+| **Système téléphonique Microsoft 365**                    |                             | &#x2714;                  |
+
+### <a name="intelligent-audio-and-video"></a>Audio et vidéo intelligents
+
+|                                                                                 | Salles Microsoft Teams De base | Salles Microsoft Teams Pro |
+|:--------------------------------------------------------------------------------|:---------------------------:|:-------------------------:|
+| **Prise en charge de la transcription en direct de l’orateur intelligent avec identification de l’orateur** |                             | &#x2714;                  |
+| **Prise en charge multi-caméra**                                                        |                             | &#x2714;                  |
+| **Vue panoramique sur la salle**                                                         |                             | &#x2714;                  |
+| **Suppression du bruit de l’IA**                                                        |                             | &#x2714;                  |
+| **Personnes comptage**                                                             |                             | &#x2714;                  |
+
+### <a name="security-and-compliance"></a>Sécurité et conformité
+
+|                                                                     | Salles Microsoft Teams De base | Salles Microsoft Teams Pro |
+|:--------------------------------------------------------------------|:---------------------------:|:-------------------------:|
+| **Système d’exploitation sécurisé**                                         | &#x2714;                    | &#x2714;                  |
+| **Sécurité au niveau du système (démarrage sécurisé, mode d’accès affecté, etc.)** | &#x2714;                    | &#x2714;                  |
+| **Stratégies d’accès aux conditions Azure AD**                              |                             | &#x2714;                  |
+
+### <a name="device-management"></a>Gestion des appareils
+
+|                                                   | Salles Microsoft Teams De base | Salles Microsoft Teams Pro |
+|:--------------------------------------------------|:---------------------------:|:-------------------------:|
+| **Inscription et inventaire du Centre Administration Teams**   | &#x2714;                    | &#x2714;                  |
+| **Mises à jour logicielles automatiques**                    | &#x2714;                    | &#x2714;                  |
+| **Informations détaillées sur le système et la configuration** |                             | &#x2714;                  |
+| **Gestion de l’intégrité périphérique**                  |                             | &#x2714;                  |
+| **Configuration à distance**                          |                             | &#x2714;                  |
+| **Historique et activité des appareils**                   |                             | &#x2714;                  |
+| **Intégration d’ITSM**                              |                             | &#x2714;                  |
+| **Alertes d’intégrité personnalisées**                          |                             | &#x2714;                  |
+| **Analytique des appareils**                              |                             | &#x2714;                  |

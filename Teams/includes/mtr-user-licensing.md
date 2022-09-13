@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Les licences utilisateur ne sont pas prises en charge pour une utilisation avec des appareils de réunion. Les licences utilisateur affectées aux appareils de réunion Teams doivent être remplacées par une licence salles Teams De base ou salles Teams Pro avant le 1er juillet 2023. Les appareils de réunion disposant d’une licence utilisateur après le 1er juillet 2023 ne peuvent pas se connecter tant qu’une licence salles Teams n’est pas attribuée.
