@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment modifier l’utilisation d’un numéro de téléphone à utiliser en tant que numéro de service ou numéro d’utilisateur.
-ms.openlocfilehash: 5fb8e65a1a04a28cd69314d2919cefa7f2d988c4
-ms.sourcegitcommit: 087254ba68d75ea4f9205a972f1d8d554d9176c7
+ms.openlocfilehash: a2c87a5348e22081107573cd94843cfe4050a198
+ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/13/2022
-ms.locfileid: "67650886"
+ms.locfileid: "67668631"
 ---
 # <a name="manage-the-usage-of-a-phone-number"></a>Gérer l’utilisation d’un numéro de téléphone
 
@@ -35,14 +35,16 @@ Vous devrez peut-être modifier l’utilisation d’un numéro de téléphone un
 
 Pour modifier l’utilisation d’un numéro de téléphone à l’aide du Centre d’administration Teams :
 
-1. Ouvrez le Centre d’administration Microsoft Teams et connectez-vous avec un compte d’administrateur général ou d’administrateur Teams. Il s’agit généralement du compte que vous avez utilisé pour vous inscrire à Microsoft 365.
+1. Ouvrez le Centre de Administration Microsoft Teams et connectez-vous avec un administrateur général ou un compte d’administrateur Teams. Il s’agit généralement du compte que vous avez utilisé pour vous inscrire à Microsoft 365.
 
 2. Dans le volet de navigation de gauche, sélectionnez **numéros de téléphone** **vocal**\>.
 
 3. Dans la page **Numéros de téléphone** , choisissez un numéro non attribué dans la liste, puis **sélectionnez Modifier l’utilisation**.
 
       > [!NOTE]
-      > Veillez à sélectionner un nombre **non attribué** avant d’essayer de modifier son utilisation. Sinon, l’option ne sera pas visible. Si le numéro est actuellement affecté, vous devez [d’abord supprimer le numéro de téléphone d’un compte d’utilisateur](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user#remove-a-phone-number-from-a-user) ou de ressource.
+      > Si vous ne voyez pas **d’option Modifier l’utilisation** , vérifiez les points suivants :
+      > - Veillez à sélectionner un nombre **non attribué** avant d’essayer de modifier son utilisation. Sinon, l’option ne sera pas visible. Si le numéro est actuellement affecté, vous devez [d’abord supprimer le numéro de téléphone d’un compte d’utilisateur](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user#remove-a-phone-number-from-a-user) ou de ressource.
+      > - Vous devez avoir plusieurs types d’utilisation dans la colonne **Utilisations disponibles** . Sinon, vous ne pourrez pas modifier le type de nombre via le Centre de Administration Teams.
 
 4. Dans le volet **Modifier l’utilisation** , ouvrez la liste des utilisations disponibles pour le numéro de téléphone, puis sélectionnez l’option prévue pour le sélectionner.
 
@@ -53,7 +55,7 @@ Pour modifier l’utilisation d’un numéro de téléphone à l’aide du Centr
 
 ## <a name="still-need-assistance"></a>Vous avez toujours besoin d’aide ?
 
-Si vous avez besoin d’aide, contactez [TNS Service Desk](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk).
+Si vous avez encore besoin d’aide, contactez le [service TNS](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
