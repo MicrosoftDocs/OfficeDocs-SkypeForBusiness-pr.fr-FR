@@ -23,34 +23,20 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lorsque vous obtenez des numéros de téléphone ou des numéros de port (transfert) pour votre organisation, vous devrez peut-être obtenir de l’aide et du support auprès du service TNS.
-ms.openlocfilehash: 8fd5bb73ebdf5aba4cbadeb885404e1a6a6b4fca
-ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
+ms.openlocfilehash: b490552b9f6f06a70e017b13f120bbb777cb9131
+ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66687870"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67674405"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>Services de numéro de téléphone (TNS) - Service Desk
 
-Il existe un nouveau processus d’interaction avec le service TNS (Telephone Number Services). Vous pouvez désormais ouvrir des tickets, afficher des tickets et suivre la communication dans un emplacement unique intégré au Centre d’administration Teams. Cet article décrit tout ce que vous devez savoir pour contacter l’assistance.
-
 > [!NOTE]
-> Depuis le 22 juillet 2021, le système de messagerie actuel a été mis hors service.
+> Depuis le 22 juillet 2021, le système de messagerie précédent pour contacter le service TNS a été mis hors service.
 
-Pour contacter l’assistance :
+Il existe un nouveau processus pour interagir avec le service TNS (Telephone Number Services) à partir de notre nouveau **[centre de services de numéro de téléphone](https://pstnsd.powerappsportals.com)**. Vous pouvez désormais ouvrir des tickets, afficher des tickets et suivre la communication dans un emplacement unique intégré au Centre d’administration Teams. Ces tâches sont décrites plus en détail dans les sections suivantes.
 
-1. Connectez-vous au [Centre d’administration Teams](https://admin.teams.microsoft.com).
-
-2. Dans le volet gauche, sélectionnez **Voix**, puis **Numéros de téléphone**.
-
-3. Dans le coin supérieur droit de la page, cliquez sur **Actions**, puis **sélectionnez Obtenir la prise en charge des numéros de téléphone**. Vous serez transféré au [Centre de services de numéro de téléphone](https://pstnsd.powerappsportals.com/)
-
-> [!NOTE]
-> Seule une personne du même locataire est autorisée à créer un cas. Par exemple, une personne de @fabrikam.com ne peut pas créer de cas au nom de @contoso.com.
-
-À partir du Centre de services de numéro de téléphone, vous pouvez créer de nouveaux cas, afficher les cas existants, communiquer avec le service et gérer votre profil utilisateur. Ces tâches sont décrites plus en détail dans les sections suivantes.
-
-- **Centre de services de numéro de téléphone** : accédez à la page d’accueil du portail.
 
 - **[Créer un cas](#create-a-new-case)** : envoyez une nouvelle demande ou une demande générale.
 
@@ -60,15 +46,16 @@ Pour contacter l’assistance :
 
 - **[Envoyez vos commentaires](#view-and-manage-existing-cases)** : partagez vos commentaires avec nous.
 
-- **[Votre nom]** : mettez à jour votre page de profil.
-
 ## <a name="create-a-new-case"></a>Créer un nouveau cas
 
-Pour créer un nouveau cas, procédez comme suit :
+> [!NOTE]
+> Seule une personne du même locataire est autorisée à créer un cas. Par exemple, une personne de @fabrikam.com ne peut pas créer de cas au nom de @contoso.com.
+
+Pour créer un cas, procédez comme suit :
 
 1. Sélectionnez **Créer un cas** à partir de l’un des emplacements suivants :
 
-   - À partir de la page **Centre de services de numéro de téléphone**, en haut de la page ou en bas de la vignette.
+   - À partir de la page d’accueil du **Centre de services de numéro de téléphone** , en haut de la page ou en bas de la vignette.
 
    - À partir de la page **Afficher mes cas existants**  .
 
@@ -140,7 +127,7 @@ Le type de cas peut être l’un des suivants :
 
   - **Type de numéros** - Sélectionnez le type de vos nombres. Consultez [Types de numéros de téléphone](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
-  - **Vous avez essayé d’obtenir des numéros de téléphone à partir du portail Du Centre** d’administration Teams - Avez-vous essayé d’acheter ces numéros de téléphone auprès du Centre d’administration Microsoft Teams ?
+  - **Vous avez essayé d’obtenir des numéros de téléphone à partir du portail Teams Administration Center** - Avez-vous essayé d’acheter ces numéros de téléphone auprès du Centre de Administration Microsoft Teams ?
 
   - **Quantité de numéros de téléphone requis** : nombre de numéros de téléphone que vous souhaitez acheter.
 
@@ -168,7 +155,7 @@ Le type de cas peut être l’un des suivants :
 
   - **Liste des numéros de téléphone** : liste des numéros de téléphone pour lesquels vous souhaitez modifier l’adresse d’urgence (entrez l’adresse souhaitée dans le champ Description). Joignez un fichier csv avec la liste des numéros de téléphone.
 
-***Date et heure.** Si vous sélectionnez Pays = France, date = 14/08/2021 et heure = 10h00, la demande sera exécutée le 14/08/2021 à 10h00. Heure française.
+**Date et heure.** Si vous sélectionnez Pays = France, date = 14/08/2021 et heure = 10h00, la demande sera exécutée le 14/08/2021 à 10h00. Heure française.
 
 #### <a name="case-title"></a>Titre de l’incident
 

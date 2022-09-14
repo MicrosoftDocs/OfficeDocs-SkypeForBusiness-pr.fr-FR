@@ -21,12 +21,12 @@ description: Obtenez une vue d’ensemble des commandes de port et de la façon 
 ms.collection:
 - M365-voice
 - m365initiative-voice
-ms.openlocfilehash: e9f267bfdb56558245fecefe240f2c09c07d4783
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c5c8b68cfd97c8a39f0b4866fb7670473a9ecef3
+ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270869"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67674375"
 ---
 # <a name="whats-a-port-order"></a>Qu’est-ce qu’une demande de transfert ?
 
@@ -140,7 +140,7 @@ Pour vérifier l’état de votre commande de port, dans le volet de navigation 
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>Les numéros de téléphone des utilisateurs (abonnés) peuvent-ils être convertis en numéros de service ?
 <a name="bkmk_type_1"> </a>
 
-Oui. Il vous suffit d'envoyer une demande de service incluant le GUID de client de votre organisation et les numéros de téléphone que vous souhaitez convertir. Pour ce faire, consultez [Gérer les numéros de téléphone de votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+Oui, ils le peuvent. Pour ce faire, consultez [Gérer l’utilisation d’un numéro de téléphone](../manage-the-usage-of-a-phone-number.md).
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>Puis-je transférer mes numéros de Teams vers un autre fournisseur de services téléphoniques ou opérateur ?
 
@@ -177,7 +177,7 @@ Voici les erreurs le plus fréquentes commises lors des transferts de numéros. 
 
 - Assurez-vous que votre service est actif. Le fait de figer le compte empêche la modification des opérateurs téléphoniques sur le compte. La personne autorisée à apporter des modifications au compte doit envoyer une commande au transporteur actuel pour supprimer le gel. Ce processus peut prendre une à trois semaines en fonction du transporteur.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Quel est le statut de vos demandes de transfert ?](port-order-status.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
