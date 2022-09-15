@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 description: Découvrez comment l’audioconférence dans Microsoft 365 ou Office 365 permet aux utilisateurs d’appeler des réunions à partir de leur téléphone.
-ms.openlocfilehash: 7073fa9c870fc718b2d2c6e24e109878e0dd2d34
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 8fcc731f208dc3fecd42dd2c351714f67ad6a684
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269929"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732403"
 ---
 # <a name="audio-conferencing-policy-settings-for-toll-and-toll-free-numbers"></a>Paramètres de stratégie d’audioconférence pour les numéros payants et gratuits
 
@@ -36,6 +36,9 @@ Utilisez des stratégies d’audioconférence pour gérer les numéros payants e
 
 - Le paramètre AllowTollFreeDialin ne peut plus être géré pour un utilisateur individuel via le Centre d’administration Teams ou PowerShell. Les administrateurs de locataires pourront uniquement gérer ce paramètre via la nouvelle stratégie d’audioconférence.
 - La stratégie globale ne peut pas être modifiée à partir du Centre d’administration Teams.
+
+> [!NOTE]
+> Les stratégies d’audioconférence personnalisées ne sont pas prises en charge pour les clients activés pour Skype Entreprise réunions hébergées en région. Les clients activés pour les réunions hébergées au niveau régional peuvent gérer les paramètres d’audioconférence des utilisateurs via leurs paramètres par défaut. Les paramètres par défaut de l’audioconférence des utilisateurs peuvent être modifiés dans le Centre de Administration Teams en accédant à **Users** -> **Manage Users** -> **Select User** -> **Account**.
 
 Lorsqu’une stratégie d’audioconférence Teams est activée dans le locataire, deux stratégies créées automatiquement sont disponibles dans le locataire. Les deux stratégies créées automatiquement et leurs paramètres par défaut sont les suivants :
 
