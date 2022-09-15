@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Découvrez comment gérer la fonctionnalité Musique en attente dans le système téléphonique.
-ms.openlocfilehash: 9d8fa247ffdc982c5d41777c68f6b620a92644e3
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: e218de46e56c2e2f85ed2b19cea21cbc4d4679be
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773753"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706173"
 ---
 # <a name="music-on-hold"></a>Musique en attente
 
@@ -129,6 +129,8 @@ Le tableau suivant indique les fonctionnalités sur lesquelles les clients et ap
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | Maintenir l’appel RTC 1:1 | -Musique en attente<br>-Musique personnalisée en attente | -Musique en attente<br>-Musique personnalisée en attente | -Musique en attente<br>-Musique personnalisée en attente | -Musique en attente<br>-Musique personnalisée en attente | -Musique en attente<br>-Musique personnalisée en attente |
 | Maintenir l’appel teams 1:1 | -Musique en attente<br>-Musique personnalisée en attente | -Musique en attente<br>-Musique personnalisée en attente | -Musique en attente<br>-Musique personnalisée en attente | -Musique en attente<br>-Musique personnalisée en attente | -Musique en attente<br>-Musique personnalisée en attente |
+| Suspension du transfert lors de l’appel RTC 1:1 | -Musique en attente<br>-Musique personnalisée en attente | -Musique en attente<br>-Musique personnalisée en attente | | |
+| Suspension du transfert lors de l’appel teams 1:1 | -Musique en attente<br>-Musique personnalisée en attente | -Musique en attente<br>-Musique personnalisée en attente| | | |
 | Suspension du transfert consultatif lors de l’appel RTC 1:1 |-Musique en attente<br>-Musique personnalisée en attente || -Musique en attente<br>-Musique personnalisée en attente | -Musique en attente<br>-Musique personnalisée en attente | -Musique en attente<br>-Musique personnalisée en attente |
 | Suspension du transfert consultatif lors de l’appel 1:1 Teams |-Musique en attente<br>-Musique personnalisée en attente || -Musique en attente<br>-Musique personnalisée en attente | -Musique en attente<br>-Musique personnalisée en attente | -Musique en attente<br>-Musique personnalisée en attente |
 
@@ -144,7 +146,7 @@ Le tableau suivant indique les fonctionnalités sur lesquelles les clients et ap
 
 - Dans certains scénarios, un appel de contournement de média de routage direct est converti en contournement non multimédia pour la lecture de musique en attente et l’appel reste en tant que contournement non multimédia jusqu’à ce que l’appel soit arrêté.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Affecter des stratégies aux utilisateurs](policy-assignment-overview.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Authentification dans Salles Microsoft Teams
+title: Authentification dans Salles Microsoft Teams sur Windows
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -14,15 +14,15 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
-description: Découvrez comment configurer l’authentification moderne pour Salles Microsoft Teams
-ms.openlocfilehash: ef576c2d785f3e3fb16afd42e6136b607711c28b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Découvrez comment configurer l’authentification moderne pour Salles Microsoft Teams sur Windows
+ms.openlocfilehash: 23e08b48c5d161caf8091068abc4c9cda0061122
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268239"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706431"
 ---
-# <a name="authentication-in-microsoft-teams-rooms"></a>Authentification dans Salles Microsoft Teams
+# <a name="authentication-in-microsoft-teams-rooms-on-windows"></a>Authentification dans Salles Microsoft Teams sur Windows
 
 La gestion des comptes pour Salles Microsoft Teams est gérée au niveau de l’application. L’application se connecte à Microsoft Teams, Skype Entreprise et Exchange pour obtenir des ressources pour le compte de ressource afin d’activer les expériences d’appel et de réunion. salles Teams utilise un compte de ressources dédié pour autoriser les fonctionnalités always on, les scénarios d’appel (pour les appareils configurés avec un plan d’appel) et les mécanismes de verrouillage personnalisés. Cela signifie que l’authentification pour salles Teams se produit d’une manière différente de celle des appareils de l’utilisateur final.  
 

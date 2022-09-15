@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Cet article explique comment utiliser l’outil de récupération pour Salles Microsoft Teams, que vous utiliseriez pour mettre un système obsolète dans un état pris en charge.
-ms.openlocfilehash: c50b59ff4ed1ee997b990b0776ef4a7ee0ac29c2
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 70b2d199c4fe13138e2f46fd0b49e95efbd18e9c
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271159"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706163"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Utiliser l’outil de récupération de Microsoft Teams Rooms
 
@@ -30,7 +30,7 @@ Cet article explique comment utiliser l’outil de récupération pour Salles Mi
 Téléchargez le [dernier package d’installation Salles Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=851168) et extrayez-le dans une clé mémoire USB ou un partage réseau accessible à Salles Microsoft Teams.
 
 > [!NOTE]
-> L’extraction des fichiers à partir du MSI peut être effectuée par de nombreux moyens. Tout mécanisme qui extrait tous les fichiers et conserve leur structure de répertoires est acceptable. L’une de ces méthodes consiste à utiliser la commande `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` où `PathToMsi` représente le chemin d’accès complet au package d’installation de la salle Microsoft Teams et `PathToTarget` représente le chemin d’accès complet au dossier dans lequel vous souhaitez extraire les fichiers.
+> L’extraction des fichiers à partir du MSI peut être effectuée par de nombreux moyens. Tout mécanisme qui extrait tous les fichiers et conserve leur structure de répertoires est acceptable. L’une de ces méthodes consiste à utiliser la commande `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` où `PathToMsi` représente le chemin d’accès complet au package d’installation Salles Microsoft Teams et `PathToTarget` représente le chemin d’accès complet au dossier dans lequel vous souhaitez extraire les fichiers.
 
 ## <a name="running-the-tool"></a>Exécution de l’outil
 

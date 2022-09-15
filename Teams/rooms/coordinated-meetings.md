@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Configurez salles Teams appareils et Surface Hub pour participer à des réunions lorsqu’un appareil ou l’autre participe à une réunion.
-ms.openlocfilehash: f34e3637c9c9716c6f8ec87865c3c570820a0357
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 759574015f2138476e0b03ef6fa85b8b105d81ef
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270479"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706981"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Configurer des réunions coordonnées avec Salles Microsoft Teams et Surface Hub
 
@@ -73,7 +73,7 @@ Dans une application de feuille de calcul, ajoutez des lignes pour les élément
 | **Vidéo activée**      | Détermine si les participants à une réunion peuvent activer ou désactiver la caméra. Vous pouvez définir cette `true` option sur tous les autres appareils de l’événement que les participants souhaitent partager différentes perspectives vidéo (par exemple, si un participant utilise le tableau blanc Surface Hub). Si vous ne souhaitez pas que les participants activent ou désactivent une caméra sur un appareil, définissez cette `false`option sur .<p> Si **la valeur par défaut** de la vidéo est définie `true`sur , ce paramètre est ignoré et les participants peuvent activer ou désactiver l’appareil photo.         |
 | **Tableau blanc par défaut** | Détermine si l’appareil salles Teams affichera un tableau blanc partagé par l’un des participants à la réunion. Nous vous recommandons de définir cette `false` valeur sur si vous avez un Surface Hub et `true` si vous n’en avez pas. Ce paramètre n’a aucun effet sur les Surface Hubs. Surface Hubs affiche toujours un tableau blanc partagé par les participants à la réunion.         |
 | **Tableau blanc activé** | Détermine si les participants à une réunion peuvent activer ou désactiver le tableau blanc. Si vous ne souhaitez pas que les participants activent ou désactivent le tableau blanc sur un appareil, définissez cette `false`option sur . <p>Si **la valeur par défaut du tableau blanc** est définie `true`sur , ce paramètre est ignoré et les participants peuvent activer ou désactiver le tableau blanc.
-| **Comptes approuvés**   | Il s’agit d’une liste d’UPN séparés par des virgules pour chaque appareil Salle Teams ou Surface Hub à partir duquel l’appareil doit accepter les demandes de participation à une réunion, ou à laquelle les demandes de participation à une réunion doivent être envoyées. |
+| **Comptes approuvés**   | Il s’agit d’une liste d’UPN séparés par des virgules pour chaque appareil salles Teams ou Surface Hub à partir duquel l’appareil doit accepter les demandes de participation à une réunion ou à partir desquels les demandes de participation à une réunion doivent être envoyées. |
 
 Dans les colonnes suivantes, ajoutez chacun de vos appareils salles Teams et Surface Hubs. Dans chaque colonne, renseignez les valeurs qui correspondent à l’expérience souhaitée pour la salle de réunion. Voici un exemple avec un appareil salles Teams et un Surface Hub :
 

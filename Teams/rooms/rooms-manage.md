@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Découvrez comment développer et exécuter une maintenance et des opérations continues pour vous assurer que vos systèmes Salles Microsoft Teams sont disponibles pour vos utilisateurs.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85bb58005159b18a426aed0851ac7a80b11183eb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d9ce5a3ac479bc16526bb044bbc3e4c34d3b1d0e
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271091"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706821"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gérer les Salles Microsoft Teams
 
@@ -171,20 +171,20 @@ Le tableau de bord salles Teams système vous montre en un clin d’œil l’ét
 
 Pour afficher des informations détaillées sur un appareil, sélectionnez son nom dans la liste des appareils. En mode Détails, vous pouvez voir les informations suivantes sur votre appareil :
 
-- **État d’intégrité** Affiche l’intégrité globale de l’appareil Salle Teams. L’état d’intégrité peut être **sain** ou **non sain**.
+- **État d’intégrité** Affiche l’intégrité globale de l’appareil salles Teams. L’état d’intégrité peut être **sain** ou **non sain**.
 - **Hors connexion depuis** Affiche la dernière fois que Microsoft 365 a pu communiquer avec l’appareil.
 - **État de l’appareil** Affiche l’état actuel de l’appareil : **inactif**, **réunion Teams**, **réunion Skype** ou **ingestion**.
-- **Périphériques** Affiche les périphériques connectés à votre appareil Salle Teams et leur état d’intégrité. L’état d’intégrité peut être **Connecté** ou **Déconnecté**.
-- **Santé** Affiche des informations détaillées sur les périphériques connectés à votre appareil Salle Teams, la connectivité réseau, l’état de connexion aux services requis et les informations de version logicielle.
-- **Détails** Affiche les informations du fabricant, l’adresse IP réseau et l’adresse MAC/série de l’appareil salle Teams.
+- **Périphériques** Affiche les périphériques connectés à votre appareil salles Teams et leur état d’intégrité. L’état d’intégrité peut être **Connecté** ou **Déconnecté**.
+- **Santé** Affiche des informations détaillées sur les périphériques connectés à votre appareil salles Teams, la connectivité réseau, l’état de connexion aux services requis et les informations de version logicielle.
+- **Détails** Affiche les informations du fabricant, l’adresse IP réseau et salles Teams’adresse MAC/série de l’appareil.
 - **Activité** Affiche les détails de la réunion précédente, notamment la date et l’heure de la réunion, le nombre de participants, la durée et la qualité audio. Pour plus d’informations sur les détails de la réunion, consultez la section [Détails de l’activité](#meeting-activity-details) de réunion plus loin dans cet article.
-- **Histoire** Affiche un historique de l’activité de gestion sur l’appareil Salle Teams, y compris les mises à jour de configuration, les redémarrages d’appareil et les liens de téléchargement du journal des appareils.
+- **Histoire** Affiche un historique de l’activité de gestion sur l’appareil salles Teams, y compris les mises à jour de configuration, les redémarrages de l’appareil et les liens de téléchargement du journal des appareils.
 
 #### <a name="meeting-activity-details"></a>Détails de l’activité de réunion
 
-**L’onglet Activité** dans les détails de l’appareil salle Teams affiche des informations détaillées et générales sur toutes les réunions aux laquelle l’appareil a participé au fil du temps. Dans **l’onglet Activité** , vous pouvez voir quand une réunion a eu lieu, combien de participants ont participé à la réunion et la qualité de l’audio pendant la réunion.
+**L’onglet Activité** dans salles Teams détails de l’appareil affiche des informations détaillées et générales sur toutes les réunions aux cours des laquelle l’appareil a participé au fil du temps. Dans **l’onglet Activité** , vous pouvez voir quand une réunion a eu lieu, combien de participants ont participé à la réunion et la qualité de l’audio pendant la réunion.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Liste récapitulative de l’activité de l’appareil salle Teams.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="salles Teams liste récapitulative de l’activité de l’appareil.":::
 
 Pour afficher les informations détaillées sur une réunion spécifique, sélectionnez la date et l’heure de la réunion dont vous souhaitez plus d’informations. Si une réunion ne compte que deux participants, la page des détails du participant s’affiche. Sinon, une page récapitulative du participant s’affiche.
 
@@ -192,10 +192,10 @@ Pour afficher les informations détaillées sur une réunion spécifique, sélec
 
 La page récapitulative des participants montre tous les participants qui ont assisté à la réunion. Vous pouvez voir quand chaque participant a rejoint la réunion, son nom, sa qualité audio et les fonctionnalités qui ont été utilisées pendant sa session. Pour afficher les détails de la session d’un participant, sélectionnez l’heure de début de la session pour ce participant.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Détails de la conférence sur les appareils de la salle Teams.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="salles Teams détails de la conférence sur les appareils.":::
 
 ##### <a name="participant-details"></a>Détails du participant
 
 La page de détails du participant affiche des informations de diagnostic de bout en bout pour la session de ce participant. Comme indiqué dans le graphique suivant, les informations **sur l’appareil**, **le système** et la **connectivité** sont fournies pour le participant et pour l’appareil salles Teams. **Des informations de diagnostic réseau** entre le participant et l’appareil salles Teams sont également fournies. Sélectionnez l’icône du contexte sur lequel vous souhaitez plus d’informations. Pour plus d’informations de diagnostic, sélectionnez l’onglet **Avancé** .
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Détails de l’appel de l’appareil Salle Teams.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="salles Teams détails de l’appel d’appareil.":::

@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez le service managé Salles Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 5e59312d3febe2dc6b4178874bae21fc27fe77d2
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 07b18a45e376c594d23f836ff12f24474f25968b
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606283"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706471"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Salles Microsoft Teams service managé
 
@@ -124,7 +124,7 @@ La licence Salles Microsoft Teams Pro est disponible dans les pays suivants sans
 |Éléments inclus |Ce qui est exclu |Canaux de prise en charge des éléments exclus  |
 |---------|---------|---------|
 |**Configuration du service**   |         |         |
-|Examen et conseils pour Salles Microsoft Teams configuration de Windows, notamment les paramètres d’application Salles Microsoft Teams, la configuration réseau interne, la configuration de logiciels internes et les paramètres d’alimentation et configuration recommandés.     |Toutes les configurations et investigations logicielles tierces qui ne font pas directement partie de l’application Salle Microsoft Teams. En outre, toutes les configurations propres à l’OEM qui nécessitent une configuration en dehors des fenêtres internes ou des paramètres d’application salle Microsoft Teams.         |Canaux de support standard tiers         |
+|Examen et conseils pour Salles Microsoft Teams configuration de Windows, notamment les paramètres d’application Salles Microsoft Teams, la configuration réseau interne, la configuration de logiciels internes et les paramètres d’alimentation et configuration recommandés.     |Toutes les configurations et investigations logicielles tierces qui ne font pas directement partie de l’application Salles Microsoft Teams. En outre, toutes les configurations oem qui nécessitent une configuration en dehors des fenêtres internes ou des paramètres d’application Salles Microsoft Teams.         |Canaux de support standard tiers         |
 |**Configuration du compte de salle**    |         |         |
 |Direction vers la documentation disponible pour la configuration du compte de salle à la demande. Pour les problèmes de connexion ou de configuration de compte, une investigation initiale est effectuée.     |Exécution des corrections recommandées ou problèmes liés à l’exécution de la correction recommandée, à la configuration des fournisseurs d’authentification tiers et à la configuration des fonctionnalités de compte individuel.        |Prise en charge standard de Microsoft et prise en charge du fournisseur d’authentification tiers         |
 |**Prise en charge des périphériques**    |         |         |

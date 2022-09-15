@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Découvrez et comparez les licences disponibles pour différents types de fonctionnalités d’appel et de réunion dans Salles Microsoft Teams.
-ms.openlocfilehash: f2815dd99cb2b1882ec0783fc834d58db60c1b0d
-ms.sourcegitcommit: 087254ba68d75ea4f9205a972f1d8d554d9176c7
+ms.openlocfilehash: df84e94ebda02020e88d8bfc19fa42c86561b07d
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "67650816"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706671"
 ---
 # <a name="microsoft-teams-rooms-licenses"></a>Licences Salles Microsoft Teams
 
@@ -80,7 +80,7 @@ Si votre organisation dispose d’un Accord Entreprise, vous pouvez continuer à
 
 <sup>*</sup>Les ingénieurs du service Microsoft ne serviront plus d’intermédiaires pour la réponse aux incidents à compter du 1er octobre 2022.
 
-## <a name="teams-rooms-console-and-teams-client-feature-comparison"></a>comparaison des fonctionnalités de la console salles Teams et du client Teams
+## <a name="teams-rooms-basic-and-teams-rooms-pro-feature-comparison"></a>salles Teams Comparaison des fonctionnalités De base et salles Teams Pro
 
 Les tableaux suivants comparent les licences salles Teams De base et salles Teams Pro et indiquent les fonctionnalités disponibles avec chacune d’elles. Si aucune fonctionnalité n’est disponible pour une licence, cette fonctionnalité ne peut pas être utilisée sur salles Teams appareils auxquels cette licence a été attribuée. Pour utiliser une fonctionnalité sur un appareil salles Teams, affectez la licence dans laquelle cette fonctionnalité est disponible pour cet appareil.
 

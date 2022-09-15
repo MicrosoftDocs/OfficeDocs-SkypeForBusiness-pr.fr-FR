@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et périphériques USB (tels que les casques, les haut-parleurs, les webcams et les moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: d7bc08eedf4c70222554b7aed05c0b2a150064e0
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: ad020877a9d6d8ba3a0af3b87e2307b69e7510c8
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268549"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706063"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft Teams
 
@@ -175,7 +175,7 @@ Si vous êtes fabricant et que vous souhaitez participer au programme de certifi
 |Jabra                |Faire évoluer le casque 40                                          |8/23/2020       |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
 |Jabra                |Evolve 30 II Headset                                       |8/23/2020       |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
 |Jabra                |Faire évoluer le casque 20                                          |8/23/2020       |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
-|EPOS/Sennhesier      |COMMANDE 260 USB PTT                                        |8/20/2020       |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
+|EPOS/Sennheiser      |COMMANDE 260 USB PTT                                        |8/20/2020       |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 660 avec connecteur USB-ED CC 01 MS               |8/20/2020       |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 630 avec connecteur USB-ED CC 01 MS               |8/20/2020       |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 260 avec connecteur USB-ED CC 01 MS               |8/20/2020       |Skype Entreprise avec mise à niveau vers Microsoft Teams      |

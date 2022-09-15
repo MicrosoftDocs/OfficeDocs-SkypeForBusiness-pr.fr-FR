@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Fournissez une vue d’ensemble de l’intégrité de vos salles de réunion.
 f1keywords: ''
-ms.openlocfilehash: d76f1f68e0cc73d2abd554ec5c2fc115139a6a0f
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 3587e1ab6e19fa7eac2519ccffe7c8f3bd19f2fc
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269209"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67707011"
 ---
 # <a name="microsoft-managed-meeting-rooms-portal"></a>Portail des salles de réunion gérées Par Microsoft
 
@@ -60,7 +60,7 @@ Voici les termes fréquemment utilisés dans le portail.
 |**Non surveillé** | Les logiciels de surveillance Microsoft déployés dans le cadre de services gérés ne peuvent pas se connecter aux services cloud. Nous ne recevons pas de données de télémétrie sur l’appareil. |
 |<p>**Sain /** </p><p>**Malsain** </p>|Anomalies dans l’appareil/périphérique. |
 |**Supprimé** |Si un appareil est connu pour être en maintenance et que ses alertes doivent être ignorées, l’appareil peut être supprimé délibérément. |
-|**Intégration** |L’état d’un appareil de salle pendant l’installation est ajouté, mais n’est pas prêt en tant que salle régulièrement prise en charge. |
+|**Intégration** |État d’un appareil de salle pendant qu’il est configuré, mais n’est pas prêt en tant que salle prise en charge régulièrement. |
 |**Incident** |Problème affectant les expériences de réunion des utilisateurs finaux qui ont besoin d’une action. |
 |**Mal configuré** |La configuration détectée n’est pas correcte/ couramment utilisée. |
 |**Support Ticket** |Identificateur de suivi Microsoft interne qui effectue le suivi de toutes les communications/actions concernant un incident. |
@@ -97,7 +97,7 @@ Le fait de cliquer sur l’un des éléments dont l’état est « **Action Des 
 
 Les incidents sont classés en deux types de gravité larges :
 
-- **Important** : les incidents qui sont susceptibles de provoquer des problèmes lors de réunions et qui doivent être classés par ordre de priorité.
+- **Important** : Incidents susceptibles de provoquer des problèmes lors de réunions et qui doivent être classés par ordre de priorité.
 - **Avertissement** : incidents qui sont des notifications pour planifier des actions de maintenance. Si ces derniers ne sont pas pris en charge, puis au fil du temps les chambres sont plus susceptibles de frapper un problème. Les avertissements sont destinés à vous donner le temps de planifier et d’orchestrer le support.
 
 Un avertissement peut passer à « **Important** » s’il n’est pas pris en charge pendant un certain temps.
@@ -120,10 +120,10 @@ Voici quelques-uns des types d’incidents que vous pouvez voir et les explicati
 |**Microphone de conférence, présentateur de conférence** |Les périphériques audio (microphone/haut-parleur) semblent être mal configurés. |
 |**Caméra** |La caméra connectée à l’appareil ne semble pas saine. |
 |**Ingestion HDMI** |L’ingestion HDMI n’est pas saine. |
-|**Connexion** (Exchange) |L’application Salle Microsoft Teams accède aux informations du calendrier à partir d’Exchange et tout problème lié à la réussite de la connexion est signalé par un incident de connexion. |
-|**Connexion** (Teams) |L’application Salle Microsoft Teams se connecte à l’appareil et l’échec de connexion est signalé avec cet incident (si le client utilise Teams). |
-|**Connexion** (Skype Entreprise) |L’application Salle Microsoft Teams se connecte à l’appareil et l’échec de connexion est signalé avec cet incident (si le client utilise Skype Entreprise) |
-|**Capteur de proximité** |L’application Salle Microsoft Teams invite les participants à participer à une réunion s’ils sont à proximité. Les défaillances de cette fonctionnalité sont signalées dans le cadre de cet incident. |
+|**Connexion** (Exchange) |Salles Microsoft Teams’application accède aux informations du calendrier à partir d’Exchange et tout problème de réussite de la connexion est signalé par un incident de connexion. |
+|**Connexion** (Teams) |Salles Microsoft Teams application se connecte à l’appareil et l’échec de connexion est signalé avec cet incident (si le client utilise Teams). |
+|**Connexion** (Skype Entreprise) |Salles Microsoft Teams application se connecte à l’appareil et l’échec de connexion est signalé avec cet incident (si le client utilise Skype Entreprise). |
+|**Capteur de proximité** |Salles Microsoft Teams’application invite les participants à participer à une réunion s’ils sont à proximité. Les défaillances de cette fonctionnalité sont signalées dans le cadre de cet incident. |
 
 **Tableau 2 : Incidents avec gravité « Avertissement »**
 
@@ -168,7 +168,7 @@ Chaque appareil est un proxy pour une salle et ses périphériques connectés. U
 
 ![Capture d’écran montrant la vue d’ensemble de l’intégrité d’une salle](../media/rooms-monitor-007.jpg)
 
-**Sain, non sain, déconnecté** Le panneau supérieur de la vue Salles fournit un instantané rapide du nombre de vos appareils dans un état correct (« Sain »), du nombre d’appareils affectés par des problèmes (« Non sains »), du nombre d’appareils qui ne fournissent pas de données de télémétrie (« déconnectés ») et du nombre d’appareils supprimés des alertes (en guise de remplacement). Les chambres sont surveillées pour la santé à l’aide de critères évolutifs et heuristiques. L’objectif est de refléter la réalité de l’expérience utilisateur dans la salle aussi précisément que possible et de la rendre exploitable.
+**Sain, non sain, déconnecté** Le panneau supérieur de la vue Salles fournit un instantané rapide du nombre de vos appareils dans un état correct (« Sain »), du nombre d’appareils affectés par des problèmes (« Non sains »), du nombre d’appareils qui ne fournissent pas de données de télémétrie (« Déconnectés ») et du nombre d’appareils supprimés des alertes (en guise de remplacement). Les chambres sont surveillées pour la santé à l’aide de critères évolutifs et heuristiques. L’objectif est de refléter la réalité de l’expérience utilisateur dans la salle aussi précisément que possible et de la rendre exploitable.
 
 **Salles saines/non saines** :
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e557e0901293c26d48e30ed163883f9cd97f12e
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7e540200f42af23ff4382db7ed4ff528971501b9
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790349"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706013"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -202,7 +202,7 @@ Pour en savoir plus sur Teams et Applications Microsoft 365 pour les grandes ent
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        Ce processus installe Teams dans le `%ProgramFiles(x86)%` dossier d’un système d’exploitation 64 bits et dans le `%ProgramFiles%` dossier d’un système d’exploitation 32 bits. À ce stade, la configuration de l’image d’or est terminée.
+        Ce processus installe Teams dans le `%ProgramFiles(x86)%` dossier d’un système d’exploitation 32 bits et dans le `%ProgramFiles%` dossier d’un système d’exploitation 64 bits. À ce stade, la configuration de l’image d’or est terminée.
 
         > [!IMPORTANT]
         >  L’installation de Teams par machine est requise pour les configurations non persistantes.
@@ -403,20 +403,12 @@ Les stratégies VDI Teams sont disponibles dans le module Teams. Ces stratégies
 > [!NOTE]
 > Cela concerne uniquement les environnements non optimisés.
 
-### <a name="update-a-module-name"></a>Mettre à jour un nom de module
+### <a name="connect-to-microsoft-teams-powershell"></a>Se connecter à Microsoft Teams PowerShell
+
+Suivez les instructions du [module Installer Microsoft Teams PowerShell](/Teams/teams-powershell-install.md) pour vous connecter au module Microsoft Teams PowerShell. Exécutez ensuite la commande suivante pour vérifier que toutes les applets de commande VDI sont disponibles :
 
 ```PowerShell
-Update-Module -Name MicrosoftTeams -AllowPrerelease
-
-<# Import and connect to online (CSOnline runs the policies) #>
-Import-Module microsoftTeams
-if( -not $sess){
-    $session = New-CsOnlineSession
-    $pss = Import-PSSession $session
-}
-<# Check out the commands #>
 Get-Command -Noun *VDI*
-<#
 ```
 
 ### <a name="set-policies-to-limit-calling-features"></a>Définir des stratégies pour limiter les fonctionnalités d’appel
@@ -486,7 +478,7 @@ if($cleanup){
 - Avec l’installation par ordinateur, Teams sur VDI n’est pas automatiquement mis à jour de la même façon que les clients Teams non VDI. Vous devez mettre à jour l’image de machine virtuelle en installant une nouvelle identité MSI, comme décrit dans la section [Installer ou mettre à jour l’application de bureau Teams sur VDI](#install-or-update-the-teams-desktop-app-on-vdi) . Vous devez désinstaller la version actuelle pour effectuer une mise à jour vers une version plus récente.
 - Dans les environnements Citrix, si l’utilisateur se déconnecte de la machine virtuelle pendant l’exécution de Teams, les mises à jour Teams peuvent entraîner l’utilisation d’un état non optimisé pour AV lorsqu’il se reconnecte. Nous recommandons aux utilisateurs de quitter Teams avant de se déconnecter de la machine virtuelle Citrix pour éviter ce scénario.
 - Teams doit être déployé par utilisateur ou par ordinateur. Le déploiement de Teams simultanément par utilisateur et par ordinateur n’est pas pris en charge. Pour migrer de l’ordinateur ou de l’utilisateur vers l’un de ces modes, suivez la procédure de désinstallation et redéployez-la vers l’un de ces modes.
-- Azure Virtual Desktop ne prend pas en charge les clients macOS et Linux pour l’instant.
+- Azure Virtual Desktop ne prend pas en charge les clients Linux pour l’instant.
 - Le changement de locataire rapide peut entraîner des problèmes liés à l’appel sur VDI, tels que le partage d’écran, qui n’est pas disponible. Le redémarrage du client atténuera ces problèmes.
 
 ### <a name="notifications"></a>Notifications
@@ -538,7 +530,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 Ensuite, redémarrez VDA. Pour plus d’informations, consultez cet article de support Citrix sur la [résolution des problèmes d’optimisation HDX pour Microsoft Teams](https://support.citrix.com/article/CTX253754).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Installer Teams en bloc à l’aide de Windows Installer (MSI)](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

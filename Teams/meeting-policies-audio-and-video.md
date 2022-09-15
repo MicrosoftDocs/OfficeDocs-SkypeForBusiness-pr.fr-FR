@@ -1,7 +1,7 @@
 ---
 title: Gérer les stratégies de réunion pour l’audio et la vidéo
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour l’audio et la vidéo.
-ms.openlocfilehash: cb53cfa52b9e3be28b6400ab87a9fc3b329406b9
-ms.sourcegitcommit: a31c02892e35babbbcf5e7c303c7f14d7ba5cb52
+ms.openlocfilehash: ac5c58c00f5069638c087d04a033e8e0ff3d4822
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784688"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706844"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Paramètres de stratégie de réunion pour la vidéo audio &
 
@@ -50,7 +50,7 @@ Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si l’
 |**Audio sortant et entrant activé**    |Le paramètre Les éléments audio entrants et sortants sont autorisés pendant la réunion. Il s’agit du paramètre par défaut. |
 |**Non activé**     |Les éléments audio entrants et sortants sont désactivés pendant la réunion.     |
 
-S’il est défini sur **Non activé** pour un utilisateur, cet utilisateur peut toujours planifier et organiser des réunions, mais il ne peut pas utiliser l’audio. Pour participer à une réunion, ils doivent se connecter via le réseau téléphonique commuté public (PSTN) ou passer un appel à la réunion et les rejoindre par téléphone. Les participants à la réunion qui n’ont pas de stratégie attribuée (par exemple, les participants anonymes) ont ce paramètre sur **Audio sortant et entrant activé** par défaut. Sur Teams clients mobiles, si ce paramètre n’est pas activé, l’utilisateur doit se connecter à la réunion via le RTC.
+S’il est défini sur **Non activé** pour un utilisateur, cet utilisateur peut toujours planifier et organiser des réunions, mais il ne peut pas utiliser l’audio. Pour participer à une réunion, ils doivent se connecter via le réseau téléphonique commuté public (PSTN) ou passer un appel à la réunion et les rejoindre par téléphone. Les participants à la réunion qui n’ont pas de stratégie attribuée (par exemple, les participants anonymes) ont ce paramètre sur **Audio sortant et entrant activé** par défaut. Sur les clients mobiles Teams, si ce paramètre n’est pas activé, l’utilisateur doit se connecter à la réunion via le RTC.
 
 Ce paramètre ne s’applique pas aux appels en tête en tête. Pour restreindre les appels en tête à tête, configurez une [stratégie d'appel](teams-calling-policy.md) Teams et désactivez le paramètre **Passer des appels privés** . Ce paramètre ne s’applique pas non plus aux appareils de salle de conférence tels que les appareils Surface Hub et salle Microsoft Teams.
 
@@ -80,7 +80,7 @@ Pour plus d’informations, consultez [Gérer l’audio/vidéo pour les particip
 
 ### <a name="ip-video"></a>Vidéo IP
 
-Il s’agit d’une combinaison d’une stratégie par organisateur et par utilisateur. La vidéo est un composant essentiel pour les réunions. Dans certaines organisations, il est possible que les administrateurs souhaitent plus de contrôle sur les réunions des utilisateurs qui ont une vidéo. Ce paramètre contrôle si la vidéo peut être activée dans les réunions organisées par un utilisateur et dans les appels en tête en tête et de groupe lancés par un utilisateur. Sur Teams clients mobiles, ce paramètre contrôle si les utilisateurs peuvent partager des photos et des vidéos dans une réunion.
+Il s’agit d’une combinaison d’une stratégie par organisateur et par utilisateur. La vidéo est un composant essentiel pour les réunions. Dans certaines organisations, il est possible que les administrateurs souhaitent plus de contrôle sur les réunions des utilisateurs qui ont une vidéo. Ce paramètre contrôle si la vidéo peut être activée dans les réunions organisées par un utilisateur et dans les appels en tête en tête et de groupe lancés par un utilisateur. Sur les clients mobiles Teams, ce paramètre contrôle si les utilisateurs peuvent partager des photos et des vidéos dans une réunion.
 
 Les réunions organisées par un utilisateur pour lequel ce paramètre de stratégie est activé permettent le partage de vidéos dans la réunion par les participants, si ces derniers ont également activé le paramètre de stratégie. Les participants à la réunion qui n'ont pas de stratégie attribuée (par exemple, les participants anonymes et fédérés) héritent de la stratégie de l'organisateur de la réunion.
 
@@ -134,7 +134,7 @@ La stratégie la plus restrictive entre la stratégie de l’organisateur de la 
 
 #### <a name="teams-mobile-clients"></a>Clients mobiles Teams
 
-Pour les utilisateurs sur Teams clients mobiles, la possibilité de partager des photos et des vidéos pendant une réunion est également déterminée par  le paramètre de **mode vidéo IP ou vidéo IP**. Selon le paramètre de stratégie prioritaire, la possibilité de partager des vidéos et des photos ne sera pas disponible. Cela n’affecte pas le partage d’écran, que vous configurez à l’aide d’un paramètre [Mode de partage d’écran](meeting-policies-content-sharing.md#screen-sharing-mode) séparé. De plus, vous pouvez définir une [Stratégie de mobilité Teams](/powershell/module/skype/new-csteamsmobilitypolicy) pour empêcher les utilisateurs mobiles d’utiliser une vidéo sur IP via une connexion cellulaire, ce qui signifie qu’ils doivent utiliser une connexion WiFi.
+Pour les utilisateurs sur les clients mobiles Teams, la possibilité de partager des photos et des vidéos pendant une réunion  est également déterminée par le paramètre de **mode vidéo IP ou vidéo IP**. Selon le paramètre de stratégie prioritaire, la possibilité de partager des vidéos et des photos ne sera pas disponible. Cela n’affecte pas le partage d’écran, que vous configurez à l’aide d’un paramètre [Mode de partage d’écran](meeting-policies-content-sharing.md#screen-sharing-mode) séparé. De plus, vous pouvez définir une [Stratégie de mobilité Teams](/powershell/module/skype/new-csteamsmobilitypolicy) pour empêcher les utilisateurs mobiles d’utiliser une vidéo sur IP via une connexion cellulaire, ce qui signifie qu’ils doivent utiliser une connexion WiFi.
 
 ### <a name="media-bit-rate-kbs"></a>Vitesse de transmission du média (Ko)
 
@@ -148,13 +148,13 @@ Pour les réunions qui nécessitent une expérience vidéo de la plus haute qual
 
 <a name="bkvideofilters"> </a>
 
-Il s’agit d’un paramètre par participant. Ce paramètre contrôle si les utilisateurs peuvent personnaliser leur arrière-plan vidéo lors d'une réunion.
+Il s’agit d’une stratégie par utilisateur. Ce paramètre contrôle si les utilisateurs peuvent personnaliser leur arrière-plan vidéo lors d'une réunion.
 
-Vous pouvez utiliser Teams Centre d’administration et PowerShell pour définir cette stratégie. Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy), puis attribuer la stratégie aux utilisateurs.
+Vous pouvez utiliser le Centre d’administration Teams et PowerShell pour définir cette stratégie. Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy), puis attribuer la stratégie aux utilisateurs.
 
-Pour spécifier si les utilisateurs peuvent personnaliser leur arrière-plan vidéo dans une réunion, définissez le paramètre **VideoFiltersMode** (**paramètre Sélectionner des filtres vidéo** dans Teams centre d’administration) comme suit :
+Pour spécifier si les utilisateurs peuvent personnaliser leur arrière-plan vidéo dans une réunion, définissez le paramètre **VideoFiltersMode** (**paramètre Sélectionner des filtres vidéo** dans le Centre d’administration Teams) comme suit :
 
-|Définition de la valeur dans PowerShell|Définition de la valeur dans Teams centre d’administration |Comportement  |
+|Définition de la valeur dans PowerShell|Définition de la valeur dans le Centre d’administration Teams |Comportement  |
 |---------|---------|---------|
 |**NoFilters** |**Aucun filtre**    |L'utilisateur ne peut pas personnaliser l'arrière-plan vidéo.|
 |**BlurOnly**     |**Flou d’arrière-plan uniquement**|L'utilisateur a la possibilité de flouter l'arrière-plan de la vidéo. |
@@ -170,7 +170,7 @@ Vous pouvez ajouter des images d’arrière-plan personnalisées à utiliser par
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Sélectionnez **MeetingsMeeting** >  **PoliciesCustomize** >  images de réunion.
+2. Sélectionnez **Stratégies de****réunion** >  pour personnaliser les  > **images de réunion**.
 
    ![Sélection des stratégies de réunion avec le bouton Personnaliser les images de réunion mis en surbrillance.](media/custom-background-image-button.png)
 
@@ -203,7 +203,7 @@ Les participants à la réunion voient une sélection d’images d’arrière-pl
 
 ### <a name="far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras"></a>Contrôle de caméra de bout en bout (FECC) pour les caméras PTZ (Point Tilt Zoom)
 
-Le contrôle de caméra de bout en bout est une stratégie qui peut être affectée à salles Teams sur Windows comptes de ressources. Il permet aux caméras PTZ connectées à une salle Teams d’être contrôlées par les participants à la réunion dans l’application cliente Teams pendant les réunions.
+Le contrôle de caméra de bout en bout est une stratégie qui peut être affectée à salles Teams sur les comptes de ressources Windows. Il permet aux caméras PTZ connectées à une salle Teams d’être contrôlées par les participants à la réunion dans l’application cliente Teams pendant les réunions.
 
 Pour utiliser le contrôle de caméra de bout en bout, les participants à la réunion doivent obtenir l’application **PTZ Camera Controls** .  Consultez [Autoriser et bloquer des applications](manage-apps.md#allow-and-block-apps) pour savoir comment rendre l’application disponible dans l’App Store de votre organisation.
 

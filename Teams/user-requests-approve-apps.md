@@ -14,16 +14,16 @@ ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.manageapps.overview
-description: Découvrez comment gérer et configurer la demande de l’utilisateur final pour autoriser les applications bloquées dans une organisation.
+description: Découvrez comment gérer et configurer la demande d’approbation des applications bloquées dans une organisation par l’utilisateur final.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 62d34aae25ef1ebff585ea430aeb3db20856669a
-ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
+ms.openlocfilehash: 0967aec80bb88dff12141040fead94af9aae0616
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "67657324"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706223"
 ---
 # <a name="manage-user-requests"></a>Gérer les demandes des utilisateurs
 
@@ -75,18 +75,18 @@ Pour configurer un message personnalisé et rediriger les utilisateurs vers une 
 
 1. Dans le coin supérieur droit, sélectionnez **Paramètres de l’application à l’échelle de l’organisation**.
 
-1. Pour afficher un message ou une instruction personnalisé dans le magasin Teams, entrez un sms dans le champ de texte sous **Configuration des demandes de l’utilisateur**.
+1. Pour afficher un message ou une instruction personnalisé dans le magasin Teams, entrez un sms dans le champ de texte sous **Configuration des demandes de l’utilisateur**. Le champ a une limite de 300 caractères.
 
 1. Pour fournir une URL spécifique à l’organisation pour collecter les demandes des utilisateurs, procédez comme suit :
 
    1. Activez le bouton bascule **Des demandes de redirection vers un lien externe** .
    1. Indiquez l’URL propre à votre organisation.
 
-      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="Capture d’écran permettant de désactiver la personnalisation de l’URL de la demande de l’utilisateur pour débloquer l’application dans l’interface utilisateur des paramètres à l’échelle de l’organisation.":::
+      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="Capture d’écran permettant de désactiver la personnalisation de l’URL des demandes utilisateur dans l’interface utilisateur des paramètres à l’échelle de l’organisation.":::
 
 1. Sélectionnez **Enregistrer**.
 
-Les méthodes permettant d’évaluer et d’autoriser les applications demandées restent les mêmes.
+Si vous choisissez de le faire, les méthodes permettant d’évaluer des applications tierces et d’autoriser les applications demandées restent les mêmes.
 
 ## <a name="dismiss-user-requests"></a>Ignorer les demandes des utilisateurs
 

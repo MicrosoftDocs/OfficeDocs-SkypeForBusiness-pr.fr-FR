@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez les journaux d’activité Debug, Media et Desktop produits par Microsoft Teams, où ils se trouvent et comment ils peuvent aider à la surveillance et à la résolution des problèmes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ab00f7a1eedf2b1341819c7ec1c67abeb5f6e38
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 2edddca64bf0cb50dc29758fd60bc397cbc00f8b
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486889"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705813"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>Configurer des fichiers journaux pour la surveillance et la résolution des problèmes dans Teams
 
@@ -34,6 +34,8 @@ Il existe trois types de fichiers journaux générés automatiquement par le cli
 -   [Journaux du bureau](#desktop-logs)
 
 Cet article décrit ces journaux et leur utilisation. Pour plus d’informations sur la résolution des problèmes spécifiques, consultez : [Résolution des problèmes Teams](/MicrosoftTeams/troubleshoot/teams). 
+
+Pour plus d’informations sur la collecte des journaux d’activité à partir d’appareils Salles Microsoft Teams, consultez [Télécharger les journaux d’activité des appareils](/microsoftteams/rooms/rooms-manage#download-device-logs).
 
 Pour plus d’informations sur la façon de contacter le support technique, consultez [Obtenir un support](/microsoft-365/business-video/get-help-support).
 

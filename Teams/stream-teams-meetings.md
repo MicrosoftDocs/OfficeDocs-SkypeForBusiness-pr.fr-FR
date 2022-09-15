@@ -1,7 +1,7 @@
 ---
 title: Diffuser en continu des réunions Teams
-author: mkbond007
-ms.author: mabond
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: suchakr
 ms.topic: article
@@ -18,12 +18,12 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 description: Découvrez comment configurer et gérer la diffusion en continu pour vos réunions Teams.
-ms.openlocfilehash: 5e1e84fc3b0b4ed2f81b3f3a8c84450dc3cee56c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: b8394abfe66ecde6813e383e0473bcdca2a0ad9f
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270179"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67707001"
 ---
 # <a name="stream-teams-meetings"></a>Diffuser en continu des réunions Teams
 
@@ -53,7 +53,7 @@ Définissez **LiveStreamingMode** sur **Enabled** pour activer les fonctionnalit
 
 Pour plus d’informations sur l’affectation de stratégies avec PowerShell, consultez [Affecter des stratégies dans Teams](policy-assignment-overview.md).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Affecter des stratégies dans Teams](policy-assignment-overview.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)

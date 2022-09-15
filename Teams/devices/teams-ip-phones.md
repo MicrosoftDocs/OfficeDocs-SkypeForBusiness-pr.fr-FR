@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams afin de produire les meilleurs résultats.
-ms.openlocfilehash: b42ded686588d26bdd647adab136b4f0dba98cdb
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: b35fbf4572c9db1a1fba5bf0ae341c596b9166b2
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67642095"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706023"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Appareils Android certifiés Microsoft Teams
 
@@ -110,6 +110,7 @@ Les appareils suivants sont certifiés dans le cadre du programme de certificati
 
 | Modèle d’appareil| Version du microprogramme | Date de fin de la certification actuelle | Version du système d’exploitation Android |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
+|L’OEBS développe Panneau de configuration   | `1.2.22206.03` | 3 septembre 2024 | 10 |
 |Panneau pad soigné    | `NFA1.20220211.1400` | 5 août 2023 | 9 |
 |Crestron TSS-770 | `2.001.0058` |3 septembre 2024  | 10 |
 |Crestron TSS-1070 | `2.001.0058`|3 septembre 2024 | 10 |
@@ -266,6 +267,7 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version du produit incluse |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBoard 65 » | `155.15.0.10 `   | Mise à jour 2022 #2A  |
 | Poly Studio X30 | `3.13.0.368067` | Mise à jour 2022 #2A   |
 | Poly Studio X50 | `3.13.0.368067` | Mise à jour 2022 #2A |
 | Poly TC8        | `3.13.0.210799`          | Mise à jour 2022 #2A   |

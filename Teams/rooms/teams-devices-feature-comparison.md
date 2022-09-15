@@ -18,12 +18,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f9c4cf77b544e731e143f245a30e710417bebca
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 20c479760b2093e355bf2f0b3cbd8be0a1599002
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272369"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706043"
 ---
 # <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Comparaison des fonctionnalités des appareils Teams pour les espaces partagés entre Windows et Android 
 Salles Microsoft Teams expériences sont conçues en tenant compte des clients. Chaque client a des besoins uniques, c’est pourquoi Microsoft offre un large éventail d’options, notamment salles Teams sur Windows et sur Android. 
@@ -46,6 +46,7 @@ Pour vous guider sur les fonctionnalités disponibles sur différentes plateform
 ||Participation directe à l’invité |Disponible  |Disponibles |
 |**Engagement et collaboration des réunions**|Expérience d’application intuitive et spécialement conçue |Disponible  |Disponibles |
 ||Mises en page vidéo et de contenu (par exemple, mode Ensemble, grande galerie, galerie uniquement, galerie et contenu) |Disponible  |Disponibles |
+||Disposition de la ligne avant|Disponible|Non disponibles|
 ||Bulles de conversation|Disponible |Bientôt disponible |
 ||Lever la main, baisser toutes les mains |Disponible  |Disponibles |
 ||Épingler plusieurs participants |Disponible  |Bientôt disponible |

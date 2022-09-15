@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lisez cet article pour plus d’informations sur la création de comptes de ressources pour les salles et les appareils partagés, notamment les Salles Microsoft Teams, les salles Teams sur Surface Hub et la mise à l’eau à chaud sur les écrans Teams.
-ms.openlocfilehash: e9e7b2724c5c1d8fd85aff956affe96dadf9aaae
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 213cd2019aa23c296706c70a66e3e873f7527ee9
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606223"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706631"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>Créer et configurer des comptes de ressources pour les salles et les appareils Teams partagés
 
@@ -271,7 +271,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 2. Définissez le mot de passe pour qu’il n’expire jamais à l’aide de la syntaxe suivante :
 
     ```PowerShell
-    Set-MsolUser -Identity <samAccountName> -PasswordNeverExpires $true
+    Set-MsolUser -UserPrincipalName <userPrincipalName> -PasswordNeverExpires $true
     ```
 
     Cet exemple montre comment définir le mot de passe du compte ConferenceRoom01@contoso.com pour qu’il n’expire jamais.

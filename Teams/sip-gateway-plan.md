@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adcaee64e2a95d41229afe580624c6798547cb85
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fd4b50052483c9f6e5221f3555a962adfe2444d3
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271699"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706003"
 ---
 # <a name="plan-for-sip-gateway"></a>Planifier la passerelle SIP
 
@@ -61,7 +61,7 @@ Les utilisateurs Teams doivent disposer d’un numéro de téléphone avec l’a
 
 Si vous disposez d’un appareil 3PIP ou SIP, vous devez disposer des éléments suivantes :
 
-- Une licence pour le système téléphonique (via E5 ou une licence autonome)
+- Une licence pour Microsoft Teams, Skype Entreprise Plan en ligne 2 et Microsoft 365 Phone System (via des licences E5 ou autonomes)
 - Activation RTC (par exemple, un numéro de téléphone) via un plan d’appel Microsoft Teams, un routage direct ou une connexion d’opérateur
 - Une licence Common Area Phone pour tous les appareils de zone commune
 
