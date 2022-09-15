@@ -1,14 +1,14 @@
 ---
 title: 'Stratégies d’appel dans Microsoft Teams : fonctionnalités d’appel et de transfert d’appel'
-author: SerdarSoysal
-ms.author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: Découvrez comment créer, modifier et ajouter des utilisateurs à des stratégies d’appel personnalisées dans Microsoft Teams, ainsi qu’à différents paramètres de stratégie d’appel.
+description: Découvrez comment créer, modifier et ajouter des utilisateurs à des stratégies d’appel personnalisées dans Microsoft Teams, ainsi que différents paramètres de stratégie d’appel.
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a52b30e1ced457377d7dd1c820192cb856827ba
-ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
+ms.openlocfilehash: 6c785a6860c1ea45200253e9d2530a80e9dd28f6
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65601623"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67708280"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Appel et transfert d’appel dans Teams
 
@@ -37,7 +37,7 @@ Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’o
 
 Suivez ces étapes pour créer une stratégie d’appel personnalisée.
 
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez aux **stratégies VoiceCalling** > .
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams,**accédez aux stratégies d’appel** **vocal** > .
 2. Sélectionnez **Ajouter**.
 3. Activez ou désactivez les fonctionnalités que vous souhaitez utiliser dans votre stratégie d’appel.
 4. Pour contrôler si les utilisateurs peuvent acheminer les appels entrants vers la messagerie vocale, **sélectionnez Activé** ou **Contrôlé par l’utilisateur**. Pour empêcher le routage vers la messagerie vocale, sélectionnez **Désactivé**.
@@ -47,7 +47,7 @@ Suivez ces étapes pour créer une stratégie d’appel personnalisée.
 
 Suivez ces étapes pour modifier une stratégie d’appel existante.
 
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, sélectionnez **Stratégies** **VoiceCalling** > .
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, sélectionnez Stratégies **d’appel** **vocal** > .
 2. Cliquez en regard de la stratégie à modifier, puis **sélectionnez Modifier**.
 3. Apportez les modifications souhaitées, puis cliquez sur **Enregistrer**.
 
