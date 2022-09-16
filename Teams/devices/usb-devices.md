@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et périphériques USB (tels que les casques, les haut-parleurs, les webcams et les moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: ad020877a9d6d8ba3a0af3b87e2307b69e7510c8
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 481c145d5206789c5603ab46334127b6bb724c13
+ms.sourcegitcommit: 0181a62c8d5a3f5b28fbb5a15645f0e82a1b8f35
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706063"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67734598"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft Teams
 
@@ -81,13 +81,14 @@ Si vous êtes fabricant et que vous souhaitez participer au programme de certifi
 
 ## <a name="certified-devices"></a>Appareils certifiés
 
-*Table mise à jour août 2022*
+*Table mise à jour en septembre 2022*
 
 > [!NOTE]
 > Le format de date est MMDDYYYYY.
 
 | Fabricant        | Modèle                                                     | Qualifié      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Logi                 |Brio 500/505 Caméras                                       |9/14/2022       |Certifié pour Microsoft Teams                           | 
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |Certifié pour Microsoft Teams                           |
 |Dell                 |Caméra WB5023                                              |6/29/2022       |Certifié pour Microsoft Teams                           |
 |EPOS                 |Casque ADAPT 560 II                                       |6/22/2022       |Certifié pour Microsoft Teams                           |

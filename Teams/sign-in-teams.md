@@ -1,5 +1,5 @@
 ---
-title: Se connecter à Microsoft Teams
+title: Impact des différentes technologies sur l’authentification Microsoft Teams, notamment la restriction de l’authentification et les comportements de connexion.
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: anwara
-description: Découvrez comment fonctionne l’authentification moderne, comment changer de compte et comment résoudre les problèmes liés à l’authentification moderne. Inclut comment demander à Teams d'ignorer le pré-remplissage du nom de l'utilisateur (UPN) à l’ouverture de session.
+description: Découvrez comment des technologies telles que l’authentification unique et l’authentification moderne ont un impact sur votre comportement de connexion sur iOS, Android, macOS et PC. Comment utiliser des équipes avec de nombreux comptes et restreindre la connexion. Inclut comment demander à Teams d'ignorer le pré-remplissage du nom de l'utilisateur (UPN) à l’ouverture de session.
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection:
@@ -17,26 +17,34 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6fb93bf7f8e3278ba4fba16604769c6f8f10e36
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
-ms.translationtype: HT
+ms.openlocfilehash: c37d9fd2140aaae9ccce443c81c537dcfb92305e
+ms.sourcegitcommit: 0181a62c8d5a3f5b28fbb5a15645f0e82a1b8f35
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681605"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67734608"
 ---
-# <a name="sign-in-to-microsoft-teams"></a>Se connecter à Microsoft Teams
+# <a name="how-different-technologies-effect-microsoft-teams-sign-on"></a>Impact des différentes technologies sur l’authentification Microsoft Teams
 
-## <a name="windows-users"></a>Utilisateurs Windows
+Si vous devez comprendre comment les technologies telles que l’authentification unique (SSO), l’authentification moderne (MS) et l’authentification multifacteur (MA) ont un effet sur l’expérience de connexion des utilisateurs, cet article vous aidera à clarifier ce que les utilisateurs et les administrateurs peuvent s’attendre à voir. Il décrit également le comportement de connexion pour les appareils macOS, Android et iOS, le fonctionnement de la connexion à l’aide de plusieurs comptes, la suppression des informations d’identification renseignées automatiquement ou le « prérempli » sur l’écran de connexion, et comment restreindre l’authentification.
+
+Signet de cet article si votre rôle implique de connaître les comportements attendus de l’équipe Microsoft lors de la connexion.
+
+## <a name="microsoft-teams-and-windows-users-sign-in-recommendations"></a>Utilisateurs microsoft Teams et Windows : recommandations de connexion
 
 Microsoft recommande aux organisations d’utiliser des versions récentes de Windows 10 avec une configuration de jointure Azure AD ou de jointure de domaine hybride. Utiliser des versions récentes permet d’imprimer les comptes des utilisateurs dans le Gestionnaire de Compte Web Windows, ce qui permet d’activer la connexion unique à Teams et d’autres applications M/icrosoft. La connexion unique offre une meilleure expérience d’utilisateur (connexion silencieuse) et une meilleure position en matière de sécurité.
 
 Microsoft Teams utilise l’authentification moderne pour simplifier et sécuriser l’expérience de connexion. Pour voir comment les utilisateurs se connectent à Teams, consultez [Se connecter à Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
-### <a name="how-modern-authentication-works"></a>Fonctionnement de l’authentification moderne
+### <a name="how-modern-authentication-ma-effects-your-sign-in-what-users-will-see-when-ma-is-on"></a>Effets de l’authentification moderne (MA) sur votre connexion : ce que les utilisateurs voient quand l’authentification multifacteur est activée
 
-L’authentification moderne est un processus qui permet à Teams de s’informer que les utilisateurs ont déjà entré leurs informations d’identification, tels que leur email professionnel et le mot de passe, et ne doivent pas être obligés de les entrer à nouveau pour démarrer l’application. L’expérience varie en fonction de plusieurs facteurs, par exemple, si les utilisateurs travaillent sur Windows ou sur un Mac. Il peut également varier selon que votre organisation a activé l’authentification à facteur unique ou multi-facteur. L’authentification multi-facteur implique généralement de vérifier les informations d’identification par téléphone, en fournissant un code unique, en entrant un code confidentiel ou en présentant une empreinte numérique. Voici un récapitulatif de chaque scénario d’authentification moderne.
+L’authentification moderne fait partie d’un processus qui permet à Teams de savoir que les utilisateurs ont déjà entré leurs informations d’identification (par exemple, leur adresse e-mail professionnelle et leur mot de passe) ailleurs, et qu’ils ne doivent pas être tenus de les entrer à nouveau pour démarrer l’application. L’expérience varie en fonction de quelques facteurs, comme si les utilisateurs travaillent dans un système d’exploitation Windows ou sur un Mac.
+
+Le comportement de connexion varie également selon que votre organisation a activé l’authentification à facteur unique ou l’authentification multifacteur. L’authentification multi-facteur implique généralement de vérifier les informations d’identification par téléphone, en fournissant un code unique, en entrant un code confidentiel ou en présentant une empreinte numérique. 
 
 L’authentification moderne est disponible pour toutes les organisations qui utilisent Teams. Si les utilisateurs ne parviennent pas à terminer le processus, il est possible qu’il y ait un problème avec la configuration Azure AD de votre organisation. Pour plus d’informations, voir [Pourquoi est-ce que je rencontre des problèmes pour me connecter à Microsoft Teams ?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
+
+Voici un aperçu des comportements attendus par les utilisateurs avec chaque scénario d’authentification moderne.
 
 - Si des utilisateurs ont déjà ouvert une session sur Windows ou d’autres applications Office via leur compte professionnel ou scolaire, ils sont directement dirigés vers l’application lorsqu’ils démarrent Teams. Il n’est pas nécessaire pour eux d’entrer leurs informations d’identification.
 
@@ -46,7 +54,7 @@ L’authentification moderne est disponible pour toutes les organisations qui ut
 
 - Si les utilisateurs sont connectés à un ordinateur joint à un domaine, lorsqu’ils démarrent Teams, ils peuvent être invités à effectuer une étape d’authentification supplémentaire, selon que votre organisation a choisi d’utiliser l’authentification multi-facteur ou si son ordinateur nécessite déjà l’authentification multi-facteur pour se connecter. Si l’ordinateur requiert déjà l’authentification multi-facteur, lorsqu’il ouvre Teams, l’application démarre automatiquement.
 
-- Sur les PC joints à un domaine, lorsque l’authentification unique est impossible, Teams peut pré-remplir l’écran de connexion à l’aide du nom d’utilisateur principal (UPN). Il peut arriver que vous ne souhaitiez pas utiliser cette option dans certains cas, notamment si votre organisation utilise différents noms d’utilisateur principal localement et dans Azure Active Directory. Dans ce cas, vous pouvez utiliser la clé de Registre Windows suivante pour désactiver le pré-remplissage du nom d’utilisateur principal :
+- Sur les PC joints au domaine, lorsque l’authentification unique n’est pas possible, Teams peut préremplir son écran de connexion avec le nom d’utilisateur principal (UPN). Il peut arriver que vous ne souhaitiez pas utiliser cette option dans certains cas, notamment si votre organisation utilise différents noms d’utilisateur principal localement et dans Azure Active Directory. Si c’est le cas, **vous pouvez utiliser la clé de Registre Windows suivante pour désactiver la pré-population de l’UPN** :
 
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
@@ -55,15 +63,15 @@ L’authentification moderne est disponible pour toutes les organisations qui ut
     > [!NOTE]
     > Lorsque vous ignorez ou ignorez le nom d’utilisateur, les noms d’utilisateur qui se terminent par « . local » ou « . Corp » sont activés par défaut. vous n’avez donc pas besoin de définir une clé de Registre pour les désactiver.
 
-### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>Se connecter à un autre compte sur un ordinateur connecté à un domaine
+### <a name="microsoft-teams-sign-on-to-another-account-on-a-domain-joined-computer"></a>Connexion Microsoft Teams à un autre compte sur un ordinateur joint à un domaine
 
 Il se peut que les utilisateurs de l’ordinateur joint au domaine ne puissent pas se connecter à Teams avec un autre compte dans le même domaine Active Directory.
 
-## <a name="macos-users"></a>Utilisateurs MacOS
+## <a name="macos-users-and-microsoft-teams-sign-on-prompts"></a>Utilisateurs macOS et invites d’authentification Microsoft Teams
 
 Sur MacOS, Teams invite les utilisateurs à entrer leur nom d’utilisateur et informations d’identification, et peut demander l’authentification multi-facteur selon les paramètres de votre organisation. Une fois que les utilisateurs ont entré leurs informations d’identification, ils ne sont pas obligés de les redonner. À partir de ce point, Teams démarre automatiquement chaque fois qu’ils travaillent sur le même ordinateur.
 
-## <a name="teams-on-ios-and-android-users"></a>Teams sur les utilisateurs iOS et Android
+## <a name="microsoft-teams-sign-on-for-ios-and-android-users"></a>Authentification Microsoft Teams pour les utilisateurs iOS et Android
 
 Une fois connecté, les utilisateurs mobiles voient une liste de tous les comptes Microsoft 365 qui sont actuellement connectés ou qui ont été précédemment connectés sur leur appareil. Les utilisateurs peuvent appuyer sur l’un des comptes pour se connecter. Il existe deux scénarios de connexion mobile :
 
@@ -74,7 +82,7 @@ Une fois connecté, les utilisateurs mobiles voient une liste de tous les compte
 > [!NOTE]
 > Pour que les utilisateurs puissent bénéficier de l’expérience de connexion, comme décrit dans cette section, leurs appareils doivent exécuter Teams pour iOS version 2.0.13 (Build 2020061704) ou ultérieure, ou Teams pour Android version 1416/1.0.0.2020061702 ou ultérieure.
 
-## <a name="using-teams-with-multiple-accounts"></a>Utilisation de Teams avec plusieurs comptes
+## <a name="using-microsoft-teams-with-multiple-sign-in-accounts"></a>Utilisation de Microsoft Teams avec plusieurs comptes de connexion
 
 Teams pour iOS et Android prend en charge l’utilisation de plusieurs comptes professionnels ou scolaires et de plusieurs comptes personnels côte à côte. Les applications de bureau Teams prennent en charge un compte professionnel ou scolaire et un compte personnel côte à côte en décembre 2020, avec une prise en charge de plusieurs comptes professionnels ou scolaires.
 
@@ -82,11 +90,11 @@ Les images suivantes montrent comment les utilisateurs peuvent ajouter plusieurs
 
 :::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Ajout de plusieurs comptes dans Teams.":::
 
-## <a name="restrict-sign-in-to-teams"></a>Restreindre la connexion à Teams
+## <a name="restrict-sign-in-to-microsoft-teams"></a>Restreindre la connexion à Microsoft Teams
 
 Il se peut que l’organisation souhaite limiter la façon dont les applications approuvées par l’entreprise sont utilisées sur les appareils gérés, par exemple pour restreindre la possibilité pour les étudiants ou les employés d’accéder aux données d’autres organisations ou d’utiliser des applications approuvées par l’entreprise pour des scénarios personnels. Ces restrictions peuvent être appliquées en définissant des stratégies de périphériques reconnues par les applications Teams.
 
-### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>Comment restreindre la connexion sur les appareils mobiles
+### <a name="how-to-restrict-microsoft-teams-sign-in-on-mobile-devices"></a>Comment restreindre la connexion Microsoft Teams sur les appareils mobiles
 
 Teams pour iOS et Android offre aux administrateurs informatiques la possibilité de pousser les configurations des comptes vers les comptes Microsoft 365. Cette fonctionnalité fonctionne avec n'importe quel fournisseur Gestion des appareils mobiles (MDM) qui utilise le canal [Configuration d'application gérée](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) pour iOS ou le canal [Android Entreprise](https://developer.android.com/work/managed-configurations) pour Android.
 
@@ -108,9 +116,9 @@ Pour créer une stratégie de configuration d’application pour les appareils i
 
 Pour créer une stratégie de configuration d’application pour les appareils Android gérés, consultez [Ajouter des stratégies de configuration d’application pour les appareils Android gérés](/mem/intune/apps/app-configuration-policies-use-android).
 
-### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>Comment restreindre la connexion sur les appareils de bureau
+### <a name="how-to-restrict-teams-sign-in-on-desktop-devices"></a>Comment restreindre la connexion Teams sur les appareils de bureau
 
-Les applications Teams sur Windows et MacOS prennent en charge les stratégies d’appareils qui restreignent la connexion à votre organisation. Les stratégies peuvent être définies via les solutions de gestion des appareils usuelles, telles que la gestion des appareils mobiles ou les objets de stratégie de groupe. 
+Les applications Microsoft Teams sur Windows et macOS prennent en charge les stratégies d’appareil qui limitent la connexion à votre organisation. Les stratégies peuvent être définies via les solutions de gestion des appareils usuelles, telles que la gestion des appareils mobiles ou les objets de stratégie de groupe.
 
 Lorsque cette stratégie est configurée sur un appareil, les utilisateurs peuvent uniquement se connecter à l’aide de comptes hébergés sur un client Azure AD inclus dans la « Liste verte du client » définie dans la stratégie. La stratégie s’applique à tous les signataires, y compris les comptes premiers et supplémentaires. Si votre organisation couvre plusieurs clients Azure AD, vous pouvez inclure plusieurs ID de client dans la liste verte. Les liens permettant d’ajouter un autre compte peuvent continuer à être visibles dans l’application Teams, mais ils ne seront pas opérationnels.
 
@@ -137,13 +145,13 @@ Exemple : OFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAcco
 - Type de données : chaîne
 - Commentaires : entrez une liste séparée par des virgules pour les ID client Azure AD
 
-### <a name="global-sign-in"></a>Connexion globales
+### <a name="global-sign-in-and-microsoft-teams"></a>Connexion globale et Microsoft Teams
 
 L’application Android Teams prend désormais en charge la connexion et la déconnexion globales pour offrir une expérience de connexion et de déconnexion aisée pour employés de première ligne. Les employés peuvent choisir un appareil dans le pool de périphériques partagé et effectuer une connexion unique personnelle afin de l’utiliser pour la durée de leur équipe. À la fin de leur équipe, ils doivent pouvoir effectuer une déconnexion globale de l’appareil. Pour en savoir plus, consultez [Se déconnecter de Teams](sign-out-of-teams.md) . Cette opération permet de supprimer toutes les informations personnelles et professionnelles de l’appareil afin de pouvoir rétablir l’appareil sur le pool d’appareils. Pour obtenir cette fonctionnalité, l’appareil doit être en mode partagé. Veillez à mettre fin à une réunion ou à un appel actif sur l’appareil avant de vous déconnecter. Pour découvrir comment configurer un appareil partagé, voir [Comment utiliser un mode d’appareil partagé dans Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
 L’expérience de connexion est similaire à l’expérience de signature Teams standard.
 
-## <a name="urls-and-ip-address-ranges"></a>URL et plages d’adresses IP
+## <a name="urls-and-ip-address-ranges-for-microsoft-teams"></a>URL et plages d’adresses IP pour Microsoft Teams
 
 Microsoft Teams requiert un accès à internet pour comprendre les points de terminaison pouvant être atteints pour les clients qui utilisent Teams dans les plans Office 365, Secteur Public et autres cloud, consultez [URLs et plages d’adresses IP d’Office 365](/office365/enterprise/urls-and-ip-address-ranges).
 
