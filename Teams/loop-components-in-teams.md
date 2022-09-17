@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e468622d4aac30756e54127072045831374c5425
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 0e0b9c5a7ffef07a1d9245d2b1266a071b4ee0c2
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418643"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67795053"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Vue d’ensemble des composants de boucle dans Teams
 
@@ -82,7 +82,7 @@ Si vous désactivez ces expériences comme indiqué dans la section [Gestion des
 
 - Le point d’entrée de création/insertion dans la messagerie Teams est masqué. Les utilisateurs ne pourront pas créer de fichiers .fluid.
 - Les messages existants qui auraient été rendus sous la forme d’un composant de boucle interactive s’affichent à la place sous la forme d’un lien hypertexte « Composant de boucle ». Aucun contenu interactif n’est affiché dans Teams.
-- Lorsqu’un utilisateur final clique sur le lien hypertexte « Composant de boucle » ou accède à un fichier .fluid dans OneDrive Entreprise et clique pour l’ouvrir, il ouvre le fichier dans un onglet de navigateur distinct, mais les utilisateurs finaux ne peuvent pas modifier le fichier.
+- Lorsqu’un utilisateur final clique sur le lien hypertexte « Composant de boucle » ou accède à un fichier .fluid dans OneDrive Entreprise et clique pour l’ouvrir, il ouvre le fichier dans un onglet de navigateur distinct. Les utilisateurs finaux peuvent toujours modifier le fichier.
 
 ## <a name="known-issues"></a>Problèmes connus
 

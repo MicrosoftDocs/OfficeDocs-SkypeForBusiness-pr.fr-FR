@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Cet article explique comment configurer votre organisation et salles Teams des appareils pour prendre en charge la participation de réunions tierces à Cisco Webex et Zoom.
-ms.openlocfilehash: 1cbcd54983c9122467fbf133cc97b2c189857c96
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 70d2cf03dea3fcfef3d08c07f4f771bd8a2ea70e
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268199"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67794993"
 ---
 # <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Autoriser les appareils salles Teams à participer à des réunions tierces
 
@@ -27,12 +27,15 @@ Salles Microsoft Teams appareils prennent en charge une expérience tactile perm
 
 Appareils et services pris en charge :
 
-- MTR sur Windows, tous les modèles certifiés – Zoom, Cisco Webex
+- salles Teams sur Windows, tous les modèles certifiés : Zoom, Cisco Webex
 
-- Modèles certifiés MTR sur Android, Poly, Yealink et Logitech – Zoom
+- salles Teams sur Android, tous les modèles certifiés : Zoom, Cisco Webex
+
+    > [!NOTE]
+    > Microsoft publie régulièrement de nouvelles fonctionnalités pour salles Teams sur Android. Toutefois, il peut y avoir un délai entre le moment où les fonctionnalités sont publiées et le moment où elles deviennent disponibles sur un appareil. Si aucune fonctionnalité n’est disponible sur votre appareil, contactez le fabricant de votre appareil pour plus d’informations sur le moment où elle peut devenir disponible.
 
 > [!NOTE]
-> Pour participer à une réunion Cisco Webex à partir d’un appareil salles Teams, la réunion Cisco doit être hébergée dans Webex Meetings Pro à l’aide de Cisco Webex webex version WBS 40.7 ou ultérieure. 
+> Pour participer à une réunion Cisco Webex à partir d’un appareil salles Teams, la réunion Cisco doit être hébergée dans Webex Meetings Pro à l’aide de Cisco Webex webex version WBS 40.7 ou ultérieure.
 
 Avant de pouvoir participer à des réunions tierces à partir de salles Teams, vous devez effectuer les opérations suivantes :
 
@@ -62,23 +65,23 @@ La première chose que vous devez faire pour activer une expérience de jointure
     Set-CalendarProcessing <UserPrincipalName> -ProcessExternalMeetingMessages $True -DeleteComments $False -DeleteSubject $False
     ```
 
-En savoir plus sur [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell).
+Mer informasjon sur [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell).
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>Étape 2 : Configurer Office 365 Protection contre les menaces et réécrire les liens
 
-Pour activer l’expérience de participation tactile, les informations de lien de participation à la réunion de la réunion tierce doivent être présentes et lisibles dans l’invitation à la réunion. Si votre organisation utilise la fonctionnalité [de liens sécurisés Microsoft Defender pour Office 365](/microsoft-365/security/office-365-security/safe-links), ou si vous utilisez une solution tierce qui analyse toutes les URL entrantes et sortantes à la recherche de menaces, elle peut modifier les URL de participation à la réunion et rendre la réunion méconnaissable par l’appareil salles Teams. Pour vous assurer que cela ne se produit pas, vous devez ajouter les URL du service de réunion tiers à defender pour [Office 365 Liens fiables **Ne réécrivez pas** la liste](/microsoft-365/security/office-365-security/safe-links) ou la liste d’exceptions de réécriture d’URL tierce.
+Pour activer l’expérience de participation tactile, les informations de lien de participation à la réunion de la réunion tierce doivent être présentes et lisibles dans l’invitation à la réunion. Si votre organisation utilise Microsoft [Defender pour Office 365](/microsoft-365/security/office-365-security/safe-links) fonctionnalité de liens sécurisés, ou si vous utilisez une solution tierce qui analyse toutes les URL entrantes et sortantes à la recherche de menaces, elle peut modifier les URL de participation à la réunion et rendre la réunion méconnaissable par l’appareil salles Teams. Pour vous assurer que cela ne se produit pas, vous devez ajouter les URL du service de réunion tiers à defender pour [Office 365 Liens fiables **Ne réécrivez pas** la liste](/microsoft-365/security/office-365-security/safe-links) ou la liste d’exceptions de réécriture d’URL tierce.
 
  Si vous utilisez une solution tierce, reportez-vous aux instructions de cette solution pour ajouter des URL à sa liste d’exceptions de réécriture d’URL.
 
-Voici quelques exemples d’entrées que vous devrez peut-être ajouter à votre Defender pour Office 365 Liens fiables *Ne réécrivez pas* la liste ou la liste d’exceptions de réécriture d’URL tierce :
+Voici quelques exemples d’entrées que vous devrez peut-être ajouter à votre Defender pour Office 365 Liens sécurisés *Ne réécrivez pas* la liste ou la liste d’exceptions de réécriture d’URL tierce :
 
 - **Cisco Webex** `*.webex.com/*`
 - **Zoom**`*.zoom.us/*`, , `*.zoom.com/*``*.zoomgov.com/*`
 
-Pour obtenir la liste complète des URL à ajouter à votre Defender pour Office 365 Liens fiables *Ne réécrivez pas* la liste ou la liste d’exceptions de réécriture d’URL tierce, contactez le fournisseur de services de réunion tiers à partir duquel vous souhaitez accepter les invitations à la réunion.
+Pour obtenir la liste complète des URL à ajouter à votre Defender pour Office 365 Liens sécurisés *Ne réécrivez pas* la liste ou la liste d’exceptions de réécriture d’URL tierce, contactez le fournisseur de services de réunion tiers à partir duquel vous souhaitez accepter les invitations à la réunion.
 
 > [!CAUTION]
-> Ajoutez uniquement les URL de confiance à votre Microsoft Defender pour Office 365 Liens sécurisés *Ne réécrivez pas* la liste ou la liste d’exceptions de réécriture d’URL tierce.
+> Ajoutez uniquement des URL de confiance à votre Microsoft Defender pour Office 365 Liens sécurisés *Ne réécrivez pas* la liste ou la liste d’exceptions de réécriture d’URL tierce.
 
 ## <a name="step-3a-enable-third-party-meetings-on-teams-rooms-on-windows"></a>Étape 3a : Activer des réunions tierces sur salles Teams sur Windows
 

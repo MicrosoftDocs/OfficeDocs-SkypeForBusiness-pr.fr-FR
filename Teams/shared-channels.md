@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des canaux partagés dans Microsoft Teams.
-ms.openlocfilehash: 323d20c152af9595b6a738f917103a59ab4142ef
-ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.openlocfilehash: 378088e4b1f12aee3d71f11fb54aacec8a0ca138
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "67647548"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67795073"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canaux partagés dans Microsoft Teams
 
@@ -174,6 +174,7 @@ Les applications suivantes sont prises en charge pour une utilisation dans des c
 - Activité
 - Adobe Acrobat Sign
 - Asana
+- Calendar Pro
 - Appel
 - Conversation
 - Code by Vivani
