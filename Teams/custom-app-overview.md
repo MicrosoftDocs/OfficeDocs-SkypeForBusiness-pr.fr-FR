@@ -6,6 +6,7 @@ manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
 ms.collection:
 - M365-collaboration
@@ -18,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d7c23b424db102b21e88944e2ab55d8a2fe98c08
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
+ms.openlocfilehash: 4ba559d605f1465fda7caf9b253c18864c8b4c20
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299296"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837374"
 ---
 # <a name="understand-and-manage-custom-and-sideloaded-apps"></a>Comprendre et gérer des applications personnalisées et chargées de manière indépendante
 
@@ -33,7 +34,7 @@ En tant qu’administrateur, vous avez le contrôle d’autoriser ou de bloquer 
 
 Les développeurs peuvent soumettre leurs applications personnalisées via Teams pour approbation de la part de l’administrateur. Vous pouvez utiliser des stratégies d’installation d’application pour contrôler le déploiement, la distribution et les autorisations des applications personnalisées.
 
-:::image type="content" source="media/custom-app-policy-trimmed.png" alt-text="Capture d’écran montrant comment autoriser des applications personnalisées dans votre organisation dans le panneau paramètres à l’échelle de l’organisation." lightbox="media/custom-app-policy.png":::
+:::image type="content" source="media/custom-app-policy-trimmed.png" alt-text="Capture d’écran montrant comment autoriser les applications personnalisées de votre organisation dans le panneau des paramètres à l’échelle de l’organisation." lightbox="media/custom-app-policy.png":::
 
 Une fois que vous avez autorisé l’utilisation d’une application personnalisée, vos utilisateurs finaux peuvent la trouver en sélectionnant **Built pour votre organisation** dans le volet de navigation gauche du magasin Teams.
 
@@ -53,13 +54,13 @@ En tant qu’administrateur, vous pouvez interdire le chargement indépendant de
 
 Vous pouvez créer une stratégie personnalisée ou modifier la stratégie globale pour autoriser ou bloquer des applications personnalisées en fonction des besoins de votre organisation. Pour créer une stratégie personnalisée qui permet aux développeurs de l’organisation de charger des applications personnalisées, procédez comme suit :
 
-1. Connectez-vous au Centre d’administration Teams et accédez aux stratégies **[d’installation](https://admin.teams.microsoft.com/policies/app-setup)** des **applications** >  Teams.
+1. Connectez-vous au Centre d’administration Teams et accédez à **Applications Teams** > **[Stratégies d’installation](https://admin.teams.microsoft.com/policies/app-setup)**.
 
 1. Sélectionnez **Ajouter**.
 
 1. Fournissez un nom et une description pour la stratégie.
 
-1. Activez ou **désactivez Charger des applications personnalisées**.
+1. Activez ou désactivez **Charger des applications personnalisées**.
 
 > [!NOTE]
 > Pour modifier ce paramètre, autorisez les applications [tierces dans les paramètres d’application à l’échelle de l’organisation](manage-apps.md#manage-org-wide-app-settings) de votre locataire.
