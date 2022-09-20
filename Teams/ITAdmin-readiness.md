@@ -18,12 +18,12 @@ ms.custom:
 description: Vidéos de formation sur les complexes PowerPoint, les didacticiels et autres ressources pour les administrateurs sur la façon de planifier, déployer et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 133369477a9e633e3e7ccb6309d8cae037f86f90
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 384f6f34a689e0337489d08e4956df425b497d5d
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486899"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808375"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Prise en main de la formation d’administrateur pour Microsoft Teams
 
@@ -39,8 +39,8 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
-|[**Éléments essentiels de Teams pour l’informatique**](https://aka.ms/MicrosoftTeamsforIT) - La série de vidéos Microsoft Mechanics « Teams pour l’informatique » vous montre , l’administrateur, comment déployer, configurer et gérer Teams.     |[**Prise en charge des travailleurs distants à l’aide de Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - Obtenez les conseils dont vous avez besoin, y compris des liens vers la formation, pour prendre en charge vos utilisateurs qui travaillent à domicile.         |[**Gérer la collaboration d’équipe pour l’informatique**](/learn/paths/m365-manage-team-collaboration) - Découvrez comment utiliser Teams pour faciliter le travail d’équipe et la communication au sein de votre organisation entre les applications et les appareils.         |
-|[**Certification du spécialiste de l’adoption**](/learn/paths/m365-service-adoption) des services - Le cours de certification spécialiste de l’adoption des services Microsoft propose Teams. Découvrez comment favoriser l’adoption des services Microsoft dans votre organisation.     |[**Présentation du travail d’équipe dans Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) - Le cours de certification du spécialiste de l’adoption des services Microsoft propose Teams. Découvrez comment favoriser l’adoption des services Microsoft dans votre organisation.        |[**Microsoft 365 Certified: Teamwork Administrator Associate**](/learn/certifications/m365-teamwork-administrator) - Microsoft 365 Teamwork Administrators configure, deploy et manage Microsoft 365 ou Office 365 charges de travail, telles que SharePoint (en ligne, localement et hybride), OneDrive et Teams.        |
+|[**Éléments essentiels de Teams pour l’informatique**](https://aka.ms/MicrosoftTeamsforIT) - La série de vidéos Microsoft Mechanics « Teams pour l’informatique » vous montre , l’administrateur, comment déployer, configurer et gérer Teams.     |[**Prise en charge des travailleurs distants à l’aide de Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - Obtenez les conseils dont vous avez besoin, y compris des liens vers la formation, pour prendre en charge vos utilisateurs qui travaillent à domicile.         |[**Gérer la collaboration d’équipe pour l’informatique**](/training/paths/m365-manage-team-collaboration) - Découvrez comment utiliser Teams pour faciliter le travail d’équipe et la communication au sein de votre organisation entre les applications et les appareils.         |
+|[**Certification du spécialiste de l’adoption**](/training/paths/m365-service-adoption) des services - Le cours de certification spécialiste de l’adoption des services Microsoft propose Teams. Découvrez comment favoriser l’adoption des services Microsoft dans votre organisation.     |[**Présentation du travail d’équipe dans Microsoft 365**](/training/modules/intro-to-teamwork-in-m365/index) - Le cours de certification du spécialiste de l’adoption des services Microsoft propose Teams. Découvrez comment favoriser l’adoption des services Microsoft dans votre organisation.        |[**Microsoft 365 Certified: Teamwork Administrator Associate**](/certifications/m365-teamwork-administrator) - Microsoft 365 Teamwork Administrators configure, deploy et manage Microsoft 365 ou Office 365 charges de travail, telles que SharePoint (en ligne, localement et hybride), OneDrive et Teams.        |
 
 <h2>Formation technique</h2>
 

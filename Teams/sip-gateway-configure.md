@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d33573d86f2bcb485f6a7e7cfc550ea1f3184223
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: f21ce36c1c44b14b80c9ae1684a65c6bd82b7d63
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270489"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808875"
 ---
 # <a name="configure-sip-gateway"></a>Configurer la passerelle SIP
 
@@ -120,7 +120,7 @@ Pour chaque appareil SIP, définissez l’une des URL de serveur d’approvision
 - Amériques: `http://noam.ipp.sdg.teams.microsoft.com`
 - APAC: `http://apac.ipp.sdg.teams.microsoft.com`
 
-Ajoutez des appareils SIP à votre organisation Teams en configurant l’URL du serveur d’approvisionnement de passerelle SIP ci-dessus dans votre serveur DHCP. Pour en savoir plus sur le serveur DHCP, consultez [Déployer et gérer DHCP](/learn/modules/deploy-manage-dynamic-host-configuration-protocol). En outre, vous pouvez utiliser l’option DHCP 42 pour spécifier le serveur NTP (Network Time Protocol) et l’option DHCP 2 pour spécifier le décalage du temps universel coordonné (UTC) en secondes. Les appareils de votre organisation seront routées vers le serveur d’approvisionnement de la passerelle SIP. Les téléphones SIP correctement approvisionnés affichent le logo Teams et un bouton soft pour la connexion.
+Ajoutez des appareils SIP à votre organisation Teams en configurant l’URL du serveur d’approvisionnement de passerelle SIP ci-dessus dans votre serveur DHCP. Pour en savoir plus sur le serveur DHCP, consultez [Déployer et gérer DHCP](/training/modules/deploy-manage-dynamic-host-configuration-protocol). En outre, vous pouvez utiliser l’option DHCP 42 pour spécifier le serveur NTP (Network Time Protocol) et l’option DHCP 2 pour spécifier le décalage du temps universel coordonné (UTC) en secondes. Les appareils de votre organisation seront routées vers le serveur d’approvisionnement de la passerelle SIP. Les téléphones SIP correctement approvisionnés affichent le logo Teams et un bouton soft pour la connexion.
 
 Vérifiez que les appareils SIP sont sur la version minimale du microprogramme prise en charge pour l’intégration. Lors de l’intégration, la passerelle SIP envoie (push) l’interface utilisateur de configuration et d’authentification par défaut à l’appareil. Pour connaître la version requise du microprogramme pour les appareils SIP, consultez [Plan for SIP Gateway](sip-gateway-plan.md).
 

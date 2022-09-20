@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fae55eb230c3c0a450a95eb00e50861888bbe3f1
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 083f2f9ae041f88e0b92c51af297adbf04b5c770
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045573"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808575"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Présentation du déploiement de Teams en entreprise
 
@@ -75,7 +75,7 @@ Pour consulter un exemple de la manière dont le Planificateur de réseau peut p
 Le conseiller pour Teams est une solution dans Teams qui réunit les équipes, les canaux, le partage de fichiers et le Planificateur, pour créer un projet de déploiement dans votre organisation. Le conseiller Teams crée un plan de projet spécifique à la charge de travail sélectionnée (conversation, équipes et canaux, par exemple). Ce plan inclut les tâches recommandées à effectuer lors de votre déploiement. Chaque tâche contient des instructions, des suggestions et des liens vers des articles pertinents pour vous guider tout au long du processus. Vous pouvez facilement affecter des tâches à une ou plusieurs personnes, puis spécifier des dates de début et de fin de chaque tâche.
 
 > [!TIP]
-> Découvrez comment utiliser le Conseiller pour Teams pour vous aider à planifier votre déploiement Teams en complétant le module[Déployer à l’aide du Conseiller pour Teams](/learn/modules/m365-teams-rollout-using-advisor/) sur Microsoft Learn.
+> Découvrez comment utiliser le Conseiller pour Teams pour vous aider à planifier votre déploiement Teams en complétant le module[Déployer à l’aide du Conseiller pour Teams](/training/modules/m365-teams-rollout-using-advisor/) sur Microsoft Learn.
 
 > [!div class="nextstepaction"]
 > [Accéder au Conseiller pour Teams](https://admin.teams.microsoft.com/teams-deployment)

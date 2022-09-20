@@ -24,20 +24,20 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: fe5104d2047f734a0ae6df839bb980052ca2607e
-  ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+  ms.openlocfilehash: 6ae30ce1693944d10048ca1172657329202d7c0c
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 07/14/2022
-  ms.locfileid: "66794522"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808655"
 productDirectory:
   items:
   - title: Planifier votre mise à niveau de la version (commencez ici !)
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/get-started-teams.svg
     summary: Que vous procédiez à une mise à niveau vers Teams avant la mise hors service de Skype Entreprise Online (31 juillet 2021) ou le déplacement de scénarios de votre environnement local Skype Entreprise vers Teams, une transition réussie résout à la fois la préparation technique et la préparation des utilisateurs. Découvrez notre infrastructure, nos meilleures pratiques et nos ressources éprouvées conçues pour vous aider à faciliter la transition vers Teams à partir de Skype Entreprise Online, Skype Entreprise Server ou un environnement hybride. Public – Tous (commanditaires d’entreprise, administrateurs informatiques, gestionnaire de préparation des utilisateurs/changement, responsable de projet)
     url: https://aka.ms/SfBtoTeamsPlan
   - title: Implémenter votre mise à niveau Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/hybrid-teams.svg
     summary: Rejoignez-nous pour identifier et préparer l’exécution de la meilleure approche technique pour déplacer toutes les charges de travail vers Teams, en fonction de vos objectifs et de votre environnement Skype Entreprise actuel. La plupart des clients qui ont effectué des transitions réussies ont activé Teams avec leur implémentation Skype Entreprise Online, Skype Entreprise Server ou hybride actuelle. Cette session partagera des considérations clés et des ressources précieuses pour vous aider à définir la meilleure stratégie de migration pour votre organisation. Public - Administrateurs informatiques
     url: https://aka.ms/SfBtoTeamsImplement
 additionalContent:

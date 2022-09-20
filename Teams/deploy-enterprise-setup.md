@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f350e894148ef278a10e379d8a32b48202acd85d
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 05196c679f1f45c9e89fe09973282c01181127e0
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045993"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808385"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>Configurer Microsoft Teams dans votre entreprise
 
@@ -45,7 +45,7 @@ Avant de commencer à déployer Teams, assurez-vous que vous avez terminé votre
 Nous vous recommandons vivement d’utiliser le [Conseiller pour Teams](https://admin.teams.microsoft.com/teams-deployment) pour vous aider dans le déploiement. Pour plus d’informations sur le fonctionnement du conseiller Teams, consultez [Utiliser Conseiller pour Teams pour faciliter le déploiement de Microsoft Teams](use-advisor-teams-roll-out.md).
 
 > [!TIP]
-> Découvrez comment utiliser le Conseiller pour Teams pour vous aider à planifier votre déploiement Teams en complétant le module[Déployer à l’aide de Conseiller pour Teams](/learn/modules/m365-teams-rollout-using-advisor/) sur Microsoft Learn.
+> Découvrez comment utiliser le Conseiller pour Teams pour vous aider à planifier votre déploiement Teams en complétant le module[Déployer à l’aide de Conseiller pour Teams](/training/modules/m365-teams-rollout-using-advisor/) sur Microsoft Learn.
 
 Pour plus d’informations sur la planification pour Teams, consultez [Vue d’ensemble du déploiement d'entreprise Teams](deploy-enterprise-overview.md).
 
@@ -58,7 +58,7 @@ Il existe de nombreuses façons de personnaliser Teams. Les sections suivantes v
 La conversation, les équipes et les canaux sont la clé de l’utilisation de Teams. La **conversation** permet à un ou plusieurs utilisateurs de discuter, de partager des fichiers, puis de se réunir en privé. Les **équipes**, visibles par tous les membres de votre organisation ou seulement par les membres de l’équipe, permettent aux bonnes personnes collaborer quelle que soit la tâche ou l’occasion, qu’il s’agisse d’un projet de longue durée ou d’une fête d’anniversaire. Les **canaux** au sein des équipes peuvent segmenter des sujets, des projets, des services ou toute autre chose qui a du sens pour votre équipe. Si vous souhaitez en savoir plus sur les conversations, les équipes et les canaux, veuillez consulter la rubrique [Vue d’ensemble des équipes et canaux](teams-channels-overview.md).
 
 > [!TIP]
-> Découvrez comment gérer les rôles d’équipe, l’accès et les stratégies de messagerie en complétant le module [Gérer Microsoft Teams](/learn/modules/m365-teams-collab-manage-teams/) dans Microsoft Learn.
+> Découvrez comment gérer les rôles d’équipe, l’accès et les stratégies de messagerie en complétant le module [Gérer Microsoft Teams](/training/modules/m365-teams-collab-manage-teams/) dans Microsoft Learn.
 
 ### <a name="administration-and-team-ownership"></a>Administration et propriété de l’équipe
 
@@ -88,7 +88,7 @@ Les réunions et conférences permet aux contacts de votre organisation de se r�
 Le **système d’audioconférence** permet aux participants de rejoindre les réunions par téléphone normal en appelant un numéro de téléphone de conférence, puis en entrant un ID de réunion. L’audioconférence est utile lorsqu’un participant n’a pas une bonne connexion Internet, que la réunion est à voix seule ou qu’une autre circonstance ne lui permet pas de rejoindre la réunion via le client Teams.
 
 > [!TIP]
-> Familiarisez-vous avec les réunions et événements en complétant le module [Gérer les réunions, conférences et événements avec Microsoft Teams](/learn/modules/m365-teams-collab-manage-meetings) sur Microsoft Learn.
+> Familiarisez-vous avec les réunions et événements en complétant le module [Gérer les réunions, conférences et événements avec Microsoft Teams](/training/modules/m365-teams-collab-manage-meetings) sur Microsoft Learn.
 
 ### <a name="meetings"></a>Réunions
 
@@ -159,7 +159,7 @@ Lorsque vous êtes prêt à aider vos utilisateurs à utiliser Teams, ils peuven
 Vérifiez que toutes les personnes qui utiliseront Teams ont une licence Teams. Si vous souhaitez en savoir plus sur l’attribution d’une licence Teams, veuillez consulter la rubrique [Gérer l’accès des utilisateurs à Teams](user-access.md#using-the-microsoft-365-admin-center).
 
 > [!TIP]
-> Obtenez des recommandations sur la façon de planifier le déploiement de votre client Teams en complétant le module [Déployer les clients Microsoft Teams](/learn/modules/m365-teams-collab-deploy-clients/) sur Microsoft Learn.
+> Obtenez des recommandations sur la façon de planifier le déploiement de votre client Teams en complétant le module [Déployer les clients Microsoft Teams](/training/modules/m365-teams-collab-deploy-clients/) sur Microsoft Learn.
 
 Si votre organisation utilise Microsoft Endpoint Configuration Manager, une stratégie de groupe ou un mécanisme de distribution tiers, pour déployer des logiciels sur les ordinateurs de vos utilisateurs, veuillez consulter la rubrique [Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager](msi-deployment.md).
 

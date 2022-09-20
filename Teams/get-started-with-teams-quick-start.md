@@ -21,12 +21,12 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - intro-get-started
-ms.openlocfilehash: 54fcf3942d13fa0b759e796e5486808a5f5a40bb
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: ff5fce999adffc38e28d6daf787d6175deaa683a
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045843"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808805"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Prise en main de Microsoft Teams
 
@@ -66,7 +66,7 @@ Pour vous préparer au déploiement de Teams, voici ce que vous devez faire, que
 Si vous débutez avec Teams, le meilleur moyen de vous familiariser avec cet outil consiste à l’utiliser immédiatement. Teams offre l’avantage suivant : la configuration actuelle n’entravera pas les mises à niveau ou les migrations que vous devrez peut-être effectuer ultérieurement.
 
 > [!TIP]
-> Si vous souhaitez en savoir plus sur les cours d’apprentissage et modules disponibles, veuillez consulter la rubrique [Microsoft Learn pour Teams](/learn/teams/). Vous pouvez découvrir le [Centre d’administration de Teams](/learn/modules/m365-teams-navigate-admin-portal/), découvrir comment [configurer votre réseau pour Teams](/learn/modules/m365-teams-connectivity/), obtenir des idées sur la manière [d’intégrer au mieux vos utilisateurs à Teams](/learn/modules/m365-teams-onboard-users/), et bien plus encore.
+> Si vous souhaitez en savoir plus sur les cours d’apprentissage et modules disponibles, veuillez consulter la rubrique [Microsoft Learn pour Teams](/training/teams/). Vous pouvez découvrir le [Centre d’administration de Teams](/training/modules/m365-teams-navigate-admin-portal/), découvrir comment [configurer votre réseau pour Teams](/training/modules/m365-teams-connectivity/), obtenir des idées sur la manière [d’intégrer au mieux vos utilisateurs à Teams](/training/modules/m365-teams-onboard-users/), et bien plus encore.
 
 Procédez comme suit pour configurer quelques équipes, puis intégrer quelques utilisateurs précoces et vous familiariser ainsi avec Teams.
 

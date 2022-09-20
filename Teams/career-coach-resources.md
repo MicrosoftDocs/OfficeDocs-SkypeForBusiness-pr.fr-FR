@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e8f8a069b35bcd1b5a1b1216946d4734a5ec52a
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 92e02822dbd4533f151d9551bb25aad1905184fc
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486939"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808415"
 ---
 # <a name="resources-for-career-coach-in-microsoft-teams"></a>Ressources pour Career Coach dans Microsoft Teams
 
@@ -77,4 +77,4 @@ Les ressources ci-dessous ne sont pas nécessaires pour configurer Career Coach,
 | [Réservations avec moi dans Outlook](/microsoft-365/bookings/bookings-in-outlook) | Guide de l’enseignant sur la planification des rendez-vous 1:1, comme les sessions de services de carrière et les heures de bureau. |
 | [Microsoft Bookings](/microsoft-365/bookings/bookings-overview) | Guide de l’administrateur informatique pour configurer Microsoft Bookings pour gérer les rendez-vous en personne et virtuels pour le personnel et les étudiants, tels que les sessions des services de carrière et les heures de bureau. |
 | [Prise en charge des réunions Microsoft Teams](https://www.microsoft.com/videoplayer/embed/RE4rxIX?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us) | Procédure pas à pas vidéo pour les étudiants sur la façon dont ils peuvent utiliser les réunions Teams. |
-| [Fournir des événements virtuels attrayants et accessibles](/learn/paths/m365-virtual-events-fundamentals/) | Cours en ligne destiné aux enseignants sur la façon de proposer des événements virtuels attrayants et accessibles avec Microsoft Teams et Microsoft 365. |
+| [Fournir des événements virtuels attrayants et accessibles](/training/paths/m365-virtual-events-fundamentals/) | Cours en ligne destiné aux enseignants sur la façon de proposer des événements virtuels attrayants et accessibles avec Microsoft Teams et Microsoft 365. |

@@ -21,19 +21,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22f778158965134cec673a97373a83d7fe95544d
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 751263d9f5afddc6f73afd89458a5e004ce428f4
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045833"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808795"
 ---
 # <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>Démarrer le déploiement de Microsoft Teams à l’échelle de votre organisation
 
 Maintenant que vous avez installé vos premières équipes, puis intégré quelques utilisateurs précoces, il est temps de lancer votre déploiement de Teams vers le reste de votre organisation.
 
 > [!TIP]
-> Avant de commencer votre déploiement de Teams, nous vous recommandons vivement d’exécuter le module Microsoft Learn [Préparer le déploiement de Teams avec Microsoft 365](/learn/modules/m365-teams-collab-prepare-deployment/). Ce module de 30 minutes vous permet de commencer rapidement à comprendre Teams, puis parcourt les décisions clés à prendre au cours du déploiement de Teams.
+> Avant de commencer votre déploiement de Teams, nous vous recommandons vivement d’exécuter le module Microsoft Learn [Préparer le déploiement de Teams avec Microsoft 365](/training/modules/m365-teams-collab-prepare-deployment/). Ce module de 30 minutes vous permet de commencer rapidement à comprendre Teams, puis parcourt les décisions clés à prendre au cours du déploiement de Teams.
 >
 > Si vous souhaitez consulter d’autres cours d’apprentissage et modules disponibles pour Teams, veuillez consulter la rubrique [Microsoft Learn pour Teams](/learn/teams/).
 
