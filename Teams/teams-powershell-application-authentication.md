@@ -12,21 +12,21 @@ ms.collection:
 description: Découvrez l’authentification basée sur l’application dans le module Teams PowerShell, utilisé pour l’administration de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 479dd64d6eece46335545e79e8f618b797e85f77
-ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
+ms.openlocfilehash: b18c8505a255e0f937c077e1f905d721eb597889
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "67795063"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837664"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Authentification basée sur l’application dans le module Teams PowerShell
 
-L’authentification basée sur l’application est désormais prise en charge dans le module Teams PowerShell pour un ensemble limité d’applets de commande en préversion avec les versions 4.7.1-preview ou ultérieures. Actuellement, ce mode d’authentification est uniquement pris en charge dans les environnements commerciaux. Il n’est pas pris en charge pour les clients qui sont ou ont déjà été activés pour les réunions hébergées en région dans Skype Entreprise Online.
+L’authentification basée sur l’application est désormais prise en charge dans le module Teams PowerShell pour un ensemble limité d’applets de commande en préversion avec les versions 4.7.1-preview ou ultérieures. Actuellement, ce mode d’authentification est uniquement pris en charge dans les environnements commerciaux.
 
 
 ## <a name="cmdlets-supported"></a>Applets de commande prises en charge
 
-Toutes les applets de commande non \*CS (par exemple, Get-Team), Get-CsTenant et Get-CsOnlineUser & Get-CsOnlineVoiceUser sont déjà prises en charge. D’autres applets de commande seront déployées progressivement. 
+Toutes les applets de commande non-Cs \*(par exemple, Get-Team), Get-CsTenant, Get-CsOnlineUser, Get-CsOnlineVoiceUser & \*-CsOnlineSipDomain sont déjà prises en charge. D’autres applets de commande seront déployées progressivement. 
 
 
 ## <a name="examples"></a>Exemples
@@ -84,7 +84,7 @@ Les étapes générales de création d’applications dans Azure Ad sont mention
 1. Inscrire l’application dans Azure AD
 2. Attribuer des autorisations d’API à l’application
    - Pour \*les applets de commande -Cs , aucune autorisation d’API n’est nécessaire.
-   - Pour les applets de commande non-Cs \*, les autorisations Microsoft Graph API nécessaires sont `User.Read.All`, , `AppCatalog.ReadWrite.All``Group.ReadWrite.All``TeamSettings.ReadWrite.All`, `Channel.Delete.All`, `ChannelSettings.ReadWrite.All``ChannelMember.ReadWrite.All`.  
+   - Pour les applets de commande non-Cs \*, les autorisations Microsoft API Graph nécessaires sont `User.Read.All`, , `Group.ReadWrite.All``AppCatalog.ReadWrite.All`, `TeamSettings.ReadWrite.All``Channel.Delete.All`, `ChannelSettings.ReadWrite.All``ChannelMember.ReadWrite.All`.  
 3. Générer un certificat auto-signé
 4. Attacher le certificat à l’application Azure AD
 5. Attribuer des rôles Azure AD à l’application

@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 0a6bfa577df36eba83b4764aa4eb819d1085432a
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 67c50eefdd1d0e20e10b9542912f0e2c4f412815
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486909"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837644"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Comprendre les applications Microsoft Teams
 
@@ -95,7 +95,7 @@ Les webhooks et les connecteurs fournissent du contenu et des mises à jour à p
 
 Les extensions de messagerie sont des raccourcis permettant d’insérer du contenu d’application ou d’agir sur un message sans que les utilisateurs finaux n’ont à quitter la conversation. Les extensions de messagerie peuvent avoir des commandes de recherche permettant aux utilisateurs finaux de trouver rapidement du contenu externe et de l’insérer dans des commandes de message ou d’action.
 
-Pour afficher les cas d’usage courants mappés aux fonctionnalités Teams, consultez [Mapper vos cas d’usage aux fonctionnalités de l’application Teams](/microsoftteams/platform/concepts/design/map-use-cases).
+Pour afficher les cas d’usage courants mappés aux fonctionnalités Teams, consultez [Mapper vos cas d’utilisation aux fonctionnalités de l’application Teams](/microsoftteams/platform/concepts/design/map-use-cases).
 
 <!--- TBD: Admins do many considerations and decisions around app adoption and app governance. These are to be covered in a separate article. Commenting the below content for now as part of this article revamp.
 

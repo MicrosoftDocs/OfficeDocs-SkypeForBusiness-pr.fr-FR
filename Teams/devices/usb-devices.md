@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et périphériques USB (tels que les casques, les haut-parleurs, les webcams et les moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 481c145d5206789c5603ab46334127b6bb724c13
-ms.sourcegitcommit: 0181a62c8d5a3f5b28fbb5a15645f0e82a1b8f35
+ms.openlocfilehash: 258ea59d8218a88dafd19318ca9b03b8535f3a30
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "67734598"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837504"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft Teams
 
@@ -88,7 +88,9 @@ Si vous êtes fabricant et que vous souhaitez participer au programme de certifi
 
 | Fabricant        | Modèle                                                     | Qualifié      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Logi                 |Brio 500/505 Caméras                                       |9/14/2022       |Certifié pour Microsoft Teams                           | 
+|Logi                 |Brio 500/505 Caméras                                       |9/14/2022       |Certifié pour Microsoft Teams                           |
+|Jabra                |Engager 50 II                                               |7/29/2022       |Certifié pour Microsoft Teams                           |
+|Jabra                |Engager 40 II                                               |7/29/2022       |Certifié pour Microsoft Teams                           |
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |Certifié pour Microsoft Teams                           |
 |Dell                 |Caméra WB5023                                              |6/29/2022       |Certifié pour Microsoft Teams                           |
 |EPOS                 |Casque ADAPT 560 II                                       |6/22/2022       |Certifié pour Microsoft Teams                           |
