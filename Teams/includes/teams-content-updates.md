@@ -3,6 +3,29 @@
 
 
 
+## <a name="week-of-september-12-2022"></a>Semaine du 12 septembre 2022
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 9/12/2022 | [Utiliser la personnalisation des applications pour personnaliser les applications en fonction des besoins de votre organisation](/MicrosoftTeams/customize-apps) | modifié |
+| 9/12/2022 | [Demandes d’utilisateurs pour que les administrateurs autorisent les applications](/MicrosoftTeams/user-requests-approve-apps) | modifié |
+| 9/13/2022 | [Surveiller le routage direct](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | modifié |
+| 9/13/2022 | [Demandes d’utilisateurs pour les administrateurs](/MicrosoftTeams/user-requests-approve-apps) | modifié |
+| 9/13/2022 | [Porter des numéros de téléphone vers le système téléphonique Teams avec forfait d’appels](/MicrosoftTeams/business-voice/port-phone-numbers) | modifié |
+| 9/13/2022 | [Contacter l’équipe des services de numéro de téléphone](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | modifié |
+| 9/14/2022 | [Appareils Teams pour l’éducation](/MicrosoftTeams/devices-for-education) | modifié |
+| 9/14/2022 | [Déclassement de Skype Entreprise Online](/MicrosoftTeams/skype-for-business-online-retirement) | modifié |
+| 9/14/2022 | [Comprendre Microsoft Teams et Skype Entreprise coexistence et interopérabilité](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | modifié |
+| 9/14/2022 | [Teams pour l’Infrastructure de bureau virtualisée (VDI)](/MicrosoftTeams/teams-for-vdi) | modifié |
+| 9/14/2022 | [portail Salles Microsoft Teams](/MicrosoftTeams/rooms/managed-meeting-rooms-portal) | modifié |
+| 9/14/2022 | [Gérer les Salles Microsoft Teams](/MicrosoftTeams/rooms/rooms-manage) | modifié |
+| 9/14/2022 | [maintenance et opérations Salles Microsoft Teams](/MicrosoftTeams/rooms/rooms-operations) | modifié |
+| 9/15/2022 | [Authentification basée sur l’application dans le module Teams PowerShell](/MicrosoftTeams/teams-powershell-application-authentication) | ajouté |
+| 9/15/2022 | [Impact des différentes technologies sur l’authentification Microsoft Teams, notamment la restriction de l’authentification et les comportements de connexion.](/MicrosoftTeams/sign-in-teams) | modifié |
+| 9/16/2022 | [Authentification basée sur l’application dans le module Teams PowerShell](/MicrosoftTeams/teams-powershell-application-authentication) | modifié |
+
+
 ## <a name="week-of-september-05-2022"></a>Semaine du 5 septembre 2022
 
 
@@ -128,35 +151,3 @@
 | 8/20/2022 | [Configurer les paramètres d’événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modifié |
 | 8/20/2022 | [Configurer des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modifié |
 | 8/20/2022 | [Configurer la confirmation de rendez-vous rendez-vous pour vos utilisateurs dans Microsoft Teams](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | modifié |
-
-
-## <a name="week-of-august-08-2022"></a>Semaine du 8 août 2022
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 8/8/2022 | [Expérience de mise à jour d’applications dans Microsoft Teams](/MicrosoftTeams/apps-update-experience) | modifié |
-| 8/8/2022 | Vous gérez les applications pour votre organisation dans les [applications Teams au sein du centre d’administration Microsoft Teams](/MicrosoftTeams/manage-apps). | modifié |
-| 8/8/2022 | [Effectuer une enquête eDiscovery sur le contenu](/MicrosoftTeams/ediscovery-investigation) | modifié |
-| 8/9/2022 | [Vue d’ensemble des stratégies d’application pour gérer les applications dans Teams](/MicrosoftTeams/app-policies) | modifié |
-| 8/9/2022 | Comité directeur pour le déploiement de voix cloud | supprimé |
-| 8/9/2022 | Liste de vérification de l’intégration - Configurer des charges de travail de voix cloud - Microsoft Teams | supprimé |
-| 8/9/2022 | Liste de vérification de l’intégration - Configurer le routage direct - Microsoft Teams | supprimé |
-| 8/9/2022 | Liste de vérification de l’intégration - Configurer les fonctionnalités principales - Microsoft Teams | supprimé |
-| 8/9/2022 | Liste de contrôle d’intégration - Activer le service Microsoft 365 ou Office 365 | supprimé |
-| 8/9/2022 | Référence Salles Microsoft Teams | supprimé |
-| 8/9/2022 | [Gérer les applications personnalisées et chargées de manière indépendante](/MicrosoftTeams/custom-app-overview) | ajouté |
-| 8/9/2022 | [En savoir plus sur les applications dans Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modifié |
-| 8/9/2022 | [Vue d’ensemble des tests et de la validation des applications par Microsoft](/MicrosoftTeams/overview-of-app-validation) | modifié |
-| 8/9/2022 | [Comprendre les applications tierces dans Microsoft Teams](/MicrosoftTeams/overview-third-party-apps) | modifié |
-| 8/9/2022 | [Achat d’applications tierces pour Teams](/MicrosoftTeams/purchase-third-party-apps) | modifié |
-| 8/9/2022 | [Gérer les stratégies d’autorisation d’application dans Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modifié |
-| 8/9/2022 | [Gérer les stratégies de mise en application dans Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modifié |
-| 8/9/2022 | [Gérer les stratégies et paramètres d’application personnalisés](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modifié |
-| 8/10/2022 | Routage direct | supprimé |
-| 8/11/2022 | [En savoir plus sur les applications dans Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modifié |
-| 8/11/2022 | Vous gérez les applications pour votre organisation dans les [applications Teams au sein du centre d’administration Microsoft Teams](/MicrosoftTeams/manage-apps). | modifié |
-| 8/11/2022 | [Gérer les stratégies de mise en application dans Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modifié |
-| 8/12/2022 | [Configurer un standard automatique pour Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | ajouté |
-| 8/12/2022 | [Créer une file d’attente des appels dans Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | ajouté |
-| 8/12/2022 | [Application Walkie Talkie dans Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modifié |
