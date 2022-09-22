@@ -667,6 +667,40 @@ items:
                 href: teams-live-events/configure-teams-live-events.md
               - name: Stratégies d’enregistrement des événements en direct
                 href: teams-live-events/live-events-recording-policies.md
+          - name: Créer une expérience de réunion hybride Teams
+            items:
+              - name: Vue d’ensemble
+                href: hybrid-meetings-overview.md
+              - name: Principes de réunion hybride
+                href: hybrid-meetings-principles.md
+              - name: 'Étape 1 : Se familiariser avec les fonctionnalités de réunion Teams'
+                href: hybrid-meetings-features.md
+              - name: Étape 2 - Meilleures pratiques de réunion d’évangélisation
+                href: hybrid-meetings-educate-participants.md
+              - name: 'Étape 3 : Concevoir et créer un espace de réunion'
+                href: hybrid-meetings-room-design.md
+              - name: 'Étape 4 : Sélectionner des appareils de salle'
+                href: hybrid-meetings-device-select.md
+              - name: 'Étape 5 : Configurer vos appareils'
+                items:
+                  - name: Vue d’ensemble
+                    href: hybrid-meetings-device-config-intro.md
+                  - name: 'Étape 1 : Acheter une licence salles Teams'
+                    href: hybrid-meetings-device-config-license.md
+                  - name: 'Étape 2 : créer un compte de ressource'
+                    href: hybrid-meetings-device-config-account.md
+                  - name: 'Étape 3 : Attribuer une licence de salle de réunion'
+                    href: hybrid-meetings-device-config-assign.md
+                  - name: 'Étape 4 : Configurer les propriétés de boîte aux lettres'
+                    href: hybrid-meetings-device-config-mailbox.md
+                  - name: 'Étape 5 : désactiver l’expiration du mot de passe'
+                    href: hybrid-meetings-device-config-password.md
+                  - name: 'Étape 6 : Configurer des stratégies de réunion'
+                    href: hybrid-meetings-device-config-policies.md
+                  - name: 'Étape 7 : Configurer les options de calendrier'
+                    href: hybrid-meetings-device-config-calendar.md
+              - name: 'Étape 6 : Gérer et surveiller les salles et les réunions'
+                href: hybrid-meetings-manage.md
       - name: Audioconférence
         items:
           - name: Audioconférence dans M365
