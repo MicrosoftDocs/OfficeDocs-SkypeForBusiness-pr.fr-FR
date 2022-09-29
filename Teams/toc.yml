@@ -1429,15 +1429,13 @@ items:
                 href: rooms/xml-config-file.md
               - name: Utiliser l’outil de récupération
                 href: rooms/recovery-tool.md
-      - name: Service géré de salles Microsoft Teams
+      - name: Salles Microsoft Teams Pro Management
         items:
           - name: Vue d’ensemble
             href: rooms/microsoft-teams-rooms-premium.md
-          - name: Obtenir et attribuer une licence
-            href: rooms/obtaining-assigning-license.md
-          - name: S'inscrire au service géré par MTRP
+          - name: Accès au portail Pro Management
             href: rooms/enrolling-mtrp-managed-service.md
-          - name: Inscrire un appareil dans un service géré
+          - name: Inscrire un appareil dans la gestion Pro
             href: rooms/enroll-a-device.md
           - name: Contrôle d'accès basé sur les rôles
             href: rooms/microsoft-teams-rooms-premium-rbac.md
@@ -1445,7 +1443,7 @@ items:
             href: rooms/managed-meeting-rooms-portal.md
           - name: Mises à jour gérées
             href: rooms/update-management.md
-          - name: Configurer des comptes pour les Salles Microsoft Teams
+          - name: Configurer ServiceNow
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
           - name: Gestion multi-locataire pour les partenaires
             href: rooms/multi-tenant-management-partner.md
@@ -1457,12 +1455,10 @@ items:
             href: rooms/health-and-usage-reports.md
           - name: Planificateur des normes et des salles
             href: rooms/standards-and-room-planner.md
-          - name: Incidents signalés par le client
+          - name: Enregistrer un problème
             href: rooms/customer-reported-incidents.md
           - name: Informations sur les données et la confidentialité
             href: rooms/data-and-privacy-info.md
-          - name: Utilisation de l’application mobile Salles Teams
-            href: rooms/extended-mobile-app.md
       - name: Appareils
         items:
           - name: Store des appareils Teams
