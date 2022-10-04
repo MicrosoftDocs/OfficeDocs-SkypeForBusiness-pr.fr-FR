@@ -1573,7 +1573,7 @@ items:
             href: purchase-third-party-apps.md
           - name: Adobe Acrobat en tant que visionneuse PDF par défaut dans Teams
             href: adobe-acrobat-pdf-viewer-teams.md
-          - name: Gérer les connecteurs Microsoft 365 et connecteurs personnalisés
+          - name: Gérer les connecteurs M365 et les connecteurs personnalisés
             href: Office-365-custom-connectors.md
           - name: Personnaliser la personnalisation de l’application à l’aide de la personnalisation de l’application
             href: customize-apps.md
@@ -1603,8 +1603,6 @@ items:
                 href: teams-app-permission-policies.md
               - name: Gérer les stratégies de configuration des applications
                 href: teams-app-setup-policies.md
-              - name: Gérer les stratégies et paramètres d’application personnalisés
-                href: teams-custom-app-policies-and-settings.md
           - name: Personnaliser les applications Teams pour vos employés de première ligne
             href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: Passer en revue les autorisations des applications et accorder le consentement administrateur
@@ -1615,8 +1613,6 @@ items:
             href: app-permissions.md
           - name: Personnaliser l’App Store de votre organisation
             href: customize-your-app-store.md
-          - name: Gérer l’accès aux applications dans Microsoft 365
-            href: manage-third-party-teams-apps.md
           - name: Utiliser des applications en tant qu’utilisateurs externes ou invités
             href: non-standard-users.md
           - name: Gérer les demandes des utilisateurs
