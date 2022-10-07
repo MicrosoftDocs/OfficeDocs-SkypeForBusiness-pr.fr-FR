@@ -1,39 +1,39 @@
 ---
 title: Configurer ServiceNow pour salles Teams
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: ronmart
+ms.reviewer: altsou
 ms.topic: article
 ms.service: msteams
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: En savoir plus sur la configuration de ServiceNow dans le portail salles Teams Premium
+description: En savoir plus sur la configuration de ServiceNow dans le portail de gestion salles Teams Pro
 f1keywords: ''
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_MTRP
-ms.openlocfilehash: 920d31a350914115623a83f018815d8bebe94f6a
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e437a27b6c1ba04b76cd71aa70c9913acf78c45d
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272379"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243725"
 ---
 # <a name="configure-servicenow-for-teams-rooms"></a>Configurer ServiceNow pour salles Teams
 
-Cet article décrit les prérequis et les étapes à suivre pour configurer votre environnement ServiceNow dans le portail salles Teams Premium.
+Cet article décrit les prérequis et les étapes à suivre pour configurer votre environnement ServiceNow dans le portail de gestion salles Teams Pro.
 
-## <a name="watch-microsoft-teams-rooms--managed-services-service-now-integration"></a>Regarder : Salles Microsoft Teams — Intégration du service Services managés
+## <a name="watch-microsoft-teams-rooms-pro-management--service-now-integration"></a>Regarder : gestion Salles Microsoft Teams Pro — Intégration de Service Now
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ZK4B]
 
 
 ### <a name="teams-rooms-prerequisites"></a>salles Teams prérequis
 
-- Vous devez disposer d’un rôle d’administrateur de service attribué. Pour plus d’informations, consultez [contrôle d’accès en fonction du rôle avec les services managés Salles Microsoft Teams](microsoft-teams-rooms-premium-rbac.md).
+- Vous devez disposer d’un rôle d’administrateur de service attribué. Pour plus d’informations, consultez [contrôle d’accès en fonction du rôle avec Salles Microsoft Teams Gestion Pro](microsoft-teams-rooms-premium-rbac.md).
 
 ### <a name="servicenow-prerequisites"></a>Prérequis de ServiceNow
 
@@ -44,10 +44,10 @@ Cet article décrit les prérequis et les étapes à suivre pour configurer votr
 
 ## <a name="configure-your-environment"></a>Configurer votre environnement
 
-La façon dont votre environnement est configuré est hautement personnalisable et dépend des besoins de votre organisation. Les étapes suivantes expliquent comment copier votre configuration existante dans ServiceNow sur le portail salles Teams Premium.
+La façon dont votre environnement est configuré est hautement personnalisable et dépend des besoins de votre organisation. Les étapes suivantes expliquent comment copier votre configuration existante dans ServiceNow vers le portail de gestion salles Teams Pro.
 
-1. Ouvrez l’instance ServiceNow que vous souhaitez copier. Vous devez le référencer au fur et à mesure que vous remplissez le formulaire de configuration dans le portail salles Teams Premium.
-2. Dans un nouvel onglet de navigateur, accédez au [portail salles Teams Premium](https://portal.rooms.microsoft.com/) et accédez à **Paramètres**. Ensuite, sélectionnez **ServiceNow** dans le menu de navigation de gauche pour ouvrir le formulaire de configuration.
+1. Ouvrez l’instance ServiceNow que vous souhaitez copier. Vous devez le référencer au fur et à mesure que vous remplissez le formulaire de configuration dans le portail de gestion salles Teams Pro.
+2. Dans un nouvel onglet de navigateur, accédez au [portail de gestion salles Teams Pro](https://portal.rooms.microsoft.com/) et accédez à **Paramètres**. Ensuite, sélectionnez **ServiceNow** dans le menu de navigation de gauche pour ouvrir le formulaire de configuration.
 3. Sélectionnez une méthode d’authentification pour vous connecter et entrer votre hôte d’instance ServiceNow et votre URI d’API.
 4. Tous les éléments requis dans la colonne Champ ServiceNow de la section Mappage de champs doivent être préremplis. Le tableau ci-dessous contient chaque champ ServiceNow et son champ Salles Microsoft Teams correspondant. Effectuez l’action pour chaque ligne de la section Mappage de champs. Pour obtenir des définitions de chaque champ ServiceNow, consultez [les définitions de champ ServiceNow](#servicenow-field-definitions).
 
@@ -76,16 +76,16 @@ Une fois votre test réussi, **sélectionnez Envoyer** pour enregistrer vos modi
 
 ## <a name="servicenow-field-definitions"></a>Définitions de champ ServiceNow
 
-- **short_description** : le champ de description courte dans ServiceNow est une valeur alphanumérique brève de 160 caractères qui fournit un résumé de l’incident. Une description courte équivaut à la description de l’incident dans le portail salles Teams Premium.
+- **short_description** : le champ de description courte dans ServiceNow est une valeur alphanumérique brève de 160 caractères qui fournit un résumé de l’incident. Une description courte équivaut à la description de l’incident dans le portail de gestion salles Teams Pro.
 
-- **description** : le champ de description dans ServiceNow est la première valeur de l’historique des conversations d’un incident ServiceNow. La description est équivalente au premier message dans le portail salles Teams Premium.
+- **description** : le champ de description dans ServiceNow est la première valeur de l’historique des conversations d’un incident ServiceNow. La description est équivalente au premier message dans le portail de gestion salles Teams Pro.
 
-- **assignment_group** : le champ groupe d’affectations dans ServiceNow est utilisé pour organiser les incidents. Les groupes d’affectations sont équivalents aux groupes Room dans le portail salles Teams Premium. Par défaut, il existe un groupe de salles et d’autres peuvent être ajoutés. Vous décidez du nombre de groupes et de la façon de regrouper vos incidents. Par exemple, vous pouvez choisir d’organiser vos incidents par emplacement.
+- **assignment_group** : le champ groupe d’affectations dans ServiceNow est utilisé pour organiser les incidents. Les groupes d’affectations sont équivalents aux groupes Room dans le portail de gestion salles Teams Pro. Par défaut, il existe un groupe de salles et d’autres peuvent être ajoutés. Vous décidez du nombre de groupes et de la façon de regrouper vos incidents. Par exemple, vous pouvez choisir d’organiser vos incidents par emplacement.
 
-- **gravité** : le champ de gravité dans ServiceNow est utilisé pour organiser les incidents par priorité. Les valeurs qui désignent la priorité sont personnalisables. La gravité est équivalente au champ Anneau dans le portail salles Teams Premium. Pour personnaliser les anneaux dans le portail salles Teams Premium, accédez à **Mises à jour** dans le menu de navigation de gauche. Accédez ensuite à l’onglet **Anneaux** , puis **sélectionnez Ajouter un anneau**.
+- **gravité** : le champ de gravité dans ServiceNow est utilisé pour organiser les incidents par priorité. Les valeurs qui désignent la priorité sont personnalisables. La gravité est équivalente au champ Anneau dans le portail de gestion salles Teams Pro. Pour personnaliser les anneaux dans le portail de gestion salles Teams Pro, accédez à **Mises à jour** dans le menu de navigation de gauche. Accédez ensuite à l’onglet **Anneaux** , puis **sélectionnez Ajouter un anneau**.
 
-- **commentaires** : Les commentaires sont un champ facultatif dans ServiceNow qui est utilisé pour inclure des champs requis personnalisés à partir de votre instance ServiceNow dans votre configuration du portail salles Teams Premium. L’équivalent de commentaires est une valeur personnalisée dans le portail salles Teams Premium.
+- **commentaires** : Les commentaires sont un champ facultatif dans ServiceNow qui est utilisé pour inclure des champs requis personnalisés à partir de votre instance ServiceNow dans la configuration de votre portail de gestion salles Teams Pro. L’équivalent de commentaires est une valeur personnalisée dans le portail de gestion salles Teams Pro.
 
-- **état (résolu)** : le champ État (résolu) dans ServiceNow est utilisé pour désigner la façon dont un incident a été résolu et est nécessaire pour fermer un incident. La valeur d’état (résolue) est personnalisable. L’équivalent de l’état (résolu) est une valeur personnalisée dans le portail salles Teams Premium.
+- **état (résolu)** : le champ État (résolu) dans ServiceNow est utilisé pour désigner la façon dont un incident a été résolu et est nécessaire pour fermer un incident. La valeur d’état (résolue) est personnalisable. L’équivalent de l’état (résolu) est une valeur personnalisée dans le portail de gestion salles Teams Pro.
 
-- **close_code** : un code de fermeture doit être affecté à un incident une fois qu’il est complètement résolu. Cette valeur est personnalisable dans ServiceNow. L’équivalent du code de fermeture est une valeur personnalisée dans le portail salles Teams Premium.
+- **close_code** : un code de fermeture doit être affecté à un incident une fois qu’il est complètement résolu. Cette valeur est personnalisable dans ServiceNow. L’équivalent du code de fermeture est une valeur personnalisée dans le portail de gestion salles Teams Pro.

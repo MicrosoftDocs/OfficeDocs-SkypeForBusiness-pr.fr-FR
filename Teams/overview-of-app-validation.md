@@ -8,6 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
+ms.date: 08/11/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,14 +18,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ac48aaccfab94d3a0e54bd51dbc0db2dc4c3d6fa
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: eeb0c49dcf560b858b8723f813cc86b6b51c1daa
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837484"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377552"
 ---
-# <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Validation effectuée par Microsoft pour l’ensemble des applications Teams
+# <a name="testing-and-validation-done-by-microsoft-for-all-teams-apps"></a>Test et validation effectués par Microsoft pour toutes les applications Teams
 
 Microsoft exige que toutes les applications passent une validation obligatoire avant d’être répertoriées dans le magasin pour les utilisations finales. Elle s’applique à l’ensemble des applications (à l’exception des applications personnalisées) publiées sur le magasin d’applications Teams. En outre, Microsoft encourage vivement les développeurs d’applications à participer à une certification facultative des applications qui indique les contrôles de conformité, de sécurité et de confidentialité améliorés.
 

@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et gérer des standards automatiques dans Microsoft Teams.
-ms.openlocfilehash: b783f268fa60b5212d50962dbb78988e6158390d
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: 18ff00dc72a69ea5aed85a3531a100e28f2891d1
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443491"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046684"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
 
@@ -51,6 +51,7 @@ Les standards automatiques peuvent rediriger les appels, en fonction de l’entr
 
 ## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>Nouveautés des standards automatiques au cours des 6 derniers mois
  
+ - Septembre - **L’option Forcer l’écoute** est désormais disponible avec **l’option de menu Lecture** pour le flux d’appel, le flux d’appel après les heures de travail et le flux d’appel pendant les jours fériés.
  - Août - **Les options de menu Lire** dans le flux d’appel, le flux d’appel pour les heures creuses et le flux d’appel pendant les jours fériés prennent désormais en charge \* les clés (astérisque) et \# (livre).
  - Juillet - Le flux d’appels pendant les jours fériés prend désormais en charge les **options de menu Lecture**.
  
@@ -107,7 +108,8 @@ Une fois que vous avez défini les informations générales de votre standard au
 
 #### <a name="play-menu-options"></a>Options de menu Lecture
 
-*Les clés New - \* (astérisque) et \# (livre) peuvent désormais être utilisées dans les options de menu*.
+*Nouveau : l’option Forcer l’écoute peut être activée, ce qui nécessite que les appelants écoutent toutes les options de menu avant d’effectuer la sélection.*
+ *Les clés New - \* (astérisque) et \# (livre) peuvent désormais être utilisées dans les options de menu*.
 
 Pour les options de numérotation, affectez les clés 0-9 sur le clavier téléphonique à l’une des destinations de routage des appels. Les clés \* (astérisque) et \# (livre) sont réservées par le système et ne peuvent pas être réaffectées. Si vous appuyez sur l’une de ces touches, le menu actuel est répété.
 
@@ -169,7 +171,9 @@ Une fois que vous avez ajouté votre flux d’appels après heures, sélectionne
 
 Votre standard automatique peut avoir un flux [d’appels pour chaque congé que vous avez configuré](set-up-holidays-in-teams.md). Vous pouvez ajouter jusqu'à 20 congés planifiés pour chaque standard automatique.
 
-*Nouveau : **les options de menu Lecture** sont désormais disponibles dans les flux d’appels de vacances*.
+*Nouveau : l’option Forcer l’écoute peut être activée, ce qui nécessite que les appelants écoutent toutes les options de menu avant d’effectuer la sélection.*
+ *Les clés New - \* (astérisque) et \# (livre) peuvent désormais être utilisées dans les options de menu.*
+ *Nouveau : **les options de menu Lecture** sont désormais disponibles dans les flux d’appels de vacances.*
 
 1. Dans la page Paramètres de l’appel de congés, sélectionnez **Ajouter**.
 

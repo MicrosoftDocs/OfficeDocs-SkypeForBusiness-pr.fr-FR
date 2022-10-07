@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0e6118e42600bda58bf7ddc9d7f8e0fee0b7ad9f
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 3c973daf4dc90a6de734c1c76aa352e7a7eeac28
+ms.sourcegitcommit: fc1787ad74a8c454f750a294def188b532cbadd5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706143"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67854390"
 ---
 # <a name="skype-for-business-online-retirement"></a>Déclassement de Skype Entreprise Online
 
@@ -56,7 +56,8 @@ Les utilisateurs en mode TeamsOnly reçoivent des conversations et des appels en
    - Pour tous les utilisateurs auxquels **Skype Entreprise uniquement** ou Skype Entreprise avec les modes **collaboration Teams**, remplacez le mode de coexistence **par Skype Entreprise avec collaboration teams et réunions**.  Ce mode offre les mêmes fonctionnalités que les deux autres, sauf que les nouvelles réunions planifiées par l’utilisateur seront des réunions Teams au lieu de réunions Skype Entreprise. Lorsque vous affectez ce mode directement à un utilisateur (par opposition au niveau du locataire), il convertit également automatiquement toutes les réunions Skype Entreprise en réunions Teams organisées par cet utilisateur.
    - Pour les utilisateurs qui sont en mode Îles, vous pouvez leur demander de toujours planifier des réunions dans Teams en leur affectant une instance de TeamsMeetingPolicy avec PreferredMeetingProviderForIslandsMode=Teams. 
    - Pour vous assurer que toutes les réunions Skype Entreprise existantes sont converties en réunions Teams (par exemple, si vous avez des utilisateurs Islands), vous pouvez utiliser Start-CsExMeetingMigration pour déclencher le [service de migration](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#trigger-meeting-migration-manually-via-powershell-cmdlet) de réunions pour convertir les réunions d’un utilisateur en Teams.
-  
+
+- Pour vous assurer que les contacts de Skype Entreprise Server sont correctement migrés vers Teams lorsqu’un utilisateur est déplacé d’un site local vers TeamsOnly, assurez-vous que les utilisateurs migrés se connectent à Teams dans les 30 jours suivant leur migration à partir d’un site local. Il s’agit d’une exigence temporaire, car Microsoft éloigne Teams de l’infrastructure Skype Entreprise Online héritée.
 
 ## <a name="actions-to-take-before-june-30-2022"></a>Actions à entreprendre avant le 30 juin 2022
 Maintenant que Skype Entreprise Online est mis hors service, Microsoft commence à mettre hors service l’infrastructure de prise en charge au plus tôt le 30 juin 2022.  Pour toute organisation avec des utilisateurs TeamsOnly qui ont été mis à niveau à partir de n’importe quelle version de Skype Entreprise, vous devez prendre des mesures si l’une des situations suivantes s’applique :

@@ -1,5 +1,5 @@
 ---
-title: Comparaison des fonctionnalités des appareils Teams pour les espaces partagés entre Windows et Android
+title: salles Teams pour la comparaison des fonctionnalités Windows et Android
 author: dstrome
 ms.author: dstrome
 manager: jsarrasin
@@ -18,14 +18,15 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20c479760b2093e355bf2f0b3cbd8be0a1599002
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 8b2173a68951286aa8ea96cdd805971b9d5b5dcb
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706043"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999579"
 ---
-# <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Comparaison des fonctionnalités des appareils Teams pour les espaces partagés entre Windows et Android 
+# <a name="teams-rooms-for-windows-and-android-feature-comparison"></a>salles Teams pour la comparaison des fonctionnalités Windows et Android
+
 Salles Microsoft Teams expériences sont conçues en tenant compte des clients. Chaque client a des besoins uniques, c’est pourquoi Microsoft offre un large éventail d’options, notamment salles Teams sur Windows et sur Android. 
 
 Les fonctionnalités principales sont disponibles sur les deux plateformes afin que les utilisateurs finaux puissent toujours bénéficier d’expériences audio et vidéo exceptionnelles, utiliser une jointure tactile pour participer à des réunions, et accéder à des fonctionnalités inclusives telles que des légendes en direct et lever la main. 
@@ -35,52 +36,55 @@ Comme Microsoft apporte de nouvelles fonctionnalités à Teams et à salles Team
 Pour vous guider sur les fonctionnalités disponibles sur différentes plateformes, vous pouvez vous reporter au graphique ci-dessous, qui sera mis à jour régulièrement. Toutes les fonctionnalités salles Teams ne seront pas incluses dans cette liste. Pour plus d’informations, consultez la [feuille de route de Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) et les représentants commerciaux de Microsoft.    
 
 ## <a name="teams-devices-for-shared-spaces"></a>Appareils Teams pour les espaces partagés
-### <a name="feature-comparison-between-windows-and-android"></a>Comparaison des fonctionnalités entre Windows et Android
-(mars 2022) 
 
-| &ensp; | Fonctionnalités |Windows|Android|
-|-----------------------|---------|--------|--------|
-|**Participation à une réunion**|Jointure tactile |Disponible  |Disponibles |
-||Jointure de proximité |Disponible  |Disponibles |
-||Conférence maintenant |Disponible  |Disponibles |
-||Participation directe à l’invité |Disponible  |Disponibles |
-|**Engagement et collaboration des réunions**|Expérience d’application intuitive et spécialement conçue |Disponible  |Disponibles |
-||Mises en page vidéo et de contenu (par exemple, mode Ensemble, grande galerie, galerie uniquement, galerie et contenu) |Disponible  |Disponibles |
-||Disposition de la ligne avant|Disponible|Non disponibles|
-||Bulles de conversation|Disponible |Bientôt disponible |
-||Lever la main, baisser toutes les mains |Disponible  |Disponibles |
-||Épingler plusieurs participants |Disponible  |Bientôt disponible |
-||Mettre à l’honneur plusieurs participants |Disponible |Disponibles |
-||Réactions en direct |Disponible  |Disponibles |
-||Mode compagnon |Disponible |Disponibles |
-||Légendes fermées en direct |Disponible  |Disponibles |
-||Enregistrement cloud et transcription de réunion |Disponible  |Disponibles |
-||Réunions coordonnées avec Surface Hub |Disponible |Non disponibles |
-||Tableau blanc Microsoft (entrée manuscrite à l’écran disponible avec écran tactile) |Disponible  |Disponibles |
-||Capture de contenu intelligent |Disponible  |Bientôt disponible |
-|**Contrôles de réunion et d’appareil**|Contrôles à distance de salle sur mobile |Disponible  |Disponibles |
-||Partage sans fil |Disponible  |Disponibles |
-||Cast à partir d’un mobile |Disponible  |Disponibles |
-||Résolution vidéo et de contenu : 1080p, 30 FPS |Disponible  |Disponibles |
-||Liste des participants à la réunion |Disponible  |Disponibles |
-||Compétences vocales de Cortana |Disponible  |Bientôt disponible |
-||Prise en charge du double écran |Disponible  |Disponibles |
-|**Sécurité**|Montage sécurisé, emplacement de verrouillage de sécurité (verrouillage Kensington), accès aux ports d’E/S |Disponible  |Disponibles |
-||Système d'exploitation |Windows 10  |Android 8.1+ |
-||Fonctionnalités de sécurité du système d’exploitation |TPM 2.0, désactiver des ports spécifiques, démarrage sécurisé, Credential Guard, contrôle d’accès de paramètre OOBE, protection d’accès direct à la mémoire, sécurité réseau |Chiffrement de disque complet Android, fonctionnalités propres à OEM |
-||Mode plein écran |Disponible  |Disponibles |
-|**Gestion et administration**|Déléguer en toute sécurité l’accès de gestion à un partenaire |Disponible  |Disponibles |
-||Contrôle d’accès en fonction des rôles |Disponible  |Disponibles |
-||Vues d’inventaire des appareils |Disponible  |Disponibles |
-||Surveillance globale de l’intégrité des appareils |Disponible  |Disponibles |
-||Surveillance de l’intégrité des périphériques connectés |Disponible  |Bientôt disponible |
-||Configuration à distance (redémarrage, paramètres, collecte de journaux) |Disponible  |Disponibles |
-||Mises à jour automatiques des applications Teams |Disponible  |Disponibles |
-||Inscription automatique de l’appareil |Disponible |Disponibles |
-||Analyse de la qualité des appels |Disponible  |Disponibles |
-|**Bon pour / Espace**|Focus (2-4 personnes) |Disponible  |Disponibles |
-||Petite (4 à 6 personnes) |Disponible  |Disponibles |
-||Moyen (6 à 12 personnes) |Disponible  |Disponibles |
-||Grand (12 à 16 personnes) |Disponible  |Disponibles |
-||Salle multi-usage (16 personnes et plus) |Disponible  |Non disponibles |
+### <a name="feature-comparison-between-windows-and-android"></a>Comparaison des fonctionnalités entre Windows et Android
+
+(septembre 2022)
+
+| &ensp;                                   | Fonctionnalités                                                                                                     | Windows                                                                                                                                        | Android                                             |
+|------------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| **Environnements pris en charge**               |                                                                                                              | Commercial, GCC, GCC High                                                                                                                      | Commercial, GCC<br><br>Prise en charge de GCC High ciblée pour 2023   |
+| **Participation à une réunion**                         | Jointure tactile                                                                                               | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Jointure de proximité                                                                                               | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Conférence maintenant                                                                                                     | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Participation directe à l’invité                                                                                            | Disponible                                                                                                                                      | Disponibles                                           |
+| **Engagement et collaboration des réunions** | Expérience d’application intuitive et spécialement conçue                                                                      | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Mises en page vidéo et de contenu (par exemple, mode Ensemble, grande galerie, galerie uniquement, galerie et contenu) | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Disposition de la ligne avant                                                                                             | Disponible                                                                                                                                      | Non disponibles                                       |
+|                                          | Bulles de conversation                                                                                                 | Disponible                                                                                                                                      | Bientôt disponible                                         |
+|                                          | Lever la main, baisser toutes les mains                                                                                  | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Épingler plusieurs participants                                                                                    | Disponible                                                                                                                                      | Bientôt disponible                                         |
+|                                          | Mettre à l’honneur plusieurs participants                                                                              | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Réactions en direct                                                                                               | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Mode compagnon                                                                                               | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Légendes fermées en direct                                                                                         | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Enregistrement cloud et transcription de réunion                                                                    | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Réunions coordonnées avec Surface Hub                                                                        | Disponible                                                                                                                                      | Non disponibles                                       |
+|                                          | Tableau blanc Microsoft (entrée manuscrite à l’écran disponible avec écran tactile)                                   | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Capture de contenu intelligent                                                                                  | Disponible                                                                                                                                      | Bientôt disponible                                         |
+| **Contrôles de réunion et d’appareil**          | Contrôles à distance de salle sur mobile                                                                               | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Partage sans fil                                                                                             | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Cast à partir d’un mobile                                                                                             | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Résolution vidéo et de contenu : 1080p, 30 FPS                                                                  | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Liste des participants à la réunion                                                                                  | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Compétences vocales de Cortana                                                                                         | Disponible                                                                                                                                      | Bientôt disponible                                         |
+|                                          | Prise en charge du double écran                                                                                          | Disponible                                                                                                                                      | Disponibles                                           |
+| **Sécurité**                             | Montage sécurisé, emplacement de verrouillage de sécurité (verrouillage Kensington), accès aux ports d’E/S                                      | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Système d'exploitation                                                                                             | Windows 10                                                                                                                                     | Android 8.1+                                        |
+|                                          | Fonctionnalités de sécurité du système d’exploitation                                                                                         | TPM 2.0, désactiver des ports spécifiques, démarrage sécurisé, Credential Guard, contrôle d’accès de paramètre OOBE, protection d’accès direct à la mémoire, sécurité réseau | Chiffrement de disque complet Android, fonctionnalités propres à OEM |
+|                                          | Mode plein écran                                                                                                   | Disponible                                                                                                                                      | Disponibles                                           |
+| **Gestion et administration**        | Déléguer en toute sécurité l’accès de gestion à un partenaire                                                             | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Contrôle d’accès en fonction des rôles                                                                                   | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Vues d’inventaire des appareils                                                                                       | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Surveillance globale de l’intégrité des appareils                                                                             | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Surveillance de l’intégrité des périphériques connectés                                                                       | Disponible                                                                                                                                      | Bientôt disponible                                         |
+|                                          | Configuration à distance (redémarrage, paramètres, collecte de journaux)                                                     | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Mises à jour automatiques des applications Teams                                                                                  | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Inscription automatique de l’appareil                                                                                       | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Analyse de la qualité des appels                                                                                       | Disponible                                                                                                                                      | Disponibles                                           |
+| **Bon pour / Espace**                     | Focus (2-4 personnes)                                                                                           | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Petite (4 à 6 personnes)                                                                                           | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Moyen (6 à 12 personnes)                                                                                         | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Grand (12 à 16 personnes)                                                                                         | Disponible                                                                                                                                      | Disponibles                                           |
+|                                          | Salle multi-usage (16 personnes et plus)                                                                              | Disponible                                                                                                                                      | Non disponibles                                       |
 

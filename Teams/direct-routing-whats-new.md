@@ -14,16 +14,22 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 8db0f0c4d29f786166098587aafc3ec1db256e38
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6d2496ef355df7a935dbf45321a8b8fd63b8e8de
+ms.sourcegitcommit: fc1787ad74a8c454f750a294def188b532cbadd5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271459"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67854430"
 ---
 # <a name="whats-new-for-direct-routing"></a>Nouveautés du routage direct
 
 Cet article décrit les nouveautés du routage direct. Revenez souvent à la recherche des mises à jour.
+
+## <a name="trunk-demoting-logic-based-on-sip-options"></a>Logique de rétrogradation de jonction basée sur les options SIP
+
+Une nouvelle fonctionnalité basée sur les options SIP est introduite pour l’intégrité des jonctions. Lorsqu’elle est activée dans la configuration de la passerelle (voir Set-CsOnlinePSTNGateway cmdlet et le paramètre SendSipOptions), la logique de routage des appels sortants rétrograde les jonctions qui n’envoient pas régulièrement les options SIP (la période attendue est une option SIP envoyée par le SBC par minute) au serveur principal Microsoft. Ces jonctions rétrogradées sont mises à la fin de la liste des jonctions disponibles pour l’appel sortant et sont essayées comme les dernières; réduisant ainsi potentiellement le temps d’installation des appels.
+Toute jonction activée pour cette fonctionnalité qui n’envoie pas au moins une option SIP dans les cinq minutes à l’un des proxys SIP microsoft régionaux (NOAM, EMEA, APAC, OCEA) est considéré comme rétrogradé. Si une jonction envoie des options SIP uniquement à un sous-ensemble de proxys SIP régionaux Microsoft, ces itinéraires sont essayés en premier et les autres sont rétrogradés.
+
 
 ## <a name="sip-support"></a>Prise en charge de SIP
 
@@ -72,6 +78,6 @@ Pour éviter tout impact sur le service, assurez-vous que vos SBC sont configur�
 - TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 c’est-à-dire ECDHE-RSA-AES256-SHA384
 - TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 c’est-à-dire ECDHE-RSA-AES128-SHA256
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Routage direct - Protocole SIP](direct-routing-protocols-sip.md)

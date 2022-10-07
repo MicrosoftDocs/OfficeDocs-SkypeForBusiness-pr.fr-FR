@@ -7,9 +7,11 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 09/20/2022
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords:
@@ -18,12 +20,12 @@ description: Découvrez comment gérer et configurer la demande d’approbation 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0967aec80bb88dff12141040fead94af9aae0616
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 382d3923d008f0bf70b2d9b9a4f3364709b4f2e1
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706223"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377602"
 ---
 # <a name="manage-user-requests"></a>Gérer les demandes des utilisateurs
 
@@ -33,7 +35,7 @@ Cette fonctionnalité vous fournit un signal sur la demande d’une application 
 
 Vous conservez le contrôle total des applications autorisées ou bloquées pour les utilisateurs. Si vous choisissez d’autoriser une application, les contrôles et l’interface utilisateur pour gérer les applications restent les mêmes.
 
-* L’option par défaut envoie les demandes utilisateur au Centre d’administration Teams, où vous pouvez [afficher les demandes des utilisateurs et autoriser les applications demandées](#view-user-requests-in-teams-admin-center).
+* L’option par défaut envoie les demandes utilisateur au Centre d’administration Teams, où vous pouvez [afficher les demandes des utilisateurs et autoriser les applications demandées](#view-and-act-on-user-requests-in-teams-admin-center).
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Capture d’écran montrant l’option permettant de demander à un administrateur d’approuver une application bloquée.":::
 
@@ -41,7 +43,7 @@ Vous conservez le contrôle total des applications autorisées ou bloquées pour
 
    :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Capture d’écran montrant l’expérience de l’utilisateur final pour les applications en magasin lorsqu’un administrateur redirige l’URL de demande d’application autoriser vers une URL spécifique à l’organisation.":::
 
-## <a name="view-user-requests-in-teams-admin-center"></a>Afficher les demandes des utilisateurs dans le Centre d’administration Teams
+## <a name="view-and-act-on-user-requests-in-teams-admin-center"></a>Afficher et agir sur les demandes des utilisateurs dans le Centre d’administration Teams
 
 Les demandes d’utilisateur final reçues par la méthode par défaut sont affichées dans le Centre d’administration Teams. Vous pouvez facilement afficher et gérer les demandes. Nous vous recommandons un triage régulier pour rechercher les demandes des utilisateurs finaux. Pour afficher et autoriser les applications, procédez comme suit :
 
@@ -90,7 +92,7 @@ Si vous choisissez de le faire, les méthodes permettant d’évaluer des applic
 
 ## <a name="dismiss-user-requests"></a>Ignorer les demandes des utilisateurs
 
-Pour ignorer les demandes adressées à une application verte, procédez comme suit :
+Pour ignorer les demandes, procédez comme suit :
 
 1. Sélectionnez le nom de l’application pour laquelle vous souhaitez ignorer les demandes de l’utilisateur.
 1. Sélectionnez **Gérer les demandes**.

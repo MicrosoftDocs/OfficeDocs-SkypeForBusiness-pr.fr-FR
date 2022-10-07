@@ -3,6 +3,23 @@
 
 
 
+## <a name="week-of-september-19-2022"></a>Semaine du 19 septembre 2022
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 9/19/2022 | [Microsoft 365 Teams Phone System with Calling Plan documentation # < 60 chars](/MicrosoftTeams/business-voice/index) | modifié |
+| 9/19/2022 | [Discussions sur la craie de Microsoft Teams](/MicrosoftTeams/chalk-talks-landing-page) | modifié |
+| 9/19/2022 | [Documentation de l’administrateur Microsoft Teams # < 60 caractères](/MicrosoftTeams/index) | modifié |
+| 9/19/2022 | [Formation des utilisateurs finaux pour Microsoft Teams # < 60 caractères](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modifié |
+| 9/19/2022 | [Formation à Microsoft Teams pour les administrateurs](/MicrosoftTeams/teams-admin-training-landing-page) | modifié |
+| 9/19/2022 | [Planifier votre mise à niveau de Skype Entreprise vers Microsoft Teams](/MicrosoftTeams/upgrade-skype-teams) | modifié |
+| 9/20/2022 | [Utiliser la personnalisation des applications pour personnaliser les applications en fonction des besoins de votre organisation](/MicrosoftTeams/customize-apps) | modifié |
+| 9/20/2022 | [Utiliser des modèles d’équipe généraux dans le Centre d’administration](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | modifié |
+| 9/20/2022 | [Utiliser des modèles d’équipe de vente au détail](/MicrosoftTeams/get-started-with-retail-teams-templates) | modifié |
+| 9/20/2022 | [Utiliser des modèles d’équipe dans le Centre d’administration Teams](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modifié |
+
+
 ## <a name="week-of-september-12-2022"></a>Semaine du 12 septembre 2022
 
 
@@ -112,42 +129,3 @@
 | 8/26/2022 | [Créer une file d’attente des appels dans Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | modifié |
 | 8/26/2022 | [Créer une file d’attente des appels dans Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
 | 8/26/2022 | [Planifier les standards automatiques teams et les files d’attente d’appels](/MicrosoftTeams/plan-auto-attendant-call-queue) | modifié |
-
-
-## <a name="week-of-august-15-2022"></a>Semaine du 15 août 2022
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 8/15/2022 | [Contrôleurs de frontière de session certifiés pour le routage direct](/MicrosoftTeams/direct-routing-border-controllers) | modifié |
-| 8/16/2022 | [Forfaits d’appels pour Microsoft Teams](/MicrosoftTeams/calling-plans-for-office-365) | modifié |
-| 8/17/2022 | [Personnaliser votre magasin d’applications dans Teams](/MicrosoftTeams/customize-your-app-store) | modifié |
-| 8/17/2022 | [Appareils pour Teams](/MicrosoftTeams/devices/teams-ip-phones) | modifié |
-| 8/17/2022 | [Consentement spécifique à la ressource dans Microsoft Teams](/MicrosoftTeams/resource-specific-consent) | modifié |
-| 8/17/2022 | [Gérer les stratégies d’autorisation d’application dans Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modifié |
-| 8/17/2022 | [Gérer les stratégies et paramètres d’application personnalisés](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modifié |
-| 8/17/2022 | [Charger vos applications personnalisées dans le Centre d’administration Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | modifié |
-| 8/18/2022 | [Afficher les autorisations des applications et accorder le consentement administrateur dans le Centre d’administration Microsoft Teams](/MicrosoftTeams/app-permissions-admin-center) | modifié |
-| 8/18/2022 | Nouveautés - Operator Connect | supprimé |
-| 8/18/2022 | [Charger vos applications personnalisées dans le Centre d’administration Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | modifié |
-| 8/19/2022 | [Gérer les équipes dans le centre d’administration Microsoft Teams](/MicrosoftTeams/manage-teams-in-modern-portal) | modifié |
-| 8/19/2022 | [Gérer les stratégies de réunion pour les participants et les invités](/MicrosoftTeams/meeting-policies-participants-and-guests) | modifié |
-| 8/19/2022 | [Expériences connectées optionnelles dans Teams](/MicrosoftTeams/teams-privacy-oce-overview) | modifié |
-| 8/20/2022 | [Planifier le contournement de média avec un routage direct](/MicrosoftTeams/direct-routing-plan-media-bypass) | modifié |
-| 8/20/2022 | [Préparer le réseau de votre organisation pour Microsoft Teams](/MicrosoftTeams/prepare-network) | modifié |
-| 8/20/2022 | [Téléphones et appareils pour Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modifié |
-| 8/20/2022 | [Utiliser des modèles Teams dans le Centre d’administration](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modifié |
-| 8/20/2022 | [Achat d’applications tierces pour Teams](/MicrosoftTeams/purchase-third-party-apps) | modifié |
-| 8/20/2022 | [Présentation des équipes et des canaux dans Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modifié |
-| 8/20/2022 | [Mettre à niveau Skype Entreprise localement vers Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | modifié |
-| 8/20/2022 | [Gérer les stratégies de messagerie vocale](/MicrosoftTeams/manage-voicemail-policies) | ajouté |
-| 8/20/2022 | [Affectation, modification ou suppression du numéro de téléphone d’un utilisateur](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | modifié |
-| 8/20/2022 | [Approvisionnement à distance et connexion pour les appareils Android Teams](/MicrosoftTeams/devices/remote-provision-remote-login) | modifié |
-| 8/20/2022 | [Gérer l’application Plannings pour votre organisation dans Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modifié |
-| 8/20/2022 | [Configurer Operator Connect](/MicrosoftTeams/operator-connect-configure) | modifié |
-| 8/20/2022 | [Transferts de données entre les opérateurs et Microsoft pour Operator Connect](/MicrosoftTeams/operator-connect-data-transfer) | modifié |
-| 8/20/2022 | [Connexion d’opérateur](/MicrosoftTeams/operator-connect-plan) | modifié |
-| 8/20/2022 | [Rechercher des numéros de téléphone pour les utilisateurs](/MicrosoftTeams/search-for-phone-numbers-for-users) | modifié |
-| 8/20/2022 | [Configurer les paramètres d’événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modifié |
-| 8/20/2022 | [Configurer des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modifié |
-| 8/20/2022 | [Configurer la confirmation de rendez-vous rendez-vous pour vos utilisateurs dans Microsoft Teams](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | modifié |

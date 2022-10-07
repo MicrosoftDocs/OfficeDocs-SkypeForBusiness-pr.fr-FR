@@ -1,7 +1,7 @@
 ---
-title: Connecter Microsoft Teams Essentials (identité AAD) à un système de messagerie existant avec calendrier
-author: adjoseph
-ms.author: adjoseph
+title: Connecter Microsoft Teams Essentials (identité AAD) à un système de messagerie existant avec un calendrier
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: jimmyw
 manager: serdars
 ms.topic: article
@@ -18,20 +18,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dcea261be727c01382d55c4a2861541291fcb343
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: acdd613044e5e7f0ac7db857ca734f276522c919
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823585"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377592"
 ---
-# <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>Connecter Microsoft Teams Essentials (identité AAD) à un système de messagerie existant avec calendrier
+# <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>Connecter Microsoft Teams Essentials (identité AAD) à un système de messagerie existant avec un calendrier
 
 Ce guide fournit des étapes de configuration pour connecter Microsoft Teams Essentials (identité AAD) à un système de messagerie existant avec un calendrier.
 
-Microsoft Teams Essentials (identité AAD) réunit le meilleur des Teams avec des réunions, des conversations, des appels et une collaboration. Teams Essentials (AAD Identity) peut se connecter à votre système de messagerie existant pour fournir une expérience intégrée, comme l’affichage de toutes les notifications Teams dans une boîte de réception de courrier existante, tous les événements de calendrier dans Teams et la possibilité de se connecter à Teams avec votre adresse e-mail existante.
+Microsoft Teams Essentials (identité AAD) réunit le meilleur de Teams avec des réunions, des conversations, des appels et une collaboration. Teams Essentials (AAD Identity) peut se connecter à votre système de messagerie existant pour fournir une expérience intégrée, comme la présence de toutes les notifications Teams dans une boîte de réception de courrier existante, tous les événements de calendrier dans Teams et la possibilité de se connecter à Teams avec votre adresse e-mail existante.
 
-Une fois connecté, vous pouvez voir les réponses aux réunions planifiées et les invitations à collaborer dans votre boîte aux lettres et Microsoft Teams. Vous pouvez également afficher et interagir avec les réunions entrantes à partir de votre calendrier à l’aide de Teams et de logiciels de réunion tiers tels que Google Workspace.
+Une fois connecté, vous pouvez voir les réponses aux réunions planifiées et aux invitations à collaborer dans votre boîte aux lettres et Microsoft Teams. Vous pouvez également afficher et interagir avec les réunions entrantes à partir de votre calendrier à l’aide de Teams et de logiciels de réunion tiers tels que Google Workspace.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -40,7 +40,7 @@ Les étapes de configuration décrites dans cet article impliquent le processus 
 Pour activer le transfert automatique :
 
 1. Accédez au portail Microsoft 365 Defender à l’adresse<https://security.microsoft.com/>
-2. Dans le menu de navigation de gauche, accédez à **Email & collaboration** > **Policies & rules** > **Threat policies** > **Anti-spam** dans la section Stratégies
+2. Dans le menu de navigation de gauche, accédez à Email & stratégies de **collaboration** > **& règles** > **contre** >  le **courrier indésirable** dans la section Stratégies
 3. Dans la page **Stratégies anti-courrier indésirable** , sélectionnez **Stratégie de trafic sortant anti-courrier indésirable (par défaut)** dans la liste
 4. Dans le menu volant des détails de stratégie qui s’affiche, sélectionnez **Modifier les paramètres de protection** pour modifier la règle de transfert automatique.
 5. Sous **règles de transfert**, remplacez la condition de transfert automatique **par Activé : le transfert est activé** et enregistrez vos modifications.
@@ -49,29 +49,29 @@ Pour activer le transfert automatique :
 
 Pour en savoir plus sur la configuration des stratégies de courrier indésirable sortant, consultez [Configurer le filtrage du courrier indésirable sortant - Office 365 | Microsoft Docs](/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide&preserve-view=true).
 
-## <a name="connect-teams-essentials-to-exchange-online-with-exchange-on-premises"></a>Connecter Teams Essentials à Exchange Online avec Exchange localement
+## <a name="connect-teams-essentials-to-exchange-online-with-exchange-on-premises"></a>Connecter Teams Essentials à Exchange Online avec Exchange en local
 
-Vous pouvez profiter de tout ce que Teams Essentials (AAD) a à offrir à l’aide d’une approche hybride pour configurer la connexion entre Microsoft Teams et Exchange Online avec Exchange localement.
+Vous pouvez profiter de tout ce que Teams Essentials (AAD) a à offrir à l’aide d’une approche hybride pour configurer la connexion entre Microsoft Teams et Exchange Online avec Exchange en local.
 
-Pour que l’accès au calendrier fonctionne pour vos boîtes aux lettres locales, suivez les instructions fournies lors de la[configuration de l’accès au calendrier Teams pour Exchange boîtes aux lettres locales - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/exchange-team-blog/configuring-teams-calendar-access-for-exchange-on-premises/ba-p/1484009)
+Pour que l’accès au calendrier fonctionne pour vos boîtes aux lettres locales, suivez les instructions fournies lors de la[configuration de l’accès au calendrier Teams pour les boîtes aux lettres Exchange locales - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/exchange-team-blog/configuring-teams-calendar-access-for-exchange-on-premises/ba-p/1484009)
 
-Pour déployer Salles Microsoft Teams dans un environnement hybride avec Exchange localement, [visitez Déployer Salles Microsoft Teams avec Exchange localement - Microsoft Teams | Microsoft Docs](rooms/with-exchange-on-premises.md)
+Pour déployer Salles Microsoft Teams dans un environnement hybride avec Exchange en local, [visitez Deploy Salles Microsoft Teams with Exchange on-premises - Microsoft Teams | Microsoft Docs](rooms/with-exchange-on-premises.md)
 
-## <a name="connect-teams-essentials-to-third-party-email-systems-with-calendar"></a>Connecter Teams Essentials vers des systèmes de messagerie tiers avec calendrier
+## <a name="connect-teams-essentials-to-third-party-email-systems-with-calendar"></a>Connecter Teams Essentials à des systèmes de messagerie tiers avec un calendrier
 
-Si vous n’envisagez pas de basculer la boîte aux lettres de votre organisation vers Microsoft 365, vous pouvez connecter Teams Essentials à un système de messagerie et de calendrier tiers existant. Cette connexion vous permet de recevoir Teams notifications dans votre système de messagerie existant lors de l’affichage des invitations aux réunions et des événements de calendrier existants dans Microsoft Teams.
+Si vous n’envisagez pas de basculer la boîte aux lettres de votre organisation vers Microsoft 365, vous pouvez connecter Teams Essentials à un système de messagerie et de calendrier tiers existant. Cette connexion vous permet de recevoir des notifications Teams dans votre système de messagerie existant lors de l’affichage des invitations aux réunions et des événements de calendrier existants dans Microsoft Teams.
 
-### <a name="connect-teams-essentials-to-third-party-email-using-vanity-domain-google-workspace-example"></a>Connecter Teams Essentials vers des e-mails tiers à l’aide d’un domaine personnel (exemple d’espace de travail Google)
+### <a name="connect-teams-essentials-to-third-party-email-using-vanity-domain-google-workspace-example"></a>Connecter Teams Essentials à des e-mails tiers à l’aide d’un domaine personnel (exemple d’espace de travail Google)
 
-La section suivante vous montre comment connecter Microsoft Teams à un système de messagerie existant avec un calendrier, comme Google Workspace. Vous allez effectuer cette connexion en laissant le système de messagerie actuel intact, en transférant tous les e-mails à Exchange Online, en filtrant tout ce qui est sauf les e-mails du type de calendrier. Ce faisant, les e-mails de calendrier apparaissent automatiquement dans le calendrier Teams accepté comme des e-mails de type provisoire et non calendaire sont supprimés.
+La section suivante vous montre comment connecter Microsoft Teams à un système de messagerie existant avec un calendrier, comme Google Workspace. Vous allez effectuer cette connexion en laissant le système de messagerie actuel intact, en transférant tous les e-mails à Exchange Online, en filtrant tout ce qui est sauf les e-mails du type de calendrier. Ce faisant, les e-mails de calendrier apparaissent automatiquement dans le calendrier Teams accepté en tant qu’e-mails de type provisoire et non calendrier sont supprimés.
 
-Tous les e-mails générés dans Microsoft 365 sont transférés à l’espace de travail Google afin que les utilisateurs reçoivent Teams rappels et notifications. Les identités utilisateur, comme l’e-mail principal de l’utilisateur, peuvent être dupliquées. L’authentification unique est également possible, mais pas obligatoire. Les utilisateurs doivent être en mesure de participer à Teams réunions à partir du calendrier tiers ou du calendrier Teams. Une autre fonctionnalité Teams fonctionne comme prévu.
+Tous les e-mails générés dans Microsoft 365 sont transférés vers Google Workspace afin que les utilisateurs reçoivent des rappels et des notifications Teams. Les identités utilisateur, comme l’e-mail principal de l’utilisateur, peuvent être dupliquées. L’authentification unique est également possible, mais pas obligatoire. Les utilisateurs doivent être en mesure de rejoindre des réunions Teams à partir du calendrier tiers ou du calendrier Teams. D’autres fonctionnalités teams fonctionneront comme prévu.
 
 :::image type="content" source="media/essentials-googleworkspace.png" alt-text="Image représentant un diagramme du flux de messagerie entre EXO et Gmail":::
 
-Ces exemples s’appuient sur l’applet de commande PowerShell [Connecter-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline) qui fait partie du [module PowerShell V2 Exchange Online](/powershell/exchange/exchange-online-powershell-v2?preserve-view=true&view=exchange-ps). Si vous recevez une erreur lors de l’exécution de Connecter-ExchangeOnline, vérifiez que vous avez suivi les instructions recommandées pour installer le module à [l’aide du module EXO V2](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-EXO-v2-module). Lorsque Connect-ExchangeOnline demande des informations d’identification, veillez à utiliser un compte d’administrateur client.
+Ces exemples s’appuient sur l’applet de commande [Connect-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline) PowerShell qui fait partie du [module PowerShell V2 Exchange Online](/powershell/exchange/exchange-online-powershell-v2?preserve-view=true&view=exchange-ps). Si vous recevez une erreur lors de l’exécution de Connect-ExchangeOnline, vérifiez que vous avez suivi les instructions recommandées pour l’installation du module à [l’aide de l’installation du module EXO V2](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-EXO-v2-module). Lorsque Connect-ExchangeOnline demande des informations d’identification, veillez à utiliser un compte d’administrateur client.
 
-#### <a name="step-one-set-up-a-new-microsoft-365-tenant-domain"></a>Étape 1 : Configurer un nouveau domaine de locataire Microsoft 365
+#### <a name="step-one-set-up-a-new-microsoft-365-tenant-domain"></a>Étape 1 : Configurer un nouveau domaine client Microsoft 365
 
 1. Accédez au centre d’administration à l’adresse <https://admin.microsoft.com>.
 
@@ -100,7 +100,7 @@ Ces exemples s’appuient sur l’applet de commande PowerShell [Connecter-Excha
 13. **Confirmez la valeur par défaut** dans la fenêtre qui semble définir votre domaine existant comme valeur par défaut.
     :::image type="content" source="media/essentials-internalrelay2.png" alt-text="Image de la boîte de dialogue de confirmation pour définir le domaine comme domaine par défaut":::
 
-    Pour obtenir des conseils supplémentaires sur l’ajout d’un domaine à Microsoft 365, suivez les étapes décrites dans [Ajouter un domaine à Microsoft 365](https://support.office.com/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US).
+    Pour plus d’informations sur l’ajout d’un domaine à Microsoft 365, suivez les étapes décrites dans [Ajouter un domaine à Microsoft 365](https://support.office.com/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US).
 
 #### <a name="step-two-add-users-and-assign-teams-essentials-licenses"></a>Étape 2 : Ajouter des utilisateurs et attribuer des licences Teams Essentials
 
@@ -119,11 +119,11 @@ Ces exemples s’appuient sur l’applet de commande PowerShell [Connecter-Excha
 
 6. Sélectionnez **Suivant**, passez en revue les paramètres de votre nouvel utilisateur, apportez d’autres modifications si nécessaire, puis sélectionnez **Terminer l’ajout**, puis fermez.
 
-Pour ajouter plusieurs utilisateurs en même temps, suivez les étapes [recommandées dans Ajouter des utilisateurs et attribuer des licences - Microsoft 365 administrateur | Microsoft Docs](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true)
+Pour ajouter plusieurs utilisateurs en même temps, suivez les étapes [recommandées dans Ajouter des utilisateurs et attribuer des licences - Administrateur Microsoft 365 | Microsoft Docs](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true)
 
 #### <a name="step-three-configure-google-workspace"></a>Étape 3 : Configurer l’espace de travail Google
 
-***Configurez la remise double par e-mail pour Microsoft 365 et supprimer les pièces jointes :***
+***Configurez la remise par e-mail double à Microsoft 365 et supprimez les pièces jointes :***
 
 1. Suivez les étapes de Google pour configurer la double livraison : <https://support.google.com/a/answer/9228551?hl=en>
 
@@ -134,7 +134,7 @@ Pour ajouter plusieurs utilisateurs en même temps, suivez les étapes [recomman
     - Entrez un nom de route. (Par exemple, Microsoft 365)
     - Choisissez « Hôte unique » et entrez l’enregistrement MX spécifié pour le domaine dans Microsoft 365 (par exemple : ContosoLandscaping2-m365master-com.mail.protection.outlook.com)
 
-    **Méthode hôte intelligente pour résoudre le code de réponse ATTR35 lorsque le courrier est envoyé à Exchange localement/Exchange Online :**
+    **Méthode hôte intelligente pour résoudre le code de réponse ATTR35 lorsque le courrier est envoyé à Exchange en local/Exchange Online :**
     - Choisissez « Hôte unique » et entrez l’enregistrement MX pour le domaine initial du locataire en tant qu’hôte intelligent. Le domaine initial est au format GUID.onmicrosoft.com. Un GUID est une valeur unique fournie à chaque organisation dans le cadre de son inscription au service. Un GUID est un entier 128 bits (16 octets) qui peut être utilisé sur tous les ordinateurs et réseaux partout où un identificateur unique est requis.
     - Vous pouvez utiliser la ligne de commande : nslookup -type MX GUID.onmicrosoft.com pour résoudre l’enregistrement MX (par exemple : contosolandscaping2.mail.protection.outlook.com)
     - Choisir **le port :25**
@@ -168,7 +168,7 @@ Pour ajouter plusieurs utilisateurs en même temps, suivez les étapes [recomman
 
 ***Ajoutez votre sous-domaine dans l’espace de travail Google pour recevoir des e-mails de Microsoft 365.***
 
-  Ensuite, vous allez créer des règles de transfert sur Microsoft 365 boîtes aux lettres vers votre sous-domaine. Choisissez un sous-domaine à utiliser dans Google Workspace pour recevoir des e-mails de Microsoft 365 (par exemple, g.contosolandscaping2.m365master.com)
+  Ensuite, vous allez créer des règles de transfert sur les boîtes aux lettres Microsoft 365 vers votre sous-domaine. Choisissez un sous-domaine à utiliser dans Google Workspace pour recevoir des e-mails de Microsoft 365 (par exemple, g.contosolandscaping2.m365master.com)
 
 1. Démarrer sur la **console Google Administration** (à admin.google.com)
 
@@ -204,7 +204,7 @@ Pour ajouter plusieurs utilisateurs en même temps, suivez les étapes [recomman
 
 6. Accédez à **Conformité du contenu** et **sélectionnez Configurer**
 
-7. Donnez un nom au paramètre. Par exemple, Allowlist Microsoft 365 e-mail.
+7. Donnez un nom au paramètre. Par exemple, allowlist Microsoft 365 email.
 
 8. Sous **messages électroniques pour affecter la** vérification entrante
 
@@ -224,7 +224,7 @@ Pour ajouter plusieurs utilisateurs en même temps, suivez les étapes [recomman
 
 16. Sélectionnez **Enregistrer**
 
-#### <a name="step-four-configure-microsoft-365-settings-for-the-integration"></a>Étape 4 : Configurer Microsoft 365 paramètres pour l’intégration
+#### <a name="step-four-configure-microsoft-365-settings-for-the-integration"></a>Étape 4 : Configurer les paramètres Microsoft 365 pour l’intégration
 
 *Configurez le connecteur pour acheminer le courrier de Microsoft 365 vers Gmail :*
 
@@ -234,7 +234,7 @@ Pour ajouter plusieurs utilisateurs en même temps, suivez les étapes [recomman
 
 3. Sous **Administration centres**, sélectionnez **Exchange** pour ouvrir le centre d’administration Exchange dans un nouvel onglet
 
-4. Dans le **menu** de navigation gauche du centre d’administration Exchange, sélectionnez **Connecteurs** de **flux** >  de courrier, ouvrez le menu de dépassement (...) et sélectionnez Ajouter un connecteur
+4. Dans le menu de navigation de gauche du **centre d’administration Exchange**, sélectionnez **Connecteurs** de **flux** >  de courrier, ouvrez le menu de dépassement (...) et sélectionnez Ajouter un connecteur
 
 5. Sous **Connexion à partir de** la nouvelle fenêtre du connecteur, sélectionnez **Office 365**
 
@@ -256,7 +256,7 @@ Pour ajouter plusieurs utilisateurs en même temps, suivez les étapes [recomman
 
 14. Lorsque vous voyez la notification créée par le connecteur, appuyez sur **Terminé**
 
-*Transférer le courrier de Microsoft 365 boîtes aux lettres vers Gmail :*
+*Transférer le courrier des boîtes aux lettres Microsoft 365 vers Gmail :*
 
 1. Utilisez le **centre Administration Microsoft 365** pour mettre à jour chaque boîte aux lettres ou vous pouvez utiliser un script **PowerShell**, comme suit :
 
@@ -270,9 +270,9 @@ Pour ajouter plusieurs utilisateurs en même temps, suivez les étapes [recomman
     }
     ```
 
-    **Résolution des problèmes Connecter-ExchangeOnline :**
+    **Résolution des problèmes liés à Connect-ExchangeOnline :**
 
-    Rencontrez-vous une erreur lors de l’exécution de Connecter-ExchangeOnline ? Cela peut être le résultat de la règle de transfert automatique de courrier électronique de votre organisation. Par défaut, le transfert automatique est désactivé. Pour connecter Teams Essentials à Google Workspace, la règle doit être activée.
+    Rencontrez-vous une erreur lors de l’exécution de Connect-ExchangeOnline ? Cela peut être le résultat de la règle de transfert automatique de courrier électronique de votre organisation. Par défaut, le transfert automatique est désactivé. Pour connecter Teams Essentials à Google Workspace, la règle doit être activée.
 
     Entrez le script suivant :
 
@@ -289,7 +289,7 @@ Pour ajouter plusieurs utilisateurs en même temps, suivez les étapes [recomman
 
 *Configurez Exchange Online règle de transport direct vers le calendrier :*
 
-1. La configuration de ce paramètre accepte automatiquement les invitations de calendrier afin qu’elles apparaissent dans Teams calendrier sans obliger les utilisateurs à interagir avec l’invitation dans Outlook Web App.
+1. La configuration de ce paramètre accepte automatiquement les invitations de calendrier afin qu’elles s’affichent dans le calendrier Teams sans obliger les utilisateurs à interagir avec l’invitation dans Outlook Web App.
 
 2. Le script suivant peut être utilisé pour créer les règles de transport :
 
@@ -304,7 +304,7 @@ Pour ajouter plusieurs utilisateurs en même temps, suivez les étapes [recomman
 
 1. Suivez les instructions fournies dans [Activer ou désactiver Outlook sur le web d’une boîte aux lettres dans Exchange Online](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app) pour désactiver Outlook sur le web pour les boîtes aux lettres.
 
-2. Vous pouvez désactiver Outlook sur le web à l’aide du **centre de Exchange Administration** ou **de PowerShell**. Vous pouvez utiliser l’exemple PowerShell suivant pour désactiver Outlook sur le web pour toutes les boîtes aux lettres :
+2. Vous pouvez désactiver Outlook sur le web à l’aide du **Centre de Administration Exchange** ou **de PowerShell**. Vous pouvez utiliser l’exemple PowerShell suivant pour désactiver Outlook sur le web pour toutes les boîtes aux lettres :
 
     ```powershell
     Connect-ExchangeOnline
@@ -322,13 +322,13 @@ Cette étape garantit que l’e-mail est envoyé au système tiers pour une rés
 
 2. Dans la navigation de gauche, sélectionnez **Afficher tout**
 
-3. Sous **Administration Centres**, sélectionnez **Exchange** pour ouvrir Exchange centre d’administration dans un nouvel onglet
+3. Sous **Administration Centres**, sélectionnez **Exchange** pour ouvrir le Centre d’administration Exchange dans un nouvel onglet
 
-4. Dans **Exchange centre d’administration**, sélectionnez **Flux de courrier** dans le menu de navigation de gauche, puis sélectionnez **Domaines acceptés**
+4. Dans le **Centre d’administration Exchange**, sélectionnez **Flux de courrier** dans le menu de navigation de gauche, puis sélectionnez **Domaines acceptés**
 
 5. Appuyez sur le nom de domaine configuré dans le système tiers (par exemple, contosoLandscaping2.m365master.com)
 
-    :::image type="content" source="media/essentials-internalrelay1.png" alt-text="Image montrant les paramètres du centre d’administration Exchange pour le flux de messagerie.":::
+    :::image type="content" source="media/essentials-internalrelay1.png" alt-text="Image montrant les paramètres du Centre d’administration Exchange pour le flux de messagerie. ":::
 
 6. Sélectionnez **Relais interne**, puis cliquez sur **Enregistrer**
 
@@ -336,18 +336,18 @@ Cette étape garantit que l’e-mail est envoyé au système tiers pour une rés
 
 #### <a name="step-six-create-a-rule-to-delete-all-inbound-mail-to-exchange-online-except-for-calendaring"></a>Étape 6 : Créer une règle pour supprimer tous les messages entrants vers Exchange Online à l’exception du calendrier
 
-1. Vous pouvez configurer cette règle dans Exchange Administration **Center** ou **PowerShell**. Vous pouvez utiliser l’exemple **PowerShell** suivant pour créer la règle :
+1. Vous pouvez configurer cette règle dans exchange **Administration Center** ou **PowerShell**. Vous pouvez utiliser l’exemple **PowerShell** suivant pour créer la règle :
 
     ```powershell
     Connect-ExchangeOnline
     New-TransportRule -Name "Delete all except Calendaring" -ExceptIfMessageTypeMatches Calendaring -FromScope NotInOrganization -DeleteMessage:$true
     ```
 
-### <a name="connect-teams-essentials-to-third-party-email-not-using-vanity-domain-gmail-example"></a>Connecter Teams Essentials à un e-mail tiers qui n’utilise pas de domaine personnel (exemple Gmail)
+### <a name="connect-teams-essentials-to-third-party-email-not-using-vanity-domain-gmail-example"></a>Connecter Teams Essentials à des e-mails tiers qui n’utilisent pas de domaine personnel (exemple Gmail)
 
-Vous pouvez planifier et participer à une réunion Teams directement à partir de Google Workspace en connectant un compte Gmail consommateur à Teams Essentials en vous appuyant principalement sur le module complémentaire [G Suite Teams](https://support.microsoft.com/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60). Cela vous donne la possibilité de planifier la vidéo et l’audioconférence avec partage d’écran, conversation de réunion, tableaux blancs numériques, etc.
+Vous pouvez planifier et participer à une réunion Teams directement à partir de Google Workspace en connectant un compte Gmail consommateur à Teams Essentials, en vous appuyant principalement sur [l’extension Teams G Suite](https://support.microsoft.com/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60). Cela vous donne la possibilité de planifier la vidéo et l’audioconférence avec partage d’écran, conversation de réunion, tableaux blancs numériques, etc.
 
-Vous allez configurer Gmail pour extraire les e-mails de Exchange Online afin de vous assurer que les messages générés dans Microsoft 365 et Teams arrivent correctement dans Gmail. Les paramètres de sécurité par défaut peuvent avoir besoin d’être désactivés pour effectuer cette connexion, ce qui rend l’utilisation d’un mot de passe unique fort essentiel. Un domaine personnalisé n’est pas nécessaire pour ce scénario, mais il peut être configuré dans Microsoft 365 pour une utilisation dans Gmail si vous souhaitez en utiliser un.
+Vous allez configurer Gmail pour extraire les e-mails de Exchange Online pour vous assurer que les messages générés dans Microsoft 365 et Teams arrivent correctement dans Gmail. Les paramètres de sécurité par défaut peuvent avoir besoin d’être désactivés pour effectuer cette connexion, ce qui rend l’utilisation d’un mot de passe unique fort essentiel. Un domaine personnalisé n’est pas nécessaire pour ce scénario, mais il peut être configuré dans Microsoft 365 pour une utilisation dans Gmail si vous souhaitez en utiliser un.
 
 :::image type="content" source="media/essentials-gmail.png" alt-text="Image dépençant le flux de courrier entre Teams Essentials et Gmail":::
 
@@ -357,7 +357,7 @@ Si vous disposez déjà d’un compte existant, vous pouvez passer à l’étape
 
 #### <a name="2-set-up-your-microsoft-365-tenant"></a>2. Configurer votre locataire Microsoft 365
 
-*Configurer Teams utilisateurs AAD :*
+*Configurer les utilisateurs Teams AAD :*
 
 1. Suivez les instructions sur[Ajouter des utilisateurs et attribuez des licences](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true) pour ajouter plusieurs utilisateurs
 
@@ -371,7 +371,7 @@ Si vous disposez déjà d’un compte existant, vous pouvez passer à l’étape
 
 *Ajouter un domaine à Administration Microsoft 365 Center (facultatif) :*
 
-1. Sous navigation, sélectionnez Paramètres > Domaine, puis sélectionnez Ajouter un domaine
+1. Sous navigation, sélectionnez Paramètres > Domaine, puis Sélectionnez Ajouter un domaine
 
 2. Entrez votre nom de domaine dans le champ approprié
 
@@ -379,7 +379,7 @@ Si vous disposez déjà d’un compte existant, vous pouvez passer à l’étape
 
 4. Lorsque vous y êtes invité, autorisez Microsoft à configurer DNS
 
-5. Suivez les instructions pour vérifier l’itinéraire d’enregistrement MX vers Microsoft 365
+5. Suivez les instructions pour vérifier la route d’enregistrement MX vers Microsoft 365
 
 6. Configurer l’enregistrement TXT SPF pour inclure Microsoft 365
 
@@ -391,6 +391,6 @@ Si vous disposez déjà d’un compte existant, vous pouvez passer à l’étape
 
 1. Configurer Gmail pour extraire Exchange Online courrier dans son système
 
-2. Configurer le complément calendrier Teams
+2. Configurer le complément Calendrier Teams
 
 3. Activer Gmail pour utiliser le domaine d’entreprise (facultatif)

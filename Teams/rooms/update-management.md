@@ -1,7 +1,7 @@
 ---
-title: gestion des mises à jour Salles Microsoft Teams
-author: donnah007
-ms.author: v-donnahill
+title: gestion des mises à jour de Salles Microsoft Teams Pro Management
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -17,22 +17,22 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: surveillance proactive de vos salles de réunion.
 f1keywords: ''
-ms.openlocfilehash: 97c812cca2b64979f224e9f7da63087899b9c7a9
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: bddfc17df4f6fc7bd28e2dcc00fc55b5653b8687
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269119"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243755"
 ---
 # <a name="update-management"></a>Gestion des mises à jour 
 Une salle de réunion moderne est équipée d’un appareil Salles Microsoft Teams et d’autres périphériques tels qu’une caméra, un microphone ou un haut-parleur, et potentiellement plus d’appareils pour créer une expérience de réunion inclusive et efficace. L’équipement de différents types d’OEM fournit l’expérience organisationnelle exacte souhaitée; toutefois, ils doivent être maintenus avec des logiciels et des microprogrammes sur une base continue.  
 
-Les services gérés pour Salles Microsoft Teams fournissent l’assurance que chaque salle de votre organisation sera maintenue aux niveaux recommandés pour fournir une salle qui est toujours prête et fonctionne correctement. L’objectif de Microsoft est de réduire la complexité et le travail d’étape de votre personnel opérationnel grâce à l’intelligence et à l’automatisation. La résolution des problèmes ou les diagnostics sont effectués le plus rapidement possible. 
+Salles Microsoft Teams Pro Management garantit que chaque salle de votre organisation sera maintenue aux niveaux recommandés pour fournir une salle toujours prête et qui fonctionne correctement. L’objectif de Microsoft est de réduire la complexité et le travail d’étape de votre personnel opérationnel grâce à l’intelligence et à l’automatisation. La résolution des problèmes ou les diagnostics sont effectués le plus rapidement possible. 
 
-## <a name="transitioning-a-device-to-managed-services"></a>Transition d’un appareil vers des services gérés 
-L’intégration des appareils de salle aux services managés a généralement un historique et une pratique de gestion des modifications différents de nos conseils.  
+## <a name="transitioning-a-device-to-pro-management"></a>Transition d’un appareil vers pro management 
+Les appareils de salle intégrés à Pro Management ont généralement un historique et une pratique de gestion des modifications qui sont différents de nos conseils.  
 
-- Pour tirer parti des services managés, vous devez effectuer la transition de la gestion des modifications pour toutes les mises à jour du portefeuille des services gérés.
+- Pour tirer parti de Pro Management, vous devez effectuer la transition de la gestion des modifications pour toutes les mises à jour du portefeuille Pro Management.
 - Plusieurs sources de contrats SLA d’impact sur la gestion des modifications, car il existe une découverte et une correction qui redémarrent si un incident se produit dans la salle.
 - Microsoft a implémenté des contrôles et des vérifications pour implémenter des stratégies qui peuvent différer d’une organisation à l’autre, et la possibilité d’intervenir dans des situations exceptionnelles.
 - Finalement, les appareils de salle seront mis à jour selon des normes communes, à l’exception des exceptions en raison de problèmes liés à une installation matérielle spécifique.  
@@ -47,7 +47,7 @@ Les contrôles de préparation simples suivants sont recommandés :
 
 ## <a name="readiness-checks"></a>Vérifications de préparation
 
-Il existe quelques prérequis pour la réception des mises à jour des services managés : 
+Il existe quelques prérequis pour la réception des mises à jour par le biais du service Pro Management : 
 
 |Logiciels |Aide |
 |:- |:- |
@@ -61,46 +61,39 @@ Il existe quelques prérequis pour la réception des mises à jour des services 
 ## <a name="managed-updates--how-it-works"></a>Mises à jour gérées : fonctionnement 
 Il existe deux façons principales de gérer les mises à jour :  
 
-- **Géré automatiquement** : Mises à jour sont installés dans votre appareil de salle en fonction de l’évaluation des services managés. Aucune intervention n’est requise pour les mises à jour gérées dans notre portefeuille.
+- **Géré automatiquement** : Mises à jour sont installés dans votre appareil de salle en fonction de l’évaluation de Pro Management. Aucune intervention n’est requise pour les mises à jour gérées dans notre portefeuille.
 - **Anneau validé** : configurez un système d’anneau pour afficher un aperçu des mises à jour sur des appareils spécifiques afin de pouvoir les surveiller sans le travail de jambe associé. La configuration en anneau fournit une couche supplémentaire de diligence raisonnable avant les déploiements à grande échelle.  
 
 ### <a name="automatically-managed"></a>Géré automatiquement
 
-Si vous choisissez d’être géré automatiquement, aucune action n’est nécessaire pour les mises à jour de votre part. Toutefois, vous devez passer en revue le portefeuille actuel de mises à jour prises en charge par Managed Services. Le portefeuille reçoit constamment de nouveaux ajouts, et il est de notre priorité de couvrir les mises à jour les plus fréquentes et les plus percutantes pour garantir la stabilité de votre chambre. Consultez la liste actuelle (sous la section « Update Management » de ce document) pour planifier toute gestion des modifications supplémentaire nécessaire à votre organisation.  
+Si vous choisissez d’être géré automatiquement, aucune action n’est nécessaire pour les mises à jour de votre part. Toutefois, vous devez examiner le portefeuille actuel de mises à jour prises en charge par le service Pro Management. Le portefeuille reçoit constamment de nouveaux ajouts, et il est de notre priorité de couvrir les mises à jour les plus fréquentes et les plus percutantes pour garantir la stabilité de votre chambre. Consultez la liste actuelle (sous la section « Update Management » de ce document) pour planifier toute gestion des modifications supplémentaire nécessaire à votre organisation.  
 
-**Recommandation:** N’installez pas les mises à jour couvertes par Managed Services sur un appareil géré par vous-même. Si vous rencontrez des problèmes, signalez un incident dans le portail.
+**Recommandation:** N’installez pas les mises à jour couvertes par le service Pro Management sur n’importe quel appareil géré par vous-même. 
 
 ### <a name="ring-validation"></a>Validation en anneau
 
-Lorsque vous choisissez la validation en anneau, passez en revue les sections suivantes sur le fonctionnement des anneaux dans Les services managés et les options disponibles pour la personnaliser pour votre organisation. Même avec la validation en anneau, Managed Services tente de s’assurer que les salles ne sont pas dépassées sur les mises à jour recommandées. Selon la situation, une salle peut recevoir des mises à jour de « rattrapage » pour s’assurer qu’elle est conforme aux recommandations du service managé.  
+Lorsque vous choisissez la validation d’anneau, passez en revue les sections suivantes sur le fonctionnement des anneaux dans le portail de gestion Pro et les options disponibles pour la personnaliser pour votre organisation. Même avec la validation en anneau, des tentatives sont effectuées pour s’assurer que les chambres ne sont pas passées en raison des mises à jour recommandées. Selon la situation, une salle peut recevoir des mises à jour de « rattrapage » pour s’assurer qu’elle est conforme aux recommandations de Microsoft.  
 
- Recherchez les annonces sur la page d’accueil du portail et dans la documentation des services managés à mesure que de nouveaux types de logiciels et de microprogrammes deviennent disponibles dans le portefeuille. Étant donné que les experts des services managés examinent quotidiennement les versions des mises à jour sur notre portefeuille d’appareils, ils traitent des problèmes spécifiques et ciblent les mises à jour en fonction des besoins.  
+ Recherchez les annonces sur la page d’accueil du portail et dans la documentation Pro Management à mesure que de nouveaux types de logiciels et de microprogrammes deviennent disponibles dans le portefeuille. 
 
 ### <a name="scheduling"></a>Planification 
-Les mises à jour managées sont planifiées pour les salles en fonction de l’équipement de la salle et si elles ne répondent pas aux normes des services managés pour les logiciels et microprogrammes applicables. 
+Mises à jour sont prévus pour les salles en fonction de l’équipement de la salle et s’ils ne répondent pas aux normes recommandées pour les logiciels et microprogrammes applicables. 
 
-- Pour aider nos clients à répondre aux exigences de gestion des modifications, le déploiement des mises à jour démarre **le mercredi** dans l’anneau intermédiaire. Si une mise à jour critique est requise, nous allons contourner cette planification et la publier dès qu’elle est disponible. 
-
+- Pour aider nos clients à répondre aux exigences de gestion des modifications, le déploiement des mises à jour démarre **le mercredi** dans l’anneau intermédiaire. Si une mise à jour critique est requise, cette planification est contournée et la mise à jour est publiée dès qu’elle est disponible. 
 - Mises à jour sont séquencées en fonction des besoins d’une pièce particulière. 
 - Si vous avez des anneaux d’installation pour valider les mises à jour, la mise à jour progresse dans l’ordre de l’anneau. 
-- Une nouvelle mise à jour peut remplacer une mise à jour mise en file d’attente si nous déterminons que la stabilité de la salle est améliorée en fonction de votre situation.  
+- Une nouvelle mise à jour peut remplacer une mise à jour mise en file d’attente s’il est déterminé que la stabilité de la pièce s’améliorera, en fonction de votre situation.  
 - Mises à jour sont généralement appliquées pendant notre fenêtre d’entretien nocturne , c’est-à-dire l’heure locale de **la pièce de 12h00 à 5h00** pour éviter tout type d’interruptions. 
 
 ## <a name="microsoft-teams-rooms-app-update-lifecycle-policy"></a>Salles Microsoft Teams stratégie de cycle de vie des mises à jour d’application 
-La stratégie de support de l’équipe d’ingénierie MTR indique que tous les supports se terminent après l’expiration du cycle de vie de douze (12) mois pour une version ou si plus de deux mises à jour ont été publiées depuis. Ensuite, les clients doivent mettre à jour vers une version prise en charge. Consultez [Salles Microsoft Teams prise en charge de la version de l’application - Microsoft Teams | Microsoft Docs](rooms-lifecycle-support.md) pour obtenir une description détaillée du service.
-
-Pour maintenir une norme uniforme dans toutes nos salles gérées et pour nous permettre d’identifier efficacement les problèmes de tendance, nous allons prendre en charge et déployer les deux dernières versions majeures ou mineures (N, N-1) du logiciel de l’application MTR conformément aux conditions générales des services de support et d’abonnement. Nous mettons automatiquement à jour les salles non conformes, en contournant les anneaux de mise à jour si nécessaire. 
-
-La stratégie N-1 s’applique également aux logiciels tiers.  
+La stratégie de support de l’équipe d’ingénierie MTR indique que tous les supports se terminent après l’expiration du cycle de vie de douze (12) mois pour une version ou si plus de deux mises à jour ont été publiées depuis. Ensuite, les clients doivent mettre à jour vers une version prise en charge. Consultez [Salles Microsoft Teams prise en charge de la version de l’application - Microsoft Teams | Microsoft Docs](rooms-lifecycle-support.md) pour obtenir une description détaillée du service. 
 
 ## <a name="update-management-experience-walk-through"></a>Expérience de gestion des mises à jour pas à pas  
-Pour afficher les mises à jour, connectez-vous au portail des services managés et accédez à la page Mises à jour.
-
-![Capture d’écran des mises à jour des services managés](../media/update-management-001.jpg)
+Pour afficher les mises à jour, connectez-vous au portail de gestion Pro et accédez à la page Mises à jour.
 
 Le volet Mises à jour affiche une vue d’ensemble générale de la gestion des mises à jour pour vos salles avec les onglets suivants :
 
-- **Mises à jour** : mises à jour logicielles ou de microprogrammes que Managed Services orchestre au sein de votre organisation.  
+- **Mises à jour** : mises à jour logicielles ou de microprogramme applicables à votre organisation.  
 - **Salles** : l’onglet Salles offre une vue sur les salles et les anneaux auxquels chaque chambre appartient.
 - **Anneaux** : l’onglet Anneaux affiche les anneaux de salles de votre organisation.
 
@@ -210,16 +203,16 @@ Le déplacement de salles d’un anneau à l’autre est possible de deux maniè
 1. Dans la liste déroulante, sélectionnez le nouvel anneau.  
 1. Cliquez sur **Affecter**.
 
-## <a name="managed-updates-visibility-and-control"></a>Mises à jour managées : visibilité et contrôle
+## <a name="automated-updates-visibility-and-control"></a>Mises à jour automatisées : visibilité et contrôle
 
-Les services managés orchestrent les mises à jour au sein de votre organisation. Toutefois, vous disposez de la visibilité et du contrôle nécessaires pour intervenir si nécessaire. Voici les méthodes suivantes : 
+Les mises à jour automatisées dans Pro Management orchestrent les mises à jour au sein de votre organisation. Toutefois, vous disposez de la visibilité et du contrôle nécessaires pour intervenir si nécessaire. Voici les méthodes suivantes : 
 
-- En cas d’échec d’une mise à jour, un ticket est automatiquement généré avec l’équipe Microsoft Managed Service Operations. L’équipe des opérations prendra des mesures pour corriger l’échec et vous impliquer si nécessaire.  
-- Si vous voyez une mise à jour à l’origine de problèmes, vous pouvez suspendre la mise à jour avec le bouton **Suspendre** . Le fait d’appuyer sur le bouton Suspendre crée un ticket pour que le centre d’opérations examine. Veillez à fournir des détails lors de la suspension d’une mise à jour pour accélérer la réponse aux incidents.  
+- En cas d’échec d’une mise à jour, un ticket est automatiquement généré pour le suivi. 
+- Si vous voyez une mise à jour à l’origine de problèmes, vous pouvez suspendre la mise à jour avec le bouton **Suspendre** . Si vous appuyez sur le bouton Suspendre, vous invitez votre équipe à créer un ticket d’enregistrement de problème à examiner.
 - Si vous voyez qu’une mise à jour a échoué dans une salle et que vous avez corrigé une raison plausible telle que la déconnexion du réseau, vous pouvez réessayer la mise à jour avec le bouton **Réessayer tous les échecs** .  
 - Il peut y avoir des situations urgentes où vous pouvez décider de rendre une mise à jour disponible précédemment. Dans ce cas, vous pouvez utiliser le bouton **Forcer les mises à jour** . Lorsque vous utilisez l’option Forcer la mise à jour, vous avez le choix de forcer la mise à jour immédiatement ou lorsque la salle est disponible.  
 
 > [!NOTE]
-> **Nous ne recommandons pas « Forcer Mises à jour »** comme stratégie générale de gestion des mises à jour. Si vous envoyez (push) une mise à jour qui est toujours dans notre passe de validation, vous pouvez rencontrer des problèmes que nous connaissons déjà. Dans ce cas, la résolution des incidents pour ces salles sera effectuée de façon optimale.  
+> **Nous vous déconseillons de forcer l’Mises à jour comme** stratégie générale de gestion des mises à jour, car vous pouvez rencontrer des problèmes connus avec ces mises à jour.
 
 - En outre, pour garantir de bonnes pratiques de gestion des changements, nous consignerons chaque mise à jour de force en interne dans le service. À l’avenir, nous nous attendons à ce que cela soit également visible pour vous.

@@ -15,16 +15,17 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- purview-compliance
 ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e090c465b46370367d96a782e12f38161465ce33
-ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
+ms.openlocfilehash: 2e11a0d89c7c49e27dd4237e67a67be93db2bcb6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "67572084"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046744"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Utilisez le cryptage de bout en bout pour les appels Microsoft Teams entre particuliers.
 
@@ -111,7 +112,7 @@ Votre compte scolaire ou scolaire a besoin du rôle d’administrateur général
 
 #### <a name="to-enable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>Activation du chiffrement de bout en bout pour l’ensemble de votre client à l’aide de la stratégie globale
 
-Par défaut, le chiffrement de bout en bout est désactivé. Pour activer le chiffrement de bout en bout pour l'ensemble du locataire en définissant la politique globale par défaut, exécutez le cmdlet [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) comme suit.
+By default, end-to-end encryption is disabled. To enable end-to-end encryption for the entire tenant by setting the default global policy, run the [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) cmdlet as follows.
 
 ```powershell
 Set-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType DisabledUserOverride
@@ -125,7 +126,7 @@ Où :
 
 #### <a name="to-disable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>Désactivation du chiffrement de bout en bout pour l’ensemble de votre client à l’aide de la stratégie globale
 
-Par défaut, le chiffrement de bout en bout est désactivé. Si vous avez apporté des modifications à la stratégie globale, vous pouvez rétablir ce paramètre en exécutant le cmdlet [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) comme suit.
+By default, end-to-end encryption is disabled. If you've made changes to the global policy, you can change the setting back by running the [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) cmdlet as follows.
 
 ```powershell
 Grant-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType Disabled
@@ -151,7 +152,7 @@ Où :
 
 - *`policyname`* est le nom que vous voulez utiliser pour la stratégie. Les noms de stratégie ne peuvent pas contenir d’espaces, par exemple, ContosoE2EEUserPolicy.
 
-Les utilisateurs doivent encore activer les appels cryptés de bout en bout dans leurs paramètres Teams avant de pouvoir passer un appel crypté de bout en bout. Pour obtenir des instructions, voir [Utiliser le cryptage de bout en bout pour les appels Teams](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90).
+Users still need to switch on end-to-end encrypted calling in their Teams settings before they can make an end-to-end encrypted call. For instructions, see [Use end-to-end encryption for Teams calls](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90).
 
 Par exemple :
 

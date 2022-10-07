@@ -8,6 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
+ms.date: 09/22/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 713f30d148517f080c1799f71461d52e69d855ac
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 992b557e72aaa855008f1bfec8073d800b65badf
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837654"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377542"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Programme de conformité de l’application Microsoft 365 pour la sécurité, la conformité et la confidentialité des applications tierces
 
@@ -56,7 +57,7 @@ Les administrateurs peuvent rapidement rechercher les applications attestées pu
 
   :::image type="content" source="media/attested-app-tac1.png" alt-text="Dans le Centre d’administration Microsoft Teams, l’icône attestée par Publisher s’affiche sur toutes les applications attestées.":::
 
-* Dans le Centre d’administration Teams, lorsque vous [accordez des autorisations à l’application](app-permissions-admin-center.md), une coche bleue devant le nom de l’application indique une application attestée par un éditeur ou une application certifiée Microsoft 365.
+* Dans le Centre d’administration Teams, avant [d’accorder des autorisations à l’application](app-permissions-admin-center.md), une coche bleue devant le nom de l’application indique qu’il s’agit d’une application attestée par un éditeur. Toutes les applications Microsoft 365 passent également par l’attestation d’éditeur. Par conséquent, une coche bleue s’affiche également pour les applications Microsoft 365.
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="Dans le Centre d’administration Microsoft Teams, dans la boîte de dialogue pour accorder des autorisations, la coche bleue indique qu’il s’agit d’une application attestée par un éditeur.":::
 
@@ -89,7 +90,7 @@ Les administrateurs peuvent vérifier rapidement la présence d'applications cer
 
   :::image type="content" source="media/m365cert-app-details-banner.png" alt-text="Afficher les informations relatives à la certification Microsoft 365 dans la bannière de l'application lors de la gestion d'une application spécifique dans le centre d'administration de Teams.":::
 
-* Dans le Centre d’administration Teams, lorsque vous [accordez des autorisations à l’application](app-permissions-admin-center.md), une coche bleue devant le nom de l’application indique une application attestée par un éditeur ou une application certifiée Microsoft 365.
+* Dans le Centre d’administration Teams, avant [d’accorder des autorisations à l’application](app-permissions-admin-center.md), une coche bleue devant le nom de l’application indique qu’il s’agit d’une application attestée par un éditeur. Toutes les applications Microsoft 365 passent également par l’attestation d’éditeur. Par conséquent, une coche bleue s’affiche également pour les applications Microsoft 365.
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="Dans le centre d'administration Teams, dans la boîte de dialogue d'octroi des autorisations, les administrateurs peuvent cocher la case bleue pour s'assurer que l'application est certifiée Microsoft 365":::
 

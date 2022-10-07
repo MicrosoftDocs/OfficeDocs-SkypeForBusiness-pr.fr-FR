@@ -1,8 +1,8 @@
 ---
-title: Salles Microsoft Teams incidents signalés par le client
-author: donnah007
-ms.author: v-donnahill
-ms.date: 07/08/2022
+title: Salles Microsoft Teams enregistrer un problème
+author: altsou
+ms.author: altsou
+ms.date: 09/28/2022
 manager: serdars
 ms.reviewer: dstrome
 ms.topic: article
@@ -16,19 +16,17 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Les partenaires/clients peuvent fermer manuellement les incidents et garantir des rapports précis sur l’intégrité de la salle dans MTRP.
-ms.openlocfilehash: 308e2d4578637e4b50a8324a3f98bad82ad5c5d0
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Les partenaires ou les clients peuvent ouvrir manuellement un incident via « Enregistrer un problème » pour garantir un rapport précis de l’intégrité de la salle dans le portail Pro Management.
+ms.openlocfilehash: f638a1fc4095b9cffd0f205e1118cf6c4374d5c6
+ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270309"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218118"
 ---
-# <a name="customer-reported-incident-tickets"></a>Tickets d’incident signalés par le client
+# <a name="record-an-issue-ticket"></a>Enregistrer un ticket de problème
 
-Pour tout type d’incident que Microsoft n’a pas signalé, ou pour toute question sur le service/fonctionnalités, les clients ou les partenaires pour le compte de clients peuvent utiliser la fonctionnalité Signaler un incident pour alerter Microsoft afin d’examiner le problème ou de répondre à la question.
-
-![capture d’écran de l’incident Incidents->Report](../media/customer-reported-incidents-001.png)
+Pour tout type d’incident que MTR Pro n’a pas signalé, ou pour effectuer simplement le suivi des problèmes sur un MTR ou un espace, les clients ou les partenaires pour le compte de clients peuvent utiliser la fonctionnalité Enregistrer un problème.
 
 Dans le champ Description, décrivez le mieux possible le problème avec lequel vous avez besoin d’aide de Microsoft. Vous pouvez ajouter une ou plusieurs salles.
 
@@ -37,40 +35,32 @@ Vérifiez  **l’impact élevé** si l’incident est à l’origine d’une dé
 > [!NOTE]
 > N’utilisez pas ce champ pour les questions générales, les salles et/ou les problèmes qui n’ont pas d’atténuation disponible.
 
-![capture d’écran des salles de rapport d’incident affectées](../media/customer-reported-incidents-002.png)
+Lorsqu’une salle est (ou que des salles sont) sélectionnées dans le cadre de l’enregistrement d’un problème, chaque chambre est marquée comme **non saine** jusqu’à ce que le problème enregistré soit fermé.
 
-Les incidents signalés par le client sont considérés comme des tickets critiques, ce qui signifie que le centre d’opérations de service salles Teams commence par trier ces tickets. Consultez le contrat SLA de description du service pour les incidents signalés par le client [ici](microsoft-teams-rooms-premium.md). Lorsqu’une salle est (ou que des salles sont) sélectionnées dans le cadre du CRI, chaque salle est marquée comme **non saine** jusqu’à ce que le CRI soit fermé.
+## <a name="closing-record-an-issue-tickets"></a>Fermeture de l’enregistrement d’un problème de tickets
 
-## <a name="closing-customer-reported-incident-tickets"></a>Fermeture des tickets d’incident signalés par le client
+Les problèmes enregistrés peuvent être fermés par le client ou les partenaires gérant des salles pour le compte des clients.
 
-Les incidents signalés par le client peuvent être fermés par le client, les partenaires gérant des salles pour le compte des clients ou par les ingénieurs du Centre des opérations de service de Microsoft.
-
-**Pour fermer un incident**
+**Pour fermer un ticket d’émission enregistré**
 
 1. Sélectionnez **Fermer le ticket**.
 
-   ![capture d’écran des détails de la vue d’ensemble des incidents](../media/customer-reported-incidents-003.png)
-
-1. Choisissez une raison de fermeture en sélectionnant une catégorie dans la liste.
+2. Choisissez une raison de fermeture en sélectionnant une catégorie dans la liste.
 
    Une fois que vous avez confirmé la raison de la fermeture, le ticket est fermé et déplacé vers **Résolu**.
 
-   ![capture d’écran du ticket fermé](../media/customer-reported-incidents-004.png)
-
 La section Vue d’ensemble des détails du ticket indique que le ticket a été fermé par le service Salles gérées (Microsoft) ou par le nom du client/partenaire.  
-
- ![capture d’écran de la personne qui a fermé le ticket ](../media/customer-reported-incidents-005.png)
 
 ## <a name="faq"></a>FAQ
 
 **Quelqu’un peut-il fermer des billets ?**
 
-Seuls les incidents signalés par le client peuvent être fermés par un utilisateur ou le centre des opérations du service Salles gérées de Microsoft. Les clients qui ont affecté un partenaire pour gérer leurs salles avec des autorisations de gestion des tickets auront la possibilité de fermer les incidents signalés par le client.
+Seuls les incidents signalés par le client peuvent être fermés par un utilisateur. Les clients qui ont affecté un partenaire pour gérer leurs chambres avec des autorisations de gestion des tickets auront la possibilité de fermer les tickets d’émission enregistrés.
 
 **Puis-je restreindre qui peut fermer des billets ?**
 
-Pas pour le moment. Tous les utilisateurs disposant d’autorisations de gestion des tickets peuvent fermer un cri.
+Pas pour le moment. Tous les utilisateurs disposant d’autorisations de gestion des tickets peuvent fermer un ticket de problème enregistré.
 
-**Est-ce que je suis averti lorsqu’un ticket d’incident signalé par le client se ferme ?**
+**Est-ce que je reçois une notification lorsqu’un enregistrement d’un ticket de problème se ferme ?**
 
 Pas pour le moment.

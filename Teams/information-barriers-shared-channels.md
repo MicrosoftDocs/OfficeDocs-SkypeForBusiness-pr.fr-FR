@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier2
+- purview-compliance
 - M365-collaboration
 search.appverid: MET150
 f1.keywords:
@@ -16,16 +18,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: information-barriers
-ms.openlocfilehash: 6ee178252c00ec4c73dfaa036f17377cef401d30
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 5b214a4c60df7b50f508fec7985c6f38b65985e6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922835"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047214"
 ---
 # <a name="information-barriers-and-shared-channels-preview"></a>Obstacles à l’information et canaux partagés (préversion)
 
-[Les canaux partagés](shared-channels.md) dans Microsoft Teams créent des espaces de collaboration dans lesquels vous pouvez inviter des personnes qui ne sont pas dans l’équipe. [Les barrières à l’information Microsoft Purview](/microsoft-365/compliance/information-barriers) sont des stratégies qui peuvent être implémentées pour restreindre et empêcher les utilisateurs et les groupes de communiquer entre eux au sein et à l’extérieur de votre organisation.
+[Les canaux partagés](shared-channels.md) dans Microsoft Teams créent des espaces de collaboration où vous pouvez inviter des personnes qui ne sont pas dans l’équipe. [Les barrières à l’information Microsoft Purview](/microsoft-365/compliance/information-barriers) sont des stratégies qui peuvent être implémentées pour restreindre et empêcher les utilisateurs et les groupes de communiquer entre eux au sein et à l’extérieur de votre organisation.
 
 Les canaux partagés sont activés par défaut dans Teams. Vous pouvez choisir si les gens peuvent créer des canaux partagés, s'ils peuvent les partager avec des personnes extérieures à votre organisation, et s'ils peuvent participer à des canaux partagés externes en créant une politique de canal. Lorsque des stratégies d’obstacle à l’information sont configurées dans votre organisation, des vérifications sont effectuées lors de la configuration des canaux partagés pour vérifier qu’aucun des membres de canal existants et les nouveaux utilisateurs ajoutés au canal partagé ne violent les conditions de stratégie d’obstacles à l’information.
 

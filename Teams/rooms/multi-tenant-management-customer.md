@@ -1,9 +1,9 @@
 ---
 title: Gestion des partenaires pour les clients
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: altsou
 ms.date: 06/09/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,19 +18,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: gestion des partenaires pour les clients.
 f1keywords: ''
-ms.openlocfilehash: 9ac7e01de1f9a9e620afa665298d8f3746319db2
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 2c25bbfdd9b628641228eae6f52907e99a7beb9e
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271369"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243935"
 ---
 # <a name="partner-management-for-customers"></a>Gestion des partenaires pour les clients
 
-La gestion des partenaires dans le service salles Teams géré (TRM) permet aux clients de déléguer en toute transparence l’accès et les responsabilités à une ou plusieurs organisations partenaires. Les partenaires peuvent uniquement gérer les salles qui leur sont affectées.
+La gestion des partenaires dans le service salles Teams Pro Management permet aux clients de déléguer en toute transparence l’accès et les responsabilités à une ou plusieurs organisations partenaires. Les partenaires peuvent uniquement gérer les salles qui leur sont affectées.
 
 ## <a name="on-boarding-partners"></a>Partenaires à bord
-   Invitez des partenaires via le portail TRM pour établir la relation entre votre organisation et le locataire de l’organisation partenaire.
+   Invitez des partenaires via le portail Pro Management pour établir la relation entre votre organisation et le locataire de l’organisation partenaire.
 
 ### <a name="invitation-to-partner"></a>Invitation au partenaire
 
@@ -38,7 +38,7 @@ La gestion des partenaires dans le service salles Teams géré (TRM) permet aux 
 
 **Pour lancer l’invitation** 
 
-1. Connectez-vous au portail managé salles Teams en tant qu’administrateur de service géré.
+1. Connectez-vous au portail de gestion salles Teams Pro en tant qu’administrateur de service géré.
 1. Accédez à **Paramètres >** **Partenaires**, puis **sélectionnez Ajouter un partenaire.**
 1. Entrez le nom de domaine dans la première ligne.
 1. Configurez le nombre de jours jusqu’à l’expiration de l’invitation en entrant un entier compris entre 1 et 30.
@@ -65,7 +65,7 @@ Pour gérer les utilisateurs dans le rôle d’administrateur principal, consult
 
 **Pour supprimer un partenaire**
 
-1. Connectez-vous au portail TRM-MTM en tant qu’administrateur MMR.
+1. Connectez-vous au portail MTM (Pro Management-Multi-Tenant Management) en tant qu’administrateur de service géré.
 1. Accédez à **Paramètres > Partenaires.**
 1. Sélectionnez le partenaire que vous souhaitez supprimer.
 1. Dans le volet détails du client, **sélectionnez Supprimer le partenaire.**
@@ -84,7 +84,7 @@ Si vous avez déjà envoyé une invitation à un partenaire et souhaitez délég
 
 **Pour ajouter de nouvelles salles à un partenaire existant**
 
-1. Connectez-vous au portail TRM-MTM en tant qu’administrateur MMR.
+1. Connectez-vous au portail Pro Management-MTM en tant qu’administrateur de service géré.
 1. Accédez à **Paramètres > rôles.**
 1. Sélectionnez  **Rôles de partenaire.** 
 1. Sélectionnez le rôle **d’administrateur principal** pour le nom de partenaire correspondant.
@@ -97,7 +97,7 @@ Si vous avez déjà envoyé une invitation à un partenaire et souhaitez délég
 
 ### <a name="table-1"></a>Tableau 1
 
-|Fonctionnalité|Autorisation|**ADMINISTRATION MMR**|**Prospect de site**|**Site Tech**|**Administrateur partenaire**|
+|Fonctionnalité|Autorisation|**Administration de service managé**|**Prospect de site**|**Site Tech**|**Administrateur partenaire**|
 | :- | :- | :- | :- | :- | :- |
 |Chambres|Afficher| &#10004;|&#10004;|&#10004;|&#10004;|
 ||Modifier|&#10004;|&#10004;|&#10004;|&#10004;|
@@ -114,7 +114,7 @@ Si vous avez déjà envoyé une invitation à un partenaire et souhaitez délég
 ||Créer un incident client|&#10004;|&#10004;|&#10004;|&#10004;|
 |Gestion des tickets|Afficher|&#10004;|&#10004;|&#10004;|&#10004;|
 ||Mettre à jour|&#10004;|&#10004;|&#10004;|&#10004;|
-|Paramètres MMR|Afficher|&#10004;||||
+|Paramètres de gestion Pro|Afficher|&#10004;||||
 ||Modifier|&#10004;||||
 |Gestion des rôles|Afficher |&#10004;|||&#10004;|
 ||Modifier|&#10004;|||&#10004;|
@@ -123,7 +123,7 @@ Si vous avez déjà envoyé une invitation à un partenaire et souhaitez délég
 
 En tant que client final, vous conservez le contrôle de l’accès à vos données et pouvez supprimer complètement un partenaire à tout moment. 
 
-Avec la fonctionnalité d’accès délégué, un partenaire n’obtient pas d’autres privilèges en dehors du portail de service TRM. Toutefois, toutes les données présentes dans le service TRM dérivées d’autres produits Microsoft sont considérées comme des données dans le service TRM. Par exemple, alors que les rapports de qualité des appels sont dérivés des données de qualité des appels Teams, toutes les données du portail TRM se trouvent dans l’étendue d’autorisation. 
+Avec la fonctionnalité d’accès délégué, un partenaire n’obtient pas d’autres privilèges en dehors du portail de gestion Pro. Toutefois, toutes les données présentes dans le service Pro Management dérivées d’autres produits Microsoft sont considérées comme des données dans le service. Par exemple, alors que les rapports de qualité des appels sont dérivés des données de qualité des appels Teams, toutes les données du portail Pro Management se trouvent dans l’étendue d’autorisation. 
 
 Aucune autorisation n’est accordée à AAD, au Centre de Administration Teams ou à tout autre produit Microsoft. En outre, les partenaires n’ont pas accès à l’affichage ou à la modification des salles non définies dans l’étendue de l’invitation. 
 
@@ -134,4 +134,4 @@ Le portail MTM utilise l’authentification Azure AD pour valider les informatio
 Pour extraire des journaux d’activité sur l’activité du partenaire, consultez [Audit.](multi-tenant-auditing.md) 
 
 > [!NOTE]
-> L’audit AAD et l’audit O365 ne capturent pas les journaux à partir du portail TRM. 
+> L’audit AAD et l’audit O365 ne capturent pas les journaux à partir du portail de gestion Pro. 

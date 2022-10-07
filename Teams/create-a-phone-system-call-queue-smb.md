@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels dans Microsoft Teams. Les files d’attente d’appels fournissent un message d’accueil, de la musique de suspension, la redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: 2a1f16d9cde74988e082736f4d50f101fa0d6759
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: b977e06b735438930bea88f52090e253ccfd58f1
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486869"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046704"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -220,6 +220,9 @@ Pour **ajouter un groupe** à la file d’attente :
   
 Les comptes Teams des agents doivent être définis en mode TeamsOnly. Les agents qui ne répondent pas aux exigences ne sont pas inclus dans la liste de routage des appels. Nous vous recommandons d’activer le mode de conférence pour vos files d’attente d’appels si vos agents utilisent des clients compatibles.
 
+> [!TIP]
+> La définition du **mode conférence** **sur Activé** est le paramètre recommandé.
+
 > [!NOTE]
 > Le mode conférence n’est pas pris en charge si les appels téléphoniques sont acheminés vers la file d’attente à partir d’une passerelle de routage direct activée pour le routage basé sur l’emplacement.
 >
@@ -229,13 +232,9 @@ Les comptes Teams des agents doivent être définis en mode TeamsOnly. Les agent
 >
 > Les agents peuvent entendre la musique configurée en attente dans la file d’attente pendant jusqu’à 2 secondes lors de la première jointure de l’appel.
 
-
-> [!TIP]
-> La définition du **mode conférence** **sur Activé** est le paramètre recommandé.
-
 Une fois que vous avez sélectionné les options de réponse aux appels, sélectionnez le bouton **Suivant** en bas de la page **Ajouter une file d’attente d’appels** .
 
-# <a name="step-4-agent-routing"></a>[Étape 4 : Routage de l’agent](#tab/agent-routing)
+# <a name="step-4-agent-selection"></a>[Étape 4 : Sélection de l’agent](#tab/agent-selection)
 
 ## <a name="step-4-select-your-agent-routing-options"></a>Étape 4 : Sélectionner les options de routage de votre agent
 
@@ -251,7 +250,8 @@ Sélectionnez l’une des options suivantes :
 
 - L’**inactivité la plus longue** achemine chaque appel vers l’agent qui a été inactif le plus longtemps. Un agent est considéré comme inactif si son état de présence est Disponible. Les agents dont l’état de présence n’est pas Disponible ne pourront pas recevoir d’appels tant qu’ils n’auront pas remplacé leur présence par Disponible.
 
-Nous vous recommandons de définir votre **méthode de routage** sur **round robin** ou **idle longest**.
+> [!TIP]
+> La définition de la **méthode de routage** sur **round robin** ou **inactivité la plus longue** est le paramètre recommandé.
 
 > [!NOTE]
 > Si [l’enregistrement de conformité](teams-recording-policy.md) est activé sur les agents, la combinaison du **mode Conférence** et du **routage du standard** n’est pas prise en charge. Si vous devez utiliser le **mode Conférence**, sélectionnez **Routage série**, **tourniquet (round robin**) ou **Inactif le plus long** comme **méthode de routage**. Si vous devez utiliser le **routage du standard**, définissez le **mode Conférence** sur **Désactivé**.
@@ -272,7 +272,8 @@ Vous pouvez activer le **routage des appels basés sur la présence** avec l’u
 
 Si un agent refuse de recevoir des appels, il ne sera pas inclus dans la liste de routage des appels, quel que soit son statut de disponibilité.
 
-Nous vous recommandons d’activer le **routage basé sur la présence**.
+> [!TIP]
+> La définition du **routage basé sur** la  présence est le paramètre recommandé.
 
 > [!NOTE]
 > Lorsque **l’inactivité la plus longue** est sélectionnée comme méthode de routage, le routage basé sur la présence est requis et automatiquement activé, même si le bouton bascule de routage basé sur la présence est **désactivé** et grisé.
@@ -293,7 +294,8 @@ Nous vous recommandons d’activer les **agents d’appel pour refuser de passer
 
 La **durée de l’alerte pour un agent** spécifie la durée pendant laquelle le téléphone d’un agent sonnera avant que la file d’attente ne redirige l’appel vers l’agent suivant.
 
-Nous vous recommandons de définir **l’heure d’alerte de l’agent** sur **20 secondes**.
+> [!TIP]
+> La définition de **l’heure d’alerte de l’agent** sur un minimum **de 20 secondes** est le paramètre recommandé.
 
 Une fois que vous avez sélectionné les options de routage des appels de votre agent, sélectionnez le bouton **Suivant** en bas de la page **Ajouter une file d’attente d’appels** .
 
@@ -349,11 +351,11 @@ Les configurations ci-dessous sont recommandées :
 - **Mode conférence** **activé**
 - **Méthode de routage** sur **Tourniquet (round robin)** ou **Inactivité la plus longue**
 - **Routage basé sur la présence** sur **Activé**
-- **Durée de l’alerte pour un agent :** sur **20 secondes**
+- **Temps d’alerte de l’agent :** jusqu’à un minimum de **20 secondes**
 
 ### <a name="call-queue-feature-compatibility"></a>Compatibilité des fonctionnalités de file d’attente d’appels
 
-|Fonctionnalité                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Lync |Téléphones IP | Files d’attente d’appels standard |Files d’attente d’appels basées sur un canal | Commentaire |
+|Fonctionnalité                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Skype Entreprise |Téléphones IP | Files d’attente d’appels standard |Files d’attente d’appels basées sur un canal | Commentaire |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
 |**Méthodes de routage de l’agent**        |                          |          |                |     |          |                      |                          |   |
 |`Attendant Routing`              |O                         |O         |O               |O    |O         |O                     |v                         |*Par défaut*     |
@@ -373,8 +375,8 @@ Les configurations ci-dessous sont recommandées :
 |`Channel based call queue`       |O                         |n/a       |n/a             |n/a  |n/a       |n/a                   |v                         |   |
 |**Méthodes de connectivité RTC**    |                          |          |                |     |          |                      |                          |Voir la note 9   |
 |`Calling Plans`                  |O                         |O         |O               |O    |O         |O                     |O                         |   |
-|`Direct Routing`                 |O                         |O         |v               |N    |N         |O                     |O                         |   |
-|`Operator Connect`               |O                         |O         |O               |     |          |O                     |v                         |   |
+|`Direct Routing`                 |O                         |O         |v               |N    |O         |Y<sup>6</sup>         |O                         |   |
+|`Operator Connect`               |O                         |O         |O               |     |v         |Y<sup>6</sup>         |v                         |   |
 |**Divers**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |v                 |N         |O               |O    |          |O                     |v                         |              |
 
@@ -387,6 +389,10 @@ Les configurations ci-dessous sont recommandées :
 5. Le mode conférence n’est pas pris en charge si les appels téléphoniques sont acheminés vers la file d’attente à partir d’une passerelle de routage direct activée pour le routage basé sur l’emplacement.
 6. Téléphonie Microsoft Teams seulement.
 7. Par le biais de la page Portail des paramètres utilisateur à l’adresse [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
+- GCCH : [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+- DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
+8. Seuls les canaux publics sont pris en charge.
+9. Les standards automatiques et les files d’attente d’appels ne peuvent pas transférer d’appels entre des méthodes de connectivité RTC.
 8. Seuls les canaux publics sont pris en charge.
 9. Les standards automatiques et les files d’attente d’appels ne peuvent pas transférer d’appels entre des méthodes de connectivité RTC.
 

@@ -1,9 +1,9 @@
 ---
-title: Audit multilocataire
-author: donnah007
-ms.author: v-donnahill
+title: Journalisation d’audit dans le portail MTR Pro
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,21 +15,21 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Journalisation d’audit pour TRM.
+description: Journalisation d’audit pour le portail MTR Pro.
 f1keywords: ''
-ms.openlocfilehash: de7f01a3c93dc31ff10c9e00cb3d0f3ef5806cb3
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 0436618e257128deb38d890cb92813ae13921e7d
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269101"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243915"
 ---
-# <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Journalisation d’audit dans le service managé salles Teams
+# <a name="audit-logging-in-the-mtr-pro-portal"></a>Journalisation d’audit dans le portail MTR Pro
 
-L’audit dans salles Teams service managé (TRM) vous permet de rechercher les enregistrements d’audit pour les activités effectuées dans le portail par les utilisateurs et les administrateurs. Cette fonctionnalité est activée par défaut. Seul l’administrateur du service géré a l’autorisation d’exporter, puis d’afficher les journaux.
+Les journaux d’audit du portail MTR Pro vous permettent de rechercher des enregistrements d’audit pour les activités effectuées par les utilisateurs et les administrateurs. Cette fonctionnalité est activée par défaut. Seul l’administrateur du service géré a l’autorisation d’exporter, puis d’afficher les journaux.
 
 > [!NOTE]
-> Les actions effectuées dans le service TRM ne sont pas enregistrées dans Microsoft 365 ou l’audit Office 365 
+> Les actions effectuées dans le portail MTR Pro ne sont pas enregistrées dans Microsoft 365 ou l’audit Office 365 
 
 ## <a name="exporting-logs"></a>Exportation de journaux d’activité
 

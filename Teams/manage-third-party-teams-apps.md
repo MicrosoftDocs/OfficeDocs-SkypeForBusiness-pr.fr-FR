@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/29/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment gérer l’accès aux applications Teams dans Microsoft 365.
-ms.openlocfilehash: e57e4ffb7e2b8ee347ee42588ed7b926ac345020
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 291fd315f9fd5f171edfebaec1bcc0adbcb8edf4
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837474"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377582"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>Gérer l’accès aux applications Teams dans Microsoft 365
 
@@ -49,7 +50,7 @@ Vous pouvez contrôler l’accès des utilisateurs finaux aux applications Teams
 | Options pour gérer l’accès |Portail|Administrateur général|Administrateur de Teams|
 |--|---|---|--|
 | Seuls les utilisateurs finaux de la version ciblée peuvent accéder à la nouvelle application. Déplacez les utilisateurs vers la version Standard. Consultez [Configurer les options de mise en production standard ou ciblée](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) | Centre d’administration Microsoft 365 | Oui | Non |
-| Gérez l’accès à la nouvelle application pour des utilisateurs finaux spécifiques. Consultez [Ajouter une stratégie d’autorisation personnalisée](teams-app-permission-policies.md#create-a-custom-app-permission-policy) et [affecter la stratégie personnalisée à un utilisateur](policy-assignment-overview.md). | Centre d’administration Microsoft Teams | Oui | Oui |
+| Gérez l’accès à la nouvelle application pour des utilisateurs finaux spécifiques. Consultez [Ajouter une stratégie d’autorisation personnalisée](teams-app-permission-policies.md#create-an-app-permission-policy) et [affecter la stratégie personnalisée à un utilisateur](policy-assignment-overview.md). | Centre d’administration Microsoft Teams | Oui | Oui |
 | Gérez l’accès aux nouvelles applications pour tous les utilisateurs finaux au sein de votre organisation. Consultez [Autoriser ou bloquer des applications](manage-apps.md#allow-and-block-apps). | Centre d’administration Microsoft Teams | Oui | Oui |
 
 > [!NOTE]
@@ -58,7 +59,7 @@ Vous pouvez contrôler l’accès des utilisateurs finaux aux applications Teams
 > [!NOTE]
 > Les utilisateurs qui ont installé un complément sur le marché existant de la même application dans Outlook et Office continueront à utiliser cette application. Les compléments ne sont pas des applications Teams et les administrateurs Teams ne peuvent pas régir l’accès.
 
-## <a name="see-also"></a>Voir aussi
+## <a name="related-articles"></a>Articles connexes
 
 * [Applications Microsoft Teams conçues pour Microsoft 365 disponibles en préversion dans Outlook et Office.com](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-teams-apps-designed-for-microsoft-365-coming-in/ba-p/3269538)
 * [Comprendre les rôles d’administrateur dans Microsoft 365](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)  

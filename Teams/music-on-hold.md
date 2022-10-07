@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Découvrez comment gérer la fonctionnalité Musique en attente dans le système téléphonique.
-ms.openlocfilehash: e218de46e56c2e2f85ed2b19cea21cbc4d4679be
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 9e2a2aa352a1fd65955b35d4175b831653c694cb
+ms.sourcegitcommit: 52450514880fe72af0d0b2fab1419eadfc3a583f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706173"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68499448"
 ---
 # <a name="music-on-hold"></a>Musique en attente
 
@@ -93,7 +93,7 @@ La configuration de musique personnalisée en attente commence par le chargement
 Vous trouverez ci-dessous un exemple de chargement d’un fichier audio MP3 à l’aide de Windows PowerShell 5.1. Pour d’autres exemples, consultez [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile).
 
 ```PowerShell
-C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
+C:\> $content = [System.IO.File]::ReadAllBytes('C:\tmp\customMoH1.mp3')
 C:\> $AudioFile = Import-CsOnlineAudioFile -FileName "customMoH1.mp3" -Content $content
 C:\> $AudioFile
 Id            : 56a56961f2794f098a359885ec1454a1
@@ -140,7 +140,7 @@ Le tableau suivant indique les fonctionnalités sur lesquelles les clients et ap
 
 - La musique en attente est disponible uniquement lorsque l’utilisateur est en mode TeamsOnly.
 
-- Si l’utilisateur Teams appelé est activé pour le routage Location-Based, music on Hold ne peut pas être lu sur l’appelant.
+- Si l’utilisateur Teams appelé est activé pour Location-Based routage, seule la musique standard en attente est lue à l’appelant.
 
 - La musique personnalisée en attente n’est pas disponible pour les utilisateurs configurés pour l’apparence de ligne partagée (délégation) et lorsque le parc d’appels est utilisé. La musique standard en attente sera jouée.
 

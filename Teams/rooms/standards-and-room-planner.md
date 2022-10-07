@@ -1,9 +1,9 @@
 ---
 title: Salles Microsoft Teams standards et planification des salles
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: srpall
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Créez et organisez des normes basées sur des recommandations intelligentes de votre environnement.
 f1keywords: ''
-ms.openlocfilehash: 05376b7c40131be54291961a7562faa6566e8e89
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: bcad1c98cbbf71467789617c53ea98d8f192da49
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271959"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243835"
 ---
 # <a name="standards-and-room-planner"></a>Standards et planificateur de salles
 
@@ -30,7 +30,7 @@ ms.locfileid: "67271959"
 
 ## <a name="view-meeting-room-types"></a>Afficher les types de salles de réunion
 
-Sur cette page, vous pouvez afficher les types d’espaces de salle ou de réunion au sein de votre organisation. Une analyse rapide du nombre de normes que vous avez pour les salles de réunion, du nombre de nouveaux appareils découverts et du nombre d’appareils qui nécessitent une action à effectuer.
+Sur cette page, vous pouvez afficher les types d’espaces de salle ou de réunion au sein de votre organisation. Répartition rapide du nombre de normes que vous avez pour les salles de réunion, du nombre de nouveaux appareils découverts et du nombre d’appareils qui nécessitent une action à effectuer.
 
 Cette page comporte également une barre de commandes à partir de laquelle vous pouvez lancer le flux de travail  **Créer un** flux de travail standard ou accéder aux appareils découverts, aux journaux des modifications et à l’archive.
 

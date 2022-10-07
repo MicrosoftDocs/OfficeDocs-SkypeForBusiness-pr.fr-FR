@@ -1,9 +1,9 @@
 ---
-title: Inscrire un appareil Salle Teams dans les services managés
-author: donnah007
-ms.author: v-donnahill
+title: Inscrire un appareil Teams Room dans Pro Management
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.date: 07/22/2022
+ms.date: 09/28/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,18 +15,18 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Intégration d’appareils salles Teams à des services managés
+description: Intégration d’appareils salles Teams au portail Pro Management
 f1keywords: ''
-ms.openlocfilehash: 07fbb2b196c0f74b34dbe2018865181e57aca17b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 808ef462f71e023ccec232942e780a53ea91e3b3
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272039"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243785"
 ---
-# <a name="enroll-device-into-managed-service"></a>Inscrire un appareil dans le service managé
+# <a name="enroll-device-into-pro-management"></a>Inscrire un appareil dans Pro Management
 
-Le déploiement nécessite l’intégration d’appareils Salles Microsoft Teams aux services managés Salles Microsoft Teams. L’agent de service de surveillance est destiné à être utilisé avec des systèmes et périphériques MTR (Microsoft Teams Room) certifiés.
+Le déploiement nécessite l’intégration d’appareils Salles Microsoft Teams au portail de gestion Salles Microsoft Teams Pro. L’agent de service de surveillance est destiné à être utilisé avec des systèmes et périphériques MTR (Microsoft Teams Room) certifiés.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -40,7 +40,7 @@ Suivez ces procédures pour configurer votre matériel avant de tenter le proces
 
    - Si vous utilisez un ***serveur proxy*** unique : `bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY <proxyserver>:<port> ""`
 
-     *Exemple :*
+     *Exemple:*
 
      ```DOS
      bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY contosoproxy.corp.net:8080 ""
@@ -48,7 +48,7 @@ Suivez ces procédures pour configurer votre matériel avant de tenter le proces
 
    - Si vous utilisez un fichier ***PAC*** : `bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT <pac file url>`
 
-     *Exemple :*
+     *Exemple:*
 
      ```DOS
      bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net/proxy.pac`
@@ -57,7 +57,7 @@ Suivez ces procédures pour configurer votre matériel avant de tenter le proces
 ### <a name="enabling-tpm-settings"></a>Activation des paramètres TPM
 
 > [!NOTE]
-> Le module de plateforme sécurisée doit être activé pour s’inscrire au service managé.
+> TPM doit être activé pour s’inscrire à Pro Management.
 
 Si le module TPM sur un appareil Intel NUC est désactivé, activez le module de plateforme sécurisée sur ces appareils comme suit :
 
@@ -96,7 +96,7 @@ Pour revenir à l’application Salles Microsoft Teams après avoir effectué le
 ## <a name="urls-required-for-communication"></a>URL requises pour la communication
 
  > [!NOTE]
- > Tout le trafic réseau entre l’agent d’appareils MTR et le Salles Microsoft Teams : le portail de service Managed Services est SSL sur le port 443 *.*  Voir [Office 365 URL et plages d’adresses IP - Microsoft 365 Entreprise | Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
+ > Tout le trafic réseau entre l’agent d’appareils MTR et le portail de gestion Salles Microsoft Teams Pro est SSL sur le port 443 *.*  Voir [Office 365 URL et plages d’adresses IP - Microsoft 365 Entreprise | Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
 
 Les hôtes suivants doivent être autorisés si la **liste d’autorisation du trafic** est activée dans votre environnement d’entreprise :
 
@@ -116,11 +116,11 @@ mmrprodnoamstor.blob.core.windows.net
 
 Le processus d’inscription implique les étapes suivantes :
 
-1. Dans la barre de navigation gauche du portail Salles Microsoft Teams – Services [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)**managés, développez Paramètres** et sélectionnez **Général**.
+1. Dans la barre de navigation gauche du portail [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)de gestion Salles Microsoft Teams Pro, développez **Paramètres** et sélectionnez **Général**.
 1. Sous *Inscrire une salle*, **sélectionnez Télécharger le programme d’installation**  pour télécharger le logiciel de l’agent de surveillance.
 1. **Optionnel:** Configurer les paramètres de proxy pour l’agent ; voir [Ajout de paramètres de proxy (facultatif).](#adding-proxy-settings-optional)
 1. Installez le programme d’installation de l’agent (téléchargé à l’étape 2) sur des unités MTR, soit en exécutant MSI localement sur un appareil MTR, soit en publiant en masse des applications MSI sur des appareils de votre environnement (stratégie de groupe, etc.).
-1. La salle s’affiche dans le portail dans un délai de 5 à 10 minutes. Si ce n’est pas le cas, contactez managedroomsupport@microsoft.com.
+1. La salle s’affiche dans le portail dans un délai de 5 à 10 minutes.
 
    ![Capture d’écran des paramètres et des clés d’inscription automatique.](../media/software-installation-005new.png)
 
@@ -145,11 +145,11 @@ En raison des nombreuses façons dont les clients peuvent exécuter des applicat
 
 1. Après avoir lu le contrat, vérifiez ***J’accepte les termes du contrat de licence** _ et appuyez sur _*Installer**.
 
-    Cela commence l’installation du logiciel de surveillance Salles Microsoft Teams – Managed Services. Une invite d’élévation (exécuter en tant qu’administrateur) s’affiche.
+    Cela commence l’installation du logiciel de surveillance Salles Microsoft Teams Pro. Une invite d’élévation (exécuter en tant qu’administrateur) s’affiche.
 
 1. Sélectionnez **Oui**.
 
-    L’installation se poursuivra. Pendant la procédure d’installation, une fenêtre de console s’ouvre et commence l’étape finale de l’Salles Microsoft Teams – Installation du logiciel de surveillance des services managés.
+    L’installation se poursuivra. Pendant la procédure d’installation, une fenêtre de console s’ouvre et commence la dernière étape de l’installation du logiciel de surveillance Salles Microsoft Teams Pro.
 
     > [!NOTE]
     > Ne fermez pas la fenêtre. Une fois l’installation terminée, l’Assistant affiche un bouton « Terminer ».
@@ -160,11 +160,11 @@ Les composants suivants sont prérequis pour une installation réussie :
 
 - **Intune inscription** : salles Teams sur les appareils Windows doivent déjà être inscrits dans Intune.
   Pour plus d’informations sur l’inscription de salles Teams sur des appareils Windows dans Intune, consultez [Inscription de Salles Microsoft Teams sur des appareils Windows avec Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- Groupe **Azure AD avec tous les salles Teams sur les appareils Windows en tant que membres** : groupe créé dans Azure AD qui inclut tous les salles Teams sur les appareils Windows qui doivent faire partie du service Salles Microsoft Teams Premium. Ce groupe sera utilisé pour cibler le déploiement de l’agent MTRP.
+- Groupe **Azure AD avec tous les salles Teams sur les appareils Windows en tant que membres** : groupe créé dans Azure AD qui inclut tous les salles Teams sur les appareils Windows qui doivent faire partie du service Salles Microsoft Teams Premium. Ce groupe sera utilisé pour cibler le déploiement de l’agent MTR Pro.
   
 > [!NOTE]
 > Vous pouvez envisager d’utiliser des groupes dynamiques dans Azure AD à cet effet, plus d’informations [sur l’inscription de Salles Microsoft Teams sur des appareils Windows avec Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- Télécharger le **programme d’installation** de **l’agent MTRP** : téléchargez le fichier zip de <https://aka.ms/serviceportalagentmsi> l’agent et extrayez le contenu du fichier zip (ManagedRoomsInstaller.msi) dans un dossier temporaire local.
+- Télécharger le **programme d’installation** de **l’agent MTR Pro** : téléchargez le fichier zip de <https://aka.ms/serviceportalagentmsi> l’agent et extrayez le contenu du fichier zip (ManagedRoomsInstaller.msi) dans un dossier temporaire local.
 
 **Pour l’installer à l’aide de Intune**
 
@@ -180,7 +180,7 @@ Les composants suivants sont prérequis pour une installation réussie :
    1. Ignorer la version de l’application : sélectionnez **Oui**.
 
       > [!NOTE]
-      > L’agent MTRP est automatiquement mis à jour ; Par conséquent, vous devez ignorer explicitement la version de l’application (toute version de référence peut être mise à jour automatiquement).
+      > L’agent MTR Pro est automatiquement mis à jour ; Par conséquent, vous devez ignorer explicitement la version de l’application (toute version de référence peut être mise à jour automatiquement).
 
    1. (Facultatif) Catégorie : Sélectionnez **Gestion de l’ordinateur**.
    
@@ -191,11 +191,11 @@ Les composants suivants sont prérequis pour une installation réussie :
 1. Cliquez sur **Suivant** pour afficher la page **Vérifier + créer** .
 1. Passez en revue les valeurs et les paramètres que vous avez entrés pour l’application. Lorsque vous avez terminé, cliquez sur **Créer** pour ajouter l’application à Intune.
 
-Une fois le processus terminé, vos appareils commencent à installer l’agent MTRP après quelques minutes.
+Une fois le processus terminé, vos appareils commencent à installer l’agent MTR Pro après quelques minutes.
 
 > [!NOTE]
-> Après l’installation, l’agent MTRP peut prendre jusqu’à huit heures pour exécuter une mise à jour automatique vers la dernière version et être répertorié dans le portail MTRP.
-Pour accélérer l’inscription automatique dans le portail MTRP, envisagez de redémarrer l’appareil MTR après le déploiement de l’agent.
+> Après l’installation, l’agent MTR Pro peut prendre jusqu’à huit heures pour exécuter une mise à jour automatique vers la dernière version et être répertorié dans le portail MTR Pro.
+Pour accélérer l’inscription automatique dans le portail MTR Pro, envisagez de redémarrer l’appareil MTR après le déploiement de l’agent.
 
 ## <a name="completing-enrollment"></a>Fin de l’inscription
 
@@ -203,9 +203,7 @@ Une fois l’installation terminée, attendez 5 à 10 minutes, puis actualisez l
 
 Dans *l’état d’intégration* , l’état de la salle est affiché et mis à jour, mais il ne déclenche pas d’alertes ou ne crée pas de tickets d’enquête.
 
-Choisissez la salle et **sélectionnez Inscrire**  pour commencer à recevoir des alertes d’incident, des tickets d’enquête ou pour signaler un incident.
-
-Pour toute question ou problème, ouvrez un incident signalé par le client dans le portail ou contactez managedroomsupport@microsoft.com.
+Choisissez la salle, puis **sélectionnez Inscrire**  pour commencer à recevoir des alertes d’incident.
 
 ### <a name="unenrolling-and-uninstalling-monitoring-software"></a>Désinscription et désinstallation des logiciels de surveillance
 
@@ -225,15 +223,15 @@ Pour désinscrire l’appareil, supprimez l’agent de surveillance de l’appar
    C:\Users\admin\Downloads\MTRP\_Device\_Offboarding\MTRP\_Device\_Offboarding.ps1
    ```
 
-   Cette commande réinitialise l’appareil aux mises à jour MTR standard de l’utilisateur et supprime l’agent et les fichiers de surveillance MTRP.
+   Cette commande réinitialise l’appareil aux mises à jour MTR standard de l’utilisateur et supprime l’agent et les fichiers de surveillance MTR Pro.
 
-1. Dans le menu de gauche du portail Salles Microsoft Teams – Services managés, sélectionnez **Salles**.
+1. Dans le menu de gauche du portail de gestion Salles Microsoft Teams Pro, sélectionnez **Salles**.
 1. Dans la liste des salles fournies, choisissez la salle que vous souhaitez désinscrire et sélectionnez **Désinscrire** pour arrêter d’obtenir des alertes d’incident ou des tickets d’enquête, ou pour signaler un incident pour la salle.
 
 ## <a name="troubleshooting-table"></a>Tableau de résolution des problèmes
 
 > [!NOTE]
-> Toutes les Salles Microsoft Teams : les erreurs de surveillance des services managés sont consignées dans un fichier journal des événements spécifique nommé **Salles gérées Microsoft**.
+> Toutes les erreurs de supervision Salles Microsoft Teams Pro sont consignées dans un fichier journal des événements spécifique nommé **Salles gérées Microsoft**.
 
 ***Emplacement du fichier journal du runtime d’application*** =
 

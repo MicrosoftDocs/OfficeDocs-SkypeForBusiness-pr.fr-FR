@@ -22,18 +22,21 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Découvrez et comparez salles Teams la disponibilité des licences et des fonctionnalités dans le Centre d’administration Teams.
-ms.openlocfilehash: d88e7a0c0a6c17fb22f1cc94fcd4de65a3ff79a2
-ms.sourcegitcommit: 732a7f3e120cfa221d42b4e8af2cf9ff623488a1
+ms.openlocfilehash: 0e4a3d4fc15f5e978731254e3344ee6e413ff682
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67633634"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999629"
 ---
 # <a name="microsoft-teams-rooms-license-overview-in-teams-admin-center"></a>vue d’ensemble des licences Salles Microsoft Teams dans le Centre d’administration Teams
 
 Le Centre d’administration Teams vous permet d’afficher et de gérer salles Teams appareils et leurs périphériques à partir d’un emplacement central. Cet article vous montre [les fonctionnalités de gestion dont](#comparison-of-teams-rooms-feature-availability-by-license) vous disposez, selon qu’une licence Salles Microsoft Teams De base ou Salles Microsoft Teams Pro est attribuée à un appareil salles Teams.
 
 Pour plus d’informations sur les licences Salles Microsoft Teams, consultez [Salles Microsoft Teams licences](rooms-licensing.md).
+
+> [!NOTE]
+> Si vous disposez de licences héritées salles Teams Standard ou salles Teams Premium, vous devez passer à salles Teams Pro lorsque vos licences héritées expirent. Si vous avez un Accord Entreprise, vous devez passer aux licences salles Teams Pro lors de votre prochaine période de renouvellement. Pour plus d’informations, consultez [Passer de salles Teams Standard et salles Teams Premium](rooms-licensing.md#switching-from-teams-rooms-standard-and-teams-rooms-premium).
 
 ## <a name="see-which-licenses-are-assigned-to-teams-rooms-devices"></a>Voir quelles licences sont attribuées à salles Teams appareils
 
@@ -73,7 +76,6 @@ Le tableau suivant présente les fonctionnalités de gestion disponibles dans le
 | **Détails de l’intégrité de l’appareil**                     |                             | &#x2714;                  |
 | **Balises d’appareil**                               |                             | &#x2714;                  |
 | **API Graph**                                |                             | &#x2714;                  |
-| **Mises à jour manuelles des appareils**                     |                             | &#x2714;                  |
 | **Redémarrage à distance**                            |                             | &#x2714;                  |
 | **Gestion des périphériques d’appareil Windows**     |                             | &#x2714;                  |
 | **Paramètres de l’appareil Windows**                   |                             | &#x2714;                  |

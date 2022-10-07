@@ -1,6 +1,6 @@
 ---
 title: Gérer les paramètres de Messagerie vocale infonuagique
-author: crowe
+author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Gérer les paramètres de messagerie vocale pour vos utilisateurs.
-ms.openlocfilehash: 7aa2fdf84f38cb9977b3a4156b28a96b98bbd9d7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 96ac5e13360463150a5ff21bc8042b701a4f9717
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269599"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999489"
 ---
 # <a name="manage-cloud-voicemail-settings-for-users"></a>Gérer les paramètres Messagerie vocale infonuagique pour les utilisateurs
 
@@ -48,7 +48,7 @@ Les paramètres par défaut pour Messagerie vocale infonuagique sont les suivant
 - La cible de transfert n’est pas définie.
 
 
-Pour gérer Messagerie vocale infonuagique fonctionnalités pour vos utilisateurs, vous pouvez utiliser le Centre d’administration Teams ou PowerShell. Notez que vos utilisateurs finaux peuvent également configurer ces paramètres dans le client Teams en allant à **Paramètres -> Appels -> Configurer la messagerie vocale.**
+Pour gérer Messagerie vocale infonuagique fonctionnalités pour vos utilisateurs, vous pouvez utiliser le Centre d’administration Teams ou PowerShell. Vos utilisateurs finaux peuvent également configurer ces paramètres dans le client Teams en allant à **Paramètres -> Appels -> Configurer la messagerie vocale.**
 
 ## <a name="use-teams-admin-center"></a>Utiliser le Centre d’administration Teams
 
@@ -75,13 +75,13 @@ Vous pouvez également utiliser PowerShell pour gérer les paramètres de messag
 
 ## <a name="voicemail-settings"></a>Paramètres de messagerie vocale
 
-- **Messagerie vocale activée** : ce paramètre détermine si Messagerie vocale infonuagique est activé pour l’utilisateur. Si les paramètres sont faux, Messagerie vocale infonuagique service n’est pas disponible pour l’utilisateur et n’enregistre pas de messagerie vocale pour l’utilisateur.
+- **Messagerie vocale activée** : ce paramètre détermine si Messagerie vocale infonuagique est activé pour l’utilisateur. Si le paramètre est false, Messagerie vocale infonuagique service n’est pas disponible pour l’utilisateur et n’enregistre pas de messagerie vocale pour l’utilisateur.
 
 - **Langue** de l’invite : ce paramètre spécifie la langue utilisée pour les invites dans le Messagerie vocale infonuagique. Pour plus d’informations, consultez [Modifier la langue par défaut pour les messages d’accueil et les e-mails](change-the-default-language-for-greetings-and-emails.md).
 
 - **Paramètres d’accueil** : Messagerie vocale infonuagique est en mesure de lire un message d’accueil spécifique pour le moment où l’utilisateur se trouve au bureau et pour le moment où l’utilisateur est en dehors du bureau. Les deux messages d’accueil peuvent être enregistrés par l’utilisateur ou un message d’accueil de synthèse vocale peut être utilisé.
 
-  - **Remplacement de l’invite de message d’accueil par défaut** : spécifie le message d’accueil de synthèse vocale qui sera lu si l’utilisateur n’a pas enregistré de message d’accueil.
+  - **Remplacement de l’invite de message d’accueil par défaut** : spécifie le message d’accueil de synthèse vocale qui sera lu au cas où l’utilisateur n’aurait pas enregistré de message d’accueil.
 
   - **Oof Greeting Enabled** : spécifie si le message d’accueil d’absence du bureau est lu dans le scénario de dépôt de messagerie vocale, quels que soient les paramètres d’Outlook.
 

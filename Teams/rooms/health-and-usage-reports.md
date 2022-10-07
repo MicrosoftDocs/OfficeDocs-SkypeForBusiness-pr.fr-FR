@@ -1,10 +1,10 @@
 ---
 title: Rapports d’intégrité et d’utilisation
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.date: 04/07/2022
-ms.reviewer: ''
+ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,16 +18,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Création de rapports de données de nœud pour l’intégrité et l’utilisation des rapports
 f1keywords: ''
-ms.openlocfilehash: 87a04860a69799bf00492691dc24498076bd4924
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 9b1f3e1960cbe0089f498045922125b121679646
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271429"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243795"
 ---
 # <a name="health-and-usage-reports"></a>Rapports d’intégrité et d’utilisation
 
-Le nœud de création de rapports contient des données relatives à l’intégrité et à l’utilisation de vos salles gérées Microsoft et de vos insights de service. La **vue d’ensemble** présente les tendances d’intégrité à l’échelle du locataire de vos chambres. L’onglet **Intégrité** affiche une liste des salles avec leurs données d’intégrité correspondantes. L’utilisation de la salle basée sur les informations de calendrier et les données de qualité des appels est visible sous **l’onglet Utilisation** .
+Le nœud de création de rapports contient des données relatives à l’intégrité et à l’utilisation de votre Salles Microsoft Teams dans le portail de gestion Pro. La **vue d’ensemble** présente les tendances d’intégrité à l’échelle du locataire de vos chambres. L’onglet **Intégrité** affiche une liste des salles avec leurs données d’intégrité correspondantes. L’utilisation de la salle basée sur les informations de calendrier et les données de qualité des appels est visible sous **l’onglet Utilisation** .
 
 ## <a name="navigating-reports"></a>Navigation dans les rapports
 
@@ -42,7 +42,7 @@ Pour modifier le groupe, cliquez sur le menu déroulant sélection du groupe dan
 <!--!![A screenshot of the banner menu auto-generated](../media/health-and-usage-005.png)-->
 ### <a name="tickets-by-category"></a>Billets par catégorie
 
-L’anneau affiche le nombre total de tickets déclenchés pour l’intervalle de temps et le groupe sélectionnés (la valeur par défaut est sept jours, tous les groupes). Les tickets sont représentés dans leurs principales catégories : Audio, Affichage, Périphériques, Connectivité, Contrôle de version et Client signalés.
+L’anneau affiche le nombre total de tickets déclenchés pour l’intervalle de temps et le groupe sélectionnés (la valeur par défaut est sept jours, tous les groupes). Les tickets sont représentés dans leurs principales catégories : Audio, Affichage, Périphériques, Connectivité, Contrôle de version et Problèmes enregistrés.
 
 <!--!![A screenshot of pie chart tickets by category](../media/health-and-usage-006.png)-->
 
@@ -56,20 +56,20 @@ Dans le menu volant, il est possible de filtrer la liste des tickets par sous-ca
 
 Pour revenir en arrière, cliquez sur l’anneau ou cliquez sur la barre de navigation en haut à gauche.
 
-Pour accéder à un ticket spécifique dans cette vue de liste, cliquez sur le lien sous le **colum du ticket de support**.
+Pour accéder à un ticket spécifique dans cette vue de liste, cliquez sur le lien sous la **colonne Ticket de support**.
 
-### <a name="ticket-history"></a>Historique des tickets
+<!--### Ticket history
 
-Le graphique d’historique des tickets affiche une comparaison des incidents qui vous ont été attribués ou qui ont été attribués à Microsoft sur la période spécifiée.
+The ticket history graph shows a comparison of incidents assigned to you or Microsoft over the specified time period.
 
 > [!NOTE]
-> Si un ticket change de propriétaire dans une journée, celui qui est propriétaire de l’affectation pour la majorité de cette journée aura le ticket compté pour eux. Par exemple, si vous attribuez le ticket à Microsoft tôt dans la journée, le ticket est comptabilisé dans **Affecté à Microsoft** pour la journée.
+> If a ticket changes owner in a day, whoever owns the assignment for the majority of that day will have the ticket counted towards them. For example, if you assign the ticket to Microsoft early in the day, the ticket counts towards **Assigned to Microsoft** for the day.
 
 <!--![A screen shot of Tickets history by different periods](../media/health-and-usage-009.png)-->
 
 ### <a name="health-history"></a>Historique d’intégrité
 
-Ce graphique montre l’intégrité moyenne (définition dans la section Intégrité) pour toutes les salles du locataire, ainsi que l’intégrité moyenne de tous les clients MMR au quotidien. Vous pouvez afficher l’intégrité moyenne pendant jusqu’à 90 jours.
+Ce graphique montre l’intégrité moyenne (définition dans la section Intégrité) pour toutes les salles du locataire, ainsi que l’intégrité moyenne de tous les clients MTR Pro au quotidien. Vous pouvez afficher l’intégrité moyenne pendant jusqu’à 90 jours.
 
 <!--!![A screenshot of rooms health and average health](../media/health-and-usage-010.png)-->
 
