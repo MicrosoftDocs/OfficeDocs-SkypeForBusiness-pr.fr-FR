@@ -10,6 +10,8 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- tier1
+- purview-compliance
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -17,12 +19,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser des étiquettes de confidentialité pour protéger vos équipes dans Microsoft Teams.
-ms.openlocfilehash: 6bbeb4d804c9f397936d331df902cc295d044d75
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 59bd67ea59787a1f73b2a0c808bfa3464c3bc31b
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023771"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046874"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Étiquettes de confidentialité pour Microsoft Teams
 
@@ -69,7 +71,7 @@ Un propriétaire d’équipe peut modifier l’étiquette de confidentialité et
 
 ### <a name="control-guest-access-to-teams"></a>Contrôler l’accès invité aux équipes
 
-Vous pouvez utiliser des étiquettes de confidentialité pour contrôler l’accès invité à vos équipes. Les équipes créées avec une étiquette qui n’autorise pas l’accès invité sont uniquement disponibles pour les utilisateurs de votre organisation. Les personnes extérieures à votre organisation ne peuvent pas être ajoutées à l’équipe.
+Vous pouvez utiliser des étiquettes de confidentialité pour contrôler l’accès invité à vos équipes. Les équipes créées avec une étiquette qui n’autorise pas l’accès invité sont uniquement disponibles pour les utilisateurs de votre organisation. Personnes en dehors de votre organisation ne peuvent pas être ajoutées à l’équipe.
 
 ## <a name="microsoft-teams-admin-center"></a>Centre d’administration Microsoft Teams
 

@@ -7,18 +7,19 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
+ms.date: 09/26/2022
 search.appverid: MET150
 description: Découvrez les paramètres que vous devez configurer pour contrôler si les propriétaires d’équipes de votre organisation peuvent donner leur consentement aux applications.
 ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cde84f4662b507b8497973436b9b713223fdbf74
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: dd47f8e46147e3b4d30052ff4a1b9fcde6c128e1
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837324"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377152"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Consentement spécifique à la ressource dans Microsoft Teams
 
@@ -39,7 +40,7 @@ Les deux paramètres suivants déterminent si les propriétaires d’équipe peu
 > [!IMPORTANT]
 > La modification de ces paramètres n’affecte pas l’accès aux données pour les applications qui ont déjà obtenu le consentement. Par exemple, si vous configurez ces paramètres pour empêcher les propriétaires d’équipe de donner leur consentement, ces modifications ne suppriment pas l’accès aux données qui a déjà été accordé.
 
-#### <a name="the-users-can-consent-to-apps-accessing-company-data-on-their-behalf-setting"></a>Le paramètre « Les utilisateurs peuvent donner leur consentement aux applications qui accèdent aux données de l’entreprise en leur nom »
+#### <a name="the-users-can-consent-to-apps-accessing-company-data-on-their-behalf-setting"></a>Les utilisateurs peuvent donner leur consentement aux applications qui accèdent aux données de l’entreprise en leur nom
 
 Ce paramètre contrôle si les utilisateurs de votre organisation peuvent donner leur consentement aux applications en leur nom. Pour permettre aux propriétaires d’équipe de donner leur consentement, ce paramètre doit être défini sur **Oui**. Pour gérer ce paramètre, procédez comme suit :
 
@@ -59,16 +60,16 @@ Outre les paramètres dans Azure AD, [les paramètres d’application à l’éc
 > [!IMPORTANT]
 > La modification de ces paramètres n’affecte pas l’accès aux données pour les applications qui ont déjà obtenu le consentement. Par exemple, si vous désactivez des applications tierces à l’échelle de l’organisation ou si vous bloquez des applications spécifiques pour empêcher les propriétaires d’équipe de donner leur consentement, ces modifications ne suppriment pas l’accès aux données qui a déjà été accordé.  
 
-#### <a name="the-allow-third-party-apps-setting-in-org-wide-app-settings"></a>Paramètre « Autoriser les applications tierces » dans les paramètres d’application à l’échelle de l’organisation
+#### <a name="the-allow-third-party-apps-option-in-org-wide-app-settings"></a>Option Autoriser les applications tierces dans les paramètres d’application à l’échelle de l’organisation
 
 Ce paramètre d’application à l’échelle de l’organisation contrôle si les utilisateurs de votre organisation peuvent utiliser des applications tierces. Ce paramètre doit être activé pour permettre aux propriétaires d’équipe de donner leur consentement. Pour gérer ce paramètre, procédez comme suit :
 
 1. Connectez-vous au Centre d’administration Teams et accédez aux **applications** >  Teams **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)**.
 1. Sélectionnez **les paramètres d’application à l’échelle de l’organisation** et, sous **Applications tierces**, désactivez ou **activez Autoriser les applications tierces**.
 
-    ![Capture d’écran du paramètre « Autoriser les applications tierces dans Teams »](media/resource-specific-consent-org-wide-setting.png)
+   :::image type="content" source="media/resource-specific-consent-org-wide-setting.png" alt-text="Capture d’écran montrant le paramètre Autoriser des applications tierces dans Teams.":::
 
-Il est possible que les modifications ne prennent effet qu'après 24 heures.
+L’application de vos modifications peut prendre jusqu’à 24 heures.
 
 #### <a name="allow-or-block-the-app-at-the-org-level"></a>Autoriser ou bloquer l’application au niveau de l’organisation
 
@@ -77,8 +78,6 @@ Lorsque vous bloquez ou autorisez une application sur la page [Gérer les applic
 1. Connectez-vous au Centre d’administration Teams et accédez aux **applications** >  Teams **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)**.
 1. Dans la page Gérer les applications, sélectionnez l’application, puis **sélectionnez Bloquer** pour la bloquer ou **sélectionnez Autoriser** pour l’autoriser.
 
-    ![Capture d’écran des applications bloquées dans les paramètres à l’échelle de l’organisation.](media/resource-specific-consent-allow-block-apps.png)
-
 #### <a name="app-permission-policy-assigned-to-the-team-owner"></a>Stratégie d’autorisation d’application affectée au propriétaire de l’équipe
 
 Les propriétaires d’équipe peuvent uniquement donner leur consentement aux applications que leur stratégie d’autorisation d’application leur permet d’exécuter. Pour afficher et gérer la stratégie d’autorisation d’application affectée à un propriétaire d’équipe, procédez comme suit :
@@ -86,8 +85,9 @@ Les propriétaires d’équipe peuvent uniquement donner leur consentement aux a
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Utilisateurs**.
 1. Double-cliquez sur le nom complet du propriétaire de l’équipe, puis sélectionnez **Stratégies**.
 1. La stratégie affectée au propriétaire de l’équipe est répertoriée sous **Stratégie d’autorisation d’application**.
-    - Pour affecter une autre stratégie, **sélectionnez Modifier**, puis sélectionnez la stratégie que vous souhaitez affecter.
-    - Pour modifier les paramètres de la stratégie affectée au propriétaire de l’équipe, sélectionnez le nom de la stratégie, puis apportez les modifications souhaitées.  
+
+    * Pour affecter une autre stratégie, **sélectionnez Modifier**, puis sélectionnez la stratégie que vous souhaitez affecter.
+    * Pour modifier les paramètres de la stratégie affectée au propriétaire de l’équipe, sélectionnez le nom de la stratégie, puis apportez les modifications souhaitées.  
 
 ## <a name="upload-custom-apps"></a>Charger des applications personnalisées
 
@@ -95,7 +95,7 @@ Lors du téléchargement d'une application personnalisée (également connu sous
 
 ## <a name="related-articles"></a>Articles connexes
 
-- [Autorisations RSC disponibles](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
-- [Microsoft Graph](https://developer.microsoft.com/graph)
-- Vous gérez les applications pour votre organisation dans les [applications Teams au sein du centre d’administration Microsoft Teams](manage-apps.md).
-- [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)
+* [Autorisations RSC disponibles](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+* [Microsoft Graph](https://developer.microsoft.com/graph)
+* Vous gérez les applications pour votre organisation dans les [applications Teams au sein du centre d’administration Microsoft Teams](manage-apps.md).
+* [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)

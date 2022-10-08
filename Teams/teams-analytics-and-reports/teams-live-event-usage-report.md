@@ -17,12 +17,12 @@ description: Découvrez comment utiliser le rapport d’utilisation des événem
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29a255c9248f07db00d4295e99d4062116ca4e76
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: 1a7f571610c49da16735cf66f65f725901fce56d
+ms.sourcegitcommit: b2692b3f6c60d8df5ba0677c68ff9c90a75a0d72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794092"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68033812"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Rapport d’utilisation des événements en direct Microsoft Teams
 
@@ -48,7 +48,7 @@ Le rapport d’utilisation des événements en direct Teams dans le Centre d’a
 |**5**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau.|
 
 ## <a name="notes"></a>Remarques
-Nous affichons jusqu’à 100 événements en direct qui correspondent aux critères de rapport actuels. Pour afficher d’autres événements en direct, appliquez des filtres de date pour réduire la taille de la liste.
+Nous affichons un maximum de 100 événements en direct qui correspondent aux critères de rapport actuels. Pour afficher d’autres événements en direct, appliquez des filtres de date pour réduire la taille de la liste.
 
 Les présentateurs anonymes ne seront pas inclus dans le rapport.
 
@@ -62,7 +62,7 @@ La page de détails de l’événement en direct vous donne un résumé des dét
 
 Si votre organisation est activée pour [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN ou [Kollective](https://kollective.com) eCDN, vous pouvez obtenir des analyses supplémentaires des participants en cliquant sur le lien du rapport du partenaire.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Analyses et rapports Teams](teams-reporting-reference.md)
 - [Que sont les événements en direct Teams ?](../teams-live-events/what-are-teams-live-events.md)

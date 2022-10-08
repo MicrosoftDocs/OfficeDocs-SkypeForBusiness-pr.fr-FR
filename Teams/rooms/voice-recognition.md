@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29a048ccc02082ec019bb64dca9e89b7f265ff83
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: d7b74ecb85f6081533f5139b6f8f083b8958d47f
+ms.sourcegitcommit: 31fe510550ac1f5f8e53b2395014cb909a6eb723
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465972"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "68350747"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Gérer les contrôles de technologie de reconnaissance vocale pour un haut-parleur intelligent
 
@@ -130,13 +130,29 @@ Les utilisateurs finaux peuvent inscrire leurs voix pour la reconnaissance dans 
 
 |**Langue**|**Pays/Région**|**Culture ID**|
 |:-----|:-----|:-----|
+|Arabe  <br/> |Arabie saoudite <br/> |ar-SA  <br/> |
+|Chinois  <br/> |Chine <br/> |zh-CN  <br/> |
+|Chinois  <br/> |Taïwan <br/> |zh-TW  <br/> |
+|Danois  <br/> |Danemark <br/> |da-DK  <br/> |
+|Néerlandais  <br/> |Pays-Bas <br/> |nl-NL  <br/> |
 |Anglais  <br/> |Australie <br/> |en-AU  <br/> |
 |Anglais  <br/> |Canada  <br/> |en-CA <br/> |
 |Anglais  <br/> |Inde  <br/> |en-IN  <br/> |
 |Anglais  <br/> |Nouvelle-Zélande  <br/> |en-NZ  <br/> |
 |Anglais  <br/> |Royaume-Uni  <br/> |en-GB  <br/> |
 |Anglais  <br/> |États-Unis  <br/> |en-US  <br/> |
-
+|Finnois  <br/> |Finlande  <br/> |fi-FI  <br/> |
+|Français  <br/> |Canada <br/> |fr-CA  <br/> |
+|Français  <br/> |France <br/> |fr-FR  <br/> |
+|Italien  <br/> |Italie <br/> |it-IT  <br/> |
+|Japonais  <br/> |Japon <br/> |ja-JP  <br/> |
+|Norvégien  <br/> |Norvège <br/> |nb-NO  <br/> |
+|Polonais  <br/> |Pologne <br/> |pl-PL  <br/> |
+|Portugais      <br/> |Brésil <br/> |pt-BR  <br/> |
+|Russe  <br/> |Russie <br/> |ru-RU  <br/> |
+|Suédois  <br/> |Suède <br/> |sv-SE  <br/> |
+|Espagnol  <br/> |Mexique  <br/> |es-MX  <br/> |
+|Espagnol  <br/> |Espagne  <br/> |es-ES  <br/> |
 
 ### <a name="in-meeting-transcription-locales"></a>Paramètres régionaux de transcription en réunion
 

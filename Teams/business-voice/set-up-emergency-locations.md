@@ -1,7 +1,7 @@
 ---
 title: Configurer Téléphonie Microsoft Teams System avec les emplacements d’urgence du plan d’appel
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ appliesto:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: bf2e790e177ca388fd184ee4e1dff41032ef7166
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 96c6ec5422295bf63b4ac6b356f8d511f0291ff5
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267399"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480704"
 ---
 # <a name="step-1-set-up-a-teams-phone-system-emergency-location"></a>Étape 1 : Configurer un emplacement d’urgence du système téléphonique Teams
 

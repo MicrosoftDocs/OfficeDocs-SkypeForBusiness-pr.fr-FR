@@ -18,12 +18,12 @@ description: Dans cet article, vous allez découvrir les rapports Teams disponib
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd6be2023745390a0f1225224e6ebbe9bcbde1dc
-ms.sourcegitcommit: e6f3e1e499ed1298b3e6f7a1b53f6cb8ba73c9b1
+ms.openlocfilehash: b08e62a7ddee8298ff38846d8d254d10d3d6f681
+ms.sourcegitcommit: b2692b3f6c60d8df5ba0677c68ff9c90a75a0d72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66906959"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68033832"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Analyses et rapports Microsoft Teams
 
@@ -40,28 +40,29 @@ Accédez au Centre d’administration Microsoft Teams, dans le volet de navigati
 
 ## <a name="teams-reporting-reference"></a>Informations de référence sur les rapports Teams
 
-Voici une liste des rapports Teams disponibles dans le Centre d’administration Microsoft Teams et une vue d’ensemble de certaines des informations disponibles dans chaque rapport.
+Voici une liste des rapports Teams disponibles dans le Centre d’administration Microsoft Teams dans différents environnements et une vue d’ensemble de certaines des informations disponibles dans chaque rapport.
 
 Nous améliorons continuellement l’expérience de création de rapports Teams et ajoutons des fonctionnalités et des fonctionnalités. Au fil du temps, nous allons créer des fonctionnalités supplémentaires dans les rapports et ajouter de nouveaux rapports dans le Centre d’administration Microsoft Teams.
 
-|Rapport  |Quelles données sont mesurées ? |
-|---------|---------|
-|[Rapport d’utilisation Teams](teams-usage-report.md)  |  Utilisateurs actifs<br/>Utilisateurs actifs dans les équipes et les canaux<br/>Canaux actifs<br/>Messages<br/>Paramètre de confidentialité des équipes<br/>Invités d’une équipe   |
-|[Rapport d’activité d’utilisateur Teams](user-activity-report.md)  | Messages qu’un utilisateur a publiés dans une conversation d’équipe<br/>Messages qu’un utilisateur a publiés dans une conversation privée<br/>  1:1 appelle un utilisateur qui a participé à<br/> Nombre de réunions organisées par l’utilisateur <br/>Nombre de réunions aux cours aux cours des utilisateurs<br/>Temps de partage audio, vidéo et d’écran des réunions<br/>   Date de la dernière activité d’un utilisateur     |
-|[Rapport d’utilisation Teams sur des périphériques](device-usage-report.md)   |  Utilisateurs Windows<br/>Utilisateurs Mac<br/>Utilisateurs iOS<br/>Utilisateurs de téléphone Android     |
-|[Rapport d’utilisation des événements en direct Teams](teams-live-event-usage-report.md)   |  Nombre total de vues<br>Heure de début<br>État de l’événement<br>Organisateur<br>Présentateur<br>Producteur<br>Paramètre d’enregistrement<br>Type de production    |
-|[Rapport des utilisateurs bloqués rtc Teams](pstn-blocked-users-report.md)   |  Nom d’affichage<br>Numéro de téléphone<br>Raison<br>Type d’action<br>Date et heure de l’action   |
-|[Rapport des pools de minutes RTC Teams](pstn-minute-pools-report.md) |  Pays ou région<br>Fonctionnalité (licence) <br>Nombre total de minutes<br>Minutes utilisées<br>Minutes disponibles|
-|[Rapport d’utilisation rtc Teams - Forfaits d’appels](pstn-usage-report.md#calling-plans)|  Horodatage<br>Nom d'utilisateur<br>Numéro de téléphone<br>Type d’appel <br>Appelé à<br>Vers le pays ou la région <br>Appelé à partir de <br>À partir d’un pays ou d’une région<br>Frais<br>Devise<br>Durée<br>National/International<br>ID d’appel<br>Type de nombre<br>Pays ou région<br>ID de conférence<br>Fonctionnalité (licence)|
-|[Rapport d’utilisation rtc Teams - Routage direct](pstn-usage-report.md#direct-routing)  |  Horodatage<br>Nom d’affichage<br>Adresse SIP<br>Numéro de téléphone <br>Type d’appel<br>Appelé à<br>Heure de début<br>Heure d’invitation<br>Temps d’échec<br>Heure de fin<br>Durée<br>Type de nombre<br>Contournement de média<br>Nom de domaine complet SBC<br>Région Azure<br>Type d’événement<br>Code SIP final<br>Sous-code Microsoft final<br>Phrase SIP finale<br>ID de corrélation  |
-|[Rapport de licence de protection des informations Teams](information-protection-license-report.md)  | <br>Indique si les utilisateurs disposent de licences valides pour envoyer leurs messages via des notifications de modification</br><br>Nombre total d’événements de notification de modification déclenchés par un utilisateur<br><br>Les applications qui écoutent les événements de notification de modification à l’échelle de l’organisation<br>|
-|[Rapport d’utilisation des visites virtuelles Teams](/microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)  | Nombre de rendez-vous virtuels<br>Nombre de rendez-vous Bookings<br>Nombre de rendez-vous intégrés aux dossiers de santé électroniques Teams (DSE)<br>Durée moyenne d’un rendez-vous<br>Temps d’attente moyen des participants dans la salle d’attente<br>Heure de début<br>ID de réunion<br>Temps d’attente de la salle d’attente<br>Durée<br>Statut<br>Type de produit<br>Participants<br>SMS envoyés
-|[Rapport Rendez-vous virtuels du connecteur DSE Teams](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) | Heure de début<br>Durée<br>Principal (nom de l’organisateur de la réunion)<br>E-mail du principal (e-mail de l’organisateur de la réunion)<br>Service<br>Préposés<br>Temps d’attente de la salle d’attente<br>Indique si le rendez-vous est dans la limite d’allocation|
+|Rapport  |Public |Gcc |GCCH |Dod |Quelles données sont mesurées ? |
+|---------|---------|---------|---------|---------|---------|
+|[Rapport d’utilisation Teams](teams-usage-report.md)  |Oui|Oui|Oui|Oui|  Utilisateurs actifs<br/>Utilisateurs actifs dans les équipes et les canaux<br/>Canaux actifs<br/>Messages<br/>Paramètre de confidentialité des équipes<br/>Invités actifs dans une équipe  <br/>Utilisateurs externes actifs (dans les canaux partagés)<br/>Détails spécifiques au canal partagé au sein d’une équipe (nouveau)|
+|[Rapport d’activité d’utilisateur Teams](user-activity-report.md)  |Oui|Oui|Oui|Oui|Utilisateurs internes et externes actifs (dans les canaux partagés)<br/> Messages qu’un utilisateur a publiés dans une conversation d’équipe<br/>Messages qu’un utilisateur a publiés dans une conversation privée<br/>  1:1 appelle un utilisateur qui a participé à<br/> Nombre de réunions organisées par l’utilisateur <br/>Nombre de réunions aux cours aux cours des utilisateurs<br/>Temps de partage audio, vidéo et d’écran des réunions<br/>   Date de la dernière activité d’un utilisateur  <br>Interactions de canal partagé d’un utilisateur (nouveau)</br>   |
+|[Rapport d’utilisation Teams sur des périphériques](device-usage-report.md)   |Oui|Oui|Oui|Oui|  Utilisateurs Windows<br/>Utilisateurs Mac<br/>Utilisateurs iOS<br/>Utilisateurs de téléphone Android     |
+|[Rapport d’utilisation des applications Teams (nouveau)](app-usage-report.md)   |Oui|Oui|Non|Non|  Nombre total d’utilisateurs actifs de l’application<br/>Nombre total d’équipes actives utilisant l’application<br/>Nombre total d’applications installées (nouveau)<br/>Nombre total d’applications inactives <br/>Utilisation totale des applications 1P et 3P et LoB (nouveau)     |
+|[Rapport d’utilisation des événements en direct Teams](teams-live-event-usage-report.md)   |Oui|Oui|Non|Non|  Nombre total de vues<br>Heure de début<br>État de l’événement<br>Organisateur<br>Présentateur<br>Producteur<br>Paramètre d’enregistrement<br>Type de production    |
+|[Rapport des utilisateurs bloqués rtc Teams](pstn-blocked-users-report.md)   |Oui|Oui|Non|Non|  Nom d’affichage<br>Numéro de téléphone<br>Raison<br>Type d’action<br>Date et heure de l’action   |
+|[Rapport des pools de minutes RTC Teams](pstn-minute-pools-report.md) |Oui|Oui|Non|Non|  Pays ou région<br>Fonctionnalité (licence) <br>Nombre total de minutes<br>Minutes utilisées<br>Minutes disponibles|
+|[Rapport d’utilisation rtc Teams - Forfaits d’appels](pstn-usage-report.md#calling-plans)|Oui|Oui|Non|Non|  Horodatage<br>Nom d'utilisateur<br>Numéro de téléphone<br>Type d’appel <br>Appelé à<br>Vers le pays ou la région <br>Appelé à partir de <br>À partir d’un pays ou d’une région<br>Frais<br>Devise<br>Durée<br>National/International<br>ID d’appel<br>Type de nombre<br>Pays ou région<br>ID de conférence<br>Fonctionnalité (licence)|
+|[Rapport d’utilisation rtc Teams - Routage direct](pstn-usage-report.md#direct-routing)  |Oui|Oui|Non|Non|  Horodatage<br>Nom d’affichage<br>Adresse SIP<br>Numéro de téléphone <br>Type d’appel<br>Appelé à<br>Heure de début<br>Heure d’invitation<br>Temps d’échec<br>Heure de fin<br>Durée<br>Type de nombre<br>Contournement de média<br>Nom de domaine complet SBC<br>Région Azure<br>Type d’événement<br>Code SIP final<br>Sous-code Microsoft final<br>Phrase SIP finale<br>ID de corrélation  |
+|[Rapport de licence de protection des informations Teams](information-protection-license-report.md)  |Oui|Oui|Non|Non| <br>Indique si les utilisateurs disposent de licences valides pour envoyer leurs messages via des notifications de modification</br><br>Nombre total d’événements de notification de modification déclenchés par un utilisateur<br><br>Les applications qui écoutent les événements de notification de modification à l’échelle de l’organisation<br>|
+|[Rapport d’utilisation des visites virtuelles Teams](/microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)  |Oui|Oui|Non|Non| Nombre de rendez-vous virtuels<br>Nombre de rendez-vous Bookings<br>Nombre de rendez-vous intégrés aux dossiers de santé électroniques Teams (DSE)<br>Durée moyenne d’un rendez-vous<br>Temps d’attente moyen des participants dans la salle d’attente<br>Heure de début<br>ID de réunion<br>Temps d’attente de la salle d’attente<br>Durée<br>Statut<br>Type de produit<br>Participants<br>SMS envoyés
+|[Rapport Rendez-vous virtuels du connecteur DSE Teams](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Oui|Oui|Non|Non| Heure de début<br>Durée<br>Principal (nom de l’organisateur de la réunion)<br>E-mail du principal (e-mail de l’organisateur de la réunion)<br>Service<br>Préposés<br>Temps d’attente de la salle d’attente<br>Indique si le rendez-vous est dans la limite d’allocation|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>Rendre les données spécifiques de l’utilisateur anonymes
 
-Pour rendre les données dans l’activité des utilisateurs Teams et le rapport d’utilisation des appareils Teams anonymes, vous devez être administrateur général. Cela masque les informations d’identification telles que le nom d’affichage, l’e-mail et l’ID Microsoft Azure Active Directory dans les rapports et leurs exportations.
+Pour rendre les données du rapport d’activité utilisateur Teams anonymes, vous devez être administrateur général. L’administrateur général peut masquer les informations d’identification (à l’aide de hachages MD5) telles que le nom d’affichage, le nom du groupe, l’e-mail et l’ID AAD dans le rapport et son exportation.
 
 1. Dans Centre d'administration Microsoft 365, accédez aux **paramètres de l’organisation** **Paramètres** \> et, sous l’onglet **Services**, choisissez **Rapports**.
     
@@ -70,5 +71,6 @@ Pour rendre les données dans l’activité des utilisateurs Teams et le rapport
 3. Sélectionnez **Enregistrer les modifications**.
 
 > [!NOTE]
-> L’activation de ce paramètre dé-identifie les informations dans le [rapport d’activité des utilisateurs Teams](user-activity-report.md) et les rapports [d’utilisation des appareils Teams](device-usage-report.md) . Cela n’affecte pas les autres rapports d’utilisation disponibles dans le Centre d’administration Teams.
-> Ce paramètre s’applique également aux rapports d’utilisation de Microsoft 365 dans Centre d'administration Microsoft 365, Microsoft Graph et Power BI.
+> L’activation de ce paramètre dé-identifie les informations de nom d’utilisateur, de groupe et de site dans le [rapport d’activité de l’utilisateur Teams](user-activity-report.md), le [rapport d’utilisation des appareils Teams](device-usage-report.md) et [le rapport d’utilisation teams](teams-usage-report.md). À compter du 1er septembre 2021, ce paramètre est activé par défaut pour tout le monde dans le cadre de notre engagement continu à protéger les informations importantes et à permettre aux entreprises de soutenir leurs lois locales en matière de confidentialité. 
+>
+>Ce paramètre s’applique également aux rapports d’utilisation de Microsoft 365 dans Centre d'administration Microsoft 365, Microsoft Graph et Power BI.

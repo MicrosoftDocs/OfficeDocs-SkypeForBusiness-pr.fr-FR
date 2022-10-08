@@ -15,12 +15,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: Découvrez la prise en charge du cycle de vie des Salles Microsoft Teams, notamment la structure de support dynamique et ses phases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 509f4da415d7a7bd583442f21bd46efc52c9984f
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 9025500bc8aff6ddded71df29b9280d964763bdc
+ms.sourcegitcommit: 1be178dc3b34575e1914e629f004f897c02e0097
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706651"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "68138477"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>prise en charge des versions d’application Salles Microsoft Teams
  
@@ -53,15 +53,15 @@ Le tableau suivant présente les versions recommandées et prises en charge des 
 | 21H2    | 2021-11-16        | Soutenu<br>Recommandation                               | 4.12.126.0                                        | 19044.1288           |
 | 21H1    | 2021-05-18        | Non pris en charge                                           | &#x2014;                                          | &#x2014;             |
 | 20H2    | 2020-10-20        | Pris en charge                                               | 4.10.10.0                                         | 19042.631            |
-| 2004    | 2020-05-27        | Ignoré, <br/> Non recommandé &#x2780;                 | &#x2014;                                          | &#x2014;             |
-| 1909    | 2019-11-12        | Pris en charge                                               | 4.5.33.0                                          | 18363.418            |
+| 2004    | 2020-05-27        | Non pris en charge, <br/>Problèmes de compatibilité connus &#x2780;| &#x2014;                                          | &#x2014;             |
+| 1909    | 2019-11-12        | Non pris en charge                                           | &#x2014;                                          | &#x2014;             |
 | 1903    | 2019-05-21        | Non pris en charge                                           | &#x2014;                                          | &#x2014;             |
 | 1809    | 2019-03-28        | Non pris en charge, <br/>Problèmes de compatibilité connus &#x2781; | &#x2014;                                          | &#x2014;             |
 | 1803    | 2018-07-10        | Non pris en charge                                           | &#x2014;                                          | &#x2014;             |
 | 1709    | 2018-01-18        | Non pris en charge                                           | &#x2014;                                          | &#x2014;             |
 | 1703    | 2017-07-11        | Non pris en charge                                           | &#x2014;                                          | &#x2014;             |
 
-&#x2780; Windows 10 version 2004 n’est pas recommandée en raison de problèmes de compatibilité détectés avec l’application Salles Microsoft Teams. Ce problème spécifique entraîne l’échec du démarrage de l’application Salles Microsoft Teams après le redémarrage nocturne. 
+&#x2780; Windows 10 version 2004 n’est pas recommandée en raison de problèmes de compatibilité détectés avec l’application Salles Microsoft Teams. Ce problème spécifique entraîne l’échec du démarrage de l’application Salles Microsoft Teams après le redémarrage nocturne.
 
 &#x2781; Windows 10 version 1809 n’est pas recommandée en raison de problèmes de compatibilité rencontrés avec l’application Salles Microsoft Teams. Ce problème spécifique entraîne l’échec du démarrage de l’application Salles Microsoft Teams après le redémarrage nocturne. Ce problème a été résolu dans Windows 10 version 1903.  
 

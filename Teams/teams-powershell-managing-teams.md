@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez comment gérer Microsoft Teams à l’aide de Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66f873b163222d3d9745e68881da2b8071f60eec
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: a14658039f4edeb8e70ec195f036bf8321453c2c
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396525"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486574"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Gérer Teams avec Microsoft Teams PowerShell
 
@@ -69,8 +69,8 @@ Une fois ces étapes terminées, vous êtes prêt à exécuter des commandes Tea
 ## <a name="manage-policies-via-powershell"></a>Gérer les stratégies via PowerShell
 
 > [!NOTE]
-> - Skype Entreprise connecteur en ligne est consolidé dans Teams PowerShell. Il est actuellement disponible en préversion publique. Dans le temps, les applets de commande Skype Entreprise Online qui s’appliquent à Teams seront disponibles en mode natif dans le module Teams PowerShell. Les étapes d’installation sont disponibles dans l’article [Installer Teams PowerShell](teams-powershell-install.md) .
-> - Les applets de commande seront disponibles dans votre session PowerShell une fois que vous vous connecterez à Skype Entreprise Online. Pour plus d’informations, consultez [Gérer Skype Entreprise Online avec Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+> - Skype Entreprise connecteur en ligne est consolidé dans Teams PowerShell. Skype Entreprise applets de commande En ligne qui s’appliquent à Teams sont disponibles en mode natif dans le module Teams PowerShell. Les étapes d’installation sont disponibles dans l’article [Installer Teams PowerShell](teams-powershell-install.md) .
+> - Les applets de commande seront disponibles dans votre session PowerShell une fois que vous vous connecterez à Teams. Pour plus d’informations, consultez [Gérer Skype Entreprise Online avec Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 Recherchez les applets de commande pour la gestion des stratégies dans le [module d’applet de commande Skype Entreprise](/powershell/module/teams).
 

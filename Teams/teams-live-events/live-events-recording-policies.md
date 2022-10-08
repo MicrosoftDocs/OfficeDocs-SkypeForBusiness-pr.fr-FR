@@ -1,7 +1,7 @@
 ---
 title: Stratégies d’enregistrement des événements en direct
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: Découvrez les stratégies d’enregistrement d’événements en d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5ae98255edf26843e59839192a9f20096182bfa2
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: abe4cb004ada98021e74823495e6208fc31c28fb
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794112"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486554"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Stratégies d’enregistrement d’événements en direct dans Microsoft Teams
 
@@ -56,7 +56,7 @@ Dans le cadre de la stratégie de diffusion, vous pouvez activer ou désactiver 
 
 ## <a name="storage-and-persistence-behavior"></a>Comportement de stockage et de persistance
 
-| Option                                       | État   | DVR                                                   | VOD                                                     | Enregistrement                |
+| Option                                       | État   | Dvr                                                   | Vod                                                     | Enregistrement                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
 | Enregistrement disponible pour les participants | Sélectionné     | DVR est disponible et la ressource Azure Media Services (AMS) est stockée pendant 180 jours | Le participant peut accéder à l’événement et l’observer                     |                              |
 |                                                  | Non sélectionné | DVR est disponible et la ressource AMS est stockée pendant 180 jours | Le participant n’aura pas accès à l’événement une fois l’événement terminé |                              |

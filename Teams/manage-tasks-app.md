@@ -19,12 +19,13 @@ appliesto:
 ms.collection:
 - M365-collaboration
 - m365-frontline
-ms.openlocfilehash: 23c75051268de176cc14a9b8df426e8d67f5a2d3
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+- highpri
+ms.openlocfilehash: 74b67a71f8b93f5f0ed898ef186beede056ec31a
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396495"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047114"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Tasks pour votre organisation dans Microsoft Teams
 
@@ -71,7 +72,7 @@ Tasks est activé par défaut pour tous les utilisateurs Teams de votre organisa
 
 ### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>Activer ou désactiver les Tasks pour des utilisateurs spécifiques de votre organisation
 
-Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation d’utiliser tâches, assurez-vous que Tâches est activée pour votre organisation sur la page [Gérer les applications](manage-apps.md), puis créez une stratégie d’autorisation d’application personnalisée et attribuez-la à ces utilisateurs. Pour en savoir plus, consultez [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md).
+To allow or block specific users in your organization from using Tasks, make sure Tasks is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 ### <a name="pin-tasks-to-teams"></a>Épingler des tâches à Teams
 
@@ -87,7 +88,7 @@ Pour en savoir plus, notamment sur le fonctionnement de l’expérience avec les
 
 Les stratégies d’installation d’application vous permettent de personnaliser Teams pour épingler les applications les plus importantes pour vos utilisateurs dans vos utilisateurs.
 
-Pour épingler l’application Tâches pour vos utilisateurs, vous pouvez modifier la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et affecter une stratégie de configuration d’application personnalisée. Pour en savoir plus, consultez [Gérer les stratégies de configuration d’application dans Teams](teams-app-setup-policies.md).
+To pin the Tasks app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>L’espace Mes tâches d’un utilisateur est visible si l’utilisateur dispose d’une licence pour Exchange Online
 
@@ -132,7 +133,7 @@ Pour savoir comment configurer la hiérarchie de ciblage de votre équipe, consu
 
 ## <a name="power-automate-and-graph-api"></a>API Power Automate et Graph
 
-Tasks prend en charge Power Automate pour To Do et Graph pour le Planificateur. Pour en savoir plus, consultez :
+Tasks supports Power Automate for To Do and Graph APIs for Planner. To learn more, see:
 
 - [Présentation de l’API des tâches et des plans du Planificateur](/graph/planner-concept-overview)
 - [Utiliser Microsoft To Do avec Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

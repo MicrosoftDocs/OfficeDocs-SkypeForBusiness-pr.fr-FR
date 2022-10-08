@@ -1,7 +1,7 @@
 ---
 title: licences de compte de ressource Téléphonie Microsoft Teams
-ms.author: dstrome
-author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: reference
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - admindeeplinkMAC
 description: Découvrez comment attribuer Téléphonie Microsoft Teams licences de compte de ressource à des comptes de ressources pour les standards automatiques et les files d’attente d’appels dans votre organisation.
-ms.openlocfilehash: 56b461c2de32f32dd51d72c5468e31f51b107310
-ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
+ms.openlocfilehash: bba516249ec1b30e0361e2f9a6be003343f9c892
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67630424"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377362"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>licences de compte de ressource Téléphonie Microsoft Teams
 

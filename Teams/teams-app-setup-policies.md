@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
+ms.date: 09/26/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -19,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d192bffdc83510da021914627c65b03f190c6c63
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: dc84bc7be43182194af3a072edb875a6a257a9d5
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837174"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377332"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -51,7 +52,7 @@ Les applications sont épinglées à la barre des applications sur le côté gau
 
 |Client de bureau Teams  |Client mobile Teams |
 |---------|---------|
-|![Barre d’applications dans le client de bureau Teams.](media/app-setup-policies-desktop-app-bar.png).  |   ![Barre d’applications dans le client mobile Teams.](media/mobile-app-ui.png)      |
+|![Capture d’écran montrant la barre d’application dans le client de bureau Teams.](media/app-setup-policies-desktop-app-bar.png).  |   ![Capture d’écran montrant la barre d’application dans le client mobile Teams.](media/mobile-app-ui.png)      |
 
 Les extensions de messagerie sont disponibles en bas de la zone de rédaction du message.
 
@@ -112,7 +113,7 @@ Vous gérez les stratégies de configuration des applications dans le Centre d�
 
 Vous modifiez les paramètres de la stratégie globale pour inclure les applications souhaitées. Pour personnaliser Teams pour différents groupes d’utilisateurs de votre organisation, créez et attribuez une ou plusieurs stratégies personnalisées.
 
-![Page Stratégies de configuration d’application pour gérer les stratégies ou ajouter de nouvelles stratégies.](media/app-setup-policies-update.png)
+:::image type="content" source="media/app-setup-policies-update.png" alt-text="Capture d’écran montrant la page stratégies d’installation de l’application avec des options pour gérer les stratégies ou ajouter de nouvelles stratégies.":::
 
 ### <a name="edit-an-app-setup-policy"></a>Modifier une stratégie de configuration d’application
 
@@ -161,7 +162,7 @@ Pour afficher toutes les applications épinglées à un utilisateur, les utilisa
 |Client de bureau Teams |Client mobile Teams |
 |---------|---------|
 |Dans la barre de l’application sur le côté de Teams, sélectionnez **... Autres applications**.| Dans la barre de l’application près du bas de Teams, balayez vers le haut.|
-|![Plus d’applications dans le client de bureau Teams.](media/app-setup-policies-desktop-more-apps.png)   |![plus d’applications dans le client mobile Teams](media/app-setup-policies-mobile-more-apps.png)  
+|![Capture d’écran montrant d’autres applications épinglées dans le client de bureau Teams.](media/app-setup-policies-desktop-more-apps.png)   |![Capture d’écran montrant d’autres applications épinglées dans le client mobile Teams](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Qu’est-il nécessaire de savoir sur l’expérience mobile de Teams
 

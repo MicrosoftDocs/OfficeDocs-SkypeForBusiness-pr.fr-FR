@@ -1,7 +1,7 @@
 ---
 title: Mettre à niveau à partir de la version d’évaluation exploratoire teams
-author: cazawideh
-ms.author: czawideh
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7137114ffd47e19faaf8ba74f0d0625f74bc6d89
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 00faa3cf3840409ecd2fd0a6ccbfa58418547b94
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269539"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376972"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Mettre à niveau des utilisateurs à partir de l’essai exploratoire Teams
 
@@ -36,7 +36,7 @@ Cet article fournit une vue d’ensemble de la mise à niveau de vos utilisateur
 
 ## <a name="step-1-when-to-upgrade"></a>Étape 1 : Quand mettre à niveau  
 
-Pour vérifier l’expiration de l’essai exploratoire Teams de votre organisation et le nombre d’utilisateurs actifs, accédez à **Facturation >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>Vos produits</b></a> dans le Centre d’administration Microsoft 365. Vous serez également averti avant l’expiration de l’essai exploratoire Teams.
+To check when your organization’s Teams Exploratory trial is expiring and how many active users it has, go to **Billing >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>Your products</b></a> in the Microsoft 365 admin center. You’ll also be notified before the Teams Exploratory trial expires.
 
 > [!IMPORTANT]
 > Vous devez planifier la mise à niveau de vos utilisateurs vers des licences payantes avant la date d’expiration, afin que les utilisateurs ne perdent pas l’accès à Teams.
@@ -69,7 +69,7 @@ Après avoir attribué les nouvelles licences, retirez les licences exploratoire
 
 ### <a name="auto-claim-policies"></a>Stratégies de revendication automatique
 
-La prochaine fois que vous effectuerez la mise à niveau, utilisez des stratégies de revendication automatique pour créer des stratégies pour votre organisation afin d’attribuer automatiquement des licences à partir d’abonnements payants aux nouveaux utilisateurs qui n’ont pas acquis de licence Teams. Pour plus d’informations, consultez la rubrique <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Gérer les stratégies de revendication automatique</a>.
+Next time you upgrade, use auto-claim policies to create policies for your organization to automatically assign licenses from paid subscriptions to new users who haven’t acquired a Teams license. For more information, see <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Manage auto-claim policies</a>.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

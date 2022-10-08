@@ -22,26 +22,34 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Découvrez et comparez les licences disponibles pour différents types de fonctionnalités d’appel et de réunion dans Salles Microsoft Teams.
-ms.openlocfilehash: df84e94ebda02020e88d8bfc19fa42c86561b07d
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: af5f30f1a4ae0d34421629ffec3c67a619798b50
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706671"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480484"
 ---
 # <a name="microsoft-teams-rooms-licenses"></a>Licences Salles Microsoft Teams
 
-Microsoft offre deux licences pour les appareils de salle de réunion qui participent aux réunions et aux appels Teams :
+Microsoft propose deux licences pour les systèmes salles Teams qui participent aux réunions et aux appels Teams :
 
 - **Salles Microsoft Teams Pro** offre des expériences de réunion en salle améliorées telles que l’audio et la vidéo intelligents, la première ligne et les grandes galeries, ainsi que la prise en charge du double écran. La licence salles Teams Pro fournit également des fonctionnalités de gestion avancées telles que la gestion des appareils distants, les stratégies d’accès conditionnel et l’analytique détaillée des appareils.
 
-    salles Teams Pro convient parfaitement aux organisations de taille moyenne et d’entreprise, ainsi qu’aux petites organisations avec un nombre de salles plus important ou des besoins plus avancés.
+    salles Teams Pro convient parfaitement aux organisations de taille moyenne et d’entreprise, ainsi qu’aux petites organisations avec un nombre de salles plus important ou des besoins plus avancés. les licences salles Teams Pro peuvent être utilisées pour concéder des licences à la fois aux systèmes de salles Teams certifiés et aux panneaux Teams.
 
-- **Salles Microsoft Teams Basic** fournit des expériences de réunion de base aux organisations qui achètent un appareil certifié Salles Microsoft Teams, sans coût supplémentaire. La licence salles Teams De base inclut la planification, la participation aux réunions, le partage de contenu et l’intégration collaborative, ainsi que des fonctionnalités de sécurité et de gestion de base.
+- **Salles Microsoft Teams Basic** fournit des expériences de réunion de base aux organisations qui achètent un système de Salles Microsoft Teams certifié, sans frais supplémentaires. La licence salles Teams De base inclut la planification, la participation aux réunions, le partage de contenu et l’intégration collaborative, ainsi que des fonctionnalités de sécurité et de gestion de base.
 
-    Vous pouvez attribuer jusqu’à 25 licences Salles Microsoft Teams De base à salles Teams appareils de votre organisation. Si vous avez besoin de licencer plus de 25 appareils, ces licences supplémentaires doivent être salles Teams licences Pro.
+    Une licence salles Teams De base peut être utilisée pour concéder sous licence un système de salles Teams certifié unique dans une salle. Si vous souhaitez vous connecter à plusieurs salles Teams système dans une salle à l’aide du même compte de ressources, vous devez utiliser une licence salles Teams Pro.
 
-Une licence salles Teams De base peut être utilisée pour concéder un seul appareil certifié salles Teams dans une salle. Si vous souhaitez vous connecter à plusieurs appareils d’une salle à l’aide du même compte de ressource (par exemple, une console salles Teams, un Surface Hub et un écran Teams), vous devez utiliser une licence salles Teams Pro.
+    Vous pouvez attribuer jusqu’à 25 licences Salles Microsoft Teams De base à salles Teams systèmes de votre organisation. Si vous avez besoin de licencer plus de 25 systèmes salles Teams, ces licences supplémentaires doivent être salles Teams licences Pro. salles Teams Les licences de base peuvent être utilisées pour concéder des licences salles Teams systèmes uniquement et non pour les panneaux Teams.
+
+Un système de salle Teams peut être l’un des suivants :
+
+- Un salles Teams pour le module de calcul Windows et la console tactile attachée
+- Une salles Teams pour l’appareil Android et la console tactile connectée via une connexion IP ou USB
+- Un Surface Hub
+
+Les tâches d’administration à distance que vous effectuez sur un système ou un appareil salles Teams dans le Centre d’administration Teams dépendent de la licence affectée au système ou à l’appareil. Pour plus d’informations, consultez [Salles Microsoft Teams vue d’ensemble des licences dans le Centre d’administration Teams](admin-center-license-overview.md).
 
 [!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
@@ -77,6 +85,8 @@ Si votre organisation dispose d’appareils de réunion qui utilisent les licenc
 > Les licences héritées ne passent pas automatiquement aux nouvelles licences. À l’expiration d’une licence héritée, vous devez acheter un nouveau salles Teams Pro (recommandé) ou salles Teams licence De base. salles Teams licences Pro peuvent être achetées via le Centre d'administration Microsoft 365 ou votre canal de vente préféré. salles Teams Les licences de base ne peuvent être achetées que par le biais de la Centre d'administration Microsoft 365.
 
 Si votre organisation dispose d’un Accord Entreprise, vous pouvez continuer à utiliser vos licences héritées existantes jusqu’à la prochaine période de renouvellement. Vous pouvez également continuer à réserver des licences héritées supplémentaires jusqu’à votre prochaine période de renouvellement. Pour plus d’informations, contactez votre représentant Microsoft.
+
+Pour plus d’informations sur les licences héritées, consultez [Salles Microsoft Teams licences héritées](rooms-legacy-licensing.md).
 
 <sup>*</sup>Les ingénieurs du service Microsoft ne serviront plus d’intermédiaires pour la réponse aux incidents à compter du 1er octobre 2022.
 
