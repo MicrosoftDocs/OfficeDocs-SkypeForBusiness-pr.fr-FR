@@ -19,16 +19,16 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 42044bf8f74c99b27db724e87ee35e700491aa8e
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 64e63b4df818d792f722aed5b61315828a79bf76
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837194"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377132"
 ---
-# <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
+# <a name="information-accessed-and-actions-performed-by-teams-apps-and-admin-considerations"></a>Informations et actions effectuées par les applications Teams et les considérations de l’administrateur
 
-Les applications Microsoft Teams permettent d’agréger une ou plusieurs fonctionnalités dans des applications qui peuvent être installées, mises à niveau et désinstallées. Les fonctionnalités des applications sont les suivantes :
+Les applications Microsoft Teams regroupent une ou plusieurs fonctionnalités dans des applications qui peuvent être installées, mises à niveau et désinstallées. Les fonctionnalités des applications sont les suivantes :
 
 * Bots
 * Extensions de messagerie

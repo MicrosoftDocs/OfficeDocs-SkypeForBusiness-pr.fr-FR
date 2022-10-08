@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc250b0506614ef658ade9a491c5561a65b98800
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 976c73aebe698152c4824e3eaedfcc19a13ae525
+ms.sourcegitcommit: 1be178dc3b34575e1914e629f004f897c02e0097
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269669"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "68138487"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Survivable Branch Appliance (SBA) pour le routage direct
 
@@ -208,6 +208,8 @@ Pour obtenir des instructions pas à pas sur la configuration de votre contrôle
 Signalez les problèmes à l’organisation de support technique de votre fournisseur SBC. Lorsque vous signalez le problème, indiquez que vous disposez d’une appliance Survivable Branch Appliance configurée.
 
 ## <a name="known-issues"></a>Problèmes connus
+
+- SBA s’appuyant sur des jetons d’authentification valides pendant 24 heures et renouvelés quotidiennement, SBA peut actuellement prendre en charge les pannes jusqu’à 24 heures à partir de la dernière authentification. Cela signifie que si une panne se produit 20 heures après le dernier renouvellement du jeton d’authentification, SBA sera opérationnel uniquement pendant les 4 heures restantes.
 
 - Lorsque vous ajoutez de nouvelles appliances Survivable Branch Appliances, cela peut prendre un certain temps avant de pouvoir les utiliser dans les stratégies Survivable Branch Appliance.
 
