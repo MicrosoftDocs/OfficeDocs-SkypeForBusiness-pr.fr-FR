@@ -10,6 +10,7 @@ ms.reviewer: yinchang
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment gérer et utiliser les modèles d’équipe de vente au détail dans le Centre d’administration Teams et avec Microsoft Graph pour créer rapidement et facilement des équipes pour votre organisation de vente au détail.
@@ -20,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8c6af4cc86051c9233e06d0bf6c67abe1a4ad39
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 69644ce0261d37fb6a7a5e4270a68fb2a79a7d19
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837334"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046914"
 ---
 # <a name="use-retail-team-templates"></a>Utiliser des modèles d’équipe de vente au détail
 
@@ -41,7 +42,7 @@ La façon dont vous gérez et travaillez avec les modèles d’équipe dépend d
 
 |Si vous êtes : | Ensuite, vous : |
 | ---- | --------- |
-| Un administrateur ou un professionnel de l’informatique |[Gérez les modèles d’équipe dans le Centre d'administration Teams](#manage-team-templates-in-the-teams-admin-center). Affichez les modèles d’équipe et appliquez des stratégies de modèles pour contrôler les modèles que les membres de votre personnel peuvent utiliser dans Teams pour créer des équipes. |
+| Un administrateur ou un professionnel de l’informatique |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
 | Un développeur | [Utilisez Microsoft Graph](#use-team-templates-with-microsoft-graph) pour créer des équipes à partir de modèles d’équipe. |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Gérer les modèles d’équipe dans le Centre d’administration Teams
@@ -77,7 +78,7 @@ Créez une équipe pour un ensemble de gestionnaires afin de collaborer entre le
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Utiliser les modèles Teams avec Microsoft Graph
 
-Les développeurs peuvent utiliser Microsoft Graph pour créer des équipes à partir de modèles d’équipe prédéfinis. Pour en savoir plus sur l’utilisation des modèles d’équipe avec Microsoft Graph, consultez [Démarrage des modèles d’équipe à l’aide de Microsoft Graph](get-started-with-teams-templates.md), [Vue d’ensemble de l’API Microsoft Teams](/graph/teams-concept-overview?view=graph-rest-1.0) et [Type de ressource de modèles Teams](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
 Voici les modèles pré-intégrés de l’équipe de vente au détail.
 

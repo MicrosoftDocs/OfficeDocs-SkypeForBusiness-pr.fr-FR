@@ -17,17 +17,18 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 ms.reviewer: yinchang
 description: Découvrez comment gérer et utiliser les modèles d’équipe médicale dans le Centre d’administration Teams et avec Microsoft Graph pour créer rapidement et facilement des équipes pour votre organisation de services de santé.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4f3aa9d42ef86dde75acf8cbd559b6e50059a428
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: bdbb3e52f471e735b1b6c96a1502880c030ed89d
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396915"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046484"
 ---
 # <a name="use-healthcare-team-templates"></a>Utiliser des modèles d’équipe médicale
 
@@ -41,7 +42,7 @@ La façon dont vous gérez et travaillez avec les modèles d’équipe dépend d
 
 |Si vous êtes : | Ensuite, vous : |
 | ---- | --------- |
-| Un administrateur ou un professionnel de l’informatique |[Gérez les modèles d’équipe dans le Centre d'administration Teams](#manage-team-templates-in-the-teams-admin-center). Affichez les modèles d’équipe et appliquez des stratégies de modèles pour contrôler les modèles que les membres de votre personnel peuvent utiliser dans Teams pour créer des équipes. |
+| Un administrateur ou un professionnel de l’informatique |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
 | Un développeur | [Utilisez Microsoft Graph](#use-team-templates-with-microsoft-graph) pour créer des équipes à partir des modèles d’équipe. |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Gérer les modèles d’équipe dans le Centre d’administration Teams
@@ -73,7 +74,7 @@ Ce modèle est destiné à la communication et à la collaboration entre les dif
 &sup1; Application ajoutée au canal en tant qu’onglet
 ## <a name="use-team-templates-with-microsoft-graph"></a>Utiliser les modèles Teams avec Microsoft Graph
 
-Les développeurs peuvent utiliser Microsoft Graph pour créer des équipes à partir de modèles d’équipe prédéfinis. Pour en savoir plus sur l’utilisation des modèles d’équipe avec Microsoft Graph, consultez [Démarrage des modèles d’équipe à l’aide de Microsoft Graph](../../get-started-with-teams-templates.md), [Vue d’ensemble de l’API Microsoft Teams](/graph/teams-concept-overview) et [Type de ressource de modèles Teams](/graph/api/resources/teamstemplate).
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview), and [teamsTemplate resource type](/graph/api/resources/teamstemplate).
 
 Voici les modèles pré-intégrés de l’équipe de santé.
 ### <a name="ward"></a>Unité

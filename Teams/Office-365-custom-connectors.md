@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 09/01/2022
 ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
@@ -18,14 +19,14 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5e61a6705f470ee93c7169effdd56f35ca0dd6f4
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: fb65e7c91aa7ac0de7c8dade3a442f457d72657f
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837354"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377002"
 ---
-# <a name="manage-microsoft-365-and-custom-connectors"></a>Gérer les connecteurs Microsoft 365 et les connecteurs personnalisés
+# <a name="manage-microsoft-365-connectors-and-custom-connectors"></a>Gérer les connecteurs Microsoft 365 et les connecteurs personnalisés
 
 Pour maintenir la mise à jour de votre équipe, les connecteurs fournissent des mises à jour de contenu et de service fréquemment utilisées directement dans un canal Teams. Grâce aux connecteurs, vos utilisateurs de Teams peuvent recevoir des mises à jour de services courants tels que Trello, Wunderlist, GitHub et les services Azure DevOps. Les mises à jour sont publiées directement dans le flux de conversations de leur équipe.
 

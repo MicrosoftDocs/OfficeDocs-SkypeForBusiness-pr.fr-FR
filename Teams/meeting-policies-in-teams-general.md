@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie d’assemblée générale dans Teams.
-ms.openlocfilehash: 0278133ff33e811cc4f08e1ad2973f52615d1426
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: ba667e5fbbe4d0f5e4d1ece6dba5943691b572a6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706953"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046724"
 ---
 # <a name="meeting-policy-settings---general"></a>Paramètres de stratégie de réunion : général
 
@@ -154,7 +154,7 @@ Pour désactiver l’inscription de réunion et empêcher les utilisateurs de pl
 
 Cette stratégie contrôle les utilisateurs qui peuvent s’inscrire et participer à des webinaires. Cette stratégie comporte deux options, qui sont disponibles uniquement si **l’inscription à la réunion** est activée.
 
-- Définissez **Qui peut s’inscrire auprès** de **Tout le monde** si vous souhaitez autoriser tout le monde, y compris les utilisateurs anonymes, à inscrire et à participer aux webinaires que les utilisateurs de votre organisation ont configurés.
+- Définissez **Qui peut s’inscrire auprès** de **Tout le monde** si vous souhaitez autoriser tout le monde, y compris les utilisateurs anonymes, à inscrire et à participer aux webinaires que les utilisateurs de votre organisation configurent.
 - Définissez **Qui peut s’inscrire auprès** de **Tout le monde dans l’organisation** si vous souhaitez autoriser uniquement les utilisateurs de votre organisation à s’inscrire et à participer aux webinaires.
 
 Par défaut, **Qui peut s’inscrire** est défini sur **Tout le monde**. Pour modifier cette stratégie dans le Centre d’administration Teams, accédez aux **stratégies** **réunions** > .
@@ -181,8 +181,9 @@ Pour spécifier le complément de la réunion que vous voulez mettre à la dispo
   Si vous avez défini le paramètre sur **Teams**, puis revenez à **TeamsAndSfB**, les deux compléments de réunion sont activés. Cependant, notez que les liens de réunion Teams existants ne seront pas migrés vers Skype Entreprise. Seules les réunions Skype Entreprise planifiées après la modification auront un lien de jointure de réunion Skype Entreprise.
 
 ## <a name="meeting-reactions"></a>Réactions aux réunions
+La disponibilité des réactions de réunion peut être configurée via l’interface du Centre d’administration Teams ou à l’aide de PowerShell. Les réactions aux réunions peuvent être activées ou désactivées dans la section **Participants & invités** d’une stratégie de réunion.
 
-Le paramètre AllowMeetingReactions ne peut être appliqué qu’avec PowerShell. Il n’y a pas d’option pour activer ou désactiver AllowMeetingReactions dans le centre d’administration Teams.
+Pour configurer le paramètre, utilisez l’applet de commande Set-CsTeamsMeetingPolicy. Ce paramètre est activé par défaut. Pour la désactiver, définissez **AllowMeetingReactions** sur **False**.
 
 Les réactions pendant les réunions sont désactivées par défaut. La désactivation des réactions pour un utilisateur ne signifie pas qu’il ne peut pas utiliser les réactions dans les réunions qu’il planifie. L’organisateur de la réunion peut toujours activer les réactions à partir de la page des options de réunion, quel que soit le paramètre par défaut.
 

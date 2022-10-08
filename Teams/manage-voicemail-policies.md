@@ -1,6 +1,6 @@
 ---
 title: Gérer les stratégies de messagerie vocale
-author: crowe
+author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Gérer les stratégies de messagerie vocale pour vos utilisateurs.
-ms.openlocfilehash: da5909a1d460373be60bf26de08e414ca6470c8a
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: f6c14584ee5da1b15085cd4caddfc757fbb50476
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267749"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999309"
 ---
 # <a name="manage-cloud-voicemail-policies-for-your-users"></a>Gérer les stratégies Messagerie vocale infonuagique pour vos utilisateurs
 

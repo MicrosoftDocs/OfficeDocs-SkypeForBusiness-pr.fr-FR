@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 description: Découvrez les modèles d’équipe disponibles uniquement avec Microsoft Graph.
 f1.keywords:
 - CSH
@@ -20,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4251aa0293665b6fd41c66e352ca9c595378259
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: ca21b61f1d1889c101208c8b9617efb4a9c19795
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397235"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046864"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>Prise en main des modèles d’équipe à l’aide de Microsoft Graph
 
@@ -66,9 +67,9 @@ Les modèles d’équipe prédéfinifiés sont des modèles que nous avons cré�
 | Type de modèle | TemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Standard | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('standard')` | Aucune application et propriété supplémentaire |
-| Éducation -<br>Équipe de classes | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | Applications :<ul><li>Bloc-notes OneNote pour la classe (épinglé à l’onglet **Général** ) </li><li>Application Affectations (épinglée à l’onglet **Général** )</li></ul> Propriétés de l’équipe :<ul><li>Visibilité de l’équipe définie sur **HiddenMembership** (ne peut pas être remplacée)</li></ul> |
-| Éducation -<br>Équipe du personnel | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | Applications :<ul><li>Bloc-notes OneNote pour le personnel enseignant (épinglé à l’onglet **Général** )</li></ul> |
-|Éducation -<br>Équipe PLC |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Applications :<ul><li>Bloc-notes OneNote PLC (épinglé à l’onglet **Général** )</ul></li>|
+| Éducation-<br>Équipe de classes | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | Applications :<ul><li>Bloc-notes OneNote pour la classe (épinglé à l’onglet **Général** ) </li><li>Application Affectations (épinglée à l’onglet **Général** )</li></ul> Propriétés de l’équipe :<ul><li>Visibilité de l’équipe définie sur **HiddenMembership** (ne peut pas être remplacée)</li></ul> |
+| Éducation-<br>Équipe du personnel | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | Applications :<ul><li>Bloc-notes OneNote pour le personnel enseignant (épinglé à l’onglet **Général** )</li></ul> |
+|Éducation-<br>Équipe PLC |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Applications :<ul><li>Bloc-notes OneNote PLC (épinglé à l’onglet **Général** )</ul></li>|
 
 > [!NOTE]
 > Pour obtenir la liste des modèles prédéfinifiés que vous pouvez utiliser dans le client Teams et avec Microsoft Graph, consultez [Prise en main des modèles d’équipe dans le Centre d’administration Teams](get-started-with-teams-templates-in-the-admin-console.md).

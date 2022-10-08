@@ -22,16 +22,21 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams afin de produire les meilleurs résultats.
-ms.openlocfilehash: b35fbf4572c9db1a1fba5bf0ae341c596b9166b2
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: a13551627b0bd4d41d44e64988452fae59dc7090
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706023"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376862"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Appareils Android certifiés Microsoft Teams
 
 Le programme de certification des appareils Microsoft Teams garantit que les appareils certifiés répondent à une norme élevée, avec des objectifs de performances et des métriques de qualité plus élevés pour l’ensemble de l’expérience Teams (audio, vidéo, interface utilisateur). Les partenaires Microsoft et OEM travaillent activement ensemble pour s’assurer que les appareils répondent à toutes les exigences de certification, notamment la sécurité, la qualité audio et vidéo, l’expérience Teams et l’accessibilité.
+
+> [!IMPORTANT]
+> Le programme de certification des appareils Microsoft Teams garantit que les appareils certifiés répondent à des exigences spécifiques en matière de conception et de performances matérielles uniquement. Le programme de certification n’évalue pas la prise en charge de l’environnement cloud ou au niveau des fonctionnalités.
+>
+> Pour plus d’informations sur les fonctionnalités prises en charge sur salles Teams pour Windows et salles Teams pour Android, y compris la prise en charge de l’environnement cloud, consultez [salles Teams pour la comparaison des fonctionnalités Windows et Android](../rooms/teams-devices-feature-comparison.md).
 
 Les programmes de certification sont conçus pour garantir que tous les appareils certifiés exécutent une version Android avec les fonctionnalités requises définies pour Teams et le Centre d’administration Teams. Les dates de fin de certification sont basées sur la version du système d’exploitation Android exécutée sur l’appareil lorsqu’il entre dans le programme de certification. Nos partenaires OEM travaillent à prolonger la durée de vie de la certification en mettant à niveau la version du système d’exploitation Android et en recertifiant, ou en publiant de nouveaux modèles à la pointe de la technique.
 
@@ -125,7 +130,8 @@ Voici les dernières versions du microprogramme et de l’application téléphon
 
 | Version du produit | Date de publication  | Version de l’application Microsoft Teams | version Portail d'entreprise | version de Administration Agent |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| Mise à jour 2022 #3A  | 13 juillet 2022   | `1449/1.0.94.2022062103` |`5.0.5304.0` | `322` |
+| Mise à jour 2022 #4  | 22 septembre 2022| `1449/1.0.94.2022090705` |`5.0.5484.0` | `361` |
+| Mise à jour 2022 #3A| 13 juillet 2022   | `1449/1.0.94.2022062103` |`5.0.5304.0` | `322` |
 | Mise à jour 2022 #3  | 6 juillet 2022   | `1449/1.0.94.2022061702` |`5.0.5304.0` | `322` |
 | Mise à jour 2022 #2A  | 13 avril 2022   | `1449/1.0.94.2022041102` |`5.0.5304.0` | `322` |
 | Mise à jour 2022 #2   | 21 mars 2022   | `1449/1.0.94.2022030501` |`5.0.5304.0` | `322` |
@@ -153,6 +159,7 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme  | Version du produit incluse  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.17.764` | Mise à jour 2022 #3A    |
 |Audiocodes C435HD/C455HD/C470HD | `1.17.741` | Mise à jour 2022 #3A    |
 |Poly Trio C60 | `7.3.2.0174` | Mise à jour 2022 #3A |
 |Poly CCX 400/500/600/505 | `7.3.2.0182` | Mise à jour 2022 #3A |
@@ -250,6 +257,7 @@ Voici les dernières salles Teams sur les versions d’application et de micropr
 
 | Version du produit| Date de publication | Version de l’application Microsoft Teams | version Portail d'entreprise | version de Administration Agent |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| Mise à jour #2B 2022  | 15 sept. 2022 |`1449/1.0.96.2022090606`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Mise à jour 2022 #2A  | 8 août 2022 |`1449/1.0.96.2022072103`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Mise à jour 2022 #2  | 25 mai 2022 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Mise à jour 2022 #1  | 24 février 2022 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
@@ -267,6 +275,11 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version du produit incluse |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar  | `1.7.300`     | Mise à jour #2B 2022  |
+| Logi Rallybar Mini  | `1.7.300`     | Mise à jour #2B 2022  |
+| Logi RoomMate  | `1.7.202`   | Mise à jour #2B 2022  |
+| Logi Console  | `1.7.200`    | Mise à jour #2B 2022  |
+| EPOS EXPAND Vision 3T |`1.5.22242.02`   | Mise à jour U2A 2022 |
 | Yealink MeetingBoard 65 » | `155.15.0.10 `   | Mise à jour 2022 #2A  |
 | Poly Studio X30 | `3.13.0.368067` | Mise à jour 2022 #2A   |
 | Poly Studio X50 | `3.13.0.368067` | Mise à jour 2022 #2A |
@@ -369,6 +382,7 @@ Voici les dernières versions des applications et microprogrammes des panneaux M
 
 |Version du produit| Date de publication | Version de l’application Microsoft Teams | version Portail d'entreprise | version de Administration Agent |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|Mise à jour 2022 #3A  | 16 septembre 2022 | `1449/1.0.97.2022739908` | `5.0.5304.0`  | `322` |
 |Mise à jour 2022 #3  | 12 juillet 2022 | `1449/1.0.97.2022739901` | `5.0.5304.0`  | `322` |
 |Mise à jour 2022 #2  | 25 avril 2022 | `1449/1.0.97.2022733702` | `5.0.5304.0`  | `322` |
 |Mise à jour #1A 2022 | 25 février 2022 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
@@ -381,6 +395,8 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version du produit incluse|
 |:--------------|:-----------------|:-------------------------|
+|Panneau pad soigné | `NFA1.20220914.1206` | Mise à jour 2022 #3A  |
+|Logitech Tap Scheduler | `1.7.200` |Mise à jour 2022 #3A  |
 |Yealink RoomPanel | ` 147.15.0.33 ` | Mise à jour 2022 #3 |
 |Panneau pad soigné | `NFA1.20220512.2210` | Mise à jour 2022 #2  |
 |Crestron Touchpanel TSS-1070 / TSS-770 | `2.001.0058 ` | Mise à jour 2022 #1|

@@ -19,14 +19,16 @@ ms.custom:
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
+- tier3
+- purview-compliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b23430398e213c7df9fcd72ccb9d32f88ee1ed1f
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 659692af6a1236510d5b4572e66cbd299aa92c41
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418483"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046494"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Présentation de l’enregistrement basé sur des stratégies Teams pour les appels & réunions
 
@@ -138,7 +140,7 @@ Les exigences relatives aux machines virtuelles Azure et Windows s’appliquent 
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>Attribution et provisionnement de stratégie d’enregistrement de conformité
 
-Les administrateurs informatiques peuvent déterminer quels utilisateurs doivent être enregistrés et quels enregistreurs seront utilisés pour chaque utilisateur, en créant et en affectant des stratégies d’enregistrement de conformité. Les enregistreurs sont automatiquement invités à participer à des conversations en fonction de la configuration de ces stratégies lorsqu’une interaction de communication a lieu. Les stratégies d’enregistrement de conformité sont gérées à l’aide de [Microsoft PowerShell](./teams-powershell-overview.md) et peuvent être appliquées au niveau du locataire, de l’utilisateur et du groupe de sécurité pour chaque organisation. Vous trouverez plus d’informations sur les Microsoft Docs pour les [stratégies de réunion](./meeting-policies-overview.md), [les stratégies d’appel](./teams-calling-policy.md) et les [stratégies de groupe](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
+Les administrateurs informatiques peuvent déterminer quels utilisateurs doivent être enregistrés et quels enregistreurs seront utilisés pour chaque utilisateur, en créant et en affectant des stratégies d’enregistrement de conformité. Les enregistreurs sont automatiquement invités à participer à des conversations en fonction de la configuration de ces stratégies lorsqu’une interaction de communication a lieu. Les stratégies d’enregistrement de conformité sont gérées à l’aide de [Microsoft PowerShell](./teams-powershell-overview.md) et peuvent être appliquées au niveau du locataire, de l’utilisateur et du groupe de sécurité pour chaque organisation. Vous trouverez plus d’informations sur les stratégies Microsoft Learn pour [les réunions](./meeting-policies-overview.md), [les stratégies d’appel](./teams-calling-policy.md) et les  [stratégies de groupe](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
 
 1. Créez une instance d’application dans votre locataire.
 

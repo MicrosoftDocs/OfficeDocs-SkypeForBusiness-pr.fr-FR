@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Découvrez les données et les rapports disponibles dans le tableau de bord de qualité des appels Microsoft (CQD).
-ms.openlocfilehash: ba30be8d63dab1f5720be5637ea0a28c26d5d877
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7d89c17f299302f39e00e6aebcfd9309ead3eaae
+ms.sourcegitcommit: 021cfac01a38282a8cde6e913d74be2d54c39162
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789809"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218513"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Données et rapports dans le tableau de bord de qualité des appels (CQD)
 
@@ -41,7 +41,7 @@ Vous pouvez accéder aux données de CQD par plusieurs voies différentes. Chois
 |---|---|
 |Centre d’administration Teams [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)|Les données CQD sont incluses dans la page **Utilisateurs** du Centre d’administration Teams, affichant les données les plus courantes dont vous avez besoin dans un format facile à lire. Vous ne pouvez pas personnaliser les données CQD que vous trouvez sous **Utilisateurs**.|
 |Portail CQD [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)|Synthèse robuste et rapports détaillés qui répondent à la plupart des besoins, avec filtrage d’extraction. Vous pouvez également personnaliser des rapports dans le portail CQD. <br><br>Obtenez deux [modèles de rapport CQD](#import-the-cqd-report-templates) pour vous aider à analyser les données dans le portail CQD.|
-|Power BI|Utilisez des requêtes directes pour afficher vos données CQD dans Power BI à l’aide de [modèles Power BI personnalisables](CQD-Power-BI-query-templates.md). [Téléchargez les modèles de requête Power BI pour CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>Vous pouvez également [utiliser l’API REST pour accéder aux données CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) via Power BI. Utilisez cette méthode si vous souhaitez télécharger vos données CQD afin de pouvoir les utiliser hors connexion. L’avantage de cette méthode est de meilleures performances, particulièrement utiles pour les jeux de données volumineux qui se cachent dans Power BI lorsque vous êtes en ligne.|
+|Power BI|Utilisez des requêtes directes pour afficher vos données CQD dans Power BI à l’aide de [modèles Power BI personnalisables](CQD-Power-BI-query-templates.md). [Téléchargez les modèles de requête Power BI pour CQD](https://www.microsoft.com/download/details.aspx?id=102291).<br><br>Vous pouvez également [utiliser l’API REST pour accéder aux données CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) via Power BI. Utilisez cette méthode si vous souhaitez télécharger vos données CQD afin de pouvoir les utiliser hors connexion. L’avantage de cette méthode est de meilleures performances, particulièrement utiles pour les jeux de données volumineux qui se cachent dans Power BI lorsque vous êtes en ligne.|
 |API Graph|Accédez vous-même aux données de qualité des appels à l’aide du [API Graph](/graph/api/resources/callrecords-api-overview). Il s’agit de la méthode la plus complexe, mais elle vous offre le plus de contrôle et de flexibilité dans l’analyse des données de qualité de vos appels. Par exemple, si vous devez le joindre à d’autres données pour votre organisation, vous pouvez utiliser le API Graph pour créer un modèle de données et incorporer des données de qualité des appels.|
 
 ## <a name="import-the-cqd-report-templates"></a>Importer les modèles de rapport CQD
@@ -74,6 +74,10 @@ Pour des raisons de conformité, les données d’informations d’identificatio
 - Commentaires verbatim de l’utilisateur
 - ID d’objet (ID d’objet Active Directory de l’utilisateur du point de terminaison)
 - Numéro de téléphone
+- Identité du standard automatique
+- Identité de file d’attente d’appels
+- Nom de l’appareil de téléconférence vidéo (VTC)
+- Détails de l’appareil de téléconférence vidéo (VTC)
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>Administration rôles avec et sans accès EUII
 
@@ -103,7 +107,7 @@ CQD prend en charge les types de tendances propagées suivants :
 
 Le paramètre Date d’URL accepte un champ Jour. Les rapports de jour continu utilisent les dates spécifiées au format AAAA-MM-JJ comme dernier jour de la tendance. Le paramètre Date d’URL « 00 » indique « aujourd’hui ».
 
-|URL|Date de fin de la tendance du jour roulant|
+|Url|Date de fin de la tendance du jour roulant|
 |:---|:---|
 |<span>\<cqdv3>https:///spd/#/Dashboard/\<reportid>/2019-02/</span>|Jour actuel de février 2019|
 |<span>\<cqdv3>https:///spd/#/Dashboard/\<reportid>/2019-02-15/</span>|15 février 2019|

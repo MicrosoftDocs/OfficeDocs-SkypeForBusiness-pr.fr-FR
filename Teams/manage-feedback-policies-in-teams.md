@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser des stratégies de commentaires pour contrôler si les utilisateurs Teams de votre organisation peuvent envoyer des commentaires sur Teams à Microsoft.
-ms.openlocfilehash: 933c6971058c107ab881cb48bb0f2a9dbd74900d
-ms.sourcegitcommit: 44fd07d8e6e5fcbe5051de2300e180f295eaaad3
+ms.openlocfilehash: 9510a94a60a79a36292011fdcdad6afa97e6f56f
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "67339798"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494657"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gérer les stratégies de commentaires dans Microsoft Teams
 
@@ -71,6 +71,7 @@ Pour désactiver et activer les fonctionnalités, définissez les paramètres su
  - **Captures d’écran** : utilisez l’indicateur **AllowScreenshotCollection** pour ajouter l’option d’adhésion à la collection de captures d’écran pour les utilisateurs.
  - **Email** : Utilisez l’indicateur **AllowEmailCollection** pour ajouter un champ de messagerie.
  - **Collection de journaux** : utilisez l’indicateur **AllowLogCollection** pour ajouter l’option d’adhésion à la collecte des journaux pour les utilisateurs. La collecte des journaux est actuellement activée uniquement sur les appareils mobiles. Pour plus d’informations sur les données partagées via les journaux [d’activité, en savoir plus](https://go.microsoft.com/fwlink/?linkid=2168178).
+ - **Suggérer une fonctionnalité** : définissez le paramètre **EnableFeatureSuggestions sur** True pour permettre aux utilisateurs auxquels la stratégie est affectée de suggérer une fonctionnalité. Si vous définissez le paramètre sur désactivé, la fonctionnalité est désactivée et les utilisateurs auxquels la stratégie est affectée n’ont pas la possibilité de donner des commentaires. Le paramètre par défaut est extrait de votre paramètre de stratégie d’expériences connectées facultatives Microsoft 365. Pour en savoir plus sur ce paramètre, consultez [Vue d’ensemble des expériences connectées facultatives dans Office](/deployoffice/privacy/optional-connected-experiences).
 
 ## <a name="create-a-custom-feedback-policy"></a>Créer une stratégie de commentaires personnalisée
 

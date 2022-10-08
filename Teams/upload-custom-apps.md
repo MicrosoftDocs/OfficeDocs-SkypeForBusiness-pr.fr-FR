@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/26/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -17,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment charger vos applications personnalisées dans l’App Store de votre organisation dans le Centre d’administration Microsoft Teams.
-ms.openlocfilehash: 60bb4c2ce41830dd789bd70763c8f3eb6ab8cde7
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 51ea4bdc31ff59a34bdf28a991617fff0f4e7381
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837314"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494607"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publier une application personnalisée en téléchargeant un package d’application
 
@@ -31,7 +32,7 @@ ms.locfileid: "67837314"
 
 Cet article fournit des conseils de bout en bout sur la façon de faire passer votre application Teams du développement au déploiement en passant par la découverte. Ces conseils se concentrent sur les aspects Teams de l’application et sont destinés aux administrateurs et aux professionnels de l’informatique. Pour plus d’informations sur le développement d’applications Teams, consultez la [documentation du développeur Teams](/microsoftteams/platform/).
 
-![Vue d’ensemble de votre application du développement au déploiement](media/upload-custom-apps.png)
+:::image type="content" source="media/upload-custom-apps.png" alt-text="Vue d’ensemble de votre application du développement au déploiement":::
 
 ## <a name="create-your-app"></a>Créer votre application
 
@@ -84,7 +85,7 @@ Pour mettre l’application à la disposition des utilisateurs de l’App Store 
 
 1. Sélectionnez **Charger****, charger,** sélectionner le package d’application que vous avez reçu du développeur, puis **ouvrir**.
 
-   ![Capture d’écran du chargement d’application personnalisée dans le Centre d’administration.](media/manage-your-lob-apps-upload-new-app.png)
+   :::image type="content" source="media/manage-your-lob-apps-upload-new-app.png" alt-text="Capture d’écran du chargement d’application personnalisée dans le Centre d’administration.":::
 
 ## <a name="set-up-and-manage"></a>Configurer et gérer
 
@@ -134,6 +135,6 @@ Pour supprimer une application, procédez comme suit :
 
 * [Publier une application personnalisée envoyée par le biais de l’API d’envoi d’applications Teams](submit-approve-custom-apps.md)
 * Vous gérez les applications pour votre organisation dans les [applications Teams au sein du centre d’administration Microsoft Teams](manage-apps.md).
-* [Gérer les stratégies d’application personnalisée et les paramètres dans Teams](teams-custom-app-policies-and-settings.md)
+* [Gérer les stratégies et les paramètres des applications personnalisées](teams-custom-app-policies-and-settings.md)
 * [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)
 * [Gérer les stratégies de mise en application dans Teams](teams-app-setup-policies.md)

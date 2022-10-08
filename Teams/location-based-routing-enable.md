@@ -1,7 +1,7 @@
 ---
 title: Activer le routage géodépendant pour le routage direct
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aadf5f4e4dff855d80c275be3d2027e767a732ad
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 4039105fe27df6fa8acb3f14c0db076e56910403
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562193"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999319"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Activer le routage géodépendant pour le routage direct
 
@@ -213,6 +213,6 @@ Dans cet exemple, nous empêchent le contournement payant RTC des stratégies d�
 Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "User1" 
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Paramètres réseau pour les fonctionnalités de voix cloud dans Teams](cloud-voice-network-settings.md)

@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier2
+- purview-compliance
 - M365-collaboration
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +18,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 38698179e2a3b4c6ca402190c98f89f329820d6e
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: bc05ed28f2a0c77cc6a605deccff98fa65f33845
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675406"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047084"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Obstacles à l’information dans Microsoft Teams
 
-[Microsoft Purview les barrières à l’information](/microsoft-365/compliance/information-barriers) (IB) sont des stratégies qu’un administrateur peut configurer pour empêcher des personnes ou des groupes de communiquer entre elles. Les E/S sont utiles si, par exemple, un service gère des informations qui ne doivent pas être partagées avec d’autres ministères. Les E/S sont également utiles lorsqu’un groupe doit être isolé ou empêché de communiquer avec quelqu’un en dehors de ce groupe. Les canaux partagés dans Microsoft Teams sont pris en charge par les obstacles à l’information. Selon le type de partage, les stratégies d’obstacle à l’information peuvent restreindre le partage de certaines façons. Pour plus d’informations sur le comportement des canaux partagés et des obstacles à l’information, consultez [Obstacles à l’information et Canaux partagés](information-barriers-shared-channels.md).
+[Les barrières à l’information (IB) Microsoft Purview](/microsoft-365/compliance/information-barriers) sont des stratégies qu’un administrateur peut configurer pour empêcher des individus ou des groupes de communiquer entre elles. Les E/S sont utiles si, par exemple, un service gère des informations qui ne doivent pas être partagées avec d’autres ministères. Les E/S sont également utiles lorsqu’un groupe doit être isolé ou empêché de communiquer avec quelqu’un en dehors de ce groupe. Les canaux partagés dans Microsoft Teams sont pris en charge par les obstacles à l’information. Selon le type de partage, les stratégies d’obstacle à l’information peuvent restreindre le partage de certaines façons. Pour plus d’informations sur le comportement des canaux partagés et des obstacles à l’information, consultez [Obstacles à l’information et Canaux partagés](information-barriers-shared-channels.md).
 
-Pour Microsoft Teams, les obstacles à l’information peuvent déterminer et empêcher les types de collaboration non autorisés suivants :
+Pour Microsoft Teams, les obstacles à l’information peuvent déterminer et empêcher les types de collaborations non autorisées suivants :
 
 - Ajout d’un utilisateur à une équipe ou à un canal
 - Accès utilisateur au contenu d’équipe ou de canal
@@ -39,7 +41,7 @@ Pour Microsoft Teams, les obstacles à l’information peuvent déterminer et em
 >- Les groupes d’obstacles à l’information ne peuvent pas être créés entre les locataires.
 >- L’utilisation de bots, d’applications Azure Active Directory (Azure AD), d’API pour envoyer des notifications de flux d’activité et de certaines API pour ajouter des utilisateurs n’est pas prise en charge dans la version 1.
 >- Les canaux privés sont conformes aux stratégies d’obstacles à l’information que vous configurez.
->- Pour plus d’informations sur la prise en charge des obstacles pour les sites SharePoint connectés à Teams, consultez [Segments associés à Microsoft Teams sites](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
+>- Pour plus d’informations sur la prise en charge des obstacles pour les sites SharePoint connectés à Teams, consultez [Segments associés aux sites Microsoft Teams](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
 
 ## <a name="background"></a>Arrière-plan
 
@@ -50,7 +52,7 @@ Toutefois, depuis l’introduction des E/S, de nombreux autres domaines les ont 
 - **Éducation** : les étudiants d’une école ne peuvent pas rechercher les coordonnées des étudiants d’autres écoles.
 - **Juridique** : maintien de la confidentialité des données obtenues par l’avocat d’un client et empêcher l’accès par un avocat du même cabinet qui représente un autre client.
 - **Gouvernement** : l’accès et le contrôle de l’information sont limités entre les ministères et les groupes.
-- **Professional services** : un groupe de personnes d’une entreprise peut uniquement discuter avec un client ou un client spécifique via un accès invité lors d’un engagement client.
+- **Services professionnels** : un groupe de personnes d’une entreprise peut uniquement discuter avec un client ou un client spécifique via un accès invité lors d’un engagement client.
 
 Par exemple, Enrico appartient au segment Banque et Pradeep appartient au segment Conseiller financier. Enrico et Pradeep ne peuvent pas communiquer entre elles, car la stratégie IB de l’organisation bloque la communication et la collaboration entre ces deux segments. Cependant, Enrico et Pradeep peuvent communiquer avec Lee en RH.
 
@@ -70,7 +72,7 @@ Le service d’évaluation des stratégies d’obstacle à l’information déte
 Les stratégies IB sont gérées dans le portail de conformité Microsoft Purview (SCC) à l’aide d’applets de commande PowerShell. Pour plus d’informations, consultez [Définir des stratégies pour les obstacles à l’information](/office365/securitycompliance/information-barriers-policies).
 
 >[!IMPORTANT]
->Avant de configurer ou de définir des stratégies, vous devez activer la recherche d’annuaire délimitée dans Microsoft Teams. Attendez au moins quelques heures après avoir activé la recherche d’annuaires délimités avant de configurer ou de définir des stratégies pour les obstacles à l’information. Pour plus d’informations, consultez [Définir des stratégies d’obstacle à l’information](/office365/securitycompliance/information-barriers-policies#prerequisites).
+>Avant de configurer ou de définir des stratégies, vous devez activer la recherche d’annuaires délimités dans Microsoft Teams. Attendez au moins quelques heures après avoir activé la recherche d’annuaires délimités avant de configurer ou de définir des stratégies pour les obstacles à l’information. Pour plus d’informations, consultez [Définir des stratégies d’obstacle à l’information](/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>Rôle d’administrateur des obstacles à l’information
 
@@ -110,7 +112,7 @@ Les stratégies IB sont activées lorsque les événements Teams suivants ont li
 
 - **Un utilisateur passe un appel téléphonique dans Teams** : chaque fois qu’un utilisateur lance un appel vocal (via VOIP) à un autre utilisateur ou groupe d’utilisateurs, l’appel est évalué pour s’assurer qu’il ne viole pas les stratégies IB des autres membres de l’équipe. En cas de violation, l’appel vocal est bloqué.
 
-- **Invités dans Teams** : Les stratégies IB s’appliquent également aux invités dans Teams. Si les invités doivent être détectables dans la liste d’adresses globale de votre organisation, consultez [Gérer l’accès invité dans Groupes Microsoft 365](/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Une fois que les invités sont détectables, vous pouvez [définir des stratégies IB](/office365/securitycompliance/information-barriers-policies).
+- **Invités dans Teams** : les stratégies IB s’appliquent également aux invités dans Teams. Si les invités doivent être détectables dans la liste d’adresses globale de votre organisation, consultez [Gérer l’accès invité dans Groupes Microsoft 365](/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Une fois que les invités sont détectables, vous pouvez [définir des stratégies IB](/office365/securitycompliance/information-barriers-policies).
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Impact des modifications de stratégie sur les conversations existantes
 
@@ -144,11 +146,11 @@ S’il existe une conversation ou une autre communication entre les utilisateurs
 
 Actuellement, les utilisateurs rencontrent les scénarios suivants si une stratégie IB bloque un autre utilisateur :
 
-- **Onglet Contacts** : un utilisateur ne peut pas voir les utilisateurs bloqués sous l’onglet **Contacts** .
+- **onglet Personnes** : un utilisateur ne peut pas voir les utilisateurs bloqués sous l’onglet **Personnes**.
 
-- **Sélecteur** de personnes : les utilisateurs bloqués ne seront pas visibles dans le sélecteur de personnes.
+- **Personnes Sélecteur** : les utilisateurs bloqués ne seront pas visibles dans le sélecteur de personnes.
 
-    ![Capture d’écran de Teams alertant l’utilisateur que la stratégie empêche l’affichage des informations d’un autre utilisateur.](media/information-barriers-people-picker.png)
+    ![Capture d’écran de Teams indiquant à l’utilisateur que la stratégie empêche l’affichage des informations d’un autre utilisateur.](media/information-barriers-people-picker.png)
 
 - **Onglet Activité** : si un utilisateur visite l’onglet **Activité** d’un utilisateur bloqué, aucune publications n’apparaît. ( **L’onglet Activité** affiche uniquement les publications de canal, et il n’y aurait aucun canal commun entre les deux utilisateurs.)
 
@@ -158,7 +160,7 @@ Actuellement, les utilisateurs rencontrent les scénarios suivants si une strat�
 
 - **Organigrammes** : si un utilisateur accède à un organigramme sur lequel un utilisateur bloqué apparaît, l’utilisateur bloqué n’apparaît pas sur le graphique de l’organisation. Au lieu de cela, un message d’erreur s’affiche.
 
-- **Carte contacts** : si un utilisateur participe à une conversation et que l’utilisateur est bloqué par la suite, d’autres utilisateurs voient un message d’erreur au lieu de la carte contacts lorsqu’ils pointent sur le nom de l’utilisateur bloqué. Les actions répertoriées sur la carte (comme l’appel et la conversation) ne seront pas disponibles.
+- **Personnes carte** : si un utilisateur participe à une conversation et que l’utilisateur est bloqué par la suite, d’autres utilisateurs voient un message d’erreur au lieu de la carte contacts lorsqu’ils pointent sur le nom de l’utilisateur bloqué. Les actions répertoriées sur la carte (comme l’appel et la conversation) ne seront pas disponibles.
 
 - **Contacts suggérés : les utilisateurs** bloqués n’apparaissent pas dans la liste des contacts suggérés (liste de contacts initiale qui s’affiche pour les nouveaux utilisateurs).
 
@@ -176,13 +178,13 @@ Actuellement, les utilisateurs rencontrent les scénarios suivants si une strat�
     > [!div class="mx-imgBorder"]
     > ![Capture d’écran montrant l’utilisateur bloqué à la conversation.](media/ib-after-chat-contacts-policy.png)
 
-- **Skype à Teams migration** : lors d’une migration de Skype Entreprise vers Teams, tous les utilisateurs, même les utilisateurs bloqués par les stratégies IB, seront migrés vers Teams. Ces utilisateurs sont ensuite gérés comme décrit ci-dessus.
+- **Migration de Skype vers Teams** : lors d’une migration de Skype Entreprise vers Teams, tous les utilisateurs, même les utilisateurs bloqués par les stratégies IB, seront migrés vers Teams. Ces utilisateurs sont ensuite gérés comme décrit ci-dessus.
 
-## <a name="teams-policies-and-sharepoint-sites"></a>Teams stratégies et sites SharePoint
+## <a name="teams-policies-and-sharepoint-sites"></a>Stratégies Teams et sites SharePoint
 
-Lorsqu’une équipe est créée, un site SharePoint est approvisionné et associé à Microsoft Teams pour l’expérience des fichiers. Les stratégies de barrière d’information ne sont pas respectées par défaut sur ce site et fichiers SharePoint. Pour activer les obstacles à l’information dans SharePoint et OneDrive, suivez les instructions et les étapes décrites dans l’article [Utiliser les obstacles à l’information avec SharePoint](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) article.
+Lorsqu’une équipe est créée, un site SharePoint est approvisionné et associé à Microsoft Teams pour l’expérience de fichiers. Par défaut, les stratégies de barrière d’information ne sont pas respectées sur ce site SharePoint et les fichiers. Pour activer les obstacles à l’information dans SharePoint et OneDrive, suivez les instructions et les étapes décrites dans l’article [Utiliser les obstacles à l’information avec SharePoint](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) .
 
-## <a name="information--barrier-modes-and-teams"></a>Modes de barrière de l’information et Teams
+## <a name="information--barrier-modes-and-teams"></a>Modes de barrière d’information et Teams
 
 Le mode Obstacles à l’information permet de renforcer les personnes qui peuvent être ajoutées ou supprimées d’une équipe. Lorsque vous utilisez des barrières d’information avec Teams, les modes IB suivants sont pris en charge :
 
@@ -190,7 +192,7 @@ Le mode Obstacles à l’information permet de renforcer les personnes qui peuve
 - **Implicite** : cette configuration est le mode IB par défaut lorsqu’une équipe est provisionnée après l’activation des barrières d’informations. Le mode implicite vous permet d’ajouter tous les utilisateurs compatibles dans le groupe.
 - **Propriétaire modéré** : ce mode est défini sur une équipe lorsque vous souhaitez autoriser la collaboration entre les utilisateurs de segment incompatibles qui sont modérés par le propriétaire. Le propriétaire de l’équipe peut ajouter de nouveaux membres en fonction de sa stratégie d’IB.
 
-Teams créées avant d’activer une stratégie de cloisonnement des informations dans votre locataire sont automatiquement définies sur *Mode Ouvert* par défaut. Une fois que vous avez activé les stratégies IB sur votre locataire, vous devez mettre à jour le mode de vos équipes existantes vers *Implicite* pour vous assurer que les équipes existantes sont conformes à l’IB.
+Les équipes créées avant d’activer une stratégie de cloisonnement des informations dans votre locataire sont automatiquement définies sur *Le mode Ouvert* par défaut. Une fois que vous avez activé les stratégies IB sur votre locataire, vous devez mettre à jour le mode de vos équipes existantes vers *Implicite* pour vous assurer que les équipes existantes sont conformes à l’IB.
 
 Utilisez l’applet [de commande Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) avec le paramètre *InformationBarrierMode* qui correspond au mode que vous souhaitez utiliser pour vos segments. La liste des valeurs autorisées pour le paramètre *InformationBarrierMode* est *Open*, *Implicit* et *Owner Moderated*.
 
@@ -206,7 +208,7 @@ Si vous modifiez la configuration en mode Ouvert sur des groupes connectés à T
 
 ## <a name="required-licenses-and-permissions"></a>Licences et autorisations requises
 
-Pour plus d’informations sur les licences et les autorisations, les plans et les tarifs, consultez [Microsoft 365 conseils sur les licences pour la sécurité & la conformité](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+Pour plus d’informations sur les licences et les autorisations, les plans et les tarifs, consultez les [conseils de licences Microsoft 365 pour la sécurité & la conformité](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="known-issues"></a>Problèmes connus
 
@@ -218,10 +220,10 @@ Pour plus d’informations sur les licences et les autorisations, les plans et l
 ## <a name="more-information"></a>Plus d’informations
 
 - Pour en savoir plus sur les E/S, consultez [Obstacles à l’information](/office365/securitycompliance/information-barriers).
-- Pour configurer des stratégies d’IB, consultez [Démarrage avec des obstacles à l’information](/office365/securitycompliance/information-barriers-policies).
+- Pour configurer des stratégies d’IB, consultez [Prise en main des obstacles à l’information](/office365/securitycompliance/information-barriers-policies).
 - Pour modifier ou supprimer des stratégies d’ib, consultez [Gérer les stratégies d’obstacle aux informations](/microsoft-365/compliance/information-barriers-edit-segments-policies).
 - [Obstacles à l’information et canaux partagés](information-barriers-shared-channels.md)
 
 ## <a name="availability"></a>Disponibilité
 
-Les obstacles à l’information dans Teams sont disponibles dans nos clouds publics, Cloud de la communauté du secteur public, Cloud de la communauté du secteur public - Haut et DOD.
+Les obstacles à l’information dans Teams sont disponibles dans nos clouds publics, GCC, GCC - High et DOD.

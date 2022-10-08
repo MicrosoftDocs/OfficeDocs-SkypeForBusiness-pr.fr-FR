@@ -1,5 +1,6 @@
 ---
 title: Effectuer une enquête eDiscovery sur le contenu
+description: Découvrez ce qu’il faut faire lorsque vous devez effectuer eDiscovery, par exemple lorsque vous devez soumettre toutes les informations stockées électroniquement pour les procédures judiciaires.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,21 +8,23 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier1
+- purview-compliance
 - M365-collaboration
+- ediscovery
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Découvrez ce qu’il faut faire lorsque vous devez effectuer eDiscovery, par exemple lorsque vous devez soumettre toutes les informations stockées électroniquement pour les procédures judiciaires.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e0579e0967a6f0309dbea6ee28430df3f34876be
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: a44245d31e6fc9f4b58c17832e596c6d73b56635
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808245"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046654"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -35,8 +38,8 @@ La découverte électronique des messages et des fichiers dans [les canaux priv�
 
 Tout le contenu Teams n’est pas accessible en ligne. Le tableau suivant présente les types de contenu que vous pouvez rechercher à l’aide des outils Microsoft eDiscovery :
 
-|Type de contenu|Remarques|
-|---|---|
+|**Type de contenu**|**Notes**|
+|:---------------|:--------|
 |Enregistrements audio||
 |Contenu de la carte|Pour plus d’informations, consultez [Rechercher le contenu de la carte](#search-for-card-content) .|
 |Liens de conversation||
@@ -53,6 +56,7 @@ Tout le contenu Teams n’est pas accessible en ligne. Le tableau suivant prése
 |Réactions (comme les j’aime, les cœurs et d’autres réactions)|Les réactions sont prises en charge pour tous les clients commerciaux après le 1er juin 2022. Les réactions avant cette date ne sont pas disponibles pour eDiscovery. La prise en charge du cloud gouvernemental est planifiée. Il n’y a pas de soutien juridique pour les réactions.|
 |Objet||
 |Tables||
+|Clip vidéo Teams (TVC)|Recherchez TVC avec le mot clé « Video-Clip » et « enregistrer sous » un fichier .mp4 pour chaque pièce jointe tvC en cliquant avec le bouton droit sur la préversion (la recherche par mot clé sera disponible en octobre 2022). Les données TVC sont détectables dans les [jeux de révision](/microsoft-365/compliance/add-data-to-review-set) eDiscovery.
 
 <sup>1 Les</sup> métadonnées de réunion (et d’appel) incluent les éléments suivants :
 

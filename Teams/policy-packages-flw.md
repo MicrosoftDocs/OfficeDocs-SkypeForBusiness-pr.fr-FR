@@ -10,6 +10,7 @@ audience: Admin
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 - Microsoft 365 for frontline workers
@@ -21,12 +22,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft 365 for frontline workers
 description: Découvrez comment utiliser et gérer les packages de stratégies Teams pour les travailleurs de première ligne de votre organisation.
-ms.openlocfilehash: 20f0f926a50a56140bab8d20c9c663e0020ac3c0
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
-ms.translationtype: HT
+ms.openlocfilehash: 62a3d047da0f9174bc26d5a1e9c3ebe5f9467a49
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819573"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047194"
 ---
 # <a name="teams-policy-packages-for-frontline-workers"></a>Packages de stratégie Teams pour les travailleurs de première ligne
 
@@ -73,7 +74,7 @@ Gardez à l’esprit que vous pouvez également modifier les paramètres des str
 
 ### <a name="assign"></a>Attribuer
 
-Affecter un package de stratégie à des utilisateurs. Si une stratégie est attribuée à un utilisateur et que vous affectez une autre stratégie plus tard, l’affectation la plus récente prend la priorité.
+Assign the policy package to users. If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
 
 > [!NOTE]
 > Chaque utilisateur aura besoin du module complémentaire Communications avancées pour recevoir une attribution de package de stratégie personnalisée. Pour plus d’informations, consultez [Module complémentaire Communications avancées pour Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).

@@ -14,6 +14,7 @@ ms.collection:
 - m365solution-voice
 - m365solution-scenario
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -26,12 +27,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Découvrez comment configurer des forfaits d’appels, notamment afficher les plans disponibles dans votre région, acheter & attribuer des licences, obtenir des numéros de téléphone et ajouter des adresses d’urgence & emplacements.
-ms.openlocfilehash: a4acb51bad8e8ad309357fcd497c1554fc568928
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c33a7e3400df369b062468001b06d35dc98ad0ac
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271569"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999529"
 ---
 # <a name="set-up-calling-plans"></a>Configurer des forfaits d'appels
 

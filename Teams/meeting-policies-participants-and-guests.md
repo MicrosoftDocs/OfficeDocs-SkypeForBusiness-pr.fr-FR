@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour les participants et les invités.
-ms.openlocfilehash: 46db9b7f5a1fae40d3f46bad156e318a3e677d07
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 5b489f312dd1fd1fcd9bdb6a301a65e76ab9ed91
+ms.sourcegitcommit: 9522d951700d19ab13c60a6452b3a8a4c824ee36
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706621"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "68018090"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion : participants et invités
 
@@ -62,7 +62,7 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les
  Les organisateurs de réunion peuvent cliquer sur **Options de réunion** dans l’invitation à la réunion afin de modifier ce paramètre pour chaque réunion qu’ils planifient.
 
 > [!NOTE]
-> Dans les options de la réunion, le paramètre est intitulé « Qui peut ignorer la salle d’attente ». Si vous modifiez le paramètre par défaut pour un utilisateur, celui-ci s’applique à toutes les réunions organisées par cet utilisateur et aux réunions antérieures où l’utilisateur n’a pas modifié les options de la réunion.
+> In the meeting options the setting is labeled "Who can bypass the lobby". If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
   
 |Valeur du paramètre  |Comportement de jointure |
 |---------|---------|
@@ -91,7 +91,7 @@ Ce paramètre est une stratégie par utilisateur qui s’applique lors d’une r
 
 |Valeur du paramètre |Comportement  |
 |---------|---------|
-|**Désactivé, mais l’utilisateur peut remplacer**     | Les sous-titres en direct ne sont pas activés automatiquement pour l’utilisateur pendant une réunion. L’utilisateur voit l’option **Activer les sous-titres en direct** dans le menu débordement (**...**) pour les activer. Il s’agit du paramètre par défaut. |
+|**Non activé, mais l’utilisateur peut remplacer**     | Les sous-titres en direct ne sont pas activés automatiquement pour l’utilisateur pendant une réunion. L’utilisateur voit l’option **Activer les sous-titres en direct** dans le menu débordement (**...**) pour les activer. Il s’agit du paramètre par défaut. |
 |**Non activé**     | Les légendes dynamiques sont désactivées pour l’utilisateur pendant une réunion. L’utilisateur n’a pas la possibilité de les activer.          |
 
 <a name="bkcontentsharing"> </a>

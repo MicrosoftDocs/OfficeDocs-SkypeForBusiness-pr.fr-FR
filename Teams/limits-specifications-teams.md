@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 168bddd1b4a7ad2ffa1f4d1c5eceb0967a18ea43
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: b34f22d5ef038eff44b5488588902d1a99af8676
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269699"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486614"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -52,9 +52,9 @@ Cet article présente certaines limites, spécifications et autres configuration
 
 <sup>2</sup> Cette limite inclut les équipes archivées. 
 
-<sup>3</sup> Pour augmenter davantage le nombre d’équipes, vous devez contacter le support Microsoft et demander à augmenter le nombre d’objets Azure Active Directory de votre client. Une augmentation est réalisée uniquement pour les scénarios de production réels.
+<sup>3</sup> To further increase the number of teams, you must contact Microsoft support and request further increase to the number of Azure Active Directory objects in your tenant. Increase is only made for real-life production scenarios.
 
-<sup>4</sup> Les canaux supprimés peuvent être restaurés sous 30 jours. Pendant ces 30 jours, un canal supprimé continue à être compté vers les 200 canaux ou 30 canaux privés selon la limite par équipe. Après 30 jours, un canal supprimé et son contenu sont définitivement supprimés et le canal ne compte plus dans la limite par équipe.
+<sup>4</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the per team limit.
 
 <sup>5</sup> 28 Ko est une limite approximative, car elle inclut le message lui-même (texte, liens d’image, etc.), les @-mentions, le nombre de connecteurs et les réactions.
 
@@ -79,7 +79,7 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 <sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
-<sup>2</sup> Uniquement 200 membres à la fois peuvent être ajoutés à une conversation de groupe. [Pour plus d’informations, consultez cet article](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
+<sup>2</sup> Only 200 members at a time can be added to a group chat. [See this article for more information](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
 <sup>3</sup> Si le nombre de pièces jointes dépasse cette limite, un message d’erreur s’affiche.
 
@@ -139,7 +139,7 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 ### <a name="meeting-expiration"></a>Expiration de réunion
 
 > [!NOTE]
-> L'URL d'une réunion ne cessera jamais de fonctionner. L'expiration ne concerne que les numéros d'appel RTPC, les coordonnées CVI et/ou les stratégies et paramètres de réunion sous-jacents.
+> A meeting URL will never stop working. The expiry only relates to any PSTN dial-in numbers, CVI coordinates, and/or underlying meeting policies and settings.
 
 |Type de réunion  |La réunion expire après un certain délai  |Chaque fois qu’une réunion démarre ou est mise à jour, l’expiration se prolonge d’un certain délai  |
 |---------|---------|---------|
@@ -160,9 +160,9 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 |Durée de l’événement | 4 heures |
 |Événements en direct simultanés exécutés dans une organisation Microsoft 365 ou Office 365 <sup>1</sup> | 15 |
 
-<sup>1</sup> Vous pouvez planifier autant d’Evénements en Direct que vous le souhaitez, mais vous ne pouvez exécuter que 15 à la fois. Dès que le producteur rejoint un événement en direct, celui-ci est considéré comme étant en cours d’exécution. Le producteur qui tente de participer au 16e événement en direct reçoit une erreur.
+<sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
-Pour plus d’informations sur les événements en direct et une comparaison des évènements en direct Teams et Skype Meeting Broadcast, accédez à [Evènements en direct Teams et Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast). Consultez également [Programmer un évènement en direct Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
+Pour plus d’informations sur les événements en direct, accédez aux [événements en direct Teams](teams-live-events/plan-for-teams-live-events.md#teams-live-events). Consultez également [Planifier un événement en direct Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
 > [!IMPORTANT]
 > **Augmentation de la limite d’événements en direct Microsoft 365**
@@ -173,24 +173,24 @@ Pour plus d’informations sur les événements en direct et une comparaison des
 >- 50 événements à la fois peuvent être hébergés chez un client
 >- Durée de l'événement : 16 heures par diffusion
 >
-> En plus les Evènements en direct avec plus de 100 000 participants peuvent être planifiés à travers le programme d’assistance Microsoft 365. L’équipe évaluera chaque demande et travail avec vous pour déterminer les options disponibles. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions).
+> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 ## <a name="presence-in-outlook"></a>Présence dans Outlook
 
-La présence Teams dans Outlook est prise en charge sur l’application de bureau de Outlook 2013 et ultérieure. Pour en savoir plus sur la présence dans Teams, consultez [Présence d’utilisateur dans Teams](presence-admins.md).
+Teams presence in Outlook is supported on the Outlook 2013 desktop app and later. To learn more about presence in Teams, see [User presence in Teams](presence-admins.md).
 
 ## <a name="storage"></a>Stockage
 
-Dans Microsoft Teams, chaque équipe dispose d'un site dans SharePoint Online, et chaque canal d'une équipe reçoit un dossier dans la bibliothèque de documents par défaut du site de l'équipe. Les fichiers partagés dans une conversation sont automatiquement ajoutés à la bibliothèque de documents, et les autorisations et options de sécurité de fichier définies dans SharePoint sont automatiquement appliquées à Teams.
+Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
 
 > [!NOTE]
 > Chaque [canal privé](./private-channels.md) possède son propre site SharePoint (anciennement appelé « collection de sites »).
 
-Si SharePoint n’est pas activé dans le client, les utilisateurs de Microsoft Teams n’ont pas toujours accès au partage des fichiers dans les équipes. Les utilisateurs de conversations privées n’ont pas également accès au partage des fichiers parce que OneDrive Entreprise (lié à la licence SharePoint) est obligatoire pour cette fonctionnalité.
+If you don't have SharePoint Online enabled in your tenant, Microsoft Teams users cannot always share files in teams. Users in private chat also cannot share files because OneDrive for Business (which is tied to the SharePoint license) is required for that functionality.
 
-En sauvegardant la bibliothèque de documents SharePoint Online, toutes les règles de conformité au niveau client seront respectées. (Pour en savoir plus, consultez [Interaction  SharePoint Online, OneDrive Entreprise et Microsoft Teams](sharepoint-onedrive-interact.md).)
+By storing the files in the SharePoint Online document library and OneDrive for Business, all compliance rules configured at the tenant level will be followed. (For more, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).)
 
-Etant donné que Teams est exécuté sur le serveur principal de SharePoint Online, les limites SharePoint s’appliquent à la section des fichiers dans une équipe. Voici les limites de stockage de SharePoint Online.
+Because Teams runs on a SharePoint Online backend for file sharing, SharePoint limitations apply to the Files section within a Team. Here are the applicable storage limits for SharePoint Online.
 
 |Fonctionnalité                 |Microsoft 365 Business Basic  |Microsoft 365 Business Standard   |Office 365 Entreprise E1  |Office 365 Entreprise E3  |Office 365 Entreprise E5  |Office 365 Entreprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
@@ -204,7 +204,7 @@ Pour plus d’informations, voir [Limites de SharePoint Online](https://support.
 
 ## <a name="class-teams"></a>Équipes de classe :
 
-Microsoft Teams Education offrent des modèles dédiés à des scénarios d’éducation uniques tels que l’enseignement en salle. Vous pouvez accéder à plus d’informations sur ;les types d’équipes, notamment les équipes de classe, dans [Choisissez un type d’équipe pour collaborer dans Microsoft Teams](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67).
+Microsoft Teams for Education provides templates designed for unique education scenarios, such as classroom teaching. More information about team types, including class teams, is available in [Choose a team type to collaborate in Microsoft Teams](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67).
 
 Une équipe de classe est un type de modèle avec des applications supplémentaires incluses, et des limites distinctes au nombre de membres de l’équipe.
 
@@ -219,7 +219,7 @@ Les limites pour les équipes de classe sont répertoriées dans le tableau suiv
 |Nombre de membres pour utiliser Affectations dans une équipe de classe    | 300        |
 |Nombre de membres pour utiliser un bloc-notes OneNote pour la classe dans une équipe de classe     |300         |
 
-Un équipe de classe peut prendre en charge 300 membres. Toutefois, si vous décidez d’utiliser l’application d’Assignation ou l’application des Bloc-notes de classe, vous devrez maintenir le nombre de membres en dessous de la limite maximale indiquée ci-dessus.
+A class team can support more than 300 members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you will need to keep the number of members below the maximum limits above.
 
 ## <a name="tags"></a>Balises
 

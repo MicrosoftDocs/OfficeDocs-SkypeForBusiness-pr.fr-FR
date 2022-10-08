@@ -16,12 +16,12 @@ f1.keywords:
 description: Optimisation des médias locaux pour le routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c33b8225f3bcde32428348e85166ff4d4463738
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: a86758d3376b2232126d095f9c9b1a1a28371481
+ms.sourcegitcommit: 9522d951700d19ab13c60a6452b3a8a4c824ee36
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616090"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "68018110"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>Planifier l’optimisation des médias locaux pour le routage direct
 
@@ -232,7 +232,7 @@ Le diagramme ci-dessous montre le flux de trafic de haut niveau pour l’utilisa
 
 Diagramme 5.  Flux de trafic avec le mode « Toujours contourner » et l’utilisateur se trouve sur le site « accueil »
 
-! [Diagramme montrant l’optimisation des médias locaux du flux de trafic.] (média/direct-routing-media-op-5.png « Flux de trafic avec le mode « Toujours contourner » et l’utilisateur se trouve dans le site « accueil »)
+![Diagramme montrant l’optimisation des médias locaux du flux de trafic.](media/direct-routing-media-op-5.png "Flux de trafic avec le mode « Toujours contourner » et l’utilisateur se trouve dans le site « home »")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>Scénario 2 : L’utilisateur et les passerelles se trouvent dans différents sites
@@ -255,7 +255,7 @@ Le diagramme suivant montre le flux de trafic de haut niveau lorsque l’utilisa
 
 Diagramme 6.  Flux de trafic avec le mode « Toujours contourner » et l’utilisateur n’est pas dans le site « accueil », mais dans le réseau interne
 
-! [Un diagramme montre l’optimisation des médias locaux du flux de trafic.] (média/direct-routing-media-op-6.png « Flux de trafic avec le mode « Toujours contourner » et l’utilisateur n’est pas dans le site « accueil », mais dans le réseau interne »)
+![Un diagramme montre l’optimisation des médias locaux du flux de trafic.](media/direct-routing-media-op-6.png "Flux de trafic avec le mode « Toujours contourner » et l’utilisateur n’est pas dans le site « home », mais dans le réseau interne")
 
 ### <a name="mode-2-only-for-local-users"></a>Mode 2 : uniquement pour les utilisateurs locaux
 
@@ -295,7 +295,7 @@ Dans le diagramme suivant, un utilisateur affecté à la filiale locale au Vietn
 
 Diagramme 7. Flux de trafic avec le mode « Uniquement pour les utilisateurs locaux » et l’utilisateur se trouve dans le site « accueil »
 
-! [Autre diagramme montrant l’optimisation des médias locaux du flux de trafic.] (média/direct-routing-media-op-7.png « Flux de trafic avec le mode « Uniquement pour les utilisateurs locaux » et l’utilisateur est dans le site « accueil »)
+![Autre diagramme montrant l’optimisation des médias locaux du flux de trafic.](media/direct-routing-media-op-7.png "Flux de trafic avec le mode « Uniquement pour les utilisateurs locaux » et l’utilisateur se trouve dans le site « accueil »")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>Scénario 2. L’utilisateur et les passerelles se trouvent dans différents sites
@@ -325,7 +325,7 @@ Dans le diagramme suivant, l’utilisateur interne, en local dans la filiale ind
 
 Diagramme 8.  Flux de trafic avec le mode « Uniquement pour les utilisateurs locaux » et l’utilisateur n’est pas dans le site « accueil », mais dans le réseau interne
 
-! [Un autre diagramme montre l’optimisation des médias locaux du flux de trafic.] (média/direct-routing-media-op-8.png « Flux de trafic avec le mode « Uniquement pour les utilisateurs locaux », l’utilisateur n’est pas dans le site « accueil », mais dans le réseau interne »)
+![Un autre diagramme montre l’optimisation des médias locaux du flux de trafic.](media/direct-routing-media-op-8.png "Flux de trafic avec le mode « Uniquement pour les utilisateurs locaux », l’utilisateur n’est pas dans le site « accueil », mais dans le réseau interne")
 
 ## <a name="known-issues"></a>Problèmes connus
 

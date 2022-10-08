@@ -6,7 +6,8 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: v-quhur
+ms.reviewer: vapati
+ms.date: 09/27/2022
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,16 +18,16 @@ description: Découvrez comment utiliser le rapport d’utilisation des applicat
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 745761b80bd2507a31cb76cdadc015eac8e9f7fd
-ms.sourcegitcommit: a4a65283e85d0c393c844dfd335df0d48e0e4105
+ms.openlocfilehash: 9db5378a439061639298b8bc3b48f4d3ef26c50b
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "67313926"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376962"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Rapport d’utilisation des applications Microsoft Teams
 
-Le rapport d’utilisation des applications Teams dans le Centre d’administration Microsoft Teams vous fournit des informations sur les applications que les utilisateurs utilisent dans Teams.  
+Le rapport d’utilisation des applications Teams dans le Centre d’administration Microsoft Teams vous fournit des insights sur les applications que les utilisateurs utilisent dans Teams. Vous pouvez obtenir des insights sur l’activité des applications Teams dans votre organisation. Cet article explique comment accéder au rapport et afficher et interpréter les différentes métriques du rapport. 
 
 ## <a name="view-the-app-usage-report"></a>Afficher le rapport d’utilisation des applications
 
@@ -36,7 +37,7 @@ Le rapport d’utilisation des applications Teams dans le Centre d’administrat
 
 1. Sous l’onglet **Afficher les rapports** , sous **Rapport**, sélectionnez **Utilisation des applications**.
 
-1. Sous **Plage de dates**, sélectionnez une plage, puis **sélectionnez Exécuter le rapport**. Vous pouvez afficher le rapport d’utilisation des applications Teams pour les tendances des 7, 30 ou 90 derniers jours.
+1. Sous **Plage de dates**, sélectionnez une plage, puis **sélectionnez Exécuter le rapport**. Vous pouvez afficher le rapport d’utilisation des applications Teams pour les tendances des 7, 30, 90 et 180 derniers jours.
 
    :::image type="content" source="media/app-usage-report2-trimmed.png" alt-text="Capture d’écran de l’interface du rapport Utilisation des applications." lightbox="media/app-usage-report2.png":::
 
@@ -44,7 +45,7 @@ Le rapport d’utilisation des applications Teams dans le Centre d’administrat
 
 :::image type="content" alt-text="Capture d’écran du rapport d’utilisation des applications Teams dans le Centre d’administration Teams avec des légendes." source="media/app-usage-report5.png" lightbox="media/app-usage-report5.png":::
 
-Chaque rapport a une date en haut à gauche qui indique quand le rapport a été créé. Les rapports reflètent généralement une latence de 24 heures à partir du moment où une application a été ouverte.
+Chaque rapport a une date en haut à gauche qui indique quand le rapport a été créé. Les rapports reflètent généralement une latence de 24 à 48 heures depuis l’ouverture d’une application.
 
 Administration centre fournit un graphique des utilisateurs actifs et des dates. Les utilisateurs actifs sont le nombre d’utilisateurs qui ont ouvert une application au moins une fois pendant la période sélectionnée.
 

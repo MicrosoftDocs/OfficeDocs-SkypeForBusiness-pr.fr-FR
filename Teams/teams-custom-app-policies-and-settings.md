@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
+ms.date: 09/26/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -23,43 +24,46 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: d52fe50ba3fa02b3b39269fd06ce66ea0dfb5b32
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 77c74ed4f42808c2dc219a255e0a4c8feca299fd
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837164"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376852"
 ---
-# <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Gérer les stratégies d’application personnalisée et les paramètres dans Microsoft Teams
+# <a name="manage-custom-apps-and-settings-in-teams-admin-center"></a>Gérer les applications et les paramètres personnalisés dans le Centre d’administration Teams
 
-En tant qu’administrateur, vous pouvez utiliser des stratégies et paramètres d’application personnalisés pour contrôler les personnes de votre organisation qui peuvent télécharger des applications personnalisées vers Microsoft Teams. Les administrateurs décident quels utilisateurs peuvent télécharger des applications personnalisées, et les administrateurs et les propriétaires d'équipe peuvent déterminer si des équipes spécifiques de votre organisation autorisent l'ajout d'applications personnalisées.  Après avoir modifié la stratégie d’application personnalisée, l’application des modifications peut prendre quelques heures. Vous devez être administrateur de service Global Administration ou Teams pour gérer ces stratégies.
+<!--- TBD: Describe custom apps
+--->
+
+En tant qu’administrateur Teams, vous utilisez des stratégies et des paramètres d’application personnalisés pour contrôler qui dans votre organisation peut charger des applications personnalisées dans Microsoft Teams. Les administrateurs décident quels utilisateurs peuvent télécharger des applications personnalisées, et les administrateurs et les propriétaires d'équipe peuvent déterminer si des équipes spécifiques de votre organisation autorisent l'ajout d'applications personnalisées. Après avoir modifié la stratégie d’application personnalisée, l’application des modifications peut prendre quelques heures. Vous devez être administrateur de service Global Administration ou Teams pour gérer ces stratégies.
 
 Les développeurs au sein de votre organisation peuvent ajouter une application personnalisée à Teams en téléchargeant un paquet d'applications (dans un fichier .zip) directement dans une équipe ou dans le contexte personnel. Cette méthode est différente de celle utilisée pour ajouter des applications dans le magasin d'applications Teams. L’ajout d’une application personnalisée en chargeant un package d’application, également appelé chargement indépendant, permet à des utilisateurs spécifiques au sein de votre organisation de tester une application, avant qu’elle ne soit prête à être largement distribuée.
 
 ## <a name="custom-app-policy-and-settings"></a>Stratégie et paramètres d’application personnalisés
 
-Trois composants déterminent si un utilisateur peut charger une application personnalisée dans une équipe, ce qui vous donne un contrôle précis sur les personnes qui peuvent ajouter des applications personnalisées à une équipe et les applications personnalisées Teams à ajouter :
+Trois paramètres déterminent si un utilisateur peut charger une application personnalisée dans une équipe. Il donne aux administrateurs un contrôle granulaire sur les personnes qui peuvent ajouter des applications personnalisées à une équipe et sur les applications personnalisées teams auxquelles elles peuvent être ajoutées.
 
-- [Stratégie utilisateur et application](#user-custom-app-policy)
-- [Paramètre d’application personnalisée d’équipe](#team-custom-app-setting)
-- [Paramètre d’application personnalisée à l’échelle de l’organisation](#org-wide-custom-app-setting)
+* [Stratégie utilisateur et application](#user-custom-app-policy)
+* [Paramètre d’application personnalisée d’équipe](#team-custom-app-setting)
+* [Paramètre d’application personnalisée à l’échelle de l’organisation](#org-wide-custom-app-setting)
 
 Ces paramètres n’affectent pas la possibilité de bloquer des applications tierces.  
 
 ### <a name="user-custom-app-policy"></a>Stratégie utilisateur et application
 
-Dans le cadre des [stratégies de configuration des applications](teams-app-setup-policies.md), les administrateurs peuvent utiliser un paramètre de stratégie **Charger des applications personnalisées** pour contrôler si un utilisateur peut charger des applications personnalisées dans Teams.
+Dans le cadre des [stratégies de configuration des applications](teams-app-setup-policies.md), les administrateurs peuvent utiliser le paramètre Charger des **applications personnalisées** pour contrôler si un utilisateur peut charger des applications personnalisées dans Teams.
 
 Par défaut, ce paramètre est désactivé :
 
-- L’utilisateur ne peut pas charger une application personnalisée vers une équipe de votre organisation ou dans le contexte personnel.
-- L’utilisateur peut interagir avec des applications personnalisées, en fonction du paramètre d’application personnalisée à l’échelle de l’organisation.
+* L’utilisateur ne peut pas charger une application personnalisée vers une équipe de votre organisation ou dans le contexte personnel.
+* L’utilisateur peut interagir avec des applications personnalisées, en fonction du paramètre d’application personnalisée à l’échelle de l’organisation.
 
 Si ce paramètre est désactivé :
 
-- L’utilisateur peut télécharger des applications personnalisées vers des équipes qui l’autorisent et vers des équipes pour lesquelles il est propriétaire, en fonction du paramètre d’application personnalisée à l’échelle de l’organisation.
-- L’utilisateur peut télécharger des applications personnalisées dans le contexte personnel.
-- L’utilisateur peut interagir avec des applications personnalisées, en fonction du paramètre d’application personnalisée à l’échelle de l’organisation.
+* L’utilisateur peut télécharger des applications personnalisées vers des équipes qui l’autorisent et vers des équipes pour lesquelles il est propriétaire, en fonction du paramètre d’application personnalisée à l’échelle de l’organisation.
+* L’utilisateur peut télécharger des applications personnalisées dans le contexte personnel.
+* L’utilisateur peut interagir avec des applications personnalisées, en fonction du paramètre d’application personnalisée à l’échelle de l’organisation.
 
 Vous pouvez modifier les paramètres dans la stratégie globale pour y inclure les applications de votre choix. Si vous voulez personnaliser Teams pour différents groupes d’utilisateurs au sein de votre organisation, vous pouvez créer et attribuer une ou plusieurs stratégies personnalisées.
 
@@ -77,21 +81,21 @@ Les administrateurs et les propriétaires d’équipe peuvent contrôler si une 
 
 Par défaut, ce paramètre est désactivé :
 
-- Les propriétaires d’équipe peuvent ajouter des applications personnalisées si leur stratégie d’application personnalisée le permet.
-- Les membres de l’équipe qui ne sont pas propriétaires de l’équipe ne peuvent pas ajouter d’applications personnalisées à l’équipe.
+* Les propriétaires d’équipe peuvent ajouter des applications personnalisées si leur stratégie d’application personnalisée le permet.
+* Les membres de l’équipe qui ne sont pas propriétaires de l’équipe ne peuvent pas ajouter d’applications personnalisées à l’équipe.
 
 Si ce paramètre est désactivé :
 
-- Les propriétaires d’équipe peuvent ajouter des applications personnalisées, si leur stratégie d’application personnalisée le permet.
-- Les membres de l’équipe qui ne sont pas propriétaires d’équipe peuvent ajouter des applications personnalisées si leur stratégie d’application personnalisée le permet.
+* Les propriétaires d’équipe peuvent ajouter des applications personnalisées, si leur stratégie d’application personnalisée le permet.
+* Les membres de l’équipe qui ne sont pas propriétaires d’équipe peuvent ajouter des applications personnalisées si leur stratégie d’application personnalisée le permet.
 
 #### <a name="configure-the-team-custom-app-setting"></a>Configurer le paramètre d’application personnalisée de l’équipe
 
 1. Dans Teams, accédez à une équipe, puis sélectionnez **Plus d’options ...** >  **Gérer l’équipe**.
-2. Sélectionnez **Paramètres** et développez **les autorisations de membre**.
-3. Cochez ou videz la case **Autoriser les membres à télécharger des applications personnalisées**.
+1. Sélectionnez **Paramètres** et développez **les autorisations de membre**.
+1. Cochez ou videz la case **Autoriser les membres à télécharger des applications personnalisées**.
 
-    ![Capture d’écran montrant le paramètre d’application personnalisée de l’équipe.](media/teams-custom-app-policy-and-settings-team.png)
+   :::image type="content" source="media/teams-custom-app-policy-and-settings-team-trim.png" alt-text="Capture d’écran montrant le paramètre d’application personnalisée de l’équipe." lightbox="media/teams-custom-app-policy-and-settings-team.png":::
 
 ### <a name="org-wide-custom-app-setting"></a>Paramètre d’application personnalisée à l’échelle de l’organisation
 
@@ -103,7 +107,7 @@ Le paramètre **Autoriser l’interaction avec les applications personnalisées*
 1. Sélectionnez **les paramètres de l’application à l’échelle de l’organisation**.
 1. Sous **Applications personnalisées**, activer ou désactiver **Autoriser l’interaction avec les applications personnalisées**.
 
-    ![Capture d’écran montrant les paramètres d’application personnalisée à l’échelle de l’organisation.](media/teams-custom-app-policy-and-settings-org-wide.png)
+    :::image type="content" source="media/teams-custom-app-policy-and-settings-org-wide.png" alt-text="Capture d’écran montrant les paramètres d’application personnalisée à l’échelle de l’organisation.":::
 
 ## <a name="how-custom-app-policies-and-settings-work-together"></a>Fonctionnement commun des paramètres et des stratégies d’application personnalisées
 
@@ -111,9 +115,9 @@ Ce tableau résume la politique et les paramètres des applications personnalis�
 
 Par exemple, vous souhaitez autoriser uniquement les propriétaires d’équipe à charger des applications personnalisées vers des équipes spécifiques. Vous devez définir ce qui suit :
 
-- Activez le paramètre **Autoriser l’interaction avec les applications personnalisées** dans le Centre d’administration Microsoft Teams.
-- Désactiver les membres **Autoriser les membres à télécharger des applications personnalisées** pour chaque équipe à laquelle vous souhaitez restreindre l’accès.
-- Créez et affectez une stratégie de configuration d’application personnalisée dans le Centre d’administration Microsoft Teams avec le paramètre **Charger le paramètre des applications personnalisées**, puis l’affecter aux propriétaires de l’équipe.
+* Activez le paramètre **Autoriser l’interaction avec les applications personnalisées** dans le Centre d’administration Microsoft Teams.
+* Désactiver les membres **Autoriser les membres à télécharger des applications personnalisées** pour chaque équipe à laquelle vous souhaitez restreindre l’accès.
+* Créez et affectez une stratégie de configuration d’application personnalisée dans le Centre d’administration Microsoft Teams avec le paramètre **Charger le paramètre des applications personnalisées**, puis l’affecter aux propriétaires de l’équipe.
 
 |Paramètre d’application personnalisée à l’échelle de l’organisation |Paramètre d’application personnalisée d’équipe |Stratégie utilisateur et application |Effet  |
 |---------|---------|---------|---------|
@@ -128,5 +132,5 @@ Par exemple, vous souhaitez autoriser uniquement les propriétaires d’équipe 
 
 ## <a name="related-articles"></a>Articles connexes
 
-- [Administration paramètres pour les applications dans Teams](admin-settings.md).
-- [Affectez des stratégies à vos utilisateurs dans Teams](assign-policies-users-and-groups.md).
+* [Administration paramètres pour les applications dans Teams](admin-settings.md).
+* [Affectez des stratégies à vos utilisateurs dans Teams](assign-policies-users-and-groups.md).

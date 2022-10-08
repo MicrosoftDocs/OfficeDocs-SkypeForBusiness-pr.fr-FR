@@ -14,17 +14,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- tier1
+- purview-compliance
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 000c279c32237fd7477a375bf9968db03ec5376d
-ms.sourcegitcommit: 644374fcad6372494e87d729de690af4c060f635
+ms.openlocfilehash: 806e7f6dd3bccf9df74a97d537bcddc2e4b60979
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67054925"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047104"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Gérer les stratégies de rétention pour Microsoft Teams
 
@@ -82,7 +84,7 @@ Cette page présente des informations supplémentaires sur la création et la ge
 
 ## <a name="end-user-experience"></a>Expérience de l’utilisateur final
 
-Pour les conversations privées (conversations en tête à tête) ou de groupe, les utilisateurs constatent que les conversations plus anciennes que la configuration de la stratégie de rétention sont supprimées, et un message généré automatiquement affichant « Nous avons supprimé d’anciens messages en raison de la stratégie de rétention de votre organisation » en haut des messages encore non supprimés. Par exemple :
+For private chats (1:1 chats) or group chats, users will see that chats older than the retention policy configuration are deleted and an automatically generated message stating "We've deleted older messages due to your org's retention policy" is shown on top of yet undeleted messages. For example:
 
 :::image type="content" source="media/retention-policies-image1.png" alt-text="Utilisateur informé dans Teams que le message de conversation est supprimé en raison d’une stratégie de rétention Teams.":::
 

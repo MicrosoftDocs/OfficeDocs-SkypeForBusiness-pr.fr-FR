@@ -12,6 +12,7 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 f1.keywords: ''
@@ -22,12 +23,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Découvrez comment utiliser et gérer les packages de stratégies Teams pour votre organisation de santé publique.
-ms.openlocfilehash: 29192cfeec6545cdbbb5528eeabc1298146e4577
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 9bd4d78a02bf32be68cb13ac85daff886986876d
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397255"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046934"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Packages de stratégie Teams pour la santé publique
 
@@ -85,7 +86,7 @@ Gardez à l’esprit que vous pouvez également modifier les paramètres des str
 
 ### <a name="assign"></a>Attribuer
 
-Affecter un package de stratégie à des utilisateurs. Si une stratégie est attribuée à un utilisateur et que vous affectez une autre stratégie plus tard, l’affectation la plus récente prend la priorité.
+Assign the policy package to users. If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
 
 > [!NOTE]
 > Chaque utilisateur aura besoin du module complémentaire Communications avancées pour recevoir une attribution de package de stratégie personnalisée. Pour plus d’informations, consultez [Module complémentaire Communications avancées pour Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).

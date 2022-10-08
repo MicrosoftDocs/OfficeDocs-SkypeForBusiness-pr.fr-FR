@@ -1,5 +1,6 @@
 ---
 title: Utiliser la recherche de contenu dans Microsoft Teams
+description: Découvrez comment utiliser la recherche de contenu dans le portail de conformité Microsoft Purview pour rechercher du contenu Microsoft Teams stocké dans Exchange Online, SharePoint Online, OneDrive Entreprise et OneNote.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,21 +8,23 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
+- tier1
+- purview-compliance
 - M365-collaboration
+- content-search
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Découvrez comment utiliser la recherche de contenu dans le portail de conformité Microsoft Purview pour rechercher du contenu Microsoft Teams stocké dans Exchange Online, SharePoint Online, OneDrive Entreprise et OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b976c5e3c6467a6c71bb51eb1ff3ef720813584b
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: ff8ee3990b1ebf406fbecaff3e090f010e2beb2a
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808235"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046514"
 ---
 # <a name="use-content-search-in-microsoft-teams"></a>Utiliser la recherche de contenu dans Microsoft Teams
 

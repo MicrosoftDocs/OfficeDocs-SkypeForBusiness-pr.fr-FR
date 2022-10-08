@@ -9,9 +9,11 @@ manager: prkosh
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
+ms.date: 10/01/2022
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -19,18 +21,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 67c50eefdd1d0e20e10b9542912f0e2c4f412815
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: adabe9321307bb9696636ae7ab882775705dcd27
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837644"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376992"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Comprendre les applications Microsoft Teams
 
-Les applications sont un excellent moyen de rassembler vos outils et services d’espace de travail et de collaborer avec d’autres personnes. Les applications aident les utilisateurs finaux à être plus productifs, collaboratifs et efficaces dans leurs tâches quotidiennes. Les organisations utilisent des applications pour se connecter à leurs clients, fournir des services et partager des informations. Par exemple, les utilisateurs finaux utilisent une application Calendrier épinglée dans Teams pour collaborer rapidement avec d'autres personnes, une application avec une fonctionnalité de bots informant les utilisateurs de la qualité d'un service web dans un canal Teams, et une application pour partager et assigner des tâches à divers utilisateurs finaux dans un canal.
+Les applications dans Teams aident les utilisateurs à rassembler leurs outils et services de travail et à collaborer avec d’autres utilisateurs. Par exemple, les utilisateurs finaux utilisent une application Calendrier épinglée dans Teams pour collaborer rapidement avec d'autres personnes, une application avec une fonctionnalité de bots informant les utilisateurs de la qualité d'un service web dans un canal Teams, et une application pour partager et assigner des tâches à divers utilisateurs finaux dans un canal. Les applications Microsoft Teams sont des applications SaaS basées sur le web qui n’ont pas besoin d’être déployées localement.
 
-Notre [catalogue](https://appsource.microsoft.com/en-US/marketplace/apps?product=office%3Bteams&page=1) complet d’applications validées et sécurisées dans le Magasin Teams fournit aux utilisateurs finaux l’accès aux outils et services dont votre organisation a besoin chaque jour. Les applications Microsoft Teams sont des applications SaaS web qui n’ont pas besoin d’être déployées. Les utilisateurs finaux peuvent utiliser les applications dans Teams uniquement en fonction [des autorisations que vous leur avez accordées](app-policies.md). En tant qu'administrateur, vous utilisez des stratégies de niveau entreprise pour autoriser ou bloquer toute application pour les utilisateurs de votre organisation. Vous contrôlez la disponibilité des applications pour chaque utilisateur dans les différents contextes tels que les réunions, les chats et les canaux.
+En tant qu’administrateur, vous définissez un processus de gouvernance des applications qui équilibre les exigences étendues des utilisateurs finaux avec les stratégies informatiques, les normes et les profils de risque de votre organisation.
+
+Notre [catalogue](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) complet d’applications Teams validées et sécurisées fournit aux utilisateurs finaux l’accès aux outils et services dont votre organisation a besoin chaque jour. Le Centre d’administration Teams fournit aux administrateurs des contrôles et des configurations de niveau entreprise pour régir les applications. Vous contrôlez la disponibilité des applications pour chaque utilisateur dans les différents contextes tels que les réunions, les chats et les canaux.
 
 Cet article vous aide à comprendre les types d'applications et l'endroit d'où vos utilisateurs accèdent à ces applications. Pour en savoir plus sur l'utilisation des applications, lisez [Vue d'ensemble des applications pour les utilisateurs finaux](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
@@ -53,7 +57,7 @@ Microsoft fournit de nombreuses applications pour améliorer la productivité et
 
 Teams insère un ensemble d’applications intégrées, notamment Listes, Tâches, Compliments, Approbations, etc. Nous vous recommandons d'inclure les applications recommandées, telles que Planner, dans votre déploiement initial de Teams.
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Capture d'écran des applications Microsoft dans le centre d'administration Teams." lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Capture d’écran montrant la liste des applications Microsoft dans le Centre d’administration Teams." lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## <a name="third-party-apps-validated-by-microsoft"></a>Applications tierces validées par Microsoft
 
@@ -168,6 +172,6 @@ You can use activity reports to see how users in your organization are using Tea
 
 --->
 
-## <a name="related-articles"></a>Articles connexes
+## <a name="related-article"></a>Article connexe
 
 * [En savoir plus sur les modèles d’application pour Teams](/microsoftteams/platform/samples/app-templates).

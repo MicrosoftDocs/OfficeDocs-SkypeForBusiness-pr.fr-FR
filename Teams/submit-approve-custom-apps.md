@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/19/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -17,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment approuver vos applications personnalisées envoyées à l’aide de l’API de soumission d’applications Teams dans Microsoft Teams.
-ms.openlocfilehash: 644e4afd28dbec27385516ce3e0676eb9ea27ef1
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 63493041d834c99f5ffa93ba2fb580130afa0e29
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837524"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494617"
 ---
 # <a name="publish-a-custom-app-submitted-using-the-teams-app-submission-api"></a>Publier une application personnalisée envoyée à l’aide de l’API de soumission d’application Teams
 
@@ -164,7 +165,7 @@ Pour plus d’informations sur l’utilisation de la API Graph pour mettre à jo
 
 * [Publier une application personnalisée en téléchargeant un package d’application](upload-custom-apps.md)
 * Vous gérez les applications pour votre organisation dans les [applications Teams au sein du centre d’administration Microsoft Teams](manage-apps.md).
-* [Gérer les stratégies d’application personnalisée et les paramètres dans Teams](teams-custom-app-policies-and-settings.md)
+* [Gérer les stratégies et les paramètres des applications personnalisées](teams-custom-app-policies-and-settings.md)
 * [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)
 * [Gérer les stratégies de mise en application dans Teams](teams-app-setup-policies.md)
 * [Surveillance et alertes Teams](alerts/teams-admin-alerts.md)

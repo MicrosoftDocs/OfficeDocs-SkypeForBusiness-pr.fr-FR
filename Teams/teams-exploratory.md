@@ -1,7 +1,7 @@
 ---
 title: Gérer l’expérience exploratoire de Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -17,16 +17,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a9069a0ab86c043749f24b5c7b19d2e4ff6280b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: a5124c36b48c4cd8d6d2a466cbdc46c962b9aa11
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268839"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376842"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Gérer la licence exploratoire Microsoft Teams
 
-L’expérience exploratoire Microsoft Teams permet aux utilisateurs de votre organisation qui ont Azure Active Directory (Azure AD) et qui ne disposent pas d’une licence Teams de lancer une expérience exploratoire de Teams. Les administrateurs peuvent activer ou désactiver cette fonctionnalité pour les utilisateurs de leur organisation.
+The Microsoft Teams Exploratory experience lets users in your organization who have Azure Active Directory (Azure AD) and aren't licensed for Teams initiate an exploratory experience of Teams. Admins can switch this feature on or off for users in their organization.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Qu’est-ce que l’expérience exploratoire Teams ?
 
@@ -118,7 +118,7 @@ Pour désactiver l’accès à Microsoft Teams :
 
 ### <a name="manage-teams-availability-for-users-who-are-already-using-the-teams-exploratory-experience"></a>Gérer la disponibilité Teams pour les utilisateurs qui utilisent déjà l’expérience exploratoire Teams
 
-Si un utilisateur exécute l’expérience exploratoire Teams, vous pouvez la désactiver en supprimant la licence ou le plan de service. Vous devez disposer de privilèges d’administrateur.
+If a user is running the Teams Exploratory experience, you can turn it off by removing the license or service plan. You must have admin privileges.
 
 Pour désactiver la licence de l’expérience Teams Exploratory:
 
