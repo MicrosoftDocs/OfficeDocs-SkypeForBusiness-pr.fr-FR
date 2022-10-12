@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenez des informations détaillées sur les dimensions et les mesures utilisées par le tableau de bord de qualité des appels (CQD) pour Microsoft Teams et Skype Entreprise Online.
-ms.openlocfilehash: 730dd2f127c50d89f97c49c921e6b954a6043f65
-ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
+ms.openlocfilehash: f90db84232e544a6317771bb553733e330df7ce7
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2022
-ms.locfileid: "68218058"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532274"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensions et mesures disponibles dans le tableau de bord qualité des appels (CQD)
 
@@ -135,7 +135,11 @@ Le tableau suivant répertorie les dimensions actuellement disponibles dans CQD,
 | Second OS Architecture  | Chaîne  | Architecture matérielle communiquée par le deuxième point de terminaison. <br/> **Exemple de valeur :** x64  | &bull; Le point de terminaison n’a pas fait état de ces informations <br/>&bull; Le rapport de ce point de terminaison n’a pas été reçu <br/>&bull; Le format de l’architecture n’a pas été reconnu  |
 | First Virtualization Flag  | Énumération <br/>**Valeurs possibles :** <br/> « 0x00 » = Aucun  <br/> « 0x01 » = Hyper-V <br/> « 0x02 » = VMware <br/> « 0x04 » = PC virtuel <br/> « 0x08 » = Xen PC | Indicateur qui indique le type d’environnement de virtualisation signalé par le premier point de terminaison. | <br/>&bull; Les données n’ont pas été signalées par le point de terminaison |
 | Second Virtualization Flag  | Énumération <br/>**Valeurs possibles :** <br/> « 0x00 » = Aucun  <br/> « 0x01 » = Hyper-V <br/> « 0x02 » = VMware <br/> « 0x04 » = PC virtuel <br/> « 0x08 » = Xen PC | Indicateur qui indique le type d’environnement de virtualisation signalé par le deuxième point de terminaison.  | <br/>&bull; Les données n’ont pas été signalées par le point de terminaison |
-|First Endpoint Make |String |Fabricant de l’appareil, les informations sont lues à partir d’un champ EndpointMake de fichier de données de point de terminaison. | <br/>&bull; Aucun fichier de données pour le point de terminaison |
+| Premier nom d’appareil VTC | String | Nom convivial de l’appareil VTC utilisé par le premier point de terminaison | <br/>&bull; Les données n’ont pas été signalées par le point de terminaison <br/>&bull; Le champ est EUII et 28 jours se sont écoulés |
+| Deuxième nom d’appareil VTC | String | Nom convivial de l’appareil VTC utilisé par le deuxième point de terminaison | <br/>&bull; Les données n’ont pas été signalées par le point de terminaison <br/>&bull; Le champ est EUII et 28 jours se sont écoulés |
+| Détails du premier appareil VTC | String | Informations sur la plateforme et la version de l’appareil VTC utilisé par le premier point de terminaison <br/> **Exemple de valeur :** Tandberg, 529 | <br/>&bull; Les données n’ont pas été signalées par le point de terminaison |
+| Deuxième détail de l’appareil VTC | String | Informations sur la plateforme et la version de l’appareil VTC utilisé par le deuxième point de terminaison <br/> **Exemple de valeur :** Tandberg, 529 | <br/>&bull; Les données n’ont pas été signalées par le point de terminaison |
+| First Endpoint Make |String |Fabricant de l’appareil, les informations sont lues à partir d’un champ EndpointMake de fichier de données de point de terminaison. | <br/>&bull; Aucun fichier de données pour le point de terminaison |
 | Premier modèle de point de terminaison |String|Modèle d’appareil, les informations sont lues à partir d’un champ EndpointModel de fichier de données de point de terminaison.| <br/>&bull; Aucun fichier de données pour le point de terminaison |
 | Premier type de point de terminaison|String|Type d’appareil, les informations sont lues à partir d’un champ EndpointType de fichier de données de point de terminaison.| <br/>&bull; Aucun fichier de données pour le point de terminaison |
 | Première étiquette de point de terminaison 1|String|Étiquette personnalisable, les informations sont lues à partir d’un fichier de données de point de terminaison.| <br/>&bull; Aucun fichier de données pour le point de terminaison |

@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Données et informations de confidentialité
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: 5799288005a5d30152a6f810c0aa40d451198390
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 50806ffce468ac9add956d6942c2b3b2e5885125
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270299"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532464"
 ---
 # <a name="approach"></a>Approche
 
@@ -48,8 +48,6 @@ Managed Services atténue les risques associés aux comptes disposant d’un acc
 ## <a name="data-handling"></a>Gestion des données
 
 Microsoft est régi par des normes strictes pour la transmission, le stockage, l’utilisation et la rétention des données. Microsoft dispose de stratégies standard de gestion des données qui réglementent la façon dont les données doivent être gérées en fonction de la classification des données.
-
-
 
 ## <a name="technology-description"></a>Description de la technologie
 
@@ -100,4 +98,8 @@ Managed Services fournit une prise en charge régionale de la résidence des don
 
 ## <a name="more-resources"></a>Plus de ressources
 
-Salles Microsoft Teams Security:/microsoftteams/rooms/security Microsoft Privacy Statement : https://aka.ms/privacy Gestion des données chez Microsoft : https://www.microsoft.com/trust-center/privacy/data-management Description du service Services managés : [Service managé salle Microsoft Teams](microsoft-teams-rooms-premium.md)
+Salles Microsoft Teams pour la sécurité Windows : [[Microsoft Teams pour la sécurité Windows](/microsoftteams/rooms/security-windows) \
+Salles Microsoft Teams pour la sécurité Android : [Sécurité de Microsoft Teams pour Android](/microsoftteams/rooms/security-android) \
+Déclaration de confidentialité Microsoft : https://aka.ms/privacy \
+Gestion des données chez Microsoft : https://www.microsoft.com/trust-center/privacy/data-management \
+Description du service Services managés : [Service managé salle Microsoft Teams](microsoft-teams-rooms-premium.md)

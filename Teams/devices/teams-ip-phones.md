@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams afin de produire les meilleurs résultats.
-ms.openlocfilehash: a13551627b0bd4d41d44e64988452fae59dc7090
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 2ba2b46bb4f6544a6b2c4c4455634aca4c0feef5
+ms.sourcegitcommit: 75a988ce64e3b6668dde3475e5cbf1f26de961ba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376862"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68539653"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Appareils Android certifiés Microsoft Teams
 
@@ -84,6 +84,7 @@ Les appareils suivants sont certifiés dans le cadre du Salles Microsoft Teams s
 | Yealink MeetingBar A20 | `133.15.0.108  `   | 3 septembre 2024 | Petite salle de réunion (4,5 m x 4,5 m)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | 3 septembre 2024 | Pièce de taille moyenne (4,5 m x 6 m) | 10|
 | Logitech Tap IP VR0029     | `1.6.762`  |   3 septembre 2024  | Compatible avec Logitech Rally Bar et Rally Bar Mini | 10 |
+| Barre soignée Pro   | `NFD1.20220914.1210 ` | 3 septembre 2024  |  Pièce de taille moyenne (4,5 m x 6 m) | 10|
 | Barre ordonnée | `NFB1.20220211.1400` |3 septembre 2024|    Petite salle de réunion (4,5 m x 4,5 m) | 10 |
 | Console tactile Neat Pad | `NFA1.20220211.1400`  | 5 août 2023 |  Compatible avec Neat Bar uniquement | 9 |
 | Tableau soigné | `NFC1.20220211.1400 ` | 3 septembre 2024 |    Petite salle de réunion (4,5 m x 4,5 m) | 10 |

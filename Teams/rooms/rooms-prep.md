@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Découvrez comment préparer votre infrastructure pour le déploiement de Salles Microsoft Teams afin de pouvoir tirer parti de toutes les fonctionnalités.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3f0224ebf0c6c8e0f21fe669bb8a92ff345b928b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7006f560c5d0991b74c14fc5eb0b13e829b642d9
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268949"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532224"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -115,7 +115,7 @@ Salles Microsoft Teams est conçu pour hériter des paramètres de proxy du syst
     
 11. De retour dans l’écran de connexion, choisissez l’utilisateur **Skype**. Si toutes les étapes précédentes ont réussi, l’appareil Salles Microsoft Teams se connecte correctement.
     
-Consultez l’article [Sécurité réseau](./security.md#network-security) pour plus d’informations sur les noms de domaine complets, les ports et les plages d’adresses IP requis pour Salles Microsoft Teams.
+Consultez l’article [Sécurité réseau](./security-windows.md#network-security) pour plus d’informations sur les noms de domaine complets, les ports et les plages d’adresses IP requis pour Salles Microsoft Teams.
   
 ### <a name="admin-group-management"></a>Gestion du groupe d’administrateurs
 
@@ -128,7 +128,7 @@ Si vous choisissez de rejoindre un domaine (Azure Active Directory ou Active Dir
 
 ### <a name="microsoft-teams-rooms-local-user-account"></a>Salles Microsoft Teams compte d’utilisateur local
 
-salles Teams inclut un compte local sans mot de passe nommé « Skype ». Ce compte permet de se connecter à Windows pour lancer l’application salles Teams. Il n’est pas pris en charge d’appliquer un mot de passe à ce compte. Pour plus d’informations, consultez [Salles Microsoft Teams Sécurité](security.md).
+salles Teams inclut un compte local sans mot de passe nommé « Skype ». Ce compte permet de se connecter à Windows pour lancer l’application salles Teams. Il n’est pas pris en charge d’appliquer un mot de passe à ce compte. Pour plus d’informations, consultez [Salles Microsoft Teams Sécurité](security-windows.md).
   
 ### <a name="admin---local-administrator-account"></a>"Admin" - Compte d’administrateur local
 
@@ -139,7 +139,7 @@ Salles Microsoft Teams mot de passe par défaut est défini sur « sfb ». Le mo
   
 Le mot de passe de l’administrateur local n’est pas inclus comme alternative lors de l’installation.
 
-Vous pouvez en savoir plus sur le compte Administration dans l’article [Salles Microsoft Teams Sécurité](security.md).
+Vous pouvez en savoir plus sur le compte Administration dans l’article [Salles Microsoft Teams Sécurité](security-windows.md).
   
 ### <a name="machine-account"></a>Compte d’ordinateur
 
@@ -147,7 +147,7 @@ Tout comme n’importe quel appareil Windows, le nom de la machine peut être re
   
 Si vous souhaitez renommer l’ordinateur après l’avoir joint à un domaine, utilisez [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer), une commande PowerShell, suivie du nouveau nom de l’ordinateur.
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Planifier Salles Microsoft Teams](rooms-plan.md)
 

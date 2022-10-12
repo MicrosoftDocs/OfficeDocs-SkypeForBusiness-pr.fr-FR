@@ -17,18 +17,21 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Gestion à distance des paramètres par défaut utilisés par un appareil Salles Microsoft Teams, notamment l’application d’un thème personnalisé et la création d’un fichier de paramètres maîtres.
-ms.openlocfilehash: e09501d4b39ddbb83e914d53fe61bfb97d1a4fa8
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: f0e563935725bf68ebf087d8a58a199683bac70f
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606203"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532254"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gérer à distance les paramètres d’une console Salles Microsoft Teams avec un fichier de configuration XML
 
 Cet article traite de la gestion à distance des paramètres par défaut utilisés par un appareil Salles Microsoft Teams, y compris l’application d’un thème personnalisé. Il explique comment créer un fichier de paramètres maîtres et fournit des liens vers des discussions sur la façon de les placer en fonction des besoins sur salles Teams.
   
-Il est possible de modifier les paramètres par défaut de salles Teams en mettant à jour un fichier XML maître et en envoyant des copies aux appareils salles Teams distants. 
+Il est possible de modifier les paramètres par défaut de salles Teams en mettant à jour un fichier XML maître et en envoyant des copies aux appareils salles Teams distants.
+
+> [!NOTE]
+> Certaines fonctionnalités sont disponibles uniquement sur salles Teams appareils auxquels une licence Salles Microsoft Teams Pro a été attribuée. Pour voir quelles fonctionnalités nécessitent Salles Microsoft Teams Pro, consultez [Salles Microsoft Teams licences](rooms-licensing.md).
   
 ## <a name="create-an-xml-configuration-file"></a>Créer un fichier de configuration XML
 
