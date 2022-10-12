@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbce17ad584fdd4910f11129d2b246e4644e1583
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 0475fd161d3b53a8fc60d3a1419d20e3de2bfada
+ms.sourcegitcommit: bb428cd5805151736f0a6786d737f67f2b3fc918
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377302"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68557477"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Application Walkie Talkie dans Microsoft Teams
 
@@ -111,6 +111,8 @@ Les employés de première ligne ont souvent besoin de parler et de recevoir des
   - Configuration manuelle : une fois Teams installé, accédez aux **boutons Paramètres** > . Sur le bouton Dédié (1 ou 2), sélectionnez **Appuyez longuement**, puis choisissez **l’application PTT**. Sélectionnez la roue bleue en regard de **Custom**, puis sélectionnez **Teams**.
 - Kyocera [DuraForce Ultra 5G](https://kyoceramobile.com/duraforce-ultra-5g/) et [DuraSport 5G](https://kyoceramobile.com/durasport-5g/)
   - Configuration manuelle : une fois Teams installé, accédez aux **clés programmables** **paramètres** > . Choisissez **la touche PTT** ou **Appuyez longuement** (selon l’appareil), puis sélectionnez **Teams**.
+- Honeywell [CT30 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-handheld-computer), [CT30 XP HC](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-hc-mobile-computer), [CT45 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct45-ct45-xp), [EDA51](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/scanpal-eda51-handheld-computer), [EDA52](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/eda52-handheld-computer), [EDA52 HC](https://sps.honeywell.com/gb/en/products/productivity/mobile-computers/healthcare-computers/scanpal-eda52-healthcare-mobile-computer), 
+  - Configuration manuelle : Avec Teams installé, le bouton PTT dédié fonctionne avec Walkie Talkie par défaut.
 - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
   - Configuration manuelle : une fois Teams installé, accédez à La **clé XCover/Active** **des fonctionnalités avancées des paramètres** >  > . Activez la **touche Control XCover avec l’application** , puis sélectionnez **Teams**.
   - [Configuration MDM](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
