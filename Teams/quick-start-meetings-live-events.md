@@ -22,12 +22,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc99785bf5d0450e99022f230af7564693c6da7f
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.openlocfilehash: 2321b4c16938b045cfe281d4cf25d7882d449d9b
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532244"
+ms.locfileid: "68551858"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Réunions, webinaires et événements en direct
 
@@ -54,7 +54,7 @@ Le tableau suivant résume les trois types de réunions, le nombre de participan
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 > [!NOTE]
-> Pour plus d’informations et obtenir des conseils par rôle pour la distribution d’événements en ligne à l’aide de Microsoft Teams, consultez le [playbook d’événements virtuels](https://adoption.microsoft.com/virtual-event-guidance/). Vous pouvez également participer au [Forum des événements virtuels](https://aka.ms/VirtualEventForum) sur le Microsoft Tech Community.
+> Pour plus d’informations et obtenir des conseils par rôle pour la distribution d’événements en ligne à l’aide de Microsoft Teams, consultez le [playbook d’événements virtuels](https://aka.ms/VirtualEventPlaybook). Vous pouvez également participer au [Forum des événements virtuels](https://aka.ms/VirtualEventForum) sur le Microsoft Tech Community.
 
 > [!NOTE]
 > Pour plus d’informations sur la configuration rapide de réunions et d’événements Teams sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).

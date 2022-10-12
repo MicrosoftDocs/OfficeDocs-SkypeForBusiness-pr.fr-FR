@@ -18,16 +18,16 @@ description: Découvrez comment configurer les forfaits d’appels Microsoft et 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9109f26abc953fd131e96440bd62d147cac8114f
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 9c990473a185f4f1a42a5c046b11548892e6df4b
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606033"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551628"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
-Les appels d’urgence dynamiques pour les plans d’appel Microsoft, Operator Connect, Fournisseur de connectivité mobile (préversion publique) et le routage direct permettent de configurer et d’acheminer les appels d’urgence et d’avertir le personnel de sécurité en fonction de l’emplacement actuel du client Teams.  
+Les appels d’urgence dynamiques pour les plans d’appel Microsoft, Operator Connect, Teams Phone Mobile et le routage direct permettent de configurer et de router les appels d’urgence et d’avertir le personnel de sécurité en fonction de l’emplacement actuel du client Teams.  
 
 En fonction de la topologie réseau (éléments réseau associés aux adresses d’urgence) que l’administrateur client définit, le client Teams fournit des informations de connectivité réseau dans une demande au service LIS (Location Information Service). S’il existe une correspondance, le LIS retourne un emplacement au client.
 
@@ -51,7 +51,7 @@ Pour les appels d’urgence dynamiques, les événements suivants doivent se pro
 
 La possibilité d’effectuer un routage automatique vers le point de réponse de sécurité publique (PSAP) approprié varie en fonction du pays d’utilisation de l’utilisateur Teams.
 
-Les forfaits d’appels Microsoft, les partenaires Operator Connect et les partenaires Fournisseur de connectivité mobile incluent des services de routage d’urgence dynamiques pour les utilisateurs du États-Unis et du Canada.
+Les forfaits d’appels Microsoft, les partenaires Operator Connect et les partenaires Teams Phone Mobile incluent des services de routage d’urgence dynamiques pour les utilisateurs du États-Unis et du Canada.
 
 Toutefois, pour le routage direct, une configuration supplémentaire est nécessaire pour le routage des appels d’urgence et éventuellement pour la connectivité des partenaires. L’administrateur doit s’assurer que la passerelle RTC routage de l’appel d’urgence a été configurée pour ajouter des informations d’emplacement à l’invite sortante (en définissant le paramètre PidfloSupported sur True sur l’objet de passerelle PSTN en ligne. En outre, l’administrateur doit configurer la connexion à un fournisseur de services de routage d’urgence (États-Unis et au Canada) **OU** configurer le contrôleur de frontière de session (SBC) pour une application ELIN (Emergency Location Identification Number). Pour plus d’informations sur les fournisseurs ERS, consultez [Les contrôleurs de frontière de session certifiés pour le routage direct](direct-routing-border-controllers.md).
 
@@ -105,7 +105,7 @@ Vous pouvez attribuer des adresses d’urgence comme suit :
 
 - Aux utilisateurs du plan d’appel.
 
-- To Operator Connect et Fournisseur de connectivité mobile utilisateurs&mdash;en fonction des fonctionnalités affectées au numéro lorsque l’opérateur les charge dans l’inventaire d’un client.
+- Pour les utilisateurs&mdash;d’Opérateur Connect et Teams Phone Mobile en fonction des fonctionnalités affectées au numéro lorsque l’opérateur les charge dans l’inventaire d’un client.
 
 - Aux identificateurs réseau requis pour obtenir dynamiquement un emplacement. 
 
@@ -144,7 +144,7 @@ Notez que la propagation de certaines modifications apportées aux paramètres r
 
 
 
-**Pour les utilisateurs plan d’appel, Operator Connect et Fournisseur de connectivité mobile :**
+**Pour les utilisateurs du plan d’appel, de l’opérateur Connect et de Teams Phone Mobile :**
 
 - Si une configuration dynamique de la notification de bureau de sécurité est requise, vous devez configurer à la fois les adresses IP approuvées et les sites réseau.
 
@@ -191,13 +191,13 @@ Utilisez les stratégies suivantes pour configurer les appels d’urgence. Vous 
 
 - **Stratégie de routage des appels d’urgence : s’applique uniquement au routage direct**. Cette stratégie configure les numéros d’urgence, les masques par numéro si vous le souhaitez et l’itinéraire RTC par numéro. Vous pouvez affecter cette stratégie aux utilisateurs, aux sites réseau ou aux deux. Pour plus d’informations, consultez [Gérer les stratégies de routage des appels d’urgence pour le routage direct](manage-emergency-call-routing-policies.md).  
 
-   (Le plan d’appel, l’opérateur Connect et les utilisateurs Fournisseur de connectivité mobile sont automatiquement activés pour les appels d’urgence avec les numéros d’urgence du pays en fonction de leur emplacement d’utilisation microsoft 365 ou Office 365.)
+   (Les utilisateurs forfait d’appel, Opérateur Connect et Teams Phone Mobile sont automatiquement activés pour les appels d’urgence avec les numéros d’urgence du pays en fonction de leur emplacement d’utilisation Microsoft 365 ou Office 365.)
 
-- **Stratégie d’appel d’urgence : s’applique aux forfaits d’appels, à l’opérateur Connect, au Fournisseur de connectivité mobile et au routage direct.** Cette stratégie configure l’expérience de notification du bureau de sécurité lorsqu’un appel d’urgence est effectué. Vous pouvez définir les personnes à notifier et la façon dont elles sont notifiées. Par exemple, pour informer automatiquement le bureau de sécurité de votre organisation et lui demander d’écouter les appels d’urgence.  Cette stratégie peut être affectée à des utilisateurs ou à des sites réseau, ou les deux. Pour en savoir plus, consultez [Gérer les stratégies d’appel d’urgence dans Teams](manage-emergency-calling-policies.md).
+- **Stratégie d’appel d’urgence : s’applique aux forfaits d’appels, à l’opérateur Connect, à Teams Phone Mobile et au routage direct.** Cette stratégie configure l’expérience de notification du bureau de sécurité lorsqu’un appel d’urgence est effectué. Vous pouvez définir les personnes à notifier et la façon dont elles sont notifiées. Par exemple, pour informer automatiquement le bureau de sécurité de votre organisation et lui demander d’écouter les appels d’urgence.  Cette stratégie peut être affectée à des utilisateurs ou à des sites réseau, ou les deux. Pour en savoir plus, consultez [Gérer les stratégies d’appel d’urgence dans Teams](manage-emergency-calling-policies.md).
 
 ## <a name="enable-users-and-sites"></a>Activer les utilisateurs et les sites
 
-Vous pouvez affecter des stratégies de routage des appels d’urgence et des stratégies d’appel d’urgence aux utilisateurs et aux sites. Gardez à l’esprit que les stratégies de routage des appels d’urgence s’appliquent uniquement au routage direct. (Bien qu’il soit possible d’affecter cette stratégie à un plan d’appel, à un opérateur Connect ou à un utilisateur Fournisseur de connectivité mobile, la stratégie n’a aucun effet.)
+Vous pouvez affecter des stratégies de routage des appels d’urgence et des stratégies d’appel d’urgence aux utilisateurs et aux sites. Gardez à l’esprit que les stratégies de routage des appels d’urgence s’appliquent uniquement au routage direct. (Bien qu’il soit possible d’affecter cette stratégie à un utilisateur De plan d’appel, Opérateur Connect ou Teams Phone Mobile, la stratégie n’a aucun effet.)
 
 Vous attribuez des stratégies dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell. Pour en savoir plus, consultez les articles :
 
@@ -236,7 +236,7 @@ Si vous avez affecté une stratégie d’appel d’urgence à un site réseau et
 
 Certains fournisseurs de services de routage d’urgence (ERSP) dans le États-Unis offrent un bot de test d’appel d’urgence.
 
-- **Les utilisateurs du plan d’appel, de l’opérateur Connect et de Fournisseur de connectivité mobile du États-Unis ou du Canada** peuvent utiliser le numéro d’urgence de test 933 prédéfini pour valider leur configuration d’appel d’urgence. Ce numéro est acheminé vers un bot, qui renvoie ensuite le numéro de téléphone de l’appelant (ID de ligne d’appel), l’adresse d’urgence ou l’emplacement, et indique si l’appel serait automatiquement routée vers le PSAP ou filtrée en premier.
+- **Les utilisateurs du plan d’appel, de l’opérateur Connect et de Teams Phone Mobile dans le États-Unis ou au Canada** peuvent utiliser le numéro d’urgence de test 933 prédéfini pour valider leur configuration d’appel d’urgence. Ce numéro est acheminé vers un bot, qui renvoie ensuite le numéro de téléphone de l’appelant (ID de ligne d’appel), l’adresse d’urgence ou l’emplacement, et indique si l’appel serait automatiquement routée vers le PSAP ou filtrée en premier.
 
 - **Les clients de routage direct dans le États-Unis** doivent se coordonner avec leur ERSP pour un service de test.
 

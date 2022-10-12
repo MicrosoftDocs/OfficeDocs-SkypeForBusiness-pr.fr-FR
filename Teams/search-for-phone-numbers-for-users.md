@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment rechercher des numéros de téléphone que vous pouvez affecter à vos utilisateurs, par pays ou région et ville, et spécifiez la quantité de numéros dont vous avez besoin.
-ms.openlocfilehash: b13e2365a3d0fb50e7fef5c7dc6a174d1b7376ff
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: fce7c59ba1d680ca6e364713f611833773111648
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606193"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551508"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>Rechercher des numéros de téléphone pour les utilisateurs
 
@@ -36,9 +36,9 @@ Avant de pouvoir attribuer des numéros de téléphone fournis par Microsoft à 
 
 Si vous sélectionnez Microsoft comme opérateur, vous pouvez acquérir les numéros du Centre d’administration Teams en entrant la quantité de numéros de téléphone dont vous aurez besoin pour vos utilisateurs. La page limite automatiquement la quantité en fonction du nombre que vous avez encore à acquérir. Si vous sélectionnez un opérateur Operator Connect, vous êtes dirigé vers la page d’accueil de l’opérateur sélectionné pour terminer l’ordre des numéros.
 
-La façon dont vous acquérez et gérez des numéros de téléphone diffère en fonction de votre option de connectivité RTC : Forfaits d’appels Microsoft, Opérateur Connect, Fournisseur de connectivité mobile (préversion publique) ou Routage direct.
+La façon dont vous acquérez et gérez des numéros de téléphone diffère en fonction de votre option de connectivité RTC : Forfaits d’appels Microsoft, Connexion d’opérateur, Téléphone Mobile Teams ou Routage direct.
 
-Cet article s’applique à [Microsoft Calling Plans](#search-for-telephone-numbers-for-microsoft-calling-plans), [Operator Connect](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile) et [Fournisseur de connectivité mobile](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile). Pour plus d’informations sur toutes les options, consultez [Gérer les numéros de téléphone de votre organisation](/microsoftteams/manage-phone-numbers-landing-page).
+Cet article s’applique aux [forfaits d’appels Microsoft](#search-for-telephone-numbers-for-microsoft-calling-plans), [à Operator Connect](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile) et [à Teams Phone Mobile](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile). Pour plus d’informations sur toutes les options, consultez [Gérer les numéros de téléphone de votre organisation](/microsoftteams/manage-phone-numbers-landing-page).
 
 ## <a name="search-for-telephone-numbers-for-microsoft-calling-plans"></a>Rechercher des numéros de téléphone pour les forfaits d’appels Microsoft
 
@@ -71,7 +71,7 @@ Pour rechercher des numéros de téléphone pour vos utilisateurs :
 
 9. Lorsque vous revenez à la page **Numéros** de téléphone, sélectionnez le ou les numéros de téléphone que vous souhaitez attribuer, puis cliquez sur **Modifier** pour l’affecter à un utilisateur.
 
-## <a name="search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile"></a>Rechercher des numéros de téléphone pour Operator Connect ou Fournisseur de connectivité mobile
+## <a name="search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile"></a>Rechercher des numéros de téléphone pour Operator Connect ou Teams Phone Mobile
 
 1. Accédez au **Centre d’administration Microsoft Teams**.
 

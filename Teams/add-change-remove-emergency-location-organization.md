@@ -19,22 +19,22 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c0a195a221bff5b008f5754592450f4f2b1e42e6
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 23eb549592c8ead6983253d1a228020f3851e1a7
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606633"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551488"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
-Quelle que soit [l’option de connectivité RTC](pstn-connectivity.md) que vous choisissez, vous pouvez associer&mdash;des plans d’appel Microsoft, Operator Connect, Fournisseur de connectivité mobile (préversion publique) ou des emplacements d’urgence de routage&mdash;direct à un numéro de téléphone.
+Quelle que soit [l’option de connectivité RTC](pstn-connectivity.md) que vous choisissez&mdash;, les plans d’appel Microsoft, Operator Connect, Teams Phone Mobile ou les emplacements d’urgence de routage&mdash;direct peuvent être associés à un numéro de téléphone.
 
 Toutefois, selon votre option de connectivité RTC, la façon dont vous gérez les emplacements d’urgence et les exigences d’emplacement peut varier. Pour plus d’informations, consultez [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md).
 
 Cet article explique comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation. 
 
-Cet article s’applique aux forfaits d’appels Microsoft, à Operator Connect, Fournisseur de connectivité mobile (préversion publique) et au routage direct.
+Cet article s’applique aux forfaits d’appels Microsoft, à Operator Connect, à Teams Phone Mobile et au routage direct.
 
 Vous gérez les emplacements d’urgence de votre organisation dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell.
 

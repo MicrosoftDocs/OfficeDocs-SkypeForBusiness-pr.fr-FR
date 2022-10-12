@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment ajouter, modifier ou supprimer un emplacement pour un emplacement d’urgence pour votre organisation.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 37ccf72868819c515a2f7320b112f81f31f65a34
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 5ddaaf2e6c173b6546d337ebfc9f23464a52233c
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606713"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551498"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation
 
@@ -34,7 +34,7 @@ Toutefois, selon votre option de connectivité RTC, la façon dont vous gérez l
 
 Cet article explique comment ajouter, modifier ou supprimer un *emplacement* d’urgence pour votre organisation.
 
-Cet article s’applique aux forfaits d’appels Microsoft, à Operator Connect, Fournisseur de connectivité mobile (préversion publique) et au routage direct.
+Cet article s’applique aux forfaits d’appels Microsoft, à Operator Connect, à Teams Phone Mobile et au routage direct.
 
 Vous gérez les emplacements d’urgence de votre organisation dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell.
   

@@ -25,12 +25,12 @@ search.appverid: MET150
 description: En savoir plus sur les options d’appel Teams (connectivité RTC) et les décisions que vous prendrez pour votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f547528f39e92be1660f670cad44c66726fe3ef2
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: 974418a6a1cf963b66b1f0a8667c5ed75b73f72b
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999639"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551698"
 ---
 # <a name="pstn-connectivity-options"></a>Options de connectivité RTC
 
@@ -44,7 +44,7 @@ Pour connecter le système téléphonique au rtc, vous pouvez choisir parmi les 
 
 - [**Connect de l’opérateur**](#phone-system-with-operator-connect). Avec Operator Connect, si votre opérateur existant participe au programme Microsoft Operator Connect, il peut gérer les contrôleurs de frontière de session et d’appel RTC.
 
-- [**Fournisseur de connectivité mobile**](#phone-system-with-operator-connect-mobile). Avec Fournisseur de connectivité mobile, le numéro de téléphone d’un utilisateur compatible SIM est également son numéro de téléphone Teams. Si votre opérateur existant participe au programme Microsoft Fournisseur de connectivité mobile, il peut gérer le service d’appel RTC à Teams.  **Fournisseur de connectivité mobile est une préversion publique.**
+- [**Teams Phone Mobile**](#phone-system-with-teams-phone-mobile). Avec Téléphonie Microsoft Teams Mobile, le numéro de téléphone d’un utilisateur compatible SIM est également son numéro de téléphone Teams. Si votre opérateur existant participe au programme Téléphonie Microsoft Teams Mobile, il peut gérer le service d’appel RTC à Teams.  
 
 - [**Le routage direct**](#phone-system-with-direct-routing), qui vous permet d’utiliser votre propre opérateur RTC en connectant vos contrôleurs de frontière de session (SBC) au système téléphonique.
 
@@ -93,21 +93,19 @@ Operator Connect peut être la solution appropriée pour votre organisation si :
 
 Pour plus d’informations sur les avantages et les exigences d’Operator Connect et pour obtenir la liste des transporteurs participant à ce programme, consultez [Plan Operator Connect](operator-connect-plan.md). Pour plus d’informations sur la configuration de Operator Connect, consultez [Configurer Operator Connect](operator-connect-configure.md).
 
-## <a name="phone-system-with-operator-connect-mobile"></a>Système téléphonique avec Fournisseur de connectivité mobile
+## <a name="phone-system-with-teams-phone-mobile"></a>Système téléphonique avec Teams Phone Mobile
 
-**Fournisseur de connectivité mobile est une préversion publique.**
+Si votre opérateur existant participe au programme Téléphonie Microsoft Teams Mobile, il peut gérer le service d’appel RTC à Teams. Avec Teams Phone Mobile, le numéro de téléphone d’un utilisateur compatible SIM est également son numéro de téléphone Teams.  Les utilisateurs peuvent utiliser un seul numéro de téléphone dans Microsoft Teams sur leurs lignes de service mobile et de bureau.  
 
-Si votre opérateur existant participe au programme Microsoft Fournisseur de connectivité mobile, il peut gérer le service d’appel RTC à Teams. Avec Fournisseur de connectivité mobile, le numéro de téléphone d’un utilisateur compatible SIM est également son numéro de téléphone Teams.  Les utilisateurs peuvent utiliser un seul numéro de téléphone dans Microsoft Teams sur leurs lignes de service mobile et de bureau.  
+Vous pouvez envisager une combinaison de services. Par exemple, vous pouvez choisir Teams Phone Mobile pour vos organisations de vente et de terrain qui nécessitent une prise en charge mobile, mais une autre solution pour votre organisation de centre d’appels local qui s’appuie sur des téléphones de bureau. 
 
-Vous pouvez envisager une combinaison de services. Par exemple, vous pouvez choisir Fournisseur de connectivité mobile pour vos organisations commerciales et de terrain qui nécessitent une prise en charge mobile, mais une autre solution pour votre organisation de centre d’appels local qui s’appuie sur des téléphones de bureau. 
-
-Fournisseur de connectivité mobile peut être la solution appropriée pour votre organisation si :
+Teams Phone Mobile peut être la solution appropriée pour votre organisation si :
 
 - Vous souhaitez utiliser un numéro de téléphone mobile sim principal appartenant à l’entreprise pour Teams Phone en tant que solution à numéro unique.
-- Votre opérateur préféré participe au programme Microsoft Fournisseur de connectivité mobile.
+- Votre opérateur préféré participe au programme Téléphonie Microsoft Teams Mobile.
 - Vous souhaitez trouver un nouvel opérateur pour activer l’appel dans Teams.
 
-Pour plus d’informations sur les avantages et les exigences de Fournisseur de connectivité mobile et pour obtenir des liens vers les transporteurs participant à ce programme, consultez [Plan Fournisseur de connectivité mobile](operator-connect-mobile-plan.md). Pour plus d’informations sur la configuration de Fournisseur de connectivité mobile, consultez [Configurer Fournisseur de connectivité mobile](operator-connect-mobile-configure.md).
+Pour plus d’informations sur les avantages et les exigences de Teams Phone Mobile et pour obtenir des liens vers les opérateurs participant à ce programme, consultez [Plan Teams Phone Mobile](operator-connect-mobile-plan.md). Pour plus d’informations sur la configuration de Teams Phone Mobile, consultez [Configurer Teams Phone Mobile](operator-connect-mobile-configure.md).
 
 ## <a name="phone-system-with-direct-routing"></a>Système téléphonique avec routage direct
 
@@ -161,7 +159,7 @@ Le tableau suivant met en évidence les principales différences de configuratio
 | :------------| :-------| :-------| :-------| :-------| 
 | Forfaits d’appel | -Microsoft agit comme opérateur RTC.<br>-Vous n’avez pas besoin d’acheter ou de gérer des SBC.| Obtenu par le biais de Microsoft.| -Géré par Microsoft. <br> -Administration configure les plans de numérotation utilisateur pour la traduction de numéros. | -Activé par Microsoft. <br> -Administration inscrit des adresses. <br> -Appels dynamiques pris en charge. |
 | Connexion d’opérateur | -Carrier gère la connectivité RTC et les SBC. <br> -Vous n’avez pas besoin d’acheter ou de gérer des SBC. | -Obtenu par le biais du transporteur. <br> - Numéros associés aux adresses d’urgence gérées par le transporteur. | -Géré par le transporteur. <br>-Administration configure les plans de numérotation utilisateur pour la traduction de numéros. | -Activé par le transporteur. <br> -Administration inscrit des adresses. <br> -Appels dynamiques pris en charge. |
-| Fournisseur de connectivité mobile | -Carrier gère SIM-Enabled numéro mobile, la connectivité RTC et les SBC. <br> -Vous n’avez pas besoin d’acheter ou de gérer des SBC. | -Obtenu par le biais du transporteur. <br> - Numéros associés aux adresses d’urgence gérées par le transporteur. | -Géré par le transporteur. <br> Administration configure les plans de numérotation utilisateur pour la traduction de numéros. |- Activé par le transporteur. <br> - Administration inscrit des adresses. <br> - Appels dynamiques pris en charge. <br> - Le transporteur a pris en charge les appels d’urgence des appelants natifs. |
+| Teams Phone Mobile | -Carrier gère SIM-Enabled numéro mobile, la connectivité RTC et les SBC. <br> -Vous n’avez pas besoin d’acheter ou de gérer des SBC. | -Obtenu par le biais du transporteur. <br> - Numéros associés aux adresses d’urgence gérées par le transporteur. | -Géré par le transporteur. <br> Administration configure les plans de numérotation utilisateur pour la traduction de numéros. |- Activé par le transporteur. <br> - Administration inscrit des adresses. <br> - Appels dynamiques pris en charge. <br> - Le transporteur a pris en charge les appels d’urgence des appelants natifs. |
 | Routage direct | - Nécessite un SBC certifié acheté auprès d’un fournisseur tiers.<br>-Connectez votre SBC au système téléphonique.<br> -Utilisez votre opérateur RTC existant. | Obtenu par l’intermédiaire du transporteur. | - Nécessite une configuration supplémentaire par l’administrateur.<br>-Administration configure les plans de numérotation de jonction pour la traduction de numéros. <br>-LBR disponible pour restreindre le contournement des péages. | - Nécessite une configuration supplémentaire par l’administrateur. <br>-Adresses inscrites non prises en charge. <br>-Appels dynamiques pris en charge, mais nécessite une configuration supplémentaire. |
 
 
@@ -181,7 +179,7 @@ La façon dont vous acquérez et gérez des numéros de téléphone diffère en 
 
 - Pour plus d’informations sur la gestion des numéros de téléphone avec Operator Connect, consultez [Configurer des numéros de téléphone avec Operator Connect](operator-connect-configure.md#set-up-phone-numbers).
 
-- Pour plus d’informations sur la gestion des numéros de téléphone avec Fournisseur de connectivité mobile, consultez [Configurer des numéros de téléphone avec Fournisseur de connectivité mobile](operator-connect-mobile-configure.md#set-up-phone-numbers).
+- Pour plus d’informations sur la gestion des numéros de téléphone avec Teams Phone Mobile, consultez [Configurer des numéros de téléphone avec Teams Phone Mobile](operator-connect-mobile-configure.md#set-up-phone-numbers).
 
 - Pour plus d’informations sur la gestion des numéros de téléphone pour le routage direct, consultez [Configurer le numéro de téléphone et activer la voix d’entreprise](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 
@@ -191,7 +189,7 @@ La façon dont vous configurez le routage des appels varie en fonction de votre 
 
 - Pour les forfaits d’appels, la plupart du routage des appels est géré par l’infrastructure du plan d’appel Microsoft. Vous configurez des plans de numérotation utilisateur à des fins de traduction de numéros pour l’autorisation d’appel et le routage des appels. Pour plus d’informations, consultez [Que sont les plans de numérotation ?](what-are-dial-plans.md)
 
-- Pour Operator Connect et Fournisseur de connectivité mobile, la plupart du routage des appels est géré par le transporteur. Vous configurez des plans de numérotation utilisateur à des fins de traduction de numéros pour l’autorisation d’appel et le routage des appels. Pour plus d’informations, consultez [Que sont les plans de numérotation ?](what-are-dial-plans.md)
+- Pour Operator Connect et Teams Phone Mobile, la plupart du routage des appels est géré par l’opérateur. Vous configurez des plans de numérotation utilisateur à des fins de traduction de numéros pour l’autorisation d’appel et le routage des appels. Pour plus d’informations, consultez [Que sont les plans de numérotation ?](what-are-dial-plans.md)
 
 - Pour le routage direct, vous devez configurer le routage des appels en spécifiant les itinéraires vocaux et en attribuant des stratégies de routage vocal aux utilisateurs. Vous pouvez configurer des plans de numérotation pour la traduction de numéros au niveau du tronçon pour garantir l’interopérabilité avec les contrôleurs de frontière de session (SBC). Pour plus d’informations, consultez [Configurer le routage vocal pour le routage direct](direct-routing-voice-routing.md), [Gérer les stratégies de routage vocal](manage-voice-routing-policies.md) et [Traduire les numéros de téléphone](direct-routing-translate-numbers.md). 
 
@@ -213,7 +211,7 @@ La façon dont vous configurez les appels d’urgence diffère en fonction de vo
 
 - Pour Operator Connect, chaque utilisateur est automatiquement activé pour les appels d’urgence. L’utilisateur doit disposer d’une adresse d’urgence inscrite associée à son numéro de téléphone affecté. Les appels d’urgence dynamiques (en fonction de l’emplacement du client Teams) sont pris en charge. Pour plus d’informations, consultez [Considérations relatives à Operator Connect](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-operator-connect). 
 
-- Pour Fournisseur de connectivité mobile, chaque utilisateur est automatiquement activé pour les appels d’urgence. Les appels d’urgence sont acheminés automatiquement vers le transporteur Fournisseur de connectivité mobile pour un numéro donné. Les appels d’urgence dynamiques (en fonction de l’emplacement du client Teams) sont pris en charge. Pour plus d’informations, consultez [Considérations relatives aux Fournisseur de connectivité mobile](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-operator-connect-mobile). 
+- Pour Teams Phone Mobile, chaque utilisateur est automatiquement activé pour les appels d’urgence. Les appels d’urgence sont acheminés automatiquement vers l’opérateur Mobile Mobile Teams pour un numéro donné. Les appels d’urgence dynamiques (en fonction de l’emplacement du client Teams) sont pris en charge. Pour plus d’informations, consultez [Considérations relatives à Teams Phone Mobile](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-teams-phone-mobile). 
 
 - Pour le routage direct, vous devez définir des stratégies d’appel d’urgence pour les utilisateurs à l’aide d’une stratégie de routage des appels d’urgence Teams (TeamsEmergencyCallRoutingPolicy). La stratégie définit les numéros d’urgence et leur destination de routage associée. Les emplacements d’urgence inscrits ne sont pas pris en charge pour les utilisateurs de routage direct. Pour les appels d’urgence dynamiques, une configuration supplémentaire est requise pour le routage des appels d’urgence et éventuellement pour la connectivité des partenaires. Pour plus d’informations, consultez [Considérations relatives au routage direct](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing).
 

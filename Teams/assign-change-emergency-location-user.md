@@ -18,22 +18,22 @@ f1.keywords:
 - NOCSH
 description: Dans cet article, vous allez découvrir comment affecter ou modifier un emplacement d’urgence pour les utilisateurs de votre organisation.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2562661a08c98c15a24a5e7db6a0f31dee864573
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: a43ca031b8787d62639e141c3f733acdb402f85a
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606603"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551648"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Affecter ou modifier un emplacement d’urgence pour un utilisateur
 
-Quelle que soit [l’option de connectivité RTC](pstn-connectivity.md), vous choisissez&mdash;Plans d’appel Microsoft, Opérateur Connect, Fournisseur de connectivité mobile (préversion publique) ou Routage&mdash;direct, un emplacement d’urgence doit être affecté à chaque numéro de téléphone ou utilisateur.
+Quelle que soit [l’option de connectivité RTC](pstn-connectivity.md) que vous choisissez, vous choisissez&mdash;Plans d’appel Microsoft, Opérateur Connect, Teams Phone Mobile ou Routage&mdash;direct, un emplacement d’urgence doit être attribué à chaque numéro de téléphone ou utilisateur.
 
 Toutefois, selon votre option de connectivité RTC, la façon dont vous gérez et affectez des emplacements d’urgence pour un utilisateur peut varier. Pour plus d’informations, consultez [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md).
 
 Cet article explique comment affecter ou modifier un emplacement d’urgence pour un utilisateur. 
 
-Cet article s’applique aux forfaits d’appels, à Operator Connect et Fournisseur de connectivité mobile (préversion publique).
+Cet article s’applique aux forfaits d’appels, à Operator Connect et à Teams Phone Mobile.
   
 Vous pouvez affecter ou modifier un emplacement d’urgence pour un utilisateur dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell.
 

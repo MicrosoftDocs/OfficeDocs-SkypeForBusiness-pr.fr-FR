@@ -20,20 +20,20 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment affecter, modifier ou supprimer un numéro de téléphone professionnel pour vos utilisateurs Teams afin que les entreprises et les clients externes puissent appeler.
-ms.openlocfilehash: 1a959fd61200e7718cf1e14586d0060fb0e996ec
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: d26df14f2f75e205c1824b66c9b8f2f394972d43
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606643"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551658"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affectation, modification ou suppression du numéro de téléphone d’un utilisateur
 
-Lorsque vous configurez des forfaits d’appels, operator connect ou Fournisseur de connectivité mobile (préversion publique), vous attribuez des numéros de téléphone à vos utilisateurs. Dans Microsoft Teams, le numéro de téléphone que vous attribuez est répertorié lorsqu’un utilisateur clique sur **Appels**.
+Lorsque vous configurez des forfaits d’appels, Operator Connect ou Teams Phone Mobile, vous attribuez des numéros de téléphone à vos utilisateurs. Dans Microsoft Teams, le numéro de téléphone que vous attribuez est répertorié lorsqu’un utilisateur clique sur **Appels**.
 
-Cet article s’applique aux forfaits d’appels, à Operator Connect et Fournisseur de connectivité mobile (préversion publique). Pour plus d’informations sur l’attribution, la modification ou la suppression d’un numéro de téléphone d’un utilisateur dans un scénario de routage direct, consultez [Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale](./direct-routing-enable-users.md).
+Cet article s’applique aux forfaits d’appels, à Operator Connect et à Teams Phone Mobile. Pour plus d’informations sur l’attribution, la modification ou la suppression d’un numéro de téléphone d’un utilisateur dans un scénario de routage direct, consultez [Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale](./direct-routing-enable-users.md).
 
-Avant d’attribuer un numéro pour un plan d’appel, operator connect ou Fournisseur de connectivité mobile utilisateur, vous devez obtenir des numéros pour vos utilisateurs. Pour plus d’informations, consultez [Obtenir des numéros pour les utilisateurs du plan d’appel](getting-phone-numbers-for-your-users.md), [configurer des numéros pour les utilisateurs Operator Connect](operator-connect-configure.md#set-up-phone-numbers) ou [configurer des numéros pour Fournisseur de connectivité mobile utilisateurs](operator-connect-mobile-configure.md).
+Avant d’attribuer un numéro pour un utilisateur forfait d’appels, Opérateur Connect ou Teams Phone Mobile, vous devez obtenir des numéros pour vos utilisateurs. Pour plus d’informations, consultez [Obtenir des numéros pour les utilisateurs du forfait d’appels](getting-phone-numbers-for-your-users.md), [configurer des numéros pour les utilisateurs d’Opérateur Connect](operator-connect-configure.md#set-up-phone-numbers) ou [configurer des numéros pour les utilisateurs Teams Phone Mobile](operator-connect-mobile-configure.md).
 
 > [!NOTE]
 > Une façon de voir si une licence est attribuée à un utilisateur consiste à accéder au Centre d’administration Microsoft Teams > **Utilisateurs**. Si une licence est attribuée, elle est indiquée sur la page.  Vous pouvez également utiliser le Centre d'administration Microsoft 365.
@@ -64,7 +64,7 @@ Pour les numéros Operator Connect :
 Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
-Pour Fournisseur de connectivité mobile nombres :
+Pour les numéros de téléphone mobile Teams :
 
 ```PowerShell
 Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OCMobile
@@ -108,7 +108,7 @@ Pour modifier un numéro de téléphone pour un utilisateur à l’aide du Centr
 8. Pour affecter ou modifier l’emplacement d’urgence associé, sous **Emplacement d’urgence**, recherchez et sélectionnez l’emplacement.
 
       > [!NOTE]
-      > Si vous modifiez des numéros pour les utilisateurs Operator Connect ou Fournisseur de connectivité mobile, vous pouvez ou non être en mesure d’affecter ou de modifier l’emplacement d’urgence associé. Cette fonctionnalité dépend de votre opérateur. Pour plus d’informations, contactez votre opérateur.
+      > Si vous modifiez des numéros pour les utilisateurs d’Opérateur Connect ou teams Phone Mobile, vous pouvez ou non être en mesure d’affecter ou de modifier l’emplacement d’urgence associé. Cette fonctionnalité dépend de votre opérateur. Pour plus d’informations, contactez votre opérateur.
 
 9. Cliquez sur **Enregistrer**.
 

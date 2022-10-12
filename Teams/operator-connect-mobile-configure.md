@@ -1,5 +1,5 @@
 ---
-title: Configurer Fournisseur de connectivité mobile
+title: Configurer Teams Phone Mobile
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -12,24 +12,24 @@ ms.collection:
 - m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
-description: Découvrez comment configurer Fournisseur de connectivité mobile.
+description: En savoir plus sur la configuration de Teams Phone Mobile.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ca49ac8cb74bcb61cd8c1d8fc2056c69a89d715
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: e3e0e5c349610e9f8ad73b9b7a50b4c219304ea4
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606878"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551678"
 ---
-# <a name="configure-operator-connect-mobile"></a>Configurer Fournisseur de connectivité mobile
+# <a name="configure-teams-phone-mobile"></a>Configurer Teams Phone Mobile
 
-**Fournisseur de connectivité mobile est une préversion publique.** Pour obtenir la liste des opérateurs participant au programme Microsoft Fournisseur de connectivité mobile et des pays ou régions où leur service est disponible, consultez [Microsoft 365 Fournisseur de connectivité mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
+Pour obtenir la liste des opérateurs participant au programme Téléphonie Microsoft Teams Mobile et des pays ou régions où leur service est disponible, consultez [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
 
-Cet article explique comment configurer Fournisseur de connectivité mobile. Avant de configurer Fournisseur de connectivité mobile, veillez à lire [Plan for Fournisseur de connectivité mobile pour](operator-connect-mobile-plan.md) plus d’informations sur les avantages, les prérequis et les licences.
+Cet article explique comment configurer Teams Phone Mobile. Avant de configurer Teams Phone Mobile, veillez à lire [Plan for Teams Phone Mobile pour](operator-connect-mobile-plan.md) plus d’informations sur les avantages, les prérequis et les licences.
 
 ## <a name="enable-an-operator"></a>Activer un opérateur
 
@@ -37,11 +37,11 @@ Vous pouvez activer, modifier et supprimer des opérateurs dans le Centre d’ad
 
 Pour activer un opérateur :
 
-1. Choisissez un opérateur qui prend en charge Fournisseur de connectivité mobile. Sous l’onglet **Tous les opérateurs**, filtrez les opérateurs disponibles par région ou service pour rechercher l’opérateur approprié prenant en charge Fournisseur de connectivité mobile. Sélectionnez ensuite l’opérateur que vous souhaitez activer.
+1. Choisissez un opérateur qui prend en charge Teams Phone Mobile. Sous l’onglet **Tous les opérateurs** , filtrez les opérateurs disponibles par région ou service pour trouver l’opérateur approprié prenant en charge Teams Phone Mobile. Sélectionnez ensuite l’opérateur que vous souhaitez activer.
 
 2. Sous **Paramètres de l’opérateur**, sélectionnez les pays que vous souhaitez activer avec votre opérateur sélectionné.
 
-3. **Fournissez des informations de contact.** Vos informations de contact, y compris votre nom complet et votre adresse e-mail, seront partagées automatiquement avec votre opérateur. Vous pouvez modifier ces informations ultérieurement. En outre, vous devez fournir la taille de l’entreprise, et vous aurez la possibilité de fournir votre numéro de téléphone. Les opérateurs utiliseront ces informations pour vous contacter avec plus de détails sur Fournisseur de connectivité mobile.
+3. **Fournissez des informations de contact.** Vos informations de contact, y compris votre nom complet et votre adresse e-mail, seront partagées automatiquement avec votre opérateur. Vous pouvez modifier ces informations ultérieurement. En outre, vous devez fournir la taille de l’entreprise, et vous aurez la possibilité de fournir votre numéro de téléphone. Les opérateurs utiliseront ces informations pour vous contacter avec plus de détails sur Teams Phone Mobile.
 
 4. Acceptez l’avis de transfert de données.
 
@@ -49,9 +49,9 @@ Pour activer un opérateur :
 
 ## <a name="set-up-phone-numbers"></a>Configurer des numéros de téléphone
 
-Si vous souhaitez ajouter des numéros de téléphone avec carte SIM payante de votre entreprise à Teams, contactez votre opérateur pour vous assurer que vous disposez de l’abonnement Fournisseur de connectivité mobile éligible et qu’il peut charger vos numéros dans Teams. Une fois que votre opérateur a terminé la commande, vous pouvez affecter ces numéros aux utilisateurs. 
+Si vous souhaitez ajouter des numéros de téléphone avec carte SIM payante de votre entreprise existante à Teams, contactez votre opérateur pour vous assurer que vous disposez de l’abonnement Mobile Mobile Teams éligible et qu’il peut charger vos numéros dans Teams. Une fois que votre opérateur a terminé la commande, vous pouvez affecter ces numéros aux utilisateurs. 
 
-Pour trouver le site web de votre opérateur, consultez le [répertoire Microsoft 365 Operator Connect](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
+Pour trouver le site web de votre opérateur, consultez le [répertoire Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
 
 Vous devez fournir votre ID de locataire. Si vous ne connaissez pas votre ID de locataire, consultez [Rechercher votre ID de locataire Microsoft 365](/onedrive/find-your-office-365-tenant-id.md). Vous pouvez porter un numéro de téléphone de bureau ou un numéro de téléphone filaire existant vers un abonnement vocal sans fil s’il est pris en charge dans votre région et par votre opérateur. 
 
@@ -59,11 +59,11 @@ La façon dont vous configurez les numéros de téléphone varie selon que vous 
 
 - [Acquérir des numéros pour les nouveaux utilisateurs Teams](#acquire-numbers-for-new-teams-users).  
 
-- [Déplacez les numéros des forfaits d’appels vers Fournisseur de connectivité mobile](#move-numbers-from-calling-plans-to-operator-connect-mobile).  
+- [Déplacez les numéros des forfaits d’appels vers Teams Phone Mobile](#move-numbers-from-calling-plans-to-teams-phone-mobile).  
 
-- [Déplacez les numéros de l’opérateur Connect vers Fournisseur de connectivité mobile](#move-numbers-from-operator-connect-to-operator-connect-mobile).  
+- [Déplacer des numéros d’Opérateur Connect vers Teams Phone Mobile](#move-numbers-from-operator-connect-to-teams-phone-mobile).  
 
-- [Déplacez les nombres du routage direct vers Fournisseur de connectivité mobile](#move-numbers-from-direct-routing-to-operator-connect-mobile).  
+- [Déplacer des numéros du routage direct vers Teams Phone Mobile](#move-numbers-from-direct-routing-to-teams-phone-mobile).  
 
 
 ### <a name="assign-numbers-to-emergency-addresses"></a>Affecter des numéros à des adresses d’urgence
@@ -86,45 +86,45 @@ Pour plus d’informations sur les appels d’urgence, consultez [Gérer les app
 
 Pour acquérir des numéros pour les nouveaux utilisateurs teams, procédez comme suit :
 
-1. **Attribuez une licence de système téléphonique et une licence de module complémentaire Fournisseur de connectivité mobile.** Vous pouvez attribuer une licence système téléphonique et une licence de module complémentaire Fournisseur de connectivité mobile à vos utilisateurs à partir du Centre d'administration Microsoft 365 ou à l’aide de PowerShell. Pour plus d’informations, consultez [Affecter des licences de module complémentaire Teams aux utilisateurs](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+1. **Attribuez une licence système téléphonique et une licence de module complémentaire Teams Phone Mobile.** Vous pouvez attribuer une licence système téléphonique et une licence de module complémentaire Teams Phone Mobile à vos utilisateurs à partir du Centre d'administration Microsoft 365 ou à l’aide de PowerShell. Pour plus d’informations, consultez [Affecter des licences de module complémentaire Teams aux utilisateurs](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
-2. **Les utilisateurs qui recevront des numéros de téléphone acquis avec Fournisseur de connectivité mobile doivent être en mode TeamsOnly.** Si votre organisation est en mode TeamsOnly, tous vos utilisateurs sont en mode TeamsOnly. 
+2. **Les utilisateurs qui recevront des numéros de téléphone acquis avec Teams Phone Mobile doivent être en mode TeamsOnly.** Si votre organisation est en mode TeamsOnly, tous vos utilisateurs sont en mode TeamsOnly. 
 
-   Pour vérifier, dans le Centre d’administration Teams, accédez aux **paramètres de mise à niveau teams > Teams**. Si votre organisation est en mode Îles, vérifiez si des utilisateurs spécifiques sont en mode TeamsOnly. Accédez à **Utilisateurs** et sélectionnez un compte d’utilisateur. Sous l’onglet **Compte** , sous **Mise à niveau de Teams,** le mode de coexistence doit être défini sur « TeamsOnly ».
+   Pour vérifier, dans le Centre d’administration Teams, accédez aux **paramètres de mise à niveau teams > Teams**. Si votre organisation est en mode Îles, vérifiez si des utilisateurs spécifiques sont en mode TeamsOnly. Accédez à **Utilisateurs** et sélectionnez un compte d’utilisateur. Sous l’onglet **Compte** , sous **Mise à niveau de Teams,** le mode de coexistence doit être défini sur TeamsOnly.
 
-3. **Acquérir des nombres.** Accédez au site web de votre opérateur ou contactez-le pour commander et acquérir des numéros de téléphone avec carte SIM mobile avec le service Fournisseur de connectivité mobile activé. 
+3. **Acquérir des nombres.** Accédez au site web de votre opérateur ou contactez-le pour commander et acquérir des numéros de téléphone mobiles compatibles SIM avec le service Mobile Mobile Teams activé. 
 
    Une fois que votre opérateur aura terminé la commande, il chargera les numéros mobiles compatibles SIM sur votre locataire. Vous pouvez afficher les numéros et le fournisseur dans le Centre d’administration Teams en accédant à **Voice > Numéros de téléphone**. 
 
 4. **Attribuez des nombres.** Vous pouvez affecter des numéros aux utilisateurs à partir du Centre d’administration Teams ou à l’aide de PowerShell. Pour plus d’informations, consultez [Affecter des numéros](assign-change-or-remove-a-phone-number-for-a-user.md).
 
-### <a name="move-numbers-from-calling-plans-to-operator-connect-mobile"></a>Déplacer des numéros des forfaits d’appels vers Fournisseur de connectivité mobile
+### <a name="move-numbers-from-calling-plans-to-teams-phone-mobile"></a>Déplacer des numéros des forfaits d’appels vers Teams Phone Mobile
 
-1. Vérifiez que vous disposez d’abonnements Microsoft 365 éligibles pour Fournisseur de connectivité mobile et la licence de module complémentaire Fournisseur de connectivité mobile. Vous devez [supprimer le numéro de téléphone à déplacer pour les utilisateurs respectifs](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user). 
+1. Assurez-vous que vous disposez d’abonnements Microsoft 365 éligibles pour Teams Phone Mobile et la licence de module complémentaire Teams Phone Mobile. Vous devez [supprimer le numéro de téléphone à déplacer pour les utilisateurs respectifs](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user). 
 
-2. Contactez votre opérateur pour transférer vos numéros vers Fournisseur de connectivité mobile sur un plan vocal sans fil éligible qui est compatible SIM. 
+2. Contactez votre opérateur pour porter vos numéros vers Teams Phone Mobile sur un plan vocal sans fil éligible qui est compatible SIM. 
 
 3. Une fois que votre opérateur a terminé l’ordre de portage, il charge les numéros vers votre locataire.  Vous pouvez afficher les numéros et le fournisseur dans le Centre d’administration Teams en accédant à **Voice > Numéros de téléphone**. 
 
 4. Vous pouvez affecter des numéros aux utilisateurs à l’aide du Centre d’administration Teams ou de PowerShell. Pour plus d’informations, consultez [Affecter des numéros](assign-change-or-remove-a-phone-number-for-a-user.md).
 
-### <a name="move-numbers-from-operator-connect-to-operator-connect-mobile"></a>Déplacer des numéros de l’opérateur Connect vers Fournisseur de connectivité mobile
+### <a name="move-numbers-from-operator-connect-to-teams-phone-mobile"></a>Déplacer des numéros d’Opérateur Connect vers Teams Phone Mobile
 
-1. Vérifiez que vous disposez d’abonnements Microsoft 365 éligibles pour Fournisseur de connectivité mobile et la licence de module complémentaire Operator Connect. Vous devez [supprimer le numéro de téléphone à déplacer pour les utilisateurs respectifs](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user). Contactez votre fournisseur Operator Connect existant pour supprimer les numéros de téléphone de votre locataire.
+1. Assurez-vous que vous disposez d’abonnements Microsoft 365 éligibles pour Teams Phone Mobile et la licence de module complémentaire Teams Phone Mobile. Vous devez [supprimer le numéro de téléphone à déplacer pour les utilisateurs respectifs](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user). Contactez votre fournisseur Operator Connect existant pour supprimer les numéros de téléphone de votre locataire.
 
-2. Contactez votre opérateur pour transférer vos numéros vers Fournisseur de connectivité mobile sur un plan vocal sans fil éligible qui est compatible SIM. 
+2. Contactez votre opérateur pour porter vos numéros vers Teams Phone Mobile sur un plan vocal sans fil éligible qui est compatible SIM. 
 
 3. Une fois que votre opérateur a terminé l’ordre de portage, il charge les numéros vers votre locataire. Vous pouvez afficher les numéros et le fournisseur dans le Centre d’administration Teams en accédant à **Voice > Numéros de téléphone**. 
 
 4. Vous pouvez affecter des numéros aux utilisateurs à l’aide du Centre d’administration Teams ou de PowerShell. Pour plus d’informations, consultez [Affecter des numéros](assign-change-or-remove-a-phone-number-for-a-user.md).
 
-### <a name="move-numbers-from-direct-routing-to-operator-connect-mobile"></a>Déplacer des nombres du routage direct vers Fournisseur de connectivité mobile   
+### <a name="move-numbers-from-direct-routing-to-teams-phone-mobile"></a>Déplacer des numéros du routage direct vers Teams Phone Mobile   
 
-Pour déplacer des numéros du routage direct vers Fournisseur de connectivité mobile, vous devez effectuer les étapes suivantes :
+Pour déplacer des numéros du routage direct vers Teams Phone Mobile, vous devez effectuer les étapes suivantes :
 
 1. [Déterminez si les numéros de routage direct existants sont affectés en ligne ou localement](#determine-if-the-existing-direct-routing-numbers-are-assigned-online-or-on-premises).
 
-2. [Migrez les nombres du routage direct vers Fournisseur de connectivité mobile](#migrate-the-numbers-from-direct-routing-to-operator-connect-mobile).
+2. [Migrez les numéros du routage direct vers Teams Phone Mobile](#migrate-the-numbers-from-direct-routing-to-teams-phone-mobile).
 
 2. [Supprimez la stratégie de routage vocal en ligne associée à votre utilisateur](#remove-the-online-voice-routing-policy-associated-with-your-user).
 
@@ -152,16 +152,16 @@ La façon dont vous supprimez vos numéros de routage direct existants varie sel
 
    Si OnPremLineUri est rempli avec un numéro de téléphone E.164, le numéro de téléphone a été attribué localement et synchronisé avec Microsoft 365.
 
-#### <a name="migrate-the-numbers-from-direct-routing-to-operator-connect-mobile"></a>Migrer les nombres du routage direct vers Fournisseur de connectivité mobile
+#### <a name="migrate-the-numbers-from-direct-routing-to-teams-phone-mobile"></a>Migrer les numéros du routage direct vers Teams Phone Mobile
 
 Pour migrer des nombres, suivez les étapes ci-dessous.  
 
 > [!Important]
-> Pendant la migration, le numéro de téléphone est hors service. Coordonnez-vous avec votre opérateur Operator Connect avant de commencer la migration.
+> Pendant la migration, le numéro de téléphone est hors service. Coordonnez-vous avec votre opérateur Teams Phone Mobile avant de commencer la migration.
 
-- **Pour migrer les numéros de routage direct existants affectés en ligne vers Fournisseur de connectivité mobile**, contactez votre opérateur. Pour trouver le site web de votre opérateur, consultez le [répertoire Microsoft 365 Operator Connect](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). À la date et à l’heure convenues, votre opérateur migre vos numéros du routage direct vers Fournisseur de connectivité mobile. Cela peut impliquer la suppression du numéro de téléphone en cours de migration de votre locataire et l’ajouter à nouveau en tant que nouveau numéro de téléphone associé à Fournisseur de connectivité mobile.
+- **Pour migrer les numéros de routage direct existants affectés en ligne à Teams Phone Mobile**, contactez votre opérateur. Pour trouver le site web de votre opérateur, consultez [l’annuaire Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). À la date et à l’heure convenues, votre opérateur migre vos numéros du routage direct vers Teams Phone Mobile. Cela peut impliquer la suppression du numéro de téléphone en cours de migration de votre locataire et l’ajouter à nouveau en tant que nouveau numéro de téléphone associé à Teams Phone Mobile.
 
-- **Pour migrer les numéros de routage direct affectés localement à Fournisseur de connectivité mobile**, exécutez la commande PowerShell Skype Entreprise Server suivante :
+- **Pour migrer les numéros de routage direct affectés localement à Teams Phone Mobile**, exécutez la commande PowerShell Skype Entreprise Server suivante :
 
    ```PowerShell
    Set-CsUser -Identity <user> -LineURI $null 
@@ -200,13 +200,13 @@ Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
 
 #### <a name="acquire-phone-numbers"></a>Obtenir les numéros de téléphone
 
-Contactez votre opérateur pour transférer vos numéros vers Fournisseur de connectivité mobile sur un plan vocal sans fil éligible qui est compatible SIM.
+Contactez votre opérateur pour porter vos numéros vers Teams Phone Mobile sur un plan vocal sans fil éligible qui est compatible SIM.
 
 Une fois que votre opérateur aura terminé la commande, il chargera les numéros vers votre locataire. Vous pouvez afficher les numéros et le fournisseur dans le Centre d’administration Teams en accédant à **Voice > Numéros de téléphone**. 
 
 #### <a name="assign-phone-numbers"></a>Attribuer des numéros de téléphone
 
-Vous pouvez affecter des numéros Operator Connect aux utilisateurs à l’aide du Centre d’administration Teams ou de PowerShell. Pour plus d’informations, consultez [Affecter des numéros](assign-change-or-remove-a-phone-number-for-a-user.md).
+Vous pouvez affecter des numéros Teams Phone Mobile aux utilisateurs à l’aide du Centre d’administration Teams ou de PowerShell. Pour plus d’informations, consultez [Affecter des numéros](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 
 ## <a name="manage-your-operators"></a>Gérer vos opérateurs
@@ -230,7 +230,7 @@ Pour libérer des numéros de téléphone à partir du Centre d’administration
 
 ## <a name="manage-user-incoming-calling-policies"></a>Gérer les stratégies d’appel entrant de l’utilisateur
 
-Vous pouvez gérer les stratégies d’appel entrantes d’un utilisateur à l’aide du Centre d’administration Teams ou de PowerShell. Par défaut, les appels entrants pour Fournisseur de connectivité mobile utilisateurs sonnent d’abord l’application Teams sur l’appareil mobile compatible SIM de l’utilisateur. 
+Vous pouvez gérer les stratégies d’appel entrantes d’un utilisateur à l’aide du Centre d’administration Teams ou de PowerShell. Par défaut, les appels entrants pour les utilisateurs de Teams Phone Mobile sonnent d’abord l’application Teams sur l’appareil mobile compatible SIM de l’utilisateur. 
 
 - Si la préférence d’appel entrant d’un utilisateur est définie sur l’application Teams, tous les appels entrants sonnent l’application Teams sur le smartphone compatible SIM et tous les autres points de terminaison Teams sur d’autres appareils simultanément. 
 

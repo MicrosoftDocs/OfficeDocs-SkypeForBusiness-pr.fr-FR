@@ -19,12 +19,12 @@ localization_priority: Normal
 f1.keywords:
 - CSH
 description: Plans de numérotation et routage dans Microsoft Teams
-ms.openlocfilehash: 89332b5e5756bc33c92a67b641bab85b826bfe70
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 3fc29dc27f1f3863ed313b75c8ef977cd27a6231
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606783"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551898"
 ---
 # <a name="overview"></a>Vue d’ensemble
 
@@ -34,9 +34,9 @@ Les articles de cette section décrivent les plans de numérotation et le routag
 - [Créer et gérer les plans de numérotation](create-and-manage-dial-plans.md)
 - [Acheminer les appels aux engourdissements non attribués](routing-calls-to-unassigned-numbers.md)
 
-Les articles de cette section s’appliquent à toutes les options de connexion au réseau téléphonique commuté (RTC) : forfait d’appels, connexion d’opérateur, Fournisseur de connectivité mobile (préversion publique) et routage direct. Pour plus d’informations sur toutes les options de connectivité RTC, consultez [les options de connectivité RTC](pstn-connectivity.md).
+Les articles de cette section s’appliquent à toutes les options de connexion au réseau téléphonique commuté (RTC) public : forfait d’appels, connexion d’opérateur, téléphone mobile Teams et routage direct. Pour plus d’informations sur toutes les options de connectivité RTC, consultez [les options de connectivité RTC](pstn-connectivity.md).
 
-Si vous choisissez Forfait d’appels, Opérateur Connect ou Fournisseur de connectivité mobile, la plupart du routage des appels est géré par Microsoft ou votre fournisseur. Toutefois, le routage direct nécessite des étapes supplémentaires pour configurer le routage des appels. 
+Si vous choisissez Forfait d’appels, Opérateur Connect ou Teams Phone Mobile, la plupart du routage des appels est géré par Microsoft ou votre fournisseur. Toutefois, le routage direct nécessite des étapes supplémentaires pour configurer le routage des appels. 
 
 Pour le routage direct, vous devez configurer le routage des appels en spécifiant les itinéraires vocaux et en attribuant des stratégies de routage vocal aux utilisateurs. Vous pouvez configurer des plans de numérotation pour la traduction de numéros au niveau du tronçon pour garantir l’interopérabilité avec les contrôleurs de frontière de session (SBC). Pour plus d’informations, consultez [Configurer le routage vocal pour le routage direct](direct-routing-voice-routing.md), [Gérer les stratégies de routage vocal](manage-voice-routing-policies.md) et [Traduire les numéros de téléphone](direct-routing-translate-numbers.md).
 

@@ -1,5 +1,5 @@
 ---
-title: 'Étape 3 : Concevoir et créer un espace de réunion hybride optimisé ou mettre à jour un espace existant'
+title: 'Étape 3 : Concevoir et créer une signature salles Teams un espace de réunion ou mettre à jour un espace existant'
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 keywords: ''
-ms.openlocfilehash: 7aace472fb90ed1b0831d8fa74614322f398ce2b
-ms.sourcegitcommit: 957502f999512a32794a9f99e292588d66ed8a33
+ms.openlocfilehash: 1c5e14c01693bf0d8fa38ca5eb18f062cf72d6d6
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "67885602"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551708"
 ---
 # <a name="step-3---design-a-new-meeting-space-or-update-an-existing-space"></a>Étape 3 : Concevoir un nouvel espace de réunion ou mettre à jour un espace existant
 
 Cet article est destiné à guider les utilisateurs sur l’optimisation des espaces de réunion avec Salles Microsoft Teams solutions et appareils. Il inclut des informations sur salles Teams les utilisations, les dispositions et les spécifications des appareils et des solutions.
 
-Indiquez si vous souhaitez concevoir et créer un espace de réunion hybride optimisé pour les réunions hybrides ou si vous souhaitez mettre à jour un espace existant, traditionnel, qui comporte déjà certains composants, tels qu’une table de conférence, des affichages, etc.
+Indiquez si vous souhaitez concevoir et créer une signature Salles Microsoft Teams espace de réunion ou si vous souhaitez mettre à jour un espace existant, traditionnel, qui comporte déjà certains composants, tels qu’une table de conférence, des affichages, etc.
 
 # <a name="traditional"></a>[Traditionnelle](#tab/traditional)
 
@@ -70,19 +70,19 @@ Nous vous recommandons de monter la Salles Microsoft Teams console de calcul et 
 
 La plupart des participants choisiront de partager du contenu dans ce type de salle de réunion en rejoignant la réunion Teams via un appareil personnel. Toutefois, la présentation vidéo locale en salle doit également être mise à disposition à la table de manière facilement accessible pour ceux qui ne peuvent pas participer à l’appel de réunion.
 
-# <a name="hybrid-optimized"></a>[Optimisé pour les hybrides](#tab/hybrid)
+# <a name="signature-teams-rooms"></a>[Signature salles Teams](#tab/signature)
 
-Les Salles Microsoft Teams optimisées hybride ne sont pas destinées à remplacer tous les autres espaces de réunion au sein de votre organisation, mais plutôt à servir de complément aux espaces de réunion existants qui utilisent Microsoft Teams. Elles doivent être déployées stratégiquement au sein de votre organisation dans les espaces et les emplacements où les interactions en face à face avec les participants à la réunion à distance seront les plus appréciés.
+Les salles Teams de signature ne sont pas destinées à remplacer tous les autres espaces de réunion au sein de votre organisation, mais plutôt à servir de complément aux espaces de réunion existants qui utilisent Microsoft Teams. Elles doivent être déployées stratégiquement au sein de votre organisation dans les espaces et les emplacements où les interactions en face à face avec les participants à la réunion à distance seront les plus appréciés.
 
 :::image type="content" source="media/hybrid-enhanced-room.png" alt-text="Image d’une salle de réunion améliorée avec une table courbée devant un affichage double écran.":::
 
-## <a name="hybrid-optimized-room-size-and-capacity"></a>Taille et capacité des salles optimisées hybride
+## <a name="signature-teams-rooms-size-and-capacity"></a>Taille et capacité des salles Teams de signature
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Public d’installations" border="false":::
 
 Cet espace conviendront confortablement à six à huit personnes. Vous aurez besoin d’un espace d’environ 25 pieds de large sur 14 pieds de profondeur.
 
-## <a name="hybrid-optimized-room-furniture"></a>Meubles de chambre optimisés hybride
+## <a name="signature-teams-rooms-furniture"></a>Signature salles Teams meubles
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Public d’installations" border="false":::
 
@@ -90,13 +90,13 @@ Cette salle comporte une table courbée avec des participants assis d’un côt�
 
 Cette salle dispose d’une table de salle de réunion traditionnelle avec une hauteur de 30 pouces ou 76 cm.
 
-:::image type="content" source="media/emr10.png" alt-text="[Blueprint d’une conception de salle de réunion hybride optimisée.":::
+:::image type="content" source="media/emr10.png" alt-text="[Blueprint d’une conception de salle Teams de signature.":::
 
-## <a name="hybrid-optimized-equipment-mounting"></a>Montage d’équipement optimisé hybride
+## <a name="signature-teams-rooms-equipment-mounting"></a>Montage de l’équipement de salles Teams signature
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="Public d’audio-visuel" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities" border="false":::
 
-La salle de réunion optimisée pour l’hybride indiquée dans les images ci-dessus nécessite un placement spécifique des appareils salles Teams pour créer la meilleure expérience de réunion hybride.
+La salle Signature Teams présentée dans les images ci-dessus nécessite un placement spécifique de salles Teams appareils pour créer la meilleure expérience de réunion hybride.
 
 | Composant      | Recommandations                                                                                                                                                                                                                                                                                                                                                             |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

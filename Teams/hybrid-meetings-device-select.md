@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 keywords: ''
-ms.openlocfilehash: 33b55bfbff72cb2ddcd79b9620b2051ae0bd52fb
-ms.sourcegitcommit: 957502f999512a32794a9f99e292588d66ed8a33
+ms.openlocfilehash: dec612dd21ba72f984251db3e479040d41070ddc
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "67885557"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551808"
 ---
 # <a name="step-4---select-devices-that-enable-your-space-for-hybrid-meetings"></a>Étape 4 : Sélectionner des appareils qui activent votre espace pour les réunions hybrides
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="Public de l’audio-visuel" border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Audience Facilities" border="false":::
 
-Les appareils que vous choisissez pour votre espace salles Teams dépendent de la conception et du budget de votre salle. Cet article vous aide à comprendre les appareils dont vous avez besoin pour créer votre espace salles Teams, les considérations à prendre en compte pour vous aider à choisir ce qui vous convient, ainsi que des exemples d’appareils afin de voir quelles options sont disponibles.
+Les appareils que vous choisissez pour votre espace Salles Microsoft Teams traditionnel ou signature Salles Microsoft Teams dépendent de la conception et du budget de votre salle. Cet article vous aide à comprendre les appareils dont vous avez besoin pour créer votre espace salles Teams, les considérations à prendre en compte pour vous aider à choisir ce qui vous convient, ainsi que des exemples d’appareils afin de voir quelles options sont disponibles.
 
 Au minimum, vous avez besoin de chacun des éléments suivants :
 
@@ -164,9 +164,9 @@ Voici des exemples de systèmes audio pour salles Teams :
 - [Solution de table câblée Yamaha ADECIA](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yamaha-adecia-wired-tabletop-solution/1049)
 - [Biamp audio de pièce moyenne avec le micro de plafond Parlé](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-medium-room-audio-with-parle-ceiling-mic/584)
 
-# <a name="hybrid-optimized"></a>[Optimisé pour les hybrides](#tab/hybrid)
+# <a name="signature-teams-rooms"></a>[Signature salles Teams](#tab/signature)
 
-## <a name="touchscreen-console-and-compute-module"></a>Console à écran tactile et module de calcul
+## <a name="signature-teams-rooms-touchscreen-consoles-and-compute-modules"></a>Signature salles Teams consoles à écran tactile et modules de calcul
 
 La console à écran tactile est l’appareil avec lequel les utilisateurs interagissent lors de la participation et de la gestion d’une réunion. Le module de calcul est le cerveau de la salle Teams et s’exécute Windows 10 Entreprise IoT.
 
@@ -183,11 +183,11 @@ Voici des exemples d’offres groupées de modules de calcul et de console à é
 - [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
 - [Logitech Tap](https://www.logitech.com/products/video-conferencing/room-solutions/tap.939-001950.html)
 
-## <a name="hybrid-optimized-displays"></a>Affichages optimisés hybrides
+## <a name="signature-teams-rooms-displays"></a>Signature salles Teams s’affiche
 
 Les écrans donnent vie à votre contenu et peuvent être un grand téléviseur à écran plat ou un projecteur qui projette sur un écran. Vous pouvez avoir un affichage unique avec vos flux de contenu et vidéo combinés, ou vous pouvez configurer des affichages doubles avec du contenu sur un affichage et des flux vidéo sur l’autre. L’un des affichages peut même être tactile pour l’entrée manuscrite interactive.
 
-:::image type="content" source="media/hybrid-optimized-display.png" alt-text="salles Teams affichage montrant la première ligne, la conversation et les notes.":::
+:::image type="content" source="media/signature-teams-rooms-display.png" alt-text="Signature salles Teams affichage montrant la première ligne, la conversation et les notes.":::
 
 
 ### <a name="display-type"></a>Type d’affichage
@@ -202,7 +202,7 @@ Voici quelques exemples de types d’affichage :
 
 ### <a name="display-functions"></a>Fonctions d’affichage
 
-Les Salles Microsoft Teams optimisées hybride, comme avec toutes les autres solutions Salles Microsoft Teams, nécessitent l’utilisation d’affichages qui peuvent prendre en charge les fonctionnalités suivantes pour une opération appropriée :
+Les salles Teams de signature, comme pour toutes les autres solutions Salles Microsoft Teams, nécessitent l’utilisation d’affichages qui peuvent prendre en charge les fonctionnalités suivantes pour une opération appropriée :
 
 - Veillez et réveillez-vous rapidement après le sommeil en fonction de la synchronisation HDMI.
   - Pour les projecteurs, les périodes de préchauffage et de refroidissement automatiques doivent être prises en charge sans intervention de l’utilisateur.
@@ -210,7 +210,7 @@ Les Salles Microsoft Teams optimisées hybride, comme avec toutes les autres sol
 
 ### <a name="display-placement"></a>Emplacement d’affichage
 
-Une salle hybride optimisée nécessite que l’affichage soit placé devant tous les participants à la réunion en salle, directement en face de la table.
+La signature salles Teams exige que l’affichage soit placé devant tous les participants à la réunion en salle, directement en face de la table.
 
 La ligne centrale horizontale de l’affichage doit être centrée sur la même ligne centrale que la table.
 
@@ -218,11 +218,11 @@ La ligne centrale verticale de l’affichage ne doit pas dépasser +/- 15 degré
 
 ### <a name="display-count"></a>Nombre d’affichages
 
-Une salle optimisée hybride nécessite que l’affichage soit soit un affichage à proportions larges uniques, soit une combinaison d’affichages qui peut produire l’effet d’être un affichage unique lorsqu’il est vu par les participants à la réunion en salle.
+Les salles Teams de signature exigent que l’affichage soit un affichage à proportions larges uniques, soit une combinaison mixte d’affichages qui peut produire l’effet d’être un affichage unique lorsqu’il est vu par les participants à la réunion en salle.
 
 ### <a name="display-options"></a>Options d’affichage
 
-Voici des exemples d’affichages pour les salles Teams optimisés pour les hybrides :
+Voici des exemples d’affichages pour signature salles Teams :
 
 - [Projecteur Epson EB-PU1007 avec objectif ElPLX01S Ultra Short Throw](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
 - [Da-Lite UTB Contour Screen | Hd Progressive 0.6 Screen | Cinemascope 138 » Diagonale](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
@@ -233,7 +233,7 @@ Une pièce de ce type nécessite l’utilisation d’une caméra intelligente, u
 
 L’appareil photo doit être placé à l’avant de la salle sous la projection avant de la salle, mais au-dessus du haut de la table pour capturer tous les participants de la salle de réunion au niveau du plus près possible de l’œil.
 
-Voici des exemples de caméras principales pour les salles Teams optimisées pour les hybrides :
+Voici des exemples de caméras principales pour signature salles Teams :
 
 - [Jabra Panacast 50](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
 - [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
@@ -269,7 +269,7 @@ Les tableaux de haut-parleurs avant de la pièce et les haut-parleurs de surchar
 
 Les orateurs doivent être positionnés pour assurer la couverture de tous les participants à la salle de réunion dans la plage certifiée de l’appareil ou des appareils utilisés.
 
-Voici des exemples de microphones et de haut-parleurs pour les salles Teams optimisés pour les hybrides :
+Voici des exemples de microphones et de haut-parleurs pour signature salles Teams :
 
 - [Lenovo ThinkSmart Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 - [Hub de salle de conférence Biamp Devio avec micro Parle Ceiling](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)

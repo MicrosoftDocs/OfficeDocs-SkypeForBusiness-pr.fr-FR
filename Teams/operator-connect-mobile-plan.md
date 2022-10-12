@@ -1,5 +1,5 @@
 ---
-title: Planifier Fournisseur de connectivité mobile
+title: Planifier Teams Phone Mobile
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -12,44 +12,44 @@ ms.collection:
 - m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
-description: En savoir plus sur les Fournisseur de connectivité mobile, telles que les exigences et la planification du déploiement.
+description: En savoir plus sur Teams Phone Mobile, tels que les exigences et la planification du déploiement.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53873df291ffcc0c1acbdf32a8e8ba6e6d13359b
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 90af338ca5896a9e11ed4ea2537080237885c71c
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606877"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551718"
 ---
-# <a name="plan-for-operator-connect-mobile"></a>Planifier Fournisseur de connectivité mobile
+# <a name="plan-for-teams-phone-mobile"></a>Planifier Teams Phone Mobile
 
-**Fournisseur de connectivité mobile est une préversion publique.** Pour obtenir la liste des opérateurs participant au programme Microsoft Fournisseur de connectivité mobile et des pays ou régions où leur service est disponible, consultez [Microsoft 365 Fournisseur de connectivité mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
+Pour obtenir la liste des opérateurs participant au programme Téléphonie Microsoft Teams Mobile et des pays ou régions où leur service est disponible, consultez [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
 
-Fournisseur de connectivité mobile est une autre option permettant de fournir une connectivité RTC avec Teams et le système téléphonique. Avec Fournisseur de connectivité mobile, le numéro de téléphone d’un utilisateur compatible SIM est également son numéro de téléphone Teams. Les utilisateurs peuvent utiliser un seul numéro de téléphone dans Microsoft Teams sur leurs lignes de service mobile et de bureau, et effectuer une transition transparente entre les réseaux et les appareils.
+Teams Phone Mobile est une autre option permettant de fournir une connectivité RTC (Public Switched Telephone Network) avec Microsoft Teams et le système téléphonique. Avec Teams Phone Mobile, le numéro de téléphone d’un utilisateur compatible SIM est également son numéro de téléphone Teams. Les utilisateurs peuvent utiliser un seul numéro de téléphone dans Microsoft Teams sur leurs lignes de service mobile et de bureau, et effectuer une transition transparente entre les réseaux et les appareils.
 
-Fournisseur de connectivité mobile pouvez jouer un rôle clé dans la stratégie de votre organisation pour permettre une main-d’œuvre véritablement mobile, offrant des expériences utilisateur plus flexibles et efficaces centrées sur les appareils mobiles, ainsi que des paramètres de sécurité et de conformité de niveau entreprise.
+Teams Phone Mobile peut jouer un rôle clé dans la stratégie de votre organisation pour permettre une main-d’œuvre véritablement mobile, en offrant des expériences utilisateur plus flexibles et efficaces centrées sur les appareils mobiles, ainsi que des paramètres de sécurité et de conformité de niveau entreprise.
 
-Vous pouvez envisager une combinaison de services vocaux. Par exemple, vous pouvez choisir Fournisseur de connectivité mobile pour vos organisations commerciales et de terrain qui nécessitent une prise en charge mobile, mais une autre solution pour votre organisation de centre d’appels local qui s’appuie sur des téléphones de bureau. Pour plus d’informations sur les solutions vocales Teams et les options de connectivité RTC, consultez [Planifier votre solution vocale Teams](cloud-voice-landing-page.md) et les [options de connectivité RTC](pstn-connectivity.md). 
+Vous pouvez envisager une combinaison de services vocaux. Par exemple, vous pouvez choisir Teams Phone Mobile pour vos organisations de vente et de terrain qui nécessitent une prise en charge mobile, mais une autre solution pour votre organisation de centre d’appels local qui s’appuie sur des téléphones de bureau. Pour plus d’informations sur les solutions vocales Teams et les options de connectivité RTC, consultez [Planifier votre solution vocale Teams](cloud-voice-landing-page.md) et les [options de connectivité RTC](pstn-connectivity.md). 
 
-Cet article décrit Fournisseur de connectivité mobile avantages et les exigences. Fournisseur de connectivité mobile peut être la solution appropriée pour votre organisation si :
+Cet article décrit les avantages et les exigences de Teams Phone Mobile. Teams Phone Mobile peut être la solution appropriée pour votre organisation si :
 
 -   Vous souhaitez utiliser un numéro de téléphone mobile sim principal appartenant à l’entreprise pour Teams Phone en tant que solution à numéro unique.
 
--   Votre opérateur préféré participe au programme Microsoft Fournisseur de connectivité mobile.
+-   Votre opérateur préféré participe au programme Téléphonie Microsoft Teams Mobile.
 
 -   Vous souhaitez trouver un nouvel opérateur pour activer l’appel dans Teams.
 
-Si vous décidez Fournisseur de connectivité mobile est la solution appropriée pour votre organisation, après avoir lu cet article, consultez [Configurer Fournisseur de connectivité mobile](operator-connect-mobile-configure.md).
+Si vous décidez que Teams Phone Mobile est la solution appropriée pour votre organisation, après avoir lu cet article, consultez [Configurer Teams Phone Mobile](operator-connect-mobile-configure.md).
 
 
 
 ## <a name="benefits"></a>Avantages
 
-Si votre opérateur existant participe au programme Fournisseur de connectivité mobile, il peut gérer le service pour l’appel RTC à Teams. Le programme Fournisseur de connectivité mobile offre les avantages suivants à votre organisation :
+Si votre opérateur existant participe au programme Teams Phone Mobile, il peut gérer le service d’appel RTC à Teams. Le programme Teams Phone Mobile offre les avantages suivants à votre organisation :
 
 - **Les utilisateurs disposent d’un numéro fourni par l’entreprise pour les appareils mobiles, le bureau et Microsoft Teams**. Les utilisateurs peuvent travailler de manière flexible et sécurisée à partir de n’importe quel emplacement, appareil ou réseau.  
 
@@ -65,7 +65,7 @@ Si votre opérateur existant participe au programme Fournisseur de connectivité
 
 ## <a name="features"></a>Fonctionnalités
 
-Fournisseur de connectivité mobile utilisateurs peuvent tirer parti des [fonctionnalités existantes du système téléphonique](here-s-what-you-get-with-phone-system.md), ainsi que des éléments suivants :
+Les utilisateurs de Teams Phone Mobile peuvent tirer parti des [fonctionnalités existantes du système téléphonique](here-s-what-you-get-with-phone-system.md), ainsi que des éléments suivants :
 
 - **Appel de numéro de téléphone compatible SIM avec Teams**. Les utilisateurs peuvent passer et recevoir des appels à partir de l’dialer natif de leur smartphone ou des points de terminaison Teams à l’aide d’un numéro de téléphone mobile SIM appartenant à une seule entreprise. Lorsque les utilisateurs effectuent un appel sortant à partir du numéroteur natif de leur smartphone ou de n’importe quel point de terminaison Teams, ils peuvent afficher leur numéro de service mobile ou d’entreprise. Les appels entrants sonnent le numéroteur natif du smartphone et sonnent simultanément les clients Teams actifs.
 
@@ -92,11 +92,11 @@ Fournisseur de connectivité mobile utilisateurs peuvent tirer parti des [foncti
 Vérifiez que votre organisation dispose de services Microsoft 365 éligibles :
 
 - Référence SKU/E5 du système téléphonique Teams
-- Fournisseur de connectivité mobile référence SKU de module complémentaire
+- Référence SKU du module complémentaire Teams Phone Mobile
 
-Pour activer les affectations de numéros de téléphone avec Fournisseur de connectivité mobile, assurez-vous que vos utilisateurs :
+Pour activer les affectations de numéros de téléphone avec Teams Phone Mobile, assurez-vous que vos utilisateurs :
 
-- Disposez de licences Teams Phone et Fournisseur de connectivité mobile. Pour plus d’informations, consultez [Qu’est-ce que le système téléphonique ?](what-is-phone-system-in-office-365.md) et [attribuez des licences de module complémentaire Teams aux utilisateurs](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+- Disposez de licences Teams Phone et Teams Phone Mobile. Pour plus d’informations, consultez [Qu’est-ce que le système téléphonique ?](what-is-phone-system-in-office-365.md) et [attribuez des licences de module complémentaire Teams aux utilisateurs](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 - Disposez d’un abonnement mobile éligible avec votre opérateur préféré qui prend en charge son numéro de téléphone sim à utiliser pour Teams Phone. Votre opérateur charge les numéros de téléphone sur votre locataire Microsoft 365.
 

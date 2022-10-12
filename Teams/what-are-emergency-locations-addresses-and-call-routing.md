@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Découvrez les appels d’urgence, y compris les informations sur les adresses d’urgence, le routage des appels d’urgence et les appels d’urgence dynamiques.
-ms.openlocfilehash: 2118bfd3f380ac5e5e2773f1f4ccdc703332893a
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 4cff6fee53d7799b8ef0ba721d0c50c8625017f5
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606563"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551818"
 ---
 # <a name="manage-emergency-calling"></a>Gérer les appels d’urgence
 
@@ -51,7 +51,7 @@ Cet article décrit les concepts que vous devez connaître pour gérer les appel
 - **Adresse inscrite** : adresse d’urgence affectée à chaque utilisateur. Une adresse inscrite est parfois appelée adresse d’urgence statique ou adresse d’enregistrement. (Actuellement, les adresses inscrites ne sont pas prises en charge pour le routage direct. Revenez bientôt à la recherche des mises à jour.)
 
 >[!Note]
->Il existe certaines différences dans la façon dont vous gérez les appels d’urgence, selon que vous utilisez des forfaits d’appels Microsoft, Operator Connect, Fournisseur de connectivité mobile (préversion publique) ou le routage direct pour votre [connectivité RTC](pstn-connectivity.md). Ces considérations sont décrites dans cet article.
+>Il existe certaines différences dans la façon dont vous gérez les appels d’urgence, selon que vous utilisez des forfaits d’appels Microsoft, Operator Connect, Teams Phone Mobile ou le routage direct pour votre [connectivité RTC](pstn-connectivity.md). Ces considérations sont décrites dans cet article.
 
 ## <a name="emergency-address-validation"></a>Validation d’adresse d’urgence
 
@@ -179,23 +179,21 @@ Lorsqu’un utilisateur Teams Operator Connect compose un numéro d’urgence, l
 
 - Si un appelant d’urgence ne parvient pas à mettre à jour son emplacement d’urgence vers le centre de dépistage, l’appel est transféré vers le PSAP qui dessert l’adresse enregistrée de l’appelant.
 
-## <a name="considerations-for-operator-connect-mobile"></a>Considérations relatives à Fournisseur de connectivité mobile
+## <a name="considerations-for-teams-phone-mobile"></a>Considérations relatives à Teams Phone Mobile
 
-Les sections suivantes décrivent comment gérer les appels d’urgence pour Fournisseur de connectivité mobile utilisateurs. Pour savoir si Fournisseur de connectivité mobile est la solution adaptée à votre entreprise, consultez les [options de connectivité RTC](pstn-connectivity.md).
+Les sections suivantes décrivent comment gérer les appels d’urgence pour les utilisateurs Teams Phone Mobile. Pour savoir si Teams Phone Mobile est la solution adaptée à votre entreprise, consultez les [options de connectivité RTC](pstn-connectivity.md).
 
-**Fournisseur de connectivité mobile est une préversion publique.**
+### <a name="emergency-call-enablement-for-teams-phone-mobile"></a>Activation des appels d’urgence pour Teams Phone Mobile
 
-### <a name="emergency-call-enablement-for-operator-connect-mobile"></a>Activation des appels d’urgence pour Fournisseur de connectivité mobile
+Chaque utilisateur Teams Phone Mobile est automatiquement activé pour les appels d’urgence. Les appels d’urgence sont acheminés automatiquement vers l’opérateur Mobile Mobile Teams pour un numéro donné.
 
-Chaque Fournisseur de connectivité mobile utilisateur est automatiquement activé pour les appels d’urgence. Les appels d’urgence sont acheminés automatiquement vers le transporteur Fournisseur de connectivité mobile pour un numéro donné.
-
-La possibilité pour un administrateur client de définir l’adresse inscrite pour un utilisateur Fournisseur de connectivité mobile dépend des fonctionnalités affectées au numéro lorsque l’opérateur les charge dans un inventaire de clients. En fonction de ce paramètre, l’administrateur client peut ou non être requis ou en mesure de définir, modifier ou supprimer l’emplacement d’urgence d’un utilisateur.
+La possibilité pour un administrateur client de définir l’adresse inscrite d’un utilisateur Teams Phone Mobile dépend des fonctionnalités affectées au numéro lorsque l’opérateur les charge dans un inventaire de clients. En fonction de ce paramètre, l’administrateur client peut ou non être requis ou en mesure de définir, modifier ou supprimer l’emplacement d’urgence d’un utilisateur.
 
 Lorsque des appels sont effectués via le numéroteur natif du smartphone compatible SIM, votre opérateur peut utiliser les coordonnées géographiques ou la tour de cellule qui gère l’appel à un emplacement d’urgence approximatif pour obtenir de l’aide.
 
-### <a name="dynamic-emergency-calling-for-operator-connect-mobile"></a>Appels d’urgence dynamiques pour Fournisseur de connectivité mobile
+### <a name="dynamic-emergency-calling-for-teams-phone-mobile"></a>Appel d’urgence dynamique pour Teams Phone Mobile
 
-Les appels d’urgence dynamiques pour Operator Connect permettent de configurer et de router les appels d’urgence en fonction de l’emplacement actuel du client Teams. La possibilité d’effectuer un routage automatique vers le point de réponse de sécurité publique approprié (PSAP) ou d’informer le personnel du bureau de sécurité varie en fonction du pays d’utilisation de l’utilisateur Teams.
+Les appels d’urgence dynamiques pour Teams Phone Mobile permettent de configurer et de router les appels d’urgence en fonction de l’emplacement actuel du client Teams. La possibilité d’effectuer un routage automatique vers le point de réponse de sécurité publique approprié (PSAP) ou d’informer le personnel du bureau de sécurité varie en fonction du pays d’utilisation de l’utilisateur Teams.
 
 L’emplacement dynamique pour le routage des appels d’urgence est pris en charge dans le États-Unis comme suit.
 
@@ -207,9 +205,9 @@ L’emplacement dynamique pour le routage des appels d’urgence est pris en cha
 
 Pour plus d’informations, consultez [Planifier et configurer les appels d’urgence dynamiques](configure-dynamic-emergency-calling.md).
 
-### <a name="emergency-call-routing-for-operator-connect-mobile"></a>Routage des appels d’urgence pour Fournisseur de connectivité mobile
+### <a name="emergency-call-routing-for-teams-phone-mobile"></a>Routage des appels d’urgence pour Teams Phone Mobile
 
-Lorsqu’un utilisateur Teams Fournisseur de connectivité mobile compose un numéro d’urgence à l’aide d’un client Microsoft Teams, la façon dont l’appel est acheminé vers le PSAP dépend des éléments suivants :
+Lorsqu’un utilisateur Teams Phone Mobile compose un numéro d’urgence à l’aide d’un client Microsoft Teams, la façon dont l’appel est acheminé vers le psap dépend des éléments suivants :
 
 - Indique si l’adresse d’urgence est déterminée dynamiquement par le client Teams.
 
