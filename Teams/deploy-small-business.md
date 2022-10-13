@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 32b55c026daad08aab22f1621190e2768e0b26e5
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: 94c03224f25f1cd72c7e283411b0b1de6c38580e
+ms.sourcegitcommit: 2dab123ad74fcad4db5390e9b745f72497a05882
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808665"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "68560254"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>Configurer Microsoft Teams dans votre petite entreprise
 
 Il existe de nombreuses façons de personnaliser Teams. Les sections suivantes affichent la manière de configurer chaque charge de Teams de travail : **conversations, équipes et canaux**; **réunions et conférences**; et **des solutions vocales.** Vous devez définir l’ordre dans lequel vous définissez chaque charge de travail. Nous vous recommandons de commencer par définir d’abord les conversations, les équipes et les canaux de charge de travail. Cependant, vous pouvez commencer par des réunions et des conférences, voire la voix cloud. Le choix vous appartient.
 
 > [!NOTE]
-> Si vous ne l’avez pas déjà fait, nous vous suggérons vivement de commencer votre déploiement Teams avec un pilote. Un pilote vous permettra, ainsi qu’à quelques utilisateurs précoces, de vous familiariser avec Teams et ses fonctionnalités avant votre planification et votre déploiement éventuel. Pour plus d’informations sur le démarrage de votre pilote, consultez [Démarrage avec Microsoft Teams](get-started-with-teams-quick-start.md).
+> If you haven't done so already, we strongly suggest that you begin your Teams deployment with a pilot. A pilot will allow you and a few early adopters to get familiar with Teams and its features before your planning and eventual roll out. For more information about how to start your pilot, check out [Get started with Microsoft Teams](get-started-with-teams-quick-start.md).
 
 Avant de déployer Teams à grande échelle, assurez-vous que votre organisation est prête en consultant les points de la section [Assurez-vous que vous êtes prêt](get-started-with-teams-quick-start.md#make-sure-youre-ready).
 
@@ -73,10 +73,9 @@ Le **système d’audioconférence** permet aux participants de rejoindre les r�
 > [!TIP]
 > Familiarisez-vous avec les réunions et événements en complétant le module [Gérer les réunions, conférences et événements avec Microsoft Teams](/training/modules/m365-teams-collab-manage-meetings) sur Microsoft Learn.
 
-Les réunions sont activées par défaut dans Teams. Toutefois, vous pouvez contrôler l’expérience des organisateurs et des participants en matière de réunions. Vous pouvez également définir des stratégies sur ce que les personnes peuvent et ne peuvent pas faire avant et pendant les réunions. Si vous souhaitez en savoir plus veuillez, consulter les articles suivants :
+Les réunions sont activées par défaut dans Teams. Toutefois, vous pouvez contrôler l’expérience des organisateurs et des participants en matière de réunions. Vous pouvez également définir des stratégies sur ce que les personnes peuvent et ne peuvent pas faire avant et pendant les réunions. Pour plus d’informations, consultez l’article suivant :
 
 - [Démarrage rapide pour les administrateurs : réunions et événements en direct dans Microsoft Teams](quick-start-meetings-live-events.md)
-- [Configurer l’audioconférence pour les petites et moyennes entreprises](audio-conferencing-smb.md)
 
 ### <a name="teams-phone-with-calling-plan"></a>Téléphone Teams avec forfait d'appel
 
@@ -86,7 +85,7 @@ Pour plus d'informations sur Teams Phone avec le plan d'appel pour les petites e
 
 ## <a name="deploy-clients"></a>Déployer les clients
 
-Lorsque vous êtes prêt à aider vos utilisateurs à utiliser Teams, ils peuvent installer le client Teams sur leur PC Windows, Mac ou Linux, ou sur leur appareil Android ou iOS. Les utilisateurs peuvent télécharger le client Teams directement à partir de <https://teams.microsoft.com/downloads>.
+When you're ready for your users to start using Teams, they can install the Teams client on their Windows, Mac, or Linux PC, or on their Android or iOS device. Users can download the Teams client directly from <https://teams.microsoft.com/downloads>.
 
 Vérifiez que toute personne souhaitant utiliser Teams possède une licence Teams. Si vous souhaitez en savoir plus sur l’attribution d’une licence Teams, veuillez consulter la rubrique [Gérer l’accès des utilisateurs à Teams](user-access.md#using-the-microsoft-365-admin-center).
 
