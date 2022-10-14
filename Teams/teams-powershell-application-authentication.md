@@ -12,12 +12,12 @@ ms.collection:
 description: Découvrez l’authentification basée sur l’application dans le module Teams PowerShell, utilisé pour l’administration de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8dd4b230f7f22feb574463a96d4a4447bcf0cfb0
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.openlocfilehash: d017f5e23685df6aa6c7ae0630724ad5d13d0425
+ms.sourcegitcommit: ffc7532a4bb1f1f6b3031025b493a5ad20ba4366
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532494"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "68570417"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Authentification basée sur l’application dans le module Teams PowerShell
 
@@ -28,7 +28,7 @@ L’authentification basée sur l’application est désormais prise en charge d
 
 Les applets de commande ci-dessous sont déjà prises en charge, d’autres applets de commande seront déployées progressivement. 
 
-  - Applets de commande non-CS \*(par exemple, Get-Team)
+  - Applets de commande non-CS \*(à l’exception de New-Team)
   - Get-CsTenant
   - Get-CsOnlineUser, Get-CsOnlineVoiceUser
   - \*-CsOnlineSipDomain 
@@ -43,6 +43,7 @@ Les applets de commande ci-dessous sont déjà prises en charge, d’autres appl
   - Find-CsGroup
   - \*-CsOnlineDialInConferencingUser, \*-CsOnlineDialInConferencingServiceNumber, \*-CsOnlineDialInConferencingBridge, Get-CsOnlineDialInConferencingLanguagesSupported, Set-CsOnlineDialInConferencingUserDefaultNumber
   - \*-CsOnlineLisLocation, \*-CsOnlineLisCivicAddress, \*-CsOnlineLisWirelessAccessPoint, \*-CsOnlineLisPort, \*-CsOnlineLisSubnet, \*-CsOnlineEnhancedEmergencyServiceDisclaimer, \*-CsOnlineLisSwitch
+  - \*-CsCloudCallDataConnection
 
 
 ## <a name="examples"></a>Exemples

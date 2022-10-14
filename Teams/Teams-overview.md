@@ -20,12 +20,12 @@ ms.custom:
 - intro-overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b91bff459d93dee392a428e1a141622c8937c70
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
-ms.translationtype: HT
+ms.openlocfilehash: 6ffdae377d1b39e40ad0fc89857c773ac843da38
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606243"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576430"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bienvenue dans Microsoft Teams
 Si vous êtes l’administrateur de Microsoft Teams dans votre organisation, vous êtes au bon endroit. Lorsque vous êtes prêt à utiliser Teams, commencez par la rubrique [Comment déployer Teams](./deploy-overview.md) et [Configurer une collaboration sécurisée avec Microsoft 365 et Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams) .
@@ -34,9 +34,9 @@ Si vous débutez avec Teams et que vous voulez en savoir plus, regardez notre co
 
 Ne manquez pas notre vidéo Bienvenue dans Teams pour les administrateurs Teams (un peu plus de 3 minutes) :
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vxWb]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
-Si vous recherchez de l’aide pour les utilisateurs finaux Teams, cliquez sur **Aide** sur le côté gauche de l’application ou accédez au [Centre d’aide de Microsoft Teams](https://support.office.com/teams). Pour la formation, accédez à [Formation Microsoft Teams](training-microsoft-teams-landing-page.md). 
+If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams). For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md). 
 
 ## <a name="teams-architecture"></a>Architecture Teams
 
@@ -53,7 +53,7 @@ Lorsque vous créez une équipe, voici ce que est créé :
 
 Lorsque vous créez une équipe à partir d'un groupe existant, les membres, le site, la boîte aux lettres et le bloc-notes de cette équipe sont transférés dans Teams. Pour en savoir plus, consultez ce poster : [Groupes dans Microsoft 365 pour les Architectes d’informatique](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-Pour personnaliser et étendre Teams, ajoutez des applications tierces via [des applications, des robots et des connecteurs](deploy-apps-microsoft-teams-landing-page.md). Avec Teams, vous pouvez inclure des personnes de l’extérieur de votre organisation en [les ajoutant en tant qu’invitées](guest-access.md) à une équipe ou un canal. Comme partie intégrante de Microsoft 365 ou Office 365, Teams fournit une [plateforme de développement](/microsoftteams/platform) robuste qui vous permet de créer le nœud central pour le travail d’équipe dont vous avez besoin pour votre organisation. 
+Pour personnaliser et étendre Teams, ajoutez des applications tierces à l’aide [de tâches de gestion des applications](deploy-apps-microsoft-teams-landing-page.md). Avec Teams, vous pouvez inclure des personnes de l’extérieur de votre organisation en [les ajoutant en tant qu’invitées](guest-access.md) à une équipe ou un canal. Comme partie intégrante de Microsoft 365 ou Office 365, Teams fournit une [plateforme de développement](/microsoftteams/platform) robuste qui vous permet de créer le nœud central pour le travail d’équipe dont vous avez besoin pour votre organisation.
 
 > [!TIP]
 > Pour approfondir l’architecture de Teams, regardez les vidéos sur l’[Academy plateforme Teams](https://aka.ms/TeamsPlatformAcademy).
@@ -76,10 +76,10 @@ Pour rester au fait des nouveautés dans Teams et tous les autres produits et se
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Mise à niveau de Skype Entreprise vers Teams
 Teams est le client principal pour les communications intelligentes dans Microsoft 365 et Office 365 et, à terme, il remplacera Skype Entreprise Online. Pour en savoir plus sur les nouvelles fonctionnalités disponibles dans Teams, consultez la [Feuille de route de Microsoft 365](https://aka.ms/O365Roadmap). Pour compléter les fonctionnalités de conversation permanente et de messagerie, Teams offre une expérience de réunion et d’appels complète, avec des fonctions vocales et vidéo prédéfinies et entièrement intégrées. Consultez la rubrique [Teams est maintenant une solution de réunion et d’appel complète](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) dans le blog Microsoft Teams.
 
-Si vous exécutez Skype Entreprise et que vous êtes prêt à effectuer la mise à niveau vers Teams, ou si vous exécutez Skype Entreprise et Teams côte à côte et que vous êtes prêt à migrer entièrement vers Teams, nous avons les outils, les conseils et les guides pour vous aider à réussir votre transition. Pour en savoir plus, voir [Mise à niveau vers Teams](upgrade-start-here.md).
+If you're running Skype for Business and are ready to upgrade to Teams, or if you're running Skype for Business and Teams side-by-side and are ready to fully move to Teams, we have the tools, tips, and guidance to help make your transition successful. To learn more, see [Upgrade to Teams](upgrade-start-here.md).
 
 ## <a name="teamwork"></a>Travail d’équipe
-Chaque équipe est différente ; il n'existe pas d'approche unique de la collaboration. Microsoft 365 et Office 365 sont destinés à répondre aux besoins uniques de chaque équipe, en permettant de communiquer, collaborer et faire plus avec des applications intégrées dédiées.
+Every team is different; there's no one-size-fits-all approach to collaboration. Microsoft 365 and Office 365 are designed to meet the unique needs of every team, empowering people to communicate, collaborate, and achieve more with purpose-built, integrated applications.
 
 Lorsque vous choisissez les applications et services Microsoft 365 ou Office 365 que vous allez utiliser, pensez au travail que fait votre organisation et aux types de conversations que doivent avoir vos équipes. 
 
@@ -89,7 +89,7 @@ Lorsque vous choisissez les applications et services Microsoft 365 ou Office 365
 
 - **SharePoint** pour les sites, portails, services de contenu intelligents, l'automatisation de processus métiers et la recherche dans l'entreprise. SharePoint place le contenu au centre du travail d’équipe, rendant tous les types de contenu facilement partageables et accessibles entre les équipes. Une intégration étroite à Outlook, Yammer et Teams permet une collaboration sur du contenu homogène entre les expériences de conversation.
 
-- **OneDrive Entreprise** pour le stockage de fichiers et leur partage avec des personnes invitées par l’utilisateur. Le contenu qu'un utilisateur enregistre dans OneDrive Entreprise est privé jusqu’à ce qu’il le partage avec d’autres personnes, ce qui en fait la meilleure option pour stocker les documents personnels et d’ébauche qui ne sont pas destinés ou prêts à être partagés.
+- **OneDrive for Business** for storing files and sharing them with people that a user invites. Content that a user saves to OneDrive for Business is private until the user shares it with others, making it the best option for storing personal and draft documents that are not intended to be shared or not ready to be shared.
 
 - **Yammer** pour connecter les personnes de l’organisation. Proposez des initiatives à l’échelle de l’entreprise, partagez les meilleures pratiques et créez des communautés autour de sujets d’intérêt ou de domaines de prédilection communs. Échangez des idées pour favoriser des discussions ouvertes avec les personnes de l’entreprise.
 
