@@ -18,16 +18,16 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90af338ca5896a9e11ed4ea2537080237885c71c
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 07a7a7652f5b634d9cc4c5bf7adfa14dfdcb3d3d
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551718"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576590"
 ---
 # <a name="plan-for-teams-phone-mobile"></a>Planifier Teams Phone Mobile
 
-Pour obtenir la liste des opérateurs participant au programme Téléphonie Microsoft Teams Mobile et des pays ou régions où leur service est disponible, consultez [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
+Pour obtenir la liste des opérateurs participant au programme Téléphonie Microsoft Teams Mobile et des pays ou régions où leur service est disponible, consultez [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile).
 
 Teams Phone Mobile est une autre option permettant de fournir une connectivité RTC (Public Switched Telephone Network) avec Microsoft Teams et le système téléphonique. Avec Teams Phone Mobile, le numéro de téléphone d’un utilisateur compatible SIM est également son numéro de téléphone Teams. Les utilisateurs peuvent utiliser un seul numéro de téléphone dans Microsoft Teams sur leurs lignes de service mobile et de bureau, et effectuer une transition transparente entre les réseaux et les appareils.
 

@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1da45446c2ab1879dd8064537dc50dafd99ea013
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: 7fafebf61cdf7e5b13cfbb6aaf08d73afef6f436
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67641745"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576440"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Découvrir comment déployer la conférence audio dans Microsoft Teams
 
@@ -54,7 +54,7 @@ Une fois que vous avez confirmé que vous remplissez les Conditions requises pou
 
 ### <a name="teams-administrators"></a>Administrateurs Teams
 
-Teams fournit un ensemble de rôles d’administrateur personnalisé qui peuvent servir à gérer des équipes pour votre organisation. Ces rôles fournissent plusieurs fonctionnalités aux administrateurs.
+Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators.
 
 | Posez-vous la question | Action |
 |--------------|--------|
@@ -65,7 +65,7 @@ Teams fournit un ensemble de rôles d’administrateur personnalisé qui peuvent
 
 ### <a name="conferencing-bridges-and-phone-numbers"></a>Ponts d’audioconférence et numéros de téléphone
 
-Les ponts de conférence permettent aux utilisateurs de participer à des réunions à l’aide d’un téléphone. Vous pouvez utiliser les paramètres par défaut pour le pont d’audioconférence ou modifier les numéros de téléphone (numéro payant et numéro gratuit) et d’autres paramètres, par exemple, le code confidentiel ou les langues qui sont utilisées.
+Conferencing bridges let people dial into meetings using a phone. You can use the default settings for a conferencing bridge or change the phone numbers (toll and toll-free) and other settings, such as the PIN or the languages that are used.
 
 Voir [Audioconférence](audio-conferencing-in-office-365.md) pour en apprendre plus.
 
@@ -87,7 +87,7 @@ Vous pouvez configurer la langue par défaut et d’autres langues pour les audi
 
 ### <a name="conferencing-bridge-settings"></a>Paramètres du pont d’audioconférence
 
-Après avoir configuré votre pont de conférence, y compris les langues par défaut et autres langues, vérifiez que les paramètres par défaut, tels que les notifications d’entrée/sortie et la longueur du code confidentiel sont ceux que vous souhaitez utiliser. Dans le cas contraire, vous pouvez les modifier.
+After setting up your conferencing bridge, including default and alternate languages, you should verify that the default settings such as entry/exit notifications and PIN length are the ones you want to use. If they're not, you can change them.
 
 |Posez-vous la question|Action |
 |------------|-------|
@@ -153,4 +153,4 @@ Teams offre deux façons de surveiller et de résoudre les problèmes de qualit�
 
 - [Favoriser l’adoption](adopt-microsoft-teams-landing-page.md) des conférences audio dans votre organisation.
 - [Mettre en place les services audio dans le nuage](cloud-voice-landing-page.md)
-- Inclure des applications proposées (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez d’autres [applications, robots et connecteurs](deploy-apps-microsoft-teams-landing-page.md) pour favoriser l’adoption des services Teams.
+- Inclure des applications proposées (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez d’autres [applications Teams](deploy-apps-microsoft-teams-landing-page.md) à mesure que vous pilotez l’adoption de Teams.
