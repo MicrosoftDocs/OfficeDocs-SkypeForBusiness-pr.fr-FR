@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e3d86bf4607b723f92958d34d9530764ab80daf
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 862b7f05efe4818a7778e979ecd725225806aacc
+ms.sourcegitcommit: ffc7532a4bb1f1f6b3031025b493a5ad20ba4366
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606443"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "68570386"
 ---
 # <a name="plan-for-operator-connect"></a>Planifier Operator Connect
 
@@ -54,11 +54,9 @@ Avec Operator Connect, si votre opérateur existant participe au programme Micro
 
 - **Déploiement plus rapide et plus facile.** Vous pouvez vous connecter rapidement à votre opérateur et attribuer des numéros de téléphone aux utilisateurs, le tout à partir du Centre d’administration Teams.
 
-- **Prise en charge et fiabilité améliorées.** Les opérateurs fournissent un support technique et des contrats de niveau de service partagé pour améliorer le service de support, tandis que le peering direct optimisé par Azure crée une connexion réseau un-à-un pour une fiabilité accrue.
+- **Prise en charge et fiabilité améliorées.** Les opérateurs fournissent un support technique et des contrats de niveau de service partagé pour améliorer le service de support, tandis que le peering direct optimisé par Azure crée une connexion réseau un-à-un pour une fiabilité accrue. 
 
 ## <a name="requirements"></a>Conditions requises
-
- 
 
 Pour activer les affectations de numéros de téléphone avec Operator Connect, assurez-vous que vos utilisateurs sont les suivants :
 
@@ -66,3 +64,7 @@ Pour activer les affectations de numéros de téléphone avec Operator Connect, 
 - En mode TeamsOnly. Notez que l’utilisateur doit être en mode TeamsOnly, mais pas dans toute votre organisation. Pour en savoir plus, consultez [Comprendre Microsoft Teams et Skype Entreprise coexistence et interopérabilité](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 Pour obtenir la liste des opérateurs participant au programme Microsoft Operator Connect et les pays ou régions où leur service est disponible, consultez le [répertoire Microsoft 365 Operator Connect](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
+
+## <a name="support-boundaries"></a>Limites de prise en charge
+Pour obtenir un support technique, contactez d’abord le support client de votre opérateur Operator Connect. Si nécessaire, les opérateurs Operator Connect peuvent faire remonter votre cas de support directement à l’ingénierie Microsoft via des canaux de support partagés. 
+
