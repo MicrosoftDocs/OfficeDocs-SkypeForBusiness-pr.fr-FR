@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 313c570cfcded3b5a896a773577863f7a8817fa8
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 06fc3d0bdf0e4741918e380d13acd1b7391bd6ef
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562403"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576400"
 ---
 # <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Gérer des équipes volumineuses dans Microsoft Teams - Meilleures pratiques
 
@@ -76,7 +76,7 @@ Pour empêcher l’ajout d’applications ou de bots distrayants, les propriéta
 
 ![Image d’écran montrant la section Autorisations des membres du volet Paramètres.](media/disable-bots-connectors.png "Image d’écran montrant la section Autorisation du membre du volet Paramètres. Les options permettant aux membres d’ajouter des applications ou des connecteurs sont désactivées.")
 
-Consultez [Applications, bots & connecteurs](deploy-apps-microsoft-teams-landing-page.md).
+Consultez [la vue d’ensemble des applications Teams](deploy-apps-microsoft-teams-landing-page.md).
 
 ## <a name="regulate-team-and-channel-mentions"></a>Réglementer les mentions d’équipe et de canal
 
@@ -88,7 +88,7 @@ Les mentions d’équipe et de canal peuvent être utilisées pour attirer l’a
 
 Les propriétaires d’équipe peuvent activer la modération dans un canal afin de contrôler qui peut lancer de nouvelles publications et répondre aux publications de ce canal. Lorsque vous configurez la modération, vous pouvez choisir un ou plusieurs membres de l’équipe à utiliser en tant que modérateurs. Les propriétaires d’équipe sont des modérateurs par défaut. Pour plus d’informations, consultez [Configurer et gérer la modération des canaux](manage-channel-moderation-in-teams.md).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Meilleures pratiques pour l’organisation de Teams](best-practices-organizing.md)
 - [Créer une équipe à l’échelle de l’organisation](create-an-org-wide-team.md)
