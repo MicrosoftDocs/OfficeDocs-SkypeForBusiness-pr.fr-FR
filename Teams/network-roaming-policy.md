@@ -16,13 +16,14 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 description: Découvrez comment gérer les paramètres pour la stratégie Teams d’itinérance réseau.
-ms.openlocfilehash: c26cdec0fc41e40a9c3eac7d0324050740cf05ef
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
-ms.translationtype: HT
+ms.openlocfilehash: f8b1d78754c5f608aa76d9261b2164abc4de9194
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853235"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68585062"
 ---
 # <a name="manage-video-and-media-settings-with-the-network-roaming-policy"></a>Gérer les paramètres vidéo et multimédia avec la stratégie d’itinérance réseau
 
@@ -60,7 +61,7 @@ Après avoir configuré la stratégie, affectez-la à un ou plusieurs sites rés
  Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy $null
  ```
 
-Pour activer la stratégie d’itinérance réseau pour les utilisateurs qui ne sont pas activés pour la voix d’entreprise, vous devez également activer le paramètre AllowNetworkConfigurationSettingsLookup dans TeamsMeetingPolicy. Ce paramètre est désactivé par défaut.
+To enable the network roaming policy for users who are not enterprise voice enabled, you must also enable the AllowNetworkConfigurationSettingsLookup setting in TeamsMeetingPolicy. This setting is off by default.
 
 Pour plus d’informations sur la création de sites réseau, consultez [Paramètres réseau pour les fonctionnalités vocales cloud](cloud-voice-network-settings.md). 
 
