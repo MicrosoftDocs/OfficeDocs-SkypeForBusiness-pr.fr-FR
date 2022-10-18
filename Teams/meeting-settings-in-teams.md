@@ -21,13 +21,14 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: c25405dd305a8556309559d4941dd731331e6d75
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 3faff1779830539470ae3d04cc73e58da65a637c
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706501"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583875"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -36,7 +37,7 @@ En tant qu'administrateur, vous utilisez les paramètres de réunions Teams pour
 Grâce à un paramètre de stratégie par organisateur, les administrateurs peuvent désormais contrôler si des utilisateurs spécifiques ou des groupes d’utilisateurs peuvent laisser des utilisateurs anonymes rejoindre les réunions qu’ils organisent. Les paramètres de stratégie par organisateur et à l’échelle de l’organisation contrôlent tous les deux l’adhésion anonyme et l’application la plus restrictive prend effet.
 
 > [!Important]
- > **-DisableAnonymousJoin** est un paramètre de stratégie à l’échelle de l’organisation. Il sera déconseillé à l’avenir et la stratégie par l’organisateur sera ensuite la seule façon de contrôler la participation anonyme.
+ > **-DisableAnonymousJoin** is the organization-wide policy setting. It will be deprecated in the future, and then the per-organizer policy will be the only way to control anonymous join.
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>Autoriser des utilisateurs anonymes à participer aux réunions
 
@@ -77,9 +78,9 @@ Toute autre combinaison de valeurs empêche les utilisateurs anonymes de rejoind
 Lorsque les utilisateurs anonymes sont autorisés à participer à des réunions, ils peuvent utiliser le client Teams ou un client personnalisé créé à l’aide de [Azure Communication Services](/azure/communication-services/). Les administrateurs peuvent bloquer les types de clients sélectionnés à l’aide du paramètre **-BlockedAnonymousJoinClientTypes** dans [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 Les valeurs possibles sont les suivantes :
-- Null (par défaut). Tous les types de clients sont autorisés.
-- Acs. Bloque les clients personnalisés créés à l’aide de [Azure Communication Services](/azure/communication-services/).
-- Teams. Bloque le client Teams.
+- Null (default). All client types are allowed.
+- Acs. Blocks custom clients built using [Azure Communication Services](/azure/communication-services/).
+- Teams. Blocks the Teams client.
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>Autoriser les utilisateurs anonymes à interagir avec les applications dans les réunions
 
@@ -103,7 +104,7 @@ Vous devez être administrateur du service Teams pour accéder à ce paramètre.
 
 ## <a name="customize-meeting-invitations"></a>Personnaliser les invitations aux réunions
 
-Vous pouvez personnaliser les invitations aux réunions Teams pour répondre aux besoins de votre organisation. Vous pouvez ajouter le logo de votre organisation et y inclure des informations utiles, telles que des liens vers le site web du support technique et des clauses d’exclusion de responsabilité, et un pied de page texte.
+You can customize Teams meeting invitations to meet your organization's needs. You can add your organization's logo and include helpful information, such as links to your support website and legal disclaimer, and a text-only footer.
 
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Conseils pour la création d'un logo pour les invitations aux réunions  
 
@@ -111,7 +112,7 @@ Vous pouvez personnaliser les invitations aux réunions Teams pour répondre aux
 2. Enregistrez l’image au format JPG ou PNG.
 3. Stockez l’image dans un emplacement accessible à tous les destinataires de l’invitation, tels qu’un site web public.
 
-    Vous pouvez désormais l’ajouter à vos invitations à des réunions. Voir les étapes suivantes.
+    Now you can add it to your meeting invitations. See the next steps.
 
 ### <a name="customize-your-meeting-invitations"></a>Personnalisez vos invitations à des réunions
 
@@ -162,9 +163,9 @@ Si vous utilisez la qualité de service (QoS) pour hiérarchiser le trafic rése
         
         > [!NOTE]
         > Le balisage DSCP est généralement effectué via les ports source et le trafic UDP acheminera vers le relais de transport avec le port de destination 3478 par défaut. Si votre entreprise exige un marquage sur les ports de destination, contactez le support technique pour activer la communication vers le relais de transport avec les ports UDP 3479 (audio), 3480 (vidéo) et 3481 (partage).
-    - Pour spécifier des plages de ports, près de **Sélectionnez une plage de ports pour chaque type de trafic de multimédia en temps réel**, sélectionnez **Spécifier des plages de ports**, puis entrez les ports de début et de fin pour l'audio, la vidéo et le partage d'écran. La sélection de cette option est requise pour implémenter QoS. 
+    - To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. Selecting this option is required to implement QoS. 
         > [!Note]
-        > Si **Marques de qualité de Service (QoS) pour le trafic multimédia en temps réel** est activé, vous devez gérer les paramètres de vos ports. Ils ne sont pas gérés automatiquement.
+        > If **Quality of Service (QoS) markers for real-time media traffic** is on, then you have to manage your port settings. They aren't managed automatically.
         
         > [!IMPORTANT]
         > Si vous sélectionnez **Utiliser automatiquement les ports disponibles**, les ports disponibles entre 1024 et 65535 sont utilisés. Utilisez cette option uniquement lorsque la Qualité de service n’est pas mise en œuvre.
@@ -184,4 +185,4 @@ Type de trafic média| Plage de port source du client \* |Protocole|Valeur DSCP|
 
 \* Les plages de ports que vous attribuez ne peuvent pas se chevaucher et doivent être adjacentes.
 
-Une fois que vous utilisez QoS depuis un certain temps, vous disposez des informations d’utilisation sur la demande de chacune de ces trois charges de travail et vous pouvez choisir les modifications à apporter en fonction de vos besoins spécifiques. Le [Tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md) est utile pour cette opération.
+After QoS has been in use for a while, you'll have usage information on the demand for each of these three workloads, and you can choose what changes to make based on your specific needs. [Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md) will be helpful with that.
