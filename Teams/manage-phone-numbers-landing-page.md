@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -27,12 +28,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Découvrez comment obtenir et gérer les numéros de téléphone utilisateur (abonné) et de service (gratuits et gratuits) pour Microsoft Teams pour votre organisation.
-ms.openlocfilehash: 053d886a97591a6685582f0db0ca194eaa312896
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 52069029e7dca69f5df9520ad1491464bf6b9aa9
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551888"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584238"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>Gérer les numéros de téléphone de votre organisation
 
@@ -121,7 +122,7 @@ Il est possible de gérer les numéros de téléphone de routage direct de certa
 
 ### <a name="change-where-direct-routing-phone-numbers-are-managed"></a>Modifier l’emplacement de gestion des numéros de téléphone de routage direct
 
-Pour modifier l’emplacement de gestion d’un numéro de téléphone de routage direct, vous devez supprimer le numéro de téléphone de l’attribut msRTCSIP-Line sur l’utilisateur ou resoucer le compte dans le Active Directory local.   
+Pour modifier l’emplacement de gestion d’un numéro de téléphone de routage direct, vous devez supprimer le numéro de téléphone de l’attribut msRTCSIP-Line sur le compte d’utilisateur ou de ressource dans le Active Directory local.   
 
 Pour plus d’informations, consultez [Effacer les attributs Skype Entreprise pour tous les utilisateurs locaux dans Active Directory](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory.md). Notez que le numéro de téléphone doit être réaffecté au compte d’utilisateur ou de ressource dans Microsoft 365.
 
