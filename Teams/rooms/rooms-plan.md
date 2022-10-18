@@ -15,13 +15,14 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 - Teams_ITAdmin_Rooms
+- highpri
 description: Cet article explique les considérations de planification pertinentes pour le déploiement de Salles Microsoft Teams, la prochaine génération de Systèmes de salle Skype.
-ms.openlocfilehash: fe973e7e6f3f6d84a4ddf1721ccc8c73fb5da928
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 0e6e3d53928a1a28572a8ea0a038ea772c934e7b
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269749"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584445"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planifier Salles Microsoft Teams
 
@@ -34,7 +35,8 @@ Vous trouverez ci-dessous des informations de planification couvrant l’approch
 Salles Microsoft Teams offre une expérience de réunion complète qui offre un partage vidéo, audio et de contenu HD à des réunions de toutes tailles, des petites zones blotties aux grandes salles de conférence.
 
 ![Un utilisateur appuie sur une console salles Teams, avec un affichage en arrière-plan.](../media/room-systems-image1.jpg "Un utilisateur appuie sur une console salles Teams, avec un affichage en arrière-plan")
- [Salles Microsoft Teams aide](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) est une excellente ressource pour en savoir plus sur Salles Microsoft Teams et la façon dont elle peut ajouter de la valeur dans le cadre de votre déploiement.
+
+[Salles Microsoft Teams aide](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) est une excellente ressource pour en savoir plus sur Salles Microsoft Teams et la façon dont elle peut ajouter de la valeur dans le cadre de votre déploiement.
 
 ## <a name="microsoft-teams-rooms-components"></a>composants Salles Microsoft Teams
 
@@ -49,7 +51,17 @@ Salles Microsoft Teams inclut les composants clés suivants pour offrir une exp�
 
 Vous pouvez acheter ces composants en tant que bundles préinstallés auprès d’un certain nombre de fournisseurs, ou vous pouvez acheter les composants pris en charge individuellement en suivant les [exigences décrites dans cet article](requirements.md).
 
-Vous pouvez déployer Salles Microsoft Teams avec Microsoft Teams ou Skype Entreprise déploiements locaux.  Pour plus d’informations sur les licences nécessaires, consultez la [mise à jour des licences de salle de réunion Teams](rooms-licensing.md) .
+## <a name="teams-rooms-licensing"></a>licences salles Teams
+
+Chaque appareil de salle de réunion, tel qu’une console salles Teams, le Surface Hub et écran Teams, a besoin d’une licence salles Teams. Teams fournit deux licences pour salles Teams : Salles Microsoft Teams Pro et Salles Microsoft Teams De base.
+
+Salles Microsoft Teams Pro est idéal pour les organisations qui ont au moins 25 appareils de salle de réunion ou qui souhaitent des expériences de gestion des réunions et des appareils les plus complètes. Les réunions Teams hybrides deviennent plus immersives avec des fonctionnalités telles que la ligne de front, la caméra de contenu, la suppression du bruit optimisé par l’IA et d’autres fonctionnalités disponibles avec Salles Microsoft Teams Pro. salles Teams les administrateurs peuvent gérer de manière centralisée tous leurs appareils certifiés salles Teams à partir du Centre d’administration Teams, de la configuration des stratégies d’accès conditionnel à l’analyse de données de télémétrie enrichies sur l’intégrité des appareils et la qualité de la réunion.
+
+Salles Microsoft Teams De base est disponible pour les organisations qui n’ont que quelques appareils de salle de réunion et qui n’ont besoin que des fonctionnalités de base de réunion et de gestion. Salles Microsoft Teams De base vous permet de participer à des réunions, de partager du contenu et de la vidéo en direct, de participer à des réunions Zoom et Webex avec participation invité directe, et d’effectuer l’inventaire et la surveillance des appareils de base dans le Centre d’administration Teams.
+
+Avant de pouvoir utiliser un appareil de salle de réunion, vous devez lui attribuer une licence. Pour plus d’informations, consultez [Salles Microsoft Teams licences](rooms-licensing.md).
+
+[!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
@@ -142,7 +154,7 @@ En fonction de l’échelle et de l’approche de votre déploiement, vous pouve
 
 Votre organisation doit exécuter des tâches de surveillance, d’administration et de gestion de façon continue, et il est essentiel de savoir qui effectuera ces tâches au début de votre déploiement.
 
-De nombreuses organisations disposent d’une équipe av ou d’un partenaire qui gère leurs salles de conférence et leurs appareils. Vous pouvez également disposer de l’aide de Microsoft pour gérer les salles Teams en tirant parti de Salles Microsoft Teams Premium. Déterminez qui gérera les appareils Salles Microsoft Teams à l’avenir pour surveiller les performances et déployer des mises à jour logicielles et des correctifs logiciels.
+De nombreuses organisations disposent d’une équipe av ou d’un partenaire qui gère leurs salles de conférence et leurs appareils. Vous pouvez également obtenir de l’aide de Microsoft pour gérer salles Teams en tirant parti de Salles Microsoft Teams Pro. Déterminez qui gérera les appareils Salles Microsoft Teams à l’avenir pour surveiller les performances et déployer des mises à jour logicielles et des correctifs logiciels.
 
 Réfléchissez à la file d’attente du support technique vers laquelle vous allez acheminer Salles Microsoft Teams appels et fournissez une FAQ à l’équipe du support technique afin qu’elle puisse mieux comprendre comment utiliser Salles Microsoft Teams et les étapes de dépannage clés qu’elle peut effectuer. Un bon point de départ pour ce FAQ est [l’aide de l’utilisateur](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) et [les problèmes connus](known-issues.md).
 
