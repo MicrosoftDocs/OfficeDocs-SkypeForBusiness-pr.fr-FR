@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -26,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Découvrez comment obtenir et gérer les numéros de téléphone utilisateur (abonné) et de service (gratuits et gratuits) pour Microsoft Teams pour votre organisation.
-ms.openlocfilehash: a959b0647087c6668479eb28c22e6b1f97634d0f
-ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
+ms.openlocfilehash: 699631d4408ebdf1ce9a3851651704539317644d
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67283105"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583855"
 ---
 # <a name="manage-phone-numbers-for-calling-plan"></a>Gérer les numéros de téléphone pour le forfait d’appels
 

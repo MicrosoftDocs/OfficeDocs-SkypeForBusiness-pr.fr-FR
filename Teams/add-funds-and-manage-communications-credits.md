@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -30,12 +31,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Découvrez comment payer les crédits de communication (consommation RTC) pour les services Skype Entreprise et consultez les plans pour maintenir l’accès continu au système téléphonique de vos utilisateurs. '
-ms.openlocfilehash: 0e8c737f8ed1ac4537c4453d77cc284719fb8086
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 42527a608cf6a020f1c8fc4f07f912ec95dd1a3a
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156642"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583845"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Ajouter des fonds et gérer les Crédits de Communications
 
@@ -58,7 +59,7 @@ Les crédits de communication sont un moyen pratique de payer les forfaits d’a
   
 En tant qu’administrateur, vous pouvez ajouter des fonds manuellement ou configurer la recharge automatique, ce que nous **vous recommandons**.
   
-La recharge automatique permet de recharger automatiquement votre solde lorsque celui-ci atteint le seuil minimal de déclenchement défini. Il est recommandé d'utiliser la recharge automatique afin de ne pas avoir à penser à rajouter manuellement des fonds. Lorsque votre solde atteint le montant de déclenchement, des fonds sont automatiquement ajoutés. Si vous choisissez de ne pas renouveler la recharge automatique, vous risquez de voir votre solde devenir inférieur à zéro. À ce stade, vous et vos utilisateurs ne pourrez plus passer d'appels gratuits ou d'appels internationaux.
+Auto-recharge automatically tops off your balance when it falls below the trigger amount you set. We recommend using auto-recharge so you don't have to remember to add funds manually. When your balance hits the trigger amount, funds are added automatically. If you don't choose auto-recharge, you run the risk of your balance falling below zero. At that point, you and your users won't be able to make toll-free calls or international calls.
   
 Vous pouvez mettre à jour vos options de paiement à tout moment. Dans la page **Abonnements** , sélectionnez **Crédits de communication** et effectuez vos mises à jour.
   

@@ -13,18 +13,19 @@ f1.keywords:
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser l’Assistant Portage pour transférer votre numéro de téléphone de votre fournisseur de services actuel vers Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 98580a16f7d5165bef6bdd177de37a1e80bfb32f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 4dd814f81bb7c48c331ebaa1178f8f3069f7b156
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790099"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584165"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transférer des numéros de téléphone vers Microsoft Teams
 
@@ -96,7 +97,7 @@ Pour afficher l’état de votre commande de port, dans le volet de navigation g
 ## <a name="reporting-telephone-number-issues"></a>Signaler des problèmes de numéro de téléphone ?
 Si vous remarquez un problème avec les numéros portés dans les 24 à 48 premières heures après la fin du port, contactez le [service TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md). Pour tout problème qui dépasse 48 heures, contactez l’équipe Support Microsoft.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
