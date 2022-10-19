@@ -13,6 +13,7 @@ ms.collection:
 - M365-voice
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -23,16 +24,16 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Découvrez comment configurer la Conférence rendez-vous ou l’Audioconférence pour les membres de votre entreprise qui doivent utiliser un téléphone pour participer à des téléconférences. '
-ms.openlocfilehash: 04c29b6eaf13d12bee1395d913519c971c7a25d1
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: 5f9912b005061461aa2309fb0faa54b4455214ea
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67642125"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584155"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurer l’audioconférence pour Microsoft Teams
 
-Il arrive que des membres de votre organisation aient besoin d'utiliser un téléphone pour participer à une réunion. Microsoft Teams inclut la fonction d'audioconférence pour cette situation ! Les personnes peuvent participer aux réunions Teams en utilisant un téléphone, au lieu d'utiliser l'application Teams sur un appareil mobile ou un PC.
+Sometimes people in your organization will need to use a phone to call in to a meeting. Microsoft Teams includes the audio conferencing feature for just this situation! People can call in to Teams meetings using a phone, instead of using the Teams app on a mobile device or PC.
   
 Il vous suffit de configurer la fonctionnalité de conférence audio pour les utilisateurs qui comptent planifier ou organiser des réunions. Les participants à la réunion qui se connectent n’ont pas besoin de licence ou de configuration particulière.
   
@@ -98,7 +99,7 @@ Après avoir configuré votre pont de conférence, vérifiez que les paramètres
  **Utiliser le Centre d’administration Microsoft Teams**
 
 1. Dans le tableau de bord, accédez à **Réunions** > **Ponts de conférence**.
-2. Sélectionnez **Paramètres de la passerelle**. Cela ouvre le volet des **paramètres de la passerelle**.
+2. Select **Bridge settings**. This will open the **Bridge settings** pane.
 
 Pour plus d’informations, voir [Changement des paramètres de pont d’audioconférence](change-the-settings-for-an-audio-conferencing-bridge.md).
 

@@ -10,6 +10,7 @@ ms.collection:
 - M365-voice
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 ms.reviewer: nakulm
 search.appverid: MET150
 ms.localizationpriority: high
@@ -19,12 +20,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1360847f187d98118d0b5468638cf1d6eb215fb8
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: b82e73e2e5bb470df4511027d13b2df5f1f715f8
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706861"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584885"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -238,8 +239,8 @@ Pour plus d’informations sur des types de réunions spécifiques, consultez le
 
 | Type de réunion  | Qui a cliqué sur Enregistrement ?| Où arrive l’enregistrement ? | Qui a accès ? En lecture et en écriture, lecture seule ou partage  |
 |-------------|-----------------------|------------------------|------------------------|
-|Appel individuel avec des parties internes             |Appelant                 |Compte OneDrive de l’appelant                        |L’appelant est propriétaire et dispose de tous les droits. <br /><br />L’appelé (si dans le même client) dispose d’un accès en lecture seule. Aucun accès de partage. <br /><br /> Le destinataire de l’appel (s’il est dans un client différent) ne dispose d’aucun accès. L’appelant doit partager le document avec le destinataire de l’appel.|
-|Appel individuel avec des parties internes             |Destinataire de l’appel                 |Compte OneDrive de l’appelé                        |Le destinataire de l’appel est propriétaire et dispose de tous les droits. <br /><br />Appelant (si dans le même client) dispose d’un accès en lecture seule. Aucun accès de partage. <br /><br />L’appelant (s’il est dans un client différent) ne dispose d’aucun accès. Le destinataire de l’appel doit partager le document avec l’appelant.|
+|Appel individuel avec des parties internes             |Appelant                 |Compte OneDrive de l’appelant                        |L’appelant est propriétaire et dispose de tous les droits. <br /><br />Le destinataire de l’appel (s’il est dans le même client) dispose d’un accès en lecture seule. Aucun accès en partage. <br /><br /> Le destinataire de l’appel (s’il est dans un client différent) ne dispose d’aucun accès. L’appelant doit partager le document avec le destinataire de l’appel.|
+|Appel individuel avec des parties internes             |Destinataire de l’appel                 |Compte OneDrive de l’appelé                        |Le destinataire de l’appel est propriétaire et dispose de tous les droits. <br /><br />L’appelant (s’il est dans le même client) dispose d’un accès en lecture seule. Aucun accès en partage. <br /><br />L’appelant (s’il est dans un client différent) ne dispose d’aucun accès. Le destinataire de l’appel doit partager le document avec l’appelant.|
 |Appel individuel avec des parties externes             |Appelant                 |Compte OneDrive de l’appelant                        |L’appelant est propriétaire et dispose de tous les droits.<br /> <br />Le destinataire de l’appel ne dispose d’aucun accès. L’appelant doit partager le document avec le destinataire de l’appel.|
 |Appel individuel avec des parties externes             |Destinataire de l’appel                 |Compte OneDrive de l’appelé                        |Le destinataire de l’appel est propriétaire et dispose de tous les droits.<br /><br />L’appelant ne dispose d’aucun accès. Le destinataire de l’appel doit partager le document avec l’appelant.|
 |Appel de groupe                                 |Tout membre de l’appel |Membre du groupe qui a cliqué sur le compte OneDrive de l’enregistrement  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits. <br /><br /> Les autres membres du même client disposent de droits en lecture. <br /><br /> Les autres membres du groupe de différent clients n’y ont aucun droit.|
@@ -283,7 +284,7 @@ Les enregistrements de réunion ont un délai d’expiration par défaut de 120 
 
 Les sous-titres des enregistrements de réunion Teams ne seront disponibles pendant la lecture que si la transcription de l’utilisateur était activée au moment de l’enregistrement. Les administrateurs doivent [activer l’enregistrement de la transcription via la stratégie](#turn-on-or-turn-off-recording-transcription) pour s’assurer que leurs utilisateurs ont la possibilité d’enregistrer des réunions avec la transcription.
 
-Les légendes permettent de créer du contenu inclusif pour les visiteurs de tous niveaux. En tant que propriétaire, vous pouvez masquer les sous-titres de l’enregistrement de la réunion, bien que la transcription de la réunion soit toujours disponible sur Teams, sauf si vous l’avez supprimé de cet emplacement.
+Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions on the meeting recording, although the meeting transcript will still be available on Teams unless you delete it there.
 
 Aujourd’hui, les sous-titres du fichier vidéo d’enregistrement sont liés à la transcription de la réunion Teams. Ce lien restera pendant la durée de vie du fichier dans la plupart des cas, mais il peut être rompu si le fichier vidéo est copié dans le même site OneDrive ou SharePoint, ce qui entraînerait l’inversion des sous-titres sur le fichier vidéo copié.
 

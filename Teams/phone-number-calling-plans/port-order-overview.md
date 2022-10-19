@@ -21,12 +21,13 @@ description: Obtenez une vue d’ensemble des commandes de port et de la façon 
 ms.collection:
 - M365-voice
 - m365initiative-voice
-ms.openlocfilehash: c5c8b68cfd97c8a39f0b4866fb7670473a9ecef3
-ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
+- highpri
+ms.openlocfilehash: f4160d8e5fac5ec1f706bb7c82a881248d092a59
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67674375"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584915"
 ---
 # <a name="whats-a-port-order"></a>Qu’est-ce qu’une demande de transfert ?
 
@@ -157,9 +158,9 @@ Si vous avez besoin de configurer un code confidentiel, contactez [l’équipe d
 
 Il est facile de transférer un numéro. Toutefois, votre commande peut être désordonnée en cas de problème avec le fournisseur de services téléphoniques, si la commande est incomplète et qu’il manque des informations, ou s’il existe des fautes de frappe.
   
-Voici les erreurs le plus fréquentes commises lors des transferts de numéros. Épargnez-vous un appel au service client et vérifiez qu'il n'y a aucune erreur.
+Here are the most common mistakes we see customers make when they port numbers. Save yourself a call to customer support and double-check for these errors.
   
-- Assurez-vous que les informations de compte que vous indiquez correspondent exactement à celles enregistrées par votre opérateur téléphonique. La non-correspondance des informations représente la cause la plus fréquente d'erreurs et de retard pour votre demande de transfert. Vérifiez les éléments suivants :
+- Make sure the account information you give matches exactly what your phone carrier has on record. Mismatched information is the most common cause of errors and delay your port order. Verify the following is true:
 
   - Le nom ou la personne autorisée à apporter des modifications au compte est correct.
 

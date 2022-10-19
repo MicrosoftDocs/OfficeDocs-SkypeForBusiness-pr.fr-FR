@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment obtenir de nouveaux numéros, effectuer un port ou transférer des numéros existants pour Teams, et comment afficher les modifications apportées à vos utilisateurs.
-ms.openlocfilehash: 4f3c06986943be42d6a39c22101645e1ff1b0058
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 0e9b3c13c62c2adb5a3fa6a7dbe7665e9346a08d
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396335"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583865"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtention de numéros de téléphone Skype Entreprise pour vos utilisateurs
 
