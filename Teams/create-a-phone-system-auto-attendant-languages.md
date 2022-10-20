@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams langues prises en charge par le standard automatique
-author: CarolynRowe
-ms.author: crowe
+title: Langues prises en charge par le standard automatique Microsoft Teams
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -20,15 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teams langues prises en charge par le standard automatique
-ms.openlocfilehash: 609c92d86c1fbacddf35093a1ad77df065f5da75
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+description: Langues prises en charge par le standard automatique Microsoft Teams
+ms.openlocfilehash: c769df020f178b2a69321c7b163e74a9fa1df4d6
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676456"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614597"
 ---
-# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams langues prises en charge par le standard automatique
+# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Langues prises en charge par le standard automatique Microsoft Teams
 
 Le standard automatique prend en charge les langues suivantes pour la reconnaissance vocale (TTS) et la reconnaissance vocale :
 
@@ -37,8 +37,8 @@ Le standard automatique prend en charge les langues suivantes pour la reconnaiss
 |Arabe (Égypte)                          |v                        |                                       |
 |Catalan (catalan)                       |O                        |O                                      |
 |Chinois (simplifié, PRC)               |O                        |O                                      |
-|Chinois (traditionnel, Hong Kong)        |v                        |                                       |
-|Chinois (traditionnel, Taïwan)           |v                        |                                       |
+|Chinois (traditionnel, Hong Kong)        |O                        |                                       |
+|Chinois (traditionnel, Taïwan)           |O                        |                                       |
 |Croate (Croatie)                      |v                        |                                       |
 |Tchèque (République tchèque)                  |v                        |                                       |
 |Danois (Danemark)                        |v                        |                                       |
@@ -53,8 +53,8 @@ Le standard automatique prend en charge les langues suivantes pour la reconnaiss
 |Français (France)                         |O                        |O                                      |
 |Allemand (Allemagne)                        |O                        |O                                      |
 |Grec (Grèce)                          |O                        |                                       |
-|Hongrois (Hongrie)                     |v                        |                                       |
-|Indonésien (Indonésie)                  |O                        |                                       |
+|Hongrois (Hongrie)                     |O                        |                                       |
+|Indonésien (Indonésie)                  |v                        |                                       |
 |Italien (Italie)                         |O                        |O                                      |
 |Japonais (Japon)                        |O                        |O                                      |
 |Coréen (Corée)                          |O                        |                                       |
@@ -64,7 +64,7 @@ Le standard automatique prend en charge les langues suivantes pour la reconnaiss
 |Portugais (Portugal)                   |v                        |                                       |
 |Roumain (Roumanie)                      |O                        |                                       |
 |Russe (Russie)                        |v                        |                                       |
-|Slovaque (Slovaquie)                       |O                        |                                       |
+|Slovaque (Slovaquie)                       |v                        |                                       |
 |Slovène (Slovénie)                    |v                        |                                       |
 |Espagnol (Mexique)                        |O                        |O                                      |
 |Espagnol (Espagne, International)          |O                        |O                                      |

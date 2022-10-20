@@ -1,7 +1,7 @@
 ---
 title: Référence de numérotation et de reconnaissance vocale du standard automatique et de la file d’attente d’appels
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez les options de numérotation et de reconnaissance vocale du standard automatique et de la file d’attente des appels dans Teams.
-ms.openlocfilehash: 93a20be62f09ed7b636c593ecac48927d70e237f
-ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
+ms.openlocfilehash: 3b6b1fd6932491a6f9ad17e109902484461f912f
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67070725"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613806"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Référence de numérotation et de reconnaissance vocale du standard automatique et de la file d’attente d’appels
 
@@ -35,9 +35,9 @@ Numérotation par nom ou par extension est une fonctionnalité de standard autom
 
 ## <a name="searching-for-users"></a>Recherche d’utilisateurs
 
-Les utilisateurs Teams qui peuvent être contactés à l’aide de Dial by Name **ne sont pas tenus d’avoir un numéro de téléphone ou d’avoir des forfaits d’appels qui leur sont attribués, mais ils doivent être Voix Entreprise activés pour Skype Entreprise Server utilisateurs**. Pour les organisations multinationales, Dial by Name recherche et transfère les appelants aux utilisateurs de Microsoft Teams qui se trouvent dans différents pays ou régions.
+Les utilisateurs Teams qui peuvent être contactés à l’aide de Dial by Name **ne sont pas tenus d’avoir un numéro de téléphone ou d’avoir des forfaits d’appels qui leur sont attribués, mais ils doivent être Téléphonie –  Grandes entreprises activés pour Skype Entreprise Server utilisateurs**. Pour les organisations multinationales, Dial by Name recherche et transfère les appelants aux utilisateurs de Microsoft Teams qui se trouvent dans différents pays ou régions.
 
-Les utilisateurs Teams qui peuvent être contactés à l’aide de Dial by Extension **ne sont pas tenus d’avoir un numéro de téléphone ou d’avoir des forfaits d’appels qui leur sont attribués, mais ils doivent être Voix Entreprise activés pour Skype Entreprise Server utilisateurs**. Vous devez également disposer d’un plan de numérotation correctement configuré pour vos utilisateurs. Pour les organisations multinationales, Dial by Extension recherche et transfère les appelants aux utilisateurs de Microsoft Teams qui se trouvent dans différents pays ou régions.
+Les utilisateurs Teams qui peuvent être contactés à l’aide de Dial by Extension **ne sont pas tenus d’avoir un numéro de téléphone ou d’avoir des forfaits d’appels qui leur sont attribués, mais ils doivent être Téléphonie –  Grandes entreprises activés pour Skype Entreprise Server utilisateurs**. Vous devez également disposer d’un plan de numérotation correctement configuré pour vos utilisateurs. Pour les organisations multinationales, Dial by Extension recherche et transfère les appelants aux utilisateurs de Microsoft Teams qui se trouvent dans différents pays ou régions.
 
 Compte tenu des conditions préalables requises, la numérotation par nom ou par extension doit être explicitement activée lors de la configuration d’un standard automatique.
 
@@ -59,7 +59,7 @@ La fonction Numérotation par nom effectue d’abord une recherche dans l’annu
 
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>Numérotation par nom - Entrée de clavier téléphonique (DTMF)
 
-Les personnes qui appellent peuvent utiliser Dial by Name pour atteindre les utilisateurs en spécifiant le nom complet ou partiel de la personne qu’elles tentent d’atteindre. Il existe différents formats qui peuvent être utilisés lorsque le nom est entré.
+Personnes appelant peut utiliser Dial by Name pour atteindre les utilisateurs en spécifiant le nom complet ou partiel de la personne qu’il tente d’atteindre. Il existe différents formats qui peuvent être utilisés lorsque le nom est entré.
 
 Lorsqu'ils recherchent dans l'annuaire de votre organisation, les utilisateurs peuvent utiliser la touche 0 (zéro) pour indiquer un espace entre le prénom et le nom ou vice versa. Lorsqu’ils entrent le nom, ils sont invités à terminer leur entrée de clavier avec la touche # . Par exemple : « Après avoir saisi le nom de la personne que vous voulez joindre, appuyez sur #. » Si la recherche renvoie plusieurs noms, l'appelant pourra en sélectionner un parmi une liste.
 
@@ -88,7 +88,7 @@ Plusieurs caractères spéciaux sont utilisés pour rechercher des personnes à 
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>Numérotation par nom - Reconnaissance vocale de nom
 
-Les utilisateurs peuvent rechercher d’autres membres de leur organisation avec leur voix (reconnaissance vocale). Ils peuvent également joindre n’importe qui dans Active Directory en indiquant le nom complet ou partiel de la personne qu’ils tentent de localiser. L’utilisation d’entrées vocales peut reconnaître des noms dans différents formats, notamment FirstName, LastName, FirstName + LastName ou LastName + FirstName.
+Personnes pouvez rechercher d’autres membres de leur organisation avec leur voix (reconnaissance vocale). Ils peuvent également joindre n’importe qui dans Active Directory en indiquant le nom complet ou partiel de la personne qu’ils tentent de localiser. L’utilisation d’entrées vocales peut reconnaître des noms dans différents formats, notamment FirstName, LastName, FirstName + LastName ou LastName + FirstName.
   
 Vous pouvez activer la reconnaissance vocale pour un standard automatique, mais l’entrée du clavier téléphonique (DTMF) n’est pas désactivée. L’entrée du clavier téléphonique peut être utilisée à tout moment, même si la reconnaissance vocale est activée sur le standard automatique.
   
@@ -160,7 +160,7 @@ Les commandes vocales suivantes sont disponibles pour la reconnaissance vocale :
 |Huit |Appuyez sur 8.|
 |Neuf  |Appuyez sur 9.|
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](./getting-service-phone-numbers.md)
 

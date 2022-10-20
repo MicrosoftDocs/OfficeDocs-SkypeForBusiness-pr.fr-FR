@@ -1,7 +1,7 @@
 ---
 title: Créer une file d’attente d’appels via des applets de commande
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels via des applets de commande
-ms.openlocfilehash: 7654d59b66643b0eebf137af8aed0a9c672aea70
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+ms.openlocfilehash: f00691b037e876b7236e8ab1c8e705367dece3a4
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68481216"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614357"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>Créer une file d’attente d’appels via des applets de commande
 

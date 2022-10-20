@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer Messagerie vocale infonuagique pour vos utilisateurs.
-ms.openlocfilehash: 9d6752098ff9dee6294d53fb24f6b7df6ee8e21c
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: f73587fe2fe9a9449d938d9eac3d6193bbd7aa47
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616250"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614467"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -39,7 +40,7 @@ Messagerie vocale infonuagique dépose des messages vocaux dans la boîte aux le
 
 Pour les utilisateurs teams, Messagerie vocale infonuagique est automatiquement configuré et configuré. *Une licence Téléphonie Microsoft Teams n’est pas requise pour Messagerie vocale infonuagique.*
 
-L’approvisionnement des utilisateurs Teams n’est pas le même que pour les utilisateurs Skype Entreprise Online. Pour les utilisateurs Skype Entreprise Online, Messagerie vocale infonuagique a été automatiquement configuré et configuré lorsque les utilisateurs ont reçu une licence de système téléphonique et ont été Voix Entreprise activés par le système d’approvisionnement.
+L’approvisionnement des utilisateurs Teams n’est pas le même que pour les utilisateurs Skype Entreprise Online. Pour les utilisateurs Skype Entreprise Online, Messagerie vocale infonuagique a été automatiquement configurée et configurée lorsque les utilisateurs ont reçu une licence de système téléphonique et ont été Téléphonie –  Grandes entreprises activés par le système d’approvisionnement.
 
 Pour Skype Entreprise Server utilisateurs locaux, Messagerie vocale infonuagique est automatiquement configuré et configuré. Toutefois, vous devez configurer l’environnement Skype Entreprise Server pour router les appels vers Messagerie vocale infonuagique. Pour plus d’informations, consultez [Plan Messagerie vocale infonuagique service pour les utilisateurs locaux](/skypeforbusiness/hybrid/plan-cloud-voicemail).
 

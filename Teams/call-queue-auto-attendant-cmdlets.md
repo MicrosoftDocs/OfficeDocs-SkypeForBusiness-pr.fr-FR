@@ -1,7 +1,7 @@
 ---
 title: Informations de référence sur les applets de commande PowerShell pour les standards automatiques et les files d’attente d’appels
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Consultez cet article pour les applets de commande PowerShell afin de créer et de gérer des standards automatiques et des files d’attente d’appels dans Microsoft Teams.
-ms.openlocfilehash: 7970a3c8199060d73d68e5f94c28dfe836688189
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6d45fd13a0836996223afdbadde324841e09c018
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269407"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613986"
 ---
 # <a name="powershell-cmdlet-reference-for-auto-attendants-and-call-queues"></a>Informations de référence sur les applets de commande PowerShell pour les standards automatiques et les files d’attente d’appels
 

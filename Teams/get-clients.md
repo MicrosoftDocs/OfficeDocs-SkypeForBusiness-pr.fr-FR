@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f53dd50f78afa2d85c4858e2d98170b3dc044f55
-ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
+ms.openlocfilehash: 33175aecc41dbc631fe8ab16db225762969b5ad6
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "67732313"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614036"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams
 
@@ -46,7 +46,7 @@ Le client de bureau Teams est disponible en tant qu’application autonome et da
 - Linux (dans les formats `.deb` et `.rpm`)
 - Système d’exploitation Chrome (pour plus d’informations, voir [Comment utiliser Microsoft Office sur un Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad))
 
-Les clients de bureau peuvent être téléchargés et installés par les utilisateurs finaux directement à partir de [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) s’ils disposent des autorisations locales appropriées. Les autorisations d’administrateur ne sont pas requises pour installer le client Teams sur des PC Windows, mais sont requises sur les Mac.
+Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions. Admin permissions aren't required to install the Teams client on Windows PCs but are required on Macs.
 
 Les professionnels de l’informatique peuvent choisir leur méthode préférée préfèrent pour distribuer les fichiers d’installation sur les ordinateurs de leur organisation. Certains exemples incluent Microsoft Endpoint Configuration Manager (Windows) ou JAMF Pro (macOS). Pour plus d’informations sur la distribution Teams, voir les informations suivantes.
 
@@ -63,9 +63,9 @@ Les professionnels de l’informatique peuvent choisir leur méthode préférée
 
 Teams sur Windows met à disposition des programmes d’installation MSI téléchargeables dans les architectures [32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true), [64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true) et [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true). L’architecture x86 (32 bits et 64 bits) de Teams est agnostique à l’architecture de Windows et d’Office installée. Nous vous recommandons la version 64 bits de Teams sur les systèmes 64 bits.
 
-Teams requiert .NET Framework 4.5 ou version ultérieure. Si .NET Framework ou version ultérieure n’est pas installée, le programme d’installation teams vous proposera d’installer pour vous.
+Teams nécessite .NET Framework 4,5 ou version ultérieure. Si .NET Framework ou version ultérieure n’est pas installée, le programme d’installation Teams proposera de l’installer à votre place.
 
-Le client Windows est déployé dans le dossier AppData situé dans le profil utilisateur. Le déploiement sur le profil local des utilisateurs permet d’installer le client sans nécessiter d’autorisations élevées. Le client Windows tire parti des emplacements suivants :
+The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated permissions. The Windows client leverages the following locations:
 
 - %LocalAppData%\\Microsoft\\Teams
 
@@ -75,12 +75,14 @@ Le client Windows est déployé dans le dossier AppData situé dans le profil ut
 
 - % LocalAppData%\\SquirrelTemp
 
-Lorsque les utilisateurs lancent un appel à l’aide du client Teams pour la première fois, ils peuvent remarquer un avertissement avec les paramètres du pare-feu Windows qui demande aux utilisateurs d’autoriser la communication. Les utilisateurs peuvent être invités à ignorer ce message, car l’appel fonctionnera, même lorsque l’avertissement est ignoré.
+When users initiate a call using the Teams client for the first time, they might notice a warning with the Windows firewall settings that asks for users to allow communication. Users might be instructed to ignore this message because the call will work, even when the warning is dismissed.
 
 ![Capture d'écran d'une boîte de dialogue Alerte de sécurité Windows.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> La configuration du pare-feu Windows sera modifiée même lorsque l'invite est supprimée en sélectionnant « Annuler ». Deux règles entrantes pour teams.exe seront créées avec l'action Autoriser pour les protocoles TCP et UDP.
+> La configuration du Pare-feu Windows sera modifiée. Deux règles de trafic entrant pour teams.exe pour les protocoles TCP et UDP seront créées avec 
+> - Autorisez l’action si l’utilisateur est un administrateur local et clique sur « Autoriser l’accès » uniquement.
+> - Bloquer l’action si l’utilisateur n’est pas un administrateur local et, dans tous les cas, lorsque l’invite est ignorée en sélectionnant « Annuler ».
 
 Si vous souhaitez empêcher que Teams invite les utilisateurs à créer des règles de pare-feu lorsque les utilisateurs font leur premier appel à partir de Teams, utilisez le script PowerShell dans [Exemple de script – Script PowerShell de pare-feu Microsoft Teams](client-firewall-script.md).
 
@@ -179,7 +181,7 @@ sudo zypper install teams
 
 ## <a name="mobile-clients"></a>Clients mobiles
 
-Les applications mobiles Teams sont disponibles pour Android et iOS, et sont destinées aux utilisateurs en déplacement participant à des conversations basées sur des conversations et autorisent les appels audio d’égal à égal. Pour les applications mobiles, accédez aux magasins mobiles appropriés Google Play et à l’Apple App Store.
+The Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store.
 
 Les plateformes mobiles prises en charge pour les applications mobiles Teams sont les suivantes :
 
@@ -208,4 +210,4 @@ Le client de navigateur ([https://teams.microsoft.com](https://go.microsoft.com/
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-Le client du navigateur effectue la détection de version du navigateur lors de la connexion à [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). Si une version de navigateur non prise en charge est détectée, elle bloque l’accès à l’interface du navigateur et recommande à l’utilisateur de télécharger le client de bureau ou l’application mobile.
+The browser client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). If an unsupported browser version is detected, it will block access to the browser interface and recommend that the user download the desktop client or mobile app.

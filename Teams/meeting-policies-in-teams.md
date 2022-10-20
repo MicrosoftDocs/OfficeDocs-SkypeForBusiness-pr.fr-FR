@@ -12,6 +12,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -23,13 +24,13 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
-description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams. Utilisez les paramètres de stratégie pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 1b5b173253ee457a6d966f9310987168d62a5299
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+description: Learn to manage meeting policy settings in Teams. Use policy settings to control the features available to meeting participants for meetings scheduled by users.
+ms.openlocfilehash: 374c51a1356ebdc7940185f64a98a334ce7bb66d
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418493"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613996"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans Teams
 
@@ -222,7 +223,7 @@ Le mode pour l’audio sur IP est une stratégie par utilisateur. Ce paramètre 
 
 |Valeur du paramètre |Comportement  |
 |---------|---------|
-|**Audio sortant et entrant activé**    |Le paramètre Les éléments audio entrants et sortants sont autorisés pendant la réunion. Il s’agit du paramètre par défaut. |
+|**Audio sortant et entrant activé**    |Les éléments audio entrants et sortants sont autorisés pendant la réunion. Il s’agit du paramètre par défaut. |
 |**Désactivé**     |Les éléments audio entrants et sortants sont désactivés pendant la réunion.     |
 
 Si le paramètre est défini sur **Désactivé** pour un utilisateur, celui-ci peut toujours planifier et organiser des réunions, mais il ne peut pas utiliser l’audio. Pour participer à une réunion, l’utilisateur doit se connecter via le réseau téléphonique commuté public (PSTN) ou être invité à la réunion pour joindre l’utilisateur par téléphone. Les participants à la réunion qui n’ont pas de stratégie attribuée (par exemple, les participants anonymes) ont ce paramètre sur **Audio sortant et entrant activé** par défaut. Sur les clients mobiles de Teams, si ce paramètre est désactivé, l'utilisateur doit se connecter à la réunion via le RTPC.
@@ -331,7 +332,7 @@ Pour les réunions qui nécessitent une expérience vidéo de la plus haute qual
 ### <a name="screen-sharing-mode"></a>Mode de partage d’écran
 
 > [!NOTE]
-> Cette fonctionnalité est en cours de développement. Le partage d’écran est une stratégie par participant. Cependant, cette fonctionnalité peut être affectée par les paramètres de partage d’écran de l’organisateur, comme décrit dans cette section.
+> This feature is still in development. Screen sharing is a per-participant policy, however, it can be affected by the organizer's screen sharing settings, as described in this section.
 
 Ce paramètre détermine si le partage de bureau et/ou de fenêtre est autorisé dans la réunion de l’utilisateur. Les participants à la réunion qui n’ont pas de stratégies affectées (par exemple, les participants externes) héritent de la stratégie de l’organisateur de la réunion.
 
@@ -452,7 +453,7 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 Il s’agit d’une stratégie par organisateur qui autorise les réunions de conférence sans responsable. Ce paramètre détermine si les utilisateurs anonymes peuvent rejoindre la réunion sans la présence d’un utilisateur authentifié de l’organisation. Par défaut, ce paramètre est désactivé. Cela signifie que les utilisateurs anonymes attendent dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion.
 
 > [!NOTE]
-> Si ce paramètre est désactivé et qu’un utilisateur anonyme rejoint la réunion en premier, il est placé dans la salle d’attente. Un utilisateur de l’organisation doit donc rejoindre la réunion avec un client Teams pour autoriser l’accès à l’utilisateur dans la salle d’attente. Il n’y a pas de contrôle de salle d’attente disponible pour les utilisateurs entrants.
+> If this setting is turned off and an anonymous user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users.
 
 ### <a name="automatically-admit-people"></a>Admettre les personnes automatiquement
 
@@ -463,15 +464,15 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle la join
  Les organisateurs de réunion peuvent sélectionner les **Options de réunion** dans l’invitation à la réunion afin de modifier ce paramètre pour chaque réunion planifiée.
 
 > [!NOTE]
-> Dans les options de la réunion, le paramètre est intitulé « Qui peut ignorer la salle d’attente ». Si vous modifiez le paramètre par défaut pour un utilisateur, celui-ci s’applique à toutes les réunions organisées par cet utilisateur et aux réunions antérieures où l’utilisateur n’a pas modifié les options de la réunion.
+> In the meeting options the setting is labeled "Who can bypass the lobby". If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
   
 |Valeur du paramètre  |Comportement de jointure |
 |---------|---------|
 |**Tout le monde**   |Tous les participants à la réunion joignent directement la réunion sans attendre dans la salle d’attente. Cela inclut les utilisateurs authentifiés, les utilisateurs d’accès externe, les invités et les utilisateurs anonymes.     |
-|**Membres de mon organisation, organisations de confiance et invités**     |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités et les utilisateurs des organisations approuvées, peuvent participer directement à la réunion sans attendre dans la salle d’attente. Les utilisateurs anonymes patientent dans la salle d’attente.   |
-|**Membres de mon organisation et invités**    |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités et les utilisateurs des organisations approuvées, peuvent participer directement à la réunion sans attendre dans la salle d’attente. Les utilisateurs d’organisations approuvées et utilisateurs anonymes patientent dans la salle d’attente.           |
+|**Membres de mon organisation, organisations de confiance et invités**     |Authenticated users within the organization, including guest users and the users from trusted organizations, join the meeting directly without waiting in the lobby. Anonymous users wait in the lobby.   |
+|**Membres de mon organisation et invités**    |Authenticated users from within the organization, including guest users, join the meeting directly without waiting in the lobby. Users from trusted organizations and anonymous users wait in the lobby. This is the default setting.           |
 |**Organisateur uniquement**    |Seuls les organisateurs de réunion peuvent rejoindre directement la réunion sans attendre dans la salle d’attente. Toutes les autres personnes, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs des organisations approuvées et les utilisateurs anonymes, doivent attendre dans la salle d’attente.           |
-|**Membres de mon organisation**  |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités et les utilisateurs des organisations approuvées, peuvent participer directement à la réunion sans attendre dans la salle d’attente. Les utilisateurs anonymes patientent dans la salle d’attente.|
+|**Membres de mon organisation**  |Authenticated users from within the organization, excluding guest users, join the meeting directly without waiting in the lobby. Guests and users from trusted organizations and anonymous users wait in the lobby.|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Autoriser les utilisateurs entrants à éviter la salle d’attente
 
@@ -550,7 +551,7 @@ Si vous avez défini le paramètre sur **Teams**, puis revenez à **TeamsAndSfB*
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>Paramètres de stratégie de réunion : mode de filtres vidéo
 
-Il s’agit d’un paramètre par participant. Ce paramètre contrôle si les utilisateurs peuvent personnaliser leur arrière-plan vidéo lors d'une réunion.
+Il s’agit d’une stratégie par utilisateur. Ce paramètre contrôle si les utilisateurs peuvent personnaliser leur arrière-plan vidéo lors d'une réunion.
 
 Pour l’instant, vous pouvez uniquement utiliser PowerShell pour définir cette stratégie. Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy), puis attribuer la stratégie aux utilisateurs.
 

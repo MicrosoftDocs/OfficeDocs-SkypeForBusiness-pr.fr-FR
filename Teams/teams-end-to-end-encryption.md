@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e11a0d89c7c49e27dd4237e67a67be93db2bcb6
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 3e0d47107771add6e091afeeddc35d47110d7938
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046744"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614637"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Utilisez le cryptage de bout en bout pour les appels Microsoft Teams entre particuliers.
 
@@ -86,9 +86,9 @@ La stratégie par défaut globale à l’échelle de l’organisation spécifie 
 
 3. Choisissez la stratégie par défaut ou **Ajouter** pour ajouter une nouvelle stratégie, puis nommez-la.
 
-4. Pour activer le chiffrement de bout en bout pour vos utilisateurs, pour le **Chiffrement de bout en bout des appels**, choisissez **Remplacement d’utilisateur désactivé**, puis **Enregistrer**.
+4. Pour activer le chiffrement de bout en bout pour vos utilisateurs, pour le **chiffrement des appels de bout en bout**, choisissez **Non activé, mais les utilisateurs peuvent l’activer**, puis **choisissez Enregistrer**.
 
-   Pour désactiver le chiffrement de bout en bout, choisissez **Désactivé**.
+   Pour désactiver le chiffrement de bout en bout, choisissez **Non activé**.
 
 Une fois que vous avez terminé la configuration de la stratégie, affectez la stratégie aux utilisateurs, aux groupes ou à l’ensemble de votre client de la même façon que vous gérez d’autres stratégies Teams. Pour plus d’informations sur l’utilisation des stratégies dans Teams, voir [Gérer Teams avec des stratégies](manage-teams-with-policies.md).
 

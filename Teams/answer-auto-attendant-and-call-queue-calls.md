@@ -1,8 +1,8 @@
 ---
 title: Répondre aux appels de standard automatique et de file d’attente d’appels
 ms.reviewer: colongma
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fb621661ab8b5b8ace8a965e77513cd72966cf23
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 1653f1a994da168126c06d10950c7db8e22e37c6
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880368"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614197"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
 
@@ -73,7 +73,7 @@ Pour recevoir des appels de standard automatique et de file d’attente d’appe
 Lorsqu’un agent de file d’attente d’appels reçoit un appel sur son appareil mobile, l’appel peut être mis en attente si l’appareil est verrouillé. Les utilisateurs doivent d’abord déverrouiller l’appareil, puis répondre à l’appel.
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Créer une file d’attente d’appels cloud](create-a-phone-system-call-queue.md)
 

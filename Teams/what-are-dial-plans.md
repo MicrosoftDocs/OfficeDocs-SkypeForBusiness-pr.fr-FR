@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,58 +22,58 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
-description: 'Découvrez quels types de plans d’appel (plans de numérotation PSTN) sont disponibles avec Teams et comment en choisir un pour votre organisation.  '
-ms.openlocfilehash: 405a8902c9c367c09f7f467cb00358d75112de1f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 'Découvrez le type de plans d’appel à la numérotation (plans de numérotation d’appel RTC) disponibles avec Teams et comment en choisir un pour votre organisation.  '
+ms.openlocfilehash: 77ee7801d43bd6a7cf9ae9a9e3fc74c302f8caa0
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727373"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614247"
 ---
 # <a name="what-are-dial-plans"></a>Qu’est-ce que les plans de numérotation ?
 
 Un plan de numérotation est un ensemble nommé de règles de normalisation qui traduisent les numéros de téléphone composés par un utilisateur individuel dans un autre format (généralement E.164) à des fins d’autorisation d’appel et de routage vocal.
 
-Un plan de numérotation est constitué d’une ou de plusieurs règles de normalisation qui définissent comment les numéros de téléphone exprimés dans des formats différents sont convertis dans un autre format. Une chaîne de numérotation identique peut être interprétée et convertie différemment par des plans de numérotation différents. Ainsi, en fonction du plan de numérotation attribué à un utilisateur donné, un même numéro peut être converti et acheminé différemment. Vous pouvez utiliser un maximum de 1 000 plans de numérotation client.
+Un plan de numérotation se compose d’une ou de plusieurs règles de normalisation qui définissent la façon dont les numéros de téléphone exprimés dans différents formats sont traduits dans un autre format. La même chaîne de numérotation peut être interprétée et traduite différemment dans différents plans de numérotation. Par conséquent, selon le plan de numérotation attribué à un utilisateur donné, le même numéro composé peut être traduit et routé différemment. Il peut y avoir un maximum de 1 000 plans de numérotation client.
 
-Pour créer et gérer des [plans de numérotation,](create-and-manage-dial-plans.md) voir Créer et gérer des plans de numérotation client.
+Consultez [Créer et gérer des plans de numérotation](create-and-manage-dial-plans.md) pour créer et gérer des plans de numérotation de locataire.
 
 ## <a name="tenant-dial-plan-scope"></a>Étendue du plan de numérotation client
 
-L'étendue d'un plan de numérotation détermine le niveau hiérarchique auquel celui-ci est appliqué. Les clients obtiennent le plan de numérotation approprié via les paramètres d’approvisionnement qui sont automatiquement fournis lorsque les utilisateurs se connectent Teams. En tant qu’administrateur, vous pouvez gérer et affecter les niveaux d’étendue des plans de numérotation à l’aide du centre d Microsoft Teams d’administration d’entreprise ou de Remote PowerShell.
+L'étendue d'un plan de numérotation détermine le niveau hiérarchique auquel celui-ci est appliqué. Les clients obtiennent le plan de numérotation approprié par le biais des paramètres d’approvisionnement qui sont automatiquement fournis lorsque les utilisateurs se connectent à Teams. En tant qu’administrateur, vous pouvez gérer et affecter des niveaux d’étendue de plan de numérotation à l’aide du Centre d’administration Microsoft Teams ou de Remote PowerShell.
 
-Dans Teams, il existe deux types de plans de numérotation : dans l’étendue du service et dans l’étendue du client (pour votre organisation). Un plan de numérotation à l’étendue du service est défini pour chaque pays ou région où Système téléphonique est disponible. Chaque utilisateur se voit automatiquement attribuer le plan de numérotation du pays de service qui correspond à l’emplacement d’utilisation attribué à l’utilisateur. Vous ne pouvez pas modifier le plan de numérotation du pays de service, mais vous pouvez créer des plans de numérotation étendues au client, ce qui augmente le plan de numérotation du pays de service. Au cours de la mise en service des clients, ceux-ci obtiennent un « plan de numérotation efficace », qui est une combinaison du plan de numérotation du pays de service et du plan de numérotation client de manière appropriée. Il nʼest donc pas nécessaire de définir toutes les règles de normalisation dans les plans de numérotation client car elles peuvent déjà exister dans le plan de numérotation du pays de service.
+Dans Teams, il existe deux types de plans de numérotation : l’étendue du service et l’étendue du locataire (qui concerne votre organisation). Un plan de numérotation étendu au service est défini pour chaque pays ou région où le système téléphonique est disponible. Chaque utilisateur reçoit automatiquement le plan de numérotation de pays de service qui correspond à l’emplacement d’utilisation attribué à l’utilisateur. Vous ne pouvez pas modifier le plan de numérotation de pays de service, mais vous pouvez créer des plans de numérotation étendus au locataire, ce qui augmente le plan de numérotation du pays de service. À mesure que les clients sont approvisionnés, ils obtiennent un « plan de numérotation effectif », qui est une combinaison du plan de numérotation du pays de service et du plan de numérotation du locataire dont l’étendue est appropriée. Il nʼest donc pas nécessaire de définir toutes les règles de normalisation dans les plans de numérotation client car elles peuvent déjà exister dans le plan de numérotation du pays de service.
 
-Les plans de numérotation client peuvent être davantage décomposés en deux étendues : l’étendue client ou l’étendue utilisateur. Si un client définit et attribue un plan de numérotation étendue à l’utilisateur, cet utilisateur est fourni avec un plan de numérotation efficace du plan de numérotation de son pays de service et du plan de numérotation utilisateur qui lui est attribué. Si un client définit un plan de numérotation à l’échelle du client sans affecter de plan de numérotation à l’étendue de l’utilisateur, cet utilisateur est alors fourni avec un plan de numérotation efficace défini par le plan de numérotation de son pays de service et le plan de numérotation client.
+Les plans de numérotation de locataire peuvent être divisés en deux étendues : l’étendue du locataire ou l’étendue utilisateur. Si un locataire définit et affecte un plan de numérotation étendu à l’utilisateur, cet utilisateur est approvisionné avec un plan de numérotation effectif du plan de numérotation du pays de service de l’utilisateur et du plan de numérotation de l’utilisateur affecté. Si un locataire définit un plan de numérotation étendu au locataire mais n’affecte pas de plan de numérotation étendu à l’utilisateur, cet utilisateur est approvisionné avec un plan de numérotation effectif du plan de numérotation du pays de service de l’utilisateur et du plan de numérotation du locataire.
 
-Voici le modèle d’héritage des plans de numérotation Teams.
+Voici le modèle d’héritage des plans de numérotation dans Teams.
 
 ![Comment les plans de numérotation sont hérités dans Teams.](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
 Voici les différents plans de numérotation efficace possibles :
 
- **Pays de service** Si aucun plan de numérotation étendue au client n’est défini et qu’aucun plan de numérotation étendue à l’utilisateur client n’est attribué à l’utilisateur, l’utilisateur reçoit un plan de numérotation efficace mappé au pays de service associé à son emplacement d’utilisation.
+ **Pays de service** Si aucun plan de numérotation limité au locataire n’est défini et qu’aucun plan de numérotation étendu à l’utilisateur client n’est affecté à l’utilisateur approvisionné, l’utilisateur reçoit un plan de numérotation effectif mappé au pays de service associé à son emplacement d’utilisation.
 
- **Client global - Pays de service** Si un plan de numérotation d’utilisateur client est défini mais non attribué, l’utilisateur pourra bénéficier d’un plan de numérotation efficace constitué d’un plan de numérotation client fusionné avec le plan de numérotation du pays de service associé à l’emplacement d’utilisation.
+ **Locataire global - Pays de service** Si un plan de numérotation utilisateur client est défini, mais qu’il n’est pas affecté à un utilisateur, l’utilisateur approvisionné reçoit un plan de numérotation effectif composé d’un plan de numérotation de locataire fusionné et du plan de numérotation de pays de service associé à son emplacement d’utilisation.
 
- **Utilisateur client - Pays de service** Si un plan de numérotation d’utilisateur client est défini et attribué à un utilisateur, l’utilisateur pourra bénéficier d’un plan de numérotation efficace constitué d’un plan de numérotation utilisateur fusionné avec le plan de numérotation du pays de service associé à l’emplacement d’utilisation.
+ **Utilisateur client - Pays de service** Si un plan de numérotation utilisateur client est défini et affecté à un utilisateur, l’utilisateur approvisionné reçoit un plan de numérotation effectif composé du plan de numérotation utilisateur client fusionné et du plan de numérotation du pays de service associé à son emplacement d’utilisation.
 
-Voir [Créer et gérer des plans de](create-and-manage-dial-plans.md) numérotation pour créer vos plans de numérotation client.
+Consultez [Créer et gérer des plans de numérotation](create-and-manage-dial-plans.md) pour créer vos plans de numérotation de locataire.
 
 > [!NOTE]
-> Dans le cas où aucune règle de normalisation de plan de numérotation ne s’applique à un numéro composé, la chaîne de numérotation est toujours normalement en précédant « + CC » où CC est le code du pays de l’emplacement d’utilisation de l’utilisateur de numérotation. Cela s’applique aux plans d’appel, au routage direct et aux scénarios d’appels sortants de conférence RSTN. De plus, si une règle de normalisation du plan de numérotation client entraîne un numéro qui ne commence pas par « + », le service d’appel essaiera de normaliser le numéro reçu du client Teams en fonction du plan de numérotation client et, s’il n’est pas en correspondance, sur le plan de numérotation de la région. Pour éviter une normalisation en double, il est recommandé que les clients du routage direct normalisent les nombres afin d’inclure un + et de supprimer les règles de traduction de ligne + à l’aide de ligne. 
+> Dans le scénario où aucune règle de normalisation de plan de numérotation ne s’applique à un numéro composé, la chaîne numérotée est toujours normalisée pour ajouter « + CC », où CC est le code de pays de l’emplacement d’utilisation de l’utilisateur de numérotation. Cela s’applique aux plans d’appel, au routage direct et aux scénarios de numérotation de conférence RTC. En outre, si une règle de normalisation de plan de numérotation de locataire génère un nombre qui ne commence pas par « + », le service appelant tente de normaliser le numéro reçu du client Teams en fonction du plan de numérotation du locataire et, s’il n’est pas mis en correspondance, sur le plan de numérotation de région. Pour éviter la double normalisation, il est recommandé que les clients de routage direct normalisent les nombres pour inclure un +, puis suppriment le + à l’aide des règles de traduction de jonction. 
 
 ## <a name="planning-for-tenant-dial-plans"></a>Planification des plans de numérotation utilisateur
 
 Pour planifier des plans de numérotation personnalisés, procédez comme suit :
 
-- **Étape 1** Décidez si un plan de numérotation personnalisé est nécessaire pour améliorer l’expérience de numérotation des utilisateurs. En règle générale, la prise en charge d’une numérotation autre qu’E.164, telle que les extensions ou la numérotation nationale abrégée, serait nécessaire.
+- **Étape 1** Déterminez si un plan de numérotation personnalisé est nécessaire pour améliorer l’expérience de numérotation des utilisateurs. En règle générale, il faudrait prendre en charge la numérotation non E.164, comme les extensions ou la numérotation nationale abrégée.
 
-- **Étape 2** Déterminez si les plans de numérotation du client global, du plan de numérotation étendue à l’utilisateur client sont nécessaires ou les deux. Les plans de numérotation étendus aux utilisateurs sont nécessaires si les configurations d'appel local sont différentes en fonction des utilisateurs.
+- **Étape 2** Déterminez si des plans de numérotation globaux ou étendus à l’utilisateur client sont nécessaires, ou les deux. Les plans de numérotation étendus aux utilisateurs sont nécessaires si les configurations d'appel local sont différentes en fonction des utilisateurs.
 
-- **Étape 3** Identifiez des schémas de numéros valides pour chaque plan de numérotation nécessaire. Les seuls schémas de numéros nécessaires sont ceux qui ne sont pas définis dans les plans de numérotation au niveau du pays de service.
+- **Step 3** Identify valid number patterns for each required dial plan. Only the number patterns that are not defined in the service level country dial plans are required.
 
-- **Étape 4** Développez un modèle d'appellation des plans de numérotation à l'échelle de votre organisation. Adopter un modèle d'appellation standard à toute une organisation permet de s'assurer de la cohérence d'un système et facilite la maintenance et les mises à jour.
+- **Step 4** Develop an organization-wide scheme for naming dial plans. Adopting a standard naming scheme assures consistency across an organization and makes maintenance and updates easier.
 
 
 ## <a name="creating-your-new-dial-plan"></a>Création de votre plan de numérotation
@@ -81,7 +82,7 @@ Lorsque vous créez un nouveau plan de numérotation client, vous devez entrer l
 
 ### <a name="name-and-simple-name"></a>Nom et Nom simplifié
 
-Pour les plans de numérotation utilisateur, vous devez spécifier un nom descriptif qui identifie les utilisateurs à qui le plan de numérotation sera attribué. Le nom simple du plan de numérotation est pré-rempli avec une chaîne dérivée du nom du plan de numérotation. Le champ Nom simplifié est modifiable, ce qui vous permet de créer une convention d'appellation plus descriptive pour vos plans de numérotation. La valeur du Nom simplifié ne peut être vide et doit être unique. Les meilleures pratiques suggèrent de développer une convention d'appellation pour l'ensemble de votre organisation et d'utiliser systématiquement cette convention pour tous les sites et tous les utilisateurs.
+Pour les plans de numérotation utilisateur, vous devez spécifier un nom descriptif qui identifie les utilisateurs auxquels le plan de numérotation sera affecté. Le nom simple du plan de numérotation est prérempli avec une chaîne dérivée du nom du plan de numérotation. Le champ Nom simplifié est modifiable, ce qui vous permet de créer une convention d'appellation plus descriptive pour vos plans de numérotation. La valeur du Nom simplifié ne peut être vide et doit être unique. Les meilleures pratiques suggèrent de développer une convention d'appellation pour l'ensemble de votre organisation et d'utiliser systématiquement cette convention pour tous les sites et tous les utilisateurs.
 
 ### <a name="description"></a>Description
 
@@ -95,38 +96,38 @@ Vous pouvez spécifier un préfixe d'accès extérieur de 1 à 4 caractères (#,
 > [!NOTE]
 > Si vous spécifiez un préfixe d'accès extérieur, vous n'avez pas besoin de créer une règle de normalisation supplémentaire pour vous adapter au préfixe.
 
-Voir [Créer et gérer des plans de](create-and-manage-dial-plans.md) numérotation pour créer vos plans de numérotation client.
+Consultez [Créer et gérer des plans de numérotation](create-and-manage-dial-plans.md) pour créer vos plans de numérotation de locataire.
 
 ## <a name="normalization-rules"></a>Règles de normalisation
 <a name="bknormalizationrule"> </a>
 
-Les règles de normalisation définissent comment les numéros de téléphone exprimés dans des formats variés doivent être convertis. Une chaîne de numérotation identique peut être interprétée et convertie différemment en fonction du pays d'où elle est composée. Des règles de normalisation peuvent être nécessaires si des utilisateurs ont besoin de composer des numéros extérieurs ou des numéros internes abrégés.
+Normalization rules define how phone numbers expressed in various formats are to be translated. The same number string may be interpreted and translated differently, depending on the locale from which it is dialed. Normalization rules may be necessary if users need to be able to dial abbreviated internal or external numbers.
 
-Vous devez attribuer une ou plusieurs règles de normalisation au plan de numérotation. Les règles de normalisation correspondent de haut en bas, l’ordre dans lequel elles apparaissent dans un plan de numérotation client est donc importante. Par exemple, si un plan de numérotation client possède 10 règles de normalisation, la logique de correspondance d'un numéro composé sera vérifiée en commençant par la première règle de normalisation, puis, en lʼabsence de correspondance, par la seconde, etc. Si une correspondance est trouvée, cette règle est utilisée et les autres règles définies ne sont pas vérifiées. Un plan de numérotation client donné peut respecter un maximum de 50 règles de normalisation.
+Vous devez attribuer une ou plusieurs règles de normalisation au plan de numérotation. Les règles de normalisation étant mises en correspondance de haut en bas, l’ordre dans lequel elles apparaissent dans un plan de numérotation de locataire est important. Par exemple, si un plan de numérotation client possède 10 règles de normalisation, la logique de correspondance d'un numéro composé sera vérifiée en commençant par la première règle de normalisation, puis, en lʼabsence de correspondance, par la seconde, etc. Si une correspondance est trouvée, cette règle est utilisée et les autres règles définies ne sont pas vérifiées. Il peut y avoir un maximum de 50 règles de normalisation dans un plan de numérotation de locataire donné.
 
 ### <a name="determining-the-required-normalization-rules"></a>Déterminer les règles de normalisation requises
 
-Dans la mesure où un plan de numérotation client est fusionné efficacement avec le plan de numérotation du pays de service d’un utilisateur donné, il est probable que les règles de normalisation du plan de numérotation du pays de service doivent être évaluées afin de déterminer les règles de normalisation du plan de numérotation client nécessaires. L'applet de commande **Get-CsEffectiveTenantDialPlan** peut être utilisée à cet effet. Cette applet de commande utilise l'identité d'un utilisateur comme paramètre d'entrée et indique en retour toutes les règles de normalisation appliquées à cet utilisateur.
+Étant donné que tout plan de numérotation de locataire est fusionné efficacement avec le plan de numérotation de pays de service d’un utilisateur donné, il est probable que les règles de normalisation du plan de numérotation du pays de service doivent être évaluées afin de déterminer les règles de normalisation du plan de numérotation du locataire qui sont nécessaires. L'applet de commande **Get-CsEffectiveTenantDialPlan** peut être utilisée à cet effet. Cette applet de commande utilise l'identité d'un utilisateur comme paramètre d'entrée et indique en retour toutes les règles de normalisation appliquées à cet utilisateur.
 
 ### <a name="creating-normalization-rules"></a>Créer des règles de normalisation
 <a name="createrule"> </a>
 
-Les règles de normalisation utilisent .NET Framework expressions régulières pour spécifier des modèles de correspondance numérique que le serveur utilise pour traduire des chaînes de numérotation au format E.164. Les règles de normalisation peuvent être créées en spécifiant lʼexpression régulière de la correspondance et la conversion à effectuer lorsquʼune correspondance est trouvée. Quand vous avez terminé, vous pouvez entrer un numéro test pour vérifier que la règle de normalisation fonctionne correctement.
+Les règles de normalisation utilisent des expressions régulières .NET Framework pour spécifier des modèles de correspondance numériques que le serveur utilise pour traduire les chaînes de numérotation au format E.164. Les règles de normalisation peuvent être créées en spécifiant lʼexpression régulière de la correspondance et la conversion à effectuer lorsquʼune correspondance est trouvée. Quand vous avez terminé, vous pouvez entrer un numéro test pour vérifier que la règle de normalisation fonctionne correctement.
 
-Pour plus d’informations sur l'.NET Framework expressions régulières, voir [.NET Framework expressions régulières.](/dotnet/standard/base-types/regular-expressions)
+Pour plus d’informations sur l’utilisation d’expressions régulières .NET Framework, consultez [.NET Framework Regular Expressions](/dotnet/standard/base-types/regular-expressions).
 
-Pour [créer et gérer des règles de](create-and-manage-dial-plans.md) normalisation pour vos plans de numérotation client, voir Créer et gérer des plans de numérotation.
+Consultez [Créer et gérer des plans de numérotation](create-and-manage-dial-plans.md) pour créer et gérer des règles de normalisation pour vos plans de numérotation de locataire.
 
 > [!NOTE]
-> Les règles de normalisation avec le premier jeton facultatif ne sont pas actuellement pris en charge sur les appareils 3pip (par exemple, le modèle Polycom VVX 601). Si vous voulez appliquer des règles de normalisation avec une optionalité sur les appareils 3pip, vous devez créer deux règles de normalisation au lieu d’une. Par exemple, la règle ^0? (999)$ doit être remplacé par les deux règles suivantes : (999)$ (Traduction :$1) et ^0(999)$ (traduction :$1).
+> Les règles de normalisation avec le premier jeton comme facultatif ne sont actuellement pas prises en charge sur les appareils 3pip (par exemple, le modèle Polycom VVX 601). Si vous souhaitez appliquer des règles de normalisation avec facultatif sur des appareils 3pip, vous devez créer deux règles de normalisation au lieu d’une. Par exemple, la règle ^0 ? (999)$ doit être remplacé par les deux règles suivantes : (999)$ (Translation:$1) et ^0(999)$ (Translation:$1).
 
 
 ### <a name="sample-normalization-rules"></a>Exemples de règles de normalisation
 
-Le tableau ci-dessous illustre des exemples de règles de normalisation écrites sous la forme d'expressions régulières .NET Framework. Il s'agit uniquement d'exemples qui ne doivent pas être considérés comme une référence normative pour la création de règles de normalisation.
+The following table shows sample normalization rules that are written as .NET Framework regular expressions. The samples are examples only and are not meant to be a prescriptive reference for creating your own normalization rules.
 
-<a name="regularexpression"> </a> 
- **Règles de normalisation utilisant .NET Framework expressions régulières**
+<a name="regularexpression"> </a>
+**Règles de normalisation à l’aide d’expressions régulières .NET Framework**
 
 | Nom de la règle<br/> | Description<br/> | Type de numéro<br/> | Conversion<br/> | Exemple<br/> |
 |:-----|:-----|:-----|:-----|:-----|
@@ -151,9 +152,9 @@ Le tableau ci-dessous illustre des exemples de règles de normalisation écrites
 | RedmondOperator <br/> |
 
 > [!NOTE]
-> Les noms des règles de normalisation indiqués dans le tableau précédent n’incluent pas d’espaces, mais c’est une question de choix. Le premier nom du tableau, par exemple, aurait pu s'écrire « 5 digit extension » ou « 5-digit Extension » et être toujours valide.
+> Les noms des règles de normalisation indiqués dans le tableau précédent n’incluent pas d’espaces, mais il s’agit d’une question de choix. Le premier nom du tableau, par exemple, aurait pu s'écrire « 5 digit extension » ou « 5-digit Extension » et être toujours valide.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Créer et gérer les plans de numérotation](create-and-manage-dial-plans.md)
 
