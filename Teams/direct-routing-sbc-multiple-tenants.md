@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment configurer un contrôleur de frontière de session (SBC) pour servir plusieurs locataires pour les partenaires Microsoft et/ou les opérateurs RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9d7ee3960f88b1c6ed4ee140b4f291162e37da30
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 3789270bc9826c11dee338b5221bc019191f50f2
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67024017"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614407"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -136,10 +136,13 @@ Pour plus d’informations sur les rôles d’administrateur et sur l’attribut
 
 Une fois que vous avez inscrit un nom de domaine, vous devez l’activer en ajoutant au moins un compte d’utilisateur ou de ressource sous licence Teams. Les comptes acceptables sont concédés sous licence avec l’une des références SKU suivantes :
 
-- Compte d’utilisateur avec Office 365 E1/E3/E5/A3/A5 ou Microsoft 365 E3/E5/A3/A5
-- Compte d’utilisateur avec Office 365 F1/F3 ou Microsoft 365 F1/F3
-- Compte d’utilisateur avec téléphone de zone commune
-- Compte de ressource avec **licence de compte de ressource Téléphonie Microsoft Teams**
+- Compte d’utilisateur avec Office 365 E1/E3/E5 ou Microsoft 365 E3/E5.
+- Compte d’utilisateur avec Office 365 A1/A3/A5 ou Microsoft 365 A1/A3/A5.
+- Compte d’utilisateur avec Office 365 F3 ou Microsoft 365 F1/F3.
+- Compte d’utilisateur avec Office 365 G1/G3/G5 ou Microsoft 365 G3/G5.
+- Compte d’utilisateur avec Microsoft 365 Business Basic/Standard/Premium.
+- Compte d’utilisateur avec téléphone de zone commune.
+- Compte de ressource avec **licence de compte de ressource Téléphonie Microsoft Teams**.
 
 En outre, l’UPN du compte (nom d’utilisateur principal) ou Skype Entreprise’adresse SIP locale doit utiliser le même nom de domaine complet que le domaine nouvellement créé.
 
@@ -202,6 +205,7 @@ Une fois que vous avez inscrit un nom de sous-domaine, vous devez l’activer en
 
 -   Compte d’utilisateur avec Office 365 E1/E3/E5/A3/A5 ou Microsoft 365 E3/E5/A3/A5
 -   Compte d’utilisateur avec Office 365 F1/F3 ou Microsoft 365 F1/F3
+-   Compte d’utilisateur avec des plans Microsoft 365 Business Basic/Standard/Premium et G3/G5
 -   Compte d’utilisateur avec téléphone de zone commune
 -   Compte de ressource avec une licence **de compte de ressource Téléphonie Microsoft Teams**
 

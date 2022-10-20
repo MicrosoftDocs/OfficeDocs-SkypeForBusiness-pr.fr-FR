@@ -16,12 +16,12 @@ f1.keywords:
 description: hHw Direct Routing prend en charge le contournement multimédia avec un contrôleur de bordure de session activé pour ICE Lite.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59ea283069c6fc37590d6329aeac46e40484f8ca
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e6f9715ee410116a66c572522a910cd16ef27154
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267759"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614417"
 ---
 # <a name="overview"></a>Vue d’ensemble
 
@@ -55,7 +55,7 @@ Cette section décrit brièvement les conditions requises pour ICE Lite.
 
 ### <a name="candidate-gathering"></a>Rassemblement des candidats
 
-Le SBC ne doit offrir qu’un seul candidat accessible publiquement. Actuellement, seuls les candidats IPV4 sont pris en charge.
+Le SBC ne doit offrir qu’un seul candidat. Actuellement, seuls les candidats IPV4 sont pris en charge.
 
 
 #### <a name="connectivity-checks"></a>Vérifications de connectivité
