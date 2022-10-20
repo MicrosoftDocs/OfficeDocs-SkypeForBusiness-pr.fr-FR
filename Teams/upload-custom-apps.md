@@ -17,13 +17,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: high
 search.appverid: MET150
-description: Découvrez comment charger vos applications personnalisées dans l’App Store de votre organisation dans le Centre d’administration Microsoft Teams.
-ms.openlocfilehash: 51ea4bdc31ff59a34bdf28a991617fff0f4e7381
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+description: Découvrez comment charger des applications personnalisées dans l’App Store Teams de votre organisation.
+ms.openlocfilehash: 0b48061ab005e64d6fb6385fabb48f3b49ff87f0
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494607"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614587"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publier une application personnalisée en téléchargeant un package d’application
 
@@ -40,11 +40,11 @@ La plateforme de développement Microsoft Teams permet aux développeurs d’in
 
 ## <a name="validate"></a>Valider
 
-### <a name="get-the-app-package"></a>Obtenir le package d’application
+### <a name="receive-the-app-package"></a>Recevoir le package d’application
 
-Lorsque l’application est prête à être utilisée en production, le développeur doit produire un package d’application. Ils peuvent utiliser [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview). Ils vous enverront le fichier au format .zip.
+Lorsque l’application est prête à être utilisée en production, le développeur produit un package d’application à l’aide [du portail des développeurs](/microsoftteams/platform/concepts/build-and-test/manage-your-apps-in-developer-portal). Le développeur partage le package d’application au format .zip avec vous.
 
-Toutes les applications du magasin Teams réussissent une [validation d’application](overview-of-app-validation.md) obligatoire pour se conformer aux normes de qualité et de sécurité du magasin mondial d’applications Teams. En outre, Microsoft Corporation encourage vivement les développeurs d’applications à participer à un [programme facultatif de conformité des applications](overview-of-app-certification.md) qui indique les contrôles de conformité, de sécurité et de confidentialité améliorés. Pour plus d’informations, consultez [les instructions de validation des applications Teams](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
+Toutes les applications du Magasin Teams réussissent une [validation d’application](overview-of-app-validation.md) obligatoire pour se conformer aux normes de qualité et de sécurité des applications du magasin d’applications Teams. En outre, Microsoft Corporation encourage vivement les développeurs d’applications à participer à un [programme facultatif de conformité des applications](overview-of-app-certification.md) qui indique les contrôles de conformité, de sécurité et de confidentialité améliorés. Pour plus d’informations, consultez [les instructions de validation des applications Teams](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
 
 ### <a name="allow-trusted-users-to-upload-custom-apps"></a>Autoriser les utilisateurs approuvés à charger des applications personnalisées
 
@@ -119,7 +119,7 @@ Vous pouvez désactiver ou activer l’application au niveau de l’organisation
 
 ### <a name="end-user-update-experience"></a>Expérience de mise à jour de l’utilisateur final
 
-Dans la plupart des cas, une fois que vous avez terminé une mise à jour d’application, la nouvelle version s’affiche automatiquement pour les utilisateurs finaux. Pour plus d’informations, consultez [l’expérience de mise à jour de l’utilisateur final](apps-update-experience.md).
+Dans la plupart des cas, après avoir publié une nouvelle version d’une application, elle est automatiquement mise à jour pour les utilisateurs finaux. Pour plus d’informations, consultez [l’expérience de mise à jour de l’application de l’utilisateur final](apps-update-experience.md).
 
 ## <a name="remove-a-custom-app-from-your-organizations-store"></a>Supprimer une application personnalisée du magasin de votre organisation
 
