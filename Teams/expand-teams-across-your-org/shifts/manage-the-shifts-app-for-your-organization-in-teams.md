@@ -25,18 +25,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd9bd57f815079fd80a58b739b927b900305725b
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 358a0078eed6f693922b3aaedb3eea38a8bb7f82
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046624"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655860"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Plannings pour votre organisation dans Microsoft Teams
 
 ## <a name="overview-of-shifts"></a>Vue d’ensemble de Plannings
 
-L’application Shifts dans Microsoft Teams maintient les employés de première ligne connectés et synchronisés. Il est d’abord conçu pour la gestion du temps et la communication rapides et efficaces pour les équipes. Les équipes permettent aux employés de première ligne et à leurs responsables d’utiliser leurs appareils mobiles pour gérer les planifications et rester en contact.
+L’application Shifts dans Microsoft Teams maintient les employés de première ligne connectés et synchronisés. Il est d’abord conçu pour la gestion du temps et la communication rapides et efficaces pour les équipes. Les équipes permettent aux employés de première ligne et à leurs responsables d’utiliser leurs appareils mobiles pour gérer les horaires et rester en contact.
 
 - Les responsables créent, mettent à jour et gèrent les plannings relatifs aux roulements de équipes. Ils peuvent envoyer des messages à un membre en particulier (« du liquide s’est renversé sur le sol ») ou à toute l’équipe (« le directeur régional arrive dans 20 minutes »). Ils peuvent aussi envoyer des documents stratégiques, des bulletins d’informations et des vidéos.
 - Les employés peuvent consulter leurs horaires de travail, voir qui est prévu pour la journée, demander à échanger ou offrir une shift, et demander des congés.
@@ -51,13 +51,13 @@ Il est important de savoir que Shifts ne prend actuellement pas en charge les in
 Plannings est disponible dans toutes les références Entreprise où Teams est disponible.
 
 > [!NOTE]
-> Les décalages sont disponibles dans les environnements cloud de la communauté du secteur public (GCC), mais pas dans les environnements GCC High ou DoD.
+> Shifts est disponible dans les environnements Cloud de la communauté du secteur public (GCC), mais pas dans les environnements GCC High ou DoD.
 
 ## <a name="location-of-shifts-data"></a>Emplacement des données Plannings
 
-Les données shifts sont actuellement stockées dans Azure dans des centres de données en Asie-Pacifique (APAC), dans l’Union européenne (UE) et dans Amérique du Nord. Pour plus d’informations sur l’emplacement de stockage des données, voir [Où se trouvent mes données](http://o365datacentermap.azurewebsites.net/) ?
+Les données Shifts sont actuellement stockées dans Azure dans des centres de données en Asie-Pacifique (APAC), dans l’Union européenne (UE) et Amérique du Nord. Pour plus d’informations sur l’emplacement de stockage des données, voir [Où se trouvent mes données](http://o365datacentermap.azurewebsites.net/) ?
 
-Pour en savoir plus sur les données Shifts, notamment le stockage, la rétention, la récupération et le chiffrement des données Shifts, consultez la [FAQ sur les données Shifts](shifts-data-faq.md).
+Pour en savoir plus sur les données Shifts, notamment le stockage, la rétention, la récupération et le chiffrement des données Shifts, consultez [FAQ sur les données Shifts](shifts-data-faq.md).
 
 ## <a name="set-up-shifts"></a>Configurer des Plannings
 
@@ -70,36 +70,36 @@ Plannings est activé par défaut pour tous les utilisateurs Teams de votre orga
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Activer ou désactiver Plannings pour des utilisateurs spécifiques de votre organisation
 
-Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation d’utiliser Shifts, assurez-vous que Shifts est activé pour votre organisation sur la page [Gérer les applications](../../manage-apps.md) . Créez ensuite une stratégie d’autorisation d’application personnalisée et attribuez-la à ces utilisateurs. Pour plus d’informations, consultez [Gérer les stratégies d’autorisation d’application dans Teams](../../teams-app-permission-policies.md).
+Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation d’utiliser Shifts, assurez-vous que Shifts est activé pour votre organisation dans la page [Gérer les applications](../../manage-apps.md) . Créez ensuite une stratégie personnalisée pour les autorisations d’application et affectez-la à ces utilisateurs. Pour plus d’informations, consultez [Gérer les stratégies d’autorisation d’application dans Teams](../../teams-app-permission-policies.md).
 
-### <a name="pin-shifts-to-teams"></a>Épingler des majs à Teams
+### <a name="pin-shifts-to-teams"></a>Épingler shifts à Teams
 
 #### <a name="use-the-tailored-frontline-app-experience-to-pin-shifts-and-other-apps-to-teams"></a>Utiliser l’expérience d’application de première ligne personnalisée pour épingler Shifts et d’autres applications à Teams
 
-L’expérience d’application de première ligne personnalisée dans Teams épingle les applications les plus pertinentes dans Teams pour les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Les applications épinglées incluent shifts, Walkie Talkie, Tasks et Approvals. Par défaut, cette fonctionnalité est activée, ce qui offre à vos employés de première ligne une expérience prêt à l’emploi adaptée à leurs besoins.
+L’expérience d’application de première ligne personnalisée dans Teams épingle les applications les plus pertinentes dans Teams pour les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Les applications épinglées incluent Shifts, Walkie Talkie, Tasks et Approvals. Par défaut, cette fonctionnalité est activée, ce qui offre à vos employés de première ligne une expérience prête à l’emploi adaptée à leurs besoins.
 
-Les applications sont épinglées à la barre de l’application , la barre située sur le côté du client de bureau Teams et en bas des clients mobiles Teams, où les utilisateurs peuvent y accéder rapidement et facilement.
+Les applications sont épinglées à la barre de l’application(barre située sur le côté du client de bureau Teams et en bas des clients mobiles Teams), où les utilisateurs peuvent y accéder rapidement et facilement.
 
-Pour en savoir plus, notamment sur le fonctionnement de l’expérience avec les stratégies d’application que vous définissez, consultez [Personnaliser les applications Teams pour vos employés de première ligne](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).  
+Pour en savoir plus, notamment sur le fonctionnement de l’expérience avec les stratégies d’application que vous définissez, consultez [Personnaliser des applications Teams pour vos employés de première ligne](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).  
 
-#### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Utiliser une stratégie d’installation d’application pour épingler Shifts à Teams
+#### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Utiliser une stratégie de configuration d’application pour épingler Shifts à Teams
 
-Les stratégies d’installation d’application vous permettent de personnaliser Teams pour épingler les applications les plus importantes pour vos utilisateurs.
+Les stratégies de configuration des applications vous permettent de personnaliser Teams pour épingler les applications les plus importantes pour vos utilisateurs.
 
-Vous pouvez créer une [stratégie d’installation d’application personnalisée](../../teams-app-setup-policies.md) en ajoutant l’application Shifts, puis [en affectant la stratégie](../../assign-policies-users-and-groups.md) à vos utilisateurs. Vous pouvez également utiliser la stratégie d’installation d’application qui fait partie des packages de stratégie Frontline Worker et Frontline Manager.
+Vous pouvez créer une [stratégie personnalisée dans la stratégie de configuration d’application en](../../teams-app-setup-policies.md) ajoutant l’application Shifts, puis [affecter la stratégie](../../assign-policies-users-and-groups.md) à vos utilisateurs. Vous pouvez également utiliser la stratégie de configuration d’application qui fait partie des packages de stratégies Worker de première ligne et Gestionnaire de première ligne.
 
-Un [package de stratégie](../../manage-policy-packages.md) dans Teams est une collection de stratégies et de paramètres de stratégie prédéfinis que vous pouvez attribuer aux utilisateurs qui ont des rôles similaires dans votre organisation. L’ensemble de stratégies dans les packages de stratégie Frontline Worker et Frontline Manager inclut une stratégie d’installation d’application qui épingle l’application Shifts et d’autres applications qui prennent en charge les activités de communication et de collaboration pour ce rôle.
+Un [package de stratégie](../../manage-policy-packages.md) dans Teams est une collection de stratégies et de paramètres de stratégie prédéfinis que vous pouvez attribuer aux utilisateurs qui ont des rôles similaires dans votre organisation. L’ensemble de stratégies des packages de stratégie Worker de première ligne et Gestionnaire de première ligne inclut une stratégie de configuration d’application qui épingle l’application Shifts et d’autres applications qui prennent en charge les activités de communication et de collaboration pour ce rôle.
 
-Nous vous recommandons d’utiliser les packages de stratégie De frontline Worker et Frontline Manager, car ils simplifient, simplifient et aident à assurer la cohérence lors de la gestion des stratégies pour votre personnel de première ligne.
+Nous vous recommandons d’utiliser les packages de stratégies Worker de première ligne et Gestionnaire de première ligne, car ils simplifient, rationalisent et contribuent à fournir une cohérence lors de la gestion des stratégies pour votre personnel de première ligne.
 
-### <a name="enable-shift-based-tags-in-teams"></a>Activer des balises basées sur des shifts dans Teams
+### <a name="enable-shift-based-tags-in-teams"></a>Activer les étiquettes basées sur les décalages dans Teams
 
-[Les balises](https://support.microsoft.com/office/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e) dans Teams permettent aux utilisateurs de se connecter facilement à un sous-ensemble de personnes d’une équipe. Avec les balises basées sur les shifts, les personnes reçoivent automatiquement des balises qui correspondent à leur nom de groupe de planification et de décalage dans Shifts. La balise peut être utilisée dans @mentions sur la ligne **À** dans une conversation ou dans un billet sur n’importe quel canal standard de l’équipe.
+[Les balises](https://support.microsoft.com/office/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e) dans Teams permettent aux utilisateurs de se connecter facilement à un sous-ensemble de personnes d’une équipe. Avec les étiquettes basées sur les shifts, les personnes se voient attribuer automatiquement des étiquettes qui correspondent à leur planification et à leur nom de groupe de shifts dans Shifts. La balise peut être utilisée dans @mentions sur la ligne **À** dans une conversation ou dans une publication sur n’importe quel canal standard de l’équipe.
 
-Les balises basées sur les shifts permettent à vos utilisateurs d’atteindre des personnes en déplacement en temps réel. Les notifications sont envoyées uniquement aux personnes qui sont en équipe au moment où l’étiquette est utilisée dans une conversation ou un billet de canal. Par exemple :
+Les étiquettes basées sur les décalages permettent à vos utilisateurs d’atteindre les personnes qui sont en déplacement en temps réel. Les notifications sont envoyées uniquement aux personnes qui sont en déplacement au moment où l’étiquette est utilisée dans une publication de conversation ou de canal. Par exemple :
 
-- Un responsable de magasin utilise la balise @Cashiers pour publier une annonce sur un canal pour tous les caissier en équipe.
-- Une infirmière utilise la balise @CardiologistsOnCall pour démarrer une conversation avec tous les cardiologues de garde.
+- Un responsable de magasin utilise l’étiquette @Cashiers pour publier une annonce sur un canal pour tous les caissiers en poste.
+- Une infirmière utilise l’étiquette @CardiologistsOnCall pour démarrer une conversation avec tous les cardiologues de garde.
 
 Vous pouvez activer ou désactiver la fonctionnalité dans le Centre d’administration Microsoft Teams. Pour plus d’informations, consultez [Gérer les étiquettes dans Teams](../../manage-tags.md).
 
@@ -114,7 +114,7 @@ Pour effectuer une recherche dans le journal d’audit, vous devez au préalable
 ## <a name="related-articles"></a>Articles connexes
 
 - [Shifts pour Teams](/microsoft-365/frontline/shifts-for-teams-landing-page)
-- [Faq sur les changements de données](shifts-data-faq.md)
-- [Majs connecteurs](/microsoft-365/frontline/shifts-connectors)
+- [FAQ sur les données shifts](shifts-data-faq.md)
+- [Connecteurs Shifts](/microsoft-365/frontline/shifts-connectors)
 - [Aide sur les shifts pour les travailleurs de première ligne](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Attribuer des stratégies à vos utilisateurs](../../policy-assignment-overview.md)

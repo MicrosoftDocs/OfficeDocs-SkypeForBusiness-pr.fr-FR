@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 - m365-frontline
 - highpri
-ms.openlocfilehash: 74b67a71f8b93f5f0ed898ef186beede056ec31a
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: c64e2b9e2d77724d4972449390c59b7655ab1ff0
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68047114"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656036"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Tasks pour votre organisation dans Microsoft Teams
 
@@ -72,23 +72,23 @@ Tasks est activé par défaut pour tous les utilisateurs Teams de votre organisa
 
 ### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>Activer ou désactiver les Tasks pour des utilisateurs spécifiques de votre organisation
 
-To allow or block specific users in your organization from using Tasks, make sure Tasks is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation d’utiliser Tasks, assurez-vous que Tâches est activée pour votre organisation dans la page [Gérer les applications](manage-apps.md) , puis créez une stratégie personnalisée pour les autorisations d’application et affectez-la à ces utilisateurs. Pour plus d’informations, consultez [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md).
 
 ### <a name="pin-tasks-to-teams"></a>Épingler des tâches à Teams
 
-#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>Utiliser l’expérience d’application de première ligne personnalisée pour épingler Tasks et d’autres applications à Teams
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>Utiliser l’expérience d’application de première ligne personnalisée pour épingler des tâches et d’autres applications à Teams
 
-L’expérience d’application de première ligne personnalisée dans Teams épingle les applications les plus pertinentes dans Teams pour les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Les applications épinglées incluent Tasks, Walkie Talkie, Shifts et Approvals. Par défaut, cette fonctionnalité est activée, ce qui offre à vos employés de première ligne une expérience prêt à l’emploi adaptée à leurs besoins.
+L’expérience d’application de première ligne personnalisée dans Teams épingle les applications les plus pertinentes dans Teams pour les utilisateurs disposant d’une [licence F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Les applications épinglées incluent Tasks, Walkie Talkie, Shifts et Approvals. Par défaut, cette fonctionnalité est activée, ce qui offre à vos employés de première ligne une expérience prête à l’emploi adaptée à leurs besoins.
 
-Les applications sont épinglées à la barre de l’application , la barre située sur le côté du client de bureau Teams et en bas des clients mobiles Teams, où les utilisateurs peuvent y accéder rapidement et facilement.
+Les applications sont épinglées à la barre de l’application(barre située sur le côté du client de bureau Teams et en bas des clients mobiles Teams), où les utilisateurs peuvent y accéder rapidement et facilement.
 
-Pour en savoir plus, notamment sur le fonctionnement de l’expérience avec les stratégies d’application que vous définissez, consultez [Personnaliser les applications Teams pour vos employés de première ligne](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
+Pour en savoir plus, notamment sur le fonctionnement de l’expérience avec les stratégies d’application que vous définissez, consultez [Personnaliser des applications Teams pour vos employés de première ligne](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
 #### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Utiliser une stratégie de configuration d’application pour épingler Tasks dans Teams
 
-Les stratégies d’installation d’application vous permettent de personnaliser Teams pour épingler les applications les plus importantes pour vos utilisateurs dans vos utilisateurs.
+Les stratégies de configuration des applications vous permettent de personnaliser Teams pour épingler les applications les plus importantes pour vos utilisateurs.
 
-To pin the Tasks app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+Pour épingler l’application Tasks à vos utilisateurs, vous pouvez modifier la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer une stratégie personnalisée dans la stratégie de configuration de l’application. Pour plus d’informations, consultez l’article [Gérer les stratégies et paramètres d’application personnalisés dans Teams](teams-app-setup-policies.md).
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>L’espace Mes tâches d’un utilisateur est visible si l’utilisateur dispose d’une licence pour Exchange Online
 
@@ -104,7 +104,7 @@ Avec la publication de tâches, votre organisation peut publier des listes de t�
 
     :::image type="content" source="media/manage-tasks-app-publish.png" alt-text="Capture d’écran de la publication de tâches." lightbox="media/manage-tasks-app-publish.png":::
 - Les N+1 des équipes destinataires peuvent consulter les listes de tâches publiées et attribuer des tâches individuelles aux membres de l’équipe.
-    :::image type="content" source="media/manage-tasks-app-assign.png" alt-text="Capture d’écran de l’attribution d’une tâche." lightbox="media/manage-tasks-app-assign.png":::
+    :::image type="content" source="media/manage-tasks-app-assign.png" alt-text="Capture d’écran de l’affectation d’une tâche." lightbox="media/manage-tasks-app-assign.png":::
 - Les travailleurs de première ligne ont une expérience mobile simple pour voir les tâches qui leur sont assignées. Ils peuvent joindre des photos pour montrer leur travail le cas échéant et marquer leurs tâches comme terminées.
 - Les éditeurs et les N+1 peuvent afficher des rapports pour voir l’état d’affectation et d’achèvement des tâches à chaque niveau, y compris par emplacement (équipe), liste de tâches et tâche individuelle.
     :::image type="content" source="media/manage-tasks-app-reporting.png" alt-text="Capture d’écran des tâches publiées." lightbox="media/manage-tasks-app-reporting.png":::

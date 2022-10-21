@@ -21,20 +21,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: adabe9321307bb9696636ae7ab882775705dcd27
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 48c372afe2c7881a2af5c24e36915d510f9ff291
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376992"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655900"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Comprendre les applications Microsoft Teams
 
-Les applications dans Teams aident les utilisateurs à rassembler leurs outils et services de travail et à collaborer avec d’autres utilisateurs. Par exemple, les utilisateurs finaux utilisent une application Calendrier épinglée dans Teams pour collaborer rapidement avec d'autres personnes, une application avec une fonctionnalité de bots informant les utilisateurs de la qualité d'un service web dans un canal Teams, et une application pour partager et assigner des tâches à divers utilisateurs finaux dans un canal. Les applications Microsoft Teams sont des applications SaaS basées sur le web qui n’ont pas besoin d’être déployées localement.
+Les applications dans Teams aident les utilisateurs à rassembler leurs outils et services d’espace de travail et à collaborer avec d’autres personnes. Par exemple, les utilisateurs finaux utilisent une application Calendrier épinglée dans Teams pour collaborer rapidement avec d'autres personnes, une application avec une fonctionnalité de bots informant les utilisateurs de la qualité d'un service web dans un canal Teams, et une application pour partager et assigner des tâches à divers utilisateurs finaux dans un canal. Les applications Microsoft Teams sont des applications SaaS basées sur le web qui n’ont pas besoin d’être déployées localement.
 
-En tant qu’administrateur, vous définissez un processus de gouvernance des applications qui équilibre les exigences étendues des utilisateurs finaux avec les stratégies informatiques, les normes et les profils de risque de votre organisation.
+En tant qu’administrateur, vous définissez un processus de gouvernance des applications qui équilibre les exigences étendues des utilisateurs finaux, ainsi que les stratégies informatiques, les normes et les profils de risque de votre organisation.
 
-Notre [catalogue](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) complet d’applications Teams validées et sécurisées fournit aux utilisateurs finaux l’accès aux outils et services dont votre organisation a besoin chaque jour. Le Centre d’administration Teams fournit aux administrateurs des contrôles et des configurations de niveau entreprise pour régir les applications. Vous contrôlez la disponibilité des applications pour chaque utilisateur dans les différents contextes tels que les réunions, les chats et les canaux.
+Notre [vaste catalogue](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) d’applications Teams validées et sécurisées permet aux utilisateurs finaux d’accéder aux outils et services dont votre organisation a besoin chaque jour. Le Centre d’administration Teams fournit aux administrateurs des contrôles et des configurations de niveau entreprise pour régir les applications. Vous contrôlez la disponibilité des applications pour chaque utilisateur dans les différents contextes tels que les réunions, les chats et les canaux.
 
 Cet article vous aide à comprendre les types d'applications et l'endroit d'où vos utilisateurs accèdent à ces applications. Pour en savoir plus sur l'utilisation des applications, lisez [Vue d'ensemble des applications pour les utilisateurs finaux](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
@@ -57,7 +57,7 @@ Microsoft fournit de nombreuses applications pour améliorer la productivité et
 
 Teams insère un ensemble d’applications intégrées, notamment Listes, Tâches, Compliments, Approbations, etc. Nous vous recommandons d'inclure les applications recommandées, telles que Planner, dans votre déploiement initial de Teams.
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Capture d’écran montrant la liste des applications Microsoft dans le Centre d’administration Teams." lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Capture d’écran montrant une liste d’applications Microsoft dans le Centre d’administration Teams." lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## <a name="third-party-apps-validated-by-microsoft"></a>Applications tierces validées par Microsoft
 
@@ -79,19 +79,19 @@ Pour plus d’informations, consultez [Comprendre et gérer les applications per
 
 À l’aide des méthodes de développement d’applications, Microsoft crée et fournit des exemples d’applications fonctionnelles et prêtes pour la production. Collectivement, ces applications sont appelées modèles d’application pour Teams et sont fournies à :
 
-* Illustrez quelques cas d’utilisation de collaboration dans Teams.
+* Illustrez quelques cas d’usage de collaboration dans Teams.
 * Présenter les meilleures pratiques et méthodes de développement d’applications.
 * Fournissez des applications open source que les développeurs peuvent étendre pour créer leurs propres applications.
 
-Les développeurs de votre organisation personnalisent les modèles d’application avec des modifications simples apportées au code source fourni. Vous fournissez ces applications en tant qu’applications personnalisées pour vos utilisateurs finaux afin de répondre aux besoins de toute organisation.
+Les développeurs de votre organisation personnalisent les modèles d’application avec des modifications simples du code source fourni. Vous fournissez ces applications en tant qu’applications personnalisées pour vos utilisateurs finaux afin de répondre aux besoins de toute organisation.
 
 Pour en savoir plus, consultez [Modèles d’application Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
 ## <a name="understand-app-capabilities"></a>Comprendre les fonctionnalités de l’application
 
-Pour offrir des expériences riches qui permettent aux utilisateurs finaux de travailler dans Teams, les développeurs d’applications tirent parti des fonctionnalités d’application suivantes. Les extensions de messagerie permettent aux utilisateurs d’interagir avec votre client Teams de service web. Ils recherchent ou démarrent des actions dans un système externe. Vous pouvez envoyer le résultat de l’interaction au client Teams sous la forme d’une carte enrichie. Les applications d’extensibilité de réunion intègrent les applications d’un développeur dans les réunions et offrent une expérience de réunion réactive.
+Pour offrir des expériences riches qui permettent aux utilisateurs finaux de travailler dans Teams, les développeurs d’applications tirent parti des fonctionnalités d’application suivantes. Les extensions de messagerie permettent aux utilisateurs d’interagir avec votre client Teams de service web. Ils recherchent ou démarrent des actions dans un système externe. Vous pouvez envoyer le résultat de l’interaction au client Teams sous la forme d’une carte richement formatée. Les applications d’extensibilité de réunion intègrent les applications d’un développeur dans les réunions et offrent une expérience de réunion réactive.
 
-Les bots sont également appelés chatbot ou bot conversationnel. Il s’agit d’une application qui exécute des tâches simples et répétitives. Une interaction de bot peut être une question et une réponse rapides, ou il peut s’agir d’une conversation complexe qui fournit l’accès aux services ou à l’assistance. Les utilisateurs peuvent discuter un peu en un-à-un ou dans un canal. Par exemple, vous pouvez utiliser l’application Polly pour créer des enquêtes rapides, obtenir des commentaires et effectuer une vérification d’impulsions.
+Les bots sont également appelés chatbot ou bot conversationnel. Il s’agit d’une application qui exécute des tâches simples et répétitives. Une interaction de bot peut être une question et une réponse rapides, ou il peut s’agir d’une conversation complexe qui fournit l’accès aux services ou à l’assistance. Les utilisateurs peuvent discuter avec un bot en face-à-face ou dans un canal. Par exemple, vous pouvez utiliser l’application Polly pour créer des enquêtes rapides, obtenir des commentaires et effectuer une vérification d’impulsions.
 
 Les onglets sont des pages web compatibles avec Teams épinglées en haut d’un canal ou d’une conversation. Les onglets vous permettent d’interagir avec du contenu et des services avec une expérience web. Vous pouvez ajouter des onglets dans le cadre d’un canal au sein d’une équipe, d’une conversation de groupe ou d’une application personnelle pour un utilisateur individuel.
 
@@ -99,7 +99,7 @@ Les webhooks et les connecteurs fournissent du contenu et des mises à jour à p
 
 Les extensions de messagerie sont des raccourcis permettant d’insérer du contenu d’application ou d’agir sur un message sans que les utilisateurs finaux n’ont à quitter la conversation. Les extensions de messagerie peuvent avoir des commandes de recherche permettant aux utilisateurs finaux de trouver rapidement du contenu externe et de l’insérer dans des commandes de message ou d’action.
 
-Pour afficher les cas d’usage courants mappés aux fonctionnalités Teams, consultez [Mapper vos cas d’utilisation aux fonctionnalités de l’application Teams](/microsoftteams/platform/concepts/design/map-use-cases).
+Pour afficher les cas d’usage courants mappés aux fonctionnalités Teams, consultez [Mapper vos cas d’usage aux fonctionnalités de l’application Teams](/microsoftteams/platform/concepts/design/map-use-cases).
 
 <!--- TBD: Admins do many considerations and decisions around app adoption and app governance. These are to be covered in a separate article. Commenting the below content for now as part of this article revamp.
 

@@ -21,12 +21,12 @@ description: Découvrez comment gérer les applications Teams. Découvrez commen
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 3d49d3e44e848b1d51388b148416fb897c335758
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+ms.openlocfilehash: dc7dbf1a4866fa85551d6ec46f7ea54c164ba655
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494667"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656050"
 ---
 # <a name="overview-of-app-management-and-governance-in-teams-admin-center"></a>Vue d’ensemble de la gestion et de la gouvernance des applications dans le Centre d’administration Teams
 
@@ -41,13 +41,11 @@ Pour utiliser le Centre d’administration Teams, vous devez disposer d’un rô
 > [!NOTE]
 > La page Gérer les applications n’est pas disponible dans les déploiements Microsoft 365 Cloud de la communauté du secteur public High (GCCH) ou Department of Defense (DoD) de Teams.
 
-Lors de la création d’une application, les développeurs créent et ajoutent un ID d’application au fichier manifeste. Vous pouvez afficher cet ID d’application externe sur la page Gérer les applications après avoir activé la colonne `External app ID` à partir des paramètres de colonne. Vous pouvez également l’afficher sur la page des détails de l’application d’une application personnalisée. L’ID s’applique uniquement aux applications personnalisées.
-
 ## <a name="app-management-use-cases-and-the-available-interfaces"></a>Cas d’utilisation de la gestion des applications et interfaces disponibles
 
 Les options permettant d’accomplir la plupart des cas d’utilisation de la gestion des applications sont disponibles dans le Centre d’administration Teams. En outre, certaines options sont disponibles dans d’autres portails ou dans d’autres pages du Centre d’administration Teams.
 
-Les tâches de gestion des applications prises en charge dans le Centre d’administration se trouvent dans le tableau ci-dessous.
+Les tâches de gestion des applications prises en charge dans le centre d’administration figurent dans le tableau ci-dessous.
 
 | Cas d’utilisation de la gestion des applications | Lien vers l’interface | Documentation |
 |:----|:----|:----|
@@ -59,7 +57,7 @@ Les tâches de gestion des applications prises en charge dans le Centre d’admi
 | Le rapport d’utilisation des applications Teams fournit des informations sur les applications utilisées, les utilisateurs actifs et d’autres informations sur l’utilisation des applications. | [Rapports d’utilisation](https://admin.teams.microsoft.com/analytics/reports) | [Rapport d’utilisation des applications Teams](teams-analytics-and-reports/app-usage-report.md) |
 | Vos utilisateurs peuvent ajouter des applications lorsqu’ils hébergent des réunions ou des conversations avec des invités. Ils peuvent également utiliser des applications partagées par des invités lorsqu’ils rejoignent des réunions ou des conversations hébergées en externe. Les stratégies de données de l’organisation de l’utilisateur hôte et les pratiques de partage de données de toutes les applications tierces partagées par l’organisation de cet utilisateur sont appliquées. | [Accès externe](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [Comportement des applications en fonction des types d’utilisateurs](non-standard-users.md) |
 | Avec l’accès invité, vous pouvez fournir l’accès aux applications et à d’autres fonctionnalités Teams aux personnes extérieures à votre organisation, tout en conservant le contrôle sur vos données d’entreprise. | [Accès invité](https://admin.teams.microsoft.com/company-wide-settings/guest-configuration) | [Accès invité dans Teams](guest-access.md) |
-| Les stratégies de mise à jour Teams sont utilisées pour gérer les utilisateurs teams et Office en préversion qui peuvent voir les fonctionnalités de préversion ou de préversion dans l’application Teams. | [Stratégies de mise à jour Teams](https://admin.teams.microsoft.com/policies/updatemanagement) | [Préversion publique de Teams](public-preview-doc-updates.md) |
+| Les stratégies de mise à jour Teams sont utilisées pour gérer les utilisateurs de Teams et d’Office en préversion qui peuvent voir les fonctionnalités en préversion ou en préversion dans l’application Teams. | [Stratégies de mise à jour Teams](https://admin.teams.microsoft.com/policies/updatemanagement) | [Préversion publique de Teams](public-preview-doc-updates.md) |
 
 Les tâches de gestion des applications prises en charge sur d’autres portails figurent dans le tableau ci-dessous.
 
@@ -75,13 +73,13 @@ Les tâches de gestion des applications prises en charge sur d’autres portails
 
 ## <a name="allow-and-block-apps"></a>Autoriser et bloquer des applications
 
-En tant qu’administrateur, vous contrôlez l’accès à tous les types d’applications qui sont utilisés dans tous les contextes par tous vos utilisateurs. Teams fournit des contrôles granulaires pour configurer l’accès pour chaque application et pour chaque utilisateur.
+En tant qu’administrateur, vous contrôlez l’accès à tous les types d’applications utilisées dans tous les contextes par tous vos utilisateurs. Teams fournit des contrôles granulaires pour configurer l’accès pour chaque application et pour chaque utilisateur.
 
-Pour autoriser une application, tous les paramètres suivants doivent être définis. Pour bloquer une application, bloquez-la via l’un des paramètres suivants.
+Pour autoriser une application, tous les paramètres suivants doivent être effectués. Pour bloquer une application, bloquez-la via l’un des paramètres suivants.
 
-* [Paramètres d’application à l’échelle](manage-apps.md#manage-org-wide-app-settings) de l’organisation : utilisez ce paramètre pour autoriser l’utilisation d’applications dans votre organisation. Vous décidez quelles applications spécifiques sont utilisées.
+* [Paramètres d’application à l’échelle de l’organisation](manage-apps.md#manage-org-wide-app-settings) : utilisez ce paramètre pour autoriser l’utilisation des applications dans votre organisation. Vous décidez quelles applications spécifiques sont utilisées.
 * [Autoriser une application individuelle](manage-apps.md#allow-and-block-apps) : utilisez ce paramètre pour autoriser une application spécifique dans votre organisation. Vous décidez quels utilisateurs peuvent utiliser l’application.
-* [Stratégie d’autorisation](teams-app-permission-policies.md) d’application : utilisez des stratégies pour autoriser tous ou autoriser des utilisateurs spécifiques à utiliser une application. Vous décidez de l’accès par utilisateur et par application.
+* [Stratégie d’autorisation d’application](teams-app-permission-policies.md) : utilisez des stratégies pour autoriser tous les utilisateurs ou des utilisateurs spécifiques à utiliser une application. Vous décidez de l’accès par utilisateur et par application.
 
 La page Gérer les applications est l’endroit où vous autorisez ou bloquez des applications individuelles au niveau de l’organisation. La page affiche l’ensemble de l’application disponible et l’état actuel de l’application au niveau de l’organisation. Pour autoriser ou bloquer une application, procédez comme suit :
 
@@ -89,7 +87,7 @@ La page Gérer les applications est l’endroit où vous autorisez ou bloquez de
 1. Recherchez une application et sélectionnez-la.
 1. Sélectionnez l’option **Autoriser** ou **Bloquer**.
 
-Pour autoriser une application pour des utilisateurs spécifiques, consultez [les stratégies d’autorisation d’application](teams-app-permission-policies.md).
+Pour autoriser une application pour des utilisateurs spécifiques, consultez Stratégies [d’autorisation d’application](teams-app-permission-policies.md).
 
 ## <a name="manage-org-wide-app-settings"></a>Gérer les paramètres d’application à l’échelle de l’organisation
 
@@ -98,7 +96,7 @@ Utilisez les paramètres d’application à l’échelle de l’organisation pou
 > [!NOTE]
 > Pour savoir comment utiliser les paramètres d’application à l’échelle de l’organisation dans Microsoft 365 Government : les déploiements de Teams Cloud de la communauté du secteur public High (GCCH) et Department of Defense (DoD), consultez [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md).
 
-1. Dans la page **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)** , sélectionnez **Paramètres d’application à l’échelle de l’organisation**. Vous pouvez ensuite configurer les paramètres souhaités dans le volet.
+1. Dans **[la page Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)** , sélectionnez **Paramètres de l’application à l’échelle de l’organisation**. Vous pouvez ensuite configurer les paramètres souhaités dans le volet.
 
     :::image type="content" source="media/manage-apps-org-wide-app-settings.png" alt-text="Capture d’écran du volet Paramètres de l’application à l’échelle de l’organisation sur la page Gérer les applications":::
 
@@ -117,9 +115,9 @@ Utilisez les paramètres d’application à l’échelle de l’organisation pou
 
     * **Autoriser toute nouvelle application tierce publiée sur le magasin par défaut** : cette option contrôle la publication automatique des nouvelles applications tierces publiées dans le magasin d’applications Teams dans Teams. Vous ne pouvez définir cette option que si vous autorisez des applications tierces.
 
-1. Sous **Applications personnalisées**, désactivez ou activez **Autoriser l’interaction avec les applications personnalisées**. Ce paramètre contrôle si les utilisateurs peuvent interagir avec des applications personnalisées. Pour plus d’informations, consultez [Gérer les stratégies et les paramètres des applications personnalisées](teams-custom-app-policies-and-settings.md).
+1. Sous **Applications personnalisées**, désactivez ou activez **Autoriser l’interaction avec les applications personnalisées**. Ce paramètre contrôle si les utilisateurs peuvent interagir avec des applications personnalisées. Pour en savoir plus, consultez [Gérer les stratégies et les paramètres des applications personnalisées](teams-custom-app-policies-and-settings.md).
 
-1. Sélectionnez **Enregistrer**. Les paramètres prennent effet après quelques heures.
+1. Sélectionnez **Enregistrer**. Les paramètres prennent effet au bout de quelques heures.
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>Gérer les paramètres d’application à l’échelle de l’organisation pour Microsoft 365 secteur public  
 
@@ -134,7 +132,7 @@ Utilisez les paramètres de l’application à l’échelle de l’organisation 
 
 ### <a name="for-gcc-clouds"></a>Pour les clouds GCC
 
-1. Dans la page **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)** **Teams** > , sélectionnez **paramètres d’application à l’échelle de l’organisation**. Vous pouvez ensuite configurer les paramètres voulus dans le panneau.
+1. Dans la page **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)** **Teams,** >  sélectionnez **Paramètres de l’application à l’échelle de l’organisation**. Vous pouvez ensuite configurer les paramètres voulus dans le panneau.
 
    :::image type="content" source="media/app-permission-policies-gcc-org-wide.png" alt-text="Capture d’écran montrant les paramètres de l’application à l’échelle de l’organisation dans GCC.":::
 
@@ -147,13 +145,13 @@ Utilisez les paramètres de l’application à l’échelle de l’organisation 
 
 1. Sélectionnez **Enregistrer** pour que les paramètres d’application à l’échelle de l’organisation prennent effet.
 
-Pour autoriser les applications tierces, modifiez et utilisez la stratégie globale (par défaut à l’échelle de l’organisation) ou créez et attribuez une stratégie créée par l’administrateur.
+Pour autoriser les applications tierces, modifiez et utilisez la stratégie globale (par défaut à l’échelle de l’organisation) ou créez et affectez une stratégie créée par l’administrateur.
 
 ### <a name="for-gcch-and-dod-clouds"></a>Pour les clouds GCCH et DoD
 
 1. Connectez-vous au Centre d’administration Teams et accédez aux **[stratégies d’autorisation](https://admin.teams.microsoft.com/policies/app-permission)** **des applications** >  Teams.
 
-1. Sélectionnez **les paramètres de l’application à l’échelle de l’organisation**. Sous **Applications bloquées**, ajoutez les applications que vous voulez bloquer au sein de votre organisation. Dans un déploiement Microsoft 365 Government – GCCH et DoD de Teams, toutes les applications tierces sont ajoutées à cette liste par défaut. Lorsque vous bloquez une application à l'échelle de l'organisation, l'application est automatiquement bloquée pour tous vos utilisateurs, qu'elle soit ou non autorisée dans les stratégies d'autorisation d'application.
+1. Sélectionnez **Paramètres de l’application à l’échelle de l’organisation**. Sous **Applications bloquées**, ajoutez les applications que vous voulez bloquer au sein de votre organisation. Dans un déploiement Microsoft 365 Government – GCCH et DoD de Teams, toutes les applications tierces sont ajoutées à cette liste par défaut. Lorsque vous bloquez une application à l'échelle de l'organisation, l'application est automatiquement bloquée pour tous vos utilisateurs, qu'elle soit ou non autorisée dans les stratégies d'autorisation d'application.
 
    :::image type="content" source="media/app-permission-policies-gcch-dod-org-wide.png" alt-text="Capture d'écran des paramètres d'application à l'échelle de l'organisation dans GCCH et DoD.":::
 
