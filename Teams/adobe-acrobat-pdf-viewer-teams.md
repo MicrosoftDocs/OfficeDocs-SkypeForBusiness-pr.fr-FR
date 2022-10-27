@@ -18,12 +18,12 @@ description: Découvrez comment définir Adobe Acrobat en tant que visionneuse 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 8adb2f4f0eafeabadd6f8716a338b24422d0ba35
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 6a2e6c7ef80258ba07b3450ee983818f0b6ea6e1
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656060"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738770"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Adobe Acrobat en tant que visionneuse PDF par défaut dans Microsoft Teams
 
@@ -73,6 +73,8 @@ Après avoir sélectionné Enregistrer, Teams utilise l’application Adobe Acr
 
 Si vous souhaitez autoriser de manière sélective l’application Adobe Acrobat pour quelques individus ou pour un groupe, vous pouvez attribuer une [stratégie personnalisée pour les autorisations d’application](teams-app-permission-policies.md).
 
+## <a name="considerations-and-limitations"></a>Considérations et limitations
+
 Découvrez les informations suivantes sur cette fonctionnalité :
 
 * Une fois la stratégie configurée, il [faut généralement quelques heures](teams-app-setup-policies.md#considerations-and-limitations) pour que l’application soit disponible pour les utilisateurs.
@@ -80,5 +82,5 @@ Découvrez les informations suivantes sur cette fonctionnalité :
 * Adobe Acrobat en tant que visionneuse PDF par défaut dans Teams fonctionne uniquement sur les clients de bureau et de Web. Il n’est pas pris en charge sur le client mobile.
 * Les utilisateurs ont besoin d’un plan Adobe Acrobat pour utiliser les outils Premium tels que Exporter en PDF, Organiser des pages, Combiner des fichiers, Compresser les PDF et Protéger le PDF.
 * Pour désinstaller l’application, les utilisateurs finaux peuvent supprimer l’application du client Teams. Les administrateurs peuvent supprimer l’application Adobe Acrobat à l’aide de la stratégie d’installation.
-* Si vous bloquez l’application Adobe Acrobat, supprimez-la de la stratégie d’installation. Il garantit que l’expérience de l’utilisateur final revient à l’utilisation de la visionneuse de fichiers PDF native.
+* Si vous bloquez l’application Adobe Acrobat, supprimez l’application de la stratégie d’installation. Il garantit que l’expérience de l’utilisateur final revient à l’utilisation de la visionneuse de fichiers PDF native.
 * Si vous rencontrez des problèmes lors de la connexion à l’application Adobe Acrobat dans le client de bureau Teams, utilisez [Teams dans le navigateur](https://teams.microsoft.com/) pour vous connecter.

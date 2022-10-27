@@ -21,12 +21,12 @@ description: Vos équipes ou l’administrateur informatique peuvent configurer 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 009d82d65a79bacfc0c5eca785cb595b5aebc793
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: f78e679785deb1ea4740721937440fa9aa81d0b0
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418513"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738720"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Gérer les conversations et les réunions externes dans Microsoft Teams
 
@@ -36,7 +36,7 @@ Si vous souhaitez que les personnes d'autres organisations aient accès à vos �
 
 Utilisez l’accès externe dans les situations suivantes :
   
-- Vous avez des utilisateurs dans des domaines externes qui ont besoin de faire une conversation instantanée. Par exemple, Rob@contoso.com et Ann@northwindtraders.com travaillent ensemble sur un projet avec d'autres personnes des domaines contoso.com et northwindtraders.com.
+- You have users in external domains who need to chat. For example, Rob@contoso.com and Ann@northwindtraders.com are working on a project together along with some others in the contoso.com and northwindtraders.com domains.
 
 - Vous souhaitez que les membres de votre organisation utilisent Teams pour contacter des personnes appartenant à des entreprises spécifiques extérieures à votre organisation.
 
@@ -49,7 +49,7 @@ Les stratégies d'accès externe comprennent des contrôles pour les niveaux org
 Le centre Teams d’administration contrôle l’accès externe au niveau de l’organisation. La plupart des options (sauf les restrictions de domaine) sont disponibles au niveau de l'utilisateur en utilisant PowerShell. Pour plus d’informations, afficher [Utiliser PowerShell](#using-powershell) ci-dessous.
 
 > [!NOTE]
-> Si vous désactivez l'accès externe dans votre organisation, les personnes extérieures à votre organisation peuvent toujours se joindre aux réunions par le biais de la fonction de participation anonyme. Pour en savoir plus, voir [Gérer les paramètres de réunion dans Teams](meeting-settings-in-teams.md).
+> If you turn off external access in your organization, people outside your organization can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).
 
 > [!NOTE]
 > Les utilisateurs de Teams peuvent ajouter des applications lorsqu’ils hébergent des réunions ou des conversations avec des personnes d’autres organisations. Ils peuvent également utiliser des applications partagées par des personnes d’autres organisations lorsqu’ils rejoignent des réunions ou des conversations hébergées par ces organisations. Les stratégies de données de l’organisation de l’utilisateur hôte, ainsi que les pratiques de partage de données de toutes les applications tierces partagées par l’organisation de cet utilisateur, sont appliquées.
@@ -246,7 +246,7 @@ Pour activer la fédération entre les utilisateurs de votre organisation et les
 |Hybride avec certains utilisateurs en ligne (dans Skype Entreprise ou Teams) et certains utilisateurs en local. | Suivez les étapes décrites précédemment pour les organisations en ligne. Notez que la conversation avec les utilisateurs non Teams n’est pas prise en charge pour les utilisateurs locaux.|
 
 > [!IMPORTANT]
-> Vous n'avez pas besoin d'ajouter de **domaines Teams** comme domaines autorisés pour permettre aux utilisateurs de Teams de communiquer avec des utilisateurs Teams non gérés en dehors de votre organisation. Tous les **domaines Teams non managés** sont autorisés.
+> You don't have to add any **Teams domains** as allowed domains in order to enable Teams users to communicate with unmanaged Teams users outside your organization. All **unamanged Teams domains** are allowed.
 
 ### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>Activez la fédération entre les utilisateurs de votre organisation et les utilisateurs grand public de Skype
 
@@ -259,7 +259,7 @@ Pour activer la fédération entre les utilisateurs de votre organisation et les
 | Hybride avec certains utilisateurs en ligne (dans Skype Entreprise ou Teams) et certains utilisateurs en local.| Suivez les étapes ci-dessus pour les organisations en ligne et locales.
 
 > [!IMPORTANT]
-> Vous n'avez pas besoin d'ajouter de **domaines Skype** en tant que domaines autorisés pour permettre aux utilisateurs Teams ou Skype Entreprise Online de communiquer avec les utilisateurs Skype à l'intérieur ou à l'extérieur de votre organisation. Tous les **domaines Skype** sont autorisés.
+> You don't have to add any **Skype domains** as allowed domains in order to enable Teams or Skype for Business Online users to communicate with Skype users inside or outside your organization. All **Skype domains** are allowed.
 
 ## <a name="federation-diagnostic-tool"></a>Outil de diagnostic de fédération
 
@@ -276,11 +276,14 @@ Si vous êtes administrateur, vous pouvez utiliser l'outil de diagnostic suivant
 
 ## <a name="user-level-controls"></a>Contrôles au niveau de l’utilisateur
 
-Lorsque les utilisateurs reçoivent des conversations 1:1 d’une personne extérieure à l’organisation, ils bénéficient d’une expérience en plein écran dans laquelle ils peuvent choisir **d’afficher un aperçu** du message, **d’accepter** la conversation ou **de bloquer** la personne qui envoie la conversation.
+Lorsque les utilisateurs reçoivent des conversations 1:1 d’une personne extérieure à l’organisation, ils se voient présenter une expérience plein écran dans laquelle ils peuvent choisir **d’afficher un aperçu** du message, **d’accepter** la conversation ou de **bloquer** la personne qui envoie la conversation.
 
-Le blocage des personnes externes est disponible à plusieurs endroits dans Teams, y compris le menu plus (**...**) dans la liste de conversations et le menu plus (**...**) sur la carte contacts. Les utilisateurs peuvent également débloquer des personnes externes via le menu plus (**...**) de la liste de conversations, le menu plus (**...**) sur la carte contacts, ou en visitant **les contacts bloqués Paramètres** >  Modifier **les** > **contacts bloqués**. Le blocage est disponible avant ou après l’envoi des messages.
+Le blocage des personnes externes est disponible à plusieurs endroits dans Teams, y compris le menu plus (**...**) de la liste des conversations et le menu plus (**...**) sur la carte contacts. Les utilisateurs peuvent également débloquer des personnes externes via le menu plus (**...**) de la liste des conversations, le menu plus (**...**) de la carte contacts ou en accédant à **Paramètres** > **Contacts** > **bloqués Modifier les contacts bloqués**. Le blocage est disponible avant ou après l’envoi des messages.
 
-Le blocage de personnes externes les empêche d’envoyer des messages dans des conversations 1:1, d’ajouter l’utilisateur à de nouvelles conversations de groupe et d’afficher leur présence. Tandis que les invitations aux conversations de groupe sont bloquées, les utilisateurs bloqués peuvent avoir les mêmes conversations avec les utilisateurs qui les ont bloquées, soit parce que la conversation a été lancée avant le blocage, soit parce que l’invitation à la conversation de groupe a été envoyée par un autre membre.
+Le blocage des personnes externes les empêche d’envoyer des messages dans des conversations 1:1, d’ajouter l’utilisateur à de nouvelles conversations de groupe et d’afficher sa présence. Bien que les invitations de conversation de groupe soient bloquées, les utilisateurs bloqués peuvent être dans les mêmes conversations que les utilisateurs qui les ont bloqués, soit parce que la conversation a été lancée avant le blocage, soit parce que l’invitation à la conversation de groupe a été envoyée par un autre membre.
+
+> [!NOTE]
+> Il n’existe aucun paramètre ou stratégie d’administration Teams qui contrôle la capacité d’un utilisateur à bloquer les conversations avec des personnes externes.
 
 ## <a name="related-topics"></a>Sujets associés
 

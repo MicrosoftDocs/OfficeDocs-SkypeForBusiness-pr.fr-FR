@@ -1,5 +1,5 @@
 ---
-title: Achat d’applications tierces pour Teams
+title: Acheter des licences pour des applications Teams tierces
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -13,26 +13,26 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava, nsuter
 search.appverid: MET150
 f1keywords: ''
-description: Découvrez comment acheter des applications tierces dans le magasin Teams à l’aide d’une carte de crédit, d’une carte de débit ou via facture.
+description: Découvrez comment acheter des licences d’applications tierces à partir du magasin Teams à l’aide d’une carte de crédit, d’une carte de débit ou via la facturation par facture.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 20abb80fed79995bd8496a04936737265503e67e
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 73f16f3b8bdb11971f4cd7602c4262250e9fe068
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377192"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738550"
 ---
-# <a name="purchase-third-party-apps-for-teams"></a>Achat d’applications tierces pour Teams
+# <a name="purchase-licenses-for-third-party-teams-apps"></a>Acheter des licences pour des applications Teams tierces
 
-Les applications Teams sont gratuites et certaines peuvent nécessiter l'achat d'abonnements à des services pour profiter de toutes les fonctionnalités et de la portée de l'application. Ces abonnements de service sont appelés offres SaaS (Software as a Service), qui sont disponibles à l’achat via [AppSource](https://appsource.microsoft.com/) et maintenant via le [Centre d’administration Microsoft Teams](https://admin.teams.microsoft.com).
+Certaines applications Teams peuvent nécessiter l’achat d’un abonnement de service pour découvrir toutes les fonctionnalités et l’étendue de l’application. Ces abonnements de service sont appelés offres SaaS (Software as a Service). Une licence est disponible à l’achat via [AppSource](https://appsource.microsoft.com/) et via le [Centre d’administration Microsoft Teams](https://admin.teams.microsoft.com).
 
-La page [Gérer les applications](manage-apps.md) du Centre d’administration Microsoft Teams vous permet d’afficher et de gérer toutes les applications Teams pour votre organisation. Par exemple, vous pouvez voir l’état et les propriétés au niveau de l’organisation des applications, charger de nouvelles applications personnalisées dans l’App Store de votre organisation, bloquer ou autoriser des applications au niveau de l’organisation et gérer les paramètres d’application à l’échelle de l’organisation.
+Les applications payantes sont gérées à l’aide des mêmes contrôles de gouvernance que pour toute autre application. Vous affichez et gérez toutes les applications Teams à partir de la page [Gérer les applications](manage-apps.md) du Centre d’administration Teams.
 
-Ici, vous pouvez également acheter des licences pour les services offerts par des applications tierces pour les utilisateurs de votre organisation. La colonne **Licences** du tableau indique si une application propose un abonnement SaaS à l'achat. Les utilisateurs finaux peuvent acheter des applications à l’aide d’une carte de crédit, d’une carte de débit ou d’une facturation par facture.
+Dans la page Gérer les applications, vous pouvez également acheter des licences pour les services proposés par des applications tierces pour les utilisateurs de votre organisation. La colonne **Licences** dans le tableau indique si une application propose un abonnement SaaS à l’achat. Les utilisateurs finaux peuvent acheter des applications à l’aide d’une carte de crédit, d’une carte de débit ou d’une facturation.
 
-:::image type="content" source="media/manage-apps-new-page.png" alt-text="Capture d’écran montrant la page Gérer les applications des licences d’achat.":::
+:::image type="content" source="media/manage-apps-new-page.png" alt-text="Capture d’écran montrant l’option Acheter des licences dans la page Gérer les applications dans le Centre d’administration Teams." lightbox="media/manage-apps-new-page-large.png":::
 
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>Acheter des applications dans le Centre d'administration Teams
 
@@ -40,32 +40,29 @@ Pour acheter des applications dans le centre d'administration Teams, procédez c
 
 1. Connectez-vous au Centre d’administration Teams et accédez aux **applications** >  Teams **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)**. Vous devez être un administrateur global ou un administrateur de service Teams pour accéder à la page.
 
-1. Recherchez l’application souhaitée par son nom. Pour identifier les applications qui ont un abonnement SaaS payant, regardez dans la colonne **Licences**. Chaque application a l’une des valeurs suivantes :
+1. Recherchez l’application souhaitée par son nom. Pour vérifier si les applications offrent un abonnement SaaS payant, consultez la colonne **Licences** . Chaque application a l’une des valeurs suivantes :
     * **Achat** : l'application propose un abonnement SaaS et elle est disponible à l'achat.
     * **Acheté**: l’application propose un abonnement SaaS et vous avez acheté des licences pour celle-ci.
     * **- -**: l’application n’offre pas d’abonnement SaaS.
 
-1. Lorsque vous trouvez l’application, sélectionnez **Acheter** pour accéder à l’onglet **Plans et abonnements** de la page de détails de l’application. Passez en revue les plans et les informations de tarification de l'offre SaaS pour l'application. Si vous souhaitez avoir plus d’informations, sélectionnez **En savoir plus** pour accéder à la page de l’application sur [AppSource](https://appsource.microsoft.com/).
-
-   > [!NOTE]
-   > Des plans privés peuvent également être proposés à l'achat, qui incluent des tarifs spéciaux que votre organisation peut négocier séparément avec un développeur d'applications. Ces régimes portent l'étiquette **Plan privé** sous le nom du régime.
+1. Sélectionnez **Acheter** pour accéder à l’onglet **Plans et tarification** de la page des détails de l’application. Vous pouvez consulter les plans et les informations de tarification disponibles dans le Centre d’administration. Vous pouvez sélectionner le lien **En savoir plus** pour accéder à la page de l’application sur [AppSource](https://appsource.microsoft.com/).
 
 1. Pour vous abonner à une application, choisissez l’offre souhaitée, puis sélectionnez **Acheter**. Le flux de paiement s'ouvre directement dans le centre d'administration Teams.
 
+> [!NOTE]
+> Des plans privés peuvent également être proposés à l'achat, qui incluent des tarifs spéciaux que votre organisation peut négocier séparément avec un développeur d'applications. Ces régimes portent l'étiquette **Plan privé** sous le nom du régime.
+
 1. Sélectionnez le nombre de licences utilisateur que vous souhaitez acheter.
 
-1. Vérifiez que le compte de facturation et l’adresse du donneur d’ordre sont corrects. Si vous n’en avez pas déjà un, sélectionnez **Ajouter**. Pour plus d’informations sur les comptes de facturation, consultez [Comprendre vos comptes de facturation Microsoft](/microsoft-365/commerce/manage-billing-accounts).
+1. Vérifiez que le compte de facturation et l’adresse du donneur d’ordre sont corrects. Si vous n’en avez pas déjà un, sélectionnez **Ajouter**. Pour plus d’informations sur les comptes de facturation, consultez [Comprendre vos comptes de facturation Microsoft](/microsoft-365/commerce/manage-billing-accounts). Seul un Administration général peut ajouter un nouveau compte de facturation.
 
-   > [!NOTE]
-   > Seul un Administration général peut ajouter un nouveau compte de facturation.
-
-1. Vérifiez que le profil de facturation correct est sélectionné. Si vous n’en avez pas déjà un, sélectionnez **Ajouter nouveau**. Vous pouvez payer avec une carte de crédit, une carte de débit ou une [facturation par facture](#invoice-billing). Le profil de facturation vous permet également d'ajouter un numéro de bon de commande pour identifier votre commande ultérieurement. Pour plus d’informations sur les profils de facturation, consultez [Comprendre les profils de facturation](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
+1. Vérifiez que le profil de facturation correct est sélectionné. Si vous n’en avez pas déjà un, sélectionnez **Ajouter nouveau**. Vous pouvez payer avec une carte de crédit, une carte de débit ou une [facture](#invoice-billing). Le profil de facturation vous permet également d'ajouter un numéro de bon de commande pour identifier votre commande ultérieurement. Pour plus d’informations sur les profils de facturation, consultez [Comprendre les profils de facturation](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
 
 1. Sélectionnez **Passer une commande**.
 
 1. Sélectionnez **Configurer** pour activer votre abonnement sur le site web de l'éditeur. Si vous ne configurez pas votre abonnement après votre achat, vous pouvez le faire ultérieurement en sélectionnant **Gérer les abonnements**.
 
-Une fois que vous avez acheté l’offre SaaS associée à l’application Teams, vous pouvez afficher les détails d’achat suivants sous l’onglet **Plans et abonnements** de la page de détails de l’application.
+Une fois que vous avez acheté l’offre SaaS associée à l’application Teams, vous pouvez afficher les détails d’achat suivants sous l’onglet **Plans et abonnements** de la page des détails de l’application.
 
 * **Date d'activation de la licence** : date d’activation de votre licence.
 * **Licences** : nombre de licences que vous avez achetées.
@@ -74,7 +71,7 @@ Une fois que vous avez acheté l’offre SaaS associée à l’application Teams
 
 Sélectionnez **Gérer les abonnements** pour afficher et gérer les licences que vous avez achetées.
 
-Les administrateurs généraux peuvent afficher les abonnements achetés par n’importe qui dans l’organisation, mais ils peuvent uniquement ajouter des licences supplémentaires, supprimer des licences et annuler des abonnements pour les achats effectués par n’importe qui dans leur compte de facturation. Les administrateurs de service Teams peuvent effectuer les mêmes actions pour les achats effectués par eux-mêmes.
+Les administrateurs généraux peuvent afficher les abonnements achetés par n’importe quel membre de l’organisation, mais ils peuvent uniquement ajouter des licences, supprimer des licences et annuler des abonnements pour les achats effectués par toute personne dans leur compte de facturation. Les administrateurs de service Teams peuvent effectuer les mêmes actions pour les achats effectués par eux-mêmes.
 
 > [!NOTE]
 > Si un administrateur général souhaite gérer un abonnement acheté par un autre administrateur général, il doit se trouver dans le même compte de facturation. Vous pouvez accorder un autre accès administrateur général à un abonnement que vous avez acheté en sélectionnant l’application dans le [Centre d'administration Microsoft 365](https://admin.microsoft.com). Dans le Centre d’administration, accédez à **Afficher le profil de facturation** > **Sélectionner le compte de facturation** > **Attribuer des rôles** > **Ajouter d’autres administrateurs généraux**.
@@ -91,7 +88,7 @@ Les administrateurs généraux peuvent afficher les abonnements achetés par n�
 
 ## <a name="manage-subscriptions-in-teams-admin-center"></a>Gérer les abonnements dans le Centre d’administration Teams
 
-Dans le Centre d’administration Teams, vous pouvez gérer les abonnements et licences d’application que vous avez achetés. Vous pouvez afficher la liste des abonnements aux applications et leurs détails et effectuer les actions suivantes :
+Dans le Centre d’administration Teams, vous pouvez gérer les abonnements et licences d’application que vous avez achetés. Vous pouvez afficher la liste des abonnements d’application et leurs détails et effectuer les actions suivantes :
 
 * Modifier un plan
 * Acheter ou supprimer une licence
@@ -103,14 +100,14 @@ Dans le Centre d’administration Teams, vous pouvez gérer les abonnements et l
 
 Pour gérer les abonnements, procédez comme suit :
 
-1. Connectez-vous au Centre d’administration Teams et accédez aux **applications** >  Teams [**Gérer les applications**](https://admin.teams.microsoft.com/policies/manage-apps).
+1. Connectez-vous au Centre d’administration Teams et accédez aux **applications** >  Teams [**Gérer les applications**](https://admin.teams.microsoft.com/policies/manage-apps) .
 
 1. Sélectionnez l’onglet **Abonnements** pour afficher les abonnements que vous avez achetés.
 
    :::image type="content" source="media/subscription-options-in-manage-apps.png" alt-text="Capture d’écran de l’option d’abonnement pour une application dans la page Gérer les applications." lightbox="media/manage-app-subscriptions-manage-apps.png":::
 
 > [!NOTE]
-> Dans le Centre d’administration Teams, vous pouvez gérer les abonnements d’application achetés par vous ou d’autres administrateurs qui font partie du même compte de facturation. Pour afficher tous les abonnements d’application achetés pour le même locataire par d’autres administrateurs ou achetés à l’aide de comptes de facturation différents, visitez le [Centre d'administration Microsoft 365](https://admin.microsoft.com/adminportal/home#/homepage).
+> Dans le Centre d’administration Teams, vous pouvez gérer les abonnements d’application achetés par vous-même ou d’autres administrateurs qui font partie du même compte de facturation. Pour afficher tous les abonnements d’application achetés pour le même locataire par d’autres administrateurs ou achetés à l’aide de comptes de facturation différents, visitez le [Centre d'administration Microsoft 365](https://admin.microsoft.com/adminportal/home#/homepage).
 
 ## <a name="list-and-sell-a-saas-offer-for-a-teams-app"></a>Répertorier et vendre une offre SaaS pour une application Teams
 

@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et périphériques USB (tels que les casques, les haut-parleurs, les webcams et les moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: ec1fd0583da04c3e93912843526d32803428c40e
-ms.sourcegitcommit: e8c7a5ddc3399492485680e9a6f2593658cecca3
+ms.openlocfilehash: 8a6fdacd8f4599c81e4c915ac178a9d07debb43b
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68686062"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738620"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Appareils audio et vidéo USB certifiés pour Microsoft Teams
 
@@ -84,10 +84,11 @@ Si vous êtes un fabricant et que vous souhaitez rejoindre le programme de certi
 *Table mise à jour octobre 2022*
 
 > [!NOTE]
-> Le format de date est MMDDYYY.
+> Le format de date est MM/JJ/AAAA.
 
 | Fabricant        | Modèle                                                     | Qualifié      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Evolve2 Buds                                               |10/17/2022      |Certifié pour Microsoft Teams                           |
 |Cisco                |Appareil photo de bureau 4K                                             |10/15/2022      |Certifié pour Microsoft Teams                           |
 |EPOS                 |EXPAND Vision 1/S6                                         |10/13/2022      |Certifié pour Microsoft Teams                           |
 |Lenovo               |Go USB-C ANC In-Ear Headphones                             |9/20/2022       |Certifié pour Microsoft Teams                           |

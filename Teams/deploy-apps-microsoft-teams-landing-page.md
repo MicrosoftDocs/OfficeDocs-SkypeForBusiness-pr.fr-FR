@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 48c372afe2c7881a2af5c24e36915d510f9ff291
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 1868b4e5e84803e24eacc812d638a961d6639606
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655900"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738570"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Comprendre les applications Microsoft Teams
 
@@ -41,9 +41,9 @@ Cet article vous aide à comprendre les types d'applications et l'endroit d'où 
 Les différents types d’applications que vos utilisateurs finaux peuvent utiliser dans Teams sont les suivants :
 
 * [Applications principales qui font partie de Teams](#core-apps).
-* Autres [applications créées par Microsoft](#microsoft-provided-apps).
-* [Applications tierces](#third-party-apps-validated-by-microsoft) par des partenaires (validées par Microsoft).
-* [Applications personnalisées créées](#custom-apps) par votre propre organisation.
+* Autres [applications créées par Microsoft](#apps-created-by-microsoft).
+* [Applications tierces](#third-party-apps-created-by-independent-app-developers) créées par des partenaires (validées par Microsoft).
+* [Applications personnalisées créées](#custom-apps-created-within-an-organization-for-internal-use) par votre propre organisation.
 
 ## <a name="core-apps"></a>Applications principales
 
@@ -51,7 +51,7 @@ Certaines fonctionnalités de Teams, telles que le flux d'activité, les équipe
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="Les applications principales sont les applications épinglées dans Teams par défaut." lightbox="media/core-apps-pinned2.png":::
 
-## <a name="microsoft-provided-apps"></a>Applications fournies par Microsoft
+## <a name="apps-created-by-microsoft"></a>Applications créées par Microsoft
 
 Microsoft fournit de nombreuses applications pour améliorer la productivité et la collaboration. Vous et les utilisateurs finaux pouvez trouver ces applications en recherchant Microsoft répertorié en tant qu’éditeur dans le Centre d’administration Teams ou répertorié en tant que fournisseur dans Teams Store.
 
@@ -59,13 +59,13 @@ Teams insère un ensemble d’applications intégrées, notamment Listes, Tâche
 
 :::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Capture d’écran montrant une liste d’applications Microsoft dans le Centre d’administration Teams." lightbox="media/microsoft-apps-in-tac2.png":::
 
-## <a name="third-party-apps-validated-by-microsoft"></a>Applications tierces validées par Microsoft
+## <a name="third-party-apps-created-by-independent-app-developers"></a>Applications tierces créées par des développeurs d’applications indépendants
 
-En plus des applications fournies par Microsoft, vous pouvez utiliser des applications tierces validées par Microsoft. Microsoft valide les fonctionnalités et la sécurité de ces applications avant de les rendre disponibles dans le Magasin Teams. Pour comprendre les avantages de la validation des applications, consultez [validation des applications tierces](overview-of-app-validation.md).
+En plus des applications fournies par Microsoft, vous pouvez utiliser des applications tierces. Microsoft valide rigoureusement les fonctionnalités et la sécurité de toutes ces applications. Des tests manuels et automatisés élaborés sont exécutés avant de rendre ces applications disponibles dans le magasin Teams et de nombreux tests se poursuivent à une cadence régulière même après la publication en direct des applications. Pour comprendre les avantages de la validation des applications, consultez [validation des applications tierces](overview-of-app-validation.md). Certaines applications s’abonnent au [programme de conformité Microsoft](overview-of-app-certification.md) pour faire l’objet de plusieurs niveaux de vérifications supplémentaires au-delà de la validation.
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Capture d’écran d’un exemple d’applications tierces dans le magasin Teams.":::
 
-## <a name="custom-apps"></a>Applications personnalisées
+## <a name="custom-apps-created-within-an-organization-for-internal-use"></a>Applications personnalisées créées au sein d’une organisation pour une utilisation interne
 
 Les applications créées par les développeurs de votre organisation sont appelées applications personnalisées ( ou applications de secteur d'activité). Votre organisation peut commander la création d'applications personnalisées pour répondre à des besoins spécifiques. Vous avez la possibilité d'autoriser ou de bloquer ces applications pour l'ensemble de l'organisation ou pour des utilisateurs spécifiques. Les développeurs de votre organisation peuvent créer des solutions personnalisées à faible code en utilisant l'intégration de Teams avec [Microsoft Power Plateforme](/microsoftteams/platform/samples/teams-low-code-solutions).
 
