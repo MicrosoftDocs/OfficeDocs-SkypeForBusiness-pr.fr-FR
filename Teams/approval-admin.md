@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: farhazk
 manager: samanro
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 searchScope:
@@ -20,12 +20,12 @@ ms.collection:
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 866025dad342f5abfb5b0722391dc754b3f00dd5
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 3cf50824119111d34668f4717eaf38f92de8bc64
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655840"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784329"
 ---
 # <a name="manage-the-approvals-app-in-microsoft-teams"></a>Gérer l’application Approbations dans Microsoft Teams
 
@@ -214,7 +214,7 @@ En savoir plus sur [Journalisation des activités de Microsoft Dataverse et des 
 
 À partir de l’application Approbations Teams, les utilisateurs ont accès à la création de nouvelles approbations et à l’affichage des approbations envoyées et reçues. Les utilisateurs n’ont pas accès aux approbations créées par d’autres personnes, sauf s’ils répondent ou visualisent la demande.
 
-> [!Note]
+>[!Note]
 > Un utilisateur reçoit un rôle de visionneuse d’une demande s’il fait partie de la conversation ou du canal où l’approbation a été créée. Il ne peut pas agir sur la demande si ce rôle ne lui a pas été affecté lors de la création de l’approbation.
 
 ## <a name="approvals-e-signature-integration"></a>Intégration de la signature électronique des approbations

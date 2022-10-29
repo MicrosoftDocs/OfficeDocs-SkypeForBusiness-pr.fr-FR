@@ -4,7 +4,7 @@ author: daisyfell
 ms.author: daisyfeller
 ms.reviewer: samanro
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b51ba430a68e4b8979973ec5051036df39280e22
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 214ae4f925f3a33e82fb4eac8186f02e0a65cbc2
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656140"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784419"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Mises à jour pour votre organisation dans Microsoft Teams
 
@@ -147,5 +147,5 @@ Chaque utilisateur peut créer au maximum 400 modèles Mises à jour, et chaque 
 
 À partir de l’application Teams Mises à jour, les utilisateurs ont accès à la création de mises à jour et à l’affichage des mises à jour qu’ils ont envoyées et reçues. Les utilisateurs n’auront pas accès aux Mises à jour créées par d’autres utilisateurs, sauf s’ils sont une visionneuse de la demande.
 
-> [!Note]
+>[!Note]
 > Un utilisateur reçoit un rôle de visionneuse d’une demande s’il fait partie de la conversation ou du canal où le rapport de mise à jour a été créé ou si le créateur du modèle l’ajoute manuellement en tant que visionneuse. Ils n’auront pas la possibilité d’agir sur la demande s’ils n’ont pas reçu ce rôle lors de la création du rapport.

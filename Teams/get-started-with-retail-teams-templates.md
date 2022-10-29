@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 manager: samanro
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: yinchang
 ms.collection:
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69644ce0261d37fb6a7a5e4270a68fb2a79a7d19
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 39b474231c2dcd536684514853a34672100801e5
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046914"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784309"
 ---
 # <a name="use-retail-team-templates"></a>Utiliser des modèles d’équipe de vente au détail
 
@@ -54,22 +54,22 @@ Pour en savoir plus sur les modèles d’équipe en général, voir [Commencer �
 Nous proposons actuellement les modèles d’équipe de vente au détail pré-intégrés suivants. Pour les afficher, dans le volet de navigation gauche du centre d'administration Teams, accédez à **Modèles d’équipes** >  **Teams**.
 
 > [!NOTE]
-> Un astérisque (*) indique que le modèle est un *modèle connecté à Microsoft 365*. Lorsque les utilisateurs créent une équipe à l’aide du modèle, le modèle SharePoint connecté est appliqué au site et à l’équipe. Les composants SharePoint tels que les pages, les listes et les intégrations Power Platform sont automatiquement ajoutés et épinglés sous forme d’onglets au canal Général de l’équipe. Les utilisateurs peuvent modifier ces pages et listes directement à partir de Teams.
+> Un astérisque (*) indique que le modèle est un *modèle connecté à Microsoft 365*. Lorsque les utilisateurs créent une équipe à l’aide du modèle, le modèle SharePoint connecté est appliqué au site et à l’équipe. Les composants SharePoint tels que les pages, les listes et les intégrations Power Platform sont automatiquement ajoutés et épinglés en tant qu’onglets au canal Général de l’équipe. Les utilisateurs peuvent modifier ces pages et listes directement à partir de Teams.
 >
-> Pour en savoir plus sur les modèles SharePoint, consultez [Appliquer et personnaliser des modèles de site SharePoint](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
+> Pour en savoir plus sur les modèles SharePoint, voir [Appliquer et personnaliser des modèles de site SharePoint](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
 
-### <a name="manage-a-store"></a>Gérer un Magasin*
+### <a name="manage-a-store"></a>Gérer un Store*
 
-Rassemblez vos employés dans une expérience centralisée pour gérer les tâches, partager des documents et résoudre les problèmes des clients. Intégrez des applications supplémentaires pour simplifier les processus de début et de fin de décalage.
+Rassemblez vos employés dans une expérience centralisée pour gérer les tâches, partager des documents et résoudre les problèmes des clients. Intégrez des applications supplémentaires pour simplifier les processus de début et de fin de shift.
 
 > [!div class="mx-tdBreakAll"]
 >| Type de modèle |TemplateId | Propriétés fournies avec ce modèle de base |
 >| ------------------|-- |----------------------------------------------------- |
->| Gérer un Magasin| `retailStore` |Canaux : <ul><li>Général<li>Transfert de décalage</li><li>Disponibilité du magasin</li><li>Formation</li></ul> Applications : <ul><li>Approbations</li><li>Inspection</li><li>Listes<ul><li>Liste d’inventaire</li></ul></li><li>SharePoint Pages<ul><li>Notre magasin</li></ul></li><li>Shifts</li><li>Tâches par planificateur et à faire</li><li>Wiki</li></ul>|
+>| Gérer un Store| `retailStore` |Canaux : <ul><li>Général<li>Shift Handoff</li><li>Préparation du magasin</li><li>Formation</li></ul> Applications : <ul><li>Approbations</li><li>Inspection</li><li>Listes<ul><li>Liste d’inventaire</li></ul></li><li>SharePoint Pages<ul><li>Notre magasin</li></ul></li><li>Shifts</li><li>Tâches par planificateur et à faire</li><li>Wiki</li></ul>|
 
 ### <a name="retail-for-managers"></a>Vente au détail pour les gestionnaires*
 
-Créez une équipe pour un ensemble de gestionnaires afin de collaborer entre les magasins ou les régions. Par exemple, si votre organisation a des régions, vous pouvez créer une équipe pour la région californienne et inclure tous les responsables de magasin dans cette région, ainsi que le responsable régional de cette région.
+Créez une équipe pour qu’un ensemble de responsables collabore entre des magasins ou des régions. Par exemple, si votre organisation a des régions, vous pouvez créer une équipe pour la région californienne et inclure tous les responsables de magasin dans cette région, ainsi que le responsable régional pour cette région.
 
 > [!div class="mx-tdBreakAll"]
 >| Type de modèle| TemplateId | Propriétés fournies avec ce modèle de base |
@@ -83,18 +83,18 @@ Developers can use Microsoft Graph to create teams from pre-built team templates
 Voici les modèles pré-intégrés de l’équipe de vente au détail.
 
 > [!NOTE]
-> Un astérisque (*) indique que le modèle est un *modèle connecté à Microsoft 365*. Lorsque les utilisateurs créent une équipe à l’aide du modèle, le modèle SharePoint connecté est appliqué au site et à l’équipe. Les composants SharePoint tels que les pages, les listes et les intégrations Power Platform sont automatiquement ajoutés et épinglés sous forme d’onglets au canal Général de l’équipe. Les utilisateurs peuvent modifier ces pages et listes directement à partir de Teams.
+> Un astérisque (*) indique que le modèle est un *modèle connecté à Microsoft 365*. Lorsque les utilisateurs créent une équipe à l’aide du modèle, le modèle SharePoint connecté est appliqué au site et à l’équipe. Les composants SharePoint tels que les pages, les listes et les intégrations Power Platform sont automatiquement ajoutés et épinglés en tant qu’onglets au canal Général de l’équipe. Les utilisateurs peuvent modifier ces pages et listes directement à partir de Teams.
 >
-> Pour en savoir plus sur les modèles SharePoint, consultez [Appliquer et personnaliser des modèles de site SharePoint](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
+> Pour en savoir plus sur les modèles SharePoint, voir [Appliquer et personnaliser des modèles de site SharePoint](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
 
-### <a name="manage-a-store"></a>Gérer un Magasin*
+### <a name="manage-a-store"></a>Gérer un Store*
 
-Utilisez ce modèle pour créer une équipe pour chaque emplacement de magasin de détail de votre organisation.
+Utilisez ce modèle pour créer une équipe pour chaque emplacement de magasin de vente au détail de votre organisation.
 
 > [!div class="mx-tdBreakAll"]
 >| Type de modèle | TemplateId | Canaux modèles |
 >| ------------------ | -------------- | ----------------------------------------------------- |
->| Commerce - <br>Magasin | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Canaux <ul><li>Général</li><li>Transfert de décalage</li><li>Disponibilité du magasin</li><li>Formation</li></ul>Propriétés de l’équipe <ul><li>Visibilité de l’équipe définie sur Public</li></ul> <br>Autorisations de membre <ul><li>Impossible de créer, mettre à jour ou supprimer des canaux </li><li>Ajout ou suppression d’applications impossible </li><li>Création, mise à jour ou suppression d’onglets impossible</li><li>Création, mise à jour ou suppression de connecteurs impossible</li><ul>|
+>| Commerce - <br>Magasin | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Canaux <ul><li>Général</li><li>Shift Handoff</li><li>Préparation du magasin</li><li>Formation</li></ul>Propriétés de l’équipe <ul><li>Visibilité de l’équipe définie sur Public</li></ul> <br>Autorisations de membre <ul><li>Impossible de créer, mettre à jour ou supprimer des canaux </li><li>Ajout ou suppression d’applications impossible </li><li>Création, mise à jour ou suppression d’onglets impossible</li><li>Création, mise à jour ou suppression de connecteurs impossible</li><ul>|
 
 Méthodes recommandées pour personnaliser le modèle Store pour votre organisation :
 
@@ -104,7 +104,7 @@ Méthodes recommandées pour personnaliser le modèle Store pour votre organisat
 
 ### <a name="retail-for-managers"></a>Vente au détail pour les gestionnaires*
 
-Utilisez ce modèle pour créer une équipe pour un ensemble de gestionnaires afin de collaborer entre les magasins ou les régions. Par exemple, si votre organisation a des régions, vous pouvez créer une équipe pour la région californienne et inclure tous les responsables de magasin dans cette région, ainsi que le responsable régional de cette région.
+Utilisez ce modèle pour créer une équipe pour un ensemble de responsables afin de collaborer entre des magasins ou des régions. Par exemple, si votre organisation a des régions, vous pouvez créer une équipe pour la région californienne et inclure tous les responsables de magasin dans cette région, ainsi que le responsable régional pour cette région.
 
 > [!div class="mx-tdBreakAll"]
 >| Type de modèle | TemplateId | Canaux modèles |
@@ -139,7 +139,7 @@ Pour utiliser ces modèles, modifiez la propriété « template@odata.bind » da
 ```
 
 > [!NOTE]
-> Si vous utilisez Microsoft Graph pour créer une équipe à partir d’un groupe ou d’une équipe Microsoft 365 existant à l’aide d’un modèle connecté à Microsoft 365, le modèle SharePoint connecté n’est pas automatiquement appliqué au site ou à l’équipe. Vous devez appliquer manuellement le modèle de site SharePoint après la création de l’équipe. Dans Teams, accédez à l’équipe, sélectionnez **Plus d’options** dans le coin supérieur droit > **Ouvrir dans SharePoint**. Choisissez Ensuite **Paramètres** > **Appliquer un modèle de site** , puis sélectionnez le modèle de site correspondant.
+> Si vous utilisez Microsoft Graph pour créer une équipe à partir d’un groupe ou d’une équipe Microsoft 365 existant à l’aide d’un modèle connecté à Microsoft 365, le modèle SharePoint connecté n’est pas automatiquement appliqué au site ou à l’équipe. Vous devez appliquer manuellement le modèle de site SharePoint après la création de l’équipe. Dans Teams, accédez à l’équipe, sélectionnez **Plus d’options** dans le coin supérieur droit > **Ouvrir dans SharePoint**. Choisissez ensuite **Paramètres** > **Appliquer un modèle de site** et sélectionnez le modèle de site correspondant.
 
 ## <a name="related-articles"></a>Articles connexes
 

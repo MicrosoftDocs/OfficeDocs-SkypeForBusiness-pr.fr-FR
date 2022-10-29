@@ -5,7 +5,7 @@ ms.author: v-lanachin
 manager: samanro
 ms.reviewer: rjam
 audience: admin
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.localizationpriority: medium
 description: Découvrez comment gérer l’application Compliment dans le Centre d’administration Microsoft Teams.
@@ -13,12 +13,12 @@ ms.collection:
 - M365-collaboration
 - m365-frontline
 - highpri
-ms.openlocfilehash: 5771aaa9122ddc79d4555c74d509d2c4a77f57fb
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: a14b35811158d253aa3a211521c568f23869b043
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655870"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784339"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gérer l’application Compliment dans le Centre d’administration Microsoft Teams
 

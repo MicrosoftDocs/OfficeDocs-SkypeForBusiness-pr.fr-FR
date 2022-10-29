@@ -17,12 +17,12 @@ ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 73c6098358d21b6fe2e3a0b15f3285a5a05ec082
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 0aa6a64b799f3d00262ab8a086d477bda482ac40
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271669"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784149"
 ---
 # <a name="teams-update-process"></a>Processus de mise à jour de Teams
 
@@ -30,7 +30,7 @@ Les mises à jour des applications Web Teams sont généralement publiées le 4e
 
 Les mises à jour du client de bureau Teams sont publiées tous les mois après des tests et validations internes rigoureux via notre programme d’adoption des technologies (TAP). Les mises à jour des clients de bureau commencent généralement le 4e lundi du mois et sont déployées progressivement aux clients tout au long de la semaine. Si une mise à jour critique est requise, Teams contourne ce planning et publie la mise à jour dès que celle-ci est disponible.
 
-Le client de bureau se met à jour automatiquement. Teams recherche les mises à jour toutes les quelques heures en arrière-plan, les télécharge, puis attend que l’ordinateur soit inactif avant d’installer la mise à jour en mode silencieux.
+The desktop client updates itself automatically. Teams checks for updates every few hours behind the scenes, downloads it, and then waits for the computer to be idle before silently installing the update.
 
 Les utilisateurs peuvent également télécharger manuellement les mises à jour en sélectionnant **Vérifier les mises à jour** dans le menu déroulant **...** en regard de votre icône **Profil** dans le haut à droite de l’application. Si une mise à jour est disponible, elle est téléchargée et installée en mode silencieux lorsque l’ordinateur est inactif.
 
@@ -48,7 +48,7 @@ Teams n’offre pas aux administrateurs la possibilité de déployer des mises �
 
 ## <a name="servicing-agreement"></a>Contrat de maintenance
 
-En tant que service en ligne moderne, le client Teams se met à jour automatiquement toutes les deux semaines. Étant donné que Teams est régi par la politique de cycle de vie moderne, il est prévu que les utilisateurs restent sur la version la plus récente du client de bureau. Les mises à jour automatiques garantissent que les utilisateurs disposent des dernières fonctionnalités, améliorations des performances, sécurité et fiabilité des services.
+Dans le cadre d’un service en ligne moderne, le client Teams est mis à jour environ une fois par mois. Le client installe automatiquement les mises à jour lorsqu’elles deviennent disponibles pour ce client. Étant donné que nous échelonnons la disponibilité des mises à jour dans le monde entier, certains clients de votre organisation peuvent recevoir de nouvelles mises à jour avant d’autres. Étant donné que Teams est régi par la politique de cycle de vie moderne, il est prévu que les utilisateurs restent sur la version la plus récente du client de bureau. Les mises à jour automatiques garantissent que les utilisateurs disposent des dernières fonctionnalités, améliorations des performances, sécurité et fiabilité des services.
 
 Pour identifier le moment où les clients de bureau sont obsolètes, une alerte dans l’application s’affiche si la version actuelle de l’utilisateur a entre un et trois mois, et s’il existe une nouvelle version disponible. Cette messagerie dans l’application encourage les utilisateurs à effectuer une mise à jour vers la dernière version de Teams ou, si nécessaire, à contacter leur administrateur informatique pour ce faire. Les utilisateurs sur les clients de bureau Teams qui ont plus de trois mois voient une page de blocage qui donne les options de mise à jour maintenant, de contacter leur administrateur informatique ou de continuer à utiliser Teams sur le web.
 
