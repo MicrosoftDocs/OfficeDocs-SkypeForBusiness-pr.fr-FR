@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81c8dfed94153ec7afec95da9e71e1bfe58be28c
-ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
+ms.openlocfilehash: e9178bb793f25d9c052041432c20af4be8fb4033
+ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "67457144"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68792783"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archiver ou supprimer une équipe dans Microsoft Teams
 
@@ -32,7 +32,7 @@ Au fil du temps, une équipe créée dans Microsoft Teams risque de ne plus êtr
 
 Lorsque vous archivez une équipe, toute l’activité de cette équipe cesse. L’archivage d’une équipe archive également les canaux privés au sein de l’équipe et les collections de sites associées.  Cependant, vous pouvez toujours ajouter ou supprimer des membres et mettre à jour les rôles et vous pouvez toujours afficher toutes les activités de l'équipe dans les canaux, fichiers et conversations instantanées standard et privés.
 
-Lorsque vous supprimez une équipe, l’activité de l’équipe dans les canaux standard et privés (et les collections de sites associées), les fichiers et les conversations sont également supprimés.
+Lorsque vous supprimez une équipe, l’activité d’équipe dans les canaux standard et privés (et les collections de sites associées), les fichiers et les conversations sont également supprimés.
 
 > [!IMPORTANT]
 > Les équipes archivées peuvent être réactivées, mais vous ne pouvez pas restaurer directement une équipe qui a été supprimée. Vous devez commencer par archiver l’équipe et retarder la suppression jusqu’à ce que vous soyez certain que vous n’avez plus besoin de l’équipe.
@@ -41,20 +41,20 @@ Lorsque vous supprimez une équipe, l’activité de l’équipe dans les canaux
 
 Suivez ces étapes pour archiver une équipe. Vous devez être un administrateur du service Teams pour apporter ces modifications. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](./using-admin-roles.md) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
 
-1. Dans le Centre d’administration, sélectionnez **Teams**.
+1. Dans le centre d’administration, sélectionnez **Teams**.
 2. Sélectionnez une équipe en cliquant sur le nom de l’équipe.
 3. Sélectionnez **Archiver**. Le message suivant s’affichera.
 
     ![Capture d’écran du message d’archive Teams.](media/teams-archive-message.png)
 
-4. Pour empêcher les utilisateurs de modifier le contenu dans le site SharePoint et l’onglet Wiki associé à l’équipe, **sélectionnez Rendre le site SharePoint en lecture seule pour les membres de l’équipe**. (Les propriétaires de Teams pourront toujours modifier ce contenu.)
-5. Sélectionnez **Archiver** pour archiver l’équipe. L’état de l’équipe passe à **Archivé**, il est déplacé à l’intérieur des **équipes masquées** situées en bas de la liste des équipes, et une petite icône représentant l’état archivé est ajoutée en regard de celle-ci.
+4. Pour empêcher les utilisateurs de modifier le contenu du site SharePoint et de l’onglet Wiki associés à l’équipe, sélectionnez **Rendre le site SharePoint en lecture seule pour les membres de l’équipe**. (Les propriétaires teams pourront toujours modifier ce contenu.)
+5. Sélectionnez **Archiver** pour archiver l’équipe. L’état de l’équipe passe à **Archivé**, il sera temporairement disponible dans **équipes masquées** situées en bas de la liste des équipes, et une petite icône représentant l’état archivé sera ajoutée à côté de celle-ci. Une fois qu’il est supprimé des **équipes masquées** , il est disponible dans la vue **Gérer les équipes** sous **Archivé**. Pour afficher et rechercher le contenu de l’équipe archivée, sélectionnez son nom dans la liste **Archivé** .
 
 ## <a name="make-an-archived-team-active"></a>Rendre une équipe archivée active
 
 Pour réactiver une équipe archivée, procédez comme suit.
 
-1. Dans le Centre d’administration, sélectionnez **Teams**.
+1. Dans le centre d’administration, sélectionnez **Teams**.
 2. Sélectionnez une équipe en cliquant sur le nom de l’équipe.
 3. Sélectionnez **Restaurer**. L’état de l’équipe passe à **Actif**. Notez qu’il ne sera pas déplacé automatiquement à l’intérieur de **Vos équipes** .
 
@@ -62,7 +62,7 @@ Pour réactiver une équipe archivée, procédez comme suit.
 
 Si l’équipe ne sera pas nécessaire, vous pouvez la supprimer plutôt que de l’archiver. Pour supprimer une équipe, suivez ces étapes.
 
-1. Dans le Centre d’administration, sélectionnez **Teams**.
+1. Dans le centre d’administration, sélectionnez **Teams**.
 2. Sélectionnez une équipe en cliquant sur le nom de l’équipe.
 3. Sélectionnez **Supprimer**. Un message de confirmation s’affichera.
 4. Sélectionnez **Supprimer** pour supprimer définitivement l’équipe.
@@ -109,13 +109,13 @@ Par défaut, un groupe Microsoft 365 supprimé est conservé pendant 30 jours. C
     ```
 
 1. Recherchez le groupe que vous souhaitez restaurer, puis notez le `Id`.
-1. Exécutez la commande suivante pour restaurer le groupe, où `[Id]` se trouve l’ID de groupe.
+1. Exécutez la commande suivante pour restaurer le groupe, où `[Id]` est l’ID de groupe.
 
     ```PowerShell
     Restore-AzureADMSDeletedDirectoryObject -Id [Id]
     ```
 
-1. Exécutez ce qui suit pour vérifier que le groupe a été correctement restauré, où `[Id]` se trouve l’ID de groupe.
+1. Exécutez la commande suivante pour vérifier que le groupe a été correctement restauré, où `[Id]` est l’ID de groupe.
 
     ```PowerShell
     Get-AzureADGroup -ObjectId [Id]

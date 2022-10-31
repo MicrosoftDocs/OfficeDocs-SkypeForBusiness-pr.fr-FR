@@ -18,12 +18,12 @@ ms.custom:
 description: Vidéos de formation sur les complexes PowerPoint, les didacticiels et autres ressources pour les administrateurs sur la façon de planifier, déployer et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f8d251499ef55ef1b7621e63367f746d19c70e5
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: b456bd4e9887c5d8d2f8ff61667c75ef14a6588a
+ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784349"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68792813"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Prise en main de la formation des administrateurs pour Microsoft Teams
 
@@ -63,9 +63,9 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 
 <h2>salles Teams Fondements pour les professionnels de l’informatique & AV</h2>
 
-<p>Le tableau suivant contient des liens vers des formations vidéo complètes, avec des jeux PowerPoint associés (au format PDF), sur Salles Microsoft Teams.  
+<p>Le tableau suivant contient des liens vers des jeux de formation complets dans PowerPoint sur Salles Microsoft Teams.  
 
-| Module | Présentation PowerPoint (PDF)  |
+| Module | Présentation PowerPoint  |
 | ------------ | -------------------- |
 | Module 1 : Introduction à Salles Microsoft Teams  | [Support de présentation](https://aka.ms/TeamsRoomsModule1) |
 | Module 2 : Préparation du réseau  | [Support de présentation](https://aka.ms/TeamsRoomsModule2) |
