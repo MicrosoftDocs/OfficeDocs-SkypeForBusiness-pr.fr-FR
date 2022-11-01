@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f9bca2e40263bdbce65a64bf0da2d5864941fc46
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 8a9e7afdf55fbcb85dcbbf907ef974a62e4e8492
+ms.sourcegitcommit: 86b9503eb0085e23176cb346767f880ea3a73e77
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792793"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68808293"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -53,7 +53,7 @@ Tout le contenu Teams n’est pas eDiscoverable. Le tableau suivant présente le
 |Métadonnées de réunion<sup>1</sup>||
 |Nom du canal||
 |Citations|Le contenu entre guillemets peut faire l’objet d’une recherche. Toutefois, les résultats de la recherche n’indiquent pas que le contenu a été cité.|
-|Réactions (telles que des j’aime, des cœurs et d’autres réactions)|Les réactions sont prises en charge pour tous les clients commerciaux après le 1er juin 2022. Les réactions antérieures à cette date ne sont pas disponibles pour eDiscovery. La prise en charge du cloud pour le secteur public est prévue. Il n’y a pas d’appui juridique pour les réactions.|
+|Réactions (telles que des j’aime, des cœurs et d’autres réactions)|Les réactions sont prises en charge pour tous les clients commerciaux après le 1er juin 2022. Les réactions antérieures à cette date ne sont pas disponibles pour eDiscovery. Les réactions étendues sont désormais prises en charge. Pour comprendre l’historique des réactions, le contenu doit être en attente légale.|
 |Objet||
 |Tables||
 |Clip vidéo Teams (TVC)|Recherchez TVC avec le mot clé « Video-Clip » et « save as » un fichier .mp4 pour chaque pièce jointe TVC en cliquant avec le bouton droit sur l’aperçu (la recherche par mot clé sera disponible en octobre 2022). Les données TVC sont détectables dans les [ensembles de révision](/microsoft-365/compliance/add-data-to-review-set) eDiscovery.
@@ -116,7 +116,7 @@ Avant d’effectuer ces étapes, vérifiez que la [dernière version du module P
    > [!TIP]
    > Exécutez l’applet **de commande Get-Team** sans aucun paramètre pour afficher la liste de tous les teams de votre organisation. La liste contient l’ID de groupe et displayName pour chaque équipe.
 
-2. Exécutez la commande suivante pour obtenir la liste des canaux privés dans l’équipe parente. Utilisez l’ID de groupe pour l’équipe que vous avez obtenue à l’étape 1.
+2. Exécutez la commande suivante pour obtenir la liste des canaux privés dans l’équipe parente. Utilisez l’ID de groupe de l’équipe que vous avez obtenu à l’étape 1.
 
    ```PowerShell
     Get-TeamChannel -GroupId <parent team GroupId> -MembershipType Private
@@ -204,17 +204,17 @@ Pour rechercher du contenu pour les utilisateurs invités :
    Start-ComplianceSearch <search name>
    ```
 
-6. Accédez à [https://compliance.microsoft.com](https://compliance.microsoft.com) , puis cliquez sur **Afficher toute** > **la recherche de contenu**.
+6. Accédez à [https://compliance.microsoft.com](https://compliance.microsoft.com) , puis sélectionnez **Afficher toute** > **la recherche de contenu**.
 
 7. Dans la liste des recherches, sélectionnez la recherche que vous avez créée à l’étape 4 pour afficher la page de menu volant.
 
 8. Dans la page de menu volant, vous pouvez effectuer les opérations suivantes :
 
-   - Cliquez sur **Afficher les résultats** pour afficher les résultats de la recherche et afficher un aperçu du contenu.
+   - Sélectionnez **Afficher les résultats** pour afficher les résultats de la recherche et afficher un aperçu du contenu.
 
-   - En regard du champ **Requête** , cliquez sur **Modifier** pour modifier, puis réexécutez la recherche. Par exemple, vous pouvez ajouter une requête de recherche pour affiner les résultats.
+   - En regard du champ **Requête** , sélectionnez **Modifier** pour modifier, puis réexécutez la recherche. Par exemple, vous pouvez ajouter une requête de recherche pour affiner les résultats.
 
-   - Cliquez sur **Exporter les résultats** pour exporter et télécharger les résultats de la recherche.
+   - Sélectionnez **Exporter les résultats** pour exporter et télécharger les résultats de la recherche.
 
 ## <a name="search-for-card-content"></a>Rechercher le contenu de la carte
 
@@ -245,7 +245,7 @@ Les administrateurs peuvent utiliser eDiscovery pour rechercher du contenu dans 
 
 - **Non fédéré :** dans une réunion Teams avec des utilisateurs de votre organisation et des utilisateurs invités, seuls les administrateurs de l’organisation qui hébergent la réunion Teams peuvent rechercher du contenu dans les messages de conversation de la réunion.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-articles"></a>Articles connexes
 
 - [Solutions Microsoft 365 eDiscovery](/microsoft-365/compliance/ediscovery)
 - [Prise en main d’eDiscovery (Standard)](/microsoft-365/compliance/get-started-core-ediscovery)
