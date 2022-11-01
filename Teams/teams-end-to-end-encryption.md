@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0d47107771add6e091afeeddc35d47110d7938
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: b5d3aa5e3bf56f5fe5a3c0ecef428b2d7a3c7dce
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614637"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801888"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Utilisez le cryptage de bout en bout pour les appels Microsoft Teams entre particuliers.
 
@@ -36,7 +36,7 @@ Le chiffrement de bout en bout, ou E2EE, se produit lorsque le contenu est chiff
 
 Avec E2EE pour les appels individuels non programmés, seul le flux média en temps réel, c'est-à-dire les données vidéo et vocales, pour les appels individuels des équipes, est crypté de bout en bout. Les deux parties doivent activer ce paramètre pour activer le chiffrement de bout en bout. [Le chiffrement Microsoft 365](/microsoft-365/compliance/encryption) protège les conversations, le partage de fichiers, la présence et tout autre contenu dans l’appel.
 
-Les appels chiffrés de bout en bout peuvent être effectués entre deux parties quand : les parties utilisent la dernière version du client de bureau Teams pour Windows ou Mac, sur un appareil mobile avec la dernière mise à jour pour iOS et Android, ou sur un salles Teams sur un appareil Windows à l’aide de la dernière mise à jour.
+Les appels chiffrés de bout en bout peuvent être effectués entre deux parties lorsque : les parties utilisent la dernière version du client de bureau Teams pour Windows ou Mac, se trouvent sur un appareil mobile avec la dernière mise à jour pour iOS et Android, ou se trouvent sur un salles Teams sur un appareil Windows utilisant la dernière mise à jour.
 
 Si vous n’activez pas le chiffrement de bout en bout, Teams protège toujours un appel ou une réunion à l’aide du chiffrement basé sur les normes du secteur d’activité. Les données échangées pendant les appels sont toujours sécurisées pendant le transport et au repos. Pour plus d’informations, voir [Chiffrement des médias pour Teams](teams-security-guide.md#media-encryption).
 
@@ -66,6 +66,8 @@ Les fonctionnalités avancées suivantes ne sont pas disponibles pendant un appe
 
 - Enregistrement
 
+- Applications
+
 Par ailleurs, si votre organisation utilise l’enregistrement de conformité, le chiffrement de bout en bout n’est pas disponible. Pour plus d’informations sur la façon dont Teams prend en charge l’enregistrement de conformité, voir [Présentation de l’enregistrement basé sur une stratégie Teams pour les appels et les réunions](teams-recording-policy.md).
 
 ## <a name="configure-end-to-end-encryption-for-microsoft-teams"></a>Configurer le chiffrement de bout en bout pour Microsoft Teams
@@ -86,7 +88,7 @@ La stratégie par défaut globale à l’échelle de l’organisation spécifie 
 
 3. Choisissez la stratégie par défaut ou **Ajouter** pour ajouter une nouvelle stratégie, puis nommez-la.
 
-4. Pour activer le chiffrement de bout en bout pour vos utilisateurs, pour le **chiffrement des appels de bout en bout**, choisissez **Non activé, mais les utilisateurs peuvent l’activer**, puis **choisissez Enregistrer**.
+4. Pour activer le chiffrement de bout en bout pour vos utilisateurs, pour **Chiffrement des appels de bout en bout**, choisissez **Non activé, mais les utilisateurs peuvent activer**, puis choisissez **Enregistrer**.
 
    Pour désactiver le chiffrement de bout en bout, choisissez **Non activé**.
 
