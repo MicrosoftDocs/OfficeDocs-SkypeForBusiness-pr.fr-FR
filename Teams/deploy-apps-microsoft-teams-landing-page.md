@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 1ff0095ef804f7e58dcbc81c45639228b0264da4
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 83654452460da41bf72b0feca30d3373de1533ef
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784199"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68795426"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Comprendre les applications Microsoft Teams
 
@@ -89,15 +89,37 @@ Pour en savoir plus, consultez [Modèles d’application Microsoft Teams](https:
 
 ## <a name="understand-app-capabilities"></a>Comprendre les fonctionnalités de l’application
 
-Pour offrir des expériences riches qui permettent aux utilisateurs finaux de travailler dans Teams, les développeurs d’applications tirent parti des fonctionnalités d’application suivantes. Les extensions de messagerie permettent aux utilisateurs d’interagir avec votre client Teams de service web. Ils recherchent ou démarrent des actions dans un système externe. Vous pouvez envoyer le résultat de l’interaction au client Teams sous la forme d’une carte richement formatée. Les applications d’extensibilité de réunion intègrent les applications d’un développeur dans les réunions et offrent une expérience de réunion réactive.
+Les fonctionnalités de l’application Teams sont les fonctionnalités de base qui peuvent être créées dans une application pour permettre l’intégration et l’interaction.
 
-Les bots sont également appelés chatbot ou bot conversationnel. Il s’agit d’une application qui exécute des tâches simples et répétitives. Une interaction de bot peut être une question et une réponse rapides, ou il peut s’agir d’une conversation complexe qui fournit l’accès aux services ou à l’assistance. Les utilisateurs peuvent discuter avec un bot en face-à-face ou dans un canal. Par exemple, vous pouvez utiliser l’application Polly pour créer des enquêtes rapides, obtenir des commentaires et effectuer une vérification d’impulsions.
+:::row:::
+    :::column span="":::
+    :::column-end:::
+    :::column span="3":::
+        :::image type="content" source="media/teams-app-capabilities-group.png" alt-text="Graphique montrant les fonctionnalités d’une application Microsoft Teams." border="false":::
+    :::column-end:::
+    :::column:::
+    :::column-end:::
+:::row-end:::
 
-Les onglets sont des pages web compatibles avec Teams épinglées en haut d’un canal ou d’une conversation. Les onglets vous permettent d’interagir avec du contenu et des services avec une expérience web. Vous pouvez ajouter des onglets dans le cadre d’un canal au sein d’une équipe, d’une conversation de groupe ou d’une application personnelle pour un utilisateur individuel.
+Pour fournir une expérience enrichie qui permet aux utilisateurs finaux de travailler dans Teams, les développeurs d’applications créent des applications à l’aide des fonctionnalités suivantes :
 
-Les webhooks et les connecteurs fournissent du contenu et des mises à jour à partir de services fréquemment utilisés par les utilisateurs finaux (tels que Jira Cloud et Bitbucket) directement dans une conversation de canal. Les applications qui utilisent cette fonctionnalité peuvent communiquer avec des applications externes et peuvent envoyer ou recevoir des notifications et des messages à partir d’un service externe.
+* **Bots** : les bots sont également appelés chatbot ou bot conversationnel. Il s’agit d’une application qui exécute des tâches simples et répétitives. Une interaction de bot peut être une question et une réponse rapides, ou il peut s’agir d’une conversation complexe qui fournit l’accès aux services ou à l’assistance. Les utilisateurs peuvent avoir une conversation avec un bot dans une conversation personnelle, un canal ou une conversation de groupe. Pour plus d’informations, consultez [Bots dans Microsoft Teams](/microsoftteams/platform/bots/what-are-bots).
 
-Les extensions de messagerie sont des raccourcis permettant d’insérer du contenu d’application ou d’agir sur un message sans que les utilisateurs finaux n’ont à quitter la conversation. Les extensions de messagerie peuvent avoir des commandes de recherche permettant aux utilisateurs finaux de trouver rapidement du contenu externe et de l’insérer dans des commandes de message ou d’action.
+  Teams prend en charge les robots dans les canaux et conversations privés. Les administrateurs peuvent contrôler si l’utilisation des robots est autorisée dans une organisation Microsoft 365 ou Office 365. Pour plus d’informations sur l’activation ou la désactivation des bots personnalisés, consultez [Vue d’ensemble de la gestion et de la gouvernance des applications dans le centre d’administration Teams](manage-apps.md).
+
+* **Onglets : les** onglets sont des pages web prenant en compte Teams épinglées en haut d’un canal ou d’une conversation. Les onglets vous permettent d’interagir avec du contenu et des services avec une expérience web. Il s’agit de simples balises HTML <iframe\> qui pointent vers des domaines déclarés dans le manifeste de l’application et peuvent être ajoutées dans le cadre d’un canal au sein d’une équipe, d’une conversation de groupe ou d’une application personnelle pour un utilisateur individuel. Pour plus d’informations, consultez [onglets Microsoft Teams](/microsoftteams/platform/tabs/what-are-tabs).
+
+  Dans chaque conversation privée, les onglets Conversations, Fichiers, Organisation et Activité sont créés par défaut. En plus de ces onglets intégrés, les développeurs peuvent concevoir et ajouter des onglets personnalisés. Pour plus d’informations, voir [Utiliser des onglets intégrés et des onglets personnalisés dans Teams](/microsoftteams/platform/tabs/what-are-tabs).
+
+* **Webhooks et connecteurs** : les webhooks et les connecteurs aident à connecter les services web aux canaux et aux équipes dans Microsoft Teams. Les webhooks sont un rappel HTTP défini par l’utilisateur qui avertit les utilisateurs de toute action qui a eu lieu dans le canal Teams. Il s’agit d’un moyen pour une application d’obtenir des données en temps réel. Les connecteurs permettent aux utilisateurs de s’abonner pour recevoir des notifications et des messages de vos services web. Pour plus d’informations, consultez [Webhooks et connecteurs](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
+
+  Pour permettre aux utilisateurs d’utiliser des connecteurs personnalisés dans Teams, consultez [Utiliser des connecteurs personnalisés dans Teams](office-365-custom-connectors.md).
+
+* **Extensions de messagerie** : les extensions de messagerie sont des raccourcis permettant d’insérer du contenu d’application ou d’agir sur un message sans que les utilisateurs finaux n’ont à quitter la conversation. Les utilisateurs peuvent rechercher ou lancer des actions dans un système externe à partir de la zone de rédaction de message, de la zone de commande ou directement à partir d’un message. Pour plus d’informations, consultez [Extensions de message](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet).
+
+* **Extensions de réunion** : les utilisateurs peuvent améliorer l’expérience de réunion en intégrant des onglets, des bots et des extensions de message dans les réunions et rendre les réunions plus productives. Vous pouvez identifier différents rôles de participant et types d’utilisateurs, obtenir des événements de réunion et générer des boîtes de dialogue en réunion. Pour plus d’informations, consultez [Réunions d’applications pour Teams](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
+
+* **Cartes et modules de tâches** : les cartes fournissent aux utilisateurs divers messages visuels, audio et sélectionnables, et aident à la conversation. Les modules de tâche vous aident à créer des expériences contextuelles modales dans Microsoft Teams. Ils sont utiles pour démarrer et effectuer les tâches, ou pour afficher des informations riches telles que des vidéos ou des tableaux de bord Power Business Intelligence (BI). Pour plus d’informations, consultez [Cartes et modules de tâches](/microsoftteams/platform/task-modules-and-cards/cards-and-task-modules).
 
 Pour afficher les cas d’usage courants mappés aux fonctionnalités Teams, consultez [Mapper vos cas d’usage aux fonctionnalités de l’application Teams](/microsoftteams/platform/concepts/design/map-use-cases).
 
@@ -172,6 +194,10 @@ You can use activity reports to see how users in your organization are using Tea
 
 --->
 
-## <a name="related-article"></a>Article connexe
+## <a name="related-articles"></a>Articles connexes
 
 * [En savoir plus sur les modèles d’application pour Teams](/microsoftteams/platform/samples/app-templates).
+
+* [Vue d’ensemble de la gestion et de la gouvernance des applications dans le Centre d’administration Teams](manage-apps.md)
+
+* Vous gérez les applications pour votre organisation dans les [applications Teams au sein du centre d’administration Microsoft Teams](manage-apps.md).
