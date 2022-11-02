@@ -1,5 +1,5 @@
 ---
-title: Salles Microsoft Teams enregistrer un problème
+title: Salles Microsoft Teams Enregistrer un problème
 author: altsou
 ms.author: altsou
 ms.date: 09/28/2022
@@ -16,51 +16,51 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Les partenaires ou les clients peuvent ouvrir manuellement un incident via « Enregistrer un problème » pour garantir un rapport précis de l’intégrité de la salle dans le portail Pro Management.
-ms.openlocfilehash: f638a1fc4095b9cffd0f205e1118cf6c4374d5c6
-ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
+description: Les partenaires ou les clients peuvent ouvrir manuellement un incident via « Enregistrer un problème » pour garantir des rapports précis sur l’intégrité des salles dans le portail Pro Management.
+ms.openlocfilehash: 8bfd3d5c0cc2e12c98564abd5d8ad26bde754f34
+ms.sourcegitcommit: 247ae32098c3601252249ce1de719f5215c8ab75
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2022
-ms.locfileid: "68218118"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "68810720"
 ---
 # <a name="record-an-issue-ticket"></a>Enregistrer un ticket de problème
 
-Pour tout type d’incident que MTR Pro n’a pas signalé, ou pour effectuer simplement le suivi des problèmes sur un MTR ou un espace, les clients ou les partenaires pour le compte de clients peuvent utiliser la fonctionnalité Enregistrer un problème.
-
-Dans le champ Description, décrivez le mieux possible le problème avec lequel vous avez besoin d’aide de Microsoft. Vous pouvez ajouter une ou plusieurs salles.
-
-Vérifiez  **l’impact élevé** si l’incident est à l’origine d’une dégradation importante de l’intégrité du service ou d’une pièce critique. Pour aider Microsoft à hiérarchiser correctement votre demande, décrivez en détail la raison pour laquelle il s’agit d’un impact élevé.
+Pour tout type de problème que MTR Pro n’a pas indiqué, les clients ou partenaires au nom des clients peuvent utiliser la fonctionnalité Enregistrer un problème. Cela a pour but de faciliter le suivi des problèmes avec votre support **interne ou partenaire** . 
 
 > [!NOTE]
-> N’utilisez pas ce champ pour les questions générales, les salles et/ou les problèmes qui n’ont pas d’atténuation disponible.
+> Microsoft ne surveille pas les tickets d’enregistrement d’un problème. Si le problème nécessite une assistance supplémentaire, consultez cet article sur la façon [d’obtenir une assistance pour Salles Microsoft Teams Pro Management](https://aka.ms/mtrp/openingTickets).
 
-Lorsqu’une salle est (ou que des salles sont) sélectionnées dans le cadre de l’enregistrement d’un problème, chaque chambre est marquée comme **non saine** jusqu’à ce que le problème enregistré soit fermé.
+Dans le champ Description, décrivez le mieux possible le problème. Vous pouvez ajouter une ou plusieurs salles.
 
-## <a name="closing-record-an-issue-tickets"></a>Fermeture de l’enregistrement d’un problème de tickets
+Vérifiez **l’impact élevé** pour augmenter l’importance de votre support si l’incident provoque une dégradation significative de l’intégrité d’une pièce critique.
 
-Les problèmes enregistrés peuvent être fermés par le client ou les partenaires gérant des salles pour le compte des clients.
+Lorsqu’une salle est (ou que les salles sont sélectionnées) dans le cadre de l’option Enregistrer un problème, chaque salle est marquée comme **non saine** jusqu’à ce que le problème enregistré soit fermé.
 
-**Pour fermer un ticket d’émission enregistré**
+## <a name="closing-record-an-issue-tickets"></a>Fermeture des tickets d’enregistrement d’un problème
+
+Les problèmes enregistrés peuvent être fermés par le client ou les partenaires gérant les salles pour le compte des clients.
+
+**Pour fermer un ticket de problème enregistré**
 
 1. Sélectionnez **Fermer le ticket**.
 
-2. Choisissez une raison de fermeture en sélectionnant une catégorie dans la liste.
+2. Choisissez un motif de fermeture en sélectionnant une catégorie dans la liste.
 
    Une fois que vous avez confirmé la raison de la fermeture, le ticket est fermé et déplacé vers **Résolu**.
 
-La section Vue d’ensemble des détails du ticket indique que le ticket a été fermé par le service Salles gérées (Microsoft) ou par le nom du client/partenaire.  
+La section Vue d’ensemble des détails du ticket indique que le ticket a été fermé par le nom du client/partenaire.  
 
 ## <a name="faq"></a>FAQ
 
 **Quelqu’un peut-il fermer des billets ?**
 
-Seuls les incidents signalés par le client peuvent être fermés par un utilisateur. Les clients qui ont affecté un partenaire pour gérer leurs chambres avec des autorisations de gestion des tickets auront la possibilité de fermer les tickets d’émission enregistrés.
+Seuls les incidents signalés par le client peuvent être fermés par un utilisateur. Les clients qui ont affecté un partenaire pour gérer leurs salles avec des autorisations de gestion des tickets auront la possibilité de fermer les tickets d’émission enregistrés.
 
-**Puis-je restreindre qui peut fermer des billets ?**
+**Puis-je restreindre les personnes autorisées à fermer les billets ?**
 
-Pas pour le moment. Tous les utilisateurs disposant d’autorisations de gestion des tickets peuvent fermer un ticket de problème enregistré.
+Pas pour l’instant. Tous les utilisateurs disposant d’autorisations de gestion des tickets peuvent fermer un ticket d’émission enregistré.
 
-**Est-ce que je reçois une notification lorsqu’un enregistrement d’un ticket de problème se ferme ?**
+**Est-ce que je reçois une notification quand un ticket Enregistrer un problème se ferme ?**
 
-Pas pour le moment.
+Pas pour l’instant.
