@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: high
-description: Les utilisateurs de Microsoft 365 ou Office 365 qui ne disposent pas d’une licence Microsoft Teams peuvent initier une licence exploratoire.
+description: Microsoft 365 ou Office 365 utilisateurs qui ne disposent pas d’une licence Microsoft Teams peuvent lancer une licence Teams exploratoire.
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5124c36b48c4cd8d6d2a466cbdc46c962b9aa11
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 5e5535be61aab03158aa11c68ebd3b753b3ca972
+ms.sourcegitcommit: 18e66d54a9e349d4516253addc85cc12892c69a3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376842"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "68851774"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Gérer la licence exploratoire Microsoft Teams
 
@@ -59,8 +59,8 @@ Les utilisateurs éligibles à l’expérience Teams Exploratory sont les utilis
 
 - Disposent d’une adresse e-mail du domaine Azure AD gérée.
 - Appartiennent à un client disposant d’un abonnement payant.
-- N’avez pas de licence Teams active.
-- Ne se trouve pas dans un client où une stratégie d’attribution de licence a été créée.
+- Ne disposez pas d’une licence Teams active.
+- Ne se trouvent pas dans un locataire où une stratégie d’attribution de licence a été créée.
 
 Les utilisateurs doivent être autorisés à s’inscrire aux applications et aux essais (dans le Centre d’administration Microsoft 365). Pour plus d’informations, voir [Gérer l’expérience exploratoire Teams](#manage-the-teams-exploratory-experience) plus loin dans cet article.
 
@@ -75,7 +75,7 @@ Votre organisation n’est pas éligible pour cette offre si vous êtes un clien
 
 ## <a name="how-users-sign-up-for-the-teams-exploratory-experience"></a>Comment les utilisateurs s’inscrivent pour l’expérience exploratoire Teams ?
 
-Les utilisateurs éligibles peuvent s’inscrire à l’expérience exploratoire Teams en se connectant à Teams à partir de l’ordinateur de bureau ou web ([teams.microsoft.com](https://teams.microsoft.com)). Pour l’instant, l’activation de exploratoire via mobile n’est pas prise en charge. Lorsqu’il s’inscrivent, la licence leur est attribuée automatiquement et l’administrateur client reçoit une notification par e-mail la première fois qu’une personne au sein de votre organisation démarre l’expérience Teams Exploratory.
+Les utilisateurs éligibles peuvent s’inscrire à l’expérience exploratoire Teams en se connectant à Teams à partir de l’ordinateur de bureau ou web ([teams.microsoft.com](https://teams.microsoft.com)). Pour l’instant, l’activation de l’exploration via mobile n’est pas prise en charge. Lorsqu’il s’inscrit, cette licence lui est attribuée automatiquement et l’administrateur client reçoit une notification par e-mail la première fois qu’une personne de votre organisation démarre l’expérience exploratoire Teams.
 
 ## <a name="manage-the-teams-exploratory-experience"></a>Gérer l’expérience Teams Exploratory
 
@@ -139,10 +139,12 @@ Vous pouvez gérer les utilisateurs qui ont une licence exploratoire Teams de la
 
 ### <a name="upgrade-users-from-teams-exploratory"></a>Mettre à niveau des utilisateurs à partir de Teams Exploratoire
 
-Vous devez disposer de privilèges d’administrateur pour mettre à niveau les utilisateurs à partir de Teams Exploratory. Pour plus d’informations, consultez [Mettre à niveau les utilisateurs à partir de l’essai exploratoire Teams](upgrade-from-teams-exploratory.md).
+Vous devez disposer de privilèges d’administrateur pour mettre à niveau les utilisateurs à partir de Teams Exploratory. Pour plus d’informations, consultez [Mettre à niveau les utilisateurs à partir de la version d’évaluation exploratoire de Teams](upgrade-from-teams-exploratory.md).
 
 > [!NOTE]
-> Si la licence exploratoire Teams se termine et qu’un utilisateur n’est pas immédiatement mis à niveau vers un abonnement incluant Teams, il perd l’accès à Teams après une période de grâce de 30 jours. Après 30 jours, les données sont supprimées. L’utilisateur demeure dans Azure Active Directory. Une fois qu’une nouvelle licence est attribuée à l’utilisateur pour réactiver la fonctionnalité Teams, tout le contenu reste en l’état si l’utilisateur est ajouté dans le cadre du délai de grâce.
+> Si la licence Teams Exploratoire prend fin et qu’un utilisateur n’est pas immédiatement mis à niveau vers un abonnement incluant Teams, il perd l’accès à Teams, OneDrive et Sharepoint après une période de grâce de 30 jours. Après 30 jours supplémentaires, les données Teams, OneDrive et SharePoint associées sont supprimées. L’utilisateur demeure dans Azure Active Directory.
+> 
+> Une fois qu’une nouvelle licence est attribuée à l’utilisateur pour réactiver la fonctionnalité Teams, tout le contenu reste en l’état si l’utilisateur est ajouté dans le cadre du délai de grâce.
 
 ### <a name="remove-a-teams-exploratory-license"></a>Supprimer une licence exploratoire Teams
 
@@ -152,7 +154,7 @@ Vous devez disposer de privilèges d’administrateur pour mettre à niveau les 
 
 ## <a name="what-is-the-data-retention-policy"></a>En quoi consiste la stratégie de conservation des données ?
 
-Consultez [informations d’abonnement 365](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide).
+Consultez [informations d’abonnement 365](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires).
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Combien de temps dure l’expérience d’exploration de Teams ?
 
@@ -163,7 +165,7 @@ Teams Exploratory est disponible sous forme d'abonnement de 12 mois (à partir d
 
 ### <a name="what-should-administrators-do-at-the-end-of-the-12-month-teams-exploratory-experience"></a>Que doivent faire les administrateurs à la fin des 12 mois d’expérience Teams exploratoire
 
-À la fin de l'abonnement de 12 mois, les administrateurs doivent convertir tous les utilisateurs de Teams exploratoire en une licence payante qui inclut Teams. Il est essentiel de s’assurer que cette opération se termine avant l’expiration de l’abonnement Teams exploratoire Pour éviter toute interruption de l’expérience de l’utilisateur.
+À la fin de l'abonnement de 12 mois, les administrateurs doivent convertir tous les utilisateurs de Teams exploratoire en une licence payante qui inclut Teams. Il est essentiel de s’assurer que cette action est terminée avant l’expiration de l’abonnement exploratoire Teams pour éviter toute interruption de l’expérience utilisateur.
 
 
 > [!NOTE]
