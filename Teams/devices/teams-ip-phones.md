@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Que Microsoft Teams produise les meilleurs résultats.
-ms.openlocfilehash: f2b6e74dd276eabda4cb94459a18e87ea4e38c41
-ms.sourcegitcommit: 247ae32098c3601252249ce1de719f5215c8ab75
+ms.openlocfilehash: bcd55c0584c683f76a1dd033628bd99c48a18292
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2022
-ms.locfileid: "68810690"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869599"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Appareils Android certifiés Microsoft Teams
 
@@ -86,10 +86,8 @@ Les appareils suivants sont certifiés dans le cadre du programme de certificati
 | Logitech Tap IP VR0029     | `1.6.762`  |   3 septembre 2024  | Compatible avec Logitech Rally Bar et Rally Bar Mini | 10 |
 | Neat Bar Pro   | `NFD1.20220914.1210 ` | 3 septembre 2024  |  Chambre de taille moyenne (4,5 m x 6 m) | 10|
 | Barre soignée | `NFF1.20220914.1210` |3 septembre 2024|    Chambre de taille moyenne (4,5 m x 6 m) | 10 |
-| Barre soignée | `NFB1.20220211.1400` |3 septembre 2024|    Petite salle de réunion (4,5 m x 4,5 m) | 10 |
 | Console tactile Neat Pad | `NFA1.20220914.1206`  | 3 septembre 2024 | Compatible avec Neat Bar uniquement | 9 |
-| Console tactile Neat Pad | `NFA1.20220211.1400`  | 5 août 2023 |  Compatible avec Neat Bar uniquement | 9 |
-| Tableau soigné | `NFC1.20220211.1400 ` | 3 septembre 2024 |    Petite salle de réunion (4,5 m x 4,5 m) | 10 |
+| Tableau soigné | `NFC1.20220914.1210 ` | 3 septembre 2024 |    Petite salle de réunion (4,5 m x 4,5 m) | 10 |
 | Colocataire de Logitech | `1.4.71` | 3 septembre 2024  | Grande salle de réunion (4,5 m x 8,5 m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 5 août 2023 | Fourni avec l’EPOS Vision 3T | 9 |
 | Périphérique d’appui de Logitech     | `1.2.982`  |   3 septembre 2024  | Compatible avec Logitech Rally Bar et Rally Bar Mini | 10 |

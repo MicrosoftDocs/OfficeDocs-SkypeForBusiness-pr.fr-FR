@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des canaux partagés dans Microsoft Teams.
-ms.openlocfilehash: 378088e4b1f12aee3d71f11fb54aacec8a0ca138
-ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
+ms.openlocfilehash: ff975d406426bd85789541c0a7cfb0aba57cdf60
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "67795073"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869670"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canaux partagés dans Microsoft Teams
 
@@ -39,7 +39,7 @@ Lorsqu'un canal partagé est créé, il est lié à l'équipe parente et ne peut
 
 ## <a name="getting-started-with-shared-channels"></a>Prise en main des canaux partagés
 
-Les canaux partagés sont activés par défaut dans Teams. Vous pouvez choisir si les gens peuvent créer des canaux partagés, s'ils peuvent les partager avec des personnes extérieures à votre organisation, et s'ils peuvent participer à des canaux partagés externes en [créant une stratégie de canal](/MicrosoftTeams/teams-policies).
+Shared channels is enabled by default in Teams. You can choose if people can create shared channels, if they can share them with people outside your organization, and if they can participate in external shared channels by [creating a channel policy](/MicrosoftTeams/teams-policies).
 
 Si vous prévoyez de partager des canaux avec des personnes extérieures à votre organisation, lisez [Planifier la collaboration externe](/microsoft-365/solutions/plan-external-collaboration) pour connaître les considérations importantes en matière de planification.
 
@@ -69,7 +69,9 @@ Lorsqu'une équipe est archivée, le partage individuel reste intact, mais le pa
 
 Un propriétaire de canal partagé ne peut pas être supprimé par le client Teams s'il est le dernier propriétaire d'un ou plusieurs canaux partagés.
 
-Si le dernier propriétaire de canal partagé quitte votre organisation ou s’il est supprimé du groupe Microsoft 365 associé à l’équipe, un membre du canal partagé de votre organisation est automatiquement promu en tant que propriétaire du canal partagé. S’il n’y a aucun membre de votre organisation à promouvoir, le canal partagé reste sans propriétaire. Un administrateur Teams doit affecter manuellement un propriétaire de canal. Envisagez d'ajouter plus d'un propriétaire pour éviter cette situation.
+Si le dernier propriétaire du canal partagé quitte votre organisation ou s’il est supprimé du groupe Microsoft 365 associé à l’équipe, un membre du canal partagé de votre organisation est automatiquement promu comme propriétaire du canal partagé. S’il n’y a aucun membre de votre organisation à promouvoir, le canal partagé reste sans propriétaire. Un administrateur Teams doit affecter manuellement un propriétaire de canal. Envisagez d'ajouter plus d'un propriétaire pour éviter cette situation.
+
+Les invités, y compris ceux convertis en membres (dans leur propriété de type d’utilisateur), ne peuvent pas être ajoutés à un canal partagé.
 
 > [!NOTE]
 > Les participants externes doivent être ajoutés à l’aide de leur UPN, plutôt que de leur adresse e-mail, si les deux ne correspondent pas dans Azure Active Directory.
@@ -157,7 +159,7 @@ Les limitations suivantes s’appliquent également :
 
 - Les canaux partagés supportent les onglets à l’exception de Stream, Planner et Forms.
 
-- Les bots, connecteurs et extensions de message ne sont pas pris en charge.
+- Les bots, les connecteurs et les extensions de message ne sont pas pris en charge.
 
 - Lorsque vous créez une équipe à partir d’une équipe existante, les canaux privés de l’équipe existante ne seront pas copiés.
 
