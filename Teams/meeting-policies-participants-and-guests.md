@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour les participants et les invités.
-ms.openlocfilehash: 91d48a88aff2784a5e4d420b6ede7d03e3692678
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+ms.openlocfilehash: a5d18ea0e3f8c6cd008a12258fd94c3a0b725ac3
+ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801785"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "68876280"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion : participants et invités
 
@@ -117,6 +117,17 @@ Ce paramètre est une stratégie par utilisateur qui s’applique pendant une r�
 |---------|---------|
 |**Non activé, mais l’utilisateur peut remplacer**     | Les sous-titres en direct ne sont pas activés automatiquement pour l’utilisateur pendant une réunion. L’utilisateur voit l’option **Activer les sous-titres en direct** dans le menu débordement (**...**) pour les activer. Il s’agit du paramètre par défaut. |
 |**Non activé**     | Les légendes dynamiques sont désactivées pour l’utilisateur pendant une réunion. L’utilisateur n’a pas la possibilité de les activer.          |
+
+Pour plus d’informations sur la façon dont vos utilisateurs finaux peuvent activer **les sous-titres en direct**, consultez [Utiliser des sous-titres en direct dans une réunion Teams](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260).
+
+### <a name="live-translated-captions"></a>Sous-titres traduits en direct
+
+> [!NOTE]
+> Cette fonctionnalité est temporairement disponible en préversion publique. Après la préversion, l’organisateur de la réunion doit disposer d’une licence Teams Premium pour permettre aux participants d’utiliser des sous-titres traduits en direct.
+
+Par défaut, **les sous-titres en direct sont affichés** dans la langue parlée pendant une réunion. **Les sous-titres traduits en direct** permettent à vos utilisateurs de voir les légendes traduites dans la langue avec laquelle ils sont le plus à l’aise.
+
+Pour activer **les sous-titres traduits en direct**, **les sous-titres en direct** doivent être définis sur **Non activé, mais l’utilisateur peut remplacer** dans le centre d’administration Teams. Pour désactiver **les sous-titres traduits en direct**, définissez cette option sur **Non activé**.
 
 <a name="bkcontentsharing"> </a>
 
