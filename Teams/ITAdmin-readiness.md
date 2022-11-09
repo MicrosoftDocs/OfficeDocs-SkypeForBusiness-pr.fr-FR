@@ -18,12 +18,12 @@ ms.custom:
 description: Vidéos de formation sur les complexes PowerPoint, les didacticiels et autres ressources pour les administrateurs sur la façon de planifier, déployer et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0dab76cd8cdca4270555a7f15b8f92f353f7afc5
-ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
+ms.openlocfilehash: dbba9535bed24c52578f8c01f37557774bbfa5e3
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68795446"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68890063"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Prise en main de la formation des administrateurs pour Microsoft Teams
 
@@ -48,10 +48,11 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 | ------------ | -------------------- | -------------------- |
 | [Microsoft Mechanics - Chaîne YouTube Teams Essentials pour l’informatique](https://aka.ms/MicrosoftTeamsforIT) | [Vidéo : Teams Essentials for IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Vidéo : Déployer & Configurer Teams - Introduction](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 min)  <br>[Vidéo : Sécurité et conformité](https://youtu.be/91lHNKVVvQ4) (12:42 min)<br>[Vidéo : Contrôles Teams pour la sécurité et la conformité](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)||
 | Fondations - Composants de base | [Video](https://aka.ms/teams-foundations) | [Support de présentation](https://aka.ms/teams-foundations-deck) |
+| Audioconférence |  | [Support de présentation](https://aka.ms/teams-audio-conferencing-deck) |
+| Vue d’ensemble de la qualité des appels | | [Support de présentation](https://aka.ms/teams-quality-deck) |
 | Client de bureau Windows | [Video](https://aka.ms/teams-clients) | [Support de présentation](https://aka.ms/teams-clients-deck) |
 | Gouvernance, gestion et cycle de vie | [Video](https://aka.ms/teams-governance) | [Support de présentation](https://aka.ms/teams-governance-deck) |
 | Sécurité et Conformité | [Vidéo](https://aka.ms/teams-security-compliance) | [Support de présentation](https://aka.ms/teams-security-compliance-deck) |
-| Vue d’ensemble de la qualité des appels | | [Support de présentation](https://aka.ms/teams-quality-deck) |
 | Présentation des réunions | [Vidéo](https://aka.ms/teams-meetings-intro) | [Support de présentation](https://aka.ms/teams-meetings-intro-deck) |
 | Médias - Pourquoi les réunions sont simples|[Video](https://aka.ms/media-in-teams)  | [Support de présentation](https://aka.ms/media-in-teams-deck)|
 | Média - Flux multimédia | [Video](https://aka.ms/teams-media-flows) | [Support de présentation](https://aka.ms/teams-media-flows-deck)  |

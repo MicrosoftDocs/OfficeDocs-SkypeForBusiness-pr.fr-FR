@@ -22,18 +22,18 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: En savoir plus sur l’utilisation du standard automatique Teams & rapport d’historique de la file d’attente des appels rapport Power BI pour afficher les données d’historique du standard automatique et de la file d’attente d’appels.
-ms.openlocfilehash: 2afae8986f1184f1394e806b84aa1ab242c07df2
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: b57180a339ea7aa1548acf16be1f95d3514c294b
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738690"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68890083"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Rapport d’historique de file d’attente d’appels & du standard automatique
 
 Ce modèle Power BI fournit trois rapports qui permettent aux organisations de créer des rapports sur le nombre d’appels traités par les standards automatiques et les files d’attente d’appels.  Il fournit également des insights sur les performances de l’agent.
 
-## <a name="v301-published-on-october-26-2022"></a>V3.0.1 publiée le 26 octobre 2022
+## <a name="v303-published-on-november-8-2022"></a>V3.0.3 publiée le 8 novembre 2022
 
 Le modèle Power BI rapport d’historique de file d’attente de la file d’attente teams & fournit les trois rapports suivants :
 
@@ -64,11 +64,11 @@ Les étapes suivantes supposent que vous avez déjà installé Power BI Desktop 
 
 Procédez comme suit :
 
-1. Téléchargez et enregistrez le fichier V3.0.1.ziprapports [d’historique des & de la file d’attente d’appels teams ](https://www.microsoft.com/download/details.aspx?id=104623) sur votre ordinateur.
+1. Téléchargez et enregistrez le fichier V3.0.3.ziprapports [d’historique des & de la file d’attente d’appels teams ](https://www.microsoft.com/download/details.aspx?id=104623) sur votre ordinateur.
 
 1. Ouvrez le fichier zip.
 
-1. Ouvrez le `Teams Auto Attendant & Call Queue Historical Reports V3.0.0.pbit` fichier de modèle. Power BI Desktop doit être lancé.
+1. Ouvrez le `Teams Auto Attendant & Call Queue Historical Reports V3.0.3.pbit` fichier de modèle. Power BI Desktop doit être lancé.
 
 1. Vous serez invité à sélectionner la **source de données**.  Sélectionnez l’entrée `api.interfaces.records.teams.microsoft.com` .
 
@@ -81,9 +81,9 @@ Procédez comme suit :
 1. Sélectionnez **Se connecter** pour que les données s’actualisent.
 
 > [!NOTE]
-> Si vous utilisez la version 1.63 ou une version antérieure, vous pouvez rencontrer une erreur lorsque la version 3.0.0 tente de récupérer les données à partir de VAAC.  Pour résoudre cette erreur, il est nécessaire d’effacer les informations d’identification précédentes de Power BI.
+> Si vous utilisez la version 1.63 ou une version antérieure, vous pouvez rencontrer une erreur lorsque v3.x.x tente de récupérer les données à partir de VAAC.  Pour résoudre cette erreur, il est nécessaire d’effacer les informations d’identification précédentes de Power BI.
 > 
-> 1. Ouvrez le modèle v3.0.0 pour effacer l’erreur. 
+> 1. Ouvrez le modèle v3.x.x pour effacer l’erreur. 
 > 1. Sélectionnez **Options de fichier** > **& Paramètres Paramètres** > **de la source de données**.
 > 1. Sélectionnez la liste déroulante **Effacer les autorisations**, puis **effacer toutes les autorisations**.
 > 1. Fermez le modèle une fois qu’ils sont effacés, puis redémarrez Power BI. Vous serez invité à autoriser à nouveau. 
@@ -376,7 +376,8 @@ Procédez comme suit :
 
 |Version  |Date de publication     |Fichier                                                           |Description                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
-|3.0.1    |26 octobre 2022   |Rapports d’historique des files d’attente d’appels & du standard automatique Teams v3.0.0        |Suppression de l’entrée de source de données de test                   |
+|3.0.3    |8 novembre 2022   |Rapports d’historique des files d’attente d’appels & du standard automatique Teams v3.0.3        |Reportez-vous à :<br>CQD Teams Auto Standard & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a list of changes                                                                             |
+|3.0.1    |26 octobre 2022   |Rapports d’historique des files d’attente d’appels & du standard automatique Teams v3.0.1        |Suppression de l’entrée de source de données de test                   |
 |3.0.0    |25 octobre 2022   |Rapports d’historique des files d’attente d’appels & du standard automatique Teams v3.0.0        |Nouvelle source de données back-end                             |
 |1.63     |24 août 2022    |CQD Teams Auto Standard & Call Queue Historical Report V1.63.pbit |Reportez-vous à :<br>CQD Teams Auto Standard & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a list of changes                                                                             |
 |1.60     |22 juillet 2022      |CQD Teams Auto Standard & Call Queue Historical Report V1.60.pbit |Reportez-vous à :<br>CQD Teams Auto Standard & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a list of changes                                                                             |

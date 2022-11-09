@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels dans Microsoft Teams. Les files d’attente d’appels fournissent un message d’accueil, contiennent de la musique, la redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: 9582786bacadd01ff513d9b8fb464b8906f6dbb7
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 983f59d678d05780c7ce3c3f36fbfa7fd9747067
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738750"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68890163"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -372,19 +372,19 @@ Les configurations ci-dessous sont recommandées :
 |`Serial`                         |O                         |O         |O               |O    |v         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Options de routage de l’agent**        |                          |          |                |     |          |                      |                          |   |
 |`Presence Based Routing`<sup>3</sup>|O                      |O         |v               |N    |O         |O                     |v                         |*Par défaut* |
-|`Agents can Opt-out`               |O                       |O         |v               |Y<sup>7</sup>|Y<sup>7</sup>|O          |O                         |*Par défaut*     |
+|`Agents can Opt-out`               |O                       |O         |v               |Y<sup>7</sup>|Y<sup>7</sup>|O          |v                         |*Par défaut*     |
 |**Modes de transfert**               |                          |          |                |     |          |                      |                          |   |
 |`Conference Mode`<sup>5</sup>    |O                         |O         |v               |N    |Y<sup>6</sup>|O                  |O                         |*Par défaut* |
-|`Transfer Mode`                  |O                         |O         |O               |O    |O         |O                     |v                         |   |
+|`Transfer Mode`                  |O                         |O         |O               |O    |O         |O                     |O                         |   |
 |**Appel collaboratif**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |v                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**ID d’appelant dynamique**            |                          |          |                |     |          |                      |                          |   |
 |`Standard call queue`            |O                         |O         |v               |N    |N         |O                     |n/a                       |   |
-|`Channel based call queue`       |O                         |n/a       |n/a             |n/a  |n/a       |n/a                   |O                         |   |
+|`Channel based call queue`       |v                         |n/a       |n/a             |n/a  |n/a       |n/a                   |v                         |   |
 |**Méthodes de connectivité RTC**    |                          |          |                |     |          |                      |                          |Voir la note 9   |
 |`Calling Plans`                  |O                         |O         |O               |O    |O         |O                     |O                         |   |
 |`Direct Routing`                 |O                         |O         |v               |N    |O         |Y<sup>6</sup>         |O                         |   |
-|`Operator Connect`               |O                         |O         |O               |     |v         |Y<sup>6</sup>         |O                         |   |
+|`Operator Connect`               |O                         |O         |O               |     |O         |Y<sup>6</sup>         |O                         |   |
 |**Divers**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |v                 |N         |O               |O    |          |O                     |v                         |              |
 
@@ -393,7 +393,7 @@ Les configurations ci-dessous sont recommandées :
 1. Client Microsoft Teams Windows, Client Mac Microsoft Teams, Microsoft Teams sur infrastructure de bureau virtualisée.
 2. Application Microsoft Teams pour iPhone, application Android Microsoft Teams.
 3. La sélection de la méthode d’inactivité la plus longue pour la méthode de routage de l’agent active automatiquement le routage basé sur la présence.
-4. Peut uniquement définir l’ordre lors de l’ajout d’utilisateurs individuels dans le cadre de files d’attente d’appels standard. Lorsqu’une liste de distribution ou un canal Teams est utilisé, l’ordre est alphabétique.
+4. Il n’est pas possible de définir l’ordre dans lequel les agents seront appelés.
 5. Le mode conférence n’est pas pris en charge si les appels téléphoniques sont routés vers la file d’attente à partir d’une passerelle de routage direct activée pour le routage basé sur l’emplacement.
 6. Téléphonie Microsoft Teams uniquement.
 7. Via la page du portail paramètres utilisateur à l’adresse [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
