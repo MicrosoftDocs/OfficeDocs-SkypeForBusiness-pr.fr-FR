@@ -17,120 +17,120 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5edde0613c9092a7ed48d57a4a22761e56eee142
-ms.sourcegitcommit: d3eb876e58c9e4a0a11a21b9292d3a6177508d81
+ms.openlocfilehash: b4cb61038c08739afcd6a48825f8ddaa0cb7c573
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "68329058"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912813"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurer la connexion parente dans Microsoft Teams pour l'éducation
 
-La connexion parente dans Teams pour l'éducation aide les enseignants à se connecter et à interagir en toute sécurité avec les parents et les tuteurs des étudiants dans leurs équipes de classe à l’aide de Teams.
+La connexion parente dans Teams pour l'éducation permet aux enseignants de se connecter et de s’engager en toute sécurité avec les parents et les tuteurs des étudiants dans leurs équipes de classe à l’aide de Teams.
 
 Cet article fournit des conseils aux professionnels de l’informatique de l’éducation sur les exigences et la configuration de la connexion parente.
 
-## <a name="share-guardian-and-educator-resources"></a>Partager des ressources de tuteur et d’éducateur
+## <a name="share-guardian-and-educator-resources"></a>Partager des ressources de tuteur et d’enseignant
 
 Voici quelques ressources que les administrateurs informatiques peuvent partager avec les tuteurs et les enseignants sur la façon dont ils peuvent commencer à utiliser la connexion parente.
 
-- Pour obtenir des conseils sur la configuration des tuteurs, consultez [Se connecter avec les enseignants dans Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+- Pour obtenir des conseils sur la configuration des gardiens, consultez [Se connecter avec des enseignants dans Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
 - Pour obtenir des conseils sur la configuration des enseignants, consultez [Communiquer avec les tuteurs dans Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
 
 ## <a name="benefits-of-parent-connection"></a>Avantages de la connexion parente
 
-La connexion parents permet aux enseignants et aux tuteurs de discuter, d’envoyer des e-mails et d’appeler à l’aide de Teams.
+La connexion parents permet aux enseignants et aux tuteurs de discuter, d’envoyer un e-mail et d’appeler à l’aide de Teams.
 
-- Les enseignants peuvent lancer des conversations avec des tuteurs.
-  - Si le tuteur n’a pas de compte de consommateur Teams ou s’il n’a pas encore rejoint Teams, il reçoit le message de l’enseignant, ainsi qu’une invitation par e-mail à accéder à Teams. Cela s’applique uniquement dans les cas où les limites d’invitation n’ont pas été atteintes, et la conversation est une nouvelle conversation ou une conversation existante qui a été entrée à nouveau à partir de la connexion parente.
+- Les enseignants peuvent lancer des conversations avec les gardiens.
+  - Si le tuteur n’a pas de compte de consommateur Teams ou n’a pas encore rejoint Teams, il reçoit le message de l’enseignant ainsi qu’un e-mail d’invitation pour accéder à Teams. Cela s’applique uniquement dans les cas où les limites d’invitation n’ont pas été atteintes et que la conversation est une nouvelle conversation ou une conversation existante qui a été ressaisie à partir de la connexion parente.
 - Il fonctionne avec la conversation supervisée. Pour plus d’informations, consultez [Utiliser des conversations supervisées dans Microsoft Teams](supervise-chats-edu.md).
-  - Par défaut, les tuteurs disposent d’autorisations restreintes, de sorte qu’ils ne peuvent pas discuter avec des étudiants ou supprimer des utilisateurs des conversations.
+  - Par défaut, les gardiens disposent d’autorisations restreintes, de sorte qu’ils ne peuvent pas discuter avec des étudiants ou supprimer des utilisateurs des conversations.
   - Ce paramètre peut être modifié par l’administrateur du locataire.
-- Les enseignants peuvent cliquer sur l’e-mail d’un tuteur pour les envoyer par e-mail à l’aide de leur client de messagerie natif.
+- Les enseignants peuvent cliquer sur l’e-mail d’un tuteur pour leur envoyer un e-mail à l’aide de leur client de messagerie natif.
 - Les enseignants peuvent cliquer sur le numéro de téléphone d’un tuteur pour les appeler dans Teams.
 
 > [!IMPORTANT]
-> Pour cliquer sur la fonctionnalité d’appel dans Teams, votre locataire a besoin des informations suivantes :
+> Pour cliquer pour appeler la fonctionnalité dans Teams, votre locataire a besoin des éléments suivants :
 >
 > - Fonctionnalités PBX (Public Branch Exchange).
-> - Connexion au rtc.
+> - Connexion au réseau RTC.
 >
-> Microsoft 365 A1 et les plans A3 n’incluent pas les fonctionnalités PBX ni la connexion PSTN. Vous pouvez acheter [des licences de module complémentaire pour chacune de ces licences](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+> les plans Microsoft 365 A1 et A3 n’incluent pas de fonctionnalités PBX ni de connexion RTC. Vous pouvez acheter des [licences d’extension pour chacun de ces éléments](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 >
-> Microsoft 365 A5 plans incluent uniquement des fonctionnalités PBX à l’aide du système téléphonique Teams. Vous devez toujours [acheter un plan d’appel Teams ou utiliser une solution tierce](pstn-connectivity.md) pour vous connecter à des numéros externes sur le rtc.
+> Microsoft 365 A5 plans incluent uniquement des fonctionnalités PBX à l’aide du système téléphonique Teams. Vous devrez toujours [acheter un forfait d’appels Teams ou utiliser une solution tierce](pstn-connectivity.md) pour vous connecter à des numéros externes sur le RTC.
 >
-> Pour plus d’informations sur toutes vos options pour obtenir une connectivité RTC, consultez les [options de connectivité RTC](pstn-connectivity.md).
+> Pour plus d’informations sur toutes vos options pour obtenir la connectivité RTC, consultez [Options de connectivité RTC](pstn-connectivity.md).
 >
-> Pour plus d’informations sur les licences d’appel Teams, consultez [les options de licence des modules complémentaires Teams](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+> Pour plus d’informations sur les licences d’appel Teams, consultez [Options de licence](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) des modules complémentaires Teams.
 
 ## <a name="requirements"></a>Conditions requises
 
-Vous devez utiliser Microsoft Graph ou School Data Sync (SDS) pour renseigner les informations de contact associées aux parents et aux tuteurs de chaque étudiant.
+Vous devez utiliser Microsoft Graph ou School Data Sync (SDS) pour renseigner les informations de contact relatives au parent et au tuteur de chaque étudiant.
 
 ### <a name="graph-api"></a>API Graph
 
-Si vous utilisez déjà [le Kit de développement logiciel (SDK) Microsoft Graph PowerShell](/powershell/microsoftgraph/overview) pour créer des identités Student, vous pouvez facilement inclure le [type de ressource RelatedContact](/graph/api/resources/relatedcontact).
+Si vous utilisez déjà le [Kit de développement logiciel (SDK) Microsoft Graph PowerShell](/powershell/microsoftgraph/overview) pour créer des identités d’étudiant, vous pouvez facilement inclure le [type de ressource RelatedContact](/graph/api/resources/relatedcontact).
 
-### <a name="school-data-sync"></a>Synchronisation des données scolaires
+### <a name="school-data-sync"></a>School Data Sync
 
 Les données de contact du tuteur Teams restent à jour avec SIS à l’aide de School Data Sync (SDS), lorsque SDS est configuré pour se synchroniser régulièrement.
 
-Si guardian est supprimé des enregistrements *d’un étudiant* , toutes les conversations existantes les impliquant contiendront une bannière visible par le propriétaire de la conversation. Cette bannière informera le propriétaire de la conversation de la modification, en lui demandant de supprimer le tuteur de la conversation. Microsoft ne met pas automatiquement à jour l’appartenance à la conversation pour supprimer le tuteur.
+Si le tuteur est supprimé des enregistrements *d’un étudiant* , toutes les conversations existantes les impliquant contiennent une bannière visible par le propriétaire de la conversation. Cette bannière informera le propriétaire de la conversation de la modification, en lui demandant de supprimer le tuteur de la conversation. Microsoft ne met pas automatiquement à jour l’appartenance à la conversation pour supprimer le tuteur.
 
-- Vous avez besoin de School Data Sync (SDS) pour renseigner les informations de **contact associées aux** parents et aux tuteurs de chaque étudiant.
+- Vous avez besoin de School Data Sync (SDS) pour renseigner les informations de **contact relatives au** parent et au tuteur de chaque étudiant.
   - [Déployer la SDS](/schooldatasync/parents-and-guardians-in-sds)
 
-- Si vous avez besoin d’aide pour configurer SDS et remplir **les contacts parents et tuteurs pour les** étudiants de votre locataire, contactez l’équipe de réussite du client EDU en :
-  - Exécution du processus RFA chez [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
-  - Ouverture d’un ticket au [support technique](https://aka.ms/sdssupport).
+- Si vous avez besoin d’aide pour configurer SDS et remplir les **contacts parent** et tuteur pour les étudiants de votre locataire, contactez l’équipe edu Customer Success en :
+  - Fin du processus RFA dans [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
+  - Ouverture d’un ticket au [support](https://aka.ms/sdssupport).
 
-- Actuellement, SDS prend uniquement en charge l’ingestion de données basée sur CSV pour les contacts parents ; Toutefois, vous pouvez utiliser [PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) ou [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) pour toutes les données de liste de présence, et simplement ajouter des contacts parents à l’aide de CSV.
+- Actuellement, SDS prend uniquement en charge l’ingestion de données csv pour les contacts parents ; Toutefois, vous pouvez utiliser [PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) ou [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) pour toutes les données de liste, et simplement ajouter des contacts parents à l’aide de CSV.
   - Créez un deuxième profil de synchronisation à l’aide du [format de synchronisation CSV SDS v1](/schooldatasync/school-data-sync-format-csv-files-for-sds).
-  - Extrayez les deux [fichiers parents](/schooldatasync/parent-contact-sync-file-format) remplis avec le reste des fichiers v1 vides (uniquement les en-têtes).
+  - Extrayez les deux [fichiers parent](/schooldatasync/parent-contact-sync-file-format) remplis avec le reste des fichiers v1 vides (uniquement les en-têtes).
     - User.csv
     - Guardianrelationship.csv
-      - La valeur *de rôle* doit être remplie pour chaque parent et tuteur afin d’indiquer s’il s’agit d’un *parent* ou d’un *tuteur*.
-  - Pour afficher un exemple de jeu de fichiers CSV v1, consultez les [fichiers GitHub d’attributs requis minimum](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
+      - La valeur *Rôle* doit être renseignée pour chaque parent et tuteur afin d’indiquer s’il s’agit d’un *parent* ou d’un *tuteur*.
+  - Pour afficher un exemple d’ensemble de fichiers CSV v1, consultez les [fichiers GitHub Attributs minimum requis](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
   - Si vous souhaitez automatiser l’extraction des fichiers CSV après la synchronisation initiale, lisez notre [document CSV File Sync Automation](/schooldatasync/csv-file-sync-automation).
-  - Pour obtenir de l’aide sur la configuration de votre synchronisation des données SDS, contactez [notre équipe de réussite ou](https://www.microsoft.com/fasttrack?rtc=1) [ouvrez un ticket de support](https://edusupport.microsoft.com/support?product_id=data_sync).
+  - Pour obtenir de l’aide sur la configuration de votre synchronisation de données SDS, contactez [notre équipe de réussite client](https://www.microsoft.com/fasttrack?rtc=1) ou [ouvrez un ticket de support](https://edusupport.microsoft.com/support?product_id=data_sync).
 
-### <a name="teams-admin-center-policies"></a>Stratégies du Centre d’administration Teams
+### <a name="teams-admin-center-policies"></a>Stratégies du centre d’administration Teams
 
-- Les propriétaires d’équipe de classe doivent activer la conversation Teams.
-- Les propriétaires d’équipe de classe doivent disposer d’un accès externe avec **des comptes Teams non gérés par une organisation** activée.
-  - Cette option doit être activée au niveau du locataire et de l’utilisateur. Le paramètre de niveau client se trouve dans **Utilisateurs > Accès externe** dans le Centre d’administration Teams. Ce paramètre est également accessible via PowerShell. Les stratégies d’accès externe au niveau de l’utilisateur sont accessibles uniquement via PowerShell. Pour plus d’informations, consultez les commandes PowerShell ci-dessous.
+- La conversation Teams doit être activée pour les propriétaires d’équipe de classe.
+- Les propriétaires d’équipe de classe doivent disposer d’un accès externe avec des **comptes Teams non gérés par une organisation** activés.
+  - Cette option doit être activée au niveau du locataire et au niveau de l’utilisateur. Le paramètre au niveau du locataire se trouve dans **Utilisateurs > Accès externe** dans le Centre d’administration Teams. Ce paramètre est également accessible via PowerShell. Les stratégies d’accès externe au niveau de l’utilisateur sont accessibles uniquement via PowerShell. Pour plus d’informations, consultez les commandes PowerShell ci-dessous.
 
-#### <a name="parent-and-guardian-restrictions"></a>Restrictions relatives aux parents et aux tuteurs
+#### <a name="parent-and-guardian-restrictions"></a>Restrictions relatives aux parents et tuteurs
 
-Les parents et les tuteurs sont classés en tant *qu’utilisateurs externes* dans la connexion parents, ce qui signifie qu’ils n’ont pas de droits de locataire complets. Ils ont uniquement accès à la conversation ou aux conversations dont ils font partie et aux fichiers, images et autres contenus partagés dans la conversation.
+Les parents et tuteurs sont classés comme *des utilisateurs externes* dans la connexion parents, ce qui signifie qu’ils ne disposent pas de droits de locataire complets. Ils ont uniquement accès à la conversation ou aux conversations dont ils font partie, ainsi qu’aux fichiers, images et autres contenus partagés dans la conversation.
 
-Pour les conversations externes, les utilisateurs internes et externes peuvent ajouter des utilisateurs à la conversation. Pour en savoir plus sur l’expérience de conversation externe, consultez [Gérer les réunions externes et les conversations dans Microsoft Teams](manage-external-access.md).
+Pour les conversations externes, les utilisateurs internes et externes peuvent ajouter des utilisateurs à la conversation. Pour en savoir plus sur l’expérience de conversation externe, consultez [Gérer les réunions et les conversations externes dans Microsoft Teams](manage-external-access.md).
 
-En outre, les utilisateurs externes peuvent voir la présence (hors connexion, disponible, occupée, etc.) des utilisateurs de votre organisation, mais cela peut être désactivé à l’aide de PowerShell pour protéger la confidentialité des utilisateurs. Dans PowerShell, utilisez [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) et définissez ``EnablePrivacyMode=true``.
+En outre, les utilisateurs externes peuvent voir la présence (hors connexion, disponible, occupé, etc.) des utilisateurs de votre organisation, mais cela peut être désactivé à l’aide de PowerShell pour protéger la confidentialité des utilisateurs. Dans PowerShell, utilisez [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) et définissez ``EnablePrivacyMode=true``.
 
-Même si les parents et les tuteurs sont des utilisateurs externes, leurs contributions aux conversations sont détectables. Découvrez comment mener une enquête Teams eDiscovery en lisant [Effectuer une enquête eDiscovery sur le contenu dans Microsoft Teams](ediscovery-investigation.md).
+Même si les parents et les tuteurs sont des utilisateurs externes, leurs contributions aux conversations sont détectables. Découvrez comment mener une enquête eDiscovery Teams en lisant [Mener une investigation eDiscovery du contenu dans Microsoft Teams](ediscovery-investigation.md).
 
 > [!IMPORTANT]
-> Les administrateurs informatiques doivent informer tous les propriétaires de classes sur les meilleures pratiques pour partager des informations sur les étudiants via une conversation, y compris les risques pour la confidentialité des étudiants.
+> Les administrateurs informatiques doivent informer tous les propriétaires de classe des meilleures pratiques pour le partage d’informations sur les étudiants par conversation, y compris les risques pour la confidentialité des étudiants.
 
 #### <a name="blocking-a-parent-or-guardian-in-a-chat"></a>Blocage d’un parent ou d’un tuteur dans une conversation
 
-Les enseignants peuvent bloquer un tuteur dans la conversation initiée dans la connexion parente.
+Les enseignants peuvent bloquer un tuteur dans la conversation lancée dans la connexion parente.
 
-Le propriétaire de la classe peut :
+Le propriétaire de classe peut :
 
 1. Ouvrez la carte de profil du tuteur, sélectionnez l’ellipse et **Bloquer l’utilisateur**.
 2. Ensuite, supprimez le tuteur de la conversation.
 
-L’utilisateur bloqué ne pourra pas démarrer des conversations supplémentaires avec le propriétaire de la classe.
+L’utilisateur bloqué ne pourra pas démarrer d’autres conversations avec le propriétaire de la classe.
 
 ## <a name="allow-external-access-with-teams-accounts-not-managed-by-an-organization"></a>Autoriser l’accès externe avec des comptes Teams non gérés par une organisation
 
-Pour permettre aux enseignants de communiquer avec les parents et les tuteurs dans Teams, l’administrateur informatique du locataire de l’éducation doit mettre à jour les stratégies du locataire afin d’autoriser l’accès externe pour les comptes Teams en dehors du locataire. Pour plus d’informations sur la gestion de l’accès externe, consultez [Gérer l’accès externe dans Microsoft Teams](manage-external-access.md).
+Pour permettre aux enseignants de communiquer avec les parents et les tuteurs dans Teams, l’administrateur informatique du locataire éducation doit mettre à jour les stratégies du locataire afin d’autoriser l’accès externe pour les comptes Teams en dehors du locataire. Pour plus d’informations sur la gestion de l’accès externe, consultez [Gérer l’accès externe dans Microsoft Teams](manage-external-access.md).
 
 Voici les étapes à suivre pour activer l’accès externe pour les parents et les tuteurs.
 
-1. Installez la dernière préversion du module Microsoft Teams PowerShell.
+1. Installez la dernière préversion du module PowerShell Microsoft Teams.
 
     ```powershell
     Install-Module -Name PowerShellGet -Force -AllowClobber
@@ -144,9 +144,9 @@ Voici les étapes à suivre pour activer l’accès externe pour les parents et 
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-    Le paramètre de stratégie qui active l’accès externe avec des comptes Teams non gérés par une organisation au niveau de l’utilisateur (`EnableTeamsConsumerAccess`) est activé par défaut pour toutes les stratégies d’accès externe au niveau de l’utilisateur. Le paramètre au niveau du locataire et le paramètre de stratégie au niveau de l’utilisateur doivent être activés pour qu’un utilisateur dispose d’un accès externe avec des comptes Teams non gérés par une organisation. Si vous ne souhaitez pas que cet accès soit activé pour tous les utilisateurs de votre locataire, assurez-vous que votre paramètre au niveau du locataire est désactivé, mettez à jour les stratégies d’accès externe au niveau de l’utilisateur affectées à vos utilisateurs, puis activez le paramètre au niveau du locataire.
+    Le paramètre de stratégie qui active l’accès externe avec les comptes Teams non gérés par une organisation au niveau de l’utilisateur (`EnableTeamsConsumerAccess`) est activé par défaut pour toutes les stratégies d’accès externe au niveau de l’utilisateur. Le paramètre au niveau du locataire et le paramètre de stratégie au niveau de l’utilisateur doivent être activés pour qu’un utilisateur dispose d’un accès externe avec des comptes Teams non gérés par une organisation. Si vous ne souhaitez pas que chaque utilisateur de votre locataire ait cet accès activé, vous devez vous assurer que votre paramètre au niveau du locataire est désactivé, mettre à jour les stratégies d’accès externe de niveau utilisateur attribuées à vos utilisateurs, puis activer le paramètre au niveau du locataire.
 
-    Pour vérifier les stratégies d’accès externe au niveau de l’utilisateur et les personnes auxquelles elles sont affectées, vous pouvez effectuer les étapes suivantes :
+    Pour vérifier quelles stratégies d’accès externe de niveau utilisateur existent et à qui elles sont affectées, vous pouvez effectuer les étapes suivantes :
 
 3. Vérifiez qu’il existe des stratégies d’accès externe au niveau de l’utilisateur.
 
@@ -154,39 +154,39 @@ Voici les étapes à suivre pour activer l’accès externe pour les parents et 
     Get-CsExternalAccessPolicy
     ```
 
-4. Pour chaque stratégie autre que la stratégie « Global », vérifiez les utilisateurs auxquels la stratégie est affectée.
+4. Pour chaque stratégie autre que la stratégie « globale », vérifiez les utilisateurs auxquels la stratégie est affectée.
 
    > [!NOTE]
-   > Tous les utilisateurs qui n’ont pas de stratégie spécifique affectée reviendront à la stratégie « Global ». La stratégie « Global » est affectée à tous les nouveaux utilisateurs qui sont ajoutés au locataire.
+   > Tous les utilisateurs qui n’ont pas de stratégie spécifique affectée reviennent à la stratégie « Globale ». La stratégie « Globale » est affectée à tous les nouveaux utilisateurs ajoutés au locataire.
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
     ```
 
-Étant donné que toutes les stratégies d’accès externe au niveau utilisateur ont `EnableTeamsConsumerAccess` la valeur true par défaut, si vous souhaitez ajuster le `EnableTeamsConsumerAccess` paramètre pour des utilisateurs spécifiques, vous pouvez créer/modifier des stratégies d’accès externe existantes avec des paramètres ajustés et/ou réaffecter des utilisateurs à des stratégies nouvelles ou existantes à l’aide des applets de commande PowerShell suivantes :
+Étant donné que toutes les stratégies d’accès externe au niveau de l’utilisateur ont `EnableTeamsConsumerAccess` la valeur true par défaut, si vous souhaitez ajuster le `EnableTeamsConsumerAccess` paramètre pour des utilisateurs spécifiques, vous pouvez créer/modifier des stratégies d’accès externe existantes avec des paramètres ajustés et/ou réaffecter des utilisateurs à des stratégies nouvelles ou existantes à l’aide des applets de commande PowerShell suivantes :
 
 - Créer une stratégie d’accès externe : [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy)
 
-- Personnaliser une stratégie d’accès externe existante (y compris la stratégie « Global » ) : [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
+- Personnaliser une stratégie d’accès externe existante (y compris la stratégie « Globale ») : [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
 
 > [!NOTE]
-> Les stratégies par défaut d’abonnement suivantes ne peuvent pas être modifiées : « FederationAndPICDefault », « FederationOnly », « NoFederationAndPIC ». La stratégie « FederationAndPICDefault » était auparavant affectée à tous les utilisateurs par défaut, mais la stratégie « Global » est désormais attribuée aux nouveaux utilisateurs par défaut. Si vous devez modifier les paramètres de stratégie pour les utilisateurs auxquels ces stratégies d’abonnement par défaut sont affectées, affectez des stratégies différentes avec les paramètres appropriés à ces utilisateurs.
+> Les stratégies d’abonnement par défaut suivantes ne peuvent pas être modifiées : « FederationAndPICDefault », « FederationOnly », « NoFederationAndPIC ». La stratégie « FederationAndPICDefault » était affectée par défaut à tous les utilisateurs, mais les nouveaux utilisateurs se voient désormais attribuer la stratégie « Globale » par défaut. Si vous devez modifier les paramètres de stratégie pour les utilisateurs auxquels ces stratégies d’abonnement par défaut sont affectées, affectez des stratégies différentes avec les paramètres appropriés à ces utilisateurs.
 
-- Affecter une stratégie d’accès externe à un seul utilisateur : [Grant-CsExternalAccessPolicy](/powershell/module/skype/grant-csexternalaccesspolicy)
+- Attribuer une stratégie d’accès externe à un seul utilisateur : [Grant-CsExternalAccessPolicy](/powershell/module/skype/grant-csexternalaccesspolicy)
 
 - Affecter une stratégie à un ensemble d’utilisateurs : [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
-Une fois que les stratégies d’accès externe au niveau utilisateur sont correctement définies pour les utilisateurs de votre locataire, vous pouvez activer le paramètre au niveau du locataire (`AllowTeamsConsumer`) pour le locataire à l’aide de l’applet de commande suivante :
+Une fois que les stratégies d’accès externe au niveau de l’utilisateur sont correctement définies pour les utilisateurs de votre locataire, vous pouvez activer le paramètre au niveau du locataire (`AllowTeamsConsumer`) pour le locataire à l’aide de l’applet de commande suivante :
 
-- Définissez les paramètres de configuration de fédération pour votre locataire : [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
+- Définir les paramètres de configuration de fédération pour votre locataire : [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
 ## <a name="turn-on-the-parents-app-in-the-teams-admin-center"></a>Activer l’application Parents dans le Centre d’administration Teams
 
-L’application Parents est désactivée par défaut, de sorte que les propriétaires d’équipe de classe ne la voient pas dans leurs équipes de classes tant qu’elle n’est pas autorisée par le biais du Centre d’administration Teams. L’application Parents est activée dans le Centre d’administration Teams à l’aide [d’Autoriser les applications bloquées par les développeurs](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers).
+L’application Parents étant désactivée par défaut, les propriétaires d’équipe de classe ne la voient pas dans leurs équipes de classe tant qu’elle n’est pas autorisée par le biais du Centre d’administration Teams. L’application Parents est activée dans le Centre d’administration Teams à l’aide [de l’option Autoriser les applications bloquées par les développeurs](manage-apps.md#allow-and-block-apps).
 
-À tout moment, l’application peut être désactivée au niveau du locataire à l’aide des [applications Autoriser et bloquer](manage-apps.md#allow-and-block-apps) dans le Centre d’administration Teams. S’il est désactivé au niveau du locataire, il est bloqué pour tous les utilisateurs, même si les autorisations au niveau de l’utilisateur sont activées.
+À tout moment, l’application peut être désactivée au niveau du locataire à l’aide [de l’option Autoriser et bloquer les applications](manage-apps.md#allow-and-block-apps) dans le Centre d’administration Teams. S’il est désactivé au niveau du locataire, il est bloqué pour tous les utilisateurs, même si les autorisations au niveau de l’utilisateur sont activées.
 
-L’application Parents peut également être désactivée au niveau de l’utilisateur à l’aide des [stratégies d’autorisation gérer l’application dans Microsoft Teams](teams-app-permission-policies.md).
+L’application Parents peut également être désactivée au niveau de l’utilisateur à l’aide [de Gérer les stratégies d’autorisation d’application dans Microsoft Teams](teams-app-permission-policies.md).
 
 ## <a name="more-information"></a>Plus d’informations
 

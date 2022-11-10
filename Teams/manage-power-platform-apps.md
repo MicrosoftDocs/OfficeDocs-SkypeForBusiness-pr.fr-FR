@@ -18,16 +18,14 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment gérer l'accès aux applications personnalisées créées à l'aide de Microsoft Power Platform dans le centre d'administration Teams.
-ms.openlocfilehash: 3a81d1db3de7cf4fa82b80526ffdb206bfbe8da6
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: c4ac0bd3551bb53da06de3301447c6bf4842540c
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656030"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912583"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Gérer les applications Microsoft Power Platform dans le centre d'administration Teams
-
-## <a name="manage-custom-apps-created-using-microsoft-power-platform-apps"></a>Gérer les applications personnalisées créées à l’aide d’applications Microsoft Power Platform
 
 Cet article vous donne une vue d’ensemble de la gestion des applications personnalisées créées à l’aide des applications [Microsoft Power Platform](https://powerplatform.microsoft.com/) dans le Centre d’administration Microsoft Teams. Les applications personnalisées sont créées par les développeurs au sein de votre organisation pour les utilisateurs internes.
 

@@ -23,14 +23,14 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 5797486fb0993aa8630a8dedde131ad7751e7e5f
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: aac7024730c3f18e1c0f38a2e041dea840a6b869
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656020"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912403"
 ---
-# <a name="manage-access-to-teams-apps-using-app-permission-policies"></a>Gérer l’accès aux applications Teams à l’aide de stratégies d’autorisation d’application
+# <a name="use-app-permission-policies-to-control-user-access-to-apps"></a>Utiliser des stratégies d’autorisation d’application pour contrôler l’accès des utilisateurs aux applications
 
 En tant qu’administrateur, vous pouvez utiliser des stratégies d’autorisation d’application pour contrôler les applications disponibles pour chaque utilisateur de votre organisation. Les autorisations que vous définissez pour autoriser ou bloquer toutes les applications ou applications spécifiques s’appliquent à tous les [types d’applications dans Teams](deploy-apps-microsoft-teams-landing-page.md). Vous devez être administrateur de service Global Administration ou Teams pour gérer ces stratégies.
 
@@ -57,10 +57,10 @@ Utilisez une ou plusieurs stratégies d'autorisation d'application personnalisé
 1. Fournissez un nom et une description pour la stratégie.
 1. Sous **Applications Microsoft**, **Applications tierces** et **Applications personnalisées**, sélectionnez l’une des options suivantes :
 
-    * `Allow all apps`
-    * `Allow specific apps and block all others`
-    * `Block specific apps and allow all others`
-    * `Block all apps`
+    * Autoriser toutes les applications
+    * Autoriser des applications spécifiques et bloquer toutes les autres
+    * Bloquer des applications spécifiques et autoriser toutes les autres
+    * Bloquer toutes les applications.
 
 1. Si vous avez sélectionné **Autoriser des applications spécifiques et bloquer toutes les autres**, ajoutez les applications que vous souhaitez autoriser :
 

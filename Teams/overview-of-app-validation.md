@@ -18,14 +18,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eeb0c49dcf560b858b8723f813cc86b6b51c1daa
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 97da6b39ab6e6d9208c883ae60f0be08432e5222
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377552"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912633"
 ---
-# <a name="testing-and-validation-done-by-microsoft-for-all-teams-apps"></a>Test et validation effectués par Microsoft pour toutes les applications Teams
+# <a name="know-about-the-testing-and-validation-done-by-microsoft-for-all-apps"></a>Connaître les tests et la validation effectués par Microsoft pour toutes les applications
 
 Microsoft exige que toutes les applications passent une validation obligatoire avant d’être répertoriées dans le magasin pour les utilisations finales. Elle s’applique à l’ensemble des applications (à l’exception des applications personnalisées) publiées sur le magasin d’applications Teams. En outre, Microsoft encourage vivement les développeurs d’applications à participer à une certification facultative des applications qui indique les contrôles de conformité, de sécurité et de confidentialité améliorés.
 
@@ -42,14 +42,14 @@ Nous exécutons plus de 400 cas de test pour chaque application avant sa mise �
 
 * Vérifiez que les autorisations Graph exigées par l’application sont réellement celles dont la fonctionnalité de l’application a besoin et non pas des autorisations supplémentaires. Les autorisations Graph pour les applications existantes sont régulièrement vérifiées pour vous assurer qu’aucune autorisation supplémentaire n’est exigée par une application.
 * Les applications qui nécessitent que les utilisateurs se connectent disposent d’une option de déconnexion.
-* Les développeurs de toutes les applications subissent un processus de vérification détaillé sur l’Espace partenaires Microsoft. La vérification inclut la vérification par e-mail, la vérification métier et bien plus encore. Pour en savoir plus sur la publication d’applications, consultez [Création d’un compte Espace partenaires par les développeurs](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account), [Guide de soumission pour les développeurs](/office/dev/store/add-in-submission-guide) et [Publication d’applications par les développeurs](https://aka.ms/PublishToTeamsStore).
+* Les développeurs de toutes les applications font l’objet d’un processus de vérification détaillé dans l’Espace partenaires Microsoft. La vérification inclut la vérification par e-mail, la vérification métier et bien plus encore. Pour en savoir plus sur la publication d’applications, consultez [Création d’un compte Espace partenaires par les développeurs](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account), [Guide de soumission pour les développeurs](/office/dev/store/add-in-submission-guide) et [Publication d’applications par les développeurs](https://aka.ms/PublishToTeamsStore).
 * Seules les applications des développeurs vérifiés peuvent effectuer une recherche d’autorisations Graph auprès des utilisateurs finaux.
 * Aucune application ne peut télécharger un fichier exécutable.
 * Les applications sont testées pour ne pas contenir de publicités, promotion pour d’autres applications.
 * Les applications sont testées pour effectuer un travail approprié sans langage offensant, bots de cyberattaque, courriers indésirables ou contenu frauduleux.
 * Tous les liens d’une application sont fonctionnels et liés uniquement à l’offre de l’application.
 * Nous testons et évaluons régulièrement toutes les applications Teams publiées dans le cadre des contrôles d’intégrité du magasin d’applications.
-* La politique de confidentialité et les conditions d’utilisation qui couvrent les applications Teams sont fournies par le développeur d’applications.
+* La politique de confidentialité et les conditions d’utilisation qui couvrent les applications Teams sont fournies par le développeur de l’application.
 * Les coordonnées du développeur de l’application sont disponibles dans la description du Store et dans leurs [pages d’attestation Publisher](/microsoft-365-app-certification/teams/teams-apps)respectives.
 
 En outre, Microsoft encourage les développeurs d’applications à participer à son programme de conformité qui est une approche rigoureuse et à deux niveaux pour garantir la qualité, la sécurité et la conformité des applications. Le magasin Teams a des centaines d’applications qui vont au-delà du respect des instructions de validation déjà détaillées et qui se conforment à ces programmes.

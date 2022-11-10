@@ -18,17 +18,16 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment charger des applications personnalisées dans l’App Store Teams de votre organisation.
-ms.openlocfilehash: 8886c2c0904e7ca9c9e0de1e5641b8587ffe50bf
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: c1a664390676f2df68c06c75dee57db3d3c7582c
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738580"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912443"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publier une application personnalisée en téléchargeant un package d’application
 
-> [!NOTE]
-> Lorsque vous publiez une application Teams personnalisée, elle est disponible pour les utilisateurs de l’App Store de votre organisation. Il existe deux façons de publier une application personnalisée et la façon dont vous l’utilisez dépend de la façon dont vous obtenez l’application. **Cet article se concentre sur la façon de publier une application personnalisée en chargeant un package d’application (au format .zip) qu’un développeur vous envoie**. L’autre méthode, l’approbation d’une application personnalisée, est utilisée lorsqu’un développeur envoie une application directement à la page [Gérer les applications](manage-apps.md) via l’API de soumission d’applications Teams. Pour en savoir plus sur cette méthode, consultez [Publier une application personnalisée envoyée via l’API de soumission d’application Teams](submit-approve-custom-apps.md).
+Lorsque vous publiez une application Teams personnalisée, elle est disponible pour les utilisateurs de l’App Store de votre organisation. Il existe deux façons de publier une application personnalisée et la façon dont vous l’utilisez dépend de la façon dont vous obtenez l’application. Cet article se concentre sur la façon de publier une application personnalisée en chargeant un package d’application (au format .zip) qu’un développeur vous envoie. L’autre méthode, l’approbation d’une application personnalisée, est utilisée lorsqu’un développeur envoie une application directement à la page [Gérer les applications](manage-apps.md) via l’API de soumission d’applications Teams. Pour en savoir plus sur cette méthode, consultez [Publier une application personnalisée envoyée via l’API de soumission d’application Teams](submit-approve-custom-apps.md).
 
 Cet article fournit des conseils de bout en bout sur la façon de faire passer votre application Teams du développement au déploiement en passant par la découverte. Ces conseils se concentrent sur les aspects Teams de l’application et sont destinés aux administrateurs et aux professionnels de l’informatique. Pour plus d’informations sur le développement d’applications Teams, consultez la [documentation du développeur Teams](/microsoftteams/platform/).
 

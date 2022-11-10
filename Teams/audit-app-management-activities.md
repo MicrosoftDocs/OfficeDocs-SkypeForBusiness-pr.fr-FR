@@ -16,14 +16,14 @@ description: Découvrez comment auditer les activités d’application Teams des
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 7abaed00f8bb02daa63d30cd5092e007f8d5a8f5
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 0fd3feb73705a95e0729cb1819d9f355ce3ef711
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377532"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912783"
 ---
-# <a name="audit-for-app-management-activities-and-events"></a>Auditer les activités et les événements de gestion des applications
+# <a name="audit-logs-of-app-management-activities-and-events"></a>Journaux d’audit des activités et événements de gestion des applications
 
 Microsoft Purview Audit (Standard) dans Microsoft 365 vous permet de rechercher les enregistrements d’audit des activités effectuées dans les différents services Microsoft 365 par les utilisateurs finaux et les administrateurs.
 

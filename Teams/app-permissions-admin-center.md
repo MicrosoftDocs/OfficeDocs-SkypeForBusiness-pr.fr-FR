@@ -14,26 +14,26 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f05c835f475aa9e48f04bb9c70fb9f3ac9933e58
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 6a2c9244acfb3fdb08404f045c72860e0cd708c5
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377142"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912803"
 ---
-# <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Afficher les autorisations des applications et accorder le consentement administrateur dans le Centre d’administration Microsoft Teams
+# <a name="view-app-permissions-and-grant-admin-consent-in-teams-admin-center"></a>Afficher les autorisations d’application et accorder le consentement de l’administrateur dans le Centre d’administration Teams
 
-Les administrateurs affichent et gèrent toutes les applications Teams à partir de la page Gérer les applications dans le Centre d’administration Teams. Vous pouvez gérer les applications personnalisées créées au sein de votre organisation et disponibles uniquement pour vos utilisateurs finaux et gérer les applications tierces disponibles sur l’App Store Teams. Par exemple, vous pouvez voir l’état et les propriétés au niveau de l’organisation des applications, approuver ou charger de nouvelles applications personnalisées dans l’App Store de votre organisation, autoriser des applications au niveau de l’organisation ou pour des utilisateurs finaux individuels.
+Les administrateurs affichent et gèrent toutes les applications Teams à partir de la page Gérer les applications du Centre d’administration Teams. Vous pouvez gérer les applications personnalisées créées au sein de votre organisation et disponibles uniquement pour vos utilisateurs finaux et gérer les applications tierces disponibles sur le magasin d’applications Teams. Par exemple, vous pouvez voir l’état et les propriétés au niveau de l’organisation des applications, approuver ou charger de nouvelles applications personnalisées dans l’App Store de votre organisation, autoriser les applications au niveau de l’organisation ou pour des utilisateurs finaux individuels.
 
 Ici, vous pouvez également accorder un consentement administrateur à l’échelle de l’organisation aux applications qui demandent des autorisations pour accéder aux données et afficher les autorisations de consentement spécifiques aux ressources pour les applications.
 
 ## <a name="grant-org-wide-admin-consent-to-an-app"></a>Accorder le consentement de l’administrateur à l’échelle de l’organisation pour une application
 
-Si vous êtes administrateur général, vous pouvez examiner et accorder le consentement aux applications qui demandent des autorisations pour le compte de tous les utilisateurs de votre organisation. Vous le faites pour que les utilisateurs n’aient pas à examiner et à accepter les autorisations demandées par l’application lorsqu’ils démarrent l’application. En outre, selon les [paramètres de consentement](/azure/active-directory/manage-apps/configure-user-consent) de l’utilisateur dans Azure Active Directory (Azure AD), certains utilisateurs peuvent ne pas être autorisés à accorder le consentement aux applications qui accèdent aux données de l’entreprise.
+Si vous êtes administrateur général, vous pouvez examiner et accorder votre consentement aux applications qui demandent des autorisations au nom de tous les utilisateurs de votre organisation. Vous le faites pour que les utilisateurs n’aient pas à examiner et à accepter les autorisations demandées par l’application lorsqu’ils démarrent l’application. En outre, selon les [paramètres de consentement](/azure/active-directory/manage-apps/configure-user-consent) de l’utilisateur dans Azure Active Directory (Azure AD), certains utilisateurs peuvent ne pas être autorisés à accorder le consentement aux applications qui accèdent aux données de l’entreprise.
 
 Parmi les exemples d’autorisations demandées par les applications, citons la possibilité de lire les informations stockées dans une équipe, de lire le profil d’un utilisateur et d’envoyer un e-mail au nom des utilisateurs. Pour en savoir plus, consultez [Autorisations et consentement dans le point de terminaison Plateforme d’identités Microsoft pour développeurs](/azure/active-directory/develop/v2-permissions-and-consent).
 
-La colonne **Autorisations** indique si une application dispose d’autorisations qui nécessitent un consentement. Vous verrez un lien **Afficher les détails** pour chaque application inscrite dans Azure Active Directory disposant d’autorisations qui nécessitent un consentement. Gardez à l’esprit que cela s’applique uniquement aux applications personnalisées et tierces. Le lien n’est pas disponible pour les applications fournies par Microsoft. En outre, les administrateurs n’ont pas besoin d’accorder le consentement pour ces applications.
+La colonne **Autorisations** indique si une application dispose d’autorisations qui nécessitent un consentement. Vous verrez un lien **Afficher les détails** pour chaque application inscrite dans Azure Active Directory disposant d’autorisations qui nécessitent un consentement. Gardez à l’esprit que cela s’applique uniquement aux applications personnalisées et tierces. Le lien n’est pas disponible pour les applications fournies par Microsoft. En outre, les administrateurs n’ont pas besoin d’accorder leur consentement pour ces applications.
 
 Pour accorder un consentement à l’échelle de l’organisation à une application, procédez comme suit :
 

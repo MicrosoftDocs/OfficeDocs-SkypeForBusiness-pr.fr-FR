@@ -21,12 +21,12 @@ description: Découvrez comment gérer les applications Teams. Découvrez commen
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 902b32be43e25c8262ba85bbbb56bd79d424e75c
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 053164da8a521566247e982b09f5f929fe6da406
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784189"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912613"
 ---
 # <a name="overview-of-app-management-and-governance-in-teams-admin-center"></a>Vue d’ensemble de la gestion et de la gouvernance des applications dans le Centre d’administration Teams
 
@@ -88,6 +88,8 @@ La page Gérer les applications est l’endroit où vous autorisez ou bloquez de
 1. Sélectionnez l’option **Autoriser** ou **Bloquer**.
 
 Pour autoriser une application pour des utilisateurs spécifiques, consultez Stratégies [d’autorisation d’application](teams-app-permission-policies.md).
+
+Lorsqu’un développeur publie une application dans le magasin Teams, certaines applications peuvent avoir besoin d’un administrateur pour configurer l’application. Avant qu’un administrateur n’autorise une telle application, elle s’affiche comme `Blocked by publisher` dans le centre d’administration. Après avoir suivi les instructions de l’éditeur pour configurer l’application, vous pouvez la mettre à la disposition des utilisateurs en l’autorisant.
 
 ## <a name="manage-org-wide-app-settings"></a>Gérer les paramètres d’application à l’échelle de l’organisation
 
@@ -156,16 +158,6 @@ Pour autoriser les applications tierces, modifiez et utilisez la stratégie glob
    :::image type="content" source="media/app-permission-policies-gcch-dod-org-wide.png" alt-text="Capture d'écran des paramètres d'application à l'échelle de l'organisation dans GCCH et DoD.":::
 
 1. Sélectionnez **Enregistrer** pour que les paramètres d’application à l’échelle de l’organisation prennent effet.
-
-## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>Autoriser les applications bloquées par les développeurs
-
-Lorsqu’un développeur publie une application dans Teams Store, certaines applications peuvent nécessiter une configuration de la part d’un administrateur. Les administrateurs rendent l’application disponible pour les utilisateurs finaux lors de la configuration de l’application.
-
-Par exemple, Contoso Electronics est un développeur d’applications qui a créé une application de support technique pour Microsoft Teams. Contoso Electronics souhaite que ses clients configurent certaines propriétés de l’application afin que, lorsque les utilisateurs interagissent avec l’application, elle fonctionne comme prévu. Avant qu’un administrateur autorise l’application, elle s’affiche comme **Bloquée par l’éditeur** dans le Centre d’administration Teams et est masquée par défaut aux utilisateurs finaux. Après avoir suivi les instructions de l’éditeur pour configurer l’application, vous pouvez la mettre à la disposition des utilisateurs en définissant l’état sur **Autorisé**.
-
-:::image type="content" source="media/blocked-by-publisher.png" alt-text="Capture d’écran de l’état « Bloquée par l’éditeur » dans le centre d’administration de Teams.":::
-
-Pour plus d’informations sur la façon dont les développeurs bloquent une application par défaut, consultez [Activer le blocage des applications jusqu’à ce qu’un administrateur l’autorise](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves).
 
 ## <a name="related-article"></a>Article connexe
 

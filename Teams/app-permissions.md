@@ -19,16 +19,16 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 64e63b4df818d792f722aed5b61315828a79bf76
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 643c354086d93d7aa3edd4d73216b4b9d5dbbe56
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377132"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912473"
 ---
-# <a name="information-accessed-and-actions-performed-by-teams-apps-and-admin-considerations"></a>Informations et actions effectuées par les applications Teams et les considérations de l’administrateur
+# <a name="information-accessed-and-actions-performed-by-apps-and-related-admin-considerations"></a>Informations consultées et actions effectuées par les applications et considérations d’administrateur associées
 
-Les applications Microsoft Teams regroupent une ou plusieurs fonctionnalités dans des applications qui peuvent être installées, mises à niveau et désinstallées. Les fonctionnalités des applications sont les suivantes :
+Les applications Microsoft Teams regroupent une ou plusieurs fonctionnalités en applications qui peuvent être installées, mises à niveau et désinstallées. Les fonctionnalités des applications sont les suivantes :
 
 * Bots
 * Extensions de messagerie
@@ -37,17 +37,9 @@ Les applications Microsoft Teams regroupent une ou plusieurs fonctionnalités da
 
 En tant qu’administrateur, vous gérez uniquement les applications. Toutefois, l’article se concentre sur les autorisations et les considérations au niveau des fonctionnalités, car les fonctionnalités d’une application affectent les autorisations requises et les profils de risque de l’application. Pour l’utilisation, les applications sont acceptées par les utilisateurs et gérées par des professionnels de l’informatique du point de vue de la stratégie.
 
-Les autorisations répertoriées ci-dessous en majuscules, par exemple `RECEIVE_MESSAGE` et `REPLYTO_MESSAGE` sont uniquement à des fins d’illustration et d’explication. Ces chaînes ou autorisations n’apparaissent nulle part dans la [documentation du développeur Microsoft Teams](/microsoftteams/platform/overview) ni dans les [autorisations pour Microsoft Graph](/graph/permissions-reference).
+<!---  The permissions listed below in capital letters, for example `RECEIVE_MESSAGE` and `REPLYTO_MESSAGE` are only for illustration and explanation purpose. These strings or permissions don't appear anywhere in the [Microsoft Teams developer documentation](/microsoftteams/platform/overview) or the [permissions for Microsoft Graph](/graph/permissions-reference).  --->
 
 ## <a name="global-app-permissions-and-considerations"></a>Considérations et autorisations d’application globales
-
-### <a name="required-permissions"></a>Autorisations requises
-
-Aucun
-
-### <a name="optional-permissions"></a>Autorisations facultatives
-
-Aucun
 
 ### <a name="considerations"></a>Considérations
 
@@ -59,25 +51,23 @@ Aucun
 
 ## <a name="bots-and-messaging-extensions"></a>Bots et extensions de messagerie
 
-### <a name="required-permissions"></a>Autorisations requises
+### <a name="required-permissions-for-bots-and-messaging-extensions"></a>Autorisations requises pour les bots et les extensions de messagerie
 
-* RECEIVE_MESSAGE, REPLYTO_MESSAGE : le bot peut recevoir des messages des utilisateurs et y répondre.<sup>1</sup>
+* Un bot peut recevoir des messages d’utilisateurs et y répondre. Certains bots envoient uniquement des messages. Ils sont appelés bots de notification uniquement, mais le terme ne fait pas référence à ce qu’un bot est autorisé ou non à faire. Cela signifie que le bot n’offre pas d’expérience de conversation. Teams utilise ce champ pour désactiver les fonctionnalités de l’interface utilisateur qui seraient normalement activées. Le bot n’est pas limité dans ce qu’il est autorisé à faire par rapport aux bots qui exposent une expérience de conversation.
+* Une fois qu’un utilisateur a envoyé un message à un bot, le bot peut envoyer des messages directs ou proactifs à l’utilisateur à tout moment.
+* Un bot ajouté aux équipes peut obtenir une liste de noms et d’ID des canaux d’une équipe.
 
-* POST_MESSAGE_USER : une fois qu’un utilisateur a envoyé un message à un bot, il peut envoyer des messages directs à l’utilisateur (également *appelés messages proactifs* à tout moment).
+### <a name="optional-permissions-for-bots-and-messaging-extensions"></a>Autorisations facultatives pour les bots et les extensions de messagerie
 
-* GET_CHANNEL_LIST : les bots ajoutés aux équipes peuvent obtenir une liste de noms et d’ID des canaux d’une équipe.
+* Lorsqu’il est utilisé dans un canal, le bot de l’application peut accéder aux informations d’identité de base des membres de l’équipe (prénom, nom, nom d’utilisateur principal [UPN], adresse e-mail). Lorsqu’il est utilisé dans une conversation personnelle ou de groupe, le bot peut accéder aux mêmes informations pour ces utilisateurs.
 
-### <a name="optional-permissions"></a>Autorisations facultatives
+* Le bot d’une application peut envoyer des messages directs ou proactifs aux membres de l’équipe, même s’ils n’ont pas interagi avec le bot.
 
-* IDENTITY : lorsqu’il est utilisé dans un canal, les bots de l’application peuvent accéder aux informations d’identité de base des membres de l’équipe (prénom, nom, nom d’utilisateur principal [UPN], adresse e-mail). Lorsqu’il est utilisé dans une conversation personnelle ou de groupe, le bot peut accéder aux mêmes informations pour ces utilisateurs.
+* Les éléments suivants ne sont pas des autorisations explicites, mais sont impliqués par la capacité de recevoir et de répondre aux messages, ainsi que les étendues dans lesquelles les bots peuvent être utilisés.
 
-* POST_MESSAGE_TEAM : permet aux bots d’une application d’envoyer des messages directs (proactifs) au membre de l’équipe à tout moment, même si l’utilisateur n’a jamais interagi avec le bot.
-
-* Les autorisations suivantes ne sont pas explicites, mais sont implicites par RECEIVE_MESSAGE et REPLYTO_MESSAGE et les étendues dans lesquelles les bots peuvent être utilisés, déclarées dans le manifeste :
-
-  * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-  * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
+  * Recevoir un message personnel et y répondre.
+  * Recevoir une conversation de groupe et y répondre.
+  * Recevoir un message de canal et y répondre.
 
 * Les autorisations suivantes ne sont pas explicites, mais sont implicites par RECEIVE_MESSAGE et REPLYTO_MESSAGE et les étendues dans lesquelles les bots peuvent être utilisés, déclarées dans le manifeste :
 
@@ -87,7 +77,7 @@ Aucun
 
 * SEND_FILES, RECEIVE_FILES:<sup>2</sup> Contrôle si un bot peut envoyer et recevoir des fichiers dans une conversation personnelle (pas encore pris en charge pour les conversations de groupe ou les canaux).
 
-### <a name="considerations"></a>Considérations
+### <a name="considerations-for-bots-and-messaging-extensions"></a>Considérations relatives aux bots et aux extensions de messagerie
 
 * Les bots ont uniquement accès aux équipes auxquelles ils ont été ajoutés ou aux utilisateurs qui les ont installées.
 
@@ -97,13 +87,13 @@ Aucun
 
 * Lorsqu’un utilisateur discute avec un bot, s’il stocke l’ID de l’utilisateur, il peut envoyer les messages directs de l’utilisateur à tout moment.
 
-* Théoriquement, il est possible que les messages de bot contiennent des liens vers des sites d’hameçonnage ou de programmes malveillants. Toutefois, les bots peuvent être bloqués par l’utilisateur, l’administrateur du locataire ou globalement par Microsoft. [Les vérifications de vérification et de validation des](overview-of-app-validation.md) applications garantissent que toutes les applications fausses ne sont pas disponibles dans le magasin Teams.
+* Théoriquement, il est possible que les messages de bot contiennent des liens vers des sites d’hameçonnage ou de programmes malveillants. Toutefois, les bots peuvent être bloqués par l’utilisateur, l’administrateur du locataire ou globalement par Microsoft. [La vérification et les vérifications de validation des](overview-of-app-validation.md) applications garantissent que les applications fallacieuses ne sont pas disponibles dans le magasin Teams.
 
 * Un bot peut récupérer (et stocker) des informations d’identité de base pour les membres de l’équipe auxquels l’application a été ajoutée, ou pour des utilisateurs individuels dans des conversations personnelles ou de groupe. Pour obtenir plus d’informations sur ces utilisateurs, le bot doit les obliger à se connecter à Azure Active Directory (Azure AD).
 
 * Les bots peuvent récupérer (et stocker) la liste des canaux dans une équipe ; ces données quittent le réseau d’entreprise.
 
-* Par défaut, les bots n’ont pas la possibilité d’agir pour le compte de l’utilisateur, mais les bots peuvent demander aux utilisateurs de se connecter ; dès que l’utilisateur se connecte, le bot dispose d’un jeton d’accès avec lequel il peut effectuer des opérations supplémentaires. Ces autres éléments dépendent exactement du bot et de l’endroit où l’utilisateur se connecte : un bot est une application Azure AD inscrite au https://apps.dev.microsoft.com/ et peut avoir son propre jeu d’autorisations.
+* Par défaut, les bots n’ont pas la possibilité d’agir au nom de l’utilisateur, mais les bots peuvent demander aux utilisateurs de se connecter . dès que l’utilisateur se connecte, le bot dispose d’un jeton d’accès avec lequel il peut effectuer d’autres opérations. Ces autres éléments dépendent exactement du bot et de l’endroit où l’utilisateur se connecte : un bot est une application Azure AD inscrite au `https://apps.dev.microsoft.com/` et peut avoir son propre jeu d’autorisations.
 
 * Lorsqu’un fichier est envoyé à un bot, le fichier quitte le réseau d’entreprise. L’envoi et la réception de fichiers nécessitent l’approbation de l’utilisateur pour chaque fichier.
 
@@ -136,7 +126,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 Aucun (actuellement)
 
-### <a name="considerations"></a>Considérations
+### <a name="considerations-for-tabs"></a>Considérations relatives aux onglets
 
 * Le profil de risque d’un onglet est presque identique à celui du même site web exécuté dans un onglet de navigateur.
 
@@ -144,17 +134,9 @@ Aucun (actuellement)
 
 ## <a name="connectors"></a>Connecteurs
 
-Un connecteur publie des messages sur un canal lorsque des événements se produisent dans un système externe.
+Un connecteur publie des messages sur un canal lorsque des événements se produisent dans un système externe. L’autorisation requise pour les connecteurs est de pouvoir publier des messages dans le canal. Une autorisation facultative pour les connecteurs est l’autorisation de répondre à un message. Certains connecteurs prennent en charge les messages actionnables, qui permettent aux utilisateurs de publier des réponses ciblées au message du connecteur. Par exemple, en ajoutant une réponse à un problème GitHub ou en ajoutant une date à une carte Trello.
 
-### <a name="required-permissions"></a>Autorisations requises
-
-POST_MESSAGE_CHANNEL
-
-### <a name="optional-permissions"></a>Autorisations facultatives
-
-REPLYTO_CONNECTOR_MESSAGE. Certains connecteurs prennent en charge les messages actionnables, qui permettent aux utilisateurs de publier des réponses ciblées au message du connecteur, par exemple en ajoutant une réponse à un problème GitHub ou en ajoutant une date à une carte Trello.
-
-### <a name="considerations"></a>Considérations
+### <a name="considerations-for-connectors"></a>Considérations relatives aux connecteurs
 
 * Le système qui publie des messages de connecteur ne sait pas à qui il publie ou qui reçoit les messages : aucune information sur le destinataire n’est divulguée. (Microsoft est le destinataire réel, pas le locataire ; Microsoft effectue la publication réelle sur le canal.)
 
@@ -175,17 +157,13 @@ REPLYTO_CONNECTOR_MESSAGE. Certains connecteurs prennent en charge les messages 
 
 ## <a name="outgoing-webhooks"></a>Webhooks sortants
 
-_Les webhooks sortants_ sont créés par les propriétaires d’équipe ou les membres de l’équipe. Ce ne sont pas des fonctionnalités d’applications Teams ; ces informations sont incluses à des fins d’exhaustivité.
+Les webhooks sortants sont créés par les propriétaires d’équipe ou les membres de l’équipe. Ce ne sont pas des fonctionnalités d’applications Teams ; ces informations sont incluses à des fins d’exhaustivité.
 
-### <a name="required-permissions"></a>Autorisations requises
+### <a name="required-permissions-for-outgoing-webhooks"></a>Autorisations requises pour les webhooks sortants
 
 RECEIVE_MESSAGE, REPLYTO_MESSAGE. Peut recevoir des messages des utilisateurs et y répondre.
 
-### <a name="optional-permissions"></a>Autorisations facultatives
-
-Aucun
-
-### <a name="considerations"></a>Considérations
+### <a name="considerations-for-outgoing-webhooks"></a>Considérations relatives aux webhooks sortants
 
 * Les webhooks sortants sont similaires aux bots, mais ont moins de privilèges. Ils doivent être mentionnés explicitement, tout comme les bots.
 

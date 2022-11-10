@@ -18,14 +18,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Dans cet article, découvrez comment les applications Microsoft, les applications personnalisées et les applications tierces dans Microsoft Teams sont mises à jour et comment les administrateurs les mettent à disposition.
-ms.openlocfilehash: 0f5631abcd773f09c5a926bf3459d56e8f9f92bf
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: d419e1ed29c6a1cd7a7390bdc0d5eb69371d8547
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738610"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912793"
 ---
-# <a name="teams-app-updates-and-admin-role"></a>Mises à jour des applications Teams et rôle d’administrateur
+# <a name="role-of-an-admin-in-upgrading-teams-apps"></a>Rôle d’un administrateur dans la mise à niveau des applications Teams
 
 Les administrateurs Teams peuvent aider leurs utilisateurs finaux à obtenir la dernière version des applications. Pour ce faire, ils effectuent l’une des tâches suivantes ou les deux :
 
@@ -53,9 +53,9 @@ Si les développeurs d’applications apportent une ou plusieurs modifications s
 
 ## <a name="updates-to-custom-apps"></a>Mises à jour aux applications personnalisées
 
-Les applications personnalisées créées et déployées au sein de votre organisation sont accessibles aux utilisateurs de votre locataire ou de votre organisation. L’administrateur Teams met à jour les applications personnalisées vers de nouvelles versions fournies par les développeurs au sein de l’organisation. Pour plus d’informations, consultez [comment les administrateurs gèrent les applications personnalisées](custom-app-overview.md).
+Les applications personnalisées créées et déployées au sein de votre organisation sont accessibles aux utilisateurs de votre locataire ou de votre organisation. L’administrateur Teams met à jour une application personnalisée vers sa nouvelle version lorsqu’une nouvelle version est fournie par les développeurs de son organisation. Pour plus d’informations, consultez [comment les administrateurs gèrent les applications personnalisées](custom-app-overview.md).
 
-## <a name="related-article"></a>Article connexe
+## <a name="related-articles"></a>Articles connexes
 
 * [Comprendre le schéma du manifeste pour les mises à jour effectuées dans les applications](/microsoftteams/platform/resources/schema/manifest-schema).
 * [En savoir plus sur la gestion des applications personnalisées](custom-app-overview.md).
