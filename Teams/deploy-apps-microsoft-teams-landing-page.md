@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 9b8d4ca3140b6bd8907938b5c2ac86aeabb39e37
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: b234f229d29c5ab4dae49be93e819bb18eb51a0b
+ms.sourcegitcommit: 95ed372915f259fddfc87090c6c67b549ed1605f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912623"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "68918238"
 ---
 # <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Comprendre les applications Microsoft Teams et leurs fonctionnalités
 
@@ -87,6 +87,21 @@ Les développeurs de votre organisation personnalisent les modèles d’applicat
 
 Pour en savoir plus, consultez [Modèles d’application Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
+## <a name="discover-and-use-apps-in-teams"></a>Découvrir et utiliser des applications dans Teams
+
+Les utilisateurs peuvent afficher toutes les applications disponibles dans Teams à partir du magasin d’applications Teams dans un client web ou de bureau Teams. Les utilisateurs peuvent rechercher par nom, parcourir par catégorie et parcourir les applications créées pour votre organisation et générées avec Power Platform pour découvrir et installer des applications dans Teams.
+
+Les applications peuvent être épinglées à Teams pour faciliter l’accès. Les utilisateurs peuvent [épingler des applications par eux-mêmes](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) si leur stratégie d’installation le permet et si l’application est autorisée par l’administrateur Teams. Les administrateurs peuvent épingler des applications et contrôler le comportement des applications épinglées. Pour plus d’informations, consultez Stratégies de [configuration](/teams-app-setup-policies) des applications.
+
+:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Capture d’écran montrant tous les emplacements où les utilisateurs peuvent parcourir les applications dans Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
+
+Les utilisateurs peuvent rechercher et ajouter des applications à Teams à partir de l’App Store Teams. Ils peuvent également ajouter des applications directement à partir du contexte dans lequel ils travaillent, comme l’onglet conversation ou canal, la réunion Teams ou la zone de messagerie. Pour plus d’informations, consultez [Ajouter une application à Microsoft Teams](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
+
+Un utilisateur peut ajouter et utiliser une application uniquement lorsqu’un administrateur autorise l’application et que l’application est mise à la disposition de l’utilisateur via des [stratégies d’autorisation](teams-app-permission-policies.md). L’administrateur informatique d’une organisation a un contrôle total sur les personnes autorisées à installer les applications dans quel contexte. Les utilisateurs ne peuvent pas ajouter d’applications bloquées. Toute application avec une icône de verrou dans le magasin Teams est bloquée pour l’utilisateur. Toutefois, [les utilisateurs peuvent demander l’approbation de l’administrateur informatique de leur organisation](https://support.microsoft.com/office/request-apps-that-require-approval-by-your-org-924e3a9e-33f0-44c2-9e81-e875214c05ae). Une fois l’application approuvée, les utilisateurs peuvent ajouter l’application à partir du magasin Teams.
+
+> [!NOTE]
+> Seules les personnes peuvent demander une approbation pour ajouter une application dans Teams.
+
 ## <a name="understand-app-capabilities"></a>Comprendre les fonctionnalités de l’application
 
 Les fonctionnalités de l’application Teams sont les fonctionnalités de base qui peuvent être créées dans une application pour permettre l’intégration et l’interaction.
@@ -108,7 +123,6 @@ Pour fournir une expérience enrichie qui permet aux utilisateurs finaux de trav
   Teams prend en charge les robots dans les canaux et conversations privés. Les administrateurs peuvent contrôler si l’utilisation des robots est autorisée dans une organisation Microsoft 365 ou Office 365. Pour plus d’informations sur l’activation ou la désactivation des bots personnalisés, consultez [Vue d’ensemble de la gestion et de la gouvernance des applications dans le centre d’administration Teams](manage-apps.md).
 
 * **Onglets : les** onglets sont des pages web prenant en compte Teams épinglées en haut d’un canal ou d’une conversation. Les onglets vous permettent d’interagir avec du contenu et des services avec une expérience web. Il s’agit de simples balises HTML <iframe\> qui pointent vers des domaines déclarés dans le manifeste de l’application et peuvent être ajoutées dans le cadre d’un canal au sein d’une équipe, d’une conversation de groupe ou d’une application personnelle pour un utilisateur individuel. Pour plus d’informations, consultez [onglets Microsoft Teams](/microsoftteams/platform/tabs/what-are-tabs).
-
   Dans chaque conversation privée, les onglets Conversations, Fichiers, Organisation et Activité sont créés par défaut. En plus de ces onglets intégrés, les développeurs peuvent concevoir et ajouter des onglets personnalisés. Pour plus d’informations, voir [Utiliser des onglets intégrés et des onglets personnalisés dans Teams](/microsoftteams/platform/tabs/what-are-tabs).
 
 * **Webhooks et connecteurs** : les webhooks et les connecteurs aident à connecter les services web aux canaux et aux équipes dans Microsoft Teams. Les webhooks sont un rappel HTTP défini par l’utilisateur qui avertit les utilisateurs de toute action qui a eu lieu dans le canal Teams. Il s’agit d’un moyen pour une application d’obtenir des données en temps réel. Les connecteurs permettent aux utilisateurs de s’abonner pour recevoir des notifications et des messages de vos services web. Pour plus d’informations, consultez [Webhooks et connecteurs](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
@@ -125,5 +139,7 @@ Pour afficher les cas d’usage courants mappés aux fonctionnalités Teams, con
 
 ## <a name="related-articles"></a>Articles connexes
 
-* [En savoir plus sur les modèles d’application pour Teams](/microsoftteams/platform/samples/app-templates)
+* [En savoir plus sur les modèles d’application pour Teams](/microsoftteams/platform/samples/app-templates).
+* [Mises à jour des applications Teams et rôle d’administrateur](apps-update-experience.md)
 * [Vue d’ensemble de la gestion et de la gouvernance des applications dans le Centre d’administration Teams](manage-apps.md)
+
