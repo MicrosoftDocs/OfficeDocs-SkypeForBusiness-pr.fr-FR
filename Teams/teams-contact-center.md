@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: e5dd477440aff213f189f33a465f8dfba5667de3
-ms.sourcegitcommit: 92a0df6fc3aa62cec1bf72a40690fb8e16226965
+ms.openlocfilehash: f3b42319dde41aeee85f5ec0de26db09becc4759
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2022
-ms.locfileid: "68836738"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68964990"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Intégrations du centre de contacts pour Microsoft Teams
 
@@ -83,6 +83,7 @@ Les fournisseurs suivants proposent des solutions de centre de contacts intégr�
 | `Heedify` | https://heedify.io/call-center/                                                 |
 | `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/                                                                                        |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
+| `IPDynamics` | https://www.ipdynamics.de  |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
