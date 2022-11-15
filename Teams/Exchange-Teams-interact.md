@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e52524c3113d7b2d776c355784772a8a059b221f
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+ms.openlocfilehash: 541ea844422dcd6620035508e62d6473f0c78b29
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68480684"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68965030"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams
 
@@ -59,11 +59,11 @@ Le tableau suivant fournit un aide-mémoire utile sur la disponibilité de la fo
 
 <sup>4</sup> Les utilisateurs Teams ayant une boîte aux lettres Exchange locale peuvent utiliser la messagerie vocale avec Teams et recevoir les messages vocaux dans Outlook, mais les messages vocaux ne seront pas disponibles pour l’affichage ou la lecture dans le client Teams.
 
-<sup>5</sup> Si l’un des propriétaires d’une équipe peut ajouter des connecteurs, tous les autres membres de cette équipe pourront le faire, que leur boîte aux lettres soit hébergée localement ou en ligne.
+<sup>5</sup> Si l’un des propriétaires d’une équipe peut ajouter des connecteurs, tous les autres membres de cette équipe pourront le faire, que leur boîte aux lettres soit localement ou en ligne.
 
 <sup>6</sup> Seul les contacts dans le dossier des contacts par défaut. L’accès aux autres dossiers et sous-dossiers de contacts n’est pas pris en charge.
 
-<sup>7</sup> Teams respecte le paramètre [Stratégie de boîte aux lettres Outlook sur le web](/powershell/module/exchange/client-access/set-owamailboxpolicy) qui est configuré par les administrateurs de clients pour contrôler si les utilisateurs peuvent modifier leur photo de profil. Si le paramètre **-SetPhotoEnabled** est désactivé dans la stratégie, les utilisateurs ne peuvent pas ajouter, modifier ou supprimer leur image de profil. L’image de profil ne sera donc pas synchronisée avec les équipes si l’administrateur modifie la photo.
+<sup>7</sup> Teams respecte le paramètre [Stratégie de boîte aux lettres Outlook sur le web](/powershell/module/exchange/client-access/set-owamailboxpolicy) qui est configuré par les administrateurs de clients pour contrôler si les utilisateurs peuvent modifier leur photo de profil. Si le paramètre **-SetPhotoEnabled** est désactivé dans la stratégie, les utilisateurs ne peuvent pas ajouter, modifier ou supprimer leur image de profil, de sorte que l’image de profil ne sera pas synchronisée avec les équipes si l’administrateur modifie la photo.
 
 <sup>8</sup> Vous devez remplir les conditions énumérées dans la section [Configuration requise pour créer et afficher des réunions pour les boîtes aux lettres hébergées localement](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises).
 
@@ -71,7 +71,7 @@ Le tableau suivant fournit un aide-mémoire utile sur la disponibilité de la fo
 
 <sup>10</sup> Les utilisateurs locaux peuvent utiliser Teams pour mettre à jour leur image de profil, même si la `SetPhotoEnabled` stratégie de boîte aux lettres Outlook sur le web est définie `false`sur .
  > [!NOTE]
- > La définition de l’absence d’Office (OOF) via le client Teams n’est actuellement pas prise en charge pour les utilisateurs dont les boîtes aux lettres sont hébergées localement ; ces utilisateurs doivent effectuer cette action via le client Outlook.
+ > La définition de l’absence du bureau (OOF) via le client Teams n’est actuellement pas prise en charge pour les utilisateurs dont les boîtes aux lettres sont hébergées localement ; ces utilisateurs doivent effectuer cette action via le client Outlook.
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Configuration requise pour tirer le meilleur parti de Microsoft Teams
 
 Microsoft Teams est compatible avec plusieurs services Microsoft 365 et Office 365 pour enrichir l’expérience des utilisateurs. Pour la prise en charge de cette expérience, vous devez activer certaines fonctionnalités ou services et attribuer des licences.
@@ -90,7 +90,7 @@ Microsoft Teams est compatible avec plusieurs services Microsoft 365 et Office
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>Conditions préalables pour créer et afficher les réunions pour les boîtes aux lettres hébergées localement
 
   > [!NOTE]
-  > La création et l’affichage de réunions pour les boîtes aux lettres hébergées localement sont actuellement uniquement pris en charge dans les environnements commerical, GCC et GCC High.
+  > La fonctionnalité **Créer et afficher des réunions pour les boîtes aux lettres hébergées localement** est prise en charge uniquement dans les environnements commerciaux, GCC et GCC High.
 
 Si les boîtes aux lettres sont hébergées localement, pour créer et afficher les réunions, vous devez respecter les exigences suivantes :
 
@@ -100,25 +100,25 @@ Si les boîtes aux lettres sont hébergées localement, pour créer et afficher 
 
 - Les boîtes aux lettres sont hébergées dans Exchange Server 2016 Mise à jour cumulative 3 ou ultérieure.
 
-- La découverte automatique et les services web Exchange sont publiés en externe. Pour plus d’informations sur les services Microsoft 365 qui doivent accéder aux points de terminaison de découverte automatique et de services web Exchange locaux, consultez [Autres points de terminaison non inclus dans le service web d’adresse IP et d’URL Office 365](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls).
+- La découverte automatique et les services web Exchange sont publiés en externe. Pour plus d’informations sur les services Microsoft 365 qui ont besoin d’accéder aux points de terminaison de découverte automatique locaux et de services web Exchange, consultez [Autres points de terminaison non inclus dans le service Web d’adresse IP et d’URL Office 365](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls).
 
 - L’authentification OAuth est de préférence configurée via l’Assistant de configuration hybride Exchange exécutant une configuration hybride complète (Classique ou Moderne). Si vous ne pouvez pas utiliser l’Assistant de configuration hybride, configurez OAuth tel que décrit dans [Configurer l’authentification OAuth entre des organisations Exchange et Exchange Online](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
   > [!NOTE]
   > Exchange fait confiance au jeton OAuth du service Teams qui est appelé EvoSTS. L’étape 1 doit être suffisante, mais seulement l’EvoSTS ; ACS est utilisé pour la recherche Libre/Occupé dans le calendrier.
 
-- La case à cocher dans la fonctionnalité de déploiement hybride Exchange dans Azure AD Connect est configurée. Pour plus d’informations, consultez [l’écriture différée hybride Exchange](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback).
+- La case à cocher dans la fonctionnalité de déploiement hybride Exchange dans Azure AD Connect est configurée. Pour plus d’informations, consultez [Écriture différée hybride Exchange](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback).
 
 - Pour la prise en charge de l’application calendrier et du complément Outlook Teams pour Mac, les URL du service web Exchange doivent être configurées en tant que SPN dans le client Azure AD pour le principal de service Exchange. Cette est effectuée avec l’Assistant de configuration hybride ou en suivant [les étapes manuelles pour l’authentification moderne hybride](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
 
 Pour activer la délégation de calendrier pour ces utilisateurs :
 
-- Vous devez également effectuer les étapes décrites dans [Configurer l’intégration et OAuth entre Skype Entreprise Online et Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). Ces étapes fournissent à l’application de planification Teams les autorisations nécessaires pour confirmer les autorisations déléguées.
+- Vous devez également effectuer les étapes décrites dans [Configurer l’intégration et OAuth entre Skype Entreprise Online et Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). Ces étapes donnent à l’application de planification Teams les autorisations requises pour confirmer les autorisations déléguées.
  
   > [!NOTE]
   > L’étape 2 inclut l’attribution de rôles pour ArchiveApplication, laquelle n’est pas requise pour la délégation.
 
-- Le complément de planification Teams pour Outlook nécessite Exchange 2013 CU19 ou version ultérieure lors de la planification d’une réunion pour le compte d’une autre personne. Cela permet la prise en charge de la découverte d’une boîte aux lettres non authentifiée par notre service pour vérifier les autorisations déléguées par rapport à la boîte aux lettres de délégation. L’emplacement du délégué et de la délégation peut être Exchange 2013 ou version ultérieure, ou Exchange Online, mais la découverte automatique doit correspondre à Exchange 2013 CU19 ou version ultérieure.
+- Le complément Planification Teams pour Outlook nécessite Exchange 2013 CU19 ou version ultérieure lors de la planification d’une réunion pour le compte d’une autre personne. Cela permet la prise en charge de la découverte d’une boîte aux lettres non authentifiée par notre service pour vérifier les autorisations déléguées par rapport à la boîte aux lettres de délégation. L’emplacement du délégué et de la délégation peut être Exchange 2013 ou version ultérieure, ou Exchange Online, mais la découverte automatique doit correspondre à Exchange 2013 CU19 ou version ultérieure.
 
 ## <a name="additional-considerations"></a>Considérations supplémentaires
 
@@ -128,11 +128,14 @@ Voice quelques éléments supplémentaires à considérer lorsque vous implémen
 
 - Elles contrôlent et protègent la configuration des stratégies de conformité dans Teams et Exchange en utilisant l’accès conditionnel. Pour plus d’informations, voir [Comment fonctionnent les stratégies d’accès conditionnel pour Teams ?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- Si votre organisation a des exigences en matière de conformité pour s’assurer que toutes les discussions en réunion puissent être découvertes, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres Exchange locale. Pour plus d’informations, consultez [la planification des réunions privées](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
+- Si votre organisation a des exigences en matière de conformité pour s’assurer que toutes les discussions en réunion puissent être découvertes, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres Exchange locale. Pour plus d’informations, consultez [Planification de réunions privées](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
 
-- Dans un déploiement hybride Exchange, le contenu des messages de conversation est interrogeable, que les participants à la conversation aient une boîte aux lettres basée dans le cloud ou une boîte aux lettres locale. Pour en savoir plus, lire [Recherche de boîtes aux lettres sur le cloud des utilisateurs locaux](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Pour en savoir plus sur la recherche de contenu dans Teams, lisez [la recherche de contenu dans le portail de conformité Microsoft Purview](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+- Dans un déploiement hybride Exchange, le contenu des messages de conversation est interrogeable, que les participants à la conversation aient une boîte aux lettres basée dans le cloud ou une boîte aux lettres locale. Pour en savoir plus, lire [Recherche de boîtes aux lettres sur le cloud des utilisateurs locaux](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Pour en savoir plus sur la recherche de contenu dans Teams, consultez [Recherche de contenu dans le portail de conformité Microsoft Purview](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
 - Pour l’état de présence, Microsoft Teams doit vérifier si la boîte aux lettres est hébergée sur Exchange Online ou localement. Le service décide alors de l’emplacement d’accès pour la boîte aux lettres. Pour activer le service Teams afin de vérifier l’emplacement de la boîte aux lettres au moyen d’un appel de l’API REST API au service Exchange Online, vous devez déployer un environnement Exchange hybride en exécutant l’Assistant de configuration Exchange hybride, tel que décrit dans [Créer un déploiement hybride avec l’Assistant de configuration hybride](/exchange/hybrid-deployment/deploy-hybrid).
+
+>[!Important]
+>**Clients GCC-H :** *la planification des réunions Teams déléguées* n’est pas prise en charge pour les environnements GCC-High. 
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
