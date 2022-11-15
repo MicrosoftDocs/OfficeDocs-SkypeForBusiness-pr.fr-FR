@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 541ea844422dcd6620035508e62d6473f0c78b29
-ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
+ms.openlocfilehash: 2a753e572cc9427a4b128379b52562437f739bea
+ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/15/2022
-ms.locfileid: "68965030"
+ms.locfileid: "69019400"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams
 
@@ -135,7 +135,7 @@ Voice quelques éléments supplémentaires à considérer lorsque vous implémen
 - Pour l’état de présence, Microsoft Teams doit vérifier si la boîte aux lettres est hébergée sur Exchange Online ou localement. Le service décide alors de l’emplacement d’accès pour la boîte aux lettres. Pour activer le service Teams afin de vérifier l’emplacement de la boîte aux lettres au moyen d’un appel de l’API REST API au service Exchange Online, vous devez déployer un environnement Exchange hybride en exécutant l’Assistant de configuration Exchange hybride, tel que décrit dans [Créer un déploiement hybride avec l’Assistant de configuration hybride](/exchange/hybrid-deployment/deploy-hybrid).
 
 >[!Important]
->**Clients GCC-H :** *la planification des réunions Teams déléguées* n’est pas prise en charge pour les environnements GCC-High. 
+>**Clients GCC-H :** la *planification de réunions Teams déléguées* n’est pas prise en charge pour les environnements GCC-High lorsque la boîte aux lettres de l’utilisateur est hébergée dans des Exchange Server locales.
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 

@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 04863f6dd914b935b68120fd5c2df6105770c634
-ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.openlocfilehash: 380b761b90f49549ad6605ee7ca069269a796ea9
+ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "68576450"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "69019390"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, équipes, canaux et applications dans Microsoft Teams
 
@@ -38,7 +38,7 @@ Pour commencer, regardez notre courte vidéo sur les conversations, équipes et 
 
 <br/>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
+> [!VIDEO <https://www.microsoft.com/videoplayer/embed/RE476Yj>]
 
 You can use [Advisor for Teams](use-advisor-teams-roll-out.md) to help you roll out Microsoft Teams. Advisor for Teams walks you through your Teams rollout. It assesses your Microsoft 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
 
@@ -77,12 +77,12 @@ In addition to administrator roles, Teams lets you assign owner and member user 
 |Posez-vous la question|Action |
 |------------|-------|
 |Qui doit être affecté à chaque rôle ? | Pour comparer les fonctionnalités de chaque rôle, voir [attribuer des propriétaires d’équipes, des modérateurs et des membres dans Microsoft Teams](assign-roles-permissions.md).
-|Comment affecter un rôle d’utilisateur ? | Pour attribuer ou modifier un rôle, voir [attribuer un rôle d’utilisateur](assign-roles-permissions.md#assign-a-user-role).
+|Comment affecter un rôle d’utilisateur ? | Pour attribuer ou modifier un rôle, voir [attribuer un rôle d’utilisateur](assign-roles-permissions.md).
 |Ai-je besoin de contrôler qui peut publier et répondre à un canal ? | Pour configurer la modération, voir[Configurer et gérer la modération des canaux dans Microsoft Teams](manage-channel-moderation-in-teams.md).
 
 ### <a name="messaging-policies"></a>Stratégies de messagerie
 
-Messaging policies control which chat and channel messaging features are available to users in Teams. For example, who can edit and delete sent messages, who can use chat, who can use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are **On**. You can use the default global policy or create one or more custom messaging policies for people in your organization. 
+Messaging policies control which chat and channel messaging features are available to users in Teams. For example, who can edit and delete sent messages, who can use chat, who can use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are **On**. You can use the default global policy or create one or more custom messaging policies for people in your organization.
 
 |Posez-vous la question|Action |
 |------------|-------|
@@ -104,7 +104,6 @@ Guest access in Teams lets individuals outside your organization access teams an
 
 > [!NOTE]
 > Pour plus d’informations sur l’accès externe et l’accès invité, consultez : [Communiquer avec les utilisateurs d’autres organisations dans Microsoft Teams](communicate-with-users-from-other-organizations.md)
-
 
 |Posez-vous la question|Action |
 |------------|-------|
@@ -153,11 +152,11 @@ The Global Admin, Teams Service Admin, and Reports Readers roles can view Teams 
 |------------|-------|
 |<br> Qui a besoin de voir les rapports d’utilisation Teams et est-ce qu’ils ont le rôle approprié pour les afficher ? |<ul><li>Si l’utilisateur n’est pas un administrateur, [attribuer le rôle de lecteur de rapports](teams-activity-reports.md#reports-reader-role).</li><li>Voir [Rôles et autorisations](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) et [Afficher et attribuer des rôles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) pour découvrir comment attribuer des rôles d’administrateur dans Azure Active Directory.|
 
-### <a name="teams-default-apps"></a>Applications Teams par défaut 
+### <a name="teams-default-apps"></a>Applications Teams par défaut
 
-Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. Apps are turned on by default in Teams. 
+Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. Apps are turned on by default in Teams.
 
-Pour en savoir plus sur le déploiement et la gestion des applications dans Teams, consultez nos conseils détaillés sur [la gestion des applications](deploy-apps-microsoft-teams-landing-page.md) .
+Pour en savoir plus sur le déploiement et la gestion des applications dans Teams, consultez nos conseils détaillés sur [la gestion des](deploy-apps-microsoft-teams-landing-page.md) applications.
 
 ## <a name="additional-deployment-decisions"></a>Décisions de déploiement supplémentaires
 
@@ -179,7 +178,7 @@ For the full Teams experience, every user should be enabled for Exchange, ShareP
 |------------|-------|
 | Est-ce que je pourrai déployer les fonctionnalités Teams dont j’ai besoin avec les déploiements Exchange et SharePoint actuels ? |Pour plus d’informations sur Exchange et SharePoint dans Teams, voir :<ul><li> [Interaction entre Exchange et Microsoft Teams](exchange-teams-interact.md)</li><li>[Interaction entre SharePoint Online et OneDrive avec Teams](sharepoint-onedrive-interact.md)|
 
-### <a name="teams-limits-and-specifications"></a>Spécifications et limites de Teams 
+### <a name="teams-limits-and-specifications"></a>Spécifications et limites de Teams
 
 Lorsque vous planifiez un déploiement d’entreprise avec Teams, vous devez tenir compte des limitations et spécifications pertinentes, telles que le nombre maximal de membres dans une équipe, le nombre maximal d’équipes qu’un utilisateur peut créer et ainsi de suite.
 
@@ -199,7 +198,6 @@ Organizations that maintain fine-grained control of their internet traffic shoul
 
 Your organization might require that you implement controls on how teams are named and classified, who can create teams, and team expiration, retention, and archiving. This is called governance. You can use Azure Active Directory (Azure AD) to configure each of these areas.
 
-
 | Posez-vous la question | Action |
 |--------------|--------|
 |Est-ce que je vais devoir implémenter des contrôles sur qui peut créer des équipes ?| Voir [Planifiez la gouvernance dans Teams](plan-teams-governance.md).|
@@ -214,7 +212,7 @@ A pinned app shows up in the side rail in Teams. By creating Teams application p
 |Dois-je créer des ensembles préconfigurés d’applications Teams épinglées ? | Voir [Paramètres d'administration pour les applications dans Microsoft Teams](admin-settings.md).|
 |Comment est-ce que je vais choisir les groupes qui vont recevoir ces blocs d’applications ?|Voir [Autorisations d’applications Microsoft Teams et points à prendre en compte](app-permissions.md).|
 
-### <a name="archiving-and-compliance"></a>Archivage et conformité 
+### <a name="archiving-and-compliance"></a>Archivage et conformité
 
 Your organization might require that you implement controls on how teams are archived and the types of data that are held in certain types of teams. Read [Overview of security and compliance in Teams](security-compliance-overview.md) to learn which Teams settings are turned on by default.
 
@@ -224,7 +222,7 @@ Your organization might require that you implement controls on how teams are arc
 |Est-ce que je dois configurer l’archivage pour les équipes ?|Pour archiver ou restaurer une équipe, voir [Archiver ou restaurer une équipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).|
 |Est-ce que je dois configurer des paramètres de conformité additionnels ?|Pour plus d’informations sur la sécurité et la conformité, voir [Vue d’ensemble concernant le sécurité et la conformité dans Teams](security-compliance-overview.md).|
 
-### <a name="conditional-access"></a>Accès conditionnel 
+### <a name="conditional-access"></a>Accès conditionnel
 
 Teams relies heavily on Exchange and SharePoint for core productivity scenarios, including meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Teams when a user signs in directly to Teams, on any client. Conditional access policies that are set for the Teams cloud app control aspects such as whether users can access Teams services from certain networks.
 
@@ -232,7 +230,7 @@ Teams relies heavily on Exchange and SharePoint for core productivity scenarios,
 |--------------|--------|
 |<br>Est-ce que je devrai configurer l’accès conditionnel pour Teams ?|<ul><li>Pour comprendre comment fonctionnent les stratégies, voir [Comment fonctionnent les stratégies d’accès conditionnel pour Teams ?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>Pour configurer l’authentification multifacteur (MFA) Multi-Factor Authentication pour Teams, voir :<ul><li>[Démarrage rapide : exiger l’authentification multifacteur MFA pour des applications spécifiques avec l’accès conditionnel Azure Active Directory](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Paramètres d’accès conditionnel Azure Active Directory : guide de référence](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 
-### <a name="education-edu"></a>Éducation (EDU) 
+### <a name="education-edu"></a>Éducation (EDU)
 
 Les professionnels de l’informatique travaillant dans le secteur de l’éducation peuvent tirer parti de Teams pour l’éducation, qui inclus un certain nombre de fonctionnalités adaptées pour répondre à des scénarios spécifiques à l’éducation pour les élèves et étudiants, les enseignants et en général pour la conduite des opérations administratives.
 
@@ -251,6 +249,7 @@ Office 365 pour le secteur public : GCC (cloud de communauté pour le secteur pu
 | Devrai-je déployer Teams dans un environnement Office 365 dans le secteur public (GCC) ? | Pour les considérations relatives au déploiement, voir [Plan pour les déploiements de Office 365 pour le secteur public : déploiements GCC](plan-for-government-gcc.md).|
 
 ## <a name="next-steps"></a>Étapes suivantes
+
 - [Favoriser l’adoption](adopt-microsoft-teams-landing-page.md) de chat, Teams, les canaux et les applications.
 - Inclure des applications proposées (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez une autre [application Teams](deploy-apps-microsoft-teams-landing-page.md) à mesure que vous pilotez l’adoption de Teams.
 - [Mettre en place des réunions et des conférences](deploy-meetings-microsoft-teams-landing-page.md)
