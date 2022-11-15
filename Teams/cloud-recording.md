@@ -20,12 +20,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b82e73e2e5bb470df4511027d13b2df5f1f715f8
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 281a8997e3020b229ce8b34919177c1f6f2318c9
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584885"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68965746"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -109,6 +109,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 | Je souhaite désactiver l’enregistrement pour la majorité des utilisateurs, mais activer de manière sélective des utilisateurs spécifiques autorisés à enregistrer. | <ol><li>Vérifiez que la stratégie globale CsTeamsMeetingPolicy a AllowCloudRecording = False.<li>La plupart des utilisateurs ont reçu la stratégie CsTeamsMeetingPolicy globale ou l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False.<li>Tous les autres utilisateurs ont reçu une des stratégies de CsTeamsMeetingPolicy avec AllowCloudRecording = True. <ol> |
 
 <a name="bd-channel"></a>
+> [!NOTE]
+> Si un utilisateur Teams d’un locataire externe activé pour l’enregistrement de conformité basé sur les stratégies Teams rejoint une réunion ou un appel sur votre locataire, cette réunion/appel sera enregistré par l’autre locataire à des fins de conformité, indépendamment de l’enregistrement cloud activé ou désactivé sur votre locataire. Les présentateurs qui font partie de la réunion dans votre locataire sont invités à supprimer l’utilisateur de la réunion si les enregistrements ne doivent pas être capturés par des utilisateurs d’un autre locataire. Pour plus d’informations sur l’enregistrement de conformité basé sur des stratégies sur Teams, consultez [Présentation de l’enregistrement basé sur des stratégies Teams pour appeler des réunions &](teams-recording-policy.md).
 
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>Bloquer ou autoriser le téléchargement des enregistrements de réunion de canal
 
@@ -207,7 +209,7 @@ Les enregistrements de réunion sont stockés dans Le Stockage Cloud OneDrive et
 
 - L’enregistrement est stocké dans un dossier nommé **Enregistrements** dans le OneDrive de l’utilisateur qui a cliqué sur l’enregistrement. 
 
-  Exemple :**enregistrements** OneDrive /*de l’enregistreur*
+  Exemple :**Enregistrements** OneDrive /*de l’enregistreur*
 
 - Les personnes invitées à la réunion, à l’exception des participants externes, bénéficient automatiquement de l’autorisation d’accès au fichier d’enregistrement avec un accès en affichage sans possibilité de téléchargement.
 
@@ -219,7 +221,7 @@ Si `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` est défini sur Autorise
 
 - L’enregistrement est stocké dans la bibliothèque de documentation du site Teams dans un dossier nommé **Recordings**.
 
-   Exemple : *Nom teams - Enregistrements***documents**/ de nom / de canal
+  Exemple : *Nom teams -* Nom du canal /**Enregistrements de** **documents**/
 
 - Le membre qui a cliqué sur l’enregistrement dispose des droits de modification pour l’enregistrement.
 
@@ -229,7 +231,7 @@ Si `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` est défini sur Bloquer 
 
 - L’enregistrement est stocké dans la bibliothèque de documentation du site Teams dans un dossier nommé **Recordings/View only**. 
 
-  Exemple : *Nom Teams - Nom*/ de canal **Documents/Enregistrements/Affichage uniquement**
+  Exemple : *Nom teams - Nom*/ du canal **Documents/Enregistrements/Affichage uniquement**
 
 - Les propriétaires de canaux disposeront de droits complets de modification et de téléchargement sur les enregistrements de ce dossier.
 
@@ -278,7 +280,7 @@ Les enregistrements de réunion sont stockés sous forme de fichiers vidéo dans
 
 Pour les réunions hors canal, les enregistrements sont stockés dans l’espace OneDrive de l’enregistreur. Ainsi, la gestion de la propriété et de la rétention après le départ d’un employé suit le [processus OneDrive et SharePoint](/onedrive/retention-and-deletion#the-onedrive-deletion-process)normal.
 
-Les enregistrements de réunion ont un délai d’expiration par défaut de 120 jours. Vous pouvez désactiver le paramètre d’expiration automatique des réunions ou modifier l’heure d’expiration par défaut. En savoir plus sur [l’expiration automatique des enregistrements de réunion](meetings-policies-recording-and-transcription.md#meetings-automatically-expire).
+Les enregistrements de réunion ont un délai d’expiration par défaut de 120 jours. Vous pouvez désactiver le paramètre Réunions expirer automatiquement ou modifier l’heure d’expiration par défaut. En savoir plus sur [l’expiration automatique des enregistrements de réunion](meetings-policies-recording-and-transcription.md#meetings-automatically-expire).
 
 ## <a name="closed-captions-for-recordings"></a>Sous-titres pour les enregistrements
 
@@ -340,7 +342,7 @@ Si vous êtes un administrateur, vous pouvez utiliser l'outil de diagnostic suiv
    > [!div class="nextstepaction"]
    > [Exécuter des tests : enregistrement de réunion manquant](https://aka.ms/MissingRecordingDiag)
 
-2. Dans le volet De diagnostic d’exécution, entrez l’URL de la réunion dans **l’URL de la réunion enregistrée** (généralement trouvée dans l’invitation à la réunion) ainsi que la date de la réunion dans le champ **Quand la réunion a-t-elle été enregistrée ?** puis sélectionnez **Exécuter les tests**.
+2. Dans le volet Exécuter le diagnostic, entrez l’URL de la réunion dans le champ **URL de la réunion enregistrée** (généralement dans l’invitation à la réunion) ainsi que la date de la réunion dans le champ **Quand la réunion a-t-elle été enregistrée ?,** puis sélectionnez **Exécuter les tests**.
 
 3. Les tests valideront que l'enregistrement de la réunion s'est terminé avec succès et qu'il a été téléchargé sur Stream ou OneDrive.
 

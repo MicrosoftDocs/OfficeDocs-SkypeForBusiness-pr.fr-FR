@@ -17,16 +17,16 @@ ms.collection:
 - m365initiative-meetings-enabler
 - enabler-strategic
 - highpri
-description: Configurez les événements en direct dans Teams, notamment configurer votre réseau, attribuer des licences, activer les fonctionnalités et la planification des événements en direct, et des solutions de distribution de vidéos.
+description: Configurez les événements en direct dans Teams, y compris la configuration de votre réseau, l’attribution de licences, l’activation des fonctionnalités et de la planification des événements en direct et les solutions de distribution vidéo.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 65c9766350327ff64874c2ee242a7fdbace9f13a
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: a6fff8443899431176c904bf5a253ceed38d44f4
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584435"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68965100"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
@@ -51,7 +51,7 @@ Les stratégies d’événements en direct sont utilisées pour contrôler qui d
 
 <a name="bkcreatepolicy"> </a>
 
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à l’onglet Gérer les **stratégies d’événements** >  en direct **des réunions** > .
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Réunions** > **Stratégies d’événements en direct Onglet** > **Gérer les stratégies** .
 2. Effectuez l’une des options suivantes :
 
     - Si vous voulez modifier la stratégie par défaut existante, sélectionnez **Globale (par défaut à l’échelle de l’organisation)**.
@@ -60,7 +60,7 @@ Les stratégies d’événements en direct sont utilisées pour contrôler qui d
 
     Voici les paramètres que vous pouvez modifier en fonction des besoins de votre organisation.
 
-    ![Capture d’écran des paramètres de stratégie d’événements en direct.](../media/teams-live-events-policies-new.png "Capture d’écran des paramètres de stratégie d’événements en direct dans le centre d’administration de Microsoft Teams.")
+    ![Capture d’écran des paramètres de stratégie des événements en direct.](../media/teams-live-events-policies-new.png "Capture d’écran des paramètres de stratégie d’événements en direct dans le centre d’administration de Microsoft Teams.")
 
 |Paramètres  |Description  |
 |---------|---------|
@@ -71,7 +71,7 @@ Les stratégies d’événements en direct sont utilisées pour contrôler qui d
 |**Qui peut participer aux événements en direct planifiés**    |Choisissez l’une des options suivantes.<br><br>**Tout le monde** Les utilisateurs peuvent créer des événements en direct auxquels tout le monde, y compris des personnes extérieures à votre organisation, peut participer. Ce paramètre active le type d’autorisation **Publique** dans Teams lorsqu’un utilisateur planifie un événement en direct.<br> **Tous les membres de l’organisation** Les utilisateurs peuvent créer des événements en direct auxquels les membres de votre organisation, y compris les [utilisateurs invités](../add-guests.md) extérieurs à l’organisation, peuvent participer. Les utilisateurs ne peuvent pas créer des événements en direct suivis par des utilisateurs anonymes. Ce paramètre active le type d’autorisation **Org-wide** dans Teams lorsqu’un utilisateur planifie un événement en direct.<br> **Utilisateurs ou groupes spécifiques** Les utilisateurs peuvent créer des événements en direct auxquels seuls des utilisateurs ou des groupes spécifiques de votre organisation peuvent participer. Les utilisateurs ne peuvent pas créer des événements en direct suivis par tout le monde au sein de votre organisation ou par des utilisateurs anonymes. Ce paramètre active le type d’autorisation **Individus et groupes** dans Teams lorsqu’un utilisateur planifie un événement en direct.       |
 |**Paramètre d’enregistrement**  <br>     | Ce paramètre ne peut être appliqué qu’aux événements créés dans Teams. Choisissez l’une des options suivantes. <br><br> **Toujours enregistrer** Les événements en direct créés par les utilisateurs sont toujours enregistrés. Une fois l’événement terminé, les membres de l’équipe peuvent télécharger l’enregistrement et les participants peuvent l’examiner. <br> **Ne jamais enregistrer** Les événements en direct créés par les utilisateurs ne sont jamais enregistrés. <br>**L’organisateur peut enregistrer ou non** Les utilisateurs peuvent choisir d’enregistrer ou non l’événement en direct. Si l’enregistrement a eu lieu, une fois l’événement terminé, les membres de l’équipe peuvent télécharger l’enregistrement et les participants peuvent le regarder.
 
-Vous pouvez également effectuer cette opération à l’aide de Windows PowerShell et, actuellement, les clients GCC High et DoD doivent utiliser cette méthode. Pour plus d’informations, voir [Utiliser PowerShell pour définir les stratégies d’événements en direct dans Teams](set-teams-live-events-policies-using-powershell.md).
+Vous pouvez également le faire en utilisant Windows PowerShell et, actuellement, les clients GCC High et DoD doivent utiliser cette méthode. Pour plus d’informations, voir [Utiliser PowerShell pour définir les stratégies d’événements en direct dans Teams](set-teams-live-events-policies-using-powershell.md).
 
 ### <a name="assign-a-live-events-policy-to-users"></a>Attribuer une stratégie d’événements en direct à des utilisateurs
 
@@ -84,7 +84,7 @@ Pour que les utilisateurs planifient des événements produits avec une applicat
 1. Activer Microsoft Stream pour les utilisateurs de votre organisation. Stream est disponible dans le cadre d’abonnements Microsoft 365 ou Office 365 éligibles ou en tant que service autonome. Stream n’est pas inclus dans les offres Business Essentials ou Business Premium. Pour plus d’informations, consultez [Vue d’ensemble des licences Stream](/stream/license-overview).
 
    >[!Note]
-   > Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](../tmr-meeting-recording-change.md) auront une approche progressive. Au démarrage, vous serez en mesure d’opter pour cette expérience, en novembre vous devrez annuler votre abonnement si vous souhaitez continuer à utiliser Stream, et début 2021, tous les clients devront utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunion. En savoir plus sur la façon dont vous pouvez [**attribuer des licences aux utilisateurs**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) afin que les utilisateurs puissent accéder à Stream. Vérifiez que Stream n’est pas bloqué pour les utilisateurs comme défini dans [**cet article**](/stream/disable-user-organization).
+   > Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](../tmr-meeting-recording-change.md) auront une approche progressive. Au démarrage, vous serez en mesure d’opter pour cette expérience, en novembre vous devrez annuler votre abonnement si vous souhaitez continuer à utiliser Stream, et début 2021, tous les clients devront utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunion. En savoir plus sur la façon dont vous pouvez [**attribuer des licences aux utilisateurs**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) afin que les utilisateurs puissent accéder à Stream. Vérifiez que Stream n’est pas bloqué pour les utilisateurs, comme défini dans [**cet article**](/stream/disable-user-organization).
 
 2. Assurez-vous que les utilisateurs disposent de l’autorisation de créer des événements en direct sur Stream. Par défaut, les administrateurs peuvent créer des événements à l’aide d’une application ou d’un appareil externes. L’administrateur Stream peut [permettre à d’autres utilisateurs de créer des événements en direct](/stream/live-event-administration#restrict-who-can-create-events) dans Stream.
 
@@ -92,22 +92,24 @@ Pour que les utilisateurs planifient des événements produits avec une applicat
 
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>Étape 4 : configurer une solution de distribution vidéo pour les événements en direct dans Teams
 
-La lecture de vidéos d’événement en direct utilise le streaming à débit adaptatif (ABR), mais il s’agit d’un flux de monodiffusion, ce qui signifie que chaque utilisateur obtient son propre flux vidéo à partir d’Internet. Pour les événements en direct ou les vidéos envoyées à de grandes parties de votre organisation, il est possible que la bande passante Internet utilisée soit significative. Pour les organisations qui souhaitent réduire ce trafic Internet pour les événements en direct, les solutions d’événements en direct sont intégrées aux partenaires de distribution de contenu vidéo approuvés par Microsoft qui proposent des réseaux de distribution de contenu SDN ou des réseaux de distribution de contenu d’entreprise (eCDN). Ces plateformes SDN/eCDN permettent aux organisations d’optimiser la bande passante réseau sans sacrifier les expériences des utilisateurs finaux. Nos partenaires peuvent vous aider à optimiser la distribution de vidéos sur votre réseau d’entreprise.
+La lecture de vidéos d’événement en direct utilise le streaming à débit adaptatif (ABR), mais il s’agit d’un flux de monodiffusion, ce qui signifie que chaque utilisateur obtient son propre flux vidéo à partir d’Internet. Pour les événements en direct ou les vidéos envoyées à de grandes parties de votre organisation, il est possible que la bande passante Internet utilisée soit significative. Pour les organisations qui souhaitent réduire ce trafic Internet pour les événements en direct, Microsoft propose une solution interne, [Microsoft eCDN](/ecdn) (réseau de distribution de contenu d’entreprise). Les solutions d’événements en direct sont également intégrées aux partenaires de distribution de vidéos approuvés de Microsoft offrant des réseaux SDN (Software Defined Networks) ou eCDN. Ces plateformes SDN/eCDN permettent aux organisations d’optimiser la bande passante réseau sans sacrifier les expériences d’affichage des utilisateurs finaux. Ces solutions peuvent vous aider à permettre une distribution vidéo plus évolutive et plus efficace sur votre réseau d’entreprise.
 
-**Achetez et configurez votre solution en dehors de Teams** Obtenez une aide spécialisée concernant l’évolutivité de la diffusion vidéo en vous appuyant sur les partenaires de distribution de contenu vidéo de Microsoft. Avant de pouvoir activer l’utilisation d’un fournisseur de distribution de vidéos avec Teams, vous devez acheter et configurer la solution SDN/eCDN en dehors et séparé de Teams.
+- **Microsoft eCDN** Microsoft eCDN est intégré à Teams et est également compatible avec Stream et Yammer. Il utilise une technologie d’égal à égal au sein d’un réseau d’entreprise pour décharger la bande passante de la connexion WAN.
+
+- **Achetez et configurez votre solution en dehors de Teams** Obtenez une aide spécialisée concernant l’évolutivité de la diffusion vidéo en vous appuyant sur les partenaires de distribution de contenu vidéo de Microsoft. 
 
 Les solutions SDN/eCDN suivantes sont pré-intégrées et peuvent être configurées pour être utilisées avec Stream.
 
 - **Hive Streaming** est une solution simple et puissante pour la distribution de vidéos d’entreprise en direct et à la demande. Hive est une solution logicielle qui ne nécessite pas de matériel ou de bande passante supplémentaire et offre un moyen sécurisé d’activer des milliers de visionneuses vidéo simultanément sans impact sur votre réseau. Pour les clients qui souhaitent évaluer l’impact sur leur réseau avant d’acheter une solution SDN/eCDN, Hive Streaming fournit également une solution d’analyse basée sur un navigateur pour les clients Microsoft. [En savoir plus](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
 
-- **Kollective** est une plateforme de distribution de peering intelligent basée sur le cloud qui tire parti de votre infrastructure réseau existante pour fournir du contenu sous de nombreuses formes (vidéo en streaming en direct, vidéo à la demande, mises à jour logicielles, correctifs de sécurité, etc.) plus rapidement, de manière plus fiable et avec moins de bande passante. Notre plate-forme sécurisée est approuvée par les plus grandes institutions financières au monde. Sans nécessiter de matériel supplémentaire, la configuration et la maintenance en sont faciles. [En savoir plus](https://kollective.com/microsoft-pilot/).
+- **Kollective** est une plateforme de distribution de peering intelligente basée sur le cloud qui tire parti de votre infrastructure réseau existante pour fournir du contenu sous de nombreuses formes (vidéo en streaming en direct, vidéo à la demande, mises à jour logicielles, correctifs de sécurité, etc.) plus rapidement, plus fiable et avec moins de bande passante. Notre plate-forme sécurisée est approuvée par les plus grandes institutions financières au monde. Sans nécessiter de matériel supplémentaire, la configuration et la maintenance en sont faciles. [En savoir plus](https://kollective.com/microsoft-pilot/).
 
 - **Ramp OmniCache** assure la distribution de réseau nouvelle génération et permet de distribuer de façon transparente du contenu vidéo sur les WAN globaux, afin d’aider les producteurs d’événements à optimiser la bande passante réseau et à prendre en charge la diffusion d’événements en direct et la diffusion à la demande. L’assistance pour Ramp OmniCache pour les événements en direct créés dans Teams sera disponible prochainement. [En savoir plus](https://rampecdn.com).
 
-- **Riverbed**, la norme du secteur en matière d’optimisation du réseau, étend ses solutions d’accélération à Microsoft Teams et Stream.  Désormais, les clients Microsoft 365 peuvent accélérer en toute confiance 365 trafic, notamment Teams et Stream, ainsi qu’une multitude d’autres services SaaS d’entreprise de premier plan pour accroître la productivité de la main-d’œuvre où que vous soyez. L’accélération Teams et Stream peut être activée par le biais d’une configuration sans effort qui est fourni avec toute l’assurance du support de classe mondiale de Riverbed et de l’investissement continu.
+- **Riverbed**, la norme industrielle en matière d’optimisation réseau, étend ses solutions d’accélération à Microsoft Teams et Stream.  Désormais, les clients Microsoft 365 peuvent accélérer en toute confiance le trafic 365, y compris Teams et Stream, ainsi qu’une multitude d’autres services SaaS d’entreprise de premier plan pour augmenter la productivité de la main-d’œuvre en tout lieu. Teams et l’accélération stream peuvent être activées par le biais d’une configuration sans effort qui vient avec toute l’assurance du support de classe mondiale et de l’investissement continu de Riverbed.
 
 > [!NOTE]
-> La solution SDN ou eCDN que vous avez choisie est soumise aux **conditions d’utilisation du service et à la politique de confidentialité du prestataire tiers**, lesquelles gouvernent votre utilisation de la solution. L’utilisation de la solution de votre prestataire ne sera pas soumise aux termes du programme de licences en volume Microsoft ou des services en ligne. Si vous n’acceptez pas les **conditions de votre prestataire tiers**, n’activez pas la solution dans Teams.
+> Si vous choisissez une solution SDN ou eCDN tierce, elle est soumise aux **conditions d’utilisation et à la politique de confidentialité du fournisseur** tiers sélectionnés, qui régissent votre utilisation de la solution du fournisseur. L’utilisation de la solution de votre prestataire ne sera pas soumise aux termes du programme de licences en volume Microsoft ou des services en ligne. Si vous n’acceptez pas les **conditions de votre prestataire tiers**, n’activez pas la solution dans Teams.
 
 Une fois que vous avez configuré la solution SDN ou eCDN, vous pouvez configurer le prestataire pour les événements en direct dans Teams.
 
