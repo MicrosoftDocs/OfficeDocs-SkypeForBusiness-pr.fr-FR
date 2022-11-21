@@ -10,6 +10,7 @@ audience: Admin
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- tier2
 - highpri
 appliesto:
 - Microsoft Teams
@@ -22,12 +23,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft 365 for frontline workers
 description: Découvrez comment utiliser et gérer les packages de stratégies Teams pour les travailleurs de première ligne de votre organisation.
-ms.openlocfilehash: bcfa865d8364ce025224ec67a841b81d3373270b
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 790d9bf7dbf90fadf48c9e5e0818d3eddeac4b75
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784459"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131213"
 ---
 # <a name="teams-policy-packages-for-frontline-workers"></a>Packages de stratégie Teams pour les travailleurs de première ligne
 

@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment gérer les stratégies et les paramètres pour contrôler qui dans votre organisation peut charger une version test des applications et charger des applications personnalisées.
 f1.keywords:
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 7cf290c3f031becab73523fceb031cae4e0a55a8
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 19f18d89ec2f423c1531639adb630992bdbdc547
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912413"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69130993"
 ---
 # <a name="manage-custom-and-sideloaded-apps-in-teams-admin-center"></a>Gérer les applications personnalisées et chargées de manière indépendante dans le Centre d’administration Teams
 
@@ -41,9 +41,9 @@ Une fois que vous avez autorisé l’utilisation d’une application personnalis
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Capture d’écran des applications personnalisées dans le magasin Teams dans l’application de bureau teams." lightbox="media/built-for-your-org2.png":::
 
-En tant qu’administrateur Teams, vous utilisez des stratégies et des paramètres d’application personnalisés pour contrôler qui, dans votre organisation, peut charger des applications personnalisées dans Microsoft Teams. Les administrateurs décident quels utilisateurs peuvent télécharger des applications personnalisées, et les administrateurs et les propriétaires d'équipe peuvent déterminer si des équipes spécifiques de votre organisation autorisent l'ajout d'applications personnalisées. Après avoir modifié la stratégie d’application personnalisée, l’application des modifications peut prendre quelques heures. Vous devez être administrateur de service Global Administration ou Teams pour gérer ces stratégies.
+En tant qu’administrateur Teams, vous utilisez des stratégies et des paramètres d’application personnalisés pour contrôler qui, dans votre organisation, peut charger des applications personnalisées dans Microsoft Teams. Les administrateurs décident quels utilisateurs peuvent télécharger des applications personnalisées, et les administrateurs et les propriétaires d'équipe peuvent déterminer si des équipes spécifiques de votre organisation autorisent l'ajout d'applications personnalisées. Une fois que vous avez modifié la stratégie d’application personnalisée, quelques heures sont nécessaires pour que les modifications prennent effet. Vous devez être administrateur de service Global Administration ou Teams pour gérer ces stratégies.
 
-Les développeurs au sein de votre organisation peuvent ajouter une application personnalisée à Teams en téléchargeant un paquet d'applications (dans un fichier .zip) directement dans une équipe ou dans le contexte personnel. Cette méthode est différente de celle utilisée pour ajouter des applications dans le magasin d'applications Teams. L’ajout d’une application personnalisée en chargeant un package d’application, également appelé chargement indépendant, permet à des utilisateurs spécifiques au sein de votre organisation de tester une application, avant qu’elle ne soit prête à être largement distribuée.
+Les développeurs au sein de votre organisation peuvent ajouter une application personnalisée à Teams en téléchargeant un paquet d'applications (dans un fichier .zip) directement dans une équipe ou dans le contexte personnel. Cette méthode est différente de la façon dont les applications sont ajoutées via le magasin d’applications Teams. L’ajout d’une application personnalisée en chargeant un package d’application, également appelé chargement indépendant, permet à des utilisateurs spécifiques au sein de votre organisation de tester une application, avant qu’elle ne soit prête à être largement distribuée.
 
 <!--- During the creation of an app, the developers create and add an app ID to the manifest file. You can view this external app ID on the Manage apps page after you enable the column `External app ID` from the column settings. You can also view it on the app details page of a custom app. The ID is applicable for custom apps only. --->
 
@@ -119,7 +119,7 @@ Si ce paramètre est désactivé :
 
 ### <a name="org-wide-custom-app-setting"></a>Paramètre d’application personnalisée à l’échelle de l’organisation
 
-Le paramètre **Autoriser l’interaction avec les applications personnalisées** à l’échelle de l’organisation sur la page [Gérer les applications](manage-apps.md) s’applique à tous les membres de votre organisation et détermine s’ils peuvent charger ou interagir avec des applications personnalisées. Ce paramètre agit comme un commutateur maître activé/désactivé pour les paramètres de stratégie d’application personnalisée de l’utilisateur et de l’équipe. Il est destiné à servir de commutateur principal lors des événements de sécurité. Par conséquent, les paramètres de stratégie d’application personnalisée de l’utilisateur et de l’équipe ne prendront effet que si le paramètre d’application personnalisée à l’échelle de l’organisation est activé même si les paramètres de stratégie d’application personnalisée de l’utilisateur et de l’équipe sont activés.
+Le paramètre **Autoriser l’interaction avec les applications personnalisées** à l’échelle de l’organisation sur la page [Gérer les applications](manage-apps.md) s’applique à tous les membres de votre organisation et détermine s’ils peuvent charger ou interagir avec des applications personnalisées. Ce paramètre agit comme un commutateur maître activé/désactivé pour les paramètres de stratégie d’application personnalisée de l’utilisateur et de l’équipe. Il est destiné à servir de commutateur principal lors des événements de sécurité. Les paramètres de stratégie d’application personnalisée de l’utilisateur et de l’équipe prennent effet uniquement après avoir activé le paramètre d’application personnalisée à l’échelle de l’organisation.
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>Configurer le paramètre d’application personnalisée à l’échelle de l’organisation
 

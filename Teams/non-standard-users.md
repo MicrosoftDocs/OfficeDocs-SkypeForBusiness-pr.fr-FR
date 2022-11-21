@@ -20,12 +20,12 @@ ms.collection:
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c618552a574a567a91ddab0e2303fd5f99a2373a
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 3511dec4f3238babc3356bafbe2bb69e791e7632
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912603"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131313"
 ---
 # <a name="use-of-teams-apps-for-external-attendees-or-guest-from-outside-an-organization"></a>Utilisation d’applications Teams pour les participants externes ou les invités extérieurs à une organisation
 
@@ -89,9 +89,9 @@ Les utilisateurs anonymes ne peuvent pas utiliser directement les applications d
 
 Les utilisateurs anonymes peuvent interagir uniquement avec les applications qui sont déjà disponibles dans une réunion, mais ne peuvent pas acquérir et gérer ces applications. Les utilisateurs natifs peuvent continuer à utiliser les applications de réunion même lorsque les utilisateurs anonymes assistent à une réunion.
 
-### <a name="disallow-anonymous-users-to-use-apps-in-meetings"></a>Interdire aux utilisateurs anonymes d’utiliser des applications dans les réunions
+### <a name="allow-anonymous-users-to-use-apps-in-meetings"></a>Autoriser les utilisateurs anonymes à utiliser des applications dans les réunions
 
-Par défaut, les utilisateurs anonymes peuvent interagir avec les applications existantes dans une réunion. Vous pouvez interdire aux utilisateurs anonymes d’interagir avec des applications.
+Par défaut, les utilisateurs anonymes peuvent interagir avec les applications existantes dans une réunion. Les utilisateurs anonymes ne peuvent pas ajouter de nouvelles applications à une réunion. Vous pouvez interdire aux utilisateurs anonymes d’interagir avec des applications.
 
 1. Connectez-vous au Centre d’administration Teams et accédez aux **[paramètres](https://admin.teams.microsoft.com/meetings/settings)** **de réunion des réunions** > .
 

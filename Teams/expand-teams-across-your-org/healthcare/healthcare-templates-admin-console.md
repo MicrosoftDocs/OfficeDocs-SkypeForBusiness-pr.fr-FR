@@ -17,18 +17,19 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - m365-frontline
+- tier2
 - highpri
 appliesto:
 - Microsoft Teams
 ms.reviewer: yinchang
 description: Découvrez comment gérer et utiliser les modèles d’équipe médicale dans le Centre d’administration Teams et avec Microsoft Graph pour créer rapidement et facilement des équipes pour votre organisation de services de santé.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bdbb3e52f471e735b1b6c96a1502880c030ed89d
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: a80d36b51d3f45ca906525d93e502dbfbba1cb6d
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046484"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131073"
 ---
 # <a name="use-healthcare-team-templates"></a>Utiliser des modèles d’équipe médicale
 

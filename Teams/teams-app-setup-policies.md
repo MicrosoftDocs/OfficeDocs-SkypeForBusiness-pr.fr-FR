@@ -13,19 +13,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment créer, modifier et gérer des stratégies d’installation d’applications pour épingler des applications, installer des applications et permettre aux utilisateurs de charger des applications personnalisées.
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b9dfe2ad2598e47175a0af433c0febac17255c09
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 4c94f0610535fa014b0f759b104dd1aef901e055
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912463"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131003"
 ---
 # <a name="use-app-setup-policies-to-pin-and-auto-install-apps-in-teams"></a>Utiliser des stratégies de configuration des applications pour épingler et installer automatiquement des applications dans Teams
 

@@ -22,29 +22,31 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: En savoir plus sur l’utilisation du standard automatique Teams & rapport d’historique de la file d’attente des appels rapport Power BI pour afficher les données d’historique du standard automatique et de la file d’attente d’appels.
-ms.openlocfilehash: b57180a339ea7aa1548acf16be1f95d3514c294b
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: 3db0705ea1321b3ef6d2efef5a01e3283f091cc9
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890083"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131193"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Rapport d’historique de file d’attente d’appels & du standard automatique
 
 Ce modèle Power BI fournit trois rapports qui permettent aux organisations de créer des rapports sur le nombre d’appels traités par les standards automatiques et les files d’attente d’appels.  Il fournit également des insights sur les performances de l’agent.
 
-## <a name="v303-published-on-november-8-2022"></a>V3.0.3 publiée le 8 novembre 2022
+## <a name="v304-published-on-november-18-2022"></a>V3.0.4 publiée le 18 novembre 2022
 
 Le modèle Power BI rapport d’historique de file d’attente de la file d’attente teams & fournit les trois rapports suivants :
 
-- Le rapport Standard automatique affiche l’analytique des appels entrants dans vos standards automatiques.
-- Le rapport File d’attente des appels affiche l’analytique des appels entrants dans vos files d’attente d’appels.
-- Le rapport Chronologie de l’agent affiche une vue chronologique des agents actifs dans les appels de file d’attente d’appels.
+- Le rapport [Standard automatique](media/aa-cq-historical-report-sample-aa-v304.png) affiche l’analytique des appels entrants dans vos standards automatiques.
+- Le rapport [File d’attente](media/aa-cq-historical-report-sample-cq-v304.png) des appels affiche l’analytique des appels entrants dans vos files d’attente d’appels.
+- Le rapport [Chronologie de l’agent](media/aa-cq-historical-report-sample-at-v304.png) affiche une vue chronologique des agents actifs dans les appels de file d’attente d’appels.
 
 Ces rapports utilisent les données du service VaAC (Voice Applications Analytics Collector).
 
 >[!NOTE]
 > La collecte de données historiques est en cours dans toutes les régions.  Trente jours de données historiques seront disponibles à des moments différents, toutes les régions ayant un total de 30 jours de données au plus tard le 25 novembre 2022.
+>
+> Les clients GCCH/DOD doivent continuer à utiliser la version V1.63.
 
 ## <a name="v3xx-prerequisites"></a>Prérequis v3.x.x
 
@@ -64,15 +66,15 @@ Les étapes suivantes supposent que vous avez déjà installé Power BI Desktop 
 
 Procédez comme suit :
 
-1. Téléchargez et enregistrez le fichier V3.0.3.ziprapports [d’historique des & de la file d’attente d’appels teams ](https://www.microsoft.com/download/details.aspx?id=104623) sur votre ordinateur.
+1. Téléchargez et enregistrez le fichier V3.0.4.ziprapports [d’historique des & de la file d’attente d’appels teams ](https://www.microsoft.com/download/details.aspx?id=104623) sur votre ordinateur.
 
 1. Ouvrez le fichier zip.
 
-1. Ouvrez le `Teams Auto Attendant & Call Queue Historical Reports V3.0.3.pbit` fichier de modèle. Power BI Desktop doit être lancé.
+1. Ouvrez le `Teams Auto Attendant & Call Queue Historical Reports V3.0.4.pbit` fichier de modèle. Power BI Desktop doit être lancé.
 
 1. Vous serez invité à sélectionner la **source de données**.  Sélectionnez l’entrée `api.interfaces.records.teams.microsoft.com` .
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v300.png" alt-text="Capture d’écran de la sélection du api.interfaces.records.teams.microsoft.com Data Soure":::
+  :::image type="content" source="media/aa-cq-historical-report-01-v304.png" alt-text="Capture d’écran de la sélection du api.interfaces.records.teams.microsoft.com Data Soure":::
 
 1. Vous serez invité à vous connecter avec un compte. Sélectionnez **Compte d’organisation**, puis **Se connecter**.
 
@@ -91,13 +93,15 @@ Procédez comme suit :
 ## <a name="v163-published-on-august-24-2022"></a>V1.63 publiée le 24 août 2022
 
 > [!IMPORTANT]
-> La prise en charge du modèle V1.63 prendra fin le 21 novembre 2022.
+> La prise en charge du cloud public pour le modèle V1.63 prendra fin le 25 novembre 2022.
+> 
+> Les clients GCCH/DOD doivent continuer à utiliser la version V1.63.
 
 Le **modèle Power BI de rapport d’historique de file d’attente de la file d’attente Teams &** fournit les trois rapports suivants :
 
-- Le rapport Standard automatique affiche l’analytique des appels entrants dans vos standards automatiques.
-- Le rapport File d’attente des appels affiche l’analytique des appels entrants dans vos files d’attente d’appels.
-- Le rapport Chronologie de l’agent affiche une vue chronologique des agents actifs dans les appels de file d’attente d’appels.
+- Le rapport [Standard automatique](media/aa-cq-historical-report-sample-aa-v163.png) affiche l’analytique des appels entrants dans vos standards automatiques.
+- Le rapport [File d’attente](media/aa-cq-historical-report-sample-cq-v163.png) des appels affiche l’analytique des appels entrants dans vos files d’attente d’appels.
+- Le rapport [Chronologie de l’agent](media/aa-cq-historical-report-sample-at-v163.png) affiche une vue chronologique des agents actifs dans les appels de file d’attente d’appels.
 
 Ces rapports utilisent les données du magasin de données [CQD (Tableau de bord de qualité des](CQD-Power-BI-query-templates.md) appels). 
 
@@ -372,14 +376,25 @@ Procédez comme suit :
 
 - <sup>1 La</sup> **source d’appel entrante** dans le standard automatique et les graphiques de file d’attente d’appels affichent la source du tronçon d’appel final plutôt que la source du segment d’appel initial. Par exemple, si un standard automatique reçoit un appel externe et transfère l’appel vers un autre standard automatique ou file d’attente d’appels, la **source d’appel entrant** est signalée comme interne.
 
-## <a name="version-history"></a>Historique des versions
+## <a name="version-3xx-history"></a>Historique de la version 3.x.x
+
+Reportez-vous à : Standard automatique Teams & Rapports historiques de file d’attente d’appels - Modifier Log.docx dans le fichier zip téléchargé pour obtenir la liste détaillée des modifications 
 
 |Version  |Date de publication     |Fichier                                                           |Description                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
-|3.0.3    |8 novembre 2022   |Rapports d’historique des files d’attente d’appels & du standard automatique Teams v3.0.3        |Reportez-vous à :<br>CQD Teams Auto Standard & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a list of changes                                                                             |
+|3.0.4    |18 novembre 2022  |Rapports d’historique des files d’attente d’appels & du standard automatique Teams v3.0.4        |Correction de l’erreur, amélioration de la classification des appels, ajout de la légende |
+|3.0.3    |8 novembre 2022   |Rapports d’historique des files d’attente d’appels & du standard automatique Teams v3.0.3        |Correction de l’erreur, ajout d’un lien de documentation, requêtes optimisées |
 |3.0.1    |26 octobre 2022   |Rapports d’historique des files d’attente d’appels & du standard automatique Teams v3.0.1        |Suppression de l’entrée de source de données de test                   |
 |3.0.0    |25 octobre 2022   |Rapports d’historique des files d’attente d’appels & du standard automatique Teams v3.0.0        |Nouvelle source de données back-end                             |
-|1.63     |24 août 2022    |CQD Teams Auto Standard & Call Queue Historical Report V1.63.pbit |Reportez-vous à :<br>CQD Teams Auto Standard & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a list of changes                                                                             |
-|1.60     |22 juillet 2022      |CQD Teams Auto Standard & Call Queue Historical Report V1.60.pbit |Reportez-vous à :<br>CQD Teams Auto Standard & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a list of changes                                                                             |
+
+
+## <a name="version-1xx-history"></a>Historique des versions 1.xx
+
+Reportez-vous à : CQD Teams Auto Standard & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a detailed list of changes                         
+
+|Version  |Date de publication     |Fichier                                                           |Description                                         |
+|:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------
+|1.63     |24 août 2022    |CQD Teams Auto Standard & Call Queue Historical Report V1.63.pbit |                                                    |
+|1.60     |22 juillet 2022      |CQD Teams Auto Standard & Call Queue Historical Report V1.60.pbit |                                                    |
 |1.00     |5 novembre 2020   |CQ et AA combinés Analytics 20201105.pbit                         |Version initiale                                     |
 
