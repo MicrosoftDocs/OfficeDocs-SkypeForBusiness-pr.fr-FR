@@ -16,73 +16,73 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: En savoir plus sur la passerelle SIP, telles que les exigences et les avantages.
+description: En savoir plus sur la passerelle SIP, notamment sur les exigences et les avantages.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cebff25642b98b7012a7c4bb2dac0c708c5e57c6
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: a4f5db5f79d2a273701e7c2cd8883c89aba2d1a2
+ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614076"
+ms.lasthandoff: 11/19/2022
+ms.locfileid: "69126960"
 ---
 # <a name="plan-for-sip-gateway"></a>Planifier la passerelle SIP
 
-La passerelle SIP permet à votre organisation d’utiliser n’importe quel appareil SIP compatible avec Microsoft Teams pour préserver vos investissements dans les appareils SIP. Vous pouvez maintenant vous connecter à Teams avec vos informations d’identification d’entreprise et passer et recevoir des appels avec un appareil SIP compatible. Les appareils compatibles peuvent être Skype Entreprise des téléphones IP avec microprogramme SIP standard, des téléphones IP Cisco avec microprogramme SIP multiplateforme ou des appareils SIP de fournisseurs tels que Poly, Yealink et AudioCodes. Pour savoir comment configurer vos appareils SIP pour la passerelle SIP, consultez [Configurer la passerelle SIP](sip-gateway-configure.md).
+La passerelle SIP permet à votre organisation d’utiliser n’importe quel appareil SIP compatible avec Microsoft Teams pour préserver vos investissements dans les appareils SIP. Vous pouvez maintenant vous connecter à Teams avec vos informations d’identification d’entreprise et passer et recevoir des appels avec un appareil SIP compatible. Les appareils compatibles peuvent être Skype Entreprise des téléphones IP avec microprogramme SIP standard, des téléphones Cisco IP avec microprogramme SIP multiplateforme ou des appareils SIP de fournisseurs tels que Poly, Yealink et AudioCodes. Pour savoir comment configurer vos appareils SIP pour la passerelle SIP, consultez [Configurer la passerelle SIP](sip-gateway-configure.md).
 
 ## <a name="benefits-of-sip-gateway"></a>Avantages de la passerelle SIP
 
 La passerelle SIP connecte des appareils SIP compatibles à Teams pour aider vos utilisateurs à migrer en toute transparence vers la téléphonie Teams. À l’aide de la passerelle SIP, vos utilisateurs peuvent effectuer toutes les opérations suivantes :
 
-- **Passer des appels :** Les utilisateurs d’appareils SIP peuvent passer des appels au réseau téléphonique commuté (RTC), à d’autres appareils SIP, à Teams et à Skype Entreprise utilisateurs. Les utilisateurs d’appareils SIP peuvent uniquement appeler les utilisateurs qui ont des numéros de téléphone.
-- **Recevoir des appels :** Les utilisateurs d’appareils SIP peuvent recevoir un appel du RTC, de Teams ou Skype Entreprise utilisateurs disposant d’appareils SIP, ainsi que de Teams et d’applications clientes Skype Entreprise. L’appareil SIP agit comme un point de terminaison Teams. Les appels entrants seront également dupliqués vers l’appareil SIP de l’utilisateur.
-- **Plusieurs appels simultanés :** Un utilisateur d’appareil SIP dans un appel peut mettre l’appel en attente pour effectuer ou recevoir d’autres appels. Un utilisateur d’appareil SIP peut également téléconférencer deux appels.
+- **Passer des appels :** Les utilisateurs d’appareils SIP peuvent passer des appels au réseau téléphonique commuté public (RTC), à d’autres appareils SIP et à Teams et Skype Entreprise utilisateurs. Les utilisateurs d’appareils SIP peuvent uniquement appeler les utilisateurs qui ont des numéros de téléphone.
+- **Recevoir des appels :** Les utilisateurs d’appareils SIP peuvent recevoir un appel à partir du RTC, de Teams ou Skype Entreprise utilisateurs disposant d’appareils SIP, ainsi que de Teams et Skype Entreprise applications clientes. L’appareil SIP agit comme un point de terminaison Teams. Les appels entrants sont également dupliqués vers l’appareil SIP de l’utilisateur.
+- **Plusieurs appels simultanés :** Un utilisateur d’appareil SIP dans un appel peut mettre l’appel en attente pour passer ou recevoir d’autres appels. Un utilisateur d’appareil SIP peut également conférencer deux appels.
 - **Ne pas déranger :** Un utilisateur d’appareil SIP peut définir ne pas déranger sur l’appareil afin que l’appareil ne sonne pas pour les appels entrants. Cela n’a aucun impact sur l’état de l’utilisateur sur tous les autres points de terminaison Teams.
-- **Hold/Resume et Mute/Unmute :** Un utilisateur d’appareil SIP peut maintenir et reprendre ou désactiver ou désactiver un appel à l’aide des fonctionnalités de ces actions sur l’appareil.
-- **Messagerie vocale:** Les utilisateurs d’appareils SIP peuvent écouter les messages vocaux stockés électroniquement que les appelants quittent pour eux.
+- **Maintenir/reprendre et désactiver/désactiver le son :** Un utilisateur d’appareil SIP peut maintenir et reprendre ou désactiver le son et réactiver un appel à l’aide des fonctionnalités de ces actions sur l’appareil.
+- **Messagerie vocale:** Les utilisateurs d’appareils SIP peuvent écouter les messages vocaux stockés électroniquement que les appelants laissent pour eux.
 - **Indicateur d’attente de message :** Les utilisateurs d’appareils SIP peuvent recevoir des notifications qui les alertent lorsqu’ils ont de nouveaux messages vocaux.
 - **Connexion et déconnexion :** Les utilisateurs d’appareils SIP peuvent se connecter et se déconnecter de Teams sur l’appareil.
-- **Multifréquence à deux tonalités :** Les utilisateurs d’appareils SIP peuvent appuyer sur les touches numériques pour fournir une entrée lors des appels de réponse vocale interactifs.
-- **Réunions Teams :** Un utilisateur d’appareil SIP peut rejoindre une réunion Teams en composant le numéro d’accès à la réunion. Les participants à la réunion peuvent ajouter un utilisateur d’appareil SIP à la réunion en composant le numéro de téléphone de l’utilisateur ou en ajoutant simplement un participant en cliquant sur « Demander à rejoindre » pour alerter également l’appareil SIP de l’utilisateur. Les utilisateurs invités d’une autre organisation peuvent être ajoutés à une réunion Teams par un participant qui compose le numéro d’un utilisateur invité pour inclure cet invité.
+- **Fréquence multi-ton double :** Les utilisateurs d’appareils SIP peuvent appuyer sur les touches numériques pour fournir une entrée lors des appels de réponse vocale interactifs.
+- **Réunions Teams :** Un utilisateur d’appareil SIP peut rejoindre une réunion Teams en composant le numéro d’accès à la réunion. Les participants à la réunion peuvent ajouter un utilisateur d’appareil SIP à la réunion en appelant le numéro de téléphone de l’utilisateur ou en ajoutant simplement un participant en cliquant sur « Demander à participer » pour alerter l’appareil SIP de l’utilisateur. Les utilisateurs invités d’une autre organisation peuvent être ajoutés à une réunion Teams par un participant qui appelle le numéro d’un utilisateur invité pour inclure cet invité.
 - **Transferts d’appels :** Les utilisateurs d’appareils SIP peuvent transférer des appels. La passerelle SIP prend en charge les transferts aveugles et consultatifs.
-- **Transfert d’appel local :** Un utilisateur d’appareil SIP peut définir des règles de transfert (toujours, au délai d’expiration et occupé) pour l’appareil. Si l’appareil est connecté à la passerelle SIP, l’appel est redirigé vers l’adresse cible en fonction de la règle définie par l’utilisateur de l’appareil. Pour que le transfert d’appel local fonctionne, l’administrateur doit définir l’attribut `AllowCallRedirect` sur `Set-CsTeamsCallingPolicy` `Enabled`.
-- **Appareils obsolètes hors-bord :** La passerelle SIP prend en charge la désintégration automatique des appareils obsolètes approvisionnés pour un locataire. Les appareils appairés (connectés) seront désintégrés s’ils ne sont pas connectés pendant 30 jours et les appareils non appariés (déconnectés) après 14 jours. Un appareil désintégré peut être réintégré après une réinitialisation d’usine.
+- **Transfert d’appel local :** Un utilisateur d’appareil SIP peut définir des règles de transfert (toujours, sur le délai d’expiration et occupé) pour l’appareil. Si l’appareil est connecté à la passerelle SIP, l’appel est redirigé vers l’adresse cible en fonction de la règle définie par l’utilisateur de l’appareil. Pour que le transfert d’appel local fonctionne, l’administrateur doit définir l’attribut `AllowCallRedirect` dans sur `Set-CsTeamsCallingPolicy` `Enabled`.
+- **Désintégrer les appareils obsolètes :** La passerelle SIP prend en charge la désintégrage automatique des appareils obsolètes provisionnés pour un locataire. Les appareils jumelés (connectés) sont désactivés s’ils ne sont pas connectés pendant 30 jours, et les appareils non appariés (déconnectés) après 14 jours. Un appareil hors bord peut être réinséré après une réinitialisation aux paramètres d’usine.
 
 ## <a name="requirements-to-use-sip-gateway"></a>Configuration requise pour utiliser la passerelle SIP
 
-Les utilisateurs Teams doivent disposer d’un numéro de téléphone avec l’appel RTC activé pour utiliser la passerelle SIP.
+Les utilisateurs Teams doivent avoir un numéro de téléphone avec l’appel RTC activé pour utiliser la passerelle SIP.
 
 > [!NOTE]
 > La passerelle SIP n’est pas disponible pour les environnements gouvernementaux (GCC, GCC High et DoD).
 
 ### <a name="hardware-software-and-licenses"></a>Matériel, logiciels et licences
 
-Si vous disposez d’un appareil 3PIP ou SIP, vous devez disposer des éléments suivantes :
+Si vous disposez d’un appareil 3PIP ou SIP, vous devez avoir :
 
-- Une licence pour Microsoft Teams, Skype Entreprise Plan en ligne 2 et Microsoft 365 Phone System (via des licences E5 ou autonomes)
-- Activation RTC (par exemple, un numéro de téléphone) via un plan d’appel Microsoft Teams, un routage direct ou une connexion d’opérateur
-- Une licence Common Area Phone pour tous les appareils de zone commune
+- Une licence pour Microsoft Teams, Skype Entreprise Online Plan 2 et Système téléphonique Microsoft 365 (via des licences E5 ou autonomes)
+- Activation RTC (c’est-à-dire un numéro de téléphone) via un plan d’appels Microsoft Teams, un routage direct ou une connexion d’opérateur
+- Une licence téléphone de zone commune pour tous les appareils de zone commune
 
 ## <a name="compatible-devices"></a>Appareils compatibles
 
-|Fournisseur    |Modèle      |Version minimale du microprogramme|Version approuvée du microprogramme|Remarques|Liens|
+|Fournisseur    |Modèle      |Version minimale du microprogramme|Version du microprogramme approuvée|Remarques|Liens|
 |----------|-----------|------------|-----------|------------|------------|
-|**Cisco** |           |            |           |Les appareils exécutant le microprogramme d’entreprise doivent être convertis en microprogramme multiplateforme. Lisez le guide à droite pour savoir comment faire.|[Guide de conversion du microprogramme Cisco](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
-|          |8832       |11.3.5MPP   |11-3-7 MPP  |   |   |
-|          |6821       |11.1.1MPP   |11-3-7 MPP  |   |   |
-|          |7811       |11.1.1MPP   |11-3-7 MPP  |   |   |
-|          |7821       |11.1.1MPP   |11-3-7 MPP  |   |   |
-|          |7841       |11.1.1MPP   |11-3-7 MPP  |   |   |
-|          |7861       |11.1.1MPP   |11-3-7 MPP  |   |   |
-|          |8811       |11.1.1MPP   |11-3-7 MPP  |   |   |
-|          |8841       |11.1.1MPP   |11-3-7 MPP  |   |   |
-|          |8845       |11.1.1MPP   |11-3-7 MPP  |   |   |
-|          |8851       |11.1.1MPP   |11-3-7 MPP  |   |   |
-|          |8861       |11.1.1MPP   |11-3-7 MPP  |   |   |
-|          |8865       |11.1.1MPP   |11-3-7 MPP  |   |   |
+|**Cisco** |           |            |           |Les appareils exécutant un microprogramme d’entreprise doivent être convertis en microprogramme multiplateforme. Lisez le guide à droite pour savoir comment procéder.|[Guide de conversion de microprogramme Cisco](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
+|          |8832<sup>1</sup>       |11.3.5MPP   |11-3-7MPP  |   |   |
+|          |6821<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |7811<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |7821<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |7841<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |7861<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8811<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8841<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8845<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8851<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8861<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8865<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
 |**Poly**  |           |            |           |L’appareil redémarre automatiquement et installe le microprogramme sélectionné.|   |
 |          |Trio 8500  |5.9.5.3182  |7.2.2.1094 |   |   |
 |          |Trio 8800  |5.9.5.3182  |7.2.2.1094 |   |   |
@@ -136,7 +136,19 @@ Si vous disposez d’un appareil 3PIP ou SIP, vous devez disposer des éléments
 |          |T53W<sup>1</sup>      |83          |96.86.5.1  |   |   |
 |          |T54W<sup>1</sup>      |83          |96.86.5.1  |   |   |
 |          |T57W<sup>1</sup>      |83          |96.86.5.1  |   |   |
-|**AudioCodes**|       |            |           |Certains appareils SIP AudioCodes ont besoin d’un paramètre d’URL de provisionnement. Téléchargez et installez les fichiers de mise à niveau pour les appareils AudioCodes affectés à droite. |[Fichiers téléchargeables pour les appareils affectés sur AudioCodes](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo7914a2-4f3a-4000-8957-47bd6f35a3a5)|
+|          |W56H                  |            |61.85.0.56 |   |   |
+|          |W73H                  |            |116.85.0.38|   |   |
+|          |W59R                  |            |115.85.0.56|   |   |
+|          |W70B NOAM             |            |146.85.5.4 |   |   |
+|          |W70B EMEA             |            |146.85.5.2 |   |   |
+|          |W70B APAC             |            |146.85.5.3 |   |   |
+|          |W80 NOAM              |            |130.85.5.5 |   |   |
+|          |W80 EMEA              |            |130.85.5.6 |   |   |
+|          |W80 APAC              |            |130.85.5.4 |   |   |
+|          |W90 NOAM              |            |130.85.5.5 |   |   |
+|          |W90 EMEA              |            |130.85.5.6 |   |   |
+|          |W90 APAC              |            |130.85.5.4 |   |   |
+|**AudioCodes**|       |            |           |Certains appareils SIP AudioCodes ont besoin d’un paramètre d’URL d’approvisionnement. Téléchargez et installez les fichiers de mise à niveau pour les appareils AudioCodes affectés à droite. |[Fichiers téléchargeables pour les appareils concernés sur AudioCodes](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo7914a2-4f3a-4000-8957-47bd6f35a3a5)|
 |          |405<sup>1</sup>        |2.2.8      |2.2.16.589 |   |   |
 |          |405HD<sup>1</sup>      |3.2.1      |2.2.16.589 |   |   |
 |          |405HDG<sup>1</sup>     |3.2.1      |2.2.16.589 |   |   |
@@ -151,7 +163,7 @@ Si vous disposez d’un appareil 3PIP ou SIP, vous devez disposer des éléments
 |          |C450HD<sup>1</sup>     |3.2.1      |3.4.6.704  |   |   |
 |          |445HD<sup>1</sup>      |3.2.1      |3.4.6.704  |   |   |
 |          |RX50<sup>1</sup>       |3.2.1      |3.4.6.704  |   |   |
-|**Spectralink**|       |           |           |   |[Prise en charge de Spectraink](https://support.spectralink.com)|
+|**Spectralink**|       |           |           |   |[Prise en charge de spectralink](https://support.spectralink.com)|
 |          |7202        |PCS22B     |PCS22B     |Combiné |   |
 |          |7212        |PCS22B     |PCS22B     |Combiné |   |
 |          |7502        |PCS22B     |PCS22B     |Combiné |   |
@@ -162,9 +174,9 @@ Si vous disposez d’un appareil 3PIP ou SIP, vous devez disposer des éléments
 |          |7722        |PCS22B     |PCS22B     |Combiné |   |
 |          |7742        |PCS22B     |PCS22B     |Combiné |   |
 |          |IP-DECT Server 200 |PCS22Ab |PCS22Ab |Serveur IP-DECT |   |
-|          |IP-DECT Server 400 |PCS22Ab |PCS22Ab |Serveur IP-DECT |   |
-|          |IP-DECT Server 6500 |PCS22Ab |PCS22Ab |Serveur IP-DECT |   |
-|          |Serveur IP-DECT virtuel 1 |PCS22Ab |PCS22Ab |Serveur IP-DECT |   |
+|          |SERVEUR IP-DECT 400 |PCS22Ab |PCS22Ab |Serveur IP-DECT |   |
+|          |SERVEUR IP-DECT 6500 |PCS22Ab |PCS22Ab |Serveur IP-DECT |   |
+|          |Serveur IP-DECT virtuel One |PCS22Ab |PCS22Ab |Serveur IP-DECT |   |
 |          |IP-DECT Base Station |PCS22Ab |PCS22Ab |Serveur IP-DECT |   |
 |**Ascom**|       |           |           |   |[Prise en charge d’Ascom](https://www.ascom.com/products-and-services/services/support-and-maintenance/)|
 |          |Ascom d43        |2.11.4     |2.11.4     |Combiné |   |
@@ -172,24 +184,27 @@ Si vous disposez d’un appareil 3PIP ou SIP, vous devez disposer des éléments
 |          |Ascom d81        |4.13.1     |4.13.1     |Combiné |   |
 |          |Ascom d83        |4.13.1     |4.13.1     |Combiné |   |
 |          |Ascom Myco 3 DECT        |3.4.1     |3.4.1     |Combiné |   |
-|          |IPBSx du point d’accès IP-DECT        |11.8.8     |11.8.8     |Point d’accès IP-DECT |   |
-|          |IP-DECT Gateway IPBL     |11.8.8     |11.8.8     |Passerelle IP-DECT |   |
+|          |Point d’accès IP-DECT IPBSx        |11.8.8     |11.8.8     |Point d’accès IP-DECT |   |
+|          |IPBL de passerelle DECT     |11.8.8     |11.8.8     |Passerelle IP-DECT |   |
 |          |TDM Base Station        |R3N     |R3N     |IP-DECT Base Station |   |
-|          |IPVM de l’appliance virtuelle IP-DECT        |11.8.8     |11.8.8     |Serveur IP-DECT |   |
+|          |IP-DECT Virtual Appliance IPVM        |11.8.8     |11.8.8     |Serveur IP-DECT |   |
 
 <sup>1 L’appareil</sup> prend en charge les appels d’urgence dynamiques (E911) avec la passerelle SIP.
 
 > [!NOTE]
-> Les clients peuvent utiliser AudioCodes OVOC et Poly Lens pour gérer la configuration côté appareil de leurs appareils AudioCodes 400 et Poly VVX/Trio, respectivement.
+> Les clients peuvent utiliser AudioCodes OVOC et Poly Lens pour gérer la configuration côté appareil de leurs appareils De série AudioCodes 400 et Poly VVX/Trio respectivement.
 
 > [!NOTE]
-> Les appareils Spectrasink reçoivent les mises à jour du microprogramme en direct des serveurs IP-DECT DeCt de Specink.
+> Les combinés Spectralink reçoivent des mises à jour de microprogramme à partir de serveurs IP-DECT Spectralink.
 
 > [!NOTE]
-> Les combinés Ascom reçoivent les mises à jour du microprogramme en direct des serveurs Ascom IP-DECT.
+> Les combinés Ascom reçoivent les mises à jour du microprogramme via les serveurs IP-DECT Ascom.
+
+> [!NOTE]
+> Pour les stations de base Yealink DECT, utilisez la version de microprogramme spécifique à la région indiquée ci-dessus pour obtenir la meilleure expérience d’appel.
 
 > [!NOTE]
 > Pour les requêtes de support, les clients qui utilisent des systèmes IP-DECT avec la passerelle SIP Teams doivent contacter leur fabricant DECT ou leurs partenaires de canal d’implémentation.
 
 > [!NOTE]
-> Pour certains appareils, la version minimale du microprogramme est supérieure à la version approuvée du microprogramme. Cela est dû au fait que la version 3.X est la version Skype Entreprise. Nous mettons à jour la version SIP 2.X.
+> Pour certains appareils, la version minimale du microprogramme est supérieure à la version approuvée du microprogramme. En effet, la version 3.X est la version Skype Entreprise. Nous mettons à jour la version SIP qui est 2.X.

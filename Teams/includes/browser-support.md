@@ -1,10 +1,10 @@
 Teams prend en charge les navigateurs suivants, avec quelques exceptions signalées pour les appels et les réunions. Ce tableau s’applique aux systèmes d’exploitation fonctionnant sur des ordinateurs de bureau. 
 
 
-|Navigateur  |Appels :audio, vidéo et partage  |Réunions : audio, vidéo et partage<sup>1</sup> <sup>2</sup> <sup>3</sup>  |
+|Navigateur  |Appels :audio, vidéo et partage  |Réunions : audio, vidéo et partage<sup>1</sup> <sup>2</sup>  |
 |---------|---------|---------|
 |Internet Explorer 11     |Non pris en charge         |Les réunions ne sont prises en charge que si elles incluent des coordonnées PSTN. Pour participer à une réunion sur IE11 sans coordonnées PSTN, les utilisateurs doivent télécharger le client de bureau Teams.<br><br>Vidéo : non prise en charge.<br><br>Partage : partage entrant uniquement (non sortant)  <br><br> Les applications et services Microsoft 365 ne prennent pas en charge Internet Explorer 11 à partir du 17 août 2021 (Microsoft Teams ne prendra pas en charge Internet Explorer 11 et antérieure, à partir du 30 novembre 2020). [En savoir plus](https://www.microsoft.com/edge/business). Veuillez noter que le navigateur Internet Explorer 11 restera un navigateur pris en charge. Internet Explorer 11 est un composant du système d’exploitation Windows et [suit la stratégie de cycle de vie](/lifecycle/faq/internet-explorer-microsoft-edge) du produit sur lequel il est installé.    |
-|Microsoft Edge, RS2 ou version ultérieure     |Entièrement pris en charge, sauf le partage sortant <sup>4</sup>         |Entièrement pris en charge, sauf le partage sortant         |
+|Microsoft Edge, RS2 ou version ultérieure     |Entièrement pris en charge, sauf aucun partage sortant<sup>3</sup>         |Entièrement pris en charge, sauf le partage sortant         |
 |Microsoft Edge (basé sur Chromium), dernière version et les deux versions précédentes     | Entièrement pris en charge    |Entièrement pris en charge         |
 |Google Chrome, dernière version et les deux versions précédentes       |Entièrement pris en charge |Entièrement pris en charge <br> <br>Le partage est pris en charge sans plug-in ni extension sur Chrome version 72 ou ultérieure.       |
 |Safari 14+     |Les appels 1:1 ne sont pas pris en charge. Les appels de groupe sont entièrement pris en charge.<br><br>Vidéo : entièrement prise en charge<br><br>Partage : entièrement pris en charge         |Réunions : entièrement prises en charge<br><br>Vidéo : entièrement prise en charge<br><br>Partage : entièrement pris en charge     |
@@ -14,11 +14,9 @@ Teams prend en charge les navigateurs suivants, avec quelques exceptions signal�
 
 <sup>1</sup> pour[ donner et prendre le contrôle du contenu partagé pendant le partage](../meeting-policies-content-sharing.md#allow-a-participant-to-give-or-request-control), les deux personnes doivent utiliser le client de bureau Teams. Le contrôle n’est pas pris en charge lorsqu'une des parties exécute Teams dans un navigateur. Il s'agit d'une limitation technique que nous nous efforçons de résoudre.
 
-<sup>2</sup> Brouiller mon arrière-plan n’est pas disponible lorsque vous exécutez Teams dans un navigateur. Cette fonctionnalité est uniquement disponible dans le client de bureau Teams.
+<sup>2 Les</sup> réunions Teams sur les navigateurs sont limitées à un seul flux ; flux vidéo entrant de l’orateur actuel ou partage d’écran.
 
-<sup>3</sup> Les réunions Teams sur les navigateurs sont limitées à un seul flux ; flux vidéo entrant de l’intervenant actuel ou partage d’écran.
-
-<sup>4</sup> Edge RS2 ou version ultérieure ne prend pas en charge l’envoi de trafic audio et vidéo en temps réel via des proxies HTTP.
+<sup>3</sup> Edge RS2 ou version ultérieure ne prend pas en charge l’envoi de trafic audio et vidéo en temps réel via des proxys HTTP.
 
 > [!NOTE]
 > L’exécution de Teams dans un navigateur est prise en charge sur les PC et Mac qui répondent à la [Configuration matérielle minimale requise pour Microsoft Teams](../hardware-requirements-for-the-teams-app.md). Par exemple, exécuter Firefox sur le système d’exploitation Linux constitue une option pour utiliser Teams.

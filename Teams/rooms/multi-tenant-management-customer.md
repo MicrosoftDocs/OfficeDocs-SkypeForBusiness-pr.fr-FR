@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: gestion des partenaires pour les clients.
 f1keywords: ''
-ms.openlocfilehash: 0fef32202d256926448227f522b6160100cd05e1
-ms.sourcegitcommit: fcbbc197e43bcd63bf95cb329df9cb52e06ee356
+ms.openlocfilehash: 56aaf61092dd1bbd61c2734be6da1732f4882e49
+ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "68842162"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "69046863"
 ---
 # <a name="partner-management-for-customers"></a>Gestion des partenaires pour les clients
 
@@ -77,7 +77,7 @@ Pour gérer les utilisateurs dans le rôle d’administrateur principal, consult
 
 ## <a name="managing-partner-roles"></a>Gestion des rôles de partenaires
 
-Les rôles de partenaire permettent à votre partenaire de déléguer plus précisément des responsabilités à un personnel supplémentaire. Le concept de ces rôles est identique à celui décrit dans [Contrôle d’accès en fonction du rôle](microsoft-teams-rooms-premium-rbac.md). Il est important de noter que les rôles partenaires sont distincts de vos rôles personnalisés. 
+Les rôles de partenaire permettent à votre partenaire de déléguer plus précisément des responsabilités à un personnel supplémentaire. Le concept de ces rôles est identique à celui décrit dans [Contrôle d’accès en fonction du rôle](rooms-pro-rbac.md). Il est important de noter que les rôles partenaires sont distincts de vos rôles personnalisés. 
 
 Le rôle **Administrateur principal** est le seul rôle intégré pour chaque partenaire que vous ajoutez. Ce rôle dispose de presque toutes les autorisations sur les salles que vous avez attribuées à ce partenaire pour le service TRM (voir [le tableau 1](#table-1)). Par exemple, si vous avez des salles dans le monde entier et que vous affectez un partenaire pour gérer toutes les salles américaines, l’administrateur principal ne peut gérer et déléguer que les autorisations pour ces salles. Dans ce cas, les administrateurs principaux de ce partenaire n’ont aucune visibilité sur les salles en dehors des États-Unis. 
 
