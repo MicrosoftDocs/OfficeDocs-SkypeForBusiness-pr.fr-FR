@@ -25,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Découvrez si l’audioconférence, le système téléphonique, les forfaits d’appels, les crédits de communication et les numéros de téléphone gratuits et payants sont disponibles dans un pays ou une région.
-ms.openlocfilehash: 2f9bc15a51765d595a1c8eb24c800971079b1207
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: a20d8344182d8fefeaeb8cbc6c9789178b87829f
+ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67641935"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69139168"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 
@@ -146,7 +146,7 @@ Vous pouvez sélectionner un pays ou une région pour voir quelles fonctionnalit
 > - [Trinité-et-Tobago](availability-in-trinidad-and-tobago.md)
 > - [Tunisie](availability-in-tunisia.md)
 > - [Turquie](availability-in-turkey.md)
-> - [Îles Turks et Caicos](availability-in-turks-and-caicos-islands.md)
+> - [Îles Turks-et-Caïques](availability-in-turks-and-caicos-islands.md)
 > - [Ouganda](availability-in-uganda.md)
 > - [Ukraine](availability-in-the-ukraine.md)
 > - [Émirats arabes unis](availability-in-the-united-arab-emirates-uae.md)
@@ -160,7 +160,7 @@ Vous pouvez sélectionner un pays ou une région pour voir quelles fonctionnalit
 
 ***
 
-Une fois que vous avez vérifié si l’un des services Teams est disponible, vous pouvez voir les [licences de module complémentaire Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) pour vous aider à acheter des licences et à les attribuer à vos utilisateurs.
+Une fois que vous avez vérifié si l’un des services Teams est disponible, vous pouvez voir licences de [module complémentaire Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) pour vous aider à acheter des licences et à les attribuer à vos utilisateurs.
 
 > [!NOTE]
 >
@@ -170,12 +170,12 @@ Une fois que vous avez vérifié si l’un des services Teams est disponible, vo
 
 ### <a name="audio-conferencing"></a>Audioconférence
 
-Parfois, des personnes de votre organisation devront utiliser un téléphone pour rejoindre une réunion. Teams inclut la fonctionnalité d’audioconférence pour cette situation ! Personnes pouvez appeler des réunions à l’aide d’un téléphone au lieu d’utiliser les applications Teams sur un appareil mobile ou un PC. Une fois que vous avez décidé d’utiliser l’audioconférence pour votre organisation, achetez une licence **d’audioconférence** pour chaque personne de votre organisation qui va planifier/héberger une réunion audio.
+Parfois, des personnes de votre organisation devront utiliser un téléphone pour rejoindre une réunion. Teams inclut la fonctionnalité d’audioconférence pour cette situation ! Personnes pouvez appeler des réunions à l’aide d’un téléphone au lieu d’utiliser les applications Teams sur un appareil mobile ou un PC. Lorsque vous avez décidé que vous souhaitez l’audioconférence pour votre organisation, achetez une licence **d’audioconférence** pour chaque personne de votre organisation qui va planifier/héberger une réunion audio.
   
-Avec l’audioconférence, il existe des numéros de téléphone gratuits et payants que vos utilisateurs peuvent utiliser pour se connecter à des réunions. Les numéros de téléphone des pays ou régions suivants sont automatiquement attribués en tant que numéros d’audioconférence partagés aux organisations lorsqu’elles sont activées pour l’audioconférence. Des numéros gratuits et payants dédiés peuvent être attribués à votre organisation à partir de villes supplémentaires.
+Avec l’audioconférence, il existe des numéros de téléphone gratuits et payants qui peuvent être utilisés par vos utilisateurs pour se connecter aux réunions. Les numéros de téléphone des pays ou régions suivants sont automatiquement attribués en tant que numéros d’audioconférence partagés aux organisations lorsqu’elles sont activées pour l’audioconférence. Des numéros gratuits et payants dédiés peuvent être attribués à votre organisation à partir d’autres villes.
 
 > [!IMPORTANT]
-> Il n’existe pas de ressource qui contient la liste de tous les numéros de connexion pour l’audioconférence. Pour savoir s’il existe des numéros de téléphone rendez-vous disponibles dans votre région ou pays/région, accédez aux **numéros de téléphone** **vocaux** >  **du Centre** >  d’administration Teams, cliquez sur **Ajouter**, puis cliquez sur **Nouveaux numéros de service**. Utilisez les listes pour **Pays/région**, **État/région** et **Ville** pour filtrer votre recherche. Si vous recherchez des numéros de service gratuits, sélectionnez **le numéro gratuit dans** la liste **État/Région** .
+> Il n’existe pas de ressource qui contient la liste de tous les numéros de connexion pour l’audioconférence. Pour savoir si des numéros de téléphone entrants sont disponibles dans votre région ou votre pays/région, accédez au Centre  > **d’administration Teams** Numéros de téléphone **vocaux** > , cliquez sur Ajouter, puis sur **Nouveaux numéros de service**. Utilisez les listes pour **Pays/région**, **État/région** et **Ville** pour filtrer votre recherche. Si vous recherchez des numéros de service gratuits, sélectionnez **gratuit** dans la liste **État/Région** .
 
 Pour en savoir plus sur les audioconférences, consultez [Questions fréquentes à propos de l'audioconférence](../audio-conferencing-common-questions.md)
 
@@ -183,18 +183,18 @@ Pour en savoir plus sur les audioconférences, consultez [Questions fréquentes 
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>Utilisation de la fonctionnalité M’appeler ou lors de l’ajout d’autres personnes à une réunion afin de pouvoir y participer
 
-Dans l’audioconférence, la fonctionnalité « *M’appeler* » permet à d’autres personnes de participer à une réunion rendez-vous. Utilisez la liste déroulante de cet article pour rechercher le pays/la région et voir si cette fonctionnalité est disponible.
+Dans l’audioconférence, la fonctionnalité « *M’appeler* » est utilisée pour permettre à d’autres personnes de rejoindre une réunion rendez-vous. Utilisez la liste déroulante de cet article pour rechercher le pays/la région et voir si cette fonctionnalité est disponible.
 
 > [!CAUTION]
-> La numérotation vers des numéros de téléphone gratuits ou gratuits n’est peut-être pas possible, car certains numéros gratuits fonctionnent uniquement à partir d’un pays ou d’une région donné dans un pays. Par exemple, si vous composez à partir du États-Unis vers un numéro gratuit au Brésil, l’appel peut ne pas réussir, car l’appel ne provient pas du Brésil ou d’une région spécifique au Brésil. La possibilité de composer des numéros gratuits varie considérablement en fonction des restrictions du numéro gratuit composé. Malheureusement, nous ne pouvons pas contrôler ce comportement, et par conséquent, votre expérience peut varier en fonction du numéro gratuit composé et des restrictions du numéro gratuit.
+> Il n’est peut-être pas possible de composer des numéros gratuits ou gratuits, car certains numéros gratuits ne fonctionnent qu’à partir d’un pays ou d’une région donnés. Par exemple, si vous composez à partir du États-Unis vers un numéro gratuit au Brésil, l’appel peut ne pas réussir, car l’appel ne provient pas du Brésil ou d’une région spécifique au Brésil. La possibilité de composer des numéros gratuits varie considérablement en fonction des restrictions du numéro gratuit composé. Malheureusement, nous ne pouvons pas contrôler ce comportement, et par conséquent, votre expérience peut varier en fonction du numéro gratuit composé et des restrictions du numéro gratuit.
   
-La numérotation à partir d’une réunion vers un autre pays/région dans le monde qui n’est pas répertorié ci-dessous est disponible à l’aide [des crédits de communication](../what-are-communications-credits.md). Pour ces utilisateurs, vous devez [configurer des crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
+La numérotation sortante d’une réunion vers un autre pays/région du monde qui n’est pas répertorié ci-dessous est disponible à l’aide [des crédits de communication](../what-are-communications-credits.md). Pour ces utilisateurs, vous devez [configurer des crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
 
 ### <a name="phone-system"></a>Système téléphonique
 
-Avec le système téléphonique, vous créez des standards automatiques et des files d’attente d’appels (avec un numéro gratuit ou payant) pour répondre aux appels entrants de votre organisation. Lorsque vous ajoutez un plan d’appel pour les utilisateurs, ils peuvent utiliser Teams pour s’occuper des tâches de contrôle d’appel de base, telles que le placement et la réception d’appels, le transfert d’appels et le mutage et le désactivation des appels. Les utilisateurs **du système téléphonique** cliquent sur un nom dans leur carnet d’adresses, et Teams passe un appel à cette personne. Pour placer et recevoir des appels, les utilisateurs **du système téléphonique** utilisent leurs appareils mobiles, un casque avec un ordinateur portable ou un PC, ou l’un des nombreux téléphones IP qui fonctionnent avec Teams.
+Avec le système téléphonique, vous créez des standards automatiques et des files d’attente d’appels (avec un numéro gratuit ou payant) pour répondre aux appels entrants pour votre organisation. Lorsque vous ajoutez un forfait d’appels pour les utilisateurs, ils peuvent utiliser Teams pour effectuer des tâches de contrôle d’appel de base, telles que le placement et la réception d’appels, le transfert d’appels, ainsi que le son et la désactivation des appels. Les utilisateurs **du système téléphonique** cliquent sur un nom dans leur carnet d’adresses, et Teams passe un appel à cette personne. Pour passer et recevoir des appels, les utilisateurs du **système téléphonique** utilisent leurs appareils mobiles, un casque avec un ordinateur portable ou un PC, ou l’un des nombreux téléphones IP qui fonctionnent avec Teams.
 
-La disponibilité des numéros de téléphone payant de certains de ces emplacements peut varier à un moment donné, en fonction des niveaux de stock. En plus d’obtenir des numéros de téléphone pour des utilisateurs individuels, il est également possible de rechercher et d’acquérir des numéros de téléphone payants ou gratuits pour des services tels que l’audioconférence (pour les ponts de conférence), les standards automatiques et les files d’attente d’appels. Il s’agit de numéros de service. Pour obtenir les numéros de téléphone, consultez [Obtention de numéros de téléphone de service](../getting-service-phone-numbers.md). Mais pour vos utilisateurs, une fois qu’une offre d’appels leur est attribuée, vous pouvez attribuer un numéro de téléphone à l’utilisateur afin de pouvoir passer et recevoir des appels téléphoniques. Pour rechercher ces numéros de téléphone, accédez à [Obtention de numéros de téléphone pour vos utilisateurs](../getting-phone-numbers-for-your-users.md). Vous pouvez également voir [Affectation, modification ou suppression du numéro de téléphone d’un utilisateur](../assign-change-or-remove-a-phone-number-for-a-user.md).
+La disponibilité des numéros de téléphone payant de certains de ces emplacements peut varier à un moment donné, en fonction des niveaux de stock. En plus d’obtenir des numéros de téléphone pour des utilisateurs individuels, il est également possible de rechercher et d’acquérir des numéros de téléphone gratuits ou payants pour des services tels que l’audioconférence (pour les ponts de conférence), les standards automatiques et les files d’attente d’appels. Il s’agit de numéros de service. Pour obtenir les numéros de téléphone, consultez [Obtention de numéros de téléphone de service](../getting-service-phone-numbers.md). Mais pour vos utilisateurs, une fois qu’une offre d’appels leur est attribuée, vous pouvez attribuer un numéro de téléphone à l’utilisateur afin de pouvoir passer et recevoir des appels téléphoniques. Pour rechercher ces numéros de téléphone, accédez à [Obtention de numéros de téléphone pour vos utilisateurs](../getting-phone-numbers-for-your-users.md). Vous pouvez également voir [Affectation, modification ou suppression du numéro de téléphone d’un utilisateur](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
 [Tarification pour Système téléphonique](https://www.microsoft.com/microsoft-teams/voice-calling?#office-StandaloneSKU-pkdogb9)
 
@@ -203,27 +203,22 @@ La disponibilité des numéros de téléphone payant de certains de ces emplacem
 
 Utilisez la liste déroulante en haut de la page pour rechercher un pays ou une région, ainsi que les services disponibles.
 
-### <a name="calling-plans"></a>Forfaits d’appel
+### <a name="microsoft-teams-calling-plans"></a>Plans d'appel de Microsoft Teams
 
-|Fonctionnalité     |Détails  |
-|----------|-----------|
-|Les forfaits d'appels sont-ils disponibles à l'achat ?  |Oui          |   
-|Minutes disponibles pour les forfaits d'appels.    |Cinq options de plan sont disponibles par mois calendaire : <ul><li>Forfait d’appels avec paiement à l’utilisation </li><li> Forfait d’appels nationaux de 120 minutes </li><li> Forfait d’appels nationaux de 240 minutes </li><li> Forfait d’appels nationaux de 1200 minutes </li><li> Forfait d’appels internationaux : 1 200 minutes d’appels nationaux ou 600 minutes d’appels internationaux (selon le premier jour du mois calendaire)</li></ul>|
+En plus du système téléphonique, les forfaits d’appels permettent aux utilisateurs d’émettre et de recevoir des appels téléphoniques. Vous obtenez d’abord un numéro de téléphone d’utilisateur (abonné) (et non un numéro de service) à attribuer à l’utilisateur, puis vous attribuez un forfait d’appels. Trois types de forfaits d’appels sont disponibles : **national**, **international** et **paiement à l’utilisation**. Pour plus d’informations, consultez [Forfaits d’appels pour Microsoft Teams](../calling-plans-for-office-365.md) .
 
-Avec un Système téléphonique, un forfaits d’appels permet aux utilisateurs de passer et recevoir des appels téléphoniques. Vous obtenez d’abord un numéro de téléphone d’utilisateur (abonné) (et non un numéro de service) à affecter à l’utilisateur, puis vous attribuez un forfait d’appels. Il existe deux types de forfaits d’appels disponibles : **national** et **international**. Pour plus d’information, consultez [Système téléphonique et forfaits d’appels](../calling-plan-landing-page.md).
-
-Pour plus d’informations sur les licences, vous pouvez également consulter [Licences de système téléphonique et de forfaits d’appels](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Vous pouvez également consulter les [options de licence des modules complémentaires Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) pour plus d’informations sur les licences.
 
 > [!NOTE]
 > Le pays/région est basé sur l’emplacement de la licence de l’utilisateur dans le **Centre d’administration Microsoft 365** > **Utilisateurs actifs** et **non** l’adresse de facturation répertoriée sous le **Profil de l’organisation** dans le **Centre d’administration Microsoft 365**.
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>Numéros de téléphone gratuits et payants pour les services
 
-En plus d’obtenir des numéros de téléphone pour des utilisateurs individuels, il est également possible de rechercher et d’acquérir des numéros de téléphone payants ou gratuits pour des services tels que l’audioconférence (pour les ponts de conférence), les standards automatiques et les files d’attente d’appels. Il s’agit de numéros de service.
+En plus d’obtenir des numéros de téléphone pour des utilisateurs individuels, il est également possible de rechercher et d’acquérir des numéros de téléphone gratuits ou payants pour des services tels que l’audioconférence (pour les ponts de conférence), les standards automatiques et les files d’attente d’appels. Il s’agit de numéros de service.
   
-La liste suivante répertorie les majuscules et les principales villes dans lesquelles vous pouvez obtenir des numéros de service payants à utiliser avec les forfaits d’appels et d’audioconférence. Vous obtenez des numéros de service payants à partir de ces emplacements à l’aide du **Centre d’administration Teams**.
+La liste suivante répertorie les majuscules et les principales villes dans lesquelles vous pouvez obtenir des numéros de service payants à utiliser avec les forfaits d’appels et d’audioconférence. Vous obtenez des numéros de service payants à partir de ces emplacements à l’aide du **centre d’administration Teams**.
   
-Si vous souhaitez obtenir un numéro de service gratuit ou payant, vous pouvez voir [Obtenir des numéros de téléphone de service](../getting-service-phone-numbers.md). Si vous disposez déjà d’un numéro de service gratuit ou payant que vous souhaitez transférer à partir d’un autre fournisseur, consultez [Gérer les numéros de téléphone de votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Si vous souhaitez obtenir un numéro de service payant ou gratuit, vous pouvez voir [Obtenir des numéros de téléphone de service](../getting-service-phone-numbers.md). Si vous disposez déjà d’un numéro de service payant ou gratuit que vous souhaitez transférer à partir d’un autre fournisseur, consultez [Gérer les numéros de téléphone de votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 Utilisez la liste déroulante en haut de la page pour rechercher un pays ou une région, ainsi que les services disponibles.
 
@@ -231,7 +226,7 @@ Utilisez la liste déroulante en haut de la page pour rechercher un pays ou une 
 
 Nous vous recommandons de configurer les crédits de communications pour les utilisateurs de votre audioconférence et de nos forfaits d’appels qui ont besoin de la possibilité d’appeler **n’importe quelle destination**. De nombreux pays/régions sont compris, mais il est possible que certaines destinations ne soient pas comprises dans votre forfait d'appel ou d’audioconférence.
   
-Si vous ne configurez pas de crédits de communication et que vous n’attribuez pas de licence aux utilisateurs et que vous n’avez plus de minutes pour votre organisation (en fonction de votre forfait d’appels ou de votre plan d’audioconférence ou de votre pays/région), ils ne pourront pas passer d’appels ou effectuer des appels sortants à partir de réunions. Vous pouvez obtenir plus d’informations, notamment des montants de financement recommandés en lisant [Qu’est-ce que les crédits de communication ?](../what-are-communications-credits.md)
+Si vous ne configurez pas de crédits de communication et n’attribuez pas de licence aux utilisateurs, et que votre organisation ne dispose plus de minutes (selon votre forfait d’appels, votre plan d’audioconférence ou votre pays/région), ceux-ci ne pourront pas passer d’appels ou composer des réunions. Vous pouvez obtenir plus d’informations, notamment des montants de financement recommandés en lisant [Qu’est-ce que les crédits de communication ?](../what-are-communications-credits.md)
 
 ## <a name="related-topics"></a>Sujets associés
 
