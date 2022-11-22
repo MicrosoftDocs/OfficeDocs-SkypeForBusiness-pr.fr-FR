@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: Dans cet article, vous allez apprendre à créer, modifier et gérer des comptes de ressources dans Microsoft Teams.
-ms.openlocfilehash: b9c7f5575d5e6df4370c07bf1cd581cbd1a396dd
-ms.sourcegitcommit: 9504b7a67e593f5575060b09b69817325e2a1f77
+ms.openlocfilehash: cde570c23b6d2e6b673f6cc0f49c9905c3b45fd1
+ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2022
-ms.locfileid: "69111131"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69147431"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -42,13 +42,14 @@ Pour en savoir plus, consultez les références suivantes :
 - [Standard automatique cloud](create-a-phone-system-auto-attendant.md)
 - [File d’attente d’appels cloud](create-a-phone-system-call-queue.md)
 
-Vous pouvez modifier le nom **d’affichage** et le type **de compte de ressource** du compte de ressource à l’aide de l’option **Modifier** . Cliquez sur **Enregistrer** lorsque vous avez terminé.
+Vous pouvez modifier le nom **d’affichage** et le type **de compte de ressource** du compte de ressource à l’aide de l’option **Modifier** . Sélectionnez **Enregistrer** lorsque vous avez terminé.
 
-## <a name="change-an-existing-resource-account-to-use-a-teams-phone-resource-account-license"></a>Modifier un compte de ressource existant pour utiliser une licence de compte de ressource téléphone Teams
-Pour basculer les licences de votre compte de ressources existant d’une licence **Téléphonie Teams standard** vers une licence **de compte de ressource Téléphonie Microsoft Teams**, vous devez acquérir la licence **de compte de ressource téléphone Teams**, puis suivre les étapes décrites dans le Centre d'administration Microsoft 365 [déplacer les utilisateurs vers un autre abonnement](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
+## <a name="change-an-existing-resource-account-to-use-a-microsoft-teams-phone-resource-account-license"></a>Modifier un compte de ressource existant pour utiliser une licence de compte de ressource Téléphonie Microsoft Teams
+
+Pour basculer les licences de votre compte de ressources existant d’une licence **Téléphonie Teams standard** à une licence **de compte de ressource Téléphonie Microsoft Teams**, vous devez acquérir la licence **de compte** de ressource Téléphonie Microsoft Teams, puis suivre les étapes décrites dans le Centre d'administration Microsoft 365 [déplacer les utilisateurs vers un autre abonnement](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
-> Supprimez toujours une licence Téléphonie Teams standard complète et attribuez la licence **de compte de ressource Téléphonie Microsoft Teams** dans la même activité de licence. Si vous supprimez l’ancienne licence, enregistrez les modifications du compte, ajoutez la nouvelle licence, puis enregistrez à nouveau les paramètres du compte, le compte de ressource risque de ne plus fonctionner comme prévu. Dans ce cas, nous vous recommandons de créer un compte de ressource pour la licence **de compte de ressource Téléphonie Microsoft Teams** et de supprimer le compte de ressource rompu.
+> Supprimez toujours une licence **Téléphonie Teams standard** et attribuez la licence **de compte de ressource Téléphonie Microsoft Teams** dans la même activité de licence. Si vous supprimez l’ancienne licence, enregistrez les modifications du compte, ajoutez la nouvelle licence, puis enregistrez à nouveau les paramètres du compte, le compte de ressource risque de ne plus fonctionner comme prévu. Dans ce cas, nous vous recommandons de créer un compte de ressource pour la licence **de compte de ressource Téléphonie Microsoft Teams** et de supprimer le compte de ressource rompu.
 
 ## <a name="skype-for-business-server-2019"></a>Skype Entreprise Server 2019
 
@@ -74,7 +75,7 @@ Pour les implémentations hybrides avec Skype Entreprise Server :
 
 Veillez à dissocier le numéro de téléphone du compte de ressource avant de le supprimer, afin d’éviter que votre numéro de service soit bloqué en mode en attente.
 
-Après cela, vous pouvez supprimer le compte de ressource dans le Centre d'administration Microsoft 365, sous l’onglet Utilisateurs.
+Après cela, vous pouvez supprimer le compte de ressource dans le Centre d'administration Microsoft 365, sous l’onglet **Utilisateurs**.
 
 Pour dissocier un numéro de téléphone de routage direct du compte de ressource, utilisez l’applet de commande suivante :
 
