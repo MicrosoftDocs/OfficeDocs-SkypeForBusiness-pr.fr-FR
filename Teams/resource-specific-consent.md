@@ -14,16 +14,14 @@ ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb7e4a4487a5411386978fb91a70c485bfa0ddc6
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 374cda125d688c4e38797f1afbee4ae3a55bb064
+ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912593"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "69156820"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Consentement spécifique à la ressource dans Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Le consentement spécifique aux ressources (RSC) est une intégration Microsoft Teams et Microsoft API Graph qui permet aux applications d’utiliser des points de terminaison d’API pour gérer des ressources spécifiques d’une équipe au sein de votre organisation. Les autorisations RSC permettent aux propriétaires d’équipe d’accorder le consentement à une application pour accéder aux données d’une équipe et les modifier. Le consentement spécifique aux ressources dans Microsoft Teams permet aux propriétaires d’équipe de donner leur consentement aux applications pour accéder aux données d’équipe. Ces accès incluent par exemple la possibilité de lire des messages de canal, de créer et de supprimer des canaux, ainsi que de créer et supprimer des onglets de canal.
 
@@ -49,7 +47,7 @@ Ce paramètre contrôle si les utilisateurs de votre organisation peuvent donner
 
 Vous pouvez également gérer ce paramètre à l’aide de PowerShell. Pour plus d’informations, consultez [Configurer le contenu utilisateur pour les applications](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications).
 
-#### <a name="the-enablegroupspecificconsent-setting"></a>Paramètre « EnableGroupSpecificConsent »
+#### <a name="control-to-let-group-owners-consent-to-apps-that-access-company-data"></a>Contrôle permettant aux propriétaires de groupe de donner leur consentement aux applications qui accèdent aux données de l’entreprise
 
 Ce paramètre contrôle si les utilisateurs de votre organisation peuvent donner leur consentement aux applications qui accèdent aux données d’entreprise pour les groupes qu’ils possèdent. Ce paramètre doit être activé pour que les propriétaires d’équipe donnent leur consentement. Pour savoir comment gérer ce paramètre à l’aide de PowerShell, consultez [Configurer le consentement du propriétaire du groupe pour que les applications accèdent aux données de groupe](/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data).
 
