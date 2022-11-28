@@ -15,29 +15,29 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 40de55686cbdb031f3bad2bb9d3b7d8eed13cfc6
-ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
+ms.openlocfilehash: ee3a64cb37e99c6ab452e735042935ec2148e994
+ms.sourcegitcommit: 548978550d58f8657d7035b57b736e9cf9b15984
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69147441"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "69163234"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Intégrations du centre de contacts pour Microsoft Teams
 
-  Cet article fournit une vue d’ensemble de la façon dont les solutions de centre de contacts peuvent être intégrées à Microsoft Teams et aux fournisseurs de solutions participant au programme de certification du centre de contacts connecté Microsoft Teams.
+  Cet article fournit une vue d’ensemble de la façon dont les solutions de centre de contacts peuvent être intégrées à Microsoft Teams et aux fournisseurs de solutions participant au programme de certification Microsoft Centre de contacts connecté Teams.
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Qu’est-ce que l’intégration du centre de contacts pour Microsoft Teams ?
 
-Microsoft Teams prend en charge les flux de travail d’interaction client en agissant en tant que hub pour les connexions client internes et externes sur ses modes de communication, y compris la conversation, les réunions vidéo et les appels. Pour certaines organisations, les [fonctionnalités vocales cloud](./cloud-voice-landing-page.md) de Microsoft Teams, notamment le [standard automatique](./what-are-phone-system-auto-attendants.md) et [les files d’attente d’appels](./create-a-phone-system-call-queue.md), répondent à leurs besoins.
+Microsoft Teams prend en charge les flux de travail d’interaction client en agissant en tant que hub pour la connexion interne et externe des clients dans ses modes de communication, y compris la conversation, les réunions vidéo et les appels. Pour certaines organisations, Microsoft [les fonctionnalités vocales cloud](./cloud-voice-landing-page.md) de Teams, notamment le [standard automatique](./what-are-phone-system-auto-attendants.md) et [les files d’attente d’appels](./create-a-phone-system-call-queue.md), répondent à leurs besoins.
 
 Pour les organisations qui souhaitent des solutions avec des outils métier et des flux de travail pour piloter le parcours client, l’intégration du centre de contacts pour Microsoft Teams permet aux fournisseurs de solutions centre de contacts en tant que service (CCaaS) d’intégrer leurs solutions dans Teams.
 
 
-## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Centre de contacts connecté pour le programme de certification Microsoft Teams
+## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Centre de contacts connecté pour Microsoft programme de certification Teams
 
-Le programme de certification Centre de contacts connecté pour Microsoft Teams vérifie que la solution de chaque fournisseur participant fournit la qualité, la compatibilité et la fiabilité qu’ils attendent des solutions Microsoft.
+Le programme de certification connected contact center for Microsoft Teams vérifie que la solution de chaque fournisseur participant offre la qualité, la compatibilité et la fiabilité qu’ils attendent de Microsoft solutions.
 
-Si vous êtes une organisation à la recherche d’une solution de centre de contacts intégrée, consultez [Solutions Microsoft Teams certifiées pour les centres de contacts](https://cloudpartners.transform.microsoft.com/contact-center-solutions) pour obtenir la liste des fournisseurs de solutions certifiés, et consultez [Solutions de centre de contacts connectés](#connected-contact-center-solutions) pour obtenir la liste des fournisseurs en cours de certification.
+Si vous êtes une organisation à la recherche d’une solution de centre de contacts intégrée, consultez [Solutions certifiées Microsoft Teams pour les centres de contacts](https://cloudpartners.transform.microsoft.com/contact-center-solutions) pour obtenir la liste des fournisseurs de solutions certifiés, et consultez [Solutions de centre de contacts connectés](#connected-contact-center-solutions) pour obtenir la liste des fournisseurs en cours de certification.
 
 Si vous êtes un fournisseur qui cherche à rejoindre le programme de certification, remplissez [ce formulaire](https://aka.ms/CallingPlatformIntake) à l’étape suivante. Si vous avez besoin de fournir un contexte et des détails supplémentaires, envoyez un e-mail à [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
 
@@ -78,7 +78,7 @@ Les fournisseurs suivants proposent des solutions de centre de contacts intégr�
 | `CentrePal` | https://www.centrepal.com/                                 |
 | `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html                                |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
-| `Evolove IP` | https://www.evolveip.net/contact-center   |
+| `Evolve IP` | https://www.evolveip.net/contact-center   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
 | `Heedify` | https://heedify.io/call-center/                                                 |
