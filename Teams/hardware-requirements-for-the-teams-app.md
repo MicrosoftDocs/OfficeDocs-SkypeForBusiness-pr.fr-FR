@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bd04b590a789756d0b41153b886be8ba6d777e7
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: 3de0ed17ceee33106e3281707d90427569558922
+ms.sourcegitcommit: 75b29de261b4de652c7f2e89da4ad7158da773f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68928504"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "69183013"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Configuration matérielle requise pour Microsoft Teams
 
@@ -44,7 +44,7 @@ Toutes les conditions requises dans les sections suivantes s’appliquent à la 
 |Version de .NET    |  Requiert .NET 4.5 CLR ou version ultérieure.       |
 |Vidéo    |  Caméra vidéo USB 2.0       |
 |Appareils    |   Caméra d’ordinateur portable standard, microphone et haut-parleurs    |
-|Appels vidéo et réunions|<ul><li>Nécessite un processeur à deux cœurs. Pour une résolution de partage vidéo/d’écran et une fréquence d’images plus élevées, il est recommandé d’utiliser un processeur à quatre cœurs ou mieux.</li> <li>Les effets vidéo d’arrière-plan nécessitent Windows 10 ou un processeur avec le jeu d’instructions AVX2.</li> <li>Consultez l’article [Recommandations relatives au pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs non pris en charge.</li><li>La participation à une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams nécessite bluetooth LE. Bluetooth LE sur Windows nécessite l’activation du Bluetooth sur l’appareil client et la version 64 bits du client Teams. Cette fonctionnalité n’est pas disponible sur les clients Teams 32 bits.</li></ul> |
+|Appels vidéo et réunions|<ul><li>Nécessite un processeur à deux cœurs. Pour une résolution de partage vidéo/d’écran et une fréquence d’images plus élevées, il est recommandé d’utiliser un processeur à quatre cœurs ou mieux.</li> <li>Les effets vidéo d’arrière-plan nécessitent Windows 10 ou un processeur avec le jeu d’instructions AVX2.</li> <li>Consultez l’article [Recommandations relatives au pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs non pris en charge.</li><li>La participation à une réunion à l’aide de la détection de proximité dans Salles Microsoft Teams nécessite bluetooth LE. Bluetooth LE sur Windows nécessite l’activation du Bluetooth sur l’appareil client et la version 64 bits du client Teams. Cette fonctionnalité n’est pas disponible sur les clients Teams 32 bits.</li></ul> |
 |Événements en direct Teams | Si vous générez des événements en direct Teams, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur Kaby Lake Core i5, d’une RAM de 4,0 Go (ou plus) et d’un codeur matériel. Consultez l’article [Recommandations relatives au pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs **non pris en charge**. |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Configuration matérielle requise pour Teams sur Mac

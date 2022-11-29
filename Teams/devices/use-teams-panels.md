@@ -1,5 +1,5 @@
 ---
-title: Comment utiliser les appareils de panneaux Microsoft Teams
+title: Comment utiliser Microsoft appareils de panneaux Teams
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -17,22 +17,22 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Cet article fournit des conseils sur l’utilisation des appareils de panneau Teams.
-ms.openlocfilehash: fff3df797e043b83662aacc9a67ef1af45b733a4
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+ms.openlocfilehash: b5dbe92b1c2c3f08683ca58a403fdbb4e318efca
+ms.sourcegitcommit: 75b29de261b4de652c7f2e89da4ad7158da773f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801775"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "69183003"
 ---
-# <a name="how-to-use-microsoft-teams-panels"></a>Comment utiliser les panneaux Microsoft Teams
+# <a name="how-to-use-microsoft-teams-panels"></a>Comment utiliser Microsoft panneaux Teams
 
-Les panneaux Microsoft Teams sont des appareils d’affichage numérique compacts qui sont montés juste à l’extérieur de vos espaces de réunion, généralement à côté des entrées. Ces panneaux tactiles sont des appareils Microsoft Teams dédiés qui fournissent un aperçu de votre espace de réunion et de la réunion planifiée. Avec les voyants codés en couleur vibrante et les indicateurs d’écran d’accueil, vous pouvez déterminer si l’espace est disponible ou réservé à distance. Vous pouvez utiliser des panneaux Teams pour réserver un espace de réunion disponible pour une réunion ad hoc, sur place.
+Microsoft les panneaux Teams sont des appareils d’affichage numérique compacts qui sont montés juste à l’extérieur de vos espaces de réunion, généralement à côté des entrées. Ces panneaux d’écran tactile sont dédiés Microsoft appareils Teams qui fournissent un aperçu de votre espace de réunion et de la réunion planifiée. Avec les voyants codés en couleur vibrante et les indicateurs d’écran d’accueil, vous pouvez déterminer si l’espace est disponible ou réservé à distance. Vous pouvez utiliser des panneaux Teams pour réserver un espace de réunion disponible pour une réunion ad hoc, sur place.
 
 Les appareils de panneaux Teams sont préinstallés avec Microsoft Teams et affichent les détails des réunions planifiées via les calendriers Outlook ou Teams.
 
 Cet article fournit des conseils aux utilisateurs finaux et aux administrateurs sur l’utilisation des appareils du panneau Teams. Il fournit également des réponses aux [questions fréquemment posées](#frequently-asked-questions) sur l’utilisation de ces appareils.
 
-Pour obtenir une vue d’ensemble des appareils de panneaux et des conseils sur la façon de les planifier, de les livrer et de les gérer dans votre organisation, consultez [Déployer les panneaux Microsoft Teams](teams-panels.md).
+Pour obtenir une vue d’ensemble des appareils de panneaux et des conseils sur la façon de les planifier, de les livrer et de les gérer dans votre organisation, consultez [Déployer Microsoft panneaux Teams](teams-panels.md).
 
 Pour un démarrage rapide, consultez les [panneaux Prise en main de Teams](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be).
 
@@ -125,7 +125,7 @@ La vignette de droite sur l’écran d’accueil s’affiche désormais en viole
     :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Écran d’accueil montrant que l’espace de réunion est réservé pour une réunion ad hoc.":::
 
     > [!NOTE]
-    > Si l’espace de réunion est une salle Microsoft Teams, vous pouvez _participer à_ cette réunion Teams avec les appareils Salle Microsoft Teams ou Surface Hub dans la salle.
+    > Si l’espace de réunion est un Microsoft Salle Teams, vous pouvez _participer à_ cette réunion Teams avec les appareils dans la salle Microsoft Salle Teams ou Surface Hub.
 
 ### <a name="report-a-problem"></a>Signaler un problème
 
@@ -200,15 +200,18 @@ Sur le écran Teams, connectez-vous à l’aide de vos informations d’identifi
 
 Les paramètres d’archivage et de mise en production de salle permettent aux utilisateurs de s’enregistrer à une réunion sur les panneaux Teams dans la salle qu’ils ont réservée au début de la réunion. Si un utilisateur ne s’archive pas dans un délai défini après l’heure de début de la réunion, la salle est libérée et devient disponible pour que d’autres utilisateurs puissent réserver.
 
-Lorsque les panneaux Teams sont associés à une salle Microsoft Teams sur Android, les notifications d’archivage peuvent être activées pour apparaître sur l’affichage en face de la salle lorsque les réunions s’exécutent en retard.
+Lorsque les panneaux Teams sont associés à un Microsoft Salle Teams sur Android, les notifications d’archivage peuvent être activées pour apparaître sur l’affichage en face de la salle lorsque les réunions s’exécutent en retard.
 
-Pour activer l’enregistrement et la mise en production de salle, consultez [Archivage et publication de salle sur les panneaux Microsoft Teams](check-in-and-room-release.md).
+Pour activer l’enregistrement et la mise en production de salle, consultez [Archivage et publication de salle sur Microsoft panneaux Teams](check-in-and-room-release.md).
 
 #### <a name="enable-or-disable-check-out-manual-room-release"></a>Activer ou désactiver l’extraction (mise en production manuelle de salle)
 
 Lorsque l’extraction est activée, les utilisateurs finaux peuvent utiliser une écran Teams pour libérer manuellement une salle. La libération d’une salle met fin à la réservation actuelle et rend la salle disponible pour que d’autres personnes puissent la planifier.
 
 Cette fonctionnalité est désactivée par défaut, mais elle peut être activée par appareil. Pour activer la fonctionnalité, accédez à **Paramètres > Paramètres de l’appareil > paramètres d’administration Teams > Réunions** , puis activez **Extraire**.
+
+> [!NOTE]
+> Si une salle est libérée avant la fin d’une réservation planifiée, l’organisateur reçoit un e-mail de la salle qui la refuse. Cela se produit parce que la salle supprime la réservation de son calendrier afin qu’elle puisse être réservée par d’autres utilisateurs. Le message refusant la réservation peut être ignoré.
 
 > [!NOTE]
 > Un écran Teams ne peut pas être utilisé pour libérer une salle si l’appareil salles Teams avec lequel elle est jumelée est en cours d’appel.
