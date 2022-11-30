@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et périphériques USB (tels que les casques, les haut-parleurs, les webcams et les moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 8a6fdacd8f4599c81e4c915ac178a9d07debb43b
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: dcee4b84795ad825ccbd81ef30f3f44b745cfb82
+ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738620"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69194935"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Appareils audio et vidéo USB certifiés pour Microsoft Teams
 
@@ -36,10 +36,10 @@ Pour plus d’informations sur la prise en charge du contrôle d’appel avec Te
 
 ## <a name="understanding-certification-categories"></a>Présentation des catégories de certification
 
-Les utilisateurs n’ont pas besoin de remplacer des appareils précédemment certifiés lors de la mise à niveau vers Teams à partir de Skype Entreprise.  Tous les appareils certifiés sont pris en charge pour Microsoft Teams et Skype Entreprise utilisateurs, avec seulement quelques différences.  La certification fournit également une désignation supplémentaire pour certaines catégories d’appareils.
+Les utilisateurs n’ont pas besoin de remplacer des appareils précédemment certifiés lors de la mise à niveau vers Teams à partir de Skype Entreprise.  Tous les appareils certifiés sont pris en charge pour les utilisateurs Microsoft Teams et Skype Entreprise, à quelques différences près.  La certification fournit également une désignation supplémentaire pour certaines catégories d’appareils.
 
 - **Skype Entreprise certifiés avec la mise à niveau Teams** Les appareils certifiés à ce niveau ont été initialement certifiés pour Skype Entreprise. Microsoft a travaillé avec les fabricants d’appareils pour offrir la meilleure expérience d’intégration Teams possible sans aucune modification du matériel d’origine. Le bouton *hookswitch* agit comme un bouton Teams lorsqu’il n’est pas dans un appel et peut inclure davantage de fonctions au fil du temps.  Les appareils de cette catégorie peuvent porter le badge de certification Teams sur les supports marketing.
-- **Certifié pour Microsoft Teams** Les appareils certifiés à ce niveau indiquent les appareils les plus récents certifiés, pour une expérience Teams sans compromis. Ces appareils offrent tous les avantages d’une certification antérieure et incluent également un bouton Teams dédié avec indicateur LED. Avec la plupart des facteurs de forme, le bouton Teams est un bouton tactile facile à trouver avec le logo Teams. Microsoft continue de travailler avec les fabricants d’appareils pour fournir une nouvelle valeur via des mises à jour de microprogramme au fil du temps.
+- **Certifiés pour Microsoft Les appareils Teams** certifiés à ce niveau indiquent les appareils les plus récents certifiés, pour une expérience Teams sans compromis. Ces appareils offrent tous les avantages d’une certification antérieure et incluent également un bouton Teams dédié avec indicateur LED. Avec la plupart des facteurs de forme, le bouton Teams est un bouton tactile facile à trouver avec le logo Teams. Microsoft continue de travailler avec les fabricants d’appareils pour fournir une nouvelle valeur via des mises à jour de microprogramme au fil du temps.
 
 ### <a name="special-usage-designations"></a>Désignations d’utilisation spéciales
 
@@ -88,6 +88,7 @@ Si vous êtes un fabricant et que vous souhaitez rejoindre le programme de certi
 
 | Fabricant        | Modèle                                                     | Qualifié      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |Casque ADAPT 561 II                                       |10/20/2022      |Certifié pour Microsoft Teams                           |
 |Jabra                |Evolve2 Buds                                               |10/17/2022      |Certifié pour Microsoft Teams                           |
 |Cisco                |Appareil photo de bureau 4K                                             |10/15/2022      |Certifié pour Microsoft Teams                           |
 |EPOS                 |EXPAND Vision 1/S6                                         |10/13/2022      |Certifié pour Microsoft Teams                           |
@@ -132,7 +133,7 @@ Si vous êtes un fabricant et que vous souhaitez rejoindre le programme de certi
 |Poly                 |Voyager 4310                                               |8/6/2021        |Certifié pour Microsoft Teams                           |
 |EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |Certifié pour Microsoft Teams                           |
 |Dell                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |Certifié pour Microsoft Teams                           |
-|Nec                  |Affichage de collaboration Windows WD551                        |5/21/2021       |Certifié pour Microsoft Teams                           |
+|NEC                  |Affichage de collaboration Windows WD551                        |5/21/2021       |Certifié pour Microsoft Teams                           |
 |Poly                 |EncorePro 520 et DA85-M                                   |4/26/2021       |Certifié pour Microsoft Teams                           |
 |Poly                 |EncorePro 510 et DA85-M                                   |4/26/2021       |Certifié pour Microsoft Teams                           |
 |Poly                 |EncorePro 525-M                                            |4/26/2021       |Certifié pour Microsoft Teams                           |
