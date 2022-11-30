@@ -21,15 +21,15 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 - seo-marvel-apr2020
-description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Que Microsoft Teams produise les meilleurs résultats.
-ms.openlocfilehash: 06d5f81b830115d775a2237f7758d3f7ec62be18
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams afin de produire les meilleurs résultats.
+ms.openlocfilehash: ca060d9f077d9f79b9e8d02bea49002d321aae6b
+ms.sourcegitcommit: 167868ad6fc02676cfdade5d498e7c4e09778bec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131143"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69190325"
 ---
-# <a name="microsoft-teams-certified-android-devices"></a>Appareils Android certifiés Microsoft Teams
+# <a name="microsoft-teams-certified-android-devices"></a>appareils Android certifiés Microsoft Teams
 
 Le programme de certification des appareils Microsoft Teams garantit que les appareils certifiés répondent à des normes élevées, avec des objectifs de performances et des métriques de qualité plus élevés sur l’ensemble de l’expérience Teams (audio, vidéo, interface utilisateur). Microsoft et les partenaires OEM collaborent activement pour garantir que les appareils répondent à toutes les exigences de certification, notamment la sécurité, la qualité audio et vidéo, l’expérience Teams et l’accessibilité.
 
@@ -40,7 +40,7 @@ Le programme de certification des appareils Microsoft Teams garantit que les app
 
 Les programmes de certification sont conçus pour garantir que tous les appareils certifiés exécutent une version Android avec les fonctionnalités requises pour Teams et le centre d’administration Teams. Les dates de fin de certification sont basées sur la version du système d’exploitation Android exécutée sur l’appareil lorsqu’il entre dans le programme de certification. Nos partenaires OEM travaillent à prolonger la durée de vie de la certification en mettant à niveau la version du système d’exploitation Android et en recertifiant, ou en publiant de nouveaux modèles à la pointe de la technique.
 
-Au-delà de la période de certification, Microsoft s’engage à prendre en charge la version la plus récente du client Teams sur ces appareils pendant deux ans après la fin de la période de certification.
+Au-delà de la période de certification, Microsoft s’engage à faire des efforts pour prendre en charge la version la plus récente du client Teams sur ces appareils pendant deux ans après la fin de la période de certification.
 
 >[!NOTE]
 >Les dates de fin de certification seront régulièrement mises à jour en fonction des plans des partenaires OEM pour la mise à niveau vers une version plus récente du système d’exploitation Android.
@@ -105,7 +105,7 @@ Les appareils suivants sont certifiés dans le cadre du programme de certificati
 
 ## <a name="certified-teams-displays"></a>Affichages Teams certifiés
 
-Les appareils suivants sont certifiés dans le cadre du programme de certification Microsoft Teams Affiche Android :
+Les appareils suivants sont certifiés dans le cadre du programme de certification Android Microsoft Teams Affiche :
 
 | Modèle d’appareil | Version du microprogramme | Date de fin de la certification actuelle  | Version du système d’exploitation Android |
 |:------------------------|:-----------------|:--------------|----------------------------------|
@@ -132,7 +132,7 @@ Voici les dernières versions des microprogrammes et des applications téléphon
 
 #### <a name="app-versions"></a>Versions de l’application
 
-| Version du produit | Date de publication  | Version de l’application Microsoft Teams | version Portail d'entreprise | version de l’agent Administration |
+| Version du produit | Date de publication  | Microsoft version de l’application Teams | version Portail d'entreprise | version de l’agent Administration |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
 | Mise à jour 2022 #4  | 22 septembre 2022| `1449/1.0.94.2022090705` |`5.0.5484.0` | `361` |
 | Mise à jour 2022 #3A| 13 juillet 2022   | `1449/1.0.94.2022062103` |`5.0.5304.0` | `322` |
@@ -252,9 +252,9 @@ Lorsque vous installez une nouvelle version de microprogramme sur votre appareil
 | Yealink VP59        | `91.15.0.54`         | Mise à jour 2020 #7           |
 | Yealink CP960       | `73.15.0.115`      | Mise à jour 2020 #7           |
 
-Pour plus d’informations sur les fonctionnalités prises en charge par ces appareils, consultez Ensemble de fonctionnalités des [téléphones Microsoft Teams](phones-for-teams.md) .
+Pour [plus d’informations sur les](phones-for-teams.md) fonctionnalités prises en charge par ces appareils, consultez Microsoft ensemble de fonctionnalités des téléphones Teams.
 
-Voir [Affichages De Microsoft Teams](teams-displays.md).
+Voir [Microsoft Affichages Teams](teams-displays.md).
 
 ### <a name="product-release-information-for-teams-rooms-on-android"></a>Informations sur la version du produit pour salles Teams sur Android
 
@@ -262,7 +262,7 @@ Voici les dernières salles Teams sur les versions de microprogramme et d’appl
 
 #### <a name="app-versions"></a>Versions de l’application
 
-| Version du produit| Date de publication | Version de l’application Microsoft Teams | version Portail d'entreprise | version de l’agent Administration |
+| Version du produit| Date de publication | Microsoft version de l’application Teams | version Portail d'entreprise | version de l’agent Administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 | Mise à jour 2022 #2B  | 15 septembre 2022 |`1449/1.0.96.2022090606`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Mise à jour 2022 #2A  | 8 août 2022 |`1449/1.0.96.2022072103`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
@@ -278,7 +278,7 @@ Voici les dernières salles Teams sur les versions de microprogramme et d’appl
 
 #### <a name="firmware-versions"></a>Versions du microprogramme
 
-Lorsque vous installez une nouvelle version de microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, Portail d'entreprise et Administration Agent, qui sont installées en recherchant la version du produit dans la colonne **Version de produit incluse**. Recherchez ensuite la version du produit dans le tableau **Versions d’application** ci-dessus.
+Lorsque vous installez une nouvelle version de microprogramme sur votre appareil, vous pouvez déterminer les versions de l’application Teams Microsoft, Portail d'entreprise et Administration Agent qui sont installées en recherchant la version du produit dans la colonne Version de **produit incluse**. Recherchez ensuite la version du produit dans le tableau **Versions d’application** ci-dessus.
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse |
 |:--------------|:-----------------|:-------------------------|
@@ -287,10 +287,14 @@ Lorsque vous installez une nouvelle version de microprogramme sur votre appareil
 | Logi RoomMate  | `1.7.202`   | Mise à jour 2022 #2B  |
 | Logi Console  | `1.7.200`    | Mise à jour 2022 #2B  |
 | EPOS EXPAND Vision 3T |`1.5.22242.02`   | Mise à jour 2022 U2A |
+| Yealink MeetingBoard 65 » | `155.15.0.17 `   | Mise à jour 2022 #2B  |
 | Yealink MeetingBoard 65 » | `155.15.0.10 `   | Mise à jour 2022 #2A  |
 | Poly Studio X30 | `3.13.0.368067` | Mise à jour 2022 #2A   |
 | Poly Studio X50 | `3.13.0.368067` | Mise à jour 2022 #2A |
 | Poly TC8        | `3.13.0.210799`          | Mise à jour 2022 #2A   |
+| Yealink MeetingBar A20 | `133.310.0.44 `   | Mise à jour 2022 #2B  |
+| Yealink MeetingBar A30 | `133.310.0.44 `   | Mise à jour 2022 #2B  |
+| Yealink CTP18 | `137.310.0.12`   | Mise à jour 2022 #2B  |
 | Yealink MeetingBar A20 | `133.310.0.25 `   | Mise à jour 2022 #2A  |
 | Yealink MeetingBar A30 | `133.310.0.25 `   | Mise à jour 2022 #2A  |
 | Yealink CTP18 | `137.15.0.80`   | Mise à jour 2022 #2A  |
@@ -361,11 +365,11 @@ Lorsque vous installez une nouvelle version de microprogramme sur votre appareil
 
 ### <a name="product-release-information-for-teams-displays"></a>Informations sur la version du produit pour les affichages Teams
 
-Voici les dernières versions de l’application et du microprogramme Microsoft Teams Displays.
+Vous trouverez ci-dessous les dernières versions Microsoft Teams Affiche les applications et les microprogrammes.
 
 #### <a name="app-versions"></a>Versions de l’application
 
-|Version du produit| Date de publication | Version de l’application Microsoft Teams | version Portail d'entreprise | version de l’agent Administration |
+|Version du produit| Date de publication | Microsoft version de l’application Teams | version Portail d'entreprise | version de l’agent Administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 |Mise à jour 2022 #1  |14 novembre 2022 |`1449/1.0.95.2022102603`    |`5.0.5484.0`            |  `1.0.0.202205230848.product (361)` |
 |Mise à jour 2021 #4  |5 janvier 2022 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)` |
@@ -376,7 +380,7 @@ Voici les dernières versions de l’application et du microprogramme Microsoft 
 
 #### <a name="firmware-versions"></a>Versions du microprogramme
 
-Lorsque vous installez une nouvelle version de microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, Portail d'entreprise et Administration Agent, qui sont installées en recherchant la version du produit dans la colonne **Version de produit incluse**. Recherchez ensuite la version du produit dans le tableau **Versions d’application** ci-dessus.
+Lorsque vous installez une nouvelle version de microprogramme sur votre appareil, vous pouvez déterminer les versions de l’application Teams Microsoft, Portail d'entreprise et Administration Agent qui sont installées en recherchant la version du produit dans la colonne Version de **produit incluse**. Recherchez ensuite la version du produit dans le tableau **Versions d’application** ci-dessus.
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse|
 |:--------------|:-----------------|:-------------------------|
@@ -388,11 +392,11 @@ Lorsque vous installez une nouvelle version de microprogramme sur votre appareil
 
 ### <a name="product-release-information-for-teams-panels"></a>Informations sur la version du produit pour les panneaux Teams
 
-Voici les dernières versions du microprogramme et de l’application Panneaux Microsoft Teams.
+Vous trouverez ci-dessous les dernières versions Microsoft de l’application Teams Panels et du microprogramme.
 
 #### <a name="app-versions"></a>Versions de l’application
 
-|Version du produit| Date de publication | Version de l’application Microsoft Teams | version Portail d'entreprise | version de l’agent Administration |
+|Version du produit| Date de publication | Microsoft version de l’application Teams | version Portail d'entreprise | version de l’agent Administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 |Mise à jour 2022 #3A  | 16 septembre 2022 | `1449/1.0.97.2022739908` | `5.0.5304.0`  | `322` |
 |Mise à jour 2022 #3  | 12 juillet 2022 | `1449/1.0.97.2022739901` | `5.0.5304.0`  | `322` |
@@ -403,7 +407,7 @@ Voici les dernières versions du microprogramme et de l’application Panneaux M
 
 #### <a name="firmware-versions"></a>Versions du microprogramme
 
-Lorsque vous installez une nouvelle version de microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, Portail d'entreprise et Administration Agent, qui sont installées en recherchant la version du produit dans la colonne **Version de produit incluse**. Recherchez ensuite la version du produit dans le tableau **Versions d’application** ci-dessus.
+Lorsque vous installez une nouvelle version de microprogramme sur votre appareil, vous pouvez déterminer les versions de l’application Teams Microsoft, Portail d'entreprise et Administration Agent qui sont installées en recherchant la version du produit dans la colonne Version de **produit incluse**. Recherchez ensuite la version du produit dans le tableau **Versions d’application** ci-dessus.
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse|
 |:--------------|:-----------------|:-------------------------|
@@ -426,16 +430,16 @@ Lorsque vous installez une nouvelle version de microprogramme sur votre appareil
 
 ## <a name="more-resources"></a>Autres ressources
 
-Pour plus d’informations sur les fonctionnalités prises en charge par ces appareils, consultez Ensemble de fonctionnalités des [téléphones Microsoft Teams](phones-for-teams.md) .
+Pour [plus d’informations sur les](phones-for-teams.md) fonctionnalités prises en charge par ces appareils, consultez Microsoft ensemble de fonctionnalités des téléphones Teams.
 
 Consultez [Recherche de la version du microprogramme sur un appareil mobile](phones-for-teams.md) pour déterminer la version du microprogramme de l’appareil sur votre appareil mobile.
 
-Les licences Microsoft Teams peuvent être achetées dans le cadre [d’abonnements Microsoft 365 ou Office 365](/office365/servicedescriptions/teams-service-description). Pour en savoir plus sur les licences requises pour l’utilisation de Microsoft Teams sur les téléphones, consultez [Licences de système téléphonique](https://products.office.com/microsoft-teams/voice-calling) disponibles.
+Microsoft licences Teams peuvent être achetées dans le cadre [d’abonnements Microsoft 365 ou Office 365](/office365/servicedescriptions/teams-service-description). Pour en savoir plus sur les licences requises pour l’utilisation de Microsoft Teams sur les téléphones, consultez [Licences de système téléphonique](https://products.office.com/microsoft-teams/voice-calling) disponibles.
 
 Pour plus d’informations sur l'obtention de Teams, consultez [Comment obtenir l’accès à Microsoft Teams ?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 Si vous êtes un fournisseur qui cherche à rejoindre le programme de certification, consultez [La procédure d’adhésion](/skypeforbusiness/certification/how-to-join) pour connaître les exigences et les programmes disponibles.
 
-[Explorez les téléphones Microsoft Teams et les appareils certifiés.](https://products.office.com/microsoft-teams/across-devices/devices)
+[Explorez Microsoft téléphones teams et les appareils certifiés.](https://products.office.com/microsoft-teams/across-devices/devices)
 
 [Interopérabilité entre Teams et Skype](../teams-skype-interop.md)
