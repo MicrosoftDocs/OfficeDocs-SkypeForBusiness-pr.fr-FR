@@ -1,5 +1,5 @@
 ---
-title: Affecter des propriétaires et des membres d’équipe dans le Centre d’administration Microsoft Teams
+title: Affecter des propriétaires et des membres d’équipe dans Microsoft Centre d’administration Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -12,20 +12,21 @@ description: Découvrez comment assigner des rôles et des autorisations de prop
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0f259a7a24552988d4eca503deeb9151dde144d
-ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
+ms.openlocfilehash: b25a5d654e4bd7a807918aa86e0bfd52aff2ca04
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "69019410"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198756"
 ---
-# <a name="assign-team-owners-and-members-in-microsoft-teams-admin-center"></a>Affecter des propriétaires et des membres d’équipe dans le Centre d’administration Microsoft Teams
+# <a name="assign-team-owners-and-members-in-microsoft-teams-admin-center"></a>Affecter des propriétaires et des membres d’équipe dans Microsoft Centre d’administration Teams
 
-**Propriétaire** et **membre** sont les deux rôles d’utilisateur au sein de Microsoft Teams. L’utilisateur qui crée une équipe se voit accorder le statut de propriétaire par défaut. Les propriétaires et les membres ont différents types d’autorisations et de fonctionnalités lors de l’interaction avec une équipe et ses canaux. Consultez [Vue d’ensemble des équipes et des canaux dans Microsoft Teams](teams-channels-overview.md) pour en savoir plus sur les rôles dans Teams.
+**Propriétaire** et **membre** sont les deux rôles d’utilisateur dans Microsoft Teams. L’utilisateur qui crée une équipe se voit accorder le statut de propriétaire par défaut. Les propriétaires et les membres ont différents types d’autorisations et de fonctionnalités lors de l’interaction avec une équipe et ses canaux. Consultez [Vue d’ensemble des équipes et des canaux dans Microsoft Teams](teams-channels-overview.md) pour en savoir plus sur les rôles dans Teams.
 
 > [!NOTE]
 > Si une équipe est créée à partir d’un groupe Microsoft 365 existant, les autorisations sont héritées.
@@ -38,7 +39,7 @@ ms.locfileid: "69019410"
 
 ## <a name="restrict-permission-to-create-teams"></a>Restreindre l’autorisation de créer des équipes
 
-Tous les utilisateurs disposant d’une boîte aux lettres dans Exchange Online disposent des autorisations nécessaires pour créer des groupes Microsoft 365 et une équipe dans Microsoft Teams. Empêchez les utilisateurs de créer des équipes et des groupes Microsoft 365 en déléguant des droits de création et de gestion de groupe à un ensemble d’utilisateurs. Si cette restriction est active, ni les propriétaires d’équipe ni les membres ne peuvent créer de nouvelles équipes. Si vous souhaitez en savoir plus, consultez l’article [Gérer qui peut créer des groupes Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+Tous les utilisateurs disposant d’une boîte aux lettres dans Exchange Online disposent des autorisations nécessaires pour créer Microsoft 365 groupes et une équipe dans Microsoft Teams. Empêchez les utilisateurs de créer des équipes et de Microsoft 365 groupes en déléguant des droits de création et de gestion de groupe à un ensemble d’utilisateurs. Si cette restriction est active, ni les propriétaires d’équipe ni les membres ne peuvent créer de nouvelles équipes. Si vous souhaitez en savoir plus, consultez l’article [Gérer qui peut créer des groupes Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 ## <a name="user-permissions-based-on-assigned-roles"></a>Autorisations utilisateur en fonction des rôles attribués
 

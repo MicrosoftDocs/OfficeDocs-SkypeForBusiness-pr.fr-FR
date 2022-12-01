@@ -8,7 +8,9 @@ ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
 description: Découvrez les États de présence dans Teams et les paramètres administratifs de la fonctionnalité Présence.
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- chat-teams-channels-revamp
 ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
@@ -17,12 +19,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b28dfccd79c99d633d56480963f06632cd758ae
-ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
+ms.openlocfilehash: 2f2969af142828ca5d478f29f2afee319ada91b7
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67283095"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198586"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
@@ -47,11 +49,11 @@ La présence fait partie du profil d’un utilisateur dans Microsoft Teams (et d
 || ![Un cercle rouge ouvert indique Occupé](media/Presence_Busy_OOF.png) Au téléphone, absent du bureau|
 |  ![Un cercle rouge avec une ligne blanche indique Ne pas déranger.](media/Presence_DND.png) Ne pas déranger ||
 || ![Un cercle rouge avec une ligne blanche indique En cours de présentation.](media/Presence_DND.png) Présentation|
-|| ![Un cercle rouge avec une ligne blanche indique un Travail individuel en cours](media/Presence_DND.png) Ne pas déranger (travail individuel). Le travail individuel se produit lorsque les utilisateurs planifient un temps de travail individuel dans MyAnalytics/Insights de leur calendrier.|
+|| ![Un cercle rouge avec une ligne blanche indique un Travail individuel en cours](media/Presence_DND.png) Travail individuel en cours. Le travail individuel se produit lorsque les utilisateurs planifient un temps de travail individuel dans MyAnalytics/Insights de leur calendrier.|
 | ![Une icône d’horloge jaune indique l’absence.](media/Presence_Away.png) Absent(e)| ![Une icône d’horloge jaune indique l’absence.](media/Presence_Away.png) Absent(e)|
 || ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent, *heure* de Vu pour la dernière fois|
 |![Une icône d’horloge jaune indique l’absence, de retour dans quelques minutes](media/Presence_Away.png) De retour dans quelques minutes| |
-|![Un cercle gris avec un x indique un mode Hors connexion.](media/Presence_Offline.png) Apparaître Hors connexion|![Un cercle gris avec un x indique un mode Hors connexion](media/Presence_Offline.png) Hors ligne. Lorsque les utilisateurs ne sont pas connectés sur l’un de leurs appareils, ils apparaissent hors ligne. |
+|![Un cercle gris avec un x indique un mode Hors connexion.](media/Presence_Offline.png) Apparaître Hors connexion|![Un cercle gris avec un x indique un mode Hors connexion](media/Presence_Offline.png) Hors connexion.  Lorsque les utilisateurs ne sont pas connectés sur l’un de leurs appareils, ils apparaissent hors ligne. |
 || ![Un cercle gris ouvert indique un statut inconnu.](media/Presence_Unknown.png) Statut inconnu|
 || ![Un cercle violet avec une flèche indique Absent(e) du bureau.](media/Presence_OOF.png) Absent(e) du bureau. Absent(e) du bureau est utilisé lorsque vous définissez une réponse automatique. |
 
@@ -91,7 +93,7 @@ Les états configurés d’un utilisateur ont des paramètres d’expiration par
 
 Les paramètres d’administration suivants de Skype Entreprise sont différents de ceux dans Teams :
 
-- Dans Teams, le partage de présence est toujours activé pour les utilisateurs de l’organisation, sauf si le mode confidentialité est activé. En mode Confidentialité, la présence n’est pas visible par les utilisateurs externes.
+- Dans Teams, le partage de présence est toujours activé pour les utilisateurs de l’organisation, sauf si le mode de confidentialité est activé. En mode de confidentialité, la présence n’est pas visible par les utilisateurs externes.
 - Le partage de présence avec tout le monde (y compris les services fédérés) est toujours activé pour les utilisateurs de Teams. Leur liste de contacts (s'ils en avaient une dans Skype Entreprise) est visible sous **Conversation > Contacts** ou sous **Appels > Contacts**.
 - Les fonctionnalités du client Ne sont pas déranger et Autorisé à appeler sont toujours activées pour les utilisateurs Teams.
 - L'intégration du calendrier (comprend les informations d’absence du bureau et d’autres informations de calendrier) est toujours activée pour les utilisateurs lorsque Teams est intégrée à Outlook.

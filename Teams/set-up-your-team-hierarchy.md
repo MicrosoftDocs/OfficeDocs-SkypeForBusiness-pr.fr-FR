@@ -12,14 +12,15 @@ audience: admin
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: dc4e7e88e855432f17c7daed9584e20e0e4739f1
-ms.sourcegitcommit: fcbbc197e43bcd63bf95cb329df9cb52e06ee356
+ms.openlocfilehash: 93b8b06238b0f6e15ab5fac5dcb0caeece819d9e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "68842112"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198356"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurer la hiérarchie de ciblage de votre équipe
 
@@ -150,7 +151,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 ## <a name="apply-your-hierarchy"></a>Appliquer votre hiérarchie
 
 > [!NOTE]
-> Pour effectuer cette étape, vous devez utiliser les applets de commande Microsoft Teams PowerShell. Vous devez utiliser la version 4.6.0 ou ultérieure des applets de commande Microsoft Teams. Cette exigence s’applique également aux clients government Community Cloud (GCC).
+> Pour effectuer cette étape, vous devez utiliser Microsoft applets de commande PowerShell Teams. Vous devez utiliser la version 4.6.0 ou ultérieure des applets de commande Microsoft Teams. Cette exigence s’applique également aux clients government Community Cloud (GCC).
 
 Une fois que vous avez défini votre hiérarchie dans le fichier CSV de schéma, vous êtes prêt à la charger dans Teams. Pour ce faire, exécutez la commande suivante. Vous devez être administrateur général ou administrateur de service Teams pour effectuer cette étape.
 
@@ -198,11 +199,11 @@ Lors de la confirmation de la suppression, le message d’état affiche toujours
 ### <a name="install-the-teams-powershell-module"></a>Installer le module PowerShell Teams
 
 > [!IMPORTANT]
-> Pour effectuer cette étape, vous devez installer et utiliser le module PowerShell Teams à partir du [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams/). Pour savoir comment installer le module, consultez Installer le [module PowerShell Microsoft Teams](teams-powershell-install.md).
+> Pour effectuer cette étape, vous devez installer et utiliser le module PowerShell Teams à partir du [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams/). Pour savoir comment installer le module, consultez [Installer Microsoft module PowerShell Teams](teams-powershell-install.md).
 
 ### <a name="sample-script"></a>Exemple de script
 
-Le script suivant peut être utilisé pour créer les équipes et charger un fichier .csv sur votre locataire Microsoft Teams. Si vous avez une hiérarchie existante, ce script la remplace.
+Le script suivant peut être utilisé pour créer les équipes et charger un fichier .csv dans votre locataire Microsoft Teams. Si vous avez une hiérarchie existante, ce script la remplace.
 
 #### <a name="create-teams-for-a-simple-hierarchy"></a>Créer des équipes pour une hiérarchie simple
 
@@ -266,13 +267,13 @@ Error: InvalidTeamId
 Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
 ```
 
-Vérifiez que vous utilisez le TeamId correct pour l’équipe dans votre fichier CSV de schéma. TeamId doit être identique à l’ID de groupe du groupe Microsoft 365 qui l’a soutenu. Vous pouvez rechercher l’ID de groupe de l’équipe dans le Centre d’administration Microsoft Teams.
+Vérifiez que vous utilisez le TeamId correct pour l’équipe dans votre fichier CSV de schéma. TeamId doit être identique à l’ID de groupe du groupe Microsoft 365 qui l’a soutenu. Vous pouvez rechercher l’ID de groupe de l’équipe dans le centre d’administration Microsoft Teams.
 
-1. Dans le volet de navigation gauche du [Centre d’administration Microsoft Teams](https://admin.teams.microsoft.com/), accédez à **Teams** > **Gérer les équipes**.
+1. Dans le volet de navigation gauche du [centre d’administration Microsoft Teams](https://admin.teams.microsoft.com/), accédez à **Teams** > **Gérer les équipes**.
 2. Si la colonne **ID de groupe** n’est pas affichée dans la table, sélectionnez **Modifier les colonnes** dans le coin supérieur droit de la table, puis activez **l’ID de groupe**.
 3. Recherchez l’équipe dans la liste, puis recherchez l’ID de groupe.
 
-Assurez-vous que le TeamId dans votre fichier CSV de schéma correspond à l’ID de groupe affiché dans le Centre d’administration Microsoft Teams.
+Assurez-vous que le TeamId dans votre fichier CSV de schéma correspond à l’ID de groupe affiché dans le centre d’administration Microsoft Teams.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -20,16 +20,17 @@ ms.custom:
 - ms.teamsadmincenter.teamssettings.overview
 - okr_smb
 - intro-overview
+- chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5ff54577dcfd4e3845758a7ce943231cbd38d48
-ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.openlocfilehash: 1cfbda5204e9294dd202440bbcd53b343cafe96f
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "68576550"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198706"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 
@@ -45,7 +46,7 @@ Commençons par nous pencher sur la façon dont Microsoft Teams permet aux équi
 - Les **canaux** sont des sections dédiées dans une équipe pour stocker des conversations organisées par sujets, projets et disciplines spécifiques : à votre équipe de décider. Les fichiers que vous partagez dans un canal (sous l’onglet Fichiers) sont stockés dans SharePoint. Si vous souhaitez en savoir plus, consultez l’article [Interaction entre SharePoint Online et OneDrive Entreprise  et Teams](SharePoint-OneDrive-interact.md).
 
     - Les canaux sont les endroits où les conversations ont lieu et où le travail se fait réellement. Les canaux peuvent être ouverts à tous les membres de l’équipe (canaux standard), aux membres d’équipe sélectionnés ([canaux privés](private-channels.md)) ou aux personnes sélectionnées à l’intérieur et à l’extérieur de l’équipe ([canaux partagés](shared-channels.md)).
-    - Les canaux sont particulièrement utiles lorsque des applications incluant des onglets, des connecteurs et des robots y sont ajoutés, qui apportent une valeur ajoutée pour les membres de l’équipe. Pour en savoir plus, consultez [Vue d’ensemble des applications Teams](deploy-apps-microsoft-teams-landing-page.md).
+    - Les canaux sont particulièrement utiles lorsque des applications incluant des onglets, des connecteurs et des robots y sont ajoutés, qui apportent une valeur ajoutée pour les membres de l’équipe. Pour plus [d’informations, consultez Vue d’ensemble des applications Teams](deploy-apps-microsoft-teams-landing-page.md).
     
 Pour obtenir de l’aide sur l’utilisation des équipes et des canaux, consultez l’article [Teams and les canaux](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499).
 

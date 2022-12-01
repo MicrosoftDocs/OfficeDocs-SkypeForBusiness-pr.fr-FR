@@ -1,5 +1,5 @@
 ---
-title: Démarrage avec des modèles d’équipe de fabrication dans le centre d’administration
+title: Prise en main des modèles d’équipe de fabrication dans le centre d’administration
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -11,32 +11,33 @@ ms.collection:
 - M365-collaboration
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment utiliser des modèles d’équipe pour créer des structures d’équipe conçues pour les besoins de fabrication en fournissant des paramètres prédéfinis, des canaux et des applications préinstallées à l’aide du Centre d’administration.
+description: Découvrez comment utiliser des modèles d’équipe pour créer des structures d’équipe conçues pour les besoins de fabrication en fournissant des paramètres prédéfinis, des canaux et des applications préinstallées à l’aide du centre d’administration.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd2f7329e293d8b3b20747382686599d18d47bea
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 5d159605af5050b8b874fb7b1c077ce9f2d639fc
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646323"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198896"
 ---
-# <a name="use-manufacturing-team-templates-in-the-admin-center"></a>Utiliser des modèles d’équipe de fabrication dans le Centre d’administration
+# <a name="use-manufacturing-team-templates-in-the-admin-center"></a>Utiliser des modèles d’équipe de fabrication dans le centre d’administration
 
 Les modèles d’équipe vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications préinstallées.
 
-Les modèles d’équipe ont des définitions prédéfinifiées de structures d’équipe conçues autour des besoins de fabrication. Vous pouvez également étendre les modèles d’équipe pour créer des équipes adaptées à vos besoins organisationnels spécifiques.
+Les modèles d’équipe ont des définitions prédéfinies des structures d’équipe conçues en fonction des besoins de fabrication. Vous pouvez également étendre les modèles d’équipe pour créer des équipes adaptées aux besoins spécifiques de votre organisation.
 
 Dans cet article, nous présentons chacun des modèles d’équipe et vous recommandons de les utiliser.
 
-Cet article vous est destiné si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation de fabrication. Vous avez déjà déployé le service Teams dans votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire l’article [Comment déployer Microsoft Teams](./deploy-overview.md).
+Cet article est destiné à vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation de fabrication. Vous avez déjà déployé le service Teams dans votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire l’article [Comment déployer Microsoft Teams](./deploy-overview.md).
 
-Pour en savoir plus sur les modèles d’équipe en général, reportez-vous à [Démarrage avec des modèles d’équipe](get-started-with-teams-templates-in-the-admin-console.md).
+Pour en savoir plus sur les modèles d’équipe en général, consultez [Prise en main des modèles d’équipe](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="quality-and-safety"></a>Qualité et sécurité
 

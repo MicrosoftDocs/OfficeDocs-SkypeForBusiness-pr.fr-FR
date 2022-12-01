@@ -15,16 +15,17 @@ f1.keywords:
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9178bb793f25d9c052041432c20af4be8fb4033
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 79a9472286a7e08e8c6dce4c4f40d76b7e4f2b4e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792783"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198966"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archiver ou supprimer une équipe dans Microsoft Teams
 
@@ -71,7 +72,7 @@ Si l’équipe ne sera pas nécessaire, vous pouvez la supprimer plutôt que de 
 
 Suivez ces étapes pour restaurer une équipe supprimée en restaurant le groupe Microsoft 365 associé à l’équipe. La restauration du groupe Microsoft 365 pour une équipe restaure le contenu de l’équipe, y compris les onglets, les canaux standard et les canaux privés et leurs collections de sites associées.
 
-Par défaut, un groupe Microsoft 365 supprimé est conservé pendant 30 jours. Cette période de 30 jours est appelée « suppression réversible », car vous avez la possibilité de le restaurer. Pour plus d’informations, consultez [Restaurer un groupe supprimé](/microsoft-365/admin/create-groups/restore-deleted-group).
+Par défaut, un groupe de Microsoft 365 supprimé est conservé pendant 30 jours. Cette période de 30 jours est appelée « suppression réversible », car vous avez la possibilité de le restaurer. Pour plus d’informations, consultez [Restaurer un groupe supprimé](/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### <a name="install-the-azureadpreview-module"></a>Installez le module AzureADPreview
 
@@ -102,7 +103,7 @@ Par défaut, un groupe Microsoft 365 supprimé est conservé pendant 30 jours. C
 
     Lorsque vous y êtes invité, connectez-vous à l’aide de votre compte d’administrateur et de votre mot de passe.
 
-1. Exécutez la commande suivante pour afficher la liste de tous les groupes Microsoft 365 supprimés de manière réversible qui se trouvent toujours dans la période de rétention de 30 jours. Utilisez le paramètre **-All $True** si vous avez de nombreux groupes.
+1. Exécutez la commande suivante pour afficher la liste de tous les Microsoft 365 groupes supprimés de manière réversible qui se trouvent toujours dans la période de rétention de 30 jours. Utilisez le paramètre **-All $True** si vous avez de nombreux groupes.
 
     ```PowerShell
     Get-AzureADMSDeletedGroup

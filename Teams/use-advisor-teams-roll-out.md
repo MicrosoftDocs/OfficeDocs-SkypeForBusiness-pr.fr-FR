@@ -18,13 +18,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
+- chat-teams-channels-revamp
 description: Utilisez Advisor for Teams pour faciliter la planification et l’exécution de votre déploiement de Microsoft Teams.
-ms.openlocfilehash: 795765459c7796449379fe4c8fb327140a19e9e2
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: e691a224679b8026ec91ecf3b1b5c16f6016c20e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268819"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198326"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Utiliser Advisor for Teams pour faciliter le déploiement de Microsoft Teams
 
@@ -142,7 +143,7 @@ Une fois l’équipe déploiement créée par Advisor for Teams, le bot Advisor 
 >
 
 > [!IMPORTANT]
-> Le bot Advisor for Teams sert uniquement à envoyer un message de bienvenue à votre équipe déploiement. Il ne collecte pas de données.
+> Le bot Advisor for Teams sert uniquement à envoyer un message de bienvenue à votre équipe déploiement. Il ne recueille pas de données.
 
 > [!IMPORTANT]
 > Le bot Advisor for Teams est activé par défaut. Ne le désactivez pas si vous utilisez ou envisagez d’utiliser Advisor for Teams.
@@ -212,7 +213,7 @@ En tant que contact pour vos utilisateurs pour les questions de type « Comment 
 
 Une fois que vous avez personnalisé votre site et rassemblé vos plans d’apprentissage, réfléchissez à la façon dont vous allez sensibiliser vos utilisateurs afin de les inciter à utiliser les parcours d’apprentissage pour les apprentissages en cours.
 
-Utilisez vos canaux de communication pour promouvoir le site et le faire connaître. Par exemple, vous pouvez inclure un slogan standard tel que « Consultez notre site de formation et de support pour savoir comment être productif avec Teams » en communication avec vos utilisateurs.
+Use your communication channels to promote the site and generate awareness. For example, include a standard tagline such as “Check out our training and support site for how to get productive with Teams” in communications to your users.
 
 Informez vos utilisateurs en mettant en évidence les façons dont ils peuvent collaborer dans Teams, puis redirigez-les vers le site des parcours d’apprentissage pour découvrir comment faire.
 
@@ -258,7 +259,7 @@ Advisor for Teams vous demande l’autorisation de recueillir des données autre
 
 ### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>Puis-je utiliser Advisor for Teams avec FastTrack
 
-Oui, FastTrack met à profit Advisor for Teams pour tous les clients désireux de déployer Teams. Ils peuvent vous aider dans le cadre de la configuration initiale de votre équipe déploiement avec Advisor for Teams (si nécessaire) et offrent un support à la demande sur des questions spécifiques pendant le déploiement de Teams.
+Yes, FastTrack leverages Advisor for Teams for all customers looking to deploy Teams. They can assist with the initial setup of your Deployment team using Advisor for Teams (if required) and also provide as-needed support on specific topics during your Teams rollout.
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>Puis-je utiliser Advisor for Teams avec un partenaire
 

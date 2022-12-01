@@ -14,40 +14,42 @@ ms.reviewer: rafarhi
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-mar2020
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-description: Les administrateurs peuvent apprendre à ajouter de nouveaux invités à une organisation dans les clients de bureau et web Microsoft Teams et le portail de collaboration Azure Active Directory B2B.
-ms.openlocfilehash: 17ba8ff379566208a186857071310f6b7c6fd416
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Les administrateurs peuvent apprendre à ajouter de nouveaux invités à une organisation dans Microsoft les clients web et de bureau Teams et le portail de collaboration Azure Active Directory B2B.
+ms.openlocfilehash: 1427b523f2e9e8ec802a8e8d3459f9edadbb68ca
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268129"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199136"
 ---
 # <a name="add-a-guest-to-a-team"></a>Ajouter un invité à une équipe
 
 Toutes les personnes ayant un compte de messagerie professionnel ou un compte de particulier tel que Outlook, Gmail, etc. peuvent participer en tant qu’invitées dans Teams.
 
-En tant qu’administrateur, vous pouvez ajouter un nouvel invité à l’organisation de deux manières :
+En tant qu’administrateur, vous pouvez ajouter un nouvel invité à l’organisation de deux façons :
 
 - Les administrateurs généraux ou les administrateurs Teams et les propriétaires d’équipe ajoutent un invité à une équipe dans les clients Teams ou dans le centre d’administration Teams. Pour plus d’informations, voir [Ajouter des invités dans une équipe](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f). Si vous n’avez pas encore configuré l’accès invité, suivez les étapes décrites dans [Collaborer avec des invités au sein d’une équipe](/microsoft-365/solutions/collaborate-as-team).
 
-- Ajoutez des invités à votre organisation via Azure Active Directory (Azure AD) B2B Collaboration. Pour plus d’informations, consultez démarrage [rapide : Ajouter des invités à votre répertoire dans le Portail Azure](/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal).
+- Ajoutez des invités à votre organisation via Azure Active Directory (Azure AD) B2B Collaboration. Pour plus d’informations, consultez [Démarrage rapide : Ajouter des invités à votre annuaire dans le Portail Azure](/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal).
 
 Les administrateurs peuvent également déléguer dls autorisations d’ajout d’invités à d’autres membres de leur organisation en leur attribuant le rôle d’inviteur d’invités. Pour plus d’informations, consultez [Activer la collaboration externe B2B et gérer les utilisateurs pouvant inviter des invités](/azure/active-directory/external-identities/delegate-invitations).
 
 Azure AD B2B Collaboration permet aux organisations d'imposer un accès conditionnel et des stratégies d'authentification multifacteur (MFA) aux utilisateurs B2B. Ces stratégies peuvent être appliquées au niveau locataire, application ou utilisateur individuel, de la même façon qu’elles peuvent être activées pour les employés à plein temps et les membres de l’organisation. Les stratégies MFA sont appliquées à l’organisation de ressources. Pour plus d’informations, consultez la page [Accès conditionnel pour les utilisateurs B2B Collaboration](/azure/active-directory/external-identities/conditional-access). Les invités individuels ne peuvent pas être bloqués.
 
-Les invités que vous avez déjà ajoutés via Azure AD B2B, Groupes Microsoft 365 ou SharePoint sont prêts à être ajoutés. L’administrateur Microsoft 365 ou un propriétaire d’équipe peut ajouter ces invités à leurs équipes respectives. Si vous ajoutez un invité directement au groupe Microsoft 365 associé à une équipe, l’invité obtient l’accès à l’équipe, mais le groupe Microsoft 365 ne génère pas d’e-mail d’invitation à l’invité. Par conséquent, une personne de l’équipe doit en informer l’invité.
+Les invités que vous avez déjà ajoutés via Azure AD B2B, Groupes Microsoft 365 ou SharePoint sont prêts à être activés. L’administrateur Microsoft 365 ou un propriétaire d’équipe peut ajouter ces invités à leurs équipes respectives. Si vous ajoutez un invité directement au groupe Microsoft 365 associé à une équipe, l’invité aura accès à l’équipe, mais le groupe Microsoft 365 ne génère pas d’e-mail d’invitation à l’invité. Une personne de l’équipe doit donc en informer l’invité.
 
 > [!NOTE]
 > Les invités sont soumis aux mêmes limites des services [Microsoft 365 ou Office 365](/office365/servicedescriptions/office-365-service-descriptions-technet-library) et [Azure Active Directory](/azure/active-directory/external-identities/current-limitations).
 
-Vous pouvez suivre l'ajout d'invités dans Azure AD ou dans le Centre de sécurité Microsoft 365. L’ajout d’un invité dans Microsoft teams est audité et consigné en tant qu’activité d’administration des groupes Azure AD «membre ajouté au groupe». Pour plus d’informations, consultez [Audit et création de rapports d’un utilisateur B2B Collaboration](/azure/active-directory/external-identities/auditing-and-reporting) et [recherchez le journal d’audit dans le Centre de conformité](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Vous pouvez suivre l'ajout d'invités dans Azure AD ou dans le Centre de sécurité Microsoft 365. L’ajout d’un invité dans Microsoft teams est audité et consigné en tant qu’activité d’administration des groupes Azure AD «membre ajouté au groupe». Pour plus d’informations, consultez [Audit et création de rapports sur un utilisateur B2B Collaboration](/azure/active-directory/external-identities/auditing-and-reporting) et [Rechercher dans le journal d’audit dans le Centre de conformité](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Autoriser l’accès invité dans Microsoft Teams](teams-dependencies.md)
 

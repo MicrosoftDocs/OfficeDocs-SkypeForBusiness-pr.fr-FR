@@ -12,16 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd880e58b2c6818b8738afd5fb4e5efaf78642d4
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 89a820a1b828621df2a129b7a972408e7280b3da
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562583"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198926"
 ---
 # <a name="create-people-manager-teams-in-microsoft-teams"></a>Créer des équipes de responsables de personnes dans Microsoft Teams
 
@@ -30,9 +31,9 @@ Lorsque vous déployez Microsoft Teams, plutôt que de lancer avec une « tablet
 
 ## <a name="how-to-use-the-powershell-script"></a>Comment utiliser le script PowerShell 
 
-Commencez par exécuter les [Gestionnaires d’exportation et leurs de script directs](scripts/powershell-script-create-teams-from-managers-export-managers.md) (ce qui suppose que vous avez déjà exécuté les modules PowerShell [Connect-AzureAd](/powershell/module/azuread/connect-azuread?view=azureadps-2.0) et [Connect-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams?view=teams-ps)). Le script *Gestionnaires d’exportation et leur de directs* crée un fichier délimité par des tabulations (ExportedManagerDirects.txt) qui répertorie tous les responsables avec leurs rapports directs. 
+Commencez par exécuter les [Gestionnaires d’exportation et leurs de script directs](scripts/powershell-script-create-teams-from-managers-export-managers.md) (ce qui suppose que vous avez déjà exécuté les modules PowerShell [Connect-AzureAd](/powershell/module/azuread/connect-azuread) et [Connect-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams)). Le script *Gestionnaires d’exportation et leur de directs* crée un fichier délimité par des tabulations (ExportedManagerDirects.txt) qui répertorie tous les responsables avec leurs rapports directs. 
 
-Ensuite, exécutez le script [Créer des équipes de gestionnaire de personnes](scripts/powershell-script-create-teams-from-managers-new-teams.md). Ce script lit le fichier ExportedManagerDirects.txt et crée une équipe pour chaque responsable, avec les rapports directs de ce responsable en tant que membres. Si aucun responsable ou direct n’est activé pour Teams, le script les ignore et ne crée pas d’équipe. (Passez en revue le rapport, puis réexécutez le script une fois que vous avez activé Teams pour toute personne qui en a besoin. Le script ne crée pas de deuxième équipe pour un responsable pour lequel il a déjà créé une équipe.)
+Ensuite, exécutez le script [Créer des équipes de gestionnaire de personnes](scripts/powershell-script-create-teams-from-managers-new-teams.md). Ce script lit le fichier ExportedManagerDirects.txt et crée une équipe pour chaque responsable, avec les rapports directs de ce responsable en tant que membres. Si aucun responsable ou direct n’est activé pour Teams, le script les ignore et ne crée pas d’équipe. (Passez en revue le rapport, puis réexécutez le script une fois que vous avez activé Teams pour toute personne qui en a besoin. Le script ne crée pas une deuxième équipe pour un responsable pour lequel une équipe a déjà été créée.
 
 Pour chaque équipe, le script crée un canal Général et « Juste pour le plaisir ». 
 

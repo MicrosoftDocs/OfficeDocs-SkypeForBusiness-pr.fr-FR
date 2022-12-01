@@ -11,7 +11,9 @@ search.appverid: MET150
 ms.localizationpriority: high
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+ms.custom:
+- ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+- chat-teams-channels-revamp
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -19,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: L'accès invité dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes extérieures en leur accordant l'accès aux équipes et aux canaux.
-ms.openlocfilehash: d7f850855ab131267b20bae07b015127777a21f4
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
-ms.translationtype: HT
+ms.openlocfilehash: 399cd1c0aecb7377292810b26cd123873405f547
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839065"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198466"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 
@@ -35,16 +37,16 @@ L’accès invité vous permet d’accéder à Teams, aux documents dans des can
 
 Un invité est une personne qui n’a pas de compte scolaire ou professionnel avec votre organisation. Il peut par exemple s'agir de partenaires, sous-traitants, fournisseurs ou consultants. Toute personne qui ne fait pas partie de votre organisation peut être ajouté en tant qu’invité dans Teams. Cela signifie que tout le monde avec un compte professionnel (autrement dit, un compte Azure Active Directory) ou un compte de messagerie consommateur (avec Outlook.com, Gmail.com ou d’autres personnes) peut participer en tant qu’invité dans Teams, avec un accès à des équipes et des expériences de canal.
 
-Lorsque vous invitez un invité dans Teams, un compte invité est créé pour lui dans Azure Active Directory et il est couvert par la même protection de conformité et d’audit que les autres utilisateurs Microsoft 365. L’accès invité est soumis aux limites du service d’Azure AD et de Microsoft 365.
+When you invite a guest to Teams, a guest account is created for them in Azure Active Directory and they are covered by the same compliance and auditing protection as other Microsoft 365 users. Guest access is subject to Azure AD and Microsoft 365 service limits.
 
-L’expérience d’invité présente des limitations par conception. Pour obtenir la liste complète de ce qu’un invité peut et ne peut pas faire dans Teams, consultez [Accès invité dans Microsoft Teams](guest-experience.md).
+The guest experience has limitations by design. For a full list of what a guest can and can't do in Teams, see [Guest access in Microsoft Teams](guest-experience.md).
 
 > [!IMPORTANT]
-> Les invités suivent les paramètres à l’échelle de l’organisation Teams pour le mode de mise à niveau de coexistence. Cela ne peut pas être modifié.
+> Guests follow Teams Org-wide settings for the coexistence Upgrade mode. This can't be changed.
 
 Pour comparer l’accès externe (fédération) avec l’accès invité (et décider de celui que vous devez utiliser), lisez [Communiquer avec des utilisateurs d’autres organisations dans Teams](communicate-with-users-from-other-organizations.md).
 
-Les canaux partagés offrent une alternative à l’accès invité, ce qui vous permet d’inviter des personnes extérieures à votre organisation sans avoir besoin d’un compte invité dans Azure AD. Pour comparer l’accès invité avec les canaux partagés, voir [Planifier la collaboration externe](/microsoft-365/solutions/plan-external-collaboration).
+Shared channels offer an alternative to guest access, allowing you to invite people outside your organization without requiring a guest account in Azure AD. To compare guest access with shared channels, see [Plan external collaboration](/microsoft-365/solutions/plan-external-collaboration).
 
 Pour configurer l’accès invité, consultez [Collaborer avec des invités dans une équipe](/microsoft-365/solutions/collaborate-as-team). 
 

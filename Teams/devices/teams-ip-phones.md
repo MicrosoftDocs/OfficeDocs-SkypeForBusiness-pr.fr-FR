@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams afin de produire les meilleurs résultats.
-ms.openlocfilehash: ca060d9f077d9f79b9e8d02bea49002d321aae6b
-ms.sourcegitcommit: 167868ad6fc02676cfdade5d498e7c4e09778bec
+ms.openlocfilehash: c4c80840c56de3c9de1c7ca12782e0132e838029
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/30/2022
-ms.locfileid: "69190325"
+ms.locfileid: "69199106"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>appareils Android certifiés Microsoft Teams
 
@@ -81,6 +81,7 @@ Les appareils suivants sont certifiés dans le cadre du programme de certificati
 | Modèle d’appareil | Version du microprogramme | Date de fin de la certification actuelle | Taille de la chambre                                        |  Version du système d’exploitation Android    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
 | Logitech Tap IP (VR0029) avec RoomMate (VR0030) | `1.6.565`  |   3 septembre 2024  | Grande salle de réunion (4,5 m x 8,5 m) | 10 |
+| Yealink MeetingBoard 86 » | `155.15.0.10 `   | 3 septembre 2024 | Chambre de taille moyenne (4,5 m x 6 m) | 10|
 | Yealink MeetingBoard 65 » | `155.15.0.6 `   | 3 septembre 2024 | Chambre de taille moyenne (4,5 m x 6 m) | 10|
 | Yealink MeetingBar A20 | `133.15.0.108  `   | 3 septembre 2024 | Petite salle de réunion (4,5 m x 4,5 m)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | 3 septembre 2024 | Chambre de taille moyenne (4,5 m x 6 m) | 10|
@@ -134,6 +135,7 @@ Voici les dernières versions des microprogrammes et des applications téléphon
 
 | Version du produit | Date de publication  | Microsoft version de l’application Teams | version Portail d'entreprise | version de l’agent Administration |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| Mise à jour 2022 #4A | 30 novembre 2022 | `1449/1.0.94.2022110803` | `5.0.5484.0` | `382`|
 | Mise à jour 2022 #4  | 22 septembre 2022| `1449/1.0.94.2022090705` |`5.0.5484.0` | `361` |
 | Mise à jour 2022 #3A| 13 juillet 2022   | `1449/1.0.94.2022062103` |`5.0.5304.0` | `322` |
 | Mise à jour 2022 #3  | 6 juillet 2022   | `1449/1.0.94.2022061702` |`5.0.5304.0` | `322` |
@@ -163,6 +165,12 @@ Lorsque vous installez une nouvelle version de microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme  | Version de produit incluse  |
 |:----------------|:--------------|:----------------------------|
+|Yealink CP965  | `143.15.0.27`     | Mise à jour 2022 #4A  |
+|Yealink MP54/MP56/MP58  | `122.15.0.107`     | Mise à jour 2022 #4A  |
+|Yealink MP52  | `145.15.0.59`     | Mise à jour 2022 #4A  |
+|Yealink VP59  | `91.15.0.118`     | Mise à jour 2022 #4A  |
+|Poly CCX 400/500/600/505 | `8.0.2.2337` | Mise à jour 2022 #4A |
+|Poly Trio C60 | `8.0.2.2344` | Mise à jour 2022 #4A |
 |AudioCodes C448HD/C450HD  | `1.17.769`    | Mise à jour 2022 #3A|
 |Crestron UC-P8/I/C/CI     | `1.0.5.20`    | Mise à jour 2022 #3A |
 |Crestron UC-P10/I/C/CI | `1.0.5.20`    | Mise à jour 2022 #3A |
@@ -384,6 +392,7 @@ Lorsque vous installez une nouvelle version de microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse|
 |:--------------|:-----------------|:-------------------------|
+|Cadre soigné nf21f1 | `NFF1.20220914.1215` | 30 novembre 2022 |
 |Crestron UC-P10-TD     |1.0.0.57 |Mise à jour 2022 #3A|
 |Crestron UC-P8-TD     |1.0.0.57 |Mise à jour 2022 #3A|
 |Lenovo ThinkSmart View| `CD-18781Y.211116.114` |Mise à jour 2021 #3  |

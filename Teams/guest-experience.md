@@ -17,31 +17,33 @@ ms.collection:
 - m365initiative-externalcollab
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- chat-teams-channels-revamp
 description: Cette article décrit la fonctionnalité Microsoft Teams disponible pour les invités.
-ms.openlocfilehash: c7052eb22a68b146c3ee998b57ba877da82e11b4
-ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
+ms.openlocfilehash: 960688d49f634ff5665fe4e1da2436e9bad669ac
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63556630"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198906"
 ---
 # <a name="guest-experience-in-teams"></a>Expérience de l’invité dans Microsoft Teams
 
 Lorsqu'un invité est convié à rejoindre une équipe, il reçoit un e-mail de bienvenue. Le message inclut des informations sur l'équipe et explique ce à quoi s’attendre maintenant qu'il est membre. L’invité doit accepter l’invitation en sélectionnant **Ouvrir Microsoft Teams** dans l’e-mail avant de pouvoir accéder à l'équipe et à ses canaux.
 
 > [!NOTE]
-> Une fois qu’un invité est ajouté à une équipe, quelques heures peuvent être avant qu’il n’y accède.
+> Une fois qu’un invité est ajouté à une équipe, l’accès peut prendre quelques heures.
     
 ![Capture d’écran montrant un exemple d’e-mail de bienvenue.](media/guest-experience-image1.png)
     
 Tous les membres de l'équipe voient un message dans le fil des canaux informant que le propriétaire de l'équipe a ajouté un invité et indiquant son nom. Tous les membres de l'équipe peuvent identifier facilement les utilisateurs qui sont invités. Une balise dans le coin supérieur droit du thread de canal indique le nombre d’invités de l’équipe et une étiquette **(Invité)** apparaît près du nom de chaque invité.
 
-![Capture d’écran montrant un balise indiquant le nombre d’invités dans l’équipe.](media/guest-experience-image2.png)
+![Capture d’écran montrant la balise qui indique le nombre d’invités dans l’équipe.](media/guest-experience-image2.png)
 
 Découvrez ces vidéos sur l’expérience de l’invité dans Teams :
-- [Participer à Teams réunion en tant qu’invité](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
-- [Travailler avec des invités externes dans une Teams réunion](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
+- [Participer à une réunion Teams en tant qu’invité](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
+- [Travailler avec des invités externes dans une réunion Teams](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Comparaison des fonctionnalités d’un membre de l’équipe et d’un invité
 

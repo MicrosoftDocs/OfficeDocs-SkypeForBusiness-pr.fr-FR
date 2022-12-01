@@ -7,6 +7,7 @@ ms.reviewer: vinbel, luises
 ms.topic: article
 ms.service: msteams
 audience: admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -18,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Découvrez comment appeler, converser, rechercher, puis ajouter des utilisateurs extérieurs à l’organisation dans Microsoft Teams à l’aide de l’accès externe et de l’accès invité.
-ms.openlocfilehash: 14b1bee39caacc6465c64dbb2151cbeed936b3ff
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: f416453a93c07945f9df55c863f76cbb8b736a78
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418463"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198316"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Utiliser l’accès invité et l’accès externe pour collaborer avec des personnes extérieures à votre organisation
 
@@ -48,11 +49,11 @@ L’accès externe est disponible pour les locataires suivants :
      - Entre GCC uniquement
      - Entre GCC High uniquement
      - Entre DOD uniquement
-- Comptes non managés (personnels)
-     - Entre les comptes commerciaux et personnels uniquement
-- Skype Entreprise interopérabilité
-     - Entre commercial, GCC, GCC High et DoD
-- Interopérabilité Skype
+- Comptes non gérés (personnels)
+     - Entre les comptes Commerciaux et Personnels uniquement
+- interopérabilité Skype Entreprise
+     - Entre et entre commercial, GCC, GCC High et DoD
+- Skype Interop
      - Entre Commercial et Skype uniquement
 
 Si vous souhaitez configurer l’accès externe, veuillez consulter la rubrique [Gérer l'accès externe](manage-external-access.md). 
@@ -116,7 +117,7 @@ Les tableaux suivants montrent les différences entre l’utilisation de l’acc
 <sup>1</sup> À condition que l’utilisateur ait été ajouté en tant qu’invité et qu’il soit connecté avec le compte invité.<br>
 <sup>2</sup> Uniquement par adresse e-mail ou SIP (Session Initiation Protocol).<br>
 <sup>3</sup> Fonction prise en charge pour la conversation 1:1 entre utilisateurs Teams uniquement de deux organisations différentes. <br>
-<sup>4</sup> Par défaut, les participants externes ne peuvent pas voir les numéros de téléphone des participants distants. Si vous voulez conserver la confidentialité de ces numéros de téléphone, sélectionnez **Tonalités** pour le **Type d’annonce d’entrée et de sortie** (cela permet d’éviter la lecture des numéros par Teams). Pour plus d’informations, consultez [Activer ou désactiver les annonces d’entrée et de sortie pour les réunions dans Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
+<sup>4</sup> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams). To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
 <sup>5</sup> Fonction autorisée par défaut, mais l’administrateur Teams peut la désactiver
 
 ## <a name="related-topics"></a>Voir aussi
