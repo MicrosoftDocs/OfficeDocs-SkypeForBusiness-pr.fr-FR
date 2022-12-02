@@ -1,5 +1,5 @@
 ---
-title: Configurer le tableau de bord de qualité des appels (CQD)
+title: Configuration du tableau de bord de qualité des appels (CQD)
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -23,14 +23,14 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Découvrez comment activer et utiliser le tableau de bord qualité des appels et obtenir des rapports récapitulatifs sur la qualité des appels.
-ms.openlocfilehash: 052b38634d17aa6d0086c80ed2a638a7818a729f
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
-ms.translationtype: HT
+ms.openlocfilehash: 5f3b9fbb42199892136569ac179907b18da4e460
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66797379"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69245671"
 ---
-# <a name="set-up-call-quality-dashboard"></a>Configurer le tableau de bord qualité des appels
+# <a name="set-up-the-call-quality-dashboard"></a>Configurer le tableau de bord qualité des appels
 
 Ouvrez le tableau de bord de qualité des appels Microsoft (CQD) à [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (connectez-vous avec vos informations d’identification d’administrateur). Ou bien allez dans le centre d'administration de Teams et sélectionnez **Analyses et rapports** > **Tableau de bord de la qualité des appels**.
 
