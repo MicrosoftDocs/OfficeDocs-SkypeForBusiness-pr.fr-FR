@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et périphériques USB (tels que les casques, les haut-parleurs, les webcams et les moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: dcee4b84795ad825ccbd81ef30f3f44b745cfb82
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: 8a767eb2572012496dc5dba94e989f969f12df27
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194935"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242308"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Appareils audio et vidéo USB certifiés pour Microsoft Teams
 
@@ -81,7 +81,7 @@ Si vous êtes un fabricant et que vous souhaitez rejoindre le programme de certi
 
 ## <a name="certified-devices"></a>Appareils certifiés
 
-*Table mise à jour octobre 2022*
+*Table mise à jour en novembre 2022*
 
 > [!NOTE]
 > Le format de date est MM/JJ/AAAA.
@@ -93,7 +93,7 @@ Si vous êtes un fabricant et que vous souhaitez rejoindre le programme de certi
 |Cisco                |Appareil photo de bureau 4K                                             |10/15/2022      |Certifié pour Microsoft Teams                           |
 |EPOS                 |EXPAND Vision 1/S6                                         |10/13/2022      |Certifié pour Microsoft Teams                           |
 |Lenovo               |Go USB-C ANC In-Ear Headphones                             |9/20/2022       |Certifié pour Microsoft Teams                           |
-|Logi                 |Brio 500/505 Caméras                                       |9/14/2022       |Certifié pour Microsoft Teams                           |
+|Logi                 |Brio 500/505/501 Caméras                                   |9/14/2022       |Certifié pour Microsoft Teams                           |
 |Jabra                |Engager 50 II                                               |7/29/2022       |Certifié pour Microsoft Teams                           |
 |Jabra                |Engagement 40 II                                               |7/29/2022       |Certifié pour Microsoft Teams                           |
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |Certifié pour Microsoft Teams                           |

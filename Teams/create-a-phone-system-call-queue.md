@@ -23,15 +23,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-description: Découvrez comment configurer des files d’attente d’appels dans Microsoft Teams. Les files d’attente d’appels fournissent un message d’accueil, contiennent de la musique, la redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: 84dd975e93340f6b5985e8239e7bf78f051debbc
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+description: Configurez des files d’attente d’appels dans Microsoft Teams. Les files d’attente d’appels fournissent un message d’accueil, contiennent de la musique, la redirection des appels et d’autres fonctionnalités.
+ms.openlocfilehash: 8f997c36d8b1103e9f811bcff750749367c6f492
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890073"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242298"
 ---
-# <a name="create-a-call-queue"></a>Créer une file d’attente des appels
+# <a name="create-a-call-queue-in-microsoft-teams"></a>Créer une file d’attente des appels dans Microsoft Teams
 
 Les files d’attente d’appels acheminent les appelants vers des personnes de votre organisation qui peuvent vous aider à résoudre un problème ou une question particulier. Les appels sont distribués un par un aux personnes de la file d’attente, appelées *agents*.
 
@@ -132,7 +132,7 @@ Une fois que vous avez créé ce nouveau compte de ressource pour l’ID d’app
 
 - Attribuer une [licence de compte de ressource téléphonique Teams](manage-resource-accounts.md#assign-a-license)
 - Attribuer une licence de forfait d’appels Microsoft, attribuer un numéro de téléphone Operator Connect ou affecter une stratégie de routage vocal en ligne pour le routage direct
-- Affectez le [numéro de téléphone du service au compte de ressource](manage-resource-accounts.md#assign-a-service-number), si vous utilisez le forfait d’appels Microsoft
+- Affectez le [numéro de téléphone du service au compte de ressource](manage-resource-accounts.md#assign-a-service-number), si vous utilisez Microsoft forfait d’appels
 
 ### <a name="set-the-call-queue-language"></a>Définir la langue de la file d’attente des appels
 
@@ -160,7 +160,7 @@ Teams fournit la musique par défaut aux appelants lorsqu’ils sont *en attente
 - Si vous souhaitez diffuser un fichier audio spécifique, choisissez **Lire un fichier audio** et téléchargez un fichier MP3, WAV ou WMA.
 
 > [!NOTE]
-> Vous êtes responsable de l’effacement et de la sécurisation indépendants de tous les droits et autorisations nécessaires pour utiliser tout fichier audio ou de musique avec votre service Microsoft Teams, ce qui peut inclure la propriété intellectuelle et d’autres droits sur la musique, les effets sonores, l’audio, les marques, les noms et tout autre contenu dans le fichier audio de tous les titulaires de droits pertinents, y compris les artistes,  acteurs, artistes interprètes, musiciens, auteurs-compositeurs, compositeurs, labels de disques, éditeurs de musique, syndicats, guildes, sociétés de droits, organisations de gestion collective et toute autre partie qui possède, contrôle ou licence les droits d’auteur, effets sonores, audio et autres droits de propriété intellectuelle de la musique.
+> Vous êtes responsable de l’effacement et de la sécurisation de tous les droits et autorisations nécessaires pour utiliser tout fichier audio ou de musique avec votre Microsoft service Teams, ce qui peut inclure la propriété intellectuelle et d’autres droits sur toute musique, effets sonores, audio, marques, noms et autres contenus dans le fichier audio de tous les titulaires de droits pertinents, y compris les artistes,  acteurs, artistes interprètes, musiciens, auteurs-compositeurs, compositeurs, labels de disques, éditeurs de musique, syndicats, guildes, sociétés de droits, organisations de gestion collective et toute autre partie qui possède, contrôle ou licence les droits d’auteur, effets sonores, audio et autres droits de propriété intellectuelle de la musique.
 
 Une fois que vous avez sélectionné un message d’accueil et de la musique en attente, sélectionnez le bouton **Suivant** en bas de la page **Ajouter une file d’attente d’appels** .
 
@@ -182,7 +182,7 @@ Si vous souhaitez [utiliser un canal Teams pour gérer la file d’attente](http
 
 Les clients suivants sont pris en charge lors de l’utilisation d’un canal Teams pour les files d’attente d’appels :
 
-- Client Windows Microsoft Teams
+- Microsoft client Windows Teams
 - Client Microsoft Teams pour Mac
 
 > [!NOTE]
@@ -390,8 +390,8 @@ Les configurations ci-dessous sont recommandées :
 
 #### <a name="notes"></a>Remarques
 
-1. Client Microsoft Teams Windows, Client Mac Microsoft Teams, Microsoft Teams sur infrastructure de bureau virtualisée.
-2. Application Microsoft Teams pour iPhone, application Android Microsoft Teams.
+1. Microsoft client Windows Teams, Microsoft Client Mac Teams, Microsoft Teams sur l’infrastructure de bureau virtualisée.
+2. Microsoft application Pour iPhone Teams, Microsoft l’application Android Teams.
 3. La sélection de la méthode d’inactivité la plus longue pour la méthode de routage de l’agent active automatiquement le routage basé sur la présence.
 4. Il n’est pas possible de définir l’ordre dans lequel les agents seront appelés.
 5. Le mode conférence n’est pas pris en charge si les appels téléphoniques sont routés vers la file d’attente à partir d’une passerelle de routage direct activée pour le routage basé sur l’emplacement.

@@ -1,5 +1,5 @@
 ---
-title: Configurer un standard automatique pour Microsoft Teams
+title: Configurer un standard automatique Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -20,17 +20,17 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-description: Découvrez comment configurer et gérer des standards automatiques dans Microsoft Teams.
-ms.openlocfilehash: 68a3364130fa344786cffbc642fe77e0b7a6a2cd
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+description: Découvrez comment configurer un standard automatique Microsoft Teams.
+ms.openlocfilehash: 7f90aa2d61540895601d09c2f7eab9b133a6ee1a
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139138"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242418"
 ---
-# <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
+# <a name="set-up-a-microsoft-teams-auto-attendant"></a>Configurer un standard automatique Microsoft Teams
 
-Les standards automatiques permettent aux utilisateurs d’appeler votre organisation et de naviguer dans un système de menus pour parler au service approprié, à la file d’attente d’appels, à la personne ou à un opérateur. Vous pouvez créer des standards automatiques pour votre organisation à l’aide du Centre d’administration Microsoft Teams ou de PowerShell.
+Les standards automatiques permettent aux utilisateurs d’appeler votre organisation et de naviguer dans un système de menus pour parler au service approprié, à la file d’attente d’appels, à la personne ou à un opérateur. Vous pouvez créer des standards automatiques pour votre organisation à l’aide du centre d’administration Microsoft Teams ou de PowerShell.
 
 Veillez à lire l’article [Planifier les standards automatiques et les files d’attente des appels pour Teams](plan-auto-attendant-call-queue.md), puis à suivre les [étapes de démarrage](plan-auto-attendant-call-queue.md#getting-started) avant de suivre les procédures de cet article.
 
@@ -199,7 +199,7 @@ Une fois que vous avez ajouté toutes vos heures de vacances, sélectionnez **Su
 
 *L’étendue de numérotation* définit les utilisateurs disponibles dans l’annuaire lorsqu’un appelant utilise la numérotation par nom ou la numérotation par extension. La valeur par défaut **de Tous les utilisateurs en ligne** inclut tous les utilisateurs de votre organisation qui sont des utilisateurs en ligne ou hébergés localement à l’aide de Skype Entreprise Server.
 
-Vous pouvez inclure ou exclure des utilisateurs spécifiques en sélectionnant **Groupe d’utilisateurs personnalisé** sous **Inclure** ou **Exclure** et en choisissant un ou plusieurs groupes Microsoft 365, listes de distribution ou groupes de sécurité. Par exemple, vous souhaiterez peut-être exclure les cadres de votre organisation de l’annuaire de numérotation.
+Vous pouvez inclure ou exclure des utilisateurs spécifiques en sélectionnant **Groupe d’utilisateurs personnalisé** sous **Inclure** ou **Exclure** et en choisissant un ou plusieurs groupes Microsoft 365 groupes, listes de distribution ou groupes de sécurité. Par exemple, vous souhaiterez peut-être exclure les cadres de votre organisation de l’annuaire de numérotation.
 
 Si un utilisateur figure dans les deux listes, il est exclu de l’annuaire.
 

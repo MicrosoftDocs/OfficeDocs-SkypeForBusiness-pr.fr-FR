@@ -22,12 +22,12 @@ description: Vos équipes ou l’administrateur informatique peuvent configurer 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: d1cb230b362ca3c38c9986d54f222a903cb06eed
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: d3396c9982cfe4de9eacc085bfe3a572fdc4b667
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198566"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242428"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Gérer les conversations et les réunions externes dans Microsoft Teams
 
@@ -55,7 +55,9 @@ Le centre Teams d’administration contrôle l’accès externe au niveau de l�
 > [!NOTE]
 > Les utilisateurs de Teams peuvent ajouter des applications lorsqu’ils hébergent des réunions ou des conversations avec des personnes d’autres organisations. Ils peuvent également utiliser des applications partagées par des personnes d’autres organisations lorsqu’ils rejoignent des réunions ou des conversations hébergées par ces organisations. Les stratégies de données de l’organisation de l’utilisateur hôte, ainsi que les pratiques de partage de données de toutes les applications tierces partagées par l’organisation de cet utilisateur, sont appliquées.
 
-## <a name="allow-or-block-domains"></a>Autoriser ou bloquer des domaines
+## <a name="specify-trusted-organizations"></a>Spécifier des organisations approuvées
+
+Vous pouvez autoriser ou bloquer certains domaines afin de définir les organisations que votre organisation approuve pour les réunions et les conversations externes. (Notez que les autres organisations devront également autoriser le domaine de votre organisation.)
 
 Si vous ajoutez des domaines bloqués, tous les autres domaines sont autorisés. Si vous ajoutez des domaines autorisés, tous les autres domaines sont bloqués. Une exception s’applique si les participants anonymes sont autorisés dans les réunions. Il existe trois scénarios pour configurer l'accès externe dans le centre d'administration Teams (**Utilisateurs** > **Accès externe**) :
 
@@ -70,7 +72,7 @@ Si vous ajoutez des domaines bloqués, tous les autres domaines sont autorisés.
 - **Bloquer tous les domaines externes** – Empêche les personnes de votre organisation de rechercher, d'appeler, de discuter et d'organiser des réunions avec des personnes externes à votre organisation dans n'importe quel domaine.
 
 > [!NOTE]
-> Les domaines autorisés ou bloqués s’appliquent uniquement aux réunions si l’accès anonyme aux réunions est désactivé.
+> Personnes de domaines bloqués peuvent toujours participer anonymement à la réunion si l’accès anonyme est autorisé.
 
 ![Capture d’écran des paramètres d’accès externe](./media/external-access-domain-settings.png)
 

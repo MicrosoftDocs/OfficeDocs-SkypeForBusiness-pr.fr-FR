@@ -1,7 +1,7 @@
 ---
 title: Masquer les numéros de téléphone dans les réunions Microsoft Teams
 author: heidip
-ms.author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: moakram
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment masquer les numéros de téléphone dans les réunions Microsoft Teams
-ms.openlocfilehash: cad28ad446c39a45b865fd24767347fdf11bb9c8
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+ms.openlocfilehash: 7072d1853a49d9e7ebc59e360c971874ed6549a3
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801765"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242268"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Masquer les numéros de téléphone dans les réunions Microsoft Teams
 
@@ -48,7 +48,7 @@ Pour modifier le paramètre de masquage du réseau téléphonique commuté (RTC)
 
 ## <a name="use-microsoft-powershell-to-set-phone-number-masking"></a>Utiliser Microsoft PowerShell pour définir le masquage des numéros de téléphone
 
-Pour modifier le paramètre de masquage RTC dans PowerShell, définissez le **`MaskPstnNumbersType`** paramètre de l’applet de commande [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) sur l’une des options disponibles.
+Pour modifier le paramètre de masquage RTC dans PowerShell, définissez le **`MaskPstnNumbersType`** paramètre de l’applet de commande [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) sur l’une des options disponibles.
 
 Pour masquer les numéros de téléphone des participants externes uniquement, exécutez la commande suivante :
 
