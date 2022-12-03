@@ -1,5 +1,5 @@
 ---
-title: Configurer un standard automatique Microsoft Teams
+title: Configurer un standard automatique pour Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -20,19 +20,16 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-adobe-target: true
-adobe-target-activity: ''
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
+robots: noindex
 description: Découvrez comment configurer et gérer des standards automatiques dans Microsoft Teams.
-ms.openlocfilehash: 1908ccb02fa3aadc0bb906f718e5493eb8ff8e2f
+ms.openlocfilehash: cafbe1594666f156801f83b7944e4ecce4887752
 ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251757"
+ms.locfileid: "69251993"
 ---
-# <a name="set-up-a-microsoft-teams-auto-attendant"></a>Configurer un standard automatique Microsoft Teams
+# <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
 
 Les standards automatiques permettent aux utilisateurs d’appeler votre organisation et de naviguer dans un système de menus pour parler au service approprié, à la file d’attente d’appels, à la personne ou à un opérateur. Vous pouvez créer des standards automatiques pour votre organisation à l’aide du centre d’administration Microsoft Teams ou de PowerShell.
 
@@ -52,7 +49,7 @@ Les standards automatiques peuvent rediriger les appels, en fonction de l’entr
 > [!NOTE]
 > Lors de la redirection d’appels vers une **personne de l’organisation**, cette personne doit être activée par la voix. Pour plus d’informations sur l’activation de la voix, consultez [Attribuer des licences de module complémentaire Teams aux utilisateurs](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 >
-> Bien que la définition d’un **opérateur** soit facultative, elle est recommandée.  Les standards automatiques redirigent les appels vers l’opérateur en cas d’erreur dans la configuration du standard automatique en raison de la suppression d’un compte de messagerie vocale partagé ou d’utilisateur.  Si aucun opérateur n’est défini, le standard automatique supprime l’appel.
+> Bien que la définition d’un **opérateur** soit facultative, elle est recommandée.  Les standards automatiques redirigent les appels vers l’opérateur si l’appelant n’effectue pas de sélection dans les menus, sélectionne à plusieurs reprises des options non valides ou si les numérotations par nom ou numéro échouent à plusieurs reprises.  Si aucun opérateur n’est défini, le standard automatique supprime l’appel.
 
 ## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>Nouveautés des standards automatiques au cours des 6 derniers mois
 
@@ -75,9 +72,7 @@ Les étapes décrites dans l’article créent des standards automatiques à l�
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>Suivez ces étapes pour configurer votre standard automatique
 
-## <a name="step-1-general-info"></a>[Étape 1 : Informations générales](#tab/general-info)
-
-## <a name="step-1-set-the-auto-attendants-general-information"></a>Étape 1 : Définir les informations générales du standard automatique
+### <a name="step-1-set-the-auto-attendants-general-information"></a>Étape 1 : Définir les informations générales du standard automatique
 
 Pour configurer un standard automatique, dans le [Centre d’administration Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851), développez **Voix**, sélectionnez **Standards** automatiques, puis **Ajouter**.
 
@@ -96,23 +91,21 @@ Pour configurer un standard automatique, dans le [Centre d’administration Team
 
 Une fois que vous avez défini les informations générales de votre standard automatique, sélectionnez **Suivant**.
 
-## <a name="step-2-basic-call-flow"></a>[Étape 2 : Flux d’appels de base](#tab/call-flow)
+### <a name="step-2-set-up-the-basic-call-flow"></a>Étape 2 : Configurer le flux d’appels de base
 
-## <a name="step-2-set-up-the-basic-call-flow"></a>Étape 2 : Configurer le flux d’appels de base
-
-### <a name="set-a-greeting"></a>Définir un message d’accueil
+#### <a name="set-a-greeting"></a>Définir un message d’accueil
 
 - Si vous sélectionnez **Lire un fichier audio** , vous pouvez utiliser le bouton **Charger un fichier** pour charger un message d’accueil enregistré en tant qu’audio dans . WAV, .MP3 ou . Format WMA. L’enregistrement ne peut pas dépasser 5 Mo.
 
 - Si vous sélectionnez **Taper un message d’accueil** , le système lit le texte que vous tapez (jusqu’à 1 000 caractères) lorsque le standard automatique répond à un appel.
 
-### <a name="route-the-call"></a>Router l’appel
+#### <a name="route-the-call"></a>Router l’appel
 
 - Si vous sélectionnez **Déconnecter**, le standard automatique raccroche l’appel.
 - Si vous sélectionnez **Rediriger l’appel**, vous pouvez choisir l’une des destinations de routage des appels.
 - Si vous sélectionnez **les options de menu Lire**, vous pouvez choisir **lire un fichier audio** ou **taper un message d’accueil** , puis choisir entre les options de menu et la recherche dans le répertoire.
 
-#### <a name="play-menu-options"></a>Options de menu De lecture
+##### <a name="play-menu-options"></a>Options de menu De lecture
 
 *Nouveau : l’option Forcer l’écoute peut être activée, ce qui nécessite que les appelants écoutent toutes les options de menu avant d’effectuer la sélection.*
  *Nouvelles touches \* (astérisque) et \# (livre) peuvent désormais être utilisées dans les options de menu.*
@@ -131,7 +124,7 @@ Pour chaque option de menu, spécifiez les paramètres suivants :
 
 - **Rediriger vers** : destination de routage des appels utilisée lorsque les appelants choisissent cette option. Si vous redirigez vers un standard automatique ou une file d’attente d’appels, choisissez le compte de ressource qui lui est associé.
 
-##### <a name="directory-search"></a>Recherche d’annuaires
+###### <a name="directory-search"></a>Recherche d’annuaires
 
 Si vous affectez des touches de numérotation à des destinations, nous vous recommandons de choisir **Aucun** pour **la recherche d’annuaire**. Si un appelant tente de composer un nom ou une extension à l’aide de clés affectées à des destinations spécifiques, il peut être routé de manière inattendue vers une destination avant d’avoir fini d’entrer le nom ou l’extension. Nous vous recommandons de créer un standard automatique distinct pour la recherche dans l’annuaire et d’y lier votre standard automatique principal à l’aide d’une touche de numérotation.
 
@@ -148,9 +141,7 @@ Pour plus d’informations, reportez-vous aux [informations de référence sur l
 
 Une fois que vous avez défini vos options de flux d’appels de base, sélectionnez **Suivant**.
 
-## <a name="step-3-after-hours-call-flow"></a>[Étape 3 : Flux d’appels après les heures de travail](#tab/after-hours)
-
-## <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>Étape 3 : Configurer le flux d’appels pour les heures d’ouverture (facultatif)
+### <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>Étape 3 : Configurer le flux d’appels pour les heures d’ouverture (facultatif)
 
 Les heures d’ouverture peuvent être définies pour chaque standard automatique.
 
@@ -168,9 +159,7 @@ Si vous souhaitez un routage d’appel distinct pour les appelants après les he
 
 Une fois que vous avez ajouté votre flux d’appels après les heures de travail, sélectionnez **Suivant**.
 
-## <a name="step-4-holiday-call-flow"></a>[Étape 4 : Flux d’appels de congés](#tab/holidays)
-
-## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Étape 4 : Configurer des flux d’appels pour les jours fériés (facultatif)
+### <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Étape 4 : Configurer des flux d’appels pour les jours fériés (facultatif)
 
 Votre standard automatique peut avoir un flux [d’appel pour chaque congé que vous avez configuré](set-up-holidays-in-teams.md). Vous pouvez ajouter jusqu'à 20 congés planifiés pour chaque standard automatique.
 
@@ -197,9 +186,7 @@ Répétez la procédure si nécessaire pour chaque congé supplémentaire.
 
 Une fois que vous avez ajouté toutes vos heures de vacances, sélectionnez **Suivant**.
 
-## <a name="step-5-dial-scope"></a>[Étape 5 : Étendue de numérotation](#tab/dial-scope)
-
-## <a name="step-5-set-up-dial-scope-optional"></a>Étape 5 : Configurer l’étendue de numérotation (facultatif)
+### <a name="step-5-set-up-dial-scope-optional"></a>Étape 5 : Configurer l’étendue de numérotation (facultatif)
 
 *L’étendue de numérotation* définit les utilisateurs disponibles dans l’annuaire lorsqu’un appelant utilise la numérotation par nom ou la numérotation par extension. La valeur par défaut **de Tous les utilisateurs en ligne** inclut tous les utilisateurs de votre organisation qui sont des utilisateurs en ligne ou hébergés localement à l’aide de Skype Entreprise Server.
 
@@ -212,9 +199,7 @@ Si un utilisateur figure dans les deux listes, il est exclu de l’annuaire.
 
 Une fois que vous avez sélectionné vos options **d’étendue de numérotation** , sélectionnez **Suivant**.
 
-## <a name="step-6-resource-accounts"></a>[Étape 6 : Comptes de ressources](#tab/resource-accounts)
-
-## <a name="step-6-set-up-resource-accounts-optional"></a>Étape 6 : Configurer des comptes de ressources (facultatif)
+### <a name="step-6-set-up-resource-accounts-optional"></a>Étape 6 : Configurer des comptes de ressources (facultatif)
 
 Tous les standards automatiques doivent avoir un compte de ressource associé.  Les standards automatiques de premier niveau auront besoin d’au moins un compte de ressource associé à un numéro de service. Si vous le souhaitez, vous pouvez affecter plusieurs comptes de ressources à un standard automatique, chacun avec un numéro de service distinct.
 
@@ -223,8 +208,6 @@ Pour ajouter un compte de ressource, sélectionnez **Ajouter un compte** et rech
 Une fois que vous avez ajouté des comptes de ressources, sélectionnez **Suivant**.
 
 Pour plus d’informations, consultez [Gérer les comptes de ressources Teams](manage-resource-accounts.md) .
-
----
 
 ## <a name="resources-for-complex-scenarios"></a>Ressources pour les scénarios complexes
 

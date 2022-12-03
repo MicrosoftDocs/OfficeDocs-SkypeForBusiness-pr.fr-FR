@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 810e4a2c151284786092d664170388f17c0461e6
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: HT
+ms.openlocfilehash: 93a338ef393c783c4fc2240b580f3cd316c354ee
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564112"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251887"
 ---
 # <a name="sign-out-of-microsoft-teams"></a>Déconnexion de Microsoft Teams
 
@@ -50,7 +50,7 @@ Si vous avez ajouté plusieurs comptes, vous devrez vous déconnecter de chaque 
 
 ## <a name="sign-out-of-teams-on-mobile-devices"></a>Déconnexion de Teams sur les appareils mobiles
 
-Sur un appareil mobile, vous pouvez vous déconnecter de Teams en accédant au menu, de sélectionner le menu **Plus**, puis **Se déconnecter**. Une fois déconnecté, vous devrez ressaisir vos informations d’identification lors de votre prochain lancement de l’application.
+Sur un appareil mobile, vous pouvez vous déconnecter de Teams en accédant à l’icône de l’utilisateur, en sélectionnant **Paramètres**, puis en sélectionnant **Se déconnecter**. Une fois déconnecté, vous devrez réentérer leurs informations d’identification la prochaine fois que vous lancerez l’application.
 
 ### <a name="global-sign-in-and-sign-out-for-frontline-workers"></a>Connexion et déconnexion générale des employés de terrain
 

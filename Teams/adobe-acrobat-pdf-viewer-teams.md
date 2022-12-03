@@ -18,16 +18,16 @@ description: Découvrez comment définir Adobe Acrobat en tant que visionneuse 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 44721429b81b3f502a76a037add7a880e469add5
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: 4776b2928ee734c1b37856e44d184c53bfc0dd90
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194985"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251897"
 ---
 # <a name="set-adobe-acrobat-as-the-default-pdf-viewer-in-microsoft-teams"></a>Définir Adobe Acrobat comme visionneuse PDF par défaut dans Microsoft Teams
 
-En tant qu’administrateur, vous pouvez définir Adobe Acrobat comme application par défaut pour afficher et modifier des fichiers PDF dans Microsoft Teams. Vos utilisateurs finaux peuvent afficher, rechercher, commenter et annoter des fichiers PDF sans abonnement Adobe Acrobat ni ID Adobe.
+En tant qu’administrateur, vous pouvez définir Adobe Acrobat comme application par défaut pour afficher et modifier des fichiers PDF dans Microsoft Teams. Vos utilisateurs finaux peuvent afficher et rechercher les fichiers PDF. Les utilisateurs peuvent également commenter et annoter les fichiers PDF gratuitement après s’être connectés.
 
 Pour configurer l’application Adobe Acrobat en tant que gestionnaire par défaut pour les fichiers PDF dans votre client, effectuez les étapes suivantes en tant que prérequis :
 

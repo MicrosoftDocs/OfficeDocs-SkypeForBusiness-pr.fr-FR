@@ -23,19 +23,16 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-adobe-target: true
-adobe-target-activity: ''
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-call-queue-experiment
+robots: noindex
 description: Découvrez comment configurer des files d’attente d’appels dans Microsoft Teams. Les files d’attente d’appels fournissent un message d’accueil, contiennent de la musique, la redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: ed3be4feffd516292b7dfe902ac7d1856f6f6a44
+ms.openlocfilehash: 401479f73b81fffcdcb6d5d1d3663a80e4fc7b86
 ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251787"
+ms.locfileid: "69251994"
 ---
-# <a name="create-a-call-queue-in-microsoft-teams"></a>Créer une file d’attente des appels dans Microsoft Teams
+# <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
 Les files d’attente d’appels acheminent les appelants vers des personnes de votre organisation qui peuvent vous aider à résoudre un problème ou une question particulier. Les appels sont distribués un par un aux personnes de la file d’attente, appelées *agents*.
 
@@ -69,15 +66,13 @@ Les étapes décrites dans l’article créent des files d’attente d’appels 
 
 ## <a name="follow-these-steps-to-set-up-your-call-queue"></a>Suivez ces étapes pour configurer votre file d’attente d’appels
 
-## <a name="step-1-general-info"></a>[Étape 1 : Informations générales](#tab/general-info)
-
-## <a name="step-1-set-up-general-information"></a>Étape 1 : Configurer les informations générales
+### <a name="step-1-set-up-general-information"></a>Étape 1 : Configurer les informations générales
 
 Pour configurer une file d’attente d’appels, dans le [Centre d’administration Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851), développez **Voix**, sélectionnez **Files d’attente d’appels**, puis **Ajouter**.
 
 Tapez un nom pour la file d’attente des appels dans la zone située en haut.
 
-### <a name="add-a-resource-account"></a>Ajouter un compte de ressource
+#### <a name="add-a-resource-account"></a>Ajouter un compte de ressource
 
 Pour ajouter un compte de ressource existant :
 
@@ -102,7 +97,7 @@ Les agents voient le nom du compte de ressource lorsqu’ils reçoivent un appel
 
 Pour plus d’informations, consultez [Gérer les comptes de ressources Teams](manage-resource-accounts.md).
 
-### <a name="assign-a-calling-id-optional"></a>Affecter un ID d’appel (facultatif)
+#### <a name="assign-a-calling-id-optional"></a>Affecter un ID d’appel (facultatif)
 
 **Disponible pour les utilisateurs de bureau de canal/d’appel collaboratif Teams et les utilisateurs de clients mobiles Teams avec des files d’attente d’appels standard.**
 
@@ -138,7 +133,7 @@ Une fois que vous avez créé ce nouveau compte de ressource pour l’ID d’app
 - Attribuer une licence de forfait d’appels Microsoft, attribuer un numéro de téléphone Operator Connect ou affecter une stratégie de routage vocal en ligne pour le routage direct
 - Affectez le [numéro de téléphone du service au compte de ressource](manage-resource-accounts.md#assign-a-service-number), si vous utilisez Microsoft forfait d’appels
 
-### <a name="set-the-call-queue-language"></a>Définir la langue de la file d’attente des appels
+#### <a name="set-the-call-queue-language"></a>Définir la langue de la file d’attente des appels
 
 Choisissez une [langue prise en charge](create-a-phone-system-call-queue-languages.md).
 
@@ -146,9 +141,7 @@ Cette langue sera utilisée pour les invites vocales générées par le système
 
 Une fois que vous avez sélectionné une langue, sélectionnez le bouton **Suivant** en bas de la page **Ajouter une file d’attente d’appels** .
 
-## <a name="step-2-greeting-and-music"></a>[Étape 2 : Salutation et musique](#tab/greeting-music)
-
-## <a name="step-2-add-a-greeting-and-on-hold-music"></a>Étape 2 : Ajouter un message d’accueil et de la musique en attente
+### <a name="step-2-add-a-greeting-and-on-hold-music"></a>Étape 2 : Ajouter un message d’accueil et de la musique en attente
 
 *Nouveau : **l’ajout d’un message d’accueil** (synthèse vocale (TTS)) est désormais pris en charge pour le message d’accueil principal de la file d’attente des appels.*
 
@@ -168,9 +161,7 @@ Teams fournit la musique par défaut aux appelants lorsqu’ils sont *en attente
 
 Une fois que vous avez sélectionné un message d’accueil et de la musique en attente, sélectionnez le bouton **Suivant** en bas de la page **Ajouter une file d’attente d’appels** .
 
-## <a name="step-3-call-answering"></a>[Étape 3 : Répondre aux appels](#tab/call-answering)
-
-## <a name="step-3-set-up-who-will-answer-incoming-calls"></a>Étape 3 : Configurer qui répondra aux appels entrants
+### <a name="step-3-set-up-who-will-answer-incoming-calls"></a>Étape 3 : Configurer qui répondra aux appels entrants
 
 Examinez les [conditions d’ajout des agents à une file d’attente ](plan-auto-attendant-call-queue.md#prerequisites).
 
@@ -194,7 +185,7 @@ Les clients suivants sont pris en charge lors de l’utilisation d’un canal Te
 >
 > S’il y a plus de 200 membres dans l’équipe, seuls les 200 premiers membres, par ordre alphabétique, sont ajoutés en tant qu’agents à la file d’attente des appels.
 
-### <a name="users-and-groups"></a>Utilisateurs et groupes
+#### <a name="users-and-groups"></a>Utilisateurs et groupes
 
 Vous pouvez ajouter jusqu’à 20 agents individuellement et jusqu’à 200 agents via des groupes.
 
@@ -216,7 +207,7 @@ Pour **ajouter un groupe** à la file d’attente :
 >
 > S’il y a plus de 200 membres dans le groupe, seuls les 200 premiers membres, par ordre alphabétique, sont ajoutés en tant qu’agents à la file d’attente des appels.
 
-### <a name="conference-mode"></a>Conference mode (Mode Conférence)
+#### <a name="conference-mode"></a>Conference mode (Mode Conférence)
 
 **Le mode conférence** réduit le temps nécessaire à la connexion d’un appelant à un agent après l’acceptation de l’appel. Pour que le mode conférence fonctionne, les agents de la file d’attente des appels doivent utiliser l’un des clients suivants :
 
@@ -241,9 +232,7 @@ Les comptes Teams des agents doivent être définis sur le mode TeamsOnly. Les a
 
 Une fois que vous avez sélectionné vos options de réponse aux appels, sélectionnez le bouton **Suivant** en bas de la page **Ajouter une file d’attente d’appels** .
 
-## <a name="step-4-agent-selection"></a>[Étape 4 : Sélection de l’agent](#tab/agent-selection)
-
-## <a name="step-4-select-your-agent-routing-options"></a>Étape 4 : Sélectionner les options de routage de votre agent
+### <a name="step-4-select-your-agent-routing-options"></a>Étape 4 : Sélectionner les options de routage de votre agent
 
 La **méthode de routage** détermine l’ordre dans lequel les agents reçoivent les appels de la file d’attente.
 
@@ -269,7 +258,7 @@ Sélectionnez l’une des options suivantes :
 >
 > La présentation des appels de file d’attente aux agents peut entrer en conflit avec les restrictions de routage basée sur l’emplacement. Dans ce cas, l’agent recevra un toast d’appel, mais ne pourra pas répondre à l’appel. Cette condition se poursuit jusqu’à ce qu’un autre agent soit disponible pour répondre à l’appel, que l’appelant raccroche ou que la condition de délai d’attente des appels se produise.  
 
-### <a name="presence-based-call-routing"></a>Routage des appels basé sur la présence
+#### <a name="presence-based-call-routing"></a>Routage des appels basé sur la présence
 
 **Le routage des appels basé sur la présence** utilise l’état de disponibilité des agents d’appel pour déterminer si un agent doit être inclus dans la liste de routage des appels pour la méthode de routage sélectionnée.
 
@@ -291,13 +280,13 @@ Si un agent refuse de recevoir des appels, il ne sera pas inclus dans la liste d
 >
 > Les agents qui utilisent le client Skype Entreprise ne sont pas inclus dans la liste de routage des appels lorsque le routage basé sur la présence est activé. Si certains de vos agents utilisent Skype Entreprise, n’activez pas le routage des appels basé sur la présence.
 
-### <a name="call-agents-can-opt-out-of-taking-calls"></a>Les agents d’appel peuvent refuser de passer des appels
+#### <a name="call-agents-can-opt-out-of-taking-calls"></a>Les agents d’appel peuvent refuser de passer des appels
 
 Vous pouvez spécifier si les agents d’appel ont la possibilité de refuser la prise d’appels ou non.
 
 Nous vous recommandons d’activer **l’option Les agents d’appel peuvent refuser de passer des appels**.
 
-### <a name="agent-alert-time"></a>Heure de l’alerte de l’agent
+#### <a name="agent-alert-time"></a>Heure de l’alerte de l’agent
 
 La **durée de l’alerte pour un agent** spécifie la durée pendant laquelle le téléphone d’un agent sonnera avant que la file d’attente ne redirige l’appel vers l’agent suivant.
 
@@ -306,9 +295,7 @@ La **durée de l’alerte pour un agent** spécifie la durée pendant laquelle l
 
 Une fois que vous avez sélectionné les options de routage des appels de votre agent, sélectionnez le bouton **Suivant** en bas de la page **Ajouter une file d’attente d’appels** .
 
-## <a name="step-5-call-overflow"></a>[Étape 5 : Dépassement de capacité des appels](#tab/call-overflow)
-
-## <a name="step-5-set-how-to-handle-call-overflow"></a>Étape 5 : Définir comment gérer le dépassement de capacité d’appel
+### <a name="step-5-set-how-to-handle-call-overflow"></a>Étape 5 : Définir comment gérer le dépassement de capacité d’appel
 
 Le **nombre maximal d’appels dans la file d’attente** spécifie le nombre maximal d’appels pouvant attendre dans la file d’attente à tout moment.
 
@@ -331,9 +318,7 @@ Pour les transferts externes, consultez [Prérequis](./plan-auto-attendant-call-
 
 Une fois que vous avez sélectionné vos options de gestion du dépassement de capacité d’appel, sélectionnez le bouton **Suivant** en bas de la page **Ajouter une file d’attente d’appels** .
 
-## <a name="step-6-call-timeout"></a>[Étape 6 : Délai d’expiration des appels](#tab/call-timeout)
-
-## <a name="step-6-set-how-to-handle-call-timeouts"></a>Étape 6 : Définir comment gérer les délais d’expiration des appels
+### <a name="step-6-set-how-to-handle-call-timeouts"></a>Étape 6 : Définir comment gérer les délais d’expiration des appels
 
 **Temporisation de l’appel : temps d’attente maximum** spécifie la durée maximum pendant laquelle un appel peut être mis en attente dans la file d’attente avant de le rediriger ou d’y mettre fin.
 
@@ -352,8 +337,6 @@ Pour les transferts externes, consultez [Prérequis](./plan-auto-attendant-call-
 
 Une fois que vous avez sélectionné les options de gestion du délai d’expiration des appels, sélectionnez le bouton **Envoyer** en bas de la page **Ajouter une file d’attente d’appels** .
 
----
-
 ## <a name="resources-for-complex-scenarios"></a>Ressources pour les scénarios complexes
 
 ### <a name="summary-of-recommended-call-queue-settings"></a>Résumé des paramètres de file d’attente d’appels recommandés
@@ -370,16 +353,16 @@ Les configurations ci-dessous sont recommandées :
 |Fonctionnalité                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Skype Entreprise |Téléphones IP | Files d’attente d’appels standard |Files d’attente d’appels basées sur un canal | Commentaire |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
 |**Méthodes de routage de l’agent**        |                          |          |                |     |          |                      |                          |   |
-|`Attendant Routing`              |O                         |O         |O               |O    |O         |O                     |v                         |*Par défaut*     |
+|`Attendant Routing`              |O                         |O         |O               |O    |O         |O                     |O                         |*Par défaut*     |
 |`Longest Idle`<sup>3</sup>       |O                         |O         |v               |N    |O         |O                     |v                         |*Recommandé* |
 |`Round Robin`                    |O                         |O         |O               |O    |O         |O                     |v                         |*Recommandé* |
 |`Serial`                         |O                         |O         |O               |O    |v         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Options de routage de l’agent**        |                          |          |                |     |          |                      |                          |   |
-|`Presence Based Routing`<sup>3</sup>|O                      |O         |v               |N    |O         |O                     |v                         |*Par défaut* |
-|`Agents can Opt-out`<sup>10</sup> |O                       |O         |O               |Y<sup>7</sup>|Y<sup>7</sup>|O          |v                         |*Par défaut*     |
+|`Presence Based Routing`<sup>3</sup>|O                      |O         |v               |N    |O         |O                     |O                         |*Par défaut* |
+|`Agents can Opt-out`<sup>10</sup> |O                       |O         |v               |Y<sup>7</sup>|Y<sup>7</sup>|O          |v                         |*Par défaut*     |
 |**Modes de transfert**               |                          |          |                |     |          |                      |                          |   |
-|`Conference Mode`<sup>5</sup>    |O                         |O         |v               |N    |Y<sup>6</sup>|O                  |v                         |*Par défaut* |
-|`Transfer Mode`                  |O                         |O         |O               |O    |O         |O                     |v                         |   |
+|`Conference Mode`<sup>5</sup>    |O                         |O         |v               |N    |Y<sup>6</sup>|O                  |O                         |*Par défaut* |
+|`Transfer Mode`                  |O                         |O         |O               |O    |O         |O                     |O                         |   |
 |**Appel collaboratif**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |v                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**ID d’appelant dynamique**            |                          |          |                |     |          |                      |                          |   |
@@ -388,7 +371,7 @@ Les configurations ci-dessous sont recommandées :
 |**Méthodes de connectivité RTC**    |                          |          |                |     |          |                      |                          |Voir la note 9   |
 |`Calling Plans`                  |O                         |O         |O               |O    |O         |O                     |O                         |   |
 |`Direct Routing`                 |O                         |O         |v               |N    |O         |Y<sup>6</sup>         |O                         |   |
-|`Operator Connect`               |O                         |O         |O               |     |v         |Y<sup>6</sup>         |v                         |   |
+|`Operator Connect`               |O                         |O         |O               |     |O         |Y<sup>6</sup>         |O                         |   |
 |**Divers**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |v                 |N         |O               |O    |          |O                     |v                         |              |
 
@@ -404,8 +387,8 @@ Les configurations ci-dessous sont recommandées :
 8. Seuls les canaux publics sont pris en charge.
 9. Les standards automatiques et les files d’attente d’appels ne peuvent pas transférer les appels entre les méthodes de connectivité RTC.
 10. Pour GCCH/DOD, disponible uniquement via le portail des paramètres utilisateur à l’adresse suivante :
-- GCCH : [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
-- DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
+    - GCCH : [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+    - DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 
 ### <a name="supported-clients"></a>Clients pris en charge
 

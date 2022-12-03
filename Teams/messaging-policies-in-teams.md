@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - chat-teams-channels-revamp
 description: Découvrez les stratégies de messagerie et comment elles peuvent être utilisées pour contrôler la messagerie de conversation dans Teams.
-ms.openlocfilehash: d819811ba39e3c0a8246e399977079aa15447934
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: e3925d76c66c324337982f37e704caded77b02a5
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198746"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251777"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
@@ -80,17 +80,18 @@ Un utilisateur ne peut se voir affecter qu’une seule stratégie de messagerie 
 Voici les paramètres de stratégie de messagerie que vous pouvez configurer.
 
 - **Les propriétaires peuvent supprimer les messages envoyés**  Utilisez ce paramètre pour permettre aux propriétaires de supprimer les messages de canal ou les publications envoyés par les utilisateurs.
-- **Supprimer les messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de supprimer les messages qu’ils ont envoyés dans la conversation.
+- **Supprimer les messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de supprimer les messages individuels qu’ils ont envoyés dans la conversation.
+- **Supprimer la conversation** Utilisez ce paramètre pour permettre aux utilisateurs de supprimer des conversations entières de leur liste de conversations. Cela supprimera uniquement le contenu de la conversation pour l’utilisateur effectuant l’action ; les autres utilisateurs de la conversation pourront toujours voir tous les messages. L’utilisateur qui a supprimé la conversation ne verra aucun message existant dans son flux d’activité ou les résultats de recherche pour la conversation supprimée . cet utilisateur sera également supprimé de la conversation supprimée. Les utilisateurs seront invités à confirmer la décision de supprimer une conversation. Ce paramètre est activé par défaut. Si ce paramètre est désactivé, les utilisateurs ne voient plus l’option de suppression pour leurs conversations.
 - **Modifier les messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de modifier les messages qu’ils ont envoyés dans la conversation.
 - **Confirmations de lecture** Les confirmations de lecture permettent à l’expéditeur d’un message de conversation d’être averti lorsque son message a été lu par le destinataire dans 1:1 et les conversations de groupe de 20 personnes ou moins. Les accusés de lecture de message suppriment l’incertitude quant à la lecture d’un message et améliorent la communication de l’équipe. Les confirmations de lecture ne sont pas capturées dans les rapports eDiscovery.  
-    - **Contrôlé par l’utilisateur** Cela signifie que les utilisateurs peuvent décider s’ils souhaitent activer ou désactiver les confirmations de lecture. Le paramètre par défaut dans l’application est ON. Les utilisateurs peuvent ensuite la désactiver.
-    - **Activé pour tout le monde** Cela signifie que tous les membres du locataire auront la fonctionnalité ON sans possibilité de la désactiver. Lorsque vous utilisez le paramètre **Activé pour tout le monde** , la seule façon de définir des reçus pour l’ensemble du locataire consiste à n’avoir qu’une seule stratégie de messagerie pour l’ensemble du locataire (stratégie par défaut nommée « Globale (par défaut à l’échelle de l’organisation) ») ou à faire en sorte que toutes les stratégies de messagerie du locataire utilisent les mêmes paramètres pour les reçus. La fonctionnalité d’accusés de lecture est plus efficace lorsque la fonctionnalité est activée **Activé pour tout le monde**.
-    - **Désactivé pour tout le monde** Cela signifie que la fonctionnalité est désactivée et que personne dans le locataire n’a de confirmation de lecture ni ne peut l’activer.
+  - **Contrôlé par l’utilisateur** Cela signifie que les utilisateurs peuvent décider s’ils souhaitent activer ou désactiver les confirmations de lecture. Le paramètre par défaut dans l’application est ON. Les utilisateurs peuvent ensuite la désactiver.
+  - **Activé pour tout le monde** Cela signifie que tous les membres du locataire auront la fonctionnalité ON sans possibilité de la désactiver. Lorsque vous utilisez le paramètre **Activé pour tout le monde** , la seule façon de définir des reçus pour l’ensemble du locataire consiste à n’avoir qu’une seule stratégie de messagerie pour l’ensemble du locataire (stratégie par défaut nommée « Globale (par défaut à l’échelle de l’organisation) ») ou à faire en sorte que toutes les stratégies de messagerie du locataire utilisent les mêmes paramètres pour les reçus. La fonctionnalité d’accusés de lecture est plus efficace lorsque la fonctionnalité est activée **Activé pour tout le monde**.
+  - **Désactivé pour tout le monde** Cela signifie que la fonctionnalité est désactivée et que personne dans le locataire n’a de confirmation de lecture ni ne peut l’activer.
 <a name="bkchat"> </a>
 
 - **Bavarder**  Activez ce paramètre si vous souhaitez que les utilisateurs de votre organisation puissent utiliser l’application Teams pour discuter avec d’autres personnes.
 - **Discuter avec des groupes** Les utilisateurs peuvent démarrer une conversation avec des groupes de distribution, des groupes de sécurité à extension messagerie et Microsoft 365 groupes.
-- *Utiliser Giphy dans les conversations** Si vous activez Giphys, les utilisateurs peuvent inclure Giphys dans les conversations avec d’autres personnes. Giphy est une base de données en ligne et moteur de recherche qui permet aux utilisateurs de rechercher et partager des fichiers GIF animés. Chaque Giphy est affecté à une évaluation du contenu. En plus d’activer ce paramètre, vous devez activer les [expériences connectées facultatives](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) pour autoriser Giphys dans les conversations.
+- **Utiliser Giphy dans les conversations**  Si vous activez Giphys, les utilisateurs peuvent inclure Giphys dans les conversations de conversation avec d’autres personnes. Giphy est une base de données en ligne et moteur de recherche qui permet aux utilisateurs de rechercher et partager des fichiers GIF animés. Chaque Giphy est affecté à une évaluation du contenu. En plus d’activer ce paramètre, vous devez activer les [expériences connectées facultatives](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) pour autoriser Giphys dans les conversations.
 - **Évaluation du contenu Giphy**
   - **Aucune restriction** Cela signifie que vos utilisateurs pourront insérer n’importe quel Giphy dans les conversations, quelle que soit la classification du contenu.
   - **Modérée**  Cela signifie que vos utilisateurs seront en mesure d’insérer Giphys dans les conversations, mais seront modérément limités au contenu pour adultes.
