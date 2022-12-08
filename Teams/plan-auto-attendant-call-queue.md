@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez les standards automatiques et les files d’attente d’appels, et comment les utiliser pour aider les appelants à parcourir un système de menus pour atteindre les personnes ou les services de votre organisation.
-ms.openlocfilehash: acaa4d3e4db56b1b64869f92d27f2dfd73c4afee
-ms.sourcegitcommit: 0dfe48fde767d8d9ed7bfc93684af05534acad12
+ms.openlocfilehash: 5b5076ecd8ea521071124f5400ac5c2831b4fbfe
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "69166730"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307619"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planifier les standards automatiques Teams et les files d’attente d’appels
 
@@ -78,7 +78,7 @@ Pour configurer des standards automatiques et des files d’attente d’appels, 
 > [!NOTE]
 > Les comptes de ressources sont désactivés pour la connexion et doivent le rester. La conversation et la présence ne sont pas disponibles pour ces comptes.
 
-Les agents qui reçoivent des appels des files d’attente d’appels doivent être Téléphonie – Grandes entreprises utilisateurs en ligne ou locaux activés. En outre, si les files d’attente d’appels utilisent des numéros de routage direct, les agents qui doivent conférencer ou transférer des appels ont également besoin des éléments suivants :
+Les agents qui reçoivent des appels des files d’attente d’appels doivent être Téléphonie – Grandes entreprises utilisateurs en ligne ou locaux activés. Pour plus d’informations, consultez [Attribuer, modifier ou supprimer un numéro de téléphone pour un utilisateur](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) et [Activer les utilisateurs pour le routage direct](/microsoftteams/direct-routing-enable-users). En outre, si les files d’attente d’appels utilisent des numéros de routage direct, les agents qui doivent conférencer ou transférer des appels ont également besoin des éléments suivants :
 
 - Une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md) affectée si la file d’attente des appels utilise le mode de transfert.
 - Une [licence d’audioconférence](set-up-audio-conferencing-in-teams.md) ou une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md) attribuée si la file d’attente d’appels utilise le mode conférence.

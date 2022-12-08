@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba285480bc1316d33ea6a5708ec7ef7e6d7451f9
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 7a972af743d25a490b8ad0643e84bcd5ff606743
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377622"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307739"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>Guide de démarrage rapide de Microsoft Teams Essentials pour les petites entreprises
 
@@ -29,9 +29,9 @@ Microsoft Teams Essentials est un abonnement autonome à Teams qui offre une sol
 
 ### <a name="before-you-continue"></a>Avant de continuer
 
-Microsoft Teams Essentials est disponible à l’achat via le site web direct de Microsoft et sélectionnez Microsoft Cloud Partners. Les abonnements par le biais de direct et de partenaire diffèrent d’une manière ou d’une autre, car ils utilisent des systèmes d’identité différents. Pour plus d’informations, consultez le tableau plus loin dans cet article :[ les plans Microsoft Teams Essentials](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)
+Microsoft Teams Essentials est disponible à l’achat via le site web direct de Microsoft et sélectionnez Microsoft Cloud Partners. Les abonnements par le biais de direct et de partenaire diffèrent d’une manière ou d’une autre, car ils utilisent des systèmes d’identité différents. Pour plus d’informations, consultez [plans Microsoft Teams Essentials](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)
 
-Un abonnement acheté via le site web direct de Microsoft Corporation utilise l’identité de compte Microsoft qui vous permet d’utiliser votre adresse de messagerie existante telle que TomislavK@outlook.com, TomislavK@gmail.com ou TomislavK@ContosoLandscaping.com pour vous inscrire.
+Un abonnement acheté via le site web direct de Microsoft utilise Microsoft identité de compte, ce qui vous permet d’utiliser votre adresse e-mail existante comme TomislavK@outlook.com, TomislavK@gmail.com ou TomislavK@ContosoLandscaping.com pour vous inscrire.
 
 Vous pouvez également Teams Essentials acheté par l’intermédiaire de certains partenaires Microsoft Certified Partners qui utilisent Azure Active Directory (AAD) pour vous demander de créer une nouvelle connexion/identité. Les partenaires peuvent configurer Teams Essentials pour vous connecter à votre adresse e-mail existante afin que vous puissiez vous connecter à l’aide de votre adresse e-mail existante.  
 
@@ -47,7 +47,7 @@ Si vous avez acheté Teams Essentials par le biais d’un partenaire certifié M
 Le tableau suivant répertorie les principales fonctionnalités de Microsoft Teams disponibles dans tous les plans. Certaines mises en garde s’appliquent. Pour plus d’informations, consultez les notes de bas de page. Cette table peut changer sans préavis. Pour obtenir la liste complète des fonctionnalités les plus récentes, consultez  [description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
  
-|Microsoft Teams plan | [**Microsoft Teams (gratuit)**](manage-freemium.md) | [**Microsoft Teams Essentials**](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (AAD identité de l’entreprise)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
+|Microsoft Teams plan | **Microsoft Teams (gratuit)** | [**Microsoft Teams Essentials**](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (AAD identité de l’entreprise)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
 |---------|---------|---------|---------|---------|
 |***Fonctionnalité***     |         |         |         |         |
 | **Réunions et appels** | Oui| Oui| Oui |   Oui    |
@@ -71,16 +71,15 @@ Le tableau suivant répertorie les principales fonctionnalités de Microsoft Tea
 | Tableau blanc |         |         |  Oui       |     Oui    |
 | Organisez des webinaires qui comprennent des pages d'inscription des participants, des confirmations par e-mail et des rapports. |     |     |      | Disponible dans Business Standard|
 | **Conversation et collaboration**     |         |         |         |         |
-| Conversation illimitée (groupe & privé) |     Oui    |   Oui      |   Oui      |    Oui      |
+| Conversation illimitée (groupe & un-à-un) |     Oui    |   Oui      |   Oui      |    Oui      |
 | Collaboration en temps réel dans Office applications |     Oui    |   Oui      |   Oui      |  Oui      |
 | Accès invité : Conversation avec tout le monde à l’intérieur & extérieurs à votre entreprise|     Oui    |   Oui      |   Oui      |  Oui      |
 | Sondages |     Oui    |   Oui      |   Oui      |  Oui      |
-| Modèles de conversation de groupe |     Oui    |   Oui      |   | | 
 | Équipes et canaux |     |   |   Oui      |  Oui      |
 | **Applications et services de productivité** |         |         |         ||
 | Fichier & stockage cloud de documents (par utilisateur) |     5 Go    |   10 Go      |   10 Go     | 1 To | 
 | Word, Excel, PowerPoint web & applications mobiles |     Oui   |   Oui      |   Oui      | Oui | 
-| Synchronisation du calendrier Google |     Bientôt disponible    |   Bientôt disponible      |   Oui&sup1;      | Oui&sup1; | 
+| Synchronisation du calendrier Google |     Oui    |   Oui      |   Oui&sup1;      | Oui&sup1; | 
 | Extensibilité des applications (plus de 250 applications intégrées & services) |     |        |   Oui      | Oui | 
 | Exchange d’hébergement du courrier avec l’adresse de domaine de messagerie du client |    |   | 2 Go&sup2; |    50 Go|
 |**Sécurité et conformité**     |         |         |         | | 
@@ -91,9 +90,9 @@ Le tableau suivant répertorie les principales fonctionnalités de Microsoft Tea
 | Migrez des données existantes et des utilisateurs vers Microsoft 365  |     |   | Oui  | Oui|
 | Possibilité d’ajouter des services, y compris l’audioconférence et le téléphone Teams |     |   |   Oui      | Oui |
 
-<sup>1</sup> Fournit une connexion à Google Agenda et à d’autres calendriers tiers avec la configuration suivante : [ guide de configuration Microsoft Teams Essentials (AAD Identity)](connect-teams-essentials-to-email.md)
+<sup>1</sup> Fournit une connexion à Google Calendar et à d’autres calendriers tiers avec la configuration suivante : [Guide de configuration de Microsoft Teams Essentials (AAD Identity)](connect-teams-essentials-to-email.md)
 
-<sup>2</sup> Teams Essentials (identité AAD) par le biais d’un partenaire inclut une boîte aux lettres de Exchange de 2 Go, sans archivage, ce qui permet aux utilisateurs de se synchroniser avec des fournisseurs de courrier tiers.
+<sup>2</sup> Teams Essentials (AAD Identity) via le partenaire comprend 2 Go de boîte aux lettres Exchange et aucun archivage, ce qui permet aux utilisateurs de se synchroniser avec des fournisseurs de messagerie tiers.
 
 
 > [!IMPORTANT] 
@@ -101,7 +100,7 @@ Le tableau suivant répertorie les principales fonctionnalités de Microsoft Tea
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Limites et spécifications d’administration pour Microsoft Teams Essentials
 
-Cliquez ici : [Microsoft Teams limites et spécifications](/microsoftteams/limits-specifications-teams) pour en savoir plus sur les limites, spécifications et autres exigences qui s’appliquent aux Teams.
+Consultez [Microsoft limites et spécifications teams](/microsoftteams/limits-specifications-teams) pour en savoir plus sur les limites, spécifications et autres exigences qui s’appliquent à Teams.
 
 ## <a name="get-microsoft-teams-essentials"></a>Obtenir Microsoft Teams Essentials
 
@@ -117,67 +116,60 @@ Une fois ces tâches terminées, vous êtes prêt à planifier, déployer et uti
 
 Pour ce faire, vous pouvez effectuer les trois étapes suivantes :
 
-1.  **Installer l’application Teams** Installez le client Teams sur votre PC ou appareil mobile en accédant à [Télécharger Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app) et en sélectionnant une option sous **Teams pour les particuliers.** Assurez-vous que vous avez téléchargé une option Teams pour les particuliers, car Teams pour le travail et l’école ne sont pas compatibles avec Teams Essentials. :::image type="content" source="media/essentials-downloa.png" alt-text="Capture d’écran de l’option de téléchargement de Teams pour les particuliers":::
+1.  **Installer l’application Teams** Installez le client Teams sur votre PC ou appareil mobile en accédant à [Télécharger Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app).
 
 2. **Familiarisez-vous avec Teams.** La meilleure façon de vous familiariser avec Teams consiste à commencer à l’utiliser immédiatement. Prenez le temps d’explorer l’application afin de mieux comprendre ses fonctionnalités.
 
 3. **Planifiez l’adoption.** Pour les petites entreprises, la planification de l’adoption par les utilisateurs peut être aussi simple que de montrer individuellement à vos utilisateurs comment utiliser Teams. Souvent, les clients des petites entreprises ne prennent pas en compte cette étape pour les nouvelles applications, ce qui affecte négativement la réussite et l’adoption de l’application.
 
-3.  **Gérez Microsoft Teams Essentials.** À l’instar de la version gratuite de Microsoft Teams, vous disposez d’un rôle d’administrateur limité en tant que première personne à vous inscrire à Teams Essentials dans votre organisation. Vous pouvez ajouter et supprimer des membres de l'équipe et spécifier si quelqu'un peut inviter d'autres membres avec ce rôle, mais vous n'aurez pas de capacités administratives avancées ni d'accès au centre d'administration de Microsoft Teams.
-
-## <a name="upgrade-from-a-free-version-of-microsoft-teams-to-microsoft-teams-essentials"></a>Mettre à niveau à partir d’une version gratuite de Microsoft Teams vers Microsoft Teams Essentials
-
-Si votre organisation utilise une version gratuite de Microsoft Teams, vous pouvez facilement passer à la version Teams Essentials en achetant un plan pour vos utilisateurs directement dans Teams.
-
-#### <a name="upgrade-requirements"></a>Conditions requises pour la mise à niveau
-
-Vous pouvez mettre à niveau Microsoft Teams Essentials si vous êtes la personne qui s’est inscrite à l’abonnement gratuit Teams existant. Dans la version gratuite de Microsoft Teams, la première personne qui s’est inscrite pour Teams organisation a un rôle d’administrateur limité.
+4.  **Gérez Microsoft Teams Essentials.** Tous les utilisateurs Teams (gratuits) qui ont effectué une mise à niveau vers Microsoft Teams Essentials peuvent le gérer.
 
 > [!NOTE]
-> Pour mettre à niveau et transférer vos données, vous devez acheter votre abonnement via l’application Teams [processus de mise à niveau](#how-do-i-upgrade-my-organization) décrit dans cette section. La mise à niveau vers Teams Essentials n’est actuellement pas prise en charge pour Teams utilisateurs gratuits (classiques). Vous pouvez effectuer une mise à niveau vers la version complète de Teams en suivant les étapes décrites dans cet article : **[Mettre à niveau de Teams gratuitement vers Teams.](https://support.microsoft.com/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**
+> Pour plus d’informations sur la mise à niveau de Teams (gratuit) vers Microsoft Teams Essentials, consultez [Mise à niveau de Teams (gratuit) vers Microsoft Teams Essentials](#upgrade-from-teams-free-to-microsoft-teams-essentials).
 
-#### <a name="limitations"></a>Limites
+La gestion des Microsoft Teams Essentials fait référence à l’attribution de sièges Microsoft Teams Essentials à d’autres utilisateurs ( pour le compte des lesquels vous avez acheté) dans les proportions prévues. Vous pouvez gérer Microsoft Teams Essentials via le centre de Microsoft Administration.
+
+### <a name="upgrade-from-teams-free-to-microsoft-teams-essentials"></a>Mettre à niveau de Teams (gratuit) vers Microsoft Teams Essentials
+
+Si votre organisation utilise une version gratuite de Microsoft Teams, vous pouvez facilement effectuer une mise à niveau vers la version Teams Essentials en achetant un plan pour vos utilisateurs directement dans Teams à partir de [Trouver la Microsoft Teams adaptée à vos besoins](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options).
+
+## <a name="upgrade-from-teams-free-classic-to-teams"></a>Mettre à niveau de Teams Gratuit (classique) vers Teams
+
+Un utilisateur Teams Gratuit (classique) peut effectuer une mise à niveau vers la version complète de Teams, c’est-à-dire vers des abonnements tels que Microsoft 365 Business (De base) et Microsoft 365 Business (Standard).
+
+La mise à niveau peut être effectuée en suivant les étapes spécifiées dans [Mise à niveau de Teams Gratuit (classique) vers Teams](https://support.microsoft.com/office/upgrade-from-teams-free-classic-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
+
+### <a name="limitations"></a>Limites
 
 Gardez à l’esprit les limitations suivantes :
 
-- Vous ne pouvez pas revenir à Teams (gratuit) après la mise à niveau.
+- Vous ne pouvez pas revenir à Teams Gratuit (classique) après la mise à niveau.
 
-- Vous ne pouvez pas fusionner plusieurs locataires Teams (gratuits) dans un seul locataire payant.
+- Vous ne pouvez pas fusionner plusieurs locataires Teams Gratuits (classiques) dans un seul locataire payant.
 
-- Tous les utilisateurs doivent se trouver dans le même domaine. (Tous les utilisateurs obtiennent une connexion au format de nom *d’utilisateur*@*domain.com*.)
+- Tous les utilisateurs doivent se trouver dans le même domaine. (Tous les utilisateurs recevront un e-mail de connexion au format *nom d’utilisateur*@ *domain.com*.)
 
-- Tous les utilisateurs doivent être mis à niveau : une combinaison d’utilisateurs d’abonnements Teams (gratuits) et payants dans le même locataire n’est pas prise en charge.
+- Tous les utilisateurs doivent être mis à niveau : un mélange d’utilisateurs d’abonnement Teams gratuit (classique) et payants dans le même locataire n’est pas pris en charge.
 
->[!IMPORTANT]
-> Si vous utilisez actuellement Microsoft Teams gratuitement (classique), vous allez ici pour effectuer une mise à niveau vers Microsoft 365 **[Mettre à niveau de Teams gratuitement vers Teams.](https://support.microsoft.com/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**
-
-#### <a name="how-do-i-upgrade-my-organization"></a>Comment mettre à niveau mon organisation ?
-
-Pour effectuer une mise à niveau vers la version Microsoft Teams Essentials de Teams, sélectionnez **...** dans le menu de navigation supérieur. Sélectionnez ensuite le bouton **Changer de niveau** en bas du menu déroulant qui s’affiche.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="Capture d’écran montrant le bouton Mettre à niveau"::: 
-
-Après avoir sélectionné le bouton **Mettre à niveau** dans Teams, vous êtes redirigé ici : [Microsoft Teams pour les petites entreprises](https://www.microsoft.com/microsoft-teams/upgrade-teams)
-
-Entrez l’adresse e-mail actuelle que vous utilisez pour vous connecter à Teams, puis achetez le plan Microsoft Teams Essentials.
-
-
-### <a name="can-i-purchase-teams-essentials-using-aad-identity-through-microsofts-website"></a>Puis-je acheter Teams Essentials à l’aide de l’identité AAD via le site web de Microsoft ?  
+#### <a name="can-i-purchase-teams-essentials-using-aad-identity-through-microsofts-website"></a>Puis-je acheter Teams Essentials à l’aide de l’identité AAD via le site web de Microsoft ?  
 
 Non. Teams Essentials avec l’identité AAD est disponible uniquement par le biais de certains partenaires Microsoft Cloud. Si vous êtes intéressé par l’utilisation d’un partenaire, visitez [Rechercher un partenaire Microsoft fournisseur de solutions Cloud](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider).
 
-### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Puis-je utiliser un système de courrier existant avec Microsoft Teams Essentials ?  
+#### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Puis-je utiliser un système de courrier existant avec Microsoft Teams Essentials ?  
 
-Yes. You can keep your existing email system and leverage Teams Essentials to meet, chat and collaborate.  
+Oui. Vous pouvez conserver votre système de messagerie existant et utiliser Teams Essentials pour vous rencontrer, discuter et collaborer.  
 
-### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>Puis-je connecter ma solution de calendrier existante à Teams Essentials ?
+#### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>Puis-je connecter ma solution de calendrier existante à Teams Essentials ?
+
 Yes. You can sync existing calendars from Outlook.com and Google with Teams Essentials.
 
 Pour connecter une solution de calendrier existante à Teams Essentials (AAD Identity), suivez les instructions fournies plus loin dans cet article.
 
-### <a name="how-do-i-connect-my-current-email-and-calendar-with-teams-essentials-aad-identity"></a>Comment faire connecter mon courrier et mon calendrier actuels à Teams Essentials (identité AAD) ?
+#### <a name="how-do-i-connect-my-current-email-and-calendar-with-teams-essentials-aad-identity"></a>Comment faire connecter mon courrier et mon calendrier actuels à Teams Essentials (identité AAD) ?
 
 Pour commencer, consultez [**Connecter Microsoft Teams Essentials (AAD Identity) à un système de messagerie existant avec des**](connect-teams-essentials-to-email.md) de calendrier pour plus d’informations. Vous pouvez connecter un système de messagerie existant comme Google Workspace à Microsoft Teams Essentials (AAD Identity) pour rester connecté entre les plateformes avec des calendriers et des ouvertures de session intégrés.
 
-### <a name="can-i-upgrade-teams-essentials-bought-directly-through-microsofts-website-to-microsoft-365"></a>Puis-je mettre à niveau Teams Essentials acheté directement via le site web de Microsoft vers Microsoft 365 ?
+#### <a name="can-i-upgrade-teams-essentials-bought-directly-through-microsofts-website-to-microsoft-365"></a>Puis-je mettre à niveau Teams Essentials acheté directement via le site web de Microsoft vers Microsoft 365 ?
 
 Les mises à niveau Teams Essentials vers Microsoft 365 seront bientôt disponibles.
 

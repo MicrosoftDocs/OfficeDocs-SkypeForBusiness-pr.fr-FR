@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b34f22d5ef038eff44b5488588902d1a99af8676
-ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.openlocfilehash: 5ae4adf9d803ea0b3482451a9ece5d3ceb0df598
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68486614"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307529"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -162,12 +162,12 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 
 <sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
-Pour plus d’informations sur les événements en direct, accédez aux [événements en direct Teams](teams-live-events/plan-for-teams-live-events.md#teams-live-events). Consultez également [Planifier un événement en direct Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
+Pour plus d’informations sur les événements en direct, accédez à [Événements en direct Teams](teams-live-events/plan-for-teams-live-events.md#teams-live-events). Consultez également [Planifier un événement en direct Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
 > [!IMPORTANT]
-> **Augmentation de la limite d’événements en direct Microsoft 365**
+> **Augmentation de la limite d’événements en direct Microsoft 365**
 >
-> **Pour continuer à répondre aux besoins de nos clients, nous prolongerons les augmentations de limites temporaires pour les événements en direct jusqu'au 31 décembre 2022, notamment** :
+> **Pour continuer à répondre aux besoins de nos clients, nous allons prolonger les augmentations de limites temporaires pour les événements en direct jusqu’au 30 juin 2023, notamment :**
 >
 >- Soutien aux événements accueillant jusqu'à 20 000 participants
 >- 50 événements à la fois peuvent être hébergés chez un client

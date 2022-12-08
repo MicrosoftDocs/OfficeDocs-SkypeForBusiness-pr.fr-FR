@@ -22,23 +22,21 @@ ms.collection:
 - m365-frontline
 - tier2
 - highpri
+- m365initiative-meetings
 ms.reviewer: ''
 description: Découvrez comment gérer l’application Bookings dans Teams pour les utilisateurs de votre organisation.
-ms.openlocfilehash: 4669b27efb351c375d5d5fd1104843e21c6f5ba9
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: abcd906f18b10b7d82b67682de439f1eb6592cd6
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131303"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307519"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Gérer l’application Bookings dans Microsoft Teams
 
-L’application Bookings dans Microsoft Teams offre un moyen simple de planifier des rendez-vous en personne et virtuels. Pour obtenir des exemples, les visites médicales, les consultations financières, les entrevues, le support client et les heures de bureau de l’éducation. Pour plus d’informations, consultez [Rendez-vous virtuels avec Teams et l’application Bookings](/microsoft-365/frontline/bookings-virtual-visits).
+L’application Bookings dans Microsoft Teams offre un moyen simple de planifier des rendez-vous en personne et virtuels. Par exemple, les visites médicales, les consultations financières, les entrevues, le support client et les heures de bureau de l’éducation. Pour en savoir plus, consultez [Rendez-vous virtuels avec Teams et l’application Bookings](/microsoft-365/frontline/bookings-virtual-appointments).
 
-Les planificateurs peuvent gérer plusieurs calendriers et communications du service et du personnel avec les participants internes et externes, à partir d’une seule expérience. Les rendez-vous virtuels sont organisés via des réunions Microsoft Teams qui offrent des fonctionnalités de vidéoconférence robustes.
-
-> [!NOTE]
-> Seuls les planificateurs doivent avoir l'application Bookings installée dans Teams. Le personnel qui effectue ou participe à des rendez-vous virtuels n’a pas besoin de l’application. Ils peuvent simplement rejoindre des rendez-vous à partir de leur calendrier Outlook ou Teams ou à partir du lien de réunion Teams dans leur e-mail de confirmation de réservation.
+Les planificateurs peuvent gérer plusieurs calendriers et communications du service et du personnel avec les participants internes et externes, à partir d’une seule expérience. Les rendez-vous virtuels sont organisés via des réunions Teams qui offrent des fonctionnalités de vidéoconférence robustes.
 
 ## <a name="prerequisites-to-use-the-bookings-app-in-teams"></a>Conditions préalables à l’utilisation de l’application Bookings dans Teams
 
@@ -50,9 +48,9 @@ Les planificateurs peuvent gérer plusieurs calendriers et communications du ser
 
 ## <a name="availability-of-bookings-in-teams"></a>Disponibilité de Bookings dans Teams
 
-Microsoft Bookings’application pour Teams est disponible sur le bureau et sur le web. Il se trouve sous [Applications dans Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) et sous **Gérer les applications** dans le Centre d’administration Teams.
+L’application Bookings pour Teams est disponible sur le bureau et sur le web. Il se trouve sous [Applications dans Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) et sous **Gérer les applications** dans le Centre d’administration Teams.
 
-### <a name="control-access-to-bookings-within-your-organization"></a>Contrôler l’accès à Bookings au sein de votre organisation
+## <a name="control-access-to-bookings-within-your-organization"></a>Contrôler l’accès à Bookings au sein de votre organisation
 
 Plusieurs méthodes s’offrent à vous pour contrôler qui a accès à l’application Bookings et à des fonctionnalités spécifiques de l’application. Vous pouvez rendre Microsoft Bookings application disponible ou la désactiver à partir de Centre d'administration Microsoft 365. Vous pouvez également créer une stratégie d’application Bookings pour permettre à certains utilisateurs de créer des calendriers Bookings. Consultez [Obtenir l’accès à Microsoft Bookings](/microsoft-365/bookings/get-access).
 
@@ -64,29 +62,41 @@ Pour activer la meilleure expérience pour Bookings, créez une stratégie de r�
 
 Pour plus d’informations sur les stratégies de réunion, consultez [Gérer les stratégies de réunion dans Teams](meeting-policies-in-teams.md) et [Stratégies de réunion et expiration des réunions dans Teams](meeting-expiration.md).
 
+## <a name="sms-text-notifications"></a>Notifications par SMS
+
+![Icône d’informations](media/info.png) **Cette fonctionnalité est déplacée vers [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (préversion). Les utilisateurs peuvent continuer à utiliser cette fonctionnalité pendant la période de préversion. Après la préversion, les utilisateurs ont besoin d’une licence Teams Premium.**
+
+Vous pouvez contrôler si des notifications SMS peuvent être envoyées à des participants externes pour des rendez-vous virtuels planifiés par votre personnel au sein de votre organisation.
+
+Par défaut, ce paramètre est activé et les notifications sms sont activées pour tous les calendriers Bookings de votre organisation. N’oubliez pas que les administrateurs et les planificateurs de Bookings peuvent choisir ultérieurement de désactiver ou d’activer les notifications PAR SMS en fonction des besoins dans les [types de rendez-vous planifiés](/microsoft-365/frontline/bookings-virtual-appointments#scheduled-appointment-type) et les rendez-vous individuels planifiés.
+
+Pour configurer ce paramètre, accédez à la Centre d'administration Microsoft 365 \> **Paramètres** \> **de l’organisation**, puis choisissez **Bookings**. Activez ou désactivez la case **à cocher Autoriser Microsoft à envoyer des notifications par SMS**.
+
+En savoir plus sur la configuration des [notifications sms pour votre organisation](/microsoft-365/bookings/turn-bookings-on-or-off).
+
 ## <a name="optional-staff-approvals-setting"></a>Paramètre d’approbation facultative du personnel
 
 Vous pouvez demander au personnel de s’inscrire avant que Bookings ne partage ses informations de disponibilité et avant que d’autres personnes puissent planifier un rendez-vous avec eux.
 
-Pour activer ce paramètre, accédez à **Centre d'administration Microsoft 365** \> **Paramètres** \> **Paramètres**, puis sélectionnez **Réservations**.
+Pour activer ce paramètre, accédez à la Centre d'administration Microsoft 365 \> **Paramètres** \> **De l’organisation**, puis choisissez **Bookings**. Cochez la case **Exiger les approbations du personnel** .
 
 Lorsque ce paramètre est activé, le personnel reçoit un e-mail dans lequel il est invité à approuver l’adhésion à un calendrier de réservation.  
 
-Cette fonctionnalité est déployée progressivement dans le monde entier pour les clients Microsoft 365 et Office 365. Si toutes les options ne sont pas encore disponibles dans votre environnement, revenez bientôt.
+En savoir plus sur [la configuration du paramètre d’approbations du personnel](/microsoft-365/bookings/turn-bookings-on-or-off).
 
-## <a name="changing-your-default-domain-when-setting-up-bookings-mailbox"></a>Modification de votre domaine par défaut lors de la configuration de la boîte aux lettres Bookings
+## <a name="changing-your-default-domain-when-setting-up-a-bookings-mailbox"></a>Modification de votre domaine par défaut lors de la configuration d’une boîte aux lettres Bookings
 
 Lors de la configuration d’une boîte aux lettres Bookings, le domaine de courrier par défaut de votre organisation Microsoft 365 ou Office 365 est utilisé. Toutefois, le domaine par défaut peut entraîner des problèmes lors de l’envoi d’invitations à une réunion à des destinataires externes. Par exemple, votre invitation peut être marquée comme courrier indésirable et déplacée vers le dossier de courrier indésirable du destinataire, de sorte que le destinataire peut ne jamais voir votre invitation.
 
-Nous vous recommandons de modifier le domaine par défaut avant de créer votre boîte aux lettres Bookings. Consultez le [FAQ sur les domaines](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-microsoft-365).
+Nous vous recommandons de modifier le domaine par défaut avant de créer votre boîte aux lettres Bookings. Consultez [questions fréquentes (FAQ) sur les domaines](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-microsoft-365).
 
 Si vous devez modifier le domaine par défaut après avoir créé votre boîte aux lettres Bookings, utilisez PowerShell.
 
-```PowerShell
+```powerShell
 Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress business@domain.com -EmailAddresses business@domain.com
 ```
 
-Consultez la documentation PowerShell pour définir l’applet de commande [de boîte aux lettres](/powershell/module/exchange/mailboxes/set-mailbox) .
+Pour plus d’informations, consultez [Définir une boîte aux lettres](/powershell/module/exchange/mailboxes/set-mailbox).
 
 > [!NOTE]
 > Si vous utilisez une configuration Exchange hybride, nous vous recommandons de tester minutieusement le flux de messagerie entre Exchange local et Exchange Online lors de la modification du domaine par défaut.
@@ -103,7 +113,7 @@ Pour envoyer des commentaires, sélectionnez l’option **Aide** en bas de la ba
 
 ## <a name="related-articles"></a>Articles connexes
 
-[Gérer l’expérience de participation pour les rendez-vous virtuels Teams sur les navigateurs](/microsoft-365/frontline/browser-join)
+[Gérer l’expérience de participation pour Teams Rendez-vous virtuels sur les navigateurs](/microsoft-365/frontline/browser-join)
 
 
   [Documentation Bookings pour les utilisateurs finaux](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)
