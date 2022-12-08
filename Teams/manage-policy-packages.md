@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -20,14 +21,16 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser, gérer et personnaliser des packages de stratégie dans Microsoft Teams pour simplifier, simplifier et fournir une cohérence lors de la gestion des stratégies pour les groupes d’utilisateurs.
-ms.openlocfilehash: 138b1cada469a71cf844c8a73b1cb12511fc68b2
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: c2c5884261a4e55c64f3164fd805f708ed42598d
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245689"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69318416"
 ---
 # <a name="managing-policy-packages-in-teams"></a>Gestion des packages de stratégie dans Teams
+
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Un package de stratégie dans Microsoft Teams est un ensemble de stratégies et de paramètres de stratégie prédéfinis que vous pouvez affecter aux utilisateurs ayant des rôles similaires dans votre organisation. Nous avons créé des packages de stratégie pour simplifier, simplifier et fournir une cohérence lors de la gestion des stratégies pour les groupes d’utilisateurs au sein de votre organisation.  
 
@@ -81,7 +84,7 @@ Par exemple, lorsque vous attribuez le package de stratégie Éducation (Enseign
 ## <a name="custom-policy-packages"></a>Packages de stratégie personnalisés
 
 > [!NOTE]
-> La fonctionnalité packages de stratégie personnalisée est disponible en préversion. Pour utiliser cette fonctionnalité après la préversion, chaque utilisateur a besoin de la licence Teams Premium.
+> Les packages de stratégies personnalisées nécessitent Teams Premium.
 
 Les packages de stratégie personnalisés vous permettent de regrouper votre propre ensemble de stratégies pour les utilisateurs ayant des rôles similaires dans votre organisation. Créez vos propres packages de stratégies en ajoutant les types de stratégies et les stratégies dont vous avez besoin.
 
