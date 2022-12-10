@@ -3,7 +3,7 @@ title: Configurer la passerelle SIP
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/30/2021
+ms.date: 12/8/2022
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -22,28 +22,28 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b785ffe1c9e08507c1d45a1e837cf7020ec1d711
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: c93aec7cb65cdd40c05a540b51a3da8ba268c7e9
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584302"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343282"
 ---
 # <a name="configure-sip-gateway"></a>Configurer la passerelle SIP
 
-Cet article explique comment configurer la passerelle SIP afin que votre organisation puisse utiliser des appareils SIP compatibles avec Microsoft Teams. Pour savoir ce que la passerelle SIP peut faire pour votre organisation et le matériel, les logiciels et les licences dont votre organisation a besoin pour celle-ci, lisez [Plan for SIP Gateway](sip-gateway-plan.md).
+Cet article explique comment configurer la passerelle SIP afin que votre organisation puisse utiliser des appareils SIP compatibles avec Microsoft Teams. Pour savoir ce que la passerelle SIP peut faire pour votre organisation et le matériel, les logiciels et les licences dont votre organisation a besoin, consultez [Planifier la passerelle SIP](sip-gateway-plan.md).
 
 Avant de pouvoir configurer la passerelle SIP, procédez comme suit :
 
-- **Réinitialiser les appareils SIP aux paramètres d’usine par défaut.** Vous ou les utilisateurs de votre organisation devez réinitialiser les paramètres par défaut de chaque appareil SIP utilisé avec la passerelle SIP. Pour savoir comment procéder, consultez les instructions du fabricant.
+- **Réinitialisez les appareils SIP aux paramètres d’usine par défaut.** Vous ou les utilisateurs de votre organisation devez réinitialiser chaque appareil SIP utilisé avec la passerelle SIP à ses paramètres d’usine par défaut. Pour savoir comment procéder, consultez les instructions du fabricant.
 
-- **Ouvrez votre pare-feu sur Microsoft 365 et Teams.** Ouvrez le pare-feu de votre réseau pour le trafic Microsoft 365 et Teams, comme décrit dans [Office 365 URL et plages d’adresses IP](/microsoft-365/enterprise/urls-and-ip-address-ranges). Les règles de pare-feu sont nécessaires uniquement pour le trafic sortant.
+- **Ouvrez votre pare-feu sur Microsoft 365 et Teams.** Ouvrez le pare-feu de votre réseau pour Microsoft trafic 365 et Teams, comme décrit dans [Office 365 URL et plages d’adresses IP](/microsoft-365/enterprise/urls-and-ip-address-ranges). Les règles de pare-feu sont nécessaires uniquement pour le trafic sortant.
 
-- **Assurez-vous que les appareils SIP ne se trouvent pas derrière un proxy.** Assurez-vous que le trafic http/s contourne n’importe quel proxy http/s d’entreprise.
+- **Assurez-vous que les appareils SIP ne se trouvent pas derrière un proxy.** Assurez-vous que le trafic HTTP/s contourne tout proxy HTTP/s d’entreprise.
 
-- **Ouvrez le port UDP.** Ouvrez le port UDP dans la plage 49152 à 53247 pour les plages IP 52.112.0.0/14 et 52.120.0.0/14.
+- **Ouvrez le port UDP.** Ouvrez le port UDP dans la plage 49152 à 53247 pour les plages d’adresses IP 52.112.0.0/14 et 52.122.0.0/15.
 
-- **Ouvrez le port TCP.** Ouvrez le port TCP 5061 pour les plages IP 52.112.0.0/14 et 52.120.0.0/14.
+- **Ouvrez le port TCP.** Ouvrez le port TCP 5061 pour les plages d’adresses IP 52.112.0.0/14 et 52.122.0.0/15.
 
 - **Ouvrez les points de terminaison https suivants (adresses IP et URL) :**
 
@@ -75,55 +75,55 @@ Cet article explique également comment :
 
 - [Affichez et surveillez vos appareils SIP.](#view-and-monitor-sip-devices)
 
-- [Activez la prise en charge d’une interface utilisateur multilingue.](#set-a-sip-devices-ui-language)
+- [Activer la prise en charge d’une interface utilisateur multilingue.](#set-a-sip-devices-ui-language)
 
-## <a name="verify-that-sip-gateway-is-available-for-your-organization"></a>Vérifier que la passerelle SIP est disponible pour votre organisation
+## <a name="verify-that-sip-gateway-is-available-for-your-organization"></a>Vérifiez que la passerelle SIP est disponible pour votre organisation
 
 1. Connectez-vous au [Centre d’administration Teams](https://admin.teams.microsoft.com/).
 
-2. À gauche, sélectionnez **Appareils Teams** et vérifiez si l’onglet **Appareils SIP** est visible. Si c’est le cas, le service de passerelle SIP est activé pour votre organisation.
+2. À gauche, sélectionnez **Appareils Teams** et voyez si l’onglet **Appareils SIP** est visible. Si c’est le cas, le service passerelle SIP est activé pour votre organisation.
 
 ## <a name="enable-sip-gateway-for-the-users-in-your-organization"></a>Activer la passerelle SIP pour les utilisateurs de votre organisation
 
-Vous pouvez activer la passerelle SIP pour votre organisation de deux manières : à l’aide du Centre d’administration Teams ou d’une applet de commande PowerShell.
+Vous pouvez activer la passerelle SIP pour votre organisation de deux façons : à l’aide du Centre d’administration Teams ou à l’aide d’une applet de commande PowerShell.
 
 ### <a name="by-using-teams-admin-center"></a>À l’aide du Centre d’administration Teams
 
-Pour activer la passerelle SIP dans le Centre d’administration Teams, procédez comme suit :
+Pour activer la passerelle SIP dans le centre d’administration Teams, procédez comme suit :
 
-1. Accéder au [Centre d’administration Teams](https://admin.teams.microsoft.com/)
+1. Accédez au [Centre d’administration Teams](https://admin.teams.microsoft.com/)
 
-2. À gauche, sous **Voix**, **sélectionnez Stratégies d’appel**.
+2. À gauche, sous **Voix**, sélectionnez **Stratégies d’appel**.
 
-3. À droite sous **Gérer les stratégies**, sélectionnez la stratégie d’appel appropriée affectée aux utilisateurs ou, si nécessaire, créez une stratégie d’appel et attribuez-la aux utilisateurs requis.
+3. À droite, sous **Gérer les stratégies**, sélectionnez la stratégie d’appel appropriée affectée aux utilisateurs ou, si nécessaire, créez une stratégie d’appel et affectez-la aux utilisateurs requis.
 
 4. Sélectionnez **Gérer les stratégies**, sélectionnez une stratégie, puis **sélectionnez Modifier**.
 
-5. Activez le paramètre pour **les appareils SIP qui peuvent être utilisés pour les appels**, puis **sélectionnez Enregistrer**.
+5. Activez le paramètre pour **que les appareils SIP puissent être utilisés pour les appels**, puis sélectionnez **Enregistrer**.
 
 
 ### <a name="by-using-powershell"></a>À l’aide de PowerShell
 
-Vous pouvez également activer la passerelle SIP à l’aide de l’applet de commande PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) . Pour activer les utilisateurs pour les appareils SIP, sélectionnez une stratégie et définissez l’attribut `-AllowSIPDevicesCalling` `True`sur . La valeur par défaut étant `False`, les utilisateurs ne pourront pas utiliser leurs appareils SIP, sauf si vous les activez.
+Vous pouvez également activer la passerelle SIP à l’aide de l’applet de commande [PowerShell Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy) . Pour activer les utilisateurs pour les appareils SIP, sélectionnez une stratégie et définissez l’attribut sur `-AllowSIPDevicesCalling` `True`. La valeur par défaut est `False`, de sorte que les utilisateurs ne pourront pas utiliser leurs appareils SIP, sauf si vous les activez.
 
 > [!NOTE]
-> - La propagation de stratégie peut prendre jusqu’à 24 heures.
+> - La propagation de la stratégie peut prendre jusqu’à 24 heures.
 
-## <a name="set-the-sip-gateway-provisioning-server-url"></a>Définir l’URL du serveur d’approvisionnement de passerelle SIP
+## <a name="set-the-sip-gateway-provisioning-server-url"></a>Définir l’URL du serveur d’approvisionnement de la passerelle SIP
 
 Vous pouvez définir l’URL du serveur d’approvisionnement de la passerelle SIP dans votre serveur DHCP (Dynamic Host Configuration Protocol). Les utilisateurs qui travaillent à distance doivent le configurer manuellement.
 
 ### <a name="using-dhcp"></a>Utilisation de DHCP
 
-Pour chaque appareil SIP, définissez l’une des URL de serveur d’approvisionnement de passerelle SIP suivantes : 
+Pour chaque appareil SIP, définissez l’une des URL de serveur d’approvisionnement de la passerelle SIP suivantes : 
 
 - EMEA: `http://emea.ipp.sdg.teams.microsoft.com`
 - Amériques: `http://noam.ipp.sdg.teams.microsoft.com`
 - APAC: `http://apac.ipp.sdg.teams.microsoft.com`
 
-Ajoutez des appareils SIP à votre organisation Teams en configurant l’URL du serveur d’approvisionnement de passerelle SIP ci-dessus dans votre serveur DHCP. Pour en savoir plus sur le serveur DHCP, consultez [Déployer et gérer DHCP](/training/modules/deploy-manage-dynamic-host-configuration-protocol). En outre, vous pouvez utiliser l’option DHCP 42 pour spécifier le serveur NTP (Network Time Protocol) et l’option DHCP 2 pour spécifier le décalage du temps universel coordonné (UTC) en secondes. Les appareils de votre organisation seront routées vers le serveur d’approvisionnement de la passerelle SIP. Les téléphones SIP correctement approvisionnés affichent le logo Teams et un bouton soft pour la connexion.
+Ajoutez des appareils SIP à votre organisation Teams en configurant l’URL de serveur d’approvisionnement de la passerelle SIP ci-dessus dans votre serveur DHCP. Pour en savoir plus sur le serveur DHCP, consultez [Déployer et gérer DHCP](/training/modules/deploy-manage-dynamic-host-configuration-protocol). En outre, vous pouvez utiliser l’option DHCP 42 pour spécifier le serveur NTP (Network Time Protocol) et l’option DHCP 2 pour spécifier le décalage par rapport au temps universel coordonné (UTC) en secondes. Les appareils de votre organisation seront routés vers le serveur d’approvisionnement de la passerelle SIP. Les téléphones SIP correctement provisionnés affichent le logo Teams et un bouton logiciel pour la connexion.
 
-Vérifiez que les appareils SIP sont sur la version minimale du microprogramme prise en charge pour l’intégration. Lors de l’intégration, la passerelle SIP envoie (push) l’interface utilisateur de configuration et d’authentification par défaut à l’appareil. Pour connaître la version requise du microprogramme pour les appareils SIP, consultez [Plan for SIP Gateway](sip-gateway-plan.md).
+Vérifiez que les appareils SIP se trouvent sur la version minimale du microprogramme prise en charge pour l’intégration. Pendant l’intégration, la passerelle SIP envoie (push) la configuration et l’interface utilisateur d’authentification par défaut à l’appareil. Pour connaître la version de microprogramme requise pour les appareils SIP, consultez [Planifier la passerelle SIP](sip-gateway-plan.md).
 
 ### <a name="manually"></a>Manuellement
 
@@ -137,7 +137,7 @@ Les utilisateurs qui travaillent à distance doivent configurer manuellement l�
 
 > [!NOTE]
 > - Seuls les appareils SIP compatibles peuvent être intégrés à la passerelle SIP. 
-> - Les téléphones IP Cisco doivent être flashés sur le microprogramme multiplateforme avant de pouvoir être intégrés. Pour savoir comment faire, consultez le [guide de conversion du microprogramme Cisco](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html).
+> - Les téléphones IP Cisco doivent être flashés vers le microprogramme multiplateforme avant de pouvoir être intégrés. Pour savoir comment procéder, consultez [guide de conversion du microprogramme Cisco](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html).
 > - Pour les téléphones Yealink, utilisez l’option 66.
 > - Pour les téléphones Cisco, Poly et AudioCode, utilisez l’option 160. 
 > - Pour les appareils Cisco, ajoutez **/$PSN.xml** à l’URL du serveur d’approvisionnement.
@@ -151,64 +151,64 @@ L’accès conditionnel est une fonctionnalité Azure Active Directory (Azure AD
     - USA Est : 52.170.38.140
     - USA Ouest : 40.112.144.212
 -   Région EMEA :
-    - Ue Nord : 40.112.71.149
+    - UE Nord : 40.112.71.149
     - UE Ouest : 40.113.112.67
 -   Région APAC :
     - Australie Est : 20.92.120.71
     - Australie Sud-Est : 13.73.115.90
 
-Pour plus d’informations, consultez [les plages d’adresses IP](/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
+Pour plus d’informations, consultez [Plages d’adresses IP](/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
-## <a name="provision-and-enroll-sip-devices-as-common-area-phones"></a>Approvisionner et inscrire des appareils SIP en tant que téléphones de zone commune
+## <a name="provision-and-enroll-sip-devices-as-common-area-phones"></a>Provisionner et inscrire des appareils SIP en tant que téléphones de zone commune
 
 > [!NOTE]
 > Un appareil SIP doit être intégré à la passerelle SIP avant de pouvoir être inscrit.
 
-Pour simplifier vos tâches, vous pouvez inscrire des appareils SIP dans le Centre d’administration Teams un par un ou par lots. Voici comment procéder :
+Pour simplifier vos tâches, vous pouvez inscrire des appareils SIP dans le centre d’administration Teams, un par un ou par lots. Voici comment procéder :
 
 1. Connectez-vous au [**Centre d’administration Teams**](https://admin.teams.microsoft.com).
 
-2. Sélectionnez **appareils** > **Teams appareils SIP**.
+2. Sélectionnez **Appareils** > **Teams Appareils SIP.**
 
-3. En haut à droite, sélectionnez **Actions** > **Provisionner les appareils** et effectuez l’une des étapes suivantes :
+3. En haut à droite, sélectionnez **Actions** > **Provisionner des appareils** et suivez l’une des étapes suivantes :
 
-  - **Pour approvisionner un appareil :**
+  - **Pour provisionner un appareil :**
 
-     a. Sous **En attente de l’activation**, **sélectionnez Ajouter**.
+     a. Sous **En attente d’activation**, sélectionnez **Ajouter**.
 
-     b. Dans le volet **Ajouter des adresses MAC** , entrez **l’adresse MAC** et **l’emplacement** de l’appareil, puis **sélectionnez Appliquer**.
+     b. Dans le volet **Ajouter des adresses MAC** , entrez l’adresse **MAC** et **l’emplacement** de l’appareil, puis sélectionnez **Appliquer**.
      
-     c. Sous **Attendre l’activation**, sélectionnez l’appareil que vous venez d’ajouter, puis **sélectionnez Générer le code de vérification**.
+     c. Sous **En attente d’activation**, sélectionnez l’appareil que vous venez d’ajouter, puis sélectionnez **Générer le code de vérification**.
      
-     d. Dans le volet **Approvisionner des appareils** , sous **Code de vérification**, notez le code de vérification de l’appareil SIP.
+     d. Dans le volet **Provisionner des appareils** , sous **Code de vérification**, notez le code de vérification de l’appareil SIP.
 
-   - **Pour provisionner de nombreux appareils :**
+   - **Pour approvisionner de nombreux appareils :**
 
-     a. Sous **En attente de l’activation**, à droite, sélectionnez **Exporter** (icône Microsoft Excel).
+     a. Sous **En attente d’activation**, à droite, sélectionnez **Exporter** (icône Microsoft Excel).
      
-     b. Dans le volet **Approvisionner des appareils** , sous **Charger plusieurs adresses MAC**, sélectionnez **télécharger un modèle**.
+     b. Dans le volet **Provisionner des appareils** , sous **Charger plusieurs adresses MAC**, sélectionnez **Télécharger un modèle**.
      
      c. Enregistrez **Template_Provisioning.csv** sur votre ordinateur et renseignez les champs **ID MAC** et **Emplacement** .
     
-     d. Dans le volet **Approvisionner des appareils** , **sélectionnez Charger plusieurs adresses MAC**. 
+     d. Dans le volet **Provisionner des appareils** , sélectionnez **Charger plusieurs adresses MAC**. 
 
-     E. À droite du volet **Charger des adresses MAC** , **sélectionnez Sélectionner un fichier, puis sélectionnez** le **fichierTemplate_Provisioning.csv** qui contient vos données.
+     E. À droite, dans le volet **Charger les adresses MAC** , sélectionnez **Sélectionner un fichier**, puis sélectionnez le fichier **Template_Provisioning.csv** qui contient vos données.
 
-     F. Dans le volet **Approvisionner des appareils** , sous **En attente d’activation**, sélectionnez un appareil, puis **sélectionnez Générer le code de vérification** pour générer un code de vérification unique pour chaque appareil approvisionné. Notez le code de vérification pour chaque appareil SIP.
+     F. Dans le volet **Provisionner les appareils** , sous **En attente d’activation**, sélectionnez un appareil, puis sélectionnez **Générer un code de vérification** pour générer un code de vérification à usage unique pour chaque appareil approvisionné. Notez le code de vérification pour chaque appareil SIP.
 
-4. Sur l’appareil SIP, composez le code de fonctionnalité d’inscription suivi du code de vérification. Sur l’appareil SIP, composez le code \*de fonctionnalité d’inscription 55* (utilisé par la passerelle SIP pour la validation du code de vérification unique de l’inscription), suivi du code de vérification généré dans teams Administration Center pour cet appareil particulier. Par exemple, si le code de vérification est 123456, composez \*55\*123456 pour inscrire l’appareil.
+4. Sur l’appareil SIP, composez le code de fonctionnalité d’inscription suivi du code de vérification. Sur l’appareil SIP, composez le code \*de fonctionnalité d’inscription 55* (utilisé par la passerelle SIP pour la validation du code de vérification à usage unique de l’inscription), suivi du code de vérification généré dans teams Administration Center pour cet appareil particulier. Par exemple, si le code de vérification est 123456, composez \*le 55\*123456 pour inscrire l’appareil.
 
-5.  Dans le volet **Approvisionner des appareils** , sous **En attente de connexion**, sélectionnez **Déconnecter**.
+5.  Dans le volet **Provisionner les appareils** , sous **En attente de connexion**, sélectionnez **Déconnecté**.
 
-6. Dans la boîte de dialogue **Se connecter à un utilisateur** , copiez ou notez le code d’appairage de l’appareil SIP.
+6. Dans la boîte de dialogue **Se connecter à un utilisateur** , copiez ou notez le code de couplage de l’appareil SIP.
 
-7. Accédez à [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin), puis, sous **Entrer du code**, entrez le code d’appairage de l’appareil SIP, puis sélectionnez **Suivant**.
+7. Accédez à [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin), puis, sous **Entrer le code, entrez** le code de jumelage de l’appareil SIP, puis sélectionnez **Suivant**.
 
-8. Dans **la page de** connexion Microsoft, dans le **champ Email ou téléphone**, entrez l’adresse e-mail de l’appareil SIP, puis sélectionnez **Suivant**.
+8. Dans la page Microsoft **Connexion**, dans le champ **Email ou téléphone**, entrez l’adresse e-mail de l’appareil SIP, puis sélectionnez **Suivant**.
 
-9. Dans la page **Mot de passe** , entrez le mot de passe de l’adresse e-mail de l’appareil SIP, puis **sélectionnez Se connecter**.
+9. Dans la page **Mot de passe** , entrez le mot de passe de l’adresse e-mail de l’appareil SIP, puis sélectionnez **Se connecter**.
 
-10. Dans la page **Passerelle Des appareils SIP Teams** , sélectionnez **Continuer**.
+10. Dans la page **Vous essayez de vous connecter à la passerelle d’appareils SIP Teams** , sélectionnez **Continuer**.
 
 ## <a name="how-to-sign-in-and-sign-out"></a>Comment se connecter et se déconnecter
 
@@ -216,39 +216,39 @@ Seule la connexion locale est prise en charge pour les appareils personnels des 
 
 1. Connectez-vous au [**Centre d’administration Teams**](https://admin.teams.microsoft.com).
 
-2. Sélectionnez **appareils** > **Teams appareils SIP**.
+2. Sélectionnez **Appareils** > **Teams Appareils SIP.**
 
-3. À droite, sélectionnez un appareil SIP, puis **déconnectez-vous**.
+3. À droite, sélectionnez un appareil SIP, puis se **déconnecter**.
 
 
-### <a name="user-pairing-and-sign-in"></a>Association d’utilisateurs et connexion
+### <a name="user-pairing-and-sign-in"></a>Jumelage d’utilisateurs et connexion
 
-Pour associer un appareil SIP après l’authentification de l’utilisateur à l’aide des informations d’identification d’entreprise, un utilisateur doit :
+Pour coupler un appareil SIP après que l’utilisateur s’authentifie à l’aide des informations d’identification d’entreprise, un utilisateur doit :
 
-1. Appuyez sur **Se connecter** sur le téléphone SIP pour afficher l’URL d’authentification et le code de jumelage. Le code d’appairage respecte le temps. S’il expire, l’utilisateur doit appuyer de **nouveau** sur le téléphone et redémarrer le processus de connexion.
+1. Appuyez sur **Connexion** sur le téléphone SIP pour afficher l’URL d’authentification et le code de couplage. Le code de jumelage respecte le temps. S’il expire, l’utilisateur doit appuyer sur **Précédent** sur le téléphone et redémarrer le processus de connexion.
 
-2. Accédez à l’URL d’authentification sur le bureau ou le navigateur mobile de l’utilisateur et utilisez les informations d’identification d’entreprise pour vous connecter.
+2. Accédez à l’URL d’authentification dans le navigateur de bureau ou mobile de l’utilisateur et utilisez les informations d’identification de l’entreprise pour se connecter.
 
-3. Entrez le code d’appairage affiché sur le téléphone SIP dans l’application d’authentification web pour associer le téléphone SIP au compte de l’utilisateur. Lors d’une connexion réussie, ce qui peut prendre un certain temps, le téléphone SIP affiche le numéro de téléphone et le nom d’utilisateur, si l’appareil le prend en charge.
+3. Entrez le code de couplage affiché sur le téléphone SIP dans l’application d’authentification web pour associer le téléphone SIP au compte de l’utilisateur. Lors d’une connexion réussie, ce qui peut prendre un certain temps, le téléphone SIP affiche le numéro de téléphone et le nom d’utilisateur, si l’appareil le prend en charge.
 
 > [!NOTE]
-> L’emplacement de l’appareil affiché sur l’application d’authentification web Azure Active Directory est le centre de données de la passerelle SIP auquel l’appareil est connecté. Les téléphones SIP dans l’étendue ne étant pas compatibles avec OAuth, la passerelle SIP authentifie l’utilisateur via l’application d’authentification web, puis associe l’appareil aux informations d’identification de l’utilisateur. En savoir plus ici : [Plateforme d'identités Microsoft et le flux d’octroi d’autorisation d’appareil OAuth 2.0](/azure/active-directory/develop/v2-oauth2-device-code).
+> L’emplacement de l’appareil affiché sur l’application d’authentification web Azure Active Directory est le centre de données de passerelle SIP auquel l’appareil est connecté. Les téléphones SIP dans l’étendue ne sont pas compatibles avec OAuth. La passerelle SIP authentifie donc l’utilisateur via l’application d’authentification web, puis associe l’appareil aux informations d’identification de l’utilisateur. En savoir plus ici : [Plateforme d'identités Microsoft et le flux d’octroi d’autorisation d’appareil OAuth 2.0](/azure/active-directory/develop/v2-oauth2-device-code).
 
 ### <a name="sign-out"></a>Déconnexion
 
 Pour se déconnecter, un utilisateur d’appareil peut :
 
-- Appuyez sur **Se déconnecter** sur l’appareil SIP et suivez les étapes décrites sur l’appareil. 
+- Appuyez sur **Déconnexion** sur l’appareil SIP et suivez les étapes décrites sur l’appareil. 
 
-Pour déconnecter un appareil sur le Centre d’administration Teams :
+Pour déconnecter un appareil dans le Centre d’administration Teams :
 
 1. Connectez-vous au [**Centre d’administration Teams**](https://admin.teams.microsoft.com).
 
-2. Sélectionnez **appareils** > **Teams appareils SIP**.
+2. Sélectionnez **Appareils** > **Teams Appareils SIP.**
 
-3. À droite, dans le volet **appareils SIP** , sélectionnez l’appareil.
+3. À droite, dans le volet **Appareils SIP** , sélectionnez l’appareil.
 
-4. Dans le **volet Détails** de l’appareil, sélectionnez l’onglet **Détails** , puis en haut à droite dans le menu **Actions** , sélectionnez **Se déconnecter**. 
+4. Dans le **volet Détails** de l’appareil, sélectionnez l’onglet **Détails** , puis en haut à droite du menu **Actions** , sélectionnez **Se déconnecter**. 
 
 ## <a name="view-and-monitor-sip-devices"></a>Afficher et surveiller les appareils SIP
 
@@ -256,29 +256,29 @@ Vous pouvez afficher et surveiller votre inventaire d’appareils SIP dans le Ce
 
 1. Connectez-vous au [Centre d’administration Teams](https://admin.teams.microsoft.com/).
 
-2. Sélectionnez **appareils** > **Teams appareils SIP**. Tous les appareils SIP connectés sont répertoriés à droite.
+2. Sélectionnez **Appareils** > **Teams Appareils SIP.** Tous les appareils SIP connectés sont répertoriés à droite.
 
 ## <a name="restart-a-sip-device"></a>Redémarrer un appareil SIP
 
 1. Connectez-vous au [Centre d’administration Teams](https://admin.teams.microsoft.com).
 
-2. Sélectionnez **appareils** > **Teams appareils SIP**. 
+2. Sélectionnez **Appareils** > **Teams Appareils SIP.** 
 
-3. À droite, sélectionnez l’appareil SIP que vous souhaitez redémarrer, puis **sélectionnez Redémarrer**.
+3. Sur la droite, sélectionnez l’appareil SIP que vous souhaitez redémarrer, puis sélectionnez **Redémarrer**.
 
 
 > [!NOTE]
 > - La suppression d’un appareil SIP de votre locataire n’est actuellement pas disponible dans le Centre d’administration Teams. 
-> - L’exécution de la commande dépend de la disponibilité de l’appareil, et elle peut ne pas correspondre à l’état d’exécution indiqué dans le Centre d’administration Teams. Si vous essayez d’activer la passerelle SIP sur un appareil qui ne la prend pas en charge, la commande n’est pas exécutée.
+> - L’exécution de la commande dépend de la disponibilité de l’appareil et peut ne pas correspondre à l’état d’exécution indiqué dans le Centre d’administration Teams. Si vous essayez d’activer la passerelle SIP sur un appareil qui ne la prend pas en charge, la commande n’est pas exécutée.
 
 ## <a name="sync-policy-changes-to-sip-devices-to-enforce-policies"></a>Synchroniser les modifications de stratégie sur les appareils SIP pour appliquer des stratégies
 
-Les détails et les stratégies utilisateur sont récupérés sur les appareils SIP lorsque les utilisateurs se connectent. Toutes les modifications de stratégie par la suite pour les utilisateurs connectés seront synchronisées avec l’appareil dans un délai d’une heure. L’inscription des appareils doit être actualisée régulièrement auprès de la passerelle SIP. Les téléphones SIP dépendent de la redirection des appels. L’administrateur doit donc définir l’attribut `AllowCallRedirect` sur `Set-CsTeamsCallingPolicy` `Enabled`.
+Les détails et les stratégies de l’utilisateur sont récupérés sur les appareils SIP lorsque les utilisateurs se connectent. Toute modification de stratégie par la suite pour les utilisateurs connectés sera synchronisée avec l’appareil dans un délai d’une heure. L’inscription des appareils doit être actualisée régulièrement avec la passerelle SIP. Les téléphones SIP dépendent de la redirection des appels. L’administrateur doit donc définir l’attribut `AllowCallRedirect` dans sur `Set-CsTeamsCallingPolicy` `Enabled`.
 
 
-## <a name="set-a-sip-devices-ui-language"></a>Définir la langue d’interface utilisateur d’un appareil SIP
+## <a name="set-a-sip-devices-ui-language"></a>Définir la langue de l’interface utilisateur d’un appareil SIP
 
-Un appareil SIP peut généralement afficher des informations dans de nombreuses langues. La définition de son langage d’interface utilisateur affecte son interface, y compris les touches logicielles et les messages système de connexion/déconnexion. La définition du langage d’interface utilisateur est effectuée dans le serveur d’approvisionnement, à l’aide du serveur DHCP, ou manuellement en ajoutant une chaîne de code dans l’URL, comme dans les exemples suivants.
+Un appareil SIP peut généralement afficher des informations dans de nombreuses langues. La définition de sa langue d’interface utilisateur affecte son interface, notamment les touches logicielles et les messages système de connexion/déconnexion. La définition de la langue de l’interface utilisateur s’effectue dans le serveur d’approvisionnement, à l’aide du serveur DHCP ou manuellement en ajoutant une chaîne de code dans l’URL, comme dans les exemples suivants.
 
 Comment définir l’allemand pour les téléphones Polycom, AudioCodes et Yealink :
 - `http://emea.ipp.sdg.teams.microsoft.com/lang_de`
@@ -291,7 +291,7 @@ Comment définir le japonais pour les téléphones Cisco :
 
 |Nom de la langue|Code de langue]
 |-------------|-------------|
-|Anglais (par défaut)|en       |
+|Anglais (par défaut)|fr       |
 |Espagnol      |es           |
 |Japonais     |Ja           |
 |Allemand       |de           |
@@ -300,20 +300,20 @@ Comment définir le japonais pour les téléphones Cisco :
 
 > [!Note]
 > - Le japonais n’est pas pris en charge par Yealink et partiellement pris en charge par Polycom VVX.
-> - Par défaut, le système utilise l’anglais si la langue sélectionnée n’est pas prise en charge par le point de terminaison SIP.
-> - Lorsque le paramètre **lang_xx** n’est pas défini via l’URL de provisionnement, l’anglais est utilisé comme langue par défaut.
-> - Si **vous vous connectez pour effectuer un appel d’urgence** , le texte d’appel d’urgence n’est pas traduit dans d’autres langues, une version abrégée en anglais uniquement est présentée lors de la **connexion à la presse** sur les modèles de téléphone IP suivants en raison d’une limitation de taille d’écran :
+> - Le système utilise par défaut l’anglais si la langue sélectionnée n’est pas prise en charge par le point de terminaison SIP.
+> - Lorsque le paramètre **lang_xx** n’est pas défini via l’URL d’approvisionnement, l’anglais est utilisé comme langue par défaut.
+> - Si **Se connecter pour effectuer un texte d’appel d’urgence** n’est pas traduit dans d’autres langues, une version abrégée en anglais uniquement sera présentée sur **Press Sign In** sur les modèles de téléphone IP suivants en raison d’une taille d’écran limitée :
 >   - Poly VVX 150, VVX 201
 >   - Cisco CP-6821, CP-7811, CP-7821, CP-7841, CP-7861
->   - L’étiquette softkey de messagerie vocale est codée en dur avec du texte de **machine** virtuelle dans toutes les langues pour Poly VVX en raison d’une limitation de la longueur de chaîne.
+>   - L’étiquette de clé logicielle de messagerie vocale est codée en dur avec du texte de **machine virtuelle** dans toutes les langues pour Poly VVX en raison d’une limitation de la longueur des chaînes.
 
 ## <a name="microsoft-teams-and-ipv6"></a>Microsoft Teams et IPv6
 
-La passerelle SIP prend uniquement en charge IPv4. Le service Microsoft Teams et le client prennent en charge IPv4 et IPv6. Si vous souhaitez contrôler les communications avec Microsoft Teams, utilisez les plages d’adresses IP dans les [URL et les plages d’adresses IP Microsoft 365](/microsoft-365/enterprise/urls-and-ip-address-ranges).
+La passerelle SIP prend uniquement en charge IPv4. Microsoft service teams et le client prennent en charge IPv4 et IPv6. Si vous souhaitez contrôler les communications vers Microsoft Teams, utilisez les plages d’adresses IP [de Microsoft 365 URL et plages d’adresses IP](/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
 ## <a name="emergency-calling"></a>Appel d’urgence
 
-La passerelle SIP prend en charge les appels d’urgence dynamiques (E911 dynamique) pour les appareils SIP compatibles qui partagent des attributs réseau sur le réseau. Ces attributs sont approvisionnés dans le Centre d’administration Teams et peuvent être une combinaison d’adresses IP locales et de longueur de sous-réseau, ou d’ID de châssis et de numéro de port réseau. Pour les appareils qui ne partagent pas d’attributs d’emplacement, ou si l’emplacement n’est pas résolu dynamiquement pour une raison quelconque, la passerelle SIP continuera à prendre en charge les appels d’urgence en fonction des adresses inscrites. Actuellement, les adresses inscrites ne sont pas prises en charge pour les scénarios de routage direct. Pour plus d’informations sur les appels d’urgence, consultez [Planifier et gérer les appels d’urgence](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
+La passerelle SIP prend en charge l’appel d’urgence dynamique (E911 dynamique) pour les appareils SIP compatibles qui partagent des attributs réseau sur le réseau. Ces attributs sont provisionnés dans le centre d’administration Teams et peuvent être une combinaison d’adresses IP locales et de longueur de sous-réseau, ou d’ID de châssis et de numéro de port réseau. Pour les appareils qui ne partagent pas d’attributs d’emplacement, ou si l’emplacement n’est pas résolu dynamiquement pour une raison quelconque, la passerelle SIP continuera à prendre en charge les appels d’urgence en fonction des adresses inscrites. Actuellement, les adresses inscrites ne sont pas prises en charge pour les scénarios de routage direct. Pour plus d’informations sur les appels d’urgence, consultez [Planifier et gérer les appels d’urgence](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
 
 ## <a name="report-problems-to-microsoft"></a>Signaler des problèmes à Microsoft
 

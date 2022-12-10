@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Gestion des clients multilocataires pour les partenaires.
 f1keywords: ''
-ms.openlocfilehash: 681efe6832a3829b54b23345f04e32151f130939
-ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
+ms.openlocfilehash: 6a98ff56548dcefc48be41657b368a9634ad8123
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "69046823"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343304"
 ---
 # <a name="multi-tenant-customer-management-for-partners"></a>Gestion des clients multilocataires pour les partenaires
 
@@ -36,7 +36,7 @@ Le portail MTM est accessible via ce [lien](https://partner.rooms.microsoft.com/
 
 ## <a name="pre-requisites-for-managing-your-customers-through-the-mtm-experience"></a>Conditions préalables à la gestion de vos clients grâce à l’expérience MTM
 
-Pour accéder au portail MTM, votre organisation doit être intégrée en tant que partenaire Elite pour MTR Pro Management. Pour devenir partenaire Elite, contactez askelite@microsoft.com.
+Le programme Elite qui offrait l’accès à la console de gestion multilocataire a été abandonné et nous n’intégrons aucun nouveau partenaire à ce programme. Nous apprécions votre compréhension et votre patience, et annoncerons bientôt un nouveau format. 
 
 ## <a name="on-boarding-customers"></a>Clients d’intégration
 
@@ -163,7 +163,7 @@ Les clients finaux conservent le contrôle de l’accès à leurs données et pe
 
 Avec la fonctionnalité d’accès délégué, un partenaire n’a pas d’autres privilèges en dehors du portail Pro Management. Par exemple, en utilisant cette fonctionnalité pour inviter un partenaire à gérer des salles dans le portail Pro Management, aucune autorisation n’est accordée à AAD, au Centre Administration Teams ou à tout autre produit Microsoft. En outre, les partenaires n’ont pas accès à l’affichage ou à la modification des salles non définies dans l’étendue de l’invitation.
 
-Une fois que la relation partenaire(client) est établie, comme décrit dans la section « Intégration des clients » de ce document, le partenaire peut afficher les données de salle dans le portail Pro Management. Cela inclut toutes les données présentes dans le portail de gestion Pro, mais dérivées d’autres produits Microsoft. Par exemple, les rapports de qualité des appels dans le portail Pro Management sont dérivés des données de qualité des appels Teams.
+Une fois que la relation partenaire(client) est établie, comme décrit dans la section « Intégration des clients » de ce document, le partenaire peut afficher les données de salle dans le portail Pro Management. Cela inclut toutes les données présentes dans le portail Pro Management, mais dérivées d’autres produits Microsoft. Par exemple, les rapports de qualité des appels dans le portail Pro Management sont dérivés des données de qualité des appels Teams.
 
 Les données résident dans le locataire du client et ne sont pas copiées vers le locataire du partenaire. 
 
