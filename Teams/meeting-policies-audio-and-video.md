@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour l’audio et la vidéo.
-ms.openlocfilehash: 111b91a26a3c1058c6fb574f5feb7b6a6d8c00b2
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 9e4e4ac9e2c1c63b9f45a71c5e006bba48ebbfc8
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307889"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379370"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Paramètres de stratégie de réunion pour l’audio & vidéo
 
@@ -205,21 +205,21 @@ Les participants à la réunion voient une sélection d’images d’arrière-pl
 
 ## <a name="far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras"></a>Contrôle de l’appareil photo de bout en bout (FECC) pour les caméras avec zoom panoramique (PTZ)
 
-Le contrôle de caméra de bout en bout est une stratégie qui peut être affectée à salles Teams sur les comptes de ressources Windows. Il permet aux caméras PTZ connectées à une salle Teams d’être contrôlées par les participants à la réunion dans l’application cliente Teams pendant les réunions.
+Le contrôle de caméra de bout en bout est une stratégie qui peut être affectée à salles Teams comptes de ressources. Il permet aux caméras PTZ connectées à une salle Teams d’être contrôlées par les participants à la réunion dans l’application cliente Teams pendant les réunions.
 
 Pour utiliser le contrôle de caméra de bout en bout, les participants à la réunion doivent obtenir l’application **PtZ Camera Controls** .  Consultez [Autoriser et bloquer les applications](manage-apps.md#allow-and-block-apps) pour savoir comment rendre l’application disponible dans l’App Store de votre organisation.
 
-Pour spécifier qui peut utiliser le contrôle de caméra de bout en bout dans une réunion, créez et affectez une nouvelle stratégie à un compte de ressource salles Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps), ou utilisez [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) pour modifier une stratégie existante. Définissez le `TeamsCameraFarEndPTZMode` paramètre sur l’une des valeurs suivantes :
+Pour spécifier qui peut utiliser le contrôle de caméra de bout en bout dans une réunion, créez et affectez une nouvelle stratégie à un compte de ressource salles Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy), ou utilisez [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) pour modifier une stratégie existante. Définissez le `TeamsCameraFarEndPTZMode` paramètre sur l’une des valeurs suivantes :
 
 |Valeur du paramètre|Comportement|
 |---|---|
-|Désactivé|Il s’agit du paramètre par défaut. Lorsqu’il est défini sur « désactivé », personne ne peut utiliser les contrôles de caméra PTZ.|
-|AutoAcceptAll|Les contrôles de caméra PTZ sont automatiquement disponibles pour tous les participants à la réunion.|
-|AutoAcceptInTenant|Les contrôles de caméra PTZ sont automatiquement disponibles uniquement pour les participants de la même organisation que la salle Teams.|
+|`Disabled`|Il s’agit du paramètre par défaut. Lorsque la valeur est définie sur `Disabled`, personne ne peut utiliser de contrôles d’appareil photo PTZ.|
+|`AutoAcceptAll`|Les contrôles de caméra PTZ sont automatiquement disponibles pour tous les participants à la réunion.|
+|`AutoAcceptInTenant`|Les contrôles de caméra PTZ sont automatiquement disponibles uniquement pour les participants de la même organisation que la salle Teams.|
 
 Lorsque `TeamsCameraFarEndPTZMode` est défini sur `AutoAcceptAll` ou `AutoAcceptInTenant`, le contrôle caméra peut toujours être désactivé manuellement à partir de la salle Teams à tout moment pendant une réunion. Le contrôle de l’appareil photo est également indisponible lorsque la caméra est éteinte.
 
-Toute caméra avec contrôles PTZ mécaniques et UVC est prise en charge. Pour obtenir la liste des caméras certifiées pour Teams, y compris les caméras PTZ et non-PTZ, consultez [Versions de microprogramme certifiées pour les périphériques audio et vidéo USB](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals). Cette fonctionnalité n’est pas encore prise en charge sur les caméras avec des contrôles PTZ numériques ou sur salles Teams sur Android.  
+Toute caméra avec contrôles PTZ mécaniques et UVC est prise en charge. Pour obtenir la liste des caméras certifiées pour Teams, y compris les caméras PTZ et non-PTZ, consultez [Versions de microprogramme certifiées pour les périphériques audio et vidéo USB](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals). Cette fonctionnalité n’est pas encore prise en charge sur les caméras avec des contrôles PTZ numériques.  
 
 > [!NOTE]
 > Mettez à jour le microprogramme de votre caméra avant de tester les contrôles PTZ. Consultez la documentation oem pour mettre à jour le microprogramme.

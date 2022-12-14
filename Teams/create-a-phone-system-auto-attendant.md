@@ -25,12 +25,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
 description: Découvrez comment configurer et gérer des standards automatiques dans Microsoft Teams.
-ms.openlocfilehash: 1484b70dca4ffe1e148522cf6e907f79be732702
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 1294559d1fcca7b1dace8f12cd3203b7effa4c80
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307539"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379390"
 ---
 # <a name="set-up-a-microsoft-teams-auto-attendant"></a>Configurer un standard automatique Microsoft Teams
 
@@ -172,7 +172,7 @@ Une fois que vous avez ajouté votre flux d’appels après les heures de travai
 
 ## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Étape 4 : Configurer des flux d’appels pour les jours fériés (facultatif)
 
-Votre standard automatique peut avoir un flux [d’appel pour chaque congé que vous avez configuré](set-up-holidays-in-teams.md). Vous pouvez ajouter jusqu'à 20 congés planifiés pour chaque standard automatique.
+Votre standard automatique peut avoir un flux [d’appel pour chaque congé que vous avez configuré](set-up-holidays-in-teams.md). Vous pouvez ajouter jusqu’à 20 groupes de congés à chaque standard automatique. Chaque groupe de congés peut contenir jusqu’à 10 plages de dates uniques. Les dates de congés doivent être uniques dans tous les ensembles de jours fériés ajoutés au standard automatique.
 
 *Nouveau : l’option Forcer l’écoute peut être activée, ce qui nécessite que les appelants écoutent toutes les options de menu avant d’effectuer la sélection.*
  *Nouvelles touches \* (astérisque) et \# (livre) peuvent désormais être utilisées dans les options de menu.*

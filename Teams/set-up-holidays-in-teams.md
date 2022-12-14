@@ -20,61 +20,61 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: Découvrez comment configurer des jours fériés dans Microsoft Teams pour une utilisation avec vos standards automatiques.
-ms.openlocfilehash: e3d23c3d289f3ce2698d9bd0b774c40a46d69004
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 6ed508f9060ff6ab5e0fb427c500b9e1cd8a707f
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614397"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379330"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurer des jours fériés dans Microsoft Teams
 
-Vous pouvez utiliser la fonctionnalité Jours fériés Teams pour fournir d’autres messages et un routage aux appelants pour des dates et heures spécifiques auxquelles les services, les files d’attente d’appels ou les personnes de votre organisation suivront des heures de travail différentes ou ne seront pas disponibles. Par exemple, vous pouvez créer un jour férié pour le jour de l’An lorsque votre organisation peut être fermée.
+Vous pouvez utiliser la fonctionnalité Jours fériés Teams pour fournir des messages et un routage alternatifs aux appelants pour des dates et des heures spécifiques où les services, les files d’attente d’appels ou les personnes de votre organisation suivront des heures de travail différentes ou ne seront pas disponibles. Par exemple, vous pouvez créer un jour férié pour le jour de l’an, lorsque votre organisation peut être fermée.
 
-Les congés que vous créez ici sont disponibles lorsque vous [configurez un standard automatique](create-a-phone-system-auto-attendant.md), chacun avec ses propres paramètres de message d’accueil et de routage des appels.
+Les jours fériés que vous créez ici sont disponibles lorsque vous [configurez un standard automatique](create-a-phone-system-auto-attendant.md), chacun avec ses propres paramètres d’accueil et de routage des appels.
 
 ## <a name="create-a-holiday"></a>Créer un congé
 
-Pour créer des vacances
+Pour créer un congé
 
-1. Dans le Centre d’administration Microsoft Teams, accédez à **Voice** > **Holidays**.
+1. Dans le centre d’administration Microsoft Teams, accédez à **Voice** > **Holidays**.
 
-2. Sélectionnez **Nouveau jour férié**.
+2. Sélectionnez **Nouveau congé**.
 
-3. Entrez un nom pour les vacances.
+3. Entrez un nom pour le jour férié.
 
 4. Sélectionnez **Ajouter une nouvelle date**.
 
-5. Sous **Heure de début**, sélectionnez l’icône de calendrier et choisissez la date à laquelle vous souhaitez que les vacances commencent.
+5. Sous **Heure de début**, sélectionnez l’icône de calendrier et choisissez la date à laquelle vous souhaitez que le congé commence.
 
-6. Utilisez la liste déroulante pour sélectionner une heure de début pour les vacances.
+6. Utilisez la liste déroulante pour sélectionner une heure de début pour le congé.
 
-7. Sous **Heure de fin**, sélectionnez l’icône de calendrier et choisissez la date à laquelle vous souhaitez que les vacances se terminent.
+7. Sous **Heure de fin**, sélectionnez l’icône de calendrier et choisissez la date à laquelle vous souhaitez que le congé se termine.
 
 8. Utilisez la liste déroulante pour sélectionner une heure de fin pour les vacances. **L’heure de fin** doit être postérieure à **l’heure de début**.  
 
    > [!NOTE]
-   > Si le congé est d’une journée entière (c’est-à-dire une période de 24 heures), **l’heure de fin** doit être définie sur le jour suivant et l’heure à 12h00. Par exemple, si votre organisation est fermée le 1er janvier pour le jour de l’An, **définissez l’heure de début** sur le 1er janvier 12h00 et définissez l’heure de **fin** sur le 2 janvier à 12h00.
+   > Si le congé est d’une journée complète (c’est-à-dire une période de 24 heures), **l’heure de fin** doit être définie sur le jour suivant et l’heure à 12h00. Par exemple, si votre organisation est fermée le 1er janvier pour le jour du Nouvel An, **définissez l’heure de début** sur 1er janvier 12:00 et définissez **l’heure de fin** sur Janvier 2 à 12:00.
 
-9. Si vous le souhaitez, ajoutez d’autres dates pour les jours fériés périodiques.
+9. Si vous le souhaitez, ajoutez d’autres dates pour les jours fériés récurrents. Jusqu’à 10 plages de dates distinctes peuvent être ajoutées à un seul jour férié.  
 
 10. Sélectionnez **Enregistrer**.
 
-    ![Capture d’écran de l’interface utilisateur des fêtes avec des dates configurées pour trois ans.](media/holidays-set-up.png)
+    ![Capture d’écran de l’interface utilisateur des jours fériés avec des dates définies pour trois ans.](media/holidays-set-up.png)
 
 ## <a name="change-a-holiday"></a>Modifier un jour férié
 
-Pour modifier un jour férié
+Pour modifier un congé
 
-1. Dans le Centre d’administration Microsoft Teams, accédez à **Voice** > **Holidays**.
+1. Dans le centre d’administration Microsoft Teams, accédez à **Voice** > **Holidays**.
 
-2. Sélectionnez les congés dans la liste.
+2. Sélectionnez le jour férié dans la liste.
 
-3. Sous **Heure de début**, sélectionnez l’icône de calendrier et choisissez la date à laquelle vous souhaitez que les vacances commencent.
+3. Sous **Heure de début**, sélectionnez l’icône de calendrier et choisissez la date à laquelle vous souhaitez que le congé commence.
 
-4. Utilisez la liste déroulante pour sélectionner une heure de début pour les vacances.
+4. Utilisez la liste déroulante pour sélectionner une heure de début pour le congé.
 
-5. Sous **Heure de fin**, sélectionnez l’icône de calendrier et choisissez la date à laquelle vous souhaitez que les vacances se terminent. 
+5. Sous **Heure de fin**, sélectionnez l’icône de calendrier et choisissez la date à laquelle vous souhaitez que le congé se termine. 
 
 6. Utilisez la liste déroulante pour sélectionner une heure de fin pour les vacances. **L’heure de fin** doit être postérieure à **l’heure de début**.  
 
@@ -82,4 +82,4 @@ Pour modifier un jour férié
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Planifier des standards automatiques Teams et des files d’attente d’appels](plan-auto-attendant-call-queue.md) ?
+[Planifier les standards automatiques teams et les files d’attente d’appels](plan-auto-attendant-call-queue.md) ?

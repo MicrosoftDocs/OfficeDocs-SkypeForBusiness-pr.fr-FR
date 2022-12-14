@@ -21,16 +21,16 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et gérer des standards automatiques dans Microsoft Teams.
-ms.openlocfilehash: 97f298e03a6495dda4ec7568f3e3b022548bba08
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+ms.openlocfilehash: 0acdbacb9899184aaf21003193d62b3dcc4eab3a
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139258"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379360"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
 
-Les standards automatiques permettent aux utilisateurs d’appeler votre organisation et de naviguer dans un système de menus pour parler au service approprié, à la file d’attente d’appels, à la personne ou à un opérateur. Vous pouvez créer des standards automatiques pour votre organisation à l’aide du Centre d’administration Microsoft Teams ou de PowerShell.
+Les standards automatiques permettent aux utilisateurs d’appeler votre organisation et de naviguer dans un système de menus pour parler au service approprié, à la file d’attente d’appels, à la personne ou à un opérateur. Vous pouvez créer des standards automatiques pour votre organisation à l’aide du centre d’administration Microsoft Teams ou de PowerShell.
 
 Veillez à lire l’article [Planifier les standards automatiques et les files d’attente des appels pour Teams](plan-auto-attendant-call-queue.md), puis à suivre les [étapes de démarrage](plan-auto-attendant-call-queue.md#getting-started) avant de suivre les procédures de cet article.
 
@@ -170,7 +170,7 @@ Une fois que vous avez ajouté votre flux d’appels après les heures de travai
 
 ## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Étape 4 : Configurer des flux d’appels pour les jours fériés (facultatif)
 
-Votre standard automatique peut avoir un flux [d’appel pour chaque congé que vous avez configuré](set-up-holidays-in-teams.md). Vous pouvez ajouter jusqu'à 20 congés planifiés pour chaque standard automatique.
+Votre standard automatique peut avoir un flux [d’appel pour chaque congé que vous avez configuré](set-up-holidays-in-teams.md). Vous pouvez ajouter jusqu’à 20 groupes de congés à chaque standard automatique. Chaque groupe de congés peut contenir jusqu’à 10 plages de dates uniques. Les dates de congés doivent être uniques dans tous les ensembles de jours fériés ajoutés au standard automatique.
 
 *Nouveau : l’option Forcer l’écoute peut être activée, ce qui nécessite que les appelants écoutent toutes les options de menu avant d’effectuer la sélection.*
  *Nouvelles touches \* (astérisque) et \# (livre) peuvent désormais être utilisées dans les options de menu.*
@@ -201,7 +201,7 @@ Une fois que vous avez ajouté toutes vos heures de vacances, sélectionnez **Su
 
 *L’étendue de numérotation* définit les utilisateurs disponibles dans l’annuaire lorsqu’un appelant utilise la numérotation par nom ou la numérotation par extension. La valeur par défaut **de Tous les utilisateurs en ligne** inclut tous les utilisateurs de votre organisation qui sont des utilisateurs en ligne ou hébergés localement à l’aide de Skype Entreprise Server.
 
-Vous pouvez inclure ou exclure des utilisateurs spécifiques en sélectionnant **Groupe d’utilisateurs personnalisé** sous **Inclure** ou **Exclure** et en choisissant un ou plusieurs groupes Microsoft 365, listes de distribution ou groupes de sécurité. Par exemple, vous souhaiterez peut-être exclure les cadres de votre organisation de l’annuaire de numérotation.
+Vous pouvez inclure ou exclure des utilisateurs spécifiques en sélectionnant **Groupe d’utilisateurs personnalisé** sous **Inclure** ou **Exclure** et en choisissant un ou plusieurs groupes Microsoft 365 groupes, listes de distribution ou groupes de sécurité. Par exemple, vous souhaiterez peut-être exclure les cadres de votre organisation de l’annuaire de numérotation.
 
 Si un utilisateur figure dans les deux listes, il est exclu de l’annuaire.
 
