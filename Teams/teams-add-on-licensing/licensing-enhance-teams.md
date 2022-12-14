@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: Découvrez comment améliorer votre expérience Microsoft Teams avec la licence de module complémentaire Microsoft Teams Premium
-ms.openlocfilehash: e650c5c40623e3748deb9275d439dfd5328a317b
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: ec0f71e252a38beca0613a546ef9ddd990f6a53d
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69308011"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392344"
 ---
 # <a name="microsoft-teams-premium-licensing"></a>Microsoft licences Teams Premium
 
@@ -41,7 +41,6 @@ Cet article est destiné aux administrateurs informatiques qui souhaitent compre
 - [En quoi Teams Premium se compare-t-il à Teams ?](#how-does-teams-premium-compare-to-teams)
 - [Existe-t-il des fonctionnalités Teams actuelles qui seront déplacées vers Teams Premium ?](#are-there-current-teams-features-that-will-move-to-teams-premium)
 - [Quelles sont les conditions requises pour acheter Teams Premium ?](#what-are-the-requirements-to-purchase-teams-premium)
-- [Comment Teams applique-t-il l’accès aux fonctionnalités Teams Premium ?](#how-does-teams-enforce-access-to-teams-premium-features)
 - [En quoi Teams Premium diffère-t-il de Salles Teams Pro ?](#how-does-teams-premium-differ-from-teams-rooms-pro)
 - [Puis-je faire l’expérience de Teams Premium avant d’acheter des licences ?](#can-i-experience-teams-premium-before-buying-licenses)
 - [Comment faire acheter des licences Teams Premium ?](#how-do-i-purchase-teams-premium-licenses)
@@ -60,7 +59,7 @@ Le tableau suivant compare les principales fonctionnalités entre Teams et Teams
 |---------|:-----:|:-------------:|
 | Héberger et participer à des réunions Teams | X | X |
 | Découvrez l’apparence standard de Teams | X | X |
-| Utiliser les arrière-plans des réunions Teams standard | X | X |
+| Utiliser des arrière-plans de réunion standard et personnalisés au niveau de l’utilisateur| X | X |
 | Lire les sous-titres en direct pendant les réunions | X | X |
 | Personnaliser les modèles de réunion pour votre organisation |  | X |
 | Ajouter la personnalisation de l’organisation aux lobbys de réunion |  | X |
@@ -176,25 +175,6 @@ Avant de pouvoir acheter des licences Teams Premium pour vos utilisateurs, assur
 La **configuration requise de l’utilisateur** est la suivante :
 
 - Un abonnement Office 365 ou Microsoft 365 avec Teams.
-
-## <a name="how-does-teams-enforce-access-to-teams-premium-features"></a>Comment Teams applique-t-il l’accès aux fonctionnalités Teams Premium ?
-
-L’expérience Teams d’un utilisateur dépend de sa licence Teams et de son rôle Teams. Teams vérifie la licence d’un utilisateur et la fonctionnalité de rôle par fonctionnalité pour fournir l’expérience appropriée.
-
-Par exemple, dans une réunion Teams, Teams vérifie la licence Teams de chaque utilisateur et vérifie s’il s’agit d’un organisateur ou d’un participant à la réunion. Ces facteurs déterminent l’expérience d’un utilisateur et éventuellement celle des autres participants à la réunion.
-
-- **Basé sur l’organisateur :** Certaines fonctionnalités vérifient les licences au niveau de l’organisateur. Si un organisateur de réunion dispose de la licence appropriée pour une fonctionnalité, cette fonctionnalité sera également partagée et rendue accessible aux participants à la réunion pendant cette réunion.
-- **Basé sur les participants :** Certaines fonctionnalités vérifient les licences au niveau du participant. Leur expérience Teams ne sera pas partagée et rendue accessible aux autres participants pendant la réunion.
-
-Le tableau suivant montre les vérifications de licence pour chaque fonctionnalité Teams Premium.
-
-|  | Vérification de licence basée sur l’organisateur | Vérification de la licence basée sur les participants |
-|--|-------------------------------|------------------------------|
-| **Réunions** | &#10004; Utiliser des modèles de réunion personnalisés </br> &#10004; Utiliser des réunions à thème personnalisées </br> &#10004; Utiliser Microsoft eCDN pour les événements en direct | &#10004; Utiliser des scènes personnalisées en mode Ensemble </br> &#10004; Utiliser des arrière-plans et des lobbys personnalisés |
-| **Séminaires web** | &#10004; Configurer les salles vertes du webinaire </br> &#10004; gérer le mode webinaire </br> &#10004; Utiliser RTMP-In </br> &#10004; approuver manuellement les inscriptions aux webinaires </br> &#10004; Créer une liste d’attente d’inscription </br> &#10004; Limiter la date et l’heure d’inscription |  |
-| **Protection des réunions** | &#10004; Utiliser le chiffrement de bout en bout pour les réunions jusqu’à 50 participants </br> &#10004; Ajouter des filigranes aux réunions </br> &#10004; Appliquer des étiquettes de confidentialité aux réunions </br> &#10004; Empêcher le copier/coller dans les conversations de réunion </br> &#10004; Contrôler qui peut enregistrer une réunion </br> &#10004; packages de stratégie utilisateur personnalisés |  |
-| **Réunions intelligentes** | &#10004; Lire les sous-titres traduits en direct </br> &#10004; Parcourir les réunions avec des chapitres générés automatiquement | &#10004; Traduire les transcriptions post-réunion </br></br> *Fonctionnalités d’IA de récapitulatif des réunions :* </br> &#10004; Afficher les horodatages des moments où vous avez rejoint et quitté une réunion </br> &#10004; Recevoir les tâches suggérées après une réunion </br> &#10004; Rechercher avec l’orateur suggéré </br> &#10004; @mentions d’affichage à vous |
-| **Rendez-vous virtuels** | &#10004; Configurer les notifications SMS </br> application Rendez-vous virtuels &#10004; Access Premium </br> &#10004; Utiliser des arrière-plans personnalisés pour les rendez-vous et les halls d’entrée | &#10004; Configurer les notifications SMS </br> application Rendez-vous virtuels &#10004; Access Premium </br> &#10004; Afficher et gérer la file d’attente de rendez-vous planifiés et à la demande </br> &#10004; View Advanced Rendez-vous virtuels Analytics </br> &#10004; Envoyer des suivis post-rendez-vous |
 
 ## <a name="how-does-teams-premium-differ-from-teams-rooms-pro"></a>En quoi Teams Premium diffère-t-il de Salles Teams Pro ?
 

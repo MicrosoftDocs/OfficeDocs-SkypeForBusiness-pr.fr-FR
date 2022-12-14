@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels dans Microsoft Teams. Les files d’attente d’appels fournissent un message d’accueil, contiennent de la musique, la redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: b7cfd7d17c9813d9d3f3ee65ceb7d1a9f1c96be4
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: ea11c7f8dde402c047c8a0aeabb5d724ddccf33b
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69242578"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392534"
 ---
 # <a name="create-a-microsoft-teams-call-queue"></a>Créer une file d’attente d’appels Microsoft Teams 
 
@@ -130,9 +130,9 @@ Si vous n’avez pas de compte de ressource avec un numéro de téléphone attri
 
 Une fois que vous avez créé ce nouveau compte de ressource pour l’ID d’appel, vous devez toujours :
 
-- Attribuer une [licence de compte de ressource téléphonique Teams](manage-resource-accounts.md#assign-a-license)
-- Attribuer une licence de forfait d’appels Microsoft, attribuer un numéro de téléphone Operator Connect ou affecter une stratégie de routage vocal en ligne pour le routage direct
-- Affectez le [numéro de téléphone du service au compte de ressource](manage-resource-accounts.md#assign-a-service-number), si vous utilisez Microsoft forfait d’appels
+- Attribuez une [licence de compte de ressource téléphonique Teams](manage-resource-accounts.md#assign-a-license).
+- Attribuez une licence de forfait d’appels Microsoft, attribuez un numéro de téléphone Operator Connect ou affectez une stratégie de routage vocal en ligne pour le routage direct.
+- Affectez le [numéro de téléphone au compte de ressource](manage-resource-accounts.md#assign-a-phone-number), si vous utilisez Microsoft forfait d’appels.
 
 ### <a name="set-the-call-queue-language"></a>Définir la langue de la file d’attente des appels
 
@@ -372,19 +372,19 @@ Les configurations ci-dessous sont recommandées :
 |`Serial`                         |O                         |O         |O               |O    |v         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Options de routage de l’agent**        |                          |          |                |     |          |                      |                          |   |
 |`Presence Based Routing`<sup>3</sup>|O                      |O         |v               |N    |O         |O                     |v                         |*Par défaut* |
-|`Agents can Opt-out`               |O                       |O         |v               |Y<sup>7</sup>|Y<sup>7</sup>|O          |v                         |*Par défaut*     |
+|`Agents can Opt-out`               |O                       |O         |v               |Y<sup>7</sup>|Y<sup>7</sup>|O          |O                         |*Par défaut*     |
 |**Modes de transfert**               |                          |          |                |     |          |                      |                          |   |
 |`Conference Mode`<sup>5</sup>    |O                         |O         |v               |N    |Y<sup>6</sup>|O                  |O                         |*Par défaut* |
-|`Transfer Mode`                  |O                         |O         |O               |O    |O         |O                     |O                         |   |
+|`Transfer Mode`                  |O                         |O         |O               |O    |O         |O                     |v                         |   |
 |**Appel collaboratif**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |v                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**ID d’appelant dynamique**            |                          |          |                |     |          |                      |                          |   |
 |`Standard call queue`            |O                         |O         |v               |N    |N         |O                     |n/a                       |   |
-|`Channel based call queue`       |v                         |n/a       |n/a             |n/a  |n/a       |n/a                   |v                         |   |
+|`Channel based call queue`       |O                         |n/a       |n/a             |n/a  |n/a       |n/a                   |O                         |   |
 |**Méthodes de connectivité RTC**    |                          |          |                |     |          |                      |                          |Voir la note 9   |
 |`Calling Plans`                  |O                         |O         |O               |O    |O         |O                     |O                         |   |
 |`Direct Routing`                 |O                         |O         |v               |N    |O         |Y<sup>6</sup>         |O                         |   |
-|`Operator Connect`               |O                         |O         |O               |     |O         |Y<sup>6</sup>         |O                         |   |
+|`Operator Connect`               |O                         |O         |O               |     |v         |Y<sup>6</sup>         |O                         |   |
 |**Divers**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |v                 |N         |O               |O    |          |O                     |v                         |              |
 

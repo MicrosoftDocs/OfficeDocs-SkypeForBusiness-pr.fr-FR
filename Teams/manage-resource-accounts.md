@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: Dans cet article, vous allez apprendre à créer, modifier et gérer des comptes de ressources dans Microsoft Teams.
-ms.openlocfilehash: cde570c23b6d2e6b673f6cc0f49c9905c3b45fd1
-ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
+ms.openlocfilehash: 3ac03e8531457d21d2988db0a86ca8bdca367f0a
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69147431"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392204"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "69147431"
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Une fois que vous avez terminé la configuration du compte de ressource et l’attribution d’un numéro de service si nécessaire, vous êtes prêt à utiliser le compte de ressource avec un standard automatique ou une file d’attente d’appels.
+Une fois que vous avez terminé la configuration du compte de ressource et que vous avez affecté un numéro de téléphone si nécessaire, vous êtes prêt à utiliser le compte de ressource avec un standard automatique ou une file d’attente d’appels.
 
 Pour en savoir plus, consultez les références suivantes :
 
@@ -73,7 +73,7 @@ Pour les implémentations hybrides avec Skype Entreprise Server :
 
 ## <a name="delete-a-resource-account"></a>Supprimer un compte de ressource
 
-Veillez à dissocier le numéro de téléphone du compte de ressource avant de le supprimer, afin d’éviter que votre numéro de service soit bloqué en mode en attente.
+Veillez à dissocier le numéro de téléphone du compte de ressource avant de le supprimer pour éviter que votre numéro de téléphone ne soit bloqué en mode en attente.
 
 Après cela, vous pouvez supprimer le compte de ressource dans le Centre d'administration Microsoft 365, sous l’onglet **Utilisateurs**.
 

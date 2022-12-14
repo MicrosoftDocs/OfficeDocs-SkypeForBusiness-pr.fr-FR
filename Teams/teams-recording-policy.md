@@ -23,12 +23,12 @@ ms.collection:
 - purview-compliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23de1b32e757df8cc1f971ad4e9bed255f95af41
-ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
+ms.openlocfilehash: 2e07da669e489a53dfabd2ee7c1fee2079497857
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "69156830"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392164"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Présentation de l’enregistrement basé sur des stratégies Teams pour les appels & réunions
 
@@ -42,7 +42,7 @@ Teams a été amélioré pour prendre en charge l’intégration de solutions d�
 
 - Nouvelles stratégies d’administration pour l’enregistrement de conformité, y compris l’intégration aux stratégies et aux outils d’appel et de réunion d’administration Teams existants
 
-L’enregistrement de conformité peut être activé sur les licences Microsoft 365 A3/A5/E3/E5/Business Premium, Office 365 A3/A5/E3/E5 ou Salle Teams/Téléphone de zone commune. 
+L’enregistrement de conformité peut être activé sur Microsoft 365 A3/A5/E3/E5/Business Premium, Office 365 A3/A5/E3/E5, salles Teams licence ou Microsoft licence Appareils partagés Teams.
 
 > [!NOTE]
 > L’enregistrement de conformité n’est actuellement pas pris en charge pour les services d’appel d’urgence E911.

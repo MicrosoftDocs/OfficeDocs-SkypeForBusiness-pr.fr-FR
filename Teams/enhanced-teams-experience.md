@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: Découvrez Microsoft Teams Premium pour les administrateurs et les professionnels de l’informatique.
-ms.openlocfilehash: 2d7c43f6dd46a635d7aceaaa95548b8c4f31f590
-ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
+ms.openlocfilehash: 9e7af9c777ba5fec8ca8b68da7f1069737702617
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 12/14/2022
-ms.locfileid: "69379461"
+ms.locfileid: "69392474"
 ---
 # <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams Premium - Vue d’ensemble pour les administrateurs
 
@@ -63,8 +63,6 @@ Teams Premium offre des moyens supplémentaires de protéger les réunions avec 
 - **Chiffrement de bout en bout** : appliqué via une étiquette de confidentialité. Le chiffrement de bout en bout offre une sécurité accrue pour les réunions qui nécessitent un niveau de protection plus élevé.
 
 
-
-
 | Fonctionnalité/tâche  | Documentation pour les administrateurs | Documentation pour vos utilisateurs finaux
 | -------------------- | ----------- | ------------ |
 | Étiquettes de confidentialité | [Configurer des réunions Teams avec trois niveaux de protection](configure-meetings-three-tiers-protection.md) | |
@@ -82,16 +80,17 @@ Teams Premium fournit les fonctionnalités supplémentaires suivantes pour la pe
 
 - **Thèmes de réunion** : permet à votre organisation d’étendre ses identités visuelles à l’ensemble de l’expérience de réunion. Vous pouvez configurer et créer des thèmes de réunion pour une variété d’unités commerciales et de services au sein d’un seul locataire.
 
-- **Arrière-plans de réunion personnalisés** : vous pouvez créer et définir des arrière-plans de réunion personnalisés qui sont ensuite disponibles pour vos utilisateurs finaux. 
+- **Arrière-plans de réunion personnalisés pour les organisations** : vous pouvez créer et définir des arrière-plans de réunion personnalisés qui sont ensuite disponibles pour vos utilisateurs finaux avec une licence Teams Premium.
 
-- **Scènes personnalisées en mode ensemble** : application Teams qui permet aux développeurs de votre organisation de définir et de personnaliser des scènes vidéo pour les réunions.  
+- **Scènes personnalisées en mode ensemble pour les organisations** : vous pouvez créer, personnaliser ou accepter des scènes personnalisées en mode ensemble pour les réunions qui sont ensuite disponibles pour vos utilisateurs finaux avec une licence Teams Premium.
+
 
 | Fonctionnalité/tâche | Documentation pour les administrateurs | Documentation pour vos utilisateurs finaux
 | -------------------- | ----------- | ------------ |
 | Modèles de réunion | - [Aperçu](custom-meeting-templates-overview.md)<br>- [Créer un modèle de réunion personnalisé](create-custom-meeting-template.md)| [Utiliser des modèles personnalisés](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
 | Thèmes de réunion | [Thèmes pour les réunions Teams](meeting-themes.md) | [Utiliser des thèmes de réunion](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
-| Arrière-plans de réunion personnalisés | [Arrière-plans de réunion](custom-meeting-backgrounds.md)| |
-| Scènes personnalisées en mode ensemble | [Contenu pour vous et vos développeurs](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
+| Arrière-plans de réunion personnalisés pour les organisations | [Arrière-plans de réunion](custom-meeting-backgrounds.md)| |
+| Scènes personnalisées en mode ensemble pour les organisations | [Contenu pour vous et vos développeurs](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Configurer la licence Common Area Phone
+title: Configurer les téléphones de zone commune pour Microsoft Teams
 ms.author: danismith
 author: DaniEASmith
 manager: serdars
@@ -22,51 +22,32 @@ ms.custom:
 - seo-marvel-mar2020
 - admindeeplinkMAC
 - admindeeplinkTEAMS
-description: Découvrez comment configurer des téléphones communs pour les halls d’entrée, les zones de réception et les salles de conférence.
-ms.openlocfilehash: 2a282526a0592c46c053e9c0319112a9238a6051
-ms.sourcegitcommit: 92a0df6fc3aa62cec1bf72a40690fb8e16226965
+description: Découvrez comment configurer des téléphones d’espace commun pour les halls d’entrée, les zones de réception et les salles de conférence.
+ms.openlocfilehash: 06005f853ac125478ae1fd99dba2d022c5eb0100
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2022
-ms.locfileid: "68836748"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392154"
 ---
 # <a name="set-up-common-area-phones-for-microsoft-teams"></a>Configurer des téléphones de zone commune pour Microsoft Teams
 
-Un téléphone de zone commune est généralement placé dans une zone comme un hall ou une autre zone qui est disponible pour de nombreuses personnes pour passer un appel : une zone de réception, une salle d’attente ou un téléphone de conférence. Les téléphones de zone commune sont connectés avec des comptes liés à une licence **Téléphone de zone commune** .
+Un téléphone de zone commune est généralement placé dans une zone comme un hall ou une autre zone qui est disponible pour de nombreuses personnes pour passer un appel : une zone de réception, une salle d’attente ou un téléphone de conférence. Les téléphones de zone commune sont connectés avec des comptes liés à une licence **d’appareils partagés Microsoft Teams**.
 
 Cet article fournit une vue d’ensemble de la façon de déployer et de configurer des appareils téléphoniques Teams en tant que téléphones de zone commune pour les espaces partagés. Pour une expérience de salle de réunion plus complète, y compris l’audioconférence, envisagez plutôt d’acheter une licence **salles Teams** dédiée avec un appareil salles Teams. Pour plus d’informations sur salles Teams, consultez [Salles Microsoft Teams](rooms/index.md).
-
-## <a name="overview"></a>Vue d’ensemble
-
-La licence **Common Area Phone** prend en charge les éléments suivants :
-
-|                                           | Téléphone de zone commune                                 |
-|-------------------------------------------|---------------------------------------------------|
-| **Microsoft Teams**                       | &#x2714;                                          |
-| **Téléphone Teams**  &sup1 ;                   | &#x2714;                                          |
-| **Audioconférence**                    | &#x2718; &sup2;                                   |
-| **Microsoft Intune**                      | &#x2714;                                          |
-| **Azure Active Directory Premium Plan 1** | &#x2714;                                          |
-| **Exchange Online Plan 2**                | &#x2714;  &sup3;                                  |
-| **Disponibilité mondiale**                | &#x2714;                                          |
-| **Disponibilité des canaux**                  | EA, EAS, EES, CSP, Web Direct, GCC, GCC-High, DoD |
-
-&sup1; Précédemment appelé *Système téléphonique*.
-&sup2; Les téléphones de zone commune peuvent participer à des conférences audio via un numéro de connexion fourni par l’organisateur de la réunion.
-&sup3; Fonctionnalités de messagerie vocale basées sur le cloud uniquement.
 
 > [!NOTE]
 > Les comptes pour les objets de téléphones de zone commune créés dans Skype Entreprise Server ne peuvent pas être migrés vers Microsoft Teams. Suivez les étapes décrites dans cet article pour recréer ces comptes pour Teams et, si nécessaire, migrer votre connectivité RTC (Public Switched Telephone Network).
 
 ## <a name="step-1---buy-the-licenses"></a>Étape 1 - Acheter les licences
 
-Tout d’abord, vous devez acheter une licence cap ( **Common Area Phone** ) et vérifier que vous disposez d’un téléphone certifié. Pour rechercher et en savoir plus sur les téléphones certifiés, accédez à [Appareils Microsoft Teams](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
+Tout d’abord, vous devez acheter une licence **Appareils partagés Teams** et vérifier que vous disposez d’un téléphone certifié. Pour rechercher et en savoir plus sur les téléphones certifiés, accédez à [Microsoft appareils Teams](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
 
 1. Dans la [Centre d'administration Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2024339), accédez à **Facturation** > **Acheter des services**.
 
-2. Si la section **Afficher par catégorie** n’est pas déjà affichée, accédez à **Acheter auprès de Microsoft**, puis sélectionnez **Afficher les produits**. Sélectionnez ensuite **Collaboration et communication**.  
+2. Si la section **Afficher par catégorie** n’est pas déjà affichée, accédez à **Acheter à partir de Microsoft**, puis sélectionnez **Afficher les produits**. Sélectionnez ensuite **Collaboration et communication**.  
 
-3. Dans la liste des produits, **recherchez Téléphone de zone commune**, puis sélectionnez **Détails**.
+3. Dans la liste des produits, **recherchez Microsoft Appareils partagés Teams**, puis sélectionnez **Détails**.
 
 4. Entrez le nombre de licences dont vous avez besoin, puis sélectionnez **Acheter**.
 
@@ -96,16 +77,16 @@ Si vous déployez un appareil :
     > [!IMPORTANT]
     > Il est vivement recommandé de définir manuellement un mot de passe pour les téléphones de zone commune afin d’éviter les problèmes de connexion pour vos utilisateurs finaux.
 
-6. Sélectionnez l’emplacement d’utilisation de l’appareil et attribuez la licence **Téléphone de zone commune** au compte. Si d’autres licences sont nécessaires, telles que les forfaits d’appels, affectez-les.
+6. Sélectionnez l’emplacement d’utilisation de l’appareil et attribuez la licence **Appareils partagés Teams** au compte. Si d’autres licences sont nécessaires, telles que les forfaits d’appels, affectez-les.
 
 > [!NOTE]
-> Vous n’avez pas besoin d’ajouter une licence avec les fonctionnalités du système téléphonique. Il est inclus dans la licence **Téléphone de zone commune**.
+> Vous n’avez pas besoin d’ajouter une licence avec les fonctionnalités du système téléphonique. Il est inclus avec la licence **Appareils partagés Teams** .
 >
-> Si vous n’utilisez pas le système téléphonique Microsoft avec le routage direct ou operator connect, vous pouvez ajouter des licences **forfaits d’appels** . Pour plus d’informations sur les licences, consultez [Licences des modules complémentaires Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+> Si vous n’utilisez pas Microsoft système téléphonique avec routage direct ou connexion d’opérateur, vous pouvez ajouter des licences **forfaits d’appels**. Pour plus d’informations sur les licences, consultez [Microsoft licences de module complémentaire Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Utilisez PowerShell lorsque vous souhaitez créer et attribuer des licences pour plusieurs comptes d’utilisateur à la fois. Pour plus d’informations, consultez [Créer des comptes d’utilisateur Microsoft 365 avec PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true) et [Attribuer des licences Microsoft 365 à des comptes d’utilisateur avec PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
+Utilisez PowerShell lorsque vous souhaitez créer et attribuer des licences pour plusieurs comptes d’utilisateur à la fois. Pour plus d’informations, consultez [Créer Microsoft 365 comptes d’utilisateur avec PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true) et [Attribuer des licences Microsoft 365 à des comptes d’utilisateur avec PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
 ## <a name="step-3---set-policies-for-common-area-phones"></a>Étape 3 : Définir des stratégies pour les téléphones de zone commune
 
@@ -113,7 +94,7 @@ Utilisez des stratégies pour contrôler les fonctionnalités disponibles pour l
 
 ### <a name="ip-phone-policies"></a>Stratégies de téléphone IP
 
-La stratégie Téléphone IP Teams ne peut être modifiée que si le compte qui se connecte au téléphone dispose d’une licence autre qu’une licence Téléphone de zone commune.  En cas de licence avec un abonnement Microsoft 365 E3 ou E5, ou un abonnement Office 365 Entreprise E1, E3 ou E5, vous pouvez modifier la stratégie de téléphone IP.  Si vous utilisez une licence salle de réunion sur votre compte téléphonique de zone commune, elle vous permet uniquement d’utiliser `MeetingRoomSignIn` le mode. `MeetingRoomSignIn` le mode n’est pas disponible sur la plupart des téléphones de zone commune. Pour plus d’informations sur les remplacements pris en charge pour l’interface téléphonique, consultez [Définir l’interface utilisateur des appareils Android Microsoft Teams](/microsoftteams/devices/teams-android-devices-user-interface#override-automatic-user-interface-detection). 
+La stratégie Téléphone IP Teams ne peut être modifiée que si le compte qui se connecte au téléphone dispose d’une licence autre qu’une licence **Appareils partagés Teams** .  En cas de licence avec un abonnement Microsoft 365 E3 ou E5, ou un abonnement Office 365 Entreprise E1, E3 ou E5, vous pouvez modifier la stratégie de téléphone IP.  Si vous utilisez une licence **salles Teams** sur votre compte de téléphone de zone commune, elle vous permet uniquement d’utiliser `MeetingRoomSignIn` le mode. `MeetingRoomSignIn` le mode n’est pas disponible sur la plupart des téléphones de zone commune. Pour plus d’informations sur les remplacements pris en charge pour l’interface téléphonique, consultez [Définir Microsoft l’interface utilisateur des appareils Android Teams](/microsoftteams/devices/teams-android-devices-user-interface#override-automatic-user-interface-detection).
 
 À l’aide de la stratégie Téléphone IP Teams, définissez le [paramètre SignInMode](/powershell/module/skype/new-csteamsipphonepolicy#parameters) sur `CommonAreaPhoneSignIn` pour activer l’expérience téléphonique de la zone commune sur l’appareil téléphonique Teams.
 
@@ -167,7 +148,7 @@ En tant qu’administrateur, vous pouvez approvisionner et vous connecter à dis
 
 Par défaut, l’expérience d’appel de base est sur l’écran d’accueil du téléphone de la zone commune, mais vous pouvez activer une expérience d’appel avancée.
 
-Les fonctionnalités d’appel avancées suivantes sont disponibles pour les modèles d’appareils téléphoniques Teams pris en charge avec une licence **Téléphone de zone commune** et les dernières mises à jour teams (version minimale : 1449/1.0.94.20222061702) :
+Les fonctionnalités d’appel avancées suivantes sont disponibles pour les modèles d’appareils téléphoniques Teams pris en charge avec une licence **Appareils partagés Teams** et les dernières mises à jour Teams (version minimale : 1449/1.0.94.20222061702) :
 
 - [Appelez le parcage et récupérez](call-park-and-retrieve.md).
 - [Messagerie vocale basée sur le cloud via Exchange Online Plan 2](set-up-phone-system-voicemail.md).
@@ -177,7 +158,7 @@ Les fonctionnalités d’appel avancées suivantes sont disponibles pour les mod
 - [Prise en charge de l’appel de groupe](call-sharing-and-group-call-pickup.md).
 - [Règles de transfert](teams-calling-policy.md).
 
-Pour utiliser ces fonctionnalités d’appel avancées sur les modèles d’appareils téléphoniques Teams pris en charge, vous pouvez activer le bouton bascule **Appels avancés** dans le [Centre d’administration Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851) ou sur votre appareil téléphonique Teams connecté à votre compte Téléphone de zone commune.
+Pour utiliser ces fonctionnalités d’appel avancées sur les modèles d’appareils téléphoniques Teams pris en charge, vous pouvez activer le bouton bascule **Appels avancés** dans le [Centre d’administration Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851) ou sur votre appareil téléphonique Teams connecté à votre compte Appareils partagés Teams.
 
 L’activation des fonctionnalités d’appel avancées vous oblige à acheter des modèles matériels capables de prendre en charge toutes les fonctionnalités requises.
 
@@ -197,10 +178,10 @@ L’activation des fonctionnalités d’appel avancées vous oblige à acheter d
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Maintenant que vous avez configuré et connecté des téléphones de zone commune pour votre organisation, vous pouvez les gérer dans le Centre d’administration Teams. Pour en savoir plus [, consultez Microsoft Teams : Gestion de vos appareils](devices/device-management.md) .
+Maintenant que vous avez configuré et connecté des téléphones de zone commune pour votre organisation, vous pouvez les gérer dans le Centre d’administration Teams. Consultez [Microsoft Teams : Gestion de vos appareils](devices/device-management.md) pour en savoir plus.
 
 ## <a name="related-articles"></a>Articles connexes
 
-- [Mettez à jour les appareils Microsoft Teams à distance](devices/remote-update.md).
-- [Gérer les étiquettes d’appareil Microsoft Teams](devices/manage-device-tags.md).
-- [Surveillance de l’intégrité des appareils Microsoft Teams](alerts/device-health-status.md).
+- [Mettez à jour Microsoft appareils Teams à distance](devices/remote-update.md).
+- [Gérer Microsoft étiquettes d’appareil Teams](devices/manage-device-tags.md).
+- [Microsoft surveillance de l’intégrité des appareils Teams](alerts/device-health-status.md).

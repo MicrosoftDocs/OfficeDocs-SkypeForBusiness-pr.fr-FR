@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams afin de produire les meilleurs résultats.
-ms.openlocfilehash: f9012cd72807705f4f381b3443605b77c9d94000
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 0055529d7bc0344faeb04e7d35bf0c9ed457510d
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307939"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392354"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>appareils Android certifiés Microsoft Teams
 
@@ -88,7 +88,7 @@ Les appareils suivants sont certifiés dans le cadre du programme de certificati
 | Logitech Tap IP VR0029     | `1.6.762`  |   3 septembre 2024  | Compatible avec Logitech Rally Bar et Rally Bar Mini | 10 |
 | Neat Bar Pro   | `NFD1.20220914.1210 ` | 3 septembre 2024  |  Chambre de taille moyenne (4,5 m x 6 m) | 10|
 | Barre soignée | `NFF1.20220914.1210` |3 septembre 2024|    Chambre de taille moyenne (4,5 m x 6 m) | 10 |
-| Console tactile Neat Pad | `NFA1.20220914.1206`  | 3 septembre 2024 | Compatible avec Neat Bar uniquement | 9 |
+| Console tactile Neat Pad | `NFA1.20220914.1206`  | 3 septembre 2024 | Compatible avec Neat Bar & Neat Bar Pro | 9 |
 | Tableau soigné | `NFC1.20220914.1210 ` | 3 septembre 2024 |    Petite salle de réunion (4,5 m x 4,5 m) | 10 |
 | Colocataire de Logitech | `1.4.71` | 3 septembre 2024  | Grande salle de réunion (4,5 m x 8,5 m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 5 août 2023 | Fourni avec l’EPOS Vision 3T | 9 |
@@ -165,6 +165,7 @@ Lorsque vous installez une nouvelle version de microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme  | Version de produit incluse  |
 |:----------------|:--------------|:----------------------------|
+|Poly CCX350 | `8.0.2.2643` | Mise à jour 2022 #4A |
 |Yealink CP965  | `143.15.0.27`     | Mise à jour 2022 #4A  |
 |Yealink MP54/MP56/MP58  | `122.15.0.107`     | Mise à jour 2022 #4A  |
 |Yealink MP52  | `145.15.0.59`     | Mise à jour 2022 #4A  |
@@ -272,6 +273,7 @@ Voici les dernières salles Teams sur les versions de microprogramme et d’appl
 
 | Version du produit| Date de publication | Microsoft version de l’application Teams | version Portail d'entreprise | version de l’agent Administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| Mise à jour 2022 #3  | 13 décembre 2022 |`1449/1.0.96.2022120503`| `5.0.5484.0` | `1.0.0.202205230848.product version code : 361` |
 | Mise à jour 2022 #2B  | 15 septembre 2022 |`1449/1.0.96.2022090606`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Mise à jour 2022 #2A  | 8 août 2022 |`1449/1.0.96.2022072103`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Mise à jour 2022 #2  | 25 mai 2022 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
@@ -290,6 +292,14 @@ Lorsque vous installez une nouvelle version de microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBoard 86 » | `155.15.0.17` | Mise à jour 2022 #2B |
+| Barre soignée | `NFB1.20220914.1215` | Mise à jour 2022 #2B |
+| Neat Bar Pro| `NFD1.20220914.1215` | Mise à jour 2022 #2B |
+| Tableau soigné | `NFC1.20220914.1215` |  Mise à jour 2022 #2B |
+| Console tactile Neat Pad | `NFA1.20220914.1215`  |  Mise à jour 2022 #2B |
+| Logi Rallybar  | `1.8.290`     | Mise à jour 2022 #2B  |
+| Logi Rallybar Mini  | `1.8.290`     | Mise à jour 2022 #2B  |
+| Logi Console  | `1.8.177`    | Mise à jour 2022 #2B  |
 | Logi Rallybar  | `1.7.300`     | Mise à jour 2022 #2B  |
 | Logi Rallybar Mini  | `1.7.300`     | Mise à jour 2022 #2B  |
 | Logi RoomMate  | `1.7.202`   | Mise à jour 2022 #2B  |

@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment Microsoft routage direct vous permet de connecter un contrôleur de frontière de session (SBC) fourni par le client pris en charge au système téléphonique.
-ms.openlocfilehash: e3da76d8fa3f848945607a7e27f6b162623951b3
-ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
+ms.openlocfilehash: 811115c23d88ff3ce1b7fa6af8f8757afb33fecf
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2022
-ms.locfileid: "69343184"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392324"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -122,26 +122,25 @@ Un utilisateur Teams peut démarrer un appel Teams-à-un Teams-to-PSTN ou Teams-
 
 Vous devez vérifier ce qui suit :
  
-- CsOnlineVoiceRoutingPolicy est attribué à l’utilisateur. 
+- CsOnlineVoiceRoutingPolicy est attribué à l’utilisateur.
 
-- Autoriser les appels privés est activé au niveau du locataire pour Microsoft Teams. 
+- Autoriser les appels privés est activé au niveau du locataire pour Microsoft Teams.
 
 Le routage direct prend également en charge les utilisateurs disposant d’une licence pour Microsoft forfait d’appels. Le système téléphonique avec forfait d’appels peut acheminer certains appels à l’aide de l’interface de routage direct. Toutefois, les numéros de téléphone des utilisateurs doivent être acquis en ligne ou transférés vers Microsoft.  
 
-La combinaison d’un forfait d’appels et d’une connectivité de routage direct pour le même utilisateur est facultative, mais peut être utile. Par exemple, lorsque l’utilisateur se voit attribuer un Microsoft forfait d’appels, mais qu’il souhaite router certains appels à l’aide du SBC. L’un des scénarios les plus courants est les appels à des PBX tiers.  Avec les PBX tiers, tous les appels, à l’exception des téléphones connectés à ce PBX, sont acheminés à l’aide de Microsoft forfait d’appels, mais les appels aux téléphones connectés à des PBX tiers sont acheminés vers le SBC et restent donc dans le réseau d’entreprise et non dans le réseau RTC. 
+La combinaison d’un forfait d’appels et d’une connectivité de routage direct pour le même utilisateur est facultative, mais peut être utile. Par exemple, lorsque l’utilisateur se voit attribuer un Microsoft forfait d’appels, mais qu’il souhaite router certains appels à l’aide du SBC. L’un des scénarios les plus courants est les appels à des PBX tiers.  Avec les PBX tiers, tous les appels, à l’exception des téléphones connectés à ce PBX, sont acheminés à l’aide de Microsoft forfait d’appels, mais les appels aux téléphones connectés à des PBX tiers sont acheminés vers le SBC et restent donc dans le réseau d’entreprise et non dans le réseau RTC.
 
-Pour plus d’informations sur les licences de système téléphonique, voir [Tirer le meilleur parti d’Office](https://products.office.com/compare-all-microsoft-office-products?tab=2) et [options de plan](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) et [Microsoft licences du module complémentaire Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
+Pour plus d’informations sur les licences de système téléphonique, voir [Tirer le meilleur parti d’Office](https://products.office.com/compare-all-microsoft-office-products?tab=2) et [options de plan](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) et [Microsoft licences du module complémentaire Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-## <a name="supported-end-points"></a>Points de terminaison pris en charge 
+## <a name="supported-end-points"></a>Points de terminaison pris en charge
 
 Vous pouvez utiliser comme point de terminaison :
 
-- N’importe quel client Teams. 
+- N’importe quel client Teams.
 
-- Téléphones de zone commune. Consultez [Configurer des téléphones communs pour Microsoft Teams](./set-up-common-area-phones.md). Vous n’avez pas besoin d’une licence de forfait d’appels lors de la configuration d’un téléphone de zone commune avec routage direct.
+- Téléphones de zone commune. Consultez [Configurer des téléphones de zone commune pour Microsoft Teams](./set-up-common-area-phones.md). Vous n’avez pas besoin d’une licence de forfait d’appels lors de la configuration d’un téléphone de zone commune avec le routage direct.
 
 - Skype Entreprise téléphones 3PIP. Consultez [la prise en charge des téléphones Skype Entreprise (3PIP) avec Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
-
 
 ## <a name="sbc-domain-names"></a>Noms de domaine SBC
 
@@ -155,7 +154,8 @@ contoso.com|Oui|**Noms valides :**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<
 |contoso.onmicrosoft.com|Non|L’utilisation de domaines *.onmicrosoft.com n’est pas prise en charge pour les noms SBC
 
 Supposons que vous souhaitiez utiliser un nouveau nom de domaine. Par exemple, votre locataire a contoso.com en tant que nom de domaine inscrit dans votre locataire et vous souhaitez utiliser sbc1.sip.contoso.com. Avant de pouvoir coupler un SBC avec le nom sbc1.sip.contoso.com, vous devez inscrire le nom de domaine sip.contoso.com dans Domaines dans votre locataire. Si vous essayez de coupler un SBC avec sbc1.sip.contoso.com avant d’inscrire le nom de domaine, vous obtenez l’erreur suivante : « Impossible d’utiliser le domaine « sbc1.sip.contoso.com », car il n’a pas été configuré pour ce locataire. »
-Après avoir ajouté le nom de domaine, vous devez également créer un utilisateur avec upn user@sip.contoso.com et attribuer une licence Teams. Le provisionnement complet du nom de domaine peut prendre jusqu’à 24 heures après son ajout aux domaines de votre locataire, la création d’un utilisateur avec un nouveau nom et l’attribution d’une licence à l’utilisateur. 
+
+Après avoir ajouté le nom de domaine, vous devez également créer un utilisateur avec upn user@sip.contoso.com et attribuer une licence Teams. Le provisionnement complet du nom de domaine peut prendre jusqu’à 24 heures après son ajout aux domaines de votre locataire, la création d’un utilisateur avec un nouveau nom et l’attribution d’une licence à l’utilisateur.
 
 Il est possible qu’une entreprise ait plusieurs espaces d’adressage SIP dans un seul locataire. Par exemple, une entreprise peut avoir contoso.com comme espace d’adressage SIP et fabrikam.com comme deuxième espace d’adressage SIP. Certains utilisateurs ont des user@contoso.com d’adresses et d’autres ont des user@fabrikam.com d’adresses. 
 
@@ -166,14 +166,16 @@ Le SBC n’a besoin que d’un seul nom de domaine complet et peut traiter les u
   
 ## <a name="public-trusted-certificate-for-the-sbc"></a>Certificat approuvé public pour le SBC
 
-Microsoft vous recommande de demander le certificat pour le SBC en générant une demande de signature de certification (CSR). Pour obtenir des instructions spécifiques sur la génération d’un CSR pour un SBC, reportez-vous aux instructions d’interconnexion ou à la documentation fournie par vos fournisseurs SBC. 
+Microsoft vous recommande de demander le certificat pour le SBC en générant une demande de signature de certification (CSR). Pour obtenir des instructions spécifiques sur la génération d’un CSR pour un SBC, reportez-vous aux instructions d’interconnexion ou à la documentation fournie par vos fournisseurs SBC.
 
 > [!NOTE]
 > La plupart des autorités de certification exigent que la taille de la clé privée soit d’au moins 2 048. Gardez cela à l’esprit lors de la génération de la csr.
 
 Le certificat doit avoir le nom de domaine complet SBC comme champ nom commun (CN) ou autre nom d’objet (SAN).
 
-Le routage direct prend également en charge un caractère générique dans le CN et/ou le SAN, et le caractère générique doit être conforme à [la norme RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Par exemple, vous pouvez utiliser \*.contoso.com qui correspondrait au nom de domaine complet SBC sbc.contoso.com, mais ne correspondrait pas à sbc.test.contoso.com.
+Le routage direct prend également en charge un caractère générique dans le CN et/ou le SAN, et le caractère générique doit être conforme à [la norme RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1).
+
+Par exemple, vous pouvez utiliser \*.contoso.com qui correspondrait au nom de domaine complet SBC sbc.contoso.com, mais ne correspondrait pas à sbc.test.contoso.com.
 
 L’interface SIP de routage direct approuve uniquement les certificats signés par des autorités de certification qui font partie du programme de certificat racine approuvé Microsoft. Assurez-vous que votre certificat SBC est signé par une autorité de certification qui fait partie du programme et que l’extension Utilisation étendue de la clé (EKU) de votre certificat inclut l’authentification du serveur.
 En savoir plus : [Configuration requise du programme - Microsoft programme racine approuvé](/security/trusted-root/program-requirements)
@@ -188,7 +190,7 @@ En savoir plus : [Configuration requise du programme - Microsoft programme racin
 > [!NOTE]
 > Si la prise en charge du protocole TLS mutuel (MTLS) est activée pour la connexion Teams sur le SBC, vous devez installer les certificats Baltimore CyberTrust Root et DigiCert Global Root G2 dans le magasin racine de confiance SBC du contexte TLS Teams. (Cela est dû au fait que les certificats de service Microsoft utilisent l’un de ces deux certificats racines.) Pour télécharger ces certificats racines, consultez [Office 365 Chaînes de chiffrement](/microsoft-365/compliance/encryption-office-365-certificate-chains). Pour plus d’informations, voir [Modifications des certificats TLS Office](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes).
 
-## <a name="sip-signaling-fqdns"></a>Signalisation SIP : noms de domaine complets 
+## <a name="sip-signaling-fqdns"></a>Signalisation SIP : noms de domaine complets
 
 Le routage direct est proposé dans les environnements suivants :
 
@@ -274,6 +276,7 @@ Le tableau ci-dessous récapitule les relations entre les centres de données pr
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Trafic multimédia : plages de ports
+
 Notez que les exigences ci-dessous s’appliquent si vous souhaitez déployer le routage direct sans contournement de média. Pour connaître les exigences de pare-feu pour la déviation du trafic multimédia, reportez-vous à [Planifier la déviation du trafic multimédia avec le routage direct](./direct-routing-plan-media-bypass.md).
 
 Le trafic multimédia circule vers et depuis un service distinct dans le cloud Microsoft. Les plages d’adresses IP pour le trafic multimédia sont les suivantes.
@@ -292,7 +295,8 @@ Le trafic multimédia circule vers et depuis un service distinct dans le cloud M
 - 52.127.88.0/21
 
 ### <a name="port-range-applicable-to-all-environments"></a>Plage de ports (applicable à tous les environnements)
-La plage de ports des processeurs multimédias est indiquée dans le tableau suivant : 
+
+La plage de ports des processeurs multimédias est indiquée dans le tableau suivant :
 
 |Trafic|De|À|Port source|Port de destination|
 |:--- |:--- |:--- |:--- |:--- |
@@ -301,7 +305,6 @@ La plage de ports des processeurs multimédias est indiquée dans le tableau sui
 
   > [!NOTE]
   > Microsoft recommande au moins deux ports par appel simultané sur le SBC.
-
 
 ## <a name="media-traffic-media-processors-geography"></a>Trafic multimédia : zone géographique des processeurs multimédias
 
@@ -331,22 +334,23 @@ Vous pouvez forcer l’utilisation du codec spécifique sur le contrôleur de bo
 
 S’applique uniquement au cas de contournement de média. Avec la déviation du trafic multimédia, le média circule directement entre le client Teams et le SBC.
 
-Sur la jambe entre le processeur multimédia cloud et Microsoft client Teams, SILK ou G.722 est utilisé. Le choix des codecs sur cette étape est basé sur des algorithmes Microsoft, qui prennent en compte plusieurs paramètres. 
+Sur la jambe entre le processeur multimédia cloud et Microsoft client Teams, SILK ou G.722 est utilisé. Le choix des codecs sur cette étape est basé sur des algorithmes Microsoft, qui prennent en compte plusieurs paramètres.
 
   > [!NOTE]
   > Le nouveau ciblage multimédia n’est pas pris en charge. Lors d’un appel Routage direct, si le SBC envoie une nouvelle adresse IP multimédia au Routage direct Teams, bien qu’il soit négocié dans la signalisation SIP, le multimédia n’est jamais envoyé à la nouvelle adresse IP à partir du Routage direct Teams.
 
 ## <a name="supported-session-border-controllers-sbcs"></a>Contrôleurs de bordure de session (SBC) pris en charge
 
-Microsoft prend uniquement en charge les SBC certifiés à coupler avec le routage direct. Étant donné que Téléphonie – Grandes entreprises est essentiel pour les entreprises, Microsoft effectue des tests intensifs avec les SBC sélectionnés et collabore avec les fournisseurs SBC pour s’assurer que les deux systèmes sont compatibles. 
+Microsoft prend uniquement en charge les SBC certifiés à coupler avec le routage direct. Étant donné que Téléphonie – Grandes entreprises est essentiel pour les entreprises, Microsoft effectue des tests intensifs avec les SBC sélectionnés et collabore avec les fournisseurs SBC pour s’assurer que les deux systèmes sont compatibles.
 
-Les appareils qui ont été validés sont répertoriés comme certifiés pour le routage direct Teams. Les appareils certifiés sont garantis pour fonctionner dans tous les scénarios. 
+Les appareils qui ont été validés sont répertoriés comme certifiés pour le routage direct Teams. Les appareils certifiés sont garantis pour fonctionner dans tous les scénarios.
 
 Pour plus d’informations sur les contrôleurs SBC pris en charge, consultez [Contrôleurs de frontière de session certifiés pour le routage direct](direct-routing-border-controllers.md).
 
 ## <a name="support-boundaries"></a>Limites de prise en charge
+
 Microsoft ne prend en charge le système téléphonique avec routage direct que lorsqu'il est utilisé avec des périphériques certifiés. En cas de problème, vous devez d'abord contacter le support client de votre fournisseur de SBC. Si nécessaire, le fournisseur SBC transmettra le problème à Microsoft par les canaux internes. Microsoft se réserve le droit de rejeter les cas de support où un appareil non certifié est connecté au système téléphonique par le biais du Direct Routing. Si Microsoft détermine que le problème de routage direct d’un client concerne l’appareil SBC d’un fournisseur, le client devra contacter de nouveau le fournisseur SBC pour obtenir de l’aide.
- 
+
 ## <a name="see-also"></a>Voir aussi
 
 [Configurer le routage direct](direct-routing-configure.md)

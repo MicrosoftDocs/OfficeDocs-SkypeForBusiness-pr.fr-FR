@@ -25,12 +25,12 @@ ms.custom:
 - Phone System - seo-marvel-apr2020
 robots: noindex
 description: Découvrez comment configurer des files d’attente d’appels dans Microsoft Teams. Les files d’attente d’appels fournissent un message d’accueil, contiennent de la musique, la redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: 401479f73b81fffcdcb6d5d1d3663a80e4fc7b86
-ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.openlocfilehash: 9750bfddbf43c1b0e103e6d6c31feaf4aa542590
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251994"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392524"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -129,9 +129,9 @@ Si vous n’avez pas de compte de ressource avec un numéro de téléphone attri
 
 Une fois que vous avez créé ce nouveau compte de ressource pour l’ID d’appel, vous devez toujours :
 
-- Attribuer une [licence de compte de ressource téléphonique Teams](manage-resource-accounts.md#assign-a-license)
-- Attribuer une licence de forfait d’appels Microsoft, attribuer un numéro de téléphone Operator Connect ou affecter une stratégie de routage vocal en ligne pour le routage direct
-- Affectez le [numéro de téléphone du service au compte de ressource](manage-resource-accounts.md#assign-a-service-number), si vous utilisez Microsoft forfait d’appels
+- Attribuez une [licence de compte de ressource téléphonique Teams](manage-resource-accounts.md#assign-a-license).
+- Attribuez une licence de forfait d’appels Microsoft, attribuez un numéro de téléphone Operator Connect ou affectez une stratégie de routage vocal en ligne pour le routage direct.
+- Affectez le [numéro de téléphone au compte de ressource](manage-resource-accounts.md#assign-a-phone-number), si vous utilisez Microsoft forfait d’appels.
 
 #### <a name="set-the-call-queue-language"></a>Définir la langue de la file d’attente des appels
 
@@ -353,25 +353,25 @@ Les configurations ci-dessous sont recommandées :
 |Fonctionnalité                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Skype Entreprise |Téléphones IP | Files d’attente d’appels standard |Files d’attente d’appels basées sur un canal | Commentaire |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
 |**Méthodes de routage de l’agent**        |                          |          |                |     |          |                      |                          |   |
-|`Attendant Routing`              |O                         |O         |O               |O    |O         |O                     |O                         |*Par défaut*     |
+|`Attendant Routing`              |O                         |O         |O               |O    |O         |O                     |v                         |*Par défaut*     |
 |`Longest Idle`<sup>3</sup>       |O                         |O         |v               |N    |O         |O                     |v                         |*Recommandé* |
 |`Round Robin`                    |O                         |O         |O               |O    |O         |O                     |v                         |*Recommandé* |
 |`Serial`                         |O                         |O         |O               |O    |v         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Options de routage de l’agent**        |                          |          |                |     |          |                      |                          |   |
-|`Presence Based Routing`<sup>3</sup>|O                      |O         |v               |N    |O         |O                     |O                         |*Par défaut* |
-|`Agents can Opt-out`<sup>10</sup> |O                       |O         |v               |Y<sup>7</sup>|Y<sup>7</sup>|O          |v                         |*Par défaut*     |
+|`Presence Based Routing`<sup>3</sup>|O                      |O         |v               |N    |O         |O                     |v                         |*Par défaut* |
+|`Agents can Opt-out`<sup>10</sup> |O                       |O         |v               |Y<sup>7</sup>|Y<sup>7</sup>|O          |O                         |*Par défaut*     |
 |**Modes de transfert**               |                          |          |                |     |          |                      |                          |   |
 |`Conference Mode`<sup>5</sup>    |O                         |O         |v               |N    |Y<sup>6</sup>|O                  |O                         |*Par défaut* |
-|`Transfer Mode`                  |O                         |O         |O               |O    |O         |O                     |O                         |   |
+|`Transfer Mode`                  |O                         |O         |O               |O    |O         |O                     |v                         |   |
 |**Appel collaboratif**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |v                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**ID d’appelant dynamique**            |                          |          |                |     |          |                      |                          |   |
 |`Standard call queue`            |O                         |O         |v               |N    |N         |O                     |n/a                       |   |
-|`Channel based call queue`       |v                         |n/a       |n/a             |n/a  |n/a       |n/a                   |v                         |   |
+|`Channel based call queue`       |O                         |n/a       |n/a             |n/a  |n/a       |n/a                   |v                         |   |
 |**Méthodes de connectivité RTC**    |                          |          |                |     |          |                      |                          |Voir la note 9   |
 |`Calling Plans`                  |O                         |O         |O               |O    |O         |O                     |O                         |   |
 |`Direct Routing`                 |O                         |O         |v               |N    |O         |Y<sup>6</sup>         |O                         |   |
-|`Operator Connect`               |O                         |O         |O               |     |O         |Y<sup>6</sup>         |O                         |   |
+|`Operator Connect`               |O                         |O         |O               |     |v         |Y<sup>6</sup>         |v                         |   |
 |**Divers**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |v                 |N         |O               |O    |          |O                     |v                         |              |
 

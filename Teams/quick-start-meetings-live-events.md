@@ -23,14 +23,16 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 982730f7c839eeab2a55bc8997eade8aec31bebc
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 45148768d023b3cb6b609c1f315fe8d71031a573
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614267"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392194"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Réunions, webinaires et événements en direct
+
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Il existe plusieurs façons de se réunir dans Microsoft Teams : réunions, webinaires et événements en direct.
 
@@ -44,7 +46,7 @@ Le tableau suivant résume les trois types de réunions, le nombre de participan
 
 | Type de réunion | Nombre de participants | Interaction | Inscription prise en charge |
 |----------|--------|--------|-----|
-| Réunions  | Jusqu’à 20 000* | - Les participants jusqu’à 1 000 ont des fonctionnalités de réunion entièrement interactives égales. <br> - Les participants de plus de 1 000 à 20 000 participants ont des fonctionnalités [d’affichage uniquement](view-only-meeting-experience.md) .  | Non |
+| Réunions  | Jusqu’à 20 000* | - Les participants jusqu’à 1 000 ont des fonctionnalités de réunion entièrement interactives égales. <br> - Les participants de plus de 1 000 à 20 000 participants ont des fonctionnalités [d’affichage uniquement](view-only-meeting-experience.md) .  | Oui, avec Réunions avec inscription (webinaires 1.0) |
 | Séminaires web | - Jusqu’à 1 000<br>- Des limites accrues avec les fonctionnalités [d’affichage uniquement](view-only-meeting-experience.md) seront bientôt disponibles. |- Jusqu’à 1 000, les participants disposent de fonctionnalités totalement interactives.<br> - Interaction de l’audience configurable.<br> - Peut spécifier des présentateurs. | Oui |
 | Événements en direct | Jusqu’à 20 000** |- Diffuser au grand public. <br>- Questions et réponses modérées pour l’interaction de l’audience. <br> - Peut spécifier des producteurs et des présentateurs, y compris des présentateurs externes.<br>- Prend en charge des fonctionnalités de production plus avancées. | Non |
 
@@ -55,7 +57,7 @@ Le tableau suivant résume les trois types de réunions, le nombre de participan
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 > [!NOTE]
-> Pour plus d’informations et obtenir des conseils par rôle pour la distribution d’événements en ligne à l’aide de Microsoft Teams, consultez le [playbook d’événements virtuels](https://aka.ms/VirtualEventPlaybook). Vous pouvez également participer au [Forum des événements virtuels](https://aka.ms/VirtualEventForum) sur le Microsoft Tech Community.
+> Pour plus d’informations et pour obtenir des conseils par rôle pour la distribution d’événements en ligne à l’aide de Microsoft Teams, consultez le [playbook des événements virtuels](https://aka.ms/VirtualEventPlaybook). Vous pouvez également participer au [Forum des événements virtuels](https://aka.ms/VirtualEventForum) sur le Microsoft Tech Community.
 
 > [!NOTE]
 > Pour plus d’informations sur la configuration rapide de réunions et d’événements Teams sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -95,7 +97,30 @@ Le tableau suivant répertorie les formations disponibles pour les utilisateurs 
 
 ## <a name="webinars"></a>Séminaires web
 
-**Les webinaires** sont des réunions structurées où les présentateurs et les participants ont des rôles clairs. Une différence clé entre les webinaires et les réunions Teams est que les webinaires prennent en charge l’inscription et fournissent des données d’engagement des participants. Pour activer les webinaires dans votre organisation, consultez [Configurer des webinaires dans Teams](set-up-webinars.md).
+**Les webinaires** sont des réunions structurées où les présentateurs et les participants ont des rôles clairs. L’une des principales différences entre les webinaires et les réunions Teams est que les webinaires prennent en charge une gestion robuste des inscriptions, des événements et des sites d’inscription personnalisables et des options de réunion par défaut orientées événements.
+
+Si votre organisation utilise déjà des webinaires, vous êtes familiarisé avec la stratégie de réunion Teams et les paramètres suivants qui vous permettent de prendre en charge l’inscription aux réunions et de suivre les données d’engagement :
+
+- AllowMeetingRegistration (activé ou désactivé)
+- WhoCanRegister (tous les membres de l’entreprise, à l’exception des invités ou de tout le monde)
+
+Avec la publication de la nouvelle expérience de webinaire, il y aura une nouvelle stratégie d’événements Teams avec les paramètres suivants :
+
+- AllowWebinars (activé ou désactivé)
+- EventAccessType (tous les membres de l’entreprise, à l’exception des invités ou tout le monde)
+
+La nouvelle stratégie continuera à prendre en charge l’inscription et le suivi, et fournira des fonctionnalités supplémentaires à l’expérience de webinaire. Au départ, les éléments suivants seront disponibles :
+
+- Question personnalisée sur les conditions générales
+- Bio du présentateur
+- Bannière, logo et couleur prédéfinie
+- Fonctionnalités d’inscription avancées : approbation manuelle, liste d’attente, date et limite d’heure d’inscription
+- Vue d’ensemble et gestion de l’inscription : pour chaque événement, un résumé de l’état d’inscription avec des listes de participants dans différents états d’inscription, en fonction des fonctionnalités d’inscription activées.
+
+Vous devez commencer à utiliser la nouvelle stratégie pour tirer parti des nouvelles fonctionnalités à mesure qu’elles deviennent disponibles.
+
+Pour plus d’informations sur les fonctionnalités et la configuration des webinaires, consultez [Configurer des webinaires](set-up-webinars.md).
+
 
 ### <a name="key-training-for-end-users"></a>Formation clé pour les utilisateurs finaux
 
@@ -152,6 +177,8 @@ Le tableau suivant répertorie les articles pour plus d’informations :
 Tout le monde peut participer gratuitement à une réunion Teams, à un webinaire ou à un événement—en direct public. Aucune licence n’est requise.
 
 Pour les personnes qui organisent, planifient et hébergent des réunions, des webinaires ou des événements en direct, elles ont besoin de l’une des licences Microsoft 365 répertoriées dans la description du service [Microsoft Teams](/office365/servicedescriptions/teams-service-description). Si vous utilisez déjà Teams, vous disposez probablement de la licence dont vous avez besoin pour organiser et héberger des réunions, des webinaires et des événements en direct.
+
+Pour plus d’informations sur les licences Teams Premium, consultez [Licences Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).
 
 Pour permettre aux personnes de se connecter à une réunion par téléphone, vous devez configurer l’audioconférence. Pour plus d’informations sur l’audioconférence, consultez [Audioconférence dans Teams](deploy-audio-conferencing-teams-landing-page.md).
 

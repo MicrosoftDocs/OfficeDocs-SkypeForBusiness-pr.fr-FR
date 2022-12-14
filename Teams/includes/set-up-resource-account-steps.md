@@ -1,11 +1,11 @@
-Dans Microsoft Teams, un compte de ressource est requis pour chaque standard automatique ou file d’attente d’appels. Des numéros de téléphone de service peuvent également être attribués aux comptes de ressources. C’est ainsi que vous affectez des numéros de téléphone à des standards automatiques et des files d’attente d’appels, ce qui permet aux appelants extérieurs à Teams d’atteindre le standard automatique ou la file d’attente d’appels.
+Dans Microsoft Teams, un compte de ressource est requis pour chaque standard automatique ou file d’attente d’appels. Des numéros de téléphone peuvent également être attribués aux comptes de ressources. C’est ainsi que vous affectez des numéros de téléphone à des standards automatiques et des files d’attente d’appels, ce qui permet aux appelants extérieurs à Teams d’atteindre le standard automatique ou la file d’attente d’appels.
 
 Cet article explique comment créer des comptes de ressources et les préparer à une utilisation avec des standards automatiques et des files d’attente d’appels.
 
 Avant de commencer les procédures décrites dans cet article, vérifiez que vous avez effectué les étapes suivantes :
 
 - [Obtenir des licences de compte de ressources Téléphonie Microsoft Teams](#obtain-microsoft-teams-phone-resource-account-licenses)
-- [Obtenir des numéros de service](#obtain-service-numbers)
+- [Obtenir des numéros de téléphone](#obtain-phone-numbers)
 
 > [!NOTE]
 > Les comptes de ressources utilisés pour les standards automatiques et les files d’attente d’appels sont désactivés pour la connexion et doivent le rester. La conversation et la présence ne sont pas disponibles pour ces comptes.
@@ -30,13 +30,17 @@ Pour voir si vous disposez déjà de licences **de compte de ressources téléph
 
 Il n’y a aucun coût, mais vous devez toujours suivre ces étapes pour acquérir la licence.
 
-### <a name="obtain-service-numbers"></a>Obtenir des numéros de service
+### <a name="obtain-phone-numbers"></a>Obtenir des numéros de téléphone
 
-Les numéros de service sont facultatifs pour les standards automatiques et les files d’attente d’appels ; Toutefois, vous aurez besoin d’au moins un numéro de service pour que les appelants atteignent votre standard automatique et votre configuration de file d’attente d’appels. Pour tout standard automatique ou file d’attente d’appels que vous souhaitez atteindre directement par un numéro de service, vous devez disposer d’un compte de ressource avec un numéro de service associé.
+Les numéros de téléphone sont facultatifs pour les standards automatiques et les files d’attente d’appels. Pour tout standard automatique ou file d’attente d’appels que vous souhaitez joindre directement par un numéro de téléphone, vous devez disposer d’un compte de ressource avec un numéro de téléphone associé.
 
-Les comptes de ressources peuvent utiliser des numéros de service payants ou gratuits. Vous pouvez demander de nouveaux numéros ou de porter des numéros existants auprès d’un autre opérateur.
+Les comptes de ressources peuvent utiliser des numéros de téléphone payants ou gratuits. Vous pouvez demander de nouveaux numéros ou de porter des numéros existants auprès d’un autre opérateur.
 
-Pour obtenir de nouveaux numéros de service, consultez [Obtention de numéros de téléphone de service](../getting-service-phone-numbers.md).
+Les numéros de téléphone acceptables qui peuvent être appliqués aux comptes de ressources sont les suivants :
+
+- **Numéros de service forfaits d’appels :** Pour acquérir des numéros de service avec des forfaits d’appels, consultez [Obtention de numéros de téléphone de service](../getting-service-phone-numbers.md).
+- **Numéros de routage direct :** Pour acquérir des numéros de routage direct, consultez [Activer les utilisateurs pour le routage direct](/microsoftteams/direct-routing-enable-users#configure-the-phone-number-and-enable-enterprise-voice).
+- **Numéros de connexion de l’opérateur :** Pour acquérir des numéros Operator Connect, consultez [Configurer Operator Connect](/microsoftteams/operator-connect-configure#set-up-phone-numbers).
 
 Pour transférer un numéro à partir d’un autre opérateur, consultez [Transférer des numéros de téléphone vers Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
@@ -60,13 +64,13 @@ Pour chaque compte de ressource, vous devez attribuer une licence **de compte de
 4. Sous l’onglet **Licences et applications**, sous **Licences**, sélectionnez **Téléphonie Microsoft Teams Compte de ressource**.
 5. Sélectionnez **Enregistrer les modifications**.
 
-## <a name="assign-a-service-number"></a>Attribuer un numéro de service
+## <a name="assign-a-phone-number"></a>Attribuer un numéro de téléphone
 
-Si vous envisagez d’utiliser le compte de ressource avec un standard automatique ou une file d’attente d’appels qui nécessite un numéro de service, affectez un numéro au compte de ressource.
+Si vous envisagez d’utiliser le compte de ressource avec un standard automatique ou une file d’attente d’appels qui nécessite un numéro de téléphone, affectez un numéro au compte de ressource.
 
 1. Connectez-vous au [Centre d’administration Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 2. Développez **Voix**, puis sélectionnez **page Comptes de** ressources.
-3. Sélectionnez le compte de ressource auquel vous souhaitez attribuer un numéro de service, puis sélectionnez **Attribuer/annuler l’affectation**.
+3. Sélectionnez le compte de ressource auquel vous souhaitez attribuer un numéro de téléphone, puis sélectionnez **Attribuer/annuler l’attribution**.
 4. Dans la liste déroulante **Type de numéro de téléphone** , choisissez le type de numéro que vous souhaitez utiliser.
 5. Dans la zone **Numéro de téléphone attribué** , recherchez le numéro que vous souhaitez utiliser, puis sélectionnez **Ajouter**. Veillez à inclure l’indicatif du pays (par exemple, +1 250 555 0012).
 6. Sélectionnez **Enregistrer**.

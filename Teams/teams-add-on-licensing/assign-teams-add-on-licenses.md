@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Découvrez comment attribuer des licences de module complémentaire Teams à des utilisateurs pour des fonctionnalités telles que l’audioconférence, le système téléphonique et les forfaits d’appels.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 635280582796f2b373efc0c763fea0887bcd6e42
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 60bde63ab3cc499c022ef2d23b669b543d6f5dd9
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307779"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392084"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Attribuer des licences de module complémentaire Teams aux utilisateurs
 
@@ -148,6 +148,7 @@ Pour plus d’informations, consultez [Afficher les licences et les services ave
 | Salles Microsoft Teams Basique sans audioconférence | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
 | Salles Microsoft Teams Pro | Microsoft_Teams_Rooms_Pro |
 | Salles Microsoft Teams Pro sans audioconférence | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
+| appareils partagés Microsoft Teams | MCOCAP |
 | Microsoft Teams Premium | Microsoft_Teams_Premium |
 
 ## <a name="related-content"></a>Contenu associé
