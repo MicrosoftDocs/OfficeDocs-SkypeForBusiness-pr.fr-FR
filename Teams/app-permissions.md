@@ -19,16 +19,16 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 643c354086d93d7aa3edd4d73216b4b9d5dbbe56
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 43e960a623992502f07d028a152fec3104e8670b
+ms.sourcegitcommit: 7104222e5d379d1338fa8bf2555754d3ac5eeb82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912473"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "69412247"
 ---
 # <a name="information-accessed-and-actions-performed-by-apps-and-related-admin-considerations"></a>Informations consultées et actions effectuées par les applications et considérations d’administrateur associées
 
-Les applications Microsoft Teams regroupent une ou plusieurs fonctionnalités en applications qui peuvent être installées, mises à niveau et désinstallées. Les fonctionnalités des applications sont les suivantes :
+Microsoft applications Teams regroupent une ou plusieurs fonctionnalités en applications qui peuvent être installées, mises à niveau et désinstallées. Les fonctionnalités des applications sont les suivantes :
 
 * Bots
 * Extensions de messagerie
@@ -68,12 +68,6 @@ En tant qu’administrateur, vous gérez uniquement les applications. Toutefois,
   * Recevoir un message personnel et y répondre.
   * Recevoir une conversation de groupe et y répondre.
   * Recevoir un message de canal et y répondre.
-
-* Les autorisations suivantes ne sont pas explicites, mais sont implicites par RECEIVE_MESSAGE et REPLYTO_MESSAGE et les étendues dans lesquelles les bots peuvent être utilisés, déclarées dans le manifeste :
-
-  * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-  * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
 * SEND_FILES, RECEIVE_FILES:<sup>2</sup> Contrôle si un bot peut envoyer et recevoir des fichiers dans une conversation personnelle (pas encore pris en charge pour les conversations de groupe ou les canaux).
 
