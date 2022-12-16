@@ -16,58 +16,58 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment utiliser et gérer des stratégies d’appel d’urgence dans Microsoft Teams pour définir ce qui se passe lorsqu’un utilisateur Teams de votre organisation effectue un appel d’urgence.
+description: Découvrez comment utiliser et gérer les stratégies d’appel d’urgence dans Microsoft Teams pour définir ce qui se passe lorsqu’un utilisateur Teams de votre organisation effectue un appel d’urgence.
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: a6fa08808c9ef5fc258236735cc043e4bde366b1
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 4b5d293cbbd588a564ff1a0118ab4d56f96c17a2
+ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551518"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69414641"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Gérer les stratégies d’appel d’urgence dans Microsoft Teams
 
-Si votre organisation utilise microsoft Calling Plans, Operator Connect, Teams Phone Mobile ou Direct Routing comme [option de connectivité RTC](pstn-connectivity.md), vous pouvez utiliser des stratégies d’appel d’urgence dans Microsoft Teams pour définir ce qui se passe lorsqu’un utilisateur Teams de votre organisation effectue un appel d’urgence.
+Si votre organisation utilise Microsoft forfaits d’appels, Connexion opérateur, Téléphone Mobile Teams ou Routage direct comme [option de connectivité RTC](pstn-connectivity.md), vous pouvez utiliser des stratégies d’appel d’urgence dans Microsoft Teams pour définir ce qui se passe lorsqu’un utilisateur Teams de votre organisation effectue un appel d’urgence.
 
-Vous pouvez définir les personnes à notifier et la façon dont elles sont averties lorsqu’un utilisateur auquel la stratégie est affectée appelle des services d’urgence. Par exemple, vous pouvez configurer les paramètres de stratégie pour informer automatiquement le bureau de sécurité de votre organisation et lui demander d’écouter les appels d’urgence.  
+Vous pouvez définir les personnes à notifier et la façon dont elles le sont lorsqu’un utilisateur auquel la stratégie est affectée appelle des services d’urgence. Par exemple, vous pouvez configurer des paramètres de stratégie pour avertir automatiquement le service de sécurité de votre organisation et lui faire écouter les appels d’urgence.  
 
-Vous gérez les stratégies d’appel d’urgence en accédant aux **stratégies d’urgence** **vocale** >  dans le Centre d’administration Microsoft Teams ou en utilisant Windows PowerShell. Les stratégies peuvent être affectées aux utilisateurs et aux [sites réseau](cloud-voice-network-settings.md).
+Vous gérez les stratégies d’appel d’urgence en accédant aux **stratégies d’urgence** **vocale** >  dans le centre d’administration Microsoft Teams ou en utilisant Windows PowerShell. Les stratégies peuvent être attribuées aux utilisateurs et aux [sites réseau](cloud-voice-network-settings.md).
 
-Pour les utilisateurs, vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et affecter des stratégies personnalisées. Les utilisateurs obtiennent automatiquement la stratégie globale, sauf si vous créez et affectez une stratégie personnalisée. N’oubliez pas que vous pouvez modifier les paramètres de la stratégie globale, mais que vous ne pouvez pas les renommer ou les supprimer. Pour les sites réseau, vous créez et attribuez des stratégies personnalisées.
+Pour les utilisateurs, vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées. Les utilisateurs obtiennent automatiquement la stratégie globale, sauf si vous créez et affectez une stratégie personnalisée. Gardez à l’esprit que vous pouvez modifier les paramètres de la stratégie globale, mais vous ne pouvez pas la renommer ou la supprimer. Pour les sites réseau, vous créez et affectez des stratégies personnalisées.
 
-Si vous avez affecté une stratégie d’appel d’urgence à un site réseau et à un utilisateur et si cet utilisateur se trouve sur ce site réseau, la stratégie affectée au site réseau remplace la stratégie affectée à l’utilisateur.
+Si vous avez affecté une stratégie d’appel d’urgence à un site réseau et à un utilisateur, et si cet utilisateur se trouve sur ce site réseau, la stratégie affectée au site réseau remplace la stratégie attribuée à l’utilisateur.
 
 ## <a name="create-a-custom-emergency-calling-policy"></a>Créer une stratégie d’appel d’urgence personnalisée
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **stratégies d’urgence** **vocales** > , puis cliquez sur l’onglet **Stratégies d’appel**.
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Stratégies d’urgence** **vocale** > , puis cliquez sur l’onglet **Stratégies d’appel**.
 
 2. Cliquez sur **Ajouter**.
 
 3. Entrez un nom pour votre stratégie, ainsi qu’une description.
 
-4. Définissez le **mode recherche d’emplacement externe** sur activé pour permettre à vos utilisateurs finaux de configurer leur adresse d’urgence lorsqu’ils travaillent à partir d’un emplacement réseau en dehors du réseau d’entreprise.
+4. Définissez le **mode de recherche d’emplacement externe** sur activé pour permettre à vos utilisateurs finaux de configurer leur adresse d’urgence lorsqu’ils travaillent à partir d’un emplacement réseau en dehors du réseau d’entreprise.
 
-5. Définissez la façon dont vous souhaitez informer les personnes de votre organisation, généralement le bureau de sécurité, lorsqu’un appel d’urgence est effectué. Pour ce faire, en **mode Notification**, sélectionnez l’une des options suivantes :
+5. Définissez la façon dont vous souhaitez informer les personnes de votre organisation, généralement le bureau de sécurité, lorsqu’un appel d’urgence est effectué. Pour ce faire, sous **Mode notification**, sélectionnez l’une des options suivantes :
 
-    - **Envoyer une notification uniquement** : un message de conversation Teams est envoyé aux utilisateurs et groupes que vous spécifiez.
-    - **Téléconférence désactivée et impossible à désactiver** : un message de conversation Teams est envoyé aux utilisateurs et groupes que vous spécifiez et ils peuvent écouter (mais pas participer) à la conversation entre l’appelant et l’opérateur PSAP.
-    - **Téléconférence en mode muet, mais capable de désactiver le son** : un message de conversation Teams est envoyé aux utilisateurs et groupes que vous spécifiez et ils peuvent désactiver le son pour écouter et participer à la conversation entre l’appelant et l’opérateur PSAP.
+    - **Envoyer une notification uniquement** : un message de conversation Teams est envoyé aux utilisateurs et aux groupes que vous spécifiez.
+    - **Conférence dans mais muet** : un message de conversation Teams est envoyé aux utilisateurs et groupes que vous spécifiez et ils peuvent écouter (mais pas participer) à la conversation entre l’appelant et l’opérateur PSAP.
+    - **Conférence dans et ne sont pas activés** : un message de conversation Teams est envoyé aux utilisateurs et aux groupes que vous spécifiez et ils peuvent réactiver pour écouter et participer à la conversation entre l’appelant et l’opérateur PSAP.
 
-6.  Définissez l’exclusion de responsabilité du **service d’urgence** pour afficher une bannière pour rappeler à vos utilisateurs finaux de confirmer leur emplacement d’urgence.
+6.  Définissez **l’exclusion de responsabilité du service d’urgence** pour afficher une bannière pour rappeler à vos utilisateurs finaux de confirmer leur emplacement d’urgence.
 
-7.  Si vous avez sélectionné l’une des **conférences en** mode de notification désactivée, dans la zone **Numéros à composer pour les notifications d’appels d’urgence** , vous pouvez entrer un numéro de téléphone RTC d’un utilisateur ou d’un groupe pour appeler et rejoindre l’appel d’urgence. Par exemple, entrez le numéro du bureau de sécurité de votre organisation, qui recevra un appel lorsqu’un appel d’urgence sera effectué, puis pourra écouter l’appel. Le téléphone RTC ne peut pas être désactivé même lorsque le mode est défini sur **Conferenced en mode désactivé, mais qu’il est en mesure de désactiver le son**.
+7.  Si vous avez sélectionné l’une des conférences dans les modes de notification **désactivés** , dans la zone **Numéros à composer pour les notifications d’appels d’urgence** , vous pouvez entrer un numéro de téléphone RTC d’un utilisateur ou d’un groupe pour appeler et rejoindre l’appel d’urgence. Par exemple, entrez le numéro du bureau de sécurité de votre organisation, qui recevra un appel lorsqu’un appel d’urgence sera effectué et pourra ensuite écouter l’appel. Le téléphone RTC ne peut pas être désactivé, même si le mode est défini **sur Conférence en sourdine, mais qu’il est en mesure de le réactiver**.
 
-8. Recherchez et sélectionnez un ou plusieurs utilisateurs ou groupes, tels que le bureau de sécurité de votre organisation, pour les avertir lorsqu’un appel d’urgence est effectué.  La notification peut être envoyée aux adresses e-mail des utilisateurs, des groupes de distribution et des groupes de sécurité. Un maximum de 50 utilisateurs peuvent être avertis.
+8. Recherchez et sélectionnez un ou plusieurs utilisateurs ou groupes, tels que le bureau de sécurité de votre organisation, pour avertir lorsqu’un appel d’urgence est effectué.  La notification peut être envoyée aux adresses e-mail des utilisateurs, des groupes de distribution et des groupes de sécurité. Un maximum de 50 utilisateurs peuvent être avertis.
 
 9. Cliquez sur **Appliquer**.
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Voir [New-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/new-csteamsemergencycallingpolicy).
+Consultez [New-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/new-csteamsemergencycallingpolicy).
 
 ## <a name="edit-an-emergency-calling-policy"></a>Modifier une stratégie d’appel d’urgence
 
@@ -75,13 +75,13 @@ Voir [New-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/new-csteamseme
 
 Vous pouvez modifier la stratégie globale ou les stratégies personnalisées que vous créez.
 
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **stratégies d’urgence** **vocales** > , puis cliquez sur l’onglet **Stratégies d’appel**.
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Stratégies d’urgence** **vocale** > , puis cliquez sur l’onglet **Stratégies d’appel**.
 2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci, puis cliquez sur **Modifier**.
-3. Apportez les modifications **souhaitées**, puis cliquez sur Appliquer.
+3. Apportez les modifications souhaitées, puis cliquez sur **Appliquer**.
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Voir [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy).
+Consultez [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy).
 
 ## <a name="assign-a-custom-emergency-calling-policy-to-users"></a>Affecter une stratégie d’appel d’urgence personnalisée aux utilisateurs
 
@@ -95,9 +95,9 @@ Voir aussi [Grant-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/grant-
 
 Vous pouvez affecter la stratégie globale ou les stratégies personnalisées que vous créez.
 
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à la **topologie réseau** **Emplacements** > , puis cliquez sur l’onglet **Sites réseau**.
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Emplacements** >  Topologie **réseau**, puis cliquez sur **l’onglet Sites réseau**.
 2. Sélectionnez le site en cliquant à gauche du nom, puis cliquez sur **Modifier**.
-3. Sous Stratégie **d’appel d’urgence**, sélectionnez la stratégie, puis cliquez sur **Enregistrer**.
+3. Sous **Stratégie d’appel d’urgence**, sélectionnez la stratégie, puis cliquez sur **Enregistrer**.
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 Utilisez l’applet [de commande Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) pour affecter une stratégie d’appel d’urgence à un site réseau.
