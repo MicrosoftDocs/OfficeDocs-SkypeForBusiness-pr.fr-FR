@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams afin de produire les meilleurs résultats.
-ms.openlocfilehash: e6e857539b47fdb991b92e90e7c9f2f1d609143c
-ms.sourcegitcommit: 7104222e5d379d1338fa8bf2555754d3ac5eeb82
+ms.openlocfilehash: 56a8f5eb18600b62944732312c391ff7bd20201b
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2022
-ms.locfileid: "69412227"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436700"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>appareils Android certifiés Microsoft Teams
 
@@ -389,6 +389,7 @@ Vous trouverez ci-dessous les dernières versions Microsoft Teams Affiche les ap
 
 |Version du produit| Date de publication | Microsoft version de l’application Teams | version Portail d'entreprise | version de l’agent Administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|Mise à jour 2022 #4A | 14 décembre 2022 | `1449/1.0.95.2022120502` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
 |Mise à jour 2022 #1  |14 novembre 2022 |`1449/1.0.95.2022102603`    |`5.0.5484.0`            |  `1.0.0.202205230848.product (361)` |
 |Mise à jour 2021 #4  |5 janvier 2022 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)` |
 |Mise à jour 2021 #3  |8 décembre 2021 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
@@ -417,6 +418,7 @@ Vous trouverez ci-dessous les dernières versions Microsoft de l’application T
 
 |Version du produit| Date de publication | Microsoft version de l’application Teams | version Portail d'entreprise | version de l’agent Administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|Mise à jour 2022 #4A  | 14 décembre 2022 | `1449/1.0.97.2022748302` | `5.0.5484.0` | `361`|
 |Mise à jour 2022 #4  | 5 décembre 2022 | `1449/1.0.97.2022747803` | `5.0.5484.0` | `361`|
 |Mise à jour 2022 #3A  | 16 septembre 2022 | `1449/1.0.97.2022739908` | `5.0.5304.0`  | `322` |
 |Mise à jour 2022 #3  | 12 juillet 2022 | `1449/1.0.97.2022739901` | `5.0.5304.0`  | `322` |
@@ -431,6 +433,7 @@ Lorsque vous installez une nouvelle version de microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse|
 |:--------------|:-----------------|:-------------------------|
+|Yealink RoomPanel | ` 147.15.0.36 ` | Mise à jour 2022 #4 |
 |Panneau de pavés soignés | `NFA1.20220914.1215` | Mise à jour 2022 #3A  |
 |Panneau de pavés soignés | `NFA1.20220914.1206` | Mise à jour 2022 #3A  |
 |Logitech Tap Scheduler | `1.7.200` |Mise à jour 2022 #3A  |

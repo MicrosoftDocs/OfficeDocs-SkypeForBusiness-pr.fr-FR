@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour les participants et les invités.
-ms.openlocfilehash: a5d18ea0e3f8c6cd008a12258fd94c3a0b725ac3
-ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
+ms.openlocfilehash: 42321eb1edadeda928ab0cb9e78e166478b73ed9
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2022
-ms.locfileid: "68876280"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436670"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion : participants et invités
 
@@ -50,11 +50,11 @@ Ces paramètres se trouvent dans le Centre d’administration Teams sous **Strat
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>Permettre à des personnes anonymes de rejoindre une réunion
 
-Ce paramètre par organisateur permet à n’importe qui de rejoindre des réunions en tant qu’utilisateur anonyme en sélectionnant le lien dans l’invitation à la réunion. Pour en savoir plus, voir [Rejoindre une réunion sans disposer de compte Teams](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). La capacité des utilisateurs anonymes à participer aux réunions est également contrôlée au niveau de votre organisation. Le paramètre le plus restrictif sera efficace. Pour en savoir plus, consultez [Utilisation du Centre d’administration Microsoft Teams pour configurer la stratégie à l’échelle de l’organisation](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
+Ce paramètre par organisateur permet à n’importe qui de rejoindre des réunions en tant qu’utilisateur anonyme en sélectionnant le lien dans l’invitation à la réunion. Pour en savoir plus, voir [Rejoindre une réunion sans disposer de compte Teams](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). La capacité des utilisateurs anonymes à participer aux réunions est également contrôlée au niveau de votre organisation. Le paramètre le plus restrictif sera efficace. Pour en savoir plus, consultez [Utilisation du centre d’administration Microsoft Teams pour configurer la stratégie à l’échelle de l’organisation](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Autoriser les personnes anonymes à démarrer une réunion
 
-Ce paramètre est une stratégie par organisateur qui autorise les réunions de conférence rendez-vous sans leader. Ce paramètre détermine si les utilisateurs des appels entrants peuvent rejoindre la réunion sans utilisateur authentifié de l’organisation. Par défaut, ce paramètre est désactivé, ce qui signifie que les utilisateurs rendez-vous attendent dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion.
+Ce paramètre est une stratégie par organisateur qui autorise les réunions de conférence rendez-vous sans leader. Ce paramètre contrôle si les utilisateurs anonymes et les appelants rendez-vous peuvent rejoindre la réunion sans qu’un utilisateur authentifié de l’organisation ne soit présent. Par défaut, ce paramètre est désactivé, ce qui signifie que les utilisateurs anonymes et les appelants rendez-vous attendent dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion.
 
 > [!NOTE]
 > Si ce paramètre est désactivé et qu’un utilisateur de participation a rejoint la réunion pour la première fois et est placé dans la salle d’attente, l’utilisateur d’une organisation doit participer à la réunion avec un client Teams pour admettre l’utilisateur de la salle d’attente. Il n’y a pas de contrôle de salle d’attente disponible pour les utilisateurs entrants.

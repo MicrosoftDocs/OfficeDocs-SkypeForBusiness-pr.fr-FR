@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour l’enregistrement et la transcription.
-ms.openlocfilehash: fd0dc824f380fb9a001442267445340944e055c4
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: 06a05d2eb8a8c1542b79fa4c37b68ea4a3aa6d32
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68928310"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436760"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>Paramètres de stratégie de réunion pour l’enregistrement & la transcription
 
@@ -98,11 +98,11 @@ Vous ne devez pas vous appuyer sur les paramètres d’expiration de réunion po
 
 #### <a name="recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>Enregistrement des paramètres d’expiration et des stratégies de rétention Microsoft 365 dans Microsoft Purview
 
-La conservation des fichiers est prioritaire sur la suppression de fichier. Un enregistrement de réunion Teams avec une stratégie de rétention Purview ne peut pas être supprimé par une stratégie d’expiration d’enregistrement de réunion Teams tant que la période de rétention n’est pas terminée. Par exemple, si vous avez une stratégie de rétention Purview qui indique qu’un fichier sera conservé pendant cinq ans et qu’une stratégie d’expiration d’enregistrement de réunion Teams définie sur 60 jours, la stratégie d’expiration de l’enregistrement des réunions Teams supprimera l’enregistrement après cinq ans.
+La conservation des fichiers est prioritaire sur la suppression de fichier. Un enregistrement de réunion Teams avec une stratégie de rétention Purview ne peut pas être supprimé par une stratégie d’expiration d’enregistrement de réunion Teams tant que la période de rétention n’est pas terminée. Par exemple, si vous disposez d’une stratégie de rétention Purview qui indique qu’un fichier sera conservé pendant cinq ans et qu’une stratégie d’expiration d’enregistrement de réunion Teams est définie sur 60 jours, la stratégie d’expiration de l’enregistrement des réunions Teams supprime définitivement l’enregistrement après cinq ans.
 
 Si vous avez une stratégie d’expiration d’enregistrement de réunion Teams et une stratégie de suppression Purview avec des dates de suppression différentes, le fichier est supprimé au plus tôt des deux dates. Par exemple, si vous avez une stratégie de suppression Purview qui indique qu’un fichier sera supprimé après un an et qu’une date d’expiration d’enregistrement de réunion Teams est définie sur 120 jours, la stratégie d’expiration de l’enregistrement des réunions Teams supprime le fichier après 120 jours.
 
-Les utilisateurs peuvent supprimer manuellement leurs enregistrements avant la date d’expiration, sauf si une stratégie de rétention Purview l’empêche.
+Les utilisateurs peuvent supprimer manuellement leurs enregistrements avant la date d’expiration, sauf si une stratégie de rétention Purview l’empêche. Si un enregistrement qui se trouve encore dans la période de rétention est supprimé manuellement par un utilisateur, l’enregistrement est conservé dans la bibliothèque de conservation de la préservation. Toutefois, l’enregistrement s’affiche comme supprimé pour l’utilisateur final. Pour en savoir plus, voir [En savoir plus sur la rétention pour SharePoint et OneDrive](/microsoft-365/compliance/retention-policies-sharepoint#how-retention-works-for-sharepoint-and-onedrive).
 
 ### <a name="deletion-of-recordings"></a>Suppression des enregistrements
 
