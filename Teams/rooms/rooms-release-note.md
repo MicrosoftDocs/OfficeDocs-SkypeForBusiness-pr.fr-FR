@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Administration pouvez lire les notes de publication de Salles Microsoft Teams, qui répertorient les améliorations cumulatives apportées à Salles Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c6416115d65f223b3785be050520548c2e69ba4
-ms.sourcegitcommit: 23224d983ae027c4923e52ed8e31953ae0f84807
+ms.openlocfilehash: 256ab81b195d5a758e07c24741b1dc8a7ff13218
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69422813"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438362"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notes de publication pour Salles Microsoft Teams
 
@@ -106,8 +106,8 @@ Introduit dans cette mise à jour :
 - Démarrer le tableau blanc dans les réunions Teams
 - Contrôle de la liste vidéo de salle d’ajustement à l’image
 - Prise en charge des réunions de dépassement de capacité
-- Participer à une réunion Zoom par ID (participation directe d’invité)
-- Correctifs de qualité pour les réunions tierces (participation directe d’invité)
+- Participez à des réunions Zoom par ID via la jonction d’invité directe. La prise en charge de la participation aux réunions Zoom par ID a été ajoutée dans cette version et sera activée dans les semaines à venir.
+- Correctifs de qualité pour les réunions tierces (direct guest join)
 - Correctif pour les informations de licence dans les paramètres indiquant aucune licence lorsque Teams n’est pas connecté
 - Un nouveau papier peint par défaut (Indicateur vif) et quatre autres nouveaux fonds d’écran
 
@@ -321,7 +321,7 @@ Introduit dans cette mise à jour :
 
 - Voir d’autres vidéos avec la galerie de vidéos 3x3 devant les écrans de salle  
 - Démarrer des sous-titres locaux en direct à partir de MTR
-- Participer à des réunions Zoom à partir d’salles Teams avec une participation d’invité direct (préversion)
+- Participer à des réunions Zoom à partir de salles Teams avec la jonction d’invité directe (préversion)
 
 > [!NOTE]
 > La galerie de vidéos 3x3 et les sous-titres locaux en direct sont fournis via le service Microsoft Teams. Ces fonctionnalités sont disponibles pour tous les appareils salles Teams avec la version d’application 4.5.37.0 et les versions ultérieures.
@@ -337,7 +337,7 @@ Introduit dans cette mise à jour :
 
 Introduit dans cette mise à jour :
 
-- Participer à des réunions Cisco Webex à partir de salles Teams avec une participation directe à l’invité
+- Participer à des réunions Cisco Webex à partir de salles Teams avec la participation d’invité direct
 - Activation et inscription automatique du Centre Administration Teams
 - Prise en charge des versions Windows 10 1909
 - Basculer vers la disposition de la galerie de vidéos même lorsque du contenu est présent

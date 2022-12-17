@@ -18,16 +18,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Données et informations de confidentialité
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: ec28dcafa7825e7f754d3631d2c21400a08c9b83
-ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
+ms.openlocfilehash: dd80718da862be02b42a5cf18334c89e86c3807c
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "69046783"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438425"
 ---
 # <a name="approach"></a>Approche
 
-Les clients qui utilisent Salles Microsoft Teams Managed Services confient à Microsoft leur ressource la plus précieuse: les données. Ils sont confiants que sa vie privée sera protégée et qu’elle ne sera utilisée que d’une manière conforme à leurs attentes.
+Les clients qui utilisent Salles Microsoft Teams Services managés Microsoft confient leur ressource la plus précieuse: les données. Ils sont confiants que sa vie privée sera protégée et qu’elle ne sera utilisée que d’une manière conforme à leurs attentes.
 
 La technologie suit les processus de confidentialité pour s’assurer qu’elle respecte les promesses du client lors de la collecte et de l’utilisation des données qui exécutent efficacement le service.
 ## <a name="data-collection-and-privacy"></a>Collecte et confidentialité des données
@@ -39,7 +39,7 @@ La technologie suit les processus de confidentialité pour s’assurer qu’elle
 
 ## <a name="who-can-access-data"></a>Qui peut accéder aux données
 
-Managed Services prend des mesures fortes pour protéger les données client contre tout accès ou utilisation inapproprié par des personnes non autorisées. Ces mesures incluent la restriction de l’accès du personnel microsoft et des sous-traitants.
+Managed Services prend des mesures fortes pour protéger les données client contre tout accès ou utilisation inapproprié par des personnes non autorisées. Ces mesures comprennent la restriction de l’accès du personnel Microsoft et des sous-traitants.
 
 ## <a name="zero-standing-access-data-storage"></a>Stockage de données Avec accès permanent zéro
 
@@ -47,7 +47,7 @@ Les services managés atténuent les risques associés aux comptes disposant d�
 
 ## <a name="data-handling"></a>Gestion des données
 
-Microsoft est régi par des normes strictes en matière de transmission, de stockage, d’utilisation et de conservation des données. Microsoft dispose de stratégies standard de gestion des données qui régissent la façon dont les données doivent être gérées en fonction de la classification des données.
+Microsoft est régie par des normes strictes en matière de transmission, de stockage, d’utilisation et de conservation des données. Microsoft dispose de stratégies standard de gestion des données qui régissent la façon dont les données doivent être gérées en fonction de la classification des données.
 
 ## <a name="technology-description"></a>Description de la technologie
 
@@ -81,7 +81,7 @@ Certaines données sensibles dans le journal activité de l’appareil sont expu
 - Contenu du message de messagerie instantanée de réunion
 
 > [!NOTE]
-> À mesure que Microsoft évolue managed services, les données spécifiques sont susceptibles d’être modifiées.
+> À mesure que Microsoft évoluent, les données spécifiques sont susceptibles d’être modifiées.
 
 ### <a name="enrollment"></a>Inscription
 
@@ -92,14 +92,14 @@ Managed Services est inscrit auprès du portail en ligne pour la surveillance au
 L’appareil peut être désinscrit en désinstallant Managed Services. Microsoft supprime également l’appareil de la surveillance du back-end pendant la désaffectation et peut supprimer les données collectées sur demande.
 ## <a name="compliance"></a>Conformité
 
-Tous les ingénieurs qui travaillent sur le produit doivent suivre une formation de sensibilisation à la sécurité et à la confidentialité. Microsoft s’assure également que tout le personnel certifie l’acceptation des responsabilités relatives aux exigences en matière de confidentialité.
+Tous les ingénieurs qui travaillent sur le produit doivent suivre une formation de sensibilisation à la sécurité et à la confidentialité. Microsoft s’assure également que tout le personnel certifie l’acceptation des responsabilités en matière d’exigences en matière de confidentialité.
 
 Managed Services prend en charge la résidence des données régionales via les centres de données en Europe (UE), en Asie-Pacifique (APAC) et en États-Unis (États-Unis). Les clients du service auront des données relatives à l’organisation stockées dans le centre de données de la région choisie.
 
 ## <a name="more-resources"></a>Autres ressources
 
-Salles Microsoft Teams pour la sécurité Windows : [[Microsoft Teams pour la sécurité Windows](/microsoftteams/rooms/security-windows) \
-Salles Microsoft Teams pour la sécurité Android : [Sécurité Microsoft Teams pour Android](/microsoftteams/rooms/security-android) \
-Déclaration de confidentialité Microsoft : https://aka.ms/privacy \
-Gestion des données chez Microsoft : https://www.microsoft.com/trust-center/privacy/data-management \
-Description du service Services managés : [Service géré par salle Microsoft Teams](rooms-pro-management.md)
+Salles Microsoft Teams sur la sécurité Windows : [[Microsoft Teams pour la sécurité Windows](/microsoftteams/rooms/security-windows) \
+Salles Microsoft Teams sur la sécurité Android : [Microsoft Teams pour la sécurité Android](/microsoftteams/rooms/security-android) \
+Microsoft déclaration de confidentialité :https://aka.ms/privacy \
+Gestion des données au Microsoft :https://www.microsoft.com/trust-center/privacy/data-management \
+Description du service Services managés : [Microsoft Service géré par salle Teams](rooms-pro-management.md)

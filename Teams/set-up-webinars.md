@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: Découvrez comment gérer les stratégies d’inscription aux webinaires et aux réunions dans Teams.
-ms.openlocfilehash: 37983f8597b9e1a0ed511c2d767c503494447481
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 5493104b93a74dad6763e0a5ba6c9e6fd57575de
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307579"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438472"
 ---
 # <a name="set-up-webinars-in-microsoft-teams"></a>Configurer des webinaires dans Microsoft Teams
 
@@ -52,6 +52,9 @@ Actuellement, l’expérience de webinaire de base est contrôlée par l’inscr
 La nouvelle expérience de webinaire est configurée dans PowerShell. Consultez des exemples sur [la configuration de la nouvelle expérience de webinaire](#set-up-new-webinar-experience).
 
 Pour plus d’informations sur les différences entre les réunions, les webinaires et les événements en direct, consultez [Réunions, webinaires et événements en direct](quick-start-meetings-live-events.md).
+
+> [!NOTE]
+> La nouvelle expérience de webinaire n’est pas disponible pour Microsoft 365 GCC, Microsoft 365 GCC High ou Microsoft DoD 365. L’expérience de webinaire existante n’est pas disponible pour Microsoft 365 GCC High ou Microsoft 365 DoD.
 
 > [!IMPORTANT]
 > Pour permettre aux utilisateurs de configurer des webinaires, Listes Microsoft doivent être configurés dans SharePoint en activant la création de listes personnelles à des fins d’eDiscovery. Pour plus d’informations, consultez [Paramètres de contrôle pour Listes Microsoft](/sharepoint/control-lists).
