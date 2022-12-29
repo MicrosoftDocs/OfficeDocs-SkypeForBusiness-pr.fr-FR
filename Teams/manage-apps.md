@@ -22,12 +22,12 @@ description: Découvrez comment gérer les applications Teams. Découvrez commen
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: a38bbab856a71d46cab5af471ac2f75743e21d40
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: c88f8c4424cb82ea1482c5f6e1b90fd792279450
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69130873"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677404"
 ---
 # <a name="overview-of-app-management-and-governance-in-teams-admin-center"></a>Vue d’ensemble de la gestion et de la gouvernance des applications dans le Centre d’administration Teams
 
@@ -126,7 +126,7 @@ Utilisez les paramètres d’application à l’échelle de l’organisation pou
 
 Dans un déploiement Microsoft 365 Government – GCC, GCCH et DoD de Teams, toutes les applications tierces sont bloquées par défaut. Dans les clouds GCCH et DOD, les applications tierces ne sont pas disponibles. De plus, dans GCC, vous voyez la note suivante sur la gestion des applications tierces sur la page des stratégies d'autorisation des applications dans le centre d'administration Microsoft Teams.
 
-:::image type="content" source="media/app-permission-policies-gcc.png" alt-text="Capture d'écran de la politique d'autorisation des applications dans GCCH et DoD.":::
+:::image type="content" source="media/app-permission-policies-gcc.png" alt-text="Capture d'écran de la politique d'autorisation des applications dans GCCH et DoD." lightbox="media/app-permission-policies-gcc.png":::
 
 Utilisez les paramètres de l’application à l’échelle de l’organisation pour contrôler si les utilisateurs peuvent installer des applications tierces. Les paramètres de l’application à l’échelle de l’organisation contrôlent le comportement de tous les utilisateurs et remplacent les autres stratégies d’autorisation d’application attribuées à des utilisateurs.
 
@@ -135,7 +135,7 @@ Utilisez les paramètres de l’application à l’échelle de l’organisation 
 
 ### <a name="for-gcc-clouds"></a>Pour les clouds GCC
 
-1. Dans la page **[Gérer les applications](https://admin.teams.microsoft.com/policies/manage-apps)** **Teams,** >  sélectionnez **Paramètres de l’application à l’échelle de l’organisation**. Vous pouvez ensuite configurer les paramètres voulus dans le panneau.
+1. Dans la page **Gérer les applications** **Teams,** >  sélectionnez **Paramètres de l’application à l’échelle de l’organisation**. Vous pouvez ensuite configurer les paramètres voulus dans le panneau.
 
    :::image type="content" source="media/app-permission-policies-gcc-org-wide.png" alt-text="Capture d’écran montrant les paramètres de l’application à l’échelle de l’organisation dans GCC.":::
 
@@ -152,7 +152,7 @@ Pour autoriser les applications tierces, modifiez et utilisez la stratégie glob
 
 ### <a name="for-gcch-and-dod-clouds"></a>Pour les clouds GCCH et DoD
 
-1. Connectez-vous au Centre d’administration Teams et accédez aux **[stratégies d’autorisation](https://admin.teams.microsoft.com/policies/app-permission)** **des applications** >  Teams.
+1. Connectez-vous au Centre d’administration Teams et accédez aux **stratégies d’autorisation** **des applications** >  Teams.
 
 1. Sélectionnez **Paramètres de l’application à l’échelle de l’organisation**. Sous **Applications bloquées**, ajoutez les applications que vous voulez bloquer au sein de votre organisation. Dans un déploiement Microsoft 365 Government – GCCH et DoD de Teams, toutes les applications tierces sont ajoutées à cette liste par défaut. Lorsque vous bloquez une application à l'échelle de l'organisation, l'application est automatiquement bloquée pour tous vos utilisateurs, qu'elle soit ou non autorisée dans les stratégies d'autorisation d'application.
 

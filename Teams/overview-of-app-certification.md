@@ -18,20 +18,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0f01942dcee0ed5f2696c7e6ab5b31d67a98856
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: e86f5e372bc1c03c2dc75b09f5e26b8fb5d98241
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912873"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677494"
 ---
-# <a name="find-teams-apps-that-undergo-microsoft-365-app-compliance-program-for-security-compliance-and-privacy"></a>Rechercher les applications Teams qui sont soumises au programme de conformité des applications Microsoft 365 pour la sécurité, la conformité et la confidentialité
+# <a name="know-about-apps-that-undergo-app-compliance-program-for-security-data-handling-and-privacy"></a>Connaître les applications qui font l’objet d’un programme de conformité des applications pour la sécurité, la gestion des données et la confidentialité
 
-Le programme de conformité Microsoft vérifie et audite une application par rapport à des contrôles dérivés des infrastructures de pointe liées aux normes du secteur d’activité. Le programme démontre que de solides pratiques de sécurité et de conformité sont en place pour protéger les données clients. Le programme comprend les phases suivantes :
+Microsoft programme de conformité des applications 365 vérifie et audite une application par rapport à des contrôles dérivés d’infrastructures standard de pointe. Le programme démontre que de solides pratiques de sécurité et de conformité sont en place pour protéger les données clients. Le programme comprend les phases suivantes :
 
 * [Vérification de l’éditeur](#publisher-verification).
 * [Attestation de l’éditeur](#publisher-attestation).
-* [Certification Microsoft 365](#microsoft-365-certification).
+* [Microsoft certification 365](#microsoft-365-certification).
 
 ## <a name="publisher-verification"></a>Vérification de l’éditeur
 
@@ -57,7 +57,7 @@ Les administrateurs peuvent rapidement rechercher les applications attestées pu
 
   :::image type="content" source="media/attested-app-tac1.png" alt-text="Dans le Centre d’administration Microsoft Teams, l’icône attestée par Publisher s’affiche sur toutes les applications attestées.":::
 
-* Dans le Centre d’administration Teams, avant [d’accorder des autorisations à l’application](app-permissions-admin-center.md), une coche bleue devant le nom de l’application indique qu’il s’agit d’une application attestée par l’éditeur. Toutes les applications Microsoft 365 passent également par l’attestation de l’éditeur. Par conséquent, une coche bleue s’affiche également pour les applications Microsoft 365.
+* Dans le Centre d’administration Teams, avant [d’accorder des autorisations à l’application](app-permissions-admin-center.md), une coche bleue devant le nom de l’application indique qu’il s’agit d’une application attestée par l’éditeur. Toutes les applications Microsoft 365 passent également par l’attestation de l’éditeur. Par conséquent, une coche bleue s’affiche également pour Microsoft 365 applications.
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="Dans le Centre d’administration Microsoft Teams, dans la boîte de dialogue pour accorder des autorisations, la coche bleue indique qu’il s’agit d’une application attestée par un éditeur.":::
 
@@ -90,7 +90,7 @@ Les administrateurs peuvent vérifier rapidement la présence d'applications cer
 
   :::image type="content" source="media/m365cert-app-details-banner.png" alt-text="Afficher les informations relatives à la certification Microsoft 365 dans la bannière de l'application lors de la gestion d'une application spécifique dans le centre d'administration de Teams.":::
 
-* Dans le Centre d’administration Teams, avant [d’accorder des autorisations à l’application](app-permissions-admin-center.md), une coche bleue devant le nom de l’application indique qu’il s’agit d’une application attestée par l’éditeur. Toutes les applications Microsoft 365 passent également par l’attestation de l’éditeur. Par conséquent, une coche bleue s’affiche également pour les applications Microsoft 365.
+* Dans le Centre d’administration Teams, avant [d’accorder des autorisations à l’application](app-permissions-admin-center.md), une coche bleue devant le nom de l’application indique qu’il s’agit d’une application attestée par l’éditeur. Toutes les applications Microsoft 365 passent également par l’attestation de l’éditeur. Par conséquent, une coche bleue s’affiche également pour Microsoft 365 applications.
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="Dans le centre d'administration Teams, dans la boîte de dialogue d'octroi des autorisations, les administrateurs peuvent cocher la case bleue pour s'assurer que l'application est certifiée Microsoft 365":::
 
@@ -121,7 +121,7 @@ Pour accéder aux informations MCAS d’une application :
 
 1. Sélectionnez l’onglet **Sécurité et conformité** .
 
-   :::image type="content" source="media/mcas.png" alt-text="Capture d’écran de l’onglet Sécurité et conformité du Centre d’administration Teams.":::
+   :::image type="content" source="media/mcas.png" alt-text="Capture d’écran de l’onglet Sécurité et conformité du Centre d’administration Teams." lightbox="media/mcas.png":::
 
    Pour obtenir plus d’informations sur les fonctionnalités prises en charge pour l’application, sélectionnez la liste déroulante pour chaque catégorie.
 

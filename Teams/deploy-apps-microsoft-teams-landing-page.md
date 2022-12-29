@@ -22,12 +22,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 7713f1f2bf1f3a4866751d02ba702cb2d3d244f0
-ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
+ms.openlocfilehash: 7ded369ab991a37e711c416a7448447f148c069c
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "69156840"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677414"
 ---
 # <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Comprendre Microsoft applications Teams et leurs fonctionnalités
 
@@ -92,7 +92,7 @@ Pour en savoir plus, consultez [Modèles d’application Microsoft Teams](https:
 
 Les utilisateurs peuvent afficher toutes les applications disponibles dans Teams à partir du magasin d’applications Teams dans un client web ou de bureau Teams. Les utilisateurs peuvent rechercher par nom, parcourir par catégorie et parcourir les applications créées pour votre organisation et générées avec Power Platform pour découvrir et installer des applications dans Teams.
 
-Les applications peuvent être épinglées à Teams pour faciliter l’accès. Les utilisateurs peuvent [épingler des applications par eux-mêmes](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) si leur stratégie d’installation le permet et si l’application est autorisée par l’administrateur Teams. Les administrateurs peuvent épingler des applications et contrôler le comportement des applications épinglées. Pour plus d’informations, consultez Stratégies de [configuration](/teams-app-setup-policies) des applications.
+Les applications peuvent être épinglées à Teams pour faciliter l’accès. Les utilisateurs peuvent [épingler des applications par eux-mêmes](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) si leur stratégie d’installation le permet et si l’application est autorisée par l’administrateur Teams. Les administrateurs peuvent épingler des applications et contrôler le comportement des applications épinglées. Pour plus d’informations, consultez Stratégies de [configuration](/microsoftteams/teams-app-setup-policies) des applications.
 
 :::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Capture d’écran montrant tous les endroits où les utilisateurs peuvent parcourir les applications dans Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
 
