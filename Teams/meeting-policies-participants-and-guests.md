@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour les participants et les invités.
-ms.openlocfilehash: 42321eb1edadeda928ab0cb9e78e166478b73ed9
-ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
+ms.openlocfilehash: 26d2fd24d8b241b8f79276148ed27abd3e5412b1
+ms.sourcegitcommit: 84a832330c0a9f9fb818bbfb22e534fe035c1837
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69436670"
+ms.lasthandoff: 01/03/2023
+ms.locfileid: "69693387"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion : participants et invités
 
@@ -50,7 +50,7 @@ Ces paramètres se trouvent dans le Centre d’administration Teams sous **Strat
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>Permettre à des personnes anonymes de rejoindre une réunion
 
-Ce paramètre par organisateur permet à n’importe qui de rejoindre des réunions en tant qu’utilisateur anonyme en sélectionnant le lien dans l’invitation à la réunion. Pour en savoir plus, voir [Rejoindre une réunion sans disposer de compte Teams](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). La capacité des utilisateurs anonymes à participer aux réunions est également contrôlée au niveau de votre organisation. Le paramètre le plus restrictif sera efficace. Pour en savoir plus, consultez [Utilisation du centre d’administration Microsoft Teams pour configurer la stratégie à l’échelle de l’organisation](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
+Ce paramètre par organisateur permet à n’importe qui de rejoindre des réunions en tant qu’utilisateur anonyme en sélectionnant le lien dans l’invitation à la réunion. Pour en savoir plus, voir [Rejoindre une réunion sans disposer de compte Teams](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). La capacité des utilisateurs anonymes à participer aux réunions est également contrôlée au niveau de votre organisation. Le paramètre le plus restrictif sera efficace. Pour en savoir plus, consultez [Utilisation du Centre d’administration Microsoft Teams pour configurer la stratégie à l’échelle de l’organisation](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Autoriser les personnes anonymes à démarrer une réunion
 
@@ -61,14 +61,14 @@ Ce paramètre est une stratégie par organisateur qui autorise les réunions de 
 
 ## <a name="who-can-present-in-meetings"></a>Qui peut présenter dans les réunions
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre vous permet de modifier la valeur par défaut du paramètre **Qui peut présenter ?** dans **Options de réunion** dans le client Teams. Ce paramètre de stratégie affecte toutes les réunions, y compris les réunions Conférence maintenant.
+Ce paramètre est une stratégie par utilisateur qui vous permet de modifier la valeur par défaut du paramètre **Qui peut présenter ?** dans **Options de réunion** dans le client Teams. Le paramètre **de stratégie Qui peut être présent dans les réunions** affecte toutes les réunions, y compris les réunions Meet Now.
 
 Le paramètre **Qui peut présenter ?** permet aux organisateurs de réunions de choisir qui peuvent être présentateurs pendant une réunion. Pour plus d’informations, consulte [Modifier les paramètres des participants pour une réunion Teams](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e) et [Rôles dans une réunion Teams](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
-Pour spécifier la valeur par défaut du paramètre **Qui peut présenter ?** dans Teams, définissez l’un des paramètres suivants dans la stratégie :
+Pour spécifier la valeur par défaut du paramètre **Qui peut présenter ?** dans Teams, définissez l’un des paramètres suivants dans la stratégie **Qui peut être présent dans les réunions** :
 
 - **Organisateurs, mais les utilisateurs peuvent remplacer** : seul l’organisateur de la réunion peut être un présentateur et tous les participants à la réunion sont désignés comme participants. Ce paramètre correspond au paramètre **Uniquement moi** dans Teams.
-- **Tout le monde dans l’organisation, mais l’utilisateur peut remplacer** : les utilisateurs authentifiés de l’organisation, y compris les utilisateurs invités, peuvent être présentateurs. Ce paramètre correspond au **paramètre Personnes dans mon organisation** dans Teams.
+- **Tout le monde dans l’organisation, mais l’utilisateur peut remplacer** : les utilisateurs authentifiés de l’organisation, y compris les invités, peuvent être présentateurs. Ce paramètre correspond au **paramètre Personnes dans mon organisation** dans Teams.
 - **Tout le monde, sauf l’utilisateur peut remplacer** : tous les participants à la réunion peuvent être présentateurs. Ceci est la valeur par défaut. Ce paramètre correspond au paramètre **Tout le monde** dans Teams.
 
 Gardez à l’esprit qu’une fois que vous avez défini la valeur par défaut, les organisateurs de réunion peuvent toujours modifier ce paramètre dans Teams et choisir les personnes pouvant présenter les réunions qu’ils planifient.
@@ -145,7 +145,7 @@ Une fois que cette stratégie **De conversation dans les réunions** est appliqu
 
 La stratégie appliquée à l’organisateur de la réunion peut affecter d’autres utilisateurs de la réunion. Par exemple :
 
-- Si l’organisateur a **défini La conversation dans les réunions** **sur Activer pour tout le monde** ou **l’activer pour tout le monde sauf pour les utilisateurs anonymes**, la stratégie individuelle d’un utilisateur s’applique et tous les utilisateurs dont **l’option Désactiver pour tout le monde** est défini ne pourront pas discuter dans la réunion.
+- Si l’organisateur a **défini La conversation dans les réunions** sur **Activer pour tout le monde** ou **l’Activer pour tout le monde sauf les utilisateurs anonymes**, la stratégie individuelle d’un utilisateur s’applique et tous les utilisateurs avec **l’option Désactiver pour tout le monde** défini ne pourront pas discuter dans la réunion.
 - Si l’organisateur a **l’option Conversation dans les réunions** définie **sur Désactiver pour tout le monde**, la stratégie de l’organisateur s’applique et personne ne pourra discuter dans la réunion.
 
 <a name="bkparticipantsandguests"> </a>
@@ -156,7 +156,7 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre active ou désact
 
 Le paramètre est appliqué lorsqu’une réunion est créée ou mise à jour par les organisateurs. Par défaut, ce paramètre est désactivé. En savoir plus sur [Q&R dans Réunions Teams](/manage-qna-for-teams).
 
-Le paramètre QnAEngagementMode contrôle cette stratégie dans PowerShell. Q&R peuvent également être ajustés dans le Centre d’administration Teams.
+Les questions&R teams peuvent être ajustées dans le Centre d’administration Teams sous **Stratégies de** > **réunion** de réunions dans la section **Participants & invités** . Le paramètre `-QnAEngagementMode` contrôle cette stratégie dans PowerShell.
 
 |Valeur du paramètre |Comportement  |
 |---------|---------|
@@ -169,7 +169,7 @@ Les réactions aux réunions sont activées par défaut. La désactivation des r
 
 ## <a name="enable-meeting-policy-settings"></a>Activer les paramètres de stratégie de réunion
 
-Pour activer les paramètres de stratégie de réunion, vous pouvez utiliser le [Centre d’administration Teams](https://admin.teams.microsoft.com/policies/meetings) (**Stratégies** >  de réunion **Modifier une stratégie** > **Participants & invités**) ou l’applet de commande [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) dans Teams PowerShell. 
+Pour activer les paramètres de stratégie de réunion, vous pouvez utiliser le [Centre d’administration Teams](https://admin.teams.microsoft.com/policies/meetings) (**Stratégies** >  de réunion **Modifier une stratégie** > **Participants & invités**) ou l’applet de commande [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) dans Teams PowerShell.
 
 Dans cet exemple, nous utilisons PowerShell pour modifier la stratégie de réunion globale afin d’autoriser tout le monde à démarrer ou à rejoindre une réunion.
 
@@ -178,7 +178,6 @@ Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAn
 ```
 
 Une fois que vous avez configuré une stratégie, vous devez l’appliquer aux utilisateurs. Si vous avez modifié la stratégie globale (par défaut à l’échelle de l’organisation), elle s’applique automatiquement aux utilisateurs. Vous devez attendre au moins 4 heures avant que les modifications de stratégie prennent effet, mais cela peut prendre jusqu’à 24 heures.
-
 
 ## <a name="related-topics"></a>Sujets associés
 
