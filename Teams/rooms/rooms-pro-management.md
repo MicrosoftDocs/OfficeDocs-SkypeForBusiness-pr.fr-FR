@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: En savoir plus sur la gestion des Salles Microsoft Teams Pro.
 f1keywords: ''
-ms.openlocfilehash: cadf078c4d56c518acda73a44b62c55f346f189c
-ms.sourcegitcommit: 0e4e5b9933970827ea4be137ca98eab6994e2301
+ms.openlocfilehash: 9ef0db845e9eb0778bc53cbcf9e0998531daf6e0
+ms.sourcegitcommit: 2363af0ed4de97f1ec836ca2ad9e3854cf9fa601
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/04/2023
-ms.locfileid: "69696889"
+ms.locfileid: "69702087"
 ---
 # <a name="microsoft-teams-rooms-pro-management"></a>gestion Salles Microsoft Teams Pro
 
@@ -58,7 +58,7 @@ Voici une vue d’ensemble des fonctionnalités de gestion des Salles Microsoft 
 |**Gestion des mises à jour**    |La configuration et la livraison automatisées de l’application Salles Microsoft Teams basée sur des anneaux de déploiement préconfigurés.         |
 |**Insights et recommandations**     |Informations sur l’intégrité, l’utilisation et la fiabilité de l’équipement des salles.         |
 |**Conformité et certifications**   |Répond à toutes les normes applicables pour Microsoft Online Services.         |
-|**Appareils pris en charge**    |Systèmes Salles Microsoft Teams certifiés et leurs périphériques.<br>*Prise en charge d’Android pour Surface Hub et MTR au cours du second semestre 2022*        |
+|**Appareils pris en charge**    |Systèmes Salles Microsoft Teams certifiés et leurs périphériques.<br>*Prise en charge de Surface Hub et MTR Android à venir en 2023*        |
 |**Régions prises en charge**    |Consultez [Régions prises en charge](#supported-regions).        |
 |**Intégration**    |Intégration de base disponible avec service maintenant hébergé par le client pour la coordination des incidents.         |
 
