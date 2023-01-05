@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f97b2aea15fe626c7780f022e2d024729ad02589
-ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
-ms.translationtype: HT
+ms.openlocfilehash: 7203c9bda1a6e5c2bf9d90b490492fe7bbc3f64c
+ms.sourcegitcommit: 78fbfcf4a1aafce5d39eea79c9461a9fc1bb3d38
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "62363180"
+ms.lasthandoff: 01/05/2023
+ms.locfileid: "69707806"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Gérer l’accès des utilisateurs à Education Insights
 
 Ce document indique les étapes nécessaires pour gérer l’accès des utilisateurs à [Education Insights dans Microsoft Teams](class-insights.md).
 
-Vous devez accorder des autorisations aux responsables de l’éducation, aux responsables de districts, aux directeurs d’établissements scolaires, aux enseignants en chef, aux enseignants, aux responsables de domaines d’apprentissage, aux directeurs de programmes, aux travailleurs sociaux et aux tuteurs. Les enseignants sont *automatiquement* autorisés lorsqu’ils sont propriétaires d’une équipe de classe.
+You need to provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are *automatically* given permission when they own a class team.
 
 Pour fournir des informations au niveau de l’organisation, vous devez [importer des données du système d'informations sur les élèves (SIE)](education-insights-sis-data-sync.md). Ainsi, Insights présentera la structure hiérarchique du système d’enseignement correctement mappée.
 
@@ -37,7 +37,7 @@ Pour fournir des informations au niveau de l’organisation, vous devez [importe
 > [!TIP]
 > Nous vous recommandons d’activer Insights pour tous les responsables de l’éducation. Ainsi, ils disposeront des données permettant de comprendre chaque établissement scolaire, et pourront identifier rapidement les problèmes, puis fournir un support aux enseignants concernés. Même si vous gérez un pilote, il peut être utile de maintenir Insights activé pour tous les responsables de l’éducation, mais de cibler les communications uniquement sur le groupe pilote d’utilisateurs.
 
-## <a name="manange-permissions"></a>Gérer les autorisations
+## <a name="manage-permissions"></a>Gérer les autorisations
 
 * Ouvrez l’application Insights, cliquez **Paramètres**, puis sélectionnez **Autorisations utilisateur**.
 
@@ -48,15 +48,17 @@ Pour fournir des informations au niveau de l’organisation, vous devez [importe
 > 
 > Accordez uniquement les autorisations aux responsables de l’éducation qui en ont besoin, ainsi qu’aux unités d’organisation dont ils sont responsables. Si vous ne savez pas si une autorisation d’utilisateur est nécessaire pour une organisation spécifique, veuillez consulter les experts en matière de confidentialité de votre établissement, tels que le personnel juridique ou celui des ressources humaines.
 
+> [!IMPORTANT]
+> Après avoir attribué des autorisations pour la première fois, les utilisateurs peuvent afficher les données au sein de l’application uniquement si au moins **deux** utilisateurs ont accédé à l’application. Cette exigence permet de s’assurer que le fuseau horaire des données est correctement configuré et que les données sont affichées avec précision pour tous les utilisateurs. Si les utilisateurs rencontrent des problèmes d’accès aux données une fois les autorisations accordées, vérifiez si au moins deux utilisateurs ont accédé à l’application.
+
 ## <a name="role-based-permissions"></a>Autorisations basées sur des rôles
 
-Si vous utilisez [format de fichier SDS V2.1](/schooldatasync/sds-v2.1-csv-file-format) ou [format de fichier SDS V2](/schooldatasync/sds-v2-csv-file-format), vous pouvez importer tous les rôles et la hiérarchie complète des établissements scolaires au sein du système d’éducation. Ce mappage complet vous permet d’attribuer des autorisations aux rôles. 
+If you use [SDS V2.1 file format](/schooldatasync/sds-v2.1-csv-file-format) or [SDS V2 file format](/schooldatasync/sds-v2-csv-file-format), you can import all roles and the full hierarchy of schools within the education system. This complete mapping enables you to assign permissions to roles. 
 
 > [!NOTE]
 > Lorsqu’un utilisateur se voit affecter un rôle, il reçoit automatiquement les autorisations appropriées pour consulter les données qui les intéressent.
 >
 > Si un utilisateur n’est plus dans un rôle, son autorisation pour celui-ci est automatiquement révoquée (bien qu’il puisse encore avoir des autorisations individuelles).
-
 
 * Au besoin, cliquez sur l’onglet **Autorisations basées sur des rôles**.
 
@@ -92,14 +94,14 @@ Utilisez les autorisations individuelles pour ajuster l’autorisation d’un ut
 * Cliquez sur **Accorder des autorisations individuelles** dans le côté gauche de l’écran.
 * Entrez le nom d’utilisateur ou l’adresse e-mail de chaque utilisateur.
 * Sélectionnez le niveau d’autorisation :
-  * **Tous** signifie que l’utilisateur voit toutes les unités d’organisation à tous les niveaux. C’est très rarement utilisé.
+  * **L’accès à toute l’organisation** signifie que l’utilisateur a accès à toutes les unités d’organisation à tous les niveaux. Il est rarement utilisé.
   * **Organisation spécifique** signifie que l’utilisateur voit l’unité d’organisation sélectionnée et toutes les unités d’organisation en dessous. Commencez à taper, puis sélectionnez l’unité d’organisation dans la liste.
 * Cliquez sur **Accorder des autorisations** pour enregistrer.
 
 ### <a name="change-the-individual-permission-of-a-user"></a>Modifier les autorisations individuelles d’un utilisateur
 * Pour l’utilisateur concerné, cliquez sur l’icône crayon pour sélectionner le niveau d'autorisation individuelle.
 * Sélectionnez le niveau d’autorisation :
-  * **Tous** signifie que l’utilisateur voit toutes les unités d’organisation à tous les niveaux. C’est très rarement utilisé.
+  * **L’accès à toute l’organisation** signifie que l’utilisateur a accès à toutes les unités d’organisation à tous les niveaux. Il est rarement utilisé.
   * **Organisation spécifique** signifie que l’utilisateur voit l’unité d’organisation sélectionnée et toutes les unités d’organisation en dessous. Commencez à taper, puis sélectionnez l’unité d’organisation dans la liste.
   * **Aucun** signifie que l’utilisateur ne voit que les unités d’organisation automatiquement affectées par son rôle (le cas échéant).
   
