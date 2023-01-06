@@ -1,5 +1,5 @@
 ---
-title: Microsoft les plans de numérotation et le routage Teams
+title: Plans de numérotation et routage Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,20 +20,20 @@ localization_priority: Normal
 f1.keywords:
 - CSH
 description: Plans de numérotation et routage dans Microsoft Teams
-ms.openlocfilehash: b45fd9ec15ae6a9bb8f342096711b58512aead43
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: 1d8c4ed750369c6b5bf393ebceae850703f89395
+ms.sourcegitcommit: 0a2476471713e1eba791060db2c8c888484033a7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69242468"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69722114"
 ---
-# <a name="microsoft-teams-dial-plans-and-routing"></a>Microsoft les plans de numérotation et le routage Teams
+# <a name="microsoft-teams-dial-plans-and-routing"></a>Plans de numérotation et routage Microsoft Teams
 
 Les articles de cette section décrivent les plans de numérotation et le routage des appels dans Microsoft Teams. 
 
 - [Que sont les plans de numérotation](what-are-dial-plans.md)
 - [Créer et gérer les plans de numérotation](create-and-manage-dial-plans.md)
-- [Acheminer les appels vers des engourdissements non attribués](routing-calls-to-unassigned-numbers.md)
+- [Acheminer les appels vers des numéros non attribués](routing-calls-to-unassigned-numbers.md)
 
 Les articles de cette section s’appliquent à toutes les options de connexion au réseau téléphonique commuté public (RTC) : forfait d’appels, connexion d’opérateur, téléphone mobile Teams et routage direct. Pour plus d’informations sur toutes les options de connectivité RTC, consultez [Options de connectivité RTC](pstn-connectivity.md).
 
