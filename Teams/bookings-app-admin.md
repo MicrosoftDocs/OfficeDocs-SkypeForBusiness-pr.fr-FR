@@ -25,12 +25,12 @@ ms.collection:
 - m365initiative-meetings
 ms.reviewer: ''
 description: Découvrez comment gérer l’application Bookings dans Teams pour les utilisateurs de votre organisation.
-ms.openlocfilehash: abcd906f18b10b7d82b67682de439f1eb6592cd6
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 66e3d0450eaad1843c94833cb7bb6d417959eb8c
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307519"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727756"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Gérer l’application Bookings dans Microsoft Teams
 
@@ -66,11 +66,14 @@ Pour plus d’informations sur les stratégies de réunion, consultez [Gérer le
 
 ![Icône d’informations](media/info.png) **Cette fonctionnalité est déplacée vers [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (préversion). Les utilisateurs peuvent continuer à utiliser cette fonctionnalité pendant la période de préversion. Après la préversion, les utilisateurs ont besoin d’une licence Teams Premium.**
 
+> [!NOTE]
+> Nous fournirons des notifications SMS illimitées jusqu’au 1er mars 2023 (précédemment le 31 janvier 2023) pour les clients disposant de licences Bookings. À mesure que nous approchons de la fin de la période de promotion, nous fournirons des détails supplémentaires sur les exigences de licence. Contactez l’équipe ou le support technique de votre compte pour recevoir les détails des tarifs après la période de promotion.
+
 Vous pouvez contrôler si des notifications SMS peuvent être envoyées à des participants externes pour des rendez-vous virtuels planifiés par votre personnel au sein de votre organisation.
 
 Par défaut, ce paramètre est activé et les notifications sms sont activées pour tous les calendriers Bookings de votre organisation. N’oubliez pas que les administrateurs et les planificateurs de Bookings peuvent choisir ultérieurement de désactiver ou d’activer les notifications PAR SMS en fonction des besoins dans les [types de rendez-vous planifiés](/microsoft-365/frontline/bookings-virtual-appointments#scheduled-appointment-type) et les rendez-vous individuels planifiés.
 
-Pour configurer ce paramètre, accédez à la Centre d'administration Microsoft 365 \> **Paramètres** \> **de l’organisation**, puis choisissez **Bookings**. Activez ou désactivez la case **à cocher Autoriser Microsoft à envoyer des notifications par SMS**.
+Pour configurer ce paramètre, accédez à la Centre d'administration Microsoft 365 \> **Paramètres** \> **de l’organisation**, puis choisissez **Bookings**. Activez ou désactivez la case **à cocher Autoriser Microsoft à envoyer des notifications par SMS** .
 
 En savoir plus sur la configuration des [notifications sms pour votre organisation](/microsoft-365/bookings/turn-bookings-on-or-off).
 

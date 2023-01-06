@@ -22,16 +22,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 7ded369ab991a37e711c416a7448447f148c069c
-ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
+ms.openlocfilehash: a41393f763c9d8ebb328d586f6ae12636e87b0b4
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/29/2022
-ms.locfileid: "69677414"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727736"
 ---
-# <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Comprendre Microsoft applications Teams et leurs fonctionnalités
+# <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Comprendre les applications Microsoft Teams et leurs fonctionnalités
 
-Les applications dans Teams aident les utilisateurs à rassembler leurs outils et services d’espace de travail et à collaborer avec d’autres personnes. Par exemple, les utilisateurs finaux utilisent une application Calendrier épinglée dans Teams pour collaborer rapidement avec d'autres personnes, une application avec une fonctionnalité de bots informant les utilisateurs de la qualité d'un service web dans un canal Teams, et une application pour partager et assigner des tâches à divers utilisateurs finaux dans un canal. Microsoft les applications Teams sont des applications SaaS web qui n’ont pas besoin d’être déployées localement.
+Les applications dans Teams aident les utilisateurs à rassembler leurs outils et services d’espace de travail et à collaborer avec d’autres personnes. Par exemple, les utilisateurs finaux utilisent une application Calendrier épinglée dans Teams pour collaborer rapidement avec d'autres personnes, une application avec une fonctionnalité de bots informant les utilisateurs de la qualité d'un service web dans un canal Teams, et une application pour partager et assigner des tâches à divers utilisateurs finaux dans un canal. Les applications Microsoft Teams sont tout comme les applications SaaS web qui n’ont pas besoin d’être déployées localement. L’ajout des applications au client Teams par vos utilisateurs finaux ne nécessite pas l’installation d’un fichier binaire, par exemple.
 
 En tant qu’administrateur, vous définissez un processus de gouvernance des applications qui équilibre les exigences étendues des utilisateurs finaux, ainsi que les stratégies informatiques, les normes et les profils de risque de votre organisation.
 
@@ -58,11 +58,11 @@ Microsoft fournit de nombreuses applications pour améliorer la productivité et
 
 Teams insère un ensemble d’applications intégrées, notamment Listes, Tâches, Compliments, Approbations, etc. Nous vous recommandons d'inclure les applications recommandées, telles que Planner, dans votre déploiement initial de Teams.
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Capture d’écran montrant la liste des applications Microsoft dans le Centre d’administration Teams." lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Capture d’écran montrant une liste d’applications Microsoft dans le Centre d’administration Teams." lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## <a name="third-party-apps-created-by-independent-app-developers"></a>Applications tierces créées par des développeurs d’applications indépendants
 
-En plus des applications Microsoft fournies, vous pouvez utiliser des applications tierces. Microsoft valide rigoureusement les fonctionnalités et la sécurité de toutes ces applications. Des tests manuels et automatisés élaborés sont exécutés avant de rendre ces applications disponibles dans le magasin Teams et de nombreux tests se poursuivent à une cadence régulière même après la publication en direct des applications. Pour comprendre les avantages de la validation des applications, consultez [validation des applications tierces](overview-of-app-validation.md). Certaines applications s’abonnent au [programme de conformité Microsoft](overview-of-app-certification.md) pour faire l’objet de plusieurs niveaux de vérifications supplémentaires au-delà de la validation.
+En plus des applications fournies par Microsoft, vous pouvez utiliser des applications tierces. Microsoft valide rigoureusement les fonctionnalités et la sécurité de toutes ces applications. Des tests manuels et automatisés élaborés sont exécutés avant de rendre ces applications disponibles dans le magasin Teams et de nombreux tests se poursuivent à une cadence régulière même après la publication en direct des applications. Pour comprendre les avantages de la validation des applications, consultez [validation des applications tierces](overview-of-app-validation.md). Certaines applications s’abonnent au [programme de conformité Microsoft](overview-of-app-certification.md) pour faire l’objet de plusieurs niveaux de vérifications supplémentaires au-delà de la validation.
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Capture d’écran d’un exemple d’applications tierces dans le magasin Teams.":::
 
@@ -94,7 +94,7 @@ Les utilisateurs peuvent afficher toutes les applications disponibles dans Teams
 
 Les applications peuvent être épinglées à Teams pour faciliter l’accès. Les utilisateurs peuvent [épingler des applications par eux-mêmes](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) si leur stratégie d’installation le permet et si l’application est autorisée par l’administrateur Teams. Les administrateurs peuvent épingler des applications et contrôler le comportement des applications épinglées. Pour plus d’informations, consultez Stratégies de [configuration](/microsoftteams/teams-app-setup-policies) des applications.
 
-:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Capture d’écran montrant tous les endroits où les utilisateurs peuvent parcourir les applications dans Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
+:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Capture d’écran montrant tous les emplacements où les utilisateurs peuvent parcourir les applications dans Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
 
 Les utilisateurs peuvent rechercher et ajouter des applications à Teams à partir de l’App Store Teams. Ils peuvent également ajouter des applications directement à partir du contexte dans lequel ils travaillent, comme l’onglet conversation ou canal, la réunion Teams ou la zone de messagerie. Pour plus d’informations, consultez [Ajouter une application à Microsoft Teams](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
 
@@ -113,7 +113,7 @@ Les fonctionnalités des applications Teams sont les principales fonctionnalité
 
 * **Bots** : les bots sont également appelés chatbot ou bot conversationnel. Il s’agit d’une application qui exécute des tâches simples et répétitives. Une interaction de bot peut être une question et une réponse rapides, ou il peut s’agir d’une conversation complexe qui fournit l’accès aux services ou à l’assistance. Les utilisateurs peuvent avoir une conversation avec un bot dans une conversation personnelle, un canal ou une conversation de groupe. Pour plus d’informations, consultez [Bots dans Microsoft Teams](/microsoftteams/platform/bots/what-are-bots).
 
-* **Onglets : les** onglets sont des pages web prenant en compte Teams épinglées en haut d’un canal ou d’une conversation. Les onglets vous permettent d’interagir avec du contenu et des services avec une expérience web. Il s’agit de balises HTML `iframe` simples qui peuvent être ajoutées dans le cadre d’un canal à l’intérieur d’une équipe, d’une conversation de groupe ou d’une application personnelle pour un utilisateur individuel. Pour plus d’informations, consultez [Microsoft onglets Teams](/microsoftteams/platform/tabs/what-are-tabs).
+* **Onglets : les** onglets sont des pages web prenant en compte Teams épinglées en haut d’un canal ou d’une conversation. Les onglets vous permettent d’interagir avec du contenu et des services avec une expérience web. Il s’agit de balises HTML `iframe` simples qui peuvent être ajoutées dans le cadre d’un canal à l’intérieur d’une équipe, d’une conversation de groupe ou d’une application personnelle pour un utilisateur individuel. Pour plus d’informations, consultez [onglets Microsoft Teams](/microsoftteams/platform/tabs/what-are-tabs).
 
 * **Webhooks et connecteurs** : les webhooks et les connecteurs permettent de connecter différents services web à des canaux et des équipes dans Microsoft Teams. Les webhooks sont un rappel HTTP défini par l’utilisateur qui avertit les utilisateurs de toute action qui a eu lieu dans le canal Teams. Il s’agit d’un moyen pour une application d’obtenir des données en temps réel. Les connecteurs permettent aux utilisateurs de s’abonner pour recevoir des notifications et des messages des services web. Pour plus d’informations, consultez [Webhooks et connecteurs](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
 

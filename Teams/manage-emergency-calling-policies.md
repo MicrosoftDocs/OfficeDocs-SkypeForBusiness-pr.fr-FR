@@ -16,24 +16,24 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment utiliser et gérer les stratégies d’appel d’urgence dans Microsoft Teams pour définir ce qui se passe lorsqu’un utilisateur Teams de votre organisation effectue un appel d’urgence.
+description: Découvrez comment utiliser et gérer des stratégies d’appel d’urgence dans Microsoft Teams pour définir ce qui se passe lorsqu’un utilisateur Teams de votre organisation effectue un appel d’urgence.
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 4b5d293cbbd588a564ff1a0118ab4d56f96c17a2
-ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
+ms.openlocfilehash: 1d2dc0e2213f6294e2c596722a4f5ab49bec8487
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69414641"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727746"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Gérer les stratégies d’appel d’urgence dans Microsoft Teams
 
-Si votre organisation utilise Microsoft forfaits d’appels, Connexion opérateur, Téléphone Mobile Teams ou Routage direct comme [option de connectivité RTC](pstn-connectivity.md), vous pouvez utiliser des stratégies d’appel d’urgence dans Microsoft Teams pour définir ce qui se passe lorsqu’un utilisateur Teams de votre organisation effectue un appel d’urgence.
+Si votre organisation utilise les forfaits d’appels Microsoft, Operator Connect, Teams Phone Mobile ou le routage direct comme [option de connectivité RTC](pstn-connectivity.md), vous pouvez utiliser des stratégies d’appel d’urgence dans Microsoft Teams pour définir ce qui se passe lorsqu’un utilisateur Teams de votre organisation passe un appel d’urgence.
 
 Vous pouvez définir les personnes à notifier et la façon dont elles le sont lorsqu’un utilisateur auquel la stratégie est affectée appelle des services d’urgence. Par exemple, vous pouvez configurer des paramètres de stratégie pour avertir automatiquement le service de sécurité de votre organisation et lui faire écouter les appels d’urgence.  
 
-Vous gérez les stratégies d’appel d’urgence en accédant aux **stratégies d’urgence** **vocale** >  dans le centre d’administration Microsoft Teams ou en utilisant Windows PowerShell. Les stratégies peuvent être attribuées aux utilisateurs et aux [sites réseau](cloud-voice-network-settings.md).
+Vous gérez les stratégies d’appel d’urgence en accédant à **Stratégies d’urgence** **vocale** >  dans le Centre d’administration Microsoft Teams ou en utilisant Windows PowerShell. Les stratégies peuvent être attribuées aux utilisateurs et aux [sites réseau](cloud-voice-network-settings.md).
 
 Pour les utilisateurs, vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées. Les utilisateurs obtiennent automatiquement la stratégie globale, sauf si vous créez et affectez une stratégie personnalisée. Gardez à l’esprit que vous pouvez modifier les paramètres de la stratégie globale, mais vous ne pouvez pas la renommer ou la supprimer. Pour les sites réseau, vous créez et affectez des stratégies personnalisées.
 
@@ -61,7 +61,7 @@ Si vous avez affecté une stratégie d’appel d’urgence à un site réseau et
 
 7.  Si vous avez sélectionné l’une des conférences dans les modes de notification **désactivés** , dans la zone **Numéros à composer pour les notifications d’appels d’urgence** , vous pouvez entrer un numéro de téléphone RTC d’un utilisateur ou d’un groupe pour appeler et rejoindre l’appel d’urgence. Par exemple, entrez le numéro du bureau de sécurité de votre organisation, qui recevra un appel lorsqu’un appel d’urgence sera effectué et pourra ensuite écouter l’appel. Le téléphone RTC ne peut pas être désactivé, même si le mode est défini **sur Conférence en sourdine, mais qu’il est en mesure de le réactiver**.
 
-8. Recherchez et sélectionnez un ou plusieurs utilisateurs ou groupes, tels que le bureau de sécurité de votre organisation, pour avertir lorsqu’un appel d’urgence est effectué.  La notification peut être envoyée aux adresses e-mail des utilisateurs, des groupes de distribution et des groupes de sécurité. Un maximum de 50 utilisateurs peuvent être avertis.
+8. Définissez les personnes que vous souhaitez notifier lorsqu’un appel d’urgence est effectué, par exemple le personnel de votre bureau de sécurité. Vous pouvez définir une liste d’utilisateurs, de groupes de distribution ou de groupes de sécurité. Un maximum de 50 utilisateurs peuvent être avertis.
 
 9. Cliquez sur **Appliquer**.
 
@@ -95,7 +95,7 @@ Voir aussi [Grant-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/grant-
 
 Vous pouvez affecter la stratégie globale ou les stratégies personnalisées que vous créez.
 
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Emplacements** >  Topologie **réseau**, puis cliquez sur **l’onglet Sites réseau**.
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Emplacements** >  Topologie **réseau**, puis cliquez sur l’onglet **Sites réseau**.
 2. Sélectionnez le site en cliquant à gauche du nom, puis cliquez sur **Modifier**.
 3. Sous **Stratégie d’appel d’urgence**, sélectionnez la stratégie, puis cliquez sur **Enregistrer**.
 
