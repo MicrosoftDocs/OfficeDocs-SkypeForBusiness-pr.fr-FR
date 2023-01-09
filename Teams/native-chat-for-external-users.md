@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Découvrez l’expérience de conversation Teams native pour les utilisateurs à accès externe (fédéré) dans Microsoft Teams où les deux utilisateurs sont en mode de mise à niveau TeamsOnly.
-ms.openlocfilehash: 134216364fdd7397d8a7d72a2ae6684cfa9f90b4
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 759ad4f03de099637df0e92a7a8925a7c18ae3fd
+ms.sourcegitcommit: 8f26bf0ff88f1f6881de32914be00d5f0cc7396a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198876"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69740799"
 ---
 # <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Expérience de conversation native pour les utilisateurs externes (fédérés) dans Microsoft Teams
 
@@ -30,6 +30,9 @@ Lorsqu’un utilisateur Microsoft Teams discute avec un utilisateur externe (fé
 L’expérience de conversation native pour les personnes d’autres organisations est activée pour tous les locataires Teams, mais toutes les personnes ne sont pas éligibles. Pour obtenir une expérience de conversation native, l’expéditeur et le destinataire doivent être configurés pour le mode de mise à niveau TeamsOnly. Pour en savoir plus sur les stratégies de mise à niveau, consultez [Définition de vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md).
 
 Pour afficher la liste des fonctionnalités pour les utilisateurs d’accès externe dans Teams, consultez [Comparer l’accès externe et l’accès invité](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access).
+
+> [!NOTE]
+> L’expérience de conversation native n’est pas disponible pour les environnements cloud Microsoft 365 : Microsoft 365 WorldWide (y compris GCC) depuis/vers GCC High, GCC High depuis/vers DoD, ou WW depuis/vers DoD.
 
 ## <a name="how-do-i-know-if-im-in-a-native-chat"></a>Comment faire savoir si je suis dans une conversation native ?
 
