@@ -21,13 +21,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Découvrez comment obtenir de nouveaux numéros, effectuer un port ou transférer des numéros existants pour Teams, et comment afficher les modifications apportées à vos utilisateurs.
-ms.openlocfilehash: 0e9b3c13c62c2adb5a3fa6a7dbe7665e9346a08d
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+description: Découvrez comment obtenir de nouveaux numéros, porter ou transférer des numéros existants pour Teams, et comment montrer les modifications à vos utilisateurs.
+ms.openlocfilehash: b4bdbc686a26bf179fbe85d2a19ca5b82c19b324
+ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68583865"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69749060"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtention de numéros de téléphone Skype Entreprise pour vos utilisateurs
 
@@ -37,12 +37,12 @@ Il existe trois façons d’obtenir des numéros d’utilisateur :
 
 - **Utilisez le Centre d’administration Microsoft Teams.** Pour certains pays et régions, vous pouvez obtenir des numéros pour vos utilisateurs à l’aide du Centre d’administration Microsoft Teams. Consultez [Obtenir de nouveaux numéros de téléphone pour vos utilisateurs](#get-new-phone-numbers-for-your-users).
 
-- **Portage de vos numéros existants.** Vous pouvez porter ou transférer des numéros existants à partir de votre fournisseur de services ou opérateur téléphonique actuel. Consultez le [Transfert des numéros de téléphone vers Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [Gestion des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization) pour plus d’informations pour vous aider à effectuer ces opérations.  
+- **Portage de vos numéros existants.** Vous pouvez transférer ou transférer des numéros existants à partir de votre fournisseur de services ou opérateur téléphonique actuel. Pour plus d’informations, consultez [Transférer des numéros de téléphone vers Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [Gérer les numéros de téléphone de votre organisation](/microsoftteams/manage-phone-numbers-for-your-organization).  
   
-- **Utiliser un formulaire de demande pour de nouveaux numéros.** Parfois (en fonction de votre pays ou région), vous ne pourrez pas obtenir vos nouveaux numéros de téléphone à l’aide du Centre de Administration Microsoft Teams ou vous aurez besoin de numéros de téléphone ou de codes régionaux spécifiques. Pour plus d’informations, voir [Gestion des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization).
+- **Utiliser un formulaire de demande pour de nouveaux numéros.** Parfois (en fonction de votre pays ou région), vous ne pourrez pas obtenir vos nouveaux numéros de téléphone à l’aide du centre d’administration Microsoft Teams ou vous aurez besoin de numéros de téléphone ou d’indicatifs régionaux spécifiques. Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de téléphone de votre organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
   
 > [!NOTE]
-> Si vous avez besoin d’aide pour configurer des numéros de téléphone pour votre organisation, [contactez le contact du support technique pour les produits professionnels - Administration aide](/microsoft-365/admin/contact-support-for-business-products).
+> Si vous avez besoin d’aide pour configurer les numéros de téléphone de votre organisation, [contactez le contact du support technique pour les produits d’entreprise - Administration aide](/microsoft-365/admin/contact-support-for-business-products).
 
 ## <a name="get-new-phone-numbers-for-your-users"></a>Obtention de nouveaux numéros de téléphone pour vos utilisateurs
 
@@ -50,9 +50,9 @@ Il existe trois façons d’obtenir des numéros d’utilisateur :
 
 Vous devez être un administrateur du service Teams pour apporter ces modifications. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](./using-admin-roles.md) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
 
-1. Accédez au Centre de Administration Microsoft Teams.
+1. Connectez-vous au [Centre d’administration Microsoft Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 
-2. Dans le volet de navigation gauche, accédez aux **numéros de téléphone** **vocal** > , puis sélectionnez **Ajouter**.
+2. Dans le volet de navigation de gauche, accédez à **Numéros de téléphone** **vocaux** > , puis sélectionnez **Ajouter**.
 
 3. Entrez un nom pour la commande et ajoutez une description.
 
@@ -60,38 +60,38 @@ Vous devez être un administrateur du service Teams pour apporter ces modificati
     1. Sous **Pays ou région**, sélectionnez un pays ou une région.
     2. Sous **Type de numéro**, sélectionnez **Utilisateur (abonné).**
     3. Sous **Emplacement**, sélectionnez un emplacement. Si vous devez créer un emplacement, sélectionnez **Ajouter un emplacement**.
-    4. Sous **Code de** zone, sélectionnez un code de zone.
+    4. Sous **Code de** zone, sélectionnez un indicatif régional.
     5. Sous **Quantité**, entrez le nombre de numéros souhaités pour votre organisation, puis sélectionnez **Suivant** pour sélectionner vos numéros.
 
-5. Sélectionnez les nombres souhaités. Vous avez 10 minutes pour sélectionner vos numéros de téléphone et passer votre commande. Si vous prenez plus de 10 minutes, les numéros de téléphone sont renvoyés au pool de numéros.
+5. Sélectionnez les nombres souhaités. Vous avez 10 minutes pour sélectionner vos numéros de téléphone et passer votre commande. Si vous prenez plus de 10 minutes, les numéros de téléphone sont retournés au pool de numéros.
 
-6. Lorsque vous êtes prêt à passer votre commande, sélectionnez **Passer la commande**.
+6. Lorsque vous êtes prêt à passer votre commande, sélectionnez **Passer commande**.
 
     > [!IMPORTANT]
-    > Le nombre de numéros de téléphone pour les utilisateurs (abonnés) est égal au nombre total de licences **de forfait d’appels nationaux** et **internationaux** que vous avez attribuées multiplié par 1,1, plus 10 numéros de téléphone supplémentaires. Par exemple, si vous avez 50 utilisateurs au total avec un forfait d’appels nationaux et/ou un forfait d’appels internationaux, vous pouvez acquérir **65** numéros **de téléphone (50 x 1,1 + 10).** Notez que si vous disposez d’un forfait d’appels avec paiement à l’utilisation, vous ne pouvez acquérir qu’un seul numéro de téléphone par licence attribuée.
+    > Le nombre de numéros de téléphone des utilisateurs (abonnés) est égal au nombre total de licences forfait **d’appels nationaux** et forfait d’appels **internationaux** que vous avez attribués multiplié par 1,1, plus 10 numéros de téléphone supplémentaires. Par exemple, si vous avez 50 utilisateurs au total avec un forfait d’appels nationaux et/ou un forfait d’appels internationaux, vous pouvez acquérir **65** numéros **de téléphone (50 x 1,1 + 10)** . Notez que si vous disposez d’un forfait d’appels avec paiement à l’utilisation, vous ne pouvez acquérir qu’un seul numéro de téléphone par licence attribuée.
     >
-    > Pour plus d’informations, voir [Combien de numéros de téléphone pouvez-vous obtenir ?](./how-many-phone-numbers-can-you-get.md). Si vous avez besoin d’obtenir plus de numéros de téléphone que cela, [contactez le contact du support technique pour les produits professionnels - Administration aide](/microsoft-365/admin/contact-support-for-business-products).
+    > Pour plus d’informations, consultez [Combien de numéros de téléphone pouvez-vous obtenir ?](./how-many-phone-numbers-can-you-get.md). Si vous avez besoin d’obtenir plus de numéros de téléphone, [contactez le contact du support technique pour les produits professionnels - Administration Aide](/microsoft-365/admin/contact-support-for-business-products).
   
 ## <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>Transfert de vos numéros de téléphone du fournisseur de services ou de l'opérateur de téléphonie
   
-- Si vous avez besoin de 999 numéros de téléphone ou moins pour vos utilisateurs, utilisez l’Assistant Portage dans le Centre de Administration Microsoft Teams. Suivez les étapes décrites dans [Transférer des numéros de téléphone vers Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md). Si votre pays ou région n’est pas répertorié dans l’Assistant Portage, vous pouvez [soumettre manuellement une commande de port](phone-number-calling-plans/manually-submit-port-order.md) ou voir [Gérer les numéros de téléphone de votre organisation pour](/microsoftteams/manage-phone-numbers-for-your-organization) télécharger la lettre d’autorisation correcte (LOA).
+- Si vous avez besoin de 999 numéros de téléphone ou moins pour vos utilisateurs, utilisez l’Assistant Portage dans le Centre d’administration Microsoft Teams. Suivez les étapes décrites dans [Transférer des numéros de téléphone vers Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md). Si vous avez besoin d’aide pour ce processus, vous pouvez [envoyer manuellement une commande de transfert](phone-number-calling-plans/manually-submit-port-order.md) ou voir [Gérer les numéros de téléphone de votre organisation pour](/microsoftteams/manage-phone-numbers-for-your-organization) télécharger la lettre d’autorisation correcte.
 
-- Si vous devez porter plus de 999 numéros de téléphone, vous pouvez [soumettre manuellement une commande de port](phone-number-calling-plans/manually-submit-port-order.md) ou voir [Gérer les numéros de téléphone de votre organisation pour](/microsoftteams/manage-phone-numbers-for-your-organization) télécharger la lettre d’autorisation correcte (LOA), puis [l’envoyer au bureau du service TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) pour obtenir tous vos numéros transférés.
+- Si vous avez besoin de porter plus de 999 numéros de téléphone, vous pouvez [envoyer manuellement une commande de transfert](phone-number-calling-plans/manually-submit-port-order.md) ou voir [Gérer les numéros de téléphone de votre organisation pour](/microsoftteams/manage-phone-numbers-for-your-organization) télécharger la lettre d’autorisation (LOA) correcte. Complétez et signez les documents LOA, puis contactez [le support technique TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) de votre région.
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Afficher les numéros de téléphone de votre organisation
 
 **Utiliser le centre d’administration Microsoft Teams**
 
-Dans le volet de navigation gauche du centre d’administration, accédez aux **numéros de téléphone** **vocal** >  pour afficher les numéros de votre organisation, notamment l’emplacement, le type de numéro et les informations d’état.
+Dans le volet de navigation gauche du centre d’administration, accédez à **Numéros de téléphone** **vocaux** >  pour afficher les numéros de votre organisation, y compris l’emplacement, le type de numéro et les informations d’état.
   
 ## <a name="assign-phone-numbers-to-users"></a>Attribuer des numéros de téléphone aux utilisateurs
 
-Une fois que vous avez obtenu vos numéros de téléphone, vous devez attribuer un numéro à chacun de vos utilisateurs. Pour plus d’informations [, consultez Affecter, modifier ou supprimer un numéro de téléphone pour un utilisateur](./assign-change-or-remove-a-phone-number-for-a-user.md) .
+Une fois que vous avez obtenu vos numéros de téléphone, vous devez attribuer un numéro à chacun de vos utilisateurs. Pour plus d’informations, consultez [Attribuer, modifier ou supprimer un numéro de téléphone pour un utilisateur](./assign-change-or-remove-a-phone-number-for-a-user.md).
 
 > [!NOTE]
-> Si vous avez besoin d’obtenir plus de numéros de téléphone que cela, [contactez le contact du support technique pour les produits professionnels - Administration aide](/microsoft-365/admin/contact-support-for-business-products).
+> Si vous avez besoin d’obtenir plus de numéros de téléphone, [contactez le contact du support technique pour les produits professionnels - Administration Aide](/microsoft-365/admin/contact-support-for-business-products).
 
-Cette vidéo montre les étapes à suivre pour affecter un numéro de téléphone à un utilisateur.
+Cette vidéo montre les étapes permettant d’attribuer un numéro de téléphone à un utilisateur.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE54mbS?autoplay=false]
 
