@@ -19,14 +19,17 @@ ms.custom:
 - admindeeplinkMAC
 robots: noindex
 description: Découvrez comment supprimer les licences teams gratuites (classiques) et attribuer des licences Teams payantes aux utilisateurs de votre organisation.
-ms.openlocfilehash: 027f84577a50d445eb01bce896417f23e503abb7
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: 3015036d0656a80ac8440d2c193003cc7d67d9fc
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749154"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767665"
 ---
 # <a name="retire-microsoft-teams-free-classic-for-your-organization"></a>Mettre hors service Microsoft Teams gratuit (classique) pour votre organisation
+
+> [!NOTE]
+> Si vous êtes un utilisateur Teams Gratuit (classique), vous perdrez l’accès à Teams mi-avril 2023, sauf si votre administrateur informatique effectue les actions suivantes dans cet article.
 
 À la mi-avril 2023, Microsoft mettra fin à la licence **Microsoft Teams gratuit (classique)**.
 

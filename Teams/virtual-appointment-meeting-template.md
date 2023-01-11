@@ -17,14 +17,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 459845115d8a705673f21b5e8a57dadac59841f6
-ms.sourcegitcommit: f8da8f613fc3902d2607e322ad9dfbdeb8838c4c
+ms.openlocfilehash: f0d93bb05a6456499ab1c0c16070149d8cdfd949
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/21/2022
-ms.locfileid: "69624916"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767625"
 ---
 # <a name="virtual-appointment-meeting-template-in-microsoft-teams"></a>Modèle de réunion de rendez-vous virtuel dans Microsoft Teams
+
+![Icône d’informations](media/info.png) **Certaines fonctionnalités décrites dans cet article nécessitent [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (préversion).**
 
 ## <a name="overview"></a>Vue d’ensemble
 

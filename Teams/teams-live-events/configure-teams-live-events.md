@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 449aaa73b42248661ec141bd8d004cf754379750
-ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
+ms.openlocfilehash: 7ff5dada4c1f37c6afaf2948a5cef2b6169350d0
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "68965776"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767615"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurer les paramètres d’événements en direct dans Microsoft Teams
 
@@ -56,23 +56,26 @@ Exécutez la commande suivante :
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
-Pour plus d’informations, consultez [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true).
-## <a name="configure-a-third-party-video-distribution-provider"></a>Configurer un fournisseur de distribution vidéo tiers 
 
-Si vous avez acheté et configuré une solution de réseau à définition logicielle (SDN) ou une solution de réseau de distribution de contenu d’entreprise (eCDN) via un partenaire de distribution de vidéos Microsoft, configurez le fournisseur pour les événements en direct dans Teams. 
+Pour plus d’informations, consultez [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true).
+
+## <a name="configure-a-third-party-video-distribution-provider"></a>Configurer un fournisseur de distribution vidéo tiers
+
+Si vous avez acheté et configuré une solution de réseau à définition logicielle (SDN) ou une solution de réseau de distribution de contenu d’entreprise (eCDN) via un partenaire de distribution de vidéos Microsoft, configurez le fournisseur pour les événements en direct dans Teams.
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
 1. Dans le volet de navigation de gauche, accédez à **Réunions** > **Paramètres de l’événement en direct**.
-2. Sous **Fournisseurs de distribution vidéo tiers**, effectuez les opérations suivantes : 
+2. Sous **Fournisseurs de distribution vidéo tiers**, effectuez les opérations suivantes :
 
     ![Paramètres du fournisseur de distribution vidéo tiers dans le centre d’administration.](../media/teams-live-events-settings-distribution-provider-new.png "Capture d’écran des paramètres du fournisseur de distribution vidéo tiers pour les événements en direct")
 
     - **Fournisseur de distribution tiers** Activez cette option pour activer le fournisseur de distribution vidéo tiers.
     - **Nom du fournisseur SDN** Choisissez le fournisseur que vous utilisez.
     - **Configuration SDN** Entrez les détails de la configuration SDN.
-        
+
 ### <a name="using-windows-powershell"></a>Reportez-vous à la rubrique Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio.
+
 Obtenez l’ID de licence ou le jeton d’API et le modèle d’API de votre contact fournisseur, puis exécutez l’une des opérations suivantes, en fonction du fournisseur que vous utilisez :
 
 **Microsoft eCDN**
@@ -99,15 +102,13 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 Pour plus d’informations, consultez [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true).
 
 > [!NOTE]
-> Si vous envisagez de créer des événements en direct à l’aide d’une application ou d’un appareil externe, vous devez également [configurer votre fournisseur eCDN avec Microsoft Stream](/stream/network-caching). 
-
->[!Note]
-> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
+> Si vous envisagez de créer des événements en direct à l’aide d’une application ou d’un appareil externe, vous devez également [configurer votre fournisseur eCDN](../teams-stream-ecdn.md).
 
 >[!Note]
 > La solution eCDN choisie est soumise aux conditions d’utilisation et à la politique de confidentialité du fournisseur tiers sélectionné, qui régissent votre utilisation de la solution du fournisseur eCDN. Votre utilisation de la solution du fournisseur eCDN ne sera pas soumise aux termes du contrat de licence en volume Microsoft ni aux conditions des services en ligne. Si vous n’acceptez pas les conditions du fournisseur tiers, n’activez pas la solution eCDN dans Microsoft Teams.
 
 ### <a name="related-topics"></a>Rubriques connexes
+
 - [Que sont les événements en direct Teams ?](what-are-teams-live-events.md)
 - [Offre pour les événements en direct Teams](plan-for-teams-live-events.md)
 - [Configurer les événements en direct Teams](set-up-for-teams-live-events.md)
