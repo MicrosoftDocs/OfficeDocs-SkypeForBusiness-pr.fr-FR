@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Administration pouvez lire les notes de publication de Salles Microsoft Teams, qui répertorient les améliorations cumulatives apportées à Salles Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 256ab81b195d5a758e07c24741b1dc8a7ff13218
-ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
+ms.openlocfilehash: f6d600552c2f636618ff14a1ccf88be60df74879
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2022
-ms.locfileid: "69438362"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774729"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notes de publication pour Salles Microsoft Teams
 
@@ -40,7 +40,7 @@ salles Teams est régie par la politique de cycle de vie moderne. Pour plus d’
 
 |Libération |Publié dans <br/> Microsoft Store |
 |--- |--- |
-|4.15.54.0 | 12/15/2022 |
+|4.15.58.0 | 12/15/2022 |
 |4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
@@ -97,7 +97,7 @@ salles Teams est régie par la politique de cycle de vie moderne. Pour plus d’
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salles Microsoft Teams présentation des fonctionnalités et résolution des problèmes
 
-### <a name="415540-12152022"></a>4.15.54.0 (12/15/2022)
+### <a name="415580-12152022"></a>4.15.58.0 (12/15/2022)
 
 Introduit dans cette mise à jour :
 
@@ -121,7 +121,7 @@ Introduit dans cette mise à jour :
 - Épingler et masquer la vidéo de salle
 - Configuration de l’administrateur pour désactiver la galerie fractionnée dans le salles Teams <sup>double affichage 1</sup>
 - Les salles Teams à double affichage peuvent désormais afficher jusqu’à 18 flux vidéo de participants
-- Prise en charge des licences de salle de base Salles Microsoft Teams Pro et Microsoft Teams
+- Prise en charge des licences de salle Salles Microsoft Teams Pro et Microsoft Teams Room Basic
 
 <sup>1 La</sup> configuration de l’administrateur pour la désactivation de la galerie fractionnée via XML est disponible dans [Gérer les paramètres d’une console Salles Microsoft Teams à distance avec un fichier de configuration XML](../rooms/xml-config-file.md).
 
@@ -167,9 +167,9 @@ Introduit dans cette mise à jour :
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)
 
 Introduit dans cette mise à jour :
-- Les administrateurs informatiques peuvent inscrire un appareil de salles Teams pour recevoir des fonctionnalités en préversion publique via le paramètre XML. Une fois inscrit, l’appareil commence à recevoir des fonctionnalités bêta. Toutes les fonctionnalités qui passent au test bêta sont annoncées dans [Microsoft Préversion publique de Teams - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
+- Les administrateurs informatiques peuvent inscrire un appareil de salles Teams pour recevoir des fonctionnalités en préversion publique via le paramètre XML. Une fois inscrit, l’appareil commence à recevoir des fonctionnalités bêta. Toutes les fonctionnalités de test bêta sont annoncées dans [la préversion publique de Microsoft Teams - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
 - L’administrateur informatique peut définir la résolution d’affichage et la mise à l’échelle à distance à l’avant de la salle via les paramètres XML<sup>2</sup>
-- L’administrateur informatique peut désactiver Microsoft suppression du bruit via le paramètre XML<sup>3</sup> 
+- L’administrateur informatique peut désactiver la suppression du bruit Microsoft via le paramètre XML<sup>3</sup> 
 - L’administrateur informatique peut remplacer le nettoyage du dossier de téléchargement sur l’appareil via le paramètre de clé de Registre<sup>4</sup>
 - Permettre aux utilisateurs de participer à une réunion Teams hébergée sur un autre cloud (par exemple, le client GCCH peut participer à des réunions Teams hébergées sur le cloud commercial et vice versa) 
 - Salles Teams bloque désormais le lancement du navigateur edge à partir d’URL dans PowerPoint Live comme mesure de sécurité supplémentaire pour les salles Teams avec écrans tactiles 
@@ -210,7 +210,7 @@ Introduit dans cette mise à jour :
 
 > <sup>1</sup> Ces fonctionnalités sont déployées à l’aide du client web Teams et seront déployées dans les prochaines semaines. Pour plus d’informations, consultez [Mises à jour de Teams](../teams-client-update.md) .
 > 
-> <sup>2</sup> Les salles Teams sur Windows s’exécutant dans Microsoft Teams uniquement ou Skype Entreprise et Microsoft Teams (par défaut) sont mises à jour avec de nouvelles expériences de réunion et d’appel, mais les autres modes ne sont pas affectés par cette mise à jour.
+> <sup>2</sup> Les salles Teams sur Windows s’exécutant dans Microsoft Teams uniquement ou Skype Entreprise et Microsoft Teams (par défaut) sont mises à jour avec de nouvelles expériences de réunion et d’appel, mais d’autres modes ne sont pas affectés par cette mise à jour.
 > 
 > <sup>3</sup> Consultez les détails supplémentaires sur la configuration des stratégies [d’accès conditionnel AAD](../rooms/rooms-authentication.md#azure-ad-conditional-access) pour salles Teams.
 > 
@@ -260,7 +260,7 @@ Introduit dans cette mise à jour :
 ### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
 
 Introduit dans cette mise à jour :
-- Microsoft mode Teams uniquement est désormais disponible dans les paramètres de l’application, vous n’avez donc plus besoin de configurer un compte Skype Entreprise. Dans ce mode, les appareils connectés au mode Teams uniquement rejoignent Skype Entreprise réunions en tant qu’utilisateur invité.
+- Le mode Microsoft Teams uniquement étant désormais disponible dans les paramètres de l’application, vous n’avez plus besoin de configurer un compte Skype Entreprise. Dans ce mode, les appareils connectés au mode Teams uniquement rejoignent Skype Entreprise réunions en tant qu’utilisateur invité.
 - Correctif pour l’audio HDMI entraînant une diminution du volume des appels. La fonctionnalité audio HDMI est automatiquement activée pour tous les appareils avec la build d’application 4.9.12.0.
 
 > [!NOTE]
@@ -421,16 +421,16 @@ Introduit dans cette mise à jour :
 Introduit dans cette mise à jour :
 
 - L’application skype Room System Store est renommée « Salles Microsoft Teams »
-- interface utilisateur de la console Salles Microsoft Teams réalignée pour Microsoft Teams
+- Salles Microsoft Teams interface utilisateur de la console réalignée sur Microsoft Teams
 - Mise à jour du thème : conservez uniquement l’image d’arrière-plan personnalisée devant les écrans de salle, tout en faisant de l’arrière-plan de la console une couleur neutre pour garantir que les contrôles de l’interface utilisateur de la console répondent au contraste des couleurs ( exigences d’accessibilité)
-- Barre universelle pour les contrôles d’appel en réunion pour les appels/réunions Teams afin de fournir une expérience cohérente avec Microsoft clients PC/Web/Mobile<sup>Teams 1</sup>
+- Barre universelle pour les contrôles d’appel en réunion pour les appels/réunions Teams afin de fournir une expérience cohérente avec les clients Microsoft Teams PC/Web/Mobile<sup>1</sup>
 - Évaluation des commentaires sur la qualité des appels après les appels/réunions Teams<sup>1</sup>
-- Recevoir/afficher Microsoft tableau blanc sur Salles Microsoft Teams’affichage avant de la salle lorsqu’il est partagé à partir du client PC/Web/Mobile Teams<sup>1</sup> <sup>2</sup>
+- Recevoir/afficher le tableau blanc Microsoft sur Salles Microsoft Teams’affichage avant de la salle lorsqu’il est partagé à partir du client PC/Web/Mobile Teams<sup>1</sup> <sup>2</sup>
 - Suppression de la prise en charge des mises à niveau Windows 10 version 1809 en raison de problèmes de compatibilité avec Salles Microsoft Teams client. Windows 10 prise en charge de la version 19H1 sera ajoutée dans les versions ultérieures
 
-<sup>1</sup> Microsoft déploiement du service Teams à l’aide d’anneaux Teams. Cette fonctionnalité peut être disponible avant ou ultérieure à la mise à jour du client 4.0.105.0
+<sup>1 Déploiement</sup> du service Microsoft Teams à l’aide d’anneaux Teams. Cette fonctionnalité peut être disponible avant ou ultérieure à la mise à jour du client 4.0.105.0
 
-<sup>2</sup> Nécessite que les administrateurs informatiques activent Microsoft Tableau blanc. En outre, si vous disposez d’un écran tactile avant de salle, vous devez étalonner plusieurs écrans tactiles à l’aide des paramètres Windows avec la connexion de l’administrateur de l’appareil pour commencer à utiliser Microsoft Tableau blanc pour la collaboration à partir d’un affichage de salle partagé dans une réunion Teams
+<sup>2</sup> Nécessite que les administrateurs informatiques activent le Tableau blanc Microsoft. En outre, si vous disposez d’un écran tactile avant de salle, vous devez étalonner plusieurs écrans tactiles à l’aide des paramètres Windows avec la connexion de l’administrateur de l’appareil pour commencer à utiliser le Tableau blanc Microsoft pour la collaboration à partir d’un affichage de salle partagé dans une réunion Teams
 
 ### <a name="40850-0482019"></a>4.0.85.0 (04/8/2019)
 
@@ -449,7 +449,7 @@ Introduit dans cette mise à jour :
 
 Introduit dans cette mise à jour :
 
-- Clavier DTMF pour Microsoft les réunions Teams P2P et les appels RTC. Pour que Microsoft Teams soit votre client appelant par défaut, les administrateurs doivent définir IsTeamsDefaultClient sur true
+- Clavier DTMF pour les réunions Microsoft Teams P2P et les appels RTC. Pour que Microsoft Teams soit votre client appelant par défaut, les administrateurs doivent définir IsTeamsDefaultClient sur true
 - Épinglez la vidéo entrante d’un participant distant en plein écran devant l’affichage de la salle. Utiliser la commande « Épingler » de la liste des participants sur la console
 - Améliorations apportées aux notifications de salle d’attente avec l’ajout d’une notification devant la salle
 - Icône de diffusion de l’affichage avant de la salle supprimée lorsque la balise Bluetooth n’est pas activée sur Salles Microsoft Teams appareil
@@ -515,7 +515,7 @@ Introduit dans cette mise à jour :
 
 Introduit dans cette mise à jour :
 
-- Modifications permettant Microsoft de gérer de manière plus flexible les Mises à jour Windows.
+- Modifications permettant à Microsoft de gérer windows Mises à jour de manière plus flexible.
 - Aucune modification de l’expérience de l’utilisateur final.
 
 ### <a name="311120-06052018"></a>3.1.112.0 (06/05/2018)
@@ -601,7 +601,7 @@ Introduit dans cette mise à jour :
 Introduit dans cette mise à jour :
 
 - Sélection d’utilisateurs dans l’application des périphériques USB audio et vidéo de salle de réunion
-- Rapports d’état de console de salle intégrés pour les clients utilisant Microsoft Operations Management Suite, désormais Azure Monitor
+- Rapports d’état de la console de salle intégrée pour les clients utilisant Microsoft Operations Management Suite, désormais Azure Monitor
 
 ### <a name="release-to-market-1272016"></a>Mise sur le marché (7/12/2016)
 

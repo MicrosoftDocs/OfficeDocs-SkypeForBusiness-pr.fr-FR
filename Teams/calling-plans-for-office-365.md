@@ -28,12 +28,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization.
-ms.openlocfilehash: eaf08af459a5f6149b3068802b104c1458dfc727
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+ms.openlocfilehash: f09517572b27fb67ab9657dcfa4c7bd4c5c7867b
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139108"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774719"
 ---
 # <a name="calling-plans-for-microsoft-teams"></a>Forfaits d’appels pour Microsoft Teams
 
@@ -56,6 +56,9 @@ Voici les options forfaits d’appels :
 
   - **Forfait d’appels** avec paiement à l’utilisation Zone 2 : Achetez-le pour les utilisateurs en Autriche, Belgique, Croatie, République tchèque, Danemark, Estonie, Finlande, France, Allemagne, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Pays-Bas, Nouvelle-Zélande, Norvège, Pologne, Portugal, Roumanie, Singapour, Slovaquie, Slovénie, Espagne, Suède et Suisse.
     - Les licences Zone 2 ne sont actuellement pas disponibles à la vente dans les États-Unis et Porto Rico.
+
+> [!NOTE]
+> Le Mexique a son propre forfait d’appels avec paiement à l’utilisation. Il ne fait partie d’aucune zone. Vous devez acheter le forfait d’appels avec paiement à l’utilisation indépendant.
 
 Tous les utilisateurs du même pays/région (il s’agit de l’emplacement du pays de l’utilisateur défini dans la zone de licence de l’Centre d'administration Microsoft 365) avec le même forfait d’appels partagent un pool de minutes. Par exemple, si vous avez 100 utilisateurs situés dans le même pays/région avec un forfait d’appels nationaux de 120 minutes affecté, ils partagent un pool de 12 000 minutes. Tous les appels dépassant ces minutes sont facturés par minute.
 
