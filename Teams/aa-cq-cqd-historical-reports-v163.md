@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 ROBOTS: NOINDEX, NOFOLLOW
 description: Découvrez comment utiliser le rapport Power BI du standard automatique teams & rapport historique de la file d’attente des appels pour afficher les données d’historique du standard automatique et de la file d’attente des appels pour les clients GCC High et DoD.
-ms.openlocfilehash: 619be6d7f0f78f67ef2db0f0693de82120d128c4
-ms.sourcegitcommit: e9718ad7e23317d490b238b3801267cb2e6b26e2
+ms.openlocfilehash: cde953bfd8e9c95c60c795f6de91488506c2addf
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/28/2022
-ms.locfileid: "69176754"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763675"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports-for-gcc-high-and-dod"></a>Rapports d’historique de standard automatique et de file d’attente d’appels pour GCC High et DoD
 
@@ -50,7 +50,7 @@ Ces rapports utilisent les données du magasin de données [CQD (Tableau de bord
 ## <a name="v163-prerequisites"></a>V1.63 Prérequis
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-Vous devez avoir Power BI Desktop installé. Vous pouvez installer et utiliser la version gratuite à partir de [l’Microsoft Windows Store](https://aka.ms/pbidesktopstore).
+Vous devez avoir Power BI Desktop installé. Vous pouvez installer et utiliser la version gratuite à partir du [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
 La version minimale compatible est 2.85.681.0 (septembre 2020).
 
@@ -66,15 +66,17 @@ Procédez comme suit :
 
 1. Téléchargez et enregistrez le fichier zip [des modèles de requête Power BI CQD](https://www.microsoft.com/download/details.aspx?id=102291) sur votre ordinateur.
 
-1. Ouvrez le fichier zip.
+2. Ouvrez le fichier zip.
 
-1. Ouvrez le `CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit` fichier de modèle. Power BI Desktop doit être lancé.
+3. Ouvrez le `CQD Teams Auto Attendant & Call Queue Historical Report V1.63.pbit` fichier de modèle. Power BI Desktop doit être lancé.
 
-1. Vous serez invité à sélectionner la région du pipeline de données CQD. Sélectionnez la région où se trouve votre locataire.
+4. Vous serez invité à sélectionner la région du pipeline de données CQD. Sélectionnez la région où se trouve votre locataire.
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Capture d’écran de la sélection de la région du pipeline de données CQD.":::
+     :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Capture d’écran de la sélection de la région du pipeline de données CQD.":::
 
-1. La région où se trouve votre locataire peut être obtenue à l’aide de l’applet de commande [Get-CsTenant](/powershell/module/skype/get-cstenant) .
+    Locataires de cloud public
+
+5. La région où se trouve votre locataire peut être obtenue à l’aide de l’applet de commande [Get-CsTenant](/powershell/module/skype/get-cstenant) .
 
     ```powershell
     (Get-CsTenant).ServiceInstance
@@ -82,19 +84,27 @@ Procédez comme suit :
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    1. La région s’affiche après le **/** comme dans l’exemple ci-dessus où la région est `noam`.
+    La région s’affiche après le **/** comme dans l’exemple ci-dessus où la région est `noam`.
 
- 1. Le rapport sera lancé avec des exemples de données.
+    Clients GCC High et DoD
+
+6. Mettez à jour le modèle pour utiliser l’un des connecteurs suivants :
+
+   - GCCH : `https://data.cqd.gov.teams.microsoft.us/RunQuery`
+   - Dod: `https://data.cqd.dod.teams.microsoft.us/RunQuery`
+
+
+7. Le rapport sera lancé avec des exemples de données.
  
- 1. Pour afficher vos propres données, sélectionnez **Actualiser** sous l’onglet **Accueil** sous **Requêtes** dans Power BI Desktop.
+8. Pour afficher vos propres données, sélectionnez **Actualiser** sous l’onglet **Accueil** sous **Requêtes** dans Power BI Desktop.
 
    :::image type="content" source="media/aa-cq-historical-report-02-v163.png" alt-text="Capture d’écran de la sélection de l’option d’actualisation.":::
 
-1. Vous serez invité à vous connecter. Sélectionnez **Compte d’organisation**, puis **Se connecter**.
+9. Vous serez invité à vous connecter. Sélectionnez **Compte d’organisation**, puis **Se connecter**.
 
-  :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Capture d’écran montrant la connexion pour la version 1.63.":::
+   :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Capture d’écran montrant la connexion pour la version 1.63.":::
 
-1. Sélectionnez **Se connecter** pour que les données s’actualisent.
+10. Sélectionnez **Se connecter** pour que les données s’actualisent.
 
 ## <a name="data-latency-for-aa-and-cq-analytics"></a>Latence des données pour l’analytique AA et CQ
 
@@ -116,11 +126,11 @@ Procédez comme suit :
 
 1. Sélectionnez **l’onglet Affichage** dans le ruban.
 
-  :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Capture d’écran de la sélection de l’onglet affichage pour modifier le jeu de couleurs.":::
+    :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Capture d’écran de la sélection de l’onglet affichage pour modifier le jeu de couleurs.":::
 
 2. Sélectionnez le schéma de couleur dans la liste déroulante.
 
-  :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Capture d’écran montrant différents modèles de couleurs.":::
+    :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Capture d’écran montrant différents modèles de couleurs.":::
   
 ## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>Définitions des rapports d’historique du standard automatique et de la file d’attente d’appels
 

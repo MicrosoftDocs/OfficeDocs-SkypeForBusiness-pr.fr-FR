@@ -21,16 +21,16 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et gérer des standards automatiques dans Microsoft Teams.
-ms.openlocfilehash: 0acdbacb9899184aaf21003193d62b3dcc4eab3a
-ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
+ms.openlocfilehash: 041d58ff62304a704b86f6bb25a0ba934b58219f
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69379360"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763695"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
 
-Les standards automatiques permettent aux utilisateurs d’appeler votre organisation et de naviguer dans un système de menus pour parler au service approprié, à la file d’attente d’appels, à la personne ou à un opérateur. Vous pouvez créer des standards automatiques pour votre organisation à l’aide du centre d’administration Microsoft Teams ou de PowerShell.
+Les standards automatiques permettent aux utilisateurs d’appeler votre organisation et de naviguer dans un système de menus pour parler au service approprié, à la file d’attente d’appels, à la personne ou à un opérateur. Vous pouvez créer des standards automatiques pour votre organisation à l’aide du Centre d’administration Microsoft Teams ou de PowerShell.
 
 Veillez à lire l’article [Planifier les standards automatiques et les files d’attente des appels pour Teams](plan-auto-attendant-call-queue.md), puis à suivre les [étapes de démarrage](plan-auto-attendant-call-queue.md#getting-started) avant de suivre les procédures de cet article.
 
@@ -40,7 +40,7 @@ Les standards automatiques peuvent rediriger les appels, en fonction de l’entr
 - **Personne de l’organisation** : une personne de votre organisation qui peut recevoir des appels vocaux. Cette personne peut être un utilisateur en ligne ou un utilisateur hébergé localement à l’aide de Skype Entreprise Server.
 - **Application vocale** : un autre standard automatique ou une file d’attente d’appels. (Choisissez le compte de ressource associé au standard automatique ou à la file d’attente d’appels lors du choix de cette destination.)
 - **Messagerie vocale** : boîte aux lettres vocale associée à un groupe Microsoft 365 que vous spécifiez. Vous pouvez choisir si vous souhaitez des transcriptions de messagerie vocale et le « Veuillez laisser un message après le ton ». invite système.
-  - Dans le Centre Administration M365, activez « Autoriser les personnes extérieures à l’organisation à envoyer un e-mail à cette équipe » pour le groupe Microsoft 365 que vous spécifiez
+  - Dans Administration Microsoft 365 Center, activez « Autoriser les personnes extérieures à l’organisation à envoyer un e-mail à cette équipe » pour le groupe Microsoft 365 que vous spécifiez
 - **Numéro de téléphone externe** : n’importe quel numéro de téléphone. Consultez [les détails techniques du transfert externe](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details).
 - **Annonce (fichier audio)** : lire un fichier audio. Un message d’annonce enregistré que vous chargez et qui est enregistré en tant qu’audio dans . WAV, .MP3 ou . Format WMA. L’enregistrement ne peut pas dépasser 5 Mo. Le système lit l’annonce, puis retourne au menu du standard automatique.
 - **Annonce (typé)** : tapez un message. Texte que le système doit lire. Vous pouvez entrer jusqu’à 1 000 caractères. Le système lit l’annonce, puis retourne au menu du standard automatique.
@@ -50,12 +50,11 @@ Les standards automatiques peuvent rediriger les appels, en fonction de l’entr
 >
 > Bien que la définition d’un **opérateur** soit facultative, elle est recommandée. Les standards automatiques redirigent les appels vers l’opérateur en cas d’erreur dans la configuration du standard automatique en raison de la suppression d’un compte de messagerie vocale partagé ou d’utilisateur. Si aucun opérateur n’est défini, le standard automatique supprime l’appel.
 
-## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>Nouveautés des standards automatiques au cours des 6 derniers mois
- 
- - Septembre : **l’option Forcer l’écoute** est désormais disponible avec **l’option de menu Lecture** pour le flux d’appels, le flux d’appels pour les heures de travail et le flux d’appels pendant les jours fériés.
- - Août : **les options de menu Lecture** dans Flux d’appels, Flux d’appels pour les heures de travail et Flux d’appels pendant les jours fériés prennent désormais en charge \* les touches (astérisque) et \# (livre).
- - Juillet - Le flux d’appels pendant les jours fériés prend désormais en charge **les options de menu Lecture**.
- 
+## <a name="whats-new-for-auto-attendants-in-the-past-six-months"></a>Nouveautés des standards automatiques au cours des six derniers mois
+
+- Septembre : **l’option Forcer l’écoute** est désormais disponible avec **l’option de menu Lecture** pour le flux d’appels, le flux d’appels pour les heures de travail et le flux d’appels pendant les jours fériés.
+- Août : **les options de menu Lecture** dans Flux d’appels, Flux d’appels pour les heures de travail et Flux d’appels pendant les jours fériés prennent désormais en charge \* les touches (astérisque) et \# (livre).
+
 ## <a name="steps-to-create-an-auto-attendant"></a>Étapes de création d’un standard automatique
 Les étapes pour ajouter un standard automatique sont les suivantes :
 
@@ -82,7 +81,7 @@ Pour configurer un standard automatique, dans le [Centre d’administration Team
 
 3. Spécifiez le fuseau horaire de ce standard automatique. Le fuseau horaire est utilisé pour calculer les heures d’ouverture si vous [créez un flux d’appels distinct pour les heures d’ouverture.](?tabs=after-hours)
 
-4. Spécifiez une [langue prise en charge](create-a-phone-system-auto-attendant-languages.md) pour ce standard automatique. Il s’agit du langage qui sera utilisé pour les invites vocales générées par le système.
+4. Spécifiez une [langue prise en charge](create-a-phone-system-auto-attendant-languages.md) pour ce standard automatique. Ce langage sera utilisé pour les invites vocales générées par le système.
 
 5. Choisissez si vous souhaitez activer les entrées vocales. Lorsque cette option est activée, le nom de chaque option de menu devient un mot clé de reconnaissance vocale. Par exemple, les appelants peuvent dire « Un » pour sélectionner l’option de menu mappée à la clé 1, ou ils peuvent dire « Ventes » pour sélectionner l’option de menu nommée « Ventes ».
 
@@ -131,7 +130,7 @@ Pour chaque option de menu, spécifiez les paramètres suivants :
 
 ##### <a name="directory-search"></a>Recherche d’annuaires
 
-Si vous affectez des touches de numérotation à des destinations, nous vous recommandons de choisir **Aucun** pour **la recherche d’annuaire**. Si un appelant tente de composer un nom ou une extension à l’aide de clés affectées à des destinations spécifiques, il peut être routé de manière inattendue vers une destination avant d’avoir fini d’entrer le nom ou l’extension. Nous vous recommandons de créer un standard automatique distinct pour la recherche dans l’annuaire et d’y lier votre standard automatique principal à l’aide d’une touche de numérotation.
+Si vous affectez des touches de numérotation à des destinations, nous vous recommandons de choisir **Aucun** pour **la recherche d’annuaire**. Les touches de numérotation sont mises en correspondance avant que les recherches d’annuaire ne soient effectuées. Si un appelant commence à entrer un nom ou une extension à l’aide de touches de numérotation affectées à des destinations spécifiques, il est routé vers cette destination avant d’avoir fini d’entrer le nom ou l’extension. Nous vous recommandons de créer un standard automatique distinct pour la recherche dans l’annuaire et d’y lier votre standard automatique principal à l’aide d’une touche de numérotation.
 
 Si vous n’avez pas affecté de touches de numérotation, choisissez une option pour **la recherche dans l’annuaire**.
 
@@ -142,7 +141,7 @@ Si vous n’avez pas affecté de touches de numérotation, choisissez une option
 > [!NOTE]
 > Si vous souhaitez utiliser à la fois les fonctionnalités **Composer par nom** et **Composer par extension** , vous pouvez affecter une touche de numérotation sur votre standard automatique principal pour atteindre un standard automatique activé pour **Composer par nom**. Dans ce standard automatique, vous pouvez affecter la touche 1 (qui n’est associée à aucune lettre) pour atteindre le standard automatique **Numérotation par extension** .
 
-Pour plus d’informations, reportez-vous aux [informations de référence sur la numérotation et la voix](dial-voice-reference.md).
+Pour plus d’informations, consultez les [informations de référence sur la numérotation et la voix](dial-voice-reference.md).
 
 Une fois que vous avez défini vos options de flux d’appels de base, sélectionnez **Suivant**.
 
@@ -153,10 +152,10 @@ Une fois que vous avez défini vos options de flux d’appels de base, sélectio
 Les heures d’ouverture peuvent être définies pour chaque standard automatique.
 
 - Si ce n'est pas le cas, tous les jours et toutes les heures de la semaine seront considérés comme heures d'ouverture, car une planification 24/24 est définie par défaut.
-- Les heures d’ouverture peuvent être définies avec des pauses dans le temps pendant la journée, et toutes les heures qui ne sont pas définies comme des heures d’ouverture sont considérées après les heures d’ouverture.
+- Les heures d’ouverture peuvent être définies avec des pauses dans le temps pendant la journée, et toutes les heures qui ne sont pas définies comme des heures d’ouverture sont considérées comme des heures d’ouverture.
 - Vous pouvez définir différentes options et salutations de gestion des appels entrants pour les heures d’ouverture.
 
-Selon la façon dont vous avez configuré vos standards automatiques et vos files d’attente d’appels, vous devrez peut-être uniquement spécifier le routage des appels après les heures de travail pour les standards automatiques avec des numéros de téléphone directs.
+Selon la façon dont vous avez configuré vos standards automatiques et vos files d’attente d’appels, vous devrez peut-être uniquement spécifier le routage des appels après les heures d’ouverture pour les standards automatiques avec des numéros de téléphone directs.
 
 Si vous souhaitez un routage d’appel distinct pour les appelants après les heures d’ouverture, spécifiez vos heures d’ouverture pour chaque jour.
 
@@ -201,7 +200,7 @@ Une fois que vous avez ajouté toutes vos heures de vacances, sélectionnez **Su
 
 *L’étendue de numérotation* définit les utilisateurs disponibles dans l’annuaire lorsqu’un appelant utilise la numérotation par nom ou la numérotation par extension. La valeur par défaut **de Tous les utilisateurs en ligne** inclut tous les utilisateurs de votre organisation qui sont des utilisateurs en ligne ou hébergés localement à l’aide de Skype Entreprise Server.
 
-Vous pouvez inclure ou exclure des utilisateurs spécifiques en sélectionnant **Groupe d’utilisateurs personnalisé** sous **Inclure** ou **Exclure** et en choisissant un ou plusieurs groupes Microsoft 365 groupes, listes de distribution ou groupes de sécurité. Par exemple, vous souhaiterez peut-être exclure les cadres de votre organisation de l’annuaire de numérotation.
+Vous pouvez inclure ou exclure des utilisateurs spécifiques en sélectionnant **Groupe d’utilisateurs personnalisé** sous **Inclure** ou **Exclure** et en choisissant un ou plusieurs groupes Microsoft 365, listes de distribution ou groupes de sécurité. Par exemple, vous souhaiterez peut-être exclure les cadres de votre organisation de l’annuaire de numérotation.
 
 Si un utilisateur figure dans les deux listes, il est exclu de l’annuaire.
 
@@ -220,7 +219,7 @@ Pour ajouter un compte de ressource, sélectionnez **Ajouter un compte** et rech
 
 Une fois que vous avez ajouté des comptes de ressources, sélectionnez **Suivant**.
 
-Pour plus d’informations, consultez [Gérer les comptes de ressources Teams](manage-resource-accounts.md) .
+Pour plus d’informations, consultez [Gérer les comptes de ressources Teams](manage-resource-accounts.md).
 
 ---
 
@@ -228,7 +227,7 @@ Pour plus d’informations, consultez [Gérer les comptes de ressources Teams](m
 
 ### <a name="external-phone-number-transfers---technical-details"></a>Transferts de numéros de téléphone externes - Détails techniques
 
-Reportez-vous aux [conditions préalables](plan-auto-attendant-call-queue.md#prerequisites) pour permettre aux standards automatiques de transférer des appels en externe.  De plus,:
+Reportez-vous aux [conditions préalables](plan-auto-attendant-call-queue.md#prerequisites) pour permettre aux standards automatiques de transférer des appels en externe.  De plus,
 
 - Pour un compte de ressource avec une [licence de forfait d’appels](calling-plans-for-office-365.md) ou un numéro de [connexion](operator-connect-plan.md) opérateur, le numéro de téléphone de transfert externe doit être entré au format E.164 (+[indicatif de pays][indicatif régional][numéro de téléphone]).
 
@@ -238,7 +237,7 @@ Le numéro de téléphone sortant affiché est déterminé comme suit :
 
 - Pour les numéros Forfait d’appels et Connexion d’opérateur, le numéro de téléphone de l’appelant d’origine s’affiche.
 - Pour les numéros de routage direct, le nombre envoyé est basé sur le paramètre P-Asserted-Identity (PAI) sur le SBC, comme suit :
-  - S’il est défini sur Désactivé, le numéro de téléphone de l’appelant d’origine s’affiche. Il s’agit du paramètre par défaut et recommandé.
+  - S’il est défini sur Désactivé, le numéro de téléphone de l’appelant d’origine s’affiche. Désactivé est le paramètre par défaut et recommandé.
   - Si la valeur est Activée, le numéro de téléphone du compte de ressource s’affiche.
 
 Dans un environnement hybride Skype Entreprise, pour transférer un appel de standard automatique vers le RTC, créez un utilisateur local avec le transfert d’appel défini sur le numéro RTC. L’utilisateur doit être activé pour Téléphonie – Grandes entreprises et une stratégie de voix doit être affectée. Pour plus d’informations, consultez [Transfert d’appel de standard automatique vers PSTN](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
@@ -254,9 +253,9 @@ Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suiva
 
 2. Dans le volet Exécuter le diagnostic, entrez le compte de ressource dans le champ **Nom d’utilisateur ou Email**, puis sélectionnez **Exécuter les tests**.
 
-3. Les tests identifient les configurations de locataire, de stratégie ou de compte de ressources qui empêchent le standard automatique de recevoir des appels et fournissent des étapes pour résoudre les problèmes identifiés.
+3. Les tests identifient les configurations de compte de locataire, de stratégie ou de ressource qui empêchent le standard automatique de recevoir des appels et fournissent également des étapes pour résoudre les problèmes identifiés.
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-articles"></a>Articles connexes
 
 [Voici ce que vous obtenez avec Téléphone Teams](./here-s-what-you-get-with-phone-system.md)
 

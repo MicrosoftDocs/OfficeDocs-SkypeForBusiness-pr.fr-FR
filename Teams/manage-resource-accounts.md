@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: Dans cet article, vous allez apprendre à créer, modifier et gérer des comptes de ressources dans Microsoft Teams.
-ms.openlocfilehash: 3ac03e8531457d21d2988db0a86ca8bdca367f0a
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: 2bc0642f20341b9818b1c407fa0294127ee44d6a
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392204"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763575"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -65,11 +65,9 @@ Les ID d’application que vous devez utiliser lors de la création des instance
 
 Pour les implémentations hybrides avec Skype Entreprise Server :
 
-   [Planifier les standards automatiques cloud](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
-
-   [Planifier les files d’attente d’appels cloud](/SkypeforBusiness/hybrid/plan-call-queue)
-
-   [Configurer des comptes de ressources locaux](/SkypeForBusiness/hybrid/configure-onprem-ra)
+- [Planifier les standards automatiques cloud](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant).
+- [Planifier les files d’attente d’appels cloud](/SkypeforBusiness/hybrid/plan-call-queue).
+- [Configurez des comptes de ressources locaux](/SkypeForBusiness/hybrid/configure-onprem-ra).
 
 ## <a name="delete-a-resource-account"></a>Supprimer un compte de ressource
 
@@ -82,3 +80,118 @@ Pour dissocier un numéro de téléphone de routage direct du compte de ressourc
 ```powershell
 Remove-CsPhoneNumberAssignment -Identity <Resource Account Object ID> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
 ```
+
+## <a name="hide-resource-accounts-from-teams-users"></a>Masquer les comptes de ressources des utilisateurs Teams
+
+Vous souhaiterez peut-être masquer certains comptes de ressources aux utilisateurs Teams. Par exemple, vous pouvez empêcher les utilisateurs de Teams d’appeler directement une file d’attente d’appels et de contourner le standard automatique où les heures d’opération sont configurées.
+
+[Les barrières à l’information](information-barriers-in-teams.md) sont utilisées pour masquer les comptes de ressources.  Passez en revue la documentation sur les obstacles à l’information pour comprendre les impacts possibles avant de procéder aux étapes ci-dessous.
+
+### <a name="required-subscriptions-and-permissions"></a>Abonnements et autorisations requis 
+
+Pour accéder aux obstacles à l’information et les utiliser, votre organisation doit disposer de l’un des abonnements ou modules complémentaires suivants : 
+
+-   abonnement Microsoft 365 E5/A5 (version payante ou d’évaluation).
+-   Abonnement Office 365 E5/A5/A3/A1 (version payante ou d’évaluation).
+-   Conformité avancée Office 365 module complémentaire.
+-   Abonnement Microsoft 365 E3/A3/A1 + module complémentaire conformité Microsoft 365 E5/A5.
+- abonnement Microsoft 365 E3/A3/A1 + le module complémentaire gestion des risques internes Microsoft 365 E5/A5.
+
+> [!NOTE]
+> Si vous avez déjà [Exchange Online](/exchange/address-books/address-book-policies/address-book-policies) stratégies de carnet d’adresses configurées, elles doivent être supprimées avant de procéder aux étapes ci-dessous.   
+> 
+> Toutes les étapes ci-dessous sont effectuées par l’administrateur général du locataire. 
+>   
+> Ces instructions supposent qu’il n’y a pas d’autres obstacles à l’information configurés.
+
+#### <a name="teams-admin-center"></a>Centre d’administration Microsoft Teams
+
+1. Connectez-vous au [Centre d’administration Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+2. Dans le menu de gauche, développez **Teams**.
+3. Sélectionnez **Paramètres Teams**. 
+4. Faites défiler vers le bas jusqu’à **Rechercher par nom**.
+5. Activez le bouton bascule et enregistrez la modification.
+
+Pour plus d’informations sur cette option, consultez [Limiter les utilisateurs qui peuvent voir lors de la recherche dans l’annuaire dans Teams](teams-scoped-directory-search.md).
+
+#### <a name="compliance---auditing"></a>Conformité - Audit
+
+1. Connectez-vous au [portail de conformité Microsoft Purview](https://compliance.microsoft.com/).
+2. Dans le volet de navigation gauche, sélectionnez **Auditer**.
+3. Si l’audit est désactivé, la bannière suivante s’affiche : 
+ 
+     :::image type="content" source="/microsoft-365/media/AuditingBanner.png" alt-text="Capture d’écran montrant la bannière d’audit si l’audit n’est pas activé":::
+  
+4. Sélectionnez **Démarrer l’enregistrement de l’activité utilisateur et administrateur**. 
+
+Pour plus d’informations sur l’audit, consultez [Configurer l’audit (standard) dans Microsoft 365](/microsoft-365/compliance/audit-standard-setup).
+
+#### <a name="segmenting-data"></a>Segmentation des données
+
+Les comptes de ressources qui ne doivent pas être appelés directement doivent être segmentés et facilement identifiables.  Cela peut être fait en les rendant membres d’un groupe particulier ou par des informations uniques dans leur profil utilisateur, telles que : 
+
+-   Société
+-   Nom d’utilisateur principal
+-   Lieu
+-   Service
+-   Emplacement d’utilisation
+-   Surnom du courrier (alias)
+-   Nom du bureau de livraison physique (Office)
+-   Code postal
+-   Adresse proxy (adresse Email)
+-   Adresse postale
+-   Adresse cible (ExternalEmailAddress)
+-   Mail (WindowsEmailAddress)
+-   Description
+
+Dans l’exemple d’étapes ci-dessous, le `Department` champ sera utilisé. 
+
+Pour plus d’informations sur la segmentation des utilisateurs, consultez  [Identifier les segments](/microsoft-365/compliance/information-barriers-policies).
+
+#### <a name="microsoft-admin-center"></a>Centre d’administration Microsoft
+
+1. Connectez-vous au [Centre Administration Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+2. Dans le volet de navigation gauche, sélectionnez **Utilisateurs actifs**.
+3. Sélectionnez le premier compte de ressource auquel bloquer les appels directs.
+4. Sélectionnez **Gérer les informations de contact** dans le volet droit.
+5. Remplacez le contenu du `Department` champ par un mot ou un acronyme unique qui n’est pas utilisé comme nom de service. Par exemple, `DNC`.
+6. Enregistrez les modifications.
+7. Répétez cette opération pour chaque compte de ressource qui doit être bloqué pour recevoir des appels directs.
+
+#### <a name="compliance---information-barriers"></a>Conformité - Obstacles à l’information
+
+1. Connectez-vous au [portail de conformité Microsoft Purview](https://compliance.microsoft.com/).
+2. Dans le volet de navigation gauche, sélectionnez Barrières  > **d’informations****Segments**.
+3. Sélectionnez **Nouveau segment**.
+4. Entrez un nom pour le segment, puis sélectionnez **Suivant**. Par exemple, `Uncallable Resource Accounts`.
+5. Sélectionnez **+ Ajouter**, puis **Département**.
+6. Entrez le mot ou l’acronyme unique utilisé dans l’étape 5 du Centre d’administration Microsoft ci-dessus. Par exemple, `DNC`.
+7. Sélectionnez **Suivant**, puis **Envoyer**.
+8. Sélectionnez **Nouveau segment**.
+9. Entrez un nom pour le segment, puis sélectionnez **Suivant**. Par exemple, `Callable Users`.
+10. Sélectionnez **+ Ajouter**, puis **Département**.
+11. Sélectionnez la liste déroulante **Égal** à, puis sélectionnez **Non égal à**.
+12. Entrez le mot ou l’acronyme unique utilisé dans l’étape 5 du Centre d’administration Microsoft ci-dessus. Par exemple, `DNC`.
+13. Sélectionnez **Suivant**, puis **Envoyer**. 
+14. Dans le volet de navigation gauche, sélectionnez **Stratégies d’obstacles à l’information** > **.**
+15. Sélectionnez **Créer une stratégie**.
+16. Entrez un nom pour la stratégie, puis sélectionnez **Suivant**. Par exemple, `Uncallable Resource Accounts`.
+17. Sélectionnez **+ Choisir un segment**, ajoutez le segment créé à l’étape 9 ci-dessus, puis sélectionnez **Suivant**. Par exemple, `Callable Users`.
+18. Sélectionnez **Bloqué dans** la liste déroulante **Communication et collaboration** .
+19. Sélectionnez **+ Choisir un segment**, ajoutez le segment créé à l’étape 4 ci-dessus, puis sélectionnez **Suivant**. Par exemple, `Uncallable Resource Accounts`.
+20. Définissez la stratégie **sur Activé**, sélectionnez **Suivant**, puis **Envoyer**.
+21. Sélectionnez **Créer une stratégie**.
+22. Entrez un nom pour la stratégie, puis sélectionnez **Suivant**. Par exemple, `Callable Users`.
+23. Sélectionnez **+ Choisir un segment**, ajoutez le segment créé à l’étape 4, puis sélectionnez **Suivant**.
+24. Sélectionnez **Bloqué dans** la liste déroulante **Communication et collaboration** . 
+25. Sélectionnez **+ Choisir un segment**, ajoutez le segment créé à l’étape 9 ci-dessus, puis sélectionnez **Suivant**.
+26. Définissez la stratégie **sur Activé**, sélectionnez **Suivant**, puis **Envoyer**.
+27. Dans le volet de navigation gauche, sélectionnez **Informations barrières** > **Application de stratégie**.
+28. Sélectionnez **Appliquer toutes les stratégies**.
+
+> [!NOTE]
+> L’application de la stratégie peut prendre 30 minutes ou plus.  
+> 
+> Une fois l’état terminé, accédez au Client Teams et essayez de rechercher les comptes de ressources qui ont été bloqués. Il peut être nécessaire d’effacer le cache Teams.  
+> 
+> Si un utilisateur Teams a enregistré le compte de ressource en tant que contact, il ne pourra plus l’appeler.
