@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1818a4eee46cca88c873af35278453ab84b1341
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: cd5a1064c4a0104a4eab6d25a3adb0614c12d256
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198956"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69779054"
 ---
 # <a name="use-nonprofit-team-templates"></a>Utiliser les modèles d’équipe pour les associations
 
@@ -33,21 +33,22 @@ Les modèles d’équipe dans Microsoft Teams vous permettent de créer rapidem
 
 Pour les organisations à but non lucratif, les modèles d’équipe peuvent être particulièrement puissants, car ils vous aident à déployer rapidement des équipes cohérentes au sein de votre organisation. Les modèles aident également le personnel à s’orienter dans l’utilisation efficace de Teams.
 
-Teams inclut un modèle d’équipe de gestion des bénévoles conçu pour simplifier les activités de gestion de bénévoles. Utilisez ce modèle pré-conçu pour créer rapidement des équipes pour le personnel afin de communiquer et de collaborer sur des tâches et des activités de gestion de volontariat.
+Teams inclut un modèle d’équipe Gérer les bénévoles conçu pour simplifier les activités de gestion des bénévoles. Utilisez ce modèle pré-conçu pour créer rapidement des équipes pour le personnel afin de communiquer et de collaborer sur des tâches et des activités de gestion de volontariat.
 
-Dans cet article, vous allez découvrir le modèle d’équipe de gestion des bénévoles et comment l’utiliser pour créer une équipe. Cet article vous donne également une vue d’ensemble de la gestion des modèles d’équipe dans le centre d’administration Teams.
+Dans cet article, vous allez découvrir le modèle d’équipe Gérer les bénévoles et comment l’utiliser pour créer une équipe. Cet article vous donne également une vue d’ensemble de la gestion des modèles d’équipe dans le centre d’administration Teams.
 
-## <a name="manage-volunteers-team-template"></a>Modèle d’équipe de gestion des bénévoles
+## <a name="manage-volunteers-team-template"></a>Modèle d’équipe Gérer les bénévoles
 
 Rassemblez votre personnel pour communiquer et collaborer sur des tâches et des activités de gestion de bénévoles.
 
 Ce modèle inclut des canaux et des applications conçus pour simplifier les activités de gestion de bénévoles. Les membres du personnel peuvent organiser et partager les supports d’intégration et les documents fréquemment utilisés, consulter les rapports, se tenir au courant des annonces importantes concernant l’équipe et les événements, etc. Le modèle est également intégré à la [Gestion des bénévoles](/dynamics365/industry/nonprofit/volunteer-management-use), une application qui fait partie de [Microsoft Cloud pour les associations](/industry/nonprofit/), permettant aux membres du personnel de gérer les opportunités d’engagement de bénévole au sein de Teams.
 
-Voici les canaux et applications qui sont disponibles avec le modèle d’équipe gestion des bénévoles.
+Voici les canaux et les applications fournis avec le modèle d’équipe Gérer les bénévoles.
 
-| Type de modèle |TemplateId | Propriétés fournies avec ce modèle de base |
-| ------------------|-- |----------------------------------------------------- |
-|Gérer les bénévoles| `ManageVolunteers` |Canaux : <ul><li>Général<ul><li>Site web&sup1;</li></ul><li>Annonces</li><li>Rapports<ul><li>Power BI&sup1;</li></ul></li><li>Gestion des bénévoles<ul><li>Power Apps&sup1;</li></ul></li><li>Opportunités d’engagement<ul><li>Tâches&sup1;</li></ul></li><li>Intégration des volontaires<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul> Applications : <ul><li>Site web</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Tâches</li><li>Microsoft Office SharePoint Online</li><li>OneNote</li></ul>|
+>[!div class="mx-tdBreakAll"]
+>| Type de modèle |TemplateId | Propriétés fournies avec ce modèle de base |
+>| ------------------|-- |----------------------------------------------------- |
+>|Gérer les bénévoles| `com.microsoft.teams.template.ManageVolunteers` |Canaux : <ul><li>Général<ul><li>Site web&sup1;</li></ul><li>Annonces</li><li>Rapports<ul><li>Power BI&sup1;</li></ul></li><li>Gestion des bénévoles<ul><li>Power Apps&sup1;</li></ul></li><li>Opportunités d’engagement<ul><li>Tâches par planificateur et à faire&sup1;</li></ul></li><li>Intégration des volontaires<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul>Applications : <ul><li>OneNote</li><li>Power Apps</li><li>Power BI</li><li>Microsoft Office SharePoint Online</li><li>Tâches par planificateur et à faire</li><li>Site web</li><li>YouTube</li></ul>|
 
 &sup1; Application ajoutée au canal en tant qu’onglet.
 

@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 096bab4289d5ac9e81c63f83cd73efd41d98e7be
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 4ea67bec0fd8750e32ebb5f65d0258fa7c172a46
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198687"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778944"
 ---
 # <a name="use-financial-team-templates"></a>Utiliser des modèles d’équipe financiers
 
@@ -50,27 +50,27 @@ Pour en savoir plus sur les modèles d’équipe en général, voir [Commencer �
 
 Nous proposons actuellement les modèles d’équipe pré-intégrés suivants pour les organisations de services financiers. Pour les afficher, dans le volet de navigation gauche du centre d'administration Teams, accédez à **Modèles d’équipes** >  **Teams**.
 
-### <a name="collaborate-within-a-bank-branch"></a>Collaborer au sein d’une filiale bancaire
+### <a name="bank-branch"></a>Succursale bancaire
 
 Centralisez la collaboration pour les employés de votre agence bancaire lors de réunions, de rencontres de clients, de processus commerciaux tels que la collaboration sur le crédit, et gardez tout le monde au courant par des annonces et des félicitations.
 
-| Type de modèle |TemplateId| Propriétés fournies avec ce modèle de base |
-| ------------------ |--|----------------------------------------------------- |
-|Agence bancaire| `CollaborateWithinABankBranch`|Canaux : <ul><li>Général<li>Annonces</li><li>Blotti</li><li>Réunions avec des clients</li><li>Demande d’approbation </li><li>Accompagnement</li><li>Développement de compétences</li><li>Traitement des emprunts</li><li>Réclamations des clients</li><li>Félicitations</li><li>Outils amusants</li><li>Conformité</li></ul>Applications :<ul><li>Compliment </li><li>Signalement de problèmes</li><li>Page Wiki</li><li>Calendrier</li><li>Approbations</li><li>Bulletins</li><li>Idées</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>| Type de modèle |TemplateId| Propriétés fournies avec ce modèle de base |
+>| ------------------ |--|----------------------------------------------------- |
+>|Succursale bancaire| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Canaux : <ul><li>Général<li>Annonces</li><li>Blotti</li><li>Réunions client</li><li>Demande d’approbations </li><li>Accompagnement</li><li>Développement des compétences</li><li>Traitement des prêts</li><li>Plaintes des clients</li><li>Félicitations</li><li>Trucs amusants</li><li>Conformité</li></ul>Applications :<ul><li>Approbations</li><li>Bulletins</li><li>Calendrier du canal</li><li>Idées des employés</li><li>Signalement des problèmes</li><li>Compliment</li><li>Shifts</li><li>Wiki</li></ul>|
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Utiliser les modèles Teams avec Microsoft Graph
 
 Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0&preserve-view=true), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0&preserve-view=true).
 
-### <a name="bank-branch"></a>Agence bancaire
+### <a name="bank-branch"></a>Succursale bancaire
 
 Centralisez la collaboration pour les employés de votre agence bancaire lors de réunions, de rencontres de clients, de processus commerciaux tels que la collaboration sur le crédit, et gardez tout le monde au courant par des annonces et des félicitations.
 
-| Type de modèle |TemplateId| Canaux modèles |
-| ------------------ |--|----------------------------------------------------- |
-|Agence bancaire|`https://graph.microsoft.com/beta/teamsTemplates('CollaborateWithinABankBranch')`|Général<br>Annonces<br>Blotti<br>Réunions avec des clients<br>Demande d’approbation<br>Accompagnement<br>Développement de compétences<br>Traitement des emprunts<br>Réclamations des clients<br>Félicitations<br>Outils amusants<br>Conformité|
-||||
+>[!div class="mx-tdBreakAll"]
+>| Type de modèle |TemplateId| Canaux modèles |
+>| ------------------ |--|----------------------------------------------------- |
+>|Succursale bancaire|`https://graph.microsoft.com/beta/teamsTemplates('CollaborateWithinABankBranch')`|Général<br>Annonces<br>Blotti<br>Réunions client<br>Demande d’approbations<br>Accompagnement<br>Développement des compétences<br>Traitement des prêts<br>Plaintes des clients<br>Félicitations<br>Trucs amusants<br>Conformité|
 
 > [!NOTE]
 > Pour obtenir des modèles d’équipe supplémentaires qui s’appliquent aux organisations, consultez [modèles d’équipe intégrés à Microsoft Graph pour les petites moyennes entreprises](smb-templates.md).

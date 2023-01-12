@@ -24,12 +24,12 @@ appliesto:
 ms.reviewer: yinchang
 description: Découvrez comment gérer et utiliser les modèles d’équipe médicale dans le Centre d’administration Teams et avec Microsoft Graph pour créer rapidement et facilement des équipes pour votre organisation de services de santé.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a80d36b51d3f45ca906525d93e502dbfbba1cb6d
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: 17f5ce2774dd163f5f244bea0e685623f64ed59f
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131073"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778964"
 ---
 # <a name="use-healthcare-team-templates"></a>Utiliser des modèles d’équipe médicale
 
@@ -53,52 +53,52 @@ En tant qu’administrateur, vous pouvez gérer des modèles d’équipe dans le
 Pour en savoir plus sur les modèles d’équipe en général, voir [Commencer à utiliser les modèles d’équipe dans le Centre d'administration Teams](../../get-started-with-teams-templates-in-the-admin-console.md).
 
 Nous proposons actuellement les modèles pré-intégrés d’équipe de services de santé suivants. Pour les afficher, dans le navigation gauche du Centre d'administration Teams, accédez à **Modèles d’équipe** > **Teams**.
-### <a name="patient-care"></a>Soins du patient
 
- Ce modèle est destiné à la communication et à la collaboration au sein d'une unité, d'un service ou d'un département. Vous pouvez utiliser ce modèle pour faciliter la gestion des patients et les besoins opérationnels d’une unité. Par exemple, publiez des annonces d’unité dans le canal *Annonces* et gérez les shifts dans le canal *Personnel*.
+### <a name="patient-care"></a>Soins aux patients
 
-| Type de modèle |TemplateId| Propriétés fournies avec ce modèle de base |
-| ------------------ |---|----------------------------------------------------- |
-| Soins du patient |`healthcareWard` | Canaux :<ul><li>Général</li><li>Annonces<ul><li>Bulletins&sup1;</li></ul></li><li>Comités restreints<ul><li>Listes (liste des patients) &sup1;</li></ul></li><li>Rondes<ul><li>Inspection&sup1;</li></ul></li><li>Personnel</li><li>Formation</li></ul> Applications : <ul><li>Wiki</li><li>Listes</li><li>Tâches</li><li>Approbations</li><li>Shifts</li><li>Bulletins</li><li>Inspection</li></ul>|
-||||
+Simplifiez la communication et la collaboration en matière de soins de santé au sein d'un service, d'une unité ou d'un département. Utilisez ce modèle pour faciliter la gestion des patients et les besoins opérationnels d’un service. Par exemple, publiez des annonces d’unité dans le canal *Annonces* et gérez les shifts dans le canal *Personnel*.
 
-&sup1; Application ajoutée au canal en tant qu’onglet
+>[!div class="mx-tdBreakAll"]
+>| Type de modèle |TemplateId| Propriétés fournies avec ce modèle de base |
+>| ------------------ |---|----------------------------------------------------- |
+>| Soins aux patients |`healthcareWard` | Canaux :<ul><li>Général</li><li>Annonces</li><li>Blotti</li><li>Rondes</li><li>Personnel</li><li>Formation</li></ul> Applications : <ul><li>Approbations</li><li>Bulletins</li><li>Inspection</li><li>Listes</li><li>Shifts</li><li>Tâches par planificateur et à faire</li><li>Wiki</li></ul>|
+
 ### <a name="hospital"></a>Hôpital
 
-Ce modèle est destiné à la communication et à la collaboration entre les différents services, unités et départements d'un hôpital. Ce modèle comprend un ensemble de canaux pour les opérations hospitalières et peut être étendu pour inclure des spécialités.
+Simplifiez la communication et la collaboration entre plusieurs salles, services et départements d'un hôpital. Ce modèle comprend un ensemble de canaux pour les opérations hospitalières et peut être étendu pour inclure des spécialités.
 
-| Type de modèle |TemplateId | Propriétés fournies avec ce modèle de base |
-| ------------------|-- |----------------------------------------------------- |
-|Hôpital|`healthcareHospital`|Canaux : <ul><li>Général<ul><li>Listes&sup1;</li></ul></li><li>Annonces<ul><li>Bulletins&sup1;</li></ul></li><li>Conformité</li><ul><li>Inspection&sup1;</li></ul></li><li>Consignataires</li><li>Ressources humaines<ul><li>Idées&sup1;</li></ul></li><li>Pharmacie</li></ul> Applications : <ul><li>Wiki</li><li>Tâches</li><li>Listes</li><li>Approbations</li><li>Shifts</li><li>Bulletins</li><li>Inspection</li><li>Idées</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>| Type de modèle |TemplateId | Propriétés fournies avec ce modèle de base |
+>| ------------------|-- |----------------------------------------------------- |
+>|Hôpital|`healthcareHospital`|Canaux : <ul><li>Général</li><li>Annonces</li><li>Conformité</li></li><li>Consignataires</li><li>Ressources humaines</li><li>Pharmacie</li></ul>  Applications : <ul><li>Approbations</li><li>Bulletins</li><li>Idées des employés</li><li>Inspection</li><li>Listes</li><li>Shifts</li><li>Tâches par planificateur et à faire</li><li>Wiki</li></ul>|
 
-&sup1; Application ajoutée au canal en tant qu’onglet
 ## <a name="use-team-templates-with-microsoft-graph"></a>Utiliser les modèles Teams avec Microsoft Graph
 
 Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview), and [teamsTemplate resource type](/graph/api/resources/teamstemplate).
 
 Voici les modèles pré-intégrés de l’équipe de santé.
-### <a name="ward"></a>Unité
 
-Le modèle d’unité est destiné à la communication et à la collaboration au sein d'une unité, d'un service ou d'un département. Ce modèle peut être utilisé pour faciliter la gestion des patients et les besoins opérationnels d'un service. Par exemple, les annonces de recherche peuvent être publiées dans le canal *Annonces* et les Plannings peuvent être gérés dans *Staffing*. Si vous cherchez à simplifier les opérations de présentation, ce modèle est fait pour vous.
+### <a name="patient-care"></a>Soins aux patients
 
-|Type de modèle |TemplateId |Canaux modèles|
-|:--- |:---|:---|
-|Services de santé : unité | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Général<br>Annonces&sup2; <br> Comités restreints&sup2; <br> Rondes&sup2; <br> Personnel&sup2; <br> Formation&sup2; |
-|     | |         |
+Ce modèle est destiné à la communication et à la collaboration au sein d'une unité, d'un service ou d'un département. Utilisez ce modèle pour faciliter la gestion des patients et les besoins opérationnels d’un service. Par exemple, les annonces de recherche peuvent être publiées dans le canal *Annonces* et les Plannings peuvent être gérés dans *Staffing*. Si vous cherchez à simplifier les opérations de présentation, ce modèle est fait pour vous.
+
+>[!div class="mx-tdBreakAll"]
+>|Type de modèle |TemplateId |Canaux modèles|
+>|:--- |:---|:---|
+>|Services de santé : unité | `https://graph.microsoft.com/beta/teamsTemplates('healthcareWard')`   | Général<br>Annonces&sup2; <br> Comités restreints&sup2; <br> Rondes&sup2; <br> Personnel&sup2; <br> Formation&sup2; |
 
 &sup2; Canaux favoris automatiques
 
 ### <a name="hospital"></a>Hôpital
 
-Le modèle d'hôpital est destiné à la communication et à la collaboration entre les différents services, unités et départements au sein d'un hôpital. Ce modèle inclut plusieurs canaux opérationnels tels que *Annonces*, *Gardes* et *Pharmacie*. Nous fournissons également un script que vous pouvez utiliser pour étendre le modèle à d’autres services ou canaux de spécialisation. Vous pouvez le modifier selon vos besoins.
+Ce modèle est destiné à la communication et à la collaboration entre les différents services, unités et départements d'un hôpital. Il comprend plusieurs canaux opérationnels tels que *les annonces*, *la garde* et la *pharmacie*. Nous fournissons également un script que vous pouvez utiliser pour étendre le modèle à d’autres services ou canaux spécialisés. Vous pouvez le modifier selon vos besoins.
 
-Par exemple, si vous avez un service *Endocrinologie*, mais que vous n’avez pas besoin d’un canal pour *Ophtalmologie*, le script peut être adapté afin d’inclure un canal *Endocrinologie* et de supprimer le canal *Ophtalmologie*. Nous vous recommandons de ne pas faire attention à ces canaux de spécialité ou à modélisation automatique afin d’éviter une saturation des notifications. Les utilisateurs préfèrent généralement tous les canaux qu’ils trouvent pertinents.
+Par exemple, si vous avez un service *d’endocrinologie* , mais que vous n’avez pas besoin d’un canal pour *l’ophtalmologie*, vous pouvez adapter le script pour inclure un canal *d’endocrinologie* et supprimer le canal *Ophtalmologie* . Nous vous recommandons de ne pas faire attention à ces canaux de spécialité ou à modélisation automatique afin d’éviter une saturation des notifications. Les utilisateurs préfèrent généralement tous les canaux qu’ils trouvent pertinents.
 
-|Type de modèle |TemplateId |Canaux modèles|
-|:--- |:---|:---|
-|Services de santé : hôpital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Général<br>Annonces&sup2; <br> Conformité&sup2; <br> Consignataires <br> Ressources humaines <br> Pharmacie |
-| | |  |
+>[!div class="mx-tdBreakAll"]
+>|Type de modèle |TemplateId |Canaux modèles|
+>|:--- |:---|:---|
+>|Services de santé : hôpital | `https://graph.microsoft.com/beta/teamsTemplates('healthcareHospital')`   | Général<br>Annonces&sup2; <br> Conformité&sup2; <br> Consignataires <br> Ressources humaines <br> Pharmacie |
 
 &sup2; Canaux favoris automatiques
 
