@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: Découvrez comment créer, modifier et ajouter des utilisateurs à des stratégies d’appel personnalisées dans Microsoft Teams, ainsi que différents paramètres de stratégie d’appel.
+description: Découvrez comment créer, modifier et ajouter des utilisateurs à des stratégies d’appel personnalisées dans Microsoft Teams, ainsi que divers paramètres de stratégie d’appel.
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a02df903574c7e7db796294ad90c9e05ab732eb0
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: a478e203ed973ff2199b4ad500de0441e200918d
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245747"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69781447"
 ---
 # <a name="calling-policies-calling-and-call-forwarding-features-in-teams"></a>Stratégies d’appel : fonctionnalités d’appel et de transfert d’appel dans Teams
 
@@ -37,7 +37,7 @@ Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’o
 
 Suivez ces étapes pour créer une stratégie d’appel personnalisée.
 
-1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez à **Stratégies d’appel vocal** > .
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Stratégies d’appel vocal** > .
 2. Sélectionnez **Ajouter**.
 3. Activez ou désactivez les fonctionnalités que vous souhaitez utiliser dans votre stratégie d’appel.
     - Par exemple, pour contrôler si les utilisateurs peuvent acheminer les appels entrants vers la messagerie vocale, sélectionnez **Activé** ou **Contrôlé par l’utilisateur**. Pour empêcher le routage vers la messagerie vocale, sélectionnez **Non activé**.
@@ -61,23 +61,23 @@ Voici les paramètres que vous pouvez configurer pour les stratégies d’appel.
 
 ### <a name="make-private-calls"></a>Passer des appels privés
 
-Ce paramètre contrôle toutes les fonctionnalités d’appel dans Teams. Désactivez cette option pour désactiver toutes les fonctionnalités d’appel dans Teams.
+Ce paramètre contrôle toutes les fonctionnalités d’appel dans Teams. Désactivez ce paramètre pour désactiver toutes les fonctionnalités d’appel dans Teams.
 
 ### <a name="cloud-recording-for-calling"></a>Enregistrement cloud pour l’appel
 
-Ce paramètre contrôle si les utilisateurs peuvent enregistrer des appels. Cette option est désactivée par défaut.
+Ce paramètre contrôle si les utilisateurs peuvent enregistrer des appels. Ce paramètre est désactivé par défaut.
 
 ### <a name="transcription"></a>Transcription
 
-Ce paramètre contrôle si la transcription des appels est disponible pour vos utilisateurs. Cette option est désactivée par défaut.
+Ce paramètre contrôle si la transcription des appels est disponible pour vos utilisateurs. Ce paramètre est désactivé par défaut.
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>Transfert d’appel et sonnerie simultanée aux personnes de votre organisation
 
-Ce paramètre contrôle si les appels entrants peuvent être transférés à d’autres utilisateurs ou sonner une autre personne de votre organisation en même temps. Cette option est activée par défaut.
+Ce paramètre contrôle si les appels entrants peuvent être transférés à d’autres utilisateurs ou sonner une autre personne de votre organisation en même temps. Ce paramètre est activé par défaut.
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>Transfert d’appel et sonnerie simultanée vers des numéros de téléphone externes
 
-Ce paramètre contrôle si les appels entrants peuvent être transférés à un numéro externe ou sonner un numéro externe en même temps. Cette option est activée par défaut.
+Ce paramètre contrôle si les appels entrants peuvent être transférés à un numéro externe ou sonner un numéro externe en même temps. Ce paramètre est activé par défaut.
 
 ### <a name="voicemail-is-available-for-routing-inbound-calls"></a>La messagerie vocale est disponible pour le routage des appels entrants
 
@@ -89,7 +89,7 @@ Ce paramètre permet d’envoyer des appels entrants à la messagerie vocale. Le
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Les appels entrants peuvent être routés vers des groupes d’appels
 
-Ce paramètre contrôle si les appels entrants peuvent être transférés à un groupe d’appels. Cette option est activée par défaut.
+Ce paramètre contrôle si les appels entrants peuvent être transférés à un groupe d’appels. Ce paramètre est activé par défaut.
 
 ### <a name="delegation-for-inbound-and-outbound-calls"></a>Délégation pour les appels entrants et sortants
 
@@ -97,7 +97,7 @@ Ce paramètre permet aux appels entrants d’être routés vers les délégués,
 
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Empêcher la déviation des péages et envoyer des appels via le RTC
 
-Si vous définissez cette option sur **Activé** , les appels sont envoyés via le réseau RTC et entraînent des frais au lieu de les envoyer via le réseau et de contourner les péages. Ce paramètre est désactivé par défaut.
+L’activation de ce paramètre permet d’envoyer des appels via le réseau RTC et de générer des frais au lieu de les envoyer via le réseau et de contourner les péages. Ce paramètre est désactivé par défaut.
 
 ### <a name="music-on-hold-for-pstn-calls"></a>Musique en attente pour les appels RTC
 
@@ -110,14 +110,15 @@ Occupé lors d’un appel (également appelé « options occupées ») vous perm
 - **Non activé** Aucune option occupée n’est activée et les appels nouveaux ou entrants peuvent toujours être passés à l’utilisateur lorsque l’utilisateur est déjà en appel.
 - **Activé** Les appels nouveaux ou entrants sont rejetés avec un signal occupé.
 - **En suspens** Les paramètres sans réponse de l’utilisateur seront utilisés, tels que le routage vers la messagerie vocale ou le transfert vers un autre utilisateur.
+- **Contrôlé par l’utilisateur** Cette option n’est pas fonctionnelle actuellement; si cette valeur est définie, elle est lue comme définissant la valeur **sur Non activé**.
 
 ### <a name="web-pstn-calling"></a>Appel RTC web
 
-Ce paramètre permet aux utilisateurs d’appeler des numéros RTC à l’aide du client web Teams. Cette option est activée par défaut.
+Ce paramètre permet aux utilisateurs d’appeler des numéros RTC à l’aide du client web Teams. Ce paramètre est activé par défaut.
 
 ### <a name="real-time-captions-in-teams-calls"></a>Sous-titres en temps réel dans les appels Teams
 
-Ce paramètre contrôle si les sous-titres en temps réel dans les appels Teams sont disponibles pour vos utilisateurs. Cette option est activée par défaut.
+Ce paramètre contrôle si les sous-titres en temps réel dans les appels Teams sont disponibles pour vos utilisateurs. Ce paramètre est activé par défaut.
 
 ### <a name="automatically-answer-incoming-meeting-invites"></a>Répondre automatiquement aux invitations aux réunions entrantes
 
@@ -125,11 +126,11 @@ Ce paramètre contrôle si les invitations aux réunions entrantes reçoivent au
 
 ### <a name="spam-filtering"></a>Filtrage du courrier indésirable
 
-Ce paramètre vous permet de contrôler le type de filtrage du courrier indésirable disponible sur les appels entrants. Les vérifications De base et Captcha Interactive Voice (IVR) peuvent être effectuées. Cette option est activée par défaut.
+Ce paramètre vous permet de contrôler le type de filtrage du courrier indésirable disponible sur les appels entrants. Les vérifications De base et Captcha Interactive Voice (IVR) peuvent être effectuées. Ce paramètre est activé par défaut.
 
 ### <a name="sip-devices-can-be-used-for-calls"></a>Les appareils SIP peuvent être utilisés pour les appels
 
-Ce paramètre permet aux utilisateurs d’utiliser un appareil SIP pour passer et recevoir des appels. Cette option est désactivée par défaut.
+Ce paramètre permet aux utilisateurs d’utiliser un appareil SIP pour passer et recevoir des appels. Ce paramètre est désactivé par défaut.
 
 ### <a name="open-apps-in-browser-for-incoming-pstn-calls"></a>Ouvrir des applications dans le navigateur pour les appels RTC entrants
 
