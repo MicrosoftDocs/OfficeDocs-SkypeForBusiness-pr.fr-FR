@@ -1,5 +1,5 @@
 ---
-title: Microsoft licences Teams Premium
+title: licences Microsoft Teams Premium
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -10,6 +10,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -17,17 +18,17 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: Découvrez comment améliorer votre expérience Microsoft Teams avec la licence de module complémentaire Microsoft Teams Premium
-ms.openlocfilehash: ec0f71e252a38beca0613a546ef9ddd990f6a53d
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: d9307bc9b26421f4930c4355f42c274b5aad12a3
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392344"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800064"
 ---
-# <a name="microsoft-teams-premium-licensing"></a>Microsoft licences Teams Premium
+# <a name="microsoft-teams-premium-licensing"></a>licences Microsoft Teams Premium
 
 > [!NOTE]
-> Teams Premium est actuellement disponible en préversion, ce qui permet aux organisations de découvrir et de planifier la version généralement disponible de Teams Premium. Toutes les fonctionnalités Teams Premium ne sont pas disponibles dans cette préversion, mais d’autres fonctionnalités seront publiées tout au long de la période de préversion. Pour découvrir les fonctionnalités de la préversion de Teams Premium, consultez [Puis-je expérimenter Teams Premium avant d’acheter des licences ?](#can-i-experience-teams-premium-before-buying-licenses)
+> Teams Premium est actuellement disponible en préversion, ce qui permet aux organisations de faire l’expérience et de planifier la mise en production générale de Teams Premium. Toutes les fonctionnalités Teams Premium ne sont pas disponibles dans cette préversion, mais d’autres fonctionnalités seront publiées tout au long de la période de préversion. Pour découvrir Teams Premium fonctionnalités en préversion, consultez [Puis-je découvrir Teams Premium avant d’acheter des licences ?](#can-i-experience-teams-premium-before-buying-licenses)
 
 Microsoft Teams Premium est une licence de module complémentaire Teams qui permet aux organisations disposant d’abonnements Microsoft 365 d’améliorer leur expérience Teams avec des avantages tels que :
 
@@ -36,22 +37,22 @@ Microsoft Teams Premium est une licence de module complémentaire Teams qui perm
 - Fonctionnalités avancées de gestion et de création de rapports pour l’informatique.
 - Rendez-vous virtuels avancé.
 
-Cet article est destiné aux administrateurs informatiques qui souhaitent comprendre les licences Teams Premium et acheter des licences Teams Premium pour leurs utilisateurs. Cet article fournit des réponses à des questions telles que :
+Cet article est destiné aux administrateurs informatiques qui souhaitent comprendre Teams Premium licences et acheter Teams Premium licences pour leurs utilisateurs. Cet article fournit des réponses à des questions telles que :
 
-- [En quoi Teams Premium se compare-t-il à Teams ?](#how-does-teams-premium-compare-to-teams)
+- [Comment Teams Premium se compare-t-il à Teams ?](#how-does-teams-premium-compare-to-teams)
 - [Existe-t-il des fonctionnalités Teams actuelles qui seront déplacées vers Teams Premium ?](#are-there-current-teams-features-that-will-move-to-teams-premium)
 - [Quelles sont les conditions requises pour acheter Teams Premium ?](#what-are-the-requirements-to-purchase-teams-premium)
 - [En quoi Teams Premium diffère-t-il de Salles Teams Pro ?](#how-does-teams-premium-differ-from-teams-rooms-pro)
 - [Puis-je faire l’expérience de Teams Premium avant d’acheter des licences ?](#can-i-experience-teams-premium-before-buying-licenses)
 - [Comment faire acheter des licences Teams Premium ?](#how-do-i-purchase-teams-premium-licenses)
 
-Pour savoir comment configurer et configurer les fonctionnalités Teams Premium, consultez [Microsoft Teams Premium - Vue d’ensemble pour les administrateurs](/microsoftteams/enhanced-teams-experience), qui inclut également des liens vers la documentation des utilisateurs finaux dès qu’elle devient disponible.
+Pour savoir comment configurer et configurer Teams Premium fonctionnalités, consultez [Microsoft Teams Premium - Vue d’ensemble pour les administrateurs](/microsoftteams/enhanced-teams-experience), qui inclut également des liens vers la documentation de l’utilisateur final dès qu’elle devient disponible.
 
-## <a name="how-does-teams-premium-compare-to-teams"></a>En quoi Teams Premium se compare-t-il à Teams ?
+## <a name="how-does-teams-premium-compare-to-teams"></a>Comment Teams Premium se compare-t-il à Teams ?
 
-Les clients qui achètent un abonnement Microsoft 365 reçoivent également des licences Teams pour leurs utilisateurs. L’achat de la licence du module complémentaire Teams Premium offre aux administrateurs et aux utilisateurs finaux des fonctionnalités supplémentaires sur Teams avec leur abonnement Microsoft 365.
+Les clients qui achètent un abonnement Microsoft 365 reçoivent également des licences Teams pour leurs utilisateurs. L’achat de la licence de module complémentaire Teams Premium fournit aux administrateurs et aux utilisateurs finaux des fonctionnalités supplémentaires sur Teams avec leur abonnement Microsoft 365.
 
-Le tableau suivant compare les principales fonctionnalités entre Teams et Teams Premium.
+Le tableau suivant compare les fonctionnalités clés entre Teams et Teams Premium.
 
 ### <a name="meetings"></a>Réunions
 
@@ -105,7 +106,7 @@ Le tableau suivant compare les principales fonctionnalités entre Teams et Teams
 | Packages de stratégie utilisateur personnalisés |  | X |
 | Activer la surveillance et les alertes avancées des réunions |  | X |
 
-\**Cette fonctionnalité est disponible uniquement pour les utilisateurs Teams Premium disposant d’un abonnement Microsoft 365 E5. Pour plus d’informations sur les exigences de licence, consultez [Quelles sont les conditions requises pour acheter Teams Premium ?](#what-are-the-requirements-to-purchase-teams-premium)*
+\**Cette fonctionnalité est disponible uniquement pour Teams Premium utilisateurs disposant d’un abonnement Microsoft 365 E5. Pour plus d’informations sur les exigences de licence, consultez [Quelles sont les conditions requises pour acheter des Teams Premium ?](#what-are-the-requirements-to-purchase-teams-premium)*
 
 ### <a name="meetings-reporting"></a>Rapports de réunions
 
@@ -141,9 +142,9 @@ Le tableau suivant compare les principales fonctionnalités entre Teams et Teams
 
 ## <a name="are-there-current-teams-features-that-will-move-to-teams-premium"></a>Existe-t-il des fonctionnalités Teams actuelles qui seront déplacées vers Teams Premium ?
 
-Avec la version générale de Teams Premium, certaines fonctionnalités Teams passeront des licences Teams aux licences Teams Premium. Pour permettre à vos utilisateurs de continuer à utiliser ces fonctionnalités, vous devez acheter et attribuer des licences Teams Premium.
+Avec la version générale de Teams Premium, certaines fonctionnalités Teams passent des licences Teams aux licences Teams Premium. Pour permettre à vos utilisateurs de continuer à utiliser ces fonctionnalités, vous devez acheter et attribuer des licences Teams Premium.
 
-Les fonctionnalités qui sont déplacées vers Teams Premium sont les suivantes :
+Les fonctionnalités qui se déplacent vers Teams Premium sont les suivantes :
 
 - Sous-titres traduits en direct.
 - Marqueurs de chronologie dans les enregistrements de réunion Teams pour le moment où un utilisateur a quitté ou rejoint des réunions.
@@ -154,23 +155,23 @@ Les fonctionnalités qui sont déplacées vers Teams Premium sont les suivantes 
 
 ### <a name="is-there-a-grace-period-to-switch-to-team-premium-before-my-users-lose-functionality"></a>Existe-t-il une période de grâce pour passer à Team Premium avant que mes utilisateurs perdent leurs fonctionnalités ?
 
-Lorsque Teams Premium devient généralement disponible à l’achat, il y aura une période de grâce de 30 jours pour les administrateurs pour acheter Teams Premium.
+Lorsque Teams Premium sera généralement disponible à l’achat, les administrateurs disposeront d’une période de grâce de 30 jours pour acheter Teams Premium.
 
-Après la période de grâce de 30 jours, les utilisateurs perdent l’accès aux fonctionnalités précédemment disponibles dans Teams sans le module complémentaire Teams Premium, sauf si l’administrateur achète et attribue des licences Teams Premium pour leurs utilisateurs.
+Après la période de grâce de 30 jours, les utilisateurs perdent l’accès aux fonctionnalités précédemment disponibles dans Teams sans le module complémentaire Teams Premium, sauf si l’administrateur achète et attribue Teams Premium licences pour leurs utilisateurs.
 
-Certains locataires peuvent avoir des licences d’évaluation Teams Premium. Une fois les licences d’évaluation expirées, les utilisateurs perdent immédiatement les fonctionnalités Teams Premium. Les ressources associées aux fonctionnalités Teams Premium telles que les modèles personnalisés et les arrière-plans de réunion restent dans le locataire, mais sont grisées et inutilisables.
+Certains locataires peuvent avoir Teams Premium licences d’évaluation. Une fois les licences d’évaluation expirées, les utilisateurs perdent immédiatement Teams Premium fonctionnalités. Les ressources associées aux fonctionnalités Teams Premium telles que les modèles personnalisés et les arrière-plans de réunion restent dans le locataire, mais sont grisées et inutilisables.
 
 ## <a name="what-are-the-requirements-to-purchase-teams-premium"></a>Quelles sont les conditions requises pour acheter Teams Premium ?
 
-Lors de sa publication, Teams Premium sera disponible à l’achat dans le monde entier via tous les canaux d’achat Microsoft, y compris EA, EAS, EES, CSP, Web Direct, NCE – dirigé par le client et NCE – Géré par les partenaires.
+Lors de la publication, Teams Premium seront disponibles à l’achat dans le monde entier via tous les canaux d’achat Microsoft, y compris EA, EAS, EES, CSP, Web Direct, NCE – dirigé par le client et NCE – Dirigé par les partenaires.
 
-Avant de pouvoir acheter des licences Teams Premium pour vos utilisateurs, assurez-vous que votre locataire et les utilisateurs répondent aux exigences.
+Avant de pouvoir acheter Teams Premium licences pour vos utilisateurs, assurez-vous que votre locataire et les utilisateurs répondent aux exigences.
 
 **L’exigence du locataire** est la suivante :
 
 - Doit être un locataire commercial, du secteur public mondial, de l’ÉDUCATION, de la GCC ou d’un locataire à but non lucratif.
-  - À la version générale, Microsoft n’offre pas de licence spécifique à EDU ni de remises EDU pour Teams Premium.
-  - Les locataires GCC High et DoD ne pourront pas acheter de licences Teams Premium lors de la mise en production générale.
+  - Lors de la version générale, Microsoft n’offre pas de licence spécifique à EDU ni de remises EDU pour Teams Premium.
+  - Les locataires GCC High et DoD ne pourront pas acheter de licences Teams Premium à la version générale.
 
 La **configuration requise de l’utilisateur** est la suivante :
 
@@ -178,7 +179,7 @@ La **configuration requise de l’utilisateur** est la suivante :
 
 ## <a name="how-does-teams-premium-differ-from-teams-rooms-pro"></a>En quoi Teams Premium diffère-t-il de Salles Teams Pro ?
 
-Les licences Teams Premium sont attribuées aux utilisateurs de votre organisation, et Salles Teams Pro licences ne doivent être attribuées qu’à Salles Microsoft Teams appareils. Ces deux licences ne dépendent pas l’une de l’autre, ne chevauchent pas les fonctionnalités et n’entraînent pas de conflits d’application des licences.
+Teams Premium licences sont attribuées aux utilisateurs de votre organisation, et Salles Teams Pro licences ne doivent être attribuées qu’à Salles Microsoft Teams appareils. Ces deux licences ne dépendent pas l’une de l’autre, ne chevauchent pas les fonctionnalités et n’entraînent pas de conflits d’application des licences.
 
 Avant la publication de Salles Teams Pro, Microsoft proposait une licence salles Teams appelée salles Teams Premium. salles Teams Premium a été mis hors service et n’est pas lié à Teams Premium.
 
@@ -186,23 +187,23 @@ Avant la publication de Salles Teams Pro, Microsoft proposait une licence salles
 
 À compter de décembre 2022, les organisations peuvent essayer Teams Premium en achetant la licence d’essai de 30 jours Teams Premium à coût zéro disponible dans le [Centre d'administration Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=868433).
 
-Les organisations disposant d’une licence d’essai Teams Premium auront 25 licences à attribuer aux utilisateurs. Ces 25 utilisateurs peuvent découvrir et tester les fonctionnalités Teams Premium dès qu’elles deviennent disponibles. En outre, l’administrateur peut gérer les fonctionnalités Teams Premium pour les 25 utilisateurs sous licence.
+Les organisations disposant d’une licence d’essai Teams Premium auront 25 licences à attribuer aux utilisateurs. Ces 25 utilisateurs peuvent expérimenter et tester Teams Premium fonctionnalités dès qu’elles deviennent disponibles. En outre, l’administrateur peut gérer Teams Premium fonctionnalités pour les 25 utilisateurs sous licence.
 
 La plupart des segments d’organisation peuvent acheter et utiliser la licence d’évaluation Teams Premium, à l’exception des locataires GCC High et DoD.
 
 ### <a name="what-will-happen-if-my-users-trial-licenses-expire"></a>Que se passe-t-il si les licences d’évaluation de mes utilisateurs expirent ?
 
-Après l’expiration des licences d’essai de 30 jours, les 25 utilisateurs sous licence perdent toutes les fonctionnalités Premium de Teams. Il n’existe actuellement aucune période de grâce entre l’expiration de la licence d’essai et la perte de fonctionnalités.
+Après l’expiration des licences d’essai de 30 jours, les 25 utilisateurs sous licence perdent toutes les fonctionnalités Teams Premium. Il n’existe actuellement aucune période de grâce entre l’expiration de la licence d’essai et la perte de fonctionnalités.
 
 Pour cette raison, nous recommandons aux organisations de planifier leur période d’essai Teams Premium, en veillant à ce que tous les scénarios de test nécessaires soient soigneusement vérifiés avant l’expiration de la période d’essai.
 
-Lorsque les licences d’évaluation expirent, les ressources Teams Premium chargées du locataire, telles que les modèles personnalisés et les arrière-plans de réunion, restent dans le locataire, mais sont grisées et inutilisables.
+Lorsque les licences d’évaluation expirent, les ressources Teams Premium chargées du locataire, telles que les modèles personnalisés et les arrière-plans de réunion, restent dans le locataire, mais elles sont grisées et inutilisables.
 
-Si votre organisation souhaite conserver les fonctionnalités Teams Premium après la période d’évaluation, vous devez acheter des licences Teams Premium lorsqu’elles seront disponibles et réaffecter les licences à vos utilisateurs.
+Si votre organisation souhaite conserver Teams Premium fonctionnalités après la période d’évaluation, vous devez acheter Teams Premium licences lorsqu’elles seront disponibles et réaffecter les licences à vos utilisateurs.
 
 ## <a name="how-do-i-purchase-teams-premium-licenses"></a>Comment faire acheter des licences Teams Premium ?
 
-Si votre locataire et vos utilisateurs répondent aux exigences de Teams Premium, vous pouvez acheter des licences de module complémentaire Teams Premium par le biais de votre canal d’achat préféré une fois que Teams Premium sera mis à la disposition générale.
+Si votre locataire et vos utilisateurs répondent aux conditions requises pour Teams Premium, vous pouvez acheter Teams Premium licences de module complémentaire via votre canal d’achat préféré une fois que Teams Premium sera mis à la disposition générale.
 
 Après avoir acheté vos licences Teams Premium, vous attribuez les licences à vos utilisateurs dans le [Centre d'administration Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=834822).
 

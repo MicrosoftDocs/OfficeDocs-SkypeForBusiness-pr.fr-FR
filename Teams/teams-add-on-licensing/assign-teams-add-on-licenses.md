@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +17,12 @@ ms.reviewer: mikedav
 description: Découvrez comment attribuer des licences de module complémentaire Teams à des utilisateurs pour des fonctionnalités telles que l’audioconférence, le système téléphonique et les forfaits d’appels.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60bde63ab3cc499c022ef2d23b669b543d6f5dd9
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: 162169bd3aa7a1641133e8729d4872f8547b58ed
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392084"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69799930"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Attribuer des licences de module complémentaire Teams aux utilisateurs
 
@@ -38,7 +39,7 @@ Avant de commencer, passez en revue les conditions suivantes :
 
 - Si vous utilisez la connectivité RTC (Public Switched Telephone Network) locale pour les utilisateurs, vous devez uniquement attribuer une licence Téléphonie Teams standard. N’attribuez PAS de licence de forfait d’appels.
 
-- Après avoir affecté un Microsoft forfait d’appels à un utilisateur, il peut prendre jusqu’à 24 heures avant qu’il voit le pavé de numérotation dans son client Teams. Si le pavé de numérotation n’est pas affiché dans les 24 heures, vérifiez sa [configuration](../dial-pad-configuration.md). Si nécessaire, vous pouvez également [contacter le support technique](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- Après avoir affecté un plan d’appels Microsoft à un utilisateur, il peut prendre jusqu’à 24 heures avant qu’il voit le pavé de numérotation dans son client Teams. Si le pavé de numérotation n’est pas affiché dans les 24 heures, vérifiez sa [configuration](../dial-pad-configuration.md). Si nécessaire, vous pouvez également [contacter le support technique](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - Un message d’erreur s’affiche si vous n’avez pas acheté le nombre correct de licences. Si vous avez besoin d’acheter d’autres licences de forfait d’appels, choisissez l’option pour en acheter davantage.
 
@@ -128,7 +129,7 @@ Pour plus d’informations, consultez [Afficher les licences et les services ave
 | Microsoft Enterprise E5 (avec système téléphonique) | ENTERPRISEPREMIUM |
 | Microsoft Enterprise E5 (sans audioconférence) | ENTERPRISEPREMIUM_NOPSTNCONF |
 | Microsoft Enterprise E5 (avec audioconférence) | ENTERPRISEPREMIUM |
-| Microsoft Entreprise E3 | ENTERPRISEPACK |
+| Microsoft Enterprise E3 | ENTERPRISEPACK |
 | Microsoft Entreprise E1 | STANDARDPACK |
 | Microsoft 365 Business Basic | O365_BUSINESS_ESSENTIALS|
 | Microsoft 365 Business Standard | O365_BUSINESS_PREMIUM|
@@ -148,7 +149,7 @@ Pour plus d’informations, consultez [Afficher les licences et les services ave
 | Salles Microsoft Teams Basique sans audioconférence | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
 | Salles Microsoft Teams Pro | Microsoft_Teams_Rooms_Pro |
 | Salles Microsoft Teams Pro sans audioconférence | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
-| appareils partagés Microsoft Teams | MCOCAP |
+| Appareils partagés Microsoft Teams | MCOCAP |
 | Microsoft Teams Premium | Microsoft_Teams_Premium |
 
 ## <a name="related-content"></a>Contenu associé

@@ -10,6 +10,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -18,21 +19,21 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.custom:
 - Licensing
-description: Découvrez Microsoft Teams Premium pour les administrateurs et les professionnels de l’informatique.
-ms.openlocfilehash: 9e7af9c777ba5fec8ca8b68da7f1069737702617
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+description: Découvrez les Microsoft Teams Premium pour les administrateurs et les professionnels de l’informatique.
+ms.openlocfilehash: 2abcdd1c9f9df0101bbf7d0e22720c71375728d0
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392474"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800279"
 ---
 # <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams Premium - Vue d’ensemble pour les administrateurs
 
-![Icône d’informations](media/info.png) **La plupart des fonctionnalités décrites dans cet article nécessitent Teams Premium, qui est une préversion.** Quelques fonctionnalités, par exemple, certaines fonctionnalités de webinaire, sont également disponibles avec d’autres licences. Pour plus d’informations sur la disponibilité des fonctionnalités et les licences, consultez [Licences Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).
+![Icône d’informations](media/info.png) **La plupart des fonctionnalités décrites dans cet article nécessitent Teams Premium, qui est une préversion.** Quelques fonctionnalités, par exemple, certaines fonctionnalités de webinaire, sont également disponibles avec d’autres licences. Pour plus d’informations sur la disponibilité des fonctionnalités et les licences, consultez [licences Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).
 
-Cet article est destiné aux professionnels de l’informatique et aux administrateurs qui déploieront et configureront les fonctionnalités Teams Premium. L’article fournit une brève description des fonctionnalités, avec des liens vers une documentation plus détaillée.
+Cet article s’adresse aux professionnels de l’informatique et aux administrateurs qui déploieront et configureront Teams Premium fonctionnalités. L’article fournit une brève description des fonctionnalités, avec des liens vers une documentation plus détaillée.
 
-Teams Premium est une licence de module complémentaire qui fournit les améliorations suivantes à Teams :  
+Teams Premium est une licence de module complémentaire qui apporte les améliorations suivantes à Teams :  
 
 -   Expériences de réunion améliorées pour vos utilisateurs finaux
 -   Sécurité et protection renforcées pour les réunions 
@@ -42,7 +43,7 @@ Teams Premium est une licence de module complémentaire qui fournit les amélior
 > [!IMPORTANT]
 > Étant donné que Teams Premium est une préversion publique, en disponibilité générale, certaines fonctionnalités actuellement disponibles avec Teams le seront uniquement avec une licence Teams Premium. 
 
-Les sections suivantes décrivent les améliorations de Teams Premium pour :
+Les sections suivantes décrivent les améliorations Teams Premium pour :
 
 - [Réunions protégées](#protected-meetings)
 - [Réunions personnalisées](#custom-meetings)
@@ -118,7 +119,7 @@ Teams Premium fournit une expérience de webinaire avancée pour vos utilisateur
 
 ## <a name="advanced-virtual-appointments"></a>Rendez-vous virtuels avancé
 
-Avec n’importe quelle licence Microsoft 365, vos utilisateurs finaux peuvent utiliser des fonctionnalités de Rendez-vous virtuels de base pour planifier et participer à des réunions d’entreprise à client. Par exemple, les utilisateurs peuvent planifier des rendez-vous dans le calendrier Bookings et les participants externes peuvent y participer via un navigateur sans avoir à télécharger Teams. 
+Avec n’importe quelle licence Microsoft 365, vos utilisateurs finaux peuvent utiliser des fonctionnalités de Rendez-vous virtuels de base pour planifier et participer à des réunions entre les entreprises et les clients. Par exemple, les utilisateurs peuvent planifier des rendez-vous dans le calendrier Bookings et les participants externes peuvent y participer via un navigateur sans avoir à télécharger Teams. 
 
 Teams Premium fournit des fonctionnalités avancées de rendez-vous virtuel, telles que :
 
@@ -138,7 +139,7 @@ Teams Premium fournit des fonctionnalités avancées de rendez-vous virtuel, tel
 
 Vous trouverez des ressources supplémentaires ici :
 
-- [Microsoft site du produit Teams Premium](https://www.microsoft.com/microsoft-teams/premium)
+- [Microsoft Teams Premium site du produit](https://www.microsoft.com/microsoft-teams/premium)
 - [blog Microsoft Teams Premium](https://www.microsoft.com/microsoft-365/blog/2022/10/12/introducing-microsoft-teams-premium-the-better-way-to-meet/)
 
 

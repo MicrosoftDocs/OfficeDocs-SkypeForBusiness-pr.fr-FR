@@ -23,12 +23,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45148768d023b3cb6b609c1f315fe8d71031a573
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: e9fbd6e9075ee5680eaae4dc88dde96c842c5a7b
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392194"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800050"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Réunions, webinaires et événements en direct
 
@@ -50,9 +50,9 @@ Le tableau suivant résume les trois types de réunions, le nombre de participan
 | Séminaires web | - Jusqu’à 1 000<br>- Des limites accrues avec les fonctionnalités [d’affichage uniquement](view-only-meeting-experience.md) seront bientôt disponibles. |- Jusqu’à 1 000, les participants disposent de fonctionnalités totalement interactives.<br> - Interaction de l’audience configurable.<br> - Peut spécifier des présentateurs. | Oui |
 | Événements en direct | Jusqu’à 20 000** |- Diffuser au grand public. <br>- Questions et réponses modérées pour l’interaction de l’audience. <br> - Peut spécifier des producteurs et des présentateurs, y compris des présentateurs externes.<br>- Prend en charge des fonctionnalités de production plus avancées. | Non |
 
-*Les 10 000 habituels sont portés à 20 000 jusqu'au 31 décembre 2022.
+*Les 10 000 habituels passent à 20 000 jusqu’au 30 juin 2023.
 
-**Les 10 000 habituels sont portés à 20 000 jusqu'au 31 décembre 2022. Vous pouvez planifier des nombres encore plus importants avec des événements en direct dans Yammer et/ou Microsoft Stream. Pour plus d’informations, consultez [Événements en direct sur Microsoft 365](/stream/live-event-m365). Notez que les événements de plus de 20 000 participants nécessitent le [Programme d’assistance aux événements en direct](/stream/live-events-assistance).
+**Les 10 000 habituels passent à 20 000 jusqu’au 30 juin 2023. Vous pouvez planifier des nombres encore plus importants avec des événements en direct dans Yammer et/ou Microsoft Stream. Pour plus d’informations, consultez [Événements en direct sur Microsoft 365](/stream/live-event-m365). Notez que les événements de plus de 20 000 participants nécessitent le [Programme d’assistance aux événements en direct](/stream/live-events-assistance).
 
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
@@ -178,7 +178,7 @@ Tout le monde peut participer gratuitement à une réunion Teams, à un webinair
 
 Pour les personnes qui organisent, planifient et hébergent des réunions, des webinaires ou des événements en direct, elles ont besoin de l’une des licences Microsoft 365 répertoriées dans la description du service [Microsoft Teams](/office365/servicedescriptions/teams-service-description). Si vous utilisez déjà Teams, vous disposez probablement de la licence dont vous avez besoin pour organiser et héberger des réunions, des webinaires et des événements en direct.
 
-Pour plus d’informations sur les licences Teams Premium, consultez [Licences Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).
+Pour plus d’informations sur les licences Teams Premium, consultez [licences Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).
 
 Pour permettre aux personnes de se connecter à une réunion par téléphone, vous devez configurer l’audioconférence. Pour plus d’informations sur l’audioconférence, consultez [Audioconférence dans Teams](deploy-audio-conferencing-teams-landing-page.md).
 
