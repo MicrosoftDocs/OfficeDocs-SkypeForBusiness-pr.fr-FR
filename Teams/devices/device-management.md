@@ -21,20 +21,20 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b34d554c0930efa622e60a695203e5fa35bd48ab
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: e545a6d4208e6f54abbf72327cf887d45b34e141
+ms.sourcegitcommit: 1934c4803b5b6ae9b9ccd49e695944446d5d5810
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245709"
+ms.lasthandoff: 01/14/2023
+ms.locfileid: "69807456"
 ---
 # <a name="manage-devices-in-teams"></a>Gérer les appareils dans Teams 
 
-Vous pouvez gérer les appareils utilisés avec Microsoft Teams dans votre organisation à partir du centre d’administration Microsoft Teams. Vous pouvez afficher et gérer l’inventaire des appareils pour votre organisation et effectuer des tâches telles que la mise à jour, le redémarrage et la surveillance des diagnostics pour les appareils. Vous pouvez également créer et attribuer des profils de configuration à un appareil ou à des groupes d’appareils.
+Vous pouvez gérer les appareils utilisés avec Microsoft Teams dans votre organisation à partir du Centre d’administration Microsoft Teams. Vous pouvez afficher et gérer l’inventaire des appareils pour votre organisation et effectuer des tâches telles que la mise à jour, le redémarrage et la surveillance des diagnostics pour les appareils. Vous pouvez également créer et attribuer des profils de configuration à un appareil ou à des groupes d’appareils.
 
 Pour gérer les appareils, par exemple modifier la configuration de l’appareil, redémarrer des appareils, gérer les mises à jour ou afficher l’intégrité des appareils et des périphériques, vous devez disposer de l’un des rôles d’administrateur Microsoft 365 suivants :
 
-- Microsoft 365 Administrateur général
+- Administrateur général Microsoft 365
 - Administrateur de service Teams
 - Administrateur d’appareil Teams
 
@@ -50,13 +50,13 @@ Vous pouvez gérer n’importe quel appareil certifié et inscrit dans Teams. Un
 - [Affichages Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=34)
 - [Panneaux Teams](teams-panels.md)
 
-Pour gérer les appareils, dans le volet de navigation gauche du [centre d’administration Microsoft Teams](https://admin.teams.microsoft.com), accédez à **Appareils Teams**, puis sélectionnez le type d’appareil. Chaque type d’appareil a sa propre section respective, qui vous permet de les gérer séparément.
+Pour gérer les appareils, dans le volet de navigation gauche du [Centre d’administration Microsoft Teams](https://admin.teams.microsoft.com), accédez à **Appareils Teams**, puis sélectionnez le type d’appareil. Chaque type d’appareil a sa propre section respective, qui vous permet de les gérer séparément.
 
 ## <a name="manage-teams-rooms-on-windows-devices"></a>Gérer les salles Teams sur les appareils Windows
 
 Vous pouvez utiliser le Centre d’administration Teams pour afficher et gérer à distance vos salles Teams sur les appareils Windows au sein de votre organisation. Le centre d’administration Teams permet de voir facilement, en un coup d’œil, quels appareils sont sains et qui nécessitent une attention particulière, et vous permet de vous concentrer sur des appareils spécifiques pour afficher des informations détaillées sur l’intégrité des appareils, les performances des réunions, la qualité des appels et les périphériques. 
 
-Voici quelques actions que vous pouvez effectuer pour gérer vos appareils salles Teams. salles Teams appareils se trouvent dans le [centre d’administration Microsoft Teams](https://admin.teams.microsoft.com) sous **Appareils** >  Teams **salles Teams sur Windows**.
+Voici quelques actions que vous pouvez effectuer pour gérer vos appareils salles Teams. salles Teams appareils se trouvent dans le [Centre d’administration Microsoft Teams](https://admin.teams.microsoft.com) sous **Appareils** >  Teams **salles Teams sur Windows**.
 
 Pour plus d’informations sur la gestion de vos appareils salles Teams, consultez [Gérer les Salles Microsoft Teams](../rooms/rooms-manage.md).
 
@@ -86,6 +86,23 @@ Voici quelques exemples de la façon dont vous pouvez gérer les téléphones, l
 | Filtrer les appareils à l’aide d’étiquettes d’appareil        | Sélectionnez l’icône de filtre, sélectionnez le champ **Balise** , spécifiez une balise d’appareil sur laquelle filtrer, puis sélectionnez **Appliquer**. Pour plus d’informations sur le filtrage des appareils à l’aide de balises d’appareil, consultez [Utiliser des filtres pour retourner des appareils avec une balise spécifique](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag). |
 | Afficher l’historique et les diagnostics des appareils     | Sous la colonne **Historique** , cliquez sur le lien **Afficher** d’un appareil pour afficher son historique des mises à jour et les détails de diagnostic.                                                                                                                                                                                         |
 
+### <a name="view-android-device-sign-in-failures"></a>Afficher les échecs de connexion des appareils Android
+
+Si vous rencontrez des problèmes de connexion à un appareil Android, vous pouvez consulter la page des détails de l’appareil pour voir les échecs de connexion qui ont pu se produire.
+
+1. Dans le volet de navigation de gauche, accédez à **Appareils Teams** > sélectionnez le type d’appareil Teams. Par exemple, si l’appareil Android est un téléphone, sélectionnez **Téléphones**.
+2. Cliquez sur le nom complet du téléphone pour lequel vous souhaitez afficher les échecs de connexion. La page des détails de l’appareil s’ouvre.
+3. Dans la page des détails de l’appareil, sélectionnez l’onglet **Activité** , puis sélectionnez **Échec de** connexion dans la liste déroulante **Type** d’activité.
+
+> [!NOTE]
+> Si vous ne voyez aucun échec de connexion pour un appareil auquel vous rencontrez des problèmes de connexion, vérifiez que le microprogramme de l’appareil se trouve sur la dernière version fournie par son fabricant.
+
+Les résultats retournés contiennent les informations suivantes :
+
+- Heure à laquelle l’échec de connexion s’est produit.
+- Compte qui a tenté de se connecter à l’appareil.
+- Raison de l’échec.
+
 ### <a name="use-configuration-profiles-in-teams"></a>Utiliser des profils de configuration dans Teams
 
 Utilisez des profils de configuration pour gérer les paramètres et les fonctionnalités des différents appareils Teams de votre organisation, notamment les salles Teams sur Android, les affichages Teams, les téléphones Teams et les panneaux Teams. Vous pouvez créer ou charger des profils de configuration pour inclure des paramètres et des fonctionnalités que vous souhaitez activer ou désactiver, puis attribuer un profil à un appareil ou à un ensemble d’appareils. 
@@ -101,6 +118,7 @@ Pour créer un profil de configuration pour un type d’appareil Teams :
    Le profil de configuration nouvellement créé s’affiche dans la liste des profils.
 
 #### <a name="assign-a-configuration-profile"></a>Attribuer un profil de configuration
+
 Après avoir créé un profil de configuration pour un type d’appareil Teams, affectez-le à un ou plusieurs appareils.
 
 1. Dans le volet de navigation de gauche, accédez à **Appareils Teams** > sélectionnez le type d’appareil Teams. Par exemple, pour affecter un profil de configuration à un appareil de panneaux Teams, sélectionnez **Teams Appareils** > **Teams panneaux Teams**.
