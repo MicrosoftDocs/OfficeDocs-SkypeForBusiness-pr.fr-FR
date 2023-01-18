@@ -16,12 +16,12 @@ f1.keywords:
 description: Protocoles de routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5a05dbc6519c4f90cf0cc0d49e996467bf10230
-ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
+ms.openlocfilehash: 6cf7bf4040a75e59518312edd32c9c4e77f11728
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69414722"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812711"
 ---
 # <a name="direct-routing---sip-protocol"></a>Routage direct - Protocole SIP
 
@@ -72,7 +72,7 @@ Lors de la réception de l’invitation, le proxy SIP effectue les étapes suiva
 
 2. Essayez de trouver un locataire à l’aide du nom de domaine complet présenté dans l’en-tête Contact.  
 
-   Vérifiez si le nom de domaine complet de l’en-tête Contact (sbc1.adatum.biz) est inscrit en tant que nom DNS dans une organisation Microsoft 365 ou Office 365. Si elle est trouvée, la recherche de l’utilisateur est effectuée dans le locataire dont le nom de domaine complet SBC est inscrit en tant que nom de domaine. Si elle est introuvable, l’étape 3 s’applique.   
+   Vérifiez si le nom de domaine complet de l’en-tête Contact (sbc1.adatum.biz) est inscrit en tant que nom DNS dans n’importe quelle organisation Microsoft 365 ou Office 365. Si elle est trouvée, la recherche de l’utilisateur est effectuée dans le locataire dont le nom de domaine complet SBC est inscrit en tant que nom de domaine. Si elle est introuvable, l’étape 3 s’applique.   
 
 3. L’étape 3 s’applique uniquement en cas d’échec de l’étape 2. 
 
@@ -82,7 +82,7 @@ Lors de la réception de l’invitation, le proxy SIP effectue les étapes suiva
 
 5. Appliquez les paramètres de jonction. Recherchez les paramètres définis par l’administrateur du locataire pour ce SBC.
 
-   Microsoft ne prend pas en charge l’utilisation d’un proxy SIP ou d’un serveur d’agent utilisateur tiers entre le proxy SIP Microsoft et le SBC couplé, ce qui peut modifier l’URI de requête créé par le SBC jumelé.
+   Microsoft ne prend pas en charge l’utilisation d’un proxy SIP ou d’un serveur d’agent utilisateur tiers entre le proxy SIP Microsoft et le SBC appairé, ce qui peut modifier l’URI de requête créé par le SBC appairé.
 
    Les conditions requises pour les deux recherches (étapes 2 et 3) nécessaires au scénario où un SBC est interconnecté à de nombreux locataires (scénario d’opérateur) sont abordées plus loin dans cet article.
 
@@ -90,7 +90,7 @@ Lors de la réception de l’invitation, le proxy SIP effectue les étapes suiva
 
 #### <a name="contact-header"></a>En-tête de contact
 
-Pour tous les messages SIP entrants (OPTIONS, INVITE) à l’Microsoft proxy SIP, l’en-tête Contact doit avoir le nom de domaine complet SBC couplé dans le nom d’hôte de l’URI comme suit :
+Pour tous les messages SIP entrants (OPTIONS, INVITE) vers le proxy SIP Microsoft, l’en-tête Contact doit avoir le nom de domaine complet SBC couplé dans le nom d’hôte de l’URI comme suit :
 
 Syntaxe : Contact : <sip:phone ou sip address@FQDN du> SBC;transport=tls 
 
@@ -135,7 +135,7 @@ Selon [la RFC 3261, section 8.1.1.8](https://tools.ietf.org/html/rfc3261#section
 
 Microsoft recommande d’utiliser uniquement l’en-tête Contact si aucun SBC proxy n’est utilisé :
 
-- Conformément à la [section 20.30 de la RFC 3261](https://tools.ietf.org/html/rfc3261#section-20.30), Record-Route est utilisé si un proxy souhaite rester sur le chemin des requêtes futures dans un dialogue, ce qui n’est pas essentiel si aucun SBC proxy n’est configuré, car tout le trafic transite entre le proxy SIP Microsoft et le SBC jumelé. 
+- Conformément à la [RFC 3261, section 20.30](https://tools.ietf.org/html/rfc3261#section-20.30), Record-Route est utilisé si un proxy souhaite rester sur le chemin des requêtes futures dans un dialogue, ce qui n’est pas essentiel si aucun SBC proxy n’est configuré, car tout le trafic va entre le proxy SIP Microsoft et le SBC jumelé. 
 
 - Le proxy SIP Microsoft utilise uniquement l’en-tête Contact (et non Record-Route) pour déterminer le tronçon suivant lors de l’envoi des options ping sortantes. La configuration d’un seul paramètre (Contact) au lieu de deux (Contact et Record-Route) simplifie l’administration si un SBC proxy n’est pas utilisé. 
 
@@ -317,11 +317,11 @@ Le proxy SIP prend en charge (offre toujours) le minuteur de session sur les app
 
 Le proxy SIP analyse l’URI de demande et, si le paramètre user=phone est présent, le service gère l’URI de requête en tant que numéro de téléphone, en faisant correspondre le numéro à un utilisateur. Si le paramètre n’est pas présent, le proxy SIP applique des heuristiques pour déterminer le type d’utilisateur Request-URI (numéro de téléphone ou adresse SIP).
 
-Microsoft recommande d’appliquer toujours le paramètre user=phone pour simplifier le processus de configuration des appels.
+Microsoft recommande de toujours appliquer le paramètre user=phone pour simplifier le processus de configuration des appels.
 
 ## <a name="history-info-header"></a>en-tête History-Info
 
-L’en-tête History-Info est utilisé pour recibler les demandes SIP et « fournir un mécanisme standard pour capturer les informations de l’historique des demandes afin d’activer un large éventail de services pour les réseaux et les utilisateurs finaux ». Pour plus d’informations, consultez [RFC 4244 – Section 1.1](http://www.ietf.org/rfc/rfc4244.txt). Pour Microsoft système téléphonique, cet en-tête est utilisé dans les scénarios de simulation et de transfert d’appel.  
+L’en-tête History-Info est utilisé pour recibler les demandes SIP et « fournir un mécanisme standard pour capturer les informations de l’historique des demandes afin d’activer un large éventail de services pour les réseaux et les utilisateurs finaux ». Pour plus d’informations, consultez [RFC 4244 – Section 1.1](http://www.ietf.org/rfc/rfc4244.txt). Pour le système téléphonique Microsoft, cet en-tête est utilisé dans les scénarios de simulation et de transfert d’appel.  
 
 En cas d’envoi, le History-Info est activé comme suit :
 
@@ -336,7 +336,7 @@ En cas d’envoi, le History-Info est activé comme suit :
   > [!NOTE]
   > Les entrées privées (telles que déterminées par les mécanismes définis dans la section 3.3 de la RFC 4244) seront transférées telles quels, car le fournisseur de jonction SIP est un homologue approuvé.
 
-- La History-Info entrante est ignorée.
+- La History-Info entrante est conservée lorsque le paramètre ForwardCallHistory est activé. Les History-Info conservées peuvent être utilisées pour la prévention des boucles.
 
 Voici le format de l’en-tête History-info envoyé par le proxy SIP :
 

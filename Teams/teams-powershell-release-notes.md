@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez les dernières modifications apportées à Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29fcd5c5c9f12ae4d7ab9fe965ead62bd8f89046
-ms.sourcegitcommit: 1fdf109a7a99b113ffbe77d62acb8bbb0107dfed
+ms.openlocfilehash: 009805fd9fd39884762effdb4009e16a594028ba
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "69036550"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812701"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notes de publication de Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ Cette page fournit le dernier journal des modifications Teams PowerShell pour le
 
 | Date | Version | Mises à jour |
 |------- | -------------------- | ------------------------------ |
+| Janvier 2023 | [4.9.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.2-preview) |<li>Publie Get-CsSdgBulkSignInRequestStatus & New-CsSdgBulkSignInRequest applets de commande en préversion privée.</li><li>Ajoute le paramètre Certificate à Connect-MicrosoftTeams.</li><li>Ajoute le paramètre WelcomeTextToSpeechPrompt à [New\|Set]-CsCallQueue.</li><li>Résout les problèmes liés à l’entrée de pipeline pour les applets de commande Test-CsEffectiveTenantDialPlan & Test-CsVoiceNormalizationRule.</li>
 | Novembre 2022 | [4.9.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.1) |<li>Libère la prise en charge de l’authentification basée sur l’application dans Connect-MicrosoftTeams en disponibilité générale. Pour plus [d’informations, consultez Authentification basée sur l’application dans le module PowerShell Teams](teams-powershell-application-authentication.md).</li><li>Contient une nouvelle implémentation de [New\|Get\|Set\|Remove]-CsTeamsChannelsPolicy et [New\|Get\|Set\|Remove]-CsTeamsUpdateManagementPolicy. La fonctionnalité reste la même que l’implémentation précédente.</li><li>Ajoute le paramètre UseNewTeamsClient à TeamsUpdateManagementPolicy.</li><li>Ajoute le paramètre EnablePrivateTeamDiscovery à TeamsChannelsPolicy.</li><li>Résout les problèmes liés au jeton d’authentification qui n’est pas actualisé pour certaines applets de commande de stratégie.</li><li>Résout les problèmes où le format d’affichage a été rompu pour certaines applets de commande.</li><li>Ajoute les attributs SipProxyAddress, TeamsMediaLoggingPolicy, CountryAbbreviation, UserValidationErrors et WhenCreated dans Get-CsOnlineUser sortie lors de l’exécution sans paramètre -Identity. Parmi ces attributs, CountryAbbreviation, UserValidationErros et WhenCreated n’affichent pas encore de valeurs. Celles-ci seront déployées progressivement, plus de détails dans [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser).</li><li>Corrige Add-TeamChannelUser & Remove-TeamChannelUser prendre upn pour le paramètre -User afin de gérer les membres externes dans un canal partagé.</li>
 | Octobre 2022 | [4.9.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.0) |<li>Libère les applets de commande [Get\|Set]-CsTeamsEducationConfiguration en disponibilité générale.</li><li>Contient une nouvelle implémentation de [New\|Get\|Set\|Remove]-CsTeamsFeedbackPolicy, [New\|Get\|Set\|Remove]-CsTeamsMessagingPolicy, [New\|Get\|Set\|Remove]-CsTeamsMeetingPolicy et [New\|Get\|Set\|Remove]-CsOnlineVoicemailPolicy. La fonctionnalité reste la même que l’implémentation précédente.</li><li>Ajoute les paramètres ExplicitRecordingConsent, ForceStreamingAttendeeMode à TeamsMeetingPolicy.</li><li>Ajoute les paramètres Description, PreambleAudioFile, PostambleAudioFile et PreamblePostambleMandatory à OnlineVoicemailPolicy.</li><li>Ajoute le paramètre AllowChatWithGroup à TeamsMessagingPolicy.</li><li>Ajoute le paramètre EnableFeatureSuggestions à TeamsFeedbackPolicy.</li><li>Libère Update-CsTeamsShiftsConnectionInstance applet de commande.</li>
 | Octobre 2022 | [4.8.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.1-preview) |<li>Contient une nouvelle implémentation de [New\|Get\|Set\|Remove]-CsTeamsMessagingPolicy, [New\|Get\|Set\|Remove]-CsTeamsMeetingPolicy et [New\|Get\|Set\|Remove]-CsOnlineVoicemailPolicy. REMARQUE : Ces applets de commande fonctionnent actuellement uniquement avec powershell.exe. Ils ne fonctionnent pas pour pwsh.exe. Ce problème sera résolu dans la prochaine version en disponibilité générale.</li><li>Ajoute les paramètres ExplicitRecordingConsent, ForceStreamingAttendeeMode à TeamsMeetingPolicy.</li><li>Ajoute les paramètres Description, PreambleAudioFile, PostambleAudioFile et PreamblePostambleMandatory à OnlineVoicemailPolicy.</li><li>Ajoute les paramètres AllowChatWithGroup et EnableFeatureSuggestions à TeamsMessagingPolicy.</li><li>Libère Update-CsTeamsShiftsConnectionInstance applet de commande.</li>

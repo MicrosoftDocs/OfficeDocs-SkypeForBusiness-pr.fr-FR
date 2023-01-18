@@ -1,5 +1,5 @@
 ---
-title: Codes de pays de routage direct
+title: Codes pays de routage direct
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,67 +15,64 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Lisez cet article pour identifier les codes de pays de chemin de médias pour le routage direct afin de sélectionner le chemin de médias optimal.
+description: Lisez cet article pour rechercher les codes de pays du chemin d’accès multimédia pour le routage direct afin de pouvoir sélectionner le chemin d’accès multimédia optimal.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36124a8aadc94bfd73ffd195ec8ee0a2acf0c2a6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a70dad128987a5fb0df639984be07b623f9ff425
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582348"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812671"
 ---
-# <a name="direct-routing-media-path-country-codes"></a>Direct Routing media path country codes
+# <a name="direct-routing-media-path-country-codes"></a>Codes de pays du chemin de média de routage direct
 
-Lorsque vous choisissez un itinéraire de routage pour le média, le routage direct affecte toujours par défaut un centre de données basé sur l’adresse IP publique du contrôleur de session en bordure (SBC), et sélectionne toujours le chemin le plus proche du centre de données SBC.
+Lors du choix d’un chemin de routage pour le support, le routage direct, par défaut, affecte toujours un centre de données en fonction de l’adresse IP publique du contrôleur de bordure de session (SBC) et sélectionne toujours le chemin le plus proche du centre de données SBC.
 
-Toutefois, dans certains cas, le chemin de médias par défaut peut ne pas être le chemin multimédia optimal . Par exemple, une adresse IP publique provenant d’une plage aux États-Unis peut être affectée à unbc SBC situé en Europe. 
+Toutefois, dans certains cas, le chemin d’accès multimédia par défaut peut ne pas être le chemin d’accès multimédia optimal ; Par exemple, une adresse IP publique d’une plage États-Unis peut être affectée à un SBC situé en Europe. 
 
-En utilisant le paramètre -MediaRelayRoutingLocationOverride avec les cmdlets New-CsOnlinePSTNGateway et Set-CsOnlinePSTNGateway>, vous pouvez spécifier la région préférée pour le trafic de médias. Par exemple, la commande suivante indique que la région préférée est Allemagne :
+En utilisant le paramètre -MediaRelayRoutingLocationOverride avec les applets de commande New-CsOnlinePSTNGateway et Set-CsOnlinePSTNGateway, vous pouvez spécifier la région par défaut pour le trafic multimédia. Par exemple, la commande suivante spécifie que la région préférée est l’Allemagne :
 
 Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationOverride DE 
 
-Notez que Microsoft recommande de définir ce paramètre uniquement si les journaux d’appels indiquent clairement que l’affectation par défaut du centre de données pour le chemin de médias n’utilise pas le chemin le plus proche du centre de données SBC. 
-
-> [!NOTE]
-> Le paramètre MediaRelayRoutingLocationOverride est réservé aux opérateurs gérés.
+Notez que Microsoft recommande de définir ce paramètre uniquement si les journaux des appels indiquent clairement que l’affectation par défaut du centre de données pour le chemin d’accès multimédia n’utilise pas le chemin le plus proche du centre de données SBC. 
  
 ## <a name="country-code-reference-table"></a>Table de référence des codes de pays
 
-Le tableau suivant indique les valeurs de code de pays pour le paramètre -MediaRelayRoutingLocationOverride :
+Le tableau suivant montre les valeurs de code de pays pour le paramètre -MediaRelayRoutingLocationOverride :
 
 | Pays         | Code 
 |-----------------|--------------------|
 | Afghanistan     | AF |
-| Îles Aland   | AX |
+| Aland (îles)   | AX |
 | Albanie         | AL |
 | Algérie         | DZ |
-| Samoa américaines  | AS |
+| Samoa américaines  | COMME |
 | Andorre         | AD |
 | Angola          | AO |
-| Anguilla        | AI |
+| Anguilla        | IA |
 | Antarctique      | AQ | 
-| Antigua-et-Barbuda | INSER |
+| Antigua-et-Barbuda | AG |
 | Argentine       | AR |
-| Arménie         | AM |
+| Arménie         | SUIS |
 | Aruba           | AW |
 | Australie       | AU |
-| Autriche         | AT |
+| Autriche         | À |
 | Azerbaïdjan      | AZ |
 | Bahamas         | BS |
-| Bahreïn         | SO |
+| Bahreïn         | BH |
 | Bangladesh      | BD |
 | Barbade        | BB |
 | Bélarus         | BY |
 | Belgique         | BE |
 | Belize          | BZ |
 | Bénin           | BJ |
-| Bermudes         | MBY |
+| Bermudes         | BM |
 | Bhoutan          | BT |
 | Bolivie         | BO |
 | Bonaire         | BQ |
 | Bosnie-Herzégovine | BA |
-| Botswana        | NB |
-| Île Bouland   | BV |
+| Botswana        | BW |
+| Île Bouvet   | BV |
 | Brésil          | BR |
 | Territoire britannique de l’océan Indien | IO |
 | Îles Vierges britanniques | VG |
@@ -83,7 +80,7 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre -Media
 | Bulgarie        | BG |
 | Burkina Faso    | BF |
 | Burundi         | BI |
-| Cabo Verde      | VC |
+| Cabo Verde      | CV |
 | Cambodge        | KH |
 | Cameroun        | CM |
 | Canada          | CA |
@@ -92,8 +89,8 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre -Media
 | Tchad            | TD |
 | Chili           | CL |
 | Chine           | CN |
-| Île Christmas | CX |
-| Îles Cocos | CC |
+| Christmas Island | CX |
+| Îles Cocos (Keeling) | CC |
 | Colombie        | CO |
 | Comores         | KM |
 | Congo           | CG |
@@ -105,32 +102,32 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre -Media
 | Cuba            | CU |
 | Curaçao         | CW |
 | Chypre          | CY |
-| République tchèque         | CZ |
+| Tchéquie         | CZ |
 | Danemark         | DK |
-| Djibouti        | Z |
+| Djibouti        | DJ |
 | Dominique        | DM |
-| République dominicaine | DO |
+| République dominicaine | FAIRE |
 | Équateur         | EC |
 | Égypte           | EG |
 | Salvador     | SV |
 | Guinée Équatoriale | GQ |
 | Érythrée         | ER |
 | Estonie         | EE |
-| Eswa qu’on ne peut pas faire        | SZ |
+| Eswatini        | SZ |
 | Éthiopie        | ET |
-| Malouines (îles) | FK |
+| Îles Malouines | FK |
 | Îles Féroé   | FO |
 | Fidji            | FJ |
 | Finlande         | FI |
 | France          | FR |
 | Guyane française   | GF |
 | Polynésie française | PF |
-| Terres australes françaises | TF |
+| Français Territoires du Sud | TF |
 | Gabon           | GA |
 | Gambie          | GM |
 | Géorgie         | GE |
 | Allemagne         | DE |
-| Ghana           | GAND |
+| Ghana           | GH |
 | Gibraltar       | GI |
 | Grèce          | GR |
 | Groenland       | GL |
@@ -138,17 +135,17 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre -Media
 | Guadeloupe      | GP |
 | Guam            | GU |
 | Guatemala       | GT |
-| Guernsey        | GG |
+| Guernesey        | GG |
 | Guinée          | GN |
 | Guinea-Bissau   | GW |
 | Guyane          | GY |
 | Haïti           | SALUT |
-| Heard et McDonald (îles) | HM |
+| Îles Heard et McDonald | HM |
 | Honduras        | HN |
 | Hong Kong (R.A.S)   | HK |
 | Hongrie         | HU |
 | Islande         | EST |
-| Inde           | IN |
+| Inde           | DANS |
 | Indonésie       | ID |
 | Iran            | IR |
 | Irak            | IQ |
@@ -163,9 +160,9 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre -Media
 | Jordanie          | JO |
 | Kazakhstan      | KZ |
 | Kenya           | KE |
-| Kersti        | KI |
+| Kiribati        | KI |
 | Corée           | KR |
-| Monde          | XK |
+| Kosovo          | XK |
 | Koweït          | KW |
 | Kirghizstan      | KG |
 | Laos            | LA |
@@ -177,16 +174,16 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre -Media
 | Liechtenstein   | LI |
 | Lituanie       | LT |
 | Luxembourg      | LU |
-| Macao (R.A.S.       | MO |
-| Madagascar      | Z |
-| Malawi          | SO |
+| Macao (R.S.)       | MO |
+| Madagascar      | MG |
+| Malawi          | MW |
 | Malaisie        | MY |
 | Maldives        | MV |
 | Mali            | ML |
 | Malte           | MT |
 | Îles Marshall | MH |
 | Martinique      | MQ |
-| Desse      | MR |
+| Mauritanie      | M |
 | Maurice       | MU |
 | Mayotte         | YT |
 | Mexique          | MX |
@@ -194,7 +191,7 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre -Media
 | Moldova         | MD |
 | Monaco          | MC |
 | Mongolie        | MN |
-| Monténégro      | ME |
+| Monténégro      | MOI |
 | Montserrat      | MS |
 | Maroc         | MA |
 | Mozambique      | MZ |
@@ -209,17 +206,17 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre -Media
 | Niger           | NE |
 | Nigéria         | NG |
 | Niue            | NU |
-| ÎleSQuel  | NF |
+| Île Norfolk  | NF |
 | Corée du Nord     | KP |
 | Macédoine du Nord | MK |
 | Îles Mariannes du Nord | NP |
-| Norvège          | NO |
+| Norvège          | NON |
 | Oman            | OM |
 | Pakistan        | PK |
 | Palaos           | PW |
 | Autorité palestinienne | PS |
 | Panama          | PA |
-| Papouasie-Nouvelle-Guinée | PG |
+| Papouasie-nouvelle-guinée | PG |
 | Paraguay        | PY |
 | Pérou            | PE |
 | Philippines     | PH |
@@ -233,29 +230,29 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre -Media
 | Russie          | RU |
 | Rwanda          | RW |
 | Saba            | XS |
-| Saint-Jérône | BL |
+| Saint Barthélemy | BL |
 | Saint-Christophe-et-Niévès | KN |
 | Sainte-Lucie     | LC |
-| Saint Martin    | PPXT |
+| Saint Martin    | MF |
 | Saint-Pierre-et-Miquelon | PM |
 | Saint-Vincent-et-les-Grenadines | VC |
 | Samoa           | WS |
 | Saint-Marin      | SM |
-| São Tome et Principe | ST |
+| Sao Tomé-et-Principe | ST |
 | Arabie Saoudite    | SA |
 | Sénégal         | SN |
 | Serbie          | RS |
 | Seychelles      | SC |
 | Sierra Leone    | SL | 
 | Singapour       | SG |
-| Sint Eustatius  | XE |
+| Saint-Eustache  | XE |
 | Saint-Martin    | SX |
 | Slovaquie        | SK |
 | Slovénie        | SL |
-| Îles Islands | SB |
-| Somalie         | SO |
+| Salomon | SB |
+| Somalie         | AINSI |
 | Afrique du Sud    | ZA |
-| Géorgie du Sud et îles Sandwich du Sud | GS |
+| Géorgie du Sud et Îles Sandwich du Sud | GS |
 | Soudan du Sud     | SS |
 | Espagne           | ES |
 | Sri Lanka       | LK |
@@ -275,25 +272,25 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre -Media
 | Tokelau         | TK |
 | Tonga           | À |
 | Trinité-et-Tobago | TT |
-| Tunisie         | TN |
+| Tunisie         | AMT |
 | Turquie          | TR |
 | Turkménistan    | TM |
-| Turks et Caicos (îles) | TC |
-| Tuvalu          | Téléviseur |
-| Îles sortantes des États-Unis | UM |
-| Îles Vierges des États-Unis | VI |
+| Îles Turks-et-Caïques | TC |
+| Tuvalu          | TV |
+| Îles de l’extérieur des États-Unis | Messagerie unifiée |
+| Îles Vierges américaines | VI |
 | Ouganda          | UG |
 | Ukraine         | UA |
 | Émirats arabes unis | AE |
 | Royaume-Uni  | GB |
-| États-Unis   | États-Unis |
+| États-Unis   | NOUS |
 | Uruguay         | UY |
 | Ouzbékistan      | UZ |
 | Vanuatu         | VU |
-| Cité du Vatican    | VA |
+| Vatican    | VA |
 | Venezuela       | VE |
 | Vietnam         | VN |
 | Wallis-et-Futuna | WF |
-| Yémen           | YE |
+| Yémen           | VOUS |
 | Zambie          | ZM |
-| Zimbabwe        | SYSTÈME D’ÉQUIPES |
+| Zimbabwe        | ZW |

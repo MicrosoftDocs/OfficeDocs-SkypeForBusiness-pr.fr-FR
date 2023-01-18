@@ -25,12 +25,12 @@ ms.custom:
 - Phone System - seo-marvel-apr2020
 robots: noindex
 description: Découvrez comment configurer des files d’attente d’appels dans Microsoft Teams. Les files d’attente d’appels fournissent un message d’accueil, contiennent de la musique, la redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: 9750bfddbf43c1b0e103e6d6c31feaf4aa542590
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: fd7ebc4c2be9024ba1f83b3adc8d1cff8834a015
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392524"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812851"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -131,7 +131,7 @@ Une fois que vous avez créé ce nouveau compte de ressource pour l’ID d’app
 
 - Attribuez une [licence de compte de ressource téléphonique Teams](manage-resource-accounts.md#assign-a-license).
 - Attribuez une licence de forfait d’appels Microsoft, attribuez un numéro de téléphone Operator Connect ou affectez une stratégie de routage vocal en ligne pour le routage direct.
-- Affectez le [numéro de téléphone au compte de ressource](manage-resource-accounts.md#assign-a-phone-number), si vous utilisez Microsoft forfait d’appels.
+- Affectez le [numéro de téléphone au compte de ressource](manage-resource-accounts.md#assign-a-phone-number), si vous utilisez le forfait d’appels Microsoft.
 
 #### <a name="set-the-call-queue-language"></a>Définir la langue de la file d’attente des appels
 
@@ -157,7 +157,7 @@ Teams fournit la musique par défaut aux appelants lorsqu’ils sont *en attente
 - Si vous souhaitez diffuser un fichier audio spécifique, choisissez **Lire un fichier audio** et téléchargez un fichier MP3, WAV ou WMA.
 
 > [!NOTE]
-> Vous êtes responsable de l’effacement et de la sécurisation de tous les droits et autorisations nécessaires pour utiliser tout fichier audio ou de musique avec votre Microsoft service Teams, ce qui peut inclure la propriété intellectuelle et d’autres droits sur toute musique, effets sonores, audio, marques, noms et autres contenus dans le fichier audio de tous les titulaires de droits pertinents, y compris les artistes,  acteurs, artistes interprètes, musiciens, auteurs-compositeurs, compositeurs, labels de disques, éditeurs de musique, syndicats, guildes, sociétés de droits, organisations de gestion collective et toute autre partie qui possède, contrôle ou licence les droits d’auteur, effets sonores, audio et autres droits de propriété intellectuelle de la musique.
+> Vous êtes responsable de l’effacement et de la sécurisation indépendants de tous les droits et autorisations nécessaires pour utiliser tout fichier audio ou de musique avec votre service Microsoft Teams, ce qui peut inclure la propriété intellectuelle et d’autres droits sur la musique, les effets sonores, l’audio, les marques, les noms et tout autre contenu dans le fichier audio de tous les titulaires de droits pertinents, y compris les artistes,  acteurs, artistes interprètes, musiciens, auteurs-compositeurs, compositeurs, labels de disques, éditeurs de musique, syndicats, guildes, sociétés de droits, organisations de gestion collective et toute autre partie qui possède, contrôle ou licence les droits d’auteur, effets sonores, audio et autres droits de propriété intellectuelle de la musique.
 
 Une fois que vous avez sélectionné un message d’accueil et de la musique en attente, sélectionnez le bouton **Suivant** en bas de la page **Ajouter une file d’attente d’appels** .
 
@@ -177,7 +177,7 @@ Si vous souhaitez [utiliser un canal Teams pour gérer la file d’attente](http
 
 Les clients suivants sont pris en charge lors de l’utilisation d’un canal Teams pour les files d’attente d’appels :
 
-- Microsoft client Windows Teams
+- Client Windows Microsoft Teams
 - Client Microsoft Teams pour Mac
 
 > [!NOTE]
@@ -353,38 +353,38 @@ Les configurations ci-dessous sont recommandées :
 |Fonctionnalité                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Skype Entreprise |Téléphones IP | Files d’attente d’appels standard |Files d’attente d’appels basées sur un canal | Commentaire |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
 |**Méthodes de routage de l’agent**        |                          |          |                |     |          |                      |                          |   |
-|`Attendant Routing`              |O                         |O         |O               |O    |O         |O                     |v                         |*Par défaut*     |
+|`Attendant Routing`              |O                         |O         |O               |O    |O         |O                     |O                         |*Par défaut*     |
 |`Longest Idle`<sup>3</sup>       |O                         |O         |v               |N    |O         |O                     |v                         |*Recommandé* |
 |`Round Robin`                    |O                         |O         |O               |O    |O         |O                     |v                         |*Recommandé* |
 |`Serial`                         |O                         |O         |O               |O    |v         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Options de routage de l’agent**        |                          |          |                |     |          |                      |                          |   |
-|`Presence Based Routing`<sup>3</sup>|O                      |O         |v               |N    |O         |O                     |v                         |*Par défaut* |
-|`Agents can Opt-out`<sup>10</sup> |O                       |O         |v               |Y<sup>7</sup>|Y<sup>7</sup>|O          |O                         |*Par défaut*     |
+|`Presence Based Routing`<sup>3</sup>|O                      |O         |v               |N    |O         |O                     |O                         |*Par défaut* |
+|`Agents can Opt-out`<sup>10</sup> |O                       |O         |v               |Y<sup>7</sup>|Y<sup>7</sup>|O          |v                         |*Par défaut*     |
 |**Modes de transfert**               |                          |          |                |     |          |                      |                          |   |
 |`Conference Mode`<sup>5</sup>    |O                         |O         |v               |N    |Y<sup>6</sup>|O                  |O                         |*Par défaut* |
-|`Transfer Mode`                  |O                         |O         |O               |O    |O         |O                     |v                         |   |
+|`Transfer Mode`                  |O                         |O         |O               |O    |O         |O                     |O                         |   |
 |**Appel collaboratif**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |v                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**ID d’appelant dynamique**            |                          |          |                |     |          |                      |                          |   |
 |`Standard call queue`            |O                         |O         |v               |N    |N         |O                     |n/a                       |   |
-|`Channel based call queue`       |O                         |n/a       |n/a             |n/a  |n/a       |n/a                   |v                         |   |
+|`Channel based call queue`       |v                         |n/a       |n/a             |n/a  |n/a       |n/a                   |v                         |   |
 |**Méthodes de connectivité RTC**    |                          |          |                |     |          |                      |                          |Voir la note 9   |
 |`Calling Plans`                  |O                         |O         |O               |O    |O         |O                     |O                         |   |
 |`Direct Routing`                 |O                         |O         |v               |N    |O         |Y<sup>6</sup>         |O                         |   |
-|`Operator Connect`               |O                         |O         |O               |     |v         |Y<sup>6</sup>         |v                         |   |
+|`Operator Connect`               |O                         |O         |O               |     |O         |Y<sup>6</sup>         |O                         |   |
 |**Divers**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |v                 |N         |O               |O    |          |O                     |v                         |              |
 
 #### <a name="notes"></a>Remarques
 
-1. Microsoft client Windows Teams, Microsoft Client Mac Teams, Microsoft Teams sur l’infrastructure de bureau virtualisée.
-2. Microsoft application Pour iPhone Teams, Microsoft l’application Android Teams.
+1. Client Microsoft Teams Windows, Client Mac Microsoft Teams, Microsoft Teams sur infrastructure de bureau virtualisée.
+2. Application Microsoft Teams pour iPhone, application Android Microsoft Teams.
 3. La sélection de la méthode d’inactivité la plus longue pour la méthode de routage de l’agent active automatiquement le routage basé sur la présence.
 4. Il n’est pas possible de définir l’ordre dans lequel les agents seront appelés.
 5. Le mode conférence n’est pas pris en charge si les appels téléphoniques sont routés vers la file d’attente à partir d’une passerelle de routage direct activée pour le routage basé sur l’emplacement.
 6. Téléphonie Microsoft Teams uniquement.
 7. Via la page du portail paramètres utilisateur à l’adresse [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
-8. Seuls les canaux publics sont pris en charge.
+8. Seuls les canaux standard sont pris en charge.
 9. Les standards automatiques et les files d’attente d’appels ne peuvent pas transférer les appels entre les méthodes de connectivité RTC.
 10. Pour GCCH/DOD, disponible uniquement via le portail des paramètres utilisateur à l’adresse suivante :
     - GCCH : [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)

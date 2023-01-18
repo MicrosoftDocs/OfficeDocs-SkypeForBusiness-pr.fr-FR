@@ -28,12 +28,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: Découvrez comment configurer des files d’attente d’appels dans Microsoft Teams. Les files d’attente d’appels fournissent un message d’accueil, contiennent de la musique, la redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: 4b12b1e89b11902299f973a97bdace44a841029e
-ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
+ms.openlocfilehash: b7bb107dc87ababd9c514655521525b6997fac29
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2023
-ms.locfileid: "69763565"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812721"
 ---
 # <a name="create-a-call-queue-in-microsoft-teams"></a>Créer une file d’attente des appels dans Microsoft Teams
 
@@ -378,9 +378,9 @@ Les configurations ci-dessous sont recommandées :
 |`Serial`                         |O                         |O         |O               |O    |v         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Options de routage de l’agent**        |                          |          |                |     |          |                      |                          |   |
 |`Presence Based Routing`<sup>3</sup>|O                      |O         |v               |N    |O         |O                     |v                         |*Par défaut* |
-|`Agents can Opt-out`<sup>10</sup> |O                       |O         |v               |Y<sup>7</sup>|Y<sup>7</sup>|O          |O                         |*Par défaut*     |
+|`Agents can Opt-out`<sup>10</sup> |O                       |O         |O               |Y<sup>7</sup>|Y<sup>7</sup>|O          |v                         |*Par défaut*     |
 |**Modes de transfert**               |                          |          |                |     |          |                      |                          |   |
-|`Conference Mode`<sup>5</sup>    |O                         |O         |v               |N    |Y<sup>6</sup>|O                  |O                         |*Par défaut* |
+|`Conference Mode`<sup>5</sup>    |O                         |O         |v               |N    |Y<sup>6</sup>|O                  |v                         |*Par défaut* |
 |`Transfer Mode`                  |O                         |O         |O               |O    |O         |O                     |v                         |   |
 |**Appel collaboratif**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |v                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
@@ -400,10 +400,10 @@ Les configurations ci-dessous sont recommandées :
 2. Application Microsoft Teams pour iPhone, application Android Microsoft Teams.
 3. La sélection de la méthode d’inactivité la plus longue pour la méthode de routage de l’agent active automatiquement le routage basé sur la présence.
 4. Il n’est pas possible de définir l’ordre dans lequel les agents seront appelés.
-5. Le mode conférence n’est pas pris en charge si les appels téléphoniques sont routés vers la file d’attente à partir d’une passerelle de routage direct activée pour le routage basé sur l’emplacement.
+5. Le mode conférence n’est pas pris en charge si les appels téléphoniques sont routés vers la file d’attente à partir d’une passerelle de routage direct activée pour le routage Location-Based. Pour l’implémentation de la file d’attente d’appels avec Location-Based routage, consultez [Applications vocales (standard automatique ou file d’attente d’appels).](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue)
 6. Téléphonie Microsoft Teams Système uniquement.
 7. Via la page du portail paramètres utilisateur à l’adresse [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
-8. Seuls les canaux publics sont pris en charge.
+8. Seuls les canaux standard sont pris en charge.
 9. Les standards automatiques et les files d’attente d’appels ne peuvent pas transférer d’appels entre les méthodes de connectivité RTC.
 10. Pour GCCH/DOD, disponible uniquement via le portail des paramètres utilisateur à l’adresse suivante :
 - GCCH : [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)

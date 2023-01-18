@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Découvrez comment utiliser le rapport Power BI du standard automatique Teams & rapport historique de file d’attente d’appels mis à jour pour afficher les données d’historique du standard automatique et de la file d’attente des appels.
-ms.openlocfilehash: ed267cf2d96f15236aa68339049d2c721249ec00
-ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
+ms.openlocfilehash: 0ff8e7d1b5a1b9901c5b8a5da49d67fbf8ac5275
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2023
-ms.locfileid: "69763555"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812731"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports"></a>Rapports d’historique du standard automatique et de la file d’attente d’appels
 
@@ -302,9 +302,13 @@ Vous devez actualiser les données pour voir les nouvelles données.
 
 ## <a name="known-issues"></a>Problèmes connus
 
-- Les files d’attente d’appels et les standards automatiques sont affichés par l’ID du compte de ressource au lieu des noms de file d’attente/standard automatique des appels.  Pour afficher tout le trafic d’un standard automatique ou d’une file d’attente d’appels, vous devez sélectionner tous les comptes de ressources affectés au standard automatique ou à la file d’attente d’appels.
+- Le visuel **Résultats des appels** dans le rapport **File d’attente d’appels** peut signaler un grand nombre d’appels **_inconnus_** . Cela est dû à un problème de classification des appels que le support technique s’efforce de corriger.  Il s’agit d’un problème de classification d’appel uniquement, et ces appels ont été traités avec succès par le système.
 
-- Seuls 28 jours d’historique sont disponibles dans le tableau de bord, car les données de file d’attente d’appels/standard automatique sont considérées comme des données personnelles et soumises à des stratégies de conservation de la confidentialité des données.
+- Seuls les appels et les actions de l’appelant dans le premier standard automatique ou file d’attente d’appels qui répond à l’appel sont signalés.  Les appels et les actions de l’appelant dans les standards automatiques chaînés (lorsqu’un standard automatique est transféré vers un autre standard automatique) ou les files d’attente d’appels chaînées (lorsqu’une file d’attente d’appels est transférée vers une autre file d’attente d’appels) ne sont pas signalées. 
+
+- Les files d’attente d’appels et les standards automatiques sont affichés par l’ID du compte de ressource au lieu des noms de file d’attente d’appels ou de standard automatique.  Pour afficher tout le trafic d’un standard automatique ou d’une file d’attente d’appels, vous devez sélectionner tous les comptes de ressources affectés au standard automatique ou à la file d’attente d’appels.
+
+- Seuls 28 jours d’historique sont disponibles dans le tableau de bord, car la file d’attente d’appels et les données du standard automatique sont considérées comme des données personnelles et soumises à des stratégies de conservation de la confidentialité des données.
 
 - Dans certains scénarios, le nombre d’appels répondus par l’agent dans le rapport **chronologie de l’agent de file d’attente d’appels** cloud peut être différent du nombre d’appels indiqué dans l’historique des appels du client Teams. L’historique des appels du client Teams est correct. Le support est en cours d’examen, mais il n’y a pas de temps estimé pour la réparation disponible pour l’instant.
 

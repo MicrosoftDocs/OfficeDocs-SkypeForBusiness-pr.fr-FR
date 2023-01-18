@@ -12,12 +12,12 @@ ms.collection:
 description: Découvrez l’authentification basée sur l’application dans le module PowerShell Teams, utilisé pour l’administration de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04cc2e3c069f30e44dd0c62a42be42fd1cce16b7
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 60d9bf64233db3f5e615c0904c6eb376f187266c
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307949"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812841"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Authentification basée sur l’application dans le module PowerShell Teams
 
@@ -47,6 +47,13 @@ Les exemples suivants montrent comment utiliser le module PowerShell Teams avec 
   Connect-MicrosoftTeams -CertificateThumbprint "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
   ```
   Lorsque vous utilisez le paramètre CertificateThumbprint, le certificat doit être installé sur l’ordinateur sur lequel vous exécutez la commande. Le certificat doit être installé dans le magasin de certificats utilisateur.
+  
+- Se connecter à l’aide d’un objet de certificat :
+
+  ```powershell
+  Connect-MicrosoftTeams -Certificate <%X509Certificate2 object%> -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
+  ```
+  Lorsque vous utilisez le paramètre Certificate, le certificat n’a pas besoin d’être installé sur l’ordinateur sur lequel vous exécutez la commande. Le certificat peut être stocké à distance & extrait lors de l’exécution du script. Le paramètre Certificate est disponible à partir du module PowerShell Teams version 4.9.2-preview ou ultérieure.
   
 - Se connecter à l’aide de jetons d’accès :
   
@@ -92,7 +99,7 @@ Les exemples d’étapes de création d’applications dans Azure Ad sont mentio
 1. Inscrire l’application dans Azure AD
 2. Attribuer des autorisations d’API à l’application
    - Pour \*les applets de commande -Cs, l’autorisation Microsoft API Graph nécessaire est `Organization.Read.All`.
-   - Pour les applets de commande Non \*-Cs, les autorisations Microsoft API Graph nécessaires sont `Organization.Read.All`, `User.Read.All`, `Group.ReadWrite.All``AppCatalog.ReadWrite.All`, , `TeamSettings.ReadWrite.All`, , `ChannelSettings.ReadWrite.All``Channel.Delete.All``ChannelMember.ReadWrite.All`.  
+   - Pour les applets de commande Non \*-Cs, les autorisations microsoft API Graph nécessaires sont `Organization.Read.All`, `User.Read.All`, `Group.ReadWrite.All``AppCatalog.ReadWrite.All`, , `TeamSettings.ReadWrite.All`, `Channel.Delete.All`, `ChannelSettings.ReadWrite.All``ChannelMember.ReadWrite.All`.  
 3. Générer un certificat auto-signé
 4. Attacher le certificat à l’application Azure AD
 5. Attribuer [des rôles Azure AD](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) à l’application
