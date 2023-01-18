@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Que Microsoft Teams produise les meilleurs résultats.
-ms.openlocfilehash: 26d5e0c4ec5255629183f4720fcfca6b816f86db
-ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
+ms.openlocfilehash: fc9b078744f2d681989ed49befd4ba84b4aec90a
+ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2023
-ms.locfileid: "69812831"
+ms.lasthandoff: 01/18/2023
+ms.locfileid: "69820339"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Appareils Android certifiés Microsoft Teams
 
@@ -431,6 +431,7 @@ Lorsque vous installez une nouvelle version de microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse|
 |:--------------|:-----------------|:-------------------------|
+|Logitech Tap Scheduler | `1.8.181` |Mise à jour 2022 #4  |
 |Yealink RoomPanel | ` 147.15.0.36 ` | Mise à jour 2022 #4 |
 |Panneau de pavés soignés | `NFA1.20220914.1215` | Mise à jour 2022 #3A  |
 |Panneau de pavés soignés | `NFA1.20220914.1206` | Mise à jour 2022 #3A  |

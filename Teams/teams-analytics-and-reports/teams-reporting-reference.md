@@ -15,35 +15,41 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
-description: Dans cet article, vous allez découvrir les rapports Teams disponibles dans le centre d’administration Microsoft Teams.
+description: Dans cet article, vous allez découvrir les rapports Teams disponibles dans le Centre d’administration Microsoft Teams.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a688a3356ce31dd478c35082195ace8f6be4d47
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: e93a34f19ecf53e05a51fe36983a9f46f741e67e
+ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307659"
+ms.lasthandoff: 01/18/2023
+ms.locfileid: "69820319"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Analyses et rapports Microsoft Teams
 
-Une nouvelle expérience d’analytique et de création de rapports pour Microsoft Teams est disponible dans le centre d’administration Microsoft Teams. Vous pouvez exécuter différents rapports pour obtenir des insights sur la façon dont les utilisateurs de votre organisation utilisent Teams. Par exemple, vous pouvez voir combien d’utilisateurs communiquent via des messages de canal et de conversation, ainsi que les types d’appareils qu’ils utilisent pour se connecter à Teams. Votre organisation peut utiliser les informations des rapports pour mieux comprendre les modèles d’utilisation, aider à prendre des décisions métier et informer les efforts de formation et de communication.
+Une nouvelle expérience d’analytique et de création de rapports pour Microsoft Teams est disponible dans le Centre d’administration Microsoft Teams. Vous pouvez exécuter différents rapports pour obtenir des insights sur la façon dont les utilisateurs de votre organisation utilisent Teams. Par exemple, vous pouvez voir combien d’utilisateurs communiquent via des messages de canal et de conversation, ainsi que les types d’appareils qu’ils utilisent pour se connecter à Teams. Votre organisation peut utiliser les informations des rapports pour mieux comprendre les modèles d’utilisation, aider à prendre des décisions métier et informer les efforts de formation et de communication.
 
 ## <a name="how-to-access-the-reports"></a>Comment accéder aux rapports
 
-Pour accéder aux rapports, vous devez être administrateur général dans Microsoft 365 ou Office 365, lecteur général dans Microsoft 365 ou Office 365, administrateur de service Teams ou administrateur Skype Entreprise. Pour en savoir plus sur les rôles d’administrateur Teams et sur les rapports auxquels chaque rôle d’administrateur peut accéder, consultez [Utiliser les rôles d’administrateur Teams pour gérer Teams](../using-admin-roles.md).
+Pour accéder aux rapports, vous devez avoir l’un des rôles suivants :
 
-Accédez au Centre d’administration Microsoft Teams, dans le volet de navigation de gauche, sélectionnez **Analytique & rapports**, puis sous Afficher les **rapports**, choisissez le rapport que vous souhaitez exécuter.
+- Administrateur général.
+- Teams ou administrateur Skype Entreprise.
+- Lecteur global (uniquement un agrégat au niveau du locataire et aucune donnée par utilisateur ou par équipe).
+
+Pour en savoir plus sur les rôles d’administrateur Teams et sur les rapports auxquels chaque rôle d’administrateur peut accéder, consultez [Utiliser les rôles d’administrateur Teams pour gérer Teams](../using-admin-roles.md).
+
+Accédez au Centre d’administration Microsoft Teams, dans le volet de navigation de gauche, sélectionnez **Analytics & rapports**, puis sous **Afficher les rapports**, choisissez le rapport que vous souhaitez exécuter.
 
 > [!NOTE]
-> Les rapports du centre d’administration Microsoft Teams sont distincts des rapports d’activité pour Teams qui font partie des rapports Microsoft 365 dans le Centre d'administration Microsoft 365. Pour plus d’informations sur les rapports d’activité dans le Centre d'administration Microsoft 365, consultez [Microsoft 365 Rapports dans le Centre d’administration](/microsoft-365/admin/activity-reports/activity-reports).
+> Les rapports du Centre d’administration Microsoft Teams sont distincts des rapports d’activité pour Teams qui font partie des rapports Microsoft 365 dans le Centre d'administration Microsoft 365. Pour plus d’informations sur les rapports d’activité dans le Centre d'administration Microsoft 365, consultez [Rapports Microsoft 365 dans le centre d’administration](/microsoft-365/admin/activity-reports/activity-reports).
 
 ## <a name="teams-reporting-reference"></a>Informations de référence sur les rapports Teams
 
 Voici une liste des rapports Teams disponibles dans le centre d’administration Microsoft Teams dans différents environnements et une vue d’ensemble de certaines des informations disponibles dans chaque rapport.
 
-Nous améliorons continuellement l’expérience de création de rapports Teams et nous ajoutons des fonctionnalités et des fonctionnalités. Au fil du temps, nous allons créer des fonctionnalités supplémentaires dans les rapports et ajouter de nouveaux rapports dans le centre d’administration Microsoft Teams.
+Nous améliorons continuellement l’expérience de création de rapports Teams et nous ajoutons des fonctionnalités et des fonctionnalités. Au fil du temps, nous allons créer des fonctionnalités supplémentaires dans les rapports et ajouter de nouveaux rapports dans le Centre d’administration Microsoft Teams.
 
 |Rapport  |Public |GCC |GCCH |Dod |Quelles données sont mesurées ? |
 |---------|---------|---------|---------|---------|---------|
@@ -64,7 +70,7 @@ Nous améliorons continuellement l’expérience de création de rapports Teams 
 
 ## <a name="make-the-user-specific-data-anonymous"></a>Rendre les données spécifiques de l’utilisateur anonymes
 
-Pour que les données du rapport d’activité utilisateur Teams soient anonymes, vous devez être administrateur général. L’administrateur général peut masquer les informations d’identification (à l’aide de hachages MD5), telles que le nom d’affichage, le nom du groupe, l’adresse e-mail et l’ID AAD dans le rapport et son exportation.
+Pour rendre anonymes les informations d’identification dans les rapports d’utilisation, vous devez être un Administrateur général. Le Administrateur général peut masquer les informations d’identification (à l’aide de hachages MD5), telles que le nom d’affichage, le nom du groupe, l’e-mail et l’ID AAD dans le rapport et son exportation.
 
 1. Dans Centre d'administration Microsoft 365, accédez à **Paramètres Paramètres** \> **Paramètres de l’organisation**, puis sous l’onglet **Services**, choisissez **Rapports**.
     
@@ -75,4 +81,4 @@ Pour que les données du rapport d’activité utilisateur Teams soient anonymes
 > [!NOTE]
 > L’activation de ce paramètre permet d’identifier les informations de nom d’utilisateur, de groupe et de site dans le [rapport d’activité des utilisateurs Teams](user-activity-report.md), le [rapport d’utilisation des appareils Teams](device-usage-report.md) et le [rapport d’utilisation de Teams](teams-usage-report.md). À compter du 1er septembre 2021, ce paramètre est activé par défaut pour tout le monde dans le cadre de notre engagement continu à protéger les informations importantes et à permettre aux entreprises de prendre en charge leurs lois locales sur la protection de la vie privée. 
 >
->Ce paramètre s’applique également aux rapports d’utilisation Microsoft 365 dans Centre d'administration Microsoft 365, Microsoft Graph et Power BI.
+>Ce paramètre s’applique également aux rapports d’utilisation de Microsoft 365 dans Centre d'administration Microsoft 365, Microsoft Graph et Power BI.
