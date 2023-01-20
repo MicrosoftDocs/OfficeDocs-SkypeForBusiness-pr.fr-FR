@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser l’Assistant Portage pour transférer votre numéro de téléphone de votre fournisseur de services actuel vers Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 20c4caf97c5344d48f93feed47dc181495dd318d
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: dd296bcf987016cf77af538edcb2e04328ab525b
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749040"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835477"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transférer des numéros de téléphone vers Microsoft Teams
 
@@ -39,9 +39,6 @@ Avant de commencer, nous vous recommandons de consulter les informations contenu
   > La disponibilité du portage pour les numéros de téléphone gratuits peut varier selon le pays et la région. Pour en savoir plus, reportez-vous aux documents spécifiques à votre pays ou région pour voir la prise en charge disponible pour le service de portage.
 
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Créer une commande de transfert et transférer vos numéros de téléphone vers Teams
-
-> [!NOTE]
-> Si vous rencontrez des problèmes avec le processus de portage dans le Centre d’administration Teams, vous pouvez [envoyer manuellement une commande de transfert](manually-submit-port-order.md) au Service Desk TNS. Pour obtenir le formulaire dont vous avez besoin pour envoyer manuellement une commande de transfert, sélectionnez votre pays ou région dans la liste déroulante [dans Gérer les numéros de téléphone de votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Numéros de téléphone vocaux** > . Sélectionnez **Nombres**, puis **Port** pour démarrer l’Assistant Portage.
 2. Passez en revue les informations de la page **Prise en main** , puis, lorsque vous êtes prêt, sélectionnez **Suivant**.
@@ -84,6 +81,10 @@ Avant de commencer, nous vous recommandons de consulter les informations contenu
 
     > [!NOTE]
     > Après avoir chargé votre LOA, envoyez votre commande. Le simple chargement du LOA ne suffit pas. Vous devez également envoyer la commande pour qu’elle soit traitée.
+    >
+    > Pour plus d’informations sur les contrats d’accès pour le port/le transfert de numéros de téléphone existants et les exigences de documentation supplémentaires, consultez [Gérer les numéros de téléphone pour le forfait d’appels](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+    >
+    > Pour porter/transférer plus de 999 numéros de téléphone ou si vous rencontrez des problèmes avec le processus de portage dans le centre d’administration Microsoft Teams, vous pouvez [envoyer manuellement une commande de transfert](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) au Service Desk TNS pour votre région.
 
 7. Passez en revue les détails de votre commande, puis sélectionnez **Envoyer**.
 

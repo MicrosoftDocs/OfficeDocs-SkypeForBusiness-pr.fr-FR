@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Découvrez comment obtenir de nouveaux numéros de téléphone et transférer ou transférer des numéros existants pour l’audioconférence, les standards automatiques et les files d’attente d’appels (numéros de service) pour Teams.
-ms.openlocfilehash: f72e24db204a53680a3f82469a7a77ca81943d8f
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: 21f577f2db325d57b9f87a2329dcd3ab121b4d5e
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749050"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835457"
 ---
 # <a name="service-phone-numbers-for-calling-plans"></a>Numéros de téléphone de service pour les forfaits d’appels
 
@@ -74,7 +74,11 @@ Pour transférer vos numéros de téléphone de votre fournisseur de services ou
 Si vous rencontrez des problèmes avec l’Assistant portage, vous pouvez [envoyer manuellement une commande de transfert](phone-number-calling-plans/manually-submit-port-order.md) ou accéder à [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md), sélectionner votre pays ou région, puis télécharger une lettre d’autorisation (LOA). Vous devrez soumettre des commandes de port distinctes pour chaque type de numéro de service (par exemple, payant ou gratuit) que vous transférerez à l’aide d’un LOA. Dans le LOA, vous devez sélectionner le type de numéro de service approprié. Veillez à spécifier que vous transférez un numéro de service (et non un numéro d’utilisateur ou d’abonné), ou la capacité d’appel simultanée peut ne pas être suffisante pour gérer les volumes d’appels.  
 
 > [!NOTE]
-> Vous pouvez acheter des numéros de téléphone supplémentaires dans le Centre d’administration Microsoft Teams. Pour des cas particuliers tels qu’un grand nombre de ports (1000+), des ports complexes ou si vous avez besoin d’aide, [contactez le service desk TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
+> Pour plus d’informations sur les contrats d’accès pour le port/le transfert de numéros de téléphone existants et les exigences de documentation supplémentaires, consultez [Gérer les numéros de téléphone pour le forfait d’appels](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+>
+>Pour transférer ou transférer des numéros de téléphone 999 ou moins pour vos utilisateurs, chargez les LBA terminés et signés dans le Centre d’administration Microsoft Teams pour un traitement ultérieur. Vous pouvez également acheter des numéros de téléphone supplémentaires dans le Centre d’administration Microsoft Teams.
+>
+> Pour porter/transférer plus de 999 numéros de téléphone ou si vous rencontrez des problèmes avec le processus de portage dans le centre d’administration Microsoft Teams, vous pouvez [envoyer manuellement une commande de transfert](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) au Service Desk TNS pour votre région.
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Afficher les numéros de téléphone de votre organisation
 

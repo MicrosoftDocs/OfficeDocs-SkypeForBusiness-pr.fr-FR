@@ -18,16 +18,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment envoyer manuellement une demande de transfert.
-ms.openlocfilehash: a1a333b70f717e83df5743e2532bf0092c262054
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: f00f8e31055e20dc39dbee9a5809adad566bc4b0
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749030"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835467"
 ---
 # <a name="manually-submit-a-port-order"></a>Envoyer manuellement une demande de transfert
 
-Pour la plupart des clients, les commandes de transfert peuvent être effectuées dans le Centre d’administration Microsoft Teams. Pour obtenir des instructions sur ce processus, consultez [Transférer des numéros de téléphone vers Microsoft Teams](transfer-phone-numbers-to-teams.md).
+Pour la plupart des clients, les commandes de transfert de 999 numéros de téléphone ou moins peuvent être effectuées dans le Centre d’administration Microsoft Teams. Pour obtenir des instructions sur ce processus, consultez [Transférer des numéros de téléphone vers Microsoft Teams](transfer-phone-numbers-to-teams.md).
 
 Dans certains cas, vous devrez peut-être envoyer manuellement une demande de service pour obtenir des numéros de téléphone, transférer des numéros de téléphone, libérer des numéros de téléphone ou changer d’adresse. Pour voir ce qui est requis pour chaque pays et région ou pour en savoir plus sur le portage des numéros, consultez [Gérer les numéros de téléphone pour votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
@@ -40,6 +40,9 @@ Pour envoyer manuellement une nouvelle commande de transfert, chargez votre form
 1. Téléchargez la [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour votre pays ou région.
 2. Remplissez le formulaire.
 4. Envoyez-le au [service desk TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
+
+> [!NOTE]
+> Pour plus d’informations sur les contrats d’accès pour le port/le transfert de numéros de téléphone existants et les exigences de documentation supplémentaires, consultez [Gérer les numéros de téléphone pour le forfait d’appels](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>Que devez-vous savoir d’autre sur le portage de numéros
 
