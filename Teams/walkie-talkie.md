@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.date: 11/17/2022
-ms.openlocfilehash: abb14f937064b394106e0cf2d58f756371a7c04e
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: c4184e82e99fa4f3169fea14c62f3a892750bf8c
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131273"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845891"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Application Talkie-walkie dans Microsoft Teams
 
@@ -131,6 +131,10 @@ Les travailleurs de première ligne ont souvent besoin de parler et de recevoir 
 > Si vos utilisateurs utilisent des accessoires Bluetooth, assurez-vous que votre solution de gestion des appareils mobiles (GPM) ne bloque pas les appareils Bluetooth.
 
 Sur les appareils exécutant Android OS version 12 ou ultérieure, les autorisations Bluetooth sont requises et les autorisations d’emplacement pour se connecter à l’aide de la pile BLE ne sont plus nécessaires. Si les « autorisations de proximité » ne sont pas accordées au niveau de Teams, un utilisateur reçoit une invite d’autorisations Bluetooth. Cette invite s’affiche, qu’un accessoire Bluetooth, tel qu’un casque, soit connecté ou non à son appareil. Si un accessoire Bluetooth est connecté, appuyez sur **Autoriser** pour connecter talkie-walkie à l’accessoire Bluetooth.
+
+## <a name="get-insight-into-walkie-talkie-usage-and-performance"></a>Obtenir des informations sur l’utilisation et les performances de Talkie-Walkie
+
+Le [rapport d’utilisation et de performances talkie-walkie](teams-analytics-and-reports/walkie-talkie-usage-report.md) dans le Centre d’administration Teams vous donne une vue d’ensemble de l’activité et des performances talkie-walkie dans votre organisation. Le rapport fournit des informations telles que le nombre de transmissions PTT effectuées et reçues, l’activité du canal, la durée de transmission et les détails de l’appareil et du participant.
 
 ## <a name="more-information"></a>Plus d’informations
 

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Administration pouvez lire les notes de publication de Salles Microsoft Teams, qui répertorient les améliorations cumulatives apportées à Salles Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f6d600552c2f636618ff14a1ccf88be60df74879
-ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
+ms.openlocfilehash: 5e6a0c85453d1613a5d3841a8511feea487937d7
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/11/2023
-ms.locfileid: "69774729"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845901"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notes de publication pour Salles Microsoft Teams
 
@@ -40,7 +40,7 @@ salles Teams est régie par la politique de cycle de vie moderne. Pour plus d’
 
 |Libération |Publié dans <br/> Microsoft Store |
 |--- |--- |
-|4.15.58.0 | 12/15/2022 |
+|4.15.58.0 | 1/10/2023 |
 |4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
@@ -97,7 +97,7 @@ salles Teams est régie par la politique de cycle de vie moderne. Pour plus d’
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salles Microsoft Teams présentation des fonctionnalités et résolution des problèmes
 
-### <a name="415580-12152022"></a>4.15.58.0 (12/15/2022)
+### <a name="415580-1102023"></a>4.15.58.0 (1/10/2023)
 
 Introduit dans cette mise à jour :
 

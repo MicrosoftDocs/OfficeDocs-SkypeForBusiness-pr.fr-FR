@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Découvrez comment utiliser le rapport Power BI du standard automatique Teams & rapport historique de file d’attente d’appels mis à jour pour afficher les données d’historique du standard automatique et de la file d’attente des appels.
-ms.openlocfilehash: 0ff8e7d1b5a1b9901c5b8a5da49d67fbf8ac5275
-ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
+ms.openlocfilehash: dad1fa07d476aa5bcfa1e39818d9d7a01b7fdc56
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2023
-ms.locfileid: "69812731"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845911"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports"></a>Rapports d’historique du standard automatique et de la file d’attente d’appels
 
@@ -537,11 +537,9 @@ L’API VAAC est accessible par toute application qui peut accéder aux applicat
 
 ### <a name="preparation"></a>Préparation
 
-Téléchargez [Postman](https://www.postman.com/).
-
-Téléchargez le dépôt : [sync_pstn_avs-analytics et décompressez-le](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics) .
-
-Importez le dossier dans Postman. 
+1. Téléchargez [Postman](https://www.postman.com/).
+1. Décompressez le `sync_pstn_avs-analytics.zip` fichier dans les [instructions du fichier zip téléchargé](#v3xx-installation).
+1. Importez le dossier dans Postman. 
 
 :::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="Capture d’écran montrant l’importation terminée":::
 
@@ -555,7 +553,6 @@ Importez le dossier dans Postman.
 6. Cliquez sur **Enregistrer**.
 
 :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Capture d’écran montrant les champs nom d’utilisateur, mot de passe et ID de locataire configurés":::
-
 
 7. Sélectionnez **Collections** dans le menu de gauche.
 8. Sélectionnez **Config API Access Token - Prod** et accédez à l’onglet **Corps** .
@@ -585,7 +582,6 @@ Une fois que vous aurez soumis votre entrée, vous obtiendrez quelques résultat
 :::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="Capture d’écran montrant le résultat de la requête avec le champ dataResult":::
 
 Dans ce cas, les données se trouveront dans le champ « dataResult » dans le même ordre que celui demandé dans les attributs de dimension et de mesure de la requête.
-
 
 ### <a name="compress-the-json-query"></a>Compresser la requête JSON
 

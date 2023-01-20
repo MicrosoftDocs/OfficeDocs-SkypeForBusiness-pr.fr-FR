@@ -19,12 +19,12 @@ description: Dans cet article, vous allez découvrir les rapports Teams disponib
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e93a34f19ecf53e05a51fe36983a9f46f741e67e
-ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
+ms.openlocfilehash: 1062afeebfde89835330fbc4f367e0fccbe01513
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2023
-ms.locfileid: "69820319"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845921"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Analyses et rapports Microsoft Teams
 
@@ -66,6 +66,7 @@ Nous améliorons continuellement l’expérience de création de rapports Teams 
 |[Rapport d’utilisation Rendez-vous virtuels Teams](/microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)|Oui|Oui|Non|Non| Nombre de rendez-vous virtuels<br>Nombre de rendez-vous Bookings<br>Nombre de rendez-vous intégrés aux dossiers médicaux électroniques (DSE) Teams<br>Durée moyenne d’un rendez-vous<br>Temps d’attente moyen des participants dans la salle d’attente<br>Heure de début<br>ID de réunion<br>Temps d’attente de la salle d’attente<br>Durée<br>Statut<br>Type de produit<br>Participants<br>Service<br>SMS envoyés<br>Si le rendez-vous a utilisé une fonctionnalité de Rendez-vous virtuels avancée|
 |[Rapport d’activité Rendez-vous virtuels avancé Teams](/microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Oui|Oui|Non|Non|Nombre d’utilisateurs utilisant des fonctionnalités de Rendez-vous virtuels avancées<br>Nombre d’utilisateurs qui utilisent des notifications sms<br>Nombre d’utilisateurs qui utilisent la conversation dans la salle d’attente (bientôt disponible)<br>Nombre d’utilisateurs qui effectuent des rendez-vous à la demande|
 |[Rapport Rendez-vous virtuels du connecteur DSE Teams](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Oui|Oui|Non|Non| Heure de début<br>Durée<br>Principal (nom de l’organisateur de la réunion)<br>E-mail du principal (e-mail de l’organisateur de la réunion)<br>Service<br>Préposés<br>Temps d’attente de la salle d’attente<br>Si le rendez-vous est dans la limite d’allocation|
+|[Rapport sur l’utilisation et les performances du talkie-walkie](walkie-talkie-usage-report.md) |Oui|Oui|Non|Non| Les métriques incluent le nombre de transmissions push-to-talk (PTT) effectuées et reçues, l’activité du canal, la durée de transmission et les détails de l’appareil et du participant.|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>Rendre les données spécifiques de l’utilisateur anonymes

@@ -1,7 +1,7 @@
 ---
 title: Gérer les stratégies de réunion dans Teams
-author: tonysmit
-ms.author: tonysmit
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Learn to manage meeting policy settings in Teams. Use policy settings to control the features available to meeting participants for meetings scheduled by users.
-ms.openlocfilehash: 374c51a1356ebdc7940185f64a98a334ce7bb66d
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 9b4d816902f5956bdc3dabee5a79fc644768d170
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68613996"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845871"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans Teams
 
@@ -334,7 +334,7 @@ Pour les réunions qui nécessitent une expérience vidéo de la plus haute qual
 > [!NOTE]
 > This feature is still in development. Screen sharing is a per-participant policy, however, it can be affected by the organizer's screen sharing settings, as described in this section.
 
-Ce paramètre détermine si le partage de bureau et/ou de fenêtre est autorisé dans la réunion de l’utilisateur. Les participants à la réunion qui n’ont pas de stratégies affectées (par exemple, les participants externes) héritent de la stratégie de l’organisateur de la réunion.
+Ce paramètre détermine si le partage de bureau et/ou de fenêtre est autorisé dans la réunion de l’utilisateur. Les participants à la réunion qui n’ont aucune stratégie affectée (par exemple, les participants externes) héritent de la stratégie de l’organisateur de la réunion.
 
 |Valeur du paramètre |Comportement  |
 |---------|---------|
@@ -387,13 +387,13 @@ Il s’agit d’une stratégie par utilisateur. Le fait qu’une organisation ai
 - Invités
 - Utilisateur d’accès externe  
 
-Si les utilisateurs d’accès externe peuvent donner le contrôle à d’autres participants externes pendant que le partage est contrôlé par les **participants externes peuvent donner ou demander le paramètre de contrôle** dans leur organisation.
+Si les utilisateurs d’accès externe peuvent donner le contrôle à d’autres participants externes tandis que le partage est contrôlé par le paramètre **De contrôle externe, les participants externes peuvent donner ou demander le contrôle** dans leur organisation.
 
 Pour utiliser PowerShell afin de contrôler si les participants externes peuvent transmettre des demandes de contrôle ou d’acceptation, utilisez l’applet de commande AllowExternalParticipantGiveRequestControl.
 
 ### <a name="allow-powerpoint-sharing"></a>Autoriser le partage de PowerPoint
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si l’utilisateur peut partager des diapositives PowerPoint dans une réunion. Les participants externes, y compris les utilisateurs anonymes, invités et externes, héritent de la stratégie de l’organisateur de la réunion.
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si l’utilisateur peut partager des diapositives PowerPoint dans une réunion. Les participants externes, y compris les utilisateurs anonymes, invités et d’accès externe, héritent de la stratégie de l’organisateur de la réunion.
 
 Examinons l’exemple suivant.
 
@@ -406,7 +406,7 @@ Amanda ne peut pas partager les diapositives PowerPoint dans les réunions, mêm
 
 ### <a name="allow-whiteboard"></a>Autoriser le tableau blanc
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut partager le tableau blanc pendant une réunion. Les participants externes, y compris les utilisateurs anonymes, invités et externes, héritent de la stratégie de l’organisateur de la réunion.
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut partager le tableau blanc pendant une réunion. Les participants externes, y compris les utilisateurs anonymes, invités et d’accès externe, héritent de la stratégie de l’organisateur de la réunion.
 
 Examinons l’exemple suivant.
 
@@ -419,7 +419,7 @@ Amanda ne peut pas partager le tableau blanc pendant une réunion, même si elle
 
 ### <a name="allow-shared-notes"></a>Autoriser les notes partagées
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut créer et partager des notes pendant une réunion. Les participants externes, y compris les utilisateurs anonymes, invités et externes, héritent de la stratégie de l’organisateur de la réunion. L’onglet **Notes de réunion** est pris en charge pour les réunions comptant jusqu’à 100 participants.
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut créer et partager des notes pendant une réunion. Les participants externes, y compris les utilisateurs anonymes, invités et d’accès externe, héritent de la stratégie de l’organisateur de la réunion. L’onglet **Notes de réunion** est pris en charge pour les réunions comptant jusqu’à 100 participants.
 
 Examinons l’exemple suivant.
 

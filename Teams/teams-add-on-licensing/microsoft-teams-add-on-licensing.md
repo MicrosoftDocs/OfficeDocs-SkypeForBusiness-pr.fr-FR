@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Découvrez les licences de module complémentaire Microsoft pour Microsoft Teams et les fonctionnalités que vous obtenez avec chaque licence.
-ms.openlocfilehash: cdda8211bb700683d94782a7db719e5860e7d6eb
-ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
+ms.openlocfilehash: 490eb833c923ba1a247bb140222b449530131947
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2023
-ms.locfileid: "69799920"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845881"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licences de module complémentaire Microsoft Teams
 
@@ -59,12 +59,12 @@ Tous les plans Microsoft 365 permettent aux utilisateurs de Teams d’effectuer 
 
 Que vous soyez une petite entreprise, une organisation d’entreprise, un établissement d’enseignement, une agence gouvernementale ou une organisation à but non lucratif, vous disposez de trois façons d’obtenir le système téléphonique Teams et la connectivité RTC :
 
-- Achetez un plan Microsoft 365 Business, E1/E3, A1/A3 ou G1/G3 et ajoutez des licences groupées **Téléphone Teams avec forfait d’appels** .
+- Achetez une offre Teams Essentials avec AAD, Microsoft 365 Business, E1/E3, A1/A3, F1/F3 ou G1/G3 et ajoutez des licences groupées **Téléphone Teams avec forfait d’appels** .
   - Ce modèle vous offre des fonctionnalités PBX du système téléphonique Teams et un plan d’appels nationaux Microsoft.
   - Choisissez cette configuration si vous souhaitez que la gestion et la facturation des numéros de téléphone soient gérées par Microsoft.
   - Vérifiez si la [licence groupée Téléphone Teams avec forfait d’appels est disponible dans votre région](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- Achetez un plan E1/E3, A1/A3 ou G1/G3, ajoutez **des** licences Téléphonie Teams standard et choisissez un forfait d’appels autonome Microsoft ou un opérateur RTC tiers.
+- Achetez un plan Teams Essentials avec AAD, E1/E3, A1/A3, F1/F3 ou G1/G3, ajoutez **des** licences Téléphonie Teams standard et choisissez un forfait d’appels autonome Microsoft ou un opérateur RTC tiers.
   - Ce modèle vous donnera le système téléphonique Teams, mais vous devrez quand même vous connecter au RTC.
   - Pour afficher toutes vos options de connectivité RTC, consultez [Options de connectivité RTC](../pstn-connectivity.md).
   - Pour en savoir plus sur toutes les solutions vocales, consultez [Planifier votre solution vocale Teams](../cloud-voice-landing-page.md).
