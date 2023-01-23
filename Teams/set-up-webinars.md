@@ -20,19 +20,19 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: Découvrez comment gérer les stratégies d’inscription aux webinaires et aux réunions dans Teams.
-ms.openlocfilehash: 5493104b93a74dad6763e0a5ba6c9e6fd57575de
-ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
+ms.openlocfilehash: 097f4c385261ba1aea96990751d208b99d4d8b93
+ms.sourcegitcommit: 5e0900ed7a21ed4e854cc00dbfb4ae4ff2372262
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2022
-ms.locfileid: "69438472"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69950431"
 ---
 # <a name="set-up-webinars-in-microsoft-teams"></a>Configurer des webinaires dans Microsoft Teams
 
 > [!NOTE]
 > Cet article décrit certaines fonctionnalités des webinaires qui sont en préversion et nécessitent une licence Teams Premium.
 
-Microsoft offre désormais une nouvelle expérience de webinaire ; cet article explique comment mettre à jour vos paramètres pour utiliser ces fonctionnalités.
+Microsoft propose désormais une nouvelle expérience de webinaire ; Cet article explique comment mettre à jour vos paramètres pour utiliser ces fonctionnalités.
 
 Nous vous recommandons d’utiliser la nouvelle expérience de webinaire si vous envisagez d’utiliser des webinaires.
 
@@ -54,7 +54,9 @@ La nouvelle expérience de webinaire est configurée dans PowerShell. Consultez 
 Pour plus d’informations sur les différences entre les réunions, les webinaires et les événements en direct, consultez [Réunions, webinaires et événements en direct](quick-start-meetings-live-events.md).
 
 > [!NOTE]
-> La nouvelle expérience de webinaire n’est pas disponible pour Microsoft 365 GCC, Microsoft 365 GCC High ou Microsoft DoD 365. L’expérience de webinaire existante n’est pas disponible pour Microsoft 365 GCC High ou Microsoft 365 DoD.
+> Pour les utilisateurs locaux, la nouvelle expérience de webinaire n’est pas encore disponible.
+>
+> La nouvelle expérience de webinaire n’est pas disponible pour Microsoft 365 GCC, Microsoft 365 GCC High ou Microsoft 365 DoD. L’expérience de webinaire existante n’est pas disponible pour Microsoft 365 GCC High ou Microsoft 365 DoD.
 
 > [!IMPORTANT]
 > Pour permettre aux utilisateurs de configurer des webinaires, Listes Microsoft doivent être configurés dans SharePoint en activant la création de listes personnelles à des fins d’eDiscovery. Pour plus d’informations, consultez [Paramètres de contrôle pour Listes Microsoft](/sharepoint/control-lists).
@@ -113,7 +115,7 @@ Vous pouvez utiliser le Centre d’administration Teams sous **Stratégies de r�
 
 ### <a name="meeting-registration"></a>Inscription à une réunion
 
-Si vous activez **l’inscription aux réunions**, les utilisateurs de votre organisation peuvent planifier des webinaires et des réunions nécessitant une inscription. Par défaut, cette option est activée. Si vous souhaitez désactiver l’inscription aux réunions et les webinaires, définissez cette stratégie sur **Désactivé**.
+Si vous activez **l’inscription aux réunions**, les utilisateurs de votre organisation peuvent planifier des webinaires et des réunions nécessitant une inscription. Par défaut, ce paramètre est activé. Si vous souhaitez désactiver l’inscription aux réunions et les webinaires, définissez cette stratégie sur **Désactivé**.
 
 **La planification des réunions privées** doit être activée pour que l’inscription à la réunion fonctionne. En savoir plus sur [la planification de réunions privées](meeting-policies-in-teams-general.md).
 
@@ -126,7 +128,7 @@ Pour les étudiants des locataires éducation, cette stratégie est désactivée
 
 Cette stratégie contrôle les utilisateurs qui peuvent s’inscrire et participer à des webinaires avec inscription à une réunion uniquement. Cette stratégie comporte deux options, qui ne sont disponibles que si **l’inscription à la réunion** est activée. Par défaut, **Qui peut s’inscrire** est défini sur **Tout le monde**.
 
-Si vous sélectionnez **Tout le monde**, tous les utilisateurs, y compris les utilisateurs anonymes, peuvent s’inscrire aux webinaires et y participer. Si vous sélectionnez **Tout le monde dans l’organisation**, seuls les utilisateurs de votre organisation peuvent s’inscrire aux webinaires et y participer. Si l’inscription aux réunions est désactivée, le paramètre **Qui peut s’inscrire** n’est pas disponible et personne ne peut s’inscrire aux webinaires.
+Si vous sélectionnez **Tout le monde**, tous les utilisateurs, y compris les utilisateurs anonymes, peuvent s’inscrire aux webinaires et y participer. Si vous sélectionnez **Tout le monde dans l’organisation**, seuls les utilisateurs de votre organisation peuvent s’inscrire aux webinaires et y participer. Si l’inscription à une réunion est désactivée, le paramètre **Qui peut s’inscrire** n’est pas disponible et personne ne peut s’inscrire aux webinaires.
 
 La valeur par défaut pour **Qui peut s’inscrire** est **Tout le monde dans l’organisation** dans les locataires éducation. Pour plus d’informations, consultez [Teams pour l'éducation Assistant Stratégie](easy-policy-setup-edu.md).
 
@@ -134,7 +136,7 @@ La valeur par défaut pour **Qui peut s’inscrire** est **Tout le monde dans l�
 
 Vous pouvez utiliser le Centre d’administration Teams sous **Stratégies de réunion de réunions** >  pour activer le **rapport d’engagement**.
 
-Lorsque cela est activé, les organisateurs peuvent voir les rapports de qui s’est inscrit et a participé aux webinaires ou aux réunions qu’ils ont configurés. Cette stratégie est activée par défaut. Pour plus d’informations, consultez [Stratégies de réunion dans Teams - Rapport d’engagement](meeting-policies-in-teams-general.md#engagement-report). Pour plus d’informations sur l’expérience de l’utilisateur final, consultez [Afficher et télécharger les rapports de présence aux réunions](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
+Lorsque ce paramètre est activé, les organisateurs peuvent voir les rapports de qui s’est inscrit et a participé aux webinaires ou aux réunions qu’ils ont configurés. Cette stratégie est activée par défaut. Pour plus d’informations, consultez [Stratégies de réunion dans Teams - Rapport d’engagement](meeting-policies-in-teams-general.md#engagement-report). Pour plus d’informations sur l’expérience de l’utilisateur final, consultez [Afficher et télécharger les rapports de présence aux réunions](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 Dans PowerShell, le paramètre **AllowEngagementReport** peut être utilisé pour activer cette option. Cette stratégie est activée par défaut. Pour la désactiver, exécutez la commande suivante dans PowerShell :
 
