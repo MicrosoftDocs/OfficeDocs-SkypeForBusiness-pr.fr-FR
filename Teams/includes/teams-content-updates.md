@@ -3,6 +3,23 @@
 
 
 
+## <a name="week-of-january-16-2023"></a>Semaine du 16 janvier 2023
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 1/18/2023 | [Analyses et rapports Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | modifié |
+| 1/19/2023 | [Obtention de numéros de téléphone pour vos utilisateurs](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modifié |
+| 1/19/2023 | [Contacter l’équipe des services de numéros de téléphone](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | modifié |
+| 1/19/2023 | [licences Microsoft Teams Premium](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modifié |
+| 1/20/2023 | [Rapport sur l’utilisation et les performances du talkie-walkie](/MicrosoftTeams/teams-analytics-and-reports/walkie-talkie-usage-report) | ajouté |
+| 1/18/2023 | [Analyses et rapports Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | modifié |
+| 1/19/2023 | [Obtention de numéros de téléphone pour vos utilisateurs](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modifié |
+| 1/19/2023 | [Contacter l’équipe des services de numéros de téléphone](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | modifié |
+| 1/19/2023 | [licences Microsoft Teams Premium](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modifié |
+| 1/20/2023 | [Rapport sur l’utilisation et les performances du talkie-walkie](/MicrosoftTeams/teams-analytics-and-reports/walkie-talkie-usage-report) | ajouté |
+
+
 ## <a name="week-of-january-09-2023"></a>Semaine du 9 janvier 2023
 
 
@@ -66,25 +83,3 @@
 |------|------------|--------|
 | 12/19/2022 | [Gérer l’accès aux applications Teams dans Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | modifié |
 | 12/21/2022 | [Modèle de réunion de rendez-vous virtuel dans Microsoft Teams](/MicrosoftTeams/virtual-appointment-meeting-template) | ajouté |
-
-
-## <a name="week-of-december-12-2022"></a>Semaine du 12 décembre 2022
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 12/14/2022 | [Gestion des licences d’appareils partagés Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/teams-shared-device-license) | ajouté |
-| 12/14/2022 | [Contrôler qui peut contourner la salle d’attente de la réunion dans Microsoft Teams](/MicrosoftTeams/who-can-bypass-meeting-lobby) | ajouté |
-| 12/14/2022 | [Définir l’interface utilisateur des appareils Android Microsoft Teams](/MicrosoftTeams/devices/teams-android-devices-user-interface) | modifié |
-| 12/14/2022 | [Appareils pour Teams](/MicrosoftTeams/devices/teams-ip-phones) | modifié |
-| 12/14/2022 | [Planifier le routage direct](/MicrosoftTeams/direct-routing-plan) | modifié |
-| 12/14/2022 | [Microsoft Teams Premium - Vue d’ensemble pour les administrateurs](/MicrosoftTeams/enhanced-teams-experience) | modifié |
-| 12/14/2022 | [Configurer les téléphones de zone commune pour Microsoft Teams](/MicrosoftTeams/set-up-common-area-phones) | modifié |
-| 12/14/2022 | [licences Microsoft Teams Premium](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modifié |
-| 12/15/2022 | [Questions fréquentes à propos de l’audioconférence](/MicrosoftTeams/audio-conferencing-common-questions) | modifié |
-| 12/15/2022 | [Numéros de téléphone et modifications des licences](/MicrosoftTeams/phone-numbers-licensing-changes) | modifié |
-| 12/15/2022 | [Notes de publication pour Salles Microsoft Teams (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | modifié |
-| 12/16/2022 | [Serveurs proxy pour Teams ou Skype Entreprise Online](/MicrosoftTeams/proxy-servers-for-skype-for-business-online) | modifié |
-| 12/16/2022 | [Déployer Salles Microsoft Teams sur Android](/MicrosoftTeams/devices/collab-bar-deploy) | modifié |
-| 12/16/2022 | [Mettre à jour des appareils Microsoft Teams à distance](/MicrosoftTeams/devices/remote-update) | modifié |
-| 12/16/2022 | [Salles Microsoft Teams sur la sécurité Windows](/MicrosoftTeams/rooms/security-windows) | modifié |
