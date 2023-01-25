@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 'Pour les professionnels de l’informatique : découvrez comment fonctionne la participation anonyme aux réunions dans Microsoft Teams.'
-ms.openlocfilehash: fe4dbec2bc606838bd5cafbaec5ef9d9ecdd8a88
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: a4f1833059febf2f8481cba9f1b3716519613e89
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948686"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983732"
 ---
 # <a name="manage-anonymous-participant-access-to-teams-meetings-it-admins"></a>Gérer l’accès anonyme des participants aux réunions Teams (administrateurs informatiques)
 
@@ -34,9 +34,9 @@ La participation anonyme à une réunion est contrôlée par un paramètre au ni
 - Le paramètre **Utilisateurs anonymes pouvant participer à une réunion** Teams (au niveau de l’organisation) doit être activé.
 - Une stratégie de réunion Teams doit être affectée à l’organisateur de la réunion dans laquelle le contrôle **Autoriser des personnes anonymes à rejoindre une réunion** est activé.
 
-La participation anonyme est activée par défaut pour l’organisation et dans la stratégie de réunion globale par défaut.
+La participation anonyme aux réunions est activée par défaut pour l’organisation et dans la stratégie de réunion globale par défaut. Nous vous recommandons de conserver le paramètre au niveau de l’organisation et d’utiliser des stratégies de réunion pour activer ou désactiver la participation anonyme à une réunion pour différents utilisateurs (organisateurs de réunion).
 
-Notez que si la participation anonyme est activée, les stratégies de lobbying affectent la façon dont les participants anonymes rejoignent les réunions. Pour plus d’informations, consultez [Contrôler qui peut contourner la salle d’attente de la réunion dans Microsoft Teams](who-can-bypass-meeting-lobby.md).
+Notez que si la participation anonyme à une réunion est activée, les stratégies de lobbying affectent la façon dont les participants anonymes rejoignent les réunions. Pour plus d’informations, consultez [Contrôler qui peut contourner la salle d’attente de la réunion dans Microsoft Teams](who-can-bypass-meeting-lobby.md).
 
 #### <a name="meetings-with-trusted-organizations"></a>Réunions avec des organisations approuvées
 
@@ -81,15 +81,15 @@ L’application des modifications apportées aux stratégies de réunion peut pr
 
 Vous pouvez contrôler si les participants anonymes peuvent rejoindre des réunions à l’aide de :
 
-- Paramètre `-DisableAnonymousJoin` dans [Set-CsTeamsMeetingConfiguration](/powershell/module/skype/set-csteamsmeetingconfiguration) pour configurer le paramètre au niveau de l’organisation. (Nous vous recommandons de laisser cette valeur définie sur False et d’utiliser Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting pour contrôler la jointure anonyme au niveau de l’utilisateur ou du groupe.)
+- Paramètre `-DisableAnonymousJoin` dans [Set-CsTeamsMeetingConfiguration](/powershell/module/skype/set-csteamsmeetingconfiguration) pour configurer le paramètre au niveau de l’organisation. (Nous vous recommandons de laisser cette valeur définie sur False et d’utiliser Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting pour contrôler la participation anonyme à la réunion au niveau de l’utilisateur ou du groupe.)
 - Paramètre `-AllowAnonymousUsersToJoinMeeting` dans [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) pour configurer une stratégie de réunion au niveau de l’utilisateur
 
-Pour autoriser les participants anonymes à rejoindre des réunions, vous devez configurer les deux pour autoriser la participation anonyme en définissant les valeurs suivantes :
+Pour autoriser les participants anonymes à rejoindre des réunions, vous devez configurer les deux pour autoriser la participation anonyme à une réunion en définissant les valeurs suivantes :
 
 - `Set-CsTeamsMeetingConfiguration -DisableAnonymousJoin` défini sur **$false**
 - `Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting` défini sur **$true** pour les organisateurs de la réunion concernés
 
-## <a name="block-anonymous-join-for-specific-client-types"></a>Bloquer la jointure anonyme pour des types de clients spécifiques
+## <a name="block-anonymous-meeting-join-for-specific-client-types"></a>Bloquer la participation anonyme à une réunion pour des types de clients spécifiques
 
 Lorsque des participants anonymes sont autorisés à participer à des réunions, ils peuvent utiliser le client Teams ou un client personnalisé créé à [l’aide de Azure Communication Services](/azure/communication-services/). 
 
