@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 85a700faf37044c97c432707b07b6d6699c6692b
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: 87befd2ff63fc5e3f0aa9e1c715972e5061b8fc7
+ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948581"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69981869"
 ---
 # <a name="whats-new-for-direct-routing"></a>Nouveautés du routage direct
 
@@ -43,7 +43,7 @@ Si aucune action n’est effectuée avant le 1er juin, les utilisateurs ne pourr
 
 Pour éviter l’impact sur le service :
 
-- Utilisez les sous-réseaux recommandés : (52.112.0.0/14 et 52.120.0.0/14) pour toutes les règles de classification ou de liste de contrôle d’accès.
+- Utilisez les sous-réseaux recommandés : (52.112.0.0/14 et 52.122.0.0/15) pour toutes les règles de classification ou de liste de contrôle d’accès.
 - Arrêtez l’utilisation du nom de domaine complet sip-all lors de la configuration des contrôles de bordure de session pour le routage direct.
 
 Pour plus d’informations, consultez [Planifier le routage direct](direct-routing-plan.md).
