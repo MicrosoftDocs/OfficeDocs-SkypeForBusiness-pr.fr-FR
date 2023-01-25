@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment planifier la déviation du trafic multimédia avec le routage direct du système téléphonique, ce qui vous permet de raccourcir le chemin du trafic multimédia et d’améliorer les performances.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 638a39a843648ab8fab770c28d92b196201e20f5
-ms.sourcegitcommit: c627bd1df17aefdc353bc4da6db169dfe169031e
+ms.openlocfilehash: ea92103789927d35ae8bdd317987f32863d4d74e
+ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68680507"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69981789"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -151,7 +151,7 @@ Le tableau ci-dessous résume la différence entre les processeurs multimédias 
 
 Les plages d’adresses IP sont les suivantes :
 - 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254)
-- 52.120.0.0/14 (adresses IP de 52.120.0.1 à 52.123.255.254)
+- 52.122.0.0/15 (adresses IP de 52.122.0.1 à 52.123.255.254)
 
 \* Explication du transcodage : 
 
@@ -199,7 +199,7 @@ Vous devez placer ces trois noms de domaine complets pour :
 
 Les noms de domaine complets **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com** et **sip3.pstnhub.microsoft.com** sont résolus en adresses IP à partir des sous-réseaux suivants :
 - 52.112.0.0/14
-- 52.120.0.0/14
+- 52.122.0.0/15
 
 Vous devez ouvrir des ports pour toutes ces plages d’adresses IP dans votre pare-feu afin d’autoriser le trafic entrant et sortant vers et depuis les adresses pour la signalisation.
 
@@ -239,8 +239,8 @@ Vous devez utiliser les ports suivants :
 
 | Trafic | De | À | Port source | Port de destination|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| SIP/TLS| SIP Proxy | Sbc | 1024 - 65535 | Défini sur le SBC |
-| SIP/TLS | Sbc | SIP Proxy | Défini sur le SBC | 5061 |
+| SIP/TLS| SIP Proxy | SBC | 1024 - 65535 | Défini sur le SBC |
+| SIP/TLS | SBC | SIP Proxy | Défini sur le SBC | 5061 |
 
 
 ## <a name="media-traffic-ip-and-port-ranges"></a>Trafic multimédia : plages d’adresses IP et de ports
@@ -256,8 +256,8 @@ Le client doit avoir accès aux ports spécifiés (voir le tableau) sur l’adre
 
 | Trafic | De | À | Port source | Port de destination|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Client | Sbc | 50000-50019| Défini sur le SBC |
-| UDP/SRTP | Sbc | Client | Défini sur le SBC | 50000-50019  |
+| UDP/SRTP | Client | SBC | 50000-50019| Défini sur le SBC |
+| UDP/SRTP | SBC | Client | Défini sur le SBC | 50000-50019  |
 
 
 > [!NOTE]
@@ -285,8 +285,8 @@ La plage de ports des relais de transport Teams (applicable à tous les environn
 
 | Trafic | De | À | Port source | Port de destination|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Relais de transport | Sbc | 50 000 -59 999    | Défini sur le SBC |
-| UDP/SRTP | Sbc | Relais de transport | Défini sur le SBC | 50 000 – 59 999, 3478-3481     |
+| UDP/SRTP | Relais de transport | SBC | 50 000 -59 999    | Défini sur le SBC |
+| UDP/SRTP | SBC | Relais de transport | Défini sur le SBC | 50 000 – 59 999, 3478-3481     |
 
 
 > [!NOTE]
@@ -323,8 +323,8 @@ La plage de ports des processeurs multimédias (applicable à tous les environne
 
 | Trafic | De | À | Port source | Port de destination|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Processeur multimédia | Sbc | 3478-3481 et 49 152 – 53 247    | Défini sur le SBC |
-| UDP/SRTP | Sbc | Processeur multimédia | Défini sur le SBC | 3478-3481 et 49 152 – 53 247     |
+| UDP/SRTP | Processeur multimédia | SBC | 3478-3481 et 49 152 – 53 247    | Défini sur le SBC |
+| UDP/SRTP | SBC | Processeur multimédia | Défini sur le SBC | 3478-3481 et 49 152 – 53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Configurer des jonctions distinctes pour le contournement du trafic multimédia et le contournement non multimédia  
 

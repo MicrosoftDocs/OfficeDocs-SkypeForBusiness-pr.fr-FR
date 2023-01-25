@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct Microsoft vous permet de connecter un contrôleur de bordure de session (SBC) fourni par le client pris en charge au système téléphonique.
-ms.openlocfilehash: 3dcdc52e736f6eef1d77a8e2120a5fc6470437d7
-ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
+ms.openlocfilehash: 5d7912adf0c97bd0d26e6000efdd42d745e55dc3
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2023
-ms.locfileid: "69981779"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983692"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -189,6 +189,11 @@ En savoir plus : [Configuration requise du programme - Programme racine approuv�
 
 > [!NOTE]
 > Si la prise en charge du protocole TLS mutuel (MTLS) est activée pour la connexion Teams sur le SBC, vous devez installer les certificats Baltimore CyberTrust Root et DigiCert Global Root G2 dans le magasin racine de confiance SBC du contexte TLS Teams. (Cela est dû au fait que les certificats de service Microsoft utilisent l’un de ces deux certificats racines.) Pour télécharger ces certificats racines, consultez [Office 365 Chaînes de chiffrement](/microsoft-365/compliance/encryption-office-365-certificate-chains). Pour plus d’informations, voir [Modifications des certificats TLS Office](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes).
+  
+Pour vérifier que la connexion MTLS provient de l’infrastructure Teams, le SBC doit être configuré pour implémenter les vérifications suivantes sur le certificat côté serveur Teams :
+- Vérifiez que la chaîne d’émission de certificat provient de l’une des autorités de certification racines suivantes :- [Baltimore CyberTrust Root](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#baltimore-cybertrust-root)
+-- [DigiCert Global Root G2](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#digicert-global-root-g2)
+- Vérifiez que le certificat « Autre nom de l’objet » inclut « sip.pstnhub.microsoft.com »
 
 ## <a name="sip-signaling-fqdns"></a>Signalisation SIP : noms de domaine complets
 
