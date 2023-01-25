@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7a608132af2807c1fc59e25f7dac39433fe5dc5
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: 0c2ca0a88f17f3493bfbbcff727321c45a04fdea
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392094"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990379"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Expérience de réunion en lecture seule de Teams
 
@@ -29,10 +29,10 @@ ms.locfileid: "69392094"
 > Les diffusions en lecture seule sont disponibles dans Microsoft 365 E3/E5 et Microsoft 365 A3/A5. Cette fonctionnalité sera activée le 1er mars 2021 avec le mode par défaut désactivé. Le déploiement de la fonctionnalité du cloud de la communauté du secteur public Microsoft 365 (GCC) commencera à la fin du mois de mars 2021. Le déploiement du cloud de la communauté du secteur public de haut niveau (GCCH) et du Département de la Défense (DoD) s’effectuera à une date ultérieure. Vous devez modifier la stratégie par défaut après cette date si vous voulez que la fonctionnalité fonctionne par défaut. Utiliser PowerShell pour activer la valeur `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` de la stratégie.
 
 > [!Note]
-> Si votre réunion atteint sa capacité, Teams s’adaptera sans problème à une expérience de diffusion en lecture seule de 10 000 personnes. De plus, pendant cette période de travail à distance accru, tirez parti de diffusions encore plus importantes de 20 000 personnes jusqu’à la fin de cette année. Actuellement, les webinaires ne permettent pas une diffusion en mode "vue seulement".
+> Si votre réunion atteint sa capacité, Teams s’adaptera sans problème à une expérience de diffusion en lecture seule de 10 000 personnes. De plus, pendant cette période de travail à distance accrue, profitez d’émissions encore plus grandes de 20 000 personnes jusqu’au 30 juin 2023. Actuellement, les webinaires ne permettent pas une diffusion en mode "vue seulement".
 
 > [!Note]
-> Une réunion Teams n’est pas un événement en direct Teams (TLE) et ne tirera pas parti de Microsoft eCDN. Pour plus d’informations, consultez [Microsoft liste de contrôle d’intégration eCDN](/ecdn/integration/onboarding-checklist-for-tle-customers).
+> Une réunion Teams n’est pas un événement en direct Teams (TLE) et ne tirera pas parti de Microsoft eCDN. Pour plus d’informations, consultez [Liste de vérification de l’intégration de Microsoft eCDN](/ecdn/integration/onboarding-checklist-for-tle-customers).
 
 Microsoft Teams permet à 10 000 participants au plus de prendre part à une réunion Teams. Une fois la capacité de la réunion principale atteinte(c'est-à-dire lorsque 1000 utilisateurs entrent dans une réunion), d’autres participants y prendront part avec une expérience de lecture seule.
 

@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et périphériques USB (tels que les casques, les haut-parleurs, les webcams et les moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 88ea7be3fc27fadccb25cd173b0df5f7f618004f
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: f8c964dddf2214540e9c384993f46c5a3d944da1
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749070"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990389"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Appareils audio et vidéo USB certifiés pour Microsoft Teams
 
@@ -81,13 +81,27 @@ Si vous êtes un fabricant et que vous souhaitez rejoindre le programme de certi
 
 ## <a name="certified-devices"></a>Appareils certifiés
 
-*Table mise à jour en décembre 2022*
+*Table mise à jour en janvier 2023*
 
 > [!NOTE]
 > Le format de date est MM/JJ/AAAA.
 
 | Fabricant        | Modèle                                                     | Qualifié      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |Casques SDW 5061 avec dongle USB SDW D1 DECT              |1/20/2023       |Certifié pour Microsoft Teams                           |
+|EPOS                 |Casques SDW 5031 avec dongle USB SDW D1 DECT              |1/20/2023       |Certifié pour Microsoft Teams                           |
+|EPOS                 |Casques SDW 5011 avec dongle USB SDW D1 DECT              |1/20/2023       |Certifié pour Microsoft Teams                           |
+|Dell                 |P2424HEB Monitor                                           |1/18/2023       |Certifié pour Microsoft Teams                           |
+|Dell                 |Moniteur P2724DEB                                           |1/18/2023       |Certifié pour Microsoft Teams                           |
+|Dell                 |P3424WEB Monitor                                           |1/18/2023       |Certifié pour Microsoft Teams                           |
+|Yealink              |Casque BH76                                               |12/22/2022      |Certifié pour Microsoft Teams                           |
+|Logitech             |Brio 300/301/305 Caméra                                    |12/22/2022      |Certifié pour Microsoft Teams                           |
+|Poly                 |Casques savi 7310 de la série UC avec dongle version v1008     |12/22/2022      |Certifié pour Microsoft Teams                           |
+|Poly                 |Casques savi 7320 de la série UC avec dongle version v1008     |12/22/2022      |Certifié pour Microsoft Teams                           |
+|Yealink              |Casque portable double/mono WH62                            |12/21/2022      |Certifié pour Microsoft Teams                           |
+|Yealink              |Casque portable WH63 avec dongle DECT                     |12/21/2022      |Certifié pour Microsoft Teams                           |
+|Cisco                |Casques de série 320 (321/322)                              |12/20/2022      |Certifié pour Microsoft Teams                           |
+|Cisco                |Casques de la série 720 (721/722)                              |12/20/2022      |Certifié pour Microsoft Teams                           |
 |Lenovo               |Moniteur T24mv-30                                           |12/19/2022      |Certifié pour Microsoft Teams                           |
 |Lenovo               |Moniteur T27hv-30                                           |12/19/2022      |Certifié pour Microsoft Teams                           |
 |Lenovo               |Téléphone haut-parleur de base d’une téléconférence                          |12/19/2022      |Certifié pour Microsoft Teams                           |
@@ -97,15 +111,18 @@ Si vous êtes un fabricant et que vous souhaitez rejoindre le programme de certi
 |EPOS                 |EXPAND Vision 1/S6                                         |10/13/2022      |Certifié pour Microsoft Teams                           |
 |Lenovo               |Go USB-C ANC In-Ear Headphones                             |9/20/2022       |Certifié pour Microsoft Teams                           |
 |Logi                 |Brio 500/505/501 Caméras                                   |9/14/2022       |Certifié pour Microsoft Teams                           |
+|Sony                 |Écouteurs YY2969                                             |9/6/2022        |Certifié pour Microsoft Teams                           |
 |Jabra                |Engager 50 II                                               |7/29/2022       |Certifié pour Microsoft Teams                           |
 |Jabra                |Engagement 40 II                                               |7/29/2022       |Certifié pour Microsoft Teams                           |
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |Certifié pour Microsoft Teams                           |
+|Microsoft            |Audio Dock Speakerphone                                    |7/12/2022       |Certifié pour Microsoft Teams                           |
 |Dell                 |Caméra WB5023                                              |6/29/2022       |Certifié pour Microsoft Teams                           |
 |EPOS                 |Casque ADAPT 560 II                                       |6/22/2022       |Certifié pour Microsoft Teams                           |
 |EPOS                 |Casques de la série C10/C20/C50                                |5/31/2022       |Certifié pour Microsoft Teams                           |
 |Jabra                |Casque mono/stéréo Engage55                               |5/25/2022       |Certifié pour Microsoft Teams                           |
 |EPOS                 |EXPAND 40T Speakerphone                                    |5/24/2022       |Certifié pour Microsoft Teams                           | 
 |Dell                 |Moniteur U3223QZ                                            |5/24/2022       |Certifié pour Microsoft Teams                           |
+|Microsoft            |Presenter+                                                 |5/12/2022       |Certifié pour Microsoft Teams                           |
 |Poly                 |Moniteur Studio P21                                         |5/12/2022       |Certifié pour Microsoft Teams                           |
 |Yealink              |Casque UH38                                               |5/2/2022        |Certifié pour Microsoft Teams                           |   
 |Yealink              |Casque BH72                                               |5/2/2022        |Certifié pour Microsoft Teams                           |
